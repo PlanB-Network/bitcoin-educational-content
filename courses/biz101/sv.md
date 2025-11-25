@@ -33,7 +33,7 @@ Oavsett om du representerar ett litet företag eller ett stort bolag syftar den 
 
 Är du redo att dyka ner i Bitcoin-världen för företag? Låt oss gå!
 
-**Obs**: Om du stöter på okända termer under kursen, vänligen konsultera [ordlistan](https://planb.network/resources/glossary) för definitioner.
+**Obs**: Om du stöter på okända termer under kursen, vänligen konsultera [ordlistan](https://planb.academy/resources/glossary) för definitioner.
 
 # Valuta, betalningssystem och Bitcoin
 
@@ -232,7 +232,7 @@ Bitcoin får oss att tänka om kring pengars grundläggande natur. Kan du förkl
 
 För mer information om Bitcoin, dess historia, hur det fungerar och hur det används, föreslår jag också att du följer denna andra omfattande kurs:
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 ## Introduktion till Lightning Network
 
@@ -313,7 +313,7 @@ Lightning Network är idealisk för Bitcoin-betalningar i fysiska butiker eller 
 
 För mer information om det tekniska arbetet med Lightning Network föreslår jag också att du kollar in denna andra omfattande kurs:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 # Bitcoin i företagskassan
 
@@ -431,9 +431,9 @@ Dessa tänkare har format idén om att statliga ingripanden snedvrider marknader
 
 För mer information om detta ämne:
 
-https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Innehav av Bitcoin i företagskassan
 
@@ -596,7 +596,7 @@ Eftersom Bitcoin fungerar som ett bytesmedel är det möjligt att föreställa s
 
 Detta innebär att man tjänar belöningar på att använda mining-maskiner. För icke-specialiserade företag är detta fortfarande relativt marginellt. Du kan delta genom mellanhänder som säljer eller hyr ut datorer, nätverk och underhåll till dig. Om du äger maskinerna kan du redovisa dem som avskrivningsbara tillgångar. I stor skala måste du noggrant beräkna avkastningen på investeringen eftersom marknaden är mycket konkurrensutsatt och kräver en god framförhållning när det gäller kostnader, särskilt el.
 
-Om du vill lära dig mer om mining-metoderna kan du [läsa avsnittet "Mining" i våra handledningar] (https://planb.network/tutorials/mining).
+Om du vill lära dig mer om mining-metoderna kan du [läsa avsnittet "Mining" i våra handledningar] (https://planb.academy/tutorials/mining).
 
 
 - **Köp av Bitcoin:**
@@ -605,9 +605,9 @@ Detta är den absolut vanligaste metoden och sker antingen via peer-to-peer-bör
 
 För att lära dig hur du öppnar ett företagskonto och använder det för att köpa, sälja och överföra bitcoins kan du kolla in dessa två handledningar som är speciellt utformade för företag och som innehåller plattformarna Kraken och Bitfinex i sina företagsversioner:
 
-https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
-Om du vill lära dig mer om metoder för att förvärva bitcoins via en börs eller peer-to-peer kan du [läsa avsnittet "Exchange" i våra handledningar](https://planb.network/tutorials/exchange).
+https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+Om du vill lära dig mer om metoder för att förvärva bitcoins via en börs eller peer-to-peer kan du [läsa avsnittet "Exchange" i våra handledningar](https://planb.academy/tutorials/exchange).
 
 ![BIZ101](assets/sv/012.webp)
 
@@ -856,16 +856,16 @@ För detaljerade anvisningar om rekommenderade plånböcker och grundläggande i
 
 **Non-custodial LN-plånböcker/noder:**
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 **Custodial LN-plånböcker:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 ## Det grundläggande
 
@@ -897,15 +897,15 @@ En annan viktig fördel med grundläggande-profilen är betoningen på snabb imp
 
 Den mest lämpliga hybridlösningen för din profil är sannolikt Swiss Bitcoin Pay:
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 En annan lösning som är enkel att implementera, men som har nackdelen att den är 100% custodial, är Open Node:
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Om du är redo att smutsa ner dina händer och vill ha full kontroll över processen är BTCPay Server-programvaran ett utmärkt alternativ. Den största nackdelen med BTCPay Server är dock att dess installation och hantering är tidskrävande och kräver en viss nivå av teknisk expertis, men du kan följa våra guider:
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 Slutligen, som ett komplement till fysiska försäljningsställen, kan du överväga att sätta upp [en Bitcoinize PoS] (https://bitcoinize.com/).
 
 ## Den professionella
@@ -942,7 +942,7 @@ När det gäller exempel från verkligheten kan man tänka sig en medelstor e-ha
 
 För att gå djupare in på implementeringsdetaljer och utforska praktiska konfigurationer av BTC Pay Server, se följande kurs:
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 ## Företaget
 
@@ -1178,7 +1178,7 @@ En enkel "csv"-fil som innehåller transaktionshistoriken är dock ofta tillräc
 
 För dem som själva förvarar sina Bitcoin är hanteringen av UTXO (*Unspent Transaction Outputs*) ett viktigt steg. Korrekt UTXO-märkning hjälper till att spåra ursprunget för varje BTC-fragment, skilja transaktioner relaterade till professionell aktivitet från de för personliga utgifter och underlätta spårbarhet för juridiska eller skattemässiga ändamål. Med de flesta bra Bitcoinplånboks-program kan du importera din plånbok med hjälp av din backup-fil (eller din xpub, beroende på din inställning) och märka UTXO:er baserat på deras ursprung eller destination. För att hjälpa dig, här är en komplett handledning tillägnad denna praxis:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Slutligen, oavsett om du är en liten handlare eller ett mer etablerat företag, är det möjligt att **betala en faktura i Bitcoin**. Nyckeln är att dokumentera transaktionen korrekt. Om du betalar från en plånbok med egen förvaring är det perfekt att generera en transaktion som noterar fakturanumret och syftet med betalningen i dina etiketter. Om du föredrar att betala fakturor via en börs kommer du också att ha möjlighet att exportera ett kvitto eller en transaktionshistorik som du kan inkludera i din bokföring. Denna transparens kommer att förenkla spårningen och rapporteringen av alla dina BTC-operationer.
 

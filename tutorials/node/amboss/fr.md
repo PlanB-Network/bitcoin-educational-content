@@ -7,7 +7,7 @@ description: Explorez et analysez le Lightning Network
 
 Le Lightning Network est une couche du protocole Bitcoin qui a été principalement développé pour favoriser l'adoption des paiements Bitcoin au quotidien en augmentant la vitesse de traitement de chaque transaction. En se basant sur le principe de la décentralisation, le Lightning Network se constitue de nœuds (ordinateurs tournant une implémentation Lightning) communiquant pair-à-pair en se relayant des données (paiements et vérification de paiement).
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Tout comme sur la chaîne principale, permettre aux utilisateurs de connaitre les informations et l'état du réseau est devenu primordial afin de faciliter les connexions entre les nœuds et de réduire au maximum le problème de liquidités qui se pose généralement dans le réseau. En effet, sur le Lightning Network, nous préconisons les micro-paiements d'un montant relativement moins conséquent que celles des transactions sur la chaîne principale de Bitcoin.
 
@@ -20,7 +20,7 @@ Au même titre que [Mempool Space](https://mempool.space) qui recense les inform
 - L'évolution du Lightning Network au fil du temps
 - Les statistiques sur les frais à payer aux nœuds relayeurs de vos paiements.
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 Dans ce tutoriel, nous vous amenons à la découverte de cette plateforme qui constitue une ressource essentielle pour vous qui êtes utilisateur du Lightning Network, vous qui souhaitez connecter votre nœud pour agrandir le réseau, etc.
 
@@ -33,7 +33,7 @@ L'un des objectifs de la plateforme Amboss est de pouvoir permettre aux différe
 
 ![wallet](assets/fr/02.webp)
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 Sur la page d'accueil, vous retrouverez également les nœuds classés en fonction de :
 - L'évolution de la capacité : la quantité de bitcoin associée à la clé publique du nœud et le total disponible dans l'ensemble de ses canaux.
@@ -75,7 +75,7 @@ Dans la section **Canaux**, vous verrez la liste des canaux ouverts et les conne
 
 - **Le ratio entrant** : Le montant que vous prélèvera le nœud pour chaque million de satoshi qu'il recevra en fonction du canal choisi. 
 - **Le ratio (parts par million)** : qui représente le nombre de satoshi par million d'unités que vous prélèvera le nœud lorsque vous déciderez de transiter un paiement via un de ses canaux. Supposons que vous décidez de faire un paiement de `10_000 sats` en passant par un canal dont le ratio ppm est de `500 sats` , vous devrez payer au nœud `10_000 * 500 / 1_000_000` satoshis soit l'équivalent de `5 sats`.
--  **Le [HTLC](https://planb.network/resources/glossary/htlc) maximum** : Le montant maximum que ce nœud vous permet de transiter via l'un de ces canaux.
+-  **Le [HTLC](https://planb.academy/resources/glossary/htlc) maximum** : Le montant maximum que ce nœud vous permet de transiter via l'un de ces canaux.
 
 En consultant le tableau de cette interface, vous pouvez également retrouver toutes ces informations sur le nœud il est apparié.
 
@@ -154,4 +154,4 @@ Prenez connaissance du prix actuel du bitcoin dans votre devise locale (EUR / US
 
 Vous avez désormais fait un tour complet des fonctionnalités et outils d'analyses de la plateforme. Nous vous proposons de retrouver, ci-dessous, notre article sur l'explorateur Bitcoin **Mempool.space**.
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

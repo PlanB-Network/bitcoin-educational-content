@@ -1,0 +1,8 @@
+question: Jaké omezení se podle licence MIT, pod kterou je jádro Bitcoin šířeno, týká šíření odvozených děl?
+answer: Odvozená díla musí být šířena za stejných podmínek jako licence původního softwaru
+wrong_answers:
+  - Odvozená díla nelze komerčně prodávat a musí být vždy šířena zdarma
+  - Odvozená díla vyžadují před šířením výslovné písemné povolení od vývojářů jádra Bitcoin
+  - Odvozené práce musí obsahovat původní značku Bitcoin Core a nesmí být přejmenovány ani přebrandovány
+explanation: |
+  Licence MIT vyžaduje, aby odvozená díla byla šířena za stejných licenčních podmínek jako původní software, čímž je zajištěno zachování povahy open source. To nezakazuje komerční prodej (špatná odpověď 1), nevyžaduje povolení od vývojářů (špatná odpověď 2) a nenařizuje zachování původní značky (špatná odpověď 3). Licence výslovně uvádí, že modifikace a odvozená díla musí být povolena za stejných podmínek, čímž je zachován model vývoje bez povolení, který umožňuje inovace, jako je Lightning Network a sidechains.

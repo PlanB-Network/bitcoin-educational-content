@@ -1,26 +1,18 @@
 ---
-name: Avusturya Ekonomisine Giriş
-goal: Avusturya ekonomik düşünce okulunu keşfedin. Toplum ve makro/mikro-ekonomik gerçeklikler hakkındaki görüşlerini inceleyin.
-objectives: 
-
-  - Keynesçiliğe bir alternatif
-  - Hard para biriminin önemi
-  - Ekonomik döngülerimiz neden ve nasıl oluşuyor?
-  - Merkez bankacıları neden çıldırdı?
-
+name: Avusturya ekonomi okulu temelleri
+goal: Piyasaları ve bireysel karar vermeyi analiz etmek için alternatif bir çerçeve olarak Avusturya iktisadını keşfedin
+objectives:
+- Para, kredi ve merkez bankacılığı sistemlerinin işlevlerini analiz etmek
+- Öznel değer teorisi ve zaman tercihini piyasa davranışına uygulamak
+- Avusturya iş döngüsü teorisini ve nedenlerini anlamak
+- Avusturya metodolojisini ana akım ekonomik yaklaşımlarla karşılaştırmak
 ---
+# Avusturya Ekonomisine Yolculuk
 
-# Ekonomiye Bir Yolculuk
+Hiç bazı ekonomistlerin piyasalar, özgürlük ve insan davranışı hakkında neden farklı düşündüğünü merak ettiniz mi? Avusturya ekonomisi, sizi ekonomik düşüncenin merkezine yerleştiren ferahlatıcı bir bakış açısı sunar. Ağır matematik ve soyut modeller yerine, bu yaklaşım mantığa, insan seçimine ve gerçek insanların günlük yaşamlarında nasıl karar verdiklerine odaklanır. Özgürlük, rasyonellik ve kişisel eylem merceğinden ekonomidir.
 
-
-Théo Mogenet'in kursuna hoş geldiniz! Ekonomi, tarih, edebiyat, siyaset bilimi ve teknoloji konularında tutkulu olan Théo Mogenet, Avusturya ekonomisi hakkındaki bilgilerini sizlerle paylaşmaya karar verdi. Ekonomide daha az bilinen bu dal, insan rasyonalitesine ve özgür aktör davranışına dayanır. Matematikte daha az yoğun olan bu dal, her şeyden önce bir mantık ve sosyal çalışma meselesidir.
-
-
-Bu düşünce ekolünün arkasında birkaç asırlık bir zaman dilimi ve bir yazarlar, düşünceler ve ekonomistler panoraması vardır. Hayek, Rothbard, Mises, Bastiat veya Menger gibi ekonominin büyük isimleri bu akımı uzun süre savunmuşlardır. Günümüzün her yerde karşımıza çıkan Keynesçiliğinin aksine Avusturya okulu daha liberal, kapitalist ve hatta anarşist bir yaklaşımla bireyi yeniden denklemin merkezine koymaktadır.
-
-
+Bu düşünce okulu, Hayek, Mises ve Bastiat gibi etkili düşünürler sayesinde yüzyıllardır tartışmaları şekillendirmiştir. Ana akım Keynesyen ekonomi bugünün politika tartışmalarına hâkim olsa da, Avusturya geleneği farklı sorular sorar: Bireysel özgürlüğe öncelik verdiğimizde ne olur? İnsanlar seçme özgürlüğüne sahip olduğunda serbest piyasalar gerçekte nasıl çalışır? Piyasalar, toplum ve özgürlük hakkında düşünmenin alternatif yollarını merak ediyorsanız, standart ders kitaplarında bulamayacağınız fikirleri keşfetmek için bu sizin şansınız.
 +++
-
 # Giriş
 
 

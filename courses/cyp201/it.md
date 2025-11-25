@@ -440,49 +440,50 @@ In questo caso, $x$ è uguale a $W_{i-15}$ per $\sigma_0(x)$ e $W_{i-2}$ per $\s
 Una volta determinate tutte le parole $W_i$ per il nostro blocco di 512 bit, possiamo passare alla funzione di compressione, che consiste nell'eseguire le operazioni 64 volte.
 
 ![CYP201](assets/en/014.webp)
-Per ogni round $i$ da 0 a 63, abbiamo tre diversi tipi di input. Primo, $W_i$ che abbiamo appena determinato, in parte costituito dal nostro pezzo di messaggio $P_n$. Successivamente, le 64 costanti $K_i$. Infine usiamo le variabili di stato $A$, $B$, $C$, $D$, $E$, $F$, $G$ e $H$, che cambieranno, evolvendosi, durante il processo di hashing per avere un valore diverso ad ogni round di compressione. Tuttavia, per il primo pezzo $P_1$, usiamo le costanti iniziali date in precedenza.
 
-Eseguiamo quindi le seguenti operazioni sui nostri input:
+Per ogni turno $i$ da 0 a 63, disponiamo dunque di tre tipi di input differenti. Anzitutto, i valori $W_i$ appena determinati, composti in parte dal nostro blocco $P_n$ del messaggio. Seguono le 64 costanti $K_i$. Infine, utilizziamo le variabili di stato $A$, $B$, $C$, $D$, $E$, $F$, $G$ e $H$, le quali evolvono per tutta la durata del processo di hashing e vengono modificate a ogni funzione di compressione. Tuttavia, per il primo blocco $P_1$ si impiegano le costanti iniziali precedentemente indicate.
 
-- **Function $\Sigma_0$:**
+Applichiamo quindi le operazioni seguenti ai nostri input :
+
+- **Funzione $\Sigma_0$ :**
 
 $$
 \Sigma_0(A) = RotR_2(A) \oplus RotR_{13}(A) \oplus RotR_{22}(A)
+$$
 
-
--- **Function $\Sigma_1$:**
+- **Funzione $\Sigma_1$ :**
 
 $$
 \Sigma_1(E) = RotR_6(E) \oplus RotR_{11}(E) \oplus RotR_{25}(E)
 $$
 
-- **Function $Ch$ ("_Choose_"):**
+- **Funzione $Ch$ (“_Choose_”) :**
 
 $$
-Ch(E, F, G) = (E \le F) \oplus (\lnot E \le G)
+Ch(E, F, G) = (E \land F) \oplus (\lnot E \land G)
 $$
 
-- **Function $Maj$ ("_Majority_"):**
+- **Funzione $Maj$ (“_Majority_”) :**
 
 $$
-Maj(A, B, C) = (A \le B) \oplus (A \le C) \oplus (B \le C)
+Maj(A, B, C) = (A \land B) \oplus (A \land C) \oplus (B \land C)
 $$
 
-Calcoliamo quindi 2 variabili temporanee:
+Calcoliamo poi due variabili temporanee :
 
-- $temp1$:
+- $temp1$ :
 
 $$
 temp1 = H + \Sigma_1(E) + Ch(E, F, G) + K_i + W_i \mod 2^{32}
 $$
 
-- $temp2$:
+- $temp2$ :
 
 $$
 temp2 = \Sigma_0(A) + Maj(A, B, C) \mod 2^{32}
 $$
 
-Successivamente aggiorniamo le variabili di stato come segue:
+Aggiorniamo quindi le variabili di stato nel modo seguente :
 
 $$
 \begin{cases}
@@ -497,7 +498,9 @@ A = temp1 + temp2 \mod 2^{32}
 \end{cases}
 $$
 
-Il diagramma seguente rappresenta un round della funzione di compressione SHA256 come appena descritto:
+Lo schema seguente rappresenta un turno della funzione di compressione di SHA256 come appena descritto.
+
+
 
 ![CYP201](assets/en/015.webp)
 
@@ -506,9 +509,10 @@ Il diagramma seguente rappresenta un round della funzione di compressione SHA256
 - il simbolo $+$ circondato rappresenta l'addizione modulo $2^{32}$.
 
 Possiamo già osservare che questo round produce nuove variabili di stato $A$, $B$, $C$, $D$, $E$, $F$, $G$ e $H$. Queste nuove variabili serviranno come input per il round successivo, che a sua volta produrrà nuove variabili $A$, $B$, $C$, $D$, $E$, $F$, $G$ e $H$, da utilizzare per il round seguente. Questo processo continua fino al 64° round.
+
 Dopo i 64 round, aggiorniamo i valori iniziali delle variabili di stato aggiungendoli ai valori finali alla fine dell'ultimo round:
 
-$$$
+$$
 \begin{cases}
 A = A_{\text{initial}} + A \mod 2^{32} \\
 B = B_{\text{initial}} + B \mod 2^{32} \\
@@ -778,9 +782,9 @@ Utilizziamo un campo finito di interi modulo $p$ per garantire l'accuratezza del
 
 La matematica delle curve ellittiche sui campi finiti è analoga a quella applicata nel campo dei numeri reali, con l'adattamento che tutte le operazioni sono eseguite modulo $p$. Per semplificare le spiegazioni continueremo nei capitoli seguenti a illustrare i concetti utilizzando una curva definita su numeri reali, tenendo presente che, in pratica, la curva è definita su un campo finito.
 
-Se desideri approfondire le basi matematiche della crittografia moderna, ti consiglio anche di consultare questo altro corso su Plan ₿ Network:
+Se desideri approfondire le basi matematiche della crittografia moderna, ti consiglio anche di consultare questo altro corso su Plan ₿ Academy:
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Calcolo della Chiave Pubblica a partire dalla Chiave Privata
 
@@ -1202,7 +1206,7 @@ Se questo flag sighash verrà integrato in Bitcoin, consentirà l'uso dei covena
 
 Per approfondire la tua conoscenza su Lightning Network, dopo il corso CYP201, ti consiglio vivamente il corso LNP201 di Fanis Michalakis, che copre l'argomento in dettaglio:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Nella prossima parte propongo di scoprire come funziona la frase mnemonica alla base del tuo wallet Bitcoin.
 
@@ -1237,9 +1241,9 @@ Se si desiderava utilizzare più chiavi private era quindi necessario effettuare
 
 Questo vincolo deriva dal modello di privacy di Bitcoin. Riutilizzando lo stesso indirizzo si facilita il tracciamento di tutte le tue transazioni Bitcoin agli osservatori esterni. Ecco perché è fortemente sconsigliato riutilizzare un indirizzo di ricezione. Ma per avere più indirizzi e separare pubblicamente le nostre transazioni, è per altro necessario gestire più chiavi private. Nel caso dei wallet JBOK ciò implica la creazione di altrettanti backup quanti sono le nuove coppie di chiavi, un compito che può diventare presto complesso e difficile da mantenere per gli utenti.
 
-Per saperne di più sul modello di privacy di Bitcoin e scoprire metodi per proteggere la tua privacy, ti consiglio anche di seguire il mio corso BTC204 su Plan ₿ Network:
+Per saperne di più sul modello di privacy di Bitcoin e scoprire metodi per proteggere la tua privacy, ti consiglio anche di seguire il mio corso BTC204 su Plan ₿ Academy:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Wallet HD (_Hierarchical Deterministic_)
 
@@ -1344,7 +1348,7 @@ Per un'entropia di 256 bit, ad esempio, il risultato $\text{ENT} \Vert \text{CS}
 
 ### Conversione della Sequenza Binaria in una Frase Mnemonica
 
-La sequenza di bit $\text{ENT} \Vert \text{CS}$ viene quindi divisa in segmenti di 11 bit. Ogni segmento di 11 bit, una volta convertito in decimale, corrisponde a un numero tra 0 e 2047, che designa la posizione di una parola [in una lista di 2048 parole standardizzata dal BIP39](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+La sequenza di bit $\text{ENT} \Vert \text{CS}$ viene quindi divisa in segmenti di 11 bit. Ogni segmento di 11 bit, una volta convertito in decimale, corrisponde a un numero tra 0 e 2047, che designa la posizione di una parola [in una lista di 2048 parole standardizzata dal BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/en/042.webp)
 
@@ -1389,7 +1393,7 @@ Una frase di 12 parole, che offre quindi 128 bit di sicurezza, è attualmente su
 
 Per approfondire e imparare concretamente come generare manualmente una frase mnemonica di prova, ti consiglio di scoprire questo tutorial:
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Prima di continuare con la derivazione del wallet dalla frase mnemonica, ti presenterò nel capitolo seguente la passphrase BIP39, poiché gioca un ruolo nel processo di derivazione ed è allo stesso livello della frase mnemonica.
 
@@ -1980,19 +1984,21 @@ Quando un utente riceve bitcoin, il mittente crea un UTXO e lo blocca con uno _s
 
 È esattamente nello _scriptPubKey_ che si trovano gli indirizzi di ricezione, ma il loro utilizzo varia a seconda dello standard di script adottato. Ecco una tabella riassuntiva delle informazioni contenute nello _scriptPubKey_ secondo lo standard utilizzato, così come le informazioni richieste nello _scriptSig_ per sbloccare lo _scriptPubKey_.
 
-| Standard           | _scriptPubKey_                                              | _scriptSig_                     | _redeem script_     | _witness_                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <redeem script>` | Arbitrary data     |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <pubKeyHash>`    | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <scriptHash>`    | `<data pushes> <witness script>`         |
-| P2TR (key path)    | `1 <public key>`                                            |                                 |                     | `<signature>`                            |
-| P2TR (script path) | `1 <public key>`                                            |                                 |                     | `<data pushes> <script> <control block>` |
 
-_Fonte: Bitcoin Core PR review club, 7 luglio 2021 - Gloria Zhao_
+
+| Standard             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Dati arbitrari | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_Fonte: Bitcoin Core PR review club del 7 luglio 2021 – Gloria Zhao_
 
 Gli opcode utilizzati in uno script sono progettati per manipolare le informazioni e, se necessario, per confrontarle o testarle. Prendiamo l'esempio di uno script P2PKH, che è il seguente:
 

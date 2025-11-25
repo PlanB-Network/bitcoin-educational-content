@@ -48,7 +48,7 @@ Tässä opetusohjelmassa opimme luomaan ja käyttämään klassista Wallet-monim
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 ## Edellytykset
 
@@ -58,7 +58,7 @@ Tässä opetusohjelmassa näytän, miten Multisig tehdään [Sparrow Wallet -sal
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
 Usean allekirjoituksen Wallet:n perustamiseen tarvitset eri laitteistolompakoita. Esimerkiksi Multisig 2-de-3:ssa voit käyttää :
 
@@ -101,11 +101,11 @@ Varmista ennen Multisig Wallet:n konfigurointia, että jokainen Hardware Wallet 
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Kuten näemme myöhemmin tässä oppaassa, Multisig-konfiguraatioon on mahdollista liittää myös tekijä, joka ei ole yhteydessä Hardware Wallet:een, mutta jonka yksityiset avaimet on tallennettu tietokoneellesi. Tämä menetelmä on selvästi vähemmän turvallinen kuin laitteistolompakoiden yksinomainen käyttö, mutta se voi olla tarkoituksenmukainen tietyissä tapauksissa. Esimerkiksi Multisig 2-de-3 -järjestelmässä voit valita kaksi laitteistolompakkoa ja yhden Software Wallet:n.
 
@@ -375,7 +375,7 @@ Multisig on nyt tallennettu oikein Coldcardiin. Jos sinulla on useita Coldcard-k
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Ennen kuin saat ensimmäiset bitcoinit Multisig:lläsi, **suositan sinua tekemään tyhjän palautustestin**. Merkitse muistiin joitakin viitetietoja, kuten ensimmäinen vastaanottava Address, ja nollaa sitten laitteistosi lompakot, kun Wallet on vielä tyhjä. Kokeile seuraavaksi palauttaa Multisig Wallet laitteistokukkaroihin käyttämällä Mnemonic-lauseen paperitallennuksia ja sitten Sparrow'ssa *Descriptor*:n avulla. Tarkista, että palautuksen jälkeen luotu ensimmäinen Address vastaa alun perin kirjoittamaasi. Jos se täsmää, voit olla varma, että paperiset varmuuskopiot ovat luotettavia.
 
@@ -385,7 +385,7 @@ Jos haluat lisätietoja palautustestin suorittamisesta, suosittelen, että tutus
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Vastaanota bitcoineja Multisig:lla
 
@@ -619,4 +619,4 @@ Jos haluat mennä pidemmälle, suosittelen, että tutustut tähän oppaaseen, jo
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7

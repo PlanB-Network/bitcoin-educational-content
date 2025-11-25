@@ -1,0 +1,8 @@
+question: Jenis sistem apa yang dapat dibangun di atas lapisan dasar tanpa kepercayaan Bitcoin menurut model keamanan yang dijelaskan?
+answer: Sistem tanpa kepercayaan dan sistem tepercaya dapat dibangun di atasnya
+wrong_answers:
+  - Hanya sistem yang tidak dapat dipercaya yang dapat dibangun di atasnya
+  - Hanya sistem tepercaya yang dapat dibangun di atasnya
+  - Tidak ada sistem tambahan yang dapat dibangun di atasnya
+explanation: |
+  Lapisan dasar trustless Bitcoin menyediakan fondasi yang memungkinkan fleksibilitas dalam membangun berbagai jenis sistem di atasnya. Seperti yang dijelaskan oleh Matt Corallo, meskipun Anda tidak dapat membangun sistem tanpa kepercayaan di atas sistem tepercaya, Anda dapat membangun sistem tepercaya (seperti dompet kustodian) di atas sistem tanpa kepercayaan. Ini berarti fondasi trustless Bitcoin mendukung aplikasi trustless dan layanan tepercaya, memberikan perancang sistem kebebasan untuk memilih pertukaran yang sesuai tanpa memaksakan pertukaran yang sama kepada semua orang yang menggunakan lapisan dasar.

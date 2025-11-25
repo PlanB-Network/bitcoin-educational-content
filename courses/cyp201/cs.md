@@ -720,9 +720,9 @@ Používáme konečné těleso celých čísel modulo $p$, abychom zajistili př
 
 Matematika eliptických křivek nad konečnými tělesy je analogická té nad tělesem reálných čísel, s adaptací, že všechny operace se provádějí modulo $p$. Abychom zjednodušili vysvětlení, budeme v následujících kapitolách pokračovat v ilustraci konceptů pomocí křivky definované nad reálnými čísly, přičemž si budeme pamatovat, že v praxi je křivka definována nad konečným tělesem.
 
-Pokud se chcete dozvědět více o matematických základech moderní kryptografie, doporučuji také konzultovat tento další kurz na Plan ₿ Network:
+Pokud se chcete dozvědět více o matematických základech moderní kryptografie, doporučuji také konzultovat tento další kurz na Plan ₿ Academy:
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Výpočet veřejného klíče z privátního klíče
 
@@ -1114,7 +1114,7 @@ Pokud bude tento příznak sighash integrován do Bitcoinu, umožní použití c
 
 Pro prohloubení vašich znalostí o Lightning Network, po kurzu CYP201, vřele doporučuji kurz LNP201 od Fanise Michalakise, který téma podrobně pokrývá:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 V další části navrhuji objevit, jak funguje mnemonická fráze, která je základem vaší Bitcoin peněženky.
 
@@ -1147,9 +1147,9 @@ Pokud by člověk chtěl použít více soukromých klíčů, bylo poté nutné 
 
 Toto omezení vyplývá z modelu soukromí Bitcoinu. Opakovaným používáním stejné adresy usnadňujete externím pozorovatelům sledování všech mých transakcí s Bitcoinem. To je důvod, proč se důrazně nedoporučuje opakovaně používat přijímací adresu. Nicméně, abychom měli více adres a veřejně oddělili naše transakce, je nutné spravovat více soukromých klíčů. V případě JBOK peněženek to znamená vytvářet tolik záloh, kolik je nových párů klíčů, úkol, který se může rychle stát složitým a obtížně udržitelným pro uživatele.
 
-Pro více informací o modelu soukromí Bitcoinu a objevení metod, jak chránit vaše soukromí, doporučuji také sledovat můj kurz BTC204 na Plan ₿ Network:
+Pro více informací o modelu soukromí Bitcoinu a objevení metod, jak chránit vaše soukromí, doporučuji také sledovat můj kurz BTC204 na Plan ₿ Academy:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD Peněženky (_Hierarchical Deterministic_)
 
@@ -1251,7 +1251,7 @@ Například pro entropii 256 bitů je výsledek $\text{ENT} \Vert \text{CS}$ 264
 
 ### Převod Binární Sekvence na Mnemonickou Frázi
 
-Bitová sekvence $\text{ENT} \Vert \text{CS}$ je poté rozdělena na segmenty po 11 bitech. Každý 11bitový segment, jednou převedený na desítkové číslo, odpovídá číslu mezi 0 a 2047, které určuje pozici slova [v seznamu 2048 slov standardizovaném BIP39](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Bitová sekvence $\text{ENT} \Vert \text{CS}$ je poté rozdělena na segmenty po 11 bitech. Každý 11bitový segment, jednou převedený na desítkové číslo, odpovídá číslu mezi 0 a 2047, které určuje pozici slova [v seznamu 2048 slov standardizovaném BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/en/042.webp)
 Například pro 128bitovou entropii je kontrolní součet 4 bity, a celková sekvence tak měří 132 bitů. Je rozdělena na 12 segmentů po 11 bitech (oranžové bity označují kontrolní součet):
@@ -1290,7 +1290,7 @@ Výsledkem je, že výběr 24slovní fráze neposkytuje peněžence další ochr
 Fáze o 12 slovech, která také nabízí 128 bitů zabezpečení, je proto v současnosti dostatečná k ochraně vašich bitcoinů proti jakémukoli pokusu o krádež. Pokud se algoritmus digitálního podpisu nezmění tak, aby používal větší klíče nebo spoléhal na matematický problém jiný než ECDLP, zůstává fráze o 24 slovech nadbytečná. Navíc delší fráze zvyšuje riziko ztráty během zálohování: záloha, která je dvakrát kratší, je vždy snazší spravovat.
 Pokud chcete jít dále a konkrétně se naučit, jak ručně generovat testovací mnemonickou frázi, doporučuji vám objevit tento tutoriál:
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Před pokračováním v odvození peněženky z této mnemonické fráze vám v následující kapitole představím BIP39 heslo, protože hraje roli v procesu odvození a je na stejné úrovni jako mnemonická fráze.
 ## Heslo
@@ -1846,19 +1846,21 @@ Když uživatel obdrží bitcoiny, odesílatel vytvoří výstupní UTXO a zamkn
 
 Je právě v *scriptPubKey*, kde se nacházejí přijímací adresy. Nicméně jejich použití se liší v závislosti na přijatém standardu skriptu. Zde je shrnutí tabulka informací obsažených v *scriptPubKey* podle použitého standardu, stejně jako informace očekávané v *scriptSig* k odemčení *scriptPubKey*.
 
-| Standard           | *scriptPubKey*                                              | *scriptSig*                     | *redeem script*     | *witness*                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <redeem script>` | Libovolná data     |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <pubKeyHash>`    | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <scriptHash>`    | `<data pushes> <witness script>`         |
-| P2TR (key path)    | `1 <public key>`                                            |                                 |                     | `<signature>`                            |
-| P2TR (script path) | `1 <public key>`                                            |                                 |                     | `<data pushes> <script> <control block>` |
 
-*Zdroj: Bitcoin Core PR review club, 7. července 2021 - Gloria Zhao*
+
+| Standard             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Libovolná data | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_Zdroj: Bitcoin Core PR review club ze dne 7. července 2021 – Gloria Zhao_
 
 Opcodes použité ve skriptu jsou navrženy k manipulaci s informacemi a v případě potřeby k jejich porovnání nebo testování. Vezměme si příklad skriptu P2PKH, který vypadá takto:
 

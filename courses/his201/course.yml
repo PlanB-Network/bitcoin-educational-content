@@ -12,141 +12,145 @@ published_at: 2024-09-03
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2024-08-20
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
       - lugaxker
-    reward: 36.61
+      - nrak10
+    reward: 18.31
   - language: en
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - 2raj2raj
-    reward: 36.61
+    reward: 36.62
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 97.58
+    reward: 97.61
   - language: de
-    last_contribution_date:
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
-    reward: 73.21
+      - reneplass
+    reward: 36.62
   - language: es
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - OscarG673
-    reward: 36.61
+    reward: 36.62
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 97.58
+    reward: 97.61
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 97.58
+    reward: 97.61
   - language: id
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - AgoesRichie
-    reward: 60.98
+    reward: 61.0
   - language: it
-    last_contribution_date:
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
-    reward: 73.21
+      - Bitman-ops
+    reward: 36.62
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 146.32
+    reward: 146.37
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 97.58
+    reward: 97.61
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 73.21
+    reward: 73.24
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 97.58
+    reward: 97.61
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 146.32
+    reward: 146.37
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 121.95
+    reward: 121.99
   - language: pl
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - MisinhaP
-    reward: 48.79
+    reward: 48.81
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 170.7
+    reward: 170.75
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 97.58
+    reward: 97.61
   - language: sw
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 48.79
+    reward: 48.81
   - language: zh-Hant
-    last_contribution_date:
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
-    reward: 121.95
+      - maxi945
+    reward: 61.0
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 97.58
+    reward: 97.61
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 73.21
+    reward: 73.24
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 97.58
+    reward: 97.61
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 121.95
+    reward: 121.99
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 97.58
+    reward: 121.99
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 146.32
+    reward: 146.37
 tags:
   - historical
   - protocols
@@ -170,96 +174,237 @@ videos:
   - id: d1eddf56-279d-459a-9568-5674606f0fd1
     youtube: []
     peertube:
-      - en: jMm92dPsxKtPkQD1Qzgs65
+      - en: 4p9pLZKEi2Bz1WiMRDTajL
       - fr: n44oYDo3Z4wSbAvrYpHTaP
+      - de: 5NxJspB6vq5mhVB69yuXkc
+      - es: qqKzA4bXCKVDrXQbAkM6be
+      - it: b4LFWxbYh4wvqxdKyu8V8W
+      - ru: whqtVe7P7nEvSmtx3EmwEV
+      - cs: sBS5rghgfBLujXN9xXWj8e
+      - fi: 8nisrSxHNZ324mpeqgbXYB
+      - id: oe8R2ZSDXNGkXf8pjiwBRS
+      - nl: 7orKAoe8GziEibLYJkH7GW
+      - pl: fJfvhWkymmUZ757gqBeRa8
+      - pt: mQLaP9cBCg3EmcgeGR6rFa
+      - sv: wKtgeDanBE4EVjVXvewGrc
+      - tr: 8yAwhiL4TQMJQpsA6Pz4s3
   - id: fe306046-2245-43a7-9144-6fbafda3205e
     youtube: []
     peertube:
-      - en: jEbFPyAxadf3NSJscYguxm
-      - es: 547rjkFQkP6YLCBhi6F8H3
+      - en: 4JKhhXHFQcgoivuZA3y2uo
+      - es: xkdtRjitTeHPDaed3kn9T3
       - fr: pagxhgGRPGW9PhQW7HKMjw
-      - it: 2yocRC3PKC8Pa9Uzcf2KXy
+      - it: irceQNUMcR4B2JNQMMRwyV
+      - de: 3mHd3YfHuTSMYiXqwJq8Bh
+      - ru: odQ7mQnoT36CsK25rRp9ou
+      - cs: 6bSk2q7dqXK7UzXjxyUE5u
+      - fi: iFYNRPyMMN7UUzpFHiBK2n
+      - id: gZXSFYMgXHFE5E1AfTjVjK
+      - nl: 6PFjYgckXH29iHfLijZgo6
+      - pl: 3diP61ZeU3am8F4XdFZfuQ
+      - pt: oACdzJgbQoi63ptsG9Lvsf
+      - sv: rQxsvDF6PC8LD65p3VAkER
+      - tr: eYVEjNpSm3k3Prir2CtxZ6
   - id: 0f75ff53-ebf6-481c-9d1c-863fabb19a6a
     youtube: []
     peertube:
-      - en: fcRo8u721HnGo1yVd8kMKS
-      - es: tkU6gUQ4iMo1woKNmoYAN6
+      - en: k4RsDCkUBnU2eqonU1LGAM
+      - es: cit34BV8hCNskLbtD3wCHg
       - fr: 3aG9fU4JBq8ezsWwEFT6yd
-      - it: 9WjqzVER6JLAgvg2318Es1
+      - it: kBVjHCMWgR3RZVA2yzVsuD
+      - de: sS3jZBdpN6VaPZfvHpgNDH
+      - ru: wHaR2HpkBow7HDeYKSUQSE
+      - cs: koXFRkU2c4V5UniEchLkRD
+      - fi: ubukf5sK8dQgZe7TAhAy3x
+      - id: 1cc5VkYHtW5h1khdFTLNML
+      - nl: iUPxb4ag3MwGe3HEMPnmer
+      - pl: j289mZ383fqgeLayAhoyCz
+      - pt: 3RrVjKqUckCdV8stRrtCTW
+      - sv: 6DGDT5Vzuf2hB5udJ5j9EL
+      - tr: sbNhG4nn69ARpFLqLojBwY
   - id: 67e5f851-5ff6-4876-a74d-c5f8130b555c
     youtube: []
     peertube:
-      - en: kuZ3DAGdVZsq58uz1D1fri
-      - es: hBmNbWT2yDuH15bACkUAzm
+      - en: 42WnpCc61VWcRHSE788DRs
+      - es: 3TondC6uK3B6r9kzfSTdDo
       - fr: nMLZZpgcUptFU8Zxfq26MA
-      - it: iXArrBJW9raQhT2rEY1Xem
+      - it: w2v5TmggSGV9RaUNzvaNzv
+      - de: ennMQg346evFyzjMavTh3J
+      - ru: puHXfRADi8vCwq6hRocW6R
+      - cs: jQyZPoDp4kzQMoDyzuDWxX
+      - fi: bLi6Qe7HjiUmXgemsbwiTD
+      - id: wc7ZGFzshD5jkehmAcobaK
+      - nl: eoNE8aNw4ZyQpMseDNDg2r
+      - pl: f1qmbALAmk2G5nWZgqHg37
+      - pt: 7FijgLoGbTxbRMiq3GznHC
+      - sv: rHQxhgwj39EtN79Yi3UAXy
+      - tr: mqFEQpXPpmEzABSyLwVro6
   - id: 825522d8-1ccc-4d14-80ac-e292a85a608a
     youtube: []
     peertube:
-      - en: dquFrMeoqEkhRreDE7mw3v
-      - es: uYSimuE8wLxo65ie7u8TyL
+      - en: 7ppcxYuzrLjj46F1o4LXKc
+      - es: bchDVh9y52XWjQN4ZRtGkr
       - fr: coUaXoXstCknpo4j2kYRuC
-      - it: 6E3cUgGi1phwJA2gwjtE7k
+      - it: 7XnhBYAbf4RRtpa2YnmrGG
+      - de: erZLkdJ5ToN6uaVDb5r39R
+      - ru: fPg94VJhZFHZRMQQv77pFZ
+      - cs: 4KyBUDdZMpYxDVDUCuSP8m
+      - fi: 4QkqLxxgr6fetcD9QrYZyx
+      - id: rVTHUhqHfKRUJ1grmGfgXg
+      - nl: oseGfMLs32Jxduz2nojuw2
+      - pl: sNXxFhGJFhSsg1kvzTJYSy
+      - pt: uMgdXnthFFoA3ybEfp5Z8n
+      - sv: avS7HNbqXEkBpp2hcd924Q
+      - tr: ubA4JkDgPqwoJzxar3mKQU
   - id: c9691569-f026-460d-a08d-98fa54f1ce25
     youtube: []
     peertube:
-      - en: ehux4kTUgB5wuwJiSgMSLJ
-      - es: bEagsJ5nmNRTx7irBEW5Y9
+      - en: n3J5QKUfE3Jq237455XMpS
+      - es: r18uitn15uqAwsC1fKQSQ3
       - fr: gp2pfxMgr29fF68JEuZy4F
-      - it: exVwtNR3BDiWrRxDNyCFFH
+      - it: kDuzZKXbxjJe6QnziZxdfF
+      - de: fCN2Ck4uVdSdDL16Hiim7B
+      - ru: qQPxQryVUth67LunV7KTTG
+      - cs: hUWCfqgxE8YK3Nys4YVRKa
+      - fi: v3c1dFPvntKCYDGbmUUnAd
+      - id: xns3TU6aakTZcJoPq6itm1
+      - nl: jJuMyLbQfRVdCtEYvmCuTc
+      - pt: bH8qejhVC5V17aCNoVuw9T
+      - sv: 7yMG5LSiYJsjdVhSQshpCC
+      - tr: 8ke8aroTWC2LtWJQKjWqKr
   - id: 2a31c9c2-bb14-4ed5-b906-7df373f81f98
     youtube: []
     peertube:
-      - en: tVvH7au3PttAMjfK9iD3HD
-      - es: 4w7fheWMUzcc1R5mEg2rUM
+      - en: hoCBT5GydwGGDXiMeA7EBM
+      - es: 3dae4j2C7YWWT12m2gHCp9
       - fr: wnJrxoGqDBC4sZV3C4HP2q
-      - it: gV9wMUPdpVCALBsQF2oj9X
+      - it: 98XgXe29DbxrGvUb4ypq1B
+      - de: trcbp3Yb5cgjiHEoc5GaCG
+      - ru: byJmGJHRFL2bSXNP6YuKjE
+      - cs: rYj8aGiLRh4YoNFvrFGseh
+      - fi: 5KYY6CpjgMqJvz8Q1XjooL
+      - id: 7r4tHurRimyhJJ8C8oyrdy
+      - nl: 4RRfTpNPKaLAEnqCCUAR26
+      - pl: inL41w6EUP9E54Ukwq326q
+      - pt: g4f3RtY8vq9oYBugtvpuyF
+      - sv: bjSFz5WijBvy4Qp43sS575
+      - tr: sqk7YvGtQerUG1H2m4WZJd
   - id: 18913713-2f1a-4555-ba5d-06ec6d532bcb
     youtube: []
     peertube:
-      - en: 6h5fWda8k8J7gfaWvdH5YU
-      - es: ktuESXL8FdtFEfkFZNku9t
+      - en: hkWVAAzReAj3S5bWtMi1e8
+      - es: 7GkKtufzwTfCK9HwFYUaD6
       - fr: 8TUQ91FyDHSRL3UF6kwCRv
-      - it: epXBocbVYpJCRWGSX8KXQt
+      - it: dhdBaifGggZQkcbiVEtitQ
+      - de: eLxcPrhAZue1bzQeVhY74r
+      - ru: iRHLBbWGyBFnopedsNAxVb
+      - cs: tP5BtiRdmtLxYseE3gxtVQ
+      - fi: 1MZFbNmqCAQ5faaJNbUYrM
+      - id: 9Y2dKqTPNA8rjguTSmvKNW
+      - nl: oNuoKXTPcFvvZt5DJ3uT24
+      - pl: sKE7qvuHAAZHT2xWa3Zsda
+      - pt: uukmftXqbyYUduNcerrJRd
+      - sv: fCkYihM8qx69nJnwkZ6Eyi
+      - tr: k9EL1PCPyFBA2XXGMwZ9gb
   - id: c26f3696-4e33-4d38-9443-f237935f8b45
     youtube: []
     peertube:
-      - en: ooxc3BkRNhF5LeePpvs6JE
-      - es: 1L8bYXiMn1vuLDDQna33qa
+      - en: 6urPqManhR44GVUuvYacXh
+      - es: sYi5daXJU1wGj8Pk5U1B5H
       - fr: fRX4FfwyXwztiUn8VPFKvz
-      - it: eDLBVyesHMZGnB5r9BDxTc
+      - it: shdKhHSEEZE8aqYPjzYg2o
+      - de: tAjKD88M44zAbXtUrYyg4c
+      - ru: 5CTQ95436QE33hDvzBaNQN
+      - cs: rn5yKp8cU6zgBtZAWuEckY
+      - fi: gV12XfFRnXXJqpq8LTw3HH
+      - id: gogG4CPfu1FouyS4BQy1nc
+      - nl: gFnXvQLR5TicBmebDDjRpQ
+      - pl: jJnM3UffkpuWfZDTh5tnkz
+      - pt: wxwyamNUJ8p12BLcjT7dxK
+      - sv: hzRsVQy1G34D7xYhw7hP5W
+      - tr: x1623eh5ibPGKcQoY2hvZq
   - id: f3e98b49-c32e-451a-b7c1-224dc5b00cf5
     youtube: []
     peertube:
-      - en: 2chZR5vCuR2CgYVmLq2nE4
-      - es: 6P7VGeqwbJeHR9AWBBnCgP
+      - en: qqjG4Nxh8sBU9qVgTMgJ8V
+      - es: 6FwYwPdVCYf3JDuypnMGmB
       - fr: vfe9FEXHtjqy62pXhhFbdX
-      - it: x18zNQ87WQii175ocFyDrq
+      - it: eizeTfxfNa4QuynAXGQUuM
+      - de: uZbUvfX3gNN6nbzcz7uqwY
+      - ru: 4S1PWYnhsX3Y8zKypGbaN4
+      - cs: 83aHyzSqkndDWv1CdDmRCE
+      - fi: ndGqEh6x8M3xhe634EigXA
+      - id: 41WiV9Jo8fLEZLenXoPLej
+      - nl: cmcfjNmFhCbCPfN95jASni
+      - pl: 29iB5z29pHL3CkVnDi1CcN
+      - pt: hpqzPmpAAs4xrikWQChEFn
+      - sv: a5F67X3MfNv4zkEeo1Jb57
+      - tr: 5JmoYCATUjXXZwTsgLQeaB
   - id: 665ac55c-cd61-4d07-a896-95248eec480d
     youtube: []
     peertube:
-      - en: kCHqxYs9c7mnfAq9aJfX5w
-      - es: p6S186WxiEanZXHASWDxFf
+      - en: e9BhtH2ZrTJTgC8GagSSxp
+      - es: xjT1rExemh2qntcmrwXVSf
       - fr: jum1B6AoKvQdenYB6dJUgw
-      - it: 2zdpHn8ccN31VaTeuNXT4K
+      - it: pbdB1W4wR9fBsw894CURVa
+      - de: vLnJBcVeXzrvt2CaoxsDiB
+      - ru: vHSei4Z5P4zun31QSpe5nY
+      - cs: prrzsQtRuPhgzXAarvNiah
+      - fi: m7BEangbrwZM7QGgtBXkMz
+      - id: vL1LUmDcW1dJiAtMj9ieRV
+      - nl: 5izUsQZRwdQ5oLThLyMZro
+      - pl: dLSHtpfD4jvVcp2RbhbT4E
+      - pt: hqnBJdDeccKinrM4SME5BY
+      - sv: wG7ZEb2QB9A3uM7SFa8A9a
+      - tr: 96EEhzjqitvoCjGz7RZDsL
   - id: 2327cb5b-36a1-49f4-a9de-09b70d76b8c1
     youtube: []
     peertube:
       - en: p3uKx5TioSo6yTa9YAJuYM
-      - es: v49vtKDm1tvj3bKimeTfVh
+      - es: fDbqsXv3QhduryQTmmN6GC
       - fr: x217WZr7uggf6o2PXHNPyP
-      - it: qRRWRMZEE4QqvivfoQMsYQ
+      - it: oeAV3aF6qofmNpTwRftk6p
+      - de: gBf5TEwdg4jm1M3kZGJWBT
+      - ru: 9GF4ihr8jry8VtJEEBkGWU
+      - cs: eukikeySmRS6WennD48atF
+      - fi: ojqnor6Dh7Q8P5pLtqFCyS
+      - id: 8gH2bVUcMUdFMvE7P1s46V
+      - nl: 5zPdBYRc2EMr6xKjftKRm2
+      - pl: 3Ko15FWcnTXAj3yx2vtYcU
+      - pt: rcSCoAXTH4tjwAdcf6mUpu
+      - sv: pMSLxWc8XSBwiHsgS7Z8eu
+      - tr: 1hrv62bGciPkn6Qx1qw3KY
   - id: fd5b40ae-b6bc-484a-b86b-af9c772f0afa
     youtube: []
     peertube:
       - en: qmKwWg7JYzFGbebz39JJTJ
-      - es: ubXAg6L3NYnJDhDmq4TCdy
+      - es: g2K2Kve9PHmX3cVCn2sz9f
       - fr: urZ22L4sgwEi1dPPLr7U2N
-      - it: 99CCYaWXPtWHjEH5vy6Ev3
+      - it: aEHr4NUdGepehrvg25RFAa
+      - de: 8iBuGp5kFDWuXX4YtQM3ux
+      - ru: opuNekeCjLBp1AFiqzQ5jW
+      - cs: hsfJH6KRuzwRi3xvXtBmNw
+      - fi: 6gHDKxEkcKzXkVVxHUSsQo
+      - id: 3oygrQR8dCsgEE6BcA5vpj
+      - nl: kAaDBroWhRj4ZsxNzWee1G
+      - pl: vjF5kwLLnam2DQsakmGUra
+      - pt: 3MMqkLvFysVS5tVSS67y5L
+      - sv: dM1zfEUWxWYYKze7MUJyfX
+      - tr: h4KKk9GEBrNYh7mGjtdYut
   - id: b29c3ea3-c4ca-4feb-bb29-5dc064987406
     youtube: []
     peertube:
       - en: fJP3XRhmVKPWntkcnjJi8i
-      - es: ngUkGq7s5q4rZwURHctiok
+      - es: fQ4L4jqnw9CVPKUmMGN7H9
       - fr: 46BtUniZ6HMhp9HvVag52k
-      - it: gLH8WmCZXo9Ya5JJipmDEd
+      - it: 6QArSKKiAPeMuZH6dNDdA4
+      - de: dRWVXG74R7YGmgwCVvL2fi
+      - ru: emiEzdyGjMiy1RXX12dEY8
+      - cs: 2a3RrNhNjfA2PEE6i3nczU
+      - fi: fGMWTodZwLA1JfrG7KqDNs
+      - id: wfX5a2d1Tes1JXC8HcEaSQ
+      - nl: iig8WiAUP2b22Zdov72z2N
+      - pl: c9XDoBqmyEp3gF32gTT5TT
+      - pt: sth9shZXQfejDVmGehBBjX
+      - sv: atmc4KbDZfJtqwRuHwxSUA
+      - tr: o4t2iZboJi42WSrzVbPZFk

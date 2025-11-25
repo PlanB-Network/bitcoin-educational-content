@@ -1,0 +1,8 @@
+question: Vilken är den huvudsakliga sårbarheten som gjorde att tidiga försök med digitala valutor misslyckades före Bitcoin?
+answer: De förlitade sig på centrala servrar som kunde censureras eller stängas av
+wrong_answers:
+  - De använde otillräckliga kryptografiska algoritmer för transaktionssäkerhet
+  - De saknade tillräcklig datorkraft för att hantera transaktioner på ett effektivt sätt
+  - De misslyckades med att implementera lämpliga mekanismer för användarautentisering
+explanation: |
+  Tidiga digitala valutor misslyckades eftersom de var beroende av centrala servrar för transaktionsbehandling och validering. Som förklaras i kapitlet blev denna centralisering deras "akilleshäl" eftersom regeringar eller andra motståndare lätt kunde censurera, kontrollera eller stänga av dessa centrala felkällor. Även försök att använda flera servrar i en federation gjorde fortfarande systemet sårbart eftersom varje server kunde "misslyckas, eller göras misslyckad, en efter en" Bitcoin löste detta genom att eliminera behovet av någon central myndighet genom sitt decentraliserade proof-of-work-system.

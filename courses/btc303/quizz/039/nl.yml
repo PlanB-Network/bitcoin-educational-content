@@ -1,0 +1,8 @@
+question: Volgens Shaolinfry's argument voor User Activated Soft Forks (UASF), wat is het grootste probleem met door mijnwerkers geactiveerde softforks wat betreft de implementatie van upgrades?
+answer: Een klein percentage van hashrate kan een veto uitspreken over upgrades voor iedereen, waardoor upgrades traag worden
+wrong_answers:
+  - Miners kunnen zachte fork activeringen ongedaan maken na implementatie via meerderheidsconsensus
+  - Economische knooppunten verliezen controle over validatieregels wanneer miners activering signaleren
+  - Soft fork veranderingen worden permanent en kunnen niet worden gewijzigd zodra mijnwerkers ze activeren
+explanation: |
+  Shaolinfry stelde vast dat signalen van mijnwerkers een natuurlijk vetosysteem creëren waarbij zelfs een klein percentage van hashrate kan voorkomen dat upgrades voor het hele netwerk worden geactiveerd. Deze 'upgrade inertie' wordt problematischer naarmate mining meer gedecentraliseerd wordt, en blokkeert mogelijk nuttige protocolverbeteringen. De andere opties geven een verkeerd beeld van hoe soft forks werken - miners kunnen activeringen niet eenzijdig terugdraaien, economische knooppunten behouden validatiebevoegdheid en soft forks kunnen theoretisch worden aangepast door opeenvolgende upgrades.

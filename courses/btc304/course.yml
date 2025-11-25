@@ -5,182 +5,185 @@ type: practice
 level: advanced
 hours: 7
 professors_id:
-- dd20089b-7df9-4980-811a-e0dba0f70ea7
+  - dd20089b-7df9-4980-811a-e0dba0f70ea7
 contributor_names:
-- Asi0Flammeus
+  - Asi0Flammeus
 published_at: 2024-06-13
 original_language: fr
 proofreading:
-- language: fr
-  last_contribution_date: 2024-09-01
-  urgency: 1
-  contributor_names:
-  - ProfEduStream
-  reward: 29.85
-- language: en
-  last_contribution_date: 2025-08-18
-  urgency: 1
-  contributor_names:
-  - bitcoinJungle
-  reward: 29.85
-- language: cs
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 79.57
-- language: de
-  last_contribution_date: 2025-08-18
-  urgency: 1
-  contributor_names:
-  - CozyCaravan
-  reward: 29.85
-- language: es
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 59.71
-- language: et
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 79.57
-- language: fa
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 79.57
-- language: fi
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 79.57
-- language: id
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 99.44
-- language: it
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 59.71
-- language: ja
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 119.31
-- language: nb-NO
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 79.57
-- language: pl
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 79.57
-- language: pt
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 59.71
-- language: ru
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 79.57
-- language: sr-Latn
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 79.57
-- language: zh-Hans
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 99.44
-- language: zh-Hant
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 99.44
-- language: sv
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 59.71
-- language: hi
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 139.18
-- language: nl
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 79.57
-- language: sw
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 79.57
-- language: vi
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 119.31
-- language: tr
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 99.44
-- language: ko
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 79.57
-- language: rn
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 119.31
+  - language: fr
+    last_contribution_date: 2025-11-05
+    urgency: 1
+    contributor_names:
+      - ProfEduStream
+      - ProfScofield21
+    reward: 14.86
+  - language: en
+    last_contribution_date: 2025-08-18
+    urgency: 1
+    contributor_names:
+      - bitcoinJungle
+    reward: 29.71
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 79.21
+  - language: de
+    last_contribution_date: 2025-11-05
+    urgency: 1
+    contributor_names:
+      - CozyCaravan
+      - reneplass
+    reward: 14.86
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 59.43
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 79.21
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 79.21
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 79.21
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 98.98
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 59.43
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 118.76
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 79.21
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 79.21
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 59.43
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 79.21
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 79.21
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 98.98
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 98.98
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 59.43
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 138.54
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 79.21
+  - language: sw
+    last_contribution_date: 2025-11-06
+    urgency: 1
+    contributor_names:
+      - monyangi10
+    reward: 39.6
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 118.76
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 98.98
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 98.98
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 118.76
 tags:
-- guides
-- case-studies
+  - guides
+  - case-studies
 videos:
-- id: d11ae0ed-eacd-4924-afd3-75aff95d2899
-  youtube:
-  - fr: sgloI_v-nAk
-- id: b1da7cb4-5fb1-4a41-a1d4-bd90686826a9
-  youtube:
-  - fr: Z5mE-LksBZw
-- id: 98be4709-d221-4030-8c31-e10113482515
-  youtube:
-  - fr: N5S7cgySV8U
-- id: 3d4792a7-1345-475b-93b1-b3a3945fb567
-  youtube:
-  - fr: u1BuxEsmFuA
-- id: f78800ae-d8ca-479a-b913-99abd9916bff
-  youtube:
-  - fr: GWVqpjBtg-U
-- id: cdbf82d6-3530-45c4-90de-593f100863bb
-  youtube:
-  - fr: l72GZcEFDtU
-- id: e647458a-a21e-44e0-bd03-20b82a871777
-  youtube:
-  - fr: i3V6_359Ajw
-- id: 6a0283f6-6d6c-4e81-8b2f-644b33c52fe6
-  youtube:
-  - fr: e4YAPG0ITF8
-- id: 4648976f-41ec-499a-b7ec-a53e796f71b4
-  youtube:
-  - fr: pp3DDakV0bA
-- id: a1b25c18-5fc1-4b97-baef-816d819c9382
-  youtube:
-  - fr: cZzH4gj_kZY
-- id: 67d80ac7-253f-40a5-b621-fef2fb7174bd
-  youtube:
-  - fr: z471_Ye6Y0I
-- id: a59956da-f554-4b54-89dd-5ca55b722686
-  youtube:
-  - fr: EHLAmHHuZd8
+  - id: d11ae0ed-eacd-4924-afd3-75aff95d2899
+    youtube:
+      - fr: sgloI_v-nAk
+  - id: b1da7cb4-5fb1-4a41-a1d4-bd90686826a9
+    youtube:
+      - fr: Z5mE-LksBZw
+  - id: 98be4709-d221-4030-8c31-e10113482515
+    youtube:
+      - fr: N5S7cgySV8U
+  - id: 3d4792a7-1345-475b-93b1-b3a3945fb567
+    youtube:
+      - fr: u1BuxEsmFuA
+  - id: f78800ae-d8ca-479a-b913-99abd9916bff
+    youtube:
+      - fr: GWVqpjBtg-U
+  - id: cdbf82d6-3530-45c4-90de-593f100863bb
+    youtube:
+      - fr: l72GZcEFDtU
+  - id: e647458a-a21e-44e0-bd03-20b82a871777
+    youtube:
+      - fr: i3V6_359Ajw
+  - id: 6a0283f6-6d6c-4e81-8b2f-644b33c52fe6
+    youtube:
+      - fr: e4YAPG0ITF8
+  - id: 4648976f-41ec-499a-b7ec-a53e796f71b4
+    youtube:
+      - fr: pp3DDakV0bA
+  - id: a1b25c18-5fc1-4b97-baef-816d819c9382
+    youtube:
+      - fr: cZzH4gj_kZY
+  - id: 67d80ac7-253f-40a5-b621-fef2fb7174bd
+    youtube:
+      - fr: z471_Ye6Y0I
+  - id: a59956da-f554-4b54-89dd-5ca55b722686
+    youtube:
+      - fr: EHLAmHHuZd8

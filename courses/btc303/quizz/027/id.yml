@@ -1,0 +1,8 @@
+question: Menurut bab ini, apa yang terjadi ketika Anda ceroboh dengan praktik privasi Bitcoin Anda sendiri?
+answer: Hal ini juga dapat mengurangi privasi pengguna Bitcoin lainnya
+wrong_answers:
+  - Ini hanya memengaruhi transaksi Anda sendiri dan tidak berdampak pada orang lain
+  - Ini membuat seluruh jaringan Bitcoin lebih aman untuk semua orang
+  - Ini membantu meningkatkan anonimitas keseluruhan sistem Bitcoin
+explanation: |
+  Privasi Bitcoin saling berhubungan di antara para pengguna. Ketika satu orang ceroboh dengan praktik privasi mereka, hal ini dapat berdampak negatif pada privasi pengguna lain yang bertransaksi dengannya. Hal ini terjadi karena pola transaksi, pengelompokan alamat, dan teknik analisis blockchain lainnya dapat mengungkapkan informasi mengenai beberapa pihak yang terlibat dalam transaksi. Bab ini menekankan bahwa langkah-langkah privasi yang Anda ambil tidak hanya melindungi diri Anda sendiri - tetapi juga membantu melindungi komunitas Bitcoin yang lebih luas, menjadikan privasi sebagai tanggung jawab bersama, bukan hanya sebagai masalah individu.

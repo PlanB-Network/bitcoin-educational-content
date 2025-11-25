@@ -185,7 +185,7 @@ Avant d'utiliser ce courrier électronique pour un service de connexion, vous po
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 Pour supprimer un alias que vous avez créé à titre de test, il vous suffit de vous connecter à votre `Home`, puis à `Credentials` et de cliquer sur l'identité que vous souhaitez supprimer. La commande _Delete_ apparaîtra dans le coin supérieur droit pour que vous puissiez procéder.
 

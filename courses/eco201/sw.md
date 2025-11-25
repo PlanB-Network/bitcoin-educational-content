@@ -1,20 +1,17 @@
 ---
-name: Utambulisho wa Uchumi wa Austria
-goal: Gundua shule ya Austria ya mawazo ya kiuchumi. Jifunze maoni yao juu ya jamii na hali halisi za uchumi mkuu/kiuchumi.
-objectives: 
-
-  - Njia mbadala ya Ukeynesia
-  - Umuhimu wa Sarafu imara
-  - Kwa nini na vipi mizunguko yetu ya kiuchumi inaundwa?
-  - Kwa nini benki kuu zimekasirika?
-
+name: Misingi ya shule ya uchumi ya Austria
+goal: Gundua uchumi wa Kiostria kama mfumo mbadala wa kuchanganua masoko na maamuzi ya kibinafsi
+objectives:
+- Kuchambua kazi za pesa, mikopo, na mifumo ya benki kuu
+- Kutumia nadharia ya thamani ya kibinafsi na upendeleo wa wakati kwa tabia ya soko
+- Kuelewa nadharia ya mzunguko wa biashara wa Kiostria na sababu zake
+- Kulinganisha mbinu ya Kiostria na mbinu za kawaida za kiuchumi
 ---
-# Safari ya kuingia katika Uchumi
+# Safari ya Uchumi wa Kiostria
 
-Karibu kwenye kozi ya Théo Mogenet! Akiwa na shauku ya uchumi, historia, fasihi, sayansi ya siasa na teknolojia, ameamua kushiriki nawe ujuzi wake wa uchumi wa Austria. Tawi hili, ambalo halijulikani sana katika uchumi, linategemea busara ya kibinadamu na tabia huru ya mwigizaji. Chini ya makali katika hisabati, ni swali la mantiki na utafiti wa kijamii juu ya yote.
+Je, umewahi kujisikitisha kwa nini baadhi ya wanauchumi hufikiri tofauti kuhusu masoko, uhuru, na tabia ya binadamu? Uchumi wa Kiostria unatoa mtazamo mpya unaokuweka wewe katika moyo wa mawazo ya kiuchumi. Badala ya hisabati ngumu na mifano dhahania, mbinu hii inazingatia mantiki, uchaguzi wa kibinadamu, na jinsi watu halisi wanavyofanya maamuzi katika maisha yao ya kila siku. Ni uchumi kupitia lenzi ya uhuru, busara, na kitendo cha kibinafsi.
 
-Mwelekeo huu wa kifikra tayari una karne kadhaa nyuma yake na una mandhari pana ya waandishi mbalimbali, mawazo, na wachumi nyuma yake. Majina makuu katika uchumi kama vile Hayek, Rothbard, Mises, Bastiat, au Menger wametetea harakati hii kwa muda mrefu. Kinyume na Ukenesia uliopo kila mahali wa siku zetu, shule ya Austria inamweka mtu nyuma katikati ya mlingano kwa njia ya huria zaidi, ya ubepari,Mtazamo wa uanarkia.
-
+Shule hii ya mawazo imeshika majadiliano kwa karne nyingi, kutokana na wafikiri wenye ushawishi kama Hayek, Mises, na Bastiat. Wakati uchumi wa Kikeynes wa kawaida unatawala majadiliano ya sera za leo, mila ya Kiostria inauliza maswali tofauti: Nini hutokea tunapoweka kipaumbele uhuru wa mtu binafsi? Masoko huru hufanyaje kazi kwa kweli wakati watu wana uhuru wa kuchagua? Ikiwa una hamu ya kujua njia mbadala za kufikiri kuhusu masoko, jamii, na uhuru, hii ni fursa yako ya kuchunguza mawazo ambayo hutayapata katika vitabu vya kawaida.
 +++
 # Utangulizi wa ECON
 

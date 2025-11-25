@@ -718,7 +718,7 @@ $$
 
 如果您希望了解更多关于现代密码学的数学基础，我还推荐咨询Plan ₿ Network上的这门其他课程：
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## 从私钥计算公钥
 
@@ -1110,7 +1110,7 @@ Schnorr 签名方案为比特币提供了几个相对于原始的 ECDSA 算法�
 
 为了深入了解闪电网络，在CYP201课程之后，我强烈推荐由Fanis Michalakis开设的LNP201课程，该课程详细讲解了这个主题：
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 在下一部分，我建议探索构成您比特币钱包基础的助记词是如何工作的。
 
@@ -1145,7 +1145,7 @@ UTXOs因此代表了不同大小的比特币碎片，只要满足其*scriptPubKe
 
 要了解更多关于比特币隐私模型的信息，并发现保护你隐私的方法，我还推荐你关注我在Plan ₿ Network上的BTC204课程：
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD 钱包（_层次化确定性_）
 
@@ -1248,7 +1248,7 @@ $$
 
 ### 将二进制序列转换为助记词组
 
-位序列 $\text{ENT} \Vert \text{CS}$ 然后被分割成11位的段。每个11位的段，一旦转换为十进制，对应于一个介于0到2047之间的数字，这个数字指定了[由BIP39标准化的2048个单词列表中](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)的一个单词的位置。
+位序列 $\text{ENT} \Vert \text{CS}$ 然后被分割成11位的段。每个11位的段，一旦转换为十进制，对应于一个介于0到2047之间的数字，这个数字指定了[由BIP39标准化的2048个单词列表中](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)的一个单词的位置。
 
 ![CYP201](assets/en/042.webp)
 例如，对于128位的熵，校验和是4位，因此总序列长度为132位。它被分成12个11位的段（橙色位指的是校验和）：
@@ -1289,7 +1289,7 @@ $$
 
 要进一步了解如何手动生成测试助记词短语，请参阅此教程：
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 在继续从这个助记词短语派生钱包之前，我将在下一章向您介绍BIP39密码短语，因为它在派生过程中起着作用，与助记词短语处于同一水平。
 
@@ -1901,19 +1901,21 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 
 正是在*scriptPubKey*中找到接收地址。然而，它们的使用根据采用的脚本标准而有所不同。这里是一个根据使用的标准，*scriptPubKey*中包含的信息以及解锁*scriptPubKey*所需的*scriptSig*中期望的信息的总结表格。
 
-| 标准            | _scriptPubKey_                                              | _scriptSig_             | _赎回脚本_       | _见证_                       |
-| --------------- | ----------------------------------------------------------- | ----------------------- | ---------------- | ---------------------------- |
-| P2PK            | `<pubkey> OP_CHECKSIG`                                      | `<签名>`                |                  |                              |
-| P2PKH           | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<签名> <公钥>`         |                  |                              |
-| P2SH            | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<数据推送> <赎回脚本>` | 任意数据         |                              |
-| P2WPKH          | `0 <pubKeyHash>`                                            |                         |                  | `<签名> <公钥>`              |
-| P2WSH           | `0 <见证脚本哈希>`                                          |                         |                  | `<数据推送> <见证脚本>`      |
-| P2SH-P2WPKH     | `OP_HASH160 <赎回脚本哈希> OP_EQUAL`                        | `<赎回脚本>`            | `0 <pubKeyHash>` | `<签名> <公钥>`              |
-| P2SH-P2WSH      | `OP_HASH160 <赎回脚本哈希> OP_EQUAL`                        | `<赎回脚本>`            | `0 <脚本哈希>`   | `<数据推送> <见证脚本>`      |
-| P2TR (密钥路径) | `1 <公钥>`                                                  |                         |                  | `<签名>`                     |
-| P2TR (脚本路径) | `1 <公钥>`                                                  |                         |                  | `<数据推送> <脚本> <控制块>` |
 
-_来源：比特币核心PR审查俱乐部，2021年7月7日 - Gloria Zhao_
+
+| 标准             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| ------------------------ | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | 任意数据 | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_来源：2021年7月7日 Bitcoin Core PR 审查俱乐部 – Gloria Zhao_
 
 脚本中使用的操作码旨在操纵信息，并在必要时进行比较或测试。以P2PKH脚本为例，其格式如下：
 

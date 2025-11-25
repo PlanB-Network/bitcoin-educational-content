@@ -1,0 +1,8 @@
+question: Ni aina gani ya mifumo inayoweza kujengwa juu ya safu ya msingi isiyoaminika ya Bitcoin kulingana na mtindo wa usalama ulioelezewa?
+answer: Mifumo yote miwili isiyoaminika na inayoaminika inaweza kujengwa juu yake
+wrong_answers:
+  - Mifumo isiyoaminika tu inaweza kujengwa juu yake
+  - Mifumo inayoaminika pekee ndiyo inaweza kujengwa juu yake
+  - Hakuna mifumo ya ziada inayoweza kujengwa juu yake
+explanation: |
+  Safu ya msingi isiyoaminika ya Bitcoin hutoa msingi unaoruhusu kubadilika katika kujenga aina tofauti za mifumo juu. Kama Matt Corallo alivyoelezea, wakati huwezi kuunda mifumo isiyoaminika juu ya mifumo inayoaminika, unaweza kuunda mifumo inayoaminika (kama pochi za uhifadhi) juu ya mifumo isiyoaminika. Hii inamaanisha kuwa msingi usioaminika wa Bitcoin unaauni programu zisizoaminika na huduma zinazoaminika, hivyo kuwapa wabunifu wa mfumo uhuru wa kuchagua mabadilishano yanayofaa bila kulazimisha ubadilishanaji huo huo kwa kila mtu mwingine kwa kutumia safu ya msingi.

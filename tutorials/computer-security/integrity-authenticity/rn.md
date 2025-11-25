@@ -234,4 +234,4 @@ Niwaba wabonye ko iyi nyigisho ari ngirakamaro, noshima ko woshira urukumu hejur
 Ndagusavye kandi kuraba iyi yindi nyigisho kuri VeraCrypt, porogarama ishobora kugufasha gupfuka no gufungura ibikoresho vyo kubika.
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

@@ -17,7 +17,7 @@ Questo video tutorial illustra l'impostazione e l'utilizzo di Bitcoin Keeper Wal
 
 Per vedere l'esercitazione completa per il Bitcoin Keeper Wallet, vedere l'esercitazione qui:
 
-https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
+https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
 
 Consultate qui altri link pertinenti:
 

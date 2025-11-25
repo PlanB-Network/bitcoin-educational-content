@@ -1,0 +1,8 @@
+question: Kulingana na mjadala wa sura ya uoanifu wa Bitcoin, fork laini hutoa aina gani ya utangamano?
+answer: Utangamano wa mbele na nyuma, na kuifanya iendane kikamilifu
+wrong_answers:
+  - Utangamano wa nyuma pekee, unaoruhusu programu mpya kuchakata data ya zamani
+  - Utangamano wa mbele tu, kuruhusu programu ya zamani kuchakata data mpya
+  - Si uoanifu wa mbele wala nyuma, unaohitaji masasisho kamili ya mfumo
+explanation: |
+  Sura hiyo inasema wazi kwamba 'Mabadiliko ya sheria za makubaliano ya Bitcoin inasemekana kuwa fork laini ikiwa inaendana kikamilifu.' Inafafanua patanifu kikamilifu kama kuendana mbele na nyuma. Uoanifu wa mbele unamaanisha kuwa programu ya zamani inaweza kuchakata data kutoka kwa matoleo mapya zaidi kwa kupuuza sehemu ambayo haielewi, huku upatanifu wa nyuma unamaanisha kuwa programu mpya inaweza kuchakata data ya zamani. Utangamano huu wa pande mbili ndio unaofanya uma laini kuwa utaratibu wa uboreshaji unaopendelewa wa Bitcoin, kwani hazivunji mifumo iliyopo huku kuwezesha utendakazi mpya.

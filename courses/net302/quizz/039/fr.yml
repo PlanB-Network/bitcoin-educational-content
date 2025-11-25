@@ -6,4 +6,4 @@ wrong_answers:
   - L'adresse privée est toujours attribuée par DHCP
 explanation: |
   Une adresse IPv4 publique est routable sur Internet et unique mondialement, tandis qu’une adresse privée n’est valable qu’au sein d’un réseau local.
-reviewed: false
+reviewed: true 

@@ -75,7 +75,7 @@ Bitcoin 不仅仅是一种加密货币，它还体现了关于去中心化、隐
 准备好在 Bitcoin 之旅中迈出下一步了吗？让我们开始吧
 
 
-***注**：如果您在课程中遇到任何与 Bitcoin 相关的陌生术语，请参阅[词汇表](https://planb.network/resources/glossary)以查找定义*。
+***注**：如果您在课程中遇到任何与 Bitcoin 相关的陌生术语，请参阅[词汇表](https://planb.academy/resources/glossary)以查找定义*。
 
 
 
@@ -154,7 +154,7 @@ Bitcoin 中的 Miner 去中心化意味着*交易排序*不是由任何单一实
 这些选项都不利于用户。
 
 
-通过去中心化抵制审查是 Bitcoin 与其他货币系统的不同之处，但由于 Double-spending 的*问题*，要做到这一点并不容易。这个问题就是确保没有人能把同一个硬币花两次，很多人都认为这个问题不可能用去中心化的方式来解决。Satoshi 中本聪在其 [Bitcoin 白皮书](https://planb.network/bitcoin.pdf) 中写道，如何解决 Double-spending 问题：
+通过去中心化抵制审查是 Bitcoin 与其他货币系统的不同之处，但由于 Double-spending 的*问题*，要做到这一点并不容易。这个问题就是确保没有人能把同一个硬币花两次，很多人都认为这个问题不可能用去中心化的方式来解决。Satoshi 中本聪在其 [Bitcoin 白皮书](https://planb.academy/bitcoin.pdf) 中写道，如何解决 Double-spending 问题：
 
 
 > 在本文中，我们针对 Double-spending 问题提出了一种解决方案，即使用点对点分布式 Timestamp 服务器对交易的时间顺序进行 generate 计算证明。
@@ -278,7 +278,6 @@ Bitcoin通过去中心化发挥作用的方式类似于自然界中许多物种�
 
 ![](assets/en/002.webp)
 
-*鱼群没有首领*
 
 
 无论你对 Bitcoin 有什么看法，它的分散性都使其难以控制。Bitcoin 已经存在，你对此无能为力。我们应该研究它，而不是争论它。
@@ -372,7 +371,7 @@ Trustless 是什么意思？Pieter Wuille 在 [Stack Exchange](https://Bitcoin.s
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Trustless 基础 Layer 允许在更高水平上进行各种权衡
@@ -536,7 +535,6 @@ Satoshi 中本聪在其[Bitcoin 白皮书](https://Bitcoin.org/Bitcoin.pdf) 第 
 ![](assets/en/005.webp)
 
 
-Blockchain 上典型的隐私泄露现象
 
 
 克里斯-贝尔彻[写得非常详细](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy)，介绍了在 Bitcoin Blockchain 上可能发生的各种隐私泄露。我们建议您至少阅读 "Blockchain 对隐私的攻击 "下的前几个小节。
@@ -632,7 +630,7 @@ Bitcoin 的隐私保护功能并不完美。私下交易需要大量的工作。
 请注意，与 Lightning Network 一样，在 Bitcoin 的基础上构建系统可以实现更好的隐私保护：
 
 
-![image](assets/privacy.webp)
+
 
 
 在 Bitcoin 上加层可增加私密性
@@ -652,7 +650,7 @@ Bitcoin 的隐私保护功能并不完美。私下交易需要大量的工作。
 文章建议你避免使用需要 KYC/AML 的交易所，而是进行私下交易，或者使用 [bisq](https://bisq.network/) 这样的去中心化交易所。
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 有关对策的更深入阅读，请参阅前面提到的[维基隐私文章](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29)，从 "改善隐私的方法（非 Blockchain）"开始。
 
@@ -731,7 +729,7 @@ Block reward 由区块补贴和交易费组成。Block reward 需要支付 Bitco
 今天，是持有者为安全买单（通过货币通胀）。明天，就轮到花钱者以某种方式承担这一负担了，如下图所示。
 
 
-![image](assets/finitesupply.webp)
+
 
 
 随着时间的推移，安全成本的承担者将从持有者转为支出者
@@ -1102,7 +1100,6 @@ Wallet 窃取和拒绝服务攻击：
 ![](assets/en/009.webp)
 
 
-摘自《简单破坏战地手册
 
 
 为了更好地了解对手的想法，了解一下他们的运作方式可能会有所帮助。二战期间，一个名为 "战略服务办公室"（Office of Strategic Services）的美国政府机构以开展间谍活动、破坏活动和宣传活动为宗旨，为其工作人员编写了一本[手册](https://www.gutenberg.org/ebooks/26184)，教他们如何正确地破坏敌人。手册的标题是 "简单破坏战地手册"，其中包含了潜入敌人内部使其陷入困境的具体诀窍。这些诀窍包括烧毁仓库、造成演习磨损以减少敌人的
@@ -1662,7 +1659,6 @@ libsecp256k1](https://github.com/Bitcoin-core/secp256k1) 库就是一个很好�
 
 ![](assets/en/017.webp)
 
-在 Bitcoin 和 Layer 1 基础上的典型 Layer 2 协议。
 
 
 不同协议创建启动事务的方式各不相同，但一个共同的主题是，参与者创建一个未签名的启动事务和若干个预先签名的惩罚事务，以各种方式使用启动事务的输出。随后，启动交易被完全签署并发布到 Blockchain，惩罚交易也可以被完全签署并发布，以惩罚行为不端的一方。这样可以激励参与者信守承诺，使协议以 Trustless 的方式运行。

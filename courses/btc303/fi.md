@@ -75,7 +75,7 @@ Bitcoin:n monimutkaisessa hallintomaailmassa liikkuminen vaatii muutakin kuin te
 Oletko valmis ottamaan seuraavan askeleen Bitcoin-matkallasi? Aloitetaan!
 
 
-***N.B.**: Jos törmäät kurssin aikana Bitcoin:een liittyviin tuntemattomiin termeihin, katso määritelmiä [sanastosta](https://planb.network/resources/glossary).*
+***N.B.**: Jos törmäät kurssin aikana Bitcoin:een liittyviin tuntemattomiin termeihin, katso määritelmiä [sanastosta](https://planb.academy/resources/glossary).*
 
 
 
@@ -154,7 +154,7 @@ Jos he onnistuvat, samat ongelmat tulevat todennäköisesti esiin uudelleen joss
 Mikään näistä vaihtoehdoista ei hyödytä käyttäjää.
 
 
-Sensuurin vastustaminen hajauttamisen avulla erottaa Bitcoin:n muista rahajärjestelmistä, mutta se ei ole helppoa toteuttaa *Double-spending-ongelman* vuoksi. Tämä on ongelma, joka liittyy sen varmistamiseen, ettei kukaan voi käyttää samaa kolikkoa kahteen kertaan, ongelma, jota monet pitivät mahdottomana ratkaista hajautetusti. Satoshi Nakamoto kirjoittaa [Bitcoin whitepaperissaan](https://planb.network/bitcoin.pdf) siitä, miten Double-spending-ongelma ratkaistaan:
+Sensuurin vastustaminen hajauttamisen avulla erottaa Bitcoin:n muista rahajärjestelmistä, mutta se ei ole helppoa toteuttaa *Double-spending-ongelman* vuoksi. Tämä on ongelma, joka liittyy sen varmistamiseen, ettei kukaan voi käyttää samaa kolikkoa kahteen kertaan, ongelma, jota monet pitivät mahdottomana ratkaista hajautetusti. Satoshi Nakamoto kirjoittaa [Bitcoin whitepaperissaan](https://planb.academy/bitcoin.pdf) siitä, miten Double-spending-ongelma ratkaistaan:
 
 
 > Tässä asiakirjassa ehdotamme ratkaisua Double-spending-ongelmaan käyttämällä Timestamp-palvelinta, joka on hajautettu vertaisverkkopalvelin generate-laskentatodisteena tapahtumien kronologisesta järjestyksestä.
@@ -278,7 +278,6 @@ Hän huomauttaa, että monet järjestelmät, niin luonnolliset kuin keinotekoise
 
 ![](assets/en/002.webp)
 
-*Kalakannoilla ei ole johtajia*
 
 
 Oli Bitcoin:stä mitä mieltä tahansa, sen hajautettu luonne vaikeuttaa sen hallintaa. Bitcoin on olemassa, eikä sille voi tehdä mitään. Sitä pitää tutkia, ei keskustella siitä.
@@ -372,7 +371,7 @@ Puheenvuoron ydin on se, että Trustless-järjestelmiä ei voi rakentaa luotetta
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Trustless-perus Layer mahdollistaa erilaisia kompromisseja korkeammilla tasoilla
@@ -536,7 +535,6 @@ Asiakirjassa esitetään yhteenveto Blockchain yksityisyyden suojan tärkeimmist
 ![](assets/en/005.webp)
 
 
-Tyypillisiä Blockchain:n yksityisyysvuotoja
 
 
 Chris Belcher [kirjoitti hyvin yksityiskohtaisesti](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) erilaisista yksityisyydensuojan vuodoista, joita voi tapahtua Bitcoin Blockchain:ssa. Suosittelemme, että luet ainakin ensimmäiset alaluvut kohdasta "Blockchain:n hyökkäykset yksityisyyttä vastaan"
@@ -632,7 +630,7 @@ Hän mainitsi tämän esimerkin myös Bitcoin-wikin [Privacy page](https://en.Bi
 Huomaa, että parempi yksityisyys voidaan saavuttaa rakentamalla järjestelmiä Bitcoin:n päälle, kuten Lightning Network:n tapauksessa:
 
 
-![image](assets/privacy.webp)
+
 
 
 Bitcoin:n päällä olevat kerrokset voivat lisätä yksityisyyttä
@@ -652,7 +650,7 @@ Henkilötietojesi paljastumisen riskejä voi vähentää antamalla niitä alun p
 Artikkelissa ehdotetaan, että vältät KYC/AML-vaatimuksia sisältäviä pörssejä ja käytät sen sijaan yksityisiä tai hajautettuja pörssejä, kuten [bisq](https://bisq.network/).
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Jos haluat lukea syvällisemmin vastatoimista, katso aiemmin mainittu [wikiartikkeli yksityisyydestä](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), alkaen kohdasta "Methods for improving privacy (non-Blockchain)".
 
@@ -731,7 +729,7 @@ Mitä tapahtuu, kun lohkotuki lähestyy nollaa? Yksinkertaisuuden vuoksi oleteta
 Nykyään arvopaperin haltijat maksavat arvopapereista (rahan inflaation kautta). Huomenna on tuhlaajien vuoro jotenkin kantaa tämä taakka, kuten alla on esitetty.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Ajan myötä turvakustannusten kantaminen siirtyy haltijoilta kulujen maksajille
@@ -1102,7 +1100,6 @@ Edellä mainitut ovat esimerkkejä todellisista uhkista, joista on huolehdittava
 ![](assets/en/009.webp)
 
 
-Ote Yksinkertaisen sabotaasin kenttäoppaasta
 
 
 Vastustajan mielen ymmärtämiseksi paremmin voisi olla hyödyllistä saada käsitys siitä, miten hän toimii. Toisen maailmansodan aikana toiminut Yhdysvaltain hallituksen elin nimeltä Office of Strategic Services, jonka tehtäviin kuului muun muassa vakoilu, sabotaasi ja propagandan levittäminen, laati henkilöstölleen [käsikirjan](https://www.gutenberg.org/ebooks/26184) siitä, miten vihollisen sabotointia harjoitetaan asianmukaisesti. Sen nimi oli "Simple Sabotage Field Manual" (Yksinkertainen sabotaasikäsikirja), ja se sisälsi konkreettisia vinkkejä vihollisen soluttautumiseen, jotta sen elämästä tulisi Hard. Vinkit vaihtelivat varastojen polttamisesta harjoitusten kulumisen aiheuttamiseen vihollisen vähentämiseksi
@@ -1662,7 +1659,6 @@ Kerrosprotokolla alkaa siitä, että kaksi tai useampi henkilö sopii Blockchain
 
 ![](assets/en/017.webp)
 
-Tyypillinen Layer 2 -protokolla Bitcoin:n ja Layer 1:n päälle.
 
 
 Alkutapahtuman luontitapa vaihtelee eri protokollien välillä, mutta yhteistä on, että osallistujat luovat allekirjoittamattoman alkutapahtuman ja joukon esisignoituja rangaistustapahtumia, jotka käyttävät alkutapahtuman tuotoksen eri tavoin. Tämän jälkeen aloitustapahtuma allekirjoitetaan ja julkaistaan Blockchain:lle, ja rangaistustapahtumat voidaan allekirjoittaa ja julkaista väärin käyttäytyvän osapuolen rankaisemiseksi. Tämä kannustaa osallistujia pitämään lupauksensa, jotta protokolla voi toimia Trustless tavalla.

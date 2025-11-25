@@ -1,0 +1,8 @@
+question: Kulingana na ufafanuzi wa Pieter Wuille, 'kutoaminika' inamaanisha nini katika muktadha wa mifumo iliyosambazwa?
+answer: Mfumo ambao hauhitaji washirika wowote wanaoaminika kufanya kazi ipasavyo
+wrong_answers:
+  - Mfumo ambapo watumiaji hawawezi kuamini washiriki au wathibitishaji wowote
+  - Mfumo unaoondoa aina zote za uaminifu ikiwa ni pamoja na programu na maunzi
+  - Mfumo ambapo miamala haiwezi kubatilishwa au kupingwa na mtu yeyote
+explanation: |
+  Trustless inarejelea mahususi sifa ya kiufundi ambapo mfumo uliosambazwa unaweza kufanya kazi ipasavyo bila kuhitaji wahusika wowote wanaoaminika. Hii ni tofauti na kuondoa uaminifu wote (bado unaamini programu/vifaa vyako) au kuzuia mabadiliko (shughuli za Bitcoin zinaweza kutenduliwa kupitia uandikaji upya wa msururu). Neno hili pia haimaanishi watumiaji hawawezi kuwaamini washiriki - badala yake, usahihi wa mfumo hautegemei kuwaamini.

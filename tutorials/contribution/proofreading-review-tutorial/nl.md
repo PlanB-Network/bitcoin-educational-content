@@ -1,6 +1,6 @@
 ---
 name: Inhoud proeflezen of beoordelen
-description: Hoe kun je meewerken aan het proeflezen/beoordelen van educatieve inhoud op Plan ₿ Network?
+description: Hoe kun je meewerken aan het proeflezen/beoordelen van educatieve inhoud op Plan ₿ Academy?
 ---
 ![github](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Hoe kun je meewerken aan het proeflezen/beoordelen van educatieve i
 ## Samengevat
 
 
-Als je inhoud voor Plan ₿ Network wilt proeflezen of beoordelen, word dan lid van [onze Telegram-groep] (https://t.me/PlanBNetwork_ContentBuilder) die speciaal bedoeld is voor bijdragen. Introduceer jezelf kort, specificeer dan de inhoud die je wilt nakijken en de taal. Maak je correcties op een werkende branch en dien een PR in zodra je review klaar is.
+Als je inhoud voor Plan ₿ Academy wilt proeflezen of beoordelen, word dan lid van [onze Telegram-groep] (https://t.me/PlanBNetwork_ContentBuilder) die speciaal bedoeld is voor bijdragen. Introduceer jezelf kort, specificeer dan de inhoud die je wilt nakijken en de taal. Maak je correcties op een werkende branch en dien een PR in zodra je review klaar is.
 
 
 Als je het gedeelte hierboven niet begreep, maak je dan geen zorgen - deze handleiding is voor jou!
@@ -16,19 +16,19 @@ Als je het gedeelte hierboven niet begreep, maak je dan geen zorgen - deze handl
 
 ---
 
-## Wat is Plan ₿ Network?
+## Wat is Plan ₿ Academy?
 
 
-Plan ₿ Network is een platform om te leren over Bitcoin door middel van talrijke cursussen en handleidingen voor iedereen. Momenteel is al onze inhoud open-source, gehost op een GitHub repository en open voor bijdragen voor herziening en het maken van inhoud.
+Plan ₿ Academy is een platform om te leren over Bitcoin door middel van talrijke cursussen en handleidingen voor iedereen. Momenteel is al onze inhoud open-source, gehost op een GitHub repository en open voor bijdragen voor herziening en het maken van inhoud.
 
 
-Plan ₿ Network wil het openbare plein van de Bitcoin cyberspace worden, en Bitcoin gemeenschappen wereldwijd verbinden en aanmoedigen.
+Plan ₿ Academy wil het openbare plein van de Bitcoin cyberspace worden, en Bitcoin gemeenschappen wereldwijd verbinden en aanmoedigen.
 
 
 ## Waarom bijdragen?
 
 
-Plan ₿ Network is fundamenteel meertalig, omdat het ons doel is om Bitcoin bronnen wereldwijd toegankelijk te maken voor iedereen. Wij geloven dat taal geen barrière mag zijn voor soeverein geld.
+Plan ₿ Academy is fundamenteel meertalig, omdat het ons doel is om Bitcoin bronnen wereldwijd toegankelijk te maken voor iedereen. Wij geloven dat taal geen barrière mag zijn voor soeverein geld.
 
 
 Om dit te bereiken, gebruiken we een mens & AI-benadering. Via ons [programma] (https://github.com/Asi0Flammeus/LLM-Translator) kunnen we onze inhoud automatisch vertalen in veel talen. We hebben echter een vloeiende spreker nodig om de inhoud te beoordelen om er zeker van te zijn dat deze begrijpelijk is en geen ongepaste termen bevat.
@@ -49,7 +49,7 @@ Je hoeft geen GitHub expert te zijn om inhoud te reviewen. Hoewel het altijd bet
 Als je echter niet bekend bent met Git en GitHub en meer wilt leren, kun je ons inleidende artikel over deze tools bekijken:
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 ## 1. Een account aanmaken
 
@@ -66,7 +66,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Word lid van [de PBN Content Builder groep](https://t.me/PlanBNetwork_ContentBuilder) op Telegram.
+- Word lid van [de Plan ₿ Academy Content Builder groep](https://t.me/PlanBNetwork_ContentBuilder) op Telegram.
 
 
 ![REVIEW](assets/fr/01.webp)
@@ -115,7 +115,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![REVIEW](assets/fr/06.webp)
 
 
-NB. Het is aan te raden om in het codevenster te reviewen, waarbij de originele inhoud in een apart venster wordt weergegeven. Je kunt de tekst bijvoorbeeld bekijken op de Plan ₿ Network website of in de GitHub preview op een browser tabblad. Gebruik `ctrl + F` om fouten op te sporen en correcties aan te brengen in het codevenster.
+NB. Het is aan te raden om in het codevenster te reviewen, waarbij de originele inhoud in een apart venster wordt weergegeven. Je kunt de tekst bijvoorbeeld bekijken op de Plan ₿ Academy website of in de GitHub preview op een browser tabblad. Gebruik `ctrl + F` om fouten op te sporen en correcties aan te brengen in het codevenster.
 
 
 ## 4. Wijzigingen vastleggen
@@ -156,7 +156,7 @@ NB. Het is aan te raden om in het codevenster te reviewen, waarbij de originele 
 
 - Als je nog niet klaar bent met je beoordeling en je wilt later verder werken, dan kun je gewoon afsluiten.
 - Zolang je je wijzigingen hebt gecommit, worden ze opgeslagen op je GitHub fork.
-- Om je werk te hervatten, ga je naar je fork van de Plan ₿ Network inhoudsrepository via je GitHub profiel.
+- Om je werk te hervatten, ga je naar je fork van de Plan ₿ Academy inhoudsrepository via je GitHub profiel.
 
 
 ![REVIEW](assets/fr/14.webp)
@@ -192,21 +192,21 @@ NB. Het is aan te raden om in het codevenster te reviewen, waarbij de originele 
 ## 6. Regels voor het bewerken van inhoud
 
 
-Als je meer wilt weten over de richtlijnen die je moet gebruiken bij het proeflezen op Plan ₿ Network voor wat betreft taal- of formaatregels, raadpleeg dan de handleiding "bijdrage proeflezen-richtlijnen" in deze sectie!
+Als je meer wilt weten over de richtlijnen die je moet gebruiken bij het proeflezen op Plan ₿ Academy voor wat betreft taal- of formaatregels, raadpleeg dan de handleiding "bijdrage proeflezen-richtlijnen" in deze sectie!
 
 
 ## 7. Wachten op beoordeling
 
 
 
-- Gefeliciteerd, je PR is ingediend! Je kunt de voortgang volgen in de "Pull requests" tab op [Plan ₿ Network's GitHub repository] (https://github.com/PlanB-Network/Bitcoin-educational-content/pulls):
+- Gefeliciteerd, je PR is ingediend! Je kunt de voortgang volgen in de "Pull requests" tab op [Plan ₿ Academy's GitHub repository] (https://github.com/PlanB-Network/Bitcoin-educational-content/pulls):
 
 
 ![REVIEW](assets/fr/12.webp)
 
 
 
-- Hartelijk dank voor uw bijdrage! Na goedkeuring neemt een Plan ₿ Network teamlid contact met je op om je beloning op te sturen. **Betalingen vinden uitsluitend plaats via Lightning Network.**
+- Hartelijk dank voor uw bijdrage! Na goedkeuring neemt een Plan ₿ Academy teamlid contact met je op om je beloning op te sturen. **Betalingen vinden uitsluitend plaats via Lightning Network.**
 - Als je opnieuw wilt beginnen, ga dan terug naar stap 2 en stuur een nieuw bericht in de Telegram groep om verder te gaan met bijdragen aan andere inhoud. Zorg ervoor dat je je fork synchroniseert voordat je een nieuwe werkende branch aanmaakt. Om dit te doen, ga je naar de startpagina van je fork, selecteer je de hoofdsectie met de naam `dev` (zie \*A*\), klik dan op de knop "Sync fork" (zie \*B*\). Als er updates beschikbaar zijn voor je fork, zal er een "Update fork" knop verschijnen. Klik hierop om de update uit te voeren.
 
 

@@ -1,0 +1,8 @@
+question: D'après le chapitre, quelle est la principale limite contre laquelle même un full node ne peut pas vous protéger ?
+answer: Des réécritures en chaîne qui pourraient doubler vos transactions
+wrong_answers:
+  - Un logiciel malveillant vole vos clés privées en mémoire
+  - "Blocs non valides qui ne respectent pas les règles de consensus du Bitcoin"
+  - Calendriers d'émission de pièces incorrects violant le protocole
+explanation: |
+  Si un full node peut vérifier que les blocs respectent les règles du consensus, empêcher l'émission de pièces invalides et détecter les violations du protocole, il ne peut pas empêcher les réécritures de la chaîne, où les mineurs réorganisent la chaîne de blocs pour doubler les transactions. Le chapitre précise que, quelle que soit l'avancée de votre logiciel, vous devez toujours être certain que les blocs contenant vos pièces ne seront pas réécrits. C'est pourquoi le mécanisme de défense de Bitcoin repose sur l'attente de confirmations multiples afin de réduire la probabilité d'une réécriture de la chaîne à un niveau acceptable.

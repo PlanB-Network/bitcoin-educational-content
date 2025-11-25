@@ -1,12 +1,12 @@
 ---
 name: Contribuição - Tutoriais
-description: Como é que envio novos conteúdos para o Plan ₿ Network?
+description: Como é que envio novos conteúdos para o Plan ₿ Academy?
 ---
 ![cover](assets/cover.webp)
 
-A missão da Plan ₿ Network é disponibilizar os principais recursos educativos sobre Bitcoin no maior número de línguas possível. Todos os conteúdos publicados no sítio são de código aberto e estão alojados no GitHub, dando a qualquer pessoa a oportunidade de participar no enriquecimento da plataforma. As contribuições podem assumir muitas formas: correção e revisão de textos existentes, tradução para outras línguas, atualização de informação ou mesmo criação de novos tutoriais ainda não disponíveis no nosso site.
+A missão da Plan ₿ Academy é disponibilizar os principais recursos educativos sobre Bitcoin no maior número de línguas possível. Todos os conteúdos publicados no sítio são de código aberto e estão alojados no GitHub, dando a qualquer pessoa a oportunidade de participar no enriquecimento da plataforma. As contribuições podem assumir muitas formas: correção e revisão de textos existentes, tradução para outras línguas, atualização de informação ou mesmo criação de novos tutoriais ainda não disponíveis no nosso site.
 
-Neste tutorial, veremos como adicionar novos conteúdos, como um tutorial ou um curso, à plataforma Plan ₿ Network.
+Neste tutorial, veremos como adicionar novos conteúdos, como um tutorial ou um curso, à plataforma Plan ₿ Academy.
 
 ## Qual é a diferença entre um tutorial e um curso?
 
@@ -14,13 +14,13 @@ As duas principais secções da nossa plataforma são os cursos e os tutoriais. 
 
 Os cursos são naturalmente mais longos e mais estruturados do que os tutoriais. Devem explorar um tópico específico relacionado com a Bitcoin ou o seu ecossistema em profundidade, precisão e pormenor.
 
-[Plano de descoberta ₿ Cursos de rede](https://planb.network/courses)
+[Plano de descoberta ₿ Cursos de rede](https://planb.academy/courses)
 
 ![TUTO](assets/fr/37.webp)
 
 Os tutoriais são geralmente mais curtos. Eles são guias passo-a-passo sobre como realizar uma tarefa específica relacionada ao Bitcoin, com imagens como suporte.
 
-[Plano de descoberta ₿ Tutoriais de rede] (https://planb.network/tutorials)
+[Plano de descoberta ₿ Tutoriais de rede] (https://planb.academy/tutorials)
 
 ![TUTO](assets/fr/38.webp)
 
@@ -34,7 +34,7 @@ Na sua mensagem, apresente-se brevemente e descreva a sua ideia de curso. Se já
 
 ## Como é que envio um novo tutorial?
 
-Para adicionar um novo tutorial à Plan ₿ Network, pode fazê-lo diretamente no GitHub, enviando um Pull Request. No tutorial abaixo e nos tutoriais que o acompanham, eu o conduzo passo a passo por esse processo e o informo sobre as diretrizes a serem seguidas para garantir a compatibilidade do seu tutorial com a plataforma, mantendo um histórico de contribuição claro.
+Para adicionar um novo tutorial à Plan ₿ Academy, pode fazê-lo diretamente no GitHub, enviando um Pull Request. No tutorial abaixo e nos tutoriais que o acompanham, eu o conduzo passo a passo por esse processo e o informo sobre as diretrizes a serem seguidas para garantir a compatibilidade do seu tutorial com a plataforma, mantendo um histórico de contribuição claro.
 
 ## 1 - Escolha um tema para o seu tutorial
 
@@ -48,7 +48,7 @@ Procuramos principalmente tutoriais sobre ferramentas relacionadas com o Bitcoin
 - Troca ;
 - Confidencialidade.
 
-Para além destes tópicos especificamente relacionados com a Bitcoin, a Plan ₿ Network também está à procura de contribuições sobre tópicos que enfatizem a soberania individual, tais como:
+Para além destes tópicos especificamente relacionados com a Bitcoin, a Plan ₿ Academy também está à procura de contribuições sobre tópicos que enfatizem a soberania individual, tais como:
 
 
 - Ferramentas de fonte aberta ;
@@ -64,7 +64,7 @@ Por exemplo, temos atualmente tutoriais sobre Tails, Nostr e GrapheneOS. Estas f
 
 Pode conceber um tutorial de raiz ou pegar num tutorial previamente publicado no seu sítio Web (desde que detenha os direitos de autor) e partilhá-lo também na Rede Plan ₿, acrescentando uma hiperligação para o artigo original.
 
-Seja qual for a sua escolha, tenha em conta que todo o conteúdo publicado na Plan ₿ Network está licenciado ao abrigo de uma licença livre [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/). Esta licença autoriza qualquer pessoa a copiar e, potencialmente, modificar o seu conteúdo, com a única condição de que a fonte original seja devidamente creditada.
+Seja qual for a sua escolha, tenha em conta que todo o conteúdo publicado na Plan ₿ Academy está licenciado ao abrigo de uma licença livre [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/). Esta licença autoriza qualquer pessoa a copiar e, potencialmente, modificar o seu conteúdo, com a única condição de que a fonte original seja devidamente creditada.
 
 ## 2 - Contactar o Plano ₿ Equipa da rede
 
@@ -80,19 +80,19 @@ paolo@planb.network
 
 ## 3 - Escolher as ferramentas certas para contribuir
 
-Para contribuir para o Plan ₿ Network, tem 3 opções, dependendo do seu nível de experiência com o GitHub:
+Para contribuir para o Plan ₿ Academy, tem 3 opções, dependendo do seu nível de experiência com o GitHub:
 
 
-- **Utilizadores experientes**: Continue com os seus métodos habituais e consulte simplesmente o pequeno tutorial abaixo que resume a estrutura de ficheiros do repositório Plan ₿ Network, os requisitos específicos e o método de trabalho:
+- **Utilizadores experientes**: Continue com os seus métodos habituais e consulte simplesmente o pequeno tutorial abaixo que resume a estrutura de ficheiros do repositório Plan ₿ Academy, os requisitos específicos e o método de trabalho:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- **Intermediário (GitHub Desktop)**: Se não estiver familiarizado com a utilização do Git, a primeira opção é configurar facilmente o seu próprio ambiente local para contribuir para o Plan ₿ Network. Esta abordagem é recomendada para contribuições significativas, como escrever um tutorial completo. Para o fazer, siga o tutorial passo-a-passo abaixo:
+- **Intermediário (GitHub Desktop)**: Se não estiver familiarizado com a utilização do Git, a primeira opção é configurar facilmente o seu próprio ambiente local para contribuir para o Plan ₿ Academy. Esta abordagem é recomendada para contribuições significativas, como escrever um tutorial completo. Para o fazer, siga o tutorial passo-a-passo abaixo:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 - **Iniciantes (interface web)**: Também pode optar por utilizar diretamente a interface Web do GitHub, sem ter de configurar um ambiente local completo. Este método pode ser considerado para pequenas contribuições. No entanto, para grandes contribuições, como adicionar um novo tutorial completo, esta opção pode ser mais complexa do que configurar um ambiente local. Eu explicarei como fazer isso neste tutorial:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
-Escolha uma destas três opções de acordo com o seu nível de conhecimento e comece a escrever o seu primeiro tutorial Plan ₿ Network!
+Escolha uma destas três opções de acordo com o seu nível de conhecimento e comece a escrever o seu primeiro tutorial Plan ₿ Academy!

@@ -14,7 +14,7 @@ Tämän lompakon erityispiirre on mahdollisuus lähettää bitcoineja vastaanott
 
 Proton Walletin käyttäminen edellyttää Proton-tiliä. Voit luoda sellaisen ilmaiseksi seuraamalla tämän Proton-postilaatikon luomiseen tarkoitetun ohjeen ensimmäisiä vaiheita (vain kohta "*Proton-tilin luominen*"). Kun tilisi on luotu, voit jatkaa tämän ohjeen loppuosaa.
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Yhdistä Proton-lompakkoon
 
@@ -68,7 +68,7 @@ Voit kirjoittaa sen paperille, tai jos haluat lisätä turvallisuutta, suosittel
 
 Jos haluat lisätietoa siitä, miten muistisääntöjä tallennetaan ja hallitaan oikein, suosittelen seuraamaan tätä toista opetusohjelmaa, varsinkin jos olet aloittelija:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 _**Ei tietenkään koskaan pidä ottaa kuvaa näistä sanoista, toisin kuin minä teen tässä ohjeessa.**_
 
@@ -96,7 +96,7 @@ Tässä voit lisätä BIP39-salasanan uuteen lompakkoon.
 
 Jos haluat syventää tietämystäsi salasanasta, suosittelen tätä opetusohjelmaa:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Vastaanottaa bitcoineja
 
@@ -162,4 +162,4 @@ Onneksi olkoon, tiedät nyt, miten Proton Wallet asetetaan ja miten sitä käyte
 
 Jos haluat mennä pidemmälle, suosittelen tätä opetusohjelmaa Jade Plusista, Blockstreamin uusimmasta laitteistolompakosta:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262

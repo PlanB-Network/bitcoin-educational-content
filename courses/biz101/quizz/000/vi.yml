@@ -1,9 +1,9 @@
-question: Payment rails built on top of traditional currency systems are ?
-answer: Essentially paid for by the merchants through fees of the payment processors
+question: Hệ thống thanh toán được xây dựng dựa trên hệ thống tiền tệ truyền thống là gì?
+answer: Về cơ bản được thanh toán bởi các thương gia thông qua phí của bộ xử lý thanh toán
 wrong_answers:
-  - Essentially free because the customer pays the price displayed by the merchant
-  - Paid for by the customer on top of the merchant's asking price
-  - Paid for by the card companies who resell customer's data
+  - Về cơ bản là miễn phí vì khách hàng trả mức giá do người bán hiển thị
+  - Được khách hàng thanh toán ngoài giá mà người bán yêu cầu
+  - Được thanh toán bởi các công ty thẻ bán lại dữ liệu của khách hàng
 explanation: |
-  Nothing is free. The payment rails built in the traditional currency systems are operated by various vendors such as card companies and acquiring banks who charge a fixed fee and/or a precent fee for each transaction
-reviewed: false
+  Không có gì là miễn phí. Các đường thanh toán được xây dựng trong hệ thống tiền tệ truyền thống được vận hành bởi nhiều nhà cung cấp khác nhau, chẳng hạn như các công ty thẻ và ngân hàng thu mua, với mức phí cố định và/hoặc phí phần trăm cho mỗi giao dịch.
+reviewed: true

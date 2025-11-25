@@ -760,9 +760,9 @@ Usamos um campo finito de inteiros módulo $p$ para garantir a precisão das ope
 
 A matemática das curvas elípticas sobre campos finitos é análoga àquela sobre o campo dos números reais, com a adaptação de que todas as operações são realizadas módulo $p$. Para simplificar as explicações, continuaremos nos capítulos seguintes a ilustrar conceitos usando uma curva definida sobre números reais, mantendo em mente que, na prática, a curva é definida sobre um campo finito.
 
-Se você deseja aprender mais sobre os fundamentos matemáticos da criptografia moderna, também recomendo consultar este outro curso na Plan ₿ Network:
+Se você deseja aprender mais sobre os fundamentos matemáticos da criptografia moderna, também recomendo consultar este outro curso na Plan ₿ Academy:
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Calculando a Chave Pública a partir da Chave Privada
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
@@ -1164,7 +1164,7 @@ Se essa bandeira sighash for integrada ao Bitcoin, ela permitirá o uso de coven
 
 Para aprofundar seu conhecimento sobre a Lightning Network, após o curso CYP201, eu recomendo fortemente o curso LNP201 por Fanis Michalakis, que aborda o tópico em detalhes:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Na próxima parte, proponho descobrir como funciona a frase mnemônica na base da sua carteira Bitcoin.
 
@@ -1199,7 +1199,7 @@ Essa restrição decorre do modelo de privacidade do Bitcoin. Ao reutilizar o me
 
 Para aprender mais sobre o modelo de privacidade do Bitcoin e descobrir métodos para proteger sua privacidade, também recomendo seguir meu curso BTC204 na Rede Plan ₿:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Carteiras HD (_Hierarchical Deterministic_)
 
@@ -1302,7 +1302,7 @@ Por exemplo, para uma entropia de 256 bits, o resultado $\text{ENT} \Vert \text{
 
 ### Conversão da Sequência Binária em uma Frase Mnemônica
 
-A sequência de bits $\text{ENT} \Vert \text{CS}$ é então dividida em segmentos de 11 bits. Cada segmento de 11 bits, uma vez convertido para decimal, corresponde a um número entre 0 e 2047, que designa a posição de uma palavra [em uma lista de 2048 palavras padronizadas pelo BIP39](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+A sequência de bits $\text{ENT} \Vert \text{CS}$ é então dividida em segmentos de 11 bits. Cada segmento de 11 bits, uma vez convertido para decimal, corresponde a um número entre 0 e 2047, que designa a posição de uma palavra [em uma lista de 2048 palavras padronizadas pelo BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/en/042.webp)
 Por exemplo, para uma entropia de 128 bits, o checksum é de 4 bits, e assim a sequência total mede 132 bits. Ela é dividida em 12 segmentos de 11 bits (os bits laranjas designam o checksum):
@@ -1342,7 +1342,7 @@ Como resultado, escolher uma frase de 24 palavras não proporciona proteção ad
 Uma frase de 12 palavras, que também oferece 128 bits de segurança, é, portanto, atualmente suficiente para proteger seus bitcoins contra qualquer tentativa de roubo. Enquanto o algoritmo de assinatura digital não mudar para usar chaves maiores ou depender de um problema matemático diferente do ECDLP, uma frase de 24 palavras permanece supérflua. Além disso, uma frase mais longa aumenta o risco de perda durante o backup: um backup que é duas vezes mais curto é sempre mais fácil de gerenciar.
 Para ir além e aprender concretamente como gerar manualmente uma frase mnemônica de teste, aconselho você a descobrir este tutorial:
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Antes de continuar com a derivação da carteira a partir desta frase mnemônica, vou apresentar a você, no capítulo seguinte, a passphrase BIP39, pois ela desempenha um papel no processo de derivação, e está no mesmo nível que a frase mnemônica.
 ## A passphrase
@@ -1953,19 +1953,21 @@ Quando um usuário recebe bitcoins, o remetente cria uma saída UTXO e a bloquei
 
 É precisamente no _scriptPubKey_ que os endereços de recebimento são encontrados. No entanto, o uso deles varia dependendo do padrão de script adotado. Aqui está uma tabela resumida das informações contidas no _scriptPubKey_ de acordo com o padrão usado, bem como as informações esperadas no _scriptSig_ para desbloquear o _scriptPubKey_.
 
-| Padrão                   | _scriptPubKey_                                              | _scriptSig_                                | _script de resgate_ | _testemunha_                                        |
-| ------------------------ | ----------------------------------------------------------- | ------------------------------------------ | ------------------- | --------------------------------------------------- |
-| P2PK                     | `<pubkey> OP_CHECKSIG`                                      | `<assinatura>`                             |                     |                                                     |
-| P2PKH                    | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<assinatura> <chave pública>`             |                     |                                                     |
-| P2SH                     | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<empurrões de dados> <script de resgate>` | Dados arbitrários   |                                                     |
-| P2WPKH                   | `0 <pubKeyHash>`                                            |                                            |                     | `<assinatura> <chave pública>`                      |
-| P2WSH                    | `0 <witnessScriptHash>`                                     |                                            |                     | `<empurrões de dados> <script de testemunha>`       |
-| P2SH-P2WPKH              | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<script de resgate>`                      | `0 <pubKeyHash>`    | `<assinatura> <chave pública>`                      |
-| P2SH-P2WSH               | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<script de resgate>`                      | `0 <scriptHash>`    | `<empurrões de dados> <script de testemunha>`       |
-| P2TR (caminho da chave)  | `1 <chave pública>`                                         |                                            |                     | `<assinatura>`                                      |
-| P2TR (caminho do script) | `1 <chave pública>`                                         |                                            |                     | `<empurrões de dados> <script> <bloco de controle>` |
 
-_Fonte: Bitcoin Core PR review club, 7 de julho de 2021 - Gloria Zhao_
+
+| Padrão             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Dados arbitrários | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_Fonte: Bitcoin Core PR review club de 7 de julho de 2021 – Gloria Zhao_
 
 Os opcodes usados em um script são projetados para manipular informações e, se necessário, para comparar ou testá-las. Vamos tomar o exemplo de um script P2PKH, que é o seguinte:
 

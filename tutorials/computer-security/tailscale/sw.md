@@ -293,7 +293,7 @@ Umbrel ni jukwaa maarufu la mwenyeji binafsi (haswa linatumika kwa Bitcoin/nodi 
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Kutumia Umbrel na Tailscale pamoja ni kesi ya utumiaji inayovutia sana, kwani Umbrel huunganisha asili ya moduli ya Tailscale iliyo rahisi kusambaza. Hivi ndivyo jinsi Tailscale inavyounganishwa na Umbrel na kile kinacholeta:
 
@@ -419,7 +419,7 @@ Soma mwongozo wetu kamili wa kusanidi Sparrow wallet na nodi yako ya Bitcoin:
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
@@ -439,13 +439,13 @@ Ili kusanidi Zeus na nodi yako ya Umeme, angalia mafunzo yetu ya kina:
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 Ili kujua zaidi kuhusu Lightning Network na jinsi inavyofanya kazi kwenye Umbrel, tembelea:
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 
 

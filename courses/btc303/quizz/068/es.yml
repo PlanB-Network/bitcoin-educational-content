@@ -1,0 +1,8 @@
+question: Cuando los mineros se conectan a pools mining con mayor ancho de banda y conectividad para evitar bloques obsoletos durante periodos de aumento del tamaño de los bloques, ¿cuál es la principal consecuencia negativa para la red Bitcoin?
+answer: Reduce la descentralización de mining, ya que los mineros más pequeños se ven empujados hacia pools más grandes con una infraestructura superior
+wrong_answers:
+  - Aumenta la dificultad computacional de las operaciones mining dificultando la resolución de los bloques
+  - Crea tasas de transacción adicionales que deben pagarse para mantener la conectividad de la red
+  - Reduce la tasa total de hash de la red, ya que los mineros gastan recursos en conectividad en lugar de en mining
+explanation: |
+  El capítulo explica que cuando el tamaño de los bloques aumenta, los tiempos de propagación también lo hacen, lo que genera más bloques obsoletos. Para evitar la pérdida de recompensas por bloques obsoletos, los mineros buscan pools con mejor ancho de banda y conectividad. Esto empuja a los mineros hacia pools más grandes y bien conectados, reduciendo la descentralización de mining. Las otras opciones son incorrectas: la dificultad se ajusta automáticamente independientemente de la conectividad de los pools, los costes de conectividad no crean tasas de transacción adicionales y los mineros no reducen la tasa de hash al unirse a pools mejor conectados.

@@ -69,10 +69,11 @@ proofreading:
     contributor_names:
     reward: 2.44
   - language: it
-    last_contribution_date:
+    last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
-    reward: 1.5
+      - SatoSats
+    reward: 0.75
   - language: ja
     last_contribution_date:
     urgency: 1
@@ -142,7 +143,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.97
+    reward: 2.44
   - language: rn
     last_contribution_date:
     urgency: 1

@@ -145,7 +145,7 @@ Den här frasen fungerar på samma sätt som Mnemonic-fraserna som används i Bi
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Vänligen notera**: Till skillnad från Mnemonic-fraserna som används på Bitcoin-plånböcker, på Session, ** måste du absolut spara varje ord i sin helhet**. De första 4 bokstäverna räcker inte!
 
@@ -299,4 +299,4 @@ Jag rekommenderar också den här andra handledningen, där jag presenterar Thre
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

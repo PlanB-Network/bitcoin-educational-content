@@ -339,8 +339,8 @@ Kwa hivyo tunahitaji pia kuweza kukabiliana na uchanganuzi wa blockchain katika 
 
 Ni njia gani bora ya kukabiliana na uchambuzi wa blockchain kuliko kujifunza kuhusu mbinu zinazotumiwa ndani yake? Ikiwa ungependa kujua jinsi ya kuboresha faragha yako kwenye Bitcoin, unahitaji kuelewa mbinu hizi. Hii itakupa ufahamu bora wa mbinu kama vile Coinjoin  au Payjoin (mbinu tutakazoangalia katika sehemu za mwisho za kozi), na kupunguza makosa ambayo unaweza kufanya.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
-https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 Katika hili, tunaweza kuchora mlinganisho na cryptography na cryptanalysis. Mwandishi mzuri wa kriptografia kwanza kabisa ni cryptanalyst mzuri. Ili kuunda algorithm mpya ya usimbuaji, unahitaji kujua ni mashambulizi gani ambayo itakabili, na pia usome kwa nini algorithmu ya hapo awali imevunjwa. Kanuni hiyo hiyo inatumika kwa faragha ya Bitcoin. Kuelewa mbinu za uchambuzi wa blockchain ndio ufunguo wa kulinda dhidi yao. Ndiyo maana nimejumuisha uchanganuzi wa sehemu nzima ya onchain katika kozi hii ya mafunzo.
 
 ### Mbinu za Chainalysis 
@@ -1282,7 +1282,7 @@ Mbinu zote hizi za uteuzi otomatiki wa UTXO zinaweza kuwa na ufanisi katika kupu
 
 Ikiwa ungependa kujua jinsi ya kuweka alama kwenye UTXO zako, tumeandaa mafunzo ya kina kuhusu programu kuu za wallet za Bitcoin zinazopatikana:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 ## KYC na kitambulisho muhimu
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
@@ -1441,25 +1441,25 @@ Kwa kadiri suluhisho inavyohusiana na hilo, mimi binafsi nimekuwa nikitumia [Bis
 
 -> Tazama mafunzo yetu ya Bisq.
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 Kwa chaguo rahisi, unaweza kujaribu [Peach](https://peachbitcoin.com/), programu ya simu inayounganisha wanunuzi na wauzaji kwa kutumia mfumo uliojengewa ndani wa kutatua migogoro. Mchakato ni angavu zaidi kuliko wa Bisq.
 
 -> Tazama mafunzo yetu ya Peach.
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 Chaguo jingine la mtandaoni ni [HodlHodl](https://hodlhodl.com/), jukwaa lililoimarishwa ambalo hutoa ukwasi mzuri, ingawa sijaijaribu kibinafsi.
 
 -> Tazama mafunzo yetu ya HodlHodl.
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 Kwa suluhu zenye msingi wa Lightning Network, jaribu [RoboSats](https://learn.robosats.com/) na [LNP2PBot](https://lnp2pbot.com/). RoboSats inapatikana kupitia tovuti na ni rahisi kutumia. LNP2PBot si ya kawaida zaidi, kwani inafanya kazi kupitia mfumo wa exchange kwenye programu ya utumaji ujumbe wa Telegraph.
 
 -> Tazama mafunzo yetu ya RoboSats.
 
 -> Tazama mafunzo yetu ya LNP2PBot.
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 ![BTC204](assets/sw/096.webp)
 
 ### Mifumo inayodhibitiwa bila KYC
@@ -1468,7 +1468,7 @@ Kulingana na nchi unayoishi, unaweza kufikia mifumo inayodhibitiwa ambayo haihit
 
 -> Tazama mafunzo yetu kuhusu Relai.
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 Kama tulivyoona katika sura iliyotangulia, aina hii ya jukwaa hukuepusha na hatari zinazohusiana na taratibu za KYC, lakini zinawasilisha kiwango cha juu cha hatari kwa utambulisho muhimu. Kwa upande wa faragha ya Bitcoin, basi, majukwaa haya hutoa ulinzi bora zaidi kuliko njia za kununua na KYC, lakini hubakia chini ya kuvutia kuliko exchange ya P2P.
 
 Walakini, kwa upande wa usalama wa kibinafsi, kutumia majukwaa haya ni hatari kidogo kuliko P2P exchange . Pia mara nyingi ni rahisi kutumia kuliko majukwaa ya P2P.
@@ -1491,7 +1491,7 @@ Njia bora ya kutumia BTC ni, bila shaka, kutumia Bitcoin au Lightning Network mo
 
 Majukwaa kadhaa ambayo hayahitaji taratibu za KYC hutoa uwezekano wa kubadilisha bitcoins kuwa kadi za zawadi ambazo zinaweza kutumika kwa wauzaji wakuu. Haya ni pamoja na [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) na [Bitrefill](https://www.bitrefill.com/). Majukwaa haya hurahisisha matumizi ya bitcoins zako kila siku, na hukupa ufikiaji wa aina mbalimbali za bidhaa na huduma bila kulazimika kuziuza kwa sarafu ya serikali.
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 ![BTC204](assets/sw/098.webp)
 
 ### Njia zingine za kupata
@@ -1500,7 +1500,7 @@ Njia zingine za kupata bitcoins wakati wa kulinda faragha yako ni pamoja na, min
 
 Njia nyingine ni kufanya kazi katika exchange ya bitcoins. Njia hii ya kupata inaweza kuvutia, lakini kiwango cha kitambulisho kinachohitajika hutofautiana sana kulingana na hali.
 
-*Ili kuandika sura hii, nilitumia kozi ya mafunzo ya BTC205 iliyotolewa na [@pivi___](https://x.com/pivi___) kwenye Plan ₿ Network (inapatikana katika Kifaransa pekee kwa sasa)*
+*Ili kuandika sura hii, nilitumia kozi ya mafunzo ya BTC205 iliyotolewa na [@pivi___](https://x.com/pivi___) kwenye Plan ₿ Academy (inapatikana katika Kifaransa pekee kwa sasa)*
 
 ## Ujumuishaji, usimamizi wa UTXO na CIOH
 
@@ -1865,7 +1865,6 @@ Kwa sasa, Whirlpool ndiyo utekelezaji pekee wa CoinJoin unaotumia kwa ukali itif
 
 :::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
 
-Mnamo mwaka wa 2024, tunashuhudia mabadiliko makubwa katika zana zinazopatikana kwa watumiaji wanaotaka kufanya mchanganyiko kwenye Bitcoin. Kwa sasa tuko katika hatua ya mabadiliko, na soko la CoinJoin linafanyiwa marekebisho makubwa. Sura hii hakika itasasishwa baada ya muda.
 
 
 Kwa sasa kuna utekelezaji tatu tofauti wa CoinJoin kwenye Bitcoin:
@@ -1873,6 +1872,10 @@ Kwa sasa kuna utekelezaji tatu tofauti wa CoinJoin kwenye Bitcoin:
 .Whirlpool
 .Wabisabi
 .JoinMarket
+
+Mbali na utekelezaji haya matatu ya kihistoria, mpya imeibuka hivi karibuni: Joinstr. Sitaiangazia katika sura hii, lakini unaweza kupata taarifa zote zinazohusiana nayo katika mwongozo huu maalumu:
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
 
 Kila moja ya utekelezaji huu inalenga kuvunja historia ya UTXO kupitia miamala ya CoinJoin. Hata hivyo, mifumo yao inatofautiana sana. Kwa hivyo ni muhimu kuelewa jinsi kila moja inavyofanya kazi, ili uweze kuchagua chaguo linalofaa zaidi mahitaji yako.
 
@@ -1895,6 +1898,8 @@ Hata hivyo, kikwazo cha kiufundi bado ni kikwazo kikubwa. Katika mfumo ikolojia 
 Licha ya muundo wake wa kiubunifu wa kuunganisha wa P2P kwa waunganishaji, JoinMarket ina hasara kubwa, haswa katika suala la muundo wa shughuli. Tofauti na utekelezwaji mwingine kama vile Whirlpool, JoinMarket haihakikishii usawa kamili kati ya matokeo, na inawezekana kufuatilia viungo vya kubainisha kati ya pembejeo na matokeo. Zaidi ya hayo, haina zana za kuzuia sehemu ambazo tayari zimechanganywa pamoja zisichanganywe tena, jambo ambalo linaweza kuhatarisha usiri unaotafutwa na watumiaji.
 
 Hatimaye, wakati dhana ya JoinMarket inavutia, hasa kwa wale wanaopenda soko la ukwasi wa nguvu, udhaifu wake wa kimuundo na utata wa kiufundi hufanya hivyo, kwa maoni yangu, chini ya kuvutia kwa wanovisi na wataalam wanaotafuta utekelezaji wa kuunga sarafu.
+
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
 
 ### Wabisabi
 
@@ -1939,6 +1944,10 @@ Zaidi ya masuala ya kiufundi, uamuzi wa zkSNACKs, kampuni iliyo nyuma ya Wasabi,
 
 Jambo linalotia wasiwasi zaidi ni kanuni ya uchujaji, ambayo inatofautiana kwa kiasi kikubwa na falsafa ya Bitcoin ya kutoa mfumo wa kifedha ulio wazi, usiodhibitiwa. Ingawa inaweza kuonekana kuwa sawa kutaka kutenga shughuli za uhalifu, uchujaji huu unaweza pia kuathiri watu ambao vitendo vyao, ingawa vinaainishwa kuwa haramu katika muktadha fulani, vinaweza kuhalalishwa kimaadili au kunufaisha jamii. Mfano wa Edward Snowden unaonyesha kikamilifu mkanganyiko huu: anachukuliwa kuwa mhalifu na baadhi ya serikali kwa ufunuo wake, lakini anaonekana na wengine kama mtoa taarifa aliyefanya hivyo kwa maslahi ya umma. Utata huu unasisitiza hatari inayoweza kutokea ya uchujaji ambao, ingawa una nia njema, unaweza hatimaye kudhoofisha haki na usalama wa watumiaji halali. Ningeweza pia kutaja wanaharakati na waandishi wa habari wanaoteswa chini ya tawala fulani za kimabavu.
 Kama vile utakuwa umekusanya kufikia sasa, upendeleo wangu ni dhahiri kwa mfano wa Whirlpool kwa coinjoin kwenye Bitcoin. Mfumo huu unasimama nje kwa ukali wake na hutoa dhamana ya juu ya usiri. Pia ndiyo pekee inayotoa mchanganyiko unaozingatiwa kuwa mzuri katika muktadha wa hisabati. Kwa maoni yangu, mtindo huu unawakilisha mustakabali wa kuunga sarafu kwenye Bitcoin. Ninakualika uchunguze mtindo huu kwa kina zaidi katika sura inayofuata.
+
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
 
 ## Jinsi Whirlpool inavyofanya kazi
 
@@ -2133,7 +2142,7 @@ Pia haipendekezi kuhamisha UTXO zako za posta hadi Pochi kwa kutumia hati ambazo
 
 Kama ilivyo kwa muamala wowote wa Bitcoin, ni muhimu pia kutotumia tena kupokea Anwani (address). Kila muamala mpya lazima upokewe kwenye Anwani (address) mpya, tupu.
 
-Suluhisho rahisi na salama zaidi ni kuacha UTXO zako zilizochanganyika zikiwa zimepumzika katika akaunti yao ya **mchanganyiko wa posta**, ukiziacha zichanganyike na kuzigusa tu ili zitumie. Pochi za Samurai na Sparrow zina ulinzi wa ziada dhidi ya hatari hizi zote za uchanganuzi wa minyororo. Ulinzi huu hukusaidia kuepuka kufanya makosa.
+Suluhisho rahisi na salama zaidi ni kuacha UTXO zako zilizochanganywa zikiwa katika hali ya kupumzika kwenye akaunti ya **postmix**, ukiziruhusu ziendelee kuchanganyika na kuzigusa tu unapozitumia. Wallet za Samourai (na sasa Ashigaru) pamoja na Sparrow zina ulinzi wa ziada dhidi ya hatari zote zinazohusiana na uchanganuzi wa mnyororo. Ulinzi huu hukusaidia kuepuka makosa.
 
 ### Je, unadhibiti vipi ubadilishanaji wa sumu?
 
@@ -2146,23 +2155,26 @@ Hapa kuna baadhi ya mikakati ya kuzitumia:
 - Ziweke alama kama "zisizo za spendable": Mbinu nyingine ni kuacha kuzitumia, ziweke alama kuwa "zisizo za spendable" katika akaunti yao maalum, na HODL pekee. Hii inahakikisha kwamba hutazitumia kimakosa. Iwapo thamani ya Bitcoin itapanda, madimbwi mapya yanayofaa zaidi UTXO zako zenye sumu yanaweza kuibuka;
 - **Toa michango:** Zingatia kutoa michango, ingawa ni ya kiasi, kwa wasanidi programu wanaotumia Bitcoin na programu zinazohusiana. Unaweza pia kuchangia vyama vinavyokubali BTC. Ikiwa kudhibiti UTXO zako zenye sumu kunaonekana kuwa ngumu sana, unaweza kuziondoa na kutoa mchango;
 - **Nunua kadi za zawadi:** Mifumo kama vile [Bitrefill](https://www.bitrefill.com/) hukuruhusu kutumia bitcoins za Ubadilishanaji kwa kadi za zawadi ambazo zinaweza kutumika kwa wafanyabiashara mbalimbali. Hii inaweza kuwa njia ya kutengana na UTXO zako zenye sumu bila kupoteza thamani inayohusika;
-- Ziunganishe kwenye Monero: **Pochi la Samourai** linatoa huduma ya kubadilishana atomiki kati ya BTC na XMR. Hii ni bora kwa kudhibiti UTXO zenye sumu kwa kuziunganisha kwenye Monero, bila kuhatarisha usiri wako kupitia CIOH, kabla ya kuzirudisha kwa Bitcoin. Hata hivyo, chaguo hili linaweza kuwa la gharama kubwa kwa mujibu wa ada na malipo ya mining (uchimbaji) kutokana na vikwazo vya ukwasi;
+- **Kuzikusanya kupitia Monero:** Samourai Wallet hapo awali ilitoa huduma ya kubadilishana kwa atomiki kati ya BTC na XMR, lakini kwa bahati mbaya haipatikani tena tangu kukamatwa kwao. Mbinu hii iliwezesha kushughulikia UTXO zenye sumu kwa kuzikusanya kwenye Monero bila kuhatarisha faragha yako kupitia CIOH, kabla ya kuzirudisha tena kwenye Bitcoin. Iwapo huduma inayofanana itarejea, inaweza kuwa chaguo zuri. Hata hivyo, kumbuka kwamba mbinu hii inaweza kuwa ya gharama kubwa, kutokana na ada za uchimbaji na pia malipo ya ziada yanayotokana na ukosefu wa ukwasi wakati wa kubadilisha tena hadi bitcoin.
 - **Zitume kwa Lightning Network:** Kuhamisha UTXO hizi kwa Lightning Network ili kufaidika na ada za ununuzi zilizopunguzwa kunaweza kuwa chaguo la kuvutia. Walakini, njia hii inaweza kufichua habari fulani kulingana na jinsi unavyotumia Umeme, na kwa hivyo inapaswa kutumiwa kwa tahadhari.
 
 ### Je, ninatumiaje Whirlpool?
 
-Kufuatia kukamatwa kwa waanzilishi wa Pochi la Samourai na kunaswa kwa seva zao mnamo Aprili 24, 2024, zana ya Whirlpool haifanyi kazi tena, hata kwa wale walio na Dojo zao. Hapo awali, ilipatikana kwenye Pochi la Samourai na Pochi la Sparrow.
+Baada ya kukamatwa kwa waanzilishi wa Samourai Wallet na kukamatwa kwa seva zao tarehe 24 Aprili 2024, kifaa cha Whirlpool hakipatikani tena kwenye Samourai Wallet na Sparrow Wallet.
 
 ![BTC204](assets/sw/155.webp)
 
-Hata hivyo, bado inawezekana kwamba zana hii itawashwa tena katika wiki zijazo, kulingana na matokeo ya majaribio, au kuzinduliwa upya kwa njia tofauti. Kwa vyovyote vile, sidhani kama soko la kuunga sarafu ya Bitcoin  litakuwa bila usambazaji kwa muda mrefu, kwani mahitaji yapo. Zaidi ya hayo, kwa vile modeli ya Whirlpool ndiyo ya juu zaidi katika suala la usiri, hakika itakuwa ni kielelezo cha chaguo kwa utekelezaji mwingine katika siku zijazo.
 
-Tunafuatilia kwa karibu kesi hii na maendeleo katika zana zinazohusiana. Kuwa na uhakika kwamba tutakuwa tukisasisha kozi hii ya mafunzo kadri taarifa mpya zinavyopatikana.
+
+Kuanzia sasa, Whirlpool inapatikana tena kwenye programu ya simu ya Ashigaru, ambayo ni fork ya Samourai Wallet, shukrani kwa programu ya Ashigaru Terminal.
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
+Kiini cha jinsi Whirlpool inavyofanya kazi hakijabadilika, lakini bado kuna tofauti fulani ikilinganishwa na matumizi yake kwenye Samourai: mwaka 2025, kwenye Ashigaru, kuna pool mbili pekee zinazopatikana, zenye kiasi cha `0.25 BTC` na `0.025 BTC`, pamoja na ada za kuingia za `0.0125 BTC` na `0.00125 BTC` kwa mtiririko huo.
 
 Katika sura inayofuata, tutajua "anonsets" ni nini, jinsi viashiria hivi vinavyohesabiwa, na jinsi vinaweza kutusaidia kukadiria ufanisi wa mizunguko ya kuunga sarafu.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 ## Seti za kutokujulikana
 
@@ -2578,8 +2590,11 @@ Wallet maarufu zinazotumia PayJoin ni pamoja na Sparrow Wallet, Wasabi Wallet, M
 
 ![BTC204](assets/sw/177.webp)
 
-Utekelezaji wa hali ya juu zaidi wa PayJoin ulikuwa Stowaway pekee kwenye Sparrow Wallet. Hata hivyo, tangu kukamatwa kwa waanzilishi wa programu, chombo hiki sasa kinafanya kazi kwa sehemu tu. Faida ya Stowaway ni kwamba ni itifaki ya kina na rahisi kutumia, ambayo inasaidia kupokea na kutuma viungo vya malipo. Miamala iliyotiwa sahihi kiasi inaweza kubadilishwa na mtumiaji mwenyewe kwa kuchanganua misimbo kadhaa ya QR, au kiotomatiki kupitia Tor kwa kutumia Soroban. Chaguo la mwisho la mawasiliano halitumiki kwa sasa.
 
+
+Utekelezaji wa payjoin ulioendelea zaidi bila shaka ni Stowaway, uliobuniwa na watengenezaji wa Samourai Wallet. Tangu kukamatwa kwa waanzilishi wa programu, kifaa hiki hufanya kazi sehemu tu kwenye Samourai. Lakini kimeanzishwa upya kwenye programu ya Ashigaru.
+
+Faida ya Stowaway ni kwamba ni itifaki kamili na rahisi sana kutumia, inayowezesha kupokea na kutuma payjoin. Muamala ulio na sahihi ya sehemu unaweza kubadilishwa kwa mkono kwa kuchanganua misimbo kadhaa ya QR au kiotomatiki kupitia Tor ukitumia Soroban.
 
 ![BTC204](assets/sw/178.webp)
 
@@ -2588,7 +2603,7 @@ Ugumu wa kutumia PayJoin unatokana na utegemezi wake juu ya ushiriki wa mfanyabi
 Suluhisho mojawapo litakuwa kutumia miundo ya muamala inayoleta utata katika uchanganuzi wa msururu bila kuhitaji ushirikiano wa mpokeaji. Hili litatuwezesha kuboresha usiri wa malipo yetu bila kutegemea ushiriki hai wa wafanyabiashara. Hili ndilo hasa tutakalokuwa tukiliangalia katika sura inayofuata.
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab
 ## Malipo ya mini-CoinJoin
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
@@ -2697,18 +2712,19 @@ Mantiki inapaswa kuwa kama ifuatavyo unapotaka kutumia zana ya usiri kwa gharama
 
 ### Je, ninatumia vipi miamala ya Stonewall na Stonewall x2?
 
-Miamala ya Stonewall na Stonewall x2 inapatikana kwenye programu ya Samourai Wallet na programu ya Sparrow Wallet.
+Muamala ya Stonewall yanapatikana kwenye Sparrow Wallet na pia kwenye Ashigaru, ilhali Stonewall x2 kwa sasa yanaungwa mkono na Ashigaru pekee.
 
 ![BTC204](assets/sw/189.webp)
 
-Hata hivyo, kama ilivyo kwa viungo vya malipo, kufuatia kukamatwa kwa waanzilishi wa Samourai, miamala ya Stonewall x2 sasa inafanya kazi tu kupitia kubadilishana PSBT kati ya pande zinazohusika. Kwa bahati mbaya, ubadilishanaji wa kiotomatiki kupitia Soroban haupatikani tena.
 
 Inawezekana pia kutekeleza aina hii ya muamala kwa mikono kutoka kwa programu yoyote ya Bitcoin Wallet.
 
 Katika sura inayofuata, tutaangalia mbinu nyingine ya usiri ambayo haijulikani kwa kiasi, lakini ambayo ni muhimu sana kama inayosaidia yale ambayo tayari tumejifunza.
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
-https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/sparrow-stonewall-6fcfd679-7038-4ee2-8bf7-de76a72f9392
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 ## ricochets
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
@@ -2761,14 +2777,14 @@ Kesi ya kawaida ya matumizi ya ricochet hutokea pale ambapo ni muhimu kuficha us
 
 Njia hii ni muhimu si tu kwa CoinJoin, bali pia kwa alama nyingine yoyote ya kihistoria inayoweza kuhatarisha uwezekano wa sehemu yako ya bitcoin kutambulika.
 
-Wazo la mbinu hii ya ricochet lilianzia kwa timu ya Samourai Wallet, waliyoijumuisha kwenye programu yao ili itekelezwe kiotomatiki. Huduma hii si bure kwenye Samourai, kwani ricochet inahusisha ada ya huduma ya 100,000 Sats, pamoja na gharama za mining (uchimbaji). Kwa hiyo, matumizi yake yanapendekezwa zaidi kwa miamala ya kiasi kikubwa.
+Wazo la mbinu hii ya ricochet lilitokana awali na timu za Samourai Wallet, ambazo ziliiweka kwenye programu yao ili kuifanya ifanye kazi kiotomatiki. Huduma ilikuwa ya kulipiwa kwenye Samourai, kwani kila ricochet ilisababisha gharama ya kudumu ya sats 100,000 kwa ada za huduma, pamoja na ada za uchimbaji. Vivyo hivyo hadi leo kwenye Ashigaru. Hivyo basi, matumizi yake yanapendekezwa zaidi kwa uhamisho wa kiasi kikubwa cha fedha.
 
 ![BTC204](assets/sw/196.webp)
 
-Programu ya Samourai Wallet inatoa matoleo mawili ya ricochet:
+Programu ya Ashigaru inatoa aina mbili za ricochet (zile zile tulizokuwa nazo awali kwenye Samourai):
 
 
-- Ricochet iliyoimarishwa, au *"fast delivery"*, hutoa faida ya kusambaza malipo ya huduma ya Samourai kupitia muamala tano zinazofuatana. Chaguo hili pia huhakikisha kuwa kila muamala unatangazwa kwa wakati tofauti na kurekodiwa katika block tofauti, ikiiga kwa karibu iwezekanavyo tabia ya mmiliki kubadilika. Ingawa ni polepole, njia hii ni bora kwa wale wasio na haraka, kwani huongeza ufanisi wa Ricochet kwa kuimarisha upinzani wake dhidi ya Chain analysis (uchambuzi wa mnyororo);
+- Ricochet iliyoimarishwa, au "utoaji wa hatua kwa hatua", inatoa faida ya kugawa ada za huduma ya Ashigaru kwenye miamala mitano mfululizo. Chaguo hili pia huhakikisha kuwa kila muamala unatolewa kwa wakati tofauti na kuandikishwa kwenye bloku tofauti, jambo linalowezesha kuiga kwa uaminifu tabia ya kubadilika kwa umiliki. Ingawa ni ya polepole zaidi, njia hii inapendekezwa kwa wale wasiokuwa na haraka, kwani huongeza ufanisi wa ricochet kwa kuimarisha upinzani wake dhidi ya uchanganuzi wa mnyororo;
 ![BTC204](assets/sw/197.webp)
 
 
@@ -2780,7 +2796,7 @@ Ricocheting ina maana ya kutuma bitcoins kwako mwenyewe. Inawezekana kabisa kuwe
 
 Katika sura inayofuata, tunaangalia mbinu tofauti za uhamisho wa siri wa Umiliki. Njia hizi hutofautiana kwa kiasi kikubwa na zile ambazo tumechunguza hadi sasa, kwa suala la uendeshaji na matokeo.
 
-https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 ## Uhamisho wa siri wa Ownership
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
@@ -3010,7 +3026,7 @@ Lengo la BIP47 ni kufanya uwezekano wa kupokea idadi kubwa ya malipo bila kutumi
 
 Kwa hivyo mtumiaji anaweza kushiriki msimbo wake wa malipo kwa uhuru kamili, iwe kwenye mitandao ya kijamii au kwenye tovuti yake, bila kuhatarisha upotevu wowote wa usiri, tofauti na mpokeaji wa kawaida wa address au ufunguo wa umma.
 
-Ili kutekeleza muamala, pande zote mbili zinahitaji wallet ya Bitcoin yenye utekelezaji wa BIP47, kama vile PayNym kwenye Pochi la Samurai au wallet ya Sparrow. Matumizi ya pamoja ya misimbo yao ya malipo hutengeneza njia ya siri kati yao. Ili kuanzisha kituo hiki kwa ufanisi, mtoaji lazima atekeleze shughuli mahususi kwenye Bitcoin Blockchain, inayojulikana kama "muamala wa arifa" (zaidi kuhusu hili baadaye).
+Ili kufanya muamala, pande zote mbili lazima ziwe na pochi ya Bitcoin yenye utekelezaji wa BIP47, kama vile PayNym kwenye Ashigaru au Sparrow Wallet. Matumizi ya pamoja ya misimbo yao ya malipo huunda njia ya siri kati yao. Ili kuanzisha njia hii kwa ufanisi, mtumaji lazima afanye muamala maalum kwenye blockchain ya Bitcoin unaojulikana kama "muamala wa taarifa" (nitakupa maelezo yake baadaye).
 
 Kuchanganya misimbo ya malipo ya watumiaji hao wawili hutoa siri zilizoshirikiwa, ambazo hutengeneza idadi kubwa ya address za kipekee za Bitcoin zinazopokea (haswa 2^32, au karibu bilioni 4). Kwa njia hii, malipo yanayofanywa kupitia BIP47 hayaelekezwi kwa msimbo wa malipo yenyewe, bali kwa Anwani (address) za kawaida za risiti zinazotokana na misimbo ya malipo ya watumiaji wanaohusika.
 
@@ -3032,7 +3048,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 Msimbo huu pia unaweza kusimba kama msimbo wa QR, ili kurahisisha mawasiliano, kama vile mapokezi ya kawaida ya address.
 
-Kuhusu PayNym Bots, roboti zinazoonekana wakati mwingine kwenye Twitter, hivi ni viwakilishi vya kuona vya msimbo wa malipo, iliyoundwa na Pochi la Samourai. Wao huzalishwa kwa kutumia kazi ya Hash, kuwapa karibu-pekee. Zinachukua umbo la mfuatano mdogo wa herufi zinazoanza na `+` :
+Kuhusu PayNym Bots — wale roboti wanaoonekana mara nyingine kwenye X (Twitter) — hawa ni vielelezo vya kuona vya msimbo wa malipo, vilivyoundwa na Samourai Wallet. Sasa kupitia Ashigaru, vinaonekana kuwa tofauti kidogo, ingawa kanuni inabaki ile ile. Vinazalishwa kupitia kazi ya hashing, jambo ambalo linawapa upekee wa karibu kamili. Huonekana kama mnyororo mdogo wa herufi unaoanza na `+` :
 
 ```plaintext
 +throbbingpond8B1
@@ -3047,9 +3063,9 @@ Avatar hizi pia zinaweza kuwakilishwa kama picha:
 Ingawa roboti hizi hazina utendakazi mahususi wa kiufundi ndani ya mfumo wa BIP47, zina jukumu katika kuwezesha mwingiliano wa watumiaji kwa kutoa utambulisho unaotambulika kwa urahisi.
 
 ---
-*Katika sehemu zifuatazo za sura hii zinazotolewa kwa BIP47, tutaangalia kwa kina jinsi inavyofanya kazi, tukitilia mkazo zaidi mbinu za kriptografia zinazotumiwa. Ili kufahamu kikamilifu maelezo haya ya kiufundi, ni muhimu kwanza kuelewa muundo wa wallets za HD, taratibu muhimu za utoeji na misingi ya kriptografia ya mduara. Ikiwa ungependa kutafakari kwa kina zaidi dhana hizi, kozi nyingine ya bila malipo inapatikana kwenye Plan ₿ Network :*
+*Katika sehemu zifuatazo za sura hii zinazotolewa kwa BIP47, tutaangalia kwa kina jinsi inavyofanya kazi, tukitilia mkazo zaidi mbinu za kriptografia zinazotumiwa. Ili kufahamu kikamilifu maelezo haya ya kiufundi, ni muhimu kwanza kuelewa muundo wa wallets za HD, taratibu muhimu za utoeji na misingi ya kriptografia ya mduara. Ikiwa ungependa kutafakari kwa kina zaidi dhana hizi, kozi nyingine ya bila malipo inapatikana kwenye Plan ₿ Academy :*
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 *Bado ningekushauri uzifuate, kwa sababu kuelewa utendakazi wa kiufundi wa BIP47 kutafanya iwe rahisi kwako kuelewa mapendekezo mengine yanayofanana, ambayo tutayajadili katika sura zifuatazo*
 
 ---
@@ -3801,7 +3817,7 @@ Kisha Bob anaweza kumlipa Alice kama vile alivyomtumia malipo. Majukumu yamebadi
 
 *Shukrani nyingi kwa [Fanis Michalakis](https://x.com/FanisMichalakis) kwa kusahihisha na ushauri wake wa kitaalamu kuhusu makala ambayo yaliongoza kuandikwa kwa sura hii!*
 
-https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>

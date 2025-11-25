@@ -114,7 +114,7 @@ Nếu họ thành công, những vấn đề tương tự rất có thể sẽ t
 Không có tùy chọn nào trong số này có lợi cho người dùng.
 
 
-Khả năng chống kiểm duyệt thông qua phi tập trung là điều khiến Bitcoin khác biệt với các hệ thống tiền tệ khác, nhưng đây không phải là điều dễ dàng thực hiện do *vấn đề Double-spending*. Đây là vấn đề đảm bảo không ai có thể chi tiêu cùng một đồng tiền hai lần, một vấn đề mà nhiều người nghĩ là không thể giải quyết theo cách phi tập trung. Satoshi Nakamoto viết trong [sách trắng Bitcoin](https://planb.network/bitcoin.pdf) của mình về cách giải quyết vấn đề Double-spending:
+Khả năng chống kiểm duyệt thông qua phi tập trung là điều khiến Bitcoin khác biệt với các hệ thống tiền tệ khác, nhưng đây không phải là điều dễ dàng thực hiện do *vấn đề Double-spending*. Đây là vấn đề đảm bảo không ai có thể chi tiêu cùng một đồng tiền hai lần, một vấn đề mà nhiều người nghĩ là không thể giải quyết theo cách phi tập trung. Satoshi Nakamoto viết trong [sách trắng Bitcoin](https://planb.academy/bitcoin.pdf) của mình về cách giải quyết vấn đề Double-spending:
 
 
 > Trong bài báo này, chúng tôi đề xuất một giải pháp cho vấn đề Double-spending bằng cách sử dụng máy chủ Timestamp phân tán ngang hàng để chứng minh tính toán thứ tự thời gian của các giao dịch trên generate.
@@ -238,7 +238,6 @@ Bà chỉ ra rằng nhiều hệ thống, dù là tự nhiên hay nhân tạo, c
 
 ![](assets/en/002.webp)
 
-*Đàn cá không có thủ lĩnh*
 
 
 Bất kể bạn nghĩ gì về Bitcoin, bản chất phi tập trung của nó khiến nó khó kiểm soát. Bitcoin tồn tại và bạn không thể làm gì về nó. Đó là thứ cần được nghiên cứu, không phải để tranh luận.
@@ -332,7 +331,7 @@ Bản chất của bài nói chuyện đó là bạn không thể xây dựng c�
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Trustless cơ sở Layer cho phép nhiều sự đánh đổi khác nhau ở các cấp độ cao hơn
@@ -496,7 +495,6 @@ Bài báo tóm tắt các vấn đề chính của quyền riêng tư Blockchain
 ![](assets/en/005.webp)
 
 
-Rò rỉ quyền riêng tư điển hình trên Blockchain
 
 
 Chris Belcher [đã viết rất chi tiết](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) về các loại rò rỉ quyền riêng tư khác nhau có thể xảy ra trên Bitcoin Blockchain. Chúng tôi khuyên bạn nên đọc ít nhất một vài tiểu mục đầu tiên trong phần "Các cuộc tấn công vào quyền riêng tư của Blockchain".
@@ -592,7 +590,7 @@ Trong [bài phát biểu](https://btctranscripts.com/breaking-Bitcoin/2019/break
 Lưu ý cách bảo mật tốt hơn có thể đạt được bằng cách xây dựng các hệ thống trên Bitcoin, như trường hợp của Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Các lớp trên cùng của Bitcoin có thể tăng thêm sự riêng tư
@@ -612,7 +610,7 @@ Những cách trên đây là một số cách kỹ thuật để cải thiện 
 Bài viết khuyên bạn nên tránh sử dụng các sàn giao dịch yêu cầu KYC/AML và thay vào đó giao dịch riêng tư hoặc sử dụng các sàn giao dịch phi tập trung như [bisq](https://bisq.network/).
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Để biết thêm thông tin chi tiết về các biện pháp đối phó, hãy tham khảo [bài viết wiki về quyền riêng tư](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29) đã đề cập trước đó, bắt đầu từ "Các phương pháp cải thiện quyền riêng tư (không phải Blockchain)".
 
@@ -691,7 +689,7 @@ Block reward bao gồm trợ cấp khối cộng với phí giao dịch. Block r
 Ngày nay, người nắm giữ là người trả tiền cho sự an toàn (thông qua lạm phát tiền tệ). Ngày mai, đến lượt người chi tiêu phải gánh vác gánh nặng này, như minh họa bên dưới.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Theo thời gian, gánh nặng chi phí an ninh sẽ chuyển từ người nắm giữ sang người chi tiêu
@@ -1062,7 +1060,6 @@ Trên đây là những ví dụ về các mối đe dọa thực sự cần đ�
 ![](assets/en/009.webp)
 
 
-Trích đoạn từ Sổ tay thực địa phá hoại đơn giản
 
 
 Để hiểu rõ hơn về tâm trí của kẻ thù, có thể hữu ích khi xem qua cách chúng hoạt động. Một cơ quan chính phủ Hoa Kỳ có tên là Văn phòng Dịch vụ Chiến lược, hoạt động trong Thế chiến II và có một trong những mục đích là tiến hành hoạt động gián điệp, thực hiện phá hoại và phát tán tuyên truyền, đã biên soạn một [sổ tay](https://www.gutenberg.org/ebooks/26184) cho nhân viên của mình về cách phá hoại kẻ thù một cách đúng đắn. Tựa đề của nó là "Sổ tay thực địa phá hoại đơn giản" và chứa các mẹo cụ thể về cách xâm nhập vào kẻ thù để khiến mạng sống của chúng trở nên Hard. Các mẹo bao gồm từ việc đốt cháy nhà kho đến làm mòn máy khoan để giảm
@@ -1622,7 +1619,6 @@ Giao thức nhiều lớp bắt đầu bằng việc có hai hoặc nhiều ngư
 
 ![](assets/en/017.webp)
 
-Giao thức Layer 2 tiêu biểu trên Bitcoin, Layer 1.
 
 
 Cách thức tạo ra giao dịch khởi đầu này khác nhau giữa các giao thức, nhưng một chủ đề chung là những người tham gia tạo ra một giao dịch khởi đầu chưa ký và một số giao dịch trừng phạt đã ký trước, sử dụng đầu ra của giao dịch khởi đầu theo nhiều cách khác nhau. Sau đó, giao dịch khởi đầu được ký đầy đủ và công bố lên Blockchain, và các giao dịch trừng phạt có thể được ký đầy đủ và công bố để trừng phạt một bên có hành vi sai trái. Điều này khuyến khích những người tham gia giữ lời hứa của họ để giao thức có thể hoạt động theo cách của Trustless.

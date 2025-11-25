@@ -328,4 +328,4 @@ Nu ben je klaar om Ubuntu dagelijks te gebruiken: je systeem beveiligen, browsen
 Om de veiligheid van je digitale leven een stap verder te brengen, raden we je aan om eens te kijken naar onze versleutelde berichtendienst, die perfect geschikt is om je privacy te beschermen en je Ubuntu-installatie aanvult:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

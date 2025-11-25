@@ -1,0 +1,8 @@
+question: Bitcoin, önceki dijital para birimlerinin çözemediği hangi sorunu çözdü?
+answer: Merkezi olmayan bir şekilde double-spending problemi
+wrong_answers:
+  - Eşler arası ağlarda şifreleme sorunu
+  - Dijital işlemler için depolama sorunu
+  - Online ödemelerde hız sorunu
+explanation: |
+  Bitcoin'ün atılımı, merkezi bir otoriteye ihtiyaç duymadan double-spending sorununu çözmesiydi. double-spending sorunu, bir kişinin aynı dijital parayı iki kez harcamasını engelleme zorluğudur. Önceki dijital para birimleri, merkezi sunuculara veya güvenilir otoritelere dayandıkları için başarısız olmuş, bu da onları sansüre ve tek hata noktalarına karşı savunmasız hale getirmiştir. Bitcoin bu sorunu, proof-of-work'ü kullanan eşler arası dağıtılmış zaman damgası sunucusu aracılığıyla çözmüş ve ağın herhangi bir merkezi kontrol olmadan işlem sıralaması üzerinde anlaşmasına olanak sağlamıştır.

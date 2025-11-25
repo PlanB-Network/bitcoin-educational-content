@@ -27,7 +27,7 @@ O diagrama abaixo ilustra o funcionamento de uma carteira com duas trajectórias
 Esta operação permite-lhe definir várias configurações, incluindo :
 
 
-- Um plano de sucessão (ou herança), que permite aos herdeiros recuperar os fundos em caso de morte do utilizador. Para mais informações sobre este assunto, recomendamos a leitura da [parte 4](https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) do curso BTC102.
+- Um plano de sucessão (ou herança), que permite aos herdeiros recuperar os fundos em caso de morte do utilizador. Para mais informações sobre este assunto, recomendamos a leitura da [parte 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) do curso BTC102.
 - Uma cópia de segurança reforçada com um tempo de recuperação, dando ao utilizador a possibilidade de utilizar a sua carteira sem ter de guardar a frase secreta correspondente e correr o risco de a ver roubada, por exemplo, durante um assalto.
 - Uma rede de segurança para as pessoas que se iniciam na utilização da Bitcoin: gerem a sua própria carteira e o seu "tutor" (um familiar, por exemplo) reserva-se o direito de recuperar os seus fundos após um determinado período.
 - Um sistema de assinatura multipartidário (*multisig*) com requisitos reduzidos ao longo do tempo, para fazer face ao desaparecimento de um ou mais participantes, como os sócios de uma empresa.
@@ -45,11 +45,11 @@ Neste tutorial, vamos definir um plano de sucessão. Utilizaremos o :
 
 - Um Ledger Nano S Plus, para as despesas quotidianas;
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
 - Um Blockstream Jade, utilizado para recuperar fundos;
 
-https://planb.network/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
+https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
 
 - Dois suportes de armazenamento (pen USB) para guardar o descritor da carteira;
 - Uma carta de sucessão, com instruções para a recuperação dos fundos;
@@ -63,7 +63,7 @@ Visite o sítio Web oficial da Wizardsardine e transfira o Liana em https://wiza
 
 Para saber como verificar manualmente a autenticidade e a integridade do software antes da instalação, recomendamos que consulte este tutorial :
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Instale o software na sua máquina e inicie-o. Escolha a opção "*Criar uma nova carteira Liana*" para configurar a sua carteira.
 
@@ -193,7 +193,7 @@ Pode verificar o estado de expiração dos seus fundos acedendo ao separador "*M
 
 Para compreender melhor o modelo de representação UTXO utilizado na Bitcoin, pode consultar a primeira parte do curso sobre confidencialidade na Bitcoin escrito por Loïc Morel :
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Despesas correntes
 
@@ -338,6 +338,6 @@ Os guiões criados por este portefólio terão a seguinte forma:
 <primary_key> CHECKSIG IFDUP NOTIF DUP HASH160 <recovery_key_hash> EQUALVERIFY CHECKSIGVERIFY <locktime> CHECKSEQUENCEVERIFY ENDIF
 ```
 
-Uma vez que a segurança da sua carteira Bitcoin também depende da sua compreensão de como ela funciona, sugiro que estude os mecanismos das carteiras determinísticas e hierárquicas em profundidade, fazendo este curso de formação gratuito sobre Plan ₿ Network :
+Uma vez que a segurança da sua carteira Bitcoin também depende da sua compreensão de como ela funciona, sugiro que estude os mecanismos das carteiras determinísticas e hierárquicas em profundidade, fazendo este curso de formação gratuito sobre Plan ₿ Academy :
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

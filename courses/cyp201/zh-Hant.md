@@ -794,9 +794,9 @@ $$
 
 有限域上的橢圓曲線的數學與實數域上的橢圓曲線類似，只是所有的運算都是以 $p$ 為模。為了簡化說明，我們將在接下來的章節繼續使用定義在實數上的曲線來說明概念，但請記住，實際上，曲線是定義在有限域上的。
 
-如果您想了解更多有關現代密碼學的數學基礎，我也建議您參考 Plan ₿ Network 的另一門課程：
+如果您想了解更多有關現代密碼學的數學基礎，我也建議您參考 Plan ₿ Academy 的另一門課程：
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 ## 從私密金鑰計算公開金鑰
 
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
@@ -1217,7 +1217,7 @@ $$
 
 若要加深對 Lightning Network 的認識，在 CYP201 課程之後，我強烈推薦由 Fanis Michalakis 主講的 LNP201 課程，其中詳細介紹了這個主題：
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 在下一部分中，我建議探索您的 Bitcoin Wallet 底部的 Mnemonic 詞組是如何運作的。
 
 # Mnemonic 詞組
@@ -1252,9 +1252,9 @@ Bitcoin 上使用的第一批錢包是 JBOK (_Just a Bunch Of Keys_) 錢包，�
 
 這個限制源自 Bitcoin 的隱私模型。重複使用相同的 Address，會讓外部觀察者更容易追蹤我所有的 Bitcoin 交易。這就是強烈不鼓勵重複使用接收 Address 的原因。然而，要擁有多個地址並公開分隔我們的交易，就必須管理多個私密金鑰。在 JBOK 錢包的情況下，這意味著有多少新的金鑰對就需要建立多少個備份，對使用者來說，這項任務很快就會變得複雜且難以維護。
 
-若要進一步瞭解 Bitcoin 的隱私權模式，並發掘保護您隱私權的方法，我也建議您追蹤我在 Plan ₿ Network 的 BTC204 課程：
+若要進一步瞭解 Bitcoin 的隱私權模式，並發掘保護您隱私權的方法，我也建議您追蹤我在 Plan ₿ Academy 的 BTC204 課程：
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ### HD 錢包（_層級式決定性_)
 
 為了 Address JBOK 錢包的限制，後來採用了新的 Wallet 結構。2012 年，Pieter Wuille 以 BIP32 為基礎進行了改進，引入了分層式確定性錢包。HD Wallet 的原理是從單一資訊來源（稱為 seed）以確定性和分層的方式衍生出所有私密金鑰。此 seed 在 Wallet 建立時隨機產生，並構成唯一的備份，允許重新產生 Wallet 的所有私密金鑰。因此，使用者可以 generate 非常多的私密金鑰，以避免 Address 重複使用並保護他們的隱私，同時只需要透過 seed 為他們的 Wallet 做單一備份。
@@ -1360,7 +1360,7 @@ $$
 
 ### 將二進位序列轉換成 Mnemonic 樂句
 
-位元序列 $\text{ENT}\Vert \text{CS}$ 會被分成 11 位元的區段。每個 11 位元段轉換為十進位後，對應一個介於 0 與 2047 之間的數字，指定一個字的位置 [在 BIP39 標準化的 2048 個字清單中](https://github.com/Planb-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)。
+位元序列 $\text{ENT}\Vert \text{CS}$ 會被分成 11 位元的區段。每個 11 位元段轉換為十進位後，對應一個介於 0 與 2047 之間的數字，指定一個字的位置 [在 BIP39 標準化的 2048 個字清單中](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)。
 
 ![CYP201](assets/en/042.webp)
 
@@ -1402,7 +1402,7 @@ $$
 
 若要進一步具體學習如何手動 generate 測試 Mnemonic 詞組，我建議您參考本教學：
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 在繼續從這個 Mnemonic 詞組推導出 Wallet 之前，我會在下一章向您介紹 BIP39 passphrase，因為它在推導過程中扮演了一個角色，而且它與 Mnemonic 詞組處於同一層級。
 
 ## passphrase
@@ -2038,29 +2038,31 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 
 接收位址正是在 *scriptPubKey* 中找到的。然而，它們的使用依所採用的腳本標準而有所不同。以下是 *scriptPubKey* 中包含的資訊摘要表，依據所使用的標準，以及 *scriptSig* 中預期用來解鎖 *scriptPubKey* 的資訊。
 
-| Standard | *scriptPubKey* | *scriptSig* | *Redeem script* | *witness* | *scriptPubKey* | *scriptSig* | *Redeem script* | *witness*
 
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
 
-| P2PK | `<pubkey> OP_CHECKSIG` | `<signature>` | | | | | | | | | P2PK
 
-P2PKH | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>` | | | | | |
 
-| P2SH | `OP_HASH160 <scriptHash> OP_EQUAL` | `<data pushes> <Redeem script>` | 任意數據 | | P2SH
 
-| P2WPKH | `0 <pubKeyHash>` | | | `<signature> <public key>` |
 
-| P2WSH | `0 <witnessScriptHash>` | | | `<data pushes> <witness script>` |
 
-| P2SH-P2WPKH | `OP_HASH160 <redeemScriptHash> OP_EQUAL` | `<Redeem script>` | `0 <pubKeyHash>` | `<signature> <public key>` | P2SH-P2WPKH
 
-| P2SH-P2WSH | `OP_HASH160 <redeemScriptHash> OP_EQUAL` | `<Redeem script>` | `0 <scriptHash>` | `<data pushes> <witness script>` |
 
-| P2TR (金鑰路徑) | `1 <公開金鑰>` | | `<簽章>` |
 
-| P2TR (腳本路徑) | `1 <公開金鑰> ` | | `<資料推送> <指令碼> <控制區塊> ` |
 
-*來源：Bitcoin 核心公關審查俱樂部，2021 年 7 月 7 日 - Gloria Zhao*
+
+| 標準             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| ------------------------ | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | 任意資料 | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_來源：2021年7月7日 Bitcoin Core PR 審查俱樂部 – Gloria Zhao_
 
 腳本中使用的操作碼是用來操作資訊的，必要時還可對資訊進行比較或測試。讓我們以 P2PKH 腳本為例，其內容如下：
 

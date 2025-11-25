@@ -1,0 +1,8 @@
+question: What is the primary advantage that Merkle proofs provide to SPV (Simplified Payment Verification) clients when verifying transaction inclusion?
+answer: They allow verification of transaction inclusion without downloading the entire block, requiring only a few hundred bytes even for blocks with thousands of transactions
+wrong_answers:
+  - They eliminate the need to verify the block hash against the difficulty target, reducing computational requirements for lightweight clients
+  - They provide cryptographic proof that prevents double-spending attacks by validating all transaction inputs within the block
+  - They enable SPV clients to reconstruct the complete transaction history without connecting to multiple full nodes simultaneously
+explanation: |
+  Merkle proofs exploit the logarithmic growth property of Merkle trees, allowing SPV clients to verify transaction inclusion with just the sibling hashes along the path to the root. This requires only a few hundred bytes regardless of block size, making it practical for lightweight clients. The wrong answers confuse Merkle proofs with other Bitcoin mechanisms - they don't eliminate difficulty verification, don't prevent double-spending directly, and don't reconstruct transaction history.

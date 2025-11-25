@@ -1,0 +1,8 @@
+question: Welk type systemen kunnen gebouwd worden bovenop de vertrouwensloze basislaag van Bitcoin volgens het beschreven beveiligingsmodel?
+answer: Er kunnen zowel vertrouwensloze als betrouwbare systemen op worden gebouwd
+wrong_answers:
+  - Alleen vertrouwensloze systemen kunnen erop worden gebouwd
+  - Alleen vertrouwde systemen kunnen erop worden gebouwd
+  - Er kunnen geen extra systemen bovenop worden gebouwd
+explanation: |
+  De vertrouwensloze basislaag van Bitcoin biedt een fundament dat flexibiliteit mogelijk maakt om er verschillende soorten systemen bovenop te bouwen. Zoals Matt Corallo uitlegde, kun je geen vertrouwensloze systemen bovenop vertrouwde systemen bouwen, maar wel vertrouwde systemen (zoals custodial wallets) bovenop vertrouwensloze systemen. Dit betekent dat Bitcoin's vertrouwensloze fundering zowel vertrouwensloze toepassingen als vertrouwde diensten ondersteunt, waardoor systeemontwerpers de vrijheid hebben om de juiste afwegingen te maken zonder diezelfde afwegingen op te dringen aan alle anderen die de basislaag gebruiken.

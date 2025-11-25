@@ -234,4 +234,4 @@ Ikiwa umepata mafunzo haya kuwa ya manufaa, ningeshukuru kidole gumba hapa chini
 Ninapendekeza pia kuangalia mafunzo haya mengine kwenye VeraCrypt, programu ambayo hukuruhusu kusimba na kusimbua vifaa vya kuhifadhi.
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

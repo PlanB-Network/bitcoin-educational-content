@@ -1,0 +1,31 @@
+id: 3241b9db-0ae4-46ee-9044-5dce8fad504b
+
+start_date: 2025-12-14 13:00:00
+end_date: 2025-12-14 18:00:00
+timezone: Asia/Bangkok
+
+address_city_country: Ho Chi Minh City, Viet Nam
+address_line_2: 10 An Phu, Thu Duc
+address_line_3: Big Bep
+
+name: Bitcoin Saigon Satoshi Flea Market - Christmas 2025 edition
+
+type: meetup
+
+description: |
+  This bi-annual market is a warm, open event hosted by Saigon Bitcoiners, with support from the global community. It's the perfect opportunity to connect with like-minded individuals in Ho Chi Minh City. Bring your family, friends, and even your dogs! Feel free to wear your favorite Santa hats, antler ears, or anything red and green—let's make it fun!
+
+language:
+  - en
+  - vi
+
+links:
+  website: https://bitcoinsaigon.org/support-satoshi-flea-market-saigon-christmas-2025/
+
+project_id: 6113273c-8b76-4021-81a5-0b6746db6b0d
+
+tags:
+  - use-case
+  - adoption
+  - lightning
+  - meetup

@@ -1,0 +1,8 @@
+question: Luvun mukaan mitä tapahtuu, kun olet huolimaton omien Bitcoin-tietosuojakäytäntöjesi kanssa?
+answer: Se voi heikentää myös muiden Bitcoin-käyttäjien yksityisyyttä
+wrong_answers:
+  - Se vaikuttaa vain omiin tapahtumiin, eikä sillä ole vaikutusta muihin
+  - Se tekee koko Bitcoin -verkosta turvallisemman kaikille
+  - Se auttaa parantamaan Bitcoin-järjestelmän yleistä anonymiteettiä
+explanation: |
+  Bitcoin:n yksityisyys on kytketty yhteen käyttäjien kesken. Kun yksi henkilö on huolimaton yksityisyyden suojaa koskevissa käytännöissään, se voi vaikuttaa kielteisesti muiden käyttäjien yksityisyyteen, joiden kanssa he ovat tekemisissä. Näin tapahtuu, koska transaktiomallit, osoitteiden klusterointi ja muut lohkoketjun analyysitekniikat voivat paljastaa tietoja useista transaktioihin osallistuvista osapuolista. Luvussa korostetaan, että toteutetut yksityisyydensuojatoimenpiteet eivät suojaa vain sinua itseäsi, vaan ne auttavat suojaamaan myös laajempaa Bitcoin-yhteisöä, jolloin yksityisyys on kollektiivinen vastuu eikä vain yksilön huolenaihe.

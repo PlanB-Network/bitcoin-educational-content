@@ -1,0 +1,8 @@
+question: Koji problem tradicionalnih finansijskih sistema identifikuje Satoshi Nakamoto u uvodu Bitcoin bele knjige?
+answer: Finansijske institucije ne mogu izbeći posredovanje u sporovima, što čini potpuno nepovratne transakcije nemogućim
+wrong_answers:
+  - Banke naplaćuju prekomerne naknade koje čine sve elektronske transakcije neisplativim za potrošače.
+  - Kompanije za kreditne kartice odbijaju da obrade plaćanja za digitalnu robu i online usluge
+  - Vladini propisi sprečavaju finansijske institucije da posluju preko međunarodnih granica
+explanation: |
+  Satoshi posebno identifikuje da finansijske institucije koje služe kao pouzdane treće strane ne mogu izbeći posredovanje u sporovima, što sprečava potpuno nepovratne transakcije. Ovo stvara inherentne slabosti u modelu zasnovanom na poverenju, povećava troškove kroz posredovanje i primorava trgovce da budu oprezni prema kupcima. Druge opcije opisuju različite probleme koji nisu pomenuti u analizi tradicionalnih platnih sistema u Satoshi.

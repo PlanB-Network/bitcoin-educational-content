@@ -1,0 +1,8 @@
+question: Vastavalt Shaolinfry argumendile kasutaja aktiveeritud Soft kahvlite (UASF) kohta, mis on peamine probleem kaevurite aktiveeritud pehmete kahvlite puhul seoses uuenduste rakendamisega?
+answer: Väike protsent hashrate-st võib kõigile uuendusi keelata, tekitades uuendamise inertsuse
+wrong_answers:
+  - Kaevurid saavad pärast rakendamist enamuse konsensuse kaudu pehmeid fork aktiveerimisi tagasi pöörata
+  - Majandussõlmed kaotavad kontrolli valideerimisreeglite üle, kui kaevurid annavad signaali aktiveerimisest
+  - Soft fork muudatused muutuvad püsivaks ja neid ei saa enam muuta, kui kaevurid on need aktiveerinud
+explanation: |
+  Shaolinfry tuvastas, et kaevurite signalisatsioon loob loomuliku vetosüsteemi, kus isegi väike protsent hashrate võib takistada uuenduste aktiveerimist kogu võrgu jaoks. See "uuendamise inertsus" muutub veelgi problemaatilisemaks, kui mining muutub detsentraliseeritumaks, mis võib blokeerida kasulikke protokolliparandusi. Teised võimalused moonutavad seda, kuidas pehmed kahvlid töötavad - kaevurid ei saa ühepoolselt aktiveerimist tagasi pöörata, majandussõlmed säilitavad valideerimisvõime ja pehmeid kahvleid saab teoreetiliselt muuta hilisemate uuenduste kaudu.

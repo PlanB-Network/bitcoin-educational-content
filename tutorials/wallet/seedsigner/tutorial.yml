@@ -1,0 +1,25 @@
+id: 2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
+
+project_id: 975d23f6-4ee3-4e31-b39f-9acca196d4b4
+
+tags:
+  - hardware
+  - wallets
+  - onchain
+
+category: hardware
+
+level: intermediate
+
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-09-30
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 5.34

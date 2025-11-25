@@ -73,10 +73,10 @@ Hitamwo ijambobanga rikomeye kugira ngo ushobore gushika kuri konti yawe, hanyum
 ![Image](assets/fr/06.webp)
 
 
-Kugira ngo ushobore gucunga neza ijambobanga ku musi ku musi, gukoresha umucungerezi w’ijambobanga ni ngirakamaro cane. Kuri Plan ₿ Network, uzosanga inyigisho nyinshi ku mirongo myiza iriho, nka Bitwarden :
+Kugira ngo ushobore gucunga neza ijambobanga ku musi ku musi, gukoresha umucungerezi w’ijambobanga ni ngirakamaro cane. Kuri Plan ₿ Academy, uzosanga inyigisho nyinshi ku mirongo myiza iriho, nka Bitwarden :
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Uzoheza usabwe kugenzura akaranga kawe (KYC). Hakurikijwe amategeko y’igifaransa, uzosabwa gutanga amakuru yawe bwite n’ikimenyamenya c’akaranga kawe. Uzuza mu masandugu izina ryawe ry’umuryango, izina ryawe n’itariki y’amavuko.
 
@@ -271,7 +271,7 @@ Menya ivy’ugucuruza imbere y’ibindi. Kugira ngo ukureho amahera ataco utanga
 ![Image](assets/fr/32.webp)
 
 
-Niba utazi ingene Wallet yo kwibungabunga ikora, turatanga inyigisho ku mirongo myinshi y'ibisubizo iriho [ku Plan ₿ Network mu gice ca "*Wallet*"](https://planb.network/tutorials/wallet).
+Niba utazi ingene Wallet yo kwibungabunga ikora, turatanga inyigisho ku mirongo myinshi y'ibisubizo iriho [ku Plan ₿ Academy mu gice ca "*Wallet*"](https://planb.academy/tutorials/wallet).
 
 
 ## Kugurisha Bitcoin

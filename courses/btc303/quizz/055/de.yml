@@ -1,0 +1,8 @@
+question: Was ist der Hauptgrund dafür, dass das GitHub-Repository von Bitcoin Core im Vergleich zu den Tausenden von anderen Kopien desselben Repositorys weltweit als etwas Besonderes gilt?
+answer: Es dient als gesellschaftlich anerkannter Brennpunkt für die Bitcoin-Entwicklung, nicht aufgrund einer technischen Überlegenheit
+wrong_answers:
+  - Sie enthält kryptografische Schlüssel, die offizielle Bitcoin Core-Versionen und -Updates authentifizieren
+  - Es verfügt über exklusive technische Funktionen und Berechtigungen, die andere Repository-Kopien nicht nachbilden können
+  - Sie ist rechtlich durch die MIT-Lizenz als einzige maßgebliche Quelle des Bitcoin-Codes geschützt
+explanation: |
+  Wie Jameson Lopp erklärt, ist das GitHub-Repository von Bitcoin Core technisch identisch mit Tausenden von anderen Kopien weltweit, ist aber zum gesellschaftlich akzeptierten Mittelpunkt für die Entwicklungskoordination geworden. Es hat keine besonderen technischen Merkmale, kryptografischen Authentifizierungsmechanismen oder rechtlichen Schutzmaßnahmen, die es überlegen machen. Die MIT-Lizenz stellt sicher, dass jeder den Code frei kopieren und weiterverteilen kann. Würde dieses Repository verschwinden, würde die Gemeinschaft einfach einen neuen Anlaufpunkt an einem anderen Ort einrichten, was beweist, dass seine Bedeutung eine rein soziale Konvention und keine technische Notwendigkeit ist.

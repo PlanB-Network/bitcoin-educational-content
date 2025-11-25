@@ -114,7 +114,7 @@ Ako uspeju, isti problemi će se najverovatnije ponovo pojaviti u nekom trenutku
 Nijedna od ovih opcija nije korisna za korisnika.
 
 
-Otpornost na cenzuru kroz decentralizaciju je ono što odvaja Bitcoin od drugih monetarnih sistema, ali to nije lako postići zbog *Double-spending problema*. Ovo je problem osiguravanja da niko ne može potrošiti isti novčić dvaput, pitanje za koje su mnogi mislili da je nemoguće rešiti na decentralizovan način. Satoshi Nakamoto piše u svom [Bitcoin belom papiru](https://planb.network/bitcoin.pdf) o tome kako rešiti Double-spending problem:
+Otpornost na cenzuru kroz decentralizaciju je ono što odvaja Bitcoin od drugih monetarnih sistema, ali to nije lako postići zbog *Double-spending problema*. Ovo je problem osiguravanja da niko ne može potrošiti isti novčić dvaput, pitanje za koje su mnogi mislili da je nemoguće rešiti na decentralizovan način. Satoshi Nakamoto piše u svom [Bitcoin belom papiru](https://planb.academy/bitcoin.pdf) o tome kako rešiti Double-spending problem:
 
 
 > U ovom radu predlažemo rešenje za problem Double-spending koristeći peer-to-peer distribuirani Timestamp server za generate računsku proveru hronološkog reda transakcija.
@@ -238,7 +238,6 @@ Ona ističe da mnogi sistemi, bilo prirodni ili veštački, mogu i funkcionišu 
 
 ![](assets/en/002.webp)
 
-*Riblje škole nemaju vođe*
 
 
 Bez obzira šta mislite o Bitcoin, njegova decentralizovana priroda otežava kontrolu. Bitcoin postoji, i ništa ne možete učiniti povodom toga. To je nešto što treba proučavati, a ne raspravljati.
@@ -332,7 +331,7 @@ Suština tog razgovora je da ne možete izgraditi Trustless sisteme na vrhu pouz
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Osnova Trustless Layer omogućava razne kompromise na višim nivoima
@@ -496,7 +495,6 @@ Rad opisuje glavne probleme privatnosti Blockchain, naime ponovnu upotrebu Addre
 ![](assets/en/005.webp)
 
 
-Tipična curenja privatnosti na Blockchain
 
 
 Chris Belcher [pisao je u velikim detaljima](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) o različitim vrstama curenja privatnosti koja se mogu dogoditi na Bitcoin Blockchain. Preporučujemo da pročitate barem prvih nekoliko pododeljaka pod "Napadi Blockchain na privatnost."
@@ -592,7 +590,7 @@ Takođe je pomenuo ovaj primer, između ostalih, na [stranici o privatnosti](htt
 Imajte na umu kako se bolja privatnost može postići izgradnjom sistema na vrhu Bitcoin, kao što je slučaj sa Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Slojevi na vrhu Bitcoin mogu dodati privatnost
@@ -612,7 +610,7 @@ Da biste umanjili rizike od otkrivanja vaših ličnih podataka, najbolje je da i
 Članak predlaže da izbegavate korišćenje berzi koje zahtevaju KYC/AML i umesto toga trgujete privatno, ili koristite decentralizovane berze kao što je [bisq](https://bisq.network/).
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Za detaljnije čitanje o protivmerama, pogledajte prethodno pomenuti [wiki članak o privatnosti](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), počevši od "Methods for improving privacy (non-Blockchain)".
 
@@ -691,7 +689,7 @@ Block reward se sastoji od blok subvencije plus naknada za transakcije. Block re
 Danas, vlasnici snose troškove za sigurnost (putem monetarne inflacije). Sutra će doći red na potrošače da na neki način preuzmu ovaj teret, kao što je prikazano ispod.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Kako vreme prolazi, teret troškova bezbednosti će se prebaciti sa vlasnika na potrošače.
@@ -1062,7 +1060,6 @@ Gore navedeni su primeri stvarnih pretnji koje treba rešiti.
 ![](assets/en/009.webp)
 
 
-Izvod iz Priručnika za Jednostavnu Sabotažu
 
 
 Da biste bolje razumeli um protivnika, moglo bi biti korisno da zavirite u način na koji oni deluju. Američka vladina organizacija pod nazivom Office of Strategic Services, koja je delovala tokom Drugog svetskog rata i imala među svojim ciljevima sprovođenje špijunaže, izvođenje sabotaža i širenje propagande, proizvela je [priručnik](https://www.gutenberg.org/ebooks/26184) za svoje osoblje o tome kako pravilno sabotirati neprijatelja. Njegov naslov je bio "Simple Sabotage Field Manual" i sadržao je konkretne savete o infiltriranju neprijatelja kako bi im se život učinio Hard. Saveti se kreću od spaljivanja skladišta do izazivanja habanja bušilica kako bi se smanjila sposobnost neprijatelja.
@@ -1622,7 +1619,6 @@ Slojeviti protokol počinje sa dvoje ili više ljudi koji se dogovaraju o počet
 
 ![](assets/en/017.webp)
 
-Tipičan Layer 2 protokol na vrhu Bitcoin, Layer 1.
 
 
 Kako se ova početna transakcija kreira varira između protokola, ali zajednička tema je da učesnici kreiraju nepotpisanu početnu transakciju i broj unapred potpisanih kaznenih transakcija, koje troše izlaz početne transakcije na različite načine. Nakon toga, početna transakcija je u potpunosti potpisana i objavljena na Blockchain, a kaznene transakcije mogu biti u potpunosti potpisane i objavljene kako bi se kaznila strana koja se ne ponaša ispravno. Ovo motiviše učesnike da održe svoja obećanja kako bi protokol mogao raditi na Trustless način.

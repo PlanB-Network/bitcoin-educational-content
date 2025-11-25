@@ -1,0 +1,8 @@
+question: Mikä on pääasiallinen syy siihen, että Bitcoin:n kaikki tunnetut heikkoudet on korjattava sen sijaan, että hyväksyttäisiin jonkinasteinen riski?
+answer: Bitcoin toimii pseudonyymissä verkkoympäristössä, jossa vastustajat voivat hyödyntää heikkouksia jäämättä kiinni tai joutumatta vastuuseen
+wrong_answers:
+  - "Bitcoin:n muodollinen turvallisuusmalli edellyttää matemaattista todistusta siitä, että kaikki mahdolliset hyökkäysvektorit on poistettu"
+  - Bitcoin:n hajautettu luonne tarkoittaa, että pienetkin heikkoudet voivat johtaa koko järjestelmän laajuisiin vikoihin kaikissa solmuissa
+  - "Bitcoin:n kiinteä tarjonta tekee siitä taloudellisesti mahdottoman kattaa onnistuneiden hyökkäysten aiheuttamia tappioita, toisin kuin perinteiset rahoitusjärjestelmät."
+explanation: |
+  Oikea vastaus kuvastaa Andrew Poelstran keskeistä näkemystä verkkojärjestelmistä ja fyysisistä järjestelmistä. Toisin kuin rakennuksissa, joissa hyväksymme jonkinlaisen riskin ja luotamme lainvalvontaan, Bitcoin toimii pseudonyymissä ympäristössä, jossa hyökkääjät voivat toimia ilman näkyvyyttä tai seurauksia. Tämä perustavanlaatuinen ero tarkoittaa, että jokaista tunnettua heikkoutta hyödynnetään väistämättä, joten kattava turvallisuus on pikemminkin välttämätöntä kuin vapaaehtoista riskinhallintaa.

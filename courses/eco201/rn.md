@@ -1,25 +1,18 @@
 ---
-name: Intangamarara y'ubutunzi bwa Otirishiya
-goal: Vumbura ishure ry’ivyiyumviro vy’ubutunzi ryo muri Otirishiya. Iga ivyiyumviro vyabo ku kibano no ku vyerekeye ubutunzi buhambaye/buto.
-objectives: 
-
-  - Iyindi nzira yo gusubirira Ivyiyumviro vya  Keynes
-  - Akamaro k'amafaranga adatakaza agaciro vyoroshe(Hard)
-  - Ni kuki kandi gute inzinguzingu zacu z’ubutunzi ziremwa?
-  - Kubera iki abakozi bakuru b’amabanki makuru (banques centraux) basa n’abata ubwenge?
-
+name: Ibanze by'ishuri rya ekonomiya rya Otirishiya
+goal: Menya ubukungu bwa Otirishiya nk'uburyo bundi bwo gusesengura amasoko n'ukwifata ibyemezo ku giti cye
+objectives:
+- Gusesengura imikorere y'amafaranga, inguzanyo, na sisitemu z'amabanki makuru
+- Gukoresha inyigisho y'agaciro k'umuntu ku giti cye n'ihitamo ry'igihe ku myitwarire y'isoko
+- Gusobanukirwa inyigisho y'uruzinduko rw'ubucuruzi rwa Otirishiya n'impamvu zarwo
+- Kugereranya uburyo bwa Otirishiya n'inzira z'ubukungu zisanzwe
 ---
+# Urugendo rwo mu Bukungu bw'Abasituriya
 
-# Urugendo rwo mu vy'ubutunzi
+Wigeze wibaza impamvu bamwe mu bahanga mu bukungu batekereza mu buryo butandukanye ku masoko, umudendezo, n'imyitwarire y'abantu? Ubukungu bw'Abasituriya butanga icyerekezo gishya gishimishije gishyira wewe hagati y'ibitekerezo vy'ubukungu. Aho gukoresha imibare igoye n'ibigereranyo bidasanzwe, ubu buryo bushingira ku ntumbero, ku guhitamo kw'abantu, n'uko abantu nyakuri bafata ibyemezo mu buzima bwabo bwa buri munsi. Ni ubukungu bwibonwa binyuze mu mudendezo, ubwenge, n'ibikorwa vya buri muntu.
 
-
-Kaze mu nyigisho ya Théo Mogenet! Ni umuntu akunda cane ivy'butunzi, amateka(kahise), ibitabu, ubuhinga bwa politike,n'ikoranabuhanga yahisemwo kubasangiza ubumenyi afise mu vy’ubutunzi bwabanya otirishe. Ubu buryo bw’ivy’ubutunzi ntibwamamaye cane nk’ubundi, ariko bushingiye ku bushobozi bw’umuntu bwo kwiyumvira neza no guhitamwo uko yishakiye Nta bintu vyinshi vy’ibiharuro birimwo, ahubwo bushingiye cane ku gutahura no ku bumenyi bw’imibereho y’abantu.
-
-Iyi nyigisho canke ishure ry’ivyiyumviro rimaze ibinjana bitari bike, kandi rishingiye ku banditsi, ku ruvangavange rw’ivyiyumviro hamwe n’abahinga mu vy’ubutunzi. bari inyuma yaryo. Amazina azwi cane mu vy’ubutunzi nka Hayek, Rothbard, Mises, Bastiat na Menger baramaze igihe kirekire barirwanira. Mu buryo butandukanye n’ivyiyumviro vya keynes biri hose bwo muri iki gihe, ishure ry’i otirishe risubiza umuntu ku giti ciwe hagati y’ivyo biganiro n’uburyo bwo kwidegemvya, ubw’abanyagihugu, mbere n’intwaro z'agahotoro(agacinyizo).
-
-
+Iyi shure y'ibitekerezo yamaze ibinyejana vyinshi igira uruhare mu mpaka, kubera abatekereza bakomeye nka Hayek, Mises, na Bastiat. Mu gihe ubukungu bwa Keynesian bukomeye buganje mu biganiro vya politiki vy'uyu munsi, umuco w'Abasituriya ubaza ibibazo bitandukanye: Habaho iki iyo dushyize imbere umudendezo w'umuntu ku giti ciwe? Amasoko yigenga akora gute nyene iyo abantu bafise umudendezo wo guhitamo? Niba ushishikajwe n'inzira zindi zo gutekereza ku masoko, societe, n'umudendezo, iki ni ikibanza cawe co gukora ubushakashatsi ku bitekerezo utazosanga mu bitabo bisanzwe.
 +++
-
 # Intangamarara
 
 

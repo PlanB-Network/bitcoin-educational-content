@@ -1,9 +1,9 @@
-question: Which alternative solution to Swiss Bitcoin Pay to accept Bitcoin payments for the Essential profile is 100% custodial?
-answer: Open Node
+question: Giải pháp thay thế nào cho Swiss Bitcoin Pay để chấp nhận thanh toán Bitcoin cho hồ sơ Essential là lưu ký 100%?
+answer: Nút mở
 wrong_answers:
-  - BTCPay Server
+  - Máy chủ BTCPay
   - Bitcoinize PoS
   - Phoenix Wallet
 explanation: |
-  Open Node is characterized as a fully custodial solution, differing from the hybrid nature of Swiss Bitcoin Pay.
-reviewed: false
+  Open Node được coi là giải pháp lưu ký hoàn toàn, khác với bản chất kết hợp của Swiss Bitcoin Pay.
+reviewed: true

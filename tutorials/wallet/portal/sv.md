@@ -98,7 +98,7 @@ Du kan gravera den på ett papper, eller för extra säkerhet rekommenderar jag 
 För mer information om det rätta sättet att spara och hantera din Mnemonic-fras rekommenderar jag starkt att du följer den här andra handledningen, särskilt om du är nybörjare:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 du får naturligtvis aldrig dela med dig av dessa ord på Internet, vilket jag gör i den här handledningen. Detta prov Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen.
 
@@ -340,4 +340,4 @@ Grattis, du har nu fått kläm på hur du använder Portal! Om du tyckte att den
 Om du vill veta mer kan du ta en titt på vår kompletta utbildning om hur HD-plånböcker fungerar:
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

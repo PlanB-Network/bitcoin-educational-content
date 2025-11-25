@@ -1055,10 +1055,10 @@ We gebruiken een eindig veld van gehele getallen modulo $p$ om de nauwkeurigheid
 De wiskunde van elliptische krommen over eindige velden is analoog aan die over het veld van reële getallen, met de aanpassing dat alle bewerkingen modulo $p$ worden uitgevoerd. Om de uitleg te vereenvoudigen zullen we in de volgende hoofdstukken de concepten illustreren aan de hand van een kromme gedefinieerd over reële getallen, terwijl we in gedachten houden dat de kromme in de praktijk gedefinieerd wordt over een eindig veld.
 
 
-Als je meer wilt leren over de wiskundige grondslagen van moderne cryptografie, raad ik je ook aan deze andere cursus op Plan ₿ Network te raadplegen:
+Als je meer wilt leren over de wiskundige grondslagen van moderne cryptografie, raad ik je ook aan deze andere cursus op Plan ₿ Academy te raadplegen:
 
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## De openbare sleutel uit de privésleutel berekenen
 
@@ -1656,7 +1656,7 @@ Als deze sighash flag wordt geïntegreerd in Bitcoin, zal het het gebruik van co
 Om je kennis van de Lightning Network te verdiepen, raad ik je na de CYP201 cursus van harte de LNP201 cursus van Fanis Michalakis aan, die het onderwerp in detail behandelt:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 In het volgende deel stel ik voor om te ontdekken hoe de Mnemonic frase aan de basis van je Bitcoin Wallet werkt.
 
@@ -1707,10 +1707,10 @@ Als men meerdere privésleutels wilde gebruiken, was het nodig om evenzoveel bac
 Deze beperking komt voort uit het privacymodel van Bitcoin. Door dezelfde Address te hergebruiken, wordt het voor externe waarnemers gemakkelijker om Bitcoin transacties te traceren. Daarom wordt het hergebruiken van een ontvangende Address sterk afgeraden. Echter, om meerdere adressen te hebben en onze transacties publiekelijk te scheiden, is het noodzakelijk om meerdere privésleutels te beheren. In het geval van JBOK wallets betekent dit dat er evenveel back-ups moeten worden gemaakt als er nieuwe sleutelparen zijn, een taak die snel complex en moeilijk te onderhouden kan worden voor gebruikers.
 
 
-Om meer te leren over het privacymodel van Bitcoin en methodes te ontdekken om je privacy te beschermen, raad ik je ook aan om mijn BTC204-cursus over Plan ₿ Network te volgen:
+Om meer te leren over het privacymodel van Bitcoin en methodes te ontdekken om je privacy te beschermen, raad ik je ook aan om mijn BTC204-cursus over Plan ₿ Academy te volgen:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD Portemonnees
 
@@ -1855,7 +1855,7 @@ Bijvoorbeeld, voor een entropie van 256 bits is het resultaat ${ENT} \264 bits e
 ### Conversie van de binaire sequentie in een Mnemonic zin
 
 
-De bitreeks ${ENT} \wordt dan verdeeld in segmenten van 11 bits. Elk 11-bits segment komt, na omzetting naar decimaal, overeen met een getal tussen 0 en 2047, dat de positie van een woord aangeeft [in een lijst van 2048 woorden gestandaardiseerd door BIP39] (https://github.com/Planb-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+De bitreeks ${ENT} \wordt dan verdeeld in segmenten van 11 bits. Elk 11-bits segment komt, na omzetting naar decimaal, overeen met een getal tussen 0 en 2047, dat de positie van een woord aangeeft [in een lijst van 2048 woorden gestandaardiseerd door BIP39] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 
 ![CYP201](assets/en/042.webp)
@@ -1920,7 +1920,7 @@ Een zin van 12 woorden, die ook 128 bits veiligheid biedt, is daarom momenteel v
 Om verder te gaan en concreet te leren hoe je handmatig generate een test Mnemonic zin kunt maken, raad ik je aan deze tutorial te ontdekken:
 
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Voordat we verder gaan met de afleiding van de Wallet uit deze Mnemonic frase, zal ik je in het volgende hoofdstuk kennis laten maken met de BIP39 passphrase, omdat deze een rol speelt in het afleidingsproces en zich op hetzelfde niveau bevindt als de Mnemonic frase.
 
@@ -2749,20 +2749,22 @@ Wanneer een gebruiker bitcoins ontvangt, maakt de verzender een UTXO aan en verg
 Het is precies in de *scriptPubKey* dat de ontvangende adressen te vinden zijn. Het gebruik ervan varieert echter afhankelijk van de gebruikte scriptstandaard. Hier is een samenvattende tabel van de informatie in de *scriptPubKey* volgens de gebruikte standaard, evenals de informatie die verwacht wordt in de *scriptSig* om de *scriptPubKey* te ontgrendelen.
 
 
-| Standard           | *scriptPubKey*                                              | *scriptSig*                     | *redeem script*     | *witness*                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <redeem script>` | Arbitrary data     |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <pubKeyHash>`    | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <scriptHash>`    | `<data pushes> <witness script>`         |
-| P2TR (key path)    | `1 <public key>`                                            |                                 |                     | `<signature>`                            |
-| P2TR (script path) | `1 <public key>`                                            |                                 |                     | `<data pushes> <script> <control block>` |
 
-*Bron: Bitcoin Core PR review club, 7 juli 2021 - Gloria Zhao*
 
+
+| Standaard             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Willekeurige gegevens | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_Bron: Bitcoin Core PR review club van 7 juli 2021 – Gloria Zhao_
 
 De opcodes die in een script worden gebruikt, zijn ontworpen om informatie te manipuleren en, indien nodig, te vergelijken of te testen. Laten we het voorbeeld nemen van een P2PKH script, dat er als volgt uitziet:
 

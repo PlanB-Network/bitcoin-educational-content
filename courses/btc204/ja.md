@@ -347,9 +347,9 @@ coinbaseのトランザクションは、出力を生成するために入力を
 
 ブロックチェーン分析に対抗するには、そこで使われている手法を学ぶのが一番だろう。ビットコインでプライバシーを向上させる方法を知りたければ、これらの方法を理解する必要がある。そうすることで、coinjoinやpayjoinのようなテクニック（コースの最後の部分で見るテクニック）をよりよく把握できるようになり、あなたが犯すかもしれないミスを減らすことができます。
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 この点で、暗号と暗号解読を類推することができる。優れた暗号解読者は、何よりもまず優れた暗号解読者である。新しい暗号化アルゴリズムを考案するには、それがどのような攻撃に直面するかを知る必要があり、また過去のアルゴリズムがなぜ破られたかを研究する必要がある。同じ原理がビットコインのプライバシーにも当てはまる。ブロックチェーンの分析手法を理解することが、それらから身を守る鍵なのだ。このトレーニングコースにチェーン分析のセクションを設けたのはそのためです。
 
@@ -1291,7 +1291,7 @@ FIFO（*First In First Out*）やLIFO（*Last In First Out*）のようなUTXO�
 
 UTXOにタグを付ける方法を知りたい方は、主なビットコインウォレットソフトウェアの包括的なチュートリアルをご覧ください：
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYCと鍵の識別
 
@@ -1453,19 +1453,19 @@ KYCとは特に、特定の企業が顧客の身元を確認し登録するた�
 
 -> Bisqのチュートリアルをご覧ください。
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 よりシンプルなオプションとして、[Peach](https://peachbitcoin.com/)を試してみることができる。[Peach](https://peachbitcoin.com/)は、買い手と売り手をつなぐモバイルアプリで、紛争解決システムが組み込まれている。Bisqよりも直感的に利用できる。
 
 -> ピーチのチュートリアルをご覧ください。
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
 もう一つのオンライン・オプションは[HodlHodl](https://hodlhodl.com/)で、個人的にはテストしていないが、良い流動性を提供する定評のあるプラットフォームである。
 
 -> HodlHodlのチュートリアルをご覧ください。
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 ライトニングネットワークベースのソリューションとしては、[RoboSats](https://learn.robosats.com/)と[LNP2PBot](https://lnp2pbot.com/)をお試しください。RoboSatsはウェブサイトからアクセスでき、使い方も比較的簡単である。LNP2PBotはより非典型的で、Telegramメッセージング・アプリケーション上の交換システムを介して動作する。
 
@@ -1473,9 +1473,9 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
 
 -> LNP2PBotのチュートリアルをご覧ください。
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
 ![BTC204](assets/ja/096.webp)
 
@@ -1485,7 +1485,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-
 
 -> Relaiのチュートリアルをご覧ください。
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 前章で見たように、この種のプラットフォームは KYC 手続きに関連するリスクからあなたを救うが、キー識別のリスクは高くなる。ビットコインの機密性という点では、これらのプラットフォームはKYCを伴う購入方法よりも優れた保護を提供しますが、P2P取引所よりも魅力的でないことに変わりはありません。
 
@@ -1509,7 +1509,7 @@ BTCを使う最良の方法は、もちろん、ビットコインやライト�
 
 KYC手続きを必要としないいくつかのプラットフォームは、ビットコインを主要小売店で使用できるギフトカードと交換する可能性を提供している。CoinsBee](https://www.coinsbee.com/)、[The Bitcoin Company](https://thebitcoincompany.com/)、[Bitrefill](https://www.bitrefill.com/)などである。これらのプラットフォームを利用することで、ビットコインを不換紙幣に換金することなく、日常的に様々な商品やサービスを利用することができます。
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ![BTC204](assets/ja/098.webp)
 
@@ -1889,7 +1889,6 @@ Zerolinkの重要な予防措置は、未混合のUTXOと混合のUTXOを、別�
 :::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
 
 
-*2024年、ビットコインでコインジョイントを行いたいユーザーが利用できるツールに大きな変化が起きている。現在、私たちは転換期を迎えており、コインジョイント市場は大規模な再編が行われています。この章は時間の経過とともに更新される予定です。*
 
 今のところ、ビットコインには主に3つの異なるコインジョイントの実装がある：
 
@@ -1897,6 +1896,10 @@ Zerolinkの重要な予防措置は、未混合のUTXOと混合のUTXOを、別�
 - ワールプール
 - ワビサビ；
 - ジョインマーケット
+
+これら3つの歴史的な実装に加えて、新たにJoinstrが登場しました。本章では取り上げませんが、関連情報はすべて専用のチュートリアルでご覧いただけます：
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
 
 これらの実装はいずれも、コインジョイントランザクションを通じてUTXOの歴史を断ち切ることを目的としている。しかし、その仕組みはかなり異なっている。したがって、それぞれの仕組みを理解し、自分のニーズに最も適したオプションを選択することが不可欠である。
 
@@ -1919,6 +1922,8 @@ JoinMarketの主な欠点のひとつは、その使い方の複雑さであり�
 JoinMarketはコインジョイナーに対する革新的なP2Pリンクモデルであるにもかかわらず、特にトランザクション構造の面で大きな欠点がある。Whirlpoolのような他の実装とは異なり、JoinMarketは出力間の完全な平等性を保証しておらず、入力と出力間の決定論的リンクを追跡することが可能である。さらに、JoinMarketにはすでに混合された部品が再び混合されるのを防ぐツールはなく、ユーザーの求める機密性が損なわれる可能性がある。
 
 最後に、JoinMarketのコンセプトは、特にダイナミックな流動性市場に興味がある人にとっては興味深いものだが、その構造的な弱点と技術的な複雑さから、コインジョイントの実装を探している初心者と専門家の両方にとって、あまり興味深いものではないと私は思う。
+
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
 
 ### ワビサビ
 
@@ -1964,6 +1969,10 @@ Wasabiバージョン2.0では、新しいコインジョイント手数料ポ�
 さらに心配なのはフィルタリングの原則で、オープンで検閲のない金融システムを提供するというビットコインの理念とは根本的に対照的だ。犯罪行為を排除したいと考えるのは正当化されるように思えるかもしれないが、このフィルタリングは、ある文脈では違法と分類されるものの、道徳的に正当化されたり、社会的に有益であったりする可能性のある行為にも影響を及ぼす可能性がある。エドワード・スノーデンの例は、この二律背反を見事に示している。彼の暴露によって一部の政府からは犯罪者とみなされ、他の政府からは公益のために行動した内部告発者とみなされている。この複雑さは、善意ではあっても、最終的には合法的な利用者の権利と安全を損ないかねないフィルタリングの潜在的な危険性を強調している。また、特定の権威主義体制の下で迫害されている活動家やジャーナリストについても言及することができた。
 
 もうお分かりのように、私はビットコインのコインジョインにはワールプールモデルを好んでいる。このシステムはその厳格さで際立っており、機密性の優れた保証を提供している。また、数学的な文脈で完璧とみなされるミックスを提供する唯一のものです。私の意見では、このモデルはビットコインにおけるコインジョイントの未来を象徴しています。次の章で、このモデルをより深く探求していただきたい。
+
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
 
 ## ワールプールの仕組み
 
@@ -2168,7 +2177,7 @@ UTXOのマージは最も一般的な間違いである。CIOH（*Common-Input-O
 
 他のビットコイン取引と同様に、受信アドレスを再利用しないことも重要です。それぞれの新しいトランザクションは、新しい空白のアドレスで受信する必要があります。
 
-最もシンプルで安全な解決策は、ミックスしたUTXOを**postmix**アカウントに静止させ、リミックスさせ、使う時だけ触れるようにすることです。SamuraiウォレットとSparrowウォレットは、このような連鎖分析リスクに対する追加保護機能を備えています。これらのプロテクションはミスを避けるのに役立ちます。
+最も簡単で安全な方法は、ミックス済みのUTXOを **postmix** アカウントで休ませ続け、再度ミックスされる状態にしておき、支出時にのみ触れることです。Samourai（現在は Ashigaru も）および Sparrow のウォレットには、チェーン分析に関連するこれらすべてのリスクに対する追加の保護機能があります。これらの保護により、誤りを避けることができます。
 
 ### 有害な交流はどのように管理していますか？
 
@@ -2181,24 +2190,27 @@ UTXOのマージは最も一般的な間違いである。CIOH（*Common-Input-O
 - 使用不可」とマークする：**もうひとつの方法は、使用を中止し、専用アカウントで「使用不可」とマークし、そのままホドルすることだ。こうすることで、誤って使ってしまうことを防ぐことができる。ビットコインの価値が上がれば、あなたの有害なUTXOにより適した新しいプールが出現するかもしれない；**
 - 寄付をする：**ビットコインや関連ソフトウェアに取り組んでいる開発者に、ささやかでも寄付をすることを検討してください。BTCを受け入れている団体に寄付することもできる。有毒なUTXOの管理が複雑すぎるようであれば、それらを処分して寄付をすることもできます**；
 - **ギフトカードの購入:** [Bitrefill](https://www.bitrefill.com/)のようなプラットフォームでは、ビットコインを様々な商店で使えるギフトカードに交換することができる。これは、関連する価値を失うことなく、有毒なUTXOを手放す方法です；
-- **Moneroに集約:** Samourai WalletはBTCとXMR間のアトミックスワップサービスを提供しています。これは、CIOHを経由して機密性を損なうことなくMoneroに集約してからBitcoinに送り返すことで、有毒なUTXOを管理するのに理想的です。しかし、このオプションは流動性の制約により、採掘手数料とプレミアムの点でコストがかかる可能性があります；
+- **Monero を通じて統合する:** Samourai Wallet はかつて BTC と XMR のアトミックスワップサービスを提供していましたが、逮捕以降利用できなくなっています。この方法は、CIOH を通じて機密性を損なうことなく、Monero 上で有害な UTXO を統合し、その後 Bitcoin に送り戻すことを可能にしていました。同様のサービスが再登場すれば、有望な選択肢となり得ます。ただし、この手法は、マイニング手数料やビットコインへの逆変換時の流動性制約に伴うプレミアムにより、費用がかさむ可能性があることを覚えておく必要があります。
 - ライトニング・ネットワークに送る：**これらのUTXOをライトニング・ネットワークに転送し、取引手数料の削減の恩恵を受けることは、魅力的なオプションとなり得る。しかし、この方法は、Lightningの使用方法によっては特定の情報が明らかになる可能性があるため、注意して使用する必要があります。**
 
 ### ワールプールの使い方は？
 
-2024年4月24日にSamourai Walletの創設者が逮捕され、サーバーが押収された後、Whirlpoolツールは、独自のDojoを持っている人でも使えなくなりました。以前はSamourai WalletとSparrow Walletで利用可能でした。
+2024年4月24日にSamourai Walletの創設者が逮捕され、サーバーが押収されたことを受け、WhirlpoolツールはSamourai WalletおよびSparrow Walletで利用できなくなりました。
 
 ![BTC204](assets/ja/155.webp)
 
-しかし、トライアルの結果次第では、このツールが今後数週間で再稼働するか、別の形で再スタートする可能性は残っている。いずれにせよ、需要がある以上、ビットコインのコインジョイント市場が長く供給なしになるとは思わない。さらに、Whirlpoolのモデルは機密性という点で最も先進的であるため、将来的に他の実装モデルとして選択されることは間違いないだろう。
 
-私たちはこの事件と関連ツールの動向を注視しています。新しい情報が入り次第、このトレーニングコースを更新していきますのでご安心ください。
+
+これからは、Whirlpool は Samourai Wallet のフォークである Ashigaru モバイルアプリ上で、Ashigaru Terminal ソフトウェアのおかげで再び利用可能になります。
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
+Whirlpool の動作の根幹は変わりませんが、Samourai での利用と比べるといくつかの違いがあります。2025年時点では、Ashigaru では `0.25 BTC` と `0.025 BTC` の2種類のプールのみが利用可能で、対応する参加手数料はそれぞれ `0.0125 BTC` と `0.00125 BTC` です。
 
 次の章では、「アノンセット」とは何か、この指標はどのように計算されるのか、そしてコインジョインサイクルの効率を推定するためにどのように役立つのかについて説明する。
 
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 
@@ -2536,7 +2548,7 @@ $$
 
 コインジョインについて詳しく説明したので、コースの最後のセクションでは、ビットコインで利用可能なその他のプライバシー技術について見ていきます。ペイジョイン、特定の擬似コインジョイントトランザクションタイプ、静的アドレスプロトコル、そしてトランザクション自体のレベルではなく、ノードのネットワークのレベルで機密性を強化するための対策について見ていきます。
 
-https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # その他の高度な機密保持技術の課題を理解する
 
@@ -2622,7 +2634,10 @@ payjoinをサポートする有名なソフトウェアプログラムには、S
 
 ![BTC204](assets/ja/177.webp)
 
-最も先進的なpayjoinの実装は、Samourai Wallet上のStowawayのみであった。しかし、このソフトウェアの創設者が逮捕されて以来、このツールは現在部分的にしか機能していません。Stowawayの利点は、包括的で使いやすいプロトコルで、payjoinの受信と送信の両方をサポートしていることです。部分的に署名された取引は、いくつかのQRコードをスキャンすることで手動で、またはソロバンを介してTorによって自動的に交換することができる。後者の通信オプションは現在サービス停止中である。
+
+最も進んだ payjoin の実装は、Samourai Wallet の開発者が考案した Stowaway であることは間違いありません。ソフトウェアの創設者が逮捕されて以来、このツールは Samourai 上で部分的にしか動作していません。しかし、Ashigaru アプリで再び稼働しています。
+
+Stowaway の利点は、受信と送信の両方のペイジョインに対応した、完全で非常に使いやすいプロトコルである点です。部分的に署名されたトランザクションは、複数のQRコードをスキャンして手動で、またはTor経由でSorobanを用いて自動的に交換できます。
 
 ![BTC204](assets/ja/178.webp)
 
@@ -2632,7 +2647,7 @@ payjoinの使いにくさは、加盟店の参加に依存している点にあ�
 
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## ミニコイン決済
 
@@ -2745,19 +2760,20 @@ StonewallX2取引はStonewall取引と全く同様に機能するが、前者は
 
 ### StonewallおよびStonewall x2の取引はどのように利用できますか？
 
-StonewallとStonewall x2の取引は、Samourai WalletアプリケーションとSparrow Walletソフトウェアの両方で利用可能です。
+Stonewall トランザクションは Sparrow Wallet および Ashigaru で利用できますが、Stonewall x2 は現時点では Ashigaru のみがサポートしています。
 
 ![BTC204](assets/ja/189.webp)
 
-しかし、payjoinsと同様に、Samouraiの創設者が逮捕された後、Stonewall x2の取引は、関係者間でPSBTを手動で交換することによってのみ機能するようになった。残念ながら、ソロバン経由の自動交換は利用できなくなった。
 
 この種の取引は、ビットコイン・ウォレットソフトウェアから手動で実行することも可能である。
 
 次の章では、比較的知られていないが、すでに学んだことを補完するのに非常に有用な、もうひとつの守秘義務技術を見てみよう。
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/sparrow-stonewall-6fcfd679-7038-4ee2-8bf7-de76a72f9392
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## 跳弾
 
@@ -2812,14 +2828,14 @@ coinjoinサイクル後にどのように使用するかにもよりますが、
 
 この方法は、コインジョイントだけでなく、パーツの接合性を損なう可能性のあるその他のマークにも有効である。
 
-この跳弾法のアイデアはもともとSamourai Walletチームから生まれたもので、プロセスを自動化するために彼らのアプリケーションに統合された。跳弾には100,000サットのサービス料と採掘コストがかかるため、このサービスはSamouraiでは無料ではない。そのため、多額の送金を行う場合に利用することが推奨される。
+このリコシェ方式の発想はもともと Samourai Wallet のチームによるもので、動作を自動化するためにアプリへ統合されていました。このサービスは Samourai では有料で、1 回のリコシェにつきサービス料として 100,000 サットの固定費が発生し、さらにマイニング手数料も必要でした。同様の仕組みは現在 Ashigaru でも採用されています。そのため、この方法は高額の送金に利用することが推奨されます。
 
 ![BTC204](assets/ja/196.webp)
 
-サムライ・アプリケーションは2種類の跳弾を提供する：
+Ashigaruアプリは2種類のリコシェを提供しています（以前Samouraiで利用できたものと同じです）：
 
 
-- 強化された跳弾、すなわち「時差配信」は、サムライのサービス料を5回の連続取引に分散できるという利点がある。このオプションはまた、各トランザクションが別々の時間にブロードキャストされ、異なるブロックに記録されることを保証し、オーナー交代の挙動を可能な限り模倣する。スピードは落ちるが、連鎖分析への耐性を強化することで跳弾の効率を最大化できるため、急いでいない人にはこの方法が望ましい；
+- 強化リコシェ、または「段階的配送」は、Ashigaru のサービス手数料を連続する5つの取引に分散できるという利点があります。また、このオプションでは各取引が異なるタイミングでブロードキャストされ、別々のブロックに記録されるため、所有者変更の挙動を可能な限り正確に模倣できます。より遅いものの、この方法は急いでいない人に適しており、チェーン分析への耐性を高めることでリコシェの効果を最大化します；
 
 ![BTC204](assets/ja/197.webp)
 
@@ -2832,7 +2848,7 @@ coinjoinサイクル後にどのように使用するかにもよりますが、
 
 次の章では、所有権を秘密裏に移転するためのさまざまな手法を見ていく。これらの手法は、運用の面でも結果の面でも、これまで検討してきたものとは根本的に異なる。
 
-https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## 所有権の秘密譲渡
 
@@ -3072,7 +3088,7 @@ BIP47の目的は、アドレスを再利用することなく多数の支払い
 
 そのため、ユーザーは、従来の受信者アドレスや公開鍵の場合と異なり、機密性を失うリスクを負うことなく、ソーシャルネットワーク上であれ、自分のウェブサイト上であれ、完全に自由に自分の支払いコードを共有することができる。
 
-トランザクションを実行するには、両当事者はSamurai WalletやSparrow Wallet上のPayNymのようなBIP47実装を持つビットコインウォレットが必要です。決済コードの共同使用により、両者間に秘密チャネルが形成される。このチャネルを効果的に確立するために、発行者はビットコインのブロックチェーン上で「通知トランザクション」として知られる特定のトランザクションを実行しなければならない（これについては後で詳しく説明する）。
+取引を行うためには、両者が BIP47 を実装したビットコインウォレット、例えば Ashigaru 上の PayNym や Sparrow Wallet を保有している必要があります。両者の支払いコードを併用することで、秘密のチャネルが構築されます。このチャネルを効果的に確立するため、送信者はビットコイン・ブロックチェーン上で特定の取引を行う必要があり、これは「通知トランザクション」として知られています（詳細は後ほど説明します）。
 
 2人のユーザーの支払いコードを組み合わせることで、共有された秘密が生成され、その秘密が大量のユニークなビットコイン受け取りアドレス（ちょうど2^32、約40億）を作り出す。このようにして、BIP47を介して行われた支払いは、実際には支払いコードそのものではなく、関係するユーザーの支払いコードから派生した古典的な受け取りアドレスに宛てられている。
 
@@ -3094,7 +3110,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 このコードはQRコードとして符号化することもでき、従来の受信アドレスのように簡単に伝達できる。
 
-ツイッターで時々見かけるPayNymボットは、Samourai Walletが作成した決済コードを視覚的に表現したものである。ハッシュ関数を使って生成されるため、一意性に近い。で始まる小さな文字列の形をとる：
+PayNym Botについてですが、X（Twitter）で時折見かけるこれらのボットは、Samourai Wallet によって作成された支払いコードの視覚的表現です。現在は Ashigaru によって若干異なるものになっていますが、原理は変わりません。これらはハッシュ関数によって生成され、ほぼ一意性が与えられています。`+` で始まる小さな文字列として表示されます：
 
 ```plaintext
 +throbbingpond8B1
@@ -3111,7 +3127,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 ---
 *この章では、BIP47の仕組みについて、特に使用されている暗号方式に重点を置いて詳しく説明します。これらのやや専門的な説明を完全に理解するためには、まずHDウォレットの構造、鍵の導出手順、楕円曲線暗号の基礎を理解することが不可欠です。これらの概念をより深く理解したい方は、Plan ₿ Networkで別の無料トレーニングコースをご利用いただけます :*。
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 *というのも、BIP47の技術的な運用を理解することで、次の章で説明する他の似たような提案を理解しやすくなるからである*。
 
@@ -3863,7 +3879,7 @@ ECDHで共有秘密が見つかると、アリスとボブはBIP47支払い公�
 
 *本章執筆のきっかけとなった論文の校正と専門的なアドバイスをしてくれた*[Fanis Michalakis](https://x.com/FanisMichalakis)*に感謝する！*
 
-https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## サイレント・ペイメント
 

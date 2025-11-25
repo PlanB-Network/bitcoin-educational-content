@@ -75,7 +75,7 @@ Navegar no complexo cenário de governação da Bitcoin exige mais do que conhec
 Pronto para dar o próximo passo na sua jornada Bitcoin? Vamos começar!
 
 
-**N.B.**: Se encontrar termos desconhecidos relacionados com o Bitcoin durante o curso, consulte o [glossário](https://planb.network/resources/glossary) para encontrar definições
+**N.B.**: Se encontrar termos desconhecidos relacionados com o Bitcoin durante o curso, consulte o [glossário](https://planb.academy/resources/glossary) para encontrar definições
 
 
 
@@ -154,7 +154,7 @@ Se forem bem sucedidos, é muito provável que os mesmos problemas voltem a surg
 Nenhuma destas opções é benéfica para o utilizador.
 
 
-A resistência à censura através da descentralização é o que separa o Bitcoin de outros sistemas monetários, mas não é uma coisa fácil de conseguir devido ao *problema Double-spending*. Este é o problema de garantir que ninguém pode gastar a mesma moeda duas vezes, uma questão que muitas pessoas pensavam ser impossível de resolver de forma descentralizada. Satoshi Nakamoto escreveu no seu [Bitcoin whitepaper](https://planb.network/bitcoin.pdf) sobre como resolver o problema Double-spending:
+A resistência à censura através da descentralização é o que separa o Bitcoin de outros sistemas monetários, mas não é uma coisa fácil de conseguir devido ao *problema Double-spending*. Este é o problema de garantir que ninguém pode gastar a mesma moeda duas vezes, uma questão que muitas pessoas pensavam ser impossível de resolver de forma descentralizada. Satoshi Nakamoto escreveu no seu [Bitcoin whitepaper](https://planb.academy/bitcoin.pdf) sobre como resolver o problema Double-spending:
 
 
 > Neste artigo, propomos uma solução para o problema Double-spending utilizando um servidor Timestamp distribuído peer-to-peer para a prova computacional generate da ordem cronológica das transacções.
@@ -278,7 +278,6 @@ A autora salienta que muitos sistemas, naturais ou artificiais, podem funcionar 
 
 ![](assets/en/002.webp)
 
-*Os cardumes de peixes não têm líderes*
 
 
 Independentemente do que se pensa sobre o Bitcoin, a sua natureza descentralizada torna-o difícil de controlar. O Bitcoin existe, e não há nada que se possa fazer a respeito. É algo que deve ser estudado, não debatido.
@@ -372,7 +371,7 @@ A essência dessa conversa é que não se pode construir sistemas Trustless em c
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Uma base Trustless Layer permite várias soluções de compromisso a níveis mais elevados
@@ -536,7 +535,6 @@ O documento resume os principais problemas da privacidade Blockchain, nomeadamen
 ![](assets/en/005.webp)
 
 
-Fugas de privacidade típicas no Blockchain
 
 
 Chris Belcher [escreveu em grande detalhe](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) sobre os diferentes tipos de fugas de privacidade que podem acontecer no Bitcoin Blockchain. Recomendamos que leia pelo menos as primeiras subsecções em "Ataques à privacidade no Blockchain"
@@ -632,7 +630,7 @@ Também mencionou este exemplo, entre outros, na [Privacy page](https://en.Bitco
 Note-se que é possível obter uma melhor privacidade construindo sistemas sobre o Bitcoin, como é o caso do Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 As camadas sobrepostas ao Bitcoin podem aumentar a privacidade
@@ -652,7 +650,7 @@ Para atenuar os riscos de ter os seus dados pessoais revelados, é necessário, 
 O artigo sugere que evite utilizar bolsas que exijam KYC/AML e, em vez disso, negoceie em privado ou utilize bolsas descentralizadas como [bisq](https://bisq.network/).
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Para uma leitura mais aprofundada sobre as contramedidas, consultar o já mencionado [artigo wiki sobre privacidade](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), começando em "Methods for improving privacy (non-Blockchain)".
 
@@ -731,7 +729,7 @@ O que acontece quando o subsídio por categoria se aproxima de zero? Para simpli
 Atualmente, são os detentores que pagam pela segurança (através da inflação monetária). Amanhã, será a vez de os gastadores suportarem, de alguma forma, este ónus, como ilustrado abaixo.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Com o passar do tempo, a responsabilidade pelos custos de segurança passará dos detentores para os utilizadores
@@ -1102,7 +1100,6 @@ Estes são exemplos de ameaças reais que precisam de ser tratadas.
 ![](assets/en/009.webp)
 
 
-Excerto do Manual de Campo de Sabotagem Simples
 
 
 Para compreender melhor a mente do adversário, pode ser útil ter um vislumbre do seu modo de funcionamento. Um organismo governamental norte-americano chamado Office of Strategic Services (Gabinete de Serviços Estratégicos), que funcionou durante a Segunda Guerra Mundial e que tinha entre os seus objectivos conduzir espionagem, efetuar sabotagem e difundir propaganda, produziu um [manual](https://www.gutenberg.org/ebooks/26184) para o seu pessoal sobre como sabotar corretamente o inimigo. O seu título era "Simple Sabotage Field Manual" e continha dicas concretas sobre como se infiltrar no inimigo para tornar as suas vidas Hard. As dicas vão desde incendiar armazéns até causar desgaste nos exercícios para diminuir a capacidade do inimigo de
@@ -1662,7 +1659,6 @@ Um protocolo em camadas começa com duas ou mais pessoas a concordarem com uma t
 
 ![](assets/en/017.webp)
 
-Um protocolo Layer 2 típico sobre o Bitcoin, Layer 1.
 
 
 A forma como esta transação de início é criada varia entre protocolos, mas um tema comum é que os participantes criam uma transação de início não assinada e um número de transacções de punição pré-assinadas, que gastam o resultado da transação de início de várias formas. Subsequentemente, a transação de início é totalmente assinada e publicada no Blockchain, e as transacções de punição podem ser totalmente assinadas e publicadas para punir uma parte que se comporte mal. Isto incentiva os participantes a manterem as suas promessas para que o protocolo possa funcionar de uma forma Trustless.

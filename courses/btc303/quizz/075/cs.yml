@@ -1,0 +1,8 @@
+question: Jaký přístup by podle Gregoryho Maxwella k hodnocení závažnosti zranitelností měli vývojáři zvolit při vyhodnocování potenciálního dopadu objevených bezpečnostních problémů?
+answer: Považovat zranitelnosti za závažnější, než je v současnosti známo, a předpokládat, že by mohly být snadno zneužitelné, i když se zdají být obtížně zneužitelné
+wrong_answers:
+  - Zaměřte se pouze na bezprostřední pozorovatelný dopad a rozdělte zranitelnosti do kategorií na základě aktuálně známých způsobů jejich zneužití
+  - Upřednostňovat zranitelnosti podle jejich technické složitosti a odkládat opravy problémů, které se zdají být teoreticky obtížně zneužitelné
+  - Hodnotit každou zranitelnost izolovaně, aniž by se zvážilo, jak může kombinace více menších problémů vytvářet významná bezpečnostní rizika
+explanation: |
+  Maxwell tvrdí, že vývojáři by měli zranitelnosti považovat za závažnější, než se zdá, protože obtížně zneužitelné problémy se mohou stát triviálními pomocí správné techniky a zdánlivě drobné problémy mohou přerůst v závažné hrozby. Zdůrazňuje, že jednoduché výkonnostní chyby lze využít jako zbraň k rozdělení sítě a umožnění útoků double-spending. Tento konzervativní přístup uznává, že vývojáři nemusí zpočátku chápat plný potenciál zneužití zranitelnosti, a proto je rozumné předpokládat spíše nejhorší možný scénář než podcenit hrozbu.

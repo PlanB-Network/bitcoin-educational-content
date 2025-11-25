@@ -42,7 +42,7 @@ Setelah aplikasi terinstal, StashPay akan membuat Bitcoin Wallet awal untuk Anda
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Akses pengaturan StashPay dengan mengklik ikon "Pengaturan", lalu klik opsi "Buat cadangan". Kemudian otorisasi tampilan frasa pemulihan. Jangan menyalin frasa pemulihan ke papan klip ponsel Anda, karena dapat diakses oleh aplikasi penipuan lain yang diinstal pada ponsel Anda.
 
@@ -88,7 +88,7 @@ Anda pasti sudah tahu bahwa untuk menerima satoshi, Anda harus membayar biaya ja
 
 
 
-https://planb.network/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
+https://planb.academy/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
 
 ### Kirim bitcoin dengan StashPay
 
@@ -106,7 +106,7 @@ Karena StashPay merupakan Wallet yang berbasis pada Breez Development Kit, Stash
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Akan tetapi, Breez SDK memberlakukan jumlah minimum di mana Anda dapat mengirim bitcoin ke Address di rantai utama.
 
@@ -168,4 +168,4 @@ Anda baru saja memahami Bitcoin Wallet minimalis dari StashPay. Jika Anda merasa
 
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f

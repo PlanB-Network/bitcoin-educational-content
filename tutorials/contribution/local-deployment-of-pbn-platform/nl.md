@@ -1,6 +1,6 @@
 ---
-name: Handleiding voor het lokaal draaien van het Plan ₿ Network platform
-description: Hoe kan je de Plan ₿ Network in een lokale omgeving laten draaien om mijn bijdrage aan inhoud of het proeflezen/beoordelen van educatieve inhoud op de Plan ₿ Network te testen?
+name: Handleiding voor het lokaal draaien van het Plan ₿ Academy platform
+description: Hoe kan je de Plan ₿ Academy in een lokale omgeving laten draaien om mijn bijdrage aan inhoud of het proeflezen/beoordelen van educatieve inhoud op de Plan ₿ Academy te testen?
 ---
 ![github](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Hoe kan je de Plan ₿ Network in een lokale omgeving laten draaien
 ## Samengevat
 
 
-Deze tutorial geeft stapsgewijze instructies voor het opzetten van het Bitcoin Leerbeheersysteem vanuit Plan ₿ Network op je lokale machine met behulp van Docker, dummy keys en aangepaste repository configuraties.
+Deze tutorial geeft stapsgewijze instructies voor het opzetten van het Bitcoin Leerbeheersysteem vanuit Plan ₿ Academy op je lokale machine met behulp van Docker, dummy keys en aangepaste repository configuraties.
 
 
 Als je het gedeelte hierboven niet begreep, maak je dan geen zorgen - deze tutorial is voor jou!
@@ -147,7 +147,7 @@ Van zodra de containers draaien, open je de frontend met:
 \[<http://localhost:8181](http://localhost:8181)>
 
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 
 Opmerking: de app wordt automatisch opnieuw geladen als je bronbestanden wijzigt.
@@ -196,7 +196,7 @@ curl -X POST http://localhost:3000/api/github/sync
 ```
 
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 
 

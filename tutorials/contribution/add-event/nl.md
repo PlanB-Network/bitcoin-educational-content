@@ -1,6 +1,6 @@
 ---
-name: Een evenement toevoegen op PlanB Network
-description: Hoe stel ik voor om een nieuw evenement toe te voegen op PlanB Network?
+name: Een evenement toevoegen op Plan ₿ Academy
+description: Hoe stel ik voor om een nieuw evenement toe te voegen op Plan ₿ Academy?
 ---
 ![event](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Hoe stel ik voor om een nieuw evenement toe te voegen op PlanB Netw
 De missie van PlanB is om eersteklas educatieve bronnen aan te bieden over Bitcoin in zoveel mogelijk talen. Alle inhoud die op de site wordt gepubliceerd is open-source en wordt gehost op GitHub, waardoor iedereen de kans krijgt om bij te dragen aan de verrijking van het platform.
 
 
-Wil je een Bitcoin conferentie toevoegen aan de PlanB Network site en de zichtbaarheid van je evenement vergroten, maar weet je niet hoe? Dan is deze tutorial voor jou!
+Wil je een Bitcoin conferentie toevoegen aan de Plan ₿ Academy site en de zichtbaarheid van je evenement vergroten, maar weet je niet hoe? Dan is deze tutorial voor jou!
 
 ![event](assets/01.webp)
 
@@ -16,7 +16,7 @@ Wil je een Bitcoin conferentie toevoegen aan de PlanB Network site en de zichtba
 - Eerst moet je een account hebben op GitHub. Als je niet weet hoe je een account aanmaakt, hebben we een gedetailleerde tutorial gemaakt om je te begeleiden.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -29,7 +29,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![event](assets/03.webp)
 
 
-- Als je nog nooit hebt bijgedragen aan de inhoud van PlanB Network, zul je een fork van de originele repository moeten maken. Een repository forken betekent dat je een kopie van die repository maakt op je eigen GitHub account, zodat je aan het project kunt werken zonder de originele repository te beïnvloeden. Klik op de knop `Fork this repository`:
+- Als je nog nooit hebt bijgedragen aan de inhoud van Plan ₿ Academy, zul je een fork van de originele repository moeten maken. Een repository forken betekent dat je een kopie van die repository maakt op je eigen GitHub account, zodat je aan het project kunt werken zonder de originele repository te beïnvloeden. Klik op de knop `Fork this repository`:
 ![event](assets/04.webp)
 
 
@@ -112,7 +112,7 @@ tags:
 Als je nog geen "*project*" identifier hebt voor je organisatie, kun je die toevoegen door deze andere tutorial te volgen.
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 
@@ -137,7 +137,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![event](assets/14.webp)
 
 
-- Selecteer je fork van de PlanB Network repository:
+- Selecteer je fork van de Plan ₿ Academy repository:
 ![event](assets/15.webp)
 
 
@@ -180,7 +180,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 - Klik op de knop `Add file` (Bestand toevoegen) en vervolgens op `Upload files` (Bestanden uploaden):
 ![event](assets/25.webp)
 
-- Er wordt een nieuwe pagina geopend. Sleep een afbeelding die je conferentie voorstelt en die zal worden weergegeven op de PlanB Network site:
+- Er wordt een nieuwe pagina geopend. Sleep een afbeelding die je conferentie voorstelt en die zal worden weergegeven op de Plan ₿ Academy site:
 ![event](assets/26.webp)
 
 
@@ -228,10 +228,10 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 - Klik op de knop `Create pull request`:
 ![event](assets/37.webp)
 
-Gefeliciteerd! Je PR is succesvol aangemaakt. Een beheerder zal het nu controleren en, als alles in orde is, samenvoegen in de hoofdrepository van PlanB Network. Je zou je evenement een paar dagen later op de website moeten zien verschijnen.
+Gefeliciteerd! Je PR is succesvol aangemaakt. Een beheerder zal het nu controleren en, als alles in orde is, samenvoegen in de hoofdrepository van Plan ₿ Academy. Je zou je evenement een paar dagen later op de website moeten zien verschijnen.
 
 
-Zorg ervoor dat je de voortgang van je PR volgt. Een beheerder kan een opmerking achterlaten waarin om aanvullende informatie wordt gevraagd. Zolang je PR niet gevalideerd is, kun je het raadplegen in de `Pull requests` tab op de PlanB Network GitHub repository:
+Zorg ervoor dat je de voortgang van je PR volgt. Een beheerder kan een opmerking achterlaten waarin om aanvullende informatie wordt gevraagd. Zolang je PR niet gevalideerd is, kun je het raadplegen in de `Pull requests` tab op de Plan ₿ Academy GitHub repository:
 ![event](assets/38.webp)
 
 Hartelijk dank voor je waardevolle bijdrage! :)

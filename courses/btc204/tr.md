@@ -510,9 +510,9 @@ Dolayısıyla, Bitcoin kullanımımızda Blockchain analiziyle de başa çıkabi
 Blockchain analizine karşı koymanın, bu analizde kullanılan yöntemleri öğrenmekten daha iyi bir yolu var mı? Bitcoin'te gizliliğinizi nasıl geliştireceğinizi bilmek istiyorsanız, bu yöntemleri anlamanız gerekir. Bu size CoinJoin veya PayJoin gibi teknikleri (kursun son bölümlerinde inceleyeceğimiz teknikler) daha iyi kavramanızı sağlayacak ve yapabileceğiniz hataları azaltacaktır.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 Bu konuda kriptografi ve kriptanaliz ile bir analoji kurabiliriz. İyi bir kriptograf her şeyden önce iyi bir kriptanalisttir. Yeni bir şifreleme algoritması tasarlamak için, hangi saldırılarla karşılaşacağını bilmeniz ve önceki algoritmaların neden kırıldığını incelemeniz gerekir. Aynı prensip Bitcoin gizliliği için de geçerlidir. Blockchain analiz yöntemlerini anlamak, bunlara karşı korunmanın anahtarıdır. Bu nedenle bu eğitime on chain analizi ile ilgili bir bölüm ekledim.
 
@@ -1835,7 +1835,7 @@ Tüm bu otomatik UTXO seçim yöntemleri işlem maliyetlerini azaltmada etkili o
 UTXO'larınızı nasıl etiketleyeceğinizi öğrenmek isterseniz, ana Bitcoin Wallet yazılımı hakkında kapsamlı bir eğitim hazırladık:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYC ve anahtar tanımlama
 
@@ -2074,7 +2074,7 @@ Bir kez daha, P2P alımlarının bir diğer dezavantajı, fiyatın genellikle d�
 -> Bisq eğitimimize bakın.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Daha basit bir seçenek için, alıcıları ve satıcıları yerleşik bir anlaşmazlık çözüm sistemi ile birbirine bağlayan bir mobil uygulama olan [Peach](https://peachbitcoin.com/)'i deneyebilirsiniz. Süreç Bisq'inkinden daha sezgiseldir.
 
@@ -2082,7 +2082,7 @@ Daha basit bir seçenek için, alıcıları ve satıcıları yerleşik bir anla�
 -> Peach eğitimimize bakın.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
 Bir başka çevrimiçi seçenek de, şahsen test etmemiş olsam da, iyi likidite sunan köklü bir platform olan [HodlHodl] (https://hodlhodl.com/).
 
@@ -2090,7 +2090,7 @@ Bir başka çevrimiçi seçenek de, şahsen test etmemiş olsam da, iyi likidite
 -> HodlHodl eğitimimize bakın.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Lightning Network tabanlı çözümler için [RoboSats](https://learn.robosats.com/) ve [LNP2PBot](https://lnp2pbot.com/) adreslerini deneyebilirsiniz. RoboSats'a bir web sitesi üzerinden erişilebilir ve kullanımı nispeten basittir. LNP2PBot ise Telegram mesajlaşma uygulaması üzerindeki bir Exchange sistemi üzerinden çalıştığı için daha atipiktir.
 
@@ -2101,9 +2101,9 @@ Lightning Network tabanlı çözümler için [RoboSats](https://learn.robosats.c
 -> LNP2PBot eğitimimize bakın.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
 ![BTC204](assets/tr/096.webp)
 
@@ -2117,7 +2117,7 @@ Yaşadığınız ülkeye bağlı olarak, bitcoin almak veya satmak için KYC pro
 -> Relai hakkındaki eğitimimize bakın.
 
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 Önceki bölümde gördüğümüz gibi, bu tür platformlar sizi KYC prosedürleriyle ilişkili risklerden kurtarır, ancak anahtar tanımlama için daha yüksek bir risk seviyesi sunarlar. O halde, Bitcoin gizliliği açısından, bu platformlar KYC ile satın alma yöntemlerinden daha iyi koruma sağlar, ancak P2P borsalarından daha az cazip kalırlar.
 
@@ -2152,7 +2152,7 @@ BTC harcamanın en iyi yolu, elbette, bir mal veya hizmet satın almak için do�
 KYC prosedürleri gerektirmeyen birkaç platform, büyük perakendecilerde kullanılabilecek hediye kartları için bitcoin alışverişi imkanı sunmaktadır. Bunlar arasında [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) ve [Bitrefill](https://www.bitrefill.com/) bulunmaktadır. Bu platformlar, bitcoinlerinizi günlük olarak kullanmanızı çok daha kolay hale getirerek, fiat para birimine dönüştürmek zorunda kalmadan çok çeşitli ürün ve hizmetlere erişmenizi sağlar.
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ![BTC204](assets/tr/098.webp)
 
@@ -2166,7 +2166,7 @@ Gizliliğinizi koruyarak bitcoin edinmenin diğer yolları arasında elbette Min
 Bir başka yöntem de Exchange'ta bitcoin için çalışmaktır. Bu edinim yöntemi ilginç olabilir, ancak gerekli kimlik belirleme derecesi koşullara bağlı olarak önemli ölçüde değişir.
 
 
-*Bu bölümü yazmak için [@pivi___](https://x.com/pivi___) tarafından Plan ₿ Network üzerinde verilen BTC205 kursunu kullandım (şimdilik sadece Fransızca olarak mevcut)*
+*Bu bölümü yazmak için [@pivi___](https://x.com/pivi___) tarafından Plan ₿ Academy üzerinde verilen BTC205 kursunu kullandım (şimdilik sadece Fransızca olarak mevcut)*
 
 
 ## Konsolidasyon, UTXO yönetimi ve CIOH
@@ -2714,7 +2714,6 @@ Bu ayrım aynı zamanda Wallet yazılım seviyesinde ön karışım ve son karı
 
 
 
-*2024 yılında, Bitcoin üzerinde coinjoins yapmak isteyen kullanıcıların kullanabileceği araçlarda büyük değişikliklere tanık oluyoruz. Şu anda bir dönüm noktasındayız ve CoinJoin pazarı büyük bir yeniden yapılanma sürecinden geçiyor. Bu bölümün zaman içinde güncelleneceğinden emin olabilirsiniz.*
 
 
 Şu an için Bitcoin üzerinde temel olarak 3 farklı CoinJoin uygulaması bulunmaktadır:
@@ -2726,6 +2725,10 @@ Bu ayrım aynı zamanda Wallet yazılım seviyesinde ön karışım ve son karı
 - Wabisabi;
 - JoinMarket.
 
+
+Bu üç tarihî uygulamaya ek olarak, yakın zamanda yeni bir tanesi ortaya çıktı: Joinstr. Bu bölümde bundan bahsetmeyeceğim, ancak onunla ilgili tüm bilgileri bu özel eğitimde bulabilirsiniz:
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
 
 Bu uygulamaların her biri CoinJoin işlemleri aracılığıyla UTXO'ların geçmişini kırmayı amaçlamaktadır. Ancak, mekanizmaları önemli ölçüde farklılık göstermektedir. Bu nedenle her birinin nasıl çalıştığını anlamak çok önemlidir, böylece ihtiyaçlarınıza en uygun seçeneği seçebilirsiniz.
 
@@ -2759,6 +2762,8 @@ JoinMarket, coinjoiner'lar için yenilikçi P2P bağlantı modeline rağmen, öz
 
 Son olarak, JoinMarket konsepti, özellikle dinamik bir likidite piyasasıyla ilgilenenler için ilginç olsa da, yapısal zayıflıkları ve teknik karmaşıklığı, bence, bir CoinJoin uygulaması arayan hem acemiler hem de uzmanlar için daha az ilgi çekici hale getiriyor.
 
+
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
 
 ### Wabisabi
 
@@ -2826,6 +2831,10 @@ Daha da endişe verici olan, Bitcoin'ün açık, sansürsüz bir finansal sistem
 
 Şimdiye kadar anlamış olacağınız gibi, benim tercihim kesinlikle Bitcoin'daki eş birleştirmeler için Whirlpool modelinden yana. Bu sistem titizliği ile öne çıkmakta ve üstün gizlilik garantileri sunmaktadır. Ayrıca matematiksel bağlamda mükemmel olarak kabul edilen bir karışım sunan tek sistemdir. Bana göre bu model, Bitcoin'daki coinjoins'in geleceğini temsil ediyor. Sizi bir sonraki bölümde bu modeli daha derinlemesine incelemeye davet ediyorum.
 
+
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
 
 ## Whirlpool nasıl çalışır?
 
@@ -3113,7 +3122,7 @@ Ayrıca, yaygın olarak kullanılmayan komut dosyalarını kullanarak postmix UT
 Tüm Bitcoin işlemlerinde olduğu gibi, alıcı Address'in tekrar kullanılmaması da önemlidir. Her yeni işlem yeni, boş bir Address ile alınmalıdır.
 
 
-En basit ve en güvenli çözüm, karışık UTXO'larınızı **postmix** hesaplarında dinlenmeye bırakmak, yeniden karıştırmalarına izin vermek ve yalnızca harcamak için dokunmaktır. Samurai ve Sparrow cüzdanları tüm bu zincir analizi risklerine karşı ek korumalara sahiptir. Bu korumalar hata yapmaktan kaçınmanıza yardımcı olur.
+En basit ve en güvenli çözüm, karıştırılmış UTXO’larınızı **postmix** hesaplarında dinlenmeye bırakmak, onların yeniden karıştırılmasına izin vermek ve yalnızca harcama sırasında dokunmaktır. Samourai cüzdanları (ve artık Ashigaru) ile Sparrow, zincir analizine ilişkin tüm bu risklere karşı ek korumalar sunar. Bu korumalar hata yapmanızı önlemeye yardımcı olur.
 
 
 ### Toksik değişiklikleri nasıl yönetiyorsunuz?
@@ -3131,31 +3140,34 @@ Daha sonra, CoinJoin havuzuna girmeyen doxxic değişikliklerin yönetimi konusu
 - **"Harcanamaz" olarak işaretleyin:** Başka bir yaklaşım da bunları kullanmayı bırakmak, özel hesaplarında "harcanamaz" olarak işaretlemek ve sadece HODL. Bu, onları yanlışlıkla harcamamanızı sağlar. Bitcoin'nın değeri yükselirse, toksik UTXO'larınıza daha uygun yeni havuzlar ortaya çıkabilir;
 - **Bağış yapın:** Bitcoin ve ilgili yazılımlar üzerinde çalışan geliştiricilere mütevazı da olsa bağış yapmayı düşünün. BTC kabul eden derneklere de bağışta bulunabilirsiniz. Toksik UTXO'larınızı yönetmek çok karmaşık görünüyorsa, onlardan kurtulabilir ve bağış yapabilirsiniz;
 - Hediye kartları satın alın: [Bitrefill](https://www.bitrefill.com/) gibi platformlar, çeşitli satıcılarda kullanılabilecek hediye kartları için Exchange bitcoinleri kullanmanıza olanak tanır. Bu, ilgili değeri kaybetmeden toksik UTXO'larınızdan ayrılmanın bir yolu olabilir;
-- **Monero üzerinde konsolide edin:** Samourai Wallet, BTC ve XMR arasında bir atomik takas hizmeti sunmaktadır. Bu, toksik UTXO'ları Bitcoin'a geri göndermeden önce CIOH aracılığıyla gizliliğinizden ödün vermeden Monero üzerinde konsolide ederek yönetmek için idealdir. Ancak bu seçenek, likidite kısıtlamaları nedeniyle Mining ücretleri ve prim açısından maliyetli olabilir;
+- **Monero aracılığıyla birleştirmek:** Samourai Wallet geçmişte BTC ile XMR arasında atomik takas hizmeti sunuyordu; ne yazık ki tutuklamaların ardından artık kullanılamıyor. Bu yöntem, toksik UTXO’ları Monero üzerinde birleştirerek CIOH üzerinden mahremiyetinizi tehlikeye atmadan işlemeyi ve ardından tekrar Bitcoin’e göndermeyi sağlıyordu. Benzer bir hizmet yeniden ortaya çıkarsa, dikkate değer bir seçenek olabilir. Yine de bu yöntemin hem madencilik ücretleri hem de bitcoin’e ters dönüşüm sırasında likidite kısıtlarından kaynaklanan prim nedeniyle maliyetli hâle gelebileceğini unutmamak gerekir.
 - **Bunları Lightning Network'e gönderin:** Düşük işlem ücretlerinden yararlanmak için bu UTXO'ları Lightning Network'e aktarmak cazip bir seçenek olabilir. Ancak bu yöntem, Lightning'i nasıl kullandığınıza bağlı olarak bazı bilgileri açığa çıkarabilir ve bu nedenle dikkatli kullanılmalıdır.
 
 
 ### Whirlpool'ü nasıl kullanırım?
 
 
-Samourai Wallet'nin kurucularının tutuklanması ve sunucularına 24 Nisan 2024'te el konulmasının ardından, Whirlpool aracı artık kendi Dojo'larına sahip olanlar için bile çalışmıyor. Daha önce Samourai Wallet ve Sparrow wallet'te kullanılabiliyordu.
+Samourai Wallet kurucularının tutuklanması ve sunucularının 24 Nisan 2024’te ele geçirilmesinin ardından Whirlpool aracı artık Samourai Wallet ve Sparrow Wallet üzerinde kullanılamamaktadır.
 
 
 ![BTC204](assets/tr/155.webp)
 
 
-Bununla birlikte, denemelerin sonucuna bağlı olarak bu aracın önümüzdeki haftalarda yeniden etkinleştirilmesi veya farklı bir şekilde yeniden piyasaya sürülmesi mümkün olmaya devam ediyor. Her halükarda, talep olduğu için Bitcoin CoinJoin pazarının uzun süre Supply'siz kalacağını düşünmüyorum. Dahası, Whirlpool'in modeli gizlilik açısından en gelişmiş model olduğundan, gelecekte diğer uygulamalar için kesinlikle tercih edilen model olacaktır.
 
 
-Bu davayı ve ilgili araçlardaki gelişmeleri yakından takip ediyoruz. Yeni bilgiler elde edildikçe bu kursu güncelleyeceğimizden emin olabilirsiniz.
 
+
+Bundan böyle, Samourai Wallet’in bir fork’u olan Ashigaru mobil uygulamasında Whirlpool yeniden erişilebilir hâle gelmiştir; Ashigaru Terminal yazılımı sayesinde.
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
+Whirlpool’ün çalışma mantığının özü değişmemiştir, ancak Samourai’deki kullanımına kıyasla yine de bazı farklılıklar vardır: 2025 yılında, Ashigaru üzerinde yalnızca iki havuz bulunmaktadır; bunlar `0.25 BTC` ve `0.025 BTC` olup giriş ücretleri sırasıyla `0.0125 BTC` ve `0.00125 BTC`’dir.
 
 Bir sonraki bölümde "anonsetlerin" ne olduğunu, bu göstergelerin nasıl hesaplandığını ve CoinJoin döngülerinin verimliliğini tahmin etmemize nasıl yardımcı olabileceğini öğreneceğiz.
 
 
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 
@@ -3590,7 +3602,7 @@ Ne yazık ki Samourai'nin kurucularının tutuklanmasının ardından bu araçla
 Coinjoinleri ayrıntılı olarak ele aldığımıza göre, kursumuzun son bölümünde Bitcoin'da mevcut olan diğer gizlilik tekniklerine bakacağız. Payjoin'lere, belirli sözde CoinJoin işlem türlerine, statik Address protokollerine ve gizliliği işlemlerin kendi seviyesinde değil, düğüm ağı seviyesinde güçlendirmeye yönelik önlemlere bakacağız.
 
 
-https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # Diğer gelişmiş gizlilik tekniklerinin zorluklarının anlaşılması
 
@@ -3716,8 +3728,11 @@ PayJoin'yi destekleyen tanınmış yazılım programları arasında Sparrow wall
 ![BTC204](assets/tr/177.webp)
 
 
-En gelişmiş PayJoin uygulaması sadece Samourai Wallet üzerindeki Stowaway idi. Ancak, yazılımın kurucularının tutuklanmasından bu yana, bu araç artık yalnızca kısmen işlevseldir. Stowaway'in avantajı, hem payjoins almayı hem de göndermeyi destekleyen kapsamlı, kullanımı kolay bir protokol olmasıdır. kısmen imzalanmış işlemler, birkaç QR kodu taranarak manuel olarak veya Soroban aracılığıyla Tor tarafından otomatik olarak değiştirilebilir. İkinci iletişim seçeneği şu anda hizmet dışıdır.
 
+
+En gelişmiş payjoin uygulaması kuşkusuz Samourai Wallet geliştiricileri tarafından icat edilen Stowaway’dir. Yazılımın kurucularının tutuklanmasından bu yana bu araç Samourai üzerinde yalnızca kısmen çalışmaktadır. Ancak Ashigaru uygulamasında yeniden kullanıma sunulmuştur.
+
+Stowaway’in avantajı, hem payjoin alımını hem de gönderimini destekleyen, eksiksiz ve oldukça kolay kullanılabilir bir protokol olmasıdır. Kısmen imzalanmış işlemler, birden fazla QR kodunun taranmasıyla manuel olarak veya Tor üzerinden Soroban aracılığıyla otomatik olarak değiştirilebilir.
 
 ![BTC204](assets/tr/178.webp)
 
@@ -3730,7 +3745,7 @@ PayJoin'yi kullanmanın zorluğu, satıcının katılımına bağlı olmasında 
 
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Ödeme mini-CoinJoin
 
@@ -3896,13 +3911,12 @@ Bir gider için bir gizlilik aracı kullanmak istediğinizde mantık aşağıdak
 ### Stonewall ve Stonewall x2 işlemlerini nasıl kullanabilirim?
 
 
-Stonewall ve Stonewall x2 işlemleri hem Samourai Wallet uygulamasında hem de Sparrow wallet yazılımında mevcuttur.
+Stonewall işlemleri Sparrow Wallet ve Ashigaru üzerinde mevcuttur; ancak Stonewall x2 şu anda yalnızca Ashigaru tarafından desteklenmektedir.
 
 
 ![BTC204](assets/tr/189.webp)
 
 
-Bununla birlikte, payjoin'lerde olduğu gibi, Samourai'nin kurucularının tutuklanmasının ardından, Stonewall x2 işlemleri artık yalnızca ilgili taraflar arasında PSBT'lerin manuel olarak değiştirilmesiyle çalışıyor. Ne yazık ki, Soroban üzerinden otomatik Exchange artık mevcut değil.
 
 
 Bu tür bir işlemi herhangi bir Bitcoin Wallet yazılımından manuel olarak gerçekleştirmek de mümkündür.
@@ -3911,9 +3925,11 @@ Bu tür bir işlemi herhangi bir Bitcoin Wallet yazılımından manuel olarak ge
 Bir sonraki bölümde, nispeten bilinmeyen, ancak daha önce çalıştıklarımızı tamamlayıcı olarak çok yararlı olan başka bir gizlilik tekniğine göz atacağız.
 
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/sparrow-stonewall-6fcfd679-7038-4ee2-8bf7-de76a72f9392
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Sekmeler
 
@@ -3993,18 +4009,18 @@ Sekme için en yaygın kullanım durumu, sahip olduğunuz bir UTXO üzerinde dah
 Bu yöntem sadece eş birleşmeler için değil, aynı zamanda bir UTXO'nın değiştirilebilirliğini tehlikeye atabilecek diğer tüm işaretler için de etkilidir.
 
 
-Bu sekme yöntemi fikri ilk olarak, süreci otomatikleştirmek için uygulamalarına entegre eden Samourai Wallet ekiplerinden geldi. Bu hizmet Samourai'de ücretsiz değildir, çünkü bir sekme 100.000 Sats hizmet ücreti ve Mining maliyetlerini içerir. Bu nedenle kullanımı önemli miktarlardaki transferler için tavsiye edilmektedir.
+Bu sektirme yönteminin fikri, işleyişi otomatikleştirmek amacıyla onu uygulamalarına entegre eden Samourai Wallet ekiplerinden ortaya çıkmıştır. Hizmet Samourai’de ücretliydi; çünkü her sektirme, hizmet ücreti olarak sabit 100.000 sats maliyetine ek olarak madencilik ücretlerini de gerektiriyordu. Bugün Ashigaru’da da durum aynıdır. Bu nedenle, yöntemin özellikle yüksek meblağlı transferlerde kullanılması tavsiye edilir.
 
 
 ![BTC204](assets/tr/196.webp)
 
 
-Samuray uygulaması iki sekme çeşidi sunar:
+Ashigaru uygulaması iki ricochet çeşidi sunar (önceden Samourai’de bulunanlarla aynıdır):
 
 
 
 
-- Samurai hizmet ücretini birbirini takip eden beş işleme yayma avantajı sunan güçlendirilmiş sekme veya "kademeli teslimat". Bu seçenek aynı zamanda her işlemin ayrı bir zamanda yayınlanmasını ve farklı bir bloğa kaydedilmesini sağlayarak Ownership transferinin davranışını mümkün olduğunca yakından taklit eder. Daha yavaş olmasına rağmen, bu yöntem acelesi olmayanlar için tercih edilir, çünkü zincir analizine karşı direncini güçlendirerek ricochet'in verimliliğini en üst düzeye çıkarır;
+- Güçlendirilmiş ricochet, yani "kademeli teslimat", Ashigaru hizmet ücretlerini ardışık beş işleme yayma avantajı sunar. Bu seçenek ayrıca her işlemin farklı bir zamanda yayınlanmasını ve ayrı bir blokta kaydedilmesini sağlayarak mülkiyet değişikliği davranışını olabildiğince yakından taklit eder. Daha yavaş olsa da, bu yöntem acelesi olmayanlar için daha uygundur; çünkü zincir analizine karşı direncini artırarak ricochet’in etkinliğini en üst düzeye çıkarır;
 
 
 ![BTC204](assets/tr/197.webp)
@@ -4024,7 +4040,7 @@ Ricocheting basitçe kendinize bitcoin göndermek anlamına gelir. Özel bir ara
 Bir sonraki bölümde, Ownership'ün gizli transferleri için farklı tekniklere bakacağız. Bu yöntemler hem işleyiş hem de sonuçlar açısından şimdiye kadar incelediklerimizden radikal biçimde farklıdır.
 
 
-https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Ownership'in gizli transferleri
 
@@ -4381,7 +4397,7 @@ BIP47'nin amacı, adresleri tekrar kullanmadan çok sayıda ödeme almayı mümk
 Bu nedenle bir kullanıcı, geleneksel bir alıcı Address veya açık anahtarın aksine, herhangi bir gizlilik kaybı riski olmadan ödeme kodunu ister sosyal ağlarda ister kendi web sitesinde tam bir özgürlük içinde paylaşabilir.
 
 
-Bir işlemi gerçekleştirmek için her iki tarafın da Samurai Wallet veya Sparrow wallet üzerinde PayNym gibi bir BIP47 uygulamasına sahip bir Bitcoin Wallet'e ihtiyacı vardır. Ödeme kodlarının ortak kullanımı aralarında gizli bir kanal oluşturur. Bu kanalı etkin bir şekilde kurmak için, ihraççının Bitcoin Blockchain üzerinde "bildirim işlemi" olarak bilinen belirli bir işlem gerçekleştirmesi gerekir (bu konuda daha sonra daha fazla bilgi verilecektir).
+Bir işlem gerçekleştirmek için her iki tarafın da BIP47 uygulamasına sahip bir Bitcoin cüzdanına sahip olması gerekir; örnek olarak Ashigaru üzerindeki PayNym veya Sparrow Wallet verilebilir. Ödeme kodlarının birlikte kullanılması, taraflar arasında gizli bir kanal oluşturur. Bu kanalın etkili biçimde kurulabilmesi için göndericinin Bitcoin blokzincirinde "bildirim işlemi" olarak bilinen belirli bir işlemi gerçekleştirmesi gerekir (ayrıntıları size daha sonra vereceğim).
 
 
 İki kullanıcının ödeme kodlarının birleştirilmesi ortak sırlar oluşturur ve bu da çok sayıda benzersiz Bitcoin alıcı adresi yaratır (tam olarak 2^32 veya yaklaşık 4 milyar). Bu şekilde, BIP47 üzerinden yapılan ödemeler aslında ödeme kodunun kendisine değil, ilgili kullanıcıların ödeme kodlarından türetilen klasik makbuz adreslerine yönlendirilir.
@@ -4412,7 +4428,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 Bu kod, tıpkı geleneksel Address alımı gibi iletişimi kolaylaştırmak için bir QR kodu olarak da kodlanabilir.
 
 
-Bazen Twitter'da görülen robotlar olan PayNym Botlarına gelince, bunlar Samourai Wallet tarafından oluşturulan ödeme kodunun görsel temsilleridir. Bir Hash işlevi kullanılarak oluşturulurlar ve bu da onlara neredeyse benzersizlik kazandırır. Bunlar `+` ile başlayan küçük bir karakter dizisi şeklindedir:
+PayNym Bot'lar — zaman zaman X’te (Twitter) görülen bu botlar — Samourai Wallet tarafından oluşturulmuş ödeme kodunun görsel temsilleridir. Ashigaru ile birlikte artık biraz farklı görünseler de temel ilke aynıdır. Bir karma (hash) fonksiyonu aracılığıyla üretilirler; bu da onlara neredeyse tam bir eşsizlik kazandırır. `+` ile başlayan küçük bir karakter dizisi şeklinde görünürler:
 
 
 ```plaintext
@@ -4432,10 +4448,10 @@ Bu robotların BIP47 çerçevesinde belirli bir teknik işlevi olmamasına rağm
 
 
 ---
-*Bu bölümün BIP47'ye ayrılan ilerleyen kısımlarında, kullanılan kriptografik yöntemlere özellikle vurgu yaparak nasıl çalıştığına ayrıntılı bir şekilde bakacağız. Bu biraz teknik açıklamaları tam olarak kavramak için öncelikle HD cüzdanlarının yapısını, anahtar türetme prosedürlerini ve eliptik eğri kriptografisinin temellerini anlamak önemlidir. Bu kavramları daha derinlemesine incelemek isterseniz, Plan ₿ Network'de başka bir ücretsiz kurs mevcuttur:*
+*Bu bölümün BIP47'ye ayrılan ilerleyen kısımlarında, kullanılan kriptografik yöntemlere özellikle vurgu yaparak nasıl çalıştığına ayrıntılı bir şekilde bakacağız. Bu biraz teknik açıklamaları tam olarak kavramak için öncelikle HD cüzdanlarının yapısını, anahtar türetme prosedürlerini ve eliptik eğri kriptografisinin temellerini anlamak önemlidir. Bu kavramları daha derinlemesine incelemek isterseniz, Plan ₿ Academy'de başka bir ücretsiz kurs mevcuttur:*
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 *Yine de bunları takip etmenizi tavsiye ederim, çünkü BIP47'nin teknik işleyişini anlamak, ilerleyen bölümlerde tartışacağımız diğer benzer teklifleri anlamanızı çok daha kolaylaştıracaktır*
 
@@ -5507,7 +5523,7 @@ Bob daha sonra Alice'e gönderdiği ödemeleri aynı şekilde geri ödeyebilir. 
 **Fanis Michalakis'e** (https://x.com/FanisMichalakis) bu bölümün yazılmasına ilham veren makaleye ilişkin redaksiyonu ve uzman tavsiyesi için çok teşekkürler!
 
 
-https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## Sessiz Ödemeler
 

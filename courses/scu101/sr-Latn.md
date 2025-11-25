@@ -61,7 +61,7 @@ Ova obuka je zajednički napor troje naših profesora:
 
 - Renaud Lifchitz, stručnjak za sajber bezbednost
 - Théo Pantamis, doktor primenjene matematike
-- Rogzy, Suosnivač Plan ₿ Network
+- Rogzy, Suosnivač Plan ₿ Academy
 
 
 Vaša digitalna higijena je ključna u sve digitalnijem svetu. Uprkos stalnom porastu hakovanja i masovnog nadzora, nije kasno da preduzmete prvi korak i zaštitite se.
@@ -182,7 +182,7 @@ TOR je legalan i koriste ga novinari, aktivisti za slobodu i drugi koji žele da
 ![image](assets/sr-Latn/007.webp)
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN i internet konekcija
 
@@ -216,9 +216,9 @@ Međutim, korišćenje potrošačkog VPN-a ne garantuje potpunu anonimnost. Mnog
 Konačno, VPN se takođe može koristiti za blokiranje online reklama, pružajući prijatnije i sigurnije iskustvo pretraživanja. Međutim, važno je da sami istražite kako biste pronašli VPN koji najbolje odgovara vašim specifičnim potrebama. Preporučuje se korišćenje VPN-a za poboljšanje sigurnosti, čak i kada pretražujete internet kod kuće. Ovo pomaže da se obezbedi viši nivo sigurnosti za razmenjene podatke online. Konačno, obavezno proverite URL-ove i mali katanc u Address traci kako biste potvrdili da ste na sajtu koji nameravate da posetite.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS & javne Wi-Fi mreže
 
@@ -378,9 +378,9 @@ NE, generalno se ne preporučuje plaćanje hakerima u slučaju ransomware-a ili 
 Ako otkrijete virus na svom računaru, isključite ga sa interneta, izvršite kompletno skeniranje antivirusom i obrišite zaražene fajlove. Zatim, ažurirajte svoj softver i operativni sistem, i promenite svoje lozinke kako biste sprečili dalja upadanja.
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Implementacija rešenja.
 
@@ -433,7 +433,7 @@ Uopšteno, početi koristiti novi, sigurniji email Address nije loša praksa i �
 Bonus Bitcoin: Možda bi bilo preporučljivo kreirati specifičan email Address za naše Bitcoin aktivnosti (kreiranje Exchange naloga) kako bismo zaista odvojili oblasti aktivnosti u našim životima.
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Menadžer lozinki
 
@@ -496,9 +496,9 @@ Da biste kreirali jaku lozinku, preporučuje se korišćenje velikog broja nasum
 
 Nasumično generisane lozinke nude viši nivo sigurnosti, iako ih može biti teže zapamtiti. Menadžeri lozinki mogu generate generisati sigurnije nasumične lozinke. Korišćenjem menadžera lozinki, ne morate pamtiti sve svoje lozinke. Važno je postepeno zameniti stare lozinke onima koje generiše menadžer, jer su jače i duže. Uverite se da je glavna lozinka vašeg menadžera lozinki takođe jaka i sigurna.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Dvofaktorska autentifikacija
 
@@ -564,9 +564,9 @@ Nastavi da učiš i postepeno primenjuj dobre prakse!
 Zlatno pravilo: Sajber bezbednost je pokretna meta koja će se prilagoditi vašem putu učenja!
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Praktični deo
 
@@ -583,7 +583,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 Zaštita vašeg email naloga je važan korak ka obezbeđivanju vaših online aktivnosti i zaštiti vaših ličnih podataka. Ovaj vodič će vas, korak po korak, uputiti u kreiranje i podešavanje ProtonMail naloga, provajdera poznatog po visokom nivou sigurnosti koji nudi end-to-end enkripciju vaših komunikacija. Bilo da ste početnik ili iskusni korisnik, najbolje prakse predstavljene ovde pomoći će vam da ojačate sigurnost vašeg emaila, dok istovremeno koristite napredne funkcije ProtonMail-a:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Osiguranje u 2FA
 
@@ -594,12 +594,12 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 Dvofaktorska autentifikacija (2FA) postala je neophodna za zaštitu vaših online naloga. U ovom vodiču ćete naučiti kako da postavite i koristite 2FA aplikaciju Authy, koja generiše dinamičke 6-cifrene kodove za zaštitu vaših naloga. Authy je veoma jednostavan za korišćenje i sinhronizuje se na više uređaja. Saznajte kako da instalirate i konfigurišete Authy, i tako odmah ojačate sigurnost vaših online naloga:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Još jedna opcija je korišćenje fizičkog sigurnosnog ključa. Ovaj dodatni vodič pokazuje kako da postavite i koristite sigurnosni ključ kao drugi faktor autentifikacije:
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Kreiranje menadžera lozinki
 
@@ -613,12 +613,12 @@ Upravljanje lozinkama je izazov u digitalnom dobu. Svi imamo brojne online nalog
 U ovom vodiču naučite kako da postavite Bitwarden, menadžer lozinki otvorenog koda, i kako da sinhronizujete svoje akreditive na svim uređajima kako biste pojednostavili svakodnevnu upotrebu:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Za naprednije korisnike, nudim i vodič za još jedan besplatan i open-source softver za lokalno upravljanje vašim lozinkama:
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Osiguravanje vaših naloga
 
@@ -629,9 +629,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 U ova dva vodiča, takođe vas vodim kroz proces osiguravanja vaših online naloga i objašnjavam kako postepeno usvojiti sigurnije prakse za svakodnevno upravljanje vašim lozinkama.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Promena pregledača i VPN-a
 
@@ -645,14 +645,14 @@ Zaštita vaše privatnosti na mreži je takođe ključna tačka za osiguranje va
 Predlažem da otkrijete dva pouzdana VPN rešenja koja se mogu platiti u Bitcoin, naime IVPN i Mullvad. Ovi tutorijali vas vode kroz instalaciju, konfiguraciju i korišćenje Mullvad ili IVPN na svim vašim uređajima:
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Takođe, naučite kako da koristite Tor Browser, pregledač posebno dizajniran da zaštiti vašu privatnost na mreži:
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## Rezervna postavka
 
@@ -663,12 +663,12 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 Zaštita vaših ličnih fajlova je takođe ključna tačka. Ovaj vodič vam pokazuje kako da implementirate efikasnu strategiju bekapa koristeći Proton Drive. Otkrijte kako da koristite ovo sigurno cloud rešenje za primenu 3-2-1 metode: tri kopije vaših podataka na dva različita medija, sa jednom kopijom van lokacije. Ovo obezbeđuje dostupnost i sigurnost vaših osetljivih fajlova:
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 A da biste osigurali svoje fajlove pohranjene na prenosivim medijima kao što su USB drajv ili eksterni Hard drajv, takođe vam pokazujem kako lako enkriptovati i dekriptovati ove medije koristeći VeraCrypt:
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Idi dalje
 

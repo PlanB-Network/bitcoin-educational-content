@@ -185,7 +185,7 @@ Pre nego što koristite ovu e-poštu za prijavu na uslugu, možete testirati nje
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 Da biste obrisali alias koji ste kreirali kao test, sve što treba da uradite je da se prijavite na svoj `Home`, zatim `Credentials` i kliknete na identitet koji želite da obrišete. Komanda _Delete_ će se pojaviti u gornjem desnom uglu kako biste nastavili.
 

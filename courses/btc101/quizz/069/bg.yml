@@ -1,0 +1,10 @@
+question: Каква е ролята на публичния ключ в Bitcoin wallet?
+answer: Той се използва за адреси generate Bitcoin и по този начин получава пари.
+wrong_answers:
+  - Използва се за криптиране на транзакциите Bitcoin.
+  - Той се използва за достъп до Bitcoin wallet.
+  - Той се използва за архивиране на Bitcoin wallet.
+explanation: |
+  Публичният ключ се получава от частния ключ и се използва
+  за generate Bitcoin адреси, за да се получат пари.
+reviewed: true

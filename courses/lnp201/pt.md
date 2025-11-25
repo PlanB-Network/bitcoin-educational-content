@@ -1,12 +1,12 @@
 ---
-name: Introdução Teórica à Lightning Network
+name: Teoria da Lightning Network
 goal: Descobrir a Lightning Network de uma perspectiva técnica
 objectives:
-  - Entender o funcionamento dos canais da rede.
-  - Familiarizar-se com os termos HTLC, LNURL e UTXO.
-  - Assimilar a gestão de liquidez e as taxas da LNN.
-  - Reconhecer a Lightning Network como uma rede.
-  - Entender os usos teóricos da Lightning Network.
+- Entender o funcionamento dos canais da rede.
+- Familiarizar-se com os termos HTLC, LNURL e UTXO.
+- Assimilar a gestão de liquidez e as taxas da LNN.
+- Reconhecer a Lightning Network como uma rede.
+- Entender os usos teóricos da Lightning Network.
 ---
 
 # Uma Jornada para a Segunda Camada do Bitcoin

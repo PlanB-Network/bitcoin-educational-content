@@ -75,7 +75,7 @@ Bitcoin keerulisel juhtimismaastikul navigeerimine nõuab enamat kui tehnilisi t
 Kas olete valmis astuma järgmise sammu oma Bitcoin teekonnal? Alustame!
 
 
-***N.B.**: Kui kursuse käigus tekib mõni Bitcoin-ga seotud tundmatu termin, vaadake [sõnastik](https://planb.network/resources/glossary), et leida definitsioonid.*
+***N.B.**: Kui kursuse käigus tekib mõni Bitcoin-ga seotud tundmatu termin, vaadake [sõnastik](https://planb.academy/resources/glossary), et leida definitsioonid.*
 
 
 
@@ -154,7 +154,7 @@ Kui see õnnestub, tulevad samad probleemid tõenäoliselt mingil hetkel tulevik
 Ükski neist võimalustest ei ole kasutajale kasulik.
 
 
-Tsensuurikindlus detsentraliseerimise kaudu on see, mis eristab Bitcoin teistest rahasüsteemidest, kuid *Double-spending probleemi* tõttu ei ole seda lihtne saavutada. See on probleem, mis seisneb selles, et keegi ei saa sama münti kaks korda kulutada, probleem, mida paljud inimesed arvasid, et detsentraliseeritult on võimatu lahendada. Satoshi Nakamoto kirjutab oma [Bitcoin whitepaperis](https://planb.network/bitcoin.pdf) sellest, kuidas lahendada Double-spending probleem:
+Tsensuurikindlus detsentraliseerimise kaudu on see, mis eristab Bitcoin teistest rahasüsteemidest, kuid *Double-spending probleemi* tõttu ei ole seda lihtne saavutada. See on probleem, mis seisneb selles, et keegi ei saa sama münti kaks korda kulutada, probleem, mida paljud inimesed arvasid, et detsentraliseeritult on võimatu lahendada. Satoshi Nakamoto kirjutab oma [Bitcoin whitepaperis](https://planb.academy/bitcoin.pdf) sellest, kuidas lahendada Double-spending probleem:
 
 
 > Käesolevas dokumendis pakume välja lahenduse Double-spending probleemile, kasutades võrdõiguslikust jaotatud Timestamp serveriga generate tehingute kronoloogilise järjestuse arvutuslikku tõestamist.
@@ -278,7 +278,6 @@ Ta juhib tähelepanu sellele, et paljud süsteemid, nii looduslikud kui ka kunst
 
 ![](assets/en/002.webp)
 
-*Kalakoolidel ei ole juhte*
 
 
 Ükskõik, mida te Bitcoin-st arvate, selle detsentraliseeritud olemus muudab selle kontrollimise keeruliseks. Bitcoin on olemas ja te ei saa selle vastu midagi ette võtta. Seda tuleb uurida, mitte arutada.
@@ -372,7 +371,7 @@ Selle jutu sisuks on see, et Trustless süsteemi ei saa ehitada usaldusväärse 
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Trustless baas Layer võimaldab erinevaid kompromisse kõrgematel tasanditel
@@ -536,7 +535,6 @@ Artiklis võetakse kokku Blockchain privaatsuse peamised probleemid, nimelt Addr
 ![](assets/en/005.webp)
 
 
-Blockchain tüüpilised privaatsuse lekked
 
 
 Chris Belcher [kirjutas väga üksikasjalikult](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) erinevatest eraelu puutumatuse leketest, mis võivad juhtuda Bitcoin Blockchain puhul. Soovitame lugeda vähemalt esimesed alapeatükid "Blockchain rünnakud privaatsusele"
@@ -632,7 +630,7 @@ Ta mainis seda näidet teiste hulgas ka Bitcoin wiki [Privacy page](https://en.B
 Pange tähele, kuidas paremat privaatsust on võimalik saavutada, kui ehitada süsteemid Bitcoin peale, nagu see on Lightning Network puhul:
 
 
-![image](assets/privacy.webp)
+
 
 
 Bitcoin peal olevad kihid võivad lisada privaatsust
@@ -652,7 +650,7 @@ Isikuandmete avalikustamise riski vähendamiseks ei tohi neid üldse välja anda
 Artiklis soovitatakse vältida KYC/AMLi nõudvate börside kasutamist ja selle asemel kaubelda privaatselt või kasutada detsentraliseeritud börse nagu [bisq](https://bisq.network/).
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Vastumeetmete kohta põhjalikumat teavet leiate eelnevalt mainitud [privaatsust käsitlevast wikiartiklist](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), alustades punktist "Meetodid privaatsuse parandamiseks (mitte-Blockchain)".
 
@@ -731,7 +729,7 @@ Mis juhtub, kui blokeeritud toetus läheneb nullile? Et asi oleks lihtne, oletam
 Täna on omanikud need, kes maksavad turvalisuse eest (raha inflatsiooni kaudu). Homme on kulutajate kord seda koormat kuidagi kanda, nagu allpool näidatud.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Aja möödudes nihkub julgestuskulude kandmine valdajatelt kulutajatele
@@ -1102,7 +1100,6 @@ Nagu tsitaadis ka mainitakse, ei ole Sybil-rünnak Bitcoin võrgus tõhus, sest 
 ![](assets/en/009.webp)
 
 
-Väljavõte lihtsast sabotaažikäsiraamatust
 
 
 Vastase mõtteviisi paremaks mõistmiseks võib olla kasulik saada aimu sellest, kuidas nad tegutsevad. USA valitsuse asutus nimega Office of Strategic Services, mis tegutses II maailmasõja ajal ja mille üks eesmärke oli spionaaž, sabotaaž ja propaganda levitamine, koostas oma töötajatele [käsiraamatu](https://www.gutenberg.org/ebooks/26184) selle kohta, kuidas vastast õigesti saboteerida. Selle pealkiri oli "Simple Sabotage Field Manual" ja see sisaldas konkreetseid näpunäiteid vaenlase infiltreerimiseks, et muuta nende elu Hard. Nipid ulatuvad laopõletamisest kuni harjutuste kulumise põhjustamiseni, et vähendada vaenlase
@@ -1662,7 +1659,6 @@ Mitmekihiline protokoll algab kahe või enama inimese kokkuleppimisega, mis pann
 
 ![](assets/en/017.webp)
 
-Tüüpiline Layer 2 protokoll Bitcoin, Layer 1 peal.
 
 
 See, kuidas see alustamistehing luuakse, on protokollides erinev, kuid ühine on see, et osalejad loovad allkirjastamata alustamistehingu ja mitu eelallkirjastatud karistustehingut, mis kulutavad alustamistehingu väljundit erinevalt. Seejärel allkirjastatakse alustamistehing täielikult ja avaldatakse Blockchain-le ning karistustehingud võivad olla täielikult allkirjastatud ja avaldatud, et karistada vääralt käituvat osapoolt. See motiveerib osalejaid oma lubadustest kinni pidama, nii et protokoll saaks töötada Trustless viisil.

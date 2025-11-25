@@ -1,0 +1,8 @@
+question: Mikä Bitcoin:n kehitysprosessin keskeinen piirre tekee siitä erityisen haavoittuvaisen sota-ajan sabotaasikäsikirjoissa kuvatuille soluttautumistaktiikoille?
+answer: Bitcoin:n kehittäminen on avointa kaikille ilman portinvartijoita
+wrong_answers:
+  - Bitcoin:n kehitys perustuu pieneen ryhmään luotettavia ydinylläpitäjiä
+  - Bitcoin-kehitys edellyttää hallituksen muodollista hyväksyntää merkittäville muutoksille
+  - Bitcoin:n kehityksessä käytetään suljetun lähdekoodin koodia, joka rajoittaa ulkopuolisten osallistumista
+explanation: |
+  Bitcoin:n avoin kehitysprosessi on yksi sen suurimmista vahvuuksista hajauttamisen ja avoimuuden kannalta, mutta se luo myös haavoittuvuutta vastapuolen soluttautumiselle. Koska kuka tahansa voi osallistua keskusteluihin, ehdottaa muutoksia ja osallistua tarkistusprosessiin ilman lupaa tai tunnistetietoja, asialleen omistautuneet hyökkääjät voivat hyödyntää tätä avoimuutta. He voivat jarruttaa edistymistä esittämällä loputtomasti huolenaiheita epäolennaisista asioista, tinkimällä täsmällisistä sanamuodoista, toistamalla jo käytyjä keskusteluja tai käyttämällä "sosiaalisia Sybil-hyökkäyksiä", joissa käytetään useita väärennettyjä henkilöllisyyksiä vastarinnan vääränlaisen vaikutelman luomiseksi. Avoimuus on jyrkässä ristiriidassa suljettujen kehitysmallien kanssa, joissa on portinvartijoita tai hyväksymisprosesseja, jotka voivat suodattaa huonot toimijat pois.

@@ -1,0 +1,9 @@
+question: Кои два типа wallet се разглеждат в профила Starter?
+answer: Настойнически и ненастойнически портфейли Lightning
+wrong_answers:
+  - Портфейли Hot и портфейли за студено съхранение Bitcoin
+  - Портфейли Multisig и хартиени портфейли Bitcoin
+  - Хардуер и мозък Светкавични портфейли
+explanation: |
+  Профилът Starter използва попечителски или непопечителски портфейли Lightning.
+reviewed: true

@@ -11,7 +11,7 @@ Il Lightning Network è un Layer del protocollo Bitcoin, sviluppato principalmen
 
 
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Proprio come nella catena principale, è diventato essenziale consentire agli utenti di conoscere le informazioni e lo stato della rete, al fine di facilitare le connessioni tra i nodi e ridurre al minimo il problema della liquidità che generalmente si verifica nella rete. Infatti, sul Lightning Network, si consigliano micropagamenti di importi relativamente più piccoli rispetto a quelli delle transazioni sulla catena principale Bitcoin.
 
@@ -34,7 +34,7 @@ Come [Spazio Mempool](https://Mempool.space), che fornisce informazioni utili su
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 In questo tutorial vi faremo fare un giro su questa piattaforma, che è una risorsa essenziale per gli utenti di Lightning Network, per chi vuole collegare il proprio nodo per espandere la rete, ecc.
 
@@ -57,7 +57,7 @@ Uno degli obiettivi della piattaforma Amboss è quello di consentire ai vari nod
 
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 Sulla home page, troverete anche i nodi classificati in base a :
 
@@ -147,7 +147,7 @@ Nella sezione **Canali**, viene visualizzato l'elenco dei canali aperti e le con
 
 - Rapporto in entrata**: L'importo che il nodo addebiterà per ogni milione di Satoshi che riceve, a seconda del canale scelto.
 - Il rapporto (parti per milione)** : rappresenta il numero di Satoshi per milione di unità che il nodo addebiterà all'utente quando decide di effettuare un pagamento tramite uno dei suoi canali. Supponiamo che decidiate di effettuare un pagamento di `10_000 Sats` attraverso un canale il cui rapporto ppm è `500 Sats`, dovrete pagare al nodo `10_000 * 500 / 1_000_000` satoshi, equivalenti a `5 Sats`.
-- Il [HTLC](https://planb.network/resources/glossary/htlc) massimo** : L'importo massimo che questo nodo consente di transitare attraverso uno di questi canali.
+- Il [HTLC](https://planb.academy/resources/glossary/htlc) massimo** : L'importo massimo che questo nodo consente di transitare attraverso uno di questi canali.
 
 
 
@@ -304,4 +304,4 @@ Ora avete fatto un giro completo delle caratteristiche e degli strumenti di anal
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

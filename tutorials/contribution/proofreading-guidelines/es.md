@@ -1,20 +1,20 @@
 ---
 name: Pautas de corrección
-description: ¿Cuáles son los factores importantes que hay que tener en cuenta al corregir en Plan ₿ Network?
+description: ¿Cuáles son los factores importantes que hay que tener en cuenta al corregir en Plan ₿ Academy?
 ---
 
 ![github](assets/cover.webp)
 
-Bienvenido a este tutorial sobre las **directrices a seguir al revisar contenidos en Plan ₿ Network**. Nos complace que compartas nuestra misión de traducir los materiales de Bitcoin al mayor número de idiomas posible, con el fin de ayudar a la gente a conocer mejor cómo funciona y cómo puede utilizarse en su vida cotidiana.
+Bienvenido a este tutorial sobre las **directrices a seguir al revisar contenidos en Plan ₿ Academy**. Nos complace que compartas nuestra misión de traducir los materiales de Bitcoin al mayor número de idiomas posible, con el fin de ayudar a la gente a conocer mejor cómo funciona y cómo puede utilizarse en su vida cotidiana.
 
-En primer lugar, contribuir al [repositorio público] de Plan ₿ Network (https://github.com/PlanB-Network/Bitcoin-educational-content) te da la oportunidad de escribir tutoriales, corregir el contenido existente o incluso proponer la adición de un nuevo idioma a la plataforma. Para saber más, únete primero a nuestro [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder) y escribe una breve presentación sobre ti y los idiomas que puedes hablar.
+En primer lugar, contribuir al [repositorio público] de Plan ₿ Academy (https://github.com/PlanB-Network/Bitcoin-educational-content) te da la oportunidad de escribir tutoriales, corregir el contenido existente o incluso proponer la adición de un nuevo idioma a la plataforma. Para saber más, únete primero a nuestro [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder) y escribe una breve presentación sobre ti y los idiomas que puedes hablar.
 
-El presente tutorial está dedicado a los colaboradores que desean corregir contenidos. La mayoría de ellos no saben mucho acerca de [Github](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) o el [lenguaje Markdown](https://www.markdownguide.org/basic-syntax/) que utilizamos dentro del repositorio, por lo que es importante compartir algunas ideas sobre los factores clave que intervienen en esta tarea.
+El presente tutorial está dedicado a los colaboradores que desean corregir contenidos. La mayoría de ellos no saben mucho acerca de [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) o el [lenguaje Markdown](https://www.markdownguide.org/basic-syntax/) que utilizamos dentro del repositorio, por lo que es importante compartir algunas ideas sobre los factores clave que intervienen en esta tarea.
 
 A continuación, hemos reunido los problemas más comunes con los que se encuentran los correctores. Siéntete libre de sugerir más, ya que puede ayudar a otros a mejorar.
-Antes de entrar en materia, lo primero que hay que hacer es leer este tutorial sobre las acciones prácticas que hay que seguir en Github, bifurcando el repositorio Plan ₿ Network, confirmando cambios y enviando PR:
+Antes de entrar en materia, lo primero que hay que hacer es leer este tutorial sobre las acciones prácticas que hay que seguir en Github, bifurcando el repositorio Plan ₿ Academy, confirmando cambios y enviando PR:
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 ## ¿Qué es la corrección de contenido?
 
@@ -23,11 +23,11 @@ Cuando realices este tipo de tareas, es importante que sigas el sentido de la le
 
 Recuerda siempre que la traducción/revisión es EDUCACIÓN
 De hecho, nuestro objetivo común es educar al mayor número posible de personas sobre Bitcoin, por lo que es fundamental que el material que lean sea fluido y claro.
-En este sentido, todos los colaboradores de Plan ₿ Network son educadores
+En este sentido, todos los colaboradores de Plan ₿ Academy son educadores
 
-## Los primeros pasos antes de corregir en Plan ₿ Network
+## Los primeros pasos antes de corregir en Plan ₿ Academy
 
-Antes de empezar una nueva tarea de corrección, anúnciala en el [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder) o informa a tu coordinador de Plan ₿ Network, quien abrirá un [issue] dedicada (https://github.com/orgs/PlanB-Network/projects/3). En el contexto de GitHub, un "issue" es una función que permite a los usuarios rastrear tareas, mejoras, errores o cualquier otra solicitud relacionada con un proyecto. Cuando recibas el enlace dei "issue", simplemente **comenta que vas a empezar** con la tarea de corrección de ese contenido.
+Antes de empezar una nueva tarea de corrección, anúnciala en el [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder) o informa a tu coordinador de Plan ₿ Academy, quien abrirá un [issue] dedicada (https://github.com/orgs/Plan ₿ Academy/projects/3). En el contexto de GitHub, un "issue" es una función que permite a los usuarios rastrear tareas, mejoras, errores o cualquier otra solicitud relacionada con un proyecto. Cuando recibas el enlace dei "issue", simplemente **comenta que vas a empezar** con la tarea de corrección de ese contenido.
 
 Este sistema ayuda al coordinador a seguir el progreso dentro del repositorio, y permite que el contenido sea "reclamado" por el corrector, lo que evita la duplicación de esfuerzos por parte de otra persona.
 En la propia edición, encontrarás los enlaces que te redirigen al contenido a revisar. Puedes simplemente hacer clic en ellos, o, incluso mejor, puedes volver a tu propio repositorio y trabajar directamente desde allí. ¡Veamos cómo puedes hacerlo!
@@ -36,7 +36,7 @@ En primer lugar, **recuerda SIEMPRE SINCRONIZAR tu repo, en la rama "dev"**. De 
 
 ![REVIEW](assets/en/1.webp)
 
-Después de sincronizar con éxito, puedes acceder directamente al contenido de interés y confirmar en una nueva rama, como se muestra en este [tutorial](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). De lo contrario, puedes abrir una nueva rama donde trabajar, haciendo clic en "Branches", como se muestra a continuación.
+Después de sincronizar con éxito, puedes acceder directamente al contenido de interés y confirmar en una nueva rama, como se muestra en este [tutorial](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). De lo contrario, puedes abrir una nueva rama donde trabajar, haciendo clic en "Branches", como se muestra a continuación.
 
 ![REVIEW](assets/en/2.webp)
 
@@ -64,21 +64,21 @@ En este segundo caso, **investiga siempre para ver si alguien de tu comunidad Bi
 
 - En cualquier caso, nuestro consejo sería **insertar la palabra EN a pesar de todo**, añadiendo el significado correspondiente en el idioma de destino dentro de paréntesis, siguiendo el esquema EN (LANG), o viceversa. Ej. Address (indirizzo), o indirizzo (Address).
 
-- Otra buena solución es mantener la palabra/frase original y **crear un hipervínculo** que redirija al [glosario](https://planb.network/en/resources/glossary) en planb.network. Para ello, deberás insertar la palabra/frase entre corchetes y el enlace entre paréntesis, como se muestra en el siguiente ejemplo:
+- Otra buena solución es mantener la palabra/frase original y **crear un hipervínculo** que redirija al [glosario](https://planb.academy/en/resources/glossary) en planb.network. Para ello, deberás insertar la palabra/frase entre corchetes y el enlace entre paréntesis, como se muestra en el siguiente ejemplo:
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 En el resultado final (imagen inferior) no se visualizará el enlace completo, y la palabra pasará a ser clicable.
 
 ![REVIEW](assets/en/5.webp)
 
-Ten en cuenta que el enlace al glosario que tomará del sitio web contiene el código de idioma después de la palabra "network" (ejemplo: ``https://planb.network/en/resources/glossary/utxo``-> aquí puedes leer el código de idioma "en"). En este caso, **elimina el código de idioma del enlace**, como has visto en el cuadro anterior. De este modo, el sistema llevará automáticamente al lector a su idioma designado.
+Ten en cuenta que el enlace al glosario que tomará del sitio web contiene el código de idioma después de la palabra "network" (ejemplo: ``https://planb.academy/en/resources/glossary/utxo``-> aquí puedes leer el código de idioma "en"). En este caso, **elimina el código de idioma del enlace**, como has visto en el cuadro anterior. De este modo, el sistema llevará automáticamente al lector a su idioma designado.
 
 El contenido del repositorio está lleno de hipervínculos como estos de arriba. Ahora que sabes lo que significan, **asegúrate de no borrar ningún enlace** insertado por el autor original.
 
-- Otra cosa relacionada con la traducción de palabras es la siguiente. Si encuentras "Plan ₿ Network" en el texto, **déjalo en esta forma original**. No traduzca la palabra "plan" ni la palabra "network". Además, NO utilices el artículo "The" al presentar Plan ₿ Network: **considéralo como una marca**.
+- Otra cosa relacionada con la traducción de palabras es la siguiente. Si encuentras "Plan ₿ Academy" en el texto, **déjalo en esta forma original**. No traduzca la palabra "plan" ni la palabra "network". Además, NO utilices el artículo "The" al presentar Plan ₿ Academy: **considéralo como una marca**.
 
 - Lo mismo ocurre con "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", que también deben conservarse en su forma original.
 
@@ -108,17 +108,45 @@ En esta misma sección inicial, mantén el formato tal cual. No añadas nada al 
 
 ![REVIEW](assets/en/8.webp)
 
+## Cómo manejar las imágenes de los cursos
+
+¡Nuestro sitio web ahora presenta imágenes traducidas para casi todos los cursos!
+
+Cuando revises, verifica siempre que todas las imágenes estén presentes y se muestren correctamente. En la `vista de código`, si encuentras una línea de este tipo `![IMAGE](assets/en/001.webp)`, significa que una imagen se mostrará allí.
+
+Asegúrate de agregar siempre una nueva línea entre el código de la imagen y el texto. Un ejemplo a continuación:
+
+```
+CONFIGURACIÓN INCORRECTA:
+- para comenzar a traducir, haz clic en el botón `Translate`: ![language](assets/08.webp)
+Para guardar, ¡haz clic en `save`!
+  
+CONFIGURACIÓN CORRECTA:
+
+- para comenzar a traducir, haz clic en el botón `Translate`: 
+
+![language](assets/08.webp)
+
+Para guardar, ¡haz clic en `save`!
+```
+
+Además, recuerda leer el contenido de cada imagen. Si notas algún problema con la traducción del texto dentro de las imágenes, ¡informa a tu coordinador y tendrás la oportunidad de revisarlas también!
+
+Puedes visualizar la imagen en la sección `Preview` de Github (o en nuestro sitio web, abierto en otra pestaña). Luego, regresa a la sección `code` junto a ella para la revisión.
+
+![REVIEW](assets/en/9.webp)
+
 ## Recomendaciones de formato
 
 A continuación encontrarás algunos ejemplos de cuestiones de formato a las que deberás prestar atención al corregir contenidos en tu idioma.
 
 - Presta atención a los signos de puntuación extraños como `\*\*`, o ``**`` que pueden representar una mala representación del símbolo de negrita. En la imagen de abajo, puedes ver que los asteriscos están sólo a la derecha de la palabra, lo que resulta extraño.
 
-![REVIEW](assets/en/9.webp)
+![REVIEW](assets/en/10.webp)
 
 Así pues, comprueba siempre el texto original en inglés para ver si debe haber un texto en negrita. En este caso, basta con añadir dos asteriscos al principio de la palabra, para que se muestre correctamente en el sitio web. De hecho, en el lenguaje markdown, **para que aparezca la negrita, hay que insertar dos asteriscos ``**`` tanto antes como después de la palabra/sentencia** (véase el ejemplo siguiente).
 
-![REVIEW](assets/en/10.webp)
+![REVIEW](assets/en/11.webp)
 
 - Lo mismo puede ocurrir con símbolos como $ y `` ` ``.
 
@@ -126,7 +154,33 @@ Asegúrate de comprobar el archivo del idioma original (a menudo EN o FR) para v
 
 - Si encuentras comillas, asegúrate de investigar en Internet para encontrar la traducción correcta en tu idioma. Las comillas suelen insertarse después del símbolo ``>``.
   
-![REVIEW](assets/en/11.webp)
+![REVIEW](assets/en/12.webp)
+
+## Tutorial de revisión
+
+Si decides revisar tutoriales, el coordinador abrirá una incidencia dedicada para **toda la sección del tutorial**. Cuando termines tu tarea, puedes documentar tu progreso comentando en la incidencia con una lista de los tutoriales revisados: de esta manera, creas un sistema de seguimiento claro para referencia futura, lo cual es importante porque se añade contenido nuevo cada mes. Puedes ver un ejemplo de este enfoque [aquí](https://github.com/PlanB-Network/bitcoin-educational-content/issues/3023#issuecomment-3364923190).
+
+![REVIEW](assets/en/13.webp)
+
+Dado que se añaden nuevos tutoriales mensualmente, tu rama puede quedar desactualizada durante el proceso de revisión. Algunos revisores han abordado este problema sincronizando la rama exacta en la que están trabajando: **¡por favor, NUNCA hagas esto! Si lo haces, corres el riesgo de perder todo el progreso que has realizado hasta ese momento!**
+
+En su lugar, debes terminar primero de revisar los tutoriales en tu fork actual. Luego, **sincroniza `dev`**, y crea una nueva rama donde te concentres en revisar los tutoriales recién añadidos (solo los que faltan en tu rama anterior).
+
+En los tutoriales, existe la posibilidad de que **las imágenes no estén traducidas**. Dado que la mayoría de los tutoriales están **escritos originalmente en francés o inglés**, probablemente encontrarás imágenes que contienen comandos o instrucciones en su idioma original. Tomemos un ejemplo del tutorial sobre Sparrow en neerlandés, mostrando tanto el texto como la imagen relacionada.
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Publieke server_".
+```
+
+![REVIEW](assets/en/14.webp)
+
+Como puedes ver, la imagen claramente señala `Public Server`, en inglés, mientras que el texto menciona la expresión `_Publieke server_`. En este caso, hay un problema de coherencia, porque el lector encuentra información contradictoria al confrontar la imagen con el texto.
+
+Para resolver este asunto, puedes insertar el comando tal como aparece en la imagen (inglés o francés), seguido de la traducción en tu idioma entre paréntesis, como se muestra a continuación:
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Public Server_" (Publieke server).
+```
 
 ## Corrección de cuestionarios
 
@@ -135,7 +189,33 @@ Asegúrate de comprobar el archivo del idioma original (a menudo EN o FR) para v
 Una vez más, asegúrate de que te encuentras en una rama que hayas abierto específicamente para este fin, e informa siempre al coordinador.
 Después de revisar la pregunta, asegúrate de cambiar el estado "reviewed" de "false" a "true", como se muestra en la imagen siguiente.
 
-![REVIEW](assets/en/12.webp)
+![REVIEW](assets/en/15.webp)
+
+## Tutorial de revisión
+
+Si decides revisar tutoriales, el coordinador abrirá una incidencia dedicada para **toda la sección del tutorial**. Cuando termines tu tarea, puedes documentar tu progreso comentando en la incidencia con una lista de los tutoriales revisados: de esta manera, creas un sistema de seguimiento claro para referencia futura, lo cual es importante porque se añade contenido nuevo cada mes. Puedes ver un ejemplo de este enfoque [aquí](https://github.com/PlanB-Network/bitcoin-educational-content/issues/3023#issuecomment-3364923190).
+
+![REVIEW](assets/en/16.webp)
+
+Dado que se añaden nuevos tutoriales mensualmente, tu rama puede quedar desactualizada durante el proceso de revisión. Algunos revisores han abordado este problema sincronizando la rama exacta en la que están trabajando: **¡por favor, NUNCA hagas esto! Si lo haces, corres el riesgo de perder todo el progreso que has realizado hasta ese momento!**
+
+En su lugar, debes terminar primero de revisar los tutoriales en tu fork actual. Luego, **sincroniza `dev`**, y crea una nueva rama donde te concentres en revisar los tutoriales recién añadidos (solo los que faltan en tu rama anterior).
+
+En los tutoriales, existe la posibilidad de que **las imágenes no estén traducidas**. Dado que la mayoría de los tutoriales están **escritos originalmente en francés o inglés**, probablemente encontrarás imágenes que contienen comandos o instrucciones en su idioma original. Tomemos un ejemplo del tutorial sobre Sparrow en neerlandés, mostrando tanto el texto como la imagen relacionada.
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Publieke server_".
+```
+
+![REVIEW](assets/en/17.webp)
+
+Como puedes ver, la imagen claramente señala `Public Server`, en inglés, mientras que el texto menciona la expresión `_Publieke server_`. En este caso, hay un problema de coherencia, porque el lector encuentra información contradictoria al confrontar la imagen con el texto.
+
+Para resolver este asunto, puedes insertar el comando tal como aparece en la imagen (inglés o francés), seguido de la traducción en tu idioma entre paréntesis, como se muestra a continuación:
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Public Server_" (Publieke server).
+```
 
 ## Corrección de glosarios
 
@@ -146,24 +226,27 @@ En casos como éste, adapta esta frase a su lengua de destino, o al inglés.
 
 - Si necesitas buscar palabras concretas dentro del texto, puedes pulsar ``CTRL+F`` y aparecerá la sección buscar-reemplazar. Esta parte es muy útil cuando necesitas saltar a una parte específica del texto, o necesitas reemplazar palabras/oraciones específicas en lote, sin desplazarte por todo el contenido.
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/18.webp)
 
 Al utilizar la función "reemplazar todo" (replace all), es importante comprobar dos veces los resultados para asegurarse de que no se han alterado también los enlaces. Por ejemplo, si deseas cambiar la palabra "Bitcoin" por "Bitkoin" (lo que puede ser necesario en algunos idiomas), la función "reemplazar todo" puede actualizar eficazmente todas las instancias del texto. Sin embargo, ten en cuenta que esta herramienta también modificará todos los enlaces que contengan esa palabra, lo que puede provocar problemas de redireccionamiento.
 
 En el ejemplo siguiente, el corrector utilizó la función anterior para sustituir "Satoshi" por "Satoshi(Sats)", y también cambió el enlace a un tutorial que contenía la propia palabra. Como consecuencia, el enlace dejó de ser válido.
 Comprueba siempre todos los hipervínculos del texto para asegurarte de que son correctos.
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/19.webp)
 
-- Siguiendo con el tema, si el autor inserta un enlace que haga referencia a un curso o tutorial de Plan ₿ Network (**no** entre paréntesis), el sitio web creará automáticamente una "tarjeta" mostrando la miniatura relacionada. En consecuencia, asegúrate siempre de que **hay un espacio entre el texto y el propio enlace**, de lo contrario podría aparecer el siguiente error en el sitio web.
+- Siguiendo con el tema, si el autor inserta un enlace que haga referencia a un curso o tutorial de Plan ₿ Academy (**no** entre paréntesis), el sitio web creará automáticamente una "tarjeta" mostrando la miniatura relacionada. En consecuencia, asegúrate siempre de que **hay un espacio entre el texto y el propio enlace**, de lo contrario podría aparecer el siguiente error en el sitio web.
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/20.webp)
 
 - Por último, otra buena práctica que puedes aplicar cuando termines tu tarea de corrección y envíes el PR es volver a la incidencia original abierta por el coordinador y comentar con "Corrección realizada". **Asegúrate de insertar también allí el enlace a tu PR**.
 
 ## Conclusión
 
-En resumen, conocer los errores más comunes de los correctores puede ayudarte a mejorar tus habilidades a la hora de revisar contenidos. Es fácil pasar por alto aspectos como el contexto o la coherencia, y detectar estos errores puede marcar una gran diferencia.
-Ten siempre en cuenta que un principiante puede leer estos cursos y tutoriales, por lo que es nuestra responsabilidad asegurarnos de que los entiende perfectamente. Como corrector, ¡Eres un educador!
+En resumen, ser consciente de los errores comunes de los revisores puede realmente ayudarte a mejorar tus habilidades al verificar contenido. Es fácil pasar por alto cosas como el contexto o la coherencia, y detectar estos errores puede marcar una gran diferencia.
 
-Gracias por leer este tutorial y ¡buen viaje!
+Ten siempre presente que un principiante puede leer estos cursos y tutoriales, por lo que es nuestra responsabilidad asegurarnos de que comprendan completamente. **¡Como revisor, eres un educador!**
+
+Ahora estás listo para comenzar a revisar cursos, tutoriales, cuestionarios y palabras del glosario. ¡Mantente atento para comenzar a verificar también las transcripciones de video!
+
+¡Gracias por leer este tutorial y disfruta tu viaje de revisión!

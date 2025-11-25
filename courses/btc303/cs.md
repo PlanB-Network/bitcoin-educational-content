@@ -75,7 +75,7 @@ Orientace ve složitém prostředí řízení Bitcoin vyžaduje více než jen t
 Jste připraveni udělat další krok na cestě ke Bitcoin? Začněme!
 
 
-***N.B.**: Pokud se v průběhu kurzu setkáte s neznámými pojmy týkajícími se Bitcoin, podívejte se prosím do [slovníčku pojmů](https://planb.network/resources/glossary), kde najdete jejich definice.*
+***N.B.**: Pokud se v průběhu kurzu setkáte s neznámými pojmy týkajícími se Bitcoin, podívejte se prosím do [slovníčku pojmů](https://planb.academy/resources/glossary), kde najdete jejich definice.*
 
 
 
@@ -154,7 +154,7 @@ Pokud se jim to podaří, stejné problémy se pravděpodobně někdy v budoucnu
 Žádná z těchto možností není pro uživatele výhodná.
 
 
-Odolnost vůči cenzuře prostřednictvím decentralizace je to, co odlišuje Bitcoin od ostatních peněžních systémů, ale není to snadné kvůli problému *Double-spending*. Jedná se o problém, jak zajistit, aby nikdo nemohl utratit stejnou minci dvakrát, což je problém, o kterém si mnoho lidí myslelo, že jej nelze vyřešit decentralizovaným způsobem. Satoshi Nakamoto ve svém [Bitcoin whitepaper](https://planb.network/bitcoin.pdf) píše o tom, jak problém Double-spending vyřešit:
+Odolnost vůči cenzuře prostřednictvím decentralizace je to, co odlišuje Bitcoin od ostatních peněžních systémů, ale není to snadné kvůli problému *Double-spending*. Jedná se o problém, jak zajistit, aby nikdo nemohl utratit stejnou minci dvakrát, což je problém, o kterém si mnoho lidí myslelo, že jej nelze vyřešit decentralizovaným způsobem. Satoshi Nakamoto ve svém [Bitcoin whitepaper](https://planb.academy/bitcoin.pdf) píše o tom, jak problém Double-spending vyřešit:
 
 
 > V tomto článku navrhujeme řešení problému Double-spending pomocí peer-to-peer distribuovaného serveru Timestamp pro výpočetní důkaz chronologického pořadí transakcí generate.
@@ -278,7 +278,6 @@ Poukazuje na to, že mnoho systémů, ať už přírodních, nebo umělých, mů
 
 ![](assets/en/002.webp)
 
-*Rybí hejna nemají vůdce*
 
 
 Ať už si o Bitcoin myslíte cokoli, jeho decentralizovaná povaha ztěžuje jeho kontrolu. Bitcoin existuje a vy s tím nemůžete nic dělat. Je to něco, co je třeba studovat, ne o tom diskutovat.
@@ -372,7 +371,7 @@ Podstatou této přednášky je, že nad důvěryhodným systémem nelze vybudov
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Základna Trustless Layer umožňuje různé kompromisy na vyšších úrovních
@@ -536,7 +535,6 @@ Satoshi Nakamoto se zamýšlí nad soukromím On-Chain v části 7 své [Bitcoin
 ![](assets/en/005.webp)
 
 
-Typické úniky soukromí u modelu Blockchain
 
 
 Chris Belcher [napsal velmi podrobně](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) o různých druzích úniků soukromí, ke kterým může dojít na Bitcoin Blockchain. Doporučujeme vám přečíst si alespoň několik prvních podkapitol v části "Útoky na soukromí Blockchain"
@@ -632,7 +630,7 @@ Tento příklad uvedl mimo jiné také na stránce [Privacy page](https://en.Bit
 Všimněte si, že lepšího soukromí lze dosáhnout vybudováním systémů nad systémem Bitcoin, jako je tomu v případě systému Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Vrstvy nad Bitcoin mohou zvýšit soukromí
@@ -652,7 +650,7 @@ Riziko odhalení osobních údajů lze zmírnit tak, že je v první řadě nepo
 V článku se doporučuje vyhnout se burzám, které vyžadují KYC/AML, a místo toho obchodovat privátně nebo používat decentralizované burzy, jako je [bisq](https://bisq.network/).
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Podrobnější informace o protiopatřeních naleznete v již zmíněném článku [wiki o soukromí](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), který začíná v části "Metody pro zlepšení soukromí (mimo Blockchain)".
 
@@ -731,7 +729,7 @@ Co se stane, když se bloková dotace blíží nule? Pro zjednodušení předpok
 Dnes jsou to držitelé, kdo platí za bezpečnost (prostřednictvím měnové inflace). Zítra budou na řadě ti, kdo utrácejí, aby toto břemeno nějakým způsobem převzali, jak je znázorněno níže.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Postupem času se náklady na zabezpečení přesunou z držitelů na plátce
@@ -1102,7 +1100,6 @@ Výše uvedené jsou příklady skutečných hrozeb, o které je třeba se posta
 ![](assets/en/009.webp)
 
 
-Výňatek z polní příručky Jednoduchá sabotáž
 
 
 Pro lepší pochopení myšlení protivníka by mohlo být užitečné nahlédnout do jeho fungování. Americký vládní orgán s názvem Office of Strategic Services, který působil během druhé světové války a mezi jeho cíle patřilo provádění špionáže, sabotáží a šíření propagandy, vypracoval pro své zaměstnance [manuál](https://www.gutenberg.org/ebooks/26184), jak správně sabotovat nepřítele. Její název zněl "Jednoduchá polní příručka sabotáže" a obsahovala konkrétní tipy, jak se infiltrovat k nepříteli, aby mu ztrpčili život Hard. Tipy sahaly od vypalování skladů až po způsobení opotřebení vrtáků s cílem snížit nepřátelské
@@ -1662,7 +1659,6 @@ Vrstevnatý protokol začíná dohodou dvou nebo více osob na počáteční tra
 
 ![](assets/en/017.webp)
 
-Typický protokol Layer 2 nad protokolem Bitcoin, Layer 1.
 
 
 Způsob vytvoření této počáteční transakce se u jednotlivých protokolů liší, ale společným tématem je, že účastníci vytvoří nepodepsanou počáteční transakci a řadu předem podepsaných trestných transakcí, které různým způsobem využívají výstup počáteční transakce. Následně je startovací transakce plně podepsána a zveřejněna na Blockchain a transakce trestu mohou být plně podepsány a zveřejněny za účelem potrestání nesprávně se chovající strany. Tím jsou účastníci motivováni k dodržování svých slibů, takže protokol může fungovat způsobem Trustless.

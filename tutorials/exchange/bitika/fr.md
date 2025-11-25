@@ -58,15 +58,15 @@ En outre, la **vérification OTP** a été ajoutée il y a quelques mois pour s�
 **Bitika** vous recommande les portefeuilles Lightning tels que :
 - Wallet of Satoshi ;
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 - Blink ;
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 - Machankura.
 
-https://planb.network/tutorials/wallet/mobile/machankura-wallet-b41dd76d-a427-4cc1-992e-235dbb5884ae
+https://planb.academy/tutorials/wallet/mobile/machankura-wallet-b41dd76d-a427-4cc1-992e-235dbb5884ae
 
 Ces portefeuilles ne sont que des recommandations. Vous pourrez utiliser n'importe quel portefeuille qui supporte le Lightning Network, pourvu qu'il puisse générer une adresse.
 
@@ -78,4 +78,4 @@ Vous maîtrisez désormais la plateforme Bitika pour acheter vos bitcoins instan
 
 Découvrez également notre tutoriel sur Tando, une autre solution kényane qui vous permet de payer des biens et services, d'envoyer de l'argent ou de payer ses factures avec Bitcoin.
 
-https://planb.network/tutorials/exchange/centralized/tando-14a3d2f3-09d2-41c9-9e00-2f616dabea5c
+https://planb.academy/tutorials/exchange/centralized/tando-14a3d2f3-09d2-41c9-9e00-2f616dabea5c

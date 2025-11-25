@@ -349,9 +349,9 @@ Při používání Bitcoinu si tedy musíme umět poradit i s analýzou blockcha
 
 Jak lépe čelit analýze blockchainu, než se seznámit s metodami, které se při ní používají? Pokud chcete vědět, jak zlepšit své soukromí na Bitcoinu, musíte těmto metodám porozumět. Díky tomu lépe pochopíte techniky, jako je coinjoin nebo payjoin (techniky, na které se podíváme v závěrečných částech kurzu), a omezíte chyby, kterých se můžete dopustit.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 V tomto ohledu můžeme najít analogii s kryptografií a kryptoanalýzou. Dobrý kryptograf je především dobrý kryptoanalytik. Chcete-li vymyslet nový šifrovací algoritmus, musíte vědět, jakým útokům bude čelit, a také studovat, proč byly předchozí algoritmy prolomeny. Stejný princip platí i pro soukromí Bitcoinu. Pochopení metod analýzy blockchainu je klíčem k ochraně před nimi. Proto jsem do tohoto školení zařadil celou část o analýze řetězců.
 
@@ -1293,7 +1293,7 @@ Všechny tyto metody automatického výběru UTXO mohou být účinné při sni�
 
 Pokud se chcete dozvědět, jak označit UTXO, připravili jsme pro vás obsáhlý návod pro hlavní software bitcoinových peněženek:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYC a identifikace klíčů
 
@@ -1455,19 +1455,19 @@ Co se týče řešení, osobně jsem vždy používal [Bisq](https://bisq.networ
 
 -> Viz náš výukový program Bisq.
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Jednodušší variantou je mobilní aplikace [Peach](https://peachbitcoin.com/), která spojuje kupující a prodávající a má zabudovaný systém řešení konfliktů. Proces je intuitivnější než u společnosti Bisq.
 
 -> Podívejte se na náš výukový program Peach.
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
 Další online možností je [HodlHodl](https://hodlhodl.com/), zavedená platforma, která nabízí dobrou likviditu, ačkoli jsem ji osobně netestoval.
 
 -> Viz náš výukový program HodlHodl.
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Pro řešení založená na síti Lightning Network vyzkoušejte [RoboSats](https://learn.robosats.com/) a [LNP2PBot](https://lnp2pbot.com/). RoboSats je přístupný prostřednictvím webové stránky a jeho použití je poměrně jednoduché. LNP2PBot je atypičtější, protože funguje prostřednictvím výměnného systému v aplikaci pro zasílání zpráv Telegram.
 
@@ -1475,9 +1475,9 @@ Pro řešení založená na síti Lightning Network vyzkoušejte [RoboSats](http
 
 -> Viz náš výukový program LNP2PBot.
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
 ![BTC204](assets/cs/096.webp)
 
@@ -1487,7 +1487,7 @@ V závislosti na zemi, ve které žijete, můžete mít přístup k regulovaným
 
 -> Podívejte se na náš výukový program Relai.
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 Jak jsme viděli v předchozí kapitole, tento typ platformy vás ušetří rizik spojených s postupy KYC, ale představuje vyšší úroveň rizika pro identifikaci klíčů. Z hlediska důvěrnosti bitcoinů tedy tyto platformy nabízejí lepší ochranu než metody nákupu s KYC, ale zůstávají méně atraktivní než P2P burzy.
 
@@ -1511,7 +1511,7 @@ Nejlepší způsob, jak utratit BTC, je samozřejmě použít Bitcoin nebo Light
 
 Několik platforem, které nevyžadují postupy KYC, nabízí možnost výměny bitcoinů za dárkové karty, které lze použít u velkých maloobchodníků. Patří mezi ně [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) a [Bitrefill](https://www.bitrefill.com/). Tyto platformy výrazně usnadňují každodenní používání bitcoinů a umožňují vám přístup k široké škále produktů a služeb, aniž byste je museli převádět na fiat měnu.
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ![BTC204](assets/cs/098.webp)
 
@@ -1891,7 +1891,6 @@ V současné době je Whirlpool jedinou implementací coinjoinu, která důsledn
 :::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
 
 
-*V roce 2024 jsme svědky velkých změn v nástrojích, které mají uživatelé, kteří chtějí provádět coinjoiny na Bitcoinu, k dispozici. V současné době se nacházíme v bodě zlomu a trh s coinjoiny prochází zásadní restrukturalizací. Tato kapitola bude jistě časem aktualizována.*
 
 V současné době existují v Bitcoinu především 3 různé implementace coinjoinu:
 
@@ -1899,6 +1898,10 @@ V současné době existují v Bitcoinu především 3 různé implementace coin
 - Whirlpool;
 - Wabisabi;
 - JoinMarket.
+
+Kromě těchto tří historických implementací se nedávno objevila nová: Joinstr. Nebudu se jí zabývat v této kapitole, ale všechny související informace naleznete v tomto specializovaném tutoriálu:
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
 
 Každá z těchto implementací má za cíl prolomit historii UTXO prostřednictvím transakcí coinjoin. Jejich mechanismy se však značně liší. Je proto nezbytné pochopit, jak každá z nich funguje, abyste si mohli vybrat možnost, která nejlépe vyhovuje vašim potřebám.
 
@@ -1921,6 +1924,8 @@ Hlavní překážkou však zůstává technická bariéra. V ekosystému coinjoi
 I přes svůj inovativní model propojení P2P pro coinjoinery má JoinMarket některé významné nevýhody, zejména pokud jde o transakční strukturu. Na rozdíl od jiných implementací, jako je Whirlpool, JoinMarket nezaručuje dokonalou rovnost mezi výstupy a je možné vysledovat deterministické vazby mezi vstupy a výstupy. Navíc nemá žádné nástroje, které by zabránily opětovnému smíchání již smíchaných částí, což by mohlo ohrozit důvěrnost, o kterou uživatelé usilují.
 
 A konečně, i když je koncept JoinMarket zajímavý, zejména pro zájemce o dynamický trh s likviditou, jeho strukturální nedostatky a technická složitost jej podle mého názoru činí méně zajímavým jak pro nováčky, tak pro odborníky, kteří hledají implementaci coinjoinu.
+
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
 
 ### Wabisabi
 
@@ -1966,6 +1971,10 @@ Kromě technických problémů vyvolává rozhodnutí společnosti zkSNACKs, kte
 Ještě více znepokojující je princip filtrování, který je v radikálním rozporu s filozofií Bitcoinu, který nabízí otevřený finanční systém bez cenzury. Ačkoli se může zdát oprávněné chtít vyloučit trestnou činnost, toto filtrování by mohlo postihnout i jednotlivce, jejichž jednání, ačkoli je v určitých souvislostech klasifikováno jako nezákonné, by mohlo být morálně ospravedlnitelné nebo společensky prospěšné. Tuto dichotomii dokonale ilustruje příklad Edwarda Snowdena: některé vlády ho za jeho odhalení považují za zločince, jiné ho vnímají jako whistleblowera, který jednal ve veřejném zájmu. Tato složitost podtrhuje potenciální nebezpečí filtrování, které, ačkoli má dobré úmysly, může v konečném důsledku ohrozit práva a bezpečnost oprávněných uživatelů. Mohl jsem také zmínit aktivisty a novináře, kteří jsou v některých autoritářských režimech pronásledováni.
 
 Jak jste již jistě pochopili, u Bitcoinu dávám jednoznačně přednost modelu Whirlpool pro spojování mincí. Tento systém vyniká svou přísností a nabízí vynikající záruky důvěrnosti. Jako jediný také nabízí mix, který je v matematickém kontextu považován za dokonalý. Podle mého názoru představuje tento model budoucnost coinjoins na Bitcoinu. Vyzývám vás, abyste se tímto modelem podrobněji zabývali v následující kapitole.
+
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
 
 ## Jak funguje společnost Whirlpool
 
@@ -2168,7 +2177,7 @@ Rovněž se nedoporučuje převádět postmixové UTXO do peněženky pomocí sk
 
 Stejně jako u každé transakce s bitcoiny je také důležité, abyste znovu nepoužívali adresu příjemce. Každá nová transakce musí být přijata na nové, prázdné adrese.
 
-Nejjednodušším a nejbezpečnějším řešením je nechat smíšené UTXO v klidu na jejich **postmixovém** účtu, nechat je remixovat a sáhnout na ně pouze za účelem utrácení. Peněženky Samurai a Sparrow jsou vybaveny dalšími ochranami proti všem těmto rizikům analýzy řetězce. Tyto ochrany vám pomohou vyhnout se chybám.
+Nejjednodušším a nejbezpečnějším řešením je ponechat své smíchané UTXO v klidu na účtu **postmix**, nechat je dále promíchávat a dotýkat se jich pouze při utrácení. Peněženky Samourai (a nyní Ashigaru) a Sparrow poskytují další ochranu proti všem rizikům souvisejícím s analýzou řetězce. Tato ochranná opatření vám umožňují vyhnout se chybám.
 
 ### Jak zvládáte toxické výměny?
 
@@ -2181,24 +2190,27 @@ Zde je několik strategií, jak je používat:
 - Označte je jako **"neutratitelné":** Dalším přístupem je přestat je používat, označit je na vyhrazeném účtu jako "neutratitelné" a prostě je hodit. Tím zajistíte, že je omylem neutratíte. Pokud hodnota bitcoinu vzroste, mohou se objevit nové pooly vhodnější pro vaše toxické UTXO;
 - **Poskytování darů:** Zvažte poskytnutí darů, byť skromných, vývojářům pracujícím na Bitcoinu a souvisejícím softwaru. Můžete také přispět sdružením, která přijímají BTC. Pokud se vám zdá správa vašich toxických UTXO příliš složitá, můžete se jich jednoduše zbavit a přispět;
 - **Nákup dárkových karet:** Platformy jako [Bitrefill](https://www.bitrefill.com/) umožňují směnit bitcoiny za dárkové karty, které lze použít u různých obchodníků. To může být způsob, jak se rozloučit s toxickými UTXO, aniž byste přišli o související hodnotu;
-- **Konsolidace na Monero:** Peněženka Samourai nabízí službu atomické výměny mezi BTC a XMR. To je ideální pro správu toxických UTXO jejich konsolidací na Monero, aniž by byla ohrožena důvěrnost prostřednictvím CIOH, před jejich odesláním zpět na Bitcoin. Tato možnost však může být nákladná z hlediska poplatků za těžbu a prémií kvůli omezení likvidity;
+- **Konsolidace přes Monero:** Samourai Wallet kdysi nabízel službu atomického swapu mezi BTC a XMR, která je bohužel po jejich zatčení nedostupná. Tento postup umožňoval zpracovat toxické UTXO jejich konsolidací na Moneru, aniž by byla ohrožena vaše anonymita prostřednictvím CIOH, a poté je znovu poslat na Bitcoin. Pokud se objeví obdobná služba, může představovat zajímavou možnost. Mějte však na paměti, že tato metoda může být nákladná jak kvůli poplatkům za těžbu, tak kvůli přirážce související s omezenou likviditou při zpětné konverzi na bitcoiny.
 - **Poslat je do Lightning Network:** Převedení těchto UTXO do Lightning Network a využití snížených transakčních poplatků může být atraktivní možností. Tato metoda však může odhalit určité informace v závislosti na způsobu používání Lightning, a proto by měla být používána s opatrností.
 
 ### Jak mohu používat produkt Whirlpool?
 
-Po zatčení zakladatelů peněženky Samourai a zabavení jejich serverů 24. dubna 2024 již nástroj Whirlpool nefunguje, a to ani pro ty, kteří mají vlastní Dojo. Dříve byl k dispozici v peněženkách Samourai Wallet a Sparrow Wallet.
+Po zatčení zakladatelů Samourai Wallet a zabavení jejich serverů dne 24. dubna 2024 již není nástroj Whirlpool dostupný na Samourai Wallet a Sparrow Wallet.
 
 ![BTC204](assets/cs/155.webp)
 
-Je však možné, že tento nástroj bude v nadcházejících týdnech v závislosti na výsledcích zkoušek znovu aktivován nebo bude spuštěn jiným způsobem. V každém případě si nemyslím, že trh s bitcoinovými mincemi bude dlouho bez nabídky, protože poptávka po nich existuje. A co víc, jelikož model společnosti Whirlpool je z hlediska důvěrnosti nejpokročilejší, bude v budoucnu jistě modelem volby pro další implementace.
 
-Tento případ a vývoj souvisejících nástrojů bedlivě sledujeme. Můžete si být jisti, že tento vzdělávací kurz budeme aktualizovat, jakmile budou k dispozici nové informace.
+
+Nyní je Whirlpool opět přístupný v mobilní aplikaci Ashigaru, forku Samourai Wallet, díky softwaru Ashigaru Terminal.
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
+Jádro fungování Whirlpool zůstává nezměněné, avšak oproti jeho použití na Samourai existuje několik rozdílů: v roce 2025 jsou na Ashigaru k dispozici pouze dva pooly v hodnotách `0.25 BTC` a `0.025 BTC`, s odpovídajícími vstupními poplatky `0.0125 BTC` a `0.00125 BTC`.
 
 V příští kapitole se dozvíme, co jsou to "anonsety", jak se tyto ukazatele počítají a jak nám mohou pomoci odhadnout efektivitu cyklů coinjoin.
 
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 
@@ -2536,7 +2548,7 @@ Bohužel po zatčení zakladatelů společnosti Samourai již tyto nástroje nej
 
 Nyní, když jsme se podrobně věnovali coinjoins, se v závěrečné části našeho kurzu podíváme na další techniky ochrany soukromí dostupné v Bitcoinu. Budeme se zabývat payjoiny, specifickými typy pseudo-coinjoin transakcí, protokoly statických adres a také opatřeními k posílení důvěrnosti nikoli na úrovni samotných transakcí, ale na úrovni sítě uzlů.
 
-https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # Pochopení výzev dalších pokročilých technik utajení
 
@@ -2622,7 +2634,10 @@ Mezi známé programy, které podporují payjoin, patří Sparrow Wallet, Wasabi
 
 ![BTC204](assets/cs/177.webp)
 
-Nejpokročilejší implementací payjoin byl pouze Stowaway na Samourai Wallet. Od zatčení zakladatelů softwaru je však tento nástroj nyní funkční jen částečně. Výhodou Stowaway je, že se jedná o komplexní, snadno použitelný protokol, který podporuje příjem i odesílání payjoinů. Částečně podepsané transakce lze vyměňovat ručně naskenováním několika QR kódů nebo automaticky pomocí Toru přes Soroban. Druhá možnost komunikace je v současné době mimo provoz.
+
+Nejpokročilejší implementací payjoin jsou nepochybně Stowaway, které vynalezli vývojáři Samourai Wallet. Od zatčení zakladatelů softwaru tento nástroj na Samourai funguje už jen částečně. Byl však znovu spuštěn v aplikaci Ashigaru.
+
+Výhodou Stowaway je, že jde o kompletní a velmi snadno použitelný protokol, který podporuje jak příjem, tak odesílání payjoinů. Částečně podepsané transakce lze vyměňovat ručně skenováním několika QR kódů nebo automaticky přes Tor pomocí Sorobanu.
 
 ![BTC204](assets/cs/178.webp)
 
@@ -2632,7 +2647,7 @@ Jedním z řešení by bylo použití transakčních struktur, které do analýz
 
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Platba mini-coinjoin
 
@@ -2745,19 +2760,20 @@ Pokud chcete použít nástroj pro utajení výdajů, měla by být logika násl
 
 ### Jak mohu používat transakce Stonewall a Stonewall x2?
 
-Transakce Stonewall a Stonewall x2 jsou dostupné v aplikaci Samourai Wallet i v softwaru Sparrow Wallet.
+Transakce Stonewall jsou dostupné v peněžence Sparrow Wallet i v Ashigaru, zatímco Stonewall x2 jsou prozatím podporovány pouze v Ashigaru.
 
 ![BTC204](assets/cs/189.webp)
 
-Stejně jako v případě payjoins však po zatčení zakladatelů společnosti Samourai fungují transakce Stonewall x2 nyní pouze na základě ruční výměny PSBT mezi zúčastněnými stranami. Automatická výměna prostřednictvím Sorobanu již bohužel není k dispozici.
 
 Tento typ transakce je možné provést také ručně z libovolného softwaru bitcoinové peněženky.
 
 V příští kapitole se podíváme na další techniku utajení, která je poměrně neznámá, ale je velmi užitečná jako doplněk k tomu, co jsme již studovali.
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/sparrow-stonewall-6fcfd679-7038-4ee2-8bf7-de76a72f9392
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Rikošky
 
@@ -2812,14 +2828,14 @@ Nejběžnější případ použití ricochetu nastává, když je třeba zakrýt
 
 Tato metoda je účinná nejen pro koincidenční spoje, ale také pro jakoukoli jinou značku, která by mohla ohrozit zaměnitelnost dílu.
 
-S nápadem na tuto metodu ricochet původně přišly týmy společnosti Samourai Wallet, které ji integrovaly do své aplikace, aby proces automatizovaly. Služba není na Samourai zdarma, protože ricochet zahrnuje poplatek za službu ve výši 100 000 sátů plus náklady na těžbu. Její použití se proto doporučuje pro převody významných částek.
+Myšlenka této metody ricochet pochází původně od týmů Samourai Wallet, které ji začlenily do své aplikace, aby automatizovaly její fungování. Služba byla na Samourai placená, neboť ricochet znamenal fixní poplatek 100 000 sats za servisní náklady, ke kterým se přidávaly těžební poplatky. Totéž platí i dnes na Ashigaru. Proto se její použití doporučuje spíše pro převody vysokých částek.
 
 ![BTC204](assets/cs/196.webp)
 
-Aplikace Samurai nabízí dvě varianty ricochetů:
+Aplikace Ashigaru nabízí dvě varianty ricochetu (stejné, jaké jsme měli dříve na Samourai):
 
 
-- Posílený ricochet neboli "rozložené doručení", které nabízí výhodu rozložení servisního poplatku Samurai na pět po sobě jdoucích transakcí. Tato možnost také zajišťuje, že každá transakce je vysílána v samostatném čase a zaznamenána v jiném bloku, což co nejvěrněji napodobuje chování při změně vlastníka. Ačkoli je tato metoda pomalejší, je vhodnější pro ty, kteří nespěchají, protože maximalizuje účinnost ricochetu tím, že posiluje jeho odolnost vůči řetězové analýze;
+- Posílený ricochet, neboli „stupňované doručení“, nabízí výhodu rozložení poplatků za službu Ashigaru do pěti po sobě jdoucích transakcí. Tato volba rovněž zajišťuje, že každá transakce bude vysílána v jiný okamžik a zahrnuta do jiného bloku, což umožňuje co nejvěrněji napodobit chování změny vlastníka. Ačkoli je pomalejší, tato metoda je vhodnější pro ty, kteří nespěchají, protože maximalizuje účinnost ricochetu posílením jeho odolnosti vůči analýze řetězce;
 
 ![BTC204](assets/cs/197.webp)
 
@@ -2832,7 +2848,7 @@ Ricocheting jednoduše znamená, že si bitcoiny posíláte sami. Je naprosto mo
 
 V další kapitole se podíváme na různé techniky tajných převodů vlastnictví. Tyto metody se zásadně liší od těch, které jsme zkoumali doposud, a to jak z hlediska fungování, tak z hlediska výsledků.
 
-https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Tajné převody vlastnictví
 
@@ -3072,7 +3088,7 @@ Cílem BIP47 je umožnit přijímání velkého počtu plateb bez opakovaného p
 
 Uživatel tak může zcela volně sdílet svůj platební kód, ať už na sociálních sítích nebo na svých webových stránkách, aniž by riskoval ztrátu důvěrnosti, na rozdíl od běžné adresy příjemce nebo veřejného klíče.
 
-K provedení transakce potřebují obě strany peněženku Bitcoin s implementací BIP47, například PayNym na Samurai Wallet nebo Sparrow Wallet. Společné použití jejich platebních kódů mezi nimi vytvoří tajný kanál. Aby se tento kanál účinně vytvořil, musí vydavatel provést v bitcoinovém blockchainu určitou transakci, známou jako "notifikační transakce" (více o ní později).
+Aby byla provedena transakce, musí mít obě strany peněženku Bitcoin s implementací BIP47, například PayNym na Ashigaru nebo Sparrow Wallet. Společné použití jejich platebních kódů vytváří mezi nimi tajný kanál. Aby byl tento kanál účinně vytvořen, musí odesílatel provést specifickou transakci na bitcoinovém blockchainu, známou jako „oznamovací transakce“ (podrobnosti vám poskytnu později).
 
 Kombinací platebních kódů dvou uživatelů vznikne sdílené tajemství, které následně vytvoří velký počet jedinečných adres pro příjem bitcoinů (přesně 2^32, tedy asi 4 miliardy). Tímto způsobem nejsou platby provedené prostřednictvím BIP47 ve skutečnosti adresovány na samotný platební kód, ale spíše na klasické přijímací adresy odvozené z platebních kódů zúčastněných uživatelů.
 
@@ -3094,7 +3110,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 Tento kód může být také zakódován jako kód QR, aby se s ním dalo snadněji komunikovat, stejně jako s běžnou adresou pro příjem.
 
-Pokud jde o PayNym Bots, roboty, které lze někdy vidět na Twitteru, jedná se o vizuální reprezentaci platebního kódu vytvořenou společností Samourai Wallet. Jsou generovány pomocí hashovací funkce, což jim dává téměř jedinečnost. Mají podobu malého řetězce znaků začínajícího na `+` :
+Pokud jde o PayNym Boty, tedy roboty, které lze občas spatřit na X (Twitteru), jedná se o vizuální zobrazení platebního kódu vytvořená peněženkou Samourai. Nyní, s Ashigaru, jsou mírně odlišné, avšak princip zůstává stejný. Jsou generovány pomocí hashovací funkce, což jim dodává téměř jedinečný charakter. Vystupují jako malý řetězec znaků začínající znakem `+` :
 
 ```plaintext
 +throbbingpond8B1
@@ -3111,7 +3127,7 @@ Ačkoli tito roboti nemají v rámci BIP47 žádnou specifickou technickou funkc
 ---
 *V následujících částech této kapitoly věnovaných protokolu BIP47 se podrobně seznámíme s jeho fungováním, se zvláštním důrazem na použité kryptografické metody. Pro plné pochopení těchto poněkud technických vysvětlení je nezbytné nejprve porozumět struktuře peněženek HD, postupům odvozování klíčů a základům kryptografie eliptických křivek. Pokud byste se chtěli do těchto pojmů ponořit hlouběji, je na síti Plan ₿ k dispozici další bezplatný vzdělávací kurz :*
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 *Přesto bych vám doporučil, abyste se jimi řídili, protože pochopení technického fungování BIP47 vám usnadní porozumění dalším podobným návrhům, o kterých budeme hovořit v následujících kapitolách*
 
@@ -3863,7 +3879,7 @@ Bob pak může Alici vrátit peníze stejným způsobem, jakým mu poslala platb
 
 *Děkujeme [Fanisovi Michalakisovi](https://x.com/FanisMichalakis) za korektury a odborné rady k článku, který inspiroval napsání této kapitoly!*
 
-https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## Tiché platby
 

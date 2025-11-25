@@ -721,7 +721,7 @@ Elliptisten käyrien matematiikka äärellisillä kentillä on analoginen reaali
 
 Jos haluat oppia lisää modernin kryptografian matemaattisista perusteista, suosittelen myös tutustumaan tähän toiseen kurssiin Plan ₿ Networkissa:
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Julkisen avaimen laskeminen yksityisavaimesta
 
@@ -1113,7 +1113,7 @@ Jos tämä sighash-lippu integroidaan Bitcoiniin, se mahdollistaa kovenanttien k
 
 Syventääksesi tietämystäsi Lightning-verkosta, CYP201-kurssin jälkeen suosittelen lämpimästi LNP201-kurssia, jonka pitää Fanis Michalakis ja joka käsittelee aihetta yksityiskohtaisesti:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Seuraavassa osassa ehdotan, että tutustumme siihen, miten Bitcoin-lompakkosi perustana oleva mnemonic-lause toimii.
 
@@ -1148,7 +1148,7 @@ Tämä rajoitus juontuu Bitcoinin yksityisyysmallista. Saman osoitteen uudelleen
 
 Lisätietoja Bitcoinin yksityisyysmallista ja menetelmistä yksityisyytesi suojaamiseksi suosittelen myös seuraamaan BTC204-kurssiani Plan ₿ Networkissa:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD Lompakot (_Hierarchical Deterministic_)
 
@@ -1251,7 +1251,7 @@ Esimerkiksi 256-bittiselle entropialle tulos $\text{ENT} \Vert \text{CS}$ on 264
 
 ### Binäärijonon Muuntaminen Mnemoniseksi Lauseeksi
 
-Bittijono $\text{ENT} \Vert \text{CS}$ jaetaan sitten 11 bitin segmentteihin. Kukin 11-bittinen segmentti, kun se muunnetaan desimaaliksi, vastaa numeroa välillä 0 ja 2047, joka osoittaa sanan sijainnin [2048 sanan standardoidussa listassa BIP39:n mukaan](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Bittijono $\text{ENT} \Vert \text{CS}$ jaetaan sitten 11 bitin segmentteihin. Kukin 11-bittinen segmentti, kun se muunnetaan desimaaliksi, vastaa numeroa välillä 0 ja 2047, joka osoittaa sanan sijainnin [2048 sanan standardoidussa listassa BIP39:n mukaan](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/en/042.webp)
 Esimerkiksi 128-bittiselle entropialle tarkistussumma on 4 bittiä, ja näin ollen koko sekvenssi on 132 bittiä pitkä. Se jaetaan 12 segmenttiin, joista jokainen on 11 bittiä (oranssit bitit merkitsevät tarkistussummaa):
@@ -1291,7 +1291,7 @@ Tuloksena on, että 24 sanan lauseen valitseminen ei tarjoa lisäsuojaa lompakol
 12-sanainen lause, joka tarjoaa myös 128 bitin turvallisuuden, on siis tällä hetkellä riittävä suojaamaan bitcoinsisi minkä tahansa varkausyrityksen varalta. Niin kauan kuin digitaalisen allekirjoituksen algoritmi ei muutu käyttämään suurempia avaimia tai nojaamaan johonkin muuhun matemaattiseen ongelmaan kuin ECDLP:hen, 24-sanainen lause pysyy tarpeettomana. Lisäksi pidempi lause lisää menetysriskiä varmuuskopioinnin aikana: kaksi kertaa lyhyempi varmuuskopio on aina helpompi hallita.
 Jatkaaksesi ja oppiaksesi konkreettisesti, miten manuaalisesti generoida testaamiseen tarkoitettu mnemoninen lause, suosittelen tutustumaan tähän tutoriaaliin:
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Ennen kuin jatkamme lompakon johdannaisten luomista tästä mnemonisesta lauseesta, esittelen sinulle seuraavassa luvussa BIP39-salasanan, koska se näyttelee roolia johdannaisprosessissa, ja se on samalla tasolla kuin mnemoninen lause.
 ## Salasana
@@ -1882,19 +1882,21 @@ Kun käyttäjä vastaanottaa bitcoineja, lähettäjä luo ulostulon UTXO:n ja lu
 
 Juuri *scriptPubKey*:ssa löytyvät vastaanotto-osoitteet. Kuitenkin niiden käyttö vaihtelee riippuen käytetystä skriptistandardista. Tässä on yhteenvetotaulukko tiedoista, jotka sisältyvät *scriptPubKey*:hin käytetyn standardin mukaan, sekä tiedot, jotka odotetaan *scriptSig*:ssä *scriptPubKey*:n avaamiseksi.
 
-| Standardi         | *scriptPubKey*                                              | *scriptSig*                     | *redeem script*     | *witness*                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <redeem script>` | Mielenvaltainen data|                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <pubKeyHash>`    | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <scriptHash>`    | `<data pushes> <witness script>`         |
-| P2TR (avainpolku)  | `1 <public key>`                                            |                                 |                     | `<signature>`                            |
-| P2TR (skriptipolku)| `1 <public key>`                                            |                                 |                     | `<data pushes> <script> <control block>` |
 
-*Lähde: Bitcoin Core PR review club, heinäkuu 7, 2021 - Gloria Zhao*
+
+| Standardi             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| --------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Mielivaltaiset tiedot | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_Lähde: Bitcoin Core PR -arviointiklubi 7. heinäkuuta 2021 – Gloria Zhao_
 
 Skriptissä käytetyt operaatiokoodit on suunniteltu tiedon käsittelyyn ja tarvittaessa sen vertailuun tai testaamiseen. Otetaan esimerkiksi P2PKH-skripti, joka on seuraava:
 

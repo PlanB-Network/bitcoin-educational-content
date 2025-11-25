@@ -1,0 +1,8 @@
+question: Co się dzieje, gdy użytkownicy zlecają weryfikację transakcji Bitcoin stronom trzecim zamiast uruchamiać własne pełne węzły?
+answer: Decentralizacja Bitcoin ulega osłabieniu, ponieważ mniej osób niezależnie egzekwuje zasady sieci
+wrong_answers:
+  - Transakcje Bitcoin stają się szybsze i bardziej wydajne dla wszystkich uczestników sieci
+  - Sieć Bitcoin automatycznie tworzy więcej węzłów mining, aby zrekompensować utraconą walidację
+  - Usługi stron trzecich zyskują możliwość tworzenia nowych bitcoinów poza normalnym harmonogramem emisji
+explanation: |
+  Gdy użytkownicy nie uruchamiają własnych pełnych węzłów, przekazują swoje uprawnienia do egzekwowania zasad Bitcoin innym osobom. Osłabia to decentralizację Bitcoin, ponieważ mniej niezależnych stron weryfikuje transakcje i bloki. Jak wyjaśnia David Harding, stwarza to sytuację, w której niewielka liczba górników i dostawców usług mogłaby potencjalnie zmienić zasady Bitcoin dla użytkowników niezweryfikujących, podczas gdy ci użytkownicy nie byliby w stanie dokonywać transakcji z osobami prowadzącymi pełne węzły walidacyjne, które odrzuciłyby te zmiany zasad.

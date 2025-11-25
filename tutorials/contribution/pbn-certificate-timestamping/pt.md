@@ -1,5 +1,5 @@
 ---
-name: Carimbo de Tempo de diplomas do Plan ₿ Network
+name: Carimbo de Tempo de diplomas do Plan ₿ Academy
 description: Entenda como a Rede Plan ₿ emite prova verificável para o seu certificado e diplomas
 ---
 
@@ -41,7 +41,7 @@ Uma vez que esta transação estiver em algum bloco, qualquer pessoa com o arqui
 
 ## Passo 1. Baixe seu Certificado ou Diploma
 
-Faça login no seu painel PBN pessoal.
+Faça login no seu painel Plan ₿ Academy pessoal.
 
 ![image](./assets/login.webp)
 
@@ -66,13 +66,13 @@ Primeiro abra um terminal na pasta onde os arquivos estão (clicando com o botã
 1. Importe a chave pública PGP da Rede Plan ₿ com o seguinte comando:
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
 ```
 
 Você deve ver uma mensagem como a seguinte se você importou a Chave PGP com sucesso
 
 ```
-gpg: key 8F12D0C63B1A606E: public key "PlanB Network (used for PBN platform) <admin@planb.network>" imported
+gpg: key 8F12D0C63B1A606E: public key "Plan ₿ Academy (used for Plan ₿ Academy platform) <admin@planb.network>" imported
 gpg: Total number processed: 1
 gpg:               imported: 1
 ```
@@ -97,7 +97,7 @@ Este é um exemplo do resultado:
 gpg: Signature made lun 11 nov 2024, 00:39:04 CET
 gpg:                using RSA key 5720CD577E7894C98DBD580E8F12D0C63B1A606E
 gpg:                issuer "admin@planb.network"
-gpg: Good signature from "PlanB Network (used for PBN platform) <admin@planb.network>" [unknown]
+gpg: Good signature from "Plan ₿ Academy (used for Plan ₿ Academy platform) <admin@planb.network>" [unknown]
 ```
 
 Se você ver uma mensagem como "BAD signature", isso significa que o arquivo foi adulterado.

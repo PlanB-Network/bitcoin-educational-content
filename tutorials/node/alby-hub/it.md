@@ -368,4 +368,4 @@ Ecco fatto, ora sapete come usare Lightning con il vostro nodo utilizzando lo st
 
 Per comprendere nel dettaglio tutti i meccanismi di Lightning che abbiamo manipolato in questo tutorial, vi consiglio vivamente di scoprire la nostra formazione gratuita sull'argomento:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

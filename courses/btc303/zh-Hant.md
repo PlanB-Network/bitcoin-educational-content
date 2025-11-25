@@ -75,7 +75,7 @@ Bitcoin 不僅是一種加密貨幣，它還體現了一種關於去中心化、
 準備好在您的 Bitcoin 之旅中踏出下一步了嗎？讓我們開始吧
 
 
-**註**：如果您在課程中遇到任何與 Bitcoin 相關的陌生詞彙，請參閱 [詞彙表](https://planb.network/resources/glossary)以尋找定義。
+**註**：如果您在課程中遇到任何與 Bitcoin 相關的陌生詞彙，請參閱 [詞彙表](https://planb.academy/resources/glossary)以尋找定義。
 
 
 
@@ -154,7 +154,7 @@ David Chaum 於 1983 年提出數位現金的研究課題，在中央伺服器�
 這些選項對使用者都沒有好處。
 
 
-透過去中心化來抵抗審查是 Bitcoin 與其他貨幣系統的區別，但由於 *Double-spending 問題*，要完成這件事並不容易。這是確保沒有人可以花相同的錢幣兩次的問題，許多人認為這個問題不可能以分散的方式解決。Satoshi 中本在他的 [Bitcoin 白皮書](https://planb.network/bitcoin.pdf) 中寫到如何解決 Double-spending 問題：
+透過去中心化來抵抗審查是 Bitcoin 與其他貨幣系統的區別，但由於 *Double-spending 問題*，要完成這件事並不容易。這是確保沒有人可以花相同的錢幣兩次的問題，許多人認為這個問題不可能以分散的方式解決。Satoshi 中本在他的 [Bitcoin 白皮書](https://planb.academy/bitcoin.pdf) 中寫到如何解決 Double-spending 問題：
 
 
 > 在本文中，我們提出一個解決 Double-spending 問題的方案，使用點對點分散式 Timestamp 伺服器來 generate 計算交易的時間順序證明。
@@ -278,7 +278,6 @@ Bitcoin 透過分散化的方式運作，類似於自然界中許多物種的非
 
 ![](assets/en/002.webp)
 
-*魚群沒有領袖*
 
 
 無論您對 Bitcoin 有什麼看法，它的分散性使它難以控制。Bitcoin 已經存在，你對它無能為力。這是需要研究的東西，而不是辯論。
@@ -372,7 +371,7 @@ David Harding 撰寫了 [Bitcoin.org 網站上的一篇文章](https://Bitcoin.o
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 A Trustless 基座 Layer 允許在更高層次上進行各種取捨
@@ -536,7 +535,6 @@ Satoshi 中本在他的 [Bitcoin 白皮書](https://Bitcoin.org/Bitcoin.pdf) 第
 ![](assets/en/005.webp)
 
 
-Blockchain 上典型的隱私泄漏問題
 
 
 Chris Belcher [寫得非常詳細](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) 關於 Bitcoin Blockchain 上可能發生的各種隱私洩漏。我們建議您至少閱讀 「Blockchain 攻擊隱私」 下的前幾個小節。
@@ -632,7 +630,7 @@ Chris Belcher 在 Breaking Bitcoin 會議的 [演講](https://btctranscripts.com
 請注意在 Bitcoin 的基礎上建立系統，可以達到更好的隱私性，就像 Lightning Network 的情況一樣：
 
 
-![image](assets/privacy.webp)
+
 
 
 Bitcoin 上的層次可增加隱私性
@@ -652,7 +650,7 @@ Bitcoin 上的層次可增加隱私性
 文章建議您避免使用需要 KYC/AML 的交易所，改以私人方式交易，或使用分散式交易所，如 [bisq](https://bisq.network/)。
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 若要深入閱讀有關對策，請參閱之前提到的 [wiki 關於隱私權的文章](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29)，從「改善隱私權的方法 (非 Blockchain)」開始。
 
@@ -731,7 +729,7 @@ Block reward 由區塊補貼加上交易費用組成。Block reward 需要支付
 今天，是持有者（透過貨幣通膨）為安全付費。明天就輪到花費者以某種方式來承擔這個負擔了，如下圖所示。
 
 
-![image](assets/finitesupply.webp)
+
 
 
 隨著時間的推移，安全成本的承擔將會從持有者轉移至支出者。
@@ -1102,7 +1100,6 @@ Wallet 竊取和拒絕服務攻擊：
 ![](assets/en/009.webp)
 
 
-摘錄自《簡單破壞實戰手冊
 
 
 為了更好地瞭解對手的想法，瞭解一下他們的運作方式可能會有所幫助。在第二次世界大戰期間，一個名為戰略服務辦公室（Office of Strategic Services）的美國政府機構，以進行間諜活動、破壞行動和傳播宣傳為目標，為他們的人員製作了一本[手冊](https://www.gutenberg.org/ebooks/26184)，教導他們如何正確地破壞敵人。它的標題是 「簡易破壞現場手冊」，包含了滲透敵人使其生活在 Hard 中的具體訣竅。這些訣竅的範圍從燒毀倉庫到造成操練的磨損，以減少敵人的
@@ -1662,7 +1659,6 @@ Bitcoin Core 和其他大多數的 Bitcoin 軟體都是開放原始碼的，這�
 
 ![](assets/en/017.webp)
 
-典型的 Layer 2 協定在 Bitcoin、Layer 1 之上。
 
 
 啟動交易的建立方式因不同的通訊協定而異，但有一個共同的主題，就是參與者會建立一個未簽署的啟動交易和一些預先簽署的懲罰交易，這些懲罰交易會以各種方式使用啟動交易的輸出。之後，開始交易會被完全簽署並發佈到 Blockchain，而懲罰交易也可以被完全簽署並發佈以懲罰行為不當的一方。這會激勵參與者信守承諾，讓協定能以 Trustless 的方式運作。

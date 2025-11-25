@@ -1,31 +1,18 @@
 ---
-name: Bitcoin i BTC Pay Server
-goal: Instalirajte BTC Pay Server za vaše poslovanje
-objectives: 
-
-  - Razumeti šta je BTC Pay Server.
-  - Samostalno hostujte i konfigurišite BTC Pay Server.
-  - Koristite BTC Pay Server u svom svakodnevnom poslovanju.
-
+name: Ovladavanje BTC Pay Server-om
+goal: Konfigurisati BTC Pay Server instancu za lokalni biznis
+objectives:
+- Razumeti osnove uloge BTCPay Servera u obradi plaćanja
+- Ovladati unutrašnjim funkcionisanjem procesa konfiguracije BTCPay Servera
+- Implementirati BTCPay Server u cloud i node-baziranim okruženjima
+- Postati BTC Pay Server operator
 ---
+# Put ka finansijskoj suverenosti
 
-# Bitcoin i BTCPay Server
+Poverenje je krhko, posebno kada je u pitanju novac. Ovaj uvodni kurs vas vodi kroz BTCPay Server, moćan alat koji vam omogućava da prihvatate Bitcoin uplate bez oslanjanja na treće strane. Naučićete osnove postajanja BTCPay Server operatera
 
-
-Ovo je uvodni kurs o BTCPay Server Operatoru koji su napisali Alekos i Bas, a koji su u Plan ₿ format kursa prilagodili melontwist i asi0.
-
-
-NEZAVRŠENA PRIČA
-
-
-"Ovo su laži, moje poverenje u tebe je slomljeno, učiniću te zastarelim."
-
-
-Proizvedeno od strane BTCPay Server Foundation
-
-
+Kreirali Alekos i Bas, a adaptirali melontwist i asi0, ovaj kurs otkriva kako pojedinci i preduzeća grade alternative tradicionalnim sistemima plaćanja. Bilo da ste radoznali o Bitcoinu ili spremni da upravljate platnom infrastrukturom za preduzeća, otkrijete praktične veštine koje izazivaju status quo. Spremni da istražite kako zaista izgleda finansijska nezavisnost?
 +++
-
 # Uvod
 
 

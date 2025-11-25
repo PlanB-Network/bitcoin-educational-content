@@ -75,7 +75,7 @@ Het navigeren door het complexe bestuurslandschap van Bitcoin vereist meer dan t
 Klaar om de volgende stap te zetten in jouw Bitcoin reis? Laten we beginnen!
 
 
-***N.B.**: Als u tijdens de cursus onbekende termen met betrekking tot Bitcoin tegenkomt, raadpleeg dan de [woordenlijst](https://planb.network/resources/glossary) om definities te vinden.*
+***N.B.**: Als u tijdens de cursus onbekende termen met betrekking tot Bitcoin tegenkomt, raadpleeg dan de [woordenlijst](https://planb.academy/resources/glossary) om definities te vinden.*
 
 
 
@@ -154,7 +154,7 @@ Als ze daarin slagen, zullen dezelfde problemen in de toekomst waarschijnlijk we
 Geen van deze opties is gunstig voor de gebruiker.
 
 
-Weerstand tegen censuur door decentralisatie is wat Bitcoin onderscheidt van andere geldsystemen, maar het is niet eenvoudig te realiseren vanwege het *Double-spending probleem*. Dit is het probleem om ervoor te zorgen dat niemand dezelfde munt twee keer kan uitgeven, een probleem waarvan veel mensen dachten dat het onmogelijk was om het op een gedecentraliseerde manier op te lossen. Satoshi Nakamoto schrijft in zijn [Bitcoin whitepaper](https://planb.network/bitcoin.pdf) over hoe het Double-spending probleem opgelost kan worden:
+Weerstand tegen censuur door decentralisatie is wat Bitcoin onderscheidt van andere geldsystemen, maar het is niet eenvoudig te realiseren vanwege het *Double-spending probleem*. Dit is het probleem om ervoor te zorgen dat niemand dezelfde munt twee keer kan uitgeven, een probleem waarvan veel mensen dachten dat het onmogelijk was om het op een gedecentraliseerde manier op te lossen. Satoshi Nakamoto schrijft in zijn [Bitcoin whitepaper](https://planb.academy/bitcoin.pdf) over hoe het Double-spending probleem opgelost kan worden:
 
 
 > In dit artikel stellen we een oplossing voor voor het Double-spending probleem met behulp van een peer-to-peer gedistribueerde Timestamp server om generate rekenkundig bewijs te leveren van de chronologische volgorde van transacties.
@@ -278,7 +278,6 @@ Ze wijst erop dat veel systemen, zowel natuurlijke als kunstmatige, zonder leide
 
 ![](assets/en/002.webp)
 
-*Visscholen hebben geen leiders*
 
 
 Wat je ook denkt over Bitcoin, het gedecentraliseerde karakter maakt het moeilijk te controleren. Bitcoin bestaat en je kunt er niets aan doen. Het is iets om te bestuderen, niet om over te discussiëren.
@@ -372,7 +371,7 @@ De essentie van dat gesprek is dat je geen Trustless systemen kunt bouwen boveno
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Een Trustless basis Layer maakt verschillende afwegingen op hogere niveaus mogelijk
@@ -536,7 +535,6 @@ Het artikel vat de belangrijkste problemen van Blockchain privacy samen, namelij
 ![](assets/en/005.webp)
 
 
-Typische privacylekken op de Blockchain
 
 
 Chris Belcher [schreef zeer gedetailleerd](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) over de verschillende soorten privacylekken die kunnen gebeuren op de Bitcoin Blockchain. We raden je aan tenminste de eerste paar subsecties onder "Blockchain aanvallen op privacy" te lezen
@@ -632,7 +630,7 @@ Hij noemde dit voorbeeld ook, onder andere, op de [Privacy pagina](https://en.Bi
 Merk op hoe betere privacy bereikt kan worden door systemen bovenop Bitcoin te bouwen, zoals het geval is bij Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Lagen bovenop Bitcoin kunnen privacy toevoegen
@@ -652,7 +650,7 @@ Om de risico's van het onthullen van je persoonlijke gegevens te beperken, moet 
 Het artikel suggereert dat je het gebruik van exchanges die KYC/AML vereisen vermijdt en in plaats daarvan privé handelt, of gedecentraliseerde exchanges gebruikt zoals [bisq](https://bisq.network/).
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Raadpleeg voor meer informatie over tegenmaatregelen het eerder genoemde [wiki-artikel over privacy](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), te beginnen bij "Methoden voor het verbeteren van privacy (niet-Blockchain)".
 
@@ -731,7 +729,7 @@ Wat gebeurt er als de bloksubsidie bijna nul is? Laten we, om het eenvoudig te h
 Vandaag zijn het de houders die betalen voor de veiligheid (via monetaire inflatie). Morgen is het de beurt aan de spenders om deze last op de een of andere manier te dragen, zoals hieronder wordt geïllustreerd.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Naarmate de tijd verstrijkt, zal het dragen van de beveiligingskosten verschuiven van houders naar spenders
@@ -1102,7 +1100,6 @@ Het bovenstaande zijn voorbeelden van echte bedreigingen die aangepakt moeten wo
 ![](assets/en/009.webp)
 
 
-Uittreksel uit de Eenvoudige Sabotage Veldhandleiding
 
 
 Om de geest van de tegenstander beter te begrijpen, kan het nuttig zijn om een kijkje te nemen in hoe ze te werk gaan. Een Amerikaanse overheidsinstantie met de naam Office of Strategic Services, die tijdens de Tweede Wereldoorlog opereerde en onder andere spionage, sabotage en propaganda tot doel had, produceerde een [handboek](https://www.gutenberg.org/ebooks/26184) voor hun personeel over hoe de vijand op de juiste manier te saboteren. De titel was "Simple Sabotage Field Manual" en bevatte concrete tips over het infiltreren in de vijand om hun leven Hard te maken. De tips varieerden van het afbranden van magazijnen tot het veroorzaken van slijtage aan boren om het leven van de vijand te verminderen
@@ -1662,7 +1659,6 @@ Een gelaagd protocol begint met twee of meer mensen die het eens zijn over een s
 
 ![](assets/en/017.webp)
 
-Een typisch Layer 2 protocol bovenop Bitcoin, Layer 1.
 
 
 Hoe deze starttransactie tot stand komt verschilt per protocol, maar een gemeenschappelijk thema is dat de deelnemers een niet-ondertekende starttransactie en een aantal vooraf ondertekende straftransacties creëren, die de uitvoer van de starttransactie op verschillende manieren uitgeven. Vervolgens wordt de starttransactie volledig ondertekend en gepubliceerd naar de Blockchain, en de straftransacties kunnen volledig ondertekend en gepubliceerd worden om een zich misdragende partij te straffen. Dit stimuleert de deelnemers om zich aan hun beloften te houden, zodat het protocol op een Trustless manier kan werken.

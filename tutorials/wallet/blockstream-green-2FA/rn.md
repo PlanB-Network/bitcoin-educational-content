@@ -38,7 +38,7 @@ Green ni porogarama yoroshe cane gukoresha, ivyo bikaba bituma iryoshe ku batang
 Blockstream Green nayo ishigikira Liquid Network, Bitcoin Sidechain yateguwe na Blockstream kugira ngo yihute, Confidential Transactions hanze ya Blockchain nyamukuru. Muri iyi nyigisho, twibanda cane kuri Bitcoin, ariko kandi nakoze iyindi nyigisho yo kwiga gukoresha Liquid kuri Green :
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## 2/2 Multisig amahitamwo (2FA)
 
@@ -67,7 +67,7 @@ Ikindi kibazo c’ubu buryo bwo gucungera umutekano ni uko uzobwirizwa gukoresha
 Niba ushaka kudakoresha uburyo bwa 2FA kandi wipfuza gusa gushinga "*singlesig*" Wallet kuri Green, ndagutumiye kuraba iyi yindi nyigisho :
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Gushiramwo no gutunganya porogaramu ya Blockstream Green
 
@@ -229,7 +229,7 @@ Fyonda kuri buto ya Green "*Yongera umutekano wa konti yawe wongeyeko 2FA*".
 Uzoheza ushobore guhitamwo uburyo bwo kwemeza ko uri uwundi kugira ngo ushikire urufunguzo rwa kabiri rwa 2/2 Multisig yawe. Kuri iyi nyigisho, tuzokoresha ubuhinga bwo kwemeza ko ari ukuri. Niba utamenyereye ubwo bwoko bw'ibikorwa, ndagusavye urabe inyigisho yacu kuri Authy :
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Hitamwo "*Ikoreshwa ry'Ivyemezo*".
 
@@ -402,4 +402,4 @@ Niwaba wabonye ko iyi nyigisho ari ngirakamaro, noshima cane iyo usiga urukumu r
 Ndagusavye kandi kuraba iyi yindi nyigisho yuzuye ku rubuga rwa Blockstream Green kugira ngo ushireho Liquid Wallet :
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

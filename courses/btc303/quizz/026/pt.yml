@@ -1,0 +1,8 @@
+question: A que se refere especificamente a privacidade da cadeia de blocos no contexto do Bitcoin?
+answer: As informações que divulga ao efetuar transacções na cadeia de blocos
+wrong_answers:
+  - A encriptação de chaves privadas armazenadas no seu wallet
+  - A proteção da sua ligação à Internet durante a utilização do Bitcoin
+  - O anonimato proporcionado pela utilização de vários endereços wallet
+explanation: |
+  A privacidade Blockchain refere-se especificamente à informação que revela ao transacionar na cadeia de blocos, que se aplica a todas as transacções que envia e recebe. Isto é diferente da encriptação wallet (que protege as chaves armazenadas), da segurança da ligação à Internet (que é a privacidade off-chain), ou da ideia errada de que múltiplos endereços proporcionam anonimato. As fugas de privacidade na cadeia ocorrem através da reutilização e agrupamento de endereços, em que as transacções podem ser ligadas entre si para revelar padrões sobre as actividades financeiras dos utilizadores.

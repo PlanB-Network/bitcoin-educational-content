@@ -1,0 +1,8 @@
+question: Wat is volgens de berekeningen van Pieter Wuille de maximale theoretische hoeveelheid Bitcoin die ooit zal bestaan als alle munten gemined zijn?
+answer: 20.999.999.9769 BTC
+wrong_answers:
+  - 21.000.000,0000 BTC precies
+  - 20.999.817.3131 BTC
+  - 20.500.000,0000 BTC ongeveer
+explanation: |
+  Pieter Wuille berekende dat de theoretische maximale voorraad 20.999.999.9769 BTC is, wat iets minder is dan de vaak genoemde 21 miljoen. Dit komt door het specifieke halveringsschema en de afronding in de Bitcoin code. Het cijfer van 21 miljoen is een afgeronde benadering. Het getal van 20.999.817,3131 vertegenwoordigt de werkelijke circulerende voorraad na verrekening van verloren munten en mining fouten tot een specifiek blok, niet het theoretische maximum.

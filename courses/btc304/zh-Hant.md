@@ -241,7 +241,7 @@ Bitcoin 聚會可以達到許多目的：
 
 
 
-我們會在本課程的第 6/8 部分，題為「[專案與計畫範例](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279)」，詳細介紹許多這些可能性。
+我們會在本課程的第 6/8 部分，題為「[專案與計畫範例](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279)」，詳細介紹許多這些可能性。
 
 
 
@@ -353,7 +353,7 @@ Bitcoin 是分散式的，因此自然任何人都可以隨心所欲。
 
 
 
-不過，正如我們稍後在 [專案與計畫範例](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) 中會看到的，**聚會可以以許多方式建立，並有許多目標：**
+不過，正如我們稍後在 [專案與計畫範例](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) 中會看到的，**聚會可以以許多方式建立，並有許多目標：**
 
 
 
@@ -866,7 +866,7 @@ Bitcoin 是分散式的，因此自然任何人都可以隨心所欲。
 如果您想要建立一個讓您的成員可以直接對話、互相回應等的地方，那麼您可能想要建立一個 Telegram 群組，而不是 Telegram 頻道！
 
 
-直接進入下一節，標題為【建立 Telegram 群組】(https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad)。
+直接進入下一節，標題為【建立 Telegram 群組】(https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad)。
 
 
 
@@ -1232,7 +1232,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 1/ **的 @ Twitter**，它定義了您的身份，讓您容易被找到。如果您的社群名稱是 "Bitcoin [CITY]「，選擇」@Bitcoin[CITY]"就很適當；
 
 
-2/ **您為社群或聚會所建立的標誌和橫幅** (請參閱 [建立標誌、海報和橫幅](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) 一節)；
+2/ **您為社群或聚會所建立的標誌和橫幅** (請參閱 [建立標誌、海報和橫幅](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) 一節)；
 
 
 3/ **描述**，可讓您用幾百個字分享您社群的關鍵資訊。例如
@@ -1547,7 +1547,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 
 
 
-請記住，**這需要更多的組織和時間**。幸運的是，在 [本課程第 6/8 部分](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) 中，您會找到一系列可重複使用的開放原始碼資源來提供協助。
+請記住，**這需要更多的組織和時間**。幸運的是，在 [本課程第 6/8 部分](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) 中，您會找到一系列可重複使用的開放原始碼資源來提供協助。
 
 
 無論如何，這一切都取決於您或您的社區為自己設定的短期、中期和長期行動計劃。
@@ -1619,7 +1619,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 
 
     - 在您的社交網路和其他溝通管道上分享日期、時間和地點。如有需要，請附上註冊連結。
-    - 建立專屬的視覺（例如 Canva 海報，請參閱第 2/8 部分「[為您的 Bitcoin 社群設計形象](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)」）。
+    - 建立專屬的視覺（例如 Canva 海報，請參閱第 2/8 部分「[為您的 Bitcoin 社群設計形象](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)」）。
     - 在 Telegram 和 Twitter 上釘選公告，並在 Discord 上使用「@everyone」提點，以最大化能見度。
     - 在活動舉行前 7 到 10 天發佈公告，以便與會者提前計劃。
 
@@ -1721,7 +1721,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 要實現這一目標，有一件事是必不可少的： **保持參與者的參與**。
 
 
-一開始可能是一小群熱情的 bitcoiners，他們的目標是定期聚在一起討論 Bitcoin。隨著時間的推移，依據每個人的空閒時間和興趣，您可以**與團體分擔某些組織任務**，或邀請核心**成員負責特定專案**。這些計畫可以是您的社區、您的聚會或您的城市所特有的，甚至是受到 [本課程第 6/8 部分](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) 中提出的許多計畫所啟發。**這不僅能培養核心成員的 Commitment，也能幫助您的社群成長與茁壯。**
+一開始可能是一小群熱情的 bitcoiners，他們的目標是定期聚在一起討論 Bitcoin。隨著時間的推移，依據每個人的空閒時間和興趣，您可以**與團體分擔某些組織任務**，或邀請核心**成員負責特定專案**。這些計畫可以是您的社區、您的聚會或您的城市所特有的，甚至是受到 [本課程第 6/8 部分](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) 中提出的許多計畫所啟發。**這不僅能培養核心成員的 Commitment，也能幫助您的社群成長與茁壯。**
 
 
 隨著您的聚會進展，新面孔也會出現：在前幾個週期買了 BTC 和/或替代貨幣的人、想要加深瞭解的技術愛好者，或是對這個無條件、無可信第三方運作的不可檢查、去中心化、透明且公平的支付系統感到好奇的完全初學者。
@@ -1820,7 +1820,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 以下是 2023-2024 年法國聚會的進程。每個主題都有開放原始碼的簡報和影片，您可以藉此了解自己活動的主題。
 
 
-在 [Bitcoin 教學工具箱](https://planb.network/fr/resources/bet) 中也可找到其他可編輯的資料！
+在 [Bitcoin 教學工具箱](https://planb.academy/fr/resources/bet) 中也可找到其他可編輯的資料！
 
 
 
@@ -2003,7 +2003,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 您也可以針對您的社群或聚會設計一份傳單，介紹您的活動、目標、社群媒體連結、溝通管道和即將舉行的活動。
 
 
-在 planB.network 上的 [Bitcoin 教學工具箱](https://planb.network/fr/resources/bet)**，已經有幾份傳單可以開放原始碼的方式**，隨著時間的推移，將會有更多的傳單加入。
+在 planB.network 上的 [Bitcoin 教學工具箱](https://planb.academy/fr/resources/bet)**，已經有幾份傳單可以開放原始碼的方式**，隨著時間的推移，將會有更多的傳單加入。
 
 
 其中一個例子是 [完整來源的傳單](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin)，包含 21 個使用 Bitcoin 的理由。它的設計也是 [開放原始碼](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)，供您修改、改寫和分享。只要記得註明您的資料來源即可。
@@ -2222,7 +2222,7 @@ WordPress 也支援各式各樣的外掛程式 (有些是付費的，但品質�
 - [**peertube**] (https://joinpeertube.org/fr_FR)，可讓您主持自己的視訊平台，不過設定起來比較複雜。
 
 
-無論您選擇哪一種，都要設計特定平台的視覺效果，讓您的頻道更吸引人。在 [第 2/8 部分](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) 中提到的 Canva 提供「YouTube Thumbnail」類別，有預先製作、可自訂的設計。
+無論您選擇哪一種，都要設計特定平台的視覺效果，讓您的頻道更吸引人。在 [第 2/8 部分](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) 中提到的 Canva 提供「YouTube Thumbnail」類別，有預先製作、可自訂的設計。
 
 
 
@@ -2853,11 +2853,9 @@ Bitcoin 是一個巨大的兔子洞，觸及歷史、經濟、文學、數學、
 - 結構化組織：您可以定義明確的角色，讓您更容易經營社群和執行專案。
 
 
-為了幫助您的社群進一步成長，**COMMU302課程的後續課程**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+為使您的社群更進一步蓬勃發展，**未來數月內，本課程的後續內容有可能在 [Plan ₿ Academy](https://planb.academy/) 上推出，這一可能性不容排除**.
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-可能會在未來幾個月內於 [planb.network](https://planb.network/) 發佈。
 
 
 下一場會議可以探討進階主題，例如：

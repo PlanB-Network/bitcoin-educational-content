@@ -75,7 +75,7 @@ Bitcoin의 복잡한 거버넌스 환경을 탐색하려면 기술적 전문성�
 Bitcoin 여정의 다음 단계로 나아갈 준비가 되셨나요? 시작하세요!
 
 
-***N.B.**: 수강 중 Bitcoin와 관련된 생소한 용어가 나오면 [용어집](https://planb.network/resources/glossary)을 참조하여 정의를 찾아보세요*
+***N.B.**: 수강 중 Bitcoin와 관련된 생소한 용어가 나오면 [용어집](https://planb.academy/resources/glossary)을 참조하여 정의를 찾아보세요*
 
 
 
@@ -154,7 +154,7 @@ Bitcoin를 검열할 수 있다면 어떤 일이 벌어질지 생각해 봅시�
 이러한 옵션 중 어느 것도 사용자에게 유익하지 않습니다.
 
 
-탈중앙화를 통한 검열 저항은 Bitcoin을 다른 화폐 시스템과 차별화하는 요소이지만, *Double-spending 문제*로 인해 달성하기는 쉽지 않습니다. 이는 탈중앙화 방식으로는 해결이 불가능하다고 생각했던 문제, 즉 누구도 동일한 Coin를 두 번 사용할 수 없도록 하는 문제입니다. Satoshi 나카모토는 [Bitcoin 백서](https://planb.network/bitcoin.pdf)에서 Double-spending 문제를 해결하는 방법에 대해 설명합니다:
+탈중앙화를 통한 검열 저항은 Bitcoin을 다른 화폐 시스템과 차별화하는 요소이지만, *Double-spending 문제*로 인해 달성하기는 쉽지 않습니다. 이는 탈중앙화 방식으로는 해결이 불가능하다고 생각했던 문제, 즉 누구도 동일한 Coin를 두 번 사용할 수 없도록 하는 문제입니다. Satoshi 나카모토는 [Bitcoin 백서](https://planb.academy/bitcoin.pdf)에서 Double-spending 문제를 해결하는 방법에 대해 설명합니다:
 
 
 > 이 논문에서는 피어 투 피어 분산 Timestamp 서버를 사용하여 트랜잭션의 시간 순서에 대한 generate 계산 증명에 대한 Double-spending 문제에 대한 해결책을 제안합니다.
@@ -278,7 +278,6 @@ Bitcoin의 매력적인 측면은 아무도 통제하지 않는다는 점입니�
 
 ![](assets/en/002.webp)
 
-*물고기 떼에는 리더가 없습니다*
 
 
 Bitcoin에 대해 어떻게 생각하든, 분산된 특성 때문에 통제하기 어렵습니다. Bitcoin은 이미 존재하며, 여러분이 할 수 있는 일은 아무것도 없습니다. 이는 논쟁의 대상이 아니라 연구해야 할 대상입니다.
@@ -372,7 +371,7 @@ Bitcoin의 무신뢰성은 시스템 관점에서 볼 때 절대적으로 필수
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Trustless 기본 Layer을 사용하면 상위 레벨에서 다양한 트레이드 오프가 가능합니다
@@ -536,7 +535,6 @@ Satoshi 나카모토는 [Bitcoin 백서](https://Bitcoin.org/Bitcoin.pdf)의 섹
 ![](assets/en/005.webp)
 
 
-Blockchain의 일반적인 개인정보 유출 사례
 
 
 크리스 벨처는 Bitcoin Blockchain에서 발생할 수 있는 다양한 종류의 개인정보 유출에 대해 [매우 상세하게](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) 설명했습니다. "Blockchain의 개인정보 공격"의 처음 몇 개의 하위 섹션만이라도 읽어보시기 바랍니다
@@ -632,7 +630,7 @@ Blockchain이 개인 정보 유출의 악명 높은 출처인 것은 사실이�
 Lightning Network의 경우처럼 Bitcoin 위에 시스템을 구축하면 더 나은 개인 정보 보호를 달성할 수 있다는 점에 유의하세요:
 
 
-![image](assets/privacy.webp)
+
 
 
 Bitcoin 위에 레이어를 추가하여 프라이버시를 강화할 수 있습니다
@@ -652,7 +650,7 @@ Bitcoin 위에 레이어를 추가하여 프라이버시를 강화할 수 있습
 이 기사에서는 KYC/AML이 필요한 거래소를 이용하지 말고 대신 비공개로 거래하거나 [bisq](https://bisq.network/)와 같은 탈중앙화 거래소를 이용할 것을 제안하고 있습니다.
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 대응 방안에 대한 자세한 내용은 앞서 언급한 [개인정보 보호 관련 위키 문서](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29)의 "개인정보 보호 개선 방법(비-Blockchain)"부터 참조하세요.
 
@@ -731,7 +729,7 @@ Block reward는 블록 보조금과 트랜잭션 수수료로 구성됩니다. B
 오늘날, (화폐 인플레이션을 통해) 보안 비용을 지불하는 것은 보유자입니다. 내일은 아래 그림과 같이 소비자들이 어떻게든 이 부담을 짊어질 차례가 될 것입니다.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 시간이 지남에 따라 보안 비용 부담은 보유자에서 소비자로 이동합니다
@@ -1102,7 +1100,6 @@ Wallet 도난 및 서비스 거부 공격:
 ![](assets/en/009.webp)
 
 
-간단한 사보타주 현장 매뉴얼에서 발췌한 내용입니다
 
 
 적의 마음을 더 잘 이해하려면 적의 운영 방식을 엿보는 것이 도움이 될 수 있습니다. 2차 세계대전 당시 첩보 활동, 사보타주 수행, 선전 확산을 목적으로 활동했던 미국 정부 기관인 전략 서비스국은 직원들을 위해 적을 제대로 사보타주하는 방법에 대한 [매뉴얼](https://www.gutenberg.org/ebooks/26184)을 제작했습니다. 제목은 "간단한 사보타주 현장 매뉴얼"로 적에게 침투하여 적을 Hard으로 만들기 위한 구체적인 요령이 담겨 있었습니다. 창고를 불태우는 것부터 적의 병력을 감소시키기 위해 훈련에 마모를 일으키는 것까지 다양한 요령이 담겨 있었습니다
@@ -1662,7 +1659,6 @@ Bitcoin 소프트웨어의 내부 확장 외에도 사용자가 내부 확장에
 
 ![](assets/en/017.webp)
 
-Bitcoin, Layer 1을 기반으로 하는 일반적인 Layer 2 프로토콜입니다.
 
 
 이 시작 트랜잭션이 생성되는 방식은 프로토콜마다 다르지만, 공통적인 주제는 참여자들이 서명되지 않은 시작 트랜잭션과 미리 서명된 여러 개의 처벌 트랜잭션을 생성하여 시작 트랜잭션의 출력을 다양한 방식으로 소비한다는 것입니다. 그 후, 시작 트랜잭션은 완전히 서명되어 Blockchain에 게시되고, 처벌 트랜잭션은 완전히 서명되어 잘못 행동한 당사자를 처벌하기 위해 게시될 수 있습니다. 이는 참여자들이 약속을 지키도록 인센티브를 제공하여 프로토콜이 Trustless 방식으로 작동할 수 있도록 합니다.

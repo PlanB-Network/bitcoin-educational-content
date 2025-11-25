@@ -1,0 +1,8 @@
+question: Millist tüüpi rünnak hõlmab ühe üksuse kontrollimist mitme sõlme üle, et esineda mitme üksusena, ja miks ei ole see tõhus Bitcoin konsensusmehhanismi vastu?
+answer: Sybil-rünnak; see on ebaefektiivne, sest Bitcoin kasutab proof-of-work arvutusvõimsust konsensuse saavutamiseks, mitte sõlmede loendamiseks
+wrong_answers:
+  - "Eclipse'i rünnak; see on ebaefektiivne, sest Bitcoin krüpteerib kogu sõlme side arenenud krüptograafiliste protokollidega"
+  - "Teenuse keelamise rünnak; see on ebaefektiivne, sest Bitcoin jaotab automaatselt liikluse ümber võrgu tervete sõlmede vahel"
+  - "Sotsiaalne insenerirünnak; see on ebaefektiivne, sest Bitcoin arendajad kasutavad manipulatsiooni vältimiseks formaalse kontrollimise meetodeid"
+explanation: |
+  Sybil-rünnak toimub siis, kui üks üksus kontrollib mitut sõlme, et maskeeruda mitmeks eraldi üksuseks. See rünnak on aga Bitcoin vastu ebaefektiivne, sest võrk ei tugine sõlmede loendamisele ega võrguosaliste demokraatlikule hääletamisele. Selle asemel kasutab Bitcoin proof-of-work konsensust, mille puhul arvutusvõimsus (hashpower) määrab võrgu otsused, mitte sõlmede arv. See teeb ründajal võimatuks mõjuvõimu saavutamise lihtsalt paljude sõlmede käivitamise kaudu ilma vastavate arvutusressurssideta.

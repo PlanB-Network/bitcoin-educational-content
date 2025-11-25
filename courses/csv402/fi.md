@@ -43,7 +43,7 @@ Viimeisessä osiossa muut puhujat esittelevät konkreettisia RGB-pohjaisia sovel
 ---
 Tämä kurssi syntyi alun perin Viareggiossa, Toscanassa järjestetystä kahden viikon pituisesta kehittyneen kehityksen bootcampista, jonka järjesti [Fulgur'Ventures] (https://fulgur.ventures/). Ensimmäinen viikko, joka keskittyi Rustiin ja SDK:hon, löytyy tästä toisesta kurssista:
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 Tällä kurssilla keskitymme bootcampin toiseen viikkoon, joka keskittyy RGB:hen.
 
@@ -1821,7 +1821,7 @@ Salamaverkko on Bitcoinin maksukanavien (tai _tilakanavien_) hajautettu verkko, 
 
 Jos haluat lisätietoja Lightningin toiminnasta, suosittelen tätä toista kurssia:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Moniprotokollasitoumus - MPC
 
@@ -3030,8 +3030,8 @@ Tässä on esimerkki luotavasta YAML-tiedostosta:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -3075,7 +3075,7 @@ rgb contracts
 
 ![RGB-Bitcoin](assets/en/087.webp)
 
-Seuraavalla komennolla näytetään sitten globaalit tilat (nimi, ticker, tarjonta...) ja luettelo Owned States eli allokaatiot (esimerkiksi 1 miljoona `PBN`-merkkiä, jotka on määritelty UTXO:ssa `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Seuraavalla komennolla näytetään sitten globaalit tilat (nimi, ticker, tarjonta...) ja luettelo Owned States eli allokaatiot (esimerkiksi 1 miljoona `Plan ₿ Academy`-merkkiä, jotka on määritelty UTXO:ssa `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -3258,7 +3258,7 @@ Todellisuudessa Lightning-verkko mahdollistaa maksujen välittämisen useiden ka
 
 RGB:n toimintaa Lightning-verkossa on siis tarkasteltava rinnakkain itse Lightning-verkon toiminnan kanssa. Jos haluat syventyä tähän aiheeseen, suosittelen lämpimästi tutustumaan tähän toiseen kattavaan koulutukseen:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### RGB-koodikartta
 
@@ -3755,7 +3755,7 @@ Voit tietenkin mukauttaa järjestystä. Vahvistaaksemme tapahtuman, me kaivamme 
 ./regtest.sh mine 1
 ```
 
-Voimme nyt luoda RGB-varannon. Komento riippuu siitä, minkä tyyppisen assetin haluat luoda ja sen parametreista. Tässä luon NIA-merkin (*Non Inflatable Asset*) nimeltä "PBN", jonka tarjonta on 1000 yksikköä. `precision`:n avulla voit määrittää yksiköiden jaettavuuden.
+Voimme nyt luoda RGB-varannon. Komento riippuu siitä, minkä tyyppisen assetin haluat luoda ja sen parametreista. Tässä luon NIA-merkin (*Non Inflatable Asset*) nimeltä "Plan ₿ Academy", jonka tarjonta on 1000 yksikköä. `precision`:n avulla voit määrittää yksiköiden jaettavuuden.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3763,8 +3763,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -3800,7 +3800,7 @@ Komento palauttaa solmuni nro 2 julkisen avaimen:
 
 ![RGB-Bitcoin](assets/en/110.webp)
 
-Seuraavaksi avaamme kanavan määrittelemällä kyseisen omaisuuserän (`PBN`). `/openchannel`-komennolla voit määrittää kanavan koon satoshina ja valita, otatko mukaan RGB-varannon. Se riippuu siitä, mitä haluat luoda, mutta minun tapauksessani komento on :
+Seuraavaksi avaamme kanavan määrittelemällä kyseisen omaisuuserän (`Plan ₿ Academy`). `/openchannel`-komennolla voit määrittää kanavan koon satoshina ja valita, otatko mukaan RGB-varannon. Se riippuu siitä, mitä haluat luoda, mutta minun tapauksessani komento on :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3839,7 +3839,7 @@ Tapahtuman vahvistamiseksi louhitaan 6 lohkoa:
 
 ![RGB-Bitcoin](assets/en/112.webp)
 
-Lightning-kanava on nyt auki, ja se sisältää myös 500 `PBN`-tunnusta solmun nro 1 puolella. Jos solmu nro 2 haluaa vastaanottaa `PBN`-tunnuksia, sen on luotava lasku. Näin se tehdään:
+Lightning-kanava on nyt auki, ja se sisältää myös 500 `Plan ₿ Academy`-tunnusta solmun nro 1 puolella. Jos solmu nro 2 haluaa vastaanottaa `Plan ₿ Academy`-tunnuksia, sen on luotava lasku. Näin se tehdään:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3868,7 +3868,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RGB-Bitcoin](assets/en/113.webp)
 
-Maksamme nyt tämän laskun ensimmäisestä solmusta, jossa on tarvittava käteisvaratunnus "PBN":
+Maksamme nyt tämän laskun ensimmäisestä solmusta, jossa on tarvittava käteisvaratunnus "Plan ₿ Academy":
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \

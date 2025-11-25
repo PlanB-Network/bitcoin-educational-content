@@ -22,7 +22,7 @@ Neste tutorial, destinado a utilizadores principiantes e intermédios, vamos des
 
 Se for um utilizador avançado e quiser explorar funcionalidades mais complexas, recomendo que consulte este outro tutorial onde configuramos o Passport com a Sparrow Wallet :
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 ## Desembalar o Passaporte
 
@@ -170,7 +170,7 @@ Para o fazer, utilize o cartão MicroSD incluído na caixa do Passport (ou outro
 
 Antes de o instalar no seu dispositivo, aconselhamos vivamente que verifique a autenticidade e a integridade do firmware descarregado. Se precisar de ajuda para o fazer, consulte este tutorial :
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### Com a aplicação Envoy
 
@@ -254,7 +254,7 @@ Clique no botão de confirmação para ver a sua frase mnemónica.
 
 Para mais informações sobre a forma correta de guardar e gerir a sua frase mnemónica, recomendo vivamente que siga este outro tutorial, especialmente se for um principiante:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 é claro que nunca deve partilhar estas palavras na Internet, como eu estou a fazer neste tutorial. Este exemplo de portefólio será utilizado apenas na Testnet e será eliminado no final do tutorial
 
@@ -457,4 +457,4 @@ Parabéns, agora já sabe como configurar e utilizar o Passport com a aplicaçã
 
 Para mais informações, consulte o nosso tutorial sobre o software Liana:
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

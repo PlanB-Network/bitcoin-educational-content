@@ -75,7 +75,7 @@ Poruszanie się po złożonym krajobrazie zarządzania Bitcoin wymaga nie tylko 
 Gotowy na kolejny krok w swojej podróży Bitcoin? Zaczynajmy!
 
 
-**UWAGA: Jeśli podczas kursu napotkasz nieznane terminy związane z Bitcoin, zapoznaj się z [glosariuszem](https://planb.network/resources/glossary), aby znaleźć definicje**
+**UWAGA: Jeśli podczas kursu napotkasz nieznane terminy związane z Bitcoin, zapoznaj się z [glosariuszem](https://planb.academy/resources/glossary), aby znaleźć definicje**
 
 
 
@@ -154,7 +154,7 @@ Jeśli im się uda, te same problemy najprawdopodobniej powrócą w przyszłośc
 Żadna z tych opcji nie jest korzystna dla użytkownika.
 
 
-Odporność na cenzurę poprzez decentralizację jest tym, co odróżnia Bitcoin od innych systemów pieniężnych, ale nie jest to łatwe do osiągnięcia ze względu na *problem Double-spending*. Jest to problem polegający na upewnieniu się, że nikt nie może wydać tej samej monety dwa razy, co wiele osób uważało za niemożliwe do rozwiązania w sposób zdecentralizowany. Satoshi Nakamoto pisze w swoim [Bitcoin whitepaper](https://planb.network/bitcoin.pdf) o tym, jak rozwiązać problem Double-spending:
+Odporność na cenzurę poprzez decentralizację jest tym, co odróżnia Bitcoin od innych systemów pieniężnych, ale nie jest to łatwe do osiągnięcia ze względu na *problem Double-spending*. Jest to problem polegający na upewnieniu się, że nikt nie może wydać tej samej monety dwa razy, co wiele osób uważało za niemożliwe do rozwiązania w sposób zdecentralizowany. Satoshi Nakamoto pisze w swoim [Bitcoin whitepaper](https://planb.academy/bitcoin.pdf) o tym, jak rozwiązać problem Double-spending:
 
 
 > W niniejszym artykule proponujemy rozwiązanie problemu Double-spending przy użyciu rozproszonego serwera Timestamp typu peer-to-peer do generate obliczeniowego dowodu chronologicznej kolejności transakcji.
@@ -278,7 +278,6 @@ Zwraca uwagę, że wiele systemów, zarówno naturalnych, jak i sztucznych, moż
 
 ![](assets/en/002.webp)
 
-*Ławice ryb nie mają liderów*
 
 
 Bez względu na to, co myślisz o Bitcoin, jego zdecentralizowana natura sprawia, że trudno go kontrolować. Bitcoin istnieje i nic nie można na to poradzić. Jest to coś, co należy badać, a nie dyskutować.
@@ -372,7 +371,7 @@ Istotą tego wykładu jest to, że nie można budować systemów Trustless na za
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 Podstawa Trustless Layer pozwala na różne kompromisy na wyższych poziomach
@@ -536,7 +535,6 @@ Artykuł podsumowuje główne problemy prywatności Blockchain, a mianowicie pon
 ![](assets/en/005.webp)
 
 
-Typowe wycieki prywatności na Blockchain
 
 
 Chris Belcher [napisał bardzo szczegółowo](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) o różnych rodzajach wycieków prywatności, które mogą się zdarzyć na Bitcoin Blockchain. Zalecamy przeczytanie przynajmniej kilku pierwszych podrozdziałów w sekcji "Ataki Blockchain na prywatność"
@@ -632,7 +630,7 @@ Wspomniał również o tym przykładzie, między innymi, na [stronie prywatnośc
 Zwróć uwagę, jak lepszą prywatność można osiągnąć, budując systemy na Bitcoin, tak jak ma to miejsce w przypadku Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Warstwy na wierzchu Bitcoin mogą zwiększyć prywatność
@@ -652,7 +650,7 @@ Aby zminimalizować ryzyko ujawnienia danych osobowych, nie należy ich podawać
 Artykuł sugeruje, aby unikać korzystania z giełd, które wymagają KYC/AML i zamiast tego handlować prywatnie lub korzystać ze zdecentralizowanych giełd, takich jak [bisq](https://bisq.network/).
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Więcej informacji na temat środków zaradczych można znaleźć we wcześniej wspomnianym [artykule wiki na temat prywatności](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), zaczynając od "Metod poprawy prywatności (nie-Blockchain)".
 
@@ -731,7 +729,7 @@ Co się dzieje, gdy subsydium blokowe zbliża się do zera? Aby zachować prosto
 Dziś to posiadacze płacą za bezpieczeństwo (poprzez inflację monetarną). Jutro przyjdzie kolej na wydawców, którzy w jakiś sposób wezmą na siebie ten ciężar, jak pokazano poniżej.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 W miarę upływu czasu ponoszenie kosztów bezpieczeństwa przesunie się z posiadaczy na wydawców
@@ -1102,7 +1100,6 @@ Powyższe to przykłady realnych zagrożeń, którymi należy się zająć.
 ![](assets/en/009.webp)
 
 
-Fragment podręcznika Simple Sabotage Field Manual
 
 
 Aby lepiej zrozumieć umysł przeciwnika, pomocne może być zapoznanie się z jego sposobem działania. Amerykański organ rządowy o nazwie Office of Strategic Services, który działał podczas II wojny światowej i miał na celu prowadzenie szpiegostwa, sabotażu i szerzenia propagandy, opracował [podręcznik](https://www.gutenberg.org/ebooks/26184) dla swojego personelu na temat tego, jak prawidłowo sabotować wroga. Jego tytuł brzmiał "Simple Sabotage Field Manual" i zawierał konkretne wskazówki dotyczące infiltracji wroga, aby uczynić jego życie Hard. Wskazówki obejmowały zarówno podpalanie magazynów, jak i powodowanie zniszczeń na ćwiczeniach w celu zmniejszenia liczebności wroga
@@ -1662,7 +1659,6 @@ Protokół warstwowy rozpoczyna się od uzgodnienia przez dwie lub więcej osób
 
 ![](assets/en/017.webp)
 
-Typowy protokół Layer 2 na Bitcoin, Layer 1.
 
 
 Sposób tworzenia transakcji początkowej różni się w zależności od protokołu, ale wspólnym tematem jest to, że uczestnicy tworzą niepodpisaną transakcję początkową i szereg wstępnie podpisanych transakcji karnych, które wydają dane wyjściowe transakcji początkowej na różne sposoby. Następnie transakcja początkowa jest w pełni podpisywana i publikowana w Blockchain, a transakcje karne mogą być w pełni podpisane i opublikowane w celu ukarania niewłaściwie zachowującej się strony. Zachęca to uczestników do dotrzymywania obietnic, aby protokół mógł działać w sposób Trustless.

@@ -185,7 +185,7 @@ Alias Vault очень прост: у вас есть одна главная с
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 Чтобы удалить псевдоним, созданный вами в качестве тестового, достаточно войти в `Дом`, затем в `Учетные данные` и щелкнуть на псевдониме, который вы хотите удалить. В правом верхнем углу появится команда _Удалить_.
 

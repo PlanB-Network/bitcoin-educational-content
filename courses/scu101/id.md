@@ -42,7 +42,7 @@ Pelatihan ini adalah hasil kolaborasi dari tiga profesor kami:
 
 - Renaud Lifchitz, ahli keamanan siber
 - Théo Pantamis, PhD dalam matematika terapan
-- Rogzy, Co-founder dari Plan ₿ Network.
+- Rogzy, Co-founder dari Plan ₿ Academy.
 
 Kewaspadaan digital Anda sangat penting di dunia yang semakin digital. Meskipun ada peningkatan konstan dalam peretasan dan pengawasan massal, belum terlambat untuk mengambil langkah pertama dan melindungi diri Anda. 
 Dalam pelatihan ini, kami tidak mencoba menjadikan Anda seorang ahli, anonim sepenuhnya, atau kebal terhadap ancaman digital, karena ini mustahil. Sebaliknya, kami menawarkan beberapa solusi sederhana dan mudah diakses untuk semua orang untuk mulai mengubah kebiasaan online Anda dan mendapatkan kembali kendali atas privasi digital Anda. 
@@ -129,7 +129,7 @@ TOR bersifat legal dan digunakan oleh jurnalis, aktivis kebebasan, dan orang lai
 
 ![image](assets/id/007.webp)
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN dan koneksi internet
 
@@ -157,9 +157,9 @@ Namun, menggunakan VPN konsumen tidak menjamin anonimitas sepenuhnya. Banyak pen
 
 Terakhir, VPN juga bisa dipakai untuk memblokir iklan online, memberikan pengalaman menjelajah yang lebih nyaman dan aman. Namun, penting untuk melakukan riset mendalam agar menemukan VPN yang paling sesuai dengan kebutuhan Anda. Menggunakan VPN sangat dianjurkan untuk meningkatkan keamanan, bahkan saat menjelajah internet di rumah. Ini membantu memastikan tingkat perlindungan yang lebih tinggi untuk data yang dipertukarkan secara online. Terakhir, selalu cek URL dan ikon gembok kecil di bilah alamat untuk memastikan Anda berada di situs yang benar dan aman.
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS & jaringan Wi-Fi publik
 
@@ -274,9 +274,9 @@ Tidak, umumnya tidak disarankan untuk membayar peretas dalam kasus *ransomware* 
 
 Jika Anda mendeteksi virus di komputer Anda, segera putuskan koneksinya dari internet, lakukan pemindaian antivirus penuh, dan hapus file-file yang terinfeksi. Setelah itu, perbarui perangkat lunak dan sistem operasi Anda, serta ubah kata sandi Anda untuk mencegah pembobolan lebih lanjut.
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Penerapan solusi.
 
@@ -315,7 +315,7 @@ Anda sebaiknya menggunakan situs web "Have I Been Pwned" (https://haveibeenpwned
 Secara umum, mulai menggunakan alamat email baru yang lebih aman bukanlah praktik yang buruk, bahkan perlu jika Anda ingin memulai kembali dengan dasar yang lebih baik.
 Bonus Bitcoin: Sangat disarankan untuk membuat alamat email spesifik untuk aktivitas Bitcoin atau kripto Anda, seperti untuk membuat akun di bursa (exchange), untuk benar-benar memisahkan area aktivitas ini dalam kehidupan kita.
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Pengelola Kata Sandi (*Password Manager*)
 
@@ -365,9 +365,9 @@ Untuk membuat kata sandi yang kuat, disarankan untuk menggunakan banyak karakter
 
 Kata sandi yang dihasilkan secara acak menawarkan tingkat keamanan yang lebih tinggi, meskipun mungkin lebih sulit diingat. Pengelola kata sandi (password manager) dapat membantu membuat kata sandi acak yang lebih aman. Dengan menggunakan pengelola kata sandi, Anda tidak perlu menghafal semua kata sandi Anda. Penting untuk secara bertahap mengganti kata sandi lama Anda dengan yang dihasilkan oleh pengelola, karena kata sandi tersebut lebih kuat dan lebih aman. Pastikan kata sandi utama (master password) dari pengelola kata sandi Anda juga kuat dan aman.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Autentikasi Dua Faktor (2FA)
 
@@ -419,9 +419,9 @@ Terus belajar dan secara bertahap menerapkan praktik yang baik!
 
 Aturan penting : Keamanan siber terus berkembang, dan beradaptasilah seiring dengan bertambahnya jam terbang Anda.
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Sesi Praktik
 
@@ -437,7 +437,7 @@ Melindungi akun email Anda merupakan langkah penting dalam mengamankan aktivitas
 
 Baik Anda pengguna pemula maupun berpengalaman, praktik-praktik terbaik yang disajikan di sini akan membantu Anda memperkuat keamanan email Anda seraya memanfaatkan fitur-fitur canggih ProtonMail.
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Mengamankan dengan 2FA
 
@@ -445,11 +445,11 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 Autentikasi dua faktor (2FA) merupakan langkah yang sangat penting untuk menjaga keamanan akun online Anda. Dalam tutorial ini, Anda akan mempelajari cara mengatur dan menggunakan aplikasi 2FA Authy, yang berfungsi menghasilkan kode dinamis 6 digit untuk melindungi akun Anda. Authy sangat mudah digunakan dan dapat disinkronkan di berbagai perangkat Anda. Mari temukan bagaimana cara menginstal dan mengonfigurasi Authy, sehingga Anda dapat meningkatkan keamanan akun online Anda saat ini :
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Pilihan lainnya adalah menggunakan kunci keamanan fisik. Tutorial tambahan ini akan menunjukkan kepada Anda cara mengatur dan menggunakan kunci keamanan sebagai faktor autentikasi kedua :
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Membuat manajer kata sandi
 
@@ -459,11 +459,11 @@ Pengelolaan kata sandi merupakan tantangan di era digital ini. Kita semua memili
 
 Dalam tutorial ini, Anda bisa mempelajari cara mengatur Bitwarden, sebuah pengelola kata sandi sumber terbuka (open-source), dan cara menyinkronkan kredensial Anda di seluruh perangkat guna menyederhanakan penggunaan sehari-hari Anda:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Bagi pengguna yang lebih mahir, Saya juga menawarkan tutorial tentang perangkat lunak sumber terbuka gratis (open-source) lainnya untuk mengelola kata sandi Anda secara lokal:
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Mengamankan Akun Anda
 
@@ -471,9 +471,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 Dalam kedua tutorial ini, saya juga membimbing Anda dalam mengamankan akun daring Anda dan menjelaskan bagaimana secara bertahap mengadopsi praktik yang lebih aman untuk pengelolaan kata sandi Anda sehari-hari.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Menggunakan browser berbeda & VPN
 
@@ -483,13 +483,13 @@ Melindungi privasi daring Anda juga merupakan poin penting untuk menjamin keaman
 
 Saya menyarankan untuk mempelajari dua solusi VPN tepercaya yang menerima pembayaran Bitcoin, yaitu IVPN dan Mullvad. Tutorial-tutorial ini akan memandu Anda tentang cara menginstal, mengonfigurasi, dan menggunakan Mullvad atau IVPN di semua perangkat Anda.
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Pelajari juga cara menggunakan Tor Browser, sebuah *browser* yang dirancang khusus untuk melindungi privasi online Anda.
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## Pengaturan Cadangan
 
@@ -497,11 +497,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 Melindungi file Anda juga merupakan poin penting. Tutorial ini akan menunjukkan kepada Anda cara menerapkan strategi cadangan (backup) yang efektif menggunakan Proton Drive. Pelajari bagaimana memanfaatkan solusi cloud yang aman ini untuk mengaplikasikan metode 3-2-1: tiga salinan data Anda pada dua media berbeda, dengan satu salinan disimpan di lokasi terpisah (offsite). Hal ini memastikan aksesibilitas dan keamanan file-file penting Anda :
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Untuk mengamankan file-file yang tersimpan pada media penyimpanan *removable* seperti *flash drive USB* atau *hard drive* eksternal, saya juga akan menunjukkan kepada Anda cara melakukan enkripsi dan dekripsi media-media tersebut dengan mudah menggunakan VeraCrypt :
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Belajarlah Lebih Jauh
 

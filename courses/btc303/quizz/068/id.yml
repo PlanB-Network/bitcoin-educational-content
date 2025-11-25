@@ -1,0 +1,8 @@
+question: Ketika para penambang terhubung ke pool mining dengan bandwidth dan konektivitas yang lebih besar untuk menghindari blok yang basi selama periode peningkatan ukuran blok, apa konsekuensi negatif utama untuk jaringan Bitcoin?
+answer: Ini mengurangi desentralisasi mining karena penambang yang lebih kecil didorong menuju kumpulan yang lebih besar dengan infrastruktur yang lebih unggul
+wrong_answers:
+  - Ini meningkatkan kesulitan komputasi operasi mining sehingga membuat blok lebih sulit untuk dipecahkan
+  - Hal ini menimbulkan biaya transaksi tambahan yang harus dibayarkan untuk mempertahankan konektivitas jaringan
+  - Ini mengurangi tingkat hash total jaringan karena penambang menghabiskan sumber daya untuk konektivitas alih-alih mining
+explanation: |
+  Bab ini menjelaskan bahwa ketika ukuran blok meningkat, waktu propagasi juga meningkat, yang menyebabkan lebih banyak blok basi. Untuk menghindari kehilangan upah blok dari blok basi, para penambang mencari pool dengan bandwidth dan konektivitas yang lebih baik. Hal ini mendorong para penambang ke pool yang lebih besar dan terkoneksi dengan baik, sehingga mengurangi desentralisasi mining. Opsi lainnya tidak benar: tingkat kesulitan menyesuaikan secara otomatis terlepas dari konektivitas pool, biaya konektivitas tidak menimbulkan biaya transaksi tambahan, dan penambang tidak mengurangi tingkat hash ketika bergabung dengan pool yang terhubung lebih baik.

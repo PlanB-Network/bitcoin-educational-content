@@ -42,7 +42,7 @@ StashPay 是一個以 React Native 開發的開放源碼專案，旨在解決即
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 點選「設定」圖示進入 StashPay 設定，然後點選 **建立備份**選項。然後授權顯示恢復短語。請勿將您的恢復短語複製到手機的剪貼簿，因為它們可能會被安裝在手機上的其他詐騙應用程式存取。
 
@@ -88,7 +88,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-https://planb.network/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
+https://planb.academy/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
 
 ### 使用 StashPay 傳送比特幣
 
@@ -106,7 +106,7 @@ https://planb.network/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a15
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 但是，Breez SDK 設定了一個最低金額，您可以將比特幣發送到主鏈上的 Address。
 
@@ -168,4 +168,4 @@ StashPay 可讓您根據您選擇的當地貨幣 Exchange 薩托希。按一下 
 
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f

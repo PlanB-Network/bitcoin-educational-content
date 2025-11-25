@@ -28,7 +28,7 @@ description: 中小企業でBitcoinの支払いを簡単かつ迅速に会計処
 簡単のため、SatoshiのWalletを例として使用する。以下の手順でインストールと設定を行う：
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 モバイルアプリを開き、"Receive"（受け取る）ボタンをクリックし、generateとInvoiceにユーザーから支払われる金額（通常は現地通貨）を入力するだけです。
 
@@ -59,7 +59,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 詳細については、Satoshi - Point of SaleのWalletの専用チュートリアルを参照してください：
 
 
-https://planb.network/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc9f266-cb21-49a8-94a8-5fe15a82eb07
+https://planb.academy/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc9f266-cb21-49a8-94a8-5fe15a82eb07
 
 ## 規制
 

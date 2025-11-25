@@ -1,0 +1,8 @@
+question: De acordo com a definição de código aberto, qual é a relação necessária entre os trabalhos derivados e os seus termos de licenciamento em comparação com o software original?
+answer: As obras derivadas devem poder ser distribuídas nos mesmos termos que a licença do software original
+wrong_answers:
+  - As obras derivadas devem ser distribuídas ao abrigo de condições de licenciamento mais restritivas do que o software original
+  - As obras derivadas devem ser lançadas ao abrigo de uma licença completamente diferente que seja incompatível com a original
+  - As obras derivadas só podem ser distribuídas ao abrigo de licenças proprietárias que exijam o pagamento de royalties
+explanation: |
+  A definição de código aberto afirma explicitamente que 'a licença deve permitir modificações e trabalhos derivados, e deve permitir que sejam distribuídos sob os mesmos termos que a licença do software original' Isto assegura que os trabalhos derivados mantêm as mesmas liberdades que o original, impedindo que alguém pegue no código-fonte aberto e o torne proprietário. As outras opções violam este princípio fundamental, quer restringindo a liberdade, quer alterando a compatibilidade das licenças.

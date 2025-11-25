@@ -86,7 +86,7 @@ Seguire quindi le istruzioni per confermare il backup e collegare l'account di b
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ⚠️ **IMPORTANTE**: Per aggiungere un ulteriore Layer di sicurezza al Breez Wallet, è possibile definire un codice PIN e impostarlo per autenticare che l'accesso al Wallet è autorizzato.
 

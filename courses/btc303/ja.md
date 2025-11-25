@@ -75,7 +75,7 @@ Bitcoinの複雑なガバナンス・ランドスケープをナビゲートす�
 Bitcoinの旅で次のステップに進む準備はできていますか？始めよう！
 
 
-**N.B.**：Bitcoinに関する用語でわからないものがあれば、[用語集](https://planb.network/resources/glossary)を参照してください。
+**N.B.**：Bitcoinに関する用語でわからないものがあれば、[用語集](https://planb.academy/resources/glossary)を参照してください。
 
 
 
@@ -154,7 +154,7 @@ BitcoinにおけるMinerの非中央集権化とは、トランザクション�
 これらのオプションはいずれもユーザーにとって有益ではない。
 
 
-分散化による検閲への耐性が、Bitcoinと他の通貨システムとの違いであるが、*Double-spending問題*のために達成するのは容易なことではない。これは、誰も同じコインを2度使えないようにするという問題で、多くの人が分散型では解決不可能だと考えていた問題だ。Satoshiナカモトは[Bitcoinホワイトペーパー](https://planb.network/bitcoin.pdf)でDouble-spending問題を解決する方法について書いている：
+分散化による検閲への耐性が、Bitcoinと他の通貨システムとの違いであるが、*Double-spending問題*のために達成するのは容易なことではない。これは、誰も同じコインを2度使えないようにするという問題で、多くの人が分散型では解決不可能だと考えていた問題だ。Satoshiナカモトは[Bitcoinホワイトペーパー](https://planb.academy/bitcoin.pdf)でDouble-spending問題を解決する方法について書いている：
 
 
 > 本論文では、ピアツーピアの分散Timestampサーバーを用いたDouble-spending問題の解決策を提案し、トランザクションの時系列順序の計算証明generateを行う。
@@ -278,7 +278,6 @@ Bitcoinが分散化によって機能する様子は、自然界の多くの種�
 
 ![](assets/en/002.webp)
 
-**魚の群れにはリーダーがいない**
 
 
 Bitcoinについてどう考えても、その分散型の性質がコントロールを難しくしている。Bitcoinが存在する以上、どうすることもできない。Bitcoinは研究すべきものであり、議論すべきものではない。
@@ -372,7 +371,7 @@ Bitcoinのトラストレスはシステムの観点から絶対に必要だ。2
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 TrustlessベースのLayerは、より高いレベルでの様々なトレードオフを可能にする。
@@ -536,7 +535,6 @@ Satoshi中本氏は、彼の[Bitcoinホワイトペーパー](https://Bitcoin.or
 ![](assets/en/005.webp)
 
 
-Blockchainにおける典型的なプライバシー・リーク
 
 
 クリス・ベルチャーがBitcoin Blockchainで起こりうるさまざまな種類のプライバシー漏洩について[非常に詳しく](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy)書いています。少なくとも、"Blockchainのプライバシーへの攻撃 "の最初のいくつかのサブセクションを読むことをお勧めします。
@@ -632,7 +630,7 @@ Breaking Bitcoinカンファレンスの[講演](https://btctranscripts.com/brea
 Lightning Networkの場合と同様に、Bitcoinの上にシステムを構築することで、より優れたプライバシーが達成できることに注目してほしい：
 
 
-![image](assets/privacy.webp)
+
 
 
 Bitcoinの上にレイヤーを重ねることで、プライバシーを高めることができる
@@ -652,7 +650,7 @@ Bitcoinの上にレイヤーを重ねることで、プライバシーを高め�
 この記事では、KYC/AMLを要求する取引所の利用を避け、代わりに非公開で取引するか、[bisq](https://bisq.network/)のような分散型取引所を利用することを勧めている。
 
 
-https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 対策については、先に紹介した[プライバシーに関するwiki記事](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29)の「プライバシーを向上させるための方法（Blockchain以外）」からを参照されたい。
 
@@ -731,7 +729,7 @@ Block rewardはブロック補助金と取引手数料で構成される。Block
 今日、安全保障のために（通貨インフレによって）負担しているのは保有者である。明日は、消費者がこの負担をどうにかして肩代わりする番だ。
 
 
-![image](assets/finitesupply.webp)
+
 
 
 時が経てば経つほど、セキュリティコストの負担は保有者から支出者に移っていくだろう
@@ -1102,7 +1100,6 @@ Walletの盗難とサービス拒否攻撃：
 ![](assets/en/009.webp)
 
 
-シンプルな妨害工作フィールドマニュアルより抜粋
 
 
 敵の心理をよりよく理解するためには、彼らがどのように活動しているかを垣間見ることが役に立つかもしれない。第二次世界大戦中に活動し、スパイ活動、破壊工作、プロパガンダの普及を目的のひとつとした戦略サービス局という名のアメリカ政府機関は、その職員向けに、敵を適切に破壊工作する方法についての［マニュアル］(https://www.gutenberg.org/ebooks/26184)を作成した。そのタイトルは "Simple Sabotage Field Manual "で、敵に潜入して彼らの生活をHardにするための具体的なヒントが書かれていた。その内容は、倉庫を焼き払うことから、敵の作戦行動を低下させるために訓練に磨耗を生じさせることまで、多岐にわたっている。
@@ -1662,7 +1659,6 @@ Bitcoinソフトウェアにおける内向きのスケーリングとは別に�
 
 ![](assets/en/017.webp)
 
-Bitcoin、Layer 1の上の典型的なLayer 2プロトコル。
 
 
 この開始トランザクションがどのように生成されるかはプロトコルによって異なる が、共通するテーマは、参加者が署名されていない開始トランザクションと、開始トランザク ションの出力を様々な方法で使用する、事前に署名されたいくつかの罰トランザクションを 生成することである。その後、開始トランザクションは完全に署名されBlockchainに公開され、罰トランザクションは完全に署名され、不品行なパーティを罰するために公開される。これはプロトコルがTrustless方式で機能するように、参加者に約束を守るよう動機付ける。

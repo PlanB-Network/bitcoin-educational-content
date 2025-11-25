@@ -403,14 +403,10 @@ To save, click on `save`!
 
 ## Hitimisho
 
+Kwa muhtasari, kuwa na ufahamu wa makosa ya kawaida ya wasahihishaji kunaweza kukusaidia sana kuboresha ujuzi wako wakati wa kukagua maudhui. Ni rahisi kupuuza mambo kama muktadha au uthabiti, na kugundua makosa haya kunaweza kuleta tofauti kubwa.
 
-Kwa muhtasari, kufahamu makosa ya wasahihishaji wa kawaida kunaweza kukusaidia kuboresha ujuzi wako unapokagua maudhui. Ni rahisi kupuuza mambo kama vile muktadha au uthabiti, na kupata hitilafu hizi kunaweza kuleta tofauti kubwa.
+Kumbuka daima kuwa mwanafunzi anaweza kusoma kozi na mafunzo haya, kwa hivyo ni jukumu letu kuhakikisha kuwa wanaelewa kikamili. **Kama msahihishaji, wewe ni mwalimu!**
 
+Sasa uko tayari kuanza kusahihisha kozi, mafunzo, maswali ya mtihani, na maneno ya kamusi. Endelea kusikiliza ili kuanza kukagua nakala za video pia!
 
-Kumbuka kila wakati kuwa anayeanza anaweza kusoma kozi na mafunzo haya, kwa hivyo ni jukumu letu kuhakikisha kuwa anaelewa kikamilifu. Kama msahihishaji, wewe ni mwalimu!
-
-
-Sasa uko tayari kuanza kozi za kusahihisha, mafunzo, maswali na maneno ya faharasa. Endelea kufuatilia pia kuanza kuangalia picha na nakala za video;)
-
-
-Asante kwa kusoma somo hili, na ufurahie safari yako ya kusahihisha!
+Asante kwa kusoma mafunzo haya, na furahia safari yako ya kusahihisha!

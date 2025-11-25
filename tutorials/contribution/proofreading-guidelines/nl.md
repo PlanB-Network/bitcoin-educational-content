@@ -403,14 +403,10 @@ To save, click on `save`!
 
 ## Conclusie
 
+Samengevat, bewust zijn van de veelgemaakte fouten van proeflezers kan je echt helpen om je vaardigheden bij het controleren van inhoud te verbeteren. Het is gemakkelijk om dingen zoals context of consistentie over het hoofd te zien, en het opsporen van deze fouten kan een groot verschil maken.
 
-Kortom, je bewust zijn van de veelgemaakte fouten van proeflezers kan je echt helpen om je vaardigheden bij het controleren van inhoud te verbeteren. Het is makkelijk om dingen als context of consistentie over het hoofd te zien, en het ontdekken van deze fouten kan een groot verschil maken.
+Houd altijd in gedachten dat een beginner deze cursussen en tutorials kan lezen, dus het is onze verantwoordelijkheid om ervoor te zorgen dat ze het volledig begrijpen. **Als proeflezer ben je een opvoeder!**
 
+Nu ben je klaar om te beginnen met het proeflezen van cursussen, tutorials, quizzen en glossariumwoorden. Blijf op de hoogte om ook te beginnen met het controleren van videotranscripten!
 
-Houd altijd in gedachten dat een beginner deze cursussen en handleidingen kan lezen, dus het is onze verantwoordelijkheid om ervoor te zorgen dat ze het volledig begrijpen. Als proeflezer ben je een docent!
-
-
-Nu ben je klaar om te beginnen met het proeflezen van cursussen, handleidingen, quizzen en woordenlijsten. Blijf op de hoogte om ook afbeeldingen en videotranscripties te controleren ;)
-
-
-Bedankt voor het lezen van deze handleiding en veel plezier met proeflezen!
+Bedankt voor het lezen van deze tutorial, en geniet van je proefleestraject!

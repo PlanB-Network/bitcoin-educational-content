@@ -217,7 +217,10 @@ Comprueba siempre todos los hipervínculos del texto para asegurarte de que son 
 
 ## Conclusión
 
-En resumen, conocer los errores más comunes de los correctores puede ayudarte a mejorar tus habilidades a la hora de revisar contenidos. Es fácil pasar por alto aspectos como el contexto o la coherencia, y detectar estos errores puede marcar una gran diferencia.
-Ten siempre en cuenta que un principiante puede leer estos cursos y tutoriales, por lo que es nuestra responsabilidad asegurarnos de que los entiende perfectamente. Como corrector, ¡Eres un educador!
+En resumen, ser consciente de los errores comunes de los revisores puede realmente ayudarte a mejorar tus habilidades al verificar contenido. Es fácil pasar por alto cosas como el contexto o la coherencia, y detectar estos errores puede marcar una gran diferencia.
 
-Gracias por leer este tutorial y ¡buen viaje!
+Ten siempre presente que un principiante puede leer estos cursos y tutoriales, por lo que es nuestra responsabilidad asegurarnos de que comprendan completamente. **¡Como revisor, eres un educador!**
+
+Ahora estás listo para comenzar a revisar cursos, tutoriales, cuestionarios y palabras del glosario. ¡Mantente atento para comenzar a verificar también las transcripciones de video!
+
+¡Gracias por leer este tutorial y disfruta tu viaje de revisión!

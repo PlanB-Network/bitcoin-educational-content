@@ -401,14 +401,10 @@ To save, click on `save`!
 
 ## Conclusion
 
+Pour résumer, être conscient des erreurs courantes des relecteurs peut vraiment vous aider à améliorer vos compétences lors de la vérification du contenu. Il est facile de négliger des éléments comme le contexte ou la cohérence, et détecter ces erreurs peut faire une grande différence.
 
-En résumé, le fait d'être conscient des erreurs courantes des correcteurs peut vraiment vous aider à améliorer vos compétences en matière de vérification du contenu. Il est facile de négliger des éléments tels que le contexte ou la cohérence, et la détection de ces erreurs peut faire une grande différence.
+Gardez toujours à l'esprit qu'un débutant peut lire ces cours et tutoriels, il est donc de notre responsabilité de nous assurer qu'ils comprennent pleinement. **En tant que relecteur, vous êtes un éducateur !**
 
+Vous êtes maintenant prêt à commencer à relire les cours, tutoriels, quiz et mots du glossaire. Restez à l'écoute pour commencer à vérifier également les transcriptions vidéo !
 
-Gardez toujours à l'esprit qu'un débutant peut lire ces cours et tutoriels, et qu'il est donc de notre responsabilité de veiller à ce qu'il les comprenne parfaitement. En tant que correcteur, vous êtes un éducateur !
-
-
-Vous êtes maintenant prêt à relire les cours, les tutoriels, les quiz et les glossaires. Restez à l'écoute pour commencer à vérifier les images et les transcriptions vidéo ;)
-
-
-Merci d'avoir lu ce tutoriel et bonne lecture !
+Merci d'avoir lu ce tutoriel et profitez de votre parcours de relecture !

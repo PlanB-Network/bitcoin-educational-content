@@ -138,7 +138,7 @@ Per salvare, clicca su `save`!
 
 Inoltre, ricorda di leggere il contenuto di ogni immagine. Se noti problemi con la traduzione del testo all'interno delle immagini, informa il tuo coordinatore e avrai l'opportunità di fare proofreading delle immagini!
 
-Puoi visualizzare l'immagine nella sezione `Preview` su Github (o sul nostro sito web, aperto in un'altra scheda). Poi, torna alla sezione `code` lì accanto, per la rilettura.
+Puoi visualizzare l'immagine nella sezione `Preview` su Github (o sul nostro sito web, aperto in un'altra scheda). Poi, torna alla sezione `code` lì accanto, per continuare con il proofreading.
 
 ![REVIEW](assets/en/9.webp)
 
@@ -197,7 +197,7 @@ Una cosa importante da tenere a mente quando si corregge questo tipo di file _ym
 
 ![REVIEW](assets/en/15.webp)
 
-Dopo aver esaminato la domanda, assicurati di cambiare lo stato "reviewed" da "false" a "true", come mostrato nell'immagine seguent. Mantieni queste parole in inglese, indipendentemente dalla lingua in cui stai lavorando!
+Dopo aver esaminato la domanda, assicurati di cambiare lo stato "reviewed" da "false" a "true", come mostrato nell'immagine seguente. Mantieni queste parole in inglese, indipendentemente dalla lingua in cui stai lavorando!
 
 ![REVIEW](assets/en/16.webp)
 
@@ -249,10 +249,10 @@ Di conseguenza, controlla sempre due volte tutti i collegamenti ipertestuali nel
 
 ## Conclusione
 
-In sintesi, conoscere gli errori più comuni dei proofreader può aiutarti a migliorare le tue capacità nel correggere i contenuti del repository. È facile trascurare aspetti come il contesto o la coerenza linguistica, per cui cogliere questi errori può fare una grande differenza.
+Per riassumere, essere consapevoli degli errori comuni dei proforeader può davvero aiutarti a migliorare le tue competenze nel processo di revisione dei contenuti. È facile trascurare aspetti come il contesto o la coerenza, e individuare questi errori può fare una grande differenza.
 
-Tieni sempre presente che un principiante può leggere questi corsi e tutorial, quindi è nostra responsabilità assicurarci che capisca appieno. Come proofreader, sei un educatore!
+Tieni sempre presente che un principiante potrebbe leggere questi corsi e tutorial, quindi è nostra responsabilità assicurarci che comprendano perfettamente il contenuto. **Come proofreader, sei un educatore!**
 
-Ora sei pronti per iniziare a correggere corsi, tutorial, quiz e glossari. Continua a tenere d'occhio il gruppo Telegram, per iniziare a fare proofreading anche di immagini e di trascrizioni da caricare sui video ;)
+Ora sei pronto per iniziare a rileggere corsi, tutorial, quiz e parole del glossario. Continua a seguirci per iniziare a controllare anche le trascrizioni dei video!
 
-Grazie per aver letto questo tutorial e buon viaggio nel tuo percorso di proofreading!
+Grazie per aver letto questo tutorial e buon viaggio nel proofreading!

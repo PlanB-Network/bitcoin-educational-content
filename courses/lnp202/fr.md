@@ -499,17 +499,91 @@ Maintenant que nous disposons d’un service de watchtower altruiste, voyons com
 
 
 
-
-
-
-
-
-
 ## Ouvrir son premier canal Lightning
+
+Si vous êtes arrivé jusqu’ici, vous savez déjà qu’un nœud Lightning sans canal est un peu comme un wallet vide : il existe, mais il ne sert à rien. Pour pouvoir envoyer ou recevoir des paiements, votre nœud doit être relié à au moins un autre nœud du réseau Lightning via un canal. Par la suite, il sera fortement recommandé d’ouvrir plusieurs canaux, pour des raisons de résilience, de confidentialité et d’efficacité de routage. Nous verrons également dans les chapitres suivants comment gérer vos liquidités, optimiser votre topologie de canaux et utiliser des outils plus avancés que l’interface de base de LND sur Umbrel.
+
+Mais dans ce chapitre d’introduction, l’objectif est simplement de comprendre comment choisir un bon pair Lightning, où trouver l’information nécessaire pour sélectionner ses pairs, et enfin comment ouvrir son premier canal via l'interface de base de LND.
+
+### Comment choisir un bon pair Lightning ?
+
+Lorsque vous ouvrez un canal, vous devez choisir un pair : c'est un autre nœud Lightning auquel votre nœud sera directement connecté via un canal. Ce choix du pair est important, car il aura un impact direct sur :
+* la facilité avec laquelle vos paiements trouveront une route ;
+* la fiabilité de vos canaux dans le temps ;
+* vos frais de routage.
+
+Il n’existe pas de pair parfait valable pour tout le monde, mais plusieurs critères concrets permettent de repérer de bons candidats.
+
+#### 1. La connectivité du nœud
+
+Un bon pair est un nœud bien connecté au réseau Lightning. Cela ne signifie pas seulement disposer d’un grand nombre de canaux (même si cela peut constituer un indicateur) mais surtout être relié à d’autres nœuds fiables et occuper une position suffisamment centrale dans le graphe du réseau.
+
+Un nœud bien connecté augmente vos chances de trouver une route efficace vers la plupart des destinations pour vos paiements. Il réduit également le nombre de nœuds intermédiaires nécessaires, ce qui limite les frais.
+
+À l’inverse, ouvrir votre premier canal vers un nœud isolé ou faiblement connecté risque de restreindre vos possibilités : vous pourrez payer ce pair, mais beaucoup plus difficilement le reste du réseau.
+
+#### 2. La capitalisation et la capacité des canaux
+
+Un bon pair est aussi un nœud suffisamment capitalisé. Cela se voit à travers la capacité totale de ses canaux (la somme des sats engagés sur l’ensemble de ses canaux) et la capacité moyenne de ses canaux (il vaut souvent mieux avoir seulement quelques canaux bien capitalisés que beaucoup de petits canaux vides).
+
+Un nœud avec une capacité ridicule, ou dont tous les canaux sont minuscules, aura du mal à router des paiements un peu volumineux, ce qui se traduira par des échecs de routage.
+
+#### 3. Les politiques de frais
+
+Chaque nœud fixe ses propres frais de routage (`base fee` et `fee rate`). Un bon pair ne pratique pas de frais exorbitants sur des canaux stratégiques.
+
+Pour un premier canal il est préférable de privilégier un nœud avec des frais plutôt modérés, afin de ne pas handicaper vos propres paiements.
+
+Rappelez-vous que vos propres frais de routage influencent aussi la perception que les autres auront de vous comme pair : un nœud qui change sans cesse ses frais ou qui impose des coûts absurdes est rarement apprécié.
+
+#### 4. La stabilité et l'ancienneté
+
+La stabilité d’un pair est un critère très important. Un bon nœud affiche un uptime élevé (il est très rarement hors ligne), il conserve ses canaux ouverts longtemps et il ne joue pas en permanence à ouvrir/fermer des canaux sans raison.
+
+Des canaux anciens et encore actifs sont un bon signal : ils suggèrent que la relation est profitable pour le pair, que le nœud sait gérer son capital et qu’il ne ferme pas n’importe quand, ce qui vous évite de payer sans cesse des frais onchain de fermeture et de réouverture.
+
+À l’inverse, un pair souvent hors ligne ou qui ferme rapidement ses canaux peut être source de problèmes pour vous.
+
+Même avec ces critères, vous ne ferez pas des choix parfaits du premier coup. C’est normal : la qualité réelle d’un pair se révèle à l’usage. Il est donc important de :
+* surveiller l’activité de vos canaux (volumes routés, succès/échecs de paiements, disponibilité...) ;
+* fermer les canaux qui ne servent à rien ou dont le pair est trop souvent hors ligne ;
+* réallouer votre capital vers de meilleurs pairs au fil du temps.
+
+L’idée n’est pas d’ouvrir et fermer des canaux tous les jours (ce qui serait coûteux en frais onchain), mais de faire évoluer progressivement votre topologie pour converger vers un ensemble de pairs fiables, bien connectés et compatibles avec vos besoins.
+
+### Comment trouver un pair ?
+
+Pour appliquer ces critères, vous aurez besoin d’outils qui donnent de la visibilité sur le réseau Lightning. Il existe plusieurs explorateurs et services qui permettent de faire cela. Personnellement j'utilise Amboss.
+
+TUTO
+
+Une fois que vous avez identifié un nœud intéressant, vous pouvez récupérer sa clé publique (pubkey) et, si besoin, son adresse (Tor ou clearnet) pour l’utiliser dans votre interface de gestion de nœud (Umbrel, ThunderHub, ligne de commande, etc.).
+
+
+
+### Ouvrir son premier canal via LND
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 ## Fermer un canal Lightning
+
+
+
+
 
 
 
@@ -520,6 +594,9 @@ Maintenant que nous disposons d’un service de watchtower altruiste, voyons com
 ## Utiliser un gestionnaire de nœud Lightning
 
 (ThunderHub / RTL) + Alby Hub ?
+
+
+
 
 ## Obtenir de la liquidité entrante
 

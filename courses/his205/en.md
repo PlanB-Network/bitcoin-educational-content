@@ -595,7 +595,7 @@ This section outlines the economic and monetary organization of ancient Egypt wi
 - **1323 BC. - Death of Tutankhamun**: The young pharaoh died aged around 18-19. His almost intact tomb was discovered in 1922, making it one of the most famous of all archaeological discoveries.
 - **Ramses II - Reigned 1279-1213 BC**: One of the most powerful pharaohs of the New Kingdom. Known for his military campaigns, his great monuments, and for having probably concluded the first known peace treaty.
 - **1275 BC - Sea Peoples**: Invasions or migrations of groups called "Sea Peoples" destabilize several Mediterranean civilizations, including Egypt.
-- **Battle of Xoïs - 1178 BC**: Conflict between the Egyptian army and invaders, probably linked to the Sea Peol:s. One of many battles at the end of the New Kingdom.
+- **Battle of Xoïs - 1178 BC**: Conflict between the Egyptian army and invaders, probably linked to the Sea Peoples. One of many battles at the end of the New Kingdom.
 - **Late Period (664 – 332 BC)**: The final period of native Egyptian rule before conquest by foreign powers.
 - **Cleopatra VII (69 - 30 BC)**: Last queen of Egypt, famous for her intelligence, charisma and alliances with Julius Caesar and Marc Antony, and probably also for her nose. Her reign marked the end of Pharaonic Egypt before its annexation by Rome.
 
@@ -615,7 +615,7 @@ Although this large-scale trade was mainly based on barter, a primitive form of 
 In archaic societies, payments were frequent, not to buy directly, but to settle social obligations like dowries and religious rituals. These transactions required precise pricing and valuation, and primitive societies had privileged, monetiform (i.e., countable) objects to estimate this value. In the case of a dowry, a specific quantity of such an object would be noted for exchange, with the value being fundamentally tied to the individuals involved. This demonstrates that payments existed before the advent of formal monetary systems, but their value was often derived from social contexts.
 
 
-Returning to Egypt, during the ancient empire, the "shât(y)" originallyreferred to a specific weight of metal (approximately 7.6 grams of gold or silver). It very quickly transitioned from a physical object to an abstract accounting function used to express value. We can recognize in it a unit of account, though it was not a stamped coin but rather a standardized measure of metal by weight. This represents a crucial step toward the abstract concept of money. 
+Returning to Egypt, during the ancient empire, the "shât(y)" originally referred to a specific weight of metal (approximately 7.6 grams of gold or silver). It very quickly transitioned from a physical object to an abstract accounting function used to express value. We can recognize in it a unit of account, though it was not a stamped coin but rather a standardized measure of metal by weight. This represents a crucial step toward the abstract concept of money. 
 
 
 The notion of the shât(y) was eventually abandoned, perhaps due to the risk of fraud, which may explain why the Egyptians were slow to adopt stamped coins, preferring to weigh metal long after their neighbors had begun minting them.
@@ -1424,7 +1424,7 @@ Fiat currency's value is derived almost entirely from this authority premium. It
 The monetary premium proposal unifies debt and commodity money theories by arguing that their value is not fundamentally different. The value of a gold coin does not  primarily derive from its "intrinsic" or use value. Rather, like fiat money, its value is predominantly a function of confidence and monetary demand. For example, if gold's industrial use is 10% of its value, accounting for $300 of its $3,000 market price, the remaining $2,700 is the monetary premium. The fact that fiat has zero use value does not change this principle; the mechanism of value attribution is the same. Therefore, the minimal use value of a commodity like gold does not alter the fundamental process of monetary valuation.
 
 
-On the other hand, it's certain that **at the level of emergence, according to Mises' regression theorem, use value can create a demand an initial demand that initiates the process of monetization.** With debt money, however, emergence is an imposition by an authority, so the source and initiation are completely different. **BNevertheless, at the level of value, the monetary premium provides a unified explanation for why  both fiat money and why commodity money possess the value** we attribute to them. The underlying process is the same: the money premium.
+On the other hand, it's certain that **at the level of emergence, according to Mises' regression theorem, use value can create a demand an initial demand that initiates the process of monetization.** With debt money, however, emergence is an imposition by an authority, so the source and initiation are completely different. **Nevertheless, at the level of value, the monetary premium provides a unified explanation for why  both fiat money and why commodity money possess the value** we attribute to them. The underlying process is the same: the money premium.
 
 
 #### The monetary premium
@@ -1490,7 +1490,7 @@ Money is a good acquired not for its own use or consumption, but to be later exc
 
 A monetary good acquires a monetary premium when a demand exists for it to serve one or more of money's functions.
 
-Foor this premium to persist, the good must be sufficiently scarce; otherwise, its supply would increase to meet the monetary demand, eroding the premium.
+For this premium to persist, the good must be sufficiently scarce; otherwise, its supply would increase to meet the monetary demand, eroding the premium.
 
 
 

@@ -3869,10 +3869,10 @@ Ze moeten er alleen voor zorgen dat ze deze overdrachten kunnen doen, maar er is
 
 
 
-Om het verband tussen geld en inflatie te begrijpen, raad ik je een cursus op Plan ₿ Network aan die aan dit onderwerp is gewijd. Je leert het verschil tussen prijsstijgingen, wat we in het leven zien, en inflatie. Ze zijn niet hetzelfde. Als we het over inflatie hebben, hebben we het vaak over prijsstijgingen, niet over de inflatie zelf. Inflatie is een vrij nauwkeurig concept, dat wordt verklaard door de toename van de geldhoeveelheid.
+Om het verband tussen geld en inflatie te begrijpen, raad ik je een cursus op Plan ₿ Academy aan die aan dit onderwerp is gewijd. Je leert het verschil tussen prijsstijgingen, wat we in het leven zien, en inflatie. Ze zijn niet hetzelfde. Als we het over inflatie hebben, hebben we het vaak over prijsstijgingen, niet over de inflatie zelf. Inflatie is een vrij nauwkeurig concept, dat wordt verklaard door de toename van de geldhoeveelheid.
 
 
-https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 Om dit deel over de fiatwereld af te sluiten, wil ik je graag wijzen op een bron die je kan helpen om de fenomenen die ik net heb uitgelegd, zoals inflatie, beter te begrijpen.
 

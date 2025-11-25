@@ -1,0 +1,10 @@
+question: Каква е единицата Bitcoin, използвана в Lightning Network?
+answer: Sats.
+wrong_answers:
+  - Блок.
+  - Етер.
+  - Litecoin.
+explanation: |
+  Lightning Network използва сатоши (наричан също sats), а
+  десетичната част на биткойн, за да функционира.
+reviewed: true

@@ -2546,7 +2546,7 @@ Sayangnya, setelah para pendiri Samourai ditangkap, alat-alat ini tidak lagi ber
 
 Setelah kita membahas coinjoins secara mendetail, kita akan melihat teknik privasi lain yang tersedia di Bitcoin di bagian akhir kursus ini. Kita akan melihat payjoin, jenis transaksi pseudo-coinjoin tertentu, protokol alamat statis, serta langkah-langkah untuk memperkuat kerahasiaan tidak pada tingkat transaksi itu sendiri, tetapi pada tingkat jaringan node.
 
-https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # Memahami tantangan teknik kerahasiaan tingkat lanjut lainnya
 

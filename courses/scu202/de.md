@@ -5711,7 +5711,7 @@ Aus Sicht der Sicherheit und des Datenschutzes bietet Zen eine native Blockierun
 
 Zen Browser ist eine interessante Alternative, wenn du eine Gecko-Browsing-Umgebung suchst, die kostenlos, innovativ und übersichtlich ist und deine Privatsphäre respektiert.
 
-https://planb.academy/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.academy/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit-basierte Browser
 
@@ -6935,7 +6935,7 @@ Telegram ist dank seiner Ergonomie und seiner Funktionen (öffentliche Kanäle, 
 Telegram kann daher technisch auf den Inhalt der meisten Unterhaltungen zugreifen, die nicht ausdrücklich geschützt sind. Auch wenn das Unternehmen eine feste Haltung gegenüber Regierungsbehörden einnimmt, ist Telegram keine optimale Lösung für vertrauliche oder sensible Gespräche. Es sei denn, du nutzt ausdrücklich die "geheimen Nachrichten", die im Alltag weit weniger praktisch sind.
 
 
-https://planb.academy/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 

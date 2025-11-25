@@ -3869,10 +3869,10 @@ Bakeneye gusa kumenya neza ko bashobora gukora ivyo bihembo, ariko nta 3%, 1%, 1
 
 
 
-Kugira ngo utahure isano riri hagati y’amahera n’ugutera imbere kw’ibiciro, ndabagira inama yo gukora inyigisho mfise kuri Plan ₿ Network yerekeye iyo nkuru. Uzomenya itandukaniro riri hagati y’ukwiyongera kw’ibiciro, ivyo ni vyo tubona mu buzima, n’ugutera imbere kw’ibiciro. Si ikintu kimwe. Nkako, iyo tuvuze ivy’ugutera imbere kw’ibiciro, akenshi tuba turiko turavuga ivy’ugutera imbere kw’ibiciro, si ugutera imbere kw’ibiciro ubwavyo. Inflation ni iciyumviro kibereye, gisigurwa n’ukwiyongera kw’amahera.
+Kugira ngo utahure isano riri hagati y’amahera n’ugutera imbere kw’ibiciro, ndabagira inama yo gukora inyigisho mfise kuri Plan ₿ Academy yerekeye iyo nkuru. Uzomenya itandukaniro riri hagati y’ukwiyongera kw’ibiciro, ivyo ni vyo tubona mu buzima, n’ugutera imbere kw’ibiciro. Si ikintu kimwe. Nkako, iyo tuvuze ivy’ugutera imbere kw’ibiciro, akenshi tuba turiko turavuga ivy’ugutera imbere kw’ibiciro, si ugutera imbere kw’ibiciro ubwavyo. Inflation ni iciyumviro kibereye, gisigurwa n’ukwiyongera kw’amahera.
 
 
-https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 Kugira ngo nsozere iki gice ku isi ya fiat, ndashaka kwerekana uburyo bwo kubafasha gutahura neza ibintu nsanzwe ndasigura, nk’ugutera imbere kw’ibiciro.
 

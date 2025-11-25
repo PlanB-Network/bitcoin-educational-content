@@ -3602,7 +3602,7 @@ Ne yazık ki Samourai'nin kurucularının tutuklanmasının ardından bu araçla
 Coinjoinleri ayrıntılı olarak ele aldığımıza göre, kursumuzun son bölümünde Bitcoin'da mevcut olan diğer gizlilik tekniklerine bakacağız. Payjoin'lere, belirli sözde CoinJoin işlem türlerine, statik Address protokollerine ve gizliliği işlemlerin kendi seviyesinde değil, düğüm ağı seviyesinde güçlendirmeye yönelik önlemlere bakacağız.
 
 
-https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # Diğer gelişmiş gizlilik tekniklerinin zorluklarının anlaşılması
 

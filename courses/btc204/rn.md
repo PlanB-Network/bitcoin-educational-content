@@ -3600,7 +3600,7 @@ Ikibabaje ni uko inyuma y’aho abashinze Samourai bafashwe, ivyo bikoresho ntib
 Ubu ko twavuze coinjoins mu buryo burambuye, turaza kuraba ubundi buryo bwo gukingira ubuzima bwite buboneka kuri Bitcoin mu gice ca nyuma c’inyigisho yacu. Tuzoba turiko turaraba payjoins, ubwoko bwihariye bw’ibikorwa vy’ubuhinga bwa pseudo-CoinJoin, amasezerano ya Address adahinduka, hamwe n’ingero zo gukomeza ibanga atari ku rugero rw’ibikorwa ubwavyo, ariko ku rugero rw’uruzitiro rw’ibice.
 
 
-https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # Gutahura ingorane z'ubundi buryo buteye imbere bwo gukingira ibanga .
 

@@ -1,0 +1,8 @@
+question: Какво е едно от възможните приложения на Lightning Network в ежедневието?
+answer: Незабавно фактуриране в търговията.
+wrong_answers:
+  - Mining нови биткойни.
+  - Създаване на нови криптовалути.
+  - Увеличаване на стойността на Bitcoin.
+explanation: >-
+reviewed: true

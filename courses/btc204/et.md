@@ -2548,7 +2548,7 @@ Kahjuks ei ole need vahendid pärast Samourai asutajate vahistamist enam tööko
 
 Nüüd, kui me oleme käsitlenud üksikasjalikult coinjoins, vaatame meie kursuse viimases osas teisi Bitcoini privaatsustehnikaid. Vaatleme payjoin'eid, konkreetseid pseudocoinjoin'i tehingutüüpe, staatilisi aadressiprotokolle, samuti meetmeid, mis tugevdavad konfidentsiaalsust mitte tehingute endi, vaid sõlmede võrgu tasandil.
 
-https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # Teiste täiustatud konfidentsiaalsusmeetoditega seotud probleemide mõistmine
 

@@ -1,0 +1,11 @@
+question: Кой е първият човек, присъединил се към мрежата Bitcoin след Satoshi Накамото?
+answer: Hal Finney.
+wrong_answers:
+  - Ласло Ханиец.
+  - Фил Шампанско.
+  - Rogzy.
+explanation: |
+  Hal Finney е първият човек, който се присъединява към мрежата Bitcoin
+  след самия Satoshi Накамото. Той дори написа в Туитър Running
+  Bitcoin, за да отбележи случая.
+reviewed: true

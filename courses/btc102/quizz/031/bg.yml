@@ -1,0 +1,9 @@
+question: Кои от тях са странични вериги на Bitcoin?
+answer: Liquid и подложка
+wrong_answers:
+  - Полигон и арбитър
+  - Юпитер и Фантом
+  - Bitcoin Cash и Bitcoin Satoshi Vision
+explanation: |
+  Liquid и RSK са странични вериги, които имат двупосочно свързване с Bitcoin. Другите варианти не са странични вериги или нямат 2WP с блокчейн Bitcoin.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Каква е командата за проверка на количеството биткойни в обращение във възел Bitcoin?
+answer: bitcoin-cli gettxoutsetinfo.
+wrong_answers:
+  - bitcoin-cli getblockchaininfo.
+  - bitcoin-cli getwalletinfo.
+  - bitcoin-cli getnetworkinfo.
+explanation: |
+  Командата за проверка на количеството биткойни в
+  в обращение във възел Bitcoin е bitcoin-cli
+  gettxoutsetinfo. Тази команда осигурява прозрачност и
+  проверимост, което засилва доверието в системата Bitcoin.
+reviewed: true

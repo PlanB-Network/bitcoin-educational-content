@@ -1,0 +1,8 @@
+question: Какъв е начинът да изпробвате Lightning Network за себе си?
+answer: Опитайте приложението за подкаст, наречено Fountain.
+wrong_answers:
+  - От mining Bitcoin с помощта на персонален компютър.
+  - Чрез закупуване на Bitcoin от банката.
+  - Чрез създаване на нова криптовалута.
+explanation: >-
+reviewed: true

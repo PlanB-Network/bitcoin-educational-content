@@ -87,7 +87,7 @@ Votre carte sera automatiquement créditée dès que le paiement de l'invoice Li
 
 Grâce à cette carte virtuelle, vous pouvez régler des produits et services en ligne comme avec n’importe quelle carte Visa classique. Par exemple, vous pourriez suivre le tout dernier cours premium consacré au minage de Bitcoin disponible sur notre plateforme. Bien que cet exemple soit purement illustratif (puisque nous acceptons déjà les paiements en bitcoins natifs), il permet de montrer la simplicité d’utilisation de la carte Moon.
 
-https://planb.academy/courses/the-world-of-bitcoin-mining-7750d9da-417a-4377-8e35-85c377168477
+https://planb.academy/courses/7750d9da-417a-4377-8e35-85c377168477
 
 ![buycourse](assets/fr/13.webp)
 

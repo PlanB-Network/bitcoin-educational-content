@@ -3872,7 +3872,7 @@ Só precisam de garantir que podem fazer essas transferências, mas não há 3%,
 Para compreender a relação entre dinheiro e inflação, recomendo um curso que tenho no Plan ₿ Network dedicado a este assunto. Aprenderá a diferença entre o aumento dos preços, que é o que vemos na vida, e a inflação. Não são a mesma coisa. De facto, quando nos referimos à inflação, estamos muitas vezes a falar de aumentos de preços, não da inflação em si. A inflação é um conceito bastante preciso, explicado pelo aumento da oferta de moeda.
 
 
-https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 Para concluir esta secção sobre o mundo fiduciário, gostaria de indicar um recurso para o ajudar a compreender melhor os fenómenos que acabei de explicar, como a inflação.
 

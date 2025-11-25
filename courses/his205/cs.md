@@ -3872,7 +3872,7 @@ Musí se jen ujistit, že tyto převody mohou provést, ale neexistuje žádná 
 Chcete-li pochopit souvislost mezi penězi a inflací, doporučuji kurz, který mám na Plan ₿ Network a který se tomuto tématu věnuje. Dozvíte se, jaký je rozdíl mezi růstem cen, který vidíme v životě, a inflací. Není to totéž. Ve skutečnosti, když mluvíme o inflaci, často mluvíme o růstu cen, nikoli o inflaci samotné. Inflace je poměrně přesný pojem, který se vysvětluje růstem nabídky peněz.
 
 
-https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 Na závěr této části o světě fiat bych vás rád upozornil na zdroj, který vám pomůže lépe pochopit jevy, které jsem právě vysvětlil, jako je inflace.
 

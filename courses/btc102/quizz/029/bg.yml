@@ -1,0 +1,9 @@
+question: Кой основен играч проектира ASIC за Bitcoin mining?
+answer: Bitmain
+wrong_answers:
+  - Trezor
+  - Ledger
+  - Foundry USA
+explanation: |
+  Bitmain е един от водещите производители на специализиран хардуер за Bitcoin mining.
+reviewed: false

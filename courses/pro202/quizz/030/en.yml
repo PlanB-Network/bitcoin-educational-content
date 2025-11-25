@@ -1,0 +1,8 @@
+question: What is the primary purpose of the sighash construction process in Bitcoin transaction validation?
+answer: To create the exact message that was originally signed by the private key for signature verification
+wrong_answers:
+  - To generate a unique identifier for the transaction that prevents double-spending attacks
+  - To compress the transaction data into a smaller format for efficient network transmission
+  - To encrypt the transaction contents so that only the recipient can decrypt and spend the coins
+explanation: |
+  The sighash construction creates the precise message that was signed by the private key, enabling OP_CHECKSIG to verify the signature's authenticity. This process involves emptying ScriptSigs, replacing the current input's ScriptSig with its corresponding ScriptPubKey, and appending a hash type before double-hashing. The other options are incorrect: transaction IDs serve as identifiers, compression is handled separately, and Bitcoin transactions are not encrypted but publicly visible on the blockchain.

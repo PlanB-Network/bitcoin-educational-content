@@ -3872,7 +3872,7 @@ objectives:
 要想了解货币与通货膨胀之间的联系，我向您推荐我在 Plan ₿ Network 上专门为这一主题开设的一门课程。您将了解到我们在生活中看到的物价上涨与通货膨胀之间的区别。它们不是一回事。事实上，当我们提到通货膨胀时，我们通常说的是物价上涨，而不是通货膨胀本身。通货膨胀是一个相当精确的概念，由货币供应量的增加来解释。
 
 
-https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 最后，我想指出一个资源，帮助你更好地理解我刚才解释的通货膨胀等现象。
 

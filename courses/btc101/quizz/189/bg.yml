@@ -1,0 +1,8 @@
+question: Какво е швейцарското заплащане Bitcoin?
+answer: Решение за приемане на Bitcoin от аматьори търговци.
+wrong_answers:
+  - Швейцарска банка, която приема Bitcoin.
+  - Обмен на Bitcoin от Швейцария.
+  - Компания mining, която работи в Швейцария.
+explanation: >-
+reviewed: true

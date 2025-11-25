@@ -1,0 +1,10 @@
+question: Кога за първи път е валидиран и приложен Lightning Network?
+answer: 2017
+wrong_answers:
+  - 2015
+  - 2016
+  - 2018
+explanation: |
+  Lightning Network беше валидиран и приложен за първи път
+  през 2017 г.
+reviewed: true

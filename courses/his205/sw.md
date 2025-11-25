@@ -3872,7 +3872,7 @@ Wanahitaji tu kuhakikisha kuwa wanaweza kufanya uhamisho huu, lakini hakuna hifa
 Ili kuelewa uhusiano kati ya pesa na mfumuko wa bei, ninapendekeza kozi niliyo nayo kwenye Plan ₿ Network inayohusu somo hili. Utajifunza tofauti kati ya ongezeko la bei, ambalo tunaona maishani, na mfumuko wa bei. Wao si kitu kimoja. Kwa kweli, tunaporejelea mfumuko wa bei, mara nyingi tunazungumza juu ya ongezeko la bei, sio mfumuko wa bei wenyewe. Mfumuko wa bei ni dhana sahihi kabisa, inayoelezewa na ongezeko la usambazaji wa pesa.
 
 
-https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 Ili kuhitimisha sehemu hii kuhusu ulimwengu wa fiat, ningependa kukuonyesha nyenzo ya kukusaidia kuelewa vyema matukio ambayo nimeeleza hivi punde, kama vile mfumuko wa bei.
 

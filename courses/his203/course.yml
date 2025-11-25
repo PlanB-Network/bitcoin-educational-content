@@ -1,0 +1,25 @@
+id: 63f66c28-c9fa-11f0-a937-37b22ccf49e8
+
+test_only: true
+
+topic: social studies
+subtopic: history
+level: intermediate
+hours: 15
+
+professors_id:
+  - 81e18c30-579e-46c1-a197-98cd32cb37ae
+published_at: 2025-11-25
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-11-25
+    urgency: 1
+    contributor_names:
+      - lugaxker
+    reward: 0
+tags:
+  - historical
+  - protocols
+  - decentralization

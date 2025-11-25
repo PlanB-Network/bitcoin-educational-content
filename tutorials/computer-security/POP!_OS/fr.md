@@ -1,18 +1,16 @@
 ---
-name: POS OS
-description: Installer POS OS
+name: POP!_OS
+description: Guide pour l'installation de POP!_OS, une distribution de linux.
 author: Bened45
 ---
 
-
-# Kali Linux
 
 ![cover](assets/cover.webp)
 
 ## Introduction
 
-Pop!OS est un système d’exploitation basé sur Linux, développé par *System76*, un constructeur américain spécialisé dans les machines dédiées aux développeurs, aux créateurs et aux utilisateurs avancés.
-Conçu pour offrir un environnement moderne, stable et performant, Pop!_OS se distingue par une expérience simple, des outils puissants et une forte orientation vers la productivité
+Pop!OS est un système d’exploitation basé sur Linux, développé par **System76**, un constructeur américain spécialisé dans les machines dédiées aux développeurs, aux créateurs et aux utilisateurs avancés.
+Conçu pour offrir un environnement moderne, stable et performant, Pop!OS se distingue par une expérience simple, des outils puissants et une forte orientation vers la productivité
 
 ### Qui est System 76?
 
@@ -31,13 +29,13 @@ L’objectif est d’offrir une intégration matérielle et logicielle de haute 
 ## Un système moderne, stable et accessible
 
 Pop!OS reprend les fondations d’Ubuntu, ce qui lui confère une excellente stabilité, une compatibilité matérielle large et un accès à un écosystème logiciel immense.  
-Il fournit une interface élégante, le bureau COSMIC, pensé pour être fluide, intuitif et personnalisable, même pour les nouveaux utilisateurs.**
+Il fournit une interface élégante, le bureau COSMIC, pensé pour être fluide, intuitif et personnalisable, même pour les nouveaux utilisateurs.
 
 ## Un choix idéal pour les développeurs, créateurs et utilisateurs exigeants
 
-Pop!OS est particulièrement apprécié par :
+Pop!_OS est particulièrement apprécié par :
 
-- les développeurs (outils préinstallés, gestion avancée du tiling),
+- les développeurs (outils pré installés, gestion avancée du tiling),
 - les utilisateurs avec cartes graphiques Nvidia ou AMD,
 - les étudiants et professionnels recherchant un système fiable,
 - les personnes venant de Windows souhaitant une transition simple.
@@ -52,11 +50,11 @@ Il inclut une gestion automatique des fenêtres en mosaïque (“tiling”), un 
 - **Interface COSMIC** ergonomique et moderne.
 - **Grande compatibilité** avec les logiciels Ubuntu et Flatpak.
 
-## Télécharger Pop!_OS de manière sûre
+## Télécharger POP!_OS de manière sûre
 
 ### 1. Prérequis
 
-Avant de télécharger et d’installer Pop!OS, quelques éléments sont nécessaires pour préparer correctement l’environnement d’installation.
+Avant de télécharger et d’installer POP!OS, quelques éléments sont nécessaires pour préparer correctement l’environnement d’installation.
 
 ### Matériel requis
 
@@ -139,7 +137,7 @@ Vous pouvez utiliser plusieurs outils, par exemple Balena Etcher :
 
 ![Utilisation de Balena Etcher](assets/fr/09.webp)
 
-## Installer et sécuriser Pop!OS
+## Installer et sécuriser Pop!_OS
 
 ### Démarrage sur la clé USB
 
@@ -153,35 +151,35 @@ Vous pouvez utiliser plusieurs outils, par exemple Balena Etcher :
 
 Une fois votre clé USB bootable sélectionnée comme périphérique de démarrage, votre ordinateur démarrera dans un Pop live !_Environnement OS.
 
-1. Sélectionnez votre langue.
+ Sélectionnez votre langue.
 
 ![Capture](assets/fr/10.webp)
 
-2. Sélectionnez un lieu.
+ Sélectionnez un lieu.
 
 ![Capture](assets/fr/11.webp)
 
-3. Sélectionnez une langue de saisie au clavier.
+ Sélectionnez une langue de saisie au clavier.
 
 ![Capture](assets/fr/12.webp)
 
-4. Sélectionnez une disposition de clavier.
+ Sélectionnez une disposition de clavier.
 
 ![Capture](assets/fr/13.webp)
 
-5. Choisissez le `Clean Install` option pour une installation standard. C'est la meilleure option pour les nouveaux utilisateurs de Linux, mais sachez que cela effacera tout le contenu du lecteur cible. Alternativement, vous pouvez sélectionner `Try Demo Mode` pour continuer à tester Pop!OS dans l'environnement live.
+ Choisissez le `Clean Install` option pour une installation standard. C'est la meilleure option pour les nouveaux utilisateurs de Linux, mais sachez que cela effacera tout le contenu du lecteur cible. Alternativement, vous pouvez sélectionner `Try Demo Mode` pour continuer à tester Pop!OS dans l'environnement live.
 
 ![Capture](assets/fr/14.webp)
 
 Sélectionner `Custom (Advanced)` pour accéder à GParted. Cet outil permet de configurer des fonctionnalités avancées telles que le double démarrage, la création d'un système distinct `/home` partition, ou en plaçant le `/tmp` partition sur un lecteur différent.
 
-6. Cliquez `Erase and Install` pour installer Pop!OS sur votre disque sélectionné.
+ Cliquez `Erase and Install` pour installer Pop!OS sur votre disque sélectionné.
 
 ![Capture](assets/fr/15.webp)
 
 ### Configuration du compte utilisateur
 
-La section suivante du programme d'installation vous guidera dans la création d'un compte utilisateur afin que vous puissiez vous connecter à votre nouveau Pop !_Installation du système d'exploitation.
+La section suivante du programme d'installation vous guidera dans la création d'un compte utilisateur afin que vous puissiez vous connecter à votre nouveau  système d'exploitation.
 
 Fournissez un nom complet (cela peut inclure n'importe quel texte de votre choix, majuscule ou minuscule), ainsi qu'un nom d'utilisateur (qui doit être en minuscules) :
 
@@ -201,7 +199,7 @@ Le lecteur peut être crypté à l'aide de votre mot de passe de connexion en v�
 
 Si vous avez choisi le `Set Password` bouton, vous verrez une invite supplémentaire pour définir votre mot de passe de cryptage. Cela sera demandé à chaque démarrage du système.
 
-Passez à l’étape suivante dans le programme d’installation. Pop !OS va maintenant commencer l'installation sur le disque.
+Passez à l’étape suivante dans le programme d’installation. Pop!OS va maintenant commencer l'installation sur le disque.
 
 ![Capture](assets/fr/19.webp)
 
@@ -223,17 +221,169 @@ Vous pouvez également installer les pilotes graphiques NVIDIA depuis le Pop !_B
 
 ![Capture](assets/fr/20.webp)
 
-## 7. Installer les outils essentiels
+## **Installation des outils essentiels**
 
-| Outil            | Description                              | Commande d'installation                         |
-|------------------|----------------------------------------|------------------------------------------------|
-| Firefox          | Navigateur web libre et populaire      | `sudo apt install firefox`                      |
-| Brave            | Navigateur web axé sur la confidentialité | Installation via Pop!_Shop ou site officiel    |
-| VS Code          | Éditeur de code pour développeurs      | `sudo snap install code --classic`              |
-| Git              | Gestionnaire de versions                | `sudo apt install git`                          |
-| Terminal GNOME   | Terminal de base intégré                 | Déjà installé par défaut                        |
-| Flatpak          | Gestionnaire de paquets alternatif      | `sudo apt install flatpak`                      |
-| VLC              | Lecteur multimédia polyvalent           | `sudo apt install vlc`                          |
+Pop!OS propose une large gamme de logiciels via sa boutique Pop!Shop, mais beaucoup d’outils essentiels sont également installables via le terminal avec `apt` ou `snap`. Voici comment installer les outils clés pour un environnement de travail complet.
+
+### Installation via le terminal
+
+| Outil          | Description                               | Commande d’installation                       |
+|----------------|-------------------------------------------|----------------------------------------------|
+| Firefox        | Navigateur web libre et populaire          | `sudo apt install firefox`                    |
+| Brave          | Navigateur web axé sur la confidentialité  | Installation via Pop!_Shop ou site officiel  |
+| Visual Studio Code (VS Code) | Éditeur de code puissant pour développeurs | `sudo snap install code --classic`            |
+| Git            | Gestionnaire de versions                   | `sudo apt install git`                        |
+| Flatpak        | Gestionnaire de paquets alternatif         | `sudo apt install flatpak`                    |
+| VLC            | Lecteur multimédia polyvalent              | `sudo apt install vlc`                        |
+| GNOME Terminal | Terminal par défaut                        | Préinstallé sur Pop!_OS                       |
+| Curl           | Outil de transfert de données en ligne   | `sudo apt install curl`                       |
+| Wget           | Téléchargement de fichiers via HTTP/FTP  | `sudo apt install wget`                       |
+| Docker         | Conteneurisation d’applications           | Installation via script officiel ou `apt`    |
+| Node.js        | Environnement JavaScript côté serveur     | Installation via `apt` ou NodeSource          |
+| Python3        | Langage de programmation                   | `sudo apt install python3 python3-pip`       |
+| GIMP           | Éditeur d’image avancé                      | `sudo apt install gimp`                       |
+| Thunderbird    | Client mail                                | `sudo apt install thunderbird`                |
+| Transmission   | Client BitTorrent léger                     | `sudo apt install transmission-gtk`           |
+| Htop           | Moniteur de système interactif             | `sudo apt install htop`                       |
+
+### Installation via Pop! Shop (interface graphique)
+
+- Ouvrez **Pop!_Shop** depuis le menu principal.
+- Utilisez la barre de recherche pour trouver les applications souhaitées (par exemple, “Brave”).
+- Cliquez sur **Installer** pour chaque application.
+- Pop!_Shop gère automatiquement les dépendances et mises à jour.
+
+##  **Mise à jour du système**
+
+### **Option 1 : Via l’interface graphique (GUI)**
+
+Pop!_OS propose un gestionnaire de mises à jour graphique simple et intuitif.
+
+1. Cliquez sur le **menu principal** (icône en bas à gauche).
+2. Ouvrez **“Pop!_Shop”**.
+3. Dans la Pop!_Shop, cliquez sur l’onglet **“Updates”** ou **“Mises à jour”**.
+4. Le système va vérifier automatiquement les mises à jour disponibles.
+5. Cliquez sur **“Mettre à jour tout”** pour lancer l’installation des mises à jour.
+6. Entrez votre mot de passe si demandé.
+7. Laissez le processus se terminer, puis redémarrez si nécessaire.
+
+### **Option 2 : Via le terminal**
+
+Ouvrez un terminal et tapez :
+
+```bash
+# Mettre à jour la liste des paquets et le système
+sudo apt update && sudo apt full-upgrade -y
+
+# Nettoyer les paquets inutiles
+sudo apt autoremove -y && sudo apt autoclean
+```
+
+### Gestion des utilisateurs
+
+Il est recommandé d’utiliser un compte utilisateur standard avec droits sudo pour les opérations quotidiennes.
+
+Pour créer un nouvel utilisateur :
+
+```bash
+sudo adduser votrenom sudo usermod -aG sudo votrenom
+```
+
+Déconnectez-vous, puis reconnectez-vous avec ce nouvel utilisateur.
+
+### Gestion des pilotes graphiques
+
+- Pour les cartes Nvidia, vérifiez que les pilotes propriétaires sont bien installés :
+
+```bash
+sudo apt install system76-driver-nvidia
+```
+
+- Pour AMD/Intel, les pilotes sont généralement inclus par défaut.
+
+### Activer le pare-feu (UFW)
+
+Pop!_OS ne bloque pas le trafic réseau par défaut. Activez UFW pour renforcer la sécurité :
+
+```bash
+sudo ufw enable sudo ufw status verbose`
+```
+
+### Configurer les mises à jour automatiques
+
+Pour garder le système à jour sans intervention manuelle :
+
+```bash
+sudo apt install unattended-upgrades sudo dpkg-reconfigure --priority=low unattended-upgrades
+```
+
+### Personnaliser l’apparence et le comportement
+
+- Ouvrez les **Paramètres système** → **Apparence** pour choisir un thème clair ou sombre.
+- Configurez les coins actifs, animations et extensions via le gestionnaire COSMIC.
+- Ajustez la disposition du bureau pour optimiser votre workflow.
+
+### Configurer la sauvegarde automatique
+
+Pop!_OS intègre des outils comme Deja Dup pour la sauvegarde :
+
+- Lancez **Sauvegardes** depuis le menu.
+- Choisissez un disque externe ou un emplacement réseau.
+- Programmez des sauvegardes régulières.
+
+### Installer des extensions GNOME/COSMIC utiles
+
+Voici quelques extensions recommandées pour améliorer l’expérience utilisateur :
+
+- **Dash to Dock** : barre d’applications toujours visible.
+- **GSConnect** : synchronisation avec Android.
+- **Clipboard Indicator** : gestion du presse-papiers avancée.
+
+Installez-les via :
+
+```bash
+sudo apt install gnome-shell-extensions
+```
+
+Puis activez-les dans les paramètres.
+
+### Optimiser la gestion de la mémoire et du swap
+
+Vérifiez l’état de votre swap :
+
+```bash
+swapon --show
+```
+
+Si nécessaire, augmentez la taille du swap ou configurez un fichier swap :
+
+```bash
+sudo fallocate -l 4G /swapfile sudo chmod 600 /swapfile sudo mkswap /swapfile sudo swapon /swapfile
+```
+
+Ajoutez-le au fichier `/etc/fstab` pour un montage automatique.
+
+## Gestion des paquets et dépôts
+
+### Comprendre les sources de paquets
+
+Pop!_OS, basé sur Ubuntu, utilise principalement :
+
+- **Les dépôts officiels Ubuntu** : pour la majorité des logiciels stables.
+- **Les dépôts System76** : pour les pilotes, firmware et outils spécifiques.
+- **Flatpak** : pour accéder à un large choix d’applications sandboxées.
+- **Snap** (optionnel) : autre format de paquets universels.
+
+---
+
+### Ajouter et gérer des dépôts PPA
+
+Pour installer des logiciels souvent mis à jour, certains PPA (Personal Package Archives) peuvent être ajoutés :
+
+```bash
+sudo add-apt-repository ppa:nom/ppa
+sudo apt update
+```
 
 ## Conclusion
 

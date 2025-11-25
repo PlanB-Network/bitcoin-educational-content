@@ -2548,7 +2548,7 @@ Valitettavasti Samourain perustajien pidätyksen jälkeen nämä välineet eivä
 
 Nyt kun olemme käsitelleet coinjoineja yksityiskohtaisesti, tarkastelemme kurssimme viimeisessä osassa muita Bitcoinissa käytettävissä olevia yksityisyystekniikoita. Tarkastelemme payjoineja, erityisiä pseudo-coinjoin-transaktiotyyppejä, staattisia osoiteprotokollia sekä toimenpiteitä, joilla vahvistetaan luottamuksellisuutta ei itse transaktioiden vaan solmujen verkon tasolla.
 
-https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # Muiden kehittyneiden luottamuksellisuustekniikoiden haasteiden ymmärtäminen
 

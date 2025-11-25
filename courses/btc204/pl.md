@@ -3587,7 +3587,7 @@ Niestety, po aresztowaniu założycieli Samourai narzędzia te przestały dział
 Teraz, gdy szczegółowo omówiliśmy coinjoiny, przyjrzymy się innym technikom prywatności dostępnym w Bitcoin w ostatniej części naszego kursu. Przyjrzymy się payjoinom, określonym typom transakcji pseudo-CoinJoin, statycznym protokołom Address, a także środkom wzmacniającym poufność nie na poziomie samych transakcji, ale na poziomie sieci węzłów.
 
 
-https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # Zrozumienie wyzwań związanych z innymi zaawansowanymi technikami poufności
 

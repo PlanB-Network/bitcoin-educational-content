@@ -132,7 +132,7 @@ Your card will be automatically credited as soon as payment of the Lightning inv
 With this virtual card, you can pay for products and services online just as you would with any conventional Visa card. For example, you could take the latest premium course on Bitcoin mining available on our platform. Although this example is purely illustrative (since we already accept payments in native bitcoins), it does demonstrate how easy it is to use the Moon card.
 
 
-https://planb.academy/courses/the-world-of-bitcoin-mining-7750d9da-417a-4377-8e35-85c377168477
+https://planb.academy/courses/7750d9da-417a-4377-8e35-85c377168477
 
 ![buycourse](assets/fr/13.webp)
 

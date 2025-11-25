@@ -3602,7 +3602,7 @@ Whirlpool 8x8 서지 사이클 CoinJoin를 예로 들면 볼츠만 테이블은 
 이제 코인 조인에 대해 자세히 살펴보았으니, 강좌의 마지막 섹션에서는 Bitcoin에서 사용할 수 있는 다른 개인정보 보호 기술을 살펴보겠습니다. 페이조인, 특정 의사 CoinJoin 트랜잭션 유형, 정적 Address 프로토콜, 트랜잭션 자체가 아닌 노드 네트워크 수준에서 기밀성을 강화하는 방법 등을 살펴볼 것입니다.
 
 
-https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # 기타 고급 기밀성 기술의 과제 이해
 

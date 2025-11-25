@@ -1,0 +1,8 @@
+question: What services does Lightning Terminal (LitD) bundle together in its unified management stack?
+answer: Loop, Pool, Faraday, Taproot Assets, and optionally LND
+wrong_answers:
+  - Bitcoin Core, Electrum, BTCPay Server, and Lightning Network Daemon
+  - Tor, VPN, Firewall, and Network Security Tools with optional Bitcoin Core
+  - Wallet, Exchange, Mining Pool, and Payment Processor with optional Electrum
+explanation: |
+  Lightning Terminal (LitD) is specifically designed as a unified management stack that bundles Loop (submarine swaps), Pool (liquidity marketplace), Faraday (channel management), Taproot Assets (asset protocol), and optionally LND (Lightning Network Daemon). These are all Lightning Labs products that work together to provide comprehensive Lightning node management. The wrong answers contain general Bitcoin or network tools that are not part of the LitD stack.

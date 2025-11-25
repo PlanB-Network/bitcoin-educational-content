@@ -1558,10 +1558,10 @@ The defining characteristic of these payments is their liberatory power: they fu
 ### The fundamental debate
 
 
-Still in the context of this section on different monetary definitions and theories, let's explore together two diametrically opposed visions: "money is always debt" or "money is always a commodity". On the one hand, there are the proponents of debt-based monetary theory, who assert: "No, money is always debt! On the other side, our famous gold bugs argue: "But no, you see, money is always a commodity, it's always gold; everything else, bills, IOUs, it's only credit, not money".
+This section explores two diametrically opposed theories of money: that "money is always debt" and that "money is always a commodity". On the one hand, proponents of debt-based monetary theory assert that money is fundamentally a form of debt. On the other hand, proponents of commodity money argue that money is fundamentally a commodity, such as gold, with other instruments, such as bills and IOUs, being merely forms of credit. 
 
 
-Let's explore a clear summary of these theories together.
+Let's explore a clear summary of these theories.
 
 
 ### The "always a debt" theory
@@ -1573,7 +1573,7 @@ Here is a summary of the monetary theory known as **"debt money"**, according to
 According to this theory, developed in particular by Alfred Mitchell-Innes and further developed by David Graeber, money is intrinsically an acknowledgement of debt, stemming from the credit relations that historically pre-existed direct monetary exchanges. Rather than arising from a need linked to barter, money appears as a way of accounting for, transferring, and settling social obligations or debts between individuals or groups.
 
 
-Thus, all money circulates as a debt owed by one person or institution to another, backed by the trust and social or state authority guaranteeing its validity. So, according to them, when we possess—as I've already mentioned—when we possess money, we have a claim on society, and society owes us a debt. Money is therefore never neutral or autonomous, but always an underlying debt: holding money essentially means owning a claim on society or an economic community.
+Thus, all money circulates as a debt owed by one person or institution to another, backed by the trust and social or state authority guaranteeing its validity. According to this view, to possess money is to hold a claim on society; society owes the holder a debt. Money is therefore never neutral or autonomous, but always an underlying debt: holding money essentially means owning a claim on society or an economic community.
 
 
 This reasoning contradicts the classic idea of money as a simple "intermediate commodity", and instead emphasizes the central role of social and political relations in the creation and management of money.

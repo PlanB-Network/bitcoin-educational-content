@@ -1,11 +1,11 @@
 ---
 name: Podstawy austriackiej szkoły ekonomii
-goal: Odkryj ekonomię austriacką jako alternatywne ramy do analizy rynków i indywidualnego podejmowania decyzji
+goal: Odkryj ekonomię austriacką jako alternatywne ramy analizy rynków i indywidualnego podejmowania decyzji
 objectives:
-- Analizować funkcje pieniądza, kredytu i systemów bankowości centralnej
-- Stosować teorię wartości subiektywnej i preferencji czasowej do zachowań rynkowych
-- Zrozumieć austriacką teorię cyklu koniunkturalnego i jej przyczyny
-- Porównać metodologię austriacką z mainstreamowymi podejściami ekonomicznymi
+- Analiza funkcji pieniądza, kredytu i systemów bankowości centralnej
+- Zastosowanie teorię wartości subiektywnej i preferencji czasowej do zachowań rynkowych
+- Zrozumienie austriackiej teorii cyklu koniunkturalnego i jej przyczyny
+- Porównanie metodologii austriackiej z mainstreamowymi podejściami ekonomicznymi
 ---
 # Podróż do ekonomii austriackiej
 
@@ -28,16 +28,16 @@ Ta szkoła myślenia kształtowała debaty przez wieki, dzięki wpływowym myśl
 Witamy na kursie ECO201!
 
 
-W tym kursie oferowanym przez Théo Mogeneta odkryjesz szkołę myśli ekonomicznej, która zasadniczo różni się od dominującej doktryny keynesowskiej. Do tej pory uczono nas, że zarządzanie pieniędzmi i polityka gospodarcza są przede wszystkim domeną banków centralnych, a dodruk pieniądza i wydatki publiczne stymulują wzrost gospodarczy. Istnieje jednak bardziej spójne podejście alternatywne: **Austriacka Ekonomia**.
+Na tym kursie oferowanym przez Théo Mogeneta odkryjesz szkołę myśli ekonomicznej, która zasadniczo różni się od dominującej doktryny keynesowskiej. Do tej pory uczono nas, że zarządzanie pieniędzmi i polityka gospodarcza są przede wszystkim domeną banków centralnych, a dodruk pieniądza i wydatki publiczne stymulują wzrost gospodarczy. Istnieje jednak bardziej spójne podejście alternatywne: **Ekonomia Austriacka**.
 
 
 Dzięki ponad dwustuletnim badaniom, refleksji filozoficznej i pismom znanych autorów, takich jak Carl Menger, Ludwig von Mises i Friedrich Hayek, ta szkoła myślenia przyjmuje inną perspektywę, faworyzując zdecentralizowany pogląd na gospodarkę oparty na jednostce i ludzkiej racjonalności.
 
 
-Ekonomia jest w rzeczywistości głęboko społeczną i złożoną dziedziną, składającą się z wielu niezależnych podmiotów, które swobodnie oddziałują na siebie, tworząc spójną całość. Aby zrozumieć ten dynamiczny system, austriacka ekonomia preferuje analizę jakościową, opartą na ludzkiej logice, socjologii i badaniu procesów rynkowych, a nie na sztywnych równaniach matematycznych.
+Ekonomia jest w rzeczywistości głęboko społeczną i złożoną dziedziną, składającą się z wielu niezależnych podmiotów, które swobodnie oddziałują na siebie, tworząc spójną całość. Aby zrozumieć ten dynamiczny system, ekonomia austriacka preferuje analizę jakościową, opartą na ludzkiej logice, socjologii i badaniu procesów rynkowych, a nie na sztywnych równaniach matematycznych.
 
 
-W tym kursie poznasz podstawowe zasady tej szkoły myślenia. Théo Mogenet, twój instruktor, jest zagorzałym zwolennikiem tego podejścia ekonomicznego i poprowadzi cię przez kluczowe koncepcje austriackiej ekonomii, pokazując, w jaki sposób te idee szczególnie odnoszą się do świata Bitcoin.
+Na tym kursie poznasz podstawowe zasady tej szkoły myślenia. Théo Mogenet, twój instruktor, jest zagorzałym zwolennikiem tego podejścia ekonomicznego i poprowadzi cię przez kluczowe koncepcje ekonomii austriackiej pokazując, w jaki sposób te idee w szczególności odnoszą się do świata Bitcoina.
 
 
 **Sekcja 1: Wprowadzenie do ekonomii**
@@ -47,15 +47,15 @@ Zaczniemy od ogólnego wprowadzenia do ekonomii austriackiej, badając jej histo
 
 **Sekcja 2: Podstawy teoretyczne**
 
-W tej sekcji zagłębimy się w podstawowe koncepcje austriackiej ekonomii, takie jak subiektywna teoria wartości, która wyjaśnia, dlaczego wartość dobra nie jest obiektywna, ale zależy od postrzeganej użyteczności przez każdą osobę. Dowiesz się również, w jaki sposób pieniądz naturalnie wyłania się jako zjawisko społeczne, wraz z koncepcjami preferencji czasowej, odsetek i kapitału, które są sercem austriackiej teorii wolnego rynku.
+W tej sekcji zagłębimy się w podstawowe koncepcje ekonomii austriackiej, takie jak subiektywna teoria wartości, która wyjaśnia, dlaczego wartość dobra nie jest obiektywna, ale zależy od użyteczności postrzeganej przez każdą osobę. Dowiesz się również, w jaki sposób pieniądz naturalnie wyłania się jako zjawisko społeczne, wraz z koncepcjami preferencji czasowej, odsetek i kapitału, które są sercem austriackiej teorii wolnego rynku.
 
 
 **Sekcja 3: Austriackie perspektywy ekonomiczne**
 
-Tutaj zbadamy praktyczne zastosowania teorii austriackiej. Dowiesz się szczegółowo o austriackiej teorii cyklu koniunkturalnego, która wyjaśnia, w jaki sposób manipulacje monetarne tworzą sztuczne boomy, po których następują recesje. Zobaczymy również, dlaczego kalkulacja ekonomiczna jest niemożliwa w systemie socjalistycznym i jak austriacka metodologia, oparta na prakseologii (badaniu ludzkiego działania), zapewnia unikalne i spójne podejście do zrozumienia zjawisk gospodarczych.
+Tutaj zbadamy praktyczne zastosowania teorii austriackiej. Dowiesz się szczegółowo o austriackiej teorii cyklu koniunkturalnego, która wyjaśnia, w jaki sposób manipulacje monetarne tworzą sztuczne boomy, po których następują recesje. Zobaczymy również, dlaczego kalkulacja ekonomiczna jest niemożliwa w systemie socjalistycznym i jak metodologia austriacka, oparta na prakseologii (badaniu ludzkiego działania), zapewnia unikalne i spójne podejście do zrozumienia zjawisk gospodarczych.
 
 
-Kurs ten jest mieszanką ekonomii i filozofii, prowadzoną przez otwartą dyskusję między Théo i mną (Rogzy). Chciałbym serdecznie podziękować Théo Mogenetowi za stworzenie tego kursu. Bardzo podobało nam się opracowywanie tej treści, która została zaprojektowana tak, aby była dostępna dla wszystkich. Kurs ten służy jako niezbędne wprowadzenie i położy podwaliny pod nasze przyszłe, bardziej zaawansowane moduły ekonomiczne.
+Kurs ten jest mieszanką ekonomii i filozofii w formie otwartej dyskusji między Théo a mną (Rogzy). Chciałbym serdecznie podziękować Théo Mogenetowi za stworzenie tego kursu. Bardzo podobało nam się opracowywanie tej treści, która została zaprojektowana tak, aby była przystępna dla wszystkich. Kurs ten służy jako niezbędne wprowadzenie i położy podwaliny pod nasze przyszłe, bardziej zaawansowane moduły ekonomiczne.
 
 
 A co, jeśli klucz do zrozumienia dzisiejszej gospodarki leży w teorii sprzed kilku wieków? Odkryjmy to razem!

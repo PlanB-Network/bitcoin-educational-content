@@ -1632,10 +1632,10 @@ The same author further develops this concept of a **claim** to distinguish mone
 **A paradox: debt money vs. commodity money**
 
 
-The paradox that best illustrates the profound dichotomy between debt-money and commodity-money theories concerns the question of whether gold is a currency today.
+The paradox that best illustrates the profound dichotomy between debt money and commodity money theories concerns the question of whether gold is a currency today.
 
 
-On the one hand, debt-money theory defines money first and foremost as an exchange intermediary or means of payment that is generally accepted, or even imposed, by a public authority. From this perspective, gold is no longer a currency, since it is not widely used or accepted as a common medium of exchange.
+On the one hand, debt money theory defines money first and foremost as an intermediary exchange or means of payment that is generally accepted, or even imposed, by a public authority. From this perspective, gold is no longer a currency, since it is not widely used or accepted as a common medium of exchange.
 
 
 On the other hand, commodity money theory views money as a tangible commodity, spontaneously chosen by society for its intrinsic characteristics (scarcity, durability, divisibility, etc.). According to this approach, gold remains the true universal currency, and all other forms of money today are, fundamentally, no more than credit based on trust.
@@ -1654,22 +1654,22 @@ This paradox clearly shows the gap between these two monetary conceptions: for t
 ### Principles of modern monetary theory
 
 
-To conclude this section on the various monetary theories, let's talk about the child prodigy of monetary theories, admired by many modern economists who work for central banks, and named modern monetary theory, often known as MMT.
+To conclude this section on the various monetary theories, let's examine Modern Monetary Theory (MMT), an economic approach admired by many modern economists. 
 
 
-**Modern Monetary Theory (MMT)** is an economic approach that holds that a state with its own sovereign currency (such as the USA, Canada or Japan) can never run out of money, since it can always issue more money to finance its spending. According to this theory:
+**Modern Monetary Theory (MMT)** holds that a state with its own sovereign currency (such as the USA, Canada or Japan) can never run out of money, since it can always issue more money to finance its spending. According to this theory:
 
 
 - **Money is a creation of the State, not a limited resource**
 
 
-- Taxes and borrowing are not used directly to finance public spending, but rather to regulate inflation, influence economic behavior, and maintain demand for the national currency.*
+- Taxes and borrowing are not used directly to finance public spending, but rather to regulate inflation, influence economic behavior, and maintain demand for the national currency.
 
-- The real limit to government spending is inflation, not the budget deficit or public debt.
+- **The real limit to government spending is inflation, not the budget deficit or public debt.**
 
-- If the money created is channelled into sectors that can absorb it, there will be no inflation either.
+- If the newly created money is channelled into sectors that can absorb it, there will be no inflation.
 
-- The government must therefore adjust its spending according to the real resources available (manpower, industrial capacity, natural resources) to avoid excessive inflation.
+- **The government must therefore adjust its spending according to the real resources available (manpower, industrial capacity, natural resources) to avoid excessive inflation.**
 
 
 ### The role of taxes in MMT

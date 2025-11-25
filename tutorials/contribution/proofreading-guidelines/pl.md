@@ -1,15 +1,15 @@
 ---
 name: Wytyczne dotyczące korekty
-description: Jakie są ważne czynniki, o których należy pamiętać podczas korekty Plan ₿ Academy?
+description: Jakie są ważne czynniki, o których należy pamiętać podczas korekty w Plan ₿ Academy?
 ---
 
 ![github](assets/cover.webp)
 
 
-Witamy w tym samouczku dotyczącym **wytycznych, których należy przestrzegać podczas korekty treści na Plan ₿ Academy**. Cieszymy się, że podzielasz naszą misję tłumaczenia materiałów Bitcoin w jak największej liczbie języków, aby pomóc ludziom zdobyć wiedzę na temat tego, jak działa i jak można go używać w codziennym życiu.
+Witamy w tym samouczku dotyczącym **wytycznych, których należy przestrzegać podczas korekty treści w Plan ₿ Academy**. Cieszymy się, że podzielasz naszą misję tłumaczenia materiałów Bitcoin na jak największą liczbę języków, aby pomóc ludziom zdobyć świadomość na temat tego, jak to działa i jak można to wykorzystać w ich codziennym życiu.
 
 
-Przede wszystkim, współtworzenie Plan ₿ Academy [publiczne repozytorium](https://github.com/PlanB-Network/Bitcoin-educational-content) daje ci szansę na pisanie samouczków, korektę istniejących treści, a nawet zaproponowanie dodania nowego języka do platformy. Aby dowiedzieć się więcej, dołącz najpierw do naszej [grupy Telegram](https://t.me/PlanBNetwork_ContentBuilder) i napisz krótką prezentację o sobie i językach, którymi potrafisz się posługiwać.
+Po pierwsze, współtworzenie Plan ₿ Academy [publiczne repozytorium](https://github.com/PlanB-Network/bitcoin-educational-content) daje możliwość pisania samouczków, korekty istniejących treści, a nawet zaproponowania dodania nowego języka do platformy. Aby dowiedzieć się więcej, dołącz najpierw do naszej [grupy Telegram](https://t.me/PlanBNetwork_ContentBuilder) i napisz krótką prezentację o sobie i językach, którymi potrafisz się posługiwać.
 
 
 Niniejszy samouczek jest przeznaczony dla współpracowników, którzy chcą dokonać korekty treści. Większość z nich nie wie zbyt wiele o [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) lub [języku Markdown](https://www.markdownguide.org/basic-syntax/), którego używamy w repozytorium, więc ważne jest, aby podzielić się kilkoma spostrzeżeniami na temat kluczowych czynników związanych z tym zadaniem.
@@ -18,7 +18,7 @@ Niniejszy samouczek jest przeznaczony dla współpracowników, którzy chcą dok
 Poniżej zebrałem najczęstsze problemy, z którymi spotykają się korektorzy. Nie krępuj się zasugerować więcej, ponieważ może to pomóc innym w poprawie.
 
 
-Przed zagłębieniem się w szczegóły, pierwszą rzeczą do zrobienia jest przeczytanie tego samouczka na temat praktycznych działań, które należy wykonać na Githubie, poprzez forkowanie repozytorium Plan ₿ Academy, zatwierdzanie zmian i wysyłanie PR-ów:
+Przed zagłębieniem się w szczegóły, pierwszą rzeczą do zrobienia jest przeczytanie tego samouczka na temat praktycznych działań, które należy wykonać na Githubie, poprzez rozwidlenie repozytorium Plan ₿ Academy, zatwierdzanie zmian i wysyłanie PR-ów:
 
 
 https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
@@ -41,18 +41,18 @@ W rzeczywistości naszym wspólnym celem jest edukowanie jak największej liczby
 W tym sensie wszyscy współpracownicy Plan ₿ Academy są edukatorami!
 
 
-## Pierwsze kroki przed korektą na Plan ₿ Academy
+## Pierwsze kroki przed korektą w Plan ₿ Academy
 
 
-Przed rozpoczęciem nowego zadania korekty należy ogłosić je w [grupie Telegram](https://t.me/PlanBNetwork_ContentBuilder) lub poinformować koordynatora Plan ₿ Academy, który otworzy dedykowane [zagadnienie](https://github.com/orgs/Plan ₿ Academy/projects/3). Po otrzymaniu linku do tematu wystarczy **skomentować rozpoczęcie** zadania korekty tej treści.
+Przed rozpoczęciem nowego zadania korekty należy ogłosić je w [grupie Telegram](https://t.me/PlanBNetwork_ContentBuilder) lub poinformować koordynatora Plan ₿ Academy, który otworzy dedykowane [zagadnienie](https://github.com/orgs/Plan ₿ Academy/projects/3). Po otrzymaniu linku do sprawy, po prostu **skomentuj, że zaczynasz** zadanie korekty tej treści.
 
 
 System ten pomaga koordynatorowi śledzić postępy wewnątrz repozytorium i pozwala na "zastrzeżenie" treści przez korektora, zapobiegając powielaniu wysiłków przez kogoś innego.
 
-W samym wydaniu znajdziesz linki, które przekierują Cię do treści do sprawdzenia. Możesz po prostu je kliknąć lub, jeszcze lepiej, wrócić do własnego rozwidlonego repo i pracować bezpośrednio z niego. Zobaczmy, jak można to zrobić!
+W samym wydaniu znajdziesz linki, które przekierują Cię do treści do sprawdzenia. Możesz po prostu je kliknąć lub, jeszcze lepiej, wrócić do własnego rozwidlonego repozytorium i pracować bezpośrednio z niego. Zobaczmy, jak można to zrobić!
 
 
-Po pierwsze, **ZAWSZE pamiętaj o SYNCHRONIZACJI swojego repozytorium na gałęzi "dev "**. W ten sposób zawartość będzie zawsze zaktualizowana przed rozpoczęciem jakiegokolwiek zadania i nie będzie żadnych konfliktów między starym i nowym materiałem. Upewnij się, że kliknąłeś "Synchronizuj Fork" i "Aktualizuj gałąź".
+Po pierwsze, **ZAWSZE pamiętaj o SYNCHRONIZACJI swojego repozytorium na gałęzi "dev "**. W ten sposób zawartość będzie zawsze zaktualizowana przed rozpoczęciem jakiegokolwiek zadania i nie będzie żadnych konfliktów między starym i nowym materiałem. Upewnij się, że kliknąłeś "Synchronizuj fork" i "Aktualizuj gałąź".
 
 
 
@@ -97,7 +97,7 @@ Po utworzeniu nowej gałęzi należy kliknąć na nią w sekcji "Twoje gałęzie
 Podczas korekty treści ważne jest, aby **zawsze sprawdzać oryginalną wersję angielską (lub francuską)**. Należy pamiętać, że tłumaczymy za pomocą narzędzi językowych AI, więc renderowanie w języku docelowym może nie być płynne lub zrozumiałe dla końcowego czytelnika.
 
 
-W związku z tym zachęcamy do wprowadzania zmian w tekście i modyfikowania zdań, jeśli zajdzie taka potrzeba. Naszym celem jest zwiększenie płynności, ale zawsze zgodnie z oryginalnym znaczeniem. W przypadku wątpliwości co do tego, jak traktować konkretne słowo, należy zapytać koordynatora ds. tłumaczeń.
+W związku z tym zachęcamy do wprowadzania zmian w tekście i modyfikowania zdań, jeśli zajdzie taka potrzeba. Naszym celem jest zwiększenie płynności, ale zawsze zgodnie z oryginalnym znaczeniem. W przypadku wątpliwości co do tego, jak traktować konkretne słowo, należy zapytać koordynatora tłumaczeń.
 
 
 Narzędzia LLM mogą tłumaczyć niektóre słowa związane z Bitcoin dosłownie, tak jak Lightning Network. Dzieje się tak zwłaszcza w przypadku bardzo technicznych słów. W takich przypadkach zaleca się zachowanie oryginalnego angielskiego słowa w języku docelowym dla lepszej przejrzystości, chyba że zasady językowe narzucają tłumaczenie każdego słowa.
@@ -107,11 +107,11 @@ W tym drugim przypadku **zawsze sprawdź, czy ktoś inny w twojej społeczności
 
 
 
-- Jednym z rozwiązań może być **sprawdzenie na [BitcoinWiki](https://en.Bitcoin.it/wiki/Main_Page)** w języku docelowym, aby sprawdzić, czy słowo zostało przetłumaczone, czy nie. Jeśli nie, słowo pozostaje w języku angielskim.
+- Jednym z rozwiązań może być **sprawdzenie na [BitcoinWiki](https://en.bitcoin.it/wiki/Main_Page)** w języku docelowym, aby sprawdzić, czy słowo zostało przetłumaczone, czy nie. Jeśli nie, słowo pozostaje w języku angielskim.
 
 
 
-- W każdym przypadku radziłbym **wstawić słowo EN mimo wszystko**, dodając odpowiadające mu znaczenie w języku docelowym w nawiasie okrągłym, zgodnie ze schematem EN (LANG) lub odwrotnie. Np. Address (indirizzo), lub indirizzo (Address).
+- W każdym przypadku radziłbym **wstawić słowo EN mimo wszystko**, dodając odpowiadające mu znaczenie w języku docelowym w nawiasie okrągłym, zgodnie ze schematem EN (LANG) lub odwrotnie. Np. Address (indirizzo), lub indirizzo (adres).
 
 
 
@@ -138,7 +138,7 @@ Zawartość repozytorium jest pełna hiperłączy, takich jak te powyżej. Teraz
 
 
 
-- Kolejna rzecz związana z renderowaniem słów jest następująca. Jeśli w tekście znajduje się słowo "Plan ₿ Academy", **pozostaw je w oryginalnej formie**. Nie tłumacz słowa "plan" ani słowa "sieć". Poza tym, NIE używaj przedimka "The" przy wprowadzaniu Plan ₿ Academy: **traktuj to jako markę**.
+- Kolejna rzecz związana z renderowaniem słów jest następująca. Jeśli w tekście znajduje się "Plan ₿ Academy", **pozostaw je w tej oryginalnej formie**. Nie tłumacz słowa "plan" ani słowa "network". Ponadto, NIE używaj przedimka "The" przy wprowadzaniu Plan ₿ Academy: **traktuj ją jako markę**.
 
 
 
@@ -148,17 +148,17 @@ Zawartość repozytorium jest pełna hiperłączy, takich jak te powyżej. Teraz
 Ostatnia uwaga do tego akapitu: jak wspomnieliśmy powyżej, używamy narzędzi AI do tłumaczenia treści, a następnie prosimy o interwencję współpracowników, aby upewnić się, że wszystko jest płynne i dobrze sprawdzone.
 
 
-Jeśli użyjesz SI do korekty większości tekstu, z pewnością to zauważymy, ponieważ znamy typowe struktury zdań generowane przez SI. Jeśli okaże się, że korekta polegała wyłącznie na sztucznej inteligencji, bez wprowadzenia znaczących zmian, ostateczna nagroda w Sats może zostać zmniejszona o połowę!
+Jeśli użyjesz SI do korekty większości tekstu, z pewnością to zauważymy, ponieważ znamy typowe struktury zdań generowane przez SI. Jeśli okaże się, że korekta polegała wyłącznie na sztucznej inteligencji, bez wprowadzenia znaczących zmian, ostateczna nagroda w sats może zostać zmniejszona o połowę!
 
 
 
 ## Struktura nagłówków
 
 
-W języku markdown nagłówki (i tytuły akapitów) zaczynają się od znaku Hash ``#``. Liczba znaków Hash odpowiada poziomowi nagłówka. Na przykład nagłówek poziomu trzeciego ma trzy znaki numeryczne przed tekstem (np. `## My Header`).
+W języku markdown nagłówki (i tytuły akapitów) zaczynają się od znaku hash ``#``. Liczba znaków hash odpowiada poziomowi nagłówka. Na przykład nagłówek poziomu trzeciego ma trzy znaki numeryczne przed tekstem (np. `## My Header`).
 
 
-W kursach najważniejsze części są wprowadzane przez jeden znak Hash, podczas gdy podczęści mogą mieć od dwóch do czterech znaków Hash. W samouczkach zwykle używamy tylko nagłówków z dwoma znakami Hash.
+W kursach najważniejsze części są wprowadzane za pomocą jednego znaku hash, podczas gdy podczęści mogą mieć od dwóch do czterech znaków hash. W samouczkach zwykle używamy tylko nagłówków z dwoma znakami hash.
 
 
 
@@ -166,7 +166,7 @@ W kursach najważniejsze części są wprowadzane przez jeden znak Hash, podczas
 
 
 
-Upewnij się, że **nigdy nie usuwasz znaków Hash** przed tytułem, w przeciwnym razie spowodujesz problemy ze strukturą tekstu.
+Upewnij się, że **nigdy nie usuwasz znaków skrótu** przed tytułem, w przeciwnym razie spowodujesz problemy ze strukturą tekstu.
 
 
 Jednocześnie **nie zmieniaj** części chapterID, którą możesz zobaczyć na powyższym obrazku, ``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>`` lub odniesień do wideo, takich jak ``:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::``.
@@ -182,7 +182,7 @@ Na marginesie, w angielskiej wersji kursów **tytuły wprowadzane przez jeden lu
 ## Początkowa sekcja kursów
 
 
-Na początku każdej treści znajdują się następujące statyczne słowa pisane małymi literami: "nazwa", "opis", "cele". Są one używane przez witrynę do dekodowania samej treści i **zawsze pozostają w EN**. W związku z tym NIE należy ich tłumaczyć, w przeciwnym razie zawartość spowoduje problemy z synchronizacją. Upewnij się, że sprawdzasz tylko część po dwukropku, która jest automatycznie tłumaczona przez sztuczną inteligencję.
+Na początku każdej treści znajdują się następujące statyczne słowa pisane małymi literami: "nazwa", "opis", "cele". Są one używane przez witrynę do dekodowania samej treści i **zawsze pozostają w EN**. W związku z tym NIE należy ich tłumaczyć, w przeciwnym razie treść spowoduje problemy z synchronizacją. Upewnij się, że sprawdzasz tylko część po dwukropku, która jest automatycznie tłumaczona przez sztuczną inteligencję.
 
 
 
@@ -197,6 +197,43 @@ W tej samej sekcji początkowej zachowaj dotychczasowy format. Nie dodawaj nicze
 ![REVIEW](assets/en/8.webp)
 
 
+## Jak radzić sobie z obrazami kursów
+
+
+Nasza strona internetowa zawiera teraz przetłumaczone obrazy dla prawie każdego kursu!
+
+
+Podczas korekty zawsze sprawdzaj, czy wszystkie obrazy są obecne i wyświetlane poprawnie. W widoku `code view`, jeśli znajdziesz taką linię `![IMAGE](assets/en/001.webp)`, oznacza to, że zostanie tam wyświetlony obrazek.
+
+
+Upewnij się, że zawsze dodajesz nową linię między kodem obrazu a tekstem. Przykład poniżej:
+
+
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
+
+
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
+
+
+
+Poza tym pamiętaj, aby zapoznać się z treścią każdego obrazu. Jeśli zauważysz jakiekolwiek problemy z tłumaczeniem tekstu znajdującego się na obrazkach, poinformuj o tym swojego koordynatora, a otrzymasz szansę na ich korektę!
+
+
+Możesz zwizualizować obraz w sekcji `Preview` na Githubie (lub na naszej stronie internetowej, otwórz w innej karcie). Następnie wróć do sekcji `code` obok, aby dokonać korekty.
+
+
+![REVIEW](assets/en/9.webp)
+
 
 ## Zalecenia dotyczące formatu
 
@@ -205,11 +242,11 @@ Poniżej znajduje się kilka przykładów kwestii formatu, na które należy zwr
 
 
 
-- Zwróć uwagę na dziwne znaki interpunkcyjne, takie jak `**` lub `**`, które mogą reprezentować złe renderowanie pogrubionego symbolu. Na poniższym obrazku widać, że gwiazdki znajdują się tylko po prawej stronie słowa, co wygląda dziwnie.
+- Zwróć uwagę na dziwne znaki interpunkcyjne, takie jak `\*\*` lub ``**``, które mogą reprezentować złe renderowanie pogrubionego symbolu. Na poniższym obrazku widać, że gwiazdki znajdują się tylko po prawej stronie słowa, co wygląda dziwnie.
 
 
 
-![REVIEW](assets/en/9.webp)
+![REVIEW](assets/en/10.webp)
 
 
 
@@ -217,7 +254,7 @@ Dlatego zawsze sprawdzaj oryginalny tekst w języku angielskim, aby zobaczyć, c
 
 
 
-![REVIEW](assets/en/10.webp)
+![REVIEW](assets/en/11.webp)
 
 
 
@@ -232,7 +269,48 @@ Upewnij się, że sprawdziłeś oryginalny plik językowy (często EN lub FR), a
 
 
 
-![REVIEW](assets/en/11.webp)
+![REVIEW](assets/en/12.webp)
+
+
+
+
+## Korekta samouczka
+
+
+Jeśli zdecydujesz się na korektę samouczków, koordynator otworzy dedykowane zgłoszenie dla **całej sekcji samouczków**. Po zakończeniu zadania możesz udokumentować swoje postępy, komentując w zgłoszeniu z listą sprawdzonych samouczków: w ten sposób tworzysz przejrzysty system śledzenia do wykorzystania w przyszłości, co jest ważne, ponieważ co miesiąc dodawane są nowe treści. Przykład takiego podejścia można zobaczyć [tutaj](https://github.com/PlanB-Network/bitcoin-educational-content/issues/3023#issuecomment-3364923190).
+
+
+![REVIEW](assets/en/13.webp)
+
+
+Ponieważ nowe samouczki są dodawane co miesiąc, gałąź może stać się nieaktualna podczas procesu korekty. Niektórzy korektorzy radzą sobie z tym problemem poprzez synchronizację gałęzi, w której pracują: **NIGDY tego nie rób! Jeśli to zrobisz, ryzykujesz utratę wszystkich postępów poczynionych do tego momentu!
+
+
+Zamiast tego powinieneś najpierw dokończyć korektę samouczków w bieżącym fork. Następnie **synchronizuj `dev`** i utwórz nową gałąź, w której skupisz się na korekcie nowo dodanych samouczków (tylko tych, których brakuje w poprzedniej gałęzi).
+
+
+W samouczkach istnieje możliwość, że **obrazy nie zostaną przetłumaczone**. Ponieważ większość samouczków jest **oryginalnie napisana w języku francuskim lub angielskim**, prawdopodobnie znajdziesz obrazy zawierające polecenia lub instrukcje w ich oryginalnym języku. Weźmy przykład z samouczka dotyczącego Sparrow w języku holenderskim, zgłaszając zarówno tekst, jak i powiązany z nim obraz.
+
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Publieke server_".
+```
+
+
+![REVIEW](assets/en/14.webp)
+
+
+Jak widać, obrazek wyraźnie wskazuje na `Public Server` w języku angielskim, podczas gdy tekst wspomina o wyrażeniu `_Publieke server_`. W tym przypadku występuje problem spójności, ponieważ czytelnik znajduje sprzeczne informacje, konfrontując obraz z tekstem.
+
+
+Aby rozwiązać tę kwestię, możesz wstawić polecenie w takiej formie, w jakiej pojawia się na obrazie (angielskie lub francuskie), a następnie tłumaczenie w swoim języku w nawiasach, jak pokazano poniżej:
+
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Public Server_" (Publieke server).
+```
+
+
 
 ## Korekta quizów
 
@@ -243,17 +321,17 @@ Czy wiesz, że możesz również sprawdzać pytania quizowe w każdym kursie? Na
 Ponownie, upewnij się, że jesteś w dedykowanym oddziale, który otwierasz specjalnie w tym celu i zawsze informuj o tym koordynatora.
 
 
-Ważną rzeczą, o której należy pamiętać podczas korekty tego typu plików _yml_, jest unikanie dodawania dwukropków ``:`` wewnątrz tekstu. W rzeczywistości dwukropek jest **tylko** używany do oddzielania par klucz-wartość, takich jak "wrong_answers" od reszty. Przykład można zobaczyć na poniższym obrazku:
+Ważną rzeczą, o której należy pamiętać podczas korekty tego typu plików _yml_, jest unikanie dodawania dwukropków ``:`` lub znaków cudzysłowu wewnątrz tekstu. W rzeczywistości dwukropek jest **tylko** używany do oddzielania par klucz-wartość, takich jak "wrong_answers" od reszty. Przykład można zobaczyć na poniższym obrazku:
 
 
-![REVIEW](assets/en/12.webp)
+![REVIEW](assets/en/15.webp)
 
 
-Po sprawdzeniu pytania upewnij się, że zmieniłeś status "sprawdzone" z "fałszywe" na "prawdziwe", jak pokazano na poniższym obrazku. Upewnij się, że te słowa statusu są w języku angielskim, bez względu na język, w którym pracujesz!
+Po sprawdzeniu pytania upewnij się, że zmieniłeś status "sprawdzone" z "fałszywe" na "prawdziwe", jak pokazano na poniższym obrazku. Pamiętaj, aby **zachować te słowa statusu w języku angielskim**, bez względu na język, w którym pracujesz!
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/16.webp)
 
 
 Jeśli brakuje linii statusu "reviewed:true", upewnij się, że **dodałeś ją na końcu quizu**.
@@ -273,7 +351,8 @@ Jeśli tytuł jest w języku angielskim, możesz dostosować zdanie do swojego j
 Dodatkowo, upewnij się, że tytuły są pisane WIELKIMI LITERAMI.
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/17.webp)
+
 
 
 ## Tytuł i opis PR
@@ -287,9 +366,9 @@ Kiedy wysyłasz swój PR, byłoby wspaniale, gdybyś nazwał go w tym formacie: 
 ```
 
 
-Poza tym, w sekcji **komentarza PR** możesz wpisać "zamyka" + numer sprawy, którą koordynator wysłał ci, gdy rozpocząłeś zadanie korekty, poprzedzony ``#``.
+Poza tym, w sekcji **komentarza PR**, możesz wpisać "zamyka" + numer sprawy, którą koordynator wysłał ci, gdy rozpocząłeś zadanie korekty, poprzedzony ``#``.
 
-Na przykład, jeśli właśnie wysłałeś PR z korektą cyp201 + quizy, możesz napisać "zamyka [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+Na przykład, jeśli właśnie wysłałeś PR z korektą cyp201 + quizy, możesz napisać "zamyka [#2934](https://github.com/PlanB-Network/bitcoin-educational-content/issues/2934)".
 
 
 W ten sposób PR i wydanie zostaną połączone, a każdy, kto czyta publiczne repozytorium Github, może łatwo znaleźć informacje.
@@ -304,49 +383,31 @@ W ten sposób PR i wydanie zostaną połączone, a każdy, kto czyta publiczne r
 
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/18.webp)
 
 
 
 Podczas korzystania z funkcji "zamień wszystko" ważne jest, aby dwukrotnie sprawdzić wyniki, aby upewnić się, że linki również nie zostały zmienione. Na przykład, jeśli chcesz zmienić słowo "Bitcoin" na "Bitkoin" (co może być konieczne w niektórych językach), użycie funkcji "zamień wszystko" może skutecznie zaktualizować wszystkie wystąpienia w tekście. Należy jednak pamiętać, że narzędzie to zmodyfikuje również wszystkie linki zawierające to słowo, potencjalnie prowadząc do problemów z przekierowaniem.
 
 
-W poniższym przykładzie korektor użył powyższej funkcji, aby zamienić "Satoshi" na "Satoshi(Sats)", a także zmienił link do samouczka zawierającego samo słowo. W rezultacie link stał się nieprawidłowy.
+W poniższym przykładzie korektor użył powyższej funkcji, aby zamienić "satoshi" na "satoshi(sats)", a także zmienił link do samouczka zawierającego samo słowo. W rezultacie link stał się nieprawidłowy.
 
 
 Zawsze dokładnie sprawdzaj wszystkie hiperłącza w tekście, aby upewnić się, że są poprawne.
 
 
 
-![REVIEW](assets/en/16.webp)
+![REVIEW](assets/en/19.webp)
 
 
 
 
-- Kontynuując temat, jeśli autor wstawi link odnoszący się do kursu Plan ₿ Academy lub samouczka (**nie** w nawiasie), strona automatycznie utworzy "kartę" pokazującą powiązaną miniaturę. W związku z tym zawsze upewnij się, że **dodałeś nową linię między tekstem a samym linkiem**, w przeciwnym razie możesz zobaczyć następujący błąd na stronie.
+- Kontynuując temat, jeśli autor wstawi link odnoszący się do kursu lub samouczka Plan ₿ Academy (**nie** w nawiasie), strona automatycznie utworzy "kartę" pokazującą powiązaną miniaturę. W związku z tym zawsze upewnij się, że **dodałeś nową linię między tekstem a samym linkiem**, w przeciwnym razie na stronie może pojawić się następujący błąd.
 
 
 
-![REVIEW](assets/en/17.webp)
+![REVIEW](assets/en/20.webp)
 
-
-To samo dzieje się z "kodami obrazów", takimi jak ten ``[IMAGE](asset/fr/001.webp)``: upewnij się, że zawsze dodajesz nową linię między kodem obrazu a tekstem. Przykład poniżej:
-
-
-```
-WRONG CONFIGURATION:
-- to start translating, click on the button `Translate`: ![language](assets/08.webp)
-To save, click on `save`!
-
-
-RIGHT CONFIGURATION:
-
-- to start translating, click on the button `Translate`:
-
-![language](assets/08.webp)
-
-To save, click on `save`!
-```
 
 
 ## Wnioski
@@ -355,10 +416,10 @@ To save, click on `save`!
 Podsumowując, świadomość typowych błędów korektorskich może naprawdę pomóc w doskonaleniu umiejętności sprawdzania treści. Łatwo jest przeoczyć takie rzeczy jak kontekst lub spójność, a wychwycenie tych błędów może mieć duże znaczenie.
 
 
-Zawsze pamiętaj, że początkujący mogą czytać te kursy i samouczki, więc naszym obowiązkiem jest upewnienie się, że w pełni je rozumieją. Jako korektor jesteś nauczycielem!
+Zawsze pamiętaj, że początkujący mogą czytać te kursy i samouczki, więc naszym obowiązkiem jest upewnienie się, że w pełni je rozumieją. **Jako korektor, jesteś edukatorem!
 
 
-Teraz możesz rozpocząć korektę kursów, samouczków, quizów i słowniczków. Bądź na bieżąco, aby rozpocząć sprawdzanie obrazów i transkrypcji wideo ;)
+Teraz możesz rozpocząć korektę kursów, samouczków, quizów i słowniczków. Bądź na bieżąco, aby rozpocząć sprawdzanie transkrypcji wideo!
 
 
 Dziękujemy za przeczytanie tego poradnika i życzymy miłej podróży!

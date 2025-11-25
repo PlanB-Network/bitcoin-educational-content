@@ -1675,16 +1675,15 @@ To conclude this section on the various monetary theories, let's examine Modern 
 ### The role of taxes in MMT
 
 
-So here you'll find the famous answer to all those who say, "Yeah, but if we can print money, why are we paying taxes?" Well, MMT has the right answer to this idea. It's true that in the fiat system, in the modern system, technically, there's nothing to limit money creation, apart from inflation. But they're going to suggest that, firstly, taxation is necessary to limit inflation, since it will remove money from the economy. So, if we don't have taxes to compensate, all this money creation could eventually create inflation. Taxes, they argue, are literally a way of removing money from the system to limit inflation.
+A common question is, "If a state can create money, why pay taxes?" MMT provides a specific answer. While a modern fiat system technically has no limit money on creation other than inflation, MMT argues that taxation is a primary tool for managing that risk. By removing money from the economy, taxes can compensate for new money creation and prevent inflation. In this view, taxes function as a mechanism to control aggregate demand and inflation.
 
 
-On the subject of money invested in sectors that can absorb it, we can mention the example of the United States, which gives trillions of dollars to the military industry, which doesn't cause inflation because the military industry, the military-industrial complex, is perfectly capable of absorbing these trillions of dollars.
+Regarding the absorption of new money, consider the example of the United States directing trillions of dollars to the military industry. This spending does not necessarily cause inflation because the military-industrial complex has the productive capacity to absorbing those funds.
 
 
-On the other hand, if you want to build more roads, and there's a limit to the resources and contractors who can produce them, doubling the budget for roads will necessarily create a scarcity effect on the workforce who can create these roads. So the price will rise as a result of market forces, supply and demand. If our omniscient leaders know where to put the money, technically, it shouldn't cause inflation. And I'd reply that, in practice, it's quite clear that it does cause inflation.
+Conversely, if a government were to double the budget for roads construction but faced a limited supply of resources and contractors, this would create scarcity. The price of labor and materials would rise due to market forces of supply and demand. MMT posits that if the state could direct new money exclusively to sectors with available capacity, it would not cause inflation. A common critique, however, is that in practice, such targeted spending is difficult, and inflation often results.
 
-
-In conclusion, according to MMT, the state can use its capacity to create money to achieve full employment and finance social and ecological investment, while controlling inflation through an appropriate fiscal policy. It is often also the aim of Keynesian economists, another school of economic thought, to manage unemployment by managing interest rates and to finance social and ecological investments while controlling inflation through an appropriate fiscal policy.
+In conclusion, MMT asserts that the state can use its money-creating capacity to achieve full employment and finance social and ecological investment, while controlling inflation through appropriate fiscal policy. This goal of managing unemployment and financing public investment while controlling inflation is also shared by Keynesian economists, who typically focus on managing interest rates and fiscal policy to achieve these ends.
 
 
 ### MMT review

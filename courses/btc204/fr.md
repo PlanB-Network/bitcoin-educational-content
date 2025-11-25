@@ -1053,7 +1053,7 @@ Pour ce qui est de la construction des adresses de réception, cela dépend éga
 Les adresses affichées sur vos logiciels de portefeuille incluent aussi un HRP (*Human-Readable Part*), typiquement `bc` pour les adresses post-SegWit, un séparateur `1`, et un numéro de version `q` pour SegWit V0 et `p` pour Taproot/SegWit V1. Une somme de contrôle est également ajoutée pour garantir l'intégrité et la validité de l'adresse lors de sa transmission.
 
 Pour finir, les adresses sont mises dans un format standard :
-- Base58check pour les anciennes adresses Legacy ;
+- Base58check pour les vieilles adresses Legacy ;
 - Bech32 pour les adresses SegWit ;
 - Bech32m pour les adresses Taproot.
 

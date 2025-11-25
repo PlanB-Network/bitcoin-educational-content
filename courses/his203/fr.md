@@ -796,7 +796,7 @@ Les portefeuilles déterministes sont largement issus des réflexions du dévelo
 
 ![Gregory Maxwell en 2006](assets/en/gmaxwell-boat-2006-wikimedia.webp)
 
-*Gregory Maxwell en 2006 (source : [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg))*
+*Gregory Maxwell en 2006 (source : [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.webp))*
 
 Gregory Maxwell a beaucoup d'idées sur les façons d'améliorer l'utilisation de Bitcoin, et la dérivation des clés en fait partie. Il n'est pas le premier à avoir cette idée (Casascius [a fait](https://bitcointalk.org/index.php?topic=6897.msg100975#msg100975) une proposition similaire en avril), mais il est le premier à la formaliser. Le 18 juin, à la suite de [discussions](https://buildingbitcoin.org/bitcoin-dev/log-2011-06-08.html#l-1089) sur IRC, il rédige une description sur le forum. Il [écrit](https://bitcointalk.org/index.php?topic=19137.msg239768#msg239768) :
 
@@ -920,7 +920,7 @@ Le 19 août, Casascius [partage](https://bitcointalk.org/index.php?topic=38048.m
 
 ![Les premiers bitcoins de Casascius en 2011](assets/en/casasciusphysicalbitcoins-2011.webp)
 
-*Les premiers bitcoins de Casascius en 2011 (source : [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))*
+*Les premiers bitcoins de Casascius en 2011 (source : [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.webp))*
 
 Initialement disponibles sous forme de pièces de 1 et de 25 BTC, les bitcoins de Casascius sont rapidement déclinés en des pièces d'autres valeurs et en lingots, allant jusqu'à 1000 BTC ! Les bitcoins physiques sont [vendus](https://web.archive.org/web/20111107191637/https://www.casascius.com/) sur le site personnel de Casascius, mais [aussi](https://web.archive.org/web/20111028171555/http://www.memorydealers.com/bieq.html) sur MemoryDealers (la boutique en ligne de Roger Ver) à partir d'octobre. Ils se [retrouveront](https://odysee.com/@adamkokesh:2/moment-in-monetary-history-bitcoin-by:9) également dans un distributeur automatique au PorcFest de l'année suivante, en juin 2012.
 
@@ -1062,7 +1062,7 @@ Le modèle [repose](https://im.forre.st/pb/85341005.txt) sur une « chaine de p
 
 ![Visualisation de la share chain](assets/en/p2pool-share-chain-gregory-maxwell-20120108.webp)
 
-*Visualisation de la sharechain (source : Gregory Maxwell pour [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.png))*
+*Visualisation de la sharechain (source : Gregory Maxwell pour [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.webp))*
 
 Le 19 juillet 2011, après un essai réalisé sur le réseau de test, P2Pool est [déployé](https://bitcointalk.org/index.php?topic=61131.msg379115#msg379115) sur le réseau principal de Bitcoin. La coopérative décentralisée [trouve](https://bitcointalk.org/index.php?topic=61131.msg476766#msg476766) son premier bloc le 23 août, après plusieurs mises à niveau et plus d'un mois de hachage ! D'autres blocs suivront, mais l'activité restera anecdotique durant des mois.
 
@@ -1112,7 +1112,7 @@ Après la sortie de la version 0.4 du logiciel le 23 septembre, qui marque la re
 
 ![Capture de Bitcoin-Qt 0.5.2 en février 2012](assets/en/bitcoin-qt-0-5-2-screenshot-2012-wikimedia.webp)
 
-*Capture de Bitcoin-Qt 0.5.2 en février 2012 (source : [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.png) pour Wikimedia)*
+*Capture de Bitcoin-Qt 0.5.2 en février 2012 (source : [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.webp) pour Wikimedia)*
 
 Gavin est toujours le meneur du projet, mais il est aidé par plusieurs personnes. En octobre 2011, les développeurs « attitrés » de Bitcoin (c'est-à-dire ceux qui [figurent](https://web.archive.org/web/20111022025640/http://www.bitcoin.org/) sur Bitcoin.org) sont Gavin Andresen, Pieter Wuille, Nils Schneider, Jeff Garzik et Wladimir van der Laan. Ces programmeurs sont censés représenter Bitcoin au niveau technique, et peuvent être contactés par courriel. Ce sont des mainteneurs, qui [bénéficient](https://bitcointalk.org/index.php?topic=1774750.msg17700787#msg17700787) d'un accès en écriture au dépôt sur GitHub. Gregory Maxwell les [rejoint](https://web.archive.org/web/20120223113428/http://www.bitcoin.org/) en février 2012, et Nils Schneider arrête de contribuer en mai de la même année. L'équipe de développeurs ainsi formée [restera](https://bitcointalk.org/index.php?topic=1774750.msg17700787#msg17700787) en place jusqu'en 2014.
 

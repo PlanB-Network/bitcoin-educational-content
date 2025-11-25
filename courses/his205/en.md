@@ -1470,10 +1470,10 @@ In a more sophisticated financial crime, stealing  all of a victim's "argent" me
 ### Currency vs monnaie vs devise
 
 
-A currency (devise) is necessarily the currency of another country, otherwise we just say money (monnaie). If you're French, you'd say: "La livre sterling est la devise du Royaume-Uni et l'euro et la monnaie de l'Europe" (The pound sterling is the currency of the United Kingdom and the euro is the currency of Europe).
+A *devise* is necessarily the currency of another country. If you're French, you would say: "La livre sterling est la devise du Royaume-Uni et l'euro et la monnaie de l'Europe" (The pound sterling is the currency of the United Kingdom and the euro is the currency of Europe).
 
 
-Often, people who haven't delved into these semantic problems, in translating these terms, will often be inclined to speak of currency (devise) when it's written currency, but no, currency is money (monnaie) when it's your country's currency, and it's devise when we're talking about other currencies. And so, the problem here that I often see is that in English, there are two words: there's "money", which is a concept, and there's "currency", which is really the unit of a country that is used to make exchanges. So we can just talk about the concept of money; it's easy—it's the concept of the word *money*; it's money in general. And *currency* is very simple to equate with the currency of a country. Whereas in French, unfortunately, people will often say yes, "mais ce n'est pas une monnaie" when talking about bitcoin because it's not the currency of a country, but often, I think they're referring to the terms currency instead. This is wrong on the one hand, because since El Salvador, bitcoin has been the currency of a state. The fact remains that people will often say: *but no, it's not the currency of a state, it can't be money*. But in fact, if we refer to the broader concept of *money*, bitcoin fits into this definition perfectly, in my opinion. It's just that in French, we don't have two words to separate these two concepts. We could say that the word argent refers to currency, but unfortunately, that's not its precise definition. *Argent* (money) refers to wealth or banknotes. You can't really make an equivalence with the word *money*. *Money* is really the concept of currency (monnaie).
+This semantic disctinction is often lost in translation. In English, "money" efers to the broad concept of a medium of exchange, while "currency" refers to the specific system of money in common use, particularly for a country. In French, *monnaie* can signify both the general concept of money and a specific national currency. The term *devise* is reserved exclusively for a foreign currency. The confusion arises when English speakers use "currency" in a context where French requires monnaie, and vice-versa. This ambiguity complicates discussions about assets like Bitcoin. In French, one might hear "ce n'est pas une monnaie" (it is not a currency) because bitcoin is not the legal tender of a nation-state. However, this argument conflates monnaie in its sense of "national currency" with monnaie in its broader sense of "money." The claim that it cannot be monnaie because it is not a national currency is a semantic error, and one that has become factually tenuous since El Salvador adopted Bitcoin as legal tender in 2021. Regardless of its legal status in any single country, if we use the broader definition, Bitcoin can be considered a form of monnaie (money), as it functions as a medium of exchange. The French language lacks a dedicated word like the English "money" to cleanly separate the general concept from the national unit, which is a source of this confusion. While *argent* can refer to money, it more broadly means wealth or cash, and does not serve as a perfect equivalent to the English concept of "money".
 
 
 
@@ -1486,29 +1486,29 @@ Often, people who haven't delved into these semantic problems, in translating th
 #### What is money?
 
 
-Money is simply something you own or acquire not to be used or consumed for its own sake, but to be exchanged later for other goods or services you may need. (Saifedean)
+Money is a good acquired not for its own use or consumption, but to be later exchanged for other goods and services. This definition, from Saifedean Ammous, highlights that money's value stems from its exchangeability.
 
-Money acquires a monetary premium when a monetary demand exists for the good, to play one or more of the roles of money.
+A monetary good acquires a monetary premium when a demand exists for it to serve one or more of money's functions.
 
-The monetary good must be scarce enough for the monetary premium to persist (to prevent supply from adjusting to monetary demand).
+Foor this premium to persist, the good must be sufficiently scarce; otherwise, its supply would increase to meet the monetary demand, eroding the premium.
 
 
 
 ### The monetary premium
 
 
-In this section on the different definitions of currency, I wanted to talk briefly about Saifedean's definition in The Bitcoin Standard, which has always been of great interest to me. It struck me as quite simple when I read it. And we're also going to add the concept of monetary premium to this definition. As Saifedean mentions in his book, there is necessarily a concept of scarcity. The question is, what is money?
+This section examines Saifedean Ammous's definition of money from *The Bitcoin Standard* and expands upon it with the concept of monetary premium, a concept that is necessarily tied to scarcity.
 
 
 > Money is simply something you own or acquire, not to be used or consumed for its own sake, but to be exchanged later for other goods or services you may need.
 
-So that's the definition Saifedean mentions in The Bitcoin Standard. I would add that a currency (la monnaie) acquires a monetary premium when there is a monetary demand for the good, to play one or more of the currency's roles. So you could say that a currency that serves as a store of value will have a monetary demand that gives it a monetary premium, since people want to acquire it, for example as a store of value or as a medium of exchange.
+To this definition, it can be added that a monetary good acquires a monetary premium when there is a demand for it to fulfill one or more of money's roles. For instance, a good that serves as a store of value will have a monetary demand that gives it a monetary premium, as people acquire it specifically for that function or as a medium of exchange.
 
 
 ### Scarcity and market mechanisms
 
 
-To this, I think we should definitely add that the monetary good must be scarce enough for the monetary premium to subsist. This is very important. **If a good emerges to be used as money and we see that its price is going up, normally, if the good isn't rare enough, people will want to produce more of it to take advantage of this gain in value when the price goes up**. This is why most goods on the market have a relatively fixed price. When the price rises, production tends to increase. When the price falls, production falls. There's a kind of market adjustment. **And when a good is rare enough, like gold, the market mechanism won't compensate for this increased demand for monetary use. So it's the variable that changes, it's the price. As with bitcoin**. When the price of bitcoin goes up, we don't produce more bitcoin. So what adjusts is the price. And that's why, for years, we've seen the price of bitcoin rise as demand for bitcoin increases. Since there's nobody on Earth who can change the algorithm and say "there's more demand, the price is going up, we're going to produce more." **The supply of new bitcoins is programmed in advance, and known in advance**. So that's what I was saying, that the monetary good must be rare enough for the monetary premium to persist, and therefore not be caught up by market mechanisms, to prevent the supply from adjusting to this new monetary demand.
+For a monetary premium to persist, the monetary good must be sufficiently scarce. This is critical because standard market mechanisms typically erode such premiums. **For most goods, price increases incentivize producers to increase supply to capture the gains. Conversely, price decreases lead to reduced production**. This supply-response mechanism keeps prices relatively stable by adjusting to demand. **However, for a sufficiently scarce good like gold, this market mechanism is ineffective. The supply cannot be readily increased to meet rising monetary demand, so the variable that adjusts is the price. Bitcoin operates on the same principle**. When demand for bitcoin increases, it's price rises because **the supply of new bitcoins is fixed by a pre-programmed algorithm and cannot be altered** in response to market signals. This predictable and unchangeable supply ensures that the monetary good is rare enough for its monetary premium to persist without being undermined by production adjustments.
 
 
 

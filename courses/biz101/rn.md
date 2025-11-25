@@ -1,5 +1,5 @@
 ---
-name: Bitcoin  mu nganda 
+name: Bitcoin  mu nganda
 goal: Iga ivy’ishimikiro muvyirihwa  n’ivy’ububiko kugira ngo ushire uruganda rwanyu muvyikoreshwa rya Bitcoin.
 intumbero: 
 

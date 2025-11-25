@@ -1,0 +1,8 @@
+question: Кога е възникнал block size war?
+answer: През 2017 г.
+wrong_answers:
+  - През 2008 г.
+  - През 2010 г.
+  - През 2019 г.
+explanation: >-
+reviewed: true

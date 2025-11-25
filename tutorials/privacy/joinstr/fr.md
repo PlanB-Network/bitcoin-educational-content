@@ -284,7 +284,7 @@ L'efficacité d'un CoinJoin se mesure par son **ensemble d'anonymat** (anonset) 
 
 Joinstr génère actuellement des pools de **2 à 5 participants** en moyenne. Ces chiffres sont inférieurs aux coordinateurs centralisés traditionnels comme Wasabi (50-100 participants) ou Whirlpool (5-10 participants), mais c'est le prix de la décentralisation.
 
-💡 **Pour comprendre en détail les ensembles d'anonymat et leur calcul**, consultez notre cours complet : [Les ensembles d'anonymat](https://planb.academy/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c/les-ensembles-danonymat-be1093dc-1a74-40e5-9545-2b97a7d7d431).
+💡 **Pour comprendre en détail les ensembles d'anonymat et leur calcul**, consultez notre cours complet : [Les ensembles d'anonymat](https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c/be1093dc-1a74-40e5-9545-2b97a7d7d431).
 
 ### Joinstr vs autres CoinJoins
 

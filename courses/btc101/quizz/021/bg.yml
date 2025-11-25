@@ -1,0 +1,13 @@
+question: Какъв е пътят на развитие на днешната валута?
+answer: Суров камък -> Coin -> Банкнота -> Банкова карта -> Blockchain -> Lightning Network
+wrong_answers:
+  - Суров камък -> Coin -> Банкнота -> Blockchain -> Lightning Network
+  - Суров камък -> Coin -> Банкнота -> Банкова карта -> Lightning Network
+  - Суров камък -> Coin -> Банкова карта -> Банкнота -> Blockchain -> Lightning Network
+explanation: |
+  Валутата е технология, която еволюира с времето,
+  като се започне от представянето на сурови камъни и се
+  в метални монети, след това в банкноти, банкови карти и
+  и накрая в мрежи от типа peer-to-peer с помощта на
+  Bitcoin блокчейн и Lightning Network.
+reviewed: true

@@ -1,0 +1,12 @@
+question: Кой е инструментът за приемане на Bitcoin за големи организации или за страстни ентусиасти на Bitcoin?
+answer: Сървър на BTCpay.
+wrong_answers:
+  - Bitcoin Wallet.
+  - Bitcoin Exchange.
+  - BTCpay Mining.
+explanation: |
+  BTCpay Server е инструмент за приемане на Bitcoin за големи
+  структури или страстни биткойнисти. Други решения
+  включват OpenNode за прости онлайн бизнеси и швейцарски
+  Bitcoin Pay за аматьори търговци.
+reviewed: true

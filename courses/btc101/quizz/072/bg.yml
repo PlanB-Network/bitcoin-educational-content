@@ -1,0 +1,11 @@
+question: Как можете да подсилите сигурността по подразбиране на вашия Bitcoin wallet?
+answer: Като добавите passphrase към Bitcoin wallet.
+wrong_answers:
+  - Чрез добавяне на втори частен ключ към вашия Bitcoin wallet.
+  - Чрез добавяне на втори публичен ключ към вашия Bitcoin wallet.
+  - Като добавите втора мнемонична фраза към своя Bitcoin wallet.
+explanation: |
+  Ако не сте доволни от сигурността по подразбиране на вашия
+  Bitcoin wallet, винаги можете да я подсилите, като добавите
+  passphrase към вашия Bitcoin wallet.
+reviewed: true

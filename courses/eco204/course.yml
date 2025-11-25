@@ -5,181 +5,181 @@ type: theory
 level: intermediate
 hours: 8
 professors_id:
-- 525947e6-1d14-43d3-bf17-693b78b3ba09
+  - 525947e6-1d14-43d3-bf17-693b78b3ba09
 contributor_names:
-- Rogzy-DB
-- Asi0Flammeus
+  - Rogzy-DB
+  - Asi0Flammeus
 published_at: 2023-09-28
 original_language: fr
 proofreading:
-- language: cs
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 41.41
-- language: de
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 31.09
-- language: en
-  last_contribution_date: 2025-10-31
-  urgency: 1
-  contributor_names:
-  - 2raj2raj
-  reward: 15.54
-- language: es
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 31.09
-- language: fi
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 41.41
-- language: fr
-  last_contribution_date: 2024-06-08
-  urgency: 1
-  contributor_names:
-  - elDaz2
-  reward: 15.54
-- language: it
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 31.09
-- language: ja
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 62.07
-- language: pt
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 31.09
-- language: ru
-  last_contribution_date: 2024-09-09
-  urgency: 1
-  contributor_names:
-  - Reshetenko
-  reward: 20.71
-- language: vi
-  last_contribution_date: 2024-09-24
-  urgency: 1
-  contributor_names:
-  - Henry-Da0
-  reward: 31.04
-- language: et
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 41.41
-- language: id
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 51.74
-- language: nb-NO
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 41.41
-- language: zh-Hans
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 51.74
-- language: pl
-  last_contribution_date: '2025-08-18'
-  urgency: 1
-  contributor_names:
-  - MisinhaP
-  reward: 20.71
-- language: hi
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 72.4
-- language: sr-Latn
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 41.41
-- language: sw
-  last_contribution_date: '2025-08-18'
-  urgency: 1
-  contributor_names:
-  - monyangi10
-  reward: 20.71
-- language: zh-Hant
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 51.74
-- language: fa
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 41.41
-- language: sv
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 31.09
-- language: nl
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 41.41
-- language: tr
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 51.74
-- language: ko
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 51.74
-- language: rn
-  last_contribution_date: null
-  urgency: 1
-  contributor_names: null
-  reward: 62.07
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 41.42
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 31.09
+  - language: en
+    last_contribution_date: 2025-10-31
+    urgency: 1
+    contributor_names:
+      - 2raj2raj
+    reward: 15.55
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 31.09
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 41.42
+  - language: fr
+    last_contribution_date: 2024-06-08
+    urgency: 1
+    contributor_names:
+      - elDaz2
+    reward: 15.55
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 31.09
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 62.08
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 31.09
+  - language: ru
+    last_contribution_date: 2024-09-09
+    urgency: 1
+    contributor_names:
+      - Reshetenko
+    reward: 20.71
+  - language: vi
+    last_contribution_date: 2024-09-24
+    urgency: 1
+    contributor_names:
+      - Henry-Da0
+    reward: 31.04
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 41.42
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 51.75
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 41.42
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 51.75
+  - language: pl
+    last_contribution_date: '2025-08-18'
+    urgency: 1
+    contributor_names:
+      - MisinhaP
+    reward: 20.71
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 72.42
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 41.42
+  - language: sw
+    last_contribution_date: '2025-08-18'
+    urgency: 1
+    contributor_names:
+      - monyangi10
+    reward: 20.71
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 51.75
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 41.42
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 31.09
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 41.42
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 51.75
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 51.75
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 62.08
 tags:
-- finance
-- market-trends
-- good-practice
+  - finance
+  - market-trends
+  - good-practice
 videos:
-- id: 910231d7-af90-4ab8-b74c-bfb81caebfb2
-  youtube:
-  - fr: OMwkb5rpm_w
-- id: fa515063-aa34-4344-b771-40e11e923b86
-  youtube:
-  - fr: Hg8L_PIs008
-- id: 4b56a607-32fe-4dac-a33b-e9e70a68f996
-  youtube:
-  - fr: hHk5oV8HsNQ
-- id: 2db43590-2ae2-4363-89c5-c76d6e654532
-  youtube:
-  - fr: Pd-dWA-FrfY
-- id: 530b2211-cff0-4980-9808-d5b268a88433
-  youtube:
-  - fr: yYeEyT0CKE4
-- id: 980a4de1-f8bb-4a27-a6dc-ba7a796853b8
-  youtube:
-  - fr: qoHAN4Nj2pE
-- id: c915edce-6182-4888-a901-3d5e21ddcb93
-  youtube:
-  - fr: MnAFWQKdYAM
-- id: 35b37f5a-6a46-431e-baec-6cd4e0346796
-  youtube:
-  - fr: o7Gz8q_PfoE
-- id: 796a8bde-4860-47fd-970e-48e49cfbd87d
-  youtube:
-  - fr: h1uwR3Yge1M
-- id: 24db2334-666e-43a2-9124-4cfb92a9a39f
-  youtube:
-  - fr: cEon5lVtKZE
+  - id: 910231d7-af90-4ab8-b74c-bfb81caebfb2
+    youtube:
+      - fr: OMwkb5rpm_w
+  - id: fa515063-aa34-4344-b771-40e11e923b86
+    youtube:
+      - fr: Hg8L_PIs008
+  - id: 4b56a607-32fe-4dac-a33b-e9e70a68f996
+    youtube:
+      - fr: hHk5oV8HsNQ
+  - id: 2db43590-2ae2-4363-89c5-c76d6e654532
+    youtube:
+      - fr: Pd-dWA-FrfY
+  - id: 530b2211-cff0-4980-9808-d5b268a88433
+    youtube:
+      - fr: yYeEyT0CKE4
+  - id: 980a4de1-f8bb-4a27-a6dc-ba7a796853b8
+    youtube:
+      - fr: qoHAN4Nj2pE
+  - id: c915edce-6182-4888-a901-3d5e21ddcb93
+    youtube:
+      - fr: MnAFWQKdYAM
+  - id: 35b37f5a-6a46-431e-baec-6cd4e0346796
+    youtube:
+      - fr: o7Gz8q_PfoE
+  - id: 796a8bde-4860-47fd-970e-48e49cfbd87d
+    youtube:
+      - fr: h1uwR3Yge1M
+  - id: 24db2334-666e-43a2-9124-4cfb92a9a39f
+    youtube:
+      - fr: cEon5lVtKZE

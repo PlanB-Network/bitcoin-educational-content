@@ -1,0 +1,8 @@
+question: What is the primary purpose of using hash160 (SHA-256 then RIPEMD-160) when creating Bitcoin addresses from public keys?
+answer: To hide the public key until a spend occurs and create shorter, more manageable addresses
+wrong_answers:
+  - To encrypt the private key and prevent unauthorized access to wallet funds
+  - To generate the digital signature required for transaction validation on the blockchain
+  - To convert the elliptic curve points into the proper format for secp256k1 operations
+explanation: |
+  Hash160 serves multiple important functions in Bitcoin address creation. By hashing the public key, it keeps the actual public key hidden until coins are spent, providing an additional layer of security. The hashing also significantly reduces the size from 33/65 bytes to just 20 bytes, making addresses more manageable. The wrong answers confuse this with private key encryption (which isn't done), digital signatures (which use different cryptographic operations), or curve formatting (which happens during SEC serialization, not address creation).

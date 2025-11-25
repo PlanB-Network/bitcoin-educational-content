@@ -1,0 +1,9 @@
+question: Кое алтернативно решение на Swiss Bitcoin Pay за приемане на плащания Bitcoin за профила Essential е 100% попечителско?
+answer: Отворен възел
+wrong_answers:
+  - Сървър на BTCPay
+  - Bitcoinize PoS
+  - Phoenix Wallet
+explanation: |
+  Open Node се характеризира като изцяло попечителско решение, различаващо се от хибридния характер на швейцарския Bitcoin Pay.
+reviewed: true

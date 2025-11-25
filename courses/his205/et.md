@@ -3869,10 +3869,10 @@ Nad peavad lihtsalt veenduma, et nad saavad neid ülekandeid teha, kuid ei ole m
 
 
 
-Raha ja inflatsiooni vahelise seose mõistmiseks soovitan Plan ₿ Network kursust, mis on pühendatud sellele teemale. Saate teada, mis vahe on hinnatõusul, mida me elus näeme, ja inflatsioonil. Need ei ole üks ja sama asi. Tegelikult, kui me viitame inflatsioonile, räägime sageli hinnatõusust, mitte inflatsioonist endast. Inflatsioon on üsna täpne mõiste, mida seletatakse rahapakkumise suurenemisega.
+Raha ja inflatsiooni vahelise seose mõistmiseks soovitan Plan ₿ Academy kursust, mis on pühendatud sellele teemale. Saate teada, mis vahe on hinnatõusul, mida me elus näeme, ja inflatsioonil. Need ei ole üks ja sama asi. Tegelikult, kui me viitame inflatsioonile, räägime sageli hinnatõusust, mitte inflatsioonist endast. Inflatsioon on üsna täpne mõiste, mida seletatakse rahapakkumise suurenemisega.
 
 
-https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 Selle fiat-maailma käsitleva osa lõpetuseks tahaksin juhtida tähelepanu ressursile, mis aitab teil paremini mõista nähtusi, mida ma just selgitasin, näiteks inflatsiooni.
 

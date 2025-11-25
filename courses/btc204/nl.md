@@ -3551,7 +3551,7 @@ Na de arrestatie van de oprichters van Samourai zijn deze tools helaas niet meer
 Nu we coinjoins in detail hebben behandeld, kijken we naar de andere privacytechnieken die beschikbaar zijn op Bitcoin in het laatste deel van onze cursus. We zullen kijken naar payjoins, specifieke pseudo-CoinJoin transactietypen, statische Address protocollen en maatregelen om de vertrouwelijkheid te versterken, niet op het niveau van de transacties zelf, maar op het niveau van het netwerk van knooppunten.
 
 
-https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # De uitdagingen van andere geavanceerde vertrouwelijkheidstechnieken begrijpen
 

@@ -1,0 +1,9 @@
+question: Кои са изобретателите на Lightning Network?
+answer: Тадеуш Дрия и Джоузеф Пун
+wrong_answers:
+  - Андреас Антонопулос и Адам Бак
+  - Питер Вуйле и Грегъри Максуел
+  - Satoshi Nakamoto и Hal Finney
+explanation: |
+  Тадеус Дрия и Джоузеф Пун изобретяват Lightning Network през 2016 г., за да подобрят мащабируемостта на Bitcoin.
+reviewed: false

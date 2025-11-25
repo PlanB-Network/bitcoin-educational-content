@@ -156,20 +156,11 @@ Asegúrate de comprobar el archivo del idioma original (a menudo EN o FR) para v
   
 ![REVIEW](assets/en/12.webp)
 
-## Corrección de cuestionarios
-
-¿Sabías que también puedes corregir las preguntas de los cuestionarios de cada curso? Por ejemplo, si quieres corregir los cuestionarios de BTC101 en TI, puedes abrir una rama específica y seguir este camino: "courses" -> "BTC101" -> "quiz". Allí encontrarás todas las carpetas dedicadas a cada pregunta, junto con el archivo de idioma correspondiente en formato _yml_.
-
-Una vez más, asegúrate de que te encuentras en una rama que hayas abierto específicamente para este fin, e informa siempre al coordinador.
-Después de revisar la pregunta, asegúrate de cambiar el estado "reviewed" de "false" a "true", como se muestra en la imagen siguiente.
-
-![REVIEW](assets/en/13.webp)
-
 ## Tutorial de revisión
 
 Si decides revisar tutoriales, el coordinador abrirá una incidencia dedicada para **toda la sección del tutorial**. Cuando termines tu tarea, puedes documentar tu progreso comentando en la incidencia con una lista de los tutoriales revisados: de esta manera, creas un sistema de seguimiento claro para referencia futura, lo cual es importante porque se añade contenido nuevo cada mes. Puedes ver un ejemplo de este enfoque [aquí](https://github.com/PlanB-Network/bitcoin-educational-content/issues/3023#issuecomment-3364923190).
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/13.webp)
 
 Dado que se añaden nuevos tutoriales mensualmente, tu rama puede quedar desactualizada durante el proceso de revisión. Algunos revisores han abordado este problema sincronizando la rama exacta en la que están trabajando: **¡por favor, NUNCA hagas esto! Si lo haces, corres el riesgo de perder todo el progreso que has realizado hasta ese momento!**
 
@@ -181,7 +172,42 @@ En los tutoriales, existe la posibilidad de que **las imágenes no estén traduc
 Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Publieke server_".
 ```
 
+![REVIEW](assets/en/14.webp)
+
+Como puedes ver, la imagen claramente señala `Public Server`, en inglés, mientras que el texto menciona la expresión `_Publieke server_`. En este caso, hay un problema de coherencia, porque el lector encuentra información contradictoria al confrontar la imagen con el texto.
+
+Para resolver este asunto, puedes insertar el comando tal como aparece en la imagen (inglés o francés), seguido de la traducción en tu idioma entre paréntesis, como se muestra a continuación:
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Public Server_" (Publieke server).
+```
+
+## Corrección de cuestionarios
+
+¿Sabías que también puedes corregir las preguntas de los cuestionarios de cada curso? Por ejemplo, si quieres corregir los cuestionarios de BTC101 en TI, puedes abrir una rama específica y seguir este camino: "courses" -> "BTC101" -> "quiz". Allí encontrarás todas las carpetas dedicadas a cada pregunta, junto con el archivo de idioma correspondiente en formato _yml_.
+
+Una vez más, asegúrate de que te encuentras en una rama que hayas abierto específicamente para este fin, e informa siempre al coordinador.
+Después de revisar la pregunta, asegúrate de cambiar el estado "reviewed" de "false" a "true", como se muestra en la imagen siguiente.
+
 ![REVIEW](assets/en/15.webp)
+
+## Tutorial de revisión
+
+Si decides revisar tutoriales, el coordinador abrirá una incidencia dedicada para **toda la sección del tutorial**. Cuando termines tu tarea, puedes documentar tu progreso comentando en la incidencia con una lista de los tutoriales revisados: de esta manera, creas un sistema de seguimiento claro para referencia futura, lo cual es importante porque se añade contenido nuevo cada mes. Puedes ver un ejemplo de este enfoque [aquí](https://github.com/PlanB-Network/bitcoin-educational-content/issues/3023#issuecomment-3364923190).
+
+![REVIEW](assets/en/16.webp)
+
+Dado que se añaden nuevos tutoriales mensualmente, tu rama puede quedar desactualizada durante el proceso de revisión. Algunos revisores han abordado este problema sincronizando la rama exacta en la que están trabajando: **¡por favor, NUNCA hagas esto! Si lo haces, corres el riesgo de perder todo el progreso que has realizado hasta ese momento!**
+
+En su lugar, debes terminar primero de revisar los tutoriales en tu fork actual. Luego, **sincroniza `dev`**, y crea una nueva rama donde te concentres en revisar los tutoriales recién añadidos (solo los que faltan en tu rama anterior).
+
+En los tutoriales, existe la posibilidad de que **las imágenes no estén traducidas**. Dado que la mayoría de los tutoriales están **escritos originalmente en francés o inglés**, probablemente encontrarás imágenes que contienen comandos o instrucciones en su idioma original. Tomemos un ejemplo del tutorial sobre Sparrow en neerlandés, mostrando tanto el texto como la imagen relacionada.
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Publieke server_".
+```
+
+![REVIEW](assets/en/17.webp)
 
 Como puedes ver, la imagen claramente señala `Public Server`, en inglés, mientras que el texto menciona la expresión `_Publieke server_`. En este caso, hay un problema de coherencia, porque el lector encuentra información contradictoria al confrontar la imagen con el texto.
 
@@ -200,18 +226,18 @@ En casos como éste, adapta esta frase a su lengua de destino, o al inglés.
 
 - Si necesitas buscar palabras concretas dentro del texto, puedes pulsar ``CTRL+F`` y aparecerá la sección buscar-reemplazar. Esta parte es muy útil cuando necesitas saltar a una parte específica del texto, o necesitas reemplazar palabras/oraciones específicas en lote, sin desplazarte por todo el contenido.
 
-![REVIEW](assets/en/16.webp)
+![REVIEW](assets/en/18.webp)
 
 Al utilizar la función "reemplazar todo" (replace all), es importante comprobar dos veces los resultados para asegurarse de que no se han alterado también los enlaces. Por ejemplo, si deseas cambiar la palabra "Bitcoin" por "Bitkoin" (lo que puede ser necesario en algunos idiomas), la función "reemplazar todo" puede actualizar eficazmente todas las instancias del texto. Sin embargo, ten en cuenta que esta herramienta también modificará todos los enlaces que contengan esa palabra, lo que puede provocar problemas de redireccionamiento.
 
 En el ejemplo siguiente, el corrector utilizó la función anterior para sustituir "Satoshi" por "Satoshi(Sats)", y también cambió el enlace a un tutorial que contenía la propia palabra. Como consecuencia, el enlace dejó de ser válido.
 Comprueba siempre todos los hipervínculos del texto para asegurarte de que son correctos.
 
-![REVIEW](assets/en/17.webp)
+![REVIEW](assets/en/19.webp)
 
 - Siguiendo con el tema, si el autor inserta un enlace que haga referencia a un curso o tutorial de Plan ₿ Academy (**no** entre paréntesis), el sitio web creará automáticamente una "tarjeta" mostrando la miniatura relacionada. En consecuencia, asegúrate siempre de que **hay un espacio entre el texto y el propio enlace**, de lo contrario podría aparecer el siguiente error en el sitio web.
 
-![REVIEW](assets/en/18.webp)
+![REVIEW](assets/en/20.webp)
 
 - Por último, otra buena práctica que puedes aplicar cuando termines tu tarea de corrección y envíes el PR es volver a la incidencia original abierta por el coordinador y comentar con "Corrección realizada". **Asegúrate de insertar también allí el enlace a tu PR**.
 

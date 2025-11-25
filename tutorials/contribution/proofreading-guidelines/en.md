@@ -162,7 +162,7 @@ To save, click on `save`!
 
 Besides, remember to read the content of each image. If you notice any issues with the translation of the text inside images, inform your coordinator and you will get the chance to proofread them too!
 
-You can visualize the image in the `Preview` section of Github, or on our website.
+You can visualize the image in the `Preview` section of Github (or on our website, open in another tab). Then, come back to the `code` section next to it for proofreading.
 
 ![REVIEW](assets/en/9.webp)
 
@@ -202,7 +202,7 @@ Since new tutorials are added monthly, your branch may become outdated during th
 
 Instead, you should finish proofreading the tutorials in your current fork first. Then, **sync `dev`**, and create a new branch where you focus on proofreading the newly added tutorials (only the ones missing from your previous branch). 
 
-An important thing to remember regarding tutorials is that **images may not be translated**. Since most of the tutorials are **originally written in French or English**, you will probably find images that contain commands or instructions in their original language. Let's take an example from the tutorial on Sparrow in Dutch, by reporting both the text and the related image.
+In tutorials, there is a chance **images might not be translated**. Since most of the tutorials are **originally written in French or English**, you will probably find images that contain commands or instructions in their original language. Let's take an example from the tutorial on Sparrow in Dutch, by reporting both the text and the related image.
 
 ```
 Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Publieke server_".
@@ -212,7 +212,7 @@ Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabbl
 
 As you can see, the image clearly points to `Public Server`, in English, while the text mentions the expression `_Publieke server_`. In this case, there is a coherence issue, because the reader finds conflicting information when confronting the image with the text.
 
-To solve this matter, you can insert the command as it appears in the image, followed by the translation in your language within parentheses, as shown below:
+To solve this matter, you can insert the command as it appears in the image (English or French), followed by the translation in your language within parentheses , as shown below:
 
 ```
 Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Public Server_" (Publieke server).
@@ -229,7 +229,7 @@ An important thing to keep in mind when proofreading this type of _yml_ file is 
 
 ![REVIEW](assets/en/15.webp)
 
-After reviewing the question, make sure you change the "reviewed" status from "false" to "true," as shown in the image below. Make sure to keep these status words in English, no matter what language you are working on!
+After reviewing the question, make sure you change the "reviewed" status from "false" to "true," as shown in the image below. Make sure to **keep these status words in English**, no matter what language you are working on!
 
 
 ![REVIEW](assets/en/16.webp)

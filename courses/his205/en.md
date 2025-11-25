@@ -1606,33 +1606,25 @@ In this vision, money always retains a real value, as it remains linked to a tan
 **My review:**
 
 
-Note that this vision resembles that of commodity money theory, but goes one step further. They propose that money should **always** be a commodity. And when we say to them: "*Yes, but we can agree that a banknote is money for this group; it can be backed by gold, it works, and the banknote as such is money*".
+The **always commodity** theory posits that money must be a tangible good, such as gold. Proponents of this view argue that a banknote, even if backed by gold and functioning as money, is not money itself but merely a claim on the underlying commodity.
 
 
-In response, they'll give us the example of the locker room coupon. They'll say: "Yes, but no, when you have a locker room coupon for your garment, can we call the cash register coupon a garment?
+A common analogy used to support this argument is that of a locker room coupon. The claim is that a banknote to a gold coin is like a coat check ticket to a coat; the ticket is not the coat itself, but merely a claim on a specific object.
 
 
-Of course not, it's like an acknowledgement, a claim, in essence, that will allow you to get your garment back. This parallel doesn't hold, because a locker room coupon is not a generally accepted method of payment. **Money isn't a claim on a specific object like a garment; it's a mode, a means of exchange, a medium of exchange, or a generally accepted means of payment**.
+However, this analogy is flawed. A locker room coupon is not a generally accepted method of payment. It is a specific claim on a particular good. Money, in contrast, is a universal medium of exchange. **Money is not a claim on a specific object but a generally accepted means of payment that can be used to acquire any good or service**. 
 
 
-So you can't draw a parallel between a locker room coupon and a fiat currency bill, since the locker room coupon allows you to obtain a particular good in exchange, it's a token that allows you to retrieve your good. Whereas a banknote, fiat currency, is a universal coupon that allows you access to any good.
+Therefore, the parallel between a limited-use coupon and a universally accepted banknote is invalid. This distinction highlights a key point of contention. Commodity money theorists often maintain that only the physical gold in the vault is money, and the banknote is a substitute. Critics of this view, however, see no semantic paradox in considering both the physical gold and the representative banknote to be forms of money, a concept Ludwig von Mises addressed with his theory of "monetary substitutes."
 
 
-And in my opinion, of course, even fiat money can be considered as money if it is considered as such by the population. And I think it's a semantic error to insist that it can't be money, since it's a coupon to obtain real money, at least at the time, which was the underlying gold.
 
-
-I have no problem considering the gold coin that's kept in the safe and the bill that represents that gold coin as currency. For me, there's no problem of semantics, it's just two kinds of currency. If I'm not mistaken, Mises explains this phenomenon very well by talking about monetary substitutes.
-
-
-Their vision boils down to the fact that you can't consider a gold coin in a bank vault and the banknote representing it to be money at the same time. Personally, I don't see any problem with this; I don't see any paradox in the situation. Those who believe that money is always a commodity don't see things the way I do.
-
-
-**Here's a review of the locker room coupon concept from the book *Aux origines de la monnaie*:**
+The **weakness of the locker room analogy** is addressed in scholarly critiques of commodity theories. For instance **in *Aux origines de la monnaie*, Alain Testart highlights a fundamental distinction:**
 
 *Note 14: "Excellent criticism - excellent because it is on the very ground on which Knapp places himself, the legal ground - by Rist (1938: 372, note 1) of the comparison between paper money and checkroom tokens: if we can speak of a kind of claim in both cases, the fundamental difference is that in the first case, and in the first only, it is a claim without a specific object
 
 
-Also, on the subject of **claim**, the same author notes the following:
+The same author further develops this concept of a **claim** to distinguish money from credit: 
 
 > Bastiat is quite at liberty to imagine a voucher for the whole of society presented as "an immense bazaar", but this little addition, this seemingly innocuous extension, is the whole difference between credit and money. Money is not a claim on a particular store. There is no such thing as an anonymous claim. But the anonymity that characterizes money, and therefore its generality, is what makes it so powerful. Money is not like credit, still less is it in any way reducible to it. **Money is much more than credit.**
 

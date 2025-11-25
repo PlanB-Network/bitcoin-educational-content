@@ -1,9 +1,9 @@
-question: Which detail is NOT explicitly documented in a typical Bitcoin transaction csv file as described in the course?
-answer: The script type used
+question: Chi tiết nào KHÔNG được ghi rõ trong tệp CSV giao dịch Bitcoin thông thường như được mô tả trong khóa học?
+answer: Loại tập lệnh được sử dụng
 wrong_answers:
-  - The transaction date
-  - The equivalent fiat value
-  - The Bitcoin addresses involved
+  - Ngày giao dịch
+  - Giá trị fiat tương đương
+  - Các địa chỉ Bitcoin liên quan
 explanation: |
-  Typical Bitcoin transaction csv file usually mentions date, amount, fiat equivalent, and Bitcoin addresses, but not the script type used.
-reviewed: false
+  Tệp CSV giao dịch Bitcoin thông thường thường đề cập đến ngày, số tiền, đơn vị tiền tệ tương đương và địa chỉ Bitcoin, nhưng không đề cập đến loại tập lệnh được sử dụng.
+reviewed: true

@@ -1,9 +1,9 @@
-question: How can BTC Pay Server be deployed in a Professional environment?
-answer: On-premises or via cloud hosting
+question: Làm thế nào để triển khai BTC Pay Server trong môi trường chuyên nghiệp?
+answer: Tại chỗ hoặc thông qua lưu trữ đám mây
 wrong_answers:
-  - Exclusively on dedicated hardware appliances
-  - Through a fully outsourced third-party service
-  - As a mobile application
+  - Chỉ dành riêng cho các thiết bị phần cứng chuyên dụng
+  - Thông qua dịch vụ của bên thứ ba được thuê ngoài hoàn toàn
+  - Là một ứng dụng di động
 explanation: |
-  The flexibility of deploying BTC Pay Server on-premises or in the cloud allows businesses to choose the setup that best fits their operational needs.
-reviewed: false
+  Tính linh hoạt khi triển khai BTC Pay Server tại chỗ hoặc trên đám mây cho phép doanh nghiệp lựa chọn thiết lập phù hợp nhất với nhu cầu hoạt động của mình.
+reviewed: true

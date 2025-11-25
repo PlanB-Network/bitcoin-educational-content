@@ -1,9 +1,9 @@
-question: Why is it important to track the fiat value at the moment of each Bitcoin transaction?
-answer: To ensure accurate bookkeeping and tax compliance
+question: Tại sao việc theo dõi giá trị pháp định tại thời điểm của mỗi giao dịch Bitcoin lại quan trọng?
+answer: Để đảm bảo việc ghi sổ kế toán và tuân thủ thuế chính xác
 wrong_answers:
-  - To automatically increase the wallet balance
-  - To enable real-time market trading directly from the wallet
-  - To reduce the transaction fees imposed by the network
+  - Để tự động tăng số dư wallet
+  - Để cho phép giao dịch thị trường theo thời gian thực trực tiếp từ wallet
+  - Để giảm phí giao dịch do mạng áp đặt
 explanation: |
-  Tracking the fiat value helps businesses manage bookkeeping with fluctuating Bitcoin prices.
-reviewed: false
+  Theo dõi giá trị pháp định giúp doanh nghiệp quản lý sổ sách kế toán khi giá Bitcoin biến động.
+reviewed: true

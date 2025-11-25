@@ -114,6 +114,7 @@ Une notification de succès confirme l'envoi avec les détails : montant envoyé
 **Gestion du compte**
 
 Dans les paramètres (Settings), vous pouvez gérer vos cartes Bitcoin NFC (Bolt Cards). L'interface permet d'activer, désactiver ou configurer les limites de dépenses de vos cartes.
+
 ![Historique des transactions](assets/fr/09.webp)
 
 ![Paramètres IBI](assets/fr/10.webp)

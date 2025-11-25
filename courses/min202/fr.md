@@ -320,21 +320,59 @@ Le défit est donc de faire entrer dans les foyers des machines suffisament puis
 
 #### Avalon Nano 3S
 
-L'Avalon Nano 3S est l'équipement le moins puissant de cette gamme de produits, présenté comme un chauffage d'appoint. Il vous sera utile posé sur un bureau pour vous réchauffer les doigts en hiver dans votre pièce mal isolée et non chauffée. Mais en aucun cas suffisant pour chauffer ne serait-ce qu'une petit pièce.
+L'Avalon Nano 3S est l'équipement le moins puissant mais le plus compact de cette gamme de produits, présenté comme un chauffage d'appoint. Il vous sera utile posé sur un bureau pour vous réchauffer les doigts en hiver dans votre pièce mal isolée et non chauffée. Mais en aucun cas suffisant pour chauffer ne serait-ce qu'une petite pièce.
 
-Cette petite boite délivre  un impressionnant 6Th/s de Hashrate pour seulement 140W de consommation.
+![Image](assets/fr/019.webp)
 
 
+Cette petite boite d'envrion 20 cm par 11 cm et de seulement 1kg  (L205mm x W115mm x H58.5mm exactement )  délivre  un impressionnant 6Th/s de Hashrate (grace à 12 puces ASIC maison) pour seulement 140W de consommation. Il fonctionne en WIFI même si il existe des moyen de le connecter au LAN via un adaptateur USB-RJ45. Plutôt silencieux également puisque fonctionnant sur une plage de bruit entre 30 et 40dB.
+
+![Image](assets/fr/021.webp)
+
+Tous les appareils de la gamme sont pilotables et configurables  de manière plutôt ludique via l'application "Avalon Family" disponible via votre store d'application favori. Vous pourrez le régler selon 3 mode de puissance.
+
+
+![Image](assets/fr/020.webp)
+
+Un tutoriel détaillé pour apprendre comment le configurer est disponible ic: https://planb.academy/fr/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+
+S'il s'agit de vous en procurer une unité, Bitcoin Bazar petite boutique physique située à Paris entièrement dédiée à Bitcoin, en vend au côté de tout l'attirail du Bitcoiner souverain: https://bitcoinbazar.fr/en/products/avalon-nano-3s
 
 ### Avalon Mini 3
 
+Le Avalon Mini 3 quant à lui nous fait passer à la vitresse supérieure en nous proposant jusqu'à 40Th/S pour 800 W de consommation électriquen (66 puces maison Canaan). Le format de l'appareil fait vraiment penser à celui d'un radiateur, et le silence est là encore au rendez-vous. Suffisant pour chauffer une petite pièce d'environ 20/30m2.
+
+
+![Image](assets/fr/022.webp)
+
+Les dimensions sont un peu plus supérieures à ce que le Nano 3S vu au dessus propose évidemment, mais restent raisonnables avec 75 cm de longueur pour en encombrement réduit (L760mm x W104mm x H214.5mm (Net)) et un poid d'environ 8 kg. Celles d'un radiateur classique en somme. 
+La connectivité est assurée par le WIFI (possibilité optionnelle d'utiliser du RJ45 via adaptateur). Le bruit est là encore extrèmement bien géré pour un appareil de cette puissance (entre 35dB et 55dB suivant les modes de fonctionnement).
+
+![Image](assets/fr/023.webp)
+L'application Avalon Family vous permet ici aussi de configurer et piloter l'appareil. 2 mode de fonctionnement sont proposés:
+- Chauffage (bruit réduit mais perfrmance un peu en deça du maximum)
+- Mining (on pousse l'appareil au maximum mais les ventilateur poussent un peu plus pour refroidir les puces générant plus de bruit)
+
+Un tutoriel pour vous aider à paramétrer l'appareil est également disponible sur le site de l'academy: https://planb.academy/fr/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+
+https://bitcoinbazar.fr/en/products/avalon-mini-3
 
 ### Avalon Q
 
+Le Avalon Q est l'appareil le plus puissant de la gamme. Il équivaut en terme de hashrate et de puissance à 2 Avalon Mini 3 très exactement 90 Th/s pour 1700W (grace à 160 puce ASIC Canaan) , le tout avec l'allure d'une unité centrale de vieux PC des années 2000.
 
+![Image](assets/fr/025.webp)
+Cette impressionante machine se rapproche en terme performance de ce que proposent certaines machines professionelles, mais l'encombrement  (L455mm x W130.5mm x H440mm) et le niveau sonore (45 ~ 65 dB) sont de nouveau si bien gérés que l'appareil trouvera une place de choix dans votre salon et sera en mesure de chauffer une grande pièce de 40 m2.
+
+
+![Image](assets/fr/026.webp)
+
+De nouveau, l'application Avalon Family permet le pilotage, et la connectivité s'effectue en WIFI avec possibilité de connexion au LAN en RJ45 avec un adaptateur. 
+
+https://bitcoinbazar.fr/en/products/avalon-q
 ### LuckyMiner LV07 / LV08
 
-
+Pour terminer ce panorama non exhaustif des solutions de mining hardware pour miner à la maison, présentons
 ## 2.4 Panorama des solutions software
 
 ### AxeOS

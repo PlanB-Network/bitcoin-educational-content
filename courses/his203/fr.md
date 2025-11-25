@@ -64,7 +64,7 @@ Ce cours est divisé en quatre parties, qui s'intéressent respectivement à la 
 
 La lecture du premier cours sur l'histoire de Bitcoin (intitulé *L'histoire de la création de Bitcoin*) est un prérequis, surtout si vous ne connaissez pas du tout le sujet. Même si tout n'est pas raconté de manière chronologique, ce second cours reprend le récit là ou le précédent s'est arrêté, aux alentours du printemps 2011. Vous pouvez cliquer sur le lien suivant pour suivre le premier cours :
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 Toutes les dates et les heures sont données selon le fuseau horaire UTC (correspondant au méridien de Greenwich) et les dates peuvent ainsi différer des dates américaines. La plupart des citations proviennent de l'anglais américain et ont été traduites pour l'occasion, sauf indication contraire.
 
@@ -817,7 +817,7 @@ Il envisage deux types de dérivation. L'une (de type 1) est simple et génère 
 
 Plus tard, en février 2012, une standardisation a lieu avec la [publication](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) du BIP 32. Celui-ci décrit la structure générale des « portefeuilles déterministes hiérarchiques » (*Hierarchical Deterministic Wallets*, HD Wallets), où les dérivations sont utilisées de manière méthodique pour dériver les clés et les adresses de la graine. Il sera progressivement adopté par la plupart des portefeuilles au fil des années.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### BitcoinSpinner, Electrum et Armory
 

@@ -3869,7 +3869,7 @@ Mereka hanya perlu memastikan bahwa mereka dapat melakukan transfer ini, tetapi 
 
 
 
-Untuk memahami hubungan antara uang dan inflasi, saya merekomendasikan kursus yang saya miliki di Plan ₿ Network yang didedikasikan untuk subjek ini. Anda akan mempelajari perbedaan antara kenaikan harga, yang kita lihat dalam kehidupan, dan inflasi. Keduanya bukanlah hal yang sama. Faktanya, ketika kita mengacu pada inflasi, kita sering berbicara tentang kenaikan harga, bukan inflasi itu sendiri. Inflasi adalah konsep yang cukup tepat, yang dijelaskan oleh peningkatan jumlah uang beredar.
+Untuk memahami hubungan antara uang dan inflasi, saya merekomendasikan kursus yang saya miliki di Plan ₿ Academy yang didedikasikan untuk subjek ini. Anda akan mempelajari perbedaan antara kenaikan harga, yang kita lihat dalam kehidupan, dan inflasi. Keduanya bukanlah hal yang sama. Faktanya, ketika kita mengacu pada inflasi, kita sering berbicara tentang kenaikan harga, bukan inflasi itu sendiri. Inflasi adalah konsep yang cukup tepat, yang dijelaskan oleh peningkatan jumlah uang beredar.
 
 
 https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1

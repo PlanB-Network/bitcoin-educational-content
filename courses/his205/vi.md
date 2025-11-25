@@ -3869,7 +3869,7 @@ Họ chỉ cần đảm bảo rằng họ có thể thực hiện những khoả
 
 
 
-Để hiểu mối liên hệ giữa tiền tệ và lạm phát, tôi xin giới thiệu một khóa học tôi đang theo học về Plan ₿ Network chuyên sâu về chủ đề này. Bạn sẽ học được sự khác biệt giữa tăng giá, điều chúng ta thường thấy trong cuộc sống, và lạm phát. Chúng không phải là một. Thực tế, khi nói đến lạm phát, chúng ta thường nói đến tăng giá, chứ không phải bản thân lạm phát. Lạm phát là một khái niệm khá chính xác, được giải thích bằng sự gia tăng cung tiền.
+Để hiểu mối liên hệ giữa tiền tệ và lạm phát, tôi xin giới thiệu một khóa học tôi đang theo học về Plan ₿ Academy chuyên sâu về chủ đề này. Bạn sẽ học được sự khác biệt giữa tăng giá, điều chúng ta thường thấy trong cuộc sống, và lạm phát. Chúng không phải là một. Thực tế, khi nói đến lạm phát, chúng ta thường nói đến tăng giá, chứ không phải bản thân lạm phát. Lạm phát là một khái niệm khá chính xác, được giải thích bằng sự gia tăng cung tiền.
 
 
 https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1

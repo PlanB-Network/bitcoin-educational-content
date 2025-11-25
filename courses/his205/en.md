@@ -1521,7 +1521,7 @@ For a monetary premium to persist, the monetary good must be sufficiently scarce
 ### Means of payment vs. means of exchange
 
 
-In this section dedicated to the different definitions of money, I suggest we look together at a quotation from the book "Aux origines de la monnaie" (The Origins of Money), a text by Alain Testart on the subject of money as a means of payment and a liberatory value.
+This section examines the distinction between a "means of payment" and a "means of exchange" as defined by Alain Testart in his work, "Aux origines de la monnaie" (The Origins of Money). Testart argues for the concept of money's "liberatory value", a function distinct from simple exchange.
 
 
 *From Aux origines de la monnaie, Alain Testart defines money as a means of payment:*
@@ -1530,7 +1530,7 @@ In this section dedicated to the different definitions of money, I suggest we lo
 > The function of means of payment is conceived here as distinct from the function of means of exchange, insofar as there are payments without consideration, payments that buy nothing. Knies (1873:192 ff.) develops at length this theme of transfers of goods that do not consist in acts of exchange, as in the case of wergeld (blood money or composition for murder) or taxes. Carl Menger attacked this fourth function in his 1892 article "Geld", generally considered one of the most decisive on the subject. Without having been totally discredited, the idea of the function of means of payment seems to have been forgotten in economic thought today, or at least rejected in favor of that of means of exchange.
 >
 
-> Money is used to pay: seen in this light, it is an instrument of liberation, which describes in all its generality the function of a means of payment. In this respect, we speak of the "liberatory power" of money. According to Le Petit Robert, liberatory power is "that which has the effect of freeing (from an obligation, a debt)". According to the Grand Larousse, a liberatory payment is any "payment made under legal conditions in such a way that the creditor cannot contest the extinction of the debt". Money has this power par excellence; it is even what defines its legal tender status, since no one can refuse a payment made in money, whether seller or creditor. Money is the only good that cannot be refused in payment of what is owed, regardless of whether the debt is owed to a merchant or the taxman. Among all goods, money alone holds this privilege. "It is this privilege," writes Charles. Gide (1921 I: 443), which constitutes what we call legal tender.
+> Money is used to pay: seen in this light, it is an instrument of liberation, which describes in all its generality the function of a means of payment. In this respect, we speak of the "liberatory power" of money. According to Le Petit Robert, liberatory power is "that which has the effect of freeing (from an obligation, a debt)". According to the Grand Larousse, a liberatory payment is any "payment made under legal conditions in such a way that the creditor cannot contest the extinction of the debt". Money has this power par excellence; it is even what defines its legal tender status, since no one can refuse a payment made in money, whether seller or creditor. Money is the only good that cannot be refused in payment of what is owed, regardless of whether the debt is owed to a merchant or the taxman. Among all goods, money alone holds this privilege. "It is this privilege," writes Charles Gide (1921 I: 443), "which constitutes what we call legal tender."
 >
 
 > Any exchange consisting of the transfer of one good for another, or on condition that another good is given in return, necessarily implies an obligation on the part of the recipient to provide this counterparty. Payment is the fulfilment of this obligation. All exchange therefore implies payment, but not all payment implies exchange. There are payments without counterparty, i.e., payments that do not enable another good to be obtained, and are not made for this purpose. Taxes remain the benchmark example here; we should also mention fines of all kinds paid to public authorities, and reparations owed to others on the principle that he who causes damage to others must repair it.
@@ -1538,17 +1538,14 @@ In this section dedicated to the different definitions of money, I suggest we lo
 ### Payments without counterparty
 
 
-This is a clear illustration of the author's thesis. In fact, he distinguishes between the two. For him, an exchange is both a transfer of goods and a payment. Payment comes next. And payment can occur without exchange. He gives examples of how paying a parking ticket or a fine is just a payment. You don't really get a service in exchange. Some may argue that the State is doing you a service in exchange, a service of giving you parking tickets. He's quite clear on the fact that paying taxes is really a payment without counterparty, in the sense that paying taxes is required, even if you don't necessarily get a service. He says it's really defined that paying taxes is just a payment; there's no obligation to obtain services in exchange. I've discussed this with many of my colleagues, and they don't necessarily agree with this notion. But that's the author's thesis. He tries to place the notion of payment and to detach it from exchanges with these examples, for example, of fine, tax payment. Also, for example, the dowry, he expresses that the dowry is a payment; you don't necessarily get something in exchange. Someone criticizing this proposal might say "Yes, but you get a wife in exchange." So that's the level of debate on this subject.
-
-
-There's also the wergeld, or blood money. So it's just a payment to compensate. My friend Ulrich would say:
+The author's thesis is that payment is distinct from exchange. While every exchange involves a payment to fulfill an obligation, not every payment involves an exchange. He gives examples of how paying a parking ticket or a fine is just a payment. A payment without counterparty occurs when a transfer of money is not made to acquire a good or service in return. The author provides several examples to illustrate this concept. Paying a fine or a tax is a clear case of a payment without counterparty. The obligation is legal, not transactional; one does not receive a direct service in exchange for the payment. Similarly, a dowry is framed as a payment, not an exchange for a spouse. Another key example is the wergeld, or "blood money." This is a payment made to compensate for a transgression, such as a murder, and to release the payer from further obligation. A critic of this view might argue: 
 
 > Yes, but you get this file closed in exchange.
 
-So, you've committed a crime, a murder for example. At the time, you pay the wergeld, and after that, well you get released from that situation. So there's a liberating power. Do you get anything in return?" According to the author, no. According to some of my colleagues, yes.
+However, the author's position is that the primary function is liberatory—to extinguish a debt or social liability—rather than transactional. 
 
 
-I think that in this discussion, we can see that the wergeld is one of the good examples to define a payment. In fact, clearly, you don't receive anything in return.
+The defining characteristic of these payments is their liberatory power: they fulfill an obligation without resulting in the acquisition of a reciprocal good or service.
 
 
 

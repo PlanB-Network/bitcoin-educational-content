@@ -1199,7 +1199,7 @@ Sự kiện kích hoạt cho sự ra đi của Satoshi là vụ WikiLeaks. WikiL
 
 ![Logo WikiLeaks vào tháng 11 năm 2010](assets/vi/059.webp)
 
-Ngân sách của WikiLeaks chủ yếu dựa vào các khoản đóng góp công khai, vì vậy tổ chức này phụ thuộc vào các bên trung gian thanh toán để nhận thanh toán trực tuyến. Tuy nhiên, sau những tiết lộ này, áp lực được đặt lên những trung gian này, những người lo sợ phản ứng của cơ quan quản lý. Đây là lý do tại sao công ty thanh toán trực tuyến Moneybookers [đóng băng](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) tài khoản của NGO vào ngày 14 tháng 10.
+Việc tài trợ cho WikiLeaks chủ yếu dựa vào các khoản quyên góp của công chúng, do đó tổ chức này phụ thuộc vào các bộ xử lý thanh toán để nhận các khoản thanh toán trực tuyến. Tuy nhiên, sau những tiết lộ này, áp lực được đặt lên các bên thứ ba này, những người lo sợ phản ứng của cơ quan quản lý. Đây là lý do tại sao công ty thanh toán trực tuyến Moneybookers [đóng băng](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) tài khoản của tổ chức phi chính phủ vào ngày 14 tháng 10.
 
 Tình hình này mở ra một con đường hoàng lộ cho việc sử dụng Bitcoin, không phụ thuộc vào bất kỳ bên thứ ba đáng tin cậy nào và sẽ chống lại kiểm duyệt tài chính tốt hơn nhiều. Giả thuyết này được mở ra trên diễn đàn vào tháng 11 bởi Amir Taaki, một người Anh gốc Iran 22 tuổi sử dụng bí danh genjix.
 

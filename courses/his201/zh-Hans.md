@@ -1195,7 +1195,7 @@ Hal Finney在2009年4月退出比特币后，很快就得知自己在2009年8月
 
 ![2010年11月的维基解密标志](assets/zh-Hans/059.webp)
 
-维基解密的资金主要基于公众捐款，因此该组织依赖支付处理商来接收在线支付。然而，随着这些揭露，这些中介机构因担心监管机构的反应而受到压力。这就是在线支付公司Moneybookers在10月14日[冻结](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked)该NGO账户的原因。
+维基解密的资金主要依赖公众捐款，因此该组织依赖支付处理商来接收在线付款。然而，在这些爆料之后，监管机构反应的担忧给这些第三方带来了压力。这就是在线支付公司 Moneybookers 在 10 月 14 日[冻结](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked)该非政府组织账户的原因。
 
 这种情况为使用比特币打开了一条通道，比特币不依赖任何可信第三方，能够更好地抵抗财务审查。这一假设在11月由Amir Taaki在论坛上提出，Amir Taaki是一位22岁的英国伊朗裔，使用genjix这个化名。
 

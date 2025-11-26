@@ -1241,7 +1241,7 @@ Satoshi lahkumise käivitav sündmus on WikiLeaks'i afäär. WikiLeaks on valits
 
 ![WikiLeaks'i logo novembris 2010](assets/et/059.webp)
 
-WikiLeaks'i rahastamine põhineb peamiselt avalikel annetustel, seega sõltub organisatsioon maksetöötlejatest, et vastu võtta online-makseid. Siiski, pärast neid paljastusi, avaldatakse nendele vahendajatele survet, kuna nad kardavad regulaatori reaktsiooni. Seetõttu [külmutab](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) online-makseettevõte Moneybookers oktoobri 14. päeval NGO konto.
+WikiLeaksi rahastamine tugineb peamiselt avalikkuse annetustele, mistõttu organisatsioon sõltub veebimaksete saamiseks maksetöötlejatest. Kuid pärast neid paljastusi avaldatakse survet neile kolmandatele osapooltele, kes kardavad regulaatori reaktsiooni. Seepärast [külmutas](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) veebimakseettevõte Moneybookers 14. oktoobril valitsusvälise organisatsiooni konto.
 
 See olukord avab kuningliku tee Bitcoini kasutamiseks, mis ei sõltu ühestki usaldusväärsest kolmandast osapoolest ja taluks finantsilist tsensuuri palju paremini. Hüpotees avatakse foorumis novembris Amir Taaki poolt, 22-aastane briti päritolu iraanlane, kes kasutab pseudonüümi genjix.
 

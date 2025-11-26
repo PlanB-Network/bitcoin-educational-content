@@ -1907,7 +1907,7 @@ Wydarzeniem, które spowodowało odejście Satoshiego jest afera WikiLeaks. Wiki
 ![WikiLeaks logo in November 2010](assets/pl/059.webp)
 
 
-Finansowanie WikiLeaks opiera się głównie na darowiznach publicznych, więc organizacja polega na procesorach płatności w celu otrzymywania płatności online. Jednak po tych rewelacjach wywierana jest presja na pośredników, którzy obawiają się reakcji regulatora. Z tego powodu firma Moneybookers [zamroziła] (https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) konto organizacji pozarządowej 14 października.
+Finansowanie WikiLeaks opiera się zasadniczo na darowiznach publicznych, w związku z czym organizacja jest zależna od procesorów płatności w celu otrzymywania płatności online. Jednak w wyniku tych rewelacji wywierana jest presja na te strony trzecie, które obawiają się reakcji regulatora. Dlatego firma płatności online Moneybookers [zamraża](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) konto organizacji pozarządowej 14 października.
 
 
 Sytuacja ta otwiera królewską drogę do wykorzystania Bitcoina, który nie opiera się na żadnej zaufanej stronie trzeciej i byłby znacznie bardziej odporny na cenzurę finansową. Wątek ten został otwarty na forum w listopadzie przez Amira Taakiego, 22-letniego Brytyjczyka irańskiego pochodzenia używającego pseudonimu genjix.

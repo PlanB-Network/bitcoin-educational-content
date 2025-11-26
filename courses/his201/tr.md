@@ -1909,7 +1909,7 @@ Satoshi'in ayrılışını tetikleyen olay WikiLeaks olayıdır. WikiLeaks, 2006
 ![WikiLeaks logo in November 2010](assets/tr/059.webp)
 
 
-WikiLeaks'in finansmanı temel olarak kamu bağışlarına dayanıyor, bu nedenle kuruluş çevrimiçi ödemeleri almak için ödeme işlemcilerine güveniyor. Ancak, bu ifşaatların ardından, düzenleyicinin tepkisinden korkan bu aracılar üzerinde baskı oluşuyor. Bu nedenle online ödeme şirketi Moneybookers 14 Ekim'de STK'nın hesabını [dondurdu] (https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked).
+WikiLeaks'in finansmanı esas olarak halk bağışlarına dayanmaktadır, bu nedenle kuruluş çevrimiçi ödemeleri almak için ödeme işlemcilerine bağımlıdır. Ancak, bu ifşaatların ardından, düzenleyicinin tepkisinden korkan bu üçüncü taraflar üzerinde baskı oluşur. Bu nedenle çevrimiçi ödeme şirketi Moneybookers, 14 Ekim'de STK'nın hesabını [dondurur](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked).
 
 
 Bu durum, herhangi bir güvenilir üçüncü tarafa dayanmayan ve finansal sansüre çok daha iyi direnecek olan Bitcoin'yi kullanmak için kraliyet yolunu açıyor. Kasım ayında, genjix takma adını kullanan 22 yaşındaki bir İngiliz-İranlı olan Amir Taaki, forumda hipotezi açtı.

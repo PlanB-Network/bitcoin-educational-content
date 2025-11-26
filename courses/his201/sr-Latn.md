@@ -1907,7 +1907,7 @@ Okidački događaj za odlazak Satoshi je afera WikiLeaks. WikiLeaks je nevladina
 ![WikiLeaks logo in November 2010](assets/sr-Latn/059.webp)
 
 
-Finansiranje WikiLeaksa se prvenstveno zasniva na javnim donacijama, tako da organizacija zavisi od procesora plaćanja za primanje uplata putem interneta. Međutim, nakon ovih otkrića, pritisak je stavljen na ove posrednike koji strahuju od reakcije regulatora. Zbog toga kompanija za online plaćanja Moneybookers [zamrzava](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) račun NVO-a 14. oktobra.
+Finansiranje WikiLeaks-a se u suštini oslanja na javne donacije, tako da organizacija zavisi od procesora plaćanja za prijem onlajn uplata. Međutim, nakon ovih otkrića, vrši se pritisak na ove treće strane koje strahuju od reakcije regulatora. Zbog toga kompanija za onlajn plaćanje Moneybookers [zamrzava](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) račun nevladine organizacije 14. oktobra.
 
 
 Ova situacija otvara kraljevski put za korišćenje Bitcoin, koji ne zavisi od bilo koje pouzdane treće strane i mnogo bi bolje odolevao finansijskoj cenzuri. Hipoteza je otvorena na forumu u novembru od strane Amira Taakija, 22-godišnjeg Britanca iranskog porekla koji koristi pseudonim genjix.

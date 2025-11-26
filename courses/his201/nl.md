@@ -1909,7 +1909,7 @@ De aanleiding voor het vertrek van Satoshi is de WikiLeaks-affaire. WikiLeaks is
 ![WikiLeaks logo in November 2010](assets/nl/059.webp)
 
 
-De financiering van WikiLeaks is voornamelijk gebaseerd op donaties van het publiek, dus vertrouwt de organisatie op betalingsverwerkers om online betalingen te ontvangen. Na deze onthullingen wordt er echter druk uitgeoefend op deze tussenpersonen die de reactie van de toezichthouder vrezen. Daarom [bevriest](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) het online betalingsbedrijf Moneybookers de rekening van de NGO op 14 oktober.
+De financiering van WikiLeaks is voornamelijk gebaseerd op publieke donaties, waardoor de organisatie afhankelijk is van betalingsverwerkers om online betalingen te ontvangen. Echter, na deze onthullingen wordt er druk uitgeoefend op deze derde partijen die de reactie van de toezichthouder vrezen. Daarom [blokkeert](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) het online betalingsbedrijf Moneybookers de rekening van de NGO op 14 oktober.
 
 
 Deze situatie opent een koninklijke weg voor het gebruik van Bitcoin, dat niet afhankelijk is van een betrouwbare derde partij en veel beter bestand zou zijn tegen financiële censuur. In november opende Amir Taaki, een 22-jarige Brits-Iraanse die het pseudoniem genjix gebruikt, de hypothese op het forum.

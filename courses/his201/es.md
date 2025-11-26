@@ -1321,7 +1321,7 @@ El evento desencadenante de la partida de Satoshi es el asunto WikiLeaks. WikiLe
 
 ![Logo de WikiLeaks en noviembre de 2010](assets/es/059.webp)
 
-La financiación de WikiLeaks se basa principalmente en donaciones públicas, por lo que la organización depende de procesadores de pago para recibir pagos en línea. Sin embargo, tras estas revelaciones, se ejerce presión sobre estos intermediarios que temen la reacción del regulador. Es por esto que la compañía de pagos en línea Moneybookers [congela](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) la cuenta de WikiLeaks el 14 de octubre.
+La financiación de WikiLeaks se basa esencialmente en donaciones del público, por lo que la organización depende de los procesadores de pago para recibir pagos en línea. Sin embargo, a raíz de estas revelaciones, se ejerce presión sobre estos terceros que temen la reacción del regulador. Por eso, la empresa de pagos en línea Moneybookers [congela](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) la cuenta de la ONG el 14 de octubre.
 
 Esta situación abre un camino real para el uso de Bitcoin, que no depende de ninguna tercera parte de confianza y resistiría mucho mejor la censura financiera. La hipótesis se abre en el foro en noviembre por Amir Taaki, un británico de origen iraní de 22 años que utiliza el seudónimo genjix.
 

@@ -1297,7 +1297,7 @@ L'evento scatenante l'abbandono di Satoshi è il caso WikiLeaks. WikiLeaks è un
 
 ![Logo di WikiLeaks nel novembre 2010](assets/it/059.webp)
 
-Il finanziamento di WikiLeaks si basa principalmente su donazioni pubbliche, quindi l'organizzazione si affida ai processori di pagamento per ricevere pagamenti online. Tuttavia, in seguito a queste rivelazioni, gli intermediari sono sotto pressione perché temono la reazione dell'autorità di regolamentazione. Infatti, per questo motivo la compagnia di pagamenti online Moneybookers [congela](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) il conto dell'ONG il 14 ottobre.
+Il finanziamento di WikiLeaks si basa essenzialmente sulle donazioni del pubblico, quindi l'organizzazione dipende dagli elaboratori di pagamento per ricevere versamenti online. Tuttavia, a seguito di queste rivelazioni, viene esercitata pressione su queste terze parti che temono la reazione del regolatore. Ecco perché la società di pagamenti online Moneybookers [congela](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) il conto dell'ONG il 14 ottobre.
 
 Questa situazione apre la strada all'utilizzo di Bitcoin, che non si affida a nessuna terza parte fidata e resisterebbe molto meglio alla censura finanziaria. L'ipotesi viene aperta sul forum a novembre da Amir Taaki, un britannico di origine iraniana di 22 anni che usa lo pseudonimo genjix.
 

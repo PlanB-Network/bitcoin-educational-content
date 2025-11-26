@@ -1253,7 +1253,7 @@ Satoshi Nakamoton lähdön laukaiseva tapahtuma on WikiLeaks-skandaali. WikiLeak
 
 ![WikiLeaksin logo marraskuussa 2010](assets/fi/059.webp)
 
-WikiLeaksin rahoitus perustuu pääasiassa julkisiin lahjoituksiin, joten järjestö luottaa maksunvälittäjiin verkossa tapahtuvien maksujen vastaanottamiseksi. Kuitenkin näiden paljastusten jälkeen välittäjiin kohdistuu painostusta, koska ne pelkäävät sääntelijän reaktiota. Tästä syystä online-maksuyhtiö Moneybookers [jäädyttää](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) järjestön tilin 14. lokakuuta.
+WikiLeaksin rahoitus perustuu olennaisesti yleisön lahjoituksiin, joten organisaatio on riippuvainen maksujenkäsittelijöistä saadakseen verkkosiirtoja. Näiden paljastusten jälkeen näihin kolmansiin osapuoliin, jotka pelkäävät sääntelijän reaktiota, kohdistetaan painetta. Tästä syystä verkkopetitusyritys Moneybookers [jäädyttää](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) kansalaisjärjestön tilin 14. lokakuuta.
 
 Tilanne avaa kuninkaallisen tien Bitcoinin käytölle, joka ei luota mihinkään luotettuun kolmanteen osapuoleen ja vastustaisi taloudellista sensuuria paljon paremmin. Hypoteesi avataan foorumilla marraskuussa Amir Taakin toimesta, 22-vuotias brittiläinen iranilaistaustainen henkilö, joka käyttää nimimerkkiä genjix.
 

@@ -1378,7 +1378,7 @@ Tukio la kuchochea la kuondoka kwa Satoshi ni suala la WikiLeaks. WikiLeaks ni s
 
 ![WikiLeaks logo in November 2010](assets/sw/059.webp)
 
-Ufadhili wa WikiLeaks unategemea hasa michango ya umma, kwa hivyo shirika linategemea wachakataji malipo kupokea malipo ya mtandaoni. Walakini, kufuatia ufunuo huu, shinikizo linawekwa kwa waamuzi hawa ambao wanaogopa majibu ya mdhibiti. Hii ndiyo sababu kampuni ya malipo ya mtandaoni Moneybookers [yafungiwa](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) akaunti ya NGO tarehe 14 Oktoba.
+Ufadhili wa WikiLeaks unategemea hasa michango ya umma, hivyo shirika hilo linategemea waendesha malipo kupokea malipo ya mtandaoni. Hata hivyo, kufuatia ufichuzi huu, shinikizo linawekwa kwa wahusika hawa wa tatu ambao wanaogopa majibu ya mdhibiti. Hii ndio sababu kampuni ya malipo ya mtandaoni Moneybookers [inazuia](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) akaunti ya shirika lisilo la kiserikali mnamo Oktoba 14.
 
 Hali hii inafungua njia ya kifalme kwa matumizi ya Bitcoin, ambayo haitegemei mtu wa tatu anayeaminika na ingepinga udhibiti wa kifedha bora zaidi. Dhana hiyo ilifunguliwa kwenye kongamano mnamo Novemba na Amir Taaki, Muingereza mwenye umri wa miaka 22 mwenye asili ya Irani akitumia jina bandia la genjix.
 

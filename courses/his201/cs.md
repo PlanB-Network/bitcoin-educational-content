@@ -1175,7 +1175,7 @@ Spouštěcím momentem pro Satoshiho odchod je aféra WikiLeaks. WikiLeaks je ne
 
 ![Logo WikiLeaks v listopadu 2010](assets/cs/059.webp)
 
-Financování WikiLeaks je primárně založeno na veřejných darováních, takže organizace spoléhá na platební procesory pro přijímání online plateb. Nicméně, po těchto odhaleních, je na tyto prostředníky vyvíjen tlak, který se obává reakce regulátora. To je důvod, proč online platební společnost Moneybookers [zmrazuje](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) účet neziskové organizace dne 14. října.
+Financování WikiLeaks spočívá v zásadě na darech veřejnosti, takže organizace závisí na zpracovatelích plateb pro příjem online plateb. Nicméně po těchto odhaleních je na tyto třetí strany, které se obávají reakce regulátora, vyvíjen tlak. Proto společnost pro online platby Moneybookers [zmrazila](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) účet nevládní organizace 14. října.
 
 Tato situace otevírá královskou cestu pro použití Bitcoinu, který nespoléhá na žádnou důvěryhodnou třetí stranu a mnohem lépe by odolával finanční cenzuře. Hypotéza je otevřena na fóru v listopadu Amir Taaki, 22letý Brit iránského původu používající pseudonym genjix.
 

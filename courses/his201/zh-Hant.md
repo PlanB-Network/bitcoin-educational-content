@@ -1378,7 +1378,7 @@ Gavin 與中本聰關係密切，但也會與其他開發人員討論，他清�
 
 ![WikiLeaks logo in November 2010](assets/zh-Hant/059.webp)
 
-維基解密的資金主要來自公眾捐款，因此該組織依賴支付處理商接收線上付款。然而，在這些揭露發生之後，這些中介公司受到壓力，他們害怕監管機構的反應。這就是線上付款公司 Moneybookers 在 10 月 14 日 [凍結](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) 該 NGO 帳戶的原因。
+維基解密的資金主要依賴公眾捐款，因此該組織依賴支付處理商來接收線上付款。然而，在這些爆料之後，監管機構反應的擔憂給這些第三方帶來了壓力。這就是線上支付公司 Moneybookers 在 10 月 14 日[凍結](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked)該非政府組織帳戶的原因。
 
 這種情況為 Bitcoin 的使用開闢了一條王道，Bitcoin 不需要依賴任何可信賴的第三方，而且可以更好地抵制金融審查。這個假設是由 Amir Taaki 於 11 月在論壇上開啟的，他是一位 22 歲的伊朗裔英國人，使用的假名是 genjix。
 

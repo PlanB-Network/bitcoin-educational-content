@@ -1191,7 +1191,7 @@ Das auslösende Ereignis für Satoshis Abgang ist die WikiLeaks-Affäre. WikiLea
 
 ![WikiLeaks-Logo im November 2010](assets/de/059.webp)
 
-Die Finanzierung von WikiLeaks basiert hauptsächlich auf öffentlichen Spenden, daher ist die Organisation auf Zahlungsabwickler angewiesen, um Online-Zahlungen zu erhalten. Jedoch wird nach diesen Enthüllungen Druck auf diese Zwischenhändler ausgeübt, die eine Reaktion des Regulators befürchten. Deshalb [friert](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) das Online-Zahlungsunternehmen Moneybookers das Konto der NGO am 14. Oktober ein.
+Die Finanzierung von WikiLeaks basiert im Wesentlichen auf Spenden der Öffentlichkeit, so dass die Organisation von Zahlungsabwicklern abhängig ist, um Online-Zahlungen zu erhalten. Angesichts dieser Enthüllungen wird jedoch Druck auf diese Dritten ausgeübt, da sie die Reaktion der Aufsichtsbehörde fürchten. Aus diesem Grund [sperrte](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) das Online-Zahlungsunternehmen Moneybookers am 14. Oktober das Konto der NGO.
 
 Diese Situation eröffnet einen königlichen Weg für die Nutzung von Bitcoin, das nicht auf eine vertrauenswürdige dritte Partei angewiesen ist und finanzieller Zensur viel besser widerstehen würde. Die Hypothese wird im November im Forum von Amir Taaki, einem 22-jährigen Briten iranischer Herkunft, der das Pseudonym genjix verwendet, aufgestellt.
 

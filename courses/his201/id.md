@@ -1340,7 +1340,7 @@ Pemicu kepergian Satoshi adalah masalah WikiLeaks. WikiLeaks adalah organisasi n
 
 ![Logo WikiLeaks pada November 2010](assets/id/059.webp)
 
-Pendanaan WikiLeaks utamanya bergantung pada donasi publik, sehingga organisasi tersebut mengandalkan penyedia layanan pembayaran untuk menerima pembayaran daring. Namun, menyusul pengungkapan tersebut, tekanan diberikan pada perantara-perantara ini yang khawatir akan reaksi regulator. Inilah sebabnya mengapa perusahaan pembayaran daring Moneybookers [membekukan](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) akun NGO tersebut pada 14 Oktober.
+Pendanaan WikiLeaks pada dasarnya bergantung pada donasi publik, sehingga organisasi tersebut bergantung pada pemroses pembayaran untuk menerima pembayaran online. Namun, menyusul pengungkapan ini, tekanan diberikan pada pihak ketiga ini yang takut akan reaksi regulator. Inilah sebabnya mengapa perusahaan pembayaran online Moneybookers [membekukan](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) akun LSM tersebut pada 14 Oktober.
 
 Situasi ini membuka jalan emas bagi penggunaan Bitcoin, yang tidak bergantung pada pihak ketiga tepercaya mana pun dan akan jauh lebih baik dalam menahan sensor finansial. Hipotesis ini diajukan di forum pada bulan November oleh Amir Taaki, seorang warga Inggris keturunan Iran berusia 22 tahun yang menggunakan nama samaran genjix.
 

@@ -1909,7 +1909,7 @@ Ico catumye Satoshi igenda ni ikibazo ca WikiLeaks. WikiLeaks ni ishirahamwe rit
 ![WikiLeaks logo in November 2010](assets/rn/059.webp)
 
 
-Infashanyo WikiLeaks itanga ishingiye ahanini ku ntererano za bose, ni co gituma ishirahamwe ryizigira abajejwe kwishura kugira ngo baronke amahera kuri internet. Ariko rero, hakurikijwe ivyo bimenyetso, abo bahuza barashirwako umukazo batinya ingene umugenzuzi azovyifatamwo. Ni co gituma ishirahamwe ry'ugutanga amahera kuri internet ryitwa Moneybookers [rihagarika] konti y'iryo shirahamwe ry'abanyagihugu ku wa 14 Gitugutu.
+Umutungo wa WikiLeaks ushingiye ahanini ku materano atangwa n'abantu bose, ku buryo uwo muryango ushingira ku bacunguzi b'amahera kugira ngo uronke amatara. Ariko rero, inyuma y'izo nkuru zagiye ahabona, umukazo warashizwe kuri abo bantu b'agatatu batinya uko abacunguzi b'amategeko bokwitwara. Ni co gituma ishirahamwe ry'ugurisha Moneybookers [ryahagaritse](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) konti y'uwo muryango ku wa 14 Gitugutu.
 
 
 Ivyo bica bifungura inzira y’ubwami yo gukoresha Bitcoin, idashingiye ku muntu wa gatatu yizigirwa kandi yoshobora kunanira neza cane ugucengera ivy’amahera. Mu kwezi kwa 11, Amir Taaki, umwongereza w’imyaka 22 w’umunyairani akoresha izina ry’uruyeri ryitwa genjix, ni we yatanguje iyo nkuru ku bijanye n’ihuriro.

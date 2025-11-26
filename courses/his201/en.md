@@ -1283,7 +1283,7 @@ The triggering event for Satoshi's departure is the WikiLeaks affair. WikiLeaks 
 
 ![WikiLeaks logo in November 2010](assets/en/059.webp)
 
-WikiLeaks' funding is primarily based on public donations, so the organization relies on payment processors to receive online payments. However, following these revelations, pressure is put on these intermediaries who fear the regulator's reaction. This is why the online payment company Moneybookers [freezes](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) the NGO's account on October 14.
+WikiLeaks' funding relies essentially on public donations, so the organization depends on payment processors to receive online payments. However, following these revelations, pressure is put on these third parties who fear the regulator's reaction. This is why the online payment company Moneybookers [freezes](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) the NGO's account on October 14.
 
 This situation opens a royal path for using Bitcoin, which does not rely on any trusted third party and would resist financial censorship much better. In November, Amir Taaki, a 22-year-old British-Iranian using the pseudonym genjix, opened the hypothesis on the forum.
 

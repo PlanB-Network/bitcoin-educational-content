@@ -3869,7 +3869,7 @@ Sie müssen nur sicherstellen, dass sie diese Überweisungen vornehmen können, 
 
 
 
-Um den Zusammenhang zwischen Geld und Inflation zu verstehen, empfehle ich einen Kurs auf Plan ₿ Network, der sich mit diesem Thema befasst. Sie werden den Unterschied zwischen Preiserhöhungen, die wir im Leben erleben, und Inflation kennen lernen. Das ist nicht das Gleiche. Wenn wir von Inflation sprechen, meinen wir oft den Preisanstieg, nicht die Inflation selbst. Die Inflation ist ein ziemlich präzises Konzept, das durch die Zunahme der Geldmenge erklärt wird.
+Um den Zusammenhang zwischen Geld und Inflation zu verstehen, empfehle ich einen Kurs auf Plan ₿ Academy, der sich mit diesem Thema befasst. Sie werden den Unterschied zwischen Preiserhöhungen, die wir im Leben erleben, und Inflation kennen lernen. Das ist nicht das Gleiche. Wenn wir von Inflation sprechen, meinen wir oft den Preisanstieg, nicht die Inflation selbst. Die Inflation ist ein ziemlich präzises Konzept, das durch die Zunahme der Geldmenge erklärt wird.
 
 
 https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1

@@ -139,4 +139,4 @@ Dai anche un’occhiata al nostro tutorial su Peach, una piattaforma peer-to-pee
 
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874

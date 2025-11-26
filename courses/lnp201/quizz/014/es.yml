@@ -6,4 +6,4 @@ wrong_answers:
   - Verificar el saldo de fondos de cada participante
 explanation: |
   El último paso para abrir un canal es publicar la transacción de depósito en la blockchain, lo que oficialmente abre el canal.
-reviewed: false
+reviewed: true

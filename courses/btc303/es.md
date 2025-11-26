@@ -6,7 +6,7 @@ objectives:
   - Analizar los compromisos fundamentales y las decisiones arquitectónicas de Bitcoin
   - Aprenda a evaluar los cambios e innovaciones propuestos para el protocolo Bitcoin
   - Sintetizar más de una década de historia del desarrollo de Bitcoin y debates comunitarios
-  - Aplicar marcos de pensamiento crítico al evaluar los nuevos PIF
+  - Aplicar marcos de pensamiento crítico al evaluar los nuevos BIPs
 
 
 ---
@@ -690,25 +690,18 @@ Incluso si algunos full nodes se pasan al lado oscuro y deciden aceptar bloques 
 
 
 
-Una Block reward se compone de la subvención por bloque más las comisiones por transacción. La Block reward tiene que cubrir los costes de seguridad de la Bitcoin. Podemos afirmar con seguridad que, en las condiciones actuales en lo que respecta a la subvención por bloque, las comisiones por transacción, el precio del Bitcoin, el tamaño del Mempool, la potencia del Hash, el grado de descentralización, etc., los incentivos para que todos los jugadores respeten las reglas son lo suficientemente altos como para preservar un sistema monetario seguro.
+Una Block reward se compone de la subvención por bloque más las comisiones por transacción. La Block reward tiene que cubrir los costes de seguridad de Bitcoin. Podemos afirmar con seguridad que, en las condiciones actuales en lo que respecta a la subvención por bloque, las comisiones por transacción, el precio del Bitcoin, el tamaño del Mempool, la potencia del Hash, el grado de descentralización, etc., los incentivos para que todos los jugadores respeten las reglas son lo suficientemente altos como para preservar un sistema monetario seguro.
 
 
 ¿Qué ocurre cuando la subvención en bloque se aproxima a cero? Para simplificar, supongamos que es igual a cero. Llegados a este punto, el coste de seguridad del sistema se cubre únicamente mediante las comisiones por transacción. No podemos saber qué nos deparará el futuro cuando esto ocurra. Los factores de incertidumbre son numerosos y no nos queda más remedio que especular. Por ejemplo, la contribución de Paul Sztorc al tema [en su blog Truthcoin](https://www.truthcoin.info/blog/security-budget/) es en su mayor parte especulación, pero tiene al menos un punto sólido (por favor, ten en cuenta que M2, tal y como lo menciona Sztorc, es una medida de un Supply de dinero fiduciario):
-
 
 > Mientras que los dos se mezclan en el mismo "presupuesto de seguridad", la subvención en bloque y las tasas txn son total y completamente diferentes. Son tan diferentes entre sí como "los beneficios totales de VISA en 2017" lo son del "incremento total de M2 en 2017".
 
 Hoy son los tenedores quienes pagan por la seguridad (vía inflación monetaria). Mañana les tocará a los derrochadores asumir de algún modo esta carga, como se ilustra a continuación.
 
-
-
-
-
 A medida que pase el tiempo, los costes de seguridad pasarán de los poseedores a los gastadores.
 
-
 Cuando las comisiones por transacción son la principal motivación para la minería, los incentivos cambian. En particular, si la Mempool de un minero no contiene suficientes comisiones por transacción, puede resultar más rentable para ese minero reescribir la historia del Bitcoin en lugar de ampliarla. Bitcoin Optech tiene una [sección sobre este comportamiento](https://bitcoinops.org/en/topics/fee-sniping/) específica, llamada *fee sniping*, escrita por David Harding:
-
 
 > El recorte de comisiones es un problema que puede surgir a medida que la subvención de Bitcoin siga disminuyendo y las comisiones por transacción empiecen a dominar las recompensas por bloque de Bitcoin. Si las comisiones por transacción son lo único que importa, entonces un Miner con un `x` por ciento de la tasa de Hash tiene un `x` por ciento de posibilidades de Mining el siguiente bloque, por lo que el valor esperado para ellos de Mining honestamente es el `x` por ciento del [mejor conjunto feerado de transacciones](https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction) en su Mempool.
 >
@@ -822,7 +815,7 @@ Aaron van Wirdum describe este sinuoso camino en su artículo de Bitcoin Magazin
 
 > Shaolinfry propuso una alternativa: una Soft Fork activada por el usuario (UASF). En lugar de la activación mediante energía hash, una Soft Fork activada por el usuario tendría una "'activación de día de bandera' en la que los nodos comienzan la aplicación en un momento predeterminado en el futuro". Siempre que tal UASF sea aplicada por una mayoría económica, esto debería obligar a una mayoría de mineros a seguir (o activar) la Soft Fork.
 
-Entre otras cosas, cita el correo electrónico de Shaolinfry a la lista de correo Bitcoin-dev. En esa ocasión, Shaolinfry [argumentó en contra de las bifurcaciones Miner activadas Soft](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html), enumerando una serie de problemas con ellas:
+Entre otras cosas, cita el correo electrónico de Shaolinfry a la lista de correo Bitcoin-dev. En esa ocasión, Shaolinfry [argumentó en contra de las soft fork activadas por mineros](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html), enumerando una serie de problemas con ellas:
 
 
 > En primer lugar, requiere confiar en que la potencia hash se validará tras la activación. La Soft Fork BIP66 fue un caso en el que el 95% del hashrate señalaba que estaba preparado, pero en realidad cerca de la mitad no estaba validando las reglas actualizadas y minó sobre un bloque no válido por error.
@@ -831,9 +824,7 @@ Entre otras cosas, cita el correo electrónico de Shaolinfry a la lista de corre
 
 Shaolinfry también llamó la atención sobre una interpretación errónea habitual de la señalización de los mineros: la gente solía pensar que era un medio por el cual los mineros podían decidir sobre las actualizaciones del protocolo, en lugar de una acción que ayudaba a coordinar las actualizaciones. Debido a este malentendido, los mineros también podrían haberse sentido obligados a proclamar en público su opinión sobre una determinada Soft Fork, como si eso diera peso a la propuesta.
 
-
 La propuesta de la UASF consiste, en pocas palabras, en un "día de bandera" en el que los nodos empiecen a aplicar nuevas normas específicas. De este modo, los mineros no tienen que hacer un esfuerzo colectivo para coordinar la actualización, sino que *pueden* activarla antes del día de la bandera si un número suficiente de bloques señalan su apoyo:
-
 
 > Mi sugerencia es tener lo mejor de ambos mundos. Dado que una Soft Fork activada por el usuario necesita un plazo relativamente largo antes de la activación, podemos combinarla con el BIP9 para dar la opción de una activación coordinada más rápida del hash o una activación por día de bandera, lo que ocurra antes.
 > En ambos casos, podemos aprovechar los sistemas de alerta de BIP9. El cambio es relativamente sencillo: se añade un parámetro de tiempo de activación que cambiará el estado de BIP9 a LOCKED_IN antes de que finalice el tiempo de espera de despliegue de BIP9.
@@ -843,8 +834,7 @@ Esta idea despertó mucho interés, pero no pareció alcanzar un apoyo casi uná
 
 > Hilliard propuso una solución algo compleja pero inteligente que lo haría todo compatible: La activación segregada de testigos propuesta por el equipo de desarrollo de Bitcoin Core, el UASF de BIP148 y el mecanismo de activación del Acuerdo de Nueva York. Su BIP91 podría mantener íntegro Bitcoin, al menos durante la activación de SegWit.
 
-Hubo más factores complicados (por ejemplo, el llamado "Acuerdo de Nueva York") que este PIF tuvo que tener en cuenta. Le animamos a leer el artículo completo de van Wirdum para conocer los numerosos detalles interesantes de esta historia.
-
+Hubo más factores complicados (por ejemplo, el llamado "Acuerdo de Nueva York") que este BIP tuvo que tener en cuenta. Le animamos a leer el artículo completo de van Wirdum para conocer los numerosos detalles interesantes de esta historia.
 
 #### Debate posterior a SegWit
 
@@ -1355,7 +1345,7 @@ El escalado vertical es el proceso de aumentar los recursos informáticos de las
 La técnica más discutida para el escalado vertical en Bitcoin es el aumento del límite de tamaño de los bloques. Esto requeriría que algunos nodos completos actualizasen su hardware para estar a la altura de las crecientes demandas computacionales. El inconveniente es que se produce a costa de la centralización.
 
 
-Además de los efectos negativos sobre la descentralización de Full node, el escalado vertical también podría afectar negativamente a la descentralización y seguridad de la minería (Mining) de formas menos obvias. Veamos cómo "deberían" operar los mineros. Supongamos que un minero mina un bloque a la altura $7$ y publica ese bloque en la red Bitcoin. Este bloque tardará algún tiempo en alcanzar una amplia aceptación, lo que se debe principalmente a dos factores:
+Además de los efectos negativos sobre la descentralización de Full node, el escalado vertical también podría afectar negativamente a la descentralización y seguridad de la minería (Mining) de formas menos obvias. Veamos cómo "deberían" operar los mineros. Supongamos que un minero mina un bloque a la altura 7 y publica ese bloque en la red Bitcoin. Este bloque tardará algún tiempo en alcanzar una amplia aceptación, lo que se debe principalmente a dos factores:
 
 
 - La transferencia del bloque entre pares lleva tiempo debido a las limitaciones del ancho de banda.
@@ -1692,11 +1682,9 @@ A mediados de agosto de 2010, el usuario del foro Bitcointalk jgarzik, alias Jef
 Presumiblemente, había un error que provocaba que la suma de dos salidas int64 (no uint64, como suponía Garzik) se desbordara a un valor negativo -0,00997538 BTC. Cualquiera que fuera la suma de las entradas, la "suma" de las salidas sería menor, por lo que esta transacción sería correcta según el código de la época.
 
 
-En este caso, el fallo se había revelado y publicado a través de un exploit real. Un desafortunado resultado de esto fue que se habían creado unos 2x92.000 millones de Bitcoin, lo que diluyó gravemente la oferta monetaria (Supply) de unos $3,7$ millones de monedas que existía en ese momento.
-
+En este caso, el fallo se había revelado y publicado a través de un exploit real. Un desafortunado resultado de esto fue que se habían creado unos 2x92.000 millones de Bitcoin, lo que diluyó gravemente la oferta monetaria (Supply) de unos 3,7 millones de monedas que existía en ese momento.
 
 En un hilo relacionado, [Satoshi publicó](https://bitcointalk.org/index.php?topic=823.msg9531#msg9531) que agradecería que la gente dejara de minar (o *generar*, como lo llamaban entonces):
-
 
 > Ayudaría que la gente dejara de generar. Probablemente tendremos que rehacer una rama alrededor de la actual, y cuanto menos se genere, más rápido será.
 >
@@ -1709,7 +1697,7 @@ Su plan era hacer un Soft Fork para invalidar transacciones como la que se comen
 > Por ahora, pasos recomendados:
 > 1) Apagar.
 > 2) Descarga los archivos blk de knightmb.  (reemplaza tus archivos blk0001.dat y blkindex.dat)
-> 3) Mejora.
+> 3) Actualiza.
 > 4) Debería empezar con menos de 74000 bloques. Deja que vuelva a descargar el resto.
 >
 > Si no quieres usar los archivos de knightmb, podrías simplemente borrar tus archivos blk*.dat, pero va a ser mucha carga en la red si todo el mundo está descargando todo el índice de bloques a la vez.
@@ -1761,9 +1749,7 @@ La solución elegida, aparte de las medidas inmediatas adoptadas por las dos agr
 - limitar los bloques tanto en tamaño como en bloqueos necesarios en la versión 0.8.1
 - parchear las versiones antiguas (0.7.2 y algunas anteriores) con las mismas reglas nuevas, y aumentar el límite de bloqueo global.
 
-
 Excepto en el caso del aumento del límite de bloqueo global mencionado en el segundo punto, estas normas se aplicaron temporalmente durante un periodo de tiempo predeterminado. El plan era eliminar estos límites una vez que la mayoría de los nodos se hubieran actualizado.
-
 
 Esta Soft Fork redujo drásticamente el riesgo de fracaso del consenso, y unos meses más tarde, el 15 de mayo, las normas temporales se desactivaron de forma concertada en toda la red. Nótese que esta desactivación fue en efecto una Hard Fork, pero no fue polémica. Además, se publicó junto con la Fork Soft precedente, por lo que las personas que ejecutaban el software bifurcado Soft eran perfectamente conscientes de que le seguiría una Hard Fork. Por lo tanto, la gran mayoría de los nodos permanecieron en consenso cuando se activó la Hard Fork. Por desgracia, algunos nodos que no se actualizaron se perdieron en el proceso.
 

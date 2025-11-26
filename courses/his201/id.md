@@ -1275,7 +1275,7 @@ Satu elemen terakhir yang menunjukkan kesuksesan Bitcoin adalah fakta bahwa bebe
 
 ### Electronic Frontier Foundation menerima Bitcoin
 
-Sebuah peristiwa penting pada akhir tahun 2010 adalah diterimanya Bitcoin oleh Electronic Frontier Foundation (EFF), sebuah organisasi internasional untuk perlindungan kebebasan di Internet, yang didirikan bersama pada tahun 1990 (bukan 1900) oleh Mitch Kapor, John Gilmore, dan John Perry Barlow. Hal ini sangat penting bagi para pengguna awal Bitcoin, yang pada dasarnya adalah cypherpunk. Mereka sangat ingin EFF menerima Bitcoin.
+Peristiwa penting di akhir tahun 2010 adalah diterimanya bitcoin oleh *Electronic Frontier Foundation*, sebuah organisasi internasional untuk perlindungan kebebasan di internet, yang didirikan bersama pada tahun 1990 oleh Mitch Kapor, John Gilmore, dan John Perry Barlow. Organisasi ini sangat berharga bagi penganut Bitcoin pertama, yang merupakan cypherpunks sejati. Oleh karena itu, mereka sangat ingin agar organisasi ini menerima bitcoin.
 
 ![Logo Electronic Frontier Foundation](assets/id/058.webp)
 

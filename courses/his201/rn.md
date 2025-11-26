@@ -1816,7 +1816,7 @@ Ikintu ca nyuma kigaragaza ko Bitcoin yaroraniwe ni uko bamwebamwe barondeye kug
 ### Ishirahamwe ry’imipaka y’ubuhinga bwa none ryemera Bitcoin
 
 
-Mu mpera z'umwaka w'2010, ikintu gihambaye cabaye ni uko ishirahamwe ry'imipaka y'ubuhinga bwa none ryemeye Bitcoin. Iryo shirahamwe ni ishirahamwe mpuzamakungu ry’ugukingira umwidegemvyo kuri Internet, ryashinzwe mu 1900 na Mitch Kapor, John Gilmore na John Perry Barlow. Ivyo vyari bihambaye canecane ku bantu ba mbere bakoresheje Bitcoin, bakaba bari aba cypherpunks mu mutima. Bari bafise umutima ukunze wo kwemera Bitcoin.
+Igikorwa gikomeye c'ukurangiza umwaka wa 2010 ni ukwakira Bitcoin na *Electronic Frontier Foundation*, umuryango mpuzamakungu w'ugukingira ubwisanzure kuri Internet, washinzwe mu 1990 na Mitch Kapor, John Gilmore na John Perry Barlow. Uno muryango urahambaye ku mitima y'aba mbere bari bakoresheje Bitcoin, aba cypherpunks mu mutima. Bipfuza rero ko uwo muryango wakira Bitcoin.
 
 
 ![Logo of the Electronic Frontier Foundation](assets/rn/058.webp)

@@ -1814,7 +1814,7 @@ Jedan poslednji element koji ukazuje na uspeh Bitcoin je činjenica da su neki �
 ### Elektronska Granična Fondacija prihvata Bitcoin
 
 
-Značajan događaj krajem 2010. godine bilo je prihvatanje Bitcoin od strane Electronic Frontier Foundation, međunarodne organizacije za zaštitu sloboda na Internetu, koju su 1900. godine osnovali Mitch Kapor, John Gilmore i John Perry Barlow. Ovo je bilo posebno važno za rane korisnike Bitcoin, koji su u srcu bili cypherpunks. Oni su bili željni da ona prihvati Bitcoin.
+Značajan događaj krajem 2010. godine je prihvatanje bitcoina od strane *Electronic Frontier Foundation*, međunarodne organizacije za zaštitu sloboda na internetu, koju su 1990. godine suosnovali Mitch Kapor, John Gilmore i John Perry Barlow. Ova organizacija je draga srcu prvim pristalicama Bitcoina, cypherpunksima u duši. Stoga im je stalo do toga da ona prihvati bitcoin.
 
 
 ![Logo of the Electronic Frontier Foundation](assets/sr-Latn/058.webp)

@@ -1816,7 +1816,7 @@ Bitcoin의 성공을 나타내는 마지막 요소는 일부 사람들이 그 �
 ### 전자 프론티어 재단은 Bitcoin을 허용합니다
 
 
-2010년 말에는 전자 프론티어 재단이 Bitcoin을 승인한 중요한 사건이 있었습니다. 이 단체는 1900년 미치 카포, 존 길모어, 존 페리 발로우가 공동 설립한 인터넷의 자유를 보호하기 위한 국제 단체입니다. 이는 사이퍼펑크에 심취해 있던 Bitcoin의 얼리어답터들에게 특히 중요했습니다. 그들은 Bitcoin을 받아들이는 데 열심이었죠.
+2010년 말의 주요 사건은 Mitch Kapor, John Gilmore, John Perry Barlow가 1990년에 공동 설립한 인터넷 자유 보호를 위한 국제 조직인 *Electronic Frontier Foundation*에 의한 비트코인 수용입니다. 이 조직은 마음속 깊이 사이퍼펑크(cypherpunks)인 초기 비트코인 신봉자들에게 소중합니다. 따라서 그들은 이 조직이 비트코인을 수용하기를 간절히 바랐습니다.
 
 
 ![Logo of the Electronic Frontier Foundation](assets/ko/058.webp)

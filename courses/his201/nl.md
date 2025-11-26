@@ -1816,7 +1816,7 @@ Een laatste element dat wijst op het succes van Bitcoin is dat sommigen de grenz
 ### De Electronic Frontier Foundation accepteert Bitcoin
 
 
-Eind 2010 was een belangrijke gebeurtenis de aanvaarding van Bitcoin door de Electronic Frontier Foundation. Deze organisatie is een internationale organisatie voor het beschermen van vrijheden op het internet, mede opgericht in 1900 door Mitch Kapor, John Gilmore en John Perry Barlow. Dit was vooral belangrijk voor de vroege gebruikers van Bitcoin, die in hart en nieren cypherpunks waren. Ze wilden Bitcoin graag accepteren.
+Een opmerkelijke gebeurtenis aan het einde van 2010 is de acceptatie van bitcoin door de *Electronic Frontier Foundation*, een internationale organisatie voor de bescherming van internetvrijheden, mede opgericht in 1990 door Mitch Kapor, John Gilmore en John Perry Barlow. Deze organisatie ligt de eerste aanhangers van Bitcoin, cypherpunks in hart en nieren, na aan het hart. Ze dringen er dan ook op aan dat deze bitcoin accepteert.
 
 
 ![Logo of the Electronic Frontier Foundation](assets/nl/058.webp)

@@ -1139,7 +1139,7 @@ Một yếu tố cuối cùng chỉ ra sự thành công của Bitcoin là việ
 
 ### Tổ chức Electronic Frontier Foundation chấp nhận bitcoin
 
-Một sự kiện quan trọng vào cuối năm 2010 là việc tổ chức Electronic Frontier Foundation, một tổ chức quốc tế bảo vệ tự do trên Internet, được đồng sáng lập vào năm 1900 bởi Mitch Kapor, John Gilmore, và John Perry Barlow, chấp nhận bitcoin. Điều này đặc biệt quan trọng đối với những người tiên phong sử dụng Bitcoin, những người là cypherpunks bằng cả trái tim. Họ rất muốn tổ chức này chấp nhận bitcoin.
+Một sự kiện đáng chú ý vào cuối năm 2010 là việc *Electronic Frontier Foundation*, một tổ chức quốc tế bảo vệ các quyền tự do trên Internet, do Mitch Kapor, John Gilmore và John Perry Barlow đồng sáng lập vào năm 1990, chấp nhận bitcoin. Tổ chức này rất được lòng những người theo Bitcoin đầu tiên, những người có tinh thần cypherpunks. Vì vậy, họ rất mong muốn tổ chức này chấp nhận bitcoin.
 
 ![Logo của Tổ chức Electronic Frontier Foundation](assets/vi/058.webp)
 

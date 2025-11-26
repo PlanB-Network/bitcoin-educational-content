@@ -1814,7 +1814,7 @@ Ostatnim faktem wskazującym na sukces Bitcoina jest fakt, że niektórzy próbo
 ### Fundacja Electronic Frontier Foundation akceptuje Bitcoina
 
 
-Ważnym wydarzeniem pod koniec 2010 roku było zaakceptowanie Bitcoina przez Electronic Frontier Foundation, międzynarodową organizację zajmującą się ochroną wolności w Internecie, współzałożoną w 1990 roku przez Mitcha Kapora, Johna Gilmore'a i Johna Perry'ego Barlowa. Było to szczególnie ważne dla pierwszych użytkowników Bitcoina, którzy w głębi serca byli cypherpunkami. Zależało im na tym, by sieć akceptowała Bitcoina.
+Ważnym wydarzeniem pod koniec 2010 roku jest akceptacja bitcoina przez *Electronic Frontier Foundation*, międzynarodową organizację zajmującą się ochroną wolności w Internecie, współzałożoną w 1990 roku przez Mitcha Kapora, Johna Gilmore'a i Johna Perry Barlowa. Organizacja ta jest bliska sercu pierwszych zwolenników Bitcoina, cypherpunków z natury. Zależy im zatem na tym, aby akceptowała bitcoina.
 
 
 ![Logo of the Electronic Frontier Foundation](assets/pl/058.webp)

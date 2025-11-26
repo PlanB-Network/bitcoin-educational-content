@@ -1232,7 +1232,7 @@ Un ultimo elemento che indica il successo di Bitcoin è il fatto che alcuni hann
 
 ### La Electronic Frontier Foundation accetta bitcoin
 
-Un evento significativo alla fine del 2010 è stata l'accettazione di bitcoin da parte della Electronic Frontier Foundation, un'organizzazione internazionale per la protezione delle libertà su Internet, co-fondata nel 1900 da Mitch Kapor, John Gilmore e John Perry Barlow. Questo è stato particolarmente importante per i primi utenti Bitcoin, che erano cypherpunk nel cuore. Ed erano interessati ad accettare Bitcoin.
+Un evento significativo alla fine del 2010 è l'accettazione del bitcoin da parte della *Electronic Frontier Foundation*, un'organizzazione internazionale per la protezione delle libertà su Internet, co-fondata nel 1990 da Mitch Kapor, John Gilmore e John Perry Barlow. Questa organizzazione sta a cuore ai primi sostenitori di Bitcoin, cypherpunks nell'anima. Sono quindi desiderosi che accetti il bitcoin.
 
 ![Logo della Electronic Frontier Foundation](assets/it/058.webp)
 

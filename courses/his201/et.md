@@ -1176,7 +1176,7 @@ Bitcoini tõus tähendab, et asju hakatakse mõõtma, olgu see siis hinna, ahela
 
 ### Elektroonilise Piiri Fond aktsepteerib bitcoini
 
-2010. aasta lõpus toimunud oluline sündmus oli Elektroonilise Piiri Fondi, rahvusvahelise organisatsiooni, mis kaitseb vabadusi internetis ja mille asutasid 1900. aastal Mitch Kapor, John Gilmore ja John Perry Barlow, nõusolek aktsepteerida bitcoini. See oli eriti oluline Bitcoini varajastele omaks võtjatele, kes olid südames cypherpunkid. Neile oli oluline, et see aktsepteeriks bitcoini.
+2010 . aasta lõpu oluline sündmus on Bitcoini aktsepteerimine *Electronic Frontier Foundation* poolt, mis on rahvusvaheline Interneti-vabaduste kaitse organisatsioon, mille asutasid 1990. aastal Mitch Kapor, John Gilmore ja John Perry Barlow. See organisatsioon on Bitcoini esimestele poolehoidjatele, hingelt krüptopunkaritele, südamelähedane. Seetõttu on nende jaoks oluline, et see aktsepteeriks Bitcoini.
 
 ![Elektroonilise Piiri Fondi logo](assets/et/058.webp)
 

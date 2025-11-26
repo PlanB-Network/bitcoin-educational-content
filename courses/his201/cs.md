@@ -1117,7 +1117,7 @@ Posledním prvkem ukazujícím na úspěch Bitcoinu je fakt, že někteří se s
 
 ### Electronic Frontier Foundation přijímá bitcoin
 
-Významnou událostí na konci roku 2010 bylo přijetí bitcoinu Electronic Frontier Foundation, mezinárodní organizací na ochranu svobod na internetu, kterou v roce 1900 spoluzaložili Mitch Kapor, John Gilmore a John Perry Barlow. To bylo zvláště důležité pro první příznivce Bitcoinu, kteří byli v srdci cypherpunks. Byli nadšeni, že jej přijme.
+Významnou událostí konce roku 2010 je přijetí bitcoinu organizací *Electronic Frontier Foundation*, mezinárodní organizací pro ochranu svobod na internetu, spoluzaloženou v roce 1990 Mitchem Kaporem, Johnem Gilmorem a Johnem Perry Barlowem. Tato organizace je blízká srdci prvních zastánců Bitcoinu, kteří jsou cypherpunks v duši. Záleží jim proto na tom, aby přijala bitcoin.
 
 ![Logo Electronic Frontier Foundation](assets/cs/058.webp)
 

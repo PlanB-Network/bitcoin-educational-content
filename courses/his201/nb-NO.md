@@ -1175,7 +1175,7 @@ Et siste element som indikerer Bitcoins suksess er det faktum at noen søkte å 
 
 ### Electronic Frontier Foundation aksepterer bitcoin
 
-En betydelig hendelse mot slutten av 2010 var aksepten av bitcoin av Electronic Frontier Foundation, en internasjonal organisasjon for beskyttelse av friheter på internett, grunnlagt i 1900 av Mitch Kapor, John Gilmore, og John Perry Barlow. Dette var spesielt viktig for de tidlige adopterne av Bitcoin, som i hjertet var cypherpunks. De var ivrige etter å få den til å akseptere bitcoin.
+En viktig begivenhet på slutten av 2010 er aksepten av bitcoin fra *Electronic Frontier Foundation*, en internasjonal organisasjon for beskyttelse av internettfriheter, medgrunnlagt i 1990 av Mitch Kapor, John Gilmore og John Perry Barlow. Denne organisasjonen ligger de første Bitcoin-tilhengerne, ekte cypherpunks, nært. De er derfor ivrige etter at den skal akseptere bitcoin.
 
 ![Logo av Electronic Frontier Foundation](assets/nb-NO/058.webp)
 

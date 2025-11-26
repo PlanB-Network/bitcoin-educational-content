@@ -1312,7 +1312,7 @@ Kipengele kimoja cha mwisho kinachoonyesha mafanikio ya Bitcoin ni ukweli kwamba
 
 ### Electronic Frontier Foundation inakubali Bitcoin
 
-Tukio muhimu mwishoni mwa 2010 lilikuwa kukubalika kwa Bitcoin na Electronic Frontier Foundation, shirika la kimataifa la kulinda uhuru kwenye Mtandao, lililoanzishwa mwaka wa 1900 na Mitch Kapor, John Gilmore, na John Perry Barlow. Hii ilikuwa muhimu hasa kwa waasili wa mapema wa Bitcoin, ambao walikuwa cypherpunks moyoni. Walikuwa na nia ya kuikubali Bitcoin.
+Tukio muhimu mwishoni mwa mwaka 2010 ni kukubaliwa kwa bitcoin na *Electronic Frontier Foundation*, shirika la kimataifa la kulinda uhuru wa mtandaoni, lililoanzishwa mwaka 1990 na Mitch Kapor, John Gilmore, na John Perry Barlow. Shirika hili ni la thamani kwa wafuasi wa kwanza wa Bitcoin, cypherpunks mioyoni mwao. Kwa hivyo, walikuwa na hamu ya shirika hilo kukubali bitcoin.
 
 ![Logo of the Electronic Frontier Foundation](assets/sw/058.webp)
 

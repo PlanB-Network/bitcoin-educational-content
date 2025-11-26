@@ -1186,7 +1186,7 @@ Yksi viimeinen elementti, joka osoittaa Bitcoinin menestyksen, on se, että jotk
 
 ### Electronic Frontier Foundation hyväksyy bitcoinit
 
-Merkittävä tapahtuma vuoden 2010 lopussa oli Electronic Frontier Foundationin, kansainvälisen järjestön, joka suojaa vapauksia Internetissä ja jonka perustivat vuonna 1900 Mitch Kapor, John Gilmore ja John Perry Barlow, hyväksyntä bitcoinille. Tämä oli erityisen tärkeää Bitcoinin varhaisille omaksujille, jotka olivat sydämeltään kyberpunkkeja. He olivat innokkaita saamaan sen hyväksymään bitcoinit.
+Merkittävä tapahtuma vuoden 2010 lopussa on *Electronic Frontier Foundationin* hyväksyntä bitcoinille. Järjestö on kansainvälinen internetin vapauksien suojeluun keskittyvä organisaatio, jonka Mitch Kapor, John Gilmore ja John Perry Barlow perustivat vuonna 1990. Järjestö on lähellä ensimmäisten Bitcoinin kannattajien, sielultaan kyberpunkkareiden, sydäntä. Siksi he pitävät tärkeänä, että se hyväksyy bitcoinin.
 
 ![Electronic Frontier Foundationin logo](assets/fi/058.webp)
 

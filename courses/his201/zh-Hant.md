@@ -1312,7 +1312,7 @@ Bitcoin 的崛起意味著事物開始被衡量，無論是價格、鏈上的活
 
 ### 電子前線基金會接受 Bitcoin
 
-2010 年底的一件大事是電子前線基金會 (Electronic Frontier Foundation) 接受 Bitcoin，這是一個保護網際網路自由的國際組織，由 Mitch Kapor、John Gilmore 和 John Perry Barlow 於 1900 年共同創立。這對於 Bitcoin 的早期採用者來說尤其重要，因為他們骨子裡都是密碼龐克。他們非常希望 Bitcoin 能被接受。
+2010 年底的一個重要事件是 *Electronic Frontier Foundation*（一個致力於保護互聯網自由的國際組織，由 Mitch Kapor、John Gilmore 和 John Perry Barlow 於 1990 年共同創立）接受了比特幣。該組織深受第一批比特幣追隨者（他們本質上是密碼龐克 cypherpunks）的喜愛。因此，他們非常希望它能接受比特幣。
 
 ![Logo of the Electronic Frontier Foundation](assets/zh-Hant/058.webp)
 

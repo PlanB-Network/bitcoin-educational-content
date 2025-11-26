@@ -1816,7 +1816,7 @@ Bitcoin'ün başarısına işaret eden son bir unsur da bazılarının onun sın
 ### Electronic Frontier Foundation Bitcoin'yı kabul ediyor
 
 
-2010 yılının sonunda Electronic Frontier Foundation'ın Bitcoin'yi kabul etmesi önemli bir olaydı. Bu kuruluş 1900 yılında Mitch Kapor, John Gilmore ve John Perry Barlow tarafından kurulmuş, İnternet üzerindeki özgürlükleri korumaya yönelik uluslararası bir organizasyondur. Bu, özünde cypherpunk olan Bitcoin'yi ilk benimseyenler için özellikle önemliydi. Bitcoin'yi kabul etmeye hevesliydiler.
+2010 yılının sonundaki önemli bir olay, Mitch Kapor, John Gilmore ve John Perry Barlow tarafından 1990 yılında kurulan, internet özgürlüklerini korumaya yönelik uluslararası bir kuruluş olan *Electronic Frontier Foundation*'ın bitcoin'i kabul etmesidir. Bu kuruluş, özünde cypherpunks olan ilk Bitcoin taraftarları için çok değerlidir. Bu nedenle, bitcoin'i kabul etmesini çok istiyorlardı.
 
 
 ![Logo of the Electronic Frontier Foundation](assets/tr/058.webp)

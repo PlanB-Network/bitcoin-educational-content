@@ -1133,7 +1133,7 @@ Lionel Dricot (Ploum) 2012年时，作为比利时海盗党的候选人参加了
 
 ### 电子前哨基金会接受比特币
 
-2010年底的一个重大事件是电子前哨基金会接受比特币，这是一个由Mitch Kapor、John Gilmore和John Perry Barlow于1900年共同创立的国际组织，旨在保护互联网上的自由。这对比特币的早期采用者来说尤其重要，他们内心是密码朋克。他们热衷于让其接受比特币。
+2010 年底的一个重要事件是 *Electronic Frontier Foundation*（一个致力于保护互联网自由的国际组织，由 Mitch Kapor、John Gilmore 和 John Perry Barlow 于 1990 年共同创立）接受了比特币。该组织深受第一批比特币追随者（他们本质上是密码朋克 cypherpunks）的喜爱。因此，他们非常希望它能接受比特币。
 
 ![电子前哨基金会的标志](assets/zh-Hans/058.webp)
 

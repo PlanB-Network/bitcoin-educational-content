@@ -2173,10 +2173,10 @@ This policy is described in the book "*Monetary Regime and Inflation*":
 
 > This hereditary caste system gradually spread: Diocletian forced soldiers' sons to serve in the army, while workers in the money workshops, as well as in the weaving and dyeing factories Diocletian had created, became state slaves, with hereditary service. Gold miners also later became a hereditary caste. Other hereditary classes probably already existed in Diocletian's time, notably the guilds of bakers and butchers [...] in Rome, as well as the diocesan guilds of ship captains who transported grain and other public cargoes to Rome.
 
-It was Constantine (306-337 AD) who finally succeeded in stabilizing the monetary system by introducing the solidus in 312, a pure gold coin whose quality and weight he strictly guaranteed. There was an entire system for verifying the purity and weight of the solidus. **This stability, however, only affected a wealthy elite and the imperial administration**, while the **majority of the population continued to suffer from low-quality currency and persistent inflation**. The solidus remained stable in the Eastern Empire (Byzantium), where it lasted for more than a millennium, while in the West, coinage fragmented into small, low-value coins, accompanying the final economic and political disintegration of the Roman Empire, which fell definitively in 476 AD.
+It was Constantine (306-337 AD) who finally succeeded in stabilizing the monetary system by introducing the solidus in 312, a pure gold coin whose quality and weight he strictly guaranteed. An entire system for verifying the purity and weight of the solidus was established. **This stability, however, only affected a wealthy elite and the imperial administration**, while the **majority of the population continued to suffer from low-quality currency and persistent inflation**. The solidus remained stable in the Eastern Empire (Byzantium), where it lasted for more than a millennium, while in the West, coinage fragmented into small, low-value coins, accompanying the final economic and political disintegration of the Roman Empire, which fell definitively in 476 AD.
 
 
-To conclude, I'd like to share with you this quote from *A History of Money: From Ancient Times to the Present Day* by Glyn Davies, which masterfully sums up what perhaps led to Rome's downfall:
+To conclude, this quote from Glyn Davies' *A History of Money: From Ancient Times to the Present Day* masterfully summarizes the factors that perhaps led to Rome's downfall:
 
 
 *"Taxes were consistently inadequate, and the difficulties associated with these increasingly inadequate, belatedly adjusted, and highly visible taxes drove Rome to rely more on an easy, immediate and hidden form of taxation: currency devaluation. Short-lived, ad hoc reforms failed to reverse this age-old trend of decline. Financial pressures caused by the wear and tear of coins, shipwrecks, money leaks due to the purchase of luxury goods from the East, gifts offered to Germanic barbarians, the growth of urban populations, the decline of agricultural production, the gradual exhaustion of the richest mines, and above all the "bread and circuses" policies deemed essential to maintain a minimum of order in urban life - all these cumulative pressures led Rome to constant monetary devaluation, interspersed with occasional reforms doomed to failure."*
@@ -2195,25 +2195,25 @@ To conclude, I'd like to share with you this quote from *A History of Money: Fro
 This section looks at the links between monetary dilution and inflation, from causes to consequences. Monetary dilution is one of the major economic phenomena in Roman monetary history, with direct effects on inflation. From the 1st century AD, there was an initial slow phase of dilution of silver coinage (denarius) from the reign of Nero (54-68 AD) onwards, accelerated by repeated military and financial crises, notably under Septimius Severus (193-211) and Gallienus (253-268).
 
 
-We also note a more gradual devaluation of the aureus. This difference in the rate of devaluation highlights two points:
+A more gradual devaluation of the aureus is also noted. This difference in the rate of devaluation highlights two points:
 
 
-1. The role of the unit of account in bimetallism for state control of money. The unit of account in this example is the denarius. I have identified three different ways of managing the value of the unit of account: devaluation (dilution of the metal), redenomination (antoninianus) and the imposition of a face value by marking "XXI" (Aurelian)
+1. The role of the unit of account in bimetallism for state control of money. The unit of account in this example is the denarius. There are three distinct methods of managing the value of the unit of account evident in this period: devaluation (dilution of the metal), redenomination (antoninianus) and the imposition of a face value by marking "XXI" (Aurelian)
 
 2. The State's desire to postpone as long as possible the devaluation of the aureus, the reserve of value that enables the elite to maintain their purchasing power at the expense of the less fortunate. We will frequently revisit this principle throughout the course, especially in connection with the concept known as the "Cantillon effect" and the redenominations of the Maravedi in Spain.
 
-This phenomenon is quite interesting and has recurred throughout history. We will revisit it with the Maravedi in a subsequent section. This pattern is evident with all reserve currencies as well; the reserve unit of value, such as the aureus in Rome, remains untouched. However, the unit of account used by the general population for trade and everyday transactions is often devalued. As a result, monetary inflation affects the common people, while those who can afford gold coins remain largely unaffected.
+This phenomenon has recurred throughout history and is evident with all reserve currencies. The reserve unit of value, such as the aureus in Rome, remains stable, while the unit of account used by the general population for trade and everyday transactions is often devalued. As a result, monetary inflation disproportionately affects the common people, while those who can afford gold coins remain largely unaffected.
 
-And by the way, **it's the same phenomenon that's being created today with currency devaluation, which allows financial assets to rise in value**, and so it's the people who use the currency, the poorest people, who get poorer, and this in turn enriches, through money creation, the assets of those who are able, who have the means to protect themselves against devaluation, and so it deepens social inequalities. That's my little political rant.
+**This same pdynamic is observable in modern economies, where currency devaluation can lead to an increase in the value of financial assets**. As a result, individuals who transact primarily in the currency—often the least wealthy—see their purchasing power decline. Conversely, those with the means to hold assets that appreciate during inflation can protect and even grow their wealth, a process that deepens social inequalities.
 
 
-What I've just described is called the Cantillon effect. We'll see that this gentleman lived in the time of John Law, a subject we'll also cover in a subsequent section.
+The mechanism described here is known as the Cantillon effect. Richard Cantillon was an economist who lived in the time of John Law, a subject we will also cover in a subsequent section.
 
 
 The reform initiated during Aurelian's reign allowed inflation to soar. Inflation in the face value of money was no longer limited by the mints' ability to produce coins by hand. Coins that had already been minted could now be simply marked, and the nominal value of the money supply increased more rapidly.
 
 
-I have two quotes to share with you in connection with Aurelian. The first comes from *A History of Money: From Ancient Times to the Present Day*:
+Two quotes from historical texts illustrate the impact of Aurelian's reform. The first comes from *A History of Money: From Ancient Times to the Present Day*:
 
 
 *"as far as the Roman economy is concerned, Aurelian's contribution was more of a disaster than a triumph. It was largely due to the nature of his "reform" that the rate of inflation was able to increase far beyond what had previously been possible, even under the irresponsible Gallienus. For two centuries after Aurelian, inflation became endemic throughout the Roman Empire "*

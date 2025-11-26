@@ -44,7 +44,7 @@ Tässä mielessä kaikki Plan ₿ Academyn työntekijät ovat kasvattajia!
 ## Ensimmäiset vaiheet ennen oikolukua Plan ₿ Academyssa
 
 
-Ennen kuin aloitat uuden oikolukutehtävän, ilmoita siitä [Telegram-ryhmässä](https://t.me/PlanBNetwork_ContentBuilder) tai ilmoita siitä Plan ₿ Academy -koordinaattorillesi, joka avaa sille tarkoitetun [issue]-osion(https://github.com/orgs/Plan ₿ Academy/projects/3). Kun saat issue-linkin, yksinkertaisesti **kommentoi, että aloitat** kyseisen sisällön oikolukutehtävän.
+Ennen kuin aloitat uuden oikolukutehtävän, ilmoita siitä [Telegram-ryhmässä](https://t.me/PlanBNetwork_ContentBuilder) tai ilmoita siitä Plan ₿ Academy -koordinaattorillesi, joka avaa sille tarkoitetun [issue]-osion(https://github.com/orgs/PlanB-Network/projects/3). Kun saat issue-linkin, yksinkertaisesti **kommentoi, että aloitat** kyseisen sisällön oikolukutehtävän.
 
 
 Tämä järjestelmä auttaa koordinaattoria seuraamaan repon sisällä tapahtuvaa edistymistä, ja sen avulla oikolukija voi "lunastaa" sisällön, mikä estää jonkun toisen tekemät päällekkäiset työt.

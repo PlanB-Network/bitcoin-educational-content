@@ -44,7 +44,7 @@ Neste sentido, todos os colaboradores da Plan ₿ Academy são educadores!
 ## Os primeiros passos antes da revisão de provas no Plan ₿ Academy
 
 
-Antes de iniciar uma nova tarefa de revisão, anuncie-a no [grupo de Telegrama] (https://t.me/PlanBNetwork_ContentBuilder) ou informe o coordenador da Plan ₿ Academy, que abrirá uma [issue] dedicada (https://github.com/orgs/Plan ₿ Academy/projects/3). Quando receberes o link da edição, basta **comentar que estás a começar** a tarefa de revisão desse conteúdo.
+Antes de iniciar uma nova tarefa de revisão, anuncie-a no [grupo de Telegrama] (https://t.me/PlanBNetwork_ContentBuilder) ou informe o coordenador da Plan ₿ Academy, que abrirá uma [issue] dedicada (https://github.com/orgs/PlanB-Network/projects/3). Quando receberes o link da edição, basta **comentar que estás a começar** a tarefa de revisão desse conteúdo.
 
 
 Este sistema ajuda o coordenador a acompanhar o progresso dentro do repositório e permite que o conteúdo seja "reclamado" pelo revisor, evitando a duplicação de esforços por outra pessoa.

@@ -44,7 +44,7 @@ https://planb.academy/tutorials/contribution/content/proofreading-review-tutoria
 ## 计划₿学院校对前的第一步
 
 
-在开始一项新的校对任务之前，请在[Telegram 群组](https://t.me/PlanBNetwork_ContentBuilder)中宣布或通知您的计划₿ 学院协调员，他将打开一个专门的[问题](https://github.com/orgs/Plan ₿ Academy/projects/3)。当您收到问题链接时，只需**评论您正在开始**该内容的校对任务。
+在开始一项新的校对任务之前，请在[Telegram 群组](https://t.me/PlanBNetwork_ContentBuilder)中宣布或通知您的计划₿ 学院协调员，他将打开一个专门的[问题](https://github.com/orgs/PlanB-Network/projects/3)。当您收到问题链接时，只需**评论您正在开始**该内容的校对任务。
 
 
 该系统可帮助协调人跟踪 repo 中的进度，并允许校对人 "认领 "内容，防止他人重复劳动。

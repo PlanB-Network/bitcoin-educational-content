@@ -185,7 +185,7 @@ Foto (udune) DigiCashi meeskonnast 1995. aastal: David Chaum on vasakul ääres 
 
 eCash'i tutvustamine pangandussüsteemi algas 1995. aasta oktoobris, kui DigiCash alustas partnerlust Mark Twain Bankiga, väikese pangaga Missouris. Erinevalt CyberBucksi juhtumist, mille vahetuskurss oli ujuv, oli arvestusühik toetatud USA dollariga. Aastatel 1996 kuni 1998 järgnesid Mark Twain Bankile kuus panka: Merita Bank Soomes, Deutsche Bank Saksamaal, Advance Bank Austraalias, Bank Austria Austrias, Den norske Bank Norras ja Credit Suisse Šveitsis. Press lubas sellele süsteemile helget tulevikku.
 
-Siiski ei läinud asjad plaanipäraselt. Oma jonnaka ja kahtlustava loomu tõttu soovis David Chaum hoida kontrolli oma ettevõtte üle ja keeldus partnerlustest suurte finantsmängijatega nagu ING ja ABN AMRO, Visa, Netscape ja Microsoft. Ta lahkus oma ametikohalt 1997. aastal ja samal aastal kolis ettevõte oma peakorteri Californiasse. 1998. aastal teatasid partnerpangad, et nad loobuvad eCash'ist. DigiCash läks lõpuks pankrotti 1998. aasta novembris, lõpetades selle Chaumiani elektroonilise raha rakenduse.
+Siiski ei läinud kõik plaanipäraselt. Oma kangekaelse ja kahtlustava loomuse tõttu soovis David Chaum säilitada kontrolli oma ettevõtte üle ja keeldus partnerlustest suurte tegijatega nagu ING, ABN AMRO, Visa, Netscape ja Microsoft. Ta lahkus oma ametikohalt 1997. aastal ja samal aastal kolis ettevõte oma peakorteri Californiasse. 1998. aasta jooksul teatasid partnerpangad, et loobuvad eCashist. DigiCash läks lõpuks novembris 1998 pankrotti, lõpetades selle Chaumi elektroonilise sularaha rakendamise.
 
 ### David Chaumi Mudeli Pärand
 

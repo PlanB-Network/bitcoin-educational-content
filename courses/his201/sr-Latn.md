@@ -275,7 +275,7 @@ Fotografija (zamagljena) tima DigiCash iz 1995: David Chaum je krajnje levo (izv
 Uvođenje eCash-a u bankarski sistem počelo je u oktobru 1995. godine sa početkom partnerstva DigiCash-a sa Mark Twain Bank, malom bankom u Misuriju. Za razliku od slučaja CyberBucks čija je Exchange stopa bila promenljiva, obračunska jedinica bila je podržana američkim dolarom. Između 1996. i 1998. godine, šest banaka je sledilo Mark Twain Bank: Merita Bank u Finskoj, Deutsche Bank u Nemačkoj, Advance Bank u Australiji, Bank Austria u Austriji, Den norske Bank u Norveškoj i Credit Suisse u Švajcarskoj. Tada je štampa obećavala svetlu budućnost za ovaj sistem.
 
 
-Ipak, stvari nisu išle po planu. Zbog svoje tvrdoglave i sumnjičave prirode, David Chaum je želeo da zadrži kontrolu nad svojom kompanijom i odbio je partnerstva sa velikim finansijskim igračima kao što su ING i ABN AMRO, Visa, Netscape i Microsoft. Napustio je svoju poziciju 1997. godine, a iste godine kompanija je preselila svoje sedište u Kaliforniju. Tokom 1998. godine, partnerske banke su objavile da napuštaju eCash. DigiCash je na kraju bankrotirao u novembru 1998. godine, čime je okončana ova implementacija Chaumove elektronske gotovine.
+Ipak, nije sve išlo po planu. Zbog svoje tvrdoglave i sumnjičave prirode, David Chaum je želeo da zadrži kontrolu nad svojom kompanijom i odbio je partnerstva sa velikim igračima kao što su ING, ABN AMRO, Visa, Netscape i Microsoft. Napustio je svoju poziciju 1997. godine i iste godine kompanija je preselila svoje sedište u Kaliforniju. Tokom 1998. godine, partnerske banke su objavile da napuštaju eCash. DigiCash je na kraju bankrotirao u novembru 1998. godine, čime je okončana ova implementacija Čaumovog elektronskog novca.
 
 
 ### Nasleđe modela Dejvida Čauma

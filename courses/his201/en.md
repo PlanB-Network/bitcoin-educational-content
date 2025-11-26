@@ -188,7 +188,7 @@ Photo (blurry) of the DigiCash team in 1995: David Chaum is on the far left (sou
 
 The introduction of eCash into the banking system began in October 1995, when DigiCash's partnership with Mark Twain Bank, a small bank in Missouri, started. Unlike the case of CyberBucks, whose exchange rate was floating, the unit of account was backed by the US dollar. Between 1996 and 1998, six banks followed Mark Twain Bank: Merita Bank in Finland, Deutsche Bank in Germany, Advance Bank in Australia, Bank Austria in Austria, Den norske Bank in Norway, and Credit Suisse in Switzerland. The press then promised a bright future for this system.
 
-Nevertheless, things did not go as planned. Due to his stubbornness and suspicion, David Chaum wanted to keep control over his company. He refused partnerships with major financial players like ING and ABN AMRO, Visa, Netscape, and Microsoft. He left his position in 1997 when the company moved its headquarters to California. During 1998, the partner banks announced they were abandoning eCash. DigiCash eventually went bankrupt in November 1998, ending this implementation of Chaumian electronic cash.
+Nevertheless, not everything went as planned. Because of his stubborn and suspicious nature, David Chaum wished to maintain control over his company and refused partnerships with major players such as ING, ABN AMRO, Visa, Netscape, and Microsoft. He left his post in 1997 and the same year the company moved its headquarters to California. During the year 1998, the partner banks announced that they were abandoning eCash. DigiCash eventually went bankrupt in November 1998, putting an end to this implementation of Chaumian electronic cash.
 
 ### The Legacy of David Chaum's Model
 

@@ -275,7 +275,7 @@ DigiCash ekibinin 1995 yılındaki fotoğrafı (bulanık): David Chaum en solda 
 ECash'in bankacılık sistemine girişi, DigiCash'in Missouri'de küçük bir banka olan Mark Twain Bank ile ortaklığının başladığı Ekim 1995'te başladı. Exchange oranı değişken olan CyberBucks'ın aksine, hesap birimi ABD doları tarafından destekleniyordu. 1996 ve 1998 yılları arasında Mark Twain Bank'ı altı banka takip etti: Finlandiya'da Merita Bank, Almanya'da Deutsche Bank, Avustralya'da Advance Bank, Avusturya'da Bank Austria, Norveç'te Den norske Bank ve İsviçre'de Credit Suisse. Basın daha sonra bu sistem için parlak bir gelecek vaat etti.
 
 
-Bununla birlikte, işler planlandığı gibi gitmedi. David Chaum, inatçılığı ve şüpheciliği nedeniyle şirketi üzerindeki kontrolü elinde tutmak istedi. ING ve ABN AMRO, Visa, Netscape ve Microsoft gibi büyük finansal oyuncularla ortaklık yapmayı reddetti. Şirket merkezini Kaliforniya'ya taşıdığında 1997'de görevinden ayrıldı. 1998 yılında, ortak bankalar eCash'i terk ettiklerini açıkladılar. DigiCash sonunda Kasım 1998'de iflas etti ve Chaumian elektronik nakit uygulamasına son verdi.
+Ancak, her şey planlandığı gibi gitmedi. İnatçı ve şüpheci doğası nedeniyle David Chaum, şirketinin kontrolünü elinde tutmak istedi ve ING, ABN AMRO, Visa, Netscape ve Microsoft gibi büyük oyuncularla ortaklıkları reddetti. 1997'de görevinden ayrıldı ve aynı yıl şirket merkezini Kaliforniya'ya taşıdı. 1998 yılı boyunca, ortak bankalar eCash'i bırakacaklarını duyurdu. DigiCash nihayetinde Kasım 1998'de iflas ederek, Chaumian elektronik nakit uygulamasının sonunu getirdi.
 
 
 ### David Chaum'un Modelinin Mirası

@@ -205,7 +205,7 @@ eCash 模式是一種數位貨幣概念，可讓客戶進行相對保密的付�
 
 1995 年 10 月，DigiCash 開始與密蘇里州的一家小型銀行 Mark Twain Bank 合作，將 eCash 引進銀行系統。與 CyberBucks 的浮動匯率不同，帳戶單位是由美元所支持。1996 年到 1998 年間，有六間銀行跟隨 Mark Twain Bank：芬蘭的 Merita Bank、德國的 Deutsche Bank、澳洲的 Advance Bank、奧地利的 Bank Austria、挪威的 Den norske Bank 以及瑞士的 Credit Suisse。媒體對此系統的未來充滿了希望。
 
-然而，事與願違。由於生性頑固多疑，David Chaum 希望保持對公司的控制，因此拒絕與 ING 和 ABN AMRO、Visa、Netscape 和 Microsoft 等主要金融業者合作。他於 1997 年離職，同年公司總部遷往加州。1998 年間，合作銀行宣佈放棄 eCash。DigiCash 最後在 1998 年 11 月破產，結束了這次 Chaumian 電子現金的實施。
+然而，並非一切都按計劃進行。由於他固執和多疑的性格，David Chaum希望保持對他公司的控制權，並拒絕與ING、ABN AMRO、Visa、Netscape和Microsoft等主要參與者建立合作關係。他於1997年離職，同年公司將總部遷至加利福尼亞。在1998年期間，合作銀行宣布放棄eCash。DigiCash最終於1998年11月破產，從而結束了這種查姆式的電子現金的實施。
 
 ### David Chaum 模型的遺產
 

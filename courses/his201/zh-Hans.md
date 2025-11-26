@@ -179,7 +179,7 @@ eCash模型是一种数字货币概念，允许客户进行相对保密的支付
 
 eCash于1995年10月引入银行系统，开始了DigiCash与密苏里州的Mark Twain Bank的合作。与CyberBucks的浮动汇率不同，计量单位由美元支持。在1996年至1998年间，六家银行跟随Mark Twain Bank的步伐：芬兰的Merita Bank、德国的Deutsche Bank、澳大利亚的Advance Bank、奥地利的Bank Austria、挪威的Den norske Bank和瑞士的Credit Suisse。媒体随后为这一系统预言了光明的未来。
 
-然而，事情并未按计划进行。由于David Chaum固执且多疑的性格，他希望保持对公司的控制，拒绝了与ING、ABN AMRO、Visa、Netscape和Microsoft等主要金融参与者的合作。他在1997年离开了自己的职位，同年公司将总部迁至加利福尼亚。在1998年，合作银行宣布他们将放弃eCash。DigiCash最终在1998年11月破产，结束了Chaumian电子现金的这一实施。
+然而，并非一切都按计划进行。由于他固执和多疑的性格，David Chaum希望保持对他公司的控制权，并拒绝与ING、ABN AMRO、Visa、Netscape和Microsoft等主要参与者建立合作关系。他于1997年离职，同年公司将总部迁至加利福尼亚。在1998年期间，合作银行宣布放弃eCash。DigiCash最终于1998年11月破产，从而结束了这种查姆式的电子现金的实施。
 ### 大卫·查姆模型的遗产
 然而，eCash模型的发展并非毫无成果。它为多个倡议奠定了基础。
 在1990年代，其他技术解决方案利用eCash开启的趋势，在互联网上进行支付：CyberCash、First Virtual或Open Market就是这样的案例，它们受益于当时信用卡支付的不便、成本高昂和不安全。微支付系统也随之出现，如CyberCoin（由CyberCash管理）、NetBill和MilliCent。这些系统从未真正普及，但它们为PayPal自1999年起的发展铺平了道路，我们将在下一章中讨论这个案例。

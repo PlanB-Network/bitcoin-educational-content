@@ -337,7 +337,7 @@ Bitcoin 代表了數位貨幣的去中心化模式。藉此避免了對於需要
 
 解決這個問題對會管理帳戶單位的分散式系統很重要。這樣的系統需要參與者達成共識，即誰擁有什麼資產。
 
-在 Bitcoin 之前，這個問題完全由所謂的「經典」演算法解決，這些演算法要求事先知道節點，而且其中兩個節點必須誠實。其中最著名的可能是共識演算法 [PBFT](https://css.csail.mit.edu/6.824/2014/papers/castro-practicalbft.pdf)（Practical Byzantine Fault Tolerance 的縮寫，即實用拜占庭容錯），它是由 Miguel Castro 和 Barbara Liskov 在 1999 年開發的，可讓一定數量的參與者透過管理每秒數以千計的請求達成協議，且延遲時間少於一毫秒。
+在比特幣出現之前，這個問題是透過所謂的「經典」演算法以絕對方式解決的，這些演算法要求節點事先已知，並且其中三分之二必須是誠實的。其中最著名的大概是 [PBFT](https://css.csail.mit.edu/6.824/2014/papers/castro-practicalbft.pdf) 共識演算法（*Practical Byzantine Fault Tolerance* 的首字母縮略詞），它由 Miguel Castro 和 Barbara Liskov 於 1999 年開發，允許給定數量的參與者透過處理每秒數千個請求並在不到一毫秒的延遲內達成一致。
 
 透過 Bitcoin 共識演算法，中本聰以概率方式解決了這個問題，允許透過犧牲交易的嚴格終局性來移除某些限制。2008 年 11 月 13 日，他 [寫道](https://www.metzdowd.com/pipermail/cryptography/2008-November/014849.html) 「工作量證明（proof-of-work）鏈是拜占庭大將問題的解決方案」。
 

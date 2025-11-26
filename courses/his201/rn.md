@@ -455,7 +455,7 @@ Ikibazo kivugwa nk’ikigereranyo kirimwo abajenerali b’ingabo z’Ubwami bwa 
 Gutorera umuti iki kibazo ni ikintu gihambaye ku mirongo itangazwa icungera igice ca konti. Mwene izo nzira zisaba ko abaje mu nama bemeranya ku Ownership y’ibice vy’amakonti, ni ukuvuga uwufise iki.
 
 
-Imbere ya Bitcoin, ingorane yatowe umuti n'ivyo bita "classic" algorithms vyasaba ko ama node amenyekana imbere y'igihe kandi ko abiri muri yo akaba ari ay'ukuri. Ico kizwi cane muri ivyo ni kumbure ubuhinga bwo guhurizako [PBFT] (ijambo ry’inyongera ry’ukwihanganira amakosa y’i Bizansi mu buryo bukora), bwateguwe na Miguel amber a9 na Barkoven Castro mu 1999. y’abaje mu nama kugira ngo bemeranye mu gucunga ibihumbi vy’ibisabwa ku segonda n’igihe co guhagarara kiri munsi ya milisegonda imwe.
+Imbere ya Bitcoin, ico kibazo cari kimaze gutorerwa umuti ntangere n'ibikorwa bigenga imibare bitwa « vya kera » vyasaba ko imfunzo zimenyekana imbere y'igihe kandi ko bibiri vya bitatu vyazo biba vyo. Igikorwa bigenga imibare kizwi cane muri vyo, ni [PBFT](https://css.csail.mit.edu/6.824/2014/papers/castro-practicalbft.pdf) (igifatiro ca *Practical Byzantine Fault Tolerance*), cakozwe na Miguel Castro na Barbara Liskov mu 1999, cemerera umubare watanzwe w'abakoresha gushika ku mwumvikano mu gukora ibihumbi vy'ibisabwa ku segonda kimwe kandi kikabikora mu mwanya muto cane udafise n'umusegonda. 
 
 
 Hakoreshejwe ubuhinga bwo kwumvikana bwa Bitcoin, Satoshi Nakamoto yarabitorera umuti mu buryo bw’ibishoboka, bituma habaho ugukuraho inzitizi zimwe zimwe mu gutanga iherezo rikomeye ry’ibikorwa. Ku wa 13 Ugushyingo 2008, yanditse ko "uruzitiro rwa Proof-of-Work ari umuti w'ingorane y'abajenerali b'Abanyabizantine."

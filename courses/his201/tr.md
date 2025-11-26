@@ -455,7 +455,7 @@ Problem, Bizans İmparatorluğu'nun ordu generallerinin birlikleriyle bir düşm
 Bu sorunun çözülmesi, bir hesap birimini yöneten dağıtık sistemler için önemlidir. Bu tür sistemler, katılımcıların hesap birimlerinin Ownership'i, yani kimin neye sahip olduğu konusunda anlaşmasını gerektirir.
 
 
-Bitcoin'dan önce sorun, düğümlerin önceden bilinmesini ve bunlardan ikisinin dürüst olmasını gerektiren "klasik" algoritmalarla çözülüyordu. Bunlar arasında en bilineni muhtemelen 1999 yılında Miguel Castro ve Barbara Liskov tarafından geliştirilen ve belirli sayıda katılımcının saniyede binlerce isteği bir milisaniyeden daha az bir gecikmeyle yöneterek anlaşmasına olanak tanıyan [PBFT](https://css.csail.mit.edu/6.824/2014/papers/castro-practicalbft.pdf) (Practical Byzantine Fault Tolerance'ın kısaltması) konsensüs algoritmasıdır.
+Bitcoin'den önce, sorun, düğümlerin önceden bilinmesini ve üçte ikisinin dürüst olmasını gerektiren, sözde “klasik” algoritmalarla mutlak bir şekilde çözülüyordu. Bunlardan en bilineni muhtemelen, Miguel Castro ve Barbara Liskov tarafından 1999 yılında geliştirilen ve belirli sayıda katılımcının saniyede binlerce isteği bir milisaniyeden daha az gecikmeyle işleyerek anlaşmaya varmasını sağlayan [PBFT](https://css.csail.mit.edu/6.824/2014/papers/castro-practicalbft.pdf) konsensüs algoritmasıdır (*Practical Byzantine Fault Tolerance*'ın kısaltması).
 
 
 Bitcoin mutabakat algoritması ile Satoshi Nakamoto bu sorunu olasılıksal olarak çözmüş ve işlemlerin katı kesinliğinden ödün vererek belirli kısıtlamaların kaldırılmasına izin vermiştir. 13 Kasım 2008'de "Proof-of-Work zincirinin Bizans Generalleri Problemine bir çözüm olduğunu" [yazdı] (https://www.metzdowd.com/pipermail/cryptography/2008-November/014849.html)

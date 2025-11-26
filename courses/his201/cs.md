@@ -283,7 +283,7 @@ Problém je prezentován ve formě metafory zahrnující generály armády Byzan
 
 Řešení tohoto problému je důležité pro distribuované systémy, které by spravovaly jednotku účtu. Tyto systémy skutečně vyžadují, aby účastníci souhlasili s vlastnictvím jednotek účtu, tj. kdo co vlastní.
 
-Před Bitcoinem byl problém absolutně vyřešen takzvanými "klasickými" algoritmy, které vyžadovaly, aby uzly byly známy předem a aby dva z nich byli čestní. Mezi nejznámější z nich patří pravděpodobně algoritmus konsensu [PBFT](https://css.csail.mit.edu/6.824/2014/papers/castro-practicalbft.pdf) (akronym pro Practical Byzantine Fault Tolerance), který vyvinuli Miguel Castro a Barbara Liskov v roce 1999 a umožnil danému počtu účastníků dosáhnout shody spravováním tisíců požadavků za sekundu s latencí menší než jeden milisekund.
+Před Bitcoinem byl problém řešen absolutním způsobem pomocí takzvaných „klasických“ algoritmů, které vyžadovaly, aby uzly byly známy předem a aby dvě třetiny z nich byly poctivé. Neznámějším z nich je pravděpodobně konsenzuální algoritmus [PBFT](https://css.csail.mit.edu/6.824/2014/papers/castro-practicalbft.pdf) (zkratka pro *Practical Byzantine Fault Tolerance*), který vyvinuli Miguel Castro a Barbara Liskov v roce 1999 a který umožňoval danému počtu účastníků dohodnout se při zpracování tisíců požadavků za sekundu s latencí menší než jedna milisekunda.
 
 S algoritmem konsensu Bitcoinu Satoshi Nakamoto problém vyřešil pravděpodobnostním způsobem, což umožnilo odstranění určitých omezení obětováním striktní konečnosti transakcí. Dne 13. listopadu 2008 [napsal](https://www.metzdowd.com/pipermail/cryptography/2008-November/014849.html), že "řetězec proof-of-work je řešením problému byzantských generálů."
 

@@ -287,7 +287,7 @@ PayPal的最初愿景是革命性的，符合彼得·蒂尔的自由主义愿景
 
 解决这个问题对于需要管理账户单位的分布式系统非常重要。这样的系统确实需要参与者就账户单位的所有权达成一致，即谁拥有什么。
 
-在比特币出现之前，这个问题通过所谓的“经典”算法得到了绝对的解决，这些算法要求提前知道节点，并且其中两个节点是诚实的。其中最著名的可能是1999年由Miguel Castro和Barbara Liskov开发的共识算法[PBFT](https://css.csail.mit.edu/6.824/2014/papers/castro-practicalbft.pdf)（Practical Byzantine Fault Tolerance的缩写），它允许一定数量的参与者通过每秒处理数千个请求并且延迟小于一毫秒来达成一致。
+在比特币出现之前，这个问题是通过所谓的“经典”算法以绝对方式解决的，这些算法要求节点事先已知，并且其中三分之二必须是诚实的。其中最著名的大概是 [PBFT](https://css.csail.mit.edu/6.824/2014/papers/castro-practicalbft.pdf) 共识算法（*Practical Byzantine Fault Tolerance* 的首字母缩略词），它由 Miguel Castro 和 Barbara Liskov 于 1999 年开发，允许给定数量的参与者通过处理每秒数千个请求并在不到一毫秒的延迟内达成一致。
 
 通过比特币共识算法，中本聪以一种概率方式解决了它，允许去除某些约束，牺牲交易的严格终结性。2008年11月13日，他[写道](https://www.metzdowd.com/pipermail/cryptography/2008-November/014849.html)，“工作量证明链是解决拜占庭将军问题的一个方案。”
 

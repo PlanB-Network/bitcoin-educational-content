@@ -299,7 +299,7 @@ Probleem on esitatud metafoorina, mis hõlmab Bütsantsi impeeriumi armee kindra
 
 Selle probleemi lahendamine on oluline distribueeritud süsteemide jaoks, mis haldaksid arveldusühikut. Sellised süsteemid nõuavad tõepoolest, et osalejad nõustuksid arveldusühikute omandiõigusega, st kes omab mida.
 
-Enne Bitcoini lahendati probleem absoluutselt nn "klassikaliste" algoritmidega, mis nõudsid, et sõlmed oleksid ette teada ja et neist kaks oleksid ausad. Kõige tuntum nende seas on tõenäoliselt konsensusalgoritm [PBFT](https://css.csail.mit.edu/6.824/2014/papers/castro-practicalbft.pdf) (lühend Practical Byzantine Fault Tolerance), mille arendasid välja Miguel Castro ja Barbara Liskov 1999. aastal ja mis võimaldas teatud arvul osalejatel nõustuda, hallates tuhandeid taotlusi sekundis latentsusega, mis on vähem kui üks millisekund.
+Enne Bitcoini lahendati probleem absoluutsel viisil nn „klassikaliste“ algoritmidega, mis nõudsid, et sõlmed oleksid eelnevalt teada ja kaks kolmandikku neist oleks ausad. Neist tuntuim on ilmselt [PBFT](https://css.csail.mit.edu/6.824/2014/papers/castro-practicalbft.pdf) konsensusalgoritm (lühend sõnadest *Practical Byzantine Fault Tolerance*), mille töötasid välja Miguel Castro ja Barbara Liskov 1999. aastal ning mis võimaldas teatud arvul osalejatel kokku leppida, töödeldes tuhandeid päringuid sekundis alla ühe millisekundi latentsusega.
 
 Bitcoin'i konsensusalgoritmiga lahendas Satoshi Nakamoto selle tõenäosuslikul viisil, võimaldades teatud piirangutest loobuda, ohverdades tehingute range lõplikkuse. 13. novembril 2008 [kirjutas](https://www.metzdowd.com/pipermail/cryptography/2008-November/014849.html) ta, et "töötõendite ahel on lahendus Bütsantsi kindralite probleemile."
 

@@ -9,7 +9,7 @@ objectives:
 
 ---
 
-# Ukwinjira mu mateka y'irema rya Bitcoin
+# Ukwinjira muri kahise kiremwa rya Bitcoin
 
 
 Murakaze muri iri shure ry'amateka y'irema rya Bitcoin! Nk’uwukoresha, woshobora kuba wibajije aho igikoresho ukoresha kiva. Ikindi kandi, ushobora kutatahura amajambo rimwe na rimwe avugwa ku bantu n’ibintu vyabaye vyatumye haba amateka make y’amahera y’ivy’ubuhinga bwa none. Ubwa nyuma, kwiga iyo nkuru bizokuronsa ubushobozi bwo gutahura neza Bitcoin mu gushikiriza ivyabaye vyatumye igira ico ikoze buhorobuhoro.

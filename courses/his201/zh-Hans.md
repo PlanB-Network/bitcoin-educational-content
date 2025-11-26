@@ -1042,7 +1042,12 @@ ArtForz在2010年8月至10月间的挖矿产量（来源：Blackburn et al., "[C
 ### 第一个挖矿池
 
 由于挖矿专业化导致的哈希率大幅增加，使得使用中央处理器生成比特币变得越来越难，也越来越不划算。实际上，生成比特币的可能性越来越依赖于变数，有些个体从未成功产生一个区块。解决这个问题的方法是合作挖矿。
-10月1日，m0mchil在[发布](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840)了一个API的修改，该修改允许客户端节点通过一个名为`getwork`的新函数检索候选区块，并在找到解决方案时返回工作证明。他写道，这个修复“为外部比特币矿工打开了大门”并且“允许为一个客户端设置多个矿工。”同一天，论坛成员在一个名为“How to overthrow the GPU Oligarchs”的帖子中首次[提到](https://bitcointalk.org/index.php?topic=1332.msg14838#msg14838)了“联合挖矿”的想法。10月13日，puddinpop[提出](https://bitcointalk.org/index.php?topic=1458.msg16906#msg16906)了这种类型的模型。矿工的计算能力使用元哈希来衡量，元哈希是包括每个区块哈希的第一个字节的缓冲区的印记。然后服务器可以定期验证客户端是否按照定义执行计算。这个模型很复杂并且[不允许出错](https://bitcointalk.org/index.php?topic=1458.msg17015#msg17015)。
+
+
+10 月 1 日，Momchil [发布了](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840)一项 API 修改，允许客户端节点通过一个名为 `getwork` 的新功能检索候选区块，并在找到解决方案时返回工作量证明。他写道，此修复程序“为外部比特币矿工开辟了道路”，并“允许为一个客户端安装多个矿工”。
+
+
+”同一天，论坛成员在一个名为“How to overthrow the GPU Oligarchs”的帖子中首次[提到](https://bitcointalk.org/index.php?topic=1332.msg14838#msg14838)了“联合挖矿”的想法。10月13日，puddinpop[提出](https://bitcointalk.org/index.php?topic=1458.msg16906#msg16906)了这种类型的模型。矿工的计算能力使用元哈希来衡量，元哈希是包括每个区块哈希的第一个字节的缓冲区的印记。然后服务器可以定期验证客户端是否按照定义执行计算。这个模型很复杂并且[不允许出错](https://bitcointalk.org/index.php?topic=1458.msg17015#msg17015)。
 
 然而，有一种更简单的方法来衡量客户端的哈希率：部分工作证明。这种方法是由ribuck、Nils Schneider和Gavin Andresen在puddinpop的描述之后[提出](https://bitcointalk.org/index.php?topic=1458.msg16951#msg16951)的。它涉及检索来自同一个候选区块的低于网络难度的部分工作证明。收集的部分证明允许对消耗的功率进行概率估计。
 

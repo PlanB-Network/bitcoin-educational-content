@@ -1675,7 +1675,7 @@ Ivyo vyatumye abantu bafise ubuhinga bwinshi mu vy’ubuhinga bashobora generate
 Ukwiyongera gukomeye kw’igipimo ca Hash kubera ubuhinga bwa Mining bwatumye gukora ama bitcoins afise processeur yo hagati bigorana, ivyo bikaba vyaciye birushiriza kugurwa. Nkako, ubushobozi bwo gutanga ama bitcoins bwaciye buvana cane n’ugutandukana, abantu bamwebamwe ntibashobora gutanga igice. Umuti w’iki kibazo ni ubufatanye Mining.
 
 
-Ku wa 1 Gitugutu, m0mchil [yasohotse] (yasohotse](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840) yasanze ihinduka rya API rituma ama node y’abaguzi ashobora kugarura igice c’umukandida biciye ku gikorwa gishasha citwa if-6turwork7n. Yanditse ko iyo nzira "ifungura inzira abacukuzi bo hanze ba Bitcoin" kandi "ishobora gushinga abacukuzi benshi ku mukiriya umwe."
+Ku wa 1 Gitugutu, Momchil [yasohoye](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840) inyubako y’ibikorwa rusangi yemerera abakoresha kumenya ikibanza gikwiye gicukurirwamwo biciye ku kintu gishasha citwa `getwork` no gusubiza inyishu igaragaza ko bacukuye igihe inyishu ibonetse. Yanditse ko iyo ngene yakosowe « itangura inzira y’abacukuzi ba Bitcoin bo hanze » kandi « yemerera gutera abacukuzi batari bake ku mukoresha umwe ».
 
 Kuri uwo musi nyene, iciyumviro ca "pooled Mining" caravuzwe ku ncuro ya mbere n'umunyamuryango w'ihuriro mu rudodo rwitwa "Uko twotembagaza GPU". Ku wa 13 Gitugutu, puddinpop [yasavye] ikigereranyo c’ubwo bwoko. Ubushobozi bwo gukoresha ubuhinga bwa Miner bupimwa n'ubuhinga bwa meta-Hash, ari bwo bucapura bw'ububiko burimwo byte ya mbere ya buri bubiko Hash. Serveri irashobora rero kugenzura ko umukiriya akora ibara ryasobanuwe. Iyi nzira iragoye kandi [ntiyemera amakosa](insiguro=1458.msg17015#msg17015).
 

@@ -1208,7 +1208,7 @@ ArtForz 2010 年 8 月至 10 月的挖礦產量 (資料來源：ArtForz：Blackb
 
 由於挖礦專業化導致 Hash 率的大量增加，使得使用中央處理器挖 Bitcoin 變得越來越困難，而中央處理器的價格也越來越低。事實上，產生 Bitcoin 的可能性變得更依賴於差異，有些人永遠無法產生一個區塊。解決這個問題的方法是合作式挖礦。
 
-10 月 1 日，m0mchil [發表](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840) 修改版 API，允許客戶端節點通過一個名為 `getwork` 的新函數擷取一個候選區塊，並在找到解決方案時返回工作量證明。他寫道，這個修正「為外部 Bitcoin 礦工開闢了道路」，「允許為一個客戶端設置多個礦工」。
+10 月 1 日，Momchil [發布了](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840)一項 API 修改，允許客戶端節點通過一個名為 `getwork` 的新功能檢索候選區塊，並在找到解決方案時返回工作量證明。他寫道，此修復程序「為外部比特幣礦工開闢了道路」，並「允許為一個客戶端安裝多個礦工」。
 
 同一天，一位論壇成員在題為「如何推翻 GPU 寡頭」的論題中，首次 [提到](https://bitcointalk.org/index.php?topic=1332.msg14838#msg14838) 「集體挖礦」的想法。10 月 13 日，puddinpop [提出](https://bitcointalk.org/index.php?topic=1458.msg16906#msg16906) 一款此類型的機型。礦工的算力是使用元 Hash 來測量的，元 Hash 是緩衝區的印記，包括每個區塊 Hash 的第一個位元組。伺服器就可以定期驗證用戶端是否按照定義執行計算。這個模型很複雜，而且 [不允許出錯](https://bitcointalk.org/index.php?topic=1458.msg17015#msg17015)。
 

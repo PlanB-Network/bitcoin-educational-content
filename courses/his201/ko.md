@@ -1663,7 +1663,7 @@ Satoshi은 블록 크기 제한의 존재를 언급하지 않았지만, 시간�
 
 9월 6일, 한 포럼 회원의 제안에 따라 그는 "상당한 기부금"을 받으면 "코드를 오픈소스로 공개할 용의가 있다"(https://bitcointalk.org/index.php?topic=133.msg12107#msg12107)고 밝혔습니다 15일, 제프 가직은 이와 관련하여 [제안](https://bitcointalk.org/index.php?topic=133.msg12921#msg12921)을 했고, 당시 약 600달러였던 10,000 비트코인을 푸딘팝에게 제공하겠다고 제안했습니다. 푸딘팝은 이를 수락했고, 18일에 [거래가](https://Mempool.space/tx/f79314da84567196905f6e061e2bc9f3ee8b30d40f7b80dac90fcb1f4b4c71ea) 이루어졌으며, 얼마 후 푸딘팝은 알고리즘을 무료 라이선스 하에 [공개](https://bitcointalk.org/index.php?topic=133.msg13135#msg13135)했습니다.
 
-다른 알고리즘도 비슷한 시기에 공개되었습니다. 9월 9일, nelisky라는 이름의 포럼 회원이 CUDA를 사용한 Mining 알고리즘을 [공유](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264)했습니다. 10월 1일에는 2월에 포럼에 가입한 m0mchil이라는 사용자가 "대중을 위한 OpenCL Miner"이라고 설명하며 자신의 알고리즘(POCLBM)을 [공개](https://web.archive.org/web/20101206143359/http://www.Bitcoin.org/smf/index.php?topic=1334.0)했습니다
+다른 알고리즘들도 동시에 공개되었습니다. 9월 9일, nelisky라고 자칭하는 포럼 회원이 CUDA를 사용하는 자신만의 마이닝 알고리즘을 [공유합니다](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264). 10월 1일, 2월에 포럼에 참여하여 m0mchil이라는 가명을 사용하는 Momchil Georgiev라는 사람이 자신의 알고리즘(POCLBM)을 [게시하며](https://web.archive.org/web/20101206143359/http://www.bitcoin.org/smf/index.php?topic=1334.0) 이를 “대중을 위한 OpenCL 마이너”라고 칭했습니다.
 
 
 이러한 개선 덕분에 기술적으로 가장 숙련된 개인이 많은 비트코인을 generate할 수 있었습니다. 아트포즈 외에도 닐스 슈나이더(tcatm)가 이 시기의 주요 채굴자 중 한 명으로 주목받았습니다. 2010년 10월 3일, 그는 3개의 그래픽 프로세서로 983 MH/s의 해시 레이트를 생성한다고 [주장](https://bitcointalk.org/index.php?topic=1327.msg15111#msg15111)했습니다. 이 수치는 [놀랍게도](https://bitcointalk.org/index.php?topic=1327.msg15112#msg15112) Satoshi 본인에게도 영향을 미쳤습니다.

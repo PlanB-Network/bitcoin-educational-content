@@ -1035,7 +1035,7 @@ ArtForz在2010年8月至10月间的挖矿产量（来源：Blackburn et al., "[C
 9月2日，矿工puddinpop [分享](https://bitcointalk.org/index.php?topic=133.msg11940#msg11940)了他的挖矿客户端的可执行文件，该文件利用了CUDA算法。他对任何使用它的人收取了10%的费用。这种做法并没有受到主张免费软件的论坛成员的特别欢迎。
 
 9月6日，应论坛成员的建议，他[声明](https://bitcointalk.org/index.php?topic=133.msg12107#msg12107)如果收到“一笔可观的捐赠”，他“或许愿意将代码开源”。15日，Jeff Garzik就此事提出了一个[提议](https://bitcointalk.org/index.php?topic=133.msg12921#msg12921)，提议给puddinpop 10,000比特币，当时大约值600美元。Puddinpop接受了：交易在18日[发生](https://mempool.space/tx/f79314da84567196905f6e061e2bc9f3ee8b30d40f7b80dac90fcb1f4b4c71ea)，不久之后puddinpop便根据免费许可证[发布](https://bitcointalk.org/index.php?topic=133.msg13135#msg13135)了算法。
-大约在同一时间，其他算法也被公之于众。9月9日，一个名为nelisky的论坛成员[分享](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264)了他们自己使用CUDA的挖矿算法。10月1日，一个名为m0mchil的人，在2月份加入论坛，[发布](https://web.archive.org/web/20101206143359/http://www.bitcoin.org/smf/index.php?topic=1334.0)了他们的算法（POCLBM），将其描述为“大众的OpenCL矿工”。
+其他算法也同时公开。9月9日，一位自称 nelisky 的论坛成员[分享](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264)了他使用 CUDA 的自己的挖矿算法。10月1日，一位名叫 Momchil Georgiev 的人士（他于 2 月加入论坛并使用化名 m0mchil）[发布](https://web.archive.org/web/20101206143359/http://www.bitcoin.org/smf/index.php?topic=1334.0)了他的算法 (POCLBM)，称之为“面向大众的 OpenCL 矿工”。
 
 这一改进使得技术最为精湛的个体能够生成大量比特币。除了ArtForz，Nils Schneider（tcatm）显然成为了这一时期的主要矿工之一。2010年10月3日，他[声称](https://bitcointalk.org/index.php?topic=1327.msg15111#msg15111)拥有由3个图形处理器产生的983 MH/s的哈希率。这个数字让[中本聪](https://bitcointalk.org/index.php?topic=1327.msg15112#msg15112)自己都感到惊讶。
 

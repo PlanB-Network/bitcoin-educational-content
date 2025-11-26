@@ -1034,7 +1034,7 @@ ArtForzの2010年8月から10月にかけてのマイニング生産量 (出典:
 9月2日には、マイナーのpuddinpopがCUDAを使用するアルゴリズムを利用したマイニングクライアントの実行ファイルを[共有](https://bitcointalk.org/index.php?topic=133.msg11940#msg11940)した。彼はそれを使用する人に対して10%の手数料を含めた。このアプローチは、フリーソフトウェアの支持者であるフォーラムメンバーによって特に好意的に受け入れられなかった。
 
 9月6日には、フォーラムメンバーの提案に応えて、彼は「かなりの寄付を受け取った場合」には「コードをオープンソースにすることを検討するかもしれない」と[述べ](https://bitcointalk.org/index.php?topic=133.msg12107#msg12107)た。15日には、Jeff Garzikがこの件に関して[提案](https://bitcointalk.org/index.php?topic=133.msg12921#msg12921)を行い、puddinpopに10,000ビットコインを提供することを提案した。これは当時約600ドルに相当した。Puddinpopはこれを受け入れ、取引は18日に[行われ](https://mempool.space/tx/f79314da84567196905f6e061e2bc9f3ee8b30d40f7b80dac90fcb1f4b4c71ea)、その直後にpuddinpopによってアルゴリズムがフリーライセンスの下で[公開](https://bitcointalk.org/index.php?topic=133.msg13135#msg13135)された。
-同時期に他のアルゴリズムも公開された。9月9日には、neliskyと名乗るフォーラムメンバーがCUDAを使用した自身のマイニングアルゴリズムを[共有](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264)した。10月1日には、2月にフォーラムに参加したm0mchilという人物が、「大衆のためのOpenCLマイナー」として自身のアルゴリズム（POCLBM）を[公開](https://web.archive.org/web/20101206143359/http://www.bitcoin.org/smf/index.php?topic=1334.0)した。
+同時に他のアルゴリズムも公開されています。9月9日、neliskyと名乗るフォーラムメンバーがCUDAを使用した独自のマイニングアルゴリズムを[共有しました](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264)。10月1日には、2月にフォーラムに登場し、m0mchilというニックネームを使用しているMomchil Georgievという人物が、自身のアルゴリズム（POCLBM）を[公開し](https://web.archive.org/web/20101206143359/http://www.bitcoin.org/smf/index.php?topic=1334.0)、それを「大衆のためのOpenCLマイナー」と呼びました。
 
 この改善により、技術的に最も熟練した個人は多くのビットコインを生成することができた。ArtForzの他に、Nils Schneider（tcatm）がこの時期の主要なマイナーの一人となった。2010年10月3日、彼は3つのグラフィックプロセッサによって生産された983 MH/sのハッシュレートを[主張](https://bitcointalk.org/index.php?topic=1327.msg15111#msg15111)した。この数字は、サトシ自身を[驚かせる](https://bitcointalk.org/index.php?topic=1327.msg15112#msg15112)効果があった。
 

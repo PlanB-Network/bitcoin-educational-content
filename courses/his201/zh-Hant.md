@@ -1200,7 +1200,7 @@ ArtForz 2010 年 8 月至 10 月的挖礦產量 (資料來源：ArtForz：Blackb
 
 9月6日，在一位論壇成員的建議下，他[表示](https://bitcointalk.org/index.php?topic=133.msg12107#msg12107)，如果他收到 「大筆捐款」，他 「也許願意將程式碼開源」。15日，Jeff Garzik就此提出了一個[要約](https://bitcointalk.org/index.php?topic=133.msg12921#msg12921)，建議給puddinpop 10,000 Bitcoin ，當時大約是600美元。Puddinpop 接受了：交易在 18 日[發生](https://Mempool.space/tx/f79314da84567196905f6e061e2bc9f3ee8b30d40f7b80dac90fcb1f4b4c71ea)，演算法也在不久之後，由 puddinpop 以自由授權的方式[發表](https://bitcointalk.org/index.php?topic=133.msg13135#msg13135)。
 
-其他演算法也在同一時間公開。9 月 9 日，一位名叫 nelisky 的論壇成員 [分享](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264) 了他們自己使用 CUDA 的挖礦演算法。10 月 1 日，一位名叫 m0mchil 的人 [發表](https://web.archive.org/web/20101206143359/http://www.Bitcoin.org/smf/index.php?topic=1334.0) 了他們的演算法 (POCLBM)，並將其描述為「大眾的 OpenCL Miner」。
+其他演算法也同時公開。9月9日，一位自稱 nelisky 的論壇成員[分享](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264)了他使用 CUDA 的自己的挖礦演算法。10月1日，一位名叫 Momchil Georgiev 的人士（他於 2 月加入論壇並使用化名 m0mchil）[發布](https://web.archive.org/web/20101206143359/http://www.bitcoin.org/smf/index.php?topic=1334.0)了他的演算法 (POCLBM)，稱之為「面向大眾的 OpenCL 礦工」。
 
 這種改進讓技術最精湛的人可以大量生產 Bitcoin。除了 ArtForz 之外，Nils Schneider (tcatm) 也成為這段期間的主要礦工之一。2010 年 10 月 3 日，他 [宣稱](https://bitcointalk.org/index.php?topic=1327.msg15111#msg15111) 由 3 個顯示卡可以產生 983 MH/s 的散列速率。這個數字讓中本聰也[驚為天人](https://bitcointalk.org/index.php?topic=1327.msg15112#msg15112) 。
 

@@ -1,0 +1,8 @@
+question: Según el enfoque del pensamiento adversario, ¿cuál es la razón principal por la que deben abordarse todas las debilidades conocidas de Bitcoin en lugar de aceptar cierto nivel de riesgo?
+answer: Bitcoin opera en un entorno en línea seudónimo en el que los adversarios pueden explotar los puntos débiles sin ser descubiertos ni tener que rendir cuentas
+wrong_answers:
+  - "El modelo de seguridad formal de Bitcoin requiere una prueba matemática de que se han eliminado todos los vectores de ataque potenciales"
+  - La naturaleza distribuida de Bitcoin significa que incluso pequeñas deficiencias pueden provocar fallos en cascada en todos los nodos del sistema
+  - "El suministro fijo de Bitcoin hace que sea económicamente inviable absorber las pérdidas de ataques exitosos, a diferencia de los sistemas financieros tradicionales"
+explanation: |
+  La respuesta correcta refleja la idea clave de Andrew Poelstra sobre los sistemas en línea frente a los físicos. A diferencia de los edificios, donde aceptamos cierto riesgo y confiamos en las fuerzas del orden, Bitcoin opera en un entorno seudónimo donde los atacantes pueden actuar sin visibilidad ni consecuencias. Esta diferencia fundamental significa que todos los puntos débiles conocidos serán inevitablemente explotados, lo que hace que la seguridad integral sea esencial en lugar de una gestión opcional del riesgo.

@@ -1,0 +1,8 @@
+question: Wat is volgens het responsible disclosure raamwerk de belangrijkste strategische reden om kwetsbaarheidspatches pas aan altcoin-ontwikkelaars te verstrekken nadat de fixes op grote schaal zijn uitgerold in het Bitcoin netwerk?
+answer: Om te voorkomen dat aanvallers misbruik maken van dezelfde kwetsbaarheid op Bitcoin terwijl altcoins worden gepatcht
+wrong_answers:
+  - "Om het concurrentievoordeel van Bitcoin ten opzichte van alternatieve implementaties van cryptocurrency te behouden"
+  - Om ervoor te zorgen dat ontwikkelaars van altcoins voldoende tijd hebben om de fixes te begrijpen en goed te implementeren
+  - Om juridische aansprakelijkheidsproblemen te voorkomen die zouden kunnen ontstaan door voortijdige bekendmaking aan projecten van derden
+explanation: |
+  De timingstrategie weerspiegelt een beveiliging-eerst aanpak waarbij het netwerk van Bitcoin beschermd moet worden voordat anderen geholpen worden. Als altcoins gelijktijdig zouden worden ingelicht, zouden aanvallers altcoin-implementaties kunnen bestuderen of misbruiken om de kwetsbaarheid te begrijpen en vervolgens mogelijk Bitcoin-knooppunten aanvallen die nog niet hebben geüpgraded. De sequentiële aanpak zorgt voor een wijdverspreide bescherming van Bitcoin voordat de hulp wordt uitgebreid naar andere netwerken, waardoor de kans op uitbuiting van de kwetsbaarheid in het hele ecosysteem wordt geminimaliseerd.

@@ -4,7 +4,7 @@ description: Comment proposer un nouveau contenu sur Plan ₿ Academy ?
 ---
 ![cover](assets/cover.webp)
 
-La mission de Plan ₿ Academy est de mettre à disposition des ressources éducatives de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open-source et est hébergée sur GitHub, ce qui offre la possibilité à quiconque de participer à l'enrichissement de la plateforme. Les contributions peuvent prendre diverses formes : correction et relecture des textes existants, traduction dans d'autres langues, mise à jour des informations ou encore création de nouveaux tutoriels encore absents de notre site.
+La mission de Plan ₿ Academy est de mettre à disposition des ressources éducatives de premier plan sur Bitcoin, et ce, dans un maximum de langues. L'intégralité des contenus publiés sur le site est open source et hébergée sur GitHub, ce qui offre la possibilité à quiconque de participer à l'enrichissement de la plateforme. Les contributions peuvent prendre diverses formes : correction et relecture des textes existants, traduction dans d'autres langues, mise à jour des informations ou encore création de nouveaux tutoriels encore absents de notre site.
 
 Dans ce tutoriel, nous allons voir comment ajouter un nouveau contenu, tel qu'un tutoriel ou un cours, sur la plateforme Plan ₿ Academy.
 
@@ -14,7 +14,7 @@ Les deux principales sections de notre plateforme sont les cours et les tutoriel
 
 Les cours sont naturellement plus longs et plus structurés que les tutoriels. Ils doivent explorer un sujet spécifique lié à Bitcoin ou à son écosystème de manière approfondie, précise et détaillée.
 
-[Découvrir les cours de Plan ₿ Academy.](https://planb.academy/courses)
+[Découvrir les cours de Plan ₿ Academy.]([https://planb.academy/fr/learn-anytime])
 
 ![TUTO](assets/fr/37.webp)
 
@@ -43,11 +43,11 @@ Nous recherchons en priorité des tutoriels sur des outils liés à Bitcoin ou �
 - Nœud ;
 - Minage ;
 - Marchand ;
-- Échange ;
+- Plateforme d'échange ;
 - Confidentialité.
 
 Au-delà de ces sujets spécifiquement liés à Bitcoin, Plan ₿ Academy cherche également des contributions sur des thèmes qui mettent en avant la souveraineté individuelle, tels que :
-- Les outils open sources ;
+- Les outils open source ;
 - L'informatique ;
 - La cryptographie ;
 - L'énergie ;

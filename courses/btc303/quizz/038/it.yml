@@ -1,0 +1,8 @@
+question: Secondo il capitolo, cosa distingue un fork morbido da un fork duro nelle modifiche alle regole di consenso del Bitcoin?
+answer: Un fork morbido è completamente compatibile (sia in avanti che all'indietro), mentre un fork rigido è compatibile solo all'indietro
+wrong_answers:
+  - Un fork soft richiede l'attivazione del segnale del minatore, mentre un fork hard utilizza l'attivazione del giorno della bandiera
+  - Un soft fork modifica gli opcode esistenti, mentre un hard fork aggiunge solo nuovi opcode come OP_NOP1-OP_NOP10
+  - Un soft fork può essere implementato segretamente nei commit, mentre un hard fork richiede un annuncio pubblico
+explanation: |
+  Il capitolo definisce chiaramente i tipi di compatibilità: la compatibilità in avanti permette al vecchio software di elaborare i nuovi dati ignorando le parti sconosciute, mentre la compatibilità all'indietro permette al nuovo software di elaborare i vecchi dati. Un fork morbido mantiene entrambi i tipi di compatibilità, rendendolo completamente compatibile. Un fork rigido mantiene solo la compatibilità all'indietro, il che significa che il nuovo software può elaborare i vecchi dati ma il vecchio software non può elaborare i nuovi dati del sistema aggiornato. Questa distinzione è fondamentale per comprendere i meccanismi di aggiornamento del Bitcoin e perché i fork morbidi sono preferibili per mantenere l'armonia della rete.

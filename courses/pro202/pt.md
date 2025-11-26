@@ -138,6 +138,13 @@ Como em todos os cursos da Plan ₿ Academy, a seção final inclui uma avaliaç
 
 <isCourseReview>true</isCourseReview>
 
+## Final Exam
+
+<chapterId>91db243d-8479-4636-afa8-dd189b0d4c5e</chapterId>
+
+
+<isCourseExam>true</isCourseExam>
+
 
 ## Conclusão
 

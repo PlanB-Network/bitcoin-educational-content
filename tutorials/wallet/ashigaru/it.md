@@ -84,7 +84,7 @@ Per saperne di più su Dojo e imparare a installarlo, vi invito a seguire questo
 
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 Se proprio non potete permettervi di gestire un vostro Dojo, potete trovare persone disposte a condividere gratuitamente la loro istanza su [dojobay.pw](https://www.dojobay.pw/mainnet/). Questa può essere una soluzione temporanea, ma a lungo termine vi consiglio di usare il vostro Dojo per garantire la vostra sovranità e riservatezza.
 
@@ -579,3 +579,4 @@ Una volta confermata la transazione di notifica, è possibile inviare le donazio
 
 
 Ora sapete come utilizzare le funzioni di base dell'applicazione Ashigaru. Nelle prossime esercitazioni vedremo come sfruttare le transazioni di spesa avanzate, oltre a Whirlpool, l'implementazione del coinjoin ereditata da Samurai Wallet.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

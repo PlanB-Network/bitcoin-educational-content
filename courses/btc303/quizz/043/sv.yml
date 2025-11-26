@@ -1,0 +1,8 @@
+question: Vad innebär begreppet Bitcoin-harmoni, som beskrivs genom David Hardings analogi, i första hand för nätverkets funktion?
+answer: Tusentals fullständiga noder verifierar transaktioner oberoende av varandra för att uppnå en harmonisk överenskommelse utan att det krävs förtroende mellan operatörerna
+wrong_answers:
+  - Mining-pooler måste samordna sina ansträngningar för att sjunga samma sång och producera block i synkroniserad harmoni
+  - Bitcoin-utvecklare måste nå enhälligt samförstånd innan de implementerar protokolländringar eller uppgraderingar
+  - Alla Bitcoin-användare måste komma överens om transaktionens giltighet genom en demokratisk röstningsprocess för att upprätthålla nätverksstabiliteten
+explanation: |
+  David Hardings harmonianalogi betonar att Bitcoin:s styrka kommer från tusentals oberoende fulla noder som var och en arbetar separat för att verifiera transaktioner, vilket skapar en harmonisk överenskommelse om huvudbokens tillstånd utan att någon nodoperatör behöver lita på andra. Detta kan jämföras med en kör där varje medlem sjunger självständigt men tillsammans skapar en vacker harmoni. De felaktiga svaren misstolkar detta koncept genom att föreslå samordningskrav mellan gruvarbetare, utvecklare eller användare, vilket strider mot den grundläggande principen om oberoende verifiering som gör Bitcoin förtroendefritt och decentraliserat.

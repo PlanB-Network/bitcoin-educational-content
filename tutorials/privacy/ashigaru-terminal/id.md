@@ -27,6 +27,8 @@ Dalam tutorial pertama ini, saya akan memandu Anda melalui instalasi dan pengope
 
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. Pasang Terminal Ashigaru
 
 
@@ -286,7 +288,7 @@ Dalam tutorial ini, kita akan memilih metode kedua. Namun, jika Anda lebih suka 
 
 
 
-Harap diperhatikan juga bahwa Ashigaru Terminal tidak mengizinkan Anda untuk membelanjakan bitcoin Anda secara langsung. Anda dapat menyinkronkan wallet yang sama di Ashigaru Terminal dan di aplikasi Ashigaru (yang akan saya lakukan di tutorial ini), atau menggunakan opsi `Mix to` (yang akan kita bahas di tutorial berikutnya) untuk secara otomatis mengirimkan dana Anda ke perangkat keras wallet setelah sejumlah siklus campuran.
+Perhatikan juga bahwa Ashigaru Terminal tidak memungkinkan Anda membelanjakan bitcoin secara langsung. Anda dapat menyinkronkan dompet yang sama di Ashigaru Terminal dan aplikasi Ashigaru (yang akan saya lakukan dalam tutorial ini), atau di Sparrow Wallet.
 
 
 
@@ -324,7 +326,6 @@ Kemudian pilih tipe portofolio `Hot Wallet`.
 
 
 
-*Catatan*: opsi `Watch-only` memungkinkan Anda untuk menyimpan `xpub` perangkat keras wallet agar dapat menggunakan fungsi `Mix to` di kemudian hari. Namun demikian, tipe wallet ini jelas tidak dapat berpartisipasi dalam coinjoin. Kami akan kembali ke fitur ini secara rinci dalam tutorial berikutnya.
 
 
 
@@ -447,4 +448,5 @@ Pengoperasiannya pun identik dengan Sparrow, karena Terminal Ashigaru adalah for
 
 
 
-Sekarang Anda sudah tahu cara menginstal dan menggunakan Ashigaru Terminal. Dalam tutorial berikutnya, kita akan melihat cara membuat coinjoin dengan perangkat lunak ini, dan cara mengelola latar belakang di "*Postmix*", baik melalui aplikasi Ashigaru, atau menggunakan opsi `Mix to`.
+Sekarang Anda tahu cara menginstal dan menggunakan Ashigaru Terminal. Dalam tutorial berikutnya, kita akan melihat cara melakukan coinjoin dengan perangkat lunak ini dan cara mengelola dana di "*Postmix*".
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

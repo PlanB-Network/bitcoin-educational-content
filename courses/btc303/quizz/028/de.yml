@@ -1,0 +1,8 @@
+question: Was ist das Hauptanliegen der Gebührenerhebung, wenn die Blocksubvention von Bitcoin gegen Null geht?
+answer: Für die Miner kann es profitabler sein, frühere Blöcke mit hohen Gebühren umzuschreiben, als neue mining-Blöcke
+wrong_answers:
+  - Die Transaktionsgebühren werden für normale Nutzer zu teuer, um sich Bitcoin-Transaktionen leisten zu können
+  - Das Gesamtangebot an Bitcoin wird aufgrund der verstärkten mining-Anreize 21 Millionen übersteigen
+  - Die Miner werden mining ganz einstellen, weil die Transaktionsgebühren allein die Stromkosten nicht decken können
+explanation: |
+  Fee Sniping tritt auf, wenn Miner versuchen, frühere Blöcke, die Transaktionen mit hohen Gebühren enthielten, erneut zu schürfen, anstatt die Kette ehrlich zu verlängern. Dies wird wirtschaftlich sinnvoll, wenn die Gebühren in einem früheren Block die Gebühren im aktuellen Mempool deutlich übersteigen. Die Erfolgswahrscheinlichkeit ist zwar geringer als bei ehrlichen mining, aber die potenzielle Belohnung kann viel höher sein. Dieses Verhalten ist besonders besorgniserregend, weil es einen Kaskadeneffekt auslösen kann, bei dem sich mehr Miner auf unehrliche Praktiken einlassen und letztlich das Sicherheitsmodell von Bitcoin bedrohen, wenn die Blocksubventionen zurückgehen.

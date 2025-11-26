@@ -1,4 +1,4 @@
-question: Kto był pierwszą osobą, która dołączyła do sieci Bitcoin po Satoshi Nakamoto?
+question: Kto był pierwszą osobą, która dołączyła do sieci Bitcoin po Satoshim Nakamoto?
 answer: Hal Finney.
 wrong_answers:
   - Laszlo Hanyecz.
@@ -6,6 +6,6 @@ wrong_answers:
   - Rogzy.
 explanation: |
   Hal Finney był pierwszą osobą, która dołączyła do sieci Bitcoin
-  po samym Nakamoto Satoshi. Napisał nawet na Twitterze Running
-  Bitcoin, aby uczcić tę okazję.
+  po samym Satoshim Nakamoto. Aby upamiętnić ten moment, napisał nawet na Twitterze 'Running
+  Bitcoin'.
 reviewed: true

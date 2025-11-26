@@ -1,0 +1,8 @@
+question: Prema definiciji otvorenog koda, primarni zahtev u vezi sa naknadama prilikom redistribucije softvera otvorenog koda kao dela agregatne distribucije softvera je da se ne sme naplaćivati naknada za sam softver otvorenog koda.
+answer: Licenca neće zahtevati tantijeme ili drugu naknadu za takvu prodaju
+wrong_answers:
+  - Razumni troškovi reprodukcije moraju biti naplaćeni kako bi se pokrili troškovi razvoja.
+  - Naknade za autorska prava su dozvoljene, ali ne smeju prelaziti 5% od distribucione cene.
+  - Administrativne naknade mogu biti potrebne, ali samo za komercijalne redistribucije.
+explanation: |
+  Definicija otvorenog koda eksplicitno navodi pod 'Slobodna redistribucija' da 'Licenca ne sme zahtevati tantijeme ili druge naknade za takvu prodaju.' To znači da softver otvorenog koda mora biti slobodno redistribuiran bez obaveznih naknada ili tantijema. Druge opcije pogrešno sugerišu da su različite vrste naknada dozvoljene, što bi kršilo osnovni princip slobodne redistribucije koji definiše softver otvorenog koda.

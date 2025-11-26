@@ -596,13 +596,13 @@ https://planb.academy/tutorials/exchange/centralized/zeus-swap-b6732907-b5d8-43e
 
 
 
-| Aspect        | Boltz Exchange           | SwapMarket                                 |
-| ------------- | ------------------------ | ------------------------------------------ |
-| Nature        | Service unique           | Agrégateur multi-providers                 |
-| Providers     | Boltz uniquement         | Boltz, ZEUS, Eldamar, Middle Way           |
-| Compétition   | Tarifs fixes             | Compétition libre                          |
-| Interface     | boltz.exchange           | swapmarket.github.io (self-hostable)       |
-| Sécurité      | Non-custodial (HTLC)     | Non-custodial (HTLC)                       |
+| Açıklık       | Boltz Exchange       | SwapMarket                           |
+| ------------ | -------------------- | ------------------------------------ |
+| Doğa          | Benzersiz hizmet     | Çok sağlayıcılı toplayıcı            |
+| Sağlayıcılar  | Yalnızca Boltz       | Boltz, ZEUS, Eldamar, Middle Way     |
+| Rekabet       | Sabit ücretler        | Serbest rekabet                      |
+| Arayüz        | boltz.exchange       | swapmarket.github.io (kendin-barındırılabilir) |
+| Güvenlik      | Non-custodial (HTLC) | Non-custodial (HTLC)                 |
 
 **SwapMarket avantajları**: Fiyat rekabeti, arka uç örneklerinin çeşitlendirilmesi, gerçek zamanlı karşılaştırma.
 

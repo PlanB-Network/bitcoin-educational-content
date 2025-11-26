@@ -84,7 +84,7 @@ Et rohkem teada saada Dojo kohta ja õppida, kuidas seda paigaldada, kutsun teid
 
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 Kui te tõesti ei saa endale lubada oma Dojo't, võite leida inimesi, kes on valmis oma instantsi tasuta jagama aadressil [dojobay.pw](https://www.dojobay.pw/mainnet/). See võib olla ajutine lahendus, kuid pikemas perspektiivis soovitan kasutada oma Dojo-d, et tagada oma suveräänsus ja konfidentsiaalsus.
 
@@ -579,3 +579,4 @@ Kui teavitustehing on kinnitatud, saate oma annetused projektile saata, klõpsat
 
 
 Te teate nüüd, kuidas kasutada rakenduse Ashigaru põhifunktsioone. Edasistes õpetustes vaatleme, kuidas kasutada täiustatud kulutamistehinguid, samuti Whirlpool, Samurai Wallet-st päritud mündiühenduste rakendamist.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

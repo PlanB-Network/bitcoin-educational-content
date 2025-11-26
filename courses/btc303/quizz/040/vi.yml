@@ -1,0 +1,8 @@
+question: Theo phần thảo luận về khả năng tương thích của Bitcoin trong chương, fork mềm cung cấp loại khả năng tương thích nào?
+answer: Khả năng tương thích cả về phía trước và phía sau, làm cho nó hoàn toàn tương thích
+wrong_answers:
+  - Chỉ có khả năng tương thích ngược, cho phép phần mềm mới xử lý dữ liệu cũ
+  - Chỉ tương thích về phía trước, cho phép phần mềm cũ xử lý dữ liệu mới
+  - Không tương thích ngược hoặc tương thích xuôi, yêu cầu cập nhật toàn bộ hệ thống
+explanation: |
+  Chương này nêu rõ rằng "Một thay đổi đối với các quy tắc đồng thuận Bitcoin được gọi là fork mềm nếu nó hoàn toàn tương thích". Tương thích hoàn toàn được định nghĩa là vừa tương thích xuôi vừa tương thích ngược. Tương thích xuôi nghĩa là phần mềm cũ có thể xử lý dữ liệu từ các phiên bản mới hơn bằng cách bỏ qua những phần nó không hiểu, trong khi tương thích ngược nghĩa là phần mềm mới có thể xử lý dữ liệu cũ. Khả năng tương thích kép này là lý do khiến soft fork trở thành cơ chế nâng cấp được ưa chuộng cho Bitcoin, vì chúng không làm hỏng các hệ thống hiện có mà vẫn cho phép các chức năng mới.

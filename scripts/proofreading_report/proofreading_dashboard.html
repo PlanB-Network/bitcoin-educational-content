@@ -584,6 +584,104 @@
                 padding: 0.5rem;
             }
         }
+
+        /* Table of Contents */
+        .toc-section {
+            background: var(--color-card);
+            border-radius: 8px;
+            padding: 1.5rem 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-left: 4px solid var(--color-primary);
+        }
+
+        .toc-section h2 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: var(--color-primary);
+        }
+
+        .toc-nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+        }
+
+        .toc-link {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background: var(--color-bg);
+            color: var(--color-text);
+            text-decoration: none;
+            border-radius: 4px;
+            border: 1px solid var(--color-border);
+            transition: all 0.2s;
+            font-size: 0.9rem;
+        }
+
+        .toc-link:hover {
+            background: var(--color-primary);
+            color: white;
+            border-color: var(--color-primary);
+            transform: translateY(-2px);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 50px;
+            height: 50px;
+            background: var(--color-primary);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: all 0.3s;
+            z-index: 1000;
+        }
+
+        .back-to-top:hover {
+            background: var(--color-primary-dark);
+            transform: translateY(-4px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+        }
+
+        .back-to-top.show {
+            display: flex;
+        }
+
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Responsive TOC */
+        @media (max-width: 768px) {
+            .toc-nav {
+                flex-direction: column;
+            }
+
+            .toc-link {
+                width: 100%;
+                text-align: center;
+            }
+
+            .back-to-top {
+                bottom: 1rem;
+                right: 1rem;
+                width: 45px;
+                height: 45px;
+                font-size: 1.3rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -597,9 +695,21 @@
     </header>
 
     <div class="container">
+        <!-- Table of Contents -->
+        <div class="toc-section">
+            <h2>📑 Table of Contents</h2>
+            <nav class="toc-nav">
+                <a href="#overview" class="toc-link">📊 Overview</a>
+                <a href="#content-matrix" class="toc-link">📋 Content Matrix Overview</a>
+                <a href="#contribution-finder" class="toc-link">🎯 Contribution Finder</a>
+                <a href="#recent-contributions" class="toc-link">🕒 Last Proofreading Contributions</a>
+                <a href="#leaderboards" class="toc-link">🏆 Leaderboards</a>
+            </nav>
+        </div>
+
         <!-- Statistics -->
         <div class="section">
-            <h2>📊 Overview</h2>
+            <h2 id="overview">📊 Overview</h2>
             <div class="stats-grid">
                 <div class="stat-card">
                     <div class="stat-value" id="stat-courses">0</div>
@@ -622,7 +732,7 @@
 
         <!-- Section 1: Matrix Overview -->
         <div class="section">
-            <h2>📋 Content Matrix Overview</h2>
+            <h2 id="content-matrix">📋 Content Matrix Overview</h2>
 
             <div class="type-selector">
                 <label class="type-option active">
@@ -693,7 +803,7 @@
 
         <!-- Section 2: Contribution Finder -->
         <div class="section">
-            <h2>🎯 Contribution Finder - Where You're Needed Most (Top 10)</h2>
+            <h2 id="contribution-finder">🎯 Contribution Finder - Where You're Needed Most (Top 10)</h2>
 
             <div class="filters">
                 <div class="filter-group">
@@ -741,13 +851,13 @@
 
         <!-- Section 3: Last Proofreading Contributions -->
         <div class="section">
-            <h2>🕒 Last Proofreading Contributions</h2>
+            <h2 id="recent-contributions">🕒 Last Proofreading Contributions</h2>
             <div id="recent-contributions-list"></div>
         </div>
 
         <!-- Section 4: Leaderboards -->
         <div class="section">
-            <h2>🏆 Leaderboards</h2>
+            <h2 id="leaderboards">🏆 Leaderboards</h2>
 
             <div class="tabs">
                 <button class="tab active" data-tab="course-contributors">Top Course Contributors</button>
@@ -788,9 +898,9 @@
         // Embedded proofreading data
         const PROOFREADING_DATA = {
   "metadata": {
-    "generated_at": "2025-11-06T11:03:32.178210+00:00",
+    "generated_at": "2025-11-18T16:48:15.651969+00:00",
     "total_courses": 34,
-    "total_tutorials": 293,
+    "total_tutorials": 286,
     "total_languages": 25,
     "excluded_contributors": [
       "LoicPandul",
@@ -1545,7 +1655,7 @@
       "topic": "bitcoin",
       "subtopic": "bitcoin",
       "level": "beginner",
-      "original_language": "fr",
+      "original_language": "en",
       "proofreading": [
         {
           "language": "cs",
@@ -2700,232 +2810,6 @@
           "contributors": [],
           "last_date": null,
           "reward": 118.76,
-          "urgency": 1
-        }
-      ]
-    },
-    {
-      "id": "btc401",
-      "name": "BTC401",
-      "type": "course",
-      "topic": "bitcoin",
-      "subtopic": "bitcoin",
-      "level": "expert",
-      "original_language": "en",
-      "proofreading": [
-        {
-          "language": "cs",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 99.54,
-          "urgency": 1
-        },
-        {
-          "language": "de",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 74.68,
-          "urgency": 1
-        },
-        {
-          "language": "en",
-          "status": 1,
-          "contributors": [
-            "jramos0"
-          ],
-          "last_date": "2024-08-30",
-          "reward": 37.34,
-          "urgency": 1
-        },
-        {
-          "language": "es",
-          "status": 1,
-          "contributors": [
-            "OscarG673"
-          ],
-          "last_date": "2024-11-16",
-          "reward": 37.34,
-          "urgency": 1
-        },
-        {
-          "language": "fi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 99.54,
-          "urgency": 1
-        },
-        {
-          "language": "fr",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 74.68,
-          "urgency": 1
-        },
-        {
-          "language": "it",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 74.68,
-          "urgency": 1
-        },
-        {
-          "language": "ja",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 149.26,
-          "urgency": 1
-        },
-        {
-          "language": "pt",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 74.68,
-          "urgency": 1
-        },
-        {
-          "language": "ru",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 99.54,
-          "urgency": 1
-        },
-        {
-          "language": "vi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 149.26,
-          "urgency": 1
-        },
-        {
-          "language": "et",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 99.54,
-          "urgency": 1
-        },
-        {
-          "language": "id",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 124.4,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hans",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 124.4,
-          "urgency": 1
-        },
-        {
-          "language": "nb-NO",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 99.54,
-          "urgency": 1
-        },
-        {
-          "language": "pl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 99.54,
-          "urgency": 1
-        },
-        {
-          "language": "hi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 174.12,
-          "urgency": 1
-        },
-        {
-          "language": "sr-Latn",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 99.54,
-          "urgency": 1
-        },
-        {
-          "language": "sw",
-          "status": 2,
-          "contributors": [
-            "monyangi10",
-            "Arianebtc"
-          ],
-          "last_date": "2025-10-31",
-          "reward": 24.89,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hant",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 124.4,
-          "urgency": 1
-        },
-        {
-          "language": "fa",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 99.54,
-          "urgency": 1
-        },
-        {
-          "language": "sv",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 74.68,
-          "urgency": 1
-        },
-        {
-          "language": "nl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 99.54,
-          "urgency": 1
-        },
-        {
-          "language": "tr",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 124.4,
-          "urgency": 1
-        },
-        {
-          "language": "ko",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 124.4,
-          "urgency": 1
-        },
-        {
-          "language": "rn",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 149.26,
           "urgency": 1
         }
       ]
@@ -4284,241 +4168,6 @@
       ]
     },
     {
-      "id": "eco102",
-      "name": "ECO102",
-      "type": "course",
-      "topic": "social studies",
-      "subtopic": "economy",
-      "level": "beginner",
-      "original_language": "fr",
-      "proofreading": [
-        {
-          "language": "cs",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 23.15,
-          "urgency": 1
-        },
-        {
-          "language": "de",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 17.39,
-          "urgency": 1
-        },
-        {
-          "language": "en",
-          "status": 1,
-          "contributors": [
-            "Bitpreto"
-          ],
-          "last_date": "2024-11-28",
-          "reward": 8.69,
-          "urgency": 1
-        },
-        {
-          "language": "es",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 17.39,
-          "urgency": 1
-        },
-        {
-          "language": "fi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 23.15,
-          "urgency": 1
-        },
-        {
-          "language": "fr",
-          "status": 2,
-          "contributors": [
-            "Bitpreto",
-            "ProfScofield21"
-          ],
-          "last_date": "2025-08-18",
-          "reward": 4.35,
-          "urgency": 1
-        },
-        {
-          "language": "it",
-          "status": 2,
-          "contributors": [
-            "TinF0ilHat1",
-            "AlbertoMagno21"
-          ],
-          "last_date": "2025-10-31",
-          "reward": 4.35,
-          "urgency": 1
-        },
-        {
-          "language": "ja",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 34.67,
-          "urgency": 1
-        },
-        {
-          "language": "pt",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 17.39,
-          "urgency": 1
-        },
-        {
-          "language": "ru",
-          "status": 1,
-          "contributors": [
-            "Reshetenko"
-          ],
-          "last_date": "2024-11-16",
-          "reward": 11.57,
-          "urgency": 1
-        },
-        {
-          "language": "vi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 34.67,
-          "urgency": 1
-        },
-        {
-          "language": "et",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 23.15,
-          "urgency": 1
-        },
-        {
-          "language": "id",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 28.91,
-          "urgency": 1
-        },
-        {
-          "language": "nb-NO",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 23.15,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hans",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 28.91,
-          "urgency": 1
-        },
-        {
-          "language": "pl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 23.15,
-          "urgency": 1
-        },
-        {
-          "language": "sr-Latn",
-          "status": 1,
-          "contributors": [
-            "sanja993"
-          ],
-          "last_date": "2025-08-18",
-          "reward": 11.57,
-          "urgency": 1
-        },
-        {
-          "language": "hi",
-          "status": 1,
-          "contributors": [
-            "amolutxo"
-          ],
-          "last_date": "2025-08-18",
-          "reward": 20.22,
-          "urgency": 1
-        },
-        {
-          "language": "sw",
-          "status": 1,
-          "contributors": [
-            "monyangi10"
-          ],
-          "last_date": "2025-08-18",
-          "reward": 11.57,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hant",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 28.91,
-          "urgency": 1
-        },
-        {
-          "language": "fa",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 23.15,
-          "urgency": 1
-        },
-        {
-          "language": "sv",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 17.39,
-          "urgency": 1
-        },
-        {
-          "language": "nl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 23.15,
-          "urgency": 1
-        },
-        {
-          "language": "tr",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 28.91,
-          "urgency": 1
-        },
-        {
-          "language": "ko",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 28.91,
-          "urgency": 1
-        },
-        {
-          "language": "rn",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 34.67,
-          "urgency": 1
-        }
-      ]
-    },
-    {
       "id": "eco104",
       "name": "ECO104",
       "type": "course",
@@ -4986,6 +4635,241 @@
           ],
           "last_date": "2025-10-31",
           "reward": 22.87,
+          "urgency": 1
+        }
+      ]
+    },
+    {
+      "id": "eco203",
+      "name": "ECO203",
+      "type": "course",
+      "topic": "social studies",
+      "subtopic": "economy",
+      "level": "intermediate",
+      "original_language": "fr",
+      "proofreading": [
+        {
+          "language": "cs",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 23.15,
+          "urgency": 1
+        },
+        {
+          "language": "de",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 17.39,
+          "urgency": 1
+        },
+        {
+          "language": "en",
+          "status": 1,
+          "contributors": [
+            "Bitpreto"
+          ],
+          "last_date": "2024-11-28",
+          "reward": 8.69,
+          "urgency": 1
+        },
+        {
+          "language": "es",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 17.39,
+          "urgency": 1
+        },
+        {
+          "language": "fi",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 23.15,
+          "urgency": 1
+        },
+        {
+          "language": "fr",
+          "status": 2,
+          "contributors": [
+            "Bitpreto",
+            "ProfScofield21"
+          ],
+          "last_date": "2025-08-18",
+          "reward": 4.35,
+          "urgency": 1
+        },
+        {
+          "language": "it",
+          "status": 2,
+          "contributors": [
+            "TinF0ilHat1",
+            "AlbertoMagno21"
+          ],
+          "last_date": "2025-10-31",
+          "reward": 4.35,
+          "urgency": 1
+        },
+        {
+          "language": "ja",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 34.67,
+          "urgency": 1
+        },
+        {
+          "language": "pt",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 17.39,
+          "urgency": 1
+        },
+        {
+          "language": "ru",
+          "status": 1,
+          "contributors": [
+            "Reshetenko"
+          ],
+          "last_date": "2024-11-16",
+          "reward": 11.57,
+          "urgency": 1
+        },
+        {
+          "language": "vi",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 34.67,
+          "urgency": 1
+        },
+        {
+          "language": "et",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 23.15,
+          "urgency": 1
+        },
+        {
+          "language": "id",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 28.91,
+          "urgency": 1
+        },
+        {
+          "language": "nb-NO",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 23.15,
+          "urgency": 1
+        },
+        {
+          "language": "zh-Hans",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 28.91,
+          "urgency": 1
+        },
+        {
+          "language": "pl",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 23.15,
+          "urgency": 1
+        },
+        {
+          "language": "sr-Latn",
+          "status": 1,
+          "contributors": [
+            "sanja993"
+          ],
+          "last_date": "2025-08-18",
+          "reward": 11.57,
+          "urgency": 1
+        },
+        {
+          "language": "hi",
+          "status": 1,
+          "contributors": [
+            "amolutxo"
+          ],
+          "last_date": "2025-08-18",
+          "reward": 20.22,
+          "urgency": 1
+        },
+        {
+          "language": "sw",
+          "status": 1,
+          "contributors": [
+            "monyangi10"
+          ],
+          "last_date": "2025-08-18",
+          "reward": 11.57,
+          "urgency": 1
+        },
+        {
+          "language": "zh-Hant",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 28.91,
+          "urgency": 1
+        },
+        {
+          "language": "fa",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 23.15,
+          "urgency": 1
+        },
+        {
+          "language": "sv",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 17.39,
+          "urgency": 1
+        },
+        {
+          "language": "nl",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 23.15,
+          "urgency": 1
+        },
+        {
+          "language": "tr",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 28.91,
+          "urgency": 1
+        },
+        {
+          "language": "ko",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 28.91,
+          "urgency": 1
+        },
+        {
+          "language": "rn",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 34.67,
           "urgency": 1
         }
       ]
@@ -7334,6 +7218,232 @@
           "contributors": [],
           "last_date": null,
           "reward": 124.53,
+          "urgency": 1
+        }
+      ]
+    },
+    {
+      "id": "pro101",
+      "name": "PRO101",
+      "type": "course",
+      "topic": "protocol",
+      "subtopic": "protocol",
+      "level": "beginner",
+      "original_language": "en",
+      "proofreading": [
+        {
+          "language": "cs",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 99.54,
+          "urgency": 1
+        },
+        {
+          "language": "de",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 74.68,
+          "urgency": 1
+        },
+        {
+          "language": "en",
+          "status": 1,
+          "contributors": [
+            "jramos0"
+          ],
+          "last_date": "2024-08-30",
+          "reward": 37.34,
+          "urgency": 1
+        },
+        {
+          "language": "es",
+          "status": 1,
+          "contributors": [
+            "OscarG673"
+          ],
+          "last_date": "2024-11-16",
+          "reward": 37.34,
+          "urgency": 1
+        },
+        {
+          "language": "fi",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 99.54,
+          "urgency": 1
+        },
+        {
+          "language": "fr",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 74.68,
+          "urgency": 1
+        },
+        {
+          "language": "it",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 74.68,
+          "urgency": 1
+        },
+        {
+          "language": "ja",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 149.26,
+          "urgency": 1
+        },
+        {
+          "language": "pt",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 74.68,
+          "urgency": 1
+        },
+        {
+          "language": "ru",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 99.54,
+          "urgency": 1
+        },
+        {
+          "language": "vi",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 149.26,
+          "urgency": 1
+        },
+        {
+          "language": "et",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 99.54,
+          "urgency": 1
+        },
+        {
+          "language": "id",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 124.4,
+          "urgency": 1
+        },
+        {
+          "language": "zh-Hans",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 124.4,
+          "urgency": 1
+        },
+        {
+          "language": "nb-NO",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 99.54,
+          "urgency": 1
+        },
+        {
+          "language": "pl",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 99.54,
+          "urgency": 1
+        },
+        {
+          "language": "hi",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 174.12,
+          "urgency": 1
+        },
+        {
+          "language": "sr-Latn",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 99.54,
+          "urgency": 1
+        },
+        {
+          "language": "sw",
+          "status": 2,
+          "contributors": [
+            "monyangi10",
+            "Arianebtc"
+          ],
+          "last_date": "2025-10-31",
+          "reward": 24.89,
+          "urgency": 1
+        },
+        {
+          "language": "zh-Hant",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 124.4,
+          "urgency": 1
+        },
+        {
+          "language": "fa",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 99.54,
+          "urgency": 1
+        },
+        {
+          "language": "sv",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 74.68,
+          "urgency": 1
+        },
+        {
+          "language": "nl",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 99.54,
+          "urgency": 1
+        },
+        {
+          "language": "tr",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 124.4,
+          "urgency": 1
+        },
+        {
+          "language": "ko",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 124.4,
+          "urgency": 1
+        },
+        {
+          "language": "rn",
+          "status": 0,
+          "contributors": [],
+          "last_date": null,
+          "reward": 149.26,
           "urgency": 1
         }
       ]
@@ -9912,6 +10022,26 @@
           "contributors": [],
           "last_date": null,
           "reward": 2.72,
+          "urgency": 1
+        }
+      ]
+    },
+    {
+      "id": "business/ibexpay",
+      "name": "Ibexpay",
+      "type": "tutorial",
+      "category": "business",
+      "level": "beginner",
+      "original_language": "fr",
+      "proofreading": [
+        {
+          "language": "fr",
+          "status": 1,
+          "contributors": [
+            "heyolaniran"
+          ],
+          "last_date": "2025-11-12",
+          "reward": 0.0,
           "urgency": 1
         }
       ]
@@ -18620,6 +18750,26 @@
           "contributors": [],
           "last_date": null,
           "reward": 2.02,
+          "urgency": 1
+        }
+      ]
+    },
+    {
+      "id": "computer-security/ms-win11-installation",
+      "name": "Ms Win11 Installation",
+      "type": "tutorial",
+      "category": "computer-security",
+      "level": "advanced",
+      "original_language": "en",
+      "proofreading": [
+        {
+          "language": "en",
+          "status": 1,
+          "contributors": [
+            "zeraatchi"
+          ],
+          "last_date": "2025-11-11",
+          "reward": 0.0,
           "urgency": 1
         }
       ]
@@ -31497,226 +31647,6 @@
           "contributors": [],
           "last_date": null,
           "reward": 11.72,
-          "urgency": 1
-        }
-      ]
-    },
-    {
-      "id": "exchange/bitcoin-voucher-bot",
-      "name": "Bitcoin Voucher Bot",
-      "type": "tutorial",
-      "category": "exchange",
-      "level": "beginner",
-      "original_language": "it",
-      "proofreading": [
-        {
-          "language": "it",
-          "status": 1,
-          "contributors": [
-            "f205sats"
-          ],
-          "last_date": "2025-03-14",
-          "reward": 0.82,
-          "urgency": 1
-        },
-        {
-          "language": "cs",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.15,
-          "urgency": 1
-        },
-        {
-          "language": "de",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.64,
-          "urgency": 1
-        },
-        {
-          "language": "en",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.64,
-          "urgency": 1
-        },
-        {
-          "language": "es",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.64,
-          "urgency": 1
-        },
-        {
-          "language": "et",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.15,
-          "urgency": 1
-        },
-        {
-          "language": "fi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.15,
-          "urgency": 1
-        },
-        {
-          "language": "fr",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.64,
-          "urgency": 1
-        },
-        {
-          "language": "id",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.66,
-          "urgency": 1
-        },
-        {
-          "language": "ja",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.17,
-          "urgency": 1
-        },
-        {
-          "language": "nb-NO",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.15,
-          "urgency": 1
-        },
-        {
-          "language": "pt",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.64,
-          "urgency": 1
-        },
-        {
-          "language": "ru",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.15,
-          "urgency": 1
-        },
-        {
-          "language": "vi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.17,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hans",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.66,
-          "urgency": 1
-        },
-        {
-          "language": "hi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.69,
-          "urgency": 1
-        },
-        {
-          "language": "pl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.15,
-          "urgency": 1
-        },
-        {
-          "language": "sr-Latn",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.15,
-          "urgency": 1
-        },
-        {
-          "language": "sw",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.15,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hant",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.66,
-          "urgency": 1
-        },
-        {
-          "language": "fa",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.15,
-          "urgency": 1
-        },
-        {
-          "language": "sv",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.64,
-          "urgency": 1
-        },
-        {
-          "language": "nl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.15,
-          "urgency": 1
-        },
-        {
-          "language": "tr",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.66,
-          "urgency": 1
-        },
-        {
-          "language": "ko",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.66,
-          "urgency": 1
-        },
-        {
-          "language": "rn",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.17,
           "urgency": 1
         }
       ]
@@ -44721,6 +44651,86 @@
       ]
     },
     {
+      "id": "privacy/ashigaru-ricochet",
+      "name": "Ashigaru Ricochet",
+      "type": "tutorial",
+      "category": "privacy",
+      "level": "advanced",
+      "original_language": "fr",
+      "proofreading": [
+        {
+          "language": "fr",
+          "status": 1,
+          "contributors": [
+            "LoicPandul"
+          ],
+          "last_date": "2025-11-12",
+          "reward": 0.0,
+          "urgency": 1
+        }
+      ]
+    },
+    {
+      "id": "privacy/ashigaru-stonewall",
+      "name": "Ashigaru Stonewall",
+      "type": "tutorial",
+      "category": "privacy",
+      "level": "advanced",
+      "original_language": "fr",
+      "proofreading": [
+        {
+          "language": "fr",
+          "status": 1,
+          "contributors": [
+            "LoicPandul"
+          ],
+          "last_date": "2025-11-12",
+          "reward": 0.0,
+          "urgency": 1
+        }
+      ]
+    },
+    {
+      "id": "privacy/ashigaru-stonewall-x2",
+      "name": "Ashigaru Stonewall X2",
+      "type": "tutorial",
+      "category": "privacy",
+      "level": "advanced",
+      "original_language": "fr",
+      "proofreading": [
+        {
+          "language": "fr",
+          "status": 1,
+          "contributors": [
+            "LoicPandul"
+          ],
+          "last_date": "2025-11-13",
+          "reward": 0.0,
+          "urgency": 1
+        }
+      ]
+    },
+    {
+      "id": "privacy/ashigaru-stowaway",
+      "name": "Ashigaru Stowaway",
+      "type": "tutorial",
+      "category": "privacy",
+      "level": "advanced",
+      "original_language": "fr",
+      "proofreading": [
+        {
+          "language": "fr",
+          "status": 1,
+          "contributors": [
+            "LoicPandul"
+          ],
+          "last_date": "2025-11-13",
+          "reward": 0.0,
+          "urgency": 1
+        }
+      ]
+    },
+    {
       "id": "privacy/ashigaru-terminal",
       "name": "Ashigaru Terminal",
       "type": "tutorial",
@@ -44741,6 +44751,46 @@
       ]
     },
     {
+      "id": "privacy/ashigaru-whirlpool",
+      "name": "Ashigaru Whirlpool",
+      "type": "tutorial",
+      "category": "privacy",
+      "level": "advanced",
+      "original_language": "fr",
+      "proofreading": [
+        {
+          "language": "fr",
+          "status": 1,
+          "contributors": [
+            "LoicPandul"
+          ],
+          "last_date": "2025-10-29",
+          "reward": 0.0,
+          "urgency": 1
+        }
+      ]
+    },
+    {
+      "id": "privacy/bitfeed",
+      "name": "Bitfeed",
+      "type": "tutorial",
+      "category": "privacy",
+      "level": "beginner",
+      "original_language": "fr",
+      "proofreading": [
+        {
+          "language": "fr",
+          "status": 1,
+          "contributors": [
+            "heyolaniran"
+          ],
+          "last_date": "2025-10-14",
+          "reward": 0.0,
+          "urgency": 1
+        }
+      ]
+    },
+    {
       "id": "privacy/blockstream-explorer",
       "name": "Blockstream Explorer",
       "type": "tutorial",
@@ -44756,234 +44806,6 @@
           ],
           "last_date": "2025-10-16",
           "reward": 0.59,
-          "urgency": 1
-        }
-      ]
-    },
-    {
-      "id": "privacy/boltzmann-entropy",
-      "name": "Boltzmann Entropy",
-      "type": "tutorial",
-      "category": "privacy",
-      "level": "advanced",
-      "original_language": "fr",
-      "proofreading": [
-        {
-          "language": "cs",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 8.21,
-          "urgency": 1
-        },
-        {
-          "language": "de",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 6.19,
-          "urgency": 1
-        },
-        {
-          "language": "en",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 6.19,
-          "urgency": 1
-        },
-        {
-          "language": "es",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 6.19,
-          "urgency": 1
-        },
-        {
-          "language": "fi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 8.21,
-          "urgency": 1
-        },
-        {
-          "language": "fr",
-          "status": 1,
-          "contributors": [
-            "Asi0Flammeus"
-          ],
-          "last_date": "2024-09-01",
-          "reward": 3.09,
-          "urgency": 1
-        },
-        {
-          "language": "it",
-          "status": 2,
-          "contributors": [
-            "TinF0ilHat1",
-            "alexpiffa"
-          ],
-          "last_date": "2025-08-18",
-          "reward": 1.55,
-          "urgency": 1
-        },
-        {
-          "language": "ja",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 12.27,
-          "urgency": 1
-        },
-        {
-          "language": "pt",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 6.19,
-          "urgency": 1
-        },
-        {
-          "language": "ru",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 8.21,
-          "urgency": 1
-        },
-        {
-          "language": "vi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 12.27,
-          "urgency": 1
-        },
-        {
-          "language": "et",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 8.21,
-          "urgency": 1
-        },
-        {
-          "language": "id",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 10.24,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hans",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 10.24,
-          "urgency": 1
-        },
-        {
-          "language": "nb-NO",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 8.21,
-          "urgency": 1
-        },
-        {
-          "language": "hi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 14.3,
-          "urgency": 1
-        },
-        {
-          "language": "pl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 8.21,
-          "urgency": 1
-        },
-        {
-          "language": "sr-Latn",
-          "status": 1,
-          "contributors": [
-            "Sanja22B"
-          ],
-          "last_date": "2025-10-31",
-          "reward": 4.11,
-          "urgency": 1
-        },
-        {
-          "language": "sw",
-          "status": 2,
-          "contributors": [
-            "monyangi10",
-            "Tinnah924"
-          ],
-          "last_date": "2025-11-05",
-          "reward": 2.05,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hant",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 10.24,
-          "urgency": 1
-        },
-        {
-          "language": "fa",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 8.21,
-          "urgency": 1
-        },
-        {
-          "language": "sv",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 6.19,
-          "urgency": 1
-        },
-        {
-          "language": "nl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 8.21,
-          "urgency": 1
-        },
-        {
-          "language": "tr",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 10.24,
-          "urgency": 1
-        },
-        {
-          "language": "ko",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 10.24,
-          "urgency": 1
-        },
-        {
-          "language": "rn",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 12.27,
           "urgency": 1
         }
       ]
@@ -45204,826 +45026,6 @@
           "contributors": [],
           "last_date": null,
           "reward": 10.14,
-          "urgency": 1
-        }
-      ]
-    },
-    {
-      "id": "privacy/coinjoin-dojo",
-      "name": "Coinjoin Dojo",
-      "type": "tutorial",
-      "category": "privacy",
-      "level": "advanced",
-      "original_language": "fr",
-      "proofreading": [
-        {
-          "language": "cs",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 22.45,
-          "urgency": 1
-        },
-        {
-          "language": "de",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 16.86,
-          "urgency": 1
-        },
-        {
-          "language": "en",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 16.86,
-          "urgency": 1
-        },
-        {
-          "language": "es",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 16.86,
-          "urgency": 1
-        },
-        {
-          "language": "fi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 22.45,
-          "urgency": 1
-        },
-        {
-          "language": "fr",
-          "status": 1,
-          "contributors": [
-            "Asi0Flammeus"
-          ],
-          "last_date": "2024-09-01",
-          "reward": 8.43,
-          "urgency": 1
-        },
-        {
-          "language": "it",
-          "status": 1,
-          "contributors": [
-            "TinF0ilHat1"
-          ],
-          "last_date": "2024-09-09",
-          "reward": 8.43,
-          "urgency": 1
-        },
-        {
-          "language": "ja",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 33.63,
-          "urgency": 1
-        },
-        {
-          "language": "pt",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 16.86,
-          "urgency": 1
-        },
-        {
-          "language": "ru",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 22.45,
-          "urgency": 1
-        },
-        {
-          "language": "vi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 33.63,
-          "urgency": 1
-        },
-        {
-          "language": "id",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 28.04,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hans",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 28.04,
-          "urgency": 1
-        },
-        {
-          "language": "et",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 22.45,
-          "urgency": 1
-        },
-        {
-          "language": "nb-NO",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 22.45,
-          "urgency": 1
-        },
-        {
-          "language": "hi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 39.22,
-          "urgency": 1
-        },
-        {
-          "language": "pl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 22.45,
-          "urgency": 1
-        },
-        {
-          "language": "sr-Latn",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 22.45,
-          "urgency": 1
-        },
-        {
-          "language": "sw",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 22.45,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hant",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 28.04,
-          "urgency": 1
-        },
-        {
-          "language": "fa",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 22.45,
-          "urgency": 1
-        },
-        {
-          "language": "sv",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 16.86,
-          "urgency": 1
-        },
-        {
-          "language": "nl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 22.45,
-          "urgency": 1
-        },
-        {
-          "language": "tr",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 28.04,
-          "urgency": 1
-        }
-      ]
-    },
-    {
-      "id": "privacy/coinjoin-samourai-wallet",
-      "name": "Coinjoin Samourai Wallet",
-      "type": "tutorial",
-      "category": "privacy",
-      "level": "intermediate",
-      "original_language": "fr",
-      "proofreading": [
-        {
-          "language": "cs",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 16.29,
-          "urgency": 1
-        },
-        {
-          "language": "de",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 12.24,
-          "urgency": 1
-        },
-        {
-          "language": "en",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 12.24,
-          "urgency": 1
-        },
-        {
-          "language": "es",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 12.24,
-          "urgency": 1
-        },
-        {
-          "language": "fi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 16.29,
-          "urgency": 1
-        },
-        {
-          "language": "fr",
-          "status": 1,
-          "contributors": [
-            "Asi0Flammeus"
-          ],
-          "last_date": "2024-09-01",
-          "reward": 6.12,
-          "urgency": 1
-        },
-        {
-          "language": "it",
-          "status": 1,
-          "contributors": [
-            "Tinf0ilHat1"
-          ],
-          "last_date": "2024-09-09",
-          "reward": 6.12,
-          "urgency": 1
-        },
-        {
-          "language": "ja",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 24.38,
-          "urgency": 1
-        },
-        {
-          "language": "pt",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 12.24,
-          "urgency": 1
-        },
-        {
-          "language": "ru",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 16.29,
-          "urgency": 1
-        },
-        {
-          "language": "vi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 24.38,
-          "urgency": 1
-        },
-        {
-          "language": "et",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 16.29,
-          "urgency": 1
-        },
-        {
-          "language": "id",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 20.34,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hans",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 20.34,
-          "urgency": 1
-        },
-        {
-          "language": "nb-NO",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 16.29,
-          "urgency": 1
-        },
-        {
-          "language": "hi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 28.43,
-          "urgency": 1
-        },
-        {
-          "language": "pl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 16.29,
-          "urgency": 1
-        },
-        {
-          "language": "sr-Latn",
-          "status": 1,
-          "contributors": [
-            "Sanja22B"
-          ],
-          "last_date": "2025-10-31",
-          "reward": 8.14,
-          "urgency": 1
-        },
-        {
-          "language": "sw",
-          "status": 1,
-          "contributors": [
-            "Tinnah924"
-          ],
-          "last_date": "2025-11-05",
-          "reward": 8.14,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hant",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 20.34,
-          "urgency": 1
-        },
-        {
-          "language": "fa",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 16.29,
-          "urgency": 1
-        },
-        {
-          "language": "sv",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 12.24,
-          "urgency": 1
-        },
-        {
-          "language": "nl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 16.29,
-          "urgency": 1
-        },
-        {
-          "language": "tr",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 20.34,
-          "urgency": 1
-        },
-        {
-          "language": "ko",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 20.34,
-          "urgency": 1
-        },
-        {
-          "language": "rn",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 24.38,
-          "urgency": 1
-        }
-      ]
-    },
-    {
-      "id": "privacy/coinjoin-sparrow-wallet",
-      "name": "Coinjoin Sparrow Wallet",
-      "type": "tutorial",
-      "category": "privacy",
-      "level": "intermediate",
-      "original_language": "fr",
-      "proofreading": [
-        {
-          "language": "cs",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 15.48,
-          "urgency": 1
-        },
-        {
-          "language": "de",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 11.63,
-          "urgency": 1
-        },
-        {
-          "language": "en",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 11.63,
-          "urgency": 1
-        },
-        {
-          "language": "es",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 11.63,
-          "urgency": 1
-        },
-        {
-          "language": "fi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 15.48,
-          "urgency": 1
-        },
-        {
-          "language": "fr",
-          "status": 1,
-          "contributors": [
-            "Asi0Flammeus"
-          ],
-          "last_date": "2024-09-01",
-          "reward": 5.82,
-          "urgency": 1
-        },
-        {
-          "language": "it",
-          "status": 1,
-          "contributors": [
-            "Tinf0ilHat1"
-          ],
-          "last_date": "2024-09-09",
-          "reward": 5.82,
-          "urgency": 1
-        },
-        {
-          "language": "ja",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 23.17,
-          "urgency": 1
-        },
-        {
-          "language": "pt",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 11.63,
-          "urgency": 1
-        },
-        {
-          "language": "ru",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 15.48,
-          "urgency": 1
-        },
-        {
-          "language": "vi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 23.17,
-          "urgency": 1
-        },
-        {
-          "language": "et",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 15.48,
-          "urgency": 1
-        },
-        {
-          "language": "id",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 19.32,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hans",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 19.32,
-          "urgency": 1
-        },
-        {
-          "language": "nb-NO",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 15.48,
-          "urgency": 1
-        },
-        {
-          "language": "hi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 27.01,
-          "urgency": 1
-        },
-        {
-          "language": "pl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 15.48,
-          "urgency": 1
-        },
-        {
-          "language": "sr-Latn",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 15.48,
-          "urgency": 1
-        },
-        {
-          "language": "sw",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 15.48,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hant",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 19.32,
-          "urgency": 1
-        },
-        {
-          "language": "fa",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 15.48,
-          "urgency": 1
-        },
-        {
-          "language": "sv",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 11.63,
-          "urgency": 1
-        },
-        {
-          "language": "nl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 15.48,
-          "urgency": 1
-        },
-        {
-          "language": "tr",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 19.32,
-          "urgency": 1
-        }
-      ]
-    },
-    {
-      "id": "privacy/joinbot",
-      "name": "Joinbot",
-      "type": "tutorial",
-      "category": "privacy",
-      "level": "advanced",
-      "original_language": "fr",
-      "proofreading": [
-        {
-          "language": "cs",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 8.26,
-          "urgency": 1
-        },
-        {
-          "language": "de",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 6.22,
-          "urgency": 1
-        },
-        {
-          "language": "en",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 6.22,
-          "urgency": 1
-        },
-        {
-          "language": "es",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 6.22,
-          "urgency": 1
-        },
-        {
-          "language": "fi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 8.26,
-          "urgency": 1
-        },
-        {
-          "language": "fr",
-          "status": 1,
-          "contributors": [
-            "Asi0Flammeus"
-          ],
-          "last_date": "2024-09-01",
-          "reward": 3.11,
-          "urgency": 1
-        },
-        {
-          "language": "it",
-          "status": 1,
-          "contributors": [
-            "Tinf0ilHat1"
-          ],
-          "last_date": "2024-09-09",
-          "reward": 3.11,
-          "urgency": 1
-        },
-        {
-          "language": "ja",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 12.34,
-          "urgency": 1
-        },
-        {
-          "language": "pt",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 6.22,
-          "urgency": 1
-        },
-        {
-          "language": "ru",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 8.26,
-          "urgency": 1
-        },
-        {
-          "language": "vi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 12.34,
-          "urgency": 1
-        },
-        {
-          "language": "et",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 8.26,
-          "urgency": 1
-        },
-        {
-          "language": "id",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 10.3,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hans",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 10.3,
-          "urgency": 1
-        },
-        {
-          "language": "nb-NO",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 8.26,
-          "urgency": 1
-        },
-        {
-          "language": "hi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 14.38,
-          "urgency": 1
-        },
-        {
-          "language": "pl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 8.26,
-          "urgency": 1
-        },
-        {
-          "language": "sr-Latn",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 8.26,
-          "urgency": 1
-        },
-        {
-          "language": "sw",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 8.26,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hant",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 10.3,
-          "urgency": 1
-        },
-        {
-          "language": "fa",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 8.26,
           "urgency": 1
         }
       ]
@@ -46254,6 +45256,26 @@
       ]
     },
     {
+      "id": "privacy/joinstr",
+      "name": "Joinstr",
+      "type": "tutorial",
+      "category": "privacy",
+      "level": "intermediate",
+      "original_language": "fr",
+      "proofreading": [
+        {
+          "language": "fr",
+          "status": 1,
+          "contributors": [
+            "Pivii"
+          ],
+          "last_date": "2025-10-25",
+          "reward": 0.0,
+          "urgency": 1
+        }
+      ]
+    },
+    {
       "id": "privacy/mempool-space",
       "name": "Mempool Space",
       "type": "tutorial",
@@ -46474,212 +45496,6 @@
           "contributors": [],
           "last_date": null,
           "reward": 4.03,
-          "urgency": 1
-        }
-      ]
-    },
-    {
-      "id": "privacy/oxt-analysis",
-      "name": "Oxt Analysis",
-      "type": "tutorial",
-      "category": "privacy",
-      "level": "advanced",
-      "original_language": "fr",
-      "proofreading": [
-        {
-          "language": "cs",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 29.66,
-          "urgency": 1
-        },
-        {
-          "language": "de",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 22.27,
-          "urgency": 1
-        },
-        {
-          "language": "en",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 22.27,
-          "urgency": 1
-        },
-        {
-          "language": "es",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 22.27,
-          "urgency": 1
-        },
-        {
-          "language": "fi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 29.66,
-          "urgency": 1
-        },
-        {
-          "language": "fr",
-          "status": 1,
-          "contributors": [
-            "Asi0Flammeus"
-          ],
-          "last_date": "2024-09-01",
-          "reward": 11.13,
-          "urgency": 1
-        },
-        {
-          "language": "it",
-          "status": 1,
-          "contributors": [
-            "Tinf0ilHat1"
-          ],
-          "last_date": "2024-09-09",
-          "reward": 11.13,
-          "urgency": 1
-        },
-        {
-          "language": "ja",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 44.43,
-          "urgency": 1
-        },
-        {
-          "language": "pt",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 22.27,
-          "urgency": 1
-        },
-        {
-          "language": "ru",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 29.66,
-          "urgency": 1
-        },
-        {
-          "language": "vi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 44.43,
-          "urgency": 1
-        },
-        {
-          "language": "et",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 29.66,
-          "urgency": 1
-        },
-        {
-          "language": "id",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 37.04,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hans",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 37.04,
-          "urgency": 1
-        },
-        {
-          "language": "nb-NO",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 29.66,
-          "urgency": 1
-        },
-        {
-          "language": "hi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 51.82,
-          "urgency": 1
-        },
-        {
-          "language": "pl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 29.66,
-          "urgency": 1
-        },
-        {
-          "language": "sr-Latn",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 29.66,
-          "urgency": 1
-        },
-        {
-          "language": "sw",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 29.66,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hant",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 37.04,
-          "urgency": 1
-        },
-        {
-          "language": "fa",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 29.66,
-          "urgency": 1
-        },
-        {
-          "language": "sv",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 22.27,
-          "urgency": 1
-        },
-        {
-          "language": "nl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 29.66,
-          "urgency": 1
-        },
-        {
-          "language": "tr",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 37.04,
           "urgency": 1
         }
       ]
@@ -46912,437 +45728,6 @@
       ]
     },
     {
-      "id": "privacy/payjoin-samourai-wallet",
-      "name": "Payjoin Samourai Wallet",
-      "type": "tutorial",
-      "category": "privacy",
-      "level": "advanced",
-      "original_language": "fr",
-      "proofreading": [
-        {
-          "language": "cs",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.57,
-          "urgency": 1
-        },
-        {
-          "language": "de",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.46,
-          "urgency": 1
-        },
-        {
-          "language": "en",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.46,
-          "urgency": 1
-        },
-        {
-          "language": "es",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.46,
-          "urgency": 1
-        },
-        {
-          "language": "fi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.57,
-          "urgency": 1
-        },
-        {
-          "language": "fr",
-          "status": 1,
-          "contributors": [
-            "Asi0Flammeus"
-          ],
-          "last_date": "2024-09-01",
-          "reward": 1.73,
-          "urgency": 1
-        },
-        {
-          "language": "it",
-          "status": 1,
-          "contributors": [
-            "Tinf0ilHat1"
-          ],
-          "last_date": "2024-09-09",
-          "reward": 1.73,
-          "urgency": 1
-        },
-        {
-          "language": "ja",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 6.81,
-          "urgency": 1
-        },
-        {
-          "language": "pt",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.46,
-          "urgency": 1
-        },
-        {
-          "language": "ru",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.57,
-          "urgency": 1
-        },
-        {
-          "language": "vi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 6.81,
-          "urgency": 1
-        },
-        {
-          "language": "et",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.57,
-          "urgency": 1
-        },
-        {
-          "language": "id",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.69,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hans",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.69,
-          "urgency": 1
-        },
-        {
-          "language": "nb-NO",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.57,
-          "urgency": 1
-        },
-        {
-          "language": "hi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 7.93,
-          "urgency": 1
-        },
-        {
-          "language": "pl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.57,
-          "urgency": 1
-        },
-        {
-          "language": "sr-Latn",
-          "status": 1,
-          "contributors": [
-            "Sanja22B"
-          ],
-          "last_date": "2025-10-31",
-          "reward": 2.29,
-          "urgency": 1
-        },
-        {
-          "language": "sw",
-          "status": 2,
-          "contributors": [
-            "monyangi10",
-            "Tinnah924"
-          ],
-          "last_date": "2025-11-05",
-          "reward": 1.14,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hant",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.69,
-          "urgency": 1
-        },
-        {
-          "language": "fa",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.57,
-          "urgency": 1
-        },
-        {
-          "language": "sv",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.46,
-          "urgency": 1
-        },
-        {
-          "language": "nl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.57,
-          "urgency": 1
-        },
-        {
-          "language": "tr",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.69,
-          "urgency": 1
-        },
-        {
-          "language": "ko",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.69,
-          "urgency": 1
-        },
-        {
-          "language": "rn",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 6.81,
-          "urgency": 1
-        }
-      ]
-    },
-    {
-      "id": "privacy/payjoin-sparrow-wallet",
-      "name": "Payjoin Sparrow Wallet",
-      "type": "tutorial",
-      "category": "privacy",
-      "level": "advanced",
-      "original_language": "fr",
-      "proofreading": [
-        {
-          "language": "cs",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.85,
-          "urgency": 1
-        },
-        {
-          "language": "de",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.91,
-          "urgency": 1
-        },
-        {
-          "language": "en",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.91,
-          "urgency": 1
-        },
-        {
-          "language": "es",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.91,
-          "urgency": 1
-        },
-        {
-          "language": "fi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.85,
-          "urgency": 1
-        },
-        {
-          "language": "fr",
-          "status": 1,
-          "contributors": [
-            "Asi0Flammeus"
-          ],
-          "last_date": "2024-09-01",
-          "reward": 1.46,
-          "urgency": 1
-        },
-        {
-          "language": "it",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.91,
-          "urgency": 1
-        },
-        {
-          "language": "ja",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.72,
-          "urgency": 1
-        },
-        {
-          "language": "pt",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.91,
-          "urgency": 1
-        },
-        {
-          "language": "ru",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.85,
-          "urgency": 1
-        },
-        {
-          "language": "vi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.72,
-          "urgency": 1
-        },
-        {
-          "language": "et",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.85,
-          "urgency": 1
-        },
-        {
-          "language": "id",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.78,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hans",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.78,
-          "urgency": 1
-        },
-        {
-          "language": "nb-NO",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.85,
-          "urgency": 1
-        },
-        {
-          "language": "hi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 6.66,
-          "urgency": 1
-        },
-        {
-          "language": "pl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.85,
-          "urgency": 1
-        },
-        {
-          "language": "sr-Latn",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.85,
-          "urgency": 1
-        },
-        {
-          "language": "sw",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.85,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hant",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.78,
-          "urgency": 1
-        },
-        {
-          "language": "fa",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.85,
-          "urgency": 1
-        },
-        {
-          "language": "sv",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.91,
-          "urgency": 1
-        },
-        {
-          "language": "nl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.85,
-          "urgency": 1
-        },
-        {
-          "language": "tr",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.78,
-          "urgency": 1
-        }
-      ]
-    },
-    {
       "id": "privacy/paynym-bip47",
       "name": "Paynym Bip47",
       "type": "tutorial",
@@ -47351,220 +45736,13 @@
       "original_language": "fr",
       "proofreading": [
         {
-          "language": "cs",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 44.11,
-          "urgency": 1
-        },
-        {
-          "language": "de",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 33.11,
-          "urgency": 1
-        },
-        {
-          "language": "en",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 33.11,
-          "urgency": 1
-        },
-        {
-          "language": "es",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 33.11,
-          "urgency": 1
-        },
-        {
-          "language": "fi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 44.11,
-          "urgency": 1
-        },
-        {
           "language": "fr",
           "status": 1,
           "contributors": [
-            "Asi0Flammeus"
+            "LoicPandul"
           ],
-          "last_date": "2024-09-01",
-          "reward": 16.56,
-          "urgency": 1
-        },
-        {
-          "language": "it",
-          "status": 1,
-          "contributors": [
-            "TinF0ilHat1"
-          ],
-          "last_date": "2024-09-24",
-          "reward": 16.56,
-          "urgency": 1
-        },
-        {
-          "language": "ja",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 66.12,
-          "urgency": 1
-        },
-        {
-          "language": "pt",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 33.11,
-          "urgency": 1
-        },
-        {
-          "language": "ru",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 44.11,
-          "urgency": 1
-        },
-        {
-          "language": "vi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 66.12,
-          "urgency": 1
-        },
-        {
-          "language": "et",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 44.11,
-          "urgency": 1
-        },
-        {
-          "language": "id",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 55.12,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hans",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 55.12,
-          "urgency": 1
-        },
-        {
-          "language": "nb-NO",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 44.11,
-          "urgency": 1
-        },
-        {
-          "language": "hi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 77.12,
-          "urgency": 1
-        },
-        {
-          "language": "pl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 44.11,
-          "urgency": 1
-        },
-        {
-          "language": "sr-Latn",
-          "status": 1,
-          "contributors": [
-            "Sanja22B"
-          ],
-          "last_date": "2025-10-31",
-          "reward": 22.06,
-          "urgency": 1
-        },
-        {
-          "language": "sw",
-          "status": 2,
-          "contributors": [
-            "monyangi10",
-            "Tinnah924"
-          ],
-          "last_date": "2025-11-05",
-          "reward": 11.03,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hant",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 55.12,
-          "urgency": 1
-        },
-        {
-          "language": "fa",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 44.11,
-          "urgency": 1
-        },
-        {
-          "language": "sv",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 33.11,
-          "urgency": 1
-        },
-        {
-          "language": "nl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 44.11,
-          "urgency": 1
-        },
-        {
-          "language": "tr",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 55.12,
-          "urgency": 1
-        },
-        {
-          "language": "ko",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 55.12,
-          "urgency": 1
-        },
-        {
-          "language": "rn",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 66.12,
+          "last_date": "2025-11-11",
+          "reward": 0.0,
           "urgency": 1
         }
       ]
@@ -47797,682 +45975,21 @@
       ]
     },
     {
-      "id": "privacy/ricochet",
-      "name": "Ricochet",
+      "id": "privacy/sparrow-stonewall",
+      "name": "Sparrow Stonewall",
       "type": "tutorial",
       "category": "privacy",
-      "level": "advanced",
+      "level": "intermediate",
       "original_language": "fr",
       "proofreading": [
-        {
-          "language": "cs",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.02,
-          "urgency": 1
-        },
-        {
-          "language": "de",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.04,
-          "urgency": 1
-        },
-        {
-          "language": "en",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.04,
-          "urgency": 1
-        },
-        {
-          "language": "es",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.04,
-          "urgency": 1
-        },
-        {
-          "language": "fi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.02,
-          "urgency": 1
-        },
         {
           "language": "fr",
           "status": 1,
           "contributors": [
-            "Asi0Flammeus"
+            "LoicPandul"
           ],
-          "last_date": "2024-09-01",
-          "reward": 1.52,
-          "urgency": 1
-        },
-        {
-          "language": "it",
-          "status": 1,
-          "contributors": [
-            "TinF0ilHat1"
-          ],
-          "last_date": "2024-09-24",
-          "reward": 1.52,
-          "urgency": 1
-        },
-        {
-          "language": "ja",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.98,
-          "urgency": 1
-        },
-        {
-          "language": "pt",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.04,
-          "urgency": 1
-        },
-        {
-          "language": "ru",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.02,
-          "urgency": 1
-        },
-        {
-          "language": "vi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.98,
-          "urgency": 1
-        },
-        {
-          "language": "et",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.02,
-          "urgency": 1
-        },
-        {
-          "language": "id",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.0,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hans",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.0,
-          "urgency": 1
-        },
-        {
-          "language": "nb-NO",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.02,
-          "urgency": 1
-        },
-        {
-          "language": "hi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 6.96,
-          "urgency": 1
-        },
-        {
-          "language": "pl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.02,
-          "urgency": 1
-        },
-        {
-          "language": "sr-Latn",
-          "status": 1,
-          "contributors": [
-            "Sanja22B"
-          ],
-          "last_date": "2025-10-31",
-          "reward": 2.01,
-          "urgency": 1
-        },
-        {
-          "language": "sw",
-          "status": 2,
-          "contributors": [
-            "monyangi10",
-            "Tinnah924"
-          ],
-          "last_date": "2025-11-05",
-          "reward": 1.01,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hant",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.0,
-          "urgency": 1
-        },
-        {
-          "language": "fa",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.02,
-          "urgency": 1
-        },
-        {
-          "language": "sv",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.04,
-          "urgency": 1
-        },
-        {
-          "language": "nl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.02,
-          "urgency": 1
-        },
-        {
-          "language": "tr",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.0,
-          "urgency": 1
-        },
-        {
-          "language": "ko",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.0,
-          "urgency": 1
-        },
-        {
-          "language": "rn",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.98,
-          "urgency": 1
-        }
-      ]
-    },
-    {
-      "id": "privacy/stonewall",
-      "name": "Stonewall",
-      "type": "tutorial",
-      "category": "privacy",
-      "level": "advanced",
-      "original_language": "fr",
-      "proofreading": [
-        {
-          "language": "cs",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.56,
-          "urgency": 1
-        },
-        {
-          "language": "de",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.45,
-          "urgency": 1
-        },
-        {
-          "language": "en",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.45,
-          "urgency": 1
-        },
-        {
-          "language": "es",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.45,
-          "urgency": 1
-        },
-        {
-          "language": "fi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.56,
-          "urgency": 1
-        },
-        {
-          "language": "fr",
-          "status": 1,
-          "contributors": [
-            "Asi0Flammeus"
-          ],
-          "last_date": "2024-09-01",
-          "reward": 1.72,
-          "urgency": 1
-        },
-        {
-          "language": "it",
-          "status": 1,
-          "contributors": [
-            "TinF0ilHat1"
-          ],
-          "last_date": "2024-09-24",
-          "reward": 1.72,
-          "urgency": 1
-        },
-        {
-          "language": "ja",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 6.79,
-          "urgency": 1
-        },
-        {
-          "language": "pt",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.45,
-          "urgency": 1
-        },
-        {
-          "language": "ru",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.56,
-          "urgency": 1
-        },
-        {
-          "language": "vi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 6.79,
-          "urgency": 1
-        },
-        {
-          "language": "et",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.56,
-          "urgency": 1
-        },
-        {
-          "language": "id",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.68,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hans",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.68,
-          "urgency": 1
-        },
-        {
-          "language": "nb-NO",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.56,
-          "urgency": 1
-        },
-        {
-          "language": "hi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 7.91,
-          "urgency": 1
-        },
-        {
-          "language": "pl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.56,
-          "urgency": 1
-        },
-        {
-          "language": "sr-Latn",
-          "status": 1,
-          "contributors": [
-            "Sanja22B"
-          ],
-          "last_date": "2025-10-31",
-          "reward": 2.28,
-          "urgency": 1
-        },
-        {
-          "language": "sw",
-          "status": 2,
-          "contributors": [
-            "monyangi10",
-            "Tinnah924"
-          ],
-          "last_date": "2025-11-05",
-          "reward": 1.14,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hant",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.68,
-          "urgency": 1
-        },
-        {
-          "language": "fa",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.56,
-          "urgency": 1
-        },
-        {
-          "language": "sv",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.45,
-          "urgency": 1
-        },
-        {
-          "language": "nl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.56,
-          "urgency": 1
-        },
-        {
-          "language": "tr",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.68,
-          "urgency": 1
-        },
-        {
-          "language": "ko",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.68,
-          "urgency": 1
-        },
-        {
-          "language": "rn",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 6.79,
-          "urgency": 1
-        }
-      ]
-    },
-    {
-      "id": "privacy/stonewall-x2",
-      "name": "Stonewall X2",
-      "type": "tutorial",
-      "category": "privacy",
-      "level": "advanced",
-      "original_language": "fr",
-      "proofreading": [
-        {
-          "language": "cs",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 7.3,
-          "urgency": 1
-        },
-        {
-          "language": "de",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.5,
-          "urgency": 1
-        },
-        {
-          "language": "en",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.5,
-          "urgency": 1
-        },
-        {
-          "language": "es",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.5,
-          "urgency": 1
-        },
-        {
-          "language": "fi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 7.3,
-          "urgency": 1
-        },
-        {
-          "language": "fr",
-          "status": 1,
-          "contributors": [
-            "Asi0Flammeus"
-          ],
-          "last_date": "2024-09-01",
-          "reward": 2.75,
-          "urgency": 1
-        },
-        {
-          "language": "it",
-          "status": 1,
-          "contributors": [
-            "TinF0ilHat1"
-          ],
-          "last_date": "2024-09-24",
-          "reward": 2.75,
-          "urgency": 1
-        },
-        {
-          "language": "ja",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 10.9,
-          "urgency": 1
-        },
-        {
-          "language": "pt",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.5,
-          "urgency": 1
-        },
-        {
-          "language": "ru",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 7.3,
-          "urgency": 1
-        },
-        {
-          "language": "vi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 10.9,
-          "urgency": 1
-        },
-        {
-          "language": "et",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 7.3,
-          "urgency": 1
-        },
-        {
-          "language": "id",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 9.1,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hans",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 9.1,
-          "urgency": 1
-        },
-        {
-          "language": "nb-NO",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 7.3,
-          "urgency": 1
-        },
-        {
-          "language": "hi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 12.7,
-          "urgency": 1
-        },
-        {
-          "language": "pl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 7.3,
-          "urgency": 1
-        },
-        {
-          "language": "sr-Latn",
-          "status": 1,
-          "contributors": [
-            "Sanja22B"
-          ],
-          "last_date": "2025-10-31",
-          "reward": 3.65,
-          "urgency": 1
-        },
-        {
-          "language": "sw",
-          "status": 2,
-          "contributors": [
-            "monyangi10",
-            "Tinnah924"
-          ],
-          "last_date": "2025-11-05",
-          "reward": 1.82,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hant",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 9.1,
-          "urgency": 1
-        },
-        {
-          "language": "fa",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 7.3,
-          "urgency": 1
-        },
-        {
-          "language": "sv",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.5,
-          "urgency": 1
-        },
-        {
-          "language": "nl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 7.3,
-          "urgency": 1
-        },
-        {
-          "language": "tr",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 9.1,
-          "urgency": 1
-        },
-        {
-          "language": "ko",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 9.1,
-          "urgency": 1
-        },
-        {
-          "language": "rn",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 10.9,
+          "last_date": "2025-11-13",
+          "reward": 0.0,
           "urgency": 1
         }
       ]
@@ -48701,212 +46218,6 @@
           "contributors": [],
           "last_date": null,
           "reward": 5.17,
-          "urgency": 1
-        }
-      ]
-    },
-    {
-      "id": "privacy/wst-anonsets",
-      "name": "Wst Anonsets",
-      "type": "tutorial",
-      "category": "privacy",
-      "level": "advanced",
-      "original_language": "fr",
-      "proofreading": [
-        {
-          "language": "cs",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 9.69,
-          "urgency": 1
-        },
-        {
-          "language": "de",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 7.29,
-          "urgency": 1
-        },
-        {
-          "language": "en",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 7.29,
-          "urgency": 1
-        },
-        {
-          "language": "es",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 7.29,
-          "urgency": 1
-        },
-        {
-          "language": "fi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 9.69,
-          "urgency": 1
-        },
-        {
-          "language": "fr",
-          "status": 1,
-          "contributors": [
-            "Asi0Flammeus"
-          ],
-          "last_date": "2024-09-01",
-          "reward": 3.65,
-          "urgency": 1
-        },
-        {
-          "language": "it",
-          "status": 1,
-          "contributors": [
-            "TinF0ilHat1"
-          ],
-          "last_date": "2024-09-24",
-          "reward": 3.65,
-          "urgency": 1
-        },
-        {
-          "language": "ja",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 14.49,
-          "urgency": 1
-        },
-        {
-          "language": "pt",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 7.29,
-          "urgency": 1
-        },
-        {
-          "language": "ru",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 9.69,
-          "urgency": 1
-        },
-        {
-          "language": "vi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 14.49,
-          "urgency": 1
-        },
-        {
-          "language": "et",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 9.69,
-          "urgency": 1
-        },
-        {
-          "language": "id",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 12.09,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hans",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 12.09,
-          "urgency": 1
-        },
-        {
-          "language": "nb-NO",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 9.69,
-          "urgency": 1
-        },
-        {
-          "language": "hi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 16.88,
-          "urgency": 1
-        },
-        {
-          "language": "pl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 9.69,
-          "urgency": 1
-        },
-        {
-          "language": "sr-Latn",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 9.69,
-          "urgency": 1
-        },
-        {
-          "language": "sw",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 9.69,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hant",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 12.09,
-          "urgency": 1
-        },
-        {
-          "language": "fa",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 9.69,
-          "urgency": 1
-        },
-        {
-          "language": "sv",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 7.29,
-          "urgency": 1
-        },
-        {
-          "language": "nl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 9.69,
-          "urgency": 1
-        },
-        {
-          "language": "tr",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 12.09,
           "urgency": 1
         }
       ]
@@ -52929,188 +50240,6 @@
       ]
     },
     {
-      "id": "wallet/blockstream-green",
-      "name": "Blockstream Green",
-      "type": "tutorial",
-      "category": "wallet",
-      "level": "beginner",
-      "original_language": "fr",
-      "proofreading": [
-        {
-          "language": "fr",
-          "status": 1,
-          "contributors": [
-            "LoicPandul"
-          ],
-          "last_date": "2024-11-20",
-          "reward": 1.01,
-          "urgency": 1
-        },
-        {
-          "language": "cs",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.66,
-          "urgency": 1
-        },
-        {
-          "language": "de",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.02,
-          "urgency": 1
-        },
-        {
-          "language": "en",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.02,
-          "urgency": 1
-        },
-        {
-          "language": "es",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.02,
-          "urgency": 1
-        },
-        {
-          "language": "et",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.66,
-          "urgency": 1
-        },
-        {
-          "language": "fi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.66,
-          "urgency": 1
-        },
-        {
-          "language": "id",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.3,
-          "urgency": 1
-        },
-        {
-          "language": "it",
-          "status": 1,
-          "contributors": [
-            "f205sats"
-          ],
-          "last_date": "2025-05-14",
-          "reward": 1.01,
-          "urgency": 1
-        },
-        {
-          "language": "ja",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.94,
-          "urgency": 1
-        },
-        {
-          "language": "nb-NO",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.66,
-          "urgency": 1
-        },
-        {
-          "language": "pt",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.02,
-          "urgency": 1
-        },
-        {
-          "language": "ru",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.66,
-          "urgency": 1
-        },
-        {
-          "language": "vi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.94,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hans",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.3,
-          "urgency": 1
-        },
-        {
-          "language": "hi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.58,
-          "urgency": 1
-        },
-        {
-          "language": "pl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.66,
-          "urgency": 1
-        },
-        {
-          "language": "sr-Latn",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.66,
-          "urgency": 1
-        },
-        {
-          "language": "sw",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.66,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hant",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.3,
-          "urgency": 1
-        },
-        {
-          "language": "fa",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.66,
-          "urgency": 1
-        }
-      ]
-    },
-    {
       "id": "wallet/blockstream-green-2FA",
       "name": "Blockstream Green 2Fa",
       "type": "tutorial",
@@ -53328,546 +50457,6 @@
           "contributors": [],
           "last_date": null,
           "reward": 10.44,
-          "urgency": 1
-        }
-      ]
-    },
-    {
-      "id": "wallet/blockstream-green-desktop",
-      "name": "Blockstream Green Desktop",
-      "type": "tutorial",
-      "category": "wallet",
-      "level": "intermediate",
-      "original_language": "fr",
-      "proofreading": [
-        {
-          "language": "fr",
-          "status": 1,
-          "contributors": [
-            "LoicPandul"
-          ],
-          "last_date": "2024-11-22",
-          "reward": 1.13,
-          "urgency": 1
-        },
-        {
-          "language": "cs",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.97,
-          "urgency": 1
-        },
-        {
-          "language": "de",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.25,
-          "urgency": 1
-        },
-        {
-          "language": "en",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.25,
-          "urgency": 1
-        },
-        {
-          "language": "es",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.25,
-          "urgency": 1
-        },
-        {
-          "language": "et",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.97,
-          "urgency": 1
-        },
-        {
-          "language": "fi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.97,
-          "urgency": 1
-        },
-        {
-          "language": "id",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.69,
-          "urgency": 1
-        },
-        {
-          "language": "it",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.25,
-          "urgency": 1
-        },
-        {
-          "language": "ja",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.4,
-          "urgency": 1
-        },
-        {
-          "language": "nb-NO",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.97,
-          "urgency": 1
-        },
-        {
-          "language": "pt",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.25,
-          "urgency": 1
-        },
-        {
-          "language": "ru",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.97,
-          "urgency": 1
-        },
-        {
-          "language": "vi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.4,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hans",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.69,
-          "urgency": 1
-        },
-        {
-          "language": "hi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 5.12,
-          "urgency": 1
-        },
-        {
-          "language": "pl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.97,
-          "urgency": 1
-        },
-        {
-          "language": "sr-Latn",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.97,
-          "urgency": 1
-        },
-        {
-          "language": "sw",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.97,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hant",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.69,
-          "urgency": 1
-        },
-        {
-          "language": "fa",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.97,
-          "urgency": 1
-        }
-      ]
-    },
-    {
-      "id": "wallet/blockstream-green-liquid",
-      "name": "Blockstream Green Liquid",
-      "type": "tutorial",
-      "category": "wallet",
-      "level": "beginner",
-      "original_language": "fr",
-      "proofreading": [
-        {
-          "language": "fr",
-          "status": 1,
-          "contributors": [
-            "LoicPandul"
-          ],
-          "last_date": "2024-11-23",
-          "reward": 1.09,
-          "urgency": 1
-        },
-        {
-          "language": "cs",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.88,
-          "urgency": 1
-        },
-        {
-          "language": "de",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.18,
-          "urgency": 1
-        },
-        {
-          "language": "en",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.18,
-          "urgency": 1
-        },
-        {
-          "language": "es",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.18,
-          "urgency": 1
-        },
-        {
-          "language": "et",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.88,
-          "urgency": 1
-        },
-        {
-          "language": "fi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.88,
-          "urgency": 1
-        },
-        {
-          "language": "id",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.57,
-          "urgency": 1
-        },
-        {
-          "language": "it",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.18,
-          "urgency": 1
-        },
-        {
-          "language": "ja",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.27,
-          "urgency": 1
-        },
-        {
-          "language": "nb-NO",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.88,
-          "urgency": 1
-        },
-        {
-          "language": "pt",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.18,
-          "urgency": 1
-        },
-        {
-          "language": "ru",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.88,
-          "urgency": 1
-        },
-        {
-          "language": "vi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.27,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hans",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.57,
-          "urgency": 1
-        },
-        {
-          "language": "hi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 4.96,
-          "urgency": 1
-        },
-        {
-          "language": "pl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.88,
-          "urgency": 1
-        },
-        {
-          "language": "sr-Latn",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.88,
-          "urgency": 1
-        },
-        {
-          "language": "sw",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.88,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hant",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 3.57,
-          "urgency": 1
-        },
-        {
-          "language": "fa",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.88,
-          "urgency": 1
-        }
-      ]
-    },
-    {
-      "id": "wallet/blockstream-green-watch-only",
-      "name": "Blockstream Green Watch Only",
-      "type": "tutorial",
-      "category": "wallet",
-      "level": "beginner",
-      "original_language": "fr",
-      "proofreading": [
-        {
-          "language": "fr",
-          "status": 1,
-          "contributors": [
-            "LoicPandul"
-          ],
-          "last_date": "2024-11-22",
-          "reward": 0.58,
-          "urgency": 1
-        },
-        {
-          "language": "cs",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.51,
-          "urgency": 1
-        },
-        {
-          "language": "de",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.15,
-          "urgency": 1
-        },
-        {
-          "language": "en",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.15,
-          "urgency": 1
-        },
-        {
-          "language": "es",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.15,
-          "urgency": 1
-        },
-        {
-          "language": "et",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.51,
-          "urgency": 1
-        },
-        {
-          "language": "fi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.51,
-          "urgency": 1
-        },
-        {
-          "language": "id",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.86,
-          "urgency": 1
-        },
-        {
-          "language": "it",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.15,
-          "urgency": 1
-        },
-        {
-          "language": "ja",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.21,
-          "urgency": 1
-        },
-        {
-          "language": "nb-NO",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.51,
-          "urgency": 1
-        },
-        {
-          "language": "pt",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.15,
-          "urgency": 1
-        },
-        {
-          "language": "ru",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.51,
-          "urgency": 1
-        },
-        {
-          "language": "vi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.21,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hans",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.86,
-          "urgency": 1
-        },
-        {
-          "language": "hi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.56,
-          "urgency": 1
-        },
-        {
-          "language": "pl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.51,
-          "urgency": 1
-        },
-        {
-          "language": "sr-Latn",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.51,
-          "urgency": 1
-        },
-        {
-          "language": "sw",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.51,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hant",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.86,
-          "urgency": 1
-        },
-        {
-          "language": "fa",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.51,
           "urgency": 1
         }
       ]
@@ -56565,212 +53154,6 @@
       ]
     },
     {
-      "id": "wallet/elysium",
-      "name": "Elysium",
-      "type": "tutorial",
-      "category": "wallet",
-      "level": "beginner",
-      "original_language": "en",
-      "proofreading": [
-        {
-          "language": "en",
-          "status": 1,
-          "contributors": [
-            "Asi0Flammeus"
-          ],
-          "last_date": "2025-02-04",
-          "reward": 0.46,
-          "urgency": 1
-        },
-        {
-          "language": "cs",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.2,
-          "urgency": 1
-        },
-        {
-          "language": "de",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 0.92,
-          "urgency": 1
-        },
-        {
-          "language": "es",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 0.92,
-          "urgency": 1
-        },
-        {
-          "language": "et",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.2,
-          "urgency": 1
-        },
-        {
-          "language": "fi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.2,
-          "urgency": 1
-        },
-        {
-          "language": "fr",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 0.92,
-          "urgency": 1
-        },
-        {
-          "language": "id",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.47,
-          "urgency": 1
-        },
-        {
-          "language": "it",
-          "status": 1,
-          "contributors": [
-            "alevandx"
-          ],
-          "last_date": "2024-11-24",
-          "reward": 0.46,
-          "urgency": 1
-        },
-        {
-          "language": "ja",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.75,
-          "urgency": 1
-        },
-        {
-          "language": "nb-NO",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.2,
-          "urgency": 1
-        },
-        {
-          "language": "pt",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 0.92,
-          "urgency": 1
-        },
-        {
-          "language": "ru",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.2,
-          "urgency": 1
-        },
-        {
-          "language": "vi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.75,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hans",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.47,
-          "urgency": 1
-        },
-        {
-          "language": "hi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.02,
-          "urgency": 1
-        },
-        {
-          "language": "pl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.2,
-          "urgency": 1
-        },
-        {
-          "language": "sr-Latn",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.2,
-          "urgency": 1
-        },
-        {
-          "language": "sw",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.2,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hant",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.47,
-          "urgency": 1
-        },
-        {
-          "language": "fa",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.2,
-          "urgency": 1
-        },
-        {
-          "language": "sv",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 0.92,
-          "urgency": 1
-        },
-        {
-          "language": "nl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.2,
-          "urgency": 1
-        },
-        {
-          "language": "tr",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.47,
-          "urgency": 1
-        }
-      ]
-    },
-    {
       "id": "wallet/envoy",
       "name": "Envoy",
       "type": "tutorial",
@@ -57714,6 +54097,26 @@
           ],
           "last_date": "2025-11-03",
           "reward": 3.59,
+          "urgency": 1
+        }
+      ]
+    },
+    {
+      "id": "wallet/jade-electrum",
+      "name": "Jade Electrum",
+      "type": "tutorial",
+      "category": "wallet",
+      "level": "intermediate",
+      "original_language": "it",
+      "proofreading": [
+        {
+          "language": "it",
+          "status": 1,
+          "contributors": [
+            "f205sats"
+          ],
+          "last_date": "2025-08-30",
+          "reward": 0.0,
           "urgency": 1
         }
       ]
@@ -59496,6 +55899,26 @@
           "contributors": [],
           "last_date": null,
           "reward": 2.23,
+          "urgency": 1
+        }
+      ]
+    },
+    {
+      "id": "wallet/macadamia",
+      "name": "Macadamia",
+      "type": "tutorial",
+      "category": "wallet",
+      "level": "beginner",
+      "original_language": "fr",
+      "proofreading": [
+        {
+          "language": "fr",
+          "status": 1,
+          "contributors": [
+            "Pivii"
+          ],
+          "last_date": "2025-11-07",
+          "reward": 0.0,
           "urgency": 1
         }
       ]
@@ -62642,212 +59065,6 @@
           ],
           "last_date": "2025-10-06",
           "reward": 0.99,
-          "urgency": 1
-        }
-      ]
-    },
-    {
-      "id": "wallet/samourai",
-      "name": "Samourai",
-      "type": "tutorial",
-      "category": "wallet",
-      "level": "intermediate",
-      "original_language": "en",
-      "proofreading": [
-        {
-          "language": "cs",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.71,
-          "urgency": 1
-        },
-        {
-          "language": "de",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.3,
-          "urgency": 1
-        },
-        {
-          "language": "en",
-          "status": 1,
-          "contributors": [
-            "Asi0Flammeus"
-          ],
-          "last_date": "2024-09-01",
-          "reward": 0.65,
-          "urgency": 1
-        },
-        {
-          "language": "es",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.3,
-          "urgency": 1
-        },
-        {
-          "language": "fi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.71,
-          "urgency": 1
-        },
-        {
-          "language": "fr",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.3,
-          "urgency": 1
-        },
-        {
-          "language": "it",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.3,
-          "urgency": 1
-        },
-        {
-          "language": "ja",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.51,
-          "urgency": 1
-        },
-        {
-          "language": "pt",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.3,
-          "urgency": 1
-        },
-        {
-          "language": "ru",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.71,
-          "urgency": 1
-        },
-        {
-          "language": "vi",
-          "status": 1,
-          "contributors": [
-            "Henry-Da0"
-          ],
-          "last_date": "2024-11-16",
-          "reward": 1.25,
-          "urgency": 1
-        },
-        {
-          "language": "et",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.71,
-          "urgency": 1
-        },
-        {
-          "language": "id",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.11,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hans",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.11,
-          "urgency": 1
-        },
-        {
-          "language": "nb-NO",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.71,
-          "urgency": 1
-        },
-        {
-          "language": "hi",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.91,
-          "urgency": 1
-        },
-        {
-          "language": "pl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.71,
-          "urgency": 1
-        },
-        {
-          "language": "sr-Latn",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.71,
-          "urgency": 1
-        },
-        {
-          "language": "sw",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.71,
-          "urgency": 1
-        },
-        {
-          "language": "zh-Hant",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.11,
-          "urgency": 1
-        },
-        {
-          "language": "fa",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.71,
-          "urgency": 1
-        },
-        {
-          "language": "sv",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.3,
-          "urgency": 1
-        },
-        {
-          "language": "nl",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 1.71,
-          "urgency": 1
-        },
-        {
-          "language": "tr",
-          "status": 0,
-          "contributors": [],
-          "last_date": null,
-          "reward": 2.11,
           "urgency": 1
         }
       ]
@@ -67774,6 +63991,14 @@
       "courses": 2,
       "tutorials": 0
     },
+    "Dahl23": {
+      "total_contributions": 1,
+      "languages": [
+        "rn"
+      ],
+      "courses": 1,
+      "tutorials": 0
+    },
     "Bitpreto": {
       "total_contributions": 2,
       "languages": [
@@ -67797,14 +64022,6 @@
         "hi"
       ],
       "courses": 2,
-      "tutorials": 0
-    },
-    "Dahl23": {
-      "total_contributions": 1,
-      "languages": [
-        "rn"
-      ],
-      "courses": 1,
       "tutorials": 0
     },
     "elDaz2": {
@@ -67922,12 +64139,12 @@
       "tutorials": 53
     },
     "Tinnah924": {
-      "total_contributions": 96,
+      "total_contributions": 89,
       "languages": [
         "sw"
       ],
       "courses": 0,
-      "tutorials": 96
+      "tutorials": 89
     },
     "Sosylos": {
       "total_contributions": 1,
@@ -67979,12 +64196,12 @@
       "tutorials": 14
     },
     "f205sats": {
-      "total_contributions": 13,
+      "total_contributions": 12,
       "languages": [
         "it"
       ],
       "courses": 0,
-      "tutorials": 13
+      "tutorials": 12
     },
     "AgoesRichie": {
       "total_contributions": 55,
@@ -67995,12 +64212,12 @@
       "tutorials": 55
     },
     "Sanja22B": {
-      "total_contributions": 61,
+      "total_contributions": 54,
       "languages": [
         "sr-Latn"
       ],
       "courses": 0,
-      "tutorials": 61
+      "tutorials": 54
     },
     "AlbertoMagno21": {
       "total_contributions": 2,
@@ -68009,6 +64226,14 @@
       ],
       "courses": 0,
       "tutorials": 2
+    },
+    "zeraatchi": {
+      "total_contributions": 1,
+      "languages": [
+        "en"
+      ],
+      "courses": 0,
+      "tutorials": 1
     },
     "Reshetenko": {
       "total_contributions": 6,
@@ -68019,12 +64244,12 @@
       "tutorials": 6
     },
     "monyangi10": {
-      "total_contributions": 56,
+      "total_contributions": 50,
       "languages": [
         "sw"
       ],
       "courses": 0,
-      "tutorials": 56
+      "tutorials": 50
     },
     "Trabolo": {
       "total_contributions": 19,
@@ -68043,20 +64268,20 @@
       "tutorials": 1
     },
     "TinF0ilHat1": {
-      "total_contributions": 11,
+      "total_contributions": 4,
       "languages": [
         "it"
       ],
       "courses": 0,
-      "tutorials": 11
+      "tutorials": 4
     },
     "Henry-Da0": {
-      "total_contributions": 7,
+      "total_contributions": 6,
       "languages": [
         "vi"
       ],
       "courses": 0,
-      "tutorials": 7
+      "tutorials": 6
     },
     "MilankovicProtocol": {
       "total_contributions": 6,
@@ -68125,20 +64350,12 @@
       "tutorials": 2
     },
     "alexpiffa": {
-      "total_contributions": 2,
+      "total_contributions": 1,
       "languages": [
         "it"
       ],
       "courses": 0,
-      "tutorials": 2
-    },
-    "Tinf0ilHat1": {
-      "total_contributions": 5,
-      "languages": [
-        "it"
-      ],
-      "courses": 0,
-      "tutorials": 5
+      "tutorials": 1
     },
     "MoritzKa": {
       "total_contributions": 1,
@@ -68189,14 +64406,6 @@
       "courses": 0,
       "tutorials": 1
     },
-    "alevandx": {
-      "total_contributions": 1,
-      "languages": [
-        "it"
-      ],
-      "courses": 0,
-      "tutorials": 1
-    },
     "lugaxker": {
       "total_contributions": 1,
       "languages": [
@@ -68208,8 +64417,8 @@
   },
   "language_stats": {
     "en": {
-      "total_proofreadings": 92,
-      "unique_contributors": 15,
+      "total_proofreadings": 91,
+      "unique_contributors": 16,
       "contributors": [
         "2raj2raj",
         "Arshia-r-m",
@@ -68225,7 +64434,8 @@
         "k-nakamochi",
         "melontwist",
         "runningbitcoin21",
-        "xor3d"
+        "xor3d",
+        "zeraatchi"
       ]
     },
     "es": {
@@ -68238,7 +64448,7 @@
       ]
     },
     "fr": {
-      "total_proofreadings": 251,
+      "total_proofreadings": 245,
       "unique_contributors": 16,
       "contributors": [
         "Bitpreto",
@@ -68272,8 +64482,8 @@
       ]
     },
     "it": {
-      "total_proofreadings": 79,
-      "unique_contributors": 13,
+      "total_proofreadings": 65,
+      "unique_contributors": 11,
       "contributors": [
         "AlbertoMagno21",
         "Bitman-ops",
@@ -68282,8 +64492,6 @@
         "SatoSats",
         "TinF0ilHat",
         "TinF0ilHat1",
-        "Tinf0ilHat1",
-        "alevandx",
         "alexpiffa",
         "f205sats",
         "f205sats ",
@@ -68299,7 +64507,7 @@
       ]
     },
     "vi": {
-      "total_proofreadings": 20,
+      "total_proofreadings": 19,
       "unique_contributors": 3,
       "contributors": [
         "Ahn-La",
@@ -68315,7 +64523,7 @@
       ]
     },
     "sr-Latn": {
-      "total_proofreadings": 72,
+      "total_proofreadings": 65,
       "unique_contributors": 3,
       "contributors": [
         "Sanja22B",
@@ -68324,7 +64532,7 @@
       ]
     },
     "sw": {
-      "total_proofreadings": 166,
+      "total_proofreadings": 159,
       "unique_contributors": 3,
       "contributors": [
         "Arianebtc",
@@ -68445,6 +64653,15 @@
   },
   "recent_contributions": [
     {
+      "contributor": "zeraatchi",
+      "content_id": "computer-security/ms-win11-installation",
+      "content_name": "Ms Win11 Installation",
+      "content_type": "tutorial",
+      "language": "en",
+      "date": "2025-11-11",
+      "status": 1
+    },
+    {
       "contributor": "OscarG673",
       "content_id": "btc101",
       "content_name": "BTC101",
@@ -68520,15 +64737,6 @@
       "contributor": "monyangi10",
       "content_id": "lnp201",
       "content_name": "LNP201",
-      "content_type": "course",
-      "language": "sw",
-      "date": "2025-11-06",
-      "status": 1
-    },
-    {
-      "contributor": "Tinnah924",
-      "content_id": "phi101",
-      "content_name": "PHI101",
       "content_type": "course",
       "language": "sw",
       "date": "2025-11-06",
@@ -69149,6 +65357,27 @@
 
         // Initialize on load
         window.addEventListener('DOMContentLoaded', init);
+
+        // Back to Top Button functionality
+        const backToTopButton = document.querySelector('.back-to-top');
+
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.add('show');
+            } else {
+                backToTopButton.classList.remove('show');
+            }
+        });
+
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
     </script>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">↑</button>
 </body>
 </html>

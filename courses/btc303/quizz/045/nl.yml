@@ -1,0 +1,8 @@
+question: Wat was de problematische aanpak die Satoshi gebruikte bij het implementeren van een harde fork die Bitcoin ontwikkelaars vandaag de dag nooit zouden gebruiken?
+answer: Het verbergen van de doorbrekende verandering in een commit met een misleidende beschrijving die geen indicatie gaf van wijzigingen in de consensusregel
+wrong_answers:
+  - De harde fork implementeren zonder enige publieke aankondiging of communicatie vooraf aan de Bitcoin gemeenschap
+  - Het combineren van meerdere hard forks in één release zonder goede test- of gemeenschapsbeoordelingsprocessen
+  - De harde fork onmiddellijk activeren zonder gebruikers voldoende tijd te geven om hun knooppuntsoftware te upgraden
+explanation: |
+  Volgens Eric Lombrozo's analyse was de problematische aanpak van Satoshi het verbergen van een consensus verbrekende verandering in een commit met een misleidende beschrijving die alleen 'reverted makefile.unix wx-config version 0.3.6' vermeldde, zonder enige indicatie van de verbrekende veranderingen. Deze praktijk van het verbergen van kritieke consensuswijzigingen in onschuldig uitziende commits zou volgens de huidige standaarden als onacceptabel beschouwd worden, waar transparantie en duidelijke communicatie over consensuswijzigingen fundamentele principes van Bitcoin ontwikkeling zijn.

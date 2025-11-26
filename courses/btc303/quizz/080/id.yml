@@ -1,0 +1,8 @@
+question: Apa tantangan utama yang membuat penerbitan patch kerentanan untuk Bitcoin menjadi sangat kompleks dibandingkan dengan sistem perangkat lunak tradisional yang terpusat?
+answer: Kode patch itu sendiri dapat mengungkapkan kerentanan kepada penyerang potensial yang menganalisis perubahan
+wrong_answers:
+  - Sifat desentralisasi berarti tidak ada otoritas pusat untuk mengoordinasikan waktu penerapan patch
+  - "Mekanisme konsensus Bitcoin membutuhkan persetujuan mayoritas sebelum patch keamanan dapat diimplementasikan"
+  - Sifat sumber terbuka berarti semua kerentanan harus diungkapkan secara publik sebelum patch dikembangkan
+explanation: |
+  Teks tersebut secara khusus menyoroti bahwa pengembang harus sangat berhati-hati saat menerbitkan patch karena 'patch itu sendiri mungkin memberikan kerentanan Hal ini menciptakan tantangan unik di mana solusi dapat secara tidak sengaja mengekspos masalah. Poin keempat menjelaskan bagaimana pengembang Bitcoin menguji apakah patch telah 'disamarkan dengan cukup baik' dengan meminta pengembang berpengalaman memeriksanya tanpa mengetahui kerentanan spesifiknya. Jika para ahli ini tidak dapat mengidentifikasi kerentanan dari patch tersebut, maka patch tersebut dianggap aman untuk digunakan. Pilihan lainnya tidak benar: ada koordinasi melalui pengelola Bitcoin Core, konsensus tidak diperlukan untuk patch, dan kerentanan dirahasiakan selama pengungkapan yang bertanggung jawab.

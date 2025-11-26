@@ -1,0 +1,8 @@
+question: Co slouží jako pseudonymy v systému pseudonymů Bitcoin?
+answer: Adresy odvozené z veřejných klíčů
+wrong_answers:
+  - "Popisná uživatelská jména jako 'watchme1984'"
+  - Soukromé klíče uložené v peněženkách
+  - ID transakcí v blockchainu
+explanation: |
+  Bitcoin používá adresy odvozené z veřejných klíčů jako pseudonymy, nikoli libovolná uživatelská jména nebo jiné identifikátory. Tato konstrukční volba slouží několika důležitým účelům: eliminuje potřebu předem registrovat pseudonymy v blockchainu, snižuje motivaci k opakovanému používání stejného pseudonymu, zabraňuje zbytečnému nafukování blockchainu a výrazně ztěžuje vydávání se za jiné subjekty. Používání popisných uživatelských jmen by vyžadovalo registrační systém a vytvářelo by bezpečnostní zranitelnosti, zatímco soukromé klíče musí zůstat tajné a ID transakcí slouží v systému k jinému účelu.

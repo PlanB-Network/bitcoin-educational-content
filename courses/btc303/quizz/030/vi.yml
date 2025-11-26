@@ -1,0 +1,8 @@
+question: Theo quan điểm của Satoshi Nakamoto, số bitcoin bị mất có ảnh hưởng như thế nào đến số tiền còn lại đang lưu hành?
+answer: Họ làm cho tiền xu của mọi người khác có giá trị hơn một chút như một khoản quyên góp cho mọi người
+wrong_answers:
+  - Chúng làm giảm bảo mật mạng bằng cách giảm tổng giá trị có sẵn cho phần thưởng mining
+  - Chúng tạo ra áp lực giảm phát làm mất ổn định hệ thống tiền tệ theo thời gian
+  - Chúng phải được thay thế thông qua mining bổ sung để duy trì mức cung cấp dự kiến
+explanation: |
+  Satoshi Nakamoto giải thích rằng các đồng tiền bị mất hoạt động như một khoản quyên góp cho tất cả những người nắm giữ Bitcoin khác bằng cách làm cho đồng tiền của họ có giá trị hơn do nguồn cung hiệu quả giảm. Đây là một tác động giảm phát tích cực, chứ không phải là một lực gây bất ổn. Các đồng tiền bị mất không ảnh hưởng đến phần thưởng mining vì chúng đến từ các đồng tiền mới được đúc và phí giao dịch, chứ không phải từ nguồn cung hiện có. Giao thức Bitcoin không thay thế các đồng tiền bị mất - chúng sẽ vĩnh viễn không được lưu hành, điều này thực sự có lợi cho những người nắm giữ còn lại thông qua việc gia tăng tính khan hiếm.

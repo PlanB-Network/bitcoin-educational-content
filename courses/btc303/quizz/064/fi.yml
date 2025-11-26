@@ -1,0 +1,8 @@
+question: Gregory Maxwellin käsittelemän läpimenon ja hajauttamisen välisen kompromissin mukaan mitä tapahtuu, kun Bitcoin-lohkoketjun resurssien käyttö kasvaa liian suureksi suhteessa käytettävissä olevaan teknologiaan?
+answer: Bitcoin menettää kilpailuetuja vanhoihin järjestelmiin verrattuna, koska validoinnista tulee liian kallista, mikä johtaa monien käyttäjien syrjäytymiseen ja pakottaa luottamuksen takaisin järjestelmään
+wrong_answers:
+  - Bitcoin:sta tulee turvallisempi, koska vain kaikkein omistautuneimmat käyttäjät, joilla on tehokas laitteisto, voivat osallistua validointiin, mikä luo vahvemman verkon
+  - Bitcoin säätää automaattisesti vaikeusalgoritmiaan vähentääkseen resurssitarpeita ja säilyttääkseen saman hajautumistason kaikilla osallistujilla
+  - Bitcoin jakautuu useisiin rinnakkaisiin ketjuihin laskentakuorman jakamiseksi, mutta samalla säilytetään samat turvatakuut kaikille käyttäjille
+explanation: |
+  Maxwell havaitsi perustavanlaatuisen kompromissin, jossa liialliset resurssivaatimukset ajavat käyttäjiä käyttämään luotettavia kolmansia osapuolia riippumattoman validoinnin sijasta. Kun validointikustannukset nousevat kohtuuttomiksi, käyttäjillä ei ole varaa käyttää kokonaisia solmuja, vaan heidän on luotettava muihin, mikä heikentää Bitcoin:n luotettavaa luonnetta. Väärissä vastauksissa ehdotetaan virheellisesti hyödyllisiä tuloksia (lisääntynyt turvallisuus, automaattiset säädöt tai säilytetyt takuut), kun suuri resurssien käyttö itse asiassa pakottaa keskittämiseen ja luottamusriippuvuuteen.

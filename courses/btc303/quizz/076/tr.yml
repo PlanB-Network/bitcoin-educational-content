@@ -1,0 +1,8 @@
+question: Sorumlu ifşa uygulamalarına göre, Bitcoin gibi merkezi olmayan sistemlerdeki güvenlik açıklarını keşfeden güvenlik araştırmacılarının karşılaştığı birincil etik ikilem nedir?
+answer: Güvenlik açığından faydalanabilecek potansiyel olarak kötü niyetli aktörlere ifşadan kaçınırken sorumlu tarafları bilgilendirme ihtiyacının dengelenmesi
+wrong_answers:
+  - Hata ödül programları aracılığıyla güvenlik açığı keşfinden kâr elde etmeye veya bilgiyi topluma ücretsiz olarak bağışlamaya karar vermek
+  - Mevzuatla ilgili komplikasyonlardan kaçınmak için önce resmi makamlara raporlama yapmak ile doğrudan yazılım geliştirme ekibine raporlama yapmak arasında seçim yapmak
+  - Bilgilerin geliştiricilere ifşa edilmesini kabul etmeden önce güvenlik açığı keşfi için uygun mali tazminatın belirlenmesi
+explanation: |
+  Sorumlu ifşanın temel etik zorluğu şeffaflık ve güvenlik arasındaki hassas dengedir. Araştırmacılar, kötü niyetli istismar için yanlışlıkla bir yol haritası sağlamadan güvenlik açıklarının ele alınmasını sağlamalıdır. Bu, geliştiricilerle dikkatli bir şekilde koordinasyon kurmayı, açıklamaları uygun bir şekilde zamanlamayı ve daha geniş ekosistem etkisini göz önünde bulundurmayı içerir. Diğer seçenekler, potansiyel olarak ilgili olsalar da sorumlu ifşa uygulamalarında ana hatlarıyla belirtilen birincil etik ikilem olmayan finansal veya düzenleyici kaygılara odaklanmaktadır.

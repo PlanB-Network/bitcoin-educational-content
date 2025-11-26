@@ -1,0 +1,8 @@
+question: Bitcoin ölçeklendirmesi için verilen tanıma göre, hangi yaklaşım meşru ölçeklendirme olarak nitelendirilemez?
+answer: Kullanıcıların çoğu işlem için merkezi ödeme işlemcilerine güvenmesini gerektirerek işlem hacminin artırılması
+wrong_answers:
+  - Daha verimli kodlama şemaları aracılığıyla işlem girdilerinin daha az bayt kullanmasını sağlamak
+  - Bitcoin'in üzerine protokoller inşa eden katmanlı mimari çözümlerinin uygulanması
+  - Blokları daha hızlı işlemek için imza doğrulama performansının iyileştirilmesi
+explanation: |
+  Bölüm, Bitcoin ölçeklendirmesini açıkça "Bitcoin'nin kullanım kapasitesini sansüre karşı direncinden ödün vermeden artırmak" olarak tanımlamaktadır Doğru cevap bu tanımı ihlal etmektedir çünkü kullanıcıların merkezi ödeme işlemcilerine güvenmesini gerektirmek, Bitcoin'nin temel değer önerisi olan sansüre karşı direncini doğrudan tehlikeye atmaktadır. Yanlış cevapların hepsi bölümde bahsedilen meşru ölçeklendirme yaklaşımlarını temsil etmektedir: verimli kodlama kaynak kullanımını azaltır, katmanlı çözümler temel katmanın özelliklerini korurken ek kapasite sağlar ve gelişmiş imza doğrulama merkezileştirme ödünleri olmadan performansı artırır.

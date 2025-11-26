@@ -1,0 +1,9 @@
+question: Каква е онлайн наличността на Bitcoin от 2009 г. насам?
+answer: 99.988%.
+wrong_answers:
+  - 100%.
+  - 90.009%.
+  - 80.17%.
+explanation: |
+  От 2009 г. насам онлайн наличността на Bitcoin е 99,988%.
+reviewed: true

@@ -2012,19 +2012,21 @@ Mtumiaji anapopokea bitcoins, mtumaji huunda Toleo (version) la UTXO na kuifunga
 
 Ni katika *scriptPubKey* ambapo anwani za kupokea zinapatikana. Walakini, matumizi yao hutofautiana kulingana na kiwango cha maandishi kilichopitishwa. Hapa kuna jedwali la muhtasari wa maelezo yaliyo katika *scriptPubKey* kulingana na kiwango Kina (depth)chotumiwa, pamoja na maelezo yanayotarajiwa katika *scriptSig* ili kufungua *scriptPubKey*.
 
-| Standard (Kawaida) | *scriptPubKey*                                              | *scriptSig*                     | *Hati ya Redeem (redeem script)*     | *shahidi (witness)*                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <Hati ya Redeem (redeem script) >` | Arbitrary data     |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<Hati ya Redeem (redeem script) >`               | `0 <pubKeyHash>`    | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<Hati ya Redeem (redeem script) >`               | `0 <scriptHash>`    | `<data pushes> <witness script>`         |
-| P2TR (key path)    | `1 <public key>`                                            |                                 |                     | `<signature>`                            |
-| P2TR (script path) | `1 <public key>`                                            |                                 |                     | `<data pushes> <script> <control block>` |
 
-*Chanzo: Klabu ya ukaguzi ya Bitcoin Core PR, Julai 7, 2021 - Gloria Zhao*
+
+| Kiwango             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| ---------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Data holela | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_Chanzo: Klabu ya Bitcoin Core PR review ya tarehe 7 Julai 2021 – Gloria Zhao_
 
 Opcodes zinazotumiwa katika hati zimeundwa ili kudhibiti habari, na, ikiwa ni lazima, kulinganisha au kuipima. Wacha tuchukue mfano wa hati ya P2PKH, ambayo ni kama ifuatavyo.
 

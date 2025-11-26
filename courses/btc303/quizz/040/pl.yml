@@ -1,0 +1,8 @@
+question: Zgodnie z omówieniem kompatybilności Bitcoin w rozdziale, jaki rodzaj kompatybilności zapewnia miękki fork?
+answer: Kompatybilność zarówno w przód, jak i wstecz, dzięki czemu jest w pełni kompatybilny
+wrong_answers:
+  - Tylko kompatybilność wsteczna, pozwalająca nowemu oprogramowaniu przetwarzać stare dane
+  - Tylko kompatybilność w przód, pozwalająca staremu oprogramowaniu na przetwarzanie nowych danych
+  - Brak kompatybilności do przodu i wstecz, wymagający kompletnych aktualizacji systemu
+explanation: |
+  Rozdział ten wyraźnie stwierdza, że "zmiana zasad konsensusu Bitcoin jest uważana za miękki fork, jeśli jest w pełni kompatybilna" Definiuje ona pełną kompatybilność jako kompatybilność zarówno do przodu, jak i wstecz. Kompatybilność do przodu oznacza, że stare oprogramowanie może przetwarzać dane z nowszych wersji, ignorując części, których nie rozumie, podczas gdy kompatybilność wsteczna oznacza, że nowe oprogramowanie może przetwarzać stare dane. Ta podwójna kompatybilność sprawia, że soft forki są preferowanym mechanizmem aktualizacji dla Bitcoin, ponieważ nie psują istniejących systemów, jednocześnie umożliwiając nowe funkcje.

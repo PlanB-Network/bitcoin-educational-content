@@ -1,0 +1,9 @@
+question: Кой публикува Бялата книга за Bitcoin?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Дейвид Чаум
+  - Тим Мей
+  - Ерик Хюз
+explanation: |
+  Бялата книга е публикувана в края на 2008 г. от Satoshi Nakamoto (псевдоним).
+reviewed: false

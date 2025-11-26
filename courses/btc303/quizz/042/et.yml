@@ -1,0 +1,8 @@
+question: Mis oli peamine põhjus, miks Shaolinfry pakkus Segwiti uuendamise käigus välja kasutaja aktiveeritud Soft Fork (UASF) mehhanismi?
+answer: Kaevandajad ei andnud märku Segwiti toetusest hoolimata kasutajate ülekaalukast toetusest, tekitades patiseisu
+wrong_answers:
+  - Olemasolev pehme fork mehhanism oli liiga aeglane ja vajas kiiremat aktiveerimistähtaega
+  - Hard kahvlit peeti liiga riskantseks ja ohutuse tagamiseks oli vaja uut pehmet fork meetodit
+  - Bitcoin Core arendajad taotlesid alternatiivi, et vähendada nende vastutust uuenduste eest
+explanation: |
+  Peatüki sõnul oli 2016. aasta oktoobris, kui Segwiti aktiveerimiskood avaldati, Bitcoin kasutajate seas ülekaalukas toetus, kuid kaevurid ei andnud märku uuenduse toetusest, mis peatas aktiveerimise ilma lahenduse nägemata. See tekitas vajaduse alternatiivse mehhanismi järele, mis ei sõltuks kaevurite signalisatsioonist, mis viis Shaolinfry ettepanekuni UASF-i kui lahenduse kohta, mis kasutaks hash-võimsuse aktiveerimise asemel majanduslikku enamuse jõustamist.

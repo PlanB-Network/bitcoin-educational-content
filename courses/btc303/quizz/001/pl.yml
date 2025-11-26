@@ -1,0 +1,8 @@
+question: Jaki jest główny cel decentralizacji w Bitcoin?
+answer: Aby osiągnąć odporność na cenzurę
+wrong_answers:
+  - Aby zwiększyć szybkość przetwarzania transakcji
+  - Zmniejszenie kosztów zużycia energii
+  - Aby uprościć interfejs użytkownika
+explanation: |
+  Decentralizacja w Bitcoin służy przede wszystkim osiągnięciu odporności na cenzurę, co oznacza, że żaden pojedynczy podmiot nie może kontrolować, blokować ani manipulować transakcjami. Jest to wyraźnie stwierdzone w tekście: "Decentralizacja jest środkiem do osiągnięcia odporności na cenzurę" Pozostałe opcje są nieprawidłowe, ponieważ decentralizacja w rzeczywistości sprawia, że Bitcoin jest wolniejszy i bardziej energochłonny niż systemy scentralizowane, a także sprawia, że system jest bardziej złożony, a nie prostszy. Odporność na cenzurę jest tym, co odróżnia Bitcoin od tradycyjnych systemów pieniężnych i uniemożliwia rządom lub innym władzom zamknięcie go lub kontrolowanie, kto może z niego korzystać.

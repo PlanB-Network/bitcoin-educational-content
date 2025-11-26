@@ -1,0 +1,8 @@
+question: Wenn sich Miner mit mining-Pools mit größerer Bandbreite und Konnektivität verbinden, um veraltete Blöcke in Zeiten erhöhter Blockgrößen zu vermeiden, was ist die primäre negative Folge für das Bitcoin-Netzwerk?
+answer: Es reduziert die mining Dezentralisierung, da kleinere Miner zu größeren Pools mit besserer Infrastruktur gedrängt werden
+wrong_answers:
+  - Es erhöht die Rechenschwierigkeit von mining-Operationen, so dass die Blöcke schwerer zu lösen sind
+  - Es entstehen zusätzliche Transaktionsgebühren, die zur Aufrechterhaltung der Netzanbindung gezahlt werden müssen
+  - Es reduziert die Gesamt-Hash-Rate des Netzwerks, da die Schürfer Ressourcen für die Konnektivität statt für mining aufwenden
+explanation: |
+  In diesem Kapitel wird erläutert, dass sich mit zunehmender Blockgröße auch die Übertragungszeiten verlängern, was zu mehr veralteten Blöcken führt. Um zu vermeiden, dass Blockbelohnungen durch veraltete Blöcke verloren gehen, suchen Miner nach Pools mit besserer Bandbreite und Konnektivität. Dies treibt die Schürfer zu größeren, gut vernetzten Pools, was die mining-Dezentralisierung verringert. Die anderen Optionen sind falsch: Die Schwierigkeit passt sich automatisch an, unabhängig von der Pool-Konnektivität, die Konnektivitätskosten verursachen keine zusätzlichen Transaktionsgebühren, und die Schürfer reduzieren die Hash-Rate nicht, wenn sie sich besser angebundenen Pools anschließen.

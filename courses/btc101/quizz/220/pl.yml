@@ -1,4 +1,4 @@
-question: Co mogłoby się stać z tradycyjnymi usługami przelewów pieniężnych, takimi jak Western Union, banki centralne, Visa i Mastercard, gdyby nie przyjęły Lightning Network?
+question: Co może się stać z tradycyjnymi usługami przelewów pieniężnych, takimi jak Western Union, banki centralne, Visa i Mastercard, jeśli nie przyjmą technologii Lightning?
 answer: Mogą zniknąć.
 wrong_answers:
   - Mogą stać się bardziej popularne.
@@ -7,5 +7,5 @@ wrong_answers:
 explanation: |
   Tradycyjne usługi przekazów pieniężnych, takie jak Western Union,
   banki centralne, Visa i Mastercard mogą zniknąć, jeśli
-  nie przyjmą technologii Lightning Network.
+  nie przyjmą technologii Lightning.
 reviewed: true

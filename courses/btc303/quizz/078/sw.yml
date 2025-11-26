@@ -1,0 +1,8 @@
+question: Kulingana na mfumo wa ufichuzi unaowajibika uliojadiliwa, ni sababu gani kuu ya wasanidi programu kuepuka kuweka mara moja udhaifu usio muhimu katika Bitcoin Core?
+answer: Ili kuzuia kiraka chenyewe kufichua asili ya uwezekano wa kuathiriwa kabla ya kuenea kwa matumizi kutokea
+wrong_answers:
+  - Ili kuruhusu muda wa kutosha kwa watengenezaji wa altcoin kutekeleza marekebisho yao ya kujitegemea kwanza
+  - Ili kuwezesha majaribio ya kina kwenye mabwawa tofauti ya mining kabla ya kutoa masasisho yoyote ya usalama
+  - Ili kudumisha utangamano wa kurudi nyuma na matoleo ya zamani ya nodi ambayo hayawezi kushughulikia alama za dharura
+explanation: |
+  Jibu sahihi linaangazia kitendawili muhimu katika kuweka alama kwa usalama: marekebisho yenyewe yanaweza kufichua uwezekano wa kuathiriwa. Sura hii inasisitiza kwamba wasanidi lazima wafiche viraka kwa uangalifu kwa sababu kuzichapisha mara moja kunaweza kufichua uwezekano wa kuathiriwa na wavamizi kabla nodi nyingi kulindwa. Majibu yasiyo sahihi, ingawa yanawezekana, yanawakilisha vibaya vipaumbele: arifa ya altcoin hutokea baada ya kusambaza mtandao wa Bitcoin, upimaji wa mining sio jambo la msingi kwa masuala yasiyo muhimu, na uoanifu wa kurudi nyuma hauonyeshi muda wa viraka vya usalama.

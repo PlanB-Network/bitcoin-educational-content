@@ -1,0 +1,8 @@
+question: Minkä perusperiaatteen ansiosta kehittäjät voivat luoda Lightning Network:n, CoinJoin:n ja OpenTimestampsin kaltaisia järjestelmiä Bitcoin:n päälle pyytämättä hyväksyntää?
+answer: Luvaton kehitys mahdollistaa sen, että kuka tahansa voi rakentaa protokollia ja sovelluksia Bitcoin:lle ilman keskusviranomaisen lupaa
+wrong_answers:
+  - Avoimen lähdekoodin lisensointi edellyttää, että kaikki johdannaisteokset hyväksytään automaattisesti ja integroidaan Bitcoin Core -päätietovarastoon
+  - MIT-lisenssi määrää, että kaikkien Bitcoin-pohjaisten projektien on saatava nimenomainen lupa Bitcoin Core -kehitystiimiltä ennen käyttöönottoa
+  - Konsensussäännöt validoivat ja hyväksyvät automaattisesti minkä tahansa uuden Bitcoin:n päälle rakennetun protokollan lohkoketjun verifiointiprosessin kautta
+explanation: |
+  Luvaton kehitys on oikea vastaus, koska se on perusperiaate, jonka ansiosta kuka tahansa voi rakentaa Bitcoin:n päälle kysymättä lupaa. Väärät vastaukset ovat vääriä, koska: avoimen lähdekoodin lisensointi ei edellytä automaattista hyväksyntää tai integrointia Bitcoin Coreen; MIT-lisenssi itse asiassa antaa laajat luvat vaatimatta kehittäjien hyväksyntää; ja konsensussäännöt validoivat transaktioita ja lohkoja, eivät Bitcoin:n päälle rakennettuja korkeamman tason protokollia.

@@ -1701,7 +1701,7 @@ Die Vorteile sind zweifach:
 - **Offizielle Anerkennung**: Du kannst ein Verbandskonto eröffnen, Presse- und Medienaufmerksamkeit erhalten und sogar Zuschüsse beantragen.
 - **Strukturierte Organisation**: Du kannst klare Rollen definieren, was die Verwaltung deiner Gemeinschaft und die Durchführung von Projekten erleichtert.
 
-Damit deine Gemeinschaft weiter wachsen kann, wird vielleicht in den kommenden Monaten **ein Folgekurs zum Kurs COMMU302** auf [planb.network](https://planb.academy/) veröffentlicht werden.
+Mit dem Ziel, Ihre Gemeinschaft noch weiter erblühen zu lassen, **ist nicht auszuschließen, dass in den kommenden Monaten eine Fortsetzung dieser Schulung auf [Plan ₿ Academy](https://planb.academy/) erscheint**.
 
 Dieser nächste Kurs könnte sich mit fortgeschrittenen Themen befassen, wie z. B.:
 

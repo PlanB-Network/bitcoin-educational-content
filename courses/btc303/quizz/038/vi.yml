@@ -1,0 +1,8 @@
+question: Theo chương này, điều gì phân biệt fork mềm với fork cứng trong các thay đổi quy tắc đồng thuận Bitcoin?
+answer: fork mềm hoàn toàn tương thích (tương thích cả về phía trước và phía sau) trong khi fork cứng chỉ tương thích ngược
+wrong_answers:
+  - fork mềm yêu cầu kích hoạt tín hiệu thợ đào trong khi fork cứng sử dụng kích hoạt ngày cờ
+  - fork mềm thay đổi các mã lệnh hiện có trong khi fork cứng chỉ thêm các mã lệnh mới như OP_NOP1-OP_NOP10
+  - Một fork mềm có thể được triển khai bí mật trong các cam kết trong khi một fork cứng yêu cầu thông báo công khai
+explanation: |
+  Chương này định nghĩa rõ ràng các loại tương thích: tương thích xuôi cho phép phần mềm cũ xử lý dữ liệu mới bằng cách bỏ qua các phần chưa biết, trong khi tương thích ngược cho phép phần mềm mới xử lý dữ liệu cũ. fork mềm duy trì cả hai loại tương thích, khiến nó hoàn toàn tương thích. fork cứng chỉ duy trì tương thích ngược, nghĩa là phần mềm mới có thể xử lý dữ liệu cũ nhưng phần mềm cũ không thể xử lý dữ liệu mới từ hệ thống được nâng cấp. Sự khác biệt này rất quan trọng để hiểu cơ chế nâng cấp Bitcoin và lý do tại sao phân nhánh mềm được ưu tiên để duy trì sự hài hòa của mạng.

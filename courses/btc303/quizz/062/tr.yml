@@ -1,0 +1,8 @@
+question: Açık kaynak tanımına göre, orijinal yazılıma kıyasla türetilmiş çalışmalar ve bunların lisanslama koşulları arasındaki gerekli ilişki nedir?
+answer: Türetilmiş çalışmaların orijinal yazılımın lisansıyla aynı koşullar altında dağıtılmasına izin verilmelidir
+wrong_answers:
+  - Türetilmiş çalışmalar, orijinal yazılıma göre daha kısıtlayıcı lisans koşulları altında dağıtılmalıdır
+  - Türetilmiş eserler, orijinaliyle uyumlu olmayan tamamen farklı bir lisans altında yayınlanmalıdır
+  - Türetilmiş eserler yalnızca telif ücreti ödenmesini gerektiren tescilli lisanslar kapsamında dağıtılabilir
+explanation: |
+  Açık kaynak tanımı açıkça "lisansın değişikliklere ve türetilmiş çalışmalara izin vermesi ve bunların orijinal yazılımın lisansıyla aynı şartlar altında dağıtılmasına izin vermesi gerektiğini" belirtmektedir Bu, türev çalışmaların orijinali ile aynı özgürlükleri korumasını sağlar ve birisinin açık kaynak kodunu alıp onu özel mülk haline getirmesini engeller. Diğer seçenekler ya özgürlüğü kısıtlayarak ya da lisans uyumluluğunu değiştirerek bu temel ilkeyi ihlal etmektedir.

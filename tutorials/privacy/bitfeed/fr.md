@@ -49,7 +49,7 @@ La première transaction de ce bloc représente la transaction **coinbase** qui 
 
 ![coinbase](assets/fr/06.webp)
 
-https://planb.academy/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 Par défaut les transactions d'un bloc sont représentées selon deux critères :
 - La taille qui peut varier entre la valeur et le poids (vBytes) ;

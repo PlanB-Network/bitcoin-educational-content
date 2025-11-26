@@ -1,0 +1,8 @@
+question: Was ist der Hauptgrund dafür, dass alle bekannten Schwachstellen in Bitcoin behoben werden müssen, anstatt ein gewisses Risiko in Kauf zu nehmen, wenn man den Ansatz des kontradiktorischen Denkens verfolgt?
+answer: Bitcoin operiert in einer pseudonymen Online-Umgebung, in der Angreifer Schwachstellen ausnutzen können, ohne erwischt oder zur Rechenschaft gezogen zu werden
+wrong_answers:
+  - Das formale Sicherheitsmodell von Bitcoin erfordert einen mathematischen Nachweis, dass alle potenziellen Angriffsvektoren eliminiert wurden
+  - Die verteilte Natur von Bitcoin bedeutet, dass selbst kleine Schwachstellen zu systemweiten Ausfällen in allen Knotenpunkten führen können
+  - Das feste Angebot von Bitcoin macht es im Gegensatz zu traditionellen Finanzsystemen wirtschaftlich unmöglich, Verluste aus erfolgreichen Angriffen zu absorbieren
+explanation: |
+  Die richtige Antwort spiegelt Andrew Poelstras wichtigste Erkenntnis über Online-Systeme im Vergleich zu physischen Systemen wider. Im Gegensatz zu Gebäuden, bei denen wir ein gewisses Risiko in Kauf nehmen und uns auf die Strafverfolgung verlassen, arbeitet Bitcoin in einer pseudonymen Umgebung, in der Angreifer ohne Sichtbarkeit oder Konsequenzen agieren können. Dieser fundamentale Unterschied bedeutet, dass jede bekannte Schwachstelle unweigerlich ausgenutzt wird, was ein umfassendes Risikomanagement nicht optional, sondern unabdingbar macht.

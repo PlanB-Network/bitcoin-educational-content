@@ -1,0 +1,8 @@
+question: Bitcoin'dan önce ilk dijital para birimi girişimlerinin başarısız olmasına neden olan ana güvenlik açığı nedir?
+answer: Sansürlenebilen veya kapatılabilen merkezi sunuculara dayanıyorlardı
+wrong_answers:
+  - İşlem güvenliği için yetersiz kriptografik algoritmalar kullandılar
+  - İşlemleri verimli bir şekilde gerçekleştirmek için yeterli bilgi işlem gücünden yoksundular
+  - Uygun kullanıcı kimlik doğrulama mekanizmalarını uygulamada başarısız oldular
+explanation: |
+  İlk dijital para birimleri başarısız oldu çünkü işlem işleme ve doğrulama için merkezi sunuculara bağlıydılar. Bölümde açıklandığı üzere, bu merkezileşme onların "Aşil'in topuğu" haline geldi çünkü hükümetler veya diğer düşmanlar bu merkezi arıza noktalarını kolayca sansürleyebilir, kontrol edebilir veya kapatabilirdi. Bir federasyonda birden fazla sunucu kullanma girişimleri bile sistemi hala savunmasız bırakıyordu çünkü her sunucu "teker teker arızalanabilir ya da arızalanmaya zorlanabilirdi" Bitcoin bunu, merkezi olmayan proof-of-work sistemi aracılığıyla herhangi bir merkezi otoriteye olan ihtiyacı ortadan kaldırarak çözdü.

@@ -1,0 +1,8 @@
+question: Mengapa secara praktis tidak mungkin untuk membuktikan keamanan Bitcoin secara formal meskipun dalam praktiknya bekerja secara efektif?
+answer: Kompleksitas sistem dan sifat samar-samarnya membuat bukti keamanan formal menjadi tidak layak, tidak seperti protokol yang lebih sederhana dengan asumsi yang jelas
+wrong_answers:
+  - Pengembang Bitcoin dengan sengaja menghindari bukti formal untuk menjaga fleksibilitas dan memungkinkan modifikasi protokol di masa depan
+  - Masalah logaritma diskrit dan asumsi kriptografi terlalu rumit untuk teknik pembuktian matematika saat ini
+  - Bukti keamanan formal akan mengungkapkan kerentanan kepada pihak lawan, sehingga tetap dirahasiakan oleh pengembang inti
+explanation: |
+  Seperti yang dijelaskan oleh Jameson Lopp, Bitcoin dibangun tanpa spesifikasi atau model keamanan yang didefinisikan secara formal karena kompleksitasnya yang melekat dan sifatnya yang samar-samar. Tidak seperti sistem yang lebih sederhana seperti protokol penandatanganan yang memiliki asumsi keamanan yang jelas, Bitcoin melibatkan beberapa komponen yang saling berinteraksi termasuk kriptografi, ekonomi, teori permainan, dan perilaku manusia. Kompleksitas ini membuat tidak mungkin untuk membuat bukti matematis formal dari keamanan, meskipun sistem ini menunjukkan keamanan praktis melalui operasi dunia nyata.

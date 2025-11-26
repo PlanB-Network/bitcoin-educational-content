@@ -1,0 +1,8 @@
+question: Enligt kapitlet, vad skiljer en mjuk fork från en hård fork i Bitcoin konsensusregeländringar?
+answer: En mjuk fork är fullt kompatibel (både framåt- och bakåtkompatibel) medan en hård fork endast är bakåtkompatibel
+wrong_answers:
+  - En mjuk fork kräver aktivering av gruvsignalering medan en hård fork använder aktivering av flaggdag
+  - En mjuk fork ändrar befintliga op-koder medan en hård fork endast lägger till nya op-koder som OP_NOP1-OP_NOP10
+  - En mjuk fork kan implementeras i hemlighet i commits medan en hård fork kräver offentligt tillkännagivande
+explanation: |
+  Kapitlet definierar tydligt kompatibilitetstyper: framåtkompatibilitet gör det möjligt för gammal programvara att bearbeta nya data genom att ignorera okända delar, medan bakåtkompatibilitet gör det möjligt för ny programvara att bearbeta gamla data. En mjuk fork upprätthåller båda typerna av kompatibilitet, vilket gör den fullt kompatibel. En hård fork upprätthåller endast bakåtkompatibilitet, vilket innebär att ny programvara kan bearbeta gamla data men att gammal programvara inte kan bearbeta nya data från det uppgraderade systemet. Denna distinktion är avgörande för att förstå Bitcoin:s uppgraderingsmekanismer och varför mjuka gafflar är att föredra för att upprätthålla harmoni i nätverket.

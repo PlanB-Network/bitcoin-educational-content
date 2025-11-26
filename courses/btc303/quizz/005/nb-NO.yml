@@ -1,0 +1,8 @@
+question: Hva refererer desentralisering av gruvearbeidere spesifikt til i Bitcoin?
+answer: Transaksjonene bestilles kollektivt av et dynamisk sett med utvinnere i stedet for av én enkelt enhet
+wrong_answers:
+  - Valideringen av blokker er fordelt på flere betrodde autoriteter i stedet for én sentral server
+  - mining belønningene fordeles likt mellom alle deltakerne i Bitcoin-nettverket
+  - mining-maskinvaren produseres av forskjellige selskaper for å forhindre monopolisering av utstyr
+explanation: |
+  Miner-desentralisering betyr spesifikt at transaksjonsbestilling ikke kontrolleres av en enkelt enhet eller fast gruppe, men snarere av et kollektiv av utvinnere som fritt kan slutte seg til eller slutte. Dette er forskjellig fra blokkvalidering (som er relatert til full node-desentralisering), belønningsdistribusjon eller maskinvareproduksjon. mining-kollektivets dynamiske natur - der hvem som helst kan delta uten tillatelse - er det som gjør Bitcoin sensurresistent og forhindrer at en enkelt part kontrollerer hvilke transaksjoner som blir inkludert i blokker.

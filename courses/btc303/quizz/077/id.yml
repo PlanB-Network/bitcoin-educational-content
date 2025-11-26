@@ -1,0 +1,8 @@
+question: Apa perbedaan utama antara 'pengungkapan' dan 'publikasi' dalam konteks penanganan kerentanan keamanan Bitcoin?
+answer: Pengungkapan adalah memberi tahu vendor secara pribadi, sementara publikasi membuat kerentanan diketahui oleh penyerang potensial secara publik
+wrong_answers:
+  - Pengungkapan adalah untuk kerentanan kritis, sedangkan publikasi untuk kerentanan non-kritis yang lebih sulit dieksploitasi
+  - Pengungkapan melibatkan pemberitahuan kepada pengembang Bitcoin Core, sementara publikasi melibatkan pemberitahuan kepada altcoin dan tim implementasi lainnya
+  - Pengungkapan membutuhkan tindakan dan perbaikan segera, sementara publikasi memungkinkan perbaikan secara bertahap melalui alur pengembangan normal
+explanation: |
+  Gregory Maxwell menekankan perbedaan penting ini dalam diskusi milis. Pengungkapan mengacu pada tindakan yang bertanggung jawab untuk memberi tahu pengelola perangkat lunak (vendor) secara pribadi tentang kerentanan sehingga mereka dapat mengerjakan perbaikan. Publikasi, bagaimanapun, berarti membuat informasi kerentanan tersedia untuk umum, yang secara efektif menginformasikan penyerang potensial tentang eksploitasi. Perbedaan ini sangat penting karena meskipun pengungkapan membantu melindungi sistem, publikasi prematur dapat menyebabkan kerusakan dengan memungkinkan aktor jahat untuk mengeksploitasi kerentanan sebelum pertahanan yang memadai tersedia.

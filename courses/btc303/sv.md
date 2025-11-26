@@ -112,7 +112,7 @@ Det finns två huvudsakliga aspekter av decentralisering i Bitcoin: Decentralise
 Miner Decentralisering avser det faktum att transaktionsbehandling inte utförs eller samordnas av någon central enhet. Full node Decentralisering avser det faktum att validering av blocken, dvs. de data som miners producerar, görs i utkanten av nätverket, i slutändan av dess användare, och inte av ett fåtal betrodda myndigheter.
 
 
-![](assets/en/001.webp)
+![](assets/sv/001.webp)
 
 
 ### Miner decentralisering
@@ -276,9 +276,8 @@ Bitcoin:s sätt att fungera genom decentralisering liknar den extraordinära kol
 Hon påpekar att många system, både naturliga och artificiella, kan fungera utan ledare och att de är kraftfulla och motståndskraftiga. Varje individ interagerar bara med sin omedelbara omgivning, men tillsammans bildar de något enormt.
 
 
-![](assets/en/002.webp)
+![](assets/sv/002.webp)
 
-*Fiskstim har inga ledare*
 
 
 Oavsett vad du tycker om Bitcoin gör dess decentraliserade natur det svårt att kontrollera. Bitcoin existerar, och det finns inget du kan göra åt det. Det är något som ska studeras, inte debatteras.
@@ -302,7 +301,7 @@ Decentraliserade system kan vara svåra att förstå sig på, men det finns viss
 
 
 
-![](assets/en/003.webp)
+![](assets/sv/003.webp)
 
 
 I det här kapitlet analyseras begreppet "trustlessness", vad det innebär ur ett datavetenskapligt perspektiv och varför Bitcoin måste vara Trustless för att behålla sitt värdeerbjudande.
@@ -372,7 +371,7 @@ Kärnan i det samtalet är att man inte kan bygga Trustless-system ovanpå ett b
 
 
 
-![width=50%](assets/trust.webp)
+
 
 
 En Trustless-bas Layer möjliggör olika avvägningar på högre nivåer
@@ -453,7 +452,7 @@ Utan tillitslöshet kan vi inte ha decentralisering, eftersom tillit oundviklige
 
 
 
-![](assets/en/004.webp)
+![](assets/sv/004.webp)
 
 
 Detta kapitel handlar om hur du håller din privata ekonomiska information för dig själv. Det förklarar vad integritet står för i samband med Bitcoin, varför det är viktigt och vad det innebär att säga att Bitcoin är pseudonymt. Det tar också upp hur privata uppgifter kan läcka, både On-Chain och off-chain.
@@ -533,10 +532,9 @@ Satoshi Nakamoto funderar över On-Chain integritet i avsnitt 7 i sin [Bitcoin w
 I rapporten sammanfattas de huvudsakliga problemen med Blockchain-sekretess, nämligen Address-återanvändning och Address-klustring. Det första är självförklarande, det senare avser möjligheten att med viss säkerhet avgöra att en uppsättning olika adresser tillhör samma användare.
 
 
-![](assets/en/005.webp)
+![](assets/sv/005.webp)
 
 
-Typiska sekretessläckor på Blockchain
 
 
 Chris Belcher [skrev mycket detaljerat](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) om de olika typerna av integritetsläckor som kan hända på Bitcoin Blockchain. Vi rekommenderar att du läser åtminstone de första underavsnitten under "Blockchain attacker på integritet."
@@ -632,7 +630,7 @@ Han nämnde också detta exempel, bland andra, på [Privacy page](https://en.Bit
 Observera hur bättre integritet kan uppnås genom att bygga system ovanpå Bitcoin, vilket är fallet med Lightning Network:
 
 
-![image](assets/privacy.webp)
+
 
 
 Skikt ovanpå Bitcoin kan öka integriteten
@@ -673,7 +671,7 @@ För att få anständig integritet i Bitcoin måste du vidta aktiva åtgärder, 
 
 
 
-![](assets/en/006.webp)
+![](assets/sv/006.webp)
 
 
 Detta kapitel tittar på Bitcoin Supply-gränsen på 21 miljoner BTC, eller hur mycket är det egentligen? Vi pratar om hur denna gräns upprätthålls och vad man kan göra för att verifiera att den respekteras. Dessutom tar vi en titt in i kristallkulan och diskuterar den dynamik som kommer att spela in när Block reward skiftar från subventionsbaserad till avgiftsbaserad.
@@ -731,7 +729,7 @@ Vad händer när blockbidraget närmar sig noll? För enkelhetens skull antar vi
 Idag är det innehavarna som betalar för säkerheten (via den monetära inflationen). I morgon är det spenderarnas tur att på något sätt axla denna börda, vilket illustreras nedan.
 
 
-![image](assets/finitesupply.webp)
+
 
 
 Med tiden kommer bärandet av säkerhetskostnaderna att flyttas från innehavarna till utgivarna
@@ -785,7 +783,7 @@ Huruvida Bitcoin Supply kommer att växa förbi 21 miljoner kan vi inte säga id
 
 
 
-![](assets/en/007.webp)
+![](assets/sv/007.webp)
 
 
 Att uppgradera Bitcoin på ett säkert sätt kan vara extremt svårt. Vissa förändringar tar flera år att genomföra. I det här kapitlet lär vi oss om den vanliga vokabulären kring uppgradering av Bitcoin och utforskar några exempel på historiska uppgraderingar av dess protokoll samt de insikter som vi fick från dem. Slutligen talar vi om kedjesplittringar och de risker och kostnader som är förknippade med dem.
@@ -1025,7 +1023,7 @@ För att hålla Bitcoin i harmoni har Soft-forks visat sig vara vägen framåt, 
 <chapterId>d4982f3d-4694-51cc-99be-28f54b03a2a2</chapterId>
 
 
-![](assets/en/008.webp)
+![](assets/sv/008.webp)
 
 
 Det här kapitlet handlar om *adversarial thinking*, ett tankesätt som fokuserar på vad som kan gå fel och hur motståndare kan agera. Vi börjar med att diskutera Bitcoin:s säkerhetsantaganden och säkerhetsmodell, varefter vi förklarar hur vanliga användare kan förbättra sin självsuveränitet och Bitcoin:s Full node decentralisering genom att tänka kontradiktoriskt. Sedan tittar vi på några faktiska hot mot Bitcoin samt på hur en motståndare tänker. Slutligen pratar vi om *motståndets axiom* som kan hjälpa dig att förstå varför människor arbetar med Bitcoin i första hand.
@@ -1099,10 +1097,9 @@ Ovanstående är exempel på verkliga hot som måste tas om hand.
 ### Enkelt sabotagefält
 
 
-![](assets/en/009.webp)
+![](assets/sv/009.webp)
 
 
-Utdrag ur fältmanualen för enkelt sabotage
 
 
 För att bättre förstå hur motståndaren tänker kan det vara bra att få en inblick i hur de arbetar. Ett amerikanskt statligt organ vid namn Office of Strategic Services, som verkade under andra världskriget och bland annat hade till uppgift att bedriva spionage, utföra sabotage och sprida propaganda, tog fram en [manual](https://www.gutenberg.org/ebooks/26184) för sin personal om hur man på rätt sätt saboterar fienden. Titeln var "Simple Sabotage Field Manual" och innehöll konkreta tips om hur man infiltrerar fienden för att göra deras liv Hard. Tipsen sträcker sig från att bränna ner lager till att orsaka slitage på övningar för att minska fiendens
@@ -1150,7 +1147,7 @@ För att hålla Bitcoin säkert måste du känna till dess fiender och deras inc
 
 
 
-![](assets/en/010.webp)
+![](assets/sv/010.webp)
 
 
 Bitcoin är byggd med hjälp av programvara med öppen källkod. I det här kapitlet analyserar vi vad detta innebär, hur underhåll av programvaran fungerar och hur programvara med öppen källkod i Bitcoin möjliggör utveckling utan tillstånd. Vi doppar tårna i *valkryptografi*, som handlar om val och användning av bibliotek i kryptografiska system. Kapitlet innehåller ett avsnitt om Bitcoin:s granskningsprocess, följt av ett annat om hur Bitcoin-utvecklare får finansiering. Det sista avsnittet handlar om hur Bitcoin:s öppen källkodskultur kan se riktigt konstig ut från utsidan, och varför denna upplevda konstighet egentligen är ett tecken på god hälsa.
@@ -1438,7 +1435,7 @@ Utvecklingsprocessen kring Bitcoin är radikalt öppen, vilket kan få Bitcoin a
 
 
 
-![](assets/en/011.webp)
+![](assets/sv/011.webp)
 
 
 
@@ -1585,7 +1582,7 @@ Ett tillvägagångssätt som får alldeles för lite uppskattning är vad vi kan
 De förbättringar som har uppnåtts genom inåtskalning är minst sagt imponerande. För att ge dig en allmän uppfattning om förbättringarna genom åren har Jameson Lopp [kört benchmarktester](https://blog.lopp.net/Bitcoin-core-performance-evolution/) på Blockchain-synkronisering och jämfört många olika versioner av Bitcoin Core tillbaka till version 0.8.
 
 
-![](assets/en/012.webp)
+![](assets/sv/012.webp)
 
 
 Initial blocknedladdningsprestanda för olika versioner av Bitcoin Core. På Y-axeln visas blockhöjden som synkroniserats och på X-axeln visas den tid det tog att synkronisera till den höjden
@@ -1600,7 +1597,7 @@ Förbättringarna kan kategoriseras som antingen utrymmesbesparing (RAM, disk, b
 Ett bra exempel på beräkningsmässiga förbättringar finns i biblioteket [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), som bland annat implementerar de kryptografiska primitiver som behövs för att skapa och verifiera digitala signaturer. Pieter Wuille är en av bidragsgivarna till detta bibliotek, och han skrev en [Twitter-tråd](https://twitter.com/pwuille/status/1450471673321381896) som visar de prestandaförbättringar som uppnåtts genom olika pull requests.
 
 
-![](assets/en/013.webp)
+![](assets/sv/013.webp)
 
 
 Prestanda för signaturverifiering över tid, med betydande pull requests markerade på tidslinjen
@@ -1614,7 +1611,7 @@ Det finns också flera goda exempel på utrymmesbesparande förbättringar som b
 [Medium blog post](https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3) om Taproot:s bidrag till att spara utrymme jämför användaren Murch hur mycket blockutrymme en 2-av-3 tröskelsignatur skulle kräva, med Taproot på olika sätt samt utan att använda den alls.
 
 
-![](assets/en/014.webp)
+![](assets/sv/014.webp)
 
 
 Utrymmesbesparingar för olika typer av utgifter, Taproot och äldre versioner.
@@ -1629,7 +1626,7 @@ Bortsett från inåtskalning i Bitcoin-programvaran finns det några sätt på v
 Tanken med transaktionsbatchning är att kombinera flera betalningar till en enda transaktion, istället för att göra en transaktion per betalning. Detta kan spara dig en hel del avgifter och samtidigt minska belastningen på blockutrymmet.
 
 
-![](assets/en/015.webp)
+![](assets/sv/015.webp)
 
 
 Transaktionsbatchning kombinerar flera betalningar i en enda transaktion för att spara avgifter.
@@ -1638,7 +1635,7 @@ Transaktionsbatchning kombinerar flera betalningar i en enda transaktion för at
 Med konsolidering av utdata avses att man utnyttjar perioder med låg efterfrågan på blockutrymme för att kombinera flera utdata till en enda utdata. Detta kan minska din avgiftskostnad senare, när du måste göra en betalning medan efterfrågan på blockutrymme är hög.
 
 
-![](assets/en/016.webp)
+![](assets/sv/016.webp)
 
 
 Konsolidering av utdata: Smält dina mynt till ett stort mynt när avgifterna är låga för att spara avgifter senare.
@@ -1660,9 +1657,8 @@ Den mest effektiva metoden för skalning är förmodligen skiktning. Den allmän
 Ett skiktat protokoll börjar med att två eller flera personer kommer överens om en starttransaktion som läggs in på Blockchain, vilket illustreras i bilden nedan.
 
 
-![](assets/en/017.webp)
+![](assets/sv/017.webp)
 
-Ett typiskt Layer 2-protokoll ovanpå Bitcoin, Layer 1.
 
 
 Hur denna starttransaktion skapas varierar mellan olika protokoll, men ett vanligt tema är att deltagarna skapar en osignerad starttransaktion och ett antal för-signerade bestraffningstransaktioner, som på olika sätt använder starttransaktionens output. Därefter signeras starttransaktionen fullständigt och publiceras till Blockchain, och bestraffningstransaktionerna kan signeras fullständigt och publiceras för att bestraffa en part som missköter sig. Detta ger deltagarna incitament att hålla sina löften så att protokollet kan fungera på ett Trustless sätt.
@@ -1714,7 +1710,7 @@ Vi vet idag att Bitcoin inte skalar bra vertikalt ("köp större hårdvara") ell
 
 
 
-![](assets/en/018.webp)
+![](assets/sv/018.webp)
 
 Bitcoin är byggd av människor. Människor skriver programvaran, och människor kör sedan denna programvara. När en säkerhetsbrist eller en allvarlig bugg upptäcks - finns det verkligen någon skillnad mellan de två? - upptäcks den alltid av människor av kött och blod. Det här kapitlet handlar om vad människor gör, bör göra och inte bör göra när skiten träffar fläkten. I det första avsnittet förklaras termen *ansvarigt avslöjande*, som hänvisar till hur någon som upptäcker en sårbarhet kan agera ansvarsfullt för att minimera skadan från den. Resten av kapitlet tar dig på en rundtur genom några av de allvarligaste sårbarheterna som upptäckts genom åren och hur de hanterades av utvecklare, miners och användare. Saker och ting var inte lika rigorösa i Bitcoin:s tidiga barndom som de är idag.
 
@@ -2059,7 +2055,7 @@ Den fullständiga redogörelsen för denna fråga publicerades den 28 juli 2015 
 I mejlet redogörs vidare för detaljerna kring hur problemet upptäcktes och mer exakt vad som orsakade det. I slutet lämnar han in en tidslinje över händelserna, och vi kommer att återge några av de viktigaste här. Vissa av dem har, som illustreras av figuren ovan, redan beskrivits.
 
 
-![](assets/en/019.webp)
+![](assets/sv/019.webp)
 
 
 Tidslinje över händelser kring BIP66. Svartmarkerade punkter har förklarats ovan.
@@ -2097,7 +2093,7 @@ Dessa händelser kan ge dig intrycket att Gregory Maxwell visste om sårbarheten
 Sedan, som föreslagits av Maxwell, skapades BIP66 som en delmängd av BIP62 som endast specificerade strikt DER-kodning. Denna BIP var uppenbarligen allmänt accepterad och distribuerades i juli, även om två Blockchain-splittringar ironiskt nog inträffade på grund av *valideringslösa Mining*. Dessa splittringar diskuteras i nästa avsnitt.
 
 
-![](assets/en/020.webp)
+![](assets/sv/020.webp)
 
 
 En viktig lärdom av detta är att BIP:er bör vara mer eller mindre *atomiska*, vilket innebär att de bör vara tillräckligt kompletta för att ge något användbart eller lösa ett specifikt problem, men tillräckligt små för att möjliggöra ett brett stöd bland användarna. Ju mer saker du lägger in i en BIP, desto mindre är chansen att den accepteras.
@@ -2118,7 +2114,7 @@ Varningssidan instruerade människor att vänta på 30 ytterligare bekräftelser
 Den split som nämns ovan inträffade 2015-07-04 kl. 02:10 UTC efter blockhöjden [363730](https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5dae467aff5715a6e579e). Detta problem löstes kl. 03:50 samma dag, efter att 6 ogiltiga block hade utvunnits. Tyvärr inträffade samma problem igen nästa dag, dvs. den 2015-07-05 kl. 21:50, men den här gången varade den ogiltiga grenen bara i 3 block.
 
 
-![](assets/en/021.webp)
+![](assets/sv/021.webp)
 
 Händelserna som ledde fram till BIP66, dess utplacering och efterspelet är en mycket bra fallstudie för hur försiktiga Bitcoin-utvecklare måste vara. Några viktiga saker att ta med sig från BIP66:
 

@@ -1,0 +1,9 @@
+question: Кое е основното хардуерно изискване за профил Starter, за да приема плащания Bitcoin?
+answer: Смартфон
+wrong_answers:
+  - A Bitcoin миньор ASIC
+  - Апарат wallet
+  - Самостоятелно хостван сървър
+explanation: |
+  Профилът Starter изисква само смартфон или таблет с Lightning wallet, което го прави леко решение.
+reviewed: true

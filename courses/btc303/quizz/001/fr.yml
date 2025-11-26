@@ -1,0 +1,8 @@
+question: Quel est l'objectif principal de la décentralisation dans Bitcoin ?
+answer: Pour résister à la censure
+wrong_answers:
+  - Augmenter la vitesse de traitement des transactions
+  - Réduire les coûts de la consommation d'énergie
+  - Simplifier l'interface utilisateur
+explanation: |
+  Dans la Bitcoin, la décentralisation sert principalement à assurer la résistance à la censure, ce qui signifie qu'aucune entité ne peut contrôler, bloquer ou manipuler les transactions. Cela est explicitement indiqué dans le texte : "La décentralisation est un moyen d'assurer la résistance à la censure" Les autres options sont incorrectes car la décentralisation rend le Bitcoin plus lent et plus gourmand en énergie que les systèmes centralisés, et elle rend le système plus complexe plutôt que plus simple. La résistance à la censure est ce qui distingue le Bitcoin des systèmes monétaires traditionnels et empêche les gouvernements ou autres autorités de le fermer ou de contrôler qui peut l'utiliser.

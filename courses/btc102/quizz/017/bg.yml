@@ -1,0 +1,9 @@
+question: Кой термин се отнася до програмираното разделяне на субсидията mining?
+answer: Halving
+wrong_answers:
+  - Fork
+  - Бисекция
+  - Coinbase
+explanation: |
+  Halving се отнася до намаляването наполовина на субсидията mining на всеки 210 000 блока.
+reviewed: false

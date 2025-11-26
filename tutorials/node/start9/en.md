@@ -27,7 +27,7 @@ Start9 offers both prebuilt and DIY deployment options. The [**Server One**](ht
 
 StartOS and Umbrel both simplify self-hosted service installation but differ in architecture and features. Umbrel operates as an application layer on Debian/Ubuntu systems or VMs, whereas Start9 is a dedicated operating system requiring direct hardware or VM installation. Umbrel features a polished, macOS-inspired interface, while Start9 prioritizes a functional, minimal design. Umbrel offers a larger [selection of applications](https://apps.umbrel.com/), while the [Start9 Marketplace](https://marketplace.start9.com/) compensates with advanced technical capabilities. Start9 simplifies access to advanced settings through validated UI forms, reducing the need for command-line interaction. It also excels in backup management with one-click encrypted system backups, a feature Umbrel lacks natively. StartOS provides built-in monitoring tools and enforces HTTPS encryption for local network access, enhancing security. Umbrel uses unencrypted HTTP locally, though both platforms support secure remote access via Tor. Umbrel is suitable for users prioritizing a rich app ecosystem and a polished UI. Start9 is a strong choice for those who value security, configurability, backup reliability, and advanced service management without requiring command-line expertise. To learn more about Umbrel and the differences to Start9, please visit this course:  
 
-[https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426](https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426)
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 ## 2️⃣ DIY Prerequisites: Minimum & Recommended Specs
 

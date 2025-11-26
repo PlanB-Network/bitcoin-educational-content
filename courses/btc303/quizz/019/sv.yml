@@ -1,0 +1,8 @@
+question: Vad är den största skillnaden mellan anonymitet och pseudonymitet i samband med Bitcoin-transaktioner?
+answer: I pseudonyma system som Bitcoin kan betalningar spåras mellan pseudonymer, medan det i anonyma system inte finns något spår
+wrong_answers:
+  - Pseudonyma system använder riktiga namn medan anonyma system använder falska namn för alla transaktioner
+  - Anonyma system kräver publika nycklar medan pseudonyma system endast använder privata nycklar för identifiering
+  - "Pseudonyma system döljer transaktionsbelopp medan anonyma system endast döljer avsändarens identitet"
+explanation: |
+  Bitcoin är pseudonymt, inte anonymt, eftersom alla transaktioner mellan adresser (pseudonymer) är spårbara i blockkedjan. I ett verkligt anonymt system skulle det inte finnas några spår av var pengarna kom ifrån eller vart de tar vägen, vilket teoretiskt sett skulle kunna uppnås genom nollkunskapsbevis. Bitcoin:s transparens gör det dock möjligt för vem som helst att följa flödet av bitcoins mellan olika adresser, vilket gör det pseudonymt snarare än anonymt. Pseudonymerna i Bitcoin är adresser som härrör från offentliga nycklar, inte godtyckliga användarnamn eller verkliga identiteter.

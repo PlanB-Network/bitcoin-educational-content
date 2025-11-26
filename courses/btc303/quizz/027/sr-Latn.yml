@@ -1,0 +1,8 @@
+question: Prema poglavlju, šta se dešava kada ste neoprezni sa sopstvenim Bitcoin praksama privatnosti?
+answer: Takođe može smanjiti privatnost drugih korisnika Bitcoin
+wrong_answers:
+  - To utiče samo na vaše transakcije i nema uticaja na druge.
+  - To čini celu Bitcoin mrežu sigurnijom za sve.
+  - Pomaže poboljšanju ukupne anonimnosti Bitcoin sistema
+explanation: |
+  Privatnost Bitcoin je međusobno povezana među korisnicima. Kada jedna osoba ne vodi računa o svojim praksama privatnosti, to može negativno uticati na privatnost drugih korisnika sa kojima obavlja transakcije. Ovo se dešava zato što obrasci transakcija, grupisanje adresa i druge tehnike analize blockchaina mogu otkriti informacije o više strana uključenih u transakcije. Poglavlje naglašava da mere privatnosti koje preduzimate ne štite samo vas - one takođe pomažu u zaštiti šire Bitcoin zajednice, čineći privatnost kolektivnom odgovornošću, a ne samo individualnom brigom.

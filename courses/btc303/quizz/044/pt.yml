@@ -1,0 +1,8 @@
+question: Qual era o problema específico do BIP66 soft fork que Shaolinfry citou como prova contra os garfos macios activados por minas?
+answer: 95% do hashrate sinalizou prontidão, mas cerca de metade não estava realmente a validar as regras actualizadas e extraiu um bloco inválido
+wrong_answers:
+  - Os mineiros recusaram-se a sinalizar o suporte apesar da enorme procura dos utilizadores, o que fez com que a atualização ficasse parada indefinidamente
+  - Uma pequena percentagem de mineiros vetou a atualização para toda a rede, apesar do apoio maioritário dos utilizadores
+  - A atualização causou uma divisão permanente da cadeia porque os mineiros e os utilizadores discordaram dos pormenores da implementação
+explanation: |
+  O incidente BIP66 revelou uma falha crítica nos soft forks activados por mineiros: a sinalização de prontidão não garante a validação efectiva. Apesar de 95% dos mineiros indicarem que estavam prontos para a atualização, cerca de metade não estava a validar corretamente as novas regras e, por engano, extraiu um bloco inválido. Isto demonstrou que a sinalização do poder de hash pode ser enganadora e não garante uma implementação adequada, o que foi um dos principais argumentos de Shaolinfry para propor os garfos Soft activados pelo utilizador como um mecanismo de atualização mais fiável.

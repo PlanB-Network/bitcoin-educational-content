@@ -1950,17 +1950,17 @@ Lorsqu’un utilisateur reçoit des bitcoins, l’expéditeur crée un UTXO en o
 
 C’est précisément dans le _scriptPubKey_ que se trouvent les adresses de réception. Leur utilisation varie cependant en fonction du standard de script adopté. Voici un tableau récapitulatif des informations contenues dans le _scriptPubKey_ selon le standard utilisé, ainsi que des informations attendues dans le _scriptSig_ pour déverrouiller le _scriptPubKey_.
 
-| Standard           | _scriptPubKey_                                              | _scriptSig_                     | _redeem script_     | _witness_                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <redeem script>` | Données arbitraires |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <pubKeyHash>`    | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <scriptHash>`    | `<data pushes> <witness script>`         |
-| P2TR (key path)    | `1 <public key>`                                            |                                 |                     | `<signature>`                            |
-| P2TR (script path) | `1 <public key>`                                            |                                 |                     | `<data pushes> <script> <control block>` |
+| Standard             | _scriptPubKey_                                              | _scriptSig_                       | _redeem script_     | _witness_                                    |
+| -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG                                      | <*signature*>                     |                     |                                              |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*>      |                     |                                              |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL                          | <*data pushes*> <*redeem script*> | Données arbitraires |                                              |
+| P2WPKH               | 0 <*pubKeyHash*>                                            |                                   |                     | <*signature*> <*public key*>                 |
+| P2WSH                | 0 <*witnessScriptHash*>                                     |                                   |                     | <*data pushes*> <*witness script*>           |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL                    | <*redeem script*>                 | 0 <*pubKeyHash*>    | <*signature*> <*public key*>                 |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL                    | <*redeem script*>                 | 0 <*scriptHash*>    | <*data pushes*> <*witness script*>           |
+| P2TR (*key path*)    | 1 <*public key*>                                            |                                   |                     | <*signature*>                                |
+| P2TR (*script path*) | 1 <*public key*>                                            |                                   |                     | <*data pushes*> <*script*> <*control block*> |
 
 _Source : Bitcoin Core PR review club du 7 juillet 2021 - Gloria Zhao_
 

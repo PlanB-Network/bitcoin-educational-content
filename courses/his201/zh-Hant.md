@@ -1224,7 +1224,7 @@ Marek Palatinus (slush) 於 2013 年 5 月 11 日在布拉格舉行的 Z-DAY 會
 
 這兩種估算模型於 12 月實施。首先，puddinpop 的概念於 12 月 1 日由用戶 doublec 應用，他[邀請](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859)人們連接到他的分組挖礦伺服器。由此形成的分組於 12 月 4 日[產生了](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688)它的第一個區塊（95,420）。在幾天後產生了另一個額外的區塊後，doublec 的伺服器於 15 日[停止](https://bluishcoder.co.nz/bitcoin-pool/)運行。由於出現了一個效率更高的合作社：BitcoinCZ Mining，該服務於 17 日永久關閉。
 
-在調查論壇後，Marek Palatinus 決定實作他的挖礦合作模式，並在測試網路上進行測試。他也確保 CPU 礦工 (使用 Jeff Garzik 的軟體) 和 GPU 礦工 (使用 m0mchil 和 puddinpop 的用戶端) 都能存取伺服器。
+在對論壇進行調查後，Marek Palatinus 決定實施他的挖礦合作社模型，並特別在測試網絡上進行測試。他還確保伺服器可以同時供 CPU 礦工（使用 Jeff Garzik 的軟體）和 GPU 礦工（使用 Momchil 和 puddinpop 的客戶端）訪問。
 
 在 12 月 15 日至 16 日的夜間，合作模型終於由 Marek Palatinus 在主網路上 [推出](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520)。第一個區塊在 16 日早上被 [發現](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97,834)。隨後，產生了許多其他區塊。最初的挖礦取得成功：在幾天之內，其 Hash 速率就達到 4 GH/s，佔網路總功率的 3.5%。
 

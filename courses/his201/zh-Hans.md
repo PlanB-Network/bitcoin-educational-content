@@ -1059,7 +1059,7 @@ ArtForz在2010年8月至10月间的挖矿产量（来源：Blackburn et al., "[C
 Marek Palatinus（slush）在2013年5月11日于布拉格举行的Z-DAY会议上
 这两种估算模型于 12 月实施。首先，puddinpop 的概念于 12 月 1 日由用户 doublec 应用，他[邀请](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859)人们连接到他的分组挖矿服务器。由此形成的分组于 12 月 4 日[产生了](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688)它的第一个区块（95,420）。在几天后产生了另一个额外的区块后，doublec 的服务器于 15 日[停止](https://bluishcoder.co.nz/bitcoin-pool/)运行。由于出现了一个效率更高的合作社：BitcoinCZ Mining，该服务于 17 日永久关闭。
 
-在浏览论坛后，Marek Palatinus决定实施他的矿业合作模型，并显著地在测试网络上进行了试验。他还确保服务器能够对CPU矿工（使用Jeff Garzik的软件）和GPU矿工（使用m0mchil和puddinpop的客户端）都可访问。
+在对论坛进行调查后，Marek Palatinus 决定实施他的挖矿合作社模型，并特别在测试网络上进行测试。他还确保服务器可以同时供 CPU 矿工（使用 Jeff Garzik 的软件）和 GPU 矿工（使用 Momchil 和 puddinpop 的客户端）访问。
 
 在12月15日至16日的夜间，该合作社最终由Marek Palatinus在主网络上[启动](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520)。第一个区块于16日上午被[发现](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655)（97,834）。随后，生产了许多其他区块。矿业小组从一开始就遇到了成功：在几天内，其哈希率达到了4 GH/s，占总网络功率的3.5%。
 

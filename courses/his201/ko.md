@@ -1697,7 +1697,7 @@ Mining 전문화로 인해 Hash 비율이 크게 증가하면서 중앙 프로�
 두 가지 추정 모델은 12월에 구현됩니다. 먼저, puddinpop 개념은 12월 1일 사용자 doublec에 의해 적용되었으며, 그는 사람들을 자신의 그룹 채굴 서버에 [연결하도록 초대합니다](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859). 이렇게 형성된 그룹은 12월 4일에 첫 번째 블록(95,420)을 [생성합니다](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688). 며칠 후 추가 블록을 생성한 후, doublec의 서버는 15일에 [중단됩니다](https://bluishcoder.co.nz/bitcoin-pool/). 이 서비스는 훨씬 더 효율적인 협동조합인 BitcoinCZ Mining의 출현으로 인해 17일에 영구적으로 문을 닫습니다.
 
 
-포럼을 조사한 후, 마렉 팔라티누스는 Mining 협동조합 모델을 구현하기로 결정하고 테스트 네트워크에서 시험을 진행했습니다. 또한 그는 CPU 채굴자(Jeff Garzik의 소프트웨어)와 GPU 채굴자(m0mchil과 puddinpop의 클라이언트)가 서버에 액세스할 수 있도록 했습니다.
+포럼을 조사한 후, Marek Palatinus는 자신의 마이닝 협동조합 모델을 구현하기로 결정하고 특히 테스트 네트워크에서 테스트를 수행합니다. 그는 또한 서버가 CPU 마이너(Jeff Garzik의 소프트웨어를 사용하는)와 GPU 마이너(Momchil과 puddinpop의 클라이언트를 사용하는) 모두에게 접근 가능하도록 보장합니다.
 
 
 12월 15일 밤부터 16일 사이에 마침내 마렉 팔라티누스가 메인 네트워크에 협동조합을 [런칭](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520)했습니다. 첫 번째 블록은 16일 오전에 [발견](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655)(97,834개)되었습니다. 그 후 다른 많은 블록들이 생성되었습니다. Mining 그룹은 초기에 성공을 거두었습니다. 며칠 만에 Hash의 속도가 전체 네트워크 전력의 3.5%인 4GH/s에 도달했습니다.

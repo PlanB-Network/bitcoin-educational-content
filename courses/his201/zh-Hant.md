@@ -1099,7 +1099,7 @@ Jeff Garzik 於 2013 年（資料來源：Jeff Garzik[Benson Samuel](https://ben
 
 中本聰的首要目標是讓軟體和通訊協定更安全，以因應最近使用量的增加。他們與 Gavin Andresen 一起考慮可能發生的各種攻擊 (包括拒絕服務攻擊)，並努力修正發現的漏洞。就這樣，在 7 月 17 日加入了檢查點系統 ([v0.3.2](https://bitcointalk.org/index.php?topic=437.msg3807#msg3807))，防止鏈在某個日期之前被重寫，並在 7 月 25 日整合了工作的概念 ([v0.3.3](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707))，以完善節點選擇正確鏈的機制。
 
-Gavin 和中本聰也修正了幾個 bug。其中最主要的是 "1 RETURN bug"，這是腳本系統中的一個漏洞，使用特定腳本便可以從任何地址花費 Bitcoin 。ArtForz 在 7 月 28 日報告了這個漏洞，他沒有利用這個漏洞悄悄地賺錢，而是選擇與中本聰和 Gavin 分享他的發現。中本聰很快就在軟體中加入修補程式 ([v0.3.6](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451))，並建議所有使用者升級。因此，Bitcoin 從潛在的災難性情況中獲救。此漏洞後來以 [CVE-2010-5141](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-5141) 的標識符記錄在 MITRE 中。
+Gavin 和中本聰也修復了幾個錯誤。其中主要的錯誤是「*1 RETURN bug*」，這是腳本系統中的一個漏洞，它使得透過一個特定的腳本可以從任何地址花費比特幣。這個漏洞由 ArtForz 在 7 月 28 日報告，他沒有選擇利用這個缺陷並悄悄致富，而是選擇與中本聰和 Gavin 分享他的發現。中本聰急忙將修復程序包含在軟體 ([v0.3.6](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451)) 中，並建議所有用戶進行升級。比特幣因此避免了最壞的情況。此漏洞稍後將以識別符 [CVE-2010-5141](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-5141) 註冊到 MITRE 公司。
 
 第二個目標是改善系統的效能。在內部腳本系統中加入`OP_NOP`操作代碼就屬於這一類，由中本聰在 7 月 29 日（v0.3.6）低調進行，唯一的[評論](https://sourceforge.net/p/Bitcoin/code/119/) 是 「擴充」 一詞。這些操作代碼是無聲指令，如果出現在腳本中則沒有任何效果，但也不會使交易失效。因此，我們可以修改這些指令的行為，而不會使腳本與舊版本的通訊協定不相容，這就是中本聰的註解。這些操作代碼在 2015 年和 2016 年會允許所謂的「軟分叉」，方法是將指令 `OP_NOP2` 和 `OP_NOP3` 分別轉換為「OP_CHECKLOCKTIMEVERIFY」和「OP_CHECKSEQUENCEVERIFY」。
 

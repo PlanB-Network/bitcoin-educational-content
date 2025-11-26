@@ -956,7 +956,7 @@ Sve ovo pokazuje da tvorac Bitcoin nastoji da se prilagodi svojoj publici i čin
 
 ### Mike Hearn i 21 milion
 
-Komunikaciona strategija Satoshi postepeno donosi rezultate. U aprilu 2009. godine, drugi ljudi su počeli da se interesuju za njegov izum. Među njima je i Mike Hearn, britanski programer koji radi za Google u Švajcarskoj, a svoje slobodno vreme posvećuje softveru otvorenog koda. On se tada zainteresovao za digitalne sisteme plaćanja, posebno za Ripple, projekat Ryana Fuggera. Upravo na Ripple Google Grupi čuo je za Bitcoin preko [diskusionog niza](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) koji je u martu kreirao Charles N. Wyble, mladi američki informatičar i preduzetnik.
+Satoshijeva komunikaciona strategija postepeno daje plodove. U aprilu 2009. godine, drugi ljudi počinju da se interesuju za njegov izum. To je slučaj sa Mikeom Hearnom, 24-godišnjim britanskim developerom koji radi za Google iz Švajcarske, a svoje slobodno vreme posvećuje slobodnom softveru. Ovaj drugi se tada interesovao za digitalne sisteme plaćanja, a posebno za Ripple, projekat Ryana Fuggera. I upravo na Google Group Ripple čuje za Bitcoin putem [diskusionog niza](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) koji je u martu kreirao Charles N. Wyble, mladi američki informatičar i preduzetnik.
 
 
 Dana 12. aprila, Mike Hearn je poslao [email](https://plan99.net/~mike/Satoshi-emails/thread1.html) Satoshi u kojem je postavio niz pitanja o Bitcoin. Primetio je da "je retko susresti se sa istinski revolucionarnim idejama" i nije propustio da pomene Ripple.

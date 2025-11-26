@@ -587,7 +587,7 @@ Opravdu se mi líbí myšlenka virtuálních komunit, bez geografické příslu�
 To vše ukazuje, že tvůrce Bitcoinu se snaží přizpůsobit svému publiku a dělá, co může, aby lidi zaujal svým objevem.
 
 ### Mike Hearn a 21 milionů
-Satoshiho komunikační strategie postupně přináší ovoce. V dubnu 2009 se o jeho vynález začali zajímat i další lidé. Mezi nimi byl Mike Hearn, britský vývojář pracující pro Google ve Švýcarsku, který svůj volný čas věnoval open-source softwaru. Poté se začal zajímat o digitální platební systémy, zejména o projekt Ripple od Ryana Fuggera. Právě na Ripple Google Group se dozvěděl o Bitcoinu prostřednictvím [diskusního vlákna](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) vytvořeného v březnu Charlesem N. Wyblem, mladým americkým informatikem a podnikatelem.
+Komunikační strategie Satoshiho se postupně vyplácí. V dubnu 2009 se o jeho vynález začínají zajímat další lidé. To je případ Mika Hearna, 24letého britského vývojáře pracujícího pro Google ze Švýcarska, který se ve svém volném čase věnuje svobodnému softwaru. Ten se tehdy zajímal o digitální platební systémy, zejména o Ripple, projekt Ryana Fuggera. A právě na Google Groupu Ripple se doslechl o Bitcoinu prostřednictvím [diskuzního vlákna](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14), které v březnu vytvořil Charles N. Wyble, mladý americký informatik a podnikatel.
 
 Dne 12. dubna Mike Hearn poslal [email](https://plan99.net/~mike/satoshi-emails/thread1.html) Satoshi, ve kterém položil řadu otázek o Bitcoinu. Poznamenal, že "je vzácné narazit na skutečně revoluční nápady" a neopomenul zmínit Ripple.
 

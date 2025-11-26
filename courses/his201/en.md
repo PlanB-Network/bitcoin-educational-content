@@ -640,7 +640,7 @@ I really like the idea of virtual communities, without geographical belonging, e
 This all shows that the creator of Bitcoin seeks to adapt to his audience and is doing what he can to get people interested in his discovery.
 
 ### Mike Hearn and the 21 million
-Satoshi's communication strategy is gradually bearing fruit. In April 2009, other people began to take an interest in his invention. This includes Mike Hearn, a British developer working for Google in Switzerland, who spends his free time on open-source software. He then became interested in digital payment systems, particularly in Ripple, the project by Ryan Fugger. It was precisely on the Ripple Google Group that he heard about Bitcoin through a [discussion thread](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) created in March by Charles N. Wyble, a young American computer scientist and entrepreneur.
+Satoshi's communication strategy is gradually bearing fruit. In April 2009, other people start taking an interest in his invention. This is the case of Mike Hearn, a 24-year-old British developer working for Google from Switzerland, who dedicates his free time to free software. The latter was then interested in digital payment systems, and in particular Ripple, Ryan Fugger's project. And it was precisely on the Ripple Google Group that he heard about Bitcoin through a [discussion thread](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) created in March by Charles N. Wyble, a young American computer scientist and entrepreneur.
 
 On April 12, Mike Hearn sent an [email](https://plan99.net/~mike/satoshi-emails/thread1.html) to Satoshi, asking a series of questions about Bitcoin. He noted that "it is rare to encounter truly revolutionary ideas" and did not fail to mention Ripple.
 

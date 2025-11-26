@@ -957,7 +957,7 @@ Dit alles laat zien dat de maker van Bitcoin zich wil aanpassen aan zijn publiek
 
 ### Mike Hearn en de 21 miljoen
 
-De communicatiestrategie van Satoshi werpt geleidelijk vruchten af. In april 2009 begonnen andere mensen interesse te tonen in zijn uitvinding. Onder hen Mike Hearn, een Britse ontwikkelaar die voor Google in Zwitserland werkt en zijn vrije tijd besteedt aan open source software. Hij raakte toen geïnteresseerd in digitale betalingssystemen, met name in Ripple, het project van Ryan Fugger. Juist op de Ripple Google Group hoorde hij over Bitcoin via een [discussion thread] (https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) die in maart was aangemaakt door Charles N. Wyble, een jonge Amerikaanse computerwetenschapper en ondernemer.
+De communicatiestrategie van Satoshi werpt geleidelijk vruchten af. In april 2009 beginnen andere mensen interesse te tonen in zijn uitvinding. Dit is het geval bij Mike Hearn, een 24-jarige Britse ontwikkelaar die vanuit Zwitserland voor Google werkt en in zijn vrije tijd aan vrije software werkt. Laatstgenoemde was toen geïnteresseerd in digitale betalingssystemen, en in het bijzonder in Ripple, het project van Ryan Fugger. En het was precies op de Ripple Google Groep dat hij over Bitcoin hoorde via een [discussieonderwerp](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) dat in maart was aangemaakt door Charles N. Wyble, een jonge Amerikaanse computerwetenschapper en ondernemer.
 
 
 Op 12 april stuurde Mike Hearn een [e-mail] (https://plan99.net/~mike/Satoshi-emails/thread1.html) naar Satoshi, waarin hij een reeks vragen stelde over Bitcoin. Hij merkte op dat "het zeldzaam is om echt revolutionaire ideeën tegen te komen" en liet niet na om Ripple te noemen.

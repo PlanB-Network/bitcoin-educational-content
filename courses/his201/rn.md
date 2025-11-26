@@ -957,7 +957,7 @@ Ivyo vyose vyerekana ko uwaremye Bitcoin arondera kwimenyereza abamutega amatwi 
 
 ### Mike Hearn n'abantu imiliyoni 21
 
-Ingamba za Satoshi zo guhanahana amakuru ziriko ziratanga ivyamwa buhoro buhoro. Muri Ndamukiza 2009, abandi bantu baratanguye gukunda ivyo yahingura. Muri abo harimwo Mike Hearn, umuhinga mu vy’ubuhinga bw’amaporogarama w’Umwongereza akorera Google mu Busuwisi, amara umwanya wiwe w’ubusa akoresha ubuhinga bwa none. Yaciye akunda cane uburyo bwo kwishura mu buryo bwa digitale, cane cane Ripple, umugambi wa Ryan Fugger. Ni kuri Ripple Google Group nyene yumvise ivya Bitcoin biciye ku [rudodo rw’ibiganiro] rwaremwe muri Ntwarante na Charles N. Wyble, umunyamerika akiri muto w’umuhinga mu vy’informatique akaba n’umunyamigambi.
+Imigambi ya Satoshi yo kumenyesha urudandaza rwiwe igenda irashinga imizi buhorobuhoro. Mu kwezi kwa Ndamukiza 2009, abandi bantu batanguje kwitwararika ico kintu yiyumviriye. Uwo ni Mike Hearn, umuhinyanyuzi w'umwongereza w'imyaka 24, yakorera Google mu Buswise, akagira n'inyiyumviro z'ugukoresha ubuhinga bwa mudasobwa bw'ubuntu mu gihe ciwe c'ikiruhuko. Uwo mugabo yaciye yitwararika uburyo bwo kwishura bwo kuri interineti, na canecane Ripple, umugambi wa Ryan Fugger. Ni naho mu Google Group ya Ripple yumviye ivya Bitcoin biciye ku [kiganiro](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) caciye gitangura mu kwezi kwa Ntwarante na Charles N. Wyble, umusore w'umuhinga mu vya mudasobwa n'umutanguza w'imirimo y'umunyamerika.
 
 
 Ku wa 12 Ndamukiza, Mike Hearn yarungikiye Satoshi ubutumwa, amubaza ibibazo vyinshi ku bijanye na Bitcoin. Yavuze ko "ari gake umuntu ahura n'ivyiyumviro vy'ihinduka vy'ukuri" kandi ntiyananiwe kuvuga Ripple.

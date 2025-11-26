@@ -624,7 +624,7 @@ Tämä kaikki osoittaa, että Bitcoinin luoja pyrkii mukautumaan yleisöönsä j
 
 ### Mike Hearn ja 21 miljoonaa
 
-Satoshi Nakamoton viestintästrategia alkaa vähitellen kantaa hedelmää. Huhtikuussa 2009 muut ihmiset alkoivat kiinnostua hänen keksinnöstään. Tähän sisältyy Mike Hearn, brittiläinen kehittäjä, joka työskentelee Googlella Sveitsissä ja käyttää vapaa-aikaansa avoimen lähdekoodin ohjelmistojen parissa. Hän kiinnostui digitaalisista maksujärjestelmistä, erityisesti Ripple-projektista, jonka loi Ryan Fugger. Juuri Ripple Google Groupissa hän kuuli Bitcoinista [keskusteluketjun](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) kautta, jonka loi maaliskuussa Charles N. Wyble, nuori amerikkalainen tietojenkäsittelijä ja yrittäjä.
+Satoshin viestintästrategia kantaa vähitellen hedelmää. Huhtikuussa 2009 muut ihmiset alkavat kiinnostua hänen keksinnöstään. Tämä on tilanne Mike Hearnin, 24-vuotiaan brittikehittäjän kohdalla, joka työskentelee Googlella Sveitsistä ja omistautuu vapaa-ajallaan vapaalle ohjelmistolle. Jälkimmäinen oli tuolloin kiinnostunut digitaalisista maksujärjestelmistä ja erityisesti Ripplestä, Ryan Fuggerin projektista. Ja juuri Ripplen Google Groupissa hän kuuli Bitcoinista Charles N. Wyblen, nuoren amerikkalaisen tietojenkäsittelytieteilijän ja yrittäjän, maaliskuussa luoman [keskusteluketjun](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) kautta.
 
 Huhtikuun 12. päivänä Mike Hearn lähetti [sähköpostin](https://plan99.net/~mike/satoshi-emails/thread1.html) Satoshi Nakamotolle, jossa hän esitti joukon kysymyksiä Bitcoinista. Hän huomautti, että "on harvinaista kohdata todella vallankumouksellisia ideoita" eikä epäröinyt mainita Rippleä.
 

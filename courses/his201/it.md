@@ -650,7 +650,7 @@ Tutto ciò dimostra che il creatore di Bitcoin cerca di adattarsi al suo pubblic
 
 ### Mike Hearn e i 21 milioni
 
-La strategia di comunicazione di Satoshi sta gradualmente dando i suoi frutti. Nell'aprile del 2009, altre persone hanno iniziato a interessarsi alla sua invenzione. Tra questi c'è Mike Hearn, uno sviluppatore britannico che lavora per Google in Svizzera, che trascorre il suo tempo libero su software open-source. Si è poi interessato ai sistemi di pagamento digitale, in particolare a Ripple, il progetto di Ryan Fugger. Fu proprio sul Google Group di Ripple che sentì parlare di Bitcoin attraverso un [thread di discussione](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) creato a marzo da Charles N. Wyble, un giovane informatico e imprenditore americano.
+La strategia di comunicazione di Satoshi sta gradualmente dando i suoi frutti. Nel mese di aprile 2009, altre persone iniziano ad interessarsi alla sua invenzione. Questo è il caso di Mike Hearn, uno sviluppatore britannico di 24 anni che lavora per Google dalla Svizzera e si dedica al software libero nel suo tempo libero. Quest'ultimo era allora interessato ai sistemi di pagamento digitali, e in particolare a Ripple, il progetto di Ryan Fugger. Ed è stato proprio sul Google Group di Ripple che ha sentito parlare di Bitcoin attraverso un [thread di discussione](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) creato a marzo da Charles N. Wyble, un giovane informatico e imprenditore americano.
 
 Il 12 aprile, Mike Hearn inviò una [email](https://plan99.net/~mike/satoshi-emails/thread1.html) a Satoshi in cui gli poneva una serie di domande su Bitcoin. Notò che "è raro incontrare idee veramente rivoluzionarie" e non mancò di menzionare Ripple.
 

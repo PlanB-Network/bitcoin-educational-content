@@ -620,7 +620,7 @@ See kõik näitab, et Bitcoini looja püüab kohaneda oma publikuga ja teeb kõi
 
 ### Mike Hearn ja 21 miljonit
 
-Satoshi suhtlusstrateegia hakkab järk-järgult vilja kandma. 2009. aasta aprillis hakkasid teised inimesed tema leiutise vastu huvi tundma. Nende hulka kuulub Mike Hearn, Briti arendaja, kes töötab Google'is Šveitsis ja veedab oma vaba aega avatud lähtekoodiga tarkvara kallal. Ta hakkas huvituma digitaalsetest maksesüsteemidest, eriti Ripple'ist, mille lõi Ryan Fugger. Just Ripple'i Google'i grupis kuulis ta Bitcoini kohta läbi [arutelulõime](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14), mille lõi märtsis Charles N. Wyble, noor Ameerika arvutiteadlane ja ettevõtja.
+Satoshi kommunikatsioonistrateegia hakkab järk-järgult vilja kandma. 2009. aasta aprillis hakkavad teised inimesed tema leiutise vastu huvi tundma. See on Mike Hearni, 24-aastase Briti arendaja, kes töötab Google'i heaks Šveitsist ja pühendab oma vaba aja vabale tarkvarale, puhul. Viimane oli siis huvitatud digitaalsetest maksesüsteemidest, eriti Ripple'ist, Ryan Fuggeri projektist. Ja just Ripple'i Google Groupis kuulis ta Bitcoinist [arutlusteema](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) kaudu, mille oli märtsis loonud Charles N. Wyble, noor Ameerika arvutiteadlane ja ettevõtja.
 
 12. aprillil saatis Mike Hearn Satoshi'le [e-kirja](https://plan99.net/~mike/satoshi-emails/thread1.html), milles esitas mitmeid küsimusi Bitcoini kohta. Ta märkis, et "harva kohtab tõeliselt revolutsioonilisi ideid" ja ei jätnud mainimata Ripple'i.
 

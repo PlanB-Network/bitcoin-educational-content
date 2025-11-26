@@ -699,7 +699,7 @@ Haya yote yanaonyesha kuwa mtayarishaji wa Bitcoin anatafuta kuzoea hadhira yake
 
 ### Mike Hearn na milioni 21
 
-Mbinu ya mawasiliano ya Satoshi inazaa matunda taratibu. Mnamo Aprili 2009, watu wengine walianza kupendezwa na uvumbuzi wake. Hii inajumuisha Mike Hearn, msanidi programu wa Uingereza anayefanya kazi na Google nchini Uswizi, ambaye hutumia wakati wake wa bure kwenye programu huria. Kisha akapendezwa na mifumo ya malipo ya dijiti, haswa katika Ripple, mradi wa Ryan Fugger. Ilikuwa ni kwenye Kikundi cha Google cha Ripple ambapo alisikia kuhusu Bitcoin kupitia [mazungumzo](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) iliyoundwa Machi na Charles N. Wyble, mwanasayansi wa kompyuta na mjasiriamali Mmarekani.
+Mkakati wa mawasiliano wa Satoshi unazaa matunda hatua kwa hatua. Mwezi wa Aprili 2009, watu wengine walianza kupendezwa na uvumbuzi wake. Hii ni kesi ya Mike Hearn, msanidi programu wa Uingereza mwenye umri wa miaka 24 anayefanya kazi kwa Google kutoka Uswizi, na anayejitolea kwa programu huria katika muda wake wa bure. Huyu wa mwisho alikuwa akipendezwa na mifumo ya malipo ya kidijitali, na hasa Ripple, mradi wa Ryan Fugger. Na ilikuwa hasa kwenye Google Group ya Ripple ambapo alisikia kuhusu Bitcoin kupitia [ujumbe wa majadiliano](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) ulioanzishwa mwezi Machi na Charles N. Wyble, mwanasayansi wa kompyuta kijana na mjasiriamali wa Marekani.
 
 Mnamo Aprili 12, Mike Hearn alituma [barua pepe](https://plan99.net/~mike/Satoshi-emails/thread1.html) kwa Satoshi ambapo aliuliza mfululizo wa maswali kuhusu Bitcoin. Alibainisha kuwa "ni nadra kukutana na mawazo ya kimapinduzi kweli" na hakukosa kumtaja Ripple.
 

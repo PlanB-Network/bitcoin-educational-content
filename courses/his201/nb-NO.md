@@ -618,7 +618,7 @@ Dette viser alt at skaperen av Bitcoin søker å tilpasse seg sitt publikum og g
 
 ### Mike Hearn og de 21 millionene
 
-Satoshi sin kommunikasjonsstrategi gir gradvis resultater. I april 2009 begynte andre mennesker å bli interessert i hans oppfinnelse. Dette inkluderer Mike Hearn, en britisk utvikler som jobber for Google i Sveits, som bruker fritiden sin på åpen kildekode-programvare. Han ble da interessert i digitale betalingssystemer, spesielt i Ripple, prosjektet av Ryan Fugger. Det var nettopp på Ripple Google Group at han hørte om Bitcoin gjennom en [diskusjonstråd](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) opprettet i mars av Charles N. Wyble, en ung amerikansk datavitenskapsmann og entreprenør.
+Satoshi's kommunikasjonsstrategi bærer gradvis frukter. I april 2009 begynner andre mennesker å interessere seg for hans oppfinnelse. Dette er tilfellet med Mike Hearn, en 24 år gammel britisk utvikler som jobber for Google fra Sveits, og som vier fritiden sin til fri programvare. Sistnevnte var da interessert i digitale betalingssystemer, og spesielt i Ripple, prosjektet til Ryan Fugger. Og det var nettopp på Ripple Google Group at han hørte om Bitcoin gjennom en [diskusjonstråd](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) opprettet i mars av Charles N. Wyble, en ung amerikansk informatiker og gründer.
 
 Den 12. april sendte Mike Hearn en [e-post](https://plan99.net/~mike/satoshi-emails/thread1.html) til Satoshi der han stilte en rekke spørsmål om Bitcoin. Han bemerket at "det er sjeldent å støte på virkelig revolusjonerende ideer" og unnlot ikke å nevne Ripple.
 

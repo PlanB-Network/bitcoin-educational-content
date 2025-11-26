@@ -598,7 +598,7 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 这一切都表明，比特币的创造者在适应他的听众，并且正在尽其所能让人们对他的发现感兴趣。
 
 ### Mike Hearn 和2100万
-Satoshi的沟通策略逐渐见效。2009年4月，其他人开始对他的发明感兴趣。其中包括Mike Hearn，一位在瑞士为Google工作的英国开发者，他在业余时间从事开源软件。他后来对数字支付系统产生了兴趣，特别是对Ryan Fugger的项目Ripple感兴趣。正是在Ripple Google Group上，他通过Charles N. Wyble（一位年轻的美国计算机科学家和企业家）在3月创建的[讨论帖](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14)中听说了比特币。
+中本聪的沟通策略正逐步取得成效。2009 年 4 月，其他人开始对他的发明产生兴趣。其中之一是 Mike Hearn，一位 24 岁的英国开发人员，在瑞士为谷歌工作，并在业余时间致力于自由软件。他当时对数字支付系统感兴趣，特别是 Ryan Fugger 的项目 Ripple。正是在 Ripple 的 Google Group 上，他通过年轻的美国计算机科学家和企业家 Charles N. Wyble 在三月份创建的一个[讨论串](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14)听说了比特币。
 
 4月12日，Mike Hearn向Satoshi发送了一封[电子邮件](https://plan99.net/~mike/satoshi-emails/thread1.html)，他在邮件中询问了关于比特币的一系列问题。他指出“很少遇到真正革命性的想法”，并且没有忘记提及Ripple。
 

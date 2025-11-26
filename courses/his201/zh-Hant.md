@@ -700,7 +700,7 @@ John Gilmore 於 2007 年 (來源：[Flickr](https://www.flickr.com/photos/35034
 
 ### Mike Hearn 和 2100 萬
 
-中本聰的溝通策略漸見成效。2009 年 4 月，其他人開始對他的發明感興趣。其中包括 Mike Hearn，一位在瑞士 Google 工作的英國開發人員，他的空閒時間都花在開放原始碼軟體上。之後，他開始對數位支付系統感興趣，尤其是 Ryan Fugger 的專案 Ripple。他正是在 Ripple Google Group 上，透過美國年輕電腦科學家兼企業家 Charles N. Wyble 在 3 月所建立的 [討論主題](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14)，聽說了 Bitcoin。
+中本聰的溝通策略正逐步取得成效。2009 年 4 月，其他人開始對他的發明產生興趣。其中之一是 Mike Hearn，一位 24 歲的英國開發人員，在瑞士為谷歌工作，並在業餘時間致力於自由軟體。他當時對數字支付系統感興趣，特別是 Ryan Fugger 的項目 Ripple。正是在 Ripple 的 Google Group 上，他透過年輕的美國計算機科學家和企業家 Charles N. Wyble 在三月份創建的一個[討論串](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14)聽說了比特幣。
 
 4 月 12 日，Mike Hearn 向中本聰發送了一封 [電子郵件](https://plan99.net/~mike/Satoshi-emails/thread1.html)，其中他提出了一系列關於 Bitcoin 的問題。他指出，「遇到真正革命性的想法是很罕見的」，並且不忘提到 Ripple。
 

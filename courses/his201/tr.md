@@ -957,7 +957,7 @@ Tüm bunlar, Bitcoin'in yaratıcısının hedef kitlesine uyum sağlamaya çalı
 
 ### Mike Hearn ve 21 milyon
 
-Satoshi'ün iletişim stratejisi yavaş yavaş meyvelerini vermeye başladı. Nisan 2009'da başkaları da onun icadıyla ilgilenmeye başladı. Bunlar arasında İsviçre'de Google için çalışan ve boş zamanlarını açık kaynaklı yazılımlar üzerinde geçiren İngiliz geliştirici Mike Hearn de vardı. Daha sonra dijital ödeme sistemleriyle, özellikle de Ryan Fugger'in projesi olan Ripple ile ilgilenmeye başladı. Genç bir Amerikalı bilgisayar bilimcisi ve girişimci olan Charles N. Wyble tarafından Mart ayında oluşturulan bir [tartışma başlığı] (https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) aracılığıyla Bitcoin'yi tam olarak Ripple Google Grubu'nda duydu.
+Satoshi'nin iletişim stratejisi yavaş yavaş meyve veriyor. Nisan 2009'da diğer insanlar da onun icadıyla ilgilenmeye başlıyor. Bu durum, İsviçre'den Google için çalışan ve boş zamanlarında özgür yazılıma kendini adayan 24 yaşındaki İngiliz geliştirici Mike Hearn için geçerli. Hearn o zamanlar dijital ödeme sistemleriyle ve özellikle Ryan Fugger'ın projesi olan Ripple ile ilgileniyordu. Ve tam da Ripple Google Grubu'nda, genç bir Amerikalı bilgisayar bilimcisi ve girişimci olan Charles N. Wyble tarafından Mart ayında oluşturulan bir [tartışma dizisi](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) aracılığıyla Bitcoin'den haberdar oldu.
 
 
 12 Nisan'da Mike Hearn, Satoshi'e bir [e-posta] (https://plan99.net/~mike/Satoshi-emails/thread1.html) göndererek Bitcoin hakkında bir dizi soru sordu. "Gerçekten devrimci fikirlerle karşılaşmanın nadir olduğunu" belirtti ve Ripple'dan bahsetmeyi ihmal etmedi.

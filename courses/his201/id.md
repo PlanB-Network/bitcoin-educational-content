@@ -664,7 +664,7 @@ Ini semua menunjukkan bahwa pencipta Bitcoin berupaya beradaptasi dengan audiens
 
 ### Mike Hearn dan 21 juta
 
-Strategi komunikasi Satoshi secara bertahap membuahkan hasil. Pada April 2009, orang lain mulai tertarik pada penemuannya. Ini termasuk Mike Hearn, seorang pengembang Inggris yang bekerja untuk Google di Swiss, yang menghabiskan waktu luangnya untuk perangkat lunak sumber terbuka. Ia kemudian tertarik pada sistem pembayaran digital, khususnya pada Ripple, proyek oleh Ryan Fugger. Justru di Grup Google Ripple itulah ia mendengar tentang Bitcoin melalui [thread diskusi](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) yang dibuat pada bulan Maret oleh Charles N. Wyble, seorang ilmuwan komputer dan pengusaha muda Amerika.
+Strategi komunikasi Satoshi secara bertahap membuahkan hasil. Pada bulan April 2009, orang lain mulai tertarik pada penemuannya. Ini adalah kasus Mike Hearn, seorang pengembang Inggris berusia 24 tahun yang bekerja untuk Google dari Swiss, dan mendedikasikan waktu luangnya untuk perangkat lunak bebas. Yang terakhir saat itu tertarik pada sistem pembayaran digital, dan khususnya Ripple, proyek Ryan Fugger. Dan justru di Grup Google Ripple ia mendengar tentang Bitcoin melalui [utas diskusi](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) yang dibuat pada bulan Maret oleh Charles N. Wyble, seorang ilmuwan komputer dan pengusaha muda Amerika.
 
 Pada tanggal 12 April, Mike Hearn mengirim [email](https://plan99.net/~mike/satoshi-emails/thread1.html) kepada Satoshi di mana ia mengajukan serangkaian pertanyaan tentang Bitcoin. Dia mencatat bahwa "jarang sekali menemukan ide-ide yang benar-benar revolusioner" dan tidak lupa menyebutkan Ripple.
 

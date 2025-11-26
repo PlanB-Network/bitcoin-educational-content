@@ -1,0 +1,9 @@
+question: Какво показва индексът /84'/ в дълбочина 1 на пътя на деривация?
+answer: Стандартът P2WPKH (SegWit v0)
+wrong_answers:
+  - Стандартът P2TR (SegWit v1)
+  - Валута на тестова мрежа Bitcoin
+  - A Bitcoin mainnet валута
+explanation: |
+  Индексът /84'/ е дефиниран в BIP84, за да укаже използването на стандарта SegWit v0 с адреси P2WPKH на дълбочина 1 (тази на целта на деривацията).
+reviewed: false

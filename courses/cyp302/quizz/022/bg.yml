@@ -1,0 +1,9 @@
+question: Какъв е резултатът от шифроването на смяна за думата DOG с ключ 17?
+answer: UFX
+wrong_answers:
+  - ZKH
+  - TPG
+  - UVW
+explanation: |
+  С изместване на 17 в азбуката D става U, O става F, а G става X. Следователно криптираната дума е UFX.
+reviewed: false

@@ -4,7 +4,7 @@ goal: Iga ivy’ishimikiro muvyirihwa  n’ivy’ububiko kugira ngo ushire uruga
 intumbero: 
 
   - Bitcoin , ifaranga rishasha , igikoresho c'ubudandaji
-  - Gutahura igituma n’ingene uruganda rushobora gufita Bitcoin mu bubiko canke rukarikoresha muvyirihwa .
+  - Gutahura igituma n’ingene uruganda rushobora gufita Bitcoin mu bubiko canke rukarikoresha muvyirihwa.
   - kugira  iciyumviro kirashe  cukungene eyemezwa ryirihwa  muma  Bitcoin mungiro.
   - kwitegurira gutunganya ibigengwa na mategeko ni harurwa ryubutunzi. 
 

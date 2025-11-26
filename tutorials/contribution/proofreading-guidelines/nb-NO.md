@@ -44,7 +44,7 @@ I denne forstand er alle bidragsytere på Plan ₿ Academy pedagoger!
 ## De første trinnene før korrekturlesing på Plan ₿ Academy
 
 
-Før du starter en ny korrekturlesingsoppgave, må du kunngjøre den i [Telegramgruppen] (https://t.me/PlanBNetwork_ContentBuilder) eller informere Plan ₿ Academy-koordinatoren din, som vil åpne en dedikert [issue] (https://github.com/orgs/Plan ₿ Academy/projects/3). Når du mottar lenken til saken, kan du bare **kommentere at du begynner** med korrekturlesingen av det aktuelle innholdet.
+Før du starter en ny korrekturlesingsoppgave, må du kunngjøre den i [Telegramgruppen] (https://t.me/PlanBNetwork_ContentBuilder) eller informere Plan ₿ Academy-koordinatoren din, som vil åpne en dedikert [issue] (https://github.com/orgs/PlanB-Network/projects/3). Når du mottar lenken til saken, kan du bare **kommentere at du begynner** med korrekturlesingen av det aktuelle innholdet.
 
 
 Dette systemet hjelper koordinatoren med å holde oversikt over fremdriften i repoen, og det gjør det mulig å "kreve" innholdet av korrekturleseren, slik at man unngår at noen andre gjør dobbeltarbeid.

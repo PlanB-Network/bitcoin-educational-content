@@ -44,7 +44,7 @@ U tom smislu, svi saradnici na Plan ₿ Akademiji su edukatori!
 ## Prvi koraci pre lekture na Plan ₿ Academy
 
 
-Pre nego što započnete novi zadatak lekture, najavite to u [Telegram grupi](https://t.me/PlanBNetwork_ContentBuilder) ili obavestite svog koordinatora Plan ₿ Akademije, koji će otvoriti posvećen [issue](https://github.com/orgs/Plan ₿ Academy/projects/3). Kada dobijete link za issue, jednostavno **komentarišite da započinjete** sa zadatkom lekture tog sadržaja.
+Pre nego što započnete novi zadatak lekture, najavite to u [Telegram grupi](https://t.me/PlanBNetwork_ContentBuilder) ili obavestite svog koordinatora Plan ₿ Akademije, koji će otvoriti posvećen [issue](https://github.com/orgs/PlanB-Network/projects/3). Kada dobijete link za issue, jednostavno **komentarišite da započinjete** sa zadatkom lekture tog sadržaja.
 
 
 Ovaj sistem pomaže koordinatoru da prati napredak unutar repozitorijuma i omogućava da sadržaj bude "preuzet" od strane lektora, sprečavajući dupliranje napora od strane nekog drugog.

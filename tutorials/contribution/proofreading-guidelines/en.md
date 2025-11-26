@@ -31,7 +31,7 @@ In this sense, all contributors on Plan ₿ Academy are educators!
 
 ## The first steps before proofreading on Plan ₿ Academy
 
-Before starting a new proofreading task, announce it in the [Telegram group](https://t.me/PlanBNetwork_ContentBuilder) or inform your Plan ₿ Academy coordinator, who will open a dedicated [issue](https://github.com/orgs/Plan ₿ Academy/projects/3). When you receive the issue link, simply **comment that you are starting** with the proofreading task of that content.
+Before starting a new proofreading task, announce it in the [Telegram group](https://t.me/PlanBNetwork_ContentBuilder) or inform your Plan ₿ Academy coordinator, who will open a dedicated [issue](https://github.com/orgs/PlanB-Network/projects/3). When you receive the issue link, simply **comment that you are starting** with the proofreading task of that content.
 
 This system helps the coordinator keep track of the progress inside the repo, and it allows the content to be "claimed" by the proofreader, preventing duplicate efforts by someone else. 
 On the issue itself, you will find the links that redirect you to the content to check. You can simply click on them, or, even better, you can go back to your own forked repo and work directly from there. Let's see how you can do it!

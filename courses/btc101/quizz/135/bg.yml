@@ -1,4 +1,4 @@
-question: Какво е възел pruned в контекста на Bitcoin?
+question: Какво е pruned node в контекста на Bitcoin?
 answer: Възел, който съхранява в паметта само последните N блока.
 wrong_answers:
   - Възел, който само валидира транзакции.

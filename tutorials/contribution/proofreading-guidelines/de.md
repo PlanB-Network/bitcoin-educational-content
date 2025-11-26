@@ -44,7 +44,7 @@ In diesem Sinne sind alle Mitwirkenden der Plan ₿ Academy Pädagogen!
 ## Die ersten Schritte vor dem Korrekturlesen an der Plan ₿ Academy
 
 
-Bevor Sie mit einer neuen Korrekturleseaufgabe beginnen, kündigen Sie sie in der [Telegram-Gruppe] (https://t.me/PlanBNetwork_ContentBuilder) an oder informieren Sie Ihren Plan ₿ Academy-Koordinator, der eine spezielle [Ausgabe] (https://github.com/orgs/Plan ₿ Academy/projects/3) eröffnet. Wenn Sie den Link zum Thema erhalten, kommentieren Sie einfach, dass Sie mit dem Korrekturlesen dieses Inhalts beginnen**.
+Bevor Sie mit einer neuen Korrekturleseaufgabe beginnen, kündigen Sie sie in der [Telegram-Gruppe] (https://t.me/PlanBNetwork_ContentBuilder) an oder informieren Sie Ihren Plan ₿ Academy-Koordinator, der eine spezielle [Ausgabe] (https://github.com/orgs/PlanB-Network/projects/3) eröffnet. Wenn Sie den Link zum Thema erhalten, kommentieren Sie einfach, dass Sie mit dem Korrekturlesen dieses Inhalts beginnen**.
 
 
 Dieses System hilft dem Koordinator, den Fortschritt innerhalb des Repos zu verfolgen, und ermöglicht es, dass der Inhalt vom Korrekturleser "beansprucht" wird, um doppelte Arbeit durch jemand anderen zu verhindern.

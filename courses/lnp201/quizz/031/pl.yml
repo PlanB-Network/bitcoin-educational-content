@@ -6,4 +6,4 @@ wrong_answers:
   - Opłaty za routing ustalone przez każdy węzeł
 explanation: |
   Maksymalna kwota, jaką można przekazać płatnością pośrednia, zależy od najniższej płynności dostępnej w wykorzystywanych kanałach, ponieważ każdy kanał musi dostosować środki po każdej stronie.
-reviewed: false
+reviewed: true

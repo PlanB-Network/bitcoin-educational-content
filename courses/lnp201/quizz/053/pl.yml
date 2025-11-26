@@ -6,4 +6,4 @@ wrong_answers:
   - Aby ograniczyć korzystanie z łańcucha bloków Bitcoina
 explanation: |
   Router ma na celu przekierowanie jak największej liczby płatności w celu pobrania opłat, co wymaga dobrego rozkładu płynności po obu stronach kanałów, aby zapewnić przepustowość routingu.
-reviewed: false
+reviewed: true

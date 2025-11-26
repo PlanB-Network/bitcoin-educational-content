@@ -49,7 +49,6 @@ Katika kubuni Bitcoin, Satoshi Nakamoto ilitiwa moyo sana na modeli ya eCash, dh
 
 Bitcoin iliibuka katika muktadha mahususi: kufungwa na serikali ya shirikisho ya Marekani kwa mifumo ya fedha za kibinafsi, kama vile sarafu ya kidijitali ya dhahabu ya kielektroniki mwaka wa 2008 na mfumo wa Liberty Reserve mwaka wa 2013. Kwa kutegemea mtindo uliosambaza hatari miongoni mwa washiriki wake, sawa na mifumo ya kushirikiana kati ya wenzao kama vile BitTorant ya Gmotor ambayo muundo wa kidijitali ungeweza kuunda mifumo ya kidijitali ya NavTorrent. kuhimili mashambulizi ya moja kwa moja kutoka kwa serikali.
 
-Kuundwa kwa Bitcoin pia kulikuwa katika muktadha wa kufungwa kwa serikali kwa mifumo ya sarafu za kibinafsi kama vile e-gold na Liberty Reserve. Ilijumuisha muundo thabiti wa sarafu ya kidijitali ambayo inaweza kupinga mashambulizi ya moja kwa moja kutoka kwa serikali ya shirikisho ya Marekani. Kwa kusambaza hatari miongoni mwa washiriki wake, sawa na mifumo ya kushiriki kati-ka-rika kama BitTorrent, ilihakikisha uhai wake yenyewe.
 
 Hatimaye, mradi wa Bitcoin ndio mrithi wa maadili ya vuguvugu la Cypherpunk, vuguvugu la waandishi wa habari waasi kutoka miaka ya 90, ambao walitaka kuhifadhi ufaragha na uhuru wa watu kwenye Mtandao kupitia matumizi ya haraka ya kriptografia. Bitcoin inalingana na miradi kama vile b-pesa, dhahabu kidogo, au RPOW iliyowaziwa na watu hawa mwishoni mwa miaka ya 90 na mwanzoni mwa miaka ya 2000. Satoshi Nakamoto aliwataja, ingawa hakuwafahamu kabla ya kuunda Bitcoin na pengine hakuwa sehemu ya harakati za awali.
 

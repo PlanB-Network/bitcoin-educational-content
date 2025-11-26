@@ -43,7 +43,6 @@ Além dessa narrativa, o Bitcoin também tem uma pré-história. De fato, não �
 
 Ao projetar o Bitcoin, Satoshi Nakamoto foi grandemente inspirado pelo modelo eCash, um conceito proposto pelo criptógrafo David Chaum em 1982 e implementado por meio de sua empresa DigiCash nos anos 90. Este modelo, que se baseava no processo de assinatura cega, permitia que os usuários fizessem trocas de maneira relativamente confidencial. No entanto, era baseado em uma rede centralizada de bancos que intervinha para prevenir o gasto duplo. Portanto, quando a DigiCash faliu, o sistema colapsou. O Bitcoin corrigiu esse problema eliminando a necessidade de uma terceira parte confiável.
 
-O Bitcoin surgiu em um contexto particular: o fechamento pelo governo federal dos EUA de sistemas de moeda privada, como a moeda de ouro digital e-gold em 2008 e o sistema Liberty Reserve em 2013. Ao depender de um modelo que distribuía o risco entre seus participantes, semelhante a sistemas de compartilhamento peer-to-peer como o BitTorrent, Satoshi Nakamoto criou um modelo robusto de moeda digital que poderia resistir a assaltos diretos do estado.
 
 A criação do Bitcoin também estava no contexto do fechamento pelo estado de sistemas de moeda privada como e-gold e Liberty Reserve. Constituiu um modelo robusto de moeda digital que poderia resistir a assaltos diretos do governo federal dos EUA. Distribuindo o risco entre seus participantes, semelhante a sistemas de compartilhamento peer-to-peer como o BitTorrent, garantiu sua própria sobrevivência.
 

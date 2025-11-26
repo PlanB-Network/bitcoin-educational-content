@@ -64,7 +64,6 @@ Pored ove priče, Bitcoin takođe ima preistoriju. Zaista, to nije objekat koji 
 U dizajniranju Bitcoin, Satoshi Nakamoto je bio veoma inspirisan eCash modelom, konceptom koji je predložio kriptograf David Chaum 1982. godine i implementirao kroz svoju kompaniju DigiCash 90-ih godina. Ovaj model, koji se oslanjao na proces slepog potpisa, omogućavao je korisnicima da vrše razmene na relativno poverljiv način. Međutim, bio je zasnovan na centralizovanoj mreži banaka koje su intervenisale kako bi sprečile dvostruko trošenje. Stoga, kada je DigiCash bankrotirao, sistem se urušio. Bitcoin je ispravio ovaj problem eliminisanjem potrebe za pouzdanim trećim licem.
 
 
-Bitcoin se pojavio u posebnom kontekstu: zatvaranje privatnih valutnih sistema od strane američke savezne vlade, kao što su digitalna zlatna valuta e-gold 2008. godine i sistem Liberty Reserve 2013. godine. Oslanjajući se na model koji je raspodelio rizik među svojim učesnicima, slično sistemima za deljenje među korisnicima kao što je BitTorrent, Satoshi Nakamoto je stvorio robustan model digitalne valute koji bi mogao izdržati direktne napade države.
 
 
 Kreiranje Bitcoin bilo je takođe u kontekstu zatvaranja privatnih valutnih sistema od strane države, kao što su e-gold i Liberty Reserve. Ono je predstavljalo robustan model digitalne valute koji je mogao da se odupre direktnim napadima federalne vlade SAD. Distribucijom rizika među svojim učesnicima, slično sistemima za deljenje kao što je BitTorrent, osiguralo je sopstveni opstanak.

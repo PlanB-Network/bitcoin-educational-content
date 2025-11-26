@@ -46,7 +46,6 @@ Peale selle loo on Bitcoinil ka eellugu. Tõepoolest, see ei ole objekt, mis tul
 
 Bitcoin'i kujundades sai Satoshi Nakamoto suurt inspiratsiooni eCash mudelist, mida pakkus välja krüptograaf David Chaum 1982. aastal ja rakendas oma ettevõtte DigiCash kaudu 90ndatel. See mudel, mis toetus pimeallkirja protsessile, võimaldas kasutajatel teha vahetusi suhteliselt konfidentsiaalsel viisil. Siiski põhines see pankade tsentraliseeritud võrgustikul, mis sekkus topeltkulutamise vältimiseks. Seega, kui DigiCash pankrotti läks, varises süsteem kokku. Bitcoin lahendas selle probleemi, kõrvaldades vajaduse usaldusväärse kolmanda osapoole järele.
 
-Bitcoin tekkis erilises kontekstis: USA föderaalse valitsuse sulgemine eraõiguslike valuutasüsteemide, nagu digitaalse kulla valuuta e-gold 2008. aastal ja Liberty Reserve süsteem 2013. aastal. Toetudes mudelile, mis jaotas riski oma osalejate vahel, sarnaselt peer-to-peer jagamissüsteemidele nagu BitTorrent, lõi Satoshi Nakamoto vastupidava digitaalse valuuta mudeli, mis suutis vastu pidada riigi otsesele rünnakule.
 
 Bitcoin'i loomine oli ka eraõiguslike valuutasüsteemide, nagu e-gold ja Liberty Reserve, riikliku sulgemise kontekstis. See moodustas vastupidava digitaalse valuuta mudeli, mis suutis vastu seista USA föderaalse valitsuse otsesele rünnakule. Riski jaotades oma osalejate vahel, sarnaselt peer-to-peer jagamissüsteemidele nagu BitTorrent, tagas see oma ellujäämise.
 

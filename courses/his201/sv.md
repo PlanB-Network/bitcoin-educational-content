@@ -64,7 +64,6 @@ Förutom denna berättelse har Bitcoin också en förhistoria. Det är faktiskt 
 Vid utformningen av Bitcoin, Satoshi inspirerades Nakamoto starkt av eCash-modellen, ett koncept som föreslogs av kryptografen David Chaum 1982 och som implementerades genom hans företag DigiCash på 1990-talet. Denna modell, som byggde på blinda signaturer, gjorde det möjligt för användare att göra utbyten på ett relativt konfidentiellt sätt. Den byggde dock på ett centraliserat nätverk av banker som ingrep för att förhindra Double-spending. När DigiCash gick i konkurs kollapsade därför systemet. Bitcoin korrigerade detta problem genom att eliminera behovet av en betrodd tredje part.
 
 
-Bitcoin uppstod i ett särskilt sammanhang: den amerikanska federala regeringens stängning av privata valutasystem, såsom den digitala guldvalutan e-gold 2008 och Liberty Reserve-systemet 2013. Genom att förlita sig på en modell som fördelade risker mellan deltagarna, liknande peer-to-peer-delningssystem som BitTorrent, skapade Satoshi Nakamoto en robust modell för digital valuta som kunde stå emot direkta attacker från staten.
 
 
 Skapandet av Bitcoin skedde också under den statliga stängningen av privata valutasystem som e-gold och Liberty Reserve. Bitcoin utgjorde en robust digital valutamodell som kunde motstå direkta attacker från den amerikanska federala regeringen. Att fördela risker mellan deltagarna, på samma sätt som peer-to-peer-delningssystem som BitTorrent, säkerställde dess överlevnad.

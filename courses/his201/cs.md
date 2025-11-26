@@ -44,7 +44,6 @@ Kromě této historie má Bitcoin také předhistorii. Skutečně nejde o objekt
 
 Při návrhu Bitcoinu byl Satoshi Nakamoto silně inspirován modelem eCash, konceptem navrženým kryptografem Davidem Chaumem v roce 1982 a implementovaným prostřednictvím jeho společnosti DigiCash v 90. letech. Tento model, který využíval proces slepého podpisu, umožňoval uživatelům provádět výměny relativně důvěrným způsobem. Byl však založen na centralizované síti bank, které zasahovaly, aby zabránily dvojímu utrácení. Proto, když DigiCash zbankrotoval, systém se zhroutil. Bitcoin tento problém vyřešil tím, že odstranil potřebu důvěryhodné třetí strany.
 
-Bitcoin vznikl v konkrétním kontextu: uzavření soukromých měnových systémů federální vládou USA, jako byla digitální zlatá měna e-gold v roce 2008 a systém Liberty Reserve v roce 2013. Spoléháním na model, který rozděloval riziko mezi jeho účastníky, podobně jako systémy peer-to-peer sdílení typu BitTorrent, Satoshi Nakamoto vytvořil robustní model digitální měny, který mohl odolat přímým útokům státu.
 
 Vznik Bitcoinu byl také v kontextu uzavření soukromých měnových systémů, jako jsou e-gold a Liberty Reserve, státem. Představoval robustní model digitální měny, který mohl odolat přímým útokům federální vlády USA. Rozdělením rizika mezi jeho účastníky, podobně jako systémy peer-to-peer sdílení typu BitTorrent, zajistil své vlastní přežití.
 

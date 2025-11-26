@@ -64,7 +64,6 @@ Bu anlatının yanı sıra Bitcoin'in bir de tarih öncesi var. Gerçekten de, b
 Bitcoin, Satoshi'u tasarlarken Nakamoto, kriptograf David Chaum tarafından 1982 yılında önerilen ve 1990'larda şirketi DigiCash aracılığıyla uygulanan bir konsept olan eCash modelinden büyük ölçüde esinlenmiştir. Kör imza sürecine dayanan bu model, kullanıcıların nispeten gizli bir şekilde alışveriş yapmalarına olanak tanıyordu. Ancak, Double-spending'i önlemek için müdahale eden merkezi bir banka ağına dayanıyordu. Bu nedenle, DigiCash iflas ettiğinde sistem çöktü. Bitcoin, güvenilir bir üçüncü taraf ihtiyacını ortadan kaldırarak bu sorunu düzeltti.
 
 
-Bitcoin özel bir bağlamda ortaya çıkmıştır: 2008 yılında dijital altın para birimi e-gold ve 2013 yılında Liberty Reserve sistemi gibi özel para sistemlerinin ABD federal hükümeti tarafından kapatılması. Satoshi Nakamoto, BitTorrent gibi eşler arası paylaşım sistemlerine benzer şekilde riski katılımcıları arasında dağıtan bir modele dayanarak, devletten gelen doğrudan saldırılara dayanabilecek sağlam bir dijital para birimi modeli yarattı.
 
 
 Bitcoin'ün yaratılması aynı zamanda e-gold ve Liberty Reserve gibi özel para sistemlerinin devlet tarafından kapatılması sırasında gerçekleşmiştir. Bitcoin, ABD federal hükümetinin doğrudan saldırılarına direnebilecek sağlam bir dijital para birimi modeli oluşturdu. BitTorrent gibi eşler arası paylaşım sistemlerine benzer şekilde riskin katılımcılar arasında dağıtılması, hayatta kalmasını sağladı.

@@ -64,7 +64,6 @@ Uretse iyo nkuru, Bitcoin na yo irafise amateka y’imbere y’igihe. Nkako, si 
 Mu guhingura Bitcoin, Satoshi Nakamoto yahumekewe cane n’akarorero ka eCash, iciyumviro cashikirijwe n’umuhinga mu vy’ubuhinga bwa none David Chaum mu 1982, gica gishirwa mu ngiro biciye mu kigo ciwe DigiCash mu myaka ya 1990. Ico kigereranyo, cari gishingiye ku buryo bwo gusinya ata co bimaze, caratuma abakoresha bashobora guhanahana amakuru mu buryo butari bwinshi bw’ibanga. Ariko rero, ryari rishingiye ku nzira y’amabanki yaje gufasha kugira ngo Double-spending ibuze. Ni co gituma DigiCash yacitse intege, iyo systeme yarasenyutse. Bitcoin yarakosoye iyo ngorane mu gukuraho ivy’uko umuntu agira gatatu yizigirwa.
 
 
-Bitcoin yaje mu gihe kidasanzwe: ugufunga na Leta Zunze Ubumwe za Amerika uburyo bw’amafaranga yigenga, nk’amafaranga y’inzahabu y’ubuhinga bwa none e-gold mu 2008 n’uburyo bwa Liberty Reserve mu 2013. yaremye uburyo bukomeye bw’amahera y’ubuhinga bwa none ashobora guhangana n’ibitero bitaziguye biva kuri Leta.
 
 
 Ishirwaho rya Bitcoin na ryo nyene ryabaye mu gihe Leta yafunga amafaranga y’abikorera ku giti cabo nka e-gold na Liberty Reserve. Bitcoin yari ikigereranyo gikomeye c’amahera y’ubuhinga bwa none yashobora kunanira ibitero bitaziguye biva kuri Leta Zunze Ubumwe za Amerika. Gusangira ingorane mu bari muri yo, bisa n’uburyo bwo gusangira n’abandi nka BitTorrent, vyatumye igumaho.

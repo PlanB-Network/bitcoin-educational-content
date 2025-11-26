@@ -45,7 +45,6 @@ Besides this narrative, Bitcoin also has a prehistory. Indeed, it is not an obje
 
 In designing Bitcoin, Satoshi Nakamoto was greatly inspired by the eCash model, a concept proposed by cryptographer David Chaum in 1982 and implemented through his company DigiCash in the 1990s. This model, which relied on the blind signature process, allowed users to make exchanges in a relatively confidential manner. However, it was based on a centralized network of banks that intervened to prevent double-spending. Therefore, when DigiCash went bankrupt, the system collapsed. Bitcoin corrected this problem by eliminating the need for a trusted third party.
 
-Bitcoin emerged in a particular context: the closure by the U.S. federal government of private currency systems, such as the digital gold currency e-gold in 2008 and the Liberty Reserve system in 2013. By relying on a model that distributed risk among its participants, similar to peer-to-peer sharing systems like BitTorrent, Satoshi Nakamoto created a robust model of digital currency that could withstand direct assaults from the state.
 
 The creation of Bitcoin also occurred during the state closure of private currency systems such as e-gold and Liberty Reserve. Bitcoin constituted a robust digital currency model that could resist direct assaults from the U.S. federal government. Distributing risk among its participants, similar to peer-to-peer sharing systems like BitTorrent, ensured its survival.
 

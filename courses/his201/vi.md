@@ -44,7 +44,6 @@ Ngoài câu chuyện này, Bitcoin còn có một lịch sử tiền nhiệm. Th
 
 Trong quá trình thiết kế Bitcoin, Satoshi Nakamoto đã được truyền cảm hứng mạnh mẽ từ mô hình eCash, một khái niệm được đề xuất bởi nhà mật mã học David Chaum vào năm 1982 và được triển khai thông qua công ty DigiCash của ông trong những năm 90. Mô hình này, dựa trên quá trình chữ ký mù, cho phép người dùng thực hiện giao dịch một cách tương đối kín đáo. Tuy nhiên, nó dựa trên một mạng lưới ngân hàng tập trung can thiệp để ngăn chặn việc chi tiêu gấp đôi. Do đó, khi DigiCash phá sản, hệ thống đã sụp đổ. Bitcoin đã khắc phục vấn đề này bằng cách loại bỏ nhu cầu về một bên thứ ba đáng tin cậy.
 
-Bitcoin xuất hiện trong một bối cảnh đặc biệt: việc chính phủ liên bang Mỹ đóng cửa các hệ thống tiền tệ tư nhân, như tiền tệ vàng số e-gold vào năm 2008 và hệ thống Liberty Reserve vào năm 2013. Bằng cách dựa vào một mô hình phân tán rủi ro giữa các thành viên tham gia, tương tự như các hệ thống chia sẻ ngang hàng như BitTorrent, Satoshi Nakamoto đã tạo ra một mô hình tiền tệ số vững chắc có thể chống lại sự tấn công trực tiếp từ nhà nước.
 
 Sự tạo ra của Bitcoin cũng trong bối cảnh đóng cửa các hệ thống tiền tệ tư nhân như e-gold và Liberty Reserve bởi chính phủ. Nó tạo thành một mô hình tiền tệ số vững chắc có thể chống lại sự tấn công trực tiếp từ chính phủ liên bang Mỹ. Bằng cách phân tán rủi ro giữa các thành viên tham gia, tương tự như các hệ thống chia sẻ ngang hàng như BitTorrent, nó đảm bảo sự tồn tại của mình.
 

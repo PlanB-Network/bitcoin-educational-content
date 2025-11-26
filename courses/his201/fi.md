@@ -46,7 +46,6 @@ Tämän kertomuksen lisäksi Bitcoinilla on myös esihistoria. Se ei todellakaan
 
 Bitcoinin suunnittelussa Satoshi Nakamoto sai suurta inspiraatiota eCash-mallista, konseptista, jonka kryptografi David Chaum ehdotti vuonna 1982 ja toteutti yrityksensä DigiCash kautta 90-luvulla. Tämä malli, joka perustui sokean allekirjoituksen prosessiin, mahdollisti käyttäjien tehdä vaihtoja suhteellisen luottamuksellisesti. Se perustui kuitenkin keskitettyyn pankkiverkostoon, joka puuttui estämään kaksinkertaisen kulutuksen. Siksi, kun DigiCash meni konkurssiin, järjestelmä romahti. Bitcoin korjasi tämän ongelman poistamalla tarpeen luotettavalle kolmannelle osapuolelle.
 
-Bitcoin syntyi erityisessä kontekstissa: Yhdysvaltain liittovaltion hallituksen sulkemisessa yksityisiä valuuttajärjestelmiä, kuten digitaalisen kullan valuutta e-gold vuonna 2008 ja Liberty Reserve -järjestelmä vuonna 2013. Nojautumalla malliin, joka jakoi riskin osallistujiensa kesken, samankaltaisesti vertaisverkkojen jakamisjärjestelmien, kuten BitTorrentin, kanssa, Satoshi Nakamoto loi kestävän digitaalisen valuutan mallin, joka voisi kestää suorat valtion hyökkäykset.
 
 Bitcoinin luominen oli myös kontekstissa valtion yksityisten valuuttajärjestelmien, kuten e-goldin ja Liberty Reserven, sulkemisessa. Se muodosti kestävän digitaalisen valuutan mallin, joka voisi vastustaa suoria Yhdysvaltain liittovaltion hyökkäyksiä. Riskin jakamalla osallistujiensa kesken, samankaltaisesti vertaisverkkojen jakamisjärjestelmien, kuten BitTorrentin, kanssa, se varmisti oman selviytymisensä.
 

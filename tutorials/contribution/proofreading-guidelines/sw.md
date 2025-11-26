@@ -44,7 +44,7 @@ Kwa maana hii, wachangiaji wote kwenye Plan ₿ Academy ni waelimishaji!
 ## Hatua za kwanza kabla ya kusahihisha kwenye Plan ₿ Academy
 
 
-Kabla ya kuanza kazi mpya ya kusahihisha, itangaze katika [kikundi cha Telegramu](https://t.me/PlanBNetwork_ContentBuilder) au umjulishe mratibu wako wa Plan ₿ Academy, ambaye atafungua [toleo] maalum (https://github.com/orgs/Plan ₿ Academy/projects/3). Unapopokea kiungo cha toleo, **toa maoni tu kwamba unaanza** na kazi ya kusahihisha maudhui hayo.
+Kabla ya kuanza kazi mpya ya kusahihisha, itangaze katika [kikundi cha Telegramu](https://t.me/PlanBNetwork_ContentBuilder) au umjulishe mratibu wako wa Plan ₿ Academy, ambaye atafungua [toleo] maalum (https://github.com/orgs/PlanB-Network/projects/3). Unapopokea kiungo cha toleo, **toa maoni tu kwamba unaanza** na kazi ya kusahihisha maudhui hayo.
 
 
 Mfumo huu humsaidia mratibu kufuatilia maendeleo ndani ya repo, na huruhusu maudhui "kudaiwa" na kisahihishaji, kuzuia jitihada zinazorudiwa na mtu mwingine.

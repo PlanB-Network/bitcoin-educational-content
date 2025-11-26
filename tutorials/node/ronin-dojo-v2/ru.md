@@ -307,7 +307,7 @@ RoninDojo предлагает образ для автоматической у
 
 Для углубленного понимания механизмов расчета этих анонимных наборов, я рекомендую прочитать статью: REMIX - WHIRLPOOL, которая детально описывает функционирование этих индексов.
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

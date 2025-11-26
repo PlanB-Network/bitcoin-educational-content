@@ -44,7 +44,7 @@ In die zin zijn alle medewerkers op Plan ₿ Academy docenten!
 ## De eerste stappen voor proeflezen op Plan ₿ Academy
 
 
-Voordat je aan een nieuwe proefleestaak begint, meld je je aan in de [Telegram groep] (https://t.me/PlanBNetwork_ContentBuilder) of informeer je je Plan ₿ Academy coördinator, die een speciale [issue] zal openen (https://github.com/orgs/Plan ₿ Academy/projects/3). Wanneer je de link van de issue ontvangt, **vermeld dan dat je begint** met het proeflezen van die inhoud.
+Voordat je aan een nieuwe proefleestaak begint, meld je je aan in de [Telegram groep] (https://t.me/PlanBNetwork_ContentBuilder) of informeer je je Plan ₿ Academy coördinator, die een speciale [issue] zal openen (https://github.com/orgs/PlanB-Network/projects/3). Wanneer je de link van de issue ontvangt, **vermeld dan dat je begint** met het proeflezen van die inhoud.
 
 
 Dit systeem helpt de coördinator om de voortgang binnen de repository bij te houden, en het maakt het mogelijk om de inhoud te "claimen" door de proeflezer, waardoor dubbel werk door iemand anders voorkomen wordt.

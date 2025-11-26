@@ -44,7 +44,7 @@ Dalam hal ini, semua kontributor di Plan ₿ Academy adalah pendidik!
 ## Langkah pertama sebelum mengoreksi di Plan ₿ Academy
 
 
-Sebelum memulai tugas proofreading baru, umumkan di [grup Telegram](https://t.me/PlanBNetwork_ContentBuilder) atau beri tahu koordinator Plan ₿ Academy Anda, yang akan membuka [edisi] khusus (https://github.com/orgs/Plan ₿ Academy/projects/3). Ketika Anda menerima tautan masalah, cukup beri komentar bahwa Anda mulai** dengan tugas mengoreksi konten tersebut.
+Sebelum memulai tugas proofreading baru, umumkan di [grup Telegram](https://t.me/PlanBNetwork_ContentBuilder) atau beri tahu koordinator Plan ₿ Academy Anda, yang akan membuka [edisi] khusus (https://github.com/orgs/PlanB-Network/projects/3). Ketika Anda menerima tautan masalah, cukup beri komentar bahwa Anda mulai** dengan tugas mengoreksi konten tersebut.
 
 
 Sistem ini membantu koordinator melacak kemajuan di dalam repo, dan memungkinkan konten untuk "diklaim" oleh korektor, mencegah upaya duplikasi oleh orang lain.

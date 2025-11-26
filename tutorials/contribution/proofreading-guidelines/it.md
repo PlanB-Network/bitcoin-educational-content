@@ -29,7 +29,7 @@ Il nostro obiettivo comune è infatti quello di educare il maggior numero possib
 
 ## I primi passi prima del proofreading su Plan ₿ Academy
 
-Prima di iniziare un nuovo proofreading, comunicalo nel [gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) o informa il tuo coordinatore di Plan ₿ Academy, che aprirà appositamente una [issue](https://github.com/orgs/Plan ₿ Academy/projects/3). Quando ricevi il link alla issue è sufficiente che **commenti comunicando che stai iniziando** il proofreading di quel contenuto.
+Prima di iniziare un nuovo proofreading, comunicalo nel [gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) o informa il tuo coordinatore di Plan ₿ Academy, che aprirà appositamente una [issue](https://github.com/orgs/PlanB-Network/projects/3). Quando ricevi il link alla issue è sufficiente che **commenti comunicando che stai iniziando** il proofreading di quel contenuto.
 
 Questo sistema aiuta il coordinatore a tenere traccia dei progressi all'interno del repo e consente al proofreader di "rivendicare" il contenuto, evitando che qualcun altro lo faccia. Nella issue stessa troverai i link che ti reindirizzeranno al contenuto da correggere. Puoi semplicemente fare clic su di essi o, ancora meglio, tornare al fork del tuo repo e lavorare direttamente da lì. Vediamo come fare!
 

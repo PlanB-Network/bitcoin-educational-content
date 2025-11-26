@@ -44,7 +44,7 @@ V tomto smyslu jsou všichni přispěvatelé na Akademii Plan ₿ pedagogové!
 ## První kroky před korekturou na Akademii Plan ₿
 
 
-Před zahájením nového korektorského úkolu jej oznamte ve skupině [Telegram](https://t.me/PlanBNetwork_ContentBuilder) nebo informujte svého koordinátora Akademie Plán ₿, který otevře speciální [issue](https://github.com/orgs/Plan ₿ Academy/projects/3). Jakmile obdržíte odkaz na vydání, jednoduše **komentujte, že začínáte** s úkolem korektury daného obsahu.
+Před zahájením nového korektorského úkolu jej oznamte ve skupině [Telegram](https://t.me/PlanBNetwork_ContentBuilder) nebo informujte svého koordinátora Akademie Plán ₿, který otevře speciální [issue](https://github.com/orgs/PlanB-Network/projects/3). Jakmile obdržíte odkaz na vydání, jednoduše **komentujte, že začínáte** s úkolem korektury daného obsahu.
 
 
 Tento systém pomáhá koordinátorovi sledovat průběh práce v repozitáři a umožňuje korektorovi "nárokovat" obsah, čímž se zabrání duplicitnímu úsilí někoho jiného.

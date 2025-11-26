@@ -53,7 +53,7 @@ Til slutt er Bitcoin-prosjektet arvingen til ethoset til cypherpunk-bevegelsen, 
 
 **Kursomriss**
 
-Dette kurset er delt inn i fire deler, som henholdsvis fokuserer på Bitcoins opprinnelse (3 kapitler), dens langsomme fremvekst (3 kapitler), dens første oppgang (3 kapitler), og dannelsen av dets fellesskap (4 kapitler). Totalt inkluderer det 12 kapitler som er som følger (den angitte perioden er også spesifisert):
+Dette kurset er delt inn i fire deler, som omhandler henholdsvis Bitcoins opprinnelse (3 kapitler), dets langsomme fremvekst (3 kapitler), dets første vekstfase (3 kapitler) og dannelsen av dets fellesskap (4 kapitler). Totalt omfatter det 13 kapitler, som er følgende (med angivelse av den aktuelle perioden):
 
 - eCash: Chaumian elektronisk kontanter (1976–1998)
 - Private digitale valutaer (1996–2013)

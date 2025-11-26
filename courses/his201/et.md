@@ -53,7 +53,7 @@ Lõpuks on Bitcoin'i projekt krüptopunkide liikumise eetose pärija, 90ndate m�
 
 **Kursuse Ülesehitus**
 
-See kursus jaguneb neljaks osaks, mis keskenduvad vastavalt Bitcoin'i päritolule (3 peatükki), selle aeglasele esilekerkimisele (3 peatükki), esialgsele tõusule (3 peatükki) ja selle kogukonna kujunemisele (4 peatükki). Kokku sisaldab see 12 peatükki, mis on järgmised (samuti on märgitud asjaomane periood):
+See kursus on jagatud neljaks osaks, mis käsitlevad vastavalt Bitcoini päritolu (3 peatükki), selle aeglast esilekerkimist (3 peatükki), selle esialgset tõusu (3 peatükki) ja selle kogukonna kujunemist (4 peatükki). Kokku sisaldab see 13 peatükki, mis on järgmised (märgitakse ka vastav ajaperiood):
 
 - eCash: Chaumian elektrooniline sularaha (1976–1998)
 - Era Digitaalvaluutad (1996–2013)

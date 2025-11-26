@@ -75,7 +75,7 @@ Tenslotte is het Bitcoin project de erfgenaam van het ethos van de Cypherpunk be
 **Cursusoverzicht**
 
 
-Deze cursus is verdeeld in vier delen, die zich respectievelijk richten op de oorsprong van Bitcoin (3 hoofdstukken), haar langzame opkomst (3 hoofdstukken), haar initiële opkomst (3 hoofdstukken), en de vorming van haar gemeenschap (4 hoofdstukken). In totaal omvat het 12 hoofdstukken, die als volgt zijn (de betreffende periode is ook aangegeven):
+Deze cursus is verdeeld in vier delen, die respectievelijk de oorsprong van Bitcoin (3 hoofdstukken), zijn trage opkomst (3 hoofdstukken), zijn eerste bloeifase (3 hoofdstukken) en de vorming van zijn gemeenschap (4 hoofdstukken) behandelen. In totaal omvat hij 13 hoofdstukken, die als volgt zijn (met vermelding van de betreffende periode):
 
 
 

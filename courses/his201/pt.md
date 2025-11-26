@@ -50,7 +50,7 @@ Finalmente, o projeto Bitcoin é herdeiro do ethos do movimento cypherpunk, um m
 
 **Estrutura do Curso**
 
-Este curso é dividido em quatro partes, que focam respectivamente nas origens do Bitcoin (3 capítulos), sua emergência lenta (3 capítulos), sua ascensão inicial (3 capítulos) e a formação de sua comunidade (4 capítulos). No total, inclui 12 capítulos que são os seguintes (o período concernente também é especificado):
+Este curso está dividido em quatro partes, que tratam respectivamente das origens do Bitcoin (3 capítulos), do seu lento surgimento (3 chapítulos), do seu crescimento inicial (3 capítulos) e da formação da sua comunidade (4 capítulos). No total, inclui 13 capítulos, que são os seguintes (indicando também o período correspondente):
 
 - eCash: Dinheiro eletrônico Chaumiano (1976–1998)
 - Moedas Digitais Privadas (1996–2013)

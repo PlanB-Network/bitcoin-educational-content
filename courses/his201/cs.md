@@ -51,7 +51,7 @@ Nakonec je projekt Bitcoinu dědicem etosu hnutí cypherpunk, hnutí rebelujíc�
 
 **Struktura kurzu**
 
-Tento kurz je rozdělen do čtyř částí, které se postupně zaměřují na původ Bitcoinu (3 kapitoly), jeho pomalý vznik (3 kapitoly), jeho počáteční vzestup (3 kapitoly) a formování jeho komunity (4 kapitoly). Celkem obsahuje 12 kapitol, které jsou následující (je také specifikováno období, na které se vztahují):
+Tento kurz je rozdělen do čtyř částí, které se postupně zabývají původem Bitcoinu (3 kapitoly), jeho pomalým vznikáním (3 kapitoly), jeho počátečním rozvojem (3 kapitoly) a formováním jeho komunity (4 kapitoly). Celkem obsahuje 13 kapitol, které jsou následující (s upřesněním daného období):
 
 - eCash: Chaumovo elektronické peníze (1976–1998)
 - Soukromé digitální měny (1996–2013)

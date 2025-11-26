@@ -75,7 +75,7 @@ Slutligen är Bitcoin-projektet arvtagare till Cypherpunk-rörelsens etos, en r�
 **Kursöversikt**
 
 
-Kursen är indelad i fyra delar, som fokuserar på Bitcoin:s ursprung (3 kapitel), dess långsamma framväxt (3 kapitel), dess initiala uppgång (3 kapitel) och bildandet av dess samhälle (4 kapitel). Totalt innehåller den 12 kapitel, vilka är följande (den berörda perioden anges också):
+Denna kurs är indelad i fyra delar, som behandlar Bitcoins ursprung (3 kapitel), dess långsamma framväxt (3 kapitel), dess första utvecklingsfas (3 kapitel) och bildandet av dess gemenskap (4 kapitel). Totalt omfattar den 13 kapitel, vilka är följande (med angivelse av den aktuella perioden):
 
 
 

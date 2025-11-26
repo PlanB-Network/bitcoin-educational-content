@@ -51,7 +51,7 @@ Akhirnya, proyek Bitcoin adalah pewaris etos gerakan cypherpunk, sebuah gerakan 
 
 **Garis Besar Kursus**
 
-Kursus ini dibagi menjadi empat bagian, yang masing-masing berfokus pada asal-usul Bitcoin (3 bab), kemunculan perlahannya (3 bab), kenaikan awalnya (3 bab), dan pembentukan komunitasnya (4 bab). Secara total, kursus ini mencakup 12 bab yang adalah sebagai berikut (periode yang bersangkutan juga ditentukan):
+Kursus ini dibagi menjadi empat bagian, yang masing-masing membahas asal-usul Bitcoin (3 bab), kemunculannya yang lambat (3 bab), pertumbuhan awalnya (3 bab), dan pembentukan komunitasnya (4 bab). Secara total, kursus ini mencakup 13 bab berikut (dengan periode terkait juga dijelaskan):
 
 - eCash: Uang elektronik Chaumian (1976–1998)
 - Mata Uang Digital Pribadi (1996–2013)

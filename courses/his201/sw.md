@@ -54,7 +54,7 @@ Hatimaye, mradi wa Bitcoin ndio mrithi wa maadili ya vuguvugu la Cypherpunk, vug
 
 ### Muhtasari wa Kozi
 
-Kozi hii imegawanywa katika sehemu nne, ambazo kwa mtiririko huo zinazingatia asili ya Bitcoin (sura 3), kuibuka kwake polepole (sura 3), kuongezeka kwake kwa awali (sura 3), na malezi ya jumuiya yake (sura 4). Kwa jumla, inajumuisha sura 12 ambazo ni kama ifuatavyo (kipindi kinachohusika pia kimebainishwa):
+Kozi hii imegawanywa katika sehemu nne, zinazoshughulikia kwa mtiririko asili ya Bitcoin (sura 3), kuibuka kwake polepole (sura 3), ukuaji wake wa awali (sura 3) na uundaji wa jamii yake (sura 4). Jumla yake ina sura 13 ambazo ni hizi zifuatazo (kwa pia kutaja kipindi kinachohusika):
 
 
 - eCash: Pesa ya kielektroniki ya Chaumian (1976-1998)

@@ -75,7 +75,7 @@ Son olarak, Bitcoin projesi, kriptografinin proaktif kullanımı yoluyla İntern
 **Kurs Taslağı**
 
 
-Bu ders, sırasıyla Bitcoin'nin kökenlerine (3 bölüm), yavaş yavaş ortaya çıkışına (3 bölüm), ilk yükselişine (3 bölüm) ve topluluğunun oluşumuna (4 bölüm) odaklanan dört bölüme ayrılmıştır. Toplamda, aşağıdaki gibi 12 bölüm içermektedir (ilgili dönem de belirtilmiştir):
+Bu ders dört bölüme ayrılmıştır; sırasıyla Bitcoin’in kökenleri (3 bölüm), yavaş ortaya çıkışı (3 bölüm), ilk yükselişi (3 bölüm) ve topluluğunun oluşumu (4 bölüm) ele alınmaktadır. Toplamda, ilgili dönemin de belirtildiği aşağıdaki 13 bölümden oluşmaktadır:
 
 
 

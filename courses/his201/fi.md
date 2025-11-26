@@ -53,7 +53,7 @@ Lopulta Bitcoin-projekti on kyberpunk-liikkeen perintö, 90-luvun kapinallisten 
 
 **Kurssin Rakenne**
 
-Tämä kurssi on jaettu neljään osaan, jotka keskittyvät vastaavasti Bitcoinin alkuperään (3 lukua), sen hitaaseen esiinmarssiin (3 lukua), sen alkunousuun (3 lukua) ja sen yhteisön muodostumiseen (4 lukua). Yhteensä se sisältää 12 lukua, jotka ovat seuraavat (kyseinen ajanjakso on myös määritelty):
+Tämä kurssi on jaettu neljään osaan, jotka käsittelevät vastaavasti Bitcoinin alkuperää (3 lukua), sen hidasta esiinmarssia (3 lukua), sen alkuvaiheen nousua (3 lukua) ja sen yhteisön muodostumista (4 lukua). Yhteensä siihen sisältyy 13 lukua, jotka ovat seuraavat (ajanjakso on myös mainittu):
 
 - eCash: Chaumin sähköinen käteinen (1976–1998)
 - Yksityiset Digitaaliset Valuutat (1996–2013)

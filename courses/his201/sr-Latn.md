@@ -75,7 +75,7 @@ Konačno, projekat Bitcoin je naslednik etosa pokreta Cypherpunk, pokreta pobunj
 **Plan kursa**
 
 
-Ovaj kurs je podeljen na četiri dela, koji se fokusiraju na poreklo Bitcoin (3 poglavlja), njegovo sporo pojavljivanje (3 poglavlja), njegov početni uspon (3 poglavlja) i formiranje njegove zajednice (4 poglavlja). Ukupno, uključuje 12 poglavlja koja su sledeća (naveden je i odgovarajući period):
+Ovaj kurs je podeljen u četiri dela, koji se redom bave poreklom Bitcoina (3 poglavlja), njegovim sporim nastankom (3 poglavlja), njegovim početnim usponom (3 poglavlja) i formiranjem njegove zajednice (4 poglavlja). Ukupno sadrži 13 poglavlja, koja su sledeća (uz naznačavanje odgovarajućeg perioda):
 
 
 

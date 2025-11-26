@@ -75,7 +75,7 @@ Wreszcie, projekt Bitcoin jest spadkobiercą etosu ruchu Cypherpunk, ruchu zbunt
 **Zarys kursu**
 
 
-Kurs podzielony jest na cztery części, które koncentrują się kolejno na początkach Bitcoina (3 rozdziały), jego powolnym powstawaniu (3 rozdziały), jego początkowym wzroście (3 rozdziały) i kształtowaniu się jego społeczności (4 rozdziały). W sumie zawiera następujących 12 rozdziałów (określony jest również okres czasu, którego dotyczą):
+Kurs ten podzielony jest na cztery części, które kolejno dotyczą początków Bitcoina (3 rozdziały), jego powolnego wyłaniania się (3 rozdziały), jego wstępnego rozwoju (3 rozdziały) oraz kształtowania się jego społeczności (4 rozdziały). Łącznie obejmuje 13 rozdziałów, które są następujące (z podaniem odpowiedniego okresu):
 
 
 

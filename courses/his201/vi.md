@@ -51,7 +51,7 @@ Cuối cùng, dự án Bitcoin là người kế thừa tinh thần của phong 
 
 **Đề Cương Khóa Học**
 
-Khóa học này được chia thành bốn phần, tập trung lần lượt vào nguồn gốc của Bitcoin (3 chương), sự xuất hiện chậm rãi của nó (3 chương), sự tăng trưởng ban đầu (3 chương), và sự hình thành của cộng đồng của nó (4 chương). Tổng cộng, nó bao gồm 12 chương như sau (khoảng thời gian liên quan cũng được chỉ định):
+Khoá học này được chia thành bốn phần, lần lượt đề cập đến nguồn gốc của Bitcoin (3 chương), sự xuất hiện chậm chạp của nó (3 chương), giai đoạn phát triển ban đầu (3 chương) và sự hình thành cộng đồng của nó (4 chương). Tổng cộng có 13 chương như sau (kèm theo giai đoạn liên quan):
 
 - eCash: Tiền mặt điện tử Chaumian (1976–1998)
 - Các Đồng Tiền Số Tư Nhân (1996–2013)

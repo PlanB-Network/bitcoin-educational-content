@@ -49,7 +49,7 @@ Schließlich ist das Bitcoin-Projekt der Erbe des Ethos der Cypherpunk-Bewegung,
 
 **Kursübersicht**
 
-Dieser Kurs ist in vier Teile gegliedert, die sich jeweils auf die Ursprünge von Bitcoin (3 Kapitel), sein langsames Auftauchen (3 Kapitel), seinen anfänglichen Aufstieg (3 Kapitel) und die Bildung seiner Gemeinschaft (4 Kapitel) konzentrieren. Insgesamt umfasst er 12 Kapitel, die wie folgt sind (der betreffende Zeitraum ist ebenfalls angegeben):
+Dieser Kurs ist in vier Teile gegliedert, die sich jeweils mit den Ursprüngen von Bitcoin (3 Kapitel), seinem langsamen Entstehen (3 Kapitel), seinem ersten Aufschwung (3 Kapitel) und der Bildung seiner Gemeinschaft (4 Kapitel) befassen. Insgesamt umfasst er 13 Kapitel, die wie folgt lauten (unter Angabe des betreffenden Zeitraums):
 
 - eCash: Chaumianisches elektronisches Bargeld (1976–1998)
 - Private digitale Währungen (1996–2013)

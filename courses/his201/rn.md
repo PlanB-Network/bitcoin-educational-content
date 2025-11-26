@@ -75,7 +75,7 @@ Ubwa nyuma, umugambi wa Bitcoin ni wo muragwa w’inyifato runtu y’umuhari Cyp
 **Icigwa**
 
 
-Iryo shure rigizwe n’ibice bine, ivyo bikaba vyibanda ku nkomoko ya Bitcoin (ibice 3), ukuntu yaserutse buhoro buhoro (ibice 3), ukuntu yatanguye gutera imbere (ibice 3), n’ukuntu umuryango wayo washinzwe (ibice 4). Muri rusangi, harimwo ibigabane 12, ari vyo bikurikira (igihe kivuga na co nyene kiratomoye):
+Uyu mwigisho wagabanyijwemwo ibice bine, bihuga ku ntango za Bitcoin (ibice 3), ukwitahira buhoro-buhoro (ibice 3), ukuroranirwa kw’itangura (ibice 3) be no kwiyubakwa kw’imbaga yacyo (ibice 4). Vyose hamwe, urafise ibice 13 bikurikira (hamwe no gusigura igihe biregukira):
 
 
 

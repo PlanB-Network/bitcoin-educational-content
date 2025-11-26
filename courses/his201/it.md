@@ -52,7 +52,7 @@ Infine, il progetto Bitcoin incarna l'etica del movimento cypherpunk, un movimen
 
 **Programma del corso**
 
-Questo corso è diviso in quattro parti, che si concentrano rispettivamente sulle origini di Bitcoin (3 capitoli), la sua lenta emergenza (3 capitoli), la sua ascesa iniziale (3 capitoli) e la formazione della sua community (4 capitoli). In totale, include 12 capitoli che sono i seguenti (è specificato anche il periodo di riferimento):
+Questo corso è suddiviso in quattro parti, che trattano rispettivamente le origini di Bitcoin (3 capitoli), la sua lenta comparsa (3 capitoli), il suo primo sviluppo (3 capitoli) e la formazione della sua comunità (4 capitoli). In totale comprende 13 capitoli, che sono i seguenti (con indicazione del periodo di riferimento):
 
 - eCash: denaro elettronico Chaumiano (1976–1998)
 - Valute digitali private (1996–2013)

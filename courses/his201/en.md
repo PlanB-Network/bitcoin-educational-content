@@ -52,7 +52,7 @@ Finally, the Bitcoin project is the heir to the ethos of the cypherpunk movement
 
 **Course Outline**
 
-This course is divided into four parts, which respectively focus on the origins of Bitcoin (3 chapters), its slow emergence (3 chapters), its initial rise (3 chapters), and the formation of its community (4 chapters). In total, it includes 12 chapters, which are as follows (the concerned period is also specified):
+This course is divided into four parts, addressing respectively the origins of Bitcoin (3 chapters), its slow emergence (3 chapters), its initial rise (3 chapters), and the formation of its community (4 chapters). In total, it includes 13 chapters, which are the following (the relevant period is also specified):
 
 - eCash: Chaumian electronic cash (1976–1998)
 - Private Digital Currencies (1996–2013)

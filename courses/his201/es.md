@@ -50,7 +50,7 @@ Finalmente, el proyecto Bitcoin hereda la filosofía del movimiento cypherpunk, 
 
 **Esquema del Curso**
 
-Este curso se divide en cuatro partes, que se centran respectivamente en los orígenes de Bitcoin (3 capítulos), su lento surgimiento (3 capítulos), su ascenso inicial (3 capítulos) y la formación de su comunidad (4 capítulos). En total, incluye 12 capítulos que son los siguientes (también se especifica el período correspondiente):
+Este curso está dividido en cuatro partes, que abordan respectivamente los orígenes de Bitcoin (3 capítulos), su lenta aparición (3 capítulos), su auge inicial (3 capítulos) y la formación de su comunidad (4 capítulos). En total, comprende 13 capítulos que son los siguientes (indicando también el período correspondiente):
 
 - eCash: efectivo electrónico Chaumian (1976–1998)
 - Monedas Digitales Privadas (1996–2013)

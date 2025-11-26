@@ -128,7 +128,7 @@ Tout comme le portefeuille Bitcoin standard de Blue Wallet, vous pouvez définir
 
 Lors de la validation de votre transaction, vous aurez besoin d'une seconde signature pour approuver la dépense des bitcoins, rappelez vous nous sommes dans une configuration 2-de-3 multi signatures.
 
-Le second portefeuille signataire s'il utilise également a la possibilité de signer la transaction même en étant d'un hors réseau internet (Pas de Wi-Fi, pas de donnés mobile) en scannant le code QR de la [transaction partiellement signée](https://planb.academy/resources/glossary/psbt) que vous venez de créer.
+Le second portefeuille signataire, s’il est également utilisateur, a la possibilité de signer la transaction même en étant d'un hors réseau internet (Pas de Wi-Fi, pas de donnés mobile) en scannant le code QR de la [transaction partiellement signée](https://planb.academy/resources/glossary/psbt) que vous venez de créer.
 
 ![mutisig-send](assets/fr/13.webp)
 

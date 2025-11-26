@@ -330,7 +330,7 @@ Sau khi được công bố trên danh sách, b-money đã thu hút sự chú ý
 
 ### bit gold: vàng số trước Bitcoin
 
-Mô hình thứ hai xuất hiện từ ý tưởng của các cypherpunk là ý tưởng về bit gold được tưởng tượng bởi Nick Szabo vào năm 1998. Ông là một nhà khoa học máy tính người Mỹ gốc Hungary, đã từng làm việc như một tư vấn viên cho DigiCash trong sáu tháng. Là một cypherpunk, ông được biết đến với việc đã hình thành khái niệm về hợp đồng thông minh vào năm 1995.
+Mô hình thứ hai nổi lên từ ý tưởng của các cypherpunk là khái niệm bit gold do Nick Szabo hình dung vào năm 1998. Ông là một nhà khoa học máy tính người Mỹ gốc Hungary, người đáng chú ý đã làm cố vấn cho DigiCash trong sáu tháng. Là một Cypherpunk, ông được biết đến là người đã chính thức hóa khái niệm *smart contract* (hợp đồng thông minh) vào năm 1995.
 Vào năm 1994, Nick Szabo đã tạo ra một danh sách thư tư nhân gọi là libtech-l, với mục tiêu, như tên gọi của nó, là tổ chức các cuộc thảo luận về các kỹ thuật giải phóng, cho phép bảo vệ quyền tự do cá nhân chống lại sự tấn công của các cơ quan chính quyền. Những người ủng hộ chủ nghĩa mã hóa như Wei Dai và Hal Finney đã có quyền truy cập, cũng như các nhà kinh tế học Larry White và George Selgin, những người ủng hộ sự cạnh tranh tiền tệ theo Hayek và ngân hàng tự do.
 ![Nick Szabo năm 1997](assets/vi/017.webp)
 Nick Szabo năm 1997 (nguồn: [Adrien Chen](https://twitter.com/AdrianChen/status/456922865992863744/photo/1))

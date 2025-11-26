@@ -340,7 +340,7 @@ Etter publiseringen på listen, fanget b-money oppmerksomheten til cypherpunkene
 
 ### bit gold: digitalt gull før Bitcoin
 
-Den andre modellen som dukket opp fra ideene til cypherpunkene var ideen om bit gold forestilt av Nick Szabo i 1998. Han var en amerikansk datavitenskapsmann av ungarsk opprinnelse, som hadde jobbet som konsulent for DigiCash i seks måneder. En cypherpunk, han er kjent for å ha formalisert begrepet smart kontrakt i 1995.
+Den andre modellen som dukket opp fra cypherpunkenes ideer var konseptet bit gold, forestilt av Nick Szabo i 1998. Sistnevnte var en amerikansk dataforsker av ungarsk opprinnelse, som spesielt hadde jobbet som konsulent for DigiCash i seks måneder. Som Cypherpunk er han kjent for å ha formalisert begrepet *smart contract* i 1995.
 I 1994 opprettet Nick Szabo en privat e-postliste kalt libtech-l, som hadde som mål, som navnet antyder, å være vert for diskusjoner om frigjørende teknikker, som tillot beskyttelse av individuelle friheter mot myndighetenes overgrep. Cypherpunks som Wei Dai og Hal Finney hadde tilgang, så vel som økonomene Larry White og George Selgin, tilhengere av Hayekiansk valutakonkurranse og fri bankvirksomhet.
 ![Nick Szabo i 1997](assets/nb-NO/017.webp)
 Nick Szabo i 1997 (kilde: [Adrien Chen](https://twitter.com/AdrianChen/status/456922865992863744/photo/1))

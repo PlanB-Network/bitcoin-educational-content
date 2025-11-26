@@ -343,7 +343,7 @@ Julkaisunsa jälkeen listalla b-money kiinnitti kyberpunkkien huomion, erityises
 
 ### bit gold: digitaalinen kulta ennen Bitcoinia
 
-Toinen kyberpunkkien ideoista esiin noussut malli oli bit gold, jonka Nick Szabo kuvitteli vuonna 1998. Hän oli unkarilaistaustainen amerikkalainen tietojenkäsittelijä, joka oli työskennellyt kuusi kuukautta konsulttina DigiCashille. Kyberpunkkina hän tunnetaan älykkäiden sopimusten käsitteen muodollistamisesta vuonna 1995.
+Toinen malli, joka syntyi cypherpunkien ideoista, oli Nick Szabon vuonna 1998 kuvittelema bit gold -käsite. Jälkimmäinen oli unkarilaista alkuperää oleva amerikkalainen tietojenkäsittelytieteilijä, joka oli työskennellyt muun muassa DigiCashin konsulttina kuusi kuukautta. Cypherpunkina hänet tunnetaan *smart contract* (älysopimuksen) käsitteen formalisoinnista vuonna 1995.
 Vuonna 1994 Nick Szabo loi yksityisen postituslistan nimeltä libtech-l, jonka tavoitteena oli, kuten nimi vihjaa, isännöidä keskusteluja vapauttavista tekniikoista, jotka mahdollistavat yksilön vapauksien suojelun viranomaisten hyökkäyksiltä. Kypherpunkit kuten Wei Dai ja Hal Finney sekä taloustieteilijät Larry White ja George Selgin, jotka kannattivat Hayekilaisen valuuttakilpailun ja vapaan pankkitoiminnan periaatteita, pääsivät käyttämään listaa.
 
 ![Nick Szabo vuonna 1997](assets/fi/017.webp)

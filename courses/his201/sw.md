@@ -389,7 +389,7 @@ Baada ya kuchapishwa kwake kwenye orodha, b-money ilivutia umakini wa cypherpunk
 
 ### dhahabu kidogo: dhahabu ya dijiti kabla ya Bitcoin
 
-Mfano wa pili ulioibuka kutoka kwa mawazo ya cypherpunks ulikuwa wazo la dhahabu kidogo iliyofikiriwa na Nick Szabo mwaka wa 1998. Alikuwa mwanasayansi wa kompyuta wa Marekani wa asili ya Hungarian, ambaye alikuwa amefanya kazi kama mshauri wa DigiCash kwa miezi sita. Cypherpunk, anajulikana kwa kurasimisha wazo la Smart contract mnamo 1995.
+Mfumo wa pili uliotokana na mawazo ya cypherpunks ulikuwa dhana ya bit gold iliyobuniwa na Nick Szabo mnamo 1998. Huyu wa mwisho alikuwa mwanasayansi wa kompyuta wa Amerika mwenye asili ya Hungaria, ambaye hasa alifanya kazi kama mshauri wa DigiCash kwa miezi sita. Kama Cypherpunk, anajulikana kwa kufanya dhana ya *smart contract* (mkataba mahiri) kuwa rasmi mnamo 1995.
 
 Mnamo 1994, Nick Szabo alikuwa ameunda orodha ya barua pepe ya kibinafsi iitwayo libtech-l, ambayo ililenga, kama jina lake linavyopendekeza, kuandaa mijadala kuhusu mbinu za ukombozi, kuruhusu ulinzi wa uhuru wa mtu binafsi dhidi ya mashambulizi ya mamlaka. Cypherpunk kama Wei Dai na Hal Finney walipata ufikiaji, na vile vile wanauchumi Larry White na George Selgin, watetezi wa ushindani wa sarafu ya Hayeki na huduma ya benki bila malipo.
 

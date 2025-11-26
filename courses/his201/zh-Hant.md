@@ -391,7 +391,7 @@ b-money 在論壇上發表之後，引起了密碼龐克的關注，尤其是 [A
 
 ### bit gold：比 Bitcoin 更早的數字黃金
 
-第二個從密碼龐克的創意中衍生出來的模型是 Nick Szabo 在 1998 年提出的 bit gold 。他是一位來自匈牙利的美國電腦科學家，曾擔任 DigiCash 的顧問六個月。他是一位 Cypherpunk，因在 1995 年正式提出智能合約的概念而聞名。
+從密碼龐克（cypherpunks）的想法中誕生的第二個模型是 Nick Szabo 在 1998 年構想的 bit gold（比特黃金）概念。後者是一位匈牙利裔美國計算機科學家，他曾在 DigiCash 擔任顧問六個月。作為一名密碼龐克，他以在 1995 年將 *smart contract*（智能合約）的概念正式化而聞名。
 
 1994 年，Nick Szabo 創建了一個名為 libtech-l 的私人郵件論壇，顧名思義，這個論壇的目的是主持有關自由技術的討論，保護個人自由免受權威的攻擊。密碼龐克如 Wei Dai 和 Hal Finney，以及經濟學家 Larry White 和 George Selgin，哈耶克貨幣競爭和自由銀行的支持者，都可以進入這個論壇。
 

@@ -360,7 +360,7 @@ Setelah publikasi di milis, b-money menarik perhatian para cypherpunk, dan khusu
 ![Penyebutan b-money dalam white paper Bitcoin](assets/id/016.webp)
 
 ### bit gold: emas digital sebelum Bitcoin
-Model kedua yang muncul dari gagasan cypherpunk adalah ide bit gold yang diimpikan oleh Nick Szabo pada tahun 1998. Dia adalah seorang ilmuwan komputer Amerika keturunan Hongaria, yang pernah bekerja sebagai konsultan untuk DigiCash selama enam bulan. Seorang cypherpunk, ia dikenal karena telah memformalkan gagasan kontrak pintar (smart contract) pada tahun 1995.
+Model kedua yang muncul dari ide-ide cypherpunks adalah konsep bit gold yang dibayangkan oleh Nick Szabo pada tahun 1998. Yang terakhir adalah seorang ilmuwan komputer Amerika keturunan Hungaria, yang terutama pernah bekerja sebagai konsultan untuk DigiCash selama enam bulan. Sebagai Cypherpunk, ia dikenal karena telah memformalkan gagasan *smart contract* pada tahun 1995.
 
 Pada tahun 1994, Nick Szabo telah membuat milis pribadi bernama libtech-l, yang bertujuan, seperti namanya, untuk menjadi wadah diskusi tentang teknik pembebasan, memungkinkan perlindungan kebebasan individu dari serangan otoritas. Para cypherpunk seperti Wei Dai dan Hal Finney memiliki akses ke milis ini, serta ekonom Larry White dan George Selgin, pendukung kompetisi mata uang Hayekian dan free banking.
 

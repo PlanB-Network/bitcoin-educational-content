@@ -328,7 +328,7 @@ PayPal的最初愿景是革命性的，符合彼得·蒂尔的自由主义愿景
 
 ### 比特金：比特币之前的数字黄金
 
-从密码朋克的想法中涌现的第二个模型是尼克·萨博（Nick Szabo）在1998年想象的比特金概念。他是一位美国计算机科学家，拥有匈牙利血统，曾经为DigiCash担任顾问六个月。作为一个密码朋克，他以在1995年正式定义智能合约的概念而闻名。
+从密码朋克（cypherpunks）的想法中诞生的第二个模型是 Nick Szabo 在 1998 年构想的 bit gold（比特黄金）概念。后者是一位匈牙利裔美国计算机科学家，他曾在 DigiCash 担任顾问六个月。作为一名密码朋克，他以在 1995 年将 *smart contract*（智能合约）的概念正式化而闻名。
 1994年，Nick Szabo 创建了一个名为 libtech-l 的私人邮件列表，其目的如其名称所示，旨在主持关于解放技术的讨论，允许保护个人自由，抵御权威的侵犯。像 Wei Dai 和 Hal Finney 这样的密码朋克，以及经济学家 Larry White 和 George Selgin 都可以访问，他们是哈耶克货币竞争和自由银行制度的支持者。
 ![Nick Szabo in 1997](assets/zh-Hans/017.webp)
 1997年的Nick Szabo（来源：[Adrien Chen](https://twitter.com/AdrianChen/status/456922865992863744/photo/1)）

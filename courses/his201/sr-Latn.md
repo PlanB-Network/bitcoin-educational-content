@@ -527,7 +527,7 @@ Nakon objavljivanja na listi, b-money je privukao pažnju cypherpunks-a, a poseb
 ### bit gold: digitalno zlato pre Bitcoin
 
 
-Drugi model koji je proizašao iz ideja cypherpunks-a bila je ideja bit gold-a koju je zamislio Nick Szabo 1998. godine. Bio je američki kompjuterski naučnik mađarskog porekla, koji je posebno radio kao konsultant za DigiCash šest meseci. Kao Cypherpunk, poznat je po tome što je formalizovao pojam Smart contract 1995. godine.
+Drugi model koji je proistekao iz ideja sajferpanka bio je koncept bit golda (bit zlata) koji je Nick Szabo zamislio 1998. godine. Potonji je bio američki informatičar mađarskog porekla, koji je, između ostalog, radio kao konsultant za DigiCash šest meseci. Kao Sajferpank, poznat je po tome što je formalizovao pojam *smart contract* (pametnog ugovora) 1995. godine.
 
 
 Godine 1994, Nick Szabo je kreirao privatnu mejling listu pod nazivom libtech-l, koja je imala za cilj, kao što njen naziv sugeriše, da bude domaćin diskusijama o oslobađajućim tehnikama, omogućavajući zaštitu individualnih sloboda od napada vlasti. Sajferpankovi poput Wei Daija i Hal Finneyja imali su pristup, kao i ekonomisti Larry White i George Selgin, zagovornici Hajekovske konkurencije valuta i slobodnog bankarstva.

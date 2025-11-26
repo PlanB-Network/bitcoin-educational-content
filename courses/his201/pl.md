@@ -527,7 +527,7 @@ Po opublikowaniu na liście, b-money przyciągnęło uwagę cypherpunków, a w s
 ### bit Gold: cyfrowe złoto przed Bitcoinem
 
 
-Drugim modelem, który wyłonił się z pomysłów cypherpunks, była idea bit gold wymyślona przez Nicka Szabo w 1998 roku. Był on amerykańskim informatykiem węgierskiego pochodzenia, który przez sześć miesięcy pracował jako konsultant dla DigiCash. Jako Cypherpunk jest znany z tego, że w 1995 roku sformalizował pojęcie inteligentnego kontraktu (ang. smart contract).
+Drugim modelem, który wyłonił się z idei cypherpunków, była koncepcja bit gold, wymyślona przez Nicka Szabo w 1998 roku. Ten ostatni był amerykańskim informatykiem węgierskiego pochodzenia, który w szczególności pracował jako konsultant dla DigiCash przez sześć miesięcy. Jako Cypherpunk, jest znany z formalizacji pojęcia *smart contract* (inteligentnej umowy) w 1995 roku.
 
 
 W 1994 roku Nick Szabo stworzył prywatną listę mailingową o nazwie libtech-l, której celem, jak sama nazwa wskazuje, było prowadzenie dyskusji na temat technik wolnościowych, pozwalających na ochronę indywidualnych wolności przed atakami władz. Dostęp do niej mieli tacy cypherpunkowcy jak Wei Dai i Hal Finney, a także ekonomiści Larry White i George Selgin, zwolennicy hayekowskiej konkurencji walutowej i wolnej bankowości.

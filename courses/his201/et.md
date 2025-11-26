@@ -343,7 +343,9 @@ Pärast selle avaldamist listis pälvis b-money küberpunkide tähelepanu, eriti
 
 ### bit gold: digitaalne kuld enne Bitcoin'i
 
-Teine mudel, mis küberpunkide ideedest välja kasvas, oli bit gold, mille kujutas ette Nick Szabo 1998. aastal. Ta oli Ameerika arvutiteadlane Ungari päritoluga, kes oli töötanud konsultandina DigiCash'is kuus kuud. Küberpunkina on ta tuntud nutilepingu mõiste formaliseerimise poolest 1995. aastal. 1994. aastal lõi Nick Szabo privaatse meililisti nimega libtech-l, mille eesmärk oli, nagu nimi viitab, võõrustada arutelusid vabastavate tehnikate üle, mis võimaldaksid kaitsta individuaalseid vabadusi võimude rünnakute eest. Cypherpunkid nagu Wei Dai ja Hal Finney, samuti majandusteadlased Larry White ja George Selgin, kes olid Hayekia valuutakonkurentsi ja vaba panganduse pooldajad, said sellele juurdepääsu.
+Teine mudel, mis kasvas välja krüptopunkarite ideedest, oli Nick Szabo poolt 1998. aastal välja mõeldud bit gold kontseptsioon. Viimane oli Ungari päritolu Ameerika arvutiteadlane, kes oli muu hulgas töötanud DigiCashi konsultandina kuus kuud. Krüptopunkarina on ta tuntud selle poolest, et ta vormistas 1995. aastal *smart contract* (nutilepingu) mõiste.
+
+1994 . aastal lõi Nick Szabo privaatse meililisti nimega libtech-l, mille eesmärk oli, nagu nimi viitab, võõrustada arutelusid vabastavate tehnikate üle, mis võimaldaksid kaitsta individuaalseid vabadusi võimude rünnakute eest. Cypherpunkid nagu Wei Dai ja Hal Finney, samuti majandusteadlased Larry White ja George Selgin, kes olid Hayekia valuutakonkurentsi ja vaba panganduse pooldajad, said sellele juurdepääsu.
 ![Nick Szabo 1997. aastal](assets/et/017.webp)
 Nick Szabo 1997. aastal (allikas: [Adrien Chen](https://twitter.com/AdrianChen/status/456922865992863744/photo/1))
 

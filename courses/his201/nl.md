@@ -527,7 +527,7 @@ Na de publicatie op de lijst trok b-money de aandacht van de cypherpunks, en in 
 ### bitgoud: digitaal goud voor Bitcoin
 
 
-Het tweede model dat voortkwam uit de ideeën van de cypherpunks was het idee van bitgoud, dat Nick Szabo had bedacht in 1998. Hij was een Amerikaanse computerwetenschapper van Hongaarse afkomst die met name zes maanden als consultant had gewerkt voor DigiCash. Als Cypherpunk staat hij bekend om het formaliseren van het begrip smart contract in 1995.
+Het tweede model dat voortkwam uit de ideeën van de cypherpunks was het concept van bit gold, bedacht door Nick Szabo in 1998. Laatstgenoemde was een Amerikaanse computerwetenschapper van Hongaarse afkomst, die met name zes maanden als consultant voor DigiCash had gewerkt. Als Cypherpunk staat hij bekend om het formaliseren van het concept van een *smart contract* in 1995.
 
 
 In 1994 creëerde Nick Szabo een privé-mailinglijst met de naam libtech-l. Zoals de naam al suggereert, was het doel om discussies over bevrijdingstechnieken te hosten, die de bescherming van individuele vrijheden tegen aanvallen van autoriteiten mogelijk maakten. Cypherpunks als Wei Dai en Hal Finney hadden toegang, net als de economen Larry White en George Selgin, voorstanders van Hayekiaanse valuta concurrentie en vrij bankieren.

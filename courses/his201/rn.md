@@ -527,7 +527,7 @@ Inyuma y’aho isohokeye kuri urwo rutonde, b-money yarafashe umutima w’abahin
 ### inzahabu: inzahabu ya digitale imbere ya Bitcoin
 
 
-Iciyumviro ca kabiri cavuye mu vyiyumviro vy’aba cypherpunks ni iciyumviro c’inzahabu y’ibice, ico Nick Szabo yari yiyumviriye mu 1998. Yari umuhinga mu vy’informatique w’Umunyamerika w’inkomoko ya Hongiriya yari amaze amezi atandatu akora nk’umujanama wa DigiCash. Cypherpunk, azwi cane mu gushinga intahe iciyumviro c'amasezerano y'ubwenge mu 1995.
+Umutako wa kabiri wavutse mu vyiyumviro vy'aba cypherpunks wari impapuro za zahabu (*bit gold*) zategekanijwe na Nick Szabo mu 1998. Uwo mugabo yari umuhinga mu vya mudasobwa w'umunyamerika avuka mu gihugu ca Hongriya, yari yarakoze canecane akazi ko kugira inama muri DigiCash mu mezi atandatu. Kubera yari umu cypherpunk, azwi kubera yashize ku mugaragaro ivyiyumviro vya *smart contract* mu 1995.
 
 
 Mu mwaka w’1994, Nick Szabo yarashizeho urutonde rw’abantu ku giti cabo rwitwa libtech-l. Nk’uko izina ryayo rivyerekana, ryari rigamije kwakira ibiganiro ku buryo bwo kwibohora, bikaba vyemeza ko umwidegemvyo w’umuntu ku giti ciwe ukingirwa ibitero vy’abategetsi. Abahinga mu vy’ubutunzi nka Wei Dai na Hal Finney bari bafise uburenganzira bwo kubironka, nk’uko nyene abahinga mu vy’ubutunzi Larry White na George Selgin, abashigikiye uguhiganwa kw’amahera y’abanya Hayeki be n’ugukoresha amabanki ku buntu, bari bafise uburenganzira bwo kubironka.

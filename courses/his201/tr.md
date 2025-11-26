@@ -527,7 +527,7 @@ Listede yayınlanmasından sonra, b-money cypherpunk'ların ve özellikle de [Ad
 ### bit gold: Bitcoin öncesi dijital altın
 
 
-Cypherpunk'ların fikirlerinden ortaya çıkan ikinci model, Nick Szabo'nun 1998 yılında hayal ettiği bit gold fikriydi. Macar kökenli Amerikalı bir bilgisayar bilimcisi olan Szabo, altı ay boyunca DigiCash için danışman olarak çalışmıştı. Bir Cypherpunk olan Szabo, 1995 yılında akıllı sözleşmeler kavramını resmileştirmesiyle tanınıyor.
+Cypherpunks'ın fikirlerinden ortaya çıkan ikinci model, Nick Szabo tarafından 1998'de tasarlanan bit gold (bit altın) kavramıydı. Szabo, Macar asıllı bir Amerikalı bilgisayar bilimcisiydi ve özellikle altı ay boyunca DigiCash'te danışman olarak çalışmıştı. Bir Cypherpunk olarak, 1995 yılında *smart contract* (akıllı sözleşme) kavramını resmileştirmesiyle tanınır.
 
 
 1994 yılında Nick Szabo libtech-l adında özel bir posta listesi oluşturdu. Adından da anlaşılacağı üzere, otoritelerin saldırılarına karşı bireysel özgürlüklerin korunmasını sağlayan özgürlükçü teknikler üzerine tartışmalara ev sahipliği yapmayı amaçlıyordu. Wei Dai ve Hal Finney gibi Cypherpunk'ların yanı sıra Hayekçi para birimi rekabeti ve serbest bankacılığın savunucuları olan ekonomistler Larry White ve George Selgin'in de erişimi vardı.

@@ -1701,7 +1701,7 @@ Po zbadaniu forum, Marek Palatinus decyduje się wdrożyć swój model spółdzi
 W nocy z 15 na 16 grudnia kooperatywa została ostatecznie [uruchomiona](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520) w głównej sieci przez Marka Palatinusa. Pierwszy blok został [znaleziony](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97,834) rano 16 grudnia. Następnie wyprodukowano wiele innych bloków. Grupa wydobywcza od początku odnosiła sukcesy: w ciągu kilku dni jej wskaźnik haszowania osiągnął 4 GH/s, co stanowi 3,5% całkowitej mocy sieci.
 
 
-Kooperatywa stała się punktem odniesienia dla wydobywania bitcoinów. Przez lata [nosiła](https://en.Bitcoin.it/w/index.php?title=Slush_Pool&action=history) kilka nazw: Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining, a w końcu Slush Pool, w nawiązaniu do jej twórcy. We wrześniu 2022 r. otrzymała nazwę Braiins Pool.
+Spółdzielnia stanie się punktem odniesienia w zakresie wydobycia Bitcoina. W ciągu lat [będzie nosić](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) kilka nazw: Bitcoin Pooled Mining (BPM), BitcoinCZ Mining, a ostatecznie Slush Pool, w nawiązaniu do jej twórcy. We wrześniu 2022 roku stanie się Braiins Pool.
 
 
 ![Logo of Slush's cooperative in September 2011](assets/pl/051.webp)

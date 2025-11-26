@@ -1703,7 +1703,7 @@ Inyuma yo gutora inkuru ku rubuga, Marek Palatinus yafashe ingingo yo gushira mu
 Mu ijoro ryo kuva ku wa 15 gushika ku wa 16 Kigarama, iyo koperative yaraheza [itanguzwa] na Marek Palatinus ku rubuga rwa mbere. Igipande ca mbere [cabonetse] (97.834) mu gitondo co ku wa 16. Mu nyuma, harasohotse n’ibindi bipande vyinshi. Ishirahamwe Mining ryahuye n’uguterimbere mu ntango: mu misi mikeyi, igipimo caryo ca Hash carashitse kuri 4 GH/s, 3,5% vy’inguvu zose z’uruja n’uruza.
 
 
-Iryo shirahamwe ryobaye ikigereranyo muri Bitcoin Mining. Yari afise amazina menshi mu myaka: Bitcoin Pooled Mining (BPM), Bitcoin.cz Creator Mining, n’ubwa nyuma ivyerekeye iSlush Pool. Yacitse ikidengeri c'ubwonko muri Nzero 2022.
+Ubwo bucutsi buzoba imbonekarimwe mu bijanye n'ugucukura Bitcoin. Buzogira [amazina](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) atari make mu myaka yose: Bitcoin Pooled Mining (BPM), BitcoinCZ Mining, be na Slush Pool, kubera uwabishinze. Mu Kigarama 2022, buzoca buhinduka Braiins Pool.
 
 
 ![Logo of Slush's cooperative in September 2011](assets/rn/051.webp)

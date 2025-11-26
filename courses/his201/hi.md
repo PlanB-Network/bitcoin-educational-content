@@ -1276,7 +1276,7 @@ Mining के विशेषज्ञता के कारण Hash दर म
 
 15 दिसंबर की रात से 16 दिसंबर तक, मारेक पैलेटिनस ने आखिरकार कोऑपरेटिव को [मेन नेटवर्क पर लॉन्च](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520) कर दिया। 16 दिसंबर की सुबह पहला ब्लॉक [मिला](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97,834)। इसके बाद, कई और ब्लॉक बनाए गए। Mining ग्रुप को शुरुआत से ही सफलता मिली: कुछ ही दिनों में, इसकी Hash रेट 4 GH/s तक पहुंच गई, जो कुल नेटवर्क पावर का 3.5% है।
 
-कोऑपरेटिव Bitcoin Mining में एक बेंचमार्क बन गया। इसने सालों में कई नाम [रखे](https://en.Bitcoin.it/w/index.php?title=Slush_Pool&action=history): Bitcoin पूल्ड Mining (BPM), Bitcoin.cz Mining, और आखिरकार स्लश पूल, जो इसके निर्माता के संदर्भ में था। सितंबर 2022 में यह ब्रेन्स पूल बन गया।
+यह सहकारी बिटकॉइन खनन के संबंध में एक संदर्भ बन जाएगा। वर्षों से इसके कई [नाम होंगे](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history): Bitcoin Pooled Mining (BPM), BitcoinCZ Mining, और अंत में Slush Pool, जो इसके निर्माता को संदर्भित करता है। यह सितंबर 2022 में Braiins Pool बन जाएगा।
 
 ![Logo of Slush's cooperative in September 2011](assets/hi/051.webp)
 

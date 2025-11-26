@@ -1054,7 +1054,7 @@ Patoshi Pattern между блоками 0 и 50,000, как наблюдает
 
 В ночь с 15 на 16 декабря кооператив наконец был [запущен](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520) Мареком Палатинусом на основной сети. Первый блок был [найден](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97,834) утром 16-го. Впоследствии было произведено много других блоков. Майнинговая группа с самого начала встретила успех: за несколько дней ее хешрейт достиг 4 ГГц, что составляет 3,5% от общей мощности сети.
 
-Кооператив стал эталоном в майнинге Bitcoin. Он [нес](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) несколько названий на протяжении лет: Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining и, наконец, Slush Pool, в честь его создателя. В сентябре 2022 года он стал Braiins Pool.
+Кооператив станет эталоном в сфере майнинга биткойнов. С годами он [будет носить](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) несколько названий: Bitcoin Pooled Mining (BPM), BitcoinCZ Mining и, наконец, Slush Pool, в честь своего создателя. В сентябре 2022 года он станет Braiins Pool.
 
 ![Логотип кооператива Slush в сентябре 2011 года](assets/ru/051.webp)
 Логотип кооператива Slush в сентябре 2011 года (источник: [архив](https://web.archive.org/web/20110923151034/http://mining.bitcoin.cz:80/) сайта)

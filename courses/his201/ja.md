@@ -1061,7 +1061,7 @@ Marek Palatinus（slush）は、2013年5月11日にプラハで開催されたZ-
 
 12月15日から16日にかけての夜、協同組合はついにMarek Palatinusによってメインネットワークで[立ち上げられました](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520)。最初のブロックは16日の朝に[発見](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655)されました（97,834）。その後、多くの他のブロックが生成されました。マイニンググループは初めから成功を収め、数日でそのハッシュレートは4 GH/sに達し、これはネットワーク全体のパワーの3.5%です。
 
-この協同組合はBitcoinマイニングのベンチマークとなりました。年月を経ていくつかの名前を[持ちました](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history)：Bitcoin Pooled Mining (BPM)、Bitcoin.cz Mining、そして最終的にはその創設者にちなんでSlush Poolとなりました。2022年9月にはBraiins Poolになりました。
+この協同組合は、ビットコインマイニングに関するリファレンスとなるでしょう。長年にわたり、Bitcoin Pooled Mining (BPM)、BitcoinCZ Mining、そして最終的にはその作成者にちなんで Slush Pool など、いくつかの[名前を持つことになります](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history)。2022年9月には Braiins Pool になります。
 
 ![Slushの協同組合のロゴ、2011年9月](assets/ja/051.webp)
 Slushの協同組合のロゴ、2011年9月（ソース：[アーカイブ](https://web.archive.org/web/20110923151034/http://mining.bitcoin.cz:80/)）

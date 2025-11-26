@@ -1703,7 +1703,7 @@ Mining 전문화로 인해 Hash 비율이 크게 증가하면서 중앙 프로�
 12월 15일 밤부터 16일 사이에 마침내 마렉 팔라티누스가 메인 네트워크에 협동조합을 [런칭](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520)했습니다. 첫 번째 블록은 16일 오전에 [발견](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655)(97,834개)되었습니다. 그 후 다른 많은 블록들이 생성되었습니다. Mining 그룹은 초기에 성공을 거두었습니다. 며칠 만에 Hash의 속도가 전체 네트워크 전력의 3.5%인 4GH/s에 도달했습니다.
 
 
-이 협동조합은 Bitcoin Mining의 벤치마크가 될 것입니다. 수년에 걸쳐 여러 가지 이름을 사용했습니다(https://en.Bitcoin.it/w/index.php?title=Slush_Pool&action=history): Bitcoin Pooled Mining(BPM), Bitcoin.cz Mining, 그리고 마지막으로 슬러시 풀(제작자에 대한 이름). 그리고 2022년 9월에 Braiins Pool이 되었습니다.
+이 협동조합은 비트코인 채굴에 관한 기준이 될 것입니다. 수년 동안 Bitcoin Pooled Mining (BPM), BitcoinCZ Mining, 그리고 마지막으로 창시자를 언급하는 Slush Pool 등 여러 [이름을 가질 것입니다](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history). 2022년 9월에는 Braiins Pool이 될 것입니다.
 
 
 ![Logo of Slush's cooperative in September 2011](assets/ko/051.webp)

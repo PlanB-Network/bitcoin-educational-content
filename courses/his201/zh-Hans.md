@@ -1063,7 +1063,7 @@ Marek Palatinus（slush）在2013年5月11日于布拉格举行的Z-DAY会议上
 
 在12月15日至16日的夜间，该合作社最终由Marek Palatinus在主网络上[启动](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520)。第一个区块于16日上午被[发现](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655)（97,834）。随后，生产了许多其他区块。矿业小组从一开始就遇到了成功：在几天内，其哈希率达到了4 GH/s，占总网络功率的3.5%。
 
-该合作社将成为比特币挖矿的一个基准。它[经历](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history)了多年的几个名称：Bitcoin Pooled Mining (BPM)、Bitcoin.cz Mining，最终以其创造者的名字命名为Slush Pool。它在2022年9月变成了Braiins Pool。
+该合作社将成为比特币挖矿领域的参考。多年来，它[将拥有](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history)多个名称：Bitcoin Pooled Mining (BPM)、BitcoinCZ Mining，以及最后是 Slush Pool，以纪念其创建者。它将于 2022 年 9 月成为 Braiins Pool。
 
 ![Slush合作社2011年9月的标志](assets/zh-Hans/051.webp)
 Slush合作社2011年9月的标志（来源：[存档](https://web.archive.org/web/20110923151034/http://mining.bitcoin.cz:80/)网站）

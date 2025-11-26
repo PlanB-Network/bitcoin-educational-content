@@ -1703,7 +1703,7 @@ Efter att ha undersökt forumet beslutar Marek Palatinus att implementera sin mo
 Under natten mellan den 15 och 16 december [lanserades] (https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520) slutligen kooperativet av Marek Palatinus på huvudnätverket. Det första blocket [hittades](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97.834) på morgonen den 16 december. Därefter producerades många andra block. Mining-gruppen hade framgångar inledningsvis: på några dagar nådde dess Hash-hastighet 4 GH/s, 3,5% av den totala nätverkseffekten.
 
 
-Kooperativet skulle komma att bli ett riktmärke i Bitcoin Mining. Det [bar](https://en.Bitcoin.it/w/index.php?title=Slush_Pool&action=history) flera namn genom åren: Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining, och slutligen Slush Pool, om dess skapare. Den blev Braiins Pool i september 2022.
+Kooperativet kommer att bli en referens när det gäller Bitcoin-mining. Det [kommer att bära](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) flera namn under åren: Bitcoin Pooled Mining (BPM), BitcoinCZ Mining och slutligen Slush Pool, med hänvisning till dess skapare. Det kommer att bli Braiins Pool i september 2022.
 
 
 ![Logo of Slush's cooperative in September 2011](assets/sv/051.webp)

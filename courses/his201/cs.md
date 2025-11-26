@@ -1046,7 +1046,7 @@ Po průzkumu fóra se Marek Palatinus rozhodl implementovat svůj model těžebn
 
 Během noci z 15. na 16. prosince byl kooperativ konečně [spuštěn](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520) Markem Palatinusem na hlavní síti. První blok byl [nalezen](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97,834) ráno 16. prosince. Následně bylo vyprodukováno mnoho dalších bloků. Těžební skupina se setkala s úspěchem od samého začátku: během několika dní dosáhla její hash rate 4 GH/s, což je 3,5 % celkového výkonu sítě.
 
-Kooperativ se stal referencí v těžbě Bitcoinu. Během let [několikrát změnil](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) název: Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining a nakonec Slush Pool, na počest svého zakladatele. V září 2022 se stal Braiins Pool.
+Družstvo se stane referencí v oblasti těžby Bitcoinu. Během let [ponese](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) několik jmen: Bitcoin Pooled Mining (BPM), BitcoinCZ Mining a nakonec Slush Pool, odkazující na svého tvůrce. V září 2022 se stane Braiins Pool.
 
 ![Logo kooperativu Slush z září 2011](assets/cs/051.webp)
 Logo kooperativu Slush z září 2011 (zdroj: [archiv](https://web.archive.org/web/20110923151034/http://mining.bitcoin.cz:80/) stránky)

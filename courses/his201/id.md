@@ -1191,7 +1191,7 @@ Setelah menyurvei forum, Marek Palatinus memutuskan untuk menerapkan model koper
 
 Pada malam tanggal 15 hingga 16 Desember, kooperatif tersebut akhirnya [diluncurkan](https://Bitcointalk.org/index.php?topic=1976.msg30520#msg30520) oleh Marek Palatinus di jaringan utama. Blok pertama [ditemukan](https://Bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97.834) pada pagi hari tanggal 16 Desember. Selanjutnya, banyak blok lain diproduksi. Kelompok penambangan tersebut langsung sukses sejak awal: dalam beberapa hari, hash rate-nya mencapai 4 GH/s, yang merupakan 3,5% dari total daya jaringan.
 
-Kooperatif tersebut akan menjadi tolok ukur dalam mining Bitcoin. Kooperatif ini [menyandang](https://en.Bitcoin.it/w/index.php?title=Slush_Pool&action=history) beberapa nama selama bertahun-tahun: Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining, dan akhirnya Slush Pool, sebagai referensi penciptanya. Kooperatif ini menjadi Braiins Pool pada September 2022.
+Koperasi ini akan menjadi referensi dalam hal penambangan Bitcoin. Ia [akan menyandang](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) beberapa nama selama bertahun-tahun: Bitcoin Pooled Mining (BPM), BitcoinCZ Mining, dan akhirnya Slush Pool, mengacu pada penciptanya. Ini akan menjadi Braiins Pool pada September 2022.
 
 ![Logo koperasi Slush pada September 2011](assets/id/051.webp)
 Logo koperasi Slush pada September 2011 (sumber: [arsip](https://web.archive.org/web/20110923151034/http://mining.Bitcoin.cz:80/) situs)

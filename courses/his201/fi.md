@@ -1109,7 +1109,7 @@ Kyselynsä jälkeen Marek Palatinus päättää toteuttaa louhintakonsortiomalli
 
 Yön aikana 15. joulukuuta ja 16. joulukuuta osuuskunta [käynnistettiin](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520) lopulta Marek Palatinuksen toimesta pääverkossa. Ensimmäinen lohko [löydettiin](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97,834) 16. päivän aamuna. Tämän jälkeen tuotettiin monta muuta lohkoa. Kaivosryhmä kohtasi menestystä alusta alkaen: muutamassa päivässä sen hash-nopeus saavutti 4 GH/s, mikä on 3,5% koko verkon tehosta.
 
-Osuuskunta tulisi olemaan vertailukohta Bitcoinin kaivostoiminnassa. Se [kantoi](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) useita nimiä vuosien varrella: Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining ja lopulta Slush Pool, viitaten sen luojaan. Se muuttui Braiins Pooliksi syyskuussa 2022.
+Osuuskunnasta tulee Bitcoinin louhinnan referenssi. Se [kantaa](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) vuosien varrella useita nimiä: Bitcoin Pooled Mining (BPM), BitcoinCZ Mining ja lopulta Slush Pool, viitaten sen luojaan. Syyskuussa 2022 siitä tulee Braiins Pool.
 
 ![Slushin osuuskunnan logo syyskuussa 2011](assets/fi/051.webp)
 Slushin osuuskunnan logo syyskuussa 2011 (lähde: [arkisto](https://web.archive.org/web/20110923151034/http://mining.bitcoin.cz:80/) sivustolta)

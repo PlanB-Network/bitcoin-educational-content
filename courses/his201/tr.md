@@ -1703,7 +1703,7 @@ Forumu araştırdıktan sonra, Marek Palatinus kendi madencilik kooperatif model
 Kooperatif 15 Aralık'ı 16 Aralık'a bağlayan gece Marek Palatinus tarafından ana ağda nihayet [başlatıldı](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520). İlk blok 16'sı sabahı [bulundu](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97,834). Daha sonra birçok başka blok üretildi. Mining grubu başlangıçta başarılı oldu: birkaç gün içinde Hash oranı 4 GH/s'ye, yani toplam ağ gücünün %3.5'ine ulaştı.
 
 
-Kooperatif, Bitcoin Mining'te bir ölçüt haline gelecektir. Yıllar boyunca çeşitli isimler [taşıdı] (https://en.Bitcoin.it/w/index.php?title=Slush_Pool&action=history): Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining ve son olarak yaratıcısı hakkında Slush Pool. Eylül 2022'de Braiins Pool adını almıştır.
+Kooperatif, Bitcoin madenciliği açısından bir referans haline gelecektir. Yıllar içinde birkaç [isim taşıyacaktır](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history): Bitcoin Pooled Mining (BPM), BitcoinCZ Mining ve son olarak, yaratıcısına atıfla Slush Pool. Eylül 2022'de Braiins Pool olacaktır.
 
 
 ![Logo of Slush's cooperative in September 2011](assets/tr/051.webp)

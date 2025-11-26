@@ -1700,7 +1700,7 @@ Interface از پلتفرم Mt. Gox در فوریه 2011 (منبع: [آرشیو 
 در طول شب 15 تا 16 دسامبر، تعاونی سرانجام توسط مارک پالاتینوس در شبکه اصلی [راه‌اندازی شد](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520). اولین بلوک در صبح روز 16ام [یافت شد](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97,834). به دنبال آن، بلوک‌های بسیاری دیگر تولید شدند. گروه Mining از همان ابتدا با موفقیت روبرو شد: در عرض چند روز، نرخ Hash آن به 4 GH/s رسید که 3.5٪ از کل قدرت شبکه است.
 
 
-تعاونی به یک معیار در Bitcoin Mining تبدیل می‌شد. این [تعاونی](https://en.Bitcoin.it/w/index.php?title=Slush_Pool&action=history) در طول سال‌ها چندین نام داشت: Bitcoin Pooled Mining (BPM)، Bitcoin.cz Mining، و در نهایت Slush Pool، به افتخار خالق آن. در سپتامبر 2022 به Braiins Pool تبدیل شد.
+این تعاونی به یک مرجع در زمینه استخراج بیت‌کوین تبدیل خواهد شد. در طول سال‌ها [نام‌های](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) متعددی خواهد داشت: Bitcoin Pooled Mining (BPM)، BitcoinCZ Mining، و در نهایت Slush Pool، که اشاره به خالق آن دارد. در سپتامبر 2022 به Braiins Pool تبدیل خواهد شد.
 
 
 ![Logo of Slush's cooperative in September 2011](assets/fa/051.webp)

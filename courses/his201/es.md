@@ -1182,7 +1182,7 @@ Después de sondear el foro, Marek Palatinus decide implementar su modelo de coo
 
 Durante la noche del 15 al 16 de diciembre, la cooperativa fue finalmente [lanzada](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520) por Marek Palatinus en la red principal. El primer bloque fue [encontrado](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97,834) en la mañana del 16. Posteriormente, se produjeron muchos otros bloques. El grupo de minería se encontró con éxito desde el principio: en unos días, su tasa de hash alcanzó los 4 GH/s, lo que representa el 3.5% del poder total de la red.
 
-La cooperativa se convertiría en un referente en la minería de Bitcoin. Llevó [varios nombres](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) a lo largo de los años: Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining y finalmente Slush Pool, en referencia a su creador. Se convirtió en Braiins Pool en septiembre de 2022.
+La cooperativa se convertirá en una referencia en lo que respecta a la minería de Bitcoin. [Llevará](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) varios nombres a lo largo de los años: Bitcoin Pooled Mining (BPM), BitcoinCZ Mining, y finalmente Slush Pool, en referencia a su creador. Se convertirá en Braiins Pool en septiembre de 2022.
 
 ![Logo de la cooperativa de Slush en septiembre de 2011](assets/es/051.webp)
 Logo de la cooperativa de Slush en septiembre de 2011 (fuente: [archivo](https://web.archive.org/web/20110923151034/http://mining.bitcoin.cz:80/) del sitio)

@@ -1228,7 +1228,7 @@ Marek Palatinus (slush) 於 2013 年 5 月 11 日在布拉格舉行的 Z-DAY 會
 
 在 12 月 15 日至 16 日的夜間，合作模型終於由 Marek Palatinus 在主網路上 [推出](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520)。第一個區塊在 16 日早上被 [發現](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97,834)。隨後，產生了許多其他區塊。最初的挖礦取得成功：在幾天之內，其 Hash 速率就達到 4 GH/s，佔網路總功率的 3.5%。
 
-該合作將成為 Bitcoin 挖礦的基準。多年來，它[使用](https://en.Bitcoin.it/w/index.php?title=Slush_Pool&action=history) 了好幾個名字：Bitcoin Pooled Mining (BPM)、Bitcoin.cz Mining，最終改名為 Slush Pool，以創建者的名字命名。它在 2022 年 9 月成為 Braiins Pool。
+該合作社將成為比特幣挖礦領域的參考。多年來，它[將擁有](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history)多個名稱：Bitcoin Pooled Mining (BPM)、BitcoinCZ Mining，以及最後是 Slush Pool，以紀念其創建者。它將於 2022 年 9 月成為 Braiins Pool。
 
 ![Logo of Slush's cooperative in September 2011](assets/zh-Hant/051.webp)
 

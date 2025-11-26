@@ -1067,7 +1067,7 @@ Sau khi thăm dò ý kiến trên diễn đàn, Marek Palatinus quyết định 
 
 Trong đêm từ ngày 15 đến ngày 16 tháng 12, hợp tác xã cuối cùng đã được [khởi động](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520) bởi Marek Palatinus trên mạng chính. Khối đầu tiên đã được [tìm thấy](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97,834) vào buổi sáng ngày 16. Tiếp theo, nhiều khối khác đã được sản xuất. Nhóm khai thác đã gặp thành công ngay từ đầu: trong vài ngày, tốc độ hash của nó đạt 4 GH/s, chiếm 3.5% tổng sức mạnh của mạng.
 
-Hợp tác xã này sẽ trở thành một tiêu chuẩn trong việc khai thác Bitcoin. Nó đã [mang](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) nhiều tên gọi qua các năm: Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining, và cuối cùng là Slush Pool, theo tên người sáng lập. Nó trở thành Braiins Pool vào tháng 9 năm 2022.
+Hợp tác xã sẽ trở thành một tham chiếu về khai thác Bitcoin. Nó [sẽ mang](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) nhiều tên khác nhau trong những năm qua: Bitcoin Pooled Mining (BPM), BitcoinCZ Mining, và cuối cùng là Slush Pool, ám chỉ người tạo ra nó. Nó sẽ trở thành Braiins Pool vào tháng 9 năm 2022.
 
 ![Logo của hợp tác xã Slush vào tháng 9 năm 2011](assets/vi/051.webp)
 Logo của hợp tác xã Slush vào tháng 9 năm 2011 (nguồn: [lưu trữ](https://web.archive.org/web/20110923151034/http://mining.bitcoin.cz:80/) của trang web)

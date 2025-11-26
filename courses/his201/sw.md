@@ -1228,7 +1228,7 @@ Baada ya kuchunguza jukwaa, Marek Palatinus anaamua kutekeleza mfumo wake wa ush
 
 Wakati wa usiku wa Desemba 15 hadi 16, ushirika hatimaye [ulizinduliwa](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520) na Marek Palatinus kwenye mtandao mkuu. Sehemu ya kwanza [ilipatikana](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97,834) asubuhi ya tarehe 16. Baadaye, vitalu vingine vingi vilitolewa. Kundi la Mining lilikutana na mafanikio tangu mwanzo: katika siku chache, kiwango chake cha Hash kilifikia 4 GH / s, ambayo ni 3.5% ya jumla ya nguvu za mtandao.
 
-Ushirika ungekuwa alama katika Bitcoin Mining. [Imebebwa](https://en.Bitcoin.it/w/index.php?title=Slush_Pool&action=history) majina kadhaa katika kipindi cha miaka mingi: Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining, na hatimaye Slush Pool, kwa kurejelea kwa Muundaji wake. Ikawa Braiins Pool mnamo Septemba 2022.
+Ushirika huo utakuwa rejeleo linapokuja suala la uchimbaji wa Bitcoin. [Utabeba](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) majina kadhaa kwa miaka mingi: Bitcoin Pooled Mining (BPM), BitcoinCZ Mining, na hatimaye Slush Pool, kwa kurejelea muundaji wake. Utakuwa Braiins Pool mnamo Septemba 2022.
 
 ![Logo of Slush's cooperative in September 2011](assets/sw/051.webp)
 

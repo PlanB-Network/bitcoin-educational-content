@@ -1703,7 +1703,7 @@ Na het peilen van het forum besluit Marek Palatinus zijn model voor een mining-c
 In de nacht van 15 op 16 december werd de coöperatie eindelijk [gelanceerd](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520) door Marek Palatinus op het hoofdnetwerk. Het eerste blok werd [gevonden](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97.834) in de ochtend van de 16e. Vervolgens werden er vele andere blokken geproduceerd. De Mining groep had aanvankelijk succes: in een paar dagen bereikte de Hash snelheid 4 GH/s, 3,5% van het totale netwerkvermogen.
 
 
-De coöperatie zou een benchmark worden in Bitcoin Mining. Het [droeg](https://en.Bitcoin.it/w/index.php?title=Slush_Pool&action=history) in de loop der jaren verschillende namen: Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining, en uiteindelijk Slush Pool, over de maker. In september 2022 werd het Braiins Pool.
+De coöperatie zal een referentie worden op het gebied van Bitcoin-mining. Het [zal](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) in de loop der jaren verschillende namen dragen: Bitcoin Pooled Mining (BPM), BitcoinCZ Mining, en ten slotte Slush Pool, verwijzend naar de oprichter. In september 2022 wordt het Braiins Pool.
 
 
 ![Logo of Slush's cooperative in September 2011](assets/nl/051.webp)

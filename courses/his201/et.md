@@ -1100,7 +1100,7 @@ Pärast foorumi küsitlemist otsustab Marek Palatinus rakendada oma kaevanduskoo
 
 15. detsembri õhtust 16. detsembri hommikuni lõpuks käivitas Marek Palatinus kooperatiivi [käivitatud](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520) põhivõrgus. Esimene plokk leiti [leitud](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97,834) 16. detsembri hommikul. Järgnevalt toodeti palju muid plokke. Kaevandusgrupp kohtas edu algusest peale: mõne päevaga jõudis selle hash rate 4 GH/s, mis on 3,5% kogu võrgu võimsusest.
 
-Kooperatiiv saaks Bitcoin kaevandamise mõõdupuuks. See [kandis](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) aastate jooksul mitmeid nimesid: Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining ja lõpuks Slush Pool, viidates selle loojale. See sai Braiins Pooliks septembris 2022.
+Kooperatiiv muutub Bitcoini kaevandamise osas etaloniks. See [kannab](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) aastate jooksul mitmeid nimesid: Bitcoin Pooled Mining (BPM), BitcoinCZ Mining ja lõpuks Slush Pool, viidates oma loojale. Septembris 2022 saab sellest Braiins Pool.
 
 ![Slushi kooperatiivi logo septembris 2011](assets/et/051.webp)
 Slushi kooperatiivi logo septembris 2011 (allikas: [arhiiv](https://web.archive.org/web/20110923151034/http://mining.bitcoin.cz:80/) saidist)

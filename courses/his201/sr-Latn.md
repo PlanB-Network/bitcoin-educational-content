@@ -1701,7 +1701,7 @@ Nakon anketiranja foruma, Marek Palatinus odlučuje da implementira svoj model r
 Tokom noći sa 15. na 16. decembar, zadruga je konačno [pokrenuta](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520) od strane Mareka Palatinusa na glavnoj mreži. Prvi blok je [pronađen](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97,834) ujutru 16. decembra. Nakon toga, proizvedeni su mnogi drugi blokovi. Grupa Mining je imala uspeha od samog početka: za nekoliko dana, njena Hash stopa dostigla je 4 GH/s, što je 3,5% ukupne snage mreže.
 
 
-Zadruga bi postala merilo u Bitcoin Mining. Tokom godina nosila je [nekoliko](https://en.Bitcoin.it/w/index.php?title=Slush_Pool&action=history) imena: Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining, i konačno Slush Pool, u referenci na njenog tvorca. Postala je Braiins Pool u septembru 2022.
+Zadruga će postati referenca u pogledu rudarenja Bitcoina. Tokom godina [nosiće](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) nekoliko imena: Bitcoin Pooled Mining (BPM), BitcoinCZ Mining, i na kraju Slush Pool, u odnosu na svog tvorca. U septembru 2022. postaće Braiins Pool.
 
 
 ![Logo of Slush's cooperative in September 2011](assets/sr-Latn/051.webp)

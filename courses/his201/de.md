@@ -1055,7 +1055,7 @@ Nachdem Marek Palatinus das Forum befragt hat, beschließt er, sein Mining-Koope
 
 In der Nacht vom 15. auf den 16. Dezember wurde die Genossenschaft schließlich von Marek Palatinus im Hauptnetzwerk [gestartet](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520). Der erste Block wurde am Morgen des 16 [gefunden](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97,834). Der Genossenschaft gelang es, in den ersten Tagen eine Hashrate von 4 GH/s zu erreichen, was 3,5% der gesamten Netzwerkleistung entspricht.
 
-Die Genossenschaft würde zu einem Maßstab im Bitcoin-Mining werden. Sie [trug](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) im Laufe der Jahre mehrere Namen: Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining und schließlich Slush Pool, in Anlehnung an seinen Schöpfer. Im September 2022 wurde es zu Braiins Pool.
+Die Kooperative wird zu einer Referenz in Bezug auf das Bitcoin-Mining werden. Sie [wird](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) im Laufe der Jahre mehrere Namen tragen: Bitcoin Pooled Mining (BPM), BitcoinCZ Mining und schließlich Slush Pool, in Anlehnung an ihren Gründer. Im September 2022 wird sie zu Braiins Pool.
 
 ![Logo von Slushs Genossenschaft im September 2011](assets/de/051.webp)
 Logo von Slushs Genossenschaft im September 2011 (Quelle: [Archiv](https://web.archive.org/web/20110923151034/http://mining.bitcoin.cz:80/) der Seite)

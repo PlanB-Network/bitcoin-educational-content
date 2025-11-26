@@ -1899,7 +1899,7 @@ The opposition between Athens and Sparta during the classical Greek period revea
 ### The monetary necessity of naval power
 
 
-The Athenian Empire, despite its grandiose name, remained geographically modest - essentially Athens and the cities of the Aegean Sea. Its power rested on the League of Delos, a military alliance dominated by Athens as hegemon. This imperial structure required a unified economic instrument: the Athenian silver coin.
+The Athenian Empire, despite its grandiose name, remained geographically modest - essentially Athens and the cities of the Aegean Sea. Its power rested on the Delian League, a military alliance dominated by Athens as hegemon. This imperial structure required a unified economic instrument: the Athenian silver coin.
 
 
 Maintaining a fleet was at the heart of this monetary necessity. A single Athenian trireme cost between one and two talents of silver - a considerable sum. With several hundred ships to maintain, Athens needed an efficient tax system. Currency became the indispensable tool for collecting tribute from vassal cities and financing the naval projection force that guaranteed the cohesion of the empire.

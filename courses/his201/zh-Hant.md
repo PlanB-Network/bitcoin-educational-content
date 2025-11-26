@@ -650,7 +650,7 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 > &nbsp;It's based on open market competition, and there will probably always be nodes willing to process transactions for free."。
 幾天之後，Hal Finney 針對這一貨幣政策在郵件論壇上[正面回應](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) 這項貨幣政策，他對於 「系統可以被設定為只允許某個最大數量的單位產生 」感到興奮。在他的電子郵件中，他估計如果 Bitcoin 成為「全球使用的主要支付系統」，那麼每個單位的「價值約為 1,000 萬美元」。他在結論中寫道：「今天用幾美分的計算時間就能產生單位的可能性 」可能是 「一個非常好的賭注」。即使這個估算值得商榷（因為它是基於相當於全球財富總額的 Bitcoin 估值），其推理也是合理的。
 
-1 月 16 日，中本聰在他與郵件論壇的信中重提了這一「長期投資」的想法，他在郵件中描述了潛在的使用案例。他 [表示](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html) 當時表示，「如果它流行起來，買一些也許是有道理的。如果有足夠的人有相同的想法，那就會成為一個自我實現的預言"。一個月之後，他[重申](https://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562) 這種說法，並解釋說，數量有限很可能會造成「正反饋循環」，也就是「使用者越多，價值就越高，這可能會吸引更多想要從價值增加中獲益的使用者」。因此，投機元素從一開始就存在，目的是啟動系統。
+1月16日，中本聰在發送給郵件列表的一封電子郵件中重申了「長期投資」的理念，他在其中描述了比特幣的潛在用例。他當時[聲明](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html)，「如果它能流行起來，擁有一些可能是審慎的」，並且「如果有足夠多的人有相同的想法，那就會成為一個自我實現的預言」。一個月後，他[重申](https://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562)了這一斷言，解釋說有限的單位數量很可能創造一個「積極的反饋循環」，即「用戶越多，價值增加越多，這可能會吸引更多渴望從不斷增長的價值中受益的用戶」。因此，投機因素從一開始就存在，目的是啟動該系統。
 
 ### 監管、殭屍網絡和生態學
 

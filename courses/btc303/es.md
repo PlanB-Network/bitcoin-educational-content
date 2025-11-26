@@ -89,7 +89,7 @@ Navegar por el complejo panorama de la gobernanza de Bitcoin requiere algo más 
 
 <chapterId>9397c84b-0038-5d0e-88d5-11767ce8182d</chapterId>
 
-Se analiza qué es la descentralización y por qué es esencial para que Bitcoin funcione. Distinguimos entre la descentralización de los mineros y la de los nodos completos, y discutimos qué aportan a la resistencia a la censura, una de las propiedades más centrales de Bitcoin.
+Se analiza qué es la descentralización y por qué es esencial para que Bitcoin funcione. Distinguimos entre la descentralización minera y la de los nodos completos, y discutimos qué aportan a la resistencia a la censura, una de las propiedades más centrales de Bitcoin.
 
 A continuación, el debate se centra en la neutralidad (o ausencia de permisos para usuarios, mineros y desarrolladores), que es una propiedad necesaria de cualquier sistema descentralizado. Por último, abordamos lo difícil que puede ser entender un sistema descentralizado como Bitcoin, y presentamos algunos modelos mentales que pueden ayudar a comprenderlo.
 
@@ -99,21 +99,18 @@ La descentralización es un medio para lograr la *resistencia a la censura*.
 
 Hay dos aspectos principales de la descentralización en Bitcoin: La descentralización del minero y la descentralización de full nodes.
 
-La descentralización de los mineros se refiere al hecho de que el procesamiento de las transacciones no es realizado ni coordinado por ninguna entidad central. La descentralización de los full nodes se refiere al hecho de que la validación de los bloques, es decir, los datos que producen los mineros, se realiza en el extremo de la red, en última instancia por sus usuarios, y no por unas pocas autoridades de confianza.
+La descentralización minera se refiere al hecho de que el procesamiento de las transacciones no es realizado ni coordinado por ninguna entidad central. La descentralización de los full nodes se refiere al hecho de que la validación de los bloques, es decir, los datos que producen los mineros, se realiza en el extremo de la red, en última instancia por sus usuarios, y no por unas pocas autoridades de confianza.
 
 
 ![](assets/en/001.webp)
 
 
-### Descentralización de los mineros
-
+### Descentralización minera
 
 
 Hubo intentos de crear monedas digitales antes de Bitcoin, pero la mayoría fracasaron por falta de descentralización de la gobernanza y resistencia a la censura.
 
-
-La descentralización de los mineros en Bitcoin significa que la *ordenación de las transacciones* no es llevada a cabo por una única entidad o conjunto fijo de entidades. Se lleva a cabo colectivamente por todos los actores que quieran participar en ella; este colectivo de mineros es un conjunto dinámico de usuarios. Cualquiera puede unirse a él o abandonarlo cuando lo desee. Esta propiedad hace que Bitcoin sea resistente a la censura.
-
+La descentralización minera en Bitcoin significa que la *ordenación de las transacciones* no es llevada a cabo por una única entidad o conjunto fijo de entidades. Se lleva a cabo colectivamente por todos los actores que quieran participar en ella; este colectivo de mineros es un conjunto dinámico de usuarios. Cualquiera puede unirse a él o abandonarlo cuando lo desee. Esta propiedad hace que Bitcoin sea resistente a la censura.
 
 Si el Bitcoin estuviera centralizado, sería vulnerable a quienes quisieran censurarlo, como los gobiernos. Correría la misma suerte que intentos anteriores de crear dinero digital. En la introducción de [un artículo](https://www.blockstream.com/sidechains.pdf) titulado "Enabling Blockchain Innovations with Pegged Sidechains", los autores explican cómo las primeras versiones del dinero digital no estaban preparadas para un entorno adversario (véase también el capítulo sobre Pensamiento adversario en la siguiente parte).
 
@@ -172,11 +169,11 @@ Luego concluye diciendo que el ataque del 51% no es especialmente preocupante, c
 La conclusión es importante. Si la gente no protege la descentralización de Bitcoin, que es un sustituto de su resistencia a la censura, Bitcoin podría ser víctima de los poderes centralizadores, hasta que esté tan centralizada que la censura se convierta en una cosa. Entonces, la mayor parte de su propuesta de valor, si no toda, desaparecería. Esto nos lleva a la siguiente sección sobre la descentralización de un full node.
 
 
-### Descentralización de un full node
+### Descentralización de full node
 
 
 
-En los párrafos anteriores, hemos hablado principalmente de la descentralización de los mineros y de cómo la centralización de los mineros puede permitir la censura. Pero también hay otro aspecto de la descentralización, la *descentralización del full node*.
+En los párrafos anteriores, hemos hablado principalmente de la descentralización minera y de cómo la centralización de los mineros puede permitir la censura. Pero también hay otro aspecto de la descentralización, la *descentralización del full node*.
 
 
 La importancia de la descentralización de un full node está relacionada con la desconfianza. Supongamos que un usuario deja de gestionar su propio full node debido, por ejemplo, a un aumento prohibitivo del coste de funcionamiento. En ese caso, tienen que interactuar con la red Bitcoin de alguna otra manera, posiblemente utilizando wallets web o wallets ligeras, lo que requiere un cierto nivel de confianza en los proveedores de estos servicios.
@@ -1370,7 +1367,7 @@ A los mineros no les gusta que sus bloques se bloqueen porque perderían su reco
 La minería sin validación socava aún más la descentralización del full node, ya que el minero recurre a confiar en los bloques entrantes, al menos temporalmente. También perjudica en cierta medida a la seguridad, ya que una parte de la potencia de cálculo de la red se basa potencialmente en una Blockchain no válida, en lugar de hacerlo en la cadena más sólida y válida.
 
 
-El segundo punto tiene un efecto negativo en la descentralización de los mineros, porque normalmente los pools con la mejor conectividad de red y ancho de banda son también los más grandes, lo que hace que los mineros graviten hacia unos pocos pools grandes.
+El segundo punto tiene un efecto negativo en la descentralización minera, porque normalmente los pools con la mejor conectividad de red y ancho de banda son también los más grandes, lo que hace que los mineros graviten hacia unos pocos pools grandes.
 
 #### Escala horizontal
 

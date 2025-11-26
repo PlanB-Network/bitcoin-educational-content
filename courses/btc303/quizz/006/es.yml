@@ -1,4 +1,4 @@
-question: ¿Cuál es la principal vulnerabilidad que hizo fracasar los primeros intentos de moneda digital antes de la Bitcoin?
+question: ¿Cuál es la principal vulnerabilidad que hizo fracasar los primeros intentos de moneda digital antes de Bitcoin?
 answer: Se basaban en servidores centrales que podían ser censurados o cerrados
 wrong_answers:
   - Utilizaban algoritmos criptográficos inadecuados para la seguridad de las transacciones

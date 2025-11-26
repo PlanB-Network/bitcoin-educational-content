@@ -1,4 +1,4 @@
-question: ¿Cuál será el año aproximado en que la subvención en bloque de Bitcoin llegue a cero según el PIF42?
+question: ¿Cuál será el año aproximado en que la subvención en bloque de Bitcoin llegue a cero según el BIP42?
 answer: 2140
 wrong_answers:
   - 2100

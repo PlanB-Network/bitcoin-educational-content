@@ -120,7 +120,7 @@ David Chaum 的行動是在一場概念革命之後：Whitfield Diffie 和 Marti
 
 ![Digital signature](assets/zh-Hant/002.webp)
 
-非對稱密碼學是在 1970 年代由幾位研究人員獨立發現的。然而，最先提出他們的發現的是 Whitfield Diffie 和 Martin Hellman，兩位來自史丹福大學的密碼學家。1976 年 11 月，他們在 *IEEE Transactions on Information Theory* 期刊上發表了一篇題為「[密碼學的新方向](https://ee.stanford.edu/~hellman/publications/24.pdf)」的論文，其中描述了一種金鑰交換演算法 (用於傳送對稱加密的秘密金鑰) 以及數位簽章程序。在這篇論文的引言中，他們寫道：
+非對稱密碼學在 1970 年代由多個研究團隊各自獨立發現。然而，最早公布其研究成果的是史丹佛大學的兩位密碼學家——Whitfield Diffie 與 Martin Hellman。1976 年 11 月，他們在期刊 *IEEE Transactions on Information Theory* 上發表了一篇題為「 [New Directions in Cryptography](https://ee.stanford.edu/~hellman/publications/24.pdf) 」的論文，文中描述了一種金鑰交換演算法（用於傳輸對稱加密所需的祕密金鑰）以及一種數位簽章方法。在該論文的引言中，他們寫道：
 
 > "今天，我們正站在加密技術革命的邊緣。廉價數位硬體的發展使其擺脫了機械運算的設計限制，並使高級加密裝置的成本降低到可以用於商業應用的程度，例如遠端出鈔機和電腦終端機。反過來，這樣的應用也創造了對新型加密系統的需求，這些系統可以將安全金鑰分發通道的必要性降到最低，並提供了相當於書面簽名的東西。與此同時，資訊理論和電腦科學的理論發展顯示有希望提供可證明安全的密碼系統，將這門古老的藝術變為一門科學"。
 這裡有一張 1977 年的照片，由 Chuck Painter 為史丹佛大學新聞服務部 (Stanford News Service) 所拍攝，您可以看到 Whitfield Diffie (在右邊) 和 Martin Hellman (在中間)。左邊的人是密碼學家 Ralph Merkle，他當時也快要做出同樣的發現。

@@ -1692,7 +1692,7 @@ Dana 27. novembra, mladi češki programer po imenu Marek Palatinus, koristeći 
 Marek Palatinus (slush) na Z-DAY konferenciji u Pragu 11. maja 2013.
 
 
-Dva modela procene su implementirana u decembru. Prvo, koncept puddinpop je primenjen 1. decembra od strane korisnika doublec koji je [pozvao](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859) ljude da se povežu na njegov Mining server sa zajedničkim resursima. Grupa koja je formirana je [proizvela](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688) svoj prvi blok (95,420) 4. decembra. Nakon što je proizveden dodatni blok nekoliko dana kasnije, doublec-ov server je [zatvoren](https://bluishcoder.co.nz/Bitcoin-pool/) 15. decembra. Usluga je trajno zatvorena 17. decembra, zbog pojave mnogo efikasnije kooperative: Bitcoin.cz Mining.
+Oba modela procene su implementirana u decembru. Prvo, koncept puddinpop-a primenjuje se 1. decembra od strane korisnika doublec koji [poziva](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859) ljude da se povežu na njegov server za grupno rudarenje. Ovako formirano grupisanje [proizvodi](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688) svoj prvi blok (95 420) 4. decembra. Nakon što je proizveo dodatni blok nekoliko dana kasnije, doublec-ov server je [zaustavljen](https://bluishcoder.co.nz/bitcoin-pool/) 15. decembra. Usluga trajno zatvara svoja vrata 17. zbog pojave mnogo efikasnije zadruge: BitcoinCZ Mining.
 
 
 Nakon istraživanja foruma, Marek Palatinus je odlučio da implementira svoj Mining kooperativni model i značajno je sproveo probe na testnoj mreži. Takođe je osigurao da server bude dostupan i za CPU rudare (koji koriste softver Jeffa Garzika) i za GPU rudare (koji koriste klijente od m0mchil i puddinpop).

@@ -1222,7 +1222,7 @@ ArtForz 2010 年 8 月至 10 月的挖礦產量 (資料來源：ArtForz：Blackb
 
 Marek Palatinus (slush) 於 2013 年 5 月 11 日在布拉格舉行的 Z-DAY 會議上
 
-兩種評估模型在 12 月時實施。首先是 puddinpop 的概念，由用戶 doubled 於 12 月 1 日 應用，他 [邀請](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859) 人們連線到他的礦池。這個群組在 12 月 4 日 [產生](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688) 了第一個區塊 (95,420)。在幾天後又生產了一個區塊之後，doublec 的伺服器於 15 日 [關閉](https://bluishcoder.co.nz/Bitcoin-pool/)。由於出現了效率更高的礦池 Bitcoin.cz Mining 該服務於 17 日永久關閉：.
+這兩種估算模型於 12 月實施。首先，puddinpop 的概念於 12 月 1 日由用戶 doublec 應用，他[邀請](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859)人們連接到他的分組挖礦伺服器。由此形成的分組於 12 月 4 日[產生了](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688)它的第一個區塊（95,420）。在幾天後產生了另一個額外的區塊後，doublec 的伺服器於 15 日[停止](https://bluishcoder.co.nz/bitcoin-pool/)運行。由於出現了一個效率更高的合作社：BitcoinCZ Mining，該服務於 17 日永久關閉。
 
 在調查論壇後，Marek Palatinus 決定實作他的挖礦合作模式，並在測試網路上進行測試。他也確保 CPU 礦工 (使用 Jeff Garzik 的軟體) 和 GPU 礦工 (使用 m0mchil 和 puddinpop 的用戶端) 都能存取伺服器。
 

@@ -1055,7 +1055,7 @@ ArtForzの2010年8月から10月にかけてのマイニング生産量 (出典:
 
 ![Marek Palatinus (slush) at the Z-DAY conference in Prague on May 11, 2013](assets/ja/050.webp)
 Marek Palatinus（slush）は、2013年5月11日にプラハで開催されたZ-DAYカンファレンスに参加しました。
-2つの推定モデルは12月に実装されました。最初に、12月1日にユーザーdoublecが自身のプールドマイニングサーバーに人々を[招待](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859)し、puddinpopコンセプトが適用されました。グループが形成され、12月4日に最初のブロック（95,420）を[生成](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688)しました。追加のブロックを数日後に生成した後、doublecのサーバーは15日に[シャットダウン](https://bluishcoder.co.nz/bitcoin-pool/)されました。サービスは、より効率的な協同組合であるBitcoin.cz Miningの出現により、17日に永久に閉鎖されました。
+2つの推定モデルは12月に実装されました。まず、puddinpopの概念は、12月1日にユーザー doublec によって適用され、彼は人々に自分のグループ化されたマイニングサーバーに[接続するよう招待しました](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859)。こうして形成されたグループは、12月4日に最初のブロック（95,420）を[生成します](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688)。数日後に追加のブロックを生成した後、doublec のサーバーは15日に[停止されます](https://bluishcoder.co.nz/bitcoin-pool/)。このサービスは、はるかに効率的な協同組合である BitcoinCZ Mining の出現により、17日に永久に閉鎖されます。
 
 フォーラムを調査した後、Marek Palatinusは彼のマイニング協同組合モデルを実装することを決定し、特にテストネットワークで試験を実施しました。彼はまた、CPUマイナー（Jeff Garzikのソフトウェアを使用する人）とGPUマイナー（m0mchilとpuddinpopのクライアントを使用する人）の両方がサーバーにアクセスできるようにしました。
 

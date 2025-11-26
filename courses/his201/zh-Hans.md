@@ -1057,7 +1057,7 @@ ArtForz在2010年8月至10月间的挖矿产量（来源：Blackburn et al., "[C
 
 ![Marek Palatinus (slush) 在2013年5月11日布拉格的Z-DAY会议上](assets/zh-Hans/050.webp)
 Marek Palatinus（slush）在2013年5月11日于布拉格举行的Z-DAY会议上
-两种估算模型于12月份实施。首先，puddinpop概念由用户doublec在12月1日应用，他[邀请](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859)人们连接到他的矿池服务器。该团队形成的[产出](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688)了其第一个区块（95,420）于12月4日。在几天后又产出了一个额外的区块后，doublec的服务器于15日被[关闭](https://bluishcoder.co.nz/bitcoin-pool/)。由于出现了一个更高效的合作伙伴：Bitcoin.cz Mining，该服务于17日永久关闭。
+这两种估算模型于 12 月实施。首先，puddinpop 的概念于 12 月 1 日由用户 doublec 应用，他[邀请](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859)人们连接到他的分组挖矿服务器。由此形成的分组于 12 月 4 日[产生了](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688)它的第一个区块（95,420）。在几天后产生了另一个额外的区块后，doublec 的服务器于 15 日[停止](https://bluishcoder.co.nz/bitcoin-pool/)运行。由于出现了一个效率更高的合作社：BitcoinCZ Mining，该服务于 17 日永久关闭。
 
 在浏览论坛后，Marek Palatinus决定实施他的矿业合作模型，并显著地在测试网络上进行了试验。他还确保服务器能够对CPU矿工（使用Jeff Garzik的软件）和GPU矿工（使用m0mchil和puddinpop的客户端）都可访问。
 

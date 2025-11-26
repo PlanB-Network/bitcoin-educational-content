@@ -1686,25 +1686,24 @@ Conversely, if a government were to double the budget for roads construction but
 In conclusion, MMT asserts that the state can use its money-creating capacity to achieve full employment and finance social and ecological investment, while controlling inflation through appropriate fiscal policy. This goal of managing unemployment and financing public investment while controlling inflation is also shared by Keynesian economists, who typically focus on managing interest rates and fiscal policy to achieve these ends.
 
 
-### MMT review
+### Review of MMT
 
 
-This theory only applies to a handful of countries (see Stephanie Kelton's tweet) that enjoy true monetary sovereignty, i.e., they can raise debt in their own currency. This theory is difficult to apply to import-dependent economies, which must maintain international confidence in their currency.
+Modern Monetary Theory (MMT) is only applicable to a small number of countries that possess true monetary sovereignty, defined as the ability to issue debt in their own currency. This theory is difficult to apply to import-dependent economies, which must maintain international confidence in their currency to manage trade.
 
 
-And what is true monetary sovereignty? It means being able to raise debt in your own currency. You have to be able to run a trade surplus to have enough currency reserves, enough foreign currency, so that you don't have to raise money in foreign currency to be able to import goods. This concerns a handful of countries.
+True monetary sovereignty requires a country to be able to finance its debt in its own currency.  This allows a nation to manage its imports without needing to borrow in foreign currency, a condition met by only a handful of countries.
 
-Here below, you can see a tweet from Stephanie Kelton, who is a kind of poster woman for this movement. She wrote a book called "The Deficit Myth". In the tweet, she writes that different countries like the United States, Japan, Canada, Australia, the United Kingdom, can't run out of money.
+For example, the economist Stephanie Kelton, author of "The Deficit Myth" and a prominent proponent of MMT, has noted that countries like the United States, Japan, Canada, Australia, and the United Kingdom possess this capacity and therefore cannot run out of money.
 
 
 ![image](./assets/fr/no_debt_crisis.webp)
 
 
-Strangely, it only lists six countries? Why is that? Because they have real monetary sovereignty. But there are around 200 countries on Earth, and not all of them have monetary sovereignty. So, my criticism of this theory, apart from being a little strange and non-functional, is that it only works for a few countries that enjoy true monetary sovereignty, those that can issue treasury bills in their own currency. To some extent, it goes to the detriment of the rest of the world. By creating this currency, it's like they were exporting their inflation elsewhere, akin to what the United States has been doing with its exorbitant privilege for decades. This resembles a form of monetary colonialism, where countries that have global confidence and demand for their currency can print as much money as they wish without incurring significant inflation, often because they export that inflation.
+A primary criticism of MMT is its limited applicability; it is a functional framework only for countries with monetary sovereignty. This creates a two-tiered global system. Sovereign currency issuers can, in theory, create currency with less fear of domestic inflation, effectively exporting that inflation to other nations. This dynamic, often described as an "exorbitant privilege," resembles a form of monetary colonialism, where global demand for a currency allows its issuer to print money with fewer immediate consequences.
 
-This theory is difficult to apply to import-dependent economies that need to maintain international confidence in their currency.
 
-This theory also calls for a certain level of centralized planning of the economy, notably to ensure greater control over real resources (workers, raw materials, industrial capacity) and to manage inflation.
+Furthermore, MMT requires a significant degree of centralized economic planning. To manage inflation, the state must effectively control and allocate real resources, icluding labor, raw materials, and industrial capacity. and to manage inflation. This necessity for central planning is another key point of critique for the theory.
 
 # The fall and rebirth of money
 
@@ -1848,7 +1847,7 @@ For this section on Antiquity, the fall of Rome and the Middle Ages, we'll start
 The history of coinage in ancient Greece began around 600 BC, when Greek cities quickly adopted the innovation from Lydia in Asia Minor, initially using electrum and later silver. The first Greek coins were minted on the island of Aegina, featuring a sea or land turtle, but it was the Athenian drachma, decorated with Athena and an owl, that became the monetary symbol par excellence from the 5th century BC, largely dominating international trade at the time.
 
 
-And I'm lucky enough to have a copy of a Greek drachma from that period with that famous owl and a figure on the back. It's a tetradrachma, which was larger than a simple drachma.
+The image below shows a Greek drachma from that period with that famous owl and a figure on the back. It's a tetradrachma, which was larger than a simple drachma.
 
 
 ![](./assets/fr/3_1_tetradrachm.webp)
@@ -1857,19 +1856,19 @@ And I'm lucky enough to have a copy of a Greek drachma from that period with tha
 Each Greek city developed its own relationship with money. In Athens, currency was deeply linked to political and economic power. The famous Athenian decree of the late 5th century BC imposed the exclusive use of Athenian currency in its allied territories, thus reinforcing its economic hegemony. Athens also accumulated large reserves of gold for emergencies, which were kept on the Acropolis, perhaps as a symbol of its economic prudence. By contrast, Sparta, a military city with rigorous values, chose to severely restrict the use of money, forbidding its citizens to possess gold or silver coins. Sparta preferred to use heavy iron bars to discourage foreign trade and maintain social cohesion.
 
 
-Wars were often financed by currency manipulation. During the Peloponnesian War (431-404 BC), Athens resorted to drastic devaluations to pay its troops. Deprived of access to its silver mines by the Spartan occupation of Decelia in 413 BC, Athens had to melt down gold statues to mint new coins in a hurry in 407/406 BC. Then, in 406/405 BC, she created bronze coins plated with silver, causing a monetary crisis illustrated by **Aristophanes**, who already evokes what is known today as Gresham's Law: bad money driving out good money. This emergency currency was quickly demonetized after the war to restore confidence in Athenian coinage.
+Wars were often financed by currency manipulation. During the Peloponnesian War (431-404 BC), Athens resorted to drastic devaluations to pay its troops. Deprived of access to its silver mines by the Spartan occupation of Decelia in 413 BC, Athens had to melt down gold statues to mint new coins in a hurry in 407/406 BC. Then, in 406/405 BC, the state created bronze coins plated with silver, causing a monetary crisis illustrated by **Aristophanes**, who already evokes what is known today as Gresham's Law: bad money driving out good money. This emergency currency was quickly demonetized after the war to restore confidence in Athenian coinage.
 
 
-The end of the classical period was marked by the rise of Macedonia under Philip II and his son Alexander the Great, profoundly upsetting the Greek monetary balance. Thanks to the vast gold and silver mines of Mount Pangea, Philip II produced an abundance of money to finance his military and political campaigns, establishing a simple and practical gold-silver standard (10:1). His gold staters, celebrating his victory at the Olympic Games, circulated as far as Western Europe, even reaching England. Alexander pursued this monetary policy, widely circulating the **Attic** drachma during his conquests in the East as far as India. This massive circulation of coins marked the beginning of the Hellenistic era, when the image of sovereigns gradually replaced that of divinities on coins. This innovation enabled generations of Hellenistic monarchs to promote themselves, relegating the traditional gods to a secondary role on the reverse of their coins.
+The end of the classical period was marked by the rise of Macedonia under Philip II and his son Alexander the Great, profoundly upsetting the Greek monetary balance. Thanks to the vast gold and silver mines of Mount Pangaeus, Philip II produced an abundance of money to finance his military and political campaigns, establishing a simple and practical gold-silver standard (10:1). His gold staters, celebrating his victory at the Olympic Games, circulated as far as Western Europe, even reaching England. Alexander pursued this monetary policy, widely circulating the **Attic** drachma during his conquests in the East as far as India. This massive circulation of coins marked the beginning of the Hellenistic era, when the image of sovereigns gradually replaced that of divinities on coins. This innovation enabled generations of Hellenistic monarchs to promote themselves, relegating the traditional gods to a secondary role on the reverse of their coins.
 
 
 After Alexander's death in 323 BC, his generals divided up his immense empire, establishing dynasties in Egypt (the Ptolemies), Syria (the Seleucids) and elsewhere. These Hellenistic kingdoms adopted a variety of monetary systems: the Ptolemies imposed a closed monetary system to control the circulation of money, preferring to use grain as internal currency to save precious metals for external military expenditure. At the same time, Rhodes became a major trading center before being economically weakened by the Romans, who established Delos as a free port in 167 BC.
 
 
-The use of money was central to the remuneration of mercenaries. Alexander's soldiers received silver drachmas on a daily basis.
+The use of money was central to the remuneration of mercenaries. Alexander's soldiers were paid in silver drachmas on a daily basis.
 
 
-The cavalry, the elite of Alexander's highly specialized army, received on average two drachmas a day, an infantryman one drachma, and an ordinary mercenary two-thirds of a drachma, double the wage of a simple worker.
+The cavalry, the elite of this highly specialized army, received on average two drachmas a day, an infantryman one drachma, and an ordinary mercenary two-thirds of a drachma, double the wage of a simple worker.
 
 
 During the Peloponnesian War, considerable sums were also paid to soldiers: over 1,200 talents to put down the Samos revolt and over 2,000 talents to lay siege to Potidea.

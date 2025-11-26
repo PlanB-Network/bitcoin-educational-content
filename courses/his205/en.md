@@ -1978,7 +1978,7 @@ In this section on Antiquity, we now turn our attention to the Roman Republic. R
 The decisive encounter with the Greeks of southern Italy truly introduced the Romans to minted silver coins. Around 280 BC, Rome began producing its own silver coins in imitation of Greek didrachms. The first regular issue of silver coins in Rome dates back precisely to 269 BC, featuring the legendary twins Romulus and Remus suckled by the she-wolf, a symbol that has become iconic.
 
 
-In fact, many Roman coins from the Republic period depict founding myths. You can see mine here below: it's a superb, real coin from King Tatius. It illustrates the myth of the abduction of women from the Sabines. Tatius was the king of this region, and the founding myth tells of how the Romans abducted women from the Sabines, a population who lived nearby. Subsequently, King Tatius became a co-king with Romulus, one of the founders of Rome.
+In fact, many Roman coins from the Republic period, as displayed below, depict founding myths. For example, coins issued in the name of King Tatius, a legendary Sabine king who ruled jointly with Romulus, depict the myth of the abduction of the Sabine women.
 
 ![](./assets/fr/3_2_tatius.webp)
 
@@ -1995,13 +1995,13 @@ The term "coin" has its origins in the temple of Juno Moneta in Rome. Legend has
 Military conflicts had a considerable influence on Roman monetary development. During the Second Punic War (218-201 BC) against Carthage, Rome faced severe financial difficulties in the face of Hannibal's invasion. To alleviate these urgent needs, Rome resorted for the first time to an exceptional issue of gold coins, as well as to a significant devaluation of its silver coinage, from an initial purity of 97% to around 89%. The weight of bronze coins (aes) also dropped drastically, losing almost 80% in six years.
 
 
-Here, we can revisit a concept we've previously discussed regarding the Greeks melting precious metals stored in temples to help alleviate economic crises. And to talk about **Carthage**, here below you can admire a real Carthaginian coin from my collection. These Carthaginian coins featured a palm tree on one side, and a horse on the other side. On this coin, the horse isn't very recognizable, a it's very worn.
+This practice of debasement during crisis was not unique to Rome. For instance, Carthage also experienced currency deterioration during the war. **Carthaginian** coins of the period often featured a palm tree on one side and a horse on the other. On the example shown below, the horse's design is significantly worn due to age.
 
 
 ![](./assets/fr/3_2_Carthage.webp)
 
 
-As a result, the weight of bronze coins, known as aes, also dropped drastically, losing almost 80% in six years. So, the weight of these bronze coins, which were not a precious metal and were used in everyday trade, dropped a lot, which was a sign of monetary devaluation due to these wars.
+As a result, the weight of bronze coins, known as aes, also dropped drastically, losing almost 80% in six years. This severe devaluation of the bronze currency, which was used in everyday trade, was a direct consequence of the financial pressures of war.
 
 
 ### The silver denarius and monetary stability
@@ -2019,7 +2019,7 @@ Beyond the Roman borders, wars led to major devaluations in regions under Roman 
 With the expansion of Rome, the character of coins also evolved: initially anonymous and patriotic, coins gradually adopted personalized designs featuring the powerful families of the minters (those who struck the coins). This transition clearly symbolizes the political transformations of the late Roman Republic.
 
 
-Finally, while Rome dominated the Mediterranean world economically, it retained a certain simplicity in its means of payment: no real form of monetary transfer other than the direct exchange of coins was developed, with the exception of tax transfers and private credits reserved for the elite.
+Finally, while Rome dominated the Mediterranean world economically, it retained a certain simplicity in its means of payment: no widespread system of monetary transfer other than the direct exchange of coins was developed, with the exception of tax transfers and private credits reserved for the elite.
 
 
 ## The Roman Empire
@@ -2112,7 +2112,7 @@ Rome is taken by various Germanic peoples (including the Ostrogoths), an event c
 ### Augustus' monetary reforms
 
 
-In this section on Antiquity, we have already arrived to the Roman Empire. The monetary history of the Roman Empire is characterized by the intensive use of metallic currency, notably gold, silver, and bronze, but also by multiple currency crises, closely linked to political and military unrest. At the end of the Republic, under Julius Caesar, Rome introduced the gold aureus in 46 BC, a coin weighing around 8 grams that was widely accepted throughout Europe and the Mediterranean basin. Caesar standardized these gold coins and minted the first coins bearing the portrait of a living man, thus overturning an ancient republican tradition that favored anonymous, collective symbols. This development accompanied a period of major political transformation, with personal power gradually replacing republican institutions.
+In this section on Antiquity, we have now arrived to the Roman Empire. The monetary history of the Roman Empire is characterized by the intensive use of metallic currency, notably gold, silver, and bronze, but also by multiple currency crises, closely linked to political and military unrest. At the end of the Republic, under Julius Caesar, Rome introduced the gold aureus in 46 BC, a coin weighing around 8 grams that was widely accepted throughout Europe and the Mediterranean basin. Caesar standardized these gold coins and minted the first coins bearing the portrait of a living man, thus overturning an ancient republican tradition that favored anonymous, collective symbols. This development accompanied a period of major political transformation, with personal power gradually replacing republican institutions.
 
 
 After Caesar's assassination in 44 BC, Octavian (Augustus) took control of Rome, establishing the Empire in 27 BC. His reign saw a complete reform of the monetary system, bringing lasting stability to the Roman economy. At the time of Augustus, one gold aureus was equivalent to 25 silver denarii, itself worth 4 bronze sestertii. This monetary stability continued throughout the first century AD, a period often described as an economic golden age for Rome.
@@ -2136,7 +2136,7 @@ However, from Nero onwards (AD 54-68), Rome began a slow devaluation of its coin
 The third century marks a dramatic turning point, with a spectacular acceleration in devaluations under the emperors Septimius Severus, Caracalla, and Gallienus. The main silver coin, the denarius and then the antoninianus, saw its silver content drop to just 2%. At the same time, the gold weight of the aureus dropped by half. This monetary crisis was accompanied by unprecedented political instability, barbarian invasions and recurrent civil wars.
 
 
-This part allows me to introduce the final piece in this section: the antoninianus. The original name of this coin is unknown, but we refer to it as an antoninianus today. It has the distinction of being valued at two denarii, despite being only 1.5 times larger than a denarius. Furthermore, over time, these coins became merely billon coins, meaning they were made from an alloy of silver and other metals rather than pure silver. The coins were often just coated with silver, serving as a notable example of monetary decay.
+The antoninianus provides a key example of this decay. The original name of this coin is unknown, but it is referred to as an antoninianus today. It was valued at two denarii despite being only 1.5 times larger. Over time, these coins became billon coins—alloys of silver and base, often merely silver-coated—serving as a notable example of monetary decay.
 
 
 ![](./assets/fr/3_3_antoninien.webp)
@@ -2145,15 +2145,11 @@ This part allows me to introduce the final piece in this section: the antoninian
 ![](./assets/fr/3_3_Denier-Antoninien.webp)
 
 
-Faced with this situation, Emperor Aurelian (270-275 AD) attempted to stabilize the system by nominally revaluing currencies, but this reform actually introduced an inflationary mechanism by artificially fixing the value of existing currencies at a higher level.
+Faced with this situation, Emperor Aurelian (270-275 AD) attempted to stabilize the system by nominally revaluing currencies, **but this reform actually introduced an inflationary mechanism by artificially fixing the value of existing currencies at a higher level.**
 
-I will introduce a digression on the subject. During the 3rd century, inflation experienced a rapid exponential increase. Previously, even though coins were devalued, the handmade process of minting them one by one provided some control over inflation. Statistics indicate that over 300 years of devaluation, inflation averaged about 4% per year. Just before Aurelian's reform, inflation was approximately 3% annually.
+Aurelian's reform marked a significant departure from previous methods of devaluation. Instead of gradually reducing the precious metal content of newly minted coins, he recalled existing, lower-purity coins and stamped them with a new mark (XXI), indicating a higher face value. This revaluation triggered an exponential increase in inflation, with rates reaching approximately 20% per year, a stark contrast to the pre-reform average of around 3-4%.
 
-Aurelian introduced a purity measurement on the XXI sign coin, indicating a composition of 20 parts bronze to 1 part silver, or 5% purity. He marketed these 5% silver coins and stamped the XXI sign on them. However, he also recalled all the other, more devalued coins and stamped the same XXI on them. This effectively revalued the face value of all coins. The outcome was a staggering inflation rate of 20% per year, far exceeding the previous 3% rate before this technique was implemented.
-
-It was really Aurelian who invented this form of devaluation, which is much faster than the gradual devaluation of metal, which still forced us to print coins one by one. What he did was to take all the existing coins, recall them and stamp them with a punch to change their face value. It's a real turning point. That's when inflation became exponential.
-
-To visually illustrate this extreme devaluation, I've found some fascinating statistics on the price of grain in Egypt from 40 BC to the 3rd century, spanning over 300 years. Below, you can see a Greek tetradrachma from my collection. At that time, in Egypt under Roman occupation in the 3rd century, the equivalent was an Egyptian tetradrachma. The denomination of drachmas was still in use, and it corresponded to a denarius.
+This extreme devaluation is visually illustrated by the Egyptian tetradrachm. Under Roman occupation in the 3rd century, this coin, which was equivalent to a denarius, was debased to a billon or bronze composition. This stands in stark contrast to the high-purity Greek tetradrachm from centuries prior. The physical decay of the coin mirrors the economic decay, with the price of grain in Egypt increasing a million-fold over this 300-year period.
 
 ![](./assets/fr/3_3_egypt-tetradrachm.webp)
 
@@ -2161,19 +2157,15 @@ To visually illustrate this extreme devaluation, I've found some fascinating sta
 ![](./assets/fr/3_3_tetradrachm-vs-tetradrachm.webp)
 
 
-So the Egyptian tetradrachm I have was the equivalent of a denarius. You can see that the coin is made of billon (or bronze), so it does not contain any precious metal. You can compare it to the original Greek tetradrachm to see the physical devaluation over these 300 years. It's a million-fold increase in the price of grain in Egypt.
-
-It's the physical expression of Aurelian's reform. It should be noted that the majority, the average over these 300 years of inflation, was around 4%. It was only at the end, when Aurelian made his reform, that this inflation became rather exponential and we arrived at this measure of 1 million. Prices were a million times higher at the end of the 3rd century than in the 1st century BC.
-
 His successor **Diocletian** (284-305 AD) attempted even more radical reforms: he issued new currencies (notably the argenteus, purer but too limited in quantity), imposed drastic price controls (Price Edict of 301 AD) and **established a tax system based on payments in kind**. Despite these efforts, Diocletian's reforms failed to curb rampant inflation.
 
 
-Faced with the refusal to supply goods and services in exchange for devalued currency, Diocletian instituted **a hereditary caste system** to tie peasants and their descendants to their land.
+Faced with the refusal of the populace to supply goods and services in exchange for devalued currency, Diocletian instituted **a hereditary caste system** to bind peasants and their descendants to their land.
 
 
-What really needs to be understood here is that what happened was that the peasants refused to deliver their produce in exchange for devalued currency, and our dear Diocletian's response was to create **hereditary castes** by saying "you, you can't leave your land, your children can't leave their land, same thing for the soldiers, you're soldiers, you agree to be paid in my currency". As a transitional solution, they were paid in kind (in meat, food, grain) because he refused to give them money. So he imposed this hereditary caste system to force people to be attached to their trade, so they couldn't simply change jobs if they tried not to accept the devalued currency.
+The core of the crisis was a breakdown in trust: peasants refused to deliver their produce for money they knew was worthless. Diocletian's response was radical and coercive. He effectively created **hereditary castes**, decreeing a peasant could not leave his land, nor could his children. The same logic was applied to soldiers, who were now obligated to accept payment in the state's debased currency. To make this more palatable, the state often resorted to paying in kind—with meat, food, and grain—rather than cash. This system was designed to shacklepeople to be attached to their professions, preventing them from abandoning their jobs in protest against the worthless money.
 
-To illustrate this example, here I have a text, an extract from the book "*Monetary Regime and Inflation*":
+This policy is described in the book "*Monetary Regime and Inflation*":
 
 
 > As people were unwilling to work and deliver goods against a devalued currency, whose face value was higher than its intrinsic or market value, they had to be forced to work by imposing taxes in kind. [...] It became illegal for peasants to leave their registered homes. The farming population thus became hereditarily attached to the land.

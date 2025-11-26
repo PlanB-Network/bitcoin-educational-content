@@ -1185,7 +1185,7 @@ Hal Finney在2009年4月退出比特币后，很快就得知自己在2009年8月
 然而，比特币的源代码仍然是自由的，所以任何人都可以复制和修改它，这防止了协议的演变完全是任意的。正如Jeff Garzik在11月19日[表达](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-19.html#l-1538)的：
 
 > “中本聪凭空想出了魔法数字，我们集体支持这个方向。[...] 中本聪做出社区不支持的疯狂事情的那一刻，就是协议/代码库真正被分叉的时刻。”
-因此，中本聪作为领导者的角色并不阻止批评的发生。这就是为什么从7月开始社区内部逐渐出现紧张情绪。例如，在8月部署警报系统或11月修改m0mchil的`getwork`函数期间，出现了反对意见。对于这种独裁式决策的挫败感有时在IRC上[更加公开地](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-24.html#l-384)表达。
+因此，中本聪的领导作用并不能阻止批评的发生。这就是为什么从七月开始，社区中的紧张局势逐渐显现。例如，在八月 [部署](https://bitcointalk.org/index.php?topic=898.msg10745#msg10745)警报系统或十一月 [修改](https://bitcointalk.org/index.php?topic=1901.msg24050#msg24050) Momchil 的 `getwork` 函数时，都出现了反对意见。对这种独裁决策的不满有时在 IRC 上[更加公开地](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-24.html#l-384)表达。
 
 接近中本聪但也与其他开发者讨论的Gavin清楚地看到了这种情况所带来的问题。2010年9月27日，在IRC上，Gavin[声明](https://buildingbitcoin.org/bitcoin-dev/log-2010-09-27.html#l-522)他希望“能够说服\[中本聪\]转向更加协作的开发模式。”（原文：“I just wish I could convince him to switch to a more collaborative development model.”）10月，Gavin[获得](https://sourceforge.net/p/bitcoin/code/165/)了在SourceForge上的仓库写入权限，这改善了情况。到了12月，随着维基解密事件的爆发，中本聪突然退出，问题自行解决。
 

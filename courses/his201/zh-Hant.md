@@ -1368,7 +1368,7 @@ Bitcoin 的創建者的離去有兩個原因：一方面，他的地位受到越
 不過，Bitcoin 的原始碼仍然是自由的，因此任何人都可以複製和修改，這可以防止通訊協定的演進完全隨意。如 Jeff Garzik 於 11 月 19 日 [表示](https://buildingbitcoin.org/Bitcoin-dev/log-2010-11-19.html#l-1538)：
 
 > "中本聰憑空提出了神奇的數字，我們共同支持這個方向。[...]當中本聰做出不受社群支持的瘋狂舉動時，就是協定/程式碼基礎真正分叉的時刻。
-因此，中本聰身為領導者的角色並不妨礙批評的發生。這就是為什麼從七月開始，社群中會逐漸出現緊張氣氛的原因。舉例來說，在八月警報系統的 [部署](https://bitcointalk.org/index.php?topic=898.msg10745#msg10745) 或十一月 m0mchil `getwork` 功能的 [修改](https://bitcointalk.org/index.php?topic=1901.msg24050#msg24050) 時，就會出現反對意見。對於這種獨裁決策的挫折感有時候會在 IRC 上 [更公開地](https://buildingbitcoin.org/Bitcoin-dev/log-2010-11-24.html#l-384) 表達出來。
+因此，中本聰的領導作用並不能阻止批評的發生。這就是為什麼從七月開始，社區中的緊張局勢逐漸顯現。例如，在八月 [部署](https://bitcointalk.org/index.php?topic=898.msg10745#msg10745)警報系統或十一月 [修改](https://bitcointalk.org/index.php?topic=1901.msg24050#msg24050) Momchil 的 `getwork` 函數時，都出現了反對意見。對這種獨裁決策的不滿有時在 IRC 上[更加公開地](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-24.html#l-384)表達。
 
 Gavin 與中本聰關係密切，但也會與其他開發人員討論，他清楚地看到這種情況所造成的問題。2010 年 9 月 27 日，在 IRC 上，Gavin [聲明](https://buildingbitcoin.org/Bitcoin-dev/log-2010-09-27.html#l-522) 他希望 「能夠說服中本聰轉換成更具協作性的開發模式」。(**原文：**「十月，Gavin [獲得](https://sourceforge.net/p/Bitcoin/code/165/) 了 SourceForge 上版本庫的寫入權限，情況有所改善。而在 12 月，隨著維基解密（WikiLeaks）事件的爆發，中本聰的突然退出，問題也隨之解決。」)
 

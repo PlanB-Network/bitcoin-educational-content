@@ -1895,7 +1895,7 @@ Satoshi은 오픈소스 소프트웨어 업계에서 "[자비로운 독재자](h
 
 > "Satoshi는 허공에서 마법의 숫자를 만들어냈고, 우리는 그 방향을 총체적으로 지지합니다. [...] Satoshi가 커뮤니티의 지지를 받지 못하는 미친 짓을 하는 순간 프로토콜/코드베이스가 진정으로 포크되는 순간이죠."
 
-따라서 리더로서 Satoshi의 역할이 비판을 막지는 못합니다. 7월부터 커뮤니티에서 서서히 긴장이 고조되는 이유도 바로 이 때문입니다. 예를 들어, 8월의 경보 시스템 [배포](https://bitcointalk.org/index.php?topic=898.msg10745#msg10745)나 11월의 m0mchil '네트워크' 기능 [수정](https://bitcointalk.org/index.php?topic=1901.msg24050#msg24050) 과정에서 이의를 제기합니다. 이러한 독재적인 의사 결정에 대한 불만은 때때로 IRC에서 [훨씬 더 공개적으로](https://buildingbitcoin.org/Bitcoin-dev/log-2010-11-24.html#l-384) 표출되기도 합니다.
+따라서 사토시의 지도자 역할이 비판이 발생하는 것을 막지는 못합니다. 이것이 7월부터 커뮤니티에서 긴장이 점차 나타나는 이유입니다. 예를 들어, 8월의 경보 시스템 [배포](https://bitcointalk.org/index.php?topic=898.msg10745#msg10745) 또는 11월의 Momchil의 `getwork` 기능 [수정](https://bitcointalk.org/index.php?topic=1901.msg24050#msg24050) 때 이의 제기가 발생합니다. 이 독재적인 의사 결정에 대한 불만은 때때로 IRC에서 [훨씬 더 공개적으로](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-24.html#l-384) 표현됩니다.
 
 
 Satoshi와 가깝지만 다른 개발자들과도 논의하는 개빈은 이 상황의 문제점을 분명히 인식하고 있습니다. 2010년 9월 27일, 개빈은 IRC에서 "\[Satoshi\]가 보다 협력적인 개발 모델로 전환하도록 설득할 수 있기를 바란다"고 [선언](https://buildingbitcoin.org/Bitcoin-dev/log-2010-09-27.html#l-522)했습니다 (*원문: "좀 더 협업적인 개발 모델로 전환하도록 설득할 수 있었으면 좋겠다."*) 10월에 Gavin은 [획득](https://sourceforge.net/p/Bitcoin/code/165/) SourceForge 리포지토리에 대한 쓰기 권한을 얻어 상황을 개선했습니다. 12월, 위키리크스 사건이 터진 후 Satoshi가 갑작스럽게 탈퇴하면서 문제가 해결되었습니다.

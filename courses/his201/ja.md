@@ -1183,7 +1183,7 @@ EFFが公共の寄付を受け入れ始めるまでには、しばらく時間�
 しかし、ビットコインのソースコードは自由なので、誰でもコピーして修正することができ、それによってプロトコルの進化が完全に恣意的になることを防ぎます。Jeff Garzikが11月19日に[表現](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-19.html#l-1538)したように：
 
 > "サトシは薄い空気から魔法の数字を思いつき、私たちはその方向を集団的に支持します。[...] サトシがコミュニティによって支持されていない何か狂ったことをする瞬間、プロトコル/コードベースは真にフォークされる瞬間です。"
-したがって、サトシのリーダーとしての役割は、批判が行われることを防ぐものではありません。これが、7月からコミュニティ内で徐々に緊張が生じ始める理由です。例えば、8月のアラートシステムの[デプロイメント](https://bitcointalk.org/index.php?topic=898.msg10745#msg10745)や、11月のm0mchilの`getwork`関数の[修正](https://bitcointalk.org/index.php?topic=1901.msg24050#msg24050)の際に、異議が提起されます。この独裁的な意思決定に対するフラストレーションは、時にIRC上で[はるかに公然と](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-24.html#l-384)表現されることがあります。
+このように、サトシの指導的役割は批判が起こるのを妨げませんでした。これが、7月以降コミュニティで徐々に緊張が高まる理由です。例えば、8月の警報システムの[展開](https://bitcointalk.org/index.php?topic=898.msg10745#msg10745)や、11月のMomchilの `getwork` 関数の[変更](https://bitcointalk.org/index.php?topic=1901.msg24050#msg24050)の際に異議申し立てが発生します。この独裁的な意思決定に対する不満は、IRCで時々[よりオープンに](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-24.html#l-384)表明されます。
 サトシに近いが他の開発者とも議論するGavinは、この状況が引き起こす問題を明確に認識しています。2010年9月27日、IRC上でGavinは「サトシを説得して、より協力的な開発モデルに切り替えることができれば」と[宣言](https://buildingbitcoin.org/bitcoin-dev/log-2010-09-27.html#l-522)します。（原文："I just wish I could convince him to switch to a more collaborative development model."）10月には、GavinはSourceForge上のリポジトリへの書き込み権限を[取得](https://sourceforge.net/p/bitcoin/code/165/)し、状況は改善します。そして12月、WikiLeaks事件の爆発を受けてサトシが突然引退することで、問題は自然と解決します。
 ### WikiLeaks事件
 

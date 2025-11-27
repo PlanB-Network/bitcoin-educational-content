@@ -1,9 +1,9 @@
-question: Ni akamaro akahe umuhinga mu gutanga ubutumwa kuri email atekanye nka ProtonMail atanga?
-answer: Ugukingira ubuzima bwite n’umutekano wongerekanye.
+question: Ni akamaro akahe uwutanga serivisi za imeyiri atekanye nka ProtonMail atanga?
+answer: Ugukingira ubuzima bwibanga n’umutekano ukajije.
 wrong_answers:
-  - Interface yoroshe ku batangura.
+  - Igicapo cyoroshe ku batangura.
   - Kugabanya ibiranga kugira ngo ugabanye uburebure bw’igitero.
-  - Ukwinjiza ubuhinga bwo gukora generate kuri emails zawe.
+  - Ukwinjiza ubuhinga bwo gukora imeyiri zawe vyihuse.
 explanation: |
-  ProtonMail iratandukanye cane n’ingingo ngenderwako zayo z’ubuzima bwite n’ingero z’umutekano zikomeye.
+  ProtonMail iza ubwambere ku ngingo ngenderwako zayo z’ubuzima bwibanga n’ingingo z’umutekano zikomeye.
 reviewed: true

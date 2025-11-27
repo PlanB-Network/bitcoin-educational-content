@@ -1,12 +1,10 @@
-question: Ni kuki amakuru y’ibinyabuzima abonwa ko adatekanye cane kuruta ubumenyi n’ubutunzi bihurikiye hamwe ku bijanye na 2FA?
-answer: Amakuru y’ibinyabuzima akwiye kuguma ku gikoresho co kwemeza ko umuntu ari uwuriho kandi ntamenyekane kuri Internet.
+question: Ni kuki amakuru ya biometric abonwa ko adatanga umutekano cane kuruta uguhuza ubumenyi n’ivyo umuntu afise ku bijanye na 2FA?
+answer: Amakuru ya biometric akwiye kuguma ku gikoresho co kwemeza ko umuntu ari we ntagomba kuba ari kuri interineti
 wrong_answers:
-  - Amakuru y’ibinyabuzima yoroshe gukuraho naho yoba atari ku murongo ku gikoresho co kwemeza.
-  - Amakuru y’ibinyabuzima aragoye kwibuka no kuyakoresha igihe ukoresha igikoresho co kwemeza ko umuntu ari we.
-  - Ibikoresho vy’amakuru y’ibinyabuzima birazimvye cane gushirwa mu ngiro rero ntibitwara amahera menshi ugereranyije n’ibindi bisubizo.
+  - Amakuru ya biyometric yoroshe kuronka naho yoba atari kuri interineti ku gikoresho co kwemeza.
+  - Amakuru ya biyometric aragoye kwibuka no kuyakoresha igihe ukoresha igikoresho co kwemeza ko umuntu ari we.
+  - Ibikoresho vy’amakuru ya biyometric birazimvye cane gushirwa mu ngiro rero ntibizimbutse ugereranyije n’izindi nyishu.
 explanation: |
-  Amakuru y’ibinyabuzima ntatekanye cane kuko akwiye kuguma ku
-  igikoresho co kwemeza kandi ntibimenyekane kuri Internet. Nimba
-  rimenyeshwa kuri Internet, rishobora kwibwa rikakoreshwa ku .
-  gushikamwo ata wemerewe.
+  Amakuru ya biyometric akwiye kuguma ku gikoresho co kwemeza ko umuntu ari we ntagomba kuba ari kuri interineti.
+  Nimba aja kuri interineti, asobora kwibwa agakoreshwa mukwinjira muburyo butemewe.
 reviewed: true

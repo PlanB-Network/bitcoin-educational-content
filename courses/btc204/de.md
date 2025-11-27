@@ -2514,7 +2514,7 @@ Leider sind diese Instrumente nach der Verhaftung der Gründer von Samourai nich
 
 Nachdem wir nun Coinjoins im Detail behandelt haben, werden wir uns im letzten Abschnitt unseres Kurses mit den anderen Techniken zur Wahrung der Privatsphäre bei Bitcoin beschäftigen. Wir werden uns Payjoins, spezielle Pseudo-Coinjoin-Transaktionstypen, statische Adressprotokolle sowie Maßnahmen zur Stärkung der Vertraulichkeit nicht auf der Ebene der Transaktionen selbst, sondern auf der Ebene des Netzwerks der Knotenpunkte ansehen.
 
-https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # Verständnis für die Herausforderungen anderer fortgeschrittener Vertraulichkeitstechniken
 

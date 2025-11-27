@@ -1,9 +1,9 @@
-question: What advanced security features are typically implemented at the Enterprise level for bitcoins?
-answer: Multi-signature with timelocks
+question: Những tính năng bảo mật nâng cao nào thường được triển khai ở cấp Doanh nghiệp cho Bitcoin?
+answer: Chữ ký đa cấp với khóa thời gian
 wrong_answers:
-  - Password protection for a mobile Lightning wallet
-  - Single-sig with BIP39 passphrase protection
-  - Single-sig with 24 words seed phrase
+  - Bảo vệ bằng mật khẩu cho thiết bị di động Lightning wallet
+  - Chữ ký đơn với bảo vệ BIP39 passphrase
+  - Chữ ký đơn với cụm từ seed gồm 24 từ
 explanation: |
-  High-security measures such as multi-signature configurations with timelocks are crucial for managing large sums.
-reviewed: false
+  Các biện pháp bảo mật cao như cấu hình đa chữ ký với khóa thời gian là rất quan trọng để quản lý số tiền lớn.
+reviewed: true

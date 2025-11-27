@@ -6,4 +6,4 @@ wrong_answers:
   - netstat -r 8.8.8.8
 explanation: |
   ip route get <Address> inaonyesha njia halisi ambayo pakiti inaweza kuchukua ili kufikia lengwa maalum.
-reviewed: false
+reviewed: true

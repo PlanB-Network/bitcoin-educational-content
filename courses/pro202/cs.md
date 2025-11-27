@@ -138,6 +138,13 @@ Stejně jako u každého kurzu na Plan ₿ Academy obsahuje závěrečná část
 
 <isCourseReview>true</isCourseReview>
 
+## Final Exam
+
+<chapterId>91db243d-8479-4636-afa8-dd189b0d4c5e</chapterId>
+
+
+<isCourseExam>true</isCourseExam>
+
 
 ## Závěr
 

@@ -26,7 +26,7 @@ Katika somo hili, tutakuwa tukiangalia Picocrypt, programu rahisi, nyepesi na bo
 
 
 
-Inafaa kwa **faili za usimbaji fiche**, unaweza kuitumia kulinda **data kwenye kompyuta yako, kwenye kifimbo cha USB**, lakini pia data iliyohifadhiwa kwenye Wingu. Kwa mfano, unaweza kusimba data kwa njia fiche na kuihifadhi kwenye **Microsoft OneDrive, Hifadhi ya Google, iCloud au Dropbox**, ingawa kwa kusudi hili napendelea kipande kingine cha programu ambacho kitawasilishwa katika makala yajayo.
+Inafaa kwa **faili za usimbaji fiche**, unaweza kuitumia kulinda **data kwenye kompyuta yako, kwenye USB stick**, lakini pia data iliyohifadhiwa kwenye Wingu. Kwa mfano, unaweza kusimba data kwa njia fiche na kuihifadhi kwenye **Microsoft OneDrive, Hifadhi ya Google, iCloud au Dropbox**, ingawa kwa kusudi hili napendelea kipande kingine cha programu ambacho kitawasilishwa katika makala yajayo.
 
 
 
@@ -89,7 +89,7 @@ Picocrypt ni **nyepesi sana**, ina uzito wa **MB 3** tu, na haihitaji kusakinish
 
 
 
-Zaidi ya faida zilizotajwa hapo juu, kinachovutia sana ni ** urahisi wa matumizi **!
+Zaidi ya faida zilizotajwa hapo juu, kinachovutia sana ni ** urahisi wa matumizi**!
 
 
 
@@ -117,7 +117,7 @@ Kwanza kabisa, unahitaji kupakua Picocrypt.exe kutoka kwa GitHub rasmi ([tazama 
 
 
 
-Fungua programu ili kuonyesha Interface yake ya chini kabisa kwenye skrini. Ili kusimba data kwa njia fiche, iwe **faili, faili kadhaa au folda**, kwa urahisi **buruta na kuidondosha kwenye Interface** ya Picocrypt. Hii itachagua data itakayosimbwa.
+Fungua programu ili kuonyesha interface yake ya chini kabisa kwenye skrini. Ili kusimba data kwa njia fiche, iwe faili, faili kadhaa au folda, buruta na uondoshe kwenye interface ya Picocrypt. Hii itachagua data itakayosimbwa.
 
 
 
@@ -195,7 +195,7 @@ Toleo lisilosimbwa la kumbukumbu ya ZIP ya "Encrypted.zip" sasa inaniruhusu kure
 
 
 
-Hakikisha kuwa unatumia manenosiri thabiti ili kulinda data, na ukitumia faili muhimu, ni lazima ukumbuke kuihifadhi, vinginevyo hutaweza tena kusimbua kontena la PCV linalozalishwa na Picocrypt. Hatimaye, unapaswa kujua kwamba pia kuna [toleo la CLI](https://github.com/Picocrypt/CLI) (yenye vipengele vichache) ambalo hukuwezesha kuendesha Picocrypt kutoka kwa safu ya amri: hapa tena, Picocrypt inafungua mlango wa uwezekano mpya.
+Hakikisha kuwa unatumia manenosiri thabiti ili kulinda data, na ukitumia faili muhimu ni lazima ukumbuke kuihifadhi; vinginevyo hutaweza tena kusimbua kontena la PCV linalozalishwa na Picocrypt. Hatimaye, unapaswa kujua kwamba pia kuna [toleo la CLI](https://github.com/Picocrypt/CLI) (yenye vipengele vichache) ambalo hukuwezesha kuendesha Picocrypt kutoka kwa safu ya amri: hapa tena, Picocrypt inafungua mlango wa uwezekano mpya.
 
 
 

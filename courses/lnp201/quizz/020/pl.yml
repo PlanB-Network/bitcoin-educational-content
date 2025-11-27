@@ -6,4 +6,4 @@ wrong_answers:
   - Zablokowanie transakcji nieodpowiednią blokadą czasową
 explanation: |
   Główne ryzyko polega na tym, że jedna ze stron może próbować oszukiwać, publikując starą transakcję zobowiązującą, co może pozwolić jej odzyskać środki, których już nie posiada.
-reviewed: false
+reviewed: true

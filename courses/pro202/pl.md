@@ -138,6 +138,13 @@ Jak w każdym kursie na Plan ₿ Academy, ostatnia sekcja zawiera ocenę zaproje
 
 <isCourseReview>true</isCourseReview>
 
+## Final Exam
+
+<chapterId>91db243d-8479-4636-afa8-dd189b0d4c5e</chapterId>
+
+
+<isCourseExam>true</isCourseExam>
+
 
 ## Wnioski
 

@@ -1,0 +1,8 @@
+question: What happens to the difference between input amounts and output amounts in a Bitcoin transaction?
+answer: The difference automatically becomes the transaction fee paid to miners
+wrong_answers:
+  - "The difference is returned to the sender's original address as change"
+  - The difference is burned and permanently removed from circulation
+  - The difference is held in escrow until the transaction is confirmed
+explanation: |
+  In Bitcoin's fee system, fees are calculated implicitly as the difference between total input amounts and total output amounts (fee = sum(inputs) - sum(outputs)). Any value not explicitly assigned to an output automatically becomes the miner fee. This is why creating proper change outputs is critical - if you forget to include a change output when spending a large UTXO, the entire remainder becomes an expensive fee for the miner. The other options are incorrect because Bitcoin doesn't automatically create change outputs, doesn't burn unassigned value, and doesn't use escrow mechanisms for transaction differences.

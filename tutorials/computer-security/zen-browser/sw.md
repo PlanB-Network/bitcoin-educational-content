@@ -1,6 +1,6 @@
 ---
-name: Zen Browser
-description: Jinsi ya kutumia Kivinjari cha Zen kwa kuvinjari kwa tija na kwa siri?
+name: zen-browser
+description: Jinsi ya kutumia browser ya Zen kwa kuvinjari kwa tija na kwa siri?
 ---
 
 ![cover](assets/cover.webp)
@@ -56,10 +56,10 @@ Tovuti hutambua mfumo wako kiotomatiki na kupendekeza kiungo kinachofaa:
 - **Windows:** .exe kisakinishi cha Windows 10/11 (matoleo ya x64 na ARM64)
 - **macOS:** Picha ya diski ya Intel na Apple Silicon .dmg (MacOS Monterey na baadaye)
 - **Linux:** Chaguzi kadhaa zinapatikana:
-- **Flatpak** (inapendekezwa): `flatpak sakinisha programu ya flathub.zen_browser.Zen`
-- **AppImage**: Inabebeka, inayoweza kutekelezwa moja kwa moja
-- **Hifadhi tar.gz**: Itatolewa wewe mwenyewe
-- **AUR** (Arch Linux): Kifurushi cha kivinjari cha Zen
+  - **Flatpak** (inapendekezwa): `flatpak sakinisha programu ya flathub.zen_browser.Zen`
+  - **AppImage**: Inabebeka, inayoweza kutekelezwa moja kwa moja
+  - **Hifadhi tar.gz**: Itatolewa wewe mwenyewe
+  - **AUR** (Arch Linux): Kifurushi cha kivinjari cha Zen
 
 
 
@@ -295,7 +295,7 @@ Zaidi ya hayo, kwa kuwa msingi wa Firefox, Zen inaendana na mfumo mzima wa kiend
 
 
 
-- Faragha kwa muundo: **Ulinzi dhidi ya ufuatiliaji unatumika, telemetry imezimwa, hakuna mkusanyiko wa data**
+- **Faragha kwa muundo:** Ulinzi dhidi ya ufuatiliaji unatumika, telemetry imezimwa, hakuna mkusanyiko wa data
 - **Ubunifu wa Interface:** Vichupo wima, nafasi za kazi, Mwonekano wa Mgawanyiko huboresha tija kwa kiasi kikubwa
 - **Masasisho ya haraka:** Usawazishaji na Firefox chini ya saa 72 kwa viraka vya usalama
 - **Ubinafsishaji wa hali ya juu:** Mandhari ya jumuiya, urekebishaji mzuri, uoanifu wa kiendelezi cha Firefox
@@ -426,11 +426,11 @@ Mipangilio > Tafuta > Injini chaguomsingi ya utafutaji:
 
 
 
-- **DuckDuckGo**: Hakuna uwekaji wasifu, hakuna viputo vya kichujio, matokeo ya upande wowote
-- **Ukurasa wa mwanzo**: matokeo ya Google ambayo hayakutambulisha, yaliyoko Uholanzi (RGPD)
-- **Searx**: Injini ya metasearch iliyogatuliwa, hakuna kumbukumbu, chanzo wazi
-- **Utafutaji wa Ujasiri**: Faharasa inayojitegemea, si kutoka kwa Google
-- **Epuka**: Google, Bing, Yahoo (mkusanyiko mkubwa wa data)
+- DuckDuckGo**: Hakuna uwekaji wasifu, hakuna viputo vya kichujio, matokeo ya upande wowote
+- Ukurasa wa mwanzo**: matokeo ya Google ambayo hayakutambulisha, yaliyoko Uholanzi (RGPD)
+- Searx**: Injini ya metasearch iliyogatuliwa, hakuna kumbukumbu, chanzo wazi
+- Utafutaji wa Ujasiri**: Faharasa inayojitegemea, si kutoka kwa Google
+- Epuka**: Google, Bing, Yahoo (mkusanyiko mkubwa wa data)
 
 
 
@@ -464,8 +464,8 @@ Mipangilio > Faragha na usalama > DNS kupitia HTTPS (chini ya ukurasa)
 
 - Unadhibiti wakati wa kutumia DNS salama na uchague mtoaji
 - Hutumia mtoa huduma aliyechaguliwa na kurudi kwa mfumo wa DNS ikiwa ni lazima
-- Mtoa huduma chaguo-msingi: **Cloudflare** (kumbukumbu za haraka, zisizojulikana)
-- **Mbadala:** Badilisha hadi Quad9, NextDNS kulingana na upatikanaji
+- Mtoa huduma chaguo-msingi:** Cloudflare (kumbukumbu za haraka, zisizojulikana)
+- Mbadala:** Badilisha hadi Quad9, NextDNS kulingana na upatikanaji
 
 
 
@@ -476,7 +476,7 @@ Mipangilio > Faragha na usalama > DNS kupitia HTTPS (chini ya ukurasa)
 
 - Zen **daima** hutumia DNS salama pekee
 - Onyo la usalama kabla ya kutumia mfumo wa DNS
-- **Onyo:** Tovuti haziwezi kupakia ikiwa DNS salama haipatikani
+- Onyo:** Tovuti haziwezi kupakia ikiwa DNS salama haipatikani
 
 
 
@@ -501,10 +501,10 @@ Mipangilio > Faragha na Usalama > Ruhusa:
 
 
 
-- **Mahali**: Zuia (isipokuwa huduma za kadi)
-- **Kamera/Makrofoni**: Zuia (idhinisha kwa msingi wa kesi kwa kesi)
-- **Arifa**: Zuia (huzuia barua taka)
-- **Uchezaji wa kiotomatiki**: Zuia sauti na video
+- Mahali**: Zuia (isipokuwa huduma za kadi)
+- Kamera/Makrofoni**: Zuia (idhinisha kwa msingi wa kesi kwa kesi)
+- Arifa**: Zuia (huzuia barua taka)
+- Uchezaji wa kiotomatiki**: Zuia sauti na video
 
 
 
@@ -517,7 +517,7 @@ Mipangilio > Faragha na Usalama > Ruhusa:
 
 
 
-- **Asili ya uBlock**: Kizuia matangazo na kifuatiliaji bora zaidi
+- Asili ya uBlock**: Kizuia matangazo na kifuatiliaji bora zaidi
   - Orodha zinazopendekezwa: EasyList, EasyPrivacy, Tangazo la Peter Lowe na orodha ya seva zinazofuatilia
   - Hali ya juu kwa watumiaji wenye uzoefu
 
@@ -525,9 +525,9 @@ Mipangilio > Faragha na Usalama > Ruhusa:
 
 
 
-- **ClearURLs**: Hufuta vigezo vya ufuatiliaji wa URL (utm_source, fbclid, n.k.)
-- **Kuki Futa Kiotomatiki**: hufuta vidakuzi kiotomatiki na data ya kuvinjari wakati kichupo kimefungwa
-- **Decentraleyes**: Huhudumia maktaba za JS ndani ya nchi ili kuepuka CDN za Google/Cloudflare
+- ClearURLs**: Hufuta vigezo vya ufuatiliaji wa URL (utm_source, fbclid, n.k.)
+- Kuki Futa Kiotomatiki**: hufuta vidakuzi kiotomatiki na data ya kuvinjari wakati kichupo kimefungwa
+- Decentraleyes**: Huhudumia maktaba za JS ndani ya nchi ili kuepuka CDN za Google/Cloudflare
 
 
 
@@ -536,9 +536,9 @@ Mipangilio > Faragha na Usalama > Ruhusa:
 
 
 
-- **NoScript**: Udhibiti wa JavaScript wa punjepunje (unaweza kuvunja tovuti nyingi)
-- **Faragha Badger** (EFF): Utambuzi wa kitabia wa vifuatiliaji
-- **Vyombo vya Muda**: Tenga kila kichupo kwenye chombo tofauti
+- NoScript**: Udhibiti wa JavaScript wa punjepunje (unaweza kuvunja tovuti nyingi)
+- Faragha Badger** (EFF): Utambuzi wa kitabia wa vifuatiliaji
+- Vyombo vya Muda**: Tenga kila kichupo kwenye chombo tofauti
 
 
 
@@ -550,7 +550,7 @@ Mipangilio > Faragha na Usalama > Ruhusa:
 
 
 
-**DRM (Usimamizi wa Haki za Dijiti)** ni teknolojia za ulinzi ambazo husimba kwa njia fiche maudhui ya dijitali ili kuzuia kunakili. Zinahitaji sehemu ya kivinjari inayomilikiwa (kama vile **Google Widevine**) ili kusimbua na kusoma maudhui yanayolindwa.
+DRM (Usimamizi wa Haki za Dijiti)** ni teknolojia za ulinzi ambazo husimba kwa njia fiche maudhui ya dijitali ili kuzuia kunakili. Zinahitaji sehemu ya kivinjari inayomilikiwa (kama vile **Google Widevine**) ili kusimbua na kusoma maudhui yanayolindwa.
 
 
 
@@ -559,9 +559,9 @@ Mipangilio > Faragha na Usalama > Ruhusa:
 
 
 
-- **Utiririshaji wa video:** Netflix, Disney+, HBO Max, Amazon Prime Video
-- **Muziki wa kwanza:** Spotify Premium, YouTube Music, Deezer
-- **Mafunzo ya mtandaoni:** Udemy, Coursera (video zilizolindwa)
+- Utiririshaji wa video:** Netflix, Disney+, HBO Max, Amazon Prime Video
+- Muziki wa kwanza:** Spotify Premium, YouTube Music, Deezer
+- Mafunzo ya mtandaoni:** Udemy, Coursera (video zilizolindwa)
 
 
 
@@ -666,8 +666,8 @@ YouTube isiyolipishwa, Twitch, Vimeo, tovuti za habari, mitandao ya kijamii, pod
 
 
 
-- **Mwonekano wa Mgawanyiko**: Chagua vichupo kadhaa > bofya kulia > "Gawanya vichupo x"
-- **Mtazamo**: Alt + bofya kwenye kiungo kwa onyesho la kukagua
+- Mwonekano wa Mgawanyiko**: Chagua vichupo kadhaa > bofya kulia > "Gawanya vichupo x"
+- Mtazamo**: Alt + bofya kwenye kiungo kwa onyesho la kukagua
 
 
 
@@ -691,11 +691,11 @@ YouTube isiyolipishwa, Twitch, Vimeo, tovuti za habari, mitandao ya kijamii, pod
 
 
 
-- **Panga nafasi zako**: Unda nafasi zenye mada (Kazini, Tazama, Kibinafsi)
-- Tumia vichupo vilivyobandikwa: Kwa tovuti ulizotembelea sana
-- **Tumia Mwonekano wa Mgawanyiko**: Inafaa kwa kufanya kazi nyingi kwenye skrini kubwa
-- **Endelea kusasishwa**: Angalia masasisho mara kwa mara
-- **Gundua Mods za Zen**: geuza kukufaa mwonekano ili kuendana na ladha yako
+- Panga nafasi zako**: Unda nafasi zenye mada (Kazini, Tazama, Kibinafsi)
+- Tumia vichupo vilivyobandikwa**: Kwa tovuti ulizotembelea sana
+- Tumia Mwonekano wa Mgawanyiko**: Inafaa kwa kufanya kazi nyingi kwenye skrini kubwa
+- Endelea kusasishwa**: Angalia masasisho mara kwa mara
+- Gundua Mods za Zen**: geuza kukufaa mwonekano ili kuendana na ladha yako
 
 
 

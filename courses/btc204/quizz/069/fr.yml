@@ -8,6 +8,6 @@ wrong_answers:
   - L'ancienneté des UTXOs utilisés.
 
 explanation: |
-  Au plus une transaction Bitcoin dispose d'inputs et d'outputs, au plus elle va peser lourd en vB.
+  Plus une transaction Bitcoin dispose d'inputs et d'outputs, au plus elle va peser lourd en vB.
 
-reviewed: false
+reviewed: true 

@@ -1,0 +1,9 @@
+question: Кой е авторът на първата статия, представяща Bitcoin, публикувана на френски език?
+answer: Люсиен Грондин (grondilu)
+wrong_answers:
+  - Lionel Dricot (Ploum)
+  - Amaury Séchet (deadalnix)
+  - Давид Франсоа (davout)
+explanation: |
+  Това беше [текст](https: //linuxfr.org/news/connaissez-vous-les-bitcoins), публикуван на 30 септември 2010 г. в LinuxFr.org под заглавие Знаете ли за биткойните?.
+reviewed: true

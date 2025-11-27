@@ -6,3 +6,4 @@ wrong_answers:
   - Yamanın yeterli performans iyileştirmeleri sağladığını doğrulamak için
 explanation: |
   Sorumlu ifşa uygulamalarına göre, geliştiriciler bir yamanın yeterince iyi gizlenip gizlenmediğini test etmek için yamayı güvenlik açığından haberdar olmayan deneyimli geliştiricilere sunarak onlardan yamanın neyi düzelttiğini tespit etmelerini ister. Eğer bu uzmanlar yamanın bir güvenlik açığını düzelttiğini bildikleri halde bu açığı tespit edemezlerse, güvenlik açığı potansiyel saldırganlardan büyük olasılıkla gizlenmiş demektir. Bu çok önemlidir çünkü yamaların kendileri güvenlik açıklarını ortaya çıkarabilir ve potansiyel olarak kötü niyetli istismarı mümkün kılabilir. Diğer seçenekler, kod incelemesinin önemli yönleri olsa da, güvenlik açığı yönetimindeki bu özel uygulamanın birincil amacı değildir.
+reviewed: false

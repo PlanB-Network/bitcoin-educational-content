@@ -6,3 +6,4 @@ wrong_answers:
   - Soft fork Les changements deviennent permanents et ne peuvent plus être modifiés une fois que les mineurs les ont activés
 explanation: |
   Shaolinfry a constaté que la signalisation des mineurs crée un système de veto naturel dans lequel même un petit pourcentage de hashrate peut empêcher l'activation des mises à niveau pour l'ensemble du réseau. Cette "inertie des mises à jour" devient plus problématique à mesure que le mining devient plus décentralisé, bloquant potentiellement les améliorations bénéfiques du protocole. Les autres options présentent de manière erronée le fonctionnement des soft forks - les mineurs ne peuvent pas annuler les activations de manière unilatérale, les nœuds économiques conservent l'autorité de validation et les soft forks peuvent théoriquement être modifiées par des mises à niveau ultérieures.
+reviewed: false

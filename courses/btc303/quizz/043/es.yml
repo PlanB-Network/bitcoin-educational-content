@@ -6,3 +6,4 @@ wrong_answers:
   - Todos los usuarios de Bitcoin deben acordar la validez de las transacciones mediante un proceso de votación democrática para mantener la estabilidad de la red
 explanation: |
   La analogía armónica de David Harding subraya que la fuerza de Bitcoin proviene de miles de nodos completos independientes que trabajan cada uno por separado para verificar las transacciones, creando un acuerdo armónico sobre el estado del libro mayor sin que ningún operador de nodo necesite confiar en los demás. Esto se compara con un coro en el que cada miembro canta de forma independiente, pero juntos producen una hermosa armonía. Las respuestas incorrectas malinterpretan este concepto sugiriendo requisitos de coordinación entre mineros, desarrolladores o usuarios, lo que contradice el principio fundamental de verificación independiente que hace que Bitcoin sea descentralizado y no genere confianza.
+reviewed: false

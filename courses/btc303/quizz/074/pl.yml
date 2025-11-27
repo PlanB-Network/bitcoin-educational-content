@@ -6,3 +6,4 @@ wrong_answers:
   - Aby potwierdzić, że poprawka zapewnia wystarczającą poprawę wydajności
 explanation: |
   Zgodnie z praktykami odpowiedzialnego ujawniania informacji, deweloperzy testują, czy łatka została wystarczająco dobrze ukryta, dostarczając ją doświadczonym deweloperom, którzy nie zostali poinformowani o luce, prosząc ich o zidentyfikowanie tego, co naprawia. Jeśli eksperci nie są w stanie wykryć luki, nawet wiedząc, że łatka ją naprawia, jest ona prawdopodobnie dobrze ukryta przed potencjalnymi atakującymi. Ma to kluczowe znaczenie, ponieważ same łatki mogą ujawniać luki w zabezpieczeniach, potencjalnie umożliwiając ich złośliwe wykorzystanie. Inne opcje, choć są ważnymi aspektami przeglądu kodu, nie są głównym celem tej konkretnej praktyki w zarządzaniu podatnościami.
+reviewed: false

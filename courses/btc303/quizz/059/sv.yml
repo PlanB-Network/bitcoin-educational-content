@@ -6,3 +6,4 @@ wrong_answers:
   - "Det visar sig att GitHub-plattformen har tekniska begränsningar för att hantera Bitcoin:s kodbas"
 explanation: |
   Enligt kapitlets innehåll tar det lång tid att slå samman pull requests främst på grund av bristande granskning, vilket beror på otillräckliga granskare snarare än obstruktion från underhållare eller tekniska problem. Granskningsprocessen är avgörande för Bitcoin:s säkerhet, eftersom den säkerställer kodkvalitet och förhindrar skadliga ändringar. Denna flaskhals uppstår eftersom granskning av komplex kryptografisk kod kräver expertis och tid, vilket gör kvalificerade granskare till en knapp resurs i utvecklingsprocessen.
+reviewed: false

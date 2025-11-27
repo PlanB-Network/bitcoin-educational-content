@@ -6,3 +6,4 @@ wrong_answers:
   - Turvallisuuskustannukset siirtyvät kehittäjien maksamasta koodin ylläpidosta käyttäjien maksettavaksi verkostoon osallistumisen kautta
 explanation: |
   Luvussa selitetään selvästi, että nykyään haltijat maksavat Bitcoin:n turvallisuudesta rahan inflaation kautta (uusia kolikoita luodaan lohkotuen avulla), mutta tulevaisuudessa, kun lohkotuki lähestyy nollaa, kuluttajat maksavat turvallisuudesta transaktiomaksuilla. Tämä merkitsee perustavanlaatuista taloudellista muutosta siinä, kuka vastaa verkon turvallisuuden ylläpitämisestä aiheutuvista kustannuksista, kun siirrytään mallista, jossa uusien kolikoiden luominen rahoittaa mining:n, malliin, jossa transaktiomaksujen on tarjottava kaivostyöläisille riittävä kannustin verkon turvaamiseen.
+reviewed: false

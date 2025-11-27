@@ -6,3 +6,4 @@ wrong_answers:
   - A divulgação exige acções e correcções imediatas, enquanto a publicação permite correcções graduais através do fluxo normal de desenvolvimento
 explanation: |
   Gregory Maxwell enfatizou esta distinção crucial na discussão da lista de correio eletrónico. A divulgação refere-se ao ato responsável de informar em privado os responsáveis pela manutenção do software (o fornecedor) sobre uma vulnerabilidade para que possam trabalhar numa correção. A publicação, no entanto, significa tornar a informação sobre a vulnerabilidade disponível publicamente, o que efetivamente informa os potenciais atacantes sobre a exploração. Esta distinção é fundamental porque, enquanto a divulgação ajuda a proteger o sistema, a publicação prematura pode causar danos ao permitir que agentes maliciosos explorem a vulnerabilidade antes de existirem defesas adequadas.
+reviewed: false

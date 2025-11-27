@@ -6,3 +6,4 @@ wrong_answers:
   - La actualización provocó una ruptura permanente de la cadena porque mineros y usuarios discrepaban sobre los detalles de la implementación
 explanation: |
   El incidente del BIP66 reveló un fallo crítico en las soft forks activadas por los mineros: indicar que se está preparado no garantiza la validación real. A pesar de que el 95% de los mineros indicaron que estaban preparados para la actualización, aproximadamente la mitad no validaron correctamente las nuevas reglas y minaron por error un bloque no válido. Esto demostró que la señalización de la potencia de hash puede ser engañosa y no garantiza una implementación adecuada, que era uno de los argumentos clave de Shaolinfry para proponer las bifurcaciones Soft activadas por el usuario como un mecanismo de actualización más fiable.
+reviewed: false

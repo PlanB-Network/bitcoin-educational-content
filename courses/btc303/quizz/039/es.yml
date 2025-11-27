@@ -6,3 +6,4 @@ wrong_answers:
   - Los cambios de soft fork pasan a ser permanentes y no pueden modificarse una vez que los mineros los activan
 explanation: |
   Shaolinfry identificó que la señalización de los mineros crea un sistema de veto natural en el que incluso un pequeño porcentaje de hashrate puede impedir que las mejoras se activen para toda la red. Esta "inercia de actualización" se vuelve más problemática a medida que mining se descentraliza, bloqueando potencialmente mejoras beneficiosas del protocolo. Las otras opciones tergiversan el funcionamiento de las bifurcaciones suaves: los mineros no pueden revertir las activaciones unilateralmente, los nodos económicos conservan la autoridad de validación y las bifurcaciones suaves pueden modificarse teóricamente mediante actualizaciones posteriores.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Muszą one zostać zastąpione przez dodatkowy mining, aby utrzymać zamierzony poziom dostaw
 explanation: |
   Satoshi Nakamoto wyjaśnił, że utracone monety działają jako darowizna dla wszystkich innych posiadaczy bitcoinów, zwiększając ich wartość ze względu na zmniejszoną efektywną podaż. Jest to pozytywny efekt deflacyjny, a nie siła destabilizująca. Utracone monety nie wpływają na nagrody mining, ponieważ pochodzą one z nowo wybitych monet i opłat transakcyjnych, a nie z istniejącej podaży. Protokół Bitcoin nie zastępuje utraconych monet - pozostają one trwale poza obiegiem, co w rzeczywistości przynosi korzyści pozostałym posiadaczom poprzez zwiększony niedobór.
+reviewed: false

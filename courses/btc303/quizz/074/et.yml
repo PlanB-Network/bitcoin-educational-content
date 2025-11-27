@@ -6,3 +6,4 @@ wrong_answers:
   - Et kinnitada, et parandus tagab piisava jõudluse paranemise
 explanation: |
   Vastutustundliku avalikustamise tavade kohaselt testivad arendajad, kas parandus on piisavalt hästi varjatud, andes selle kogenud arendajatele, keda ei ole haavatavusest teavitatud, ja paludes neil tuvastada, mida see parandab. Kui need eksperdid ei suuda tuvastada haavatavust isegi siis, kui nad teavad, et parandus parandab seda, on see tõenäoliselt hästi varjatud potentsiaalsete ründajate eest. See on väga oluline, sest parandused võivad iseenesest paljastada haavatavusi, mis võivad võimaldada pahatahtlikku ärakasutamist. Kuigi muud võimalused on koodikontrolli olulised aspektid, ei ole selle konkreetse haavatavusjuhtimise praktika peamine eesmärk.
+reviewed: false

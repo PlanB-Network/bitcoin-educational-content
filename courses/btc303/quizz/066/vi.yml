@@ -6,3 +6,4 @@ wrong_answers:
   - Họ có nguy cơ tạo ra các cuộc tấn công chi tiêu gấp đôi vì họ không thể xác minh rằng các giao dịch đến là hợp pháp
 explanation: |
   Khi thợ đào thực hành mining không xác thực, họ chỉ kiểm tra proof-of-work trong tiêu đề khối và ngay lập tức khởi động mining trên đó trong khi tải xuống và xác thực toàn bộ khối song song. Rủi ro nghiêm trọng là họ có thể đang xây dựng trên một khối không hợp lệ, nghĩa là công sức tính toán của họ bị lãng phí vào một nhánh blockchain sẽ bị từ chối khi khối không hợp lệ được phát hiện. Điều này làm suy yếu an ninh mạng vì một phần sức mạnh của mining không đóng góp vào chuỗi hợp lệ mạnh nhất, vốn là cơ chế bảo mật cơ bản của Bitcoin.
+reviewed: false

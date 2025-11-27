@@ -6,3 +6,4 @@ wrong_answers:
   - Suuremmat lohkot aiheuttavat enemmän transaktiokonflikteja kilpailevien lohkojen välille, mikä vaikeuttaa sen määrittämistä, mikä lohko tulisi hyväksyä
 explanation: |
   Oikea vastaus tunnistaa vanhentuneiden lohkojen taustalla olevan ydinmekanismin. Kun lohkot ovat suurempia, ne vaativat enemmän kaistanleveyttä siirtyäkseen solmujen välillä ja enemmän aikaa validointiin. Tämän pidennetyn etenemisajan aikana useat louhijat voivat löytää kilpailevia lohkoja samalta korkeudelta, koska ne eivät ole vielä saaneet uusinta lohkoa. Tämä aiheuttaa kilpajuoksutilanteen, jossa vain yksi lohko voidaan lopulta hyväksyä, jolloin muut lohkot ovat vanhentuneita. Väärissä vastauksissa tämä etenemisongelma sekoitetaan mining-vaikeuksiin, konsensusmekanismeihin tai transaktioristiriitoihin, jotka ovat erillisiä huolenaiheita vanhentuneita lohkoja aiheuttavasta ajoitusongelmasta.
+reviewed: false

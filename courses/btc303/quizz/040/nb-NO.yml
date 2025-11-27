@@ -6,3 +6,4 @@ wrong_answers:
   - Verken fremover- eller bakoverkompatibilitet, noe som krever komplette systemoppdateringer
 explanation: |
   I kapittelet står det tydelig at "En endring av Bitcoin-konsensusreglene sies å være en myk fork hvis den er fullt kompatibel" Fullt kompatibel defineres som både fremover- og bakoverkompatibel. Foroverkompatibilitet betyr at gammel programvare kan behandle data fra nyere versjoner ved å ignorere deler den ikke forstår, mens bakoverkompatibilitet betyr at ny programvare kan behandle gamle data. Denne doble kompatibiliteten er det som gjør soft forks til den foretrukne oppgraderingsmekanismen for Bitcoin, ettersom de ikke ødelegger eksisterende systemer samtidig som de muliggjør ny funksjonalitet.
+reviewed: false

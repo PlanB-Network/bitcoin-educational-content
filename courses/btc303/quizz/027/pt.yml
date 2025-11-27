@@ -6,3 +6,4 @@ wrong_answers:
   - Ajuda a melhorar o anonimato geral do sistema Bitcoin
 explanation: |
   A privacidade do Bitcoin está interligada entre os utilizadores. Quando uma pessoa é descuidada com as suas práticas de privacidade, isso pode ter um impacto negativo na privacidade de outros utilizadores com quem faz transacções. Isto acontece porque os padrões de transação, o agrupamento de endereços e outras técnicas de análise da cadeia de blocos podem revelar informações sobre várias partes envolvidas nas transacções. O capítulo sublinha que as medidas de privacidade que toma não se protegem apenas a si próprio - também ajudam a proteger a comunidade Bitcoin em geral, tornando a privacidade uma responsabilidade colectiva e não apenas uma preocupação individual.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Trustless och betrodda system måste fungera oberoende av varandra och kan inte läggas i lager ovanpå varandra
 explanation: |
   Matt Corallos viktigaste insikt är att Bitcoin:s förtroendelösa baslager möjliggör flexibilitet i systemdesignen. En tillitslös grund som Bitcoin:s protokoll gör det möjligt för utvecklare att skapa betrodda tjänster (som depåplånböcker) på högre lager samtidigt som de underliggande säkerhetsgarantierna bevaras. Det omvända är dock omöjligt - det går inte att skapa helt tillförlitliga system om själva grunden kräver tillit, eftersom alla tillförlitliga egenskaper skulle undergrävas av sårbarheterna i det tillförlitliga baslagret.
+reviewed: false

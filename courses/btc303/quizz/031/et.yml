@@ -6,3 +6,4 @@ wrong_answers:
   - Turvakulud nihkuvad arendajate poolt koodihoolduse kaudu makstavatelt kuludelt kasutajate poolt võrgustikus osalemise kaudu makstavatele kuludele
 explanation: |
   Peatükis selgitatakse selgelt, et praegu maksavad omanikud Bitcoin turvalisuse eest raha inflatsiooni kaudu (uued mündid luuakse plokksubsiidiumi kaudu), kuid tulevikus, kui plokksubsiidium läheneb nullile, maksavad kulutajad turvalisuse eest tehingutasude kaudu. See kujutab endast põhimõttelist majanduslikku muutust selles osas, kes kannab võrgu turvalisuse säilitamise kulud, liikudes mudelilt, kus uute müntide loomine rahastab mining, mudelile, kus tehingutasud peavad andma kaevuritele piisava stiimuli võrgu kindlustamiseks.
+reviewed: false

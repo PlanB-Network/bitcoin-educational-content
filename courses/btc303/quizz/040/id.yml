@@ -6,3 +6,4 @@ wrong_answers:
   - Baik kompatibilitas ke depan maupun ke belakang, membutuhkan pembaruan sistem yang lengkap
 explanation: |
   Bab ini dengan jelas menyatakan bahwa 'Perubahan pada aturan konsensus Bitcoin dikatakan sebagai fork lunak jika sepenuhnya kompatibel Bab ini mendefinisikan sepenuhnya kompatibel sebagai kompatibel ke depan dan ke belakang. Kompatibilitas ke depan berarti perangkat lunak lama dapat memproses data dari versi yang lebih baru dengan mengabaikan bagian yang tidak dimengerti, sedangkan kompatibilitas ke belakang berarti perangkat lunak baru dapat memproses data yang lama. Kompatibilitas ganda inilah yang menjadikan soft fork sebagai mekanisme peningkatan yang lebih disukai untuk Bitcoin, karena tidak merusak sistem yang sudah ada sekaligus memungkinkan fungsionalitas baru.
+reviewed: false

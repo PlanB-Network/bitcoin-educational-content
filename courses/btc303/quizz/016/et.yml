@@ -6,3 +6,4 @@ wrong_answers:
   - Selle peale ei saa ehitada täiendavaid süsteeme
 explanation: |
   Bitcoin usaldusteta baaskihi tagab aluse, mis võimaldab paindlikult ehitada peale erinevaid süsteeme. Nagu Matt Corallo selgitas, ei saa usaldusväärsete süsteemide peale ehitada usaldusväärseid süsteeme, kuid usaldusväärsete süsteemide peale saab ehitada usaldusväärseid süsteeme (näiteks hoiukassad). See tähendab, et Bitcoin usaldusetu vundament toetab nii usalduseta rakendusi kui ka usaldatavaid teenuseid, andes süsteemi projekteerijatele vabaduse valida sobivad kompromissid, ilma et neid kompromisse sunniksid tegema kõik teisedki, kes kasutavad baaskihti.
+reviewed: false

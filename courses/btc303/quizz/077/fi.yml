@@ -6,3 +6,4 @@ wrong_answers:
   - Julkistaminen edellyttää välitöntä toimintaa ja korjauksia, kun taas julkaiseminen mahdollistaa asteittaiset korjaukset normaalin kehitysprosessin kautta
 explanation: |
   Gregory Maxwell korosti tätä ratkaisevaa eroa postituslistalla käydyssä keskustelussa. Julkistamisella tarkoitetaan vastuullista toimintaa, jossa ohjelmistojen ylläpitäjille (myyjille) ilmoitetaan yksityisesti haavoittuvuudesta, jotta he voivat työskennellä korjauksen parissa. Julkaiseminen tarkoittaa kuitenkin haavoittuvuustietojen saattamista julkisesti saataville, jolloin mahdollisille hyökkääjille kerrotaan tehokkaasti haavoittuvuuden hyväksikäytöstä. Tämä ero on tärkeä, sillä vaikka julkistaminen auttaa suojaamaan järjestelmää, ennenaikainen julkaiseminen voi aiheuttaa haittaa, koska se antaa pahansuoville toimijoille mahdollisuuden hyödyntää haavoittuvuutta ennen kuin riittävät suojauskeinot on otettu käyttöön.
+reviewed: false

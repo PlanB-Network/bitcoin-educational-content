@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin se divide en varias cadenas paralelas para distribuir la carga computacional manteniendo las mismas garantías de seguridad para todos los usuarios
 explanation: |
   Maxwell identificó una disyuntiva fundamental en la que los excesivos requisitos de recursos empujan a los usuarios a recurrir a terceros de confianza en lugar de a la validación independiente. Cuando los costes de validación se vuelven prohibitivos, los usuarios no pueden permitirse ejecutar nodos completos y deben confiar en otros, lo que socava la naturaleza no fiable de Bitcoin. Las respuestas erróneas sugieren incorrectamente resultados beneficiosos (mayor seguridad, ajustes automáticos o mantenimiento de las garantías) cuando en realidad el elevado uso de recursos fuerza la centralización y las dependencias de confianza.
+reviewed: false

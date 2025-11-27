@@ -6,3 +6,4 @@ wrong_answers:
   - Reduce la tasa total de hash de la red, ya que los mineros gastan recursos en conectividad en lugar de mineria
 explanation: |
   El capítulo explica que cuando el tamaño de los bloques aumenta, los tiempos de propagación también lo hacen, lo que genera más bloques obsoletos. Para evitar la pérdida de recompensas por bloques obsoletos, los mineros buscan pools con mejor ancho de banda y conectividad. Esto empuja a los mineros hacia pools más grandes y bien conectados, reduciendo la descentralización de mining. Las otras opciones son incorrectas: la dificultad se ajusta automáticamente independientemente de la conectividad de los pools, los costes de conectividad no crean tasas de transacción adicionales y los mineros no reducen la tasa de hash al unirse a pools mejor conectados.
+reviewed: false

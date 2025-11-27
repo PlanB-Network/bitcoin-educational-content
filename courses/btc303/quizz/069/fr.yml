@@ -6,3 +6,4 @@ wrong_answers:
   - Création de nœuds de validation approuvés par le gouvernement qui peuvent traiter les transactions plus efficacement
 explanation: |
   Le livre définit la mise à l'échelle de Bitcoin comme "l'augmentation de la capacité d'utilisation de Bitcoin sans compromettre sa résistance à la censure" La vérification des signatures à faible consommation d'espace répond directement à cette définition en permettant aux transactions d'utiliser moins d'octets tout en maintenant la décentralisation. Les mauvaises réponses compromettent toutes la résistance à la censure : les échanges centralisés introduisent des tiers de confiance, le filtrage des transactions crée des mécanismes de censure et les nœuds approuvés par le gouvernement centralisent l'autorité de validation. Une véritable mise à l'échelle préserve les propriétés essentielles du Bitcoin tout en améliorant l'efficacité.
+reviewed: false

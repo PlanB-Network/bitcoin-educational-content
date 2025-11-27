@@ -6,3 +6,4 @@ wrong_answers:
   - Asennetaan varmennettuja wallet -ohjelmistoja virallisista lähteistä, joissa on digitaaliset allekirjoitukset
 explanation: |
   Jos haluat käyttää Bitcoin:a luotettavasti, sinun on käytettävä täysin validoivaa Bitcoin-solmua, joka tarkistaa itsenäisesti, että kaikki lohkot noudattavat konsensussääntöjä, tarkistaa kolikoiden liikkeeseenlaskuaikataulun ja estää kaksinkertaiset kulutukset. Näin varmistetaan, ettet ulkoista todentamista muille, mikä ylläpitää luotettavan ominaisuuden. Pörssien tai kolmansien osapuolten palveluiden käyttäminen tarkoittaa, että luotat siihen, että muut kertovat sinulle totuuden lohkoketjun tilasta. Vaikka todennettu ohjelmisto on tärkeä turvallisuuden kannalta, se ei poista tarvetta omalle validointisolmulle, jotta Bitcoin-järjestelmässä saavutetaan todellinen luotettavuus.
+reviewed: false

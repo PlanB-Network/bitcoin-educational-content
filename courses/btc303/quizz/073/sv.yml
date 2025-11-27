@@ -6,3 +6,4 @@ wrong_answers:
   - Efter en standard embargoperiod på 90 dagar oavsett utplaceringsstatus
 explanation: |
   Bitcoin Core följer en distributionsbaserad tidslinje för avslöjande snarare än en fast tidsperiod. Tröskeln på 80% säkerställer att den stora majoriteten av nätverket är skyddat innan angripare kan lära sig om sårbarheten från offentligt avslöjande. Detta tillvägagångssätt prioriterar nätverkssäkerhet framför godtyckliga tidslinjer, eftersom för tidigt avslöjande kan utsätta de återstående 20% av noderna för riktade attacker. De andra alternativen representerar vanliga metoder inom traditionell mjukvarusäkerhet men tar inte hänsyn till Bitcoin: s decentraliserade natur där användare frivilligt måste uppgradera sina noder.
+reviewed: false

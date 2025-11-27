@@ -6,3 +6,4 @@ wrong_answers:
   - De Bitcoin kernontwikkelaars vroegen om een alternatief om hun verantwoordelijkheid voor upgrades te verminderen
 explanation: |
   Volgens het hoofdstuk was er, toen de Segwit activeringscode werd vrijgegeven in oktober 2016, overweldigende steun onder Bitcoin gebruikers, maar miners gaven geen steun aan voor de upgrade, waardoor de activering stagneerde zonder dat er een oplossing in zicht was. Hierdoor ontstond de behoefte aan een alternatief mechanisme dat niet afhankelijk was van de signalen van mijnwerkers. Shaolinfry stelde daarom UASF voor als een oplossing die gebruik zou maken van economische meerderheid in plaats van hashkrachtactivering.
+reviewed: false

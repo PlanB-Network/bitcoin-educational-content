@@ -6,3 +6,4 @@ wrong_answers:
   - Zaciemniony kod musi być udostępniony do pobrania w osobnym pliku z kosztami reprodukcji
 explanation: |
   Definicja open source wyraźnie stwierdza, że "celowo zaciemniony kod źródłowy jest niedozwolony" Jest to podstawowy wymóg, ponieważ zaciemnianie uniemożliwia znaczącą kontrolę, modyfikację i zrozumienie kodu, co jest sprzeczne z podstawowymi celami oprogramowania open source. Kod źródłowy musi być w "preferowanej formie, w jakiej programista zmodyfikowałby program", co sprawia, że zaciemnianie jest niezgodne z zasadami otwartego oprogramowania, niezależnie od dokumentacji lub metod dystrybucji.
+reviewed: false

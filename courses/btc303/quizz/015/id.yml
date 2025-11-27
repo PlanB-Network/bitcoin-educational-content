@@ -6,3 +6,4 @@ wrong_answers:
   - Layanan pihak ketiga mendapatkan kemampuan untuk membuat bitcoin baru di luar jadwal penerbitan normal
 explanation: |
   Ketika pengguna tidak menjalankan node mereka sendiri secara penuh, mereka mengalihdayakan kekuatan mereka untuk menegakkan aturan Bitcoin kepada orang lain. Hal ini melemahkan desentralisasi Bitcoin karena lebih sedikit pihak independen yang memvalidasi transaksi dan blok. Seperti yang dijelaskan oleh David Harding, hal ini menciptakan sebuah situasi di mana sejumlah kecil penambang dan penyedia layanan berpotensi mengubah peraturan Bitcoin untuk pengguna yang tidak memverifikasi, sementara para pengguna tersebut tidak dapat bertransaksi dengan orang-orang yang menjalankan node validasi penuh yang menolak perubahan peraturan tersebut.
+reviewed: false

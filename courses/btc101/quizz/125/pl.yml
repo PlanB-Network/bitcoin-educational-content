@@ -1,12 +1,10 @@
 question: Jakie znaczenie ma geograficzne rozmieszczenie węzłów Bitcoin?
-answer: Praktycznie uniemożliwia to zniszczenie wszystkich kopii Blockchain.
+answer: Praktycznie uniemożliwia to zniszczenie wszystkich kopii łańcucha bloków.
 wrong_answers:
-  - Określa cenę Bitcoin w różnych regionach.
-  - Wpływa to na szybkość transakcji Bitcoin.
-  - Określa on liczbę bitcoinów, które można wydobyć w danym regionie.
+  - Określa cenę bitcoina w różnych regionach.
+  - Wpływa na szybkość transakcji Bitcoin.
+  - Określa liczbę bitcoinów, które można wydobyć w danym regionie.
 explanation: |
-  Rozmieszczenie geograficzne węzłów Bitcoin sprawia, że
-  praktycznie niemożliwe do zniszczenia wszystkich kopii
-  Blockchain. Ponieważ węzły są rozproszone, trudno jest
+  Rozmieszczenie geograficzne węzłów Bitcoin sprawia, że zniszczenie wszystkich kopii łańcucha bloków jest praktycznie niemożliwe. Ponieważ węzły są rozproszone, trudno jest
   fizycznie przejąć je wszystkie.
 reviewed: true

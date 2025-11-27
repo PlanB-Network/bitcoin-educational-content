@@ -1,0 +1,8 @@
+question: Šta služi kao pseudonimi u pseudonimnom sistemu Bitcoin?
+answer: Adrese izvedene iz javnih ključeva
+wrong_answers:
+  - "Opisni korisnički imena kao 'watchme1984'"
+  - Privatni ključevi pohranjeni u novčanicima
+  - ID transakcija na blockchainu
+explanation: |
+  Bitcoin koristi adrese izvedene iz javnih ključeva kao pseudonime umesto proizvoljnih korisničkih imena ili drugih identifikatora. Ovaj dizajnerski izbor služi višestrukim važnim svrhama: eliminiše potrebu za prethodnom registracijom pseudonima na blockchain-u, smanjuje podsticaje za ponovno korišćenje istog pseudonima, izbegava nepotrebno opterećenje blockchain-a i otežava zlonamernim akterima da se predstavljaju kao drugi. Korišćenje opisnih korisničkih imena zahtevalo bi sistem registracije i stvorilo sigurnosne ranjivosti, dok privatni ključevi moraju ostati tajni, a ID-ovi transakcija služe drugačijoj svrsi u sistemu.

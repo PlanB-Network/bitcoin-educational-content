@@ -1,0 +1,8 @@
+question: Hva var den primære kritikken som ble reist i den aller første e-postresponsen på Satoshi Nakamotos kunngjøring av Bitcoin-hvitboken på e-postlisten Cryptography?
+answer: Det foreslåtte systemet så ikke ut til å kunne skaleres til ønsket størrelse
+wrong_answers:
+  - Krypteringsalgoritmene som ble brukt, var ikke tilstrekkelig sikre for finansielle applikasjoner
+  - Peer-to-peer-arkitekturen vil gjøre systemet sårbart for nettverksangrep
+  - Konsensusmekanismen vil kreve for mye regnekraft til å være praktisk gjennomførbar
+explanation: |
+  I den aller første setningen i det første e-postsvaret på Satoshis kunngjøring av Bitcoin-hvitboken sto det spesifikt at "det ser ikke ut til å kunne skaleres til ønsket størrelse" Dette viser at skaleringsproblemer eksisterte fra Bitcoins tidligste offentlige diskusjoner, selv før nettverket ble lansert. De andre alternativene, selv om de potensielt kan være gyldige bekymringer for et kryptovaluta-system, var ikke fokuset i den første responsen, som umiddelbart identifiserte skalerbarhet som det primære problemet med Satoshis forslag.

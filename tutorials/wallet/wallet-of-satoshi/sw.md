@@ -12,7 +12,7 @@ _Mafunzo haya yameandikwa na_ [Kampasi ya Bitcoin](https://linktr.ee/bitcoincamp
 
 Wallet ya Satoshi ni Lightning Network Wallet, iliyohifadhiwa, na ni rahisi sana kutumia.
 
-Kwa madhumuni ya kozi [BTC105 - Finding Now](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), inatumika kwa vocha za Redeem Lightning Network.
+Kwa madhumuni ya kozi [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), inatumika kwa vocha za Redeem Lightning Network.
 
 
 **Kumbuka kila wakati**: _sio funguo zako, si sarafu zako_

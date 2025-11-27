@@ -1,0 +1,8 @@
+question: According to Gregory Maxwell, why is financial privacy essential for the efficient operation of a free market?
+answer: Because businesses cannot effectively set prices or compete if suppliers, customers, and competitors can see all their transactions
+wrong_answers:
+  - Because it prevents government regulation and taxation of business transactions and commercial activities
+  - Because it allows businesses to hide illegal activities and avoid compliance with financial reporting requirements
+  - Because it enables companies to manipulate market prices without detection by regulatory authorities
+explanation: |
+  Gregory Maxwell argues that financial privacy is crucial for free market efficiency because businesses need transaction privacy to operate effectively. If suppliers and customers can see all transactions, businesses lose negotiating power and cannot set competitive prices. Similarly, if competitors can track sales and business dealings, companies cannot compete on equal terms. The other options are incorrect because Maxwell's argument focuses on legitimate business operations and market efficiency, not on avoiding regulation, hiding illegal activities, or market manipulation.

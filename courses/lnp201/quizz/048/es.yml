@@ -6,4 +6,4 @@ wrong_answers:
   - Los fondos se acreditan directamente sin seguridad adicional
 explanation: |
   Keysend permite al emisor generar un secreto incrustado en los HTLCs, lo que permite al destinatario desbloquear los fondos sin haber emitido una factura.
-reviewed: false
+reviewed: true

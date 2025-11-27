@@ -1,0 +1,8 @@
+question: Čím se podle této kapitoly liší měkký fork od tvrdého fork ve změnách pravidel konsensu Bitcoin?
+answer: Soft fork je plně kompatibilní (dopředná i zpětná kompatibilita), zatímco hard fork je kompatibilní pouze zpětně
+wrong_answers:
+  - Měkký fork vyžaduje aktivaci hornickou signalizací, zatímco tvrdý fork používá aktivaci vlajkovým dnem
+  - Měkký fork mění stávající opkódy, zatímco tvrdý fork pouze přidává nové opkódy jako OP_NOP1-OP_NOP10
+  - Měkký fork může být implementován tajně v revizích, zatímco tvrdý fork vyžaduje veřejné oznámení
+explanation: |
+  Kapitola jasně definuje typy kompatibility: dopředná kompatibilita umožňuje starému softwaru zpracovávat nová data ignorováním neznámých částí, zatímco zpětná kompatibilita umožňuje novému softwaru zpracovávat stará data. Softwarový program fork zachovává oba typy kompatibility, takže je plně kompatibilní. Tvrdý systém fork zachovává pouze zpětnou kompatibilitu, což znamená, že nový software může zpracovávat stará data, ale starý software nemůže zpracovávat nová data z aktualizovaného systému. Toto rozlišení je zásadní pro pochopení mechanismů aktualizace Bitcoin a pro to, proč se pro zachování harmonie sítě upřednostňují měkké vidlice.

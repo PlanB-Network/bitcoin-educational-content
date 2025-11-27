@@ -28,6 +28,8 @@ objectives:
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+:::video id=687fe126-56db-4fe2-aaac-e481bbb5d838:::
+
 欢迎来到 BTC204 课程！
 
 在金融交易的保密性逐渐成为奢侈品的今天，了解和掌握使用比特币时的隐私保护原则至关重要。本培训课程从理论和实践两方面为您提供了自主实现这一目标的全部关键。
@@ -87,6 +89,8 @@ objectives:
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
+:::video id=60e8f3fa-9607-47ae-ac4f-5aa747d9b6d4:::
+
 
 比特币首先是一种货币，但你真的知道 BTC 在协议中是如何表示的吗？
 
@@ -136,6 +140,8 @@ UTXOs是比特币的交换工具。每笔交易都会消耗作为输入的UTXOs�
 ## 比特币交易的结构
 
 <chapterId>29d3aaab-de2e-4746-ab40-c9748898850c</chapterId>
+
+:::video id=c79d651d-ff4a-4a75-bc2b-a48a00c17326:::
 
 
 ### 交易输入和输出
@@ -223,6 +229,8 @@ Coinbase 交易的独特之处在于，它是唯一能够 "凭空 "创造比特�
 
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
+:::video id=f83d8e7a-ff4d-4c05-a8ff-0e601c49a508:::
+
 
 ### 金钱：真实性、诚信和双重消费
 
@@ -294,6 +302,8 @@ Coinbase 交易的独特之处在于，它是唯一能够 "凭空 "创造比特�
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
 
+:::video id=3d27ea95-599b-44cc-a24c-a628c2e6a64a:::
+
 
 ### 定义和操作
 
@@ -336,9 +346,9 @@ Coinbase 交易的独特之处在于，它是唯一能够 "凭空 "创造比特�
 
 还有什么比了解区块链分析中使用的方法更好的呢？如果你想知道如何提高你在比特币上的隐私，你需要了解这些方法。这将使你更好地掌握 coinjoin 或 payjoin 等技术（我们将在课程的最后部分介绍这些技术），并减少你可能犯的错误。
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 在这一点上，我们可以用密码学和密码分析来类比。一名优秀的密码学家首先是一名优秀的密码分析师。要设计一种新的加密算法，你需要知道它将面临哪些攻击，还要研究以前的算法被破解的原因。同样的原则也适用于比特币隐私。了解区块链分析方法是防范这些攻击的关键。这就是为什么我在本培训课程中加入了一整节关于链分析的内容。
 
@@ -372,6 +382,8 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e
 ## 交易模式
 
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
+
+:::video id=4bd4c9d4-7997-487c-8760-98c74ae1589e:::
 
 
 交易模式是典型交易的整体模型或结构，可以在区块链上找到，其可能的解释也是已知的。在研究模式时，我们将重点放在单个交易上，并对其进行高层次分析。
@@ -504,6 +516,8 @@ Source : [Mempool.space](https://mempool.space/fr/tx/00601af905bede31086d9b1b79e
 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
+:::video id=bbc145cc-5232-41e4-a7f8-1af4e422635a:::
+
 
 内部启发式是我们在交易本身中识别出的特定特征，无需对其环境进行检查，就能进行推理。与模式不同，内部启发式关注的是事务的整体结构，而模式则是基于可提取的数据集。这包括
 
@@ -613,6 +627,8 @@ Source : [Mempool.space](https://mempool.space/tx/b79d8f8e4756d34bbb26c659ab8831
 ## 外部启发式方法
 
 <chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
+
+:::video id=f83c94a1-4f60-4dc7-855d-aa6710064575:::
 
 
 研究外部启发法意味着分析某些非交易本身特有元素的相似性、模式和特征。换句话说，以前我们只局限于利用内部启发式分析交易的固有因素，而现在我们则借助外部启发式分析，将分析范围扩大到交易环境。
@@ -1033,6 +1049,8 @@ ___
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
+:::video id=5392183e-e317-499f-9757-b69e9d7cda11:::
+
 
 在研究了可能破坏比特币保密性的技术之后，我们将在第三部分探讨保护自己的最佳方法。本部分的目的不是探讨提高保密性的方法，这个问题将在后面讨论，而是了解如何正确地与比特币互动，以保持其自然提供的保密性，而不诉诸其他技术。
 
@@ -1169,6 +1187,8 @@ P2SH - P2WPKH | OP_HASH160 `<redeemScriptHash>` OP_EQUAL | P2SH - P2WPKH | OP_HA
 
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
+:::video id=4c411c97-ebb2-483d-b4fa-03109cf5d5d7:::
+
 
 正如我们在字符串分析部分所发现的，有许多启发式方法和模式可以用来推断交易信息。作为用户，必须了解这些技术，以便更好地防范它们。
 
@@ -1270,11 +1290,13 @@ UTXO选择方法，如FIFO（*先进先出*）和LIFO（*后进先出*）是最�
 
 如果你想了解如何标记你的UTXOs，我们已经在主要的比特币钱包软件上做了一个全面的教程：
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYC 和关键识别
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
+
+:::video id=ecf888fe-906f-4293-91b5-1e5ae7b2fde1:::
 
 
 KYC 是 "了解你的客户 "的缩写。这是在比特币领域运营的某些公司实施的一项监管程序。该程序的目的是核实和登记客户身份，以打击洗钱和资助恐怖主义的行为。
@@ -1377,6 +1399,8 @@ KYC 特指某些公司为核实和登记客户身份而实施的监管程序。�
 
 <chapterId>756598af-95aa-4c77-ac48-243c7ad89530</chapterId>
 
+:::video id=9fd3d90f-32f4-48a2-a740-3597249551db:::
+
 
 读完上一章后，你可能会想知道如何才能在不进行身份验证的情况下买卖比特币，以避免与 "KYC "相关的风险。交易比特币有几种方式。
 
@@ -1428,19 +1452,19 @@ KYC 特指某些公司为核实和登记客户身份而实施的监管程序。�
 
 -> 请参阅我们的 Bisq 教程。
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 如果想选择更简单的方法，您可以试试 [Peach](https://peachbitcoin.com/)，这是一款连接买家和卖家的移动应用程序，内置冲突解决系统。该程序比 Bisq 更直观。
 
 -> 请参阅我们的 Peach 教程。
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
 另一个在线选择是 [HodlHodl](https://hodlhodl.com/)，这是一个成熟的平台，提供良好的流动性，不过我没有亲自测试过。
 
 -> 请参阅我们的 HodlHodl 教程。
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 关于基于闪电网络的解决方案，请尝试[RoboSats](https://learn.robosats.com/) 和[LNP2PBot](https://lnp2pbot.com/)。RoboSats 可通过网站访问，使用相对简单。LNP2PBot 则比较特殊，它通过 Telegram 消息应用程序上的交换系统运行。
 
@@ -1448,9 +1472,9 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
 
 -> 请参阅我们的 LNP2PBot 教程。
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
 ![BTC204](assets/zh-Hans/096.webp)
 
@@ -1460,7 +1484,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-
 
 -> 请参阅我们的 Relai 教程。
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 正如我们在上一章中看到的，这类平台可以让你免于 KYC 程序带来的风险，但它们确实会带来更高的密钥识别风险。因此，就比特币的保密性而言，这些平台提供的保护要好于 KYC 购买方式，但它们的吸引力仍不及 P2P 交易所。
 
@@ -1484,7 +1508,7 @@ https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d
 
 一些不需要 KYC 程序的平台提供将比特币兑换成礼品卡的可能性，这些礼品卡可以在大型零售商处使用。这些平台包括 [CoinsBee](https://www.coinsbee.com/)、[The Bitcoin Company](https://thebitcoincompany.com/) 和 [Bitrefill](https://www.bitrefill.com/)。这些平台使比特币的日常使用更加方便，让你无需将比特币兑换成法定货币，就能获得各种产品和服务。
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ![BTC204](assets/zh-Hans/098.webp)
 
@@ -1494,11 +1518,13 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 另一种方法是以工作换取比特币。这种获取方式可能很有趣，但所需的身份验证程度因情况不同而有很大差异。
 
-*为了撰写本章，我使用了* [@pivi___](https://x.com/pivi___) *在 Plan ₿ Network 上提供的 BTC205 培训课程（目前只有法语版本）。*
+*为了撰写本章，我使用了* [@pivi___](https://x.com/pivi___) *在 Plan ₿ Academy 上提供的 BTC205 培训课程（目前只有法语版本）。*
 
 ## 合并、UTXO 管理和 CIOH
 
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
+
+:::video id=9e5841a2-4ff5-460e-a161-0e0af57f95d8:::
 
 
 管理自我托管投资组合最复杂的一个方面就是合并。是否应该合并？有什么意义？应该尊重多大的 UTXO？在保密性方面有哪些妥协？这就是我们本节要探讨的问题。
@@ -1584,6 +1610,8 @@ $$
 
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
+:::video id=5fc4ce39-6a0b-419a-baa9-f6da75427987:::
+
 
 让我们来看看其他一些优化比特币隐私的最佳做法。
 
@@ -1639,6 +1667,8 @@ $$
 ## 什么是硬币连接交易？
 
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
+
+:::video id=37f23334-4b52-43db-8d82-bd84310af86c:::
 
 
 在学习了隐私保护的基础知识后，我们现在来看看更复杂的技术，旨在积极保护你的机密，尤其是通过拆分你的比特币历史。在下一部分，我们将学习一系列小技巧，但首先，我想向大家介绍一下 coinjoin。
@@ -1737,6 +1767,8 @@ Coinjoins 有时被描述为 "混合器"，一些比特币爱好者拒绝接受�
 ## Zerolink 与 chaumian 的共同连接
 
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
+
+:::video id=7df91435-f60b-4d80-89a8-79717a14ebd3:::
 
 
 投币式连接所提供的私密性是由我们的棋子所隐藏的小组规模决定的。这意味着要找到尽可能多的参与者。我们完全可以通过自己找到的用户来手动创建一个币圈，但这是一个复杂的过程，而且不会为你赢得任何大的安索。
@@ -1853,8 +1885,9 @@ Zerolink 采取的一项重要预防措施是通过使用单独的加密密钥�
 
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
+:::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
 
-*2024 年，我们正在见证比特币用户可用工具的重大变化。我们目前正处于一个转折点，币圈市场正在经历重大调整。随着时间的推移，本章将会不断更新*
+
 
 目前，比特币上主要有三种不同的 Coojoin 实现方式：
 
@@ -1862,6 +1895,10 @@ Zerolink 采取的一项重要预防措施是通过使用单独的加密密钥�
 - 惠而浦；
 - Wabisabi；
 - JoinMarket.
+
+除了这三种历史性实现之外，最近又出现了一种新的：Joinstr。本章中我不会讨论它，但您可以在这篇专门的教程中找到所有相关信息：
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
 
 这些实现方式都旨在通过联合交易打破UTXO的历史。但是，它们的机制差异很大。因此，了解每种方法的工作原理至关重要，这样您就可以选择最适合您需求的方案。
 
@@ -1884,6 +1921,8 @@ JoinMarket 的主要缺点之一是使用复杂，需要对终端有一定程度
 尽管 JoinMarket 创新性地采用了 P2P 连接模式，但它也有一些明显的缺点，特别是在交易结构方面。与 Whirlpool 等其他实现方式不同，JoinMarket 不能保证输出之间完全平等，而且有可能追踪输入和输出之间的确定性链接。此外，JoinMarket 没有工具防止已经混合在一起的部件再次混合，这可能会损害用户寻求的保密性。
 
 最后，虽然 JoinMarket 的概念很有趣，特别是对于那些对动态流动性市场感兴趣的人来说，但我认为，它的结构弱点和技术复杂性使它对于寻找硬币连接实现的新手和专家来说都不那么有趣。
+
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
 
 ### Wabisabi
 
@@ -1930,9 +1969,15 @@ Wabisabi 是另一种币合实现方式，采用的是集中交易协调的方�
 
 正如你现在已经了解到的，我更倾向于比特币上的 Whirlpool 合币模式。该系统因其严谨性和卓越的保密性而脱颖而出。它也是唯一一个在数学背景下提供完美混合的系统。在我看来，这种模式代表了比特币上币的未来。我邀请大家在下一章中更深入地探讨这种模式。
 
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
+
 ## 惠而浦如何工作
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
+
+:::video id=e40f1195-d028-44d3-be24-d76427f9d24b:::
 
 
 漩涡有别于其他加入硬币的方法，它使用"_ZeroLink_"交易，确保所有输入和输出之间没有任何可能的技术联系。这种完美的组合是通过一种结构实现的，在这种结构中，每个参与者的投入量完全相同（挖矿费用除外），产生的产出量完全相等。
@@ -2129,7 +2174,7 @@ Tx0 "是惠而浦混合过程的第一步。其目的是准备和均衡UTXO，�
 
 与任何比特币交易一样，重要的是不要重复使用接收地址。每笔新交易都必须用一个新的空白地址接收。
 
-最简单、最安全的解决方案是将混合后的UTXO留在**后混合**账户中，让它们重新混合，只在消费时才接触它们。Samurai 和 Sparrow 钱包具有针对所有这些链分析风险的额外保护措施。这些保护措施可帮助您避免犯错。
+最简单且最安全的做法，是将已混合的 UTXO 保持静置在 **postmix** 账户中，让其继续重新混合，并仅在需要花费时再动用它们。Samourai（现在包括 Ashigaru）和 Sparrow 钱包提供了额外的防护，以应对所有与链分析相关的风险。这些防护措施有助于避免错误的发生。
 
 ### 如何管理有毒交流？
 
@@ -2142,30 +2187,35 @@ Tx0 "是惠而浦混合过程的第一步。其目的是准备和均衡UTXO，�
 - 将其标记为 "不可消费"：**另一种方法是停止使用，在专用账户中将其标记为 "不可消费"，然后直接使用。这样可以确保你不会不小心花掉它们。如果比特币价值上升，可能会出现更适合你的有毒 UTXOs 的新池；**
 - 捐款：**考虑向开发比特币及相关软件的开发者捐款，无论多少。您也可以向接受 BTC 的协会捐款。如果管理有毒的 UTXOs 显得过于复杂，您可以直接将它们扔掉，然后进行捐赠；**
 - 购买礼品卡：**[Bitrefill](https://www.bitrefill.com/)等平台允许您用比特币兑换礼品卡，这些礼品卡可以在各种商家使用。这也是一种放弃有毒 UTXOs 而不损失相关价值的方法**；
-- 将它们整合到 Monero 上：**Samourai 钱包提供 BTC 和 XMR 之间的原子交换服务。这非常适合管理有毒的UTXO，将它们整合到莫奈罗上，同时不影响通过CIOH的保密性，然后再将它们发送回比特币。不过，由于流动性的限制，这一方案在采矿费和溢价方面可能成本较高；**
+- **通过 Monero 进行整合：** Samourai Wallet 曾提供 BTC 与 XMR 之间的原子交换服务，但自其被逮捕后该服务已无法使用。此方法可将受污染的 UTXO 在不损害您通过 CIOH 保持的隐私的前提下整合至 Monero，然后再发送回比特币网络。若未来出现类似服务，它可能成为一个值得考虑的选项。然而需注意，该方法可能成本高昂，包括挖矿费用以及在逆向兑换回比特币时因流动性限制而产生的额外溢价。
 - 将它们发送到闪电网络：**将这些UTXO传输到闪电网络，以享受交易费用的降低，这可能是一个很有吸引力的选择。不过，这种方法可能会泄露某些信息，具体取决于您如何使用闪电网络，因此应谨慎使用。**
 
 ### 如何使用惠而浦？
 
-2024 年 4 月 24 日，Samourai 钱包的创始人被捕，其服务器也被查封，此后，漩涡工具已无法使用，即使拥有自己 Dojo 的用户也无法使用。在此之前，Samourai 钱包和 Sparrow 钱包可以使用该工具。
+在2024年4月24日Samourai Wallet创始人被逮捕且其服务器被查封之后，Whirlpool工具在Samourai Wallet和Sparrow Wallet上已无法使用。
 
 ![BTC204](assets/zh-Hans/155.webp)
 
-不过，根据试验结果，该工具仍有可能在未来几周内重新启用，或者以不同的方式重新推出。无论如何，我认为比特币接币市场不会长期没有供应，因为需求是存在的。更重要的是，由于惠而浦的模式在保密性方面是最先进的，它肯定会成为未来其他实施模式的首选。
 
-我们一直在密切关注这一案件以及相关工具的发展。请放心，一旦有新的信息，我们将及时更新本培训课程。
+
+从现在起，Whirlpool 再次可在 Ashigaru 移动应用上使用，该应用是 Samourai Wallet 的一个分叉，这得益于 Ashigaru Terminal 软件。
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
+Whirlpool 的运行核心保持不变，但与在 Samourai 上的使用相比仍存在一些差异：在 2025 年，Ashigaru 上仅提供两个池，金额分别为 `0.25 BTC` 和 `0.025 BTC`，对应的进入费用为 `0.0125 BTC` 和 `0.00125 BTC`。
 
 在下一章中，我们将了解什么是 "anonsets"、这些指标是如何计算的，以及它们如何帮助我们估算联接循环的效率。
 
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 
 ## 匿名套
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
+
+:::video id=03d8581a-3454-4225-9068-a6434840cbcb:::
 
 
 在研究了共同连接的工作原理和有效混合所涉及的问题之后，我们现在要了解如何衡量其有效性。我们如何确定共同连接过程是否有效，以及某个部分获得了多大程度的匿名性？本章我们将通过匿名集或 "anonsets "来找出答案。
@@ -2241,6 +2291,8 @@ https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e56680
 ## 熵
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
+
+:::video id=5118b15a-a58f-4529-8a91-4e9f6a093fce:::
 
 
 正如我们在 "币合 "一节中所看到的，UTXOs 在输入和输出中的同质性在提高比特币交易的保密性方面发挥着重要作用。面对区块链分析，这一参数创造了一种似是而非的可抵赖性。有几种方法可以用来测量这种同质性，但在我看来，最有效的方法之一是使用由 OXT 和 Samourai 钱包团队开发的*Boltzmann*工具提供的指标，尤其是交易的熵。这就是我们将在本章详细介绍的内容。
@@ -2493,7 +2545,7 @@ $$
 
 既然我们已经详细介绍了 Cooinjoins，我们将在课程的最后一节了解比特币上的其他隐私保护技术。我们将学习支付连接、特定的伪比特币连接交易类型、静态地址协议，以及不是在交易本身层面，而是在节点网络层面加强保密性的措施。
 
-https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # 了解其他先进保密技术的挑战
 
@@ -2502,6 +2554,8 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 ## Payjoin 交易
 
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
+
+:::video id=5496cb59-006e-40b8-971f-af6d98868527:::
 
 
 Coinjoin 是目前在链分析中将不确定性引入零件追踪的最有效方法。正如我们在前几章中所看到的，要想获得高性能的组合，输入和输出必须尽可能同质。此外，重要的是部件要尽可能地集成到一个大的组中，以最大限度地实现共集。因此，要使共同连接有效，必须涉及大量统一的部件。如此多的要求意味着币合交易有一个非常严格的结构：金额事先是固定的，所有参与者都必须遵守，以保证过程的统一性。此外，硬币接合要求所有参与者和协调者在交易构建过程中保持同步。
@@ -2577,7 +2631,10 @@ payjoin 交易实现了两个目标，使用户能够提高支付的保密性。
 
 ![BTC204](assets/zh-Hans/177.webp)
 
-最先进的 payjoin 实现工具只有 Samourai 钱包上的 Stowaway。然而，自从软件创始人被捕后，这个工具现在只能部分运行。Stowaway 的优势在于它是一个全面、易用的协议，同时支持接收和发送 payjoins。部分签名交易可以通过扫描几个 QR 码手动交换，也可以通过 Soroban 的 Tor 自动交换。后一种通信方式目前已停止服务。
+
+最先进的 payjoin 实现无疑是由 Samourai Wallet 的开发者发明的 Stowaway。自从软件创始人被捕后，该工具在 Samourai 上仅能部分运行。但它已在 Ashigaru 应用中重新上线。
+
+Stowaway 的优势在于它是一个完整且非常易于使用的协议，同时支持接收和发送 payjoin。部分签名的交易可以通过扫描多个二维码手动交换，或通过 Tor 以 Soroban 自动交换。
 
 ![BTC204](assets/zh-Hans/178.webp)
 
@@ -2587,11 +2644,13 @@ payjoin 交易实现了两个目标，使用户能够提高支付的保密性。
 
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## 支付迷你币
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
+
+:::video id=1f33e8f1-e41d-4480-a388-e283ef51cc17:::
 
 
 当你想在保持一定保密性的同时进行支付交易时，payjoin 是一个不错的选择。但正如我们刚才看到的，payjoin 需要收款人的参与。那么，如果收款人拒绝参与 payjoin，或者你根本不想让他们参与，该怎么办呢？一种替代方法是使用石墙或石墙 x2 交易。让我们仔细看看这两种交易。
@@ -2698,23 +2757,26 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c71
 
 ### 如何使用石墙和石墙 x2 交易？
 
-石墙 "和 "石墙 x2 "交易可在 Samourai 钱包应用程序和 Sparrow 钱包软件上进行。
+Stonewall 交易可在 Sparrow Wallet 和 Ashigaru 上使用，而 Stonewall x2 目前仅由 Ashigaru 支持。
 
 ![BTC204](assets/zh-Hans/189.webp)
 
-然而，与支付连接一样，在 Samourai 创始人被捕后，石墙 x2 交易现在只能通过有关各方之间手动交换 PSBT 来进行。遗憾的是，通过 Soroban 进行的自动交换已不再可用。
 
 也可以通过任何比特币钱包软件手动进行此类交易。
 
 在下一章中，我们将学习另一种相对陌生的保密技术，但作为我们已经学习过的技术的补充，它非常有用。
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/sparrow-stonewall-6fcfd679-7038-4ee2-8bf7-de76a72f9392
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## 跳弹
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
+
+:::video id=3c9ce9e5-4081-4c36-98f9-9fc3779c0337:::
 
 
 比特币交易结构的使用会增加链分析的模糊性，比如coinjoin，尤其有利于隐私保护。然而，正如我们在 "payjoins "一章中所讨论的，coinjoin 交易在链上是自然可识别的。还记得我们在加密和联币之间做的类比吗：当一个文件被加密时，发现加密文件的第三方无法访问其内容，但可以清楚地识别出该文件已被修改以隐藏其内容。这同样适用于联锁交易：当分析师检查联锁交易时，虽然他或她无法在输入和输出之间建立直接联系（反之亦然），但他或她可以识别出观察到的交易是联锁交易。
@@ -2763,14 +2825,14 @@ https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14
 
 这种方法不仅对拼接有效，而且对任何其他可能影响部件可互换性的标记也很有效。
 
-这种跳转方法的创意最初来自 Samourai 钱包团队，他们将其整合到自己的应用程序中，实现了流程自动化。这项服务在 Samourai 并不是免费的，因为一次跳转需要 100,000 萨特的服务费，外加挖矿成本。因此，建议大额转账时使用该服务。
+这种弹跳方法的理念最初来自 Samourai Wallet 团队，他们将其集成到应用中以实现自动化运作。该服务在 Samourai 上是付费的，因为每次弹跳都会产生固定的 100,000 聪服务费，外加矿工费。如今在 Ashigaru 上也是如此。因此，该方法更适用于大额转账。
 
 ![BTC204](assets/zh-Hans/196.webp)
 
-武士 "应用程序提供两种跳弹变体：
+Ashigaru 应用提供两种弹射方式（与之前在 Samourai 上的相同）：
 
 
-- 强化跳转或 "交错交付"，其优点是将 Samurai 服务费分摊到连续的五笔交易中。这种方法还能确保每笔交易都在不同的时间进行广播，并记录在不同的区块中，尽可能模仿物主变更的行为。这种方法虽然速度较慢，但对那些不着急的人来说更可取，因为它通过加强对链式分析的抵抗力，最大限度地提高了跳转的效率；
+- 增强型弹射（或称“分阶段发送”）的优势在于，可将 Ashigaru 的服务费用分摊到连续五笔交易中。该选项还确保每笔交易在不同时间广播，并记录在不同区块中，从而尽可能逼真地模拟所有权变更的行为。虽然速度较慢，但对于不着急的用户而言，这种方法更为适合，因为它通过增强对链上分析的抵抗力来最大化弹射的效果；
 
 ![BTC204](assets/zh-Hans/197.webp)
 
@@ -2783,11 +2845,13 @@ https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14
 
 在下一章中，我们将探讨不同的所有权秘密转让技术。这些方法在操作和结果上都与我们迄今为止研究过的方法截然不同。
 
-https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## 所有权的秘密转让
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
+
+:::video id=374f79ce-fc61-4528-8b69-b5ca7c7eaa6f:::
 
 
 比特币的另一项保密技术是所有权的秘密转移。这种方法的目的是将比特币的所有权从一个人转移到另一个人，反之亦然，而交易在区块链上是不可见的。让我们来看看现有的不同技术及其优缺点。
@@ -2911,6 +2975,8 @@ $$(s_A' + t) \cdot G = N_A + T + H(N_A + T \parallel P_A \parallel m_A) \cdot P_
 
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
+:::video id=8428b212-de79-48a5-b984-ed7936861c2f:::
+
 
 在第四部分中，我们讨论了使用完整节点来保护交易机密性的重要性。然而，重要的是要明白，你的节点本身也可能受到攻击，试图获取你的活动信息。因此，在本章中，我们将探讨保护个人隐私的各种措施，这些措施不是在交易本身或比特币流的层面上，而是在网络层面上。
 
@@ -2988,6 +3054,8 @@ Tor 不仅可以加密数据，还可以掩盖通信的来源和目的地。通�
 
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
 
+:::video id=b0e9acc2-b50f-4caa-a1d7-cf8624b8e727:::
+
 
 正如我们在第三部分中看到的，地址重复使用是比特币协议中用户保密性的一个严重障碍。为了降低这些风险，我们强烈建议为钱包中收到的每一笔新付款生成一个空白的收款地址。虽然现在使用现代软件和分层确定性钱包可以简化生成新地址的过程，但这种做法似乎有违直觉。
 
@@ -3017,7 +3085,7 @@ BIP47 的目的是在不重复使用地址的情况下接收大量付款。它�
 
 因此，与传统的收件人地址或公开密钥不同，用户可以完全自由地在社交网络或自己的网站上分享自己的支付密码，而不会有任何失密的风险。
 
-要进行交易，双方都需要一个具有 BIP47 实施功能的比特币钱包，如 Samurai Wallet 或 Sparrow Wallet 上的 PayNym。共同使用他们的支付密码会在他们之间建立一个秘密通道。为有效建立这一通道，发行者必须在比特币区块链上进行特定交易，即 "通知交易"（稍后详述）。
+要进行一笔交易，双方都必须拥有一个实现了 BIP47 的比特币钱包，例如 Ashigaru 上的 PayNym 或 Sparrow Wallet。共同使用各自的支付代码会在双方之间创建一个秘密通道。为有效建立这一通道，发送方必须在比特币区块链上执行一笔特定交易，被称为“通知交易”（我稍后会向您提供详细信息）。
 
 将两个用户的支付密码组合起来就会产生共享秘密，而共享秘密又会产生大量独一无二的比特币收款地址（正好是 2^32，即大约 40 亿个）。这样，通过 BIP47 进行的支付实际上并不是针对支付代码本身，而是针对由相关用户的支付代码衍生出的经典收款地址。
 
@@ -3039,7 +3107,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 该代码还可以编码为 QR 码，以便于通信，就像传统的接收地址一样。
 
-至于 PayNym Bots（有时在 Twitter 上看到的机器人），它们是支付代码的可视化表示，由 Samourai Wallet 创建。它们是用哈希函数生成的，因此具有近乎唯一性。它们的形式是以 `+` 开头的一小串字符：
+关于 PayNym Bots，即那些有时会在 X（Twitter）上看到的机器人，它们是由 Samourai Wallet 创建的支付代码的可视化表现。现在随着 Ashigaru 的使用，它们略有不同，但原理保持不变。它们通过哈希函数生成，因此具有近乎唯一的特性。它们呈现为一个以 `+` 开头的小型字符序列：
 
 ```plaintext
 +throbbingpond8B1
@@ -3054,9 +3122,9 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 虽然这些机器人在 BIP47 框架内没有具体的技术功能，但它们通过提供易于识别的视觉标识，在促进用户互动方面确实发挥了作用。
 
 ---
-*在本章有关 BIP47 的后续章节中，我们将详细介绍它的工作原理，并特别强调所使用的加密方法。要完全掌握这些略带技术性的解释，首先必须了解高清钱包的结构、密钥推导程序和椭圆曲线加密的基本原理。如果您想深入了解这些概念，Plan ₿ Network 上还有另一门免费培训课程：*。
+*在本章有关 BIP47 的后续章节中，我们将详细介绍它的工作原理，并特别强调所使用的加密方法。要完全掌握这些略带技术性的解释，首先必须了解高清钱包的结构、密钥推导程序和椭圆曲线加密的基本原理。如果您想深入了解这些概念，Plan ₿ Academy 上还有另一门免费培训课程：*。
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 *我还是建议您关注这些建议，因为了解了 BIP47 的技术运作，您就更容易理解其他类似的建议，我们将在以下章节讨论这些建议*。
 
@@ -3808,11 +3876,13 @@ $$ K0 = k0 \cdot G $$
 
 **非常感谢[Fanis Michalakis](https://x.com/FanisMichalakis)对文章的校对和专家建议，正是他的建议启发了本章的写作！**
 
-https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## 无声支付
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
+
+:::video id=85b2780e-864e-4f64-b843-f272277181e6:::
 
 
 BIP47 因其链上效率低下而广受批评。如前一章所述，它要求对每个新收款人进行一次通知交易。如果我们计划与收款人建立可持续的支付渠道，这一限制就变得微不足道了。事实上，一次通知交易就能为随后几乎无限次的 BIP47 支付铺平道路。

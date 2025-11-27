@@ -1,0 +1,8 @@
+question: Qual é o principal desafio que torna a publicação de patches de vulnerabilidade para o Bitcoin particularmente complexa em comparação com os sistemas de software centralizados tradicionais?
+answer: O próprio código da correção pode revelar a vulnerabilidade a potenciais atacantes que analisem as alterações
+wrong_answers:
+  - A natureza descentralizada significa que não existe uma autoridade central para coordenar o tempo de implementação dos patches
+  - "O mecanismo de consenso do Bitcoin exige a aprovação por maioria antes de poderem ser implementadas quaisquer correcções de segurança"
+  - A natureza de código aberto significa que todas as vulnerabilidades devem ser divulgadas publicamente antes de serem desenvolvidas correcções
+explanation: |
+  O texto sublinha especificamente que os programadores devem ser extremamente cuidadosos quando publicam correcções porque "a própria correção pode revelar a vulnerabilidade" Isto cria um desafio único em que a solução pode expor inadvertidamente o problema. O quarto ponto descreve como os programadores do Bitcoin testam se um patch foi "suficientemente bem disfarçado", pedindo a programadores experientes que o revejam sem conhecer a vulnerabilidade específica. Se esses especialistas não conseguirem identificar a vulnerabilidade no patch, este é considerado seguro para ser implementado. As outras opções estão incorrectas: existe uma coordenação através dos mantenedores do Bitcoin Core, não é necessário consenso para os patches e as vulnerabilidades são mantidas privadas durante a divulgação responsável.

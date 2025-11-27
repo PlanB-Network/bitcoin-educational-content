@@ -1,0 +1,8 @@
+question: Was macht die Transaktionsverarbeitung von Bitcoin zensurresistent?
+answer: Die Transaktionsbestellung wird kollektiv von einer dynamischen Gruppe von Minern durchgeführt, der jeder beitreten oder sie verlassen kann
+wrong_answers:
+  - Die Transaktionsvalidierung wird mit fortschrittlichen kryptografischen Protokollen verschlüsselt, die von Regierungen nicht geknackt werden können
+  - Transaktionsdatensätze werden auf mehreren Backup-Servern gespeichert, die von verschiedenen vertrauenswürdigen Organisationen kontrolliert werden
+  - Die Transaktionsgebühren werden automatisch angepasst, um wirtschaftliche Angriffe von zentralisierten Behörden zu verhindern
+explanation: |
+  Bitcoin erreicht Zensurresistenz durch Dezentralisierung der Miner, wobei die Transaktionsbestellung kollektiv von allen Minern durchgeführt wird, die sich zur Teilnahme entschließen. Dies schafft ein dynamisches System, in dem jeder dem mining-Prozess frei beitreten oder ihn verlassen kann, und eliminiert jeden einzelnen Kontrollpunkt, der unter Druck gesetzt werden könnte, um Transaktionen zu zensieren. Die falschen Antworten beschreiben technische Merkmale, vertrauenswürdige Parteien oder wirtschaftliche Mechanismen, die sich nicht mit dem Kernproblem der dezentralen Kontrolle über die Transaktionsverarbeitung befassen.

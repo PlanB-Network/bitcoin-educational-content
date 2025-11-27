@@ -1,0 +1,9 @@
+question: Кое приложение за превод с отворен код работи с различни двигатели и не събира вашите преведени текстове?
+answer: ПревеждамТи
+wrong_answers:
+  - Превод на Google
+  - DeepL
+  - Microsoft Translator
+explanation: |
+  TranslateYou действа като Interface за няколко двигателя, без да проследява или събира лични данни, за разлика от запазените услуги.
+reviewed: false

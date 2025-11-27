@@ -6,4 +6,4 @@ wrong_answers:
   - Initial lifetime et secondary lifetime
 explanation: |
   Preferred lifetime détermine la période d’utilisation normale de l’adresse et valid lifetime sa période de validité totale.
-reviewed: false
+reviewed: true 

@@ -5,5 +5,6 @@ wrong_answers:
   - Mac için BitLocker, Windows için LUKS ve Linux için yerleşik seçenek.
   - Tüm işletim sistemleri için LUKS.
 explanation: |
-  Farklı işletim sistemleri veri şifreleme için çeşitli çözümlere sahiptir. BitLocker Windows içindir, LUKS Linux içindir ve Mac'in veri şifreleme için yerleşik bir seçeneği vardır.
+  Farklı işletim sistemleri veri şifreleme için çeşitli çözümlere sahiptir. BitLocker Windows içindir, LUKS Linux içindir ve 
+  Mac'in veri şifreleme için yerleşik bir seçeneği vardır.
 reviewed: true

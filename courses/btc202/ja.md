@@ -21,7 +21,7 @@ objectives:
 
 
 
-BTC 202は、Bitcoinノットの紡ぎ方を、技術的な専門家でなくても学べるようにデザインされた、わかりやすいコースです。まず、Bitcoinノットとは何か、何のために使うのか、なぜ自分で紡ぐことが必要なのかを説明します。そして、ハードウェアの選択、必要なソフトウェアのインストール、Walletの接続、そして、さらに発展させるための最初の最適化まで、ステップ・バイ・ステップでご案内します。
+BTC 202 は、技術的な専門知識がなくても自分自身のビットコインノードを運用する方法を学べる、わかりやすい講座です。まず、ビットコインノードとは何か、その役割、そして自分で運用することがなぜ極めて重要なのかを定義することから始めます。その後、ハードウェアの選定、必要なソフトウェアのインストール、ウォレットソフトウェアの接続、そしてさらに進むための最初の最適化を段階的に案内します。
 
 
 
@@ -410,7 +410,7 @@ Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html
 
 
 
-Bitcoin coreはC++で書かれている。また、Bitcoin coreはオープンソースプロジェクトであり、ボランティアまたは様々な団体（多くの場合、Coreの開発に既得権を持つエコシステム内の企業）から報酬を得ている開発者のコミュニティによって維持されている。[コードはGitHub](https://github.com/Bitcoin/Bitcoin)にホストされており、開発は厳密に従っている：
+Bitcoin CoreはC++で書かれたソフトウェアです。また、オープンソースプロジェクトでもあり、開発はボランティアやさまざまな組織（多くはCoreの開発が順調に進むことに関心のあるエコシステム企業）によって支えられています。[コードはGitHubでホストされています](https://github.com/bitcoin/bitcoin)、開発は厳格なモデルに従っています:
 
 
 
@@ -448,7 +448,7 @@ Bitcoin coreの開発は、実力主義的な論理に従っています。新�
 
 - Libbitcoin**: Amir Taakiによって開発され、Eric Voskuilによって保守されているモジュール式C++ライブラリ；
 - Bcoin**：JavaScriptの実装；
-- BTCD/btcsuit**e: Goでの実装。
+- **BTCD/btcsuite** : Goでの実装です。
 
 
 
@@ -481,7 +481,7 @@ Bitcoin coreの開発者はBitcoinを直接コントロールできると思っ�
 
 
 
-## なぜ自分で結び目をひねるのか？
+## なぜ自分のノードを運用するのか？
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Bitcoinノードを運営することは、個人的な利益を得ることな�
 
 
 
-実際、前章で指摘したように、結び目を紡ぐことに直接的な金銭的利益はない。したがって、そうすることに個人的な利益はないと考えるかもしれない。しかし、自分のノードを運営することは、多くの個人的利益をもたらす。そのことを納得してもらうために、この章では、技術的、戦略的な両面で、なぜあなた自身がBitcoinノードをインストールし、使用すべきなのか、その理由をすべて紹介しようと思う。
+これまでの章で述べたように、ノードを運用しても直接的な経済的利益は得られません。したがって、個人的な利益がないと考える人もいるかもしれません。しかし、自分のノードを運用することには多くの個人的な利点があります。これを納得してもらうために、本章では技術的および戦略的なあらゆる理由を紹介し、自分自身のビットコインノードをインストールして使用することを勧めます。
 
 
 
@@ -516,7 +516,7 @@ Walletソフトウェアが外部ノードに接続すると、そのトラン�
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### 非検閲対象取引
 
@@ -576,7 +576,7 @@ Full nodeのインストールは、決して簡単な作業ではない。ソ�
 
 
 
-この知識を身につけることで、道具に対する信頼が深まり、失敗や詐欺に遭うリスクを減らすことができる。自分で結び目を紡ぐこともまた、学習の一形態である。
+この知識を得ることでツールへの信頼が深まり、ミスや詐欺の被害に遭うリスクを減らすことができます。自分のノードを運用することは、学ぶことでもあります。
 
 
 
@@ -692,7 +692,7 @@ Bitcoinにおいて、「マーチャント」の役割は、一定の経済的�
 
 
 
-> あなたの結び方でも、あなたのルールでもない。
+> あなたのノードでなければ、あなたのルールではない。
 
 
 ## Bitcoinノードの種類
@@ -706,7 +706,7 @@ Bitcoinにおいて、「マーチャント」の役割は、一定の経済的�
 
 
 
-### 完全な結び目
+### フルノード
 
 
 
@@ -730,7 +730,7 @@ Full nodeはシステム内のすべての情報を検証し、把握してい�
 
 
 
-### prunedノット
+### 刈り込まれたノード
 
 
 
@@ -754,7 +754,7 @@ prunedノードはトランザクションをブロードキャストし、リ�
 
 
 
-### ライトノット／SPV
+### 軽量ノード / SPV
 
 
 
@@ -849,7 +849,7 @@ Full nodeは、Bitcoinの使用において完全に独立し、後にインデ�
 
 
 
-#### Bitcoin core（超大口顧客）
+#### Bitcoin Core（圧倒的多数のクライアント）
 
 
 
@@ -865,11 +865,11 @@ Full nodeは、Bitcoinの使用において完全に独立し、後にインデ�
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots（主要代替顧客）
+#### Bitcoin Knots（主要な代替クライアント）
 
 
 
@@ -886,7 +886,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e
 - ポリシー**：Knotsのような代替クライアントを使用することを好む人もいますが、それは技術的な理由ではなく、Coreの代替クライアントをサポートすることで、Coreの独占を減らすためです。もしCoreが危険にさらされるようなことがあれば、しっかりした、よく整備された代替クライアントを持つだけでなく、それらを効果的に利用する方法を知っておくことも有用でしょう。また、Coreの開発者への信頼を失ったり、クライアントの管理者の大半に不服があったりするため、抗議目的でKnotsを使用する人もいる。
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 個人的には、主にセキュリティパッチをより早く適用するためにCoreを選択することをお勧めします。実際、Knotsで発見されたいくつかの脆弱性は遅れて修正されます。より一般的には、Coreの開発プロセスはしっかりと構造化されており、多くの貢献者によってサポートされているのに対して、Knotsは一人の人間によってメンテナンスされており、コミュニティもかなり小さい。一方、リレールールは、特にネットワークのごく一部にしか適用されない場合（パーコレーション理論のように）、今日ではその有用性を失う傾向にある。
 
@@ -942,7 +942,7 @@ node-in-a-box_は、Bitcoin core（またはKnots）と、設定済みのオペ�
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ### スタート9（StartOS）
 
@@ -968,7 +968,7 @@ Umbrelとの主な違いはInterfaceにある。Umbrelは高度に洗練され�
 
 
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 ### マイノード
 
@@ -986,7 +986,7 @@ https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 
 
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
 ### ラスピブリッツ
 
@@ -1004,7 +1004,7 @@ Raspberry Piを所有しているなら、これは素晴らしい選択肢だ�
 
 
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
 ### 浪人道場
 
@@ -1026,7 +1026,7 @@ https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-
 
 
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ### ノドル
 
@@ -1565,7 +1565,7 @@ umbrelのコードは公開されています（閲覧、Fork、改変が可能�
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 前のセクションで述べたように、私はこのチュートリアルを、Intel Core i7プロセッサーと16GB RAMを搭載した*Lenovo ThinkCentre M900 Tiny*という、いい値段で見つけた小さな再生PCで実行することにした。これはUmbrel、特にBitcoinノードを動かすには非常に快適な構成だ。しかし、この構成を選んだのは、Lightningノードや他のもっと負荷の高いアプリケーションを後でインストールしたいからです。また、ThinkCentreに2TBのSSDを追加して、Blockchainのフル稼働を維持しながらも余裕を持たせています。この構成で、費用はすべて込みで270ユーロです。
 
@@ -1822,7 +1822,7 @@ http://192.168.1.42
 
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 
 
@@ -1864,9 +1864,9 @@ Umbrelの設定を開始するには、"*Start*"ボタンをクリックして�
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 パスワードを入力したら、「*作成*」ボタンをクリックします。
 
@@ -1944,7 +1944,7 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 これを行うには、設定の該当するボックスをクリックします。
 
@@ -2435,7 +2435,7 @@ Bitcoinの日々の使用において、本当に必要不可欠なツールが�
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 さらに、あなたのインターネット・サービス・プロバイダー（ISP）は、あなたがBlock explorerサイトを通じて特定の取引を閲覧していることを知っているかもしれません。このことはまた、信頼の問題を提起する。つまり、あなたは、自分の取引に関する正確な情報を提供するオンライン・サービスを信頼しなければならないが、その真実性を自分で確認することはできない。
 
@@ -2472,7 +2472,7 @@ Mempool.Spaceエクスプローラーの使い方については、この包括�
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### ライトニング・ノード
 
@@ -2492,15 +2492,15 @@ Umbrelは、Lightningノードの立ち上げを支援するアプリケーシ�
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 ノードの管理はInterfaceのメイン画面から行うことができますが、より高機能で高度なオプションをご希望の場合は、*Ride The Lightning*または*ThunderHub*をインストールしてください。これらのツールは、より包括的なウェブベースのInterface管理システムをノードに提供します。
 
 
 
-https://planb.network/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
+https://planb.academy/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
 
-https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
+https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
 
 ![Image](assets/fr/088.webp)
 
@@ -2564,7 +2564,7 @@ UmbrelにTailscaleをインストールして設定するには、このチュ�
 
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### ノストル
 
@@ -2590,7 +2590,7 @@ Nostrクライアント***noStrudel***または***Snort***もUmbrelで利用可�
 
 
 
-最後に、Umbrel上の***Nostr Wallet Connect*** アプリがあり、NostrでネイティブのLightning決済が可能になる。具体的には、あなたの将来のLightningノードをNostrの顧客とリンクさせることで、サードパーティのサービスを経由することなく、「*zaps*」と呼ばれるマイクロペイメントを送信し、コンテンツへの報酬や収益化された方法でのやり取りを行うことができます。これらの支払いは、あなたのチャンネルを通じてあなたの個人ノードから直接送信されます。
+最後に、Umbrel上の***Nostr Wallet Connect***アプリがあります。これにより、Nostr内でネイティブなLightning決済が可能になります。具体的には、将来のLightningノードをNostrクライアントに接続して、「*zaps*」と呼ばれるマイクロペイメントを送信し、コンテンツに報酬を与えたり、収益化された形で交流したりすることができます。これらの支払いは、サードパーティサービスを介さずに、あなた自身のノードからチャンネル経由で直接送信されます。
 
 
 
@@ -2598,7 +2598,7 @@ Nostrクライアント***noStrudel***または***Snort***もUmbrelで利用可�
 
 
 
-https://planb.network/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
+https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
 
 ### BTCPayサーバー
 
@@ -2626,7 +2626,7 @@ BTCPay Serverのアーキテクチャは、Bitcoinノードと、Lightningのた
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
@@ -2634,7 +2634,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
@@ -2642,7 +2642,7 @@ https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 # 高度なコンセプトとベストプラクティス
@@ -2652,7 +2652,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## アンブレルの結び目のメンテナンス
+## Umbrelノードのメンテナンス
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2751,7 +2751,7 @@ Umbrel はまた、この SCB を Tor 経由でサーバーに自動的かつ動
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### 診断とセルフヘルプ
 
@@ -2929,7 +2929,7 @@ assumeutxo`も既存のパラメータであるが、`assumevalid`とは異な�
 
 
 
-## Bitcoinノットの解剖学
+## あなたのビットコインノードの構造
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
@@ -2941,7 +2941,7 @@ assumeutxo`も既存のパラメータであるが、`assumevalid`とは異な�
 
 
 
-- gW-402 **ブロック**がディスクに保存されている、
+- ディスクに保存されたブロックチェーンの**ブロック**,
 - UTXOセット**は、キー・バリュー・データベースで管理されている、
 - と**Mempool**はRAMに保存され、定期的にシリアライズされる。
 
@@ -3077,9 +3077,9 @@ UTXOセットの増加は、Bitcoinにおける単純な支払いトランザク
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-妥当な時間内にトランザクションを検証するためには、その一部をRAMに保存しておく必要があるため、UTXOセットは次第にFull nodeの運用を高コストにしてしまう可能性がある。この問題を解決するために、[Utreexo](https://planb.network/resources/glossary/utreexo)を筆頭に、すでにいくつかの提案が存在する。
+妥当な時間内にトランザクションを検証するためには、その一部をRAMに保存しておく必要があるため、UTXOセットは次第にFull nodeの運用を高コストにしてしまう可能性がある。この問題を解決するために、[Utreexo](https://planb.academy/resources/glossary/utreexo)を筆頭に、すでにいくつかの提案が存在する。
 
 
 
@@ -3093,7 +3093,7 @@ Mempool は、受信済みだがまだ確定していない有効な取引のロ
 
 
 - maxmempool`パラメーターを介してMempoolに割り当てられたサイズ：大きいMempoolを持つノードは、小さいMempoolを持つノードよりも多くのトランザクションを保持することができる（後者が空にならない限り）；
-- gW-433ルール：これはノードの中継ルールのサブセットであり、Mempoolで受け入れられ るために未確認トランザクションが満たさなければならない特性を定義する；
+- mempoolのルール：これはノードのリレー規則のサブセットを構成し、未確認トランザクションがmempoolに受け入れられるために満たすべき特性を定義します；
 - トランザクションのパーコレーション：様々な要因により、あるトランザクションがネットワークのある部分に分散されたが、まだ別の部分に到達していない可能性がある。
 
 
@@ -3135,10 +3135,10 @@ blocks/`、`chainstate/`、`indexes/`と同じ階層にある他のいくつか�
 - ノードの電源を切ると、`anchors.dat`は発信したピアのアドレスを保存するので、次回起動時に素早く再接続を試みることができる。
 - `banlist.json`には、ノードが特定のピアからの再接続や接続を受け付けないようにするために、オペレータまたはノードによって決定されたローカル禁止が含まれる（無効な動作を繰り返す）。
 - `fee_estimates.dat`は、トランザクションを作成する際に選択された遅延目標と整合性のある手数料レートを提案するために手数料推定器が使用する、観測された確認の時間軸統計を格納する。
-- gW-446.conf`にはノードの設定パラメータが含まれる。ここで中継ルールを調整することができます。これについては次の章で詳しく説明します。
+- `bitcoin.conf` にはノードの構成パラメータが含まれています。特に、このファイルでリレーのルールを調整することができます。次の章で詳しく説明します；
 - settings.json`には、`Bitcoin.conf`に対する追加のパラメータが含まれている。
 - debug.log`は診断用のテキストログで、バグが発生した場合にノードの活動を理解するために使用できる。
-- gW-448.pid` は実行時のプロセス識別子を保存し、他のアプリケーションやスクリプトが bitcoind (*Bitcoin daemon*) を簡単に識別し、必要に応じて対話できるようにします。ノード起動時に作成され、シャットダウン時に削除される。
+- `bitcoind.pid` は実行中にプロセスIDを記録し、他のアプリケーションやスクリプトが Bitcoind（*Bitcoin Daemon*）を簡単に特定し、必要に応じて相互作用できるようにします。ノードの起動時に作成され、停止時に削除されます；
 - ip_asn.map`はIP → ASNのマッピングテーブル（スタンドアロンシステム）であり、バケツ化とピアの多様化（`-asmap`オプション）に使用される。
 - onion_v3_private_key` は、`listenonion` オプションが有効になっているときに、Tor v3 サービスの秘密鍵を保存する。
 - i2p_private_key` は、`-i2psam=` を使用して I2P 接続を行う場合に、I2P の秘密鍵を格納する。
@@ -3154,9 +3154,9 @@ blocks/`、`chainstate/`、`indexes/`と同じ階層にある他のいくつか�
 
 
 
-- wallets/`はデフォルトのディレクトリであり、1つ以上のディレクトリをホストしている；
+- `wallets/` は1つまたは複数のウォレットを格納するデフォルトのディレクトリです；
 - `wallets/<name>/Wallet.dat` はWalletのSQLiteデータベースである（キー、ディスクリプタ、トランザクションメタデータなど）；
-- wallets/<name>/Wallet.dat-journal` は SQLite のロールバックログです。
+- `wallets/<name>/wallet.dat-journal` は SQLite のロールバックジャーナルです。
 
 
 
@@ -3335,10 +3335,10 @@ Full nodeは、着信コネクションを受け入れることで、ネット�
 
 
 - addnode`：通常の発見に加えて、コンタクトする友好的なピアを追加する（複数回指定可能）。
-- connect`: 提供された Address への接続を厳密に制限する（複数回指定可能）。Coreは他のノードには接続しない。
+- `connect`：指定されたアドレスへの接続のみを厳密に制限します（複数回指定可能）。Coreは他のノードには接続しません；
 - seednode`：ノードに接続し、その後切断するときにブックAddressを埋めるためだけに使用される。
 - maxconnections`: グローバルな受信接続と送信接続の上限を定義します。デフォルトでは、このパラメータは125に設定されており、ノードが125を超える接続を受け入れることはありません。
-- maxuploadtarget`: 24時間のスライディングウィンドウで帯域幅を制限するためにアップロードの上限を設定します。この上限は、最近のElementsの本質的な伝搬を犠牲にしない。
+- `maxuploadtarget` : アップロードを制限し、24時間のスライディングウィンドウで帯域幅を抑えます。この制限は、必要不可欠な最近の要素の伝播を犠牲にしません;
 - onlynet`：選択したネットワーク（`ipv4`、`ipv6`、`onion`、`i2p`、`cjdns`）のみに発信接続を制限する。例えば、ノードが Bitcoin ネットワークに Tor 経由でのみ接続したい場合、`onlynet=onion` パラメータを有効にして、着信接続を無効にすることができます (または Tor 経由の接続のみを許可することもできます)。
 - dnsseed`: ローカルのAddressプールが少ない場合に、_DNSシードがピアをリクエストすることを許可するかどうかを設定します(デフォルト: `1`、ただし`-connect`または`-maxconnections=0`を除く)。
 - forcednsseed`: アドレスのストックがある場合でも、起動時に _DNS seeds_ を要求するようにします (デフォルト: `0`)。
@@ -3362,7 +3362,7 @@ Torを完全に有効にするには、Bitcoin coreにこのネットワーク�
 - `torcontrol=127.0.0.1:9051`,
 - proxyrandomize=1`、
 - listen=1`、
-- bind=127.0.0.1`、
+- `bind=127.0.0.1`,
 - upnp=0`、
 - natpmp=0`。
 
@@ -3418,7 +3418,7 @@ Bitcoin.conf`で変更できる、Mempoolの管理と未確認トランザクシ
 
 
 
-- blocksonly=1`：特別なパーミッションが付与されていない限り）ピアから受信した未確認トランザクションの受け入れと再送信を無効にする。ノードはブロックのアップロードとアドバタイズのみを行うようになります。ローカルで作成されたトランザクションはまだブロードキャストできます（Walletソフトウェアでノードを使用するため）。これは帯域幅とRAMの必要量を大幅に削減しますが、その代償としてリレーの有用性が低下し、Mempoolに全く慣れません。
+- `blocksonly=1` : ピアから受信した未確認トランザクションの受け入れと再送信を無効にします（特別な許可を除く）。ノードはブロックのみをダウンロードしてアナウンスします。ローカルで作成されたトランザクションは引き続きブロードキャストできます（ウォレットソフトウェアでノードを使用するため）。これにより、帯域幅とRAMの使用量が大幅に削減されますが、中継の有用性が低下し、メモリプールについての認識がなくなります。
 
 
 
@@ -3448,7 +3448,7 @@ Mempoolと中継ポリシーの詳細設定です。初心者であれば、こ�
 
 
 
-- datacarrier=1`：ノード経由のMiningの場合）`OP_RETURN`出力を経由して非金融データを運ぶトランザクションの中継と包含を許可する（デフォルト：`1`）。このパラメータを無効にすると、非金融データのスパムの表面積がわずかに減少するが、その代償として特定の用途との互換性が低下する。どのような場合でも、採掘された `OP_RETURN` を受け入れなければならない。
+- `datacarrier=1` : リレーおよび（ノードを介してマイニングする場合）非金融データを含むトランザクションを `OP_RETURN` 出力で含めることを許可します（デフォルト：`1`）。このパラメータを無効にすると、非金融データスパムの表面をわずかに減らしますが、一部の用途との互換性が低下します。いずれの場合も、マイニングされた `OP_RETURN` を受け入れる必要があります。
 
 
 
@@ -3490,13 +3490,13 @@ Mempoolと中継ポリシーの詳細設定です。初心者であれば、こ�
 
 
 
-- peerbloomfilters=1`：フィルタリングされたブロック/トランザクションをシンクライアントに提供するために、ブルームフィルタ(BIP37)のサポートを有効にする(デフォルト: `0`)。警告: これによりリソースの負荷が増加します。
+- `peerbloomfilters=1` : Bloomフィルター（BIP37）のサポートを有効にし、軽量クライアントにフィルタリングされたブロック/トランザクションを提供します（デフォルト：`0`）。注意：これはリソースへの負荷を増加させます。
 
 
 
 
 
-- peerblockfilters=1`：BIP157 (*Neutrino*)のコンパクトフィルタをピアに提供する(デフォルト: `0`)。
+- `peerblockfilters=1` : ピアにコンパクトな BIP157 (*Neutrino*) フィルターを提供します（デフォルト：`0`）。
 
 
 
@@ -3520,7 +3520,7 @@ Mempoolと中継ポリシーの詳細設定です。初心者であれば、こ�
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`：Walletで生成された受信用アドレスのフォーマットを定義する。
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : ウォレットが受信用に生成するアドレスの形式を定義します。
 
 
 
@@ -3568,7 +3568,7 @@ Mempoolと中継ポリシーの詳細設定です。初心者であれば、こ�
 
 
 
-- fallbackfee=<amt>`：フォールバック率(BTC/kvB) 推定値がデータ不足になった場合に使用される (デフォルト: `0.00`).0に設定するとフォールバックが完全に無効になる。
+- `fallbackfee=<amt>` : 推定器にデータが不足している場合に使用されるフォールバック手数料率（BTC/kvB）（デフォルト：`0.00`）。0に設定するとフォールバックが完全に無効になります。
 
 
 
@@ -3660,7 +3660,7 @@ Mempoolと中継ポリシーの詳細設定です。初心者であれば、こ�
 
 
 
-- txindex=1`：確認されたトランザクションのグローバルインデックスを構築し、維持する。特定のクエリ（Wallet 以外の `getrawtransaction`）や探索目的には必須であるが、ディスクフットプリントを大幅に増加させる。prunedモードとは互換性がない。
+- `txindex=1` : 確認済みトランザクションのグローバルインデックスを構築し維持します。特定のクエリ（ウォレット外の `getrawtransaction`）や探索目的に不可欠ですが、ディスク使用量が大幅に増加します。剪定モードとは互換性がありません。
 
 
 
@@ -3902,7 +3902,7 @@ Mempoolと中継ポリシーの詳細設定です。初心者であれば、こ�
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 # 最終パート

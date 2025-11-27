@@ -1,0 +1,8 @@
+question: Secondo le pratiche di divulgazione responsabile, qual è il principale dilemma etico affrontato dai ricercatori di sicurezza che scoprono vulnerabilità in sistemi decentralizzati come Bitcoin?
+answer: Bilanciare la necessità di informare le parti responsabili, evitando al contempo la divulgazione ad attori potenzialmente malintenzionati che potrebbero sfruttare la vulnerabilità
+wrong_answers:
+  - Decidere se trarre profitto dalla scoperta di una vulnerabilità attraverso programmi di bug bounty o donare liberamente le informazioni alla comunità
+  - Scegliere tra la segnalazione alle autorità governative e la segnalazione diretta al team di sviluppo del software per evitare complicazioni normative
+  - Determinare la compensazione finanziaria appropriata per la scoperta delle vulnerabilità prima di accettare di divulgare le informazioni agli sviluppatori
+explanation: |
+  La sfida etica principale della divulgazione responsabile è il delicato equilibrio tra trasparenza e sicurezza. I ricercatori devono assicurarsi che le vulnerabilità siano affrontate senza fornire inavvertitamente una tabella di marcia per lo sfruttamento da parte di malintenzionati. Ciò implica un attento coordinamento con gli sviluppatori, una tempistica appropriata per la divulgazione e la considerazione dell'impatto più ampio dell'ecosistema. Le altre opzioni si concentrano su questioni finanziarie o normative che, pur essendo potenzialmente rilevanti, non rappresentano il dilemma etico principale delineato nelle pratiche di divulgazione responsabile.

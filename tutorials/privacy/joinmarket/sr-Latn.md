@@ -416,7 +416,7 @@ python wallet-tool.py <naziv novčanika> history
 
 
 
-Jednom kada vaši satošiji naprave CoinJoins, oni će se kretati iz mixdepth-a u mixdepth dok ne stignu do poslednjeg. Nakon četvrtog nivoa (mixdepth), sredstva se vraćaju na mixdepth 0. Na vama je da odlučite koliko privatnosti želite postići pre nego što ih prebacite u hladni novčanik ([Cold Wallet](https://planb.network/resources/glossary/cold-wallet)), ali se preporučuje da završite ceo ciklus novčanika.
+Jednom kada vaši satošiji naprave CoinJoins, oni će se kretati iz mixdepth-a u mixdepth dok ne stignu do poslednjeg. Nakon četvrtog nivoa (mixdepth), sredstva se vraćaju na mixdepth 0. Na vama je da odlučite koliko privatnosti želite postići pre nego što ih prebacite u hladni novčanik ([Cold Wallet](https://planb.academy/resources/glossary/cold-wallet)), ali se preporučuje da završite ceo ciklus novčanika.
 
 
 ## Tumbler

@@ -11,11 +11,10 @@ Bitcoin के साथ शुरुआत करना उन लोगों 
 
 
 
-इस ट्यूटोरियल में हम ब्लू Wallet पर एक नज़र डालेंगे, जो एक सरल लेकिन अत्यधिक प्रभावी Bitcoin Wallet है जो आपको अपने बिटकॉइन को व्यक्तिगत रूप से प्रबंधित करने और [Multisig](https://planb.network/resources/glossary/multisig) पर आधारित प्रबंधन सहकारी समितियाँ बनाने की अनुमति देता है (चिंता न करें, हम इस पर वापस आएंगे)।
+इस ट्यूटोरियल में हम ब्लू Wallet पर एक नज़र डालेंगे, जो एक सरल लेकिन अत्यधिक प्रभावी Bitcoin Wallet है जो आपको अपने बिटकॉइन को व्यक्तिगत रूप से प्रबंधित करने और [Multisig](https://planb.academy/resources/glossary/multisig) पर आधारित प्रबंधन सहकारी समितियाँ बनाने की अनुमति देता है (चिंता न करें, हम इस पर वापस आएंगे)।
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 
@@ -39,7 +38,7 @@ Bitcoin के साथ शुरुआत करना उन लोगों 
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ब्लू Wallet के साथ आप अलग-अलग, समर्पित Bitcoin पोर्टफोलियो बना सकते हैं। उदाहरण के लिए, आप अपनी बचत के लिए एक Wallet और अपने दैनिक खर्चों के लिए दूसरा Wallet रख सकते हैं, ये सभी एक ही एप्लीकेशन में हैं।
 
@@ -65,10 +64,10 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 ब्लू Wallet का Bitcoin Wallet, Bitcoin पारिस्थितिकी तंत्र में मानक Wallet का प्रतिनिधित्व करता है। आप बिटकॉइन तब तक खर्च कर सकते हैं जब तक आपके पास रिकवरी शब्द हैं जो नेटवर्क पर एक वैध हस्ताक्षर प्रदान करेंगे ताकि यह प्रमाणित हो सके कि आप बिटकॉइन के मालिक हैं।
 
@@ -122,7 +121,7 @@ Bitcoin पोर्टफोलियो बनाने के लिए, **�
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -220,7 +219,7 @@ P2WSH प्रारूप का चयन करके सर्वोत्�
 
 
 
-❗ **[P2WSH](https://planb.network/resources/glossary/p2wsh) या पे टू विटनेस स्क्रिप्ट Hash** एक लॉकिंग विधि है जो आपके लेनदेन के आउटगोइंग बिटकॉइन (आउटपुट) को कस्टम स्क्रिप्ट के Hash पर लॉक कर देती है जिसे ब्लू Wallet सेट करता है। इस प्रकार के लॉकिंग का मुख्य लाभ यह है कि यह लेनदेन डेटा के आकार को कम करता है और आपको कम लेनदेन शुल्क का भुगतान करने की अनुमति देता है।
+❗ **[P2WSH](https://planb.academy/resources/glossary/p2wsh) या पे टू विटनेस स्क्रिप्ट Hash** एक लॉकिंग विधि है जो आपके लेनदेन के आउटगोइंग बिटकॉइन (आउटपुट) को कस्टम स्क्रिप्ट के Hash पर लॉक कर देती है जिसे ब्लू Wallet सेट करता है। इस प्रकार के लॉकिंग का मुख्य लाभ यह है कि यह लेनदेन डेटा के आकार को कम करता है और आपको कम लेनदेन शुल्क का भुगतान करने की अनुमति देता है।
 
 
 
@@ -264,7 +263,7 @@ P2WSH प्रारूप का चयन करके सर्वोत्�
 
 
 
-दूसरा Wallet हस्ताक्षरकर्ता, यदि वह भी एक उपयोगकर्ता है, तो आपके द्वारा अभी-अभी बनाए गए [आंशिक रूप से हस्ताक्षरित लेनदेन](https://planb.network/resources/glossary/psbt) के QR कोड को स्कैन करके, इंटरनेट से दूर होने पर भी (कोई वाई-फाई नहीं, कोई मोबाइल डेटा नहीं) लेनदेन पर हस्ताक्षर कर सकता है।
+दूसरा Wallet हस्ताक्षरकर्ता, यदि वह भी एक उपयोगकर्ता है, तो आपके द्वारा अभी-अभी बनाए गए [आंशिक रूप से हस्ताक्षरित लेनदेन](https://planb.academy/resources/glossary/psbt) के QR कोड को स्कैन करके, इंटरनेट से दूर होने पर भी (कोई वाई-फाई नहीं, कोई मोबाइल डेटा नहीं) लेनदेन पर हस्ताक्षर कर सकता है।
 
 
 
@@ -330,12 +329,12 @@ Lightning Network अब ब्लू Wallet अनुप्रयोग मे�
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 अब आपने ब्लू Wallet टूर पूरा कर लिया है, और Bitcoin को उसकी सरलता और शक्ति के साथ इस्तेमाल करने के लिए तैयार हैं। हमारा सुझाव है कि आप अगला कदम उठाएँ, और जानें कि आप अपनी दुकानों में Bitcoin भुगतान कैसे स्वीकार कर सकते हैं, लाइटनिंग की शक्ति का धन्यवाद।
 
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06

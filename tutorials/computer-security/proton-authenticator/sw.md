@@ -194,7 +194,7 @@ Kwanza kabisa, unaweza kushauriana na mwongozo wetu kwa ProtonMail kwa habari za
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 Ingia kwenye akaunti yako ya ProtonMail na uende kwenye mipangilio ya usalama. Tafuta chaguo la "Uthibitishaji wa sababu mbili" na uiwashe.
 
@@ -495,7 +495,7 @@ Kwa kweli, tumia zaidi ya kipengele kimoja cha pili kwenye akaunti zako muhimu. 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Vile vile, weka misimbo ya dharura iliyochapishwa mkononi.
 
@@ -545,7 +545,7 @@ Utapata mwongozo wetu kwa Authy hapa chini:
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Kithibitishaji cha Proton ni mojawapo ya suluhu za kina na salama zinazopatikana: chanzo huria, ulandanishi uliosimbwa wa vifaa vingi, hakuna ufuatiliaji wa kibiashara.
 

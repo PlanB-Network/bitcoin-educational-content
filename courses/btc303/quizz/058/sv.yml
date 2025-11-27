@@ -1,0 +1,8 @@
+question: Enligt definitionskraven för öppen källkod, vad måste hända när källkoden avsiktligt fördunklas i en distribution av programvara med öppen källkod?
+answer: Den avsiktligt fördunklade källkoden strider mot principerna för öppen källkod och är inte tillåten
+wrong_answers:
+  - Den fördunklade koden måste åtföljas av detaljerad dokumentation som förklarar dess funktionalitet
+  - Den fördunklade koden är godtagbar så länge som kompilerade binärfiler också tillhandahålls
+  - Den fördunklade koden måste göras tillgänglig genom en separat nedladdning med reproduktionskostnader
+explanation: |
+  I definitionen av öppen källkod anges uttryckligen att "avsiktligt fördunklad källkod inte är tillåten" Detta är ett grundläggande krav eftersom fördunkling förhindrar meningsfull granskning, modifiering och förståelse av koden, vilket motverkar de centrala syftena med programvara med öppen källkod. Källkoden måste vara i "den föredragna form som en programmerare skulle modifiera programmet i", vilket gör fördunkling oförenlig med principerna för öppen källkod oavsett dokumentation eller distributionsmetoder.

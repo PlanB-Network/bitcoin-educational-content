@@ -86,7 +86,7 @@ Kun olet ladannut tiedoston, asenna se kuten mikä tahansa muu ohjelmisto. Hyvä
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 ### Whonixin tuominen
 
 
@@ -224,7 +224,7 @@ sudo apt full-upgrade
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ### Electrum Bitcoin Wallet
 
@@ -234,7 +234,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Whonix on enemmän kuin pelkkä käyttöjärjestelmä: se on todellinen **turvallinen ympäristö**, joka on suunniteltu suojaamaan anonymiteettiäsi, yksityisyyttäsi ja arkaluonteisia toimintojasi. Tor-pohjaisen arkkitehtuurin, Gatewayn ja työaseman välisen älykkään osioinnin sekä esiasennettujen työkalujen, kuten Tor Browserin, KeePassXC:n ja Electrumin, ansiosta se tarjoaa avaimet käteen -ratkaisun kaikille, jotka haluavat **selata nimettömänä**, **työskennellä turvallisesti** tai **käsitellä luottamuksellisia tietoja**.
 
@@ -244,4 +244,4 @@ Jos haluat vahvistaa Unix-järjestelmän tietoturvaa, tutustu koneen tarkastamis
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af

@@ -14,7 +14,7 @@ Kontrak RGB terstruktur seperti mesin status evolusioner. Dimulai dengan Genesis
 
 Untuk mempelajari lebih lanjut mengenai cara kerja protokol RGB, saya sarankan Anda mengikuti kursus pelatihan komprehensif ini:
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 Logika internal RGB didasarkan pada pustaka Rust yang dapat Anda, sebagai pengembang, impor ke dalam proyek Anda untuk mengelola bagian *Client-side Validation*. Selain itu, tim LNP/BP sedang mengerjakan binding untuk bahasa lain, tetapi ini belum selesai. Selain itu, entitas lain seperti Bitfinex sedang mengembangkan tumpukan integrasi mereka sendiri, tetapi kita akan membicarakannya di tutorial lain. Untuk saat ini, CLI `rgb` adalah referensi resmi, meskipun masih relatif belum sempurna.
 
@@ -135,8 +135,8 @@ Berikut ini adalah contoh file YAML yang akan dibuat:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -180,7 +180,7 @@ rgb contracts
 
 ![RGB-CLI](assets/fr/07.webp)
 
-Kemudian, perintah selanjutnya menampilkan status global (nama, ticker, pasokan...) dan daftar Status Milik, yaitu alokasi (misalnya, 1 juta token `PBN` yang didefinisikan dalam UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Kemudian, perintah selanjutnya menampilkan status global (nama, ticker, pasokan...) dan daftar Status Milik, yaitu alokasi (misalnya, 1 juta token `Plan ₿ Academy` yang didefinisikan dalam UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -309,4 +309,4 @@ Sekarang Anda sudah tahu cara menerbitkan dan mentransfer kontrak RGB. Jika Anda
 
 Saya juga merekomendasikan tutorial lain di mana saya menjelaskan cara meluncurkan node Lightning yang kompatibel dengan RGB untuk menukar token secara instan:
 
-https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.academy/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

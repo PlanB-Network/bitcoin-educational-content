@@ -11,7 +11,7 @@ Elementary OS, birçok günlük kullanım için basit, hızlı ve kararlı olaca
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ## Neden Elementary OS'yi seçmelisiniz
 
@@ -380,4 +380,4 @@ Elementary OS artık makinenizde çalışır durumda. Basitlik, hafiflik ve zara
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0

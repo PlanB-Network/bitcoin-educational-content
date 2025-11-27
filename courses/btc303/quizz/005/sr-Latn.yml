@@ -1,0 +1,8 @@
+question: Na šta se konkretno odnosi decentralizacija rudara u Bitcoin?
+answer: Redosled transakcija obavlja se kolektivno od strane dinamičkog skupa rudara, a ne od strane jednog entiteta.
+wrong_answers:
+  - Validacija blokova je raspoređena na više pouzdanih autoriteta umesto na jedan centralni server.
+  - mining nagrade su ravnomerno raspoređene među svim učesnicima u Bitcoin mreži
+  - mining hardver proizvode različite kompanije kako bi se sprečila monopolizacija opreme
+explanation: |
+  Miner decentralizacija specifično znači da redosled transakcija nije kontrolisan od strane bilo kojeg pojedinačnog entiteta ili fiksne grupe, već od strane kolektiva rudara koji mogu slobodno da se pridruže ili napuste. Ovo je različito od validacije blokova (što se odnosi na full node decentralizaciju), distribucije nagrada ili proizvodnje hardvera. Dinamična priroda mining kolektiva - gde svako može učestvovati bez dozvole - je ono što čini Bitcoin otpornim na cenzuru i sprečava bilo koju pojedinačnu stranu da kontroliše koje transakcije će biti uključene u blokove.

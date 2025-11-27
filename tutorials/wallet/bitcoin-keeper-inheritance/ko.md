@@ -17,7 +17,7 @@ description: 탭시그나이저와 함께 Bitcoin 키퍼 Wallet를 설정하고 
 
 Bitcoin Keeper Wallet에 대한 전체 튜토리얼을 보려면 여기에서 튜토리얼을 참조하세요:
 
-https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
+https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
 
 다른 관련 링크도 여기에서 확인하세요:
 

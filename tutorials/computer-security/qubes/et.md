@@ -101,7 +101,7 @@ Qubes OS pakub ka täielikku läbipaistvust ja kontrolli teie digitaalse keskkon
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 Selle asemel, et püüda luua läbimatu süsteem, keskendub Qubes OS vastupanuvõimele: see kapseldab kahjustused kompromissi korral, vähendades riski ülejäänud süsteemile. Selline pragmaatiline lähenemine teeb Qubes OSi eelistatud valikuks kasutajatele, kellel on kõrged turvanõuded või kes soovivad säilitada maksimaalset kontrolli oma digitaalse elu üle.
 
@@ -126,7 +126,7 @@ Qubes OS-i paigaldamiseks laadige alla ametlik ISO-kujutis Qubes OS [ametlik kod
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ![0_01](assets/fr/01.webp)
 
@@ -327,4 +327,4 @@ Olenemata sellest, kas teil on vaja turvaliselt veebis surfata, kaitsta tundlikk
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

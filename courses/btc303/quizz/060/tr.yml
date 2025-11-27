@@ -1,0 +1,8 @@
+question: Açık kaynak tanımına göre, bir toplu yazılım dağıtımının parçası olarak açık kaynak yazılımı yeniden dağıtırken ücretlerle ilgili temel gereklilik nedir?
+answer: Lisans, söz konusu satış için bir telif hakkı veya başka bir ücret gerektirmeyecektir
+wrong_answers:
+  - Geliştirme masraflarını karşılamak için makul bir çoğaltma maliyeti alınmalıdır
+  - Telif ücretlerine izin verilir ancak dağıtım fiyatının %5'ini geçmemelidir
+  - İdari ücretler gerekebilir, ancak yalnızca ticari yeniden dağıtımlar için
+explanation: |
+  Açık kaynak tanımı, "Serbest Yeniden Dağıtım" başlığı altında açıkça "Lisans, bu tür bir satış için telif hakkı veya başka bir ücret gerektirmeyecektir" demektedir Bu, açık kaynak yazılımın zorunlu ücretler veya telif hakları olmaksızın serbestçe yeniden dağıtılabilir olması gerektiği anlamına gelir. Diğer seçenekler yanlış bir şekilde çeşitli ücret türlerine izin verildiğini göstermektedir, bu da açık kaynak yazılımı tanımlayan temel ücretsiz yeniden dağıtım ilkesini ihlal edecektir.

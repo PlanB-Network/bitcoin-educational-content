@@ -1,0 +1,8 @@
+question: Apa alasan utama mengapa bug kinerja di Bitcoin berpotensi digunakan untuk membuat partisi jaringan menurut para ahli keamanan?
+answer: Bug kinerja dapat digunakan secara strategis untuk memisahkan penambang dan bursa tertentu dari seluruh jaringan, memungkinkan serangan pengeluaran ganda
+wrong_answers:
+  - Bug kinerja terutama memengaruhi waktu konfirmasi transaksi, membuat jaringan tidak dapat diandalkan oleh pedagang dan pengguna
+  - Bug kinerja menghabiskan sumber daya komputasi yang berlebihan, memaksa node untuk mati dan mengurangi desentralisasi jaringan
+  - Bug kinerja membuat kebocoran memori yang akhirnya membuat node crash, yang menyebabkan ketidakstabilan jaringan sementara dan mengurangi tingkat hash
+explanation: |
+  Gregory Maxwell secara khusus memperingatkan bahwa bug performa, ketika digunakan secara ahli, dapat digunakan untuk mempartisi jaringan secara strategis - contohnya, memisahkan 'penambang A dan bursa B' ke dalam satu partisi sementara yang lainnya masuk ke partisi yang lain, sehingga menciptakan kondisi untuk melakukan serangan pengeluaran ganda. Hal ini menunjukkan mengapa masalah yang kelihatannya kecil harus dianggap sebagai masalah yang berpotensi besar, karena mereka dapat digunakan dengan cara yang canggih yang tidak langsung terlihat.

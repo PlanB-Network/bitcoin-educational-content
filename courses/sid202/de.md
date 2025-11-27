@@ -1,5 +1,5 @@
 ---
-name: Bauen mit Elementen und Liquid Network
+name: Bauen mit Elements und Liquid Network
 goal: Lernen Sie, die Open-Source-Blockchain-Plattform Elements und ihre wichtigsten Funktionen zu nutzen und damit zu entwickeln
 objectives: 
 

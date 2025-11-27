@@ -17,7 +17,7 @@ W tym samouczku omówimy proces tworzenia konta biznesowego na Bitfinex, kupowan
 Jeśli jesteś zainteresowany tematem integracji Bitcoin w swojej firmie, polecam również zapoznanie się z naszym kompletnym szkoleniem teoretycznym na ten temat:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Utworzenie konta Bitfinex
 
@@ -37,12 +37,12 @@ Uzupełnij wymagane informacje: wprowadź swój służbowy adres e-mail Address 
 Wskazówki dotyczące używania i zabezpieczania silnych, unikalnych haseł można znaleźć również w tym samouczku:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Teraz skonfigurujemy 2FA, aby zabezpieczyć konto. Użyj aplikacji uwierzytelniającej na smartfonie, takiej jak na przykład Google Authenticator lub Authy. Samouczek dotyczący tego narzędzia znajdziesz tutaj:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Zeskanuj kod QR za pomocą aplikacji i wprowadź 6 podanych cyfr.
 
@@ -234,7 +234,7 @@ Bitfinex oferuje również opcje wpłat i wypłat za pośrednictwem Lightning Ne
 Jeśli jesteś zainteresowany Lightning Network, mamy również kompletny kurs szkoleniowy, który pomoże Ci zrozumieć, jak to działa:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 6 - Kupno i sprzedaż bitcoinów na Bitfinex
 
@@ -352,4 +352,4 @@ W zależności od celów i struktury firmy, korzystanie z Bitfinex może się r�
 Aby uzyskać bardziej dogłębne spojrzenie na ten temat, polecam ten kompleksowy kurs szkoleniowy na temat integracji Bitcoin w firmach, który szczegółowo obejmuje dodawanie do przepływów pieniężnych, przyjmowanie płatności Bitcoin i księgowość:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

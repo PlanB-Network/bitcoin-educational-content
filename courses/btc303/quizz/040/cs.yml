@@ -1,0 +1,8 @@
+question: Jaký typ kompatibility poskytuje měkký modul fork podle pojednání v kapitole o kompatibilitě Bitcoin?
+answer: Dopředná i zpětná kompatibilita, takže je plně kompatibilní
+wrong_answers:
+  - Pouze zpětná kompatibilita, která umožňuje novému softwaru zpracovávat stará data
+  - Pouze dopředná kompatibilita, která umožňuje starému softwaru zpracovávat nová data
+  - Ani dopředná, ani zpětná kompatibilita, vyžadující kompletní aktualizace systému
+explanation: |
+  V kapitole se jasně uvádí, že změna pravidel konsensu Bitcoin se považuje za měkkou změnu fork, pokud je plně kompatibilní Plně kompatibilní je definována jako dopředně i zpětně kompatibilní. Dopředná kompatibilita znamená, že starý software může zpracovávat data z novějších verzí tak, že ignoruje části, kterým nerozumí, zatímco zpětná kompatibilita znamená, že nový software může zpracovávat stará data. Díky této dvojí kompatibilitě jsou soft forky preferovaným mechanismem aktualizace pro Bitcoin, protože nenarušují stávající systémy a zároveň umožňují nové funkce.

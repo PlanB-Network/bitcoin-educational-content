@@ -1,0 +1,9 @@
+question: Какво съставлява Anchor в RGB?
+answer: Идентификатор на транзакция, MPC, DBC и допълнително доказателство за транзакция
+wrong_answers:
+  - Genesis, Seal Definition и Transition Bundle
+  - Contract Schema, Business Logic и Owned State
+  - Подпис, транзакция Hash и Pedersen Commitment
+explanation: |
+  Anchor съдържа данните, необходими за доказване на включването на уникален ангажимент в транзакция Bitcoin.
+reviewed: false

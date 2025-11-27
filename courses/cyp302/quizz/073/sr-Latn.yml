@@ -1,4 +1,4 @@
-question: Kako se ključ može definisati u šifrovanju pomeranjem?
+question: Kako se ključ može definisati u šifrovanju pomakom?
 answer: Broj od 0 do 25
 wrong_answers:
   - Nasumična reč
@@ -6,4 +6,4 @@ wrong_answers:
   - Broj od 1 do 26
 explanation: |
   U šifrovanju pomakom, ključ je broj između 0 i 25, što odgovara broju pozicija pomaka primenjenih na svako slovo poruke u alfabetu od 26 slova.
-reviewed: false
+reviewed: true

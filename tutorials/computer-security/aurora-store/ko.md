@@ -44,13 +44,13 @@ F-Droid 또는 IzzyOnDroid와 같은 다른 애플리케이션 스토어에서 A
 
 
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 그러나 Aurora Store의 신뢰성과 무결성을 보장하기 위해 공식 웹사이트에서 직접 APK 파일을 다운로드하는 것을 권장합니다.
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 APK(안드로이드 패키지 키트) 파일은 안드로이드 운영 체제에서 애플리케이션을 배포하고 설치하는 데 사용하는 패키지 형식입니다. Windows의 **.exe** 파일 또는 macOS의 **.dmg** 파일에 해당합니다.
 
@@ -155,4 +155,4 @@ Google Play 서비스가 필요하지 않으므로 오로라 스토어 Interface
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

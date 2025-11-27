@@ -24,7 +24,7 @@ Kidhibiti cha nenosiri hutengeneza na kuhifadhi kwa usalama manenosiri thabiti, 
 
 Katika somo hili, tutajifunza jinsi ya kusanidi na kutumia kidhibiti cha nenosiri cha ndani ili kuimarisha usalama wako mtandaoni. Hapa, nitakutambulisha kwa KeePass. Hata hivyo, ikiwa wewe ni mwanzilishi na ungependa kuwa na kidhibiti nenosiri mtandaoni chenye uwezo wa kusawazisha kwenye vifaa vingi, ninapendekeza ufuate mafunzo yetu kuhusu Bitwarden:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 

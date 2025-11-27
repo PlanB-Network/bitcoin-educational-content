@@ -1,0 +1,8 @@
+question: Mis on peamine põhjus, miks Bitcoin tegelik ringluses olev varu on oluliselt väiksem kui teoreetiline maksimum, mis on ligikaudu 21 miljonit BTC?
+answer: Kaotatud privaatvõtmed, wallet vargused ja valedele aadressidele saadetud mündid eemaldavad bitcoinid lõplikult ringlusest
+wrong_answers:
+  - Mining raskusastme kohandamine vähendab automaatselt kogupakkumist, et säilitada nappus aja jooksul
+  - Tehingutasud põletatakse töötlemise ajal, vähendades järk-järgult olemasolevat bitcoini pakkumist
+  - "Bitcoin protokoll lukustab automaatselt mündid, mis ei ole pikemat aega liikunud, et vältida inflatsiooni"
+explanation: |
+  Peatükis selgitatakse, et kuigi teoreetiline maksimum on umbes 20 999 817 BTC, on tegelik kasutatav varu inimlike vigade ja kadude tõttu palju väiksem. Kaotatud privaatvõtmed muudavad bitcoinid püsivalt kättesaamatuks, rahakotid varastatakse või unustatakse ning mündid saadetakse mõnikord kehtetutele aadressidele. Need tegurid tekitavad püsiva pakkumise vähenemise, mis tuleb ülejäänud omanikele kasuks, sest Satoshi märkis, et kadunud mündid muudavad kõigi teiste müntide väärtuse suuremaks.

@@ -1,0 +1,8 @@
+question: Čím se liší bezpečnostní předpoklady Bitcoin od tradičních fyzických bezpečnostních systémů, jako jsou budovy?
+answer: Bitcoin musí řešit všechny známé slabiny, protože online protivníci jsou anonymní a využijí jakoukoli zranitelnost
+wrong_answers:
+  - Bitcoin se opírá o matematické důkazy, zatímco budovy jsou závislé na fyzických bariérách a prosazování práva
+  - "Bezpečnost Bitcoin je založena na ekonomických pobídkách, zatímco budovy používají odstrašení prostřednictvím viditelných bezpečnostních opatření."
+  - Bitcoin používá k ochraně kryptografické podpisy, zatímco budovy se spoléhají na systémy kontroly přístupu a monitorování
+explanation: |
+  Klíčový rozdíl spočívá v tom, že online systémy jako Bitcoin čelí anonymním protivníkům, kteří nevyhnutelně zneužijí jakoukoli známou slabinu, na rozdíl od fyzických systémů, kde můžeme přijmout určité riziko, protože pachatele lze identifikovat a stíhat. Jak poznamenal Andrew Poelstra, online nemáme luxus odstrašení ze strany orgánů činných v trestním řízení - pokud je možné systém poškodit nepříznivým způsobem, anonymní aktéři to udělají. To nutí společnost Bitcoin řešit všechny zranitelnosti, místo aby akceptovala kalkulovaná rizika.

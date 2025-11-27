@@ -1,0 +1,8 @@
+question: ¿Cuál fue el problema específico con el fork blando BIP66 que Shaolinfry citó como prueba contra las horquillas blandas activadas por mineros?
+answer: el 95% de hashrate señaló que estaba listo, pero aproximadamente la mitad no validó las reglas actualizadas y minó sobre un bloque no válido
+wrong_answers:
+  - Los mineros se negaron a dar señales de apoyo a pesar de la abrumadora demanda de los usuarios, lo que provocó que la actualización se paralizara indefinidamente
+  - Un pequeño porcentaje de mineros vetó la actualización para toda la red pese al apoyo mayoritario de los usuarios
+  - La actualización provocó una ruptura permanente de la cadena porque mineros y usuarios discrepaban sobre los detalles de la implementación
+explanation: |
+  El incidente del BIP66 reveló un fallo crítico en las bifurcaciones suaves activadas por los mineros: indicar que se está preparado no garantiza la validación real. A pesar de que el 95% de los mineros indicaron que estaban preparados para la actualización, aproximadamente la mitad no validaron correctamente las nuevas reglas y minaron por error un bloque no válido. Esto demostró que la señalización de la potencia de hash puede ser engañosa y no garantiza una implementación adecuada, que era uno de los argumentos clave de Shaolinfry para proponer las bifurcaciones Soft activadas por el usuario como un mecanismo de actualización más fiable.

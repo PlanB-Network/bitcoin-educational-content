@@ -84,7 +84,7 @@ _为额外安全设置PIN码_
 ## 关于 Lightning Network
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Bitcoin Lightning Network 彻底改变了 Bitcoin 的交易方式，使其更快、更便宜、更高效。它非常适合日常使用，能以最低的费用实现近乎即时的支付，是购买咖啡或处理频繁小额消费等小额交易的理想选择。
 

@@ -8,7 +8,7 @@ description: Kako predložiti dodavanje novog graditelja na PlanB mreži?
 Misija PlanB-a je da obezbedi vrhunske obrazovne resurse o Bitcoin, na što više jezika. Sav sadržaj objavljen na sajtu je otvorenog koda i hostovan na GitHub-u, što omogućava svakome da učestvuje u obogaćivanju platforme.
 
 
-Želite li dodati novog Bitcoin "graditelja" na sajt PlanB Network i dati vidljivost svojoj kompaniji ili softveru, ali ne znate kako? Ovaj vodič je za vas!
+Želite li dodati novog Bitcoin "graditelja" na sajt Plan ₿ Academy i dati vidljivost svojoj kompaniji ili softveru, ali ne znate kako? Ovaj vodič je za vas!
 
 ![project](assets/01.webp)
 
@@ -16,7 +16,7 @@ Misija PlanB-a je da obezbedi vrhunske obrazovne resurse o Bitcoin, na što viš
 - Prvo, potrebno je da imate GitHub nalog. Ako ne znate kako da kreirate nalog, napravili smo detaljan vodič da vas uputimo.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![project](assets/03.webp)
 
 
-- Ako nikada ranije niste doprineli sadržaju PlanB Network-a, biće potrebno da kreirate svoj Fork originalnog repozitorijuma. Forkovanje repozitorijuma znači kreiranje kopije tog repozitorijuma na vašem GitHub nalogu, što vam omogućava da radite na projektu bez uticaja na originalni repozitorijum. Kliknite na dugme `Fork this repository`:
+- Ako nikada ranije niste doprineli sadržaju Plan ₿ Academy-a, biće potrebno da kreirate svoj Fork originalnog repozitorijuma. Forkovanje repozitorijuma znači kreiranje kopije tog repozitorijuma na vašem GitHub nalogu, što vam omogućava da radite na projektu bez uticaja na originalni repozitorijum. Kliknite na dugme `Fork this repository`:
 
 ![project](assets/04.webp)
 
@@ -164,7 +164,7 @@ category: education
 ![project](assets/14.webp)
 
 
-- Odaberite svoj Fork iz PlanB Network repozitorijuma:
+- Odaberite svoj Fork iz Plan ₿ Academy repozitorijuma:
 
 ![project](assets/15.webp)
 
@@ -215,7 +215,7 @@ category: education
 ![project](assets/25.webp)
 
 
-- Otvorit će se nova stranica. Prevucite i ispustite sliku vaše kompanije ili vašeg softvera u područje. Ova slika će biti prikazana na PlanB Network sajtu:
+- Otvorit će se nova stranica. Prevucite i ispustite sliku vaše kompanije ili vašeg softvera u područje. Ova slika će biti prikazana na Plan ₿ Academy sajtu:
 
 ![project](assets/26.webp)
 
@@ -281,7 +281,7 @@ contributors:
 
 
 
-- Za ključ `contributors`, možete dodati svoj identifikator saradnika na PlanB Network ako ga imate. Ako nemate, ostavite ovo polje prazno.
+- Za ključ `contributors`, možete dodati svoj identifikator saradnika na Plan ₿ Academy ako ga imate. Ako nemate, ostavite ovo polje prazno.
 - Za ključ `description`, jednostavno treba da dodate kratak pasus koji opisuje vašu kompaniju ili vaš softver. Opis mora biti na istom jeziku kao i naziv datoteke. Ne morate prevoditi ovaj opis na sve jezike koje sajt podržava, jer će PlanB timovi to učiniti koristeći njihov model. Na primer, ovako bi vaša datoteka mogla izgledati:
 
 ```yaml
@@ -329,10 +329,10 @@ contributors:
 
 ![project](assets/44.webp)
 
-Čestitamo! Vaš PR je uspešno kreiran. Administrator će ga sada pregledati i, ako je sve u redu, integrisati u glavni repozitorijum PlanB Network-a. Vaš profil graditelja bi trebalo da se pojavi na vebsajtu nekoliko dana kasnije.
+Čestitamo! Vaš PR je uspešno kreiran. Administrator će ga sada pregledati i, ako je sve u redu, integrisati u glavni repozitorijum Plan ₿ Academy-a. Vaš profil graditelja bi trebalo da se pojavi na vebsajtu nekoliko dana kasnije.
 
 
-Obavezno pratite napredak vašeg PR-a. Administrator može ostaviti komentar tražeći dodatne informacije. Dok vaš PR nije validiran, možete ga pregledati u kartici `Pull requests` na PlanB Network GitHub repozitorijumu:
+Obavezno pratite napredak vašeg PR-a. Administrator može ostaviti komentar tražeći dodatne informacije. Dok vaš PR nije validiran, možete ga pregledati u kartici `Pull requests` na Plan ₿ Academy GitHub repozitorijumu:
 
 ![project](assets/45.webp)
 

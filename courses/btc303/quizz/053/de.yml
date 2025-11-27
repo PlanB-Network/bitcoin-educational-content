@@ -1,0 +1,8 @@
+question: Was unterscheidet die Sicherheitsannahmen von Bitcoin von denen traditioneller physischer Sicherheitssysteme wie Gebäuden?
+answer: Bitcoin muss alle bekannten Schwachstellen beheben, da Online-Angreifer anonym sind und jede Schwachstelle ausnutzen werden
+wrong_answers:
+  - Bitcoin stützt sich auf mathematische Beweise, während Gebäude von physischen Barrieren und Strafverfolgung abhängen
+  - "Die Sicherheit von Bitcoin basiert auf wirtschaftlichen Anreizen, während Gebäude durch sichtbare Sicherheitsmaßnahmen abschrecken"
+  - Bitcoin verwendet kryptografische Signaturen zum Schutz, während Gebäude auf Zugangskontroll- und Überwachungssysteme angewiesen sind
+explanation: |
+  Der entscheidende Unterschied besteht darin, dass Online-Systeme wie Bitcoin mit anonymen Angreifern konfrontiert sind, die unweigerlich jede bekannte Schwachstelle ausnutzen werden, im Gegensatz zu physischen Systemen, bei denen wir ein gewisses Risiko in Kauf nehmen können, weil die Täter identifiziert und strafrechtlich verfolgt werden können. Wie Andrew Poelstra feststellte, haben wir online nicht den Luxus der Abschreckung durch die Strafverfolgungsbehörden - wenn es möglich ist, das System nachteilig zu beeinflussen, werden anonyme Akteure dies tun. Dies zwingt Bitcoin dazu, alle Schwachstellen zu beseitigen, anstatt kalkulierte Risiken in Kauf zu nehmen.

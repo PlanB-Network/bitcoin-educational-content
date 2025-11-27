@@ -1,0 +1,8 @@
+question: Enligt det diskuterade ramverket för ansvarsfullt avslöjande, vad är det främsta skälet till att utvecklare undviker att omedelbart patcha icke-kritiska sårbarheter i Bitcoin Core?
+answer: För att förhindra att själva korrigeringen avslöjar sårbarhetens natur innan en utbredd distribution sker
+wrong_answers:
+  - För att ge tillräckligt med tid för altcoin-utvecklare att implementera sina egna oberoende korrigeringar först
+  - För att möjliggöra omfattande tester i olika mining-pooler innan säkerhetsuppdateringar släpps
+  - För att bibehålla bakåtkompatibilitet med äldre nodversioner som inte kan hantera nödpatchar
+explanation: |
+  Det korrekta svaret belyser en viktig paradox i säkerhetsuppdateringar: själva korrigeringen kan avslöja sårbarheten. Kapitlet betonar att utvecklare måste dölja korrigeringar noggrant eftersom publicering av dem omedelbart kan avslöja sårbarheten för angripare innan de flesta noder är skyddade. De felaktiga svaren, även om de är rimliga, ger en felaktig bild av prioriteringarna: anmälan av altcoin sker efter Bitcoin-nätverksdistributionen, mining-pooltestning är inte det primära problemet för icke-kritiska frågor och bakåtkompatibilitet driver inte tidpunkten för säkerhetsuppdateringar.

@@ -514,7 +514,7 @@ Bitcoin Core 的开发遵循 "任人唯贤" 的逻辑：鼓励新的贡献者在
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### 不可监控的交易
 
@@ -574,7 +574,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-掌握这些知识可以增强您对工具的信心，减少出错或受骗的风险。自己编织绳结也是一种学习方式。
+掌握这些知识可以增强您对工具的信心，并减少出错或遭遇诈骗的风险。运行自己的节点也是一种学习过程。
 
 
 
@@ -863,11 +863,11 @@ Nakamoto, S. (2008). *Bitcoin：A Peer-to-Peer Electronic Cash System.*。https:
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots（主要替代客户）
+#### Bitcoin Knots（主要替代客户端）
 
 
 
@@ -884,7 +884,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e
 - **政策**：有些人出于非技术原因喜欢使用 Knots 等替代客户端，主要是为了支持 Core 的替代方案，从而减少 Core 的垄断。如果 Core 遭到破坏，那么不仅要有可靠、维护良好的替代客户端，还要知道如何有效利用它们。还有一些人使用 Knots 是出于抗议目的，因为他们对 Core 开发人员失去了信心，或者不赞成客户端的大多数管理人员。
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 我个人建议您选择 Core，主要是为了更快地从安全补丁中受益。事实上，Knots 中发现的一些漏洞迟迟得不到修正。更广泛地说，Core 的开发过程结构稳固，得到了大量贡献者的支持，而 Knots 仅由一个人维护，社区规模小得多。另一方面，中继规则在今天往往会失去其效用，尤其是当只有极少数网络应用时（如渗流理论）。
 
@@ -940,7 +940,7 @@ Umbrel 于 2020 年推出，当时只是一个简单的 Bitcoin 节点和一些�
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ### Start9（StartOS）
 
@@ -966,7 +966,7 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 ### MyNode
 
@@ -984,7 +984,7 @@ https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 
 
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
 ### RaspiBlitz
 
@@ -1002,7 +1002,7 @@ https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112c
 
 
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
 ### RoninDojo
 
@@ -1024,7 +1024,7 @@ https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-
 
 
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ### Nodl
 
@@ -1562,7 +1562,7 @@ Umbrel 的代码是公开的（您可以查看、创造分叉和修改它），�
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 如上一节所述，我选择在一台价格便宜的小型翻新电脑上运行本教程：*Lenovo ThinkCentre M900 Tiny*，配备 Intel Core i7 处理器和 16GB 内存。对于运行 Umbrel（尤其是比特币节点）来说，这是一个非常舒适的配置。不过，我之所以选择这个配置，是因为我想在后面安装一个闪电节点和其他要求更高的应用程序。我还为我的 ThinkCentre 增加了一个 2TB SSD，以保留完整的区块链并仍有舒适的余量。在这种配置下，总成本为 270 欧元，包括所有相关费用。
 
@@ -1816,7 +1816,7 @@ http://192.168.1.42
 
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 
 
@@ -1858,9 +1858,9 @@ hostname -I
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 输入密码后，请点击 "*Create*" 按钮。
 
@@ -1938,7 +1938,7 @@ Umbrel 的页面非常易于理解：
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 为此，请单击设置中的相应方框。
 
@@ -2428,7 +2428,7 @@ Umbrel 提供广泛的应用程序商店。正如您所看到的，这里有许�
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 此外，您的互联网服务提供商（ISP）可能知道您正在通过区块浏览器网站查看某项交易。这也提出了一个信任问题：您必须依赖在线服务为您提供准确的交易信息，而无法亲自验证其真实性。
 
@@ -2465,7 +2465,7 @@ Umbrel 提供多种区块探索器：
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### 闪电节点
 
@@ -2485,15 +2485,15 @@ Umbrel 提供大量应用程序，帮助您启动和运行您的闪电节点。�
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 然后，您可以从主页中管理您的节点，或者安装 *Ride The Lightning* 或 *ThunderHub* 以获得更多功能和高级选项。这些工具将为您的节点提供更全面的基于网络的页面管理系统。
 
 
 
-https://planb.network/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
+https://planb.academy/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
 
-https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
+https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
 
 ![Image](assets/fr/088.webp)
 
@@ -2557,7 +2557,7 @@ https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-
 
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### Nostr
 
@@ -2591,7 +2591,7 @@ Nostr 客户端 ***noStrudel*** 或 ***Snort*** 也可在 Umbrel 上使用。有
 
 
 
-https://planb.network/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
+https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
 
 ### BTCPay Server
 
@@ -2619,7 +2619,7 @@ BTCPay Server 的架构基于比特币节点，对于闪电网络来说，则基
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
@@ -2627,7 +2627,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
@@ -2635,7 +2635,7 @@ https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 # 高级概念和最佳实践
@@ -2744,7 +2744,7 @@ Umbrel 还提供通过 Tor 在其服务器上自动动态备份 SCB 的选项，
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### 诊断和自助
 
@@ -3069,7 +3069,7 @@ UTXO 集的增长还源于比特币上简单支付交易的结构。事实上，
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 由于用户必须将其中的一部分保存在 RAM 中才能在合理的时间内验证交易，UTXO 集可能会逐渐导致全节点的运行成本变得过高。一些建议已出现以解决这个问题，特别是 [Utreexo](https://planb.network/resources/glossary/utreexo)。
 
@@ -3894,7 +3894,7 @@ Bitcoin Core 的配置文件还允许您调整与机器相关的参数。如果�
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 # 最后部分

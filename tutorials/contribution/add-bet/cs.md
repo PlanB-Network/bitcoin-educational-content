@@ -1,27 +1,27 @@
 ---
 name: Přidání vzdělávacích nástrojů
-description: Jak přidat nové vzdělávací materiály na PlanB Network?
+description: Jak přidat nové vzdělávací materiály na Plan ₿ Academy?
 ---
 ![event](assets/cover.webp)
 
 Mise PlanB je poskytovat přední vzdělávací zdroje o Bitcoinu v co nejvíce jazycích. Veškerý obsah publikovaný na webu je open-source a hostovaný na GitHubu, což umožňuje každému podílet se na obohacování platformy.
 
-Kromě tutoriálů a školení nabízí PlanB Network také rozsáhlou knihovnu různorodého vzdělávacího obsahu o Bitcoinu, přístupného všem, [v sekci "BET" (_Bitcoin Educational Toolkit_) ](https://planb.network/resources/bet). Tato databáze zahrnuje vzdělávací plakáty, memy, humorné propagační plakáty, technické diagramy, loga a další nástroje pro uživatele. Cílem této iniciativy je podporovat jednotlivce a komunity vyučující o Bitcoinu po celém světě tím, že jim poskytne potřebné vizuální zdroje.
+Kromě tutoriálů a školení nabízí Plan ₿ Academy také rozsáhlou knihovnu různorodého vzdělávacího obsahu o Bitcoinu, přístupného všem, [v sekci "BET" (_Bitcoin Educational Toolkit_) ](https://planb.academy/resources/bet). Tato databáze zahrnuje vzdělávací plakáty, memy, humorné propagační plakáty, technické diagramy, loga a další nástroje pro uživatele. Cílem této iniciativy je podporovat jednotlivce a komunity vyučující o Bitcoinu po celém světě tím, že jim poskytne potřebné vizuální zdroje.
 
 Chcete se podílet na obohacování této databáze, ale nevíte jak? Tento tutoriál je pro vás!
 
-*Je nezbytné, aby veškerý obsah začleněný na web byl bez autorských práv nebo respektoval licenci zdrojového souboru. Také všechny vizuály publikované na PlanB Network jsou k dispozici pod licencí [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).*
+*Je nezbytné, aby veškerý obsah začleněný na web byl bez autorských práv nebo respektoval licenci zdrojového souboru. Také všechny vizuály publikované na Plan ₿ Academy jsou k dispozici pod licencí [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).*
 ![event](assets/01.webp)
 - Nejprve potřebujete mít účet na GitHubu. Pokud nevíte, jak vytvořit účet, připravili jsme podrobný tutoriál, který vás provede.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Přejděte na [GitHubový repozitář PlanB věnovaný datům](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) v sekci `resources/bet/`:
 ![event](assets/02.webp)
 - Klikněte vpravo nahoře na tlačítko `Add file`, poté na `Create new file`:
 ![event](assets/03.webp)
-- Pokud jste předtím nikdy nepřispívali k obsahu PlanB Network, budete muset vytvořit svůj fork původního repozitáře. Forknutí repozitáře znamená vytvoření kopie tohoto repozitáře na vašem vlastním účtu GitHub, což vám umožní pracovat na projektu bez ovlivnění původního repozitáře. Klikněte na tlačítko `Fork this repository`:
+- Pokud jste předtím nikdy nepřispívali k obsahu Plan ₿ Academy, budete muset vytvořit svůj fork původního repozitáře. Forknutí repozitáře znamená vytvoření kopie tohoto repozitáře na vašem vlastním účtu GitHub, což vám umožní pracovat na projektu bez ovlivnění původního repozitáře. Klikněte na tlačítko `Fork this repository`:
 ![event](assets/04.webp)
 - Poté se dostanete na stránku GitHubu pro úpravy:
 ![event](assets/05.webp)
@@ -45,9 +45,9 @@ tags:
 contributors:
   - 
 ```
-- **`project`**: Uveďte identifikátor vaší organizace na síti PlanB Network. Pokud ještě nemáte pro vaši společnost identifikátor "project", můžete si jej vytvořit podle tohoto návodu.
+- **`project`**: Uveďte identifikátor vaší organizace na síti Plan ₿ Academy. Pokud ještě nemáte pro vaši společnost identifikátor "project", můžete si jej vytvořit podle tohoto návodu.
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
  Pokud žádný nemáte, můžete jednoduše použít své jméno, pseudonym nebo název vaší společnosti, aniž byste vytvořili profil project.
 - **`type`**: Vyberte povahu vašeho obsahu z následujících dvou možností:
@@ -72,7 +72,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 Například váš YAML soubor by mohl vypadat takto:
 
 ```yaml
-project: PlanB-Network
+project: Plan ₿ Academy
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -89,7 +89,7 @@ links:
 ![event](assets/13.webp)
 - Klikněte na obrázek vašeho profilu GitHub v pravém horním rohu, poté na `Your Repositories`:
 ![event](assets/14.webp)
-- Vyberte váš fork repozitáře PlanB Network:
+- Vyberte váš fork repozitáře Plan ₿ Academy:
 ![event](assets/15.webp)
 - Na vrchu okna byste měli vidět oznámení s vaší novou větví. Pravděpodobně se jmenuje `patch-1`. Klikněte na ni:
 ![event](assets/16.webp)
@@ -105,7 +105,7 @@ links:
 - Klikněte na tlačítko `Commit changes...`: ![event](assets/22.webp)- Ponechte název commitu ve výchozím nastavení a ujistěte se, že je zaškrtnuto políčko `Commit directly to the patch-1 branch`, poté klikněte na `Commit changes`: ![event](assets/23.webp)
 - Vraťte se do složky `assets`: ![event](assets/24.webp)
 - Klikněte na tlačítko `Add file`, poté na `Upload files`: ![event](assets/25.webp)
-- Otevře se nová stránka. Přetáhněte miniaturu, která reprezentuje váš obsah, do oblasti. Tento obrázek bude zobrazen na webu PlanB Network: ![event](assets/26.webp)
+- Otevře se nová stránka. Přetáhněte miniaturu, která reprezentuje váš obsah, do oblasti. Tento obrázek bude zobrazen na webu Plan ₿ Academy: ![event](assets/26.webp)
 - Může to být náhled, logo nebo ikona: ![event](assets/27.webp)
 - Jakmile je obrázek nahrán, ujistěte se, že je zaškrtnuto políčko `Commit directly to the patch-1 branch`, poté klikněte na `Commit changes`: ![event](assets/28.webp)
 - Buďte opatrní, váš obrázek musí být pojmenován `logo` a musí být ve formátu `.webp`. Celý název souboru by tedy měl být: `logo.webp`: ![event](assets/29.webp)

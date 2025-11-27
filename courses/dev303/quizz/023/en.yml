@@ -1,0 +1,8 @@
+question: What happens to the original structure instance when you use struct update syntax with non-Copy types?
+answer: Fields that are copied become unusable in the original instance due to move semantics
+wrong_answers:
+  - The original instance remains completely unchanged and fully accessible
+  - The entire original instance is cloned, leaving both instances fully functional
+  - Only the fields you explicitly change become inaccessible in the original
+explanation: |
+  When using struct update syntax with non-Copy types, Rust's ownership system moves the copied fields from the original instance to the new one. This means those specific fields become unusable in the original instance, though fields that weren't copied remain accessible. The compiler tracks these partial moves intelligently, preventing access to moved fields while allowing continued use of unmoved fields. This behavior ensures memory safety by preventing multiple owners of the same data.

@@ -38,7 +38,7 @@ The time of spending is therefore the most critical: **spending Bitcoin is an ac
 In the Bitcoin protocol, items such as _account_ or _monetary units_ do not exist. The concept of UTXO is explained excellently in the following course, which I highly recommend:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 With Bitcoin what you accumulate and later spend are small or large units of account measured in Satoshi, represented by `unspent transaction outputs`, the **UTXO**, also called `coins`. When you use UTXOs to create a transaction, they are completely destroyed and other UTXOs are created in their place.
 
@@ -426,7 +426,7 @@ Each of the Software Wallets seen in this guide can be the watch-only interface 
 Coin control is a very effective practice for selecting your transaction inputs. Manual selection is even more efficient if, when buying/receiving your funds, you have labeled the source of your Satoshis well. If you wish to learn this technique well, I recommend the following tutorial:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 We have talked previously about `segregation of remains`. If you want to lock remnants for later processing and regain privacy (swap on Layer 2), you must take care to `label` them each time you receive one. Of the Software Wallets seen so far, only Electrum graphically colors UTXO remainders to make them visible at a glance. Others, such as Sparrow, show you the chain in the derivation path of the individual UTXO (`m/84'/0'/0'/1/11`).
 

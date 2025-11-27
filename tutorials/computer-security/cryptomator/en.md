@@ -32,7 +32,7 @@ In this demonstration, a Windows 11 22H2 machine with OneDrive will be used, but
 Cryptomator is an alternative to other applications, notably Picocrypt presented in another article, which looks different, but is equally simple to use. Cryptomator is also **open source**, RGPD compliant, and will **encrypt data with the AES-256 bit encryption algorithm**. In contrast, Picocrypt relies on the faster XChaCha20 algorithm (also 256-bit).
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 The Cryptomator application is available on **Windows** (exe / msi), **Linux**, **macOS,** but also **Android** and **iOS**. By the way, all applications are free of charge, except for the Android application, which you have to pay for (14.99 euros).
 

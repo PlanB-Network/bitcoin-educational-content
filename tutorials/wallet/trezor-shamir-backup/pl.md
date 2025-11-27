@@ -85,11 +85,11 @@ Jeśli potrzebujesz pomocy w początkowej konfiguracji urządzenia, mamy równie
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 ### Nowe portfolio
 
@@ -139,7 +139,7 @@ Aby uzyskać więcej informacji na temat właściwego sposobu zapisywania i zarz
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Na urządzeniu Trezor wybierz całkowitą liczbę udziałów, które chcesz skonfigurować. Najpopularniejsze konfiguracje to 2-de-3 i 3-de-5. W tym przykładzie utworzę konfigurację 2-de-3, więc wybiorę 3 udziały. Każdy udział będzie reprezentował 20-wyrazową frazę Mnemonic.
 
@@ -273,7 +273,7 @@ Gratulacje, jesteś teraz na bieżąco z korzystaniem z jedno- i wielostanowisko
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Jeśli uznałeś ten poradnik za przydatny, będę wdzięczny za pozostawienie kciuka Green poniżej. Zapraszam do udostępnienia tego artykułu w sieciach społecznościowych. Dziękuję bardzo!
 

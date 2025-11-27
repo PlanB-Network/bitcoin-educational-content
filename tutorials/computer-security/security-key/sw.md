@@ -14,7 +14,7 @@ Siku hizi, uthibitishaji wa vipengele viwili (2FA) umekuwa muhimu kwa ajili ya k
 Katika somo lingine, nilielezea jinsi ya kusanidi na kutumia programu ya TOTP 2FA:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Hapa, tutaona jinsi ya kutumia ufunguo halisi wa usalama kama kipengele cha pili cha uthibitishaji wa akaunti zako zote.
 

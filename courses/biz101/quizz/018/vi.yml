@@ -1,9 +1,9 @@
-question: What is one reason institutional investors and large companies have become interested in Bitcoin?
-answer: Bitcoin’s adoption by major financial players, like BlackRock and the success of Spot Bitcoin ETFs, has legitimized it as a store-of-value asset.
+question: Một lý do khiến các nhà đầu tư tổ chức và các công ty lớn quan tâm đến Bitcoin là gì?
+answer: Việc Bitcoin được các tổ chức tài chính lớn như BlackRock áp dụng và sự thành công của các ETF Spot Bitcoin đã hợp pháp hóa nó như một tài sản lưu trữ giá trị.
 wrong_answers:
-  - Bitcoin’s price is set and guaranteed by government agencies.
-  - Bitcoin transactions are fully insured by central banks.
-  - It requires no understanding of digital assets or financial regulations.
+  - Giá của Bitcoin được các cơ quan chính phủ quy định và đảm bảo.
+  - Các giao dịch Bitcoin được các ngân hàng trung ương bảo hiểm đầy đủ.
+  - Không yêu cầu hiểu biết về tài sản kỹ thuật số hoặc quy định tài chính.
 explanation: |
-  When major institutions recognize Bitcoin as a valid investment, it signals to the market that it has matured beyond speculation. Products like Spot Bitcoin ETFs make it easier for businesses to gain exposure, further driving mainstream acceptance.
-reviewed: false
+  Khi các tổ chức lớn công nhận Bitcoin là một khoản đầu tư hợp lệ, điều đó báo hiệu với thị trường rằng nó đã trưởng thành, vượt ra ngoài sự đầu cơ. Các sản phẩm như ETF Bitcoin giao ngay giúp doanh nghiệp dễ dàng tiếp cận hơn, từ đó thúc đẩy sự chấp nhận rộng rãi hơn.
+reviewed: true

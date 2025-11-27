@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste nadeel van vertrouwde financiële systemen dat Bitcoin's vertrouwensloze ontwerp wil oplossen?
+answer: De onmogelijkheid om volledig onomkeerbare transacties uit te voeren vanwege de vereisten voor geschillenbemiddeling
+wrong_answers:
+  - Het hoge energieverbruik dat nodig is voor het verwerken van elektronische betalingen via banken
+  - Het beperkte aantal transacties dat per seconde kan worden verwerkt door financiële instellingen
+  - De verplichting voor klanten om buitensporige persoonlijke identificatiedocumenten te verstrekken
+explanation: |
+  Volgens Satoshi Nakamoto in de Bitcoin whitepaper lijden traditionele financiële systemen aan de fundamentele zwakte dat volledig onomkeerbare transacties niet mogelijk zijn omdat financiële instellingen moeten bemiddelen bij geschillen. Dit creëert een cascade van problemen: hogere transactiekosten door bemiddeling, eliminatie van kleine toevallige transacties en de verspreiding van vertrouwensvereisten door het hele systeem. De andere opties, hoewel potentieel relevant voor financiële systemen, zijn niet het kernprobleem dat het vertrouwensloze ontwerp van Bitcoin specifiek aanpakt. De innovatie van Bitcoin is het mogelijk maken van definitieve vereffening zonder dat er een vertrouwde derde partij nodig is om transacties terug te draaien.

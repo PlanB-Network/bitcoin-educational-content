@@ -30,10 +30,10 @@ description: 如何恢复在Samourai Wallet上卡住的比特币？
 关于个人消费工具，只要您拥有自己的Dojo，一切都正常工作。普通的Stonewall交易（而非Stonewall x2）没有任何问题。
 
 Twitter上的评论强调了Stonewall交易提供的隐私可能现在已经减少。Stonewall交易的附加价值在于，从结构上看，它与Stonewall x2交易无法区分。当分析师遇到这种特定模式时，他们无法确定它是一个标准的Stonewall，只涉及单一用户，还是涉及两个用户的Stonewall x2。然而，正如我们将在以下段落中看到的，由于Soroban不可用，进行Stonewall x2交易变得更加复杂。因此，有些人认为，分析师现在可能会假设任何具有此结构的交易都是普通的Stonewall。个人而言，我不同意这个假设。尽管Stonewall x2交易可能较少（我认为在这次事件之前它们已经较少了），但它们仍然可能的事实可以使基于它们不存在的假设的整个分析无效。
-**[-> 了解更多关于Stonewall交易的信息。](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
+**[-> 了解更多关于Stonewall交易的信息。](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 关于Ricochet，由于我没有在Testnet上拥有Dojo，我无法验证该服务是否仍在运行，我不愿意冒险花费`100 000 sats`向可能被当局控制的钱包发送。如果您最近有机会测试这个工具，我邀请您与我联系，以便我们更新这篇文章。
 
-如果您需要使用Ricochet，请注意，您仍然可以使用任何钱包软件手动执行此操作。要了解如何正确手动执行各种跳转，我推荐查阅另一篇文章：[**RICOCHET**](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)。
+如果您需要使用Ricochet，请注意，您仍然可以使用任何钱包软件手动执行此操作。要了解如何正确手动执行各种跳转，我推荐查阅另一篇文章：[**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589)。
 
 JoinBot工具不再运行，因为它完全依赖于由Samourai管理的钱包的参与。
 
@@ -44,9 +44,9 @@ JoinBot工具不再运行，因为它完全依赖于由Samourai管理的钱包�
 经过几次测试，Soroban似乎不再运行。要执行这些协作交易，因此必须手动进行数据交换。这里有两个执行此交换的选项：
 - 如果您与您的合作者身处近距离，您可以连续扫描二维码；
 - 如果您与合作者距离较远，可以通过应用程序外的通信渠道交换PSBTs。但是，请小心，因为这些PSBTs中包含的数据在隐私方面非常敏感。我建议使用加密的消息服务来确保交换的保密性。
-**[-> 了解更多关于Stonewall x2交易的信息。](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
+**[-> 了解更多关于Stonewall x2交易的信息。](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
-**[-> 了解更多关于Stowaway交易的信息。](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
+**[-> 了解更多关于Stowaway交易的信息。](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 至于Whirlpool，该协议似乎不再起作用，即使是对于拥有自己Dojo的用户也是如此。这几天我一直在监控我的RoninDojo，并尝试了一些基本操作，但自服务器关闭以来，Whirlpool CLI就无法连接了。
 
@@ -146,7 +146,7 @@ Sparrow接下来会派生你钱包的密钥并搜索相应的交易。
 - 预混：`m/84'/0'/2147483645'`
 - 后混：`m/84'/0'/2147483646'`
 
-你现在可以在Sparrow上访问你的比特币了。如果你需要帮助使用Sparrow Wallet，你也可以查看[我们的专门教程](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)。
+你现在可以在Sparrow上访问你的比特币了。如果你需要帮助使用Sparrow Wallet，你也可以查看[我们的专门教程](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)。
 
 我还建议手动导入你在Samourai上与你的UTXOs关联的标签。这将允许你随后在Sparrow上进行有效的硬币控制。
 
@@ -202,7 +202,7 @@ Sparrow接下来将为你的钱包派生密钥，并搜索相应的交易。
 - 预混：`m/84'/0'/2147483645'`
 - 后混：`m/84'/0'/2147483646'`
 
-你现在可以在Sparrow上访问你的比特币了。如果你需要帮助使用Sparrow Wallet，你也可以查阅[我们的专用教程](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)。
+你现在可以在Sparrow上访问你的比特币了。如果你需要帮助使用Sparrow Wallet，你也可以查阅[我们的专用教程](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)。
 
 我还建议手动导入你在Samourai上与你的UTXOs关联的标签。这将允许你随后在Sparrow上进行有效的硬币控制。
 

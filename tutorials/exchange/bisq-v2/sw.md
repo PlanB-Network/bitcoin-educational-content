@@ -11,7 +11,7 @@ description: Mwongozo kamili wa kutumia Bisq 2 na kubadilishana bitcoins P2P
 Mabadilishano ya bure ya KYC-kwa-rika (P2P) ni muhimu kwa kuhifadhi usiri na uhuru wa kifedha wa watumiaji. Huwezesha miamala ya moja kwa moja kati ya watu binafsi bila hitaji la uthibitishaji wa utambulisho, ambao ni muhimu kwa wale wanaothamini ufaragha. Kwa ufahamu wa kina zaidi wa dhana za kinadharia, angalia kozi ya BTC204:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Bisq 2 ni nini?
 
@@ -31,7 +31,7 @@ Bisq 2 ni toleo jipya la Bisq Exchange maarufu iliyogatuliwa, iliyozinduliwa mwa
 - Mfumo wa jukumu na amana ya lazima katika BSQ
 
 
-Mwongozo huu unalenga pekee kwenye "Bisq Easy", itifaki pekee inayopatikana kwa sasa. Bisq Easy imeundwa mahususi kwa watumiaji wapya wa Bitcoin. Itifaki hii inawawezesha watumiaji kununua na kuuza Bitcoins dhidi ya sarafu za sarafu kwenye jukwaa lililogatuliwa la rika-kwa-rika. Shughuli za malipo ni sawa na dola 600 (na kiwango cha chini cha 6 USD), na usalama wa Exchange unategemea sifa ya wauzaji wa BTC. Bisq Easy haina ada za biashara au mahitaji ya amana ya usalama. Bisq Easy inatarajiwa kuchukua nafasi ya Bisq 1 kwa ubadilishanaji wa pesa chini ya 600 USD (au sawa).
+Mwongozo huu unalenga pekee kwenye "Bisq Easy", itifaki pekee inayopatikana kwa sasa. Bisq Easy imeundwa mahsusi kwa watumiaji wapya wa Bitcoin. Itifaki hii inawawezesha watumiaji kununua na kuuza bitcoin dhidi ya sarafu za fiat kwenye jukwaa la wenzao lililo desentralizwa. Miamala imezuiliwa kwa sawa ya USD 600 (ikiwa na kiwango cha chini cha USD 6), na usalama wa biashara unategemea sifa ya wauzaji wa BTC. Bisq Easy haina ada za biashara wala mahitaji ya amana ya dhamana. Inatarajiwa kuwa Bisq Easy itachukua nafasi ya Bisq 1 kwa biashara za fiat chini ya USD 600 (au sawa na hiyo).
 
 
 **Sifa kuu:**
@@ -84,7 +84,7 @@ Mwongozo huu unalenga pekee kwenye "Bisq Easy", itifaki pekee inayopatikana kwa 
 - Mtayarishi wa ofa anafafanua masharti ya Exchange
 - Mara tu wafanyabiashara wamekubaliana juu ya masharti (mbinu ya malipo na bei), Exchange huanza
 - Muuzaji hutuma maelezo yake ya benki kwa mnunuzi, na mnunuzi hutuma Bitcoin Address yake kwa muuzaji.
-- Mnunuzi hufanya malipo kwa pesa taslimu na kumjulisha muuzaji
+- Mnunuzi anafanya malipo kwa sarafu ya fiat na kumjulisha muuzaji
 - Mara tu malipo yamepokelewa, muuzaji hutuma bitcoins kwa Address ya mnunuzi
 - Exchange imekamilika wakati mnunuzi anapokea bitcoins
 
@@ -117,7 +117,7 @@ Mwongozo huu unalenga pekee kwenye "Bisq Easy", itifaki pekee inayopatikana kwa 
 - Thibitisha uhalisi wa faili iliyopakuliwa (inapendekezwa sana). Kwa mwongozo wa kina wa uthibitishaji sahihi, angalia mafunzo yafuatayo:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Ufungaji kulingana na mfumo wako
 

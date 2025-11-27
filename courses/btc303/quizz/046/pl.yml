@@ -1,0 +1,8 @@
+question: Co sprawia, że systemy online, takie jak Bitcoin, zasadniczo różnią się od systemów fizycznych, jeśli chodzi o zagrożenia ze strony przeciwników?
+answer: Systemy online muszą stawić czoła pseudonimowym i anonimowym przeciwnikom, którzy mogą wykorzystać każdą słabość bez bycia widocznym lub złapanym
+wrong_answers:
+  - Systemy online mają bardziej złożone algorytmy kryptograficzne, które są trudniejsze do przeanalizowania pod kątem luk w zabezpieczeniach
+  - Systemy fizyczne mogą być chronione przez organy ścigania, podczas gdy systemy online opierają się wyłącznie na dowodach matematycznych
+  - Systemy online szybciej przetwarzają transakcje, ułatwiając przeciwnikom przeprowadzanie skoordynowanych ataków
+explanation: |
+  Kluczową różnicą podkreśloną przez Andrew Poelstra jest to, że systemy fizyczne mogą polegać na egzekwowaniu prawa i widoczności przeciwników w celu powstrzymania ataków, nawet akceptując pewne ryzyko, takie jak spalenie budynków. Jednak systemy online, takie jak Bitcoin, działają w środowisku, w którym przeciwnicy mogą działać pseudonimowo lub anonimowo, łączyć się z dowolnego miejsca i wykorzystywać słabości bez bycia zidentyfikowanym lub złapanym. Ta fundamentalna różnica oznacza, że należy zająć się wszystkimi znanymi słabościami Bitcoin, ponieważ nieuchronnie zostaną one wykorzystane przez niewidzialnych przeciwników, którzy nie poniosą żadnych konsekwencji w świecie rzeczywistym.

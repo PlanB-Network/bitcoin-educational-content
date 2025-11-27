@@ -1,0 +1,8 @@
+question: Když se těžaři připojují k poolům mining s větší šířkou pásma a konektivitou, aby se vyhnuli zastaralým blokům v obdobích zvýšené velikosti bloků, jaký je hlavní negativní důsledek pro síť Bitcoin?
+answer: Snižuje decentralizaci mining, protože menší těžaři jsou tlačeni k větším poolům s lepší infrastrukturou
+wrong_answers:
+  - Zvyšuje výpočetní náročnost operací mining a znesnadňuje řešení bloků
+  - Vytváří další transakční poplatky, které je třeba platit za udržení síťové konektivity
+  - Snižuje celkovou hashovací rychlost sítě, protože těžaři vynakládají prostředky na připojení místo na mining
+explanation: |
+  V kapitole je vysvětleno, že při zvětšování velikosti bloků se prodlužuje doba šíření, což vede k většímu počtu zastaralých bloků. Aby těžaři nepřišli o odměny za neaktuální bloky, hledají pooly s lepší šířkou pásma a konektivitou. To tlačí těžaře k větším, dobře propojeným poolům, což snižuje decentralizaci mining. Ostatní možnosti jsou nesprávné: obtížnost se upravuje automaticky bez ohledu na konektivitu poolu, náklady na konektivitu nevytvářejí dodatečné transakční poplatky a těžaři nesnižují hash rate, když se připojují k lépe připojeným poolům.

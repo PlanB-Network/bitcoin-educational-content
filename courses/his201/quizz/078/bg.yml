@@ -1,0 +1,9 @@
+question: На кого Satoshi Nakamoto прехвърли контрола върху уебсайта (включително форума и уикито) при напускането си?
+answer: Martti Malmi
+wrong_answers:
+  - Гавин Андресен
+  - Hal Finney
+  - Майк Хърн
+explanation: |
+  Той нямаше време да я управлява и бързо делегира задачата. Сайтът и форумът бяха поети от Theymos и Cøbra.
+reviewed: true

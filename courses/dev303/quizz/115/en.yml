@@ -1,0 +1,8 @@
+question: What critical problem does the Breeze SDK's just-in-time channel mechanism solve that traditional Lightning implementations struggle with?
+answer: It automatically creates new channels with sufficient inbound liquidity when payments arrive, eliminating the need for users to manually manage channel capacity
+wrong_answers:
+  - It prevents channel force-closures by automatically rebalancing funds across multiple channels when one becomes unresponsive or goes offline
+  - It reduces transaction fees by batching multiple small payments into larger channel operations that are processed during off-peak network hours
+  - It eliminates the need for watchtower services by creating temporary channels that automatically expire after successful payment completion
+explanation: |
+  The just-in-time channel mechanism specifically addresses Lightning's liquidity management challenge where funds can only flow in directions where capacity exists. When a user needs to receive a payment but lacks sufficient inbound liquidity, the LSP automatically opens a new channel at the moment the payment arrives, happening seamlessly without user intervention. The wrong answers describe other Lightning challenges but not the specific liquidity problem that just-in-time channels solve.

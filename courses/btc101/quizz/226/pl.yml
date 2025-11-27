@@ -1,8 +1,8 @@
-question: Jaki jest główny cel Lightning Network?
-answer: Aby ułatwić mikrotransakcje.
+question: Jaki jest główny cel sieci Lightning?
+answer: Ułatwienie mikrotransakcji.
 wrong_answers:
-  - Aby zwiększyć wartość Bitcoin.
-  - Aby zastąpić protokół Bitcoin.
-  - Aby utworzyć nową kryptowalutę.
+  - Zwiększenie wartości bitcoina.
+  - Zastąpienie protokółu Bitcoin.
+  - Utworzenie nowej kryptowaluty.
 explanation: >-
 reviewed: true

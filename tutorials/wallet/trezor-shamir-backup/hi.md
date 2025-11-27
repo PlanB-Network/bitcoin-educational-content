@@ -85,11 +85,11 @@ SLIP39 इस योजना का उपयोग seed पोर्टफो�
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 ### नये पोर्टफोलियो पर
 
@@ -139,7 +139,7 @@ https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ट्रेज़र पर, उन शेयरों की कुल संख्या चुनें जिन्हें आप कॉन्फ़िगर करना चाहते हैं। सबसे आम कॉन्फ़िगरेशन 2-डी-3 और 3-डी-5 हैं। इस उदाहरण के लिए, मैं 2-डी-3 बनाऊँगा, इसलिए मैं 3 शेयर चुनूँगा। प्रत्येक शेयर 20-शब्द Mnemonic वाक्यांश का प्रतिनिधित्व करेगा।
 
@@ -273,7 +273,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 अगर आपको यह ट्यूटोरियल उपयोगी लगा, तो मैं आभारी रहूंगा यदि आप नीचे Green थंब छोड़ दें। इस लेख को अपने सोशल नेटवर्क पर शेयर करने के लिए स्वतंत्र महसूस करें। आपका बहुत-बहुत धन्यवाद!
 

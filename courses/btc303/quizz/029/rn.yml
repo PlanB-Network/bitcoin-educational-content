@@ -1,0 +1,8 @@
+question: Dushingiye ku biharuro vya Pieter Wuille, ni igitigiri kingana iki c’ivyiyumviro vy’agaciro ka Bitcoin kizokwigera kibaho iyo ibiceri vyose bimaze gucukurwa?
+answer: 20.999.999,9769 BTC
+wrong_answers:
+  - 21.000.000.0000 BTC nyavyo
+  - 20.999.817,3131 BTC
+  - 20.500.000.0000 BTC hafi
+explanation: |
+  Pieter Wuille yaharuye ko igitigiri c’amahera yo gutanga ari 20.999.999,9769 BTC, kikaba ari gitoyi cane kuruta imiliyoni 21 zivugwa cane. Ivyo biva ku rutonde rwihariye rwo guca ibice n’ugukikuza mu kode ya Bitcoin. Ico kigereranyo c’imiliyoni 21 ni ikigereranyo c’ibintu bizunguruka. Igitigiri ca 20.999.817.3131 kigereranya ivy’ukuri bigendagenda inyuma yo guharura ibiceri vyatakaye n’amakosa ya mining gushika ku gice kinaka, atari igiharuro c’ivyigwa.

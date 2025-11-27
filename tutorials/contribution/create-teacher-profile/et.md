@@ -1,22 +1,22 @@
 ---
-name: Professor Plan ₿ Network
-description: Kuidas lisada või muuta oma õpetaja profiili Plan ₿ Network-s?
+name: Professor Plan ₿ Academy
+description: Kuidas lisada või muuta oma õpetaja profiili Plan ₿ Academy-s?
 ---
 ![cover](assets/cover.webp)
 
-Kui kavatsete Plan ₿ Network-sse panustada uue õpetuse või kursuse kirjutamisega, vajate õpetaja profiili. See profiil võimaldab teil saada asjakohaseid ainepunkte platvormile panustatava sisu eest.
+Kui kavatsete Plan ₿ Academy-sse panustada uue õpetuse või kursuse kirjutamisega, vajate õpetaja profiili. See profiil võimaldab teil saada asjakohaseid ainepunkte platvormile panustatava sisu eest.
 
-Need, kes on juba osalenud Plan ₿ Network haridusliku sisu loomisel, on tõenäoliselt juba õpetaja profiili kasutanud. Selle leiate kaustast `/professors` [meie GitHubi repositooriumis](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Kui teie profiil on juba olemas, leidke oma kasutajanimi failist `professor.yml`.
+Need, kes on juba osalenud Plan ₿ Academy haridusliku sisu loomisel, on tõenäoliselt juba õpetaja profiili kasutanud. Selle leiate kaustast `/professors` [meie GitHubi repositooriumis](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Kui teie profiil on juba olemas, leidke oma kasutajanimi failist `professor.yml`.
 
 Oma profiili muutmiseks minge käesoleva õpetuse lõpus asuvasse jaotisse "Oma õpetaja profiili muutmine".
 
 ## Lisage uus õpetaja meie tarkvara abil
 
-Kõige lihtsam viis oma õpetaja profiili loomiseks Plan ₿ Network-s on kasutada meie integreeritud Pythoni tööriista. See toimib järgmiselt.
+Kõige lihtsam viis oma õpetaja profiili loomiseks Plan ₿ Academy-s on kasutada meie integreeritud Pythoni tööriista. See toimib järgmiselt.
 
 ### 1 - Kohaliku keskkonna konfigureerimine
 
-Teil peab olema oma Fork [Plan ₿ Network repositoorium GitHubis](https://github.com/PlanB-Network/Bitcoin-educational-content).
+Teil peab olema oma Fork [Plan ₿ Academy repositoorium GitHubis](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 Sünkroniseeri oma Fork põhiharu (`dev`) allikarepositooriumiga.
 
@@ -67,7 +67,7 @@ Seejärel käivitage tarkvara käsuga:
 python3 main.py
 ```
 
-Avaleheküljel sisestage oma repositooriumi klooni kohalik tee, keel, milles kirjutate, ja oma GitHubi ID. Kui loote selle profiili kellegi teise jaoks ja teil on juba olemas professori profiil, sisestage oma ID väljale "*PBN professori ID*". Kui te loote oma profiili, siis ei ole teil veel professori ID-d, sest te olete selle loomisel, seega jätke see väli tühjaks.
+Avaleheküljel sisestage oma repositooriumi klooni kohalik tee, keel, milles kirjutate, ja oma GitHubi ID. Kui loote selle profiili kellegi teise jaoks ja teil on juba olemas professori profiil, sisestage oma ID väljale "*Plan ₿ Academy professori ID*". Kui te loote oma profiili, siis ei ole teil veel professori ID-d, sest te olete selle loomisel, seega jätke see väli tühjaks.
 
 Seejärel klõpsake nupule "*Uus professor*".
 
@@ -118,8 +118,8 @@ Kui olete Giti kasutamist omandanud, muutke oma õpetaja profiili, luues uue har
 
 Algajatele soovitan teha muudatused otse GitHubi Interface veebi kaudu. Veenduge, et teil on GitHubi konto. Kui te ei tea, kuidas seda luua, järgige seda õpetust:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Mine [Plan ₿ Network GitHubi andmehoidla, mis on pühendatud andmetele](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+Mine [Plan ₿ Academy GitHubi andmehoidla, mis on pühendatud andmetele](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
 
 ![Image](assets/fr/03.webp)
 
@@ -137,7 +137,7 @@ Kui olete failil, mida soovite muuta, klõpsake pliiatsi ikoonil.
 
 ![Image](assets/fr/06.webp)
 
-Kui teil ei ole veel Fork repositooriumist Plan ₿ Network, soovitab GitHub teil selle luua. Klõpsake "*Fork see repositoorium*".
+Kui teil ei ole veel Fork repositooriumist Plan ₿ Academy, soovitab GitHub teil selle luua. Klõpsake "*Fork see repositoorium*".
 
 ![Image](assets/fr/07.webp)
 
@@ -151,17 +151,17 @@ Sisestage oma muudatust kirjeldav sõnum ja valige seejärel "*Muudatuste esitam
 
 Kuvatakse teie muudatuste kokkuvõte. Kui soovite oma profiili veel muudatusi teha, saate kaustadesse tagasi pöörduda ja teha edasisi kinnitusi. Kui olete lõpetanud, klõpsake "*Create pull request*".
 
-Pull Request on taotlus, mis on tehtud teie haru muudatuste integreerimiseks Plan ₿ Network repositooriumi põhiharusse, võimaldades muudatuste läbivaatamist ja arutamist enne nende ühendamist.
+Pull Request on taotlus, mis on tehtud teie haru muudatuste integreerimiseks Plan ₿ Academy repositooriumi põhiharusse, võimaldades muudatuste läbivaatamist ja arutamist enne nende ühendamist.
 
 ![Image](assets/fr/10.webp)
 
-Veenduge, et Interface tipus on teie tööharu ühendatud Plan ₿ Network repositooriumi `dev` haruga (mis on peamine haru).
+Veenduge, et Interface tipus on teie tööharu ühendatud Plan ₿ Academy repositooriumi `dev` haruga (mis on peamine haru).
 
 Sisestage pealkiri, mis võtab lühidalt kokku muudatused, mida soovite allikarepositooriumiga ühendada. Lisage lühike kommentaar, mis kirjeldab neid muudatusi, seejärel klõpsake nupule Green "*Create pull request*", et kinnitada pull request:
 
 ![Image](assets/fr/11.webp)
 
-Seejärel on teie PR nähtav Plan ₿ Network peamise repositooriumi vahekaardil "*Pull Request*". Nüüd peate vaid ootama, et administraator teie muudatuse ühendaks.
+Seejärel on teie PR nähtav Plan ₿ Academy peamise repositooriumi vahekaardil "*Pull Request*". Nüüd peate vaid ootama, et administraator teie muudatuse ühendaks.
 
 ![Image](assets/fr/12.webp)
 

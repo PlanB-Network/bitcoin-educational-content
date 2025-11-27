@@ -18,7 +18,7 @@ Bitcoin-ekosysteemissä Satoshi:n Wallet on suositeltava Wallet Lightning-maksuj
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Helpottaakseen Bitcoin:n käyttöönottoa yhteisöissä eri puolilla maailmaa Satoshi:n Wallet on perustanut myös myyntipisteen, joka kannustaa käyttäjiä löytämään todistetusti käyttökohteen omassa yhteisössään: ostamaan ja myymään tavaroita ja palveluja Bitcoin:lla.
 
@@ -174,16 +174,16 @@ Sinulla on nyt työkalu, jolla voit hyväksyä Bitcoin:n yrityksessäsi muutamas
 
 
 
-https://planb.network/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
+https://planb.academy/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
 
 Jos etsit täydellistä PoS-palvelua, joka sopii pienille ja keskisuurille yrityksille, suosittelen myös Swiss Bitcoin Pay -järjestelmää:
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Löydät lopuksi täydellisen koulutuskurssimme, jolla opit Bitcoin-maksamisen ja kassavirran perusteet yrityksille:
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

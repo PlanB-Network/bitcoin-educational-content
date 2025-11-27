@@ -36,7 +36,7 @@ Jade Plus совместим с большинством программ для
 
 В этом руководстве мы настроим и используем Jade Plus с мобильным приложением Green Wallet от Blockstream через Bluetooth-соединение. Эта настройка идеально подходит для новичков. Если вы ищете более продвинутый подход, я рекомендую вам взглянуть на это руководство, где мы используем Jade Plus с кошельком Sparrow Wallet в режиме QR-кодов:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 ## Модель безопасности Jade Plus
 
@@ -109,7 +109,7 @@ https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-
 
 Для получения более подробной информации о том, как правильно сохранять и управлять мнемоническими фразами, я настоятельно рекомендую ознакомиться с другими уроками, особенно если вы новичок:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Очевидно, что вы никогда не должны делиться этими словами в Интернете, как это делаю я в этом учебнике. Этот образец портфолио будет использоваться только на Testnet и будет удален по окончании урока**
 
@@ -125,11 +125,11 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 В этом руководстве мы будем использовать приложение Green Wallet для управления кошельком, размещенным на Jade Plus. Этот метод особенно подходит для новичков. Если вы хотите управлять кошельком Bitcoin более детально, вы также можете использовать Sparrow Wallet, о котором мы расскажем в отдельном руководстве:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 Инструкции по установке и настройке приложения Blockstream Green приведены в первой части этого руководства:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 Оказавшись в приложении Blockstream Green, нажмите на кнопку "*Сконфигурировать новый портфель*".
 
@@ -207,7 +207,7 @@ PIN-код разблокирует ваш нефрит. Таким образо
 
 Для получения дополнительной информации об опции "*2FA*" вы можете прочесть это руководство:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Ваша учетная запись создана.
 
@@ -233,7 +233,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c2
 
 Прежде чем вы получите первые биткоины в свой кошелек, **я настоятельно рекомендую вам провести тест на восстановление пустого кошелька**. Запишите какую-нибудь справочную информацию, например, адрес xpub или адрес первого получения, затем удалите кошелек в приложении Green и на Jade Plus, пока он еще пуст (`Опции -> Устройство -> Сброс к заводским настройкам`). Затем попробуйте восстановить кошелек, используя бумажные резервные копии мнемонической фразы. Проверьте, совпадает ли информация cookie, полученная после восстановления, с той, которую вы записали изначально. Если совпадает, то вы можете быть уверены в надежности ваших бумажных резервных копий. Чтобы узнать больше о том, как провести тестовое восстановление, обратитесь к другому руководству:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Получение биткоинов
 
@@ -299,6 +299,6 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 Чтобы сделать еще один шаг вперед, я рекомендую этот учебник по Jade Plus, где мы настраиваем его с помощью программного обеспечения Sparrow Wallet в режиме QR. Вы также узнаете, как использовать расширенные настройки аппаратного кошелька:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 

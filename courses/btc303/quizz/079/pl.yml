@@ -1,0 +1,8 @@
+question: Zgodnie z ramami odpowiedzialnego ujawniania informacji, jaki jest główny strategiczny powód dostarczania deweloperom altcoinów łatek na luki dopiero po tym, jak poprawki zostaną szeroko wdrożone w sieci Bitcoin?
+answer: Aby uniemożliwić atakującym wykorzystanie tej samej luki w Bitcoin, podczas gdy altcoiny są łatane
+wrong_answers:
+  - "Aby utrzymać przewagę konkurencyjną Bitcoin nad alternatywnymi implementacjami kryptowalut"
+  - Aby zapewnić deweloperom altcoinów wystarczająco dużo czasu na zrozumienie i prawidłowe wdrożenie poprawek
+  - Aby uniknąć kwestii odpowiedzialności prawnej, które mogłyby wyniknąć z przedwczesnego ujawnienia informacji o projektach stron trzecich
+explanation: |
+  Strategia czasowa odzwierciedla podejście oparte na bezpieczeństwie, w którym sieć Bitcoin musi być chroniona przed udzieleniem pomocy innym. Gdyby altcoiny zostały powiadomione jednocześnie, atakujący mogliby zbadać implementacje altcoinów lub wykorzystać je, aby zrozumieć lukę, a następnie potencjalnie zaatakować węzły Bitcoin, które nie zostały jeszcze zaktualizowane. Podejście sekwencyjne zapewnia powszechną ochronę Bitcoin przed rozszerzeniem pomocy na inne sieci, minimalizując okno wykorzystania podatności w całym ekosystemie.

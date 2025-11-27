@@ -18,7 +18,7 @@ Inom Bitcoin-ekosystemet är Wallet of Satoshi en rekommenderad Wallet för att 
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 För att underlätta införandet av Bitcoin i samhällen runt om i världen har Wallet av Satoshi också inrättat en försäljningsställe för att uppmuntra användare att hitta en beprövad användning i sitt samhälle: att köpa och sälja varor och tjänster med Bitcoin.
 
@@ -174,16 +174,16 @@ Du har nu ett verktyg för att acceptera Bitcoin i ditt företag på bara några
 
 
 
-https://planb.network/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
+https://planb.academy/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
 
 Och om du letar efter en komplett PoS som passar för små och medelstora företag rekommenderar jag också schweiziska Bitcoin Pay:
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Slutligen hittar du vår kompletta utbildningskurs för att lära dig grunderna i Bitcoin-betalning och kassaflöde för företag:
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

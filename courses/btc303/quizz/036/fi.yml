@@ -1,0 +1,8 @@
+question: Mikä on lohkotuen ja transaktiomaksujen keskeinen ero sen kannalta, kuka lopulta vastaa Bitcoin:n verkon turvallisuuden kustannuksista?
+answer: Lohkotukikustannuksista vastaavat haltijat rahan inflaation kautta, kun taas transaktiomaksut maksavat rahankäyttäjät
+wrong_answers:
+  - Louhijat maksavat lohkotukikustannukset laitekustannuksina, kun taas transaktiomaksut maksavat solmujen operaattorit
+  - Lohkotukikustannukset jaetaan tasan kaikkien verkon osallistujien kesken, kun taas transaktiomaksut vaikuttavat vain suuriin laitoksiin
+  - Pörssit vastaavat lohkotukikustannuksista kaupankäyntimaksujen kautta, kun taas wallet-palveluntarjoajat maksavat transaktiomaksut
+explanation: |
+  Kuten Paul Sztorc totesi, lohkotuki ja transaktiomaksut ovat luonteeltaan täysin erilaisia. Lohkotuki edustaa uusien bitcoinien luomista, mikä laimentaa olemassa olevaa tarjontaa ja aiheuttaa tosiasiassa kustannuksia kaikille bitcoinin haltijoille rahan inflaation kautta. Transaktiomaksut sen sijaan ovat suoria maksuja, joita käyttäjät, jotka haluavat tehdä transaktioita, suorittavat, mikä tarkoittaa, että kuluttajat maksavat nämä kustannukset suoraan. Luvussa havainnollistetaan tätä siirtymää ja osoitetaan, miten turvakustannukset siirtyvät haltijoilta kuluttajille, kun lohkotuki vähenee ajan myötä.

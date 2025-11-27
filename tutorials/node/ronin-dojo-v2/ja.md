@@ -20,7 +20,7 @@ description: RoninDojo v2 Bitcoin ノードを Raspberry Pi にインストー�
 
 以前のチュートリアルで、RoninDojo v1のインストールと使用方法について説明しましたが、昨年、RoninDojoチームはバージョン2を発表しました。実際、彼らはLinuxのManjaroディストリビューションからDebianに移行した。その結果、Raspberry Piに自動インストールするための設定済みイメージは提供されなくなった。しかし、手動でインストールを進める方法はまだある。これは私自身のノードに使用したもので、それ以来、RoninDojo v2は私のRaspberry Pi 4上で素晴らしく動作している。そこで、Raspberry PiにRoninDojo v2を手動でインストールする方法についての新しいチュートリアルを提供します。
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 ## 目次
 
@@ -333,7 +333,7 @@ RoninUI ホームページにアクセスすると、セットアップを開始
 ![lets start](assets/notext/25.webp)
 
 
-この段階で、RoninUI はあなたに `root` パスワードを提示します。これを安全に保管することが重要です。紙に書いて物理的にバックアップするか、[パスワードマネージャ](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f) に保存してください。
+この段階で、RoninUI はあなたに `root` パスワードを提示します。これを安全に保管することが重要です。紙に書いて物理的にバックアップするか、[パスワードマネージャ](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f) に保存してください。
 
 
 ![root password](assets/notext/26.webp)
@@ -543,7 +543,7 @@ Whirlpoolでコイン結合を行った後、混合されたUTXOに対して達�
 これらのアノンセットの計算メカニズムについて理解を深めるには、記事を読むことをお勧めする：REMIX - Whirlpoolは、これらの指標の機能を詳しく説明しています。
 
 
-https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

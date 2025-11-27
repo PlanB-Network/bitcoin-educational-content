@@ -1,0 +1,8 @@
+question: Vilken typ av system kan byggas ovanpå Bitcoin:s förtroendefria baslager enligt den säkerhetsmodell som beskrivs?
+answer: Både tillförlitliga och icke-förtroendefulla system kan byggas ovanpå den
+wrong_answers:
+  - Endast tillförlitliga system kan byggas ovanpå den
+  - Endast betrodda system kan byggas ovanpå det
+  - Inga ytterligare system kan byggas ovanpå det
+explanation: |
+  Bitcoin:s tillitslösa baslager utgör en grund som möjliggör flexibilitet när det gäller att bygga olika typer av system ovanpå. Som Matt Corallo förklarade kan du inte bygga opålitliga system ovanpå pålitliga system, men du kan bygga pålitliga system (som förvaringsplånböcker) ovanpå opålitliga system. Detta innebär att Bitcoin:s trustless foundation stöder både trustless applikationer och trusted services, vilket ger systemdesigners friheten att välja lämpliga avvägningar utan att tvinga samma avvägningar på alla andra som använder baslagret.

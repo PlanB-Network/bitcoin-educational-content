@@ -1,0 +1,8 @@
+question: Milline oli see problemaatiline lähenemine, mida Satoshi kasutas kõva fork rakendamisel, mida Bitcoin arendajad tänapäeval kunagi ei kasutaks?
+answer: Purustava muudatuse peitmine eksitava kirjeldusega kommitisse, mis ei andnud mingit märki konsensusreegli muudatuste kohta
+wrong_answers:
+  - Kõva fork rakendamine ilma eelneva avaliku teadaande või teavitamiseta Bitcoin kogukonnale
+  - Mitme kõva hargnemise ühendamine üheks versiooniks ilma nõuetekohase testimise või kogukonna läbivaatamisprotsessita
+  - Kõva fork aktiveerimine kohe, andmata kasutajatele piisavalt aega oma sõlme tarkvara uuendamiseks
+explanation: |
+  Eric Lombrozo analüüsi kohaselt oli Satoshi problemaatiline lähenemine konsensust rikkuva muudatuse varjamine commit'is eksitava kirjeldusega, milles mainiti ainult "reverted makefile.unix wx-config version 0.3.6" ilma igasuguse viita muutustele. Sellist tava, et kriitilisi konsensuslikke muudatusi peidetakse süütu välimusega kommitites, peetakse tänapäevaste standardite kohaselt vastuvõetamatuks, kus läbipaistvus ja selge kommunikatsioon konsensuslikest muudatustest on Bitcoin arenduse põhiprintsiibideks.

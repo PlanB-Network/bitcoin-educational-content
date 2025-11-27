@@ -1,0 +1,8 @@
+question: What distinguishes Bitcoin's security assumptions from those of traditional physical security systems like buildings?
+answer: Bitcoin must address all known weaknesses because online adversaries are anonymous and will exploit any vulnerability
+wrong_answers:
+  - Bitcoin relies on mathematical proofs while buildings depend on physical barriers and law enforcement
+  - "Bitcoin's security is based on economic incentives while buildings use deterrence through visible security measures"
+  - Bitcoin uses cryptographic signatures for protection while buildings rely on access control and monitoring systems
+explanation: |
+  The key distinction is that online systems like Bitcoin face anonymous adversaries who will inevitably exploit any known weakness, unlike physical systems where we can accept some risk because perpetrators can be identified and prosecuted. As Andrew Poelstra noted, online we don't have the luxury of law enforcement deterrence - if it's possible to hurt the system adversarially, anonymous actors will do it. This forces Bitcoin to address all vulnerabilities rather than accepting calculated risks.

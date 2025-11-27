@@ -1,0 +1,8 @@
+question: Jaká je hlavní nevýhoda důvěryhodných finančních systémů, kterou se snaží vyřešit nedůvěryhodný návrh Bitcoin?
+answer: Nemožnost provádět zcela nezvratné transakce kvůli požadavkům na zprostředkování sporů
+wrong_answers:
+  - Vysoká spotřeba energie potřebná pro zpracování elektronických plateb prostřednictvím bank
+  - Omezený počet transakcí, které mohou finanční instituce zpracovat za sekundu
+  - Požadavek, aby zákazníci předložili nadměrné množství osobních dokladů totožnosti
+explanation: |
+  Podle Satoshi Nakamoto v Bitcoin whitepaper trpí tradiční finanční systémy zásadní slabinou, že zcela nevratné transakce nejsou možné, protože finanční instituce musí zprostředkovávat spory. To vytváří kaskádu problémů: zvýšené transakční náklady kvůli zprostředkování, eliminace malých příležitostných transakcí a rozšíření požadavků na důvěru v celém systému. Ostatní možnosti, ačkoli jsou potenciálně relevantní pro finanční systémy, nejsou hlavním problémem, který návrh Bitcoin bez důvěry konkrétně řeší. Inovace Bitcoin spočívá v umožnění konečného vypořádání, aniž by byla vyžadována důvěryhodná třetí strana pro reverzní transakce.

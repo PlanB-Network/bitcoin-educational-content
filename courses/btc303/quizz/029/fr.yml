@@ -1,0 +1,8 @@
+question: D'après les calculs de Pieter Wuille, quelle est la quantité théorique maximale de Bitcoin qui existera jamais une fois que toutes les pièces auront été extraites ?
+answer: 20 999 999,9769 BTC
+wrong_answers:
+  - 21,000,000.0000 BTC exactement
+  - 20 999 817,3131 BTC
+  - 20,500,000.0000 BTC environ
+explanation: |
+  Pieter Wuille a calculé que l'offre maximale théorique est de 20 999 999,9769 BTC, ce qui est légèrement inférieur aux 21 millions couramment cités. Cela est dû au calendrier spécifique de réduction de moitié et aux arrondis dans le code de Bitcoin. Le chiffre de 21 millions est une approximation arrondie. Le chiffre de 20 999 817,3131 représente l'offre circulante réelle après prise en compte des pièces perdues et des erreurs de mining jusqu'à un bloc spécifique, et non le maximum théorique.

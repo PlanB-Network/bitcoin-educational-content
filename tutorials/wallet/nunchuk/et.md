@@ -98,7 +98,7 @@ Avanevas aknas leiate väljad, mida "täita": valige paremal olev nupp _Browse_ 
 Leiad Sparrow wallet juhendi, et laadida alla see Software Wallet
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Seejärel saate .apk-faili arvutist telefoni üle kanda
 
@@ -276,7 +276,7 @@ Nimetage oma klahv ja vajutage nuppu _Jäta_.
 
 
 
-Nende sammude lõpus küsitakse, kas soovite oma Mnemonic fraasile lisada [passphrase](https://planb.network/en/resources/glossary/passphrase-bip39). Kui te ei ole piisavalt teadlik passphrase kasutamisest, selle varundamise korraldamisest või selle toimimisest, soovitan valida _Mulle ei ole fraasi vaja_.
+Nende sammude lõpus küsitakse, kas soovite oma Mnemonic fraasile lisada [passphrase](https://planb.academy/en/resources/glossary/passphrase-bip39). Kui te ei ole piisavalt teadlik passphrase kasutamisest, selle varundamise korraldamisest või selle toimimisest, soovitan valida _Mulle ei ole fraasi vaja_.
 
 
 
@@ -394,7 +394,7 @@ Olete kohas _Kodu_, kus teile kuvatakse äsja loodud Wallet, mis teatab ühendus
 
 
 - Paremas ülanurgas olev objektiivi ikoon võimaldab teil teha tehinguotsingu;
-- `View Wallet config` annab ligipääsu konfiguratsioonimenüüle, kus saab muuta Wallet nime ja lubada täiustatud valikuid, üleval paremal (millest ei saa ekraanipilte). Siin saate eksportida Wallet konfiguratsiooni, sildid, asendada klahve, muuta [gap limit] (https://planb.network/en/resources/glossary/gap-limit) ja muud.
+- `View Wallet config` annab ligipääsu konfiguratsioonimenüüle, kus saab muuta Wallet nime ja lubada täiustatud valikuid, üleval paremal (millest ei saa ekraanipilte). Siin saate eksportida Wallet konfiguratsiooni, sildid, asendada klahve, muuta [gap limit] (https://planb.academy/en/resources/glossary/gap-limit) ja muud.
 
 
 

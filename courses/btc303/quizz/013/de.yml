@@ -1,0 +1,8 @@
+question: Wie ist laut Matt Corallos Präsentation das Verhältnis zwischen vertrauenslosen und vertrauenswürdigen Systemen in der Bitcoin-Architektur?
+answer: Sie können vertrauenswürdige Systeme auf einem vertrauenslosen System aufbauen, aber keine vertrauenslosen Systeme auf vertrauenswürdigen Systemen
+wrong_answers:
+  - Sie können vertrauenslose Systeme auf vertrauenswürdigen Systemen aufbauen, aber nicht vertrauenswürdige Systeme auf vertrauenslosen Systemen
+  - Sowohl vertrauenslose als auch vertrauenswürdige Systeme können ohne architektonische Einschränkungen aufeinander aufgebaut werden
+  - Trustless und vertrauenswürdige Systeme müssen unabhängig voneinander arbeiten und können nicht übereinander geschichtet werden
+explanation: |
+  Die wichtigste Erkenntnis von Matt Corallo ist, dass die vertrauenslose Basisschicht von Bitcoin Flexibilität beim Systemdesign ermöglicht. Eine vertrauenswürdige Grundlage wie das Bitcoin-Protokoll ermöglicht es Entwicklern, vertrauenswürdige Dienste (wie z. B. Geldbörsen) auf höheren Schichten zu erstellen und dabei die zugrundeliegenden Sicherheitsgarantien beizubehalten. Das Gegenteil ist jedoch unmöglich - man kann keine wirklich vertrauenslosen Systeme schaffen, wenn die Grundlage selbst Vertrauen erfordert, da alle vertrauenslosen Eigenschaften durch die Schwachstellen der vertrauenswürdigen Basisschicht untergraben würden.

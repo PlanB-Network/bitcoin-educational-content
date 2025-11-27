@@ -9,7 +9,7 @@ description: Hur skapar jag ett eget konto på GitHub?
 Plan ₿s uppdrag är att tillhandahålla förstklassiga utbildningsresurser om Bitcoin, tillgängliga på så många språk som möjligt. Allt innehåll som publiceras på webbplatsen är öppen källkod och finns på GitHub, vilket ger alla möjlighet att bidra till att berika plattformen. Bidrag kan ta olika former: korrigering och korrekturläsning av befintliga texter, översättningar till andra språk, uppdatering av information eller skapande av nya tutorials som ännu inte finns tillgängliga på vår webbplats.
 
 
-Om du vill bidra till Plan ₿ Network måste du använda Git och GitHub, så om dessa verktyg inte är bekanta för dig eller om deras funktion verkar obskyr, få inte panik, den här artikeln är för dig! Vi kommer tillsammans att gå igenom grunderna i Git och GitHub, samt den tillhörande tekniska jargongen, så att du kan använda dem effektivt efteråt.
+Om du vill bidra till Plan ₿ Academy måste du använda Git och GitHub, så om dessa verktyg inte är bekanta för dig eller om deras funktion verkar obskyr, få inte panik, den här artikeln är för dig! Vi kommer tillsammans att gå igenom grunderna i Git och GitHub, samt den tillhörande tekniska jargongen, så att du kan använda dem effektivt efteråt.
 
 
 ## Vad är Git?
@@ -27,7 +27,7 @@ En av de viktigaste funktionerna i Git är grenhantering. En gren är en slags p
 
 En av de speciella egenskaperna hos Git är dess förmåga att fungera på ett distribuerat sätt. Varje utvecklare har en fullständig kopia av projektet på sin egen dators Hard-enhet, vilket gör att de kan arbeta offline och sammanfoga ändringar senare när en internetanslutning är tillgänglig. Detta minskar risken för konflikter och gör det möjligt för flera utvecklare att arbeta samtidigt på samma projekt utan att trampa varandra på tårna.
 
-Ursprungligen var Git främst utformat för mjukvaruutvecklingsprojekt. Men det kan också användas för att hantera projekt för att skriva innehåll. Istället för att samarbeta om kod samarbetar vi om text. Och det är just den här metoden som Plan ₿ Network har använt för att hantera sitt innehåll! Git underlättar samarbetet kring skrivande av kurser och handledningar, eftersom det möjliggör exakt spårning av ändringar, effektiv versionshantering och även möjliggör granskning och förbättring av innehållet av andra bidragsgivare.
+Ursprungligen var Git främst utformat för mjukvaruutvecklingsprojekt. Men det kan också användas för att hantera projekt för att skriva innehåll. Istället för att samarbeta om kod samarbetar vi om text. Och det är just den här metoden som Plan ₿ Academy har använt för att hantera sitt innehåll! Git underlättar samarbetet kring skrivande av kurser och handledningar, eftersom det möjliggör exakt spårning av ändringar, effektiv versionshantering och även möjliggör granskning och förbättring av innehållet av andra bidragsgivare.
 
 
 ## Vad är GitHub?
@@ -46,7 +46,7 @@ Föreställ dig Git som en slags loggbok som varje utvecklare använder på sin 
 Den grundläggande skillnaden mellan Git och GitHub ligger i deras funktion: Git är det verktyg som används lokalt av varje utvecklare för att hantera sina kodversioner, medan GitHub är den onlineplattform som är värd för dessa versioner och underlättar samarbete.
 
 
-GitHub är mycket mer än bara en tjänst för kodhosting. Det är en samarbetsplattform som gör det möjligt för utvecklare att arbeta tillsammans på ett effektivt sätt. Och Plan ₿ Network använder faktiskt denna plattform för att vara värd för inte bara all kod som driver webbplatsen utan också, och det är det som intresserar oss, allt innehåll (handledning, utbildning, resurser ...).
+GitHub är mycket mer än bara en tjänst för kodhosting. Det är en samarbetsplattform som gör det möjligt för utvecklare att arbeta tillsammans på ett effektivt sätt. Och Plan ₿ Academy använder faktiskt denna plattform för att vara värd för inte bara all kod som driver webbplatsen utan också, och det är det som intresserar oss, allt innehåll (handledning, utbildning, resurser ...).
 
 
 ## Några tekniska termer

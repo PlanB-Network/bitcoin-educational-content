@@ -1,0 +1,8 @@
+question: Dushingiye ku icegeranyo ca Gregory Maxwell, ni igiki kirema uguhuza kw’ishimikiro guhatira abakoresha kuja ku bikorwa vyizigirwa mu biganiro vyo gupima Bitcoin?
+answer: Ivyo vyose bikoreshwa cane mu gutanga ibiciro vy'abavyemeza no kuronka umwanya uzimvye cane wo gutorera umuti amatati
+wrong_answers:
+  - Intambara hagati yo kwongerera ubushobozi bwo gucuruza no kubungabunga inyungu ihagije ya mining mu bice bitandukanye vy'amazi
+  - Uguhuzagurika hagati yo gushirwa mu ngiro ivyiza vy'abashingantahe batandukanye no kuzigama ubucuti bujanye n'inyuma na porogarama ya kera ya wallet
+  - Amarushanwa hagati y'ibisubizo vy'urugero rwa kabiri n'uburyo bwo gupima on-chain ku bijanye n'ubutunzi buke bw'iterambere n'infashanyo y'abanyagihugu
+explanation: |
+  Maxwell yerekanye ingorane y’impande zibiri aho Bitcoin itakaza inyungu zayo mu nzira zompi: iyo ikoreshwa ry’ibikoresho riri hejuru cane ugereranije n’ubuhinga buriho, kwemeza birahenda cane kandi bikaba bitanga ibiciro ku bakoresha rero bategerezwa kwizigira abandi bantu bizigira aho kwemeza bonyene. Ku rundi ruhande, iyo ubushobozi buri hasi cane kandi uburyo bwo gucuruza butagira akamaro, gushika ku rubuga rwa blockchain kugira ngo umuntu atore umuti w’amatati birazimvye cane, bigatuma abakoresha basubira ku bikorwa vyizigirwa. Ivyo bituma habaho uburinganire bukomeye inyishu zo gupima zitegerezwa gukurikirana.

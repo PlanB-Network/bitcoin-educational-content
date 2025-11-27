@@ -1,0 +1,8 @@
+question: Apa tujuan utama dari meminta pengembang berpengalaman meninjau patch kerentanan tanpa diberitahu tentang kerentanan spesifik?
+answer: Untuk menguji apakah patch cukup menyembunyikan kerentanan dari penyerang potensial
+wrong_answers:
+  - "Untuk memastikan patch tidak memperkenalkan bug baru ke dalam basis kode"
+  - Untuk memverifikasi bahwa patch mengikuti standar dan konvensi pengkodean yang tepat
+  - Untuk mengonfirmasi bahwa patch memberikan peningkatan kinerja yang memadai
+explanation: |
+  Menurut praktik pengungkapan yang bertanggung jawab, pengembang menguji apakah patch telah disamarkan dengan cukup baik dengan memberikannya kepada pengembang berpengalaman yang belum diberitahu tentang kerentanan, meminta mereka untuk mengidentifikasi apa yang diperbaiki. Jika para ahli ini tidak dapat menemukan kerentanan meskipun mengetahui bahwa sebuah patch telah memperbaikinya, kemungkinan besar patch tersebut telah disembunyikan dengan baik dari calon penyerang. Hal ini sangat penting karena patch itu sendiri dapat mengungkapkan kerentanan, yang berpotensi memungkinkan eksploitasi jahat. Opsi lainnya, meskipun merupakan aspek penting dari peninjauan kode, bukanlah tujuan utama dari praktik khusus dalam manajemen kerentanan ini.

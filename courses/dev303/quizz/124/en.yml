@@ -1,0 +1,8 @@
+question: What is the primary technical mechanism that enables Breeze SDK to present users with a unified balance while maintaining both Lightning and on-chain Bitcoin functionality?
+answer: Automatic swap services that convert between Lightning and on-chain Bitcoin behind the scenes as needed
+wrong_answers:
+  - Real-time balance aggregation that displays the sum of Lightning and on-chain funds without actual conversion
+  - Channel reserve pooling that allows funds to move freely between Lightning and on-chain states within the same UTXO
+  - Dual-layer address generation that creates hybrid addresses capable of receiving both Lightning and on-chain payments
+explanation: |
+  The correct answer is automatic swap services because Breeze SDK specifically implements on-chain swap functionality to seamlessly convert between Lightning and on-chain Bitcoin when users need to make different types of payments. This allows users to see a single balance while the system handles the technical complexity of moving funds between layers. The wrong answers describe non-existent or technically impossible mechanisms - balance aggregation would only display combined amounts without enabling cross-layer functionality, channel reserves cannot move funds to on-chain states, and hybrid addresses don't exist in Bitcoin's protocol.

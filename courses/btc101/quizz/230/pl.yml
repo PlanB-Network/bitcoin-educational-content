@@ -1,8 +1,8 @@
-question: W jaki sposób Lightning Network może potencjalnie zmienić istniejące modele biznesowe w branży gier wideo?
-answer: Pozwala to graczom obstawiać bardzo małe kwoty podczas grania w gry.
+question: W jaki sposób sieć Lightning może potencjalnie zmienić istniejące modele biznesowe w branży gier wideo?
+answer: Pozwoli graczom obstawiać bardzo małe kwoty podczas grania w gry.
 wrong_answers:
-  - Pozwala ona graczom na wydobywanie Bitcoin podczas grania w gry.
-  - Pozwala to twórcom gier akceptować Bitcoin jako płatność za ich gry.
-  - Pozwala ona graczom kupować przedmioty w grze za pomocą Bitcoin.
+  - Pozwoli graczom na wydobywanie bitcoinów podczas grania w gry.
+  - Pozwoli twórcom gier akceptować bitcoina jako płatność za ich gry.
+  - Pozwoli graczom kupować przedmioty w grze za pomocą bitcoinów.
 explanation: >-
 reviewed: true

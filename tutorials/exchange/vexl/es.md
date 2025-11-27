@@ -188,4 +188,4 @@ Ahora puede empezar a intercambiar bitcoins de forma anónima y segura con Vexl.
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c

@@ -12,7 +12,7 @@ Neste tutorial, abordaremos o processo de criação de uma conta comercial na Bi
 
 Se estiver interessado em integrar a bitcoin na sua empresa, recomendo-lhe também que descubra a nossa formação teórica completa sobre o assunto:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Criar uma conta Bitfinex
 
@@ -26,11 +26,11 @@ Preencha as informações necessárias: introduza o seu endereço de correio ele
 
 Para obter dicas sobre como utilizar e proteger palavras-passe fortes e únicas, consulte também este tutorial:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Vamos agora configurar o 2FA para proteger a conta. Utilize uma aplicação de autenticação no seu smartphone, como o Google Authenticator ou o Authy, por exemplo. Encontrará um tutorial sobre esta ferramenta aqui:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Digitalize o código QR com a sua aplicação e introduza os 6 dígitos fornecidos.
 
@@ -160,7 +160,7 @@ A Bitfinex também oferece opções de depósito e levantamento através da Ligh
 
 Se estiver interessado na Lightning Network, também temos um curso de formação completo para o ajudar a compreender o seu funcionamento:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 6 - Comprar e vender bitcoins na Bitfinex
 
@@ -241,4 +241,4 @@ Dependendo dos objectivos e da estrutura da sua empresa, a utilização da Bitfi
 
 Para uma análise mais aprofundada deste tópico, recomendo este curso de formação abrangente sobre a integração da bitcoin nas empresas, que aborda em pormenor a adição ao fluxo de caixa, a aceitação de pagamentos em bitcoin e a contabilidade:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

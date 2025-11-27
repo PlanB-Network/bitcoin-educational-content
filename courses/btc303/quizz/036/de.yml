@@ -1,0 +1,8 @@
+question: Was ist der entscheidende Unterschied zwischen Blocksubvention und Transaktionsgebühren in Bezug auf die Frage, wer letztendlich die Kosten für die Netzsicherheit von Bitcoin trägt?
+answer: Die Kosten der Blocksubventionierung werden von den Inhabern durch die Geldinflation getragen, während die Transaktionsgebühren von den Ausgebern bezahlt werden
+wrong_answers:
+  - Die Kosten für die Blocksubventionierung werden von den Minern durch die Ausgaben für die Ausrüstung getragen, während die Transaktionsgebühren von den Knotenbetreibern übernommen werden
+  - Die Kosten der Blocksubventionierung werden gleichmäßig auf alle Netzwerkteilnehmer verteilt, während die Transaktionsgebühren nur große Institute betreffen
+  - Die Kosten der Blocksubventionierung werden von den Börsen durch Handelsgebühren getragen, während die Transaktionsgebühren von den wallet-Anbietern gezahlt werden
+explanation: |
+  Wie Paul Sztorc feststellte, sind Blocksubventionen und Transaktionsgebühren von grundlegender Natur. Die Blocksubvention stellt eine neue Bitcoin-Schöpfung dar, die das bestehende Angebot verwässert und alle Bitcoin-Inhaber durch Geldinflation effektiv kostet. Im Gegensatz dazu handelt es sich bei den Transaktionsgebühren um direkte Zahlungen von Nutzern, die eine Transaktion durchführen wollen, was bedeutet, dass die Kosten direkt von den Ausgebern getragen werden. Das Kapitel veranschaulicht diesen Übergang, indem es zeigt, wie sich die Sicherheitskosten von den Inhabern zu den Ausgebern verlagern, wenn die Blocksubvention mit der Zeit abnimmt.

@@ -19,7 +19,7 @@ description: Umbrel에서 Nostr 애플리케이션 구성 및 사용
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Nostr 소개
 
@@ -306,7 +306,7 @@ NWC 덕분에 노스트르**를 통한 **라이트닝 결제(보상 게시물에
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 ## 고급 구성 및 보안
 

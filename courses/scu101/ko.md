@@ -43,6 +43,8 @@ objectives:
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 
 **목표: 보안 기술을 업데이트하세요 !**
 
@@ -59,7 +61,7 @@ objectives:
 
 - 르노 리프치츠, 사이버 보안 전문가
 - 테오 판타미스, 응용 수학 공학 박사
-- Rogzy, Plan ₿ Network 공동 창립자
+- Rogzy, Plan ₿ Academy 공동 창립자
 
 
 점점 더 디지털화되는 세상에서 디지털 위생은 매우 중요합니다. 해킹과 대규모 감시가 지속적으로 증가하고 있지만, 지금이라도 첫 걸음을 내딛고 자신을 보호해도 늦지 않습니다.
@@ -80,7 +82,7 @@ objectives:
 먼저 웹 브라우저 선택의 중요성과 관련 보안에 미치는 영향에 대해 설명하겠습니다. 그런 다음 브라우저의 세부 사항, 특히 쿠키 관리와 관련된 내용을 살펴보겠습니다. 또한 TOR와 같은 도구를 사용하여 보다 안전한 익명 브라우징 환경을 보장하는 방법도 살펴볼 것입니다. 그 후에는 데이터 보호를 강화하기 위한 VPN 사용에 초점을 맞출 것입니다. 마지막으로 안전한 와이파이 연결 사용을 위한 권장 사항으로 마무리하겠습니다.
 
 
-![](assets/en/1.webp)
+![image](assets/ko/001.webp)
 
 
 **섹션 2: 컴퓨터 사용 모범 사례**
@@ -93,7 +95,7 @@ objectives:
 
 이 섹션에서는 컴퓨터 보안의 세 가지 주요 영역을 다룹니다. 먼저 Mac, PC, Linux 등 다양한 운영 체제를 살펴보고 각 운영 체제의 특징과 강점을 강조합니다. 다음으로 해킹 시도로부터 효과적으로 보호하고 디바이스의 보안을 강화하는 방법을 살펴봅니다. 마지막으로, 데이터 손실이나 랜섬웨어를 방지하기 위해 정기적으로 데이터를 보호하고 백업하는 것의 중요성을 강조합니다.
 
-![](assets/en/2.webp)
+![image](assets/ko/002.webp)
 
 
 **섹션 3: 솔루션 구현**
@@ -110,7 +112,7 @@ objectives:
 
 먼저, 커뮤니케이션에 필수적이면서도 해커의 표적이 되는 이메일 받은 편지함을 보호하는 방법을 살펴봅니다. 그런 다음, 비밀번호를 안전하게 유지하면서 비밀번호를 잊어버리거나 혼동하는 것을 방지하는 실용적인 솔루션인 비밀번호 관리자를 소개합니다. 마지막으로 계정에 추가적인 보안 조치인 2단계 인증에 대해 설명하여 계정의 보호 수준을 1단계 더 높일 수 있습니다. 모든 내용을 명확하고 알기 쉽게 설명해 드리겠습니다.
 
-![](assets/en/3.webp)
+![image](assets/ko/003.webp)
 
 
 디지털 보안을 강화하고 데이터에 대한 통제권을 되찾을 준비가 되셨나요? 시작하세요!
@@ -126,6 +128,8 @@ objectives:
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 
 인터넷을 검색할 때는 온라인 보안을 유지하기 위해 일반적인 실수를 피하는 것이 중요합니다. 다음은 이러한 실수를 피하기 위한 몇 가지 팁입니다:
 
@@ -137,14 +141,15 @@ objectives:
 
 예: 예: www.logicieltelechargement.fr/signal 대신 www.signal.org/download 사용.
 
-![](assets/notext/4.webp)
+![image](assets/ko/004.webp)
 
 
 또한 오픈 소스 소프트웨어는 더 안전하고 악성 소프트웨어가 없는 경우가 많으므로 우선순위를 정하는 것이 좋습니다. '오픈 소스' 소프트웨어는 코드가 공개적으로 사용 가능하고 누구나 액세스할 수 있는 소프트웨어 유형입니다. 이를 통해 무엇보다도 데이터를 훔치기 위한 숨겨진 액세스가 없는지 확인할 수 있습니다.
 
 
 > 보너스: 오픈소스 소프트웨어는 종종 무료입니다! 이 대학교는 100% 오픈소스이므로 GitHub에서 코드를 검토할 수도 있습니다.
-> ![](assets/notext/5.webp)
+
+![image](assets/ko/005.webp)
 
 ### 쿠키 관리 오류 및 모범 사례
 
@@ -161,7 +166,7 @@ objectives:
 
 두 제품군 모두 비슷한 수준의 보안을 제공하지만 추적 기능으로 인해 구글 크롬 브라우저는 사용하지 않는 것이 좋습니다. 크롬 대신 Chromium이나 Brave와 같은 더 가벼운 대체 브라우저를 사용하는 것이 좋습니다. 특히 광고 차단 기능이 내장된 Brave를 권장합니다. 특정 웹사이트에 액세스하기 위해 여러 브라우저를 사용해야 할 수도 있습니다.
 
-![](assets/notext/6.webp)
+![image](assets/ko/006.webp)
 
 
 ### 보다 안전한 익명 브라우징을 위한 비공개 브라우징, TOR 및 기타 대안
@@ -175,15 +180,17 @@ objectives:
 
 TOR는 권위주의 국가에서 검열을 우회하려는 언론인, 자유 운동가 등이 합법적이고 널리 사용하는 도구입니다. 하지만 TOR는 방문한 사이트나 컴퓨터 자체를 보호하지 않는다는 점을 이해하는 것이 중요합니다. 또한 TOR를 사용하면 데이터가 목적지에 도달하기 전에 다른 사람의 컴퓨터 세 대를 통과하기 때문에 인터넷 연결 속도가 느려질 수 있습니다. 또한 TOR는 100% 익명성을 보장하는 완벽한 솔루션이 아니며 불법적인 활동에 사용해서는 안 된다는 점에 유의해야 합니다.
 
-![](assets/notext/7.webp)
+![image](assets/ko/007.webp)
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN 및 인터넷 연결
 
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
+
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
 
 
 ### VPN
@@ -194,7 +201,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 VPN은 인터넷을 통해 전송되는 데이터를 암호화하여 연결을 더욱 안전하게 만드는 도구입니다. 전문적인 맥락에서 VPN은 직원들이 원격 위치에서 회사 내부 네트워크에 안전하게 액세스할 수 있게 해줍니다. 교환되는 데이터는 암호화되므로 제3자가 가로채기가 훨씬 더 어렵습니다. 내부 네트워크에 대한 액세스를 보호하는 것 외에도 VPN을 사용하면 사용자가 회사 내부 네트워크를 통해 인터넷 연결을 라우팅하여 회사에서 연결되는 것처럼 보이게 할 수 있습니다. 이는 지리적으로 제한된 온라인 서비스에 액세스할 때 특히 유용할 수 있습니다.
 
-![](assets/en/8.webp)
+![image](assets/ko/008.webp)
 
 
 ### VPN 유형
@@ -205,14 +212,14 @@ VPN에는 크게 두 가지 유형이 있습니다: 기업용 VPN과 Nordvpn과 
 
 하지만 소비자 VPN을 사용한다고 해서 완전한 익명성이 보장되는 것은 아닙니다. 많은 VPN 제공업체가 사용자에 대한 정보를 보유하기 때문에 익명성이 손상될 수 있습니다. VPN은 온라인 보안을 개선하는 데 유용할 수 있지만, 만능 솔루션은 아닙니다. 지리적으로 제한된 서비스에 액세스하거나 여행 중 보안을 강화하는 등 특정 용도에 효과적이지만 완전한 보안을 보장하지는 않습니다. VPN을 선택할 때는 인기보다 안정성과 기술 전문성을 우선시하는 것이 중요합니다. 일반적으로 개인 정보를 가장 적게 수집하는 VPN 업체가 가장 안전합니다. IVPN 및 Mullvad와 같은 서비스는 개인 정보를 수집하지 않으며 개인 정보 보호를 강화하기 위해 Bitcoin 결제를 허용하기도 합니다.
 
-![](assets/notext/9.webp)
+![image](assets/ko/009.webp)
 
 마지막으로, VPN은 온라인 광고를 차단하여 더욱 즐겁고 안전한 브라우징 경험을 제공하는 데도 사용할 수 있습니다. 하지만 자신의 필요에 가장 적합한 VPN을 찾기 위해 철저한 조사를 수행하는 것이 중요합니다. 집에서 인터넷을 브라우징할 때에도 보안을 강화하기 위해 VPN을 사용하는 것이 좋습니다. 이렇게 하면 온라인에서 주고받는 데이터를 더 높은 수준으로 보호할 수 있습니다. 마지막으로, Address 바의 URL과 작은 자물쇠를 확인하여 의도한 사이트에 있는지 확인해 주시겠어요?
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS 및 공용 Wi-Fi 네트워크
 
@@ -225,7 +232,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 온라인 사기를 피하려면 특히 확장자와 도메인 이름을 확인하여 탐색 중인 사이트의 신원을 확인하는 것이 중요합니다. 또한 사용자를 속이기 위해 URL에 유사한 문자를 사용하는 사기꾼을 경계하세요.
 
-![](assets/en/10.webp)
+![image](assets/ko/010.webp)
 
 요약하자면, VPN을 사용하면 기업과 개인 사용자 모두의 온라인 보안을 크게 향상시킬 수 있습니다. 또한, 올바른 브라우징 습관을 실천하면 디지털 위생을 개선하는 데 기여할 수 있습니다. 다음 시간에는 업데이트, 바이러스 백신 소프트웨어, 비밀번호 관리 등 컴퓨터 보안에 대해 다루겠습니다.
 
@@ -240,6 +247,8 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 
 컴퓨터 보안은 오늘날의 디지털 세상에서 가장 큰 관심사입니다. 오늘은 세 가지 핵심 사항을 Address로 정리해 보겠습니다:
@@ -256,14 +265,14 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 컴퓨터 선택과 관련하여 구형 컴퓨터와 신형 컴퓨터의 보안에는 큰 차이가 없습니다. 그러나 Windows, Linux, Mac 등 운영 체제 간에는 보안 차이가 존재합니다.
 
-![](assets/notext/11.webp)
+![image](assets/ko/011.webp)
 
 Windows의 경우, 관리자 계정을 매일 사용하지 말고 관리자용 계정과 일상용 계정을 따로 만들어 사용하는 것이 좋습니다. Windows는 사용자 수가 많고 일반 사용자에서 관리자로 쉽게 전환할 수 있기 때문에 멀웨어에 더 취약한 경우가 많습니다. 반면 Linux와 Mac에서는 위협이 덜 일반적입니다.
 
 
 운영 체제 선택은 사용자의 필요와 선호도에 따라 결정해야 합니다. Linux 시스템은 최근 몇 년 동안 크게 발전하여 점점 더 사용자 친화적으로 바뀌고 있습니다. 우분투는 사용하기 쉬운 그래픽 Interface을 갖춘 초보자를 위한 흥미로운 대안입니다. Windows를 유지하면서 Linux를 실험하기 위해 컴퓨터를 파티션할 수도 있지만 이는 복잡한 과정이 될 수 있습니다. 전용 컴퓨터, 가상 머신 또는 USB 키를 사용하여 Linux 또는 우분투를 테스트하는 것이 좋습니다.
 
-![](assets/notext/12.webp)
+![image](assets/ko/012.webp)
 
 
 ### 소프트웨어 업데이트
@@ -293,7 +302,7 @@ Windows 10에서는 업데이트가 거의 지속적으로 이루어지므로 �
 
 유료 바이러스 백신에 투자하고 싶다면, 카스퍼스키와 같이 알려지지 않은 새로운 위협을 지능적으로 분석하는 바이러스 백신을 선택하는 것이 좋습니다. 바이러스 백신 업데이트는 새로운 위협으로부터 보호하는 데 매우 중요합니다.
 
-![](assets/notext/13.webp)
+![image](assets/ko/013.webp)
 
 
 > 참고: Linux와 Mac은 사용자 권한 분리 시스템 덕분에 바이러스 백신이 필요하지 않은 경우가 많습니다.
@@ -311,6 +320,8 @@ Windows 10에서는 업데이트가 거의 지속적으로 이루어지므로 �
 
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
+
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
 
 
 ### 해커는 어떻게 공격하나요?
@@ -343,7 +354,7 @@ Windows 10에서는 업데이트가 거의 지속적으로 이루어지므로 �
 
 랜섬웨어는 사용자 데이터를 암호화하고 이를 해독하기 위해 몸값을 요구하는 악성 소프트웨어의 일종입니다. 이러한 유형의 공격은 점점 더 일반화되고 있으며 기업과 개인 모두에게 매우 번거로운 문제가 될 수 있습니다. 자신을 보호하려면 가장 중요한 파일의 백업을 만드는 것이 필수적입니다! 이렇게 하면 랜섬웨어를 막을 수는 없지만 랜섬웨어를 무시할 수 있습니다.
 
-![](assets/notext/14.webp)
+![image](assets/ko/014.webp)
 
 중요한 데이터를 외부 저장 장치나 안전한 온라인 스토리지 서비스에 정기적으로 백업하세요. 이렇게 하면 사이버 공격이나 하드웨어 장애가 발생하더라도 중요한 정보를 잃지 않고 데이터를 복구할 수 있습니다.
 
@@ -368,9 +379,9 @@ Windows 10에서는 업데이트가 거의 지속적으로 이루어지므로 �
 컴퓨터에서 바이러스가 발견되면 인터넷 연결을 끊고 바이러스 백신 전체 검사를 수행한 후 감염된 파일을 삭제하세요. 그런 다음 소프트웨어와 운영 체제를 업데이트하고 비밀번호를 변경하여 추가 침입을 방지하세요.
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # 솔루션 구현.
 
@@ -382,6 +393,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
 
 
 ### 새 이메일 계정 설정하기!
@@ -401,7 +414,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 이메일 주소의 적절한 관리는 온라인 액세스의 보안을 보장하는 데 매우 중요합니다. 안전하고 개인정보를 존중하는 이메일 제공업체를 선택하는 것이 중요합니다. 예를 들어, ProtonMail은 안전하고 개인정보를 존중하는 이메일 서비스입니다.
 
-![](assets/notext/15.webp)
+![image](assets/ko/015.webp)
 
 이메일 제공업체를 선택하고 비밀번호를 만들 때 다른 온라인 서비스에 동일한 비밀번호를 재사용하지 않는 것이 중요합니다. 정기적으로 새 이메일 주소를 생성하여 다양한 용도로 사용하는 것이 좋습니다. 중요한 계정에는 보안 이메일 서비스를 사용하는 것이 좋습니다. 또한 일부 서비스는 비밀번호 길이를 제한하고 있으므로 이러한 제한 사항을 숙지하는 것이 중요합니다. 기간이 제한된 계정에 사용할 수 있는 임시 이메일 주소를 만드는 서비스도 있습니다.
 
@@ -414,19 +427,21 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 이메일 Address이 유출되었는지 확인하고 향후 데이터 유출에 대한 알림을 받으려면 Have I Been Pwned 웹사이트(https://haveibeenpwned.com/)를 이용하세요. 해커는 해킹된 데이터베이스를 악용하여 피싱 이메일을 보내거나 유출된 비밀번호를 재사용할 수 있습니다.
 
-![](assets/notext/16.webp)
+![image](assets/ko/016.webp)
 
 일반적으로 더 안전한 새 이메일 Address을 사용하는 것은 나쁜 습관이 아니며, 건강하게 새로 시작하려는 경우에도 필요합니다.
 
 보너스 Bitcoin: Exchange 계정을 만드는 것과 같이 Bitcoin 활동을 위한 특정 이메일 Address을 만들어 생활에서 이러한 활동 영역을 실제로 분리하는 것이 좋습니다.
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## 비밀번호 관리자
 
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 
 ### 비밀번호 관리자란 무엇인가요?
@@ -448,7 +463,7 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 - Dashlane: 또한 타사 서비스로, 직관적인 Interface과 신용카드 정보 추적 및 보안 메모와 같은 추가 기능을 갖추고 있습니다.
 
-![](assets/notext/17.webp)
+![image](assets/ko/017.webp)
 
 
 ### 셀프 호스팅으로 제어력을 강화하세요:
@@ -461,7 +476,7 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 - KeePass: 주로 자체 호스팅을 위한 오픈 소스 솔루션입니다. 기본적으로 데이터는 로컬에 저장되지만 원하는 경우 다른 방법을 사용해 비밀번호 데이터베이스를 동기화할 수 있습니다. 초보자에게는 다소 덜 사용자 친화적일 수 있지만 KeePass는 보안과 유연성으로 널리 인정받고 있습니다.
 
-![](assets/notext/18.webp)
+![image](assets/ko/018.webp)
 
 
 KeePass와 같은 자체 호스팅 솔루션의 경우, 중앙 집중식 타사 서비스를 사용하지 않고도 여러 디바이스 간에 데이터베이스를 동기화할 수 있습니다. **동기화**와 같은 도구를 사용하면 디바이스 간에 직접 암호화되고 분산된 동기화가 가능합니다. 이 접근 방식은 모든 기기에서 데이터의 가용성을 보장하면서 데이터를 통제할 수 있게 해줍니다.
@@ -492,14 +507,16 @@ KeePass와 같은 자체 호스팅 솔루션의 경우, 중앙 집중식 타사 
 무작위로 생성된 비밀번호는 기억하기는 더 어려울 수 있지만 더 높은 수준의 보안을 제공합니다. 비밀번호 관리자는 더 안전한 무작위 비밀번호를 개발할 수 있습니다. 비밀번호 관리자를 사용하면 모든 비밀번호를 외울 필요가 없습니다. 기존 비밀번호는 관리자가 생성한 비밀번호가 더 강력하고 안전하므로 점차적으로 비밀번호 관리자가 생성한 비밀번호로 교체하는 것이 중요합니다. 비밀번호 관리자의 마스터 비밀번호도 강력하고 안전한지 확인하세요.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## 2단계 인증
 
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 
 ### 2FA를 구현해야 하는 이유
@@ -517,7 +534,7 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 - 컴퓨터에 삽입하는 물리적 보안 키입니다.
 
 
-![](assets/notext/19.webp)
+![image](assets/ko/019.webp)
 
 
 2FA를 사용하면 해커가 비밀번호를 알아내더라도 이 두 번째 인증 요소가 없으면 계정에 액세스할 수 없습니다. 따라서 2FA는 무단 액세스로부터 온라인 계정을 보호하는 데 필수적인 요소입니다.
@@ -566,9 +583,9 @@ SIM 2FA에 대한 잠재적 위협의 일반적인 예로는 공격자가 사용
 황금률: 사이버 보안은 학습 여정에 따라 변화하는 목표입니다!
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # 실무 섹션
 
@@ -585,7 +602,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 이메일 계정을 보호하는 것은 온라인 활동을 보호하고 데이터를 보호하는 데 있어 매우 중요한 단계입니다. 이 튜토리얼에서는 통신의 종단 간 암호화를 제공하는 높은 수준의 보안으로 잘 알려진 ProtonMail 계정을 만들고 설정하는 방법을 단계별로 안내합니다. 초보자이든 숙련된 사용자이든 여기에 제시된 모범 사례는 이메일의 보안을 강화하는 동시에 ProtonMail의 고급 기능을 활용하는 데 도움이 될 것입니다:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## 2FA로 보호
 
@@ -596,12 +613,12 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 2단계 인증(2FA)은 온라인 계정을 보호하는 데 필수적인 요소가 되었습니다. 이 튜토리얼에서는 계정을 보호하기 위해 동적 6자리 코드를 생성하는 2단계 인증 앱 Authy를 설정하고 사용하는 방법을 알아보세요. Authy는 사용이 매우 간편하고 여러 디바이스에서 동기화됩니다. 지금 바로 Authy를 설치하고 구성하여 온라인 계정의 보안을 강화하는 방법을 알아보세요:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 또 다른 옵션은 물리적 보안 키를 사용하는 것입니다. 이 추가 튜토리얼에서는 보안 키를 두 번째 인증 요소로 설정하고 사용하는 방법을 설명합니다:
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## 비밀번호 관리자 만들기
 
@@ -615,12 +632,12 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 이 튜토리얼에서는 오픈 소스 비밀번호 관리 프로그램인 Bitwarden을 설정하는 방법과 모든 장치에서 자격 증명을 동기화하여 일상적인 사용을 간소화하는 방법에 대해 알아보세요:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 고급 사용자를 위해 로컬에서 비밀번호 관리에 사용할 수 있는 또 다른 무료 오픈 소스 소프트웨어에 대한 튜토리얼도 제공합니다:
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## 계정 보안
 
@@ -631,9 +648,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 이 두 튜토리얼에서는 온라인 계정을 보호하는 방법을 안내하고, 매일 비밀번호를 관리할 때 보다 안전한 방법을 점진적으로 채택하는 방법을 설명합니다.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## 브라우저 및 VPN 변경
 
@@ -647,14 +664,14 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 Bitcoin 결제를 허용하는 두 가지 신뢰할 수 있는 VPN 솔루션, 즉 IVPN과 Mullvad를 살펴보는 것을 추천합니다. 이 튜토리얼은 모든 기기에서 Mullvad 또는 IVPN을 설치, 구성 및 사용하는 방법을 안내합니다:
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 또한, 온라인 개인 정보 보호를 위해 특별히 설계된 브라우저인 토르 브라우저를 사용하는 방법을 알아보세요:
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## 백업 설정
 
@@ -665,12 +682,12 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 파일을 보호하는 것도 중요한 포인트입니다. 이 튜토리얼에서는 프로톤 드라이브를 사용해 효과적인 백업 전략을 구현하는 방법을 보여드립니다. 이 안전한 클라우드 솔루션을 사용해 3-2-1 방식을 적용하는 방법을 알아보세요. 데이터 사본을 두 개의 다른 미디어에 세 개, 한 개는 오프사이트에 복사하는 방식입니다. 이렇게 하면 중요한 파일에 대한 접근성과 보안을 보장할 수 있습니다:
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 또한 USB 드라이브나 외장형 Hard 드라이브와 같은 이동식 미디어에 저장된 파일을 보호하기 위해 VeraCrypt를 사용하여 이러한 미디어를 쉽게 암호화하고 해독하는 방법도 알려드립니다:
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # 더 알아보기
 
@@ -682,6 +699,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
+
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
 
 
 ### 사이버 보안: 무한한 기회가 있는 성장하는 분야: 사이버 보안
@@ -728,13 +747,15 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 이러한 기술과 도구를 숙지하면 사이버 보안의 세계를 성공적으로 탐색할 수 있는 역량을 갖추게 됩니다.
 
-![](assets/notext/20.webp)
+![image](assets/ko/020.webp)
 
 
 ## 르노와의 인터뷰
 
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 
 ### 효율적인 비밀번호 관리 및 인증 강화: 학문적 접근 방식
@@ -748,7 +769,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 비밀번호 관리자는 일반적으로 2단계 인증과 같은 추가 인증 요소의 사용을 권장합니다. 최적의 보안을 위해 모바일 디바이스에 OTP(일회용 비밀번호)를 보관하는 것이 좋습니다. AndOTP는 모바일 디바이스에서 일회용 비밀번호(OTP) 코드를 생성하고 저장할 수 있는 오픈 소스 솔루션을 제공합니다. Google 인증기를 사용하면 인증 코드 시드를 내보낼 수 있지만, Google 계정의 백업에 대한 신뢰는 여전히 제한적입니다. 따라서 자율적인 OTP 관리를 위해서는 OTI 및 AndoTP 애플리케이션을 사용하는 것이 좋습니다.
 
-![](assets/notext/21.webp)
+![image](assets/ko/021.webp)
 
 디지털 상속과 디지털 애도의 문제는 사람이 사망한 후 비밀번호를 전송하는 절차를 마련하는 것의 중요성을 강조합니다. 비밀번호 관리자는 모든 디지털 비밀을 한 곳에 안전하게 저장하여 이러한 전환을 용이하게 합니다. 또한 비밀번호 관리자를 사용하면 모든 개설된 계정을 식별하고 폐쇄 또는 이전을 관리할 수 있습니다. 마스터 비밀번호는 종이에 적어두는 것이 좋지만, 잘 보이지 않는 안전한 곳에 보관하는 것이 좋습니다. Hard 드라이브가 암호화되어 있고 컴퓨터가 잠겨 있으면 도난을 당하더라도 비밀번호에 액세스할 수 없습니다.
 

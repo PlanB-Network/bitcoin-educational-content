@@ -1,0 +1,8 @@
+question: Tại sao việc chứng minh tính bảo mật của Bitcoin là gần như không thể mặc dù nó hoạt động hiệu quả trong thực tế?
+answer: Tính phức tạp và bản chất mơ hồ của hệ thống khiến cho các bằng chứng bảo mật chính thức trở nên không khả thi, không giống như các giao thức đơn giản hơn với các giả định rõ ràng
+wrong_answers:
+  - Các nhà phát triển Bitcoin cố tình tránh các bằng chứng chính thức để duy trì tính linh hoạt và cho phép sửa đổi giao thức trong tương lai
+  - Vấn đề logarit rời rạc và các giả định mật mã quá phức tạp đối với các kỹ thuật chứng minh toán học hiện tại
+  - Bằng chứng bảo mật chính thức sẽ tiết lộ các lỗ hổng cho đối thủ, do đó chúng được các nhà phát triển cốt lõi giữ bí mật
+explanation: |
+  Như Jameson Lopp giải thích, Bitcoin được xây dựng mà không có thông số kỹ thuật hoặc mô hình bảo mật được xác định chính thức do tính phức tạp và mơ hồ vốn có của nó. Không giống như các hệ thống đơn giản hơn như giao thức ký kết với các giả định bảo mật rõ ràng, Bitcoin bao gồm nhiều thành phần tương tác, bao gồm mật mã, kinh tế học, lý thuyết trò chơi và hành vi con người. Sự phức tạp này khiến việc tạo ra các bằng chứng toán học chính thức về bảo mật là bất khả thi, mặc dù hệ thống chứng minh được tính bảo mật thực tế thông qua hoạt động thực tế.

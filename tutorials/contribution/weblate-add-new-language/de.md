@@ -1,16 +1,16 @@
 ---
 name: Weblate - Hinzufügen einer neuen Sprache
-description: Wie können Sie eine neue Sprache zum Plan ₿ Network hinzufügen?
+description: Wie können Sie eine neue Sprache zum Plan ₿ Academy hinzufügen?
 ---
 ![cover](assets/cover.webp)
 
-Plan ₿ Network hat es sich zur Aufgabe gemacht, erstklassige Bildungsressourcen zu Bitcoin bereitzustellen und sie in so viele Sprachen wie möglich zu übersetzen. Ein Großteil der auf der Website veröffentlichten Inhalte ist quelloffen und wird auf GitHub gehostet, so dass sich jeder an der Bereicherung der Plattform beteiligen kann. Beiträge können verschiedene Formen annehmen: Korrektur und Korrekturlesen bestehender Inhalte, Aktualisierung von Informationen oder die Erstellung neuer Anleitungen, die der Plattform hinzugefügt werden.
+Plan ₿ Academy hat es sich zur Aufgabe gemacht, erstklassige Bildungsressourcen zu Bitcoin bereitzustellen und sie in so viele Sprachen wie möglich zu übersetzen. Ein Großteil der auf der Website veröffentlichten Inhalte ist quelloffen und wird auf GitHub gehostet, so dass sich jeder an der Bereicherung der Plattform beteiligen kann. Beiträge können verschiedene Formen annehmen: Korrektur und Korrekturlesen bestehender Inhalte, Aktualisierung von Informationen oder die Erstellung neuer Anleitungen, die der Plattform hinzugefügt werden.
 
 Unsere Website bietet derzeit eine Reihe von Sprachen, und wir arbeiten ständig daran, weitere hinzuzufügen. Um den Übersetzungsprozess für unser Frontend zu verbessern, verwenden wir das Tool Weblate, das uns hilft, effizient zusammenzuarbeiten und Übersetzungen zu verwalten. Es ist ein benutzerfreundliches Tool.
 
 Wenn Ihre Muttersprache noch nicht auf unserer Website verfügbar ist und Sie sie hinzufügen möchten, ist dieses Tutorial genau das Richtige für Sie!
 
-Nehmen Sie zunächst Kontakt mit dem Team des Plan ₿ Network über unsere [Telegram-Gruppe] (https://t.me/PlanBNetwork_ContentBuilder) auf. Wenn Sie kein Telegram haben, können Sie eine E-Mail an mari@planb.network senden. Stellen Sie sicher, dass Sie eine kleine Präsentation darüber schreiben, wer Sie sind und welche Sprachen Sie sprechen.
+Nehmen Sie zunächst Kontakt mit dem Team des Plan ₿ Academy über unsere [Telegram-Gruppe] (https://t.me/PlanBNetwork_ContentBuilder) auf. Wenn Sie kein Telegram haben, können Sie eine E-Mail an mari@planb.network senden. Stellen Sie sicher, dass Sie eine kleine Präsentation darüber schreiben, wer Sie sind und welche Sprachen Sie sprechen.
 
 ## Prüfen, ob eine Sprache auf dem Weblate vorhanden ist
 
@@ -28,10 +28,10 @@ Um zu prüfen, ob Ihre Sprache bereits zu den Sprachen gehört, an denen wir arb
 
 Wenn Ihre Sprache in dieser Liste enthalten ist, müssen Sie sie nicht erneut hinzufügen. Um einen Beitrag zum Korrekturlesen des Weblate zu leisten, lesen Sie bitte die folgende Anleitung:
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 Wenn Ihre Sprache dort nicht vorhanden ist, folgen Sie der nachstehenden Anleitung, um sie hinzuzufügen.
 
-## Hinzufügen einer neuen Sprache zum Plan ₿ Network
+## Hinzufügen einer neuen Sprache zum Plan ₿ Academy
 
 
 - Der erste Schritt besteht darin, ein Konto bei Weblate zu erstellen, indem Sie auf "Registrieren" in der oberen rechten Ecke klicken (falls Sie Hilfe benötigen, können Sie auf die oben erwähnte Anleitung zurückgreifen).
@@ -64,8 +64,8 @@ Wenn Ihre Sprache dort nicht vorhanden ist, folgen Sie der nachstehenden Anleitu
 
 Um sich durch den Übersetzungsprozess führen zu lassen, lesen Sie bitte unser spezielles Tutorial weiter unten:
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
-Herzlichen Glückwunsch, Sie haben mit der Übersetzung der statischen Elemente auf der Website des Plan ₿ Network begonnen!
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+Herzlichen Glückwunsch, Sie haben mit der Übersetzung der statischen Elemente auf der Website des Plan ₿ Academy begonnen!
 
 Sie umfassen alle Strings auf der Website, mit Ausnahme der Bildungsinhalte (Kurse, Tutorials...), für die wir eine andere halbautomatische Methode verwenden (KI-Übersetzung + Korrekturlesen durch Mitarbeiter).
 

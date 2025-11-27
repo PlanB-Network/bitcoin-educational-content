@@ -6,3 +6,4 @@ wrong_answers:
   - Nadogradnja je izazvala trajno razdvajanje lanca jer se rudari i korisnici nisu složili oko detalja implementacije.
 explanation: |
   Incident BIP66 otkrio je kritičnu manu u soft fork-ovima aktiviranim od strane rudara: signalizacija spremnosti ne garantuje stvarnu validaciju. Iako je 95% rudara naznačilo da su spremni za nadogradnju, otprilike polovina nije pravilno validirala nova pravila i greškom su rudili na nevažećem bloku. Ovo je pokazalo da signalizacija hash snage može biti obmanjujuća i ne osigurava pravilnu implementaciju, što je bio jedan od ključnih argumenata Shaolinfry-a za predlaganje User Activated Soft Forks kao pouzdanijeg mehanizma nadogradnje.
+reviewed: false

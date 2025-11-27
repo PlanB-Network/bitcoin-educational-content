@@ -6,3 +6,4 @@ wrong_answers:
   - Det reduserer den totale hashraten i nettverket ettersom utvinnerne bruker ressurser på konnektivitet i stedet for mining
 explanation: |
   Kapittelet forklarer at når blokkstørrelsen øker, øker også spredningen, noe som fører til flere uaktuelle blokker. For å unngå å miste blokkbelønninger fra uaktuelle blokker, søker utvinnere etter bassenger med bedre båndbredde og tilkoblingsmuligheter. Dette presser utvinnere mot større, godt tilkoblede bassenger, noe som reduserer mining-desentraliseringen. De andre alternativene er feil: Vanskelighetsgraden justeres automatisk uavhengig av bassengtilkobling, tilkoblingskostnader skaper ikke ekstra transaksjonsgebyrer, og utvinnere reduserer ikke hashraten når de blir med i bassenger med bedre tilkobling.
+reviewed: false

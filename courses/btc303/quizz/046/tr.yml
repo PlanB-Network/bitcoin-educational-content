@@ -6,3 +6,4 @@ wrong_answers:
   - Çevrimiçi sistemler işlemleri daha hızlı gerçekleştirerek düşmanların koordineli saldırılar düzenlemesini kolaylaştırır
 explanation: |
   Andrew Poelstra tarafından vurgulanan temel ayrım, fiziksel sistemlerin saldırıları caydırmak için kolluk kuvvetlerine ve düşmanların görünürlüğüne güvenebileceği, hatta binaların yakılması gibi bazı riskleri kabul edebileceğidir. Ancak Bitcoin gibi çevrimiçi sistemler, düşmanların takma isimle ya da anonim olarak hareket edebildiği, her yerden bağlanabildiği ve tespit edilmeden ya da yakalanmadan zayıflıklardan yararlanabildiği bir ortamda çalışır. Bu temel fark, Bitcoin'deki bilinen tüm zayıflıkların ele alınması gerektiği anlamına gelir, çünkü bunlar kaçınılmaz olarak gerçek dünyada hiçbir sonuçla karşılaşmayan görünmez düşmanlar tarafından istismar edilecektir.
+reviewed: false

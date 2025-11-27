@@ -6,3 +6,4 @@ wrong_answers:
   - Jede Schwachstelle isoliert bewerten, ohne zu berücksichtigen, wie mehrere kleinere Probleme zu größeren Sicherheitsrisiken führen können
 explanation: |
   Maxwell argumentiert, dass Entwickler Schwachstellen als schwerwiegender ansehen sollten, als sie erscheinen, weil schwer auszunutzende Probleme mit der richtigen Technik trivial werden können und scheinbar geringfügige Probleme zu ernsthaften Bedrohungen eskalieren können. Er betont, dass einfache Leistungsfehler als Waffe eingesetzt werden können, um das Netzwerk zu partitionieren und double-spending-Angriffe zu ermöglichen. Mit diesem konservativen Ansatz wird anerkannt, dass Entwickler anfangs möglicherweise nicht das volle Ausnutzungspotenzial einer Schwachstelle verstehen, so dass es ratsam ist, vom schlimmsten Fall auszugehen, anstatt die Bedrohung zu unterschätzen.
+reviewed: false

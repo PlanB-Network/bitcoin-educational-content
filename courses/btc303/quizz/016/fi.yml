@@ -6,3 +6,4 @@ wrong_answers:
   - Sen päälle ei voida rakentaa lisäjärjestelmiä
 explanation: |
   Bitcoin:n luotettava pohjakerros tarjoaa perustan, jonka päälle voidaan rakentaa joustavasti erityyppisiä järjestelmiä. Kuten Matt Corallo selitti, luotettavien järjestelmien päälle ei voi rakentaa epäluotettavia järjestelmiä, mutta epäluotettavien järjestelmien päälle voi rakentaa luotettavia järjestelmiä (kuten säilytyslompakoita). Tämä tarkoittaa, että Bitcoin:n luotettava perusta tukee sekä luotettavia sovelluksia että luotettavia palveluita, mikä antaa järjestelmäsuunnittelijoille vapauden valita sopivat kompromissit pakottamatta samoja kompromisseja kaikille muille pohjakerrosta käyttäville.
+reviewed: false

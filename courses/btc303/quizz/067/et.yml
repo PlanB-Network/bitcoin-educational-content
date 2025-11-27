@@ -6,3 +6,4 @@ wrong_answers:
   - Allkirjade kontrollimise jõudluse parandamine plokkide kiiremaks töötlemiseks
 explanation: |
   Peatükis määratletakse Bitcoin skaleerimine selgesõnaliselt kui "Bitcoin kasutusvõimsuse suurendamine ilma tsensuurikindlusele vastu pidamata" Õige vastus rikub seda määratlust, sest see, et kasutajad peavad usaldama tsentraliseeritud makseprotsessoreid, seab otseselt ohtu Bitcoin tsensuurikindluse - mis on üks peamisi väärtuspakkumisi. Kõik valed vastused esindavad peatükis mainitud õiguspäraseid skaleerimise lähenemisviise: tõhus kodeerimine vähendab ressursikasutust, kihilised lahendused võimaldavad täiendavat võimsust, säilitades samal ajal baaskihi omadused, ja täiustatud allkirjade kontrollimine suurendab jõudlust ilma tsentraliseerimise kompromissideta.
+reviewed: false

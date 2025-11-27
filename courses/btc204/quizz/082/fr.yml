@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Afin d'éviter que le coordinateur puisse lier un output spécifique avec un input, les utilisateurs changent d'identité Tor avant d'envoyer leurs adresses de réception en clair au coordinateur.
 
-reviewed: false
+reviewed: true 

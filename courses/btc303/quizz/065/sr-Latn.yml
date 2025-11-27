@@ -6,3 +6,4 @@ wrong_answers:
   - Veći blokovi stvaraju više sukoba transakcija između blokova koji se takmiče, što otežava određivanje koji blok treba prihvatiti.
 explanation: |
   Tačan odgovor identifikuje osnovni mehanizam iza zastarelih blokova. Kada su blokovi veći, zahtevaju više propusnog opsega za prenos između čvorova i više vremena za validaciju. Tokom ovog produženog perioda propagacije, više rudara može pronaći konkurentske blokove na istoj visini jer još nisu primili najnoviji blok. Ovo stvara uslov trke gde samo jedan blok može biti prihvaćen, čineći ostale zastarelim. Pogrešni odgovori mešaju ovaj problem propagacije sa mining težinom, mehanizmima konsenzusa ili sukobima transakcija, što su odvojeni problemi od vremenskog problema koji uzrokuje zastarele blokove.
+reviewed: false

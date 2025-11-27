@@ -2,8 +2,8 @@ question: Ni kifaa gani kinachopendekezwa kupata pesa zilizokusanywa kwa muda mr
 answer: Hardware Wallet
 wrong_answers:
   - Hot Wallet
-  - Umeme Wallet
+  - Lightning Wallet
   - Jukwaa la Exchange
 explanation: |
   Hardware Wallet huhifadhi funguo za faragha nje ya mtandao, na kutoa usalama ulioimarishwa kwa kiasi kikubwa kwa muda mrefu.
-reviewed: false
+reviewed: true

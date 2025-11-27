@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin jaguneb mitmeks paralleelseks ahelaks, et jaotada arvutuskoormust, säilitades samal ajal kõigile kasutajatele samad julgeolekutagatised
 explanation: |
   Maxwell tuvastas põhimõttelise kompromissi, mille puhul liigsed ressursinõuded suruvad kasutajaid pigem usaldusväärsete kolmandate osapoolte kui sõltumatu valideerimise poole. Kui valideerimiskulud muutuvad ülemääraseks, ei saa kasutajad endale lubada täielikke sõlmpunkte ja peavad toetuma teistele, mis õõnestab Bitcoin usaldusteta olemust. Valed vastused viitavad ebaõigesti kasulikele tulemustele (suurem turvalisus, automaatsed kohandused või säilitatud garantiid), kui suur ressursikasutus sunnib tegelikult tsentraliseerimist ja usaldussõltuvust.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - I cambiamenti Soft fork diventano permanenti e non possono essere modificati una volta che i minatori li attivano
 explanation: |
   Shaolinfry ha individuato che la segnalazione dei minatori crea un sistema di veto naturale in cui anche una piccola percentuale di hashrate può impedire l'attivazione degli aggiornamenti per l'intera rete. Questa "inerzia all'aggiornamento" diventa più problematica man mano che il mining diventa più decentralizzato, bloccando potenzialmente miglioramenti vantaggiosi del protocollo. Le altre opzioni travisano il funzionamento dei soft fork: i minatori non possono annullare unilateralmente le attivazioni, i nodi economici mantengono l'autorità di convalida e i soft fork possono teoricamente essere modificati attraverso aggiornamenti successivi.
+reviewed: false

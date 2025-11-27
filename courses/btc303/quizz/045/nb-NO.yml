@@ -6,3 +6,4 @@ wrong_answers:
   - Aktivering av den harde fork umiddelbart uten å gi brukerne tilstrekkelig tid til å oppgradere nodeprogramvaren
 explanation: |
   Ifølge Eric Lombrozos analyse var Satoshis problematiske fremgangsmåte å skjule en konsensusbrytende endring i en commit med en villedende beskrivelse som bare nevnte "reverted makefile.unix wx-config version 0.3.6" uten noen indikasjon på de konsensusbrytende endringene. Denne praksisen med å skjule kritiske konsensusendringer i uskyldig utseende commits ville blitt ansett som uakseptabel etter dagens standarder, der åpenhet og tydelig kommunikasjon om konsensusendringer er grunnleggende prinsipper for Bitcoin-utvikling.
+reviewed: false

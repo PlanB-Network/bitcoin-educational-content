@@ -14,7 +14,7 @@ Tailscale ni VPN ya kizazi kijacho ambayo huunda mtandao wa matundu uliosimbwa k
 
 
 
-Kwa upangishaji binafsi, Tailscale hupa kila kifaa IP ya faragha isiyobadilika katika mtandao pepe, inayotoa ufikiaji thabiti kwa huduma zako hata IP yako ya umma inapobadilika. Hii inamaanisha kuwa unaweza kudhibiti seva zako ukiwa mbali, bila kufichua huduma zako moja kwa moja kwenye Mtandao.
+Kwa upangishaji binafsi, Tailscale hupa kila kifaa IP ya faragha isiyobadilika katika mtandao pepe, inayotoa ufikiaji thabiti kwa huduma zako hata IP yako ya umma inapobadilika. Hii inamaanisha kuwa unaweza kudhibiti  server zako ukiwa mbali, bila kufichua huduma zako moja kwa moja kwenye Mtandao.
 
 
 
@@ -23,8 +23,8 @@ Kwa upangishaji binafsi, Tailscale hupa kila kifaa IP ya faragha isiyobadilika k
 
 
 
-- Dhibiti seva ya kibinafsi kutoka nje
-- Dhibiti nodi za Mwavuli/Umeme haraka kuliko Tor
+- Dhibiti  server ya kibinafsi kutoka nje
+- Dhibiti  node za  umbrel/ lightning haraka kuliko Tor
 - Ufikiaji salama wa Raspberry Pi au NAS
 - Unganisha kwenye huduma zako kupitia SSH au HTTP bila usanidi changamano wa mtandao
 
@@ -38,18 +38,18 @@ Mbinu hii inayozingatia urahisi huwezesha wapangaji binafsi kufikia huduma zao k
 
 
 
-Tofauti na VPN za kitamaduni, ambazo hupitisha trafiki yote kupitia seva kuu, Tailscale huunda mtandao wa matundu ambapo vifaa vinawasiliana moja kwa moja. Seva ya kati hushughulikia tu uthibitishaji na usambazaji wa ufunguo, bila kuona data ya mtumiaji.
+Tofauti na VPN za kitamaduni, ambazo hupitisha trafiki yote kupitia  server kuu, Tailscale huunda mtandao wa matundu ambapo vifaa vinawasiliana moja kwa moja.  server ya kati hushughulikia tu uthibitishaji na usambazaji wa ufunguo, bila kuona data ya mtumiaji.
 
 
 
 ![VPN traditionnel (hub-and-spoke)](assets/fr/01.webp)
 
 
-*Kielelezo cha 1: VPN ya Jadi iliyo na usanifu wa kitovu-na-kuzungumza ambapo trafiki yote hupitia seva kuu*
+*Kielelezo cha 1: VPN ya Jadi iliyo na usanifu wa kitovu-na-kuzungumza ambapo trafiki yote hupitia  server kuu*
 
 
 
-Kulingana na WireGuard, kila kifaa hutengeneza funguo zake za kriptografia. Seva ya uratibu husambaza funguo za umma kwa nodi, ambazo huanzisha vichuguu vilivyosimbwa kutoka mwisho hadi mwisho moja kwa moja kati yao. Ili kupitia ngome, Tailscale hutumia NAT traversal na, kama suluhisho la mwisho, relay za DERP ambazo hudumisha usimbaji fiche.
+Kulingana na WireGuard, kila kifaa hutengeneza funguo zake za kriptografia.  server ya uratibu husambaza funguo za umma kwa  node, ambazo huanzisha vichuguu vilivyosimbwa kutoka mwisho hadi mwisho moja kwa moja kati yao. Ili kupitia ngome, Tailscale hutumia NAT traversal na, kama suluhisho la mwisho, relay za DERP ambazo hudumisha usimbaji fiche.
 
 
 
@@ -60,19 +60,19 @@ Kulingana na WireGuard, kila kifaa hutengeneza funguo zake za kriptografia. Seva
 
 
 
-Mawasiliano yote yamesimbwa kwa njia fiche kwa WireGuard. Tailscale huona metadata (miunganisho) pekee lakini kamwe haioni maudhui ya ubadilishanaji. Kwa uhuru zaidi, Mizani ya kichwa huwezesha seva ya uratibu kujiendesha yenyewe.
+Mawasiliano yote yamesimbwa kwa njia fiche kwa WireGuard. Tailscale huona metadata (miunganisho) pekee lakini kamwe haioni maudhui ya ubadilishanaji. Kwa uhuru zaidi, Mizani ya kichwa huwezesha  server ya uratibu kujiendesha yenyewe.
 
 
 
-**Usalama na usiri:** Shukrani kwa WireGuard, mawasiliano yote kwenye Tailscale yamesimbwa kwa njia fiche kutoka mwanzo hadi mwisho. Tailscale haiwezi kusoma trafiki yako - ni vifaa vyako pekee vilivyo na funguo muhimu za faragha. Huduma huona metadata pekee: Anwani za IP, majina ya vifaa, mihuri ya muda ya muunganisho na kumbukumbu za muunganisho wa programu-jalizi (bila maudhui).
+**Usalama na usiri:** Shukrani kwa WireGuard, mawasiliano yote kwenye Tailscale yamesimbwa kwa njia fiche kutoka mwanzo hadi mwisho. Tailscale haiwezi kusoma trafiki yako - ni vifaa vyako pekee vilivyo na funguo muhimu za faragha. Huduma huona metadata pekee: IP Address, majina ya vifaa, mihuri ya muda ya muunganisho na kumbukumbu za muunganisho wa programu-jalizi (bila maudhui).
 
 
 
-Hata hivyo, usanifu huu unategemea Tailscale Inc. kwa uratibu wa mtandao. Ili kuondoa utegemezi huu, Headscale inatoa mbadala wa chanzo huria ambayo inakuruhusu kupangisha seva ya udhibiti huku ukitumia wateja rasmi wa Tailscale, na hivyo kuhakikishia uhuru kamili juu ya miundombinu ya mtandao wako, kwa gharama ya usanidi wa kiufundi zaidi.
+Hata hivyo, usanifu huu unategemea Tailscale Inc. kwa uratibu wa mtandao. Ili kuondoa utegemezi huu, Headscale inatoa mbadala wa chanzo huria ambayo inakuruhusu kupangisha  server ya udhibiti huku ukitumia wateja rasmi wa Tailscale, na hivyo kuhakikishia uhuru kamili juu ya miundombinu ya mtandao wako, kwa gharama ya usanidi wa kiufundi zaidi.
 
 
 
-**Kwa maelezo ya kina kuhusu utendakazi wa ndani wa Tailscale, ikiwa ni pamoja na udhibiti wa udhibiti wa ndege, NAT traversal na relay za DERP, tunapendekeza makala bora** [Jinsi Tailscale Inavyofanya kazi](https://tailscale.com/blog/how-tailscale-works) **kwenye blogu rasmi. Nakala hii inaelezea kwa kina dhana za kiufundi zinazofanya Tailscale kuwa na nguvu sana.**
+Kwa maelezo ya kina kuhusu utendakazi wa ndani wa Tailscale, ikiwa ni pamoja na udhibiti wa udhibiti wa ndege, NAT traversal na relay za DERP, tunapendekeza makala bora [Jinsi Tailscale Inavyofanya kazi](https://tailscale.com/blog/how-tailscale-works) kwenye blogu rasmi. Nakala hii inaelezea kwa kina dhana za kiufundi zinazofanya Tailscale kuwa na nguvu sana.
 
 
 
@@ -139,7 +139,7 @@ Ukishafungua akaunti yako, unaweza kusakinisha Tailscale kwenye vifaa vyako:
 
 
 
-- Kwenye Windows na macOS: Pakua kwa urahisi programu tumizi kutoka kwa tovuti rasmi ya Tailscale na uisakinishe (faili.msi kwenye Windows, faili ya .dmg kwenye Mac). Mara baada ya kusakinishwa, programu itazindua Interface ya mchoro ambayo hukuruhusu kuunganisha (kupitia kivinjari) kwenye akaunti yako ya Tailscale ili kuthibitisha mashine.
+- **Kwenye Windows na macOS:** Pakua kwa urahisi programu tumizi kutoka kwa tovuti rasmi ya Tailscale na uisakinishe (faili.msi kwenye Windows, faili ya .dmg kwenye Mac). Mara baada ya kusakinishwa, programu itazindua Interface ya mchoro ambayo hukuruhusu kuunganisha (kupitia kivinjari) kwenye akaunti yako ya Tailscale ili kuthibitisha mashine.
 
 
 
@@ -159,7 +159,7 @@ Ukishafungua akaunti yako, unaweza kusakinisha Tailscale kwenye vifaa vyako:
 
 
 
-- Kwenye Linux (Debian, Ubuntu, n.k.): Una chaguo kadhaa. Njia rahisi ni kuendesha hati rasmi ya usakinishaji: kwa mfano, kwenye Debian/Ubuntu:
+- **Kwenye Linux (Debian, Ubuntu, n.k.):** Una chaguo kadhaa. Njia rahisi ni kuendesha hati rasmi ya usakinishaji: kwa mfano, kwenye Debian/Ubuntu:
 
 
 
@@ -169,19 +169,19 @@ curl -fsSL https://tailscale.com/install.sh | sh
 
 
 
-Hati hii itaongeza hazina rasmi ya Tailscale na kusakinisha kifurushi. Unaweza pia [kuongeza mwenyewe hazina ya APT](https://pkgs.tailscale.com) au kutumia Snap au vifurushi vinavyofaa. Baada ya kusakinishwa, daemon `tailscaled` itaendeshwa chinichini. Kisha utahitaji **kuthibitisha nodi** (tazama Interface CLI dhidi ya wavuti hapa chini). Kwenye usambazaji mwingine (Fedora, Arch...), kifurushi kinapatikana pia kupitia hazina za kawaida au hati ya usakinishaji ya ulimwengu wote. Kwa seva isiyo na kichwa, tumia CLI: kwa mfano `sudo tailscale up --auth-key <key>` ikiwa unatumia ufunguo wa uthibitishaji uliotolewa awali, au tu `tailscale up` kwa kuingia kwa maingiliano (ambayo itatoa URL ya kutembelea ili kuthibitisha kifaa).
+Hati hii itaongeza hazina rasmi ya Tailscale na kusakinisha kifurushi. Unaweza pia [kuongeza mwenyewe hazina ya APT](https://pkgs.tailscale.com) au kutumia Snap au vifurushi vinavyofaa. Baada ya kusakinishwa, daemon `tailscaled` itaendeshwa chinichini. Kisha utahitaji **kuthibitisha  node** (tazama Interface CLI dhidi ya wavuti hapa chini). Kwenye usambazaji mwingine (Fedora, Arch...), kifurushi kinapatikana pia kupitia hazina za kawaida au hati ya usakinishaji ya ulimwengu wote. Kwa  server isiyo na kichwa, tumia CLI: kwa mfano `sudo tailscale up --auth-key <key>` ikiwa unatumia ufunguo wa uthibitishaji uliotolewa awali, au tu `tailscale up` kwa kuingia kwa maingiliano (ambayo itatoa URL ya kutembelea ili kuthibitisha kifaa).
 
 
 
 
 
-- Kwenye mifumo inayotegemea ARM (Raspberry Pi, n.k.): Kwa ujumla tuko kwenye Linux, kwa hivyo mbinu sawa na hapo juu (hati au kifurushi). Kumbuka kuwa Tailscale inasaidia usanifu wa ARM32/ARM64 bila matatizo yoyote. Watumiaji wengi husakinisha Tailscale kwenye Raspberry Pi OS kupitia apt au kwa usambazaji nyepesi (DietPi, n.k.) ili kufikia Pi zao kila mahali.
+- **Kwenye mifumo inayotegemea ARM (Raspberry Pi, n.k.):** Kwa ujumla tuko kwenye Linux, kwa hivyo mbinu sawa na hapo juu (hati au kifurushi). Kumbuka kuwa Tailscale inasaidia usanifu wa ARM32/ARM64 bila matatizo yoyote. Watumiaji wengi husakinisha Tailscale kwenye Raspberry Pi OS kupitia apt au kwa usambazaji nyepesi (DietPi, n.k.) ili kufikia Pi zao kila mahali.
 
 
 
 
 
-- **Kwenye iOS na Android:** Tailscale hutoa **programu rasmi** za simu. Sakinisha kwa urahisi *Tailscale* kutoka kwenye [App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) au [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android).
+- Kwenye iOS na Android:** Tailscale hutoa **programu rasmi** za simu. Sakinisha kwa urahisi *Tailscale* kutoka kwenye [App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) au [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android).
 
 
 
@@ -261,13 +261,13 @@ Dashibodi ya usimamizi wa wavuti hukuruhusu kutazama na kudhibiti vifaa vyako vy
 
 
 
-- **Interface Web (Dashibodi ya Msimamizi)**: inapatikana katika [https://login.tailscale.com](https://login.tailscale.com), dashibodi hii ya wavuti ndiyo dashibodi kuu ya mtandao wako wa Tailscale. Inaorodhesha vifaa vyote (*Mashine*), hali yao ya mtandaoni/nje ya mtandao, anwani zao za IP za Tailscale na zaidi. Hapa unaweza **kudhibiti vifaa** (kubadilisha jina, funguo za kuisha muda, kuidhinisha njia, kuzima nodi), **kudhibiti watumiaji** (katika muktadha wa shirika), na kufafanua sheria za usalama (ACLs). Hapa ndipo unaposanidi chaguo za kimataifa kama vile MagicDNS, lebo, au vitufe vya uthibitishaji (vifunguo vya uthibitishaji wa pre-generate kwa nyongeza ya kifaa kiotomatiki). Wavuti ya Interface ni rahisi sana kwa kupata muhtasari na kutumia mabadil
+- **Interface Web (Dashibodi ya Msimamizi)**: inapatikana katika [https://login.tailscale.com](https://login.tailscale.com), dashibodi hii ya wavuti ndiyo dashibodi kuu ya mtandao wako wa Tailscale. Inaorodhesha vifaa vyote (*Mashine*), hali yao ya mtandaoni/nje ya mtandao, anwani zao za IP za Tailscale na zaidi. Hapa unaweza **kudhibiti vifaa** (kubadilisha jina, funguo za kuisha muda, kuidhinisha njia, kuzima  node), **kudhibiti watumiaji** (katika muktadha wa shirika), na kufafanua sheria za usalama (ACLs). Hapa ndipo unaposanidi chaguo za kimataifa kama vile MagicDNS, lebo, au vitufe vya uthibitishaji (vifunguo vya uthibitishaji wa pre-generate kwa nyongeza ya kifaa kiotomatiki). Wavuti ya Interface ni rahisi sana kwa kupata muhtasari na kutumia mabadiliko ambayo yataenezwa kupitia  server ya uratibu kwa  node zote. *Mfano:* Kuwasha **njia ndogo** au ** node ya kutoka** hufanywa kwa mbofyo mmoja kwenye kiweko, mara tu  node husika itakapojitangaza hivyo.
 
 
 
 
 
-- Laini ya amri ya Interface (CLI): Amri ya `kiasi cha mkia` inapatikana katika CLI kwenye kila kifaa ambapo Tailscale imesakinishwa. CLI hii hukuruhusu kufanya kila kitu ndani ya nchi: unganisha (`ongeza kiwango cha mkia`), kagua hali (`hadhi ya umbo la mkia` ili kuona ni programu zipi zingine zimeunganishwa), suluhisha (`ping ya mkia <ip>`), na kadhalika. Baadhi ya vipengele hata **havipo kwa CLI** au mahiri zaidi, kwa mfano:
+- **Laini ya amri ya Interface (CLI):** Amri ya `kiasi cha Tail` inapatikana katika CLI kwenye kila kifaa ambapo Tailscale imesakinishwa. CLI hii hukuruhusu kufanya kila kitu ndani ya nchi: unganisha (`ongeza kiwango cha Tail`), kagua hali (`hadhi ya umbo la Tail` ili kuona ni programu zipi zingine zimeunganishwa), suluhisha (`ping ya Tail <ip>`), na kadhalika. Baadhi ya vipengele hata **havipo kwa CLI** au mahiri zaidi, kwa mfano:
 
 
 
@@ -277,11 +277,11 @@ Dashibodi ya usimamizi wa wavuti hukuruhusu kutazama na kudhibiti vifaa vyako vy
   - `tailscale up --advertise-exit-node` ili kupendekeza mashine yako kama njia ya kutoka,
   - `tailscale set --accept-routes=true` (au `--exit-node=<IP>`) kutumia njia au kutumia njia ya kutoka,
   - `tailscale ip -4` ili kuonyesha IP ya kifaa cha Tailscale,
-  - `kufuli/kufungua kwa umbo la mkia` (ikiwa unatumia *locknet-lock*, kipengele cha usalama cha hali ya juu),
-  - au `faili ya ukubwa wa mkia tuma <nodi>` kutumia **Taidrop** (uhamisho wa faili kati ya vifaa).
+  - `kufuli/kufungua kwa umbo la Tail` (ikiwa unatumia *locknet-lock*, kipengele cha usalama cha hali ya juu),
+  - au `faili ya ukubwa wa Tail tuma < node>` kutumia **Taidrop** (uhamisho wa faili kati ya vifaa).
 
 
-CLI ni muhimu sana kwenye seva zisizo na picha za Interface, na kwa kuandika vitendo fulani. **Tofauti katika matumizi:** Mipangilio mingi ya kimsingi inaweza kufanywa kupitia Wavuti au kupitia CLI. Kwa mfano, kuongeza kifaa hufanywa ama kwa kuuliza kupitia dashibodi, au kwa kuendesha `kuongeza mkia` kwenye kifaa na kuthibitisha kupitia wavuti. Vile vile, kubadilisha jina la kifaa kunaweza kufanywa kupitia kiweko au kwa `tailscale set --hostname`. **Kwa muhtasari**, dashibodi ya wavuti ni bora kwa usimamizi wa mtandao wa kimataifa (hasa ikiwa na mashine/watumiaji wengi), wakati CLI inafaa kwa udhibiti mzuri wa mashine fulani, hati za otomatiki, au matumizi kwenye mfumo bila GUI.
+CLI ni muhimu sana kwenye  server zisizo na picha za Interface, na kwa kuandika vitendo fulani. **Tofauti katika matumizi:** Mipangilio mingi ya kimsingi inaweza kufanywa kupitia Wavuti au kupitia CLI. Kwa mfano, kuongeza kifaa hufanywa ama kwa kuuliza kupitia dashibodi, au kwa kuendesha `kuongeza Tail` kwenye kifaa na kuthibitisha kupitia wavuti. Vile vile, kubadilisha jina la kifaa kunaweza kufanywa kupitia kiweko au kwa `tailscale set --hostname`. **Kwa muhtasari**, dashibodi ya wavuti ni bora kwa usimamizi wa mtandao wa kimataifa (hasa ikiwa na mashine/watumiaji wengi), wakati CLI inafaa kwa udhibiti mzuri wa mashine fulani, hati za otomatiki, au matumizi kwenye mfumo bila GUI.
 
 
 
@@ -289,7 +289,7 @@ CLI ni muhimu sana kwenye seva zisizo na picha za Interface, na kwa kuandika vit
 
 
 
-Umbrel ni jukwaa maarufu la mwenyeji binafsi (haswa linatumika kwa Bitcoin/nodi za Umeme na huduma zingine zinazojisimamia, kupitia Duka lake la Programu). Ili kusakinisha na kusanidi Umbrel, tunapendekeza ufuate mafunzo yetu maalum:
+Umbrel ni jukwaa maarufu la mwenyeji binafsi (haswa linatumika kwa Bitcoin/ node za  lightning na huduma zingine zinazojisimamia, kupitia Duka lake la Programu). Ili kusakinisha na kusanidi Umbrel, tunapendekeza ufuate mafunzo yetu maalum:
 
 
 
@@ -299,7 +299,7 @@ Kutumia Umbrel na Tailscale pamoja ni kesi ya utumiaji inayovutia sana, kwani Um
 
 
 
-### 4.1 Ufungaji na usanidi wa mwavuli
+### 4.1 Ufungaji na usanidi wa  umbrel
 
 
 
@@ -312,18 +312,18 @@ Kutumia Umbrel na Tailscale pamoja ni kesi ya utumiaji inayovutia sana, kwani Um
 ![Interface Umbrel avec l'application Tailscale](assets/fr/16.webp)
 
 
-*Ukurasa wa maombi ya mkia kwenye Duka la Programu ya Umbrel*
+*Ukurasa wa maombi ya Tail kwenye Duka la Programu ya Umbrel*
 
 
 
-Kutoka kwa Mwavuli wa Wavuti wa Interface, fungua Duka la Programu, tafuta **Tailscale** na ubofye *Sakinisha*. Sekunde chache baadaye, programu imewekwa kwenye Mwavuli. Unapoifungua, Umbrel huonyesha ukurasa unaokuruhusu kuunganisha nodi yako kwa Tailscale.
+Kutoka kwa  umbrel ya Wavuti ya Interface, fungua Duka la Programu, tafuta **Tailscale** na ubofye *Sakinisha*. Sekunde chache baadaye, programu imewekwa kwenye  umbrel. Unapoifungua, Umbrel huonyesha ukurasa unaokuruhusu kuunganisha  node yako kwa Tailscale.
 
 
 
 ![Écran de login Tailscale dans Umbrel](assets/fr/17.webp)
 
 
-*Skrini ya uunganisho wa sura ya mkia katika Interface ya Umbrel*
+*Skrini ya uunganisho wa sura ya Tail katika Interface ya Umbrel*
 
 
 
@@ -349,7 +349,7 @@ Unaweza kuthibitisha kupitia akaunti yako ya Tailscale (Google/GitHub/etc.) au u
 
 
 
-Baada ya kumaliza, Umbrel yako iko "katika" mtandao wako wa Tailscale na inaonekana kwenye kiweko chako na jina (k.m. *mwavuli*). Kisha unaweza kubofya IP Address ya vifaa vyako ili kuinakili, kupata IPv6 Address au MagicDNS yako inayohusishwa na kifaa chako.
+Baada ya kumaliza, Umbrel yako iko "katika" mtandao wako wa Tailscale na inaonekana kwenye kiweko chako na jina (k.m. * umbrel*). Kisha unaweza kubofya IP Address ya vifaa vyako ili kuinakili, kupata IPv6 Address au MagicDNS yako inayohusishwa na kifaa chako.
 
 
 
@@ -365,7 +365,7 @@ Baada ya kumaliza, Umbrel yako iko "katika" mtandao wako wa Tailscale na inaonek
 
 
 
-Mara baada ya Mwavuli kuunganishwa kwenye Tailscale, **unaweza kufikia Mwavuli wa Interface na programu zinazoendesha juu yake, kutoka popote, kana kwamba uko kwenye mtandao wa ndani**. Hii ni moja ya faida kuu juu ya Tor.
+Mara baada ya  umbrel kuunganishwa kwenye Tailscale, **unaweza kufikia  umbrel Interface na programu zinazoendesha juu yake, kutoka popote, kana kwamba uko kwenye mtandao wa ndani**. Hii ni moja ya faida kuu juu ya Tor.
 
 
 
@@ -379,43 +379,43 @@ Ufikiaji ni rahisi ajabu: badala ya kutumia `umbrel.local` (ambayo inafanya kazi
 
 
 
-- **Mwavuli mkuu wa Interface**: Fikia dashibodi yako ya Mwavuli kwa kuandika `http://100.x.y.z` katika kivinjari chako
-- **Bitcoin nodi**: Dhibiti nodi yako ya Bitcoin bila kusubiri, tazama usawazishaji na takwimu
-- **Njia ya Umeme**: Tumia ThunderHub, RTL au violesura vingine vya usimamizi wa Umeme kwa mwitikio wa haraka
+-  **umbrel ku wa Interface**: Fikia dashibodi yako ya  umbrel kwa kuandika `http://100.x.y.z` katika kivinjari chako
+- **Bitcoin  node**: Dhibiti  node yako ya Bitcoin bila kusubiri, tazama usawazishaji na takwimu
+- **Njia ya  lightning**: Tumia ThunderHub, RTL au violesura vingine vya usimamizi wa  lightning kwa mwitikio wa haraka
 - **Mempool**: Angalia miamala ya Bitcoin na Mempool bila ucheleweshaji wa Tor
-- **noStrudel**: Fikia huduma zako za Nostr zinazopangishwa kwenye Umbrel
+- **noStrude**: Fikia huduma zako za Nostr zinazopangishwa kwenye Umbrel
 
 
 
-**Unganisha pochi za nje kwa Bitcoin yako au nodi za umeme kupitia Tailscale:**
+**Unganisha  wallet za nje kwa Bitcoin yako au  node za   lightning kupitia Tailscale:**
 
 
 
-Tailscale pia huwezesha pochi zako za Bitcoin na Radi zilizosakinishwa kwenye vifaa vingine kuunganishwa moja kwa moja kwenye nodi yako ya Umbrel:
+Tailscale pia huwezesha  wallet zako za Bitcoin na Radi zilizosakinishwa kwenye vifaa vingine kuunganishwa moja kwa moja kwenye  node yako ya Umbrel:
 
 
 
 
 
-- **Sparrow wallet (Bitcoin)**: Wallet Bitcoin hii ya nje inaweza kuunganisha moja kwa moja kwenye seva yako ya Umbrel's Electrum kwa kutumia Tailscale IP Address:
+- **Sparrow wallet (Bitcoin)**: Wallet Bitcoin hii ya nje inaweza kuunganisha moja kwa moja kwenye  server yako ya Umbrel's Electrum kwa kutumia Tailscale IP Address:
 
 
 
 ![Configuration Electrum dans Sparrow](assets/fr/21.webp)
 
 
-*Kusanidi seva ya Electrum ya kibinafsi katika Sparrow wallet kwa kutumia Umbrel's Tailcale IP Address*
+*Kusanidi  server ya Electrum ya kibinafsi katika Sparrow wallet kwa kutumia Umbrel's Tailcale IP Address*
 
 
 
 ![Liste des serveurs Electrum dans Sparrow](assets/fr/22.webp)
 
 
-*Orodha ya lakabu za seva ya Electrum katika Sparrow yenye Umbrel Tailcale IP Address*
+*Orodha ya lakabu za  server ya Electrum katika Sparrow yenye Umbrel Tailcale IP Address*
 
 
 
-Soma mwongozo wetu kamili wa kusanidi Sparrow wallet na nodi yako ya Bitcoin:
+Soma mwongozo wetu kamili wa kusanidi Sparrow wallet na node yako ya Bitcoin:
 
 
 
@@ -424,18 +424,18 @@ https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-- **Zeus (Umeme)**: Umeme huu wa rununu wa Wallet unaweza kuunganisha kwenye nodi yako ya Umeme kwenye Mwavuli. Badala ya kusanidi sehemu ya mwisho kama `.onion', weka tu IP ya Tailscale ya Mwavuli wako na mlango wa API ya Umeme. Muunganisho utakuwa papo hapo ikilinganishwa na Tor.
+- **Zeus (lightning)**: lightning huu wa rununu wa Wallet unaweza kuunganisha kwenye  node yako ya  lightning kwenye  umbrel. Badala ya kusanidi sehemu ya mwisho kama `.onion', weka tu IP ya Tailscale ya  umbrel wako na mlango wa API ya  lightning. Muunganisho utakuwa papo hapo ikilinganishwa na Tor.
 
 
 
 ![Configuration Zeus avec IP Tailscale](assets/fr/23.webp)
 
 
-*Inasanidi Zeus ili iunganishwe na eneo la Umeme kupitia Tailscale* IP Address
+*Inasanidi Zeus ili iunganishwe na eneo la  lightning kupitia Tailscale* IP Address
 
 
 
-Ili kusanidi Zeus na nodi yako ya Umeme, angalia mafunzo yetu ya kina:
+Ili kusanidi Zeus na  node yako ya  lightning, angalia mafunzo yetu ya kina:
 
 
 
@@ -453,11 +453,11 @@ https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-
 
 
 
-Umbrel asili hutoa ufikiaji wa mbali kupitia Tor (kwa kutoa anwani `.onion` kwa huduma zake za wavuti). Ingawa Tor ina faida ya usiri (kutokujulikana) na haitaji usajili, watumiaji wengi hupata **Tor polepole na isiyo imara** kwa matumizi ya kila siku (kurasa hupakia polepole, muda umeisha, n.k.) - *"Mwavuli kupitia Tor ni polepole sana "* wengine wanalalamika.
+Umbrel asili hutoa ufikiaji wa mbali kupitia Tor (kwa kutoa anwani `.onion` kwa huduma zake za wavuti). Ingawa Tor ina faida ya usiri (kutokujulikana) na haitaji usajili, watumiaji wengi hupata **Tor polepole na isiyo imara** kwa matumizi ya kila siku (kurasa hupakia polepole, muda umeisha, n.k.) - *" umbrel kupitia Tor ni polepole sana "* wengine wanalalamika.
 
 
 
-Tailscale hutoa muunganisho wa **kasi zaidi, wa utulivu wa chini**, trafiki inapopita moja kwa moja (au kupitia relay ya haraka) badala ya kuruka kupitia nodi 3 za Tor. Zaidi ya hayo, Tailscale hutoa matumizi ya "mtandao wa ndani": IP za kibinafsi hutumiwa, na programu zinaweza kupangwa moja kwa moja (k.m. Hifadhi ya mtandao ya SMB kwenye \100.x.y.z).
+Tailscale hutoa muunganisho wa **kasi zaidi, wa utulivu wa chini**, trafiki inapopita moja kwa moja (au kupitia relay ya haraka) badala ya kuruka kupitia  node 3 za Tor. Zaidi ya hayo, Tailscale hutoa matumizi ya "mtandao wa ndani": IP za kibinafsi hutumiwa, na programu zinaweza kupangwa moja kwa moja (k.m. Hifadhi ya mtandao ya SMB kwenye \100.x.y.z).
 
 
 
@@ -465,7 +465,7 @@ Hiyo ilisema, Tor ina faida ya kugatuliwa na "nje ya sanduku" kwenye Umbrel, wak
 
 
 
-**Kuhitimisha**, kwa matumizi ya mwingiliano (Pochi za umeme, violesura vya mara kwa mara vya wavuti), Tailscale inatoa faraja na kasi ya kustahiki ikilinganishwa na Tor, kwa bei ya utegemezi kidogo kutoka nje. Watu wengi huchagua kutumia *zote mbili*: Tailscale kwa misingi ya kila siku, na Tor kama njia mbadala au kushiriki ufikiaji na mtu bila kuwaalika kwenye VPN yao.
+**Kuhitimisha**, kwa matumizi ya mwingiliano ( wallet za  lightning, violesura vya mara kwa mara vya wavuti), Tailscale inatoa faraja na kasi ya kustahiki ikilinganishwa na Tor, kwa bei ya utegemezi kidogo kutoka nje. Watu wengi huchagua kutumia *zote mbili*: Tailscale kwa misingi ya kila siku, na Tor kama njia mbadala au kushiriki ufikiaji na mtu bila kuwaalika kwenye VPN yao.
 
 
 
@@ -473,7 +473,7 @@ Hiyo ilisema, Tor ina faida ya kugatuliwa na "nje ya sanduku" kwenye Umbrel, wak
 
 
 
-Kwa kutumia Tailscale na Umbrel, unaepuka kufichua Umbrel kwenye Mtandao. Nodi ya Umbrel inaweza kufikiwa tu na vifaa vyako vingine vilivyoidhinishwa kwenye tailnet, na hivyo kupunguza kwa kiasi kikubwa eneo la mashambulizi (hakuna mlango ulio wazi kwa wageni, hakuna hatari ya kushambuliwa kwenye huduma ya wavuti kupitia Mtandao).
+Kwa kutumia Tailscale na Umbrel, unaepuka kufichua Umbrel kwenye Mtandao.Node ya Umbrel inaweza kufikiwa tu na vifaa vyako vingine vilivyoidhinishwa kwenye tailnet, na hivyo kupunguza kwa kiasi kikubwa eneo la mashambulizi (hakuna mlango ulio wazi kwa wageni, hakuna hatari ya kushambuliwa kwenye huduma ya wavuti kupitia Mtandao).
 
 
 
@@ -483,7 +483,7 @@ Mawasiliano yamesimbwa kwa njia fiche (WireGuard) pamoja na usimbaji fiche wowot
 
 ---
 
-Ili kuhitimisha sehemu hii, kuunganisha Tailscale kwenye Umbrel huchukua mibofyo michache tu na **kuboresha sana ufikivu** wa nodi yako inayopangishwa binafsi. Utaweza kusimamia Umbrel na huduma zake ukiwa popote, kwa usalama na kwa ustadi, kana kwamba uko nyumbani. Hili ni suluhisho muhimu sana kwa programu za wakati halisi (Umeme) ambazo zinakabiliwa na muda wa kusubiri wa Tor, au kwa ujumla zaidi kwa mwenyeji yeyote anayetafuta muunganisho rahisi wa faragha. Yote bila kufichua mlango mmoja **kwenye kisanduku chako, na bila usanidi changamano wa mtandao**.
+Ili kuhitimisha sehemu hii, kuunganisha Tailscale kwenye Umbrel huchukua mibofyo michache tu na **kuboresha sana ufikivu** wa  node yako inayopangishwa binafsi. Utaweza kusimamia Umbrel na huduma zake ukiwa popote, kwa usalama na kwa ustadi, kana kwamba uko nyumbani. Hili ni suluhisho muhimu sana kwa programu za wakati halisi ( lightning) ambazo zinakabiliwa na muda wa kusubiri wa Tor, au kwa ujumla zaidi kwa mwenyeji yeyote anayetafuta muunganisho rahisi wa faragha. Yote bila kufichua mlango mmoja** kwenye kisanduku chako, na bila usanidi changamano wa mtandao.
 
 
 
@@ -499,7 +499,7 @@ Ili kuhitimisha sehemu hii, kuunganisha Tailscale kwenye Umbrel huchukua mibofyo
 
 
 
-**MagicDNS:** Hutatua majina ya vifaa kiotomatiki (k.m. `raspberrypi.tailnet.ts.net`) ili kuepuka kukariri anwani za IP.
+**MagicDNS:** Hutatua majina ya vifaa kiotomatiki (k.m. `raspberrypi.tailnet.ts.net`) ili kuepuka kukariri IP Address.
 
 
 
@@ -507,7 +507,7 @@ Ili kuhitimisha sehemu hii, kuunganisha Tailscale kwenye Umbrel huchukua mibofyo
 
 
 
-**Kushiriki Kifaa** hukuruhusu kumwalika mtu kufikia mashine mahususi bila kuwapa ufikiaji wa mtandao wako wote.
+**Kushiriki Kifaa hukuruhusu kumwalika mtu kufikia mashine mahususi bila kuwapa ufikiaji wa mtandao wako wote**
 
 
 
@@ -519,7 +519,7 @@ Ili kuhitimisha sehemu hii, kuunganisha Tailscale kwenye Umbrel huchukua mibofyo
 
 
 
-**Taildrop:** Njia mbadala salama ya AirDrop, inayokuruhusu kuhamisha faili kati ya vifaa vyako vya Tailcale, bila kujali jukwaa au eneo vilipo. Tofauti na AirDrop, ambayo inapatikana tu kwa mfumo ikolojia wa Apple na ukaribu wa kimwili, Taildrop hufanya kazi kati ya vifaa vyako vyote (Windows, Mac, Linux, Android, iOS), hata kama viko katika nchi tofauti. Faili huhamishwa moja kwa moja kati ya vifaa vilivyo na usimbaji fiche kutoka mwisho hadi mwisho, bila kupitia seva kuu. Tumia safu ya amri `faili ya mkia cp` au programu tumizi ya picha ya Interface kulingana na mfumo wako.
+**Taildrop:** Njia mbadala salama ya AirDrop, inayokuruhusu kuhamisha faili kati ya vifaa vyako vya Tailcale, bila kujali jukwaa au eneo vilipo. Tofauti na AirDrop, ambayo inapatikana tu kwa mfumo ikolojia wa Apple na ukaribu wa kimwili, Taildrop hufanya kazi kati ya vifaa vyako vyote (Windows, Mac, Linux, Android, iOS), hata kama viko katika nchi tofauti. Faili huhamishwa moja kwa moja kati ya vifaa vilivyo na usimbaji fiche kutoka mwisho hadi mwisho, bila kupitia  server kuu. Tumia safu ya amri `faili ya Tail cp` au programu tumizi ya picha ya Interface kulingana na mfumo wako.
 
 
 
@@ -531,7 +531,7 @@ Ili kuhitimisha sehemu hii, kuunganisha Tailscale kwenye Umbrel huchukua mibofyo
 
 
 
-**Kama mshindani wa moja kwa moja, ZeroTier hufanya kazi katika Layer 2 (Ethernet), kuwezesha utangazaji/utangazaji anuwai, huku Tailscale inafanya kazi kwa Layer 3 (IP). ZeroTier inatoa urahisi zaidi wa mtandao, wakati Tailscale inapendelea urahisi wa matumizi.**
+Kama mshindani wa moja kwa moja, ZeroTier hufanya kazi katika Layer 2 (Ethernet), kuwezesha utangazaji/utangazaji anuwai, huku Tailscale inafanya kazi kwa Layer 3 (IP). ZeroTier inatoa urahisi zaidi wa mtandao, wakati Tailcale inapendelea urahisi wa matumizi.
 
 
 
@@ -551,14 +551,14 @@ Kwa kumalizia, Tailscale inajiweka kama suluhisho la kisasa, lenye mwelekeo wa u
 
 
 
-**Faida za sura ya mkia:** Tailscale inatoa faida kadhaa kwa upangishaji binafsi:
+**Faida za sura ya Tail:** Tailscale inatoa faida kadhaa kwa upangishaji binafsi:
 
 
 
 
 
-- **Urahisi na utendakazi** - Usakinishaji wa haraka kwenye majukwaa yote bila usanidi changamano wa mtandao. Trafiki hufuata njia ya moja kwa moja kati ya mashine zako (P2P mesh), yenye utendakazi wa itifaki ya WireGuard na hakuna seva kuu ya kupunguza upitishaji.
-- **Usalama na unyumbulifu** - Usimbaji fiche kutoka mwisho hadi mwisho, sehemu ya mashambulizi iliyopunguzwa, na vipengele vya kina (ACL, SSO/MFA uthibitishaji). Inafanya kazi hata nyuma ya NATs au wakati wa kusonga, na vipanga njia ndogo na nodi za kutoka ili kurekebisha mtandao kulingana na mahitaji yako.
+- **Urahisi na utendakazi** - Usakinishaji wa haraka kwenye majukwaa yote bila usanidi changamano wa mtandao. Trafiki hufuata njia ya moja kwa moja kati ya mashine zako (P2P mesh), yenye utendakazi wa itifaki ya WireGuard na hakuna  server kuu ya kupunguza upitishaji.
+- **Usalama na unyumbulifu** - Usimbaji fiche kutoka mwisho hadi mwisho, sehemu ya mashambulizi iliyopunguzwa, na vipengele vya kina (ACL, SSO/MFA uthibitishaji). Inafanya kazi hata nyuma ya NATs au wakati wa kusonga, na vipanga njia ndogo na  node za kutoka ili kurekebisha mtandao kulingana na mahitaji yako.
 
 
 
@@ -573,11 +573,11 @@ Kwa kumalizia, Tailscale inajiweka kama suluhisho la kisasa, lenye mwelekeo wa u
 
 
 
-**Tailscale ni bora kwa waandaji binafsi na timu ndogo, wasanidi programu wanaohitaji ufikiaji wa rasilimali zilizotawanywa, wanaoanza VPN na watumiaji wa simu. Kwa kampuni zinazohitaji udhibiti kamili, suluhu zingine kama vile Headscale au WireGuard moja kwa moja zinaweza kufaa.**
+Tailscale ni bora kwa waandaji binafsi na timu ndogo, wasanidi programu wanaohitaji ufikiaji wa rasilimali zilizotawanywa, wanaoanza VPN na watumiaji wa simu. Kwa kampuni zinazohitaji udhibiti kamili, suluhu zingine kama vile Headscale au WireGuard moja kwa moja zinaweza kufaa.
 
 
 
-**Gundua Headscale kwa upangishaji kamili wa kibinafsi, API na viunganishi vya DevOps (Terraform), au mbadala kama vile Innernet (inayofanana lakini inayojipangisha kikamilifu) na Netmaker.**
+Gundua Headscale kwa upangishaji kamili wa kibinafsi, API na viunganishi vya DevOps (Terraform), au mbadala kama vile Innernet (inayofanana lakini inayojipangisha kikamilifu) na Netmaker.
 
 
 
@@ -635,4 +635,4 @@ Tailscale ni zana muhimu ya kujipangisha kibinafsi, kutokana na urahisi na ufani
 
 
 
-Tailscale mara kwa mara hutoa maudhui mapya na vipengele. Tazama [blogu yao rasmi](https://tailscale.com/blog/) kwa habari za hivi punde na tafiti za matukio.
+Tailscale mara kwa mara hutoa maudhui mapya na vipengele. Tazama [blog yao rasmi](https://tailscale.com/blog/) kwa habari za hivi punde na tafiti za matukio.

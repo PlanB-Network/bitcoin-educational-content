@@ -6,3 +6,4 @@ wrong_answers:
   - Die Anforderung an die Kunden, übermäßig viele persönliche Ausweispapiere vorzulegen
 explanation: |
   Laut Satoshi Nakamoto im Bitcoin-Whitepaper leiden herkömmliche Finanzsysteme an der grundlegenden Schwäche, dass völlig unumkehrbare Transaktionen nicht möglich sind, weil Finanzinstitute Streitigkeiten schlichten müssen. Dies führt zu einer Kaskade von Problemen: erhöhte Transaktionskosten aufgrund der Schlichtung, Eliminierung kleiner Gelegenheitstransaktionen und die Ausbreitung der Vertrauensanforderungen im gesamten System. Die anderen Optionen sind zwar für Finanzsysteme potenziell relevant, stellen aber nicht das Kernproblem dar, das Bitcoin mit seinem vertrauenslosen Design gezielt angeht. Die Innovation von Bitcoin besteht darin, die endgültige Abrechnung zu ermöglichen, ohne dass eine vertrauenswürdige dritte Partei Transaktionen rückgängig machen muss.
+reviewed: false

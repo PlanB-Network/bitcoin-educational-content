@@ -6,3 +6,4 @@ wrong_answers:
   - As taxas de transação são automaticamente ajustadas para evitar ataques económicos de autoridades centralizadas
 explanation: |
   O Bitcoin alcança a resistência à censura através da descentralização dos mineiros, onde a ordenação das transacções é realizada coletivamente por todos os mineiros que optam por participar. Isto cria um sistema dinâmico em que qualquer pessoa pode entrar ou sair do processo mining livremente, eliminando qualquer ponto de controlo único que possa ser pressionado a censurar transacções. As respostas erradas descrevem caraterísticas técnicas, partes de confiança ou mecanismos económicos que não abordam a questão central do controlo descentralizado sobre o processamento de transacções.
+reviewed: false

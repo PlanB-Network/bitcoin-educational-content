@@ -1,4 +1,4 @@
----
+ ---
 name: Ubuntu
 description: Mwongozo kamili wa kusakinisha na kutumia Ubuntu kama njia mbadala ya Windows
 ---
@@ -8,7 +8,7 @@ description: Mwongozo kamili wa kusakinisha na kutumia Ubuntu kama njia mbadala 
 ## Utangulizi
 
 
-Mfumo wa uendeshaji (OS) ni programu kuu inayosimamia rasilimali zote za kompyuta yako. Kuchagua mfumo mbadala wa uendeshaji kama Ubuntu kunaweza kutoa faida nyingi katika masuala ya usalama, gharama na faragha.
+Mfumo wa uendeshaji (Operating System OS) ni programu kuu inayosimamia rasilimali zote za kompyuta yako. Kuchagua mfumo mbadala wa uendeshaji kama Ubuntu kunaweza kutoa faida nyingi katika masuala ya usalama, gharama na faragha.
 
 
 ### Kwa nini Ubuntu?
@@ -297,7 +297,7 @@ Ili kuifungua: Shughuli > Tafuta "Mwandishi wa LibreOffice" au bonyeza kwenye ik
 Unaweza kuunda, kuhariri na kuhifadhi hati katika miundo mbalimbali (ikiwa ni pamoja na .docx).
 
 
-**5.3 Kusakinisha programu**
+**5.3 Kusakinisha programu
 
 
 Kidhibiti programu (kinachoitwa "Ubuntu Software"): Interface ya picha ya kutafuta na kusakinisha programu.

@@ -6,3 +6,4 @@ wrong_answers:
   - Las normativas gubernamentales impiden a las instituciones financieras operar a través de las fronteras internacionales
 explanation: |
   Satoshi identifica específicamente que las instituciones financieras que actúan como terceros de confianza no pueden evitar mediar en las disputas, lo que impide completamente las transacciones no reversibles. Esto crea debilidades inherentes al modelo basado en la confianza, aumenta los costes por la mediación y obliga a los comerciantes a desconfiar de los clientes. Las demás opciones describen problemas diferentes que no se mencionan en el análisis de Satoshi sobre los sistemas de pago tradicionales.
+reviewed: false

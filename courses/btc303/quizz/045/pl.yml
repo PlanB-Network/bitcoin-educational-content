@@ -6,3 +6,4 @@ wrong_answers:
   - Natychmiastowa aktywacja twardego fork bez zapewnienia użytkownikom wystarczającego czasu na aktualizację oprogramowania węzła
 explanation: |
   Zgodnie z analizą Erica Lombrozo, problematyczne podejście Satoshi polegało na ukrywaniu zmian łamiących konsensus w commitach z wprowadzającym w błąd opisem, który wspominał jedynie o "reverted makefile.unix wx-config version 0.3.6" bez żadnego wskazania zmian łamiących konsensus. Ta praktyka ukrywania krytycznych modyfikacji konsensusu w niewinnie wyglądających commitach zostałaby uznana za niedopuszczalną według dzisiejszych standardów, gdzie przejrzystość i jasna komunikacja na temat zmian konsensusu są podstawowymi zasadami rozwoju Bitcoin.
+reviewed: false

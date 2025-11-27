@@ -6,3 +6,4 @@ wrong_answers:
   - Otvorena priroda koda znači da sve ranjivosti moraju biti javno objavljene pre nego što se razviju zakrpe.
 explanation: |
   Tekst posebno naglašava da programeri moraju biti izuzetno pažljivi prilikom objavljivanja zakrpa jer 'sama zakrpa može otkriti ranjivost.' Ovo stvara jedinstven izazov gde rešenje može nenamerno otkriti problem. Četvrta tačka opisuje kako Bitcoin programeri testiraju da li je zakrpa 'dovoljno dobro prikrivena' tako što iskusni programeri pregledaju zakrpu bez poznavanja specifične ranjivosti. Ako ovi stručnjaci ne mogu identifikovati ranjivost iz zakrpe, smatra se da je bezbedna za primenu. Ostale opcije su netačne: postoji koordinacija kroz Bitcoin Core održavaoce, konsenzus nije potreban za zakrpe, a ranjivosti se drže privatnim tokom odgovornog otkrivanja.
+reviewed: false

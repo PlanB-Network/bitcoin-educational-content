@@ -6,3 +6,4 @@ wrong_answers:
   - Valitsuse määrused takistavad finantsasutustel tegutseda üle rahvusvaheliste piiride
 explanation: |
   Satoshi määratleb konkreetselt, et usaldusväärsete kolmandate osapooltena tegutsevad finantsasutused ei saa vältida vaidluste vahendamist, mis takistab täiesti pöördumatuid tehinguid. See tekitab usaldusel põhineva mudeli loomupäraseid nõrkusi, suurendab kulusid vahendamise kaudu ja sunnib kaupmehi olema klientide suhtes ettevaatlikud. Muude võimaluste puhul kirjeldatakse erinevaid probleeme, mida Satoshi traditsiooniliste maksesüsteemide analüüsis ei mainita.
+reviewed: false

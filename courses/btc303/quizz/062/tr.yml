@@ -6,3 +6,4 @@ wrong_answers:
   - Türetilmiş eserler yalnızca telif ücreti ödenmesini gerektiren tescilli lisanslar kapsamında dağıtılabilir
 explanation: |
   Açık kaynak tanımı açıkça "lisansın değişikliklere ve türetilmiş çalışmalara izin vermesi ve bunların orijinal yazılımın lisansıyla aynı şartlar altında dağıtılmasına izin vermesi gerektiğini" belirtmektedir Bu, türev çalışmaların orijinali ile aynı özgürlükleri korumasını sağlar ve birisinin açık kaynak kodunu alıp onu özel mülk haline getirmesini engeller. Diğer seçenekler ya özgürlüğü kısıtlayarak ya da lisans uyumluluğunu değiştirerek bu temel ilkeyi ihlal etmektedir.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Das Bitcoin-Protokoll sperrt automatisch Münzen, die über einen längeren Zeitraum nicht bewegt wurden, um eine Inflation zu verhindern
 explanation: |
   In diesem Kapitel wird erklärt, dass das theoretische Maximum bei etwa 20.999.817 BTC liegt, die tatsächlich nutzbare Menge jedoch aufgrund von menschlichem Versagen und Verlusten viel geringer ist. Verlorene private Schlüssel machen Bitcoins dauerhaft unzugänglich, Wallets werden gestohlen oder vergessen, und Münzen werden manchmal an ungültige Adressen geschickt. Diese Faktoren führen zu einer permanenten Angebotsverringerung, die den verbleibenden Inhabern zugute kommt, da laut Satoshi verlorene Münzen den Wert der Münzen aller anderen erhöhen.
+reviewed: false

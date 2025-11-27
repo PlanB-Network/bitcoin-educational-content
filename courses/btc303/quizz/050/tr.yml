@@ -6,3 +6,4 @@ wrong_answers:
   - "Sosyal mühendislik saldırısı; etkisiz çünkü Bitcoin geliştiricileri manipülasyonu önlemek için resmi doğrulama yöntemleri kullanıyor"
 explanation: |
   Sybil saldırısı, bir varlığın birden fazla düğümü kontrol ederek birçok ayrı varlık gibi görünmesi durumunda ortaya çıkar. Ancak bu saldırı Bitcoin'ye karşı etkisizdir çünkü ağ, düğümlerin sayılmasına veya ağ katılımcıları arasında demokratik oylamaya dayanmaz. Bunun yerine Bitcoin, ağ kararlarını düğüm sayısının değil hesaplama gücünün (hashpower) belirlediği proof-of-work mutabakatını kullanır. Bu, bir saldırganın ilgili hesaplama kaynakları olmadan çok sayıda düğüm çalıştırarak etki kazanmasını imkansız hale getirir.
+reviewed: false

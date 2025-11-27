@@ -6,3 +6,4 @@ wrong_answers:
   - Stanovení vhodné finanční kompenzace za odhalení zranitelnosti před souhlasem se zveřejněním informací vývojářům
 explanation: |
   Základní etickou výzvou v oblasti odpovědného zveřejňování je křehká rovnováha mezi transparentností a bezpečností. Výzkumníci musí zajistit, aby byly zranitelnosti řešeny, aniž by neúmyslně poskytly plán pro zneužití. To zahrnuje pečlivou koordinaci s vývojáři, vhodné načasování zveřejnění a zvážení širšího dopadu na ekosystém. Ostatní možnosti se zaměřují na finanční nebo regulační problémy, které jsou sice potenciálně relevantní, ale nepředstavují hlavní etické dilema nastíněné v postupech odpovědného zveřejňování.
+reviewed: false

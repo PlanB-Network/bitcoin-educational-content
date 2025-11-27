@@ -6,3 +6,4 @@ wrong_answers:
   - De upgrade veroorzaakte een permanente kettingsplitsing omdat miners en gebruikers het oneens waren over de implementatiedetails
 explanation: |
   Het BIP66 incident onthulde een kritieke fout in door mijnwerkers geactiveerde soft forks: aangeven dat ze er klaar voor zijn garandeert geen daadwerkelijke validatie. Ondanks dat 95% van de miners aangaf klaar te zijn voor de upgrade, valideerde ongeveer de helft de nieuwe regels niet goed en minden ze per ongeluk op een ongeldig blok. Dit toonde aan dat hashkrachtsignalering misleidend kan zijn en geen juiste implementatie garandeert, wat één van Shaolinfry's belangrijkste argumenten was om User Activated Soft Forks voor te stellen als een betrouwbaarder upgrade mechanisme.
+reviewed: false

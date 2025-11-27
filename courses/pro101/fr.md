@@ -1770,16 +1770,16 @@ L'en-tête de bloc est la pierre angulaire d'un bloc Bitcoin et contient les cha
 
 
 
-- Version** : Indique la version du bloc.
-- Bloc précédent** : Référence au bloc précédent dans la Blockchain.
-- Merkle Root** : Une Hash représentant la Hash combinée de toutes les transactions dans le bloc.
-- Timestamp** : L'heure à laquelle le bloc a été extrait.
-- Bits** : Le seuil cible pour un bloc valide Hash.
-- Nonce** : La valeur que les mineurs ajustent pour obtenir une Hash inférieure au seuil cible.
-- Nombre de transactions** : Le nombre de transactions dans le bloc.
+- **Version** : Indique la version du bloc.
+- **Bloc précédent** : Référence au bloc précédent dans la blockchain.
+- **Racine de Merkle** : Le hash représentant le hachage combiné de toutes les transactions dans le bloc.
+- **Horodatage** : L'heure à laquelle le bloc a été miné.
+- **Bits** : Le seuil cible pour un hachage de bloc valide.
+- **Nonce** : La valeur que les mineurs ajustent pour obtenir un hachage inférieur au seuil cible.
+- **Nombre de transactions** : Le nombre de transactions dans le bloc.
 
 
-**Note** : Seuls les 80 premiers octets (comprenant l'en-tête du bloc) sont hachés pendant le Mining.
+**Note** : Seuls les 80 premiers octets (comprenant l'en-tête du bloc) sont hachés pendant le minage.
 
 
 ![Block header structure](assets/en/027.webp)
@@ -1792,32 +1792,32 @@ Pour que notre exemple reste gérable :
 
 
 
-- Nous nous concentrerons sur l'analyse des blocs antérieurs à la SegWit (anciens), en évitant la complexité supplémentaire des témoins ségrégués.
-- Nous allons sauter certains opcodes dans le langage de script Bitcoin, en nous concentrant sur quelques-uns dont nous avons besoin pour analyser un bloc complet.
+- Nous nous concentrerons sur l'analyse des blocs pré-SegWit (legacy), en évitant la complexité supplémentaire de *Segregated Witness*.
+- Nous allons sauter certains opcodes du langage de script Bitcoin, en nous concentrant sur quelques-uns dont nous avons besoin pour analyser un bloc complet.
 
 
-#### Structure de la transaction
+#### Structure d'une transaction
 
 
 Chaque transaction d'un bloc Bitcoin contient les éléments suivants :
 
 
 
-- Version** : La version de la transaction.
-- Nombre d'entrées** : Nombre d'entrées de transactions.
-- Entrées** : La liste des entrées.
-  - Sortie précédente (outpoint)** : La référence de la sortie précédente.
-    - Hash** : La Hash de la transaction référencée.
-    - Index** : L'index de la sortie spécifique dans la transaction, appelée "vout".
-  - Longueur du script** : Longueur du script de signature.
-  - Script de signature** : Script de confirmation de l'autorisation de la transaction.
-  - Séquence** : Version de la transaction telle que définie par l'expéditeur.
-- Nombre de sorties** : Nombre de sorties de transaction.
-- Résultats** : Contient la valeur et la clé ScriptPubKey.
-  - Valeur** : Valeur de la transaction.
-  - Longueur du script PubKey** : Longueur du script PubKey.
-  - Script PubKey** : Contient la clé publique en tant que configuration pour réclamer la sortie.
-- Heure de blocage** : Indique la hauteur du bloc ou Timestamp à partir de laquelle cette transaction peut être incluse dans un bloc.
+- **Version** : La version de la transaction.
+- **Nombre d'entrées** : Nombre d'entrées de transactions.
+- **Entrées (*Inputs*)** : La liste des entrées.
+  - **Sortie précédente (*Outpoint*)** : La référence de la sortie précédente.
+    - **Hash** : Le hachage de la transaction référencée.
+    - **Index** : L'index de la sortie spécifique dans la transaction, appelée "vout".
+  - **Longueur du script** : Longueur du script de signature.
+  - **Script de signature** : Script de confirmation de l'autorisation de la transaction.
+  - **Séquence** : Version de la transaction telle que définie par l'expéditeur.
+- **Nombre de sorties** : Nombre de sorties de transaction.
+- **Sorties (*Outputs*)** : Contient la valeur et la clé publique du script (ScriptPubKey).
+  - **Valeur** : Valeur de la transaction.
+  - **Longueur du ScriptPubKey** : Longueur du script de la clé publique.
+  - **Script PubKey** : Contient la clé publique comme configuration pour réclamer la sortie.
+- **Délai de verrouillage (*Lock Time*)** : Indique la hauteur du bloc ou l'horodatage à partir de laquelle cette transaction peut être incluse dans un bloc.
 
 
 ![Transaction structure](assets/en/028.webp)
@@ -1836,7 +1836,7 @@ Dans Rust, nous pouvons utiliser différentes techniques pour analyser ces struc
 
 
 
-- Utilise `from_le_bytes` pour lire les données Little Endian.
+- Utiliser `from_le_bytes` pour lire les données Little Endian.
 - Implémenter un trait `parse` personnalisé pour gérer la logique d'analyse pour différentes structures.
 
 
@@ -1848,7 +1848,7 @@ fn parse(bytes: &[u8]) -> Result<(Self, &[u8]), Error>;
 
 
 
-- Implémenter l'analyse générique pour les listes et les types spécifiques tels que `VarInt`, `U32`, `U64`, etc.
+- Implémenter l'analyse syntaxique de manière générique pour les listes et les types spécifiques tels que `VarInt`, `U32`, `U64`, etc.
 
 
 ```Rust
@@ -1869,13 +1869,13 @@ Pour s'assurer que notre analyseur fonctionne correctement :
 
 
 - Comparer les données analysées avec les détails des blocs connus (par exemple, à partir de Mempool.space).
-- Valider que le nombre de transactions analysées et les détails des blocs correspondent aux valeurs attendues.
+- Vérifier que le nombre de transactions analysées et les détails des blocs correspondent aux valeurs attendues.
 
 
 ### Traitement des cas particuliers et analyse des scripts
 
 
-#### Mise en œuvre de la fonction "parse
+#### Implémentation de la fonction "parse"
 
 
 Nous allons implémenter la fonction `parse` pour traiter le bloc complet, y compris l'en-tête du bloc et les transactions. Cela implique de lire les données du bloc et d'extraire les champs pertinents.
@@ -1937,10 +1937,10 @@ transactions: Vec<Transaction>,
 ```
 
 
-#### Syntaxe Rust Elements
+#### Élements syntaxiques Rust
 
 
-Introduire la syntaxe Rust Elements telle que le point d'interrogation (`?`) pour la gestion des erreurs. Cela simplifiera notre code et le rendra plus lisible.
+Introduire des éléments syntaxiques Rust tels que le point d'interrogation (`?`) pour la gestion des erreurs. Cela simplifiera notre code et le rendra plus lisible.
 
 
 #### Assertions
@@ -1952,7 +1952,7 @@ Ajouter des assertions pour vérifier qu'aucun octet n'est laissé sans analyse 
 #### Cas particuliers comme les transactions coinbase
 
 
-Les transactions Coinbase, qui sont la première transaction d'un bloc utilisé pour réclamer la Block reward, présentent des caractéristiques uniques. Nous devons traiter ces cas particuliers de manière appropriée.
+Les transactions Coinbase, qui constituent la première transaction d'un bloc qui sert à réclamer la récompense de bloc, présentent des caractéristiques uniques. Nous devons traiter ces cas particuliers de manière appropriée.
 
 
 ```Rust
@@ -2024,7 +2024,7 @@ _ => todo!()
 ![op_push](assets/en/034.webp)
 
 
-#### Les défis de l'analyse syntaxique des scripts
+#### Défis de l'analyse syntaxique des scripts
 
 
 L'analyse des scripts peut présenter des difficultés, en particulier pour les transactions coinbase. Il est important de prendre en compte les cas de figure et de les traiter correctement pour garantir une analyse précise.
@@ -2051,7 +2051,7 @@ Ok((Script(opcodes), &bytes[len.0 as usize..]))
 #### Blocs compacts
 
 
-Les blocs compacts sont actuellement utilisés pour améliorer l'efficacité de la transmission des données entre les nœuds. Cela permet de réduire l'utilisation de la bande passante et d'accélérer la synchronisation en envoyant les transactions manquantes dans le Mempool, en les remplissant avec la transaction que le nœud avait déjà dans un bloc, puis en la validant.
+Les blocs compacts sont actuellement utilisés pour améliorer l'efficacité de la transmission des données entre les nœuds. Cela permet de réduire l'utilisation de la bande passante et d'accélérer la synchronisation en envoyant les transactions manquantes dans la mempool, en les remplissant avec la transaction que le nœud avait déjà dans un bloc, puis en la validant.
 
 
 #### Utilisation des bibliothèques existantes
@@ -2063,48 +2063,48 @@ Pour les applications critiques pour le consensus, il est recommandé d'utiliser
 ![libraries](assets/en/035.webp)
 
 
-### Efficacité et sécurité en Bitcoin Mining
+### Efficacité et sécurité dans le minage de Bitcoin 
 
 
-#### Efficacité en Mining
+#### Efficacité du minage
 
 
-Mining Les blocs vides peuvent être plus efficaces pour les mineurs :
+Le minage de blocs vides peut être plus efficaces pour les mineurs :
 
 
 
-- Les mineurs commencent à utiliser les blocs Mining vides pour gagner du temps.
+- Les mineurs commencent à miner des blocs vides pour gagner du temps.
 - Les blocs vides peuvent être extraits rapidement avant de passer à un bloc complet une fois que le bloc précédent est confirmé.
 
 
-#### Raisons des blocs vides Mining
+#### Raisons du minage de blocs vides
 
 
-Les blocs vides sont parfois minés en raison de problèmes de timing. Les mineurs peuvent ne pas avoir reçu la liste complète des transactions au moment où ils commencent le Mining du bloc suivant, et ils choisissent donc de miner un bloc vide à la place.
+Les blocs vides sont parfois minés en raison de problèmes de timing. Les mineurs peuvent ne pas avoir reçu la liste complète des transactions au moment où ils commencent à miner le bloc suivant, ils choisissent donc de miner un bloc vide à la place.
 
 
 ![empty block](assets/en/036.webp)
 
 
-#### Mining malveillant de blocs vides
+#### Minage malveillant de blocs vides
 
 
-Bien que l'utilisation malveillante de blocs vides soit possible, elle n'a pas été observée. La raison principale des blocs vides est la contrainte temporelle plutôt qu'une intention malveillante.
+Bien que le minage malveillant de blocs vides soit possible, il n'a pas été observé. La raison principale des blocs vides est la contrainte temporelle plutôt qu'une intention malveillante.
 
 
 #### Implications des blocs vides
 
 
-L'apparition de blocs vides est un aspect normal du processus Mining et est principalement due à des problèmes de synchronisation. Bien qu'ils ne contiennent pas de transactions, ils prolongent la Blockchain et contribuent à la sécurité du réseau.
+L'apparition de blocs vides est un aspect normal du processus de minage et est principalement due à des problèmes de synchronisation. Bien qu'ils ne contiennent pas de transactions, ils prolongent la blockchain et contribuent à la sécurité du réseau.
 
 
 #### Importance de la sécurité
 
 
-La sécurité dans le Bitcoin Mining est primordiale. En adhérant aux meilleures pratiques et en utilisant des bibliothèques bien contrôlées, les mineurs et les développeurs peuvent garantir l'intégrité de la Blockchain et se protéger contre les vulnérabilités potentielles.
+La sécurité dans le minage de Bitcoin est primordiale. En adhérant aux meilleures pratiques et en utilisant des bibliothèques bien contrôlées, les mineurs et les développeurs peuvent garantir l'intégrité de la blockchain et se protéger contre les vulnérabilités potentielles.
 
 
-En conclusion, l'analyse des blocs Bitcoin et des transactions dans Rust implique la compréhension de structures complexes et la mise en œuvre de techniques d'analyse efficaces. Le traitement des cas particuliers et l'analyse des scripts requièrent une attention particulière, et le fait de se concentrer sur l'efficacité et la sécurité garantit la robustesse du réseau Bitcoin.
+En conclusion, l'analyse des blocs Bitcoin et des transactions dans Rust implique la compréhension de structures complexes et l'implémentation de techniques d'analyse efficaces. Le traitement des cas particuliers et l'analyse des scripts requièrent une attention particulière, et le fait de se concentrer sur l'efficacité et la sécurité garantit la robustesse du réseau Bitcoin.
 
 
 ## Aperçu du logiciel Bitcoin et implémentations des nœuds

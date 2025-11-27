@@ -1,6 +1,6 @@
 ---
 name: Bitaxe Open Source Mining Mastery
-goal: Master the complete Bitaxe ecosystem: from hardware assembly to advanced customization and performance optimization
+goal: Master the complete Bitaxe ecosystem - from hardware assembly to advanced customization and performance optimization
 objectives:
   - Understand the philosophy of open source Bitcoin mining hardware
   - Build Bitaxe mining devices from scratch

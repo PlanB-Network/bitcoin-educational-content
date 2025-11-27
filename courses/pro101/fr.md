@@ -1227,34 +1227,34 @@ En conclusion, l'économie des logiciels libres repose sur les contributions de 
 
 :::video id=b482b0f0-4468-4eaf-bcd6-eb4748bdfa3a:::
 
-Bienvenue ! Aujourd'hui, nous allons nous plonger dans les aspects cruciaux de la cryptographie que tout développeur Bitcoin devrait connaître. Nous nous concentrerons sur les concepts fondamentaux et les applications pratiques sans vous submerger de détails théoriques excessifs. L'objectif principal est de vous doter des connaissances nécessaires pour comprendre, mettre en œuvre et dépanner efficacement les mécanismes cryptographiques dans Bitcoin.
+Bienvenue ! Aujourd'hui, nous allons nous plonger dans les aspects essentiels de la cryptographie que tout développeur Bitcoin devrait connaître. Nous nous concentrerons sur les concepts fondamentaux et les applications pratiques sans vous submerger de détails théoriques excessifs. L'objectif principal est de vous doter des connaissances nécessaires pour comprendre, implémenter et dépanner efficacement les mécanismes cryptographiques dans Bitcoin.
 
 
 ### Concepts cryptographiques de base pour les développeurs Bitcoin
 
 
-Dans cette section, nous examinerons les concepts cryptographiques essentiels pour les développeurs de Bitcoin, notamment les fonctions Hash, les arbres de Merkle, les signatures numériques et les courbes elliptiques.
+Dans cette section, nous examinerons les concepts cryptographiques essentiels pour les développeurs de Bitcoin, notamment les fonctions de hachage, les arbres de Merkle, les signatures numériques et les courbes elliptiques.
 
 
 ![Image](assets/en/014.webp)
 
 
-**Fonctions Hash** : Une fonction Hash prend une entrée et produit une chaîne d'octets de longueur fixe. En Bitcoin, les fonctions Hash sont fondamentales pour l'intégrité et la sécurité des données. Les fonctions cryptographiques Hash doivent être efficaces, produire des résultats apparemment aléatoires et produire des résultats de longueur fixe quelle que soit la taille de l'entrée. Elles sont utilisées pour les contrôles d'intégrité des fichiers, garantissant que les données n'ont pas été modifiées de manière malveillante.
+**Fonctions de hachage** : Une fonction de hachage prend une entrée et produit une chaîne d'octets de longueur fixe. Dans Bitcoin, les fonctions de hachage sont fondamentales pour l'intégrité et la sécurité des données. Les fonctions de hachage cryptographiques doivent être efficaces, générer des résultats apparemment aléatoires et produire des résultats de longueur fixe quelle que soit la taille de l'entrée. Elles sont utilisées pour vérifier l'intégrité des fichiers et s'assurer que les données n'ont pas été modifiées de manière malveillante.
 
 
 ![Image](assets/en/015.webp)
 
 
-**Propriétés de sécurité** : Les fonctions cryptographiques Hash doivent respecter plusieurs propriétés de sécurité. La résistance à la pré-image garantit qu'il est impossible, d'un point de vue informatique, d'effectuer une rétro-ingénierie de l'entrée originale à partir de la sortie Hash. La deuxième résistance à la préimage signifie qu'il doit être difficile de trouver une entrée différente qui produise la même sortie Hash. La résistance aux collisions garantit qu'il est improbable de trouver deux entrées différentes produisant le même résultat Hash.
+**Propriétés de sécurité** : Les fonctions de hachage cryptographiques doivent respecter plusieurs propriétés de sécurité. La résistance à la préimage garantit qu'il est impossible, d'un point de vue informatique, d'effectuer une rétro-ingénierie de l'entrée originale à partir de la sortie de hachage. La deuxième résistance à la préimage signifie qu'il doit être difficile de trouver une entrée différente qui produise la même sortie de hachage. La résistance aux collisions garantit qu'il est improbable de trouver deux entrées différentes produisant le même résultat de hachage.
 
 
-**Arbres de Merkel** : Un Merkle Tree est une structure de données qui permet une vérification efficace et sûre de grands ensembles de données. Les éléments de données sont hachés par paires, les hachages résultants étant combinés itérativement pour former une racine unique Hash. Dans la Bitcoin, les arbres de Merkle sont essentiels à la création de blocs et à la vérification des transactions, en particulier pour les clients de la vérification simplifiée des paiements (SPV) et dans la Taproot (Mast).
+**Arbres de Merkel** : Un arbre de Merkle est une structure de données qui permet une vérification efficace et sûre de grands ensembles de données. Les éléments de données sont hachés par paires, les hachages résultants étant combinés itérativement pour former une racine unique de hachage. Dans Bitcoin, les arbres de Merkle sont essentiels à la création de blocs et à la vérification des transactions, en particulier pour les clients SPV (*Simplified Payment Verification*) et dans Taproot (Mast).
 
 
 ![Image](assets/en/016.webp)
 
 
-**Signatures numériques (ECDSA)** : L'algorithme de signature numérique à courbe elliptique (ECDSA) est utilisé pour garantir l'authenticité et l'intégrité des transactions Bitcoin. Il s'agit de générer une signature à l'aide d'une clé privée qui peut être vérifiée à l'aide de la clé publique correspondante. Les concepts clés comprennent la compréhension des champs finis, des logarithmes discrets et l'importance des nonces.
+**Signatures numériques (ECDSA)** : L'algorithme de signature numérique à courbe elliptique (ECDSA) est utilisé pour garantir l'authenticité et l'intégrité des transactions Bitcoin. Il s'agit de générer une signature à l'aide d'une clé privée qui peut être vérifiée à l'aide de la clé publique correspondante. Les concepts clés comprennent la compréhension des corps finis, des logarithmes discrets et l'importance des nonces.
 
 
 **Courbes elliptiques** : Les courbes elliptiques sont utilisées dans la cryptographie à clé publique en raison de leur efficacité et de leur sécurité. La sécurité de la cryptographie par courbe elliptique repose sur la difficulté de résoudre le problème du logarithme discret.
@@ -1266,43 +1266,43 @@ Dans cette section, nous examinerons les concepts cryptographiques essentiels po
 ### Applications cryptographiques pratiques et pratiques de sécurité en Bitcoin
 
 
-Dans cette section, nous allons explorer l'application de ces concepts dans le développement réel de la Bitcoin et les meilleures pratiques de sécurité à suivre.
+Dans cette section, nous allons explorer l'application de ces concepts dans le développement réel de Bitcoin et les meilleures pratiques de sécurité à suivre.
 
 
-**Cryptographie = danger** : La cryptographie est une arme à double tranchant. Bien qu'elle protège contre les dommages accidentels aux données et les actions malveillantes, une mise en œuvre incorrecte peut entraîner de graves vulnérabilités. Les développeurs doivent comprendre en profondeur les mécanismes cryptographiques pour garantir à la fois une mise en œuvre sûre et la capacité de résoudre les problèmes potentiels. Par exemple, la sortie 256 bits de SHA-2 garantit que les attaques par préimage nécessitent environ 2^256 de travail, avec une résistance aux collisions d'environ 2^128 de travail.
+**Cryptographie = danger** : La cryptographie est une arme à double tranchant. Bien qu'elle protège contre les dommages accidentels aux données et les actions malveillantes, une implémentation incorrecte peut entraîner de graves vulnérabilités. Les développeurs doivent comprendre en profondeur les mécanismes cryptographiques pour garantir à la fois une implémentation sûre et la capacité de résoudre les problèmes potentiels. Par exemple, la sortie 256 bits de SHA-2 garantit que les attaques par préimage nécessitent environ 2^256 opérations, avec une résistance aux collisions d'environ 2^128 opérations.
 
 
 ![Image](assets/en/018.webp)
 
 
-**Merkle Tree applications** : Il est essentiel de comprendre la taille logarithmique de la preuve et de veiller à une conception minutieuse de l'arbre pour éviter les défauts, tels que la Hash duplication dans la vérification des transactions. Les arbres de Merkle sont utilisés pour la création de blocs, la vérification des transactions et les améliorations telles que Taproot.
+**Applications des arbres de Merkle** : Il est essentiel de comprendre la taille logarithmique de la preuve et de veiller à une conception minutieuse de l'arbre pour éviter les défauts, tels que la duplication de hachage dans la vérification des transactions. Les arbres de Merkle sont utilisés pour la création de blocs, la vérification des transactions et les améliorations telles que Taproot.
 
 
-**Cryptographie à clé publique** : Les logarithmes discrets et les corps finis sont fondamentaux dans les calculs cryptographiques de la Bitcoin. Les protocoles défi-réponse sont utilisés pour vérifier la connaissance d'une clé privée sans la révéler.
+**Cryptographie à clé publique** : Les logarithmes discrets et les corps finis sont fondamentaux dans les calculs cryptographiques de Bitcoin. Les protocoles de type "challenge-response" sont utilisés pour vérifier la connaissance d'une clé privée sans la révéler.
 
 
 ![Image](assets/en/019.webp)
 
 
-**Implications en matière de sécurité** : Des exemples historiques montrent des pertes financières importantes dues à la réutilisation du Nonce. Il est essentiel de comprendre l'importance de la génération de nonces uniques. L'utilisation de bibliothèques de confiance comme LibSecP256k1 garantit des opérations cryptographiques robustes et sûres.
+**Implications en matière de sécurité** : Des exemples historiques montrent des pertes financières importantes dues à la réutilisation de nonces. Il est essentiel de comprendre l'importance de la génération de nonces uniques. L'utilisation de bibliothèques de confiance comme LibSecP256k1 garantit des opérations cryptographiques robustes et sûres.
 
 
-**Cryptographie à courbe elliptique (ECC)** : Les systèmes de signature ont évolué des protocoles d'identité vers des systèmes tels que les signatures Schnorr, actuellement utilisées dans le Bitcoin (BIP 340). La connaissance des courbes elliptiques et de l'arithmétique des corps finis garantit des implémentations cryptographiques sûres.
+**Cryptographie à courbe elliptique (ECC)** : Les systèmes de signature ont évolué des protocoles d'identité vers des systèmes tels que les signatures Schnorr, actuellement utilisées dans Bitcoin (BIP 340). La connaissance des courbes elliptiques et de l'arithmétique des corps finis garantit des implémentations cryptographiques sûres.
 
 
-**Conseils généraux aux développeurs** : Les protocoles cryptographiques doivent faire l'objet d'un examen approfondi par les pairs. Les développeurs doivent être précis et comprendre parfaitement chaque étape des procédures cryptographiques. La connaissance des pièges courants dans les implémentations cryptographiques peut permettre d'éviter des vulnérabilités importantes.
+**Conseils généraux pour les développeurs** : Les protocoles cryptographiques doivent faire l'objet d'un examen approfondi par les pairs. Les développeurs doivent être précis et comprendre parfaitement chaque étape des procédures cryptographiques. La connaissance des pièges courants dans les implémentations cryptographiques peut permettre d'éviter des vulnérabilités importantes.
 
 
-**Les courbes elliptiques dans la cryptographie** : La modification des clés et la sécurité sont des sujets importants, tels que la modification d'une clé publique en utilisant une clé privée supplémentaire tout en garantissant la sécurité. La courbe elliptique spécifique de Bitcoin, SECP256K1, et ses paramètres (P et N) sont fondamentaux pour sa mise en œuvre.
+**Les courbes elliptiques dans la cryptographie** : Les clés "tweakées" et la sécurité sont des sujets importants, tels que la modification d'une clé publique en utilisant une clé privée supplémentaire tout en garantissant la sécurité. La courbe elliptique spécifique de Bitcoin, SECP256K1, et ses paramètres (P et N) sont fondamentaux pour son implémentation.
 
 
 #### Conclusion
 
 
-Dans cette conférence, nous avons exploré les concepts cryptographiques fondamentaux qui sous-tendent la sécurité et la fonctionnalité de la Bitcoin. Des rôles critiques des fonctions Hash, des arbres de Merkle et des signatures numériques aux mathématiques complexes de la cryptographie à courbe elliptique, ces Elements forment l'épine dorsale du réseau décentralisé de Bitcoin. Comprendre ces concepts, ce n'est pas seulement saisir la théorie, c'est aussi reconnaître les implications pratiques et les pièges potentiels dans le développement du monde réel.
+Dans ce cours, nous avons exploré les concepts cryptographiques fondamentaux qui sous-tendent la sécurité et la fonctionnalité de Bitcoin. Des rôles critiques des fonctions de hachage, des arbres de Merkle et des signatures numériques aux mathématiques complexes de la cryptographie à courbe elliptique, ces élements forment l'épine dorsale du réseau décentralisé de Bitcoin. Comprendre ces concepts, ce n'est pas seulement saisir la théorie, c'est aussi reconnaître les implications pratiques et les pièges potentiels dans le développement du monde réel.
 
 
-En tant que développeurs Bitcoin, il est essentiel d'aborder les implémentations cryptographiques avec prudence et précision. La sécurité du réseau Bitcoin dépend fortement de l'application correcte et sécurisée de ces principes cryptographiques. Que vous vérifiiez des transactions, conceviez de nouvelles fonctionnalités ou assuriez l'intégrité du Blockchain, une connaissance approfondie de la cryptographie vous permettra de construire des solutions plus robustes, plus sûres et plus innovantes au sein de l'écosystème Bitcoin.
+En tant que développeurs Bitcoin, il est essentiel d'aborder les implémentations cryptographiques avec prudence et précision. La sécurité du réseau Bitcoin dépend fortement de l'application correcte et sécurisée de ces principes cryptographiques. Que vous vérifiiez des transactions, conceviez de nouvelles fonctionnalités ou assuriez l'intégrité de la blockchain, une connaissance approfondie de la cryptographie vous permettra de construire des solutions plus robustes, plus sûres et plus innovantes au sein de l'écosystème Bitcoin.
 
 
 En maîtrisant ces concepts et en adhérant aux meilleures pratiques, vous serez bien équipé pour contribuer efficacement au développement continu de Bitcoin, en garantissant sa résilience et sa sécurité pour l'avenir.
@@ -1318,28 +1318,28 @@ En maîtrisant ces concepts et en adhérant aux meilleures pratiques, vous serez
 
 :::video id=91a38c17-5801-4a5c-baf2-c9e4cc24fd84:::
 
-### Nature du Bitcoin
+### Nature de Bitcoin
 
 
-Le Bitcoin est une monnaie numérique qui fonctionne sur la base d'un protocole de consensus, un ensemble de règles convenues par les participants au réseau pour garantir l'uniformité et la fonctionnalité. À la base, la Bitcoin est une Ledger décentralisée, connue sous le nom de Blockchain, où les transactions sont enregistrées et vérifiées par les nœuds du réseau. Les nœuds complets, qui stockent tout l'historique de la Bitcoin Blockchain, jouent un rôle crucial dans le maintien de l'intégrité de cette Ledger. D'autres types de nœuds, tels que les nœuds d'archivage, les nœuds pruned et les nœuds SPV (Simplified Payment Verification), contribuent également au réseau de diverses manières. Le protocole de consensus garantit que tous ces nœuds sont d'accord sur l'état de la Blockchain, ce qui rend la Bitcoin résistante à la censure et à la fraude.
+Le Bitcoin est une monnaie numérique qui fonctionne sur la base d'un protocole de consensus, un ensemble de règles convenues par les participants au réseau pour garantir l'uniformité et la fonctionnalité. À la base, Bitcoin est un registre décentralisé, connu sous le nom de blockchain, où les transactions sont enregistrées et vérifiées par les nœuds du réseau. Les nœuds complets, qui stockent tout l'historique de la blockchain de Bitcoin, jouent un rôle crucial dans le maintien de l'intégrité de ce registre. D'autres types de nœuds, tels que les nœuds d'archivage, les nœuds élagés et les nœuds SPV (*Simplified Payment Verification*), contribuent également au réseau de diverses manières. Le protocole de consensus garantit que tous ces nœuds sont d'accord sur l'état de la blockchain, ce qui rend Bitcoin résistant à la censure et à la fraude.
 
 
 #### Prévenir les changements
 
 
-La gouvernance de Bitcoin est essentielle pour éviter les modifications arbitraires ou malveillantes du protocole. Pour ce faire, un mécanisme de consensus est mis en place, qui nécessite un large accord au sein de la communauté. Les développeurs ayant des connaissances en programmation jouent un rôle important en proposant des changements, mais ceux-ci doivent être acceptés par l'ensemble de la communauté pour être mis en œuvre.
+La gouvernance de Bitcoin est essentielle pour éviter les modifications arbitraires ou malveillantes du protocole. Pour ce faire, un mécanisme de consensus est mis en place, qui nécessite un large accord au sein de la communauté. Les développeurs ayant des connaissances en programmation jouent un rôle important en proposant des changements, mais ceux-ci doivent être acceptés par l'ensemble de la communauté pour être implémentés.
 
 
 Bitcoin core et les implémentations alternatives ont des responsables qui supervisent le développement et la maintenance du logiciel. Ces mainteneurs sont chargés de fusionner les modifications du code, en veillant à ce qu'elles respectent les règles du consensus et n'introduisent pas de vulnérabilités.
 
 
-#### Fourches Soft vs fourches Hard
+#### Soft forks vs hard forks
 
 
-Les fourches Soft sont des modifications qui renforcent les règles existantes du protocole Bitcoin, rendant invalides certaines transactions précédemment valides. Elles sont rétrocompatibles, ce qui signifie que les nœuds non mis à jour reconnaîtront toujours les nouvelles règles. Un exemple de Soft Fork est la correction du bug de débordement en 2010, qui a empêché la création d'argent à partir de rien.
+Les *soft forks* sont des modifications qui renforcent les règles existantes du protocole Bitcoin, rendant invalides certaines transactions précédemment valides. Elles sont rétrocompatibles, ce qui signifie que les nœuds non mis à jour reconnaîtront toujours les nouvelles règles. Un exemple de *soft fork* est la correction du bug de débordement en 2010, qui a empêché la création de bitcoins à partir de rien.
 
 
-Les fourches Hard sont des modifications qui assouplissent les règles existantes, autorisant de nouveaux types de transactions. Elles ne sont pas rétrocompatibles, ce qui signifie que les nœuds non mis à jour ne reconnaîtront pas les nouvelles règles. Un exemple de Hard Fork pourrait être nécessaire pour le problème de l'année 2106 afin de s'assurer que la Bitcoin continue à fonctionner au-delà de cette date.
+Les *hard forks* sont des modifications qui assouplissent les règles existantes, autorisant de nouveaux types de transactions. Elles ne sont pas rétrocompatibles, ce qui signifie que les nœuds non mis à jour ne reconnaîtront pas les nouvelles règles. Un exemple de *hard fork* pourrait être nécessaire pour le problème de l'année 2106 afin de s'assurer que Bitcoin continue à fonctionner au-delà de cette date.
 
 
 ![Image](assets/en/020.webp)
@@ -1351,10 +1351,10 @@ Les fourches Hard sont des modifications qui assouplissent les règles existante
 ### Exemples de gouvernance
 
 
-Plusieurs exemples concrets illustrent la gouvernance de la Bitcoin en action. La correction du bug de débordement en 2010 a été une Soft Fork qui a corrigé une faille critique. Le problème de l'année 2106 nécessitera probablement une Hard Fork pour Address ses implications. Le passage de la chaîne la plus longue à la chaîne la plus travaillée reflète une décision de gouvernance importante qui a affecté la manière dont le consensus est atteint.
+Plusieurs exemples concrets illustrent la gouvernance de Bitcoin en action. La correction du bug de débordement en 2010 a été un soft fork qui a corrigé une faille critique. Le problème de l'année 2106 nécessitera probablement un hard fork pour en gérer les implications. Le passage de la chaîne la plus longue à la chaîne avec le plus de travail reflète une décision de gouvernance importante qui a affecté la manière dont le consensus est atteint.
 
 
-La gouvernance de Bitcoin tient également compte des changements réels dans l'utilisation du protocole. Par exemple, l'introduction des ordinaux et des inscriptions illustre la manière dont les changements de protocole peuvent ne pas censurer les transactions. De même, la mise en œuvre de la RBF complète (Replace-by-fee) a modifié les procédures de remplacement des transactions sans changer les règles de consensus.
+La gouvernance de Bitcoin tient également compte des changements réels dans l'utilisation du protocole. Par exemple, l'introduction des "Ordinals" et des inscriptions illustre la manière dont les changements de protocole peuvent ne pas censurer les transactions. De même, la mise en œuvre du "Full RBF" (*Replace-by-fee*) a modifié les procédures de remplacement des transactions sans changer les règles de consensus.
 
 
 #### Motivations pour le changement et le consensus
@@ -1366,13 +1366,13 @@ Les changements apportés à Bitcoin peuvent être motivés par diverses raisons
 Le mécanisme de consensus de Bitcoin est intrinsèquement politique, car il nécessite un large accord pour que les changements soient acceptés. Cet aspect politique est essentiel pour maintenir la nature décentralisée du réseau et garantir que toute modification est dans le meilleur intérêt de la communauté.
 
 
-Les nœuds en cours d'exécution peuvent valider les règles de Bitcoin et participer au réseau, même avec des protocoles de communication différents comme Blockstream Satellite. Cela met en évidence la séparation entre le mécanisme de consensus de Bitcoin et les méthodes de communication de données utilisées par le réseau. L'importance économique des nœuds, en particulier ceux qui sont gérés par de grandes entités comme Binance, peut influencer l'adoption de changements. Ces entités ont des intérêts économiques substantiels dans le réseau et peuvent influencer les décisions en gérant des nœuds influents.
+L'exécution de noeuds permet de valider les règles de Bitcoin et participer au réseau, même avec des protocoles de communication différents comme Blockstream Satellite. Cela met en évidence la séparation entre le mécanisme de consensus de Bitcoin et les méthodes de communication de données utilisées par le réseau. L'importance économique des nœuds, en particulier ceux qui sont gérés par de grandes entités comme Binance, peut influencer l'adoption de changements. Ces entités ont des intérêts économiques substantiels dans le réseau et peuvent influencer les décisions en gérant des nœuds influents.
 
 
 ### Débat sur la taille des blocs
 
 
-Le débat sur la taille des blocs a été une question de gouvernance importante, tournant autour de la question de savoir s'il fallait augmenter la taille des blocs de la Bitcoin. Cette controverse a été résolue par la mise en œuvre de la SegWit, une Soft Fork qui a augmenté la taille effective des blocs et permis la Lightning Network.
+Le débat sur la taille des blocs a été une question de gouvernance importante, portant sur la question d'augmenter ou non la taille des blocs de Bitcoin. Cette controverse a été résolue par la mise en œuvre de SegWit, un soft fork qui a augmenté la taille effective des blocs et permis le développement du Lightning Network.
 
 
 ![Image](assets/en/022.webp)
@@ -1381,28 +1381,28 @@ Le débat sur la taille des blocs a été une question de gouvernance importante
 ### Changements forcés et règle de la majorité
 
 
-Il y a eu des tentatives juridiques pour contraindre les développeurs de Bitcoin à modifier les règles de Blockchain pour leur bénéfice personnel, comme les poursuites de Craig Wright. Ces tentatives mettent en évidence les défis et les considérations éthiques liés à la gouvernance de la Bitcoin.
+Il y a eu des tentatives juridiques pour contraindre les développeurs de Bitcoin à modifier les règles de la blockchain pour leur bénéfice personnel, comme les poursuites judiciaires intentés par Craig Wright. Ces tentatives mettent en évidence les défis et les considérations éthiques liés à la gouvernance de Bitcoin.
 
 
-Dans la Bitcoin, la règle de la majorité joue un rôle essentiel. Si 60 % des mineurs adoptent une nouvelle règle, leurs blocs seront rejetés par ceux qui gèrent la Bitcoin core d'origine, ce qui entraînera une scission. La Bitcoin Satoshi's Vision (BSV) est un exemple d'échec de la Hard Fork dû au manque de soutien de la communauté.
+Dans Bitcoin, la règle de la majorité joue un rôle essentiel. Si 60 % des mineurs adoptent une nouvelle règle, leurs blocs seront rejetés par ceux qui exécutent la version originale de Bitcoin Core, ce qui entraînera une scission. Bitcoin Satoshi's Vision (BSV) est un exemple d'échec de hard fork dû au manque de soutien de la communauté.
 
 
 Passons brièvement en revue quelques concepts importants.
 
 
-**Soft Fork forcée** : L'idée de mettre en place des règles restrictives pour modifier la Bitcoin peut conduire à d'autres divisions et à des problèmes de gouvernance. Cette approche illustre les complexités et les conflits potentiels au sein de la communauté Bitcoin.
+**Soft Fork forcé** : Le concept d'implémenter des règles restrictives pour modifier Bitcoin peut conduire à d'autres divisions et à des problèmes de gouvernance. Cette approche illustre les complexités et les conflits potentiels au sein de la communauté Bitcoin.
 
 
-**Attaque à 51 %** : Une attaque à 51 % décrit un scénario dans lequel une majorité de la puissance de hachage pourrait attaquer Bitcoin par des blocs vides Mining. Cela pourrait effectivement tuer le réseau à moins que la communauté n'adopte de nouvelles règles de consensus pour Address l'attaque.
+**Attaque à 51 %** : Une attaque à 51 % décrit un scénario dans lequel une majorité de la puissance de hachage pourrait attaquer Bitcoin en minant des blocs vides. Cela pourrait effectivement compromettre le réseau à moins que la communauté n'adopte de nouvelles règles de consensus pour contrer l'attaque.
 
 
-**Check-Lock-Time-Verify (CLTV)** : Check-Lock-Time-Verify (CLTV) est un exemple de changement de gouvernance mis en œuvre sous la forme d'une Soft Fork. La CLTV garantit que les transactions ne sont valables qu'après un certain temps, ce qui est utile pour les canaux de paiement et les clés de sauvegarde. Cette modification a renforcé les règles en utilisant un opcode qui ne faisait rien auparavant.
+**Check-Lock-Time-Verify (CLTV)** : *Check-Lock-Time-Verify* (CLTV) est un exemple de changement de gouvernance mis en œuvre sous la forme d'un soft fork. La CLTV garantit que les transactions ne sont valables qu'après un certain temps, ce qui est utile pour les canaux de paiement et les clés de sauvegarde. Cette modification a renforcé les règles en utilisant un opcode qui n'avait aucune fonction auparavant.
 
 
 En conclusion, l'avenir et les changements de Bitcoin sont déterminés par la volonté collective de ses utilisateurs. Les changements importants nécessitent un large consensus, ce qui reflète la nature décentralisée et politique de la gouvernance de Bitcoin.
 
 
-## Bitcoin Mining Essentiels
+## Bases du minage de Bitcoin
 
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>

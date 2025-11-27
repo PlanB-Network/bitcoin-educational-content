@@ -61,7 +61,7 @@ La sezione **Transaction Fees** è una stima delle commissioni di transazione. P
 
 Le commissioni di transazione rappresentano il costo che un miner richiede all'utente per inserire la sua transazione in un blocco candidato per il mining. La commissione è definita dal rapporto sat/vB (Satoshi/Virtual Bytes), che rappresenta il numero di satoshi pagati per lo spazio che la transazione occuperà nel blocco candidato.
 
-⚠️ IMPORTANTE: in caso di saturazione della Mempool, i miner danno priorità alle transazioni che offrono il miglior rapporto Satoshi/vByte. Più pesante (grande) è la transazione, più satoshi saranno necessari fare in modo che venga inserita rapidamente.
+⚠️ IMPORTANTE: in caso di saturazione della Mempool, i miner danno priorità alle transazioni che offrono il miglior rapporto Satoshi/vByte. Più pesante (grande) è la transazione, più satoshi saranno necessari per fare in modo che venga inserita rapidamente.
 
 ![fees-visualizer](assets/fr/03.webp)
 
@@ -69,7 +69,7 @@ La sezione **Mempool Goggles** consente di visualizzare lo spazio occupato da un
 
 ![mempool](assets/fr/04.webp)
 
-Un blocco viene minato ogni dieci minuti circa a causa della difficoltà della Proof Of Work (POW): i miner devono fornire una POW per aggiungere il loro blocco candidato alla catena di blocchi minati. Questa difficoltà varia ogni **2016 blocchi** (circa ogni **2 settimane**). È possibile vedere l'evoluzione di questa difficoltà nell'immagine qui sotto.
+Un blocco viene minato ogni dieci minuti circa a causa della difficoltà della Proof Of Work (POW): i miner devono fornire una POW per aggiungere il loro blocco candidato alla catena di blocchi minati. Questa difficoltà varia ogni **2016 blocchi** (circa ogni **2 settimane**). È possibile vedere l'evoluzione della difficoltà nell'immagine qui sotto.
 
 
 
@@ -77,7 +77,7 @@ Un blocco viene minato ogni dieci minuti circa a causa della difficoltà della P
 
 
 
-L'aggiunta di un nuovo blocco alla catena principale dà diritto al miner del blocco convalidato a una ricompensa composta da una parte fissa (dimezzata ogni 210.000 blocchi, **equivalente a circa 4 anni** ) e dalle commissioni delle transazioni.
+L'aggiunta di un nuovo blocco alla catena principale dà diritto al miner del blocco convalidato a una ricompensa composta da una parte fissa (dimezzata ogni 210.000 blocchi, **equivalente a circa 4 anni**) e dalle commissioni delle transazioni.
 
 
 
@@ -101,9 +101,9 @@ Nella pagina dei dettagli della transazione si trovano informazioni generali sul
 
 
 
-- **stato**: confermato quando viene aggiunto a un blocco, non confermato quando è in attesa nella Mempool;
+- **stato**: confermato quando viene aggiunto ad un blocco, non confermato quando è in attesa nella Mempool;
 - **spese di transazione**;
-- **Estimated Time of Arrival, ETA (tempo stimato di arrivo)**: il tempo approssimativo necessario affinché la transazione venga aggiunta ad un blocco. Il calcolo si basa sulla proporzione tra queste commissioni.
+- **Estimated Time of Arrival, ETA (tempo stimato di arrivo)**: il tempo approssimativo necessario affinché la transazione venga aggiunta ad un blocco. Il calcolo si basa sulla proporzione tra le commissioni recenti e la commissione associata alla tua transazione.
 
 
 
@@ -155,7 +155,7 @@ Fortunatamente, sulla rete Bitcoin sono disponibili due metodi per accelerare la
 
 
 
-È possibile effettuare Replace By Fee (RBF) con i wallet che integrano questo meccanismo. Ad esempio, leggi il nostro articolo Blue Wallet.
+È possibile effettuare Replace By Fee (RBF) con i wallet che integrano questo meccanismo. Ad esempio, leggi il nostro articolo su Blue Wallet.
 
 
 

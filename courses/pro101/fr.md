@@ -1415,16 +1415,16 @@ En conclusion, l'avenir et les changements de Bitcoin sont déterminés par la v
 #### Introduction
 
 
-Ajelex se concentre sur l'aspect commercial du Bitcoin Mining, en examinant les stratégies pour maintenir la rentabilité dans un marché concurrentiel. La discussion comprend une analyse des coûts opérationnels, des mesures d'efficacité et de l'économie de l'industrie du Mining.
+Ajelex se concentre sur l'aspect commercial du minage de Bitcoin, en examinant les stratégies pour maintenir une rentabilité dans un marché concurrentiel. La discussion comprend une analyse des coûts opérationnels, des mesures d'efficacité et de l'économie qui sous-tend l'industrie du minage.
 
 
-### 1. Facteurs de complexité et de rentabilité de Mining
+### 1. Facteurs de complexité et de rentabilité du minage
 
 
 #### Facteurs techniques et stratégiques
 
 
-La complexité Mining dans le contexte de Bitcoin implique principalement les Elements aspects techniques et stratégiques qui déterminent la rentabilité des opérations Mining. Il est essentiel de comprendre que la Mining n'est pas un simple jeu de hasard, mais un processus sophistiqué qui nécessite une planification minutieuse et une optimisation continue.
+La complexité du minage dans le contexte de Bitcoin implique principalement les élements techniques et stratégiques qui déterminent la rentabilité des opérations de minage. Il est essentiel de comprendre que le minage n'est pas un simple jeu de hasard, mais un processus sophistiqué qui nécessite une planification minutieuse et une optimisation continue.
 
 
 #### Facteurs clés de rentabilité
@@ -1433,35 +1433,35 @@ La complexité Mining dans le contexte de Bitcoin implique principalement les El
 ![energy cost](assets/en/056.webp)
 
 
-1. **Coût de l'électricité** : Le coût de l'électricité est l'un des facteurs les plus importants qui affectent la rentabilité de Mining. Dans des régions comme la France, l'électricité peut être relativement chère par rapport à des pays comme le Salvador, où les coûts inférieurs constituent un avantage concurrentiel pour les mineurs.
+1. **Coût de l'électricité** : Le coût de l'électricité est l'un des facteurs les plus importants qui affectent la rentabilité du minage. Dans des régions comme la France, l'électricité peut être relativement chère par rapport à des pays comme le Salvador, où les coûts inférieurs constituent un avantage concurrentiel pour les mineurs.
 
-2. **Efficacité du matériel** : L'efficacité du matériel Mining, mesurée par son taux Hash et sa consommation d'énergie, joue un rôle essentiel. Les mineurs ASIC avancés comme le S19J Pro sont beaucoup plus efficaces que les modèles plus anciens comme l'Antminer S9.
+2. **Efficacité du matériel** : L'efficacité du matériel de minage, mesurée par son taux de hachage (*hashrate*) et sa consommation d'énergie, joue un rôle essentiel. Les mineurs ASIC avancés comme le S19J Pro sont beaucoup plus performants que les modèles plus anciens comme l'Antminer S9.
 
-3. **Période de temps** : Bitcoin Mining encourage la planification à long terme.
+3. **Période de temps** : Le minage de Bitcoin encourage la planification à long terme.
 
-4. **Prix BTC** : Le prix du BTC est essentiel pour déterminer la rentabilité du Mining.
+4. **Prix BTC** : Le prix du BTC est essentiel pour déterminer la rentabilité du minage.
 
-5. **Difficulté du réseau** : La difficulté du réseau représente la quantité de Hashrate en moyenne nécessaire pour miner un bloc en 10 minutes.
+5. **Difficulté du réseau** : La difficulté du réseau représente la quantité moyenne de hashrate nécessaire pour miner un bloc en 10 minutes.
 
-6. **Outils stratégiques** : Des outils tels que [braiins.com] (https://insights.braiins.com) sont inestimables pour calculer la rentabilité et aider les mineurs à prendre des décisions fondées sur des données.
+6. **Outils stratégiques** : Des outils tels que [braiins.com](https://insights.braiins.com) sont précieux pour calculer la rentabilité et aider les mineurs à prendre des décisions basées sur des données.
 
 
 #### Application pratique
 
 
-D'après mon expérience personnelle, j'ai même utilisé la Mining pour chauffer mon appartement en France, compensant ainsi de manière créative les coûts d'électricité tout en Mining Bitcoin. Cet exemple souligne l'aspect pratique de l'intégration des opérations Mining dans la vie de tous les jours pour en tirer des avantages supplémentaires.
+D'après mon expérience personnelle, j'ai même utilisé le minage pour chauffer mon appartement en France, compensant ainsi de manière créative les coûts d'électricité tout en minant du bitcoin. Cet exemple souligne l'aspect pratique de l'intégration des opérations de minage dans la vie quotidienne pour en tirer des avantages supplémentaires.
 
 
-#### Goulets d'étranglement dans la Mining
+#### Obstacles dans le minage
 
 
-Les mineurs sont confrontés à trois principaux goulets d'étranglement : la disponibilité du matériel, l'accès à l'énergie et le capital nécessaire pour maintenir les opérations. La rareté des ASIC en raison de la forte demande entraîne souvent de longs délais d'attente et des prix élevés, ce qui complique encore le paysage de la Mining.
+Les mineurs sont confrontés à trois principaux obstacles : la disponibilité du matériel, l'accès à l'énergie et le capital nécessaire pour maintenir les opérations. La rareté des ASIC en raison de la forte demande entraîne souvent de longs délais d'attente et des prix élevés, ce qui complique encore le secteur du minage.
 
 
 
-- Exemple de **goulot d'étranglement énergétique**.
+- Exemple **d'obstacle énergétique**.
 
-En 2021, le gouvernement chinois a interdit le Mining sur son territoire, ce qui a eu pour effet de priver les entreprises chinoises de Mining de leur accès à l'énergie. Il en résulte une chute de **50%** du Hashrate en deux semaines.
+En 2021, le gouvernement chinois a interdit le minage sur son territoire, ce qui a eu pour effet de priver les entreprises chinoises de minage de leur accès à l'énergie. Cela a entraîné une chute de **50%** du hashrate en deux semaines.
 
 
 ![hashrate drop](assets/en/057.webp)
@@ -1469,114 +1469,114 @@ En 2021, le gouvernement chinois a interdit le Mining sur son territoire, ce qui
 
 ---
 
-### 2. Évolution et efficacité du matériel Mining
+### 2. Évolution et efficacité du matériel de minage
 
 
 #### Évolution historique
 
 
-L'évolution du matériel Mining a été monumentale, depuis le simple CPU Mining jusqu'aux mineurs ASIC hautement spécialisés que nous utilisons aujourd'hui.
+L'évolution du matériel de minage a été monumentale, depuis le simple minage par CPU jusqu'aux mineurs ASIC hautement spécialisés que nous utilisons aujourd'hui.
 
 
 ![evolution hardware](assets/en/058.webp)
 
 
-1. **CPU Mining** : Dans les premiers temps, le Mining était exécuté à l'aide de processeurs d'ordinateurs ordinaires (CPU). Cette méthode a été rapidement dépassée au fur et à mesure que le réseau se développait.
+1. **Minage CPU** : Dans les premiers temps, le minage était exécuté à l'aide de processeurs d'ordinateurs ordinaires (CPU). Cette méthode a été rapidement dépassée au fur et à mesure que le réseau se développait.
 
-2. **GPU Mining** : Les unités de traitement graphique (GPU) ont permis d'améliorer considérablement l'efficacité de la Mining, rendant les CPU obsolètes pour la Mining.
+2. **Minage GPU** : Les unités de traitement graphique (GPU) ont permis d'améliorer considérablement l'efficacité du minage, rendant les CPU obsolètes pour le minage.
 
-3. **FPGA Mining** : Les réseaux de portes programmables (Field-Programmable Gate Arrays, FPGA) offrent des performances et une efficacité énergétique encore meilleures que les GPU.
+3. **Minage FPGA** : Les réseaux de portes programmables (*Field-Programmable Gate Arrays*, FPGA) offrent des performances et une efficacité énergétique supérieurs aux GPU.
 
-4. **ASIC Mining** : Les circuits intégrés à application spécifique (ASIC) représentent le summum de l'efficacité matérielle Mining, conçus spécifiquement pour les opérations Mining avec des performances inégalées.
+4. **Minage ASIC** : Les circuits intégrés à application spécifique (ASIC) représentent le summum de l'efficacité matériel de minage, conçus spécifiquement pour cette tâche avec des performances inégalées.
 
 
 #### Comparaison détaillée : S19J Pro vs. Antminer S9
 
 
 
-- S19J Pro** : Connu pour sa grande efficacité et sa fiabilité, le S19J Pro offre un taux Hash supérieur tout en consommant moins d'énergie, ce qui le rend idéal pour les opérations à grande échelle.
-- Antminer S9** : Bien qu'il soit plus ancien et moins efficace, l'Antminer S9 reste populaire pour les petites installations et les amateurs en raison de son prix abordable et de ses performances décentes.
+- **S19J Pro** : Connu pour sa grande efficacité et sa fiabilité, le S19J Pro offre un taux de hashrate supérieur tout en consommant moins d'énergie, ce qui le rend idéal pour les opérations à grande échelle.
+- **Antminer S9** : Bien qu'il soit plus ancien et moins efficace, l'Antminer S9 reste populaire auprès des petites installations et des amateurs en raison de son prix abordable et de ses performances correctes.
 
 
 ![s19j pro vs antminer s9](assets/en/059.webp)
 
 
-#### Mining efficacité et apprentissage
+#### Éfficacité de minage et apprentissage
 
 
-Mining n'offre pas seulement des récompenses financières, mais aussi une expérience pratique précieuse. L'acquisition de bitcoins sans KYC par l'intermédiaire de Mining peut être une proposition attrayante pour ceux qui se préoccupent de la protection de la vie privée.
+Le minage n'offre pas seulement des récompenses financières, mais aussi une expérience pratique précieuse. L'acquisition de bitcoins sans KYC par l'intermédiaire du minage peut être une proposition attrayante pour ceux qui se préoccupent de la confidentialité.
 
 
 #### Outils et techniques avancés
 
 
-Les logiciels du marché secondaire peuvent améliorer l'efficacité et la fonctionnalité du matériel Mining. Les outils qui offrent des capacités d'optimisation et de réglage automatique garantissent que chaque puce fonctionne avec une efficacité maximale, en équilibrant efficacement le taux Hash et la consommation d'énergie.
+Les logiciels complémentaires peuvent améliorer l'efficacité et la fonctionnalité du matériel de minage. Les outils qui offrent des options d'optimisation et de réglage automatique garantissent que chaque puce fonctionne à son rendement maximal, en équilibrant efficacement le taux de hachage et la consommation énergétique.
 
 
 ---
 
-### 3. Dynamique de la réglementation et du marché dans les opérations Mining
+### 3. Dynamique réglementaire et commerciale dans le secteur du minage
 
 
 #### Impact réglementaire
 
 
-La réglementation joue un rôle important dans l'évolution du paysage de la Mining. Par exemple, l'interdiction de la Mining en Chine a eu de profondes répercussions sur les opérations Mining au niveau mondial, entraînant une baisse significative du taux de Hash du réseau et une redistribution de la puissance de la Mining entre les différentes régions.
+La réglementation joue un rôle important dans l'évolution du secteur du minage. Par exemple, l'interdiction du minage en Chine a eu de profondes répercussions au niveau mondial, entraînant une baisse significative du hashrate du réseau et une redistribution de la puissance de calcul entre différentes régions.
 
 
 #### Dynamique du marché
 
 
-1. **Disponibilité et coût du matériel** : Le prix et la disponibilité des mineurs ASIC sont influencés par le prix du marché du Bitcoin. Une forte demande pendant les marchés haussiers entraîne une pénurie et une augmentation des prix.
+1. **Disponibilité et coût du matériel** : Le prix et la disponibilité des mineurs ASIC sont influencés par le prix du marché de Bitcoin. Une forte demande pendant les marchés haussiers entraîne une pénurie et une augmentation des prix.
 
-2. **Valeur de la Hash et prix de la Hash** : Il est essentiel de comprendre la distinction entre la valeur de la Hash (les satoshis gagnés par terahash et par jour) et le prix de la Hash (la valeur monétaire du taux de la Hash). Les deux sont influencés par la difficulté du réseau et le prix du marché de la Bitcoin.
-
-
-#### Mining pools et mécanismes de récompense
+2. **Valeur du hash et prix du hash** : Il est essentiel de comprendre la distinction entre la valeur du hash (les satoshis gagnés par terahash et par jour) et le prix du hash (la valeur monétaire du taux de hachage). Les deux sont influencés par la difficulté du réseau et le prix du marché de Bitcoin.
 
 
-1. **Les pools Mining** : En combinant les ressources, les pools Mining offrent des récompenses plus stables, réduisant ainsi la variance et le risque associés au Mining en solo.
+#### Pools de minage et mécanismes de récompense
+
+
+1. **Les pools de minage** : En combinant les ressources, les pools de minage offrent des récompenses plus stables, réduisant ainsi la variance et le risque associés au minage solo.
 
 2. **Les mécanismes de récompense** : Différents mécanismes de récompense, tels que le paiement au partage (PPS) et les récompenses proportionnelles, offrent différents profils de risque et de récompense aux mineurs.
 
 
 
-   - Paiement par action** : Le paiement par action récompense les mineurs pour chaque action valide qu'ils soumettent, que le pool trouve ou non un bloc. *les *Shares** sont des unités de preuve que les mineurs ont effectué le travail requis, et le pool vérifie ces parts.
+   - **Paiement par action** (*Pay-Per-Share*) : Le paiement par action récompense les mineurs pour chaque action valide qu'ils soumettent, que la pool trouve ou non un bloc. Les ***Shares*** sont des unités qui prouvent que les mineurs ont effectué le travail requis, et la pool vérifie ces *shares*.
 
 
 ![pps](assets/en/060.webp)
 
 
 
-   - Proportionnelle** : Il dépend du pool Mining d'un bloc de distribuer la récompense de manière égale à la contribution du Miner au Hashrate total du pool.
+   - **Proportionnelle** : La récompense dépend du fait que la pool mine un bloc, puis distribue la récompense en fonction de la contribution du mineur au hashrate total de la pool.
 
 
 ![prop](assets/en/061.webp)
 
 
-#### L'avenir du Mining
+#### L'avenir du minage
 
 
-À mesure que les récompenses pour les blocs diminuent, les mineurs dépendront de plus en plus des frais de transaction. Cette évolution soulève la question de savoir si les frais de transaction constitueront à eux seuls une incitation suffisante pour que les mineurs continuent à sécuriser le réseau.
+À mesure que les récompenses par blocs diminuent, les mineurs dépendront de plus en plus des frais de transaction. Cette évolution soulève la question de savoir si les frais de transaction constitueront à eux seuls une incitation suffisante pour que les mineurs continuent à sécuriser le réseau.
 
 
-#### Hébergé Mining
+#### Minage hébergé
 
 
-Les services hébergés Mining peuvent permettre de réduire les coûts d'exploitation, mais ils comportent des risques tels que le manque de contrôle et la possibilité de fraude. Il est nécessaire de faire preuve de diligence raisonnable pour atténuer ces risques.
+Les services hébergés de minage peuvent permettre de réduire les coûts d'exploitation, mais ils comportent des risques tels que le manque de contrôle et la possibilité de fraude. Il est nécessaire de faire preuve de diligence raisonnable pour atténuer ces risques.
 
 
 #### Sécurité et efficacité
 
 
-Les protocoles de sécurité avancés et l'utilisation d'énergies renouvelables améliorent non seulement la rentabilité, mais contribuent également à la croissance durable de l'écosystème Mining.
+Les protocoles de sécurité avancés et l'utilisation d'énergies renouvelables améliorent non seulement la rentabilité, mais contribuent également à la croissance durable de l'écosystème du minage.
 
 
-En conclusion, le monde du Bitcoin Mining est un domaine complexe, aux multiples facettes, qui exige une compréhension approfondie des dynamiques techniques, stratégiques, réglementaires et commerciales. Que vous soyez un Miner expérimenté ou un débutant, il est essentiel de rester informé et de s'adapter pour prospérer dans ce domaine en constante évolution. Je vous remercie de votre attention et j'attends avec impatience vos questions et vos discussions.
+En conclusion, le monde du minage de Bitcoin est un domaine complexe, aux multiples facettes, qui exige une compréhension approfondie des dynamiques techniques, stratégiques, réglementaires et commerciales. Que vous soyez un mineur expérimenté ou un débutant, il est essentiel de rester informé et de s'adapter pour prospérer dans ce domaine en constante évolution. Je vous remercie de votre attention et j'attends avec impatience vos questions et vos discussions.
 
 
 
-# Layer One Concepts
+# Concepts de la première couche
 
 
 <partId>5300855f-e5e4-5bca-9afe-2397f7c76260</partId>
@@ -1592,45 +1592,45 @@ En conclusion, le monde du Bitcoin Mining est un domaine complexe, aux multiples
 
 :::video id=6fae79f6-da81-4870-927b-923bd1672176:::
 
-Adam Gibson présente les différents composants d'un nœud Bitcoin. Le chapitre se concentre sur le rôle que chaque composant joue dans le maintien de la fonctionnalité et de l'intégrité du réseau. Il explique notamment pourquoi nous devrions utiliser un nœud Bitcoin, ce que fait un nœud Bitcoin et comment fonctionnent les différents composants d'un nœud Bitcoin.
+Adam Gibson présente les différents composants d'un nœud Bitcoin. Le chapitre se concentre sur le rôle que chaque composant joue dans le maintien de la fonctionnalité et de l'intégrité du réseau. Il explique notamment pourquoi nous devrions utiliser un nœud Bitcoin, ce que fait un nœud et comment fonctionnent les différents composants d'un nœud.
 
 
 ### Introduction aux nœuds Bitcoin
 
 
-Comprendre le rôle des nœuds Bitcoin est essentiel pour toute personne impliquée dans le réseau Bitcoin. L'exploitation d'un nœud Bitcoin permet aux utilisateurs de valider les transactions, de participer au consensus et de garder le contrôle sur leur vie privée. Cette conférence explique pourquoi l'exploitation d'un nœud Bitcoin est bénéfique et comment elle contribue à la sécurité globale et à la décentralisation du réseau Bitcoin.
+Comprendre le rôle des nœuds Bitcoin est essentiel pour toute personne impliquée dans le réseau Bitcoin. L'exploitation d'un nœud permet aux utilisateurs de valider les transactions, de participer au consensus et de garder le contrôle sur leur vie privée. Cette conférence explique pourquoi l'exploitation d'un nœud Bitcoin est bénéfique et comment elle contribue à la sécurité globale et à la décentralisation du réseau.
 
 
 ### Pourquoi utiliser un nœud Bitcoin ?
 
 
-L'exploitation d'un nœud Bitcoin est essentielle pour plusieurs raisons :
+Faire tourner un nœud Bitcoin est essentiel pour plusieurs raisons :
 
 
-1. **Vérification** : En exécutant un nœud, vous pouvez vérifier vous-même les transactions, en vous assurant que la Bitcoin que vous recevez est valide sans dépendre de tierces parties.
+1. **Vérification** : En exécutant un nœud, vous pouvez vérifier vous-même les transactions, en vous assurant que le bitcoin que vous recevez est valide, sans dépendre de tiers.
 
-2. **Participation au consensus** : Les nœuds jouent un rôle crucial dans la détermination des règles du réseau Bitcoin. La participation au consensus contribue donc à maintenir l'intégrité et la sécurité du réseau Blockchain.
+2. **Participation au consensus** : Les nœuds jouent un rôle crucial dans la détermination des règles du réseau Bitcoin. La participation au consensus contribue donc à maintenir l'intégrité et la sécurité dde la blockchain.
 
-3. **Confidentialité et contrôle** : En gérant votre propre nœud, vous n'avez pas à vous fier à des nœuds externes, qui pourraient compromettre votre vie privée en suivant vos transactions et votre solde Wallet.
+3. **Confidentialité et contrôle** : En gérant votre propre nœud, vous n'avez pas à vous fier à des nœuds externes, qui pourraient compromettre votre confidentialité en suivant vos transactions et le solde de votre portefeuille.
 
 
 ### Que fait un nœud Bitcoin ?
 
 
 
-- Conserve une liste de pairs** : Les nœuds doivent trouver d'autres nœuds dans le réseau et s'y connecter pour Exchange obtenir des informations.
-- Réception et envoi de transactions et de blocs valides** : Les nœuds Bitcoin sont responsables de la propagation des transactions et des blocs valides dans le réseau.
-- Conserve l'historique des blocs et de la chaîne la plus lourde** : Les nœuds stockent leur propre copie du Blockchain, ce qui leur permet de valider l'authenticité des transactions et des blocs.
-- Maintient la liste des candidats valides ; Mempool** : Les nœuds doivent conserver dans la Mempool une liste de candidats possibles à la transaction à inclure dans les blocs.
+- **Conserve une liste de pairs** : Les nœuds doivent trouver et se connecter à d'autres nœuds du réseau pour échanger des informations.
+- **Réception et envoi de transactions et de blocs valides** : Les nœuds Bitcoin sont responsables de la propagation des transactions et des blocs valides dans le réseau.
+- **Conserve l'historique des blocs et de la chaîne la plus longue** : Les nœuds stockent leur propre copie de la blockchain, ce qui leur permet de valider l'authenticité des transactions et des blocs.
+- **Maintient la liste des candidats valides ; Mempool** : Les nœuds doivent conserver une liste de transactions potentielles dans la memepool pour qu'elles puissent être incluses dans les blocs.
 
 
 ![nodes network](assets/en/023.webp)
 
 
-**NOTE** : La Mempool est une zone de stockage temporaire pour les transactions qui ont été validées mais qui n'ont pas encore été incluses dans un bloc.
+**NOTE** : La mempool est une zone de stockage temporaire pour les transactions qui ont été validées mais qui n'ont pas encore été incluses dans un bloc.
 
 
-### Composants du nœud
+### Composants d'un nœud
 
 
 #### Modules Bitcoin core
@@ -1640,29 +1640,29 @@ L'exploitation d'un nœud Bitcoin est essentielle pour plusieurs raisons :
 
 
 
-- Découverte des pairs** : La découverte des pairs est le processus par lequel un nœud trouve d'autres nœuds auxquels se connecter.
-- Moteur de validation** : Le moteur de validation est chargé de vérifier la validité des transactions et des blocs conformément aux règles du réseau.
-- RPC (appel de procédure à distance)** : Le Bitcoin core comprend un RPC Interface qui permet à des applications externes, telles que des portefeuilles, d'interagir avec le nœud.
-- Stockage des blocs et de l'état de la chaîne** : Bitcoin core peut stocker l'ensemble Blockchain ou non, qu'il s'agisse d'un nœud d'archivage ou d'un nœud pruned. Il stocke également l'état actuel du réseau (l'ensemble UTXO) sur le disque.
+- **Découverte des pairs** : La découverte des pairs est le processus par lequel un nœud trouve d'autres nœuds auxquels se connecter.
+- **Moteur de validation** : Le moteur de validation est chargé de vérifier la validité des transactions et des blocs conformément aux règles du réseau.
+- **RPC (*Remote Procedure Call*))** : Bitcoin Core comprend une interface RPC qui permet à des applications externes, telles que des portefeuilles, d'interagir avec le nœud.
+- **Stockage des blocs et de l'état de la chaîne** : Bitcoin Core peut stocker l'ensemble de la blockchain ou non, qu'il s'agisse d'un nœud d'archivage ou d'un nœud élagué. Il stocke également l'état actuel du réseau (l'ensemble des UTXOs, *UTXO set*)) sur le disque.
 
 
 #### Que pouvons-nous supprimer ?
 
 
 
-- Miner** : La plupart des nœuds Bitcoin ne participent pas à Mining en raison de la puissance de calcul nécessaire.
-- RPC (serveur)** : Bitcoin core implémente un JSON-RPC Interface auquel on peut accéder à l'aide de la ligne de commande bitcoin-cli.
-- Wallet (disablewallet)** : Si vous préférez utiliser un Wallet externe, vous pouvez désactiver la fonctionnalité Wallet dans le Bitcoin core. Cela vous permet de gérer vos clés privées séparément.
-- Mempool (blocs uniquement)** : Pour les utilisateurs qui souhaitent réduire l'utilisation de la bande passante, l'exécution d'un nœud "blocksonly" peut être une solution dans laquelle le nœud ne traite que les blocs, sans tenir compte des transactions.
+- **Mineur** : La plupart des nœuds Bitcoin ne participent pas au minage en raison de la puissance de calcul nécessaire.
+- **RPC (serveur)** : Bitcoin Core implémente une interface JSON-RPC à laquelle on peut accéder à l'aide de la ligne de commande `bitcoin-cli`.
+- **Portefeuille (*disablewallet*)** : Si vous préférez utiliser un portefeuille externe, vous pouvez désactiver la fonctionnalité "Wallet" dans Bitcoin Core. Cela vous permet de gérer vos clés privées séparément.
+- **Mempool (*blocsonly*)** : Pour les utilisateurs qui souhaitent réduire l'utilisation de la bande passante, l'exécution d'un nœud "blocksonly" peut être une solution où le nœud ne traite que les blocs, sans tenir compte des transactions.
 
 
-### État de la chaîne
+### État de la chaîne (
 
 
-#### Où sont les pièces ?
+#### Où sont les bitcoins ?
 
 
-Les pièces ne sont pas stockées dans des adresses ; elles résident dans les UTXO, qui représentent tous les résultats des transactions qui n'ont pas été dépensés. Vous pouvez récupérer ces informations à l'aide de la commande :
+Les bitcoins ne sont pas stockés dans des adresses ; ils résident dans les UTXOs, qui représentent toutes les sorties de transactions qui n'ont pas été dépensées. Vous pouvez récupérer ces informations à l'aide de la commande :
 
 
 ```Bash
@@ -1676,17 +1676,17 @@ bitcoin-cli gettxoutsetinfo
 Nous pouvons vérifier que le nombre de bitcoins est correct.
 
 
-#### Pour chaque UTXO, chainstate a :
+Pour chaque UTXO, l'état de la chaîne contient :
 
 
 
-- txid.
-- Indice de sortie.
-- Le bloc dans lequel se trouve le UTXO.
-- Qu'il s'agisse d'un coinbase UTXO.
+- La Txid.
+- L'index de sortie.
+- Le bloc dans lequel se trouve l'UTXO.
+- S'il s'agit d'un UTXO coinbase.
 
 
-**IMPORTANT** : Les transactions ne sont pas les mêmes que les UTXO.
+**IMPORTANT** : Les transactions ne sont pas identiques aux UTXOs.
 
 
 ![Txs and UTXOs](assets/en/026.webp)
@@ -1701,13 +1701,13 @@ Il s'agit d'une liste de transactions non confirmées dans chaque nœud, appelé
 #### Considérations de sécurité pour les nœuds Bitcoin
 
 
-La sécurité est primordiale lors de l'exploitation d'un nœud Bitcoin. Voici quelques considérations clés à garder à l'esprit :
+La sécurité est primordiale lors de l'exécution d'un nœud Bitcoin. Voici quelques considérations clés à garder à l'esprit :
 
 
 #### Éviter la centralisation
 
 
-Le fait de s'appuyer sur une source unique pour les données Blockchain, comme le téléchargement de tous les blocs à partir d'un serveur central, présente des risques importants. Pour préserver la nature décentralisée de la Bitcoin, les nœuds doivent se connecter à plusieurs pairs et valider les données qu'ils reçoivent.
+Le fait de s'appuyer sur une source unique pour les données de la blockchain, comme le téléchargement de tous les blocs à partir d'un serveur central, présente des risques importants. Pour préserver la nature décentralisée de Bitcoin, les nœuds doivent se connecter à plusieurs pairs et valider les données qu'ils reçoivent.
 
 
 #### Prévenir les attaques d'isolement
@@ -1719,19 +1719,19 @@ Les attaques par isolement se produisent lorsqu'un nœud est amené à se connec
 #### Gestion des connexions entre pairs
 
 
-Les nœuds doivent gérer avec soin les connexions de leurs pairs afin de s'assurer qu'ils ne se connectent pas à des acteurs malveillants. Il s'agit notamment de tenir à jour une liste des pairs interdits qui ont eu un comportement suspect et de mettre régulièrement à jour la liste des pairs afin d'éviter de se fier à un petit groupe de nœuds.
+Les nœuds doivent gérer avec soin leurs connexions aux pairs afin de s'assurer qu'ils ne se connectent pas à des acteurs malveillants. Il s'agit notamment de tenir à jour une liste des pairs bannis qui ont eu un comportement suspect et de mettre régulièrement à jour la liste des pairs afin d'éviter de se fier à un petit groupe de nœuds.
 
 
-#### Importance de l'ensemble UTXO
+#### Importance de l'UTXO set
 
 
-L'ensemble UTXO représente l'état actuel de Bitcoin, listant toutes les sorties de transactions non dépensées. Il est essentiel pour valider les transactions et s'assurer que les pièces ne sont pas dépensées plus d'une fois. Il est important que cet ensemble soit petit et facilement accessible pour maintenir l'efficacité du réseau.
+L'UTXO set représente l'état actuel de Bitcoin, listant toutes les sorties de transactions non dépensées. Il est essentiel pour valider les transactions et s'assurer que les pièces ne sont pas dépensées plus d'une fois. Il est important que l'UTXO set soit petit et facilement accessible pour maintenir l'efficacité du réseau.
 
 
 #### Conclusion
 
 
-L'exploitation d'un nœud Bitcoin est un moyen puissant de participer au réseau Bitcoin, vous donnant la possibilité de vérifier les transactions, de maintenir la confidentialité et de contribuer à la sécurité et à la décentralisation de la Blockchain. Que vous choisissiez d'exploiter un Full node ou de personnaliser votre configuration en élaguant le Blockchain ou en désactivant certains composants, la compréhension des fonctions de base et des considérations de sécurité d'un nœud Bitcoin vous permettra de prendre des décisions éclairées et de contribuer à l'évolution continue du Bitcoin.
+Exécuter un nœud Bitcoin est un moyen puissant de participer au réseau Bitcoin, vous donnant la possibilité de vérifier les transactions, de préserver votre confidentialité et de contribuer à la sécurité et à la décentralisation de la blockchain. Que vous choisissiez d'exécuter un noeud complet ou de personnaliser votre configuration en élaguant la blockchain ou en désactivant certains composants, la compréhension des fonctions de base et des considérations de sécurité d'un nœud Bitcoin vous permettra de prendre des décisions éclairées et de contribuer à l'évolution continue de Bitcoin.
 
 
 ## Structures de données de Bitcoin

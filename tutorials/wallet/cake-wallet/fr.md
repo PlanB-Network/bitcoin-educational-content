@@ -14,7 +14,7 @@ Ce guide explore [**Cake Wallet**](https://cakewallet.com/) : un wallet open-sou
 
 
 - les [**Paiements silencieux (BIP-352)**](https://bips.dev/352/) améliorent les précédents [codes de paiement BIP 47](https://silentpayments.xyz/docs/comparing-proposals/bip47/), également appelés "PayNyms", grâce à des adresses furtives réutilisables. Lorsqu'un expéditeur utilise votre adresse de paiement silencieux, son wallet dérive une adresse unique à usage unique à l'aide de différentes clés qui seront combinées en une adresse unique à usage unique Taproot. Les enregistrements de la blockchain montrent des transactions non liées, ce qui empêche de relier les paiements entrants. Les paiements silencieux offrent toute une série d'avantages, notamment
-    - Adresses réutilisables : Il n'est pas nécessaire d'utiliser une nouvelle adresse generate pour chaque transaction, ce qui améliore l'expérience de l'utilisateur et la protection de la vie privée
+    - Adresses réutilisables : Il n'est pas nécessaire d'utiliser une nouvelle adresse générée pour chaque transaction, ce qui améliore l'expérience de l'utilisateur et la protection de la vie privée
     - Aucune augmentation des coûts : Les paiements silencieux n'augmentent ni la taille ni le coût des transactions.
     - Anonymat renforcé : Les observateurs extérieurs ne peuvent pas relier les transactions à une adresse de paiement silencieux.
     - Aucune interaction entre l'expéditeur et le destinataire n'est nécessaire : Les transactions peuvent être effectuées sans aucune communication entre les parties.
@@ -64,7 +64,7 @@ Le type BIP-39 seed est généré par défaut, avec une option pour passer au ty
 - BIP-39 : `m/84'/0'/0`
 
 
-Si vous souhaitez ajouter une couche de sécurité supplémentaire, vous pouvez mettre en place une "passphrase".  L'objectif principal d'une passphrase est de fournir une protection supplémentaire contre les attaques physiques. Même si un attaquant trouve la phrase seed, il ne peut pas accéder à votre wallet sans la passphrase correcte. En d'autres termes, la phrase seed représente à elle seule une wallet, tandis que la phrase seed plus la passphrase créent une wallet entièrement différente, sans aucun lien avec l'originale. Cette fonction permet également de créer des "portefeuilles secrets" protégés par la passphrase, et vous donne la possibilité de nier l'existence de la wallet. Dans une situation de coercition, vous pourriez révéler la phrase seed tout en gardant des actifs plus importants en sécurité dans le wallet protégé par la passphrase.
+Si vous souhaitez ajouter une couche de sécurité supplémentaire, vous pouvez mettre en place une "passphrase".  L'objectif principal d'une passphrase est de fournir une protection supplémentaire contre les attaques physiques. Même si un attaquant trouve la phrase seed, il ne peut pas accéder à votre wallet sans la passphrase correcte. En d'autres termes, la phrase seed représente à elle seule un wallet, tandis que la phrase seed plus la passphrase créent un wallet entièrement différent, sans aucun lien avec l'original. Cette fonction permet également de créer des "portefeuilles secrets" protégés par la passphrase, et vous donne la possibilité de nier l'existence du wallet. Dans une situation de coercition, vous pourriez révéler la phrase seed tout en gardant des actifs plus importants en sécurité dans le wallet protégé par la passphrase.
 
 
 Si vous utilisez déjà votre propre nœud, cochez `Add New Custom Node` et fournissez votre `Node Address` pour valider les transactions et les blocs au sein de votre propre infrastructure. Une fois terminé, tapez sur `Continue` et `Next` pour créer votre wallet.
@@ -238,7 +238,7 @@ Pour en savoir plus sur PayJoin, vous pouvez également consulter le tutoriel su
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
-Pour utiliser la PayJoin, les deux parties ont besoin d'une wallet compatible avec la PayJoin, et le destinataire doit avoir au moins une pièce ou une sortie dans sa wallet. Pour commencer, veuillez suivre les étapes suivantes :
+Pour utiliser la PayJoin, les deux parties ont besoin d'un wallet compatible avec la PayJoin, et le destinataire doit avoir au moins une pièce ou une sortie dans son wallet. Pour commencer, veuillez suivre les étapes suivantes :
 
 
 1. Tapez sur le "Menu hamburger" et tapez sur le bouton "Confidentialité"

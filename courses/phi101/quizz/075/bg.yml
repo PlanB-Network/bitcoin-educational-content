@@ -1,9 +1,9 @@
 question: Какво е заглавието на книгата на Адам Смит?
-answer: "Изследване на природата и причините за богатството на народите" (An Inquiry into the Nature and Causes of the Wealth of Nations).
+answer: Изследване на природата и причините за богатството на народите (An Inquiry into the Nature and Causes of the Wealth of Nations).
 wrong_answers:
-  - "Изследване на природата и духа на богатството на народите" (An Inquiry into the Nature and Spirit of the Wealth of Nations).
-  - "Изследване на природата и произхода на богатството на народите" (An Inquiry into the Nature and Origins of the Wealth of Nations).
-  - "Изследване на причините и произхода на богатството на народите" (An Inquiry into the Cause and Origins of the Wealth of Nations).
+  - Изследване на природата и духа на богатството на народите (An Inquiry into the Nature and Spirit of the Wealth of Nations).
+  - Изследване на природата и произхода на богатството на народите (An Inquiry into the Nature and Origins of the Wealth of Nations).
+  - Изследване на причините и произхода на богатството на народите (An Inquiry into the Cause and Origins of the Wealth of Nations).
 explanation: |
   Пълното заглавие на книгата на Адам Смит - "Изследване на природата и причините за богатството на народите" - подчертава неговия анализ на факторите, които допринасят за икономическия просперитет, като разглежда механизмите за производство и разпределение на богатството.
 reviewed: true

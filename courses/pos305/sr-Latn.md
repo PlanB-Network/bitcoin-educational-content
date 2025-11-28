@@ -2080,7 +2080,7 @@ Administratori servera mogu otvoriti više detalja da vide;
 #### LND (REST)
 
 
-BTCPay daje pristup REST usluzi LND za spoljašnju upotrebu; informacije o povezivanju možete pronaći ovde; kompatibilni novčanici su navedeni ovde. Među kompatibilnim novčanicima su Joule, Alby i ZeusLN. BTCPay Server daje QR kod za povezivanje, skenirajte i primenite u kompatibilnom novčaniku.
+BTCPay daje pristup REST usluzi LND za spoljašnju upotrebu; informacije o povezivanju možete pronaći [ovde]((https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay); kompatibilni novčanici su navedeni [ovde](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server). Među kompatibilnim novčanicima su Joule, Alby i ZeusLN. BTCPay Server daje QR kod za povezivanje, skenirajte i primenite u kompatibilnom novčaniku.
 
 
 

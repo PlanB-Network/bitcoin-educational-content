@@ -6,3 +6,4 @@ wrong_answers:
   - Tras un período de embargo estándar de 90 días, independientemente del estado de despliegue
 explanation: |
   Bitcoin Core sigue un calendario de divulgación basado en el despliegue en lugar de un periodo de tiempo fijo. El umbral del 80% garantiza que la gran mayoría de la red esté protegida antes de que los atacantes puedan conocer la vulnerabilidad a través de la divulgación pública. Este enfoque da prioridad a la seguridad de la red frente a plazos arbitrarios, ya que una divulgación prematura podría exponer al 20% restante de los nodos a ataques selectivos. Las otras opciones representan prácticas habituales en la seguridad de software tradicional, pero no tienen en cuenta la naturaleza descentralizada de Bitcoin, donde los usuarios deben actualizar voluntariamente sus nodos.
+reviewed: false

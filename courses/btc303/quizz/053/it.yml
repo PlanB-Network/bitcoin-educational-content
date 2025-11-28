@@ -6,3 +6,4 @@ wrong_answers:
   - Il Bitcoin utilizza firme crittografiche per la protezione, mentre gli edifici si affidano a sistemi di controllo degli accessi e di monitoraggio
 explanation: |
   La distinzione fondamentale è che i sistemi online come il Bitcoin devono affrontare avversari anonimi che inevitabilmente sfrutteranno qualsiasi punto debole noto, a differenza dei sistemi fisici dove possiamo accettare un certo rischio perché i responsabili possono essere identificati e perseguiti. Come ha notato Andrew Poelstra, online non possiamo permetterci il lusso della deterrenza delle forze dell'ordine: se è possibile danneggiare il sistema in modo avverso, gli attori anonimi lo faranno. Questo costringe il Bitcoin ad affrontare tutte le vulnerabilità piuttosto che accettare rischi calcolati.
+reviewed: false

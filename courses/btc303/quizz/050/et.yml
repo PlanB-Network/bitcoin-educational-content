@@ -6,3 +6,4 @@ wrong_answers:
   - "Sotsiaalne insenerirünnak; see on ebaefektiivne, sest Bitcoin arendajad kasutavad manipulatsiooni vältimiseks formaalse kontrollimise meetodeid"
 explanation: |
   Sybil-rünnak toimub siis, kui üks üksus kontrollib mitut sõlme, et maskeeruda mitmeks eraldi üksuseks. See rünnak on aga Bitcoin vastu ebaefektiivne, sest võrk ei tugine sõlmede loendamisele ega võrguosaliste demokraatlikule hääletamisele. Selle asemel kasutab Bitcoin proof-of-work konsensust, mille puhul arvutusvõimsus (hashpower) määrab võrgu otsused, mitte sõlmede arv. See teeb ründajal võimatuks mõjuvõimu saavutamise lihtsalt paljude sõlmede käivitamise kaudu ilma vastavate arvutusressurssideta.
+reviewed: false

@@ -1225,7 +1225,7 @@ Une fois l’application installée, il vous suffit de l’ouvrir pour accéder 
 
 Pour approfondir l’utilisation de l'explorateur Mempool.space, je vous recommande de consulter ce tutoriel complet :
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Nœud Lightning
 

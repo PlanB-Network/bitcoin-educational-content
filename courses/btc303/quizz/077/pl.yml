@@ -6,3 +6,4 @@ wrong_answers:
   - Ujawnienie wymaga natychmiastowych działań i poprawek, podczas gdy publikacja pozwala na stopniowe wprowadzanie poprawek w normalnym toku rozwoju
 explanation: |
   Gregory Maxwell podkreślił to kluczowe rozróżnienie w dyskusji na liście mailingowej. Ujawnienie odnosi się do odpowiedzialnego działania polegającego na prywatnym poinformowaniu opiekunów oprogramowania (dostawcy) o luce, aby mogli pracować nad poprawką. Publikacja oznacza natomiast upublicznienie informacji o luce, co skutecznie informuje potencjalnych atakujących o exploicie. To rozróżnienie ma kluczowe znaczenie, ponieważ podczas gdy ujawnienie pomaga chronić system, przedwczesna publikacja może wyrządzić szkody, umożliwiając złośliwym podmiotom wykorzystanie luki, zanim zostaną wdrożone odpowiednie zabezpieczenia.
+reviewed: false

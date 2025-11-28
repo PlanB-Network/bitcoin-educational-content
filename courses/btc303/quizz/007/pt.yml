@@ -6,3 +6,4 @@ wrong_answers:
   - As chaves privadas são armazenadas em vários dispositivos em vez de num único wallet
 explanation: |
   A descentralização do Full node significa que a validação dos blocos (os dados que os mineiros produzem) ocorre na extremidade da rede por utilizadores individuais que gerem os seus próprios nós, em vez de dependerem de algumas autoridades de confiança para verificar as transacções. Isto é diferente da descentralização dos mineiros, que trata da ordenação e processamento das transacções. As outras opções confundem descentralização full node com distribuição mining, estruturas de governação ou práticas de segurança, mas nenhuma capta o conceito central de validação de blocos distribuídos pelos participantes na rede.
+reviewed: false

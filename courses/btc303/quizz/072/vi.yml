@@ -6,3 +6,4 @@ wrong_answers:
   - Sự cạnh tranh giữa các giải pháp lớp hai và các phương pháp mở rộng on-chain để giành nguồn lực phát triển hạn chế và hỗ trợ cộng đồng
 explanation: |
   Maxwell đã xác định một vấn đề hai mặt, trong đó Bitcoin mất đi lợi thế theo cả hai hướng: nếu mức sử dụng tài nguyên quá cao so với công nghệ hiện có, việc xác thực sẽ trở nên quá tốn kém và người dùng phải dựa vào các bên thứ ba đáng tin cậy thay vì tự xác thực. Ngược lại, nếu năng lực quá thấp và phương thức giao dịch không hiệu quả, việc truy cập blockchain để giải quyết tranh chấp sẽ trở nên quá tốn kém, một lần nữa đẩy người dùng đến các dịch vụ đáng tin cậy. Điều này tạo ra một sự cân bằng tinh tế mà các giải pháp mở rộng quy mô phải điều chỉnh.
+reviewed: false

@@ -22,11 +22,11 @@ ___
 
 
 
-Katika somo hili, tutatumia programu ya Cryptomator kusimba kwa njia fiche data iliyohifadhiwa katika Wingu, iwe kwenye Microsoft OneDrive, Hifadhi ya Google, Dropbox, Box au hata iCloud.
+Katika somo hili, tutatumia programu ya Cryptomator kusimba kwa njia fiche data iliyohifadhiwa katika cloud, iwe kwenye Microsoft OneDrive, Hifadhi ya Google, Dropbox, Box au hata iCloud.
 
 
 
-Kusimba kwa njia fiche data unayohifadhi kwenye suluhu za kuhifadhi mtandaoni kama vile Hifadhi ndiyo njia bora ya kulinda faili zako na faragha yako. Shukrani kwa usimbaji fiche, ni wewe pekee unayeweza kusimbua na kusoma data yako, hata ikiwa imehifadhiwa kwenye seva nchini Marekani au nchi nyingine duniani kote.
+Kusimba kwa njia fiche data unayohifadhi kwenye suluhu za kuhifadhi mtandaoni kama vile Hifadhi ni njia bora ya kulinda faili zako na faragha yako. Shukrani kwa usimbaji fiche, ni wewe pekee unayeweza kusimbua na kusoma data yako, hata ikiwa imehifadhiwa kwenye seva nchini Marekani au nchi nyingine duniani kote.
 
 
 
@@ -98,7 +98,7 @@ Anza kwa kuipa vault jina, k.m. "**IT-Connect**". Hii itaunda saraka inayoitwa "
 
 
 
-Katika hatua inayofuata, Cryptomator inaweza **kugundua "Hifadhi "** iliyopo kwenye mashine yako: Hifadhi ya Google, OneDrive, Dropbox, n.k.... Ili kukuwezesha kuchagua mtoa huduma moja kwa moja. Nilijaribu hii kwenye mashine mbili tofauti za Windows 11, zilizo na Hifadhi kadhaa, na haikugunduliwa. Sio tatizo, fafanua tu "**Eneo maalum**" na uchague mzizi wa nafasi yako ya kuhifadhi. Kwa mfano: **C:\Users\<Jina la mtumiaji>\OneDrive**.
+Katika hatua inayofuata, Cryptomator inaweza **kugundua "Hifadhi"** iliyopo kwenye mashine yako: Hifadhi ya Google, OneDrive, Dropbox, n.k.... Ili kukuwezesha kuchagua mtoa huduma moja kwa moja. Nilijaribu hii kwenye mashine mbili tofauti za Windows 11, zilizo na Hifadhi kadhaa, na haikugunduliwa. Sio tatizo, fafanua tu "**Eneo maalum**" na uchague mzizi wa nafasi yako ya kuhifadhi. Kwa mfano: **C:\Users\<Jina la mtumiaji>\OneDrive**.
 
 
 
@@ -154,7 +154,7 @@ Ili kufikia salama na data yake, ama **kusoma data iliyopo au kuongeza data mpya
 
 
 
-Lazima uweke nenosiri lako ili kufungua salama. Kisha bonyeza "** Release drive **".
+Lazima uweke nenosiri lako ili kufungua salama. Kisha bonyeza "**Release drive**".
 
 
 

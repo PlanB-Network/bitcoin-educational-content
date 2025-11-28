@@ -6,3 +6,4 @@ wrong_answers:
   - Installere verifisert wallet-programvare fra offisielle kilder med digitale signaturer
 explanation: |
   For å bruke Bitcoin tillitsløst må du kjøre en fullstendig validerende Bitcoin-node som uavhengig verifiserer at alle blokker følger konsensusreglene, kontrollerer tidsplanen for myntutstedelse og forhindrer dobbeltbruk. Dette sikrer at du ikke utkontrakterer verifisering til andre, og opprettholder den tillitsløse egenskapen. Bruk av børser eller tredjepartstjenester betyr at du stoler på at andre forteller deg sannheten om blokkjedetilstanden. Selv om verifisert programvare er viktig for sikkerheten, eliminerer det ikke behovet for din egen valideringsnode for å oppnå ekte tillitsløshet i Bitcoin-systemet.
+reviewed: false

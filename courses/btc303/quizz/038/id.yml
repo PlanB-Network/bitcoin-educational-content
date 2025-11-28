@@ -6,3 +6,4 @@ wrong_answers:
   - fork lunak dapat diimplementasikan secara diam-diam dalam komitmen, sementara fork keras membutuhkan pengumuman publik
 explanation: |
   Bab ini secara jelas mendefinisikan jenis kompatibilitas: kompatibilitas maju memungkinkan perangkat lunak lama untuk memproses data baru dengan mengabaikan bagian yang tidak diketahui, sedangkan kompatibilitas mundur memungkinkan perangkat lunak baru untuk memproses data lama. fork lunak mempertahankan kedua jenis kompatibilitas, membuatnya sepenuhnya kompatibel. fork keras hanya mempertahankan kompatibilitas ke belakang, yang berarti perangkat lunak baru dapat memproses data lama tetapi perangkat lunak lama tidak dapat memproses data baru dari sistem yang diupgrade. Perbedaan ini sangat penting untuk memahami mekanisme peningkatan Bitcoin dan mengapa soft fork lebih disukai untuk menjaga keselarasan jaringan.
+reviewed: false

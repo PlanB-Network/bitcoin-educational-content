@@ -6,3 +6,4 @@ wrong_answers:
   - Mutabakat kuralları, blok zinciri doğrulama süreci aracılığıyla Bitcoin üzerine inşa edilen herhangi bir yeni protokolü otomatik olarak doğrular ve yetkilendirir
 explanation: |
   İzinsiz geliştirme doğru cevaptır çünkü bu, herkesin izin istemeden Bitcoin üzerine inşa etmesine olanak tanıyan temel ilkedir. Yanlış cevaplar yanlıştır çünkü: açık kaynak lisansı otomatik onay veya Bitcoin Çekirdeğine entegrasyon gerektirmez; MIT Lisansı aslında geliştiricilerin onayını gerektirmeden geniş izinler verir; ve mutabakat kuralları, Bitcoin'nin üzerine inşa edilen daha üst düzey protokolleri değil, işlemleri ve blokları doğrular.
+reviewed: false

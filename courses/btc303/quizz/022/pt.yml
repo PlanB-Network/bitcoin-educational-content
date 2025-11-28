@@ -6,3 +6,4 @@ wrong_answers:
   - Congestionamento da rede e centralização do mining
 explanation: |
   Na secção 7 do whitepaper Bitcoin, Satoshi Nakamoto identificou a reutilização de endereços e o agrupamento de endereços como os principais problemas de privacidade da blockchain. A reutilização Address ocorre quando o mesmo endereço é utilizado várias vezes, facilitando a ligação das transacções ao mesmo utilizador. O agrupamento Address refere-se à capacidade de determinar que diferentes endereços pertencem ao mesmo proprietário, em particular através de transacções de múltiplas entradas que revelam que todas as entradas foram controladas pela mesma pessoa. As outras opções são desafios técnicos ou operacionais no Bitcoin, mas não são as questões de privacidade especificamente discutidas pelo Satoshi no whitepaper.
+reviewed: false

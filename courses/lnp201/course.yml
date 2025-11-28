@@ -33,7 +33,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 24.57
+    reward: 24.56
   - language: fi
     last_contribution_date:
     urgency: 1
@@ -60,12 +60,12 @@ proofreading:
     urgency: 1
     contributor_names:
       - yutaro21jp
-    reward: 24.52
+    reward: 24.51
   - language: pt
     last_contribution_date: 2023-12-24
     urgency: 1
     contributor_names:
-    reward: 24.57
+    reward: 24.56
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -76,7 +76,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 24.52
+    reward: 24.51
   - language: et
     last_contribution_date:
     urgency: 1
@@ -127,7 +127,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 40.88
+    reward: 40.87
   - language: fa
     last_contribution_date: 2025-05-24
     urgency: 1
@@ -138,7 +138,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 24.57
+    reward: 24.56
   - language: nl
     last_contribution_date:
     urgency: 1
@@ -148,12 +148,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 40.88
+    reward: 40.87
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 40.88
+    reward: 40.87
   - language: rn
     last_contribution_date:
     urgency: 1

@@ -6,3 +6,4 @@ wrong_answers:
   - Wymóg dostarczania przez klientów nadmiernych dokumentów tożsamości
 explanation: |
   Według Satoshi Nakamoto w Bitcoin whitepaper, tradycyjne systemy finansowe cierpią z powodu fundamentalnej słabości polegającej na tym, że całkowicie nieodwracalne transakcje nie są możliwe, ponieważ instytucje finansowe muszą pośredniczyć w sporach. Powoduje to kaskadę problemów: zwiększone koszty transakcji z powodu mediacji, eliminację małych przypadkowych transakcji i rozprzestrzenianie się wymogów zaufania w całym systemie. Inne opcje, choć potencjalnie istotne dla systemów finansowych, nie są podstawową kwestią, do której odnosi się projekt Bitcoin. Innowacją Bitcoin jest umożliwienie ostatecznego rozliczenia bez konieczności odwracania transakcji przez zaufaną stronę trzecią.
+reviewed: false

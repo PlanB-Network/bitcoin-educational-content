@@ -6,3 +6,4 @@ wrong_answers:
   - For å opprettholde bakoverkompatibilitet med eldre nodeversjoner som ikke kan håndtere nødoppdateringer
 explanation: |
   Det riktige svaret belyser et viktig paradoks ved sikkerhetsoppdateringer: selve løsningen kan avsløre sårbarheten. Kapittelet understreker at utviklere må være nøye med å skjule oppdateringer fordi publisering av dem umiddelbart kan avsløre sårbarheten for angripere før de fleste noder er beskyttet. Selv om de gale svarene er plausible, gir de en feilaktig fremstilling av prioriteringene: Altcoin-varsling skjer etter at Bitcoin-nettverket er tatt i bruk, mining-pooltesting er ikke det viktigste for ikke-kritiske problemer, og bakoverkompatibilitet er ikke avgjørende for tidspunktet for sikkerhetsoppdateringer.
+reviewed: false

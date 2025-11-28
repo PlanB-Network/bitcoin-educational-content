@@ -6,3 +6,4 @@ wrong_answers:
   - Administrative fees may be required but only for commercial redistributions
 explanation: |
   The open source definition explicitly states under 'Free Redistribution' that 'The license shall not require a royalty or other fee for such sale.' This means open source software must be freely redistributable without mandatory fees or royalties. The other options incorrectly suggest that various types of fees are permitted, which would violate the fundamental principle of free redistribution that defines open source software.
+reviewed: false

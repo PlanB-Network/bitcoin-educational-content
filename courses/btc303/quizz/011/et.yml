@@ -6,3 +6,4 @@ wrong_answers:
   - Süsteem, kus tehinguid ei saa keegi tühistada ega vaidlustada
 explanation: |
   Trustless viitab konkreetselt tehnilisele omadusele, mille puhul hajutatud süsteem saab korrektselt toimida, ilma et selleks oleks vaja usaldusväärseid osapooli. See erineb igasuguse usalduse kaotamisest (te usaldate endiselt oma tarkvara/hardvara) või tagasipööramise vältimisest (Bitcoin tehinguid saab tagasi pöörata ahela ümberkirjutamise kaudu). Samuti ei tähenda see mõiste, et kasutajad ei saa osalejaid usaldada - pigem ei sõltu süsteemi korrektsus sellest, kas neid usaldatakse.
+reviewed: false

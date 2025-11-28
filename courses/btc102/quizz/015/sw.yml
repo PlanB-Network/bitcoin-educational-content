@@ -2,8 +2,8 @@ question: Je, ni mfumo gani unaowezesha miamala ya haraka na ya bei nafuu kwenye
 answer: Lightning Network
 wrong_answers:
   - SegWit
-  - Mtandao wa Ripple
+  - Ripple Network
   - RGB
 explanation: |
-  Lightning Network ni suluhisho la pili-Layer ambayo inaruhusu kutatua haraka na kupunguza gharama ya shughuli za BTC.
-reviewed: false
+  Lightning Network ni suluhisho la two-Layer ambayo inaruhusu kutatua haraka na kupunguza gharama ya miamala za BTC.
+reviewed: true

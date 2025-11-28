@@ -1,0 +1,9 @@
+question: Кой инструмент показва подробни DNS съобщения, включително записи и процеса на разрешаване?
+answer: копайте
+wrong_answers:
+  - хост
+  - ping
+  - arp
+explanation: |
+  dig (Domain Information Groper) предоставя подробна информация за DNS резолюцията, включително видовете записи.
+reviewed: false

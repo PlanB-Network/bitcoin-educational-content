@@ -6,3 +6,4 @@ wrong_answers:
   - "Hệ thống ẩn danh ẩn số tiền giao dịch trong khi hệ thống ẩn danh chỉ ẩn danh tính của người gửi"
 explanation: |
   Bitcoin là giả danh, không phải ẩn danh, vì tất cả các giao dịch giữa các địa chỉ (bút danh) đều có thể theo dõi trên blockchain. Trong một hệ thống thực sự ẩn danh, sẽ không có dấu vết nào về nguồn gốc hoặc nơi tiền được chuyển đến, điều này về mặt lý thuyết có thể đạt được thông qua bằng chứng không kiến thức. Tuy nhiên, tính minh bạch của Bitcoin cho phép bất kỳ ai cũng có thể theo dõi dòng chảy của bitcoin giữa các địa chỉ khác nhau, khiến nó trở thành giả danh thay vì ẩn danh. Các bút danh trong Bitcoin là các địa chỉ được lấy từ khóa công khai, chứ không phải tên người dùng tùy ý hoặc danh tính thực.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - The anonymity provided by using multiple wallet addresses
 explanation: |
   Blockchain privacy refers specifically to the information you disclose by transacting on the blockchain, which applies to all transactions you send and receive. This is different from wallet encryption (which protects stored keys), internet connection security (which is off-chain privacy), or the misconception that multiple addresses provide anonymity. On-chain privacy leaks occur through address reuse and clustering, where transactions can be linked together to reveal patterns about users' financial activities.
+reviewed: false

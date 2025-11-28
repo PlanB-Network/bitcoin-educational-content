@@ -6,3 +6,4 @@ wrong_answers:
   - I servizi di terze parti acquisiscono la capacità di creare nuovi bitcoin oltre il normale programma di emissione
 explanation: |
   Quando gli utenti non gestiscono i propri nodi completi, esternalizzano il loro potere di applicare le regole di Bitcoin ad altri. Questo indebolisce la decentralizzazione di Bitcoin perché un numero minore di parti indipendenti convalida transazioni e blocchi. Come spiega David Harding, questo crea una situazione in cui un piccolo numero di minatori e di fornitori di servizi potrebbe potenzialmente modificare le regole di Bitcoin per gli utenti non verificatori, mentre questi ultimi non sarebbero in grado di effettuare transazioni con persone che gestiscono nodi di convalida completi che rifiutano tali modifiche alle regole.
+reviewed: false

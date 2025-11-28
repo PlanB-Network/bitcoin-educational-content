@@ -6,3 +6,4 @@ wrong_answers:
   - Konsensusreeglid valideerivad ja lubavad automaatselt iga uue Bitcoin peal ehitatud protokolli plokiahela verifitseerimise protsessi kaudu
 explanation: |
   Lubadeta arendus on õige vastus, sest see on aluspõhimõte, mis võimaldab kõigil ehitada Bitcoin-le ilma luba küsimata. Valed vastused on valed, sest: avatud lähtekoodiga litsentsimine ei nõua automaatset heakskiitu ega integreerimist Bitcoin Core'i; MIT litsents annab tegelikult laialdased load ilma arendajatelt heakskiitu nõudmata; ja konsensusreeglid kinnitavad tehinguid ja plokke, mitte Bitcoin peal ehitatud kõrgema taseme protokollid.
+reviewed: false

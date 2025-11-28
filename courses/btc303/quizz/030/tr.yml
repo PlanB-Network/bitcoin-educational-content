@@ -6,3 +6,4 @@ wrong_answers:
   - Amaçlanan tedarik seviyesini korumak için ek mining ile değiştirilmelidirler
 explanation: |
   Satoshi Nakamoto, kaybedilen coinlerin, etkin arzın azalması nedeniyle coinlerini daha değerli hale getirerek diğer tüm bitcoin sahiplerine bir bağış işlevi gördüğünü açıkladı. Bu olumlu bir deflasyonist etkidir, istikrarı bozucu bir güç değildir. Kayıp coinler mining ödüllerini etkilemez çünkü bunlar mevcut arzdan değil yeni basılan coinlerden ve işlem ücretlerinden gelir. Bitcoin'ün protokolü kayıp madeni paraların yerini almaz - bunlar kalıcı olarak dolaşım dışı kalır, bu da aslında artan kıtlık yoluyla kalan sahiplere fayda sağlar.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Каква е ролята на ДУУ в плащанията по Enterprise Bitcoin?
+answer: Управление на транзакции с голям обем в Lightning
+wrong_answers:
+  - Съхраняване на частни ключове на Lightning wallet
+  - Отпечатване на фактури Lightning
+  - Ръчно обработване на възстановявания в Lightning
+explanation: |
+  LSP се справят със сложни операции с голям обем в мрежата Lightning.
+reviewed: true

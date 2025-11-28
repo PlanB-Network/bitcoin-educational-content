@@ -6,3 +6,4 @@ wrong_answers:
   - "Vulnerabilidades técnicas nos algoritmos criptográficos do Bitcoin"
 explanation: |
   De acordo com a postagem de Gregory Maxwell no Reddit citada no capítulo, embora os ataques de 51% existam como uma preocupação teórica, o risco muito maior é que os usuários do Bitcoin não entendam, se preocupem ou protejam as propriedades de descentralização que tornam o Bitcoin valioso em relação às alternativas centralizadas. Isso ocorre porque a descentralização é o que fornece a resistência à censura do Bitcoin - seu principal diferenciador dos sistemas monetários tradicionais. Se as pessoas não protegerem ativamente estas propriedades, o Bitcoin pode tornar-se gradualmente centralizado até que a censura se torne possível, destruindo a maior parte da sua proposta de valor. As outras opções, embora sejam potenciais preocupações, não são o que Maxwell identificou especificamente como a maior ameaça ao sucesso a longo prazo do Bitcoin.
+reviewed: false

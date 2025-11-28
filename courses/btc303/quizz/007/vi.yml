@@ -6,3 +6,4 @@ wrong_answers:
   - Khóa riêng được lưu trữ trên nhiều thiết bị thay vì một wallet duy nhất
 explanation: |
   Phân quyền Full node nghĩa là việc xác thực các khối (dữ liệu do thợ đào tạo ra) diễn ra ở rìa mạng bởi người dùng cá nhân vận hành các nút riêng của họ, thay vì dựa vào một vài cơ quan đáng tin cậy để xác minh giao dịch. Điều này khác với phân quyền thợ đào, vốn liên quan đến việc sắp xếp và xử lý giao dịch. Các lựa chọn khác nhầm lẫn giữa phân quyền full node với phân phối mining, cấu trúc quản trị hoặc các biện pháp bảo mật, nhưng không có lựa chọn nào nắm bắt được khái niệm cốt lõi về việc xác thực khối phân tán bởi những người tham gia mạng.
+reviewed: false

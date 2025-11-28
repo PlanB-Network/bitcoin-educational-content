@@ -6,3 +6,4 @@ wrong_answers:
   - Problem z szybkością płatności online
 explanation: |
   Przełomem w Bitcoin było rozwiązanie problemu double-spending bez konieczności posiadania centralnego organu. Problem double-spending polega na uniemożliwieniu komuś wydania tej samej monety cyfrowej dwukrotnie. Poprzednie waluty cyfrowe zawiodły, ponieważ opierały się na centralnych serwerach lub zaufanych organach, co czyniło je podatnymi na cenzurę i pojedyncze punkty awarii. Bitcoin rozwiązał ten problem dzięki rozproszonemu serwerowi znaczników czasu peer-to-peer wykorzystującemu proof-of-work, umożliwiając sieci uzgodnienie kolejności transakcji bez żadnej centralnej kontroli.
+reviewed: false

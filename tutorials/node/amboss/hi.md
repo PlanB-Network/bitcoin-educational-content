@@ -34,7 +34,7 @@ https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 इस ट्यूटोरियल में, हम आपको इस प्लेटफ़ॉर्म के दौरे पर ले जाएंगे, जो Lightning Network उपयोगकर्ताओं के लिए एक आवश्यक संसाधन है, जो नेटवर्क का विस्तार करने के लिए अपने नोड को कनेक्ट करना चाहते हैं, आदि।
 
@@ -304,4 +304,4 @@ Lightning Network नोड्स से अपने कनेक्शन क�
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

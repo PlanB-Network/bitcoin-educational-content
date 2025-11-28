@@ -52,7 +52,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.95
+    reward: 1.96
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -67,7 +67,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.95
+    reward: 1.96
   - language: et
     last_contribution_date:
     urgency: 1
@@ -92,7 +92,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.26
+    reward: 2.27
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -144,7 +144,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.95
+    reward: 1.96
 tags:
   - guides
   - user-friendly

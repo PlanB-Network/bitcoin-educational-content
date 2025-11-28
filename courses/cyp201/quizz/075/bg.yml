@@ -1,0 +1,9 @@
+question: Какъв път на деривация се използва за акаунт SegWit v0 в стандартен дескриптор?
+answer: 84h/0h/0h
+wrong_answers:
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
+explanation: |
+  Пътят 84h/0h/0h е дефиниран в BIP84 за акаунт, който получава SegWit v0 адреси с P2WPKH.
+reviewed: false

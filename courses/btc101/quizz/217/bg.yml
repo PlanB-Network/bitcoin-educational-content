@@ -1,0 +1,8 @@
+question: Какво позволява Lightning Network?
+answer: Незабавни и евтини транзакции с Bitcoin.
+wrong_answers:
+  - Незабавни транзакции с високи разходи по Bitcoin.
+  - Забавени транзакции с ниска цена на Bitcoin.
+  - Забавени транзакции с високи разходи по Bitcoin.
+explanation: >-
+reviewed: true

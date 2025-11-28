@@ -6,3 +6,4 @@ wrong_answers:
   - Vytvoření vládou schválených validačních uzlů, které mohou efektivněji zpracovávat transakce
 explanation: |
   Kniha definuje škálování Bitcoin jako "zvyšování kapacity použití Bitcoin bez ohrožení jeho odolnosti vůči cenzuře" Prostorově efektivní ověřování podpisů přímo odpovídá této definici, protože transakce využívají méně bajtů při zachování decentralizace. Všechny špatné odpovědi ohrožují odolnost vůči cenzuře: centralizované výměny zavádějí důvěryhodné třetí strany, filtrování transakcí vytváří cenzurní mechanismy a uzly schválené vládou centralizují ověřovací autoritu. Skutečné škálování zachovává základní vlastnosti Bitcoin a zároveň zvyšuje efektivitu.
+reviewed: false

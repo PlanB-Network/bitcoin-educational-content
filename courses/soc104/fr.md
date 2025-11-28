@@ -9,13 +9,21 @@ objectives:
 
 ---
 
+Êtes-vous sûr(e) que votre positionnement politique se résume à la droite ou à la gauche ? Ce cours propose une approche révolutionnaire pour comprendre le spectre politique à travers l'axe fondamental Liberté-Coercition. En utilisant le Diagramme de Nolan, nous analysons les familles politiques—socialistes, conservateurs, centristes, et libertariens—non pas selon leurs intentions déclarées, mais selon leur degré de confiance dans le contrôle gouvernemental. Découvrez la logique de l'ordre spontané, explorez les vrais enjeux philosophiques (individualisme vs. collectivisme) et apprenez à définir vos propres valeurs sans tomber dans les pièges des étiquettes traditionnelles.
 
+Ce cours vous révélera aussi pourquoi Bitcoin est plus qu'une simple monnaie : c'est un projet politique hérité des Cypherpunks. Loin d'être classable sur un axe linéaire, Bitcoin est une force de décentralisation qui s'oppose à la monnaie d'État, offrant une échappatoire pacifique à l'inflation et à la surveillance. En limitant le pouvoir centralisé sur la monnaie, Bitcoin redéfinit la question politique essentielle : Est-ce vous qui décidez de votre vie, ou est-ce quelqu'un d'autre ? Plongez dans cette analyse pour affiner votre boussole idéologique et comprendre l'impact politique profond de cette technologie sur votre liberté individuelle.
 
 +++
+
+# Tendance politique
+
+<partId>8aef3eca-aa4c-405a-8b32-7fd7993b3e04</partId>
 
 ## Introduction : le piège du clivage droite-gauche
 
 <chapterId>8aef3eca-aa4c-405a-8b32-7fd7993b3e04</chapterId>
+
+![video](https://www.youtube.com/watch?v=j_Ji4d7UiPY)
 
 Nombreux sont ceux qui estiment que le clivage le plus marquant en Occident aujourd'hui oppose la gauche et la droite politiques. Les médias consacrent une large part de leurs débats à cet affrontement, présenté comme décisif pour l'avenir de la civilisation.
 
@@ -124,6 +132,8 @@ En conséquence, le modèle politique traditionnel « gauche contre droite » do
 ## Le diagramme de Nolan
 <chapterId>7b3aa120-6eee-45a1-9e46-856e26403e08</chapterId>
 
+![video](https://www.youtube.com/watch?v=rN4fA3ImJjE)
+
 Au lieu de répartir les doctrines politiques sur un axe droite/gauche, il serait plus judicieux de voir les choses sous le prisme de la liberté. On aurait ainsi un axe liberté-pouvoir, de telle sorte que la pensée libérale classique trouverait enfin sa place sur l’échiquier politique.
 La bonne façon de voir les choses serait alors celle qui oppose les défenseurs de la liberté aux défenseurs de l’État, ceux qui font confiance dans la capacité des individus à s’organiser par eux-mêmes de façon responsable et ceux qui veulent un pouvoir fort pour les rassurer et contrôler la vie des autres.
 C’est ce qu’a bien compris David Nolan, fondateur du Libertarian Party en 1971 et auteur du désormais célèbre Nolan Chart. Ancien élève du Massachussetts Institute of Technology (MIT), il a conçu un tableau qui est susceptible de mieux représenter la complexité du spectre politique.
@@ -169,6 +179,8 @@ La catégorie « Libertés personnelles » comprend ce que vous faites dans vos 
 ## Etes-vous étatiste de droite ou de gauche ?
 <chapterId>06d903fc-9453-47d4-b0b1-38b6b82ccf99</chapterId>
 
+![video](https://www.youtube.com/watch?v=AskWWBXom3Y)
+
 Une personne peut être de gauche sur l'économie (favorable à la redistribution) mais de droite sur les thèmes sociétaux (très attachée à l'ordre et la tradition). Et inversement ! Le modèle en losange capte cette complexité.
 
 La gauche est traditionnellement définie comme étant associée au socialisme, un système où l'État détient des pouvoirs importants sur les individus et l'organisation de la société, notamment en matière de redistribution des revenus. La droite pourrait être considérée comme l'opposé, c'est-à-dire une situation où l'État serait dépourvu de pouvoirs importants, ce qui la définirait comme libérale.
@@ -190,6 +202,8 @@ De son côté, la gauche n’accorde pas beaucoup d’importance aux exigences m
 ## Etes-vous conservateur culturel ou conservateur politique?
 <chapterId>bef3d6f1-390a-472d-8f18-a559d38aea54</chapterId>
 
+![video](https://www.youtube.com/watch?v=4DDAZGjQk2Q)
+
 Le conservatisme culturel est l’adhésion personnelle à des valeurs morales dites « traditionnelles », à une anthropologie, à une esthétique et à une métaphysique, toutes héritées du passé. Il s’agit donc d’une sagesse de vie, guidée par des principes ancestraux, que ce soit la civilisation gréco-romaine ou judéo-chrétienne. **Il ne s’agit pas d’une philosophie politique.**
 
 Si on est un conservateur culturel, on est favorable à la famille traditionnelle, à une éthique de la vertu et à la croyance en Dieu. Le conservateur culturel pense que l’homme, pour être heureux, a besoin d’élévation de l’âme, de valeurs spirituelles et d’une certaine noblesse de sentiments.
@@ -207,6 +221,8 @@ En pratique, des figures comme Ron Paul ou des penseurs comme Rothbard et Hoppe 
 ## Etes-vous libéral ou libertarien ?
 <chapterId>d382c40b-78ce-416f-9f63-6ad43768406b</chapterId>
 
+![video](https://www.youtube.com/watch?v=pPA2uyoaBrE)
+
 Les termes utilisés pour désigner les familles politiques ne sont pas immuables. Ils peuvent varier selon le contexte géographique et historique. D’où une source de confusion possible. Ainsi en Europe et aux États-Unis, de nos jours, certains mots n’ont plus le même sens. C’est le cas du mot libéralisme.
 
 En Amérique du Nord, le *liberalism* est classé à gauche et assimilé au progressisme. En effet, les *liberals* américains sont devenus des défenseurs de l’intervention de l’Etat et du *Big Government*. Cette évolution historique est tout à fait à l’opposé de la signification continue du terme « libéral » et du terme « conservateur » en Europe.
@@ -220,7 +236,9 @@ Ainsi les partisans du libéralisme classiques se sont appelés *libertarians* a
 ## Etes-vous libertarien ou libertaire ?
 <chapterId>fc761194-249f-4009-a20f-1f98b7226cf2</chapterId>
 
-Le terme *libertarian* est parfois traduit par « libertaire » ou encore « libertin », ce qui est un contresens majeur.
+![video](https://www.youtube.com/watch?v=qi6HPBmrJkg)
+
+Le terme **libertarian** est parfois traduit par « libertaire » ou encore « libertin », ce qui est un contresens majeur.
 
 Le terme libertaire vient de la tradition anarchiste du XIXe siècle, qui est dérivée du socialisme. Cette tradition est historiquement liée à des penseurs comme Pierre-Joseph Proudhon ou Mikhaïl Bakounine. L’anarchisme est la doctrine politique qui énonce que toute forme de gouvernement est non nécessaire, oppressif et qu’il doit être aboli. Pour les anarchistes socialistes ou communistes, « la propriété c’est le vol ». Ils souhaitent la disparition de l’argent, des banques et le retour à une économie locale, fondée sur le troc. Ils cherchent une société égalitaire où la liberté individuelle s'exerce dans un cadre collectif, sans domination.
 
@@ -237,6 +255,8 @@ Les libertins quant à eux sont des militants de la liberté sexuelle. Il s’ag
 
 ## Les familles politiques à la loupe
 <chapterId>cf648962-02a1-47d4-ae2d-2e591aaab398</chapterId>
+
+![video](https://www.youtube.com/watch?v=7r7KNK5YnIk)
 
 Abordons maintenant dans le détail les différentes philosophies politiques. Le bas du cadrant sera traité de façon un peu marginale car il ne s’agit pas à proprement parler d’une idéologie politique mais plutôt d’un système social qui tend vers le totalitarisme.
 
@@ -258,6 +278,8 @@ Voici comment définir les familles politiques de façon structurelle :
 ## Les socialistes
 <chapterId>1ef34d7b-f813-458c-934c-1d404f882150</chapterId>
 
+![video](https://www.youtube.com/watch?v=-JBJDQqgH_k)
+
 * **Les libertés :** assez fortes dans le domaine sociétal mais faibles dans le domaine économique.
 * **Valeurs cardinales :** l’égalité, le progrès, la justice sociale, la solidarité.
 * **Philosophie et principes :** Primat de l’organisation collective. Le socialisme est une pratique qui se fonde sur la société considérée comme un tout (holisme) et s'exprime à travers l'État. L'État socialiste veut prendre en charge et diriger au maximum l'activité humaine. Il y a chez les socialistes une foi presque illimitée dans la possibilité de construire un nouvel ordre social fondé sur la raison.
@@ -274,6 +296,8 @@ Le concept de socialisme est un néologisme qui fut utilisé pour la première f
 ## Les conservateurs
 <chapterId>4e068cd8-a5c3-44f8-ac77-309f249a59eb</chapterId>
 
+![video](https://www.youtube.com/watch?v=G-9CnoEcfqQ)
+
 * **Libertés :** elles sont fortes dans le domaine économique mais faibles dans le domaine sociétal.
 * **Valeurs cardinales :** la vertu, l’ordre, la tradition, la civilisation.
 * **Philosophie et principes :** les conservateurs pensent que les choses sont généralement bien telles qu'elles sont et que tout changement pourrait les aggraver. Ils cherchent à conserver ce qui existe déjà, le défendent comme bon en soi, et répugnent aux changements d'un système qui leur semble avoir fait preuve d'efficacité. Au cœur de la conception traditionnelle du conservatisme se trouve un profond respect pour les institutions sociales établies de longue date, considérées comme des protections essentielles contre le chaos, l'injustice et la cruauté.
@@ -289,6 +313,8 @@ En Europe au XIXe siècle, les conservateurs sont des réactionnaires. Ils prôn
 
 ## Les libertariens
 <chapterId>9ca743de-537b-42fb-87d2-212d5f478b22</chapterId>
+
+![video](https://www.youtube.com/watch?v=ftE1NG34yno)
 
 * **Libertés :** elles sont fortes dans les deux domaines, sociétal et économique.
 * **Valeurs cardinales :** la liberté individuelle, la responsabilité, la propriété privée, le consentement.
@@ -307,6 +333,8 @@ Cependant, toutes deux s'accordent sur le principe fondamental de souveraineté 
 ## Les centristes
 <chapterId>d4f5c100-a791-45cf-bc7c-6e2353dc7a48</chapterId>
 
+![video](https://www.youtube.com/watch?v=ZJVwYWhdhrU)
+
 * **Libertés :** Ils soutiennent modérément les libertés individuelles et économiques.
 * **Valeurs cardinales :** la modération, le compromis, l’adaptation, l’utilité publique.
 * **Philosophie :** les centristes évitent les extrêmes et privilégient des solutions pragmatiques. Ils réfléchissent aux problèmes au cas par cas et non à partir de principes. Le pragmatisme est une philosophie politique qui privilégie l'adaptation aux contextes particuliers plutôt que l'application rigide de principes idéologiques. Cette pensée pragmatique est fondée sur l'idée que seuls les technocrates sont capables de prendre les bonnes décisions.
@@ -322,6 +350,8 @@ Sur le plan économique, le **keynésianisme** représente cette "troisième voi
 
 ## Les régimes totalitaires
 <chapterId>7a5e9f5a-2be1-4497-892a-3da5f015faa0</chapterId>
+
+![video](https://www.youtube.com/watch?v=0ueywR4vzHs)
 
 Il est important de noter ici que le terme « totalitarisme » fait référence à un système politique et non à une idéologie politique au sens où l'on parle de conservatisme ou de centrisme.
 
@@ -339,6 +369,8 @@ Il est important de noter ici que le terme « totalitarisme » fait référence 
 
 ## Les questions sociétales
 <chapterId>bb2156da-7e10-4f0b-89c3-f6d53f5a79ef</chapterId>
+
+![video](https://www.youtube.com/watch?v=tq09pDLHioQ)
 
 ### Le mariage
 **Question :** le gouvernement doit-il légaliser le mariage gay au même titre que le mariage traditionnel ?
@@ -365,7 +397,7 @@ Il est important de noter ici que le terme « totalitarisme » fait référence 
 * **Libertariens : Oui.** Le droit de s'armer est une composante essentielle du droit à l'auto-défense. L'État ne devrait pas avoir le monopole de la force.
 * **Centristes : Non.** Une réglementation stricte est indispensable pour la sécurité publique.
 
-## Les drogues
+### Les drogues
 
 **Question :** les adultes devraient-être autorisés à consommer librement des drogues à des fins récréatives ?
 
@@ -379,16 +411,18 @@ Il est important de noter ici que le terme « totalitarisme » fait référence 
 
 **Question :** le gouvernement devrait-il taxer les boissons sucrées pour réduire l’obésité ?
 
-* **Socialistes : Oui.** C'est le problème des industriels. La « taxe soda » est une proposition pour lutter contre le profit au détriment de la santé.
-* **Conservateurs : En principe oui** (mission de santé), mais préférence pour la responsabilité personnelle.
-* **Libertariens : Non.** Il est injuste de protéger les gens d'eux-mêmes. Le problème de l'obésité doit être traité par l'initiative privée.
-* **Centristes : Oui.** Ouverts à l'idée si elle est prouvée efficace.
+* **Socialistes :** Oui. Le problème de l’obésité, c’est le problème des industriels qui commercialisent des sodas. La « taxe soda » est une proposition des socialistes pour lutter contre les fabricants ou les vendeurs de boissons sucrées accusés de faire du profit au détriment de la santé publique.
+* **Conservateurs :** En principe oui. Le gouvernement a pour mission de veiller à la santé des citoyens. Mais les conservateurs ont en général une préférence pour des solutions basées sur la responsabilité personnelle et l'éducation. Imposer une taxe sur les boissons sucrées serait perçu comme une ingérence excessive du gouvernement dans les décisions personnelles des citoyens.
+* **Libertariens :** Non. Un principe fondamental du libertarianisme est qu'il est injuste de protéger les gens d'eux-mêmes. Les citoyens sont des adultes, pas des enfants. Les tentatives d'imposer de meilleures habitudes de santé par des moyens coercitifs sont considérées comme coûteuses, inefficaces et finalement contre-productives. Le problème de l'obésité doit être traité par l'initiative privée.
+* **Centristes :** Oui. Ils seraient ouverts à l'idée d'une taxe si elle est prouvée efficace et si ses inconvénients sociaux et économiques peuvent être atténués. Ils la  verraient comme une partie d'une solution plus large et intégrée, plutôt qu'une mesure isolée.
 
 # Les questions économiques
 <partId>465e0e6b-17e9-4f07-9a41-b3e88af0e83f</partId>
 
 ## Les questions économiques
 <chapterId>f1d6c5de-fa05-4fb7-9d2e-73cc9791ea23</chapterId>
+
+![video](https://www.youtube.com/watch?v=8MM2cFzPtRg)
 
 ### Les impôts
 
@@ -441,6 +475,8 @@ Il est important de noter ici que le terme « totalitarisme » fait référence 
 ## Les divergences philosophiques entre familles politiques
 <chapterId>e48cff63-15d9-4789-ab6c-f1df06683fce</chapterId>
 
+![video](https://www.youtube.com/watch?v=Qznu_mAOji8)
+
 ### La liberté : principe ou opportunité ?
 
 1.  **Pour les conservateurs**, la liberté est une bonne chose mais trop de liberté crée du chaos. Donc il faut limiter la liberté. La liberté n'est pas un principe fondamental, mais une question d'opportunité.
@@ -448,6 +484,9 @@ Il est important de noter ici que le terme « totalitarisme » fait référence 
 3.  **Pour les libertariens** la liberté est un principe général de décision et d’action. Le principe est toujours le même : privatiser tout ce qui peut l’être.
 
 ## Ordre spontané vs ordre construit
+<chapterId>504aa7da-ecd5-4177-87d9-c8792f58c8e3</chapterId>
+
+![video](https://www.youtube.com/watch?v=jh-FDJftOf0)
 
 Les concepts « d'ordre spontané » et « d'ordre construit » sont fondamentaux.
 
@@ -459,7 +498,10 @@ Les libertariens s’opposent donc à la fois aux socialistes et aux conservateu
 **La politique ou le marché ?**
 Les constructivistes jugent le processus politique plus efficace que le processus de marché. Pour les libertariens, la vraie régulation de la société n’est pas la démocratie, mais c'est d’abord et avant tout le marché libre. Sans marché libre, il n'y a pas de boussole.
 
-### Individualisme vs collectivisme
+## Individualisme vs collectivisme
+<chapterId>ba205097-37f8-4503-9c1e-97eb31e7678c</chapterId>
+
+![video](https://www.youtube.com/watch?v=PsEfNf5xHdk)
 
 * **L'individualisme** postule que seul l'individu pense et agit. La société n’a pas de volonté ni de pensée. L’individu est le seul agent moral et une fin en soi (Kant).
 * **Le collectivisme** (économique ou politique) compte sur une autorité extérieure pour imposer un certain genre de vie. Il place la collectivité (nation, classe, État) au premier plan. Pour Marx, c'est l'existence sociale qui détermine la conscience.
@@ -472,6 +514,8 @@ Selon Pascal Salin et Karl Popper, on distingue la **société close** (tribale,
 
 ## La tendance politique des bitcoiners
 <chapterId>89b42c72-bd73-465d-b420-e35d7c5de07c</chapterId>
+
+![video](https://www.youtube.com/watch?v=ml33z_RYTEk)
 
 ### Bitcoin est-il un projet politique ?
 
@@ -492,14 +536,35 @@ Dans le premier bloc miné de l'histoire de Bitcoin (Genesis Block), Satoshi a i
 Bitcoin limite le pouvoir des gouvernements sur la monnaie (dépense publique, guerres, contrôle). Le gouvernement peut tout vous prendre (maison, actions, or), mais il ne peut pas vous prendre vos bitcoins, car il ne peut pas confisquer le contenu de votre esprit.
 
 ## Qui sont les cypherpunks ?
+<chapterId>dc18ba9a-c242-472a-a717-531a5f125737</chapterId>
 
-Ce mouvement est né au début des années 1990 d'une préoccupation concernant la liberté humaine face à la surveillance gouvernementale. Il croise des penseurs libertariens et anarchistes. L’idée était de rendre l'anonymat et la liberté financière accessibles à tous grâce à la cryptographie.
+![video](https://www.youtube.com/watch?v=IjiyWVW_5Os)
 
-> « Les Cypherpunks écrivent du code » — Éric Hughes, *Manifeste Cypherpunk*, 1993.
+Ce mouvement est né au début des années 1990 d'une préoccupation concernant la liberté humaine face à la surveillance gouvernementale dans l'ère numérique. 
 
-Satoshi Nakamoto incarne cette philosophie. Bitcoin est une révolte pacifique contre la politisation de la monnaie.
+Ils apparaissent dans un contexte où les technologies de l'information et de la communication se développent rapidement, mais où les gouvernements et les entreprises commencent également à exercer un contrôle accru sur ces technologies. C’est un mouvement qui croise des penseurs libertariens et anarchistes. Il est motivé par des préoccupations concernant la surveillance de masse et la violation de la vie privée.
 
-![Cypherpunks spectrum](image_placeholder)
+L’idée était de rendre l'anonymat et la liberté financière accessibles à tous grâce aux outils cryptographiques numériques. De cette façon les pouvoirs gouvernementaux n'auraient aucun contrôle sur les activités en ligne.
+
+La première liste de diffusion Cypherpunk, dont Satoshi faisait partie et où il a partagé pour la première fois le livre blanc de Bitcoin, a été lancée en 1992 par Tim May et Eric Hughes. Leur objectif était de soutenir la création de nouveaux logiciels pour protéger la vie privée.
+Le Manifeste Cypherpunk, rédigé par Eric Hughes en 1993, résume bien leur philosophie : « La vie privée est essentielle à une société ouverte à l'ère de l'électronique (…) Nous ne pouvons pas attendre des gouvernements, des entreprises ou d'autres grandes organisations anonymes qu'ils nous garantissent la confidentialité (…) Mon objectif principal pour les Cypherpunks, est de faire en sorte que les gens défendent leur confidentialité, plutôt que de compter sur quelqu'un d'autre pour leur fournir ». Eric Hughes - Cypherpunk Mailinglist, le 23 mars 1993.
+Et il ajoute : « la confidentialité dans une société ouverte exige des systèmes de transactions anonymes. Jusqu'à présent, l'argent liquide a été le principal système de ce type ».
+C’est pourquoi la cryptographie sera utilisée comme un outil de résistance contre les formes de contrôle étatique et corporatif. Elle permet de s'assurer que chaque partie à une transaction n'ait connaissance que de ce qui est strictement nécessaire à cette transaction. 
+
+Les cypherpunks croient en la puissance de la cryptographie pour créer des espaces de liberté et d'autonomie individuelle, en permettant aux individus de communiquer et d'interagir de manière sécurisée et anonyme. 
+
+Ils prônent un modèle où la confiance est placée dans des systèmes cryptographiques décentralisés plutôt que dans des institutions centralisées, comme les banques, les corporations ou les gouvernements. 
+
+#### La méthode des cypherpunks
+« Les Cypherpunks écrivent du code », proclame Éric Hughes en conclusion de son manifeste.
+Pour lui, le chemin passe par la construction active de systèmes anonymes qui rendent les divisions politiques arbitraires sans importance et inutiles. Le code est fondé sur l'application de la cryptographie pour transformer l'idée abstraite de la liberté en une nouvelle réalité économique et sociétale.
+Les Cypherpunks ne trouvent pas de réconfort dans les espoirs et les souhaits. Ils interviennent activement dans le cours des événements et façonnent leur propre destin.
+
+Politiquement ils cherchent à construire des réseaux décentralisés où les décisions sont prises de manière collective et où aucune entité unique ne peut imposer sa volonté. Toute centralisation est fondée sur la coercition et non sur le consentement, c’est-à-dire qu’elle traite les individus comme des enfants incapables d’autonomie et qui doivent être punis si jamais ils se mettent à vouloir décider eux-mêmes de leur sort.
+Cette philosophie de liberté et de construction active, héritée des Cypherpunks, sera incarnée par Satoshi Nakamoto en 2008, avec l’invention de Bitcoin. Il est le premier à concrétiser l'idée d'une monnaie électronique non censurable et souveraine.
+
+Bitcoin limite le pouvoir étatique en offrant une alternative monétaire décentralisée, pseudonyme et difficile à contrôler. Qu’il soit adopté par des militants de droite ou de gauche, par des défenseurs de la liberté ou de l’égalité, ou simplement par des épargnants sans étiquette politique, il donne aux individus la possibilité de s'émanciper du système financier traditionnel et de retrouver la maîtrise de leur argent. 
+De ce point de vue, sans se revendiquer explicitement d'un camp politique, Bitcoin porte en lui les germes d'une révolution silencieuse et rejoint le haut du cadran, dans le diagramme de Nolan. 
 
 
 ## qui devrait décider ?
@@ -541,3 +606,17 @@ Finalement Bitcoin n'est pas un projet politique classique, au sens d'une initia
 
 ![Leonard Read Quote](image_placeholder)
 
+# Section finale
+
+<partId>d886a919-12b0-4e38-86de-7159b98b1864</partId>
+
+## Critiques et évaluations
+
+<chapterId>f0b8398c-7c15-417e-83b0-42e7aab533dc</chapterId>
+
+<isCourseReview>true</isCourseReview>
+
+## Conclusion
+
+<chapterId>1dfe6e4a-47d5-48e1-94d0-6ac29b31e161</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

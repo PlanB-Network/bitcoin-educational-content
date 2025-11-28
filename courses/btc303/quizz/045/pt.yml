@@ -1,0 +1,9 @@
+question: Qual foi a abordagem problemática que o Satoshi utilizou ao implementar um fork difícil que os programadores do Bitcoin nunca utilizariam atualmente?
+answer: Escondendo a alteração de rutura num commit com uma descrição enganosa que não dava qualquer indicação de modificações da regra de consenso
+wrong_answers:
+  - Implementação do fork rígido sem qualquer anúncio público ou comunicação prévia à comunidade Bitcoin
+  - Combinação de vários hard forks numa única versão sem testes adequados ou processos de revisão da comunidade
+  - Ativação imediata do fork rígido sem dar aos utilizadores tempo suficiente para actualizarem o software do seu nó
+explanation: |
+  De acordo com a análise de Eric Lombrozo, a abordagem problemática do Satoshi foi disfarçar uma mudança que quebrava o consenso em um commit com uma descrição enganosa que mencionava apenas 'reverted makefile.unix wx-config version 0.3.6' sem qualquer indicação das mudanças que quebravam. Esta prática de esconder modificações críticas de consenso em commits de aparência inócua seria considerada inaceitável pelos padrões de hoje, onde transparência e comunicação clara sobre mudanças de consenso são princípios fundamentais do desenvolvimento do Bitcoin.
+reviewed: false

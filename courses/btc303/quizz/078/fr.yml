@@ -1,0 +1,9 @@
+question: Selon le cadre de divulgation responsable discuté, quelle est la principale raison pour laquelle les développeurs évitent de corriger immédiatement les vulnérabilités non critiques dans Bitcoin Core ?
+answer: Pour éviter que le correctif lui-même ne révèle la nature de la vulnérabilité avant qu'il ne soit déployé à grande échelle
+wrong_answers:
+  - Afin de laisser suffisamment de temps aux développeurs d'altcoins pour mettre en œuvre leurs propres correctifs indépendants en premier lieu
+  - Pour permettre des tests complets sur différents pools mining avant de publier des mises à jour de sécurité
+  - Pour maintenir la rétrocompatibilité avec les anciennes versions de nœuds qui ne peuvent pas gérer les correctifs d'urgence
+explanation: |
+  La bonne réponse met en évidence un paradoxe crucial en matière de correctifs de sécurité : le correctif lui-même peut révéler la vulnérabilité. Le chapitre souligne que les développeurs doivent soigneusement dissimuler les correctifs car leur publication immédiate pourrait révéler la vulnérabilité aux attaquants avant que la plupart des nœuds ne soient protégés. Les mauvaises réponses, bien que plausibles, donnent une image erronée des priorités : la notification des altcoins a lieu après le déploiement du réseau Bitcoin, le test du pool mining n'est pas la première préoccupation pour les problèmes non critiques, et la rétrocompatibilité ne détermine pas le calendrier des correctifs de sécurité.
+reviewed: false

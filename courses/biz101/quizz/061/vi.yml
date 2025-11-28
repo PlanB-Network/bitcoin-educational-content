@@ -1,9 +1,9 @@
-question: What does the Essential profile use to help employees process payments at the PoS?
-answer: The creation of a menu with item prices on the PoS app
+question: Hồ sơ Essential sử dụng những gì để giúp nhân viên xử lý thanh toán tại PoS?
+answer: Tạo menu với giá sản phẩm trên ứng dụng PoS
 wrong_answers:
-  - A manual ledger book for recording sales
-  - A paper invoice system for each transaction
-  - An automatic accounting record system for transactions from the PoS
+  - Sổ cái thủ công dùng để ghi chép doanh số bán hàng
+  - Hệ thống hóa đơn giấy cho mỗi giao dịch
+  - Hệ thống ghi chép kế toán tự động cho các giao dịch từ PoS
 explanation: |
-  The PoS app in the Essential profile enables employees to select items from a pre-set menu, streamlining the billing process.
-reviewed: false
+  Ứng dụng PoS trong hồ sơ Essential cho phép nhân viên chọn các mục từ menu được thiết lập sẵn, giúp đơn giản hóa quy trình thanh toán.
+reviewed: true

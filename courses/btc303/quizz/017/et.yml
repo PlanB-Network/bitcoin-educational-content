@@ -1,0 +1,9 @@
+question: Milline on usaldusväärsete finantssüsteemide peamine puudus, mida Bitcoin usaldusteta ülesehitusega soovitakse lahendada?
+answer: Võimatus teha täiesti pöördumatuid tehinguid vaidluste vahendamise nõuete tõttu
+wrong_answers:
+  - Suur energiatarbimine, mis on vajalik elektrooniliste maksete töötlemiseks pankade kaudu
+  - Finantsasutuste poolt sekundis töödeldavate tehingute piiratud arv
+  - Nõue, et kliendid esitaksid ülemääraseid isikut tõendavaid dokumente
+explanation: |
+  Satoshi Nakamoto Bitcoin valge raamatu kohaselt kannatavad traditsioonilised finantssüsteemid selle põhilise nõrkuse all, et täiesti pöördumatud tehingud ei ole võimalikud, sest finantsasutused peavad vaidlusi vahendama. See tekitab terve rea probleeme: vahendamise tõttu suurenevad tehingukulud, väikeste juhutehingute kõrvaldamine ja usaldusnõuete levik kogu süsteemis. Kuigi muud võimalused on finantssüsteemide jaoks potentsiaalselt asjakohased, ei ole need põhiprobleemid, mida Bitcoin usaldusteta konstruktsioon konkreetselt käsitleb. Bitcoin uuendus on lõpliku arvelduse võimaldamine, ilma et tehingute tagasipööramiseks oleks vaja usaldusväärset kolmandat osapoolt.
+reviewed: false

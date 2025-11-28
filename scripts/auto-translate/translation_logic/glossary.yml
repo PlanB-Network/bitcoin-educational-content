@@ -26,20 +26,29 @@ non_translatable:
   - BANLIST.DAT
   - BANLIST.JSON
   - BARE-Multisig
+  - BARE-MULTISIG
   - BASE58CHECK
   - BECH32
   - BECH32M
   - B-CERT
   - BDK
+  - BIP
+  - BIPs
   - Bitcoin
   - Bitcoin core
   - Bitcoin Dev Kit
+  - Bitcoin Fog
+  - BITCOIN FOG
   - Bitcoin Game Show
   - Bitcoin Knots
   - Bitcoin Satoshi Vision
   - Bitcoin.conf
-  - BIP
-  - BIPs
+  - Bitcoin-dev
+  - BITCOIN-DEV
+  - bitcoin.conf
+  - BITCOIN.CONF
+  - Bit gold
+  - BIT GOLD
   - Biz School
   - Blind signature
   - Blinding key
@@ -70,7 +79,9 @@ non_translatable:
   - CoinJoin
   - Coin
   - Coinbase Transaction
+  - COINS/
   - Cold
+  - COOKIE (.COOKIE)
   - Commitment
   - Commitment Transaction
   - Confidential Transactions
@@ -96,20 +107,20 @@ non_translatable:
   - Découvre Bitcoin
   - ECASH
   - ECLAIR
-  #- ELECTRS
+  - ELECTRS
   - Electrs
-  #- ELECTRUM
+  - ELECTRUM
   - Electrum
-  #- ELECTRUM SERVER
+  - ELECTRUM SERVER
   - Electrum Server
   - Elements
-  #- ELTOO
+  - ELTOO
   - Eltoo
   - Engraving Extra Transaction Proof
   - Exchange
   - Faucet
   - Federated 2-Way Peg
-  #- FEDIMINT
+  - FEDIMINT
   - Fedimint
   - FIBRE
   - FINNEY HAL
@@ -125,7 +136,7 @@ non_translatable:
   - Hard Fork
   - Hardware Wallet
   - Hash
-  #- HASHCASH
+  - HASHCASH
   - HashCash
   - Hashrate
   - HODL
@@ -153,6 +164,8 @@ non_translatable:
   - Lightning Network Daemon
   - Liquid
   - Liquid Network
+  - LIQUIDITY
+  - LOCK (.LOCK)
   - Mainnet
   - Maximalist
   - MAX_BLOCK_SIZE
@@ -168,10 +181,12 @@ non_translatable:
   - Mnemonic
   - Multi Protocol Commitment
   - Multisig
+  - M-OF-N
   - NLOCKTIME
   - Nonce
   - NO2X
   - nSequence
+  - NSEQUENCE
   - nVersion
   - ONION_PRIVATE_KEY
   - ONION_V3_PRIVATE_KEY
@@ -183,6 +198,7 @@ non_translatable:
   - OP_1NEGATE
   - OP_1SUB
   - OP_2 TO OP_16
+  - OP_2 TO OP_16 (0X52 TO 0X60)
   - OP_2DROP
   - OP_2OVER
   - OP_2ROT
@@ -271,6 +287,7 @@ non_translatable:
   - Plan ₿ Hangouts
   - Plan ₿ Labs
   - Plan ₿ Network
+  - POOL HOPPING
   - Proof of Work
   - Proof-of-Work
   - pruned

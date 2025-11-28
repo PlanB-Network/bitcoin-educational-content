@@ -1,0 +1,9 @@
+question: Čeho se decentralizace těžařů v Bitcoin konkrétně týká?
+answer: Řazení transakcí provádí kolektivně dynamický soubor těžařů, nikoli jeden subjekt
+wrong_answers:
+  - Ověřování bloků je rozděleno mezi více důvěryhodných autorit namísto jednoho centrálního serveru
+  - Odměny mining jsou rovnoměrně rozděleny mezi všechny účastníky sítě Bitcoin
+  - Hardware mining vyrábějí různé společnosti, aby se zabránilo monopolizaci vybavení
+explanation: |
+  Decentralizace Miner konkrétně znamená, že objednávání transakcí neřídí žádný jednotlivý subjekt nebo pevně daná skupina, ale kolektiv těžařů, kteří se k ní mohou svobodně připojit nebo ji opustit. To se liší od ověřování bloků (které souvisí s decentralizací full node), distribuce odměn nebo výroby hardwaru. Dynamická povaha kolektivu mining - kde se může kdokoli zapojit bez povolení - je tím, co činí Bitcoin odolným vůči cenzuře a zabraňuje tomu, aby jakákoli jednotlivá strana kontrolovala, které transakce budou zahrnuty do bloků.
+reviewed: false

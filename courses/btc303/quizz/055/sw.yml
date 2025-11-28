@@ -1,0 +1,9 @@
+question: Ni nini sababu ya msingi kwa nini hazina ya Bitcoin Core ya GitHub inachukuliwa kuwa maalum ikilinganishwa na maelfu ya nakala zingine za hazina hiyo hiyo ulimwenguni kote?
+answer: Inatumika kama kitovu kinachotambulika kijamii kwa ukuzaji wa Bitcoin, si kwa sababu ya ubora wowote wa kiufundi.
+wrong_answers:
+  - Ina funguo za kriptografia ambazo huthibitisha matoleo na masasisho rasmi ya Bitcoin Core
+  - Ina vipengele vya kipekee vya kiufundi na ruhusa ambazo nakala zingine za hazina haziwezi kunakili
+  - Imelindwa kisheria na Leseni ya MIT kama chanzo pekee cha mamlaka ya nambari ya Bitcoin
+explanation: |
+  Kama Jameson Lopp anavyoeleza, hazina ya Bitcoin Core ya GitHub inafanana kiufundi na maelfu ya nakala nyingine kote ulimwenguni, lakini imekuwa kitovu kinachokubalika na kijamii cha uratibu wa maendeleo. Haina vipengele maalum vya kiufundi, mbinu za uthibitishaji wa kriptografia, au ulinzi wa kisheria unaoifanya kuwa bora zaidi. Leseni ya MIT inahakikisha kwamba mtu yeyote anaweza kunakili na kusambaza tena nambari hiyo kwa uhuru. Kama hazina hii itatoweka, jumuiya ingeanzisha tu kituo kipya mahali pengine, kuonyesha kwamba umuhimu wake ni maelewano ya kijamii badala ya hitaji la kiufundi.
+reviewed: false

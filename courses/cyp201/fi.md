@@ -1882,19 +1882,21 @@ Kun käyttäjä vastaanottaa bitcoineja, lähettäjä luo ulostulon UTXO:n ja lu
 
 Juuri *scriptPubKey*:ssa löytyvät vastaanotto-osoitteet. Kuitenkin niiden käyttö vaihtelee riippuen käytetystä skriptistandardista. Tässä on yhteenvetotaulukko tiedoista, jotka sisältyvät *scriptPubKey*:hin käytetyn standardin mukaan, sekä tiedot, jotka odotetaan *scriptSig*:ssä *scriptPubKey*:n avaamiseksi.
 
-| Standardi         | *scriptPubKey*                                              | *scriptSig*                     | *redeem script*     | *witness*                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <redeem script>` | Mielenvaltainen data|                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <pubKeyHash>`    | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <scriptHash>`    | `<data pushes> <witness script>`         |
-| P2TR (avainpolku)  | `1 <public key>`                                            |                                 |                     | `<signature>`                            |
-| P2TR (skriptipolku)| `1 <public key>`                                            |                                 |                     | `<data pushes> <script> <control block>` |
 
-*Lähde: Bitcoin Core PR review club, heinäkuu 7, 2021 - Gloria Zhao*
+
+| Standardi             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| --------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Mielivaltaiset tiedot | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_Lähde: Bitcoin Core PR -arviointiklubi 7. heinäkuuta 2021 – Gloria Zhao_
 
 Skriptissä käytetyt operaatiokoodit on suunniteltu tiedon käsittelyyn ja tarvittaessa sen vertailuun tai testaamiseen. Otetaan esimerkiksi P2PKH-skripti, joka on seuraava:
 

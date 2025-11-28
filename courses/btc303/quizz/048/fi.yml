@@ -1,0 +1,9 @@
+question: Miksi Bitcoin:n turvallisuutta on käytännössä mahdotonta todistaa muodollisesti, vaikka se toimii tehokkaasti käytännössä?
+answer: Järjestelmän monimutkaisuus ja epämääräinen luonne tekevät muodollisista turvallisuustodistuksista mahdottomia, toisin kuin yksinkertaisemmat protokollat, joissa on selkeät oletukset
+wrong_answers:
+  - Bitcoin:n kehittäjät välttävät tarkoituksella muodollisia todisteita, jotta voidaan säilyttää joustavuus ja mahdollistaa protokollan muuttaminen tulevaisuudessa
+  - Diskreetin logaritmin ongelma ja kryptografiset oletukset ovat liian kehittyneitä nykyisille matemaattisille todistustekniikoille
+  - Viralliset turvallisuustodistukset paljastaisivat haavoittuvuudet vastustajille, joten ydinkehittäjät pitävät ne salaisina
+explanation: |
+  Kuten Jameson Lopp selittää, Bitcoin rakennettiin ilman virallisesti määriteltyä määrittelyä tai turvallisuusmallia sen luontaisen monimutkaisuuden ja epämääräisen luonteen vuoksi. Toisin kuin yksinkertaisemmissa järjestelmissä, kuten allekirjoituspöytäkirjoissa, joissa on selkeät turvallisuusoletukset, Bitcoin:ssa on useita vuorovaikutteisia komponentteja, kuten kryptografia, taloustiede, peliteoria ja ihmisten käyttäytyminen. Tämän monimutkaisuuden vuoksi on mahdotonta luoda muodollisia matemaattisia turvallisuustodistuksia, vaikka järjestelmä osoittaa käytännön turvallisuutta todellisessa toiminnassa.
+reviewed: false

@@ -1,10 +1,10 @@
 question: Ni ubuhinga ubuhe bukenewe mu bijanye n’umutekano wo kuri Internet?
-answer: Isesengura ry'inyandiko, inyishu y'ivyabaye
+answer: Isesengura ry’ivyabaye, inyishu kubiba.
 wrong_answers:
   - Guhingura ibishushanyo, guhindura amasanamu
-  - Ugurisha, kwamamaza
-  - Guteka, guteka
+  - Urudandazwa, kwamamaza
+  - Guteka, Gutekera mw'ifuru
 explanation: |
-  Ikigabane kivuga isesengura ry’ivyabaye n’inyishu y’ivyabaye nk’uko
-  ubuhinga bumwe bumwe bukenewe mu bijanye n’umutekano wo kuri Internet.
+  Igice kivuga isesengura ry’ivyabaye n’inyishu y’ivyabaye nka bumwe mubumenyi 
+  bukenewe mu bijanye n’umutekano wo kuri Internet.
 reviewed: true

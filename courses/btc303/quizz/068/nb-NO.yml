@@ -1,0 +1,9 @@
+question: Når utvinnere kobler seg til mining-bassenger med større båndbredde og konnektivitet for å unngå foreldede blokker i perioder med økte blokkstørrelser, hva er den primære negative konsekvensen for Bitcoin-nettverket?
+answer: Det reduserer desentraliseringen av mining ettersom mindre utvinnere presses mot større bassenger med overlegen infrastruktur
+wrong_answers:
+  - Det øker beregningsvanskeligheten ved mining-operasjoner, noe som gjør blokkene vanskeligere å løse
+  - Det skaper ekstra transaksjonsavgifter som må betales for å opprettholde nettverkstilkoblingen
+  - Det reduserer den totale hashraten i nettverket ettersom utvinnerne bruker ressurser på konnektivitet i stedet for mining
+explanation: |
+  Kapittelet forklarer at når blokkstørrelsen øker, øker også spredningen, noe som fører til flere uaktuelle blokker. For å unngå å miste blokkbelønninger fra uaktuelle blokker, søker utvinnere etter bassenger med bedre båndbredde og tilkoblingsmuligheter. Dette presser utvinnere mot større, godt tilkoblede bassenger, noe som reduserer mining-desentraliseringen. De andre alternativene er feil: Vanskelighetsgraden justeres automatisk uavhengig av bassengtilkobling, tilkoblingskostnader skaper ikke ekstra transaksjonsgebyrer, og utvinnere reduserer ikke hashraten når de blir med i bassenger med bedre tilkobling.
+reviewed: false

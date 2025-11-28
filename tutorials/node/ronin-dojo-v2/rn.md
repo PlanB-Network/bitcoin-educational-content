@@ -543,7 +543,7 @@ Inyuma yo gukora coinjoins na Whirlpool, ni vyiza gusuzuma neza urugero rw'ubuzi
 Kugira ngo urushirize gutahura uburyo bwo kubara izo nkuru zitaboneka, ndagusavye gusoma ingingo: REMIX - Whirlpool, idondora neza ingene izo nkuru zikora.
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

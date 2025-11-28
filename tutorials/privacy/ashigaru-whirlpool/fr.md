@@ -118,7 +118,7 @@ Vous pouvez désormais laisser vos pièces se remixer automatiquement. Le modèl
 
 Pour mieux comprendre ce mécanisme et savoir combien de cycles il est pertinent d’attendre, je vous recommande la lecture de cet article :
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 Pour consulter le nombre de remix réalisés par chacune de vos pièces, ouvrez le menu `UTXOs` du compte `Postmix`.
 
@@ -174,7 +174,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 La performance de plusieurs cycles de coinjoins se mesure quant à elle à travers la taille des ensembles dans lesquels une pièce est dissimulée. Ces ensembles définissent ce que l’on appelle les *anonsets*. Il en existe deux types : le premier évalue la confidentialité face à une analyse rétrospective (du présent vers le passé), et le second mesure la résistance à une analyse prospective (du passé vers le présent). Pour une explication complète de ces deux indicateurs, je vous invite à lire le tutoriel suivant (ou bien, encore une fois, la formation BTC 204) :
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 ## Comment gérer le postmix ?
 

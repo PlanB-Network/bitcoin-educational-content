@@ -1,0 +1,9 @@
+question: Menurut definisi open source, apa persyaratan utama terkait biaya ketika mendistribusikan ulang perangkat lunak open source sebagai bagian dari distribusi perangkat lunak secara keseluruhan?
+answer: Lisensi tidak memerlukan royalti atau biaya lain untuk penjualan tersebut
+wrong_answers:
+  - Biaya reproduksi yang wajar harus dibebankan untuk menutupi biaya pengembangan
+  - Biaya royalti diperbolehkan tetapi tidak boleh melebihi 5% dari harga distribusi
+  - Biaya administrasi mungkin diperlukan, tetapi hanya untuk redistribusi komersial
+explanation: |
+  Definisi sumber terbuka secara eksplisit menyatakan di bawah 'Redistribusi Bebas' bahwa 'Lisensi tidak memerlukan royalti atau biaya lain untuk penjualan tersebut Ini berarti perangkat lunak sumber terbuka harus dapat didistribusikan ulang secara bebas tanpa biaya wajib atau royalti. Opsi lain secara tidak tepat menyatakan bahwa berbagai jenis biaya diperbolehkan, yang akan melanggar prinsip dasar redistribusi bebas yang mendefinisikan perangkat lunak sumber terbuka.
+reviewed: false

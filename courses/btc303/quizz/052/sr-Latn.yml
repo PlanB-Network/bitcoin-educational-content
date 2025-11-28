@@ -1,0 +1,9 @@
+question: Prema aksiomu otpora Erika Voskuila, osnovna pretpostavka koja se mora prihvatiti da bi Bitcoin imao smisla kao sistem je da učesnici moraju verovati u sposobnost sistema da se odupre cenzuri i spoljnim pritiscima.
+answer: Da je moguće da sistem odoli državnoj kontroli
+wrong_answers:
+  - Da će većina mrežne hash snage uvek ostati poštena
+  - Da kriptografski algoritmi nikada neće biti razbijeni kvantnim računarstvom
+  - Da će korisnici uvek davati prednost decentralizaciji nad praktičnošću
+explanation: |
+  Aksiom otpora pretpostavlja da sistemi mogu da se odupru državnoj kontroli, što je osnovno za svrhu Bitcoin kao novca bez dozvole. Bez ove pretpostavke, cela premisa Bitcoin bi se srušila jer bi ga države neizbežno kontrolisale. Druge opcije, iako relevantne za bezbednost Bitcoin, nisu deo Voskuilovog aksioma otpora, koji se specifično bavi filozofskom osnovom da je otpor državnoj kontroli moguć.
+reviewed: false

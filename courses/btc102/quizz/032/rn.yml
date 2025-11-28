@@ -1,9 +1,9 @@
-question: Ni ubuhe buryo bwa RGB butuma umuntu ashobora kunanirwa gukoresha amahera incuro zibiri?
-answer: Single-Use Seal.
+question: Ni ubuhe buryo bwa RGB butuma umuntu ashobora kurwana ku gusohora amahera incuro zibiri?
+answer: ikidodo gikora rimwe
 wrong_answers:
-  - Ikoreshwa ryinshi Seal.
-  - Umukono wa kabiri
-  - Ikimenyamenya c'Igiti
+  - Ikidodo gikoreshwa kenshi.
+  - Imikono ibiri
+  - Ukwerekana ko ufise umugabane
 explanation: |
-  Single-Use Seal ikoresha ukuri kw’uko UTXO ishobora gukoreshwa rimwe gusa, igatuma habaho ukunanirwa gukoresha incuro zibiri mu masezerano y’ubwenge ya RGB.
+  Ikidodo gikora rimwe ikoresha ukuri kw’uko UTXO ishobora gukoreshwa rimwe gusa, igatuma habaho kurwanya gusohora amahera incuro zibiri mu masezerano y’ubwenge ya RGB.
 reviewed: false

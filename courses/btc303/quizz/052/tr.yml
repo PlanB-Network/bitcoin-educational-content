@@ -1,0 +1,9 @@
+question: Eric Voskuil'in direnç aksiyomuna göre, Bitcoin'ın bir sistem olarak anlamlı olabilmesi için hangi temel varsayımın kabul edilmesi gerekir?
+answer: Bir sistemin devlet kontrolüne direnmesinin mümkün olması
+wrong_answers:
+  - Ağ gücünün çoğunluğunun her zaman dürüst kalacağı
+  - Kriptografik algoritmaların kuantum hesaplama ile asla kırılamayacağı
+  - Kullanıcıların her zaman kolaylık yerine ademi merkeziyetçiliğe öncelik vereceği
+explanation: |
+  Direnç aksiyomu sistemlerin devlet kontrolüne direnebileceğini varsayar ki bu da Bitcoin'in izinsiz para olarak amacının temelini oluşturur. Bu varsayım olmadan, Bitcoin'in tüm önermesi çöker çünkü kaçınılmaz olarak devletler tarafından kontrol edilecektir. Diğer seçenekler, Bitcoin'in güvenliğiyle ilgili olmakla birlikte, Voskuil'in direnç aksiyomunun bir parçası değildir; bu aksiyom özellikle devlet kontrolüne karşı direncin mümkün olduğuna dair felsefi temeli ele almaktadır.
+reviewed: false

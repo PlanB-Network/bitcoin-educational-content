@@ -1,0 +1,9 @@
+question: Кой от следните софтуери не е счетоводно решение на Bitcoin?
+answer: Sparrow
+wrong_answers:
+  - CoinTracker
+  - Koinly
+  - ZenLedger
+explanation: |
+  Sparrow не е счетоводно решение Bitcoin, докато другите са (това е софтуер Bitcoin Wallet).
+reviewed: true

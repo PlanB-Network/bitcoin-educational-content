@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste verschil tussen anonimiteit en pseudonimiteit in de context van Bitcoin transacties?
+answer: In pseudonieme systemen zoals Bitcoin kunnen betalingen getraceerd worden tussen pseudoniemen, terwijl in anonieme systemen geen spoor bestaat
+wrong_answers:
+  - Pseudonieme systemen gebruiken echte namen, terwijl anonieme systemen nepnamen gebruiken voor alle transacties
+  - Anonieme systemen hebben publieke sleutels nodig, terwijl pseudonieme systemen alleen privésleutels gebruiken voor identificatie
+  - "Pseudonieme systemen verbergen transactiebedragen, terwijl anonieme systemen alleen de identiteit van de verzender verbergen"
+explanation: |
+  Bitcoin is pseudoniem, niet anoniem, omdat alle transacties tussen adressen (pseudoniemen) traceerbaar zijn op de blockchain. In een echt anoniem systeem zou er geen spoor zijn van waar het geld vandaan komt of waar het naartoe gaat, wat theoretisch bereikt zou kunnen worden door zero-knowledge proofs. De transparantie van Bitcoin maakt het echter mogelijk dat iedereen de stroom bitcoins tussen verschillende adressen kan volgen, waardoor het eerder pseudoniem dan anoniem is. De pseudoniemen in Bitcoin zijn adressen afgeleid van publieke sleutels, geen willekeurige gebruikersnamen of echte identiteiten.
+reviewed: false

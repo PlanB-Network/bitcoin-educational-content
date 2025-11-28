@@ -1,0 +1,9 @@
+question: Qu'est-ce qui rend le traitement des transactions du Bitcoin résistant à la censure ?
+answer: L'ordre des transactions est effectué collectivement par un ensemble dynamique de mineurs que chacun peut rejoindre ou quitter
+wrong_answers:
+  - La validation des transactions est cryptée à l'aide de protocoles cryptographiques avancés que les gouvernements ne peuvent pas briser
+  - Les enregistrements des transactions sont stockés sur plusieurs serveurs de sauvegarde contrôlés par différentes organisations de confiance
+  - Les frais de transaction sont automatiquement ajustés pour prévenir les attaques économiques des autorités centralisées
+explanation: |
+  Le Bitcoin résiste à la censure grâce à la décentralisation des mineurs, où l'ordre des transactions est effectué collectivement par tous les mineurs qui choisissent de participer. Cela crée un système dynamique dans lequel chacun peut rejoindre ou quitter librement le processus mining, éliminant ainsi tout point de contrôle unique qui pourrait être poussé à censurer les transactions. Les mauvaises réponses décrivent des caractéristiques techniques, des parties de confiance ou des mécanismes économiques qui n'abordent pas la question centrale du contrôle décentralisé du traitement des transactions.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Какво представлява Lightning Network?
+answer: Мрежа за разплащания, която използва протокола Bitcoin за светкавични трансакции.
+wrong_answers:
+  - Нов вид криптовалута.
+  - Нова блокчейн технология, която в бъдеще ще замени Bitcoin.
+  - Метод за копаене на Bitcoin.
+explanation: |
+  Lightning Network е платежна мрежа, която използва
+  Bitcoin за бързи транзакции. Тя не е
+  отделна криптовалута, нито метод за mining Bitcoin.
+reviewed: true

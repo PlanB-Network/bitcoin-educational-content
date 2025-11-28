@@ -1,0 +1,9 @@
+question: Hvilken mekanisme sikrer at Bitcoins forsyningsgrense håndheves uten å kreve tillit til noen sentral myndighet?
+answer: Alle noder kjører verifiseringskode som automatisk avviser blokker med ugyldige coinbase-transaksjoner
+wrong_answers:
+  - En distribuert konsensusalgoritme som krever flertallsgodkjenning for alle endringer i tilbudet
+  - Kryptografisk proof-of-work som matematisk forhindrer opprettelse av overflødige mynter
+  - Nettverksvalidatorer som stemmer over transaksjonens gyldighet gjennom en demokratisk prosess
+explanation: |
+  Bitcoins forsyningsgrense håndheves gjennom fullstendige noder som kjører verifiseringskode for å sjekke hver blokks coinbase-transaksjon opp mot konsensusreglene. Selv om noen noder blir ondsinnede og aksepterer ugyldige blokker med for høye belønninger, vil ærlige noder ganske enkelt ignorere dem og fortsette med den gyldige kjeden. Dette skaper et tillitsløst system der du ikke trenger å stole på noen enkeltperson eller autoritet - du trenger bare å kjøre kode som verifiserer at reglene følges, noe som gjør nettverket kollektivt sikkert mot forsøk på tilbudsinflasjon.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kulingana na hesabu za Pieter Wuille, ni kiwango gani cha juu zaidi cha kinadharia cha Bitcoin ambacho kitawahi kuwepo mara tu sarafu zote zitakapochimbwa?
+answer: 20,999,999.9769 BTC
+wrong_answers:
+  - 21,000,000.0000 BTC hasa
+  - 20,999,817.3131 BTC
+  - 20,500,000.0000 BTC takriban
+explanation: |
+  Pieter Wuille alikokotoa kuwa ugavi wa juu zaidi wa kinadharia ni 20,999,999.9769 BTC, ambayo ni chini kidogo ya ile inayotajwa mara nyingi milioni 21. Hii ni kutokana na ratiba mahususi ya kupunguza nusu na kuzungushwa katika msimbo wa Bitcoin. Idadi ya milioni 21 ni makadirio ya pande zote. Takwimu 20,999,817.3131 inawakilisha usambazaji halisi wa mzunguko baada ya uhasibu kwa sarafu zilizopotea na makosa ya mining hadi kizuizi maalum, sio kiwango cha juu cha kinadharia.
+reviewed: false

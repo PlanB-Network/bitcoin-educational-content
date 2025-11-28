@@ -1,0 +1,8 @@
+question: На какво прилича кривата на приемане на Bitcoin?
+answer: S-образна крива.
+wrong_answers:
+  - U-образна крива.
+  - V-образна крива.
+  - W-образна крива.
+explanation: >-
+reviewed: true

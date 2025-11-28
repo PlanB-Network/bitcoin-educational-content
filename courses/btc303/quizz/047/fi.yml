@@ -1,0 +1,9 @@
+question: Simple Sabotage Field Manual -taktiikan mukaan miten vastustaja voisi tehokkaimmin häiritä Bitcoin:n avointa kehitysprosessia?
+answer: Tunkeutumalla keskusteluihin ja jarruttamalla edistystä loputtomilla huolenaiheilla epäolennaisista asioista ja jo käytyjen keskustelujen toistamisella
+wrong_answers:
+  - "Käynnistämällä hajautettuja palvelunestohyökkäyksiä Bitcoin Core -kehittäjien henkilökohtaisia tietokoneita ja palvelimia vastaan"
+  - Lahjomalla mining-pooleja hylkäämään ohjelmistopäivitykset ja ylläpitämään protokollan vanhempia versioita loputtomiin
+  - Luomalla kilpailevia kryptovaluuttoja, jotka tarjoavat parempia ominaisuuksia houkutellakseen kehittäjät pois Bitcoin-hankkeista
+explanation: |
+  Simple Sabotage Field Manual -käsikirjassa hahmoteltiin soluttautumistaktiikoita, joilla organisaatioiden toimintaa voidaan häiritä sisältä käsin, mukaan lukien edistyksen jarruttaminen epäolennaisilla huolenaiheilla ja jo käytyjen keskustelujen uudelleen esittäminen. Koska Bitcoin:n kehittäminen on avointa kaikille, nämä sosiaaliseen manipulointiin perustuvat taktiikat ovat todellinen uhka. Muut vaihtoehdot edustavat pikemminkin ulkoisia hyökkäyksiä kuin käsikirjassa kuvattuja sisäisiä sabotaasimenetelmiä, joissa keskitytään Bitcoin:n kehitysprosessin avoimen, yhteistoiminnallisen luonteen hyödyntämiseen.
+reviewed: false

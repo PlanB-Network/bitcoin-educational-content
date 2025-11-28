@@ -1,9 +1,9 @@
-question: What is an advantage of Lightning Network payments for merchants at the point of sale?
-answer: Lightning payments settle almost instantly and don’t require multiple intermediaries, reducing fees and settlement delays.
+question: Thanh toán Lightning Network có lợi thế gì đối với người bán tại điểm bán hàng?
+answer: Thanh toán nhanh chóng được thực hiện gần như ngay lập tức và không cần nhiều trung gian, giúp giảm phí và thời gian thanh toán.
 wrong_answers:
-  - Lightning payments need weeks to confirm and require heavy paperwork.
-  - Lightning payments only occur if approved by a central bank’s authority.
-  - Lightning payments can be reversed at will by the buyer after the sale.
+  - Thanh toán nhanh chóng cần nhiều tuần để xác nhận và cần nhiều giấy tờ.
+  - Thanh toán sét chỉ diễn ra nếu được cơ quan có thẩm quyền của ngân hàng trung ương chấp thuận.
+  - Người mua có thể hủy bỏ khoản thanh toán chớp nhoáng theo ý muốn sau khi bán.
 explanation: |
-  The Lightning Network makes transactions faster and cheaper by allowing off-chain settlement. Merchants can receive funds almost instantly, with minimal fees, and without relying on traditional payment intermediaries.
-reviewed: false
+  Lightning Network cho phép giao dịch nhanh hơn và rẻ hơn bằng cách hỗ trợ thanh toán off-chain. Người bán có thể nhận tiền gần như ngay lập tức, với mức phí tối thiểu và không cần phụ thuộc vào các trung gian thanh toán truyền thống.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Was ist der Hauptgrund dafür, dass Bitcoin von öffentlichen Schlüsseln abgeleitete Adressen als Pseudonyme anstelle von beschreibenden Benutzernamen verwendet?
+answer: Ermöglichung einer sicheren Offline-Adresserstellung ohne Blockchain-Registrierung
+wrong_answers:
+  - Vollständige Anonymität und Rückverfolgbarkeit der Transaktionen in der Blockchain
+  - Verringerung der für die Transaktionsüberprüfung erforderlichen Rechenleistung
+  - Ermöglichung der unbegrenzten Wiederverwendung desselben Pseudonyms über mehrere Transaktionen hinweg
+explanation: |
+  Bitcoin verwendet von öffentlichen Schlüsseln abgeleitete Adressen als Pseudonyme, weil dieses System es den Nutzern ermöglicht, neue Adressen sicher offline zu erstellen, ohne dass sie sie zuerst in der Blockchain registrieren müssen. Die Verwendung von beschreibenden Benutzernamen würde die Bekanntgabe der Verbindung zwischen dem Benutzernamen und dem öffentlichen Schlüssel in der Blockchain erfordern, was Gebühren kosten, die Blockchain aufblähen und die Sicherheit verringern würde. Außerdem würden Benutzernamen zur Wiederverwendung ermutigen (was die Privatsphäre beeinträchtigen würde) und das Risiko der Unkenntlichmachung mit sich bringen. Das adressbasierte System beseitigt diese Probleme und gewährleistet gleichzeitig die kryptografische Sicherheit, die für das ordnungsgemäße Funktionieren von Bitcoin erforderlich ist.
+reviewed: false

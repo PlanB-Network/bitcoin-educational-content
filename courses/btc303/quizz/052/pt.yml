@@ -1,0 +1,9 @@
+question: De acordo com o axioma da resistência de Eric Voskuil, que pressuposto fundamental deve ser aceite para que o Bitcoin faça sentido como sistema?
+answer: Que é possível que um sistema resista ao controlo do Estado
+wrong_answers:
+  - Que a maioria dos detentores do poder da rede permanecerá sempre honesta
+  - Que os algoritmos criptográficos nunca serão quebrados pela computação quântica
+  - Que os utilizadores darão sempre prioridade à descentralização em detrimento da conveniência
+explanation: |
+  O axioma da resistência assume que os sistemas podem resistir ao controlo estatal, o que é fundamental para o propósito do Bitcoin como dinheiro sem permissão. Sem este pressuposto, toda a premissa do Bitcoin cai por terra, uma vez que seria inevitavelmente controlado pelos Estados. As outras opções, embora relevantes para a segurança do Bitcoin, não fazem parte do axioma de resistência de Voskuil, que aborda especificamente o fundamento filosófico de que a resistência ao controlo estatal é possível.
+reviewed: false

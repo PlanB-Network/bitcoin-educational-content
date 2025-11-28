@@ -1,0 +1,9 @@
+question: Jaký je základní požadavek, který umožňuje uživatelům ověřit, že software Bitcoin "funguje tak, jak je inzerováno" v souladu s diskutovanými zásadami otevřeného kódu?
+answer: Uživatelé musí mít neomezený přístup ke zdrojovému kódu softwaru, který chtějí ověřit
+wrong_answers:
+  - Před přístupem k ověřovacím nástrojům musí uživatelé získat povolení od správců jádra Bitcoin
+  - Uživatelé musí zaplatit přiměřený poplatek za přístup ke zkompilovaným ověřovacím binárním souborům z oficiálních zdrojů
+  - Uživatelé se při ověřování chování softwaru musí spoléhat na kryptografické podpisy důvěryhodných vývojářů
+explanation: |
+  Kapitola výslovně uvádí, že aby uživatelé mohli ověřit, že software Bitcoin "funguje tak, jak je inzerováno", musí mít neomezený přístup ke zdrojovému kódu. To přímo souvisí se zásadou "nedůvěřuj, ověřuj" a s požadavkem definice otevřeného kódu na dostupnost zdrojového kódu. Špatné odpovědi jsou v rozporu s hlavními zásadami open source: požadavek na povolení porušuje zásadu volného přístupu, placení poplatků je v rozporu s požadavkem na bezplatnou distribuci a spoléhání se pouze na podpisy podkopává možnost ověření prostřednictvím kontroly, kterou open source poskytuje.
+reviewed: false

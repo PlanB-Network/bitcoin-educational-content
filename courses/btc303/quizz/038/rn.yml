@@ -1,0 +1,9 @@
+question: Dushingiye ku gice, ni igiki gitandukanya fork yoroshe na fork ikomeye mu mahinduka y’amategeko y’ubumwe bwa Bitcoin?
+answer: fork yoroshe irahuye neza (ihuye n’imbere n’inyuma) mu gihe fork ikomeye ihuye n’inyuma gusa .
+wrong_answers:
+  - fork yoroshe isaba gukoresha ikimenyetso c'umucukuzi mu gihe fork ikomeye ikoresha gukoresha umusi w'ibendera
+  - fork yoroshe ihindura amakode asanzweho mu gihe fork ikomeye yongerako amakode mashasha nka OP_NOP1-OP_NOP10
+  - fork yoroshe ishobora gushirwa mu ngiro mu mpisho mu bikorwa mu gihe fork ikomeye isaba gutangazwa ku mugaragaro .
+explanation: |
+  Ico gice kirasobanura neza ubwoko bw’uguhuza: uguhuza imbere gutuma porogarama ya kera ishobora gukora amakuru mashasha mu kwirengagiza ibice bitazwi, mu gihe uguhuza inyuma gutuma porogarama nshasha ikora amakuru ya kera. fork yoroshe iragumya ubwo bwoko bwompi bw’uguhuza, bikaba bituma ihuza bimwe bishitse. fork ikomeye iguma gusa ikorana n’inyuma, bisobanura ko porogarama nshasha ishobora gukora amakuru ya kera ariko porogarama ya kera ntishobora gukora amakuru mashasha ava muri sisitemu yavuguruwe. Iryo tandukaniro ni ngirakamaro cane mu gutahura uburyo bwo kuvugurura Bitcoin n’igituma amaforogo yoroshe akundwa kugira ngo uruja n’uruza rwuzure.
+reviewed: false

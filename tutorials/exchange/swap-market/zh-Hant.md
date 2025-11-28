@@ -596,13 +596,13 @@ https://planb.academy/tutorials/exchange/centralized/zeus-swap-b6732907-b5d8-43e
 
 
 
-| Aspect        | Boltz Exchange           | SwapMarket                                 |
-| ------------- | ------------------------ | ------------------------------------------ |
-| Nature        | Service unique           | Agrégateur multi-providers                 |
-| Providers     | Boltz uniquement         | Boltz, ZEUS, Eldamar, Middle Way           |
-| Compétition   | Tarifs fixes             | Compétition libre                          |
-| Interface     | boltz.exchange           | swapmarket.github.io (self-hostable)       |
-| Sécurité      | Non-custodial (HTLC)     | Non-custodial (HTLC)                       |
+| 面向         | Boltz Exchange       | SwapMarket                           |
+| ------------ | -------------------- | ------------------------------------ |
+| 性質          | 獨特服務             | 多供應商聚合器                        |
+| 提供商        | 僅 Boltz             | Boltz、ZEUS、Eldamar、Middle Way     |
+| 競爭          | 固定費用             | 自由競爭                             |
+| 介面          | boltz.exchange       | swapmarket.github.io（可自我託管）     |
+| 安全性        | 非託管 (HTLC)        | 非託管 (HTLC)                        |
 
 **SwapMarket 的優點**：價格競爭、後端實例多樣化、即時比較。
 

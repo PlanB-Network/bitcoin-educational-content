@@ -1,0 +1,9 @@
+question: Wanneer moeten volgens Bitcoin Core's verantwoordelijke openbaarmakingspraktijken details van kwetsbaarheden openbaar worden gemaakt nadat een fix is uitgerold?
+answer: Nadat meer dan 80% van de Bitcoin knooppunten de fixes heeft uitgerold
+wrong_answers:
+  - Onmiddellijk nadat de patch is uitgebracht om verkeerde aannames over beveiliging te voorkomen
+  - Nadat alle grote altcoins zijn geïnformeerd en hun implementaties hebben bijgewerkt
+  - Na een standaard embargoperiode van 90 dagen, ongeacht de inzetstatus
+explanation: |
+  Bitcoin Core volgt een op inzet gebaseerde tijdlijn voor openbaarmaking in plaats van een vaste tijdsperiode. De drempel van 80% zorgt ervoor dat het overgrote deel van het netwerk beschermd is voordat aanvallers kennis kunnen nemen van de kwetsbaarheid door openbaarmaking. Deze aanpak geeft voorrang aan netwerkbeveiliging boven willekeurige tijdlijnen, omdat voortijdige openbaarmaking de resterende 20% van de knooppunten kan blootstellen aan gerichte aanvallen. De andere opties vertegenwoordigen gangbare praktijken in traditionele softwarebeveiliging, maar houden geen rekening met de gedecentraliseerde aard van Bitcoin waar gebruikers vrijwillig hun nodes moeten upgraden.
+reviewed: false

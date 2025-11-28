@@ -1,0 +1,9 @@
+question: Jaký je hlavní důvod, proč je repozitář Bitcoin Core na GitHubu považován za výjimečný ve srovnání s tisíci jiných kopií téhož repozitáře po celém světě?
+answer: Slouží jako společensky uznávané ohnisko pro rozvoj Bitcoin, nikoliv kvůli technické převaze
+wrong_answers:
+  - Obsahuje kryptografické klíče, které ověřují pravost oficiálních verzí a aktualizací jádra Bitcoin
+  - Má exkluzivní technické funkce a oprávnění, které ostatní kopie úložiště nemohou replikovat
+  - Je právně chráněn licencí MIT jako jediný autoritativní zdroj kódu Bitcoin
+explanation: |
+  Jak vysvětluje Jameson Lopp, úložiště Bitcoin Core na GitHubu je technicky totožné s tisíci dalších kopií po celém světě, ale stalo se společensky uznávaným ústředním bodem pro koordinaci vývoje. Nemá žádné speciální technické vlastnosti, kryptografické mechanismy ověřování ani právní ochranu, které by jej činily nadřazeným. Licence MIT ve skutečnosti zajišťuje, že kód může kdokoli volně kopírovat a šířit. Pokud by tento repozitář zanikl, komunita by jednoduše založila nový ústřední bod jinde, což dokazuje, že jeho význam je spíše čistě společenskou konvencí než technickou nutností.
+reviewed: false

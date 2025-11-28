@@ -1,0 +1,9 @@
+question: Koja je matematička formula verovatnoće da nepošteni rudar sa x procenata hash rate-a uspešno izvrši fee sniping tako što će re-mining prethodni blok plus novi blok?
+answer: (x/(1-x))^2
+wrong_answers:
+  - x^2/(1-x)
+  - (1-x)^2/x
+  - x/(1-x)^2
+explanation: |
+  Ispravna formula je (x/(1-x))^2 jer fee sniping zahteva da rudar uspešno iskopa dva uzastopna bloka kako bi zamenio prethodni blok i produžio lanac. Verovatnoća mining jednog bloka protiv poštenih rudara je x/(1-x), a pošto dva bloka moraju biti iskopana uzastopno, ova verovatnoća se kvadrira. Druge formule su matematički moguće, ali predstavljaju različite scenarije verovatnoće koji ne odgovaraju specifičnim zahtevima fee snipinga, gde nepošteni rudar mora dva puta uzastopno nadmašiti poštenu mrežu.
+reviewed: false

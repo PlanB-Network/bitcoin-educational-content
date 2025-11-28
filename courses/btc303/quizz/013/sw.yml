@@ -1,0 +1,9 @@
+question: Kulingana na uwasilishaji wa Matt Corallo, kuna uhusiano gani kati ya mifumo isiyoaminika na inayoaminika katika usanifu wa Bitcoin?
+answer: Unaweza kuunda mifumo inayoaminika juu ya mfumo usioaminika, lakini sio mifumo isiyoaminika juu ya mifumo inayoaminika
+wrong_answers:
+  - Unaweza kuunda mifumo isiyoaminika juu ya mifumo inayoaminika, lakini sio mifumo inayoaminika juu ya mifumo isiyoaminika
+  - Mifumo yote isiyoaminika na inayoaminika inaweza kujengwa juu ya kila mmoja bila mapungufu yoyote ya usanifu
+  - Trustless na mifumo inayoaminika lazima ifanye kazi kwa kujitegemea na haiwezi kuwekwa safu juu ya kila mmoja
+explanation: |
+  Ufahamu muhimu wa Matt Corallo ni kwamba safu ya msingi isiyoaminika ya Bitcoin huwezesha kubadilika katika muundo wa mfumo. Wakfu usioaminika kama itifaki ya Bitcoin huruhusu wasanidi programu kuunda huduma zinazoaminika (kama vile pochi za ulezi) kwenye tabaka za juu huku wakihifadhi dhamana za msingi za usalama. Walakini, kinyume hakiwezekani - huwezi kuunda mifumo isiyoaminika ikiwa msingi wenyewe unahitaji uaminifu, kwani mali yoyote isiyoaminika inaweza kudhoofishwa na udhaifu wa safu ya msingi inayoaminika.
+reviewed: false

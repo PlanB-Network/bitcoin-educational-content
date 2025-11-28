@@ -1,0 +1,9 @@
+question: Kitabın Bitcoin ölçeklendirme tanımını Bitcoin alanında kullanılan yaygın alternatif tanımlardan ayıran temel özellik nedir?
+answer: Kullanım kapasitesini artırırken sansür direncini bir kısıtlama olarak korumayı açıkça gerektirir
+wrong_answers:
+  - Verimlilik iyileştirmelerinden ziyade yalnızca blok zinciri işlem hacmini artırmaya odaklanıyor
+  - Temel blok zinciri protokolünde yapılacak herhangi bir değişiklik yerine katmanlı mimari geliştirmeye öncelik verir
+  - Ağ kapasitesini genişletmek yerine düğümler için hesaplama gereksinimlerini azaltmayı vurgular
+explanation: |
+  Kitap ölçeklendirmeyi 'Bitcoin'in sansür direncinden ödün vermeden kullanım kapasitesini artırmak' olarak tanımlamakta ve sansür direnci kısıtını açıkça içermektedir. Bu tanım, Bitcoin'in temel özelliklerinin korunmasını dikkate almadan yalnızca işlem kapasitesi artışlarına, verimlilik iyileştirmelerine veya katmanlı sistemlere odaklanan diğer tanımlardan ayrılmaktadır. Sansüre direnç gerekliliği, ölçeklendirme çözümlerinin Bitcoin'in tek bir varlık tarafından kontrol edilemeyen, güvene dayalı olmayan, merkezi olmayan bir sistem olma temel değer önermesini zayıflatmamasını sağlar.
+reviewed: false

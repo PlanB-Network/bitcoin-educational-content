@@ -1,0 +1,9 @@
+question: Mitä lohkoketjujen yksityisyys tarkoittaa Bitcoin:n yhteydessä?
+answer: Lohkoketjussa tehdyillä liiketoimilla julkistamasi tiedot
+wrong_answers:
+  - wallet:een tallennettujen yksityisten avainten salaus
+  - Internet-yhteyden suojaaminen Bitcoin:n käytön aikana
+  - Useiden wallet-osoitteiden käyttämisen tarjoama anonymiteetti
+explanation: |
+  Blockchain-yksityisyys viittaa erityisesti tietoihin, jotka paljastat lohkoketjussa tapahtuvien liiketoimien yhteydessä, ja se koskee kaikkia lähettämiäsi ja vastaanottamiasi liiketoimia. Tämä eroaa wallet-salauksesta (joka suojaa tallennettuja avaimia), internet-yhteyden turvallisuudesta (joka on off-chain-yksityisyyden suojaa) tai harhaluulosta, jonka mukaan useat osoitteet takaavat anonymiteetin. Ketjussa yksityisyyden suoja vuotaa osoitteiden uudelleenkäytöstä ja klusteroinnista, jossa transaktiot voidaan yhdistää toisiinsa ja paljastaa kuvioita käyttäjien taloudellisesta toiminnasta.
+reviewed: false

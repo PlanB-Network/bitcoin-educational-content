@@ -1,4 +1,4 @@
-question: W jaki sposób Lightning Network może być potencjalnie wykorzystywany do wynajmu towarów?
+question: W jaki sposób sieć Lightning może być potencjalnie wykorzystywana do wynajmu towarów?
 answer: Użytkownicy mogliby być rozliczani minutowo, a nawet sekundowo, za czas korzystania z towarów.
 wrong_answers:
   - Użytkownicy mogliby być obciążani wysokimi opłatami za wypożyczanie towarów.

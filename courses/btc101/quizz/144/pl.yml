@@ -1,8 +1,8 @@
-question: Co to jest Proof of Work (POW)?
-answer: Jest to konsensus bezpieczeństwa protokołu Bitcoin.
+question: Co to jest dowód pracy?
+answer: Konsensus bezpieczeństwa protokołu Bitcoin.
 wrong_answers:
-  - Jest to proces tworzenia nowych bitcoinów.
-  - Jest to metoda weryfikacji transakcji Bitcoin.
-  - Jest to algorytm używany do wydobywania bitcoinów.
+  - Proces tworzenia nowych bitcoinów.
+  - Metoda weryfikacji transakcji Bitcoin.
+  - Algorytm używany do wydobywania bitcoinów.
 explanation: >-
 reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - /etc/suluhisha
 explanation: |
   Kabla ya DNS kuenea, azimio la jina lilitegemea faili tuli /etc/hosts kwenye mifumo ya Unix/Linux.
-reviewed: false
+reviewed: true

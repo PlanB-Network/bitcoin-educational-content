@@ -1,0 +1,27 @@
+id: 1f17fb9b-0085-4d69-b0e9-f34dbe268207
+
+project_id: 5222b8d2-076e-45d4-92a1-d4e908d6686e
+
+tags:
+  - business
+  - adoption
+  - lightning
+
+category: point-of-sale
+
+level: beginner
+
+professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
+
+licence: CC-BY-SA-V4
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-11-24
+    urgency: 1
+    contributor_names:
+      - Pivii
+    reward: 1.08

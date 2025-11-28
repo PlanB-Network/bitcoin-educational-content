@@ -6,11 +6,11 @@ description: Imarisha usalama wako mtandaoni kwa Ledger
 
 
 
-Vifaa vya Ledger ni pochi za maunzi zilizoundwa awali ili kulinda Bitcoin Wallet, lakini pia zinaangazia chaguo za kina za uthibitishaji thabiti kwenye wavuti. Shukrani kwa upatanifu wao na itifaki za **U2F** na **FIDO2**, zinakuwezesha kupata ufikiaji salama wa akaunti zako za mtandaoni kwa kuweka kipengele cha pili cha uthibitishaji.
+Vifaa vya Ledger ni hardware wallets zilizoundwa awali ili kulinda Bitcoin Wallet, lakini pia zinaangazia chaguo za kina za uthibitishaji thabiti kwenye wavuti. Shukrani kwa upatanifu wao na protocol za **U2F** na **FIDO2**, zinakuwezesha kupata ufikiaji salama wa akaunti zako za mtandaoni kwa kuweka two factor authentication.
 
 
 
-Itifaki ya U2F (Universal 2nd Factor) ilianzishwa na Google na Yubico mwaka wa 2014, kisha kusanifishwa na Muungano wa FIDO. Huwezesha kipengele cha pili cha uthibitishaji halisi (2FA) kuongezwa wakati wa kuingia. Mara baada ya kuanzishwa, pamoja na nenosiri la kawaida, watumiaji lazima waidhinishe kila jaribio la kuunganisha kwenye akaunti yao kwa kubofya kitufe kwenye Ledger yao. Katika muktadha huu, Ledger inafanya kazi kwa njia sawa na Yubikey. U2F kwa hakika ni kipengele kidogo cha kiwango cha FIDO2, kinachokijumuisha huku ikileta maboresho makubwa, ikiwa ni pamoja na usaidizi asilia kwa vivinjari vya kisasa na unyumbufu mkubwa katika udhibiti wa ufunguo wa uthibitishaji.
+Protocol ya U2F (Universal 2nd Factor) ilianzishwa na Google na Yubico mwaka wa 2014, kisha kusanifishwa na Muungano wa FIDO. Huwezesha two factor authentication halisi (2FA) kuongezwa wakati wa kuingia. Mara baada ya kuanzishwa, pamoja na nenosiri la kawaida, watumiaji lazima waidhinishe kila jaribio la kuunganisha kwenye akaunti yao kwa kubofya kitufe kwenye Ledger yao. Katika muktadha huu, Ledger inafanya kazi kwa njia sawa na Yubikey. U2F kwa hakika ni kipengele kidogo cha kiwango cha FIDO2, kinachokijumuisha huku ikileta maboresho makubwa, ikiwa ni pamoja na usaidizi asilia kwa vivinjari vya kisasa na unyumbufu mkubwa katika udhibiti wa ufunguo wa uthibitishaji.
 
 
 
@@ -18,7 +18,7 @@ Mbinu hizi zinatokana na usimbaji fiche usiolinganishwa: hakuna data ya siri ina
 
 
 
-Katika somo hili, tutakuonyesha jinsi ya kuwezesha U2F na FIDO2 kwa uthibitishaji wa vipengele viwili na Ledger yako.
+Katika somo hili, tutakuonyesha jinsi ya kuwezesha U2F na FIDO2 kwa two factor authentication na Ledger yako.
 
 
 
@@ -74,7 +74,7 @@ Bofya kwenye programu ili kuiacha wazi kwa hatua zinazofuata kwenye mafunzo.
 
 
 
-Fikia akaunti unayotaka kulinda kwa uthibitishaji wa vipengele viwili. Kwa mfano, nitatumia akaunti ya Bitwarden. Kwa kawaida utapata chaguo la 2FA katika mipangilio ya huduma, chini ya vichupo vya "*uthibitishaji*", "*usalama*", "*ingia*" au "*nenosiri*".
+Fikia akaunti unayotaka kulinda kwa two factor authentication. Kwa mfano, nitatumia akaunti ya Bitwarden. Kwa kawaida utapata chaguo la 2FA katika mipangilio ya huduma, chini ya vichupo vya "*uthibitishaji*", "*usalama*", "*ingia*" au "*nenosiri*".
 
 
 
@@ -82,7 +82,7 @@ Fikia akaunti unayotaka kulinda kwa uthibitishaji wa vipengele viwili. Kwa mfano
 
 
 
-Katika sehemu inayotolewa kwa uthibitishaji wa vipengele viwili, chagua chaguo la "*Nenosiri*" (neno linaweza kutofautiana kulingana na tovuti unayotumia).
+Katika sehemu inayotolewa kwa two factor authentication, chagua chaguo la "*Nenosiri*" (neno linaweza kutofautiana kulingana na tovuti unayotumia).
 
 
 
@@ -146,7 +146,7 @@ Kisha unaweza kubofya kitufe cha "*Ingia*" kwenye onyesho lako la Ledger ili kut
 
 
 
-Faida ya kutumia Hardware Wallet Ledger kwa uthibitishaji wa vipengele viwili ni kwamba unaweza kurejesha funguo zako kwa urahisi kutokana na maneno ya Mnemonic. Kando na hifadhi hii ya msingi, unaweza pia kutumia msimbo wa dharura unaotolewa na kila huduma ambapo umewasha 2FA. Nambari hii ya kuthibitisha dharura hukuwezesha kuunganisha kwenye akaunti yako ukipoteza ufunguo wako wa usalama. Kwa hivyo inachukua nafasi ya 2FA kwa unganisho ikiwa ni lazima.
+Faida ya kutumia Hardware Wallet Ledger kwa two factor authentication ni kwamba unaweza kurejesha funguo zako kwa urahisi kutokana na maneno ya Mnemonic. Kando na hifadhi hii ya msingi, unaweza pia kutumia msimbo wa dharura unaotolewa na kila huduma ambapo umewasha 2FA. Nambari hii ya kuthibitisha dharura hukuwezesha kuunganisha kwenye akaunti yako ukipoteza ufunguo wako wa usalama. Kwa hivyo inachukua nafasi ya 2FA kwa unganisho ikiwa ni lazima.
 
 
 

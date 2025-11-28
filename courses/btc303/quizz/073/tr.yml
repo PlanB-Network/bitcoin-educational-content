@@ -1,0 +1,9 @@
+question: Bitcoin Core'un sorumlu ifşa uygulamalarına göre, bir düzeltme dağıtıldıktan sonra güvenlik açığı ayrıntıları ne zaman kamuya açıklanmalıdır?
+answer: Bitcoin düğümlerinin %80'inden fazlası düzeltmeleri dağıttıktan sonra
+wrong_answers:
+  - Yanlış güvenlik varsayımlarını önlemek için yama yayınlandıktan hemen sonra
+  - Tüm büyük altcoinler bilgilendirildikten ve uygulamalarını güncelledikten sonra
+  - Görevlendirme durumuna bakılmaksızın standart 90 günlük ambargo süresinden sonra
+explanation: |
+  Bitcoin Core, sabit bir zaman dilimi yerine dağıtım tabanlı bir ifşa zaman çizelgesini takip eder. 80 eşiği, ağın büyük çoğunluğunun saldırganlar güvenlik açığını kamuya açık hale getirmeden önce korunmasını sağlar. Bu yaklaşım, ağ güvenliğini keyfi zaman çizelgelerine göre önceliklendirir, çünkü erken açıklama düğümlerin geri kalan %20'sini hedefli saldırılara maruz bırakabilir. Diğer seçenekler geleneksel yazılım güvenliğindeki yaygın uygulamaları temsil eder ancak Bitcoin'nin kullanıcıların düğümlerini gönüllü olarak yükseltmeleri gereken merkezi olmayan yapısını hesaba katmaz.
+reviewed: false

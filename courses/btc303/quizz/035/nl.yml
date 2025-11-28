@@ -1,0 +1,9 @@
+question: Wat is de wiskundige kansformule voor een oneerlijke miner met een hashpercentage van x procent om met succes fee sniping uit te voeren door re-mining van het vorige blok plus een nieuw blok?
+answer: (x/(1-x))^2
+wrong_answers:
+  - x^2/(1-x)
+  - (1-x)^2/x
+  - x/(1-x)^2
+explanation: |
+  De juiste formule is (x/(1-x))^2 omdat voor fee-sniping een miner met succes twee opeenvolgende blokken moet delven om het vorige blok te vervangen en de keten uit te breiden. De waarschijnlijkheid van mining één blok tegen eerlijke mijnwerkers is x/(1-x), en omdat twee blokken opeenvolgend gemijnd moeten worden, is deze waarschijnlijkheid gekwadrateerd. De andere formules zijn wiskundig plausibel, maar vertegenwoordigen verschillende waarschijnlijkheidsscenario's die niet overeenkomen met de specifieke vereisten van fee sniping, waar de oneerlijke miner het eerlijke netwerk twee keer na elkaar moet overwinnen.
+reviewed: false

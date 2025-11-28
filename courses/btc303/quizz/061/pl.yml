@@ -6,3 +6,4 @@ wrong_answers:
   - Użytkownicy muszą polegać na podpisach kryptograficznych zaufanych deweloperów, aby zweryfikować zachowanie oprogramowania
 explanation: |
   Rozdział ten wyraźnie stwierdza, że aby użytkownicy mogli zweryfikować, czy oprogramowanie Bitcoin "działa zgodnie z reklamą", muszą mieć nieograniczony dostęp do kodu źródłowego. Łączy się to bezpośrednio z zasadą "Nie ufaj, weryfikuj" i wymogiem definicji open source dotyczącym dostępności kodu źródłowego. Złe odpowiedzi są sprzeczne z podstawowymi zasadami open source: wymaganie pozwolenia narusza zasadę wolnego dostępu, uiszczanie opłat jest sprzeczne z wymogiem bezpłatnej dystrybucji, a poleganie wyłącznie na podpisach podważa możliwość weryfikacji poprzez inspekcję, którą zapewnia open source.
+reviewed: false

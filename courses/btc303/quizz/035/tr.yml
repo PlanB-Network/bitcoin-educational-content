@@ -6,3 +6,4 @@ wrong_answers:
   - x/(1-x)^2
 explanation: |
   Doğru formül (x/(1-x))^2'dir çünkü ücretli sniping, bir madencinin bir önceki bloğu değiştirmek ve zinciri uzatmak için art arda iki bloğu başarıyla kazmasını gerektirir. Dürüst madencilere karşı bir blok mining olasılığı x/(1-x)'tir ve iki bloğun art arda çıkarılması gerektiğinden bu olasılığın karesi alınır. Diğer formüller matematiksel olarak akla yatkındır ancak dürüst olmayan madencinin dürüst ağı art arda iki kez aşması gereken ücret snipinginin özel gerekliliklerine uymayan farklı olasılık senaryolarını temsil eder.
+reviewed: false

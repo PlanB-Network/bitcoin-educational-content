@@ -22,11 +22,10 @@ proofreading:
     urgency: 1
     contributor_names:
       - marshal-opsource
-    reward: 0
+    reward: 1.36
   - language: en
     last_contribution_date: 2025-11-19
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0
- 
+    reward: 1.36

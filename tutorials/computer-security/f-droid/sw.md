@@ -7,7 +7,7 @@ description: Katalogi ya programu huria na huria.
 
 
 
-Katika enzi ya kidijitali, mashirika makubwa na taasisi zinafanya kazi ili kufanya Mtandao kuwa wa kati zaidi, kuweka udhibiti wake mikononi mwao wenyewe, na hivyo kuzuia faragha na uhuru wa watumiaji wote. Hii sio utopia, tayari inafanyika. Kama bitcoiner, ugatuaji, kuheshimu faragha na uhuru wa mtu binafsi ni kanuni ambazo unaziheshimu, hasa katika zana unazotumia kila siku. Android, tofauti na iOS, kwa miaka mingi imeruhusu maduka kadhaa ya programu kuwepo ndani ya mfumo wake wa ikolojia, kukupa uhuru wa kupata na kusakinisha programu kutoka kwa vyanzo unavyovipenda.
+Katika enzi ya kidijitali, mashirika makubwa na taasisi zinafanya kazi kufanya Mtandao kuwa wa kati zaidi, kuweka udhibiti mikononi mwao wenyewe, na hivyo kuzuia faragha na uhuru wa watumiaji wote. Hii si utopia, tayari inafanyika. Kama bitcoiner, ugatuaji, kuheshimu faragha na uhuru wa mtu binafsi ni kanuni unazoziheshimu, hasa katika zana unazotumia kila siku. Android, tofauti na iOS, kwa miaka mingi imeruhusu maduka kadhaa ya programu kuwepo ndani ya mfumo wake wa ikolojia, kukupa uhuru wa kupata na kusakinisha programu kutoka kwa vyanzo unavyovipenda.
 
 
 
@@ -113,7 +113,7 @@ Toa haki za usakinishaji wa F-Droid kwa kuwezesha chaguo katika mipangilio yako.
 
 
 
-## Exchange maombi yako
+## Badilisha maombi yako
 
 
 
@@ -140,7 +140,7 @@ Kwa chaguo hili, unaweza kushiriki na kupokea programu zilizosakinishwa kwenye s
 
 
 
-Katika kichupo cha **Sasisha**, angalia orodha ya masasisho yanayopatikana, na uhakikishe pia kusoma maelezo kuhusu matoleo mapya ya kila programu ili kujua kuhusu mabadiliko yoyote makubwa kwenye toleo unalotumia.
+Katika kichupo cha **Update**, angalia orodha ya masasisho yanayopatikana, na uhakikishe pia kusoma maelezo kuhusu matoleo mapya ya kila programu ili kujua kuhusu mabadiliko yoyote makubwa kwenye toleo unalotumia.
 
 
 
@@ -156,7 +156,7 @@ Unaweza pia kusasisha orodha ya programu zinazopatikana kwa kuonyesha upya ukura
 
 
 
-F-Droid ni mradi wa Open Source ambao unahimiza michango kwa programu zinazotanguliza ufaragha wa mtumiaji. Unaweza kuongeza programu yako ya simu ya mkononi ya Android kwenye duka kupitia michango kwenye msimbo wa chanzo wa F-Droid GitLab.
+F-Droid ni mradi wa msimbo huria unaohimiza michango kwa programu zinazoweka kipaumbele faragha ya mtumiaji. Unaweza kuongeza programu yako ya Android kwenye duka hilo kwa kuchangia kupitia msimbo wa chanzo wa F-Droid kwenye GitLab.
 
 
 
@@ -175,11 +175,11 @@ Katika sehemu ya **Wasanidi** ya [hati](https://f-droid.org/en/docs/), utapata n
 
 
 
-Kuweka programu kwenye chanzo wazi mara nyingi ni sawa na kuongezeka kwa usalama, lakini pia kwa hatari kubwa. Unawezaje kuhakikisha kuwa hakuna mabadiliko hasidi katika msimbo wa chanzo wa programu inayopatikana kwenye F-Droid?
+Kuweka programu kwenye chanzo wazi mara nyingi huongeza usalama, lakini pia huleta hatari kubwa. Unawezaje kuhakikisha kuwa hakuna mabadiliko hasidi katika msimbo wa chanzo wa programu inayopatikana kwenye F-Droid?
 
 
 
-F-Droid hukusanya programu kwenye seva zao wenyewe, kulingana na msimbo rasmi wa chanzo na maagizo ya ujumuishaji. Kila programu iliyochapishwa hujengwa upya na kuthibitishwa ili kuhakikisha kuwa haijaathiriwa. Hii inahakikisha kwamba APK inayotolewa ni mwaminifu kwa msimbo wa chanzo uliochapishwa na wasanidi programu. Zaidi ya hayo, kila programu iliyosakinishwa kupitia F-Droid imetiwa sahihi kidijitali, kisha alama ya vidole vya sahihi inalinganishwa na ile iliyotangazwa na wasanidi programu kwenye tovuti rasmi au kwenye hazina ya Git.
+F-Droid hukusanya programu kwenye server zao wenyewe, kulingana na msimbo rasmi wa chanzo na maagizo ya ujumuishaji. Kila programu iliyochapishwa hujengwa upya na kuthibitishwa ili kuhakikisha kuwa haijaathiriwa. Hii inahakikisha kwamba APK inayotolewa ni mwaminifu kwa msimbo wa chanzo uliochapishwa na wasanidi programu. Zaidi ya hayo, kila programu iliyosakinishwa kupitia F-Droid imetiwa sahihi kidijitali, kisha alama ya vidole vya sahihi inalinganishwa na ile iliyotangazwa na wasanidi programu kwenye tovuti rasmi au kwenye hazina ya Git.
 
 
 

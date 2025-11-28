@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin Core-utvecklarna begärde ett alternativ för att minska sitt ansvar för uppgraderingar
 explanation: |
   Enligt kapitlet, när Segwit-aktiveringskoden släpptes i oktober 2016, fanns det ett överväldigande stöd bland Bitcoin-användare, men gruvarbetare signalerade inte stöd för uppgraderingen, vilket stoppade aktiveringen utan någon lösning i sikte. Detta skapade behovet av en alternativ mekanism som inte förlitade sig på gruvsignalering, vilket ledde Shaolinfry att föreslå UASF som en lösning som skulle använda ekonomisk majoritetsverkställighet istället för hashkraftaktivering.
+reviewed: false

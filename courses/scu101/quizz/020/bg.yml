@@ -1,0 +1,9 @@
+question: Каква е вградената антивирусна програма в Windows?
+answer: Защитник на Windows
+wrong_answers:
+  - Kaspersky
+  - Norton
+  - McAfee
+explanation: |
+  Windows Defender е вградена антивирусна програма за Windows. Тя е сигурно и ефективно решение за защита на системата от заплахи.
+reviewed: true

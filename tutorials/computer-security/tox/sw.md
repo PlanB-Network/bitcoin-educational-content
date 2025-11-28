@@ -1,6 +1,6 @@
 ---
 name: Tox
-description: Fungua mazungumzo bila waamuzi kwenye itifaki ya Tox iliyogatuliwa
+description: Fungua mazungumzo bila waamuzi kwenye protocol ya Tox iliyogatuliwa
 ---
 ![cover](assets/cover.webp)
 
@@ -38,11 +38,11 @@ Usimbaji fiche kutoka mwisho hadi mwisho ni huduma inayotolewa na programu nying
 
 
 
-Tox ni itifaki ya mawasiliano isiyolipishwa (chanzo huria), iliyogatuliwa ambayo hutumia teknolojia ya *Networking and Cryptography Library* (NaCl) pamoja na mchanganyiko wa algoriti za usimbaji fiche ili kuhakikisha usalama na usiri wa watumiaji wake. Tox hukuruhusu kutuma SMS za Exchange, kupiga simu za sauti na video, kushiriki faili na kushiriki skrini yako na marafiki kwa usalama, kugawanywa na bila wapatanishi.
+Tox ni protocol ya mawasiliano isiyolipishwa (chanzo huria), iliyogatuliwa ambayo hutumia teknolojia ya *Networking and Cryptography Library* (NaCl) pamoja na mchanganyiko wa algoriti za usimbaji fiche ili kuhakikisha usalama na usiri wa watumiaji wake. Tox hukuruhusu kutuma SMS za Exchange, kupiga simu za sauti na video, kushiriki faili na kushiriki skrini yako na marafiki kwa usalama, kugawanywa na bila wapatanishi.
 
 
 
-Teknolojia ambayo itifaki ya Tox hutumia ni sawa na mitandao ya rika-kwa-rika kama vile blockchains, ambayo inapendelea ugatuaji wa miundombinu ya itifaki. Tofauti na mitandao ya kijamii na programu za utumaji ujumbe zilizosimbwa kutoka mwanzo hadi mwisho, programu ya Tox Chat imeundwa kwa itifaki iliyogatuliwa ambayo haina seva kuu. Watumiaji wote huwasiliana katika mtandao usio na mpatanishi, unaostahimili udhibiti wa rika-kwa-rika. Ili kuwasiliana, kila mtumiaji anatambuliwa na kitambulisho cha kipekee (ToxID) kinachotokana na ufunguo wake wa umma, ambacho kinahifadhiwa kwenye jedwali la Hash lililosambazwa.
+Teknolojia ambayo protocol ya Tox hutumia ni sawa na mitandao ya rika-kwa-rika kama vile blockchains, ambayo inapendelea ugatuaji wa miundombinu ya protocol. Tofauti na mitandao ya kijamii na programu za utumaji ujumbe zilizosimbwa kutoka mwanzo hadi mwisho, programu ya Tox Chat imeundwa kwa itifaki iliyogatuliwa ambayo haina seva kuu. Watumiaji wote huwasiliana katika mtandao usio na mpatanishi, unaostahimili udhibiti wa rika-kwa-rika. Ili kuwasiliana, kila mtumiaji anatambuliwa na kitambulisho cha kipekee (ToxID) kinachotokana na ufunguo wake wa umma, ambacho kinahifadhiwa kwenye jedwali la Hash lililosambazwa.
 
 
 
@@ -50,7 +50,7 @@ Teknolojia ambayo itifaki ya Tox hutumia ni sawa na mitandao ya rika-kwa-rika ka
 
 
 
-Unaweza kutumia itifaki ya Tox kupitia mteja wa ujumbe wa papo hapo ambao unaweza kupakua kutoka kwa [Tox Chat site](https://tox.chat).
+Unaweza kutumia protocol ya Tox kupitia mteja wa ujumbe wa papo hapo ambao unaweza kupakua kutoka kwa [Tox Chat site](https://tox.chat).
 
 
 
@@ -108,7 +108,7 @@ Mara baada ya kupakuliwa, sakinisha mteja wako wa Tox na uunde wasifu wako.
 
 
 
-Hongera, umejiunga na itifaki ya Tox. Kwenye programu ya qTox, unaweza kupata maelezo ya wasifu wako kwa kubofya jina lako la mtumiaji.
+Hongera, umejiunga na protocol ya Tox. Kwenye programu ya qTox, unaweza kupata maelezo ya wasifu wako kwa kubofya jina lako la mtumiaji.
 
 
 
@@ -128,7 +128,7 @@ Hamisha faili yako ya wasifu wa Tox ili uwe na nakala ya wasifu wako na maelezo 
 
 
 
-Kutoka kwa menyu ya **Zaidi**, ongeza marafiki, leta anwani na udhibiti maombi ya urafiki unayopokea.
+Kutoka kwa menyu ya **Zaidi**, ongeza marafiki, leta address na udhibiti maombi ya urafiki unayopokea.
 
 
 
@@ -292,7 +292,7 @@ Katika menyu ya **Mipangilio**, unaweza kubinafsisha mipangilio ya mteja wako wa
 
 
 
-Itifaki ya Tox hutumia Jedwali la Hash Iliyosambazwa kuunda mtandao wa nodi zilizogatuliwa. Kila mteja wa Tox ni sehemu ya mtandao wa DHT na huhifadhi taarifa kuhusu nodi nyingine. Kwa upande wa Tox, DHT huhifadhi anwani za IP kama thamani zinazohusiana na funguo za umma za Tox (Tox ID). Hii hurahisisha kutafuta kifaa cha Tox Client bila kuuliza seva kuu.
+protocol ya Tox hutumia Jedwali la Hash Iliyosambazwa kuunda mtandao wa nodi zilizogatuliwa. Kila mteja wa Tox ni sehemu ya mtandao wa DHT na huhifadhi taarifa kuhusu nodi nyingine. Kwa upande wa Tox, DHT huhifadhi IP address kama thamani zinazohusiana na funguo za umma za Tox (Tox ID). Hii hurahisisha kutafuta kifaa cha Tox Client bila kuuliza seva kuu.
 
 
 
@@ -300,7 +300,7 @@ Hebu fikiria kumwandikia mtumiaji wetu `EBC5604D9386E594CCC32943A03F96A96687FBD4
 
 
 
-Ikiwa umefurahia kugundua Tox na umeweza kuelewa jinsi inavyofaa katika kuimarisha faragha yako, tafadhali jisikie huru kutoa mafunzo haya dole gumba. Tunapendekeza pia mafunzo yetu kuhusu Kuingia kwa Rahisi, zana ambayo hukuruhusu kupokea na kutuma barua pepe bila kujulikana.
+Ikiwa umefurahia kugundua Tox na kuelewa jinsi inavyosaidia kuimarisha faragha yako, jisikie huru kushiriki mafunzo haya. Tunapendekeza pia mafunzo yetu kuhusu Kuingia kwa Rahisi, zana inayokuwezesha kupokea na kutuma barua pepe bila kujulikana.
 
 
 

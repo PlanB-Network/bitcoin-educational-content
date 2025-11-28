@@ -6,3 +6,4 @@ wrong_answers:
   - Users must rely on cryptographic signatures from trusted developers to validate the software behavior
 explanation: |
   The chapter explicitly states that for users to verify Bitcoin software 'works as advertised,' they must have unrestricted access to the source code. This connects directly to the 'Don't Trust, Verify' principle and the open source definition's requirement for source code availability. The wrong answers contradict core open source principles: requiring permission violates the free access principle, paying fees contradicts the no-cost distribution requirement, and relying solely on signatures undermines the verification-through-inspection capability that open source provides.
+reviewed: false

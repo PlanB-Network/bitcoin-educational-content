@@ -6,3 +6,4 @@ wrong_answers:
   - Nesprávný harmonogram emise mincí porušující protokol
 explanation: |
   Ačkoli full node může ověřit, zda bloky dodržují pravidla konsensu, zabránit vydávání neplatných mincí a odhalit porušení protokolu, nemůže zabránit přepisování řetězce, kdy těžaři reorganizují blockchain za účelem dvojího utrácení transakcí. Kapitola výslovně uvádí, že bez ohledu na to, jak pokročilý je váš software, musíte stále věřit, že bloky obsahující vaše mince nebudou přepsány. Proto se obranný mechanismus Bitcoin spoléhá na čekání na vícenásobné potvrzení, aby se pravděpodobnost přepsání řetězce snížila na přijatelnou úroveň.
+reviewed: false

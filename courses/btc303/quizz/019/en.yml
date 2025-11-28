@@ -6,3 +6,4 @@ wrong_answers:
   - "Pseudonymous systems hide transaction amounts while anonymous systems only hide the sender's identity"
 explanation: |
   Bitcoin is pseudonymous, not anonymous, because all transactions between addresses (pseudonyms) are traceable on the blockchain. In a truly anonymous system, there would be no trace of where money came from or where it's going, which could theoretically be achieved through zero-knowledge proofs. However, Bitcoin's transparency allows anyone to follow the flow of bitcoins between different addresses, making it pseudonymous rather than anonymous. The pseudonyms in Bitcoin are addresses derived from public keys, not arbitrary usernames or real identities.
+reviewed: false

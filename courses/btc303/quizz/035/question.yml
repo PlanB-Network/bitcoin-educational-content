@@ -10,7 +10,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 0.1
+    reward: 0.11
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -55,7 +55,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.28
+    reward: 0.29
   - language: it
     last_contribution_date:
     urgency: 1
@@ -70,7 +70,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.28
+    reward: 0.29
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -120,7 +120,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.28
+    reward: 0.29
   - language: vi
     last_contribution_date:
     urgency: 1
@@ -130,9 +130,9 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.28
+    reward: 0.29
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.28
+    reward: 0.29

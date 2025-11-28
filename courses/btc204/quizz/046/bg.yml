@@ -1,0 +1,9 @@
+question: Кой алгоритъм за обмен на криптографски ключове е в основата на работата на BIP47?
+answer: ECDH
+wrong_answers:
+  - RSA
+  - ElGamal
+  - Diffie-Hellman
+explanation: |
+  Използваният алгоритъм е ECDH (Elliptic Curve Diffie-Hellman). Това е вариант на класическия алгоритъм на Дифи-Хелман, който използва елиптични криви.
+reviewed: true

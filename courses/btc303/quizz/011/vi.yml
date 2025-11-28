@@ -6,3 +6,4 @@ wrong_answers:
   - Một hệ thống mà các giao dịch không thể bị đảo ngược hoặc tranh chấp bởi bất kỳ ai
 explanation: |
   Trustless đề cập cụ thể đến một đặc tính kỹ thuật cho phép một hệ thống phân tán có thể hoạt động chính xác mà không cần bất kỳ bên thứ ba đáng tin cậy nào. Điều này khác với việc loại bỏ hoàn toàn sự tin cậy (bạn vẫn tin tưởng phần mềm/phần cứng của mình) hoặc ngăn chặn việc đảo ngược (các giao dịch Bitcoin có thể được đảo ngược thông qua việc viết lại chuỗi). Thuật ngữ này cũng không có nghĩa là người dùng không thể tin tưởng người tham gia - mà đúng hơn, tính chính xác của hệ thống không phụ thuộc vào việc tin tưởng họ.
+reviewed: false

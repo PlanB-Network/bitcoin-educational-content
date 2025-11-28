@@ -1,0 +1,9 @@
+question: Кои са четирите компонента, които определят договора RGB?
+answer: Genesis, Schema, Interface и Interface Implementation
+wrong_answers:
+  - Genesis, Schema, Преход и Interface Implementation
+  - Genesis, Interface, Преход и разширение
+  - Genesis, Interface, Interface Implementation и разширение
+explanation: |
+  Договор RGB се състои от четири отделни елемента: Genesis, Schema, Interface и Interface Implementation.
+reviewed: false

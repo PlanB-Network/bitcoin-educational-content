@@ -6,3 +6,4 @@ wrong_answers:
   - Den obfuskerte koden må gjøres tilgjengelig gjennom en separat nedlasting med reproduksjonskostnader
 explanation: |
   Definisjonen av åpen kildekode sier eksplisitt at "bevisst tilslørt kildekode er ikke tillatt" Dette er et grunnleggende krav fordi tilsløring hindrer meningsfull granskning, modifisering og forståelse av koden, noe som motvirker kjerneformålet med åpen kildekode. Kildekoden må være i "den foretrukne formen som en programmerer ville modifisere programmet i", noe som gjør tilsløring uforenlig med prinsippene for åpen kildekode, uavhengig av dokumentasjon eller distribusjonsmetoder.
+reviewed: false

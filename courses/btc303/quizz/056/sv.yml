@@ -6,3 +6,4 @@ wrong_answers:
   - Härledda verk måste innehålla det ursprungliga Bitcoin Core-varumärket och får inte döpas om eller ommärkas
 explanation: |
   MIT-licensen kräver att härledda verk distribueras under samma licensvillkor som den ursprungliga programvaran, vilket säkerställer att öppen källkod bevaras. Detta förbjuder inte kommersiell försäljning (fel svar 1), kräver inte tillstånd från utvecklare (fel svar 2) och kräver inte att originalvarumärket behålls (fel svar 3). Licensen anger specifikt att modifieringar och härledda verk måste tillåtas enligt samma villkor, vilket upprätthåller den tillståndslösa utvecklingsmodellen som möjliggör innovation som Lightning Network och sidechains.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Dezentralisierung der Benutzer und Dezentralisierung der Entwickler
 explanation: |
   Die Dezentralisierung von Bitcoin hat zwei Schlüsselkomponenten: Dezentralisierung der Miner und full node Dezentralisierung. Miner Dezentralisierung bedeutet, dass die Transaktionsverarbeitung und -bestellung nicht von einer einzelnen Einheit kontrolliert wird, sondern von einem dynamischen Kollektiv von Minern, die sich frei anschließen oder austreten können. Full node-Dezentralisierung bedeutet, dass die Validierung von Blöcken am Rande des Netzwerks von den Nutzern selbst und nicht von vertrauenswürdigen Behörden durchgeführt wird. Diese beiden Aspekte arbeiten zusammen, um Zensurresistenz zu erreichen - Miner verhindern zentralisierte Transaktionsanordnungen, während vollständige Knoten eine vertrauenslose Validierung der Blockchain gewährleisten.
+reviewed: false

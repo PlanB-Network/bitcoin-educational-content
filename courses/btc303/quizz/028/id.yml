@@ -6,3 +6,4 @@ wrong_answers:
   - Penambang akan menghentikan mining sepenuhnya karena biaya transaksi saja tidak dapat menutupi biaya listrik
 explanation: |
   Fee sniping terjadi ketika penambang mencoba untuk menambang kembali blok sebelumnya yang berisi transaksi berbiaya tinggi daripada memperpanjang rantai secara jujur. Hal ini menjadi rasional secara ekonomi ketika biaya di blok sebelumnya secara signifikan melebihi biaya di mempool saat ini. Walaupun probabilitas keberhasilannya lebih rendah daripada mining yang jujur, potensi upahnya bisa jauh lebih tinggi. Perilaku ini sangat mengkhawatirkan karena dapat menciptakan efek berjenjang di mana lebih banyak penambang yang terlibat dalam praktik yang tidak jujur, yang pada akhirnya mengancam model keamanan Bitcoin ketika subsidi blok berkurang.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Trustless ve güvenilir sistemler bağımsız olarak çalışmalıdır ve birbirlerinin üzerine katmanlanamazlar
 explanation: |
   Matt Corallo'nun temel görüşü, Bitcoin'nin güvensiz temel katmanının sistem tasarımında esneklik sağlamasıdır. Bitcoin'nin protokolü gibi güvensiz bir temel, geliştiricilerin temel güvenlik garantilerini korurken daha yüksek katmanlarda güvenilir hizmetler (emanet cüzdanları gibi) oluşturmasına olanak tanır. Ancak, bunun tersi mümkün değildir - temelin kendisi güven gerektiriyorsa gerçekten güvensiz sistemler yaratamazsınız, çünkü herhangi bir güvensiz özellik, güvenilir temel katmanın güvenlik açıkları tarafından zayıflatılacaktır.
+reviewed: false

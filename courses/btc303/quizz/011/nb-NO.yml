@@ -6,3 +6,4 @@ wrong_answers:
   - Et system der transaksjoner ikke kan reverseres eller bestrides av noen
 explanation: |
   Trustless refererer spesifikt til en teknisk egenskap der et distribuert system kan fungere korrekt uten å kreve noen betrodde parter. Dette er noe annet enn å eliminere all tillit (du stoler fortsatt på programvaren/maskinvaren din) eller å forhindre reversering (Bitcoin-transaksjoner kan reverseres gjennom omskriving av kjeden). Begrepet betyr heller ikke at brukerne ikke kan stole på deltakerne - men at systemets korrekthet ikke er avhengig av at man stoler på dem.
+reviewed: false

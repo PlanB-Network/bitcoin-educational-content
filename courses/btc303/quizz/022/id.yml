@@ -6,3 +6,4 @@ wrong_answers:
   - Kemacetan jaringan dan sentralisasi mining
 explanation: |
   Pada bagian 7 dari whitepaper Bitcoin, Satoshi Nakamoto mengidentifikasi penggunaan ulang alamat dan pengelompokan alamat sebagai masalah privasi blockchain yang utama. Penggunaan ulang Address terjadi ketika alamat yang sama digunakan beberapa kali, membuatnya mudah untuk menghubungkan transaksi ke pengguna yang sama. Pengelompokan Address mengacu pada kemampuan untuk menentukan bahwa alamat yang berbeda adalah milik pemilik yang sama, terutama melalui transaksi multi-input yang mengungkapkan bahwa semua input dikontrol oleh orang yang sama. Opsi lainnya adalah tantangan teknis atau operasional dalam Bitcoin tetapi bukan merupakan masalah privasi yang secara khusus dibahas oleh Satoshi dalam laporan resmi.
+reviewed: false

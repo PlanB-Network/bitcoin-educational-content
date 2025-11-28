@@ -6,3 +6,4 @@ wrong_answers:
   - Sokea allekirjoitusjärjestelmä, jossa on luotettava keskusosapuoli kaksinkertaisen rahankäytön estämiseksi
 explanation: |
   Satoshi Nakamoto ehdotti erityisesti Bitcoin:n valkoisessa kirjassa mainitun "vertaisverkkoon hajautetun aikaleimapalvelimen käyttöä generate transaktioiden aikajärjestyksen laskennalliseen todistamiseen". Avainsana on "hajautettu", mikä tarkoittaa, ettei keskitettyä hallintapistettä ole. Väärät vastaukset edustavat aiempia epäonnistuneita digitaalisen rahan kokeiluja, jotka perustuivat keskitettyihin tai puoliksi keskitettyihin lähestymistapoihin, mikä teki niistä alttiita sensuurille ja epäonnistumiselle - juuri niitä ongelmia, jotka Bitcoin:n oli tarkoitus ratkaista aidon hajauttamisen avulla.
+reviewed: false

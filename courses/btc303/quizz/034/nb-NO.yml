@@ -6,3 +6,4 @@ wrong_answers:
   - "Bitcoin-protokollen låser automatisk mynter som ikke har beveget seg i lengre perioder for å forhindre inflasjon"
 explanation: |
   Kapitlet forklarer at selv om det teoretiske maksimumet er ca. 20 999 817 BTC, er den faktiske anvendelige forsyningen mye lavere på grunn av menneskelige feil og tap. Tapte private nøkler gjør bitcoins permanent utilgjengelige, lommebøker blir stjålet eller glemt, og mynter blir noen ganger sendt til ugyldige adresser. Disse faktorene skaper en permanent reduksjon i tilbudet som kommer de gjenværende innehaverne til gode, ettersom Satoshi bemerket at tapte mynter gjør alle andres mynter mer verdt.
+reviewed: false

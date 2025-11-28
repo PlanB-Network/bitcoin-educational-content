@@ -6,3 +6,4 @@ wrong_answers:
   - Verkkomaksujen nopeusongelma
 explanation: |
   Bitcoin:n läpimurto oli double-spending:n ongelman ratkaiseminen ilman keskusviranomaista. double-spending -ongelma on haaste, joka liittyy siihen, miten estetään ketään käyttämästä samaa digitaalista kolikkoa kahdesti. Aiemmat digitaaliset valuutat epäonnistuivat, koska ne perustuivat keskuspalvelimiin tai luotettuihin viranomaisiin, mikä teki niistä alttiita sensuurille ja yksittäisille vikapisteille. Bitcoin ratkaisi tämän ongelman proof-of-work:n avulla vertaisverkkoon hajautetulla aikaleimapalvelimella, jonka avulla verkko voi sopia transaktioiden järjestyksestä ilman keskusvalvontaa.
+reviewed: false

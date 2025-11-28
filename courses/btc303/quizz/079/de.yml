@@ -6,3 +6,4 @@ wrong_answers:
   - Vermeidung rechtlicher Haftungsprobleme, die sich aus einer verfrühten Offenlegung von Projekten Dritter ergeben könnten
 explanation: |
   Die Zeitstrategie spiegelt einen Ansatz wider, bei dem die Sicherheit an erster Stelle steht und das Netzwerk von Bitcoin geschützt werden muss, bevor anderen geholfen wird. Wenn Altcoins gleichzeitig benachrichtigt würden, könnten Angreifer Altcoin-Implementierungen studieren oder ausnutzen, um die Schwachstelle zu verstehen, und dann möglicherweise Bitcoin-Knoten angreifen, die noch nicht aufgerüstet haben. Der sequenzielle Ansatz stellt sicher, dass Bitcoin weitreichend geschützt wird, bevor die Hilfe auf andere Netzwerke ausgeweitet wird, wodurch das Zeitfenster für die Ausnutzung der Schwachstelle im gesamten Ökosystem minimiert wird.
+reviewed: false

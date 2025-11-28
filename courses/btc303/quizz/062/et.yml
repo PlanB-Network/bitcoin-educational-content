@@ -6,3 +6,4 @@ wrong_answers:
   - Tuletatud teoseid võib levitada ainult litsentside alusel, mis nõuavad autoritasu maksmist
 explanation: |
   Avatud lähtekoodi määratluses on sõnaselgelt sätestatud, et "litsents peab lubama muudatusi ja tuletatud teoseid ning neid peab lubama levitada samadel tingimustel kui algse tarkvara litsentsi alusel" See tagab, et tuletatud tööd säilitavad samad vabadused kui originaal, takistades kellelgi võtta avatud lähtekoodi ja muuta see omandivabaks. Teised võimalused rikuvad seda aluspõhimõtet, kuna nad kas piiravad vabadust või muudavad litsentside ühilduvust.
+reviewed: false

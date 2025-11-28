@@ -6,3 +6,4 @@ wrong_answers:
   - Den är juridiskt skyddad av MIT-licensen som den enda auktoritativa källan till Bitcoin-koden
 explanation: |
   Som Jameson Lopp förklarar är Bitcoin Core's GitHub-arkiv tekniskt identiskt med tusentals andra kopior över hela världen, men har blivit den socialt accepterade samlingspunkten för utvecklingssamordning. Den har inga speciella tekniska funktioner, kryptografiska autentiseringsmekanismer eller juridiska skydd som gör den överlägsen. MIT-licensen säkerställer faktiskt att vem som helst fritt kan kopiera och distribuera koden vidare. Om detta arkiv försvann skulle gemenskapen helt enkelt etablera en ny samlingspunkt någon annanstans, vilket skulle visa att dess betydelse är en social konvention snarare än en teknisk nödvändighet.
+reviewed: false

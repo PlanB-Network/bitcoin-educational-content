@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Si vous vous trouvez dans l'obligation de consolider vos bitcoins, privilégiez d'abord la consolidation d'UTXOs provenant d'une même source.
 
-reviewed: false
+reviewed: true 

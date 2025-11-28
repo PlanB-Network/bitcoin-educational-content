@@ -6,3 +6,4 @@ wrong_answers:
   - Päivitys aiheutti pysyvän ketjun jakautumisen, koska louhijat ja käyttäjät olivat eri mieltä toteutuksen yksityiskohdista
 explanation: |
   BIP66-tapaus paljasti kriittisen puutteen louhijoiden aktivoimissa pehmeissä haarukoissa: valmiuden ilmoittaminen ei takaa todellista validointia. Vaikka 95 prosenttia louhijoista ilmoitti olevansa valmiita päivitykseen, noin puolet ei validoinut uusia sääntöjä kunnolla ja louhi virheellisesti epäkelpoa lohkoa. Tämä osoitti, että hash-tehon signalointi voi olla harhaanjohtavaa eikä takaa asianmukaista täytäntöönpanoa, mikä oli yksi Shaolinfryn tärkeimmistä argumenteista, joiden perusteella hän ehdotti käyttäjäaktivoituja Soft-haaroja luotettavammaksi päivitysmekanismiksi.
+reviewed: false

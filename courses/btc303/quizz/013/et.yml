@@ -6,3 +6,4 @@ wrong_answers:
   - Trustless ja usaldusväärsed süsteemid peavad toimima sõltumatult ja neid ei saa üksteise peale panna
 explanation: |
   Matt Corallo peamine arusaam on, et Bitcoin usaldusteta baaskihi võimaldab paindlikkust süsteemi disainis. Bitcoin protokollisarnane usalduseta alus võimaldab arendajatel luua kõrgematel kihtidel usaldusväärseid teenuseid (näiteks hoiukassad), säilitades samal ajal aluseks olevad turvatagatised. Kuid vastupidine on võimatu - ei saa luua tõeliselt usalduseta süsteeme, kui alus ise nõuab usaldust, sest usaldusliku baaskihi haavatavus õõnestaks igasuguseid usalduseta omadusi.
+reviewed: false

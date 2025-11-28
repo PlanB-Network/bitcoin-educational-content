@@ -6,3 +6,4 @@ wrong_answers:
   - Formal security proofs would reveal vulnerabilities to adversaries, so they are kept classified by core developers
 explanation: |
   As Jameson Lopp explains, Bitcoin was built without a formally defined specification or security model due to its inherent complexity and nebulous nature. Unlike simpler systems such as signing protocols that have clear-cut security assumptions, Bitcoin involves multiple interacting components including cryptography, economics, game theory, and human behavior. This complexity makes it impossible to create formal mathematical proofs of security, even though the system demonstrates practical security through real-world operation.
+reviewed: false

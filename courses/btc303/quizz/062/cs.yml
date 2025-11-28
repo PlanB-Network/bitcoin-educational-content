@@ -6,3 +6,4 @@ wrong_answers:
   - Odvozená díla lze šířit pouze na základě licencí, které vyžadují placení licenčních poplatků
 explanation: |
   Definice open source výslovně uvádí, že "licence musí umožňovat modifikace a odvozená díla a musí umožňovat jejich šíření za stejných podmínek jako licence původního softwaru" Tím je zajištěno, že odvozená díla si zachovají stejné svobody jako originál, což brání tomu, aby někdo vzal kód s otevřeným zdrojovým kódem a udělal z něj proprietární. Ostatní možnosti tento základní princip porušují, protože buď omezují svobodu, nebo mění kompatibilitu licencí.
+reviewed: false

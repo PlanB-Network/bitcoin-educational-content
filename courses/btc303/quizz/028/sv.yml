@@ -6,3 +6,4 @@ wrong_answers:
   - Miners kommer att sluta mining helt och hållet eftersom transaktionsavgifter inte kan täcka elkostnaderna
 explanation: |
   Fee sniping inträffar när miners försöker re-mine tidigare block som innehöll transaktioner med höga avgifter istället för att ärligt förlänga kedjan. Detta blir ekonomiskt rationellt när avgifterna i ett tidigare block avsevärt överstiger avgifterna i den aktuella mempoolen. Även om sannolikheten för framgång är lägre än ärlig mining, kan den potentiella belöningen vara mycket högre. Detta beteende är särskilt oroande eftersom det kan skapa en kaskadeffekt där fler gruvarbetare ägnar sig åt oärliga metoder, vilket i slutändan hotar Bitcoin:s säkerhetsmodell när blocksubventionerna minskar.
+reviewed: false

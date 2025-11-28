@@ -6,3 +6,4 @@ wrong_answers:
   - Avatud lähtekood tähendab, et kõik haavatavused tuleb avalikustada enne paranduste väljatöötamist
 explanation: |
   Tekstis rõhutatakse konkreetselt, et arendajad peavad paranduste avaldamisel olema äärmiselt ettevaatlikud, sest "parandused ise võivad haavatavuse ära anda" See loob ainulaadse väljakutse, kus lahendus võib tahtmatult probleemi paljastada. Neljandas punktis kirjeldatakse, kuidas Bitcoin arendajad testivad, kas parandus on "piisavalt hästi varjatud", lastes kogenud arendajatel selle läbi vaadata, ilma et nad teaksid konkreetset haavatavust. Kui need eksperdid ei suuda parandusest haavatavust tuvastada, peetakse seda ohutuks kasutuselevõtuks. Teised variandid on valed: Bitcoin Core hooldajate kaudu toimub koordineerimine, paranduste puhul ei nõuta konsensust ja haavatavusi hoitakse vastutustundliku avalikustamise ajal privaatselt.
+reviewed: false

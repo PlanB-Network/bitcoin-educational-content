@@ -1,6 +1,6 @@
 ---
 name: RaspiBlitz
-description: Panduan untuk mengatur RaspiBlitz Anda
+description: Panduan untuk mengatur RaspiBlitz kamu
 ---
 
 ![image](assets/0.webp)

@@ -6,7 +6,7 @@ description: Kuweka kisanduku cha barua kilicho salama
 
 
 
-Sanduku la barua ni kitovu cha shughuli yako ya mtandaoni na mara nyingi huwa na jukumu muhimu katika usalama wako wa TEHAMA. Mshambulizi akifaulu kuhatarisha kisanduku chako cha barua, anapata ufikiaji rahisi wa akaunti zako zingine kupitia kitendakazi cha "*sahau nenosiri*". Hii inaweza kumwezesha kudhibiti mitandao yako ya kijamii, akaunti za benki na huduma zingine za mtandaoni, kama vile leo, barua pepe ya Address hutumiwa mara nyingi kama kitambulisho cha kipekee cha utambulisho wako mtandaoni. Kwa hiyo, kupata kisanduku chako cha barua ni muhimu sana ili kujikinga na mashambulizi.
+ Proton Mail ni kitovu cha shughuli yako ya mtandaoni na mara nyingi huwa na jukumu muhimu katika usalama wako wa TEHAMA. Mshambulizi akifaulu kuhatarisha kisanduku chako cha barua, anapata ufikiaji rahisi wa akaunti zako zingine kupitia kitendakazi cha "*sahau nenosiri*". Hii inaweza kumwezesha kudhibiti mitandao yako ya kijamii, akaunti za benki na huduma zingine za mtandaoni, kama vile leo, barua pepe ya Address hutumiwa mara nyingi kama kitambulisho cha kipekee cha utambulisho wako mtandaoni. Kwa hiyo, kupata kisanduku chako cha barua ni muhimu sana ili kujikinga na mashambulizi.
 
 
 
@@ -22,7 +22,7 @@ ProtonMail ni suluhisho salama la barua pepe, shukrani kwa vipengele kadhaa. Kwa
 
 
 
-Zaidi ya hayo, ProtonMail hujumuisha teknolojia za juu ili kulinda faragha yako, ikiwa ni pamoja na kuzuia mifumo fulani ya ufuatiliaji na kuficha IP yako Address. Kwa kuwa nchini Uswizi, Protoni inanufaika kutokana na baadhi ya sheria za kulinda data ambazo hazipatikani katika nchi nyingine. Zaidi ya hayo, ProtonMail ni chanzo huria, ikiruhusu wataalam huru kukagua msimbo wa programu kwa uhuru.
+Zaidi ya hayo, ProtonMail hujumuisha teknolojia za juu ili kulinda faragha yako, ikiwa ni pamoja na kuzuia mifumo fulani ya ufuatiliaji na kuficha IP yako Address. Kwa kuwa nchini Uswizi, Proton inanufaika kutokana na baadhi ya sheria za kulinda data ambazo hazipatikani katika nchi nyingine. Zaidi ya hayo, ProtonMail ni chanzo huria, ikiruhusu wataalam huru kukagua msimbo wa programu kwa uhuru.
 
 
 
@@ -34,7 +34,7 @@ Muundo wa biashara wa Proton unatokana na mfumo wa usajili, jambo ambalo linatia
 
 
 
-Tembelea tovuti rasmi ya protoni: https://proton.me/
+Tembelea tovuti rasmi ya Proton: https://proton.me/
 
 
 
@@ -50,7 +50,7 @@ Bonyeza kitufe cha "*Fungua akaunti*":
 
 
 
-Unaweza kuchagua kutoka kwa vifurushi mbalimbali ili kukidhi mahitaji yako. Ili kuanza, unaweza kuchagua akaunti isiyolipishwa, ambayo itakuwezesha kujaribu huduma za msingi za ProtonMail. Baadaye, ikiwa ungependa kufikia vipengele vya ziada na programu nyingine za Protoni kama vile Kalenda, VPN, au Kidhibiti cha Nenosiri, unaweza kufikiria kujisajili kwenye kifurushi kinacholipishwa.
+Unaweza kuchagua kutoka kwa vifurushi mbalimbali ili kukidhi mahitaji yako. Ili kuanza, unaweza kuchagua akaunti isiyolipishwa, ambayo itakuwezesha kujaribu huduma za msingi za ProtonMail. Baadaye, ikiwa ungependa kufikia vipengele vya ziada na programu nyingine za Proton kama vile Kalenda, VPN, au Kidhibiti cha Nenosiri, unaweza kufikiria kujisajili kwenye kifurushi kinacholipishwa.
 
 
 
@@ -96,7 +96,7 @@ https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f
 
 
 
-Bonyeza kitufe cha "* Unda akaunti*".
+Bonyeza kitufe cha "*Unda akaunti*".
 
 
 
@@ -164,7 +164,7 @@ Kisha bonyeza kitufe cha "**Mipangilio yote**".
 
 
 
-Katika kichupo cha "*Dashibodi*", utapata maelezo ya akaunti yako. Kwa kusogeza zaidi sehemu hii, unaweza kuchagua aina za barua pepe unazokubali kupokea kutoka kwa Proton. Ikiwa hupendi kupokea arifa za matangazo au taarifa, unaweza kuchagua kubatilisha uteuzi.
+Katika kichupo cha "*Dashboard*", utapata maelezo ya akaunti yako. Kwa kusogeza zaidi sehemu hii, unaweza kuchagua aina za barua pepe unazokubali kupokea kutoka kwa Proton. Ikiwa hupendi kupokea arifa za matangazo au taarifa, unaweza kuchagua kubatilisha uteuzi.
 
 
 
@@ -282,7 +282,7 @@ Katika kichupo cha "*Faragha ya barua pepe*", unaweza kuchagua chaguo zako za fa
 
 
 
-Katika kichupo cha "*Kitambulisho na anwani*", unaweza kubinafsisha sahihi yako ya barua pepe. Ikiwa una akaunti inayolipishwa, unaweza pia kuunda barua pepe tofauti tofauti, zote zikidhibitiwa kutoka kwa akaunti moja. Hii inaweza kuwa muhimu sana kwa kutenganisha matumizi yako tofauti.
+Katika kichupo cha "*Kitambulisho na address*", unaweza kubinafsisha sahihi yako ya barua pepe. Ikiwa una akaunti inayolipishwa, unaweza pia kuunda barua pepe tofauti tofauti, zote zikidhibitiwa kutoka kwa akaunti moja. Hii inaweza kuwa muhimu sana kwa kutenganisha matumizi yako tofauti.
 
 
 
@@ -290,7 +290,7 @@ Katika kichupo cha "*Kitambulisho na anwani*", unaweza kubinafsisha sahihi yako 
 
 
 
-Katika kichupo cha "*Folda na lebo*", unaweza kuunda folda na lebo ili kupanga kisanduku chako cha barua.
+Katika kichupo cha "*Folder na lebel*", unaweza kuunda folda na lebo ili kupanga kisanduku chako cha barua.
 
 
 
@@ -314,7 +314,7 @@ Kichupo cha "Sambaza na jibu otomatiki" hukuwezesha kudhibiti usambazaji na kuji
 
 
 
-Katika kichupo cha "*Majina ya kikoa*", una chaguo la kusanidi barua pepe ya Address kwa kutumia kikoa chako mwenyewe, ambacho kinaweza kuwa muhimu ikiwa unamiliki tovuti. Kwa matumizi ya kibinafsi, si lazima kutumia kipengele hiki.
+Katika kichupo cha "*Domain names*", una chaguo la kusanidi barua pepe ya Address kwa kutumia kikoa chako mwenyewe, ambacho kinaweza kuwa muhimu ikiwa unamiliki tovuti. Kwa matumizi ya kibinafsi, si lazima kutumia kipengele hiki.
 
 
 

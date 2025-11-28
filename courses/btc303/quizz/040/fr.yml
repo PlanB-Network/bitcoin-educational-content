@@ -6,3 +6,4 @@ wrong_answers:
   - Pas de compatibilité ascendante ni descendante, nécessitant des mises à jour complètes du système
 explanation: |
   Le chapitre indique clairement qu'"une modification des règles de consensus de la Bitcoin est considérée comme une fork douce si elle est totalement compatible" Il définit la compatibilité totale comme étant à la fois la compatibilité ascendante et la compatibilité descendante. La compatibilité ascendante signifie qu'un ancien logiciel peut traiter des données provenant de versions plus récentes en ignorant les parties qu'il ne comprend pas, tandis que la compatibilité descendante signifie qu'un nouveau logiciel peut traiter d'anciennes données. C'est cette double compatibilité qui fait des soft forks le mécanisme de mise à niveau privilégié pour Bitcoin, car elles ne cassent pas les systèmes existants tout en permettant de nouvelles fonctionnalités.
+reviewed: false

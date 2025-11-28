@@ -1,0 +1,9 @@
+question: Каква е стойността по подразбиране на параметъра maxconnections в Bitcoin Core?
+answer: 125
+wrong_answers:
+  - 10
+  - 100
+  - 150
+explanation: |
+  maxconnections ограничава общия брой на входящите и изходящите връзки. Стойността по подразбиране е 125.
+reviewed: true

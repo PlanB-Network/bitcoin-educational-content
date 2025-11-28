@@ -6,3 +6,4 @@ wrong_answers:
   - Beveiligingskosten worden niet langer betaald door ontwikkelaars via het onderhoud van code, maar door gebruikers via netwerkdeelname
 explanation: |
   Het hoofdstuk legt duidelijk uit dat houders vandaag betalen voor de veiligheid van Bitcoin via monetaire inflatie (nieuwe munten worden gecreëerd via bloksubsidie), maar in de toekomst, wanneer de bloksubsidie nul benadert, zullen spenders betalen voor de veiligheid via transactiekosten. Dit betekent een fundamentele economische verschuiving in wie de kosten draagt voor het handhaven van de veiligheid van het netwerk, van een model waarbij de creatie van nieuwe munten mining financiert naar een model waarbij transactievergoedingen voldoende stimulans moeten bieden voor mijnwerkers om het netwerk te beveiligen.
+reviewed: false

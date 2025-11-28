@@ -6,3 +6,4 @@ wrong_answers:
   - Pärast 90-päevast tavapärast embargoperioodi, olenemata lähetuse staatusest
 explanation: |
   Bitcoin Core järgib pigem kasutuselevõtupõhist avalikustamise ajakava kui kindlat ajavahemikku. Künnis 80% tagab, et valdav osa võrgust on kaitstud enne, kui ründajad saavad teada, et haavatavus on avalikustatud. Selline lähenemisviis seab võrgu turvalisuse prioriteediks suvalise ajakava asemel, sest enneaegne avalikustamine võib ülejäänud 20% sõlmedest sihtrünnakutele avatud olla. Teised valikud esindavad tavapäraseid tavasid traditsioonilises tarkvaraturvalisuses, kuid ei võta arvesse Bitcoin detsentraliseeritud olemust, kus kasutajad peavad vabatahtlikult oma sõlmi uuendama.
+reviewed: false

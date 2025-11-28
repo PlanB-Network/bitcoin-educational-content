@@ -14,9 +14,9 @@ licence: CC-BY-SA-V4
 
 original_language: fr
 proofreading:
-- language: fr
-  last_contribution_date: 2025-10-14
-  urgency: 1
-  contributor_names:
-    - heyolaniran
-  reward: 0
+  - language: fr
+    last_contribution_date: 2025-10-14
+    urgency: 1
+    contributor_names:
+      - heyolaniran
+    reward: 0.47

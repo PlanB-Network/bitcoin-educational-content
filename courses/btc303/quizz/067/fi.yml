@@ -6,3 +6,4 @@ wrong_answers:
   - Allekirjoitusten tarkistuksen suorituskyvyn parantaminen lohkojen nopeamman käsittelyn varmistamiseksi
 explanation: |
   Luvussa määritellään Bitcoin:n skaalaus nimenomaisesti seuraavasti: "Bitcoin:n käyttökapasiteetin lisääminen ilman, että sen sensuurinsietokyky heikkenee" Oikea vastaus rikkoo tätä määritelmää, koska se, että käyttäjien on luotettava keskitettyihin maksuprosessoreihin, vaarantaa suoraan Bitcoin:n sensuurinsietokyvyn, joka on keskeinen arvolupaus. Väärät vastaukset edustavat kaikki luvussa mainittuja legitiimejä skaalauslähestymistapoja: tehokas koodaus vähentää resurssien käyttöä, kerroksittaiset ratkaisut mahdollistavat lisäkapasiteetin lisäämisen säilyttäen peruskerroksen ominaisuudet ja parannettu allekirjoituksen todentaminen parantaa suorituskykyä ilman keskittämisestä tehtäviä kompromisseja.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin Core -kehittäjät pyysivät vaihtoehtoa, jolla vähennettäisiin niiden vastuuta päivityksistä
 explanation: |
   Luvun mukaan, kun Segwit-aktivointikoodi julkaistiin lokakuussa 2016, Bitcoin-käyttäjien keskuudessa oli ylivoimainen tuki, mutta kaivostyöläiset eivät ilmaisseet tukeaan päivitykselle, mikä pysäytti aktivoinnin, eikä ratkaisua ollut näkyvissä. Tämä loi tarpeen vaihtoehtoiselle mekanismille, joka ei perustu kaivostyöläisten signalointiin, mikä johti Shaolinfryn ehdottamaan UASF:ää ratkaisuksi, jossa käytettäisiin taloudellista enemmistövalvontaa hash-tehon aktivoinnin sijaan.
+reviewed: false

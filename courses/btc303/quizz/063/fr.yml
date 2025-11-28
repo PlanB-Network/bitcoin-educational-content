@@ -6,3 +6,4 @@ wrong_answers:
   - Le dépôt GitHub conserve une clé principale qui valide toutes les autres copies du dépôt dans le monde entier
 explanation: |
   Selon l'analyse de Jameson Lopp citée dans le chapitre, le dépôt GitHub du Bitcoin Core est techniquement identique à toutes les autres copies. Son importance est purement sociale - il est devenu le point central de la coordination du développement. Le dépôt sert de commodité plutôt que d'autorité technique, et s'il disparaissait, un nouveau point focal émergerait naturellement. Cela démontre la nature décentralisée du Bitcoin, où aucun dépôt n'a de suprématie technique sur les autres.
+reviewed: false

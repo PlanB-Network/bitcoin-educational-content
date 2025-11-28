@@ -6,3 +6,4 @@ wrong_answers:
   - Ein Blindsignatursystem mit zentraler vertrauenswürdiger Partei zur Vermeidung von Doppelspenden
 explanation: |
   Satoshi Nakamoto schlug ausdrücklich vor, einen "verteilten Peer-to-Peer-Zeitstempelserver zu verwenden, um generate einen rechnerischen Beweis für die chronologische Reihenfolge der Transaktionen zu erbringen", wie es im Bitcoin-Whitepaper heißt. Das Schlüsselwort ist "verteilt", was bedeutet, dass es keinen zentralen Kontrollpunkt gibt. Die falschen Antworten stehen für frühere gescheiterte Versuche mit digitalem Geld, die sich auf zentralisierte oder halbzentralisierte Ansätze stützten, was sie anfällig für Zensur und Misserfolg machte - genau die Probleme, die Bitcoin durch echte Dezentralisierung lösen sollte.
+reviewed: false

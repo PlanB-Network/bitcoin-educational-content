@@ -6,3 +6,4 @@ wrong_answers:
   - Att användare alltid kommer att prioritera decentralisering framför bekvämlighet
 explanation: |
   Motståndsaxiomet förutsätter att system kan motstå statlig kontroll, vilket är grundläggande för Bitcoin:s syfte som tillståndslösa pengar. Utan detta antagande kollapsar hela Bitcoin:s premiss eftersom den oundvikligen skulle kontrolleras av stater. De andra alternativen, även om de är relevanta för Bitcoin:s säkerhet, är inte en del av Voskuils motståndsaxiom, som specifikt behandlar den filosofiska grunden att motstånd mot statlig kontroll är möjligt.
+reviewed: false

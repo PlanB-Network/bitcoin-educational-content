@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin deles opp i flere parallelle kjeder for å fordele beregningsbelastningen og samtidig opprettholde de samme sikkerhetsgarantiene for alle brukere
 explanation: |
   Maxwell identifiserte en grunnleggende avveining der overdrevne ressurskrav presser brukerne mot pålitelige tredjeparter i stedet for uavhengig validering. Når valideringskostnadene blir uoverkommelige, har ikke brukerne råd til å kjøre fulle noder og må stole på andre, noe som undergraver Bitcoins tillitsløse natur. De gale svarene antyder feilaktig fordelaktige resultater (økt sikkerhet, automatiske justeringer eller opprettholdte garantier) når høy ressursbruk faktisk tvinger frem sentralisering og tillitsavhengighet.
+reviewed: false

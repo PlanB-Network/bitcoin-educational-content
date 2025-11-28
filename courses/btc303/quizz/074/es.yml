@@ -6,3 +6,4 @@ wrong_answers:
   - Para confirmar que el parche proporciona suficientes mejoras de rendimiento
 explanation: |
   Según las prácticas de divulgación responsable, los desarrolladores comprueban si un parche se ha disimulado lo suficientemente bien proporcionándoselo a desarrolladores experimentados que no hayan sido informados de la vulnerabilidad, pidiéndoles que identifiquen lo que soluciona. Si estos expertos no pueden detectar la vulnerabilidad aun sabiendo que un parche la corrige, es probable que esté bien disimulada para los posibles atacantes. Esto es crucial porque los propios parches pueden revelar vulnerabilidades, permitiendo potencialmente una explotación maliciosa. Las otras opciones, aunque son aspectos importantes de la revisión de código, no son el propósito principal de esta práctica específica en la gestión de vulnerabilidades.
+reviewed: false

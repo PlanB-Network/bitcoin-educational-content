@@ -6,3 +6,4 @@ wrong_answers:
   - Zahtev da kupci dostave prekomerne lične identifikacione dokumente
 explanation: |
   Prema Satoshi Nakamotu u Bitcoin whitepaper-u, tradicionalni finansijski sistemi pate od osnovne slabosti jer potpuno nepovratne transakcije nisu moguće zato što finansijske institucije moraju posredovati u sporovima. Ovo stvara niz problema: povećani troškovi transakcija zbog posredovanja, eliminacija malih povremenih transakcija i širenje zahteva za poverenjem kroz ceo sistem. Druge opcije, iako potencijalno relevantne za finansijske sisteme, nisu osnovni problem koji Bitcoin-ov dizajn bez poverenja specifično rešava. Inovacija Bitcoin omogućava konačno poravnanje bez potrebe za pouzdanim trećim licem koje bi poništilo transakcije.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Daha büyük bloklar, rakip bloklar arasında daha fazla işlem çakışması yaratarak hangi bloğun kabul edilmesi gerektiğini belirlemeyi zorlaştırır
 explanation: |
   Doğru cevap, bayat blokların arkasındaki temel mekanizmayı tanımlar. Bloklar daha büyük olduğunda, düğümler arasında aktarılmak için daha fazla bant genişliğine ve doğrulanmak için daha fazla zamana ihtiyaç duyarlar. Bu uzun yayılma süresi boyunca, birden fazla madenci henüz en son bloğu almadıkları için aynı yükseklikte rakip bloklar bulabilir. Bu da sonuçta yalnızca bir bloğun kabul edilebileceği ve diğerlerinin bayatlayacağı bir yarış durumu yaratır. Yanlış cevaplar, bu yayılma sorununu mining zorluğu, mutabakat mekanizmaları veya işlem çatışmaları ile karıştırmaktadır; bunlar bayat bloklara neden olan zamanlama sorunundan ayrı endişelerdir.
+reviewed: false

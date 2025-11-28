@@ -6,3 +6,4 @@ wrong_answers:
   - Kładzie nacisk na zmniejszenie wymagań obliczeniowych dla węzłów zamiast zwiększania przepustowości sieci
 explanation: |
   Książka definiuje skalowanie jako "zwiększanie pojemności użytkowej Bitcoin bez narażania jego odporności na cenzurę", co wyraźnie obejmuje ograniczenie odporności na cenzurę. To odróżnia ją od innych definicji, które koncentrują się wyłącznie na zwiększaniu przepustowości transakcji, poprawie wydajności lub systemach warstwowych bez uwzględnienia zachowania podstawowych właściwości Bitcoin. Wymóg odporności na cenzurę gwarantuje, że rozwiązania skalujące nie podważają podstawowej wartości Bitcoin, jaką jest bycie pozbawionym zaufania, zdecentralizowanym systemem, który nie może być kontrolowany przez żaden pojedynczy podmiot.
+reviewed: false

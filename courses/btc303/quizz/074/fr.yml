@@ -6,3 +6,4 @@ wrong_answers:
   - Pour confirmer que le correctif apporte des améliorations suffisantes en termes de performances
 explanation: |
   Selon les pratiques de divulgation responsable, les développeurs vérifient si un correctif a été suffisamment bien dissimulé en le fournissant à des développeurs expérimentés qui n'ont pas été informés de la vulnérabilité, en leur demandant d'identifier ce qu'il corrige. Si ces experts ne parviennent pas à repérer la vulnérabilité alors qu'ils savent qu'un correctif en corrige une, c'est qu'elle est probablement bien dissimulée aux yeux des attaquants potentiels. Ce point est crucial, car les correctifs eux-mêmes peuvent révéler des vulnérabilités, ce qui peut permettre une exploitation malveillante. Les autres options, bien qu'elles constituent des aspects importants de l'examen du code, ne sont pas l'objectif premier de cette pratique spécifique de la gestion des vulnérabilités.
+reviewed: false

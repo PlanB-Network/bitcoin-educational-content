@@ -6,3 +6,4 @@ wrong_answers:
   - Yêu cầu khách hàng cung cấp quá nhiều giấy tờ tùy thân
 explanation: |
   Theo Satoshi Nakamoto trong sách trắng Bitcoin, các hệ thống tài chính truyền thống gặp phải điểm yếu cơ bản là không thể thực hiện các giao dịch hoàn toàn không thể đảo ngược do các tổ chức tài chính phải đứng ra hòa giải tranh chấp. Điều này tạo ra một loạt vấn đề: chi phí giao dịch tăng do phải hòa giải, loại bỏ các giao dịch nhỏ lẻ, và việc lan truyền các yêu cầu về lòng tin trên toàn hệ thống. Các lựa chọn khác, mặc dù có thể liên quan đến hệ thống tài chính, nhưng không phải là vấn đề cốt lõi mà thiết kế không cần lòng tin của Bitcoin giải quyết cụ thể. Sự đổi mới của Bitcoin là cho phép thanh toán cuối cùng mà không cần bên thứ ba đáng tin cậy để đảo ngược giao dịch.
+reviewed: false

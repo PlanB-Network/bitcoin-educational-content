@@ -6,3 +6,4 @@ wrong_answers:
   - Utvärdera varje sårbarhet isolerat utan att beakta hur flera mindre problem kan kombineras för att skapa stora säkerhetsrisker
 explanation: |
   Maxwell menar att utvecklare bör betrakta sårbarheter som allvarligare än de verkar eftersom svårutnyttjade problem kan bli triviala med rätt teknik, och till synes mindre problem kan eskalera till allvarliga hot. Han betonar att enkla prestandabuggar kan användas som vapen för att partitionera nätverket och möjliggöra double-spending-attacker. Detta konservativa förhållningssätt innebär att utvecklarna kanske inte förstår den fulla potentialen i en sårbarhet, vilket gör det klokt att utgå från det värsta tänkbara scenariot snarare än att underskatta hotet.
+reviewed: false

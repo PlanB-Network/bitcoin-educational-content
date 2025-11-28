@@ -6,3 +6,4 @@ wrong_answers:
   - Privaatseid võtmeid hoitakse ühe wallet asemel mitmes seadmes
 explanation: |
   Full node detsentraliseerimine tähendab, et plokkide (andmete, mida kaevandajad toodavad) valideerimine toimub võrgu servas üksikute kasutajate poolt, kes kasutavad oma sõlmi, selle asemel, et tugineda tehingute kontrollimisel mõnele usaldusväärsele asutusele. See erineb kaevandajate detsentraliseerimisest, mis tegeleb tehingute tellimise ja töötlemisega. Teised valikud ajavad full node detsentraliseerimise segi mining jaotamise, juhtimisstruktuuride või turvapraktikatega, kuid ükski neist ei haara võrguosaliste poolt teostatava jaotatud plokkide valideerimise põhikontseptsiooni.
+reviewed: false

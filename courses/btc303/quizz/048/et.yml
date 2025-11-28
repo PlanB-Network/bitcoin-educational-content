@@ -6,3 +6,4 @@ wrong_answers:
   - Formaalsed turvatõendid paljastaksid vastastele haavatavused, seega hoiavad need tuumarendajad salajas
 explanation: |
   Nagu Jameson Lopp selgitab, ehitati Bitcoin ilma ametlikult määratletud spetsifikatsiooni või turvamudelita, mis tuleneb selle loomupärasest keerukusest ja udususest. Erinevalt lihtsamatest süsteemidest, nagu näiteks allkirjastamisprotokollid, millel on selged turvaprognoosid, hõlmab Bitcoin mitmeid omavahel seotud komponente, sealhulgas krüptograafiat, majandusteooriat, mänguteooriat ja inimeste käitumist. Selline keerukus muudab võimatuks formaalsete matemaatiliste turvatõendite koostamise, kuigi süsteem demonstreerib praktilist turvalisust tegeliku toimimise kaudu.
+reviewed: false

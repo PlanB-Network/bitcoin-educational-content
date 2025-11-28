@@ -6,3 +6,4 @@ wrong_answers:
   - "Se paljastaa, että GitHub-alustalla on teknisiä rajoituksia Bitcoin:n koodipohjan käsittelyyn"
 explanation: |
   Luvun sisällön mukaan vetopyyntöjen yhdistäminen kestää kauan, mikä johtuu ensisijaisesti tarkistuksen puutteesta, joka johtuu pikemminkin tarkistajien riittämättömyydestä kuin ylläpitäjän esteistä tai teknisistä ongelmista. Tarkastusprosessi on ratkaisevan tärkeä Bitcoin:n turvallisuuden kannalta, sillä se varmistaa koodin laadun ja estää haitalliset muutokset. Tämä pullonkaula johtuu siitä, että monimutkaisen salauskoodin tarkistaminen vaatii asiantuntemusta ja aikaa, minkä vuoksi pätevät tarkistajat ovat kehitysprosessin niukka resurssi.
+reviewed: false

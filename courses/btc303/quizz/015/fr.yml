@@ -6,3 +6,4 @@ wrong_answers:
   - Les services tiers acquièrent la capacité de créer de nouveaux bitcoins au-delà du calendrier normal d'émission
 explanation: |
   Lorsque les utilisateurs ne gèrent pas leurs propres nœuds complets, ils confient à d'autres le pouvoir d'appliquer les règles de la Bitcoin. Cela affaiblit la décentralisation de Bitcoin, car moins de parties indépendantes valident les transactions et les blocs. Comme l'explique David Harding, cela crée une situation dans laquelle un petit nombre de mineurs et de fournisseurs de services pourraient potentiellement modifier les règles de la Bitcoin pour les utilisateurs qui ne les vérifient pas, alors que ces utilisateurs seraient incapables de faire des transactions avec des personnes qui gèrent des nœuds de validation complets et qui rejettent ces changements de règles.
+reviewed: false

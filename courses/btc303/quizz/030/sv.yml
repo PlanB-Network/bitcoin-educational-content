@@ -6,3 +6,4 @@ wrong_answers:
   - De måste ersättas genom ytterligare mining för att upprätthålla den avsedda leveransnivån
 explanation: |
   Satoshi Nakamoto förklarade att förlorade mynt fungerar som en donation till alla andra bitcoininnehavare genom att göra deras mynt mer värdefulla på grund av det minskade effektiva utbudet. Detta är en positiv deflationseffekt, inte en destabiliserande kraft. Förlorade mynt påverkar inte mining-belöningar eftersom de kommer från nypräglade mynt och transaktionsavgifter, inte från det befintliga utbudet. Bitcoin:s protokoll ersätter inte förlorade mynt - de förblir permanent ur cirkulation, vilket faktiskt gynnar kvarvarande innehavare genom ökad knapphet.
+reviewed: false

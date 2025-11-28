@@ -23,3 +23,8 @@ proofreading:
     contributor_names:
       - zeraatchi
     reward: 0
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.09

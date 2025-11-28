@@ -1,9 +1,9 @@
-question: Ni kamere iyihe yo mu mutwe ihambaye ku muntu akora ibikorwa vy’ubusambanyi?
+question: Ni ubuhe buhinga canke ingendo ikenewe cane ku wubika igihe kirekire ?
 answer: Ukwihangana mu mutima
 wrong_answers:
   - Uguhungabana kw'inyiyumvo
   - Ubukazi bwo mu mutima
-  - Gutekereza ku nyiyumvo
+  - Gutekereza kukuntu wiyumva
 explanation: |
   Ukwihangana mu mutima biratuma umuntu yihanganira uguhinduka kw’isoko ataco yiheba ngo agire ubwoba.
 reviewed: false

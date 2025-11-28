@@ -1676,15 +1676,6 @@ Ein Anchor stellt einen Satz von client-side Daten dar, der zum Nachweis der Ein
 
 Ein Anchor dient also dazu, eine überprüfbare Verbindung zwischen einer bestimmten Bitcoin-Transaktion und privaten Daten herzustellen, die durch das RGB-Protokoll validiert wurden. Er garantiert, dass diese Daten tatsächlich in der Blockchain enthalten sind, ohne dass ihr genauer Inhalt öffentlich zugänglich ist.
 
-#### Zuweisung
-
-In der Logik von RGB ist eine Zuweisung das Äquivalent eines Transaktions-Outputs, die bestimmte Eigenschaften im Zustand eines Vertrags ändert, aktualisiert oder erzeugt. Eine Zuweisung besteht aus zwei Elementen:
-
-
-- Einer **Siegeldefinition** (Verweis auf einen bestimmten UTXO) ;
-- Ein **Owned State** (Daten, die den mit diesem neuen Eigentümer verbundenen Zustand beschreiben).
-
-Eine Zuweisung zeigt daher an, dass ein Teil des Zustands (z.B. ein Vermögenswert) nun einem bestimmten Inhaber zugewiesen ist, der durch ein mit einem UTXO verknüpftes Single-use Seal identifiziert wird.
 
 #### Business Logic
 
@@ -1738,47 +1729,6 @@ Ein **Consignment** fasst die zwischen den Parteien ausgetauschten Daten zusamme
 
 Diese consignments werden nicht öffentlich in der Blockchain erfasst, sondern direkt zwischen den beteiligten Parteien über den Kommunikationskanal ihrer Wahl ausgetauscht.
 
-#### Vertrag
-
-Ein Vertrag ist eine Reihe von Rechten, die auf digitalem Wege zwischen mehreren Akteuren über das RGB-Protokoll ausgeführt werden. Er hat einen aktiven Zustand und eine Business Logic, die durch ein Schema definiert ist, das angibt, welche Operationen zulässig sind (Übertragungen, Erweiterungen usw.). Der Zustand eines Vertrags sowie seine Gültigkeitsregeln werden im Schema ausgedrückt. Zu einem bestimmten Zeitpunkt entwickelt sich der Vertrag nur in Übereinstimmung mit dem, was das Schema und die Validierungsskripte (die z.B. in AluVM ausgeführt werden) zulassen.
-
-#### Vertragsoperation
-
-Eine Vertragsoperation ist eine Aktualisierung des Vertragszustands, die gemäß den Schemaregeln durchgeführt wird. Die folgenden Operationen gibt es in RGB:
-
-
-- **State transition**;
-- **Genesis**;
-- **Zustandserweiterung**.
-
-Jede Operation verändert den Zustand durch Hinzufügen oder Ersetzen bestimmter Daten (Global State, Owned State...).
-
-#### Vertragsteilnehmer
-
-Ein Vertragsteilnehmer ist ein Akteur, der an Vorgängen im Zusammenhang mit dem Vertrag teilnimmt. Im RGB wird unterschieden zwischen:
-
-
-- Der Emittent des Vertrags, der die Genesis erstellt (der Ursprung des Vertrags);
-- Die Vertragsparteien, d.h. die Inhaber der Rechte am Vertragszustand;
-- Öffentliche Stellen, die Zustandserweiterungen vornehmen können, wenn der Vertrag öffentlich zugängliche Valenzen vorsieht.
-
-#### Vertragliche Rechte
-
-Vertragliche Rechte beziehen sich auf die verschiedenen Rechte, die von den an einem RGB-Vertrag Beteiligten ausgeübt werden können. Sie lassen sich in mehrere Kategorien einteilen:
-
-
-- **Eigentumsrechte**, die mit dem Eigentum an einem bestimmten UTXO verbunden sind (über eine _Sigeldefinition_);
-- **Ausführungsrechte**, d.h. die Fähigkeit, eine oder mehrere Transitionen (Zustandsübergänge) gemäß dem Schema zu erstellen;
-- **Öffentliche Rechte**, wenn das Schema bestimmte öffentliche Verwendungen zulässt, z.B. die Schaffung einer Zustandserweiterung durch das Einlösen (redeem) einer Valenz.
-
-#### Vertragszustand
-
-Der Vertragsstatus entspricht dem aktuellen Zustand eines Vertrags zu einem bestimmten Zeitpunkt. Er kann sowohl aus öffentlichen als auch aus privaten Daten bestehen, die den Zustand des Vertrages widerspiegeln. RGB unterscheidet zwischen :
-
-
-- Der **Globalstatus**, der die öffentlichen Eigenschaften des Vertrags enthält (in Genesis eingerichtet oder durch autorisierte Updates hinzugefügt);
-- **Eigene Staaten**, die bestimmten Eigentümern gehören, die durch ihre UTXOs identifiziert werden.
-
 #### Deterministisches Bitcoin-Commitment - DBC
 
 Deterministisches Bitcoin Commitment (DBC) ist der Satz von Regeln, die verwendet werden, um nachweislich und eindeutig ein _Commitment_ in einer Bitcoin-Transaktion zu speichern. Im RGB-Protokoll gibt es zwei Hauptformen von DBC:
@@ -1789,15 +1739,9 @@ Deterministisches Bitcoin Commitment (DBC) ist der Satz von Regeln, die verwende
 
 Diese Mechanismen definieren genau, wie das _Commitment_ in dem Output oder der Struktur einer Bitcoin-Transaktion kodiert wird, um sicherzustellen, dass dieses Commitment deterministisch nachvollziehbar und verifizierbar ist.
 
-#### Gerichteter azyklischer Graph - DAG
+#### Eigentümerschaft
 
-Ein DAG (Gerichteter azyklischer Graph, *Directed Acyclic Graph* oder *Acyclic Guided Graph*) ist ein zyklusfreier Graph, der eine topologische Planung ermöglicht. Blockchains, genauso wie die _Shards_ von RGB-Verträgen, können durch DAGs dargestellt werden.
-
-Für weitere Informationen: [Gerichteter azyklischer Graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
-
-#### Gravur
-
-Bei der Gravur handelt es sich um einen optionalen Datenstring, den aufeinanderfolgende Eigentümer eines Vertrags in die Vertragshistorie eingeben können. Diese Funktion ist z.B. in der Schnittstelle **RGB21** vorhanden und ermöglicht es, der Vertragshistorie Erinnerungsdaten oder beschreibende Informationen hinzuzufügen.
+Eigentümerschaft bezieht sich auf die Fähigkeit, einen UTXO, auf den eine Siegeldefinition verweist, zu kontrollieren und auszugeben. Wenn ein Owned State mit einem UTXO verknüpft ist, hat der Eigentümer dieses UTXO das Recht, den zugehörigen State nach den Regeln des Vertrags zu übertragen oder weiterzuentwickeln.
 
 #### Extra-Transaktionsnachweis - ETP
 
@@ -1807,21 +1751,30 @@ Der ETP (*Extra Transaction Proof*) ist der Teil des Anchor, der die zusätzlich
 
 Genesis bezieht sich auf den Satz von Daten, der durch ein Schema geregelt wird und den Ausgangszustand eines jeden Vertrags in RGB bildet. Es kann mit dem Konzept des _Genesis Block_ von Bitcoin oder dem Transaktionskonzept von Coinbase verglichen werden, hier jedoch auf der Ebene der _client-side_ und des RGB-Tokens.
 
+#### Gerichteter azyklischer Graph - DAG
+
+Ein DAG (Gerichteter azyklischer Graph, *Directed Acyclic Graph* oder *Acyclic Guided Graph*) ist ein zyklusfreier Graph, der eine topologische Planung ermöglicht. Blockchains, genauso wie die _Shards_ von RGB-Verträgen, können durch DAGs dargestellt werden.
+
+Für weitere Informationen: [Gerichteter azyklischer Graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
+
 #### Global State
 
 Der Global State ist die Menge der öffentlichen Eigenschaften, die im Vertragszustand enthalten sind. Er wird in der Genesis definiert und kann je nach den Vertragsregeln durch autorisierte Übergänge aktualisiert werden. Im Gegensatz zu Owned States gehört der Global State nicht zu einer bestimmten Entität; er ist eher ein öffentliches Register innerhalb des Vertrags.
 
-#### Schnittstelle
 
-Die Schnittstelle ist der Satz von Anweisungen, mit denen die in einem Schema oder in Vertragsoperationen zusammengestellten Binärdaten und ihre Zustände dekodiert werden, um sie für den Benutzer oder seine Wallet lesbar zu machen. Sie fungiert als Interpretationsschicht.
+#### Gravur
+
+Bei der Gravur handelt es sich um einen optionalen Datenstring, den aufeinanderfolgende Eigentümer eines Vertrags in die Vertragshistorie eingeben können. Diese Funktion ist z.B. in der Schnittstelle **RGB21** vorhanden und ermöglicht es, der Vertragshistorie Erinnerungsdaten oder beschreibende Informationen hinzuzufügen.
+
 
 #### Implementierung der Schnittstelle
 
 Die Schnittstellenimplementierung ist der Satz von Deklarationen, die eine **Schnittstelle** mit einem **Schema** verbinden. Sie ermöglicht die semantische Übersetzung, die von der Schnittstelle selbst vorgenommen wird, so dass die Rohdaten eines Vertrags vom Benutzer oder der beteiligten Software (den Wallets) verstanden werden können.
 
-#### Rechnung
 
-Eine Rechnung (invoice) hat die Form einer in [base58](https://en.wikipedia.org/wiki/Binary-to-text_encoding#Base58) kodierten URL, in der die für die Erstellung eines **Zustandsübergangs** (durch den Zahler) erforderlichen Daten eingebettet sind. Mit anderen Worten, es handelt sich um eine Rechnung, die es der Gegenpartei (*Zahler*) ermöglicht, den entsprechenden Übergang zu erstellen, um den Vermögenswert zu übertragen oder den Zustand des Vertrags zu aktualisieren.
+#### Letztes Consignment - Consignment-Endpoint
+
+Das letzte Consignment (oder _Consignment-Endpoint_) ist ein *Transfer Consignment*, welches den endgültigen Zustand des Vertrags enthält, einschließlich des Zustandsübergangs, der aus der Rechnung des Empfängers (*Zahlungsempfänger*) erstellt wurde. Es handelt sich also um den Endpunkt einer Übertragung mit den erforderlichen Daten zum Nachweis des Eigentumsübergangs oder des Zustands.
 
 #### Lightning-Netzwerk
 
@@ -1838,16 +1791,6 @@ Multi-Protokoll Commitment (MPC) bezieht sich auf die Merkle-Baumstruktur, die i
 #### Owned State
 
 Ein Owned State ist der Teil eines Vertragszustands, der in einer Zuweisung eingeschlossen und mit einem bestimmten Inhaber verbunden ist (über ein Single-use Seal, das auf einen UTXO zeigt). Dabei handelt es sich zum Beispiel um einen digitalen Vermögenswert oder ein bestimmtes vertragliches Recht, das dieser Person zugewiesen wurde.
-
-#### Eigentümerschaft
-
-Eigentümerschaft bezieht sich auf die Fähigkeit, einen UTXO, auf den eine Siegeldefinition verweist, zu kontrollieren und auszugeben. Wenn ein Owned State mit einem UTXO verknüpft ist, hat der Eigentümer dieses UTXO das Recht, den zugehörigen State nach den Regeln des Vertrags zu übertragen oder weiterzuentwickeln.
-
-#### Teilweise signierte Bitcoin-Transaktion - PSBT
-
-Eine PSBT (_Partially Signed Bitcoin Transaction_) ist eine Bitcoin-Transaktion, die noch nicht vollständig signiert ist. Sie kann zwischen mehreren Entitäten geteilt werden, von denen jede bestimmte Elemente (Signaturen, Skripte...) hinzufügen oder verifizieren kann, bis die Transaktion als bereit für die Veröffentlichung auf der Blockchain angesehen wird.
-
-Für weitere Informationen: [BIP-0174](https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki)
 
 #### Pedersen-Commitment
 
@@ -1869,6 +1812,11 @@ Diese Eigenschaft ist z.B. nützlich, um die Beträge der ausgetauschten Token z
 
 Weitere Informationen: [Pedersen-Commitment](https://link.springer.com/chapter/10.1007/3-540-46766-1_9)
 
+
+#### Rechnung
+
+Eine Rechnung (invoice) hat die Form einer in [base58](https://en.wikipedia.org/wiki/Binary-to-text_encoding#Base58) kodierten URL, in der die für die Erstellung eines **Zustandsübergangs** (durch den Zahler) erforderlichen Daten eingebettet sind. Mit anderen Worten, es handelt sich um eine Rechnung, die es der Gegenpartei (*Zahler*) ermöglicht, den entsprechenden Übergang zu erstellen, um den Vermögenswert zu übertragen oder den Zustand des Vertrags zu aktualisieren.
+
 #### Redeem
 
 In einer Zustandserweiterung bezieht sich ein Redeem auf die Rückforderung (oder Ausnutzung) einer zuvor erklärten **Valenz**. Da es sich bei einer Valenz um ein öffentliches Recht handelt, kann ein autorisierter Teilnehmer durch Redeem eine bestimmte Vertragserweiterung in Anspruch nehmen.
@@ -1877,13 +1825,19 @@ In einer Zustandserweiterung bezieht sich ein Redeem auf die Rückforderung (ode
 
 Ein Schema in RGB ist ein deklarativer Codeabschnitt, der den Satz von Variablen, Regeln und Business Logic (*Business Logic*) beschreibt, die die Funktionsweise eines Vertrags bestimmen. Das Schema definiert die Zustandsstruktur, die Arten der zulässigen Übergänge und die Validierungsbedingungen.
 
-#### Siegeldefinition
 
-Die Siegeldefinition ist der Teil einer Zuweisung, der das _Commitment_ mit einem UTXO im Besitz des neuen Inhabers verbindet. Mit anderen Worten, sie gibt an, wo sich die Bedingung befindet (in welchem UTXO), und begründet das Eigentum an einem Vermögenswert oder Recht.
+#### Schnittstelle
+
+Die Schnittstelle ist der Satz von Anweisungen, mit denen die in einem Schema oder in Vertragsoperationen zusammengestellten Binärdaten und ihre Zustände dekodiert werden, um sie für den Benutzer oder seine Wallet lesbar zu machen. Sie fungiert als Interpretationsschicht.
+
 
 #### Shard
 
 Ein Shard stellt einen Zweig im DAG der Zustandsübergangs-Historie eines RGB-Vertrags dar. Mit anderen Worten, es handelt sich um eine kohärente Teilmenge der Gesamtgeschichte des Vertrags, die z.B. der Abfolge der Übergänge entspricht, die erforderlich sind, um die Gültigkeit eines bestimmten Vermögenswerts seit der _Genesis_ nachzuweisen.
+
+#### Siegeldefinition
+
+Die Siegeldefinition ist der Teil einer Zuweisung, der das _Commitment_ mit einem UTXO im Besitz des neuen Inhabers verbindet. Mit anderen Worten, sie gibt an, wo sich die Bedingung befindet (in welchem UTXO), und begründet das Eigentum an einem Vermögenswert oder Recht.
 
 #### Single-use Seal
 
@@ -1893,21 +1847,15 @@ Ein Single-use Seal (Einweg-Siegel) ist ein kryptografisches Versprechen eines C
 
 Der Stash ist die Menge der client-side Daten, die ein Benutzer für einen oder mehrere RGB-Verträge zum Zweck der Validierung speichert (*client-side Validierung*). Dazu gehören die Übergangshistorie, Sendungen, Gültigkeitsnachweise usw. Jeder Inhaber behält nur die Teile der Historie, die er benötigt (*Shards*).
 
-#### Zustandserweiterung
-
-Eine Zustandserweiterung ist eine Vertragsoperation, die dazu dient, Zustandsaktualisierungen erneut auszulösen, indem zuvor erklärte **Valenzen** eingelöst werden. Um wirksam zu sein, muss eine Zustandserweiterung anschließend durch einen Zustandsübergang abgeschlossen werden (der den Endzustand des Vertrags aktualisiert).
-
-#### Zustandsübergang
-
-Zustandsübergang (state transition) ist die Operation, die den Zustand eines RGB-Vertrags in einen neuen Zustand ändert. Sie kann Global State und/oder Owned State verändern. In der Praxis wird jeder Übergang durch Schema-Regeln verifiziert und in der Bitcoin-Blockchain durch ein _Commitment_ verankert.
-
 #### Taproot
 
 Bezieht sich auf das Bitcoin-Transaktionsformat Segwit v1, das durch [BIP341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) und [BIP342](https://github.com/bitcoin/bips/blob/master/bip-0342.mediawiki) eingeführt wurde. Taproot verbessert die Vertraulichkeit und Flexibilität von Skripten, insbesondere indem es Transaktionen kompakter und schwieriger voneinander zu unterscheiden macht.
 
-#### Letztes Consignment - Consignment-Endpoint
+#### Teilweise signierte Bitcoin-Transaktion - PSBT
 
-Das letzte Consignment (oder _Consignment-Endpoint_) ist ein *Transfer Consignment*, welches den endgültigen Zustand des Vertrags enthält, einschließlich des Zustandsübergangs, der aus der Rechnung des Empfängers (*Zahlungsempfänger*) erstellt wurde. Es handelt sich also um den Endpunkt einer Übertragung mit den erforderlichen Daten zum Nachweis des Eigentumsübergangs oder des Zustands.
+Eine PSBT (_Partially Signed Bitcoin Transaction_) ist eine Bitcoin-Transaktion, die noch nicht vollständig signiert ist. Sie kann zwischen mehreren Entitäten geteilt werden, von denen jede bestimmte Elemente (Signaturen, Skripte...) hinzufügen oder verifizieren kann, bis die Transaktion als bereit für die Veröffentlichung auf der Blockchain angesehen wird.
+
+Für weitere Informationen: [BIP-0174](https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki)
 
 #### Transition Bundle
 
@@ -1921,9 +1869,68 @@ Ein Bitcoin UTXO (*Unspent Transaction Output*) ist definiert durch den Hash ein
 
 Eine Valenz ist ein öffentliches Recht, das als solches keine Zustandssicherung erfordert, sondern durch eine **Zustandserweiterung** eingelöst werden kann. Es handelt sich also um eine in der Vertragslogik deklarierte Möglichkeit, die allen (oder bestimmten) Akteuren offensteht, um zu einem späteren Zeitpunkt eine bestimmte Erweiterung vorzunehmen.
 
+#### Vertrag
+
+Ein Vertrag ist eine Reihe von Rechten, die auf digitalem Wege zwischen mehreren Akteuren über das RGB-Protokoll ausgeführt werden. Er hat einen aktiven Zustand und eine Business Logic, die durch ein Schema definiert ist, das angibt, welche Operationen zulässig sind (Übertragungen, Erweiterungen usw.). Der Zustand eines Vertrags sowie seine Gültigkeitsregeln werden im Schema ausgedrückt. Zu einem bestimmten Zeitpunkt entwickelt sich der Vertrag nur in Übereinstimmung mit dem, was das Schema und die Validierungsskripte (die z.B. in AluVM ausgeführt werden) zulassen.
+
+#### Vertragliche Rechte
+
+Vertragliche Rechte beziehen sich auf die verschiedenen Rechte, die von den an einem RGB-Vertrag Beteiligten ausgeübt werden können. Sie lassen sich in mehrere Kategorien einteilen:
+
+
+- **Eigentumsrechte**, die mit dem Eigentum an einem bestimmten UTXO verbunden sind (über eine _Sigeldefinition_);
+- **Ausführungsrechte**, d.h. die Fähigkeit, eine oder mehrere Transitionen (Zustandsübergänge) gemäß dem Schema zu erstellen;
+- **Öffentliche Rechte**, wenn das Schema bestimmte öffentliche Verwendungen zulässt, z.B. die Schaffung einer Zustandserweiterung durch das Einlösen (redeem) einer Valenz.
+
+#### Vertragsoperation
+
+Eine Vertragsoperation ist eine Aktualisierung des Vertragszustands, die gemäß den Schemaregeln durchgeführt wird. Die folgenden Operationen gibt es in RGB:
+
+
+- **State transition**;
+- **Genesis**;
+- **Zustandserweiterung**.
+
+Jede Operation verändert den Zustand durch Hinzufügen oder Ersetzen bestimmter Daten (Global State, Owned State...).
+
+#### Vertragsteilnehmer
+
+Ein Vertragsteilnehmer ist ein Akteur, der an Vorgängen im Zusammenhang mit dem Vertrag teilnimmt. Im RGB wird unterschieden zwischen:
+
+
+- Der Emittent des Vertrags, der die Genesis erstellt (der Ursprung des Vertrags);
+- Die Vertragsparteien, d.h. die Inhaber der Rechte am Vertragszustand;
+- Öffentliche Stellen, die Zustandserweiterungen vornehmen können, wenn der Vertrag öffentlich zugängliche Valenzen vorsieht.
+
+#### Vertragszustand
+
+Der Vertragsstatus entspricht dem aktuellen Zustand eines Vertrags zu einem bestimmten Zeitpunkt. Er kann sowohl aus öffentlichen als auch aus privaten Daten bestehen, die den Zustand des Vertrages widerspiegeln. RGB unterscheidet zwischen :
+
+
+- Der **Globalstatus**, der die öffentlichen Eigenschaften des Vertrags enthält (in Genesis eingerichtet oder durch autorisierte Updates hinzugefügt);
+- **Eigene Staaten**, die bestimmten Eigentümern gehören, die durch ihre UTXOs identifiziert werden.
+
 #### Zeugentransaktion
 
 Die Zeugentransaktion (Witness-Transaktion) ist die Bitcoin-Transaktion, die das Single-use Seal um eine Nachricht schließt, die ein Multi-Protokoll-Commitment (MPC) enthält. Diese Transaktion gibt einen UTXO aus oder erstellt einen, um das mit dem RGB-Protokoll verbundene Commitment zu versiegeln. Sie dient als On-Chain-Beweis dafür, dass der Zustand zu einem bestimmten Zeitpunkt festgelegt wurde.
+
+#### Zustandserweiterung
+
+Eine Zustandserweiterung ist eine Vertragsoperation, die dazu dient, Zustandsaktualisierungen erneut auszulösen, indem zuvor erklärte **Valenzen** eingelöst werden. Um wirksam zu sein, muss eine Zustandserweiterung anschließend durch einen Zustandsübergang abgeschlossen werden (der den Endzustand des Vertrags aktualisiert).
+
+#### Zustandsübergang
+
+Zustandsübergang (state transition) ist die Operation, die den Zustand eines RGB-Vertrags in einen neuen Zustand ändert. Sie kann Global State und/oder Owned State verändern. In der Praxis wird jeder Übergang durch Schema-Regeln verifiziert und in der Bitcoin-Blockchain durch ein _Commitment_ verankert.
+
+#### Zuweisung
+
+In der Logik von RGB ist eine Zuweisung das Äquivalent eines Transaktions-Outputs, die bestimmte Eigenschaften im Zustand eines Vertrags ändert, aktualisiert oder erzeugt. Eine Zuweisung besteht aus zwei Elementen:
+
+
+- Einer **Siegeldefinition** (Verweis auf einen bestimmten UTXO) ;
+- Ein **Owned State** (Daten, die den mit diesem neuen Eigentümer verbundenen Zustand beschreiben).
+
+Eine Zuweisung zeigt daher an, dass ein Teil des Zustands (z.B. ein Vermögenswert) nun einem bestimmten Inhaber zugewiesen ist, der durch ein mit einem UTXO verknüpftes Single-use Seal identifiziert wird.
 
 # Programmierung auf RGB
 

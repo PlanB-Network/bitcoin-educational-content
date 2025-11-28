@@ -1,6 +1,6 @@
 ---
 name: Alby Hub
-description: Bagaimana cara mudah meluncurkan simpul Lightning Anda sendiri?
+description: Bagaimana cara mudah meluncurkan simpul Lightning kamu sendiri?
 ---
 ![cover](assets/cover.webp)
 

@@ -30,7 +30,7 @@ Nombreux sont ceux qui estiment que le clivage le plus marquant en Occident aujo
 
 Ainsi, pour identifier les tendances politiques des individus, on les inscrit sur une simple ligne horizontale. On se positionne à l’extrême gauche, à gauche, au centre, à droite et à l’extrême droite de la ligne, selon les différentes tendances.
 
-![Political spectrum](image_placeholder)
+![Political spectrum](./assets/en/001.webp)
 
 Certains penchent vers ceux pour qui l’ordre doit être conservé et imposé à tout prix, c’est la **droite**. D’autres penchent vers ceux pour qui l’égalité doit être appliquée à tout prix, quitte à tout réformer, c’est la **gauche**.
 
@@ -46,15 +46,15 @@ Bien que ce critère de positionnement reste utile pour désigner des sensibilit
 
 En effet, où place-t-on sur le spectre gauche-droite des gens comme Thomas Jefferson, Alexis de Tocqueville, Frédéric Bastiat, Ron Paul, Elon Musk, Javier Milei ? Qu’en est-il des libéraux classiques et des écoles de pensée contemporaines qui s’en réclament comme les libertariens ? Parfois ils sont assimilés faussement à la droite, voire à l’extrême droite. Mais le plus souvent ils n’existent pas dans ce cadre de référence.
 
-En son temps, l’économiste et député Frédéric Bastiat disait qu’il votait « tantôt avec la gauche, tantôt avec la droite, selon le projet de loi discuté. »
+En son temps, l’économiste et député Frédéric Bastiat disait qu’il votait tantôt avec la gauche, tantôt avec la droite, selon le projet de loi discuté. 
 
-![Frédéric Bastiat](image_placeholder)
+![Frédéric Bastiat](./assets/en/002.webp)
 
 Cela ne voulait pas dire qu’il était centriste ni social-démocrate. Bastiat était fermement opposé à tout étatisme, à tout dirigisme quel qu’il soit. Il était favorable à un maximum de libertés économiques et de libertés personnelles compatibles avec le respect d’autrui, car il considérait que l’ordre social pouvait émerger d’en bas, par l’initiative privée, la coopération sociale et la responsabilité individuelle, avec un minimum de lois.
 
 Prenons un autre exemple : **Bitcoin est-il de droite ou de gauche ?**
 
-![Bitcoin](image_placeholder)
+![Bitcoin](./assets/en/003.webp)
 
 Indéniablement, bitcoin est un projet de rupture avec la politique monétaire actuelle. Donc c’est un projet politique. Mais il est difficile de placer Bitcoin sur un simple axe linéaire allant de l'extrême gauche à l'extrême droite.
 
@@ -67,7 +67,7 @@ En réalité, la dichotomie traditionnelle entre la droite et la gauche, est ina
 
 De plus, un simple axe linéaire qui va de gauche à droite ne fonctionne pas bien, car des idéologies comme le fascisme et le communisme ont des similitudes (totalitarisme) qui ne sont pas apparentes sur un tel axe.
 
-![Spectre politique en fer à cheval](image_placeholder)
+![Spectre politique en fer à cheval](./assets/en/004.webp)
 
 Par ailleurs, bien que la droite soit sans doute plus libérale économiquement que la gauche, les deux camps partagent une même méfiance à l'égard du marché libre, de la liberté contractuelle, de la propriété privée et un même attrait pour l'interventionnisme étatique. Pour les gouvernants, qu'ils soient de droite ou de gauche, tout problème trouve sa solution dans une nouvelle réglementation ou un nouvel impôt, plutôt que dans l'autorégulation des interactions individuelles.
 
@@ -115,11 +115,11 @@ La question politique fondamentale qui doit se poser est donc la suivante : **«
 
 En 1966, dans *Révolte sur la Lune* (The Moon is a Harsh Mistress), le romancier Robert Heinlein développe l'idée que les gouvernements finissent toujours par accumuler du pouvoir et contrôler les citoyens, ce qu'il qualifie d’« inévitable maladie des êtres humains ».
 
-![The Moon is a Harsh Mistress](image_placeholder)
+![The Moon is a Harsh Mistress](./assets/en/005.webp)
 
 Il observe que « le genre humain se divise politiquement entre ceux qui veulent contrôler la vie des autres, et ceux qui n’éprouvent pas ce désir » (*The human race divides politically into those who want people to be controlled and those who have no such desire*).
 
-> "There is no worse tyranny than to force a man to pay for what he does not want merely because you think it would be good for him." — Robert A. Heinlein
+![The Moon is a Harsh Mistress quote](./assets/en/006.webp)
 
 Or à l’heure actuelle, tous les partis politiques, qu’ils soient de gauche, du centre ou de droite, défendent le droit de l’État de gouverner la vie des gens et d’intervenir sur tous les sujets par des réglementations et des taxes. Dans les médias traditionnels, on trouve la même chose : le cadre de référence est étatiste.
 
@@ -140,8 +140,9 @@ La bonne façon de voir les choses serait alors celle qui oppose les défenseurs
 C’est ce qu’a bien compris David Nolan, fondateur du Libertarian Party en 1971 et auteur du désormais célèbre Nolan Chart. Ancien élève du Massachussetts Institute of Technology (MIT), il a conçu un tableau qui est susceptible de mieux représenter la complexité du spectre politique.
 Son idée est d’ajouter à l’axe gauche-droite un deuxième axe liberté/pouvoir qui va de l’étatisme en bas (point zéro) au libertarianisme au sommet. Plus on s’éloigne du point zéro, plus le positionnement idéologique est favorable aux libertés.
 
-** image01/02
-** image01/02
+![Graphique](./assets/en/007.webp)
+
+![Graphique](./assets/en/008.webp)
 
 Le diagramme est à un carré divisé en cinq sections, avec une étiquette attribuée à chacune des sections suivantes :
   -	En bas – l’étatisme le plus autoritaire, voire totalitaire, correspondant à ceux qui soutiennent une très faible liberté économique et personnelle. 
@@ -157,25 +158,35 @@ Cela fait de l'approche bidimensionnelle du diagramme Nolan une représentation 
 
 Le diagramme représente les « libertés économiques » (niveau des impôts, marché libre, services privés) sur l’axe des abscisses, et les « libertés personnelles » (liberté de circulation, d’opinion, libre disposition de soi) sur l’axe des ordonnées. Ce schéma repose sur l’idée que la majorité des questions politiques peuvent être divisées en deux grandes catégories : économiques et personnelles (ou sociétales).
 
-#### 1° Les libertés économiques
+### 1° Les libertés économiques
 La catégorie « Libertés économiques » comprend ce que vous faites en tant que producteur et consommateur — ce que vous pouvez acheter, vendre ou produire. Où vous travaillez, qui vous embauchez ou ce que vous faites avec votre argent.
 *Exemples d’activité économique :* créer une entreprise ; acheter une maison ; construire un bâtiment ; faire ses courses ; travailler dans un bureau.
 
 * **À droite de l'axe** (vers le 100 sur les « Thèmes économiques ») : préférence pour la **liberté économique**. Cela signifie que l'on souhaite moins d'intervention de l'État dans l'économie, moins de régulations, moins d'impôts, et une plus grande liberté pour les entreprises et les individus à produire, échanger et consommer. On met l'accent sur le marché libre, la propriété privée et la concurrence comme moteurs de la prospérité.
     * *Figures emblématiques :* Margaret Thatcher (UK), Ronald Reagan (USA), Javier Milei (Argentine).
 
+![Right Graphique](./assets/en/009.webp)
+
 * **À gauche de l'axe** (vers le 0 sur les « Thèmes économiques ») : préférence pour une **intervention étatique forte dans l'économie**. Cela implique des régulations, des impôts élevés pour financer des services publics (santé, éducation, transport), des nationalisations, et une redistribution des richesses. L'objectif est souvent de réduire les inégalités et de garantir une certaine justice sociale.
     * *Figures emblématiques :* Franklin D. Roosevelt (USA), Jean Jaurès (France), Bernie Sanders, Barack Obama.
 
-#### 2° Les libertés personnelles et sociétales
+![Left Graphique](./assets/en/010.webp)
+
+### 2° Les libertés personnelles et sociétales
 La catégorie « Libertés personnelles » comprend ce que vous faites dans vos relations privées, avec vos opinions et vos croyances. En général, il s’agit de tout ce que vous faites avec votre propre corps et votre esprit.
 *Exemples d’activités personnelles :* le mariage ; choisir les livres que vous lisez et les films que vous regardez ; les aliments, les médicaments et les drogues que vous choisissez de consommer ; le sport ; vos choix religieux ; les organisations auxquelles vous adhérez ; les personnes avec lesquelles vous choisissez de vous associer.
 
 * **En haut de l'axe** (vers le 100 sur les « Thèmes sociétaux ») : préférence pour la **liberté individuelle** et la tolérance. L'État doit s'immiscer le moins possible dans les choix de vie des individus (droit à l'avortement, droits LGBTQ+, liberté d'expression, légalisation de certaines substances, etc.). On valorise l'autonomie et la diversité.
     * *Figures emblématiques :* Nelson Mandela, Simone Veil, Noam Chomsky.
 
+
+![Left Libertes Graphique](./assets/en/011.webp)    
+
 * **En bas de l'axe** (vers le 0 sur les « Thèmes sociétaux ») : préférence pour **l'ordre, la sécurité, et les valeurs traditionnelles**. L'État a un rôle à jouer pour encadrer les mœurs, maintenir l'ordre public, et parfois défendre une certaine vision de la moralité ou de la tradition, y compris par la violence. On peut y retrouver des positions en faveur de la peine de mort, de restrictions sur l'immigration, ou d'une promotion dirigiste de la famille « traditionnelle ».
     * *Figures emblématiques :* Joseph de Maistre, Vladimir Poutine, Xi Jinping.
+
+
+![Libertes Graphique](./assets/en/012.webp)
 
 ## Etes-vous étatiste de droite ou de gauche ?
 <chapterId>06d903fc-9453-47d4-b0b1-38b6b82ccf99</chapterId>
@@ -193,6 +204,8 @@ L’idée centrale du diagramme de Nolan est que la différence majeure entre le
 En d’autres termes, il n’y a pas seulement un axe gauche-droite reflétant vos valeurs personnelles, mais aussi un axe haut-bas reflétant votre volonté d’utiliser la force pour contraindre les autres à suivre vos valeurs. De ce point de vue, droite et gauche ont le même objectif politique : la conquête du pouvoir afin de pouvoir organiser la société selon leur vision du monde et l’imposer à tous. Or c’est la définition même de l’étatisme : le fait d’utiliser la législation pour contrôler la société et la modeler.
 
 C’est pourquoi on peut dire que les uns sont des **étatistes de droite**, les autres des **étatistes de gauche** ou du centre.
+
+![Libertes Graphique](./assets/en/013.webp)
 
 Pour les uns c’est au nom de la défense de la civilisation, pour les autres c’est au nom de la défense de la classe ouvrière, de la nature, ou des opprimés. Et les centristes approuvent cela également, quand ça les arrange.
 
@@ -218,6 +231,8 @@ Par exemple, un individu peut défendre des traditions culturelles (comme la fam
 Le libertarien conservateur sur le plan culturel peut désapprouver moralement certains comportements, mais il **ne préconise pas l'interdiction légale ni l'incarcération** des personnes qui s'engagent dans des actions consenties et non-agressives. Il peut détester ces actions, s'y opposer, les combattre et décourager activement les gens de s'y livrer, mais toujours **sans recourir à la force coercitive de la loi**.
 
 En pratique, des figures comme Ron Paul ou des penseurs comme Rothbard et Hoppe aux États-Unis ont tenté de concilier ces deux visions, en défendant à la fois des valeurs traditionnelles et une liberté individuelle maximale.
+
+![Libertes Graphique](./assets/en/014.webp)
 
 ## Etes-vous libéral ou libertarien ?
 <chapterId>d382c40b-78ce-416f-9f63-6ad43768406b</chapterId>
@@ -264,8 +279,6 @@ Abordons maintenant dans le détail les différentes philosophies politiques. Le
 ## Définitions structurelles et définitions intentionnelles
 <chapterId>ec5b13b7-4104-46a9-9c39-a810959a69ee</chapterId>
 
-### Définitions structurelles et définitions intentionnelles
-
 Milton Friedman écrivait : « L'une des plus grandes erreurs consiste à juger les politiques et les programmes sur leurs intentions plutôt que sur leurs résultats. Nous connaissons tous une route célèbre pavée de bonnes intentions. [...] les programmes qui sont étiquetés comme étant pour les pauvres, pour les nécessiteux, ont presque toujours des effets exactement opposés à ceux que leurs sponsors bien intentionnés souhaitent leur faire obtenir. »
 
 En effet, les politiques, souvent motivées par des intentions généreuses, peuvent avoir des conséquences imprévues ou néfastes si elles ne sont pas fondées sur une analyse rigoureuse des incitations et des comportements humains. Par exemple, une politique sociale visant à aider les pauvres crée souvent des effets pervers comme la dépendance économique ou la distorsion des marchés. Pour Friedman, les résultats mesurables — comme la croissance économique, la réduction de la pauvreté ou l’efficacité — doivent primer sur les intentions, car ces dernières, bien que nobles, ne garantissent pas le succès.
@@ -274,12 +287,14 @@ Les **définitions structurelles ou pratiques**, se concentrent sur la manière 
 
 En revanche, les **définitions intentionnelles** se basent sur les motivations, les buts ou les intentions déclarées des individus ou des groupes. Par exemple, le socialisme se donne pour but la justice sociale. Or si l'on se fie aux intentions, les choses sont brouillées car tout le monde est pour la justice. C'est pourquoi l'usage de définitions structurelles est privilégié pour une analyse plus claire et objective.
 
-Voici comment définir les familles politiques de façon structurelle :
+Les chapitres suivants expliquent comment définir les familles politiques de manière structurelle.
 
 ## Les socialistes
 <chapterId>1ef34d7b-f813-458c-934c-1d404f882150</chapterId>
 
 ![video](https://www.youtube.com/watch?v=-JBJDQqgH_k)
+
+![Socialistes Graphique](./assets/en/015.webp)
 
 * **Les libertés :** assez fortes dans le domaine sociétal mais faibles dans le domaine économique.
 * **Valeurs cardinales :** l’égalité, le progrès, la justice sociale, la solidarité.
@@ -299,6 +314,8 @@ Le concept de socialisme est un néologisme qui fut utilisé pour la première f
 
 ![video](https://www.youtube.com/watch?v=G-9CnoEcfqQ)
 
+![Conservateurs Graphique](./assets/en/016.webp)
+
 * **Libertés :** elles sont fortes dans le domaine économique mais faibles dans le domaine sociétal.
 * **Valeurs cardinales :** la vertu, l’ordre, la tradition, la civilisation.
 * **Philosophie et principes :** les conservateurs pensent que les choses sont généralement bien telles qu'elles sont et que tout changement pourrait les aggraver. Ils cherchent à conserver ce qui existe déjà, le défendent comme bon en soi, et répugnent aux changements d'un système qui leur semble avoir fait preuve d'efficacité. Au cœur de la conception traditionnelle du conservatisme se trouve un profond respect pour les institutions sociales établies de longue date, considérées comme des protections essentielles contre le chaos, l'injustice et la cruauté.
@@ -316,6 +333,8 @@ En Europe au XIXe siècle, les conservateurs sont des réactionnaires. Ils prôn
 <chapterId>9ca743de-537b-42fb-87d2-212d5f478b22</chapterId>
 
 ![video](https://www.youtube.com/watch?v=ftE1NG34yno)
+
+![Libertariens Graphique](./assets/en/017.webp)
 
 * **Libertés :** elles sont fortes dans les deux domaines, sociétal et économique.
 * **Valeurs cardinales :** la liberté individuelle, la responsabilité, la propriété privée, le consentement.
@@ -336,6 +355,8 @@ Cependant, toutes deux s'accordent sur le principe fondamental de souveraineté 
 
 ![video](https://www.youtube.com/watch?v=ZJVwYWhdhrU)
 
+![Centristes Graphique](./assets/en/018.webp)
+
 * **Libertés :** Ils soutiennent modérément les libertés individuelles et économiques.
 * **Valeurs cardinales :** la modération, le compromis, l’adaptation, l’utilité publique.
 * **Philosophie :** les centristes évitent les extrêmes et privilégient des solutions pragmatiques. Ils réfléchissent aux problèmes au cas par cas et non à partir de principes. Le pragmatisme est une philosophie politique qui privilégie l'adaptation aux contextes particuliers plutôt que l'application rigide de principes idéologiques. Cette pensée pragmatique est fondée sur l'idée que seuls les technocrates sont capables de prendre les bonnes décisions.
@@ -355,6 +376,8 @@ Sur le plan économique, le **keynésianisme** représente cette "troisième voi
 ![video](https://www.youtube.com/watch?v=0ueywR4vzHs)
 
 Il est important de noter ici que le terme « totalitarisme » fait référence à un système politique et non à une idéologie politique au sens où l'on parle de conservatisme ou de centrisme.
+
+![regimes totalitaires Graphique](./assets/en/019.webp)
 
 * **Libertés :** les régimes totalitaires soutiennent un contrôle gouvernemental très fort sur la vie personnelle et économique. Il y a totalitarisme quand l’Etat dirige tout dans la société et dispose d’un pouvoir sans limite.
 * **Philosophie :** les totalitaire pensent que l'autorité centralisée est seule à même de garantir l'ordre et l'équité, tandis que la liberté est facteur de désordre. Ils veulent que l'État contrôle tous les aspects de la vie économique et personnelle. Ce sont des régimes révolutionnaires qui justifient la violence au motif que le système existant avant était entièrement mauvais (table rase).
@@ -510,6 +533,7 @@ Les constructivistes jugent le processus politique plus efficace que le processu
 Il y a des collectivismes de droite (national-socialisme, fascisme) et de gauche (communisme, socialisme).
 Selon Pascal Salin et Karl Popper, on distingue la **société close** (tribale, statique, totalitaire) de la **société ouverte** (dynamique, critique, fondée sur la responsabilité individuelle).
 
+
 # La tendance politique des bitcoiners
 <partId>c0de3201-5c74-4854-b872-15a27165d228</partId>
 
@@ -518,21 +542,40 @@ Selon Pascal Salin et Karl Popper, on distingue la **société close** (tribale,
 
 ![video](https://www.youtube.com/watch?v=ml33z_RYTEk)
 
+Au terme de ce cours, il nous parait essentiel d’aborder la question du positionnement politique de Bitcoin et des bitcoiners. 
+
 ### Bitcoin est-il un projet politique ?
 
-Bitcoin est une cryptomonnaie décentralisée, créée par Satoshi Nakamoto en 2008. Si Bitcoin en lui-même n’est ni de droite, ni de gauche, il a été inventé pour résoudre un problème : celui de la confiance dans les échanges financiers et les entités centralisées. Et c’est en soi un problème politique.
+Bitcoin est une cryptomonnaie décentralisée, créée par Satoshi Nakamoto en 2008, qui permet des transactions financières sans tiers de confiance, de pair à pair. 
+Bitcoin est contrôlé par un protocole logiciel open source, sans CEO, sans siège social, sans budget marketing, sans autorité désignée. Ce qui signifie qu'aucune entité politique ou gouvernement n'en a le contrôle.
 
-![Bitcoin Whitepaper Abstract](image_placeholder)
+Cette neutralité est déconcertante pour certains et peut laisser penser qu’il s’agit d’une technologie apolitique, comme l’Internet au XXe siècle ou l’imprimerie au XIVe siècle.
 
-Bitcoin offre une protection face à deux menaces : la surveillance généralisée et l'accélération de la création monétaire artificielle (inflation).
-1.  Il renforce la protection de la vie privée.
-2.  Il permet de protéger son épargne contre la spoliation par l'inflation.
+Si Bitcoin en lui-même n’est ni de droite, ni de gauche, ni d’aucune religion, il a malgré tout été inventé pour résoudre un problème, celui de la confiance dans les échanges financiers et les entités centralisées. Et c’est en soi un problème politique.
 
-> "The root problem with conventional currency is all the trust that's required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust." — Satoshi Nakamoto
+![Bitcoin Whitepaper Abstract](./assets/en/020.webp)
 
-Dans le premier bloc miné de l'histoire de Bitcoin (Genesis Block), Satoshi a inséré le titre du London Times : *"The Times 03/Jan/2009 Chancellor on brink of second bailout for banks."* C'est une critique explicite du système bancaire centralisé.
+A la lecture du White Paper de Satoshi Nakamoto, on voit que Bitcoin a été pensé pour offrir une protection novatrice face à deux menaces contemporaines majeures : la surveillance généralisée et l'accélération de la création monétaire artificielle.
 
-![Genesis Block Title](image_placeholder)
+1° Bien que n'étant pas totalement anonyme, Bitcoin renforce considérablement la protection de la vie privée en limitant la surveillance financière des individus. Cette capacité permet, par exemple, à un dissident dans une dictature de détenir et d'échanger de la valeur en ligne sans craindre la confiscation ou la censure. Bien que cela puisse sembler lointain pour les citoyens des démocraties, il s'agit d'une avancée cruciale pour les libertés individuelles.
+
+2° Bitcoin permet à chacun de protéger son épargne contre la spoliation de la propriété privée qu'incarne l'inflation monétaire. Il est une tentative de contester la mainmise de l'État sur la gestion de la monnaie en tant qu'instrument d'échange et donc de concurrencer l'État. La crise financière de 2008 et la pandémie de Covid 19 ont permis de mettre en évidence les failles du système actuel. Les milliers de milliards de dollars imprimés à partir de rien pour empêcher l’économie de s’effondrer davantage ont eu ensuite des effets dévastateurs, que nous payons encore.
+
+![Bitcoin Counterflow Abstract](./assets/en/021.webp)
+
+Ainsi Bitcoin est bien plus qu’une technologie financière, c’est un projet pour changer le monde, pour l'améliorer. C’est un projet politique ambitieux de redéfinition des rapports de pouvoir entre individus et institutions :
+
+> The root problem with conventional currency is all the trust that's required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust. — Satoshi Nakamoto
+
+Le problème fondamental des monnaies conventionnelles est toute la confiance qu'il faut accorder pour qu'elles fonctionnent. Il faut faire confiance à la banque centrale pour qu'elle ne dévalue pas la monnaie, mais l'histoire des monnaies fiduciaires est pleine de violations de cette confiance.
+
+Cette citation de Satoshi Nakamoto est fondamentale pour comprendre la philosophie derrière Bitcoin. Satoshi met en lumière les failles du système Fiat basé sur la confiance envers les institutions centralisées et propose Bitcoin comme une alternative sans confiance (trustless).
+
+Le point de départ de la démarche intellectuelle de Satoshi Nakamoto, c'est donc la trop grande confiance des gens dans la monnaie fiat et la fausse croyance que l'Etat peut résoudre les crises. En effet, dans le premier bloc miné de l'histoire de Bitcoin, Satoshi Nakamoto a inséré une phrase symbolique issue d'un article paru à la Une du London Times : 
+**"The Times 03/Jan/2009 Chancellor on brink of second bailout for banks."**
+**Le Chancelier à l'aube d'un deuxième plan de sauvetage des banques.**
+
+![Genesis Block Title](./assets/en/022.webp)
 
 Bitcoin limite le pouvoir des gouvernements sur la monnaie (dépense publique, guerres, contrôle). Le gouvernement peut tout vous prendre (maison, actions, or), mais il ne peut pas vous prendre vos bitcoins, car il ne peut pas confisquer le contenu de votre esprit.
 
@@ -559,14 +602,20 @@ Ils prônent un modèle où la confiance est placée dans des systèmes cryptogr
 #### La méthode des cypherpunks
 « Les Cypherpunks écrivent du code », proclame Éric Hughes en conclusion de son manifeste.
 Pour lui, le chemin passe par la construction active de systèmes anonymes qui rendent les divisions politiques arbitraires sans importance et inutiles. Le code est fondé sur l'application de la cryptographie pour transformer l'idée abstraite de la liberté en une nouvelle réalité économique et sociétale.
+
 Les Cypherpunks ne trouvent pas de réconfort dans les espoirs et les souhaits. Ils interviennent activement dans le cours des événements et façonnent leur propre destin.
 
 Politiquement ils cherchent à construire des réseaux décentralisés où les décisions sont prises de manière collective et où aucune entité unique ne peut imposer sa volonté. Toute centralisation est fondée sur la coercition et non sur le consentement, c’est-à-dire qu’elle traite les individus comme des enfants incapables d’autonomie et qui doivent être punis si jamais ils se mettent à vouloir décider eux-mêmes de leur sort.
+
 Cette philosophie de liberté et de construction active, héritée des Cypherpunks, sera incarnée par Satoshi Nakamoto en 2008, avec l’invention de Bitcoin. Il est le premier à concrétiser l'idée d'une monnaie électronique non censurable et souveraine.
 
-Bitcoin limite le pouvoir étatique en offrant une alternative monétaire décentralisée, pseudonyme et difficile à contrôler. Qu’il soit adopté par des militants de droite ou de gauche, par des défenseurs de la liberté ou de l’égalité, ou simplement par des épargnants sans étiquette politique, il donne aux individus la possibilité de s'émanciper du système financier traditionnel et de retrouver la maîtrise de leur argent. 
-De ce point de vue, sans se revendiquer explicitement d'un camp politique, Bitcoin porte en lui les germes d'une révolution silencieuse et rejoint le haut du cadran, dans le diagramme de Nolan. 
+![Cypherpunk Diagramme](./assets/en/023.webp)
 
+Bitcoin limite le pouvoir étatique en offrant une alternative monétaire décentralisée, pseudonyme et difficile à contrôler. Qu’il soit adopté par des militants de droite ou de gauche, par des défenseurs de la liberté ou de l’égalité, ou simplement par des épargnants sans étiquette politique, il donne aux individus la possibilité de s'émanciper du système financier traditionnel et de retrouver la maîtrise de leur argent.
+
+De ce point de vue, sans se revendiquer explicitement d'un camp politique, Bitcoin porte en lui les germes d'une révolution silencieuse et rejoint le haut du cadran, dans le diagramme de Nolan.
+
+![Politique Diagramme](./assets/en/024.webp)
 
 ## qui devrait décider ?
 <chapterId>cfc7688e-d647-4af1-880d-c70d3ae7d823</chapterId>
@@ -603,9 +652,7 @@ La monnaie d'État, ou monnaie fiat, est un système coercitif et centralisé, f
 Ainsi Bitcoin, grâce à son offre fixe et sa nature décentralisée, représente la forme de monnaie la plus saine jamais inventée, offrant une alternative potentielle à l'expansion du pouvoir étatique et au financement illimité des guerres.
 Finalement Bitcoin n'est pas un projet politique classique, au sens d'une initiative étatique ou coercitive. C'est une technologie qui permet aux individus de décider par eux-mêmes, ce qui a, paradoxalement, des conséquences politiques profondes en limitant les pouvoirs centralisés et dominateurs.
 
-
-
-![Leonard Read Quote](image_placeholder)
+![Leonard Read Quote](./assets/en/025.webp)
 
 # Section finale
 

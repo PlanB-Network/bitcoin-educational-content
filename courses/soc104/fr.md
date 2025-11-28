@@ -13,6 +13,7 @@ objectives:
 
 Ce cours vous révélera aussi pourquoi Bitcoin est plus qu'une simple monnaie : c'est un projet politique hérité des Cypherpunks. Loin d'être classable sur un axe linéaire, Bitcoin est une force de décentralisation qui s'oppose à la monnaie d'État, offrant une échappatoire pacifique à l'inflation et à la surveillance. En limitant le pouvoir centralisé sur la monnaie, Bitcoin redéfinit la question politique essentielle : Est-ce vous qui décidez de votre vie, ou est-ce quelqu'un d'autre ? Plongez dans cette analyse pour affiner votre boussole idéologique et comprendre l'impact politique profond de cette technologie sur votre liberté individuelle.
 
+
 +++
 
 # Tendance politique

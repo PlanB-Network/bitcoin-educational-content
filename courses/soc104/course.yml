@@ -1,6 +1,6 @@
-id: d3ca6943-b22c-4e50-b62d-9431460525bc
-topic: protocol
-subtopic: history
+id: 9421c810-523a-4f05-95bd-d2441e3ac2a8
+topic: social studies
+subtopic: economy
 type: practice
 level: intermediate
 hours: 10
@@ -9,7 +9,7 @@ professors_id:
   - c3eebea1-2a89-45d1-bf01-8defd8e9d53d
 
 
-published_at: 2025-01-15
+published_at: 2025-11-25
 # Proofreading metadata
 original_language: en
 
@@ -17,37 +17,3 @@ tags:
   - sidechains
   - development
   - protocols
-videos:
-  - id: e0166470-5561-4b3b-9d0d-4edee69b64d8
-    youtube:
-      - en: gkQfnwYLyI0
-  - id: eae666b4-eddc-4e00-adea-2a5f94396044
-    youtube:
-      - en: ns-JLGdkNig
-  - id: 7c8c7981-11e5-47a2-a257-ef998f4892f5
-    youtube:
-      - en: v0lzmfH81AY
-  - id: 1f73dfee-3623-483b-ab42-07d9286ed999
-    youtube:
-      - en: Frr_OjTEPAM
-  - id: ea2121b6-24a8-458d-91e6-0c92eaf4dc65
-    youtube:
-      - en: -by2xBtXQeE
-  - id: 7ac63148-d730-496d-85d4-0032aaf09be1
-    youtube:
-      - en: XnY4WZUNSs4
-  - id: 7df967b0-ffff-42e1-b1d5-868e76289faf
-    youtube:
-      - en: 5em79YHtYk0
-  - id: c5a81820-77d7-4a0c-9a4e-9323386a74ac
-    youtube:
-      - en: kxWX91fCnus
-  - id: c15e7eaf-9b5d-4696-bb36-bd10e7b56967
-    youtube:
-      - en: egYzj4N8CB8
-  - id: 4955306b-4be3-429c-9d30-068f7644ea73
-    youtube:
-      - en: u-3rV7DGtD0
-  - id: bd5167d5-edba-40b0-a8b1-ba8b74493a08
-    youtube:
-      - en: CTMdamTZBBM

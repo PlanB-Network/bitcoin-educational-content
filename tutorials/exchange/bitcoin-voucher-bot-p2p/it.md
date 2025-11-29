@@ -188,3 +188,23 @@ Per creare un ordine di vendita ti basta cliccare su “Sell Bitcoin” (“Vend
 4. Premi su “Sell Bitcoin”(“Vendi Bitcoin”) per accettare la proposta.
 
 ![image](assets/it/18.webp)
+
+**Deposito richiesto dal venditore**
+
+Quando l’ordine viene accettato, il sistema genera una fattura da pagare.
+Il deposito comprende:
+    • l’importo totale dell’ordine,
+    • la commissione di servizio.
+Il pagamento del deposito deve essere effettuato entro il tempo limite stabilito, altrimenti la transazione non verrà confermata.
+
+![image](assets/it/19.webp)
+
+**Invio delle istruzioni di pagamento**
+
+Dopo aver versato il deposito, l’operazione apparirà nella dashboard personale del venditore, che dovrà fornire i dettagli all’acquirente per completare il pagamento in valuta fiat.
+    1. Il venditore visualizza la transazione attiva nel proprio pannello.
+    2. Clicca su “Invia istruzioni di pagamento”.
+    3. Inserisci tutte le informazioni necessarie per il pagamento fiat (IBAN, destinatario, indirizzo, causale, ecc.).
+    4. Clicca su “Send Message”(“Invia messaggio”) per trasmettere i dati all’acquirente.
+
+![image](assets/it/20.webp)

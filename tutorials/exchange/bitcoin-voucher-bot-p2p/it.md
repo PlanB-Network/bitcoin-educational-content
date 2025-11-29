@@ -160,10 +160,15 @@ Conferma l’ordine: clicca su “Create Order”(“Conferma ordine”) per pas
 
 Deposito richiesto
 Per attivare l’ordine è necessario versare un deposito pari al 10% dell’importo totale, più una commissione di servizio.
-    • Pagamento del deposito: al momento della creazione dell’ordine, il sistema genera automaticamente una fattura Lightning. Il deposito è solo temporaneo e viene rimborsato al completamento dell’ordine.
-    • Caratteristiche principali:
-        ◦ Deposito cauzionale: 10% del valore dell’ordine.
-        ◦ Commissione di servizio: costo per l’utilizzo della piattaforma.
-        ◦ Tempo limite: hai 5 minuti per effettuare il pagamento, altrimenti l’operazione scade.
+- Pagamento del deposito: al momento della creazione dell’ordine, il sistema genera automaticamente una fattura Lightning. Il deposito è solo temporaneo e viene rimborsato al completamento dell’ordine.
+- Caratteristiche principali:
+- Deposito cauzionale: 10% del valore dell’ordine.
+- Commissione di servizio: costo per l’utilizzo della piattaforma.
+- Tempo limite: hai 5 minuti per effettuare il pagamento, altrimenti l’operazione scade.
+
+![image](assets/it/15.webp)
+        
 Dopo il pagamento andato a buon fine, l’ordine comparirà nel book e sarà visibile a tutti gli utenti, che potranno sceglierlo e accettarlo.
 Per creare un ordine di vendita ti basta cliccare su “Sell Bitcoin” (“Vendi Bitcoin”), inserire la quantità di satoshi che desideri vendere, impostare il margine, selezionare il metodo di pagamento e la valuta, quindi procedere con il versamento del 10% come deposito cauzionale. Una volta completata l’operazione, il tuo match sarà visibile nell’elenco.
+
+![image](assets/it/16.webp)

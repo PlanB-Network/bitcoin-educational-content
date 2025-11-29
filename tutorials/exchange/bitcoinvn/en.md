@@ -37,10 +37,11 @@ In the "You receive" section - the big square with Bitcoin logo, select BTC (Bit
 
 Manually enter the amount you desired to swap and use the [daily limits link](https://bitcoinvn.io/info) or Min/Max buttons to check your capacity if you do not have an account. The system instantly calculates the final amount of BTC you will receive after factoring in the [swap fees](https://support.bitcoinvn.io/help/en-us/4-orders/12-fees) and exchange rate at that specific time. Review the final BTC amount to see if you are happy with the deal.
 
-   * *Tips:*
-        * Remember that transaction rates fluctuate, so always check the final price before confirming.
-        * An account is not required with daily transaction limits of less than 10M VND ($\sim \$400$ USD).
-        * Network fee is generally cheaper when you choose Lightning Network compared to mainchain.
+#### Tips:
+
+**Remember that transaction rates fluctuate, so always check the final price before confirming.**
+**An account is not required with daily transactions limited to VND 250,000 (~ USD $8). Further information is available in our [bank transfer policies]: (https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).**
+**Network fee is generally cheaper when you choose Lightning Network compared to mainchain.**
 
 ### Step 4: Enter Your Bitcoin Address
 

@@ -233,3 +233,10 @@ Questo passaggio è cruciale per l’acquirente e va eseguito soltanto dopo aver
 Il pulsante “Conferma pagamento fiat” compare nella sezione della transazione e deve essere usato esclusivamente dopo aver verificato che il pagamento è stato davvero inviato.
 
 ![image](assets/it/22.webp)
+
+L’ultima fase del processo consiste nella conferma, da parte del venditore, dell’avvenuta ricezione del pagamento fiat, a seguito della quale i sats vengono rilasciati all’acquirente.
+
+![image](assets/it/23.webp)
+
+Nella speranza che questo tutorial ti possa essere d'aiuto per utilizzare un nuovo metodo per scambiare Bitcoin o anche solo acquistarli, sia per la tua riserva di valore sia per iniziare a dare vita ai pagamenti quotidiani. Resta comunque una porta da esplorare per far fronte a quello che sta per succedere nel nostro mondo digitale. 
+Il cappio gestito dagli organi che ci controllano si sta stringendo, per dar vita a un internet sempre più controllato. Comprando P2P, manterrai nel più totale anonimato i tuoi acquisti, senza lasciare tracce e senza dar seguito a ripercussioni da terzi.

@@ -172,3 +172,19 @@ Dopo il pagamento andato a buon fine, l’ordine comparirà nel book e sarà vis
 Per creare un ordine di vendita ti basta cliccare su “Sell Bitcoin” (“Vendi Bitcoin”), inserire la quantità di satoshi che desideri vendere, impostare il margine, selezionare il metodo di pagamento e la valuta, quindi procedere con il versamento del 10% come deposito cauzionale. Una volta completata l’operazione, il tuo match sarà visibile nell’elenco.
 
 ![image](assets/it/16.webp)
+
+**Come accettare un ordine**
+
+1. I venditori possono consultare l’elenco di tutti gli ordini disponibili nel book.
+2. Controlla i dettagli: ogni ordine mostra informazioni come:
+- Quantità di Bitcoin,
+- Margine sul prezzo,
+- Metodo di pagamento,
+- Reputazione dell’utente.
+
+![image](assets/it/17.webp)
+
+3. Clicca sull’ordine per aprire la scheda completa con tutte le informazioni.
+4. Premi su “Sell Bitcoin”(“Vendi Bitcoin”) per accettare la proposta.
+
+![image](assets/it/18.webp)

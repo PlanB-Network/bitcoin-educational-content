@@ -1,6 +1,6 @@
 ---
 name: Umbrel
-description: Temukan dan instal Umbrel - Node Bitcoin dan server rumah Anda
+description: Temukan dan instal Umbrel - Node Bitcoin dan server rumah kamu
 ---
 
 ![cover](assets/cover.webp)
@@ -15,51 +15,30 @@ description: Temukan dan instal Umbrel - Node Bitcoin dan server rumah Anda
 
 
 
-Node Bitcoin adalah komputer yang berpartisipasi dalam jaringan Bitcoin dengan menjalankan perangkat lunak Bitcoin Core atau klien alternatif. Perannya sangat penting untuk pengoperasian dan keamanan jaringan:
-
-
-
-
+Node Bitcoin adalah komputer yang ikut berpartisipasi di jaringan Bitcoin dengan menjalankan perangkat lunak Bitcoin Core atau klien alternatif. Perannya sangat penting untuk operasi dan keamanan jaringan.
 
 - **Penyimpanan Blockchain**: Menyimpan salinan Blockchain Bitcoin yang lengkap dan terbaru
 - **Verifikasi transaksi**: memvalidasi setiap transaksi dan blokir sesuai dengan aturan protokol
 - **Penyebaran informasi**: Membagikan transaksi dan blok baru dengan node lain
 - **Membangun konsensus**: Berkontribusi pada penerapan aturan jaringan
 
+Menjalankan node Bitcoin kamu sendiri adalah langkah penting menuju kedaulatan finansial, yang menawarkan beberapa manfaat utama:
 
-
-Menjalankan node Bitcoin Anda sendiri merupakan langkah penting menuju kedaulatan finansial, yang menawarkan beberapa manfaat utama:
-
-
-
-
-
-- **Kerahasiaan**: Bagikan transaksi Anda tanpa mengungkapkan informasi Anda kepada pihak ketiga
-- **Ketahanan terhadap sensor**: Tidak ada yang bisa menghentikan Anda menggunakan Bitcoin
-- **Verifikasi independen**: Tidak perlu mempercayai node orang lain untuk memverifikasi transaksi Anda
+- **Kerahasiaan**: Bagikan transaksi kamu tanpa mengungkapkan informasimu sendiri kepada pihak ketiga
+- **Ketahanan terhadap sensor**: Tidak ada yang bisa menghentikan kamu menggunakan Bitcoin
+- **Verifikasi independen**: Tidak perlu mempercayai node orang lain untuk memverifikasi transaksi kamu
 - **Membangun konsensus**: Berkontribusi pada penerapan aturan jaringan Bitcoin
 - **Dukungan jaringan**: Menjadi peserta aktif dalam distribusi dan desentralisasi jaringan
 
-
-
 ### Payung: Solusi sederhana untuk menjalankan node Bitcoin
 
-
-
-Umbrel adalah sistem operasi sumber terbuka yang menyederhanakan instalasi dan manajemen node Bitcoin. Sistem ini juga mengubah komputer Anda menjadi server rumah pribadi dan pribadi, sehingga mudah untuk dihosting:
-
-
-
-
+Umbrel adalah sistem operasi sumber terbuka yang menyederhanakan instalasi dan manajemen node Bitcoin. Sistem ini juga mengubah komputer kamu menjadi server rumah yang pribadi dan mudah dihosting, sehingga semuanya lebih sederhana buat kamu.
 
 - Node Bitcoin yang lengkap
 - Bitcoin aplikasi penting (Electrs, Mempool.space)
 - Layanan pribadi lainnya (penyimpanan awan, streaming, VPN, dll.)
 
-
-
-Dengan pengguna Interface yang elegan dan intuitif, Umbrel membuat layanan yang di-host sendiri dapat diakses oleh semua orang, sambil tetap mempertahankan kontrol penuh atas data Anda.
-
+Dengan antarmuka yang elegan dan intuitif, Umbrel bikin layanan self hosted bisa diakses semua orang sambil tetap menjaga kontrol penuh atas data kamu.
 
 
 ## Opsi pemasangan payung
@@ -76,15 +55,9 @@ Umbrel menawarkan dua cara utama untuk menggunakan solusi mereka: opsi siap paka
 
 ### Umbrel Home: Solusi siap pakai
 
-
-
-Umbrel Home adalah server rumah yang telah dikonfigurasi sebelumnya, yang dirancang khusus untuk pengalaman yang optimal. Solusi perangkat keras all-in-one ini mencakup:
-
-
+Umbrel Home adalah server rumah yang sudah dikonfigurasi sebelumnya dan dirancang khusus buat pengalaman yang optimal. Solusi perangkat keras all in one ini mencakup:
 
 **Fitur perangkat keras**
-
-
 
 
 - Prosesor berkinerja tinggi yang dioptimalkan untuk hosting mandiri
@@ -117,8 +90,7 @@ Umbrel Home adalah server rumah yang telah dikonfigurasi sebelumnya, yang diranc
 
 
 
-UmbrelOS adalah versi sumber terbuka gratis dari sistem operasi Umbrel. Solusi fleksibel ini memungkinkan Anda menggunakan perangkat keras Anda sendiri sambil memanfaatkan fitur-fitur penting Umbrel.
-
+UmbrelOS adalah versi sumber terbuka gratis dari sistem operasi Umbrel. Solusi yang fleksibel ini memungkinkan kamu memakai perangkat keras kamu sendiri sambil tetap menikmati fitur fitur utama Umbrel.
 
 
 **Manfaat**
@@ -179,7 +151,7 @@ Tautan instalasi resmi :
 
 
 
-Dalam tutorial ini, kita akan berkonsentrasi untuk menginstal UmbrelOS di Raspberry Pi 5, tetapi prinsip-prinsip dasarnya tetap sama untuk platform lain.
+Dalam tutorial ini, kita akan fokus ke instalasi UmbrelOS di Raspberry Pi 5, tapi prinsip dasarnya sama untuk platform lain.
 
 
 
@@ -234,7 +206,7 @@ Untuk instalasi ini, Anda memerlukan :
 
 
 
-- Unduh dan instal [Balena Etcher](https://www.balena.io/etcher/) di komputer Anda
+- Unduh dan instal [Balena Etcher](https://www.balena.io/etcher/) di komputer kamu
 
 
 
@@ -247,7 +219,7 @@ Untuk instalasi ini, Anda memerlukan :
 
 
 
-- Masukkan kartu microSD ke pembaca kartu komputer Anda
+- Masukkan kartu microSD ke pembaca kartu komputer kamu
 
 
 
@@ -262,7 +234,7 @@ Untuk instalasi ini, Anda memerlukan :
 
 - Luncurkan Balena Etcher
 - Pilih gambar UmbrelOS yang diunduh
-- Pilih kartu microSD Anda sebagai tujuan
+- Pilih kartu microSD kamu sebagai tujuan
 - Klik "Flash!" dan tunggu sampai prosesnya selesai
 - Mengeluarkan kartu dengan aman
 
@@ -277,7 +249,7 @@ Untuk instalasi ini, Anda memerlukan :
 
 
 
-- Masukkan kartu microSD ke dalam Raspberry Pi 5 Anda
+- Masukkan kartu microSD ke dalam Raspberry Pi 5 kamu
 
 
 
@@ -291,7 +263,7 @@ Untuk instalasi ini, Anda memerlukan :
 
 
 - Sambungkan SSD eksternal ke port USB yang tersedia
-- Sambungkan kabel Ethernet antara Pi dan router Anda
+- Sambungkan kabel Ethernet antara Pi dan router kamu
 
 
 
@@ -318,7 +290,7 @@ Untuk instalasi ini, Anda memerlukan :
 
 
 
-- Pada perangkat yang terhubung ke jaringan yang sama, buka browser Anda
+- Pada perangkat yang terhubung ke jaringan yang sama, buka browser kamu
 - Akses situs web Interface Umbrel di: `http://umbrel.local`
 
 
@@ -327,14 +299,14 @@ Untuk instalasi ini, Anda memerlukan :
 
 
 
-Jika `umbrel.local` tidak berfungsi, Anda harus menemukan IP Address Raspberry Pi Anda di jaringan lokal Anda. Anda bisa:
+Jika `umbrel.local` tidak berfungsi, kamu harus menemukan IP Address Raspberry Pi Anda di jaringan lokal kamu. Anda bisa:
 
 
 
 
-- Konsultasikan dengan Interface router Anda
+- Konsultasikan dengan Interface router kamu
 - Menggunakan pemindai jaringan seperti nmap
-- Gunakan perintah `arp -a` di terminal komputer Anda
+- Gunakan perintah `arp -a` di terminal komputer kamu
 
 
 
@@ -342,15 +314,14 @@ Jika `umbrel.local` tidak berfungsi, Anda harus menemukan IP Address Raspberry P
 
 
 
-Setelah Umbrel Anda dijalankan dan dapat diakses melalui browser Anda, ikuti langkah-langkah berikut untuk memulai:
-
+Setelah Umbrel kamu berjalan dan bisa diakses lewat browser, ikuti langkah langkah berikut untuk memulai:
 
 
 ### Konfigurasi awal
 
 
 
-**Buat akun Anda**
+**Buat akun kamu**
 
 
 
@@ -361,7 +332,7 @@ Setelah Umbrel Anda dijalankan dan dapat diakses melalui browser Anda, ikuti lan
 
 - Memilih nama pengguna
 - Mengatur kata sandi yang aman
-- Anda akan memerlukan kredensial ini untuk mengakses Umbrel Anda
+- Kamu akan memerlukan kredensial ini untuk mengakses Umbrel kamu
 
 
 
@@ -374,7 +345,7 @@ Setelah Umbrel Anda dijalankan dan dapat diakses melalui browser Anda, ikuti lan
 
 
 
-- Klik "Berikutnya" untuk mengakses dasbor Anda
+- Klik "Berikutnya" untuk mengakses dasbor kamu
 
 
 
@@ -421,7 +392,7 @@ Setelah Umbrel Anda dijalankan dan dapat diakses melalui browser Anda, ikuti lan
 
 
 - Server Electrum untuk menghubungkan dompet Bitcoin
-- Sinkronisasi dengan node Bitcoin Anda
+- Sinkronisasi dengan node Bitcoin kamu
 
 
 
@@ -443,19 +414,17 @@ Setelah Umbrel Anda dijalankan dan dapat diakses melalui browser Anda, ikuti lan
 
 
 
-Mempool.space adalah penjelajah Blockchain sumber terbuka yang menyediakan visualisasi real-time dari jaringan Bitcoin. Ini memungkinkan Anda melacak transaksi Anda dan memahami bagaimana transaksi menyebar di jaringan.
-
+Mempool.space adalah penjelajah blockchain sumber terbuka yang menyediakan visualisasi real time dari jaringan Bitcoin. Ini memungkinkan kamu melacak transaksi kamu dan memahami bagaimana transaksi menyebar di jaringan.
 
 
 ### Memahami Mempool dan konfirmasi
 
 
 
-"Mempool" (kumpulan memori) adalah seperti ruang tunggu virtual di mana semua transaksi Bitcoin yang belum dikonfirmasi disimpan sebelum dimasukkan ke dalam blok. Berikut adalah bagaimana sebuah transaksi diproses:
+“Mempool” adalah ruang tunggu virtual tempat semua transaksi Bitcoin yang belum dikonfirmasi disimpan sebelum dimasukkan ke dalam blok. Begini cara sebuah transaksi diproses:
 
 
-
-1. **Disiarkan**: Ketika Anda mengirim transaksi, transaksi tersebut pertama kali disiarkan di jaringan Bitcoin
+1. **Disiarkan**: Ketika kamu mengirim transaksi, transaksi tersebut pertama kali disiarkan di jaringan Bitcoin
 
 
 2. **Menunggu di Mempool**: Menunggu untuk dipilih oleh Miner berdasarkan biaya
@@ -509,7 +478,7 @@ Jumlah konfirmasi yang direkomendasikan tergantung pada jumlahnya:
 
 
 
-Setelah transaksi Anda ditemukan, Mempool.space menyajikan analisis lengkap kepada Anda:
+Setelah transaksi kamu ditemukan, Mempool.space menyajikan analisis lengkap ke kamu:
 
 
 
@@ -559,7 +528,7 @@ Setelah transaksi Anda ditemukan, Mempool.space menyajikan analisis lengkap kepa
 
 
 
-1. **Kerahasiaan**: Permintaan Anda melalui simpul Anda sendiri
+1. **Kerahasiaan**: Permintaan kamu melalui simpul Anda sendiri
 
 
 2. **Kemandirian**: Tidak perlu bergantung pada layanan pihak ketiga
@@ -569,8 +538,7 @@ Setelah transaksi Anda ditemukan, Mempool.space menyajikan analisis lengkap kepa
 
 
 
-Dengan aplikasi ini, Anda dapat memantau transaksi Anda secara efisien, memahami bagaimana biaya memengaruhi kecepatan konfirmasi, dan mendapatkan pemahaman yang lebih baik tentang cara kerja jaringan Bitcoin.
-
+Dengan aplikasi ini, kamu bisa memantau transaksi kamu dengan efisien, memahami bagaimana biaya memengaruhi kecepatan konfirmasi, dan dapat pemahaman yang lebih baik tentang cara kerja jaringan Bitcoin.
 
 
 ## Menghubungkan Wallet Bitcoin ke node Anda
@@ -590,7 +558,7 @@ Dengan aplikasi ini, Anda dapat memantau transaksi Anda secara efisien, memahami
 
 
 
-- Untuk digunakan pada jaringan lokal Anda
+- Untuk digunakan pada jaringan lokal kamu
 - Lebih cepat dan lebih mudah diatur
 
 
@@ -604,7 +572,7 @@ Dengan aplikasi ini, Anda dapat memantau transaksi Anda secara efisien, memahami
 
 
 
-- Untuk mengakses node Anda dari mana saja
+- Untuk mengakses node dari mana saja
 - Lebih aman dan pribadi
 
 
@@ -661,7 +629,7 @@ Sparrow menawarkan tiga mode koneksi:
 
 
 
-- Sambungkan ke server Electrs Anda
+- Sambungkan ke server Electrs kamu
 - Memadukan kerahasiaan dan kinerja
 
 
@@ -670,8 +638,7 @@ Sparrow menawarkan tiga mode koneksi:
 
 
 
-Pilih jenis koneksi Anda menggunakan informasi yang ditampilkan di aplikasi Electrs yang telah kita lihat sebelumnya:
-
+Pilih jenis koneksi kamu dengan memakai informasi yang ditampilkan di aplikasi Electrs yang sudah kita lihat sebelumnya.
 
 
 Pada kedua kasus tersebut, biarkan opsi "Gunakan SSL" dan "Gunakan proxy" tidak dicentang.
@@ -698,8 +665,7 @@ Nomor port: 50001
 
 
 
-Sambungan Tor diperlukan jika Anda ingin mengakses node Anda di luar jaringan lokal Anda.
-
+Koneksi Tor diperlukan kalau kamu ingin mengakses node kamu dari luar jaringan lokal kamu.
 
 
 ![Configuration connexion](assets/fr/21.webp)
@@ -713,8 +679,7 @@ https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-Umbrel Anda sekarang siap digunakan. Anda berpartisipasi secara aktif dalam jaringan Bitcoin dengan tetap memegang kendali penuh atas data Anda. Jangan ragu untuk menjelajahi banyak aplikasi lain yang tersedia di Umbrel App Store untuk memperluas kemampuan server rumah Anda.
-
+Umbrel kamu sekarang siap dipakai. Kamu ikut berpartisipasi aktif di jaringan Bitcoin sambil tetap pegang kendali penuh atas data kamu. Jangan ragu buat jelajahi banyak aplikasi lain yang tersedia di Umbrel App Store untuk memperluas kemampuan server rumah kamu.
 
 
 ## Sumber daya yang berguna

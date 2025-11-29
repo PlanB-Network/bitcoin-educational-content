@@ -202,10 +202,11 @@ Il pagamento del deposito deve essere effettuato entro il tempo limite stabilito
 **Invio delle istruzioni di pagamento**
 
 Dopo aver versato il deposito, l’operazione apparirà nella dashboard personale del venditore, che dovrà fornire i dettagli all’acquirente per completare il pagamento in valuta fiat.
-    1. Il venditore visualizza la transazione attiva nel proprio pannello.
-    2. Clicca su “Invia istruzioni di pagamento”.
-    3. Inserisci tutte le informazioni necessarie per il pagamento fiat (IBAN, destinatario, indirizzo, causale, ecc.).
-    4. Clicca su “Send Message”(“Invia messaggio”) per trasmettere i dati all’acquirente.
+
+1. Il venditore visualizza la transazione attiva nel proprio pannello.
+2. Clicca su “Invia istruzioni di pagamento”.
+3. Inserisci tutte le informazioni necessarie per il pagamento fiat (IBAN, destinatario, indirizzo, causale, ecc.).
+4. Clicca su “Send Message”(“Invia messaggio”) per trasmettere i dati all’acquirente.
 
 ![image](assets/it/20.webp)
 
@@ -224,10 +225,11 @@ Il trasferimento avviene al di fuori del sistema P2P e deve essere effettuato at
 **Conferma del pagamento fiat**
 
 Questo passaggio è cruciale per l’acquirente e va eseguito soltanto dopo aver verificato che il pagamento sia stato effettivamente inviato.
-    1. Ricezione dati: l’acquirente ha ricevuto le istruzioni di pagamento dal venditore.
-    2. Esecuzione del pagamento: il trasferimento fiat viene disposto dal proprio conto bancario.
-    3. Verifica: controllare che l’operazione sia stata elaborata correttamente.
-    4. Conferma su piattaforma: cliccare su “Confirm fiat payment”(“Conferma pagamento fiat”) nella pagina del trade.
+
+1. Ricezione dati: l’acquirente ha ricevuto le istruzioni di pagamento dal venditore.
+2. Esecuzione del pagamento: il trasferimento fiat viene disposto dal proprio conto bancario.
+3. Verifica: controllare che l’operazione sia stata elaborata correttamente.
+4. Conferma su piattaforma: cliccare su “Confirm fiat payment”(“Conferma pagamento fiat”) nella pagina del trade.
 Il pulsante “Conferma pagamento fiat” compare nella sezione della transazione e deve essere usato esclusivamente dopo aver verificato che il pagamento è stato davvero inviato.
 
 ![image](assets/it/22.webp)

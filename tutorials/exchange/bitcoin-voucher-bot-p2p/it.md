@@ -143,8 +143,11 @@ Infine, trovi la tua sezione referral, con i guadagni generati dagli utenti che 
 **Crea un ordine per Acquistare Bitcoin**
 
 Entra nel Marketplace: dalla barra di navigazione principale, clicca sul simbolo del carrello “Marketplace”(“Mercato”) per aprire il book ordini.
-
 Avvia un nuovo ordine: premi sul pulsante “New Order”(“Nuovo ordine”) per iniziare la procedura.
+
+![image](assets/it/13.webp)
+
+
 Imposta i dettagli dell’ordine:
 Seleziona l’opzione “Buy Bitcoin”(“Acquista Bitcoin”).
 Inserisci la quantità di sats che desideri.
@@ -152,6 +155,9 @@ Definisci il margine di prezzo (tra -20% e +20% rispetto al valore di mercato).
 Scegli il metodo di pagamento (Instant SEPA, ecc.).
 Indica la valuta preferita.
 Conferma l’ordine: clicca su “Create Order”(“Conferma ordine”) per passare alla fase di deposito.
+
+![image](assets/it/14.webp)
+
 Deposito richiesto
 Per attivare l’ordine è necessario versare un deposito pari al 10% dell’importo totale, più una commissione di servizio.
     • Pagamento del deposito: al momento della creazione dell’ordine, il sistema genera automaticamente una fattura Lightning. Il deposito è solo temporaneo e viene rimborsato al completamento dell’ordine.

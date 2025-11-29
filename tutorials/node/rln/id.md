@@ -4,17 +4,17 @@ description: Bagaimana cara meluncurkan node Lightning yang kompatibel dengan RG
 ---
 ![cover](assets/cover.webp)
 
-Dalam tutorial langkah demi langkah ini, Anda akan mempelajari cara menyiapkan node Lightning RGB di lingkungan Regtest. Kita akan melihat cara membuat token RGB dan mengedarkannya di saluran.
+Dalam tutorial langkah demi langkah ini, kamu bakal belajar cara nyiapin node Lightning RGB di lingkungan Regtest. Kita juga bakal lihat cara bikin token RGB dan mengedarkannya di channel.
 
 ## Proyek RLN
 
-Tim RGB Bitfinex telah bekerja sejak tahun 2022 untuk memperkaya ekosistem RGB dengan mengembangkan rangkaian teknologi yang lengkap. Alih-alih bertujuan untuk satu produk komersial, upayanya difokuskan untuk menyediakan batu bata perangkat lunak sumber terbuka, berkontribusi pada spesifikasi protokol RGB, dan membuat referensi implementasi.
+Tim RGB Bitfinex udah bekerja sejak 2022 buat memperkaya ekosistem RGB dengan ngembangin rangkaian teknologi yang lengkap. Alih-alih ngejar satu produk komersial, fokusnya ada di penyediaan software building blocks open-source, kontribusi ke spesifikasi protokol RGB, dan bikin implementasi referensi.
 
 Di antara kontribusi penting Bitfinex terhadap ekosistem RGB adalah [pustaka *RGBlib*] (https://github.com/RGB-Tools/rgb-lib), yang ditulis dalam bahasa Rust dan dapat diakses melalui binding di Kotlin dan Python, yang sangat menyederhanakan pengembangan aplikasi RGB dengan mengenkapsulasi mekanisme validasi dan keterlibatan yang kompleks.
 
 Tim Bitfinex juga telah merancang dompet seluler RGB, yang disebut "[*Iris Wallet*](https://iriswallet.com/)", tersedia di Android. Dompet ini mengintegrasikan penggunaan server proxy RGB untuk dengan mudah mengelola pertukaran data off-chain (*kiriman*) untuk *Validasi Sisi Klien* pada RGB.
 
-Bitfinex juga telah mengembangkan proyek `rgb-lightning-node` (RLN). Ini adalah daemon Rust yang didasarkan pada fork dari `rust-lightning` (LDK), yang dimodifikasi untuk memperhitungkan keberadaan aset RGB dalam sebuah saluran. Ketika saluran dibuka, keberadaan token RGB dapat ditentukan, dan setiap kali status saluran diperbarui, transisi status dibuat yang mencerminkan distribusi token dalam output Lightning. Hal ini memungkinkan :
+Bitfinex juga ngembangin proyek 'rgb-lightning-node' (RLN). Ini adalah daemon Rust yang dibangun dari fork 'rust-lightning' (LDK) yang dimodifikasi supaya bisa ngitung keberadaan aset RGB di dalam sebuah channel. Waktu channel dibuka, kamu bisa nentuin apakah ada token RGB di dalamnya, dan setiap kali status channel diperbarui, bakal dibuat *state transition* yang ngegambarin distribusi token dalam output Lightning. Ini memungkinkan:
 
 
 - Buka saluran Lightning dalam USDT, misalnya;
@@ -25,9 +25,9 @@ Kode RLN masih dalam tahap alfa: kami sarankan untuk menggunakannya di **regtest
 
 ## Pengingat protokol RGB
 
-RGB adalah sebuah protokol yang berjalan di atas Bitcoin dan meniru fungsionalitas smart contract dan manajemen aset digital, tanpa membebani blockchain yang menjadi basisnya. Tidak seperti smart contract on-chain konvensional (seperti pada Ethereum, misalnya), RGB bergantung pada sistem "*Validasi sisi klien*": sebagian besar data dan riwayat status dipertukarkan dan disimpan secara eksklusif oleh para partisipan yang terlibat, sedangkan blockchain Bitcoin hanya menyimpan komitmen kriptografi kecil (melalui mekanisme seperti *Tapret* atau *Opret*). Dalam protokol RGB, blockchain Bitcoin hanya berfungsi sebagai server pencatat waktu dan sistem proteksi pembelanjaan ganda.
+RGB adalah protokol yang berjalan di atas Bitcoin dan meniru fungsionalitas smart contract dan manajemen aset digital tanpa ngebebanin blockchain dasarnya. Berbeda dari smart contract on-chain konvensional (kayak di Ethereum, misalnya), RGB bergantung pada sistem *client-side validation:* sebagian besar data dan riwayat status dipertukarkan dan disimpen secara eksklusif sama para partisipan, sementara blockchain Bitcoin cuma nyimpen komitmen kriptografi kecil lewat mekanisme kayak *Tapret* atau *Opret*. Dalam protokol RGB, blockchain Bitcoin cuma berperan sebagai server pencatat waktu dan sistem proteksi dari double-spend.
 
-Kontrak RGB terstruktur seperti mesin status evolusioner. Dimulai dengan Genesis yang mendefinisikan keadaan awal (menggambarkan, misalnya, pasokan, ticker, atau metadata lainnya) menurut Skema yang diketik dan dikompilasi secara ketat. State Transitions dan, jika perlu, State Extensions kemudian diterapkan untuk memodifikasi atau memperluas state ini. Setiap operasi, baik mentransfer aset yang dapat dipertukarkan (RGB20) atau membuat aset unik (RGB21), melibatkan *Segel Sekali Pakai*. Segel ini menghubungkan UTXO Bitcoin ke state off-chain dan mencegah pengeluaran ganda, sekaligus memastikan kerahasiaan dan skalabilitas.
+Kontrak RGB disusun seperti mesin status yang berevolusi. Semuanya dimulai dengan Genesis yang nentuin state awal, misalnya total pasokan, ticker, atau metadata lain, sesuai Skema yang diketik dan dikompilasi dengan ketat. Lalu State Transitions dan, kalau perlu, State Extensions diterapkan buat ngubah atau ngeperluas state ini. Setiap operasi, entah itu nge­transfer aset yang bisa dipertukarkan (RGB20) atau bikin aset unik (RGB21), selalu melibatkan *single-use seals.* Seal ini ngaitin UTXO Bitcoin ke state off-chain dan mencegah double-spend sambil tetap ngejaga privasi dan skalabilitas.
 
 Untuk mempelajari lebih lanjut mengenai cara kerja protokol RGB, saya sarankan Anda mengikuti kursus pelatihan komprehensif ini:
 
@@ -60,7 +60,7 @@ cargo install --locked --debug --path .
 - `--debug` tidak wajib, tetapi dapat membantu Anda fokus (Anda dapat menggunakan `--release` jika Anda mau);
 - `--path .` memberitahu `cargo install` untuk menginstal dari direktori saat ini.
 
-Pada akhir perintah ini, sebuah eksekusi `rgb-lightning-node` akan tersedia pada `$CARGO_HOME/bin/`. Pastikan jalur ini ada di `$PATH` Anda sehingga Anda dapat memanggil perintah dari direktori mana pun.
+Pada akhir perintah ini, sebuah eksekusi `rgb-lightning-node` akan tersedia pada `$CARGO_HOME/bin/`. Pastikan jalur ini ada di `$PATH` Anda sehingga kamu bisa memanggil perintah dari direktori mana pun.
 
 ## Prasyarat
 
@@ -74,7 +74,7 @@ Setiap instance RLN perlu berkomunikasi dengan `bitcoind` untuk menyiarkan dan m
 
 - **Pengindeks** (Electrum atau Esplora)
 
-Daemon harus dapat membuat daftar dan menjelajahi transaksi on-chain, khususnya untuk menemukan UTXO tempat sebuah aset ditambatkan. Anda harus menentukan URL server Electrum atau Esplora Anda.
+Daemon harus bisa ngelist dan ngejelajahi transaksi on-chain, khususnya buat nemuin UTXO tempat sebuah aset ditambatkan. Kamu perlu nentuin URL server Electrum atau Esplora yang kamu pakai.
 
 
 - **Proksi RGB**
@@ -89,7 +89,7 @@ Untuk penggunaan sederhana, ada skrip `regtest.sh` yang secara otomatis memulai,
 
 ![RLN](assets/fr/03.webp)
 
-Hal ini memungkinkan Anda untuk meluncurkan lingkungan lokal, terisolasi, dan telah dikonfigurasi sebelumnya. Ini membuat dan menghancurkan kontainer dan direktori data pada setiap reboot. Kita akan mulai dengan memulai file :
+Hal ini memungkinkan kamu buat ngejalanin lingkungan lokal yang terisolasi dan sudah dikonfigurasi sebelumnya. Lingkungan ini bakal bikin dan ngehapus kontainer serta direktori data setiap kali direboot. Kita mulai dengan ngejalanin file:
 
 ```bash
 ./regtest.sh start

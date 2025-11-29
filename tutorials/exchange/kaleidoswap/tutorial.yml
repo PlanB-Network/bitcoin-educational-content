@@ -1,0 +1,30 @@
+id: 995cb68c-44a5-4fad-972c-16f2fa387095
+
+project_id: 8a5e01cd-8a8a-4463-b887-5319a4ae8c74
+
+professor_id: 
+
+level: advanced
+
+category: peer-to-peer
+
+tags:
+  - layers
+  - investment
+  - lightning
+  - risks
+
+#proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+      - Arshia-r-m
+    reward: 0
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0

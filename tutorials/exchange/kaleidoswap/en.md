@@ -24,7 +24,6 @@ You can download the latest release for your operating system from the [official
 3.  **Linux**: Download the `.AppImage` or `.deb` file and install/run it.
 
 
-
 ## Node Setup Options
 
 When you first launch KaleidoSwap, you will be presented with the **Connection Screen**. This is the first step in configuring your environment.
@@ -34,6 +33,7 @@ When you first launch KaleidoSwap, you will be presented with the **Connection S
 You must choose how to connect to the RGB Lightning Network. This choice impacts your level of control and privacy.
 
 ### Option 1: Local Node (Recommended for Self-Custody)
+
 **For complete control and privacy**, run a node directly on your machine.
 -   **Self-Custodial**: You hold the keys. No third party can freeze your funds or censor your transactions.
 -   **Privacy**: Your data stays on your device.
@@ -44,6 +44,7 @@ If you select **Local Node**, you will be taken to the setup screen where you ca
 ![Local Node Setup Screen](assets/en/02.webp)
 
 ### Option 2: Remote Node
+
 Connect to a remote RGB Lightning Node (self-hosted on a VPS or a hosted provider).
 -   **Advantages**: No local resource usage, 24/7 availability.
 -   **Trade-off**: Requires trusting the host or managing a remote server.
@@ -56,18 +57,18 @@ Connect to a remote RGB Lightning Node (self-hosted on a VPS or a hosted provide
 
 KaleidoSwap manages both Bitcoin and RGB assets. The wallet creation process initializes a keystore that secures your on-chain funds and your Lightning channel states.
 
-1.  Open KaleidoSwap and select **Local Node**.
-2.  Click on **Create New Wallet**.
-3.  **Account Setup**: Enter an **Account Name** and select the **Network** (e.g., Bitcoin Mainnet, Testnet, Signet).
-4.  **Advanced Configuration** (Optional): If you are a power user, you can configure custom RPC endpoints, Indexer URLs, or Proxy settings under "Advanced Settings".
-5.  Click **Continue**.
-6.  **Password**: Set a strong password to encrypt your wallet file locally.
-7.  **Recovery Phrase**: Write down your seed phrase and store it securely.
-    -   **Critical**: This phrase is needed to recover your on-chain funds and node identity.
-    -   **Warning**: **Lightning channel states cannot be fully recovered from the seed alone**. You must also maintain Static Channel Backups (SCB) to recover funds locked in channels.
+Here's the detailed process:
+1. Open KaleidoSwap and select **Local Node**.
+2. Click on **Create New Wallet**.
+3. **Account Setup**: Enter an **Account Name** and select the **Network** (e.g., Bitcoin Mainnet, Testnet, Signet).
+4. **Advanced Configuration** (Optional): If you are a power user, you can configure custom RPC endpoints, Indexer URLs, or Proxy settings under "Advanced Settings".
+5. Click **Continue**.
+6. **Password**: Set a strong password to encrypt your wallet file locally.
+7. **Recovery Phrase**: Write down your seed phrase and store it securely.
+    - **Critical**: This phrase is needed to recover your on-chain funds and node identity.
+    - **Warning**: **Lightning channel states cannot be fully recovered from the seed alone**. You must also maintain Static Channel Backups (SCB) to recover funds locked in channels.
 
 ![Wallet Creation Screen](assets/en/04.webp)
-
 
 
 ## Dashboard Overview
@@ -76,7 +77,7 @@ Once your wallet is created, you will be directed to the main **Dashboard**.
 
 ![KaleidoSwap Dashboard](assets/en/05.webp)
 
-*Note: The screenshot above shows a wallet that has already been funded and has active channels. A fresh wallet will show zero balances and no active channels until you fund it.*
+_Note: The screenshot above shows a wallet that has already been funded and has active channels. A fresh wallet will show zero balances and no active channels until you fund it._
 
 ## Funding Your Wallet
 
@@ -84,17 +85,17 @@ To operate with RGB assets, you need to fund your wallet. KaleidoSwap supports d
 
 ### Depositing Bitcoin
 
-1.  Click **Deposit** in the Quick Actions menu.
-2.  Select **BTC** from the asset list.
+1. Click **Deposit** in the Quick Actions menu.
+2. Select **BTC** from the asset list.
 
 ![Select BTC Asset](assets/en/06.webp)
 
-3.  Choose your deposit method: **On-chain** or **Lightning**.
+3. Choose your deposit method: **On-chain** or **Lightning**.
 
 ![BTC Deposit Options](assets/en/07.webp)
 
--   **On-chain**: Scan the QR code or copy the address to send Bitcoin from another wallet.
--   **Lightning**: Generate an invoice for the desired amount.
+- **On-chain**: Scan the QR code or copy the address to send Bitcoin from another wallet.
+- **Lightning**: Generate an invoice for the desired amount.
 
 ![BTC On-chain Deposit](assets/en/08.webp)
 
@@ -102,9 +103,9 @@ To operate with RGB assets, you need to fund your wallet. KaleidoSwap supports d
 
 To receive RGB assets (like USDT), you need specific UTXOs available to be "colored" (assigned an asset).
 
-1.  Click **Deposit** and select the RGB asset (e.g., USDT).
-    -   **Important**: If this is the **first time** your node is receiving this specific asset, **leave the Asset ID field empty**. Entering an ID for an unknown asset will cause the node to return an error as it doesn't recognize it yet.
-2.  Choose **On-chain** or **Lightning**.
+1. Click **Deposit** and select the RGB asset (e.g., USDT).
+    - **Important**: If this is the **first time** your node is receiving this specific asset, **leave the Asset ID field empty**. Entering an ID for an unknown asset will cause the node to return an error as it doesn't recognize it yet.
+2. Choose **On-chain** or **Lightning**.
 
 ![USDT Deposit Options](assets/en/09.webp)
 
@@ -112,15 +113,14 @@ To receive RGB assets (like USDT), you need specific UTXOs available to be "colo
 
 When receiving RGB assets on-chain, you have two privacy modes:
 
--   **Blinded Receive (Recommended for Privacy)**: You provide a "blinded" UTXO to the sender. You are asking the sender to send assets to an existing UTXO that you own, but you obfuscate the actual UTXO identifier. This offers better privacy.
--   **Witness Receive**: You provide a standard Bitcoin address. You are asking the sender to create a *new* UTXO for you by sending the assets to that address. This leverages the fact that RGB can send assets to a `vout` of the witness transaction that moves the assets. This creates a new UTXO in a single operation.
+- **Blinded Receive (Recommended for Privacy)**: You provide a "blinded" UTXO to the sender. You are asking the sender to send assets to an existing UTXO that you own, but you obfuscate the actual UTXO identifier. This offers better privacy.
+- **Witness Receive**: You provide a standard Bitcoin address. You are asking the sender to create a *new* UTXO for you by sending the assets to that address. This leverages the fact that RGB can send assets to a `vout` of the witness transaction that moves the assets. This creates a new UTXO in a single operation.
 
 #### Lightning Deposit
 
 For Lightning deposits, simply generate an invoice. The RGB asset will be routed to you through your open channels.
 
 ![USDT Lightning Invoice](assets/en/10.webp)
-
 
 
 ## Opening Channels with RGB Assets
@@ -138,24 +138,23 @@ To route RGB assets over the Lightning Network, you need a channel with sufficie
 
 ![Connect to LSP](assets/en/12.webp)
 
-4.  **Configure Channel**:
-    -   **Capacity**: Select the total Bitcoin capacity for the channel.
-    -   **RGB Allocation**: Choose the RGB asset (e.g., USDT) you want to be able to receive or send. The LSP will ensure the channel is configured to support this asset.
+4. **Configure Channel**:
+    - **Capacity**: Select the total Bitcoin capacity for the channel.
+    - **RGB Allocation**: Choose the RGB asset (e.g., USDT) you want to be able to receive or send. The LSP will ensure the channel is configured to support this asset.
 
 ![Configure Channel](assets/en/13.webp)
 
-5.  **Payment**: You must pay a fee to the LSP for opening the channel and providing liquidity.
-    -   You can pay using **Lightning** or **On-chain** Bitcoin.
-    -   The payment can be made from your internal KaleidoSwap wallet or an external wallet.
+5. **Payment**: You must pay a fee to the LSP for opening the channel and providing liquidity.
+    - You can pay using **Lightning** or **On-chain** Bitcoin.
+    - The payment can be made from your internal KaleidoSwap wallet or an external wallet.
 
 ![Complete Payment](assets/en/14.webp)
 
-6.  Once payment is confirmed, the LSP will initiate the channel opening transaction. You will see an **Order Completed** screen.
+6. Once payment is confirmed, the LSP will initiate the channel opening transaction. You will see an **Order Completed** screen.
 
 ![Order Completed](assets/en/15.webp)
 
-7.  After confirmation on the blockchain, your channel will be active and ready for RGB transfers.
-
+7. After confirmation on the blockchain, your channel will be active and ready for RGB transfers.
 
 
 ## Trading: Taker-Maker Model
@@ -166,32 +165,31 @@ KaleidoSwap's trading engine operates on a **Taker-Maker model**. You can swap a
 
 This is the most common way to trade. You act as the **Taker**, executing orders against the liquidity provided by the LSP (**Maker**).
 
-1.  Navigate to the **Trade** tab and select **Market Maker**.
-2.  **Enter Amount**: Input the amount of Bitcoin you want to send (or the asset you want to receive). The interface will show the estimated exchange rate and fees.
+1. Navigate to the **Trade** tab and select **Market Maker**.
+2. **Enter Amount**: Input the amount of Bitcoin you want to send (or the asset you want to receive). The interface will show the estimated exchange rate and fees.
 
 ![Market Maker Swap](assets/en/16.webp)
 
-3.  **Confirm Swap**: Review the details, including the exchange rate and the exact amount you will receive. Click **Confirm Swap**.
+3. **Confirm Swap**: Review the details, including the exchange rate and the exact amount you will receive. Click **Confirm Swap**.
 
 ![Confirm Swap](assets/en/17.webp)
 
-4.  **Processing**: The swap is executed atomically on the Lightning Network. You will see a status screen indicating the swap is pending.
+4. **Processing**: The swap is executed atomically on the Lightning Network. You will see a status screen indicating the swap is pending.
 
 ![Swap Pending](assets/en/18.webp)
 
-5.  **Success**: Once the HTLCs are settled, the swap is complete, and the assets are in your channel.
+5. **Success**: Once the HTLCs are settled, the swap is complete, and the assets are in your channel.
 
 ![Swap Success](assets/en/19.webp)
-
 
 
 ## Developer API
 
 For developers building on top of KaleidoSwap, the application exposes an API that supports:
 
--   **RGB LSPS1**: For automated liquidity services.
--   **Swap API**: For programmatic trading and market making.
--   **WebSocket**: For real-time market data subscriptions.
+-  **RGB LSPS1**: For automated liquidity services.
+-  **Swap API**: For programmatic trading and market making.
+-  **WebSocket**: For real-time market data subscriptions.
 
 Refer to the [API Documentation](https://docs.kaleidoswap.com/api/introduction) for full endpoints and specifications.
 

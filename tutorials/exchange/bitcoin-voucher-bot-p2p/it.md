@@ -208,3 +208,26 @@ Dopo aver versato il deposito, l’operazione apparirà nella dashboard personal
     4. Clicca su “Send Message”(“Invia messaggio”) per trasmettere i dati all’acquirente.
 
 ![image](assets/it/20.webp)
+
+**Procedura di pagamento**
+
+L’acquirente riceve, all’interno della chat della piattaforma, un messaggio con tutti i dati necessari per eseguire il pagamento in valuta fiat:
+    • Coordinate bancarie: IBAN con nome e indirizzo del titolare del conto del venditore.
+    • Somma esatta: importo fiat preciso da trasferire.
+    • Causale/descrizione: testo da inserire nella transazione.
+    • Tempo limite: scadenza entro la quale completare il pagamento.
+Il trasferimento avviene al di fuori del sistema P2P e deve essere effettuato attraverso il proprio istituto bancario.
+⚠️ Nota importante: la conferma su piattaforma deve avvenire solo dopo aver realmente disposto il bonifico o il pagamento fiat tramite la propria banca.
+
+![image](assets/it/21.webp)
+
+**Conferma del pagamento fiat**
+
+Questo passaggio è cruciale per l’acquirente e va eseguito soltanto dopo aver verificato che il pagamento sia stato effettivamente inviato.
+    1. Ricezione dati: l’acquirente ha ricevuto le istruzioni di pagamento dal venditore.
+    2. Esecuzione del pagamento: il trasferimento fiat viene disposto dal proprio conto bancario.
+    3. Verifica: controllare che l’operazione sia stata elaborata correttamente.
+    4. Conferma su piattaforma: cliccare su “Confirm fiat payment”(“Conferma pagamento fiat”) nella pagina del trade.
+Il pulsante “Conferma pagamento fiat” compare nella sezione della transazione e deve essere usato esclusivamente dopo aver verificato che il pagamento è stato davvero inviato.
+
+![image](assets/it/22.webp)

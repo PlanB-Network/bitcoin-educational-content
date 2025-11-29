@@ -213,10 +213,11 @@ Dopo aver versato il deposito, l’operazione apparirà nella dashboard personal
 **Procedura di pagamento**
 
 L’acquirente riceve, all’interno della chat della piattaforma, un messaggio con tutti i dati necessari per eseguire il pagamento in valuta fiat:
-    • Coordinate bancarie: IBAN con nome e indirizzo del titolare del conto del venditore.
-    • Somma esatta: importo fiat preciso da trasferire.
-    • Causale/descrizione: testo da inserire nella transazione.
-    • Tempo limite: scadenza entro la quale completare il pagamento.
+- Coordinate bancarie: IBAN con nome e indirizzo del titolare del conto del venditore.
+- Somma esatta: importo fiat preciso da trasferire.
+- Causale/descrizione: testo da inserire nella transazione.
+- Tempo limite: scadenza entro la quale completare il pagamento.
+- 
 Il trasferimento avviene al di fuori del sistema P2P e deve essere effettuato attraverso il proprio istituto bancario.
 ⚠️ Nota importante: la conferma su piattaforma deve avvenire solo dopo aver realmente disposto il bonifico o il pagamento fiat tramite la propria banca.
 

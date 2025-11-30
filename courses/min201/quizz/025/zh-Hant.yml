@@ -7,5 +7,5 @@ wrong_answers:
 explanation: |
   Bitcoin 網路的基礎層，即閃電網路（Lightning Network）依賴其來開啟
   和關閉支付通道（payment channels）的那一層，
-  通常被稱為結算結算層。
+  通常被稱為結算層。
 reviewed: true

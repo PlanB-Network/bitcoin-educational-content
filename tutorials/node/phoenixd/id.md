@@ -1,21 +1,17 @@
 ---
 name: Phoenixd
-description: Menerapkan simpul Lightning minimalis Anda sendiri dengan Phoenixd
+description: Menerapkan node Lightning minimalis kamu sendiri dengan Phoenixd
 ---
 
 ![cover](assets/cover.webp)
 
 
 
-Otonomi keuangan juga berarti mengendalikan infrastruktur Lightning Anda. Untuk pengembang dan perusahaan yang ingin mengintegrasikan Bitcoin Lightning ke dalam aplikasi mereka, **Phoenixd** merupakan solusi ideal: node Lightning khusus yang minimalis dengan manajemen likuiditas otomatis.
+Otonomi keuangan juga berarti mengendalikan infrastruktur Lightning kamu. Buat pengembang dan perusahaan yang pengin mengintegrasikan Bitcoin Lightning ke aplikasi mereka, Phoenixd adalah solusi yang ideal: node Lightning khusus yang minimalis dengan manajemen likuiditas otomatis.
 
+Phoenixd adalah server Lightning yang dikembangkan ACINQ, dirancang khusus buat ngirim dan nerima pembayaran Lightning lewat API HTTP. Nggak seperti implementasi dengan fitur lengkap kayak LND atau Core Lightning, Phoenixd menyederhanakan semua kerumitan manajemen channel sambil tetap menjaga keamanan dana kamu.
 
-
-Phoenixd adalah server Lightning yang dikembangkan oleh ACINQ, yang dirancang khusus untuk mengirim dan menerima pembayaran Lightning melalui API HTTP. Tidak seperti implementasi dengan fitur lengkap seperti LND atau Core Lightning, Phoenixd mengabstraksikan semua kerumitan manajemen saluran sambil menjaga keamanan dana Anda.
-
-
-
-Dalam tutorial ini, kita akan melihat cara menginstal, mengonfigurasi, dan menggunakan Phoenixd untuk mengembangkan aplikasi Lightning dengan infrastruktur yang dihosting sendiri dan API yang mudah digunakan.
+Di tutorial ini, kita bakal lihat cara menginstal, mengonfigurasi, dan pakai Phoenixd buat ngembangin aplikasi Lightning dengan infrastruktur self hosted dan API yang gampang dipakai.
 
 
 
@@ -23,16 +19,14 @@ Dalam tutorial ini, kita akan melihat cara menginstal, mengonfigurasi, dan mengg
 
 
 
-Phoenixd adalah simpul Lightning khusus minimal yang dikembangkan oleh ACINQ. Ini adalah solusi yang dirancang untuk pengembang dan perusahaan yang ingin mengintegrasikan Lightning ke dalam aplikasi mereka tanpa kerumitan manajemen Full node.
-
+Phoenixd adalah node Lightning minimal khusus yang dikembangkan ACINQ. Ini adalah solusi yang dirancang buat pengembang dan perusahaan yang pengin mengintegrasikan Lightning ke aplikasi mereka tanpa kerumitan manajemen full node.
 
 
 ### Prinsip operasi
 
 
 
-**Phoenixd adalah node Lightning minimal yang menggunakan ACINQ sebagai LSP (Lightning Service Provider) untuk likuiditas otomatis. Ketika Anda menerima pembayaran Lightning, secara otomatis membuka saluran dengan node ACINQ untuk mengalokasikan kapasitas masuk yang diperlukan. Likuiditas "on-the-fly" ini bersifat instan, tetapi dibebankan tepat pada **1% + biaya Mining** dari jumlah yang diterima.
-
+Phoenixd adalah node Lightning minimal yang memakai ACINQ sebagai LSP (Lightning Service Provider) buat likuiditas otomatis. Waktu kamu nerima pembayaran Lightning, Phoenixd bakal otomatis buka channel ke node ACINQ buat ngasih kapasitas inbound yang dibutuhin. Likuiditas on the fly ini instan, tapi dikenakan biaya tepat sebesar **1% + biaya mining** dari jumlah yang kamu terima.
 
 
 **Manajemen otomatis:** Sistem ini mengelola tiga Elements utama:
@@ -50,11 +44,11 @@ Phoenixd adalah simpul Lightning khusus minimal yang dikembangkan oleh ACINQ. In
 
 
 
-**Anda mengontrol kunci pribadi Anda (12 kata seed) dan dana. Phoenixd menghasilkan Wallet Anda secara lokal tanpa pernah membagikan kunci Anda.
+**Kamu ngontrol private key kamu (12 kata seed) dan semua dana. Phoenixd ngebuat wallet kamu secara lokal tanpa pernah ngebagikan key kamu ke mana pun.
 
 
 
-**Infrastruktur pribadi:** Phoenixd berjalan di server Anda, memberi Anda akses ke log terperinci, konfigurasi, dan kontrol API. Anda tidak lagi bergantung pada layanan pihak ketiga untuk mengakses dana Anda.
+**Infrastruktur pribadi:** Phoenixd jalan di server kamu, ngasih kamu akses ke log yang lengkap, konfigurasi, dan kontrol API. Kamu jadi nggak bergantung lagi pada layanan pihak ketiga buat ngakses dana kamu.
 
 
 
@@ -78,7 +72,7 @@ Phoenixd adalah simpul Lightning khusus minimal yang dikembangkan oleh ACINQ. In
 
 
 
-Phoenixd membutuhkan lingkungan Linux (disarankan Ubuntu/Debian), dengan beberapa keterampilan dasar baris perintah. Untuk kinerja optimal, Anda memerlukan :
+Phoenixd butuh lingkungan Linux (disarankan Ubuntu atau Debian) dengan sedikit skill dasar pakai command line. Buat kinerja yang optimal, kamu perlu:
 
 
 
@@ -264,8 +258,7 @@ http-password-limited-access=limited_password
 
 
 
-Secara default, API Phoenixd hanya dapat diakses melalui HTTP lokal (`http://127.0.0.1:9740`). Untuk menggunakan node Anda dari luar (aplikasi seluler, server lain, integrasi web), Anda perlu mengonfigurasi akses HTTPS yang aman.
-
+Secara default, API Phoenixd cuma bisa diakses lewat HTTP lokal (`http://127.0.0.1:9740`). Buat pakai node kamu dari luar perangkat lain kayak aplikasi mobile, server lain, atau integrasi web, kamu perlu ngatur akses HTTPS yang aman.
 
 
 **Prinsip proksi terbalik:**
@@ -286,8 +279,8 @@ Internet → nginx (port 443 HTTPS) → Phoenixd (port 9740 HTTP local)
 
 
 
-- Buktikan identitas server Anda** (mencegah serangan man-in-the-middle)
-- Mengaktifkan enkripsi HTTPS**: semua data, termasuk kata sandi API Anda, dienkripsi selama pengiriman
+- Buktikan identitas server kamu** (mencegah serangan man-in-the-middle)
+- Mengaktifkan enkripsi HTTPS**: semua data, termasuk kata sandi API kamu, dienkripsi selama pengiriman
 - Dikeluarkan secara gratis** oleh Let's Encrypt melalui alat certbot
 
 
@@ -298,7 +291,7 @@ Konfigurasi ini memungkinkan Anda untuk :
 
 
 - Akses aman ke API dari Internet**
-- Enkripsi kata sandi API** Anda selama pengiriman (untuk mencegahnya dikirimkan dalam bentuk teks yang jelas)
+- Enkripsi kata sandi API** kamu selama pengiriman (untuk mencegahnya dikirimkan dalam bentuk teks yang jelas)
 - Mengintegrasikan Phoenixd** ke dalam aplikasi eksternal yang membutuhkan HTTPS
 - Kepatuhan terhadap standar keamanan** untuk API keuangan
 
@@ -407,8 +400,7 @@ curl -X POST http://localhost:9740/createinvoice \
 
 
 
-**Prinsip dasar:** Ketika Anda menerima pembayaran Lightning, Phoenixd terkadang harus membuka saluran baru untuk dapat menerimanya. Pembukaan saluran ini memerlukan biaya yang akan dipotong secara otomatis dari jumlah yang diterima.
-
+**Prinsip dasar:** Waktu kamu terima pembayaran Lightning, Phoenixd kadang perlu buka channel baru supaya pembayaran itu bisa masuk. Pembukaan channel ini butuh biaya yang bakal otomatis dipotong dari jumlah yang kamu terima.
 
 
 **Contoh konkret dengan 100.000 Sats:**
@@ -466,7 +458,7 @@ curl -X POST http://localhost:9740/createinvoice \
 
 
 
-**Kredit biaya untuk pembayaran kecil:** Jika Anda menerima pembayaran yang terlalu kecil untuk membuka saluran (< sekitar 25k Sats), pembayaran tersebut akan disimpan dalam "kredit biaya" yang tidak dapat dikembalikan. Kredit ini akan digunakan untuk membayar biaya saluran di masa mendatang ketika Anda menerima jumlah yang cukup.
+**Kredit biaya untuk pembayaran kecil:** Kalau kamu nerima pembayaran yang terlalu kecil buat buka channel (kurang lebih di bawah 25k sats), pembayaran itu bakal disimpen sebagai kredit biaya yang nggak bisa dikembalikan. Kredit ini bakal dipakai buat nutup biaya channel di pembayaran berikutnya waktu kamu nerima jumlah yang cukup.
 
 
 
@@ -484,7 +476,7 @@ journalctl -u phoenixd -f
 
 
 
-Anda akan melihat pembukaan saluran dan pemotongan otomatis biaya likuiditas. Biaya bervariasi sesuai dengan kondisi Mempool Bitcoin, tetapi selalu termasuk biaya layanan 1% ditambah biaya Mining saat ini.
+Kamu bakal lihat pembukaan channel dan pemotongan otomatis biaya likuiditas. Biayanya bisa berubah tergantung kondisi mempool Bitcoin, tapi selalu termasuk biaya layanan 1% ditambah biaya mining yang berlaku saat itu.
 
 
 
@@ -498,7 +490,7 @@ Anda akan melihat pembukaan saluran dan pemotongan otomatis biaya likuiditas. Bi
 
 
 
-Perintah ini menampilkan saluran aktif Anda dengan status dan saldonya.
+Perintah ini menampilkan saluran aktif kamu dengan status dan saldonya.
 
 
 
@@ -548,7 +540,7 @@ curl http://localhost:9740/getbalance \
 
 
 
-**Webhooks:** Webhooks memungkinkan Phoenixd untuk **secara otomatis memberi tahu** aplikasi Anda ketika suatu peristiwa terjadi (pembayaran diterima, Invoice dibayar, saluran dibuka, dll.). Daripada terus-menerus meminta Phoenixd untuk pembaruan, aplikasi Anda menerima pemberitahuan HTTP instan.
+**Webhooks:** Webhooks memungkinkan Phoenixd buat **otomatis memberi tahu aplikasi kamu** kalau ada event yang terjadi kayak pembayaran masuk, invoice lunas, channel kebuka, dan lain sebagainya. Daripada aplikasi kamu terus menerus ngecek ke Phoenixd, kamu bakal nerima notifikasi HTTP secara instan.
 
 
 
@@ -631,19 +623,18 @@ PHOENIXD_API_PASSWORD=your_password_phoenixd
 
 
 
-Integrasi ini memungkinkan Anda untuk membuat sub-akun LNbits yang didukung oleh node Phoenixd Anda, menyediakan Interface berbasis web untuk mengelola beberapa dompet Lightning.
-
+Integrasi ini memungkinkan kamu bikin sub akun LNbits yang ditopang sama node Phoenixd kamu, ngasih interface berbasis web buat ngatur beberapa wallet Lightning.
 
 
 ### Aplikasi khusus
 
 
 
-Berkat API REST-nya yang komprehensif, Anda dapat mengembangkan file :
+Berkat API REST-nya yang komprehensif, kamu dapat mengembangkan file :
 
 
 
-**E-commerce:** Integrasi langsung pembayaran Lightning ke dalam toko Anda
+**E-commerce:** Integrasi langsung pembayaran Lightning ke dalam toko kamu
 
 
 **Layanan donasi:** Sistem donasi dengan faktur dan webhook otomatis
@@ -664,7 +655,7 @@ Berkat API REST-nya yang komprehensif, Anda dapat mengembangkan file :
 
 
 
-**Kata sandi API:** Kata sandi yang dibuat secara otomatis adalah kunci untuk perbendaharaan Lightning Anda. Jangan pernah membagikannya, dan ubahlah jika Anda ragu.
+**Kata sandi API:** Kata sandi yang dibuat secara otomatis adalah kunci untuk perbendaharaan Lightning kamu. Jangan pernah membagikannya, dan ubahlah jika Anda ragu.
 
 
 
@@ -672,7 +663,7 @@ Berkat API REST-nya yang komprehensif, Anda dapat mengembangkan file :
 
 
 
-**Autentikasi yang ditingkatkan:** Pertimbangkan VPN atau Tailscale untuk membatasi akses ke peladen Anda hanya untuk perangkat yang diotorisasi.
+**Autentikasi yang ditingkatkan:** Pertimbangkan VPN atau Tailscale untuk membatasi akses ke peladen kamu hanya untuk perangkat yang diotorisasi.
 
 
 
@@ -680,7 +671,7 @@ Berkat API REST-nya yang komprehensif, Anda dapat mengembangkan file :
 
 
 
-*pemulihan *seed:** Simpan 12 kata Anda di tempat yang aman, di luar server. Ini adalah satu-satunya jaminan pemulihan Anda.
+*pemulihan *seed:** Simpan 12 kata kamu di tempat yang aman, di luar server. Ini adalah satu-satunya jaminan pemulihan kamu.
 
 
 
@@ -688,7 +679,7 @@ Berkat API REST-nya yang komprehensif, Anda dapat mengembangkan file :
 
 
 
-**Kode pemulihan layanan:** Juga simpan kode cadangan untuk semua layanan yang Anda aktifkan 2FA dengan Phoenix.
+**Kode pemulihan layanan:** Juga simpan kode cadangan untuk semua layanan yang kamu aktifkan 2FA dengan Phoenix.
 
 
 
@@ -829,15 +820,14 @@ journalctl -u phoenixd -f  # Real-time logs
 **Saldo dalam "kredit pengeluaran":**
 
 
-Pembayaran dalam jumlah kecil disimpan sebagai provisi. Terima jumlah yang lebih besar untuk memicu pembukaan saluran dan keluarkan dana ini.
-
+Pembayaran kecil bakal disimpen sebagai provisi. Terima jumlah yang lebih besar buat memicu pembukaan channel dan keluarkan dana ini.
 
 
 ## Kesimpulan
 
 
 
-Phoenixd mewakili kompromi yang sangat baik antara kemudahan penggunaan dan kedaulatan teknis bagi para pengembang. Phoenixd menawarkan API Lightning yang sederhana namun kuat dengan manajemen likuiditas otomatis, menghilangkan kerumitan node Lightning tradisional.
+Phoenixd jadi kompromi yang sangat bagus antara kemudahan penggunaan dan kedaulatan teknis buat para pengembang. Phoenixd ngasih API Lightning yang simpel tapi kuat dengan manajemen likuiditas otomatis, jadi kamu nggak perlu ribet kayak pakai node Lightning tradisional.
 
 
 
@@ -849,12 +839,11 @@ Solusi ini sangat cocok untuk pengembang dan perusahaan yang ingin :
 - Integrasikan Bitcoin Lightning ke dalam aplikasi Anda
 - Hindari kerumitan manajemen saluran Lightning
 - Dapatkan manfaat dari infrastruktur yang dikelola sendiri
-- API yang sederhana dan andal
+- API yang sederhana dan keren
 
 
 
-Dengan Phoenixd, Anda membangun infrastruktur Lightning pribadi Anda sendiri dengan REST API modern dan manajemen otomatis aspek teknis. Ini adalah solusi ideal untuk mendemokratisasi integrasi Lightning dalam proyek Anda.
-
+Dengan Phoenixd, kamu bangun infrastruktur Lightning pribadimu sendiri dengan REST API modern dan manajemen otomatis buat aspek teknisnya. Ini jadi solusi ideal buat mempermudah integrasi Lightning di proyek kamu.
 
 
 ## Sumber daya yang berguna

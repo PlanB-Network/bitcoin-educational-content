@@ -2568,10 +2568,10 @@ Dans nos discussions précédentes, nous avons abordé les principes fondamentau
 Pour remédier à ces limites, Manny Rosenfeld a proposé en 2012 le concept de sauts centralisés. Ce modèle a introduit des processeurs de paiement centralisés, tels que TrustPay, pour acheminer les paiements entre les utilisateurs. Bien que cette méthode permette de réduire la nécessité de multiples canaux directs, elle présente d'importants inconvénients. Les sauts centralisés posent des problèmes de sécurité, de confiance, de respect de la vie privée, d'escroquerie, de censure et de fiabilité. Les utilisateurs doivent faire confiance à ces entités centralisées pour faciliter leurs transactions, ce qui est contraire à l'éthique de la décentralisation.
 
 
-### Hashed Time Lock Contract (HTLC) et implémentation
+### Hashed Time-Lock Contract (HTLC) et implémentation
 
 
-Les limites et les inconvénients des sauts centralisés ont nécessité une solution plus sécurisée et décentralisée. Ce besoin a conduit au développement du contrat à verrou temporel haché (*Hashed Time Lock Contract*, HTLC), proposé en 2015 par Joseph Poon et Thaddeus Dreijer dans le cadre du Lightning Network. Les HTLC combinent les principes de verrou temporel (*time lock*) et de verrou de hachage (*hash lock*) pour garantir l'atomicité et l'absence de confiance dans les transactions. Cela signifie qu'une transaction est soit entièrement terminée, soit elle échoue, ce qui atténue les risques associés aux paiements incomplets.
+Les limites et les inconvénients des sauts centralisés ont nécessité une solution plus sécurisée et décentralisée. Ce besoin a conduit au développement du contrat à verrou temporel haché (*Hashed TimeLock Contract*, HTLC), proposé en 2015 par Joseph Poon et Thaddeus Dreijer dans le cadre du Lightning Network. Les HTLCs combinent les principes de verrou temporel (*time lock*) et de verrou de hachage (*hash lock*) pour garantir l'atomicité et l'absence de confiance dans les transactions. Cela signifie qu'une transaction est soit entièrement terminée, soit elle échoue, ce qui atténue les risques associés aux paiements incomplets.
 
 
 Le fonctionnement des HTLC implique un processus en plusieurs étapes qui garantit un acheminement sécurisé par le biais de plusieurs intermédiaires. Supposons que Alice veuille payer Éric par l'intermédiaire de Bob, Carol et Diana. Chaque étape du processus implique la création de transactions d'engagements avec des verrous temporels et des montants décroissants. Si nécessaire, la dernière étape peut être diffusée sur le réseau Bitcoin pour finaliser la transaction.
@@ -2691,14 +2691,14 @@ Bolt 2 se penche sur le cycle de vie d'un canal, depuis sa création jusqu'à so
 
 
 - **Établissement d'un canal** : Au cours de cette phase, les parties ouvrent un canal, échangent des signatures et créent une transaction de financement.
-- **Fonctionnement normal** : L'état du canal est continuellement mis à jour à l'aide de *Hash Time-Locked Contracts* (HTLC). Les messages d'engagement et de révocation garantissent que les deux parties sont d'accord sur l'état actuel du canal.
+- **Fonctionnement normal** : L'état du canal est continuellement mis à jour à l'aide de *Hashed TimeLock Contracts* (HTLC). Les messages d'engagement et de révocation garantissent que les deux parties sont d'accord sur l'état actuel du canal.
 - **Règlement** : Il s'agit de fermer le canal, généralement par le biais d'un accord mutuel et d'une négociation sur les honoraires, afin de finaliser les transactions sans entrer dans une boucle de fermeture indéfinie.
 
 
 #### Mécanisme de mise à jour
 
 
-Les HTLC jouent un rôle central dans l'acheminement des paiements sur le réseau, permettant des transactions sécurisées sans confiance. Les messages d'engagement et de révocation garantissent un accord mutuel sur l'état du canal et préviennent la fraude.
+Les HTLCs jouent un rôle central dans l'acheminement des paiements sur le réseau, permettant des transactions sécurisées sans confiance. Les messages d'engagement et de révocation garantissent un accord mutuel sur l'état du canal et préviennent la fraude.
 
 
 #### Messages spéciaux
@@ -2875,7 +2875,7 @@ Une gestion efficace de la liquidité est la pierre angulaire de la réussite de
 - **Satoshi (ou sat)** : Le sat est la plus petite unité de Bitcoin, 1 BTC = 100 millions de sats.
 
 
-#### Liquidité distante (entrantes) 
+#### Liquidité distante (entrante) 
 
 
 
@@ -3237,14 +3237,14 @@ Bolt 12 répond aux limites des factures Bolt 11 utilisées dans le Lightning Ne
 ### Améliorer la confidentialité et l'efficacité des transactions Bitcoin
 
 
-** Taproot, muSig et signatures Schnorr**
+**Taproot, muSig et signatures Schnorr**
 
 Taproot est une mise à jour importante qui consolide la complexité des transactions et améliore la confidentialité. Combiné à muSig (un protocole pour les transactions à signatures multiples) et aux signatures Schnorr, Taproot améliore l'efficacité des transactions. Ces avancées permettent aux transactions Lightning de ressembler aux transactions Bitcoin classiques, ce qui simplifie le processus et renforce la confidentialité.
 
 
 **Routage PTLC**
 
-Les contrats à verrou temporel ponctuel (*Point Time-Locked Contracts*, PTLC) sont une amélioration des contrats à verrou temporel haché (*Hash Time-Lock Contracts*, HTLC) existants. Les PTLCs utilisent des signatures Schnorr et améliorent la confidentialité en remplaçant les secrets partagés par des clés publiques, ce qui réduit les possibilités de corrélation des paiements et d'utilisation abusive.
+Les contrats à verrou temporel ponctuel (*Point TimeLocked Contracts*, PTLC) sont une amélioration des contrats à verrou temporel haché (*Hashed TimeLock Contract*, HTLC) existants. Les PTLCs utilisent des signatures Schnorr et améliorent la confidentialité en remplaçant les secrets partagés par des clés publiques, ce qui réduit les possibilités de corrélation des paiements et d'utilisation abusive.
 
 
 **Générateurs de canaux**
@@ -3294,7 +3294,7 @@ En comprenant et en appréciant ces développements, nous pouvons reconnaître l
 Avant de se plonger dans les extensions et les intégrations des paiements Lightning, il est essentiel de comprendre le fonctionnement de base d'un paiement Lightning. Un paiement Lightning conventionnel implique plusieurs composants clés : le **payeur**, le **bénéficiaire** et le **Lightning Network** lui-même. Le payeur initie un paiement au bénéficiaire en générant une **invoice**, qui comprend des informations essentielles telles que le montant à payer et la destination (le nœud du bénéficiaire).
 
 
-Le processus repose sur des **Hash Time-Locked Contracts (HTLC)**, qui garantissent que les paiements ne peuvent être réclamés que par le bénéficiaire légitime dans un délai déterminé. Deux élements importants dans ce mécanisme sont **le routage en oignon** et la **chaîne HTLC** :
+Le processus repose sur des **Hashed TimeLock Contracts (HTLC)**, qui garantissent que les paiements ne peuvent être réclamés que par le bénéficiaire légitime dans un délai déterminé. Deux élements importants dans ce mécanisme sont **le routage en oignon** et la **chaîne HTLC** :
 
 
 
@@ -3315,7 +3315,7 @@ Cependant, les factures traditionnelles ont leurs limites. Par exemple :
 **Définitions** :
 
 - **Invoice** : Une demande de paiement dans le Lightning Network, contenant généralement le montant et les détails du destinataire.
-- **HTLC (*Hash Time-Locked Contracts*)** : Type de contract intelligent utilisé pour garantir des paiements conditionnels dans un délai déterminé.
+- **HTLC (*Hashed TimeLock Contract*)** : Type de contract intelligent utilisé pour garantir des paiements conditionnels dans un délai déterminé.
 - **Routage en oignon** : Technique de confidentialité dans laquelle les données de transaction sont superposées comme les couches d'un oignon pour protéger l'identité de l'expéditeur et du destinataire.
 
 ### Protocoles et cas d'utilisation
@@ -3372,7 +3372,7 @@ Des protocoles tels que **LNURL** et **Bolt 12** rationalisent les paiements en 
 
 **Définitions** :
 
-- **PTLC (*Point Time-Locked Contracts*)** : Une primitive cryptographique qui améliore les HTLCs, permettant des paiements plus flexibles et plus sécurisés.
+- **PTLC (*Point Time-Locked Contract*)** : Une primitive cryptographique qui améliore les HTLCs, permettant des paiements plus flexibles et plus sécurisés.
 - **Préimage** : Valeur utilisée pour déverrouiller un HTLC, qui peut également servir de clé d'accès à des services.
 - **Modèle d'enchère** : Un modèle de paiement dans lequel les paiements sont mis en attente pendant une vente aux enchères et ne sont libérés que lorsque l'offre la plus élevée est acceptée.
 

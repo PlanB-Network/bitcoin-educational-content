@@ -42,7 +42,7 @@ Le cours vise à doter les participants d'une compréhension approfondie des pri
 Les participants doivent faire preuve d'une grande curiosité, d'une volonté d'apprendre à un niveau professionnel et d'une certaine connaissance de base en matière de développement. Bien qu'une connaissance approfondie de Bitcoin ne soit pas nécessaire, une compréhension de base des principes de codage et une ouverture d'esprit pour aborder des concepts techniques complexes sont essentielles pour tirer le meilleur parti de l'accélérateur.
 
 
-### Outils
+#### Outils
 
 
 Tout au long du cours, les participants utiliseront des outils clés qui faciliteront leur compréhension et amélioreront leur expérience d'apprentissage. L'utilisation de Linux, de l'interface de ligne de commande, de GitHub et de Docker fera partie intégrante d'une approche pratique du développement Bitcoin. Ces outils faciliteront le travail avec la pile logicielle Bitcoin, la gestion des environnements de développement et la collaboration sur des projets dans un environnement réel.
@@ -78,7 +78,7 @@ Cette conférence, **"Pourquoi le Salvador a besoin de Bitcoin"**, donne un aper
 - Inclusion financière : Fournir un accès aux services financiers aux personnes qui ont été exclues des systèmes bancaires traditionnels, souvent appelées "non-bancarisées".
 - Monnaie non censurable : L'argent qui ne peut être contrôlé ou restreint par les gouvernements ou les institutions financières.
 
-### Parcours de Ricky et son engagement en faveur Bitcoin
+#### Parcours de Ricky et son engagement en faveur Bitcoin
 
 
 Le parcours de Ricky dans Bitcoin est ancré dans son travail de défenseur des droits de l'homme. Il pense que Bitcoin peut permettre aux individus de contrôler leurs finances, de protéger leur vie privée et d'éviter les contraintes des banques centralisées. Son exploration de l'adoption de Bitcoin dans des pays comme le Salvador montre comment cette technologie peut permettre aux populations des marchés émergents d'accéder à l'indépendance financière.
@@ -113,7 +113,7 @@ La décision du Salvador d'adopter le Bitcoin comme monnaie légale démontre so
 Cependant, l'adoption mondiale du Bitcoin se heurte à des obstacles tels que l'ignorance, la résistance aux nouvelles technologies et les défis en matière d'infrastructure. Le chemin vers un système financier plus inclusif, où le Bitcoin peut aider à l'essor des nations en développement, est long mais prometteur. La nature décentralisée et libre de Bitcoin permet d'espérer un avenir où l'équité financière sera accessible à tous.
 
 
-### Conclusion
+#### Conclusion
 
 
 En résumé, le Bitcoin est extrêmement prometteur pour l'autonomisation et l'inclusion financières, mais des défis importants se profilent à l'horizon. Rester engagé dans la communauté Bitcoin, apprendre et poser des questions sera la clé de la réalisation d'un avenir financier décentralisé. Grâce à la collaboration et à la sensibilitation, la vision d'un système financier plus juste pour tous peut devenir une réalité.
@@ -192,7 +192,7 @@ L'adoption du Bitcoin par le Salvador reflète son potentiel en tant qu'outil de
 L'adoption de Bitcoin par le Salvador favorise un système financier plus inclusif, plus compétitif et plus sûr, en remettant en cause les limites de la finance traditionnelle.
 
 
-### Conclusion
+#### Conclusion
 
 
 Les fondements de Bitcoin dans le **mouvement Cypherpunk** et l'**économie autrichienne** en font une forme de monnaie unique et révolutionnaire. La compréhension de ces principes permet de saisir pourquoi le Bitcoin a été créé et comment il fonctionne aujourd'hui. Pour en savoir plus, consultez "**The Bitcoin Standard**" de **Saifedean Ammous**.
@@ -278,7 +278,7 @@ Le développement de Bitcoin a évolué pour améliorer les performances et la s
 - Taproot: Une mise à jour qui améliore la confidentialité et l'évolutivité de Bitcoin en permettant la mise en place de contrats intelligents plus complexes.
 - Lightning Network : Une seconde couche pour des transactions Bitcoin plus rapides et moins chères par le biais de canaux de paiement.
 
-### Conclusion
+#### Conclusion
 
 
 La structure et l'évolution permanente de Bitcoin témoignent de l'innovation et de l'adaptabilité de sa technologie. De **Hashcash** à une blockchain décentralisée, et de **SegWit** à **Taproot**, le Bitcoin continue à relever les défis liés à l'évolutivité, à la protection de la vie privée et à la sécurité. Les efforts continus de la communauté garantissent que le Bitcoin reste résilient et décentralisé tout en évoluant pour répondre aux exigences de l'avenir.
@@ -354,7 +354,7 @@ Le Bitcoin est souvent critiqué pour son utilisation dans le cadre d'activités
 Les rumeurs entourant le Bitcoin exagèrent souvent les inquiétudes concernant son impact sur l'environnement, son utilisation criminelle et sa sécurité. Malgré les fluctuations du marché, la technologie décentralisée et saine de Bitcoin constitue une base solide pour la stabilité à long terme et la liberté financière, en particulier dans des environnements restrictifs comme le Venezuela.
 
 
-### Conclusion
+#### Conclusion
 
 
 Comprendre les réalités de la consommation d'énergie de Bitcoin, ses caractéristiques de confidentialité et son rôle dans la prévention de la criminalité permet de dissiper les mythes qui l'entourent. En dépassant le FUD , nous pouvons apprécier le potentiel de Bitcoin en tant que forme révolutionnaire de monnaie saine qui favorise la confidentialité, la sécurité et la décentralisation.
@@ -368,12 +368,12 @@ Comprendre les réalités de la consommation d'énergie de Bitcoin, ses caracté
 <professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
 
-### Installation de Bitcoin core
+### Installation de Bitcoin Core
 
 
 :::video id=4a5253cf-b863-466a-8506-0506b28a28de:::
 
-Dans la première conférence du 4ème module, nous avons exploré l'architecture de Bitcoin et l'installation d'un nœud Bitcoin core.
+Dans la première conférence du 4ème module, nous avons exploré l'architecture de Bitcoin et l'installation d'un nœud Bitcoin Core.
 
 
 ### Exécution d'un nœud Bitcoin
@@ -489,7 +489,7 @@ sudo systemctl status bitcoind
 
 :::video id=e13a1407-46e3-4b03-9a7a-b0f4a338c3c7:::
 
-### 1. Récapitulatif de Bitcoin Core
+#### 1. Récapitulatif de Bitcoin Core
 
 
 Commençons par un bref récapitulatif des étapes d'installation de Bitcoin Core sur une machine virtuelle cloud (VM), car cela sera crucial pour l'installation ultérieure de C-Lightning.
@@ -585,7 +585,7 @@ prune=550
 Avec ces étapes, vous devriez avoir Bitcoin Core opérationnel avec une utilisation minimale du disque, prêt à interagir avec C-Lightning.
 
 
-### 2. Vue d'ensemble et installation de C-Lightning
+#### 2. Vue d'ensemble et installation de C-Lightning
 
 
 **Vue d'ensemble de C-Lightning**
@@ -681,7 +681,7 @@ WantedBy=multi-user.target
 ```
 
 
-### 3. Configuration et mise en place
+#### 3. Configuration et mise en place
 
 
 **Créer les répertoires et les fichiers de configuration nécessaires**
@@ -771,7 +771,7 @@ lightning-cli getinfo
 En suivant ces étapes, vous disposerez d'une installation C-Lightning entièrement fonctionnelle, connectée à votre nœud Bitcoin Core, prête pour les transactions Testnet.
 
 
-### Conclusion et questions
+#### Conclusion et questions
 
 
 En conclusion, nous avons couvert les étapes essentielles de la réinstallation de Bitcoin Core, ainsi qu'une présentation détaillée de l'installation et de la configuration de C-Lightning. Si vous avez des questions, n'hésitez pas à les poser maintenant ou à les préparer pour une clarification lors de notre prochaine session. N'oubliez pas que l'expérience pratique est cruciale, alors utilisez la configuration Testnet dont nous avons parlé pour approfondir vos connaissances.

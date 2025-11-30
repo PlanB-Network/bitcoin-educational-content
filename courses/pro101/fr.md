@@ -195,7 +195,7 @@ L'adoption de Bitcoin par le Salvador favorise un système financier plus inclus
 #### Conclusion
 
 
-Les fondements de Bitcoin dans le **mouvement Cypherpunk** et l'**économie autrichienne** en font une forme de monnaie unique et révolutionnaire. La compréhension de ces principes permet de saisir pourquoi le Bitcoin a été créé et comment il fonctionne aujourd'hui. Pour en savoir plus, consultez "**The Bitcoin Standard**" de **Saifedean Ammous**.
+Les fondements de Bitcoin dans le **mouvement Cypherpunk** et l'**économie autrichienne** en font une forme de monnaie unique et révolutionnaire. La compréhension de ces principes permet de comprendre pourquoi le Bitcoin a été créé et comment il fonctionne aujourd'hui. Pour en savoir plus, consultez "**The Bitcoin Standard**" de **Saifedean Ammous**.
 
 
 Merci de vous intéresser à ce contenu !
@@ -212,7 +212,7 @@ Merci de vous intéresser à ce contenu !
 
 :::video id=2c008198-7f4e-4e60-87a0-0af17528ad2f:::
 
-Dans la première conférence du cours "Comment fonctionne Bitcoin", nous avons commencé à explorer la pile technologique qui sous-tend le réseau Bitcoin. Nous avons abordé des sujets tels que **Hashcash**, **transactions**, la **Blockchain**, le **Lightning Network**, et d'autres composants clés du protocole Bitcoin.
+Dans la première conférence du cours "Comment fonctionne Bitcoin", nous avons commencé à explorer la pile technologique qui sous-tend le réseau Bitcoin. Nous avons abordé des sujets tels que **Hashcash**, **transactions**, la **blockchain**, le **Lightning Network**, et d'autres composants clés du protocole Bitcoin.
 
 
 ### La pile technologique de Bitcoin, partie 2
@@ -231,7 +231,7 @@ Les origines de Bitcoin sont basées sur plusieurs innovations clés, à commenc
 Bitcoin s'appuie sur des **signatures numériques** utilisant la **cryptographie à courbe elliptique** pour sécuriser et vérifier les transactions. L'**algorithme de signature numérique à courbe elliptique (ECDSA)** garantit que seul le propriétaire légitime du bitcoin peut autoriser des transactions sans révéler ses clés privées.
 
 
-**Satoshi Nakamoto**, le créateur pseudonyme de Bitcoin, a développé ces idées en passant du modèle de preuve de travail à une **Blockchain** décentralisée. Cela a permis à un réseau distribué de nœuds de valider et d'enregistrer les transactions sans autorité centrale, marquant une évolution significative par rapport aux tentatives précédentes de monnaie numérique.
+**Satoshi Nakamoto**, le créateur pseudonyme de Bitcoin, a développé ces idées en passant du modèle de preuve de travail à une **blockchain** décentralisée. Cela a permis à un réseau distribué de nœuds de valider et d'enregistrer les transactions sans autorité centrale, marquant une évolution significative par rapport aux tentatives précédentes de monnaie numérique.
 
 
 **Définitions :**
@@ -275,7 +275,7 @@ Le développement de Bitcoin a évolué pour améliorer les performances et la s
 **Définitions :**
 
 - SegWit : Une mise à jour de Bitcoin qui sépare les données de signature des données de transaction, améliorant ainsi l'efficacité.
-- Taproot: Une mise à jour qui améliore la confidentialité et l'évolutivité de Bitcoin en permettant la mise en place de contrats intelligents plus complexes.
+- Taproot : Une mise à jour qui améliore la confidentialité et l'évolutivité de Bitcoin en permettant la mise en place de contrats intelligents plus complexes.
 - Lightning Network : Une seconde couche pour des transactions Bitcoin plus rapides et moins chères par le biais de canaux de paiement.
 
 #### Conclusion
@@ -392,7 +392,7 @@ Dans cette session, Alekos nous guidera à travers le processus de configuration
 La gestion d'un nœud Bitcoin consiste à valider les transactions et les blocs, l'application des règles de consensus et soutenir la décentralisation du réseau. La mise en place d'un nœud vous assure une connexion directe au réseau Bitcoin, ce qui vous permet de contribuer à sa sécurité et à son intégrité.
 
 
-Dans cette conférence, vous trouverez un guide pour installer et faire fonctionner votre propre Bitcoin core, apprendre à élaguer la blockchain pour gagner de l'espace, et commencer à expérimenter avec le logiciel. Alekos vous guidera pas à pas dans ce processus passionnant.
+Dans cette conférence, vous trouverez un guide pour installer et faire fonctionner votre propre Bitcoin Core, apprendre à élaguer la blockchain pour gagner de l'espace, et commencer à expérimenter avec le logiciel. Alekos vous guidera pas à pas dans ce processus passionnant.
 
 
 ### Ce que vous pouvez faire avec Bitcoin Core et ses avantages
@@ -987,7 +987,7 @@ L'évolutivité et la confidentialité sont souvent en contradiction dans le ré
 ### Techniques de confidentialité
 
 
-Les différentes approches visant à améliorer la confidentialité dans Bitcoin s'accompagnent de leurs propres compromis. La confidentialité par obfuscation, qui consiste à ajouter des informations supplémentaires pour masquer les données pertinentes, peut améliorer la confidentialité mais peut compliquer le réseau. Monero et Zcash en sont des exemples. D'autre part, la confidentialité par omission, qui vise à réduire les informations sur la chaîne, comme le montre le Lightning Network, peut améliorer à la fois la confidentialité et l'évolutivité. Chaque méthode a ses avantages et ses inconvénients, ce qui nécessite une approche nuancée de l'amélioration de la confidentialité.
+Les différentes approches visant à améliorer la confidentialité dans Bitcoin s'accompagnent de leurs propres compromis. La confidentialité par obfuscation, qui consiste à ajouter des informations supplémentaires pour masquer les données pertinentes, peut améliorer la confidentialité mais peut compliquer le réseau. Monero et Zcash en sont des exemples. D'autre part, la confidentialité par omission, qui vise à réduire les informations on-chain, comme le montre le Lightning Network, peut améliorer à la fois la confidentialité et l'évolutivité. Chaque méthode a ses avantages et ses inconvénients, ce qui nécessite une approche nuancée de l'amélioration de la confidentialité.
 
 
 ### Changements et défis du consensus
@@ -999,7 +999,7 @@ La modification du mécanisme de consensus de Bitcoin est une entreprise rare et
 ### Innovations et normes dans le développement de Bitcoin
 
 
-L'adhésion à des pratiques standadiséss dans le développement des portefeuilles Bitcoin est cruciale pour garantir la facilité d'utilisation et la sécurité. À l'heure actuelle, de nombreux portefeuilles ne respectent pas les normes établies, ce qui entraîne une fragmentation et des vulnérabilités potentielles. La standardisation peut améliorer considérablement l'expérience de l'utilisateur et la sécurité globale des transactions Bitcoin.
+L'adhésion à des pratiques standardisées dans le développement des portefeuilles Bitcoin est cruciale pour garantir la facilité d'utilisation et la sécurité. À l'heure actuelle, de nombreux portefeuilles ne respectent pas les normes établies, ce qui entraîne une fragmentation et des vulnérabilités potentielles. La standardisation peut améliorer considérablement l'expérience de l'utilisateur et la sécurité globale des transactions Bitcoin.
 
 
 Les phrases de sauvegarde traditionnelles de 12 mots, bien qu'efficaces pour l'utilisation de base de la Bitcoin, ne sont pas adaptées aux protocoles off-chain comme le Lightning Network. Les futures standards de sauvegarde doivent évoluer pour améliorer la sécurité et la convivialité de ces fonctions avancées, afin que les utilisateurs puissent gérer leurs actifs en toute sécurité à travers les différentes couches de l'écosystème Bitcoin.
@@ -1269,7 +1269,7 @@ Dans cette section, nous examinerons les concepts cryptographiques essentiels po
 Dans cette section, nous allons explorer l'application de ces concepts dans le développement réel de Bitcoin et les meilleures pratiques de sécurité à suivre.
 
 
-**Cryptographie = danger** : La cryptographie est une arme à double tranchant. Bien qu'elle protège contre les dommages accidentels aux données et les actions malveillantes, une implémentation incorrecte peut entraîner de graves vulnérabilités. Les développeurs doivent comprendre en profondeur les mécanismes cryptographiques pour garantir à la fois une implémentation sûre et la capacité de résoudre les problèmes potentiels. Par exemple, la sortie 256 bits de SHA-2 garantit que les attaques par préimage nécessitent environ 2^256 opérations, avec une résistance aux collisions d'environ 2^128 opérations.
+**Cryptographie = danger** : La cryptographie est une arme à double tranchant. Bien qu'elle protège contre les dommages accidentels aux données et les actions malveillantes, une implémentation incorrecte peut entraîner de graves vulnérabilités. Les développeurs doivent comprendre en profondeur les mécanismes cryptographiques pour garantir à la fois une mise en oeuvre sûre et la capacité de résoudre les problèmes potentiels. Par exemple, la sortie 256 bits de SHA-2 garantit que les attaques par préimage nécessitent environ 2^256 opérations, avec une résistance aux collisions d'environ 2^128 opérations.
 
 
 ![Image](assets/en/018.webp)
@@ -1501,7 +1501,7 @@ L'évolution du matériel de minage a été monumentale, depuis le simple minage
 ![s19j pro vs antminer s9](assets/en/059.webp)
 
 
-#### Éfficacité de minage et apprentissage
+#### Efficacité de minage et apprentissage
 
 
 Le minage n'offre pas seulement des récompenses financières, mais aussi une expérience pratique précieuse. L'acquisition de bitcoins sans KYC par l'intermédiaire du minage peut être une proposition attrayante pour ceux qui se préoccupent de la confidentialité.
@@ -1609,7 +1609,7 @@ Faire tourner un nœud Bitcoin est essentiel pour plusieurs raisons :
 
 1. **Vérification** : En exécutant un nœud, vous pouvez vérifier vous-même les transactions, en vous assurant que le bitcoin que vous recevez est valide, sans dépendre de tiers.
 
-2. **Participation au consensus** : Les nœuds jouent un rôle crucial dans la détermination des règles du réseau Bitcoin. La participation au consensus contribue donc à maintenir l'intégrité et la sécurité dde la blockchain.
+2. **Participation au consensus** : Les nœuds jouent un rôle crucial dans la détermination des règles du réseau Bitcoin. La participation au consensus contribue donc à maintenir l'intégrité et la sécurité de la blockchain.
 
 3. **Confidentialité et contrôle** : En gérant votre propre nœud, vous n'avez pas à vous fier à des nœuds externes, qui pourraient compromettre votre confidentialité en suivant vos transactions et le solde de votre portefeuille.
 
@@ -1621,7 +1621,7 @@ Faire tourner un nœud Bitcoin est essentiel pour plusieurs raisons :
 - **Conserve une liste de pairs** : Les nœuds doivent trouver et se connecter à d'autres nœuds du réseau pour échanger des informations.
 - **Réception et envoi de transactions et de blocs valides** : Les nœuds Bitcoin sont responsables de la propagation des transactions et des blocs valides dans le réseau.
 - **Conserve l'historique des blocs et de la chaîne la plus longue** : Les nœuds stockent leur propre copie de la blockchain, ce qui leur permet de valider l'authenticité des transactions et des blocs.
-- **Maintient la liste des candidats valides ; Mempool** : Les nœuds doivent conserver une liste de transactions potentielles dans la memepool pour qu'elles puissent être incluses dans les blocs.
+- **Maintient la liste des candidats valides ; Mempool** : Les nœuds doivent conserver une liste de transactions potentielles dans la mempool pour qu'elles puissent être incluses dans les blocs.
 
 
 ![nodes network](assets/en/023.webp)
@@ -2104,7 +2104,7 @@ L'apparition de blocs vides est un aspect normal du processus de minage et est p
 La sécurité dans le minage de Bitcoin est primordiale. En adhérant aux meilleures pratiques et en utilisant des bibliothèques bien contrôlées, les mineurs et les développeurs peuvent garantir l'intégrité de la blockchain et se protéger contre les vulnérabilités potentielles.
 
 
-En conclusion, l'analyse des blocs Bitcoin et des transactions dans Rust implique la compréhension de structures complexes et l'implémentation de techniques d'analyse efficaces. Le traitement des cas particuliers et l'analyse des scripts requièrent une attention particulière, et le fait de se concentrer sur l'efficacité et la sécurité garantit la robustesse du réseau Bitcoin.
+En conclusion, l'analyse des blocs Bitcoin et des transactions dans Rust implique la compréhension de structures complexes et la mise en oeuvre de techniques d'analyse efficaces. Le traitement des cas particuliers et l'analyse des scripts requièrent une attention particulière, et le fait de se concentrer sur l'efficacité et la sécurité garantit la robustesse du réseau Bitcoin.
 
 
 ## Aperçu du logiciel Bitcoin et implémentations des nœuds
@@ -2783,7 +2783,7 @@ Le processus commence par l'échange, entre pairs locaux, de l'identité et des 
 #### Démarrage du DNS
 
 
-La découverte des pairs Lightning est facilitée par les requêtes DNS et *Bitcoin DNS seed*, qui fournissent des informations sur l'IP et le nœud. Ce mécanisme de découverte initiale aide les nœuds à se connecter rapidement au réseau.
+La découverte des pairs Lightning est facilitée par les requêtes DNS et Bitcoin DNS seed, qui fournissent des informations sur l'IP et le nœud. Ce mécanisme de découverte initiale aide les nœuds à se connecter rapidement au réseau.
 
 
 #### Annonces de fonctionnalités
@@ -2869,6 +2869,10 @@ Une gestion efficace de la liquidité est la pierre angulaire de la réussite de
 
 
 - Cela représente la quantité de satoshis qu'un utilisateur peut envoyer à partir de ses canaux Lightning. Elle est cruciale pour initier des paiements et s'assurer que les transactions peuvent être acheminées vers le destinataire.
+
+**Définitions :**
+
+- **Satoshi (ou sat)** : Le sat est la plus petite unité de Bitcoin, 1 BTC = 100 millions de sats.
 
 
 #### Liquidité distante (entrantes) 
@@ -3086,7 +3090,7 @@ L'interaction entre le **Layer 1 (L1)** (première couche de Bitcoin) et le **La
 
 
 - **Problème pratique** : Les utilisateurs ont souvent du mal à comprendre s'ils interagissent avec la première couche de Bitcoin ou le Lightning. Il peut en résulter une certaine confusion en ce qui concerne les frais, les délais de transaction et la sécurité.
-- **Solutions possibles** : La conception de portefeuilles améliorés qui font abstraction des interactions L1/L2 et gèrent les ouvertures/fermetures de canaux en arrière-plan. Certains portefeuilles permettent déjà aux utilisateurs de passer de manière transparente entre les transactions on-chain et Lightning, en fonction des circonstances.
+- **Solutions possibles** : La conception de portefeuilles améliorés qui font abstraction des interactions L1/L2 et gèrent les ouvertures/fermetures de canaux en arrière-plan. Certains portefeuilles permettent déjà aux utilisateurs de passer de manière plus fluide entre les transactions on-chain et Lightning, en fonction des circonstances.
 
 
 #### **Du point de vue du développeur**
@@ -3161,7 +3165,7 @@ Les développeurs doivent mettre en œuvre des solutions de sauvegarde qui perme
 
 
 - **Problème pratique** : La conception de systèmes de sauvegarde sécurisés, décentralisés et conviviaux constitue un défi de taille, car les sauvegardes doivent être mises à jour à chaque changement d'état d'un canal.
-- **Solutions possibles** : **Les Static Channel Backups (SCB)** ont été développés pour simplifier la récupération, mais des solutions plus avancées sont nécessaires pour des sauvegardes entièrement automatisées et sécurisées.
+- **Solutions possibles** : Les **Static Channel Backups (SCB)** ont été développés pour simplifier la récupération, mais des solutions plus avancées sont nécessaires pour des sauvegardes entièrement automatisées et sécurisées.
 
 
 **Définitions** :
@@ -3240,7 +3244,7 @@ Taproot est une mise à jour importante qui consolide la complexité des transac
 
 **Routage PTLC**
 
-Les contrats à verrou temporel ponctuel (*Point Time-Locked Contracts*, PTLC) sont une amélioration des contrats à verrou temporel haché (*Hash Time-Lock Contracts*, HTLC) existants. Les PTLC utilisent des signatures Schnorr et améliorent la confidentialité en remplaçant les secrets partagés par des clés publiques, ce qui réduit les possibilités de corrélation des paiements et d'utilisation abusive.
+Les contrats à verrou temporel ponctuel (*Point Time-Locked Contracts*, PTLC) sont une amélioration des contrats à verrou temporel haché (*Hash Time-Lock Contracts*, HTLC) existants. Les PTLCs utilisent des signatures Schnorr et améliorent la confidentialité en remplaçant les secrets partagés par des clés publiques, ce qui réduit les possibilités de corrélation des paiements et d'utilisation abusive.
 
 
 **Générateurs de canaux**
@@ -3250,7 +3254,7 @@ Les générateurs de canaux permettent de créer des canaux multipartites (par e
 
 **Watchtowers**
 
-Les tours de surveillance (*watchtowers*) sont des entités tierces qui surveillent la blockchain à la recherche d'anciens états de canal. Si une violation est détectée, elles publient des transactions de pénalité afin de garantir la sécurité du réseau. Si les *Watchtowers* renforcent la sécurité en dissuadant les mauvais comportements, elles posent également des problèmes de confidentialité en ce qui concerne la surveillance des transactions.
+Les tours de surveillance (*Watchtowers*) sont des entités tierces qui surveillent la blockchain à la recherche d'anciens états de canal. Si une violation est détectée, elles publient des transactions de pénalité afin de garantir la sécurité du réseau. Si les *Watchtowers* renforcent la sécurité en dissuadant les mauvais comportements, elles posent également des problèmes de confidentialité en ce qui concerne la surveillance des transactions.
 
 
 **Blinded Paths**
@@ -3260,7 +3264,7 @@ Les chemins aveugles (*blinded paths*) sont conçus pour améliorer la confident
 
 **Lightning Services Providers (LSP)**
 
-Conceptualisés par Breeze Wallet, les fournisseurs de services Lightning (*Lightning Services Providers*, LSP) visent à améliorer l'expérience de l'utilisateur en lui permettant de recevoir instantanément des paiements. Les LSP ouvrent des canaux pour les utilisateurs, de la même manière que les fournisseurs de services Internet offrent des services de connectivité. Cette innovation simplifie le processus d'intégration de l'utilisateur et garantit des interactions fluides sur le Lightning Network.
+Conceptualisés par Breeze Wallet, les fournisseurs de services Lightning (*Lightning Services Providers*, LSP) visent à améliorer l'expérience de l'utilisateur en lui permettant de recevoir instantanément des paiements. Les LSPs ouvrent des canaux pour les utilisateurs, de la même manière que les fournisseurs de services Internet offrent des services de connectivité. Cette innovation simplifie le processus d'intégration de l'utilisateur et garantit des interactions fluides sur le Lightning Network.
 
 
 **Ressources pour rester informé**
@@ -3334,7 +3338,7 @@ Une intégration notable des paiements Lightning est celle de **Nostr**, une pla
 Un autre protocole, **RGB**, étend encore la fonctionnalité du Lightning en permettant les **transferts d'actifs** sur le Lightning Network. Le RGB permet le transfert de divers actifs, y compris des jetons, sur les canaux Lightning, élargissant ainsi le champ des transactions possibles.
 
 
-Les ***Lightning Services Providers* (LSPs)** jouent également un rôle essentiel dans l'extension des paiements Lightning. Les LSPs fournissent de la liquidité pour la réception des paiements, aident à ouvrir des **canaux à financement double** et garantissent des transactions fluides en interceptant les paiements et en ouvrant des canaux dynamiquement.
+Les ***Lightning Services Providers* (LSP)** jouent également un rôle essentiel dans l'extension des paiements Lightning. Les LSPs fournissent de la liquidité pour la réception des paiements, aident à ouvrir des **canaux à financement double** et garantissent des transactions fluides en interceptant les paiements et en ouvrant des canaux dynamiquement.
 
 
 **Définitions** :
@@ -3343,12 +3347,12 @@ Les ***Lightning Services Providers* (LSPs)** jouent également un rôle essenti
 - **Bolt 12** : Une extension de Lightning qui exploite la messagerie en oignon pour la confidentialité tout en automatisant la recherche d'invoice.
 - **Nostr** : Une plateforme décentralisée qui intègre le Lightning pour permettre les micro-transactions.
 - **Protocole RGB** : Protocole permettant le transfert d'actifs, comme les jetons, sur le Lightning Network.
-- **LSP (*Lightning Service Provider*)** : Entité qui fournit de la liquidité et ouvre des canaux pour les transactions Lightning, rendant le réseau plus accessible aux utilisateurs.
+- **LSP (*Lightning Services Providers*)** : Entité qui fournit de la liquidité et ouvre des canaux pour les transactions Lightning, rendant le réseau plus accessible aux utilisateurs.
 
 ### Modèles économiques et protocoles avancés
 
 
-Les progrès réalisés dans le domaine des paiements Lightning ont ouvert la voie à de nouveaux modèles économiques, en particulier pour les **Lightning Services Providers (LSPs)**. Ces derniers améliorent l'expérience de l'utilisateur en ouvrant des canaux uniquement lorsque des paiements sont détectés, ce qui réduit la complexité de la configuration préalable.
+Les progrès réalisés dans le domaine des paiements Lightning ont ouvert la voie à de nouveaux modèles économiques, en particulier pour les ***Lightning Services Providers* (LSP)**. Ces derniers améliorent l'expérience de l'utilisateur en ouvrant des canaux uniquement lorsque des paiements sont détectés, ce qui réduit la complexité de la configuration préalable.
 
 
 Un exemple de modèle économique facilité par Lightning est le **modèle d'enchère**. Dans ce cas, un serveur retient l'offre la plus élevée et rejette les offres inférieures, en gardant les paiements en attente jusqu'à la fin de l'enchère. Cela permet d'éviter les remboursements et de rationaliser le processus de vente aux enchères.
@@ -3360,7 +3364,7 @@ Un autre exemple pratique est celui des **jeux de poker**, où le serveur gère 
 Les paiements Lightning sont également intégrés dans des plateformes telles que **Nostr** et des services de podcasting, ce qui démontre la polyvalence de ces protocoles. En outre, les **pré-images** des paiements peuvent être utilisées comme **clés d'accès** pour déverrouiller des contenus ou des services, ce qui ajoute une utilité supplémentaire au Lightning Network.
 
 
-Les protocoles avancés tels que les ***Point Time-Locked Contracts* (PTLCs)** vont encore plus loin en permettant des opérations cryptographiques plus complexes. Les PTLCs permettent d'améliorer le routage et le fractionnement des paiements, ce qui renforce la sécurité et l'efficacité.
+Les protocoles avancés tels que les ***Point Time-Locked Contracts* (PTLC)** vont encore plus loin en permettant des opérations cryptographiques plus complexes. Les PTLCs permettent d'améliorer le routage et le fractionnement des paiements, ce qui renforce la sécurité et l'efficacité.
 
 
 Des protocoles tels que **LNURL** et **Bolt 12** rationalisent les paiements en réduisant les interactions manuelles, ce qui rend le Lightning Network plus convivial et plus largement adopté.
@@ -3368,8 +3372,8 @@ Des protocoles tels que **LNURL** et **Bolt 12** rationalisent les paiements en 
 
 **Définitions** :
 
-- **PTLC (*Point Time-Locked Contract*)** : Une primitive cryptographique qui améliore les HTLCs, permettant des paiements plus flexibles et plus sécurisés.
-- **Pre-image** : Valeur utilisée pour déverrouiller un HTLC, qui peut également servir de clé d'accès à des services.
+- **PTLC (*Point Time-Locked Contracts*)** : Une primitive cryptographique qui améliore les HTLCs, permettant des paiements plus flexibles et plus sécurisés.
+- **Préimage** : Valeur utilisée pour déverrouiller un HTLC, qui peut également servir de clé d'accès à des services.
 - **Modèle d'enchère** : Un modèle de paiement dans lequel les paiements sont mis en attente pendant une vente aux enchères et ne sont libérés que lorsque l'offre la plus élevée est acceptée.
 
 ### Conclusion

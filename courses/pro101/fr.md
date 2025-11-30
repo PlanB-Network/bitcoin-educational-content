@@ -295,7 +295,7 @@ La structure et l'évolution permanente de Bitcoin témoignent de l'innovation e
 
 :::video id=c5e2e575-fa9d-4430-805f-205c2cf6f2a5:::
 
-Dans cette conférence, nous démystifions les mythes courants entourant le **Bitcoin**, les **blockchains** et les **cryptomonnaies**. Nous allons aborder les idées reçues sur la consommation d'énergie de Bitcoin, l'utilisation criminelle et le "FUD" (peur, incertitude, doute) qui entoure cette technologie.
+Dans cette conférence, nous démystifions les mythes courants entourant le **Bitcoin**, les **blockchains** et les **cryptomonnaies**. Nous allons aborder les idées reçues sur la consommation d'énergie de Bitcoin, l'utilisation criminelle et le "FUD", *Fear, Uncertainty, Doubt* (peur, incertitude, doute) qui entoure cette technologie.
 
 
 ### Bitcoin vs. Blockchain
@@ -866,7 +866,7 @@ Pour renforcer la confidentialité, il est fortement recommandé de configurer S
 **Connexion sécurisée aux nœuds distants**
 
 
-Lorsque vous vous connectez à des nœuds distants, veillez à ce que la connexion soit sécurisée. Cela implique l'utilisation de certificats SSL/TLS et la vérification de l'authenticité du nœud. Les connexions sécurisées empêchent les attaques de type *man-in-the-middle*h et garantissent l'intégrité des données.
+Lorsque vous vous connectez à des nœuds distants, veillez à ce que la connexion soit sécurisée. Cela implique l'utilisation de certificats SSL/TLS et la vérification de l'authenticité du nœud. Les connexions sécurisées empêchent les attaques de type *man-in-the-middle* et garantissent l'intégrité des données.
 
 
 **Les problèmes de débogage : techniques pratiques**
@@ -1026,7 +1026,7 @@ La création de supports pédagogiques visant à améliorer l'utilisabilité, la
 **Changement des couches 1 et 2**
 
 
-Les innovations au niveau de la première couche (Layer 1) sont difficiles mais essentielles pour l'évolution à long terme de Bitcoin. Les solutions de seconde couche (Layer 2), comme le Lightning Network, permettent des changements plus expérimentaux et sont plus flexibles en ce qui concerne l'évolutivité et la confidentialité. Les deux couches jouent un rôle crucial dans le développement continu de Bitcoin.
+Les innovations au niveau de la première couche (*Layer 1*) sont difficiles mais essentielles pour l'évolution à long terme de Bitcoin. Les solutions de seconde couche (*Layer 2*), comme le Lightning Network, permettent des changements plus expérimentaux et sont plus flexibles en ce qui concerne l'évolutivité et la confidentialité. Les deux couches jouent un rôle crucial dans le développement continu de Bitcoin.
 
 
 **Coordination du consensus**
@@ -1680,7 +1680,7 @@ Pour chaque UTXO, l'état de la chaîne contient :
 
 
 
-- La Txid.
+- La TxID.
 - L'index de sortie.
 - Le bloc dans lequel se trouve l'UTXO.
 - S'il s'agit d'un UTXO coinbase.
@@ -2172,7 +2172,7 @@ Pour acquérir une expérience pratique avec Bitcoin Core, il est possible de co
 
 
 
-- La compilation du code source pour créer une version exécutable. Accédez à doc/build-\*.md sur le [Github Bitcoin](https://github.com/Bitcoin/Bitcoin) pour les instructions.
+- La compilation du code source pour créer une version exécutable. Accédez à doc/build-\*.md sur le [Github de Bitcoin](https://github.com/Bitcoin/Bitcoin) pour les instructions.
 
 
 ```Bash
@@ -2249,7 +2249,7 @@ Les portefeuilles Bitcoin sont essentiels pour gérer vos bitcoins en toute séc
 
 
 
-   - **Portefeuilles On-Chain** : Interagissent directement avec la première couche de la blockchain Bitcoin.
+   - **Portefeuilles on-chain** : Interagissent directement avec la première couche de la blockchain Bitcoin.
    - **Portefeuilles Lightning** : Facilitent des transactions plus rapides et moins coûteuses off-chain.
 
 
@@ -2540,7 +2540,7 @@ Pour remédier aux inefficacités et aux problèmes de confidentialité de Bitco
 Le principe fondamental des canaux de paiement est le concept des transactions off-chain. Au lieu de diffuser chaque transaction à l'ensemble du réseau, les parties peuvent ouvrir un canal de paiement et effectuer de nombreuses transactions entre elles. Seules l'ouverture et la fermeture du canal sont enregistrées sur la blockchain, ce qui améliore considérablement l'efficacité et la confidentialité.
 
 
-Malgré la nature off-chain des canaux de paiement, il reste possible de faire respecter les transactions On-Chain. En cas de litige ou si l'une des parties tente de tricher, le dernier état du canal peut être diffusé sur la blockchain, ce qui garantit que les transactions convenues sont honorées et que les fonds sont alloués correctement.
+Malgré la nature off-chain des canaux de paiement, il reste possible de faire respecter les transactions on-chain. En cas de litige ou si l'une des parties tente de tricher, le dernier état du canal peut être diffusé sur la blockchain, ce qui garantit que les transactions convenues sont honorées et que les fonds sont alloués correctement.
 
 
 Les canaux de paiement représentent une avancée significative dans la technologie blockchain, fournissant une méthode évolutive et sécurisée pour effectuer des transactions tout en répondant à de nombreux problèmes fondamentaux associés à Bitcoin. Alors que nous continuons à innover et à construire sur ces fondations, l'avenir de la blockchain semble de plus en plus prometteur.
@@ -2559,34 +2559,34 @@ En conclusion, la compréhension du contexte historique et des défis de Bitcoin
 
 :::video id=059a714b-4fe9-4266-acb0-6fe5af491662:::
 
-Dans nos discussions précédentes, nous avons abordé les principes fondamentaux des canaux de paiement de base. Ces canaux permettent à deux participants, par exemple Alice et Bob, d'effectuer des transactions directement l'un avec l'autre de manière transparente. Toutefois, ce modèle présente une limitation flagrante : Alice ne peut effectuer des transactions qu'avec Bob et non avec d'autres participants comme Charlie, à moins qu'elle n'établisse des canaux distincts avec chacun d'entre eux. Cette nécessité de canaux multiples entraîne des problèmes d'inefficacité et d'évolutivité, car il ne serait pas pratique pour Alice d'ouvrir un canal direct avec toutes les personnes avec lesquelles elle doit effectuer des transactions.
+Dans nos discussions précédentes, nous avons abordé les principes fondamentaux des canaux de paiement. Ces canaux permettent à deux participants, par exemple Alice et Bob, d'effectuer des transactions directement l'un avec l'autre de manière transparente. Toutefois, ce modèle présente une limitation flagrante : Alice ne peut effectuer des transactions qu'avec Bob et non avec d'autres participants comme Charlie, à moins qu'elle n'établisse des canaux distincts avec chacun d'entre eux. Cette nécessité de créer plusieurs canaux entraîne des problèmes d'inefficacité et d'évolutivité, car il ne serait pas pratique pour Alice d'ouvrir un canal direct avec toutes les personnes avec lesquelles elle doit effectuer des transactions.
 
 
-### Houblon centralisé
+### Sauts centralisés
 
 
-Pour remédier à ces limites, Manny Rosenfeld a proposé en 2012 le concept de "hops" centralisés. Ce modèle a introduit des processeurs de paiement centralisés, tels que TrustPay, pour acheminer les paiements entre les utilisateurs. Bien que cette méthode permette de réduire la nécessité de multiples canaux directs, elle présente d'importants inconvénients. Les sauts centralisés posent des problèmes de sécurité, de confiance, de respect de la vie privée, d'escroquerie, de censure et de fiabilité. Les utilisateurs doivent faire confiance à ces entités centralisées pour faciliter leurs transactions, ce qui est contraire à l'éthique de la décentralisation.
+Pour remédier à ces limites, Manny Rosenfeld a proposé en 2012 le concept de sauts centralisés. Ce modèle a introduit des processeurs de paiement centralisés, tels que TrustPay, pour acheminer les paiements entre les utilisateurs. Bien que cette méthode permette de réduire la nécessité de multiples canaux directs, elle présente d'importants inconvénients. Les sauts centralisés posent des problèmes de sécurité, de confiance, de respect de la vie privée, d'escroquerie, de censure et de fiabilité. Les utilisateurs doivent faire confiance à ces entités centralisées pour faciliter leurs transactions, ce qui est contraire à l'éthique de la décentralisation.
 
 
-### Verrouillage temporel haché Contract (HTLC) et mise en œuvre
+### Hashed Time Lock Contract (HTLC) et implémentation
 
 
-Les limites et les inconvénients des sauts centralisés appelaient une solution plus sûre et décentralisée. Ce besoin a conduit au développement du verrou temporel haché Contract (HTLC), proposé en 2015 par Joseph Poon et Thaddeus Dreijer dans le cadre du Lightning Network. Les HTLC combinent les principes des verrous temporels et des verrous Hash pour garantir l'atomicité et l'absence de confiance dans les transactions. Cela signifie qu'une transaction est soit entièrement terminée, soit qu'elle n'a pas lieu du tout, ce qui atténue les risques associés aux paiements incomplets.
+Les limites et les inconvénients des sauts centralisés ont nécessité une solution plus sécurisée et décentralisée. Ce besoin a conduit au développement du contrat à verrou temporel haché (*Hashed Time Lock Contract*, HTLC), proposé en 2015 par Joseph Poon et Thaddeus Dreijer dans le cadre du Lightning Network. Les HTLC combinent les principes de verrou temporel (*time lock*) et de verrou de hachage (*hash lock*) pour garantir l'atomicité et l'absence de confiance dans les transactions. Cela signifie qu'une transaction est soit entièrement terminée, soit elle échoue, ce qui atténue les risques associés aux paiements incomplets.
 
 
-Le flux de travail de HTLC implique un processus en plusieurs étapes qui garantit un acheminement sécurisé par le biais de plusieurs intermédiaires. Supposons que Alice veuille payer Éric par l'intermédiaire de Bob, Carol et Diana. Chaque étape du processus implique la création de transactions Commitment avec des délais et des montants décroissants. Si nécessaire, la dernière étape peut être diffusée au réseau Bitcoin pour finaliser la transaction.
+Le fonctionnement des HTLC implique un processus en plusieurs étapes qui garantit un acheminement sécurisé par le biais de plusieurs intermédiaires. Supposons que Alice veuille payer Éric par l'intermédiaire de Bob, Carol et Diana. Chaque étape du processus implique la création de transactions d'engagements avec des verrous temporels et des montants décroissants. Si nécessaire, la dernière étape peut être diffusée sur le réseau Bitcoin pour finaliser la transaction.
 
 
-Dans une HTLC, Alice bloque le paiement avec une Hash d'un "R" secret Bob, Carol et Diana créent chacune des contrats similaires avec leurs intermédiaires ultérieurs, garantissant qu'elles ne peuvent réclamer leurs fonds que si elles présentent le bon secret "R" Ce mécanisme garantit l'atomicité ; le paiement est entièrement effectué ou échoue, ce qui permet d'éviter les pertes partielles de fonds.
+Dans un HTLC, Alice bloque le paiement avec une hachage d'un secret "R". Bob, Carol et Diana créent chacun des contrats similaires avec leurs intermédiaires respectifs, garantissant qu'ils ne peuvent réclamer leurs fonds que si ils présentent le bon secret "R". Ce mécanisme garantit l'atomicité ; le paiement est entièrement effectué ou échoue, ce qui protège contre les pertes partielles de fonds.
 
 
 ![Hash lock](assets/en/045.webp)_Hash lock function_
 
 
-### Considérations pratiques et dynamique des réseaux
+### Considérations pratiques et dynamique du réseau
 
 
-Dans un scénario pratique, le flux de paiement de Alice implique le paiement d'Éric par le biais de plusieurs intermédiaires, tels que Bob, Carol et Diana. Chaque participant à cette chaîne est chargé de retirer des fonds au participant précédent.
+Dans un scénario pratique, le flux de paiement de Alice implique de payer Éric par le biais de plusieurs intermédiaires, tels que Bob, Carol et Diana. Chaque participant de cette chaîne est chargé de récupérer les fonds du participant précédent.
 
 
 #### Mises à jour de l'état des canaux
@@ -2613,7 +2613,7 @@ Les intermédiaires comme Diana et Carol sont incités à agir correctement au s
 ### Considérations pratiques
 
 
-Cependant, l'augmentation du nombre de sauts dans l'itinéraire de paiement peut accroître le temps de latence, les frais et le manque potentiel de fiabilité. L'ouverture de plusieurs canaux peut contribuer à réduire le nombre de sauts nécessaires à l'acheminement, améliorant ainsi l'efficacité globale.
+Cependant, l'augmentation du nombre de sauts dans l'itinéraire de paiement peut augmenter la latence, les frais et le manque potentiel de fiabilité. L'ouverture de plusieurs canaux peut contribuer à réduire le nombre de sauts nécessaires au routage, améliorant ainsi l'efficacité globale.
 
 
 #### Graphique des canaux et liquidité
@@ -2625,7 +2625,7 @@ Les nœuds du réseau peuvent soit faire partie d'un graphe de canaux annoncé p
 #### Routage à la source et confidentialité
 
 
-Alice doit connaître la topologie du réseau pour décider de l'itinéraire de paiement. L'acheminement à la source est utilisé pour préserver la confidentialité malgré la complexité de l'acheminement des paiements par de multiples intermédiaires.
+Alice doit connaître la topologie du réseau pour décider de l'itinéraire de paiement. Le routage à la source est utilisé pour préserver la confidentialité malgré la complexité de l'acheminement des paiements par de multiples intermédiaires.
 
 
 ![Source Routing](assets/en/047.webp)_Source Routing Path_
@@ -2634,10 +2634,10 @@ Alice doit connaître la topologie du réseau pour décider de l'itinéraire de 
 #### Conclusion
 
 
-En résumé, le bon fonctionnement des nœuds garantit des paiements atomiques, et le Lightning Network vise à Address résoudre de nombreux problèmes rencontrés par les systèmes de paiement traditionnels tels que Ripple. En s'appuyant sur les HTLC et le routage stratégique, le Lightning Network fournit une solution plus évolutive, plus efficace et plus sûre pour les paiements décentralisés.
+En résumé, le bon fonctionnement des nœuds garantit des paiements atomiques, et le Lightning Network vise à résoudre de nombreux problèmes rencontrés par les systèmes de paiement traditionnels tels que Ripple. En s'appuyant sur les HTLC et le routage stratégique, le Lightning Network fournit une solution plus évolutive, plus efficace et plus sécurisée pour les paiements décentralisés.
 
 
-## Examen du Bolt
+## Présentation de Bolt
 
 
 <chapterId>ba4b09ae-81de-53f2-8c15-316f037aaea9</chapterId>
@@ -2645,25 +2645,25 @@ En résumé, le bon fonctionnement des nœuds garantit des paiements atomiques, 
 
 :::video id=f0d17fe4-d793-4b90-924e-b551db501fbb:::
 
-Le réseau Bitcoin fonctionne comme un système de valeur Trustless Exchange, servant principalement de système de règlement Layer où les transactions sont enregistrées sur un serveur public Ledger. Cela garantit la sécurité et l'immuabilité, mais s'accompagne de limitations, notamment en termes de vitesse de transaction et de frais. Par conséquent, le Bitcoin peut être inefficace pour les petites transactions quotidiennes.
+Le réseau Bitcoin fonctionne comme un système d'échange de valeur sans tiers de confiance, servant principalement de système de règlement où les transactions sont enregistrées sur un registre public. Cela garantit la sécurité et l'immuabilité, mais s'accompagne de limitations, notamment en termes de vitesse de transaction et de frais. Par conséquent, Bitcoin peut être inefficace pour les petites transactions quotidiennes.
 
 
-C'est là qu'intervient le Lightning Network, qui fonctionne comme un deuxième Layer au-dessus du Bitcoin Blockchain. Ce réseau de paiement est conçu pour faciliter les transactions rapides et peu coûteuses. En ouvrant un canal de paiement entre deux parties, celles-ci peuvent effectuer des transactions off-chain, en enregistrant uniquement les soldes initial et final sur le Bitcoin Blockchain. Cela permet de réduire considérablement la charge sur le réseau principal, d'améliorer l'évolutivité et de rendre les microtransactions possibles.
+C'est là qu'intervient le Lightning Network, qui fonctionne comme une seconde couche au-dessus de la blockchain Bitcoin. Ce réseau de paiement est conçu pour faciliter les transactions rapides et peu coûteuses. En ouvrant un canal de paiement entre deux parties, celles-ci peuvent effectuer des transactions off-chain, en enregistrant uniquement les soldes initial et final sur la blockchain Bitcoin. Cela permet de réduire considérablement la charge sur le réseau principal, d'améliorer l'évolutivité et de rendre les microtransactions possibles.
 
 
-Pour mieux comprendre ce concept, prenons l'analogie d'une ardoise de bar. Lorsque vous ouvrez un compte dans un bar, vous pouvez commander continuellement des boissons sans payer après chacune d'entre elles. Enfin, vous réglez le montant total à la fin de la soirée. De même, un canal Lightning permet de multiples transactions off-chain, qui ne sont réglées On-Chain que lorsque le canal est fermé. Une autre analogie est celle d'un aéroport, où l'acheminement d'un paiement à travers plusieurs nœuds s'apparente à la prise de vols de correspondance pour atteindre votre destination. Chaque nœud (ou "vol") aide à diriger votre paiement là où il doit aller, garantissant ainsi un acheminement efficace.
+Pour mieux comprendre ce concept, prenons l'analogie d'une ardoise de bar. Lorsque vous ouvrez un compte dans un bar, vous pouvez commander des boissons en continu sans payer après chaque commande. Ensuite, vous réglez le montant total à la fin de la soirée. De même, un canal Lightning permet de multiples transactions off-chain, qui ne sont réglées on-chain que lorsque le canal est fermé. Une autre analogie est celle d'un aéroport, où l'acheminement d'un paiement à travers plusieurs nœuds s'apparente à prendre des vols de correspondance pour atteindre votre destination. Chaque nœud (ou "vol") aide à acheminer votre paiement vers sa destination, garantissant ainsi un routage efficace.
 
 
 ![airport analogy](assets/en/048.webp)_The airport analogy of LN_
 
 
-En fait, le Lightning Network complète le réseau Bitcoin en s'attaquant à ses limites, le transformant d'un simple système de règlement Layer en un système polyvalent capable de traiter efficacement les transactions quotidiennes.
+En fait, le Lightning Network complète le réseau Bitcoin en remédiant à ses limites, le transformant d'un simple système de règlement en un système polyvalent capable de traiter efficacement les transactions quotidiennes.
 
 
-### **Cahier des charges Lightning Network**
+### Spécifications du Lightning Network
 
 
-Le protocole Lightning Network est méticuleusement défini à travers 10 BOLT (Basis of Lightning Technology). Ces BOLT ont été adoptés lors d'une conférence à Milan et servent de base aux différentes mises en œuvre du Lightning Network.
+Le protocole Lightning Network est méticuleusement défini à travers 10 BOLTs (*Basis of Lightning Technology*). Ces BOLTs ont été adoptés lors d'une conférence à Milan et servent de base aux différentes implémentations du Lightning Network.
 
 
 ![bolt](assets/en/049.webp)_BOLT Diagram _
@@ -2672,15 +2672,15 @@ Le protocole Lightning Network est méticuleusement défini à travers 10 BOLT (
 #### Bolt 1 (protocole de base)
 
 
-La norme Bolt 1 décrit le formatage des messages à l'aide d'une structure Type-Longueur-Valeur (TLV), qui garantit que les messages sont compris uniformément par les différentes implémentations. La communication s'effectue généralement via un port TCP spécifique, et les messages peuvent être classés en plusieurs catégories :
+Bolt 1 décrit le formatage des messages à l'aide d'une structure Type-Longueur-Valeur (TLV, *Type-Length-Value*), qui garantit que les messages sont compris uniformément par les différentes implémentations. La communication s'effectue généralement via un port TCP spécifique, et les messages peuvent être classés en plusieurs catégories :
 
 
 
-- Messages de communication** : Il s'agit des messages `Init`, `Error`, `Warning`, `Ping` et `Pong`, qui établissent des connexions, gèrent les erreurs, vérifient l'état de la connexion et obscurcissent le trafic.
-- Messages de configuration du canal** : Ces messages sont essentiels pendant la phase d'établissement d'un canal.
-- Messages sur l'état des canaux** : Ces messages gèrent les mises à jour au sein des canaux actifs, en veillant à ce que les deux parties soient synchronisées.
-- Messages de ragots** : Ils sont utilisés pour la découverte et la mise à jour de la topologie du réseau.
-- Messages expérimentaux** : Ils permettent de tester de nouvelles fonctionnalités sans perturber le réseau.
+- **Messages de communication** : Il s'agit des messages `Init`, `Error`, `Warning`, `Ping` et `Pong`, qui établissent des connexions, gèrent les erreurs, vérifient l'état de la connexion et obscurcissent le trafic.
+- **Messages de configuration du canal** : Ces messages sont essentiels pendant la phase d'établissement d'un canal.
+- **Messages d'état de canal** : Ces messages gèrent les mises à jour au sein des canaux actifs, en veillant à ce que les deux parties soient synchronisées.
+- **Messages Gossip** : Ils sont utilisés pour la découverte et la mise à jour de la topologie du réseau.
+- **Messages expérimentaux** : Ils permettent de tester de nouvelles fonctionnalités sans perturber le réseau.
 
 
 #### Bolt 2 (cycle de vie du canal)
@@ -2690,39 +2690,39 @@ Bolt 2 se penche sur le cycle de vie d'un canal, depuis sa création jusqu'à so
 
 
 
-- Établissement d'un canal** : Au cours de cette phase, les parties ouvrent un canal, les signatures Exchange et créent une transaction de financement.
-- Fonctionnement normal** : Ici, l'état du canal est continuellement mis à jour à l'aide de Hash Time-Locked Contracts (HTLC). Les messages Commitment et de révocation garantissent que les deux parties sont d'accord sur l'état actuel.
-- Règlement** : Il s'agit de fermer le canal, généralement par le biais d'un accord mutuel et d'une négociation sur les honoraires, afin de finaliser les transactions sans entrer dans une boucle de fermeture indéfinie.
+- **Établissement d'un canal** : Au cours de cette phase, les parties ouvrent un canal, échangent des signatures et créent une transaction de financement.
+- **Fonctionnement normal** : L'état du canal est continuellement mis à jour à l'aide de *Hash Time-Locked Contracts* (HTLC). Les messages d'engagement et de révocation garantissent que les deux parties sont d'accord sur l'état actuel du canal.
+- **Règlement** : Il s'agit de fermer le canal, généralement par le biais d'un accord mutuel et d'une négociation sur les honoraires, afin de finaliser les transactions sans entrer dans une boucle de fermeture indéfinie.
 
 
 #### Mécanisme de mise à jour
 
 
-Les HTLC jouent un rôle central dans l'acheminement des paiements sur le réseau, permettant des transactions sécurisées sans confiance. Les messages Commitment et de révocation garantissent un accord mutuel sur l'état du canal et préviennent la fraude.
+Les HTLC jouent un rôle central dans l'acheminement des paiements sur le réseau, permettant des transactions sécurisées sans confiance. Les messages d'engagement et de révocation garantissent un accord mutuel sur l'état du canal et préviennent la fraude.
 
 
 #### Messages spéciaux
 
 
-Des messages spécifiques tels que "Update Fee" ajustent les frais Miner pour les transactions Commitment, tandis que les messages "Channel Reestablish" garantissent que les deux pairs restent synchronisés après les déconnexions.
+Des messages spécifiques tels que "Update Fee" ajustent les frais des mineurs pour les transactions d'engagement, tandis que les messages "Channel Reestablish" garantissent que les deux pairs restent synchronisés après les déconnexions.
 
 
 #### Fermeture des canaux
 
 
-Les canaux peuvent être fermés par accord mutuel, action unilatérale ou punition si une tricherie est détectée. Une fermeture correcte permet de finaliser les transactions en toute sécurité.
+Les canaux peuvent être fermés par accord mutuel, action unilatérale ou par sanction si une tricherie est détectée. Une fermeture correcte permet de finaliser les transactions en toute sécurité.
 
 
-#### Swaps pour la gestion des liquidités
+#### Swaps pour la gestion de la liquidité
 
 
-Les swaps permettent des retraits On-Chain et une gestion efficace des liquidités sans fermeture de canaux. Des solutions futures telles que l'épissage sont en cours de développement pour améliorer ce processus.
+Les swaps permettent des retraits on-chain et une gestion efficace des liquidités sans fermeture de canaux. Des solutions futures telles que le *splicing* sont en cours de développement pour améliorer ce processus.
 
 
 #### Mesures de sécurité
 
 
-Les transactions Commitment intègrent des mécanismes tels que nLockTime, OPCheckSequenceVerify et des clés de révocation pour sécuriser les fonds et prévenir le vol.
+Les transactions d'engagement intègrent des mécanismes tels que nLockTime, OPCheckSequenceVerify et des clés de révocation pour sécuriser les fonds et prévenir le vol.
 
 
 ### Routage et routage en oignon
@@ -2734,10 +2734,10 @@ Les transactions Commitment intègrent des mécanismes tels que nLockTime, OPChe
 Les paiements sont acheminés à l'aide du routage en oignon, qui consiste à créer des paquets cryptés envoyés par l'intermédiaire de plusieurs nœuds. Les HTLC sécurisent la transaction, garantissant ainsi la confidentialité et la sécurité.
 
 
-### Structure du Invoice
+### Structure d'une invoice
 
 
-Les factures Lightning Network (Bolt 11) sont encodées en Bech32 et comprennent des détails tels que le paiement Hash, la description et l'expiration. Chaque Invoice ne doit être utilisé qu'une seule fois pour éviter les problèmes de réutilisation.
+Les factures (*invoice*) Lightning Network (Bolt 11) sont encodées en Bech32 et comprennent des détails tels que le hachage du paiement, la description et l'expiration. Chaque invoice ne doit être utilisé qu'une seule fois pour éviter les problèmes de réutilisation.
 
 
 ![Invoice structure](assets/en/051.webp)_BOLT11 Invoice_
@@ -2746,35 +2746,35 @@ Les factures Lightning Network (Bolt 11) sont encodées en Bech32 et comprennent
 #### Chiffrement et authentification
 
 
-Les procédures de poignée de main et le cryptage (Chacha20) avec authentification (Poly1305) garantissent l'intégrité des messages et la confidentialité des transactions Lightning.
+Les procédures de *handshake* et le cryptage (Chacha20) avec authentification (Poly1305) garantissent l'intégrité des messages et la confidentialité des transactions Lightning.
 
 
 #### Alternatives
 
 
-D'autres méthodes de demande de paiement telles que LNURL, Keysend et Bolt 12 offrent des caractéristiques et des niveaux d'adoption variables, ce qui assure la flexibilité du réseau.
+D'autres méthodes de demande de paiement telles que LNURL, Keysend et Bolt 12 offrent des fonctionnalités variées et différents niveaux d'adoption, ce qui assure la flexibilité du réseau.
 
 
 #### Découverte du réseau
 
 
-La découverte du réseau dans le Lightning Network a évolué de son utilisation initiale de l'IRC (Internet Relay Communication) à un protocole plus sophistiqué défini par le Bolt 7. Ce protocole utilise des messages Lightning spécifiques, communément appelés messages gossip, pour découvrir et maintenir la topologie du réseau.
+La découverte du réseau dans le Lightning Network a évolué de son utilisation initiale de l'IRC (*Internet Relay Communication*) à un protocole plus sophistiqué défini par le Bolt 7. Ce protocole utilise des messages Lightning spécifiques, communément appelés messages gossip, pour découvrir et maintenir la topologie du réseau.
 
 
 #### Messages de Bolt7
 
 
-Les principaux messages de Bolt 7 sont les suivants
+Les messages clés de Bolt 7 incluent :
 
 
 
-- Annonce de nœud** : Ce message diffuse l'existence d'un nœud.
-- Annonce d'un canal** : Ce message informe le réseau de la création d'un nouveau canal.
-- Signature de l'annonce** : Elle garantit l'authenticité des messages diffusés.
-- Mise à jour de la chaîne** : Ce message communique les mises à jour concernant un canal, telles que les structures de frais et les montants maximums de la HTLC.
+- **Annonce de nœud** : Ce message diffuse l'existence d'un nœud.
+- **Annonce d'un canal** : Ce message informe le réseau de la création d'un nouveau canal.
+- **Signature de l'annonce** : Elle garantit l'authenticité des messages diffusés.
+- **Mise à jour de canal** : Ce message communique les mises à jour concernant un canal, telles que les structures de frais et les montants maximums du HTLC.
 
 
-#### Processus d'annonce des chaînes
+#### Processus d'annonce de canal
 
 
 Le processus commence par l'échange, entre pairs locaux, de l'identité et des détails du canal. Après avoir vérifié les signatures et financé les transactions, ils annoncent le canal à leurs homologues du réseau, ce qui garantit que l'ensemble du réseau reste informé des changements topologiques les plus récents.
@@ -2783,25 +2783,25 @@ Le processus commence par l'échange, entre pairs locaux, de l'identité et des 
 #### Démarrage du DNS
 
 
-La découverte des pairs Lightning est facilitée par les requêtes DNS et Bitcoin DNS seed, qui fournissent des informations sur l'IP et le nœud. Ce mécanisme de découverte initiale aide les nœuds à se connecter rapidement au réseau.
+La découverte des pairs Lightning est facilitée par les requêtes DNS et *Bitcoin DNS seed*, qui fournissent des informations sur l'IP et le nœud. Ce mécanisme de découverte initiale aide les nœuds à se connecter rapidement au réseau.
 
 
 #### Annonces de fonctionnalités
 
 
-Les nœuds peuvent diffuser les fonctionnalités qu'ils prennent en charge, ce qui garantit une compatibilité ascendante tout en permettant des améliorations facultatives. Cette flexibilité garantit que tous les nœuds peuvent interagir en douceur, même si le protocole évolue.
+Les nœuds peuvent diffuser les fonctionnalités qu'ils prennent en charge, ce qui garantit une compatibilité ascendante tout en permettant des améliorations facultatives. Cette flexibilité garantit que tous les nœuds peuvent interagir de manière fluide, même si le protocole évolue.
 
 
 #### Traitement des factures Bolt11
 
 
-Le réseau garantit l'unicité des factures Bolt 11 afin d'éviter les paiements multiples pour la même Invoice. Si une Invoice est réutilisée, les nœuds du réseau interceptent et empêchent les doubles paiements, préservant ainsi l'intégrité de la transaction.
+Le réseau garantit l'unicité des factures Bolt 11 afin d'éviter les paiements multiples pour la même invoice. Si une invoice est réutilisée, les nœuds du réseau interceptent et empêchent les doubles paiements, préservant ainsi l'intégrité de la transaction.
 
 
-#### Voix Transmission de données
+### Transmission de données vocales
 
 
-Bien que possible, la transmission de données vocales via le Lightning Network est fortement compressée et limitée par la taille du message. Un exemple d'application est Sphinx, qui explore l'utilisation innovante de Lightning pour la transmission de données.
+Bien que possible, la transmission de données vocales via le Lightning Network est fortement compressée et limitée par la taille du message. Un exemple d'application est Sphinx, qui explore l'utilisation innovante du Lightning pour la transmission de données.
 
 
 #### Cas d'utilisation et débats
@@ -2816,7 +2816,7 @@ La finalité du Lightning Network fait l'objet d'un débat permanent. Bien qu'il
 La communauté Lightning Network est très dynamique et s'engage dans un débat et une discussion continus sur les cas d'utilisation, les applications du protocole et les améliorations potentielles. Cet environnement collaboratif favorise l'innovation tout en garantissant que le réseau évolue pour répondre aux besoins des utilisateurs.
 
 
-En conclusion, la compréhension de l'importance du Second Layer, des spécifications du Lightning Network et des mécanismes de découverte du réseau est cruciale pour quiconque souhaite se plonger dans les subtilités du Lightning Network. Il s'agit d'un domaine complexe mais très gratifiant qui promet de transformer l'avenir des transactions numériques.
+En conclusion, la compréhension de l'importance de la seconde couche, des spécifications du Lightning Network et des mécanismes de découverte du réseau est cruciale pour quiconque souhaite se plonger dans les subtilités du Lightning Network. Il s'agit d'un domaine complexe mais très gratifiant qui promet de transformer l'avenir des transactions numériques.
 
 
 ## Principaux clients de LN
@@ -2827,86 +2827,86 @@ En conclusion, la compréhension de l'importance du Second Layer, des spécifica
 
 :::video id=90240cb6-a942-4015-b0c2-b721c48309ec:::
 
-Le Lightning Network (LN) représente une avancée significative en matière d'évolutivité et de vitesse de transaction Bitcoin. Les clients LN, généralement appelés portefeuilles Lightning, sont des logiciels ou des applications spécialisés qui permettent aux utilisateurs d'effectuer des transactions par l'intermédiaire de la Lightning Network. Ces portefeuilles jouent un rôle crucial Interface entre l'utilisateur et la LN, facilitant les transactions instantanément réglées et à faible coût en exploitant les chemins off-chain.
+Le Lightning Network (LN) représente une avancée significative en matière d'évolutivité et de vitesse de transaction Bitcoin. Les clients LN, généralement appelés portefeuilles Lightning, sont des logiciels ou des applications spécialisés qui permettent aux utilisateurs d'effectuer des transactions via le Lightning Network. Ces portefeuilles servent d'interface entre l'utilisateur et le LN, facilitant les transactions instantanément réglées et à faible coût en exploitant les chemins off-chain.
 
 
-Les portefeuilles Lightning sont conçus pour rendre le processus convivial, permettant même aux personnes ayant des connaissances techniques minimales de bénéficier des fonctionnalités avancées du Bitcoin. En permettant des microtransactions rapides et rentables, ces portefeuilles contribuent de manière significative à l'adoption plus large du Bitcoin pour les transactions quotidiennes.
+Les portefeuilles Lightning sont conçus pour rendre le processus convivial, permettant même aux personnes ayant des connaissances techniques minimales de bénéficier des fonctionnalités avancées de Bitcoin. En permettant des microtransactions rapides et peu coûteuses, ces portefeuilles contribuent de manière significative à l'adoption plus large de Bitcoin pour les transactions quotidiennes.
 
 
 ![LN Clients](assets/en/052.webp)_Lightning Wallets_
 
 
-### Portefeuilles Bitcoin et portefeuilles Lightning
+### Portefeuilles Bitcoin vs. portefeuilles Lightning
 
 
-Les portefeuilles Bitcoin et les portefeuilles Lightning diffèrent fondamentalement dans leur architecture et leurs cas d'utilisation, bien qu'ils aient en commun la gestion des clés privées :
+Les portefeuilles Bitcoin et les portefeuilles Lightning diffèrent fondamentalement dans leur architecture et leurs cas d'utilisation, bien qu'ils partagent la caractéristique commune de la gestion des clés privées.
 
 
-#### Portefeuilles Bitcoin :
-
-
-
-- Préoccupation relative à la clé privée** : L'objectif principal des portefeuilles Bitcoin est de savoir qui détient la clé privée. Celle-ci détermine la sécurité et le contrôle des fonds de l'utilisateur.
-- Complexité des transactions** : Les portefeuilles Bitcoin gèrent différents scripts de transaction tels que Segregated Witness (SegWit) et Taproot, qui optimisent la taille des transactions et renforcent la confidentialité et la sécurité.
-
-
-#### Portefeuilles éclair :
+#### Portefeuilles Bitcoin 
 
 
 
-- Gestion des clés privées** : Comme pour les portefeuilles Bitcoin, le contrôle des clés privées reste crucial.
-- Gestion des liquidités** : Les portefeuilles Lightning se distinguent par la nécessité de gérer les liquidités, ce qui implique d'équilibrer les liquidités locales (sortantes) et distantes (entrantes) afin d'assurer un acheminement fluide des transactions. Pour ce faire, les utilisateurs doivent comprendre et optimiser leurs canaux afin de faciliter l'acheminement efficace des paiements.
+- **Gestion des clés privées** : L'objectif principal des portefeuilles Bitcoin est de savoir qui détient la clé privée. Celle-ci détermine la sécurité et le contrôle des fonds de l'utilisateur.
+- **Complexité des transactions** : Les portefeuilles Bitcoin gèrent différents scripts de transaction tels que *Segregated Witness* (SegWit) et Taproot, qui optimisent la taille des transactions et renforcent la confidentialité et la sécurité.
 
 
-#### Gestion des liquidités dans les lightning wallets
-
-
-Une gestion efficace des liquidités est la pierre angulaire de la réussite des opérations Lightning Network. Elle implique l'équilibre stratégique de deux types principaux de liquidités :
-
-
-#### Liquidité locale (sortante) :
+#### Portefeuilles Lightning 
 
 
 
-- Cela représente la quantité de Bitcoin qu'un utilisateur peut envoyer à partir de ses canaux Lightning. Elle est cruciale pour initier des paiements et s'assurer que les transactions peuvent être acheminées vers le destinataire.
+- **Gestion des clés privées** : Comme pour les portefeuilles Bitcoin, le contrôle des clés privées reste crucial.
+- **Gestion de la liquidité** : Les portefeuilles Lightning se distinguent par la nécessité de gérer la liquidité, ce qui implique d'équilibrer la liquidité locale (sortante) et distante (entrante) afin d'assurer un routage fluide des transactions. Pour ce faire, les utilisateurs doivent comprendre et optimiser leurs canaux afin de faciliter l'acheminement efficace des paiements.
 
 
-#### Liquidités à distance (entrantes) :
+#### Gestion de la liquidité dans les portefeuilles Lightning
+
+
+Une gestion efficace de la liquidité est la pierre angulaire de la réussite des opérations Lightning. Elle implique l'équilibre stratégique de deux types principaux de liquidité :
+
+
+#### Liquidité locale (sortante) 
 
 
 
-- Cela représente le montant de Bitcoin qu'un utilisateur peut recevoir par l'intermédiaire de ses canaux. Il est également important, car il garantit que d'autres personnes peuvent envoyer des paiements à l'utilisateur.
+- Cela représente la quantité de satoshis qu'un utilisateur peut envoyer à partir de ses canaux Lightning. Elle est cruciale pour initier des paiements et s'assurer que les transactions peuvent être acheminées vers le destinataire.
 
 
-#### Exemple de gestion des liquidités :
+#### Liquidité distante (entrantes) 
+
+
+
+- Cela représente le nombre de satoshis qu'un utilisateur peut recevoir par l'intermédiaire de ses canaux. Il est également important, car il garantit que d'autres personnes peuvent envoyer des paiements à l'utilisateur.
+
+
+#### Exemple de gestion de liquidité 
 
 
 ![Example of Liquidity](assets/en/053.webp)_Lightning Liquidity_
 
 
-Considérons un scénario impliquant Alice, Bob, Charlie et Dan - des utilisateurs typiques de LN interconnectés par divers canaux :
+Considérons un scénario impliquant Alice, Bob, Charlie et Dan - des utilisateurs typiques du LN interconnectés par divers canaux :
 
 
 
-- Alice veut payer Dan mais ne dispose pas de liquidités locales suffisantes dans son canal avec Bob.
+- Alice veut payer Dan mais ne dispose pas de liquidité locale suffisante dans son canal avec Bob.
 - Si Bob dispose d'un solde suffisant et d'un canal avec Charlie, et que Charlie dispose d'un canal avec Dan, le paiement de Alice peut être acheminé via Bob et Charlie pour atteindre Dan.
 
 
 ![Example of Liquidity](assets/en/054.webp)_Lightning Liquidity_
 
 
-Toutefois, si l'un de ces canaux est épuisé ou connaît des problèmes de connectivité, la transaction peut échouer. Cela illustre l'importance de maintenir une liquidité équilibrée sur l'ensemble du réseau.
+Toutefois, si l'un de ces canaux subit une déplétion de fonds ou des problèmes de connectivité, la transaction peut échouer. Cela illustre l'importance de maintenir une liquidité équilibrée sur l'ensemble du réseau.
 
 
-#### Les défis de la Lightning Network :
+#### Les défis du Lightning Network 
 
 
 
-- L'épuisement des canaux** : Au fil du temps, les canaux peuvent devenir déséquilibrés, les fonds étant concentrés d'un côté, ce qui limite les possibilités de transaction.
-- Problèmes de connectivité** : L'acheminement efficace des transactions nécessite des connexions réseau robustes, qui peuvent être difficiles à maintenir.
+- **Déplétion des canaux** : Au fil du temps, les canaux peuvent devenir déséquilibrés, les fonds se concentrant d'un côté, ce qui limite les possibilités de transaction.
+- **Problèmes de connectivité** : L'acheminement efficace des transactions nécessite des connexions réseau robustes, qui peuvent être difficiles à maintenir.
 
 
-Pour relever ces défis, les fournisseurs de services de liquidité (LSP) proposent des services de gestion des liquidités, souvent payants, qui permettent aux utilisateurs de maintenir des soldes de canaux optimaux pour des transactions fluides.
+Pour relever ces défis, les fournisseurs de services de liquidité (LSP, *Liquidity Services Providers*) proposent des services de gestion de liquidité, souvent payants, qui permettent aux utilisateurs de maintenir des soldes de canaux optimaux pour des transactions fluides.
 
 
 ### Différents portefeuilles et leurs caractéristiques
@@ -2915,50 +2915,49 @@ Pour relever ces défis, les fournisseurs de services de liquidité (LSP) propos
 Il existe plusieurs portefeuilles Lightning, chacun répondant aux différents besoins et préférences des utilisateurs. En voici quelques exemples :
 
 
-#### Wallet de Satoshi :
+#### Wallet de Satoshi 
 
 
 
-- Caractéristiques** : Entièrement conservateur, convivial, mais à source fermée, ce qui peut poser des problèmes de protection de la vie privée.
+- **Caractéristiques** : Entièrement *custodial*, facile d'utilisation, mais à code fermée, ce qui peut poser des problèmes de confidentialité.
 
 
-#### Albi :
-
-
-
-- Caractéristiques** : Extension pour navigateur, open-source, prend en charge les modèles avec et sans garde, ce qui accroît la polyvalence.
-
-
-#### Brise :
+#### Albi 
 
 
 
-- Caractéristiques** : Nœud léger sur un téléphone, open-source, combinant l'autodétention et la liquidité gérée, offrant un équilibre entre le contrôle et la commodité.
+- **Caractéristiques** : Extension pour navigateur, open source, prend en charge les modèles *custodial* et *non-custodial*, ce qui accroît la polyvalence.
 
 
-#### Phoenix :
+#### Breeze 
 
 
-
-- Caractéristiques** : Similaire à Breeze, utilise un modèle LSP pour la liquidité, open-source, se concentre sur la simplicité d'utilisation et la gestion efficace de la liquidité.
-
-
-#### Ouvrir Bitcoin Wallet (OBW) :
+- **Caractéristiques** : Nœud léger sur un téléphone, open source, combinant l'autodétention et une liquidité gérée, offrant un équilibre entre le contrôle et la commodité.
 
 
-
-- Caractéristiques** : Intègre les portefeuilles On-Chain et Lightning, prend en charge les canaux hébergés, open-source avec des fonctionnalités avancées, adapté aux utilisateurs puissants.
-
-
-### Matrice de gestion des dépôts et des liquidités
-
-
-Les portefeuilles peuvent être classés en fonction de la personne qui détient les clés privées et de celle qui gère les liquidités. Cette matrice aide les utilisateurs à choisir des portefeuilles qui correspondent à leurs préférences en matière de sécurité et de commodité :
+#### Phoenix 
 
 
 
-- Portefeuilles de dépôt** : Un tiers détient les clés privées et propose généralement une gestion automatique des liquidités. Les exemples incluent Wallet de Satoshi.
-- Portefeuilles non dépositaires** : Les utilisateurs détiennent les clés privées, ce qui peut nécessiter une gestion manuelle des liquidités. Exemples : Breeze et OBW.
+- **Caractéristiques** : Similaire à Breeze, utilise un modèle LSP pour la liquidité, open source, se concentre sur la simplicité d'utilisation et une gestion efficace de la liquidité.
+
+
+#### Open Bitcoin Wallet (OBW) 
+
+
+
+- **Caractéristiques** : Intègre les portefeuilles on-chain et Lightning, prend en charge les canaux hébergés, open source avec des fonctionnalités avancées, adapté aux utilisateurs expérimentés.
+
+
+### Matrice de garde et gestion des liquidités
+
+
+Les portefeuilles peuvent être classés en fonction de qui détient les clés privées et de qui gère les liquidités. Cette matrice aide les utilisateurs à choisir des portefeuilles qui correspondent à leurs préférences en matière de sécurité et de commodité :
+
+
+
+- **Portefeuilles dépositaires (*Custodial*)** : Un tiers détient les clés privées et propose généralement une gestion automatique des liquidités. Exemple : Wallet de Satoshi.
+- **Portefeuilles non dépositaires (*Non-custodial*)** : Les utilisateurs détiennent les clés privées, ce qui peut nécessiter une gestion manuelle des liquidités. Exemples : Breeze et OBW.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -2971,54 +2970,54 @@ Malgré leurs avantages, les portefeuilles Lightning font l'objet de plusieurs c
 
 
 
-- Vie privée** : Les portefeuilles fermés et certains modèles de garde posent des problèmes de confidentialité.
-- Facilité d'utilisation** : Trouver un équilibre entre les fonctionnalités avancées et la convivialité reste un défi.
-- Développement de logiciels libres** : Les différents niveaux de contribution aux logiciels libres affectent la confiance des utilisateurs et le rythme de l'innovation.
+- **Vie privée** : Les portefeuilles à code fermé et certains modèles de garde posent des problèmes de confidentialité.
+- **Facilité d'utilisation** : Trouver un équilibre entre les fonctionnalités avancées et la convivialité reste un défi.
+- **Développement de logiciels libres** : Les différents niveaux de contribution aux logiciels libres influencent la confiance des utilisateurs et le rythme de l'innovation.
 
 
-### Autres informations et cas d'utilisation
+### Informations complémentaires et cas d'utilisation
 
 
-#### Défis algorithmiques :
+#### Défis algorithmiques 
 
 
-Les algorithmes actuels pour trouver le chemin optimal à l'intérieur du Lightning Network sont souvent sous-optimaux, impliquant des essais et des erreurs. Des améliorations sont nécessaires pour accroître l'efficacité du routage.
+Les algorithmes actuels pour trouver le chemin optimal au sein du réseau Lightning sont souvent sous-optimaux, impliquant des essais et des erreurs. Des améliorations sont nécessaires pour accroître l'efficacité du routage.
 
 
-#### Paiements en plusieurs parties :
+#### Paiements en plusieurs parties 
 
 
-La décomposition des paiements importants en transactions plus petites permet d'atténuer les problèmes de liquidité et de repérage, ce qui garantit des transactions plus fluides.
+Le fractionnement des paiements importants en transactions plus petites permet d'atténuer les problèmes de liquidité et de routage, ce qui garantit des transactions plus fluides.
 
 
-#### Bénéfices provenant de l'acheminement :
+#### Bénéfices provenant du routage 
 
 
-Les revenus générés par les redevances de routage sont généralement minimes, ce qui rend moins intéressante l'exploitation lucrative des nœuds de routage par les utilisateurs individuels.
+Les revenus générés par les frais de routage sont généralement minimes, ce qui rend l'exploitation de nœuds de routage moins intéressante, voire peu lucrative, pour les utilisateurs individuels.
 
 
-#### Divers exemples de Wallet :
+#### Divers exemples de portefeuille 
 
 
 
-- Blink Wallet** : Basé au Salvador, gardien, nécessite un numéro de téléphone, caractéristiques stables du Sats, mais sans les caractéristiques avancées du Lightning Network.
-- Blitz Wallet** : Open-source, autocontrôle, nécessite des liquidités gérées par l'utilisateur, offre de nombreuses informations pour les utilisateurs chevronnés.
-- SwissBitcoinPay** : Conçu pour les commerçants, garde jusqu'à 24 heures, frais minimes pour les utilisateurs à fort volume.
+- **Blink Wallet** : Basé au Salvador, custodial, nécessite un numéro de téléphone, fonctionnalités de *stables sats*, mais sans les caractéristiques avancées du Lightning Network.
+- **Blitz Wallet** : Open source, autocontrôle (*self-custody*), nécessite des liquidités gérées par l'utilisateur, offre de nombreuses informations pour les utilisateurs expérimentés.
+- **SwissBitcoinPay** : Conçu pour les commerçants, custodial jusqu'à 24 heures, frais minimes pour les utilisateurs à fort volume.
 
 
-#### Cas d'utilisation de Wallet :
+#### Cas d'utilisation des portefeuilles 
 
 
-Différents portefeuilles répondent à des objectifs distincts, de la facilité d'utilisation pour les débutants aux fonctions avancées pour les utilisateurs chevronnés. Il n'existe pas de "meilleur" Wallet ; le choix dépend des besoins et des préférences de chacun.
+Chaque portefeuille répond à des besoins différents, de la facilité d'utilisation pour les débutants aux fonctions avancées pour les utilisateurs chevronnés. Il n'existe pas de "meilleur" portefeuille ; le choix dépend des besoins et des préférences de chacun.
 
 
-#### Contribution open source :
+#### Contribution open source 
 
 
-Le retour d'information des utilisateurs et les contributions aux projets à code source ouvert sont d'une valeur inestimable pour le développement et la croissance des compétences personnelles, et favorisent un environnement collaboratif et innovant.
+Le retour d'information des utilisateurs et les contributions aux projets open source sont d'une valeur inestimable pour le développement et l'amélioration des compétences personnelles, et favorisent un environnement collaboratif et innovant.
 
 
-En conclusion, il est essentiel de comprendre les différents aspects des clients Lightning Network, leurs différences par rapport aux portefeuilles Bitcoin traditionnels et l'importance d'une gestion efficace des liquidités pour tirer parti de tout le potentiel du Lightning Network. En choisissant le bon Wallet et en participant activement à l'écosystème, les utilisateurs peuvent améliorer considérablement leur expérience des transactions Bitcoin.
+En conclusion, il est essentiel de comprendre les différents aspects des clients Lightning Network, leurs différences par rapport aux portefeuilles Bitcoin traditionnels et l'importance d'une gestion efficace des liquidités pour tirer parti de tout le potentiel du Lightning Network. En choisissant le bon portefeuille et en participant activement à l'écosystème, les utilisateurs peuvent améliorer considérablement leur expérience des transactions Bitcoin.
 
 
 # Les défis du LN
@@ -3033,10 +3032,10 @@ En conclusion, il est essentiel de comprendre les différents aspects des client
 <chapterId>014c7c40-aef7-58ac-b51f-33784463f482</chapterId>
 
 
-**(la vidéo sera bientôt disponible)**
+**(La vidéo sera bientôt disponible)**
 
 
-Dans cette session, Asi0 aborde les défis pratiques rencontrés lors de l'utilisation du Lightning Network (LN). Malgré son approche révolutionnaire de la mise à l'échelle des transactions Bitcoin, le Lightning Network présente plusieurs défis pratiques que les utilisateurs et les développeurs doivent relever. En particulier, nous examinerons quatre défis principaux : **la gestion des liquidités**, **l'abstraction Layer 1/Layer 2**, **la réception de paiements hors ligne** et **la gestion des sauvegardes**.
+Dans cette session, Asi0 aborde les défis pratiques rencontrés lors de l'utilisation du Lightning Network (LN). Malgré son approche révolutionnaire de la mise à l'échelle des transactions Bitcoin, le Lightning Network présente plusieurs défis pratiques que les utilisateurs et les développeurs doivent relever. Nous examinerons en particulier quatre défis principaux : **la gestion des liquidités**, **l'abstraction entre la première et seconde couche (*Layer 1/Layer 2*)**, **la réception de paiements hors ligne** et **la gestion des sauvegardes**.
 
 
 Chacun de ces défis est envisagé sous deux angles : celui de l'**utilisateur** et celui du **développeur**, car les défis et les solutions diffèrent en fonction du rôle que vous jouez dans l'écosystème.
@@ -3044,148 +3043,143 @@ Chacun de ces défis est envisagé sous deux angles : celui de l'**utilisateur**
 
 ---
 
-### Défi 1 : gestion des liquidités
+### Défi 1 : Gestion de la liquidité
 
 
-#### **Du point de vue de l'utilisateur:**
+#### **Du point de vue de l'utilisateur**
 
 
-Dans la Lightning Network, les **liquidités** désignent la disponibilité des fonds dans les canaux de paiement qui sont nécessaires pour effectuer ou recevoir des paiements. Les utilisateurs doivent s'assurer qu'ils disposent de suffisamment de liquidités entrantes et sortantes pour mener à bien leurs transactions. Par exemple, si vous souhaitez recevoir des paiements, vous devez disposer de liquidités entrantes, ce qui signifie qu'un autre nœud doit allouer une partie de son solde à votre canal. De même, si vous souhaitez envoyer des paiements, vous devez disposer de liquidités sortantes dans votre canal.
-
-
-
-- Question pratique** : Les utilisateurs éprouvent souvent des difficultés à équilibrer leurs canaux et à maintenir une liquidité suffisante. En outre, le rééquilibrage des canaux peut entraîner des coûts.
-- Solutions possibles** : Certains portefeuilles Lightning ont commencé à intégrer le rééquilibrage automatique des canaux, mais cette fonctionnalité est encore en cours de développement. Les utilisateurs s'appuient également sur les **fournisseurs de services Lightning (LSP)** pour les aider à gérer les liquidités.
-
-
-#### **Du point de vue du développeur:**
-
-
-Les développeurs sont confrontés au défi de la mise en œuvre d'une gestion transparente des liquidités dans les applications. Ils doivent créer des outils qui automatisent le rééquilibrage et réduisent les frictions pour les utilisateurs, tout en optimisant les frais et en évitant les goulets d'étranglement en matière de liquidité.
+Dans le Lightning Network, les **liquidités** désignent la disponibilité des fonds dans les canaux qui sont nécessaires pour effectuer ou recevoir des paiements. Les utilisateurs doivent s'assurer qu'ils disposent de suffisamment de liquidités entrantes et sortantes pour mener à bien leurs transactions. Par exemple, si vous souhaitez recevoir des paiements, vous devez disposer de liquidités entrantes, ce qui signifie qu'un autre nœud doit allouer une partie de son solde à votre canal. De même, si vous souhaitez envoyer des paiements, vous devez disposer de liquidités sortantes dans votre canal.
 
 
 
-- Enjeu pratique** : La mise en œuvre d'algorithmes efficaces pour l'acheminement des paiements sur un réseau à liquidité variable peut s'avérer complexe et exigeante en termes de calculs.
-- Solutions possibles** : Les développeurs explorent des algorithmes avancés pour **l'acheminement des liquidités** et l'utilisation de **canaux à double financement** pour garantir la disponibilité des liquidités aux deux extrémités d'une transaction.
+- **Problème pratique** : Les utilisateurs éprouvent souvent des difficultés à équilibrer leurs canaux et à maintenir une liquidité suffisante. En outre, le rééquilibrage des canaux peut entraîner des coûts.
+- **Solutions possibles** : Certains portefeuilles Lightning ont commencé à intégrer le rééquilibrage automatique des canaux, mais cette fonctionnalité est encore en cours de développement. Les utilisateurs s'appuient également sur les **fournisseurs de services Lightning (LSP)** pour les aider à gérer les liquidités.
 
 
-> **Définitions** :
->
+#### **Du point de vue du développeur**
 
-> - **Liquidité** : La disponibilité des fonds dans un canal Lightning pour effectuer ou recevoir des paiements.
-> - **LSP (Lightning Service Provider)** : Un service qui aide les utilisateurs à gérer les liquidités et les canaux sur le Lightning Network.
+
+Les développeurs sont confrontés au défi de la mise en œuvre d'une gestion fluide des liquidités dans les applications. Ils doivent créer des outils qui automatisent le rééquilibrage et réduisent les frictions pour les utilisateurs, tout en optimisant les frais et en évitant les goulets d'étranglement en matière de liquidité.
+
+
+
+- **Problème pratique** : La mise en œuvre d'algorithmes efficaces pour l'acheminement des paiements sur un réseau à liquidité variable peut s'avérer complexe et exigeante en termes de calculs.
+- **Solutions possibles** : Les développeurs explorent des algorithmes avancés pour **l'acheminement des liquidités** et l'utilisation de **canaux à double financement** pour garantir la disponibilité des liquidités aux deux extrémités d'une transaction.
+
+
+**Définitions** :
+
+- **Liquidité** : La disponibilité des fonds dans un canal Lightning pour effectuer ou recevoir des paiements.
+- **LSP (Lightning Service Provider)** : Un service qui aide les utilisateurs à gérer les liquidités et les canaux sur le Lightning Network.
 
 ---
 
 ### Défi 2 : Abstraction L1/L2
 
 
-#### **Du point de vue de l'utilisateur:**
+#### **Du point de vue de l'utilisateur**
 
 
-L'interaction entre **Layer 1 (L1)** (Layer de base de Bitcoin) et **Layer 2 (L2)** (le Lightning Network) n'est souvent pas totalement abstraite pour les utilisateurs. Par exemple, l'ouverture et la fermeture de canaux nécessitent des transactions On-Chain Bitcoin (L1), et les utilisateurs doivent payer des frais On-Chain pour ces actions. Cela introduit une complexité supplémentaire et des retards potentiels lorsque le réseau Bitcoin est encombré.
-
-
-
-- Question pratique** : Les utilisateurs ont souvent du mal à comprendre s'ils interagissent avec le Bitcoin de base ou le Lightning Layer. Il peut en résulter une certaine confusion en ce qui concerne les frais, les délais de transaction et la sécurité.
-- Solutions possibles** : Des conceptions Wallet améliorées qui font abstraction des interactions L1/L2 et gèrent les ouvertures/fermetures de canaux en arrière-plan. Certains portefeuilles permettent déjà aux utilisateurs de basculer de manière transparente entre les transactions On-Chain et Lightning, en fonction des circonstances.
-
-
-#### **Du point de vue du développeur:**
-
-
-Les développeurs sont chargés d'abstraire les complexités de L1 et L2 pour les utilisateurs, en créant des interfaces fluides et intuitives qui traitent les transactions efficacement. Le défi consiste à optimiser l'expérience de l'utilisateur tout en maintenant l'intégrité et la sécurité du protocole Lightning.
+L'interaction entre le **Layer 1 (L1)** (première couche de Bitcoin) et le **Layer 2 (L2)** (le Lightning Network) n'est souvent pas totalement abstraite pour les utilisateurs. Par exemple, l'ouverture et la fermeture de canaux nécessitent des transactions on-chain (L1), et les utilisateurs doivent payer des frais on-chain pour ces actions. Cela ajoute de la complexité et peut entraîner des retards lorsque le réseau Bitcoin est congestionné.
 
 
 
-- Enjeu pratique** : Veiller à ce que l'utilisateur soit protégé des complexités techniques de la gestion des canaux et des transactions On-Chain, tout en maintenant la transparence lorsque cela est nécessaire.
-- Solutions possibles** : Les développeurs travaillent sur des fonctionnalités telles que le **splicing** (qui permet d'ajouter ou de retirer des fonds d'un canal sans le fermer) et des outils de gestion automatique des canaux.
+- **Problème pratique** : Les utilisateurs ont souvent du mal à comprendre s'ils interagissent avec la première couche de Bitcoin ou le Lightning. Il peut en résulter une certaine confusion en ce qui concerne les frais, les délais de transaction et la sécurité.
+- **Solutions possibles** : La conception de portefeuilles améliorés qui font abstraction des interactions L1/L2 et gèrent les ouvertures/fermetures de canaux en arrière-plan. Certains portefeuilles permettent déjà aux utilisateurs de passer de manière transparente entre les transactions on-chain et Lightning, en fonction des circonstances.
 
 
-> **Définitions** :
->
+#### **Du point de vue du développeur**
 
-> - **L1 (Layer 1)** : Bitcoin principal Blockchain Layer.
-> - **L2 (Layer 2)** : Le Lightning Network, qui fonctionne au-dessus du Bitcoin pour permettre des transactions plus rapides et moins chères.
-> - **Splicing** : Une technique qui permet de modifier l'équilibre d'un canal Lightning sans avoir à le fermer.
+
+Les développeurs sont chargés d'abstraire les complexités des L1 et L2 pour les utilisateurs, en créant des interfaces fluides et intuitives qui traitent les transactions efficacement. Le défi consiste à optimiser l'expérience de l'utilisateur tout en maintenant l'intégrité et la sécurité du protocole Lightning.
+
+
+
+- **Problème pratique** : Veiller à ce que l'utilisateur soit protégé des complexités techniques de la gestion des canaux et des transactions on-chain, tout en maintenant la transparence lorsque cela est nécessaire.
+- **Solutions possibles** : Les développeurs travaillent sur des fonctionnalités telles que le **splicing** (qui permet d'ajouter ou de retirer des fonds d'un canal sans le fermer) et des outils de gestion automatique des canaux.
+
+**Définitions** :
+
+- **L1 (Layer 1)** : La première couche de la blockchain Bitcoin.
+- **L2 (Layer 2)** : Le Lightning Network, qui fonctionne au-dessus de Bitcoin pour permettre des transactions plus rapides et moins coûteuses.
+- **Splicing** : Une technique qui permet de modifier la répartition des fonds d'un canal Lightning sans avoir à le fermer.
 
 ---
 
-### Défi 3 : recevoir des paiements hors ligne
+### Défi 3 : Recevoir des paiements hors ligne
 
 
-#### **Du point de vue de l'utilisateur:**
+#### **Du point de vue de l'utilisateur**
 
 
-L'un des défis de la Lightning Network est de **recevoir des paiements lorsque l'utilisateur est hors ligne**. Contrairement à la base Bitcoin, où les transactions peuvent être reçues à tout moment, Lightning exige que le payeur et le bénéficiaire soient tous deux en ligne pour effectuer une transaction. Il s'agit d'une limitation importante pour de nombreux utilisateurs qui souhaitent utiliser les paiements Lightning dans des situations quotidiennes.
-
-
-
-- Problème pratique** : Les utilisateurs ne peuvent recevoir de paiements que si leur nœud est en ligne et connecté au réseau, ce qui n'est pas pratique pour ceux qui souhaitent utiliser Lightning comme méthode de paiement au quotidien.
-- Solutions possibles** : Certaines solutions de contournement consistent à utiliser des portefeuilles de dépôt ou à s'appuyer sur des services tiers qui agissent en tant qu'intermédiaires de paiement jusqu'à ce que le nœud destinataire soit mis en ligne.
-
-
-#### **Du point de vue du développeur:**
-
-
-Les développeurs étudient les moyens de permettre aux utilisateurs de recevoir des paiements Lightning même lorsque leurs nœuds sont hors ligne. Cela nécessite des solutions créatives pour maintenir la nature décentralisée de Lightning tout en répondant à la question pratique d'être constamment connecté.
+L'un des défis du Lightning Network est de **recevoir des paiements lorsque l'utilisateur est hors ligne**. Contrairement à la première couche de Bitcoin, où les transactions peuvent être reçues à tout moment, le Lightning exige que le payeur et le bénéficiaire soient tous deux en ligne pour effectuer une transaction. Il s'agit d'une limitation importante pour de nombreux utilisateurs qui souhaitent utiliser les paiements Lightning dans des situations quotidiennes.
 
 
 
-- Enjeu pratique** : La mise au point d'un protocole ou d'un système permettant aux utilisateurs de recevoir des paiements hors ligne sans compromettre la sécurité ou la décentralisation constitue un défi technique de taille.
-- Solutions possibles** : Des recherches sont en cours sur les **titres de paiement hors ligne**, qui permettraient aux bénéficiaires de réclamer des paiements une fois qu'ils se reconnectent au réseau.
+- **Problème pratique** : Les utilisateurs ne peuvent recevoir de paiements que si leur nœud est en ligne et connecté au réseau, ce qui n'est pas pratique pour ceux qui souhaitent utiliser le Lightning comme méthode de paiement au quotidien.
+- **Solutions possibles** : Certaines solutions consistent à utiliser des portefeuilles custodial ou à s'appuyer sur des services tiers qui agissent en tant qu'intermédiaires de paiement jusqu'à ce que le nœud destinataire soit mis en ligne.
 
 
-> **Définitions** :
->
+#### **Du point de vue du développeur**
 
-> - **Paiements hors ligne** : Paiements envoyés ou reçus alors qu'une partie n'est pas connectée à la Lightning Network.
-> - **Portefeuilles de garde** : Portefeuilles dans lesquels un tiers contrôle les clés privées et gère les transactions pour le compte de l'utilisateur.
+
+Les développeurs étudient des moyens de permettre aux utilisateurs de recevoir des paiements Lightning même lorsque leurs nœuds sont hors ligne. Cela nécessite des solutions créatives pour maintenir la nature décentralisée du Lightning tout en répondant à la question pratique d'être constamment connecté.
+
+
+
+- **Problème pratique** : La mise au point d'un protocole ou d'un système permettant aux utilisateurs de recevoir des paiements hors ligne sans compromettre la sécurité ou la décentralisation constitue un défi technique de taille.
+- **Solutions possibles** : Des recherches sont en cours sur les **bons de paiement hors ligne**, qui permettraient aux bénéficiaires de réclamer des paiements une fois qu'ils se reconnectent au réseau.
+
+
+**Définitions** :
+
+- **Paiements hors ligne** : Paiements envoyés ou reçus alors qu'une partie n'est pas connectée au Lightning Network.
+- **Portefeuilles de garde** : Portefeuilles dans lesquels un tiers contrôle les clés privées et gère les transactions pour le compte de l'utilisateur.
 
 ---
 
-### Défi 4 : gestion des sauvegardes
+### Défi 4 : Gestion des sauvegardes
 
 
-#### **Du point de vue de l'utilisateur:**
+#### **Du point de vue de l'utilisateur**
 
 
-La sauvegarde des canaux Lightning est essentielle pour que les utilisateurs puissent récupérer leurs fonds en cas de panne de leur nœud ou de perte de données. Toutefois, le processus de sauvegarde des canaux Lightning est plus complexe que celui du Bitcoin, car les canaux sont des canaux d'état, c'est-à-dire qu'ils changent à chaque transaction.
-
-
-
-- Question pratique** : Les utilisateurs doivent s'assurer que les sauvegardes de leur canal sont à jour, car l'utilisation d'une sauvegarde périmée peut entraîner une perte de fonds ou une pénalisation par le réseau.
-- Solutions possibles** : Des portefeuilles comme Phoenix et d'autres ont mis en place des sauvegardes automatiques des canaux, mais ces fonctionnalités ne sont pas encore généralisées à tous les portefeuilles Lightning.
-
-
-#### **Du point de vue du développeur:**
-
-
-Les développeurs doivent mettre en œuvre des solutions de sauvegarde qui permettent aux utilisateurs de récupérer leurs fonds de manière sûre et fiable, même après des défaillances catastrophiques. Le défi consiste à faire en sorte que ces solutions soient sûres et faciles à utiliser tout en préservant l'intégrité du protocole Lightning.
+La sauvegarde des canaux Lightning est essentielle pour que les utilisateurs puissent récupérer leurs fonds en cas de panne de leur nœud ou de perte de données. Toutefois, le processus de sauvegarde des canaux Lightning est plus complexe que pour Bitcoin, car les canaux sont des canaux d'état, c'est-à-dire qu'ils changent à chaque transaction.
 
 
 
-- Enjeu pratique** : La conception de systèmes de sauvegarde sécurisés, décentralisés et conviviaux constitue un défi de taille, car les sauvegardes doivent être mises à jour à chaque changement d'état d'un canal.
-- Solutions possibles** : *les *Static Channel Backups (SCB)** ont été développés pour simplifier la récupération, mais des solutions plus avancées sont nécessaires pour des sauvegardes entièrement automatisées et sécurisées.
+- **Problème pratique** : Les utilisateurs doivent s'assurer que leurs sauvegardes de canaux sont à jour, car l'utilisation d'une sauvegarde obsolète peut entraîner une perte de fonds ou une pénalisation par le réseau.
+- **Solutions possibles** : Des portefeuilles, tels que Phoenix et d'autres, ont mis en place des sauvegardes automatiques des canaux, mais ces fonctionnalités ne sont pas encore généralisées à tous les portefeuilles Lightning.
 
 
-> **Définitions** :
->
+#### **Du point de vue du développeur**
 
-> - **Static Channel Backup (SCB)** : Un type de sauvegarde qui permet aux utilisateurs de récupérer leurs fonds à partir d'un canal Lightning en cas de défaillance en rétablissant le dernier état du canal.
+
+Les développeurs doivent mettre en œuvre des solutions de sauvegarde qui permettent aux utilisateurs de récupérer leurs fonds de manière sécurisée et fiable, même après des défaillances catastrophiques. Le défi consiste à faire en sorte que ces solutions soient sécurisées et faciles à utiliser tout en préservant l'intégrité du protocole Lightning.
+
+
+
+- **Problème pratique** : La conception de systèmes de sauvegarde sécurisés, décentralisés et conviviaux constitue un défi de taille, car les sauvegardes doivent être mises à jour à chaque changement d'état d'un canal.
+- **Solutions possibles** : **Les Static Channel Backups (SCB)** ont été développés pour simplifier la récupération, mais des solutions plus avancées sont nécessaires pour des sauvegardes entièrement automatisées et sécurisées.
+
+
+**Définitions** :
+
+- **Static Channel Backup (SCB)** : Un type de sauvegarde qui permet aux utilisateurs de récupérer leurs fonds à partir d'un canal Lightning en cas de défaillance en rétablissant le dernier état du canal.
 
 ---
 
 #### Conclusion
 
 
-Le Lightning Network offre des avantages considérables en termes de rapidité et de rentabilité pour les transactions Bitcoin, mais il présente également plusieurs défis pratiques. Ces défis - **gestion des liquidités**, **abstraction L1/L2**, **réception de paiements hors ligne** et **gestion des sauvegardes** - exigent des solutions innovantes de la part des utilisateurs et des développeurs. Au fur et à mesure de l'évolution du réseau, il sera essentiel de surmonter ces obstacles pour parvenir à une adoption généralisée et améliorer l'expérience globale de l'utilisateur.
+Le Lightning Network offre des avantages considérables en termes de rapidité et d'efficacité des coûts pour les transactions Bitcoin, mais il présente également plusieurs défis pratiques. Ces défis - **gestion des liquidités**, **abstraction L1/L2**, **réception de paiements hors ligne** et **gestion des sauvegardes** - exigent des solutions innovantes de la part des utilisateurs et des développeurs. Au fur et à mesure que le réseau évolue, il sera essentiel de surmonter ces obstacles pour parvenir à une adoption généralisée et améliorer l'expérience globale de l'utilisateur.
 
 
-En relevant ces défis, le Lightning Network continuera à évoluer, devenant une solution plus robuste et plus fiable pour la mise à l'échelle du Bitcoin.
+En relevant ces défis, le Lightning Network continuera à évoluer, devenant une solution plus robuste et plus fiable pour la mise à l'échelle de Bitcoin.
 
 
-## LN Evolution future
+## Évolution future du LN
 
 
 <chapterId>c06763dd-bb26-5fec-8ac4-3e446e9517cd</chapterId>
@@ -3198,14 +3192,14 @@ En relevant ces défis, le Lightning Network continuera à évoluer, devenant un
 ### La résilience et l'évolution du Bitcoin
 
 
-**Mascotte de Bitcoin : blaireau de miel**
+**Mascotte de Bitcoin : Honey Badger**
 
 Bitcoin est souvent incarné par le blaireau, une créature réputée pour sa ténacité et sa résistance. Ce symbole représente bien la nature robuste et inflexible de Bitcoin. Tout comme le blaireau peut résister à des morsures venimeuses et continuer à prospérer, Bitcoin a fait preuve d'une résistance remarquable face à diverses adversités, notamment les défis réglementaires, la volatilité du marché et les attaques techniques.
 
 
 **La nature de Bitcoin : en constante évolution**
 
-Contrairement à la notion de statique, Bitcoin est en perpétuelle évolution. Son protocole et son écosystème sont continuellement affinés et améliorés par une communauté mondiale de développeurs et de chercheurs. Ce processus évolutif est motivé par la nécessité d'améliorer la sécurité, l'évolutivité et la fonctionnalité, ce qui permet à la Bitcoin de rester à l'avant-garde du paysage des crypto-monnaies.
+Contrairement à l'idée reçu d'un système statique, Bitcoin est en perpétuelle évolution. Son protocole et son écosystème sont continuellement affinés et améliorés par une communauté mondiale de développeurs et de chercheurs. Ce processus évolutif est motivé par la nécessité d'améliorer la sécurité, l'évolutivité et la fonctionnalité, ce qui permet à Bitcoin de rester à l'avant-garde de l'écosystème des cryptomonnaies.
 
 
 ### Innovations dans le Lightning Network
@@ -3213,68 +3207,68 @@ Contrairement à la notion de statique, Bitcoin est en perpétuelle évolution. 
 
 **Lightning Network : développement rapide**
 
-Le Lightning Network, la deuxième solution Layer de Bitcoin pour la mise à l'échelle et l'accélération des transactions, fait l'objet d'un développement rapide. Cette Layer permet des transactions rapides et peu coûteuses en activant les canaux de paiement off-chain. Des innovations significatives sont en cours d'intégration pour renforcer son efficacité et sa facilité d'utilisation.
+Le Lightning Network, la seconde couche de Bitcoin pour la mise à l'échelle et l'accélération des transactions, connaît un développement rapide. Cette couche permet des transactions rapides et peu coûteuses grâce à l'utilisation de canaux de paiement off-chain. Des innovations significatives sont en cours d'intégration pour renforcer son efficacité et son ergonomie.
 
 
-**Canaux à double financement
+**Canaux à double financement**
 
-Traditionnellement, une chaîne de foudre est financée par une seule partie. Cependant, les canaux à double financement permettent aux deux parties (par exemple, Alice et Bob) de contribuer à la liquidité du canal. Cette amélioration permet une plus grande flexibilité dans la capacité d'envoi et de réception et nécessite une communication en amont et de nouveaux protocoles pour gérer le financement conjoint.
+Traditionnellement, un canal Lightning est financé par une seule partie. Cependant, les canaux à double financement permettent aux deux parties (par exemple, Alice et Bob) de contribuer à la liquidité du canal. Cette amélioration permet une plus grande flexibilité dans la capacité d'envoi et de réception, et nécessite une communication en amont et de nouveaux protocoles pour gérer le financement conjoint.
 
 
 **Splicing**
 
-L'épissage est une fonctionnalité qui permet aux utilisateurs de modifier la taille d'un canal Lightning sans le fermer. Cette fonctionnalité permet d'ajouter ou de retirer des fonds d'un canal existant, offrant ainsi un moyen transparent de gérer la liquidité du canal. L'épissage favorise l'interopérabilité entre les transactions On-Chain et les canaux Lightning, améliorant ainsi l'efficacité globale du réseau.
+Le *splicing* est une fonctionnalité qui permet aux utilisateurs de modifier la liquidité d'un canal Lightning sans le fermer. Cette fonctionnalité permet d'ajouter ou de retirer des fonds d'un canal existant, offrant ainsi un moyen transparent de gérer la liquidité du canal. Le *splicing* favorise l'interopérabilité entre les transactions on-chain et les canaux Lightning, améliorant ainsi l'efficacité globale du réseau.
 
 
 **Mécanisme L2**
 
-Le mécanisme L2 introduit une nouvelle méthode pour invalider les anciens états des canaux sans s'appuyer sur le mécanisme de pénalité. Cette mise à jour dépend de SIGHASH_ANYPREVOUT, une fonctionnalité qui nécessite un Bitcoin Soft Fork. Le mécanisme L2 promet de simplifier la gestion des canaux et d'améliorer la sécurité.
+Le mécanisme L2 introduit une nouvelle méthode pour invalider les anciens états des canaux sans recourir au mécanisme de pénalité. Cette mise à jour dépend de SIGHASH_ANYPREVOUT, une fonctionnalité qui nécessite un soft fork de Bitcoin. Le mécanisme L2 promet de simplifier la gestion des canaux et d'améliorer la sécurité.
 
 
 **Bolt 12**
 
-Bolt 12 répond aux limites des factures Bolt 11 utilisées dans le Lightning Network. Il introduit des factures réutilisables et automatise les processus, éliminant le besoin de HTTP et de serveurs web en fonctionnant uniquement au sein du Lightning Network. Cette innovation permet de rationaliser les transactions et d'améliorer l'expérience de l'utilisateur.
+Bolt 12 répond aux limites des factures Bolt 11 utilisées dans le Lightning Network. Il introduit des factures réutilisables et automatise les processus, éliminant le besoin de serveurs HTTP et web en fonctionnant uniquement au sein du Lightning Network. Cette innovation permet de rationaliser les transactions et d'améliorer l'expérience de l'utilisateur.
 
 
-### Améliorer la protection de la vie privée et l'efficacité des transactions Bitcoin
+### Améliorer la confidentialité et l'efficacité des transactions Bitcoin
 
 
-**Signatures Taproot, muSig et Schnorr**
+** Taproot, muSig et signatures Schnorr**
 
-Taproot est une mise à jour importante qui consolide la complexité des transactions et améliore la protection de la vie privée. Combinée à MuSig (un protocole pour les transactions à signatures multiples) et aux signatures Schnorr, Taproot améliore l'efficacité des transactions. Ces avancées permettent aux transactions Lightning de ressembler aux transactions Bitcoin habituelles, ce qui simplifie le processus et renforce la protection de la vie privée.
-
-
-**PTLC routing**
-
-Les contrats à temps bloqué (PTLC) sont une amélioration des contrats à temps bloqué Hash (HTLC) existants. Les PTLC utilisent des signatures Schnorr et améliorent la confidentialité en remplaçant les secrets partagés par des clés publiques, ce qui réduit les possibilités de corrélation et d'abus des paiements.
+Taproot est une mise à jour importante qui consolide la complexité des transactions et améliore la confidentialité. Combiné à muSig (un protocole pour les transactions à signatures multiples) et aux signatures Schnorr, Taproot améliore l'efficacité des transactions. Ces avancées permettent aux transactions Lightning de ressembler aux transactions Bitcoin classiques, ce qui simplifie le processus et renforce la confidentialité.
 
 
-**Factures de canal**
+**Routage PTLC**
 
-Les usines à canaux permettent de créer des canaux multipartites (par exemple, 4 sur 4 Multisig), qui peuvent donner naissance à de nouveaux canaux de paiement 2 sur 2 off-chain. Ce système permet de créer et de fermer des canaux rapidement et sans frais, bien qu'il nécessite la coopération de tous les participants. Les usines à canaux augmentent l'évolutivité et la flexibilité globales de la Lightning Network.
+Les contrats à verrou temporel ponctuel (*Point Time-Locked Contracts*, PTLC) sont une amélioration des contrats à verrou temporel haché (*Hash Time-Lock Contracts*, HTLC) existants. Les PTLC utilisent des signatures Schnorr et améliorent la confidentialité en remplaçant les secrets partagés par des clés publiques, ce qui réduit les possibilités de corrélation des paiements et d'utilisation abusive.
+
+
+**Générateurs de canaux**
+
+Les générateurs de canaux permettent de créer des canaux multipartites (par exemple, multisignature 4 sur 4), qui peuvent générer de nouveaux canaux de paiement 2 sur 2 off-chain. Ce système permet de créer et de fermer des canaux rapidement et sans frais, bien qu'il nécessite la coopération de tous les participants. Les générateurs de canaux augmentent l'évolutivité et la flexibilité globales du Lightning Network.
 
 
 **Watchtowers**
 
-Les tours de guet sont des entités tierces qui surveillent le Blockchain à la recherche d'états de canaux anciens. Si une violation est détectée, elles publient des transactions de pénalité afin de garantir la sécurité du réseau. Si les tours de guet renforcent la sécurité en dissuadant les mauvais comportements, elles posent également des problèmes de confidentialité en ce qui concerne la surveillance des transactions.
+Les tours de surveillance (*watchtowers*) sont des entités tierces qui surveillent la blockchain à la recherche d'anciens états de canal. Si une violation est détectée, elles publient des transactions de pénalité afin de garantir la sécurité du réseau. Si les *Watchtowers* renforcent la sécurité en dissuadant les mauvais comportements, elles posent également des problèmes de confidentialité en ce qui concerne la surveillance des transactions.
 
 
-**blinded Paths**
+**Blinded Paths**
 
-Les chemins blinded sont conçus pour améliorer la confidentialité du destinataire dans le Lightning Network. Ils masquent le Address du destinataire final, garantissant que seul l'expéditeur connaît le nœud intermédiaire et que chaque nœud ne connaît que ses nœuds adjacents. Cette méthode protège l'identité du destinataire et améliore la confidentialité globale.
+Les chemins aveugles (*blinded paths*) sont conçus pour améliorer la confidentialité du destinataire dans le Lightning Network. Ils masquent l'adresse du destinataire final, garantissant que seul l'expéditeur connaît le nœud intermédiaire et que chaque nœud ne connaît que ses nœuds adjacents. Cette méthode protège l'identité du destinataire et améliore la confidentialité globale.
 
 
-**Fournisseurs de services de foudre (FSF)**
+**Lightning Services Providers (LSP)**
 
-Conceptualisés par Breeze Wallet, les fournisseurs de services éclair (LSP) visent à améliorer l'expérience de l'utilisateur en lui offrant des capacités de réception instantanée. Les LSP ouvrent des canaux pour les utilisateurs, de la même manière que les fournisseurs de services Internet offrent des services de connectivité. Cette innovation simplifie le processus d'intégration de l'utilisateur et garantit des interactions transparentes sur le Lightning Network.
+Conceptualisés par Breeze Wallet, les fournisseurs de services Lightning (*Lightning Services Providers*, LSP) visent à améliorer l'expérience de l'utilisateur en lui permettant de recevoir instantanément des paiements. Les LSP ouvrent des canaux pour les utilisateurs, de la même manière que les fournisseurs de services Internet offrent des services de connectivité. Cette innovation simplifie le processus d'intégration de l'utilisateur et garantit des interactions fluides sur le Lightning Network.
 
 
 **Ressources pour rester informé**
 
-Pour se tenir au courant des dernières innovations techniques en matière de Bitcoin et de Lightning Network, il est essentiel d'exploiter des ressources précieuses. La lettre d'information Bitcoin OpTec, la liste de diffusion lightning dev et les documents rédigés par des experts de l'industrie comme Jason Lopp fournissent des informations et des mises à jour sur les progrès et les recherches en cours dans ce domaine qui évolue rapidement.
+Pour se tenir au courant des dernières innovations techniques dans Bitcoin et le Lightning Network, il est essentiel de s'appuyer sur des ressources fiables. La newsletter Bitcoin OpTec, la liste de diffusion des développeurs Lightning et les documents rédigés par des experts de l'industrie comme Jason Lopp fournissent des informations et des mises à jour sur les progrès et les recherches en cours dans ce domaine qui évolue rapidement.
 
 
-En comprenant et en appréciant ces développements, nous pouvons reconnaître les progrès et le potentiel à multiples facettes que le Bitcoin et le Lightning Network représentent pour l'avenir des transactions numériques.
+En comprenant et en appréciant ces développements, nous pouvons reconnaître les progrès et le potentiel à multiples facettes que Bitcoin et le Lightning Network représentent pour l'avenir des transactions numériques.
 
 
 ## Protocoles complémentaires au LN
@@ -3293,102 +3287,95 @@ En comprenant et en appréciant ces développements, nous pouvons reconnaître l
 #### Comprendre les paiements Lightning
 
 
-Avant de se plonger dans les extensions et les intégrations des paiements Lightning, il est essentiel de comprendre le fonctionnement de base d'un paiement Lightning. Un paiement Lightning conventionnel implique plusieurs composants clés : le **payeur**, le **bénéficiaire** et le **Lightning Network** lui-même. Le payeur initie un paiement au bénéficiaire en générant un **Invoice**, qui comprend des informations essentielles telles que le montant à payer et la destination (le nœud du bénéficiaire).
+Avant de se plonger dans les extensions et les intégrations des paiements Lightning, il est essentiel de comprendre le fonctionnement de base d'un paiement Lightning. Un paiement Lightning conventionnel implique plusieurs composants clés : le **payeur**, le **bénéficiaire** et le **Lightning Network** lui-même. Le payeur initie un paiement au bénéficiaire en générant une **invoice**, qui comprend des informations essentielles telles que le montant à payer et la destination (le nœud du bénéficiaire).
 
 
-Le processus repose sur des **Hash Time-Locked Contracts (HTLC)**, qui garantissent que les paiements ne peuvent être réclamés que par le bénéficiaire légitime dans un délai déterminé. Deux Elements importants dans ce mécanisme sont **l'acheminement de l'oignon** et la **chaîne HTLC** :
+Le processus repose sur des **Hash Time-Locked Contracts (HTLC)**, qui garantissent que les paiements ne peuvent être réclamés que par le bénéficiaire légitime dans un délai déterminé. Deux élements importants dans ce mécanisme sont **le routage en oignon** et la **chaîne HTLC** :
 
 
 
-- Routage en oignon** : Il assure la confidentialité en encapsulant les données de transaction dans des couches, de sorte que chaque intermédiaire ne connaît que les nœuds qui le précèdent et le suivent, mais pas l'ensemble de l'itinéraire.
-- Chaîne HTLC** : Une série de contrats qui bloquent les fonds jusqu'à ce que le paiement soit effectué ou annulé.
+- **Routage en oignon** : Il assure la confidentialité en encapsulant les données de transaction dans des couches, de sorte que chaque intermédiaire ne connaît que les nœuds qui le précèdent et le suivent, sans connaître l'ensemble de l'itinéraire.
+- **Chaîne HTLC** : Une série de contrats qui bloquent les fonds jusqu'à ce que le paiement soit effectué ou annulé.
 
 
-Le **Keysend** est un protocole plus récent qui améliore les capacités du Lightning Network. Contrairement aux méthodes traditionnelles qui nécessitent une communication préalable entre l'expéditeur et le destinataire pour generate et Invoice, Keysend permet des **paiements à l'initiative de l'expéditeur**, rationalisant ainsi le processus et améliorant l'expérience de l'utilisateur.
+**Keysend** est un protocole plus récent qui améliore les capacités du Lightning Network. Contrairement aux méthodes traditionnelles qui nécessitent une communication préalable entre l'expéditeur et le destinataire pour générer une facture, Keysend permet des **paiements initiés par l'expéditeur**, rationalisant ainsi le processus et améliorant l'expérience de l'utilisateur.
 
 
 Cependant, les factures traditionnelles ont leurs limites. Par exemple :
 
 
+- **Usage unique** : Les factures sont généralement utilisées pour une seule transaction, ce qui peut être peu pratique.
+- **Limites de taille** : Les factures volumineuses peuvent être difficiles à traiter sous forme de code QR, les rendant inpraticables pour certaines applications.
 
-- Usage unique** : Les factures sont généralement utilisées pour une seule transaction, ce qui peut être gênant.
-- Limites de taille** : Les factures de grande taille peuvent être difficiles à traiter sous forme de code QR, ce qui les rend peu pratiques pour certaines applications.
 
+**Définitions** :
 
-> **Définitions** :
->
-
-> - **Invoice** : Une demande de paiement dans le Lightning Network, contenant généralement le montant et les détails du destinataire.
-> - **HTLC (Hash bloqué dans le temps Contract)** : Type de Smart contract utilisé pour garantir des paiements conditionnels dans un délai donné.
-> - **Routage en oignon** : Technique de protection de la vie privée dans laquelle les données de transaction sont superposées comme un oignon pour protéger l'identité de l'expéditeur et du destinataire.
+- **Invoice** : Une demande de paiement dans le Lightning Network, contenant généralement le montant et les détails du destinataire.
+- **HTLC (*Hash Time-Locked Contracts*)** : Type de contract intelligent utilisé pour garantir des paiements conditionnels dans un délai déterminé.
+- **Routage en oignon** : Technique de confidentialité dans laquelle les données de transaction sont superposées comme les couches d'un oignon pour protéger l'identité de l'expéditeur et du destinataire.
 
 ### Protocoles et cas d'utilisation
 
 
-Vers oModèles commerciaux et protocoles avancés
-
-our pallier les limites des factures traditionnelles, plusieurs protocoles sont apparus pour étendre et améliorer les paiements Lightning.
+Pour pallier les limites des factures traditionnelles, plusieurs protocoles sont apparus pour étendre et améliorer les paiements Lightning.
 
 
 
-- LNURL** : Un protocole qui simplifie la génération de Invoice en permettant la création de factures de manière dynamique, en supportant les dénominations fiduciaires et en permettant l'utilisation d'adresses **Lightning**. Cette approche améliore considérablement l'expérience de l'utilisateur en offrant des méthodes de paiement plus flexibles et une intégration avec différents cas d'utilisation.
+- **LNURL** : Un protocole qui simplifie la génération d'invoice en permettant la création de factures de manière dynamique, en supportant les dénominations fiduciaires et en permettant l'utilisation d'**adresses Lightning**. Cette approche améliore considérablement l'expérience de l'utilisateur en offrant des méthodes de paiement plus flexibles et une intégration avec différents cas d'utilisation.
 
 
 
-- Bolt 12 offres** : Ce protocole est similaire à LNURL mais utilise **la messagerie en oignon** pour améliorer la confidentialité. Bolt 12 permet aux utilisateurs de récupérer des factures automatiquement sans intervention manuelle, ce qui améliore à la fois la confidentialité et la facilité d'utilisation.
+- **Bolt 12** : Ce protocole est similaire à LNURL mais utilise **la messagerie en oignon** pour améliorer la confidentialité. Bolt 12 permet aux utilisateurs de récupérer des factures automatiquement sans intervention manuelle, ce qui améliore à la fois la confidentialité et la facilité d'utilisation.
 
 
-Une intégration remarquable des paiements Lightning est celle de **Nostr**, une plateforme décentralisée de médias sociaux. Nostr intègre les paiements Lightning pour permettre les pourboires et les micro-transactions, montrant ainsi comment Lightning peut être intégré dans diverses applications.
+Une intégration notable des paiements Lightning est celle de **Nostr**, une plateforme décentralisée de médias sociaux. Nostr intègre les paiements Lightning pour permettre les pourboires et les micro-transactions, montrant ainsi comment Lightning peut être intégré dans diverses applications.
 
 
-Un autre protocole, **RGB**, étend encore la fonctionnalité de Lightning en permettant les **transferts d'actifs** sur le Lightning Network. Le RGB permet le transfert de divers actifs, y compris des jetons, sur les canaux Lightning, élargissant ainsi le champ des transactions possibles.
+Un autre protocole, **RGB**, étend encore la fonctionnalité du Lightning en permettant les **transferts d'actifs** sur le Lightning Network. Le RGB permet le transfert de divers actifs, y compris des jetons, sur les canaux Lightning, élargissant ainsi le champ des transactions possibles.
 
 
-*les *fournisseurs de services de liquidité Lightning (LSP)** jouent également un rôle essentiel dans l'extension des paiements Lightning. Les LSP fournissent des liquidités pour la réception des paiements, aident à ouvrir des **canaux doublement financés** et garantissent des transactions transparentes en interceptant les paiements et en ouvrant des canaux à la volée.
+Les ***Lightning Services Providers* (LSPs)** jouent également un rôle essentiel dans l'extension des paiements Lightning. Les LSPs fournissent de la liquidité pour la réception des paiements, aident à ouvrir des **canaux à financement double** et garantissent des transactions fluides en interceptant les paiements et en ouvrant des canaux dynamiquement.
 
 
-> **Définitions** :
->
+**Définitions** :
 
-> - **LNURL** : Un protocole qui permet la création dynamique de Invoice, rendant les paiements plus faciles et plus flexibles.
-> - **Bolt 12** : Une extension de Lightning qui exploite la messagerie Onion pour la confidentialité tout en automatisant la recherche de Invoice.
-> - **Nostr** : Une plateforme décentralisée qui intègre les protocoles LP et les cas d'utilisation
-> les paiements fulgurants pour les micro-transactions.
-> - **Protocole RGB** : Protocole permettant le transfert d'actifs, comme les jetons, sur le Lightning Network.
-> - **LSP (Lightning Service Provider)** : Entité qui fournit des liquidités et ouvre des canaux pour les transactions Lightning, rendant le réseau plus accessible aux utilisateurs.
+- **LNURL** : Un protocole qui permet la création dynamique d'invoice, rendant les paiements plus faciles et plus flexibles.
+- **Bolt 12** : Une extension de Lightning qui exploite la messagerie en oignon pour la confidentialité tout en automatisant la recherche d'invoice.
+- **Nostr** : Une plateforme décentralisée qui intègre le Lightning pour permettre les micro-transactions.
+- **Protocole RGB** : Protocole permettant le transfert d'actifs, comme les jetons, sur le Lightning Network.
+- **LSP (*Lightning Service Provider*)** : Entité qui fournit de la liquidité et ouvre des canaux pour les transactions Lightning, rendant le réseau plus accessible aux utilisateurs.
 
 ### Modèles économiques et protocoles avancés
 
 
-Les progrès réalisés dans le domaine des paiements éclairs ont ouvert la voie à de nouveaux modèles commerciaux, en particulier pour les **fournisseurs de services éclairs (LSP)**. Ces derniers améliorent l'expérience de l'utilisateur en ouvrant des canaux uniquement lorsque des paiements sont détectés, ce qui réduit la complexité de la configuration préalable.
+Les progrès réalisés dans le domaine des paiements Lightning ont ouvert la voie à de nouveaux modèles économiques, en particulier pour les **Lightning Services Providers (LSPs)**. Ces derniers améliorent l'expérience de l'utilisateur en ouvrant des canaux uniquement lorsque des paiements sont détectés, ce qui réduit la complexité de la configuration préalable.
 
 
-Un exemple de modèle commercial facilité par Lightning est le **modèle d'enchère**. Dans ce cas, un serveur retient l'offre la plus élevée et rejette les offres inférieures, en gardant les paiements en attente jusqu'à la fin de l'enchère. Cela permet d'éviter les remboursements et de rationaliser le processus de vente aux enchères.
+Un exemple de modèle économique facilité par Lightning est le **modèle d'enchère**. Dans ce cas, un serveur retient l'offre la plus élevée et rejette les offres inférieures, en gardant les paiements en attente jusqu'à la fin de l'enchère. Cela permet d'éviter les remboursements et de rationaliser le processus de vente aux enchères.
 
 
-Un autre exemple pratique est celui des **jeux de poker**, où le serveur gère les paiements en retenant les paris jusqu'à la fin du jeu, garantissant ainsi un processus de pari sans heurts.
+Un autre exemple pratique est celui des **jeux de poker**, où le serveur gère les paiements en retenant les paris jusqu'à la fin du jeu, garantissant ainsi un processus de pari fluide.
 
 
-Les paiements Lightning sont également intégrés dans des plateformes telles que **Nostr** et des services de podcasting, ce qui démontre la polyvalence de ces protocoles. En outre, les **pré-images** des paiements peuvent être utilisées comme **clés d'accès** pour déverrouiller des contenus ou des services, ce qui ajoute encore à l'utilité du Lightning Network.
+Les paiements Lightning sont également intégrés dans des plateformes telles que **Nostr** et des services de podcasting, ce qui démontre la polyvalence de ces protocoles. En outre, les **pré-images** des paiements peuvent être utilisées comme **clés d'accès** pour déverrouiller des contenus ou des services, ce qui ajoute une utilité supplémentaire au Lightning Network.
 
 
-Les protocoles avancés tels que les **contrats à temps partagé (PTLC)** vont encore plus loin en permettant des opérations cryptographiques plus complexes. Les PTLC permettent d'améliorer le routage et le fractionnement des paiements, ce qui renforce la sécurité et l'efficacité.
+Les protocoles avancés tels que les ***Point Time-Locked Contracts* (PTLCs)** vont encore plus loin en permettant des opérations cryptographiques plus complexes. Les PTLCs permettent d'améliorer le routage et le fractionnement des paiements, ce qui renforce la sécurité et l'efficacité.
 
 
 Des protocoles tels que **LNURL** et **Bolt 12** rationalisent les paiements en réduisant les interactions manuelles, ce qui rend le Lightning Network plus convivial et plus largement adopté.
 
 
-> **Définitions** :
->
+**Définitions** :
 
-> - **PTLC (Point Time-Locked Contract)** : Une primitive cryptographique qui améliore les HTLC, permettant des paiements plus flexibles et plus sûrs.
-> - **Pre-image** : Valeur utilisée pour déverrouiller un HTLC, qui peut également servir de clé d'accès à des services.
-> - **Modèle d'enchère** : Un modèle de paiement dans lequel les paiements sont mis en attente pendant une vente aux enchères et ne sont libérés que lorsque l'offre la plus élevée est acceptée.
+- **PTLC (*Point Time-Locked Contract*)** : Une primitive cryptographique qui améliore les HTLCs, permettant des paiements plus flexibles et plus sécurisés.
+- **Pre-image** : Valeur utilisée pour déverrouiller un HTLC, qui peut également servir de clé d'accès à des services.
+- **Modèle d'enchère** : Un modèle de paiement dans lequel les paiements sont mis en attente pendant une vente aux enchères et ne sont libérés que lorsque l'offre la plus élevée est acceptée.
 
 ### Conclusion
 
 
-L'extension et l'intégration des paiements Lightning par le biais de divers protocoles et cas d'utilisation démontrent l'évolution dynamique de la Lightning Network. De l'amélioration de la fonctionnalité de base des paiements à l'introduction de modèles commerciaux et de protocoles cryptographiques avancés, l'avenir de Lightning est très prometteur en termes d'innovation et d'adoption à grande échelle.
+L'extension et l'intégration des paiements Lightning par le biais de divers protocoles et cas d'utilisation démontrent l'évolution dynamique du Lightning Network. De l'amélioration de la fonctionnalité de base des paiements à l'introduction de modèles économiques et de protocoles cryptographiques avancés, l'avenir du Lightning est très prometteur en termes d'innovation et d'adoption à grande échelle.
 
 
 
@@ -3403,5 +3390,5 @@ L'extension et l'intégration des paiements Lightning par le biais de divers pro
 
 :::video id=b89f2064-f2e1-49c3-97d0-580891eee1dd:::
 
-Adam Gibson donne un aperçu de Joinmarket, détaillant comment cette implémentation CoinJoin améliore la confidentialité et la fongibilité de Bitcoin. Il explique comment Joinmarket facilite les transactions collaboratives, Trustless et anonymes au sein de l'écosystème Bitcoin. Puis, dans une seconde partie, il montre comment exécuter Joinmarket dans Signet.
+Adam Gibson donne un aperçu de Joinmarket, détaillant comment cette implémentation de CoinJoin améliore la confidentialité et la fongibilité de Bitcoin. Il explique comment Joinmarket facilite les transactions collaboratives, sans confiance et anonymes au sein de l'écosystème Bitcoin. Dans une seconde partie, il montre comment exécuter Joinmarket sur Signet.
 

@@ -37,7 +37,7 @@ Torniamo al nostro esempio di una transazione Payjoin per il pagamento di una ba
 Vedendo questa transazione sulla blockchain, un osservatore esterno che segue le euristiche della chain analysis la interpretarebbe come segue: "*Alice ha unito 2 UTXO come input della transazione per pagare `19.000 sats` a Bob*."
 ![Interpretazione errata della transazione Payjoin dall'esterno](assets/it/3.webp)
 Questa interpretazione è errata perché, come già sai, i due UTXO di input non appartengono alla stessa persona. Inoltre, il valore effettivo del pagamento non è di `19.000 sats`, ma di `4.000 sats`. L'analisi dell'osservatore esterno è quindi indirizzata verso una conclusione erronea, garantendo la riservatezza degli interessati.![Diagramma della transazione Payjoin](assets/it/1.webp)
-Se desideri analizzare una vera transazione Payjoin, ne ho eseguita una sul testnet: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
+Se desideri analizzare una vera transazione Payjoin, ne ho eseguita una su rete testnet: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
 
 
 - https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt;

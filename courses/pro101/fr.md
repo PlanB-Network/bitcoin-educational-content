@@ -1633,7 +1633,7 @@ Faire tourner un nœud Bitcoin est essentiel pour plusieurs raisons :
 ### Composants d'un nœud
 
 
-#### Modules Bitcoin core
+#### Modules Bitcoin Core
 
 
 ![Bitcoin core modules](assets/en/024.webp)
@@ -1656,7 +1656,7 @@ Faire tourner un nœud Bitcoin est essentiel pour plusieurs raisons :
 - **Mempool (*blocsonly*)** : Pour les utilisateurs qui souhaitent réduire l'utilisation de la bande passante, l'exécution d'un nœud "blocksonly" peut être une solution où le nœud ne traite que les blocs, sans tenir compte des transactions.
 
 
-### État de la chaîne (
+### État de la chaîne
 
 
 #### Où sont les bitcoins ?
@@ -2165,7 +2165,7 @@ Bitcoin Core est l'implémentation de noeud complet la plus utilisée. Elle remp
 ![cli-gui](assets/en/039.webp)
 
 
-#### Explorer Bitcoin core
+#### Explorer Bitcoin Core
 
 
 Pour acquérir une expérience pratique avec Bitcoin Core, il est possible de compiler et d'exécuter des tests à l'aide de Git. Ce processus implique :

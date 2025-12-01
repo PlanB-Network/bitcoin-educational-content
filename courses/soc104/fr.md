@@ -907,13 +907,21 @@ Finalement Bitcoin n'est pas un projet politique classique, au sens d'une initia
 
 <partId>d886a919-12b0-4e38-86de-7159b98b1864</partId>
 
-## Critiques et évaluations
+## Évaluer ce cours
 
 <chapterId>f0b8398c-7c15-417e-83b0-42e7aab533dc</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
+## Examen final
+
+<chapterId>230ddc56-ceb8-11f0-bf47-6f8dd2541da1</chapterId>
+
+<isCourseExam>true</isCourseExam>
+
 ## Conclusion
 
 <chapterId>1dfe6e4a-47d5-48e1-94d0-6ac29b31e161</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+
+

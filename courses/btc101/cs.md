@@ -27,9 +27,9 @@ K zahájení tohoto kurzu nejsou vyžadovány žádné předchozí znalosti. BTC
 
 Vítejte v kurzu BTC101!
 
-Bitcoin je technologická a peněžní revoluce, která nás může přimět zpochybnit náš vztah k penězům a společnosti. Bitcoin (označovaný jako BTC) je totiž **neutrální** a **decentralizovaná** měna, což znamená, že není kontrolována žádným subjektem ani institucí. Jedná se o inovaci, která přesahuje rámec pouhé "internetové měny": je to jak počítačový protokol (bitcoin), tak peněžní jednotka (bitcoin).
+Bitcoin je technologická a peněžní revoluce, která má potenciál přimět nás zpochybnit náš vztah k penězům a společnosti. Bitcoin (označovaný jako BTC) je totiž **neutrální** a **decentralizovaná** měna, což znamená, že není kontrolována žádným subjektem ani institucí. Jedná se o inovaci, která přesahuje rámec pouhé "internetové měny": je to jak počítačový protokol (Bitcoin), tak peněžní jednotka (bitcoin).
 
-Protokol využívá základní technologie, jako je kryptografie, síťová komunikace a známý "blockchain", zatímco jednotka bitcoin slouží jako nezbytná měna pro správné fungování tohoto protokolu. V každodenním životě používají obyvatelé Salvadoru a bitcoinů po celém světě měnu bitcoin k nákupu a prodeji zboží a služeb a spoléhají na to, že jim tato technologie zlepší život.
+Protokol využívá základní technologie, jako je kryptografie, síťová komunikace a známý "blockchain", zatímco jednotka bitcoin slouží jako nezbytná měna pro správné fungování tohoto protokolu. V každodenním životě používají obyvatelé Salvadoru a bitcoineři po celém světě měnu bitcoin k nákupu a prodeji zboží a služeb a spoléhají na to, že jim tato technologie zlepší život.
 
 **Komplexní, ale přístupný studijní program:**
 
@@ -73,15 +73,15 @@ Je nutné si uvědomit, že Bitcoin je nový peněžní systém, který zcela m�
 - Kapitola 21 - Případové použití Lightning Network  
 - Kapitola 22 - Červená pilulka nebo modrá pilulka?  
 
-Než se seznámíme s definicí peněz a jejich funkcí ve společnosti (kapitola 1), měli bychom začít od vzniku bitcoinu. Bitcoin, který byl uveden na trh v roce 2009, je relativně nová technologie, která se liší od všech ostatních. Je proto normální, že o něm nepochopíme všechno a najednou. Ve skutečnosti, stejně jako když se učíte používat internet nebo řídit auto, nemusíte hned znát všechny technické detaily: můžete začít tím, že se naučíte přijímat, platit a zabezpečovat své finanční prostředky, a pak po malých krocích studovat hlouběji.
+Než se seznámíme s definicí peněz a jejich funkcí ve společnosti (kapitola 1), měli bychom začít od vzniku Bitcoinu. Bitcoin, který byl uveden na trh v roce 2009, je relativně nová technologie, která se liší od všech ostatních. Je proto normální, že o něm nepochopíme všechno a najednou. Stejně jako když se učíte používat internet nebo řídit auto, nemusíte hned znát všechny technické detaily: můžete začít tím, že se naučíte přijímat, platit a zabezpečovat své finanční prostředky, a pak po malých krocích Bitcoin studovat hlouběji.
 
-Koneckonců jsme teprve v počáteční fázi jeho zavádění, protože jsme prošli fází startu: máte právě čas získat tolik znalostí, kolik si přejete o této důležité inovaci.
+Koneckonců jsme teprve v počáteční fázi jeho adopce: je právě ten nejlepší čas získat tolik znalostí o této důležité inovaci, kolik si přejete.
 
 ![image](assets/cs/002.webp)
 
 Důležité je pochopit tuto novou technologii v obecné rovině, takže doufáme, že se vám tento kurz bude líbit a budete pokračovat v pokroku v tomto novém globálním měnovém paradigmatu.
 
-Připraveni ponořit se do fascinujícího světa Bitcoinu a pochopit všechny jeho mechanismy? Jdeme na to!
+Jste připraveni ponořit se do fascinujícího světa Bitcoinu a pochopit všechny jeho mechanismy? Jdeme na to!
 
 **Pozn.**: Pokud během kurzu narazíte na neznámé termíny, obraťte se prosím na [slovníček](https://planb.academy/resources/glossary) pro definice.
 
@@ -105,17 +105,17 @@ Ikonické osobnosti jako Julian Assange, Wei Dai, Tim May a David Chaum hrály k
 
 Hnutí cypherpunk, které má hluboké kořeny v digitálním aktivismu a kryptografii, vychází z několika základních textů, v nichž formuluje své zásady a vizi budoucnosti. Mezi těmito spisy vynikají zejména tři:
 
-- "Cypherpunkový manifest":
+- "Cypherpunk's Manifesto":
 
-"Cypherpunkový manifest", který v roce 1993 napsal Eric Hughes, tvrdí, že soukromí je základním právem. Autor tvrdí, že možnost svobodně a důvěrně komunikovat je pro svobodnou společnost nezbytná. V manifestu se uvádí: "Nemůžeme očekávat, že nám vlády, korporace nebo jiné velké organizace bez tváře poskytnou soukromí [...]. Pokud očekáváme, že nějaké soukromí budeme mít, musíme si ho bránit sami".
+"Cypherpunk's Manifesto", který v roce 1993 napsal Eric Hughes, tvrdí, že soukromí je základním právem. Autor argumentuje, že možnost svobodně a důvěrně komunikovat je pro svobodnou společnost nezbytná. V manifestu se uvádí: "Nemůžeme očekávat, že nám vlády, korporace nebo jiné velké organizace bez tváře poskytnou soukromí [...]. Pokud očekáváme, že nějaké soukromí budeme mít, musíme si ho bránit sami".
 
 - "Kryptoanarchistický manifest":
 
-napsaný Timothym C. Mayem v roce 1992, vysvětluje, jak by používání kryptografie mohlo vést k éře kryptografické anarchie, v níž by vlády nemohly zasahovat do soukromých záležitostí občanů. May si představoval budoucnost, v níž si lidé budou anonymně vyměňovat informace a peníze bez zásahu třetí strany.
+Kryptoanarchistický manifest napsaný Timothym C. Mayem v roce 1992, vysvětluje, jak by používání kryptografie mohlo vést k éře kryptografické anarchie, v níž by vlády nemohly zasahovat do soukromých záležitostí občanů. May si představoval budoucnost, v níž si lidé budou anonymně vyměňovat informace a peníze bez zásahu třetí strany.
 
 - "Deklarace nezávislosti kyberprostoru":
 
-ačkoli se nejedná výhradně o cypherpunk, odráží tento text pocity mnoha účastníků tohoto hnutí. Napsal ho v roce 1996 John Perry Barlow a reaguje v něm na rostoucí regulaci internetu ze strany vlád. Prohlášení tvrdí, že kyberprostor je odlišnou sférou od fyzické sféry a neměl by podléhat stejným zákonům. Jak se v ní uvádí, "nemáme žádnou volenou vládu a ani ji pravděpodobně mít nebudeme".
+Ačkoli se nejedná výhradně o cypherpunk, odráží tento text pocity mnoha účastníků tohoto hnutí. Napsal ho v roce 1996 John Perry Barlow a reaguje v něm na rostoucí regulaci internetu ze strany vlád. Prohlášení tvrdí, že kyberprostor je odlišnou sférou od fyzické sféry a neměl by podléhat stejným zákonům. Jak se v ní uvádí, "nemáme žádnou volenou vládu a ani ji pravděpodobně mít nebudeme".
 
 ### Předchůdci Bitcoinu
 
@@ -129,13 +129,13 @@ Následující obrázek jasně ilustruje vývoj hnutí prostřednictvím mnoha t
 
 Právě v tomto plodném prostředí zveřejnil tajemný Satoshi Nakamoto v roce 2008 whitepaper Bitcoinu. V tomto dokumentu zkombinoval několik myšlenek z hnutí cypherpunk, jako jsou důkaz práce a kryptografické časové značky, a vytvořil decentralizovanou digitální měnu odolnou vůči cenzuře.
 
-Bitcoin však byl víc než to: představoval naplnění ideálů cypherpunku. Kromě své technologie symbolizoval revoluci proti tradičním finančním systémům a nabízel alternativu založenou na transparentnosti, decentralizaci a individuální suverenitě.
+Bitcoin však byl víc než to: představoval naplnění ideálů cypherpunku. Symbolizoval revoluci proti tradičním finančním systémům a nabízel alternativu založenou na transparentnosti, decentralizaci a individuální suverenitě.
 
 ### Závěr
 
 Prehistorie bitcoinu má hluboké kořeny v cypherpunkovém hnutí a kolektivní snaze o větší svobodu v digitálním věku. Spojením principů kryptografie, decentralizace a integrity se Bitcoin stal mnohem více než jen měnou. Ve skutečnosti je produktem filozofické a technologické revoluce, která nadále přetváří náš svět.
 
-Bitcoin je tedy protokol, který se táhne dlouhou dobu a vybízí nás k tomu, abychom si položili otázku našeho vztahu k energii, času a penězům.
+Bitcoin je tedy protokol, který nás vybízí k tomu, abychom přehodnotili náš vztah k energii, času a penězům.
 
 Je však Bitcoin "skutečnou" měnou? Abychom to pochopili, musíme nejprve porozumět pojmu peníze a jejich různým formám, kterým se budeme věnovat v následující kapitole.
 
@@ -167,10 +167,10 @@ S rozvojem civilizací a rozšiřováním obchodu do nových oblastí tak vznikl
 
 Peníze jsou velmi sofistikovaným komunikačním nástrojem:
 
-- Umožňuje komunikaci mezi přítomností a budoucností, protože mění náš čas a energii v aktivum, které lze v budoucnu znovu využít bez rizika znehodnocení.
-- Usnadňuje komunikaci v univerzálním jazyce: aniž by se dva cizinci znali nebo mluvili stejným jazykem, mohou si vyměňovat, obchodovat a dohodnout se na hodnotě věcí.
+- Umožňují komunikaci mezi přítomností a budoucností, protože mění náš čas a energii v aktivum, které lze v budoucnu znovu využít bez rizika znehodnocení.
+- Usnadňuje komunikaci v univerzálním jazyce: aniž by se dva cizinci znali nebo mluvili stejným jazykem, mohou si vyměňovat věci, obchodovat s nimi a dohodnout se na jejich hodnotě.
 
-Její funkci v našem světě je obtížné uměle napodobit. Ve skutečnosti peníze nemůže vytvořit žádný jednotlivec ani skupina, protože jsou přirozeným jevem, který musí vzniknout na základě trhu a dobrovolného konsensu. V tomto smyslu slouží ceny jako signály a informace, kterými se společnost řídí při rozdělování zdrojů.
+Jejich funkci v našem světě je obtížné uměle napodobit. Ve skutečnosti peníze nemůže vytvořit žádný jednotlivec ani skupina, protože jsou přirozeným jevem, který musí vzniknout na základě trhu a dobrovolného konsensu. V tomto smyslu slouží ceny jako signály a informace, kterými se společnost řídí při rozdělování zdrojů.
 
 Z těchto důvodů je zlato jako peníze výsledkem 4000 let trvajícího peněžního darwinismu založeného na následujících aristotelských funkcích:
 
@@ -186,7 +186,7 @@ Z těchto důvodů je zlato jako peníze výsledkem 4000 let trvajícího peně�
 
 ### Charakteristika peněz
 
-Zlato ideálně splňuje kritéria efektivního platidla: jeho přirozená vzácnost mu dodává hodnotu a jeho chemické vlastnosti zajišťují, že časem nepodléhá erozi. Díky těmto vlastnostem se zlato stalo skvělým **skladem hodnoty**, ale ne běžným platidlem, protože tato forma peněz není snadno dělitelná ani přenosná na velké vzdálenosti. V globalizovaném a digitálním světě zlato jen těžko drží krok a vyžaduje centrální subjekt, který by zajistil jeho dělitelnost a snadnou směnitelnost (tj. prostřednictvím ražených mincí).
+Zlato ideálně splňuje kritéria efektivního platidla: jeho přirozená vzácnost mu dodává hodnotu a jeho chemické vlastnosti zajišťují, že časem nepodléhá erozi. Díky těmto vlastnostem se zlato stalo skvělým **uchovatelem hodnoty**, ale ne běžným platidlem, protože tato forma peněz není snadno dělitelná ani přenosná na velké vzdálenosti. V globalizovaném a digitálním světě zlato jen těžko drží krok a vyžaduje centrální subjekt, který by zajistil jeho dělitelnost a snadnou směnitelnost (tj. prostřednictvím ražených mincí).
 
 Naopak státní fiduciární měny (fiat) jsou snadno použitelné, ale jsou neustále znehodnocovány subjekty, které je ovládají (králi, centrálními bankami, císaři, diktátory).
 
@@ -195,7 +195,7 @@ Abychom tento pojem lépe vysvětlili, prozkoumáme charakteristiky efektivní m
 ![image](assets/cs/011.webp)
 
 - Fungibilita\*\*, což znamená, že je zaměnitelná s jinou jednotkou stejného druhu bez ztráty hodnoty;
-- Dělitelnost\*\*, protože ji lze rozdělit na menší jednotky a usnadnit tak transakce s různými objemy;
+- Dělitelnost\*\*, což znamená, že ji lze rozdělit na menší jednotky a usnadnit tak transakce s různými objemy;
 - Likvidita\*\*, což znamená, že je snadno směnitelný za zboží nebo služby.
 
 Aby tato kritéria splnila, měna se v minulosti vyvíjela různými kroky:
@@ -206,7 +206,7 @@ Aby tato kritéria splnila, měna se v minulosti vyvíjela různými kroky:
 
 Měny se dodnes vyvíjejí a přizpůsobují své formy různým případům použití. Jak jsme již řekli, zlato je sice vynikajícím uchovatelem hodnoty, ale pro současnou globalizovanou ekonomiku již není vhodné. Stejně tak fiduciární měny, jako je dolar a euro, jsou velmi likvidní a snadno přepravitelné, protože jsou dnes převážně digitální, ale jejich hodnota je neustále snižována měnovou inflací.
 
-Na druhou stranu Bitcoin představuje nové možnosti. Jeho vlastnosti, jako je přísně omezená nabídka, z něj činí vynikající úložiště hodnoty. Navíc jako neutrální internetová měna slouží jako životaschopné **prostředí směny**, které překračuje hranice. I přes jeho [neustálé přijímání](https://btcmap.org/map) však dnes stále není v obchodě široce přijímán.
+Na druhou stranu bitcoin představuje nové možnosti. Jeho vlastnosti, jako je přísně omezená nabídka, z něj činí vynikající úložiště hodnoty. Navíc jako neutrální internetová měna slouží jako životaschopné **prostředí směny**, které překračuje hranice. I přes jeho [neustálé přijímání](https://btcmap.org/map) však dnes stále není v obchodě široce přijímán.
 
 ## Fiduciární měny
 
@@ -227,7 +227,7 @@ Fiduciární měna je forma peněz, která je jako taková stanovena institucí,
 
 Od starověku sloužilo zlato jako měnová reference, ale jeho rigidita často vedla vůdce, ať už římské císaře nebo moderní vlády, k přijetí alternativních měn, často fiduciárních.
 
-Mechanismus je jednoduchý a je inspirován postupy, které existují od počátků civilizace. Vůdci, kteří chtějí získat kontrolu nad bohatstvím, začínají centralizací zlata, často využívají své moci a slibují ochranu a bezpečí. Když mají v rukou tuto vzácnou rezervu, zavedou novou měnu, která má stejnou hodnotu jako zlato, ale je ražena v jejich podobě. Tato měna pak začne obíhat a lidé se rychle přizpůsobí pohodlí jejího jednoduchého používání.
+Mechanismus je jednoduchý a je inspirován postupy, které existují od počátků civilizace. Vůdci, kteří chtějí získat kontrolu nad bohatstvím, začínají centralizací zlata, často využívají své moci a slibují ochranu a bezpečí. Když mají v rukou tuto vzácnou rezervu, zavedou novou měnu, která má stejnou hodnotu jako zlato, ale je ražena v její napodobenině. Tato měna pak začne obíhat a lidé se rychle přizpůsobí pohodlí jejího jednoduchého používání.
 
 Tito představitelé však poté začnou novou měnu postupně znehodnocovat a de facto každý rok snižují její hodnotu o několik procent oproti původní ceně zlata. Tato tichá devalvace je často zdůvodňována tím, že je v zájmu lidu. Ve skutečnosti ti, kteří si v této fiduciární měně spoří, vidí, jak hodnota jejich úspor klesá, zatímco stát financuje své projekty prostřednictvím inflace. Navíc tato devalvace usnadňuje splácení dluhů.
 
@@ -241,7 +241,7 @@ Pokud je tato strategie dobře provedena, může trvat desítky let. Je však d�
 
 Nakonec se může stát, že měna již nebude mít žádnou vazbu na zlato, podobně jako římské mince na konci císařství, nebo se dokonce omezí na pouhou číselnou hodnotu, odtrženou od hmatatelné reality.
 
-Dnes jsme svědky historického zlomu. Zdá se, že dolar, který dlouho dominoval, je na ústupu, zatímco zlato ztratilo svou ústřední roli. Stojíme na prahu nového měnového cyklu, který nám připomíná, že poučení z historie se často zapomíná
+Dnes jsme svědky historického zlomu. Zdá se, že dolar, který dlouho dominoval, je na ústupu, zatímco zlato ztratilo svou ústřední roli. Stojíme na prahu nového měnového cyklu, který nám připomíná, že poučení z historie se často zapomíná.
 
 ![image](assets/cs/014.webp)
 
@@ -258,7 +258,7 @@ Dalším důvodem, proč si bitcoin získal pozornost, je vznik digitálních m�
 
 Tuto kapitolu můžeme uzavřít citátem nositele Nobelovy ceny F. A. Hayeka z roku 1984:
 
-> "Nevěřím, že bychom ještě někdy měli mít dobré peníze, než je vyjmeme z rukou vlády. Pokud je nemůžeme vzít z rukou vlády násilím, můžeme jen nějakým lstivým nebo oklikou zavést něco, co oni nemohou zastavit."
+> "Nevěřím, že bychom ještě někdy měli mít dobré peníze, než je vyjmeme z rukou vlády. Pokud je nemůžeme vzít z rukou vlády násilím, můžeme jen nějakým lstivým způsobem nebo oklikou zavést něco, co oni nemohou zastavit."
 > Chcete-li se dozvědět více o ekonomických omylech a svobodě, nabízíme vám náš kurz ECO 102, který se zabývá životem a myšlenkami Frédérica Bastiata, francouzského myslitele 19. století, který by jistě ocenil vznik Bitcoinu:
 
 https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
@@ -269,7 +269,7 @@ https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 Hyperinflace je měnový jev, který je specifický pro fiat měny: vyznačuje se naprostou ztrátou důvěry v měnu a drastickým nárůstem inflace v důsledku tisku peněz ze strany úřadů. V důsledku toho se mohou úspory nashromážděné jednotlivci v relativně krátké době rozplynout a země se ocitne na pokraji hospodářského, sociálního a politického kolapsu.
 
-### Divoká inflace!
+### Zdivočelá inflace!
 
 Abychom pochopili dopad inflace na úspory, musíme vzít v úvahu různé míry inflace.
 
@@ -279,7 +279,7 @@ Abychom pochopili dopad inflace na úspory, musíme vzít v úvahu různé míry
 
 Když nastane hyperinflace, nemluvíme již o 20 % ročně, ale spíše o 20 % měsíčně nebo na vrcholu dokonce za DEN. Zažít 100% inflaci za den v průběhu tří dnů je reálný scénář, který se v našem světě odehrál a stále odehrává.
 
-Je důležité si uvědomit, že hyperinflace nevzniká náhodou, díky kapitalismu nebo politickým útokům odpůrců. Hyperinflace je přímým důsledkem špatných měnových rozhodnutí centrálních bankéřů a politiků. Její následky ovlivňují každého občana a mají dopad i na další generace. Vyzýváme vás, abyste věnovali pět minut čtení následující tabulky, abyste si plně uvědomili skutečný dopad tohoto jevu (kurz ECO204 se tímto tématem dále zabývá). Jak vidíte, žádná země ani měna není potenciálně bezpečná.
+Je důležité si uvědomit, že hyperinflace nevzniká náhodou, vinou kapitalismu nebo útoků politických odpůrců. Hyperinflace je přímým důsledkem špatných měnových rozhodnutí centrálních bankéřů a politiků. Její následky ovlivňují každého občana a mají dopad i na další generace. Vyzýváme vás, abyste věnovali pět minut čtení následující tabulky, abyste si plně uvědomili skutečný dopad tohoto jevu (kurz ECO204 se tímto tématem dále zabývá). Jak vidíte, žádná země ani měna není bezpečná.
 
 ![image](assets/cs/016.webp)
 
@@ -315,7 +315,7 @@ Fáze 4 - Vznik nové měny
 
 Jedním z nejvýraznějších příkladů hyperinflace byla německá Výmarská republika po první světové válce.
 
-Německo si na financování války půjčilo obrovské množství peněz. Německo však nejenže o ně přišlo, ale muselo zaplatit miliardy dolarů na reparacích. Měsícem s nejvyšší mírou inflace byl říjen 1923, kdy dosáhla 29 500 %, což se rovnalo míře inflace 20,9 % denně. Ceny se zdvojnásobovaly každých 3,7 dne!
+Německo si na financování války půjčilo obrovské množství peněz. Německo však nejenže o ně přišlo, ale muselo zaplatit miliardy dolarů na reparacích. Měsícem s nejvyšší mírou inflace byl říjen 1923, kdy dosáhla 29500 %, což se rovnalo míře inflace 20,9 % denně. Ceny se zdvojnásobovaly každých 3,7 dne!
 
 Německá měna se stala tak zbytečnou, že někteří občané raději pálili své papírové peníze místo dřeva, protože to bylo vlastně levnější. Dokonce se vypráví, že v restauracích museli číšníci každých 30 minut oznamovat ceny jídelních lístků, aby zohlednili inflaci.
 
@@ -372,7 +372,7 @@ Výsledkem procesu těžby je vznik nových bitcoinů. Stručně řečeno, těž
 
 Po úspěšném splnění tohoto úkolu jsou těžaři odměněni vydáním nových bitcoinů každých deset minut. Tato odměna je naprogramována tak, aby se každých 210 000 bloků, tedy přibližně každé čtyři roky, snížila na polovinu (událost známá jako "halving"), což dává křivce emise peněz schodovitý tvar. Díky tomuto mechanismu lze matematicky předpovědět, že tvorba nových bitcoinů se zastaví kolem roku 2140, kdy jejich celkový počet dosáhne hranice 21 milionů.
 
-| Číslo půlení | Výška bloku | Odměna za BTC po půlení  | Odhadovaný počet BTC v oběhu po půlení |
+| Pořadí půlení | Výška bloku | Odměna za BTC po půlení  | Odhadovaný počet BTC v oběhu po půlení |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
 | 1              | 210,000      | 25 BTC                    | 10,500,000 BTC                             |
 | 2              | 420,000      | 12.5 BTC                  | 15,750,000 BTC                             |
@@ -411,13 +411,13 @@ Věděli jste, že těžaři jsou motivováni k těžbě bloku, aby získali nov
 
 Jakmile se tedy počet vydaných bitcoinů přiblíží hranici 21 milionů, budou těžaři odměňováni více prostřednictvím transakčních poplatků než prostřednictvím blokové dotace.
 
-- Teorie her je matematický koncept, který se opírá o lidskou racionalitu. Předpokládá, že jednotlivci jednají logicky a snaží se maximalizovat svůj vlastní prospěch, přičemž berou v úvahu možná rozhodnutí ostatních. V Bitcoinu pomáhá teorie her zajistit, aby většina těžařů a uživatelů jednala v nejlepším zájmu sítě. Vzhledem k tomu, že o změnách protokolu hlasují uživatelé, by totiž jakákoli změna protokolu Bitcoinu vyžadovala souhlas celé komunity uživatelů, což je velmi složité. Pokud by tedy někdo chtěl vytvořit bitcoin za 22 milionů, musel by přesvědčit všechny uživatele, aby dobrovolně znehodnotili své vlastní úspory, což je nepravděpodobné, protože Bitcoin je globální a není řízen centrální skupinou.
+- Teorie her je matematický koncept, který se opírá o lidskou racionalitu. Předpokládá, že jednotlivci jednají logicky a snaží se maximalizovat svůj vlastní prospěch, přičemž berou v úvahu možná rozhodnutí ostatních. V Bitcoinu pomáhá teorie her zajistit, aby většina těžařů a uživatelů jednala v nejlepším zájmu sítě. Vzhledem k tomu, že o změnách protokolu hlasují uživatelé, by totiž jakákoli změna protokolu Bitcoinu vyžadovala souhlas celé komunity uživatelů, což je velmi složité. Pokud by tedy někdo chtěl vytvořit 22 milion bitcoinů, musel by přesvědčit všechny uživatele, aby dobrovolně znehodnotili své vlastní úspory, což je nepravděpodobné, protože Bitcoin je globální a není řízen centrální skupinou.
 
 ![image](assets/cs/024.webp)
 
 Myšlenka devalvace měny je v rozporu se základní filozofií Bitcoinu, takže změna jejího celkového množství je velmi nepravděpodobná.
 
-### Auditovatelná měnová politika: každou sekundu, od začátku a navždy!
+### Auditovatelná měnová politika: každou sekundu, od začátku až navždy!
 
 Bitcoin je vzácný a jeho maximální množství 21 milionů bitcoinů v oběhu je veřejné a může si ho ověřit každý.
 
@@ -441,17 +441,17 @@ Bitcoin zaručuje zdravou správu peněz tím, že omezuje jejich tvorbu, čím�
 Souhrnně lze říci, že Bitcoin díky své decentralizované povaze, naprogramovanému nedostatku a transparentnosti nabízí jedinečnou alternativu k tradičním peněžním systémům. Ukazuje, jak lze pomocí technologie vytvořit měnu, která je nejen užitečná a ověřitelná, ale také zachovává hodnotu úspor uživatelů tím, že přísně omezuje jejich nabídku.
 
 
-# Peněženky Bitcoin
+# Bitcoinové peněženky 
 
 <partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
 
-## Co jsou peněženky Bitcoin?
+## Co jsou bitcoinové peněženky?
 
 <chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
 
 V části 2 se budeme zabývat ukládáním a zabezpečením bitcoinů pomocí peněženek, abychom pochopili, kde se tyto slavné bitcoiny nacházejí a jak s nimi pracovat!
 
-### Demystifikace peněženek Bitcoin
+### Demystifikace bitcoinových peněženek 
 
 Peněženky používáme k interakci se sítí Bitcoin třemi hlavními způsoby:
 
@@ -465,7 +465,7 @@ Portfolia lze tedy rozdělit do širokých skupin použití, které se vždy sou
 
 ![image](assets/cs/025.webp)
 
-### Jak funguje peněženka Bitcoin?
+### Jak funguje bitcoinová peněženka?
 
 Ať už je to váš "bankéř" nebo vy sami, naprostá většina peněženek Bitcoin pracuje s podobnou technologií založenou na asymetrické kryptografii, která zahrnuje systém dvojic klíčů: soukromý klíč pro utrácení a veřejný klíč pro příjem.
 

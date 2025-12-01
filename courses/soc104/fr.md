@@ -2,14 +2,14 @@
 name: Quelle est votre tendance politique ?
 goal: Comprendre la complexité du spectre politique moderne afin d’identifier sa propre tendance et situer les grandes familles idéologiques au-delà du clivage gauche-droite.
 objectives:
-  - "Comprendre que la typologie politique est plus nuancée qu'un simple axe gauche/droite."
-  - "Identifier les deux dimensions principales qui structurent le spectre politique; les thèmes économiques et les thèmes sociétaux."
-  - "Caractériser les quatre grandes familles politiques : Libertariens, Socialistes, Conservateurs, Centristes."
-  - Explorer le positionnement des bitcoiners dans le spectre politique.
+  - Comprendre que la typologie politique est plus nuancée qu'un simple axe gauche/droite
+  - Identifier les deux dimensions principales qui structurent le spectre politique; les thèmes économiques et les thèmes sociétaux
+  - Caractériser les quatre grandes familles politiques, Libertariens, Socialistes, Conservateurs, Centristes
+  - Explorer le positionnement des bitcoiners dans le spectre politique
 
 ---
 
-Êtes-vous sûr(e) que votre positionnement politique se résume à la droite ou à la gauche ? Ce cours propose une approche révolutionnaire pour comprendre le spectre politique à travers l'axe fondamental Liberté-Coercition. En utilisant le Diagramme de Nolan, nous analysons les familles politiques—socialistes, conservateurs, centristes, et libertariens—non pas selon leurs intentions déclarées, mais selon leur degré de confiance dans le contrôle gouvernemental. Découvrez la logique de l'ordre spontané, explorez les vrais enjeux philosophiques (individualisme vs. collectivisme) et apprenez à définir vos propres valeurs sans tomber dans les pièges des étiquettes traditionnelles.
+Est-ce que votre positionnement politique se résume à la droite ou à la gauche ? Ce cours propose une approche révolutionnaire pour comprendre le spectre politique à travers l'axe fondamental Liberté-Coercition. En utilisant le Diagramme de Nolan, nous analysons les familles politiques—socialistes, conservateurs, centristes, et libertariens—non pas selon leurs intentions déclarées, mais selon leur degré de confiance dans le contrôle gouvernemental. Découvrez la logique de l'ordre spontané, explorez les vrais enjeux philosophiques (individualisme vs. collectivisme) et apprenez à définir vos propres valeurs sans tomber dans les pièges des étiquettes traditionnelles.
 
 Ce cours vous révélera aussi pourquoi Bitcoin est plus qu'une simple monnaie : c'est un projet politique hérité des Cypherpunks. Loin d'être classable sur un axe linéaire, Bitcoin est une force de décentralisation qui s'oppose à la monnaie d'État, offrant une échappatoire pacifique à l'inflation et à la surveillance. En limitant le pouvoir centralisé sur la monnaie, Bitcoin redéfinit la question politique essentielle : Est-ce vous qui décidez de votre vie, ou est-ce quelqu'un d'autre ? Plongez dans cette analyse pour affiner votre boussole idéologique et comprendre l'impact politique profond de cette technologie sur votre liberté individuelle.
 
@@ -66,8 +66,8 @@ Indéniablement, bitcoin est un projet de rupture avec la politique monétaire a
 
 Pour commencer, la définition même de la droite et de la gauche est complexe et évolue au fil du temps, rendant difficile toute classification stricte. Mais surtout Bitcoin, en tant que technologie décentralisée, transcende les clivages traditionnels, attirant des partisans de divers horizons politiques, de gauche et de droite, y compris des anarchistes et des individus qui se veulent apolitiques.
 
-* Des personnalités classées à droite peuvent voir dans Bitcoin une alternative aux politiques monétaires des banques centrales.
-* Des personnalités de gauche sont également présentes, notamment en raison du potentiel de Bitcoin pour l'inclusion financière et comme outil contre la censure.
+- Des personnalités classées à droite peuvent voir dans Bitcoin une alternative aux politiques monétaires des banques centrales.
+- Des personnalités de gauche sont également présentes, notamment en raison du potentiel de Bitcoin pour l'inclusion financière et comme outil contre la censure.
 
 En réalité, la dichotomie traditionnelle entre la droite et la gauche, est inadéquate, arbitraire et impropre à situer correctement Bitcoin qui est une monnaie publique, que chacun peut s'approprier, quelle que soit sa sensibilité politique.
 
@@ -93,28 +93,28 @@ Dans ce cours nous allons voir que le paysage politique est bien plus riche et c
 Avant de commencer ce cours, je vous invite à faire un petit test. Essayez de répondre aux questions suivantes :
 
 **Questions sociétales**
-* Le gouvernement devrait-il posséder ou contrôler les journaux, la radio ou la télévision ?
-* Le gouvernement devrait-il réglementer l'activité sexuelle entre adultes consentants, y compris la prostitution ?
-* Les drogues comme la marijuana, la cocaïne et l'héroïne devraient-elles être légalisées ?
-* Devrait-il être légal pour les gens de voyager ou d'entrer et de sortir d’un pays sans limitation ?
-* Le gouvernement devrait-il envoyer des troupes pour intervenir dans les affaires d'autres pays ?
-* Les enfants devraient-ils être obligés par la loi d'aller à l'école ?
-* Les parents devraient-ils être autorisés à enseigner à leurs enfants à la maison ?
-* La possession d'armes à feu devrait-elle être restreinte par la loi ?
-* Quelle devrait être la politique du gouvernement en matière d’environnement ?
-* Avons-nous besoin d’une institution publique pour garantir que les médicaments soient sûrs et efficaces ?
+- Le gouvernement devrait-il posséder ou contrôler les journaux, la radio ou la télévision ?
+- Le gouvernement devrait-il réglementer l'activité sexuelle entre adultes consentants, y compris la prostitution ?
+- Les drogues comme la marijuana, la cocaïne et l'héroïne devraient-elles être légalisées ?
+- Devrait-il être légal pour les gens de voyager ou d'entrer et de sortir d’un pays sans limitation ?
+- Le gouvernement devrait-il envoyer des troupes pour intervenir dans les affaires d'autres pays ?
+- Les enfants devraient-ils être obligés par la loi d'aller à l'école ?
+- Les parents devraient-ils être autorisés à enseigner à leurs enfants à la maison ?
+- La possession d'armes à feu devrait-elle être restreinte par la loi ?
+- Quelle devrait être la politique du gouvernement en matière d’environnement ?
+- Avons-nous besoin d’une institution publique pour garantir que les médicaments soient sûrs et efficaces ?
 
 **Questions économiques**
-* Le gouvernement devrait-il subventionner les agriculteurs et réglementer ce qu'ils cultivent ?
-* Le gouvernement devrait-il imposer des tarifs douaniers, des quotas, des embargos ou d'autres restrictions sur le commerce international ?
-* Le gouvernement devrait-il instaurer un salaire minimum obligatoire ?
-* L'impôt est-il le seul moyen de payer les services publics nécessaires ?
-* Le gouvernement devrait-il aider les entreprises en période de difficultés économiques avec des prêts à faible taux d'intérêt ou des subventions ?
-* Quelle est la meilleure façon de gérer les déficits budgétaires massifs actuels ?
-* Comment résoudre le problème du déficit du système de sécurité sociale ?
-* Le gouvernement devrait-il envoyer de l'aide financière à d'autres pays ?
-* Que devrait faire le gouvernement face à l'augmentation du coût des soins de santé ?
-* Quelle devrait être la politique du gouvernement en matière d'énergie nucléaire ?
+- Le gouvernement devrait-il subventionner les agriculteurs et réglementer ce qu'ils cultivent ?
+- Le gouvernement devrait-il imposer des tarifs douaniers, des quotas, des embargos ou d'autres restrictions sur le commerce international ?
+- Le gouvernement devrait-il instaurer un salaire minimum obligatoire ?
+- L'impôt est-il le seul moyen de payer les services publics nécessaires ?
+- Le gouvernement devrait-il aider les entreprises en période de difficultés économiques avec des prêts à faible taux d'intérêt ou des subventions ?
+- Quelle est la meilleure façon de gérer les déficits budgétaires massifs actuels ?
+- Comment résoudre le problème du déficit du système de sécurité sociale ?
+- Le gouvernement devrait-il envoyer de l'aide financière à d'autres pays ?
+- Que devrait faire le gouvernement face à l'augmentation du coût des soins de santé ?
+- Quelle devrait être la politique du gouvernement en matière d'énergie nucléaire ?
 
 Dans toutes ces questions, il y a un sujet central et déterminant qui apparait : le degré de contrôle gouvernemental que vous pouvez tolérer et donc également le degré de financement auquel vous êtes plus ou moins forcé de participer.
 
@@ -124,7 +124,9 @@ En 1966, dans *Révolte sur la Lune* (The Moon is a Harsh Mistress), le romancie
 
 ![The Moon is a Harsh Mistress](./assets/fr/005.webp)
 
-Il observe que le genre humain se divise politiquement entre ceux qui veulent contrôler la vie des autres, et ceux qui n’éprouvent pas ce désir  (*The human race divides politically into those who want people to be controlled and those who have no such desire*).
+Il observe que le genre humain se divise politiquement entre ceux qui veulent contrôler la vie des autres, et ceux qui n’éprouvent pas ce désir  
+
+> The human race divides politically into those who want people to be controlled and those who have no such desire.
 
 ![The Moon is a Harsh Mistress quote](./assets/fr/006.webp)
 
@@ -155,11 +157,11 @@ Son idée est d’ajouter à l’axe gauche-droite un deuxième axe liberté/pou
 ![Graphique](./assets/fr/008.webp)
 
 Le diagramme est à un carré divisé en cinq sections, avec une étiquette attribuée à chacune des sections suivantes :
-  -	En bas – l’étatisme le plus autoritaire, voire totalitaire, correspondant à ceux qui soutiennent une très faible liberté économique et personnelle. 
-  -	A gauche – les socialistes. Ceux qui soutiennent une faible liberté économique et une plus grande liberté personnelle.
-  -	A droite : les conservateurs. Ceux qui soutiennent une grande liberté économique et une faible liberté personnelle.
-  -	En haut : les libertariens, à l’opposé de l’étatisme pur et dur. Ce sont ceux qui soutiennent la plus grande liberté économique et personnelle.
-  -	Au milieu : les centristes. C’est une zone pragmatique, pour ceux qui sont en faveur d’un système qui mélange un peu de liberté économique et personnelle avec le désir d’une certaine régulation du marché, impliquant le sacrifice de certains droits individuels.
+-	En bas : l’étatisme le plus autoritaire, voire totalitaire, correspondant à ceux qui soutiennent une très faible liberté économique et personnelle. 
+-	A gauche : les socialistes. Ceux qui soutiennent une faible liberté économique et une plus grande liberté personnelle.
+-	A droite : les conservateurs. Ceux qui soutiennent une grande liberté économique et une faible liberté personnelle.
+-	En haut : les libertariens, à l’opposé de l’étatisme pur et dur. Ce sont ceux qui soutiennent la plus grande liberté économique et personnelle.
+-	Au milieu : les centristes. C’est une zone pragmatique, pour ceux qui sont en faveur d’un système qui mélange un peu de liberté économique et personnelle avec le désir d’une certaine régulation du marché, impliquant le sacrifice de certains droits individuels.
 
 Cela fait de l'approche bidimensionnelle du diagramme Nolan une représentation beaucoup plus précise du spectre politique que la ligne unidimensionnelle typique de gauche à droite à laquelle se réfèrent la plupart des analystes politiques. 
 
@@ -170,41 +172,41 @@ Le diagramme représente les libertés économiques  (niveau des impôts, march�
 
 Ce schéma repose sur l’idée que la majorité des questions politiques peuvent être divisées en deux grandes catégories : économiques et personnelles (ou sociétales).
 
-### 1° Les libertés économiques
-La catégorie Libertés économiques  comprend ce que vous faites en tant que producteur et consommateur — ce que vous pouvez acheter, vendre ou produire. Où vous travaillez, qui vous embauchez ou ce que vous faites avec votre argent.
+### Les libertés économiques
+La catégorie Libertés économiques comprend ce que vous faites en tant que producteur et consommateur — ce que vous pouvez acheter, vendre ou produire. Où vous travaillez, qui vous embauchez ou ce que vous faites avec votre argent.
 
 Exemples d’activité économique : créer une entreprise ; acheter une maison ; construire un bâtiment ; faire ses courses ; travailler dans un bureau.
 
-* **À droite de l'axe** (vers le 100 sur les Thèmes économiques ) : préférence pour la **liberté économique**. Cela signifie que l'on souhaite moins d'intervention de l'État dans l'économie, moins de régulations, moins d'impôts, et une plus grande liberté pour les entreprises et les individus à produire, échanger et consommer. On met l'accent sur le marché libre, la propriété privée et la concurrence comme moteurs de la prospérité.
-
-    * *Figures emblématiques :* Margaret Thatcher (UK), Ronald Reagan (USA), Javier Milei (Argentine).
+- **À droite de l'axe** (vers le 100 sur les Thèmes économiques) : préférence pour la **liberté économique**. Cela signifie que l'on souhaite moins d'intervention de l'État dans l'économie, moins de régulations, moins d'impôts, et une plus grande liberté pour les entreprises et les individus à produire, échanger et consommer. On met l'accent sur le marché libre, la propriété privée et la concurrence comme moteurs de la prospérité.
+  - *Figures emblématiques :* Margaret Thatcher (UK), Ronald Reagan (USA), Javier Milei (Argentine).
 
 ![Right Graphique](./assets/fr/009.webp)
 
-* **À gauche de l'axe** (vers le 0 sur les Thèmes économiques ) : préférence pour une **intervention étatique forte dans l'économie**. Cela implique des régulations, des impôts élevés pour financer des services publics (santé, éducation, transport), des nationalisations, et une redistribution des richesses. L'objectif est souvent de réduire les inégalités et de garantir une certaine justice sociale.
-    * *Figures emblématiques :* Franklin D. Roosevelt (USA), Jean Jaurès (France), Bernie Sanders, Barack Obama.
+- **À gauche de l'axe** (vers le 0 sur les Thèmes économiques) : préférence pour une **intervention étatique forte dans l'économie**. Cela implique des régulations, des impôts élevés pour financer des services publics (santé, éducation, transport), des nationalisations, et une redistribution des richesses. L'objectif est souvent de réduire les inégalités et de garantir une certaine justice sociale.
+  - *Figures emblématiques :* Franklin D. Roosevelt (USA), Jean Jaurès (France), Bernie Sanders, Barack Obama.
 
 ![Left Graphique](./assets/fr/010.webp)
 
-### 2° Les libertés personnelles et sociétales
-La catégorie Libertés personnelles  comprend ce que vous faites dans vos relations privées, avec vos opinions et vos croyances. En général, il s’agit de tout ce que vous faites avec votre propre corps et votre esprit.
+### Les libertés personnelles et sociétales
+
+La catégorie Libertés personnelles comprend ce que vous faites dans vos relations privées, avec vos opinions et vos croyances. En général, il s’agit de tout ce que vous faites avec votre propre corps et votre esprit.
 
 *Exemples d’activités personnelles :* le mariage ; choisir les livres que vous lisez et les films que vous regardez ; les aliments, les médicaments et les drogues que vous choisissez de consommer ; le sport ; vos choix religieux ; les organisations auxquelles vous adhérez ; les personnes avec lesquelles vous choisissez de vous associer.
 
-* **En haut de l'axe** (vers le 100 sur les Thèmes sociétaux ) : préférence pour la **liberté individuelle** et la tolérance. L'État doit s'immiscer le moins possible dans les choix de vie des individus (droit à l'avortement, droits LGBTQ+, liberté d'expression, légalisation de certaines substances, etc.). On valorise l'autonomie et la diversité.
-    * *Figures emblématiques :* Nelson Mandela, Simone Veil, Noam Chomsky.
+- **En haut de l'axe** (vers le 100 sur les Thèmes sociétaux) : préférence pour la **liberté individuelle** et la tolérance. L'État doit s'immiscer le moins possible dans les choix de vie des individus (droit à l'avortement, droits LGBTQ+, liberté d'expression, légalisation de certaines substances, etc.). On valorise l'autonomie et la diversité.
+  - *Figures emblématiques :* Nelson Mandela, Simone Veil, Noam Chomsky.
 
 
 ![Left Libertes Graphique](./assets/fr/011.webp)    
 
-* **En bas de l'axe** (vers le 0 sur les Thèmes sociétaux ) : préférence pour **l'ordre, la sécurité, et les valeurs traditionnelles**. L'État a un rôle à jouer pour encadrer les mœurs, maintenir l'ordre public, et parfois défendre une certaine vision de la moralité ou de la tradition, y compris par la violence. On peut y retrouver des positions en faveur de la peine de mort, de restrictions sur l'immigration, ou d'une promotion dirigiste de la famille traditionnelle .
-
-    * *Figures emblématiques :* Joseph de Maistre (philosophe contre-révolutionnaire français) – pour ses idées sur l'ordre divin et l'autorité. Certains dirigeants autoritaires contemporains comme Vladimir Poutine en Russie ou Xi Jinping en Chine.
+- **En bas de l'axe** (vers le 0 sur les Thèmes sociétaux) : préférence pour **l'ordre, la sécurité, et les valeurs traditionnelles**. L'État a un rôle à jouer pour encadrer les mœurs, maintenir l'ordre public, et parfois défendre une certaine vision de la moralité ou de la tradition, y compris par la violence. On peut y retrouver des positions en faveur de la peine de mort, de restrictions sur l'immigration, ou d'une promotion dirigiste de la famille traditionnelle .
+  - *Figures emblématiques :* Joseph de Maistre (philosophe contre-révolutionnaire français) – pour ses idées sur l'ordre divin et l'autorité. Certains dirigeants autoritaires contemporains comme Vladimir Poutine en Russie ou Xi Jinping en Chine.
 
 
 ![Libertes Graphique](./assets/fr/012.webp)
 
 ## Etes-vous étatiste de droite ou de gauche ?
+
 <chapterId>06d903fc-9453-47d4-b0b1-38b6b82ccf99</chapterId>
 
 ![video](https://www.youtube.com/watch?v=AskWWBXom3Y)
@@ -278,7 +280,7 @@ Ainsi les partisans du libéralisme classiques se sont appelés *libertarians* a
 
 ![video](https://www.youtube.com/watch?v=qi6HPBmrJkg)
 
-Le terme **libertarian** est parfois traduit par libertaire  ou encore libertin , ce qui est un contresens majeur.
+Le terme **libertarian** est parfois traduit par libertaire ou encore libertin, ce qui est un contresens majeur.
 
 Le terme libertaire vient de la tradition anarchiste du XIXe siècle, qui est dérivée du socialisme. Cette tradition est historiquement liée à des penseurs comme Pierre-Joseph Proudhon ou Mikhaïl Bakounine. L’anarchisme est la doctrine politique qui énonce que toute forme de gouvernement est non nécessaire, oppressif et qu’il doit être aboli.
 
@@ -308,7 +310,8 @@ Abordons maintenant dans le détail les différentes philosophies politiques. Le
 
 Mais avant cela, il nous faut expliquer une distinction importante.
 
-Milton Friedman écrivait : L'une des plus grandes erreurs consiste à juger les politiques et les programmes sur leurs intentions plutôt que sur leurs résultats. Nous connaissons tous une route célèbre pavée de bonnes intentions. [...] les programmes qui sont étiquetés comme étant pour les pauvres, pour les nécessiteux, ont presque toujours des effets exactement opposés à ceux que leurs sponsors bien intentionnés souhaitent leur faire obtenir. 
+Milton Friedman écrivait
+> L'une des plus grandes erreurs consiste à juger les politiques et les programmes sur leurs intentions plutôt que sur leurs résultats. Nous connaissons tous une route célèbre pavée de bonnes intentions. [...] Les programmes qui sont étiquetés comme étant pour les pauvres, pour les nécessiteux, ont presque toujours des effets exactement opposés à ceux que leurs sponsors bien intentionnés souhaitent leur faire obtenir. 
 
 En effet, les politiques, souvent motivées par des intentions généreuses, peuvent avoir des conséquences imprévues ou néfastes si elles ne sont pas fondées sur une analyse rigoureuse des incitations et des comportements humains. Par exemple, une politique sociale visant à aider les pauvres crée souvent des effets pervers comme la dépendance économique ou la distorsion des marchés.
 
@@ -327,11 +330,11 @@ Les chapitres suivants expliquent comment définir les familles politiques de ma
 
 ![Socialistes Graphique](./assets/fr/015.webp)
 
-* **Les libertés :** assez fortes dans le domaine sociétal mais faibles dans le domaine économique.
-* **Valeurs cardinales :** l’égalité, le progrès, la justice sociale, la solidarité.
-* **Philosophie et principes :** Primat de l’organisation collective. Le socialisme est une pratique qui se fonde sur la société considérée comme un tout (holisme) et s'exprime à travers l'État. L'État socialiste veut prendre en charge et diriger au maximum l'activité humaine. Il y a chez les socialistes une foi presque illimitée dans la possibilité de construire un nouvel ordre social fondé sur la raison.
-* **Politique :** Les socialistes prônent des programmes de santé, des hausses d’impôts et des subventions pour garantir l’équité. Cela implique un dirigisme économique et social, la planification (organisation de la production en amont). Hayek parle de constructivisme , c'est-à-dire l'idée que c'est à l'État de construire la société et de lui donner une certaine forme, contrairement à l'ordre libéral où la société se construit d'elle-même (ordre spontané ). Le socialisme le plus radical et abouti est totalitaire, car l'État prend en charge la totalité de l'activité humaine.
-* **Économie :** Le socialisme implique un contrôle fort de l'État sur l’économie, au profit de l’équité (permettre à chacun de subvenir à ses besoins). Les socialistes se méfient des marchés libres, qu'ils voient comme un système permettant aux forts de s'attaquer aux vulnérables. Ils sont favorables à une redistribution des richesses et à des programmes sociaux centralisés financés par des impôts et des recettes élevés.
+- **Les libertés :** assez fortes dans le domaine sociétal mais faibles dans le domaine économique.
+- **Valeurs cardinales :** l’égalité, le progrès, la justice sociale, la solidarité.
+- **Philosophie et principes :** Primat de l’organisation collective. Le socialisme est une pratique qui se fonde sur la société considérée comme un tout (holisme) et s'exprime à travers l'État. L'État socialiste veut prendre en charge et diriger au maximum l'activité humaine. Il y a chez les socialistes une foi presque illimitée dans la possibilité de construire un nouvel ordre social fondé sur la raison.
+- **Politique :** Les socialistes prônent des programmes de santé, des hausses d’impôts et des subventions pour garantir l’équité. Cela implique un dirigisme économique et social, la planification (organisation de la production en amont). Hayek parle de constructivisme , c'est-à-dire l'idée que c'est à l'État de construire la société et de lui donner une certaine forme, contrairement à l'ordre libéral où la société se construit d'elle-même (ordre spontané ). Le socialisme le plus radical et abouti est totalitaire, car l'État prend en charge la totalité de l'activité humaine.
+- **Économie :** Le socialisme implique un contrôle fort de l'État sur l’économie, au profit de l’équité (permettre à chacun de subvenir à ses besoins). Les socialistes se méfient des marchés libres, qu'ils voient comme un système permettant aux forts de s'attaquer aux vulnérables. Ils sont favorables à une redistribution des richesses et à des programmes sociaux centralisés financés par des impôts et des recettes élevés.
 
 **Types de socialistes :**
 Le concept de socialisme est un néologisme qui fut utilisé pour la première fois, de façon systématique et avec un sens précis, par le Français Pierre Leroux en 1833. Il convient de distinguer deux traditions au sein du socialisme moderne :
@@ -357,15 +360,15 @@ Selon Bernie Sanders, *ces réformes, sont devenues le tissu social de la nation
 
 ![Conservateurs Graphique](./assets/fr/016.webp)
 
-* **Libertés :** elles sont fortes dans le domaine économique mais faibles dans le domaine sociétal.
+- **Libertés :** elles sont fortes dans le domaine économique mais faibles dans le domaine sociétal.
 
-* **Valeurs cardinales :** la vertu, l’ordre, la tradition, la civilisation.
+- **Valeurs cardinales :** la vertu, l’ordre, la tradition, la civilisation.
 
-* **Philosophie et principes :** les conservateurs pensent que les choses sont généralement bien telles qu'elles sont et que tout changement pourrait les aggraver. Ils cherchent à conserver ce qui existe déjà, le défendent comme bon en soi, et répugnent aux changements d'un système qui leur semble avoir fait preuve d'efficacité. Au cœur de la conception traditionnelle du conservatisme se trouve un profond respect pour les institutions sociales établies de longue date, considérées comme des protections essentielles contre le chaos, l'injustice et la cruauté. Ces édifices sociaux soutiennent la solidarité, la sécurité et les forces dont l'humanité a besoin pour résister aux dérives de la modernité. 
+- **Philosophie et principes :** les conservateurs pensent que les choses sont généralement bien telles qu'elles sont et que tout changement pourrait les aggraver. Ils cherchent à conserver ce qui existe déjà, le défendent comme bon en soi, et répugnent aux changements d'un système qui leur semble avoir fait preuve d'efficacité. Au cœur de la conception traditionnelle du conservatisme se trouve un profond respect pour les institutions sociales établies de longue date, considérées comme des protections essentielles contre le chaos, l'injustice et la cruauté. Ces édifices sociaux soutiennent la solidarité, la sécurité et les forces dont l'humanité a besoin pour résister aux dérives de la modernité. 
 
-* **Politique :** les conservateurs prônent les contrôles sociaux traditionnels et l’intervention de l'État pour faire respecter les normes sociales et morales (ordre, sécurité, valeurs). Ils soutiennent une défense nationale forte. Ils tendent à soutenir des pouvoirs de police plus étendus. Le socialisme est perçu comme une rupture brutale avec la civilisation occidentale. Les conservateurs ont joué un rôle décisif dans la lutte contre le communisme et le rejet de l'interventionnisme gouvernemental excessif.
+- **Politique :** les conservateurs prônent les contrôles sociaux traditionnels et l’intervention de l'État pour faire respecter les normes sociales et morales (ordre, sécurité, valeurs). Ils soutiennent une défense nationale forte. Ils tendent à soutenir des pouvoirs de police plus étendus. Le socialisme est perçu comme une rupture brutale avec la civilisation occidentale. Les conservateurs ont joué un rôle décisif dans la lutte contre le communisme et le rejet de l'interventionnisme gouvernemental excessif.
 
-* **Economie :** les conservateurs soutiennent une fiscalité faible et une réglementation minimale des entreprises. Ils soutiennent l'entrepreneuriat honnête et la libre entreprise, ainsi que les individus qui travaillent dur pour accumuler des richesses. Mais ils craignent qu'une trop grande liberté individuelle n'engendre l'immoralité ou le déclin civilisationnel.
+- **Economie :** les conservateurs soutiennent une fiscalité faible et une réglementation minimale des entreprises. Ils soutiennent l'entrepreneuriat honnête et la libre entreprise, ainsi que les individus qui travaillent dur pour accumuler des richesses. Mais ils craignent qu'une trop grande liberté individuelle n'engendre l'immoralité ou le déclin civilisationnel.
 
 **Types de conservateurs :**
 en Europe au XIXe siècle, les conservateurs sont des réactionnaires. Ils prônent un retour vers l’ancienne société féodale, agricole et artisanale. Ils veulent échapper à la société actuelle et revenir au passé, avant l’évolution qu’ils jugent néfaste : le progrès scientifique et technologique, avec ses conséquences sur l’économie et la société.
@@ -389,24 +392,23 @@ Certains revendiquent ainsi désormais l’étiquette de *paléoconservateurs*, 
 
 ![Libertariens Graphique](./assets/fr/017.webp)
 
-* **Libertés :** elles sont fortes dans les deux domaines, sociétal et économique.
+- **Libertés :** elles sont fortes dans les deux domaines, sociétal et économique.
 
-* **Valeurs cardinales :** la liberté individuelle, la responsabilité, la propriété privée, le consentement.
+- **Valeurs cardinales :** la liberté individuelle, la responsabilité, la propriété privée, le consentement.
 
-* **Philosophie et principes :** primat de la liberté individuelle. Historiquement, le libéralisme classique est d'abord une philosophie du droit. L'idée fondamentale est que chaque individu possède des droits inaliénables à la vie, à la liberté et à la propriété. Ces droits ne sont pas accordés par le gouvernement mais sont intrinsèques à l'être humain. La souveraineté de soi (ou propriété de soi) est le concept selon lequel chaque individu est le propriétaire légitime de son propre corps et de sa propre vie, et a le droit de prendre des décisions concernant ces derniers sans contrainte externe, tant qu'il ne viole pas les droits d'autrui.
+- **Philosophie et principes :** primat de la liberté individuelle. Historiquement, le libéralisme classique est d'abord une philosophie du droit. L'idée fondamentale est que chaque individu possède des droits inaliénables à la vie, à la liberté et à la propriété. Ces droits ne sont pas accordés par le gouvernement mais sont intrinsèques à l'être humain. La souveraineté de soi (ou propriété de soi) est le concept selon lequel chaque individu est le propriétaire légitime de son propre corps et de sa propre vie, et a le droit de prendre des décisions concernant ces derniers sans contrainte externe, tant qu'il ne viole pas les droits d'autrui.
 
-* **Politique :** Les libertariens considèrent que personne, ni aucun groupe (y compris le gouvernement), n'a le droit d'initier ou de menacer de recourir à la force physique contre une autre personne ou sa propriété. C’est le principe de non-agression. Cela signifie que la fraude, le vol et la coercition sont moralement répréhensibles. L'usage de la force n'est justifiable qu'en cas de légitime défense. 
+- **Politique :** Les libertariens considèrent que personne, ni aucun groupe (y compris le gouvernement), n'a le droit d'initier ou de menacer de recourir à la force physique contre une autre personne ou sa propriété. C’est le principe de non-agression. Cela signifie que la fraude, le vol et la coercition sont moralement répréhensibles. L'usage de la force n'est justifiable qu'en cas de légitime défense. 
 
 Les libertariens refusent d’accorder à l'État une permission spéciale pour commettre des actes que la plupart des gens considéreraient comme immoraux, illégaux ou criminels s'ils étaient commis par des individus ou des groupes de la société. En somme, les libertariens insistent pour que tout le monde soit soumis au même code moral, sans exception pour aucun groupe ou individu.
 
 Il existe donc chez les libertariens une profonde méfiance envers toute concentration de pouvoir, qu'elle soit politique ou économique. Le pouvoir étatique est considéré comme particulièrement dangereux car il peut légalement exercer la coercition.
 
-* **Économie :** Le libre-échange et la liberté d’entreprendre sont des expressions économiques du respect des droits des individus à être propriétaires d'eux-mêmes et de leurs biens pour pouvoir les échanger librement. La liberté produit un ordre spontané, juste parce qu'elle résulte de l'action et de la responsabilité individuelles, via le jeu de l’échange volontaire et des contrats.
+- **Économie :** Le libre-échange et la liberté d’entreprendre sont des expressions économiques du respect des droits des individus à être propriétaires d'eux-mêmes et de leurs biens pour pouvoir les échanger librement. La liberté produit un ordre spontané, juste parce qu'elle résulte de l'action et de la responsabilité individuelles, via le jeu de l’échange volontaire et des contrats.
 
 **Types de libertariens :**
 Au XXe siècle, deux grandes tendances se dessinent :
 1.  **L'une Minarchiste :** qui considère que les pouvoirs de l'État devraient être strictement limités à la défense des libertés individuelles. C’est un régime d'État minimal (*État-gendarme*), où le pouvoir n'est légitime que pour assurer les fonctions régaliennes de police, justice et défense armée du territoire.
-
 2.  **L'autre anarcho-capitaliste :** qui considère que les fonctions de l'État devraient être privatisés et gérées par le marché.
 Cependant, toutes deux s'accordent sur le principe fondamental de souveraineté individuelle. Les idées libertariennes ont été exprimées dès le XVIIIe siècle par les Physiocrates, notamment Vincent de Gournay et Turgot, et développées par Condillac, Jean-Baptiste Say et Frédéric Bastiat. Au XXe siècle, elles ont été reprises et développées par l'école autrichienne d’économie, dont les auteurs principaux sont Ludwig von Mises, Friedrich Hayek, et Murray Rothbard. 
 
@@ -419,27 +421,21 @@ Cependant, toutes deux s'accordent sur le principe fondamental de souveraineté 
 
 ![Centristes Graphique](./assets/fr/018.webp)
 
-* **Libertés :** Ils soutiennent modérément les libertés individuelles et économiques.
+- **Libertés :** Ils soutiennent modérément les libertés individuelles et économiques.
 
-* **Valeurs cardinales :** la modération, le compromis, l’adaptation, l’utilité publique.
+- **Valeurs cardinales :** la modération, le compromis, l’adaptation, l’utilité publique.
 
-* **Philosophie :** les centristes évitent les extrêmes et privilégient des solutions pragmatiques. Ils réfléchissent aux problèmes au cas par cas et non à partir de principes. La nature du centrisme consiste souvent à aborder un sujet en recherchant un équilibre pragmatique entre les points de vue.
+- **Philosophie :** les centristes évitent les extrêmes et privilégient des solutions pragmatiques. Ils réfléchissent aux problèmes au cas par cas et non à partir de principes. La nature du centrisme consiste souvent à aborder un sujet en recherchant un équilibre pragmatique entre les points de vue. Le pragmatisme est une philosophie politique qui privilégie l'adaptation aux contextes particuliers plutôt que l'application rigide de principes idéologiques. C'est une approche politique fondée sur la modération et le compromis. Cette pensée pragmatique est fondée sur l'idée que seuls les technocrates sont capables de prendre les bonnes décisions pour atteindre les meilleurs résultats socioéconomiques. 
 
-Le pragmatisme est une philosophie politique qui privilégie l'adaptation aux contextes particuliers plutôt que l'application rigide de principes idéologiques. C'est une approche politique fondée sur la modération et le compromis.
+- **Politique :** ils veulent allier contrôle gouvernemental et libre choix individuel pour une approche stable et modérée. C'est un dirigisme souple et adaptable aux cas particuliers. Dans cette gouvernance technocratique, les décisions politiques sont issues de la rationalité et de l'expertise plutôt que de l'idéologie ou du débat partisan.
 
-Cette pensée pragmatique est fondée sur l'idée que seuls les technocrates sont capables de prendre les bonnes décisions pour atteindre les meilleurs résultats socioéconomiques. 
-
-* **Politique :** ils veulent allier contrôle gouvernemental et libre choix individuel pour une approche stable et modérée. C'est un dirigisme souple et adaptable aux cas particuliers.
-
-Dans cette gouvernance technocratique, les décisions politiques sont issues de la rationalité et de l'expertise plutôt que de l'idéologie ou du débat partisan.
-* **Economie :** Les centristes acceptent les mécanismes de marché tout en reconnaissant la nécessité d'un contrôle et d'une réglementation appropriés par les experts. Ils prônent une économie de marché encadrée, où la concurrence s'exerce dans un cadre réglementaire protégeant l'intérêt général.
+- **Economie :** Les centristes acceptent les mécanismes de marché tout en reconnaissant la nécessité d'un contrôle et d'une réglementation appropriés par les experts. Ils prônent une économie de marché encadrée, où la concurrence s'exerce dans un cadre réglementaire protégeant l'intérêt général.
 
 Le centrisme reconnaît également l'importance de programmes sociaux ciblés pour corriger les inégalités sans pour autant créer une dépendance excessive à l'État. Ce système de redistribution des richesses vise moins l'égalitarisme dogmatique que la paix sociale et le "vivre-ensemble".
 
 **Types de centristes :** les centristes peuvent pencher vers le socialisme, le conservatisme, le libertarianisme ou l’autoritarisme, non par principe mais par pragmatisme ou opportunisme politique.
-* **Emmanuel Macron (France) :** son positionnement se veut et de droite et de gauche . avec des réformes économiques libérales (droite économique) et un soutien à certaines libertés sociétales (gauche sociale), cherchant une voie médiane.
-
-* **Tony Blair (UK) :** avec son concept de "Third Way" (Troisième Voie). il a cherché à concilier des politiques de marché avec des objectifs de justice sociale, se démarquant des socialistes traditionnels et des conservateurs.
+- **Emmanuel Macron (France) :** son positionnement se veut et de droite et de gauche . avec des réformes économiques libérales (droite économique) et un soutien à certaines libertés sociétales (gauche sociale), cherchant une voie médiane.
+- **Tony Blair (UK) :** avec son concept de "Third Way" (Troisième Voie). il a cherché à concilier des politiques de marché avec des objectifs de justice sociale, se démarquant des socialistes traditionnels et des conservateurs.
 
 Sur un plan économique le keynésianisme est une théorie économique qui prône l'intervention active des gouvernements pour stabiliser l'économie.
 
@@ -467,12 +463,10 @@ Il est important de noter ici que le terme totalitarisme fait référence à un 
 
 ![regimes totalitaires Graphique](./assets/fr/019.webp)
 
-* **Libertés :** les régimes totalitaires soutiennent un contrôle gouvernemental très fort sur la vie personnelle et économique. Il y a totalitarisme quand l’Etat dirige tout dans la société et dispose d’un pouvoir sans limite.
-* **Philosophie :** les totalitaire pensent que l'autorité centralisée est seule à même de garantir l'ordre et l'équité, tandis que la liberté est facteur de désordre. Ils veulent que l'État contrôle tous les aspects de la vie économique et personnelle car ils croient qu'un tel contrôle est plus susceptible de donner naissance à une société idéale. Ce sont des régimes révolutionnaires qui justifient la violence au motif que le système existant avant était entièrement mauvais et qu’il faut instaurer un nouveau modèle par la table rase. Ils ne peuvent tolérer une diversité excessive d’opinions ou toute expression qui remet en question leur autorité. 
-
-* **Politique :** le totalitarisme désigne un système de parti unique. Selon Hannah Arendt, le totalitarisme n'est pas une famille politique, ni un régime politique despotique. C'est une négation même de la politique : un système dans lequel les hommes sont rendus incapables d'agir de façon indépendante. Selon elle, le but de l’éduction totalitaire n’a jamais été d’inculquer des convictions mais de détruire la faculté d’en former aucune autre (The Origins of Totalitarianism, 1951). En effet, les sociétés totalitaires se distinguent par l'usage d'une idéologie, la promesse d'un *paradis*, comme la fin de l'histoire ou la pureté de la race. Par conséquent elles éliminent toute forme d’opposition grâce à la police politique et l’usage de la terreur. 
-
-* **Economie :** les régimes totalitaires peuvent tolérer l'entreprise privée si elle est contrainte de servir les intérêts de l'État, ou exiger que l'État contrôle tous les moyens de production. Ils considèrent le marché libre comme une menace pour l'ordre général, car les sociétés idéales doivent être planifiées par les autorités.
+- **Libertés :** les régimes totalitaires soutiennent un contrôle gouvernemental très fort sur la vie personnelle et économique. Il y a totalitarisme quand l’Etat dirige tout dans la société et dispose d’un pouvoir sans limite.
+- **Philosophie :** les totalitaire pensent que l'autorité centralisée est seule à même de garantir l'ordre et l'équité, tandis que la liberté est facteur de désordre. Ils veulent que l'État contrôle tous les aspects de la vie économique et personnelle car ils croient qu'un tel contrôle est plus susceptible de donner naissance à une société idéale. Ce sont des régimes révolutionnaires qui justifient la violence au motif que le système existant avant était entièrement mauvais et qu’il faut instaurer un nouveau modèle par la table rase. Ils ne peuvent tolérer une diversité excessive d’opinions ou toute expression qui remet en question leur autorité. 
+- **Politique :** le totalitarisme désigne un système de parti unique. Selon Hannah Arendt, le totalitarisme n'est pas une famille politique, ni un régime politique despotique. C'est une négation même de la politique : un système dans lequel les hommes sont rendus incapables d'agir de façon indépendante. Selon elle, le but de l’éduction totalitaire n’a jamais été d’inculquer des convictions mais de détruire la faculté d’en former aucune autre (The Origins of Totalitarianism, 1951). En effet, les sociétés totalitaires se distinguent par l'usage d'une idéologie, la promesse d'un *paradis*, comme la fin de l'histoire ou la pureté de la race. Par conséquent elles éliminent toute forme d’opposition grâce à la police politique et l’usage de la terreur. 
+- **Economie :** les régimes totalitaires peuvent tolérer l'entreprise privée si elle est contrainte de servir les intérêts de l'État, ou exiger que l'État contrôle tous les moyens de production. Ils considèrent le marché libre comme une menace pour l'ordre général, car les sociétés idéales doivent être planifiées par les autorités.
 
 **Types de régimes totalitaires :** il existe deux catégories générales, les totalitaires de gauche (communisme, national-socialisme), les totalitaires de droite (dictatures militaires, fascisme). Mais ces catégories perdent leur sens si l’on comprend que la matrice est la même. C’est le cas d’Hitler et de Staline. Malgré leur antagonisme historique, on trouve le même culte du chef, l’embrigadement de la jeunesse, la censure, la surveillance, la répression de toute opposition, la persécution politique et l’écrasement de toute liberté individuelle.
 
@@ -497,55 +491,58 @@ Les questions sociétales ne concernent pas l'argent, mais les choix relatifs à
 ### Le mariage
 **Question :** le gouvernement doit-il légaliser le mariage gay au même titre que le mariage traditionnel ?
 
-* **Socialistes :** Oui. Ils voient une majorité hétérosexuelle opprimer une minorité homosexuelle en leur refusant le mariage et donc soutiennent naturellement la réforme. Les socialistes veulent imposer une conception unique du mariage civil, incluant l'homosexualité, au détriment de ceux qui considèrent le mariage comme étant uniquement entre un homme et une femme. Légaliser le mariage gay est donc un acte de justice sociale qui favorise une société plus inclusive et tolérante. Cela assure aux couples homosexuels les mêmes droits légaux (héritage, fiscalité, filiation, etc.) et les mêmes protections que les couples hétérosexuels, comblant ainsi une inégalité de fait. Le cœur de l'argument réside dans la conviction que tous les citoyens doivent être traités de manière égale par la loi, sans distinction d'orientation sexuelle. Refuser le mariage aux couples de même sexe est perçu comme une discrimination inacceptable.
+- **Socialistes :** Oui. Ils voient une majorité hétérosexuelle opprimer une minorité homosexuelle en leur refusant le mariage et donc soutiennent naturellement la réforme. Les socialistes veulent imposer une conception unique du mariage civil, incluant l'homosexualité, au détriment de ceux qui considèrent le mariage comme étant uniquement entre un homme et une femme. Légaliser le mariage gay est donc un acte de justice sociale qui favorise une société plus inclusive et tolérante. Cela assure aux couples homosexuels les mêmes droits légaux (héritage, fiscalité, filiation, etc.) et les mêmes protections que les couples hétérosexuels, comblant ainsi une inégalité de fait. Le cœur de l'argument réside dans la conviction que tous les citoyens doivent être traités de manière égale par la loi, sans distinction d'orientation sexuelle. Refuser le mariage aux couples de même sexe est perçu comme une discrimination inacceptable.
 
-* **Conservateurs :** Non. Ils voient dans le mariage traditionnel une institution fondamentale de la civilisation occidentale qui remonte à 2500 ans et historiquement définie comme l'union entre un homme et une femme. Cette définition n'est pas arbitraire mais repose sur des fondements biologiques (la capacité à procréer naturellement) et culturels/religieux. Une redéfinition radicale du mariage est perçue comme une menace pour la société civilisée. Légaliser le mariage gay serait dénaturer ou redéfinir cette institution sacrée et fondamentale, la vidant de son sens originel et de sa vocation principale, qui est la procréation et la fondation d'une famille dans sa forme naturelle. Le changement rapide des normes sociales est souvent perçu avec méfiance, car il peut conduire à une dissolution des repères et à une perte de l'identité culturelle ou nationale. Le mariage est vu comme un pilier de cet ordre.
-* **Libertariens :** Oui et non. L’approche libertarienne cohérente consiste à défendre la privatisation du mariage, c'est-à-dire un mariage entièrement libéré de l'intervention de l'État. Le mariage est une institution qui ne relève pas de l’État et ce dernier n’a pas à forcer les autres à reconnaître le mariage traditionnel ou le mariage gay. La solution ? Se débarrasser du mariage civil obligatoire et laisser ce rôle aux associations privées : les églises, les synagogues, les mosquées ou les organisations privées laïques. Cette solution politique, qui respecte le droit de propriété et la liberté individuelle, pourrait s’appeler la séparation du mariage et de l’État.
-* **Centristes :** Oui. Les centristes reconnaîtraient que la société a évolué et qu'une partie significative de la population souhaite la reconnaissance des couples de même sexe. Ils adhèrent au principe de non-discrimination et estiment que les individus ont le droit de mener la vie qu'ils choisissent, y compris de s'unir légalement. Ils seraient sensibles à l'argument selon lequel les couples homosexuels devraient bénéficier des mêmes droits et protections légales (héritage, protection sociale, fiscalité) que les couples hétérosexuels. Pour les centristes, l’Etat doit refléter la diversité de ses citoyens et la modernisation du droit tout en maintenant une certaine cohésion sociale.
+- **Conservateurs :** Non. Ils voient dans le mariage traditionnel une institution fondamentale de la civilisation occidentale qui remonte à 2500 ans et historiquement définie comme l'union entre un homme et une femme. Cette définition n'est pas arbitraire mais repose sur des fondements biologiques (la capacité à procréer naturellement) et culturels/religieux. Une redéfinition radicale du mariage est perçue comme une menace pour la société civilisée. Légaliser le mariage gay serait dénaturer ou redéfinir cette institution sacrée et fondamentale, la vidant de son sens originel et de sa vocation principale, qui est la procréation et la fondation d'une famille dans sa forme naturelle. Le changement rapide des normes sociales est souvent perçu avec méfiance, car il peut conduire à une dissolution des repères et à une perte de l'identité culturelle ou nationale. Le mariage est vu comme un pilier de cet ordre.
+
+- **Libertariens :** Oui et non. L’approche libertarienne cohérente consiste à défendre la privatisation du mariage, c'est-à-dire un mariage entièrement libéré de l'intervention de l'État. Le mariage est une institution qui ne relève pas de l’État et ce dernier n’a pas à forcer les autres à reconnaître le mariage traditionnel ou le mariage gay. La solution ? Se débarrasser du mariage civil obligatoire et laisser ce rôle aux associations privées : les églises, les synagogues, les mosquées ou les organisations privées laïques. Cette solution politique, qui respecte le droit de propriété et la liberté individuelle, pourrait s’appeler la séparation du mariage et de l’État.
+
+- **Centristes :** Oui. Les centristes reconnaîtraient que la société a évolué et qu'une partie significative de la population souhaite la reconnaissance des couples de même sexe. Ils adhèrent au principe de non-discrimination et estiment que les individus ont le droit de mener la vie qu'ils choisissent, y compris de s'unir légalement. Ils seraient sensibles à l'argument selon lequel les couples homosexuels devraient bénéficier des mêmes droits et protections légales (héritage, protection sociale, fiscalité) que les couples hétérosexuels. Pour les centristes, l’Etat doit refléter la diversité de ses citoyens et la modernisation du droit tout en maintenant une certaine cohésion sociale.
 
 ### L’immigration
 **Question :** le gouvernement devrait-il ouvrir les frontières à tous et laisser entrer sans condition ceux qui veulent immigrer ?
 
-* **Socialistes :** Oui. Ils considèrent les immigrants illégaux comme un groupe d’opprimés et les natifs blancs, hostiles aux immigrants, comme leurs oppresseurs. De plus, les restrictions basées sur la nationalité ou la religion sont discriminatoires et contraires aux droits humains. L'État a le devoir d'accueillir les personnes dans le besoin et de promouvoir la diversité et l'intégration.
+- **Socialistes :** Oui. Ils considèrent les immigrants illégaux comme un groupe d’opprimés et les natifs blancs, hostiles aux immigrants, comme leurs oppresseurs. De plus, les restrictions basées sur la nationalité ou la religion sont discriminatoires et contraires aux droits humains. L'État a le devoir d'accueillir les personnes dans le besoin et de promouvoir la diversité et l'intégration.
 
-* **Conservateurs :** Non. L'État a le droit souverain de contrôler ses frontières et de choisir qui entre sur son territoire. Des restrictions peuvent être nécessaires pour protéger la sécurité nationale, l'identité culturelle ou la capacité d'intégration de la société. Ils craignent qu’en permettant l’immigration on détruise l’identité des nations et qu’on fragilise un peu plus le travail des citoyens les plus modestes. Le fait d’avoir des frontières et une population bien définie fait partie des valeurs civilisées.
+- **Conservateurs :** Non. L'État a le droit souverain de contrôler ses frontières et de choisir qui entre sur son territoire. Des restrictions peuvent être nécessaires pour protéger la sécurité nationale, l'identité culturelle ou la capacité d'intégration de la société. Ils craignent qu’en permettant l’immigration on détruise l’identité des nations et qu’on fragilise un peu plus le travail des citoyens les plus modestes. Le fait d’avoir des frontières et une population bien définie fait partie des valeurs civilisées.
 
-* **Libertariens :** Oui et non. Oui à l’immigration de marché et non à L'immigration d’Etat. Car dans un monde fortement étatisé, l’immigration est toujours subventionnée et crée un droit fâcheux sur le travail des autres, c’est-à-dire un faux droit, une forme de spoliation. Toutefois, du point de vue de l’axe liberté/coercition, une frontière ouverte donne à l’individu le choix de son gouvernement et la capacité de voter avec ses pieds. C’est pourquoi la meilleure politique d’immigration consisterait à désétatiser la société et à laisser les citoyens décider. 
-* **Centristes :** Le gouvernement doit gérer l'immigration de manière équilibrée. Si les restrictions basées sur la religion sont généralement inacceptables, celles basées sur la nationalité ou les compétences peuvent être nécessaires pour répondre aux besoins économiques et garantir une intégration réussie, tout en respectant les conventions internationales et les droits humains.
+- **Libertariens :** Oui et non. Oui à l’immigration de marché et non à L'immigration d’Etat. Car dans un monde fortement étatisé, l’immigration est toujours subventionnée et crée un droit fâcheux sur le travail des autres, c’est-à-dire un faux droit, une forme de spoliation. Toutefois, du point de vue de l’axe liberté/coercition, une frontière ouverte donne à l’individu le choix de son gouvernement et la capacité de voter avec ses pieds. C’est pourquoi la meilleure politique d’immigration consisterait à désétatiser la société et à laisser les citoyens décider. 
+
+- **Centristes :** Le gouvernement doit gérer l'immigration de manière équilibrée. Si les restrictions basées sur la religion sont généralement inacceptables, celles basées sur la nationalité ou les compétences peuvent être nécessaires pour répondre aux besoins économiques et garantir une intégration réussie, tout en respectant les conventions internationales et les droits humains.
 
 ### Les armes à feu
 
 **Question :** les citoyens respectueux des lois devraient-ils pouvoir posséder des armes à feu sans réglementation stricte ?
 
-* **Socialistes :** Non. La sécurité publique doit primer sur la liberté de possession d'armes. Une réglementation stricte est nécessaire pour réduire la violence et garantir la sécurité de tous, car l'État a le devoir de protéger ses citoyens.
+- **Socialistes :** Non. La sécurité publique doit primer sur la liberté de possession d'armes. Une réglementation stricte est nécessaire pour réduire la violence et garantir la sécurité de tous, car l'État a le devoir de protéger ses citoyens.
 
-* **Conservateurs :** En partie oui, le droit de posséder une arme pour se défendre est une valeur importante. Cependant, une réglementation pour garantir la sécurité et l'ordre public est également nécessaire, mais elle doit respecter ce droit fondamental.
+- **Conservateurs :** En partie oui, le droit de posséder une arme pour se défendre est une valeur importante. Cependant, une réglementation pour garantir la sécurité et l'ordre public est également nécessaire, mais elle doit respecter ce droit fondamental.
 
-* **Libertariens :** Oui, le droit de s'armer est une composante essentielle du droit à l'auto-défense. L'État ne devrait pas avoir le monopole de la force et les individus devraient pouvoir se protéger sans entrave. Mais la réglementation du port d’armes doit être laissée au marché, aux professionnels et aux associations de citoyens.
+- **Libertariens :** Oui, le droit de s'armer est une composante essentielle du droit à l'auto-défense. L'État ne devrait pas avoir le monopole de la force et les individus devraient pouvoir se protéger sans entrave. Mais la réglementation du port d’armes doit être laissée au marché, aux professionnels et aux associations de citoyens.
 
-* **Centristes :** Non, une réglementation est indispensable. Si le droit de posséder des armes à feu peut exister pour certains usages, la sécurité publique et la réduction de la violence exigent des contrôles stricts (permis, antécédents, type d'armes) pour un équilibre entre liberté et ordre.
+- **Centristes :** Non, une réglementation est indispensable. Si le droit de posséder des armes à feu peut exister pour certains usages, la sécurité publique et la réduction de la violence exigent des contrôles stricts (permis, antécédents, type d'armes) pour un équilibre entre liberté et ordre.
 
 ### Les drogues
 
 **Question :** les adultes devraient-être autorisés à consommer librement des drogues à des fins récréatives ?
 
-* **Socialistes : Oui.** La pénalisation est inefficace. La légalisation permet de contrôler et générer des revenus.
-* **Conservateurs : Non.** La consommation est nuisible à la santé et à l'ordre social.
-* **Libertariens : Oui** à condition de désétatiser la société. L'État n'a pas à s'immiscer dans les décisions personnelles tant qu'elles ne nuisent pas directement à autrui.
-* **Centristes :** Débat complexe. Décriminalisation possible mais régulation stricte impérative.
+- **Socialistes : Oui.** La pénalisation est inefficace. La légalisation permet de contrôler et générer des revenus.
+- **Conservateurs : Non.** La consommation est nuisible à la santé et à l'ordre social.
+- **Libertariens : Oui** à condition de désétatiser la société. L'État n'a pas à s'immiscer dans les décisions personnelles tant qu'elles ne nuisent pas directement à autrui.
+- **Centristes :** Débat complexe. Décriminalisation possible mais régulation stricte impérative.
 
 
 ### La santé
 
 **Question :** le gouvernement devrait-il taxer les boissons sucrées pour réduire l’obésité ?
 
-* **Socialistes :** Oui. Le problème de l’obésité, c’est le problème des industriels qui commercialisent des sodas. La taxe soda  est une proposition des socialistes pour lutter contre les fabricants ou les vendeurs de boissons sucrées accusés de faire du profit au détriment de la santé publique.
+- **Socialistes :** Oui. Le problème de l’obésité, c’est le problème des industriels qui commercialisent des sodas. La taxe soda  est une proposition des socialistes pour lutter contre les fabricants ou les vendeurs de boissons sucrées accusés de faire du profit au détriment de la santé publique.
 
-* **Conservateurs :** En principe oui. Le gouvernement a pour mission de veiller à la santé des citoyens. Mais les conservateurs ont en général une préférence pour des solutions basées sur la responsabilité personnelle et l'éducation. Imposer une taxe sur les boissons sucrées serait perçu comme une ingérence excessive du gouvernement dans les décisions personnelles des citoyens.
+- **Conservateurs :** En principe oui. Le gouvernement a pour mission de veiller à la santé des citoyens. Mais les conservateurs ont en général une préférence pour des solutions basées sur la responsabilité personnelle et l'éducation. Imposer une taxe sur les boissons sucrées serait perçu comme une ingérence excessive du gouvernement dans les décisions personnelles des citoyens.
 
-* **Libertariens :** Non. Un principe fondamental du libertarianisme est qu'il est injuste de protéger les gens d'eux-mêmes. Les citoyens sont des adultes, pas des enfants. Les tentatives d'imposer de meilleures habitudes de santé par des moyens coercitifs sont considérées comme coûteuses, inefficaces et finalement contre-productives. Le problème de l'obésité doit être traité par l'initiative privée.
+- **Libertariens :** Non. Un principe fondamental du libertarianisme est qu'il est injuste de protéger les gens d'eux-mêmes. Les citoyens sont des adultes, pas des enfants. Les tentatives d'imposer de meilleures habitudes de santé par des moyens coercitifs sont considérées comme coûteuses, inefficaces et finalement contre-productives. Le problème de l'obésité doit être traité par l'initiative privée.
 
-* **Centristes :** Oui. Ils seraient ouverts à l'idée d'une taxe si elle est prouvée efficace et si ses inconvénients sociaux et économiques peuvent être atténués. Ils la  verraient comme une partie d'une solution plus large et intégrée, plutôt qu'une mesure isolée.
+- **Centristes :** Oui. Ils seraient ouverts à l'idée d'une taxe si elle est prouvée efficace et si ses inconvénients sociaux et économiques peuvent être atténués. Ils la  verraient comme une partie d'une solution plus large et intégrée, plutôt qu'une mesure isolée.
 
 # Les questions économiques
 <partId>465e0e6b-17e9-4f07-9a41-b3e88af0e83f</partId>
@@ -561,57 +558,61 @@ Les questions économiques concernent l'argent, telles que l'emploi, l'achat et 
 
 **Question :** les impôts sur le revenu devraient-ils être réduits ou remplacés par des formes d’imposition plus simples et moins élevées ?
 
-* **Socialistes :** Non. Les impôts progressifs sur le revenu sont un outil fondamental de redistribution des richesses et de financement des services publics (santé, éducation, protection sociale). Ils sont essentiels pour la justice sociale.
-* **Conservateurs :** Oui. Des impôts plus bas incitent à l'investissement, à la création d'emplois et à la croissance économique. Ils favorisent l'initiative individuelle et réduisent le gaspillage de l'État. Les impôts doivent être justes et faibles.
+- **Socialistes :** Non. Les impôts progressifs sur le revenu sont un outil fondamental de redistribution des richesses et de financement des services publics (santé, éducation, protection sociale). Ils sont essentiels pour la justice sociale.
+- **Conservateurs :** Oui. Des impôts plus bas incitent à l'investissement, à la création d'emplois et à la croissance économique. Ils favorisent l'initiative individuelle et réduisent le gaspillage de l'État. Les impôts doivent être justes et faibles.
 
-* **Libertariens :** Oui. L'impôt est une forme de vol étatique et une entrave à la propriété privée. Il devrait être drastiquement réduit ou aboli au profit de la taxation volontaire ou de services entièrement privés.
+- **Libertariens :** Oui. L'impôt est une forme de vol étatique et une entrave à la propriété privée. Il devrait être drastiquement réduit ou aboli au profit de la taxation volontaire ou de services entièrement privés.
 
-* **Centristes :** Un système fiscal doit être équilibré. Une certaine progressivité est nécessaire pour la solidarité, mais des impôts trop élevés peuvent décourager l'investissement. L'objectif est un système qui finance les services essentiels sans étouffer l'économie.
+- **Centristes :** Un système fiscal doit être équilibré. Une certaine progressivité est nécessaire pour la solidarité, mais des impôts trop élevés peuvent décourager l'investissement. L'objectif est un système qui finance les services essentiels sans étouffer l'économie.
 
 ### Le salaire minimum
 
 **Question :** les lois sur le salaire minimum devraient-elles être abolies pour permettre une négociation libre entre employeurs et travailleurs ?
 
-* **Socialistes :** Non. Le salaire minimum est essentiel pour garantir une vie digne aux travailleurs, réduire les inégalités et lutter contre la pauvreté. C'est un outil de justice sociale qui protège les plus vulnérables.
+- **Socialistes :** Non. Le salaire minimum est essentiel pour garantir une vie digne aux travailleurs, réduire les inégalités et lutter contre la pauvreté. C'est un outil de justice sociale qui protège les plus vulnérables.
 
-* **Conservateurs :** En principe non, le marché doit jouer son rôle de régulateur. Cependant, un salaire minimum peut être tolérable s'il n'entrave pas excessivement la compétitivité des entreprises. L'important est la responsabilité individuelle et la création d'emplois plutôt que la dépendance aux aides.
-* **Libertariens :** Oui. Le salaire minimum est une intervention artificielle qui fausse le marché du travail, crée du chômage et viole la liberté contractuelle. C’est le marché qui doit déterminer les salaires par la négociation.
-* **Centristes : Non.** Non, le salaire minimum a un rôle social important. Il doit exister, mais son niveau doit être ajusté de manière pragmatique pour éviter de détruire des emplois, en tenant compte de la compétitivité des entreprises et du pouvoir d'achat des travailleurs.
+- **Conservateurs :** En principe non, le marché doit jouer son rôle de régulateur. Cependant, un salaire minimum peut être tolérable s'il n'entrave pas excessivement la compétitivité des entreprises. L'important est la responsabilité individuelle et la création d'emplois plutôt que la dépendance aux aides.
+
+- **Libertariens :** Oui. Le salaire minimum est une intervention artificielle qui fausse le marché du travail, crée du chômage et viole la liberté contractuelle. C’est le marché qui doit déterminer les salaires par la négociation.
+
+- **Centristes : Non.** Non, le salaire minimum a un rôle social important. Il doit exister, mais son niveau doit être ajusté de manière pragmatique pour éviter de détruire des emplois, en tenant compte de la compétitivité des entreprises et du pouvoir d'achat des travailleurs.
 
 ### Les soins de santé
 
 **Question :** les soins de santé devraient-ils être confiés aux marchés privés plutôt qu’à des programmes gouvernementaux ?
 
-* **Socialistes :** Non. L'accès aux soins de santé est un droit fondamental, pas une marchandise. L'État doit garantir un système de santé universel, financé publiquement, pour que chacun ait accès aux soins, indépendamment de ses revenus.
-* **Conservateurs :** En grande partie oui. Les marchés privés peuvent être plus efficaces et réduire la charge fiscale. L'État peut jouer un rôle minimal pour les plus démunis, mais la responsabilité individuelle et l'assurance privée sont préférables.
-* **Libertariens :** Oui. La santé est un service comme un autre. Le marché privé est plus efficace, innovant et offre plus de choix aux consommateurs. L'intervention gouvernementale mène à l'inefficacité et à la bureaucratie. Mais surtout, les individus ont le droit de choisir eux-mêmes s'ils veulent se retirer du système de sécurité sociale.
+- **Socialistes :** Non. L'accès aux soins de santé est un droit fondamental, pas une marchandise. L'État doit garantir un système de santé universel, financé publiquement, pour que chacun ait accès aux soins, indépendamment de ses revenus.
 
-* **Centristes :** Un système mixte est souvent la meilleure approche. L'État doit garantir un accès universel et solidaire (couverture de base), tout en laissant de la place au secteur privé pour la diversification de l'offre et l'innovation, afin d'optimiser l'efficacité et la qualité.
+- **Conservateurs :** En grande partie oui. Les marchés privés peuvent être plus efficaces et réduire la charge fiscale. L'État peut jouer un rôle minimal pour les plus démunis, mais la responsabilité individuelle et l'assurance privée sont préférables.
+
+- **Libertariens :** Oui. La santé est un service comme un autre. Le marché privé est plus efficace, innovant et offre plus de choix aux consommateurs. L'intervention gouvernementale mène à l'inefficacité et à la bureaucratie. Mais surtout, les individus ont le droit de choisir eux-mêmes s'ils veulent se retirer du système de sécurité sociale.
+
+- **Centristes :** Un système mixte est souvent la meilleure approche. L'État doit garantir un accès universel et solidaire (couverture de base), tout en laissant de la place au secteur privé pour la diversification de l'offre et l'innovation, afin d'optimiser l'efficacité et la qualité.
 
 ### L’environnement
 
 **Question :** les réglementations environnementales devraient-elles être limitées pour laisser les entreprises s’autoréguler ?
 
-* **Socialistes :** Non. L'État doit imposer des réglementations strictes pour protéger l'environnement et lutter contre le changement climatique. Le marché seul n'est pas capable de résoudre ces problèmes qui nécessitent une action collective et une planification. Les subventions sont considérées comme nécessaires pour assurer la transition écologique. De plus, le libre-échange international doit être régulé pour protéger l'environnement.
+- **Socialistes :** Non. L'État doit imposer des réglementations strictes pour protéger l'environnement et lutter contre le changement climatique. Le marché seul n'est pas capable de résoudre ces problèmes qui nécessitent une action collective et une planification. Les subventions sont considérées comme nécessaires pour assurer la transition écologique. De plus, le libre-échange international doit être régulé pour protéger l'environnement.
 
-* **Conservateurs :.** En principe oui, car la liberté d'entreprendre est importante. Cependant, un certain niveau de réglementation est nécessaire pour protéger l'environnement en tant que patrimoine et ressource, mais sans étouffer l'économie.
+- **Conservateurs :.** En principe oui, car la liberté d'entreprendre est importante. Cependant, un certain niveau de réglementation est nécessaire pour protéger l'environnement en tant que patrimoine et ressource, mais sans étouffer l'économie.
 
-* **Libertariens :** Oui. Les réglementations environnementales sont des entraves à la liberté économique et à la propriété. Ils estiment que la meilleure façon de protéger l'environnement est de le faire via la propriété privée et non par l'intermédiaire d'organisations bureaucratiques. Ils ajoutent que les propriétaires sont plus susceptibles de prendre soin de leurs biens, car ils ont un intérêt direct à en préserver la valeur. Les problèmes environnementaux peuvent être résolus par le marché, la responsabilité individuelle et les droits de propriété. Ainsi les pollueurs doivent être tenus responsables des dommages qu'ils causent à l'environnement. 
+- **Libertariens :** Oui. Les réglementations environnementales sont des entraves à la liberté économique et à la propriété. Ils estiment que la meilleure façon de protéger l'environnement est de le faire via la propriété privée et non par l'intermédiaire d'organisations bureaucratiques. Ils ajoutent que les propriétaires sont plus susceptibles de prendre soin de leurs biens, car ils ont un intérêt direct à en préserver la valeur. Les problèmes environnementaux peuvent être résolus par le marché, la responsabilité individuelle et les droits de propriété. Ainsi les pollueurs doivent être tenus responsables des dommages qu'ils causent à l'environnement. 
 
-* **Centristes :** Non, l'autorégulation est insuffisante. Des réglementations environnementales sont nécessaires pour la protection de la planète et de la santé publique. Elles doivent cependant être conçues de manière à ne pas pénaliser excessivement la compétitivité des entreprises et à favoriser l'innovation verte.
+- **Centristes :** Non, l'autorégulation est insuffisante. Des réglementations environnementales sont nécessaires pour la protection de la planète et de la santé publique. Elles doivent cependant être conçues de manière à ne pas pénaliser excessivement la compétitivité des entreprises et à favoriser l'innovation verte.
 
 
 ### Les subventions
 
 **Question :** les entreprises devraient-elles être privées de subventions et de plans de sauvetage ?
 
-* **Socialistes :** Non. Les subventions peuvent être nécessaires pour soutenir l'innovation, protéger l'emploi, développer des secteurs stratégiques ou assurer la transition écologique. L'État a un rôle d'acteur et de planificateur économique.
+- **Socialistes :** Non. Les subventions peuvent être nécessaires pour soutenir l'innovation, protéger l'emploi, développer des secteurs stratégiques ou assurer la transition écologique. L'État a un rôle d'acteur et de planificateur économique.
 
-* **Conservateurs :** En principe oui, pour favoriser la libre concurrence et la responsabilité individuelle des entreprises. Cependant, des exceptions peuvent être faites pour des industries stratégiques ou nationales qui sont vitales pour la sécurité ou l'emploi du pays.
+- **Conservateurs :** En principe oui, pour favoriser la libre concurrence et la responsabilité individuelle des entreprises. Cependant, des exceptions peuvent être faites pour des industries stratégiques ou nationales qui sont vitales pour la sécurité ou l'emploi du pays.
 
-* **Libertariens :** Oui. Les subventions et les renflouements faussent le marché, favorisent certaines entreprises au détriment d'autres, et créent une dépendance à l'État. Les entreprises qui échouent devraient faire faillite.
+- **Libertariens :** Oui. Les subventions et les renflouements faussent le marché, favorisent certaines entreprises au détriment d'autres, et créent une dépendance à l'État. Les entreprises qui échouent devraient faire faillite.
 
-* **Centristes :** En général oui, mais avec des exceptions. Les subventions doivent être ciblées et temporaires, justifiées par un intérêt général (innovation, transition écologique, secteurs stratégiques). Les renflouements ne devraient être envisagés qu'en cas de menace systémique majeure pour l'économie.
+- **Centristes :** En général oui, mais avec des exceptions. Les subventions doivent être ciblées et temporaires, justifiées par un intérêt général (innovation, transition écologique, secteurs stratégiques). Les renflouements ne devraient être envisagés qu'en cas de menace systémique majeure pour l'économie.
 
 
 # Les divergences philosophiques entre familles politiques
@@ -628,13 +629,13 @@ Si on compare entre elles les familles politiques, nous voyons apparaitre des ra
 
 Afin de dissiper ces confusions, nous allons exposer 3 conceptions de la liberté.
 
-1.  Pour les conservateurs, la liberté est une bonne chose mais trop de liberté crée du chaos, du désordre. Donc il faut limiter la liberté, l’encadrer.
+1. Pour les conservateurs, la liberté est une bonne chose mais trop de liberté crée du chaos, du désordre. Donc il faut limiter la liberté, l’encadrer.
 
 Ainsi la liberté n'est pas pour eux un principe fondamental, mais une question d'opportunité. Par exemple, un conservateur dénonçant des lois sanctionnant les propos homophobes ne sera pas nécessairement favorable à la légalisation des drogues ou à la suppression des subventions à la famille.
 
-2.  Les socialistes peuvent également militer pour l'introduction de telle ou telle liberté de manière ponctuelle, opportuniste et sélective. Mais il ne s’agit pas pour eux de l'application d'un principe général de décision. Ils peuvent ainsi chercher à obliger les individus à quitter leurs racines, tout comme les conservateurs veulent les obliger à y rester. 
+2. Les socialistes peuvent également militer pour l'introduction de telle ou telle liberté de manière ponctuelle, opportuniste et sélective. Mais il ne s’agit pas pour eux de l'application d'un principe général de décision. Ils peuvent ainsi chercher à obliger les individus à quitter leurs racines, tout comme les conservateurs veulent les obliger à y rester. 
 
-3.   Pour les libertariens la liberté est un principe général de décision et d’action. Un libertarien est un défenseur radical de la liberté individuelle et du droit de propriété, cherchant à minimiser l'intervention de l'État et s'opposant à toute forme de constructivisme social imposé par l'État. Bien que la puissance du principe de liberté puisse varier entre les anarcho-capitalistes (qui refusent toute entorse) et les libéraux classiques (qui ont un discours plus nuancé), le principe est toujours le même : privatiser tout ce qui peut l’être.
+3. Pour les libertariens la liberté est un principe général de décision et d’action. Un libertarien est un défenseur radical de la liberté individuelle et du droit de propriété, cherchant à minimiser l'intervention de l'État et s'opposant à toute forme de constructivisme social imposé par l'État. Bien que la puissance du principe de liberté puisse varier entre les anarcho-capitalistes (qui refusent toute entorse) et les libéraux classiques (qui ont un discours plus nuancé), le principe est toujours le même : privatiser tout ce qui peut l’être.
 
 Cette opposition entre familles politiques, se trouvait déjà – avec des mots différents – dans l’ouvrage de Gustave Molinari, Les Soirées de la rue Saint Lazare. Ce livre, publié en 1849, par un disciple de Frédéric Bastiat, met en scène trois personnages : le socialiste, le conservateur et l’économiste. Le personnage appelé économiste est en réalité un libéral, au sens classique, on dirait aujourd’hui un libertarien.
 
@@ -664,7 +665,10 @@ En effet, règles, institutions, pratiques et autres phénomènes sociaux, ne r�
 Les langues, par exemple ou les coutumes, sont des choses créées par l'homme. Mais aucune d'entre elle n’a été conçue par un être humain. Elles ont toutes émergé de manière non planifiée. Il en va de même pour les monnaies anciennes, comme les monnaies métalliques ou pour une nouvelle monnaie comme Bitcoin. Ce sont des *innovations sans permission* qui ont été élues par le marché.
 
 **La connaissance dispersée**
-> La connaissance n'existe jamais sous une forme concentrée ou intégrée, mais uniquement comme fragments dispersés de connaissances incomplètes et fréquemment contradictoires que possèdent tous les individus distincts. F.  Hayek, L’utilisation de la connaissance dans la société, 1945
+
+> La connaissance n'existe jamais sous une forme concentrée ou intégrée, mais uniquement comme fragments dispersés de connaissances incomplètes et fréquemment contradictoires que possèdent tous les individus distincts. 
+>
+>F. Hayek, L’utilisation de la connaissance dans la société, 1945
 
 Le marché est un outil de coopération car il permet de s’informer sur l’état réel des besoins et des compétences. C’est est une procédure de découverte d'informations et de mobilisation de connaissances dispersées sur la valeur et les besoins. En effet le marché est la rencontre des préférences individuelles conduisant à la formation des prix. Le système des prix est donc un mécanisme qui émerge spontanément des contrats pour coordonner les échanges. Ainsi les prix, quand ils sont librement débattus, sont le miroir la diversité des avis et des préférences des consommateurs.
 
@@ -681,7 +685,6 @@ Les constructivistes, centristes, conservateurs et socialistes se rejoignent don
 - Et par processus de marché, j’entends l’échange libre et volontaire comme mode d’interaction et mécanisme de coopération. 
 
 Philosophiquement, le libertarien pourra adhérer à certains objectifs des conservateurs et des socialistes, mais empiriquement il sera en désaccord avec leurs moyens. 
-
 Ainsi le libertarien sera d’accord avec les socialistes pour aider les travailleurs opprimés, mais il ne pensera pas que le salaire minimum puisse atteindre cet objectif, en tout cas pas un salaire minimum uniforme et imposé partout. 
 
 Ironiquement, alors que beaucoup de partisans du socialisme défendent l’égalité économique, l’histoire a montré que lorsque les pays tentent d’éradiquer le processus spontané de création de richesses associé aux marchés libres, ils créent le pire type d’inégalité possible : une société où les masses meurent de faim tandis que les planificateurs centraux vivent comme des rois. 
@@ -735,8 +738,8 @@ Selon Karl Popper, la société ouverte et la société close sont des concepts 
 Le totalitarisme est la forme politique que prend cette société close lorsqu'elle est mise en œuvre de manière radicale et moderne, en s'appuyant sur une idéologie de certitude et en utilisant des mécanismes de contrôle étatique (censure, propagande, culte du leader) pour imposer une stabilité forcée, au détriment des libertés individuelles et de la pensée critique. Son obsession c’est la perpétuation de son ordre hiérarchisé, et la soumission à ses traditions immuables, à ses croyances collectives. Dans ces sociétés, le contrôle social prend la forme d'une constante et étroite surveillance mutuelle tandis que l'individu n’existe pas en tant que tel, la communauté le surplombe et l'englobe tout entière.
 La différence principale entre les deux modèles de société réside dans l'attitude face à la connaissance, au changement et à l'organisation politique : 
 
-* La société ouverte est dynamique, critique et axée sur la liberté individuelle et la possibilité de réformer des normes.
-*	La société close est statique, dogmatique et totalitaire, cherchant la stabilité par le contrôle et le retour à un ordre passé, idéalisé.
+- La société ouverte est dynamique, critique et axée sur la liberté individuelle et la possibilité de réformer des normes.
+-	La société close est statique, dogmatique et totalitaire, cherchant la stabilité par le contrôle et le retour à un ordre passé, idéalisé.
 
 Cette opposition met en lumière l'incompatibilité fondamentale entre un modèle basé sur la liberté individuelle et la raison critique, et un autre fondé sur l'unité organique, l'irrationnel et la soumission collective.
 
@@ -766,23 +769,21 @@ Si Bitcoin en lui-même n’est ni de droite, ni de gauche, ni d’aucune religi
 
 A la lecture du White Paper de Satoshi Nakamoto, on voit que Bitcoin a été pensé pour offrir une protection novatrice face à deux menaces contemporaines majeures : la surveillance généralisée et l'accélération de la création monétaire artificielle.
 
-1° Bien que n'étant pas totalement anonyme, Bitcoin renforce considérablement la protection de la vie privée en limitant la surveillance financière des individus. Cette capacité permet, par exemple, à un dissident dans une dictature de détenir et d'échanger de la valeur en ligne sans craindre la confiscation ou la censure. Bien que cela puisse sembler lointain pour les citoyens des démocraties, il s'agit d'une avancée cruciale pour les libertés individuelles.
+1. Bien que n'étant pas totalement anonyme, Bitcoin renforce considérablement la protection de la vie privée en limitant la surveillance financière des individus. Cette capacité permet, par exemple, à un dissident dans une dictature de détenir et d'échanger de la valeur en ligne sans craindre la confiscation ou la censure. Bien que cela puisse sembler lointain pour les citoyens des démocraties, il s'agit d'une avancée cruciale pour les libertés individuelles.
 
-2° Bitcoin permet à chacun de protéger son épargne contre la spoliation de la propriété privée qu'incarne l'inflation monétaire. Il est une tentative de contester la mainmise de l'État sur la gestion de la monnaie en tant qu'instrument d'échange et donc de concurrencer l'État. La crise financière de 2008 et la pandémie de Covid 19 ont permis de mettre en évidence les failles du système actuel. Les milliers de milliards de dollars imprimés à partir de rien pour empêcher l’économie de s’effondrer davantage ont eu ensuite des effets dévastateurs, que nous payons encore.
+2. Bitcoin permet à chacun de protéger son épargne contre la spoliation de la propriété privée qu'incarne l'inflation monétaire. Il est une tentative de contester la mainmise de l'État sur la gestion de la monnaie en tant qu'instrument d'échange et donc de concurrencer l'État. La crise financière de 2008 et la pandémie de Covid 19 ont permis de mettre en évidence les failles du système actuel. Les milliers de milliards de dollars imprimés à partir de rien pour empêcher l’économie de s’effondrer davantage ont eu ensuite des effets dévastateurs, que nous payons encore.
 
 ![Bitcoin Counterflow Abstract](./assets/fr/021.webp)
 
 Ainsi Bitcoin est bien plus qu’une technologie financière, c’est un projet pour changer le monde, pour l'améliorer. C’est un projet politique ambitieux de redéfinition des rapports de pouvoir entre individus et institutions :
 
-> The root problem with conventional currency is all the trust that's required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust. — Satoshi Nakamoto
-
-Le problème fondamental des monnaies conventionnelles est toute la confiance qu'il faut accorder pour qu'elles fonctionnent. Il faut faire confiance à la banque centrale pour qu'elle ne dévalue pas la monnaie, mais l'histoire des monnaies fiduciaires est pleine de violations de cette confiance.
+> Le problème fondamental des monnaies conventionnelles est toute la confiance qu'il faut accorder pour qu'elles fonctionnent. Il faut faire confiance à la banque centrale pour qu'elle ne dévalue pas la monnaie, mais l'histoire des monnaies fiduciaires est pleine de violations de cette confiance.
 
 Cette citation de Satoshi Nakamoto est fondamentale pour comprendre la philosophie derrière Bitcoin. Satoshi met en lumière les failles du système Fiat basé sur la confiance envers les institutions centralisées et propose Bitcoin comme une alternative sans confiance (trustless).
 
 Le point de départ de la démarche intellectuelle de Satoshi Nakamoto, c'est donc la trop grande confiance des gens dans la monnaie fiat et la fausse croyance que l'Etat peut résoudre les crises. En effet, dans le premier bloc miné de l'histoire de Bitcoin, Satoshi Nakamoto a inséré une phrase symbolique issue d'un article paru à la Une du London Times : 
-**"The Times 03/Jan/2009 Chancellor on brink of second bailout for banks."**
-**Le Chancelier à l'aube d'un deuxième plan de sauvetage des banques.**
+
+> Le Times 03/Jan/2009 Chancelier à l'aube d'un deuxième plan de sauvetage des banques.
 
 ![Genesis Block Title](./assets/fr/022.webp)
 
@@ -825,9 +826,13 @@ La première liste de diffusion Cypherpunk, dont Satoshi faisait partie et où i
 
 Le Manifeste Cypherpunk, rédigé par Eric Hughes en 1993, résume bien leur philosophie :
 
-*La vie privée est essentielle à une société ouverte à l'ère de l'électronique (…) Nous ne pouvons pas attendre des gouvernements, des entreprises ou d'autres grandes organisations anonymes qu'ils nous garantissent la confidentialité (…) Mon objectif principal pour les Cypherpunks, est de faire en sorte que les gens défendent leur confidentialité, plutôt que de compter sur quelqu'un d'autre pour leur fournir .* Eric Hughes - Cypherpunk Mailinglist, le 23 mars 1993.
+> La vie privée est essentielle à une société ouverte à l'ère de l'électronique (…) Nous ne pouvons pas attendre des gouvernements, des entreprises ou d'autres grandes organisations anonymes qu'ils nous garantissent la confidentialité (…) Mon objectif principal pour les Cypherpunks, est de faire en sorte que les gens défendent leur confidentialité, plutôt que de compter sur quelqu'un d'autre pour leur fournir.
+>
+>Eric Hughes - Cypherpunk Mailinglist, le 23 mars 1993.
 
-Et il ajoute : *la confidentialité dans une société ouverte exige des systèmes de transactions anonymes. Jusqu'à présent, l'argent liquide a été le principal système de ce type .*
+Et il ajoute : 
+
+> la confidentialité dans une société ouverte exige des systèmes de transactions anonymes. Jusqu'à présent, l'argent liquide a été le principal système de ce type.
 
 C’est pourquoi la cryptographie sera utilisée comme un outil de résistance contre les formes de contrôle étatique et corporatif. Elle permet de s'assurer que chaque partie à une transaction n'ait connaissance que de ce qui est strictement nécessaire à cette transaction. 
 
@@ -836,7 +841,10 @@ Les cypherpunks croient en la puissance de la cryptographie pour créer des espa
 Ils prônent un modèle où la confiance est placée dans des systèmes cryptographiques décentralisés plutôt que dans des institutions centralisées, comme les banques, les corporations ou les gouvernements. 
 
 #### La méthode des cypherpunks
-*Les Cypherpunks écrivent du code* , proclame Éric Hughes en conclusion de son manifeste.
+
+> Les Cypherpunks écrivent du code
+
+proclame Éric Hughes en conclusion de son manifeste.
 
 Pour lui, le chemin passe par la construction active de systèmes anonymes qui rendent les divisions politiques arbitraires sans importance et inutiles. Le code est fondé sur l'application de la cryptographie pour transformer l'idée abstraite de la liberté en une nouvelle réalité économique et sociétale.
 
@@ -854,7 +862,7 @@ De ce point de vue, sans se revendiquer explicitement d'un camp politique, Bitco
 
 ![Politique Diagramme](./assets/fr/024.webp)
 
-## qui devrait décider ?
+## Qui devrait décider ?
 <chapterId>cfc7688e-d647-4af1-880d-c70d3ae7d823</chapterId>
 
 Dans ce cours, j’ai essayé de montrer que le véritable clivage n'est pas entre la gauche, la droite ou le centre, qui ont tous assumé un postulat étatiste. Finalement, on trouve dans toutes les familles politiques classiques une défiance commune envers le marché libre et un penchant pour l'interventionnisme étatique.

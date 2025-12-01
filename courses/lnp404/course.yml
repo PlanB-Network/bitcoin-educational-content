@@ -7,7 +7,8 @@ test_only: true
 
 professors_id:
   - 303993a1-6506-4c25-b0b6-6d3f0497859b
-published_at: 2025-10-10
+
+published_at: 2025-12-01
 contributor_names:
   - jramos0
 

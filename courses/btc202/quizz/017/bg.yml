@@ -5,5 +5,5 @@ wrong_answers:
   - Bitcoin-Miner и Bitcoin-Wallet
   - Bitcoin-core и Bitcoin-node
 explanation: |
-  От версия 0.5 ядрото на Bitcoin включва графичен Interface (Bitcoin-qt) и Interface с команден ред (bitcoind).
+  От версия 0.5 ядрото на Bitcoin включва графичен интерфейс (Bitcoin-qt) и интерфейс с команден ред (bitcoind).
 reviewed: true

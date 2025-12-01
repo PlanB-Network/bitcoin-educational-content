@@ -34,7 +34,7 @@ Kuten [Mempool Space](https://Mempool.space), joka tarjoaa hyödyllistä tietoa 
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 Tässä opetusohjelmassa tutustumme tähän alustaan, joka on tärkeä resurssi Lightning Network-käyttäjille, niille, jotka haluavat liittää solmunsa laajentaakseen verkkoa jne.
 
@@ -304,4 +304,4 @@ Olet nyt tutustunut alustan ominaisuuksiin ja analyysityökaluihin. Alla on arti
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

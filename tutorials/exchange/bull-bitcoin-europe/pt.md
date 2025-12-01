@@ -196,6 +196,14 @@ Para acompanhar todas as suas transacções, pode consultar o histórico no menu
 
 ![BULL](assets/fr/36.webp)
 
+## Iniciar uma compra recorrente automática (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Criar uma ordem limite
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Agora você sabe como comprar e vender bitcoin facilmente com o Bull Bitcoin. Se você achou este tutorial útil, eu ficaria muito grato se você colocasse um polegar verde abaixo. Sinta-se à vontade para partilhar este artigo nas suas redes sociais. Muito obrigado!
 
 Também recomendo que consulte este outro tutorial completo para saber como gerir a sua frase mnemónica da forma correta:

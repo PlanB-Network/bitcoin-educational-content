@@ -1,0 +1,10 @@
+question: Какво представлява Lightning Network?
+answer: Мрежа за незабавни плащания Bitcoin, базирана на блокчейна Bitcoin.
+wrong_answers:
+  - Отделна блокчейн мрежа от блокчейна на Bitcoin.
+  - Мрежа от миньори Bitcoin.
+  - Мрежа от обменни пунктове Bitcoin.
+explanation: |
+  Lightning Network е мрежа за незабавно плащане Bitcoin
+  която се основава на блокчейн Bitcoin.
+reviewed: true

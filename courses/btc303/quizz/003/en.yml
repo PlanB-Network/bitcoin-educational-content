@@ -6,3 +6,4 @@ wrong_answers:
   - The speed problem in online payments
 explanation: |
   Bitcoin's breakthrough was solving the double-spending problem without requiring a central authority. The double-spending problem is the challenge of preventing someone from spending the same digital coin twice. Previous digital currencies failed because they relied on central servers or trusted authorities, making them vulnerable to censorship and single points of failure. Bitcoin solved this through its peer-to-peer distributed timestamp server using proof-of-work, allowing the network to agree on transaction ordering without any central control.
+reviewed: false

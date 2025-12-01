@@ -1,11 +1,9 @@
-question: Czym jest Blockmit w kontekście bezpieczeństwa Bitcoin?
-answer: Niedrogie rozwiązanie do grawerowania frazy Mnemonic na kawałku stali.
+question: Czym jest Blockmit w kontekście bezpieczeństwa Bitcoina?
+answer: Niedrogie rozwiązanie do grawerowania frazy mnemonicznej na kawałku stali.
 wrong_answers:
-  - Rodzaj Bitcoin Wallet do podpisywania wielu transakcji jednocześnie.
+  - Rodzaj portfela Bitcoin do podpisywania wielu transakcji jednocześnie.
   - Tanie rozwiązanie do wydobywania bitcoinów w domu.
-  - Typ Bitcoin Wallet, który wymaga wielu podpisów, aby wydać UTXO.
+  - Typ portfela Bitcoin, który wymaga wielu podpisów, aby wydać UTXO.
 explanation: |
-  Blockmit to niedrogie rozwiązanie do grawerowania frazy Mnemonic na odpornym materiale, takim jak stal
-  Mnemonic na odpornym materiale, takim jak stal, a tym samym
-  zabezpieczając swoje bitcoiny w dłuższej perspektywie.
+  Blockmit to niedrogie rozwiązanie do grawerowania frazy mnemonicznej na odpornym materiale, takim jak stal, aby zabezpieczyć twoje bitcoiny w dłuższej perspektywie.
 reviewed: true

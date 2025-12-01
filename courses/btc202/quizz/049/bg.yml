@@ -1,0 +1,9 @@
+question: Каква е стойността по подразбиране на параметъра dbcache в Bitcoin Core?
+answer: 450 MiB
+wrong_answers:
+  - 128 MiB
+  - 1 GiB
+  - 4 GiB
+explanation: |
+  По подразбиране ядрото Bitcoin заделя 450 MiB (472 MB) за кеша.
+reviewed: true

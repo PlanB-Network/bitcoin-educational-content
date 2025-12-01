@@ -543,7 +543,7 @@ Whirlpool ile coinjoins gerçekleştirdikten sonra, karışık UTXO'larınız i�
 Bu anons setlerinin hesaplama mekanizmalarını daha iyi anlamak için makaleyi okumanızı tavsiye ederim: Bu endekslerin işleyişini detaylandıran REMIX - Whirlpool.
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

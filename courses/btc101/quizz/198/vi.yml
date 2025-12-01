@@ -5,5 +5,5 @@ wrong_answers:
   - Để ngăn chặn bitcoin của bạn bị đánh cắp.
   - Để đảm bảo bitcoin của bạn luôn sẵn có.
 explanation: >-
-  Văn bản đề cập rằng việc gộp các UTXO trong ví của bạn từ thời gian này sang thời gian khác là cần thiết để quản lý bitcoin của bạn một cách hiệu quả và tránh phí không cần thiết trong các giao dịch.
+  Khóa học đề cập rằng việc gộp các UTXO trong ví của bạn từ thời gian này sang thời gian khác là cần thiết để quản lý bitcoin của bạn một cách hiệu quả và tránh phí không cần thiết trong các giao dịch.
 reviewed: true

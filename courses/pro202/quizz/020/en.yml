@@ -1,0 +1,8 @@
+question: What mathematical problem provides the security foundation for ECDSA signatures in Bitcoin?
+answer: The elliptic curve discrete logarithm problem
+wrong_answers:
+  - The integer factorization problem
+  - The quadratic residue problem
+  - The hash collision problem
+explanation: |
+  ECDSA security relies on the elliptic curve discrete logarithm problem: given P = EG, computing P from E and G is easy, but deriving the private key E from the public key P is computationally infeasible. This one-way mathematical relationship enables secure public key cryptography with smaller key sizes than RSA, which depends on integer factorization.

@@ -138,6 +138,13 @@ Som med alle kursene på Plan ₿ Academy, inkluderer den siste delen en evaluer
 
 <isCourseReview>true</isCourseReview>
 
+## Final Exam
+
+<chapterId>91db243d-8479-4636-afa8-dd189b0d4c5e</chapterId>
+
+
+<isCourseExam>true</isCourseExam>
+
 
 ## Konklusjon
 

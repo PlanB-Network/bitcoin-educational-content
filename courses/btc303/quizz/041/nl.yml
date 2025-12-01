@@ -1,0 +1,9 @@
+question: Welke specifieke technische eigenschap creëerde de harde fork van Satoshi per ongeluk, waardoor toekomstige zachte fork upgrades mogelijk werden?
+answer: De Script-operatoren OP_NOP1 t/m OP_NOP10 opcodes
+wrong_answers:
+  - De BIP65 en BIP113 activeringsmechanismen voor miner signalering
+  - Het kader voor voorwaartse en achterwaartse compatibiliteit voor consensuswijzigingen
+  - Het door de gebruiker geactiveerde soft fork (UASF) activeringssysteem voor vlaggetjesdag
+explanation: |
+  Volgens Eric Lombrozo's analyse, creëerde Satoshi's harde fork (die slecht gecommuniceerd was en verborgen in een commit over makefile veranderingen) onbedoeld de OP_NOP1 tot en met OP_NOP10 opcodes. Deze 'no operation' codes waren ontworpen om niets te doen als ze uitgevoerd werden, maar ze boden plaatshouders die later opnieuw gebruikt konden worden voor nieuwe functionaliteit door middel van soft forks. Dit bleek een vooruitziende blik, want OP_NOP2 werd OP_CHECKLOCKTIMEVERIFY (BIP65) en OP_NOP3 werd OP_CHECKSEQUENCEVERIFY (BIP112). De andere opties zijn onjuist omdat BIP65 en BIP113 de upgrades waren die deze opcodes gebruikten in plaats van ze te creëren, het compatibiliteitskader een conceptuele benadering is in plaats van een technische functie en UASF veel later werd voorgesteld tijdens de Segwit controverse.
+reviewed: false

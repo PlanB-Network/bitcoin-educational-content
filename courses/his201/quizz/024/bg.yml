@@ -1,0 +1,9 @@
+question: Кой е човекът, който реагира положително на публикуването на бялата книга през ноември 2008 г.?
+answer: Hal Finney
+wrong_answers:
+  - Джеймс А. Доналд
+  - Джон Р. Ливайн
+  - Рей Дилинджър
+explanation: |
+  На 7 ноември той пише до списъка, че Bitcoin [изглежда] е много обещаваща идея. Останалите бяха по-скептични. (https: //www.metzdowd.com/pipermail/cryptography/2008-November/014827.html)
+reviewed: true

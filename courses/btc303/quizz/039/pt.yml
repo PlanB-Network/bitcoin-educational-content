@@ -1,0 +1,9 @@
+question: De acordo com o argumento de Shaolinfry a favor dos garfos Soft activados pelo utilizador (UASF), qual é o principal problema dos garfos activados pelos mineiros no que diz respeito à implementação de actualizações?
+answer: Uma pequena percentagem do hashrate pode vetar actualizações para todos, criando inércia nas actualizações
+wrong_answers:
+  - Os mineiros podem reverter as activações suaves do fork após a implementação através de consenso maioritário
+  - Os nós económicos perdem o controlo sobre as regras de validação quando os mineiros sinalizam a ativação
+  - As alterações Soft fork tornam-se permanentes e não podem ser modificadas quando os mineiros as activam
+explanation: |
+  Shaolinfry identificou que a sinalização dos mineiros cria um sistema de veto natural em que mesmo uma pequena percentagem de hashrate pode impedir a ativação de actualizações para toda a rede. Esta "inércia de atualização" torna-se mais problemática à medida que o mining se torna mais descentralizado, bloqueando potencialmente melhorias benéficas do protocolo. As outras opções deturpam a forma como os soft forks funcionam - os mineiros não podem reverter unilateralmente as activações, os nós económicos mantêm a autoridade de validação e os soft forks podem teoricamente ser modificados através de actualizações subsequentes.
+reviewed: false

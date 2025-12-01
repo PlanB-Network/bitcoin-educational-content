@@ -1,7 +1,7 @@
-question: 可以使用什么机制加载 UTXO 集的快照，使节点快速可用？
-answer: 臆想
+question: 用户可以使用什么机制加载 UTXO 集的快照，使节点快速可用？
+answer: assumeutxo
 wrong_answers:
-  - 假设州
+  - assumechainstate
   - txindex
   - notxindex
 explanation: |

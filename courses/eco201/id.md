@@ -1,21 +1,18 @@
 ---
-name: Pengantar Ekonomi Austria
-goal: Temukan sekolah pemikiran ekonomi Austria. Pelajari pandangan mereka tentang masyarakat dan realitas ekonomi makro/mikro.
+name: Dasar-dasar mazhab ekonomi Austria
+goal: Temukan ekonomi Austria sebagai kerangka alternatif untuk menganalisis pasar dan pengambilan keputusan individu
 objectives:
-  - Sebuah alternatif untuk Keynesianisme
-  - Pentingnya mata uang keras
-  - Mengapa dan bagaimana siklus ekonomi kita diciptakan?
-  - Mengapa para bankir sentral menjadi gila?
+- Menganalisis fungsi uang, kredit, dan sistem perbankan sentral
+- Menerapkan teori nilai subjektif dan preferensi waktu pada perilaku pasar
+- Memahami teori siklus bisnis Austria dan penyebabnya
+- Membandingkan metodologi Austria dengan pendekatan ekonomi arus utama
 ---
+# Perjalanan ke Ekonomi Austria
 
-# Sebuah perjalanan ke dalam ekonomi
+Pernahkah Anda bertanya-tanya mengapa beberapa ekonom berpikir berbeda tentang pasar, kebebasan, dan perilaku manusia? Ekonomi Austria menawarkan perspektif yang menyegarkan yang menempatkan Anda di jantung pemikiran ekonomi. Alih-alih matematika yang rumit dan model abstrak, pendekatan ini berfokus pada logika, pilihan manusia, dan bagaimana orang-orang nyata membuat keputusan dalam kehidupan sehari-hari mereka. Ini adalah ekonomi melalui lensa kebebasan, rasionalitas, dan tindakan pribadi.
 
-Selamat datang di kursus Théo Mogenet! Bersemangat tentang ekonomi, sejarah, sastra, ilmu politik, dan teknologi, ia telah memutuskan untuk berbagi pengetahuannya tentang ekonomi Austria dengan Anda. Cabang ini, yang kurang dikenal dalam ekonomi, didasarkan pada rasionalitas manusia dan perilaku aktor bebas. Kurang intensif dalam matematika, ini adalah pertanyaan logika dan studi sosial di atas segalanya.
-
-Sekolah pemikiran ini sudah memiliki beberapa abad di belakangnya dan memiliki panorama penulis, pemikiran, dan ekonom di belakangnya. Nama-nama besar dalam ekonomi seperti Hayek, Rothbard, Mises, Bastiat, atau Menger telah lama mempertahankan gerakan ini. Berbeda dengan Keynesianisme yang omnipresent di zaman kita, sekolah Austria menempatkan individu kembali di pusat persamaan dengan pendekatan yang lebih liberal, kapitalis, dan bahkan anarkis.
-
+Aliran pemikiran ini telah membentuk perdebatan selama berabad-abad, berkat pemikir berpengaruh seperti Hayek, Mises, dan Bastiat. Sementara ekonomi Keynesian arus utama mendominasi diskusi kebijakan saat ini, tradisi Austria mengajukan pertanyaan yang berbeda: Apa yang terjadi ketika kita memprioritaskan kebebasan individu? Bagaimana pasar bebas sebenarnya bekerja ketika orang bebas memilih? Jika Anda penasaran tentang cara alternatif berpikir tentang pasar, masyarakat, dan kebebasan, ini adalah kesempatan Anda untuk menjelajahi ide-ide yang tidak akan Anda temukan dalam buku teks standar.
 +++
-
 # Pendahuluan
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>

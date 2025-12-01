@@ -1,0 +1,9 @@
+question: Vilka är de två huvudsakliga sätten på vilka privat finansiell information kan läcka ut när Bitcoin används?
+answer: On-chain genom blockkedjeanalys och off-chain genom avlyssnad kommunikation
+wrong_answers:
+  - Genom programvarubuggar i wallet och dataintrång i mining-poolen
+  - Via hackning av börser och statliga övervakningsprogram
+  - Genom inlägg i sociala medier och offentliga transaktionsmeddelanden
+explanation: |
+  Enligt kapitlets innehåll kan privat data läcka på två primära sätt: on-chain och off-chain. Läckor i kedjan sker genom analys av den publika blockkedjan, där transaktionsmönster, återanvändning av adresser och klustring kan avslöja finansiell information. Läckor utanför kedjan sker när illvilliga aktörer avlyssnar internetkommunikation eller på andra sätt som inte har med blockkedjan att göra. Även om de felaktiga svaren nämner verkliga säkerhetsproblem i Bitcoin-ekosystemet, representerar de inte den grundläggande kategoriseringen av hur integritetsläckor uppstår som beskrivs i materialet.
+reviewed: false

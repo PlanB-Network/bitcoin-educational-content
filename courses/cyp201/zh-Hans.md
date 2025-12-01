@@ -1901,19 +1901,21 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 
 正是在*scriptPubKey*中找到接收地址。然而，它们的使用根据采用的脚本标准而有所不同。这里是一个根据使用的标准，*scriptPubKey*中包含的信息以及解锁*scriptPubKey*所需的*scriptSig*中期望的信息的总结表格。
 
-| 标准            | _scriptPubKey_                                              | _scriptSig_             | _赎回脚本_       | _见证_                       |
-| --------------- | ----------------------------------------------------------- | ----------------------- | ---------------- | ---------------------------- |
-| P2PK            | `<pubkey> OP_CHECKSIG`                                      | `<签名>`                |                  |                              |
-| P2PKH           | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<签名> <公钥>`         |                  |                              |
-| P2SH            | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<数据推送> <赎回脚本>` | 任意数据         |                              |
-| P2WPKH          | `0 <pubKeyHash>`                                            |                         |                  | `<签名> <公钥>`              |
-| P2WSH           | `0 <见证脚本哈希>`                                          |                         |                  | `<数据推送> <见证脚本>`      |
-| P2SH-P2WPKH     | `OP_HASH160 <赎回脚本哈希> OP_EQUAL`                        | `<赎回脚本>`            | `0 <pubKeyHash>` | `<签名> <公钥>`              |
-| P2SH-P2WSH      | `OP_HASH160 <赎回脚本哈希> OP_EQUAL`                        | `<赎回脚本>`            | `0 <脚本哈希>`   | `<数据推送> <见证脚本>`      |
-| P2TR (密钥路径) | `1 <公钥>`                                                  |                         |                  | `<签名>`                     |
-| P2TR (脚本路径) | `1 <公钥>`                                                  |                         |                  | `<数据推送> <脚本> <控制块>` |
 
-_来源：比特币核心PR审查俱乐部，2021年7月7日 - Gloria Zhao_
+
+| 标准             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| ------------------------ | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | 任意数据 | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_来源：2021年7月7日 Bitcoin Core PR 审查俱乐部 – Gloria Zhao_
 
 脚本中使用的操作码旨在操纵信息，并在必要时进行比较或测试。以P2PKH脚本为例，其格式如下：
 

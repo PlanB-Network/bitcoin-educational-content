@@ -464,7 +464,7 @@ We moeten dus ook kunnen omgaan met Blockchain analyse in ons gebruik van Bitcoi
 Wat is een betere manier om de analyse van Blockchain tegen te gaan dan te leren over de methodes die erin gebruikt worden? Als je wilt weten hoe je je privacy op Bitcoin kunt verbeteren, moet je deze methoden begrijpen. Dit geeft je een beter begrip van technieken zoals CoinJoin of PayJoin (technieken die we in de laatste delen van de cursus zullen bekijken), en vermindert de fouten die je zou kunnen maken.
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
@@ -2666,7 +2666,6 @@ Op dit moment is Whirlpool de enige CoinJoin implementatie die het Zerolink prot
 
 
 
-*In 2024 zijn we getuige van grote veranderingen in de gereedschappen die beschikbaar zijn voor gebruikers die coinjoins willen maken op Bitcoin. We staan momenteel op een keerpunt en de CoinJoin markt ondergaat een grote herstructurering. Dit hoofdstuk zal in de loop van de tijd zeker worden bijgewerkt*
 
 
 Op dit moment zijn er voornamelijk 3 verschillende CoinJoin implementaties op Bitcoin:
@@ -2678,6 +2677,10 @@ Op dit moment zijn er voornamelijk 3 verschillende CoinJoin implementaties op Bi
 - Wabisabi;
 - JoinMarket.
 
+
+Naast deze drie historische implementaties is er onlangs een nieuwe verschenen: Joinstr. Ik zal deze niet behandelen in dit hoofdstuk, maar u kunt alle bijbehorende informatie terugvinden in deze speciale handleiding:
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
 
 Elk van deze implementaties heeft als doel de geschiedenis van UTXO's te doorbreken via CoinJoin transacties. Hun mechanismen verschillen echter aanzienlijk. Het is daarom essentieel om te begrijpen hoe ze werken, zodat je de optie kunt kiezen die het beste bij je behoeften past.
 
@@ -2711,6 +2714,8 @@ Ondanks het innovatieve P2P koppelingsmodel voor coinjoiners, heeft JoinMarket e
 
 Tot slot, hoewel het JoinMarket concept interessant is, vooral voor degenen die geïnteresseerd zijn in een dynamische liquiditeitsmarkt, maken de structurele zwakheden en technische complexiteit het naar mijn mening minder interessant voor zowel beginners als experts die op zoek zijn naar een CoinJoin implementatie.
 
+
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
 
 ### Wabisabi
 
@@ -2778,6 +2783,10 @@ Nog verontrustender is het principe van filteren, dat in schril contrast staat m
 
 Zoals je inmiddels wel begrepen zult hebben, gaat mijn voorkeur absoluut uit naar het Whirlpool model voor coinjoins op Bitcoin. Dit systeem onderscheidt zich door zijn nauwkeurigheid en biedt superieure garanties voor vertrouwelijkheid. Het is ook het enige dat een mix biedt die in een wiskundige context als perfect wordt beschouwd. Naar mijn mening vertegenwoordigt dit model de toekomst van coinjoins op Bitcoin. Ik nodig je uit om dit model verder uit te diepen in het volgende hoofdstuk.
 
+
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
 
 ## Hoe Whirlpool werkt
 
@@ -3065,7 +3074,7 @@ Het is ook niet aan te raden om je postmix UTXOs naar een Wallet over te brengen
 Zoals bij elke Bitcoin-transactie, is het ook belangrijk om de ontvangende Address niet opnieuw te gebruiken. Elke nieuwe transactie moet worden ontvangen op een nieuwe, lege Address.
 
 
-De eenvoudigste en veiligste oplossing is om je gemengde UTXO's te laten rusten in hun **postmix** account, ze te laten remixen en ze alleen aan te raken om uit te geven. Samurai en Sparrow wallets bieden extra bescherming tegen al deze risico's van ketenanalyse. Deze beschermingen helpen je fouten te vermijden.
+De eenvoudigste en veiligste oplossing is om uw gemixte UTXO’s te laten rusten in hun **postmix**-account, ze verder te laten remixen en ze alleen aan te raken wanneer u ze uitgeeft. De Samourai-wallets (en nu ook Ashigaru) en Sparrow beschikken over extra bescherming tegen alle risico’s die verband houden met ketenanalyse. Deze beschermingen helpen u om fouten te vermijden.
 
 
 ### Hoe ga je om met giftige uitwisselingen?
@@ -3083,31 +3092,34 @@ Hier volgen enkele strategieën om ze te gebruiken:
 - **Markeer ze als "onbesteedbaar":** Een andere aanpak is om ze niet meer te gebruiken, ze te markeren als "onbesteedbaar" in hun speciale account en gewoon HODL te gebruiken. Dit zorgt ervoor dat je ze niet per ongeluk uitgeeft. Als de waarde van Bitcoin stijgt, kunnen er nieuwe pools ontstaan die geschikter zijn voor jouw giftige UTXO's;
 - **Donaties doen:** Overweeg donaties te doen, hoe bescheiden ook, aan ontwikkelaars die werken aan Bitcoin en gerelateerde software. Je kunt ook doneren aan verenigingen die BTC accepteren. Als het beheren van je giftige UTXO's te ingewikkeld lijkt, kun je ze gewoon weggooien en een donatie doen;
 - Koop **cadeaubonnen:** Met platforms zoals [Bitrefill](https://www.bitrefill.com/) kun je Exchange bitcoins inruilen voor cadeaubonnen die je bij verschillende winkels kunt gebruiken. Dit kan een manier zijn om afstand te doen van je giftige UTXO's zonder de bijbehorende waarde te verliezen;
-- Consolideer ze op **Monero**: Samourai Wallet biedt een atomic swap service tussen BTC en XMR. Dit is ideaal voor het beheren van giftige UTXO's door ze te consolideren op Monero, zonder je vertrouwelijkheid via CIOH in gevaar te brengen, voordat je ze terugstuurt naar Bitcoin. Deze optie kan echter duur zijn in termen van Mining vergoedingen en premie vanwege liquiditeitsbeperkingen;
+- **Ze consolideren via Monero:** Samourai Wallet bood vroeger een atomaire swapdienst aan tussen BTC en XMR, maar die is sinds hun arrestatie niet meer beschikbaar. Deze aanpak maakte het mogelijk om toxische UTXO’s te verwerken door ze op Monero te consolideren zonder uw privacy via CIOH in gevaar te brengen, waarna ze terug naar Bitcoin konden worden gestuurd. Als een gelijkwaardige dienst opnieuw verschijnt, kan dit een interessante optie zijn. Houd er echter rekening mee dat deze methode kostbaar kan worden, zowel door de miningkosten als door de premie die voortkomt uit liquiditeitsbeperkingen bij de omgekeerde conversie naar bitcoins.
 - Stuur ze naar de Lightning Network: Deze UTXO's naar de Lightning Network sturen om te profiteren van lagere transactiekosten kan een aantrekkelijke optie zijn. Deze methode kan echter bepaalde informatie onthullen, afhankelijk van hoe je Lightning gebruikt, en moet daarom met voorzichtigheid worden gebruikt.
 
 
 ### Hoe gebruik ik Whirlpool?
 
 
-Na de arrestatie van de oprichters van Samourai Wallet en de inbeslagname van hun servers op 24 april 2024, werkt de Whirlpool tool niet meer, zelfs niet voor degenen met een eigen Dojo. Voorheen was het beschikbaar op Samourai Wallet en Sparrow wallet.
+Na de arrestatie van de oprichters van Samourai Wallet en de inbeslagname van hun servers op 24 april 2024, is de Whirlpool-tool niet langer beschikbaar op Samourai Wallet en Sparrow Wallet.
 
 
 ![BTC204](assets/nl/155.webp)
 
 
-Het blijft echter mogelijk dat dit hulpmiddel in de komende weken opnieuw geactiveerd wordt, afhankelijk van de uitkomst van de proeven, of op een andere manier opnieuw gelanceerd wordt. In elk geval denk ik niet dat de Bitcoin CoinJoin markt lang zonder Supply zal zitten, want de vraag is er. Bovendien is het model van Whirlpool het meest geavanceerde op het gebied van vertrouwelijkheid, zodat het in de toekomst zeker het voorkeursmodel zal zijn voor andere implementaties.
 
 
-We houden deze zaak en de ontwikkelingen in de bijbehorende tools nauwlettend in de gaten. Wees gerust dat we deze training zullen bijwerken zodra er nieuwe informatie beschikbaar is.
 
+
+Voortaan is Whirlpool opnieuw toegankelijk via de mobiele applicatie Ashigaru, een fork van Samourai Wallet, dankzij de software Ashigaru Terminal.
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
+De kern van de werking van Whirlpool blijft ongewijzigd, maar er zijn toch enkele verschillen vergeleken met het gebruik op Samourai: in 2025 zijn op Ashigaru slechts twee pools beschikbaar, met bedragen van `0.25 BTC` en `0.025 BTC`, en respectieve instapkosten van `0.0125 BTC` en `0.00125 BTC`.
 
 In het volgende hoofdstuk zullen we ontdekken wat "anonsets" zijn, hoe deze indicatoren worden berekend en hoe ze ons kunnen helpen om de efficiëntie van CoinJoin cycli in te schatten.
 
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 
@@ -3539,7 +3551,7 @@ Na de arrestatie van de oprichters van Samourai zijn deze tools helaas niet meer
 Nu we coinjoins in detail hebben behandeld, kijken we naar de andere privacytechnieken die beschikbaar zijn op Bitcoin in het laatste deel van onze cursus. We zullen kijken naar payjoins, specifieke pseudo-CoinJoin transactietypen, statische Address protocollen en maatregelen om de vertrouwelijkheid te versterken, niet op het niveau van de transacties zelf, maar op het niveau van het netwerk van knooppunten.
 
 
-https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # De uitdagingen van andere geavanceerde vertrouwelijkheidstechnieken begrijpen
 
@@ -3665,8 +3677,11 @@ Bekende softwareprogramma's die PayJoin ondersteunen zijn Sparrow wallet, Wasabi
 ![BTC204](assets/nl/177.webp)
 
 
-De meest geavanceerde PayJoin implementatie was alleen Stowaway op Samourai Wallet. Echter, sinds de arrestatie van de oprichters van de software, is deze tool slechts gedeeltelijk functioneel. Het voordeel van Stowaway is dat het een uitgebreid, eenvoudig te gebruiken protocol is, dat zowel het ontvangen als het verzenden van payjoins ondersteunt. Gedeeltelijk ondertekende transacties kunnen handmatig worden uitgewisseld door verschillende QR-codes te scannen, of automatisch door Tor via Soroban. Deze laatste communicatieoptie is momenteel buiten gebruik.
 
+
+De meest geavanceerde payjoin-implementatie is ongetwijfeld Stowaway, uitgevonden door de ontwikkelaars van Samourai Wallet. Sinds de arrestatie van de software-oprichters werkt dit hulpmiddel slechts gedeeltelijk op Samourai. Maar het is opnieuw gelanceerd in de Ashigaru-applicatie.
+
+Het voordeel van Stowaway is dat het een volledig en zeer gebruiksvriendelijk protocol is dat zowel het ontvangen als het verzenden van payjoins ondersteunt. Gedeeltelijk ondertekende transacties kunnen handmatig worden uitgewisseld door meerdere QR-codes te scannen of automatisch via Tor met Soroban.
 
 ![BTC204](assets/nl/178.webp)
 
@@ -3679,7 +3694,7 @@ Een oplossing zou zijn om transactiestructuren te gebruiken die ambiguïteit int
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Betaling mini-CoinJoin
 
@@ -3845,13 +3860,12 @@ De logica moet als volgt zijn wanneer je een vertrouwelijkheidstool wilt gebruik
 ### Hoe gebruik ik Stonewall en Stonewall x2 transacties?
 
 
-Stonewall en Stonewall x2 transacties zijn beschikbaar op zowel de Samourai Wallet applicatie als de Sparrow wallet software.
+Stonewall-transacties zijn beschikbaar in Sparrow Wallet en ook in Ashigaru, terwijl Stonewall x2 voorlopig alleen wordt ondersteund door Ashigaru.
 
 
 ![BTC204](assets/nl/189.webp)
 
 
-Net als bij payjoins werken Stonewall x2-transacties na de arrestatie van de oprichters van Samourai nu echter alleen door handmatig PSBT's uit te wisselen tussen de betrokken partijen. Helaas is automatische Exchange via Soroban niet langer beschikbaar.
 
 
 Het is ook mogelijk om dit type transactie handmatig uit te voeren vanaf elke Bitcoin Wallet software.
@@ -3860,9 +3874,11 @@ Het is ook mogelijk om dit type transactie handmatig uit te voeren vanaf elke Bi
 In het volgende hoofdstuk kijken we naar een andere vertrouwelijkheidstechniek die relatief onbekend is, maar die erg nuttig is als aanvulling op wat we al bestudeerd hebben.
 
 
-https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/sparrow-stonewall-6fcfd679-7038-4ee2-8bf7-de76a72f9392
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## De ketsen
 
@@ -3942,18 +3958,18 @@ De meest voorkomende toepassing van ricochet is wanneer het nodig is om een eerd
 Deze methode is niet alleen effectief voor samenvoegingen, maar ook voor andere markeringen die de vervangbaarheid van een onderdeel in gevaar kunnen brengen.
 
 
-Het idee voor deze ricochet-methode kwam oorspronkelijk van de Samourai Wallet teams, die het in hun applicatie integreerden om het proces te automatiseren. De dienst is niet gratis op Samourai, omdat een ricochet 100.000 Sats kost, plus Mining kosten. Het gebruik wordt daarom aanbevolen voor overschrijvingen van aanzienlijke bedragen.
+Het idee achter deze ricochet-methode komt oorspronkelijk van de teams van Samourai Wallet, die deze in hun applicatie hadden geïntegreerd om de werking te automatiseren. De dienst was betaald op Samourai, aangezien een ricochet een vaste kost van 100.000 sats aan servicekosten met zich meebracht, bovenop de miningkosten. Hetzelfde geldt vandaag de dag op Ashigaru. Daarom wordt het gebruik ervan vooral aanbevolen voor overdrachten van grote bedragen.
 
 
 ![BTC204](assets/nl/196.webp)
 
 
-De Samurai-toepassing biedt twee ricochet-varianten:
+De Ashigaru-app biedt twee varianten van ricochet (dezelfde als die we eerder op Samourai hadden):
 
 
 
 
-- Versterkte ricochet, of "gespreide levering", die het voordeel biedt van het spreiden van de Samurai servicekosten over de vijf opeenvolgende transacties. Deze optie zorgt er ook voor dat elke transactie op een apart tijdstip wordt uitgezonden en in een ander blok wordt vastgelegd, waardoor het gedrag van een verandering van eigenaar zo goed mogelijk wordt nagebootst. Hoewel deze methode langzamer is, verdient ze de voorkeur voor mensen die geen haast hebben, omdat ze de efficiëntie van de ricochet maximaliseert door de weerstand tegen ketenanalyse te versterken;
+- De versterkte ricochet, of "gespreide levering", biedt het voordeel dat de Ashigaru-servicekosten over vijf opeenvolgende transacties worden verdeeld. Deze optie zorgt er tevens voor dat elke transactie op een ander moment wordt uitgezonden en in een ander blok wordt opgenomen, wat het gedrag van een eigendomsoverdracht zo nauwkeurig mogelijk nabootst. Hoewel het trager is, verdient deze methode de voorkeur voor wie geen haast heeft, omdat ze de doeltreffendheid van de ricochet maximaliseert door de weerstand tegen ketenanalyse te versterken;
 
 
 ![BTC204](assets/nl/197.webp)
@@ -3973,7 +3989,7 @@ Ricochetten betekent gewoon bitcoins naar jezelf sturen. Het is perfect mogelijk
 In het volgende hoofdstuk bekijken we verschillende technieken voor geheime overdrachten van Ownership. Deze methoden verschillen radicaal van de methoden die we tot nu toe hebben onderzocht, zowel wat betreft de werking als de resultaten.
 
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Geheime overdrachten van Ownership
 
@@ -4330,7 +4346,7 @@ Het doel van BIP47 is om het mogelijk te maken een groot aantal betalingen te on
 Een gebruiker kan zijn of haar betaalcode dus in alle vrijheid delen, op sociale netwerken of op zijn of haar website, zonder risico op verlies van vertrouwelijkheid, in tegenstelling tot een conventionele ontvanger Address of publieke sleutel.
 
 
-Om een transactie uit te voeren, hebben beide partijen een Bitcoin Wallet met een BIP47-implementatie nodig, zoals PayNym op Samurai Wallet of Sparrow wallet. Het gezamenlijke gebruik van hun betaalcodes creëert een geheim kanaal tussen hen. Om dit kanaal effectief tot stand te brengen, moet de uitgever een specifieke transactie uitvoeren op de Bitcoin Blockchain, bekend als een "kennisgevingstransactie" (waarover later meer).
+Om een transactie uit te voeren, moeten beide partijen een Bitcoin-wallet bezitten met een implementatie van BIP47, zoals PayNym op Ashigaru of Sparrow Wallet. Het gezamenlijk gebruik van hun betalingscodes creëert een geheime kanaal tussen hen. Om dit kanaal doeltreffend tot stand te brengen, moet de verzender een specifieke transactie uitvoeren op de Bitcoin-blockchain, bekend als de "kennisgevingstransactie" (de details zal ik u later geven).
 
 
 Het combineren van de betaalcodes van de twee gebruikers genereert gedeelde geheimen, die op hun beurt een groot aantal unieke Bitcoin ontvangstadressen creëren (precies 2^32, of ongeveer 4 miljard). Op deze manier worden betalingen via BIP47 niet geadresseerd aan de betaalcode zelf, maar aan klassieke ontvangstadressen die zijn afgeleid van de betaalcodes van de betrokken gebruikers.
@@ -4361,7 +4377,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 Deze code kan ook worden gecodeerd als een QR-code, om de communicatie te vergemakkelijken, net als een conventionele ontvangst Address.
 
 
-PayNym Bots, de robots die soms op Twitter te zien zijn, zijn visuele weergaven van de betalingscode, gemaakt door Samourai Wallet. Ze worden gegenereerd met een Hash functie, waardoor ze bijna uniek zijn. Ze hebben de vorm van een kleine tekenreeks die begint met `+` :
+Wat betreft de PayNym Bots – de robots die men soms ziet op X (Twitter) – het zijn visuele voorstellingen van de betalingscode, gecreëerd door Samourai Wallet. Met Ashigaru zijn ze nu enigszins anders, maar het principe blijft hetzelfde. Ze worden gegenereerd via een hashfunctie, wat hen een bijna-uniciteit verleent. Ze verschijnen als een kleine tekenreeks die begint met `+` :
 
 
 ```plaintext

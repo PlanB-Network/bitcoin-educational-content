@@ -6,4 +6,4 @@ wrong_answers:
   - Tous les routeurs
 explanation: |
   Dans IPv6, la fragmentation est assurée exclusivement par la machine source, jamais par les routeurs intermédiaires.
-reviewed: false
+reviewed: true 

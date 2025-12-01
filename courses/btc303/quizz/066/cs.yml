@@ -1,0 +1,9 @@
+question: Jakému hlavnímu bezpečnostnímu riziku čelí těžaři v kontextu mining bez validace, když odkládají plnou validaci bloků, aby se vyhnuli zastaralým blokům?
+answer: Riskují, že budou stavět na dočasně neplatném blockchainu a plýtvat výpočetním výkonem na řetězci, který bude nakonec odmítnut
+wrong_answers:
+  - Riskují, že síť odmítne jejich vlastní bloky kvůli neúplnému ověření předchozích transakcí
+  - Riskují trvalou ztrátu odměn mining, protože neplatnost mining je považována za porušení protokolu
+  - Hrozí riziko útoků typu double-spend, protože nemohou ověřit, zda jsou příchozí transakce legitimní
+explanation: |
+  Když těžaři praktikují bezvalidační mining, zkontrolují pouze proof-of-work v záhlaví bloku a okamžitě nad ním spustí mining, přičemž paralelně stahují a validují celý blok. Kritické riziko spočívá v tom, že mohou stavět na neplatném bloku, což znamená, že jejich výpočetní úsilí je promarněno na větvi blockchainu, která bude po objevení neplatného bloku odmítnuta. To podkopává bezpečnost sítě, protože část výkonu mining nepřispívá k nejsilnějšímu platnému řetězci, což je základní bezpečnostní mechanismus Bitcoin.
+reviewed: false

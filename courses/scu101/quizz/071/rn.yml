@@ -1,9 +1,9 @@
-question: Ni ikihe gikorwa ciza co gucunga ijambobanga ry’umucungerezi w’ijambobanga?
-answer: Uvyandike ku mpapuro, ubishire ahantu hatagira uwubibona.
+question: Ni ikihe gikorwa ciza co gucunga ijambo ry'ibanga ry'ibanze ry’ubutunganyirizo bw’ijambo ry'ibanga?
+answer: Uryandike ku rupapuro, urushire ahantu hiherereye kandi hafise umutekano.
 wrong_answers:
-  - Bibike muri email yawe.
-  - Koresha ijambobanga rimwe ku makonti yose.
-  - Bifate mu mutwe.
+  - Ribike muri email yawe.
+  - Koresha ijambo ry'ibanga rimwe ku makonti yose.
+  - Rifate mu mutwe.
 explanation: |
-  Ni vyiza ko ijambobanga ry’umucungerezi w’ijambobanga ryandikwa ku mpapuro rikabikwa ahantu hiherereye kandi hatagira umutekano. Nkako, iyo umuduga wa Hard ushizwemwo amakuru y’ibanga kandi mudasobwa ikaba ipfungiwe, ijambo banga ntirizoshobora gushikwako, mbere n’igihe umuntu yokwiba.
+  Ni vyiza kwandika ijambo banga ry’ibanze ku rupapuro, ariko rikwiye kubikwa ahantu hiherereye kandi hafise umutekano. Iyo amakuru ari kuri Hard drive anyegeje kandi inyabwonko ikaba yugaye, ijambo ry'banga ntiri zoshobora gushikwako, mbere n’igihe umuntu yibwe.
 reviewed: true

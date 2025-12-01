@@ -1,26 +1,18 @@
 ---
-name: Inleiding tot de Oostenrijkse economie
-goal: Ontdek de Oostenrijkse school van economisch denken. Bestudeer hun visie op de samenleving en macro-/micro-economische realiteiten.
-objectives: 
-
-  - Een alternatief voor Keynesianisme
-  - Het belang van Hard valuta
-  - Waarom en hoe ontstaan onze economische cycli?
-  - Waarom zijn centrale bankiers gek geworden?
-
+name: Grondbeginselen van de Oostenrijkse school voor economie
+goal: Ontdek de Oostenrijkse economie als een alternatief kader voor het analyseren van markten en individuele besluitvorming
+objectives:
+- Analyseer de functies van geld, krediet en centrale banksystemen
+- Pas de subjectieve waardetheorie en tijdsvoorkeur toe op marktgedrag
+- Begrijp de Oostenrijkse conjunctuurtheorie en de oorzaken ervan
+- Vergelijk de Oostenrijkse methodologie met mainstream economische benaderingen
 ---
+# Reis naar de Oostenrijkse economie
 
-# Een reis door de economie
+Heb je je ooit afgevraagd waarom sommige economen anders denken over markten, vrijheid en menselijk gedrag? De Oostenrijkse economie biedt een verfrissend perspectief dat jou centraal stelt in het economisch denken. In plaats van zware wiskunde en abstracte modellen, richt deze benadering zich op logica, menselijke keuzes en hoe echte mensen beslissingen nemen in hun dagelijks leven. Het is economie door de lens van vrijheid, rationaliteit en persoonlijke actie.
 
-
-Welkom bij de cursus van Théo Mogenet! Gepassioneerd door economie, geschiedenis, literatuur, politieke wetenschappen en technologie, heeft hij besloten om zijn kennis van de Oostenrijkse economie met jou te delen. Deze tak, die minder bekend is in de economie, is gebaseerd op de menselijke rationaliteit en het gedrag van vrije actoren. De wiskunde is minder intens, maar het is vooral een kwestie van logica en sociale studie.
-
-
-Deze denkschool heeft al enkele eeuwen achter zich en heeft een heel panorama aan auteurs, gedachten en economen achter zich. Grote namen in de economie zoals Hayek, Rothbard, Mises, Bastiat of Menger hebben deze stroming lang verdedigd. In tegenstelling tot het alomtegenwoordige Keynesianisme van tegenwoordig, plaatst de Oostenrijkse school het individu weer centraal met een meer liberale, kapitalistische en zelfs anarchistische benadering.
-
-
+Deze denkrichting heeft eeuwenlang debatten gevormd, dankzij invloedrijke denkers zoals Hayek, Mises en Bastiat. Terwijl de mainstream Keynesiaanse economie de beleidsdiscussies van vandaag domineert, stelt de Oostenrijkse traditie andere vragen: Wat gebeurt er wanneer we individuele vrijheid voorop stellen? Hoe werken vrije markten eigenlijk wanneer mensen vrij zijn om te kiezen? Als je nieuwsgierig bent naar alternatieve manieren om na te denken over markten, samenleving en vrijheid, is dit je kans om ideeën te verkennen die je niet in standaard studieboeken zult vinden.
 +++
-
 # Inleiding
 
 

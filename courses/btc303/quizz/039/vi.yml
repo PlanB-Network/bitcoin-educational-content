@@ -1,0 +1,9 @@
+question: Theo lập luận của Shaolinfry về UASF (User Activated Soft Fork), vấn đề chính với soft fork do thợ đào kích hoạt liên quan đến việc triển khai nâng cấp là gì?
+answer: Một tỷ lệ nhỏ hashrate có thể phủ quyết việc nâng cấp cho tất cả mọi người, tạo ra sự trì trệ trong việc nâng cấp
+wrong_answers:
+  - Người khai thác có thể đảo ngược các kích hoạt fork mềm sau khi triển khai thông qua sự đồng thuận đa số
+  - Các nút kinh tế mất quyền kiểm soát các quy tắc xác thực khi thợ đào phát tín hiệu kích hoạt
+  - Những thay đổi của Soft fork sẽ trở thành vĩnh viễn và không thể sửa đổi sau khi thợ đào kích hoạt chúng
+explanation: |
+  Shaolinfry nhận định rằng tín hiệu của thợ đào tạo ra một hệ thống phủ quyết tự nhiên, trong đó ngay cả một tỷ lệ nhỏ hashrate cũng có thể ngăn chặn việc kích hoạt nâng cấp cho toàn bộ mạng lưới. "Quán tính nâng cấp" này trở nên phức tạp hơn khi mining trở nên phi tập trung hơn, có khả năng ngăn chặn những cải tiến giao thức có lợi. Các lựa chọn khác mô tả sai lệch cách thức hoạt động của soft fork - thợ đào không thể đảo ngược việc kích hoạt một cách đơn phương, các nút kinh tế vẫn giữ nguyên thẩm quyền xác thực, và về mặt lý thuyết, soft fork có thể được sửa đổi thông qua các bản nâng cấp tiếp theo.
+reviewed: false

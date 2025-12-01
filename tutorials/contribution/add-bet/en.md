@@ -81,6 +81,8 @@ type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
   view:
+```
+
 - In my example, I will leave the links empty for now, as I will add my PDF directly on GitHub:
 ![event](assets/09.webp)
 - Once your modifications to this file are complete, save them by clicking on the `Commit changes...` button:

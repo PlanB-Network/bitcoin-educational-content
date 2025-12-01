@@ -1,21 +1,19 @@
 ---
-name: Hyperinflation Studies
+name: Hyperinflation Case Studies
 goal: Understanding the emergence of hyperinflations in a Fiat world and their consequences
 objectives:
-  - Study hyperinflation cycles
-  - Understand the real impacts of hyperinflation on our everyday lives
-  - Study the similarities of hyperinflations throughout time
-  - Have a concrete idea of how to protect oneself from hyperinflation
+- Study hyperinflation cycles
+- Understand the real impacts of hyperinflation on our everyday lives
+- Study the similarities of hyperinflations throughout time
+- Have a concrete idea of how to protect oneself from hyperinflation
 ---
+# A Journey Through Economic Collapse
 
-# A journey into the economy
+What does it look like when money loses its meaning? 
+This course guides you through the fascinating yet sobering world of hyperinflation. You will discover historical episodes and modern cases where currencies collapsed and economies transformed overnight. You'll uncover the patterns, causes, and real-world impact on everyday people, gaining insight into one of economics' most dramatic phenomena.
 
-This program aims to provide a deep understanding of the emergence of hyperinflations in a world dominated by Fiat currency and to examine their significant consequences. Participants will delve into hyperinflation cycles in detail, examining the causes, triggers, and providing historical and contemporary examples. They will also examine the tangible impact of hyperinflation on the economy and daily life, studying the repercussions on currency value, purchasing power, and individual and collective savings.
-
-Here, we will highlight trends and common patterns in episodes of hyperinflation throughout history, while providing effective and concrete strategies to protect oneself during periods of hyperinflation. Participants will have the opportunity to explore various investment options and financial defense mechanisms, acquiring practical tools and essential knowledge to navigate calmly in an unstable economic climate.
-
+Along the way, you'll also discover how individuals and communities have navigated these turbulent periods. Learn the strategies that have helped protect wealth during currency crises and build a deeper understanding of financial resilience. If you're curious about economic forces that shape our world, this journey offers both knowledge and practical perspective.
 +++
-
 # Introduction
 
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>

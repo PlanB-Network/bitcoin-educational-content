@@ -1,0 +1,9 @@
+question: Was war das spezifische Problem mit dem BIP66 Soft-fork, das Shaolinfry als Beweis gegen bergmännisch aktivierte Soft-Gabeln anführte?
+answer: 95 % der hashrate signalisierten Bereitschaft, aber etwa die Hälfte validierte die aktualisierten Regeln nicht und schürfte auf einem ungültigen Block
+wrong_answers:
+  - Die Miner weigerten sich, trotz der überwältigenden Nachfrage der Nutzer Unterstützung zu signalisieren, so dass das Upgrade auf unbestimmte Zeit ins Stocken geriet
+  - Ein kleiner Prozentsatz der Miner legte trotz der mehrheitlichen Unterstützung durch die Nutzer ein Veto gegen das Upgrade für das gesamte Netzwerk ein
+  - Das Upgrade führte zu einer dauerhaften Spaltung der Kette, da sich Miner und Nutzer über die Details der Implementierung uneinig waren
+explanation: |
+  Der BIP66-Vorfall offenbarte eine kritische Schwachstelle bei von Minern aktivierten Soft Forks: Die Signalisierung der Bereitschaft ist keine Garantie für eine tatsächliche Validierung. Obwohl 95 % der Miner angaben, dass sie für das Upgrade bereit waren, hat etwa die Hälfte die neuen Regeln nicht richtig validiert und fälschlicherweise auf einem ungültigen Block geschürft. Dies zeigte, dass die Signalisierung der Hash-Power irreführend sein kann und keine ordnungsgemäße Implementierung gewährleistet. Dies war eines der Hauptargumente von Shaolinfry, die benutzeraktivierte Soft-Gabelungen als zuverlässigeren Upgrade-Mechanismus vorschlug.
+reviewed: false

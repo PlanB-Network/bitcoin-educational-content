@@ -5,5 +5,5 @@ wrong_answers:
   - HTTP
   - SMTP
 explanation: |
-  El Protocolo de Internet (IP) asigna a cada dispositivo un Address único y permite encaminar los paquetes de datos.
-reviewed: false
+  El Protocolo de Internet (IP) asigna a cada dispositivo una dirección única y permite encaminar los paquetes de datos.
+reviewed: true

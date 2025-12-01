@@ -1,0 +1,27 @@
+id: b510340e-4f98-4ea2-9a26-3b0444d50a59
+
+project_id: 00cfb59f-0b30-4a37-ab08-f5cb65893f64
+
+tags:
+  - protocols
+  - lightning
+  - wallets
+
+category: mobile
+
+level: intermediate
+
+professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
+
+licence: CC-BY-SA-V4
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-11-20
+    urgency: 1
+    contributor_names:
+      - Pivii
+    reward: 2.78

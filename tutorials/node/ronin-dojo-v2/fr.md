@@ -360,7 +360,7 @@ Après avoir réalisé des coinjoins avec Whirlpool, il est utile d'évaluer pr�
 
 Pour approfondir votre compréhension des mécanismes de calcul de ces anonsets, je vous recommande la lecture de l'article : REMIX - WHIRLPOOL, qui détaille le fonctionnement de ces indices.
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

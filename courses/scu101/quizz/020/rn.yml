@@ -1,9 +1,9 @@
-question: Ni igiki gikingira virusi kiri muri Windows?
-answer: Uwukingira idirisha
+question: Porogarame ikingira umugera(nyabwonko) yubakiye muri Windows ni iyihe?
+answer: Windows Defender
 wrong_answers:
   - Kasperski
   - Norton
   - McAfee
 explanation: |
-  Windows Defender ni porogaramu yubatswe muri Windows. Ni umuti utekanye kandi ukora neza wo kurinda urutonde rw’ibintu bitera ubwoba.
+  Windows Defender ni porogarame yubakiye muri Windows. ni umuti udateye ikibazo kandi ukora neza mugukingira sisitem ivyoyihungabanya.
 reviewed: true

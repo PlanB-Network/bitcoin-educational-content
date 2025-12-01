@@ -6,3 +6,4 @@ wrong_answers:
   - To maintain backwards compatibility with older node versions that cannot handle emergency patches
 explanation: |
   The correct answer highlights a crucial paradox in security patching: the fix itself can expose the vulnerability. The chapter emphasizes that developers must carefully disguise patches because publishing them immediately might reveal the vulnerability to attackers before most nodes are protected. The wrong answers, while plausible, misrepresent the priorities: altcoin notification happens after Bitcoin network deployment, mining pool testing isn't the primary concern for non-critical issues, and backwards compatibility doesn't drive the timing of security patches.
+reviewed: false

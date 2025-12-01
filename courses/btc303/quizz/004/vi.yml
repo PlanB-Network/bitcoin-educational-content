@@ -1,0 +1,9 @@
+question: Theo sách trắng Bitcoin, Satoshi Nakamoto đề xuất giải pháp nào để giải quyết vấn đề double-spending?
+answer: Máy chủ dấu thời gian phân tán ngang hàng sử dụng bằng chứng tính toán về thứ tự giao dịch theo thời gian
+wrong_answers:
+  - Một máy chủ tập trung với các chữ ký ngưỡng từ nhiều cơ quan đáng tin cậy
+  - Một liên đoàn các máy chủ cố định trong đó đa số phải chấp thuận từng giao dịch
+  - Hệ thống chữ ký ẩn với bên trung tâm đáng tin cậy để ngăn chặn chi tiêu gấp đôi
+explanation: |
+  Satoshi Nakamoto đã đề xuất cụ thể việc sử dụng 'máy chủ dấu thời gian phân tán ngang hàng để generate tính toán bằng chứng về thứ tự thời gian của các giao dịch' như đã nêu trong sách trắng Bitcoin. Từ khóa ở đây là 'phân tán', nghĩa là không có điểm kiểm soát tập trung. Các câu trả lời sai đại diện cho những nỗ lực thất bại trước đây trong lĩnh vực tiền kỹ thuật số, vốn dựa trên các phương pháp tập trung hoặc bán tập trung, khiến chúng dễ bị kiểm duyệt và thất bại - chính xác là những vấn đề mà Bitcoin được thiết kế để giải quyết thông qua phi tập trung hóa thực sự.
+reviewed: false

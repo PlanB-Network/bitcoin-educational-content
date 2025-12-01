@@ -6,4 +6,4 @@ wrong_answers:
   - Sie verwenden unkomprimierte öffentliche Schlüssel
 explanation: |
   JBOK-Wallets zwingen den Benutzer dazu, jeden privaten Schlüssel einzeln zu sichern, was deren Verwaltung kompliziert.
-reviewed: false
+reviewed: true

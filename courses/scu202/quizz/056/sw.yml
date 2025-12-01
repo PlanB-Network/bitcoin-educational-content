@@ -6,4 +6,4 @@ wrong_answers:
   - Blink
 explanation: |
   WebKit ni Fork ya KHTML, iliyochaguliwa na Apple kwa Safari kuanzia 2003 na kuendelea, na ikapitishwa na vivinjari vingi.
-reviewed: false
+reviewed: true

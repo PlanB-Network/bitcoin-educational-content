@@ -1,13 +1,12 @@
-question: Ama cookies ni ayahe mu bijanye no gusura kuri Internet?
-answer: Dosiye zakozwe n’imbuga kugira ngo ubike amakuru ku gikoresho cawe.
+question: Ama kuki ni iki mu bijanye no kurondera kuri Interineti?
+answer: Dosiye ziremwa n’imbuga kugira ngo zibike amakuru ku gikoresho cawe.
 wrong_answers:
-  - Amakuru matomato yoherezwa avuye ku rubuga rw’urubuga maze akabikwa kuri mudasobwa y’uwukoresha n’umucukumbuzi w’urubuga rw’uwukoresha.
+  - Amakuru matomato yoherezwa avuye ku rubuga kndi akabikwa ku nyabwonko y’uwukoresha mucukumbuzi.
   - Porogarama zikurikirana ibikorwa vyawe vyo kuri Internet.
-  - Virusi zishobora gutera ingorane igikoresho cawe.
+  - Umugera(nyabwonko) ushobora konona igikoresho cawe.
 explanation: |
-  Mu bijanye no gushakisha kuri interineti, amakuru ni amadosiye
-  ryaremwe n’imbuga kugira ngo ubike amakuru ku gikoresho cawe.
-  Bikoreshwa mu kwibuka ivyo ukunda, kwinjira
-  amakuru, n'ayandi makuru kugira ngo utere imbere mu gushakisha
-  ubumenyi.
+  Mu bijanye no kurondera kuri interineti, ama kuki ni amadosiye
+  aremwa n’imbuga kugira abike amakuru ku gikoresho cawe. 
+  akoreshwa mu kwibuka ivyo ukunda, amakuru yawe yo kwinjira,
+  n'ayandi makuru kugira ngo ukurondera kwawe kuje kuyindi ntambwe.
 reviewed: true

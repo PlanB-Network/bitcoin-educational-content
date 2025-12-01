@@ -438,7 +438,7 @@ Enfin, bien que conçu pour la robustesse et la fiabilité, ce processus a aussi
 
 Afin de limiter ces risques liés au détournement du mécanisme de synchronisation des séquences et de maîtriser la charge réseau, le protocole TCP a recours à une technique de gestion du flux appelée "**méthode de la fenêtre glissante**" ("_Sliding Window_"). Ce système permet de réguler la quantité de données qui peuvent être envoyées sans nécessiter immédiatement d’accusé de réception pour chaque segment, ce qui réduit ainsi la surcharge inutile sur le réseau tout en maintenant une bonne fiabilité.
 
-Concrètement, la fenêtre glissante définit une plage de numéros de séquence autorisés à circuler librement entre l’émetteur et le récepteur sans que chaque segment individuel ne doive être accusé réception. À mesure que des accusés de réception parviennent au système émetteur, la fenêtre "glisse" : elle se décale vers la droite pour inclure de nouveaux segments à transmettre. La taille de cette fenêtre (importante pour optimiser le débit tout en évitant la congestion) est précisée dans le champ "*Window*" de l’en-tête TCP.
+Concrètement, la fenêtre glissante définit une plage de numéros de séquence autorisés à circuler librement entre l’émetteur et le récepteur sans que chaque segment individuel ne doive être accusé de réception. À mesure que des accusés de réception parviennent au système émetteur, la fenêtre "glisse" : elle se décale vers la droite pour inclure de nouveaux segments à transmettre. La taille de cette fenêtre (importante pour optimiser le débit tout en évitant la congestion) est précisée dans le champ "*Window*" de l’en-tête TCP.
 
 **Exemple** : si le numéro de séquence initial est 3 et que la fenêtre autorise jusqu’à la séquence 5, les segments compris entre 3 et 5 peuvent être envoyés sans attendre d’accusé de réception pour chacun.
 
@@ -713,7 +713,7 @@ Cette table ARP agit donc comme un mini-annuaire de correspondance, mis à jour 
 
 À l’inverse, le protocole RARP (_Reverse Address Resolution Protocol_) a été conçu pour résoudre la situation opposée : permettre à une machine qui ne connaît que son adresse MAC de découvrir son adresse IP. C’était notamment le cas pour les anciennes stations de travail sans disque dur local, qui devaient démarrer via le réseau et réclamer une adresse IP. Il a toutefois été rapidement supplanté par **BOOTP**, puis par **DHCP**, des solutions plus souples et automatisées.
 
-Ces protocoles d’association jouent un rôle important dans le routage. Un routeur est en réalité une machine dotée de plusieurs interfaces réseau, reliant différents segments. Quand un routeur reçoit une trame, il la traite pour extraire le datagramme IP, puis examine l’entête IP pour déterminer la destination. Si la destination se trouve sur un réseau directement connecté, le datagramme est remis en remise directe après mise à jour de l’entête. Si la destination appartient à un autre réseau, le routeur consulte sa table de routage pour identifier le meilleur chemin, ou _next hop_, vers la destination.
+Ces protocoles d’association jouent un rôle important dans le routage. Un routeur est en réalité une machine dotée de plusieurs interfaces réseau, reliant différents segments. Quand un routeur reçoit une trame, il la traite pour extraire le datagramme IP, puis examine l’entête IP pour déterminer la destination. Si la destination se trouve sur un réseau directement connecté, le datagramme est transmis en remise directe après mise à jour de l’entête. Si la destination appartient à un autre réseau, le routeur consulte sa table de routage pour identifier le meilleur chemin, ou _next hop_, vers la destination.
 
 Ce fonctionnement permet de diviser le trajet en segments plus courts et gérables. Chaque routeur intermédiaire ne connait que la prochaine étape, pas forcément la destination finale.
 
@@ -755,9 +755,9 @@ Le NAT peut être mis en œuvre sous différentes formes, adaptées à des besoi
 
 **Attention :** si ce mécanisme permet d’isoler le réseau interne, il ne résout en rien le problème de pénurie d’adresses IP publiques, car il faut toujours autant d’adresses publiques que de machines à exposer. La traduction statique est donc surtout utilisée lorsque certaines ressources internes doivent impérativement rester joignables depuis l’extérieur (serveur web, serveur mail…).
 
-La traduction dynamique, quant à elle, met à disposition un pool d’adresses IP publiques. Lorsqu’un hôte interne initie une connexion, le routeur sélectionne provisoirement l’une de ces adresses et l’associe à l’adresse privée de l’hôte pour toute la durée de la session. Le lien est 1-vers-1, mais temporaire : dès que le flux s’interrompt, l’adresse publique redevient disponible pour un autre poste. Le Dynamic NAT économise donc le nombre d’adresses publiques quand toutes les machines n’ont pas besoin d’être connectées en même temps, mais il requiert tout de même un bloc d’adresses externes de taille au moins égale au nombre maximal de connexions simultanées.
+**La traduction dynamique**, quant à elle, met à disposition un pool d’adresses IP publiques. Lorsqu’un hôte interne initie une connexion, le routeur sélectionne provisoirement l’une de ces adresses et l’associe à l’adresse privée de l’hôte pour toute la durée de la session. Le lien est 1-vers-1, mais temporaire : dès que le flux s’interrompt, l’adresse publique redevient disponible pour un autre poste. Le Dynamic NAT économise donc le nombre d’adresses publiques quand toutes les machines n’ont pas besoin d’être connectées en même temps, mais il requiert tout de même un bloc d’adresses externes de taille au moins égale au nombre maximal de connexions simultanées.
 
-La traduction de ports (PAT), appelée aussi *NAT overload* ou *IP masquerading*, va plus loin : toutes les machines privées partagent une seule adresse IP publique (ou un très petit nombre). Pour différencier les sessions, la passerelle modifie non seulement l’adresse source mais aussi le port source. Elle maintient alors une table qui associe chaque couple *(adresse privée, port privé)* à un couple *(adresse publique, port public)* unique. C’est cette forme de NAT qui équipe la quasi-totalité des box et routeurs domestiques, car il permet à des dizaines de terminaux (ordinateurs, smartphones, objets connectés...) de partager la même adresse IP publique, tout en maintenant une communication fluide.
+**La traduction de ports** (PAT), appelée aussi *NAT overload* ou *IP masquerading*, va plus loin : toutes les machines privées partagent une seule adresse IP publique (ou un très petit nombre). Pour différencier les sessions, la passerelle modifie non seulement l’adresse source mais aussi le port source. Elle maintient alors une table qui associe chaque couple *(adresse privée, port privé)* à un couple *(adresse publique, port public)* unique. C’est cette forme de NAT qui équipe la quasi-totalité des box et routeurs domestiques, car il permet à des dizaines de terminaux (ordinateurs, smartphones, objets connectés...) de partager la même adresse IP publique, tout en maintenant une communication fluide.
 
 Le NAT prolonge donc la durée de vie d’IPv4 tout en ajoutant un niveau de cloisonnement et de sécurité appréciable. Toutefois, avec l’adoption progressive d’IPv6 et son espace d’adressage immense, le rôle du NAT tendra à se réduire, même si, pour des raisons de compatibilité et de contrôle, il restera encore utilisé dans certains environnements pour segmenter et filtrer les flux.
 
@@ -828,7 +828,7 @@ iptables -t nat -A POSTROUTING -o <WAN> -s 192.168.0.0/24 -j MASQUERADE
 
 Grâce à cette configuration, le trafic sortant est routé et la traduction NAT est assurée pour permettre aux machines virtuelles de communiquer avec l’extérieur sans exposer directement leurs adresses IP internes.
 
-Dans le chapitre suivant, nous aborderons en détail la configuration des adresses IP sous Linux, à travers des méthodes simples et avancées adaptées à différents contextes d’administration.
+Dans le chapitre suivant, nous aborderons en détail la configuration des adresses IP sous Linux, à travers des méthodes simples et avancées, adaptées à différents contextes d’administration.
 
 https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
@@ -846,9 +846,9 @@ Après avoir posé les bases théoriques du réseau et compris comment s’artic
 
 Véritable couteau suisse, `ip` permet d’attribuer ou de modifier une adresse IP, de changer un masque, de démarrer ou d’arrêter une interface, ou encore de consulter son état à tout moment.
 
-**ASTUCE :** pour visualiser toutes les interfaces (actives ou non) :  `ip addr show`
+**ASTUCE :** pour visualiser toutes les interfaces (actives ou non) :  `ip addr show`.
 
-Exemple concret : attribution d’une adresse statique et activation de l’interface
+Exemple concret : attribution d’une adresse statique et activation de l’interface.
 
 Ajouter l’adresse `192.168.1.2/24` à l’interface `eth0` :
 
@@ -937,7 +937,7 @@ Prérequis :
 |6|alb (Adaptive Load Balancing)|Répartition adaptative, équilibre aussi la réception via ARP|
 
 
-#### Mise en place avec `ip link`
+#### Mise en place avec `ip link` :
 
 - Désactiver les interfaces physiques :
 
@@ -952,7 +952,7 @@ ip link set eth1 down
 ip link add bond0 type bond mode balance-alb
 ```
 
-- Configuration des options après création
+- Configuration des options après création :
 
 ```shell
 ip link set bond0 type bond miimon 100
@@ -981,9 +981,9 @@ ip link set eth0 up
 ip link set eth1 up
 ```
 
-**Astuce :** pour détacher un esclave sans couper le bond :  `ip link set eth1 nomaster`
+**Astuce :** pour détacher un esclave sans couper le bond :  `ip link set eth1 nomaster`.
 
-#### Configuration permanente (RHEL-like)
+#### Configuration permanente (RHEL-like) :
 
 Créer trois fichiers dans `/etc/sysconfig/network-scripts` :
 
@@ -1024,7 +1024,7 @@ Puis :
 systemctl restart network
 ```
 
-#### Adresse IP supplémentaire (alias moderne)
+#### Adresse IP supplémentaire (alias moderne) :
 
 Avec `ip`, il suffit d’ajouter une seconde adresse sur le même périphérique :
 
@@ -1150,7 +1150,7 @@ Les adresses locales uniques (`fc00::/7`) sont l’équivalent IPv6 des adresses
 
 Les adresses link-local (`fe80::/64`) servent exclusivement aux communications internes sur un même segment de niveau 2 (même VLAN ou switch). Elles ne sont jamais routées au-delà du lien local. Chaque interface réseau génère automatiquement une adresse link-local, souvent dérivée de son adresse MAC via le schéma EUI-64.
 
-Particularité : une même machine peut utiliser la même adresse link-local sur plusieurs interfaces, à condition de préciser l’interface lors des communications pour éviter toute ambiguïté.
+**Particularité** : une même machine peut utiliser la même adresse link-local sur plusieurs interfaces, à condition de préciser l’interface lors des communications pour éviter toute ambiguïté.
 
 #### Adresses multicast
 
@@ -1158,7 +1158,7 @@ En IPv6, le concept de broadcast disparaît au profit du multicast, plus efficac
 
 Un usage fréquent du multicast concerne le _Neighbor Discovery Protocol_ (NDP), qui remplace ARP en IPv6. NDP s’appuie sur des adresses multicast spécifiques, comme `ff02::1:ff00:0/104`, pour découvrir automatiquement les autres hôtes connectés au même lien.
 
-En combinant ces types d’adresses, IPv6 offre une palette complète pour répondre aux besoins de routage global, de communications locales, de migration IPv4/IPv6 et d’autoconfiguration des équipements tout en améliorant l’efficacité des transmissions réseau.
+En combinant ces types d’adresses, IPv6 offre une palette complète pour répondre aux besoins de routage global, de communications locales, de migration IPv4/IPv6 et d’autoconfiguration des équipements, tout en améliorant l’efficacité des transmissions réseau.
 
 ### Périmètre des adresses
 
@@ -1223,7 +1223,7 @@ En configuration automatique, plusieurs méthodes existent pour permettre aux é
 
 Certaines implémentations, comme celles présentes dans les systèmes Windows, peuvent utiliser un tirage pseudo-aléatoire pour générer la partie hôte de l’adresse, ce qui améliore la confidentialité par rapport à l’utilisation directe de l’adresse MAC. En effet, la visibilité de l’adresse MAC dans les paquets IPv6 pose des problèmes de protection de la vie privée, car elle permet de suivre un appareil dans différents contextes réseau.
 
-Une autre méthode largement utilisée est l’emploi du protocole DHCPv6, spécifié dans la RFC3315. Similaire au DHCP utilisé en IPv4, il permet une configuration plus contrôlée, centralisée, avec gestion des baux, options supplémentaires (DNS, MTU...), et enregistrement dans des bases de données. DHCPv6 peut être utilisé seul ou en complément de la configuration stateless pour fournir des paramètres annexes sans forcément attribuer l’adresse IP elle-même.
+Une autre méthode largement utilisée est l’emploi du protocole DHCPv6, spécifié dans la RFC3315. Similaire au DHCP utilisé en IPv4, il permet une configuration plus contrôlée, centralisée, avec gestion des baux, options supplémentaires (DNS, MTU...), et enregistrement dans des bases de données. DHCPv6 peut être utilisé seul ou en complément de la configuration *stateless* pour fournir des paramètres annexes sans forcément attribuer l’adresse IP elle-même.
 
 **Remarque importante :** lorsqu’on utilise la méthode basée sur l’adresse MAC, celle-ci est transformée en identifiant de 64 bits par le mécanisme EUI-64. Ce mécanisme insère les octets `FF:FE` au centre de l’adresse MAC d’origine (en 48 bits), et inverse le 7ème bit pour marquer l’unicité globale. Cela donne un identifiant d’interface stable, utilisé dans l’adresse IPv6 complète.
 
@@ -1375,7 +1375,7 @@ La conception des paquets IPv6 repose donc sur une séparation claire entre un e
 ## Relation entre IPv6 et DNS
 <chapterId>421eacb8-b80b-4aee-910f-e069ed805f00</chapterId>
 
-Dans les réseaux modernes, le DNS (*Domain Name System*) permet la traduction des noms de domaine en adresses IP utilisables par les machines. Avec l’introduction d’IPv6, le DNS a naturellement dû s’adapter pour supporter les nouvelles adresses sur 128 bits, tout en maintenant la compatibilité avec IPv4. Cette coexistence est importante dans les environnements dual-stack où les deux versions du protocole IP cohabitent.
+Dans les réseaux modernes, le DNS (*Domain Name System*) permet la traduction des noms de domaine en adresses IP utilisables par les machines. Avec l’introduction d’IPv6, le DNS a naturellement dû s’adapter pour supporter les nouvelles adresses sur 128 bits, tout en maintenant la compatibilité avec IPv4. Cette coexistence est importante dans les environnements *dual-stack* où les deux versions du protocole IP cohabitent.
 
 ### Enregistrements DNS spécifiques à IPv6
 
@@ -1437,7 +1437,7 @@ Par la suite, nous avons étudié les méthodes d’assignation des adresses IPv
 
 Nous avons également détaillé la manière dont les blocs d’adresses sont alloués, en partant de l’IANA, qui les distribue aux cinq RIR (*Registres Internet Régionaux*), puis aux fournisseurs d’accès, qui les redistribuent à leurs clients sous forme de sous-réseaux (souvent en /48, permettant 65536 sous-réseaux /64). La distinction entre les blocs _Provider Aggregatable_ (PA) et _Provider Independent_ (PI) permet de gérer des situations de _multihoming_ ou de changement de fournisseur.
 
-Nous avons vu que le DNS s’adapte à IPv6 grâce à l’enregistrement AAAA et que les mécanismes de résolution inverse utilisent une nouvelle structure dans la zone `ip6.arpa`. Le protocole DNS reste indépendant du protocole de transport utilisé (IPv4 ou IPv6), ce qui assure une parfaite interopérabilité dans un environnement dual-stack.
+Nous avons vu que le DNS s’adapte à IPv6 grâce à l’enregistrement AAAA et que les mécanismes de résolution inverse utilisent une nouvelle structure dans la zone `ip6.arpa`. Le protocole DNS reste indépendant du protocole de transport utilisé (IPv4 ou IPv6), ce qui assure une parfaite interopérabilité dans un environnement *dual-stack*.
 
 IPv6 n’est donc pas une simple évolution de son prédécesseur, mais bien une refonte en profondeur du système d’adressage, pensée pour les défis actuels et futurs du réseau mondial.
 
@@ -1617,7 +1617,7 @@ Au niveau de la couche Accès Réseau, il est important de pouvoir interroger et
 
 L’une des fonctionnalités de base de `ethtool` est sa capacité à interroger une interface afin d’en afficher les caractéristiques actuelles. On peut ainsi connaître :
 - la vitesse du lien (par exemple, 100 Mbit/s, 1 Gbit/s ou 10 Gbit/s) ;
-- le mode de négociation (half duplex ou full duplex) ;
+- le mode de négociation (*half duplex* ou *full duplex*) ;
 - si l’auto-négociation est activée ou non ;
 - le type de port utilisé (cuivre, fibre…) ;
 - l’état du lien (actif ou non) ;
@@ -1704,7 +1704,7 @@ mydmn.org (172.17.18.19): 56 data bytes
 Dans cet exemple, on remarque que la résolution de nom a été effectuée automatiquement. Le nom de domaine `mydmn.org` est associé à l’adresse IP `172.17.18.19`, ce qui indique que la résolution DNS fonctionne correctement. La commande fournit également des données techniques comme :
 - le numéro de séquence ICMP (`icmp_seq`), utile pour vérifier l’ordre d’arrivée des réponses ;
 - le TTL (*Time-To-Live*), qui correspond au nombre de sauts réseau restants avant destruction du paquet ;
-- le temps de réponse ou round-trip time/delay (`time`), exprimé en millisecondes, qui donne une indication sur la latence du lien.
+- le temps de réponse ou *round-trip time/delay* (`time`), exprimé en millisecondes, qui donne une indication sur la latence du lien.
 
 #### Analyse plus fine des paramètres ICMP
 

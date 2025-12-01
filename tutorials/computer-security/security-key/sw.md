@@ -5,7 +5,7 @@ description: Jinsi ya kutumia ufunguo halisi wa usalama?
 ![cover](assets/cover.webp)
 
 
-Siku hizi, uthibitishaji wa vipengele viwili (2FA) umekuwa muhimu kwa ajili ya kuimarisha usalama wa akaunti za mtandaoni dhidi ya ufikiaji usioidhinishwa. Kwa kuongezeka kwa mashambulizi ya mtandaoni, kutegemea tu nenosiri ili kulinda akaunti zako hakutoshi.
+Siku hizi, za Two factor authentication (2FA) umekuwa muhimu kwa ajili ya kuimarisha usalama wa akaunti za mtandaoni dhidi ya ufikiaji usioidhinishwa. Kwa kuongezeka kwa mashambulizi ya mtandaoni, kutegemea tu nenosiri ili kulinda akaunti zako hakutoshi.
 
 
 2FA inatanguliza Layer ya ziada ya usalama kwa kuhitaji aina ya pili ya uthibitishaji pamoja na nenosiri la kawaida. Uthibitishaji huu unaweza kuchukua aina mbalimbali, kama vile nambari ya kuthibitisha iliyotumwa kupitia SMS, msimbo unaobadilika unaozalishwa na programu maalum au matumizi ya ufunguo halisi wa usalama. Matumizi ya 2FA kwa kiasi kikubwa hupunguza hatari za akaunti yako kuathiriwa, hata katika tukio la kuibiwa nenosiri lako.
@@ -32,7 +32,7 @@ Unapoingia katika akaunti iliyolindwa na 2FA na kutumia ufunguo halisi wa usalam
 Ufunguo halisi wa usalama ni mzuri sana kwa sababu unachanganya aina mbili tofauti za vipengele vya uthibitishaji: uthibitisho wa maarifa (nenosiri) na uthibitisho wa kumiliki (ufunguo halisi).
 
 
-Walakini, njia hii ya 2FA pia ina hasara. Kwanza, lazima uwe na ufunguo wa usalama kila wakati ikiwa ungependa kufikia akaunti zako. Huenda ukahitaji kuiongeza kwenye mnyororo wako wa vitufe. Pili, tofauti na mbinu zingine za 2FA, kutumia ufunguo halisi wa usalama hujumuisha gharama ya awali kwani lazima ununue kifaa kidogo. Bei ya funguo za usalama kwa ujumla hutofautiana kati ya €30 na €100 kulingana na vipengele vilivyochaguliwa.
+Walakini, njia hii ya 2FA pia ina hasara. Kwanza, lazima uwe na ufunguo wa usalama kila wakati ikiwa ungependa kufikia akaunti zako; huenda ukahitaji kuuweka kwenye mnyororo wako wa vitufe. Pili, tofauti na mbinu zingine za 2FA, kutumia ufunguo halisi wa usalama kunahitaji gharama ya awali kwa kuwa lazima ununue kifaa kidogo. Bei ya funguo za usalama kwa kawaida hutofautiana kati ya €30 na €100 kulingana na vipengele vilivyochaguliwa.
 
 
 ## Ufunguo gani wa usalama wa kimwili wa kuchagua?
@@ -40,7 +40,7 @@ Walakini, njia hii ya 2FA pia ina hasara. Kwanza, lazima uwe na ufunguo wa usala
 
 Ili kuchagua ufunguo wako wa usalama, vigezo kadhaa lazima zizingatiwe.
 
-Kwanza kabisa, unahitaji kuangalia itifaki zinazoungwa mkono na kifaa. Kwa uchache, ninashauri kuchagua ufunguo unaoauni OTP, FIDO2, na U2F. Maelezo haya kawaida huonyeshwa na watengenezaji katika maelezo ya bidhaa. Ili kuthibitisha uoanifu wa kila ufunguo, unaweza pia kutembelea [dongleauth.com](https://www.dongleauth.com/dongles/).
+Kwanza kabisa, unahitaji kuangalia protocol zinazoungwa mkono na kifaa. Kwa uchache, ninashauri kuchagua ufunguo unaoauni OTP, FIDO2, na U2F. Maelezo haya kawaida huonyeshwa na watengenezaji katika maelezo ya bidhaa. Ili kuthibitisha uoanifu wa kila ufunguo, unaweza pia kutembelea [dongleauth.com](https://www.dongleauth.com/dongles/).
 
 Pia, hakikisha kuwa ufunguo unaoana na mfumo wako wa uendeshaji, ingawa chapa zinazojulikana kama Yubikey kwa ujumla zinaauni mifumo yote inayotumika sana.
 
@@ -58,11 +58,11 @@ Kuhusu chapa muhimu za usalama, Yubico ndiyo inayojulikana zaidi kwa kutumia [vi
 ## Jinsi ya kutumia ufunguo halisi wa usalama?
 
 
-Baada ya kupokea ufunguo wako wa usalama, hakuna usanidi mahususi unaohitajika. Ufunguo kawaida huwa tayari kutumika baada ya kupokelewa. Unaweza kuitumia mara moja ili kulinda akaunti zako za mtandaoni zinazotumia aina hii ya uthibitishaji. Kwa mfano, nitakuonyesha jinsi ya kulinda akaunti yangu ya barua pepe ya Proton kwa ufunguo huu halisi wa usalama.
+Baada ya kupokea ufunguo wako wa usalama, hakuna usanidi mahususi unaohitajika. Ufunguo kawaida huwa tayari kutumika baada ya kupokelewa, na unaweza kuutumia mara moja kulinda akaunti zako za mtandaoni zinazotumia aina hii ya uthibitishaji. Kwa mfano, nitakuonyesha jinsi ya kulinda akaunti yangu ya barua pepe ya Proton kwa kutumia ufunguo huu halisi wa usalama.
 
 ![SECURITY KEY 2FA](assets/notext/03.webp)
 
-Utapata chaguo la kuwezesha 2FA katika mipangilio ya akaunti yako, mara nyingi chini ya sehemu ya "*Nenosiri*" au "*Usalama*". Bofya kwenye kisanduku cha kuteua au kitufe kinachokuruhusu kuwezesha 2FA kwa ufunguo halisi.
+Utapata chaguo la kuwezesha 2FA katika mipangilio ya akaunti yako, mara nyingi chini ya sehemu ya "*password*" au "*security*". Bofya kwenye kisanduku cha kuteua au kitufe kinachokuruhusu kuwezesha 2FA kwa ufunguo halisi.
 
 ![SECURITY KEY 2FA](assets/notext/04.webp)
 

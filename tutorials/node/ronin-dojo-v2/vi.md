@@ -331,7 +331,7 @@ Sau khi thực hiện trộn coin với Whirlpool, việc đánh giá chính xá
 
 Để hiểu sâu hơn về cơ chế tính toán của các tập hợp ẩn danh này, tôi khuyên bạn đọc bài viết: REMIX - WHIRLPOOL, chi tiết về cách hoạt động của các chỉ số này.
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

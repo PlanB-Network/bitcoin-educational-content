@@ -142,6 +142,13 @@ Comme pour chaque cours de la Plan â‚¿ Academy, la section finale comprend une Ã
 
 <isCourseReview>true</isCourseReview>
 
+## Final Exam
+
+<chapterId>91db243d-8479-4636-afa8-dd189b0d4c5e</chapterId>
+
+
+<isCourseExam>true</isCourseExam>
+
 
 ## Conclusion
 

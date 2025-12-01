@@ -1,9 +1,9 @@
-question: What is one drawback of modern centralized currency systems?
-answer: They often lack transparency and auditability in managing the money supply.
+question: Một nhược điểm của hệ thống tiền tệ tập trung hiện đại là gì?
+answer: Họ thường thiếu sự minh bạch và khả năng kiểm toán trong việc quản lý nguồn cung tiền.
 wrong_answers:
-  - They provide a stable, unchanging value for every currency unit.
-  - They remove all intermediaries and speed up settlements to milliseconds.
-  - They ensure that money issuance is fully decentralized and inflation-proof.
+  - Chúng cung cấp giá trị ổn định, không thay đổi cho mọi đơn vị tiền tệ.
+  - Họ loại bỏ mọi trung gian và tăng tốc độ thanh toán lên đến mili giây.
+  - Họ đảm bảo rằng việc phát hành tiền được phân cấp hoàn toàn và không bị lạm phát.
 explanation: |
-  Centralized systems can issue money at will, often without transparent oversight. This can erode trust due to inflation, complex interbank settlements, and potential mismanagement.
-reviewed: false
+  Các hệ thống tập trung có thể phát hành tiền tùy ý, thường không có sự giám sát minh bạch. Điều này có thể làm xói mòn niềm tin do lạm phát, các giao dịch liên ngân hàng phức tạp và khả năng quản lý yếu kém.
+reviewed: true

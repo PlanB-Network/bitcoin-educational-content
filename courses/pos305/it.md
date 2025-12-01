@@ -1,24 +1,18 @@
 ---
-name: Bitcoin and BTCPay Server
-goal: Installare BTCPay Server per la tua attività
+name: Padroneggiare BTC Pay Server
+goal: Configurare un'istanza di BTC Pay Server per un'attività locale
 objectives:
-  - Capire cos'è BTCPay Server.
-  - Self-hostare e configurare BTCPay Server.
-  - Utilizzare BTCPay Server nella tua attività quotidiana.
+- Comprendere i fondamenti del ruolo di BTCPay Server nell'elaborazione dei pagamenti
+- Padroneggiare il funzionamento interno del processo di configurazione di BTCPay Server
+- Distribuire BTCPay Server su ambienti cloud e basati su nodi
+- Diventare operatore di BTC Pay Server
 ---
+# Viaggio verso la Sovranità Finanziaria
 
-# Bitcoin e BTCPay Server
+La fiducia è fragile, soprattutto quando si tratta di denaro. Questo corso introduttivo ti guida attraverso BTCPay Server, uno strumento potente che ti permette di accettare pagamenti Bitcoin senza affidarti a terze parti. Imparerai i fondamenti per diventare un operatore BTCPay Server
 
-Questo è un corso introduttivo su BTCPay Server Operator scritto da Alekos e Bas, che è stato adattato nel formato del corso Plan ₿ da melontwist e asi0.
-
-UNA STORIA NON FINITA
-
-"Questo è falso, la mia fiducia in te è infranta, ti renderò obsoleto".
-
-Prodotto dalla BTCPay Server Foundation
-
+Creato da Alekos e Bas, e adattato da melontwist e asi0, questo corso rivela come individui e aziende stanno costruendo alternative ai sistemi di pagamento tradizionali. Che tu sia curioso riguardo Bitcoin o pronto a gestire infrastrutture di pagamento per le aziende, scoprirai competenze pratiche che sfidano lo status quo. Pronto a esplorare come appare realmente l'indipendenza finanziaria?
 +++
-
 # Introduzione
 
 <partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
@@ -1449,7 +1443,7 @@ Un Amministratore di BTCPay Server può cliccare su "Vedi informazioni" dietro o
 
 #### LND (gRPC)
 
-BTCPay espone il servizio gRPC di LND per l'utilizzo esterno, dove troverai le informazioni di connessione in questo specifico menù delle impostazioni, inoltre qui sono elencati anche i wallet compatibili. BTCPay Server fornisce anche un codice QR per la connessione da scansionare e applicare nel wallet mobile.
+BTCPay espone il servizio gRPC di LND per l'utilizzo esterno, dove troverai le informazioni di connessione in questo specifico menù delle impostazioni, inoltre [qui](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server). sono elencati anche i wallet compatibili. BTCPay Server fornisce anche un codice QR per la connessione da scansionare e applicare nel wallet mobile.
 
 Gli amministratori del server possono aprire più dettagli per vedere:
 
@@ -1463,7 +1457,7 @@ Gli amministratori del server possono aprire più dettagli per vedere:
 
 #### LND (REST)
 
-BTCPay espone il servizio REST di LND per l'utilizzo esterno, dove troverai le informazioni di connessione e inoltre sono elencati anche i wallet compatibili. Tra i wallet compatibili ci sono Joule, Alby e ZeusLN. BTCPay Server fornisce un codice QR per la connessione, da scansionare e applicare nel wallet compatibile.
+BTCPay espone il servizio REST di LND per l'utilizzo esterno; [qui](https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay) troverai le informazioni di connessione, e qui inoltre sono elencati anche i wallet compatibili. Tra i wallet compatibili ci sono Joule, Alby e ZeusLN. BTCPay Server fornisce un codice QR per la connessione, da scansionare e applicare nel wallet compatibile.
 
 - REST Uri
 - Macaroon

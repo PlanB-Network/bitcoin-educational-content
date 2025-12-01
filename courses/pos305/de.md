@@ -1,31 +1,18 @@
 ---
-name: Bitcoin und BTC Pay Server
-goal: Installieren Sie BTC Pay Server für Ihr Unternehmen
-objectives: 
-
-  - Verstehen Sie, was btcpayserver ist.
-  - BTC Pay Server selbst hosten und konfigurieren.
-  - Verwenden Sie btcpayserver in Ihrem täglichen Geschäft.
-
+name: BTC Pay Server meistern
+goal: Eine BTC Pay Server-Instanz für ein lokales Unternehmen konfigurieren
+objectives:
+- Die Grundlagen der Rolle von BTCPay Server bei der Zahlungsabwicklung verstehen
+- Die innere Funktionsweise des BTCPay Server-Konfigurationsprozesses beherrschen
+- BTCPay Server in Cloud- und Node-basierten Umgebungen bereitstellen
+- Ein BTC Pay Server-Betreiber werden
 ---
+# Reise zur finanziellen Souveränität
 
-# Bitcoin und BTCPay-Server
+Vertrauen ist zerbrechlich, besonders wenn es um Geld geht. Dieser Einführungskurs führt Sie durch BTCPay Server, ein leistungsstarkes Tool, mit dem Sie Bitcoin-Zahlungen akzeptieren können, ohne sich auf Dritte verlassen zu müssen. Sie lernen die Grundlagen, um ein BTCPay Server-Betreiber zu werden
 
-
-Dies ist ein Einführungskurs über BTCPay Server Operator, geschrieben von Alekos und Bas, der für das Plan ₿ Kursformat von melontwist und asi0 angepasst wurde.
-
-
-EINE UNVOLLENDETE GESCHICHTE
-
-
-"Das ist eine Lüge, mein Vertrauen in dich ist gebrochen, ich werde dich überflüssig machen".
-
-
-Produziert von der BTCPay Server Foundation
-
-
+Erstellt von Alekos und Bas und angepasst von melontwist und asi0, zeigt dieser Kurs, wie Einzelpersonen und Unternehmen Alternativen zu traditionellen Zahlungssystemen aufbauen. Egal, ob Sie neugierig auf Bitcoin sind oder bereit, Zahlungsinfrastrukturen für Unternehmen zu betreiben – Sie werden praktische Fähigkeiten entdecken, die den Status quo in Frage stellen. Bereit zu erkunden, wie finanzielle Unabhängigkeit tatsächlich aussieht?
 +++
-
 # Einführung
 
 
@@ -2095,7 +2082,7 @@ Serveradministratoren können weitere Details einsehen.
 #### LND (REST)
 
 
-BTCPay stellt den REST-Service von LND für externe Nutzer zur Verfügung; Verbindungsinformationen finden Sie hier; kompatible Wallets sind hier aufgelistet. Zu den kompatiblen Wallets gehören Joule, Alby und ZeusLN. BTCPay Server bietet einen QR-Code für die Verbindung, der gescannt und in einem kompatiblen Wallet angewendet werden kann.
+BTCPay stellt den REST-Service von LND für externe Nutzer zur Verfügung; Verbindungsinformationen finden Sie [hier](https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay); kompatible Wallets sind [hier](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server) aufgelistet. Zu den kompatiblen Wallets gehören Joule, Alby und ZeusLN. BTCPay Server bietet einen QR-Code für die Verbindung, der gescannt und in einem kompatiblen Wallet angewendet werden kann.
 
 
 

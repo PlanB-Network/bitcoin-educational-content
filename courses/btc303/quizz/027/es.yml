@@ -1,0 +1,9 @@
+question: Según el capítulo, ¿qué ocurre cuando uno es descuidado con sus propias prácticas de privacidad de Bitcoin?
+answer: También puede reducir la privacidad de otros usuarios de Bitcoin
+wrong_answers:
+  - Sólo afecta a sus propias transacciones y no repercute en los demás
+  - Hace que toda la red Bitcoin sea más segura para todos
+  - Ayuda a mejorar el anonimato general del sistema Bitcoin
+explanation: |
+  La privacidad de Bitcoin está interconectada entre los usuarios. Cuando una persona es descuidada con sus prácticas de privacidad, puede afectar negativamente a la privacidad de otros usuarios con los que realiza transacciones. Esto ocurre porque los patrones de transacción, la agrupación de direcciones y otras técnicas de análisis de blockchain pueden revelar información sobre múltiples partes implicadas en las transacciones. El capítulo hace hincapié en que las medidas de privacidad que tomes no sólo te protegen a ti mismo, sino que también ayudan a proteger a la comunidad Bitcoin en general, haciendo de la privacidad una responsabilidad colectiva y no sólo una preocupación individual.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Какъв е номерът на блока на първата транзакция Bitcoin?
+answer: Блок 170.
+wrong_answers:
+  - Блок 1.
+  - Блок 17.
+  - Блок 1700.
+explanation: |
+  Първата транзакция на Bitcoin, която беше транзакция на
+  10 BTC между Satoshi Nakamoto и Hal Finney, е записана
+  в блок 170.
+reviewed: true

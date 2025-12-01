@@ -2853,11 +2853,9 @@ Fördelarna är tvåfaldiga:
 - **Strukturerad organisation**: du kan definiera tydliga roller, vilket gör det lättare att driva din community och genomföra projekt.
 
 
-För att hjälpa ditt samhälle att växa ytterligare, **en uppföljning av COMMU302-kursen**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+I syfte att låta ert community utvecklas ytterligare **kan det inte uteslutas att en fortsättning på denna utbildning publiceras på [Plan ₿ Academy](https://planb.academy/) inom de kommande månaderna**.
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-kan komma att släppas på [planb.network](https://planb.academy/) under de kommande månaderna.
 
 
 Nästa session kan behandla avancerade ämnen som t.ex:

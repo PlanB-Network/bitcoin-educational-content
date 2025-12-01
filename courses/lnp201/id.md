@@ -1,12 +1,12 @@
 ---
-name: Pengantar Teoretis Lightning Network
+name: Teori Lightning Network
 goal: Memahami Lightning Network dari perspektif teknis
 objectives:
-  - Memahami operasi saluran jaringan.
-  - Membiasakan diri dengan istilah HTLC, LNURL, dan UTXO.
-  - Menguasai manajemen likuiditas dan biaya LNN.
-  - Menyadari Lightning Network sebagai sebuah jaringan.
-  - Memahami penggunaan Lightning Network secara teoretis.
+- Memahami operasi saluran jaringan.
+- Membiasakan diri dengan istilah HTLC, LNURL, dan UTXO.
+- Menguasai manajemen likuiditas dan biaya LNN.
+- Menyadari Lightning Network sebagai sebuah jaringan.
+- Memahami penggunaan Lightning Network secara teoretis.
 ---
 
 # Perjalanan ke Lapisan Kedua Bitcoin 

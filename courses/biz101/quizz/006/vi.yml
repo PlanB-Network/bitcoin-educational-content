@@ -1,9 +1,9 @@
-question: Why is the 21 million cap on Bitcoin issuance significant?
-answer: It creates a deflationary asset, protecting its value against arbitrary inflation.
+question: Tại sao mức giới hạn phát hành Bitcoin là 21 triệu lại quan trọng?
+answer: Nó tạo ra một tài sản giảm phát, bảo vệ giá trị của nó khỏi tình trạng lạm phát tùy ý.
 wrong_answers:
-  - It ensures that governments can print as many bitcoins as needed.
-  - It prevents anyone from sending transactions after the cap is reached.
-  - It eliminates all volatility in Bitcoin’s price.
+  - Nó đảm bảo rằng chính phủ có thể in bao nhiêu bitcoin tùy theo nhu cầu.
+  - Nó ngăn chặn bất kỳ ai gửi giao dịch sau khi đạt đến giới hạn.
+  - Nó loại bỏ mọi biến động trong giá của Bitcoin.
 explanation: |
-  By having a maximum supply of 21 million, Bitcoin’s scarcity is hard-coded, making it fundamentally different from inflationary currencies where supply can be increased at will.
-reviewed: false
+  Với nguồn cung tối đa là 21 triệu, tình trạng khan hiếm của Bitcoin được mã hóa cứng, khiến nó về cơ bản khác với các loại tiền tệ lạm phát, nơi nguồn cung có thể tăng theo ý muốn.
+reviewed: true

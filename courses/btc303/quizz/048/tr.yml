@@ -1,0 +1,9 @@
+question: Pratikte etkili bir şekilde çalışmasına rağmen Bitcoin'ın güvenliğini resmi olarak kanıtlamak neden pratikte imkansızdır?
+answer: Sistemin karmaşıklığı ve belirsiz yapısı, net varsayımlara sahip daha basit protokollerin aksine, resmi güvenlik kanıtlarını olanaksız kılmaktadır
+wrong_answers:
+  - Bitcoin geliştiricileri, esnekliği korumak ve gelecekteki protokol değişikliklerine izin vermek için resmi kanıtlardan kasıtlı olarak kaçınmaktadır
+  - Ayrık logaritma problemi ve kriptografik varsayımlar mevcut matematiksel ispat teknikleri için çok ileri düzeydedir
+  - Resmi güvenlik kanıtları düşmanların güvenlik açıklarını ortaya çıkaracağından çekirdek geliştiriciler tarafından gizli tutulur
+explanation: |
+  Jameson Lopp'un açıkladığı gibi Bitcoin, doğasında var olan karmaşıklığı ve belirsiz yapısı nedeniyle resmi olarak tanımlanmış bir spesifikasyon veya güvenlik modeli olmadan inşa edilmiştir. İmzalama protokolleri gibi net güvenlik varsayımlarına sahip daha basit sistemlerin aksine, Bitcoin kriptografi, ekonomi, oyun teorisi ve insan davranışı gibi birbiriyle etkileşim halinde olan çok sayıda bileşen içermektedir. Bu karmaşıklık, sistem gerçek dünya operasyonları yoluyla pratik güvenlik gösterse de, güvenliğin resmi matematiksel kanıtlarını oluşturmayı imkansız hale getirir.
+reviewed: false

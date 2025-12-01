@@ -1,35 +1,18 @@
 ---
 name: Spinoza och Bitcoin
 goal: Upptäck de filosofiska kopplingarna mellan Spinozas tankar och Bitcoin som verktyg för frihet genom århundradena.
-objectives: 
-
-
-  - Förståelse för Spinozas praktiska filosofi och hans strävan efter frihet.
-  - Utforskar de spinozistiska begreppen determinism och mänskliga illusioner.
-  - Analys av parallellerna mellan Spinozas idérevolution och Bitcoin:s tekniska revolution.
-
-
-
+objectives:
+- Förstå Spinozas praktiska filosofi och hans strävan efter frihet.
+- Utforska de spinozistiska begreppen determinism och mänskliga illusioner.
+- Analysera parallellerna mellan Spinozas idérevolution och Bitcoins teknologiska revolution.
+- Tillämpa affektteori för att känna igen och motstå manipulation i politiska system.
 ---
+# När Spinoza mötte Satoshi
 
-# En filosofisk utforskning av frihet genom Spinoza och Bitcoin
+Upptäck hur 1600-talsfilosofen Baruch de Spinozas radikala idéer om frihet, förnuft och makt förebådar Bitcoins decentraliserade revolution. Denna kurs avslöjar de slående parallellerna: båda förkastar blind tro och central auktoritet, båda använder matematisk stringens för att befria. Spinoza befriade sinnen från religiös dogm, Bitcoin befriar pengar från statlig kontroll.
 
-
-
-Den här kursen utforskar de djupa kopplingarna mellan Baruch de Spinozas (1632-1677) revolutionära filosofi och Bitcoin, två verktyg för frihet som skiljs åt av århundraden men förenas av samma strävan: människans frigörelse från slaveri.
-
-
-
-Vi kommer att upptäcka hur Spinoza, den rationella upplysningsfilosofins fader, utvecklade en praktisk etik för att befria oss från de illusioner som fängslar oss - fri vilja, finalism och teologiska vidskepelser. Hans geometriska metod och teori om affekter visar oss hur vi kan förstå vår plats i världen och rikta vår existens mot det som ökar vår handlingskraft.
-
-
-
-Kursen drar sedan fascinerande paralleller mellan denna kopernikanska revolution av idéer och Bitcoin: två system som varken kräver blind tro eller central auktoritet, utan helt enkelt utövandet av förnuftet. Precis som spinozismen befriade tanken från religiösa dogmer, befriar Bitcoin pengar från statlig kontroll och erbjuder en ny form av ekonomisk frihet med rötter i matematik och kryptografi.
-
-
-
+Lär dig praktiska verktyg från Spinozas etik för att förstå bitcoins filosofiska grunder och öka din handlingskraft. Redo att utforska två av historiens största instrument för mänsklig frigörelse?
 +++
-
 # Inledning
 
 

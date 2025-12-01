@@ -1,0 +1,8 @@
+question: Why does BIP34 require embedding the block height in the Coinbase transaction's scriptSig field?
+answer: To ensure every Coinbase transaction ID is unique across all blocks
+wrong_answers:
+  - To provide additional entropy for miners when the nonce space is exhausted
+  - To enable light clients to verify block ordering without downloading full blocks
+  - To prevent miners from claiming block subsidies higher than the allowed amount
+explanation: |
+  BIP34 mandates block height inclusion in Coinbase scriptSig specifically to guarantee uniqueness of every Coinbase transaction ID. Without this requirement, two blocks at different heights could theoretically have identical Coinbase transactions, creating duplicate txids that would violate Bitcoin's transaction uniqueness assumptions and potentially cause database conflicts in implementations that index by txid.

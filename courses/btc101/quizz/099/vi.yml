@@ -1,5 +1,5 @@
 question: Tại sao nên tránh để Bitcoin của bạn trên các sàn giao dịch?
-answer: Chúng có thể bị tấn công bởi hacker.
+answer: Các sàn giao dịch có thể bị tấn công bởi hacker.
 wrong_answers:
   - Các sàn giao dịch tính phí ngẫu nhiên.
   - Bitcoin mất giá trên các sàn giao dịch.

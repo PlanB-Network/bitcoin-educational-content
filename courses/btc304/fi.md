@@ -2853,11 +2853,9 @@ Hyödyt ovat kaksijakoiset:
 - **Jäsennelty organisaatio**: voit määritellä selkeät roolit, mikä helpottaa yhteisön johtamista ja projektien toteuttamista.
 
 
-Jotta yhteisösi kasvaisi entisestään, **seuranta COMMU302-kurssille**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+Tavoitteena auttaa yhteisöänne kukoistamaan entistä enemmän, **ei ole poissuljettua, että tämän koulutuksen jatko-osa julkaistaan [Plan ₿ Academy](https://planb.academy/) -sivustolla tulevina kuukausina**.
 
-<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-voidaan julkaista [planb.network](https://planb.academy/) lähikuukausina.
 
 
 Seuraavassa istunnossa voitaisiin tarkastella seuraavia syventäviä aiheita:

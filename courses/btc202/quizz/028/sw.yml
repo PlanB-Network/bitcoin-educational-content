@@ -1,9 +1,9 @@
-question: Ni nini hufanya nodi ya pruned kuwa tofauti na Full node?
-answer: Hatua kwa hatua huondoa vitalu vya zamani
+question: Ni nini hufanya node ya pruned kuwa tofauti na Full node?
+answer: Hatua kwa hatua huondoa blocks za zamani
 wrong_answers:
-  - Haidhibitishi shughuli za zamani
-  - Haiwezi kusambaza vizuizi vyote
+  - Haidhibitishi miamala ya zamani
+  - Haiwezi kusambaza blocks zote
   - Haihifadhi nakala yoyote ya ndani ya Blockchain, seti ya UTXO pekee
 explanation: |
-  Nodi ya pruned inathibitisha mlolongo mzima, lakini inabakia tu sehemu ya hivi karibuni ya vitalu ili kupunguza uhifadhi wake.
+  Node ya pruned inathibitisha mlolongo mzima, lakini inabakia tu sehemu ya hivi karibuni ya blocks ili kupunguza uhifadhi wake.
 reviewed: true

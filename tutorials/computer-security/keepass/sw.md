@@ -8,7 +8,7 @@ description: Jinsi ya kuanzisha meneja wa nenosiri wa ndani?
 Katika enzi ya kidijitali, tunahitaji kudhibiti wingi wa akaunti za mtandaoni zinazoshughulikia vipengele mbalimbali vya maisha yetu ya kila siku, ikiwa ni pamoja na benki, mifumo ya fedha, barua pepe, kuhifadhi faili, afya, utawala, mitandao ya kijamii, michezo ya video, n.k.
 
 
-Ili kujithibitisha kwenye kila moja ya akaunti hizi, tunatumia kitambulisho, mara nyingi barua pepe ya Address, inayoambatana na nenosiri. Kwa kukabiliwa na kutowezekana kwa kukariri idadi kubwa ya manenosiri ya kipekee, mtu anaweza kujaribiwa kutumia tena nenosiri lile lile au kurekebisha kidogo msingi wa kawaida ili iwe rahisi kukumbuka. Hata hivyo, vitendo hivi vinahatarisha usalama wa akaunti zako.
+Ili kujithibitisha kwenye kila akaunti, tunatumia kitambulisho, mara nyingi **barua pepe**, kinachofuatana na nenosiri. Kwa kukabiliwa na changamoto ya kukumbuka idadi kubwa ya manenosiri ya kipekee, mtu anaweza kujaribu kutumia tena nenosiri lile lile au kurekebisha kidogo msingi wake wa kawaida ili liwe rahisi kukumbuka. Hata hivyo, vitendo hivi vinahatarisha usalama wa akaunti zako.
 
 
 Kanuni ya kwanza ya kufuata kwa nywila sio kuzitumia tena. Kila akaunti ya mtandaoni inapaswa kulindwa na nenosiri la kipekee na tofauti kabisa. Hili ni muhimu kwa sababu, ikiwa mvamizi ataweza kuathiri mojawapo ya nenosiri lako, hutaki apate ufikiaji wa akaunti zako zote. Kuwa na nenosiri la kipekee kwa kila akaunti hutenga mashambulio yanayoweza kutokea na kuzuia wigo wao. Kwa mfano, ikiwa unatumia nenosiri lile lile kwa jukwaa la mchezo wa video na barua pepe yako, na nenosiri hilo likiingiliwa kupitia tovuti ya hadaa inayohusiana na jukwaa la michezo ya kubahatisha, mshambuliaji anaweza kufikia barua pepe yako kwa urahisi na kudhibiti akaunti zako zote za mtandaoni.
@@ -17,7 +17,7 @@ Kanuni ya kwanza ya kufuata kwa nywila sio kuzitumia tena. Kila akaunti ya mtand
 Kanuni ya pili muhimu ni nguvu ya nenosiri. Nenosiri linachukuliwa kuwa kali ikiwa ni ngumu kutumia nguvu kwa ukatili, ambayo ni, kubahatisha kupitia jaribio na makosa. Hii ina maana kwamba manenosiri yako lazima yawe ya nasibu iwezekanavyo, marefu, na yajumuishe utofauti wa herufi (herufi ndogo, kubwa, nambari na alama).
 
 
-Kutumia kanuni hizi mbili za usalama wa nenosiri (upekee na uthabiti) kunaweza kuwa vigumu katika maisha ya kila siku, kwani ni vigumu sana kukariri nenosiri la kipekee, la nasibu na dhabiti kwa akaunti zetu zote. Hapa ndipo kidhibiti cha nenosiri kinapotumika.
+Kutumia kanuni hizi mbili za usalama wa nenosiri upekee na uthabiti kunaweza kuwa vigumu katika maisha ya kila siku kwani ni changamoto kukariri nenosiri la kipekee nasibu na thabiti kwa akaunti zote. Hapa ndipo kidhibiti cha nenosiri kinapotumika.
 
 
 Kidhibiti cha nenosiri hutengeneza na kuhifadhi kwa usalama manenosiri thabiti, huku kuruhusu kufikia akaunti zako zote mtandaoni bila hitaji la kuzikariri kibinafsi. Unahitaji tu kukumbuka nenosiri moja, nenosiri kuu, ambalo hukupa ufikiaji wa nywila zako zote zilizohifadhiwa kwenye kidhibiti. Kutumia kidhibiti cha nenosiri huimarisha usalama wako mtandaoni kwa sababu huzuia utumiaji tena wa manenosiri na kutengeneza manenosiri nasibu. Lakini pia hurahisisha matumizi yako ya kila siku ya akaunti zako kwa kuweka kati ufikiaji wa taarifa zako nyeti.

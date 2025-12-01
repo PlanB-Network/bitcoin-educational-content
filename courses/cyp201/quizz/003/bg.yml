@@ -1,0 +1,9 @@
+question: Каква е основната разлика между SHA256 и RIPEMD160?
+answer: RIPEMD160 дава по-кратки хешове от SHA256
+wrong_answers:
+  - SHA256 е остарял за разлика от RIPEMD160
+  - RIPEMD160 се използва само в механизма Proof-of-Work
+  - SHA256 никога не се комбинира с други функции за хеширане
+explanation: |
+  RIPEMD160 генерира 160-битови хешове, а SHA256 - 256-битови хешове.
+reviewed: false

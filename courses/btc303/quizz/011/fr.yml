@@ -6,3 +6,4 @@ wrong_answers:
   - Un système dans lequel les transactions ne peuvent être annulées ou contestées par personne
 explanation: |
   Trustless se réfère spécifiquement à une propriété technique selon laquelle un système distribué peut fonctionner correctement sans nécessiter de parties de confiance. Cela diffère de l'élimination de toute confiance (vous faites toujours confiance à votre logiciel/matériel) ou de la prévention des inversions (les transactions Bitcoin peuvent être inversées par des réécritures de la chaîne). Le terme ne signifie pas non plus que les utilisateurs ne peuvent pas faire confiance aux participants, mais plutôt que l'exactitude du système ne dépend pas de leur confiance.
+reviewed: false

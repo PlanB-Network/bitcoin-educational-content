@@ -6,3 +6,4 @@ wrong_answers:
   - Les blocs plus grands créent davantage de conflits de transaction entre les blocs concurrents, ce qui rend plus difficile la détermination du bloc qui doit être accepté
 explanation: |
   La bonne réponse identifie le mécanisme de base des blocs périmés. Lorsque les blocs sont plus volumineux, leur transfert entre les nœuds nécessite davantage de bande passante et leur validation prend plus de temps. Au cours de cette période de propagation prolongée, plusieurs mineurs peuvent trouver des blocs concurrents à la même hauteur puisqu'ils n'ont pas encore reçu le dernier bloc. Cela crée une situation de course où un seul bloc peut finalement être accepté, ce qui rend les autres périmés. Les mauvaises réponses confondent ce problème de propagation avec la difficulté du mining, les mécanismes de consensus ou les conflits de transaction, qui sont des préoccupations distinctes du problème de synchronisation à l'origine des blocs périmés.
+reviewed: false

@@ -1,7 +1,7 @@
 question: Какво решение се препоръчва за извършване на евтини плащания по Bitcoin?
 answer: Lightning Network
 wrong_answers:
-  - Хардуер wallet
+  - Хардуерен портфейл
   - Банкова сметка
   - Слой RGB
 explanation: |

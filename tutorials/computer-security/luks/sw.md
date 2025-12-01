@@ -1,6 +1,6 @@
 ---
 name: LUKS
-description: Kusimba kiendeshi cha USB flash kwa kutumia LUKS na cryptsetup
+description: Kusimba USB driveflash kwa kutumia LUKS na cryptsetup
 ---
 ![cover](assets/cover.webp)
 

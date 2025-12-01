@@ -6,3 +6,4 @@ wrong_answers:
   - Systém, v němž transakce nemůže nikdo zrušit ani zpochybnit
 explanation: |
   Trustless se konkrétně týká technické vlastnosti, kdy distribuovaný systém může správně fungovat, aniž by vyžadoval důvěryhodné strany. To se liší od vyloučení veškeré důvěryhodnosti (stále důvěřujete svému softwaru/hardwaru) nebo zabránění zvrácení (transakce Bitcoin lze zvrátit přepsáním řetězce). Tento termín také neznamená, že uživatelé nemohou účastníkům důvěřovat - spíše to, že správnost systému nezávisí na jejich důvěře.
+reviewed: false

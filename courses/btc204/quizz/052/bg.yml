@@ -1,0 +1,9 @@
+question: Какъв тип скрипт се използва изключително от Silent Payments?
+answer: P2TR
+wrong_answers:
+  - P2WPKH
+  - P2SP
+  - P2WSH
+explanation: |
+  За да се улесни прилагането на този протокол и да се подобри анонимността на потребителите, "Тихите плащания" разчитат изключително на скриптове P2TR (Pay to Taproot).
+reviewed: true

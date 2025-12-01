@@ -6,3 +6,4 @@ wrong_answers:
   - Attraverso post sui social media e annunci di transazioni pubbliche
 explanation: |
   Secondo il contenuto del capitolo, i dati privati possono trapelare in due modi principali: on-chain e off-chain. Le fughe sulla catena si verificano attraverso l'analisi della blockchain pubblica, dove i modelli di transazione, il riutilizzo degli indirizzi e il clustering possono rivelare informazioni finanziarie. Le fughe fuori dalla catena si verificano quando attori malintenzionati intercettano le comunicazioni via Internet o attraverso altri mezzi non legati alla blockchain. Sebbene le risposte sbagliate facciano riferimento a problemi di sicurezza reali nell'ecosistema Bitcoin, non rappresentano la categorizzazione fondamentale di come si verificano le fughe di notizie sulla privacy, come indicato nel materiale.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Useiden wallet-osoitteiden käyttämisen tarjoama anonymiteetti
 explanation: |
   Blockchain-yksityisyys viittaa erityisesti tietoihin, jotka paljastat lohkoketjussa tapahtuvien liiketoimien yhteydessä, ja se koskee kaikkia lähettämiäsi ja vastaanottamiasi liiketoimia. Tämä eroaa wallet-salauksesta (joka suojaa tallennettuja avaimia), internet-yhteyden turvallisuudesta (joka on off-chain-yksityisyyden suojaa) tai harhaluulosta, jonka mukaan useat osoitteet takaavat anonymiteetin. Ketjussa yksityisyyden suoja vuotaa osoitteiden uudelleenkäytöstä ja klusteroinnista, jossa transaktiot voidaan yhdistää toisiinsa ja paljastaa kuvioita käyttäjien taloudellisesta toiminnasta.
+reviewed: false

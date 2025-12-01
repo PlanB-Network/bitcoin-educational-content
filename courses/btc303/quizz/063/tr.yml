@@ -6,3 +6,4 @@ wrong_answers:
   - GitHub deposu, dünya çapındaki diğer tüm depo kopyalarını doğrulayan bir ana anahtar tutar
 explanation: |
   Jameson Lopp'un bu bölümde atıfta bulunulan analizine göre, Bitcoin Core'un GitHub deposu teknik olarak diğer tüm kopyalarla aynıdır. Önemi tamamen sosyaldir - geliştirme koordinasyonu için odak noktası haline gelmiştir. Depo, teknik otoriteden ziyade bir kolaylık meselesi olarak hizmet vermektedir ve ortadan kalkması halinde doğal olarak yeni bir odak noktası ortaya çıkacaktır. Bu da Bitcoin'in tek bir deponun diğerleri üzerinde teknik üstünlüğe sahip olmadığı merkezi olmayan yapısını göstermektedir.
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Środki są trwale zablokowane
 explanation: |
   Jeśli kontrakt HTLC wygaśnie bez ujawnienia sekretu, płatność zostanie anulowana, a środki wrócą do nadawcy, uniemożliwiając w ten sposób jakiemukolwiek węzłowi pośredniczącemu zatrzymanie środków.
-reviewed: false
+reviewed: true

@@ -1,0 +1,9 @@
+question: Как RGB намалява своята видимост?
+answer: Taproot (Tapret)
+wrong_answers:
+  - OP_RETURN (Opret)
+  - Оправяне на Sig
+  - Ключова промяна
+explanation: |
+  Taproot (Tapret) дава възможност за дискретно и ефикасно въвеждане на ангажименти в транзакция, като същевременно осигурява съвместимост с действащите стандарти.
+reviewed: false

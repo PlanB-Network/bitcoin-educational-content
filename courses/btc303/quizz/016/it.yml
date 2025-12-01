@@ -6,3 +6,4 @@ wrong_answers:
   - Non è possibile costruire sistemi aggiuntivi su di esso
 explanation: |
   Il livello di base trustless di Bitcoin fornisce una base che consente la flessibilità nella costruzione di diversi tipi di sistemi. Come ha spiegato Matt Corallo, mentre non è possibile costruire sistemi trustless sopra sistemi trusted, è possibile costruire sistemi trusted (come i portafogli custodiali) sopra sistemi trustless. Ciò significa che la base trustless di Bitcoin supporta sia applicazioni trustless che servizi trusted, dando ai progettisti di sistemi la libertà di scegliere i compromessi appropriati senza imporre gli stessi compromessi a tutti gli altri utenti del livello di base.
+reviewed: false

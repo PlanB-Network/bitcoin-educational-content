@@ -1,0 +1,9 @@
+question: Кой е създател на концепцията за опростена проверка на плащанията (ОПП)?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Hal Finney
+  - Adam Back
+  - Питер Вуйе
+explanation: |
+  SPV е представена в част 8 от Бялата книга на Satoshi Nakamoto.
+reviewed: true

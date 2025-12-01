@@ -6,3 +6,4 @@ wrong_answers:
   - Åpen kildekode betyr at alle sårbarheter må offentliggjøres før det utvikles oppdateringer
 explanation: |
   Teksten fremhever spesielt at utviklere må være ekstremt forsiktige når de publiserer oppdateringer, fordi "oppdateringen i seg selv kan avsløre sårbarheten" Dette skaper en unik utfordring der løsningen utilsiktet kan avsløre problemet. Det fjerde kulepunktet beskriver hvordan Bitcoin-utviklere tester om en oppdatering er "godt nok kamuflert" ved å la erfarne utviklere gå gjennom den uten å kjenne til den spesifikke sårbarheten. Hvis disse ekspertene ikke kan identifisere sårbarheten i oppdateringen, anses den som trygg å distribuere. De andre alternativene er feil: Det er koordinering gjennom Bitcoin Core-vedlikeholdere, konsensus er ikke påkrevd for oppdateringer, og sårbarheter holdes private under ansvarlig offentliggjøring.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Instalowanie zweryfikowanego oprogramowania wallet z oficjalnych źródeł z podpisami cyfrowymi
 explanation: |
   Aby korzystać z Bitcoin bez zaufania, musisz uruchomić w pełni walidujący węzeł Bitcoin, który niezależnie weryfikuje, czy wszystkie bloki są zgodne z zasadami konsensusu, sprawdza harmonogram emisji monet i zapobiega podwójnym wydatkom. Gwarantuje to, że nie zlecasz weryfikacji innym podmiotom, utrzymując właściwość braku zaufania. Korzystanie z giełd lub usług stron trzecich oznacza zaufanie innym, że powiedzą ci prawdę o stanie łańcucha bloków. Chociaż zweryfikowane oprogramowanie jest ważne dla bezpieczeństwa, nie eliminuje ono potrzeby posiadania własnego węzła walidacyjnego, aby osiągnąć prawdziwą niezawodność w systemie Bitcoin.
+reviewed: false

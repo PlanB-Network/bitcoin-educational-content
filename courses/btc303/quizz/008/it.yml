@@ -6,3 +6,4 @@ wrong_answers:
   - Le commissioni di transazione vengono regolate automaticamente per evitare attacchi economici da parte di autorità centralizzate
 explanation: |
   Il Bitcoin ottiene la resistenza alla censura attraverso la decentralizzazione dei minatori, dove l'ordine delle transazioni viene eseguito collettivamente da tutti i minatori che decidono di partecipare. Questo crea un sistema dinamico in cui chiunque può entrare o uscire liberamente dal processo mining, eliminando ogni singolo punto di controllo che potrebbe essere spinto a censurare le transazioni. Le risposte sbagliate descrivono caratteristiche tecniche, parti fidate o meccanismi economici che non affrontano la questione centrale del controllo decentralizzato sull'elaborazione delle transazioni.
+reviewed: false

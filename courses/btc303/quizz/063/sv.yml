@@ -6,3 +6,4 @@ wrong_answers:
   - GitHub-förvaret upprätthåller en huvudnyckel som validerar alla andra förvarskopior över hela världen
 explanation: |
   Enligt Jameson Lopps analys som citeras i kapitlet är Bitcoin Core's GitHub-arkiv tekniskt identiskt med alla andra kopior. Dess betydelse är rent social - det har blivit en central punkt för utvecklingssamordning. Förvaret fungerar som en bekvämlighetsfråga snarare än teknisk auktoritet, och om det försvann skulle en ny kontaktpunkt naturligtvis dyka upp. Detta visar på Bitcoin:s decentraliserade natur där ingen enskild databas har teknisk överlägsenhet över andra.
+reviewed: false

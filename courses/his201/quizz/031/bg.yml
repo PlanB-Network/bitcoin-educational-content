@@ -1,0 +1,9 @@
+question: От коя цифрова валутна система се е интересувал инженерът на Google Майк Хърн, преди да открие Bitcoin?
+answer: Ripple
+wrong_answers:
+  - Liberty Reserve
+  - eLD
+  - RPOW
+explanation: |
+  Райън Фугер за първи път чува за Bitcoin в рамките на своя проект в Google Group през април 2009 г. Той веднага се свързва с Satoshi, за да зададе въпроси.
+reviewed: true

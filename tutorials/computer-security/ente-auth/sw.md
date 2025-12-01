@@ -6,15 +6,15 @@ description: Kithibitishaji cha 2FA kilichosimbwa kwa njia huria kutoka mwisho h
 
 
 
-Uthibitishaji wa vipengele viwili (2FA) umekuwa muhimu sana katika kupata akaunti zetu za mtandaoni. Mbali na nenosiri lako la kawaida, inahitaji msimbo wa muda, ambao kawaida huzalishwa na programu maalum. Utaratibu huu, unaojulikana kama TOTP (Nenosiri la Wakati Mmoja) unahakikisha kwamba hata nenosiri lako likiingiliwa, mvamizi hataweza kufikia akaunti yako bila kuwa na kipengele hiki cha pili, kinachosasishwa kila baada ya sekunde 30.
+Two-factor authentication (2FA) umekuwa muhimu sana katika kupata akaunti zetu za mtandaoni. Mbali na nenosiri lako la kawaida, inahitaji msimbo wa muda, ambao kawaida huzalishwa na programu maalum. Utaratibu huu, unaojulikana kama TOTP (Time-based One-Time Password) unahakikisha kwamba hata nenosiri lako likiingiliwa, mvamizi hataweza kufikia akaunti yako bila kuwa na kipengele hiki cha pili, kinachosasishwa kila baada ya sekunde 30.
 
 
 
-Walakini, kuchagua programu sahihi ya uthibitishaji sio jambo dogo. Kithibitishaji cha Google, ingawa ni maarufu, kina vikwazo vikubwa: msimbo wa umiliki hauwezekani kukaguliwa, kusawazisha bila usimbaji fiche kutoka mwisho hadi mwisho, na hatari ya kupoteza jumla ya misimbo kukitokea tatizo kwenye simu yako. Suluhu zingine, kama vile Authy, zinahitaji nambari ya simu na hazihakikishi usiri kamili.
+Walakini, kuchagua programu sahihi ya uthibitishaji sio jambo dogo. Google Authenticator, ingawa ni maarufu, kina vikwazo vikubwa: msimbo wa umiliki hauwezekani kukaguliwa, kusawazisha bila usimbaji fiche kutoka mwisho hadi mwisho, na hatari ya kupoteza jumla ya misimbo kukitokea tatizo kwenye simu yako. Suluhu zingine, kama vile Authy, zinahitaji nambari ya simu na hazihakikishi usiri kamili.
 
 
 
-**Ente Auth** inajitokeza kama njia mbadala ya kisasa na salama. Programu hii isiyolipishwa ya programu huria, ya jukwaa tofauti, iliyotengenezwa na timu iliyo nyuma ya [Ente Photos](https://ente.io), inatoa nakala rudufu za wingu zilizosimbwa kutoka mwanzo hadi mwisho na usawazishaji kati ya vifaa vyako vyote. Tofauti na suluhu za umiliki, Ente Auth hukupa udhibiti kamili wa misimbo yako ya uthibitishaji bila kuhatarisha faragha yako.
+**Ente Auth** inajitokeza kama njia mbadala ya kisasa na salama. Programu hii isiyolipishwa ya programu huria, ya jukwaa tofauti, iliyotengenezwa na timu iliyo nyuma ya [Ente Photos](https://ente.io), inatoa nakala rudufu za cloud zilizosimbwa kutoka mwanzo hadi mwisho na usawazishaji kati ya vifaa vyako vyote. Tofauti na suluhu za umiliki, Ente Auth hukupa udhibiti kamili wa misimbo yako ya uthibitishaji bila kuhatarisha faragha yako.
 
 
 
@@ -26,7 +26,7 @@ Katika somo hili, tutakuonyesha hatua kwa hatua jinsi ya kusakinisha na kutumia 
 
 
 
-Ente Auth iliundwa na timu ya Ente Photos, huduma ya uhifadhi wa picha iliyosimbwa hadi mwisho na iliyo rafiki kwa faragha. Kweli kwa falsafa ya Ente ("Ente" inamaanisha "yangu" katika Kimalayalam, ikiashiria udhibiti wa data yako), Ente Auth iliundwa ili kuwapa watumiaji udhibiti kamili wa misimbo yao ya uthibitishaji wa vipengele viwili.
+Ente Auth iliundwa na timu ya Ente Photos, huduma ya uhifadhi wa picha iliyosimbwa hadi mwisho na iliyo rafiki kwa faragha. Kweli kwa falsafa ya Ente ("Ente" inamaanisha "yangu" katika Kimalayalam, ikiashiria udhibiti wa data yako), Ente Auth iliundwa ili kuwapa watumiaji udhibiti kamili wa misimbo yao ya two-factor authentication.
 
 
 
@@ -38,15 +38,15 @@ Ente Auth iliundwa na timu ya Ente Photos, huduma ya uhifadhi wa picha iliyosimb
 
 
 
-**Nakala rudufu ya wingu iliyosimbwa kutoka mwisho hadi mwisho**: Nambari zako zimehifadhiwa mtandaoni kwa usalama. Ni wewe tu unayeweza kusimbua - ufunguo wa usimbaji unatokana na nenosiri lako na unajulikana kwako pekee. Ente (seva) haina ufahamu wa siri zako, au hata majina ya akaunti yako, kwani kila kitu kimesimbwa kwa upande wa mteja kwa kutumia usanifu usio na maarifa.
+**Nakala rudufu ya cloud iliyosimbwa kutoka mwisho hadi mwisho**: Nambari zako zimehifadhiwa mtandaoni kwa usalama. Ni wewe tu unayeweza kusimbua - ufunguo wa usimbaji unatokana na nenosiri lako na unajulikana kwako pekee. Ente (server) haina ufahamu wa siri zako, au hata majina ya akaunti yako, kwani kila kitu kimesimbwa kwa upande wa mteja kwa kutumia usanifu usio na maarifa.
 
 
 
-**Usawazishaji wa vifaa vingi**: Unaweza kusakinisha Ente Auth kwenye vifaa kadhaa (simu mahiri, kompyuta kibao, kompyuta) na ufikie misimbo yako kwenye vyote. Mabadiliko yoyote huenezwa kiotomatiki na papo hapo kwa vifaa vyako vingine kupitia wingu iliyosimbwa kwa njia fiche, hivyo kukupa wepesi mkubwa wa kubadilika katika kazi yako ya kila siku.
+**Usawazishaji wa vifaa vingi**: Unaweza kusakinisha Ente Auth kwenye vifaa kadhaa (simu mahiri, kompyuta kibao, kompyuta) na ufikie misimbo yako kwenye vyote. Mabadiliko yoyote huenezwa kiotomatiki na papo hapo kwa vifaa vyako vingine kupitia cloud iliyosimbwa kwa njia fiche, hivyo kukupa wepesi mkubwa wa kubadilika katika kazi yako ya kila siku.
 
 
 
-**Minimalist, angavu Interface**: Programu hutoa Interface iliyoratibiwa, rahisi kujifunza hata kwa watumiaji wasio wa kiufundi. Akaunti za 2FA zinaonyeshwa na jina la huduma, kuingia kwako na nambari ya nambari 6, iliyosasishwa kwa wakati halisi. Ente Auth pia huonyesha msimbo unaofuata sekunde chache mapema ili kuepuka kukamatwa na muda wa matumizi kuisha.
+**Minimalist, transparent interface**: Programu hutoa Interface iliyoratibiwa, rahisi kujifunza hata kwa watumiaji wasio wa kiufundi. Akaunti za 2FA zinaonyeshwa na jina la huduma, kuingia kwako na nambari ya nambari 6, iliyosasishwa kwa wakati halisi. Ente Auth pia huonyesha msimbo unaofuata sekunde chache mapema ili kuepuka kukamatwa na muda wa matumizi kuisha.
 
 
 
@@ -116,7 +116,7 @@ Una chaguzi kadhaa:
 ### iOS (iPhone/iPad)
 
 
-Sakinisha Ente Auth moja kwa moja kutoka kwa Apple App Store kwa kutafuta jina la programu. Programu ya iOS pia inaweza kuendeshwa kwenye Mac zilizo na chipsi za Apple Silicon (M1/M2) kupitia Duka la Programu la Mac.
+Sakinisha Ente Auth moja kwa moja kutoka kwa Apple App Store kwa kutafuta jina la programu. Programu ya iOS pia inaweza kuendeshwa kwenye Mac zilizo na chips za Apple Silicon (M1/M2) kupitia Duka la Programu la Mac.
 
 
 
@@ -130,7 +130,7 @@ Ente Auth inatoa programu asilia za eneo-kazi. Tembelea [ente.io/download](https
 
 
 - **Windows**: Kisakinishi cha EXE kimetolewa
-- **macOS**: Buruta-na-dondosha picha ya diski ya DMG katika Programu
+- **macOS**: Buruta-na-dondosha picha ya disk ya DMG katika Programu
 - **Linux**: Miundo kadhaa inayopatikana (AppImage portable, .deb kwa Debian/Ubuntu, .rpm kwa Fedora/Red Hat)
 
 
@@ -170,7 +170,7 @@ Unapozindua Ente Auth kwa mara ya kwanza, una chaguo mbili:
 
 
 
-**Hali ya nje ya mtandao**: Chagua "Tumia bila hifadhi rudufu" ili kutumia programu ndani ya nchi bila wingu. Katika hali hii, misimbo yako itasalia kwenye kifaa, lakini utahitaji kuzihamisha wewe mwenyewe ili kuepuka kuzipoteza.
+**Hali ya nje ya mtandao**: Chagua "Tumia bila hifadhi rudufu" ili kutumia programu ndani ya nchi bila cloud. Katika hali hii, misimbo yako itasalia kwenye kifaa, lakini utahitaji kuzihamisha wewe mwenyewe ili kuepuka kuzipoteza.
 
 
 
@@ -202,7 +202,7 @@ Ninapendekeza sana kuwezesha ulinzi wa ndani kwa kutumia msimbo au bayometriki. 
 
 
 
-Ulinzi huu huzuia ufikiaji usioidhinishwa wa misimbo yako ikiwa mtu atapata ufikiaji wa simu yako ambayo haijafunguliwa. Kumbuka kuwa kufuli hii ni kizuizi cha ziada: data yako inasalia ikiwa imesimbwa kutoka mwisho hadi mwisho hata bila ulinzi huu.
+Ulinzi huu huzuia mtu yeyote kupata misimbo yako bila ruhusa ikiwa simu yako bado haijafunguliwa. Kumbuka kuwa kufuli hiki ni kizuizi cha ziada: data yako inabaki salama, ikiwa tayari imesimbwa kutoka mwisho hadi mwisho, hata bila kutumia ulinzi huu.
 
 
 
@@ -226,7 +226,7 @@ Ili kuongeza akaunti mpya ya 2FA, hebu tuchukue mfano halisi wa kuwezesha 2FA kw
 
 
 
-**Upande wa huduma (Bull Bitcoin)**: Ingia katika akaunti yako ya Bull Bitcoin, nenda kwenye mipangilio ya usalama, na uwashe uthibitishaji wa vipengele viwili.
+**Upande wa huduma (Bull Bitcoin)**: Ingia katika akaunti yako ya Bull Bitcoin, nenda kwenye mipangilio ya usalama, na uwashe two-factor authentication.
 
 
 
@@ -242,7 +242,7 @@ Ili kuongeza akaunti mpya ya 2FA, hebu tuchukue mfano halisi wa kuwezesha 2FA kw
 
 
 
-*Chaguo la kuwezesha uthibitishaji wa mambo mawili kwenye Bull Bitcoin*
+*Chaguo la kuwezesha two factor authentication kwenye Bull Bitcoin*
 
 
 
@@ -366,11 +366,11 @@ Ente Auth inatoa vipengele kadhaa vya vitendo:
 
 
 
-**Uhamishaji/uagizaji salama**: Ente Auth hukuruhusu kuhamisha misimbo yako kwa programu zingine, au kuziagiza kutoka kwa Kithibitishaji cha Google na suluhu zingine. Uhamishaji ni kupitia faili iliyosimbwa kwa njia fiche au msimbo wa QR, unaohakikisha kubebeka kwa data yako bila kuhatarisha usalama.
+**Uhamishaji/uagizaji salama**: Ente Auth hukuruhusu kuhamisha misimbo yako kwa programu zingine, au kuziagiza kutoka kwa Google Authenticator na suluhu zingine. Uhamishaji ni kupitia faili iliyosimbwa kwa njia fiche au msimbo wa QR, unaohakikisha kubebeka kwa data yako bila kuhatarisha usalama.
 
 
 
-**Ufunguo wa urejeshaji wa BIP39**: Programu hutengeneza kiotomati maneno ya urejeshaji ya maneno 24 kulingana na kiwango cha BIP39 (Bitcoin Improvement Proposal), sawa na pochi za cryptocurrency. Maneno haya ndiyo ufunguo wako wa mwisho wa urejeshaji, unaokuwezesha kurejesha misimbo yako yote hata ukisahau nenosiri lako kuu.
+**Ufunguo wa urejeshaji wa BIP39**: Programu hutengeneza kiotomati maneno ya urejeshaji ya maneno 24 kulingana na kiwango cha BIP39 (Bitcoin Improvement Proposal), sawa na wallet za cryptocurrency. Maneno haya ndiyo ufunguo wako wa mwisho wa urejeshaji, unaokuwezesha kurejesha misimbo yako yote hata ukisahau nenosiri lako kuu.
 
 
 
@@ -446,11 +446,11 @@ Mipangilio ya jumla ni pamoja na:
 
 
 
-Unapoongeza akaunti iliyo na akaunti iliyounganishwa ya Ente, programu tumizi husimba data hii nyeti mara moja kwa kutumia ufunguo wako mkuu (unaotokana na nenosiri lako). Data iliyosimbwa kwa njia fiche hutumwa kwa seva ya Ente kwa uhifadhi.
+Unapoongeza akaunti iliyo na akaunti iliyounganishwa ya Ente, programu tumizi husimba data hii nyeti mara moja kwa kutumia ufunguo wako mkuu (unaotokana na nenosiri lako). Data iliyosimbwa kwa njia fiche hutumwa kwa server ya Ente kwa uhifadhi.
 
 
 
-Shukrani kwa utaratibu huu, hifadhi rudufu ya wingu iliyosimbwa kutoka mwisho hadi mwisho ya misimbo yako inapatikana kila wakati. Ukipoteza kifaa chako, sakinisha tena Ente Auth na uunganishe tena: programu itapakua kiotomatiki na kusimbua misimbo yako yote.
+Shukrani kwa utaratibu huu, nakala rudufu ya misimbo yako iliyosimbwa kutoka mwisho hadi mwisho kwenye cloud inapatikana kila wakati. Ukipoteza kifaa chako, sakinisha tena Ente Auth na uunganishe: programu itapakua kiotomatiki na kusimbua misimbo yako yote.
 
 
 
@@ -458,7 +458,7 @@ Shukrani kwa utaratibu huu, hifadhi rudufu ya wingu iliyosimbwa kutoka mwisho ha
 
 
 
-Ikiwa unatumia Ente Auth kwenye simu mahiri na kompyuta, nyongeza au mabadiliko yoyote kwenye kifaa kimoja yanaonekana ndani ya sekunde kwa upande mwingine. Usawazishaji huu unapitia wingu la Ente, lakini data inavyosimbwa kutoka mwisho hadi mwisho, seva huona tu maudhui ambayo hayasomeki.
+Ikiwa unatumia Ente Auth kwenye simu mahiri na kompyuta, nyongeza au mabadiliko yoyote kwenye kifaa kimoja yanaonekana ndani ya sekunde kwa upande mwingine. Usawazishaji huu unapitia cloud ya Ente, lakini data inavyosimbwa kutoka mwisho hadi mwisho, server huona tu maudhui ambayo hayasomeki.
 
 
 
@@ -482,7 +482,7 @@ Kwa upande wa usiri, si Ente wala mtu mwingine yeyote anayeweza kufikia siri zak
 
 
 
-Usawazishaji unahitaji Mtandao, lakini Ente Auth hufanya kazi kikamilifu nje ya mtandao kwenye kila kifaa, kwa kuwa data yote huhifadhiwa ndani. Mabadiliko ya nje ya mtandao yamewekwa kwenye foleni na kusawazishwa mara tu muunganisho unaporejeshwa.
+Usawazishaji unahitaji mtandao, lakini Ente Auth hufanya kazi kikamilifu nje ya mtandao kwenye kila kifaa, kwani data yote huhifadhiwa ndani yake. Mabadiliko yaliyofanywa bila mtandao yamewekwa kwenye foleni na yatafasiriwa kiotomatiki mara tu kifaa kipo mtandaoni..
 
 
 
@@ -498,11 +498,11 @@ Ente Auth inatokana na usimbaji fiche thabiti kutoka mwisho hadi mwisho na usani
 
 
 
-**Usanifu usio na maarifa:** Ente haiwezi kufikia data yako kimwili. Hata metadata (majina ya huduma, vitambulisho, noti) husimbwa kwa njia fiche kwa upande wa mteja kabla ya kutumwa. Mbinu hii inahakikisha kwamba, katika tukio la kushambuliwa kwa seva zako au ombi la serikali, Ente inaweza tu kufichua data iliyosimbwa ambayo haiwezi kusomwa bila nenosiri lako.
+**Usanifu usio na maarifa:** Ente haiwezi kufikia data yako kimwili. Hata metadata (majina ya huduma, vitambulisho, noti) husimbwa kwa njia fiche kwa upande wa mteja kabla ya kutumwa. Mbinu hii inahakikisha kwamba, katika tukio la kushambuliwa kwa server zako au ombi la serikali, Ente inaweza tu kufichua data iliyosimbwa ambayo haiwezi kusomwa bila nenosiri lako.
 
 
 
-**Usimbaji fiche wa ndani**: Mchakato wa usimbaji fiche hufanyika kabisa kwenye kifaa chako kabla ya kutumwa kwa wingu. Seva za Ente hupokea na kuhifadhi data iliyosimbwa pekee, na hivyo kufanya ufikiaji usioidhinishwa usiwezekane, hata kwa wasimamizi wa huduma.
+**Usimbaji fiche wa ndani**: Mchakato wa usimbaji fiche hufanyika kabisa kwenye kifaa chako kabla ya kutumwa kwa cloud. server za Ente hupokea na kuhifadhi data iliyosimbwa pekee, na hivyo kufanya ufikiaji usioidhinishwa usiwezekane, hata kwa wasimamizi wa huduma.
 
 
 
@@ -516,9 +516,9 @@ Kwa vile msimbo ni [chanzo huria](https://github.com/ente-io/auth), jumuiya inaw
 
 
 
-- **Cure53** (Ujerumani): Maombi na ukaguzi wa usalama wa kriptografia
-- **Programu ya Alama** (Ufaransa): Utaalam maalum wa kriptografia
-- **Haiwezekani** (India): Jaribio la kupenya na uchanganuzi wa kuathirika
+- **Cure53** (Ujerumani): Maombi na ukaguzi wa usalama wa cryptography
+- **Program d’Etique** (Ufaransa): Utaalam maalum wa cryptography
+- **Impossible** (India): Jaribio la kupenya na uchanganuzi wa kuathirika
 
 
 
@@ -538,7 +538,7 @@ Ente Auth inatekeleza [sera ya faragha ya mfano](https://ente.io/privacy/) kulin
 
 
 
-**Utiifu wa GDPR**: Ente inatii kikamilifu Sheria ya Jumla ya Ulinzi wa Data ya Ulaya. Una haki ya kufikia, kusahihisha au kufuta data yako wakati wowote. Usafirishaji wa data](https://ente.io/take-control/) ni kubofya tu, na kufuta kabisa akaunti yako kufuta data yako yote kutoka kwa seva.
+**Utiifu wa GDPR**: Ente inatii kikamilifu Sheria ya Jumla ya Ulinzi wa Data ya Ulaya. Una haki ya kufikia, kusahihisha au kufuta data yako wakati wowote. Usafirishaji wa data](https://ente.io/take-control/) ni kubofya tu, na kufuta kabisa akaunti yako kufuta data yako yote kutoka kwa server.
 
 
 
@@ -546,7 +546,7 @@ Ente Auth inatekeleza [sera ya faragha ya mfano](https://ente.io/privacy/) kulin
 
 
 
-Muundo wa biashara wa Ente unategemea huduma ya kulipia ya Ente Photos, inayotuwezesha kutoa Ente Auth **bila malipo na bila vikwazo** bila kuhatarisha faragha yako kwa kuchuma mapato kutokana na data yako. Mbinu hii inahakikisha uendelevu wa huduma bila kutegemea utangazaji au uuzaji upya wa data ya kibinafsi.
+Muundo wa biashara wa Ente unategemea huduma ya kulipia ya Ente Photos, ambayo inatupa uwezo wa kutoa Ente Auth bila malipo na bila vizuizi, huku ikihakikisha faragha yako haidhoofishwi. Mbinu hii inahakikisha huduma endelevu bila kutegemea matangazo au kuuza data binafsi ya watumiaji.
 
 
 
@@ -562,7 +562,7 @@ Muundo wa biashara wa Ente unategemea huduma ya kulipia ya Ente Photos, inayotuw
 | **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(apps desktop supprimées août 2024)* |
 | **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(récent, moins établi)*              |
 
-Ente Auth inajitokeza kama mojawapo ya suluhu chache za kuchanganya manufaa yote: uwazi wa msimbo wa chanzo, hifadhi rudufu ya wingu iliyosimbwa kwa njia fiche na usawazishaji wa majukwaa mbalimbali.
+Ente Auth inajitokeza kama mojawapo ya suluhu chache za kuchanganya manufaa yote: uwazi wa msimbo wa chanzo, hifadhi rudufu ya cloud iliyosimbwa kwa njia fiche na usawazishaji wa majukwaa mbalimbali.
 
 
 
@@ -582,7 +582,7 @@ Ente Auth ni bora kwa watu wanaojali usalama ambao huwasha 2FA kwa utaratibu. Hu
 
 
 
-Programu inakuja yenyewe ikiwa unatumia vifaa kadhaa. Unaweza kuhifadhi misimbo yako kwenye simu mahiri na kompyuta kibao, au kushiriki misimbo fulani ya familia (Netflix, wingu la familia) kwa usawa na kwa usalama.
+Programu inakuja yenyewe ikiwa unatumia vifaa kadhaa. Unaweza kuhifadhi misimbo yako kwenye simu mahiri na kompyuta kibao, au kushiriki misimbo fulani ya familia (Netflix, cloud la familia) kwa usawa na kwa usalama.
 
 
 
@@ -638,7 +638,7 @@ Kwa timu zinazosimamia akaunti nyeti, Ente Auth huwezesha ushirikiano wakati wa 
 
 
 
-Ente Auth inawakilisha suluhu ya kisasa na ya kina kwa uthibitishaji wa vipengele viwili. Kwa kuchanganya usalama, uwazi na urahisi wa kutumia, programu hii ya programu huria inakidhi mahitaji ya watumiaji wanaohitaji bila kujinyima urahisi.
+Ente Auth inawakilisha suluhu ya kisasa na ya kina kwa two-factor authentication. Kwa kuchanganya usalama, uwazi na urahisi wa kutumia, programu hii ya programu huria inakidhi mahitaji ya watumiaji wanaohitaji bila kujinyima urahisi.
 
 
 
@@ -661,7 +661,7 @@ Iwe wewe ni mtu binafsi unayetafuta kulinda akaunti zako za kibinafsi, au timu i
 
 - **Tovuti rasmi**: [ente.io/auth](https://ente.io/auth)
 - **Kituo cha usaidizi**: [help.ente.io/auth](https://help.ente.io/auth)
-- **Blogu ya kiufundi**: [ente.io/blog](https://ente.io/blog)
+- **Blog ya kiufundi**: [ente.io/blog](https://ente.io/blog)
 
 
 

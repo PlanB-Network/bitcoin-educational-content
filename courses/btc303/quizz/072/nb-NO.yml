@@ -6,3 +6,4 @@ wrong_answers:
   - Konkurransen mellom lag to-løsninger og on-chain-skaleringsmetoder om begrensede utviklingsressurser og støtte fra samfunnet
 explanation: |
   Maxwell identifiserte et tosidig problem der Bitcoin mister sine fordeler i begge retninger: Hvis ressursbruken er for høy i forhold til tilgjengelig teknologi, blir validering for kostbart og priser ut brukere som da må stole på pålitelige tredjeparter i stedet for å validere på egen hånd. Motsatt, hvis kapasiteten er for lav og transaksjonsmetodene er ineffektive, blir det uoverkommelig dyrt å få tilgang til blokkjeden for tvisteløsning, noe som igjen presser brukerne mot betrodde tjenester. Dette skaper en hårfin balanse som skaleringsløsninger må navigere i.
+reviewed: false

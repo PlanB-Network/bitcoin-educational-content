@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin si divide in più catene parallele per distribuire il carico computazionale mantenendo le stesse garanzie di sicurezza per tutti gli utenti
 explanation: |
   Maxwell ha identificato un compromesso fondamentale in cui i requisiti eccessivi di risorse spingono gli utenti verso terze parti fidate piuttosto che verso la convalida indipendente. Quando i costi di convalida diventano proibitivi, gli utenti non possono permettersi di gestire nodi completi e devono affidarsi ad altri, minando la natura priva di fiducia di Bitcoin. Le risposte sbagliate suggeriscono erroneamente risultati vantaggiosi (maggiore sicurezza, regolazioni automatiche o garanzie mantenute) quando l'utilizzo di risorse elevate costringe in realtà alla centralizzazione e alla dipendenza dalla fiducia.
+reviewed: false

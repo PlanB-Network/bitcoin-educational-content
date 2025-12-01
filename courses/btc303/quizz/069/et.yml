@@ -6,3 +6,4 @@ wrong_answers:
   - Valitsuse poolt heakskiidetud valideerimissõlmede loomine, mis suudavad tehinguid tõhusamalt töödelda
 explanation: |
   Raamatus defineeritakse Bitcoin skaleerimist kui "Bitcoin kasutusvõimsuse suurendamist ilma tsensuurikindluse vähenemiseta" Ruumitõhus allkirja kontrollimine sobib otseselt selle määratlusega, kuna tehingud kasutavad vähem baite, säilitades samal ajal detsentraliseerituse. Kõik valed vastused seavad ohtu tsensuurikindluse: tsentraliseeritud börsid toovad sisse usaldusväärsed kolmandad osapooled, tehingute filtreerimine loob tsensuurimehhanisme ja valitsuse poolt heakskiidetud sõlmed tsentraliseerivad valideerimisautoriteeti. Tõeline skaleerimine säilitab Bitcoin põhiomadused, parandades samal ajal tõhusust.
+reviewed: false

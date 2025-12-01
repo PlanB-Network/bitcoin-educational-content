@@ -6,3 +6,4 @@ wrong_answers:
   - Blocos maiores criam mais conflitos de transação entre blocos concorrentes, tornando mais difícil determinar qual o bloco que deve ser aceite
 explanation: |
   A resposta correta identifica o mecanismo central subjacente aos blocos obsoletos. Quando os blocos são maiores, eles exigem mais largura de banda para serem transferidos entre os nós e mais tempo para serem validados. Durante este período de propagação alargado, vários mineiros podem encontrar blocos concorrentes à mesma altura, uma vez que ainda não receberam o bloco mais recente. Isto cria uma condição de corrida em que apenas um bloco pode ser aceite, tornando os outros obsoletos. As respostas erradas confundem este problema de propagação com a dificuldade do mining, os mecanismos de consenso ou os conflitos de transação, que são preocupações distintas do problema de tempo que causa os blocos obsoletos.
+reviewed: false

@@ -1,7 +1,7 @@
-question: Кои от тях са странични вериги на Bitcoin?
-answer: Liquid и подложка
+question: Кои са странични вериги на Bitcoin?
+answer: Liquid и Rootstock
 wrong_answers:
-  - Полигон и арбитър
+  - Полигон и Arbitrum
   - Юпитер и Фантом
   - Bitcoin Cash и Bitcoin Satoshi Vision
 explanation: |

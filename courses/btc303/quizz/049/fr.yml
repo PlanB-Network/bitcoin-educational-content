@@ -6,3 +6,4 @@ wrong_answers:
   - L'offre fixe de Bitcoin rend économiquement impossible l'absorption des pertes résultant d'attaques réussies, contrairement aux systèmes financiers traditionnels
 explanation: |
   La bonne réponse reflète l'idée clé d'Andrew Poelstra sur les systèmes en ligne par rapport aux systèmes physiques. Contrairement aux bâtiments où nous acceptons un certain risque et où nous comptons sur les forces de l'ordre, Bitcoin opère dans un environnement pseudonyme où les attaquants peuvent agir sans visibilité ni conséquences. Cette différence fondamentale signifie que chaque faiblesse connue sera inévitablement exploitée, ce qui rend une sécurité complète essentielle plutôt qu'une gestion des risques facultative.
+reviewed: false

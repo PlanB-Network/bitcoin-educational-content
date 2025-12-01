@@ -22,7 +22,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.36
+    reward: 4.37
   - language: de
     last_contribution_date:
     urgency: 1
@@ -43,12 +43,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.36
+    reward: 4.37
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.36
+    reward: 4.37
   - language: id
     last_contribution_date:
     urgency: 1
@@ -69,7 +69,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.36
+    reward: 4.37
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -79,7 +79,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.36
+    reward: 4.37
   - language: vi
     last_contribution_date:
     urgency: 1
@@ -94,17 +94,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.56
+    reward: 7.57
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.36
+    reward: 4.37
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.36
+    reward: 4.37
   - language: sw
     last_contribution_date: '2025-08-18'
     urgency: 1
@@ -120,7 +120,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.36
+    reward: 4.37
   - language: sv
     last_contribution_date:
     urgency: 1

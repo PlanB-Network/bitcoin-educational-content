@@ -6,3 +6,4 @@ wrong_answers:
   - Større blokker skaper flere transaksjonskonflikter mellom konkurrerende blokker, noe som gjør det vanskeligere å avgjøre hvilken blokk som skal godtas
 explanation: |
   Det riktige svaret identifiserer kjernemekanismen bak uaktuelle blokker. Når blokkene er større, krever de mer båndbredde å overføre mellom noder og mer tid å validere. I løpet av denne forlengede forplantningsperioden kan flere utvinnere finne konkurrerende blokker i samme høyde, siden de ennå ikke har mottatt den nyeste blokken. Dette skaper en kappløpstilstand der bare én blokk til slutt kan aksepteres, slik at de andre blir foreldet. De gale svarene forveksler dette forplantningsproblemet med mining-vanskeligheter, konsensusmekanismer eller transaksjonskonflikter, som er separate problemer fra tidsproblemet som forårsaker foreldede blokker.
+reviewed: false

@@ -5,5 +5,5 @@ wrong_answers:
   - RocksDB
   - Бъркли DB
 explanation: |
-  Ядрото на Bitcoin използва LevelDB в blocks/index/, за да индексира блокове, като ускорява търсенето и обслужването на равнопоставени потребители.
+  Bitcoin core използва LevelDB в blocks/index/, за да индексира блокове, като ускорява търсенето и обслужването на равнопоставени потребители.
 reviewed: true

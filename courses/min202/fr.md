@@ -267,7 +267,7 @@ Ici certaines des machines présentées sont même marketées par leur fabriquan
 
 Le projet Bitaxe est né du constat que la centralisation du minage tant au niveau des pool de minage que de fabricants de machines pouvait à terme causer un problème pour Bitcoin. Il était temps de tenter de reprendre un peu de contrôle sur cet aspect fondamental du projet qu'est le mining.
 
-Le problème c'est que les puces ASIC qui sont ensuite assemblées par centaines au sein des grosses machines que nous connaissons bien et qu'on retrouve dans les ferme de mining) ne sont pas vendues au détail par leurs fabricants pour être utilisée par qui le veut. PAr exemple Bitmain, le plus gros constructeur de machine ASIC du monde, réserve précieusement ses propres puces ASIC à ses propres machines (les fameux Antminer). Et c'est également le cas pour tous les autres fabricants.
+Le problème c'est que les puces ASIC qui sont ensuite assemblées par centaines au sein des grosses machines que nous connaissons bien et qu'on retrouve dans les ferme de mining) ne sont pas vendues au détail par leurs fabricants pour être utilisée par qui le veut. Par exemple Bitmain, le plus gros constructeur de machine ASIC du monde, réserve précieusement ses propres puces ASIC à ses propres machines (les fameux Antminer). Et c'est également le cas pour tous les autres fabricants.
 
 Comment faire pour proposer une solution Open Source dans ces conditions. Tout simplement en achetant des machines Antminer complètes, en les désossant, et un déssoudant les puces ASIC, pour les réhabiliter et leur donner une seconde vie au sein du projet de mining open source le plus célèbre de l'écosystème Bitcoin: **[Bitaxe](https://github.com/bitaxeorg)**
 
@@ -370,14 +370,21 @@ Cette impressionante machine se rapproche en terme performance de ce que propose
 De nouveau, l'application Avalon Family permet le pilotage, et la connectivité s'effectue en WIFI avec possibilité de connexion au LAN en RJ45 avec un adaptateur. 
 
 https://bitcoinbazar.fr/en/products/avalon-q
-### LuckyMiner LV07 / LV08
 
-Pour terminer ce panorama non exhaustif des solutions de mining hardware pour miner à la maison, présentons
 ## 2.4 Panorama des solutions software
 
-### AxeOS
+Lorsqu'il s'agit de matériel de minage, le logiciel installé sur l'appareil  est appelé "firmware". Ce logiciel se compose en synthèsepour ce qui de l'OS (Operating System) de l'appareil, du logiciel de minage, et de l'interface web / application mobile, qui vous permettra d'interagir facilement avec votre miner depuis un navigateur d'ordinateur classique, ou votre smartphone.
+
+Nous présenterons ici un aperçu non exhaustif des différents logiciels qui seotn installés sur les machines de minage des différents contructeurs, en s'attardant sur davantage sur les machines qui font l'objets de cette formation, c'est à dire celles que nous instrallerons à la maison.
+### AxeOS & Esp-Miner
+
+
 
 ### Braiins OS
+
+### Avalon Family App
+
+
 
 
 

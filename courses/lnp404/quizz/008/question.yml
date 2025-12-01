@@ -9,5 +9,5 @@ proofreading:
     last_contribution_date: 2025-11-24
     urgency: 1
     contributor_names:
-    - jramos
-    reward: 1
+      - jramos
+    reward: 0.1

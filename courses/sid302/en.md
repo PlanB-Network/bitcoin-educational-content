@@ -317,6 +317,11 @@ Additionally, the SDK handles **Metadata Resolution**. It merges off-chain swap 
 
 <isCourseReview>true</isCourseReview>
 
+## Final Exam
+
+<chapterId>b13c4aa8-ced6-11f0-8515-afd3f381a001</chapterId>
+<isCourseExam>true</isCourseExam>
+
 ## Conclusion
 
 <chapterId>e30a5587-d74b-4360-87fb-bbf3de1b0ba8</chapterId>

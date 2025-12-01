@@ -16,10 +16,11 @@ Prêt à découvrir pourquoi la liberté constitue non seulement un idéal moral
 
 +++
 
-
 # Fondements de la liberté
+<partId>466452a9-508e-5bae-bc6a-9213814cf1e5</partId>
 
 ## Les faits humains à l'origine de la liberté et de la propriété 
+<chapterId>8eb03d97-ff42-51a1-bd42-9271d3213ac4</chapterId>
 
 ![video](https://www.youtube.com/watch?v=md-rDzJX0Ws)
 
@@ -48,6 +49,7 @@ Enfin, les sensations constituent un phénomène fondamentalement individuel. On
 
 
 ## La liberté d'expression et de la presse et l'éducation libre 
+<chapterId>e19775a3-6b1d-50ed-ba6b-979f93a78b4b</chapterId>
 
 ![video](https://www.youtube.com/watch?v=w9DUtXbOYEg)
 
@@ -76,6 +78,7 @@ La liberté de la presse joue un rôle spécifique dans le fonctionnement démoc
 L'histoire française illustre les conséquences de l'absence de cette liberté. Malgré l'influence des Lumières, l'absence de journaux accessibles au peuple empêcha la formation d'une opinion publique informée capable de soutenir les réformes de Turgot. Les transformations ne purent finalement s'accomplir que par la Révolution. La presse fait fonctionner le "tribunal de l'opinion publique", un mécanisme gratuit et rapide permettant d'observer les effets des lois et de signaler leurs aspects problématiques.
 
 ## La propriété et la liberté du travail 
+<chapterId>9b71cfae-425c-5255-a0f2-7a5b6805e284</chapterId>
 
 ![video](https://www.youtube.com/watch?v=Vjm91Lve_SA)
 
@@ -119,6 +122,7 @@ L'ensemble de ces observations ne constitue pas une théorie abstraite mais une 
 
 
 ## La non-agression, le respect de la propriété et la paix 
+<chapterId>e8519889-1178-521e-9de7-b32f6177d92b</chapterId>
 
 ![video](https://www.youtube.com/watch?v=Wlc3WLYFjXo)
 
@@ -152,6 +156,7 @@ La question du mariage illustre ces principes : le choix du conjoint doit être 
 
 
 ## Les contradictions factuelles des systèmes de contrainte 
+<chapterId>c13f7395-6734-5c64-b86c-af7922ffbcb0</chapterId>
 
 ![video](https://www.youtube.com/watch?v=8Ib5M-6Rr8M)
 
@@ -186,8 +191,10 @@ Concernant la propriété collective, Paul Leroy-Beaulieu expliquait que la joui
 Enfin, l'abolition de l'intérêt de l'argent et la réglementation des profits constituent des attaques contre des mécanismes d'échange volontaire. L'intérêt représente simplement le prix de la transmission entre demandeur et offreur de capitaux, reflétant la valeur du temps et du risque pour celui qui prête.
 
 # Histoire de la liberté
+<partId>367e5e75-44e1-5fab-803f-744cf5ddc85c</partId>
 
 ## L'homme préhistorique et le communisme primitif 
+<chapterId>ed3a71e6-6e1b-504a-8c53-fe21b891ad27</chapterId>
 
 ![video](https://www.youtube.com/watch?v=eS_LZr9iKto)
 
@@ -222,6 +229,7 @@ L'analyse historique démontre que la liberté n'est pas un état naturel perdu 
 
 
 ## Ancienne raison d'être de l'esclavage, du servage et de l'autorité politique 
+<chapterId>29fc841c-eb21-522d-818c-9b50c6558396</chapterId>
 
 ![video](https://www.youtube.com/watch?v=v7blehzJCr8)
 
@@ -250,6 +258,7 @@ La sujétion politique trouve ses racines dans les mêmes circonstances que l'es
 L'examen des raisons historiques de la non-liberté révèle une tendance fondamentale : les transformations techniques ont progressivement modifié les conditions d'existence, rendant la liberté non seulement possible mais nécessaire. Les institutions qui limitaient autrefois la liberté perdent leur raison d'être à mesure que les progrès créent de nouvelles possibilités d'autonomie. La liberté n'apparaît donc pas comme un idéal abstrait, mais comme une réalité concrète dont la réalisation dépend des conditions matérielles et sociales de chaque époque.
 
 ## Les progrès techniques et intellectuels émancipateurs 
+<chapterId>a9cf7eb2-4639-5b8a-8fd6-2ad0a9e7cff2</chapterId>
 
 ![video](https://www.youtube.com/watch?v=X4Htu6xM4Qk)
 
@@ -279,6 +288,7 @@ L'examen des stades de développement révèle une corrélation profonde entre c
 
 
 ## Coup d'œil général sur l'histoire
+<chapterId>3fffa63c-58bb-5c97-a2f5-fec90c05f182</chapterId>
 
 ![video](https://www.youtube.com/watch?v=Uzns3FT688k)
 
@@ -307,6 +317,7 @@ L'exemple français du XVIIIe siècle illustre la nécessité d'accorder les id�
 Les révolutions présentent des inconvénients significatifs : elles génèrent beaucoup de violence et tendent à imposer davantage de changements que ce pour quoi l'opinion publique est prête. Cette inadéquation explique les nombreux retours en arrière qui suivent les périodes révolutionnaires. Le travail patient des réformes progressives s'avère préférable car il permet d'adopter davantage de liberté au moment où les conditions le permettent véritablement. Les circonstances actuelles sont matériellement les plus favorables de l'histoire humaine pour que la liberté, la propriété et l'autonomie individuelle deviennent les piliers des sociétés modernes.
 
 ## Les nouvelles circonstances du XXIe siècle
+<chapterId>a1c0c590-d0f6-5a18-a949-67f7a568ca6d</chapterId>
 
 ![video](https://www.youtube.com/watch?v=0q_m3KIoq-U)
 
@@ -329,8 +340,10 @@ L'exemple français du XVIIIe siècle illustre la difficulté d'accorder les id�
 Cette réflexion conduit à une conclusion essentielle : les circonstances actuelles sont matériellement les plus favorables à la liberté qu'il n'y ait jamais eu dans l'histoire humaine. La leçon historique est claire : la liberté ne s'impose pas par décret ou par violence, mais émerge naturellement lorsque les conditions matérielles, techniques et intellectuelles créent l'environnement propice à son épanouissement.
 
 # Fonctionnement de la liberté
+<partId>d8b75eca-d6c5-535c-a659-2a0320783baf</partId>
 
 ## La capacité de gouvernement de soi-même
+<chapterId>aeca263f-cce0-5025-829e-4480b73394a6</chapterId>
 
 ![video](https://www.youtube.com/watch?v=aEoerhy6ERU)
 
@@ -361,6 +374,7 @@ Après avoir établi ces conditions préalables, il devient possible d'examiner 
 
 
 ## La production et le contrat
+<chapterId>0cb003fe-58ac-5fa5-89b1-97e558fc98ac</chapterId>
 
 ![video](https://www.youtube.com/watch?v=xcaV6Kb21O0)
 
@@ -388,6 +402,7 @@ De cette analyse découle une conclusion fondamentale : multiplier les échanges
 
 
 ## Rôle des profits et les prix
+<chapterId>549e00c3-eece-5401-be62-b82c774af893</chapterId>
 
 ![video](https://www.youtube.com/watch?v=qrE5GJWNwGE)
 
@@ -416,6 +431,7 @@ Dans un système de liberté, on peut se fier à l'intérêt personnel et aux vo
 La liberté économique présente l'avantage décisif de permettre une production qui n'est jamais trop anticipée ni trop tardive. Lorsque certains entrepreneurs imaginent prématurément qu'une demande existe pour une innovation, l'absence de profits les dissuade de poursuivre et ils ne sont pas suivis. Inversement, lorsque des profits sont à portée de main, des entrepreneurs ambitieux tentent l'expérience et découvrent que les ressources des consommateurs étaient disponibles. Ils sont alors rapidement suivis par d'autres, après un temps d'apprentissage des nouvelles techniques de production. Tout se fait ainsi en temps utile économique, fondé sur des satisfactions réelles demandées par les consommateurs, plutôt qu'en fonction de satisfactions politiques idéalisées qui n'existent pas dans les faits.
 
 ## L'intérêt personnel, l'innovation et le progrès
+<chapterId>958075af-fb8f-50d9-9bf5-4d9882e03072</chapterId>
 
 ![video](https://www.youtube.com/watch?v=tfH8FapqqsE)
 
@@ -445,6 +461,7 @@ L'intérêt personnel conduit ainsi, dans une société libre et par les faits s
 
 
 ## L'harmonie des intérêts et la paix
+<chapterId>370f4e98-021b-5c81-a109-3b57b689905f</chapterId>
 
 ![video](https://www.youtube.com/watch?v=hS1_Nkd_H9M)
 
@@ -472,6 +489,7 @@ La transition vers une société pacifique représente un long apprentissage. Le
 
 
 ## Les différentes variétés de non-liberté
+<chapterId>747ec342-bccd-5203-a198-c6e75505801b</chapterId>
 
 ![video](https://www.youtube.com/watch?v=DzE_iGRP5Z0)
 
@@ -500,6 +518,7 @@ La liberté ne peut être dissociée de la propriété ni de l'égalité, car ce
 Les systèmes de non-liberté se caractérisent précisément par l'inégalité : certains individus jouissent librement de leur propriété tandis que d'autres sont spoliés et voient leurs choix dictés par autrui. Yves Guyot a mené tous ces combats à la fin du XIXe siècle pour défendre le féminisme, lutter contre le racisme et l'antisémitisme, et s'opposer à ce qu'on appelle aujourd'hui la préférence nationale. Un système qui exclut une partie du genre humain de la jouissance de ses propres facultés n'est pas un système de liberté mais de tutelle à géométrie précise. La liberté du travail, de l'échange et du contrat doit s'appliquer à tous sans distinction, car empêcher des contrats avantageux en mettant de côté une partie de l'humanité contredit le principe même de la liberté individuelle qui permet l'harmonie du monde.
 
 ## Le remplacement du contrat par la politique
+<chapterId>061e5c30-cb50-5205-8a1b-e41b7d1d234a</chapterId>
 
 ![video](https://www.youtube.com/watch?v=LDMCs9wCTQc)
 
@@ -529,6 +548,7 @@ Les relations humaines fondées sur le contrat permettent un processus de décou
 
 
 ## Les pratiques du pouvoir via l'impôt, et les manipulations monétaires
+<chapterId>ca113581-6969-58b4-a9f8-996ab409be25</chapterId>
 
 ![video](https://www.youtube.com/watch?v=mfvPE1fO3-E)
 
@@ -564,6 +584,7 @@ La doctrine de la liberté oppose à cette logique le principe de sécession ind
 
 
 ## Les différentes variantes du protectionnisme
+<chapterId>3c1cf3d1-e2f5-5a95-9671-bf82b4de4a4e</chapterId>
 
 ![video](https://www.youtube.com/watch?v=VT3w2BjiD8E)
 
@@ -593,6 +614,7 @@ Ces auteurs identifiaient le protectionnisme ouvrier comme la future forme domin
 
 
 ## L'éternel échec de la non-liberté
+<chapterId>e4b15871-df1d-5d98-a395-16e24e7258d5</chapterId>
 
 ![video](https://www.youtube.com/watch?v=MRcLZ1SpAo8)
 
@@ -623,8 +645,10 @@ Le XXe siècle a apporté une confirmation éclatante aux prédictions des libé
 Cette histoire intellectuelle et factuelle de l'échec de la non-liberté constitue un enseignement fondamental. Elle montre que le prolongement de l'histoire de l'humanité pousse à rejeter toujours davantage l'idée communiste et l'idée de tutelle pour faire advenir la liberté, l'autonomie, la décision individuelle et l'échange volontaire et pacifique entre les personnes.
 
 # Sophismes de la non-liberté
+<partId>de66dc14-7dc0-52c5-aedf-5efe4820b9c1</partId>
 
 ## Le sophisme intellectuel: fausses définitions de la liberté
+<chapterId>9bd81fd4-20ed-5305-845a-d081811946ee</chapterId>
 
 ![video](https://www.youtube.com/watch?v=asOEZJRQuOw)
 
@@ -646,6 +670,7 @@ Une distinction cruciale oppose la liberté négative à la liberté positive. L
 
 
 ## Le sophisme démocratique: la tutelle des tuteurs
+<chapterId>96869664-df6e-5f47-92ad-ac93c88e4f55</chapterId>
 
 ![video](https://www.youtube.com/watch?v=mkzE0SfSl1Q)
 
@@ -672,6 +697,7 @@ Tocqueville fut longtemps incompris précisément parce qu'il tenait une positio
 Face à ces dangers, la pensée libérale, notamment celle de Benjamin Constant, a développé l'idée qu'il faut borner la démocratie par des règles constitutionnelles et par une opinion publique éclairée. La démocratie constitue un moyen et non une fin en soi. Ce moyen est assurément bon et nécessaire, mais il demeure dangereux s'il n'est pas encadré. Les systèmes interventionnistes et socialistes poussent cette tutelle à son maximum, accordant aux tuteurs le pouvoir le plus étendu tout en réduisant considérablement la liberté des individus. Reconnaître la contradiction évidente entre l'incapacité supposée à choisir pour soi-même et la capacité affirmée à choisir collectivement pour les autres constitue le premier pas vers une société véritablement libérale, fondée sur le respect de l'autonomie individuelle.
 
 ## Le sophisme économique: le travail comme but, et non comme moyen
+<chapterId>ffec06b3-1fea-51c8-9bdc-d36efcfd82df</chapterId>
 
 ![video](https://www.youtube.com/watch?v=K1e39vtOoCc)
 
@@ -701,6 +727,7 @@ Les sophismes économiques ne constituent cependant qu'une catégorie parmi d'au
 
 
 ## Le sophisme social: les classes sociales et l'exploitation capitaliste
+<chapterId>a154cdd1-5cc7-56c0-839b-a898305cdf30</chapterId>
 
 ![video](https://www.youtube.com/watch?v=zJhhcxwXpRI)
 
@@ -729,6 +756,7 @@ L'affirmation socialiste selon laquelle les pauvres deviennent de plus en plus p
 Les auteurs libéraux manifestent néanmoins une sensibilité très forte, héritée du siècle des Lumières, envers la pauvreté et les plus faibles. Le combat de Turgot pour la liberté du travail visait précisément à permettre à chacun de vivre de son travail, y compris les femmes exclues des corporations masculines. Bastiat, au XIXe siècle, menait son combat pour le libre-échange explicitement pour le pauvre, car le libre-échange permet à l'ouvrier de tirer un maximum de satisfaction de son travail quotidien, tandis que le protectionnisme renchérit toutes les denrées dont il a besoin. Ces penseurs proposent des solutions libérales à la pauvreté fondées sur la liberté, le contrat, la sympathie humaine et l'association, cette dernière constituant un prolongement de l'individu qui donne des forces nouvelles à la volonté et à l'action individuelles.
 
 ## Le sophisme international: la propriété nationale avant la propriété privée
+<chapterId>e4cc0069-d2b8-5c33-8dc3-ccc2655afe68</chapterId>
 
 ![video](https://www.youtube.com/watch?v=GtxJlUa_H08)
 
@@ -758,8 +786,10 @@ On peut également retourner l'argument de l'héritage contre les socialistes en
 Cette analyse permet également de comprendre les atteintes portées par les systèmes de non-liberté à l'autonomie individuelle. L'impôt, lorsqu'il dépasse la contribution légitime de service contre service, constitue une forme d'agression territoriale contre la propriété individuelle. La réglementation représente elle aussi une forme de dépossession, comme lorsqu'on interdit à un propriétaire de peindre sa maison de la couleur qu'il souhaite. Ces interventions nous dépossèdent de notre propre propriété, qu'il s'agisse de la propriété de soi, des choses ou des terres. Le sophisme international révèle ainsi une reconnaissance de la propriété à géométrie variable, où les États et nations bénéficient d'une protection de leur propriété collective, tandis que l'individu qui acquiert des biens par son travail et l'échange doit subir réglementation, encadrement et tutelle.
 
 # Philosophie du liberalisme
+<partId>67ec4570-8d65-5d03-8ce3-12caa4a132ea</partId>
 
 ## Liberté des contrats et du travail
+<chapterId>085d5756-4ffe-5e2e-8b41-9a94102c97d3</chapterId>
 
 ![video](https://www.youtube.com/watch?v=ary4UJhwRl8)
 
@@ -791,6 +821,7 @@ Courcelle-Seneuil se revendiquait simplement des idées de la Révolution franç
 
 
 ## Réduction des attributions de l'État
+<chapterId>abb3498a-0232-5a58-aea0-52730b75ee84</chapterId>
 
 ![video](https://www.youtube.com/watch?v=c8Wi5jkSEu8)
 
@@ -821,6 +852,7 @@ La réalité actuelle révèle une situation paradoxale et attristante. Les prof
 
 
 ## L'alternative libérale à l'État providence
+<chapterId>8be24b04-53da-5d80-8e76-3b6f3530723f</chapterId>
 
 ![video](https://www.youtube.com/watch?v=cEzFGSnYfnk)
 
@@ -852,6 +884,7 @@ Molinari et la grande majorité des libéraux français de son époque percevaie
 
 
 ##  L'autonomie individuelle et légitime défense collective
+<chapterId>1811a240-b5c8-5c34-906a-a5a030ca847f</chapterId>
 
 ![video](https://www.youtube.com/watch?v=b8PojgZ0TQo)
 
@@ -881,6 +914,7 @@ Cet état de droit international, qui reconnaîtrait la liberté d'agir tout en 
 
 
 ## La liberté ancrée dans les faits humains
+<chapterId>fa1ae25f-bdcf-50db-9a12-d880ff568875</chapterId>
 
 ![video](https://www.youtube.com/watch?v=OfqTuJvo3MQ)
 

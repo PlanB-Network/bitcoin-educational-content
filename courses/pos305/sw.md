@@ -1499,7 +1499,7 @@ Wasimamizi wa server wanaweza kufungua maelezo zaidi ili kuona;
 
 #### LND (MAPUMZIKO)
 
-BTCPay inafichua huduma ya LND ya REST kwa matumizi ya nje; utapata habari za uunganisho hapa;  wallet zinazolingana zimeorodheshwa hapa. Miongoni mwa  wallet zinazoendana ni Joule, Alby, na ZeusLN. BTCPay Server inatoa msimbo wa QR ili uunganishwe, uchanganue na uitumie katika  Wallet linalooana.
+BTCPay inafichua huduma ya LND ya REST kwa matumizi ya nje; utapata habari za uunganisho [hapa]((https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay);  wallet zinazolingana zimeorodheshwa [hapa](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server). Miongoni mwa  wallet zinazoendana ni Joule, Alby, na ZeusLN. BTCPay Server inatoa msimbo wa QR ili uunganishwe, uchanganue na uitumie katika  Wallet linalooana.
 
 
 - REST Uri

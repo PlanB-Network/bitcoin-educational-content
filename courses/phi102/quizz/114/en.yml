@@ -1,0 +1,8 @@
+question: According to free market economic theory, what happens when entrepreneurs prematurely anticipate consumer demand for an innovation that doesn't yet exist?
+answer: The absence of profits naturally dissuades them from continuing and prevents others from following their example
+wrong_answers:
+  - Government intervention redirects their efforts toward more socially beneficial projects through subsidies
+  - They continue investing until consumer preferences eventually align with their initial predictions
+  - Market regulations force them to abandon their projects to prevent economic waste
+explanation: |
+  In a free market system, profits serve as crucial signals indicating real consumer demand. When entrepreneurs misjudge market timing and anticipate demand that doesn't exist, they fail to generate profits, which naturally discourages further investment in that direction. This self-correcting mechanism prevents resources from being wasted on premature innovations. The other options incorrectly suggest external intervention or persistent investment despite market signals, which contradicts the chapter's emphasis on how profit signals guide rational economic decision-making.

@@ -1,12 +1,12 @@
 ---
-name: Cesta bitcoinu
-goal: Objevte základy bitcoinu, včetně jeho peněžní hodnoty, těžařů, transakcí a peněženek.
-objectives:
-  - Získejte obecné znalosti o technologii Bitcoin
-  - Zjistěte, jak nakupovat a zabezpečit bitcoiny
-  - Mít obecné znalosti o technologii Blockchain
-  - Seznámení s konceptem sítě Lightning Network
-  - Uvědomte si geopolitický a sociální dopad Bitcoinu
+Název: Cesta bitcoinem
+Cíl: Objevte základy bitcoinu, včetně jeho peněžní hodnoty, těžařů, transakcí a peněženek.
+Výsledky:
+  - Získáte obecné znalosti o technologii Bitcoin
+  - Zjistíte, jak nakupovat a zabezpečit bitcoiny
+  - Budete mít obecné znalosti o technologii Blockchain
+  - Seznamíte se s konceptem sítě Lightning Network
+  - Uvědomíte si geopolitický a sociální dopad Bitcoinu
 ---
 
 # Vaše první bitcoinové dobrodružství

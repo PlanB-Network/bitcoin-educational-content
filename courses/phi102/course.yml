@@ -1,5 +1,7 @@
 id: 816d3834-cd76-11f0-86c7-4f72ea768589
 
+test_only: true
+
 topic: social studies
 subtopic: philosophy
 type: theory

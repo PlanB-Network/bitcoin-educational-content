@@ -11,55 +11,42 @@ description: Tutorial lanjutan tentang cara menginstal dan mengonfigurasi Lightn
 
 
 
-Tutorial tingkat lanjut ini akan memandu Anda langkah demi langkah melalui instalasi, konfigurasi, dan penggunaan aplikasi Lightning Node (LND) pada node Umbrel Anda. Anda akan belajar cara membuka saluran, mengelola likuiditas, dan menyinkronkan node Anda dengan aplikasi seluler.
-
+Tutorial tingkat lanjut ini akan memandu kamu langkah demi langkah melalui instalasi, konfigurasi, dan penggunaan aplikasi Lightning Node (LND) pada node Umbrel kamu. Kamu akan belajar cara membuka channel, mengelola likuiditas, dan menyinkronkan node kamu dengan aplikasi seluler.
 
 
 ## 1. Prasyarat: simpul Bitcoin Umbrel yang fungsional
 
 
+Sebelum menggunakan Lightning, kamu harus memiliki node Bitcoin yang beroperasi penuh pada Umbrel. Ini melibatkan pemasangan Umbrel (pada Raspberry Pi, NAS, atau mesin lain) dan menyinkronkan blockchain Bitcoin sepenuhnya.
 
-Sebelum menggunakan Lightning, Anda harus memiliki node Bitcoin yang beroperasi penuh pada Umbrel. Ini melibatkan pemasangan Umbrel (pada Raspberry Pi, NAS, atau mesin lain) dan menyinkronkan Blockchain Bitcoin sepenuhnya.
-
-
-
-Untuk menginstal Umbrel dan mengonfigurasi node Bitcoin Anda, kami sarankan Anda mengikuti tutorial khusus kami:
+Untuk menginstal Umbrel dan mengonfigurasi node Bitcoin kamu, aku sarankan kamu mengikuti tutorial khusus kami:
 
 
 
 https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
-Pastikan node Bitcoin Anda sudah diperbarui dan berfungsi dengan baik, karena Lightning Network bergantung pada node ini untuk semua transaksi off-chain.
-
+Pastikan node Bitcoin kamu sudah diperbarui dan berfungsi dengan baik, karena Lightning Network bergantung pada node ini untuk semua transaksi off-chain.
 
 
 ## 2. Pengantar ke Lightning Network
 
 
 
-Lightning Network adalah protokol Layer kedua yang dirancang untuk mempercepat dan mengurangi biaya transaksi Bitcoin dengan melaksanakannya di luar Blockchain utama.
+Lightning Network adalah protokol Layer kedua yang dirancang untuk mempercepat dan mengurangi biaya transaksi Bitcoin dengan melaksanakannya di luar blockchain utama.
 
+Secara konkret, Lightning menggunakan jaringan channel pembayaran antar node: dua pengguna membuka channel dengan mengunci BTC on-chain (transaksi awal), lalu bisa langsung melakukan pembayaran di dalam channel ini. Transaksi off-chain ini tidak dicatat pada blockchain, sehingga kecepatannya dan biayanya hampir nol.
 
-
-Secara konkret, Lightning menggunakan jaringan saluran pembayaran antar node: dua pengguna membuka saluran dengan memblokir On-Chain BTC (transaksi awal), kemudian dapat langsung melakukan pembayaran Exchange di dalam saluran ini. Transaksi off-chain ini tidak dicatat pada Blockchain, sehingga kecepatannya dan biayanya hampir nol.
-
-
-
-Pembayaran dapat disalurkan melalui berbagai saluran (berkat node perantara) untuk menjangkau penerima mana pun di jaringan, memungkinkan skala transaksi instan yang hampir tak terbatas. Dengan demikian, Lightning menawarkan transaksi yang sangat cepat dan berbiaya rendah, ideal untuk pembayaran sehari-hari atau transaksi mikro, sekaligus meringankan beban pada Blockchain Bitcoin.
-
-
+Pembayaran bisa disalurkan melalui berbagai channel (berkat node perantara) untuk menjangkau penerima mana pun di jaringan, memungkinkan skala transaksi instan yang hampir tak terbatas. Dengan demikian, Lightning menawarkan transaksi yang sangat cepat dan berbiaya rendah, ideal untuk pembayaran sehari-hari atau transaksi mikro, sekaligus meringankan beban pada blockchain Bitcoin.
 
 Untuk beroperasi, node Lightning harus terhubung secara permanen ke jaringan dan berinteraksi dengan node Lightning lainnya. Berbagai implementasi perangkat lunak tersedia (LND, Core Lightning, Eclair, dll.), yang semuanya kompatibel satu sama lain. Umbrel menggunakan LND (Lightning Network Daemon) sebagai bagian dari aplikasi Lightning Node resminya. Tutorial ini berfokus pada LND.
 
-
-
-Untuk pengenalan teoretis yang lengkap mengenai Lightning Network, kami sarankan Anda mengikuti kursus khusus kami:
+Untuk pengenalan teoretis yang lengkap mengenai Lightning Network, aku sarankan kamu mengikuti kursus khusus kami:
 
 
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Kursus ini akan memberi Anda dasar yang menyeluruh dalam konsep dasar Lightning Network, sebelum melanjutkan ke praktik dengan node LND Anda.
+Kursus ini akan memberi kamu dasar yang menyeluruh dalam konsep dasar Lightning Network, sebelum lanjut ke praktik dengan node LND kamu.
 
 
 
@@ -67,8 +54,7 @@ Kursus ini akan memberi Anda dasar yang menyeluruh dalam konsep dasar Lightning 
 
 
 
-Mengoperasikan Lightning node (LND) Anda sendiri di Umbrel memberi Anda kedaulatan penuh atas dana dan saluran Anda, dibandingkan dengan solusi kustodian atau semi-kustodian.
-
+Mengoperasikan Lightning node (LND) kamu sendiri di Umbrel memberi kamu kedaulatan penuh atas dana dan channel kamu, dibandingkan dengan solusi kustodian atau semi-kustodian.
 
 
 ### Perbandingan solusi Lightning :
@@ -79,12 +65,10 @@ Mengoperasikan Lightning node (LND) Anda sendiri di Umbrel memberi Anda kedaulat
 
 
 
-
-- Bitcoin Lightning Anda dikelola oleh pihak ketiga yang tepercaya
+- Bitcoin Lightning kamu dikelola oleh pihak ketiga yang tepercaya
 - Mudah digunakan, tanpa kerumitan teknis
-- Operator menyimpan dana Anda dan dapat melacak transaksi Anda
-- Anda mengorbankan kontrol dan kerahasiaan
-
+- Operator menyimpan dana kamu dan bisa melacak transaksi kamu
+- Kamu mengorbankan kontrol dan kerahasiaan
 
 
 **Portofolio konsumen non-komoditas (mis. Phoenix, Breez)**:
@@ -105,9 +89,9 @@ Mengoperasikan Lightning node (LND) Anda sendiri di Umbrel memberi Anda kedaulat
 
 
 
-- Kedaulatan maksimum: On-Chain dan off-chain BTC Anda sepenuhnya berada di bawah kendali Anda
-- Tidak ada pihak ketiga yang terlibat dalam membuka saluran atau mengelola pembayaran Anda
-- Kerahasiaan yang lebih tinggi (saluran dan transaksi Anda hanya diketahui oleh Anda dan rekan-rekan langsung Anda)
+- Kedaulatan maksimum: On-Chain dan off-chain BTC sepenuhnya berada di bawah kendali kamu
+- Tidak ada pihak ketiga yang terlibat dalam membuka saluran atau mengelola pembayaran kamu
+- Kerahasiaan yang lebih tinggi (saluran dan transaksi kamu hanya diketahui oleh kamu dan rekan-rekan)
 - Kebebasan penggunaan: terhubung ke layanan dan dompet Anda sendiri
 - Kemungkinan merutekan transaksi untuk orang lain (remunerasi biaya mikro)
 - Peningkatan tanggung jawab teknis (pemeliharaan, manajemen likuiditas, pencadangan)
@@ -126,7 +110,7 @@ Singkatnya, self-hosting LND memberi Anda kontrol maksimum, tetapi membutuhkan l
 
 
 
-Setelah node Umbrel (Bitcoin) Anda disinkronkan, ikuti langkah-langkah berikut:
+Setelah node Umbrel (Bitcoin) kamu disinkronkan, ikuti langkah-langkah berikut:
 
 
 
@@ -142,7 +126,7 @@ Instal aplikasi Lightning Node dari bagian "App Store" pada Payung Interface.
 
 
 
-LND (Lightning Network Daemon) akan digunakan pada Umbrel Anda sebagai aplikasi. Saat pertama kali membukanya, Anda akan melihat pesan peringatan yang memberitahukan bahwa Lightning adalah teknologi eksperimental.
+LND (Lightning Network Daemon) akan digunakan pada Umbrel kamu sebagai aplikasi. Saat pertama kali membukanya, kamu akan melihat pesan peringatan yang memberitahukan bahwa Lightning adalah teknologi eksperimental.
 
 
 
@@ -150,7 +134,7 @@ LND (Lightning Network Daemon) akan digunakan pada Umbrel Anda sebagai aplikasi.
 
 
 
-Anda dapat memilih antara membuat simpul baru atau memulihkan simpul dari cadangan/seed. Untuk pemasangan pertama kali, pilihlah untuk membuat simpul baru. Aplikasi Lightning Node akan membuat generate frasa Mnemonic 24 kata (seed Lightning Anda): tulislah dengan sangat hati-hati (idealnya secara offline, di atas kertas), karena ini akan digunakan untuk memulihkan dana Lightning Anda jika perlu.
+Kamu bisa memilih antara membuat node baru atau memulihkan node dari cadangan/seed. Untuk pemasangan pertama kali, pilih untuk membuat node baru. Aplikasi Lightning Node akan generate mnemonic 24 kata (seed Lightning kamu): tulis dengan sangat hati-hati (idealnya secara offline, di atas kertas), karena ini akan digunakan untuk memulihkan dana Lightning kamu jika diperlukan.
 
 
 
@@ -162,7 +146,7 @@ Anda dapat memilih antara membuat simpul baru atau memulihkan simpul dari cadang
 
 
 
-Setelah inisialisasi, Anda akan mengakses Interface utama Lightning Node.
+Setelah inisialisasi, kamu akan mengakses Interface utama Lightning Node.
 
 
 
@@ -170,12 +154,12 @@ Setelah inisialisasi, Anda akan mengakses Interface utama Lightning Node.
 
 
 
-Dalam pengaturan aplikasi, Anda akan menemukan sejumlah opsi penting:
+Dalam pengaturan aplikasi, kamu akan menemukan sejumlah opsi penting:
 
 
 
 
-   - Lihat ID Node Anda (pengenal unik node Anda)
+   - Lihat ID Node (pengenal unik node kamu)
    - Menghubungkan Wallet eksternal (Menghubungkan Wallet)
    - Lihat kata-kata rahasia
    - Mengakses Pengaturan Lanjutan
@@ -186,8 +170,7 @@ Dalam pengaturan aplikasi, Anda akan menemukan sejumlah opsi penting:
 
 
 
-Opsi-opsi ini sangat penting untuk keamanan dan manajemen node Lightning Anda. Pastikan Anda mengaktifkan pencadangan otomatis dan menyimpan kata-kata rahasia Anda dengan aman.
-
+Opsi-opsi ini sangat penting untuk keamanan dan manajemen node Lightning kamu. Pastikan kamu mengaktifkan pencadangan otomatis dan menyimpan kata-kata rahasia kamu dengan aman.
 
 
 **Sumber daya yang berguna:**
@@ -205,8 +188,7 @@ Opsi-opsi ini sangat penting untuk keamanan dan manajemen node Lightning Anda. P
 
 
 
-Setelah LND aktif dan berjalan, Anda dapat membuka saluran Lightning pertama Anda. Untuk menemukan node berkualitas untuk disambungkan:
-
+Setelah LND aktif dan berjalan, kamu bisa membuka channel Lightning pertama kamu. Untuk menemukan node berkualitas untuk disambungkan:
 
 
 ![Page d'accueil Amboss.space](assets/fr/06.webp)
@@ -293,8 +275,7 @@ Klik pada saluran untuk melihat detailnya:
 
 
 
-Lightning Network+ tersedia di Umbrel App Store untuk memudahkan Anda mendapatkan uang tunai yang masuk.
-
+Lightning Network+ tersedia di Umbrel App Store untuk memudahkan kamu mendapatkan inbound liquidity.
 
 
 ![Interface principale de LN+](assets/fr/14.webp)
@@ -316,8 +297,7 @@ Interface utama menawarkan tiga opsi penting:
 
 
 
-Catatan: Jika Anda belum membuka saluran, Anda akan melihat pesan kesalahan ini saat mengklik "Buka Untuk Saya".
-
+Catatan: JJika kamu belum membuka channel, kamu akan melihat pesan kesalahan ini saat mengklik "Buka Untuk Saya".
 
 
 ![Liste des swaps disponibles](assets/fr/16.webp)
@@ -356,8 +336,7 @@ Contoh detail pertukaran :
 
 
 
-Untuk mengontrol node Lightning dari jarak jauh (smartphone), Anda bisa menggunakan Zeus (aplikasi sumber terbuka yang tersedia di iOS/Android).
-
+Untuk mengontrol node Lightning dari jarak jauh (smartphone), kamu bisa menggunakan Zeus (aplikasi sumber terbuka yang tersedia di iOS/Android).
 
 
 **Konfigurasi Zeus dengan Umbrel :**
@@ -368,7 +347,7 @@ Untuk mengontrol node Lightning dari jarak jauh (smartphone), Anda bisa mengguna
 
 
 
-Pastikan simpul Umbrel Anda dapat diakses (secara default melalui Tor).
+Pastikan node Umbrel kamu dapat diakses (secara default melalui Tor).
 
 
 Pada Interface Umbrel, buka aplikasi Lightning Node, lalu klik tombol "Hubungkan Wallet" seperti yang ditunjukkan oleh panah.
@@ -379,8 +358,7 @@ Pada Interface Umbrel, buka aplikasi Lightning Node, lalu klik tombol "Hubungkan
 
 
 
-Kode QR muncul, berisi data akses LND Anda dalam format lndconnect. Kode QR ini sangat padat dengan informasi, jadi jangan ragu untuk memperbesarnya agar lebih mudah dibaca.
-
+Kode QR muncul, berisi data akses LND kamu dalam format lndconnect. Kode QR ini sangat padat dengan informasi, jadi jangan ragu untuk memperbesarnya biar lebih mudah dibaca.
 
 
 ![Configuration initiale de Zeus](assets/fr/21.webp)
@@ -393,7 +371,7 @@ Di ponsel Anda :
 
 
    - Buka Zeus
-   - Di halaman beranda, klik "Pengaturan lanjutan" untuk menyambungkan simpul Lightning Anda sendiri
+   - Di halaman beranda, klik "Pengaturan lanjutan" untuk menyambungkan simpul Lightning kamu sendiri
    - Dalam parameter, pilih "Buat atau sambungkan Wallet"
 
 
@@ -408,14 +386,13 @@ Dalam Zeus:
 
 
    - Pilih "LND (REST)" sebagai jenis koneksi
-   - Anda bisa memindai kode QR (metode yang disarankan) atau memasukkan informasi secara manual. (Jangan ragu untuk memperbesar kode QR Umbrel, karena sangat padat)
-   - Penting: aktifkan opsi "Gunakan Tor" jika Umbrel Anda hanya dapat diakses melalui Tor (default)
+   - Kamu bisa memindai kode QR (metode yang disarankan) atau memasukkan informasi secara manual. (Jangan ragu untuk memperbesar kode QR Umbrel, karena sangat padat)
+   - Penting: aktifkan opsi "Gunakan Tor" jika Umbrel kamu hanya dapat diakses melalui Tor (default)
    - Menyimpan konfigurasi
 
 
 
-Zeus Anda sekarang terhubung ke node Umbrel Anda dan memungkinkan Anda untuk melakukan pembayaran Lightning, melihat saluran, saldo, dll., namun tetap dapat dikelola sendiri.
-
+Zeus kamu sekarang terhubung ke node Umbrel kamu dan memungkinkan kamu melakukan pembayaran Lightning, melihat channel, saldo, dan lainnya, sambil tetap sepenuhnya self-custodial.
 
 
 **Opsi koneksi tingkat lanjut:**
@@ -444,7 +421,7 @@ Secara default, koneksi Zeus ↔ Umbrel adalah melalui Tor. Untuk koneksi yang l
 
 
    - VPN mesh yang mudah dikonfigurasi
-   - Instal Tailscale di Umbrel (App Store) dan di ponsel Anda
+   - Instal Tailscale di Umbrel (App Store) dan di ponsel kamu
    - Hubungkan Zeus melalui IP pribadi Tailscale, bukan Tor Address
 
 
@@ -474,7 +451,7 @@ Mengelola simpul Lightning yang dihosting sendiri memerlukan perhatian khusus pa
 
 
 
-Node Lightning Umbrel Anda memerlukan dua jenis cadangan:
+Node Lightning Umbrel kamu memerlukan dua jenis cadangan:
 
 
 
@@ -484,7 +461,7 @@ Node Lightning Umbrel Anda memerlukan dua jenis cadangan:
 
 
 - Memulihkan dana On-Chain
-- Diperlukan untuk membuat ulang Wallet Lightning Anda
+- Diperlukan untuk membuat ulang Wallet Lightning kamu
 - Untuk penyimpanan yang sangat aman (offline, di atas kertas)
 
 
@@ -504,7 +481,7 @@ Node Lightning Umbrel Anda memerlukan dua jenis cadangan:
 
 
 
-Untuk menyimpan saluran Anda secara manual :
+Untuk menyimpan saluran kamu secara manual :
 
 
 1. Akses menu Lightning Node (tiga titik "⋮" di sebelah "+ Open Channel")
@@ -536,7 +513,7 @@ Umbrel dilengkapi sistem pencadangan otomatis canggih yang memastikan:
 - Enkripsi sisi klien sebelum transmisi
 - Mengirim melalui jaringan Tor
 - Data dilengkapi dengan pengisian acak
-- Kunci enkripsi yang unik untuk perangkat Anda
+- Kunci enkripsi yang unik untuk perangkat kamu
 
 
 
@@ -557,7 +534,7 @@ Umbrel dilengkapi sistem pencadangan otomatis canggih yang memastikan:
 
 
 
-- Pengenal dan kunci yang berasal dari Payung seed Anda
+- Pengenal dan kunci yang berasal dari Payung seed kamu
 - Pemulihan lengkap hanya dapat dilakukan dengan frasa Mnemonic saja
 - Pemulihan otomatis dari cadangan terbaru
 - Memulihkan pengaturan saluran dan data
@@ -568,33 +545,32 @@ Umbrel dilengkapi sistem pencadangan otomatis canggih yang memastikan:
 
 
 
-Jika node Anda hilang (kegagalan perangkat keras, kartu SD rusak):
+Jika node kamu hilang (kegagalan perangkat keras, kartu SD rusak):
 
 
 
 
-- Memasang Kembali Payung
-- Masukkan 24 kata seed Anda di aplikasi Lightning
+- Pasang Kembali Umbrel
+- Masukkan 24 kata seed kamu di aplikasi Lightning
 - Impor file SCB selama pemulihan
 
 
 
-LND akan menghubungi setiap mitra dari saluran lama Anda untuk menutupnya dan mengembalikan bagian dana On-Chain Anda. Saluran akan ditutup secara permanen (akan dibuka kembali jika perlu).
-
+LND akan menghubungi setiap mitra dari channel lama kamu untuk menutupnya dan mengembalikan bagian dana on-chain kamu. Channel akan ditutup secara permanen (akan dibuka kembali jika perlu).
 
 
 ### Ketersediaan dan perlindungan penipuan
 
 
 
-Idealnya, biarkan simpul Anda online sesering mungkin. Dalam kasus ketidakhadiran yang berkepanjangan:
+Idealnya, biarkan node kamu online sesering mungkin. Dalam kasus ketidakhadiran yang berkepanjangan:
 
 
 
 
 - Rekan yang berbahaya dapat mencoba menyiarkan status saluran yang lama
 - Lightning menyediakan "periode protes" (sekitar 2 minggu pada LND)
-- Jika Anda akan pergi untuk waktu yang lama, siapkan Watchtower
+- Kalau kamu akan pergi untuk waktu yang lama, siapkan Watchtower
 
 
 
@@ -604,12 +580,12 @@ Idealnya, biarkan simpul Anda online sesering mungkin. Dalam kasus ketidakhadira
 
 
 - Dalam pengaturan lanjutan LND, tambahkan URL server Watchtower tepercaya
-- Anda dapat menggunakan layanan publik atau memasang Watchtower Anda sendiri
+- Kamu bisa menggunakan layanan publik atau memasang Watchtower sendiri
 
 
 
 
-Untuk mengetahui lebih lanjut tentang cara mengonfigurasi dan menggunakan menara pengawas, kami sarankan Anda melihat tutorial khusus kami:
+Untuk mengetahui lebih lanjut tentang cara mengonfigurasi dan menggunakan menara pengawas, kami sarankan kamu melihat tutorial khusus kami:
 
 
 
@@ -631,7 +607,7 @@ https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5
 
 
 
-Aplikasi Lightning Node dari Umbrel menyediakan hal-hal penting untuk mengelola saluran Anda, tetapi alat pihak ketiga menawarkan fungsionalitas tingkat lanjut.
+Aplikasi Lightning Node dari Umbrel menyediakan hal-hal penting untuk mengelola saluran kamu, tetapi alat pihak ketiga menawarkan fungsionalitas tingkat lanjut.
 
 
 
@@ -718,12 +694,8 @@ Alat-alat ini dapat diinstal hanya dalam beberapa klik melalui Umbrel App Store,
 
 
 
-Menjalankan node LND Anda sendiri di Umbrel adalah langkah penting menuju kedaulatan finansial. Meskipun membutuhkan lebih banyak keterlibatan teknis daripada solusi kustodian, manfaatnya dalam hal kontrol, kerahasiaan, dan partisipasi aktif dalam Lightning Network cukup besar.
+Menjalankan node LND kamu sendiri di Umbrel adalah langkah penting menuju kedaulatan finansial. Meskipun membutuhkan lebih banyak keterlibatan teknis daripada solusi kustodian, manfaatnya dalam hal kontrol, kerahasiaan, dan partisipasi aktif dalam Lightning Network cukup besar.
 
+Dengan mengikuti panduan ini, kamu sekarang bisa menginstal LND, membuka channel, mengelola likuiditas, dan mengakses node kamu dari jarak jauh. Jangan ragu untuk menjelajahi fitur-fitur canggih dan alat tambahan secara bertahap setelah kamu makin terbiasa dengan ekosistem.
 
-
-Dengan mengikuti panduan ini, Anda sekarang dapat menginstal LND, membuka saluran, mengelola likuiditas, dan mengakses node Anda dari jarak jauh. Jangan ragu untuk menjelajahi fitur-fitur canggih dan alat tambahan secara bertahap setelah Anda menjadi lebih terbiasa dengan ekosistem.
-
-
-
-Ingatlah bahwa keamanan dana Anda bergantung pada perlindungan dan praktik Anda. Luangkan waktu untuk memahami setiap aspek sebelum melakukan transaksi dalam jumlah besar.
+Ingatlah bahwa keamanan dana kamu bergantung pada perlindungan dan praktik kamu. Luangkan waktu untuk memahami setiap aspek sebelum melakukan transaksi dalam jumlah besar.

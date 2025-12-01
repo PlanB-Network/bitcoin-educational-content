@@ -2,8 +2,8 @@ question: Ni igikoresho ikihe gikenewe kugira ngo umuntu ashobore gukingira amah
 answer: Hardware Wallet
 wrong_answers:
   - Hot Wallet.
-  - Umuravyo Wallet.
-  - Urubuga rwa Exchange
+  - Lightning wallet.
+  - Urubuga rwo guhanahana
 explanation: |
   Hardware Wallet ibika imfunguruzo z’ibanga zitari mu nzira, itanga umutekano mwiza ku mafaranga menshi mu kiringo kirekire.
 reviewed: false

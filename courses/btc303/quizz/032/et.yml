@@ -6,3 +6,4 @@ wrong_answers:
   - Võrgu valideerijad, kes hääletavad tehingu kehtivuse üle demokraatliku protsessi kaudu
 explanation: |
   Bitcoin tarnepiirangut jõustatakse täissõlmede kaudu, mis käivitavad kontrollkoodi, et kontrollida iga ploki coinbase'i tehingu vastavust konsensusreeglitele. Isegi kui mõned sõlmed muutuvad pahatahtlikuks ja aktsepteerivad liigse preemiaga kehtetuid plokke, ignoreerivad ausad sõlmed neid lihtsalt ja jätkavad kehtiva ahelaga. See loob usalduseta süsteemi, kus ei ole vaja usaldada ühtegi isikut või asutust - vaja on ainult käivitada kood, mis kontrollib reeglite järgimist, muutes võrgu kollektiivselt turvaliseks pakkumise inflatsioonikatsete vastu.
+reviewed: false

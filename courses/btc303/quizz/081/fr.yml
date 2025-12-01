@@ -6,3 +6,4 @@ wrong_answers:
   - Les bogues de performance créent des fuites de mémoire qui finissent par faire planter les nœuds, ce qui entraîne une instabilité temporaire du réseau et une réduction du taux de hachage
 explanation: |
   Gregory Maxwell a spécifiquement averti que les bogues de performance, lorsqu'ils sont déployés de manière experte, peuvent être utilisés pour partitionner le réseau de manière stratégique - par exemple, en séparant le "mineur A et l'échange B" dans une partition tandis que tous les autres vont dans une autre, créant ainsi les conditions d'une attaque par double dépense. Cela montre pourquoi des problèmes apparemment mineurs doivent être considérés comme potentiellement graves, car ils peuvent être utilisés de manière sophistiquée et non immédiatement évidente.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Amélioration des performances de la vérification des signatures pour un traitement plus rapide des blocs
 explanation: |
   Le chapitre définit explicitement la mise à l'échelle de Bitcoin comme "l'augmentation de la capacité d'utilisation de Bitcoin sans compromettre sa résistance à la censure" La bonne réponse viole cette définition car le fait d'exiger des utilisateurs qu'ils fassent confiance à des processeurs de paiement centralisés compromet directement la résistance à la censure de Bitcoin - une proposition de valeur essentielle. Les mauvaises réponses représentent toutes des approches légitimes de mise à l'échelle mentionnées dans le chapitre : un encodage efficace réduit l'utilisation des ressources, les solutions en couches permettent une capacité supplémentaire tout en préservant les propriétés de la couche de base, et la vérification améliorée des signatures augmente les performances sans compromis de centralisation.
+reviewed: false

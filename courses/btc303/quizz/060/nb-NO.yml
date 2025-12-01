@@ -6,3 +6,4 @@ wrong_answers:
   - Administrative avgifter kan kreves, men kun for kommersiell videredistribusjon
 explanation: |
   Definisjonen av åpen kildekode sier eksplisitt under "Fri videredistribusjon" at "Lisensen skal ikke kreve royalty eller annen avgift for slikt salg" Dette betyr at programvare med åpen kildekode må kunne videredistribueres fritt uten obligatoriske avgifter eller royalties. De andre alternativene antyder feilaktig at ulike typer avgifter er tillatt, noe som ville bryte med det grunnleggende prinsippet om fri videredistribusjon som definerer åpen kildekode-programvare.
+reviewed: false

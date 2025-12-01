@@ -6,3 +6,4 @@ wrong_answers:
   - Tüm Bitcoin kullanıcıları, ağ istikrarını korumak için demokratik bir oylama süreci aracılığıyla işlem geçerliliği üzerinde anlaşmalıdır
 explanation: |
   David Harding'in armoni benzetmesi, Bitcoin'ün gücünün, her biri işlemleri doğrulamak için ayrı ayrı çalışan binlerce bağımsız tam düğümden geldiğini ve herhangi bir düğüm operatörünün diğerlerine güvenmesine gerek kalmadan defter durumu hakkında uyumlu bir anlaşma yarattığını vurgulamaktadır. Bu, her bir üyenin bağımsız olarak şarkı söylediği ancak birlikte güzel bir uyum oluşturduğu bir koroya benzetilmektedir. Yanlış cevaplar bu kavramı madenciler, geliştiriciler ya da kullanıcılar arasında koordinasyon gerekliliğini öne sürerek yanlış yorumlamaktadır ki bu da Bitcoin'ü güvenilmez ve merkezi olmayan yapan temel bağımsız doğrulama ilkesiyle çelişmektedir.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Кои са някои от езиците за програмиране, използвани в киберсигурността?
+answer: Python, C, Java
+wrong_answers:
+  - HTML, CSS, JavaScript
+  - Swift, Kotlin, Ruby
+  - PHP, Perl, Lua
+explanation: |
+  В главата са изброени Python, C и Java като някои от
+  езици за програмиране, използвани в областта на киберсигурността.
+reviewed: true

@@ -6,3 +6,4 @@ wrong_answers:
   - Menginstal perangkat lunak wallet terverifikasi dari sumber resmi dengan tanda tangan digital
 explanation: |
   Untuk menggunakan Bitcoin tanpa kepercayaan, Anda harus menjalankan node Bitcoin yang memvalidasi penuh yang secara independen memverifikasi semua blok mengikuti aturan konsensus, memeriksa jadwal penerbitan koin, dan mencegah pembelanjaan ganda. Hal ini memastikan Anda tidak mengalihdayakan verifikasi kepada pihak lain, sehingga menjaga sifat trustless. Menggunakan bursa atau layanan pihak ketiga berarti mempercayai orang lain untuk memberitahukan kepada Anda tentang keadaan blockchain. Meskipun perangkat lunak terverifikasi penting untuk keamanan, namun hal ini tidak menghilangkan kebutuhan akan simpul validasi Anda sendiri untuk mencapai sifat tidak dapat dipercaya yang sesungguhnya dalam sistem Bitcoin.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - "Bitcoin protokolü, enflasyonu önlemek için uzun süre hareket etmeyen madeni paraları otomatik olarak kilitler"
 explanation: |
   Bu bölümde, teorik olarak maksimum 20,999,817 BTC olsa da, insan hatası ve kayıplar nedeniyle gerçek kullanılabilir arzın çok daha düşük olduğu açıklanmaktadır. Kayıp özel anahtarlar bitcoinleri kalıcı olarak erişilemez hale getirmekte, cüzdanlar çalınmakta ya da unutulmakta ve coinler bazen geçersiz adreslere gönderilmektedir. Bu faktörler, Satoshi'ün kayıp coinlerin diğer herkesin coinlerini daha değerli hale getirdiğini belirttiği gibi, kalan sahiplere fayda sağlayan kalıcı arz azalması yaratır.
+reviewed: false

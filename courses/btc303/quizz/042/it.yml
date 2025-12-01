@@ -6,3 +6,4 @@ wrong_answers:
   - Gli sviluppatori del Bitcoin Core hanno richiesto un'alternativa per ridurre la loro responsabilità negli aggiornamenti
 explanation: |
   Secondo il capitolo, quando il codice di attivazione di Segwit è stato rilasciato nell'ottobre 2016, gli utenti di Bitcoin hanno ricevuto un sostegno schiacciante, ma i minatori non hanno segnalato il supporto per l'aggiornamento, bloccando l'attivazione senza alcuna risoluzione in vista. Ciò ha creato la necessità di un meccanismo alternativo che non si basasse sulla segnalazione dei minatori, portando Shaolinfry a proporre UASF come soluzione che avrebbe utilizzato l'applicazione della maggioranza economica invece dell'attivazione della potenza di hash.
+reviewed: false

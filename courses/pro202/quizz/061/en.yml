@@ -1,0 +1,8 @@
+question: What is the fundamental mechanism that enables SegWit to increase block capacity while maintaining backward compatibility with pre-SegWit nodes?
+answer: Block weight system where witness data is discounted by 75% in capacity calculations, allowing up to 4MB total data while legacy nodes see ≤1MB
+wrong_answers:
+  - Compression algorithms that reduce witness data size by 75% before transmission, keeping blocks under 1MB for all nodes
+  - Dynamic block size adjustment that increases limits based on SegWit transaction percentage in each block
+  - Separate witness blocks transmitted only to upgraded nodes, while legacy nodes receive traditional 1MB blocks
+explanation: |
+  SegWit uses block weight units where base transaction data counts as 4 weight units per byte, while witness data counts as 1 weight unit per byte. This 75% discount allows blocks up to 4 million weight units (potentially 4MB with all witness data) while ensuring legacy nodes never see more than 1MB of base transaction data. The other options describe non-existent mechanisms - there's no compression, no dynamic sizing, and no separate block transmission.

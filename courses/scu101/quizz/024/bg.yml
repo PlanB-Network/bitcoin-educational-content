@@ -1,0 +1,9 @@
+question: Какви са някои решения за криптиране на данни в различни операционни системи?
+answer: BitLocker за Windows, LUKS за Linux и вградената опция за Mac.
+wrong_answers:
+  - BitLocker за Linux, LUKS за Mac и вградената опция за Windows.
+  - BitLocker за Mac, LUKS за Windows и вградената опция за Linux.
+  - LUKS за всички операционни системи.
+explanation: |
+  Различните операционни системи имат различни решения за криптиране на данни. BitLocker е за Windows, LUKS е за Linux, а Mac има вградена опция за криптиране на данни.
+reviewed: true

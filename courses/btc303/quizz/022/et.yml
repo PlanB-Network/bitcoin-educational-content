@@ -6,3 +6,4 @@ wrong_answers:
   - Võrgu ülekoormus ja mining tsentraliseerimine
 explanation: |
   Satoshi Nakamoto nimetas Bitcoin valge raamatu 7. peatükis aadresside korduvkasutust ja aadresside rühmitamist peamiste plokiahela privaatsusprobleemidena. Address korduvkasutamine toimub siis, kui ühte ja sama aadressi kasutatakse mitu korda, mistõttu on lihtne siduda tehinguid sama kasutajaga. Address klasterdamine viitab võimalusele teha kindlaks, et erinevad aadressid kuuluvad samale omanikule, eelkõige mitme sisendi tehingutega, mis näitavad, et kõiki sisendeid kontrollis üks ja sama isik. Teised võimalused on Bitcoin tehnilised või operatiivsed probleemid, kuid need ei ole konkreetselt Satoshi teabepaberis käsitletavad eraelu puutumatuse küsimused.
+reviewed: false

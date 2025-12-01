@@ -6,4 +6,4 @@ wrong_answers:
   - Opłaty są dzielone między dwóch uczestników
 explanation: |
   Podpisane transakcje zobowiązujące zapewniają, że każdy uczestnik może odzyskać swoje środki, publikując najnowszą wersję dystrybucji środków w przypadku zamknięcia kanału.
-reviewed: false
+reviewed: true

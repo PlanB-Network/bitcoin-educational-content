@@ -91,7 +91,7 @@ Tu tarjeta se abonará automáticamente en cuanto se confirme el pago de la fact
 
 Con esta tarjeta virtual, puedes pagar productos y servicios en línea como lo harías con cualquier tarjeta Visa convencional. Por ejemplo, podrías realizar el último curso premium sobre minado de Bitcoin disponible en nuestra plataforma. Aunque este ejemplo es puramente ilustrativo (puesto que ya aceptamos pagos en Bitcoin nativos), demuestra lo fácil que es utilizar la tarjeta Moon.
 
-https://planb.academy/courses/the-world-of-bitcoin-mining-7750d9da-417a-4377-8e35-85c377168477
+https://planb.academy/courses/7750d9da-417a-4377-8e35-85c377168477
 
 ![buycourse](assets/fr/13.webp)
 

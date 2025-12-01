@@ -6,3 +6,4 @@ wrong_answers:
   - Block subsidy costs are borne by exchanges through trading fees, while transaction fees are paid by wallet providers
 explanation: |
   As Paul Sztorc noted, block subsidy and transaction fees are fundamentally different in nature. The block subsidy represents new bitcoin creation, which dilutes the existing supply and effectively costs all bitcoin holders through monetary inflation. In contrast, transaction fees are direct payments made by users who want to transact, meaning spenders bear this cost directly. The chapter illustrates this transition showing how security costs will shift from holders to spenders as the block subsidy diminishes over time.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Untuk mempertahankan kompatibilitas ke belakang dengan versi simpul yang lebih lama yang tidak dapat menangani tambalan darurat
 explanation: |
   Jawaban yang benar menyoroti paradoks penting dalam penambalan keamanan: perbaikan itu sendiri dapat mengekspos kerentanan. Bab ini menekankan bahwa pengembang harus berhati-hati dalam menyamarkan patch karena mempublikasikannya dengan segera dapat mengungkap kerentanan kepada penyerang sebelum sebagian besar node terlindungi. Jawaban yang salah, meskipun masuk akal, salah menggambarkan prioritas: pemberitahuan altcoin terjadi setelah penyebaran jaringan Bitcoin, pengujian pool mining bukanlah masalah utama untuk masalah yang tidak kritis, dan kompatibilitas ke belakang tidak mendorong waktu patch keamanan.
+reviewed: false

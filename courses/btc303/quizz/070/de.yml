@@ -6,3 +6,4 @@ wrong_answers:
   - Der Schwerpunkt liegt auf der Verringerung des Rechenaufwands für die Knotenpunkte und nicht auf der Erweiterung der Netzkapazität
 explanation: |
   Das Buch definiert Skalierung als "Erhöhung der Nutzungskapazität von Bitcoin ohne Beeinträchtigung seiner Zensurresistenz", was ausdrücklich die Einschränkung der Zensurresistenz einschließt. Dies unterscheidet sie von anderen Definitionen, die sich ausschließlich auf die Erhöhung der Transaktionskapazität, Effizienzsteigerungen oder geschichtete Systeme konzentrieren, ohne die Erhaltung der grundlegenden Eigenschaften von Bitcoin zu berücksichtigen. Die Anforderung der Zensurresistenz stellt sicher, dass Skalierungslösungen nicht das zentrale Wertversprechen von Bitcoin untergraben, nämlich ein vertrauensloses, dezentrales System zu sein, das nicht von einer einzelnen Einheit kontrolliert werden kann.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Tuletatud teosed peavad sisaldama algset Bitcoin Core kaubamärki ja neid ei tohi ümber nimetada ega ümberbrändida
 explanation: |
   MIT-litsents nõuab, et tuletatud teoseid levitatakse samade litsentsitingimuste alusel kui algset tarkvara, mis tagab avatud lähtekoodi olemuse säilimise. See ei keela kaubanduslikku müüki (vale vastus 1), ei nõua arendajatelt luba (vale vastus 2) ega kohusta säilitama originaalbrändi (vale vastus 3). Litsents sätestab konkreetselt, et muudatused ja tuletatud teosed peavad olema lubatud samadel tingimustel, säilitades loata arendusmudeli, mis võimaldab uuendusi nagu Lightning Network ja külgahelad.
+reviewed: false

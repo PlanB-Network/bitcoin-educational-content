@@ -1,15 +1,15 @@
 ---
 name: Pedoman Pengoreksian
-description: Apa saja faktor penting yang perlu diingat sewaktu mengoreksi pada Plan ₿ Academy?
+description: Apa saja faktor penting yang perlu diingat saat mengoreksi di Plan ₿ Academy?
 ---
 
 ![github](assets/cover.webp)
 
 
-Selamat datang di tutorial tentang **panduan yang harus diikuti saat mengoreksi konten di Plan ₿ Academy**. Kami senang Anda berbagi misi kami untuk menerjemahkan materi Bitcoin ke dalam sebanyak mungkin bahasa, untuk membantu orang mendapatkan kesadaran tentang cara kerjanya dan bagaimana hal itu dapat digunakan dalam kehidupan sehari-hari.
+Selamat datang di tutorial tentang **panduan yang harus diikuti saat mengoreksi konten di Plan ₿ Academy**. Kami senang Anda berbagi misi kami untuk menerjemahkan materi Bitcoin ke dalam sebanyak mungkin bahasa, untuk membantu orang mendapatkan kesadaran tentang cara kerjanya dan bagaimana Bitcoin dapat digunakan dalam kehidupan sehari-hari.
 
 
-Pertama-tama, berkontribusi pada [repositori publik] Plan ₿ Academy (https://github.com/PlanB-Network/Bitcoin-educational-content) memberi Anda kesempatan untuk menulis tutorial, mengoreksi konten yang sudah ada, atau bahkan mengusulkan penambahan bahasa baru pada platform ini. Untuk mengetahui lebih lanjut, bergabunglah dengan [Grup Telegram] (https://t.me/PlanBNetwork_ContentBuilder) kami terlebih dahulu, dan tulislah presentasi singkat tentang Anda dan bahasa yang Anda kuasai.
+Pertama-tama, berkontribusi di Plan ₿ Academy [repositori publik] (https://github.com/PlanB-Network/bitcoin-educational-content) memberi Anda kesempatan untuk menulis tutorial, mengoreksi konten yang sudah ada, atau bahkan mengusulkan penambahan bahasa baru ke platform. Untuk mengetahui lebih lanjut, bergabunglah dengan [Grup Telegram] (https://t.me/PlanBNetwork_ContentBuilder) kami terlebih dahulu, dan tulislah presentasi singkat tentang Anda dan bahasa yang Anda kuasai.
 
 
 Tutorial ini didedikasikan untuk kontributor yang ingin mengoreksi konten. Kebanyakan dari mereka tidak tahu banyak tentang [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) atau [Bahasa penurunan harga](https://www.markdownguide.org/basic-syntax/) yang kami gunakan di dalam repositori, jadi penting untuk membagikan beberapa wawasan tentang faktor-faktor kunci yang terlibat dalam tugas ini.
@@ -36,15 +36,15 @@ Apabila Anda menjalani jenis tugas ini, penting untuk mengikuti makna bahasa asl
 Ingatlah selalu bahwa penerjemahan/pengoreksian adalah PENDIDIKAN!
 
 
-Faktanya, tujuan bersama kami adalah untuk mengedukasi sebanyak mungkin orang tentang Bitcoin, jadi sangat penting bahwa materi yang mereka baca lancar dan jelas.
+Faktanya, tujuan bersama kami adalah untuk mengedukasi sebanyak mungkin orang mengenai Bitcoin, jadi sangat penting bahwa materi yang mereka baca dapat dibaca dengan lancar dan jelas.
 
 Dalam hal ini, semua kontributor di Plan ₿ Academy adalah pendidik!
 
 
-## Langkah pertama sebelum mengoreksi pada Plan ₿ Academy
+## Langkah pertama sebelum mengoreksi di Plan ₿ Academy
 
 
-Sebelum memulai tugas penyuntingan baru, umumkanlah di [grup Telegram](https://t.me/PlanBNetwork_ContentBuilder) atau beritahukan koordinator Plan ₿ Academy Anda, yang akan membuka [isu khusus](https://github.com/orgs/Plan ₿ Academy/projects/3). Ketika Anda menerima tautan masalah, cukup beri komentar bahwa Anda memulai **tugas penyuntingan konten tersebut**.
+Sebelum memulai tugas proofreading baru, umumkan di [grup Telegram](https://t.me/PlanBNetwork_ContentBuilder) atau beri tahu koordinator Plan ₿ Academy Anda, yang akan membuka [edisi] khusus (https://github.com/orgs/PlanB-Network/projects/3). Ketika Anda menerima tautan masalah, cukup beri komentar bahwa Anda mulai** dengan tugas mengoreksi konten tersebut.
 
 
 Sistem ini membantu koordinator melacak kemajuan di dalam repo, dan memungkinkan konten untuk "diklaim" oleh korektor, mencegah upaya duplikasi oleh orang lain.
@@ -52,7 +52,7 @@ Sistem ini membantu koordinator melacak kemajuan di dalam repo, dan memungkinkan
 Pada isu itu sendiri, Anda akan menemukan tautan yang mengarahkan Anda ke konten yang akan diperiksa. Anda cukup mengkliknya, atau, lebih baik lagi, Anda bisa kembali ke repositori bercabang Anda sendiri dan bekerja langsung dari sana. Mari kita lihat bagaimana Anda bisa melakukannya!
 
 
-Pertama-tama, **SELALU** ingat untuk menyinkronkan repo Anda, pada cabang "dev". Dengan cara ini, konten akan selalu diperbarui sebelum Anda memulai jenis tugas apa pun, dan Anda tidak akan membuat konflik antara materi lama dan baru. Pastikan untuk mengklik "Sinkronisasi Fork" dan "Perbarui cabang".
+Pertama-tama, ** SELALU ingat untuk menyinkronkan repo Anda, pada cabang "dev". Dengan cara ini, konten akan selalu diperbarui sebelum Anda memulai jenis tugas apa pun, dan Anda tidak akan membuat konflik antara materi lama dan baru. Pastikan untuk mengklik "Sinkronisasi fork" dan "Perbarui cabang".
 
 
 
@@ -107,11 +107,11 @@ Dalam kasus kedua ini, **selalu lakukan penelitian untuk melihat apakah ada oran
 
 
 
-- Salah satu solusinya adalah dengan **memeriksa [BitcoinWiki](https://en.Bitcoin.it/wiki/Main_Page)** dalam bahasa target Anda untuk melihat apakah kata tersebut sudah diterjemahkan atau belum. Jika tidak, Anda tetap menggunakan kata tersebut dalam bahasa Inggris.
+- Salah satu solusinya adalah dengan **memeriksa [BitcoinWiki](https://en.bitcoin.it/wiki/Main_Page)** dalam bahasa target Anda untuk melihat apakah kata tersebut sudah diterjemahkan atau belum. Jika tidak, Anda tetap menggunakan kata tersebut dalam bahasa Inggris.
 
 
 
-- Bagaimanapun, saran saya adalah **menyisipkan kata EN**, dengan menambahkan arti yang sesuai dalam bahasa target di dalam tanda kurung, mengikuti skema EN (LANG), atau sebaliknya. Contoh. Address (indirizzo), atau indirizzo (Address).
+- Bagaimanapun, saran saya adalah **menyisipkan kata EN**, dengan menambahkan arti yang sesuai dalam bahasa target di dalam tanda kurung, mengikuti skema EN (LANG), atau sebaliknya. Contoh. Address (indirizzo), atau indirizzo (alamat).
 
 
 
@@ -138,7 +138,7 @@ Konten di repositori penuh dengan hyperlink seperti di atas. Setelah Anda menget
 
 
 
-- Hal lain yang terkait dengan rendering kata adalah sebagai berikut. Jika Anda menemukan "Plan ₿ Academy" dalam teks, **biarkan dalam bentuk aslinya**. Jangan menerjemahkan kata "rencana" atau kata "jaringan". Selain itu, JANGAN gunakan kata sandang "The" ketika memperkenalkan Plan ₿ Academy: ** anggap saja sebagai sebuah merek**.
+- Hal lain yang terkait dengan rendering kata adalah sebagai berikut. Jika Anda menemukan "Plan ₿ Academy" dalam teks, **biarkan dalam bentuk aslinya**. Jangan menerjemahkan kata "rencana" atau kata "jaringan". Selain itu, JANGAN gunakan kata sandang "The" saat memperkenalkan Plan ₿ Academy: **anggaplah sebagai sebuah merek**.
 
 
 
@@ -148,17 +148,17 @@ Konten di repositori penuh dengan hyperlink seperti di atas. Setelah Anda menget
 Satu catatan terakhir untuk paragraf ini: seperti yang kami katakan di atas, kami menggunakan alat bantu AI untuk menerjemahkan konten, dan kemudian kami meminta campur tangan kontributor untuk memastikan semuanya lancar dan terkoreksi dengan baik.
 
 
-Jika Anda menggunakan AI untuk mengoreksi sebagian besar teks, kami pasti akan menyadarinya, karena kami sudah terbiasa dengan struktur kalimat yang dihasilkan AI. Jika kami menemukan bahwa Anda hanya mengandalkan AI untuk mengoreksi, tanpa menerapkan perubahan yang signifikan, hadiah akhir di Sats dapat dikurangi setengahnya!
+Jika Anda menggunakan AI untuk mengoreksi sebagian besar teks, kami pasti akan menyadarinya, karena kami sudah terbiasa dengan struktur kalimat yang dihasilkan AI. Jika kami menemukan bahwa Anda hanya mengandalkan AI untuk mengoreksi, tanpa menerapkan perubahan yang signifikan, hadiah akhir di sats dapat dikurangi setengahnya!
 
 
 
 ## Struktur tajuk
 
 
-Dalam bahasa markdown, tajuk (dan judul paragraf) semuanya dimulai dengan tanda Hash ``#``. Jumlah tanda Hash sesuai dengan tingkat judul. Sebagai contoh, tajuk level tiga memiliki tiga tanda angka sebelum teks (misalnya, `### Tajuk Saya`).
+Dalam bahasa markdown, tajuk (dan judul paragraf) semuanya dimulai dengan tanda pagar ``#``. Jumlah tanda pagar sesuai dengan tingkat judul. Sebagai contoh, tajuk level tiga memiliki tiga tanda angka sebelum teks (misalnya, `### Tajuk Saya`).
 
 
-Dalam kursus, bagian yang paling penting diperkenalkan dengan satu tanda Hash tunggal, sedangkan sub-bagian dapat memiliki dua hingga empat tanda Hash. Dalam tutorial, kami biasanya hanya menggunakan header dengan dua tanda Hash.
+Dalam kursus, bagian yang paling penting diperkenalkan dengan satu tanda pagar, sedangkan sub-bagian dapat memiliki dua hingga empat tanda pagar. Dalam tutorial, kita biasanya hanya menggunakan header dengan dua tanda pagar.
 
 
 
@@ -166,7 +166,7 @@ Dalam kursus, bagian yang paling penting diperkenalkan dengan satu tanda Hash tu
 
 
 
-Pastikan untuk **JANGAN PERNAH menghapus tanda Hash** sebelum judul, jika tidak, Anda akan menimbulkan masalah dengan struktur teks.
+Pastikan untuk **JANGAN PERNAH menghapus tanda pagar** sebelum judul, jika tidak, Anda akan membuat masalah dengan struktur teks.
 
 
 Pada saat yang sama, **jangan ubah** bagian chapterID yang dapat Anda lihat pada gambar di atas, ``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>`` atau referensi video seperti ``:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::``.
@@ -175,7 +175,7 @@ Pada saat yang sama, **jangan ubah** bagian chapterID yang dapat Anda lihat pada
 Ketika kita menyisipkan ``#`` sebelum sebuah judul, maka secara otomatis judul tersebut akan menjadi tebal dalam pratinjau kursus, jadi **hindari membuat judul menjadi tebal selama koreksi**.
 
 
-Sebagai catatan tambahan, dalam versi bahasa Inggris, judul yang diawali dengan satu atau dua ``#`` memiliki semua kata yang diawali dengan huruf **kapital**, sedangkan judul yang diawali dengan tiga atau empat ``#`` biasanya tidak mengikuti aturan ini. Jika memungkinkan, pastikan judul dalam bahasa target Anda mengikuti struktur ini.
+Sebagai catatan tambahan, dalam versi bahasa Inggris, judul yang diawali dengan satu atau dua ``#`` memiliki semua kata yang diawali dengan huruf kapital**, sedangkan judul yang diawali dengan tiga atau empat ``#`` biasanya tidak mengikuti aturan ini. Jika memungkinkan, pastikan judul dalam bahasa target Anda mengikuti struktur ini.
 
 
 
@@ -197,6 +197,43 @@ Pada bagian awal yang sama ini, pertahankan format seperti apa adanya. Jangan me
 ![REVIEW](assets/en/8.webp)
 
 
+## Cara menangani gambar kursus
+
+
+Situs web kami sekarang menampilkan gambar terjemahan untuk hampir semua mata kuliah!
+
+
+Ketika Anda mengoreksi, selalu pastikan bahwa semua gambar ada dan ditampilkan dengan benar. Pada `code view`, jika Anda menemukan baris semacam ini `![IMAGE](assets/en/001.webp)`, berarti gambar akan ditampilkan di sana.
+
+
+Pastikan Anda selalu menambahkan baris baru di antara kode gambar dan teks. Contoh di bawah ini:
+
+
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
+
+
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
+
+
+
+Selain itu, jangan lupa untuk membaca isi dari setiap gambar. Jika Anda menemukan masalah dengan terjemahan teks di dalam gambar, beritahukan kepada koordinator Anda dan Anda akan mendapatkan kesempatan untuk mengoreksinya juga!
+
+
+Anda dapat memvisualisasikan gambar di bagian `Preview` di Github (atau di situs web kami, buka di tab lain). Kemudian, kembali ke bagian `kode` di sebelahnya untuk mengoreksi.
+
+
+![REVIEW](assets/en/9.webp)
+
 
 ## Rekomendasi format
 
@@ -205,11 +242,11 @@ Di bawah ini Anda dapat menemukan beberapa contoh masalah format yang perlu dipe
 
 
 
-- Perhatikan tanda baca yang aneh seperti `**`, atau `**` yang mungkin mewakili rendering yang buruk dari simbol tebal. Pada gambar di bawah ini, Anda dapat melihat bahwa tanda bintang hanya berada di sebelah kanan kata, yang terlihat aneh.
+- Perhatikan tanda baca yang aneh seperti `\*\*\`, atau ``**`` yang mungkin mewakili rendering yang buruk dari simbol tebal. Pada gambar di bawah ini, Anda dapat melihat bahwa tanda bintang hanya berada di sebelah kanan kata, yang terlihat aneh.
 
 
 
-![REVIEW](assets/en/9.webp)
+![REVIEW](assets/en/10.webp)
 
 
 
@@ -217,7 +254,7 @@ Oleh karena itu, selalu periksa teks bahasa Inggris asli untuk melihat apakah te
 
 
 
-![REVIEW](assets/en/10.webp)
+![REVIEW](assets/en/11.webp)
 
 
 
@@ -232,7 +269,48 @@ Pastikan untuk memeriksa file bahasa asli (biasanya EN atau FR) untuk melihat di
 
 
 
-![REVIEW](assets/en/11.webp)
+![REVIEW](assets/en/12.webp)
+
+
+
+
+## Pengoreksian tutorial
+
+
+Jika Anda memutuskan untuk mengoreksi tutorial, koordinator akan membuka edisi khusus untuk **seluruh bagian tutorial**. Ketika Anda menyelesaikan tugas Anda, Anda dapat mendokumentasikan kemajuan Anda dengan berkomentar di edisi tersebut dengan daftar tutorial yang telah diulas: dengan cara ini, Anda membuat sistem pelacakan yang jelas untuk referensi di masa depan, yang penting karena konten baru ditambahkan setiap bulan. Anda dapat melihat contoh pendekatan ini [di sini](https://github.com/PlanB-Network/bitcoin-educational-content/issues/3023#issuecomment-3364923190).
+
+
+![REVIEW](assets/en/13.webp)
+
+
+Karena tutorial baru ditambahkan setiap bulan, cabang Anda mungkin menjadi usang selama proses proofreading. Beberapa korektor telah mengatasi masalah ini dengan menyinkronkan cabang tempat mereka bekerja: **TOLONG JANGAN PERNAH melakukannya! Jika Anda melakukannya, Anda berisiko kehilangan semua kemajuan yang telah Anda buat hingga saat itu!
+
+
+Sebagai gantinya, Anda harus menyelesaikan proofreading tutorial yang ada di fork Anda saat ini terlebih dahulu. Kemudian, **sinkronisasi `dev`**, dan buatlah sebuah cabang baru di mana Anda fokus untuk mengoreksi tutorial-tutorial yang baru ditambahkan (hanya tutorial-tutorial yang belum ada di cabang sebelumnya).
+
+
+Dalam tutorial, ada kemungkinan **gambar tidak diterjemahkan**. Karena sebagian besar tutorial **aslinya ditulis dalam bahasa Prancis atau Inggris**, Anda mungkin akan menemukan gambar yang memuat perintah atau petunjuk dalam bahasa aslinya. Mari kita ambil contoh dari tutorial tentang Sparrow dalam bahasa Belanda, dengan melaporkan teks dan gambar terkait.
+
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Publieke server_".
+```
+
+
+![REVIEW](assets/en/14.webp)
+
+
+Seperti yang bisa Anda lihat, gambar secara jelas menunjuk ke `Public Server`, dalam bahasa Inggris, sedangkan teks menyebutkan ekspresi `_Publieke server_`. Dalam kasus ini, terdapat masalah koherensi, karena pembaca menemukan informasi yang saling bertentangan apabila menghadapkan gambar dengan teks.
+
+
+Untuk mengatasi masalah ini, Anda dapat memasukkan perintah seperti yang terlihat pada gambar (Inggris atau Prancis), diikuti dengan terjemahan dalam bahasa Anda di dalam tanda kurung , seperti yang ditunjukkan di bawah ini:
+
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Public Server_" (Publieke server).
+```
+
+
 
 ## Pengoreksian kuis
 
@@ -243,17 +321,17 @@ Tahukah Anda bahwa Anda juga bisa mengoreksi pertanyaan kuis di setiap mata kuli
 Sekali lagi, pastikan Anda berada di cabang khusus yang Anda buka secara khusus untuk tujuan ini, dan selalu informasikan kepada koordinator.
 
 
-Hal penting yang perlu diingat ketika mengoreksi file _yml_ jenis ini adalah untuk menghindari penambahan titik dua ``:`` di dalam teks. Faktanya, tanda titik dua **hanya** digunakan untuk memisahkan pasangan key-value seperti "salah_jawaban" dengan yang lainnya. Anda dapat melihat contohnya pada gambar di bawah ini:
+Hal penting yang perlu diingat ketika mengoreksi file _yml_ jenis ini adalah untuk menghindari penambahan tanda titik dua ``:`` atau tanda petik di dalam teks. Faktanya, tanda titik dua **hanya** digunakan untuk memisahkan pasangan key-value seperti "salah_jawaban" dengan yang lainnya. Anda dapat melihat contohnya pada gambar di bawah ini:
 
 
-![REVIEW](assets/en/12.webp)
+![REVIEW](assets/en/15.webp)
 
 
-Setelah meninjau soal, pastikan Anda mengubah status "ditinjau" dari "salah" menjadi "benar", seperti yang ditunjukkan pada gambar di bawah ini. Pastikan untuk tetap menggunakan kata-kata status ini dalam bahasa Inggris, apa pun bahasa yang Anda gunakan!
+Setelah meninjau soal, pastikan Anda mengubah status "ditinjau" dari "salah" menjadi "benar", seperti yang ditunjukkan pada gambar di bawah ini. Pastikan untuk **menjaga kata-kata status ini dalam bahasa Inggris**, apa pun bahasa yang Anda gunakan!
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/16.webp)
 
 
 Jika baris status "reviewed:true" tidak ada, pastikan untuk menambahkannya di akhir kuis.
@@ -273,7 +351,8 @@ Jika judul dibiarkan dalam bahasa Inggris, Anda dapat menyesuaikan kalimat denga
 Selain itu, pastikan untuk menulis judul dalam HURUF KAPITAL.
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/17.webp)
+
 
 
 ## Judul dan deskripsi PR Anda
@@ -289,7 +368,7 @@ Ketika Anda mengirim PR Anda, akan sangat luar biasa jika Anda menamainya dengan
 
 Selain itu, di bagian **komentar PR**, Anda dapat menulis "ditutup" + nomor edisi yang dikirimkan koordinator kepada Anda saat Anda memulai tugas proofreading, diawali dengan ``#``.
 
-Sebagai contoh, jika Anda baru saja mengirim PR dengan mengoreksi kuis cyp201 +, Anda dapat menulis "menutup [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+Sebagai contoh, jika Anda baru saja mengirim PR dengan mengoreksi kuis cyp201 +, Anda dapat menulis "menutup [#2934](https://github.com/PlanB-Network/bitcoin-educational-content/issues/2934)".
 
 
 Dengan cara ini, PR dan masalah akan terhubung, dan siapa pun yang membaca repositori Github publik dapat dengan mudah menemukan informasi.
@@ -304,49 +383,31 @@ Dengan cara ini, PR dan masalah akan terhubung, dan siapa pun yang membaca repos
 
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/18.webp)
 
 
 
 Ketika menggunakan fungsi "ganti semua", penting untuk memeriksa ulang hasilnya untuk memastikan bahwa tautan juga belum diubah. Misalnya, jika Anda ingin mengubah kata "Bitcoin" menjadi "Bitcoin" (yang mungkin diperlukan di beberapa bahasa), menggunakan fungsi "ganti semua" dapat secara efisien memperbarui semua contoh di dalam teks. Namun, perlu diketahui bahwa alat ini juga akan memodifikasi setiap tautan yang mengandung kata tersebut, yang berpotensi menyebabkan masalah pengalihan.
 
 
-Pada contoh di bawah ini, proofreader menggunakan fungsi di atas untuk mengganti "Satoshi" dengan "Satoshi (Sats)", dan juga mengubah tautan ke tutorial yang berisi kata itu sendiri. Akibatnya, tautan tersebut menjadi tidak valid.
+Pada contoh di bawah ini, proofreader menggunakan fungsi di atas untuk mengganti "satoshi" dengan "satoshi (sats)", dan juga mengubah tautan ke tutorial yang berisi kata itu sendiri. Akibatnya, tautan tersebut menjadi tidak valid.
 
 
 Selalu periksa ulang semua hyperlink dalam teks, untuk memastikan bahwa semuanya sudah benar.
 
 
 
-![REVIEW](assets/en/16.webp)
+![REVIEW](assets/en/19.webp)
 
 
 
 
-- Mengikuti topik ini, jika penulis menyisipkan tautan yang merujuk ke kursus atau tutorial Plan ₿ Academy (**bukan** di dalam tanda kurung), situs web secara otomatis akan membuat "kartu" yang menampilkan gambar mini yang terkait. Oleh karena itu, selalu pastikan bahwa Anda **menambahkan baris baru di antara teks dan tautan itu sendiri**, jika tidak, Anda mungkin akan melihat kesalahan berikut di situs web.
+- Mengikuti topik ini, jika penulis menyisipkan tautan yang merujuk pada kursus atau tutorial Plan ₿ Academy (**bukan** di dalam tanda kurung), situs web akan secara otomatis membuat "kartu" yang menampilkan gambar mini yang terkait. Oleh karena itu, selalu pastikan bahwa Anda **menambahkan baris baru di antara teks dan tautan itu sendiri**, jika tidak, Anda akan melihat kesalahan berikut di situs web.
 
 
 
-![REVIEW](assets/en/17.webp)
+![REVIEW](assets/en/20.webp)
 
-
-Hal yang sama terjadi pada "kode gambar" seperti ini ``[IMAGE](asset/fr/001.webp)``: pastikan Anda selalu menambahkan baris baru di antara kode gambar dan teks. Contoh di bawah ini:
-
-
-```
-WRONG CONFIGURATION:
-- to start translating, click on the button `Translate`: ![language](assets/08.webp)
-To save, click on `save`!
-
-
-RIGHT CONFIGURATION:
-
-- to start translating, click on the button `Translate`:
-
-![language](assets/08.webp)
-
-To save, click on `save`!
-```
 
 
 ## Kesimpulan
@@ -355,10 +416,10 @@ To save, click on `save`!
 Singkatnya, menyadari kesalahan umum yang dilakukan oleh korektor dapat sangat membantu Anda meningkatkan keterampilan Anda saat memeriksa konten. Sangat mudah untuk mengabaikan hal-hal seperti konteks atau konsistensi, dan menangkap kesalahan ini dapat membuat perbedaan besar.
 
 
-Ingatlah selalu bahwa seorang pemula mungkin membaca kursus dan tutorial ini, jadi tanggung jawab kita untuk memastikan bahwa mereka memahami sepenuhnya. Sebagai korektor, Anda adalah seorang pendidik!
+Ingatlah selalu bahwa seorang pemula mungkin membaca kursus dan tutorial ini, jadi kita bertanggung jawab untuk memastikan bahwa mereka memahami sepenuhnya. **Sebagai korektor, Anda adalah seorang pendidik!
 
 
-Sekarang Anda siap untuk mulai mengoreksi kursus, tutorial, kuis, dan kata-kata glosarium. Nantikan juga untuk mulai memeriksa gambar dan transkrip video;)
+Sekarang Anda siap untuk mulai mengoreksi kursus, tutorial, kuis, dan kata-kata glosarium. Nantikan untuk mulai memeriksa transkrip video juga!
 
 
 Terima kasih telah membaca tutorial ini, dan selamat menikmati perjalanan proofreading Anda!

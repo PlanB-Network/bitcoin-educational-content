@@ -6,3 +6,4 @@ wrong_answers:
   - I blocchi più grandi creano un maggior numero di conflitti di transazione tra blocchi concorrenti, rendendo più difficile determinare quale blocco debba essere accettato
 explanation: |
   La risposta corretta identifica il meccanismo alla base dei blocchi stantii. Quando i blocchi sono più grandi, richiedono più larghezza di banda per il trasferimento tra i nodi e più tempo per la convalida. Durante questo lungo periodo di propagazione, più minatori possono trovare blocchi concorrenti alla stessa altezza, poiché non hanno ancora ricevuto il blocco più recente. Questo crea una condizione di gara in cui solo un blocco può essere accettato, rendendo gli altri stantii. Le risposte sbagliate confondono questo problema di propagazione con la difficoltà del mining, con i meccanismi di consenso o con i conflitti delle transazioni, che sono problemi separati dal problema della tempistica che causa i blocchi stantii.
+reviewed: false

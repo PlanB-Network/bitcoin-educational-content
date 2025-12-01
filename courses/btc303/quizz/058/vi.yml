@@ -6,3 +6,4 @@ wrong_answers:
   - Mã được làm tối nghĩa phải được cung cấp thông qua một bản tải xuống riêng biệt với chi phí tái tạo
 explanation: |
   Định nghĩa nguồn mở nêu rõ rằng "việc cố tình làm tối nghĩa mã nguồn là không được phép". Đây là một yêu cầu cơ bản vì việc làm tối nghĩa ngăn cản việc xem xét, sửa đổi và hiểu mã nguồn một cách có ý nghĩa, điều này đi ngược lại mục đích cốt lõi của phần mềm nguồn mở. Mã nguồn phải ở "dạng được lập trình viên ưa thích nhất để sửa đổi chương trình", khiến việc làm tối nghĩa mã nguồn không tương thích với các nguyên tắc nguồn mở bất kể tài liệu hay phương pháp phân phối.
+reviewed: false

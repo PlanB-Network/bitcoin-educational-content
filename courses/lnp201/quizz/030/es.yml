@@ -6,3 +6,4 @@ wrong_answers:
   - Enviando los fondos directamente con direcciones multisignatura
 explanation: |
   La Lightning Network permite el enrutamiento de un pago a través de varios nodos intermediarios, sin requerir un canal directo entre el emisor y el receptor.
+reviewed: true

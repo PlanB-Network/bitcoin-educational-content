@@ -6,3 +6,4 @@ wrong_answers:
   - Online-Systeme verarbeiten Transaktionen schneller, was es für Angreifer einfacher macht, koordinierte Angriffe zu starten
 explanation: |
   Der von Andrew Poelstra hervorgehobene Hauptunterschied besteht darin, dass sich physische Systeme auf die Strafverfolgung und die Sichtbarkeit der Gegner verlassen können, um Angriffe abzuschrecken, und dabei sogar einige Risiken wie das Abbrennen von Gebäuden in Kauf nehmen. Online-Systeme wie Bitcoin operieren jedoch in einer Umgebung, in der Angreifer pseudonym oder anonym agieren, sich von überall aus einloggen und Schwachstellen ausnutzen können, ohne identifiziert oder erwischt zu werden. Dieser grundlegende Unterschied bedeutet, dass alle bekannten Schwachstellen in Bitcoin behoben werden müssen, da sie unweigerlich von unsichtbaren Angreifern ausgenutzt werden, die keine Konsequenzen in der realen Welt befürchten müssen.
+reviewed: false

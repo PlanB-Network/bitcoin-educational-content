@@ -44,7 +44,7 @@ Kwa maana hii, wachangiaji wote kwenye Plan ₿ Academy ni waelimishaji!
 ## Hatua za kwanza kabla ya kusahihisha kwenye Plan ₿ Academy
 
 
-Kabla ya kuanza kazi mpya ya kusahihisha, itangaze katika [kikundi cha Telegramu](https://t.me/PlanBNetwork_ContentBuilder) au umjulishe mratibu wako wa Plan ₿ Academy, ambaye atafungua [toleo] maalum (https://github.com/orgs/Plan ₿ Academy/projects/3). Unapopokea kiungo cha toleo, **toa maoni tu kwamba unaanza** na kazi ya kusahihisha maudhui hayo.
+Kabla ya kuanza kazi mpya ya kusahihisha, itangaze katika [kikundi cha Telegramu](https://t.me/PlanBNetwork_ContentBuilder) au umjulishe mratibu wako wa Plan ₿ Academy, ambaye atafungua [toleo] maalum (https://github.com/orgs/PlanB-Network/projects/3). Unapopokea kiungo cha toleo, **toa maoni tu kwamba unaanza** na kazi ya kusahihisha maudhui hayo.
 
 
 Mfumo huu humsaidia mratibu kufuatilia maendeleo ndani ya repo, na huruhusu maudhui "kudaiwa" na kisahihishaji, kuzuia jitihada zinazorudiwa na mtu mwingine.
@@ -196,7 +196,33 @@ Katika sehemu hii ya mwanzo, weka umbizo kama lilivyo. Usiongeze chochote mwanzo
 
 ![REVIEW](assets/en/8.webp)
 
+## Jinsi ya kushughulikia picha za kozi
 
+Tovuti yetu sasa ina picha zilizotafsiriwa kwa karibu kila kozi!
+
+Unaposahihisha, hakikisha daima kuwa picha zote zipo na zinaonyeshwa vizuri. Katika `mtazamo wa msimbo`, ukipata mstari wa aina hii `![IMAGE](assets/en/001.webp)`, inamaanisha kuwa picha itaonyeshwa hapo.
+
+Hakikisha unaongeza mstari mpya kila wakati kati ya msimbo wa picha na maandishi. Mfano hapa chini:
+
+```
+USANIDI USIO SAHIHI:
+- kuanza kutafsiri, bonyeza kitufe `Translate`: ![language](assets/08.webp)
+Kuhifadhi, bonyeza `save`!
+  
+USANIDI SAHIHI:
+
+- kuanza kutafsiri, bonyeza kitufe `Translate`: 
+
+![language](assets/08.webp)
+
+Kuhifadhi, bonyeza `save`!
+```
+
+Aidha, kumbuka kusoma maudhui ya kila picha. Ikiwa utagundua matatizo yoyote na tafsiri ya maandishi ndani ya picha, mjulishe mratibu wako na utapata nafasi ya kuzisahihisha pia!
+
+Unaweza kuona picha katika sehemu ya `Preview` ya Github (au kwenye tovuti yetu, fungua katika kichupo kingine). Kisha, rudi kwenye sehemu ya `code` karibu nayo kwa kusahihisha.
+
+![REVIEW](assets/en/9.webp)
 
 ## Mapendekezo ya muundo
 
@@ -209,7 +235,7 @@ Hapa chini unaweza kupata mifano michache ya masuala ya umbizo la kuzingatia, un
 
 
 
-![REVIEW](assets/en/9.webp)
+![REVIEW](assets/en/10.webp)
 
 
 
@@ -217,7 +243,7 @@ Kwa hivyo, kila wakati angalia maandishi asilia ya Kiingereza ili kuona ikiwa ma
 
 
 
-![REVIEW](assets/en/10.webp)
+![REVIEW](assets/en/11.webp)
 
 
 
@@ -232,7 +258,7 @@ Hakikisha kuwa umeangalia faili ya lugha asili (mara nyingi EN au FR) ili kuona 
 
 
 
-![REVIEW](assets/en/11.webp)
+![REVIEW](assets/en/12.webp)
 
 ## Usahihishaji wa maswali
 
@@ -246,17 +272,43 @@ Kwa mara nyingine tena, hakikisha uko katika tawi lililojitolea ambalo unafungua
 Jambo muhimu kukumbuka wakati wa kusahihisha aina hii ya faili ya _yml_ ni kuepuka kuongeza koloni ``:`` ndani ya maandishi. Kwa kweli, koloni ni **pekee** inayotumika kutenganisha jozi za thamani-msingi kama "majibu_ya_mabaya" kwa zingine. Unaweza kuona mfano kwenye picha hapa chini:
 
 
-![REVIEW](assets/en/12.webp)
+![REVIEW](assets/en/13.webp)
 
 
 Baada ya kukagua swali, hakikisha kuwa umebadilisha hali ya "iliyokaguliwa" kutoka "uongo" hadi "kweli," kama inavyoonyeshwa kwenye picha hapa chini. Hakikisha kuwa umeweka maneno haya ya hali katika Kiingereza, bila kujali ni lugha gani unafanyia kazi!
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/14.webp)
 
 
 Ikiwa mstari wa hali "imekaguliwa: kweli" haipo, hakikisha **uiongeze mwishoni mwa chemsha bongo**.
+
+## Kusahihisha mafunzo
+
+Ikiwa unaamua kusahihisha mafunzo, mratibu atafungua suala maalum kwa **sehemu nzima ya mafunzo**. Unapomaliza kazi yako, unaweza kuandika maendeleo yako kwa kutoa maoni kwenye suala hilo ukiorodhesha mafunzo uliyokagua: kwa njia hii, unaunda mfumo wazi wa kufuatilia kwa marejeo ya baadaye, ambayo ni muhimu kwa sababu maudhui mapya yanaongezwa kila mwezi. Unaweza kuona mfano wa mbinu hii [hapa](https://github.com/PlanB-Network/bitcoin-educational-content/issues/3023#issuecomment-3364923190).
+
+![REVIEW](assets/en/15.webp)
+
+Kwa kuwa mafunzo mapya yanaongezwa kila mwezi, tawi lako linaweza kuwa la zamani wakati wa mchakato wa kusahihisha. Baadhi ya wasahihishaji wameshughulikia tatizo hili kwa kulandanisha tawi halisi wanalofanya kazi: **tafadhali USIFANYE hivyo KAMWE! Ukifanya hivyo, unaweza kupoteza maendeleo yote uliyofanya hadi wakati huo!**
+
+Badala yake, unapaswa kumaliza kusahihisha mafunzo kwenye fork yako ya sasa kwanza. Kisha, **sawazisha `dev`**, na uunde tawi jipya ambapo unazingatia kusahihisha mafunzo yaliyoongezwa hivi karibuni (yale tu yanayokosekana kwenye tawi lako la awali).
+
+Katika mafunzo, kuna uwezekano **picha zinaweza kuwa hazijakalishwa lugha**. Kwa kuwa mafunzo mengi **yameandikwa awali kwa Kifaransa au Kiingereza**, pengine utapata picha zenye amri au maelekezo katika lugha yao asili. Hebu tuchukue mfano kutoka kwa mafunzo kuhusu Sparrow kwa Kiholanzi, kwa kuripoti maandishi na picha husika.
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Publieke server_".
+```
+
+![REVIEW](assets/en/16.webp)
+
+Kama unavyoweza kuona, picha inaonyesha wazi `Public Server`, kwa Kiingereza, wakati maandishi yanazungumzia usemi `_Publieke server_`. Katika kesi hii, kuna tatizo la uthabiti, kwa sababu msomaji anapata taarifa zinazopingana anapolinganisha picha na maandishi.
+
+Ili kutatua suala hili, unaweza kuweka amri kama inavyoonekana kwenye picha (Kiingereza au Kifaransa), ikifuatiwa na tafsiri katika lugha yako ndani ya mabano, kama inavyoonyeshwa hapa chini:
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Public Server_" (Publieke server).
+```
 
 
 ## Usahihishaji wa faharasa
@@ -273,7 +325,7 @@ Ikiwa kichwa kitaachwa kwa Kiingereza, unaweza kurekebisha sentensi kwa lugha ya
 Zaidi ya hayo, hakikisha umeandika mada katika HERUFI KUBWA.
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/17.webp)
 
 
 ## Kichwa na maelezo yako PR
@@ -304,7 +356,7 @@ Kwa njia hii, PR na suala zitaunganishwa, na yeyote anayesoma hazina ya umma ya 
 
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/18.webp)
 
 
 
@@ -318,7 +370,7 @@ Kila mara angalia viungo vyote kwenye maandishi, ili kuhakikisha kuwa ni sahihi.
 
 
 
-![REVIEW](assets/en/16.webp)
+![REVIEW](assets/en/19.webp)
 
 
 
@@ -327,7 +379,7 @@ Kila mara angalia viungo vyote kwenye maandishi, ili kuhakikisha kuwa ni sahihi.
 
 
 
-![REVIEW](assets/en/17.webp)
+![REVIEW](assets/en/20.webp)
 
 
 Vile vile hufanyika kwa "misimbo ya picha" kama hii ``[IMAGE](asset/fr/001.webp)``: hakikisha kila wakati unaongeza laini mpya kati ya msimbo wa picha na maandishi. Mfano hapa chini:
@@ -351,14 +403,10 @@ To save, click on `save`!
 
 ## Hitimisho
 
+Kwa muhtasari, kuwa na ufahamu wa makosa ya kawaida ya wasahihishaji kunaweza kukusaidia sana kuboresha ujuzi wako wakati wa kukagua maudhui. Ni rahisi kupuuza mambo kama muktadha au uthabiti, na kugundua makosa haya kunaweza kuleta tofauti kubwa.
 
-Kwa muhtasari, kufahamu makosa ya wasahihishaji wa kawaida kunaweza kukusaidia kuboresha ujuzi wako unapokagua maudhui. Ni rahisi kupuuza mambo kama vile muktadha au uthabiti, na kupata hitilafu hizi kunaweza kuleta tofauti kubwa.
+Kumbuka daima kuwa mwanafunzi anaweza kusoma kozi na mafunzo haya, kwa hivyo ni jukumu letu kuhakikisha kuwa wanaelewa kikamili. **Kama msahihishaji, wewe ni mwalimu!**
 
+Sasa uko tayari kuanza kusahihisha kozi, mafunzo, maswali ya mtihani, na maneno ya kamusi. Endelea kusikiliza ili kuanza kukagua nakala za video pia!
 
-Kumbuka kila wakati kuwa anayeanza anaweza kusoma kozi na mafunzo haya, kwa hivyo ni jukumu letu kuhakikisha kuwa anaelewa kikamilifu. Kama msahihishaji, wewe ni mwalimu!
-
-
-Sasa uko tayari kuanza kozi za kusahihisha, mafunzo, maswali na maneno ya faharasa. Endelea kufuatilia pia kuanza kuangalia picha na nakala za video;)
-
-
-Asante kwa kusoma somo hili, na ufurahie safari yako ya kusahihisha!
+Asante kwa kusoma mafunzo haya, na furahia safari yako ya kusahihisha!

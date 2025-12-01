@@ -6,3 +6,4 @@ wrong_answers:
   - Sınırlı kalkınma kaynakları ve toplum desteği için ikinci katman çözümleri ile on-chain ölçeklendirme yaklaşımları arasındaki rekabet
 explanation: |
   Maxwell, Bitcoin'ün avantajlarını her iki yönde de kaybettiği çift taraflı bir sorun tanımlamıştır: kaynak kullanımı mevcut teknolojiye göre çok yüksekse, doğrulama çok maliyetli hale gelir ve bağımsız olarak doğrulama yapmak yerine güvenilir üçüncü taraflara güvenmek zorunda kalan kullanıcıları fiyatlandırır. Tersine, kapasite çok düşükse ve işlem yöntemleri verimsizse, uyuşmazlık çözümü için blok zincirine erişim çok pahalı hale gelir ve kullanıcıları yine güvenilir hizmetlere iter. Bu durum, ölçeklendirme çözümlerinin izlemesi gereken hassas bir denge yaratır.
+reviewed: false

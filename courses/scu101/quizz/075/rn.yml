@@ -1,9 +1,9 @@
-question: Ni ibihe bintu bisobanura ijambobanga ryiza?
-answer: Ni ndende, iragoye kandi ni iyidasanzwe.
+question: Ni ibihe bintu biranga ijambo ry'ibanga ryiza?
+answer: Ni rirerire, riragoye kandi ririhariye.
 wrong_answers:
-  - Ni ngufi, yoroshe kandi yoroshe kwibuka.
-  - Bishingiye ku makuru y’umuntu ku giti ciwe.
-  - Ibisa n’ivyo ku nkuru zose.
+  - Ni rigufi, ryoroshe kandi ryoroshe kwibuka.
+  - Rishingiye ku makuru y’umuntu ku giti ciwe.
+  - Risa n’ivyo ku nkuru zose.
 explanation: |
-  Ijambobanga ryiza rikwiye kuba rirerire bihagije, rigoye kandi ntirikwiye gusubira gukoreshwa.
+  Ijambo ry'ibanga ryiza rikwiye kuba rirerire bihagije, rigoye kandi ntirikwiye gusubira gukoreshwa.
 reviewed: true

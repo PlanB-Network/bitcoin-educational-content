@@ -6,3 +6,4 @@ wrong_answers:
   - Validadores de rede que votam na validade da transação através de um processo democrático
 explanation: |
   O limite de fornecimento do Bitcoin é aplicado através de nós completos que executam o código de verificação para verificar a transação de cada bloco da coinbase em relação às regras de consenso. Mesmo que alguns nós se tornem maliciosos e aceitem blocos inválidos com recompensas excessivas, os nós honestos simplesmente os ignorarão e continuarão com a cadeia válida. Isto cria um sistema sem confiança onde não é necessário confiar em qualquer indivíduo ou autoridade - apenas é necessário executar o código que verifica se as regras estão a ser seguidas, tornando a rede coletivamente segura contra tentativas de inflação da oferta.
+reviewed: false

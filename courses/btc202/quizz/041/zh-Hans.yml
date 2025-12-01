@@ -1,7 +1,7 @@
 question: 哪些自托管应用程序可以通过 Umbrel 安装？
 answer: Nextcloud
 wrong_answers:
-  - 谷歌硬盘
+  - Google Drive
   - Dropbox
   - OneDrive
 explanation: |

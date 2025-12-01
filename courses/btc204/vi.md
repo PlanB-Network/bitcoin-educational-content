@@ -2544,7 +2544,7 @@ Thật không may, sau khi những người sáng lập Samourai bị bắt, cá
 
 Bây giờ chúng ta đã tìm hiểu chi tiết về coinjoin, chúng ta sẽ xem xét các kỹ thuật bảo mật khác có sẵn trên Bitcoin trong phần cuối của khóa học. Chúng ta sẽ xem xét payjoin, các loại giao dịch giả coinjoin cụ thể, giao thức địa chỉ tĩnh cũng như các biện pháp tăng cường tính bảo mật không phải ở cấp độ giao dịch mà ở cấp độ mạng lưới các nút.
 
-https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # Hiểu được những thách thức của các kỹ thuật bảo mật tiên tiến khác
 

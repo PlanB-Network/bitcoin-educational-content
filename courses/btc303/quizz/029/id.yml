@@ -6,3 +6,4 @@ wrong_answers:
   - sekitar 20.500.000,0000 BTC
 explanation: |
   Pieter Wuille menghitung bahwa pasokan maksimum teoritis adalah 20.999.999,9769 BTC, yang sedikit lebih rendah dari 21 juta yang sering dikutip. Hal ini disebabkan oleh jadwal pembagian dua dan pembulatan dalam kode Bitcoin. Angka 21 juta adalah perkiraan yang dibulatkan. Angka 20.999.817,3131 merupakan jumlah pasokan yang beredar setelah memperhitungkan koin yang hilang dan kesalahan mining hingga blok tertentu, bukan jumlah maksimum secara teori.
+reviewed: false

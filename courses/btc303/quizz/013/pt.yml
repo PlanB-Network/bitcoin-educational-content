@@ -6,3 +6,4 @@ wrong_answers:
   - O Trustless e os sistemas de confiança devem funcionar de forma independente e não podem ser colocados uns sobre os outros
 explanation: |
   A principal visão de Matt Corallo é que a camada de base sem confiança do Bitcoin permite flexibilidade no design do sistema. Uma base sem confiança como o protocolo Bitcoin permite aos programadores criar serviços de confiança (como carteiras de custódia) em camadas superiores, preservando as garantias de segurança subjacentes. No entanto, o inverso é impossível - não é possível criar sistemas verdadeiramente sem confiança se a própria base exigir confiança, uma vez que quaisquer propriedades sem confiança seriam prejudicadas pelas vulnerabilidades da camada de base de confiança.
+reviewed: false

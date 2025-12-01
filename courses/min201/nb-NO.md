@@ -62,7 +62,7 @@ Klar til å utforske Bitcoin-miningverdenen og ta på deg den praktiske utfordri
 
 For å forklare konseptet med mining på en forenklet måte, kan en relevant analogi brukes: den om et puslespill. Akkurat som et puslespill, er mining en kompleks oppgave å utføre, men enkel å verifisere når den er fullført. I konteksten av Bitcoin-mining, streber minerne etter å raskt løse et digitalt puslespill. Den første miner som løser puslespillet, presenterer sin løsning for hele nettverket, som da enkelt kan verifisere gyldigheten. Denne vellykkede verifiseringen tillater mineren å validere en ny blokk og legge den til i Bitcoin Timechain. Som anerkjennelse for deres arbeid, som innebærer betydelige kostnader, blir mineren belønnet med et visst antall bitcoins. Denne belønningen fungerer som en økonomisk insentiv for minerne til å fortsette sitt arbeid med å validere transaksjoner og sikre Bitcoin-nettverket.
 
-![bilde](assets/en/01.webp)
+![bilde](assets/en/001.webp)
 
 I begynnelsen av Bitcoin-nettverket, var den tildelte belønningen 50 bitcoins hvert tiende minutt, parallelt med oppdagelsen av en blokk hvert tiende minutt i gjennomsnitt av minerne. Denne belønningen gjennomgår en halvering hver 210 000 blokker, omtrent hvert fjerde år. Denne godtgjørelsen fungerer som en kraftig insentiv for å oppmuntre minerne til å delta i miningprosessen til tross for dens energikostnad. Uten en belønning, ville den energikrevende miningen bli forlatt, noe som kompromitterer sikkerheten og stabiliteten til hele Bitcoin-nettverket.
 Den nåværende miningbelønningen er todelt. På den ene siden inkluderer den skapingen av nye bitcoins, som har redusert fra 50 bitcoins hvert tiende minutt i begynnelsen til 6,25 bitcoins i dag (2023). På den andre siden inkluderer den transaksjonsgebyrer, eller mininggebyrer, fra transaksjonene som mineren velger å inkludere i sin blokk. Når en bitcoin-transaksjon blir gjort, betales transaksjonsgebyrer. Disse gebyrene fungerer som en slags auksjon hvor brukerne angir hvor mye de er villige til å betale for å få sin transaksjon inkludert i neste blokk. For å maksimere sin belønning, velger minerne, som handler i egen interesse, de mest lønnsomme transaksjonene å inkludere i sin blokk, med tanke på det begrensede tilgjengelige rommet. Således består miningbelønningen av både genereringen av nye bitcoins og transaksjonsgebyrer, noe som sikrer en kontinuerlig insentiv for minerne og sikrer Bitcoin-nettverkets levetid og sikkerhet.
@@ -73,7 +73,7 @@ Miningprosessen innebærer å finne en gyldig hash som er akseptabel for Bitcoin
 
 I begynnelsen dominerte CPU-æraen, hvor minerne brukte sine personlige datamaskiner for Bitcoin-mining. Oppdagelsen av fordelene med GPUer (grafikkort) for denne oppgaven markerte et vendepunkt, og økte hashraten betydelig og reduserte energiforbruket. Fremgangen stoppet ikke der, med den påfølgende introduksjonen av FPGAer (field-programmable gate arrays). FPGAer tjente som en plattform for utviklingen av ASICer (application-specific integrated circuits).
 
-![bilde](assets/en/02.webp)
+![bilde](assets/en/002.webp)
 ASIC-er er brikker, sammenlignbare med en CPU-brikke, men de er utviklet for å utføre kun én spesifikk type beregning på den mest effektive måten mulig. Med andre ord, en CPU er i stand til å utføre en mengde forskjellige typer beregninger uten å være spesielt optimalisert for én type beregning eller en annen, mens en ASIC vil være i stand til å utføre kun én type beregning, men veldig effektivt. I tilfellet med Bitcoin ASIC-er, er de designet for beregningen av SHA256-algoritmen. I dag bruker gruvearbeidere utelukkende ASIC-er dedikert til denne operasjonen, optimalisert for å teste det maksimale antallet kombinasjoner med det minst mulige energiforbruket og så raskt som mulig. Disse datamaskinene, som er ute av stand til å utføre oppgaver annet enn Bitcoin-mining, er et håndfast vitnesbyrd om den kontinuerlige utviklingen og økende spesialiseringen av Bitcoin-miningindustrien. Denne konstante utviklingen reflekterer Bitcoin sin intrinsikke dynamikk, hvor en vanskelighetsjustering sikrer produksjonen av en blokk hvert tiende minutt til tross for den eksponentielle økningen i miningkapasitet.
 
 For å illustrere intensiteten av denne prosessen, vurder en typisk gruvearbeider som er i stand til å oppnå 14 TeraHash per sekund, eller 14 billioner forsøk hvert sekund for å finne den korrekte hashen. I skalaen til Bitcoin-nettverket, når vi nå omtrent 300 ExaHash per sekund, noe som fremhever den kollektive kraften mobilisert i Bitcoin-mining.
@@ -82,7 +82,7 @@ For å illustrere intensiteten av denne prosessen, vurder en typisk gruvearbeide
 
 Vanskelighetsjustering er en avgjørende mekanisme i driften av Bitcoin-nettverket, som sikrer at blokker blir minet i gjennomsnitt hvert 10. minutt. Denne varigheten er et gjennomsnitt fordi miningprosessen faktisk er et spill med sannsynligheter, likt med å kaste terninger i håp om å få et tall lavere enn tallet definert av vanskeligheten. Hver 2016 blokker, justerer nettverket miningvanskeligheten basert på gjennomsnittstiden som kreves for å mine de foregående blokkene. Hvis gjennomsnittstiden er større enn 10 minutter, reduseres vanskeligheten, og omvendt, hvis gjennomsnittstiden er lavere, økes vanskeligheten. Denne justeringsmekanismen sikrer at miningtiden for nye blokker forblir konstant over tid, uavhengig av antall gruvearbeidere eller den samlede databehandlingskraften til nettverket. Dette er grunnen til at Bitcoin Blockchain også kalles Timechain.
 
-![bilde](assets/en/03.webp)
+![bilde](assets/en/003.webp)
 
 - Eksempel fra Kina:
   Tilfellet med Kina illustrerer perfekt denne vanskelighetsjusteringsmekanismen. Med rikelig og billig energi, var Kina det viktigste globale knutepunktet for Bitcoin-mining. I 2021 forbød landet plutselig Bitcoin-mining på sitt territorium, noe som resulterte i et massivt fall i den globale Bitcoin-nettverkets hashrate, rundt 50%. Denne raske nedgangen i miningkraft kunne ha alvorlig forstyrret Bitcoin-nettverket ved å øke gjennomsnittstiden for mining av blokker. Imidlertid trådte vanskelighetsjusteringsmekanismen i kraft, og reduserte miningvanskeligheten for å sikre at blokkminingfrekvensen forblir på et gjennomsnitt på 10 minutter. Dette tilfellet demonstrerer effektiviteten og motstandsdyktigheten til Bitcoins vanskelighetsjusteringsmekanisme, som sikrer nettverkets stabilitet og forutsigbarhet, selv i møte med plutselige og betydelige endringer i det globale mininglandskapet.
@@ -91,7 +91,7 @@ Vanskelighetsjustering er en avgjørende mekanisme i driften av Bitcoin-nettverk
 
 Når det gjelder utviklingen av Bitcoin-miningmaskiner, er det viktig å merke seg at konteksten er mer orientert mot en tradisjonell forretningsmodell. Gravere tjener sin inntekt fra blokkvalidering, en oppgave med relativt lav sannsynlighet for suksess. Den nåværende modellen i bruk, Antminer S9, selv om det er en eldre modell lansert rundt 2016, er fortsatt i omløp på det brukte markedet, og handles for rundt €100 til €200. Imidlertid varierer prisen på miningmaskiner basert på verdien av Bitcoin, og en nyere modell, Antminer S19, er for øyeblikket estimert til rundt €3000.
 Stilt overfor konstante teknologiske fremskritt innen gruvefeltet, må fagfolk strategisk posisjonere seg. Gruveindustrien er underlagt kontinuerlige innovasjoner, som demonstrert ved den nylige utgivelsen av J-versjonen av S19 og den forventede utgivelsen av S19 XP, som tilbyr betydelig høyere gruvekapasiteter. Videre er forbedringer ikke bare relatert til maskinenes rå ytelse. For eksempel bruker den nye S19 XP-modellen et væskekjølingssystem, en teknisk modifikasjon som tillater en betydelig forbedring i energieffektivitet. Selv om innovasjon forblir en konstant, vil fremtidige effektivitetsgevinster sannsynligvis være mindre sammenlignet med de som er observert så langt, på grunn av å nå en viss terskel for teknologisk innovasjon.
-![bilde](assets/en/04.webp)
+![bilde](assets/en/004.webp)
 
 Konklusjonen er at Bitcoin-gruveindustrien fortsetter å tilpasse seg og utvikle seg, og aktører i bransjen må forutse avtagende effektivitetsgevinster i fremtiden og justere strategiene sine deretter. Fremtidige teknologiske fremskritt, selv om de fortsatt er til stede, vil sannsynligvis skje i mindre skala, noe som reflekterer sektorens voksende modenhet.
 
@@ -103,7 +103,7 @@ Konklusjonen er at Bitcoin-gruveindustrien fortsetter å tilpasse seg og utvikle
 
 For tiden har Bitcoin-gruvedrift utviklet seg til en seriøs og betydelig industri, med mange aktører nå offentlig kjent og et økende antall betydelige gruvearbeidere. Denne utviklingen har gjort gruvedrift nesten utilgjengelig for små aktører på grunn av de høye kostnadene forbundet med å anskaffe nye gruvemaskiner. Dette reiser spørsmålet om fordelingen av hashrate blant ulike markedsaktører. Situasjonen er kompleks fordi det er essensielt å undersøke både fordelingen av hashrate blant forskjellige selskaper og blant forskjellige gruvebassenger.
 
-![bilde](assets/en/05.webp)
+![bilde](assets/en/005.webp)
 
 Et gruvebasseng er en gruppe gruvearbeidere som kombinerer sine databehandlingsressurser for å øke sjansene sine for å utvinne. Dette samarbeidet er nødvendig fordi en isolert liten gruvemaskin konkurrerer mot industriens giganter, noe som reduserer dens sjanser for suksess til et ubetydelig nivå. Gruvedrift fungerer på et lotteriprinsipp, og sjansene for å vinne en blokk (og dermed Bitcoin-belønningen) hvert tiende minutt er ekstremt lave for en individuell liten gruvearbeider. Ved å slå seg sammen, kan gruvearbeidere kombinere sin databehandlingskraft, finne blokker oftere og deretter distribuere belønningene proporsjonalt til hver gruvearbeiders bidrag til bassenget.
 
@@ -134,7 +134,7 @@ Mining-sentralisering adresseres som en stor utfordring. Store aktører, som Fou
 
 Reguleringsrisiko Det understrekes at hvis et land som USA skulle bestemme seg for å regulere eller forby visse Bitcoin-transaksjoner, kunne det ha en betydelig innvirkning på nettverket, spesielt hvis en stor del av hashingkraften er sentralisert i det landet.
 
-![bilde](assets/en/06.webp)
+![bilde](assets/en/006.webp)
 
 For å bekjempe denne sentraliseringen diskuteres ulike strategier:
 
@@ -156,7 +156,7 @@ I den nåværende konteksten kan Bitcoin-utvinning med S9-modellen virke komplek
 
 Attakai-initiativet stammer fra et personlig hjemmeutvinnings-eksperiment utført av to venner ivrige etter å aktivt delta i Bitcoin-nettverket. De møtte store hindringer, som høye støynivåer fra utvinningsutstyret, designet for industriell snarere enn hjemmebruk. For å adressere dette problemet, ble det gjort maskinvaremodifikasjoner på utvinningsmaskinene. Mer effektive og stillere vifter erstattet det opprinnelige utstyret, noe som gjorde hjemmeutvinning mer tilgjengelig og mindre forstyrrende. I tillegg eliminerte inkluderingen av en Wi-Fi-adapter behovet for en kablet Ethernet-tilkobling, noe som ytterligere forenklet hjemmeutvinningsprosessen. Om vinteren ble disse modifiserte minerne brukt som en varmekilde, og omdannet en ulempe til en fordel.
 Etter å ha presentert prosjektet sitt for Bitcoin-samfunnet og sett interessen det genererte, bestemte oppfinnerne av Attakai seg for å publisere detaljerte guider på Découvre Bitcoin-plattformen, slik at hvem som helst kan replikere deres hjemme-mining-opplevelse. De planlegger nå å utvide dette konseptet utover hjemmeinnstillingen. Målet er å demonstrere hvordan en modifisert miner kan transformeres til en stille hjelpevarmer som kan brukes i løpet av vinteren, og tilby en jevn overgang til en andre del av opplæringen, fokusert på den praktiske implementeringen av disse modifikasjonene, illustrert av forklarende videoer. Spørsmålet gjenstår imidlertid om denne initiativet kan utvides i større skala, og tilby et realistisk og bærekraftig alternativ til dagens sentraliserte mining-strukturer.
-![bilde](assets/en/07.webp)
+![bilde](assets/en/007.webp)
 
 ### Grensen for denne desentraliseringen?
 
@@ -179,7 +179,7 @@ Når det gjelder spørsmålet om hva som bør inkluderes i en Bitcoin-blokk, er 
 
 Med den forventede veksten av Lightning Network og den påfølgende økningen i åpninger og lukkinger av kanaler, vil plassen i Bitcoin-blokker bli stadig mer verdifull. Bitcoin-samfunnet har allerede en tendens til å verdsette bevaringen av denne plassen, og anerkjenner dens iboende begrensning. Denne bevisstheten har ført til diskusjoner om legitim bruk av blokkplass, med bekymringer om "spam" på blokkjeden fra transaksjoner som anses som ikke-essensielle.
 
-![bilde](assets/en/08.webp)
+![bilde](assets/en/008.webp)
 
 Det spekuleres i fremtidig bruk av blokkplass, men det er generelt akseptert at det er en knapp ressurs som bør brukes klokt. Selv om det er et ønske om å fylle den, er det essensielt å bevare den for å sikre Bitcoin-nettverkets langsiktige levedyktighet, i forventning om en fremtidig økning i etterspørselen etter blokkplass. Som i ethvert fritt marked, vil tilbud og etterspørsel regulere bruken av blokkplass. Med begrenset tilbud, må interessenter ta informerte valg om bruken av denne verdifulle plassen for å sikre Bitcoin-nettverkets langsiktige effektivitet og sikkerhet.
 
@@ -194,7 +194,7 @@ Rollen til gruvearbeidere i Bitcoin-nettverket har vært et emne for intens deba
 
 Under blokkstørrelseskrigene var mange gruvearbeidere imot visse utviklinger i nettverket, noe som fremhevet spenningen mellom ulike aktører i økosystemet. Spørsmålet gjenstår om hvordan man balanserer makt blant gruvearbeidere, noder og brukere for å sikre Bitcoin sin langsiktige sikkerhet.
 
-![bilde](assets/en/09.webp)
+![bilde](assets/en/009.webp)
 
 Sikkerhetsdilemmaet til Bitcoin hviler på en delikat balanse. Mens gruvearbeidere spiller en avgjørende rolle i å validere og skape blokker, opprettholder noder integriteten ved å verifisere og validere transaksjoner og blokker. En feilaktig eller svindelaktig blokk vil bli avvist av nodene, og dermed sensurere gruvearbeideren og bevare nettverkets sikkerhet. Makten holdes også av nodene og brukerne av Bitcoin-nettverket. Noder har makten til verifisering og validering, mens brukere har makten til å velge hvilken blokkjede de vil bruke. Denne fordelingen av makt sikrer distribusjonen og integriteten til Bitcoin-nettverket.
 Blockstørrelseskrigene avslørte usikkerheten og spenningen som er iboende i styringen av Bitcoin-nettverket. Selv om Bitcoin Core for øyeblikket er den dominerende kjeden, fortsetter debatten om styring og nettverksadministrasjon.
@@ -205,7 +205,7 @@ Til syvende og sist deles ansvaret blant alle aktører i Bitcoin-nettverket. En 
 
 Satoshi Nakamotos elegante spillteori etablerte en situasjon hvor hver aktør i Bitcoin-nettverket er incentivert til å handle korrekt for å beskytte både sine egne interesser og de til andre deltakere. Dette skaper en balanse hvor dårlig oppførsel kan bli irettesatt, og dermed forbedre sikkerheten og stabiliteten til hele systemet. Til tross for denne balansen, forblir stater en potensiell trussel. Som indikert i presentasjonen på Surfing Bitcoin 2022, kan stater forsøke å angripe gruveindustrien, og eksponere Bitcoin-nettverket for risikoer for sentralisering og angrep. Hypotetiske scenarioer som et militært angrep som målretter produksjonsanlegg for gruveutstyr, understreker viktigheten av geografisk og industriell diversifisering for Bitcoin-nettverkets motstandsdyktighet.
 
-![bilde](assets/en/10.webp)
+![bilde](assets/en/010.webp)
 
 Sentraliseringen av produksjonen av gruveutstyr i Kina utgjør en annen risiko. En nektelse av å eksportere gruvemaskiner eller en oppsamling av hashrate for et potensielt 51% angrep av Kina understreker behovet for diversifisert produksjon av gruveutstyr. Som respons på disse risikoene, utforsker Bitcoin-samfunnet aktivt løsninger. Selskaper som Intel vurderer å produsere gruveutstyr i USA, noe som bidrar til distribusjonen av produksjonen. Andre initiativer, som Blocks åpen kildekode Mining Development Kit (MDK), sikter mot å redusere monopolet på design og produksjon av gruveutstyr, og tillater en bredere distribusjon av hashrate. I hjertet av disse diskusjonene ligger Bitcoins grunnleggende oppdrag: å være et sensurresistent verdioverføringsnettverk. Bitcoin-samfunnet streber konstant etter å styrke distribusjon, motstand mot sensur og nettverkets anti-fragilitet, og avviser forslag som overgangen til proof of stake, som ikke er i tråd med disse grunnleggende prinsippene.
 
@@ -213,7 +213,7 @@ Sentraliseringen av produksjonen av gruveutstyr i Kina utgjør en annen risiko. 
 
 Proof of Work (PoW) er essensielt fordi det representerer den fysiske koblingen mellom den virkelige verden og Bitcoin. Selv om bitcoins er immaterielle, krever deres produksjon konkret energi, og etablerer dermed en direkte forbindelse med den fysiske og virkelige verden. Denne forbindelsen sikrer at produksjonen og valideringen av bitcoins og blokker har en reell energikostnad, og dermed forankrer Bitcoin-nettverket i den fysiske virkeligheten og forhindrer dets fullstendige dominans av kraftige enheter. PoW fungerer som en bastion mot sentralisering, og sikrer at deltakelse i nettverket og validering av transaksjoner krever en investering i håndgripelige ressurser. Dette forhindrer monopoliseringen av nettverket av enheter som ellers kunne ta kontroll uten noen betydelig inngangsbarriere, og sikrer dermed en mer rettferdig fordeling av makt og innflytelse innen Bitcoin-nettverket.
 
-![bilde](assets/en/11.webp)
+![bilde](assets/en/011.webp)
 
 ### Begrensningene ved Proof of Stake
 
@@ -234,7 +234,7 @@ Den nåværende hash-raten, til tross for at Bitcoins pris er på $30,000 sammen
 
 Denne situasjonen illustrerer også Bitcoins motstandsdyktighet, ofte vurdert basert på prisen. Imidlertid krever en dypere analyse av Bitcoins helse en undersøkelse av dens hash-rate, som måler beregningene per sekund i Bitcoin-nettverket. Mens prisen på Bitcoin svinger, er kostnaden knyttet til elektrisiteten som trengs for å drive miningmaskiner, essensiell for å forstå markedsdynamikken. Ved å fokusere på kostnad fremfor pris, oppnås et mer konsistent perspektiv på Bitcoins stabilitet og langsiktige levedyktighet. Generelt er kostnaden for Bitcoin proporsjonal med prisen, noe som gir en bedre forståelse av prisfluktuasjoner og fremtidige utsikter.
 
-![bilde](assets/en/12.webp)
+![bilde](assets/en/012.webp)
 
 ### Hash Rate og Belønning
 
@@ -268,7 +268,7 @@ Likevel tilbyr gruvedrift unike måter å involvere seg i Bitcoin-økosystemet p
 
 Til tross for disse alternativene, presenterer gruvedrift betydelige utfordringer. Det velkjente ordtaket i kryptovalutaverdenen, "Ikke dine nøkler, ikke dine Bitcoins," finner en lignende gjenklang i gruvedriftsverdenen: "Ikke din hashrate, ikke din belønning." Historier om skuffelser og frakoblede maskiner er vanlige, med mange aktører som lover eksepsjonelle resultater, men mislykkes i å levere. Problemer med strømforsyning og maskinhavari kan etterlate investorer maktesløse, med dyrt utstyr de ikke kontrollerer. I denne konteksten er forsiktighet og en dyp forståelse av gruvesektoren avgjørende før man begir seg ut på det. Selv om det finnes muligheter for gevinster, er risikoene betydelige, og en informert og gjennomtenkt tilnærming er essensiell for å navigere i dette komplekse og ofte uforutsigbare feltet. Det er derfor avgjørende å gjennomføre grundig forskning og nøye vurdere fordeler og ulemper før man engasjerer seg i Bitcoin-gruvedrift.
 
-![bilde](assets/en/13.webp)
+![bilde](assets/en/013.webp)
 
 ### Virgin Bitcoins
 
@@ -281,7 +281,7 @@ I denne konteksten virker det klokt å velge en autonom og opplyst tilnærming t
 ### Er gruvedrift forbudt i Europa?
 
 Med spørsmålet om et potensielt forbud mot gruvedrift i Europa, blir diskusjoner om regulering stadig mer relevante. Det skiftende reguleringslandskapet kan faktisk ha en betydelig innflytelse på Bitcoin-gruvedriftsindustrien. Et forbud mot gruvedrift i Europa er et tenkelig scenario, spesielt med tanke på presedenser i Kina. Selv om gruvedriftsoperasjoner fortsetter i Kina til tross for forbudet, kan Europa følge en lignende vei. En bredere distribusjon av hashraten over forskjellige regioner kunne hjelpe med å styrke gruvesamfunnet i Europa, slik at de effektivt kan motvirke misforståelser og feiloppfatninger om gruvedrift, dens miljøpåvirkning og fotavtrykk på strømnettet.
-![bilde](assets/en/14.webp)
+![bilde](assets/en/014.webp)
 
 Når man står overfor kampanjer som de fra Greenpeace og ofte villedende tall fra noen studier, forblir den beste våpenet sannferdig informasjon. Det er essensielt å informere allmennheten og beslutningstakere om virkeligheten av gruvedrift, dens kompleksitet og nyanser, i stedet for å la dem stole på stereotypier og unøyaktig informasjon. Jo mer informerte og bevisste folk er om hva gruvedrift virkelig er, jo bedre kan industrien forsvare seg mot potensielt restriktive reguleringer.
 
@@ -347,41 +347,41 @@ Antminer S9 er en enhet som tilbys av Bitmain siden mai 2016. Den forbruker 1400
 
 Antminer S9 kommer i flere varianter (i, j) som gjør mindre modifikasjoner til maskinvaren av første generasjon. Vi tror ikke at dette bør påvirke kjøpsbeslutningen din, og denne guiden fungerer for alle disse variantene.
 Prisen på ASICs varierer avhengig av mange faktorer som prisen på bitcoin, nettverksvanskeligheter, maskineffektivitet og strømkostnad. Derfor er det vanskelig å gi et nøyaktig estimat for kjøp av en brukt maskin. I februar 2023 varierer den forventede prisen i Frankrike generelt fra €100 til €200, men disse prisene kan endre seg raskt.
-![bilde](assets/en/15.webp)
+![bilde](assets/en/015.webp)
 
 Antminer S9 består av følgende deler:
 
 - 3 hashboards som inneholder brikkene som produserer hashkraften.
 
-![bilde](assets/en/16.webp)
+![bilde](assets/en/016.webp)
 
 - Et kontrollkort som inkluderer en spor for et SD-kort, en Ethernet-port og kontakter for hashboards og vifter. Dette er hjernen i din ASIC.
 
-![bilde](assets/en/17.webp)
+![bilde](assets/en/017.webp)
 
 - 3 datakabler som kobler hashboards til kontrollkortet.
 
-![bilde](assets/en/18.webp)
+![bilde](assets/en/018.webp)
 
 - Strømforsyningen, som opererer på 220V og kan plugges inn som en vanlig husholdningsapparat.
 
-![bilde](assets/en/19.webp)
+![bilde](assets/en/019.webp)
 
 - 2 120mm vifter.
 
-![bilde](assets/en/20.webp)
+![bilde](assets/en/020.webp)
 
 - En hann C13-kabel.
 
-![bilde](assets/en/21.webp)
+![bilde](assets/en/021.webp)
 
 Når du kjøper en brukt maskin, er det viktig å sjekke at alle deler er inkludert og fungerer. Under utvekslingen bør du be selgeren om å slå på maskinen for å sjekke at den fungerer som den skal. Det er viktig å verifisere at enheten slår seg på korrekt, og deretter sjekke internettforbindelsen ved å koble til en Ethernet-kabel og få tilgang til Bitmain login-grensesnittet via en nettleser på samme lokale nettverk. Du kan finne denne IP-adressen ved å koble til grensesnittet på din internett-router og se etter tilkoblede enheter. Denne adressen bør ha følgende format: 192.168.x.x
 
-![bilde](assets/en/22.webp)
+![bilde](assets/en/022.webp)
 
 Sjekk også at standard påloggingsinformasjon fungerer (brukernavn: root, passord: root). Hvis standard påloggingsinformasjon ikke fungerer, må du tilbakestille maskinen.
 
-![bilde](assets/en/23.webp)
+![bilde](assets/en/023.webp)
 
 Når du er tilkoblet, bør du kunne se statusen for hvert hashboard på dashbordet. Hvis miner er koblet til en pool, bør du se at alle hashboards fungerer. Det er viktig å merke seg at minere lager mye støy, noe som er normalt. Sørg også for at viftene fungerer som de skal.
 
@@ -403,25 +403,25 @@ Hvis du er en dyktig håndverker og ser etter å transformere en miner til en va
 
 De originale viftene til Antminer S9 er for støyende til å bruke din Antminer som en varmeovn. Løsningen er å erstatte dem med stillere vifter. Vårt team har testet flere modeller fra Noctua-merket og har valgt Noctua NF-A14 iPPC-2000 PWM som det beste kompromisset. Sørg for å velge 12V-versjonen av viftene. Denne 140mm viften kan produsere opptil 1200W med varme samtidig som den opprettholder et teoretisk støynivå på 31 dB. For å installere disse 140mm viftene, trenger du å bruke en 140mm til 120mm adapter, som du kan finne i DécouvreBitcoin-butikken. Vi vil også legge til 140mm beskyttelsesgriller.
 
-![bilde](assets/en/24.webp)
-![bilde](assets/en/25.webp)
-![bilde](assets/en/26.webp)
+![bilde](assets/en/024.webp)
+![bilde](assets/en/025.webp)
+![bilde](assets/en/026.webp)
 
 Strømforsyningsviften er også ganske støyende og trenger å bli erstattet. Vi anbefaler Noctua NF-A6x25 PWM. Merk at koblingene til Noctua-viftene ikke er de samme som de originale, så du trenger en koblingsadapter for å koble dem til. To vil være nok. Igjen, sørg for å velge 12V-versjonen av viften.
 
-![bilde](assets/en/27.webp)
-![bilde](assets/en/28.webp)
+![bilde](assets/en/027.webp)
+![bilde](assets/en/028.webp)
 
 2. Legg til en WIFI/Ethernet-bro
 
 I stedet for å bruke en Ethernet-kabel, kan du koble din Antminer via WIFI ved å legge til en WIFI/Ethernet-bro. Vi har valgt vonets vap11g-300 fordi den enkelt lar deg hente WIFI-signalet fra din Internett-boks og overføre det til din Antminer via Ethernet uten å opprette et subnett. Hvis du har elektriske ferdigheter, kan du strømforsyne den direkte med Antminerens strømforsyning uten behov for å legge til en USB-lader. For dette, trenger du en kvinnelig 5.5mmx2.1mm jack.
 
-![bilde](assets/en/29.webp)
-![bilde](assets/en/30.webp)
+![bilde](assets/en/029.webp)
+![bilde](assets/en/030.webp)
 
 3. Valgfritt: legg til en smart plugg
    Hvis du ønsker å slå på/av din Antminer fra smarttelefonen din og overvåke strømforbruket, kan du legge til en smartplugg. Vi testet ANTELA-pluggen i 16A-versjonen, kompatibel med smartlife-appen. Denne smartpluggen lar deg se daglig og månedlig strømforbruk og kobler seg direkte til internett-ruteren din via WiFi.
-   ![bilde](assets/en/31.webp)
+   ![bilde](assets/en/031.webp)
 
 Liste over utstyr og lenker
 
@@ -452,21 +452,21 @@ Strømforsyning til broen ved å koble den til via USB.
 
 Fra datamaskinen din, koble til VONETS\_**\*\*** WIFI-nettverket med passordet 12345678.
 
-![bilde](assets/en/32.webp)
+![bilde](assets/en/032.webp)
 
 Logg inn med brukernavnet "admin" og passordet "admin".
 
-![bilde](assets/en/33.webp)
+![bilde](assets/en/033.webp)
 
 Velg Veiviser.
 
-![bilde](assets/en/34.webp)
+![bilde](assets/en/034.webp)
 
 Velg WIFI-nettverket du vil koble din miner til, og klikk deretter Neste.
 
 MERK: Vonet-broen fungerer kun på 2.4GHz-frekvensen. I dag tilbyr rutere vanligvis to WIFI-nettverk, ett på 2.4GHz og ett på 5GHz.
 
-![bilde](assets/en/35.webp)
+![bilde](assets/en/035.webp)
 
 Skriv inn passordet for ditt WIFI-nettverk i feltet "Source WIFI hotspot password". Hvis du ikke ønsker å bruke din Vonet-bro for å utvide ditt WIFI-nettverk, merk av i boksen "Disable Hotspot". Ellers, la den være umarkert.
 
@@ -486,7 +486,7 @@ Før du installerer BraiinOS+, kan det være nødvendig å tilbakestille din S9 
 Denne metoden kan anvendes mellom 2 minutter og 10 minutter etter at mineren er startet.
 2 minutter etter at mineren er slått på, vennligst trykk på "Reset"-knappen i 5 sekunder, og slipp den deretter. Mineren vil bli gjenopprettet til fabrikkinnstillingene innen 4 minutter og vil starte på nytt automatisk (det er ikke nødvendig å slå den av).
 
-![bilde](assets/en/36.webp)
+![bilde](assets/en/036.webp)
 
 ## Installere BraiinsOS+ på en Antminer S9
 
@@ -501,11 +501,11 @@ Her vil vi se hvordan man enkelt installerer Braiins OS+ direkte på minnet til 
 2. Last ned BOS toolbox for Windows / Linux.
 3. Pakk ut den nedlastede filen og åpne bos-toolbox.bat-filen. Velg språk, og etter noen øyeblikk, vil du se dette vinduet:
 
-![bilde](assets/en/37.webp)
+![bilde](assets/en/037.webp)
 
 4. Bos toolbox vil tillate deg å enkelt finne IP-adressen til din Antminer og installere BraiinsOS+. Hvis du allerede kjenner IP-adressen til maskinen din, kan du hoppe over til trinn 8. Ellers, gå til skannefanen.
 
-![bilde](assets/en/38.webp)
+![bilde](assets/en/038.webp)
 
 5. Vanligvis, på hjemmenettverk, er IP-adresseområdet mellom 192.168.1.1 og 192.168.1.255, så skriv inn "192.168.1.0/24" i IP-områdefeltet. Hvis nettverket ditt er annerledes, vennligst endre disse adressene tilsvarende. Deretter klikker du på "Start".
 
@@ -513,13 +513,13 @@ Her vil vi se hvordan man enkelt installerer Braiins OS+ direkte på minnet til 
 
 7. Du bør se alle Antminerene på nettverket ditt dukke opp her, og IP-adressen er 192.168.1.37.
 
-![bilde](assets/en/39.webp)
+![bilde](assets/en/039.webp)
 
 8. Klikk på "Tilbake" og deretter "Installer"-fanen, skriv inn den tidligere funnete IP-adressen, og klikk på "Start".
 
 > Hvis installasjonen ikke fungerer, kan det være nødvendig å utføre en tilbakestilling og prøve igjen (se forrige seksjon).
 
-![bilde](assets/en/40.webp)
+![bilde](assets/en/040.webp)
 
 9. Etter noen øyeblikk vil din Antminer starte på nytt og du vil kunne få tilgang til Braiins OS+-grensesnittet på den angitte IP-adressen, her 192.168.1.37, direkte i adressefeltet til nettleseren din. Standard brukernavn er "root" og det er ikke noe standard passord.
 
@@ -540,14 +540,14 @@ Du vil da bli møtt av Brains OS+-dashbordet.
 
 ### Dashbord
 
-![bilde](assets/en/41.webp)
+![bilde](assets/en/041.webp)
 
 På denne første siden kan du observere maskinens sanntidsytelse.
 
 - Tre sanntidsgrafer som viser temperaturen, hashraten og den generelle statusen til maskinen din.
 - På høyre side, den reelle hashraten, gjennomsnittlig chip-temperatur, estimert effektivitet i W/THs, og strømforbruk.
 - Nedenfor, viftehastigheten som en prosentandel av maksimal hastighet og antall rotasjoner per minutt.
-  ![image](assets/en/42.webp)
+  ![image](assets/en/042.webp)
 
 - Lenger ned, vil du finne en detaljert visning av hvert hashbord. Gjennomsnittstemperaturen på brettet og brikkene det inneholder, samt spenningen og frekvensen.
 - Detaljer om de aktive gruvebassengene i Pools.
@@ -556,15 +556,15 @@ På denne første siden kan du observere maskinens sanntidsytelse.
 
 ### Konfigurasjon
 
-![image](assets/en/43.webp)
+![image](assets/en/043.webp)
 
 ### System
 
-![image](assets/en/44.webp)
+![image](assets/en/044.webp)
 
 ### Hurtigaksjoner
 
-![image](assets/en/45.webp)
+![image](assets/en/045.webp)
 
 # Attakai - Modifikasjon av vifte
 
@@ -576,7 +576,7 @@ På denne første siden kan du observere maskinens sanntidsytelse.
 
 > ADVARSEL: Det er essensielt å ha installert Braiins OS+ på din miner, eller annen programvare som kan redusere maskinens ytelse, på forhånd. Dette tiltaket er kritisk fordi for å redusere støy, vil vi installere mindre kraftige vifter som kan avlede mindre varme.
 
-![image](assets/en/46.webp)
+![image](assets/en/046.webp)
 
 ### Nødvendige materialer
 
@@ -585,58 +585,58 @@ På denne første siden kan du observere maskinens sanntidsytelse.
 
 > ADVARSEL: Først og fremst, før du starter, sørg for at du har trukket ut støpselet til din miner for å unngå enhver risiko for elektrisk støt.
 
-![image](assets/en/47.webp)
+![image](assets/en/047.webp)
 
 Først, fjern de 6 skruene på siden av kabinettet som holder det lukket. Når skruene er fjernet, åpne forsiktig kabinettet for å fjerne plastbeskyttelsen som dekker komponentene.
 
-![image](assets/en/48.webp)
-![image](assets/en/49.webp)
+![image](assets/en/048.webp)
+![image](assets/en/049.webp)
 
 Deretter er det på tide å fjerne den originale viften, og ta vare på å ikke skade de andre komponentene. For å gjøre dette, fjern skruene som holder den på plass og forsiktig skrell av den hvite limen rundt kontakten. Det er viktig å fortsette med forsiktighet for å unngå å skade ledningene eller kontaktene.
 
-![image](assets/en/50.webp)
+![image](assets/en/050.webp)
 
 Når den originale viften er fjernet, vil du legge merke til at kontaktene til den nye Noctua-viften ikke passer med de originale viftekontaktene. Faktisk har den nye viften 3 ledninger, inkludert en gul ledning som tillater hastighetskontroll. Imidlertid vil ikke denne ledningen bli brukt i dette spesifikke tilfellet. For å koble til den nye viften, anbefales det derfor å bruke en spesiell adapter. Det er imidlertid viktig å merke seg at denne adapteren noen ganger kan være vanskelig å finne.
 
-![image](assets/en/51.webp)
+![image](assets/en/051.webp)
 
 Hvis du ikke har denne adapteren, kan du fortsatt fortsette å koble til den nye viften ved å bruke elektrikerens sukker. For å gjøre dette, må du kutte kablene til den gamle og den nye viften.
 
-![image](assets/en/52.webp)
-![image](assets/en/53.webp)
+![image](assets/en/052.webp)
+![image](assets/en/053.webp)
 
 På den nye viften, bruk en kutter og skjær forsiktig konturene av hovedkappen på 1cm uten å kutte kappene til kablene under.
 
-![image](assets/en/54.webp)
+![image](assets/en/054.webp)
 
 Deretter, ved å trekke hovedkappen nedover, kutt kappene til de røde og svarte kablene på samme måte som før. Og kutt den gule kabelen flush.
 
-![image](assets/en/55.webp)
+![image](assets/en/055.webp)
 På den gamle viften er det mer delikat å kutte hovedkappen uten å skade kappene til de røde og svarte ledningene. For dette brukte vi en nål som vi skled mellom hovedkappen og de røde og svarte ledningene.
-![bilde](assets/en/56.webp)
-![bilde](assets/en/57.webp)
+![bilde](assets/en/056.webp)
+![bilde](assets/en/057.webp)
 
 Når de røde og svarte ledningene er eksponert, kutt kappene forsiktig for å unngå å skade de elektriske ledningene.
 
-![bilde](assets/en/58.webp)
+![bilde](assets/en/058.webp)
 
 Deretter kobler du kablene med en sukkerbit, den svarte ledningen med den svarte og den røde ledningen med den røde. Du kan også legge til elektrisk tape.
 
-![bilde](assets/en/59.webp)
-![bilde](assets/en/60.webp)
+![bilde](assets/en/059.webp)
+![bilde](assets/en/060.webp)
 
 Når tilkoblingen er gjort, er det på tide å installere den nye Noctua-viften med grillen og de gamle skruene. De nye skruene i esken vil bli gjenbrukt senere. Sørg for å plassere den i riktig orientering. Du vil legge merke til en pil på den ene siden av viften, som indikerer luftstrømmens retning. Det er viktig å posisjonere viften slik at denne pilen peker mot innsiden av kabinettet. Deretter kobler du til viften på nytt.
 
-![bilde](assets/en/61.webp)
-![bilde](assets/en/62.webp)
+![bilde](assets/en/061.webp)
+![bilde](assets/en/062.webp)
 
 > Valgfritt: Hvis du har kunnskap om elektrisitet, kan du direkte legge til en kvinnelig 5,5 mm jack-kontakt til 12V strømutgangen, som vil drive Vonet Wi-Fi-broen direkte. Hvis du derimot er usikker på dine elektriske ferdigheter, er det best å bruke USB-kontakten med en lader av smarttelefontype for å unngå risiko for kortslutning eller elektrisk skade.
 
-![bilde](assets/en/63.webp)
+![bilde](assets/en/063.webp)
 
 Når tilkoblingene er gjort, plasser plastdekselet over kabinettplasten og ikke inni.
 
-![bilde](assets/en/64.webp)
+![bilde](assets/en/064.webp)
 
 Til slutt, sett kabinettdekselet tilbake på plass og skru de 6 skruene på sidene for å holde alt på plass. Og der har du det, strømforsyningskabinettet ditt er nå utstyrt med en ny vifte.
 
@@ -646,7 +646,7 @@ Til slutt, sett kabinettdekselet tilbake på plass og skru de 6 skruene på side
 
 > ADVARSEL: Det er avgjørende å ha installert Braiins OS+ på din miner, eller annen programvare som er i stand til å redusere ytelsen til maskinen din. Dette tiltaket er avgjørende fordi vi for å redusere støy vil installere mindre kraftige vifter, som vil spre mindre varme.
 
-![bilde](assets/en/46.webp)
+![bilde](assets/en/046.webp)
 
 ### Nødvendige materialer
 
@@ -658,35 +658,35 @@ Til slutt, sett kabinettdekselet tilbake på plass og skru de 6 skruene på side
 
 1. Først, koble fra viftene og skru dem ut.
 
-![bilde](assets/en/65.webp)
+![bilde](assets/en/065.webp)
 
 2. Kontaktene til de nye Noctua-viftene passer ikke til de originale, men ikke bekymre deg! Ta frem din kutter og kutt forsiktig de små plasttappene slik at kontaktene passer perfekt på mineren din.
 
-![bilde](assets/en/66.webp)
-![bilde](assets/en/67.webp) 3. Det er på tide å installere 3D-delene!
+![bilde](assets/en/066.webp)
+![bilde](assets/en/067.webp) 3. Det er på tide å installere 3D-delene!
 Fest dem på begge sider av miner ved å bruke skruene du fjernet fra viftene. Skru dem inn til skruehodet er i flukt med 3D-delen og den sitter sikkert på plass. Vær forsiktig så du ikke strammer for mye, da du kan deformere delen og en av skruene kan komme i kontakt med en kondensator!
-![bilde](assets/en/68.webp)
+![bilde](assets/en/068.webp)
 
 4. Nå går vi videre til viftene.
 
 Fest dem til 3D-delene med skruene som fulgte med i esken. Vær oppmerksom på luftstrømmens retning, pilene på sidene av viftene vil indikere hvilken retning du skal følge. Gå fra Ethernet-port-siden til den andre siden. Se bildet nedenfor.
 
-![bilde](assets/en/69.webp)
-![bilde](assets/en/70.webp)
-![bilde](assets/en/71.webp)
+![bilde](assets/en/069.webp)
+![bilde](assets/en/070.webp)
+![bilde](assets/en/071.webp)
 
 5. Siste steg: koble til viftene og fest grillene på toppen med skruene som ikke ble brukt i strømforsyningsvifte-esken. Du har bare 4 av dem, men 2 per grill i motsatte hjørner vil være nok. Du kan også se etter lignende skruer i en jernvarehandel om nødvendig.
 
-![bilde](assets/en/72.webp)
-![bilde](assets/en/73.webp)
+![bilde](assets/en/072.webp)
+![bilde](assets/en/073.webp)
 
 Mens du venter på å kunne tilby et mer stilig kabinett for din nye varmeovn, kan du feste kabinettet og strømforsyningen med elektrikerstrips.
 
-![bilde](assets/en/74.webp)
+![bilde](assets/en/074.webp)
 
 Og for den siste finishen, koble til Vonet-broen til Ethernet-porten og dens strømforsyning.
 
-![bilde](assets/en/75.webp)
+![bilde](assets/en/075.webp)
 
 Og der har du det, gratulerer! Du har nettopp erstattet hele den mekaniske delen av din miner. Du bør nå høre mye mindre støy.
 
@@ -714,17 +714,17 @@ Belønningsmodellen som interesserer oss er PPS, som står for "pay-per-share". 
 
 For å konfigurere en pool i Braiins OS+, må du opprette en konto i en av poolene du velger. Her vil vi ta eksemplet med Linecoin:
 
-![bilde](assets/en/76.webp)
+![bilde](assets/en/076.webp)
 
 Når kontoen din er opprettet, klikk på Koble Til Pool
 
 Deretter kopierer du Stratum-adressen og brukernavnet ditt:
 
-![bilde](assets/en/77.webp)
+![bilde](assets/en/077.webp)
 
 Du kan nå gå tilbake til Braiins OS+-grensesnittet for å angi disse legitimasjonene. For passordet, kan du la feltet stå tomt.
 
-![bilde](assets/en/78.webp)
+![bilde](assets/en/078.webp)
 
 ## Optimalisering av Ytelsen til Din Antminer S9
 

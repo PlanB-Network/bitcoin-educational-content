@@ -11,13 +11,13 @@ description: Guide complet pour utiliser Peach et échanger des bitcoins en P2P
 
 Les échanges de pair-à-pair (P2P) sans KYC sont essentiels pour préserver la confidentialité et l'autonomie financière des utilisateurs. Ils permettent des transactions directes entre individus sans nécessiter de vérification d'identité, ce qui est crucial pour ceux qui valorisent la vie privée. Pour une compréhension plus approfondie des concepts théoriques, consultez le cours BTC204 :
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### 1. Qu'est-ce que Peach ?
 
 Peach est une plateforme d'échange P2P qui permet aux utilisateurs d'acheter et de vendre des bitcoins sans KYC. Elle offre une interface intuitive et des fonctionnalités de sécurité avancées. Comparée à d'autres solutions comme Bisq, HodlHodl, et Robosat, Peach se distingue par sa simplicité d'utilisation et ses frais réduits.
 
-### 2. Confidentialité et Données Collectées
+### 2. Confidentialité et données Collectées
 
 **Quelles informations Peach collecte-t-elle ?**
 
@@ -30,19 +30,19 @@ Peach s'efforce de stocker le minimum absolu de données sur ses utilisateurs. V
 - Les adresses utilisées pour envoyer et recevoir depuis le compte séquestre
 - Données d'utilisation (Firebase & Google Analytics), uniquement si vous y avez consenti
 
-Pour rappel un hash est une donnée rendue méconnaissable, similaire à un chiffrement. Les mêmes données produiront toujours le même hash, permettant de détecter les doublons sans connaître les données d'origine.
+Pour rappel, un hash est une donnée rendue méconnaissable, similaire à un chiffrement. Les mêmes données produiront toujours le même hash, permettant de détecter les doublons sans connaître les données d'origine.
 
-*Pour plus d'explication sur le hachage, vous pouvez suivre sur ce cours :*
+*Pour plus d'explications sur le hachage, vous pouvez suivre ce cours :*
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 **Qui peut voir mes détails de paiement ?**
 
 - Seule votre contrepartie peut voir vos détails de paiement
-- Les données sont transmises via les serveurs Peach mais sont entièrement chiffrées de bout en bout
+- Les données sont transmises via les serveurs Peach, mais sont entièrement chiffrées de bout en bout
 - En cas de litige, vos détails de paiement et l'historique des conversations seront visibles par le médiateur Peach assigné
 
-## Installation et Configuration
+## Installation et configuration
 
 ### 1. Installer l'application Peach
 
@@ -73,7 +73,7 @@ L'application Peach est organisée autour de quatre écrans principaux accessibl
 	- Envoyer des bitcoins
 	- Voir l'historique de vos transactions
 
-- **Trades** : Le centre de gestion de vos échanges où vous retrouverez :
+- **Trades** : Le centre de gestion de vos échanges dans lequel vous retrouverez :
 	- Vos transactions en cours
 	- L'historique complet de vos échanges
 	- Le statut de chaque transaction
@@ -104,10 +104,10 @@ Accédez aux méthodes de paiement via l'onglet Paramètres (image 8)
 - Remplissez vos coordonnées bancaires SEPA
 
 ***Les portefeuilles en ligne acceptés :***
-- Plusieurs options disponibles selon votre pays (Revolut, Paypal, Wise, Strike, etc)
+- Plusieurs options disponibles selon votre pays (Revolut, Paypal, Wise, Strike, etc.)
 - Suivez les instructions pour ajouter vos identifiants
 
-***La carte cadeaux utilisable :***
+***La carte-cadeau utilisable :***
 - Amazon
 - Saisissez le pays d'émission de la carte et ainsi que d'autres informations nécessaires
 
@@ -139,7 +139,7 @@ Systèmes de paiement spécifiques par pays :
 
 Un compte Peach n'est pas un compte traditionnel avec identifiant et mot de passe. C'est un fichier stocké localement sur votre téléphone, ce qui signifie que Peach n'a pas besoin de stocker vos données ni de connaître votre identité : vous gardez le contrôle. Ce fichier contient toutes vos données, des clés de votre portefeuille bitcoin à vos détails de paiement.
 
-Cette approche garantit une meilleure confidentialité mais implique aussi plus de responsabilité. La perte de votre téléphone sans sauvegarde signifie la perte d'accès à votre compte Peach et à vos fonds. Il est donc crucial de sauvegarder ce fichier et de le protéger avec un mot de passe robuste.
+Cette approche garantit une meilleure confidentialité, mais implique aussi plus de responsabilités. La perte de votre téléphone sans sauvegarde signifie la perte d'accès à votre compte Peach et à vos fonds. Il est donc crucial de sauvegarder ce fichier et de le protéger avec un mot de passe robuste.
 
 **Créer vos sauvegardes**
 
@@ -180,9 +180,9 @@ Vous perdrez :
 
 Il est recommandé de réaliser les deux types de sauvegardes pour une sécurité optimale.
 
-## Acheter et Vendre des Bitcoins
+## Acheter et vendre des bitcoins
 
-### 1. Comment Acheter des Bitcoins
+### 1. Comment acheter des bitcoins
 
 ![Création et vue des offres](assets/fr/07.webp)
 - Sur l'écran d'accueil, cliquez sur le bouton "Acheter" (image 16)
@@ -200,7 +200,7 @@ Il est recommandé de réaliser les deux types de sauvegardes pour une sécurit�
 - Vérifiez la confirmation de la réception des bitcoins
 - Les fonds seront disponibles dans votre portefeuille Peach
 
-### 2. Comment Vendre des Bitcoins
+### 2. Comment vendre des bitcoins
 
 ![Création d'un ordre de vente](assets/fr/10.webp)
 - Configurez votre offre de vente (image 24)

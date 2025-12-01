@@ -1,0 +1,9 @@
+question: Mitä vaaditaan Bitcoin:n käyttämiseksi luotettavalla tavalla protokollan suunnittelun mukaisesti?
+answer: Täysin validoivan Bitcoin-solmun käyttäminen kaikkien lohkojen ja transaktioiden tarkistamiseksi itse
+wrong_answers:
+  - Käyttämällä hyvämaineista kryptovaluuttapörssiä, jossa on vahvat turvatoimet ja vakuutus
+  - Luotetaan useisiin luotettuihin kolmannen osapuolen palveluihin tapahtumatietojen tarkistamiseksi ristiin
+  - Asennetaan varmennettuja wallet -ohjelmistoja virallisista lähteistä, joissa on digitaaliset allekirjoitukset
+explanation: |
+  Jos haluat käyttää Bitcoin:a luotettavasti, sinun on käytettävä täysin validoivaa Bitcoin-solmua, joka tarkistaa itsenäisesti, että kaikki lohkot noudattavat konsensussääntöjä, tarkistaa kolikoiden liikkeeseenlaskuaikataulun ja estää kaksinkertaiset kulutukset. Näin varmistetaan, ettet ulkoista todentamista muille, mikä ylläpitää luotettavan ominaisuuden. Pörssien tai kolmansien osapuolten palveluiden käyttäminen tarkoittaa, että luotat siihen, että muut kertovat sinulle totuuden lohkoketjun tilasta. Vaikka todennettu ohjelmisto on tärkeä turvallisuuden kannalta, se ei poista tarvetta omalle validointisolmulle, jotta Bitcoin-järjestelmässä saavutetaan todellinen luotettavuus.
+reviewed: false

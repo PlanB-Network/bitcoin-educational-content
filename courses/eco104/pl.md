@@ -568,7 +568,7 @@ Tłumienie stóp procentowych ma jednak swoją cenę: sprawia, że kapitał jest
 Ten balans nie idzie zgodnie z planem..
 
 
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 
 Wykres [Dług a PKB] (https://www.longtermtrends.net/us-debt-to-gdp/)
@@ -647,7 +647,7 @@ Wykres: Wyniki według klas aktywów ([Akcje](https://finance.yahoo.com/quote/%5
 Wraz z tym opóźnieniem płac w stosunku do cen aktywów, byliśmy świadkami jednego z największych transferów bogactwa z klasy niższej do wyższej w najnowszej historii
 
 
-![image](assets/2.webp)
+![image](assets/en/002.webp)
 
 
 Rysunek: Udział w całkowitym [Net Worth](https://fred.stlouisfed.org/series/WFRBSN40188#0.)
@@ -1709,7 +1709,7 @@ Jak pokazała historia Adanny, inflacja jest bolesną rzeczywistością dla niez
 Aby zilustrować wpływ dwucyfrowej inflacji, 10% stopa inflacji, jakiej doświadczyła Europa w październiku 2022 r., oznaczałaby utratę 61,5% siły nabywczej w ciągu dziesięciu lat.
 
 
-![image](assets/3.webp)
+![image](assets/en/003.webp)
 
 
 **wykres:** Wpływ inflacji na siłę nabywczą (https://anilsaidso.gumroad.com/)
@@ -2138,7 +2138,7 @@ Jednak teraz producenci energii mają sposób na wykorzystanie tej osieroconej e
 Wreszcie, górnicy Bitcoin są zmotywowani do poszukiwania niedrogich źródeł energii, ponieważ ich zyski zależą od kosztów energii. W związku z tym aktywnie poszukują energii osieroconej lub innych form energii, które w przeciwnym razie pozostałyby niewykorzystane. Jednym z godnych uwagi przykładów jest gaz pochodniowy, który jest uwalniany, gdy firmy naftowe wydobywają ropę naftową z ziemi. Gaz pochodniowy jest produktem ubocznym tego procesu i jest zazwyczaj spalany ze względu na wysokie koszty związane z jego wychwytywaniem. Ta praktyka, znana jako spalanie, nie tylko powoduje marnowanie energii, ale także uwalnia metan i inne gazy do atmosfery.
 
 
-![image](assets/4.webp)
+![image](assets/en/004.webp)
 
 
 _**Rysunek:** Flara [Gazowa](https://arstechnica.com/science/2022/09/oil-industry-flaring-less-effective-than-thought-study/)_
@@ -2351,7 +2351,7 @@ Jednak w ostatnich latach Bitcoin stał się potężnym narzędziem do wzmocnien
 Podczas gdy świat z przerażeniem patrzył, jak talibowie przejmują kontrolę nad Afganistanem w [1996 r.] (https://bitcoinmagazine.com/culture/Bitcoin-financial-freedom-in-afghanistan#:~:text=She%20and%20the%20women%20liked,privacy%20and%20peace%20of%20mind.%E2%80%9D), ta młoda dziewczyna Roya żyła w samym sercu konfliktu. W wieku zaledwie siedmiu lat znalazła się w zawirowaniach i niepewności wojny, gdy jej rodzinne miasto zostało najechane i zajęte przez talibów. Pomimo niebezpieczeństwa i przeciwności losu, z którymi musiała się zmierzyć, a także faktu, że nie mogła chodzić do szkoły, Roya nie dała się pokonać. Zamiast tego zwróciła się do edukacji jako sposobu na przezwyciężenie ograniczeń narzuconych jej przez okoliczności.
 
 
-![image](assets/5.webp)
+![image](assets/en/005.webp)
 
 
 **Rysunek:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-Bitcoin-to-empower-women/?sh=df9cbbb59724)
@@ -2439,7 +2439,7 @@ Właściciel kawiarni, Wietnam
 "W mojej kawiarni w dzielnicy Binh Thanh obsługujemy młodych klientów i okazjonalnych turystów, oferując różnorodne napoje, w tym kawę, napoje Soft i koktajle. Tether stał się naszym rozwiązaniem do przetwarzania płatności od zagranicznych klientów, którzy nie posiadają lokalnej waluty lub kont bankowych. Chociaż sprzedaż za pośrednictwem Tether może być obecnie niewielka, zapewnia nam wygodny sposób na wypełnienie luki walutowej i obsługę naszych międzynarodowych klientów. Klienci są często zaskoczeni naszą otwartością na przyjmowanie płatności kryptowalutowych, pozostawiając trwałe wrażenie na ich doświadczeniach"
 
 
-![image](assets/6.webp)
+![image](assets/en/006.webp)
 
 Parvinee Ratchaphokhinpiti
 
@@ -2449,7 +2449,7 @@ Emerytowany, Tajlandia
 "USDt zrewolucjonizował moje międzynarodowe przelewy pieniężne. Jako emeryt polegałem na powolnych przelewach bankowych. Dzięki USDt mogę teraz bez wysiłku wysyłać pieniądze za pośrednictwem zasobu cyfrowego Exchange. W ciągu 30 minut moja siostra otrzymała środki. Oszczędność czasu jest nieoceniona, zapewniając szybkie i bezproblemowe transakcje"
 
 
-![image](assets/7.webp)
+![image](assets/en/007.webp)
 
 Jamie Tran
 
@@ -2459,7 +2459,7 @@ Nauczyciel gry na fortepianie, Wietnam
 "Wysyłanie pieniędzy do moich krewnych za granicą było częstą koniecznością, ale proces wymiany walut w lokalnych kantorach okazał się zarówno czasochłonny, jak i kosztowny. Aby sprostać tym wyzwaniom, przedstawiłem moim krewnym wygodę korzystania z USDt. Ta prosta zmiana pozwoliła naszej rodzinie zaoszczędzić znaczną ilość czasu i pieniędzy na transakcjach finansowych. Dzięki USDt możemy teraz cieszyć się usprawnionymi przelewami zagranicznymi, zapewniając naszym bliskim wydajne i opłacalne wsparcie"
 
 
-![image](assets/8.webp)
+![image](assets/en/008.webp)
 
 Roman
 
@@ -2469,7 +2469,7 @@ Rosyjski emigrant mieszkający w Wietnamie
 "Mieszkając w Wietnamie, często wysyłam Tether do moich krewnych i kuzynów w Rosji. Przesyłanie pieniędzy za granicę za pomocą Tether jest bezproblemowe w porównaniu z tradycyjnymi metodami bankowymi. Nie są wymagane wizyty w banku, poświadczone notarialnie dokumenty ani wyjaśnienia. Brak limitów wysyłania, minimalne opłaty i szybkie transakcje sprawiają, że środki są dostarczane w ciągu kilku minut"
 
 
-![image](assets/9.webp)
+![image](assets/en/009.webp)
 
 Luis Graterol
 
@@ -2479,7 +2479,7 @@ Audiowizualne, Wenezuela
 "Nazywam się Luis Graterol, a Tether pomógł mi zabezpieczyć moje oszczędności w inny sposób. W Wenezueli cierpimy z powodu wysokiej inflacji, a Tether bardzo nam pomógł. Jego użyteczność jest prosta, a w wielu przypadkach można dokonywać transakcji bez żadnych opłat. USDt ułatwia mi życie! Pomaga mi również edukować i zachęcać do korzystania z niego w mediach audiowizualnych; odkąd odkryłem jego łatwość, otrzymuję płatności za pomocą USDt i oszczędzam żmudnego lokalnego fiat, który dotyka wielu z nas!"
 
 
-![image](assets/10.webp)
+![image](assets/en/010.webp)
 
 Dubraska Villanloga
 
@@ -2489,7 +2489,7 @@ CEO Tu Cachapa Caricuao, Caracas, Wenezuela
 "Pochodzę z Wenezueli i prowadzę małą firmę dostarczającą śniadania. Tether USDt był dla mnie realnym rozwiązaniem problemu fizycznej gotówki. USDt pomógł mi również z moimi oszczędnościami, ponieważ gdybym posiadał moje konta biznesowe w wenezuelskim boliwaru, nie mógłbym planować z wyprzedzeniem zaopatrzenia w żywność z powodu ciągłej dewaluacji"
 
 
-![image](assets/11.webp)
+![image](assets/en/011.webp)
 
 Marcela Romero
 
@@ -2499,7 +2499,7 @@ Kierownik ds. marketingu i PR, Guanacaste, Kostaryka
 "Kilka lat temu przeprowadziłam się do kraju mojego męża. Z powodu pandemii stanęłam w obliczu wyjątkowych warunków migracyjnych, co skutkowało długim oczekiwaniem na pobyt lub obywatelstwo. Przez prawie trzy lata nie miałam dostępu do konta bankowego i nie mogłam legalnie pracować w kraju. Jednak wykorzystując moje możliwości pracy online i otrzymując wynagrodzenie w USDt, kontynuowałem karierę zdalnie w międzynarodowych firmach. Dzięki Tether mogę natychmiast wysyłać pieniądze do domu bez wysokich opłat i opóźnień. Tether umożliwił mi realizację moich celów zawodowych i utrzymanie niezależności finansowej pomimo ograniczeń rządowych"
 
 
-![image](assets/12.webp)
+![image](assets/en/012.webp)
 
 Simoneth Gomez
 
@@ -2509,7 +2509,7 @@ Inżynier QA, Wenezuela, mieszkający w Argentynie
 "Cześć, nazywam się Simoneth Gomez. Pochodzę z Wenezueli, ale obecnie mieszkam w Buenos Aires, gdzie pracuję jako analityk jakości oprogramowania. Kiedy przyjechałem do Argentyny, miałem odległość 12 km między moją pracą a miejscem, w którym musiałem wymienić pieniądze, aby wysłać je do rodziny w Wenezueli. Zapoznałem się więc z USDt i zacząłem z niego korzystać, ponieważ zamiast pokonywać tę trasę autobusem za 5 lub 10 dolarów, mogłem to zrobić z mojego biurka w dwie minuty"
 
 
-![image](assets/13.webp)
+![image](assets/en/013.webp)
 
 Carlos Caballero
 
@@ -2519,7 +2519,7 @@ Psycholog, Argentyna
 "Tether był rozwiązaniem, które pozwoliło mi kontynuować pracę w moim zawodzie w latach pandemii. Fakt, że jest walutą zakotwiczoną w dolarze, pozwala mu mieć międzynarodową wartość referencyjną. A jego stabilność i bezpieczeństwo w stosunku do zmienności innych kryptowalut jest głównym powodem, dla którego go wybrałem"
 
 
-![image](assets/14.webp)
+![image](assets/en/014.webp)
 
 Heloisa Passos
 
@@ -2529,7 +2529,7 @@ CEO Sp4ce Games, Brazylia
 "Pracuję zdalnie dla międzynarodowych firm od około pięciu lat i przez większość tego czasu borykałem się z wysokimi stopami procentowymi od banków krajowych, które pobierają wysoki procent za każdy międzynarodowy przekaz pieniężny, a także z czasem oczekiwania na rozliczenie płatności za pośrednictwem systemu Swift (około 24 godzin). Kiedy zacząłem otrzymywać wynagrodzenie w Tether, zdałem sobie sprawę, ile czasu i pieniędzy zacząłem oszczędzać, otrzymując wynagrodzenie w USDt"
 
 
-![image](assets/15.webp)
+![image](assets/en/015.webp)
 
 Samuel
 
@@ -2539,7 +2539,7 @@ Firma handlowa, Nigeria
 "Korzystanie z USDt zaoszczędziło naszej firmie wiele czasu, ponieważ jako nigeryjska firma uzyskanie USD wymaga udania się do naszego banku, spędzając cenny czas na wypełnianiu formularzy i staniu w kolejkach godzinami, aby dokonać wypłat lub przelewów. Dzięki USDt możemy jednak wymienić Exchange na lokalną walutę w mniej niż 5 minut i wykonać dowolną transakcję"
 
 
-![image](assets/16.webp)
+![image](assets/en/016.webp)
 
 Joshua
 
@@ -2549,7 +2549,7 @@ Student, Nigeria
 "Tether pomógł mi na wiele sposobów. Zarabianie w Tether pomogło mi pokonać napięcie związane z rosnącą inflacją w kraju i pomogło mi ograniczyć rozrzutne wydatki. Ponadto pomaga moim oszczędnościom zachować ich wartość, ponieważ nie jestem dotknięty dewaluacją nairy"
 
 
-![image](assets/17.webp)
+![image](assets/en/017.webp)
 
 Estera
 

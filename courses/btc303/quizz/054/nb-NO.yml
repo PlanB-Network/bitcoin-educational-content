@@ -1,0 +1,9 @@
+question: Hvilket sentralt kjennetegn ved Bitcoins utviklingsprosess gjør det spesielt sårbart for infiltrasjonstaktikker som er beskrevet i sabotasjehåndbøker fra krigstid?
+answer: Bitcoin-utviklingen er åpen for alle å delta i uten portvakter
+wrong_answers:
+  - Bitcoin-utviklingen er avhengig av en liten gruppe pålitelige kjernevedlikeholdere
+  - Bitcoin-utvikling krever formell myndighetsgodkjenning for større endringer
+  - Bitcoin-utviklingen bruker lukket kildekode som begrenser eksterne bidrag
+explanation: |
+  Bitcoins åpne utviklingsprosess er en av de største styrkene når det gjelder desentralisering og åpenhet, men den skaper også sårbarhet for fiendtlig infiltrasjon. Siden hvem som helst kan delta i diskusjoner, foreslå endringer og delta i vurderingsprosessen uten å trenge tillatelse eller legitimasjon, kan dedikerte angripere utnytte denne åpenheten. De kan stanse fremdriften gjennom endeløse bekymringer om irrelevante spørsmål, krangle om presise formuleringer, gjenta diskusjoner som allerede er avgjort, eller bruke "sosiale Sybil-angrep" ved hjelp av flere falske identiteter for å skape et falskt inntrykk av motstand. Denne åpenheten står i skarp kontrast til lukkede utviklingsmodeller som har portvakter eller godkjenningsprosesser som kan filtrere bort dårlige aktører.
+reviewed: false

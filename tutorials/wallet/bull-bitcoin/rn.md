@@ -151,9 +151,9 @@ Ahandiho, kanda kuri "**Rema Wallet Nshasha**" :
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 3.3 Gucungera uburyo bwo kuronka :
 
@@ -1119,16 +1119,16 @@ Kugira ngo ukoreshe **Bull Bitcoin Mobile** mu buryo butekanye kandi bubereye, u
 
 
 
-- Ivyigwa n'inyigisho:** **[Plan ₿ Network]
+- Ivyigwa n'inyigisho:** **[Plan ₿ Academy]
  - Gukingira ijambo ryawe ryo gukira
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
@@ -1139,7 +1139,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
@@ -1151,7 +1151,7 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 ### A5. Ishūri Bitcoin

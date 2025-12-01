@@ -1,0 +1,9 @@
+question: Quelle est la différence essentielle entre la subvention de blocs et les frais de transaction en termes de qui supporte en fin de compte le coût de la sécurité du réseau Bitcoin ?
+answer: Les coûts de subvention des blocs sont supportés par les détenteurs par le biais de l'inflation monétaire, tandis que les frais de transaction sont payés par les personnes qui dépensent
+wrong_answers:
+  - Les coûts de subventionnement des blocs sont payés par les mineurs sous forme de dépenses d'équipement, tandis que les frais de transaction sont supportés par les opérateurs de nœuds
+  - Les coûts de subventionnement des blocs sont partagés de manière égale entre tous les participants au réseau, tandis que les frais de transaction ne concernent que les grandes institutions
+  - Les coûts de subvention des blocs sont supportés par les bourses par le biais des frais de négociation, tandis que les frais de transaction sont payés par les fournisseurs wallet
+explanation: |
+  Comme l'a fait remarquer Paul Sztorc, la subvention de bloc et les frais de transaction sont de nature fondamentalement différente. La subvention de bloc représente la création de nouveaux bitcoins, ce qui dilue l'offre existante et coûte effectivement à tous les détenteurs de bitcoins par le biais de l'inflation monétaire. En revanche, les frais de transaction sont des paiements directs effectués par les utilisateurs qui souhaitent effectuer une transaction, ce qui signifie que les utilisateurs supportent directement ce coût. Le chapitre illustre cette transition en montrant comment les coûts de sécurité passeront des détenteurs aux utilisateurs au fur et à mesure que la subvention par bloc diminuera avec le temps.
+reviewed: false

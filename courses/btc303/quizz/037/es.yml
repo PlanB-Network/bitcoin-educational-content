@@ -1,0 +1,9 @@
+question: ¿Cuál fue la cuestión principal que hizo que la actualización de Segwit fuera diferente de las anteriores actualizaciones de Bitcoin?
+answer: Los mineros no dieron señales de apoyo a pesar del abrumador apoyo de los usuarios, lo que paralizó el proceso de activación
+wrong_answers:
+  - La actualización requirió una hard fork en lugar del método habitual de implantación de soft fork 
+  - Errores técnicos en el código Segwit impidieron un despliegue seguro hasta que se resolvieron
+  - Los nodos económicos rechazaron la actualización por temor al aumento de las comisiones por transacción
+explanation: |
+  La actualización de Segwit fue única porque se enfrentó a un problema de coordinación en el que había un apoyo abrumador entre los usuarios de Bitcoin, pero los mineros se negaron a señalar su apoyo a la actualización. Esto creó una situación de estancamiento en la que la actualización no podía activarse a través del mecanismo normal de fork blando activado por los mineros. Las actualizaciones anteriores habían sido relativamente sencillas porque contaban con el apoyo tanto de los usuarios como de los mineros. Esta situación condujo a la propuesta de las horquillas Soft activadas por el usuario (UASF) como mecanismo de activación alternativo que no dependía de la señalización de los mineros, lo que puso de manifiesto la tensión existente entre las distintas partes interesadas en el ecosistema de Bitcoin.
+reviewed: false

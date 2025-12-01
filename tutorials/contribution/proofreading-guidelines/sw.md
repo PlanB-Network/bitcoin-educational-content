@@ -1,27 +1,27 @@
 ---
 name: Miongozo ya Usahihishaji
-description: Ni mambo gani muhimu ya kuzingatia wakati wa kusahihisha kwenye Plan ₿ Network?
+description: Ni mambo gani muhimu ya kuzingatia wakati wa kusahihisha kwenye Plan ₿ Academy?
 ---
 
 ![github](assets/cover.webp)
 
 
-Karibu kwenye mafunzo haya kuhusu **miongozo ya kufuata wakati wa kusahihisha maudhui kwenye Plan ₿ Network**. Tunafurahi kwamba unashiriki dhamira yetu ya kutafsiri nyenzo za Bitcoin katika lugha nyingi iwezekanavyo, ili kuwasaidia watu kupata ufahamu kuhusu jinsi inavyofanya kazi na jinsi inavyoweza kutumika katika maisha yao ya kila siku.
+Karibu kwenye mafunzo haya kuhusu **miongozo ya kufuata wakati wa kusahihisha maudhui kwenye Plan ₿ Academy**. Tunafurahi kwamba unashiriki dhamira yetu ya kutafsiri nyenzo za Bitcoin katika lugha nyingi iwezekanavyo, ili kuwasaidia watu kupata ufahamu kuhusu jinsi inavyofanya kazi na jinsi inavyoweza kutumika katika maisha yao ya kila siku.
 
 
-Kwanza kabisa, kuchangia kwenye Plan ₿ Network [hadhi ya umma](https://github.com/PlanB-Network/Bitcoin-educational-content) hukupa fursa ya kuandika mafunzo, kusahihisha maudhui yaliyopo, au hata kupendekeza kuongezwa kwa lugha mpya kwenye jukwaa. Ili kujua zaidi, jiunge na [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) kwanza, na uandike wasilisho fupi kukuhusu wewe na lugha unazoweza kuzungumza.
+Kwanza kabisa, kuchangia kwenye Plan ₿ Academy [hadhi ya umma](https://github.com/PlanB-Network/Bitcoin-educational-content) hukupa fursa ya kuandika mafunzo, kusahihisha maudhui yaliyopo, au hata kupendekeza kuongezwa kwa lugha mpya kwenye jukwaa. Ili kujua zaidi, jiunge na [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) kwanza, na uandike wasilisho fupi kukuhusu wewe na lugha unazoweza kuzungumza.
 
 
-Mafunzo ya sasa yametolewa kwa wachangiaji ambao wanataka kusahihisha maudhui. Wengi wao hawajui mengi kuhusu [Github](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) au [Lugha ya Markdown](https://icde.org/use//tumia lugha ya Markdown). hazina, kwa hivyo ni muhimu kushiriki maarifa fulani juu ya vipengele muhimu vinavyohusika katika kazi hii.
+Mafunzo ya sasa yametolewa kwa wachangiaji ambao wanataka kusahihisha maudhui. Wengi wao hawajui mengi kuhusu [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) au [Lugha ya Markdown](https://icde.org/use//tumia lugha ya Markdown). hazina, kwa hivyo ni muhimu kushiriki maarifa fulani juu ya vipengele muhimu vinavyohusika katika kazi hii.
 
 
 Hapa chini, nilikusanya masuala ya kawaida ambayo wasahihishaji hukutana nayo. Jisikie huru kupendekeza zaidi, kwani yanaweza kusaidia wengine kuboresha.
 
 
-Kabla ya kupiga mbizi katika maalum, jambo la kwanza kufanya ni kusoma mafunzo haya juu ya vitendo vya kufuata kwenye Github, kwa kugawa hazina ya Plan ₿ Network, kufanya mabadiliko na kutuma PRs:
+Kabla ya kupiga mbizi katika maalum, jambo la kwanza kufanya ni kusoma mafunzo haya juu ya vitendo vya kufuata kwenye Github, kwa kugawa hazina ya Plan ₿ Academy, kufanya mabadiliko na kutuma PRs:
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Usahihishaji ni nini?
@@ -38,13 +38,13 @@ Siku zote kumbuka kuwa tafsiri/kusahihisha ni ELIMU!
 
 Kwa kweli, lengo letu la pamoja ni kuelimisha watu wengi iwezekanavyo kwenye Bitcoin, kwa hivyo ni muhimu kwamba nyenzo wanazosoma ni laini na wazi.
 
-Kwa maana hii, wachangiaji wote kwenye Plan ₿ Network ni waelimishaji!
+Kwa maana hii, wachangiaji wote kwenye Plan ₿ Academy ni waelimishaji!
 
 
-## Hatua za kwanza kabla ya kusahihisha kwenye Plan ₿ Network
+## Hatua za kwanza kabla ya kusahihisha kwenye Plan ₿ Academy
 
 
-Kabla ya kuanza kazi mpya ya kusahihisha, itangaze katika [kikundi cha Telegramu](https://t.me/PlanBNetwork_ContentBuilder) au umjulishe mratibu wako wa Plan ₿ Network, ambaye atafungua [toleo] maalum (https://github.com/orgs/PlanB-Network/projects/3). Unapopokea kiungo cha toleo, **toa maoni tu kwamba unaanza** na kazi ya kusahihisha maudhui hayo.
+Kabla ya kuanza kazi mpya ya kusahihisha, itangaze katika [kikundi cha Telegramu](https://t.me/PlanBNetwork_ContentBuilder) au umjulishe mratibu wako wa Plan ₿ Academy, ambaye atafungua [toleo] maalum (https://github.com/orgs/PlanB-Network/projects/3). Unapopokea kiungo cha toleo, **toa maoni tu kwamba unaanza** na kazi ya kusahihisha maudhui hayo.
 
 
 Mfumo huu humsaidia mratibu kufuatilia maendeleo ndani ya repo, na huruhusu maudhui "kudaiwa" na kisahihishaji, kuzuia jitihada zinazorudiwa na mtu mwingine.
@@ -60,7 +60,7 @@ Kwanza kabisa, **DAIMA kumbuka KUSAwazisha repo lako, kwenye tawi la "dev"**. Kw
 
 
 
-Baada ya kusawazisha kwa mafanikio, unaweza kufikia moja kwa moja maudhui yanayokuvutia na kujitolea kwenye tawi jipya, kama inavyoonyeshwa katika [mafunzo] haya (https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Vinginevyo, unaweza kufungua tawi jipya mahali pa kufanya kazi, kwa kubofya "Matawi", kama inavyoonyeshwa hapa chini.
+Baada ya kusawazisha kwa mafanikio, unaweza kufikia moja kwa moja maudhui yanayokuvutia na kujitolea kwenye tawi jipya, kama inavyoonyeshwa katika [mafunzo] haya (https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Vinginevyo, unaweza kufungua tawi jipya mahali pa kufanya kazi, kwa kubofya "Matawi", kama inavyoonyeshwa hapa chini.
 
 
 
@@ -115,11 +115,11 @@ Katika kesi hii ya pili, **kila mara fanya utafiti ili kuona kama mtu mwingine k
 
 
 
-- Suluhisho lingine zuri ni kuweka neno/maneno asilia ya EN, kisha **unda kiungo** ambacho kinaelekeza upya kwa [glossary](https://planb.network/en/resources/glossary) kwenye planb.network. Ili kufanya hivyo, unahitaji kuingiza neno/maneno ndani ya mabano ya mraba, na kiungo ndani ya mabano ya pande zote, kama unavyoweza kuona katika mfano ulio hapa chini:
+- Suluhisho lingine zuri ni kuweka neno/maneno asilia ya EN, kisha **unda kiungo** ambacho kinaelekeza upya kwa [glossary](https://planb.academy/en/resources/glossary) kwenye planb.network. Ili kufanya hivyo, unahitaji kuingiza neno/maneno ndani ya mabano ya mraba, na kiungo ndani ya mabano ya pande zote, kama unavyoweza kuona katika mfano ulio hapa chini:
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ Katika matokeo ya mwisho (picha hapa chini) hutatazama kiunga kizima, na neno li
 
 
 
-Tafadhali kumbuka kuwa kiungo cha faharasa utakachochukua kutoka kwa tovuti kina msimbo wa lugha baada ya neno "mtandao" (mfano: ``https://planb.network/en/resources/glossary/utxo``-> hapa unaweza kusoma msimbo wa lugha "en"). Katika hali hii, **ondoa msimbo wa lugha kutoka kwa kiungo**, kama ulivyoona kwenye kisanduku hapo juu. Kwa njia hii, mfumo utampeleka msomaji kiotomatiki kwa lugha yake iliyoteuliwa.
+Tafadhali kumbuka kuwa kiungo cha faharasa utakachochukua kutoka kwa tovuti kina msimbo wa lugha baada ya neno "mtandao" (mfano: ``https://planb.academy/en/resources/glossary/utxo``-> hapa unaweza kusoma msimbo wa lugha "en"). Katika hali hii, **ondoa msimbo wa lugha kutoka kwa kiungo**, kama ulivyoona kwenye kisanduku hapo juu. Kwa njia hii, mfumo utampeleka msomaji kiotomatiki kwa lugha yake iliyoteuliwa.
 
 
 Yaliyomo kwenye hazina yamejaa viungo kama hivi hapo juu. Kwa kuwa sasa unajua wanachomaanisha, **hakikisha kuwa hufuti kiungo chochote** kilichowekwa na mwandishi asilia.
 
 
 
-- Jambo lingine linalohusiana na utoaji wa neno ni lifuatalo. Ukipata "Plan ₿ Network" katika maandishi, **iache katika fomu hii asili**. Usitafsiri neno "mpango" au neno "mtandao". Kando na hilo, USITUMIE makala "The" wakati wa kutambulisha Plan ₿ Network: **ichukulie kama chapa**.
+- Jambo lingine linalohusiana na utoaji wa neno ni lifuatalo. Ukipata "Plan ₿ Academy" katika maandishi, **iache katika fomu hii asili**. Usitafsiri neno "mpango" au neno "mtandao". Kando na hilo, USITUMIE makala "The" wakati wa kutambulisha Plan ₿ Academy: **ichukulie kama chapa**.
 
 
 
@@ -196,7 +196,33 @@ Katika sehemu hii ya mwanzo, weka umbizo kama lilivyo. Usiongeze chochote mwanzo
 
 ![REVIEW](assets/en/8.webp)
 
+## Jinsi ya kushughulikia picha za kozi
 
+Tovuti yetu sasa ina picha zilizotafsiriwa kwa karibu kila kozi!
+
+Unaposahihisha, hakikisha daima kuwa picha zote zipo na zinaonyeshwa vizuri. Katika `mtazamo wa msimbo`, ukipata mstari wa aina hii `![IMAGE](assets/en/001.webp)`, inamaanisha kuwa picha itaonyeshwa hapo.
+
+Hakikisha unaongeza mstari mpya kila wakati kati ya msimbo wa picha na maandishi. Mfano hapa chini:
+
+```
+USANIDI USIO SAHIHI:
+- kuanza kutafsiri, bonyeza kitufe `Translate`: ![language](assets/08.webp)
+Kuhifadhi, bonyeza `save`!
+  
+USANIDI SAHIHI:
+
+- kuanza kutafsiri, bonyeza kitufe `Translate`: 
+
+![language](assets/08.webp)
+
+Kuhifadhi, bonyeza `save`!
+```
+
+Aidha, kumbuka kusoma maudhui ya kila picha. Ikiwa utagundua matatizo yoyote na tafsiri ya maandishi ndani ya picha, mjulishe mratibu wako na utapata nafasi ya kuzisahihisha pia!
+
+Unaweza kuona picha katika sehemu ya `Preview` ya Github (au kwenye tovuti yetu, fungua katika kichupo kingine). Kisha, rudi kwenye sehemu ya `code` karibu nayo kwa kusahihisha.
+
+![REVIEW](assets/en/9.webp)
 
 ## Mapendekezo ya muundo
 
@@ -209,7 +235,7 @@ Hapa chini unaweza kupata mifano michache ya masuala ya umbizo la kuzingatia, un
 
 
 
-![REVIEW](assets/en/9.webp)
+![REVIEW](assets/en/10.webp)
 
 
 
@@ -217,7 +243,7 @@ Kwa hivyo, kila wakati angalia maandishi asilia ya Kiingereza ili kuona ikiwa ma
 
 
 
-![REVIEW](assets/en/10.webp)
+![REVIEW](assets/en/11.webp)
 
 
 
@@ -232,7 +258,7 @@ Hakikisha kuwa umeangalia faili ya lugha asili (mara nyingi EN au FR) ili kuona 
 
 
 
-![REVIEW](assets/en/11.webp)
+![REVIEW](assets/en/12.webp)
 
 ## Usahihishaji wa maswali
 
@@ -246,17 +272,43 @@ Kwa mara nyingine tena, hakikisha uko katika tawi lililojitolea ambalo unafungua
 Jambo muhimu kukumbuka wakati wa kusahihisha aina hii ya faili ya _yml_ ni kuepuka kuongeza koloni ``:`` ndani ya maandishi. Kwa kweli, koloni ni **pekee** inayotumika kutenganisha jozi za thamani-msingi kama "majibu_ya_mabaya" kwa zingine. Unaweza kuona mfano kwenye picha hapa chini:
 
 
-![REVIEW](assets/en/12.webp)
+![REVIEW](assets/en/13.webp)
 
 
 Baada ya kukagua swali, hakikisha kuwa umebadilisha hali ya "iliyokaguliwa" kutoka "uongo" hadi "kweli," kama inavyoonyeshwa kwenye picha hapa chini. Hakikisha kuwa umeweka maneno haya ya hali katika Kiingereza, bila kujali ni lugha gani unafanyia kazi!
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/14.webp)
 
 
 Ikiwa mstari wa hali "imekaguliwa: kweli" haipo, hakikisha **uiongeze mwishoni mwa chemsha bongo**.
+
+## Kusahihisha mafunzo
+
+Ikiwa unaamua kusahihisha mafunzo, mratibu atafungua suala maalum kwa **sehemu nzima ya mafunzo**. Unapomaliza kazi yako, unaweza kuandika maendeleo yako kwa kutoa maoni kwenye suala hilo ukiorodhesha mafunzo uliyokagua: kwa njia hii, unaunda mfumo wazi wa kufuatilia kwa marejeo ya baadaye, ambayo ni muhimu kwa sababu maudhui mapya yanaongezwa kila mwezi. Unaweza kuona mfano wa mbinu hii [hapa](https://github.com/PlanB-Network/bitcoin-educational-content/issues/3023#issuecomment-3364923190).
+
+![REVIEW](assets/en/15.webp)
+
+Kwa kuwa mafunzo mapya yanaongezwa kila mwezi, tawi lako linaweza kuwa la zamani wakati wa mchakato wa kusahihisha. Baadhi ya wasahihishaji wameshughulikia tatizo hili kwa kulandanisha tawi halisi wanalofanya kazi: **tafadhali USIFANYE hivyo KAMWE! Ukifanya hivyo, unaweza kupoteza maendeleo yote uliyofanya hadi wakati huo!**
+
+Badala yake, unapaswa kumaliza kusahihisha mafunzo kwenye fork yako ya sasa kwanza. Kisha, **sawazisha `dev`**, na uunde tawi jipya ambapo unazingatia kusahihisha mafunzo yaliyoongezwa hivi karibuni (yale tu yanayokosekana kwenye tawi lako la awali).
+
+Katika mafunzo, kuna uwezekano **picha zinaweza kuwa hazijakalishwa lugha**. Kwa kuwa mafunzo mengi **yameandikwa awali kwa Kifaransa au Kiingereza**, pengine utapata picha zenye amri au maelekezo katika lugha yao asili. Hebu tuchukue mfano kutoka kwa mafunzo kuhusu Sparrow kwa Kiholanzi, kwa kuripoti maandishi na picha husika.
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Publieke server_".
+```
+
+![REVIEW](assets/en/16.webp)
+
+Kama unavyoweza kuona, picha inaonyesha wazi `Public Server`, kwa Kiingereza, wakati maandishi yanazungumzia usemi `_Publieke server_`. Katika kesi hii, kuna tatizo la uthabiti, kwa sababu msomaji anapata taarifa zinazopingana anapolinganisha picha na maandishi.
+
+Ili kutatua suala hili, unaweza kuweka amri kama inavyoonekana kwenye picha (Kiingereza au Kifaransa), ikifuatiwa na tafsiri katika lugha yako ndani ya mabano, kama inavyoonyeshwa hapa chini:
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Public Server_" (Publieke server).
+```
 
 
 ## Usahihishaji wa faharasa
@@ -273,7 +325,7 @@ Ikiwa kichwa kitaachwa kwa Kiingereza, unaweza kurekebisha sentensi kwa lugha ya
 Zaidi ya hayo, hakikisha umeandika mada katika HERUFI KUBWA.
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/17.webp)
 
 
 ## Kichwa na maelezo yako PR
@@ -304,7 +356,7 @@ Kwa njia hii, PR na suala zitaunganishwa, na yeyote anayesoma hazina ya umma ya 
 
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/18.webp)
 
 
 
@@ -318,16 +370,16 @@ Kila mara angalia viungo vyote kwenye maandishi, ili kuhakikisha kuwa ni sahihi.
 
 
 
-![REVIEW](assets/en/16.webp)
+![REVIEW](assets/en/19.webp)
 
 
 
 
-- Kufuatia mada, ikiwa mwandishi ataweka kiungo kinachorejelea kozi ya Plan ₿ Network au mafunzo (**si** ndani ya mabano), tovuti itaunda kiotomatiki "kadi" inayoonyesha kijipicha husika. Kwa hivyo, kila wakati hakikisha kuwa **unaongeza mstari mpya kati ya maandishi na kiungo chenyewe**, vinginevyo unaweza kuona hitilafu ifuatayo kwenye tovuti.
+- Kufuatia mada, ikiwa mwandishi ataweka kiungo kinachorejelea kozi ya Plan ₿ Academy au mafunzo (**si** ndani ya mabano), tovuti itaunda kiotomatiki "kadi" inayoonyesha kijipicha husika. Kwa hivyo, kila wakati hakikisha kuwa **unaongeza mstari mpya kati ya maandishi na kiungo chenyewe**, vinginevyo unaweza kuona hitilafu ifuatayo kwenye tovuti.
 
 
 
-![REVIEW](assets/en/17.webp)
+![REVIEW](assets/en/20.webp)
 
 
 Vile vile hufanyika kwa "misimbo ya picha" kama hii ``[IMAGE](asset/fr/001.webp)``: hakikisha kila wakati unaongeza laini mpya kati ya msimbo wa picha na maandishi. Mfano hapa chini:
@@ -351,14 +403,10 @@ To save, click on `save`!
 
 ## Hitimisho
 
+Kwa muhtasari, kuwa na ufahamu wa makosa ya kawaida ya wasahihishaji kunaweza kukusaidia sana kuboresha ujuzi wako wakati wa kukagua maudhui. Ni rahisi kupuuza mambo kama muktadha au uthabiti, na kugundua makosa haya kunaweza kuleta tofauti kubwa.
 
-Kwa muhtasari, kufahamu makosa ya wasahihishaji wa kawaida kunaweza kukusaidia kuboresha ujuzi wako unapokagua maudhui. Ni rahisi kupuuza mambo kama vile muktadha au uthabiti, na kupata hitilafu hizi kunaweza kuleta tofauti kubwa.
+Kumbuka daima kuwa mwanafunzi anaweza kusoma kozi na mafunzo haya, kwa hivyo ni jukumu letu kuhakikisha kuwa wanaelewa kikamili. **Kama msahihishaji, wewe ni mwalimu!**
 
+Sasa uko tayari kuanza kusahihisha kozi, mafunzo, maswali ya mtihani, na maneno ya kamusi. Endelea kusikiliza ili kuanza kukagua nakala za video pia!
 
-Kumbuka kila wakati kuwa anayeanza anaweza kusoma kozi na mafunzo haya, kwa hivyo ni jukumu letu kuhakikisha kuwa anaelewa kikamilifu. Kama msahihishaji, wewe ni mwalimu!
-
-
-Sasa uko tayari kuanza kozi za kusahihisha, mafunzo, maswali na maneno ya faharasa. Endelea kufuatilia pia kuanza kuangalia picha na nakala za video;)
-
-
-Asante kwa kusoma somo hili, na ufurahie safari yako ya kusahihisha!
+Asante kwa kusoma mafunzo haya, na furahia safari yako ya kusahihisha!

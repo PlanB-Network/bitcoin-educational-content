@@ -1,0 +1,9 @@
+question: Как се казва компанията на Дейвид Чаум, чрез която той реализира концепцията си за цифрова валута?
+answer: DigiCash B.V.
+wrong_answers:
+  - eCash Ltd.
+  - CyberCash Inc.
+  - First Virtual Holdings Inc.
+explanation: |
+  Основана през 1990 г., DigiCash B.V. е базирана в Амстердам, Нидерландия, и притежава патентите за изобретението на Дейвид Чаум - eCash.
+reviewed: true

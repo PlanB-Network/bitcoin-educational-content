@@ -90,7 +90,7 @@ Korzystanie z menedżera haseł to doskonała praktyka. Umożliwia on nie tylko 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![proton](assets/notext/07.webp)
 
@@ -224,7 +224,7 @@ Aby uzyskać więcej informacji, zapoznaj się z naszym samouczkiem na temat kor
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 W zakładce "*Język i czas*" można zmienić język i strefę czasową Interface.
 

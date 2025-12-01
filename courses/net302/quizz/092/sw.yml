@@ -1,9 +1,9 @@
-question: Je, seva za DNS husanidiwa wapi kwenye mfumo wa Linux?
+question: Je, server za DNS husanidiwa wapi kwenye mfumo wa Linux?
 answer: /etc/resolv.conf
 wrong_answers:
   - /etc/jina la mwenyeji
   - /etc/network/interfaces
   - /etc/hosts.ruhusu
 explanation: |
-  Faili ya /etc/resolv.conf inabainisha seva za DNS na vikoa vya utafutaji kwa utatuzi wa jina.
+  Faili ya /etc/resolv.conf inabainisha server za DNS na domain ya utafutaji kwa utatuzi wa jina.
 reviewed: false

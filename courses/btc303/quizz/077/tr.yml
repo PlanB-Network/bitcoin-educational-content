@@ -1,0 +1,9 @@
+question: Bitcoin güvenlik açığının ele alınması bağlamında 'ifşa' ve 'yayın' arasındaki temel ayrım nedir?
+answer: İfşa, satıcıyı özel olarak bilgilendirmek anlamına gelirken, yayınlama güvenlik açığının potansiyel saldırganlar tarafından alenen bilinmesini sağlar
+wrong_answers:
+  - İfşa kritik güvenlik açıkları için, yayın ise istismar edilmesi daha zor olan kritik olmayan güvenlik açıkları içindir
+  - İfşa, Bitcoin Core geliştiricilerinin bilgilendirilmesini içerirken, yayın altcoin ve diğer uygulama ekiplerinin bilgilendirilmesini içerir
+  - İfşa derhal harekete geçilmesini ve yamalar yapılmasını gerektirirken, yayınlama normal gelişim akışı içinde kademeli düzeltmelere olanak tanır
+explanation: |
+  Gregory Maxwell posta listesi tartışmasında bu önemli ayrımı vurgulamıştır. İfşa, yazılımın bakımını üstlenenleri (satıcı) bir güvenlik açığı hakkında özel olarak bilgilendirmek ve böylece bir düzeltme üzerinde çalışabilmelerini sağlamak gibi sorumlu bir eylemi ifade eder. Ancak yayınlama, güvenlik açığı bilgisinin kamuya açık hale getirilmesi anlamına gelir ve bu da potansiyel saldırganları istismar hakkında etkili bir şekilde bilgilendirir. Bu ayrım kritiktir çünkü ifşa sistemi korumaya yardımcı olurken, erken yayınlama kötü niyetli aktörlerin yeterli savunmalar oluşturulmadan önce güvenlik açığından yararlanmasını sağlayarak zarara neden olabilir.
+reviewed: false

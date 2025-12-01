@@ -1,35 +1,18 @@
 ---
 name: Spinoza e Bitcoin
 goal: Descubra as ligações filosóficas entre o pensamento de Spinoza e a Bitcoin como instrumento de liberdade ao longo dos séculos.
-objectives: 
-
-
-  - Compreender a filosofia prática de Spinoza e a sua procura de liberdade.
-  - Explorando os conceitos spinozistas de determinismo e ilusões humanas.
-  - Analisar os paralelos entre a revolução das ideias de Spinoza e a revolução tecnológica da Bitcoin.
-
-
-
+objectives:
+- Compreender a filosofia prática de Spinoza e sua busca pela liberdade.
+- Explorar os conceitos spinozistas do determinismo e das ilusões humanas.
+- Analisar os paralelos entre a revolução de ideias de Spinoza e a revolução tecnológica do Bitcoin.
+- Aplicar a teoria dos afetos para reconhecer e resistir à manipulação em sistemas políticos.
 ---
+# Quando Spinoza conheceu Satoshi
 
-# Uma exploração filosófica da liberdade através de Spinoza e Bitcoin
+Descubra como as ideias radicais do filósofo do século XVII Baruch de Spinoza sobre liberdade, razão e poder prefiguram a revolução descentralizada do Bitcoin. Este curso revela os paralelos impressionantes: ambos rejeitam a fé cega e a autoridade central, ambos usam rigor matemático para liberar. Spinoza libertou mentes do dogma religioso, o Bitcoin liberta o dinheiro do controle estatal.
 
-
-
-Este curso explora as ligações profundas entre a filosofia revolucionária de Baruch de Spinoza (1632-1677) e a Bitcoin, dois instrumentos de liberdade separados por séculos mas unidos pelo mesmo objetivo: a emancipação humana da servidão.
-
-
-
-Descobriremos como Spinoza, pai da filosofia racional iluminista, desenvolveu uma ética prática para nos libertar das ilusões que nos aprisionam - o livre arbítrio, o finalismo e as superstições teológicas. O seu método geométrico e a sua teoria dos afectos mostram-nos como compreender o nosso lugar no mundo e orientar a nossa existência para aquilo que aumenta a nossa capacidade de agir.
-
-
-
-O curso traça então paralelos fascinantes entre esta revolução copernicana de ideias e o Bitcoin: dois sistemas que não requerem nem fé cega nem autoridade central, mas simplesmente o exercício da razão. Tal como o Spinozismo libertou o pensamento do dogma religioso, o Bitcoin liberta o dinheiro do controlo do Estado, oferecendo uma nova forma de liberdade económica enraizada na matemática e na criptografia.
-
-
-
+Aprenda ferramentas práticas da ética de Spinoza para compreender os fundamentos filosóficos do bitcoin e aumentar sua autonomia. Pronto para explorar dois dos maiores instrumentos de emancipação humana da história?
 +++
-
 # Introdução
 
 

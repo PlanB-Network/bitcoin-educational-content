@@ -426,7 +426,7 @@ sudo apt install ./name.deb
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 现在，您的 Debian 系统已经安装完毕，可以随时执行日常任务。
 
@@ -443,4 +443,4 @@ https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

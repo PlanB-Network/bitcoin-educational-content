@@ -1,11 +1,10 @@
-question: None gutoragura ivyamwa vy’umukara ni iki mu vy’ubutunzi?
-answer: Gutoragura ivyatsi birimwo guhitamwo amakuru kugira ngo haboneke ubucuti hagati y’ibintu bihinduka.
+question: bisiguriki gutoranura amakuru mu vy'ubutunzi?
+answer: Gutoranura amakuru ugahitamwe witonze amakuru kugira ngo haboneke ubucuti hagati y’ibintu bihinduka.
 wrong_answers:
-  - Gutoragura ivyatsi birimwo kwirengagiza amakuru yose no kwizigira gusa ivyiyumviro.
-  - Gutoragura ivyatsi birimwo gukoresha amakuru yose ariho ata guhitamwo.
-  - Gutoragura ivyamwa vy’umuceri birimwo gukoresha amakuru gusa ashigikira ingingo za leta.
+  - Gutoranura amakuru ni kwirengagiza amakuru yose no kwizigira gusa ivyiyumviro.
+  - Gutoranura amakuru gukoresha amakuru yose ariho ata guhitamwo.
+  - Gutoranura birimwo gukoresha amakuru gusa ashigikira politike za leta.
 explanation: |
-  Mu vy’ubutunzi, gutoragura ivyatsi birimwo guhitamwo amakuru yo gushinga .
-  imigenderanire hagati y’ibintu bihinduka. Bifatwa nk’ibintu bitajanye n’ubuhinga kandi bidakomeye .
-  ubugyo.
+  Mu vy’ubutunzi, gutoragura canke guhitamwo amakuru yo gushinga .
+  imigenderanire hagati y’ibintu bihinduka. Bifatwa nk’ibintu bitajanye n’ubuhinga kandi bidashimishije.
 reviewed: true

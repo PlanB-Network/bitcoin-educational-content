@@ -326,4 +326,4 @@ https://umunyagihugu.com/igitabo c'inzoka/
 Kugira ngo ukomeze gutohoza iyi nkuru no gukomeza umutekano wa Wallet yawe kuri Ledger Nano ifise BIP39 passphrase, ndagutumiye ngo urabe iyi nyigisho yuzuye:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49

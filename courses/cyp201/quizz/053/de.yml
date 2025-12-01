@@ -6,4 +6,4 @@ wrong_answers:
   - Sie verlieren nur die unbestätigten Transaktionen
 explanation: |
   Die Passphrase ist ein wesentlicher Bestandteil in der Schlüsselableitung. Ohne sie ist es unmöglich, die Schlüssel neu zu erstellen und daher auf die Bitcoins zuzugreifen.
-reviewed: false
+reviewed: true

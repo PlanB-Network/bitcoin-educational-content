@@ -11,7 +11,7 @@ description: Complete gids voor het gebruik van Bisq 2 en het wisselen van bitco
 KYC-vrije peer-to-peer (P2P) uitwisselingen zijn essentieel voor het behoud van de privacy en financiële autonomie van gebruikers. Ze maken directe transacties tussen individuen mogelijk zonder de noodzaak voor identiteitsverificatie, wat cruciaal is voor diegenen die waarde hechten aan privacy. Voor een meer diepgaand begrip van de theoretische concepten, bekijk de BTC204 cursus:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Wat is Bisq 2?
 
@@ -31,7 +31,7 @@ Bisq 2 is de nieuwe versie van de populaire gedecentraliseerde Bisq Exchange, ge
 - Rolsysteem met verplichte storting in BSQ
 
 
-Deze handleiding richt zich uitsluitend op "Bisq Easy", het enige protocol dat momenteel beschikbaar is. Bisq Easy is speciaal ontworpen voor nieuwe Bitcoin gebruikers. Met dit protocol kunnen gebruikers Bitcoins kopen en verkopen tegen fiatvaluta's op een gedecentraliseerd peer-to-peer platform. Transacties zijn beperkt tot het equivalent van 600 USD (met een minimum van 6 USD), en de Exchange veiligheid is afhankelijk van de reputatie van BTC-verkopers. Bisq Easy heeft geen transactiekosten of borgvereisten. Bisq Easy zal naar verwachting Bisq 1 vervangen voor contante uitwisselingen onder 600 USD (of equivalent).
+Deze gids richt zich uitsluitend op "Bisq Easy", het enige momenteel beschikbare protocol. Bisq Easy is speciaal ontworpen voor nieuwe Bitcoin-gebruikers. Dit protocol stelt gebruikers in staat bitcoins te kopen en verkopen tegen fiatvaluta's op een gedecentraliseerd peer-to-peer-platform. Transacties zijn beperkt tot het equivalent van 600 USD (met een minimum van 6 USD), en de veiligheid van de handel is gebaseerd op de reputatie van BTC-verkopers. Bisq Easy heeft geen handelskosten of borgvereisten. Verwacht wordt dat Bisq Easy Bisq 1 zal vervangen voor fiattransacties onder 600 USD (of equivalent).
 
 
 **Belangrijkste kenmerken:**
@@ -84,7 +84,7 @@ Deze handleiding richt zich uitsluitend op "Bisq Easy", het enige protocol dat m
 - De maker van de aanbieding bepaalt de voorwaarden van de Exchange
 - Zodra de handelaren het eens zijn over de voorwaarden (betalingsmethode en prijs), begint de Exchange
 - De verkoper stuurt zijn bankgegevens naar de koper en de koper stuurt zijn Bitcoin Address naar de verkoper
-- Koper betaalt contant en stelt verkoper op de hoogte
+- De koper doet de betaling in fiatvaluta en stelt de verkoper op de hoogte
 - Zodra de betaling is ontvangen, stuurt de verkoper de bitcoins naar de Address van de koper
 - De Exchange is voltooid wanneer de koper de bitcoins ontvangt
 
@@ -117,7 +117,7 @@ Deze handleiding richt zich uitsluitend op "Bisq Easy", het enige protocol dat m
 - Controleer de authenticiteit van het gedownloade bestand (sterk aanbevolen). Voor een gedetailleerde handleiding voor het verifiëren van handtekeningen, zie de volgende tutorial:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Installatie volgens uw systeem
 

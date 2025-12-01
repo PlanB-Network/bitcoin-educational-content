@@ -1,0 +1,9 @@
+question: Hva er den primære konsekvensen av at det tar svært lang tid før Bitcoin Core-trekkforespørsler blir slått sammen til depotet av vedlikeholderne?
+answer: Det indikerer en mangel på tilgjengelige korrekturlesere til å evaluere de foreslåtte kodeendringene
+wrong_answers:
+  - "Det viser at vedlikeholderne bevisst bremser Bitcoins utviklingsprosess"
+  - "Det viser at de foreslåtte endringene er fundamentalt uforenlige med Bitcoins konsensusregler"
+  - "Det viser seg at GitHub-plattformen har tekniske begrensninger for å håndtere Bitcoins kodebase"
+explanation: |
+  Ifølge kapittelinnholdet tar det lang tid å slå sammen pull requests, først og fremst på grunn av manglende gjennomgang, noe som skyldes mangel på korrekturlesere snarere enn obstruksjon fra vedlikeholderne eller tekniske problemer. Gjennomgangsprosessen er avgjørende for Bitcoins sikkerhet, ettersom den sikrer kodekvalitet og forhindrer ondsinnede endringer. Denne flaskehalsen eksisterer fordi det krever ekspertise og tid å gjennomgå kompleks kryptografisk kode, noe som gjør kvalifiserte korrekturlesere til en knapp ressurs i utviklingsprosessen.
+reviewed: false

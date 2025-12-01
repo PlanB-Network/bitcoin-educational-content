@@ -1,9 +1,9 @@
-question: Ni iyihe ntumbero nyamukuru y’umuhodler?
+question: Ni iyihe ntumbero nyamukuru y’uwubika igihe kirekire?
 answer: Kugira ngo bagumye ama bitcoins yabo mu kiringo kirekire
 wrong_answers:
   - Gutekereza ku bintu mu gihe gito
   - Kugira ngo ukore amafaranga kenshi Bitcoin
   - Kugira ngo bashobore gutuma amafaranga yabo ya Bitcoin agira ubuzima bwite
 explanation: |
-  A hodler afise intumbero yo kuguma afise amafaranga yiwe imyaka myinshi kugira ngo yungukire ku kwiyongera kw’itunga.
+  Uwubika igihe kirekire afise intumbero yo kuguma afise amafaranga yiwe imyaka myinshi kugira ngo yungukire ku kwiyongera kw’itunga.
 reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Qué destaca principalmente del funcionamiento de la red el concepto de armonía Bitcoin, descrito a través de la analogía de David Harding?
+answer: Miles de nodos completos verifican independientemente las transacciones para lograr un acuerdo armonioso sin necesidad de confianza entre los operadores
+wrong_answers:
+  - Los grupos mineros deben coordinar sus esfuerzos para cantar la misma canción y producir bloques en armonía sincronizada
+  - Los desarrolladores de Bitcoin deben alcanzar un consenso unánime antes de introducir cambios o actualizaciones en el protocolo
+  - Todos los usuarios de Bitcoin deben acordar la validez de las transacciones mediante un proceso de votación democrática para mantener la estabilidad de la red
+explanation: |
+  La analogía armónica de David Harding subraya que la fuerza de Bitcoin proviene de miles de nodos completos independientes que trabajan cada uno por separado para verificar las transacciones, creando un acuerdo armónico sobre el estado del libro mayor sin que ningún operador de nodo necesite confiar en los demás. Esto se compara con un coro en el que cada miembro canta de forma independiente, pero juntos producen una hermosa armonía. Las respuestas incorrectas malinterpretan este concepto sugiriendo requisitos de coordinación entre mineros, desarrolladores o usuarios, lo que contradice el principio fundamental de verificación independiente que hace que Bitcoin sea descentralizado y no genere confianza.
+reviewed: false

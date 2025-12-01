@@ -1,0 +1,9 @@
+question: Volgens de afweging tussen verwerkingscapaciteit en decentralisatie, besproken door Gregory Maxwell, wat gebeurt er als het middelengebruik van Bitcoin blockchain te groot wordt ten opzichte van de beschikbare technologie?
+answer: Bitcoin verliest concurrentievoordelen ten opzichte van legacysystemen omdat validatie te duur wordt, waardoor veel gebruikers worden uitgesloten en het vertrouwen in het systeem wordt teruggedrongen
+wrong_answers:
+  - Bitcoin wordt veiliger omdat alleen de meest toegewijde gebruikers met krachtige hardware kunnen deelnemen aan validatie, waardoor een sterker netwerk ontstaat
+  - Bitcoin past automatisch zijn moeilijkheidsalgoritme aan om de behoefte aan middelen te verminderen en hetzelfde niveau van decentralisatie te behouden voor alle deelnemers
+  - Bitcoin splitst zich op in meerdere parallelle ketens om de rekenlast te verdelen met behoud van dezelfde veiligheidsgaranties voor alle gebruikers
+explanation: |
+  Maxwell identificeerde een fundamentele afruil waarbij buitensporige eisen aan middelen gebruikers naar vertrouwde derde partijen duwen in plaats van onafhankelijke validatie. Wanneer de validatiekosten te hoog worden, kunnen gebruikers het zich niet veroorloven om volledige nodes te draaien en moeten ze op anderen vertrouwen, wat de vertrouwensloze aard van Bitcoin ondermijnt. De foute antwoorden suggereren ten onrechte gunstige uitkomsten (verhoogde veiligheid, automatische aanpassingen of gehandhaafde garanties), terwijl een hoog resourcegebruik juist centralisatie en vertrouwensafhankelijkheden afdwingt.
+reviewed: false

@@ -33,6 +33,8 @@ Théo；貢獻
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 ### 目標：更新您的安全技能 ！
 
 歡迎大家參加這個專門針對數位安全的教育課程。本訓練旨在讓每個人都能接受，因此不需要事先瞭解電腦科學知識。我們的主要目標是提供您必要的知識和技能，讓您更安全、更隱私地遨遊數位世界。
@@ -60,7 +62,7 @@ Théo；貢獻
 
 首先，我們將討論選擇網頁瀏覽器的重要性及其對安全性的影響。接著我們將探討瀏覽器的具體細節，特別是關於 cookie 的管理。我們也將瞭解如何使用 TOR 等工具，確保更安全的匿名瀏覽體驗。之後，我們將專注於使用 VPN 來加強保護您的資料。最後，我們將提出安全使用 WiFi 連線的建議。
 
-![](assets/en/1.webp)
+![image](assets/zh-Hant/001.webp)
 
 ### 第 2 節：使用電腦的最佳做法
 
@@ -70,7 +72,7 @@ Théo；貢獻
 
 在本節中，我們將涵蓋電腦安全的三個關鍵領域。首先，我們將探討不同的作業系統：Mac、PC 和 Linux，強調它們的特點和優勢。接著，我們將探討有效防禦駭客攻擊的方法，並加強裝置的安全性。最後，我們將強調定期保護和備份資料以防止任何遺失或贖金軟體的重要性。
 
-![](assets/en/2.webp)
+![image](assets/zh-Hant/002.webp)
 
 ### 第 3 節：解決方案的實施
 
@@ -83,7 +85,7 @@ Théo；貢獻
 
 首先，我們將介紹如何保護您的電子郵件收件箱，它對您的通訊非常重要，也是駭客經常攻擊的目標。接著，我們將介紹密碼管理器：一個實用的解決方案，讓您不再忘記或混淆密碼，同時確保密碼安全。最後，我們將討論一種額外的安全措施，即雙重認證，為您的帳戶增加額外的 Layer 保護。一切都會解釋得清楚易懂。
 
-![](assets/en/3.webp)
+![image](assets/zh-Hant/003.webp)
 
 # 線上瀏覽的一切須知
 
@@ -93,6 +95,8 @@ Théo；貢獻
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 瀏覽網際網路時，必須避免某些常見錯誤，以維護您的線上安全。以下是一些避免這些錯誤的提示：
 
 ### 謹慎使用軟體下載：
@@ -101,24 +105,27 @@ Théo；貢獻
 
 範例：使用 www.signal.org/download 取代 www.logicieltelechargement.fr/signal。
 
-![](assets/notext/4.webp)
+![image](assets/zh-Hant/004.webp)
 
 此外，建議您優先使用開放原始碼軟體，因為這些軟體通常較為安全，而且不含惡意軟體。開放原始碼」軟體是指其程式碼為所有人所知且可存取的軟體。這可以驗證，除其他事項外，是否有隱藏的存取權限來竊取您的個人資料。
 
 > 獎勵：開放源碼軟體通常都是免費的！這所大學 100% 開放原始碼，因此您也可以在我們的 GitHub 上查看我們的程式碼。
-> ![](assets/notext/5.webp)
+
+![image](assets/zh-Hant/005.webp)
+
 ### Cookie 管理：錯誤與最佳作法
 
 Cookie 是網站為了在您的裝置上儲存資訊而建立的檔案。雖然有些網站需要這些 Cookie 才能正常運作，但它們也可能被第三方網站利用，尤其是用於廣告追蹤目的。根據 GDPR 等法規，您可以（並建議）拒絕第三方追蹤 Cookie，但同時接受網站正常運作所需的 Cookie。每次造訪網站後，最好手動或透過擴充套件或特定程式刪除相關 cookies。有些瀏覽器甚至提供選擇性刪除 cookie 的功能。儘管有這些預防措施，但重要的是要了解不同網站所收集的資訊仍會互相連結，因此在便利性與安全性之間找到平衡點是很重要的。
 
 > 注意：同時限制安裝在瀏覽器上的擴充套件數量，以避免潛在的安全性和效能問題。
+
 ### 網頁瀏覽器：選擇、安全性
 
 瀏覽器有兩大系列：基於 Chrome 的瀏覽器和基於 Firefox 的瀏覽器。
 
 雖然這兩個系列都提供類似的安全層級，但建議避免使用 Google Chrome 瀏覽器，因為它有追蹤程式。Chrome 瀏覽器的輕量替代品，如 Chromium 或 Brave，可能是首選。Brave 的內建廣告封鎖程式尤其值得推薦。可能需要使用多種瀏覽器才能存取某些網站。
 
-![](assets/notext/6.webp)
+![image](assets/zh-Hant/006.webp)
 
 ### 隱私瀏覽、TOR 及其他可讓您更安全匿名瀏覽的替代方案
 
@@ -128,12 +135,15 @@ Cookie 是網站為了在您的裝置上儲存資訊而建立的檔案。雖然�
 
 TOR 是合法的，記者、自由活動人士和其他希望逃避專制國家審查的人都使用 TOR。然而，重要的是要了解 TOR 並不能確保瀏覽的網站或電腦本身的安全。此外，使用 TOR 可能會導致網際網路連線速度變慢，因為資料在抵達目的地之前會先經過三台其他人的電腦。還必須注意的是，TOR 並非保證 100% 匿名性的萬無一失的解決方案，不應該用於非法活動。
 
-![](assets/notext/7.webp)
+![image](assets/zh-Hant/007.webp)
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
 ## VPN 和網際網路連線
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
+
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
 
 ### VPN
 
@@ -141,7 +151,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 VPN 是一種工具，可加密透過網際網路傳輸的資料，使連線更加安全。在專業環境中，VPN 讓員工可以安全地遠端存取公司內部網路。交換的資料經過加密，讓第三方更難截取。除了確保存取內部網路的安全外，使用 VPN 還可讓使用者透過公司內部網路路由其網際網路連線，讓人以為他們的連線是來自公司。這對於存取受地理限制的線上服務尤其有用。
 
-![](assets/en/8.webp)
+![image](assets/zh-Hant/008.webp)
 
 ### VPN 種類
 
@@ -149,12 +159,13 @@ VPN 有兩種主要類型：企業 VPN 和消費者 VPN，例如 NordVPN。企�
 
 然而，使用消費者 VPN 並不能保證完全匿名。許多 VPN 供應商都會保留使用者的相關資訊，這可能會損害使用者的匿名性。雖然 VPN 對於改善線上安全性很有用，但它們並非通用的解決方案。它們對於某些特定用途是有效的，例如存取受地理位置限制的服務或改善旅行時的安全性，但它們無法保證完全安全。選擇 VPN 時，必須優先考量可靠性和技術性，而非知名度。收集個人資訊最少的 VPN 供應商通常是最安全的。iVPN 和 Mullvad 等服務不收集個人資訊，甚至允許以 Bitcoin 付款以增加隱私。
 
-![](assets/notext/9.webp)
+![image](assets/zh-Hant/009.webp)
 
 最後，VPN 也可以用來阻擋線上廣告，提供更愉快、更安全的瀏覽體驗。然而，重要的是要自行研究，找到最適合您特定需求的 VPN。建議使用 VPN 以加強安全性，即使在家瀏覽網際網路時也是如此。這有助於確保線上交換資料的安全性更高。最後，請務必檢查網址和 Address 欄中的小掛鎖，以確認您正在您打算造訪的網站。
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+
 ### HTTPS 與公共 Wi-Fi 網路的
 
 就線上安全性而言，必須瞭解 4G 通常比公共 Wi-Fi 更安全。但是，使用 4G 會很快耗盡您的行動數據計劃。HTTPS 協定已成為網站資料加密的標準。它可以確保使用者與網站之間交換的資料是安全的。因此，確認您造訪的網站是否使用 HTTPS 通訊協定至關重要。
@@ -163,7 +174,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 為了避免線上詐騙，確認您所瀏覽網站的身份是非常重要的，尤其是要檢查副檔名和網域名稱。此外，要警惕那些在 URL 中使用相似字母來欺騙使用者的騙子。
 
-![](assets/en/10.webp)
+![image](assets/zh-Hant/010.webp)
 
 總而言之，使用 VPN 可以大幅提升企業和個人使用者的線上安全性。此外，養成良好的瀏覽習慣也有助於改善數位衛生。在本課程的下一節，我們將介紹 Address 電腦安全，包括更新、防毒和密碼管理。
 
@@ -174,6 +185,8 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 ## 電腦使用
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 在現今的數位世界中，我們電腦的安全性是大家最關心的議題。今天，我們將 Address 三個重點：
 
@@ -186,13 +199,13 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 關於電腦的選擇，新舊電腦在安全性方面沒有顯著差異。但是，作業系統之間存在安全性差異：Windows、Linux 和 Mac。
 
-![](assets/notext/11.webp)
+![image](assets/zh-Hant/011.webp)
 
 關於 Windows，建議不要每天使用管理員帳戶，而是建立兩個獨立的帳戶：一個管理員帳戶和一個日常使用的帳戶。由於 Windows 使用者眾多，而且很容易從使用者切換到管理員，因此通常較容易受到惡意軟體的威脅。另一方面，威脅在 Linux 和 Mac 上則較不常見。
 
 作業系統的選擇應基於您的需求和喜好。Linux 系統近年來有了長足的進步，變得越來越人性化。Ubuntu 對於初學者來說是一個有趣的選擇，它的圖形化 Interface 非常容易上手。您可以在保留 Windows 的同時，將電腦分割以試用 Linux，但這可能會很複雜。通常最好是使用專用電腦、虛擬機器或 USB 密鑰來測試 Linux 或 Ubuntu。
 
-![](assets/notext/12.webp)
+![image](assets/zh-Hant/012.webp)
 
 ### 軟體更新
 
@@ -214,7 +227,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 對於希望投資於付費防毒軟體的使用者，建議選擇可智慧型分析未知與新興威脅的防毒軟體，例如 Kaspersky。防毒軟體更新對於防禦新的威脅至關重要。
 
-![](assets/notext/13.webp)
+![image](assets/zh-Hant/013.webp)
 
 > 注意：Linux 和 Mac 因其使用者權限分離系統，通常不需要防毒軟體。
 最後，這裡有一些保障電腦和資料安全的好方法。選擇有效且方便使用的防毒軟體非常重要。在您的電腦上採取良好的作業方式也很重要，例如不要插入不明或可疑的 USB 鑰匙。這些 USB 隨身碟可能含有惡意程式，插入後會自動啟動。一旦插入 USB 密鑰，檢查 USB 密鑰將毫無用處。有些公司曾因不小心將 USB 隨身碟遺留在停車場等容易接觸的地方，而成為駭客入侵的受害者。
@@ -226,6 +239,8 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 ## 駭客入侵與備份管理：保護您的資料
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
+
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
 
 ### 駭客如何攻擊？
 
@@ -249,7 +264,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 贖金軟體是一種惡意軟體，會加密使用者資料，並要求贖金才能解密。這種類型的攻擊越來越常見，對公司或個人來說可能非常麻煩。為了保護自己，必須建立最敏感檔案的備份！這並不能阻止贖金軟體，但可以讓您直接忽略它。
 
-![](assets/notext/14.webp)
+![image](assets/zh-Hant/014.webp)
 
 定期將重要資料備份到外部儲存裝置或安全的線上儲存服務。這樣，在發生網路攻擊或硬體故障時，您可以在不遺失重要資訊的情況下復原資料。
 
@@ -265,8 +280,9 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 如果您在電腦上偵測到病毒，請中斷電腦與網際網路的連線，執行完整的防毒掃描，並刪除受感染的檔案。然後更新您的軟體和作業系統，並變更密碼以防止進一步入侵。
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+
 # 實施解決方案。
 
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
@@ -274,6 +290,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## 管理電子郵件帳戶
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
 
 ### 設定新的電子郵件帳戶！
 
@@ -287,7 +305,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 妥善管理我們的電子郵件地址對於確保線上存取的安全性至關重要。選擇一個安全和尊重私隱的電郵供應商是很重要的。例如，ProtonMail 就是一個安全和尊重私隱的電郵服務。
 
-![](assets/notext/15.webp)
+![image](assets/zh-Hant/015.webp)
 
 在選擇電子郵件供應商和建立密碼時，切勿在不同的線上服務重複使用相同的密碼。建議定期建立新的電子郵件地址，並使用不同的電子郵件地址分開使用。對於重要的帳戶，最好選擇安全的電子郵件服務。還應注意的是，有些服務會限制密碼的長度，因此一定要注意這一限制。也有提供建立臨時電子郵件地址的服務，可用於有期限的帳戶。
 
@@ -297,16 +315,19 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 建議您使用 Have I Been Pwned 網站 (https://haveibeenpwned.com/) 檢查我們的電子郵件 Address 是否已外洩，並在未來資料外洩時獲得通知。被入侵的資料庫可能會被駭客利用來發送網路釣魚電子郵件或重複使用已洩露的密碼。
 
-![](assets/notext/16.webp)
+![image](assets/zh-Hant/016.webp)
 
 一般而言，開始使用新的、更安全的電子郵件 Address 並不是壞的做法，如果想要健康地重新開始，甚至是必要的。
 
 Bonus Bitcoin：為我們的 Bitcoin 活動（建立 Exchange 帳戶）建立特定的電子郵件 Address 可能是明智之舉，這樣才能真正區分我們生活中的活動領域。
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ## 密碼管理員
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 ### 什麼是密碼管理器？
 
@@ -320,7 +341,7 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 - LastPass：最受歡迎的管理器之一。它是第三方服務，這表示您的密碼會儲存在他們的伺服器上。它提供免費版本和付費版本，Interface 使用方便。
 - Dashlane：它也是一項第三方服務，擁有直覺的 Interface 和其他功能，例如追蹤信用卡資訊和安全備註。
 
-![](assets/notext/17.webp)
+![image](assets/zh-Hant/017.webp)
 
 ### 自行託管以獲得更多控制權：
 
@@ -328,7 +349,7 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 - Bitwarden：它是一個開放原始碼的工具，這表示您可以檢閱其程式碼來驗證其安全性。雖然 Bitwarden 提供託管服務，但它也允許使用者自行託管，這表示您可以控制密碼的儲存位置，可能提供更多安全性和控制。
 - KeePass：這是一個開放原始碼解決方案，主要用於自我託管。您的資料預設儲存於本機，但如果您願意，也可以使用不同的方法同步密碼資料庫。KeePass 因其安全性和靈活性而廣受認可，不過對於初學者來說，它可能略顯不便。
 
-![](assets/notext/18.webp)
+![image](assets/zh-Hant/018.webp)
 
 對於像 KeePass 這樣的自我託管解決方案，可以在不使用集中式第三方服務的情況下，在多個設備之間同步資料庫。像 **Syncthing** 這樣的工具可以在您的設備之間直接進行加密和去中心化的同步。這種方法既能讓您的資料保持在您的控制之下，又能確保其在所有設備上的可用性。
 
@@ -349,11 +370,15 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 隨機產生的密碼提供較高層級的安全性，儘管它們可能較難記。密碼管理器可以 generate 更安全的隨機密碼。使用密碼管理器，您不需要記住所有密碼。重要的是要逐步用管理器生成的密碼取代舊密碼，因為舊密碼更強更長。請確保您密碼管理器的主密碼也是強大且安全的。
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+
 ## 雙因素驗證
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 ### 為何實施 2FA
 
@@ -365,7 +390,7 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 - 由 Google Authenticator 或 Authy 等應用程式產生的驗證碼。
 - 您插入電腦的實體安全鑰匙。
 
-![](assets/notext/19.webp)
+![image](assets/zh-Hant/019.webp)
 
 有了 2FA，即使駭客取得您的密碼，如果沒有第二個驗證因素，他們也無法存取您的帳戶。因此，2FA 對於保護您的線上帳戶免受未經授權的存取是非常重要的。
 
@@ -400,8 +425,10 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 金科玉律：網路安全是一個不斷移動的目標，它會適應您的學習旅程！
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+
 # 實用部分
 
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
@@ -412,17 +439,20 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 保護您的電子郵件帳號是保障您的線上活動和個人資料安全的重要一步。本教程將逐步引導您建立和設定 ProtonMail 帳戶，ProtonMail 是一家以高度安全著稱的供應商，為您的通訊提供端對端加密。無論您是新手還是經驗豐富的用戶，這裡介紹的最佳做法將幫助您加強電子郵件的安全性，同時利用 ProtonMail 的先進功能：
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ## 在 2FA 中確保安全
 
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
 雙因素驗證 (2FA) 已經成為保護線上帳戶安全的必要條件。在本教程中，您將學習如何設定和使用 2FA 應用程式 Authy，它會產生動態 6 位數碼以保護您的帳戶。Authy 非常易於使用，並可在多部裝置間同步。瞭解如何安裝和設定 Authy，從而立即加強您線上帳戶的安全性：
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 另一個選擇是使用實體安全金鑰。本附加教學會告訴您如何設定和使用安全金鑰作為第二個驗證因素：
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+
 ## 建立密碼管理器
 
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
@@ -431,18 +461,22 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 在本教程中，您將學習如何設定開放原始碼密碼管理器 Bitwarden，以及如何在所有裝置間同步憑證，以簡化日常使用：
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 對於較進階的使用者，我也提供另一個免費的開放原始碼軟體教學，可在本機使用來管理您的密碼：
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+
 ## 保護您的帳戶
 
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
 
 在這兩套教學中，我也會引導您保護線上帳號的安全，並解釋如何逐漸採用更安全的方式來管理您的日常密碼。
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+
 ## 變更瀏覽器和 VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
@@ -451,21 +485,26 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 我建議發現兩個可靠的 VPN 解決方案，即 IVPN 和 Mullvad，這兩個方案在 Bitcoin 中是可以付費的。這些教學會引導您如何在所有裝置上安裝、設定和使用 Mullvad 或 IVPN：
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+
 此外，還可學習如何使用 Tor 瀏覽器，這是專為保護您的線上隱私而設計的瀏覽器：
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
 ## 備份設定
 
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
 保護您的個人檔案也是非常重要的一點。本教程將教您如何使用 Proton Drive 實施有效的備份策略。了解如何使用此安全雲端解決方案來應用 3-2-1 方法：在兩種不同媒體上備份三份資料，並在異地備份一份。這可確保您敏感檔案的可存取性與安全性：
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
 為了確保儲存在 USB 磁碟機或外接式 Hard 磁碟機等抽取式媒體上的檔案安全，我也會教您如何使用 VeraCrypt 輕鬆加密和解密這些媒體：
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+
 # 更進一步
 
 <partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
@@ -473,6 +512,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## 如何在網路安全產業工作
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
+
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
 
 ### 網路安全：機會無限的成長領域
 
@@ -507,11 +548,13 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 只要掌握這些技能和工具，您就能做好充分的準備，成功馳騁網路安全的世界。
 
-![](assets/notext/20.webp)
+![image](assets/zh-Hant/020.webp)
 
 ## 專訪 Renaud
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 ### 高效的密碼管理與認證強化：學術方法
 
@@ -521,7 +564,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 密碼管理器通常鼓勵使用額外的驗證因素，例如雙因素驗證。為了達到最佳的安全性，建議您在行動裝置上保留 OTP (一次性密碼)。AndoTP 提供開放原始碼解決方案，可在手機上產生和儲存 OTP 代碼。雖然 Google Authenticator 允許匯出驗證碼種子，但對於 Google 帳戶上的備份，信任度仍然有限。因此，建議使用 OTI 和 AndoTP 應用程式來自主管理 OTP。
 
-![](assets/notext/21.webp)
+![image](assets/zh-Hant/021.webp)
 
 數位繼承和數位哀悼的問題，提出了在一個人死後，有一個傳輸密碼的程序的重要性。密碼管理器可將所有數位秘密安全地儲存在一個地方，從而促進這種轉移。密碼管理器也可以識別所有開啟的帳戶，並管理其關閉或轉移。建議將主密碼寫在紙上，但應保存在隱蔽且安全的地方。如果 Hard 磁碟機已加密且電腦已上鎖，即使發生盜竊案，也無法取得密碼。
 

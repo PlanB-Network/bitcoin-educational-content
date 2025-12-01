@@ -85,11 +85,11 @@ SLIP39 از این طرح برای توزیع seed Wallet استفاده می‌
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 ### روی یک Wallet جدید
 
@@ -139,7 +139,7 @@ https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 در Trezor، تعداد کل سهامی که می‌خواهید پیکربندی کنید را انتخاب کنید. رایج‌ترین پیکربندی‌ها 2-از-3 و 3-از-5 هستند. برای این مثال، من یک 2-از-3 ایجاد می‌کنم، بنابراین 3 سهم را انتخاب خواهم کرد. هر سهم نمایانگر یک عبارت 20 کلمه‌ای Mnemonic خواهد بود.
 
@@ -273,7 +273,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 اگر این آموزش را مفید یافتید، ممنون می‌شوم اگر یک Green انگشت شست در زیر بگذارید. لطفاً این مقاله را در شبکه‌های اجتماعی خود به اشتراک بگذارید. بسیار متشکرم!
 

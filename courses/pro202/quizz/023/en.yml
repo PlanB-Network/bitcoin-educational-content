@@ -1,0 +1,8 @@
+question: What is the primary purpose of the sequence number field in Bitcoin transaction inputs?
+answer: To enable timelocks and Replace-by-Fee (RBF) functionality
+wrong_answers:
+  - To specify the order in which inputs must be processed by miners
+  - To prevent double-spending by creating a unique identifier for each input
+  - To indicate the priority level of the transaction for fee calculation
+explanation: |
+  The sequence number field in Bitcoin transaction inputs serves two main purposes: implementing timelocks (which delay when a transaction can be confirmed) and enabling Replace-by-Fee (RBF) functionality (which allows users to increase fees on unconfirmed transactions). The other options are incorrect because: inputs don't need to be processed in any specific order by miners, double-spending prevention is handled by the UTXO model and blockchain consensus rather than sequence numbers, and transaction priority is determined by fee rates rather than sequence numbers.

@@ -1,0 +1,9 @@
+question: A cosa si riferisce nello specifico la privacy della blockchain nel contesto di Bitcoin?
+answer: Le informazioni divulgate dalle transazioni sulla blockchain
+wrong_answers:
+  - La crittografia delle chiavi private memorizzate nel wallet
+  - La protezione della connessione a Internet durante l'utilizzo del Bitcoin
+  - L'anonimato fornito dall'utilizzo di più indirizzi wallet
+explanation: |
+  La privacy Blockchain si riferisce specificamente alle informazioni divulgate dalle transazioni sulla blockchain, che si applicano a tutte le transazioni inviate e ricevute. Si tratta di una differenza rispetto alla crittografia wallet (che protegge le chiavi memorizzate), alla sicurezza delle connessioni Internet (che è la privacy off-chain) o all'idea errata che più indirizzi garantiscano l'anonimato. Le falle nella privacy della catena si verificano attraverso il riutilizzo degli indirizzi e il clustering, dove le transazioni possono essere collegate tra loro per rivelare modelli sulle attività finanziarie degli utenti.
+reviewed: false

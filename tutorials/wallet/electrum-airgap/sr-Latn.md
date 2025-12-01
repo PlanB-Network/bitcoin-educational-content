@@ -54,7 +54,7 @@ Da biste preuzeli Electrum, preporučujem da pratite prve korake u ovom vodiču:
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Nakon preuzimanja uvek proverite izdanje pre nego što ga instalirate, zatim nastavite sa konfiguracijom "One Server", kao što ćete pronaći u odeljku za pomoć, pod `Start with a Dummy Wallet`.
 

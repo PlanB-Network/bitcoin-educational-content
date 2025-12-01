@@ -1,35 +1,18 @@
 ---
 name: Spinoza ja Bitcoin
 goal: Tutustu Spinozan ajattelun ja Bitcoin:n välisiin filosofisiin yhteyksiin vapauden välineinä kautta vuosisatojen.
-objectives: 
-
-
-  - Spinozan käytännöllisen filosofian ja vapauden tavoittelun ymmärtäminen.
-  - Tutkitaan spinozilaisia käsitteitä determinismistä ja inhimillisistä illuusioista.
-  - Analysoidaan Spinozan aatevallankumouksen ja Bitcoin:n teknologisen vallankumouksen välisiä yhtäläisyyksiä.
-
-
-
+objectives:
+- Spinozan käytännöllisen filosofian ja hänen vapauden etsintänsä ymmärtäminen.
+- Spinozalaisten determinismin ja inhimillisten illuusioiden käsitteiden tutkiminen.
+- Spinozan aatevallankumouksen ja Bitcoinin teknologisen vallankumouksen välisten yhtäläisyyksien analysointi.
+- Affektiteorian soveltaminen manipuloinnin tunnistamiseen ja vastustamiseen poliittisissa järjestelmissä.
 ---
+# Kun Spinoza tapasi Satoshin
 
-# Vapauden filosofinen tarkastelu Spinozan ja Bitcoin:n kautta
+Tutustu siihen, miten 1600-luvun filosofi Baruch de Spinozan radikaalit ajatukset vapaudesta, järjestä ja vallasta ennakoivat Bitcoinin hajautettua vallankumousta. Tämä kurssi paljastaa hämmästyttävät yhtäläisyydet: molemmat hylkäävät sokean uskon ja keskusvallan, molemmat käyttävät matemaattista tarkkuutta vapauttamiseen. Spinoza vapautti mielet uskonnollisesta dogmasta, Bitcoin vapauttaa rahan valtion kontrollista.
 
-
-
-Tällä kurssilla tutkitaan Baruch de Spinozan (1632-1677) vallankumouksellisen filosofian ja Bitcoin:n välisiä syviä yhteyksiä. Nämä kaksi vapauden välinettä ovat vuosisatojen päässä toisistaan, mutta niitä yhdistää sama pyrkimys: ihmisen vapautuminen orjuudesta.
-
-
-
-Saamme selville, miten Spinoza, rationaalisen valistusfilosofian isä, kehitti käytännön etiikan vapauttaakseen meidät meitä vangitsevista harhakuvitelmista - vapaasta tahdosta, finalismista ja teologisista taikauskoista. Hänen geometrinen metodinsa ja affektien teoriansa osoittavat meille, miten voimme ymmärtää paikkamme maailmassa ja suunnata olemassaolomme siihen, mikä lisää toimintakykyämme.
-
-
-
-Kurssilla vedetään sitten kiehtovia rinnastuksia tämän kopernikaanisen aatevallankumouksen ja Bitcoin:n välille: nämä kaksi järjestelmää eivät vaadi sokeaa uskoa eivätkä keskusviranomaista, vaan yksinkertaisesti järjen käyttöä. Aivan kuten spinozismi vapautti ajattelun uskonnollisesta dogmasta, Bitcoin vapauttaa rahan valtion valvonnasta ja tarjoaa uudenlaisen taloudellisen vapauden, jonka juuret ovat matematiikassa ja kryptografiassa.
-
-
-
+Opi käytännön työkaluja Spinozan etiikasta ymmärtääksesi bitcoinin filosofiset perusteet ja lisätäksesi toimijuuttasi. Oletko valmis tutkimaan kahta historian suurinta ihmisen vapautumisen välinettä?
 +++
-
 # Johdanto
 
 

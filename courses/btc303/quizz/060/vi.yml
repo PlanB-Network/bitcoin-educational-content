@@ -1,0 +1,9 @@
+question: Theo định nghĩa về nguồn mở, yêu cầu chính liên quan đến phí khi phân phối lại phần mềm nguồn mở như một phần của phân phối phần mềm tổng hợp là gì?
+answer: Giấy phép không yêu cầu tiền bản quyền hoặc các khoản phí khác cho việc bán như vậy
+wrong_answers:
+  - Phải tính một chi phí tái sản xuất hợp lý để trang trải chi phí phát triển
+  - Phí bản quyền được phép nhưng không được vượt quá 5% giá phân phối
+  - Có thể yêu cầu phí hành chính nhưng chỉ đối với việc phân phối lại thương mại
+explanation: |
+  Định nghĩa nguồn mở nêu rõ trong phần "Phân phối lại Tự do" rằng "Giấy phép không yêu cầu tiền bản quyền hoặc bất kỳ khoản phí nào khác cho việc bán hàng đó". Điều này có nghĩa là phần mềm nguồn mở phải được phân phối lại tự do mà không phải trả phí hoặc tiền bản quyền bắt buộc. Các lựa chọn khác lại cho rằng có nhiều loại phí khác nhau được phép, điều này vi phạm nguyên tắc cơ bản về phân phối lại tự do vốn định nghĩa phần mềm nguồn mở.
+reviewed: false

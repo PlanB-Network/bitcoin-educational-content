@@ -1,4 +1,4 @@
-question: Kakav tip enkripcije je pomerajuća enkripcija?
+question: Kakav tip enkripcije je enkripcija pomakom?
 answer: Monoalfabetska supstituciona šifra
 wrong_answers:
   - Permutaciona šifra reči
@@ -6,4 +6,4 @@ wrong_answers:
   - Asimetrična šifra
 explanation: |
   Šifrovanje pomakom je primer monoalfabetske supstitucione šifre, gde je svako slovo u poruci pomereno za fiksni broj pozicija u abecedi.
-reviewed: false
+reviewed: true

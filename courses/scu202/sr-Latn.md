@@ -156,7 +156,7 @@ Da li ste spremni da u potpunosti preuzmete kontrolu nad svojom IT sigurnošću,
 
 
 
-*N.B.: Ako naiđete na bilo koje nepoznate pojmove tokom kursa, molimo vas da se obratite [rečniku](https://planb.network/resources/glossary) za definicije*
+*N.B.: Ako naiđete na bilo koje nepoznate pojmove tokom kursa, molimo vas da se obratite [rečniku](https://planb.academy/resources/glossary) za definicije*
 
 
 
@@ -179,7 +179,7 @@ Kurs SCU101 bio je uvodni kurs osmišljen da uspostavi čvrstu osnovu u digitaln
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Sigurno pregledanje interneta
 
@@ -974,7 +974,7 @@ Ovaj pristup se zasniva na modelu *rolling release*, gde se paketi kontinuirano 
 
 Arch Linux je pre svega namenjen naprednim korisnicima koji žele potpunu kontrolu nad svojim okruženjem, uz prihvatanje određene složenosti u instalaciji i održavanju. Ovaj tehnički zahtev doveo je do pojave nekoliko izvedenih distribucija usmerenih na demokratizaciju njegove upotrebe.
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Najpoznatiji je Manjaro, koji zadržava tehničku osnovu Archa dok nudi pojednostavljenu instalaciju, unapred konfigurisana radna okruženja i blago odložen ciklus izdanja radi stabilizacije ažuriranja.
 
@@ -1062,7 +1062,7 @@ Razvijen od strane Canonical-a i lansiran 2004. godine, Ubuntu je jedna od najpo
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ Pokrenut 2006. godine, Linux Mint je distribucija izvedena iz Ubuntu-a, dizajnir
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint se ističe svojom jednostavnošću, prisustvom multimedijalnih kodeka po defaultu i dobro dizajniranim alatom za ažuriranje. S druge strane, u velikoj meri se oslanja na Ubuntu infrastrukturu, što ga čini zavisnim od Ubuntu-ovih tehničkih izbora (posebno na nivou kernela i repozitorijuma). Mint je posebno pogodan za netehničke korisnike, ili one koji žele sistem spreman za upotrebu koji ne zahteva previše učenja.
 
@@ -1108,7 +1108,7 @@ Instalacija je glatka, osnovni softver je unapred instaliran, a "Lite" verzija v
 
 Pokrenut 2011. godine, elementary OS je distribucija zasnovana na Ubuntu-u koja se pre svega fokusira na dizajn i doslednost Interface. Njegovo radno okruženje Pantheon, inspirisano macOS-om, je minimalističko, elegantno i fluidno. Međutim, sistem ostaje manje prilagodljiv od drugih distribucija, i neki napredni korisnici mogu se osećati ograničeno izborima Interface i njegovom namerno zaključanom strukturom. Dobro je prilagođen estetski osetljivim korisnicima koji traže jednostavan, koherentan sistem za svakodnevnu upotrebu.
 
-https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
+https://planb.academy/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1151,7 +1151,7 @@ Fedora je distribucija podržana od strane Red Hat-a, usmerena ka najnovijim teh
 ![Image](assets/fr/025.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
 - **openSUSE** (Tumbleweed ili Leap):
@@ -1179,7 +1179,7 @@ Debian postoji u nekoliko grana, uključujući *Stable* (veoma pouzdan, ali sa s
 ![Image](assets/fr/027.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
 - **Manjaro**:
@@ -1208,7 +1208,7 @@ Arch Linux je minimalistička, kontinuirano ažurirajuća distribucija, isporuč
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 #### Specijalizovana distribucija
 
@@ -1246,7 +1246,7 @@ Tails je distribucija zasnovana na Debianu, fokusirana na privatnost. Sve prolaz
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.academy/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Napomena:** Živa distribucija je Linux operativni sistem koji se može koristiti direktno sa USB stika ili CD-a, bez instalacije na Hard disk.
 
@@ -1300,7 +1300,7 @@ PureOS je distribucija izvedena iz Debiana koju razvija Purism, potpuno besplatn
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+https://planb.academy/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
 - **Raspberry Pi OS**:
 
@@ -1326,7 +1326,7 @@ Whonix kombinuje Debian sa Tor mrežom u arhitekturi sa dve VM (gateway + workst
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 Ova panorama vam daje pregled trenutnog ekosistema Linux distribucija, omogućavajući vam da odaberete distribuciju koja najbolje odgovara vašem tehničkom profilu i ciljevima.
 
@@ -1938,7 +1938,7 @@ Za više informacija o Ubuntu instalateru, možete takođe pogledati ovaj vodič
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 Kada je instalacija završena, uklonite USB ključ kada se to zatraži, a zatim ponovo pokrenite računar. Ubuntu će sada biti instaliran i spreman za korišćenje na vašem računaru.
 
@@ -2977,7 +2977,7 @@ sudo apt install thunderbird
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Kancelarijski paket
 
 
@@ -3114,13 +3114,13 @@ Pored ovih nekoliko osnovnih alata, takođe preporučujem da instalirate osnovne
 
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Konačno, da zaključimo ovo poglavlje, evo nekoliko najboljih praksi koje treba slediti svakodnevno:
 
@@ -3212,9 +3212,9 @@ Složena lozinka će sigurno biti teška za pamćenje. Stoga preporučujem kori�
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Na kraju, menjajte ovu lozinku redovno—svakih 3 do 6 meseci—posebno ako se vaš uređaj koristi u deljenim ili mobilnim okruženjima.
 
@@ -3314,13 +3314,13 @@ Konačno, jedna od najvažnijih mera koju možete preduzeti da biste se zaštiti
 - Linux distribucije ne šifruju automatski disk, osim ako ova opcija nije izabrana tokom instalacije. Možete koristiti LUKS za šifrovanje diska.
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 U svim slučajevima, lozinka za dešifrovanje mora biti jaka, različita od lozinke sistema, i čuvana u sigurnom menadžeru lozinki. Ako koristite eksterni disk ili USB ključ koji sadrži osetljive podatke, razmislite i o njihovom pojedinačnom šifrovanju alatima kao što je VeraCrypt.
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### Princip principa najmanjih privilegija
 
@@ -3417,7 +3417,7 @@ Ova tehnologija se zasniva na hipervizoru, softverskom programu koji upravlja kr
 ![Image](assets/fr/206.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
 U smislu IT bezbednosti, jedna od velikih prednosti virtuelnih mašina je njihova sposobnost da izvrše kompartmenatizaciju. VM ne deli svoje fajlove, procese ili mrežni pristup sa host sistemom, osim ako eksplicitno ne konfigurišete te razmene. Dakle, ako je VM zaražena malverom, ili ako testirate osetljiv softver unutar nje, uticaj ostaje ograničen na tu virtuelnu mašinu: vaš glavni sistem ostaje netaknut, pod uslovom da se poštuju parametri izolacije (nema deljenih direktorijuma, nema USB uređaja prosleđenih VM-u...).
 
@@ -3953,7 +3953,7 @@ Na dobro održavanom Linux računaru koji se koristi u lične svrhe, rizici su m
 ![Image](assets/fr/218.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 #### Pod macOS
 
@@ -4061,11 +4061,11 @@ Ovaj sistem se oslanja na asimetričnu kriptografiju i alate kao što su GnuPG (
 
 
 
-Da biste saznali više o kriptografskim Hash funkcijama i digitalnim potpisima, pozivam vas da pohađate besplatni kurs CYP 201 koji se nudi na Plan ₿ Network:
+Da biste saznali više o kriptografskim Hash funkcijama i digitalnim potpisima, pozivam vas da pohađate besplatni kurs CYP 201 koji se nudi na Plan ₿ Academy:
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Proverite integritet i autentičnost softvera
 
@@ -4469,7 +4469,7 @@ Sa ovom konfiguracijom, Alice je već zaštićen od mnogih uobičajenih pretnji.
 
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Alice na taj način poštuje pravilo 3-2-1: ima 3 kopije svojih fajlova (računar, USB ključ, cloud), pohranjene na najmanje 2 različita medija (interni disk, USB ključ, udaljeni server), sa najmanje 1 kopijom van lokacije (cloud server).
 
@@ -4556,7 +4556,7 @@ Puna enkripcija je kao brava: sve dok lozinka nije obezbeđena, podaci ostaju ne
 Pod Linuxom, standardno rešenje je LUKS (*Linux Unified Key Setup*). LUKS je sistem za upravljanje šifrovanim volumenima integrisan u većinu distribucija. Kada se sistem prvi put instalira, obično će vam biti ponuđeno da šifrujete ceo disk računara. Naravno, toplo preporučujem da aktivirate ovu opciju. Kada je šifrovanje omogućeno, sistem će tražiti lozinku pri svakom pokretanju, čak i pre nego što se OS učita. Ovo osigurava da fizički pristup disku ne može zaobići sigurnost.
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 Ako želite da šifrujete eksterni disk ili USB stik, to se takođe može uraditi iz komandne linije ili putem grafičkog interfejsa Interface. Disk će morati biti formatiran, tako da će svi postojeći podaci biti izgubljeni ako prethodno nisu sačuvani.
 
@@ -4832,7 +4832,7 @@ Da biste saznali više o ovom rešenju, pogledajte ovaj kompletan vodič :
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 
 
@@ -4877,7 +4877,7 @@ Ovaj protokol je savršen za sigurno razmenjivanje osetljivih fajlova sa drugima
 
 Odlična alternativa je Cryptomator. Ovaj softver otvorenog koda omogućava vam da kreirate sef: poseban direktorijum u kojem su svi deponovani fajlovi automatski enkriptovani. Ovaj sef može biti sinhronizovan sa cloud servisima kao što su Dropbox, Google Drive ili Nextcloud, a da provajder nikada nema pristup neenkriptovanim podacima. Aplikacija je dostupna na svim operativnim sistemima, uključujući Android i iOS, i ne zahteva posebne tehničke veštine za korišćenje.
 
-https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4885,7 +4885,7 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Konačno, moguće je koristiti VeraCrypt i u režimu kontejnera, koji kreira fajl koji deluje kao šifrovana arhiva, montabilna kao disk.
 
@@ -4943,18 +4943,18 @@ Da biste videli sve metapodatke sadržane u datoteci, koristite sledeću komandu
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-Zamenite `name.jpg` sa pravim imenom vašeg fajla. Takođe, uverite se da ste pozicionirani u direktorijumu koji sadrži ovu sliku. Na primer, ako imam fotografiju statue Satoshi Nakamoto u direktorijumu `/Downloads`, mogu prikazati njene metapodatke pokretanjem sledeće komande:
+Zamenite `name.webp` sa pravim imenom vašeg fajla. Takođe, uverite se da ste pozicionirani u direktorijumu koji sadrži ovu sliku. Na primer, ako imam fotografiju statue Satoshi Nakamoto u direktorijumu `/Downloads`, mogu prikazati njene metapodatke pokretanjem sledeće komande:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4991,7 +4991,7 @@ Da biste obrisali sve nepotrebne metapodatke iz datoteke, koristite komandu:
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5013,7 +5013,7 @@ Ako ne želite da zadržite original, možete ga obrisati komandom:
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5037,12 +5037,12 @@ Ako imate nekoliko fajlova za obradu u istom direktorijumu, možete koristiti ge
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-Ovo briše metapodatke svih JPEG datoteka u trenutnom direktorijumu. Možete prilagoditi ekstenziju prema vašim potrebama (`*.png`, `*.pdf`...).
+Ovo briše metapodatke svih JPEG datoteka u trenutnom direktorijumu. Možete prilagoditi ekstenziju prema vašim potrebama (`*.webp`, `*.pdf`...).
 
 
 
@@ -5580,9 +5580,9 @@ Dakle, ne bih preporučio korišćenje Google Chrome-a, ni lično ni profesional
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 #### Hrabro
 
@@ -5742,7 +5742,7 @@ Firefox ostaje merilo za sigurnost i privatnost, uprkos tome što zaostaje malo 
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor Pregledač
 
 
@@ -5751,7 +5751,7 @@ https://planb.network/tutorials/computer-security/communication/firefox-11814cec
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 Nedostatak je značajno smanjenje performansi (visoka latencija) i ograničena kompatibilnost sa određenim veb-sajtovima. Tor Browser je idealan za osetljive aktivnosti (novinarstvo, aktivizam...), ali manje pogodan za uobičajenu svakodnevnu upotrebu.
 
@@ -5765,11 +5765,11 @@ Nedostatak je značajno smanjenje performansi (visoka latencija) i ograničena k
 
 [Mullvad Browser](https://mullvad.net/en/browser) je rezultat saradnje između Tor Foundation i Mullvad VPN. Baziran je na Tor pretraživaču, koji je sam po sebi izveden iz Firefox ESR. Mullvad Browser je dizajniran da maksimizira privatnost korisnika. Podrazumevano uključuje naprednu zaštitu protiv otiska prsta, tragača i skripti trećih strana.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Ima većinu sigurnosnih i privatnih funkcija koje nudi Tor Browser, sa jednom razlikom: ne preusmerava saobraćaj preko Tor mreže. Da biste izbegli curenje IP Address, možete ga koristiti u kombinaciji sa VPN-om (idealno, Mullvad VPN).
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Mullvad Browser je odlično rešenje ako ste zabrinuti za svoju privatnost, bilo da ste početnik ili napredni korisnik.
 
@@ -5795,7 +5795,7 @@ Podrazumevano, LibreWolf aktivira napredna sigurnosna podešavanja Firefoxa (kao
 
 
 
-https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+https://planb.academy/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
 
 #### Zen Browser
 
@@ -5813,7 +5813,7 @@ Sa stanovišta bezbednosti i privatnosti, Zen ima ugrađeno blokiranje trećih s
 
 Zen Browser je zanimljiva alternativa ako tražite Gecko okruženje za pregledavanje koje je besplatno, inovativno, pregledno i poštuje vašu privatnost.
 
-https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.academy/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Pregledači zasnovani na WebKit-u
 
@@ -5855,7 +5855,7 @@ Orion je u potpunosti razvijen od strane Kagi tima (poznatog po svom pretraživa
 
 
 
-https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
+https://planb.academy/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Pregledači bez renderovanja motora
 
 
@@ -6035,9 +6035,9 @@ Menadžer lozinki bezbedno generiše i čuva jake lozinke, omogućavajući vam p
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Korišćenje menadžera lozinki ima brojne prednosti: pojednostavljuje vaš svakodnevni život eliminisanjem potrebe za pamćenjem mnoštva lozinki i minimizira glavnu slabost autentifikacije: samog korisnika.
 
@@ -6047,13 +6047,13 @@ Kada je reč o autentifikaciji, korišćenje menadžera lozinki mora biti dopunj
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
+https://planb.academy/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
 
-https://planb.network/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
+https://planb.academy/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### Korišćenje VPN-a
 
@@ -6087,11 +6087,11 @@ Dobar VPN treba da ima jasnu politiku bez beleženja, nudi moderne tehnologije (
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 VPN-ove visokog profila treba izbegavati. Uprkos njihovom agresivnom marketingu, oni ostaju centralizovane komercijalne usluge, često bazirane u jurisdikcijama sa manje zaštite, i retko su transparentni u vezi sa njihovim stvarnim tehničkim radom.
 
@@ -6626,7 +6626,7 @@ GrapheneOS integriše bez vlasničkih komponenti. Slobodni ste da dodate Google 
 Grafen je kompatibilan samo sa novijim Google Pixelima (Pixel 6, 7, 8 i 9).
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -6842,11 +6842,11 @@ Javne Wi-Fi mreže, kao što su one u kafićima, hotelima ili javnom prevozu, re
 Da biste se zaštitili, jednostavno izbegavajte korišćenje ovih javnih mreža ili koristite VPN, koji će kreirati enkriptovani tunel između vašeg uređaja i udaljenog servera. Ovaj tunel enkapsulira vaše podatke, čineći ih izuzetno teškim za presretanje ili modifikaciju.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 Što se tiče vaše kućne Wi-Fi mreže, o tome ćemo razgovarati u poslednjem delu SCU 202 kursa.
 
@@ -6921,7 +6921,7 @@ Redovan bekap podataka sa vašeg pametnog telefona je veoma važan za vašu sigu
 Da biste to postigli, trebalo bi da koristite šifrovana lokalna rešenja, kao što su eksterni disk ili šifrovani USB ključ (npr. sa Veracrypt-om). Ako to nije moguće, rešenja za oblak koja sami hostujete, kao što su *Syncthing* ili *Nextcloud*, omogućavaju vam da napravite rezervnu kopiju podataka na ličnom serveru, zadržavajući potpunu kontrolu nad pristupom i poverljivošću. Za razliku od komercijalnih usluga u oblaku (Google Drive, iCloud...), ova rešenja znatno ograničavaju izloženost vaših informacija trećim stranama.
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 #### Daljinsko brisanje
 
@@ -7019,7 +7019,7 @@ Međutim, Signal ima slabu tačku kada je u pitanju anonimnost: aplikacija zahte
 Ukratko, Signal je veoma dobro rešenje za razmenu poruka, ali nažalost zahteva vezu sa telefonskim brojem.
 
 
-https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
 #### WhatsApp
 
@@ -7042,7 +7042,7 @@ Telegram je veoma popularna usluga za razmenu poruka zahvaljujući svojoj ergono
 Telegram tehnički može pristupiti sadržaju većine razgovora koji nisu eksplicitno zaštićeni. Čak i ako kompanija zauzme čvrst stav prema državnim vlastima, Telegram nije optimalno rešenje za poverljive ili osetljive razmene, osim ako eksplicitno ne koristite njegove "tajne razmene", koje su daleko manje praktične na dnevnoj bazi.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -7065,7 +7065,7 @@ Još jedan važan aspekt Threema aplikacije je njen poslovni model: aplikacija n
 Mislim da je ovo rešenje za razmenu poruka odlično, ali njegov glavni nedostatak je što izvorni kod za njegove servere ostaje vlasnički.
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 #### SimpleX Chat
 
@@ -7088,7 +7088,7 @@ Kontakti se dodaju putem privremenih linkova ili statičkih adresa (stalni, ali 
 U smislu bezbednosti i poverljivosti, SimpleX ide dalje od većine postojećih sistema za razmenu poruka, ograničavajući metapodatke na minimum i eliminišući bilo kakvu zavisnost od centralnog direktorijuma ili jedinstvenog identifikatora. Međutim, ova arhitektura nameće određene kompromise u pogledu korisničke pristupačnosti: ponekad manje intuitivna ergonomija, potreba za blagom početnom krivom učenja i zavisnost od dostupnosti relej servera.
 
 
-https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
 #### Sesija
 
@@ -7105,7 +7105,7 @@ Tehnički, Session implementira end-to-end enkripciju za poruke, fajlove, audio 
 Klijent i server za Session su otvorenog koda. Softver je dostupan na Android, iOS, Windows, macOS i Linux platformama, sa opcijom sinhronizacije između uređaja putem Mnemonic fraze slične onoj koja se koristi u Bitcoin novčanicima. Ova fraza korisniku daje isključivu kontrolu nad njegovim ili njenim podacima, ali takođe nameće značajnu odgovornost u smislu pravljenja rezervnih kopija.
 
 
-https://planb.network/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
+https://planb.academy/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
 
 #### Keet
 
@@ -7125,7 +7125,7 @@ S druge strane, iako su neki komponenti (kriptografija i umrežavanje) objavljen
 Keet je dostupan na Android, iOS, Windows, macOS i Linux, i može se sinhronizovati između uređaja koristeći Mnemonic frazu.
 
 
-https://planb.network/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
+https://planb.academy/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
 
 #### Zaboravi
 
@@ -7162,7 +7162,7 @@ Aplikacija je sertifikovana od strane ANSSI (*Agence Nationale de la Sécurité 
 Olvid je kompatibilan sa Android, iOS, Windows, macOS i Linux operativnim sistemima. Njegova ergonomija ostaje jednostavna i pristupačna. Aplikacija takođe sadrži sistem za šifrovanu rezervnu kopiju ključeva i kontakata, tako da možete obnoviti nalog na novom uređaju.
 
 
-https://planb.network/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
+https://planb.academy/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
 
 ### Aplikacije za razmenu poruka koje treba izbegavati
 
@@ -7260,7 +7260,7 @@ Thunderbird Mobile je mobilna verzija popularnog open-source e-mail klijenta raz
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7502,7 +7502,7 @@ Bitwarden je jedan od najopsežnijih menadžera lozinki otvorenog koda koji su d
 Možete koristiti Bitwarden servere ili ga sami hostovati ako želite potpunu kontrolu. Njegov Interface mobilni je jasan i fluidan, sa besprekornom integracijom u Android ili iOS sistem.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 
 - [KeePassDX](https://www.keepassdx.com/)
@@ -7517,7 +7517,7 @@ KeePass je istorijski menadžer lozinki zasnovan na šifrovanim lokalnim fajlovi
 Tu je i [KeePassium](https://keepassium.com/) za iOS, dobro integrisana aplikacija u Apple ekosistem, kompatibilna sa KeePass formatom i otvorenog koda. Druga iOS alternativa za KeePass klijent je Strongbox, ali ovaj softver nije bio otvorenog koda već nekoliko godina.
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 
 - [Proton Pass](https://proton.me/pass)
@@ -7548,7 +7548,7 @@ Međutim, nisu svi VPN-ovi jednaki. Popularne usluge kao što su NordVPN ili Exp
 Mullvad je jedan od najboljih VPN-ova u smislu zaštite privatnosti. Ne zahteva email ili lozinku: Vaš nalog je povezan sa jednostavnim nasumičnim brojem. Plaćanje se može izvršiti u bitkoinima ili gotovinom. Mobilni klijent je open-source, jednostavan za korišćenje i moćan. Mullvad ne čuva logove, ne prati svoje korisnike i redovno objavljuje nezavisne bezbednosne revizije.
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 
 - [IVPN](https://www.ivpn.net/)
@@ -7557,7 +7557,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 IVPN je još jedna odlična alternativa fokusirana na privatnost. Nudi jednostavan i efikasan mobilni Interface, bez prikupljanja logova, i omogućava anonimnu registraciju. Takođe možete platiti u bitkoinima. Aplikacija uključuje firewall koji blokira sav saobraćaj van VPN-a, što može biti veoma korisno na pametnom telefonu. Klijenti su open-source.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 
 - [Proton VPN](https://protonvpn.com/)
@@ -7595,7 +7595,7 @@ Aegis je sveobuhvatna aplikacija otvorenog koda. Šifrira vašu 2FA bazu podatak
 Ente Auth je moderno, open-source, multiplatformsko rešenje sa end-to-end enkriptovanim rezervnim kopijama. Omogućava vam da sigurno sinhronizujete vaše 2FA kodove na mobilnim uređajima, desktopu i webu. Takođe ga možete koristiti offline, bez rezervne kopije u oblaku ili kreiranja naloga.
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth nudi mnoge dodatne funkcije: Organizacija po oznakama, prilagođene ikone za svaku uslugu, beleške, omiljene stavke, integrisana pretraga, sigurno deljenje kodova sa timom.
 
 
@@ -7609,13 +7609,13 @@ Ente Auth nudi mnoge dodatne funkcije: Organizacija po oznakama, prilagođene ik
 Authy nudi sinhronizaciju 2FA na više uređaja, što može biti korisno, ali aplikacija nije otvorenog koda i zahteva broj telefona za registraciju. Za početnike, međutim, ona je kompletnija od Google Authenticator-a, zahvaljujući posebno funkciji bekapa u oblaku.
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Ako želite da saznate više o menadžerima lozinki, 2FA autentifikaciji i VPN-ovima, preporučujem da pročitate posvećena poglavlja u kursu SCU-101:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Vreme
 
@@ -8267,7 +8267,7 @@ Kao što smo otkrili u prethodnom poglavlju, obezbeđivanje vaše kućne mreže 
 Nakon pregleda teorijskih osnova, ovo poglavlje će vas voditi kroz jasne, praktične i efikasne korake za poboljšanje sigurnosti vaše lokalne mreže.
 
 
-*Imajte na umu: Informacije ovde su opšte prirode, jer je Plan ₿ Network namenjen međunarodnoj publici. U zavisnosti od vaših lokalnih okolnosti i vašeg ISP-a, određene najbolje prakse možda neće biti pomenute ovde, ili se mogu primenjivati na drugačiji način.*
+*Imajte na umu: Informacije ovde su opšte prirode, jer je Plan ₿ Academy namenjen međunarodnoj publici. U zavisnosti od vaših lokalnih okolnosti i vašeg ISP-a, određene najbolje prakse možda neće biti pomenute ovde, ili se mogu primenjivati na drugačiji način.*
 
 
 ### Odabir i osiguranje vaše mrežne opreme
@@ -8282,10 +8282,16 @@ Važno je odabrati modernu opremu, koju održava njen proizvođač, i koja je u 
 Ruter kompatibilan sa Wi-Fi 6, Wi-Fi 6E ili Wi-Fi 7 pružiće vam poboljšane brzine i, pre svega, podršku za moderne sigurnosne tehnologije. Nasuprot tome, veoma stara oprema, posebno ona koja više ne prima softverske nadogradnje, može sadržati poznate, nezakrpljene ranjivosti. Stoga predstavljaju rizik za celu vašu mrežu, čak i ako ih pravilno konfigurišete. U poređenju sa mobilnim telefonima ili računarima, rutere obično zadržavamo mnogo godina. Međutim, može biti dobra ideja da ih češće menjate, kako biste imali koristi od modernijeg, sigurnijeg modela.
 
 
+**Pažnja**: Kao opšte pravilo, ruteri koje obezbeđuju internet provajderi mogu da nemaju osnovnu funkciju ažuriranja, kao i mogućnosti personalizacije. U nekim slučajevima, provajderi mogu imati i neograničen pristup unutrašnjoj mreži krajnjeg korisnika.
+
 Zato se pobrinite da sistematski ažurirate firmver vašeg rutera. Ova ažuriranja ispravljaju ranjivosti, dodaju nove funkcije i poboljšavaju ukupnu stabilnost sistema. Neki proizvođači nude automatska ažuriranja, ali u nekim slučajevima ćete morati ručno proveriti putem alata za administraciju vašeg rutera Interface. Kao i sa vašim telefonom, računarom, operativnim sistemom i softverom, važno je redovno ažurirati vaš ruter. Možete to učiniti delom vaše nedeljne rutine - Na primer, svake nedelje - tako što ćete napraviti listu svih stavki koje treba proveriti i ažurirati.
 
 
-Ako vaš usmerivač više nije održavan, ali i dalje ispravno radi sa hardverske tačke gledišta, možete instalirati alternativni open-source firmware, kao što su:
+Alternativno, možete omogućiti automatska ažuriranja ili makar automatsko skeniranje novih ažuriranja firmvera ako više volite da postupate ručno. Iako funkcija automatskog ažuriranja i dalje može predstavljati bezbednosnu pretnju, neosvežavanje firmvera rutera redovno izložiće vašu lokalnu mrežu javno poznatim ranjivostima.
+
+**Primer**: Prilikom kupovine sopstvenog rutera, može biti dobra ideja potražiti etablirane firme u industriji koje dugo pružaju rutere na tržištu. Na primer, Fritz!Box ruteri imaju dugogodišnju reputaciju plug-and-play uređaja, pogodnih za upotrebu i u porodičnom okruženju i u malim preduzećima. Njihova politika ažuriranja softvera obično se proteže tokom više godina.
+
+Ako vaš ruter više nije održavan ali i dalje radi ispravno sa stajališta hardvera, možda ćete moći da instalirate alternativni open-source firmware, kao što je:
 
 
 
@@ -8293,13 +8299,15 @@ Ako vaš usmerivač više nije održavan, ali i dalje ispravno radi sa hardversk
 - pfSense i OPNsense, dva sistema zasnovana na FreeBSD-u (slična Unix-u) za x86 vatrozide i rutere
 
 
+**Napomena**: Neki ISP-ovi isporučuju svojim korisnicima masovne rutere koje proizvodi jedna kompanija koja istovremeno opslužuje mnoge različite ISP-ove širom sveta. Možda ćete otkriti da je za instaliranje jednog od alternativnih firmvera na ruter neko drugi već otkrio kako to da uradi, čak i ako se nalazi na drugoj strani sveta.
+
 ![Image](assets/fr/196.webp)
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 Ovi sistemi omogućavaju precizniju kontrolu pravila vatrozida, odlaznih i dolaznih veza, segmentacije mreže (VLAN-ovi) i upravljanja DNS-om, ali su više namenjeni naprednim korisnicima.
 
@@ -8336,9 +8344,9 @@ Stoga je neophodno da odmah promenite svoje identifikatore nakon instalacije rut
 Ova lozinka mora biti dugačka (40 karaktera), složena (brojevi, mala slova, velika slova i simboli), jedinstvena (ne sme se ponovo koristiti na drugom mestu) i nasumična. Preporučujem korišćenje menadžera lozinki za generate i sigurno čuvanje ovih akreditiva.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Upozorenje: nemojte mešati administratorsku lozinku rutera (koja štiti pristup njegovoj konfiguraciji) sa Wi-Fi lozinkom (koja vam omogućava povezivanje na bežičnu mrežu). Ovo su dve različite Elements, i obe treba promeniti.
 
@@ -8376,7 +8384,7 @@ Prvobitno dizajniran da pojednostavi povezivanje uređaja na Wi-Fi bez unosa loz
 Neki ruteri omogućavaju povezivanje na njihovu administraciju Interface spolja, putem Interneta. Ova funkcija nerazumno povećava površinu napada vašeg rutera. Onemogućite je u potpunosti, osim ako nemate specifičnu potrebu za daljinskim upravljanjem. Čak i tada, uvek koristite VPN.
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
 - **Zastareli ili nesigurni protokoli**:
@@ -8497,7 +8505,7 @@ U praktičnom smislu, enkripcija DNS-a i prebacivanje servera mogu se implementi
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Na nivou operativnog sistema: Neki OS-ovi nativno integrišu podršku za enkriptovani DNS (DoT ili DoH), što osigurava sve DNS zahteve koji prolaze kroz mrežni stek sistema. Međutim, ovo ne osigurava ceo računar ili telefon: Aplikacije mogu zaobići ovo podešavanje ako su konfigurisane da koriste drugi DNS resolver ili protokol.
 
 
@@ -8512,7 +8520,7 @@ Takođe, modemi ruteri koje obezbeđuje ISP ne podržavaju uvek ove funkcije. U 
 Da biste stvari podigli na viši nivo, možete postaviti i lokalno DNS filtriranje kao što su Pi-hole ili AdGuard Home.
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
 Ovi alati deluju kao mali DNS server unutar vaše mreže, blokirajući zahteve ka domenima za koje se zna da hostuju reklame, praćenje pretraživača, phishing ili zlonamerne sajtove. Ovi alati takođe vam omogućavaju da kreirate sopstvene liste blokiranja ili prilagodite filtriranje prema povezanim uređajima.
 
@@ -8533,19 +8541,19 @@ Dva glavna rešenja za privatne korisnike su:
 - WireGuard: Moderan, brz i lagan
 - OpenVPN: Stariji, ali veoma zreo i podesiv
 
-https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+https://planb.academy/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Evo kompletan vodič o Tailscale-u, jednostavnom VPN rešenju za konfiguraciju koje koristi WireGuard:
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Možete hostovati ovaj VPN direktno na kompatibilnom ruteru, na malom računaru (kao što je Raspberry Pi) ili na namenskom serveru kod kuće. Takođe ga možete instalirati kao klijent direktno na bilo koji uređaj.
 
 Ali VPN nije samo za daljinski pristup. Možete koristiti i klasični VPN klijent na svojim uređajima da šifrujete sav svoj odlazni saobraćaj, čak i kada ste van kuće (javni Wi-Fi, hotel, univerzitet, itd.). U ovom slučaju, vaš uređaj se povezuje na treću VPN server (komercijalni ili samostalno hostovan), koji zatim prenosi vaše veze na Internet. Ovo skriva vaš pravi IP Address od ISP-a, štiti vaše podatke od lokalnog špijuniranja i izbegava određene oblike cenzure.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 Konačno, moguće je postaviti VPN direktno na vašem ruteru, omogućavajući vam da zaštitite sve uređaje u vašem domu bez potrebe za instaliranjem VPN klijenta na svaki od njih.
 
@@ -8555,17 +8563,17 @@ Kada vaša mreža bude pravilno konfigurisana i segmentirana, važno je ići dal
 
 Prvi korak je centralizacija sigurnosnih logova. Svaki uređaj povezan na mrežu generiše logove koji sadrže informacije o konekcijama, greškama ili sumnjivim aktivnostima. Umesto da se ovi logovi pregledaju pojedinačno, preporučujem da ih pošaljete na server koji je sposoban da ih grupiše, sortira i analizira. Rešenja kao što su Graylog ili Elastic Stack (ELK) omogućavaju vam da agregirate ove logove u grafički Interface gde možete pretraživati specifične događaje, kreirati upozorenja ili vizualizovati mrežnu aktivnost.
 
-https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
+https://planb.academy/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Zatim, redovno vršite aktivno skeniranje vaše lokalne mreže, na primer sa Nmap-om. Ovo će vam dati pregled svih uređaja na vašoj mreži i portova koje su otvorili. Ako identifikujete nepoznat uređaj ili neobičnu uslugu, to bi mogao biti znak napada.
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Da biste otišli još dalje, možete instalirati IDS (*Intrusion Detection System*), ili čak IPS (*Intrusion Prevention System*). Ovi alati, kao što su Suricata ili Snort, nadgledaju mrežne tokove u realnom vremenu i detektuju potpise poznatih napada (skeniranje portova, injekcije, sumnjive veze, itd.). IDS upozorava, dok IPS može automatski blokirati određene akcije.
 
 Konačno, praćenje potrošnje propusnog opsega je takođe dobar pokazatelj abnormalne aktivnosti. Ako uređaj iznenada troši mnogo podataka bez očiglednog razloga, to može ukazivati na neovlašćeno preuzimanje, curenje podataka ili čak kompromitovan uređaj. Alati kao što su ntopng ili vnStat omogućavaju vam da vidite dolazne i odlazne tokove po uređaju.
 
-https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
+https://planb.academy/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Bekap i otpornost
 

@@ -1,0 +1,9 @@
+question: Welches spezifische technische Merkmal hat das harte fork von Satoshi versehentlich geschaffen, das künftige weiche fork-Upgrades ermöglichte?
+answer: Die Skript-Operatoren OP_NOP1 bis OP_NOP10 Opcodes
+wrong_answers:
+  - Die Aktivierungsmechanismen von BIP65 und BIP113 für die Miner-Signalgebung
+  - Der Rahmen für Vorwärts- und Rückwärtskompatibilität bei Konsensänderungen
+  - Das benutzeraktivierte Soft-fork (UASF) Flaggentag-Aktivierungssystem
+explanation: |
+  Nach Eric Lombrozos Analyse hat Satoshis harter fork (der schlecht kommuniziert und in einem Commit über Makefile-Änderungen versteckt wurde) versehentlich die Opcodes OP_NOP1 bis OP_NOP10 erzeugt. Diese "no operation"-Codes waren so konzipiert, dass sie bei der Ausführung nichts bewirken, aber sie boten Platzhalter, die später durch Soft Forks für neue Funktionen verwendet werden konnten. Dies erwies sich als vorausschauend, denn OP_NOP2 wurde zu OP_CHECKLOCKTIMEVERIFY (BIP65) und OP_NOP3 wurde zu OP_CHECKSEQUENCEVERIFY (BIP112). Die anderen Optionen sind falsch, da BIP65 und BIP113 die Upgrades waren, die diese Opcodes verwendeten, anstatt sie zu schaffen, das Kompatibilitäts-Framework ist ein konzeptioneller Ansatz und kein technisches Merkmal, und UASF wurde viel später während der Segwit-Kontroverse vorgeschlagen.
+reviewed: false

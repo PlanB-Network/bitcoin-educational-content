@@ -6,4 +6,4 @@ wrong_answers:
   - Los fondos quedan bloqueados permanentemente
 explanation: |
   Si un HTLC expira sin que se revele el secreto, el pago se cancela y los fondos regresan al remitente, evitando así que cualquier nodo intermediario pueda quedarse con los fondos.
-reviewed: false
+reviewed: true

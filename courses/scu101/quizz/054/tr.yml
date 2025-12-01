@@ -1,12 +1,10 @@
 question: Güçlü kimlik doğrulama ile optimum güvenlik için önerilen uygulamalar nelerdir?
-answer: Güvenli bir e-posta Address ve şifre yöneticisi kullanın ve YubiKeys kullanarak 2FA'yı benimseyin.
+answer: Güvenli bir e-posta adresi ve şifre yöneticisi kullanın ve YubiKeys kullanarak 2FA'yı benimseyin.
 wrong_answers:
   - Tüm hesaplar için ortak bir parola kullanın ve 2FA'dan kaçının
   - Basit bir parola kullanın ve 2FA için biyometrik verilere güvenin
-  - Güvenli bir e-posta Address kullanın, ancak parola yöneticilerinden ve 2FA'dan kaçının
+  - Güvenli bir e-posta adresi kullanın, ancak parola yöneticilerinden ve 2FA'dan kaçının
 explanation: |
-  Optimum güvenlik için, güvenli bir
-  e-posta Address, güvenli bir parola yöneticisi ve 2FA'yı benimseme
-  yubiKeys kullanarak. Ayrıca iki adet satın almanız tavsiye edilir
-  YubiKeys kayıp veya hırsızlığı önceden tahmin etmek için.
-reviewed: true
+  Optimum güvenlik için, güvenli bir e-posta adresi, güvenli bir parola yöneticisi ve YubiKeys ile 2FA'yı benimsemeniz tavsiye edilir.
+  Ayrıca, kayıp veya hırsızlık ihtimaline karşı, iki adet YubiKeys satın almanız tavsiye edilir.
+  reviewed: true

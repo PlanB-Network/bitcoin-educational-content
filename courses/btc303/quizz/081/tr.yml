@@ -1,0 +1,9 @@
+question: Güvenlik uzmanlarına göre Bitcoin'daki performans hatalarının potansiyel olarak ağ bölümleri oluşturmak için silah olarak kullanılabilmesinin temel nedeni nedir?
+answer: Performans hataları, belirli madencileri ve borsaları ağın geri kalanından ayırmak için stratejik olarak konuşlandırılarak çift harcama saldırılarına olanak sağlayabilir
+wrong_answers:
+  - Performans hataları öncelikle işlem onay sürelerini etkileyerek ağı tüccarlar ve kullanıcılar için güvenilmez hale getirir
+  - Performans hataları aşırı hesaplama kaynağı tüketerek düğümleri kapanmaya zorlar ve ağın merkezsizleşmesini azaltır
+  - Performans hataları, sonunda düğümleri çökerten bellek sızıntıları yaratarak geçici ağ istikrarsızlığına ve hash oranının düşmesine neden olur
+explanation: |
+  Gregory Maxwell, performans hatalarının, ustalıkla kullanıldığında, ağı stratejik olarak bölümlere ayırmak için kullanılabileceği konusunda özellikle uyardı - örneğin, 'madenci A ve borsa B'yi bir bölüme ayırırken, diğer herkesi başka bir bölüme ayırarak çift harcama saldırıları için koşullar yaratıyor. Bu durum, görünüşte küçük olan sorunların neden potansiyel olarak ciddi olarak ele alınması gerektiğini göstermektedir, çünkü bu sorunlar hemen fark edilmeyen karmaşık yollarla silah haline getirilebilir.
+reviewed: false

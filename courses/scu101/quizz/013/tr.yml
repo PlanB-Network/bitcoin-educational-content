@@ -1,12 +1,12 @@
-question: SNCF gibi Avrupa Wi-Fi erişim noktası sağlayıcılarını kullanmak neden daha güvenli?
+question: SNCF gibi Avrupa Wi-Fi erişim noktası sağlayıcılarını kullanmak neden daha güvenlidir?
 answer: GDPR düzenlemeleri nedeniyle kullanıcı bağlantı verilerini yeniden satmamaları gerekiyor.
 wrong_answers:
   - Amerikalı sağlayıcılardan daha yüksek internet hızları sağlıyorlar.
   - Genellikle kullanıcıların coğrafi kısıtlamaları atlamasına izin verirler.
   - Avrupa vatandaşı olarak tanımlandıysanız çevrimiçi reklamları engellerler.
 explanation: |
-  Avrupa Birliği'nde veri koruma, Avrupa Konseyi tarafından düzenlenmektedir
-  Genel Veri Koruma Yönetmeliği (GDPR). Bu yüzden,
-  SNCF gibi Avrupa Wi-Fi erişim noktası sağlayıcıları
-  kullanıcı bağlantı verilerini yeniden satarak kişisel gizlilik için daha güvenli hale getirir.
+  Avrupa Birliği'nde veri koruma, Genel Veri Koruma Yönetmeliği (GDPR) ile 
+  Avrupa Konseyi tarafından düzenlenmektedir.
+  Bu yüzden, SNCF gibi Avrupa Wi-Fi erişim noktası sağlayıcıları
+  kullanıcı bağlantı verilerini yeniden satamaz ve kişisel gizlilik için daha güvenli hale getirir.
 reviewed: true

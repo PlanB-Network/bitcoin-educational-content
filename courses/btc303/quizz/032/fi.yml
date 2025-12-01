@@ -1,0 +1,9 @@
+question: Millä mekanismilla varmistetaan, että Bitcoin:n toimitusrajoitus pannaan täytäntöön ilman, että tarvitaan luottamusta keskusviranomaiseen?
+answer: Täydelliset solmut, joissa on tarkistuskoodi, joka hylkää automaattisesti lohkot, joissa on virheellisiä coinbase-transaktioita
+wrong_answers:
+  - Hajautettu konsensusalgoritmi, joka edellyttää enemmistön hyväksyntää kaikille toimitusmuutoksille
+  - Kryptografinen proof-of-work, joka matemaattisesti estää ylimääräisten kolikoiden luomisen
+  - Verkon validoijat, jotka äänestävät tapahtuman pätevyydestä demokraattisen prosessin avulla
+explanation: |
+  Bitcoin:n toimitusrajoitusta valvotaan täysillä solmuilla, jotka suorittavat tarkistuskoodia tarkistaakseen jokaisen lohkon coinbase-tapahtuman konsensussääntöjä vastaan. Vaikka jotkut solmut muuttuisivat pahantahtoisiksi ja hyväksyisivät virheellisiä lohkoja liiallisilla palkkioilla, rehelliset solmut yksinkertaisesti jättävät ne huomiotta ja jatkavat voimassa olevaa ketjua. Tämä luo luotettavan järjestelmän, jossa ei tarvitse luottaa mihinkään yksilöön tai viranomaiseen - tarvitsee vain ajaa koodia, joka tarkistaa, että sääntöjä noudatetaan, mikä tekee verkosta kollektiivisesti turvallisen tarjontainflaatioyrityksiä vastaan.
+reviewed: false

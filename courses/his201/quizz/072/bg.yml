@@ -1,0 +1,9 @@
+question: На кого Satoshi предаде отговорностите за разработване на софтуер, когато напусна?
+answer: Гавин Андресен
+wrong_answers:
+  - Martti Malmi
+  - Джеф Гарзик
+  - Майк Хърн
+explanation: |
+  Преди това Гавин беше [заявил](https: //bitcointalk.org/index.php?topic=2367.msg31651#msg31651), че ще управлява проекта Bitcoin по-активно и беше отворил хранилището в GitHub през декември 2010 г.
+reviewed: true

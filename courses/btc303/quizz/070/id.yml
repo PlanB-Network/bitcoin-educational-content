@@ -1,0 +1,9 @@
+question: Karakteristik mendasar apa yang membedakan definisi penskalaan Bitcoin dalam buku ini dengan definisi alternatif yang umum digunakan dalam ruang lingkup Bitcoin?
+answer: Secara eksplisit memerlukan mempertahankan ketahanan sensor sebagai kendala sambil meningkatkan kapasitas penggunaan
+wrong_answers:
+  - Ini berfokus secara eksklusif pada peningkatan throughput transaksi blockchain daripada peningkatan efisiensi
+  - Ini memprioritaskan pengembangan arsitektur berlapis di atas modifikasi apa pun pada protokol blockchain dasar
+  - Ini menekankan pada pengurangan kebutuhan komputasi untuk node daripada memperluas kapasitas jaringan
+explanation: |
+  Buku ini mendefinisikan penskalaan sebagai 'meningkatkan kapasitas penggunaan Bitcoin tanpa mengorbankan ketahanan sensor,' yang secara eksplisit mencakup kendala ketahanan sensor. Hal ini membedakannya dari definisi lain yang hanya berfokus pada peningkatan kapasitas transaksi, peningkatan efisiensi, atau sistem berlapis tanpa mempertimbangkan pelestarian sifat fundamental Bitcoin. Persyaratan ketahanan sensor memastikan bahwa solusi penskalaan tidak merusak proposisi nilai inti Bitcoin sebagai sistem terdesentralisasi yang tidak dapat dipercaya dan tidak dapat dikontrol oleh satu entitas pun.
+reviewed: false

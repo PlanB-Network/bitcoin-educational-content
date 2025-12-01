@@ -1,0 +1,9 @@
+question: Кой двигател за визуализация е създаден от Fork на KHTML, за да оборудва Safari?
+answer: WebKit
+wrong_answers:
+  - Trident
+  - Gecko
+  - Мигване
+explanation: |
+  WebKit е Fork на KHTML, избран от Apple за Safari от 2003 г. нататък и впоследствие приет от много браузъри.
+reviewed: false

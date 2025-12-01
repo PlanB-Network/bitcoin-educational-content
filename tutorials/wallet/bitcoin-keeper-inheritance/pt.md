@@ -17,7 +17,7 @@ Este tutorial em vídeo orienta-o na configuração e utilização do Bitcoin Ke
 
 Para ver o tutorial completo do Bitcoin Keeper Wallet, consulte o tutorial aqui:
 
-https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
+https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
 
 Veja aqui outras ligações relevantes:
 

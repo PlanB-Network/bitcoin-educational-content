@@ -5,5 +5,5 @@ wrong_answers:
   - Tsunami
   - Swell
 explanation: |
-  Im Jahr 2009 schrieb Satoshi, dass Ripple \[war\] einzigartig darin, dass es Vertrauen verbreitete, anstatt es zu konzentrieren.
-reviewed: false
+  Im Jahr 2009 [schrieb](https://diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001362.html) Satoshi, dass Ripple einzigartig darin \[war\], Vertrauen zu verbreiten, anstatt es zu konzentrieren.
+reviewed: true

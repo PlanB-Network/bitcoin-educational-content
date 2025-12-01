@@ -1,0 +1,9 @@
+question: O que é que torna os sistemas em linha como o Bitcoin fundamentalmente diferentes dos sistemas físicos no que respeita a ameaças adversas?
+answer: Os sistemas em linha enfrentam adversários pseudónimos e anónimos que podem explorar qualquer ponto fraco sem serem visíveis ou apanhados
+wrong_answers:
+  - Os sistemas em linha têm algoritmos criptográficos mais complexos que são mais difíceis de analisar para detetar vulnerabilidades de segurança
+  - Os sistemas físicos podem ser protegidos pela aplicação da lei, enquanto os sistemas em linha dependem apenas de provas matemáticas
+  - Os sistemas em linha processam as transacções mais rapidamente, facilitando aos adversários o lançamento de ataques coordenados
+explanation: |
+  A principal distinção salientada por Andrew Poelstra é que os sistemas físicos podem confiar na aplicação da lei e na visibilidade dos adversários para dissuadir os ataques, aceitando mesmo alguns riscos, como o incêndio de edifícios. No entanto, os sistemas em linha, como o Bitcoin, funcionam num ambiente em que os adversários podem agir de forma pseudónima ou anónima, ligar-se a partir de qualquer lugar e explorar os pontos fracos sem serem identificados ou apanhados. Esta diferença fundamental significa que todos os pontos fracos conhecidos no Bitcoin devem ser tratados, uma vez que serão inevitavelmente explorados por adversários invisíveis que não enfrentam quaisquer consequências no mundo real.
+reviewed: false

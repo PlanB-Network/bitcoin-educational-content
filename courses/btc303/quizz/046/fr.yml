@@ -1,0 +1,9 @@
+question: En quoi les systèmes en ligne tels que Bitcoin sont-ils fondamentalement différents des systèmes physiques en ce qui concerne les menaces adverses ?
+answer: Les systèmes en ligne sont confrontés à des adversaires pseudonymes et anonymes qui peuvent exploiter n'importe quelle faiblesse sans être visibles ou pris en flagrant délit
+wrong_answers:
+  - Les systèmes en ligne ont des algorithmes cryptographiques plus complexes qui sont plus difficiles à analyser pour détecter les failles de sécurité
+  - Les systèmes physiques peuvent être protégés par les forces de l'ordre, tandis que les systèmes en ligne ne reposent que sur des preuves mathématiques
+  - Les systèmes en ligne traitent les transactions plus rapidement, ce qui permet aux adversaires de lancer plus facilement des attaques coordonnées
+explanation: |
+  La principale distinction mise en évidence par Andrew Poelstra est que les systèmes physiques peuvent compter sur l'application de la loi et la visibilité des adversaires pour dissuader les attaques, même en acceptant certains risques tels que l'incendie des bâtiments. En revanche, les systèmes en ligne tels que Bitcoin fonctionnent dans un environnement où les adversaires peuvent agir de manière pseudonyme ou anonyme, se connecter de n'importe où et exploiter les faiblesses sans être identifiés ou pris en flagrant délit. Cette différence fondamentale signifie que toutes les faiblesses connues de la Bitcoin doivent être corrigées, car elles seront inévitablement exploitées par des adversaires invisibles qui ne subissent aucune conséquence dans le monde réel.
+reviewed: false

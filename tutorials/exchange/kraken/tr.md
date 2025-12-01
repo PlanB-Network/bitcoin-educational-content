@@ -22,7 +22,7 @@ Bu eğitimde, Kraken'i bireysel olarak nasıl kullanacağınızı göstereceğiz
 
 
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 ## 1 - Bir Kraken hesabı oluşturun
 
@@ -164,7 +164,7 @@ Ardından size iki 2FA seçeneği sunulur: akıllı telefonunuzun biyometrisi ar
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Size en uygun yöntemi seçtikten sonra, nihayet ilk satoshilerimizi satın almak için para yatırmaya hazırız.
 
@@ -329,7 +329,7 @@ Lightning Network ile ilgileniyorsanız, nasıl çalıştığını anlamanıza y
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ![KRAKEN](assets/fr/30.webp)
 

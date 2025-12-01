@@ -1,0 +1,9 @@
+question: Jakému etickému dilematu čelí podle postupů zodpovědného zveřejňování bezpečnostní výzkumníci, kteří objeví zranitelnosti v decentralizovaných systémech, jako je Bitcoin?
+answer: Vyvážení potřeby informovat odpovědné strany a zároveň zamezit prozrazení potenciálně škodlivým subjektům, které by mohly zranitelnost zneužít
+wrong_answers:
+  - Rozhodování, zda z objevených zranitelností profitovat prostřednictvím programů odměn za chyby, nebo informace volně darovat komunitě
+  - Volba mezi podáváním zpráv nejprve státním orgánům a podáváním zpráv přímo týmu pro vývoj softwaru, aby se předešlo komplikacím s regulací
+  - Stanovení vhodné finanční kompenzace za odhalení zranitelnosti před souhlasem se zveřejněním informací vývojářům
+explanation: |
+  Základní etickou výzvou v oblasti odpovědného zveřejňování je křehká rovnováha mezi transparentností a bezpečností. Výzkumníci musí zajistit, aby byly zranitelnosti řešeny, aniž by neúmyslně poskytly plán pro zneužití. To zahrnuje pečlivou koordinaci s vývojáři, vhodné načasování zveřejnění a zvážení širšího dopadu na ekosystém. Ostatní možnosti se zaměřují na finanční nebo regulační problémy, které jsou sice potenciálně relevantní, ale nepředstavují hlavní etické dilema nastíněné v postupech odpovědného zveřejňování.
+reviewed: false

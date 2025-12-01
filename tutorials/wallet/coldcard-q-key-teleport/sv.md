@@ -95,7 +95,7 @@ En QR-kod genereras på skärmen. Återigen måste du kommunicera denna QR-kod t
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 *Vi har för närvarande:*
 
@@ -145,7 +145,7 @@ Du ombeds nu att välja vilken typ av hemligheter som ska överföras mellan de 
 
 
 
-Här kommer vår hemlighet att vara ett kort meddelande genom att välja **"Quick Text Message"**. Skriv ditt meddelande (för oss "PlanB Network rocks") och tryck sedan på **"ENTER"**.
+Här kommer vår hemlighet att vara ett kort meddelande genom att välja **"Quick Text Message"**. Skriv ditt meddelande (för oss "Plan ₿ Academy rocks") och tryck sedan på **"ENTER"**.
 
 
 Enheten genererar sedan ett nytt slumpmässigt lösenord som kallas **"Teleport Password"** , i exemplet "NE XG BT SK".
@@ -190,7 +190,7 @@ Tryck på **"QR"**-knappen för att skanna QR-koden som presenteras av den sänd
 
 
 
-Uppgifterna dekrypteras sedan och görs begripliga för den mottagande enheten. Det mottagna meddelandet är verkligen "PlanB Network rocks". Det är allt.
+Uppgifterna dekrypteras sedan och görs begripliga för den mottagande enheten. Det mottagna meddelandet är verkligen "Plan ₿ Academy rocks". Det är allt.
 
 
 

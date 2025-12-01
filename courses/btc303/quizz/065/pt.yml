@@ -1,0 +1,9 @@
+question: Qual é a principal razão para que o aumento do tamanho dos blocos conduza a uma maior probabilidade de blocos obsoletos no Bitcoin mining?
+answer: Os blocos maiores demoram mais tempo a propagar e a validar através da rede, criando janelas mais longas onde os mineiros trabalham em dicas de cadeia de blocos desactualizadas
+wrong_answers:
+  - Blocos maiores requerem mais poder computacional para minerar, fazendo com que os mineiros passem mais tempo a encontrar soluções válidas de proof-of-work
+  - "O aumento do tamanho dos blocos reduz a eficácia do mecanismo de ajustamento da dificuldade, conduzindo a intervalos de tempo imprevisíveis entre blocos"
+  - Blocos maiores criam mais conflitos de transação entre blocos concorrentes, tornando mais difícil determinar qual o bloco que deve ser aceite
+explanation: |
+  A resposta correta identifica o mecanismo central subjacente aos blocos obsoletos. Quando os blocos são maiores, eles exigem mais largura de banda para serem transferidos entre os nós e mais tempo para serem validados. Durante este período de propagação alargado, vários mineiros podem encontrar blocos concorrentes à mesma altura, uma vez que ainda não receberam o bloco mais recente. Isto cria uma condição de corrida em que apenas um bloco pode ser aceite, tornando os outros obsoletos. As respostas erradas confundem este problema de propagação com a dificuldade do mining, os mecanismos de consenso ou os conflitos de transação, que são preocupações distintas do problema de tempo que causa os blocos obsoletos.
+reviewed: false

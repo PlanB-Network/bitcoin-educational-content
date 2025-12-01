@@ -6,4 +6,4 @@ wrong_answers:
   - Für einen gehärteten Ableitungspfad
 explanation: |
   Die Notation /<0;1>/* zeigt an, dass der Deskriptor Adressen für die externe (0) und interne (1) Kette generieren kann, mit sequenzieller Ableitung dank des Platzhalters (*).
-reviewed: false
+reviewed: true

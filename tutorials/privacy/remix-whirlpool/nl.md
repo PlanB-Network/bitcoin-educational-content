@@ -47,7 +47,7 @@ De naam van deze indicator is "backward anonset" of "backward-looking metrics". 
 
 ![backward anonset](assets/en/6.webp)
 
-Om meer te weten te komen over de berekeningsmethode voor deze indicatoren, raad ik aan om [mijn Twitter thread](https://twitter.com/Loic_Pandul/status/1550850558147395585?s=20) over dit onderwerp te lezen. We bereiden ook een uitgebreider artikel voor over het PlanB Network.
+Om meer te weten te komen over de berekeningsmethode voor deze indicatoren, raad ik aan om [mijn Twitter thread](https://twitter.com/Loic_Pandul/status/1550850558147395585?s=20) over dit onderwerp te lezen. We bereiden ook een uitgebreider artikel voor over het Plan ₿ Academy.
 
 
 Ik ben me ervan bewust dat het gegeven antwoord onbevredigend kan lijken, omdat je hoopte op een specifiek aantal remixen, en ik verwijs je naar documentatie. De reden hiervoor is dat het aantal remixen een onbetrouwbare indicator is voor het evalueren van de anonimiteit die is verkregen in CoinJoin cycli. Daarom is het niet mogelijk om een vast aantal remixen te definiëren als een absolute en universele veiligheidsdrempel.

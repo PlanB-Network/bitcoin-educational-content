@@ -156,7 +156,7 @@ Er du klar til å ta full kontroll over IT-sikkerheten din, styrke din individue
 
 
 
-**NB:** Hvis du støter på ukjente begreper i løpet av kurset, kan du slå opp i [ordlisten](https://planb.network/resources/glossary) for definisjoner
+**NB:** Hvis du støter på ukjente begreper i løpet av kurset, kan du slå opp i [ordlisten](https://planb.academy/resources/glossary) for definisjoner
 
 
 
@@ -179,7 +179,7 @@ SCU101-kurset var et introduksjonskurs som skulle gi nybegynnere og viderekomne 
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Sikker surfing på nettet
 
@@ -974,7 +974,7 @@ Denne tilnærmingen er basert på en *rullende utgivelsesmodell*, der pakkene op
 
 Arch Linux er først og fremst rettet mot avanserte brukere som ønsker total kontroll over miljøet sitt, samtidig som de aksepterer en viss kompleksitet i installasjon og vedlikehold. Dette tekniske kravet har ført til fremveksten av flere avledede distribusjoner som tar sikte på å demokratisere bruken.
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Den mest kjente er Manjaro, som beholder Archs tekniske base samtidig som den tilbyr forenklet installasjon, forhåndskonfigurerte skrivebordsmiljøer og en noe forsinket utgivelsessyklus for å stabilisere oppdateringene.
 
@@ -1062,7 +1062,7 @@ Ubuntu er utviklet av Canonical og lansert i 2004, og er en av verdens mest popu
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ Linux Mint ble lansert i 2006 og er en distribusjon avledet fra Ubuntu, designet
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint skiller seg ut med sin enkelhet, tilstedeværelsen av multimediekodeker som standard og et veldesignet oppdateringsverktøy. På den annen side er det i stor grad avhengig av Ubuntus infrastruktur, noe som gjør det avhengig av Ubuntus tekniske valg (spesielt på kjerne- og arkivnivå). Mint egner seg spesielt godt for ikke-tekniske brukere, eller de som ønsker et system som er klart til bruk og ikke krever for mye læring.
 
@@ -1108,7 +1108,7 @@ Installasjonen er enkel, viktig programvare er forhåndsinstallert, og "Lite"-ve
 
 Elementary OS ble lansert i 2011 og er en Ubuntu-basert distribusjon som først og fremst fokuserer på design og konsistens i Interface. Skrivebordsmiljøet Pantheon, som er inspirert av macOS, er minimalistisk, elegant og flytende. Systemet er imidlertid mindre tilpasningsdyktig enn andre distribusjoner, og noen avanserte brukere kan føle seg begrenset av Interfaces valgmuligheter og den bevisst fastlåste strukturen. Den egner seg godt for estetisk sensitive brukere som er ute etter et enkelt, sammenhengende system til hverdagsbruk.
 
-https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
+https://planb.academy/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1151,7 +1151,7 @@ Fedora er en Red Hat-støttet distribusjon, orientert mot de nyeste teknologiene
 ![Image](assets/fr/025.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
 - **openSUSE** (Tumbleweed eller Leap):
@@ -1179,7 +1179,7 @@ Debian finnes i flere grener, inkludert *Stable* (svært pålitelig, men eldre p
 ![Image](assets/fr/027.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
 - **Manjaro**:
@@ -1208,7 +1208,7 @@ Arch Linux er en minimalistisk, kontinuerlig oppdaterbar distribusjon som levere
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 #### Spesialisert distribusjon
 
@@ -1246,7 +1246,7 @@ Tails er en Debian-basert, personvernfokusert live-distribusjon. Alt går gjenno
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.academy/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Note:** En live-distribusjon er et Linux-operativsystem som kan brukes direkte fra en USB-pinne eller CD, uten installasjon på Hard-disken.
 
@@ -1300,7 +1300,7 @@ PureOS er en Debian-avledet distribusjon utviklet av Purism, helt fri (FSF-godkj
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+https://planb.academy/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
 - **Raspberry Pi OS**:
 
@@ -1326,7 +1326,7 @@ Whonix kombinerer Debian med Tor-nettverket i en to-VM-arkitektur (gateway + arb
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 Dette panoramaet gir deg en oversikt over det nåværende økosystemet for Linux-distribusjoner, slik at du kan velge den distribusjonen som passer best til din tekniske profil og dine mål.
 
@@ -1938,7 +1938,7 @@ Hvis du vil ha mer informasjon om Ubuntu-installasjonsprogrammet, kan du også l
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 Når installasjonen er fullført, fjerner du USB-nøkkelen når du blir bedt om det, og starter deretter på nytt. Ubuntu vil nå være installert og klar til bruk på maskinen din.
 
@@ -2977,7 +2977,7 @@ sudo apt install thunderbird
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Kontorpakke
 
 
@@ -3114,13 +3114,13 @@ I tillegg til disse få grunnleggende verktøyene anbefaler jeg også at du inst
 
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Til slutt i dette kapittelet vil vi gi deg noen tips om hva du bør gjøre i det daglige:
 
@@ -3212,9 +3212,9 @@ Et komplekst passord er vanskelig å huske. Jeg anbefaler derfor å bruke en pas
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Til slutt bør du endre passordet regelmessig - hver tredje til sjette måned - spesielt hvis maskinen brukes i delte eller mobile miljøer.
 
@@ -3314,13 +3314,13 @@ Et av de viktigste tiltakene du kan gjøre for å beskytte deg mot tyveri, er å
 - Linux-distribusjoner krypterer ikke disken automatisk, med mindre dette alternativet er valgt under installasjonen. Du kan bruke LUKS til å kryptere disken
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 I alle tilfeller må dekrypteringspassordet være sterkt, atskilt fra systempassordet og lagret i en sikker passordbehandling. Hvis du bruker en ekstern diskett eller USB-nøkkel som inneholder sensitive data, bør du også vurdere å kryptere dem enkeltvis med verktøy som VeraCrypt.
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### Prinsippet om minste privilegium
 
@@ -3417,7 +3417,7 @@ Denne teknologien er basert på en hypervisor, en programvare som håndterer opp
 ![Image](assets/fr/206.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
 Når det gjelder IT-sikkerhet, er en av de store fordelene med virtuelle maskiner at de er avgrensede. En virtuell maskin deler ikke filer, prosesser eller nettverkstilgang med vertssystemet, med mindre du eksplisitt konfigurerer disse utvekslingene. Så hvis en virtuell maskin blir infisert av skadelig programvare, eller hvis du tester sensitiv programvare i den, forblir virkningen begrenset til den virtuelle maskinen: Hovedsystemet ditt forblir intakt, forutsatt at isolasjonsparametrene overholdes (ingen delte kataloger, ingen USB-enheter som sendes til den virtuelle maskinen...).
 
@@ -3957,7 +3957,7 @@ På en godt vedlikeholdt Linux-maskin som brukes til personlige formål, er risi
 ![Image](assets/fr/218.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 #### Under macOS
 
@@ -4065,11 +4065,11 @@ Dette systemet baserer seg på asymmetrisk kryptografi og verktøy som GnuPG (ko
 
 
 
-Hvis du vil lære mer om kryptografiske Hash-funksjoner og digitale signaturer, kan du ta gratiskurset CYP 201 som tilbys på Plan ₿ Network:
+Hvis du vil lære mer om kryptografiske Hash-funksjoner og digitale signaturer, kan du ta gratiskurset CYP 201 som tilbys på Plan ₿ Academy:
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Verifiser programvarens integritet og autentisitet
 
@@ -4473,7 +4473,7 @@ Med denne konfigurasjonen er Alice allerede beskyttet mot mange vanlige trusler.
 
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Alice følger dermed 3-2-1-regelen: Den har tre kopier av filene sine (datamaskin, USB-nøkkel, nettsky), lagret på minst to forskjellige medier (intern disk, USB-nøkkel, ekstern server), med minst én ekstern kopi (nettskyserveren).
 
@@ -4560,7 +4560,7 @@ Full kryptering er som en lås: Så lenge passordet ikke er oppgitt, forblir dat
 Under Linux er standardløsningen LUKS (*Linux Unified Key Setup*). LUKS er et kryptert volumhåndteringssystem som er integrert i de fleste distribusjoner. Når systemet installeres første gang, vil du som regel bli bedt om å kryptere hele datamaskinens disk. Jeg anbefaler selvfølgelig på det sterkeste at du aktiverer dette alternativet. Når kryptering er aktivert, vil systemet be om passordet ved hver oppstart, selv før operativsystemet lastes inn. Dette sikrer at fysisk tilgang til disken ikke kan omgå sikkerheten.
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 Hvis du ønsker å kryptere en ekstern disk eller USB-minnepinne, kan dette også gjøres fra kommandolinjen eller via den grafiske Interface. Disken må formateres, så alle eksisterende data vil gå tapt hvis du ikke tar en sikkerhetskopi først.
 
@@ -4836,7 +4836,7 @@ Hvis du vil lære mer om denne løsningen, kan du se denne komplette veiledninge
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 
 
@@ -4881,7 +4881,7 @@ Denne protokollen er perfekt for sikker utveksling av sensitive filer med andre,
 
 Et utmerket alternativ er Cryptomator. Med denne programvaren med åpen kildekode kan du opprette en safe: en spesiell katalog der alle filer som legges inn, automatisk krypteres. Denne safen kan synkroniseres med skytjenester som Dropbox, Google Drive eller Nextcloud uten at leverandøren noen gang får tilgang til de ukrypterte dataene. Applikasjonen er tilgjengelig på alle operativsystemer, inkludert Android og iOS, og krever ingen spesielle tekniske ferdigheter for å brukes.
 
-https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4889,7 +4889,7 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Til slutt er det også mulig å bruke VeraCrypt i container-modus, som oppretter en fil som fungerer som et kryptert arkiv som kan monteres som en disk.
 
@@ -4947,18 +4947,18 @@ Hvis du vil vise alle metadataene i en fil, bruker du følgende kommando:
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-Erstatt `name.jpg` med det virkelige navnet på filen din. Sørg også for at du befinner deg i katalogen som inneholder dette bildet. Hvis jeg for eksempel har et bilde av Satoshi Nakamoto-statuen i katalogen `/Downloads`, kan jeg vise metadataene ved å kjøre følgende kommando:
+Erstatt `name.webp` med det virkelige navnet på filen din. Sørg også for at du befinner deg i katalogen som inneholder dette bildet. Hvis jeg for eksempel har et bilde av Satoshi Nakamoto-statuen i katalogen `/Downloads`, kan jeg vise metadataene ved å kjøre følgende kommando:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4995,7 +4995,7 @@ Bruk kommandoen for å slette alle unødvendige metadata fra en fil:
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5017,7 +5017,7 @@ Hvis du ikke vil beholde originalen, kan du slette den med kommandoen:
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5041,12 +5041,12 @@ Hvis du har flere filer som skal behandles i samme katalog, kan du bruke en gene
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-Dette sletter metadataene til alle JPEG-filer i den aktuelle katalogen. Du kan tilpasse filtypen etter dine behov (`*.png`, `*.pdf`...).
+Dette sletter metadataene til alle JPEG-filer i den aktuelle katalogen. Du kan tilpasse filtypen etter dine behov (`*.webp`, `*.pdf`...).
 
 
 
@@ -5584,9 +5584,9 @@ Så jeg vil ikke anbefale å bruke Google Chrome, verken privat eller profesjone
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 #### Modig
 
@@ -5746,7 +5746,7 @@ Firefox er fortsatt en referanse for sikkerhet og personvern, til tross for at d
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor-nettleser
 
 
@@ -5755,7 +5755,7 @@ https://planb.network/tutorials/computer-security/communication/firefox-11814cec
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 Ulempen er en betydelig reduksjon i ytelse (høy ventetid) og begrenset kompatibilitet med visse nettsteder. Tor Browser er ideell for sensitive aktiviteter (journalistikk, aktivisme...), men mindre egnet til vanlig hverdagsbruk.
 
@@ -5769,11 +5769,11 @@ Ulempen er en betydelig reduksjon i ytelse (høy ventetid) og begrenset kompatib
 
 [Mullvad Browser] (https://mullvad.net/en/browser) er resultatet av et samarbeid mellom Tor Foundation og Mullvad VPN. Den er basert på Tor-nettleseren, som i sin tur er avledet fra Firefox ESR. Mullvad Browser er utviklet for å maksimere brukernes personvern. Som standard inkluderer den avansert beskyttelse mot fingeravtrykk, sporere og tredjepartsskript.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Den har de fleste av sikkerhets- og personvernfunksjonene som Tor Browser tilbyr, med én forskjell: Den omdirigerer ikke trafikk via Tor-nettverket. For å unngå IP Address-lekkasjer kan du bruke den i kombinasjon med et VPN (ideelt sett Mullvad VPN).
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Mullvad Browser er en utmerket løsning for deg som er opptatt av personvernet ditt, enten du er nybegynner eller avansert bruker.
 
@@ -5799,7 +5799,7 @@ Som standard aktiverer LibreWolf Firefox' avanserte sikkerhetsinnstillinger (for
 
 
 
-https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+https://planb.academy/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
 
 #### Zen-nettleser
 
@@ -5817,7 +5817,7 @@ Når det gjelder sikkerhet og personvern, har Zen innebygd blokkering av tredjep
 
 Zen Browser er et interessant alternativ hvis du er på utkikk etter et Gecko-nettlesingsmiljø som er gratis, innovativt, ryddig og som respekterer personvernet ditt.
 
-https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.academy/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit-baserte nettlesere
 
@@ -5859,7 +5859,7 @@ Orion er i sin helhet utviklet av Kagi-teamet (kjent for sin reklamefrie søkemo
 
 
 
-https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
+https://planb.academy/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Nettlesere uten gjengivelsesmotorer
 
 
@@ -6039,9 +6039,9 @@ En passordbehandler genererer og lagrer sterke passord på en sikker måte, slik
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Å bruke en passordbehandler har en rekke fordeler: Det forenkler hverdagen din ved å eliminere behovet for å huske en rekke passord, og det minimerer den største svakheten ved autentisering: brukeren selv.
 
@@ -6051,13 +6051,13 @@ Når det gjelder autentisering, må bruken av en passordbehandler suppleres med 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
+https://planb.academy/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
 
-https://planb.network/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
+https://planb.academy/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### Bruk av VPN
 
@@ -6091,11 +6091,11 @@ Et godt VPN bør ha klare retningslinjer mot loggføring, tilby moderne teknolog
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 Høyprofilerte VPN-tjenester bør unngås. Til tross for aggressiv markedsføring er de fortsatt sentraliserte kommersielle tjenester, ofte basert i mindre beskyttende jurisdiksjoner, og de er sjelden åpne om den faktiske tekniske driften.
 
@@ -6630,7 +6630,7 @@ GrapheneOS integrerer ingen proprietære komponenter. Du står fritt til å legg
 Graphene er kun kompatibel med nyere Google Pixels (Pixel 6, 7, 8 og 9).
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -6846,11 +6846,11 @@ Offentlige Wi-Fi-nettverk, for eksempel på kafeer, hoteller eller i offentlig t
 For å beskytte deg selv kan du ganske enkelt unngå å bruke disse offentlige nettverkene, eller bruke et VPN, som oppretter en kryptert tunnel mellom enheten din og en ekstern server. Denne tunnelen kapsler inn dataene dine, noe som gjør det ekstremt vanskelig å avskjære eller endre dem.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 Når det gjelder Wi-Fi-nettverket hjemme, skal vi snakke om det i siste del av SCU 202-kurset.
 
@@ -6925,7 +6925,7 @@ Regelmessig sikkerhetskopiering av dataene på smarttelefonen din er svært vikt
 For å oppnå dette bør du bruke krypterte lokale løsninger, for eksempel en ekstern disk eller en kryptert USB-nøkkel (f.eks. med Veracrypt). Hvis du ikke klarer det, kan du bruke selvbetjente skyløsninger som *Syncthing* eller *Nextcloud*, slik at du kan sikkerhetskopiere dataene dine på en personlig server, samtidig som du beholder full kontroll over tilgang og konfidensialitet. I motsetning til kommersielle skytjenester (Google Drive, iCloud ...) begrenser disse løsningene eksponeringen av informasjonen din for tredjeparter betraktelig.
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 #### Ekstern tørking
 
@@ -7023,7 +7023,7 @@ Signal har imidlertid et svakt punkt når det gjelder anonymitet: Applikasjonen 
 Kort sagt er Signal en veldig god meldingsløsning, men dessverre krever den en tilkobling fra et telefonnummer.
 
 
-https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
 #### WhatsApp
 
@@ -7046,7 +7046,7 @@ Telegram er en veldig populær meldingstjeneste takket være ergonomien og funks
 Telegram kan derfor teknisk sett få tilgang til innholdet i de fleste samtaler som ikke er eksplisitt beskyttet. Selv om selskapet har en fast holdning til myndighetene, er Telegram ikke en optimal løsning for konfidensielle eller sensitive utvekslinger, med mindre du eksplisitt bruker de "hemmelige utvekslingene", som er langt mindre praktiske i det daglige.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -7069,7 +7069,7 @@ Et annet viktig aspekt ved Threema er forretningsmodellen: applikasjonen er ikke
 Jeg synes denne meldingsløsningen er utmerket, men den største ulempen er at kildekoden til serverne fortsatt er proprietær.
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 #### SimpleX Chat
 
@@ -7092,7 +7092,7 @@ Kontakter legges til via midlertidige lenker eller statiske adresser (permanente
 Når det gjelder sikkerhet og konfidensialitet, går SimpleX lenger enn de fleste eksisterende meldingssystemer ved å begrense metadata til et minimum og eliminere enhver avhengighet av en sentral katalog eller unik identifikator. Denne arkitekturen innebærer imidlertid en rekke kompromisser når det gjelder brukervennlighet: til tider mindre intuitiv ergonomi, behov for en liten innlæringskurve og avhengighet av tilgjengeligheten til relay-servere.
 
 
-https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
 #### Sesjon
 
@@ -7109,7 +7109,7 @@ Teknisk sett implementerer Session ende-til-ende-kryptering for meldinger, filer
 Session-klienten og -serveren er basert på åpen kildekode. Programvaren er tilgjengelig på Android, iOS, Windows, macOS og Linux, med mulighet for å synkronisere mellom enheter via Mnemonic-frasen som ligner på den som brukes i Bitcoin-lommebøker. Denne frasen gir brukeren eksklusiv kontroll over dataene sine, men pålegger også et betydelig ansvar når det gjelder sikkerhetskopiering.
 
 
-https://planb.network/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
+https://planb.academy/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
 
 #### Keet
 
@@ -7129,7 +7129,7 @@ På den annen side, selv om noen komponenter (kryptografi og nettverk) er publis
 Keet er tilgjengelig på Android, iOS, Windows, macOS og Linux, og kan synkroniseres mellom enheter ved hjelp av en Mnemonic-frase.
 
 
-https://planb.network/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
+https://planb.academy/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
 
 #### Olvid
 
@@ -7166,7 +7166,7 @@ Programmet er sertifisert av ANSSI (*Agence Nationale de la Sécurité des Syst�
 Olvid er kompatibel med Android, iOS, Windows, macOS og Linux. Ergonomien er enkel og tilgjengelig. Programmet har også et kryptert backupsystem for nøkler og kontakter, slik at du kan gjenopprette en konto på en ny enhet.
 
 
-https://planb.network/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
+https://planb.academy/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
 
 ### Meldingsapplikasjoner du bør unngå
 
@@ -7264,7 +7264,7 @@ Thunderbird Mobile er mobilversjonen av den populære e-postklienten med åpen k
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7506,7 +7506,7 @@ Bitwarden er en av de mest omfattende passordbehandlerne med åpen kildekode som
 Du kan bruke Bitwardens servere, eller selv hoste den hvis du vil ha full kontroll. Interface-mobilen er oversiktlig og flytende, med sømløs integrering i Android- eller iOS-systemet.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 
 - [KeePassDX] (https://www.keepassdx.com/)
@@ -7521,7 +7521,7 @@ KeePass er en historisk passordadministrator basert på krypterte lokale filer. 
 Det finnes også [KeePassium] (https://keepassium.com/) for iOS, en velintegrert applikasjon i Apples økosystem, kompatibel med KeePass-formatet og med åpen kildekode. Et annet iOS-alternativ for en KeePass-klient er Strongbox, men denne programvaren har ikke vært åpen kildekode på flere år.
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 
 - [Proton Pass] (https://proton.me/pass)
@@ -7552,7 +7552,7 @@ Men ikke alle VPN-tjenester er like gode. Populære tjenester som NordVPN eller 
 Mullvad er et av de beste VPN-tjenestene når det gjelder personvern. Det krever ingen e-post eller passord: Kontoen din er knyttet til et enkelt tilfeldig nummer. Betaling kan gjøres i bitcoins eller kontanter. Mobilklienten er åpen kildekode, enkel å bruke og kraftig. Mullvad fører ingen logger, sporer ikke brukerne sine og publiserer jevnlig uavhengige sikkerhetsrevisjoner.
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 
 - [IVPN](https://www.ivpn.net/)
@@ -7561,7 +7561,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 IVPN er et annet utmerket alternativ med fokus på personvern. De tilbyr en enkel og effektiv mobil Interface, ingen loggføring og tillater anonym registrering. Du kan også betale i bitcoins. Programmet har en brannmur som blokkerer all trafikk som ikke er VPN-trafikk, noe som kan være svært nyttig på en smarttelefon. Klientene er åpen kildekode.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 
 - [Proton VPN] (https://protonvpn.com/)
@@ -7599,7 +7599,7 @@ Aegis er et omfattende program med åpen kildekode. Den krypterer 2FA-databasen 
 Ente Auth er en moderne løsning med åpen kildekode og flere plattformer, med ende-til-ende-krypterte sikkerhetskopier. Den lar deg synkronisere 2FA-kodene dine på en sikker måte på mobil, datamaskin og nett. Du kan også bruke den offline, uten sikkerhetskopiering i skyen eller kontoopprettelse.
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth tilbyr mange tilleggsfunksjoner: Organisering etter tagger, tilpassede ikoner for hver tjeneste, notater, favoritter, integrert søk, sikker deling av teamkoder.
 
 
@@ -7613,13 +7613,13 @@ Ente Auth tilbyr mange tilleggsfunksjoner: Organisering etter tagger, tilpassede
 Authy tilbyr 2FA-synkronisering på tvers av flere enheter, noe som kan være praktisk, men applikasjonen er ikke åpen kildekode og krever et telefonnummer for registrering. For nybegynnere er det imidlertid mer komplett enn Google Authenticator, spesielt takket være sikkerhetskopieringsfunksjonen i skyen.
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Hvis du vil vite mer om passordadministratorer, 2FA-autentisering og VPN-er, anbefaler jeg at du leser de dedikerte kapitlene i SCU-101-kurset:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Været
 
@@ -8271,7 +8271,7 @@ Som vi oppdaget i forrige kapittel, er det svært viktig å sikre hjemmenettverk
 Etter å ha gjennomgått de teoretiske grunnprinsippene, vil dette kapittelet veilede deg gjennom klare, praktiske og effektive trinn for å forbedre sikkerheten i det lokale nettverket.
 
 
-*Merk: Informasjonen som gis her er generell, ettersom Plan ₿ Network er rettet mot et internasjonalt publikum. Avhengig av lokale forhold og Internett-leverandøren din, kan det hende at visse beste fremgangsmåter ikke er nevnt her, eller at de gjelder på en annen måte*
+*Merk: Informasjonen som gis her er generell, ettersom Plan ₿ Academy er rettet mot et internasjonalt publikum. Avhengig av lokale forhold og Internett-leverandøren din, kan det hende at visse beste fremgangsmåter ikke er nevnt her, eller at de gjelder på en annen måte*
 
 
 ### Velge og sikre nettverksutstyret ditt
@@ -8286,10 +8286,16 @@ Det er viktig å velge moderne utstyr som vedlikeholdes av produsenten, og som o
 En Wi-Fi 6-, Wi-Fi 6E- eller Wi-Fi 7-kompatibel ruter gir deg bedre hastigheter og, fremfor alt, støtte for moderne sikkerhetsteknologi. Svært gammelt utstyr, spesielt utstyr som ikke lenger mottar programvareoppdateringer, kan derimot inneholde kjente sårbarheter som ikke er oppdatert. De utgjør derfor en risiko for hele nettverket ditt, selv om du konfigurerer dem riktig. Sammenlignet med mobiltelefoner eller datamaskiner er rutere utstyr som vi gjerne beholder i mange år. Det kan imidlertid være lurt å bytte dem ut med jevne mellomrom for å dra nytte av en mer moderne og sikker modell.
 
 
+**Merk**: Som en tommelfingerregel kan rutere levert av internettleverandører mangle den essensielle oppdateringsfunksjonen samt tilpasningsmuligheter. I noen tilfeller kan leverandørene også ha ubegrenset tilgang til sluttbrukerens interne nettverk.
+
 Sørg derfor for at du systematisk oppdaterer ruterens fastvare. Disse oppdateringene retter opp sårbarheter, legger til nye funksjoner og forbedrer den generelle systemstabiliteten. Noen produsenter tilbyr automatiske oppdateringer, men i noen tilfeller må du sjekke manuelt via ruterens Interface-administrasjonsverktøy. På samme måte som med telefonen, datamaskinen, operativsystemet og programvaren er det viktig å oppdatere ruteren regelmessig. Du kan gjøre dette til en del av den ukentlige rutinen din - for eksempel hver søndag - ved å lage en liste over alle elementene du trenger å sjekke og holde oppdatert.
 
 
-Hvis ruteren din ikke lenger vedlikeholdes, men fortsatt fungerer som den skal fra et maskinvaresynspunkt, kan du installere en alternativ fastvare med åpen kildekode, f.eks:
+Alternativt kan du aktivere automatiske oppdateringer eller i det minste automatisk skanning etter nye firmwareoppdateringer hvis du foretrekker å handle manuelt. Selv om automatisk oppdatering-funksjonen fortsatt kan utgjøre en sikkerhetstrussel, vil manglende regelmessig oppdatering av ruterenes firmware eksponere ditt lokale nettverk for offentlig kjente sårbarheter.
+
+**Eksempel**: Når du kjøper din egen ruter, kan det være en god idé å se etter etablerte firmaer i bransjen som har levert rutere på markedet i lang tid. For eksempel har Fritz!Box-rutere et langvarig rykte som plug-and-play-enheter, godt egnet for bruk både i familier og i små selskaper. Deres policy for programvareoppdateringer strekker seg vanligvis over flere år.
+
+Hvis ruteren din ikke lenger vedlikeholdes, men fortsatt fungerer korrekt fra et maskinvaresynspunkt, kan du kanskje installere en alternativ åpen kildekode-firmware, som:
 
 
 
@@ -8297,13 +8303,15 @@ Hvis ruteren din ikke lenger vedlikeholdes, men fortsatt fungerer som den skal f
 - pfSense og OPNsense, to FreeBSD-baserte (Unix-lignende) systemer for x86-brannmurer og -rutere
 
 
+**Merk**: Noen ISP-er leverer kundene sine bulkroutere produsert av ett selskap som samtidig leverer mange forskjellige ISP-er rundt om i verden. Du kan oppdage at for å installere en av de alternative firmware-ene på ruteren har noen andre kanskje allerede funnet ut hvordan man gjør det, selv om de er på andre siden av verden.
+
 ![Image](assets/fr/196.webp)
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 Disse systemene muliggjør finere kontroll av brannmurregler, utgående og innkommende tilkoblinger, nettverkssegmentering (VLAN) og DNS-administrasjon, men er mer rettet mot avanserte brukere.
 
@@ -8340,9 +8348,9 @@ Det er derfor viktig at du endrer identifikatorene dine umiddelbart etter at du 
 Passordet må være langt (40 tegn), komplekst (tall, små bokstaver, store bokstaver og symboler), unikt (kan ikke gjenbrukes andre steder) og tilfeldig. Jeg anbefaler selvsagt å bruke en passordadministrator for å generate og lagre disse opplysningene på en sikker måte.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Advarsel: Ikke forveksle ruterens administrasjonspassord (som beskytter tilgangen til konfigurasjonen) med Wi-Fi-passordet (som gjør det mulig å koble seg til det trådløse nettverket). Dette er to forskjellige Elements, og begge må endres.
 
@@ -8380,7 +8388,7 @@ Dette systemet ble opprinnelig utviklet for å gjøre det enklere å koble enhet
 Noen rutere lar deg koble deg til administrasjonen Interface fra utsiden, via Internett. Denne funksjonen øker ruterens angrepsflate på en urimelig måte. Deaktiver den helt, med mindre du har et spesifikt behov for fjernadministrasjon. Selv da bør du alltid bruke et VPN.
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
 - **Foreldede eller usikre protokoller**:
@@ -8501,7 +8509,7 @@ I praksis kan DNS-kryptering og serverbytte implementeres på ulike nivåer:
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - På operativsystemnivå: Noen operativsystemer har innebygd støtte for kryptert DNS (DoT eller DoH), noe som sikrer alle DNS-forespørsler som går gjennom systemets nettverksstack. Dette sikrer imidlertid ikke hele datamaskinen eller telefonen: Programmer kan omgå denne innstillingen hvis de er konfigurert til å bruke en annen DNS-resolver eller -protokoll.
 
 
@@ -8516,7 +8524,7 @@ Det er heller ikke alltid at modemrutere som leveres av Internett-leverandøren,
 Hvis du vil gå et skritt videre, kan du også sette opp en lokal DNS-filtreringsløsning, for eksempel Pi-hole eller AdGuard Home.
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
 Disse verktøyene fungerer som en liten DNS-server i nettverket ditt, og blokkerer forespørsler til domener som er kjent for å inneholde reklame, nettlesersporere, phishing eller ondsinnede nettsteder. Med disse verktøyene kan du også lage dine egne blokkeringslister eller tilpasse filtreringen etter hvilke enheter som er tilkoblet.
 
@@ -8537,19 +8545,19 @@ De to hovedløsningene for privatkunder er
 - WireGuard: Moderne, rask og lett
 - OpenVPN: Eldre, men svært modent og konfigurerbart
 
-https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+https://planb.academy/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Her er en komplett veiledning om Tailscale, en VPN-løsning som er enkel å konfigurere og som bruker WireGuard:
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Du kan være vert for dette VPN-et direkte på en kompatibel ruter, på en liten datamaskin (for eksempel en Raspberry Pi) eller på en dedikert server hjemme. Du kan også installere det som en klient direkte på en hvilken som helst enhet.
 
 Men et VPN er ikke bare for ekstern tilgang. Du kan også bruke en klassisk VPN-klient på enhetene dine for å kryptere all utgående trafikk, selv når du er borte fra hjemmet (offentlig Wi-Fi, hotell, universitet osv.). I dette tilfellet kobler enheten din til en tredjeparts VPN-server (kommersiell eller egenutviklet), som deretter videresender forbindelsene dine til Internett. Dette skjuler din virkelige IP Address fra Internett-leverandøren, beskytter dataene dine mot lokal spionasje og unngår visse former for sensur.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 Til slutt er det også mulig å sette opp et VPN direkte på ruteren din, slik at du kan beskytte alle enhetene i hjemmet uten å måtte installere en VPN-klient på hver av dem.
 
@@ -8559,17 +8567,17 @@ Når nettverket er riktig konfigurert og segmentert, er det viktig å gå lenger
 
 Det første steget er å sentralisere sikkerhetsloggene. Alle enheter som er koblet til nettverket, genererer logger som inneholder informasjon om tilkoblinger, feil eller mistenkelig aktivitet. I stedet for å konsultere disse loggene hver for seg, anbefaler jeg å sende dem til en server som kan gruppere, sortere og analysere dem. Med løsninger som Graylog eller Elastic Stack (ELK) kan du samle disse loggene i en grafisk Interface der du kan søke etter spesifikke hendelser, opprette varsler eller visualisere nettverksaktivitet.
 
-https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
+https://planb.academy/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Deretter bør du utføre regelmessige aktive skanninger av det lokale nettverket, for eksempel med Nmap. Da får du oversikt over alle enhetene i nettverket og hvilke porter de har åpnet. Hvis du oppdager en ukjent enhet eller en uvanlig tjeneste, kan dette være tegn på et angrep.
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Hvis du vil gå enda lenger, kan du installere et IDS (*Intrusion Detection System*), eller til og med et IPS (*Intrusion Prevention System*). Disse verktøyene, for eksempel Suricata eller Snort, overvåker nettverksstrømmer i sanntid og oppdager signaturer på kjente angrep (portskanninger, injeksjoner, mistenkelige tilkoblinger osv.). IDS advarer, mens IPS automatisk kan blokkere visse handlinger.
 
 Til slutt er overvåking av båndbreddeforbruket også en god indikator på unormal aktivitet. Hvis en enhet plutselig bruker mye data uten noen åpenbar grunn, kan dette tyde på uautorisert nedlasting, datalekkasje eller til og med en kompromittert enhet. Med verktøy som ntopng eller vnStat kan du se innkommende og utgående datastrømmer per enhet.
 
-https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
+https://planb.academy/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Sikkerhetskopiering og robusthet
 

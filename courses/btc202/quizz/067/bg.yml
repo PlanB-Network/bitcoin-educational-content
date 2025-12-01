@@ -1,0 +1,9 @@
+question: Кои резервни копия са необходими за възстановяване на възел Lightning?
+answer: seed и SCB
+wrong_answers:
+  - seed и файл txindex
+  - seed и публичен IP адрес
+  - seed и 2FA
+explanation: |
+  Възстановяването на възел Lightning изисква както seed, така и SCB (статично архивиране на канали), без което не могат да бъдат възстановени средствата на каналите.
+reviewed: true

@@ -14,9 +14,9 @@ Mu misi ya mbere ya Bitcoin, vyari ngombwa gukoresha node ya Bitcoin kugira ngo 
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Haciye rero hatanguzwa imigambi yo kwagura umuryango wa Bitcoin, bigatuma umuntu wese adafise node kandi/canke adafise ubuhinga bukenewe.
 
@@ -46,7 +46,7 @@ Ikoreshwa ryinshi mu bidukikije n’uko Mempool.space ari open source vyatumye i
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Ivy'ishimikiro vya Mempool.ikibanza
 
@@ -176,7 +176,7 @@ Tora imigambi itandukanye y’ugucuruza Bitcoin kugira ngo wongere ibanga ryawe.
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Ihutishe amafaranga yawe
 
@@ -200,7 +200,7 @@ Ushobora gukora igikorwa co gusubirira amafaranga n’amasakoshi yemera ubu bury
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
 
 
@@ -212,7 +212,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-Nimba ayo majambo yose asa n’ay’ubuhinga cane, ndagusavye [murabe urutonde rw’amajambo rwacu](https://planb.network/resources/glossary), rurimwo insobanuro z’amajambo yose y’ubuhinga ajanye na Bitcoin n’ibidukikije vyayo.
+Nimba ayo majambo yose asa n’ay’ubuhinga cane, ndagusavye [murabe urutonde rw’amajambo rwacu](https://planb.academy/resources/glossary), rurimwo insobanuro z’amajambo yose y’ubuhinga ajanye na Bitcoin n’ibidukikije vyayo.
 
 
 
@@ -235,7 +235,7 @@ Miner yerekeza ku muntu arongoye imine, ni ukuvuga mudasobwa ikora mu nzira ya M
 
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ❗Abacukuzi ni nk'aba "validators" bagenzura bagashira hamwe amafaranga mu bice. Kugira ngo bongereko igice gishasha ku rubuga rwa Bitcoin, bategerezwa gutorera umuti uruzitiro rutoroshe rw’imibare (Proof-of-Work). Miner wa mbere azotorera umuti uruzitiro aronka impembo ya Bitcoin (block grant + amafaranga y’ibikorwa biri muri block).
 
@@ -372,4 +372,4 @@ Ubu ko washitse ku mpera y’urugendo rwawe kuri Mempool.space, ube umugenzuzi w
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1

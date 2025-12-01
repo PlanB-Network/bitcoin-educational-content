@@ -1,0 +1,9 @@
+question: Welk fundamenteel principe staat ontwikkelaars toe om systemen als Lightning Network, CoinJoin en OpenTimestamps te maken bovenop Bitcoin zonder goedkeuring te vragen?
+answer: Permissievrije ontwikkeling stelt iedereen in staat om protocollen en toepassingen op Bitcoin te bouwen zonder dat autorisatie van een centrale autoriteit nodig is
+wrong_answers:
+  - Open-sourcelicenties vereisen dat alle afgeleide werken automatisch worden goedgekeurd en geïntegreerd in de hoofdrepository van Bitcoin Core
+  - De MIT-licentie schrijft voor dat alle op Bitcoin gebaseerde projecten expliciete toestemming moeten krijgen van het Bitcoin Core ontwikkelteam voordat ze worden ingezet
+  - Consensusregels valideren en autoriseren automatisch elk nieuw protocol dat bovenop Bitcoin wordt gebouwd via het verificatieproces van de blockchain
+explanation: |
+  Ontwikkeling zonder toestemming is het juiste antwoord, omdat dit het basisprincipe is dat iedereen toestaat om op Bitcoin te bouwen zonder toestemming te vragen. De foute antwoorden zijn onjuist omdat: open source licenties geen automatische goedkeuring of integratie in Bitcoin Core vereisen; de MIT Licentie eigenlijk brede permissies verleent zonder goedkeuring van ontwikkelaars te vereisen; en consensusregels transacties en blokken valideren, geen protocollen op een hoger niveau die bovenop Bitcoin gebouwd zijn.
+reviewed: false

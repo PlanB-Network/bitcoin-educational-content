@@ -1,0 +1,9 @@
+question: Milline on vastutustundliku avalikustamise tavade kohaselt peamine eetiline dilemma, millega puutuvad kokku turbeuurijad, kes avastavad haavatavusi detsentraliseeritud süsteemides nagu Bitcoin?
+answer: Tasakaalustamine vajaduse vahel teavitada vastutavaid osapooli, vältides samal ajal avalikustamist potentsiaalselt pahatahtlikele osalejatele, kes võiksid haavatavust ära kasutada
+wrong_answers:
+  - Otsustamine, kas saada haavatavuse avastamisest kasu vigade eest makstava preemia programmi kaudu või annetada teave vabalt kogukonnale
+  - Valida, kas anda kõigepealt aru valitsusasutustele või otse tarkvaraarendusmeeskonnale, et vältida regulatiivseid komplikatsioone
+  - Asjakohase rahalise hüvitise määramine haavatavuse avastamise eest, enne kui nõustutakse teabe avalikustamisega arendajatele
+explanation: |
+  Vastutustundliku avalikustamise peamine eetiline väljakutse on delikaatne tasakaal läbipaistvuse ja turvalisuse vahel. Teadlased peavad tagama, et haavatavusi käsitletakse, ilma et see kogemata annaks võimaluse nende pahatahtlikuks ärakasutamiseks. See eeldab hoolikat kooskõlastamist arendajatega, õiget ajastamist ja laiema ökosüsteemi mõju arvestamist. Teised võimalused keskenduvad finants- või regulatiivsetele probleemidele, mis on küll potentsiaalselt asjakohased, kuid ei ole vastutustundliku avalikustamise tavades kirjeldatud peamine eetiline dilemma.
+reviewed: false

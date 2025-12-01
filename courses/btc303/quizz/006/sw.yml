@@ -1,0 +1,9 @@
+question: Ni hatari gani kuu iliyosababisha majaribio ya mapema ya sarafu ya dijiti kushindwa kabla ya Bitcoin?
+answer: Walitegemea seva kuu ambazo zinaweza kuchunguzwa au kuzimwa
+wrong_answers:
+  - Walitumia algoriti za kriptografia zisizotosheleza kwa usalama wa muamala
+  - Walikosa uwezo wa kutosha wa kompyuta kushughulikia shughuli kwa ufanisi
+  - Wameshindwa kutekeleza mbinu sahihi za uthibitishaji wa mtumiaji
+explanation: |
+  Sarafu za awali za kidijitali hazikufaulu kwa sababu zilitegemea seva kuu kwa usindikaji na uthibitishaji wa miamala. Kama ilivyofafanuliwa katika sura hii, ujumuishaji huu ukawa "kisigino cha Achilles" kwa sababu serikali au wapinzani wengine wangeweza kudhibiti, kudhibiti, au kufunga alama hizi kuu za kutofaulu kwa urahisi. Hata majaribio ya kutumia seva nyingi katika shirikisho bado yaliacha mfumo katika hatari kwa kuwa kila seva inaweza "kushindwa, au kufanywa kushindwa, moja baada ya nyingine." Bitcoin ilitatua hili kwa kuondoa hitaji la mamlaka kuu kupitia mfumo wake uliogatuliwa wa proof-of-work.
+reviewed: false

@@ -86,7 +86,7 @@ Volg dan de instructies om je back-up te bevestigen en je externe back-upaccount
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ⚠️ **BELANGRIJK**: Om een extra Layer beveiliging aan je Breez Wallet toe te voegen, kun je een pincode instellen en deze gebruiken om te verifiëren dat de toegang tot de Wallet geautoriseerd is.
 

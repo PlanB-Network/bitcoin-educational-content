@@ -1,4 +1,4 @@
-question: Je, ni jibu gani la kawaida la serikali kwa mzozo wa kifedha au kiuchumi kama inavyoonekana katika kesi za Zimbabwe na Jamhuri ya Weimar?
+question: Je, ni jibu lipi la kawaida la serikali kwa mzozo wa kifedha au kiuchumi kama inavyoonekana katika kesi za Zimbabwe na Jamhuri ya Weimar?
 answer: Kutoa udhibiti mkali juu ya harakati na aina za mtaji.
 wrong_answers:
   - Kushusha thamani ya sarafu ya taifa.
@@ -8,4 +8,4 @@ explanation: |
   Wakati nchi inakabiliwa na mgogoro wa fedha au kiuchumi, jibu moja la kawaida
   na serikali ni kutoa udhibiti mkali juu ya harakati na aina za mtaji.
   Mara nyingi hii inafanywa kwa kujaribu kuwa na hofu na kurejesha imani.
-reviewed: false
+reviewed: true

@@ -1,0 +1,8 @@
+question: What fundamental architectural difference between traditional Bitcoin wallets and Lightning wallets creates the most significant complexity for implementing automatic channel creation upon wallet installation?
+answer: Lightning channels require counterparty coordination and liquidity provisioning while Bitcoin wallets only need key generation and blockchain monitoring
+wrong_answers:
+  - Lightning channels use different cryptographic algorithms that are incompatible with standard Bitcoin key derivation schemes
+  - Lightning channels must be created on-chain first before off-chain functionality becomes available, requiring two-step initialization processes
+  - Lightning channels require specialized hardware security modules while Bitcoin wallets can operate with standard mobile cryptographic libraries
+explanation: |
+  The correct answer identifies the core complexity: Lightning channels are bilateral constructs requiring another party to provide liquidity and coordinate channel establishment, unlike Bitcoin wallets that only need to generate keys and monitor the blockchain independently. The wrong answers are technically incorrect - Lightning uses the same cryptographic primitives as Bitcoin, channels don't require specialized hardware, and while channels are created on-chain, the fundamental challenge is the need for counterparty coordination and liquidity provisioning, not the two-step process itself.

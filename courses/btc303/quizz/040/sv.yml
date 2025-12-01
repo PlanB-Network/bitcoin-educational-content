@@ -1,0 +1,9 @@
+question: Enligt kapitlets diskussion om kompatibilitet med Bitcoin, vilken typ av kompatibilitet ger en mjuk fork?
+answer: Både framåt- och bakåtkompatibilitet, vilket gör den fullt kompatibel
+wrong_answers:
+  - Endast bakåtkompatibilitet, så att ny programvara kan bearbeta gammal data
+  - Endast framåtkompatibilitet, så att gammal programvara kan bearbeta nya data
+  - Varken framåt- eller bakåtkompatibilitet, vilket kräver fullständiga systemuppdateringar
+explanation: |
+  I kapitlet anges tydligt att En ändring av Bitcoin-konsensusreglerna sägs vara en mjuk fork om den är helt kompatibel Fullständig kompatibilitet definieras som både framåt- och bakåtkompatibel. Framåtkompatibilitet innebär att gammal programvara kan bearbeta data från nyare versioner genom att ignorera delar som den inte förstår, medan bakåtkompatibilitet innebär att ny programvara kan bearbeta gammal data. Den här dubbla kompatibiliteten är det som gör soft forks till den föredragna uppgraderingsmekanismen för Bitcoin, eftersom de inte bryter befintliga system samtidigt som de möjliggör ny funktionalitet.
+reviewed: false

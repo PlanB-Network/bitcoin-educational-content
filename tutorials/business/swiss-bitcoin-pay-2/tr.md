@@ -11,12 +11,12 @@ Günümüzde, Bitcoin'yi bir ödeme yöntemi olarak kabul etmek isteyen tüccarl
 Zahmet etmek istemeyen ve doğrudan banka hesaplarına fiat para birimi cinsinden fon almayı tercih edenler için Open Node gibi saklama çözümleri mevcuttur:
 
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Ellerini kirletmeye hazır olan ve süreci tamamen kontrol etmek isteyen tüccarlar için BTCPay Server yazılımı mükemmel bir seçenektir. Bununla birlikte, BTCPay Server'ın en büyük dezavantajı, kurulumunun ve yönetiminin zaman alması ve biraz teknik uzmanlık gerektirmesidir:
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Tüm bu çözümler arasında Swiss Bitcoin Pay, kullanım kolaylığı, özellikler ve güvenliği bir araya getiren çok ilginç bir uzlaşma gibi görünüyor. Bu çözüm hem çok küçük işletmeler hem de daha büyük yapılar için uygundur. Bu eğitimde, işletmenizde Bitcoin kabul etmek için Swiss Bitcoin Pay'i nasıl kolayca kullanacağınızı keşfedeceksiniz.
 
@@ -224,4 +224,4 @@ Ekranın sağ üst köşesindeki "*Dashboard*" düğmesine tıklayın, ardından
 
 Son olarak, "*Ayarlar*" sekmesinde, para çekme yöntemleri ve Bitcoin ile fiat arasındaki dağılım dahil olmak üzere kayıt sırasında sağladığınız bilgileri değiştirme seçeneğiniz vardır. ![SWISS Bitcoin PAY](assets/notext/50.webp)
 
-Tebrikler! Artık işletmenizde Bitcoin kabul etmek için bir ödeme işlemci sistemi kurdunuz. Daha gelişmiş ve karmaşık bir çözüm olan BTCPay Server'ı da keşfetmek istiyorsanız, özellikle bu yazılıma adanmış eksiksiz eğitimimizi takip etmenizi tavsiye ederim: [BTC305](https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1).
+Tebrikler! Artık işletmenizde Bitcoin kabul etmek için bir ödeme işlemci sistemi kurdunuz. Daha gelişmiş ve karmaşık bir çözüm olan BTCPay Server'ı da keşfetmek istiyorsanız, özellikle bu yazılıma adanmış eksiksiz eğitimimizi takip etmenizi tavsiye ederim: [BTC305](https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1).

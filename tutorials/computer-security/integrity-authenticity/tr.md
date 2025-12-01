@@ -234,4 +234,4 @@ Eğer bu yazıyı faydalı bulduysanız, aşağıda beğeninizi belirtmenizden m
 Ayrıca depolama aygıtlarını şifrelemenize ve şifrelerini çözmenize olanak tanıyan bir yazılım olan VeraCrypt hakkındaki bu diğer eğitime de göz atmanızı tavsiye ederim.
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

@@ -8,7 +8,7 @@ Misi PlanB adalah menyediakan sumber daya pendidikan tingkat atas tentang Bitcoi
 
 Apakah Anda ingin menambahkan podcast Bitcoin ke situs Jaringan PlanB dan meningkatkan visibilitas acara Anda, tetapi tidak tahu bagaimana? Tutorial ini untuk Anda!
 ![podcast](assets/01.webp)
-- Pertama, Anda perlu memiliki akun GitHub. Jika Anda tidak tahu cara membuatnya, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
+- Pertama, Anda perlu memiliki akun GitHub. Jika Anda tidak tahu cara membuatnya, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
 - Kunjungi [repositori GitHub PlanB yang didedikasikan untuk data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts) di bagian `resources/podcasts/`:
 ![podcast](assets/02.webp)
 - Klik tombol `Add file` di kanan atas, kemudian pada `Create new file`:
@@ -93,7 +93,7 @@ contributors:
 ![podcast](assets/13.webp)
 - Klik pada gambar profil GitHub Anda di pojok kanan atas, lalu pada `Your Repositories`:
 ![podcast](assets/14.webp)
-- Pilih fork Anda dari repositori PlanB Network:
+- Pilih fork Anda dari repositori Plan ₿ Academy:
 ![podcast](assets/15.webp)
 - Anda seharusnya melihat notifikasi di bagian atas jendela dengan cabang baru Anda. Mungkin disebut `patch-1`. Klik pada itu:
 ![podcast](assets/16.webp)
@@ -114,7 +114,7 @@ contributors:
 ![podcast](assets/24.webp)
 - Klik tombol `Add file`, lalu pada `Upload files`:
 ![podcast](assets/25.webp)
-- Sebuah halaman baru akan terbuka. Seret dan lepas logo podcast Anda ke area tersebut. Gambar ini akan ditampilkan di situs PlanB Network: ![podcast](assets/26.webp)
+- Sebuah halaman baru akan terbuka. Seret dan lepas logo podcast Anda ke area tersebut. Gambar ini akan ditampilkan di situs Plan ₿ Academy: ![podcast](assets/26.webp)
 - Hati-hati, gambar harus berbentuk persegi, agar sesuai dengan situs web kami dengan baik: ![podcast](assets/27.webp)
 - Setelah gambar diunggah, verifikasi bahwa kotak `Commit directly to the patch-1 branch` telah dicentang, kemudian klik pada `Commit changes`: ![podcast](assets/28.webp)
 - Hati-hati, gambar Anda harus dinamai `logo` dan harus dalam format `.webp`. Nama file lengkapnya harus: `logo.webp`: ![podcast](assets/29.webp)
@@ -126,7 +126,7 @@ contributors:
 - Anda seharusnya melihat pesan yang menunjukkan bahwa cabang Anda telah mengalami perubahan. Klik pada tombol `Compare & pull request`: ![podcast](assets/35.webp)
 - Tambahkan judul dan deskripsi yang jelas ke PR Anda: ![podcast](assets/36.webp)
 - Klik pada tombol `Create pull request`: ![podcast](assets/37.webp)
-Selamat! PR Anda telah berhasil dibuat. Seorang administrator sekarang akan meninjau dan, jika semuanya sesuai, menggabungkannya ke dalam repositori utama PlanB Network. Anda seharusnya melihat podcast Anda muncul di situs web beberapa hari kemudian.
+Selamat! PR Anda telah berhasil dibuat. Seorang administrator sekarang akan meninjau dan, jika semuanya sesuai, menggabungkannya ke dalam repositori utama Plan ₿ Academy. Anda seharusnya melihat podcast Anda muncul di situs web beberapa hari kemudian.
 
-Pastikan untuk mengikuti perkembangan PR Anda. Seorang administrator mungkin meninggalkan komentar meminta informasi tambahan. Selama PR Anda belum divalidasi, Anda dapat melihatnya di tab `Pull requests` pada repositori GitHub PlanB Network: ![podcast](assets/38.webp)
+Pastikan untuk mengikuti perkembangan PR Anda. Seorang administrator mungkin meninggalkan komentar meminta informasi tambahan. Selama PR Anda belum divalidasi, Anda dapat melihatnya di tab `Pull requests` pada repositori GitHub Plan ₿ Academy: ![podcast](assets/38.webp)
 Terima kasih banyak atas kontribusi berharga Anda! :)

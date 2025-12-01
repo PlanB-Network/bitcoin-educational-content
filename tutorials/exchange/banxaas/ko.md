@@ -29,7 +29,7 @@ Lightning Network의 등장은 Bitcoin 프로토콜의 메인 네트워크(Mainn
 
 
 
-https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
+https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 
 
@@ -37,7 +37,7 @@ https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### 반사스로 처음 거래하기
 
@@ -92,9 +92,9 @@ CFA 프랑에서 Bitcoin로 전환을 시작하면 대상 필드에 라이트닝
 
 
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 반사아스에서는 **목적지 확인** 버튼을 클릭하여 Bitcoin 수신 Address의 정확성을 확인할 수 있습니다.
 
@@ -190,4 +190,4 @@ Banxaas를 사용하면 비트코인을 CFA 프랑으로 변환하여 세네갈�
 
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874

@@ -14,7 +14,7 @@ objectives:
 
 在本課程中，我們將分 25 章解釋比特幣的基礎知識，讓您以簡單且高效的方式瞭解這項技術。課程探討整個行業的基礎知識，包括挖礦、錢包、買賣平台等主題。在整個旅程中，我們會提供額外的教材，我們也邀請您在完成本課程後檢視資源區中的「21 張海報」。
 
-您不需要任何特定的知識就可以開始學習。事實上，以下內容適合各種程度的學生使用，大約需要 15 小時即可完成。
+開始本課程不需要任何先前的知識。BTC 101 的設計目的是讓所有人都能夠輕鬆學習，無論您的經驗水平如何。
 
 +++
 # 簡介
@@ -87,7 +87,7 @@ objectives:
 
 準備好深入探索比特幣迷人的世界並了解其所有內部運作了嗎？我們出發吧！
 
-**注意**: 如果您在課程中遇到任何不熟悉的術語，請查閱[詞彙表](https://planb.network/resources/glossary)獲取定義。
+**注意**: 如果您在課程中遇到任何不熟悉的術語，請查閱[詞彙表](https://planb.academy/resources/glossary)獲取定義。
 
 ## 比特幣的前史
 
@@ -148,7 +148,7 @@ Cypherpunk 運動深深植根於數位行動主義和密碼學，它參考了幾
 
 如果您想更深入地了解比特幣的歷史，我們強烈向您推薦我們的 HIS 201 課程，在這門課程中，您將發現比特幣的起源、它如何逐步崛起，以及其早期發展與社群建立的歷程。本課程有完整的記錄和資料來源，當然也有許多趣聞軼事：
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 # 金錢
 
 <partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
@@ -273,7 +273,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 要了解更多有關經濟謬誤和自由的資訊，我們邀請您探索我們的 ECO 102 課程，該課程追溯了 19 世紀法國思想家弗雷德里克・巴斯夏（Frédéric Bastiat）的生平和思想，他肯定會欣賞比特幣的出現：
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 ## 惡性通貨膨脹
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
@@ -369,7 +369,7 @@ https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 若要深入探討惡性通貨膨脹的主題，我們推薦 David St-Onge 的 ECO 204 課程，您將在此瞭解惡性通膨的週期如何運作及其對我們生活的實際影響。您也將發現不同時期的惡性通膨有何相似之處，最重要的是，如何保護自己不受這些週期的影響。
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 ## 2,100 萬比特幣
 
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
@@ -414,7 +414,7 @@ https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
 
-我們將在 [miner 章節](https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf) 中更詳細地重溫挖礦的概念。
+我們將在 [miner 章節](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf) 中更詳細地重溫挖礦的概念。
 
 ### 保證數位稀有性
 
@@ -527,11 +527,11 @@ https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 因此，只要你遵循良好的安全措施，您的比特幣比特幣錢包被駭的機率微乎其微。
 
-請記住，要根據您的需求和用途選擇合適的錢包：[我們的大學教程專區](https://planb.network/tutorials/wallet) 中提供了管理和保護不同錢包的詳細教學。
+請記住，要根據您的需求和用途選擇合適的錢包：[我們的大學教程專區](https://planb.academy/tutorials/wallet) 中提供了管理和保護不同錢包的詳細教學。
 
 如果在探索比特幣的過程中，你想深入了解如何從隨機熵（Entropy）生成比特幣錢包，以及如何創建比特幣接收地址，我們推薦 CYP 201 課程：
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 ## 比特幣錢包和安全性
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
@@ -563,15 +563,15 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 例如，您可以使用 Sparrow Wallet 作為熱錢包：
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - **第 2 級**，您使用實體硬體錢包，並已保護您的 12/24 個詞彙清單。它通常被稱為「冷錢包」，因為您的金鑰被儲存在未連接至網際網路的裝置上。在這種情況下，您總是需要用您的裝置簽署每筆交易，這使得您的資金在日常使用中較難存取。
 
 例如，您可以使用 Ledger、Satochip 或 Tapsigner：
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 ![image](assets/zh-Hant/031.webp)
 
 
@@ -579,7 +579,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 要進一步瞭解 BIP39 密碼的使用和功能：
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 ![image](assets/zh-Hant/032.webp)
 
 
@@ -604,7 +604,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 您的比特幣的安全性極為重要，一個簡單的錯誤就可能帶來災難性的後果。因此，在創建新的比特幣錢包時，學習並採用最佳安全實踐是必不可少的。
 請注意，BTC 102 課程將引導您完成此步驟。
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 ### 這個步驟可不是開玩笑的！
 
 當您設定一個錢包時，軟體會自動生成你的私鑰，通常由 12/24 個單詞（通常稱為「種子詞 」或「助記詞」）組成：這些單詞構成您資金的存取權限。如果此密鑰被透露給第三方，你的資金應視為已經遭到威脅。因此，在設置您的錢包時，必須遵守這些規則：
@@ -638,7 +638,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 如果您希望逐步了解如何建立自己的錢包，並獲得第一枚比特幣，我們也建議您參加其他課程：
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 ## 通過時間的考驗
 
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
@@ -649,7 +649,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 要長期保護您的比特幣，其中一個方法是將您的助記短語鐫刻在鋼鐵等耐磨材質上，為您的金鑰建立一個防水、防火的實體備份。
 
-有多種解決方案可供選擇：其中有些成本低廉，例如「Blockmit」，而有些則可能需要更專門的設備。您可以在我們學院的 [教學](https://planb.network/en/tutorials/wallet) 區進一步探索此主題。
+有多種解決方案可供選擇：其中有些成本低廉，例如「Blockmit」，而有些則可能需要更專門的設備。您可以在我們學院的 [教學](https://planb.academy/en/tutorials/wallet) 區進一步探索此主題。
 
 ![image](assets/zh-Hant/036.webp)
 
@@ -657,7 +657,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 除了這第一個做法，創建一個繼承計劃是確保您的比特幣在您去世後得到妥善管理的關鍵一步。這個計劃包括手寫一封信，概述您比特幣資產概況、存取方式，以及負責管理資產的可信任人士的聯繫方式。與公證人討論比特幣繼承計劃也是很重要的，以確保符合稅務規定，但請注意，公證人不應直接管理你的比特幣。
 
-如果您想進一步探討比特幣的繼承計畫這個主題，我們建議您閱讀 Pamela Morgan 的書籍[Cryptoasset Inheritance Plan](https://planb.network/resources/books/28) 或報名參加 BTC 102 課程，我們會在課程中提供建立計畫的指導。
+如果您想進一步探討比特幣的繼承計畫這個主題，我們建議您閱讀 Pamela Morgan 的書籍[Cryptoasset Inheritance Plan](https://planb.academy/resources/books/28) 或報名參加 BTC 102 課程，我們會在課程中提供建立計畫的指導。
 
 ![image](assets/zh-Hant/037.webp)
 
@@ -739,7 +739,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 對於一些人來說，比特幣被定義為像[菌絲體](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/)一樣的真菌實體，而另一些人則把它描述為[黑洞](https://dergigi.com/)。無論你愛它還是恨它，比特幣繼續存在著，以每 10 分鐘產出一個區塊的節奏，持續跳動，如同新貨幣體系的心跳。
 
-若要進一步瞭解中本聰的著作，我們建議您閱讀 Phil Champagne 的 [「The Book of Satoshi」](https://planb.network/en/resources/books/98) 或 ARTE 的紀錄片「Le mystaire Satoshi」。
+若要進一步瞭解中本聰的著作，我們建議您閱讀 Phil Champagne 的 [「The Book of Satoshi」](https://planb.academy/en/resources/books/98) 或 ARTE 的紀錄片「Le mystaire Satoshi」。
 
 ![image](assets/zh-Hant/044.webp)
 
@@ -931,7 +931,7 @@ Bob 將他的交易發送到比特幣網絡，當礦工發佈一個包含 Bob �
 
 如果您想深入瞭解比特幣挖礦的具體主題，可以參考我們的 MIN 201 課程。您將發現工作證明（Proof-of-Work）的工作原理和作用，以及比特幣挖礦產業的機制。我們還解釋了如何將 ASIC 改造成暖氣設備，讓您在為家中取暖的同時挖到第一個聰（Satoshis）！
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 ## 比特幣與生態
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
@@ -1083,11 +1083,11 @@ https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 - 簡單的線上解決方案：OpenNode
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - 業餘商家的解決方案：Swiss Bitcoin Pay 瑞士比特幣支付
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - 適用於大型企業或比特幣愛好者的解決方案：BTCpay Server 伺服器
 
@@ -1105,7 +1105,7 @@ https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b0
 - 過往績效並非未來績效的可靠指標。
 - 如有需要，請聯絡您的財務顧問。
 
-**Plan ₿ Network 不提供任何投資建議，且此處所述內容不應被視為投資建議**
+**Plan ₿ Academy 不提供任何投資建議，且此處所述內容不應被視為投資建議**
 
 ### 入行前的迷你核對清單
 
@@ -1135,7 +1135,7 @@ https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b0
 
 **注意 UTXO 管理**：記得不時把您的 UTXOs 整合到您的錢包中。這種做法對於有效管理您的比特幣和避免交易過程中不必要的高額手續費是非常重要的。
 
-[UTXO](https://planb.network/en/resources/glossary/utxo) 是尚未被花費的交易輸出，也就是說，它尚未被用作新交易的輸入。合併它們意味著將多個小的 UTXO 合併成一個更大的，以減少交易的「重量」，從而支付更少的手續費。
+[UTXO](https://planb.academy/en/resources/glossary/utxo) 是尚未被花費的交易輸出，也就是說，它尚未被用作新交易的輸入。合併它們意味著將多個小的 UTXO 合併成一個更大的，以減少交易的「重量」，從而支付更少的手續費。
 
 
 - 一次性購買
@@ -1151,7 +1151,7 @@ https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b0
 
 - 均值成本法（DCA）平台
 
-正如我們上面所介紹的，累積比特幣的常用方法是均值成本法 (DCA)，即定期買入少量比特幣。有幾個平台提供這項服務，例如我們 [專頁](https://planb.network/tutorials/exchange) 上列出的平台。除了設定 DCA 的簡單性外，提款到您的錢包提現通常是自動進行，確保你始終掌控自己的資產。
+正如我們上面所介紹的，累積比特幣的常用方法是均值成本法 (DCA)，即定期買入少量比特幣。有幾個平台提供這項服務，例如我們 [專頁](https://planb.academy/tutorials/exchange) 上列出的平台。除了設定 DCA 的簡單性外，提款到您的錢包提現通常是自動進行，確保你始終掌控自己的資產。
 
 今天，幾乎所有的 DCA 解決方案都相對地有效率，而且手續費也幾乎相近，因此選擇主要取決於你的所在國家是否支援該服務。
 
@@ -1180,7 +1180,7 @@ https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b0
 
 ### 非 KYC（無身份驗證）購買比特幣的解決方案
 
-此外，有幾個 [市場](https://planb.network/tutorials/exchange)，可以在點對點交易中買賣比特幣。以下是幾種常見方法：
+此外，有幾個 [市場](https://planb.academy/tutorials/exchange)，可以在點對點交易中買賣比特幣。以下是幾種常見方法：
 
 
 - 比特幣自動櫃員機（ATM）
@@ -1192,6 +1192,10 @@ https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b0
 ![image](assets/zh-Hant/076.webp)
 
 最後，必須注意的是，稅務義務可能會因司法管轄區的不同而有所差異，因此我們強烈建議您在採取任何可能使您面臨風險的行動之前，先諮詢您所在國家/地區的法規。
+
+如果您希望深入瞭解有關購買、使用和保護比特幣的策略，我強烈建議您在本課程之後繼續學習 **BTC 102** 課程。在那裡，您將發現包括適合您個人資料、需求和目標的工具建議等內容：
+
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## 超級比特幣化
 
@@ -1213,7 +1217,7 @@ https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b0
 
 ![image](assets/zh-Hant/079.webp)
 
-如果你想擴大你對比特幣的認識，現在正是時候：許多作家、思想家與專欄作家 已創作了大量關於比特幣的教育內容，涵蓋各種層面與視角。在過去的幾年裡，我們一直在列出和分類這些作品，為對比特幣有興趣的人提供一個[資源庫](https://planb.network/resources)。在這個專區，您將發現最優質的 Podcasts、網站、文章、指南、書籍和其他內容。
+如果你想擴大你對比特幣的認識，現在正是時候：許多作家、思想家與專欄作家 已創作了大量關於比特幣的教育內容，涵蓋各種層面與視角。在過去的幾年裡，我們一直在列出和分類這些作品，為對比特幣有興趣的人提供一個[資源庫](https://planb.academy/resources)。在這個專區，您將發現最優質的 Podcasts、網站、文章、指南、書籍和其他內容。
 
 > 「 我認為網際網路將成為削弱政府角色的主要力量之一。互聯網目前唯一缺少的東西——但即將被開發出來的——是一種可靠的電子現金。在互聯網上，你可以在 A 不知道 B，B 也不知道 A 的情況下，把資金從 A 轉到 B。」- 米爾頓·傅利曼（Milton Friedman），1999 年
 # 比特幣的未來：閃電網絡
@@ -1262,7 +1266,7 @@ https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b0
 
 如果您想要深入瞭解閃電網絡的所有運作方式，我們建議您參加 Fanis Michalakis 主講的這門專業課程：
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 ## 閃電網路使用案例
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>

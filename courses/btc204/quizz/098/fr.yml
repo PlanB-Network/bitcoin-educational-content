@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   L'anonset prospectif permet de mesurer la résistance de la confidentialité de la pièce face à une analyse passé vers présent (entrée vers sortie).
 
-reviewed: false
+reviewed: true 

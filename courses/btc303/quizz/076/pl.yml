@@ -1,0 +1,9 @@
+question: Zgodnie z praktykami odpowiedzialnego ujawniania informacji, jaki jest główny dylemat etyczny, przed którym stoją badacze bezpieczeństwa, którzy odkrywają luki w zdecentralizowanych systemach, takich jak Bitcoin?
+answer: Równoważenie potrzeby informowania odpowiedzialnych stron przy jednoczesnym unikaniu ujawniania informacji potencjalnie złośliwym podmiotom, które mogłyby wykorzystać lukę w zabezpieczeniach
+wrong_answers:
+  - Podjęcie decyzji, czy czerpać zyski z odkrycia luki w zabezpieczeniach poprzez programy bug bounty, czy też przekazać informacje społeczności
+  - Wybór między raportowaniem najpierw do organów rządowych a raportowaniem bezpośrednio do zespołu ds. rozwoju oprogramowania w celu uniknięcia komplikacji regulacyjnych
+  - Ustalenie odpowiedniej rekompensaty finansowej za odkrycie podatności przed wyrażeniem zgody na ujawnienie informacji deweloperom
+explanation: |
+  Podstawowym wyzwaniem etycznym w odpowiedzialnym ujawnianiu informacji jest delikatna równowaga między przejrzystością a bezpieczeństwem. Badacze muszą upewnić się, że luki są usuwane bez nieumyślnego dostarczania mapy drogowej dla złośliwego wykorzystania. Wiąże się to ze staranną koordynacją z deweloperami, odpowiednim harmonogramem ujawnień i rozważeniem szerszego wpływu na ekosystem. Pozostałe opcje koncentrują się na kwestiach finansowych lub regulacyjnych, które, choć potencjalnie istotne, nie są głównym dylematem etycznym opisanym w praktykach odpowiedzialnego ujawniania informacji.
+reviewed: false

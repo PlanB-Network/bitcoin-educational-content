@@ -6,33 +6,33 @@ description: Réalisez des swaps entre les différentes couches de Bitcoin tout 
 
 ![cover](assets/cover.webp)
  
-Depuis son déploiement en 2009, le système de cash électronique pair à pair de Bitcoin a connu une croissance exponentielle donnant vie à des solutions qui lui permettent aujourd'hui d'être un système que nous pouvons utiliser instantanément dans nos actions quotidiennes notamment au travers du Lightning Network.
+Depuis son déploiement en 2009, le système de cash électronique pair-à-pair de Bitcoin a connu une croissance exponentielle donnant vie à des solutions qui lui permettent aujourd'hui d'être un système que nous pouvons utiliser instantanément dans nos actions quotidiennes notamment au travers du Lightning Network.
 
-Cependant un problème majeur subsiste entre les couches du protocole Bitcoin : l'interopérabilité fluide. Il était impératif de trouver une solution qui permettait de faire des transactions entre les différentes couches du protocole pour pouvoir exploiter le plein potentiel de Bitcoin. C'est de ce besoin qu'est né en 2019 Boltz, un pont qui relie plusieurs couches de Bitcoin.
+Cependant, un problème majeur subsiste entre les couches du protocole Bitcoin : l'interopérabilité fluide. Il était impératif de trouver une solution qui permettait de faire des transactions entre les différentes couches du protocole pour pouvoir exploiter le plein potentiel de Bitcoin. C'est de ce besoin qu'est né en 2019 Boltz, un pont qui relie plusieurs couches de Bitcoin.
  
 ## Qu'est-ce que Boltz ?
  
 [Boltz](https://boltz.exchange) est une plateforme non-custodial idéale pour toute personne qui souhaite faire des transactions entre les différentes couches du protocole Bitcoin :
-- **On Chain** : La chaîne principale de Bitcoin où les transactions sont confirmées toutes les 10 minutes en moyenne, les frais de transaction sont souvent élevés, ce qui ne répond pas nécessairement aux besoins des utilisateurs ;
-- **Lightning Network** : La surcouche de Bitcoin permettant d'effectuer des paiements instantanés à des frais bas permettant d'utiliser le bitcoin pour les paiements quotidiens ;
+- **On Chain** : la chaîne principale de Bitcoin où les transactions sont confirmées toutes les 10 minutes en moyenne, les frais de transaction sont souvent élevés, ce qui ne répond pas nécessairement aux besoins des utilisateurs ;
+- **Lightning Network** : la surcouche de Bitcoin permettant d'effectuer des paiements instantanés à des frais bas permettant d'utiliser le bitcoin pour les paiements quotidiens ;
 - **Liquid Network** : une surcouche de Bitcoin créée par Blockstream permettant de faire des transactions rapides, confidentielles et aussi d'utiliser d'autres instruments financiers sur la base de Bitcoin ;
-- **RootStock** : Une solution qui permet le développement de contrats intelligents sur le protocole Bitcoin.
+- **RootStock** : une solution qui permet le développement de contrats intelligents sur le protocole Bitcoin.
  
 ![layers](assets/fr/01.webp)
  
 L’interopérabilité entre ces différentes couches revêt une importance majeure, car elle offre à l’utilisateur la flexibilité nécessaire pour profiter pleinement de tout ce que l'écosystème Bitcoin a à proposer.
 
-Boltz utilise des swaps atomiques. Cette technologie permet un échange de bitcoins entre 2 couches (par exemple des BTC onchain en échange de BTC sur Lightning) directement entre deux parties, sans besoin de confiance et sans nécessiter d'intermédiaire. Ces échanges sont dits "atomiques" car ils ne peuvent donner que deux résultats :
-- Soit l'échange réussi et les deux participants se sont effectivement échangé leurs BTC ;
+Boltz utilise des swaps atomiques. Cette technologie permet un échange de bitcoins entre deux couches (par exemple des BTC onchain en échange de BTC sur Lightning) directement entre deux parties, sans besoin de confiance et sans nécessiter d'intermédiaire. Ces échanges sont dits "atomiques", car ils ne peuvent donner que deux résultats :
+- Soit l'échange réussi et les deux participants se sont effectivement échangés leurs BTC ;
 - Soit l'échange échoue et les deux participants repartent avec leurs BTC de départ.
 
-Ainsi, vous conservez en permanence la self-custody de vos bitcoins, et cet échange ne repose sur aucune confiance envers la contrepartie : soit l’échange aboutit, soit il échoue, mais aucune des deux parties ne peut voler les fonds de l’autre.
+Ainsi, vous conservez en permanence la garde de vos bitcoins, et cet échange ne repose sur aucune confiance à l'égard de l'autre partie : soit l’échange aboutit, soit il échoue, mais aucune des deux parties ne peut voler les fonds de l’autre.
 
-Un échange atomique fonctionne avec des contrats intelligents [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). Dans ce type de contrat, le montant est "verrouillé" dans un canal bidirectionnel et une restriction temporelle est introduite, de sorte que si la transaction n'est pas achevée dans un certain délai, le solde revient au déposant. C'est ce mécanisme qu'utilise la plateforme Boltz.
+Un échange atomique fonctionne avec des contrats intelligents [HTLC](https://planb.academy/resources/glossary/htlc) (*Hashed Timelock Contract*). Dans ce type de contrat, le montant est "verrouillé" dans un canal bidirectionnel et une restriction temporelle est introduite, de sorte que si la transaction n'est pas achevée dans un certain délai, le solde revient au déposant. C'est ce mécanisme qu'utilise la plateforme Boltz.
  
 ## Vos premiers échanges avec Boltz
  
-Boltz est une plateforme web non dépositaire et ne requérant aucune information personnelle de votre part. Boltz possède une interface minimaliste et fluide qui vous permet d'initier vos échanges en moins d'une minute.
+Boltz est une plateforme web non-dépositaire et ne requérant aucune information personnelle de votre part. Boltz possède une interface minimaliste et fluide qui vous permet d'initier vos échanges en moins d'une minute.
  
 ![boltz](assets/fr/02.webp)
  
@@ -58,9 +58,9 @@ Vous pouvez configurer l'unité de base de vos échanges en choisissant entre le
  
 Une fois vos configurations de base terminées, insérez le montant de votre échange atomique puis créez une facture Lightning du montant équivalent ou insérez plus simplement votre LNURL.
  
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ![swap](assets/fr/07.webp)
 
@@ -78,9 +78,9 @@ Cliquez ensuite sur le bouton **Créer l'échange atomique** puis procédez au p
 
 ![payment](assets/fr/10.webp)
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 Une fois votre paiement effectué puis confirmé, vous recevez automatiquement l'équivalent sur votre portefeuille Lightning.
 
@@ -92,12 +92,12 @@ Dans le menu **Historique**, vous pouvez télécharger un historique plus détai
  
 ![backup](assets/fr/12.webp)
  
-⚠️ Veuillez ne pas divulguer ce fichier également, car il contient toutes les informations associées à vos transactions et la clé de secours liées à ces transactions.
+⚠️ Veuillez ne pas divulguer ce fichier également, car il contient toutes les informations associées à vos transactions et à la clé de secours liées à ces transactions.
  
 Boltz vous offre un niveau de confidentialité accru grâce à son accès via un lien `.onion` sur le réseau Tor. Réalisez des échanges atomiques de manière totalement anonyme en sélectionnant le menu **Onion**, après avoir activé la navigation Tor dans votre navigateur.
  
 ![onion](assets/fr/13.webp)
  
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
  
 Vous connaissez désormais Boltz, une plateforme d'échange unique en son genre qui effectue l'interopérabilité entre les différentes couches de l'écosystème Bitcoin.

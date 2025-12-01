@@ -1,0 +1,8 @@
+question: If Bitcoin's difficulty adjustment mechanism encounters a scenario where the previous 2016 blocks took exactly 6 weeks to mine instead of the expected 2 weeks, what adjustment factor would be applied?
+answer: The difficulty would be reduced by a factor of 4 (maximum allowed reduction)
+wrong_answers:
+  - The difficulty would be reduced by a factor of 3 (6 weeks ÷ 2 weeks)
+  - The difficulty would be reduced by a factor of 2.5 to prevent overcorrection
+  - The difficulty would be reduced by a factor of 6 based on the time ratio
+explanation: |
+  Bitcoin's difficulty adjustment has built-in limits that constrain changes to within a factor of four in either direction. Even though 6 weeks ÷ 2 weeks = 3, suggesting a 3x reduction, the protocol caps adjustments at 4x to prevent extreme volatility. This safety mechanism ensures network stability during major hash rate changes, like mining bans or equipment failures, by preventing overcorrection that could destabilize block timing.

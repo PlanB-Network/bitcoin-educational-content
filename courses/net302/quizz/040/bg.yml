@@ -1,0 +1,9 @@
+question: Кой запис е задължителен във всеки файл на зона DNS?
+answer: SOA (начало на органа)
+wrong_answers:
+  - PTR (Указател)
+  - AAAA (IPv6 Address)
+  - SRV (Service Locator)
+explanation: |
+  Записът SOA определя авторитета на зоната и се изисква във всеки файл на зона DNS.
+reviewed: false

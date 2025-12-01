@@ -28,7 +28,7 @@ Järgmine samm on Bitcoin vastuvõtmine otse teie ettevõttes; kõige lihtsam vi
 Lihtsuse huvides kasutame näitena Satoshi Wallet. Selle paigaldamiseks ja konfigureerimiseks järgige järgmisi samme:
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Pärast juhendi järgimist olete valmis Bitcoin makseviisina vastu võtma: avage lihtsalt mobiilirakendus ja vajutage nupule "Vastuvõtmine", seejärel sisestage summa (tavaliselt teie kohalikus vääringus) generate ja Invoice, mille kasutaja peab maksma.
 
@@ -59,7 +59,7 @@ Müügipunkti funktsiooni kasutamisel on kolm kasu:
 Lisateavet leiate Satoshi - Müügipunkti Wallet spetsiaalsest juhendmaterjalist:
 
 
-https://planb.network/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc9f266-cb21-49a8-94a8-5fe15a82eb07
+https://planb.academy/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc9f266-cb21-49a8-94a8-5fe15a82eb07
 
 ## Määrus
 

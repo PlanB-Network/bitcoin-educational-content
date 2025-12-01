@@ -1,30 +1,30 @@
 ---
 name: Contribution - GitHub Web tutorial (beginner)
-description: Complete guide to Plan ₿ Network tutorials with GitHub Web
+description: Complete guide to Plan ₿ Academy tutorials with GitHub Web
 ---
 ![cover](assets/cover.webp)
 
 Before following this tutorial on adding a new tutorial, you need to have completed a few preliminary steps. If you haven't already done so, please take a look at this introductory tutorial first, then come back here:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 You already have:
 
 
 - Choose a theme for your tutorial;
-- Contacted the Plan ₿ Network team via [Telegram group](https://t.me/PlanBNetwork_ContentBuilder) or paolo@planb.network ;
+- Contacted the Plan ₿ Academy team via [Telegram group](https://t.me/PlanBNetwork_ContentBuilder) or paolo@planb.network ;
 - Choose your contribution tools.
 
-In this tutorial, we'll look at how to add your tutorial to Plan ₿ Network using the web version of GitHub. If you've already mastered Git, this very detailed tutorial may not be necessary for you. Instead, I recommend you check out one of these other 2 tutorials, where I detail the guidelines to follow and the steps for making changes from a local:
+In this tutorial, we'll look at how to add your tutorial to Plan ₿ Academy using the web version of GitHub. If you've already mastered Git, this very detailed tutorial may not be necessary for you. Instead, I recommend you check out one of these other 2 tutorials, where I detail the guidelines to follow and the steps for making changes from a local:
 
 
 - **Experienced users**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 - **Intermediate (GitHub Desktop)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 ## Prerequisites
 
@@ -32,23 +32,23 @@ Prerequisites before starting the tutorial:
 
 
 - Have a [GitHub account](https://github.com/signup);
-- Have a fork of the [Plan ₿ Network source repository](https://github.com/PlanB-Network/bitcoin-educational-content);
-- Have [a teacher profile on Plan ₿ Network](https://planb.network/professors) (only if you offer a full tutorial).
+- Have a fork of the [Plan ₿ Academy source repository](https://github.com/PlanB-Network/bitcoin-educational-content);
+- Have [a teacher profile on Plan ₿ Academy](https://planb.academy/professors) (only if you offer a full tutorial).
 
 If you need help getting these prerequisites, my other tutorials will help:
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+https://planb.academy/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
-Once everything is in place and you have your fork of the Plan ₿ Network repository, you can start adding the tutorial.
+Once everything is in place and you have your fork of the Plan ₿ Academy repository, you can start adding the tutorial.
 
 ## 1 - Create a new branch
 
-Open your browser and navigate to your fork page in the Plan ₿ Network repository. This is the fork you established on GitHub. The URL of your fork should look like this: `https://github.com/[your-username]/bitcoin-educational-content`:
+Open your browser and navigate to your fork page in the Plan ₿ Academy repository. This is the fork you established on GitHub. The URL of your fork should look like this: `https://github.com/[your-username]/bitcoin-educational-content`:
 
 ![GITHUB](assets/fr/01.webp)
 
@@ -74,7 +74,7 @@ A branch in Git represents a parallel version of the project, allowing you to wo
 
 Now that the working branch has been created, it's time to integrate your new tutorial.
 
-Within your branch files, you'll need to find the appropriate subfolder for the placement of your tutorial. The organization of the folders reflects the different sections of the Plan ₿ Network website. In our example, since we're adding a tutorial on Green Wallet, head to the following path: `bitcoin-educational-content\tutorials\wallet` which corresponds to the `WALLET` section of the website:
+Within your branch files, you'll need to find the appropriate subfolder for the placement of your tutorial. The organization of the folders reflects the different sections of the Plan ₿ Academy website. In our example, since we're adding a tutorial on Green Wallet, head to the following path: `bitcoin-educational-content\tutorials\wallet` which corresponds to the `WALLET` section of the website:
 
 ![GITHUB](assets/fr/05.webp)
 
@@ -147,11 +147,11 @@ Here are the required fields:
 
 - **id**: A UUID (_Universally Unique Identifier_) that uniquely identifies the tutorial. You can generate it using [an online tool](https://www.uuidgenerator.net/version4). The only requirement is that this UUID is random to avoid conflicts with another UUID on the platform;
 
-- **project_id**: The UUID of the company or organization behind the tool presented in the tutorial [from the project list](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For example, if you are creating a tutorial about the Green Wallet software, you can find this `project_id` in the following file: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. This information is added to your tutorial's YAML file because Plan ₿ Network maintains a database of all companies and organizations operating on Bitcoin or related projects. By adding the `project_id` of the entity linked to your tutorial, you create a link between the two elements;
+- **project_id**: The UUID of the company or organization behind the tool presented in the tutorial [from the project list](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For example, if you are creating a tutorial about the Green Wallet software, you can find this `project_id` in the following file: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. This information is added to your tutorial's YAML file because Plan ₿ Academy maintains a database of all companies and organizations operating on Bitcoin or related projects. By adding the `project_id` of the entity linked to your tutorial, you create a link between the two elements;
 
-- **tags**: 2 or 3 relevant keywords related to the tutorial content, exclusively chosen [from the Plan ₿ Network tag list](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 or 3 relevant keywords related to the tutorial content, exclusively chosen [from the Plan ₿ Academy tag list](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category**: The sub-category corresponding to the tutorial content, according to the Plan ₿ Network website structure (for example, for wallets: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: The sub-category corresponding to the tutorial content, according to the Plan ₿ Academy website structure (for example, for wallets: `desktop`, `hardware`, `mobile`, `backup`);
 
 - **level**: The difficulty level of the tutorial, chosen from:
     - `beginner`
@@ -172,7 +172,7 @@ Here are the required fields:
 
 For more details on your teacher ID, please refer to the corresponding tutorial:
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -343,7 +343,7 @@ The exclamation mark at the beginning indicates an image. The alternative text, 
 
 ![GITHUB](assets/fr/35.webp)
 
-If you wish to create your own schematics, be sure to follow the Plan ₿ Network graphic guidelines to ensure visual consistency:
+If you wish to create your own schematics, be sure to follow the Plan ₿ Academy graphic guidelines to ensure visual consistency:
 
 
 - **Font**: Use [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
@@ -352,7 +352,7 @@ If you wish to create your own schematics, be sure to follow the Plan ₿ Networ
  - Black: #000000
  - White: #FFFFFF
 
-**It is imperative that all visuals integrated into your tutorials are free of copyright or respect the source file license**. Therefore, all diagrams published on Plan ₿ Network are made available under a CC-BY-SA license, in the same way as the text.
+**It is imperative that all visuals integrated into your tutorials are free of copyright or respect the source file license**. Therefore, all diagrams published on Plan ₿ Academy are made available under a CC-BY-SA license, in the same way as the text.
 
 **-> Tip:** When sharing files in public, such as images, it's important to remove superfluous metadata. This can contain sensitive information, such as location data, creation dates and author details. To protect your privacy, it's a good idea to remove this metadata. To simplify this operation, you can use specialized tools such as [Exif Cleaner](https://exifcleaner.com/), which enables you to clean up a document's metadata with a simple drag-and-drop.
 
@@ -364,19 +364,19 @@ To proceed with the Pull Request, after saving all your changes, click on the "*
 
 ![GITHUB](assets/fr/36.webp)
 
-A Pull Request is a request made to integrate changes from your branch into the main branch of the Plan ₿ Network repository, which allows review and discussion of changes before they are merged.
+A Pull Request is a request made to integrate changes from your branch into the main branch of the Plan ₿ Academy repository, which allows review and discussion of changes before they are merged.
 
 Before continuing, check carefully at the bottom of the interface that these changes are what you expected:
 
 ![GITHUB](assets/fr/37.webp)
 
-Make sure, at the top of the interface, that your working branch is merged onto the `dev` branch of the Plan ₿ Network repository (which is the main branch).
+Make sure, at the top of the interface, that your working branch is merged onto the `dev` branch of the Plan ₿ Academy repository (which is the main branch).
 
 Enter a title that briefly summarizes the changes you wish to merge with the source repository. Add a brief comment describing these changes (if you have an issue number associated with the creation of your tutorial, remember to note `Closes #{issue number}` as a comment), then click on the green "*Create pull request*" button to confirm the merge request:
 
 ![GITHUB](assets/fr/38.webp)
 
-Your PR will then be visible in the "*Pull Request*" tab of the main Plan ₿ Network repository. All you have to do now is wait until an administrator contacts you to confirm that your contribution has been merged, or to request any further modifications.
+Your PR will then be visible in the "*Pull Request*" tab of the main Plan ₿ Academy repository. All you have to do now is wait until an administrator contacts you to confirm that your contribution has been merged, or to request any further modifications.
 
 ![GITHUB](assets/fr/39.webp)
 
@@ -388,6 +388,6 @@ If you wish to make changes to your contribution after you have already submitte
 
 
 - If your PR is still open and has not yet been merged, make the changes on the same workbranch. The commit changes will be added to your still open PR;
-- In the event that your PR has already been merged with the main branch, you'll need to redo the process from the beginning by creating a new branch, then submitting a new PR. Make sure your fork is synchronized with the Plan ₿ Network source repository on the `dev` branch before proceeding.
+- In the event that your PR has already been merged with the main branch, you'll need to redo the process from the beginning by creating a new branch, then submitting a new PR. Make sure your fork is synchronized with the Plan ₿ Academy source repository on the `dev` branch before proceeding.
 
 If you're having technical difficulties submitting your tutorial, please don't hesitate to ask for help on [our dedicated Telegram group for contributions](https://t.me/PlanBNetwork_ContentBuilder). Thank you very much!

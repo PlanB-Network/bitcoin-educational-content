@@ -4,7 +4,7 @@ description: Jak skonfigurować BitAxe?
 
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)
-### Wprowadzenie
+## Wprowadzenie
 
 
 BitAxe to projekt open-source stworzony przez Skota i [dostępny na GitHub](https://github.com/skot/bitaxe), który pozwala na opłacalne eksperymentowanie z Mining.
@@ -26,7 +26,7 @@ Istnieje kilka wersji BitAxe, z różnymi chipami i wydajnością:
 W tym samouczku będziemy używać BitAxe Ultra 204 wyposażonego w układ BM1366, używany w Antminer S19XP. Ten jest już zmontowany i sflashowany przez sprzedawcę.
 
 
-### [Lista sprzedawców jest dostępna na tej stronie](https://bitaxe.org/legit.html)
+[Lista sprzedawców jest dostępna na tej stronie](https://bitaxe.org/legit.html)
 
 
 ![signup](assets/2.webp)
@@ -38,7 +38,7 @@ Zazwyczaj zasilacz Supply jest sprzedawany razem z nim. Jeśli nie, należy zaku
 ![signup](assets/1.webp)
 
 
-### Konfiguracja
+## Konfiguracja
 
 Po pierwszym podłączeniu BitAxe domyślnie spróbuje połączyć się z siecią Wi-Fi. Po pięciu próbach wyświetli nazwę własnej sieci Wi-Fi, aby można było się z nią połączyć i ją skonfigurować.
 
@@ -69,7 +69,7 @@ Dlatego należy podać identyfikator SSID sieci Wi-Fi, czyli nazwę sieci, hasł
 Jak widać na ekranie, należy usunąć części `stratum+tcp://` i `:3333`, pozostawiając tylko `eu.stratum.braiins.com`. Następnie w polu `Port` należy wpisać 4 cyfry na końcu adresu URL podanego przez pulę, ale bez `:`. W tym przypadku jest to `3333`.
 
 
-W tym samouczku używamy Braiins Mining pool, ale możesz wybrać inny. Nasze samouczki dotyczące basenów Mining można znaleźć [na stronie PlanB Network] (https://planb.network/en/tutorials/mining).
+W tym samouczku używamy Braiins Mining pool, ale możesz wybrać inny. Nasze samouczki dotyczące basenów Mining można znaleźć [na stronie Plan ₿ Academy] (https://planb.academy/en/tutorials/mining).
 
 
 Następnie w `User` wprowadź swój identyfikator, a następnie `Password`, zazwyczaj jest to `"x"` lub `"Anything123"`.
@@ -85,7 +85,7 @@ Po poprawnym wprowadzeniu wszystkich ustawień, kliknij przycisk `Zapisz` na dol
 
 Jeśli informacje zostały wprowadzone poprawnie, urządzenie powinno szybko połączyć się z siecią Wi-Fi, a następnie z Mining pool i zacząć wyświetlać informacje na małym ekranie. Prawdopodobnie minie kilka minut, zanim pojawią się one na pulpicie nawigacyjnym Mining pool.
 
-### Deska rozdzielcza i ekran
+## Pulpit i ekran
 
 
 Przewijane będą trzy różne ekrany. Na trzeciej stronie zobaczysz informacje `IP`, czyli adres IP Address, który umożliwia połączenie z pulpitem nawigacyjnym. Tutaj Address to `192.168.1.19`.

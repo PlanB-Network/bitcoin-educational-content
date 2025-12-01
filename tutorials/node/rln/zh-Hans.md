@@ -31,7 +31,7 @@ RGB合约的结构类似于一个进化状态机。它以 "Genesis"为起点，"
 
 如果您想要了解关于RGB协议工作原理的更多信息，我建议您参加这门全面的培训课程：
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 ## 与RGB兼容的闪电节点安装
 
 
@@ -221,7 +221,7 @@ http://localhost:3001/createutxos
 ./regtest.sh mine 1
 ```
 
-我们现在可以创建一个RGB资产。该命令取决于您要创建的资产类型及其参数。在这里，我要创建一个名为 "PBN "的 NIA（*不可膨胀资产*）代币，供应量为1000个单位。`precision`（精度）允许您定义单位的可分割性。
+我们现在可以创建一个RGB资产。该命令取决于您要创建的资产类型及其参数。在这里，我要创建一个名为 "Plan ₿ Academy "的 NIA（*不可膨胀资产*）代币，供应量为1000个单位。`precision`（精度）允许您定义单位的可分割性。
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -229,8 +229,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -266,7 +266,7 @@ curl -X 'GET' \
 
 ![RLN](assets/fr/13.webp)
 
-接下来，我们将通过指定相关资产（`PBN`）来开启通道。通过 `/openchannel` 命令，您可以用聪（satoshi）为单位定义通道的大小，并选择是否包含RGB资产。这取决于您想创建的选择，但在我的实例中，命令如下：
+接下来，我们将通过指定相关资产（`Plan ₿ Academy`）来开启通道。通过 `/openchannel` 命令，您可以用聪（satoshi）为单位定义通道的大小，并选择是否包含RGB资产。这取决于您想创建的选择，但在我的实例中，命令如下：
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -305,7 +305,7 @@ http://localhost:3001/openchannel
 
 ![RLN](assets/fr/15.webp)
 
-现在，闪电通道已开启，节点 n°1 一侧也包含 500 个 `PBN`代币。如果节点 n°2 希望接收 `PBN` 代币，则必须生成一张发票。具体命令如下：
+现在，闪电通道已开启，节点 n°1 一侧也包含 500 个 `Plan ₿ Academy`代币。如果节点 n°2 希望接收 `Plan ₿ Academy` 代币，则必须生成一张发票。具体命令如下：
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -334,7 +334,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RLN](assets/fr/16.webp)
 
-现在，我们将从第一个节点支付这张发票，该节点持有必要的`PBN`代币现金：
+现在，我们将从第一个节点支付这张发票，该节点持有必要的`Plan ₿ Academy`代币现金：
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -375,4 +375,4 @@ curl -X 'GET' \
 我还推荐另一篇教程，其中介绍了如何使用LNP/BP协会开发的RGB CLI工具来创建 RGB 合约：
 
 
-https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.academy/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

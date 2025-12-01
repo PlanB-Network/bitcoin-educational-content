@@ -48,7 +48,7 @@ Dalam tutorial ini, kita akan mempelajari cara membuat dan menggunakan multisign
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 ## Prasyarat
 
@@ -58,7 +58,7 @@ Untuk tutorial ini, saya akan menunjukkan kepada Anda cara membuat Multisig deng
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
 Untuk menyiapkan Wallet multi-tanda tangan, Anda memerlukan dompet perangkat keras yang berbeda. Untuk Multisig 2-de-3, misalnya, Anda dapat menggunakan :
 
@@ -101,11 +101,11 @@ Sebelum mengonfigurasi Multisig Wallet Anda, pastikan bahwa setiap Hardware Wall
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Seperti yang akan kita lihat nanti dalam tutorial ini, Anda juga dapat mengintegrasikan ke dalam konfigurasi Multisig Anda sebuah faktor yang tidak terkait dengan Hardware Wallet, tetapi kunci privatnya disimpan pada PC Anda. Metode ini jelas kurang aman dibandingkan dengan penggunaan eksklusif dompet perangkat keras, tetapi mungkin relevan untuk kasus-kasus tertentu. Sebagai contoh, untuk Multisig 2-de-3, Anda dapat memilih dua dompet perangkat keras dan satu Software Wallet.
 
@@ -375,7 +375,7 @@ Selain menyimpan *Descriptor*, jangan lupa memberikan perhatian khusus untuk men
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Sebelum menerima bitcoin pertama Anda di Multisig, **Saya sangat menyarankan Anda untuk melakukan tes pemulihan kosong**. Catatlah beberapa informasi referensi, seperti Address yang pertama kali diterima, kemudian setel ulang dompet perangkat keras Anda saat Wallet masih kosong. Selanjutnya, coba pulihkan Multisig Wallet Anda pada Dompet Perangkat Keras menggunakan cadangan kertas frase Mnemonic Anda, kemudian pada Sparrow menggunakan *Descriptor*. Periksa apakah Address pertama yang dihasilkan setelah pemulihan sesuai dengan yang Anda tuliskan. Jika cocok, Anda dapat yakin bahwa cadangan kertas Anda dapat diandalkan.
 
@@ -385,7 +385,7 @@ Untuk mempelajari lebih lanjut tentang cara melakukan tes pemulihan, saya sarank
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Terima bitcoin di Multisig Anda
 
@@ -619,4 +619,4 @@ Untuk melangkah lebih jauh, saya sarankan Anda membaca tutorial ini tentang meto
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7

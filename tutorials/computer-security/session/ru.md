@@ -145,7 +145,7 @@ Session ориентирован прежде всего на пользоват
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Обратите внимание**: В отличие от фраз Mnemonic, используемых в портфолио Bitcoin, в Session **вы должны сохранить каждое слово целиком**. Первых 4 букв недостаточно!
 
@@ -299,4 +299,4 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

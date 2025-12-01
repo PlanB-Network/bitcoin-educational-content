@@ -1,35 +1,18 @@
 ---
 name: Spinoza và Bitcoin
 goal: Khám phá mối liên hệ triết học giữa tư tưởng của Spinoza và Bitcoin như những công cụ tự do qua nhiều thế kỷ.
-objectives: 
-
-
-  - Hiểu về triết lý thực tiễn của Spinoza và hành trình tìm kiếm tự do của ông.
-  - Khám phá các khái niệm của Spinoza về thuyết quyết định luận và ảo tưởng của con người.
-  - Phân tích điểm tương đồng giữa cuộc cách mạng tư tưởng của Spinoza và cuộc cách mạng công nghệ của Bitcoin.
-
-
-
+objectives:
+- Hiểu triết học thực tiễn của Spinoza và hành trình tìm kiếm tự do của ông.
+- Khám phá các khái niệm Spinoza về chủ nghĩa quyết định luận và ảo tưởng của con người.
+- Phân tích sự tương đồng giữa cuộc cách mạng tư tưởng của Spinoza và cuộc cách mạng công nghệ của Bitcoin.
+- Áp dụng lý thuyết cảm xúc để nhận biết và chống lại sự thao túng trong các hệ thống chính trị.
 ---
+# Khi Spinoza Gặp Satoshi
 
-# Khám phá triết học về tự do thông qua Spinoza và Bitcoin
+Khám phá cách những ý tưởng cấp tiến của triết gia thế kỷ 17 Baruch de Spinoza về tự do, lý trí và quyền lực báo trước cuộc cách mạng phi tập trung của Bitcoin. Khóa học này tiết lộ những điểm tương đồng nổi bật: cả hai đều từ chối đức tin mù quáng và quyền lực trung ương, cả hai đều sử dụng tính chặt chẽ toán học để giải phóng. Spinoza giải phóng tâm trí khỏi giáo điều tôn giáo, Bitcoin giải phóng tiền tệ khỏi sự kiểm soát của nhà nước.
 
-
-
-Khóa học này khám phá mối liên hệ sâu sắc giữa triết học cách mạng của Baruch de Spinoza (1632-1677) và Bitcoin, hai công cụ tự do cách nhau hàng thế kỷ nhưng lại thống nhất bởi cùng một mục tiêu: giải phóng con người khỏi ách nô lệ.
-
-
-
-Chúng ta sẽ khám phá cách Spinoza, cha đẻ của triết học Khai sáng lý trí, đã phát triển một đạo đức thực tiễn để giải thoát chúng ta khỏi những ảo tưởng giam cầm chúng ta - ý chí tự do, chủ nghĩa duy tâm và mê tín thần học. Phương pháp hình học và lý thuyết về cảm xúc của ông chỉ cho chúng ta cách hiểu vị trí của mình trong thế giới và hướng sự tồn tại của mình đến những gì làm tăng sức mạnh hành động.
-
-
-
-Khóa học sau đó sẽ chỉ ra những điểm tương đồng thú vị giữa cuộc cách mạng tư tưởng Copernicus này và Bitcoin: hai hệ thống không đòi hỏi đức tin mù quáng hay quyền lực trung ương, mà chỉ cần vận dụng lý trí. Cũng như chủ nghĩa Spinoza đã giải phóng tư tưởng khỏi giáo điều tôn giáo, Bitcoin giải phóng tiền tệ khỏi sự kiểm soát của nhà nước, mang đến một hình thức tự do kinh tế mới bắt nguồn từ toán học và mật mã.
-
-
-
+Học các công cụ thực tế từ đạo đức học của Spinoza để hiểu nền tảng triết học của bitcoin và tăng quyền tự chủ của bạn. Sẵn sàng khám phá hai trong số những công cụ giải phóng con người vĩ đại nhất trong lịch sử chưa?
 +++
-
 # Giới thiệu
 
 
@@ -491,6 +474,8 @@ Và tất nhiên, vấn đề không phải là ngăn ngừa động đất, v�
 
 <chapterId>3e6599e3-5b29-50a8-a67d-d0386da5d65d</chapterId>
 
+:::video id=b6d2c035-8848-4da6-9da9-be3b70be0f38:::
+
 
 
 :::id video=b6d2c035-8848-4da6-9da9-be3b70be0f38:::
@@ -584,6 +569,8 @@ Nói cách khác, họ được ban cho ý chí tự do, một niềm tin ảo t
 
 
 <chapterId>f147a914-cb64-5927-b305-26691930bca3</chapterId>
+
+:::video id=b59da795-ba19-4643-9672-36c9e7953a42:::
 
 
 
@@ -816,6 +803,8 @@ Cảm ơn sự chú ý của bạn và hẹn gặp lại ở chương tiếp the
 
 <chapterId>93554156-5e62-526d-9b71-49c47be916af</chapterId>
 
+:::video id=9c490cc1-3d29-4ca7-9464-1a701bb91ba7:::
+
 
 
 :::id video=9c490cc1-3d29-4ca7-9464-1a701bb91ba7:::
@@ -936,6 +925,8 @@ Nói cách khác, trên thực tế, nhà nước sẽ lo sợ nhiều hơn về
 
 
 <chapterId>1ce64576-2688-5757-a119-57cc3a1076c0</chapterId>
+
+:::video id=9c490cc1-3d29-4ca7-9464-1a701bb91ba7:::
 
 
 

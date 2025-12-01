@@ -1,0 +1,9 @@
+question: Quels sont les deux principaux problèmes de confidentialité de la blockchain identifiés par Satoshi Nakamoto dans le livre blanc Bitcoin ?
+answer: Réutilisation Address et regroupement d'adresses
+wrong_answers:
+  - Frais de transaction et délais de confirmation
+  - Double dépense et collisions de hachage
+  - Congestion du réseau et centralisation mining
+explanation: |
+  Dans la section 7 du livre blanc Bitcoin, Satoshi Nakamoto a identifié la réutilisation et le regroupement d'adresses comme les principaux problèmes de confidentialité de la blockchain. La réutilisation Address se produit lorsque la même adresse est utilisée plusieurs fois, ce qui permet de relier facilement les transactions à un même utilisateur. Le regroupement Address fait référence à la capacité de déterminer que différentes adresses appartiennent au même propriétaire, en particulier par le biais de transactions à entrées multiples qui révèlent que toutes les entrées ont été contrôlées par la même personne. Les autres options constituent des défis techniques ou opérationnels dans le cadre de Bitcoin, mais ne sont pas des questions de protection de la vie privée spécifiquement abordées par Satoshi dans le livre blanc.
+reviewed: false

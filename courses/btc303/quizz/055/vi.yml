@@ -1,0 +1,9 @@
+question: Lý do chính khiến kho lưu trữ GitHub của Bitcoin Core được coi là đặc biệt so với hàng nghìn bản sao khác của cùng kho lưu trữ này trên toàn thế giới là gì?
+answer: Nó đóng vai trò là điểm tập trung được xã hội công nhận cho sự phát triển của Bitcoin, không phải do bất kỳ ưu thế kỹ thuật nào
+wrong_answers:
+  - Nó chứa các khóa mật mã xác thực các bản phát hành và cập nhật Bitcoin Core chính thức
+  - Nó có các tính năng kỹ thuật và quyền độc quyền mà các bản sao lưu trữ khác không thể sao chép
+  - Nó được bảo vệ hợp pháp bởi Giấy phép MIT với tư cách là nguồn duy nhất có thẩm quyền của mã Bitcoin
+explanation: |
+  Như Jameson Lopp giải thích, kho lưu trữ GitHub của Bitcoin Core về mặt kỹ thuật giống hệt hàng ngàn bản sao khác trên toàn thế giới, nhưng đã trở thành điểm tập trung được xã hội chấp nhận cho việc điều phối phát triển. Nó không có bất kỳ tính năng kỹ thuật đặc biệt, cơ chế xác thực mật mã hay biện pháp bảo vệ pháp lý nào khiến nó vượt trội. Giấy phép MIT thực sự đảm bảo bất kỳ ai cũng có thể sao chép và phân phối lại mã một cách tự do. Nếu kho lưu trữ này biến mất, cộng đồng sẽ chỉ cần thiết lập một điểm tập trung mới ở nơi khác, chứng tỏ tầm quan trọng của nó hoàn toàn là do quy ước xã hội chứ không phải do nhu cầu kỹ thuật.
+reviewed: false

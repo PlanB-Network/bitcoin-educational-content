@@ -1,0 +1,9 @@
+question: Madenci ademi merkeziyetçiliği Bitcoin'da özellikle neyi ifade ediyor?
+answer: İşlemlerin sıralanması tek bir varlık yerine dinamik bir madenci grubu tarafından toplu olarak gerçekleştirilir
+wrong_answers:
+  - Blokların doğrulanması tek bir merkezi sunucu yerine birden fazla güvenilir otoriteye dağıtılır
+  - mining ödülleri Bitcoin ağındaki tüm katılımcılar arasında eşit olarak dağıtılır
+  - mining donanımı, ekipman tekelleşmesini önlemek için farklı şirketler tarafından üretilmektedir
+explanation: |
+  Miner ademi merkeziyetçiliği özellikle işlem sıralamasının tek bir varlık veya sabit bir grup tarafından değil, serbestçe katılabilen veya ayrılabilen madencilerden oluşan bir kolektif tarafından kontrol edildiği anlamına gelir. Bu, blok doğrulama (full node ademi merkeziyetçiliği ile ilgilidir), ödül dağıtımı veya donanım üretiminden farklıdır. Herkesin izinsiz olarak katılabildiği mining kolektifinin dinamik yapısı, Bitcoin'i sansüre dirençli kılan ve herhangi bir tarafın hangi işlemlerin bloklara dahil edileceğini kontrol etmesini engelleyen şeydir.
+reviewed: false

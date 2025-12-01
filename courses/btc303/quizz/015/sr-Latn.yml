@@ -1,0 +1,9 @@
+question: Šta se dešava kada korisnici prepuste verifikaciju svojih Bitcoin transakcija trećim stranama umesto da pokreću sopstvene pune čvorove?
+answer: Decentralizacija Bitcoin postaje oslabljena kako sve manje ljudi nezavisno sprovodi pravila mreže
+wrong_answers:
+  - Bitcoin transakcije postaju brže i efikasnije za sve učesnike mreže
+  - Bitcoin mreža automatski kreira više mining čvorova kako bi nadoknadila izgubljenu validaciju.
+  - Usluge trećih strana dobijaju mogućnost kreiranja novih bitkoina izvan normalnog rasporeda izdavanja
+explanation: |
+  Kada korisnici ne pokreću svoje pune čvorove, oni prepuštaju svoju moć da sprovode pravila Bitcoin drugima. Ovo slabi decentralizaciju Bitcoin jer manje nezavisnih strana validira transakcije i blokove. Kao što objašnjava David Harding, ovo stvara situaciju u kojoj bi mali broj rudara i pružalaca usluga potencijalno mogao promeniti pravila Bitcoin za korisnike koji ne verifikuju, dok ti korisnici ne bi mogli da transakcionišu sa ljudima koji pokreću čvorove pune validacije i odbijaju te promene pravila.
+reviewed: false

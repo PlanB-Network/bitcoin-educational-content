@@ -1,0 +1,9 @@
+question: Als mijnwerkers verbinding maken met mining pools met grotere bandbreedte en connectiviteit om oudbakken blokken te vermijden tijdens periodes van grotere blokgroottes, wat is dan het primaire negatieve gevolg voor het Bitcoin netwerk?
+answer: Het vermindert de mining decentralisatie omdat kleinere miners naar grotere pools met superieure infrastructuur worden geduwd
+wrong_answers:
+  - Het verhoogt de rekenmoeilijkheid van mining operaties waardoor blokken moeilijker op te lossen zijn
+  - Het creëert extra transactiekosten die moeten worden betaald om de netwerkconnectiviteit in stand te houden
+  - Het verlaagt de totale hashsnelheid van het netwerk omdat miners middelen besteden aan connectiviteit in plaats van mining
+explanation: |
+  Het hoofdstuk legt uit dat wanneer blokken groter worden, de propagatietijden toenemen, wat leidt tot meer oude blokken. Om te voorkomen dat ze blokbeloningen verliezen door oudbakken blokken, gaan miners op zoek naar pools met betere bandbreedte en connectiviteit. Dit duwt miners naar grotere, goed verbonden pools, waardoor de mining decentralisatie afneemt. De andere opties zijn onjuist: de moeilijkheidsgraad past zich automatisch aan, ongeacht de connectiviteit van de pool, connectiviteitskosten leiden niet tot extra transactiekosten en miners verlagen de hashsnelheid niet als ze zich aansluiten bij pools met betere connectiviteit.
+reviewed: false

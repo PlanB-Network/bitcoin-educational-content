@@ -1,0 +1,9 @@
+question: Koji je glavni razlog zašto će stvarna cirkulišuća ponuda Bitcoin biti značajno niža od teoretskog maksimuma od približno 21 milion BTC?
+answer: Izgubljeni privatni ključevi, krađa wallet i novčići poslati na pogrešne adrese trajno uklanjaju bitkoine iz opticaja
+wrong_answers:
+  - Mining prilagođavanja težine automatski smanjuju ukupnu ponudu kako bi se održala oskudica tokom vremena
+  - Naknade za transakcije se spaljuju tokom obrade, postepeno smanjujući dostupnu ponudu bitcoina.
+  - "Bitcoin protokol automatski zaključava novčiće koji se nisu pomerali duži vremenski period kako bi sprečio inflaciju"
+explanation: |
+  Poglavlje objašnjava da, iako je teoretski maksimum oko 20,999,817 BTC, stvarna upotrebljiva ponuda je mnogo niža zbog ljudske greške i gubitka. Izgubljeni privatni ključevi čine bitkoine trajno nedostupnim, novčanici bivaju ukradeni ili zaboravljeni, a novčići se ponekad šalju na nevažeće adrese. Ovi faktori stvaraju trajno smanjenje ponude koje koristi preostalim vlasnicima, jer je Satoshi primetio da izgubljeni novčići čine da novčići svih ostalih vrede više.
+reviewed: false

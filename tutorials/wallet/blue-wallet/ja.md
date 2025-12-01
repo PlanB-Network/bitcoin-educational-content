@@ -11,11 +11,10 @@ Bitcoinを使い始めることは、そのシンプルさに懐疑的な人々�
 
 
 
-このチュートリアルでは、個人的にビットコインを管理したり、[Multisig](https://planb.network/resources/glossary/multisig)に基づいた管理組合を作ることができる、シンプルだが非常に効果的なBitcoin WalletであるBlue Walletを紹介します（心配しないでください、また戻ってきます）。
+このチュートリアルでは、個人的にビットコインを管理したり、[Multisig](https://planb.academy/resources/glossary/multisig)に基づいた管理組合を作ることができる、シンプルだが非常に効果的なBitcoin WalletであるBlue Walletを紹介します（心配しないでください、また戻ってきます）。
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 
@@ -39,7 +38,7 @@ Blue Walletはオープンソースで、ビットコインを自分で管理で
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Blue Walletでは、Bitcoin専用のポートフォリオを個別に作成することができます。例えば、貯蓄用のWalletと日々の出費用のWalletを同じアプリケーションで管理することができます。
 
@@ -65,10 +64,10 @@ Blue Walletでは、Bitcoinのネイティブ・ポートフォリオが2種類�
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 青いWalletのBitcoin WalletはBitcoinエコシステムにおける標準的なWalletを表しています。あなたがビットコインを所有していることを認証するために、ネットワーク上で有効な署名を提供するリカバリーワードを所持している限り、あなたはビットコインを使うことができます。
 
@@ -122,7 +121,7 @@ Blue Walletでは、Bitcoinのパラメータを自由に設定することが�
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -220,7 +219,7 @@ P2WSHフォーマットを選択することで、ベストプラクティスを
 
 
 
-❗ **[P2WSH](https://planb.network/resources/glossary/p2wsh) または Pay to Witness Script Hash** は、Blue Wallet が設定するカスタムスクリプトの Hash に、トランザクションの送出ビットコイン（Outputs）をロックするロック方法です。このタイプのロックの主な利点は、トランザクションのデータサイズを小さくし、暗黙のうちに低いトランザクション手数料を支払うことを可能にすることです。
+❗ **[P2WSH](https://planb.academy/resources/glossary/p2wsh) または Pay to Witness Script Hash** は、Blue Wallet が設定するカスタムスクリプトの Hash に、トランザクションの送出ビットコイン（Outputs）をロックするロック方法です。このタイプのロックの主な利点は、トランザクションのデータサイズを小さくし、暗黙のうちに低いトランザクション手数料を支払うことを可能にすることです。
 
 
 
@@ -264,7 +263,7 @@ Blue Walletの標準的なBitcoinポートフォリオと同様に、**受信者
 
 
 
-2人目のWallet署名者もユーザーであれば、作成した[一部署名済み取引](https://planb.network/resources/glossary/psbt)のQRコードをスキャンすることで、インターネットを離れていても(Wi-Fiやモバイルデータがなくても)取引に署名することができます。
+2人目のWallet署名者もユーザーであれば、作成した[一部署名済み取引](https://planb.academy/resources/glossary/psbt)のQRコードをスキャンすることで、インターネットを離れていても(Wi-Fiやモバイルデータがなくても)取引に署名することができます。
 
 
 
@@ -330,12 +329,12 @@ Lightning NetworkはBlue Walletアプリケーションでネイティブサポ�
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 これでブルーWalletツアーは終了し、Bitcoinをシンプルかつパワフルにお使いいただけるようになりました。次のステップでは、Lightningのパワーを利用してショップでBitcoin決済を利用する方法をご紹介します。
 
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06

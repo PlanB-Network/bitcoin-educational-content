@@ -94,13 +94,13 @@ Po deaktivaci testovacího režimu je třeba nakonfigurovat portfolio pro výbě
 
 
 
-Pokud ještě nevlastníte Bitcoin a/nebo Lightning Wallet, doporučujeme vám podívat se na naše návody [mobilní peněženky](https://planb.network/tutorials/wallet).
+Pokud ještě nevlastníte Bitcoin a/nebo Lightning Wallet, doporučujeme vám podívat se na naše návody [mobilní peněženky](https://planb.academy/tutorials/wallet).
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 ⚠️ **DŮLEŽITÉ**: Při konfiguraci svého portfolia zvolte typ **BTC (On-Chain)**, pokud přijímáte velké částky v řádu tisíců eur, abyste zajistili spolehlivé potvrzení na Bitcoin, a typ **LN Address**, pokud chcete ve svém podnikání přijímat okamžité mikroplatby.
 
@@ -435,4 +435,4 @@ Rychlost dobře znáte, začleňte Bitcoin do svého podnikání a rozvíjejte m
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

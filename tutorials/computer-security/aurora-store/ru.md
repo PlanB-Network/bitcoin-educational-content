@@ -44,13 +44,13 @@ Aurora Store - один из самых популярных магазинов 
 
 
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 Однако мы рекомендуем загружать APK-файл непосредственно с официального сайта, чтобы гарантировать подлинность и целостность Aurora Store.
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Файл APK (Android Package Kit) - это формат пакета, используемый операционной системой Android для распространения и установки приложений. Это эквивалент файлов **.exe** в Windows или **.dmg** в macOS.
 
@@ -155,4 +155,4 @@ Aurora Store - это не просто магазин приложений, а 
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

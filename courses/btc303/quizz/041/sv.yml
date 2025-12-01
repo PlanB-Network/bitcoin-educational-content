@@ -1,0 +1,9 @@
+question: Vilken specifik teknisk funktion skapade Satoshi:s hårda fork oavsiktligt som möjliggjorde framtida mjuka fork-uppgraderingar?
+answer: Scriptoperatorerna OP_NOP1 till OP_NOP10 opkoder
+wrong_answers:
+  - BIP65- och BIP113-aktiveringsmekanismerna för miner-signalering
+  - Ramverket för framåt- och bakåtkompatibilitet för konsensusändringar
+  - Det användaraktiverade mjuka fork (UASF)-systemet för aktivering av flaggdag
+explanation: |
+  Enligt Eric Lombrosos analys skapade Satoshi:s hårda fork (som kommunicerades dåligt och doldes i en commit om makefile-ändringar) oavsiktligt opkoderna OP_NOP1 till OP_NOP10. Dessa "no operation"-koder var utformade för att inte göra någonting när de exekverades, men de tillhandahöll platshållare som senare kunde återanvändas för ny funktionalitet genom mjuka gafflar. Detta visade sig vara rätt tänkt, eftersom OP_NOP2 blev OP_CHECKLOCKTIMEVERIFY (BIP65) och OP_NOP3 blev OP_CHECKSEQUENCEVERIFY (BIP112). De andra alternativen är felaktiga eftersom BIP65 och BIP113 var de uppgraderingar som använde dessa opkoder snarare än att skapa dem, kompatibilitetsramverket är ett konceptuellt tillvägagångssätt snarare än en teknisk funktion och UASF föreslogs mycket senare under Segwit-kontroversen.
+reviewed: false

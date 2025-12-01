@@ -1,6 +1,6 @@
 ---
 name: Dodavanje podkasta na PlanB mrežu
-description: Kako dodati novi podcast na PlanB Network?
+description: Kako dodati novi podcast na Plan ₿ Academy?
 ---
 ![podcast](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Kako dodati novi podcast na PlanB Network?
 Misija PlanB-a je da obezbedi vrhunske obrazovne resurse o Bitcoin na što više jezika. Sav sadržaj objavljen na sajtu je otvorenog koda i hostovan na GitHub-u, omogućavajući svakome da učestvuje u obogaćivanju platforme.
 
 
-Da li želite da dodate Bitcoin podcast na PlanB Network sajt i povećate vidljivost vaše emisije, ali ne znate kako? Ovaj vodič je za vas!
+Da li želite da dodate Bitcoin podcast na Plan ₿ Academy sajt i povećate vidljivost vaše emisije, ali ne znate kako? Ovaj vodič je za vas!
 
 ![podcast](assets/01.webp)
 
@@ -16,7 +16,7 @@ Da li želite da dodate Bitcoin podcast na PlanB Network sajt i povećate vidlji
 - Prvo, potrebno je da imate GitHub nalog. Ako ne znate kako da ga kreirate, napravili smo detaljan vodič da vas uputimo.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![podcast](assets/03.webp)
 
 
-- Ako nikada ranije niste doprineli sadržaju PlanB Network-a, biće potrebno da kreirate svoj Fork originalnog repozitorijuma. Forkovanje repozitorijuma znači kreiranje kopije tog repozitorijuma na vašem GitHub nalogu, što vam omogućava da radite na projektu bez uticaja na originalni repozitorijum. Kliknite na dugme `Fork this repository`:
+- Ako nikada ranije niste doprineli sadržaju Plan ₿ Academy-a, biće potrebno da kreirate svoj Fork originalnog repozitorijuma. Forkovanje repozitorijuma znači kreiranje kopije tog repozitorijuma na vašem GitHub nalogu, što vam omogućava da radite na projektu bez uticaja na originalni repozitorijum. Kliknite na dugme `Fork this repository`:
 
 ![podcast](assets/04.webp)
 
@@ -159,7 +159,7 @@ contributors:
 ![podcast](assets/14.webp)
 
 
-- Odaberite svoj Fork iz PlanB Network repozitorijuma:
+- Odaberite svoj Fork iz Plan ₿ Academy repozitorijuma:
 
 ![podcast](assets/15.webp)
 
@@ -210,7 +210,7 @@ contributors:
 ![podcast](assets/25.webp)
 
 
-- Otvoriće se nova stranica. Prevucite i otpustite logo svog podkasta u taj prostor. Ova slika će biti prikazana na sajtu PlanB Network:
+- Otvoriće se nova stranica. Prevucite i otpustite logo svog podkasta u taj prostor. Ova slika će biti prikazana na sajtu Plan ₿ Academy:
 
 ![podcast](assets/26.webp)
 
@@ -269,10 +269,10 @@ contributors:
 
 ![podcast](assets/37.webp)
 
-Čestitamo! Vaš PR je uspešno kreiran. Administrator će ga sada pregledati i, ako je sve u redu, spojiti ga u glavni repozitorijum PlanB Network-a. Trebalo bi da vidite vaš podcast na vebsajtu nekoliko dana kasnije.
+Čestitamo! Vaš PR je uspešno kreiran. Administrator će ga sada pregledati i, ako je sve u redu, spojiti ga u glavni repozitorijum Plan ₿ Academy-a. Trebalo bi da vidite vaš podcast na vebsajtu nekoliko dana kasnije.
 
 
-Molimo vas da pratite napredak vašeg PR-a. Administrator može ostaviti komentar tražeći dodatne informacije. Sve dok vaš PR nije validiran, možete ga pregledati u kartici `Pull requests` na PlanB Network GitHub repozitorijumu:
+Molimo vas da pratite napredak vašeg PR-a. Administrator može ostaviti komentar tražeći dodatne informacije. Sve dok vaš PR nije validiran, možete ga pregledati u kartici `Pull requests` na Plan ₿ Academy GitHub repozitorijumu:
 
 ![podcast](assets/38.webp)
 

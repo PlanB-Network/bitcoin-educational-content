@@ -1,12 +1,12 @@
 question: Bir sertifika sistemi kullanarak sitenin açık anahtarını doğrulamak neden önemlidir?
 answer: Sitenin gerçekliğini teyit etmek için.
 wrong_answers:
-  - Dolandırıcılık yapılmamasını sağlamak için, yalnızca halka açık bir Wi-Fi ağı üzerinden bağlanıldığında.
+  - Dolandırıcılık yapılmamasını engellemek için, ama yalnızca halka açık bir Wi-Fi ağı üzerinden bağlanıldığında.
   - Çevrimiçi reklamları kısmen engellemek için.
   - Kötü niyetli hiçbir varlığın web sitesini taklit etmediğinden emin olmak için.
 explanation: |
   Bir sertifika sistemi kullanarak sitenin açık anahtarını doğrulama
   sitenin gerçekliğini doğrulamak için önemlidir. Bu
   taklit eden kötü niyetli kişilere karşı korumaya yardımcı olur
-  ve verilerin düz metin olarak aktarılması.
+  ve verilerin düz metin olarak aktarılmasını önler.
 reviewed: true

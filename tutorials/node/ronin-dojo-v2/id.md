@@ -1,6 +1,6 @@
 ---
 name: RoninDojo v2
-description: Memasang node Bitcoin RoninDojo v2 Anda pada Raspberry Pi
+description: Memasang node Bitcoin RoninDojo v2 pada Raspberry Pi
 ---
 ![cover RoninDojo v2](assets/cover.webp)
 

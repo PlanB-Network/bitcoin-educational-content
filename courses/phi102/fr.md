@@ -941,4 +941,21 @@ Le programme de liberté qui se dégage de cette analyse doit être audacieux, c
 L'exemple de l'agitation pour l'abolition des lois céréales en Angleterre au dix-neuvième siècle illustre la voie à suivre. Richard Cobden et la Ligue anti-Corn Law, célébrés par Frédéric Bastiat, obtinrent satisfaction par la mobilisation de l'opinion publique à travers des meetings organisés dans toute l'Angleterre, l'Écosse et l'Irlande. Cette méthode de conviction par le débat des idées demeure aujourd'hui l'objectif à poursuivre, car elle est parfaitement en phase avec les valeurs de concurrence, de liberté et de perfectibilité que le libéralisme défend.
 
 
+# Section finale
 
+<partId>7955883a-ce99-11f0-90a5-fb346d61dc16</partId>
+
+## Avis & Notes
+
+<chapterId>8058b634-ce99-11f0-958c-fbaed1cbe973</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Examen final
+
+<chapterId>867d105a-ce99-11f0-81ae-03ab890b34e2</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>8a843872-ce99-11f0-89f2-d3569420a90c</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

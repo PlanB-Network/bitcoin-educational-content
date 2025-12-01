@@ -1,5 +1,5 @@
 question: Коя команда извлича локалния IP адрес на вашия Umbrel, ако достъпът чрез umbrel.local е неуспешен?
-answer: име на хост -I
+answer: hostname -I
 wrong_answers:
   - ifconfig -usb
   - umbrel-ip --show

@@ -27,3 +27,128 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 3.3
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.78
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.61
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.61
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.78
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.78
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.78
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.61
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 15.28
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.95
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.61
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 13.11
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.95
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.78
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.78
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.78
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.61
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 13.11
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.78
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.78
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.61
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.78
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.95
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 13.11
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.95
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.95

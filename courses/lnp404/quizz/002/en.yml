@@ -1,0 +1,8 @@
+question: What is the primary advantage of running Lightning Terminal in remote mode?
+answer: It connects to an existing LND instance without modifying your current infrastructure
+wrong_answers:
+  - It provides better security than integrated mode by isolating the components
+  - It allows multiple LND nodes to be managed from a single Terminal instance
+  - It enables faster transaction processing through distributed node architecture
+explanation: |
+  Remote mode's key benefit is that it allows you to enhance an existing LND node with additional services like Loop, Pool, and Faraday without requiring any changes to your current LND installation or infrastructure setup. The other options are incorrect because remote mode doesn't inherently provide better security than integrated mode, it connects to one LND instance rather than multiple nodes, and it doesn't improve transaction processing speed through distribution - it simply adds management capabilities to your existing node.

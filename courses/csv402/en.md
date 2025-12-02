@@ -1047,7 +1047,7 @@ This separation of roles contributes to censorship resistance, by ensuring that 
 From a practical point of view, the contract's **Business Logic** takes the form of rules and scripts, defined in what RGB calls a **Schema**. The Schema encodes:
 
 
-- State structure (which fields are public? Which fields are owned by which parties?
+- State structure (which fields are public? Which fields are owned by which parties)?
 - Validity conditions (what must be checked before authorizing a state update?);
 - Authorizations (who can initiate a *State Transition*? Who can only observe?).
 
@@ -1203,7 +1203,7 @@ InputMap =
 
 
 - `N` is the total number of entries in the transaction that refer to an `OpId`;
-- opId(input_j)` is the operation identifier of one of the State Transitions present in the bundle.
+- `opId(input_j)` is the operation identifier of one of the State Transitions present in the bundle.
 
 By referencing each entry only once and in an orderly fashion, we prevent the same seal from being spent twice in two simultaneous State Transitions.
 
@@ -1601,7 +1601,7 @@ BEiLYE-am9WhTW1-oK8cpvw4-FEMtzMrf-mKocuGZn-qWK6YF#ginger-parking-nirvana
 
 This makes it possible to manage consensus or implementation updates, while ensuring detailed traceability of the versions used in the network.
 
-To prevent the state of an RGB contract from becoming too cumbersome to validate on the client side, a consensus rule imposes a maximum size of `2^16` bytes (64 Kio) for any data involved in validation calculations. This applies to each variable or structure: no more than 65536 bytes, or the equivalent in numbers (32768 16-bit integers, etc.). This also applies to collections (lists, sets, maps), which may not exceed `2^16` elements.
+To prevent the state of an RGB contract from becoming too cumbersome to validate on the client side, a consensus rule imposes a maximum size of `2^16` bytes (64 KiB) for any data involved in validation calculations. This applies to each variable or structure: no more than 65536 bytes, or the equivalent in numbers (32768 16-bit integers, etc.). This also applies to collections (lists, sets, maps), which may not exceed `2^16` elements.
 
 This limit guarantees:
 

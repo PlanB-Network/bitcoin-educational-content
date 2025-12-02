@@ -1,13 +1,18 @@
 ---
 name: BitcoinVN
-description: A quick guide provides a step-by-step guide on how to use BitcoinVN.io's online service to swap Bitcoin (BTC) for Vietnamese Dong (VND) and vice versa without KYC (no account is needed for small trades).
+description: A quick guide provides a step-by-step guide on how to use BitcoinVN.io without KYC, no account is needed for small trades.
 ---
 
 ![cover](assets/cover.webp)
 
-# About BitcoinVN
+## Introduction
 
-BitcoinVN.io has been Vietnam's first and most trusted Bitcoin exchange since 2014. We empower users to convert digital assets directly into Vietnamese Dong (VND) via three key services: **(b)** Instant Online Swaps, **(e)** Bitcoin ATMs, and **(d)** Over-The-Counter (OTC). Our commitment to top-tier security and compliance ensures that locals and expats rely on us for secure remittances, investments, and daily digital payments.
+BitcoinVN.io has been Vietnam's first and most trusted Bitcoin exchange since 2014. We empower users to convert digital assets directly into Vietnamese Dong (VND) via three key services:
+- **(b)** Instant Online Swaps
+- **(e)** Bitcoin ATMs
+- **(d)** Over-The-Counter (OTC)
+
+Our commitment to top-tier security and compliance ensures that locals and expats rely on us for secure remittances, investments, and daily digital payments.
 
 ![BitcoinVN.io](assets/en/01.webp)
 
@@ -19,9 +24,7 @@ Our online exchange platform is designed for an intuitive user experience, allow
 
 This guide is strictly for educational purposes about our tools and **not financial advice**. Please be advised that cryptocurrencies are highly volatile and **not legal tender in Vietnam**. We urge you to comply with all local laws and strongly consider seeking professional financial advice.
 
----
-
-## How to swap VND for BTC (Buying Bitcoin)
+## How to buy BTC for VND
 
 ![BitcoinVN.io](assets/en/02.webp)
 
@@ -37,15 +40,17 @@ In the "You receive" section - the big square with Bitcoin logo, select BTC (Bit
 
 Manually enter the amount you desired to swap and use the [daily limits link](https://bitcoinvn.io/info) or Min/Max buttons to check your capacity if you do not have an account. The system instantly calculates the final amount of BTC you will receive after factoring in the [swap fees](https://support.bitcoinvn.io/help/en-us/4-orders/12-fees) and exchange rate at that specific time. Review the final BTC amount to see if you are happy with the deal.
 
-#### Tips:
+#### Tips
 
-**Remember that transaction rates fluctuate, so always check the final price before confirming.**
-**An account is not required with daily transactions limited to VND 250,000 (~ USD $8). Further information is available in our [bank transfer policies]: (https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).**
-**Network fee is generally cheaper when you choose Lightning Network compared to mainchain.**
+Remember that **transaction rates fluctuate**, so always check the final price before confirming.
+
+**An account is not required with** daily transactions limited to VND 250,000 (~ USD $8). Further information is available in our [bank transfer policies](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
+
+**Beware**: the network fee is generally cheaper when you choose Lightning Network compared to the onchain transaction method.
 
 ### Step 4: Enter Your Bitcoin Address
 
-Copy and paste your receiving BTC wallet address, or scan the QR code in the address field (highlighted in red in the screenshot). Double-check it — this is where your BTC will be sent.
+Copy and paste your receiving BTC wallet address, or scan the QR code in the address field (highlighted in red in the screenshot). Double-check it since this is where your BTC will be sent.
 
 ### Step 5: Proceed to Your Payment of Choice
 
@@ -55,17 +60,15 @@ Click the big yellow Swap button to proceed to a payment page with BitcoinVN’s
 
 After making the payment, upload a screenshot/receipt of the payment receipt for verification (usually 1–10 minutes on business days). Once confirmed, BTC is sent instantly to your wallet. You’ll receive email updates and can track the order number.
 
----
-
-## How to swap BTC for VND (Selling Bitcoin)
+## How to Sell BTC for VND
 
 ![BitcoinVN.io](assets/en/03.webp)
 
-### Step 1 & 2 & 3: Select Sending & Receiving Currency then enter your desired BTC Amount to swap
+### Step 1, 2, and 3: Select Sending, Receiving Currency, enter swap amounts
 
-Similar to the above buying process, click on the "You send" section to choose the asset you want to swap via what blockchain e.g. BTC (bitcoin blockchain/mainchain), or BTC via lightning (lightning network) from the dropdown.
+Similar to the above buying process, click on the `You send` section to choose the asset you want to swap via what blockchain e.g. BTC (bitcoin on-chain), or BTC via lightning network (an off-chain solution) from the dropdown.
 
-Then in the "You receive" section, select the asset you want to receive and how you want to receive e.g.VND Bank Transfer (receive via your bank).
+Then in the `You receive` section, select the asset you want to receive and how you want to receive; for example via a VND Bank Transfer (receive via your bank).
 
 Input the amount of BTC you want to swap. The app instantly calculates how much VND you'll receive. Check the network fee, final receiving amounts and settlement note (may be delayed outside business hours).
 
@@ -79,23 +82,20 @@ Click on the Swap button to show BitcoinVN's BTC deposit address and a QR code. 
 
 Allow time for confirmation (seconds on Lightning, minutes on-chain). The VND will be transferred to your bank account—usually within 1–2 hours during business hours. An email and order number will be issued for tracking.
 
----
-
-## Connect With Us & Join Our Community
+## Conclusion
 
 We sincerely welcome your questions, requests, and feedback about our products and services.
 
-For specific information, you can review our Asset Recovery Policy here: [https://support.bitcoinvn.io/help/en-us/3-general/1-asset-recovery-policy](https://support.bitcoinvn.io/help/en-us/3-general/1-asset-recovery-policy), or reach out to us directly on Telegram: [https://t.me/bitcoinvn\_community](https://t.me/bitcoinvn_community).
+For specific information, you can review our Asset Recovery Policy [here](https://support.bitcoinvn.io/help/en-us/3-general/1-asset-recovery-policy), or reach out to us directly on [Telegram](https://t.me/bitcoinvn_community).
 
 As digital asset adoption integrates into mainstream global finance, **BitcoinVN** is strategically positioned to lead the development of Vietnam's international financial capacity. We bridge the gap between the physical and digital economies, blending global liquidity with local ease. Our mission is to democratize secure and easy access to a comprehensive range of quality products and professional services right here in Vietnam.
 
 We cover your needs whether you are an individual or a corporation. This includes everything from exchanging local currency for BTC, swapping digital assets, or remitting funds overseas, to incorporating merchant tools and API solutions to advance your business in the future digital economy.
 
 We highly encourage you to join our community and stay updated:
-
-* **LinkedIn:** [https://vn.linkedin.com/company/bitcoinvn](https://vn.linkedin.com/company/bitcoinvn)
-* **Facebook:** [https://www.facebook.com/www.bitcoinvn.io](https://www.facebook.com/www.bitcoinvn.io)
-* **X (Twitter):** [https://x.com/Bitcoin\_Vietnam](https://x.com/Bitcoin_Vietnam)
-* **TikTok:** [https://www.tiktok.com/@bitcoinvn.io](https://www.tiktok.com/@bitcoinvn.io)
-* **Nostr:** [https://iris.to/npub1j4lp9hmzd3rqlcw7mml09uwvwap0g5u5wx2qm2lzt9wcqt925jvqf4wzaa](https://iris.to/npub1j4lp9hmzd3rqlcw7mml09uwvwap0g5u5wx2qm2lzt9wcqt925jvqf4wzaa)
-* **Latest News:** [https://bitcoinvn.io/news/](https://bitcoinvn.io/news/)
+- [LinkedIn](https://vn.linkedin.com/company/bitcoinvn)
+- [Facebook](https://www.facebook.com/www.bitcoinvn.io)
+- [X](https://x.com/Bitcoin_Vietnam) (former Twitter)
+- [TikTok](https://www.tiktok.com/@bitcoinvn.io)
+- [Nostr](https://iris.to/npub1j4lp9hmzd3rqlcw7mml09uwvwap0g5u5wx2qm2lzt9wcqt925jvqf4wzaa)
+- [Latest News](https://bitcoinvn.io/news/)

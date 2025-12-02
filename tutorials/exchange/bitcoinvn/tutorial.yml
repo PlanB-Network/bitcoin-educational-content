@@ -1,48 +1,28 @@
-# UUID of the tutorial
-# generate a random uuid v4
 id: 64adb8a6-a0f8-41e7-a534-bac2eae07346
 
 # Characteristic of tutorial
 
-# Write the project name
 project_id: 2d295a5a-899d-4b78-b8da-df05f71b52e3
 
-# define the content difficulty level from user's perspective
 level: beginner
 
-# Category
 category: centralized
 
-# Insert the UUID of the person that authored this tutorial
 professor_id: 645ccfd9-3cc3-41c2-8c5b-c5dfd2873208
 
-# The list of tags is composed of 51 items that can be found here (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)
 tags:
   - guides
   - use-case
   - privacy
   - user-friendly
 
-# OPTIONAL
-# its use is to mention the original source at both the beginning and at the end of the tutorial
 credit_link: https://bitcoinvn.io/
 
-# Proofreading metadata
-# Only the original author needs to add this data related to initial proofreading
-# Any further data will be automatically added after each proofreading
-#
-# This information are provided by PBN team, no need to specify if you are a contributor.
-# for PBN staff: an entry is created for each language specifying:
-# - language: language to review
-# - last_contribution_date: the date when last contribution has been received
-# - urgency: level of urgency from 1 (low urgency) to X (high urgency)
-# - contributor_names: list of contributors PBN ids
-# - reward: amount of sats available for reward
 original_language: en
 proofreading:
   - language: en
     last_contribution_date: 2025-11-27
-    urgency: 1 # default value
+    urgency: 1
     contributor_names:
-      - https://github.com/Anh-La #insert your github username
-    reward: 0 # default value
+      - Anh-La
+    reward: 0

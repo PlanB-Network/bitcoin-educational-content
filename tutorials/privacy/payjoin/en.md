@@ -9,7 +9,7 @@ description: What is a Payjoin on Bitcoin?
 
 ## Understanding Payjoin Transactions on Bitcoin
 
-Payjoin is a specific structure of Bitcoin transaction that enhances user privacy during a payment by collaborating with the payment recipient.
+[Payjoin](https://planb.academy/en/resources/glossary/payjoin) is a specific structure of Bitcoin transaction that enhances user privacy during a payment by collaborating with the payment recipient.
 
 In 2015, [LaurentMT](https://twitter.com/LaurentMT) first mentioned this method as "steganographic transactions" in a document accessible [here](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). This technique was later adopted by the Samourai Wallet, which became the first client to implement it with the Stowaway tool in 2018. The concept of Payjoin is also found in [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki) and [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki). Several terms are used to refer to Payjoin:
 - Payjoin
@@ -17,7 +17,7 @@ In 2015, [LaurentMT](https://twitter.com/LaurentMT) first mentioned this method 
 - P2EP (Pay-to-End-Point)
 - Steganographic transaction
 
-The uniqueness of Payjoin lies in its ability to generate a transaction that appears ordinary at first glance but is actually a mini Coinjoin between two parties. To achieve this, the transaction structure involves the payment recipient alongside the actual sender in the inputs. The recipient includes a payment to themselves in the middle of the transaction, which allows them to be paid.
+The uniqueness of Payjoin lies in its ability to generate a transaction that appears ordinary at first glance but is actually a mini [Coinjoin](https://planb.academy/en/resources/glossary/coinjoin) between two parties. To achieve this, the transaction structure involves the payment recipient alongside the actual sender in the inputs. The recipient includes a payment to themselves in the middle of the transaction, which allows them to be paid.
 
 Let's take a concrete example: if you buy a baguette for `4000 sats` using a UTXO of `10,000 sats` and opt for a Payjoin, your baker will add a UTXO of `15,000 sats` that belongs to them as an input, which they will receive in full as an output, in addition to your `4000 sats`:
 ![Payjoin transaction diagram](assets/en/1.webp)

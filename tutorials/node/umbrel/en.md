@@ -13,11 +13,11 @@ description: Discover and install Umbrel - Your Bitcoin node and home server
 ### What is a Bitcoin node?
 
 
-A Bitcoin node is a computer that participates in the Bitcoin network by running Bitcoin Core software or an alternative client. Its role is essential to the operation and security of the network:
+A Bitcoin [node](https://planb.academy/en/resources/glossary/node) is a computer that participates in the Bitcoin network by running Bitcoin Core software or an alternative client. Its role is essential to the operation and security of the network:
 
 
 
-- **Blockchain storage**: Maintains a complete, up-to-date copy of the Blockchain Bitcoin
+- **[Blockchain](https://planb.academy/en/resources/glossary/blockchain) storage**: Maintains a complete, up-to-date copy of the Blockchain Bitcoin
 - **Transaction verification**: validates each transaction and block according to protocol rules
 - **Information dissemination**: Shares new transactions and blocks with other nodes
 - **Consensus-building**: Contributes to the application of network rules

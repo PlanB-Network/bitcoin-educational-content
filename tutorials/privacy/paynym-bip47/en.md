@@ -5,7 +5,7 @@ description: Use a reusable payment code on Ashigaru
 ![cover](assets/cover.webp)
 
 
-The worst privacy mistake you can make on Bitcoin is reusing addresses. Every time the same address receives several payments, these transactions are linked together, providing the world with a map of your transactions. It is therefore strongly recommended that you always generate a unique address for each receipt. But for some Bitcoin applications, this is not a simple matter.
+The worst privacy mistake you can make on Bitcoin is [address reuse](https://planb.academy/en/resources/glossary/address-reuse). Every time the same address receives several payments, these transactions are linked together, providing the world with a map of your transactions. It is therefore strongly recommended that you always generate a unique address for each receipt. But for some Bitcoin applications, this is not a simple matter.
 
 
 BIP47, proposed by Justus Ranvier in 2015, provides an elegant answer to this problem. It introduces the concept of a **reusable payment code**: a unique identifier enabling a virtually unlimited number of onchain bitcoin payments to be received, without ever reusing an address. Thanks to a cryptographic mechanism based on an ECDH (*Diffie-Hellman on elliptic curves*) exchange, each payment to the same code results in a blank address, specific to the relationship between sender and recipient.

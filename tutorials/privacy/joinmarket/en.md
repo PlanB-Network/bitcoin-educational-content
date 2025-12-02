@@ -18,7 +18,7 @@ The objective of this tutorial is to illustrate the theoretical and practical op
 ## JoinMarket Theoretical Definition
 
 
-We can define JoinMarket as a tool, or a Wallet, that enables CoinJoin with other users in a totally Trustless manner and without any central coordinator.
+We can define JoinMarket as a tool, or a Wallet, that enables [CoinJoin](https://planb.academy/en/resources/glossary/coinjoin) with other users in a totally Trustless manner and without any central coordinator.
 
 
 Since the whole theoretical part of this tool is extremely broad, I decided to address it in a specific episode of my podcast. For those who can understand Italian, I highly recommend continuing reading after listening to the episode, so as to better assimilate the basic concepts for using this program properly.

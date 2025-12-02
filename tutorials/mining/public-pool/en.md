@@ -7,7 +7,7 @@ description: Introduction to Public Pool
 
 **Public Pool** is not just any pool; it's what's also known as a **Solo Pool**. If your miner succeeds in mining a block, then you collect the entire block reward, which is not shared with other participants of the pool or with the pool itself.
 
-**Public Pool** solely provides a **block template** for your miner so that it can perform its task without you needing to have a **Bitcoin node** and the software that communicates with your miner. Since you are not pooling your computing power with that of other participants, your chances of successfully mining a block are obviously very low, resembling somewhat of a lottery system, where sometimes a lucky individual wins the jackpot.
+**Public Pool** solely provides a **block template** for your [miner](https://planb.academy/en/resources/glossary/miner) so that it can perform its task without you needing to have a **Bitcoin node** and the software that communicates with your miner. Since you are not pooling your computing power with that of other participants, your chances of successfully mining a block are obviously very low, resembling somewhat of a lottery system, where sometimes a lucky individual wins the jackpot.
 
 ![signup](assets/1.webp)
 
@@ -15,7 +15,7 @@ On the **Dashboard** of **Public Pool**, you still have some statistics like the
 
 ![signup](assets/2.webp)
 
-In the first few lines, we can see **Bitaxe** with 1323 **Bitaxe** connected for a total of 649TH/s. **Bitaxe** is an **Open source** project that allows for the simple reuse of a chip from an **ASIC** like the **Antminer S19** on an **opensource** electronic board to make a tiny miner of 0.5TH/s for 15W. This is the miner we will use as an example for this tutorial.
+In the first few lines, we can see **Bitaxe** with 1323 **Bitaxe** connected for a total of 649TH/s. **Bitaxe** is an **Open source** project that allows for the simple reuse of a chip from an **[ASIC](https://planb.academy/en/resources/glossary/asic)** like the **Antminer S19** on an **opensource** electronic board to make a tiny miner of 0.5TH/s for 15W. This is the miner we will use as an example for this tutorial.
 
 ## Adding a **Worker** 👷‍♂️
 
@@ -56,7 +56,7 @@ On the **Dashboard**, different information is displayed both about your data an
 
 You have **Network Hash Rate** which corresponds to the total working power of the **Bitcoin** network.
 
-The **Network Difficulty** indicates the difficulty that must be reached to validate a block.
+The **Network [Difficulty](https://planb.academy/en/resources/glossary/difficulty)** indicates the difficulty that must be reached to validate a block.
 
 And **Your Best Difficulty** is the highest difficulty you have reached. If, by chance 🍀, you reach the network difficulty, then you win the entire block reward... after 100 blocks. You would have to wait 100 blocks before being able to spend them.
 

@@ -8,7 +8,7 @@ description: Introduction to Ocean Mining
 
 **May 2024**
 
-Ocean Mining is a somewhat unique mining pool. Here, no accounts, no email addresses, no passwords are required. Just like Bitcoin, everything is transparent, pseudonymous, and contributors can choose from four different block templates.
+Ocean Mining is a somewhat unique [mining pool](https://planb.academy/en/resources/glossary/mining-pool). Here, no accounts, no email addresses, no passwords are required. Just like Bitcoin, everything is transparent, pseudonymous, and contributors can choose from four different block templates.
 
 ### Compensation System
 
@@ -26,7 +26,7 @@ This mechanism smooths out the compensation and discourages "pool hopping", whic
 
 ### Withdrawals
 
-The operation of Ocean Mining allows its contributors to recover "clean" bitcoins, meaning bitcoins that are directly issued by the block reward.
+The operation of Ocean Mining allows its contributors to recover "clean" bitcoins, meaning bitcoins that are directly issued by the [block reward](https://planb.academy/en/resources/glossary/block-reward).
 
 Unlike the majority of other pools, Ocean does not receive the newly mined bitcoins; the contributors' addresses are directly integrated into the block template.
 
@@ -34,7 +34,7 @@ For now, the minimum amount to truly benefit from the clean bitcoins is 1,048,57
 Otherwise, your sats will be kept by Ocean until your total rewards exceed this amount.
 
 All bitcoins temporarily kept by Ocean are on this address: [37dvwZZoT3D7RXpTCpN2yKzMmNs2i2Fd1n, everything is verifiable on the TimeChain.](https://mempool.space/address/37dvwZZoT3D7RXpTCpN2yKzMmNs2i2Fd1n)
-It is also possible to withdraw your sats via Lightning using BOLT12. We will see how to set this up.
+It is also possible to withdraw your sats via [Lightning](https://planb.academy/en/resources/glossary/lightning-network) using BOLT12. We will see how to set this up.
 
 ### Pool Fees
 

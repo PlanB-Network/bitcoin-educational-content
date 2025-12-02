@@ -35,7 +35,7 @@ The time of spending is therefore the most critical: **spending Bitcoin is an ac
 ## Coin Control
 
 
-In the Bitcoin protocol, items such as _account_ or _monetary units_ do not exist. The concept of UTXO is explained excellently in the following course, which I highly recommend:
+In the Bitcoin protocol, items such as _account_ or _monetary units_ do not exist. The concept of [UTXO](https://planb.academy/en/resources/glossary/utxo) is explained excellently in the following course, which I highly recommend:
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c

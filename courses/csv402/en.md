@@ -2684,7 +2684,7 @@ To initiate the transfer of an RGB asset, Bob must first issue an invoice. This 
 
 - Tell Alice the type of operation to be performed (for example, a `Transfer` from an RGB20 interface);
 - Provide Alice with Bob's *seal definition* (i.e. the UTXO where he wishes to receive the asset);
-- Specify the quantity of active ingredient required (e.g. 100 units).
+- Specify the quantity of active ingredient required (e.g. 100 units). #####THIS SEEMS TO BE A MISTRANSLATIO FROM... MAYBE FRENCH??? ###
 
 Bob uses the `rgb` tool on the command line. Suppose he wants 100 units of a token whose `ContractId` is known, wants to rely on `Tapret`, and specifies its UTXO (`456e3..dfe1:0`):
 

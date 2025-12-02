@@ -1,7 +1,7 @@
 question: Ni uwuhe muti w’intango wo kwishura usabwa ku bucuruzi bw’ivy’ingenzi?
 answer: Ubusuwisi Bitcoin kwishura
 wrong_answers:
-  - Nœud ouvert
+  - Open Node
   - Serveur BTCPay
   - Bitcoinize PoS
 explanation: |

@@ -2462,8 +2462,7 @@ Finally, the financial Renaissance ushered in the transition to economic moderni
 
 ### The historical importance of precious metals
 
-
-Welcome to this section on the emergence of reserve currencies and central banks. As the first point of this new section, we're going to focus on the evolution of global reserve currencies.
+This section covers the emergence of reserve currencies and central banks, beginning with the evolution of global reserve currencies.
 
 
 Precious metals, especially gold and silver, have long been considered the basis of wealth and power in empires. The thirst for gold has always been a dominant driving force, and it was the influx of precious metals that had the most direct and obvious effect on monetary developments in Europe. In medieval and early Renaissance times, this obsession with gold and silver was due to the difficulty of retaining value in other forms of merchandise, as well as to the strong demand from foreign powers, particularly in trade with the Orient.
@@ -2491,7 +2490,7 @@ In response to Europe's demand for gold and silver, "the constant motivation for
 ![](./assets/fr/5_1_Real_Portugais.webp)
 
 
-Here above you can see a Portuguese half-Real from the time of these Maritime conquests.
+The image above shows a Portuguese half-Real from the time of these Maritime conquests.
 
 
 ### The Spanish apogee and the Spanish Dollar (1535-17th century)
@@ -2504,14 +2503,14 @@ With the conquest of the New World, **Spain** became the dominant player. Its mo
 ![](./assets/fr/5_1_Dollar_Espagnol.webp)
 
 
-The Spanish real, also known as the "piece of eight", got its nickname because it was often cut into eighths to create smaller coins. It was also known as the **Spanish dollar**. The coin you see above dates from 1814, making it a slightly more recent example. However, the very first Spanish dollar coins were not as refined; they were hammer-struck and generally less round and crisp.
+The Spanish real, also known as the "piece of eight", got its nickname because it was often cut into eighths to create smaller coins. It was also known as the **Spanish dollar**. The coin shown above dates from 1814, making it a slightly more recent example. The very first Spanish dollar coins were hammer-struck and generally less round and crisp.
 
-What's particularly interesting is that the Spanish dollar served as the international reserve currency at the time. The Spanish authorities also issued their own local currency, the maravedi, and regularly adjusted the money supply through recalls. For example, a copper or bronze coin initially worth one maravedi might be recalled and stamped with "2," then later with "4," and so on, potentially reaching "8." In the high-resolution photo, you can clearly see the "8" stamped on the coin. This method effectively expanded the money supply... which inevitably led to inflation.
+The Spanish dollar served as the international reserve currency of the time. The Spanish authorities also issued their own local currency, the maravedi, and regularly adjusted the money supply through recalls. For example, a copper or bronze coin initially worth one maravedi might be recalled and stamped with "2," then later with "4," and so on, potentially reaching "8." In the high-resolution photo, the "8" stamped on the coin is clearly visible. This method effectively expanded the money supply, which inevitably led to inflation.
 
 ![](./assets/fr/5_1_maravedi.webp)
 
 
-If we look at the history of reserve currencies, an interesting point emerges: empires didn't inflate their currencies as long as they retained their reserve currency status. **It was only at the end of their domination that they ended up devaluing it, losing this privilege, which was then passed on to a new empire**.
+An interesting pattern emerges from the history of reserve currencies: empires did not inflate their currencies as long as they retained their reserve currency status. **It was only at the end of their domination that they ended up devaluing it, losing this privilege, which was then passed on to a new empire**.
 
 
 In Spain, the Spanish dollar dominated world trade for almost 200 years, particularly between China and Europe. These coins could even be found in Chinese ports. And that's where we get a wink from history: the American dollar comes directly from this currency. When the United States was formed in 1792, it passed a law to mint its own currency, and its first dollars were created on the model of the Spanish dollar, both in name and coin size.
@@ -2537,7 +2536,7 @@ After the Iberian apogee, **the Netherlands** emerged as a new commercial power 
 ![](./assets/fr/5_1_VOC.webp)
 
 
-In the first photo above, you can see a Gulden from 1722 (a beautiful silver coin), while in the second, there is a coin issued by the VOC.
+This first photo above shows a Gulden from 1722, while the second shows a coin issued by the VOC.
 
 The VOC was an extremely powerful company for its time: it had its own army and even issued its own currency.
 

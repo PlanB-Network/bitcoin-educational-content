@@ -68,13 +68,13 @@ In the third section of our course, we get down to the nitty-gritty: practice! T
 
 **Section 4: Understanding coinjoin transactions**
 
-How can we talk about privacy on Bitcoin without mentioning coinjoins? In section 4, you'll find out all you need to know about this mixing method. You'll learn what coinjoins are, their history and objectives, as well as the different types of coinjoins that exist. Finally, for the more experienced user, we'll take a look at what anonsets and entropy are, and how to calculate them.
+How can we talk about privacy on Bitcoin without mentioning [coinjoins](https://planb.academy/en/resources/glossary/coinjoin)? In section 4, you'll find out all you need to know about this mixing method. You'll learn what coinjoins are, their history and objectives, as well as the different types of coinjoins that exist. Finally, for the more experienced user, we'll take a look at what anonsets and entropy are, and how to calculate them.
 
 ![BTC204](assets/en/004.webp)
 
 **Section 5: Understanding the challenges of other advanced confidentiality techniques**
 
-In the fifth section, we'll take a look at all the other techniques available to protect your privacy on Bitcoin, apart from coinjoin. Over the years, developers have shown remarkable creativity in designing tools dedicated to privacy. We'll examine various methods, including PayJoin, collaborative transactions, Coin Swap, and Atomic Swap, detailing how they work, their objectives, and any potential weaknesses.
+In the fifth section, we'll take a look at all the other techniques available to protect your privacy on Bitcoin, apart from coinjoin. Over the years, developers have shown remarkable creativity in designing tools dedicated to privacy. We'll examine various methods, including [PayJoin](https://planb.academy/en/resources/glossary/payjoin), collaborative transactions, Coin Swap, and [Atomic Swap](https://planb.academy/en/resources/glossary/atomic-swap), detailing how they work, their objectives, and any potential weaknesses.
 
 We'll also look at privacy at the level of the network of nodes and transaction propagation. We'll also discuss the various protocols that have been proposed over the years to enhance user privacy on Bitcoin, including static address protocols.
 
@@ -96,7 +96,7 @@ Bitcoin is first and foremost a currency, but do you actually know how BTC is re
 
 ### UTXOs on Bitcoin: what are they?
 
-The Bitcoin protocol is based on the UTXO model, which stands for "Unspent Transaction Output".
+The Bitcoin protocol is based on the [UTXO](https://planb.academy/en/resources/glossary/utxo) model, which stands for "Unspent Transaction Output".
 
 This model differs profoundly from traditional banking systems, which rely on a mechanism of accounts and balances to track financial flows. Indeed, in the banking system, individual balances are maintained in accounts associated with a specific identity. For example, when you buy bread from a baker, your bank simply debits the purchase amount from your account, reducing your balance, while the baker's account is credited with the same amount, increasing its balance. In this system, there is no notion of a link between the money entering your account and the money leaving it, apart from transaction records.
 
@@ -110,7 +110,7 @@ Bitcoin works differently. The concept of an account does not exist, and monetar
 1 BTC = 100 000 000 SATS
 ```
 
-Theoretically, one UTXO can represent any value in bitcoins, ranging from a sat to a theoretical maximum of around 21 million BTC. However, it is logically impossible to own all 21 million bitcoins, and there is a lower economic threshold called "dust", below which a UTXO is considered economically unprofitable to spend.
+Theoretically, one UTXO can represent any value in bitcoins, ranging from a sat to a theoretical maximum of around 21 million BTC. However, it is logically impossible to own all 21 million bitcoins, and there is a lower economic threshold called "[dust](https://planb.academy/en/resources/glossary/dust-limit)", below which a UTXO is considered economically unprofitable to spend.
 
 **Did you know?** The largest UTXO ever created on Bitcoin had a value of `500,000 BTC`. It was created by the MtGox platform during a consolidation operation in November 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
@@ -337,7 +337,7 @@ Theoretically, this statement is correct. In the first part of this course, we s
 
 However, the practical reality is far more complex. There are numerous behaviors that can link a real identity to on-chain activity. In analysis, this is referred to as an entry point, and there are numerous them.
 
-The most common is KYC (*Know Your Customer*). If you withdraw your Bitcoins from a regulated platform to one of your personal receiving addresses, then some people are able to link your identity to that address. More broadly, an entry point can be any form of interaction between your real life and a Bitcoin transaction. For example, if you publish a receiving address on your social networks, this could be an entry point for analysis. If you make a payment in Bitcoins to your baker, he will be able to associate your face (part of your identity) with a Bitcoin address.
+The most common is [KYC](https://planb.academy/en/resources/glossary/kyc-know-your-customer) (*Know Your Customer*). If you withdraw your Bitcoins from a regulated platform to one of your personal receiving addresses, then some people are able to link your identity to that address. More broadly, an entry point can be any form of interaction between your real life and a Bitcoin transaction. For example, if you publish a receiving address on your social networks, this could be an entry point for analysis. If you make a payment in Bitcoins to your baker, he will be able to associate your face (part of your identity) with a Bitcoin address.
 
 These entry points are virtually unavoidable when using Bitcoin. Although we may seek to restrict their scope, they will always be present. That's why it's crucial to combine methods that aim to preserve your privacy. While maintaining a separation between your real identity and your transactions is an interesting approach, it remains insufficient today. Indeed, if all your on-chain activities can be grouped together, then even the smallest entry point is likely to compromise the single layer of confidentiality you've established.
 
@@ -376,7 +376,7 @@ The first two chain analysis heuristics were discovered by Satoshi Nakamoto hims
 
 
 - cIOH (*Common Input Ownership Heuristic*);
-- and address reuse.
+- and [address reuse](https://planb.academy/en/resources/glossary/address-reuse).
 
 ![BTC204](assets/en/031.webp)
 
@@ -560,7 +560,7 @@ These similarities between inputs and outputs don't stop at address reuse. Any s
 
 ![BTC204](assets/en/047.webp)
 
-On this diagram, we can see that input n° 0 unlocks a P2WPKH script (SegWit V0 starting with `bc1q`). Output n° 0 uses the same type of script. Output n° 1, on the other hand, uses a P2TR script (SegWit V1 beginning with `bc1p`). The interpretation of this feature is that the address with the same versioning as the input is likely the change address. It would therefore always belong to the same user.
+On this diagram, we can see that input n° 0 unlocks a P2WPKH script ([SegWit](https://planb.academy/en/resources/glossary/segwit) V0 starting with `bc1q`). Output n° 0 uses the same type of script. Output n° 1, on the other hand, uses a P2TR script (SegWit V1 beginning with `bc1p`). The interpretation of this feature is that the address with the same versioning as the input is likely the change address. It would therefore always belong to the same user.
 
 Here is a transaction on which this heuristic can probably be applied:
 
@@ -574,7 +574,7 @@ Source: [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec4
 
 On the latter, we can see that input no. 0 and output no. 1 use P2WPKH scripts (SegWit V0), while output no. 0 uses a different P2PKH script (Legacy).
 
-In the early 2010s, this heuristic based on script versioning was relatively unhelpful due to the limited types of scripts available at the time. However, over time and with successive Bitcoin updates, an increasing diversity of script types has been introduced. This heuristic is therefore becoming increasingly relevant, as with a wider range of script types, users divide into smaller groups, thus increasing the chances of applying this internal versioning reuse heuristic. For this reason, from a confidentiality perspective only, it's advisable to opt for the most common type of script. For example, as I write these lines, Taproot scripts (`bc1p`) are less frequently used than SegWit V0 scripts (`bc1q`). Although the former offer economic and confidentiality benefits in certain specific contexts, for more traditional single-signature uses, it may make sense to stick with an older standard for confidentiality reasons until the new standard is more widely adopted.
+In the early 2010s, this heuristic based on script versioning was relatively unhelpful due to the limited types of scripts available at the time. However, over time and with successive Bitcoin updates, an increasing diversity of script types has been introduced. This heuristic is therefore becoming increasingly relevant, as with a wider range of script types, users divide into smaller groups, thus increasing the chances of applying this internal versioning reuse heuristic. For this reason, from a confidentiality perspective only, it's advisable to opt for the most common type of script. For example, as I write these lines, [Taproot](https://planb.academy/en/resources/glossary/taproot) scripts (`bc1p`) are less frequently used than SegWit V0 scripts (`bc1q`). Although the former offer economic and confidentiality benefits in certain specific contexts, for more traditional single-signature uses, it may make sense to stick with an older standard for confidentiality reasons until the new standard is more widely adopted.
 
 ### Round number payments
 
@@ -1629,7 +1629,7 @@ If you don't have your own Bitcoin node, you'll be forced to use a third-party o
 
 ![BTC204](assets/en/105.webp)
 
-The main risk when you're not using your own Bitcoin node is that the operator of the third-party node could observe your activities on the blockchain, or even share this information with other entities. To mitigate this risk, an intermediate solution is to use wallet software that masks your connections via the Tor network. This can reduce the exposure of your data. However, the optimal solution is to have your own Bitcoin node and use it to broadcast your transactions. Of course, you'll also need to be careful not to leak any information through your node, but that's another subject we'll look at in later sections.
+The main risk when you're not using your own Bitcoin node is that the operator of the third-party node could observe your activities on the blockchain, or even share this information with other entities. To mitigate this risk, an intermediate solution is to use wallet software that masks your connections via the [Tor](https://planb.academy/en/resources/glossary/tor-the-onion-router) network. This can reduce the exposure of your data. However, the optimal solution is to have your own Bitcoin node and use it to broadcast your transactions. Of course, you'll also need to be careful not to leak any information through your node, but that's another subject we'll look at in later sections.
 
 Beyond the obvious advantage for your privacy, having your own full node also ensures the veracity of data on the blockchain, protects you against censorship, and allows you to actively participate in Bitcoin's governance. By using your own node, you contribute your economic weight to the chain of your choice, which is important during conflicts within the community, such as during the Blocksize War from 2015 to 2017, for example. In the event of a fork, using a third-party node could lead you to support a chain you don't want to favor, as the node operator makes the choice for you.
 

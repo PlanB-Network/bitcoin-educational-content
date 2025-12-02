@@ -2268,13 +2268,13 @@ This monetary deterioration not only destroyed the empire's internal cohesion. I
 ### The three phases of imperial devaluation
 
 
-Roman monetary history can be divided into three distinct periods. The first, from the Julio-Claudians to the Antonines (27 BC - end of 2nd century), maintained relative stability. Under Trajan, the empire reached its apogee: covering 5 million km², Rome became the first millionaire city in history. The denarius retains a silver purity of 98% to 80% - a moderate devaluation still allowing the economy to function.
+Roman monetary history can be divided into three distinct periods. The first, from the Julio-Claudians to the Antonines (27 BC - end of 2nd century), maintained relative stability. Under Trajan, the empire reached its apogee: covering 5 million km², Rome became the first city in history to reach one million inhabitants. The denarius retains a silver purity of 98% to 80% - a moderate devaluation still allowing the economy to function.
 
 
 The second period, the 3rd century, was one of military anarchy. Twenty-six emperors succeeded one another in the space of a few decades. The currency collapsed: the antoninianus, supposedly worth two denarii, contained only 1.5 in metallic weight - the first attempt to divorce legal and real value. This manipulation triggers Gresham's Law: bad money drives out good money. Citizens hoarded the good coins, spending only the devalued ones.
 
 
-Monetary treasures uncovered by archaeologists reveal this economic anxiety. Buried amphorae show, by stratification, how the Romans deposited the best coins first, gradually adding the devalued ones. These ancient "stacks" bear witness to human action in the face of uncertainty - an attempt to preserve value in a decaying world.
+Archaeological evidence, such as monetary treasures,reveals this economic anxiety. Buried amphorae, analyzed through stratification, show how Romans deposited the highest-quality coins first, gradually adding more debased ones over time. These ancient "stacks" bear witness to human action in the face of uncertainty - an attempt to preserve value in a decaying world.
 
 
 ### Constantine and the dual system
@@ -2286,7 +2286,7 @@ Constantine (310-337) attempted to stabilize the empire through radical reform. 
 At the same time, the people used the bronze nummus, which was constantly devalued. In 445, a solidus was worth 7,000 nummi; in 498, 16,800. This dual system institutionalized the Cantillon effect: those with access to the solidus - the administration, landowners - were protected from inflation. The plebs, confined to the nummus, became inexorably poorer.
 
 
-This monetary separation created two parallel economies with no official exchange rate. The solidus remained the unit of account, but circulated very little. The nummus is used for daily exchanges, but constantly loses value. This monetary architecture foreshadowed the inequalities of the emerging feudal system.
+This monetary separation created two parallel economies with no official exchange rate. The solidus remained the unit of account, but circulated very little. The nummus, in contrast, was used for daily exchanges but constantly loses value. This monetary architecture foreshadowed the inequalities of the emerging feudal system.
 
 
 ### The collapse of the division of labor
@@ -2298,7 +2298,7 @@ Currency devaluation gradually destroyed economic specialization. Without a reli
 Faced with this disintegration, the urban population fled to the countryside - an urban exodus reversing centuries of urbanization. Craftsmen abandoned their trades for subsistence farming. Large estates (latifundia) became self-sufficient islands, foreshadowing medieval seigneuries.
 
 
-In desperation, Diocletian even demanded taxes in kind - the ultimate admission of monetary failure. His edict of the maximum (301) attempted to control prices, accelerating the return to barter. Economic complexity regressed to pre-civilizational forms.
+In desperation, even Diocletian had demanded taxes in kind - the ultimate admission of monetary failure. His edict of the maximum (301) attempted to control prices, accelerating the return to barter. Economic complexity regressed to pre-civilizational forms.
 
 
 ### Survival through gold from Rome to Byzantium
@@ -2330,7 +2330,7 @@ From the 8th century onwards, Christian influence contributed to the reintroduct
 In England, coinage enjoyed a significant revival with the production of the silver penny under King Offa of Mercia around 765. This currency became so important that it remained virtually unchanged for 500 years.
 
 
-As a first artifact related to this period, let me show you a reproduction of an English penny from that time.
+As reproduction of an English penny from that period is shown below.
 
 
 ![](./assets/fr/3_5_penny.webp)
@@ -2342,7 +2342,7 @@ During the High Middle Ages, Europe fell into feudalism following the collapse o
 The return of coinage as a means of payment occurred gradually, culminating in the 13th century with the appearance of the gold florin in Florence in 1252, followed by the gold ducat in Venice. These gold coins were widely used thanks to the expansion of trade and the growing need for reliable, internationally accepted means of payment.
 
 
-In England, the monetary system was protected from dilution by innovative fiscal policies, such as the land tax introduced by William the Conqueror after 1066, which preserved the quality of the penny sterling. What's important to understand here is that sovereigns at the time could devalue the currency to finance the state, and **the introduction of this tax made it possible to keep the currency stable and finance the state through taxation.**
+In England, the monetary system was protected from dilution by innovative fiscal policies, such as the land tax introduced by William the Conqueror after 1066, which preserved the quality of the penny sterling. **The introduction of this tax was a significant development, as it allowed the state to be financed through taxation rather than monetary dilution, thereby helping to maintain currency stability.**
 
 
 However, the temptation to profit through monetary dilution led to crises, as in the reign of Henry I in the 12th century, when the quality of coinage fell dramatically. Severe reforms, sometimes accompanied by violent measures against coiners, temporarily restored confidence in the currency.
@@ -2357,7 +2357,7 @@ These innovations were a response to the chronic shortage of metallic money, and
 The Crusades, meanwhile, stimulated Mediterranean trade, fostering the development of international exchanges and new banking practices, notably through the Order of the Knights Templar. The Knights Templar became important financial intermediaries, enabling crusaders to obtain liquidity far from home, foreshadowing the modern European banking system.
 
 
-To make the link with the Templars, here below you can observe a French medieval coin, where you can recognize a beautiful cross in the center. It was quite common for coins of this era to bear this cross.
+To make the link with the Templars, a French medieval coin from this era is shown below, featuring a prominent cross, a common motif on coinage of the time.
 
 
 ![](./assets/fr/3_5_Denier-france.webp)
@@ -2372,16 +2372,10 @@ At the same time, the Hundred Years' War (1337-1453) forced states to adopt more
 The Middle Ages were thus marked by a constant tension between the need for reliable money for trade and the constant temptation for rulers to dilute money for immediate profit. This conflict profoundly shaped European monetary development, laying the foundations for modern economic systems.
 
 
-To conclude this section, I'd like to add a rather interesting anecdote from England around this time. This anecdote is taken from the book here, "History of Money" by Glyn Davies.
+To conclude this section, it is worth noting a major paradigm shift that occurred in England regarding state indebtedness. According Glyn Davies in "History of Money", the rise of Parliament transferred the burden of debt from the sovereign to the representative body. Before this shift, the debt was the personal obligation of the king and could be extinguished upon his death or bankruptcy.
 
 
-It mentions that in England, the shift to Parliament transferred the burden of debt from the sovereign to Parliament, resulting in chronic state indebtedness. Before that, the debt weighed on the sovereign's shoulders.
-
-
-Once Parliament was able to seize some of this power of money creation, it enabled the creation of long-term debts that were borne by the people, not by the king. Previously, if the king went bankrupt or if there was a change of king, the debt was extinguished with him.
-
-
-The moment the creation of debt is carried out by Parliament, the concept of sovereign debt emerges, as it is potentially unlimited over time. As long as the State exists, as long as Parliament exists, this debt exists, and they had to find all sorts of ways of refinancing it and spreading it over time. It's a major paradigm shift, where it was no longer the king or royalty who guaranteed or bore the burden of these debts; it was now Parliament and therefore its citizens.
+However, once Parliament gained control over debt creation, the concept of sovereign debt as we understand it today emerged. This debt was no longer tied to the life of a monarch but to the continuity of the state itself, making it potentially unlimited. This development forced the state to develop new methods for refinancing and spreading this perpetual debt over time. The burden of guaranteeing and repaying these debts shifted from the monarch to the nation and its citizens.
 
 
 
@@ -2391,16 +2385,16 @@ The moment the creation of debt is carried out by Parliament, the concept of sov
 
 :::video id=4977b4f3-c7b2-41a5-ad7b-a96a8cca4092:::
 
-We've now reached the section of the course where we talk about the period known as the Renaissance. It takes place against a backdrop of tragic crisis, with the meteoric spread of the plague by fleas on rats boarding ships. This tragedy, however, informs us about the growth of trade and travel in the high medieval period. Earlier in this period, not so many people moved so far and so fast.
+This section covers the period known as the Renaissance, which began against a backdrop of tragic crisis, notably the meteoric spread of the plague. This tragedy, however, also informs us about the growth of trade and travel in the high medieval period, as the rapid spread of the disease was facilitated by increased maritime movement.
 
 
 ### The Florin of Florence
 
 
-The return of gold coinage to Europe during the Renaissance marks a fundamental turning point in monetary history. **It all began with the Florin of Florence in 1252, the first major gold coin minted in Europe since the fall of Rome**. With its remarkably constant weight and purity (around 3.5 grams of pure gold), the florin remained unchanged for four centuries and rapidly became an essential pan-European monetary reference.
+The return of gold coinage to Europe during the Renaissance marks a fundamental turning point in monetary history. **It began with the Florin of Florence in 1252, the first major gold coin minted in Europe since the fall of Rome**. With its remarkably constant weight and purity (around 3.5 grams of pure gold), the florin remained unchanged for four centuries and rapidly became an essential pan-European monetary reference.
 
 
-Here below you can see a reproduction of a Florin: a gold Florin made of pewter and stamped by a French artist who makes excellent pieces, engraved and struck manually.
+Below is a reproduction of a Florin, a pewter coin hand-struck by a French artist using traditional engraving techniques.
 
 
 ![](./assets/fr/4_Florin.webp)
@@ -2415,29 +2409,29 @@ This return to gold coinage was driven by a specific context: the collapse of th
 ![](./assets/fr/4_Hongrie.webp)
 
 
-The first image above shows a Byzantine coin that I find quite interesting. I'm going to draw a parallel with a coin from the same period from Hungary (second image above). The Hungarian coin is cup-shaped, like a miniature bowl. The iconography features religious figures depicted as kings holding crosses side by side. This piece is bowl-shaped and originates from Hungary.
+The first image above shows a Byzantine coin, which can be compared with a contemporaneous Hungarian coin shown in the second image. The Hungarian coin is cup-shaped, and its iconography features religious figures. 
 
-It was quite customary to copy coins from other countries. As Byzantine coins were generally accepted, other countries would often copy them. As you can see when you compare them side by side: these pieces are very similar.
+It was common practice for nations to copy the coinage from others, particularly when the original coin was widely accepted. As can be seen when comparing them, these two pieces are very similar.
 
 Northern Italy, notably Florence, Venice, and Genoa, took advantage of this context to launch new hard currencies - coins with a stable precious metal content. Venice followed Florence's example by minting the ducat in 1270, a currency that was almost identical to the florin and widely used in Mediterranean trade.
 
 The florin became the first international reserve currency, adopted in over 150 European cities before the end of the 14th century. With the creation of a large-scale Florentine banking network, led by the Medici, monetary and accounting management was thoroughly modernized, even reducing the need to physically transport gold.
 
 
-That's another really interesting point. There was a time when a lot of coin shipments were lost on sea voyages. This technological advance - the registers with double-entry bookkeeping - enabled the creation of scriptural money. This made it possible to reduce the number of coin settlements and instead use a system of written entries, which greatly reduces the risk of losing money in transit.
+This technological advance, driven by double-entry bookkeeping, enabled the creation of scriptural money. This system of written entries reduced the need for physical coin settlements, greatly mitigating the risk of loss during transit.
 
 
-Monetary development was also accompanied by a significant evolution in banking methods. Inspired in part by the Crusades' contact with Muslim banking practices, medieval Europe saw the emergence of rudimentary banking systems in Florence, Venice, Barcelona, and Genoa as early as the 13th century. The Knights Templar, a religious and military order, had already developed a system enabling crusaders to travel without taking their wealth with them.
+Monetary development was also accompanied by a significant evolution in banking methods. Inspired in part by the Crusades' contact with Muslim banking practices, medieval Europe saw the emergence of rudimentary banking systems in Florence, Venice, Barcelona, and Genoa as early as the 13th century. The Knights Templar, a religious and military order, had already developed a system enabling crusaders to travel without taking their wealth.
 
 
-They would deposit funds at a Templar office in their country and could then travel with a form of letter and collect the coins upon arrival at their crusade destination.
+They would deposit funds at a Templar office in their country and receive a letter of credit that they could present to collect the coins upon arrival at their crusade destination.
 
-This meant we didn't have to carry around precious metal coins.
+This system eliminated the need to transport precious metal coins.
 
 
 It was also during this period that Europe became aware of the existence of paper money in China, thanks to Marco Polo's journey in the 13th century. However, the development of banknotes would wait several centuries, as Europe preferred to perfect its metal coinage methods first. Leonardo da Vinci, close to Luca Pacioli, a renowned chartered accountant, actively contributed to the improvement of money presses, promoting faster, more uniform coin production.
 
-We are referring to the pendulum striking technique mentioned earlier in the course. This method enabled the production of more uniform coins compared to hammer striking and, importantly, allowed for inscriptions around the edge of the coin, as I previously demonstrated. The one below is a European thaler from 1793, which clearly shows writing on the fringe.
+This refers to the pendulum striking technique mentioned earlier in the course. This method enabled the production of more uniform coins compared to hammer striking and, importantly, allowed for inscriptions around the edge of the coin. A European thaler from 1793, shown below, clearly demonstrates this technique.
 
 ![image](./assets/fr/4_thaler.webp)
 
@@ -2451,7 +2445,7 @@ From the 16th century onwards, the monetary center of gravity shifted to Spain, 
 The Renaissance also marked a major artistic evolution in coinage, with coins such as the thaler (Joachimsthaler), the origin of the term "dollar". These large silver coins reflect the new artistic and mechanical minting techniques made possible by technical innovation from northern Europe.
 
 
-Finally, the financial Renaissance ushered in the transition to economic modernity, with the development of banking, credit, and financial markets, and the emergence of the first forms of modern capitalism in the great commercial cities of Amsterdam, London, and Stockholm, laying the foundations for the international financial system as we know it today. And that's the subject of our next video.
+Finally, the financial Renaissance ushered in the transition to economic modernity, with the development of banking, credit, and financial markets, and the emergence of the first forms of modern capitalism in the great commercial cities of Amsterdam, London, and Stockholm, laying the foundations for the international financial system as we know it today. The development of this modern financial system will be the subject of the next video.
 
 
 

@@ -2,8 +2,8 @@ question: Ni igiki gikenewe cane kugira ngo umuntu ashobore gukora Starter profi
 answer: Telefone ngendanwa
 wrong_answers:
   - A Bitcoin Miner ASIC.
-  - Igikoresho ca Hardware Wallet.
-  - Serveri yiyakira
+  - ingodo yubuhinga ngurukana bumenyi igaragara.
+  - Serveri auto-hébergé
 explanation: |
   Profil ya Starter isaba gusa telefone ngendanwa canke tablette ifise Lightning Wallet, bikaba bituma iba igisubizo coroshe.
-reviewed: false
+reviewed: true

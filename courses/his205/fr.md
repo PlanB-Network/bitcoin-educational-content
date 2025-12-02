@@ -11,35 +11,35 @@ objectives:
 
 # Un voyage à travers l'histoire de la monnaie
 
-Ce cours captivant vous emmènera explorer l'évolution fascinante de la monnaie depuis les premières civilisations jusqu'à notre système monétaire actuel. Nous traverserons les époques, du Néolithique aux temps modernes, en découvrant comment la monnaie a façonné et été façonnée par les grandes civilisations humaines. De la proto-monnaie mésopotamienne aux cryptomonnaies, en passant par les pièces lydiennes, le florin de la Renaissance et l'avènement des banques centrales, ce cours offre une perspective complète sur l'un des piliers fondamentaux de nos sociétés.
+Ce cours captivant vous invite à  explorer l'évolution fascinante de la monnaie, depuis les premières civilisations jusqu'à notre système monétaire actuel. Nous traverserons les époques, du Néolithique aux temps modernes, afin de comprendre comment la monnaie a façonné et été façonnée par les grandes civilisations humaines. Des proto-monnaies mésopotamiennes aux cryptomonnaies, en passant par les pièces lydiennes, le florin de la Renaissance et l'avènement des banques centrales, ce cours propose une vue d'ensemble complète sur l'un des piliers fondamentaux de nos sociétés.
 
 
 +++
 # Introduction 
 <partId>59878a67-8a1d-5d6b-af41-5b847c14363c</partId>
 
-## Introduction à l'Histoire de la monnaie
+## Introduction à l'histoire de la monnaie
 <chapterId>ca53597e-be9a-5261-a55f-11fac8504a68</chapterId>
 :::video id=08ff35ca-8a40-4286-abaf-71283faf6e78:::
 
 
-Bienvenue dans ce cours consacré à l'histoire de la monnaie. Évidemment, comme son titre l'indique, nous allons explorer ensemble l'évolution historique des monnaies. Nous traverserons les époques, du Néolithique jusqu'à nos jours, en abordant les principaux empires et grandes civilisations que l'humanité a connus.
+Bienvenue dans ce cours consacré à l'histoire de la monnaie. Évidemment, comme son titre l'indique, nous allons explorer ensemble l'évolution des différentes formes de monnaies, depuis le Néolithique jusqu'à nos jours, en traversant  les grands empires et civilisations.
 
-Toutefois, ce cours ne se limite pas à une simple chronologie de dates ou d'événements historiques. Notre véritable objectif est plutôt de comprendre en profondeur les concepts fondamentaux liés à l'émergence de la monnaie ou plutôt DES monnaies.
+Toutefois, ce cours ne se limite pas à une simple chronologie de dates ou d'événements historiques. Notre objectif principal est de comprendre en profondeur les concepts fondamentaux  à l'origine de  l'émergence de la monnaie ou plutôt des monnaies.
 
 ### Les concepts fondamentaux à explorer
 
-Nous parlerons donc d'émergence : l'émergence des monnaies elles-mêmes, des systèmes monétaires, des banques, de la monnaie papier, des banques centrales, et enfin, l'apparition du système monétaire actuel dit "fiat".
+Nous aborderons l'émergence :  des monnaies, des systèmes monétaires, des banques, de la monnaie papier, des banques centrales, et enfin du système monétaire actuel dit "fiat".
 
-Nous débuterons notre voyage avec les proto-monnaies en évoquant l'émergence de la monnaie-dette et des unités de compte en Mésopotamie, ainsi que d'autres systèmes tels que la dot ou le prix du sang dans les sociétés primitives. Nous verrons aussi comment de véritables systèmes monétaires existaient déjà dans l'Égypte antique, bien avant le Moyen Empire.
+Nous commencerons  avec les proto-monnaies, en évoquant la monnaie-dette et les unités de compte en Mésopotamie, ainsi que d'autres formes comme la dot ou le prix du sang dans les sociétés primitives. Nous verrons également que de véritables systèmes monétaires existaient déjà dans l'Égypte antique, bien avant le Moyen Empire.
 
-Nous poursuivrons ensuite avec l'apparition des premières pièces de monnaie en Lydie, moment-clé souvent considéré comme le début véritable de la monnaie selon les manuels d'économie. Nous examinerons comment ces pièces ont pu se répandre grâce aux Perses, à Alexandre le Grand, puis à Rome, pour finalement s'imposer, dominer et s'effondrer.
+Nous poursuivrons ensuite avec l'apparition des premières pièces de monnaie en Lydie, moment-clé souvent considéré comme le début véritable de la monnaie par les manuels d'économie. Nous examinerons leur diffusion grâce aux Perses, à Alexandre le Grand, puis à Rome, jusqu'à leur domination... et leur effondrement.
 
-À partir de là, forts de tout ce que nous aurons appris, nous prendrons le temps nécessaire pour réfléchir ensemble à la définition même de la monnaie, en allant au-delà des idées reçues telles que "la monnaie est toujours une dette" ou "la monnaie est toujours une marchandise". En réalité, la monnaie est à la fois un bien et une convention sociale. Nous discuterons notamment du concept de prime monétaire et tenterons d'unifier les différentes théories expliquant l'apparition de la monnaie.
+À partir de là, forts de tout ce que nous aurons vu, nous prendrons le temps de réfléchir ensemble à la définition même de la monnaie, au-delà des idées toutes faites comme “la monnaie est toujours une dette” ou “la monnaie est toujours une marchandise”. En réalité, la monnaie est à la fois un bien et une convention sociale. Nous discuterons aussi du concept de prime monétaire et tenterons d’unifier les différentes théories sur son apparition.
 
 ### Périodes clés et innovations monétaires
 
-Ensuite, nous aborderons une période trouble, marquée par une certaine instabilité monétaire, où émergent pourtant des innovations marquantes telles que le penny anglais servant à soudoyer les envahisseurs danois, ou la livre de Charlemagne, dont le souvenir persiste encore aujourd'hui sur certains billets modernes.
+Nous aborderons ensuite une période plus instable mais riche en innovations,comme le penny anglais utilisé pour  soudoyer les envahisseurs danois, ou la livre de Charlemagne, dont le souvenir persiste encore aujourd'hui dans plusieurs monnaies modernes.
 
 Nous étudierons également comment les croisades ont vu l'apparition des premiers systèmes de transfert d'argent à distance. Puis viendra le temps d'observer l'impact du Florin, monnaie qui a accompagné la Renaissance, ainsi que l'arrivée des métaux précieux en provenance des Amériques, bouleversant profondément les prix européens.
 
@@ -2145,7 +2145,6 @@ Et au final, dans certains pays comme le Canada, on se retrouve avec plusieurs t
 
 Je peux donner un exemple que je connais. Je sais qu'en Suisse, c'est un peu différent.  
 En Suisse, il y a des mutuelles privées, il y a des hôpitaux privés et donc tu peux choisir ta mutuelle, tu peux choisir ton forfait dans ta mutuelle et tu as des services relativement universels, même si une grande part de ce système reste privé.
-
 Donc je crois que c'est possible que ça soit aussi opéré par le privé. Mais tout ce que je voulais vous décrire, en fait, c'est pas non plus un énoncé pour vous exprimer si un système est mieux que l'autre, c'était plutôt pour vous expliquer qu'en lisant sur l'histoire de la finance, je me suis rendu compte de la raison pourquoi en Occident, notamment en France, notamment au Canada, l'État a voulu prendre le contrôle de ses principes financiers.
 
 Ce que je voulais amener, c'est que ce concept d'assurance, c'est avant tout une évolution de la finance et comme parfois les gouvernements savent si bien le faire, vont essayer d'en prendre le contrôle, comme ils ont cherché à prendre le contrôle de la monnaie pour plusieurs raisons. Une des raisons, par ailleurs, pour la monnaie, c'est le concept de prêteur de dernier recours.

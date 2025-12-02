@@ -6,7 +6,7 @@ description: Decentralized CoinJoins via the Nostr network for sovereign Bitcoin
 ![cover](assets/cover.webp)
 
 
-The transparency of the Bitcoin blockchain makes it possible to trace transaction history. [CoinJoins](https://planb.academy/en/resources/glossary/coinjoin) break these links by mixing multiple simultaneous transactions, restoring a level of confidentiality comparable to cash.
+The transparency of the Bitcoin blockchain makes it possible to trace transaction history. [CoinJoins](https://planb.academy/resources/glossary/coinjoin) break these links by mixing multiple simultaneous transactions, restoring a level of confidentiality comparable to cash.
 
 
 However, traditional solutions rely on a central coordinator as a single point of failure. Wasabi and Samourai ceased operations in 2024 under regulatory pressure.

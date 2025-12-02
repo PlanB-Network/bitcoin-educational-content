@@ -17,7 +17,7 @@ Vuonna 2015 [LaurentMT](https://twitter.com/LaurentMT) mainitsi ensimmäisen ker
 - P2EP (Pay-to-End-Point)
 - Steganografinen transaktio
 
-Payjoinin ainutlaatuisuus piilee sen kyvyssä luoda transaktio, joka ensi silmäyksellä vaikuttaa tavalliselta, mutta on itse asiassa mini Coinjoin kahden osapuolen välillä. Tämän saavuttamiseksi transaktiorakenne sisältää maksun vastaanottajan mukana tulevat syötteet itse lähettäjän lisäksi. Vastaanottaja sisällyttää maksun itselleen transaktion keskelle, mikä mahdollistaa heidän maksamisensa.
+Payjoinin ainutlaatuisuus piilee sen kyvyssä luoda transaktio, joka ensi silmäyksellä vaikuttaa tavalliselta, mutta on itse asiassa mini [Coinjoin](https://planb.academy/resources/glossary/coinjoin) kahden osapuolen välillä. Tämän saavuttamiseksi transaktiorakenne sisältää maksun vastaanottajan mukana tulevat syötteet itse lähettäjän lisäksi. Vastaanottaja sisällyttää maksun itselleen transaktion keskelle, mikä mahdollistaa heidän maksamisensa.
 
 Otetaan konkreettinen esimerkki: jos ostat patongin `4000 satoshilla` käyttäen UTXO:a, joka on `10 000 satoshia` ja valitset Payjoinin, leipurisi lisää `15 000 satoshin` UTXO:n, joka kuuluu heille syötteenä, jonka he saavat kokonaisuudessaan ulostulona, lisäksi sinun `4000 satoshiasi`:
 ![Payjoin-transaktiokaavio](assets/en/1.webp)

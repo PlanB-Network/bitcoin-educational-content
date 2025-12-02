@@ -15,7 +15,7 @@ Bununla birlikte, geleneksel çözümler tek bir arıza noktası olarak merkezi 
 
 
 
-**Joinstr** koordinasyon için merkezi olmayan Nostr ağını kullanarak bu zayıflığı ortadan kaldırır. Bu açık kaynak uygulaması, hiçbir merkezi otoritenin sansürleyemeyeceği, izleyemeyeceği veya hizmeti kesintiye uğratamayacağı gerçek anlamda egemen CoinJoin'ler sağlar.
+**Joinstr** koordinasyon için merkezi olmayan Nostr ağını kullanarak bu zayıflığı ortadan kaldırır. Bu açık kaynak uygulaması, hiçbir merkezi otoritenin sansürleyemeyeceği, izleyemeyeceği veya hizmeti kesintiye uğratamayacağı gerçek anlamda egemen [CoinJoin](https://planb.academy/resources/glossary/coinjoin)'ler sağlar.
 
 
 

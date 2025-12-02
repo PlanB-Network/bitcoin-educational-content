@@ -8,7 +8,7 @@ Aqua est une application mobile qui permet de créer facilement un portefeuille 
 
 Développée par l'entreprise JAN3 sous la direction de Samson Mow, l'application Aqua a été initialement conçue spécifiquement pour les besoins des utilisateurs en Amérique latine, bien qu'elle soit adaptée à n'importe quel utilisateur dans le monde. Elle est notamment intéressante pour les débutants et ceux qui utilisent Bitcoin au quotidien pour leurs paiements.
 
-Dans ce tutoriel, nous allons découvrir comment utiliser les nombreuses fonctionnalités d'Aqua. Mais avant cela, prenons un moment pour comprendre ce qu'est une sidechain sur Bitcoin et comment fonctionne Liquid, ce qui nous permettra de saisir pleinement l'intérêt d'Aqua.
+Dans ce tutoriel, nous allons découvrir comment utiliser les nombreuses fonctionnalités d'Aqua. Mais avant cela, prenons un moment pour comprendre ce qu'est une [sidechain](https://planb.academy/resources/glossary/sidechain) sur Bitcoin et comment fonctionne Liquid, ce qui nous permettra de saisir pleinement l'intérêt d'Aqua.
 
 ![AQUA](assets/fr/01.webp)
 

@@ -35,14 +35,14 @@ Chào mừng bạn đến với khóa học CYP201, nơi chúng ta sẽ khám ph
 Mục tiêu của khóa học này là cung cấp cho bạn chìa khóa để nắm vững các công cụ bạn hàng ngày sử dụng. Ví Bitcoin HD, nằm ở trung tâm trải nghiệm người dùng của bạn, dựa trên một số khái niệm phức tạp, mà chúng tôi sẽ cố gắng làm cho dễ tiếp cận. Cùng nhau, chúng ta sẽ làm sáng tỏ chúng!
 
 Trước khi đi sâu vào chi tiết cấu trúc và hoạt động của ví Bitcoin, chúng ta sẽ bắt đầu với một số chương về các nguyên tắc mã hóa cần biết cho phần sau.
-Chúng ta sẽ bắt đầu với hàm băm mã hóa, cơ bản cho cả ví và chính giao thức Bitcoin. Bạn sẽ khám phá các đặc điểm chính, các hàm cụ thể được sử dụng trong Bitcoin, và trong một chương kỹ thuật hơn, bạn sẽ học chi tiết về cách thức hoạt động của hàm băm hàng đầu: SHA256.
+Chúng ta sẽ bắt đầu với hàm băm mã hóa, cơ bản cho cả ví và chính giao thức Bitcoin. Bạn sẽ khám phá các đặc điểm chính, các hàm cụ thể được sử dụng trong Bitcoin, và trong một chương kỹ thuật hơn, bạn sẽ học chi tiết về cách thức hoạt động của hàm băm hàng đầu: [SHA256](https://planb.academy/resources/glossary/sha256).
 ![CYP201](assets/en/001.webp)
 
-Tiếp theo, chúng ta sẽ thảo luận về cách thức hoạt động của các thuật toán chữ ký số mà bạn sử dụng hàng ngày để bảo vệ UTXOs của mình. Bitcoin sử dụng hai loại: ECDSA và giao thức Schnorr. Bạn sẽ học về các nguyên tắc toán học đằng sau các thuật toán này và cách chúng đảm bảo an toàn cho giao dịch.
+Tiếp theo, chúng ta sẽ thảo luận về cách thức hoạt động của các thuật toán chữ ký số mà bạn sử dụng hàng ngày để bảo vệ UTXOs của mình. Bitcoin sử dụng hai loại: [ECDSA](https://planb.academy/resources/glossary/ecdsa) và giao thức Schnorr. Bạn sẽ học về các nguyên tắc toán học đằng sau các thuật toán này và cách chúng đảm bảo an toàn cho giao dịch.
 
 ![CYP201](assets/en/002.webp)
 
-Một khi chúng ta đã hiểu rõ về những yếu tố này của mã hóa, chúng ta cuối cùng sẽ chuyển sang trọng tâm của khóa học: ví xác định và phân cấp! Đầu tiên, có một phần dành riêng cho cụm từ ghi nhớ, những chuỗi từ 12 hoặc 24 từ giúp bạn tạo và khôi phục ví của mình. Bạn sẽ khám phá cách những từ này được tạo ra từ một nguồn entropy và làm thế nào chúng giúp việc sử dụng Bitcoin trở nên dễ dàng.
+Một khi chúng ta đã hiểu rõ về những yếu tố này của mã hóa, chúng ta cuối cùng sẽ chuyển sang trọng tâm của khóa học: ví xác định và phân cấp! Đầu tiên, có một phần dành riêng cho cụm từ ghi nhớ, những chuỗi từ 12 hoặc 24 từ giúp bạn tạo và khôi phục ví của mình. Bạn sẽ khám phá cách những từ này được tạo ra từ một nguồn [entropy](https://planb.academy/resources/glossary/entropy) và làm thế nào chúng giúp việc sử dụng Bitcoin trở nên dễ dàng.
 
 ![CYP201](assets/en/003.webp)
 Khóa học sẽ tiếp tục với việc nghiên cứu về cụm từ BIP39, hạt giống (không nên nhầm lẫn với cụm từ ghi nhớ), mã chuỗi chủ, và khóa chủ. Chúng ta sẽ xem chi tiết những yếu tố này là gì, vai trò tương ứng của chúng, và cách chúng được tính toán.
@@ -60,7 +60,7 @@ Bảng này cung cấp cho bạn bản dịch các thuật ngữ tiếng Anh ch�
 | Tiếng Anh       | Dịch / Giải thích                                                                                  |
 | --------------- | -------------------------------------------------------------------------------------------------- |
 | *pubkey hash*   | Băm khóa công khai (dùng để tạo địa chỉ Bitcoin).                                                  |
-| *public key*    | Khóa công khai (dùng để nhận tiền, được dẫn xuất từ khóa riêng).                                    |
+| *[public key](https://planb.academy/resources/glossary/public-key)*    | Khóa công khai (dùng để nhận tiền, được dẫn xuất từ khóa riêng).                                    |
 | *signature*     | Chữ ký số (bằng chứng mật mã rằng một thông điệp đến từ chủ sở hữu khóa riêng).                      |
 | *scriptPubKey*  | Script khóa (xác định điều kiện để chi tiêu một đầu ra).                                            |
 | *scriptSig*     | Script mở khóa (cung cấp dữ liệu để thỏa mãn *scriptPubKey*).                                       |

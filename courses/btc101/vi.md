@@ -395,7 +395,7 @@ Việc tạo ra bitcoin mới là kết quả của quá trình khai thác. Nói
 
 ![image](assets/vi/022.webp)
 
-Sau khi hoàn thành nhiệm vụ này thành công, người khai thác (thợ đào) sẽ được thưởng bitcoin mới được sản xuất ra sau mỗi mười phút. Phần thưởng này được lập trình để giảm một nửa sau mỗi 210.000 khối, tức là khoảng bốn năm một lần (một sự kiện được gọi là "halving"), tạo cho đường cong phát hành tiền tệ có hình dạng giống như cầu thang. Do cơ chế này, có thể dự đoán về mặt toán học rằng việc tạo ra bitcoin mới sẽ chấm dứt vào khoảng năm 2140, khi tổng số lượng đạt đến giới hạn là 21 triệu.
+Sau khi hoàn thành nhiệm vụ này thành công, người khai thác (thợ đào) sẽ được thưởng bitcoin mới được sản xuất ra sau mỗi mười phút. Phần thưởng này được lập trình để giảm một nửa sau mỗi 210.000 khối, tức là khoảng bốn năm một lần (một sự kiện được gọi là "[halving](https://planb.academy/resources/glossary/halving)"), tạo cho đường cong phát hành tiền tệ có hình dạng giống như cầu thang. Do cơ chế này, có thể dự đoán về mặt toán học rằng việc tạo ra bitcoin mới sẽ chấm dứt vào khoảng năm 2140, khi tổng số lượng đạt đến giới hạn là 21 triệu.
 
 | Halving Number | Chiều cao khối |Phần thưởng BTC sau khi Halving  | Ước tính BTC lưu hành sau khi Halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -427,7 +427,7 @@ Chúng ta sẽ xem xét lại khái niệm khai thác chi tiết hơn trong [ch�
 Giới hạn 21 triệu là cơ sở cho sự khan hiếm của Bitcoin và được đảm bảo bởi hai cơ chế chính: điều chỉnh độ khó khai thác và lý thuyết trò chơi.
 
 
-- Điều chỉnh độ khó (trong) khai thác là một quá trình diễn ra sau mỗi lần sản xuất 2016 khối, hoặc khoảng hai tuần, để đảm bảo rằng một khối mới được thêm vào Blockchain trung bình cứ sau mười phút. Tần suất tạo khối này và tổng số lượng bitcoin đều là các yếu tố cố định của giao thức Bitcoin và không thể thay đổi nếu không có sự đồng thuận chung, không giống như các quyết định tùy ý được đưa ra trong các hệ thống tiền tệ truyền thống.
+- Điều chỉnh độ khó (trong) khai thác là một quá trình diễn ra sau mỗi lần sản xuất 2016 khối, hoặc khoảng hai tuần, để đảm bảo rằng một khối mới được thêm vào [Blockchain](https://planb.academy/resources/glossary/blockchain) trung bình cứ sau mười phút. Tần suất tạo khối này và tổng số lượng bitcoin đều là các yếu tố cố định của giao thức Bitcoin và không thể thay đổi nếu không có sự đồng thuận chung, không giống như các quyết định tùy ý được đưa ra trong các hệ thống tiền tệ truyền thống.
 
 Độ khó của việc tìm một hàm mã hóa hợp lệ tuân theo một chu kỳ: nếu số lượng thợ đào tăng lên, điều đó có nghĩa là số lượng khối họ tìm thấy cao hơn, điều này làm giảm thời gian trung bình để tìm một khối. Khi đó, độ khó tăng lên. Vì vậy, số lượng khối mà thợ đào tìm thấy được giảm xuống, điều này có nghĩa là cơ chế quay trở lại mức trung bình là 10 phút cho mỗi khối. Xem hình ảnh bên dưới để biết hình ảnh trực quan.
 
@@ -717,7 +717,7 @@ Sáng kiến này không tạo ra sự nhiệt tình ngay lập tức, có lẽ 
 
 ![image](assets/vi/039.webp)
 
-Vào ngày 3 tháng 1 năm 2009, Satoshi chính thức triển khai mạng lưới Bitcoin bằng cách tạo ra khối đầu tiên, còn được gọi là "Genesis Block", đánh dấu sự ra mắt của chuỗi khối dữ liệu Bitcoin. Khối này chứa một thông điệp sứ mệnh của Bitcoin: "03/01/2009 Tổng thống đang trên bờ vực cứu trợ lần thứ hai cho các ngân hàng."
+Vào ngày 3 tháng 1 năm 2009, Satoshi chính thức triển khai mạng lưới Bitcoin bằng cách tạo ra khối đầu tiên, còn được gọi là "[Genesis Block](https://planb.academy/resources/glossary/genesis-block)", đánh dấu sự ra mắt của chuỗi khối dữ liệu Bitcoin. Khối này chứa một thông điệp sứ mệnh của Bitcoin: "03/01/2009 Tổng thống đang trên bờ vực cứu trợ lần thứ hai cho các ngân hàng."
 
 ![image](assets/vi/040.webp)
 
@@ -869,7 +869,7 @@ Sau chiến thắng này, các máy chủ đã kích hoạt bản cập nhật c
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Thợ đào bảo mật mạng lưới và thêm giao dịch vào các khối. Họ sử dụng điện thông qua máy ASIC để giải quyết bằng chứng công việc của Bitcoin.**
+**Thợ đào bảo mật mạng lưới và thêm giao dịch vào các khối. Họ sử dụng điện thông qua máy [ASIC](https://planb.academy/resources/glossary/asic) để giải quyết bằng chứng công việc của Bitcoin.**
 
 ![image](assets/vi/054.webp)
 

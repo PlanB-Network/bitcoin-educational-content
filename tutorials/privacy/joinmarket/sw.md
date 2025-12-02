@@ -1,7 +1,7 @@
 ---
 name: JoinMarket
 
-description: Mwongozo na mafunzo ya jinsi ya kutumia JoinMarket kufanya CoinJoin juu ya Bitcoin kupitia mstari wa amri
+description: Mwongozo na mafunzo ya jinsi ya kutumia JoinMarket kufanya [CoinJoin](https://planb.academy/resources/glossary/coinjoin) juu ya Bitcoin kupitia mstari wa amri
 ---
 
 ![cover](assets/cover.webp)

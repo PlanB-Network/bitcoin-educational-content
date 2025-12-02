@@ -341,7 +341,7 @@ Aplikacja Joinstr podzielona jest na trzy główne zakładki:
 
 
 - Strona główna**: Ekran główny
-- Pule**: Tworzenie pul CoinJoin i zarządzanie nimi
+- Pule**: Tworzenie pul [CoinJoin](https://planb.academy/resources/glossary/coinjoin) i zarządzanie nimi
 - Ustawienia**: Konfiguracja aplikacji
 
 

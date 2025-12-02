@@ -262,7 +262,7 @@ Ennen kuin napsautat linkkiä tai ryhdyt mihinkään toimiin, tarkista aina läh
 #### Bitcoin Kovahaarukat
 
 
-Bitcoin on vuosien varrella kokenut useita *Hard haarautumia*, jotka ovat johtaneet alkuperäisen kryptovaluutan vaihtoehtoisten versioiden luomiseen. Yksinkertaisesti sanottuna *Hard Fork* on verkon jakautuminen, joka johtaa kahteen erilliseen lohkoketjuun, joilla molemmilla on sama historia jakautumishetkeen asti. Tällaisia haarautumia tapahtuu yleensä silloin, kun osa kehittäjäyhteisöstä tai laajemmasta Bitcoin-ekosysteemistä haluaa tehdä suuria muutoksia alkuperäiseen protokollaan, mutta ei pääse laajaan yhteisymmärrykseen. Sen sijaan, että he hylkäisivät ideansa, he päättävät julkaista uuden version Bitcoin:sta (muutetuilla säännöillä) toivoen, että käyttäjät ja louhijat valitsevat Fork:n sen sijaan.
+Bitcoin on vuosien varrella kokenut useita *Hard haarautumia*, jotka ovat johtaneet alkuperäisen kryptovaluutan vaihtoehtoisten versioiden luomiseen. Yksinkertaisesti sanottuna *Hard [Fork](https://planb.academy/resources/glossary/fork)* on verkon jakautuminen, joka johtaa kahteen erilliseen lohkoketjuun, joilla molemmilla on sama historia jakautumishetkeen asti. Tällaisia haarautumia tapahtuu yleensä silloin, kun osa kehittäjäyhteisöstä tai laajemmasta Bitcoin-ekosysteemistä haluaa tehdä suuria muutoksia alkuperäiseen protokollaan, mutta ei pääse laajaan yhteisymmärrykseen. Sen sijaan, että he hylkäisivät ideansa, he päättävät julkaista uuden version Bitcoin:sta (muutetuilla säännöillä) toivoen, että käyttäjät ja louhijat valitsevat Fork:n sen sijaan.
 
 
 ![image](assets/fi/011.webp)
@@ -1668,7 +1668,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 RGB on hajautettu ja yksityisyyteen keskittyvä Smart contract-järjestelmä, joka on suunniteltu toimimaan Bitcoin:n ja Lightning Network:n päällä. Toisin kuin perinteiset Smart contract-alustat, RGB käyttää Client-side Validation-mallia (mikä tarkoittaa, että koko Contract State tallennetaan off-chain:ään ja vain kryptografiset sitoumukset julkaistaan Bitcoin:een Blockchain). Tämä malli parantaa sekä skaalautuvuutta että yksityisyyttä. RGB:n avulla käyttäjät voivat luoda kehittyneitä älykkäitä sopimuksia tokenien, NFT:iden, hajautettujen identiteettien tai jopa DeFi-sovellusten liikkeeseenlaskuun suoraan Bitcoin:ssa tai Lightningissa.
 
 
-RGB:n keskeinen ominaisuus on sen suojaus Double-spending:tä vastaan, joka on saavutettu kryptografisella tekniikalla nimeltä Single-use Seals. Tämä mekanismi perustuu siihen, että Bitcoin:n UTXO:t (Unspent Transaction Outputs) voidaan käyttää vain kerran. Merkkien aitous varmistetaan Contract:n koko historian (sen luomisesta nykyiseen tilaan) validoinnilla käyttäjän puolelta.
+RGB:n keskeinen ominaisuus on sen suojaus Double-spending:tä vastaan, joka on saavutettu kryptografisella tekniikalla nimeltä Single-use Seals. Tämä mekanismi perustuu siihen, että Bitcoin:n [UTXO](https://planb.academy/resources/glossary/utxo):t (Unspent Transaction Outputs) voidaan käyttää vain kerran. Merkkien aitous varmistetaan Contract:n koko historian (sen luomisesta nykyiseen tilaan) validoinnilla käyttäjän puolelta.
 
 
 ![image](assets/fi/062.webp)
@@ -1700,7 +1700,7 @@ Nykyään kauppiaille, jotka haluavat hyväksyä Bitcoin:n maksuvälineenä, on 
 Jos haluat olla rauhallisempi ja vastaanottaa fiat-valuuttaa suoraan pankkitilillesi, OpenNoden kaltaiset säilytyspalvelut tarjoavat virtaviivaisen kokemuksen:
 
 
-https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-[node](https://planb.academy/resources/glossary/node)-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 BTCPay Server on loistava avoimen lähdekoodin vaihtoehto kauppiaille, jotka ovat teknisesti taitavampia ja haluavat hallita prosessia täysin. Suurin haittapuoli on se, että sen perustaminen ja ylläpito vaatii aikaa ja jonkin verran teknistä osaamista:
 
@@ -1863,7 +1863,7 @@ Myös jokapäiväinen elämäsi vaikuttaa suuresti siihen, miten hallitset bitco
 **Rajoitettu aika tai korko?** Valitse yksinkertaiset, automaattiset ratkaisut, kuten ajastetut ostot, jotka siirtyvät automaattisesti turvalliseen varastoon.
 
 
-**Teknisesti perehtynyt vai käytännönläheinen?** Saatat suosia kehittyneempiä ratkaisuja, kuten Multisig-lompakoita, jotka tarjoavat paremman hallinnan ja turvallisuuden.
+**Teknisesti perehtynyt vai käytännönläheinen?** Saatat suosia kehittyneempiä ratkaisuja, kuten [Multisig](https://planb.academy/resources/glossary/multisig)-lompakoita, jotka tarjoavat paremman hallinnan ja turvallisuuden.
 
 
 **Sijoittaminen läheisiä tai tulevia sukupolvia varten?** Ajattele perintöä jo varhaisessa vaiheessa. On olemassa keinoja varmistaa, että bitcoinisi voidaan siirtää turvallisesti eteenpäin, jos sinulle tapahtuu jotain.

@@ -1,5 +1,5 @@
 ---
-name: Labelling UTXO
+name: Labelling [UTXO](https://planb.academy/resources/glossary/utxo)
 description: Ni gute woshirako neza UTXO yawe?
 ---
 ![cover](assets/cover.webp)

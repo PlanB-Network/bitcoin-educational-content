@@ -9,7 +9,7 @@ description: How do I make coinjoins on the Ashigaru application?
 "*a bitcoin wallet for the streets*"
 
 
-In this tutorial, you'll learn what a [coinjoin](https://planb.academy/en/resources/glossary/coinjoin) is and how to make one with the Ashigaru Terminal application and the Whirlpool implementation, a coinjoin protocol inherited from Samourai Wallet.
+In this tutorial, you'll learn what a [coinjoin](https://planb.academy/resources/glossary/coinjoin) is and how to make one with the Ashigaru Terminal application and the Whirlpool implementation, a coinjoin protocol inherited from Samourai Wallet.
 
 
 ## How Whirlpool coinjoints work
@@ -64,7 +64,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9
 https://planb.academy/tutorials/wallet/mobile/ashigaru-9f903b55-2e55-4b06-9627-80f8e178158f
 
 
-- Dojo**, a Bitcoin [node](https://planb.academy/en/resources/glossary/node) implementation guaranteeing you a sovereign connection to the network, with no dependence on a third-party server.
+- Dojo**, a Bitcoin [node](https://planb.academy/resources/glossary/node) implementation guaranteeing you a sovereign connection to the network, with no dependence on a third-party server.
 
 
 https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f

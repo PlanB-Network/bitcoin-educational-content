@@ -50,7 +50,7 @@ Målet med dette kurset er ikke å gjøre deg helt anonym i din bruk av Bitcoin,
 
 **Del 1: Definisjoner og nøkkelbegreper**
 
-Til å begynne med skal vi gå gjennom de grunnleggende prinsippene som styrer driften av Bitcoin, slik at vi deretter kan gå rolig i gang med begrepene knyttet til konfidensialitet. Det er viktig å beherske noen grunnleggende begreper, som UTXO, mottaksadresser og skripting, før du fullt ut kan forstå begrepene vi tar for oss i de følgende avsnittene. Vi vil også introdusere Bitcoins generelle konfidensialitetsmodell, slik Satoshi Nakamoto forestilte seg den, slik at vi kan forstå hva som står på spill og hvilke risikoer som er forbundet med den.
+Til å begynne med skal vi gå gjennom de grunnleggende prinsippene som styrer driften av Bitcoin, slik at vi deretter kan gå rolig i gang med begrepene knyttet til konfidensialitet. Det er viktig å beherske noen grunnleggende begreper, som [UTXO](https://planb.academy/resources/glossary/utxo), mottaksadresser og skripting, før du fullt ut kan forstå begrepene vi tar for oss i de følgende avsnittene. Vi vil også introdusere Bitcoins generelle konfidensialitetsmodell, slik Satoshi Nakamoto forestilte seg den, slik at vi kan forstå hva som står på spill og hvilke risikoer som er forbundet med den.
 
 ![BTC204](assets/nb-NO/001.webp)
 
@@ -66,7 +66,7 @@ I den tredje delen av kurset vårt går vi til det helt konkrete: praksis! Måle
 
 ![BTC204](assets/nb-NO/003.webp)
 
-**Del 4: Forståelse av coinjoin-transaksjoner**
+**Del 4: Forståelse av [coinjoin](https://planb.academy/resources/glossary/coinjoin)-transaksjoner**
 
 Hvordan kan vi snakke om personvern på Bitcoin uten å nevne coinjoins? I del 4 finner du ut alt du trenger å vite om denne blandingsmetoden. Du vil lære hva coinjoins er, deres historie og mål, samt de forskjellige typene coinjoins som finnes. Til slutt, for den mer erfarne brukeren, tar vi en titt på hva anonsets og entropi er, og hvordan du beregner dem.
 
@@ -74,7 +74,7 @@ Hvordan kan vi snakke om personvern på Bitcoin uten å nevne coinjoins? I del 4
 
 **Del 5: Forstå utfordringene med andre avanserte konfidensialitetsteknikker**
 
-I den femte delen tar vi en titt på alle de andre teknikkene som er tilgjengelige for å beskytte personvernet ditt på Bitcoin, bortsett fra coinjoin. Gjennom årene har utviklere vist bemerkelsesverdig kreativitet i utformingen av verktøy dedikert til personvern. Vi ser på alle disse metodene, som payjoin, samarbeidstransaksjoner, Coin Swap og Atomic Swap, og beskriver hvordan de fungerer, deres mål og eventuelle svakheter.
+I den femte delen tar vi en titt på alle de andre teknikkene som er tilgjengelige for å beskytte personvernet ditt på Bitcoin, bortsett fra coinjoin. Gjennom årene har utviklere vist bemerkelsesverdig kreativitet i utformingen av verktøy dedikert til personvern. Vi ser på alle disse metodene, som payjoin, samarbeidstransaksjoner, Coin Swap og [Atomic Swap](https://planb.academy/resources/glossary/atomic-swap), og beskriver hvordan de fungerer, deres mål og eventuelle svakheter.
 
 Vi ser også på personvern på nettverksnivå med noder og transaksjonsformidling. Vi diskuterer også de ulike protokollene som har blitt foreslått opp gjennom årene for å forbedre brukernes personvern på Bitcoin, inkludert statiske adresseprotokoller.
 
@@ -569,7 +569,7 @@ Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec
 
 På sistnevnte kan vi se at inngang nr. 0 og utgang nr. 1 bruker P2WPKH-skript (SegWit V0), mens utgang nr. 0 bruker et annet P2PKH-skript (Legacy).
 
-På begynnelsen av 2010-tallet var denne heuristikken basert på skriptversjonering relativt lite nyttig på grunn av de begrensede skripttypene som var tilgjengelige. Etter hvert som Bitcoin har blitt oppdatert, har det imidlertid blitt introdusert et økende mangfold av skripttyper. Denne heuristikken blir derfor stadig mer relevant, ettersom brukerne deler seg inn i mindre grupper med et større utvalg av skripttyper, noe som øker sjansene for å bruke denne interne heuristikken for gjenbruk av versjonering. Av denne grunn er det, kun ut fra et konfidensialitetsperspektiv, tilrådelig å velge den vanligste typen skript. I skrivende stund er for eksempel Taproot-skript (`bc1p`) mindre brukt enn SegWit V0-skript (`bc1q`). Selv om førstnevnte gir økonomiske og konfidensialitetsmessige fordeler i visse spesifikke sammenhenger, kan det for mer tradisjonell bruk med én signatur være fornuftig å holde seg til en eldre standard av konfidensialitetshensyn, inntil den nye standarden er tatt i bruk i større utstrekning.
+På begynnelsen av 2010-tallet var denne heuristikken basert på skriptversjonering relativt lite nyttig på grunn av de begrensede skripttypene som var tilgjengelige. Etter hvert som Bitcoin har blitt oppdatert, har det imidlertid blitt introdusert et økende mangfold av skripttyper. Denne heuristikken blir derfor stadig mer relevant, ettersom brukerne deler seg inn i mindre grupper med et større utvalg av skripttyper, noe som øker sjansene for å bruke denne interne heuristikken for gjenbruk av versjonering. Av denne grunn er det, kun ut fra et konfidensialitetsperspektiv, tilrådelig å velge den vanligste typen skript. I skrivende stund er for eksempel [Taproot](https://planb.academy/resources/glossary/taproot)-skript (`bc1p`) mindre brukt enn [SegWit](https://planb.academy/resources/glossary/segwit) V0-skript (`bc1q`). Selv om førstnevnte gir økonomiske og konfidensialitetsmessige fordeler i visse spesifikke sammenhenger, kan det for mer tradisjonell bruk med én signatur være fornuftig å holde seg til en eldre standard av konfidensialitetshensyn, inntil den nye standarden er tatt i bruk i større utstrekning.
 
 ### Betalinger med runde tall
 
@@ -1560,7 +1560,7 @@ Konsolideringsprinsippet går nettopp ut på å utnytte perioder med lave gebyre
 
 ![BTC204](assets/nb-NO/101.webp)
 
-I tillegg til å spare transaksjonskostnader bidrar konsolidering av UTXO-er til å forhindre dannelsen av "støv". Med "støv" menes UTXOer som har så lav verdi i sats at den ikke er tilstrekkelig til å dekke transaksjonskostnadene som kreves for å bruke dem. Dette gjør det økonomisk irrasjonelt å bruke disse UTXO-ene så lenge transaksjonskostnadene forblir høye. Ved å samle UTXO-ene dine proaktivt, forhindrer du at de blir til støv, og sørger for at alle midlene dine forblir brukbare.
+I tillegg til å spare transaksjonskostnader bidrar konsolidering av UTXO-er til å forhindre dannelsen av "[støv](https://planb.academy/resources/glossary/dust)". Med "støv" menes UTXOer som har så lav verdi i sats at den ikke er tilstrekkelig til å dekke transaksjonskostnadene som kreves for å bruke dem. Dette gjør det økonomisk irrasjonelt å bruke disse UTXO-ene så lenge transaksjonskostnadene forblir høye. Ved å samle UTXO-ene dine proaktivt, forhindrer du at de blir til støv, og sørger for at alle midlene dine forblir brukbare.
 
 ### Hva er minimumsstørrelsen for UTXO-ene dine?
 

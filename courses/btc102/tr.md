@@ -263,7 +263,7 @@ Bir bağlantıya tıklamadan veya herhangi bir işlem yapmadan önce, göndereni
 #### Bitcoin Hardforks
 
 
-Yıllar içinde Bitcoin, orijinal kripto para biriminin alternatif versiyonlarının yaratılmasıyla sonuçlanan birkaç *Hard çatalı* yaşadı. Basit bir ifadeyle, *Hard Fork* ağda, her ikisi de bölünme anına kadar aynı geçmişi paylaşan iki ayrı blok zincirine yol açan bir bölünmedir. Bu çatallanmalar genellikle geliştirici topluluğunun bir kısmı veya daha geniş Bitcoin ekosistemi orijinal protokolde büyük değişiklikler yapmak istediğinde ancak yaygın bir fikir birliğine ulaşamadığında meydana gelir. Fikirlerinden vazgeçmek yerine, kullanıcıların ve madencilerin bunun yerine Fork'u takip etmeyi seçeceklerini umarak Bitcoin'in yeni bir sürümünü (değiştirilmiş kurallarla) piyasaya sürmeye karar verirler.
+Yıllar içinde Bitcoin, orijinal kripto para biriminin alternatif versiyonlarının yaratılmasıyla sonuçlanan birkaç *Hard çatalı* yaşadı. Basit bir ifadeyle, *Hard [Fork](https://planb.academy/resources/glossary/fork)* ağda, her ikisi de bölünme anına kadar aynı geçmişi paylaşan iki ayrı blok zincirine yol açan bir bölünmedir. Bu çatallanmalar genellikle geliştirici topluluğunun bir kısmı veya daha geniş Bitcoin ekosistemi orijinal protokolde büyük değişiklikler yapmak istediğinde ancak yaygın bir fikir birliğine ulaşamadığında meydana gelir. Fikirlerinden vazgeçmek yerine, kullanıcıların ve madencilerin bunun yerine Fork'u takip etmeyi seçeceklerini umarak Bitcoin'in yeni bir sürümünü (değiştirilmiş kurallarla) piyasaya sürmeye karar verirler.
 
 
 ![BTC102-Bitcoin](assets/tr/007.webp)
@@ -982,7 +982,7 @@ Bitcoin'in en küçümsenen güçlü yönlerinden biri bölünebilirliğidir. He
 
 Bitcoin halka açık, **açık kaynaklı** bir protokol üzerinde çalışır (en önemlisi [Bitcoin core](https://github.com/Bitcoin/Bitcoin)). Bu, kodunun herkesin incelemesi, denetlemesi ve geliştirmesi için serbestçe erişilebilir olduğu anlamına gelir. Gizli mekanizmalar veya kapalı sistemler yoktur; Bitcoin'in nasıl çalıştığı ile ilgili her şey açıktır.
 
-Bu şeffaflık seviyesi, arka kapılar eklemeyi veya gizli değişiklikler yapmayı inanılmaz derecede zorlaştırır. Teknik becerilere sahip herkes bir node çalıştırabilir, geliştirmeye katkıda bulunabilir veya uyumlu araçlar oluşturabilir. Bitcoin'de güven, merkezi kontrol yoluyla değil, kod ve fikir birliği yoluyla kazanılır.
+Bu şeffaflık seviyesi, arka kapılar eklemeyi veya gizli değişiklikler yapmayı inanılmaz derecede zorlaştırır. Teknik becerilere sahip herkes bir [node](https://planb.academy/resources/glossary/node) çalıştırabilir, geliştirmeye katkıda bulunabilir veya uyumlu araçlar oluşturabilir. Bitcoin'de güven, merkezi kontrol yoluyla değil, kod ve fikir birliği yoluyla kazanılır.
 
 
 ![BTC102-Bitcoin](assets/tr/030.webp)
@@ -1009,7 +1009,7 @@ Bu yaklaşım daha teknik olmasına rağmen, en talepkar kullanıcılara üçün
 #### Esnek, Sınır Ötesi Bir Ödeme Yöntemi
 
 
-Merkezi olmayan yapısı nedeniyle Bitcoin, sınırlardan veya saat dilimlerinden etkilenmeden 7/24 çalışır. Geleneksel bankacılık altyapısının eksik olduğu bölgelerde, Bitcoin genellikle pahalı aracılara güvenmeden para göndermek veya almak için hızlı, düşük maliyetli bir çözüm olarak kullanılır. İşlem ücretleri ağ tıkanıklığına bağlı olarak değişebilmekle birlikte, genellikle uluslararası transferler için bankalar tarafından alınan ücretlerden çok daha düşüktür. Ayrıca, Layer gibi Lightning Network-2 çözümleri daha da hızlı ve ucuz Bitcoin işlemlerine olanak sağlar.
+Merkezi olmayan yapısı nedeniyle Bitcoin, sınırlardan veya saat dilimlerinden etkilenmeden 7/24 çalışır. Geleneksel bankacılık altyapısının eksik olduğu bölgelerde, Bitcoin genellikle pahalı aracılara güvenmeden para göndermek veya almak için hızlı, düşük maliyetli bir çözüm olarak kullanılır. İşlem ücretleri ağ tıkanıklığına bağlı olarak değişebilmekle birlikte, genellikle uluslararası transferler için bankalar tarafından alınan ücretlerden çok daha düşüktür. Ayrıca, Layer gibi [Lightning Network](https://planb.academy/resources/glossary/lightning-network)-2 çözümleri daha da hızlı ve ucuz Bitcoin işlemlerine olanak sağlar.
 
 
 #### Bir değer deposu
@@ -1540,7 +1540,7 @@ Bitcoin Wallet endüstrisi, her biri farklı ihtiyaçlara ve teknik uzmanlık se
 
 
 
-- Hardware Wallet Üreticileri**: Bu şirketler güvenli anahtar depolama için tasarlanmış fiziksel cihazlar geliştirmektedir. Bazıları açık kaynaklıdır, diğerleri ise çeşitli özelliklere ve güvenlik seviyelerine sahip tescilli çözümler sunar. Önemli isimler arasında Ledger, Trezor, Coinkite, Foundation ve Shiftcrypto bulunmaktadır.
+- [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Üreticileri**: Bu şirketler güvenli anahtar depolama için tasarlanmış fiziksel cihazlar geliştirmektedir. Bazıları açık kaynaklıdır, diğerleri ise çeşitli özelliklere ve güvenlik seviyelerine sahip tescilli çözümler sunar. Önemli isimler arasında Ledger, Trezor, Coinkite, Foundation ve Shiftcrypto bulunmaktadır.
 - Software Wallet Geliştiriciler**: Bunlar, mobil ve masaüstü uygulamalar yaratan şirketlerden bağımsız geliştiricilere kadar uzanmaktadır. Sundukları teklifler kullanıcı deneyimi, güvenlik ve özellikler açısından farklılık gösterir. Örnekler arasında Sparrow, Wizard Sardine, Galoy, Synonym ve Blockstream bulunmaktadır.
 - DIY (*Kendin Yap*) Cüzdanlar**: Bu açık kaynaklı çözümler, tam kontrol ve üçüncü taraflara minimum bağımlılık isteyen ileri düzey kullanıcılar için tasarlanmıştır. Kendi Wallet'nizi oluşturmak güven bağımlılıklarını azaltır ve güvenlik duruşunuzu artırabilir. Önemli DIY seçenekleri arasında Seedsigner ve Specter DIY bulunmaktadır.
 
@@ -1671,7 +1671,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 RGB, Bitcoin ve Lightning Network'nın üzerinde çalışmak üzere tasarlanmış merkezi olmayan ve gizlilik odaklı bir Smart contract sistemidir. Geleneksel Smart contract platformlarının aksine, RGB bir Client-side Validation modeli kullanır (yani tüm Contract State off-chain'de saklanır ve Bitcoin Blockchain'a yalnızca kriptografik taahhütler yayınlanır). Bu tasarım hem ölçeklenebilirliği hem de gizliliği artırır. RGB ile kullanıcılar token, NFT, merkeziyetsiz kimlik ve hatta DeFi uygulamalarını doğrudan Bitcoin veya Lightning üzerinde yayınlamak için gelişmiş akıllı sözleşmeler oluşturabilir.
 
 
-RGB'nın önemli bir özelliği, Tek Kullanımlık Mühürler adı verilen bir kriptografik teknik kullanılarak elde edilen Double-spending'e karşı korumasıdır. Bu mekanizma, Bitcoin'in UTXO'larının (Harcanmamış İşlem Çıktıları) yalnızca bir kez harcanabileceği gerçeğine dayanır. Token'ların gerçekliği, Contract'ün tüm geçmişinin (oluşturulmasından mevcut durumuna kadar) kullanıcı tarafında doğrulanmasıyla sağlanır.
+RGB'nın önemli bir özelliği, Tek Kullanımlık Mühürler adı verilen bir kriptografik teknik kullanılarak elde edilen Double-spending'e karşı korumasıdır. Bu mekanizma, Bitcoin'in [UTXO](https://planb.academy/resources/glossary/utxo)'larının (Harcanmamış İşlem Çıktıları) yalnızca bir kez harcanabileceği gerçeğine dayanır. Token'ların gerçekliği, Contract'ün tüm geçmişinin (oluşturulmasından mevcut durumuna kadar) kullanıcı tarafında doğrulanmasıyla sağlanır.
 
 
 ![BTC102-Bitcoin](assets/tr/060.webp)
@@ -1867,7 +1867,7 @@ Günlük yaşamınız da bitcoinlerinizi nasıl yöneteceğiniz konusunda büyü
 **Basit, otomatik çözümleri tercih edin; otomatik olarak güvenli depoya aktarılan planlanmış satın alımlar gibi.
 
 
-**Daha fazla kontrol ve güvenlik sunan Multisig cüzdanları gibi daha gelişmiş çözümleri tercih edebilirsiniz.
+**Daha fazla kontrol ve güvenlik sunan [Multisig](https://planb.academy/resources/glossary/multisig) cüzdanları gibi daha gelişmiş çözümleri tercih edebilirsiniz.
 
 
 **Sevdikleriniz veya gelecek nesiller için yatırım mı yapıyorsunuz? ** Miras konusunu erkenden düşünün. Size bir şey olması durumunda bitcoinlerinizin güvenli bir şekilde aktarılabileceğinden emin olmanın yolları vardır.
@@ -3397,7 +3397,7 @@ Burada sahip olduklarımın, konumlarının ve onlara nasıl erişebileceğimin 
 - Samourai Wallet cihazıma erişmek için telefonumu (Samsung Galaxy S8) kullanıyorum. Bu Wallet için kurtarma cümlesi iki kopya halinde kaydedilmiştir: biri banka kasasında, diğeri Bob Amca'da saklanmaktadır. Hem telefonumun hem de Wallet'nin kilidini açmak için gereken PIN evimde ve büyükannemde saklanıyor.
 - Dell 2018 dizüstü bilgisayarım aracılığıyla çevrimiçi Exchange platformu Bitfinex'e erişiyorum. Hala bitcoin veya dolar olabilir. Bu paraları kurtarmak için ya doğrudan Bitfinex ile iletişime geçmeniz ya da hesabıma erişmeyi denemeniz gerekecek. (**Dikkatli olun, bu yasa dışı olabilir - yerel yasalarınızı kontrol edin**)...
 - Bir şifre yöneticisi kullanarak çevrimiçi hesaplarıma erişimi güvence altına aldım. Bu yöneticinin bir yedeği banka kasasında saklanıyor. Bitfinex hesabım da telefonumdan (Samsung Galaxy S8, Authy uygulaması) ya da evde sakladığım yedek kodu kullanarak erişilebilen iki faktörlü kimlik doğrulama ile korunuyor.
-- Bilgisayarım üzerinden Sparrow wallet yazılımı kullanılarak erişilen bir Trezor Model One Hardware Wallet'e sahibim. Bu Wallet için kurtarma ifadesi iki kopya halinde saklanıyor: biri banka kasasında, diğeri Bob Amca'da. Bu Wallet'in PIN kodu evimde ve annemde saklanıyor. Cihazın kendisi muhtemelen ofisimdeki bir kasada saklanıyor. Trezor Model One cihazımda bir BIP39 passphrase kullanıyorum. Bu passphrase cihazdaki fonlara erişim için çok önemlidir. Bu passphrase'nin bir yedeği iki yerde saklanıyor: evimde ve annemde.
+- Bilgisayarım üzerinden Sparrow wallet yazılımı kullanılarak erişilen bir Trezor Model One Hardware Wallet'e sahibim. Bu Wallet için [kurtarma ifadesi](https://planb.academy/resources/glossary/recovery-phrase) iki kopya halinde saklanıyor: biri banka kasasında, diğeri Bob Amca'da. Bu Wallet'in PIN kodu evimde ve annemde saklanıyor. Cihazın kendisi muhtemelen ofisimdeki bir kasada saklanıyor. Trezor Model One cihazımda bir BIP39 passphrase kullanıyorum. Bu passphrase cihazdaki fonlara erişim için çok önemlidir. Bu passphrase'nin bir yedeği iki yerde saklanıyor: evimde ve annemde.
 
 
 Bu fonları kullanmadan önce gerekli tüm önlemleri alın. Geri kazanım ifadesinin tamamını asla bir kişiye açıklamayın ve bu ayrıntıları yalnızca kesinlikle gerekliyse paylaşın.

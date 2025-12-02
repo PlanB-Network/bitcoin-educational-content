@@ -262,7 +262,7 @@ Enne lingile klõpsamist või mis tahes toimingu sooritamist kontrollige alati k
 #### Bitcoin kõvavardad
 
 
-Aastate jooksul on Bitcoin kogenud mitmeid *Hard hargnemisi*, mille tulemusel on loodud algse krüptoraha alternatiivseid versioone. Lihtsustatult öeldes on *Hard Fork* võrgu jagunemine, mis viib kahe eraldi plokiahela tekkimiseni, mis mõlemad jagavad sama ajalugu kuni jagunemise hetkeni. Sellised hargnemised toimuvad tavaliselt siis, kui osa arendajaskonnast või laiemast Bitcoin ökosüsteemist soovib teha algsesse protokolli suuri muudatusi, kuid ei suuda saavutada laialdast konsensust. Selle asemel, et loobuda oma ideedest, otsustavad nad käivitada uue Bitcoin versiooni (muudetud reeglitega), lootes, et kasutajad ja kaevandajad otsustavad selle asemel järgida nende Fork.
+Aastate jooksul on Bitcoin kogenud mitmeid *Hard hargnemisi*, mille tulemusel on loodud algse krüptoraha alternatiivseid versioone. Lihtsustatult öeldes on *Hard [Fork](https://planb.academy/resources/glossary/fork)* võrgu jagunemine, mis viib kahe eraldi plokiahela tekkimiseni, mis mõlemad jagavad sama ajalugu kuni jagunemise hetkeni. Sellised hargnemised toimuvad tavaliselt siis, kui osa arendajaskonnast või laiemast Bitcoin ökosüsteemist soovib teha algsesse protokolli suuri muudatusi, kuid ei suuda saavutada laialdast konsensust. Selle asemel, et loobuda oma ideedest, otsustavad nad käivitada uue Bitcoin versiooni (muudetud reeglitega), lootes, et kasutajad ja kaevandajad otsustavad selle asemel järgida nende Fork.
 
 
 ![image](assets/et/011.webp)
@@ -1700,7 +1700,7 @@ Tänapäeval on kaupmeestele, kes soovivad Bitcoin maksevahendina aktsepteerida,
 Kui eelistate lahendust, mille puhul te ei pea käed külge ja soovite saada fiatvaluutat otse oma pangakontole, pakuvad sellised hoiuteenused nagu OpenNode lihtsustatud kogemust:
 
 
-https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-[node](https://planb.academy/resources/glossary/node)-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Kaupmeeste jaoks, kes on tehniliselt rohkem huvitatud ja soovivad täielikku kontrolli protsessi üle, on BTCPay Server fantastiline avatud lähtekoodiga valik. Peamine puudus on see, et selle seadistamine ja hooldamine nõuab aega ning mõningaid tehnilisi teadmisi:
 
@@ -1863,7 +1863,7 @@ Teie igapäevane elu mängib samuti suurt rolli selles, kuidas te oma bitcoin'ei
 ** Piiratud aeg või huvi?** Valige lihtsad, automatiseeritud lahendused, näiteks plaanilised ostud, mis kantakse automaatselt turvalisse hoidlasse.
 
 
-**Tehnoloogiline tai praktiline?** Sa võid eelistada arenenumaid lahendusi, nagu Multisig rahakotid, mis pakuvad suuremat kontrolli ja turvalisust.
+**Tehnoloogiline tai praktiline?** Sa võid eelistada arenenumaid lahendusi, nagu [Multisig](https://planb.academy/resources/glossary/multisig) rahakotid, mis pakuvad suuremat kontrolli ja turvalisust.
 
 
 **Investeerimine lähedaste või tulevaste põlvkondade jaoks?** Mõelge varakult pärimisele. On viise, kuidas tagada oma bitcoinide turvaline edasiandmine, kui sinuga peaks midagi juhtuma.
@@ -2453,7 +2453,7 @@ Stacker vajab Wallet seadistust, mis tasakaalustab kasutusmugavust ja pikaajalis
 
 
 
-- **Hot Wallet**: Ideaalne algajatele, mobiil- või lauaarvutid võimaldavad teil hõlpsasti vastu võtta Sats ja teha makseid. Siiski sobivad need kõige paremini väikeste summade jaoks. On-Chain rahakotid on paremate UTXO haldamise tõttu eelistatud Lightning rahakottidele. Soovitatavad tarkvaralised rahakotid: Green Wallet, Blue Wallet, Sparrow Wallet, Bitkit, Nunchuk, Aqua, Proton
+- **Hot Wallet**: Ideaalne algajatele, mobiil- või lauaarvutid võimaldavad teil hõlpsasti vastu võtta Sats ja teha makseid. Siiski sobivad need kõige paremini väikeste summade jaoks. On-Chain rahakotid on paremate [UTXO](https://planb.academy/resources/glossary/utxo) haldamise tõttu eelistatud Lightning rahakottidele. Soovitatavad tarkvaralised rahakotid: Green Wallet, Blue Wallet, Sparrow Wallet, Bitkit, Nunchuk, Aqua, Proton
 
 
 https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125

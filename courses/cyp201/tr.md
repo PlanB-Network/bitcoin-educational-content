@@ -47,13 +47,13 @@ Bu eğitimin amacı, günlük olarak kullandığınız araçlarda ustalaşmanız
 
 Bitcoin cüzdanlarının yapımı ve işleyişinin ayrıntılarına girmeden önce, bundan sonrası için bilinmesi gereken kriptografik ilkellere ilişkin birkaç bölümle başlayacağız.
 
-Hem cüzdanlar hem de Bitcoin protokolünün kendisi için temel olan kriptografik Hash işlevleriyle başlayacağız. Ana özelliklerini, Bitcoin'de kullanılan belirli işlevleri keşfedecek ve daha teknik bir bölümde, Hash işlevlerinin kraliçesinin işleyişi hakkında ayrıntılı bilgi edineceksiniz: SHA256.
+Hem cüzdanlar hem de Bitcoin protokolünün kendisi için temel olan kriptografik Hash işlevleriyle başlayacağız. Ana özelliklerini, Bitcoin'de kullanılan belirli işlevleri keşfedecek ve daha teknik bir bölümde, Hash işlevlerinin kraliçesinin işleyişi hakkında ayrıntılı bilgi edineceksiniz: [SHA256](https://planb.academy/resources/glossary/sha256).
 
 
 ![CYP201](assets/en/001.webp)
 
 
-Daha sonra, UTXO'larınızı güvence altına almak için her gün kullandığınız dijital imza algoritmalarının çalışmasını tartışacağız. Bitcoin iki tane kullanır: ECDSA ve Schnorr protokolü. Bu algoritmaların altında hangi matematiksel ilkellerin yattığını ve işlemlerin güvenliğini nasıl sağladıklarını öğreneceksiniz.
+Daha sonra, UTXO'larınızı güvence altına almak için her gün kullandığınız dijital imza algoritmalarının çalışmasını tartışacağız. Bitcoin iki tane kullanır: [ECDSA](https://planb.academy/resources/glossary/ecdsa) ve Schnorr protokolü. Bu algoritmaların altında hangi matematiksel ilkellerin yattığını ve işlemlerin güvenliğini nasıl sağladıklarını öğreneceksiniz.
 
 
 ![CYP201](assets/en/002.webp)
@@ -86,7 +86,7 @@ Bu tablo, CYP 201 dersi kapsamında kullanılan şemaları ve teknik belgeleri d
 | --------------- | -------------------------------------------------------------------------------------------------- |
 | *pubkey hash*   | Genel anahtar karması (Bitcoin adresi oluşturmak için kullanılır).                                  |
 | *public key*    | Genel anahtar (fon almak için kullanılır, özel anahtardan türetilmiştir).                           |
-| *signature*     | Dijital imza (bir mesajın özel anahtar sahibinden geldiğini kanıtlayan kriptografik delil).         |
+| *signature*     | Dijital imza (bir mesajın [özel anahtar](https://planb.academy/resources/glossary/private-key) sahibinden geldiğini kanıtlayan kriptografik delil).         |
 | *scriptPubKey*  | Kilitleme betiği (bir çıktının harcanma koşullarını tanımlar).                                      |
 | *scriptSig*     | Kilit açma betiği (*scriptPubKey*'i karşılamak için verileri sağlar).                              |
 | *Stack*         | Yığın (*Bitcoin Script* tarafından kullanılan veri yapısı).                                         |
@@ -101,7 +101,7 @@ Bu tablo, CYP 201 dersi kapsamında kullanılan şemaları ve teknik belgeleri d
 | *HD Wallet*     | Hiyerarşik deterministik cüzdan (tek bir tohumdan birden çok anahtar üretir).                       |
 | *Random Number* | Rastgele sayı (güvenli özel anahtarlar üretmek için kullanılır).                                    |
 | *State*         | Durum (kriptografik bir süreçteki ara değer).                                                       |
-| *Entropy*       | Entropi (rastgeleliğin ölçüsü, cüzdan tohumları üretmek için kullanılır).                           |
+| *[Entropy](https://planb.academy/resources/glossary/entropy)*       | Entropi (rastgeleliğin ölçüsü, cüzdan tohumları üretmek için kullanılır).                           |
 | *Mnemonic*      | Mnemonik (bir tohumun yedeklenmesini ve geri yüklenmesini kolaylaştıran kelime dizisi).             |
 | *Wordlist*      | Kelime listesi (BIP39 mnemonikleri üretmek için kullanılan önceden tanımlanmış küme).               |
 | *Seed*          | Tohum (bir HD cüzdanındaki tüm anahtarların türetilmesine izin veren başlangıç değeri).             |
@@ -824,7 +824,7 @@ Bu HMAC-SHA512 kara kutusunda neler olduğunu daha ayrıntılı olarak inceleyel
 
 - m$: kullanıcı tarafından seçilen keyfi büyüklükteki mesaj (ilk girdi);
 - k$: kullanıcı tarafından seçilen rastgele gizli anahtar (ikinci girdi);
-- k'$: Hash fonksiyon bloklarının $B$ boyutuna göre ayarlanmış $K$ anahtarı (SHA512 için 1024 bit veya 128 bayt);
+- k'$: [Hash fonksiyon](https://planb.academy/resources/glossary/hash-function) bloklarının $B$ boyutuna göre ayarlanmış $K$ anahtarı (SHA512 için 1024 bit veya 128 bayt);
 - $\text{SHA512}$: SHA512 Hash işlevi;
 - $\oplus$: XOR (özel veya) işlemi;
 - $\Vert$: bit dizelerini uçtan uca bağlayan birleştirme operatörü;

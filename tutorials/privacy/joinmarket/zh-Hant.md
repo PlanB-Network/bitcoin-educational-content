@@ -1,7 +1,7 @@
 ---
 name: JoinMarket
 
-description: 如何使用 JoinMarket 透過指令行做 CoinJoin over Bitcoin 的指南與教學
+description: 如何使用 JoinMarket 透過指令行做 [CoinJoin](https://planb.academy/resources/glossary/coinjoin) over Bitcoin 的指南與教學
 ---
 
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Mempool
+name: [Mempool](https://planb.academy/resources/glossary/mempool)
 description: Tutvuge kogu Bitcoin ökosüsteemiga.
 ---
 

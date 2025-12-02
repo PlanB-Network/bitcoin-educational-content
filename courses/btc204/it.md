@@ -50,7 +50,7 @@ L'obiettivo di questo corso di formazione non è quello di rendere totalmente an
 
 **Sezione 1: Definizioni e concetti chiave**
 
-Per cominciare, rivedremo i principi fondamentali che regolano il funzionamento di Bitcoin, in modo da poter poi affrontare con calma le nozioni relative alla riservatezza. È essenziale padroneggiare alcuni concetti di base, come UTXO, indirizzi di ricezione e scripting, prima di poter comprendere appieno i concetti che tratteremo nelle sezioni successive. Introdurremo anche il modello generale di riservatezza di Bitcoin, come immaginato da Satoshi Nakamoto, che ci permetterà di comprendere la posta in gioco e i rischi associati.
+Per cominciare, rivedremo i principi fondamentali che regolano il funzionamento di Bitcoin, in modo da poter poi affrontare con calma le nozioni relative alla riservatezza. È essenziale padroneggiare alcuni concetti di base, come [UTXO](https://planb.academy/resources/glossary/utxo), indirizzi di ricezione e scripting, prima di poter comprendere appieno i concetti che tratteremo nelle sezioni successive. Introdurremo anche il modello generale di riservatezza di Bitcoin, come immaginato da Satoshi Nakamoto, che ci permetterà di comprendere la posta in gioco e i rischi associati.
 
 ![BTC204](assets/it/001.webp)
 
@@ -66,7 +66,7 @@ Nella terza sezione del nostro corso di formazione, entriamo nel vivo: la pratic
 
 ![BTC204](assets/it/003.webp)
 
-**Sezione 4: Comprendere le transazioni coinjoin**
+**Sezione 4: Comprendere le transazioni [coinjoin](https://planb.academy/resources/glossary/coinjoin)**
 
 Come possiamo parlare di privacy su Bitcoin senza menzionare le coinjoin? Nella sezione 4 scoprirete tutto quello che c'è da sapere su questo metodo di miscelazione. Scoprirete cosa sono le coinjoin, la loro storia e i loro obiettivi, nonché i diversi tipi di coinjoin esistenti. Infine, per gli utenti più esperti, vedremo cosa sono gli anonset e l'entropia e come calcolarli.
 
@@ -110,7 +110,7 @@ Il Bitcoin funziona in modo diverso. Il concetto di conto non esiste e le unità
 1 BTC = 100 000 000 SATS
 ```
 
-Teoricamente, un UTXO può rappresentare qualsiasi valore in bitcoin, da un sat a un massimo teorico di circa 21 milioni di BTC. Tuttavia, è logicamente impossibile possedere tutti i 21 milioni di bitcoin, ed esiste una soglia economica inferiore chiamata "polvere", al di sotto della quale un UTXO è considerato economicamente non conveniente da spendere.
+Teoricamente, un UTXO può rappresentare qualsiasi valore in bitcoin, da un sat a un massimo teorico di circa 21 milioni di BTC. Tuttavia, è logicamente impossibile possedere tutti i 21 milioni di bitcoin, ed esiste una soglia economica inferiore chiamata "[polvere](https://planb.academy/resources/glossary/dust)", al di sotto della quale un UTXO è considerato economicamente non conveniente da spendere.
 
 **Lo sapevi?** Il più grande UTXO mai creato su Bitcoin aveva un valore di 500.000 BTC. È stato creato dalla piattaforma MtGox durante un'operazione di consolidamento nel novembre 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
@@ -569,7 +569,7 @@ Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec
 
 In quest'ultimo caso, possiamo notare che l'ingresso n. 0 e l'uscita n. 1 utilizzano script P2WPKH (SegWit V0), mentre l'uscita n. 0 utilizza uno script P2PKH diverso (Legacy).
 
-Nei primi anni 2010, questa euristica basata sulla versione degli script era relativamente poco utile a causa dei limitati tipi di script disponibili. Tuttavia, nel corso del tempo e con i successivi aggiornamenti di Bitcoin, è stata introdotta una crescente varietà di tipi di script. Questa euristica sta quindi diventando sempre più rilevante, poiché con una gamma più ampia di tipi di script, gli utenti si dividono in gruppi più piccoli, aumentando così le possibilità di applicare questa euristica di riutilizzo della versione interna. Per questo motivo, solo dal punto di vista della riservatezza, è consigliabile optare per il tipo di script più comune. Ad esempio, nel momento in cui scrivo queste righe, gli script Taproot (`bc1p`) sono meno utilizzati degli script SegWit V0 (`bc1q`). Sebbene i primi offrano vantaggi economici e di riservatezza in alcuni contesti specifici, per gli usi più tradizionali a firma singola può essere sensato attenersi a uno standard più vecchio per motivi di riservatezza, fino a quando il nuovo standard non sarà più ampiamente adottato.
+Nei primi anni 2010, questa euristica basata sulla versione degli script era relativamente poco utile a causa dei limitati tipi di script disponibili. Tuttavia, nel corso del tempo e con i successivi aggiornamenti di Bitcoin, è stata introdotta una crescente varietà di tipi di script. Questa euristica sta quindi diventando sempre più rilevante, poiché con una gamma più ampia di tipi di script, gli utenti si dividono in gruppi più piccoli, aumentando così le possibilità di applicare questa euristica di riutilizzo della versione interna. Per questo motivo, solo dal punto di vista della riservatezza, è consigliabile optare per il tipo di script più comune. Ad esempio, nel momento in cui scrivo queste righe, gli script Taproot (`bc1p`) sono meno utilizzati degli script [SegWit](https://planb.academy/resources/glossary/segwit) V0 (`bc1q`). Sebbene i primi offrano vantaggi economici e di riservatezza in alcuni contesti specifici, per gli usi più tradizionali a firma singola può essere sensato attenersi a uno standard più vecchio per motivi di riservatezza, fino a quando il nuovo standard non sarà più ampiamente adottato.
 
 ### Pagamenti con numeri tondi
 
@@ -633,7 +633,7 @@ Source : [Mempool.space](https://mempool.space/tx/b79d8f8e4756d34bbb26c659ab8831
 
 Lo studio delle euristiche esterne significa analizzare le somiglianze, i modelli e le caratteristiche di alcuni elementi che non sono specifici della transazione stessa. In altre parole, mentre prima ci limitavamo a sfruttare gli elementi intrinseci alla transazione con l'euristica interna, ora stiamo ampliando il nostro campo di analisi per includere l'ambiente della transazione, grazie all'euristica esterna.
 
-### Riutilizzo dell'indirizzo
+### [Riutilizzo dell'indirizzo](https://planb.academy/resources/glossary/address-reuse)
 
 Questa è una delle euristiche più conosciute dai bitcoiners. Il riutilizzo degli indirizzi consente di stabilire un collegamento tra transazioni diverse e UTXO diversi. Si verifica quando un indirizzo di ricezione Bitcoin viene utilizzato più volte.
 
@@ -2559,7 +2559,7 @@ Dopo aver trattato in dettaglio le coinjoin, nella sezione finale del corso esam
 
 Coinjoin è attualmente il metodo più efficace per introdurre l'incertezza nel tracciamento delle parti in un'analisi di catena. Come abbiamo visto nei capitoli precedenti, per ottenere un mix ad alte prestazioni, gli input e gli output devono essere il più possibile omogenei. Inoltre, è importante che le parti siano integrate in un gruppo il più ampio possibile per massimizzare gli insiemi. Quindi, per essere efficaci, i coinjoin devono coinvolgere un gran numero di parti uniformi. Questa moltitudine di requisiti significa che le transazioni coinjoin hanno una struttura molto rigida: gli importi sono fissati in anticipo e tutti i partecipanti devono rispettarli per garantire l'uniformità del processo. Inoltre, le coinjoin richiedono la sincronizzazione tra tutti i partecipanti e il coordinatore durante la costruzione della transazione.
 
-Questi requisiti rendono coinjoin inadatto ai pagamenti diretti. Ad esempio, se si dispone di una moneta da 1 milione di sats in un pool di coinjoin, utilizzarla direttamente come pagamento sarebbe complesso. Sarebbe necessario sincronizzarsi con gli altri partecipanti e con il coordinatore per costruire la transazione collaborativa proprio nel momento in cui si ha bisogno di effettuare un pagamento, e l'importo dell'acquisto dovrebbe corrispondere esattamente al valore della propria moneta, il che è praticamente irrealizzabile. La transazione coinjoin è quindi per sua natura una transazione collaborativa a tappeto, cioè di solito sono gli stessi proprietari degli input che troviamo negli output.
+Questi requisiti rendono coinjoin inadatto ai pagamenti diretti. Ad esempio, se si dispone di una moneta da 1 milione di sats in un pool di coinjoin, utilizzarla direttamente come pagamento sarebbe complesso. Sarebbe necessario sincronizzarsi con gli altri partecipanti e con il coordinatore per costruire la transazione collaborativa proprio nel momento in cui si ha bisogno di effettuare un pagamento, e l'importo dell'acquisto dovrebbe corrispondere esattamente al valore della propria moneta, il che è praticamente irrealizzabile. La transazione coinjoin è quindi per sua natura una transazione collaborativa a [tappeto](https://planb.academy/resources/glossary/taproot), cioè di solito sono gli stessi proprietari degli input che troviamo negli output.
 
 Tuttavia, sarebbe interessante disporre di strutture di transazione che permettano di effettuare pagamenti in modo pratico, introducendo allo stesso tempo il dubbio nell'analisi della catena. È proprio questo l'obiettivo di questo e del prossimo capitolo.
 
@@ -2932,7 +2932,7 @@ Riassumiamo il funzionamento di un adattatore di firma in un coinswap. Inizialme
 
 Si noti che i coinswap sono stati proposti per la prima volta da [Gregory Maxwell nell'ottobre 2013 su BitcoinTalk](https://bitcointalk.org/index.php?topic=321228.0).
 
-### Scambio atomico
+### [Scambio atomico](https://planb.academy/resources/glossary/atomic-swap)
 
 In modo simile al coinswap, e utilizzando gli stessi tipi di smart contract, è possibile effettuare anche gli atomic swap. Uno swap atomico consente uno scambio diretto di criptovalute diverse, come BTC e XMR, tra due utenti senza bisogno di fiducia o dell'intervento di un intermediario. Questi scambi sono definiti "atomici" perché hanno solo due esiti possibili: o lo scambio va a buon fine ed entrambe le parti sono soddisfatte, oppure fallisce e ciascuno conserva le proprie criptovalute originali, eliminando la necessità di fidarsi dell'altra parte.
 

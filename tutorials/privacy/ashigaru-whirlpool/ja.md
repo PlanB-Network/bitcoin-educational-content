@@ -340,7 +340,7 @@ https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4
 
 
 
-## コインジョイン・サイクルの品質について知りたいのですが？
+## [コインジョイン](https://planb.academy/resources/glossary/coinjoin)・サイクルの品質について知りたいのですが？
 
 
 

@@ -1,5 +1,5 @@
 ---
-name: Ashigaru - Whirlpool Coinjoin
+name: Ashigaru - Whirlpool [Coinjoin](https://planb.academy/resources/glossary/coinjoin)
 description: 아시가루 애플리케이션에서 코인조인은 어떻게 하나요?
 ---
 

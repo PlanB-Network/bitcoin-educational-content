@@ -6,7 +6,7 @@ description: Utangulizi wa Dimbwi la Umma
 ![signup](assets/cover.webp)
 
 
-**Bwawa la Umma** sio tu bwawa lolote; ni kile kinachojulikana pia kama **Dimbwi la Solo**. Ikiwa Miner yako inafanikiwa katika Mining block, basi unakusanya Block reward nzima, ambayo haijashirikiwa na washiriki wengine wa bwawa au kwa bwawa yenyewe.
+**Bwawa la Umma** sio tu bwawa lolote; ni kile kinachojulikana pia kama **Dimbwi la Solo**. Ikiwa [Miner](https://planb.academy/resources/glossary/miner) yako inafanikiwa katika Mining block, basi unakusanya Block reward nzima, ambayo haijashirikiwa na washiriki wengine wa bwawa au kwa bwawa yenyewe.
 
 
 **Public Pool** hutoa pekee **kiolezo cha kuzuia** kwa Miner yako ili iweze kutekeleza kazi yake bila wewe kuhitaji kuwa na **nodi ya Bitcoin** na programu inayowasiliana na Miner yako. Kwa kuwa haujumuishi nguvu zako za kompyuta na za washiriki wengine, nafasi zako za kufaulu Mining block ni wazi na ndogo sana, zinafanana kwa kiasi fulani na mfumo wa bahati nasibu, ambapo wakati mwingine mtu mwenye bahati hushinda jackpot.
@@ -21,7 +21,7 @@ Kwenye **Dashibodi** ya **Public Pool**, bado una baadhi ya takwimu kama vile **
 ![signup](assets/2.webp)
 
 
-Katika mistari michache ya kwanza, tunaweza kuona **Bitaxe** yenye 1323 **Bitaxe** iliyounganishwa kwa jumla ya 649TH/s. **Bitaxe** ni mradi wa **Chanzo huria** unaoruhusu utumiaji tena rahisi wa chipu kutoka **ASIC** kama vile **Antminer S19** kwenye **ubao wa kielektroniki wa opensource** ili kutengeneza Miner ndogo ya 0.5TH/s kwa 15W. Hii ndio Miner tutakayotumia kama mfano kwa somo hili.
+Katika mistari michache ya kwanza, tunaweza kuona **Bitaxe** yenye 1323 **Bitaxe** iliyounganishwa kwa jumla ya 649TH/s. **Bitaxe** ni mradi wa **Chanzo huria** unaoruhusu utumiaji tena rahisi wa chipu kutoka **[ASIC](https://planb.academy/resources/glossary/asic)** kama vile **Antminer S19** kwenye **ubao wa kielektroniki wa opensource** ili kutengeneza Miner ndogo ya 0.5TH/s kwa 15W. Hii ndio Miner tutakayotumia kama mfano kwa somo hili.
 
 
 ## Kuongeza **Mfanyakazi** 👷‍♂️
@@ -83,7 +83,7 @@ Kwenye **Dashibodi**, taarifa tofauti huonyeshwa kuhusu data yako na kuhusu mtan
 Una **Kiwango cha Hash cha Mtandao** ambacho kinalingana na nguvu zote za kufanya kazi za mtandao wa **Bitcoin**.
 
 
-**Ugumu wa Mtandao** unaonyesha ugumu ambao lazima ufikiwe ili kuthibitisha kizuizi.
+**[Ugumu](https://planb.academy/resources/glossary/difficulty) wa Mtandao** unaonyesha ugumu ambao lazima ufikiwe ili kuthibitisha kizuizi.
 
 
 Na **Ugumu Wako Bora** ndio ugumu wa hali ya juu ambao umefikia. Ikiwa, kwa bahati 🍀, utafikia ugumu wa mtandao, basi utashinda Block reward nzima... baada ya vitalu 100. Utalazimika kusubiri vitalu 100 kabla ya kuweza kuzitumia.

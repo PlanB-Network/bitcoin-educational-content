@@ -6,7 +6,7 @@ description: Wprowadzenie do basenu publicznego
 ![signup](assets/cover.webp)
 
 
-**Public Pool** nie jest zwykłą pulą; jest to również tak zwana **Solo Pool**. Jeśli twój Miner odniesie sukces w Mining bloku, otrzymasz cały Block reward, który nie jest udostępniany innym uczestnikom puli ani samej puli.
+**Public Pool** nie jest zwykłą pulą; jest to również tak zwana **Solo Pool**. Jeśli twój [Miner](https://planb.academy/resources/glossary/miner) odniesie sukces w Mining bloku, otrzymasz cały Block reward, który nie jest udostępniany innym uczestnikom puli ani samej puli.
 
 
 **Public Pool** zapewnia wyłącznie **szablon bloku** dla Miner, dzięki czemu może on wykonywać swoje zadanie bez konieczności posiadania **węzła Bitcoin** i oprogramowania komunikującego się z Miner. Ponieważ nie łączysz swojej mocy obliczeniowej z mocą obliczeniową innych uczestników, twoje szanse na pomyślne Mining bloku są oczywiście bardzo niskie, przypominając nieco system loterii, w którym czasami szczęśliwa osoba wygrywa jackpota.
@@ -21,7 +21,7 @@ Na **Dashboardzie** **Publicznej puli** nadal dostępne są pewne statystyki, ta
 ![signup](assets/2.webp)
 
 
-W pierwszych kilku linijkach możemy zobaczyć **Bitaxe** z 1323 **Bitaxe** połączonymi dla łącznej prędkości 649TH/s. **Bitaxe** to **projekt open source**, który pozwala na proste ponowne wykorzystanie chipa z **ASIC**, takiego jak **Antminer S19**, na **opensource** płytce elektronicznej, aby stworzyć maleńki Miner o prędkości 0,5TH/s dla 15W. Jest to Miner, którego użyjemy jako przykładu w tym samouczku.
+W pierwszych kilku linijkach możemy zobaczyć **Bitaxe** z 1323 **Bitaxe** połączonymi dla łącznej prędkości 649TH/s. **Bitaxe** to **projekt open source**, który pozwala na proste ponowne wykorzystanie chipa z **[ASIC](https://planb.academy/resources/glossary/asic)**, takiego jak **Antminer S19**, na **opensource** płytce elektronicznej, aby stworzyć maleńki Miner o prędkości 0,5TH/s dla 15W. Jest to Miner, którego użyjemy jako przykładu w tym samouczku.
 
 
 ## Dodanie **Pracownika** 👷‍♂️
@@ -83,7 +83,7 @@ Na **Dashboardzie** wyświetlane są różne informacje dotyczące zarówno dany
 Dostępna jest **Sieć Hash Rate**, która odpowiada całkowitej mocy roboczej sieci **Bitcoin**.
 
 
-**Trudność sieci** wskazuje trudność, która musi zostać osiągnięta w celu zatwierdzenia bloku.
+**[Trudność](https://planb.academy/resources/glossary/difficulty) sieci** wskazuje trudność, która musi zostać osiągnięta w celu zatwierdzenia bloku.
 
 
 A **Twój najlepszy poziom trudności** to najwyższy poziom trudności, jaki osiągnąłeś. Jeśli przypadkiem 🍀 osiągniesz trudność sieciową, wygrasz cały Block reward... po 100 blokach. Będziesz musiał poczekać 100 bloków, zanim będziesz mógł je wydać.

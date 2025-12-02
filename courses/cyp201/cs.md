@@ -34,10 +34,10 @@ Vítejte v kurzu CYP201, kde se podrobně seznámíme s fungováním HD Bitcoino
 
 Cílem tohoto školení je dát vám klíče k ovládnutí nástrojů, které používáte každý den. HD Bitcoinové peněženky, které jsou v srdci vašeho uživatelského zážitku, jsou založeny na někdy složitých konceptech, které se pokusíme zpřístupnit. Společně je odhalíme!
 
-Než se ponoříme do detailů konstrukce a fungování Bitcoinových peněženek, začneme několika kapitolami o kryptografických primitivách, které je třeba znát pro následující. Začneme hašovacími funkcemi, zásadními jak pro peněženky, tak pro samotný protokol Bitcoinu. Objevíte jejich hlavní charakteristiky, specifické funkce používané v Bitcoinu a v techničtější kapitole se dozvíte podrobně o fungování královny hašovacích funkcí: SHA256.
+Než se ponoříme do detailů konstrukce a fungování Bitcoinových peněženek, začneme několika kapitolami o kryptografických primitivách, které je třeba znát pro následující. Začneme hašovacími funkcemi, zásadními jak pro peněženky, tak pro samotný protokol Bitcoinu. Objevíte jejich hlavní charakteristiky, specifické funkce používané v Bitcoinu a v techničtější kapitole se dozvíte podrobně o fungování královny hašovacích funkcí: [SHA256](https://planb.academy/resources/glossary/sha256).
 ![CYP201](assets/en/001.webp)
 
-Dále budeme diskutovat o fungování algoritmů digitálního podpisu, které každý den používáte k zabezpečení vašich UTXOs. Bitcoin používá dva: ECDSA a protokol Schnorr. Naučíte se, které matematické primitivy leží v základu těchto algoritmů a jak zajišťují bezpečnost transakcí.
+Dále budeme diskutovat o fungování algoritmů digitálního podpisu, které každý den používáte k zabezpečení vašich UTXOs. Bitcoin používá dva: [ECDSA](https://planb.academy/resources/glossary/ecdsa) a protokol Schnorr. Naučíte se, které matematické primitivy leží v základu těchto algoritmů a jak zajišťují bezpečnost transakcí.
 
 ![CYP201](assets/en/002.webp)
 
@@ -58,7 +58,7 @@ Tato tabulka vám nabízí překlad hlavních anglických termínů, které se p
 | Angličtina      | Překlad / Vysvětlení                                                                              |
 | --------------- | -------------------------------------------------------------------------------------------------- |
 | *pubkey hash*   | Haš veřejného klíče (používá se k vygenerování bitcoinové adresy).                                |
-| *public key*    | Veřejný klíč (slouží k přijímání prostředků, odvozený od soukromého klíče).                        |
+| *public key*    | [Veřejný klíč](https://planb.academy/resources/glossary/public-key) (slouží k přijímání prostředků, odvozený od soukromého klíče).                        |
 | *signature*     | Digitální podpis (kryptografický důkaz, že zpráva pochází od držitele soukromého klíče).           |
 | *scriptPubKey*  | Uzamykací skript (definuje podmínky pro utracení výstupu).                                         |
 | *scriptSig*     | Odemykací skript (poskytuje data k uspokojení *scriptPubKey*).                                     |
@@ -74,7 +74,7 @@ Tato tabulka vám nabízí překlad hlavních anglických termínů, které se p
 | *HD Wallet*     | Hierarchická deterministická peněženka (generuje více klíčů z jednoho seedu).                      |
 | *Random Number* | Náhodné číslo (používané k vytváření bezpečných soukromých klíčů).                                 |
 | *State*         | Stav (mezihodnota v kryptografickém procesu).                                                      |
-| *Entropy*       | Entropie (míra náhodnosti, používaná k vytváření seedů peněženky).                                 |
+| *[Entropy](https://planb.academy/resources/glossary/entropy)*       | Entropie (míra náhodnosti, používaná k vytváření seedů peněženky).                                 |
 | *Mnemonic*      | Mnemotechnická pomůcka (sled slov usnadňující zálohování a obnovení seedu).                        |
 | *Wordlist*      | Slovní seznam (předem definovaná sada slov používaná k vytváření BIP39 mnemotechnických pomůcek).  |
 | *Seed*          | Seed (počáteční hodnota, ze které lze odvodit všechny klíče HD peněženky).                         |
@@ -651,7 +651,7 @@ Druhou kryptografickou metodou používanou v Bitcoinu jsou algoritmy digitáln�
 Pojem "_peněženka_" v Bitcoinu může být pro začátečníky matoucí. Skutečně, to, co se nazývá Bitcoinová peněženka, je software, který přímo neobsahuje vaše bitcoiny, na rozdíl od fyzické peněženky, která může obsahovat mince nebo bankovky. Bitcoiny jsou prostě jednotky účtu. Tato jednotka účtu je reprezentována **UTXO** (_Unspent Transaction Outputs_), což jsou nevyužité transakční výstupy. Pokud jsou tyto výstupy nevyužité, znamená to, že patří uživateli. UTXO jsou, jakýmsi způsobem, kusy bitcoinů, proměnné velikosti, patřící uživateli.
 
 Protokol Bitcoinu je distribuovaný a funguje bez centrální autority. Proto to není jako tradiční bankovní záznamy, kde eura, která vám patří, jsou jednoduše spojena s vaší osobní identitou. V Bitcoinu vaše UTXO patří vám, protože jsou chráněna podmínkami výdaje specifikovanými v jazyce Script. Zjednodušeně řečeno, existují dva typy skriptů: uzamykací skript (_scriptPubKey_), který chrání UTXO, a odemykací skript (_scriptSig_), který umožňuje odemknout UTXO a tím utratit bitcoinové jednotky, které reprezentuje.
-Počáteční operace Bitcoinu s P2PK skripty zahrnuje použití veřejného klíče k uzamčení prostředků, specifikující v _scriptPubKey_, že osoba, která si přeje utratit toto UTXO, musí poskytnout platný podpis s privátním klíčem odpovídajícím tomuto veřejnému klíči. K odemčení tohoto UTXO je tedy nutné poskytnout platný podpis v _scriptSig_. Jak názvy napovídají, veřejný klíč je znám všem, protože je vysílán na blockchainu, zatímco privátní klíč zná pouze legitimní vlastník prostředků.
+Počáteční operace Bitcoinu s P2PK skripty zahrnuje použití veřejného klíče k uzamčení prostředků, specifikující v _scriptPubKey_, že osoba, která si přeje utratit toto UTXO, musí poskytnout platný podpis s privátním klíčem odpovídajícím tomuto veřejnému klíči. K odemčení tohoto UTXO je tedy nutné poskytnout platný podpis v _scriptSig_. Jak názvy napovídají, veřejný klíč je znám všem, protože je vysílán na blockchainu, zatímco [privátní klíč](https://planb.academy/resources/glossary/private-key) zná pouze legitimní vlastník prostředků.
 To je základní operace Bitcoinu, ale časem se tato operace stala složitější. Nejprve Satoshi také představil P2PKH skripty, které používají přijímací adresu v _scriptPubKey_, což představuje hash veřejného klíče. Poté se systém stal ještě složitějším s příchodem SegWitu a poté Taprootu. Nicméně, obecný princip zůstává zásadně stejný: veřejný klíč nebo reprezentace tohoto klíče je použita k uzamčení UTXO, a odpovídající privátní klíč je vyžadován k jejich odemčení a tím k jejich utracení.
 Uživatel, který si přeje provést transakci s Bitcoinem, musí proto vytvořit digitální podpis pomocí svého soukromého klíče k dané transakci. Tento podpis mohou ověřit ostatní účastníci sítě. Pokud je platný, znamená to, že uživatel iniciující transakci je skutečně vlastníkem soukromého klíče a tedy i vlastníkem bitcoinů, které si přeje utratit. Ostatní uživatelé mohou poté transakci přijmout a dále šířit.
 

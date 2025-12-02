@@ -23,14 +23,14 @@ Een Bitcoin knooppunt is een computer die deelneemt aan het Bitcoin netwerk door
 
 
 
-- **Blockchain opslag**: Behoudt een volledige, actuele kopie van de Blockchain Bitcoin
+- **[Blockchain](https://planb.academy/resources/glossary/blockchain) opslag**: Behoudt een volledige, actuele kopie van de Blockchain Bitcoin
 - **Transactieverificatie**: valideert elke transactie en elk blok volgens de protocolregels
 - **Informatieverspreiding**: Deelt nieuwe transacties en blokken met andere nodes
 - **Consensusvorming**: Draagt bij aan de toepassing van netwerkregels
 
 
 
-Het runnen van je eigen Bitcoin node is een cruciale stap op weg naar financiële soevereiniteit en biedt verschillende belangrijke voordelen:
+Het runnen van je eigen Bitcoin [node](https://planb.academy/resources/glossary/node) is een cruciale stap op weg naar financiële soevereiniteit en biedt verschillende belangrijke voordelen:
 
 
 

@@ -5,7 +5,7 @@ description: Introduzione a Public Pool
 
 ![signup](assets/cover.webp)
 
-**Public Pool** non è una piscina qualunque; è ciò che viene anche definito un **Solo Pool**. Se il tuo miner riesce a minare un blocco, allora raccogli l'intera ricompensa del blocco, che non viene condivisa con altri partecipanti della piscina o con la piscina stessa.
+**Public Pool** non è una piscina qualunque; è ciò che viene anche definito un **Solo Pool**. Se il tuo [miner](https://planb.academy/resources/glossary/miner) riesce a minare un blocco, allora raccogli l'intera ricompensa del blocco, che non viene condivisa con altri partecipanti della piscina o con la piscina stessa.
 
 **Public Pool** fornisce solamente un **template di blocco** per il tuo miner affinché possa svolgere il suo compito senza che tu debba avere un **nodo Bitcoin** e il software che comunica con il tuo miner. Dato che non stai unendo la tua potenza di calcolo con quella di altri partecipanti, le tue possibilità di minare con successo un blocco sono ovviamente molto basse, assomigliando in qualche modo a un sistema di lotteria, dove a volte un individuo fortunato vince il jackpot.
 
@@ -15,7 +15,7 @@ Nel **Dashboard** di **Public Pool**, hai comunque alcune statistiche come l'**H
 
 ![signup](assets/2.webp)
 
-Nelle prime righe, possiamo vedere **Bitaxe** con 1323 **Bitaxe** connessi per un totale di 649TH/s. **Bitaxe** è un progetto **Open source** che permette il semplice riutilizzo di un chip da un **ASIC** come l'**Antminer S19** su una scheda elettronica **opensource** per creare un piccolo miner di 0.5TH/s per 15W. Questo è il miner che useremo come esempio per questo tutorial.
+Nelle prime righe, possiamo vedere **Bitaxe** con 1323 **Bitaxe** connessi per un totale di 649TH/s. **Bitaxe** è un progetto **Open source** che permette il semplice riutilizzo di un chip da un **[ASIC](https://planb.academy/resources/glossary/asic)** come l'**Antminer S19** su una scheda elettronica **opensource** per creare un piccolo miner di 0.5TH/s per 15W. Questo è il miner che useremo come esempio per questo tutorial.
 
 ## Aggiungere un **Worker** 👷‍♂️
 
@@ -54,7 +54,7 @@ Sulla **Dashboard**, vengono visualizzate diverse informazioni sia sui tuoi dati
 
 Hai il **Network Hash Rate** che corrisponde alla potenza lavorativa totale della rete **Bitcoin**.
 
-La **Difficoltà di Rete** indica la difficoltà che deve essere raggiunta per validare un blocco.
+La **[Difficoltà](https://planb.academy/resources/glossary/difficulty) di Rete** indica la difficoltà che deve essere raggiunta per validare un blocco.
 
 E la **Tua Migliore Difficoltà** è la più alta difficoltà che hai raggiunto. Se, per caso 🍀, raggiungi la difficoltà della rete, allora vinci l'intera ricompensa del blocco... dopo 100 blocchi. Dovresti aspettare 100 blocchi prima di poterli spendere.
 

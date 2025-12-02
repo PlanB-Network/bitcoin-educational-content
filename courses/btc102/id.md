@@ -262,7 +262,7 @@ Sebelum mengklik tautan atau melakukan tindakan apa pun, selalu periksa kembali 
 #### Bitcoin Hardforks
 
 
-Selama bertahun-tahun, Bitcoin telah mengalami beberapa *Hard fork*, yang menghasilkan versi alternatif dari mata uang kripto asli. Secara sederhana, *Hard Fork* adalah perpecahan dalam jaringan yang mengarah ke dua blockchain yang terpisah, keduanya berbagi sejarah yang sama hingga saat perpecahan. Fork ini biasanya terjadi ketika bagian dari komunitas pengembang atau ekosistem Bitcoin yang lebih luas ingin memperkenalkan perubahan besar pada protokol asli tetapi tidak dapat mencapai konsensus yang luas. Alih-alih meninggalkan ide mereka, mereka memutuskan untuk meluncurkan versi baru Bitcoin (dengan aturan yang diubah) dengan harapan pengguna dan penambang akan memilih untuk mengikuti Fork sebagai gantinya.
+Selama bertahun-tahun, Bitcoin telah mengalami beberapa *Hard [fork](https://planb.academy/resources/glossary/fork)*, yang menghasilkan versi alternatif dari mata uang kripto asli. Secara sederhana, *Hard Fork* adalah perpecahan dalam jaringan yang mengarah ke dua blockchain yang terpisah, keduanya berbagi sejarah yang sama hingga saat perpecahan. Fork ini biasanya terjadi ketika bagian dari komunitas pengembang atau ekosistem Bitcoin yang lebih luas ingin memperkenalkan perubahan besar pada protokol asli tetapi tidak dapat mencapai konsensus yang luas. Alih-alih meninggalkan ide mereka, mereka memutuskan untuk meluncurkan versi baru Bitcoin (dengan aturan yang diubah) dengan harapan pengguna dan penambang akan memilih untuk mengikuti Fork sebagai gantinya.
 
 
 ![image](assets/id/011.webp)
@@ -592,7 +592,7 @@ Bitcoin terbuka untuk semua orang, tetapi bukan berarti Anda harus menyelam tanp
 
 
 
-- **Kehilangan frasa seed Anda:** Frasa pemulihan Anda (biasanya 12 atau 24 kata) adalah satu-satunya cara untuk mengakses Bitcoin Anda jika terjadi sesuatu pada Wallet Anda. Jika Anda kehilangannya, dana Anda akan hilang secara permanen;
+- **Kehilangan frasa seed Anda:** [Frasa pemulihan](https://planb.academy/resources/glossary/recovery-phrase) Anda (biasanya 12 atau 24 kata) adalah satu-satunya cara untuk mengakses Bitcoin Anda jika terjadi sesuatu pada Wallet Anda. Jika Anda kehilangannya, dana Anda akan hilang secara permanen;
 - **Menyimpan bitcoin Anda di platform pihak ketiga:** Jika koin Anda berada di platform terpusat, Anda tidak benar-benar memilikinya. Anda terekspos pada risiko seperti peretasan, kegagalan platform, atau bahkan penyitaan dana;
 - **Mengabaikan privasi:** Melindungi privasi Anda adalah bagian inti dari mengamankan aset Anda. Mengungkapkan kepada publik berapa banyak Bitcoin yang Anda miliki dapat membuat Anda menjadi target;
 - **Keamanan online yang tidak memadai:** Gagal mengamankan perangkat Anda dengan perlindungan dasar (seperti pembaruan, kata sandi yang kuat, atau 2FA) membuat Anda menjadi sasaran empuk para penyerang; dan dapat membuat Anda kehilangan segalanya.
@@ -908,7 +908,7 @@ Bitcoin didefinisikan sebagai "sistem uang elektronik peer-to-peer" Ini berarti 
 ![image](assets/id/034.webp)
 
 
-Secara sederhana, setiap peserta dalam jaringan Bitcoin (disebut "node") memiliki salinan lengkap transaksi Ledger (buku besar), yang dikenal sebagai Blockchain. Ketika sebuah transaksi baru terjadi, transaksi tersebut disiarkan ke jaringan. Para penambang kemudian mengonfirmasi transaksi ini dengan mengelompokkannya ke dalam blok-blok yang kemudian ditambahkan ke akhir rantai (oleh karena itu dinamakan "Blockchain").
+Secara sederhana, setiap peserta dalam jaringan Bitcoin (disebut "[node](https://planb.academy/resources/glossary/node)") memiliki salinan lengkap transaksi Ledger (buku besar), yang dikenal sebagai Blockchain. Ketika sebuah transaksi baru terjadi, transaksi tersebut disiarkan ke jaringan. Para penambang kemudian mengonfirmasi transaksi ini dengan mengelompokkannya ke dalam blok-blok yang kemudian ditambahkan ke akhir rantai (oleh karena itu dinamakan "Blockchain").
 
 
 ![image](assets/id/035.webp)
@@ -1666,7 +1666,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 RGB adalah sistem Smart contract yang terdesentralisasi dan berfokus pada privasi yang dirancang untuk bekerja di atas Bitcoin dan Lightning Network. Tidak seperti platform Smart contract tradisional, RGB menggunakan model Client-side Validation (yang berarti bahwa Contract State penuh disimpan off-chain, dan hanya komitmen kriptografi yang dipublikasikan ke Bitcoin Blockchain). Desain ini meningkatkan skalabilitas dan privasi. Dengan RGB, pengguna dapat membuat kontrak pintar tingkat lanjut untuk menerbitkan token, NFT, identitas terdesentralisasi, atau bahkan aplikasi DeFi, langsung di Bitcoin atau Lightning.
 
 
-Fitur utama dari RGB adalah perlindungannya terhadap Double-spending, yang dicapai dengan menggunakan teknik kriptografi yang disebut Segel Sekali Pakai. Mekanisme ini bergantung pada fakta bahwa UTXO (Unspent Transaction Outputs) Bitcoin hanya dapat digunakan satu kali. Keaslian token dipastikan dengan validasi sisi pengguna dari seluruh sejarah Contract (mulai dari pembuatan hingga statusnya saat ini).
+Fitur utama dari RGB adalah perlindungannya terhadap Double-spending, yang dicapai dengan menggunakan teknik kriptografi yang disebut Segel Sekali Pakai. Mekanisme ini bergantung pada fakta bahwa [UTXO](https://planb.academy/resources/glossary/utxo) (Unspent Transaction Outputs) Bitcoin hanya dapat digunakan satu kali. Keaslian token dipastikan dengan validasi sisi pengguna dari seluruh sejarah Contract (mulai dari pembuatan hingga statusnya saat ini).
 
 
 ![image](assets/id/062.webp)
@@ -1859,7 +1859,7 @@ Kehidupan sehari-hari Anda juga memainkan peran besar dalam cara Anda mengelola 
 **Waktu atau minat terbatas?** Pilihlah solusi sederhana dan otomatis; seperti pembelian terjadwal yang secara otomatis ditransfer ke penyimpanan yang aman.
 
 
-**Mengerti teknologi atau langsung?** Anda mungkin lebih suka solusi yang lebih canggih seperti dompet Multisig yang menawarkan kontrol dan keamanan yang lebih baik.
+**Mengerti teknologi atau langsung?** Anda mungkin lebih suka solusi yang lebih canggih seperti dompet [Multisig](https://planb.academy/resources/glossary/multisig) yang menawarkan kontrol dan keamanan yang lebih baik.
 
 
 **Berinvestasi untuk orang yang Anda cintai atau generasi mendatang?** Pikirkan sejak dini tentang warisan. Ada beberapa cara untuk memastikan bitcoin Anda dapat diwariskan dengan aman jika sesuatu terjadi pada Anda.
@@ -1937,7 +1937,7 @@ Dengan dukungan Lightning: Phoenix, Wallet dari Satoshi, BitKit
 Terbaik untuk: Pemula, saldo kecil, dan sering bertransaksi.
 
 
-#### Dompet Perangkat Keras
+#### [Dompet Perangkat Keras](https://planb.academy/resources/glossary/hardware-wallet)
 
 
 Dompet perangkat keras adalah perangkat fisik yang menyimpan kunci pribadi Anda secara offline. Dompet ini jauh lebih aman dibandingkan dompet Hot karena mengurangi risiko serangan online.

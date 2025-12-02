@@ -8,7 +8,7 @@ Aqua is a mobile application that makes it easy to create a hot wallet for Bitco
 
 Developed by the JAN3 company under the direction of Samson Mow, the Aqua app was initially designed specifically for the needs of users in Latin America, although it is suitable for any user worldwide. It is particularly interesting for beginners and those who use Bitcoin on a daily basis for their payments.
 
-In this tutorial, we're going to find out how to use Aqua's many features. But before we do, let's take a moment to understand what a sidechain is on Bitcoin and how Liquid works, so that we can fully grasp the value of Aqua.
+In this tutorial, we're going to find out how to use Aqua's many features. But before we do, let's take a moment to understand what a [sidechain](https://planb.academy/resources/glossary/sidechain) is on Bitcoin and how Liquid works, so that we can fully grasp the value of Aqua.
 
 ![AQUA](assets/fr/01.webp)
 

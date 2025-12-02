@@ -4,8 +4,8 @@ goal: Discover Bitcoin fundamentals, including its monetary value proposition, m
 objectives:
   - Gain a general understanding of the Bitcoin technology
   - Understand how to buy and secure bitcoins
-  - Have a general understanding of the [Blockchain](https://planb.academy/en/resources/glossary/blockchain) technology
-  - Familiarize with the concept of [Lightning Network](https://planb.academy/en/resources/glossary/lightning-network)
+  - Have a general understanding of the [Blockchain](https://planb.academy/resources/glossary/blockchain) technology
+  - Familiarize with the concept of [Lightning Network](https://planb.academy/resources/glossary/lightning-network)
   - Realize the geopolitical and social impact of Bitcoin
 ---
 
@@ -29,7 +29,7 @@ Welcome to the BTC101 course!
 
 Bitcoin is a technological and a monetary revolution, capable of making us question our relationship with money and society. In fact, Bitcoin (referred to as BTC) is a **neutral** and **decentralized** currency, which means that it is not controlled by any entity or institution. It is an innovation that goes beyond a mere "internet currency": it is both a computer protocol (Bitcoin) and a monetary unit (bitcoin).
 
-The Bitcoin protocol uses underlying technologies such as [cryptography](https://planb.academy/en/resources/glossary/cryptography), network communication, and the famous "blockchain", while the bitcoin unit serves as the necessary currency for the proper functioning of this protocol. In everyday life, Salvadorians and bitcoiners around the world use the bitcoin currency to buy and sell goods and services, relying on this technology to make their lives better.
+The Bitcoin protocol uses underlying technologies such as [cryptography](https://planb.academy/resources/glossary/cryptography), network communication, and the famous "blockchain", while the bitcoin unit serves as the necessary currency for the proper functioning of this protocol. In everyday life, Salvadorians and bitcoiners around the world use the bitcoin currency to buy and sell goods and services, relying on this technology to make their lives better.
 
 **A comprehensive yet accessible curriculum:**
 
@@ -89,7 +89,7 @@ Ready to dive into the fascinating world of Bitcoin and understand all its inner
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
 
-Before the term "Bitcoin" became synonymous with digital currency and financial transformation, the groundwork for its creation was laid by a series of ideas, innovations, and social movements. Among these, the [cypherpunk](https://planb.academy/en/resources/glossary/cypherpunks) movement stands out as a key element in the prehistory of Bitcoin.
+Before the term "Bitcoin" became synonymous with digital currency and financial transformation, the groundwork for its creation was laid by a series of ideas, innovations, and social movements. Among these, the [cypherpunk](https://planb.academy/resources/glossary/cypherpunks) movement stands out as a key element in the prehistory of Bitcoin.
 
 ### Cypherpunks: visionaries of the digital world
 
@@ -126,7 +126,7 @@ The image below clearly illustrates the development of the movement through its 
 
 ![image](assets/en/005.webp)
 
-It was in this fertile environment that the mysterious [Satoshi Nakamoto](https://planb.academy/en/resources/glossary/nakamoto-satoshi) published the Bitcoin [whitepaper](https://planb.academy/en/resources/glossary/white-paper) in 2008. In this document, he combined several ideas from the cypherpunk movement, such as [proof of work](https://planb.academy/en/resources/glossary/proof-of-work) and cryptographic timestamps, to create a decentralized and censorship-resistant digital currency.
+It was in this fertile environment that the mysterious [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) published the Bitcoin [whitepaper](https://planb.academy/resources/glossary/white-paper) in 2008. In this document, he combined several ideas from the cypherpunk movement, such as [proof of work](https://planb.academy/resources/glossary/proof-of-work) and cryptographic timestamps, to create a decentralized and censorship-resistant digital currency.
 
 However, Bitcoin was more than just that: it represented the achievement of the cypherpunk ideals. Beyond its technology, it symbolized a revolution against traditional financial systems and offered an alternative based on transparency, decentralization, and individual sovereignty.
 
@@ -366,7 +366,7 @@ The creation of new bitcoins is the result of the mining process. In a nutshell,
 
 ![image](assets/en/022.webp)
 
-After successfully performing this task, miners get rewarded with the issuance of new bitcoins every ten minutes. This reward is programmed to halve every 210,000 blocks, which is approximately every four years (an event known as "[halving](https://planb.academy/en/resources/glossary/halving)"), giving the monetary issuance curve a stair-like shape. Due to this mechanism, it can be mathematically predicted that the creation of new bitcoins will cease arount the year 2140, when the total number reaches its limit of 21 million.
+After successfully performing this task, miners get rewarded with the issuance of new bitcoins every ten minutes. This reward is programmed to halve every 210,000 blocks, which is approximately every four years (an event known as "[halving](https://planb.academy/resources/glossary/halving)"), giving the monetary issuance curve a stair-like shape. Due to this mechanism, it can be mathematically predicted that the creation of new bitcoins will cease arount the year 2140, when the total number reaches its limit of 21 million.
 
 | Halving Number | Block Height | BTC Reward After Halving  | Estimated BTC in Circulation After Halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -395,7 +395,7 @@ We will revisit the concept of mining in more details in the [miner chapter](htt
 
 ### Guaranteeing digital scarcity
 
-The limit of 21 million is the basis of Bitcoin scarcity, and is guaranteed by two key mechanisms: the adjustment of mining [difficulty](https://planb.academy/en/resources/glossary/difficulty) and the game theory.
+The limit of 21 million is the basis of Bitcoin scarcity, and is guaranteed by two key mechanisms: the adjustment of mining [difficulty](https://planb.academy/resources/glossary/difficulty) and the game theory.
 
 - The mining difficulty adjustment is a process that takes place every 2016 blocks, or around two weeks, to ensure that a new block is added to the blockchain every ten minutes on average. This frequency of block creation and the total quantity of bitcoins are both fixed aspects of the Bitcoin protocol and cannot be changed without a general consensus, unlike the arbitrary decisions made in traditional monetary systems.
 
@@ -465,7 +465,7 @@ Portfolios can thus be categorized into broad families of use, always centered a
 
 ### How does a Bitcoin wallet work?
 
-Whether it's your Bitcoin "banker" or yourself, the vast majority of Bitcoin wallets work with a similar technology based on asymmetric cryptography, which involves a system of key pairs: a [private key](https://planb.academy/en/resources/glossary/private-key) for spending and a [public key](https://planb.academy/en/resources/glossary/public-key) for receiving.
+Whether it's your Bitcoin "banker" or yourself, the vast majority of Bitcoin wallets work with a similar technology based on asymmetric cryptography, which involves a system of key pairs: a [private key](https://planb.academy/resources/glossary/private-key) for spending and a [public key](https://planb.academy/resources/glossary/public-key) for receiving.
 
 - Private key
 
@@ -532,13 +532,13 @@ Here below, we will define several levels of security:
 
 ![image](assets/en/030.webp)
 
-- **Level 1**, you use a Bitcoin wallet on your phone or computer, where you are the sole holder of your bitcoins and you can easily carry out your transactions. The afore-mentioned tool is referred to as "[hot wallet](https://planb.academy/en/resources/glossary/hot-wallet--software-wallet)", because the private key is stored on a device with internet access. In this case, it is crucial to back up your mnemonic phrase to regain access to your funds in the event of losing your phone or computer.
+- **Level 1**, you use a Bitcoin wallet on your phone or computer, where you are the sole holder of your bitcoins and you can easily carry out your transactions. The afore-mentioned tool is referred to as "[hot wallet](https://planb.academy/resources/glossary/hot-wallet--software-wallet)", because the private key is stored on a device with internet access. In this case, it is crucial to back up your mnemonic phrase to regain access to your funds in the event of losing your phone or computer.
 
 For example, you can use Sparrow Wallet as a hot wallet:
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-- **Level 2**, you use a physical wallet, and you have secured your list of 12/24 words. It is often referred to as "[cold wallet](https://planb.academy/en/resources/glossary/cold-wallet)" because your keys are stored on a device that is not connected to the internet. In this case, you will always need to sign every transaction with your device, which makes your funds less accessible on a daily basis.
+- **Level 2**, you use a physical wallet, and you have secured your list of 12/24 words. It is often referred to as "[cold wallet](https://planb.academy/resources/glossary/cold-wallet)" because your keys are stored on a device that is not connected to the internet. In this case, you will always need to sign every transaction with your device, which makes your funds less accessible on a daily basis.
 
 For example, you could use a Ledger, a Satochip, or a Tapsigner:
 
@@ -683,7 +683,7 @@ This initiative did not immediately generate enthusiasm, probably because of the
 
 ![image](assets/en/039.webp)
 
-On January 3, 2009, Satoshi officially inaugurated the Bitcoin network by creating the first block, also known as the "[Genesis block](https://planb.academy/en/resources/glossary/genesis-block)", which marked the launch of the Bitcoin blockchain. This block contains a revealing message reflecting the mission of Bitcoin: "03/jan/2009 Chancellor on brink of second bailout for banks."
+On January 3, 2009, Satoshi officially inaugurated the Bitcoin network by creating the first block, also known as the "[Genesis block](https://planb.academy/resources/glossary/genesis-block)", which marked the launch of the Bitcoin blockchain. This block contains a revealing message reflecting the mission of Bitcoin: "03/jan/2009 Chancellor on brink of second bailout for banks."
 
 ![image](assets/en/040.webp)
 
@@ -751,7 +751,7 @@ At this stage, the transaction has been created and Bob's wallet will share it w
 
 ![image](assets/en/046.webp)
 
-At this point, even though this transaction is known to everyone (via a tool called [Mempool](https://planb.academy/en/resources/glossary/mempool)), it cannot be considered confirmed until it gets inserted in a block by a miner, who is the only one who validates transactions by including them in the blockchain.
+At this point, even though this transaction is known to everyone (via a tool called [Mempool](https://planb.academy/resources/glossary/mempool)), it cannot be considered confirmed until it gets inserted in a block by a miner, who is the only one who validates transactions by including them in the blockchain.
 
 In fact, miners have the role of gathering valid and unconfirmed transactions to compile them into a block. In a nutshell, they must solve a cryptographic puzzle in a process called "proof of work" in order for their block to be the next one in the Bitcoin blockchain.
 
@@ -835,7 +835,7 @@ Following this victory, the nodes activated an update called SegWit, paving the 
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Miners secure the network and add transactions to the blocks. They use electricity through [ASIC](https://planb.academy/en/resources/glossary/asic) machines to solve the Bitcoin proof of work.**
+**Miners secure the network and add transactions to the blocks. They use electricity through [ASIC](https://planb.academy/resources/glossary/asic) machines to solve the Bitcoin proof of work.**
 
 ![image](assets/en/054.webp)
 
@@ -843,7 +843,7 @@ Following this victory, the nodes activated an update called SegWit, paving the 
 
 "Proof of Work" (POW) is the security consensus mechanism of the Bitcoin protocol. It is the foundation of everything and plays a crucial role in the game theory of Bitcoin.
 
-To explain how it works, envision a universal lottery where everyone can participate. The goal is to find a specific number that enables the winner to sign a valid block, earning a reward in Bitcoin. This number is very simple to verify using the SHA-256 [hash function](https://planb.academy/en/resources/glossary/hash-function), but difficult to find: participants (miners) will try billions upon billions of possibilities, such as 1, 52, 2648, 26874615, 15344854131318631, and so on, until they discover the right one.
+To explain how it works, envision a universal lottery where everyone can participate. The goal is to find a specific number that enables the winner to sign a valid block, earning a reward in Bitcoin. This number is very simple to verify using the SHA-256 [hash function](https://planb.academy/resources/glossary/hash-function), but difficult to find: participants (miners) will try billions upon billions of possibilities, such as 1, 52, 2648, 26874615, 15344854131318631, and so on, until they discover the right one.
 
 If the chosen number is correct: Jackpot! Otherwise, the search continues.
 To optimize the number of attempts, they will use specific machines called ASICs, which have the sole role of calculating billions of possibilities per second (the total quantity of attempts is called "HashRate"). To operate these machines, large quantities of electricity must be consumed. Therefore, POW transforms energy into currency, connecting the real world and the digital world to create the first energy-based currency.
@@ -1113,7 +1113,7 @@ This gradual strategy involves recurring purchases, meaning buying small amounts
 
 **Beware of UTXOs**: Remember to consolidate your UTXOs in your wallets from time to time. This practice is essential for effectively managing your bitcoins and avoiding unnecessary fees during transactions.
 
-An [UTXO](https://planb.academy/en/resources/glossary/utxo) is an output of a transaction that has not yet been spent, meaning it was not used as an input for a new transaction. Consolidating them means combining several small UTXOs into one larger one, in order to decrease the "weight" of the transaction, and thus pay lower fees.
+An [UTXO](https://planb.academy/resources/glossary/utxo) is an output of a transaction that has not yet been spent, meaning it was not used as an input for a new transaction. Consolidating them means combining several small UTXOs into one larger one, in order to decrease the "weight" of the transaction, and thus pay lower fees.
 
 - Spontaneous purchase
 
@@ -1123,7 +1123,7 @@ In this case, you should be careful and control your emotions, as the price of b
 
 ### Who should we buy our bitcoin from?
 
-There are several ways to acquire bitcoins, each subject to its own set of regulations that can vary by jurisdiction. Some platforms require identification for verification ([KYC](https://planb.academy/en/resources/glossary/kyc-know-your-customer)), while others do not. Therefore, it is crucial to understand the regulations associated with each platform.
+There are several ways to acquire bitcoins, each subject to its own set of regulations that can vary by jurisdiction. Some platforms require identification for verification ([KYC](https://planb.academy/resources/glossary/kyc-know-your-customer)), while others do not. Therefore, it is crucial to understand the regulations associated with each platform.
 
 - DCA platforms
 

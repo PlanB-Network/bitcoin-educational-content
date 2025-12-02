@@ -6,7 +6,7 @@ description: Introduktion till Public Pool
 ![signup](assets/cover.webp)
 
 
-**Public Pool** är inte vilken pool som helst; det är vad som också kallas en **Solo Pool**. Om din Miner lyckas med Mining i ett block samlar du in hela Block reward, som inte delas med andra deltagare i poolen eller med poolen själv.
+**Public Pool** är inte vilken pool som helst; det är vad som också kallas en **Solo Pool**. Om din [Miner](https://planb.academy/resources/glossary/miner) lyckas med Mining i ett block samlar du in hela Block reward, som inte delas med andra deltagare i poolen eller med poolen själv.
 
 
 **Public Pool** tillhandahåller endast en **blockmall** för din Miner så att den kan utföra sin uppgift utan att du behöver ha en **Bitcoin-nod** och den programvara som kommunicerar med din Miner. Eftersom du inte poolar din datorkraft med andra deltagares är dina chanser att lyckas med Mining ett block uppenbarligen mycket låga, vilket liknar något av ett lotterisystem, där ibland en lycklig individ vinner jackpotten.
@@ -21,7 +21,7 @@ På **Dashboard** för **Public Pool** har du fortfarande viss statistik som poo
 ![signup](assets/2.webp)
 
 
-På de första raderna kan vi se **Bitaxe** med 1323 **Bitaxe** anslutna för totalt 649TH/s. **Bitaxe** är ett **Open source**-projekt som gör det möjligt att enkelt återanvända ett chip från en **ASIC** som **Antminer S19** på ett **opensource** elektroniskt kort för att skapa en liten Miner på 0,5TH/s för 15W. Detta är den Miner vi kommer att använda som exempel för denna handledning.
+På de första raderna kan vi se **Bitaxe** med 1323 **Bitaxe** anslutna för totalt 649TH/s. **Bitaxe** är ett **Open source**-projekt som gör det möjligt att enkelt återanvända ett chip från en **[ASIC](https://planb.academy/resources/glossary/asic)** som **Antminer S19** på ett **opensource** elektroniskt kort för att skapa en liten Miner på 0,5TH/s för 15W. Detta är den Miner vi kommer att använda som exempel för denna handledning.
 
 
 ## Lägga till en **Arbetstagare** 👷‍♂️

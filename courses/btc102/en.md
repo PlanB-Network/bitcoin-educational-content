@@ -175,11 +175,11 @@ Centralized crypto-currency projects sometimes offer free tokens ("*airdrops*") 
 
 Attackers often use fake websites, social media accounts, or deceptive emails to try and steal your funds. These scams can come through any communication channel: email, social networks, phone calls, or even traditional mail...
 
-Before clicking on a link or taking any action, always double-check the sender's identity. When in doubt, visit the website manually instead of using a provided link. Most importantly, never share your [private keys](https://planb.academy/en/resources/glossary/private-key) or passwords with anyone.
+Before clicking on a link or taking any action, always double-check the sender's identity. When in doubt, visit the website manually instead of using a provided link. Most importantly, never share your [private keys](https://planb.academy/resources/glossary/private-key) or passwords with anyone.
 
 #### Bitcoin Hardforks
 
-Over the years, Bitcoin has experienced several *[hard forks](https://planb.academy/en/resources/glossary/hard-fork)*, which resulted in the creation of alternative versions of the original cryptocurrency. In simple terms, a *hard fork* is a split in the network that leads to two separate blockchains, both sharing the same history up until the moment of the split. These forks typically happen when part of the developer community or broader Bitcoin ecosystem wants to introduce major changes to the original protocol but can't reach widespread consensus. Instead of abandoning their ideas, they decide to launch a new version of Bitcoin (with altered rules) hoping that users and miners will choose to follow their fork instead.
+Over the years, Bitcoin has experienced several *[hard forks](https://planb.academy/resources/glossary/hard-fork)*, which resulted in the creation of alternative versions of the original cryptocurrency. In simple terms, a *hard fork* is a split in the network that leads to two separate blockchains, both sharing the same history up until the moment of the split. These forks typically happen when part of the developer community or broader Bitcoin ecosystem wants to introduce major changes to the original protocol but can't reach widespread consensus. Instead of abandoning their ideas, they decide to launch a new version of Bitcoin (with altered rules) hoping that users and miners will choose to follow their fork instead.
 
 ![image](assets/en/011.webp)
 
@@ -389,7 +389,7 @@ Here are the key points that we will go over together:
 - Only invest **money you can afford to lose**;
 - Know the difference between **trading** and **investing**;
 - Be aware of the **tax implications** of your investments;
-- Protect your **[recovery phrase](https://planb.academy/en/resources/glossary/seed)** carefully;
+- Protect your **[recovery phrase](https://planb.academy/resources/glossary/seed)** carefully;
 - Stay humble and keep a **low profile** (discretion is part of security);
 - **Think long term**, zoom out and be patient (think of it as a marathon, not a sprint).
 
@@ -606,7 +606,7 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 #### Peer-to-peer and no central body
 
-Bitcoin is defined as a "peer-to-peer electronic cash system." This means that anyone can connect to the network using the appropriate software (a Bitcoin [node](https://planb.academy/en/resources/glossary/node)) and interact directly with other users, without relying on a central server. The goal of this decentralization is to prevent any single entity (such as a bank, government, or large corporation) from controlling, censoring, or halting the system. Bitcoin operates 24/7, globally, and is accessible to everyone without any conditions.
+Bitcoin is defined as a "peer-to-peer electronic cash system." This means that anyone can connect to the network using the appropriate software (a Bitcoin [node](https://planb.academy/resources/glossary/node)) and interact directly with other users, without relying on a central server. The goal of this decentralization is to prevent any single entity (such as a bank, government, or large corporation) from controlling, censoring, or halting the system. Bitcoin operates 24/7, globally, and is accessible to everyone without any conditions.
 
 ![image](assets/en/034.webp)
 
@@ -674,7 +674,7 @@ Although this approach is more technical, it offers the most demanding users the
 
 #### A Resilient, Cross-Border Payment Method
 
-Due to its decentralized nature, Bitcoin operates 24/7, unaffected by borders or time zones. In regions where traditional banking infrastructure is lacking, Bitcoin is often used as a fast, low-cost solution for sending or receiving funds without relying on expensive intermediaries. While transaction fees can vary based on network congestion, they are generally much lower than the fees charged by banks for international transfers. Additionally, layer-2 solutions like the [Lightning Network](https://planb.academy/en/resources/glossary/lightning-network) allow for even faster and cheaper Bitcoin transactions.
+Due to its decentralized nature, Bitcoin operates 24/7, unaffected by borders or time zones. In regions where traditional banking infrastructure is lacking, Bitcoin is often used as a fast, low-cost solution for sending or receiving funds without relying on expensive intermediaries. While transaction fees can vary based on network congestion, they are generally much lower than the fees charged by banks for international transfers. Additionally, layer-2 solutions like the [Lightning Network](https://planb.academy/resources/glossary/lightning-network) allow for even faster and cheaper Bitcoin transactions.
 
 #### A store of value
 
@@ -957,7 +957,7 @@ Exchanges play a critical role in the Bitcoin ecosystem, acting as bridges betwe
 - an option for automatic recurring purchases (ARP);
 - easy, free withdrawal of bitcoins to a personal wallet.
 
-Exchanges that comply with local regulations typically have to follow strict **"[Know Your Customer](https://planb.academy/en/resources/glossary/kyc-know-your-customer)"** (KYC) protocols, requiring users to provide identification documents before accessing services. While these processes are designed to prevent illegal activity, they can compromise the privacy that Bitcoin inherently offers.
+Exchanges that comply with local regulations typically have to follow strict **"[Know Your Customer](https://planb.academy/resources/glossary/kyc-know-your-customer)"** (KYC) protocols, requiring users to provide identification documents before accessing services. While these processes are designed to prevent illegal activity, they can compromise the privacy that Bitcoin inherently offers.
 
 ![image](assets/en/058.webp)
 
@@ -1037,7 +1037,7 @@ Each type of wallet offers a different balance of:
 
 The Bitcoin wallet industry is divided into several categories, each catering to different needs and levels of technical expertise:
 
-- **[Hardware Wallet](https://planb.academy/en/resources/glossary/hardware-wallet) Manufacturers**: These companies develop physical devices designed for secure key storage. Some are open-source, while others offer proprietary solutions with varying features and levels of security. Notable names include Ledger, Trezor, Coinkite, Foundation, and Shiftcrypto.
+- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Manufacturers**: These companies develop physical devices designed for secure key storage. Some are open-source, while others offer proprietary solutions with varying features and levels of security. Notable names include Ledger, Trezor, Coinkite, Foundation, and Shiftcrypto.
 - **Software Wallet Developers**: These range from companies to independent developers creating mobile and desktop applications. Their offerings vary in user experience, security, and features. Examples include Sparrow, Wizard Sardine, Galoy, Synonym, and Blockstream.
 - **DIY (*Do It Yourself*) Wallets**:These open-source solutions are designed for advanced users who want full control and minimal reliance on third parties. Building your own wallet reduces trust dependencies and can increase your security posture. Notable DIY options include Seedsigner and Specter DIY.
 
@@ -1069,7 +1069,7 @@ Bitcoin development can be understood through a few distinct groups of contribut
 - **Developers of Layered protocols**,This group works on technologies that build on top of Bitcoin, like the Lightning Network or RGB, aiming to extend Bitcoin's capabilities without changing its core.
 - **Independent developers**, These developers focus on creating tools and applications to improve the user experience, such as Mempool.space (a visual interface for tracking transaction activity) or Alby (tools for using Lightning payments in browsers and apps).
 
-Anyone can propose changes to Bitcoin Core, but the process is intentionally rigorous. New ideas often take years to refine and require deep technical understanding, broad community engagement, and multiple layers of review. Proposals are typically submitted in the form of **[Bitcoin Improvement Proposals (BIPs)](https://planb.academy/en/resources/glossary/bip)**;some of which never make it into the protocol.
+Anyone can propose changes to Bitcoin Core, but the process is intentionally rigorous. New ideas often take years to refine and require deep technical understanding, broad community engagement, and multiple layers of review. Proposals are typically submitted in the form of **[Bitcoin Improvement Proposals (BIPs)](https://planb.academy/resources/glossary/bip)**;some of which never make it into the protocol.
 Innovation is welcome, but only when it's backed by solid reasoning, community consensus, and careful testing.
 
 ![image](assets/en/059.webp)
@@ -1125,7 +1125,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 RGB is a decentralized and privacy-focused smart contract system designed to work on top of Bitcoin and the Lightning Network. Unlike traditional smart contract platforms, RGB uses a client-side validation model (meaning that the full contract state is stored off-chain, and only cryptographic commitments are published to the Bitcoin blockchain). This design improves both scalability and privacy. With RGB, users can create advanced smart contracts for issuing tokens, NFTs, decentralized identities, or even DeFi applications, directly on Bitcoin or Lightning.
 
-A key feature of RGB is its protection against double-spending, achieved using a cryptographic technique called Single-use Seals. This mechanism relies on the fact that Bitcoin's [UTXOs](https://planb.academy/en/resources/glossary/utxo) (Unspent Transaction Outputs) can only be spent once. The authenticity of tokens is ensured by the user-side validation of the contract's entire history (from its creation to its current state).
+A key feature of RGB is its protection against double-spending, achieved using a cryptographic technique called Single-use Seals. This mechanism relies on the fact that Bitcoin's [UTXOs](https://planb.academy/resources/glossary/utxo) (Unspent Transaction Outputs) can only be spent once. The authenticity of tokens is ensured by the user-side validation of the contract's entire history (from its creation to its current state).
 
 ![image](assets/en/062.webp)
 
@@ -1143,7 +1143,7 @@ This layered design stands in contrast to much of the broader crypto industry, w
 
 ### Merchant Tools for Accepting Bitcoin
 
-Today, there are plenty of tools available for merchants who want to accept Bitcoin as a form of payment. For small businesses looking for a simple setup, using a [hot wallet](https://planb.academy/en/resources/glossary/hot-wallet--software-wallet) (or even a Lightning wallet) is often enough to start accepting payments directly. Larger businesses that require proper accounting and reporting will usually prefer more advanced payment processing systems. Fortunately, there are several options available depending on your needs.
+Today, there are plenty of tools available for merchants who want to accept Bitcoin as a form of payment. For small businesses looking for a simple setup, using a [hot wallet](https://planb.academy/resources/glossary/hot-wallet--software-wallet) (or even a Lightning wallet) is often enough to start accepting payments directly. Larger businesses that require proper accounting and reporting will usually prefer more advanced payment processing systems. Fortunately, there are several options available depending on your needs.
 
 If you prefer a hands-off solution and want to receive fiat currency directly into your bank account, custodial services like OpenNode offer a streamlined experience:
 
@@ -1257,7 +1257,7 @@ Your day-to-day life also plays a big role in how you'll manage your bitcoins. C
 
 **Limited time or interest?** Opt for simple, automated solutions; like scheduled purchases that automatically transfer to secure storage.
 
-**Tech-savvy or hands-on?** You might prefer more advanced solutions like [multisig](https://planb.academy/en/resources/glossary/multisig) wallets that offer greater control and security.
+**Tech-savvy or hands-on?** You might prefer more advanced solutions like [multisig](https://planb.academy/resources/glossary/multisig) wallets that offer greater control and security.
 
 **Investing for loved ones or future generations?** Think early about inheritance. There are ways to make sure your bitcoins can be passed on securely if something happens to you.
 

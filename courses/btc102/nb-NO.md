@@ -262,7 +262,7 @@ Dobbeltsjekk alltid avsenderens identitet før du klikker på en lenke eller utf
 #### Bitcoin Hardgaffel
 
 
-I løpet av årene har Bitcoin opplevd flere *Hard-forks*, noe som har resultert i opprettelsen av alternative versjoner av den opprinnelige kryptovalutaen. Enkelt sagt er en *Hard Fork* en splittelse i nettverket som fører til to separate blokkjeder, som begge deler den samme historien frem til splittelsesøyeblikket. Disse splittelsene skjer vanligvis når en del av utviklermiljøet eller det bredere Bitcoin-økosystemet ønsker å innføre store endringer i den opprinnelige protokollen, men ikke kan oppnå bred enighet. I stedet for å forlate ideene sine, bestemmer de seg for å lansere en ny versjon av Bitcoin (med endrede regler) i håp om at brukere og utvinnere vil velge å følge deres Fork i stedet.
+I løpet av årene har Bitcoin opplevd flere *Hard-forks*, noe som har resultert i opprettelsen av alternative versjoner av den opprinnelige kryptovalutaen. Enkelt sagt er en *Hard [Fork](https://planb.academy/resources/glossary/fork)* en splittelse i nettverket som fører til to separate blokkjeder, som begge deler den samme historien frem til splittelsesøyeblikket. Disse splittelsene skjer vanligvis når en del av utviklermiljøet eller det bredere Bitcoin-økosystemet ønsker å innføre store endringer i den opprinnelige protokollen, men ikke kan oppnå bred enighet. I stedet for å forlate ideene sine, bestemmer de seg for å lansere en ny versjon av Bitcoin (med endrede regler) i håp om at brukere og utvinnere vil velge å følge deres Fork i stedet.
 
 
 ![image](assets/nb-NO/011.webp)
@@ -669,7 +669,7 @@ Fremfor alt, invester aldri mer enn du har råd til å tape. Unngå å låne pen
 ### Administrere og sikre din Bitcoin Wallet
 
 
-En av Bitcoins mest kraftfulle (og ofte undervurderte) funksjoner er **selvforvaring**. Med en selv-hostet Wallet er du alene ansvarlig for midlene dine. Disse lommebøkene genereres vanligvis fra en **gjenopprettingsfrase** (også kjent som en seed-frase), en serie på 12 eller 24 ord som gir full tilgang til BTC-en din. Hvis du mister denne frasen (eller hvis noen andre får tak i den), er bitcoinsene dine borte for godt. **Ingen kundesupport. Ingen tilbakestillingsknapp**
+En av Bitcoins mest kraftfulle (og ofte undervurderte) funksjoner er **selvforvaring**. Med en selv-hostet Wallet er du alene ansvarlig for midlene dine. Disse lommebøkene genereres vanligvis fra en **[gjenopprettingsfrase](https://planb.academy/resources/glossary/recovery-phrase)** (også kjent som en seed-frase), en serie på 12 eller 24 ord som gir full tilgang til BTC-en din. Hvis du mister denne frasen (eller hvis noen andre får tak i den), er bitcoinsene dine borte for godt. **Ingen kundesupport. Ingen tilbakestillingsknapp**
 
 
 ![image](assets/nb-NO/025.webp)
@@ -909,7 +909,7 @@ Bitcoin er definert som et "peer-to-peer-system for elektroniske kontanter" Det 
 ![image](assets/nb-NO/034.webp)
 
 
-Enkelt sagt har hver deltaker i Bitcoin-nettverket (kalt en "node") en fullstendig kopi av transaksjonen Ledger, kjent som Blockchain. Når en ny transaksjon skjer, sendes den ut til nettverket. Utvinnere bekrefter deretter disse transaksjonene ved å gruppere dem i blokker som deretter legges til i enden av kjeden (derav navnet "Blockchain").
+Enkelt sagt har hver deltaker i Bitcoin-nettverket (kalt en "[node](https://planb.academy/resources/glossary/node)") en fullstendig kopi av transaksjonen Ledger, kjent som Blockchain. Når en ny transaksjon skjer, sendes den ut til nettverket. Utvinnere bekrefter deretter disse transaksjonene ved å gruppere dem i blokker som deretter legges til i enden av kjeden (derav navnet "Blockchain").
 
 
 ![image](assets/nb-NO/035.webp)
@@ -1668,7 +1668,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 RGB er et desentralisert og personvernfokusert Smart contract-system som er utformet for å fungere på toppen av Bitcoin og Lightning Network. I motsetning til tradisjonelle Smart contract-plattformer bruker RGB en Client-side Validation-modell (noe som betyr at hele Contract State er lagret off-chain, og at bare kryptografiske forpliktelser publiseres til Bitcoin Blockchain). Denne utformingen forbedrer både skalerbarheten og personvernet. Med RGB kan brukere opprette avanserte smartkontrakter for utstedelse av tokens, NFT-er, desentraliserte identiteter eller til og med DeFi-applikasjoner, direkte på Bitcoin eller Lightning.
 
 
-En viktig egenskap ved RGB er beskyttelsen mot Double-spending, som oppnås ved hjelp av en kryptografisk teknikk kalt Single-use Seals. Denne mekanismen baserer seg på det faktum at Bitcoins UTXO-er (Unspent Transaction Outputs) bare kan brukes én gang. Tokenenes autentisitet sikres ved at hele Contracts historikk (fra opprettelsen til den nåværende tilstanden) valideres på brukersiden.
+En viktig egenskap ved RGB er beskyttelsen mot Double-spending, som oppnås ved hjelp av en kryptografisk teknikk kalt Single-use Seals. Denne mekanismen baserer seg på det faktum at Bitcoins [UTXO](https://planb.academy/resources/glossary/utxo)-er (Unspent Transaction Outputs) bare kan brukes én gang. Tokenenes autentisitet sikres ved at hele Contracts historikk (fra opprettelsen til den nåværende tilstanden) valideres på brukersiden.
 
 
 ![image](assets/nb-NO/062.webp)
@@ -1863,7 +1863,7 @@ Hverdagen din spiller også en stor rolle i hvordan du håndterer bitcoinsene di
 **Velg enkle, automatiserte løsninger, for eksempel planlagte kjøp som automatisk overføres til sikker lagring.**
 
 
-**Du foretrekker kanskje mer avanserte løsninger som Multisig-lommebøker, som gir større kontroll og sikkerhet.**
+**Du foretrekker kanskje mer avanserte løsninger som [Multisig](https://planb.academy/resources/glossary/multisig)-lommebøker, som gir større kontroll og sikkerhet.**
 
 
 **Invester for dine kjære eller fremtidige generasjoner.** Det finnes måter å sørge for at bitcoinsene dine kan videreføres på en sikker måte hvis noe skjer med deg.

@@ -21,7 +21,7 @@ Unapaswa. Ingawa kukusanya Satoshi isiyo ya kyc ni rahisi sana, faragha yako iko
 
 
 
-### Nini kinatokea unapotumia UTXO
+### Nini kinatokea unapotumia [UTXO](https://planb.academy/resources/glossary/utxo)
 
 
 

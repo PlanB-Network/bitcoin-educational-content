@@ -10,7 +10,7 @@ description: Utangulizi wa Dimbwi la Wabongo
 Braiins Pool, ambayo zamani ilijulikana kama Slush Pool, ndiyo Bitcoin Mining pool ya kwanza kabisa. Ilianzishwa mnamo Novemba 2010, ilichimba kizuizi chake cha kwanza mnamo Desemba 16, 2010, block 97834.
 
 
-Kufikia Mei 2024, Braiins Pool ina uwezo wa kompyuta wa 13 EH/s, ikiwakilisha takriban 1.8% ya jumla ya Bitcoin Hashrate. Imechimba jumla ya bitcoins 1,307,188, ambayo ni takriban 6% ya kiwango cha juu cha bitcoins milioni 21 ambazo zitawahi kuwepo.
+Kufikia Mei 2024, Braiins Pool ina uwezo wa kompyuta wa 13 EH/s, ikiwakilisha takriban 1.8% ya jumla ya Bitcoin [Hashrate](https://planb.academy/resources/glossary/hashrate). Imechimba jumla ya bitcoins 1,307,188, ambayo ni takriban 6% ya kiwango cha juu cha bitcoins milioni 21 ambazo zitawahi kuwepo.
 
 
 ### Mfumo wa Fidia

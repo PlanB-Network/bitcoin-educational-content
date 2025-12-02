@@ -21,7 +21,7 @@ Det borde du göra. Även om det är ganska enkelt att samla Satoshi non-kyc är
 
 
 
-### Vad händer när du spenderar en UTXO
+### Vad händer när du spenderar en [UTXO](https://planb.academy/resources/glossary/utxo)
 
 
 

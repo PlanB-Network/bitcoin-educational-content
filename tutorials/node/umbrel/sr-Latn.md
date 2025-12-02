@@ -21,7 +21,7 @@ Bitcoin čvor je računar koji učestvuje u Bitcoin mreži pokretanjem Bitcoin C
 
 
 
-- **Blockchain skladište**: Održava potpunu, ažuriranu kopiju Bitcoin Blockchain-a 
+- **[Blockchain](https://planb.academy/resources/glossary/blockchain) skladište**: Održava potpunu, ažuriranu kopiju Bitcoin Blockchain-a 
 - **Verifikacija transakcije**: validira svaku transakciju i blok prema pravilima protokola
 - **Širenje informacija**: Deli nove transakcije i blokove sa drugim čvorovima
 - **Izgradnja konsenzusa**: Doprinosi primeni mrežnih pravila

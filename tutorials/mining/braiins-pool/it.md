@@ -8,7 +8,7 @@ description: Introduzione a Braiins Pool
 
 Braiins Pool, precedentemente conosciuto come Slush Pool, è il primo pool di mining di Bitcoin. Fondato nel novembre 2010, ha minato il suo primo blocco il 16 dicembre 2010, blocco 97834.
 
-A maggio 2024, Braiins Pool ha una potenza di calcolo di 13 EH/s, rappresentando circa l'1,8% dell'hashrate totale di Bitcoin. Ha minato un totale di 1.307.188 bitcoin, che è approssimativamente il 6% dei massimi 21 milioni di bitcoin che esisteranno mai.
+A maggio 2024, Braiins Pool ha una potenza di calcolo di 13 EH/s, rappresentando circa l'1,8% dell'[hashrate](https://planb.academy/resources/glossary/hashrate) totale di Bitcoin. Ha minato un totale di 1.307.188 bitcoin, che è approssimativamente il 6% dei massimi 21 milioni di bitcoin che esisteranno mai.
 
 ### Sistema di Compensazione
 

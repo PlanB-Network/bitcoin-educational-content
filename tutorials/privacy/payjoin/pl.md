@@ -26,7 +26,7 @@ W 2015 r. [LaurentMT](https://twitter.com/LaurentMT) po raz pierwszy wspomniał 
 - Transakcja steganograficzna
 
 
-Wyjątkowość PayJoin polega na jego zdolności do generate transakcji, która na pierwszy rzut oka wydaje się zwyczajna, ale w rzeczywistości jest mini CoinJoin między dwiema stronami. Aby to osiągnąć, struktura transakcji obejmuje odbiorcę płatności obok faktycznego nadawcy w danych wejściowych. Odbiorca zawiera płatność dla siebie w środku transakcji, co pozwala mu na otrzymanie zapłaty.
+Wyjątkowość PayJoin polega na jego zdolności do generate transakcji, która na pierwszy rzut oka wydaje się zwyczajna, ale w rzeczywistości jest mini [CoinJoin](https://planb.academy/resources/glossary/coinjoin) między dwiema stronami. Aby to osiągnąć, struktura transakcji obejmuje odbiorcę płatności obok faktycznego nadawcy w danych wejściowych. Odbiorca zawiera płatność dla siebie w środku transakcji, co pozwala mu na otrzymanie zapłaty.
 
 
 Weźmy konkretny przykład: jeśli kupisz bagietkę za `4000 Sats` przy użyciu UTXO w wysokości `10 000 Sats` i zdecydujesz się na PayJoin, twój piekarz doda UTXO w wysokości `15 000 Sats`, który należy do niego jako wkład, który otrzyma w całości jako wynik, oprócz twoich `4000 Sats`:

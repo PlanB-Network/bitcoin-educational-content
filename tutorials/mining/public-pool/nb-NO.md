@@ -5,7 +5,7 @@ description: Introduksjon til Public Pool
 
 ![signup](assets/cover.webp)
 
-**Public Pool** er ikke bare et hvilket som helst basseng; det er det som også er kjent som en **Solo Pool**. Hvis din miner lykkes i å mine en blokk, så samler du inn hele blokkbelønningen, som ikke deles med andre deltakere i bassenget eller med bassenget selv.
+**Public Pool** er ikke bare et hvilket som helst basseng; det er det som også er kjent som en **Solo Pool**. Hvis din [miner](https://planb.academy/resources/glossary/miner) lykkes i å mine en blokk, så samler du inn hele blokkbelønningen, som ikke deles med andre deltakere i bassenget eller med bassenget selv.
 
 **Public Pool** tilbyr kun en **blokkmal** for din miner slik at den kan utføre sin oppgave uten at du trenger å ha en **Bitcoin node** og programvaren som kommuniserer med din miner. Siden du ikke samler din databehandlingskraft med den til andre deltakere, er sjansene dine for å lykkes med å mine en blokk åpenbart veldig lave, noe som ligner litt på et lotterisystem, der noen ganger en heldig person vinner jackpotten.
 
@@ -15,7 +15,7 @@ På **Dashboardet** til **Public Pool**, har du fortsatt noen statistikker som b
 
 ![signup](assets/2.webp)
 
-I de første linjene kan vi se **Bitaxe** med 1323 **Bitaxe** koblet til for en total på 649TH/s. **Bitaxe** er et **Open source** prosjekt som tillater enkel gjenbruk av en chip fra en **ASIC** som **Antminer S19** på et **opensource** elektronisk kort for å lage en liten miner på 0.5TH/s for 15W. Dette er mineren vi vil bruke som et eksempel for denne opplæringen.
+I de første linjene kan vi se **Bitaxe** med 1323 **Bitaxe** koblet til for en total på 649TH/s. **Bitaxe** er et **Open source** prosjekt som tillater enkel gjenbruk av en chip fra en **[ASIC](https://planb.academy/resources/glossary/asic)** som **Antminer S19** på et **opensource** elektronisk kort for å lage en liten miner på 0.5TH/s for 15W. Dette er mineren vi vil bruke som et eksempel for denne opplæringen.
 
 ## Legge til en **Worker** 👷‍♂️
 

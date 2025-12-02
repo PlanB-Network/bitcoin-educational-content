@@ -16,7 +16,7 @@ _Ce tutoriel est fourni à des fins éducatives et informatives uniquement.�
 
 Voilà une question que l'on me pose très souvent. **Lorsque l'on fait des coinjoins avec Whirlpool, combien de remix faut-il faire pour avoir un résultat satisfaisant ?**
 
-L'utilité du coinjoin réside dans sa capacité à offrir du déni plausible, en noyant votre pièce au sein d'un groupe de pièces indifférenciables. Le but recherché par cette action est de briser les liens de traçabilité, tant du passé vers le présent que du présent vers le passé. Autrement dit, un analyste connaissant votre transaction initiale à l'entrée des cycles de coinjoins ne devrait pas être en mesure d'identifier avec certitude votre UTXO à la sortie des cycles de remix (analyse entrée de cycles vers sortie de cycles).
+L'utilité du [coinjoin](https://planb.academy/resources/glossary/coinjoin) réside dans sa capacité à offrir du déni plausible, en noyant votre pièce au sein d'un groupe de pièces indifférenciables. Le but recherché par cette action est de briser les liens de traçabilité, tant du passé vers le présent que du présent vers le passé. Autrement dit, un analyste connaissant votre transaction initiale à l'entrée des cycles de coinjoins ne devrait pas être en mesure d'identifier avec certitude votre UTXO à la sortie des cycles de remix (analyse entrée de cycles vers sortie de cycles).
 ![liens passé-présent schéma](assets/fr/1.webp)
 
 Inversement, il faut qu'un analyste connaissant votre UTXO à la sortie des cycles de coinjoin se trouve dans l'incapacité de déterminer la transaction originelle à l'entrée des cycles (analyse sortie de cycles vers entrée de cycles).

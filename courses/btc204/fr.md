@@ -63,7 +63,7 @@ Dans la troisième section de notre formation, nous entrons dans le vif du sujet
 
 ![BTC204](assets/fr/003.webp)
 
-**Section 4 : Comprendre les transactions coinjoin**
+**Section 4 : Comprendre les transactions [coinjoin](https://planb.academy/resources/glossary/coinjoin)**
 
 Comment parler de confidentialité sur Bitcoin sans aborder les coinjoins ? Dans la section 4, vous allez découvrir tout ce qu'il faut savoir sur cette méthode de mixage. Vous apprendrez ce qu'est le coinjoin, son histoire et ses objectifs, ainsi que les différents types de coinjoins existants. Enfin, pour les utilisateurs les plus aguerris, nous découvrirons ce que sont les anonsets et l'entropie, et comment calculer ces indicateurs.
 
@@ -71,7 +71,7 @@ Comment parler de confidentialité sur Bitcoin sans aborder les coinjoins ? Dans
 
 **Section 5 : Connaître les enjeux d'autres techniques de confidentialité avancées**
 
-Dans la cinquième section, nous ferons un tour d'horizon de toutes les autres techniques existantes pour protéger votre vie privée sur Bitcoin, en dehors du coinjoin. Au fil des années, les développeurs ont fait preuve d'une créativité remarquable pour concevoir des outils dédiés à la confidentialité. Nous examinerons toutes ces méthodes, telles que le payjoin, les transactions collaboratives, le Coin Swap et l'Atomic Swap, en détaillant leur fonctionnement, leurs objectifs et leurs éventuelles faiblesses.
+Dans la cinquième section, nous ferons un tour d'horizon de toutes les autres techniques existantes pour protéger votre vie privée sur Bitcoin, en dehors du coinjoin. Au fil des années, les développeurs ont fait preuve d'une créativité remarquable pour concevoir des outils dédiés à la confidentialité. Nous examinerons toutes ces méthodes, telles que le payjoin, les transactions collaboratives, le Coin Swap et l'[Atomic Swap](https://planb.academy/resources/glossary/atomic-swap), en détaillant leur fonctionnement, leurs objectifs et leurs éventuelles faiblesses.
 
 Nous aborderons également la confidentialité au niveau du réseau de nœuds et de la diffusion des transactions. Nous discuterons aussi des différents protocoles qui ont été proposés au fil des années pour renforcer la confidentialité des utilisateurs sur Bitcoin, notamment les protocoles d'adresses statiques.
 
@@ -83,7 +83,7 @@ Prêt à explorer les méandres de la confidentialité sur Bitcoin ? Allons-y !
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
 
 
-## Le modèle d'UTXO de Bitcoin
+## Le modèle d'[UTXO](https://planb.academy/resources/glossary/utxo) de Bitcoin
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
 :::video id=60e8f3fa-9607-47ae-ac4f-5aa747d9b6d4:::
@@ -106,7 +106,7 @@ Sur Bitcoin, cela fonctionne différemment. Le concept de compte n'existe pas et
 1 BTC = 100 000 000 SATS
 ```
 
-Théoriquement, un UTXO peut représenter n'importe quelle valeur en bitcoins, allant d'un sat jusqu'au maximum théorique d'environ 21 millions de BTC. Cependant, il est logiquement impossible de posséder les 21 millions de bitcoins, et il existe un seuil économique inférieur appelé "dust", en dessous duquel un UTXO est considéré comme économiquement non rentable à dépenser.
+Théoriquement, un UTXO peut représenter n'importe quelle valeur en bitcoins, allant d'un sat jusqu'au maximum théorique d'environ 21 millions de BTC. Cependant, il est logiquement impossible de posséder les 21 millions de bitcoins, et il existe un seuil économique inférieur appelé "[dust](https://planb.academy/resources/glossary/dust)", en dessous duquel un UTXO est considéré comme économiquement non rentable à dépenser.
 
 **Le saviez-vous ?** Le plus grand UTXO jamais créé sur Bitcoin avait une valeur de `500 000 BTC`. Il a été créé par la plateforme MtGox lors d'une opération de consolidation en novembre 2011 : [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
@@ -548,7 +548,7 @@ Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec
 
 Sur cette dernière, on peut voir que l’input n° 0 et l’output n° 1 utilisent des scripts P2WPKH (SegWit V0), alors que l’output n° 0 utilise un script différent de type P2PKH (Legacy).
 
-Au début des années 2010, cette heuristique basée sur le versionnage des scripts était relativement peu utile du fait de la limitation des types de scripts disponibles. Cependant, avec le temps et les mises à jour successives de Bitcoin, une diversité croissante de types de scripts a été introduite. Cette heuristique devient donc de plus en plus pertinente, car avec un éventail plus large de types de scripts, les utilisateurs se divisent en groupes plus restreints, augmentant ainsi les chances d'appliquer cette heuristique de réutilisation interne du versionnage. Pour cette raison, dans une perspective de confidentialité uniquement, il est conseillé d'opter pour le type de script le plus courant. Par exemple, lorsque je rédige ces lignes, les scripts Taproot (`bc1p`) sont moins fréquemment utilisés que les scripts SegWit V0 (`bc1q`). Bien que les premiers offrent des bénéfices économiques et de confidentialité dans certains contextes spécifiques, pour des utilisations de signature unique plus traditionnelles, il peut être judicieux de s'en tenir à un standard plus ancien pour des raisons de confidentialité, jusqu'à ce que le nouveau standard soit plus largement adopté.
+Au début des années 2010, cette heuristique basée sur le versionnage des scripts était relativement peu utile du fait de la limitation des types de scripts disponibles. Cependant, avec le temps et les mises à jour successives de Bitcoin, une diversité croissante de types de scripts a été introduite. Cette heuristique devient donc de plus en plus pertinente, car avec un éventail plus large de types de scripts, les utilisateurs se divisent en groupes plus restreints, augmentant ainsi les chances d'appliquer cette heuristique de réutilisation interne du versionnage. Pour cette raison, dans une perspective de confidentialité uniquement, il est conseillé d'opter pour le type de script le plus courant. Par exemple, lorsque je rédige ces lignes, les scripts [Taproot](https://planb.academy/resources/glossary/taproot) (`bc1p`) sont moins fréquemment utilisés que les scripts [SegWit](https://planb.academy/resources/glossary/segwit) V0 (`bc1q`). Bien que les premiers offrent des bénéfices économiques et de confidentialité dans certains contextes spécifiques, pour des utilisations de signature unique plus traditionnelles, il peut être judicieux de s'en tenir à un standard plus ancien pour des raisons de confidentialité, jusqu'à ce que le nouveau standard soit plus largement adopté.
 
 ### Les paiements par nombres ronds
 
@@ -612,7 +612,7 @@ L’étude des heuristiques externes, c’est l’analyse des similitudes, des p
 
 C’est une des heuristiques les plus connues des bitcoiners. La réutilisation d’adresse permet d’établir un lien entre différentes transactions et différents UTXOs. Elle s’observe lorsqu’une adresse de réception Bitcoin est utilisée plusieurs fois.
 
-Ainsi, il est possible d'exploiter la réutilisation d'adresse au sein d'une même transaction comme une heuristique interne pour identifier le change (c'est ce que nous avons vu dans le chapitre précédent). Mais la réutilisation d'adresse peut également servir d'heuristique externe pour reconnaître l'unicité d'une entité derrière plusieurs transactions.
+Ainsi, il est possible d'exploiter la [réutilisation d'adresse](https://planb.academy/resources/glossary/address-reuse) au sein d'une même transaction comme une heuristique interne pour identifier le change (c'est ce que nous avons vu dans le chapitre précédent). Mais la réutilisation d'adresse peut également servir d'heuristique externe pour reconnaître l'unicité d'une entité derrière plusieurs transactions.
 
 L’interprétation de la réutilisation d’une adresse est que tous les UTXOs bloqués sur cette adresse appartiennent (ou ont appartenu) à une même entité. Cette heuristique laisse peu de place à l'incertitude. Lorsque l'on parvient à l'identifier, l'interprétation qui en découle a de fortes chances de correspondre à la réalité. Elle permet donc le regroupement de différentes activités on-chain.
 

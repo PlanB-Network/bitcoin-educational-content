@@ -12,7 +12,7 @@ La solidità del protocollo Bitcoin è garantita da concetti cardine semplici. T
 
 Dovresti farlo. Se da una parte accumulare satoshi non-kyc è piuttosto semplice, la tua privacy è maggiormente a rischio proprio nella fase si spesa.
 
-### Cosa succede quando spendi un UTXO
+### Cosa succede quando spendi un [UTXO](https://planb.academy/resources/glossary/utxo)
 
 Spendere Bitcoin non è semplicemente il trasferimento di valore a qualcun altro. 
 

@@ -262,7 +262,7 @@ Než kliknete na odkaz nebo provedete jakoukoli akci, vždy si ověřte totožno
 #### Tvrdé vidlice Bitcoin
 
 
-V průběhu let došlo u Bitcoin k několika *Hard forkům*, které vedly k vytvoření alternativních verzí původní kryptoměny. Zjednodušeně řečeno, *Hard Fork* je rozdělení sítě, které vede ke vzniku dvou samostatných blockchainů, přičemž oba sdílejí stejnou historii až do okamžiku rozdělení. K těmto rozvětvením obvykle dochází, když chce část vývojářské komunity nebo širšího ekosystému Bitcoin zavést zásadní změny v původním protokolu, ale nemůže dosáhnout širokého konsenzu. Místo toho, aby se vzdali svých nápadů, rozhodnou se spustit novou verzi Bitcoin(s pozměněnými pravidly)a doufají, že se uživatelé a těžaři rozhodnou místo toho následovat jejich Fork.
+V průběhu let došlo u Bitcoin k několika *Hard forkům*, které vedly k vytvoření alternativních verzí původní kryptoměny. Zjednodušeně řečeno, *Hard [Fork](https://planb.academy/resources/glossary/fork)* je rozdělení sítě, které vede ke vzniku dvou samostatných blockchainů, přičemž oba sdílejí stejnou historii až do okamžiku rozdělení. K těmto rozvětvením obvykle dochází, když chce část vývojářské komunity nebo širšího ekosystému Bitcoin zavést zásadní změny v původním protokolu, ale nemůže dosáhnout širokého konsenzu. Místo toho, aby se vzdali svých nápadů, rozhodnou se spustit novou verzi Bitcoin(s pozměněnými pravidly)a doufají, že se uživatelé a těžaři rozhodnou místo toho následovat jejich Fork.
 
 
 ![image](assets/cs/011.webp)
@@ -1668,7 +1668,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 RGB je decentralizovaný systém Smart contract zaměřený na ochranu soukromí a navržený tak, aby fungoval nad Bitcoin a Lightning Network. Na rozdíl od tradičních platforem Smart contract používá RGB model Client-side Validation(což znamená, že celý Contract State je uložen off-chain a do Bitcoin jsou zveřejňovány pouze kryptografické závazky Blockchain). Tato konstrukce zlepšuje škálovatelnost i soukromí. Pomocí RGB mohou uživatelé vytvářet pokročilé inteligentní kontrakty pro vydávání tokenů, NFT, decentralizovaných identit nebo dokonce aplikací DeFi přímo na Bitcoin nebo Lightning.
 
 
-Klíčovou vlastností RGB je ochrana proti Double-spending, které se dosahuje pomocí kryptografické techniky zvané jednorázové pečetě. Tento mechanismus se opírá o skutečnost, že UTXO (Unspent Transaction Outputs) Bitcoin lze utratit pouze jednou. Pravost tokenů je zajištěna ověřením celé historie Contract na straně uživatele(od jeho vytvoření až po aktuální stav).
+Klíčovou vlastností RGB je ochrana proti Double-spending, které se dosahuje pomocí kryptografické techniky zvané jednorázové pečetě. Tento mechanismus se opírá o skutečnost, že [UTXO](https://planb.academy/resources/glossary/utxo) (Unspent Transaction Outputs) Bitcoin lze utratit pouze jednou. Pravost tokenů je zajištěna ověřením celé historie Contract na straně uživatele(od jeho vytvoření až po aktuální stav).
 
 
 ![image](assets/cs/062.webp)
@@ -1700,7 +1700,7 @@ V současné době je k dispozici spousta nástrojů pro obchodníky, kteří ch
 Pokud dáváte přednost řešení, které vám nevadí, a chcete přijímat fiat měnu přímo na svůj bankovní účet, služby custodialu, jako je OpenNode, nabízejí zjednodušené služby:
 
 
-https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-[node](https://planb.academy/resources/glossary/node)-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Pro obchodníky, kteří jsou technicky zdatnější a chtějí mít proces plně pod kontrolou, je BTCPay Server fantastickou open-source volbou. Hlavní nevýhodou je, že jeho nastavení a údržba vyžadují čas a určité technické znalosti:
 
@@ -1863,7 +1863,7 @@ Velkou roli při správě bitcoinů hraje také váš každodenní život. Výb�
 **Omezený čas nebo úrok?** Vyberte si jednoduchá, automatizovaná řešení, jako jsou plánované nákupy, které se automaticky převedou do zabezpečeného úložiště.
 
 
-**Technicky zdatní nebo praktičtí?** Možná dáváte přednost pokročilejším řešením, jako jsou peněženky Multisig, které nabízejí větší kontrolu a zabezpečení.
+**Technicky zdatní nebo praktičtí?** Možná dáváte přednost pokročilejším řešením, jako jsou peněženky [Multisig](https://planb.academy/resources/glossary/multisig), které nabízejí větší kontrolu a zabezpečení.
 
 
 **Investování pro blízké nebo budoucí generace?** Přemýšlejte včas o dědictví. Existují způsoby, jak zajistit, aby vaše bitcoiny mohly být bezpečně předány, pokud se vám něco stane.

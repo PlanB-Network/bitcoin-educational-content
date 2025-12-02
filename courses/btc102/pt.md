@@ -575,7 +575,7 @@ Eis os pontos-chave que iremos analisar em conjunto:
 - Investir apenas **dinheiro que se pode dar ao luxo de perder**;
 - Saber a diferença entre **negociação** e **investimento**;
 - Estar ciente das **implicações fiscais** dos seus investimentos;
-- Proteja cuidadosamente a sua **frase de recuperação**;
+- Proteja cuidadosamente a sua **[frase de recuperação](https://planb.academy/resources/glossary/recovery-phrase)**;
 - Manter-se humilde e manter um **perfil baixo** (a discrição faz parte da segurança);
 - Pense a longo prazo, faça zoom out e seja paciente (pense nisto como uma maratona, não como um sprint).
 
@@ -903,7 +903,7 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 #### Peer-to-peer e sem organismo central
 
 
-O Bitcoin é definido como um "sistema de dinheiro eletrónico ponto a ponto" Isto significa que qualquer pessoa pode ligar-se à rede usando o software apropriado (um nó Bitcoin) e interagir diretamente com outros utilizadores, sem depender de um servidor central. O objetivo desta descentralização é impedir que uma única entidade (como um banco, um governo ou uma grande empresa) controle, censure ou interrompa o sistema. O Bitcoin funciona 24 horas por dia, 7 dias por semana, globalmente, e é acessível a todos sem quaisquer condições.
+O Bitcoin é definido como um "sistema de dinheiro eletrónico ponto a ponto" Isto significa que qualquer pessoa pode ligar-se à rede usando o software apropriado (um [nó](https://planb.academy/resources/glossary/node) Bitcoin) e interagir diretamente com outros utilizadores, sem depender de um servidor central. O objetivo desta descentralização é impedir que uma única entidade (como um banco, um governo ou uma grande empresa) controle, censure ou interrompa o sistema. O Bitcoin funciona 24 horas por dia, 7 dias por semana, globalmente, e é acessível a todos sem quaisquer condições.
 
 
 ![image](assets/pt/034.webp)
@@ -1863,7 +1863,7 @@ A sua vida quotidiana também desempenha um papel importante na forma como gere 
 **Optar por soluções simples e automatizadas, como compras programadas que são automaticamente transferidas para um armazenamento seguro.**
 
 
-**Pode preferir soluções mais avançadas, como as carteiras Multisig, que oferecem maior controlo e segurança.**
+**Pode preferir soluções mais avançadas, como as carteiras [Multisig](https://planb.academy/resources/glossary/multisig), que oferecem maior controlo e segurança.**
 
 
 **Investir para os seus entes queridos ou para as gerações futuras... Pense desde cedo na herança. Existem formas de garantir que os seus bitcoins podem ser transmitidos de forma segura se algo lhe acontecer.**
@@ -2453,7 +2453,7 @@ Um empilhador precisa de uma configuração Wallet que equilibre a facilidade de
 
 
 
-- **Hot Wallet**: Ideal para principiantes, as carteiras móveis ou de secretária permitem-lhe receber facilmente Sats e efetuar pagamentos. No entanto, elas são mais adequadas para pequenas quantias. As carteiras On-Chain são preferidas para empilhamento em relação às carteiras Lightning devido a uma melhor gestão UTXO. Carteiras de software recomendadas: Green Wallet, Blue Wallet, Sparrow Wallet, Bitkit, Nunchuk, Aqua, Proton
+- **Hot Wallet**: Ideal para principiantes, as carteiras móveis ou de secretária permitem-lhe receber facilmente Sats e efetuar pagamentos. No entanto, elas são mais adequadas para pequenas quantias. As carteiras On-Chain são preferidas para empilhamento em relação às carteiras Lightning devido a uma melhor gestão [UTXO](https://planb.academy/resources/glossary/utxo). Carteiras de software recomendadas: Green Wallet, Blue Wallet, Sparrow Wallet, Bitkit, Nunchuk, Aqua, Proton
 
 
 https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125

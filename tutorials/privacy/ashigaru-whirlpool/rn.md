@@ -1,5 +1,5 @@
 ---
-name: Ashigaru - Whirlpool Coinjoin
+name: Ashigaru - Whirlpool [Coinjoin](https://planb.academy/resources/glossary/coinjoin)
 description: None nokora gute ama coinjoins ku gikorwa ca Ashigaru?
 ---
 

@@ -26,7 +26,7 @@ PayJoin, ödeme alıcısı ile işbirliği yaparak ödeme sırasında kullanıc�
 - Steganografik işlem
 
 
-PayJoin'nın benzersizliği, ilk bakışta sıradan görünen ancak aslında iki taraf arasında mini bir CoinJoin olan bir işlemi generate yapabilmesinde yatmaktadır. Bunu başarmak için işlem yapısı, girdilerdeki gerçek göndericinin yanı sıra ödeme alıcısını da içerir. Alıcı, işlemin ortasında kendisine ödeme yapılmasını sağlayan bir ödeme içerir.
+PayJoin'nın benzersizliği, ilk bakışta sıradan görünen ancak aslında iki taraf arasında mini bir [CoinJoin](https://planb.academy/resources/glossary/coinjoin) olan bir işlemi generate yapabilmesinde yatmaktadır. Bunu başarmak için işlem yapısı, girdilerdeki gerçek göndericinin yanı sıra ödeme alıcısını da içerir. Alıcı, işlemin ortasında kendisine ödeme yapılmasını sağlayan bir ödeme içerir.
 
 
 Somut bir örnek verelim: `10.000 Sats`lik bir UTXO kullanarak `4000 Sats`lik bir baget satın alırsanız ve PayJoin'yi tercih ederseniz, fırıncınız `4000 Sats`inize ek olarak, girdi olarak kendilerine ait olan ve çıktı olarak tam olarak alacakları `15.000 Sats`lik bir UTXO ekleyecektir:

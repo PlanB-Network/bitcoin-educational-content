@@ -1,7 +1,7 @@
 ---
 name: JoinMarket
 
-description: Guide och handledning om hur man använder JoinMarket för att göra CoinJoin över Bitcoin via kommandoraden
+description: Guide och handledning om hur man använder JoinMarket för att göra [CoinJoin](https://planb.academy/resources/glossary/coinjoin) över Bitcoin via kommandoraden
 ---
 
 ![cover](assets/cover.webp)

@@ -21,7 +21,7 @@ Ein Bitcoin-Knoten ist ein Computer, der am Bitcoin-Netz teilnimmt, indem er die
 
 
 
-- **Blockchain-Speicher**: Bewahrt eine vollständige, aktuelle Kopie des Blockchain Bitcoin
+- **[Blockchain](https://planb.academy/resources/glossary/blockchain)-Speicher**: Bewahrt eine vollständige, aktuelle Kopie des Blockchain Bitcoin
 - **Transaktionsüberprüfung**: validiert jede Transaktion und jeden Block gemäß den Protokollregeln
 - **Weitergabe von Informationen**: Teilt neue Transaktionen und Blöcke mit anderen Knotenpunkten
 - **Konsensbildung**: Trägt zur Anwendung der Netzregeln bei

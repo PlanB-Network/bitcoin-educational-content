@@ -5,7 +5,7 @@ objectives:
 
   - Bitcoin 기술에 대한 전반적인 이해 얻기
   - 비트코인을 구매하고 안전하게 보관하는 방법 이해하기
-  - Blockchain 기술에 대한 전반적인 이해가 있어야 합니다
+  - [Blockchain](https://planb.academy/resources/glossary/blockchain) 기술에 대한 전반적인 이해가 있어야 합니다
   - Lightning Network의 개념 숙지하기
   - Bitcoin의 지정학적 및 사회적 영향 실현
 
@@ -40,13 +40,13 @@ BTC101 과정에 오신 것을 환영합니다!
 Bitcoin은 돈과 사회와의 관계에 의문을 제기할 수 있는 기술이자 화폐 혁명입니다. 실제로 Bitcoin(BTC라고도 함)은 **중립적이고 **탈중앙화된** 통화로, 어떤 단체나 기관에 의해 통제되지 않습니다. 단순한 '인터넷 화폐'를 넘어선 혁신으로, 컴퓨터 프로토콜(Bitcoin)이자 화폐 단위(Bitcoin)입니다.
 
 
-Bitcoin 프로토콜은 암호화, 네트워크 통신, 유명한 "Blockchain"과 같은 기본 기술을 사용하며, Bitcoin 유닛은 이 프로토콜이 제대로 작동하는 데 필요한 통화 역할을 합니다. 일상 생활에서 전 세계 살바도르인과 비트코인 사용자는 Bitcoin 화폐를 사용하여 상품과 서비스를 사고 팔며 이 기술에 의존하여 더 나은 삶을 살고 있습니다.
+Bitcoin 프로토콜은 [암호화](https://planb.academy/resources/glossary/cryptography), 네트워크 통신, 유명한 "Blockchain"과 같은 기본 기술을 사용하며, Bitcoin 유닛은 이 프로토콜이 제대로 작동하는 데 필요한 통화 역할을 합니다. 일상 생활에서 전 세계 살바도르인과 비트코인 사용자는 Bitcoin 화폐를 사용하여 상품과 서비스를 사고 팔며 이 기술에 의존하여 더 나은 삶을 살고 있습니다.
 
 
 **포괄적이면서도 접근하기 쉬운 커리큘럼:**
 
 
-이 과정에서는 비트코인을 사고파는 방법, 디지털 지갑에 안전하게 보관하는 방법, 거래에 사용하는 방법 등 Bitcoin의 금전적 측면에 대해 설명합니다. 또한 새로운 비트코인을 생성하고 Bitcoin 네트워크를 보호하는 데 필수적인 채굴자의 역할에 대해서도 살펴볼 것입니다. 마지막으로 Bitcoin의 미래와 Lightning Network 기술이 어떻게 Bitcoin 거래를 개선할 수 있는지 살펴볼 것입니다.
+이 과정에서는 비트코인을 사고파는 방법, 디지털 지갑에 안전하게 보관하는 방법, 거래에 사용하는 방법 등 Bitcoin의 금전적 측면에 대해 설명합니다. 또한 새로운 비트코인을 생성하고 Bitcoin 네트워크를 보호하는 데 필수적인 채굴자의 역할에 대해서도 살펴볼 것입니다. 마지막으로 Bitcoin의 미래와 [Lightning Network](https://planb.academy/resources/glossary/lightning-network) 기술이 어떻게 Bitcoin 거래를 개선할 수 있는지 살펴볼 것입니다.
 
 
 ![image](assets/ko/001.webp)
@@ -550,7 +550,7 @@ Bitcoin은 **2100만 개**의 사전 정의된 최대 수량을 가진 탈중앙
 ![image](assets/ko/022.webp)
 
 
-이 작업을 성공적으로 수행하면 채굴자는 10분마다 새로운 비트코인을 발행하여 보상을 받습니다. 이 보상은 약 4년마다, 즉 210,000블록마다 절반으로 줄어들도록 프로그래밍되어 있으며("Halving"이라고 알려진 이벤트), 화폐 발행 곡선이 계단 모양을 띠게 됩니다. 이러한 메커니즘으로 인해 총 2100만 개에 도달하는 2140년경에는 새로운 비트코인의 생성이 중단될 것으로 수학적으로 예측할 수 있습니다.
+이 작업을 성공적으로 수행하면 채굴자는 10분마다 새로운 비트코인을 발행하여 보상을 받습니다. 이 보상은 약 4년마다, 즉 210,000블록마다 절반으로 줄어들도록 프로그래밍되어 있으며("[Halving](https://planb.academy/resources/glossary/halving)"이라고 알려진 이벤트), 화폐 발행 곡선이 계단 모양을 띠게 됩니다. 이러한 메커니즘으로 인해 총 2100만 개에 도달하는 2140년경에는 새로운 비트코인의 생성이 중단될 것으로 수학적으로 예측할 수 있습니다.
 
 
 | Halving Number | Block Height | BTC Reward After Halving  | Estimated BTC in Circulation After Halving |
@@ -582,7 +582,7 @@ Mining의 개념은 [Miner 챕터](https://planb.academy/courses/2b7dc507-81e3-4
 ### 디지털 희소성 보장
 
 
-2,100만 개라는 제한은 Bitcoin 희소성의 기초이며, Mining 난이도 조정과 게임 이론이라는 두 가지 주요 메커니즘에 의해 보장됩니다.
+2,100만 개라는 제한은 Bitcoin 희소성의 기초이며, Mining [난이도](https://planb.academy/resources/glossary/difficulty) 조정과 게임 이론이라는 두 가지 주요 메커니즘에 의해 보장됩니다.
 
 
 
@@ -687,7 +687,7 @@ Bitcoin '은행원'이든 본인이든, 대부분의 Bitcoin 지갑은 비대칭
 
 
 
-- 개인 키
+- [개인 키](https://planb.academy/resources/glossary/private-key)
 
 
 Wallet를 초기화할 때 Mnemonic 구문(개인 키)이라고도 하는 비밀 복구 구문이 생성되어 12개 또는 24개 단어의 형태로 제공됩니다.
@@ -700,7 +700,7 @@ Wallet를 초기화할 때 Mnemonic 구문(개인 키)이라고도 하는 비밀
 
 
 
-- 공개 키 및 Address
+- [공개 키](https://planb.academy/resources/glossary/public-key) 및 Address
 
 
 공개 키는 개인 키에서 생성되며 개인 키와 연결되어 있습니다. 공개 키를 공유하면 개인 정보 보호(다른 사용자가 잔액을 볼 수 있기 때문에)에는 위험하지만 보안(개인 키가 없으면 자금을 사용할 수 없기 때문에)에는 위험하지 않습니다. 공개 키는 Bitcoin 주소를 생성하는 데 사용되며, 따라서 돈을 받는 데 사용됩니다.
@@ -795,7 +795,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
-- 레벨 2**의 경우, 실제 Wallet을 사용하며 12/24 단어 목록을 확보한 상태입니다. 키가 인터넷에 연결되지 않은 장치에 저장되기 때문에 "Cold Wallet"이라고도 합니다. 이 경우 항상 장치로 모든 거래에 서명해야 하므로 매일 자금에 대한 접근성이 떨어집니다.
+- 레벨 2**의 경우, 실제 Wallet을 사용하며 12/24 단어 목록을 확보한 상태입니다. 키가 인터넷에 연결되지 않은 장치에 저장되기 때문에 "[Cold Wallet](https://planb.academy/resources/glossary/cold-wallet)"이라고도 합니다. 이 경우 항상 장치로 모든 거래에 서명해야 하므로 매일 자금에 대한 접근성이 떨어집니다.
 
 
 예를 들어 Ledger, 사토칩 또는 탭시그너를 사용할 수 있습니다:
@@ -1007,7 +1007,7 @@ Bitcoin의 세계에서 금융 주권은 개인의 책임과 밀접하게 연관
 ![image](assets/ko/039.webp)
 
 
-2009년 1월 3일, Satoshi은 "Genesis 블록"이라고도 알려진 첫 번째 블록을 생성하여 Bitcoin 네트워크를 공식적으로 출범시켰으며, 이는 Bitcoin Blockchain의 출범을 알렸습니다. 이 블록에는 Bitcoin의 사명을 반영하는 공개 메시지가 담겨 있습니다: "2009년 3월 3일, 은행에 대한 두 번째 구제금융 직전 총리."
+2009년 1월 3일, Satoshi은 "[Genesis 블록](https://planb.academy/resources/glossary/genesis-block)"이라고도 알려진 첫 번째 블록을 생성하여 Bitcoin 네트워크를 공식적으로 출범시켰으며, 이는 Bitcoin Blockchain의 출범을 알렸습니다. 이 블록에는 Bitcoin의 사명을 반영하는 공개 메시지가 담겨 있습니다: "2009년 3월 3일, 은행에 대한 두 번째 구제금융 직전 총리."
 
 
 ![image](assets/ko/040.webp)
@@ -1231,7 +1231,7 @@ Bitcoin 노드가 어떻게 작동하는지 자세히 살펴보겠습니다.
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
 
-**마이너는 네트워크를 보호하고 블록에 트랜잭션을 추가합니다. 채굴자는 ASIC 머신을 통해 전기를 사용하여 Bitcoin Proof of Work.**를 해결합니다
+**마이너는 네트워크를 보호하고 블록에 트랜잭션을 추가합니다. 채굴자는 [ASIC](https://planb.academy/resources/glossary/asic) 머신을 통해 전기를 사용하여 Bitcoin Proof of Work.**를 해결합니다
 
 
 ![image](assets/ko/054.webp)

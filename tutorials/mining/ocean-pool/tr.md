@@ -16,7 +16,7 @@ Okyanus Mining biraz benzersiz bir Mining pool'dir. Burada hesap, e-posta adresi
 ### Tazminat Sistemi
 
 
-Ocean'ın ücretlendirme sistemi TIDES, "Transparent Index of Distinct Extended Shares" olarak adlandırılmaktadır. Bu sistem madenciler tarafından sağlanan ve "hisse" olarak bilinen çalışmaları kaydeder. Havuz, her bir katılımcı için "hisse" yüzdesini hesaplar, ardından Bitcoin Address'larını Block reward'in bu yüzdesinin yararlanıcısı olarak havuzun blok şablonuna ekler.
+Ocean'ın ücretlendirme sistemi TIDES, "Transparent Index of Distinct Extended Shares" olarak adlandırılmaktadır. Bu sistem madenciler tarafından sağlanan ve "hisse" olarak bilinen çalışmaları kaydeder. Havuz, her bir katılımcı için "hisse" yüzdesini hesaplar, ardından Bitcoin Address'larını [Block reward](https://planb.academy/resources/glossary/block-reward)'in bu yüzdesinin yararlanıcısı olarak havuzun blok şablonuna ekler.
 
 
 Blok şablonu, en kazançlı yeni işlemleri hesaba katmak ve gerekirse Block reward'in dağılımını değiştirmek için yaklaşık her 10 saniyede bir güncellenir.
@@ -210,7 +210,7 @@ Burada, **En Az Ödemeye Kadar Tahmini Süre** kutusunda Yıldırım yazdığın
 Sizin de anladığınız gibi Ocean şeffaflığı en üst düzeye çıkarmayı ve gözetimi en aza indirmeyi (Sats'inizi sizin adınıza tutmayı) amaçlamaktadır.
 
 
-Bu nedenle, Lightning para çekme işlemleri için **BOLT12 tekliflerini** kullanmak gerekir. Bu, 2024'te ortaya çıkmaya başlayan ve birkaç şeye izin veren Lightning Network'da ödeme yapmanın yeni bir yoludur:
+Bu nedenle, Lightning para çekme işlemleri için **BOLT12 tekliflerini** kullanmak gerekir. Bu, 2024'te ortaya çıkmaya başlayan ve birkaç şeye izin veren [Lightning Network](https://planb.academy/resources/glossary/lightning-network)'da ödeme yapmanın yeni bir yoludur:
 
 
 - Yeniden kullanılabilir bir ödeme bağlantısıdır, otomatik ödemelere izin verir ve Lightning Address'den farklı olarak BOLT12 gözetim altında değildir.

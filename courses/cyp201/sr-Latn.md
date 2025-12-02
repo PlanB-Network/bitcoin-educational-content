@@ -47,13 +47,13 @@ Cilj ove obuke je da vam pruži ključeve za savladavanje alata koje svakodnevno
 
 Pre nego što se upustimo u detalje strukture i funkcionisana Bitkojn novčanika, počećemo sa nekoliko poglavlja o kriptografskim primitivama koje treba poznavati za ono što sledi.
 
-Počećemo sa kriptografskim heš funkcijama, koje su fundamentalne kako za novčanike, tako i za sam Bitkojn protokol. Otkrićete njihove glavne karakteristike, specifične funkcije korišćene u Bitkojnu, a u tehnički detaljnijem poglavlju, naučićete detalje o funkcionisanju kraljice heš funkcija: SHA256.
+Počećemo sa kriptografskim heš funkcijama, koje su fundamentalne kako za novčanike, tako i za sam Bitkojn protokol. Otkrićete njihove glavne karakteristike, specifične funkcije korišćene u Bitkojnu, a u tehnički detaljnijem poglavlju, naučićete detalje o funkcionisanju kraljice heš funkcija: [SHA256](https://planb.academy/resources/glossary/sha256).
 
 
 ![CYP201](assets/en/001.webp)
 
 
-Dalje ćemo se pozabaviti funkcionisanjem algoritama za digitalno potpisivanje koje koristite svakodnevno za obezbeđivanje vaših UTXO-a. Bitcoin koristi dva takva algoritma: ECDSA i Šnor protokol. Naučićete koji matematički primitivi leže u osnovi ovih algoritama i kako oni osiguravaju bezbednost transakcija.
+Dalje ćemo se pozabaviti funkcionisanjem algoritama za digitalno potpisivanje koje koristite svakodnevno za obezbeđivanje vaših UTXO-a. Bitcoin koristi dva takva algoritma: [ECDSA](https://planb.academy/resources/glossary/ecdsa) i Šnor protokol. Naučićete koji matematički primitivi leže u osnovi ovih algoritama i kako oni osiguravaju bezbednost transakcija.
 
 
 ![CYP201](assets/en/002.webp)
@@ -85,7 +85,7 @@ Ova tabela vam nudi prevod glavnih engleskih termina koji se koriste, kako bi va
 | Engleski        | Prevod / Objašnjenje                                                                               |
 | --------------- | -------------------------------------------------------------------------------------------------- |
 | *pubkey hash*   | Heš javnog ključa (koristi se za generisanje Bitcoin adrese).                                       |
-| *public key*    | Javni ključ (služi za primanje sredstava, izveden iz privatnog ključa).                             |
+| *public key*    | [Javni ključ](https://planb.academy/resources/glossary/public-key) (služi za primanje sredstava, izveden iz privatnog ključa).                             |
 | *signature*     | Digitalni potpis (kriptografski dokaz da poruka potiče od vlasnika privatnog ključa).               |
 | *scriptPubKey*  | Skripta zaključavanja (definiše uslove za trošenje izlaza).                                         |
 | *scriptSig*     | Skripta otključavanja (obezbeđuje podatke za ispunjavanje *scriptPubKey*).                          |
@@ -101,7 +101,7 @@ Ova tabela vam nudi prevod glavnih engleskih termina koji se koriste, kako bi va
 | *HD Wallet*     | Hijerarhijski deterministički novčanik (generiše više ključeva iz jednog semena).                   |
 | *Random Number* | Nasumičan broj (koristi se za generisanje sigurnih privatnih ključeva).                             |
 | *State*         | Stanje (međuvrednost u kriptografskom procesu).                                                     |
-| *Entropy*       | Entropija (mera nasumičnosti, koristi se za generisanje semena za novčanike).                       |
+| *Entropy*       | [Entropija](https://planb.academy/resources/glossary/entropy) (mera nasumičnosti, koristi se za generisanje semena za novčanike).                       |
 | *Mnemonic*      | Mnemotehnika (niz reči koji olakšava čuvanje i obnavljanje semena).                                 |
 | *Wordlist*      | Lista reči (unapred definisan skup korišćen za generisanje BIP39 mnemotehnika).                     |
 | *Seed*          | Semе (početna vrednost koja omogućava izvođenje svih ključeva iz HD novčanika).                     |
@@ -938,7 +938,7 @@ Termin "_novčanik_" u Bitcoin-u može biti prilično zbunjujući za početnike.
 
 Bitcoin protokol je distribuiran i funkcioniše bez centralnog autoriteta. Stoga, nije kao tradicionalni bankarski zapisi, gde su evri koji pripadaju vama jednostavno povezani sa vašim ličnim identitetom. U Bitcoin-u, vaši UTXO-ovi pripadaju vama jer su zaštićeni uslovima trošenja specificiranim u Script jeziku. Da pojednostavimo, postoje dve vrste skripti: skripta zaključavanja (_scriptPubKey_), koja štiti UTXO, i skripta otključavanja (_scriptSig_), koja omogućava otključavanje UTXO-a i time trošenje bitcoin jedinica koje predstavlja.
 
-U početku Bitcoin je funkcionisao sa P2PK skriptama koja uključuje korišćenje javnog ključa za zaključavanje sredstava, navodeći u _scriptPubKey_ da osoba koja želi da potroši ovaj UTXO mora obezbediti važeći potpis sa privatnim ključem koji odgovara ovom javnom ključu. Da bi se otključao ovaj UTXO, potrebno je obezbediti važeći potpis u _scriptSig_. Kao što njihova imena sugerišu, javni ključ je poznat svima jer se emituje na blokčejnu, dok je privatni ključ poznat samo legitimnom vlasniku sredstava.
+U početku Bitcoin je funkcionisao sa P2PK skriptama koja uključuje korišćenje javnog ključa za zaključavanje sredstava, navodeći u _scriptPubKey_ da osoba koja želi da potroši ovaj UTXO mora obezbediti važeći potpis sa privatnim ključem koji odgovara ovom javnom ključu. Da bi se otključao ovaj UTXO, potrebno je obezbediti važeći potpis u _scriptSig_. Kao što njihova imena sugerišu, javni ključ je poznat svima jer se emituje na blokčejnu, dok je [privatni ključ](https://planb.academy/resources/glossary/private-key) poznat samo legitimnom vlasniku sredstava.
 
 Ovo je osnovni princip funkcionisanja Bitcoin-a, ali s vremenom je ova operacija postala složenija. Prvo, Satoshi je takođe uveo P2PKH skripte, koje koriste prijemnu adresu u _scriptPubKey_, što predstavlja heš javnog ključa. Zatim je sistem postao još složeniji dolaskom SegWit-a, a potom i Taproot-a. Međutim, opšti princip ostaje u osnovi isti: javni ključ ili njegova reprezentacija se koristi za zaključavanje UTXO-a, a odgovarajući privatni ključ je potreban da bi se oni otključali i time potrošili.
 

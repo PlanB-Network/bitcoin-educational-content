@@ -341,7 +341,7 @@ Joinstr rakendus on jaotatud kolmeks peamiseks vahekaardiks:
 
 
 - Kodu**: Avakuva
-- Basseinid**: CoinJoin basseinide loomine ja haldamine
+- Basseinid**: [CoinJoin](https://planb.academy/resources/glossary/coinjoin) basseinide loomine ja haldamine
 - Seaded**: Rakenduse konfiguratsioon
 
 

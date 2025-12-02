@@ -5,7 +5,7 @@ objectives:
 - Mendefinisikan konsep teoretis yang diperlukan untuk memahami algoritma kriptografi yang digunakan dalam Bitcoin.
 - Memahami sepenuhnya pembangunan dompet yang deterministik dan hierarkis.
 - Mengetahui cara mengidentifikasi dan mengurangi risiko yang terkait dengan pengelolaan dompet.
-- Memahami prinsip fungsi hash, kunci kriptografi, dan tanda tangan digital.
+- Memahami prinsip [fungsi hash](https://planb.academy/resources/glossary/hash-function), kunci kriptografi, dan tanda tangan digital.
 ---
 
 # Perjalanan ke Jantung Dompet Bitcoin
@@ -35,17 +35,17 @@ Selamat datang di kursus CYP201, di mana kita akan menjelajahi secara mendalam c
 Tujuan dari pelatihan ini adalah untuk memberi Anda kunci untuk menguasai alat yang Anda gunakan setiap hari. Dompet HD Bitcoin, yang berada di jantung pengalaman pengguna Anda, didasarkan pada konsep-konsep yang terkadang kompleks, yang akan kami coba buat dapat diakses. Bersama-sama, kita akan membongkar misterinya!
 
 Sebelum menyelami detail konstruksi dan operasi dompet Bitcoin, kita akan memulai dengan beberapa bab tentang primitif kriptografi yang perlu diketahui untuk apa yang akan diikuti.
-Kita akan memulai dengan fungsi hash kriptografi, fundamental baik untuk dompet maupun protokol Bitcoin itu sendiri. Anda akan menemukan karakteristik utama mereka, fungsi spesifik yang digunakan dalam Bitcoin, dan dalam bab yang lebih teknis, Anda akan belajar secara detail tentang cara kerja fungsi hash ratu: SHA256.
+Kita akan memulai dengan fungsi hash kriptografi, fundamental baik untuk dompet maupun protokol Bitcoin itu sendiri. Anda akan menemukan karakteristik utama mereka, fungsi spesifik yang digunakan dalam Bitcoin, dan dalam bab yang lebih teknis, Anda akan belajar secara detail tentang cara kerja fungsi hash ratu: [SHA256](https://planb.academy/resources/glossary/sha256).
 ![CYP201](assets/en/001.webp)
 
-Selanjutnya, kita akan membahas operasi algoritma tanda tangan digital yang Anda gunakan setiap hari untuk mengamankan UTXO Anda. Bitcoin menggunakan dua: ECDSA dan protokol Schnorr. Anda akan belajar primitif matematika apa yang mendasari algoritma ini dan bagaimana mereka memastikan keamanan transaksi.
+Selanjutnya, kita akan membahas operasi algoritma tanda tangan digital yang Anda gunakan setiap hari untuk mengamankan UTXO Anda. Bitcoin menggunakan dua: [ECDSA](https://planb.academy/resources/glossary/ecdsa) dan protokol Schnorr. Anda akan belajar primitif matematika apa yang mendasari algoritma ini dan bagaimana mereka memastikan keamanan transaksi.
 
 ![CYP201](assets/en/002.webp)
 
 Setelah kita memiliki pemahaman yang baik tentang elemen-elemen kriptografi ini, kita akhirnya akan beralih ke inti dari pelatihan: dompet yang deterministik dan hierarkis! Pertama, ada bagian yang didedikasikan untuk frasa mnemonik, urutan 12 atau 24 kata ini yang memungkinkan Anda untuk membuat dan memulihkan dompet Anda. Anda akan menemukan bagaimana kata-kata ini dihasilkan dari sumber entropi dan bagaimana mereka memfasilitasi penggunaan Bitcoin.
 
 ![CYP201](assets/en/003.webp)
-Pelatihan akan dilanjutkan dengan mempelajari passphrase BIP39, seed (jangan dikacaukan dengan frasa mnemonik), master chain code, dan master key. Kita akan melihat secara detail apa itu elemen-elemen tersebut, peran masing-masing, dan bagaimana mereka dihitung.
+Pelatihan akan dilanjutkan dengan mempelajari passphrase BIP39, [seed](https://planb.academy/resources/glossary/seed) (jangan dikacaukan dengan frasa mnemonik), master chain code, dan master key. Kita akan melihat secara detail apa itu elemen-elemen tersebut, peran masing-masing, dan bagaimana mereka dihitung.
 ![CYP201](assets/en/004.webp)
 
 Akhirnya, dari master key, kita akan menemukan bagaimana pasangan kunci kriptografi diturunkan secara deterministik dan hierarkis hingga ke alamat penerima.
@@ -58,7 +58,7 @@ Tabel ini memberikan Anda terjemahan dari istilah-istilah utama dalam bahasa Ing
 
 | Inggris         | Terjemahan / Penjelasan                                                                            |
 | --------------- | -------------------------------------------------------------------------------------------------- |
-| *pubkey hash*   | Hash kunci publik (digunakan untuk menghasilkan alamat Bitcoin).                                    |
+| *pubkey hash*   | Hash [kunci publik](https://planb.academy/resources/glossary/public-key) (digunakan untuk menghasilkan alamat Bitcoin).                                    |
 | *public key*    | Kunci publik (digunakan untuk menerima dana, diturunkan dari kunci privat).                         |
 | *signature*     | Tanda tangan digital (bukti kriptografis bahwa pesan berasal dari pemegang kunci privat).           |
 | *scriptPubKey*  | Script pengunci (menentukan syarat untuk membelanjakan output).                                     |
@@ -73,9 +73,9 @@ Tabel ini memberikan Anda terjemahan dari istilah-istilah utama dalam bahasa Ing
 | *hash*          | Hash (sidik jari unik dan tetap dari suatu data).                                                   |
 | *SigHash*       | Jenis hash tanda tangan (menentukan bagian transaksi mana yang ditandatangani).                     |
 | *HD Wallet*     | Dompet deterministik hierarkis (menghasilkan banyak kunci dari satu seed).                          |
-| *Random Number* | Angka acak (digunakan untuk menghasilkan kunci privat yang aman).                                   |
+| *Random Number* | Angka acak (digunakan untuk menghasilkan [kunci privat](https://planb.academy/resources/glossary/private-key) yang aman).                                   |
 | *State*         | Status (nilai perantara dalam proses kriptografi).                                                  |
-| *Entropy*       | Entropi (ukuran keacakan, digunakan untuk menghasilkan seed dompet).                                |
+| *[Entropy](https://planb.academy/resources/glossary/entropy)*       | Entropi (ukuran keacakan, digunakan untuk menghasilkan seed dompet).                                |
 | *Mnemonic*      | Mnemonik (urutan kata yang memudahkan pencadangan dan pemulihan seed).                              |
 | *Wordlist*      | Daftar kata (kumpulan kata yang telah ditentukan untuk menghasilkan mnemonik BIP39).                |
 | *Seed*          | Seed (nilai awal yang memungkinkan turunan semua kunci dalam HD Wallet).                            |

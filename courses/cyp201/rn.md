@@ -47,13 +47,13 @@ Intumbero y’iyi nyigisho ni ukuguha imfunguruzo zo kumenya neza ibikoresho uko
 
 Imbere yo kwisuka mu ndondoro y’ubwubatsi n’imikorere y’amasakoshi ya Bitcoin, tuzotangura n’ibice bikeyi ku bijanye n’ibintu vya kera vy’ubuhinga bwa cryptography kugira ngo tumenye ibizokurikira.
 
-Tuzotangura n’ibikorwa vy’ubuhinga bwa Hash, ivy’ishimikiro ku bikoresho vyose bibiri vy’amahera no ku bijanye n’umurongo wa Bitcoin ubwawo. Uzobona ibiranga cane, ibikorwa vyihariye bikoreshwa muri Bitcoin, kandi mu kigabane c'ubuhinga, uzomenya mu buryo burambuye ibijanye n'imikorere y'umwamikazi w'ibikorwa vya Hash: SHA256.
+Tuzotangura n’ibikorwa vy’ubuhinga bwa Hash, ivy’ishimikiro ku bikoresho vyose bibiri vy’amahera no ku bijanye n’umurongo wa Bitcoin ubwawo. Uzobona ibiranga cane, ibikorwa vyihariye bikoreshwa muri Bitcoin, kandi mu kigabane c'ubuhinga, uzomenya mu buryo burambuye ibijanye n'imikorere y'umwamikazi w'ibikorwa vya Hash: [SHA256](https://planb.academy/resources/glossary/sha256).
 
 
 ![CYP201](assets/en/001.webp)
 
 
-Igikurikira, tuzovuga ku mikorere y’ubuhinga bwa digitale signature ukoresha buri musi kugira ngo ukingire ama UTXO yawe. Bitcoin ikoresha bibiri: ECDSA n’umurongo wa Schnorr. Uzomenya ibiharuro vy’intango bishingiye kuri izo nzira n’ingene zituma haba umutekano w’ibikorwa.
+Igikurikira, tuzovuga ku mikorere y’ubuhinga bwa digitale signature ukoresha buri musi kugira ngo ukingire ama UTXO yawe. Bitcoin ikoresha bibiri: [ECDSA](https://planb.academy/resources/glossary/ecdsa) n’umurongo wa Schnorr. Uzomenya ibiharuro vy’intango bishingiye kuri izo nzira n’ingene zituma haba umutekano w’ibikorwa.
 
 
 ![CYP201](assets/en/002.webp)
@@ -1805,7 +1805,7 @@ $$
 $$
 
 
-aho $\text{ENT}$ igereranya uburebure bw'intropi mu bice, na $\text{CS}$ uburebure bw'umubare w'igenzura mu bice.
+aho $\text{ENT}$ igereranya uburebure bw'[intropi](https://planb.academy/resources/glossary/entropy) mu bice, na $\text{CS}$ uburebure bw'umubare w'igenzura mu bice.
 
 
 Nk’akarorero, ku entropie y’ibice 256, ibice 8 vya mbere vya Hash birafatwa kugira ngo bibe umubare w’igenzura:

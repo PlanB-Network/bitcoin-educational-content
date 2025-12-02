@@ -11,7 +11,7 @@ Aqua 是一個行動應用程式，可讓 Bitcoin 和 Liquid 輕鬆建立 Hot Wa
 Aqua 應用程式由 JAN3 公司在 Samson Mow 的指導下開發，最初是專門針對拉丁美洲使用者的需求而設計，儘管它適用於全球任何使用者。對於初學者和每天使用 Bitcoin 進行支付的人來說，它尤其有趣。
 
 
-在本教程中，我們將了解如何使用 Aqua 的許多功能。但在此之前，我們先花一點時間了解 Bitcoin 上的 Sidechain 是什麼，以及 Liquid 的運作方式，這樣才能完全掌握 Aqua 的價值。
+在本教程中，我們將了解如何使用 Aqua 的許多功能。但在此之前，我們先花一點時間了解 Bitcoin 上的 [Sidechain](https://planb.academy/resources/glossary/sidechain) 是什麼，以及 Liquid 的運作方式，這樣才能完全掌握 Aqua 的價值。
 
 
 ![AQUA](assets/fr/01.webp)

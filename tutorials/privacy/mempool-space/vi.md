@@ -1,5 +1,5 @@
 ---
-name: Mempool
+name: [Mempool](https://planb.academy/resources/glossary/mempool)
 description: Khám phá toàn bộ hệ sinh thái Bitcoin.
 ---
 

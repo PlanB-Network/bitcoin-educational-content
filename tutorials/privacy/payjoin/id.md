@@ -17,7 +17,7 @@ Pada tahun 2015, [LaurentMT](https://twitter.com/LaurentMT) pertama kali menyebu
 - P2EP (Pay-to-End-Point)
 - Transaksi steganografi
 
-Keunikan Payjoin terletak pada kemampuannya untuk menghasilkan transaksi yang tampak biasa pada pandangan pertama tetapi sebenarnya adalah mini Coinjoin antara dua pihak. Untuk mencapai ini, struktur transaksi melibatkan penerima pembayaran bersama dengan pengirim sebenarnya dalam input. Penerima memasukkan pembayaran kepada diri mereka sendiri di tengah transaksi, yang memungkinkan mereka dibayar.
+Keunikan Payjoin terletak pada kemampuannya untuk menghasilkan transaksi yang tampak biasa pada pandangan pertama tetapi sebenarnya adalah mini [Coinjoin](https://planb.academy/resources/glossary/coinjoin) antara dua pihak. Untuk mencapai ini, struktur transaksi melibatkan penerima pembayaran bersama dengan pengirim sebenarnya dalam input. Penerima memasukkan pembayaran kepada diri mereka sendiri di tengah transaksi, yang memungkinkan mereka dibayar.
 
 Mari kita ambil contoh konkret: jika Anda membeli sebuah baguette seharga `4000 sats` menggunakan UTXO sebesar `10,000 sats` dan memilih Payjoin, pembuat roti Anda akan menambahkan UTXO sebesar `15,000 sats` yang milik mereka sebagai input, yang akan mereka terima secara penuh sebagai output, selain `4000 sats` Anda:
 ![Diagram transaksi Payjoin](assets/en/1.webp)

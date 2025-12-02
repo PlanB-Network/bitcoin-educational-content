@@ -32,7 +32,7 @@ Sidechain은 메인 Blockchain과 병렬로 작동하는 독립적인 Blockchain
 ## Liquid란 무엇인가요?
 
 
-Liquid은 거래 속도, 개인 정보 보호 및 기능을 개선하기 위해 블록스트림에서 개발한 Bitcoin을 위한 연합 Sidechain 오버레이입니다. 이는 페더레이션에 구축된 양방향 앵커링 메커니즘을 사용하여 비트코인을 메인 체인에 고정하고 그 대가로 Liquid 비트코인(L-BTC)을 생성하며, 토큰은 원래 비트코인의 지원을 유지하면서 Liquid에서 순환합니다.
+Liquid은 거래 속도, 개인 정보 보호 및 기능을 개선하기 위해 블록스트림에서 개발한 Bitcoin을 위한 연합 [Sidechain](https://planb.academy/resources/glossary/sidechain) 오버레이입니다. 이는 페더레이션에 구축된 양방향 앵커링 메커니즘을 사용하여 비트코인을 메인 체인에 고정하고 그 대가로 Liquid 비트코인(L-BTC)을 생성하며, 토큰은 원래 비트코인의 지원을 유지하면서 Liquid에서 순환합니다.
 
 
 ![AQUA](assets/fr/02.webp)

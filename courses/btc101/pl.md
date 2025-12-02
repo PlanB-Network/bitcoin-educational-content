@@ -5,8 +5,8 @@ objectives:
 
   - Ogólne zrozumienie technologii Bitcoin
   - Dowiedz się, jak kupować i zabezpieczać bitcoiny
-  - Ogólna znajomość technologii Blockchain
-  - Zapoznanie się z koncepcją Lightning Network
+  - Ogólna znajomość technologii [Blockchain](https://planb.academy/resources/glossary/blockchain)
+  - Zapoznanie się z koncepcją [Lightning Network](https://planb.academy/resources/glossary/lightning-network)
   - Uświadomienie sobie geopolitycznego i społecznego wpływu Bitcoin
 
 ---
@@ -40,7 +40,7 @@ Witamy w kursie BTC101!
 Bitcoin to rewolucja technologiczna i monetarna, która może sprawić, że zakwestionujemy nasze relacje z pieniędzmi i społeczeństwem. W rzeczywistości Bitcoin (określany jako BTC) jest **neutralną** i **zdecentralizowaną** walutą, co oznacza, że nie jest kontrolowany przez żaden podmiot ani instytucję. Jest to innowacja, która wykracza poza zwykłą "walutę internetową": jest to zarówno protokół komputerowy (Bitcoin), jak i jednostka monetarna (bitcoin).
 
 
-Protokół Bitcoin wykorzystuje podstawowe technologie, takie jak kryptografia, komunikacja sieciowa i słynny "blockchain", podczas gdy jednostka bitcoin służy jako waluta niezbędna do prawidłowego funkcjonowania tego protokołu. W życiu codziennym Salwadorczycy i bitcoinerzy na całym świecie używają waluty bitcoin do kupowania i sprzedawania towarów i usług, polegając na tej technologii, aby uczynić swoje życie lepszym.
+Protokół Bitcoin wykorzystuje podstawowe technologie, takie jak [kryptografia](https://planb.academy/resources/glossary/cryptography), komunikacja sieciowa i słynny "blockchain", podczas gdy jednostka bitcoin służy jako waluta niezbędna do prawidłowego funkcjonowania tego protokołu. W życiu codziennym Salwadorczycy i bitcoinerzy na całym świecie używają waluty bitcoin do kupowania i sprzedawania towarów i usług, polegając na tej technologii, aby uczynić swoje życie lepszym.
 
 
 **Kompleksowy, ale przystępny program nauczania:**
@@ -556,7 +556,7 @@ Tworzenie nowych bitcoinów jest wynikiem procesu mining. W skrócie, górnicy u
 ![image](assets/en/022.webp)
 
 
-Po pomyślnym wykonaniu tego zadania górnicy są nagradzani emisją nowych bitcoinów co dziesięć minut. Nagroda ta jest zaprogramowana tak, aby zmniejszać się o połowę co 210 000 bloków, czyli mniej więcej co cztery lata (zdarzenie znane jako "halving"), nadając krzywej emisji monet kształt przypominający schody. Ze względu na ten mechanizm można matematycznie przewidzieć, że tworzenie nowych bitcoinów zakończy się około roku 2140, kiedy ich łączna liczba osiągnie limit 21 milionów.
+Po pomyślnym wykonaniu tego zadania górnicy są nagradzani emisją nowych bitcoinów co dziesięć minut. Nagroda ta jest zaprogramowana tak, aby zmniejszać się o połowę co 210 000 bloków, czyli mniej więcej co cztery lata (zdarzenie znane jako "[halving](https://planb.academy/resources/glossary/halving)"), nadając krzywej emisji monet kształt przypominający schody. Ze względu na ten mechanizm można matematycznie przewidzieć, że tworzenie nowych bitcoinów zakończy się około roku 2140, kiedy ich łączna liczba osiągnie limit 21 milionów.
 
 
 | Halving Number | Block Height | BTC Reward After Halving  | Estimated BTC in Circulation After Halving |
@@ -595,7 +595,7 @@ Limit 21 milionów jest podstawą niedoboru Bitcoin i jest gwarantowany przez dw
 - Dostosowanie trudności mining to proces, który odbywa się co 2016 bloków, czyli około dwóch tygodni, aby zapewnić, że nowy blok jest dodawany do łańcucha bloków średnio co dziesięć minut. Ta częstotliwość tworzenia bloków i całkowita ilość bitcoinów są stałymi aspektami protokołu Bitcoin i nie mogą zostać zmienione bez ogólnego konsensusu, w przeciwieństwie do arbitralnych decyzji podejmowanych w tradycyjnych systemach monetarnych.
 
 
-Trudność znalezienia poprawnego hasha podlega swoistemu cyklowi: jeśli liczba górników wzrasta i więcej bloków jest znajdowanych szybciej, powoduje to skrócenie średniego czasu znalezienia bloku, a więc trudność wzrasta. W konsekwencji liczba bloków znajdowanych przez górników spada, co oznacza, że mechanizm wraca do średniej 10 minut na blok. Poniższy obrazek przedstawia to wizualnie.
+[Trudność](https://planb.academy/resources/glossary/difficulty) znalezienia poprawnego hasha podlega swoistemu cyklowi: jeśli liczba górników wzrasta i więcej bloków jest znajdowanych szybciej, powoduje to skrócenie średniego czasu znalezienia bloku, a więc trudność wzrasta. W konsekwencji liczba bloków znajdowanych przez górników spada, co oznacza, że mechanizm wraca do średniej 10 minut na blok. Poniższy obrazek przedstawia to wizualnie.
 
 
 ![image](assets/en/023.webp)
@@ -689,7 +689,7 @@ Portfele można zatem podzielić na szerokie rodziny zastosowań, zawsze skupion
 ### Jak działa Bitcoin wallet?
 
 
-Niezależnie od tego, czy jest to "bankier" Bitcoin, czy ty sam, zdecydowana większość portfeli Bitcoin działa w podobnej technologii opartej na kryptografii asymetrycznej, która obejmuje system par kluczy: klucz prywatny do wydawania i klucz publiczny do odbierania.
+Niezależnie od tego, czy jest to "bankier" Bitcoin, czy ty sam, zdecydowana większość portfeli Bitcoin działa w podobnej technologii opartej na kryptografii asymetrycznej, która obejmuje system par kluczy: [klucz prywatny](https://planb.academy/resources/glossary/private-key) do wydawania i [klucz publiczny](https://planb.academy/resources/glossary/public-key) do odbierania.
 
 
 
@@ -1007,7 +1007,7 @@ Teraz, gdy omówiliśmy podstawy portfeli Bitcoin i najlepsze praktyki ich zabez
 31 października 2008 r. to data narodzin nowej technologii finansowej, jaką jest Bitcoin. Tego dnia anonimowy Satoshi Nakamoto zaprezentował światu swoją innowację za pośrednictwem wiadomości e-mail wysłanej na listę mailingową cypherpunks, społeczności entuzjastów kryptografii poświęconej promowaniu prywatności w Internecie. Wiadomość ta zawierała dokument o nazwie "White Paper", który przedstawiał sposób działania Bitcoin.
 
 
-Inicjatywa ta nie spotkała się z natychmiastowym entuzjazmem generate, prawdopodobnie ze względu na wcześniejsze niepowodzenia w próbach stworzenia cyfrowych systemów gotówkowych. Niemniej jednak, biała księga ostatecznie stała się punktem odniesienia dla użytkowników Bitcoin i przez lata była przedmiotem wielu debat w ekosystemie Bitcoin.
+Inicjatywa ta nie spotkała się z natychmiastowym entuzjazmem generate, prawdopodobnie ze względu na wcześniejsze niepowodzenia w próbach stworzenia cyfrowych systemów gotówkowych. Niemniej jednak, [biała księga](https://planb.academy/resources/glossary/white-paper) ostatecznie stała się punktem odniesienia dla użytkowników Bitcoin i przez lata była przedmiotem wielu debat w ekosystemie Bitcoin.
 
 
 ![image](assets/en/039.webp)
@@ -1237,7 +1237,7 @@ Po tym zwycięstwie węzły aktywowały aktualizację o nazwie SegWit, torując 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
 
-**Minerzy zabezpieczają sieć i dodają transakcje do bloków. Wykorzystują energię elektryczną poprzez maszyny ASIC, aby rozwiązać Bitcoin proof of work.**
+**Minerzy zabezpieczają sieć i dodają transakcje do bloków. Wykorzystują energię elektryczną poprzez maszyny [ASIC](https://planb.academy/resources/glossary/asic), aby rozwiązać Bitcoin proof of work.**
 
 
 ![image](assets/en/054.webp)

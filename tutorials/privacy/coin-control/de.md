@@ -21,7 +21,7 @@ Das sollten Sie. Es ist zwar recht einfach, Satoshi ohne KPC zu sammeln, aber Ih
 
 
 
-### Was passiert, wenn Sie einen UTXO ausgeben?
+### Was passiert, wenn Sie einen [UTXO](https://planb.academy/resources/glossary/utxo) ausgeben?
 
 
 

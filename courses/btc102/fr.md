@@ -609,7 +609,7 @@ Cette approche, certes plus technique, garantit aux utilisateurs les plus exigea
 
 #### Un moyen d’échange transfrontalier et résilient
 
-Par sa nature décentralisée, Bitcoin fonctionne jour et nuit, indépendamment des frontières et des fuseaux horaires. Dans certaines régions dépourvues d’infrastructures bancaires robustes, Bitcoin est parfois utilisé comme solution pour envoyer ou recevoir des fonds rapidement, sans intermédiaire coûteux. Les frais de transaction peuvent varier en fonction de la congestion du réseau, mais restent généralement inférieurs aux commissions que pratiquent certaines banques pour des virements internationaux. De plus, il existe des systèmes de surcouche tels que le Lightning Network, qui permettent de réaliser des transactions en bitcoins de manière rapide et à faible coût.
+Par sa nature décentralisée, Bitcoin fonctionne jour et nuit, indépendamment des frontières et des fuseaux horaires. Dans certaines régions dépourvues d’infrastructures bancaires robustes, Bitcoin est parfois utilisé comme solution pour envoyer ou recevoir des fonds rapidement, sans intermédiaire coûteux. Les frais de transaction peuvent varier en fonction de la congestion du réseau, mais restent généralement inférieurs aux commissions que pratiquent certaines banques pour des virements internationaux. De plus, il existe des systèmes de surcouche tels que le [Lightning Network](https://planb.academy/resources/glossary/lightning-network), qui permettent de réaliser des transactions en bitcoins de manière rapide et à faible coût.
 
 #### Une réserve de valeur
 
@@ -736,7 +736,7 @@ Si vous avez de l’argent sur un compte bancaire, sachez qu’il ne vous appart
 
 Bitcoin, en revanche, est un système ouvert, neutre et incorruptible. Ses règles sont fixées une fois pour toutes par le consensus et s’appliquent de manière uniforme à tous les participants du réseau.
 
-C’est là qu’intervient le principe fondamental : "***Pas vos clés, pas vos bitcoins***". Si vous ne possédez pas les clés privées permettant de déverrouiller vos bitcoins, alors ces bitcoins ne sont pas réellement les vôtres. Ils sont sous le contrôle d’un tiers, exactement comme l’argent placé dans une banque. En revanche, si vous détenez votre clé privée, vous seul avez le pouvoir absolu sur vos fonds. Aucune autorité, aucune institution ne peut les saisir ou en limiter l’usage. C’est cette souveraineté monétaire qui fait de Bitcoin une alternative puissante face aux dérives du système financier traditionnel.
+C’est là qu’intervient le principe fondamental : "***Pas vos clés, pas vos bitcoins***". Si vous ne possédez pas les clés privées permettant de déverrouiller vos bitcoins, alors ces bitcoins ne sont pas réellement les vôtres. Ils sont sous le contrôle d’un tiers, exactement comme l’argent placé dans une banque. En revanche, si vous détenez votre [clé privée](https://planb.academy/resources/glossary/private-key), vous seul avez le pouvoir absolu sur vos fonds. Aucune autorité, aucune institution ne peut les saisir ou en limiter l’usage. C’est cette souveraineté monétaire qui fait de Bitcoin une alternative puissante face aux dérives du système financier traditionnel.
 
 ### Bitcoin, un mouvement politique ?
 
@@ -971,7 +971,7 @@ L’écosystème de développement de Bitcoin peut être divisé en plusieurs ca
 - Les développeurs de protocoles annexes, qui conçoivent des solutions complémentaires comme le Lightning Network ou RGB.
 - Les développeurs indépendants, qui créent divers outils et applications destinés à améliorer l’expérience utilisateur, comme Mempool.space ou Alby par exemple.
 
-Tout le monde peut proposer une modification au code, mais contribuer au développement de Bitcoin Core est un processus exigeant. Modifier son code implique un travail de longue haleine, nécessitant de nombreuses validations et des débats au sein de la communauté. Beaucoup de développeurs consacrent des années à proposer des améliorations sous forme de BIP (*Bitcoin Improvement Proposals*), dont certaines ne seront jamais implémentées. C’est un environnement où l’innovation et la rigueur sont essentielles.
+Tout le monde peut proposer une modification au code, mais contribuer au développement de Bitcoin Core est un processus exigeant. Modifier son code implique un travail de longue haleine, nécessitant de nombreuses validations et des débats au sein de la communauté. Beaucoup de développeurs consacrent des années à proposer des améliorations sous forme de [BIP](https://planb.academy/resources/glossary/bip) (*Bitcoin Improvement Proposals*), dont certaines ne seront jamais implémentées. C’est un environnement où l’innovation et la rigueur sont essentielles.
 
 ![image](assets/fr/059.webp)
 
@@ -1161,7 +1161,7 @@ Pour mieux comprendre vos vulnérabilités, évaluez chaque risque sur une éche
 
 Votre quotidien influence également la manière dont vous allez gérer vos bitcoins. Adopter une stratégie adaptée à votre mode de vie vous évitera des complications inutiles.
 
-Si vous avez peu de temps à consacrer à Bitcoin, privilégiez des solutions simples et automatisées, comme l’achat programmé avec un retrait automatique vers un portefeuille sécurisé. Si, au contraire, vous souhaitez gérer activement votre sécurité, des solutions plus avancées comme le multisig peuvent être envisagées.
+Si vous avez peu de temps à consacrer à Bitcoin, privilégiez des solutions simples et automatisées, comme l’achat programmé avec un retrait automatique vers un portefeuille sécurisé. Si, au contraire, vous souhaitez gérer activement votre sécurité, des solutions plus avancées comme le [multisig](https://planb.academy/resources/glossary/multisig) peuvent être envisagées.
 
 Êtes-vous à l’aise avec la technologie ou préférez-vous une solution clé en main ? Certains portefeuilles et méthodes de stockage nécessitent un certain niveau de compétence, tandis que d’autres sont conçus pour être accessibles aux débutants.
 
@@ -1209,7 +1209,7 @@ Parmi ces solutions, on peut également inclure les portefeuilles qui prennent e
 
 Les hot wallets sont adaptés aux petits montants et aux utilisateurs ayant besoin d’un accès fréquent à leurs bitcoins. Ils ne sont pas adaptés pour le stockage à long terme de sommes importantes.
 
-#### Hardware Wallet
+#### [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet)
 
 Les hardware wallets sont des dispositifs physiques conçus pour générer et stocker vos clés privées hors ligne. Ils offrent un niveau de sécurité bien supérieur aux portefeuilles chauds, car ils ne sont pas connectés à internet et disposent d'une surface d'attaque réduite. Exemples : Ledger, Trezor, Jade, Coldcard, BitBox...
 
@@ -1569,7 +1569,7 @@ https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 
 https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
-La stratégie la plus simple pour le stacker est d'utiliser un portefeuille chaud en combinaison avec un hardware wallet. Le stacker gère donc 2 portefeuilles Bitcoin distincts. Le premier sert à recevoir les sats achetés régulièrement, chaque semaine ou chaque mois, depuis la plateforme d'échange (ou encore mieux : en P2P). Le portefeuille chaud est facile et pratique à utiliser. Il permet de rapidement prendre possession de ses bitcoins pour ne pas les laisser sur la plateforme où ils pourraient être exposés à des risques. Cependant, comparé à un hardware wallet, le portefeuille chaud offre beaucoup moins de sécurité. Le stacker doit donc régulièrement transférer ses fonds vers son portefeuille froid pour sécuriser son épargne à long terme et éviter de conserver trop de fonds dans le portefeuille chaud. Lors de cette opération, le stacker peut également consolider ses UTXOs, c'est-à-dire regrouper plusieurs petits morceaux de bitcoins acquis en DCA en un seul gros UTXO sur le portefeuille froid.
+La stratégie la plus simple pour le stacker est d'utiliser un portefeuille chaud en combinaison avec un hardware wallet. Le stacker gère donc 2 portefeuilles Bitcoin distincts. Le premier sert à recevoir les sats achetés régulièrement, chaque semaine ou chaque mois, depuis la plateforme d'échange (ou encore mieux : en P2P). Le portefeuille chaud est facile et pratique à utiliser. Il permet de rapidement prendre possession de ses bitcoins pour ne pas les laisser sur la plateforme où ils pourraient être exposés à des risques. Cependant, comparé à un hardware wallet, le portefeuille chaud offre beaucoup moins de sécurité. Le stacker doit donc régulièrement transférer ses fonds vers son portefeuille froid pour sécuriser son épargne à long terme et éviter de conserver trop de fonds dans le portefeuille chaud. Lors de cette opération, le stacker peut également consolider ses UTXOs, c'est-à-dire regrouper plusieurs petits morceaux de bitcoins acquis en DCA en un seul gros [UTXO](https://planb.academy/resources/glossary/utxo) sur le portefeuille froid.
 
 ![image](assets/fr/081.webp)
 
@@ -2249,7 +2249,7 @@ Voici un inventaire précis de mes avoirs, de leur emplacement et des méthodes 
 
 - Je possède un portefeuille matériel Trezor Model One, accessible depuis mon PC via le logiciel Sparrow Wallet. La phrase mnémonique permettant de restaurer ce portefeuille est stockée en deux exemplaires : l'un dans le coffre de la banque, l'autre chez Oncle Bob. Le code PIN nécessaire pour l'utiliser est conservé à mon domicile ainsi que chez ma mère. Quant à l'appareil lui-même, il est probablement rangé dans un coffre-fort à mon bureau. J'utilise une passphrase BIP39 sur mon Trezor Model One. Cette passphrase est indispensable pour accéder aux fonds stockés sur l’appareil. Une sauvegarde est conservée en deux endroits : à mon domicile et chez ma mère.
 
-Prenez toutes les précautions nécessaires avant de manipuler ces fonds. Ne divulguez jamais la phrase de récupération complète à une seule personne et ne partagez ces informations qu’en cas d’absolue nécessité.
+Prenez toutes les précautions nécessaires avant de manipuler ces fonds. Ne divulguez jamais la [phrase de récupération](https://planb.academy/resources/glossary/recovery-phrase) complète à une seule personne et ne partagez ces informations qu’en cas d’absolue nécessité.
 
 #### 3. Précautions et consignes de sécurité
 

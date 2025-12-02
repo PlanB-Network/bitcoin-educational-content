@@ -5,7 +5,7 @@ description: Whirlpool 應該做多少混音？
 ![cover remix- wp](assets/cover.webp)
 
 
-*** 警告：** 在 Samourai Wallet 的創始人於 4 月 24 日被捕並其伺服器被扣押之後，Whirlpool Stats Tool 已不再提供下載，因為它寄存在 Samourai 的 Gitlab 上。即使您先前已將此工具下載至您的本機，或已安裝在您的 RoninDojo 節點上，WST 目前仍無法運作。它依賴 OXT.me 提供的資料來運作，而這個網站已無法再存取。目前，WST 並不是特別有用，因為 Whirlpool 通訊協定已停止運作。不過，這些軟體仍有可能在未來幾週內恢復運作。此外，這篇文章的理論部分對於了解一般（不只是 Whirlpool）的共連原理和目標，以及了解 Whirlpool 模型的有效性，仍然具有相關性。您也可以學習如何量化 CoinJoin 循環所提供的隱私*。
+*** 警告：** 在 Samourai Wallet 的創始人於 4 月 24 日被捕並其伺服器被扣押之後，Whirlpool Stats Tool 已不再提供下載，因為它寄存在 Samourai 的 Gitlab 上。即使您先前已將此工具下載至您的本機，或已安裝在您的 RoninDojo 節點上，WST 目前仍無法運作。它依賴 OXT.me 提供的資料來運作，而這個網站已無法再存取。目前，WST 並不是特別有用，因為 Whirlpool 通訊協定已停止運作。不過，這些軟體仍有可能在未來幾週內恢復運作。此外，這篇文章的理論部分對於了解一般（不只是 Whirlpool）的共連原理和目標，以及了解 Whirlpool 模型的有效性，仍然具有相關性。您也可以學習如何量化 [CoinJoin](https://planb.academy/resources/glossary/coinjoin) 循環所提供的隱私*。
 
 
 我們正密切注意此案例的發展，以及相關工具的發展。請放心，我們會在有新資訊時更新本教學。

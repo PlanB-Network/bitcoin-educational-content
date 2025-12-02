@@ -50,7 +50,7 @@ Cílem tohoto školení není zajistit, abyste byli při používání Bitcoinu 
 
 **Oddíl 1: Definice a klíčové pojmy**
 
-Nejprve si projdeme základní principy fungování Bitcoinu, abychom se pak mohli v klidu věnovat pojmům týkajícím se důvěrnosti. Než budete moci plně pochopit pojmy, kterými se budeme zabývat v následujících kapitolách, je nezbytné zvládnout několik základních pojmů, jako je UTXO, přijímání adres a skriptování. Představíme si také obecný model důvěrnosti Bitcoinu, jak si jej představoval Satoshi Nakamoto, což nám umožní pochopit související sázky a rizika.
+Nejprve si projdeme základní principy fungování Bitcoinu, abychom se pak mohli v klidu věnovat pojmům týkajícím se důvěrnosti. Než budete moci plně pochopit pojmy, kterými se budeme zabývat v následujících kapitolách, je nezbytné zvládnout několik základních pojmů, jako je [UTXO](https://planb.academy/resources/glossary/utxo), přijímání adres a skriptování. Představíme si také obecný model důvěrnosti Bitcoinu, jak si jej představoval Satoshi Nakamoto, což nám umožní pochopit související sázky a rizika.
 
 ![BTC204](assets/cs/001.webp)
 
@@ -66,7 +66,7 @@ Ve třetí části našeho vzdělávacího kurzu přejdeme k samotné podstatě:
 
 ![BTC204](assets/cs/003.webp)
 
-**Oddíl 4: Porozumění transakcím coinjoin**
+**Oddíl 4: Porozumění transakcím [coinjoin](https://planb.academy/resources/glossary/coinjoin)**
 
 Jak můžeme mluvit o soukromí v Bitcoinu, aniž bychom zmínili coinjoiny? V části 4 se dozvíte vše, co potřebujete vědět o této metodě míchání. Dozvíte se, co jsou coinjoiny, jaká je jejich historie a cíle a jaké různé typy coinjoinů existují. Nakonec se pro zkušenější uživatele podíváme na to, co jsou to anonsety a entropie a jak je vypočítat.
 
@@ -572,7 +572,7 @@ Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec
 
 Na druhém z nich vidíme, že vstup č. 0 a výstup č. 1 používají skripty P2WPKH (SegWit V0), zatímco výstup č. 0 používá jiný skript P2PKH (Legacy).
 
-Na počátku roku 2010 byla tato heuristika založená na verzování skriptů poměrně neužitečná vzhledem k omezenému počtu dostupných typů skriptů. Postupem času a s postupnými aktualizacemi systému Bitcoin však byla zavedena stále větší rozmanitost typů skriptů. Tato heuristika se proto stává stále relevantnější, protože s širší škálou typů skriptů se uživatelé rozdělují do menších skupin, čímž se zvyšuje šance na uplatnění této interní heuristiky opakovaného použití verzí. Z tohoto důvodu je pouze z hlediska důvěrnosti vhodné zvolit nejběžnější typ skriptu. Například v době, kdy píšu tyto řádky, jsou skripty Taproot (`bc1p`) používány méně často než skripty SegWit V0 (`bc1q`). Ačkoli první z nich nabízí v určitých specifických kontextech ekonomické výhody a výhody v oblasti důvěrnosti, pro tradičnější použití s jedním podpisem může mít smysl zůstat u staršího standardu z důvodu důvěrnosti, dokud se nový standard nerozšíří.
+Na počátku roku 2010 byla tato heuristika založená na verzování skriptů poměrně neužitečná vzhledem k omezenému počtu dostupných typů skriptů. Postupem času a s postupnými aktualizacemi systému Bitcoin však byla zavedena stále větší rozmanitost typů skriptů. Tato heuristika se proto stává stále relevantnější, protože s širší škálou typů skriptů se uživatelé rozdělují do menších skupin, čímž se zvyšuje šance na uplatnění této interní heuristiky opakovaného použití verzí. Z tohoto důvodu je pouze z hlediska důvěrnosti vhodné zvolit nejběžnější typ skriptu. Například v době, kdy píšu tyto řádky, jsou skripty [Taproot](https://planb.academy/resources/glossary/taproot) (`bc1p`) používány méně často než skripty [SegWit](https://planb.academy/resources/glossary/segwit) V0 (`bc1q`). Ačkoli první z nich nabízí v určitých specifických kontextech ekonomické výhody a výhody v oblasti důvěrnosti, pro tradičnější použití s jedním podpisem může mít smysl zůstat u staršího standardu z důvodu důvěrnosti, dokud se nový standard nerozšíří.
 
 ### Zaokrouhlení plateb
 
@@ -2936,7 +2936,7 @@ Shrňme si, jak funguje podpis adaptéru při výměně mincí. Na začátku Ali
 
 Všimněte si, že výměnu mincí poprvé navrhl [Gregory Maxwell v říjnu 2013 na BitcoinTalk](https://bitcointalk.org/index.php?topic=321228.0).
 
-### Atomová výměna
+### [Atomová výměna](https://planb.academy/resources/glossary/atomic-swap)
 
 Podobně jako u coinswapu a s využitím stejných typů chytrých smluv je možné provádět i atomické swapy. Atomický swap umožňuje přímou výměnu různých kryptoměn, například BTC a XMR, mezi dvěma uživateli bez nutnosti důvěry nebo zásahu zprostředkovatele. Tyto výměny se označují jako "atomické", protože mají pouze dva možné výsledky: buď je swap úspěšný a obě strany jsou spokojené, nebo se nezdaří a každá si ponechá své původní kryptoměny, čímž odpadá nutnost důvěřovat druhé straně.
 

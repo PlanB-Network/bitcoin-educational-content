@@ -15,7 +15,7 @@ En el **Dashboard** de **Public Pool**, aún tienes algunas estadísticas como e
 
 ![signup](assets/2.webp)
 
-En las primeras líneas, podemos ver **Bitaxe** con 1323 **Bitaxe** conectados para un total de 649TH/s. **Bitaxe** es un proyecto de **Código abierto** que permite la reutilización simple de un chip de un **ASIC** como el **Antminer S19** en una placa electrónica de **código abierto** para hacer un minero pequeño de 0.5TH/s por 15W. Este es el minero que usaremos como ejemplo para este tutorial.
+En las primeras líneas, podemos ver **Bitaxe** con 1323 **Bitaxe** conectados para un total de 649TH/s. **Bitaxe** es un proyecto de **Código abierto** que permite la reutilización simple de un chip de un **[ASIC](https://planb.academy/resources/glossary/asic)** como el **Antminer S19** en una placa electrónica de **código abierto** para hacer un minero pequeño de 0.5TH/s por 15W. Este es el minero que usaremos como ejemplo para este tutorial.
 
 ## Agregando un **Trabajador** 👷‍♂️
 
@@ -54,7 +54,7 @@ En el **Tablero de control**, se muestra diferente información tanto sobre tus 
 
 Tienes la **Tasa de Hash de la Red** que corresponde al poder de trabajo total de la red de **Bitcoin**.
 
-La **Dificultad de la Red** indica la dificultad que debe alcanzarse para validar un bloque.
+La **[Dificultad](https://planb.academy/resources/glossary/difficulty) de la Red** indica la dificultad que debe alcanzarse para validar un bloque.
 
 Y **Tu Mejor Dificultad** es la mayor dificultad que has alcanzado. Si, por casualidad 🍀, alcanzas la dificultad de la red, entonces ganas la recompensa completa del bloque... después de 100 bloques. Tendrías que esperar 100 bloques antes de poder gastarlos.
 

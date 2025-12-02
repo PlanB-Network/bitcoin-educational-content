@@ -1,5 +1,5 @@
 ---
-name: Ashigaru - Whirlpool Coinjoin
+name: Ashigaru - Whirlpool [Coinjoin](https://planb.academy/resources/glossary/coinjoin)
 description: Làm thế nào để thực hiện coinjoin trên ứng dụng Ashigaru?
 ---
 

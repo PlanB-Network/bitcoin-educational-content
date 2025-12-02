@@ -8,7 +8,7 @@ description: Giới thiệu về Braiins Pool
 
 Braiins Pool, trước đây được biết đến với tên là Slush Pool, là hồ bơi đào Bitcoin đầu tiên trên thế giới. Được thành lập vào tháng 11 năm 2010, nó đã đào được khối đầu tiên vào ngày 16 tháng 12 năm 2010, khối 97834.
 
-Tính đến tháng 5 năm 2024, Braiins Pool có sức mạnh tính toán là 13 EH/s, chiếm khoảng 1.8% tổng hashrate của Bitcoin. Nó đã đào được tổng cộng 1,307,188 bitcoin, tương đương khoảng 6% tổng số 21 triệu bitcoin sẽ tồn tại.
+Tính đến tháng 5 năm 2024, Braiins Pool có sức mạnh tính toán là 13 EH/s, chiếm khoảng 1.8% tổng [hashrate](https://planb.academy/resources/glossary/hashrate) của Bitcoin. Nó đã đào được tổng cộng 1,307,188 bitcoin, tương đương khoảng 6% tổng số 21 triệu bitcoin sẽ tồn tại.
 
 ### Hệ Thống Thanh Toán
 

@@ -1,7 +1,7 @@
 ---
 name: JoinMarket
 
-description: Komut satırı aracılığıyla Bitcoin üzerinden CoinJoin yapmak için JoinMarket'in nasıl kullanılacağına dair kılavuz ve öğretici
+description: Komut satırı aracılığıyla Bitcoin üzerinden [CoinJoin](https://planb.academy/resources/glossary/coinjoin) yapmak için JoinMarket'in nasıl kullanılacağına dair kılavuz ve öğretici
 ---
 
 ![cover](assets/cover.webp)

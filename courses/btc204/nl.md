@@ -71,7 +71,7 @@ Het doel van deze training is niet om je volledig anoniem te maken in je gebruik
 **Deel 1: Definities en kernbegrippen**
 
 
-Om te beginnen gaan we de basisprincipes van de werking van Bitcoin doornemen, zodat we daarna rustig de begrippen met betrekking tot vertrouwelijkheid kunnen behandelen. Het is essentieel om een paar basisconcepten te beheersen, zoals UTXO, ontvangende adressen en scripting, voordat je de concepten die we in de volgende secties zullen behandelen volledig kunt begrijpen. We zullen ook het algemene vertrouwelijkheidsmodel van Bitcoin introduceren, zoals bedacht door Satoshi Nakamoto, dat ons in staat zal stellen de bijbehorende inzet en risico's te begrijpen.
+Om te beginnen gaan we de basisprincipes van de werking van Bitcoin doornemen, zodat we daarna rustig de begrippen met betrekking tot vertrouwelijkheid kunnen behandelen. Het is essentieel om een paar basisconcepten te beheersen, zoals [UTXO](https://planb.academy/resources/glossary/utxo), ontvangende adressen en scripting, voordat je de concepten die we in de volgende secties zullen behandelen volledig kunt begrijpen. We zullen ook het algemene vertrouwelijkheidsmodel van Bitcoin introduceren, zoals bedacht door Satoshi Nakamoto, dat ons in staat zal stellen de bijbehorende inzet en risico's te begrijpen.
 
 
 ![BTC204](assets/nl/001.webp)
@@ -95,7 +95,7 @@ In het derde deel van onze training komen we tot de kern: de praktijk! Het doel 
 ![BTC204](assets/nl/003.webp)
 
 
-**Deel 4: CoinJoin transacties begrijpen**
+**Deel 4: [CoinJoin](https://planb.academy/resources/glossary/coinjoin) transacties begrijpen**
 
 
 Hoe kunnen we het hebben over privacy op Bitcoin zonder coinjoins te noemen? In hoofdstuk 4 kom je alles te weten over deze mengmethode. Je leert wat coinjoins zijn, hun geschiedenis en doelstellingen, en de verschillende typen CoinJoin die er bestaan. Tot slot, voor de meer ervaren gebruiker, kijken we naar wat anonsets en entropie zijn, en hoe je ze berekent.
@@ -159,7 +159,7 @@ Bitcoin werkt anders. Het concept van een rekening bestaat niet, en monetaire ee
 ```
 
 
-Theoretisch kan één UTXO elke waarde in bitcoins vertegenwoordigen, variërend van een zat tot een theoretisch maximum van ongeveer 21 miljoen BTC. Het is echter logisch onmogelijk om alle 21 miljoen bitcoins te bezitten, en er is een lagere economische drempel genaamd "Dust", waaronder een UTXO wordt beschouwd als economisch onrendabel om uit te geven.
+Theoretisch kan één UTXO elke waarde in bitcoins vertegenwoordigen, variërend van een zat tot een theoretisch maximum van ongeveer 21 miljoen BTC. Het is echter logisch onmogelijk om alle 21 miljoen bitcoins te bezitten, en er is een lagere economische drempel genaamd "[Dust](https://planb.academy/resources/glossary/dust)", waaronder een UTXO wordt beschouwd als economisch onrendabel om uit te geven.
 
 
 **Wist je dat?** De grootste UTXO ooit gecreëerd op Bitcoin had een waarde van `500.000 BTC`. Het werd gecreëerd door het MtGox platform tijdens een consolidatieoperatie in november 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://Mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
@@ -499,7 +499,7 @@ De eerste twee heuristieken voor ketenanalyse werden ontdekt door Satoshi Nakamo
 
 
 - cIOH (*Common Input Ownership Heuristic*);
-- en Address hergebruik.
+- en [Address hergebruik](https://planb.academy/resources/glossary/address-reuse).
 
 
 ![BTC204](assets/nl/031.webp)
@@ -786,7 +786,7 @@ Source : [Mempool.space](https://Mempool.space/tx/db07516288771ce5d0a06b275962ec
 Op de laatste kunnen we zien dat ingang nr. 0 en uitgang nr. 1 P2WPKH scripts gebruiken (SegWit V0), terwijl uitgang nr. 0 een ander P2PKH script gebruikt (Legacy).
 
 
-In het begin van 2010 was deze heuristiek op basis van scriptversie relatief nutteloos vanwege de beperkte beschikbare scripttypen. Na verloop van tijd en met opeenvolgende Bitcoin updates is er echter een toenemende diversiteit aan scripttypes geïntroduceerd. Deze heuristiek wordt daarom steeds relevanter, want met een breder scala aan scripttypen verdelen gebruikers zich in kleinere groepen, waardoor de kans toeneemt dat deze interne heuristiek voor hergebruik van versies wordt toegepast. Daarom is het, alleen al vanuit het oogpunt van vertrouwelijkheid, aan te raden om te kiezen voor het meest voorkomende type script. Bijvoorbeeld, terwijl ik deze regels schrijf, worden Taproot scripts (`bc1p`) minder vaak gebruikt dan SegWit V0 scripts (`bc1q`). Hoewel de eerste economische en vertrouwelijkheidsvoordelen bieden in bepaalde specifieke contexten, kan het voor meer traditionele toepassingen met één handtekening zinvol zijn om vast te houden aan een oudere standaard om vertrouwelijkheidsredenen, totdat de nieuwe standaard breder wordt aangenomen.
+In het begin van 2010 was deze heuristiek op basis van scriptversie relatief nutteloos vanwege de beperkte beschikbare scripttypen. Na verloop van tijd en met opeenvolgende Bitcoin updates is er echter een toenemende diversiteit aan scripttypes geïntroduceerd. Deze heuristiek wordt daarom steeds relevanter, want met een breder scala aan scripttypen verdelen gebruikers zich in kleinere groepen, waardoor de kans toeneemt dat deze interne heuristiek voor hergebruik van versies wordt toegepast. Daarom is het, alleen al vanuit het oogpunt van vertrouwelijkheid, aan te raden om te kiezen voor het meest voorkomende type script. Bijvoorbeeld, terwijl ik deze regels schrijf, worden [Taproot](https://planb.academy/resources/glossary/taproot) scripts (`bc1p`) minder vaak gebruikt dan [SegWit](https://planb.academy/resources/glossary/segwit) V0 scripts (`bc1q`). Hoewel de eerste economische en vertrouwelijkheidsvoordelen bieden in bepaalde specifieke contexten, kan het voor meer traditionele toepassingen met één handtekening zinvol zijn om vast te houden aan een oudere standaard om vertrouwelijkheidsredenen, totdat de nieuwe standaard breder wordt aangenomen.
 
 
 ### Betalingen afronden

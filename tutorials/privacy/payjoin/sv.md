@@ -26,7 +26,7 @@ PayJoin är en specifik struktur av Bitcoin-transaktionen som förbättrar anvä
 - Steganografisk transaktion
 
 
-Det unika med PayJoin ligger i dess förmåga att generate en transaktion som vid första anblicken verkar vanlig men som i själva verket är en mini CoinJoin mellan två parter. För att uppnå detta involverar transaktionsstrukturen betalningsmottagaren vid sidan av den faktiska avsändaren i ingångarna. Mottagaren inkluderar en betalning till sig själv i mitten av transaktionen, vilket gör det möjligt för dem att få betalt.
+Det unika med PayJoin ligger i dess förmåga att generate en transaktion som vid första anblicken verkar vanlig men som i själva verket är en mini [CoinJoin](https://planb.academy/resources/glossary/coinjoin) mellan två parter. För att uppnå detta involverar transaktionsstrukturen betalningsmottagaren vid sidan av den faktiska avsändaren i ingångarna. Mottagaren inkluderar en betalning till sig själv i mitten av transaktionen, vilket gör det möjligt för dem att få betalt.
 
 
 Låt oss ta ett konkret exempel: om du köper en baguette för 4000 Sats med ett UTXO på 10 000 Sats och väljer en PayJoin, kommer din bagare att lägga till ett UTXO på 15 000 Sats som tillhör dem som en insatsvara, som de kommer att få i sin helhet som en produktion, utöver dina 4000 Sats:

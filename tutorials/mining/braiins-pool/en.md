@@ -6,9 +6,9 @@ description: Introduction to Braiins Pool
 
 ![signup](assets/cover.webp)
 
-Braiins Pool, formerly known as Slush Pool, is the very first Bitcoin [mining pool](https://planb.academy/en/resources/glossary/mining-pool). Established in November 2010, it mined its first block on December 16, 2010, block 97834.
+Braiins Pool, formerly known as Slush Pool, is the very first Bitcoin [mining pool](https://planb.academy/resources/glossary/mining-pool). Established in November 2010, it mined its first block on December 16, 2010, block 97834.
 
-As of May 2024, Braiins Pool has a computing power of 13 EH/s, representing about 1.8% of the total Bitcoin [hashrate](https://planb.academy/en/resources/glossary/hashrate). It has mined a total of 1,307,188 bitcoins, which is approximately 6% of the maximum 21 million bitcoins that will ever exist.
+As of May 2024, Braiins Pool has a computing power of 13 EH/s, representing about 1.8% of the total Bitcoin [hashrate](https://planb.academy/resources/glossary/hashrate). It has mined a total of 1,307,188 bitcoins, which is approximately 6% of the maximum 21 million bitcoins that will ever exist.
 
 ### Compensation System
 

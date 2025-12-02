@@ -11,7 +11,7 @@ description: Wie kann ich in der Ashigaru-Anwendung Coinjoins erstellen?
 
 
 
-In diesem Tutorial erfahren Sie, was ein Coinjoin ist und wie Sie einen solchen mit der Ashigaru-Terminal-Anwendung und der Whirlpool-Implementierung, einem von Samourai Wallet geerbten Coinjoin-Protokoll, erstellen können.
+In diesem Tutorial erfahren Sie, was ein [Coinjoin](https://planb.academy/resources/glossary/coinjoin) ist und wie Sie einen solchen mit der Ashigaru-Terminal-Anwendung und der Whirlpool-Implementierung, einem von Samourai Wallet geerbten Coinjoin-Protokoll, erstellen können.
 
 
 

@@ -71,7 +71,7 @@ Intumbero y’iri shure si iyo kukugira uwutamenyekana rwose mu gukoresha Bitcoi
 **Igice ca 1: Insobanuro n'ivyiyumviro nyamukuru**
 
 
-Kugira ngo dutangure, turaza gusubiramwo ingingo ngenderwako z’ishimikiro zigenga ingene Bitcoin ikora, kugira ngo dushobore gutorera umuti ivyiyumviro bijanye n’ibanga. Ni ngombwa ko umenya neza ivyiyumviro bikeyi vy’ishimikiro, nka UTXO, kwakira amaderesi n’inyandiko, imbere y’uko ushobora gutahura neza ivyiyumviro tuzovuga mu bice bikurikira. Tuzozana kandi uburyo bwo gucungera ibanga rusangi bwa Bitcoin, nk’uko bwavyiyumviriye na Satoshi Nakamoto, buzotuma dushobora gutahura ingorane n’ingorane zijanye n’ivyo.
+Kugira ngo dutangure, turaza gusubiramwo ingingo ngenderwako z’ishimikiro zigenga ingene Bitcoin ikora, kugira ngo dushobore gutorera umuti ivyiyumviro bijanye n’ibanga. Ni ngombwa ko umenya neza ivyiyumviro bikeyi vy’ishimikiro, nka [UTXO](https://planb.academy/resources/glossary/utxo), kwakira amaderesi n’inyandiko, imbere y’uko ushobora gutahura neza ivyiyumviro tuzovuga mu bice bikurikira. Tuzozana kandi uburyo bwo gucungera ibanga rusangi bwa Bitcoin, nk’uko bwavyiyumviriye na Satoshi Nakamoto, buzotuma dushobora gutahura ingorane n’ingorane zijanye n’ivyo.
 
 
 ![BTC204](assets/rn/001.webp)
@@ -95,7 +95,7 @@ Mu gice ca gatatu c’inyigisho yacu, turamanuka ku bintu bitobito: kwimenyereza
 ![BTC204](assets/rn/003.webp)
 
 
-**Igice ca 4: Gutahura ibikorwa vya CoinJoin**
+**Igice ca 4: Gutahura ibikorwa vya [CoinJoin](https://planb.academy/resources/glossary/coinjoin)**
 
 
 None twovuga gute ivyerekeye ubuzima bwite kuri Bitcoin tutavuze ama coinjoins? Mu gice ca 4, uzosanga ivyo ukeneye kumenya vyose ku bijanye n’ubu buryo bwo kuvanga. Uzomenya ivyo coinjoins arivyo, amateka yavyo n’intumbero zavyo, hamwe n’ubwoko butandukanye bwa CoinJoin buriho. Ubwa nyuma, ku muntu afise ubumenyi bwinshi, turaza kuraba ivyo anonsets na entropy ari vyo, n’ingene twobiharura.
@@ -159,7 +159,7 @@ Bitcoin ikora mu buryo butandukanye. Iciyumviro ca konti ntaco kiriho, kandi ama
 ```
 
 
-Mu vy’impwemu, UTXO imwe irashobora guserukira agaciro ako ari ko kose mu bitcoins, kuva ku sat gushika ku vyiyumviro vy’agaciro kanini cane hafi miliyoni 21 BTC. Ariko rero, birashoboka ko umuntu afise amafaranga yose y’ama bitcoins miliyoni 21, kandi hariho urugero rw’ubutunzi ruri hasi rwitwa "Dust", munsi yarwo UTXO ibonwa ko ata nyungu ifise mu vy’ubutunzi iyo umuntu akoresheje.
+Mu vy’impwemu, UTXO imwe irashobora guserukira agaciro ako ari ko kose mu bitcoins, kuva ku sat gushika ku vyiyumviro vy’agaciro kanini cane hafi miliyoni 21 BTC. Ariko rero, birashoboka ko umuntu afise amafaranga yose y’ama bitcoins miliyoni 21, kandi hariho urugero rw’ubutunzi ruri hasi rwitwa "[Dust](https://planb.academy/resources/glossary/dust)", munsi yarwo UTXO ibonwa ko ata nyungu ifise mu vy’ubutunzi iyo umuntu akoresheje.
 
 
 **Wari ubizi?** UTXO nini kuruta izindi zose zari zaremwe kuri Bitcoin zari zifise agaciro ka `500.000 BTC`. Yaremwe n’urubuga rwa MtGox mu gihe c’igikorwa co gukoranya ibintu mu kwezi kwa 11/2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf] -50.ikibanza/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
@@ -830,7 +830,7 @@ Inkomoko: [Mempool.ikibanza](Mempool.ikibanza/tx/db07516288771ce5d06b275962ec4af
 Ku bijanye n’ivyo vya nyuma, turashobora kubona ko input no. 0 n’isohoka no. 1 ikoresha inyandiko za P2WPKH (SegWit V0), mu gihe igisohoka no. 0 ikoresha inyandiko itandukanye ya P2PKH (Iragi).
 
 
-Mu ntango z’imyaka ya 2010, iyo heuristic ishingiye ku guhindura inyandiko ntiyari ifise akamaro kubera ubwoko buke bw’inyandiko bwariho. Ariko rero, uko igihe cagenda kirarenga be n’uko Bitcoin yagenda irahindurwa, harashizweho ubwoko bwinshi bw’inyandiko. Iyi heuristic rero iriko irarushiriza kuba ngirakamaro, nk’uko mu gihe c’ubwoko bwinshi bw’inyandiko, abakoresha bagabanya mu migwi mito mito, gutyo bikongera amahirwe yo gukoresha iyi heuristic yo gusubira gukoresha versioning y’imbere. Kubera iyo mpamvu, uhereye ku bijanye n’ibanga gusa, ni vyiza guhitamwo ubwoko bw’inyandiko busanzwe. Nk’akarorero, uko ndiko ndandika iyi mirongo, inyandiko za Taproot (`bc1p`) zikoreshwa cane kuruta inyandiko za SegWit V0 (`bc1q`). Naho ivya mbere bitanga inyungu mu vy’ubutunzi no mu vy’ibanga mu bihe bimwebimwe vyihariye, ku bijanye n’ugukoresha umukono umwe mu buryo busanzwe, vyoshobora kuba vyiza umuntu agumye ku ngingo ngenderwako ya kera kubera imvo z’ibanga, gushika iyo ngingo ngenderwako nshasha yemejwe cane.
+Mu ntango z’imyaka ya 2010, iyo heuristic ishingiye ku guhindura inyandiko ntiyari ifise akamaro kubera ubwoko buke bw’inyandiko bwariho. Ariko rero, uko igihe cagenda kirarenga be n’uko Bitcoin yagenda irahindurwa, harashizweho ubwoko bwinshi bw’inyandiko. Iyi heuristic rero iriko irarushiriza kuba ngirakamaro, nk’uko mu gihe c’ubwoko bwinshi bw’inyandiko, abakoresha bagabanya mu migwi mito mito, gutyo bikongera amahirwe yo gukoresha iyi heuristic yo gusubira gukoresha versioning y’imbere. Kubera iyo mpamvu, uhereye ku bijanye n’ibanga gusa, ni vyiza guhitamwo ubwoko bw’inyandiko busanzwe. Nk’akarorero, uko ndiko ndandika iyi mirongo, inyandiko za [Taproot](https://planb.academy/resources/glossary/taproot) (`bc1p`) zikoreshwa cane kuruta inyandiko za [SegWit](https://planb.academy/resources/glossary/segwit) V0 (`bc1q`). Naho ivya mbere bitanga inyungu mu vy’ubutunzi no mu vy’ibanga mu bihe bimwebimwe vyihariye, ku bijanye n’ugukoresha umukono umwe mu buryo busanzwe, vyoshobora kuba vyiza umuntu agumye ku ngingo ngenderwako ya kera kubera imvo z’ibanga, gushika iyo ngingo ngenderwako nshasha yemejwe cane.
 
 
 ### Igitigiri c'ukwishyura

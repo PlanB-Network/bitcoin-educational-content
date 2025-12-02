@@ -10,7 +10,7 @@ description: Braiins Pool 簡介
 Braiins Pool 以前稱為 Slush Pool，是第一個 Bitcoin Mining pool。成立於 2010 年 11 月，於 2010 年 12 月 16 日開採出第一個區塊，即區塊 97834。
 
 
-截至 2024 年 5 月，Braiins Pool 的計算能力為 13 EH/s，約佔 Bitcoin Hashrate 總計的 1.8%。它總共開採了 1,307,188 枚比特幣，約佔最多 2,100 萬枚比特幣的 6%。
+截至 2024 年 5 月，Braiins Pool 的計算能力為 13 EH/s，約佔 Bitcoin [Hashrate](https://planb.academy/resources/glossary/hashrate) 總計的 1.8%。它總共開採了 1,307,188 枚比特幣，約佔最多 2,100 萬枚比特幣的 6%。
 
 
 ### 補償系統

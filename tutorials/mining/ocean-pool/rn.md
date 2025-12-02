@@ -16,7 +16,7 @@ Ikiyaga Mining ni Mining pool idasanzwe. Aha, nta konti, nta ma email, nta majam
 ### Uburyo bwo gutanga indishi
 
 
-Uburyo bwo gutanga indishi bwa Ocean bwitwa TIDES, "Index y'imigabane itandukanye". Ubu buhinga burandika ibikorwa vyakozwe n'abacukuzi, bizwi nka "imigabane". Iryo shirahamwe riharura ijana kw'ijana ry'"imigabane" ku muntu wese atanga, hanyuma rikongerako Bitcoin Address yiwe mu gice c'iryo shirahamwe nk'uwuzoronka ijana kw'ijana rya Block reward.
+Uburyo bwo gutanga indishi bwa Ocean bwitwa TIDES, "Index y'imigabane itandukanye". Ubu buhinga burandika ibikorwa vyakozwe n'abacukuzi, bizwi nka "imigabane". Iryo shirahamwe riharura ijana kw'ijana ry'"imigabane" ku muntu wese atanga, hanyuma rikongerako Bitcoin Address yiwe mu gice c'iryo shirahamwe nk'uwuzoronka ijana kw'ijana rya [Block reward](https://planb.academy/resources/glossary/block-reward).
 
 
 Ico kigereranyo c’amabuye kirahindurwa hafi buri masegonda 10 kugira ngo haboneke amafaranga mashasha atanga inyungu nyinshi no guhindura ukuntu Block reward igabanywa iyo bikenewe.
@@ -210,7 +210,7 @@ Aha, urashobora kubona ko mu gasandugu ka **Igihe gitegekanijwe gushika ku gicir
 Nk’uko mwabitahuye, Ocean ifise intumbero yo gutuma haba uguseruka cane no kugabanya ububiko (gufata Sats yawe mu izina ryawe).
 
 
-Ni co gituma, ku bijanye n’ugukura amahera y’umuravyo, bikenewe gukoresha **amashimwe ya BOLT12**. Ubu ni uburyo bushasha bwo kwishura kuri Lightning Network buzotangura gusohoka muri 2024 kandi bushobora gutuma haba ibintu vyinshi:
+Ni co gituma, ku bijanye n’ugukura amahera y’umuravyo, bikenewe gukoresha **amashimwe ya BOLT12**. Ubu ni uburyo bushasha bwo kwishura kuri [Lightning Network](https://planb.academy/resources/glossary/lightning-network) buzotangura gusohoka muri 2024 kandi bushobora gutuma haba ibintu vyinshi:
 
 
 - Ni uruja n’uruza rwo kwishura rushobora gusubirwamwo, rwemerera kwishura ubwavyo kandi, bitandukanye n’umuravyo Address, BOLT12 ntabwo ari iyo kwizigamira.

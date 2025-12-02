@@ -13,7 +13,7 @@ description: Vumbura kandi ushiremwo Umutaka - Urudodo rwawe rwa Bitcoin na serv
 
 
 
-### Node ya Bitcoin ni iki?
+### [Node](https://planb.academy/resources/glossary/node) ya Bitcoin ni iki?
 
 
 
@@ -23,7 +23,7 @@ Node ya Bitcoin ni mudasobwa igira uruhara mu rubuga rwa Bitcoin ikoresheje poro
 
 
 
-- Ububiko bwa Blockchain**: Bubungabunga kopi yuzuye kandi igezweho y’igitabu ca Blockchain Bitcoin.
+- Ububiko bwa [Blockchain](https://planb.academy/resources/glossary/blockchain)**: Bubungabunga kopi yuzuye kandi igezweho y’igitabu ca Blockchain Bitcoin.
 - Igenzura ry'ibikorwa**: ryemeza ibikorwa vyose n'ububiko hakurikijwe amategeko y'amasezerano
 - Gukwiragiza amakuru**: Gusangira amafaranga mashasha n'amabuye n'izindi nzira
 - Ukwubaka amasezerano**: Gufasha mu gushitsa amategeko y'urubuga

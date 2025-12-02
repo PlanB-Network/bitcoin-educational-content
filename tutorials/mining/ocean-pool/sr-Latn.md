@@ -16,7 +16,7 @@ Ocean Mining je donekle jedinstven Mining pool. Ovde nisu potrebni nalozi, adres
 ### Sistem kompenzacije
 
 
-Sistem kompenzacije Ocean-a naziva se TIDES, "Transparentni Indeks Različitih Proširenih Udelâ". Ovaj sistem beleži rad koji obavljaju rudari, poznat kao "udeli". Bazen izračunava procenat "udela" za svakog saradnika, zatim dodaje njihov Bitcoin Address u šablon bloka bazena kao korisnika ovog procenta Block reward.
+Sistem kompenzacije Ocean-a naziva se TIDES, "Transparentni Indeks Različitih Proširenih Udelâ". Ovaj sistem beleži rad koji obavljaju rudari, poznat kao "udeli". Bazen izračunava procenat "udela" za svakog saradnika, zatim dodaje njihov Bitcoin Address u šablon bloka bazena kao korisnika ovog procenta [Block reward](https://planb.academy/resources/glossary/block-reward).
 
 
 Blok šablon se ažurira otprilike svakih 10 sekundi kako bi se uzeli u obzir najunosniji novi transakcije i promenila distribucija Block reward ako je potrebno.
@@ -210,7 +210,7 @@ Ovde možete videti da u polju **Procenjeno vreme do minimalne isplate** piše L
 Kao što ste razumeli, Ocean ima za cilj da maksimizira transparentnost i minimizira starateljstvo (držanje vašeg Sats u vaše ime).
 
 
-Zato je, za Lightning isplate, neophodno koristiti **BOLT12 ponude**. Ovo je novi način plaćanja na Lightning Network koji počinje da se pojavljuje 2024. godine i omogućava nekoliko stvari:
+Zato je, za Lightning isplate, neophodno koristiti **BOLT12 ponude**. Ovo je novi način plaćanja na [Lightning Network](https://planb.academy/resources/glossary/lightning-network) koji počinje da se pojavljuje 2024. godine i omogućava nekoliko stvari:
 
 
 - To je višekratni link za plaćanje, koji omogućava automatska plaćanja i, za razliku od Lightning Address, BOLT12 je ne-kustodijalan.

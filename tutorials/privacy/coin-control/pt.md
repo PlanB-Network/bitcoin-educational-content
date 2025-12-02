@@ -21,7 +21,7 @@ A solidez do protocolo Bitcoin é garantida por conceitos fundamentais simples. 
 
 
 
-### O que acontece quando se gasta um UTXO
+### O que acontece quando se gasta um [UTXO](https://planb.academy/resources/glossary/utxo)
 
 
 

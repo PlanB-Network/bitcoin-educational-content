@@ -50,7 +50,7 @@ Tujuan dari kursus pelatihan ini bukan untuk membuat Anda benar-benar anonim dal
 
 **Bagian 1: Definisi dan konsep utama**
 
-Sebagai permulaan, kita akan meninjau prinsip-prinsip dasar yang mengatur pengoperasian Bitcoin, sehingga kita dapat dengan tenang membahas pengertian-pengertian yang berkaitan dengan kerahasiaan. Sangat penting untuk menguasai beberapa konsep dasar, seperti UTXO, menerima alamat dan skrip, sebelum Anda dapat sepenuhnya memahami konsep-konsep yang akan kita bahas di bagian berikut. Kami juga akan memperkenalkan model kerahasiaan umum Bitcoin, seperti yang dibayangkan oleh Satoshi Nakamoto, yang akan memungkinkan kita untuk memahami taruhan dan risiko yang terkait.
+Sebagai permulaan, kita akan meninjau prinsip-prinsip dasar yang mengatur pengoperasian Bitcoin, sehingga kita dapat dengan tenang membahas pengertian-pengertian yang berkaitan dengan kerahasiaan. Sangat penting untuk menguasai beberapa konsep dasar, seperti [UTXO](https://planb.academy/resources/glossary/utxo), menerima alamat dan skrip, sebelum Anda dapat sepenuhnya memahami konsep-konsep yang akan kita bahas di bagian berikut. Kami juga akan memperkenalkan model kerahasiaan umum Bitcoin, seperti yang dibayangkan oleh Satoshi Nakamoto, yang akan memungkinkan kita untuk memahami taruhan dan risiko yang terkait.
 
 ![BTC204](assets/id/001.webp)
 
@@ -66,7 +66,7 @@ Pada bagian ketiga dari kursus pelatihan ini, kita akan membahas hal-hal yang le
 
 ![BTC204](assets/id/003.webp)
 
-**Bagian 4: Memahami transaksi coinjoin**
+**Bagian 4: Memahami transaksi [coinjoin](https://planb.academy/resources/glossary/coinjoin)**
 
 Bagaimana kita bisa membicarakan privasi di Bitcoin tanpa menyebutkan koin bersama? Di bagian 4, Anda akan mengetahui semua yang perlu Anda ketahui tentang metode pencampuran ini. Anda akan mempelajari apa itu coinjoin, sejarah dan tujuannya, serta berbagai jenis coinjoin yang ada. Terakhir, untuk pengguna yang lebih berpengalaman, kita akan melihat apa itu anonset dan entropi, dan bagaimana cara menghitungnya.
 
@@ -74,7 +74,7 @@ Bagaimana kita bisa membicarakan privasi di Bitcoin tanpa menyebutkan koin bersa
 
 **Bagian 5: Memahami tantangan teknik kerahasiaan tingkat lanjut lainnya**
 
-Pada bagian kelima, kita akan melihat semua teknik lain yang tersedia untuk melindungi privasi Anda di Bitcoin, selain coinjoin. Selama bertahun-tahun, para pengembang telah menunjukkan kreativitas yang luar biasa dalam mendesain alat yang didedikasikan untuk privasi. Kita akan melihat semua metode ini, seperti payjoin, transaksi kolaboratif, Coin Swap dan Atomic Swap, dengan merinci cara kerjanya, tujuan dan kelemahannya.
+Pada bagian kelima, kita akan melihat semua teknik lain yang tersedia untuk melindungi privasi Anda di Bitcoin, selain coinjoin. Selama bertahun-tahun, para pengembang telah menunjukkan kreativitas yang luar biasa dalam mendesain alat yang didedikasikan untuk privasi. Kita akan melihat semua metode ini, seperti payjoin, transaksi kolaboratif, Coin Swap dan [Atomic Swap](https://planb.academy/resources/glossary/atomic-swap), dengan merinci cara kerjanya, tujuan dan kelemahannya.
 
 Kita juga akan melihat privasi pada tingkat jaringan node dan penyebaran transaksi. Kita juga akan mendiskusikan berbagai protokol yang telah diusulkan selama bertahun-tahun untuk meningkatkan privasi pengguna Bitcoin, termasuk protokol alamat statis.
 
@@ -110,7 +110,7 @@ Bitcoin bekerja dengan cara yang berbeda. Konsep akun tidak ada, dan unit monete
 1 BTC = 100 000 000 SATS
 ```
 
-Secara teoritis, satu UTXO dapat mewakili nilai berapa pun dalam bitcoin, mulai dari nilai terendah hingga nilai maksimum teoritis sekitar 21 juta BTC. Namun, secara logika tidak mungkin untuk memiliki semua 21 juta bitcoin, dan ada ambang batas ekonomi yang lebih rendah yang disebut "debu", di bawahnya UTXO dianggap tidak menguntungkan secara ekonomi untuk dibelanjakan.
+Secara teoritis, satu UTXO dapat mewakili nilai berapa pun dalam bitcoin, mulai dari nilai terendah hingga nilai maksimum teoritis sekitar 21 juta BTC. Namun, secara logika tidak mungkin untuk memiliki semua 21 juta bitcoin, dan ada ambang batas ekonomi yang lebih rendah yang disebut "[debu](https://planb.academy/resources/glossary/dust)", di bawahnya UTXO dianggap tidak menguntungkan secara ekonomi untuk dibelanjakan.
 
 **Tahukah Anda?** UTXO terbesar yang pernah dibuat di Bitcoin memiliki nilai `500.000 BTC`. Ini dibuat oleh platform MtGox selama operasi konsolidasi pada bulan November 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
@@ -372,7 +372,7 @@ Dua heuristik analisis rantai pertama ditemukan oleh Satoshi Nakamoto sendiri. D
 
 
 - cIOH (*Common Input Ownership Heuristic*);
-- dan penggunaan ulang alamat.
+- dan [penggunaan ulang alamat](https://planb.academy/resources/glossary/address-reuse).
 
 ![BTC204](assets/id/031.webp)
 
@@ -570,7 +570,7 @@ Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec
 
 Pada yang terakhir, kita dapat melihat bahwa input no. 0 dan output no. 1 menggunakan skrip P2WPKH (SegWit V0), sementara output no. 0 menggunakan skrip P2PKH yang berbeda (Legacy).
 
-Pada awal tahun 2010-an, heuristik berdasarkan versi skrip ini relatif tidak membantu karena terbatasnya jenis skrip yang tersedia. Namun, seiring berjalannya waktu dan dengan pembaruan Bitcoin, semakin banyak jenis skrip yang diperkenalkan. Oleh karena itu, heuristik ini menjadi semakin relevan, karena dengan semakin banyaknya jenis skrip, pengguna terbagi ke dalam kelompok-kelompok yang lebih kecil, sehingga meningkatkan peluang untuk menerapkan heuristik penggunaan ulang versi internal ini. Untuk alasan ini, dari perspektif kerahasiaan saja, disarankan untuk memilih jenis skrip yang paling umum. Sebagai contoh, saat saya menulis baris-baris ini, skrip Taproot (`bc1p`) lebih jarang digunakan daripada skrip SegWit V0 (`bc1q`). Meskipun yang pertama menawarkan manfaat ekonomi dan kerahasiaan dalam konteks tertentu, untuk penggunaan tanda tangan tunggal yang lebih tradisional, mungkin masuk akal untuk tetap menggunakan standar yang lebih lama untuk alasan kerahasiaan, sampai standar baru lebih banyak diadopsi.
+Pada awal tahun 2010-an, heuristik berdasarkan versi skrip ini relatif tidak membantu karena terbatasnya jenis skrip yang tersedia. Namun, seiring berjalannya waktu dan dengan pembaruan Bitcoin, semakin banyak jenis skrip yang diperkenalkan. Oleh karena itu, heuristik ini menjadi semakin relevan, karena dengan semakin banyaknya jenis skrip, pengguna terbagi ke dalam kelompok-kelompok yang lebih kecil, sehingga meningkatkan peluang untuk menerapkan heuristik penggunaan ulang versi internal ini. Untuk alasan ini, dari perspektif kerahasiaan saja, disarankan untuk memilih jenis skrip yang paling umum. Sebagai contoh, saat saya menulis baris-baris ini, skrip [Taproot](https://planb.academy/resources/glossary/taproot) (`bc1p`) lebih jarang digunakan daripada skrip [SegWit](https://planb.academy/resources/glossary/segwit) V0 (`bc1q`). Meskipun yang pertama menawarkan manfaat ekonomi dan kerahasiaan dalam konteks tertentu, untuk penggunaan tanda tangan tunggal yang lebih tradisional, mungkin masuk akal untuk tetap menggunakan standar yang lebih lama untuk alasan kerahasiaan, sampai standar baru lebih banyak diadopsi.
 
 ### Pembayaran angka bulat
 

@@ -49,13 +49,13 @@ objectives:
 
 Преди да навлезем в детайлите на конструкцията и работата на портфейлите Bitcoin, ще започнем с няколко глави за криптографските примитиви, които трябва да познавате за това, което следва.
 
-Ще започнем с криптографските хеш функции, които са основни както за портфейлите, така и за самия протокол Bitcoin. Ще откриете основните им характеристики, конкретните функции, използвани в Bitcoin, а в по-техническа глава ще научите подробно за работата на царицата на хеш-функциите: SHA256.
+Ще започнем с криптографските хеш функции, които са основни както за портфейлите, така и за самия протокол Bitcoin. Ще откриете основните им характеристики, конкретните функции, използвани в Bitcoin, а в по-техническа глава ще научите подробно за работата на царицата на хеш-функциите: [SHA256](https://planb.academy/resources/glossary/sha256).
 
 
 ![CYP201](assets/en/001.webp)
 
 
-След това ще обсъдим действието на алгоритмите за цифров подпис, които използвате всеки ден, за да защитите своите UTXO. Bitcoin използва два: ECDSA и протокола Schnorr. Ще научите кои математически примитиви са в основата на тези алгоритми и как те осигуряват сигурността на транзакциите.
+След това ще обсъдим действието на алгоритмите за цифров подпис, които използвате всеки ден, за да защитите своите UTXO. Bitcoin използва два: [ECDSA](https://planb.academy/resources/glossary/ecdsa) и протокола Schnorr. Ще научите кои математически примитиви са в основата на тези алгоритми и как те осигуряват сигурността на транзакциите.
 
 
 ![CYP201](assets/en/002.webp)
@@ -87,7 +87,7 @@ objectives:
 
 | English         | Translation / Explanation                                                                          |
 | --------------- | -------------------------------------------------------------------------------------------------- |
-| *pubkey hash*   | Public key hash (used to generate a Bitcoin address).                                              |
+| *pubkey hash*   | [Public key](https://planb.academy/resources/glossary/public-key) hash (used to generate a Bitcoin address).                                              |
 | *public key*    | Public key (used to receive funds, derived from the private key).                                  |
 | *signature*     | Digital signature (cryptographic proof that a message comes from the holder of a private key).     |
 | *scriptPubKey*  | Locking script (defines the conditions to spend an output).                                        |
@@ -104,7 +104,7 @@ objectives:
 | *HD Wallet*     | Hierarchical deterministic wallet (generates multiple keys from a single seed).                    |
 | *Random Number* | Random number (used to generate secure private keys).                                              |
 | *State*         | State (intermediate value in a cryptographic process).                                             |
-| *Entropy*       | Entropy (measure of randomness, used to generate wallet seeds).                                    |
+| *[Entropy](https://planb.academy/resources/glossary/entropy)*       | Entropy (measure of randomness, used to generate wallet seeds).                                    |
 | *Mnemonic*      | Mnemonic (sequence of words making it easier to back up and restore a seed).                       |
 | *Wordlist*      | Wordlist (predefined set used to generate BIP39 mnemonics).                                        |
 | *Seed*          | Seed (initial value allowing derivation of all keys in an HD Wallet).                              |
@@ -2172,7 +2172,7 @@ $$
 | Parent Fingerprint| The first 4 bytes of HASH160 of the parent public key                                                              | 4 bytes   |
 | Index Number      | Position of the key in the order of children                                                                       | 4 bytes   |
 | Chain Code        | Used to derive child keys                                                                                          | 32 bytes  |
-| Key               | The private key (with a 1-byte prefix) or the public key                                                          | 33 bytes  |
+| Key               | The [private key](https://planb.academy/resources/glossary/private-key) (with a 1-byte prefix) or the public key                                                          | 33 bytes  |
 | Checksum          | Checksum to verify integrity                                                                                       | 4 bytes   |
 
 Ако към частния ключ е добавен само един байт, това се дължи на факта, че компресираният публичен ключ е по-дълъг от частния ключ с един байт. Този допълнителен байт, добавен в началото на частния ключ като `0x00`, изравнява размера им, като гарантира, че полезният товар на разширения ключ е с еднаква дължина, независимо дали става въпрос за публичен или частен ключ.

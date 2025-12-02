@@ -11,7 +11,7 @@ objectives:
 
 透過我們的 CYP201 課程，探索確定性和分層式 Bitcoin 錢包的秘密！無論您是常客或是希望加深知識的愛好者，本課程都能讓您完全沉浸在這些我們每天都在使用的工具的工作原理中。
 
-學習 Hash 功能、數位簽章 (ECDSA 和 Schnorr)、Mnemonic 短語、加密金鑰和建立接收位址的機制，同時探索進階的安全策略。
+學習 [Hash 功能](https://planb.academy/resources/glossary/hash-function)、數位簽章 (ECDSA 和 Schnorr)、Mnemonic 短語、加密金鑰和建立接收位址的機制，同時探索進階的安全策略。
 
 本訓練不僅能讓您掌握瞭解 Bitcoin Wallet 結構的知識，還能讓您做好準備，深入探索令人興奮的密碼學世界。
 
@@ -34,11 +34,11 @@ CYP201 透過清晰的教學法、超過 60 個解釋圖和具體範例，讓您
 
 在深入探討 Bitcoin 錢包的構造和運作細節之前，我們先從幾個章節開始介紹接下來要知道的加密原語。
 
-我們將從加密的 Hash 函數開始，這些函數對於錢包和 Bitcoin 協定本身都很重要。您將發現它們的主要特性、Bitcoin 中使用的特定函數，並在更技術性的一章中，詳細瞭解 Hash 函數女王的運作：SHA256.
+我們將從加密的 Hash 函數開始，這些函數對於錢包和 Bitcoin 協定本身都很重要。您將發現它們的主要特性、Bitcoin 中使用的特定函數，並在更技術性的一章中，詳細瞭解 Hash 函數女王的運作：[SHA256](https://planb.academy/resources/glossary/sha256).
 
 ![CYP201](assets/en/001.webp)
 
-接下來，我們將討論數位簽章演算法的操作，您每天都會使用這些演算法來保護您的 UTXO。Bitcoin 使用兩種：ECDSA 和 Schnorr 協定。您將學習到這些演算法的數學基元，以及它們如何確保交易的安全性。
+接下來，我們將討論數位簽章演算法的操作，您每天都會使用這些演算法來保護您的 UTXO。Bitcoin 使用兩種：[ECDSA](https://planb.academy/resources/glossary/ecdsa) 和 Schnorr 協定。您將學習到這些演算法的數學基元，以及它們如何確保交易的安全性。
 
 ![CYP201](assets/en/002.webp)
 
@@ -61,7 +61,7 @@ CYP201 透過清晰的教學法、超過 60 個解釋圖和具體範例，讓您
 | 英文            | 翻譯 / 解釋                                                                                         |
 | --------------- | -------------------------------------------------------------------------------------------------- |
 | *pubkey hash*   | 公鑰雜湊（用於生成比特幣地址）。                                                                    |
-| *public key*    | 公鑰（用於接收資金，從私鑰派生）。                                                                 |
+| *public key*    | [公鑰](https://planb.academy/resources/glossary/public-key)（用於接收資金，從私鑰派生）。                                                                 |
 | *signature*     | 數位簽名（密碼學證明訊息來自私鑰持有者）。                                                          |
 | *scriptPubKey*  | 鎖定腳本（定義花費輸出的條件）。                                                                    |
 | *scriptSig*     | 解鎖腳本（提供滿足 *scriptPubKey* 的資料）。                                                        |
@@ -77,7 +77,7 @@ CYP201 透過清晰的教學法、超過 60 個解釋圖和具體範例，讓您
 | *HD Wallet*     | 分層確定性錢包（從單一種子生成多個金鑰）。                                                         |
 | *Random Number* | 隨機數（用於生成安全的私鑰）。                                                                     |
 | *State*         | 狀態（密碼學過程中的中間值）。                                                                     |
-| *Entropy*       | 熵（隨機性的度量，用於生成錢包種子）。                                                              |
+| *[Entropy](https://planb.academy/resources/glossary/entropy)*       | 熵（隨機性的度量，用於生成錢包種子）。                                                              |
 | *Mnemonic*      | 助記詞（由一串詞組成，便於備份與恢復種子）。                                                       |
 | *Wordlist*      | 詞表（用於生成 BIP39 助記詞的預定義集合）。                                                         |
 | *Seed*          | 種子（允許導出 HD 錢包中所有金鑰的初始值）。                                                       |

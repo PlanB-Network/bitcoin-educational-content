@@ -1,7 +1,7 @@
 ---
 name: JoinMarket
 
-description: Juhend ja õpetus selle kohta, kuidas kasutada JoinMarketit, et teha CoinJoin üle Bitcoin käsurea kaudu
+description: Juhend ja õpetus selle kohta, kuidas kasutada JoinMarketit, et teha [CoinJoin](https://planb.academy/resources/glossary/coinjoin) üle Bitcoin käsurea kaudu
 ---
 
 ![cover](assets/cover.webp)

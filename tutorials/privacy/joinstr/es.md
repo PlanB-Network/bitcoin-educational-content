@@ -341,7 +341,7 @@ La aplicación Joinstr está organizada en tres pestañas principales:
 
 
 - Inicio**: Pantalla de inicio
-- Pools**: Creación y gestión de pools CoinJoin
+- Pools**: Creación y gestión de pools [CoinJoin](https://planb.academy/resources/glossary/coinjoin)
 - Configuración**: Configuración de la aplicación
 
 

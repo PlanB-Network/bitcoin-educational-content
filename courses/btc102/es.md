@@ -575,7 +575,7 @@ Estos son los puntos clave que repasaremos juntos:
 - Invierta sólo **dinero que pueda permitirse perder**;
 - Conozca la diferencia entre **comercio** e **inversión**;
 - Tenga en cuenta las **implicaciones fiscales** de sus inversiones;
-- Proteja cuidadosamente su **frase de recuperación**;
+- Proteja cuidadosamente su **[frase de recuperación](https://planb.academy/resources/glossary/recovery-phrase)**;
 - Sé humilde y mantén un **perfil bajo** (la discreción forma parte de la seguridad);
 - **Piense a largo plazo**, alárguese y tenga paciencia (considérelo un maratón, no un sprint).
 
@@ -903,7 +903,7 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 #### Entre iguales y sin organismo central
 
 
-Bitcoin se define como un "sistema de dinero electrónico entre iguales" Esto significa que cualquiera puede conectarse a la red utilizando el software adecuado (un nodo Bitcoin) e interactuar directamente con otros usuarios, sin depender de un servidor central. El objetivo de esta descentralización es impedir que una sola entidad (como un banco, un gobierno o una gran empresa) controle, censure o detenga el sistema. Bitcoin funciona 24 horas al día, 7 días a la semana, en todo el mundo, y es accesible a todo el mundo sin condiciones.
+Bitcoin se define como un "sistema de dinero electrónico entre iguales" Esto significa que cualquiera puede conectarse a la red utilizando el software adecuado (un [nodo](https://planb.academy/resources/glossary/node) Bitcoin) e interactuar directamente con otros usuarios, sin depender de un servidor central. El objetivo de esta descentralización es impedir que una sola entidad (como un banco, un gobierno o una gran empresa) controle, censure o detenga el sistema. Bitcoin funciona 24 horas al día, 7 días a la semana, en todo el mundo, y es accesible a todo el mundo sin condiciones.
 
 
 ![image](assets/es/034.webp)
@@ -1863,7 +1863,7 @@ Tu día a día también juega un papel importante a la hora de gestionar tus bit
 **Opte por soluciones sencillas y automatizadas, como compras programadas que se transfieren automáticamente a un almacenamiento seguro.**
 
 
-**Quizá prefiera soluciones más avanzadas, como los monederos Multisig, que ofrecen mayor control y seguridad.**
+**Quizá prefiera soluciones más avanzadas, como los monederos [Multisig](https://planb.academy/resources/glossary/multisig), que ofrecen mayor control y seguridad.**
 
 
 **¿Invertir para los seres queridos o las generaciones futuras?** Piensa pronto en la herencia. Hay formas de asegurarse de que sus bitcoins puedan transmitirse de forma segura en caso de que le ocurra algo.
@@ -2453,7 +2453,7 @@ Un apilador necesita una configuración Wallet que equilibre la facilidad de uso
 
 
 
-- **Hot Wallet**: Ideales para principiantes, los monederos móviles o de sobremesa permiten recibir Sats y realizar pagos fácilmente. Sin embargo, son más adecuados para pequeñas cantidades. Los monederos On-Chain son preferibles para el apilamiento a los monederos Lightning debido a la mejor gestión de UTXO. Billeteras de software recomendadas: Green Wallet, Blue Wallet, Sparrow Wallet, Bitkit, Nunchuk, Aqua, Proton
+- **Hot Wallet**: Ideales para principiantes, los monederos móviles o de sobremesa permiten recibir Sats y realizar pagos fácilmente. Sin embargo, son más adecuados para pequeñas cantidades. Los monederos On-Chain son preferibles para el apilamiento a los monederos Lightning debido a la mejor gestión de [UTXO](https://planb.academy/resources/glossary/utxo). Billeteras de software recomendadas: Green Wallet, Blue Wallet, Sparrow Wallet, Bitkit, Nunchuk, Aqua, Proton
 
 
 https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125

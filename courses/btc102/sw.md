@@ -262,7 +262,7 @@ Kabla ya kubofya kiungo au kuchukua hatua yoyote, daima angalia mara mbili utamb
 #### Bitcoin Hardforks
 
 
-Kwa miaka mingi, Bitcoin imepitia uma *Hard* kadhaa, ambayo ilisababisha kuundwa kwa matoleo mbadala ya cryptocurrency asilia. Kwa maneno rahisi, *Hard Fork* ni mgawanyiko katika mtandao ambao unaongoza kwa blockchains mbili tofauti, zote zinashiriki historia sawa hadi wakati wa mgawanyiko. Uma hizi kwa kawaida hutokea wakati sehemu ya jumuiya ya wasanidi programu au mfumo mpana wa Bitcoin inataka kuleta mabadiliko makubwa kwa protocol asili lakini haiwezi kufikia makubaliano yaliyoenea. Badala ya kuachana na mawazo yao, wanaamua kuzindua toleo jipya la Bitcoin (na sheria zilizobadilishwa) wakitumaini kwamba watumiaji na miners watachagua kufuata Fork yao badala yake.
+Kwa miaka mingi, Bitcoin imepitia uma *Hard* kadhaa, ambayo ilisababisha kuundwa kwa matoleo mbadala ya cryptocurrency asilia. Kwa maneno rahisi, *Hard [Fork](https://planb.academy/resources/glossary/fork)* ni mgawanyiko katika mtandao ambao unaongoza kwa blockchains mbili tofauti, zote zinashiriki historia sawa hadi wakati wa mgawanyiko. Uma hizi kwa kawaida hutokea wakati sehemu ya jumuiya ya wasanidi programu au mfumo mpana wa Bitcoin inataka kuleta mabadiliko makubwa kwa protocol asili lakini haiwezi kufikia makubaliano yaliyoenea. Badala ya kuachana na mawazo yao, wanaamua kuzindua toleo jipya la Bitcoin (na sheria zilizobadilishwa) wakitumaini kwamba watumiaji na miners watachagua kufuata Fork yao badala yake.
 
 
 ![image](assets/sw/011.webp)
@@ -916,7 +916,7 @@ Bitcoin inafafanuliwa kama "mfumo wa pesa za kielektroniki wa rika-kwa-rika." Hi
 ![image](assets/sw/034.webp)
 
 
-Kwa maneno rahisi, kila mshiriki katika mtandao wa Bitcoin (anayeitwa "node") ana nakala kamili ya leja ya miamala, inayojulikana kama **blockchain**. muamala mpya unapofanyika, hutangazwa kwenye mtandao. Kisha miners huthibitisha miamala hii kwa kuiweka katika vikundi vinavyoongezwa kwenye mwisho wa mnyororo (hivyo basi jina "blockchain").
+Kwa maneno rahisi, kila mshiriki katika mtandao wa Bitcoin (anayeitwa "[node](https://planb.academy/resources/glossary/node)") ana nakala kamili ya leja ya miamala, inayojulikana kama **blockchain**. muamala mpya unapofanyika, hutangazwa kwenye mtandao. Kisha miners huthibitisha miamala hii kwa kuiweka katika vikundi vinavyoongezwa kwenye mwisho wa mnyororo (hivyo basi jina "blockchain").
 
 
 ![image](assets/sw/035.webp)
@@ -1014,7 +1014,7 @@ Ingawa mbinu hii ni ya kiufundi zaidi, inawapa watumiaji wanaohitaji sana uwezo 
 #### Mbinu ya Malipo Inayostahimili Mipaka
 
 
-Kutokana na hali yake ya ugatuzi, Bitcoin inafanya kazi 24/7, bila kuathiriwa na mipaka au maeneo ya saa. Katika maeneo ambayo miundombinu ya benki ya kitamaduni inakosekana, Bitcoin mara nyingi hutumiwa kama suluhisho la haraka, la bei ya chini kwa kutuma au kupokea pesa bila kutegemea wasuluhishi wa gharama kubwa. Ingawa ada za muamala zinaweza kutofautiana kulingana na msongamano wa mtandao, kwa ujumla ni chini sana kuliko ada zinazotozwa na benki kwa uhamisho wa kimataifa. Zaidi ya hayo, suluhu za Layer-2 kama Lightning Network huruhusu miamala ya haraka na ya bei nafuu zaidi ya Bitcoin.
+Kutokana na hali yake ya ugatuzi, Bitcoin inafanya kazi 24/7, bila kuathiriwa na mipaka au maeneo ya saa. Katika maeneo ambayo miundombinu ya benki ya kitamaduni inakosekana, Bitcoin mara nyingi hutumiwa kama suluhisho la haraka, la bei ya chini kwa kutuma au kupokea pesa bila kutegemea wasuluhishi wa gharama kubwa. Ingawa ada za muamala zinaweza kutofautiana kulingana na msongamano wa mtandao, kwa ujumla ni chini sana kuliko ada zinazotozwa na benki kwa uhamisho wa kimataifa. Zaidi ya hayo, suluhu za Layer-2 kama [Lightning Network](https://planb.academy/resources/glossary/lightning-network) huruhusu miamala ya haraka na ya bei nafuu zaidi ya Bitcoin.
 
 
 #### Hifadhi ya thamani
@@ -1545,7 +1545,7 @@ Sekta ya Bitcoin Wallet imegawanywa katika kategoria kadhaa, kila moja ikizingat
 
 
 
-- **Hardware Wallet Manufacturers**: Kampuni hizi hutengeneza vifaa halisi vilivyoundwa kwa uhifadhi wa ufunguo salama. Baadhi ni chanzo huria, ilhali zingine hutoa suluhu za umiliki zenye vipengele tofauti na viwango vya usalama. Majina mashuhuri ni pamoja na Ledger, Trezor, Coinkite, Foundation, na Shiftcrypto.
+- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Manufacturers**: Kampuni hizi hutengeneza vifaa halisi vilivyoundwa kwa uhifadhi wa ufunguo salama. Baadhi ni chanzo huria, ilhali zingine hutoa suluhu za umiliki zenye vipengele tofauti na viwango vya usalama. Majina mashuhuri ni pamoja na Ledger, Trezor, Coinkite, Foundation, na Shiftcrypto.
  
 - **Wasanidi wa Software Wallet**: Hawa huanzia makampuni hadi wasanidi huru wanaounda programu za simu na za mezani. Matoleo yao yanatofautiana katika uzoefu wa mtumiaji, usalama, na vipengele. Mifano ni pamoja na Sparrow, Wizard Sardine, Galoy, Synonym, na Blockstream.
 -DIY (*Jifanyie Mwenyewe*) Wallet: Suluhu hizi za programu huria zimeundwa kwa watumiaji wa hali ya juu ambao wanataka udhibiti kamili na utegemezi mdogo kwa wahusika wengine. Kuunda wallet yako mwenyewe hupunguza utegemezi wa uaminifu na kunaweza kuongeza mkao wako wa usalama. Chaguzi zinazojulikana za DIY ni pamoja na Seedsigner na Specter DIY.
@@ -1678,7 +1678,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 RGB ni mfumo wa Smart contract uliogatuliwa na unaozingatia ufaragha ulioundwa kufanya kazi juu ya Bitcoin na Lightning Network. Tofauti na majukwaa ya kitamaduni ya Smart contract, RGB hutumia modeli ya Client-side Validation (ikimaanisha kuwa Contract State kamili imehifadhiwa off-chain, na ahadi za cryptography pekee ndizo huchapishwa kwa Bitcoin Blockchain). Muundo huu unaboresha uzani na faragha. Kwa RGB, watumiaji wanaweza kuunda kandarasi za hali ya juu za utoaji wa tokeni, NFTs, vitambulisho vilivyogatuliwa, au hata programu za DeFi, moja kwa moja kwenye Bitcoin au Lightning.
 
 
-Element muhimu cha RGB ni ulinzi wake dhidi ya Double-spending, unaopatikana kwa mbinu ya cryptography inayoitwa singleuse seal. Utaratibu huu unategemea ukweli kwamba UTXO za Bitcoin (Matokeo ya Shughuli Zisizotumika) zinaweza kutumika mara moja pekee. Usahihi wa tokeni unahakikishwa na uthibitishaji wa upande wa mtumiaji wa historia nzima ya Contract (kutoka kuundwa kwake hadi hali yake ya sasa).
+Element muhimu cha RGB ni ulinzi wake dhidi ya Double-spending, unaopatikana kwa mbinu ya cryptography inayoitwa singleuse seal. Utaratibu huu unategemea ukweli kwamba [UTXO](https://planb.academy/resources/glossary/utxo) za Bitcoin (Matokeo ya Shughuli Zisizotumika) zinaweza kutumika mara moja pekee. Usahihi wa tokeni unahakikishwa na uthibitishaji wa upande wa mtumiaji wa historia nzima ya Contract (kutoka kuundwa kwake hadi hali yake ya sasa).
 
 
 ![image](assets/sw/062.webp)
@@ -1876,7 +1876,7 @@ Maisha yako ya kila siku pia yana jukumu kubwa katika jinsi utakavyodhibiti bitc
 **Muda au maslahi machache?** Chagua masuluhisho rahisi na ya kiotomatiki; kama vile ununuzi ulioratibiwa ambao huhamishwa kiotomatiki hadi kwenye hifadhi salama.
 
 
-**Utaalam wa teknolojia au unatumika?** Unaweza kupendelea suluhu za kina zaidi kama vile wallet za Multisig ambazo hutoa udhibiti na usalama zaidi.
+**Utaalam wa teknolojia au unatumika?** Unaweza kupendelea suluhu za kina zaidi kama vile wallet za [Multisig](https://planb.academy/resources/glossary/multisig) ambazo hutoa udhibiti na usalama zaidi.
 
 
 **Kuwekeza kwa ajili ya wapendwa au vizazi vijavyo?** Fikiri mapema kuhusu urithi. Kuna njia za kuhakikisha bitcoin zako zinaweza kupitishwa kwa usalama ikiwa kitu kitatokea kwako.

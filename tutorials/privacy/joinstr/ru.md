@@ -341,7 +341,7 @@ openssl rand -base64 32
 
 
 - Главная**: Главный экран
-- Пулы**: Создание и управление пулами CoinJoin
+- Пулы**: Создание и управление пулами [CoinJoin](https://planb.academy/resources/glossary/coinjoin)
 - Настройки**: Конфигурация приложения
 
 

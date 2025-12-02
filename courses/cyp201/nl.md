@@ -47,13 +47,13 @@ Het doel van deze training is om je de sleutels te geven om de tools die je dage
 
 Voordat we in de details duiken van de constructie en werking van Bitcoin wallets, beginnen we met een paar hoofdstukken over de cryptografische primitieven die we moeten kennen voor wat volgt.
 
-We zullen beginnen met cryptografische Hash functies, fundamenteel voor zowel wallets als het Bitcoin protocol zelf. Je zult hun belangrijkste kenmerken ontdekken, de specifieke functies die gebruikt worden in Bitcoin, en in een meer technisch hoofdstuk zul je in detail leren over de werking van de koningin van de Hash functies: SHA256.
+We zullen beginnen met cryptografische Hash functies, fundamenteel voor zowel wallets als het Bitcoin protocol zelf. Je zult hun belangrijkste kenmerken ontdekken, de specifieke functies die gebruikt worden in Bitcoin, en in een meer technisch hoofdstuk zul je in detail leren over de werking van de koningin van de Hash functies: [SHA256](https://planb.academy/resources/glossary/sha256).
 
 
 ![CYP201](assets/en/001.webp)
 
 
-Vervolgens bespreken we de werking van algoritmen voor digitale handtekeningen die je elke dag gebruikt om je UTXO's te beveiligen. Bitcoin gebruikt er twee: ECDSA en het Schnorr protocol. Je leert welke wiskundige primitieven ten grondslag liggen aan deze algoritmen en hoe ze de veiligheid van transacties garanderen.
+Vervolgens bespreken we de werking van algoritmen voor digitale handtekeningen die je elke dag gebruikt om je UTXO's te beveiligen. Bitcoin gebruikt er twee: [ECDSA](https://planb.academy/resources/glossary/ecdsa) en het Schnorr protocol. Je leert welke wiskundige primitieven ten grondslag liggen aan deze algoritmen en hoe ze de veiligheid van transacties garanderen.
 
 
 ![CYP201](assets/en/002.webp)
@@ -101,7 +101,7 @@ Deze tabel biedt u een vertaling van de belangrijkste gebruikte Engelse termen, 
 | *HD Wallet*     | Hiërarchische deterministische wallet (genereert meerdere sleutels uit één seed).                   |
 | *Random Number* | Willekeurig getal (gebruikt om veilige privésleutels te genereren).                                 |
 | *State*         | Toestand (tussenliggende waarde in een cryptografisch proces).                                      |
-| *Entropy*       | Entropie (maat voor willekeur, gebruikt om wallet-seeds te genereren).                              |
+| *[Entropy](https://planb.academy/resources/glossary/entropy)*       | Entropie (maat voor willekeur, gebruikt om wallet-seeds te genereren).                              |
 | *Mnemonic*      | Mnemotechnisch hulpmiddel (reeks woorden die het back-uppen en herstellen van een seed vereenvoudigen). |
 | *Wordlist*      | Woordenlijst (vooraf gedefinieerde set gebruikt om BIP39-mnemonics te genereren).                   |
 | *Seed*          | Seed (initiële waarde waarmee alle sleutels in een HD-wallet kunnen worden afgeleid).               |
@@ -122,7 +122,7 @@ Deze tabel biedt u een vertaling van de belangrijkste gebruikte Engelse termen, 
 :::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
 
-Het eerste type cryptografische algoritmen dat gebruikt wordt in Bitcoin omvat Hash functies. Ze spelen een essentiële rol op verschillende niveaus van het protocol, maar ook binnen Bitcoin wallets. Laten we samen ontdekken wat een Hash functie is en waar deze voor wordt gebruikt in Bitcoin.
+Het eerste type cryptografische algoritmen dat gebruikt wordt in Bitcoin omvat Hash functies. Ze spelen een essentiële rol op verschillende niveaus van het protocol, maar ook binnen Bitcoin wallets. Laten we samen ontdekken wat een [Hash functie](https://planb.academy/resources/glossary/hash-function) is en waar deze voor wordt gebruikt in Bitcoin.
 
 
 ### Definitie en Principe van Hashing
@@ -949,7 +949,7 @@ Een gebruiker die een Bitcoin transactie wil doen, moet daarom een digitale hand
 Daarom moet een gebruiker die bitcoins bezit die vergrendeld zijn met een publieke sleutel, een manier vinden om veilig op te bergen wat het mogelijk maakt om zijn fondsen te ontgrendelen: de privésleutel. Een Bitcoin Wallet is precies een apparaat waarmee je gemakkelijk al je sleutels kunt bewaren zonder dat andere mensen er toegang toe hebben. Het is daarom meer een sleutelhanger dan een Wallet.
 
 
-Het wiskundige verband tussen een openbare sleutel en een privésleutel, evenals de mogelijkheid om een handtekening uit te voeren om het bezit van een privésleutel te bewijzen zonder deze te onthullen, worden mogelijk gemaakt door een algoritme voor digitale handtekeningen. In het Bitcoin protocol worden twee handtekeningalgoritmen gebruikt: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) en het **Schnorr handtekeningenschema**. ECDSA is het digitale handtekeningprotocol dat vanaf het begin in Bitcoin gebruikt werd. Schnorr is recenter in Bitcoin, omdat het in november 2021 werd geïntroduceerd met de Taproot update.
+Het wiskundige verband tussen een [openbare sleutel](https://planb.academy/resources/glossary/public-key) en een privésleutel, evenals de mogelijkheid om een handtekening uit te voeren om het bezit van een privésleutel te bewijzen zonder deze te onthullen, worden mogelijk gemaakt door een algoritme voor digitale handtekeningen. In het Bitcoin protocol worden twee handtekeningalgoritmen gebruikt: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) en het **Schnorr handtekeningenschema**. ECDSA is het digitale handtekeningprotocol dat vanaf het begin in Bitcoin gebruikt werd. Schnorr is recenter in Bitcoin, omdat het in november 2021 werd geïntroduceerd met de Taproot update.
 
 Deze twee algoritmen lijken erg op elkaar in hun mechanisme. Ze zijn beide gebaseerd op elliptische curve cryptografie. Het grote verschil tussen deze twee protocollen zit in de structuur van de handtekening en enkele specifieke wiskundige eigenschappen. We zullen daarom de werking van deze algoritmen bestuderen, te beginnen met de oudste: ECDSA.
 

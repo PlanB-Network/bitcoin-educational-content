@@ -4,8 +4,8 @@ goal: Découvrez les principes fondamentaux de Bitcoin, notamment sa valeur mon�
 objectives:
   - Acquérir une compréhension générale de la technologie Bitcoin
   - Comprendre comment acheter et sécuriser des bitcoins
-  - Avoir une compréhension générale de la technologie Blockchain
-  - Se familiariser avec le concept de Lightning Network
+  - Avoir une compréhension générale de la technologie [Blockchain](https://planb.academy/resources/glossary/blockchain)
+  - Se familiariser avec le concept de [Lightning Network](https://planb.academy/resources/glossary/lightning-network)
   - Réaliser l'impact géopolitique et social de Bitcoin
 ---
 
@@ -31,7 +31,7 @@ Bienvenue dans le cours BTC101 !
 
 Le Bitcoin est une révolution technologique et monétaire, capable de nous faire remettre en question notre rapport à l'argent et à la société. En effet, le bitcoin (appelé BTC) est une monnaie **neutre** et **décentralisée**, c'est-à-dire qu'elle n'est contrôlée par aucune entité ou institution. C'est une innovation qui va au-delà d'une simple "monnaie d'internet" : c'est à la fois un protocole informatique (le Bitcoin) et une unité monétaire (le bitcoin).
 
-Le protocole utilise des technologies sous-jacentes telles que la cryptographie, la communication en réseau et la fameuse "blockchain", tandis que l'unité bitcoin sert de monnaie nécessaire au bon fonctionnement de ce protocole. Dans la vie de tous les jours, les Salvadoriens et les bitcoiners du monde entier utilisent la monnaie bitcoin pour acheter et vendre des biens et des services, comptant sur cette technologie pour améliorer leur vie.
+Le protocole utilise des technologies sous-jacentes telles que la [cryptographie](https://planb.academy/resources/glossary/cryptography), la communication en réseau et la fameuse "blockchain", tandis que l'unité bitcoin sert de monnaie nécessaire au bon fonctionnement de ce protocole. Dans la vie de tous les jours, les Salvadoriens et les bitcoiners du monde entier utilisent la monnaie bitcoin pour acheter et vendre des biens et des services, comptant sur cette technologie pour améliorer leur vie.
 
 **Un programme d'études complet mais accessible :**
 
@@ -380,7 +380,7 @@ La création de nouveaux bitcoins est le résultat du processus de minage. En br
 
 ![image](assets/fr/022.webp)
 
-Une fois cette tâche accomplie avec succès, les mineurs sont récompensés par l'émission de nouveaux bitcoins toutes les dix minutes. Cette récompense est programmée pour être divisée par deux tous les 210 000 blocs, soit environ tous les quatre ans (un événement connu sous le nom de "halving"), ce qui donne à la courbe d'émission monétaire une forme d'escalier. En raison de ce mécanisme, on peut prédire mathématiquement que la création de nouveaux bitcoins cessera vers l'an 2140, lorsque le nombre total atteindra sa limite de 21 millions.
+Une fois cette tâche accomplie avec succès, les mineurs sont récompensés par l'émission de nouveaux bitcoins toutes les dix minutes. Cette récompense est programmée pour être divisée par deux tous les 210 000 blocs, soit environ tous les quatre ans (un événement connu sous le nom de "[halving](https://planb.academy/resources/glossary/halving)"), ce qui donne à la courbe d'émission monétaire une forme d'escalier. En raison de ce mécanisme, on peut prédire mathématiquement que la création de nouveaux bitcoins cessera vers l'an 2140, lorsque le nombre total atteindra sa limite de 21 millions.
 
 
 | Halving Number | La hauteur du bloc | la récompense en BTC après l'Halving  | l'estimation des BTC en circulation l'Halving |
@@ -410,7 +410,7 @@ Nous reviendrons plus en détail sur le concept d'exploitation minière dans le 
 
 ### Garantir la rareté numérique
 
-La limite de 21 millions est la base de la rareté du bitcoin et est garantie par deux mécanismes clés : l'ajustement de la difficulté de minage et la théorie des jeux.
+La limite de 21 millions est la base de la rareté du bitcoin et est garantie par deux mécanismes clés : l'ajustement de la [difficulté](https://planb.academy/resources/glossary/difficulty) de minage et la théorie des jeux.
 
 - L'ajustement de la difficulté de minage est un processus qui a lieu tous les 2016 blocs, soit environ deux semaines, afin de garantir qu'un nouveau bloc est ajouté à la blockchain toutes les dix minutes en moyenne. Cette fréquence de création de blocs et la quantité totale de bitcoins sont deux aspects fixes du protocole Bitcoin et ne peuvent être modifiés sans un consensus général, contrairement aux décisions arbitraires prises dans les systèmes monétaires traditionnels.
 
@@ -481,7 +481,7 @@ Les portefeuilles peuvent donc être classés en grandes familles d'utilisation,
 
 ### Comment fonctionne un portefeuille Bitcoin ?
 
-Qu'il s'agisse de votre "banquier" bitcoin ou de vous-même, la grande majorité des portefeuilles Bitcoin fonctionnent avec une technologie similaire basée sur la cryptographie asymétrique, qui implique un système de paires de clés : une clé privée pour dépenser et une clé publique pour recevoir.
+Qu'il s'agisse de votre "banquier" bitcoin ou de vous-même, la grande majorité des portefeuilles Bitcoin fonctionnent avec une technologie similaire basée sur la cryptographie asymétrique, qui implique un système de paires de clés : une [clé privée](https://planb.academy/resources/glossary/private-key) pour dépenser et une [clé publique](https://planb.academy/resources/glossary/public-key) pour recevoir.
 
 - Clé privée
 
@@ -556,7 +556,7 @@ Par exemple, vous pouvez utiliser Sparrow Wallet comme hot wallet :
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-- **Niveau 2**, vous utilisez un portefeuille physique et vous avez sécurisé votre liste de 12/24 mots. Ce type de portefeuille est souvent appelé "cold Wallet", car vos clés sont stockées sur un appareil qui n'est pas connecté à internet. Dans ce cas, vous devrez toujours signer chaque transaction avec votre appareil, ce qui rend vos fonds moins accessibles au quotidien.
+- **Niveau 2**, vous utilisez un portefeuille physique et vous avez sécurisé votre liste de 12/24 mots. Ce type de portefeuille est souvent appelé "[cold Wallet](https://planb.academy/resources/glossary/cold-wallet)", car vos clés sont stockées sur un appareil qui n'est pas connecté à internet. Dans ce cas, vous devrez toujours signer chaque transaction avec votre appareil, ce qui rend vos fonds moins accessibles au quotidien.
 
 Par exemple, vous pouvez utiliser un Ledger, un Satochip ou un Tapsigner :
 
@@ -869,7 +869,7 @@ Suite à cette victoire, les nœuds ont activé une mise à jour appelée SegWit
 
 :::video id=47c5a6f2-5b27-48b7-8656-a322cade9acc:::
 
-**Les mineurs sécurisent le réseau et ajoutent des transactions aux blocs. Ils utilisent de l'électricité grâce à des machines ASIC pour résoudre la preuve de travail de Bitcoin.**
+**Les mineurs sécurisent le réseau et ajoutent des transactions aux blocs. Ils utilisent de l'électricité grâce à des machines [ASIC](https://planb.academy/resources/glossary/asic) pour résoudre la preuve de travail de Bitcoin.**
 
 ![image](assets/fr/054.webp)
 
@@ -877,7 +877,7 @@ Suite à cette victoire, les nœuds ont activé une mise à jour appelée SegWit
 
 La "preuve de travail" (POW) est le mécanisme de consensus de sécurité du protocole Bitcoin. Il est à la base de tout et joue un rôle crucial dans la théorie des jeux de Bitcoin.
 
-Pour expliquer son fonctionnement, imaginons une loterie universelle à laquelle tout le monde peut participer. L'objectif est de trouver un nombre spécifique qui permette au gagnant de signer un bloc valide et d'obtenir une récompense en bitcoins. Ce nombre est très simple à vérifier à l'aide de la fonction de hachage SHA-256, mais difficile à trouver : les participants (mineurs) essaieront des milliards et des milliards de possibilités, telles que 1, 52, 2648, 26874615, 15344854131318631, et ainsi de suite, jusqu'à ce qu'ils découvrent le bon.
+Pour expliquer son fonctionnement, imaginons une loterie universelle à laquelle tout le monde peut participer. L'objectif est de trouver un nombre spécifique qui permette au gagnant de signer un bloc valide et d'obtenir une récompense en bitcoins. Ce nombre est très simple à vérifier à l'aide de la [fonction de hachage](https://planb.academy/resources/glossary/hash-function) SHA-256, mais difficile à trouver : les participants (mineurs) essaieront des milliards et des milliards de possibilités, telles que 1, 52, 2648, 26874615, 15344854131318631, et ainsi de suite, jusqu'à ce qu'ils découvrent le bon.
 
 Si le numéro choisi est correct : Jackpot ! Sinon, la recherche continue.
 

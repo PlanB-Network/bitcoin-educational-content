@@ -34,15 +34,15 @@ Benvenuto al corso CYP201, dove esploreremo a fondo il funzionamento dei wallet 
 
 L'obiettivo di questa formazione è fornirti le chiavi per padroneggiare gli strumenti che utilizzi quotidianamente. I wallet HD, che sono al centro della tua esperienza utente, si basano su concetti a volte complessi, che cercheremo di rendere accessibili. Insieme semplificheremo questa difficoltà!
 
-Prima di immergerci nei dettagli della costruzione e del funzionamento dei wallet Bitcoin, inizieremo con alcuni capitoli sulle primitive crittografiche da conoscere, necessarie per proseguire. Inizieremo con le funzioni hash crittografiche, fondamentali sia per i wallet sia per il protocollo Bitcoin stesso. Scoprirai le loro principali caratteristiche, le funzioni specifiche utilizzate in Bitcoin e, in un capitolo più tecnico, imparerai in dettaglio il funzionamento della regina delle funzioni hash: SHA256.
+Prima di immergerci nei dettagli della costruzione e del funzionamento dei wallet Bitcoin, inizieremo con alcuni capitoli sulle primitive crittografiche da conoscere, necessarie per proseguire. Inizieremo con le funzioni hash crittografiche, fondamentali sia per i wallet sia per il protocollo Bitcoin stesso. Scoprirai le loro principali caratteristiche, le funzioni specifiche utilizzate in Bitcoin e, in un capitolo più tecnico, imparerai in dettaglio il funzionamento della regina delle funzioni hash: [SHA256](https://planb.academy/resources/glossary/sha256).
 
 ![CYP201](assets/en/001.webp)
 
-Successivamente, discuteremo il funzionamento degli algoritmi di firma digitale che utilizzi ogni giorno per proteggere i tuoi UTXO. Bitcoin ne utilizza due: ECDSA e il protocollo Schnorr. Imparerai le primitive matematiche alla base di questi algoritmi e come garantiscono la sicurezza delle transazioni.
+Successivamente, discuteremo il funzionamento degli algoritmi di firma digitale che utilizzi ogni giorno per proteggere i tuoi UTXO. Bitcoin ne utilizza due: [ECDSA](https://planb.academy/resources/glossary/ecdsa) e il protocollo Schnorr. Imparerai le primitive matematiche alla base di questi algoritmi e come garantiscono la sicurezza delle transazioni.
 
 ![CYP201](assets/en/002.webp)
 
-Una volta acquisita una buona comprensione di questi elementi di crittografia, passeremo finalmente al cuore del corso: i wallet gerarchico-deterministici! Prima, c'è una sezione dedicata alle frasi mnemoniche, le sequenze di 12 o 24 parole che ti permettono di creare e ripristinare i wallet. Scoprirai come queste parole vengono generate da una fonte di entropia e come facilitano l'uso di Bitcoin.
+Una volta acquisita una buona comprensione di questi elementi di crittografia, passeremo finalmente al cuore del corso: i wallet gerarchico-deterministici! Prima, c'è una sezione dedicata alle frasi mnemoniche, le sequenze di 12 o 24 parole che ti permettono di creare e ripristinare i wallet. Scoprirai come queste parole vengono generate da una fonte di [entropia](https://planb.academy/resources/glossary/entropy) e come facilitano l'uso di Bitcoin.
 
 ![CYP201](assets/en/003.webp)
 
@@ -60,7 +60,7 @@ Questa tabella vi offre una traduzione dei principali termini inglesi utilizzati
 
 | Inglese         | Traduzione / Spiegazione                                                                           |
 | --------------- | -------------------------------------------------------------------------------------------------- |
-| *pubkey hash*   | Hash della chiave pubblica (usato per generare un indirizzo Bitcoin).                              |
+| *pubkey hash*   | Hash della [chiave pubblica](https://planb.academy/resources/glossary/public-key) (usato per generare un indirizzo Bitcoin).                              |
 | *public key*    | Chiave pubblica (serve a ricevere fondi, derivata dalla chiave privata).                           |
 | *signature*     | Firma digitale (prova crittografica che un messaggio proviene dal titolare di una chiave privata). |
 | *scriptPubKey*  | Script di blocco (definisce le condizioni per spendere un'uscita).                                 |
@@ -94,7 +94,7 @@ Questa tabella vi offre una traduzione dei principali termini inglesi utilizzati
 
 :::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
-Il primo tipo di algoritmi crittografici utilizzati in Bitcoin comprende le funzioni hash. Esse svolgono un ruolo essenziale a diversi livelli del protocollo e all'interno dei wallet. Scopriamo insieme cosa è una funzione hash, nonché come viene usata in Bitcoin.
+Il primo tipo di algoritmi crittografici utilizzati in Bitcoin comprende le funzioni hash. Esse svolgono un ruolo essenziale a diversi livelli del protocollo e all'interno dei wallet. Scopriamo insieme cosa è una [funzione hash](https://planb.academy/resources/glossary/hash-function), nonché come viene usata in Bitcoin.
 
 ### Definizione e Principio di Hashing
 
@@ -698,7 +698,7 @@ Il secondo processo crittografico utilizzato in Bitcoin coinvolge algoritmi di f
 Il termine "_wallet_" in Bitcoin può generare confusione tra i principianti. Ciò che viene chiamato wallet Bitcoin è un software che non detiene direttamente i tuoi bitcoin, a differenza di un portafoglio fisico che può contenere monete o banconote. I Bitcoin sono semplicemente unità di conto, le quali sono rappresentate da **UTXO** (_Unspent Transaction Outputs_, ovvero output di transazione non spesi), ciò che sono esattamente. Se questi output non sono spesi, significa che appartengono a un utente. Gli UTXO sono, in un certo senso, importi espressi di bitcoin, di dimensione variabile, appartenenti a un utente.
 
 Il protocollo Bitcoin è distribuito e opera senza un'autorità centrale. Pertanto non è come i registri bancari tradizionali, dove gli euro che ti appartengono sono semplicemente associati alla tua identità personale. Con Bitcoin gli UTXO ti appartengono perché sono protetti da condizioni di spesa specificate nel linguaggio Script. Per semplificare: esistono due tipi di script: lo script di blocco (_scriptPubKey_) che protegge un UTXO; e lo script di sblocco (_scriptSig_), che consente di sbloccare un UTXO e quindi spendere le unità di bitcoin che rappresenta.
-Le primissime transazioni Bitcoin prevedevano gli script P2PK, ovvero l'uso di una chiave pubblica per bloccare i fondi, specificando in uno _scriptPubKey_ che la persona che desiderava spendere questo UTXO doveva fornire una firma valida, fatta con la chiave privata corrispondente a questa chiave pubblica. Per sbloccare questo UTXO era quindi necessario fornire una firma valida nello _scriptSig_. Come suggeriscono i loro nomi, la chiave pubblica è nota a tutti poiché viene trasmessa sulla blockchain, mentre la chiave privata è nota solo al legittimo proprietario dei fondi.
+Le primissime transazioni Bitcoin prevedevano gli script P2PK, ovvero l'uso di una chiave pubblica per bloccare i fondi, specificando in uno _scriptPubKey_ che la persona che desiderava spendere questo UTXO doveva fornire una firma valida, fatta con la [chiave privata](https://planb.academy/resources/glossary/private-key) corrispondente a questa chiave pubblica. Per sbloccare questo UTXO era quindi necessario fornire una firma valida nello _scriptSig_. Come suggeriscono i loro nomi, la chiave pubblica è nota a tutti poiché viene trasmessa sulla blockchain, mentre la chiave privata è nota solo al legittimo proprietario dei fondi.
 Questa è l'operazione di base di Bitcoin ma, nel tempo, è diventata più complessa. In primo luogo, Satoshi ha introdotto anche gli script P2PKH, che utilizzano un indirizzo di ricezione nello _scriptPubKey_, il quale rappresenta l'hash della chiave pubblica. Poi il sistema è diventato ancora più complesso, con l'arrivo di SegWit prima e di Taproot poi. Il principio generale rimane tuttavia lo stesso: una chiave pubblica, o una rappresentazione di essa, viene utilizzata per bloccare gli UTXO, poi una chiave privata corrispondente è necessaria per sbloccarli e quindi spenderli.
 
 Un utente che desidera effettuare una transazione Bitcoin deve quindi creare una firma digitale utilizzando la propria chiave privata per la transazione in questione. La firma può essere verificata da altri partecipanti alla rete. Se è valida, ciò significa che l'utente che inizia la transazione è effettivamente il proprietario della chiave privata e, quindi, il proprietario dei bitcoin che desidera spendere. Altri utenti possono quindi accettare e propagare la transazione.

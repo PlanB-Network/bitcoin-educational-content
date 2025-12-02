@@ -4,8 +4,8 @@ goal: Upptäck grunderna av Bitcoin, inklusive dess monetära värde, miners, tr
 objectives: 
   - Få en allmän förståelse för Bitcoin-tekniken
   - Förstå hur man köper och säkrar bitcoins
-  - Få en allmän förståelse för Blockchain-tekniken
-  - Bekanta dig med konceptet Lightning Network
+  - Få en allmän förståelse för [Blockchain](https://planb.academy/resources/glossary/blockchain)-tekniken
+  - Bekanta dig med konceptet [Lightning Network](https://planb.academy/resources/glossary/lightning-network)
   - Inse den geopolitiska och sociala effekten av Bitcoin
 
 ---
@@ -28,7 +28,7 @@ Välkommen till BTC101-kursen!
 
 Bitcoin är en teknologisk och monetär revolution, kapabel att få oss att ifrågasätta vår relation till pengar och samhälle. Faktum är att Bitcoin (som kallas BTC) är en neutral och decentraliserad valuta, vilket betyder att den inte kontrolleras av någon enhet eller institution. Det är en innovation som går bortom enbart en "internetvaluta": det är både ett datorprotokoll (Bitcoin) och en monetär enhet (bitcoin).
 
-Bitcoin-protokollet använder underliggande teknologier som kryptografi, nätverkskommunikation och den berömda "blockchain", medan bitcoin-enheten fungerar som den nödvändiga valutan för att detta protokoll ska fungera korrekt. I vardagen använder salvadoraner och bitcoin-användare runt om i världen bitcoin-valutan för att köpa och sälja varor och tjänster, och förlitar sig på denna teknologi för att förbättra sina liv.
+Bitcoin-protokollet använder underliggande teknologier som [kryptografi](https://planb.academy/resources/glossary/cryptography), nätverkskommunikation och den berömda "blockchain", medan bitcoin-enheten fungerar som den nödvändiga valutan för att detta protokoll ska fungera korrekt. I vardagen använder salvadoraner och bitcoin-användare runt om i världen bitcoin-valutan för att köpa och sälja varor och tjänster, och förlitar sig på denna teknologi för att förbättra sina liv.
 
 ### En omfattande men ändå lättillgänglig läroplan
 
@@ -488,7 +488,7 @@ Portföljer kan således kategoriseras i breda användningsområden, som alltid 
 
 ### Hur fungerar en Bitcoin-plånbok?
 
-Oavsett om det är din Bitcoin-"bankman" eller du själv, arbetar de allra flesta Bitcoin-plånböcker med en liknande teknik baserad på asymmetrisk kryptografi, vilket innebär ett system med nyckelpar: en privat nyckel för spenderande och en offentlig nyckel för mottagande.
+Oavsett om det är din Bitcoin-"bankman" eller du själv, arbetar de allra flesta Bitcoin-plånböcker med en liknande teknik baserad på asymmetrisk kryptografi, vilket innebär ett system med nyckelpar: en [privat nyckel](https://planb.academy/resources/glossary/private-key) för spenderande och en [offentlig nyckel](https://planb.academy/resources/glossary/public-key) för mottagande.
 
 
 - Privat nyckel
@@ -858,7 +858,7 @@ Efter denna seger aktiverade noderna en uppdatering kallad SegWit, vilket banade
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Miners säkrar nätverket och lägger till transaktioner i blocken. De använder elektricitet genom ASIC-maskiner för att lösa Bitcoins proof of work.**
+**Miners säkrar nätverket och lägger till transaktioner i blocken. De använder elektricitet genom [ASIC](https://planb.academy/resources/glossary/asic)-maskiner för att lösa Bitcoins proof of work.**
 
 ![image](assets/sv/054.webp)
 
@@ -916,7 +916,7 @@ För att stabilisera sin affärsmodell, som är beroende av de belöningar de f�
 
 ### Varför bry sig om att göra allt detta?
 
-Kort sagt är innovationen med Bitcoin att föreslå en lösning på problemet med dubbelspendering genom att använda en blockkedja baserad på Proof of Work med en varierande svårighet. I den digitala världen skiljer sig konceptet om ägande från den fysiska världen. I själva verket kan allt kopieras och klistras in i den digitala världen, vilket skapar en risk för att digitala tillgångar av värde används flera gånger. Betrodda mellanhänder, t.ex. banker, har skapats för att lösa detta tekniska problem och säkerställa att en tillgång inte längre tillhör avsändaren när den överförs.
+Kort sagt är innovationen med Bitcoin att föreslå en lösning på problemet med dubbelspendering genom att använda en blockkedja baserad på Proof of Work med en varierande [svårighet](https://planb.academy/resources/glossary/difficulty). I den digitala världen skiljer sig konceptet om ägande från den fysiska världen. I själva verket kan allt kopieras och klistras in i den digitala världen, vilket skapar en risk för att digitala tillgångar av värde används flera gånger. Betrodda mellanhänder, t.ex. banker, har skapats för att lösa detta tekniska problem och säkerställa att en tillgång inte längre tillhör avsändaren när den överförs.
 
 Men hur kan detta göras utan en betrodd mellanhand? Detta problem beskrivs väl genom de bysantinska generalernas paradox, ett problem med att samordna information i ett system där olika aktörer inte går att lita på. I de bysantinska generalernas problem måste en grupp generaler samordna en attack mot en stad, men vissa kan vara förrädare som försöker störa planen. Utmaningen är att de lojala generalerna ska nå konsensus om huruvida de ska anfalla eller retirera, trots att de får potentiellt vilseledande meddelanden från förrädarna.
 

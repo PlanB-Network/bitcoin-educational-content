@@ -1,7 +1,7 @@
 ---
 name: JoinMarket
 
-description: Hướng dẫn và hướng dẫn cách sử dụng JoinMarket để thực hiện CoinJoin trên Bitcoin thông qua dòng lệnh
+description: Hướng dẫn và hướng dẫn cách sử dụng JoinMarket để thực hiện [CoinJoin](https://planb.academy/resources/glossary/coinjoin) trên Bitcoin thông qua dòng lệnh
 ---
 
 ![cover](assets/cover.webp)

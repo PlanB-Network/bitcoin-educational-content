@@ -5,7 +5,7 @@ description: Introdcution à Public Pool
 
 ![signup](assets/cover.webp)
 
-**Public Pool** n’est pas une pool comme les autres, c'est ce qu'on appelle également une **Solo Pool**. Si votre mineur réussit à miner un bloc, alors vous récupérez toute la récompense de bloc, elle n'est pas partagée avec les autres participants de la pool ni avec la pool elle-même.
+**Public Pool** n’est pas une pool comme les autres, c'est ce qu'on appelle également une **Solo Pool**. Si votre [mineur](https://planb.academy/resources/glossary/miner) réussit à miner un bloc, alors vous récupérez toute la récompense de bloc, elle n'est pas partagée avec les autres participants de la pool ni avec la pool elle-même.
 
 **Public Pool** sert uniquement à fournir un **bloc template** à votre mineur pour que celui-ci puisse effectuer son travail, sans que vous ayez besoin d'avoir un **noeud Bitcoin** et le logiciel qui communique avec votre mineur. Étant donné que vous ne mutualisez pas votre puissance de calcul avec celle des autres participants, vos chances de réussir à miner un bloc sont évidemment très faibles, il s'agit un peu d'un système de loterie, où parfois un heureux chanceux gagne le gros lot.
 
@@ -15,7 +15,7 @@ Sur le **Dashboard** de **Public Pool**, vous avez tout de même quelques statis
 
 ![signup](assets/2.webp)
 
-Dans les premières lignes, on peut voir **Bitaxe** avec 1323 **Bitaxe** connectés pour un total de 649TH/s. Le **Bitaxe** est un projet **Open source** qui permet de réutiliser simplement une puce d'un **ASIC** comme le **Antminer S19** sur une carte électronique **opensource** pour fabriquer un tout petit mineur de 0,5TH/s pour 15W. C’est ce mineur que nous allons utiliser comme exemple pour ce tutoriel.
+Dans les premières lignes, on peut voir **Bitaxe** avec 1323 **Bitaxe** connectés pour un total de 649TH/s. Le **Bitaxe** est un projet **Open source** qui permet de réutiliser simplement une puce d'un **[ASIC](https://planb.academy/resources/glossary/asic)** comme le **Antminer S19** sur une carte électronique **opensource** pour fabriquer un tout petit mineur de 0,5TH/s pour 15W. C’est ce mineur que nous allons utiliser comme exemple pour ce tutoriel.
 
 ## Ajouter un **Worker** 👷‍♂️
 
@@ -58,7 +58,7 @@ Sur le **Dashboard**, différentes informations sont affichées à la fois sur v
 
 Vous avez **Network Hash Rate** qui correspond à la puissance de travail totale du réseau **Bitcoin**.
 
-La **Network Difficulty** indique la difficulté qu'il faut atteindre pour valider un bloc.
+La **Network Difficulty** indique la [difficulté](https://planb.academy/resources/glossary/difficulty) qu'il faut atteindre pour valider un bloc.
 
 Et **Your Best Difficulty** est la difficulté la plus élevée que vous avez atteinte. Si, par chance 🍀, vous atteignez la difficulté du réseau, alors vous remportez toute la récompense de bloc... après 100 blocs. Il faudrait attendre 100 blocs avant de pouvoir les dépenser.
 

@@ -1,5 +1,5 @@
 ---
-name: Ashigaru - Whirlpool Coinjoin
+name: Ashigaru - Whirlpool [Coinjoin](https://planb.academy/resources/glossary/coinjoin)
 description: Je, ninawezaje kufanya coinjoins kwenye programu ya Ashigaru?
 ---
 

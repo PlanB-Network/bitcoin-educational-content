@@ -5,7 +5,7 @@ objectives:
 - Bitcoin에서 사용되는 암호화 알고리즘을 이해하는 데 필요한 이론적 개념을 정의합니다.
 - 결정론적이고 계층적인 Wallet의 구조를 완전히 이해합니다.
 - Wallet 관리와 관련된 위험을 식별하고 줄이는 방법을 알아두세요.
-- Hash 기능, 암호화 키 및 디지털 서명의 원리를 이해합니다.
+- [Hash 기능](https://planb.academy/resources/glossary/hash-function), 암호화 키 및 디지털 서명의 원리를 이해합니다.
 ---
 
 # Bitcoin 지갑의 심장부로 떠나는 여행
@@ -47,7 +47,7 @@ HD Bitcoin 지갑의 작동 원리를 심도 있게 살펴보는 CYP201 강좌�
 
 Bitcoin 지갑의 구성과 운영에 대해 자세히 알아보기 전에, 다음 내용을 위해 알아야 할 암호화 기본 요소에 대한 몇 가지 장부터 살펴보겠습니다.
 
-지갑과 Bitcoin 프로토콜 자체의 기본인 암호화 Hash 기능부터 시작하겠습니다. 주요 특징과 Bitcoin에서 사용되는 특정 기능을 알아보고, 보다 기술적인 장에서는 Hash 기능의 여왕의 작동 방식에 대해 자세히 알아볼 것입니다: SHA256.
+지갑과 Bitcoin 프로토콜 자체의 기본인 암호화 Hash 기능부터 시작하겠습니다. 주요 특징과 Bitcoin에서 사용되는 특정 기능을 알아보고, 보다 기술적인 장에서는 Hash 기능의 여왕의 작동 방식에 대해 자세히 알아볼 것입니다: [SHA256](https://planb.academy/resources/glossary/sha256).
 
 
 ![CYP201](assets/en/001.webp)
@@ -84,18 +84,18 @@ Bitcoin 지갑의 구성과 운영에 대해 자세히 알아보기 전에, 다�
 
 | 영어            | 번역 / 설명                                                                                        |
 | --------------- | -------------------------------------------------------------------------------------------------- |
-| *pubkey hash*   | 공개 키 해시 (비트코인 주소를 생성하는 데 사용됨).                                                |
+| *pubkey hash*   | [공개 키](https://planb.academy/resources/glossary/public-key) 해시 (비트코인 주소를 생성하는 데 사용됨).                                                |
 | *public key*    | 공개 키 (자금을 받는 데 사용되며, 개인 키에서 파생됨).                                              |
-| *signature*     | 디지털 서명 (메시지가 개인 키 소유자로부터 왔음을 증명하는 암호학적 증거).                          |
+| *signature*     | 디지털 서명 (메시지가 [개인 키](https://planb.academy/resources/glossary/private-key) 소유자로부터 왔음을 증명하는 암호학적 증거).                          |
 | *scriptPubKey*  | 잠금 스크립트 (출력을 사용하기 위한 조건을 정의함).                                                  |
 | *scriptSig*     | 잠금 해제 스크립트 (*scriptPubKey*를 충족시키기 위한 데이터를 제공함).                              |
 | *Stack*         | 스택 ( *Bitcoin Script*에서 사용하는 데이터 구조).                                                  |
-| *input*         | 트랜잭션 입력 (출처로 사용되는 이전 출력에 대한 참조).                                              |
+| *input*         | 트랜잭션 [입력](https://planb.academy/resources/glossary/entropy) (출처로 사용되는 이전 출력에 대한 참조).                                              |
 | *output*        | 트랜잭션 출력 (수신자와 금액을 정의함).                                                             |
 | *transaction*   | 비트코인 트랜잭션 (전송을 검증하는 입력과 출력의 집합).                                              |
 | *XOR*           | 논리 연산자 "배타적 OR", 일부 암호화 체계에서 사용됨.                                               |
 | *HMAC*          | 해시와 비밀 키를 기반으로 한 메시지 인증 코드.                                                      |
-| *ECDSA*         | 타원 곡선 디지털 서명 알고리즘.                                                                     |
+| *[ECDSA](https://planb.academy/resources/glossary/ecdsa)*         | 타원 곡선 디지털 서명 알고리즘.                                                                     |
 | *hash*          | 해시 (데이터의 고유하고 고정된 지문).                                                               |
 | *SigHash*       | 서명 해시 유형 (트랜잭션의 어떤 부분이 서명되는지 정의함).                                          |
 | *HD Wallet*     | 계층적 결정론적 지갑 (하나의 시드에서 여러 키를 생성함).                                            |

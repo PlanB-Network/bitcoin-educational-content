@@ -35,10 +35,10 @@ Velkommen til CYP201-kurset, hvor vi vil utforske HD Bitcoin-lommebøker i dybde
 Målet med denne opplæringen er å gi deg nøklene til å mestre verktøyene du bruker daglig. HD Bitcoin-lommebøker, som er i hjertet av brukeropplevelsen din, er basert på noen ganger komplekse konsepter, som vi vil forsøke å gjøre tilgjengelige. Sammen vil vi avmystifisere dem!
 
 Før vi dykker ned i detaljene om konstruksjonen og driften av Bitcoin-lommebøker, vil vi starte med noen kapitler om de kryptografiske primitivene å vite for det som følger.
-Vi starter med kryptografiske hash-funksjoner, grunnleggende for både lommebøker og Bitcoin-protokollen selv. Du vil oppdage deres viktigste egenskaper, de spesifikke funksjonene brukt i Bitcoin, og i et mer teknisk kapittel, vil du lære i detalj om arbeidet til dronningen av hash-funksjoner: SHA256.
+Vi starter med kryptografiske hash-funksjoner, grunnleggende for både lommebøker og Bitcoin-protokollen selv. Du vil oppdage deres viktigste egenskaper, de spesifikke funksjonene brukt i Bitcoin, og i et mer teknisk kapittel, vil du lære i detalj om arbeidet til dronningen av hash-funksjoner: [SHA256](https://planb.academy/resources/glossary/sha256).
 ![CYP201](assets/en/001.webp)
 
-Deretter vil vi diskutere driften av digitale signaturalgoritmer som du bruker hver dag for å sikre dine UTXOer. Bitcoin bruker to: ECDSA og Schnorr-protokollen. Du vil lære hvilke matematiske primitiver som ligger til grunn for disse algoritmene og hvordan de sikrer transaksjonenes sikkerhet.
+Deretter vil vi diskutere driften av digitale signaturalgoritmer som du bruker hver dag for å sikre dine UTXOer. Bitcoin bruker to: [ECDSA](https://planb.academy/resources/glossary/ecdsa) og Schnorr-protokollen. Du vil lære hvilke matematiske primitiver som ligger til grunn for disse algoritmene og hvordan de sikrer transaksjonenes sikkerhet.
 
 ![CYP201](assets/en/002.webp)
 
@@ -58,7 +58,7 @@ Denne tabellen gir deg en oversettelse av de viktigste engelske termene som bruk
 
 | Engelsk         | Oversettelse / Forklaring                                                                          |
 | --------------- | -------------------------------------------------------------------------------------------------- |
-| *pubkey hash*   | Offentlig nøkkel-hash (brukes til å generere en Bitcoin-adresse).                                   |
+| *pubkey hash*   | [Offentlig nøkkel](https://planb.academy/resources/glossary/public-key)-hash (brukes til å generere en Bitcoin-adresse).                                   |
 | *public key*    | Offentlig nøkkel (brukes til å motta midler, avledet fra den private nøkkelen).                     |
 | *signature*     | Digital signatur (kryptografisk bevis på at en melding kommer fra innehaveren av en privat nøkkel). |
 | *scriptPubKey*  | Låseskript (definerer betingelsene for å bruke en utgang).                                          |
@@ -75,7 +75,7 @@ Denne tabellen gir deg en oversettelse av de viktigste engelske termene som bruk
 | *HD Wallet*     | Hierarkisk deterministisk lommebok (genererer flere nøkler fra ett frø).                            |
 | *Random Number* | Tilfeldig tall (brukes til å generere sikre private nøkler).                                        |
 | *State*         | Tilstand (mellomverdi i en kryptografisk prosess).                                                  |
-| *Entropy*       | Entropi (mål på tilfeldighet, brukt til å generere frø til lommebøker).                             |
+| *[Entropy](https://planb.academy/resources/glossary/entropy)*       | Entropi (mål på tilfeldighet, brukt til å generere frø til lommebøker).                             |
 | *Mnemonic*      | Mnemonisk (rekke ord som forenkler sikkerhetskopiering og gjenoppretting av et frø).                |
 | *Wordlist*      | Ordsliste (forhåndsdefinert sett brukt til å generere BIP39-mnemonikker).                          |
 | *Seed*          | Frø (initialverdi som gjør det mulig å avlede alle nøklene i en HD-lommebok).                      |
@@ -653,7 +653,7 @@ Begrepet "_lommebok_" i Bitcoin kan være ganske forvirrende for nybegynnere. Fa
 
 Bitcoin-protokollen er distribuert og opererer uten en sentral autoritet. Derfor er den ikke som tradisjonelle bankposter, hvor euroene som tilhører deg er enkelt assosiert med din personlige identitet. På Bitcoin tilhører dine UTXOer deg fordi de er beskyttet av brukerbetingelser spesifisert i Script-språket. For å forenkle, det finnes to typer skript: låseskriptet (_scriptPubKey_), som beskytter en UTXO, og opplåsingsskriptet (_scriptSig_), som tillater opplåsing av en UTXO og dermed bruk av bitcoin-enhetene den representerer.
 Den opprinnelige operasjonen av Bitcoin med P2PK-skript involverer bruk av en offentlig nøkkel for å låse midler, og spesifiserer i et _scriptPubKey_ at personen som ønsker å bruke denne UTXOen må gi en gyldig signatur med den private nøkkelen som tilsvarer denne offentlige nøkkelen. For å låse opp denne UTXOen, er det derfor nødvendig å gi en gyldig signatur i _scriptSig_. Som navnene antyder, er den offentlige nøkkelen kjent for alle siden den er kringkastet på blokkjeden, mens den private nøkkelen bare er kjent for den legitime eieren av midlene.
-Dette er den grunnleggende operasjonen av Bitcoin, men over tid har denne operasjonen blitt mer kompleks. Først introduserte Satoshi også P2PKH-skript, som bruker en mottaksadresse i _scriptPubKey_, som representerer hashen av den offentlige nøkkelen. Deretter ble systemet enda mer komplekst med ankomsten av SegWit og deretter Taproot. Imidlertid forblir det generelle prinsippet grunnleggende det samme: en offentlig nøkkel eller en representasjon av denne nøkkelen brukes til å låse UTXOer, og en tilsvarende privat nøkkel kreves for å låse dem opp og dermed bruke dem.
+Dette er den grunnleggende operasjonen av Bitcoin, men over tid har denne operasjonen blitt mer kompleks. Først introduserte Satoshi også P2PKH-skript, som bruker en mottaksadresse i _scriptPubKey_, som representerer hashen av den offentlige nøkkelen. Deretter ble systemet enda mer komplekst med ankomsten av SegWit og deretter Taproot. Imidlertid forblir det generelle prinsippet grunnleggende det samme: en offentlig nøkkel eller en representasjon av denne nøkkelen brukes til å låse UTXOer, og en tilsvarende [privat nøkkel](https://planb.academy/resources/glossary/private-key) kreves for å låse dem opp og dermed bruke dem.
 En bruker som ønsker å utføre en Bitcoin-transaksjon må derfor opprette en digital signatur ved hjelp av sin private nøkkel på den aktuelle transaksjonen. Signaturen kan verifiseres av andre nettverksdeltakere. Hvis den er gyldig, betyr dette at brukeren som initierer transaksjonen faktisk er eieren av den private nøkkelen, og derfor eieren av bitcoinene de ønsker å bruke. Andre brukere kan deretter akseptere og formidle transaksjonen.
 Som et resultat må en bruker som eier bitcoins låst med en offentlig nøkkel finne en måte å sikkert lagre det som tillater opplåsing av deres midler: den private nøkkelen. En Bitcoin-lommebok er nettopp en enhet som vil tillate deg å enkelt holde alle nøklene dine uten at andre mennesker har tilgang til dem. Det er derfor mer som en nøkkelring enn en lommebok.
 

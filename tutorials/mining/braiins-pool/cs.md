@@ -8,7 +8,7 @@ description: Úvod do Braiins Pool
 
 Braiins Pool, dříve známý jako Slush Pool, je první Bitcoinový těžební pool. Byl založen v listopadu 2010 a svůj první blok vytěžil 16. prosince 2010, blok 97834.
 
-Května 2024 má Braiins Pool výpočetní výkon 13 EH/s, což představuje asi 1,8% celkového hashrate Bitcoinu. Celkem vytěžil 1 307 188 bitcoinů, což je přibližně 6% z maximálních 21 milionů bitcoinů, které kdy budou existovat.
+Května 2024 má Braiins Pool výpočetní výkon 13 EH/s, což představuje asi 1,8% celkového [hashrate](https://planb.academy/resources/glossary/hashrate) Bitcoinu. Celkem vytěžil 1 307 188 bitcoinů, což je přibližně 6% z maximálních 21 milionů bitcoinů, které kdy budou existovat.
 
 ### Systém odměn
 

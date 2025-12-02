@@ -7,7 +7,7 @@ description: How to properly label your UTXO?
 In this tutorial, you will discover everything you need to know about labeling UTXOs in your Bitcoin wallet and about coin control. We start with a theoretical section to fully understand these concepts, before moving on to a practical part where we explore how to concretely use labels in the main Bitcoin wallet software.
 
 ## What is UTXO labelling?
-"Labelling" is a technique that involves associating an annotation or label with a specific [UTXO](https://planb.academy/en/resources/glossary/utxo) within a Bitcoin wallet. These annotations are stored locally by the wallet software and are never transmitted over the Bitcoin network. Labelling is thus a tool for personal management.
+"Labelling" is a technique that involves associating an annotation or label with a specific [UTXO](https://planb.academy/resources/glossary/utxo) within a Bitcoin wallet. These annotations are stored locally by the wallet software and are never transmitted over the Bitcoin network. Labelling is thus a tool for personal management.
 
 For example, if I receive a UTXO from a P2P transaction via Bisq with Charles, I could assign it the label `Bisq P2P Purchase Charles`.
 
@@ -15,7 +15,7 @@ Labelling allows one to remember the origin or intended destination of the UTXO,
 
 Using a wallet with coin control, coupled with UTXO labelling, allows users to precisely distinguish and select UTXOs for their transactions, thus avoiding merging UTXOs from different sources. This practice reduces the risks associated with the Common Input Ownership Heuristic (CIOH), which suggests common ownership of the inputs of a transaction, which can compromise the user's privacy.
 
-Let's go back to the example of my no-[KYC](https://planb.academy/en/resources/glossary/kyc-know-your-customer) UTXO from Bisq; I want to avoid combining it with a UTXO coming, say, from a regulated exchange platform that knows my identity. By placing a distinct label on my no-KYC UTXO and on my KYC UTXO, I will be able to easily identify which UTXO to consume as input to satisfy a spending, using the coin control functionality.
+Let's go back to the example of my no-[KYC](https://planb.academy/resources/glossary/kyc-know-your-customer) UTXO from Bisq; I want to avoid combining it with a UTXO coming, say, from a regulated exchange platform that knows my identity. By placing a distinct label on my no-KYC UTXO and on my KYC UTXO, I will be able to easily identify which UTXO to consume as input to satisfy a spending, using the coin control functionality.
 
 ## How to properly label your UTXO?
 There is no universal method for labelling UTXOs that suits everyone. It's up to you to define a labelling system so that you can easily find your way around your wallet.

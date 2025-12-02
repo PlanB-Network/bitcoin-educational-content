@@ -16,7 +16,7 @@ Ocean Mining is een enigszins unieke Mining pool. Hier zijn geen accounts, e-mai
 ### Compensatiesysteem
 
 
-Het vergoedingssysteem van Ocean heet TIDES, "Transparent Index of Distinct Extended Shares". Dit systeem registreert het werk van de miners, bekend als "shares". De pool berekent het percentage "aandelen" voor elke bijdrager en voegt vervolgens hun Bitcoin Address toe aan de bloksjabloon van de pool als begunstigde van dit percentage van de Block reward.
+Het vergoedingssysteem van Ocean heet TIDES, "Transparent Index of Distinct Extended Shares". Dit systeem registreert het werk van de miners, bekend als "shares". De pool berekent het percentage "aandelen" voor elke bijdrager en voegt vervolgens hun Bitcoin Address toe aan de bloksjabloon van de pool als begunstigde van dit percentage van de [Block reward](https://planb.academy/resources/glossary/block-reward).
 
 
 Het blokkensjabloon wordt ongeveer elke 10 seconden bijgewerkt om rekening te houden met de meest lucratieve nieuwe transacties en om de verdeling van de Block reward te wijzigen als dat nodig is.
@@ -210,7 +210,7 @@ Hier kun je zien dat in het vak **Estimated Time Until Minimum Payout** staat Li
 Zoals je hebt begrepen, streeft Ocean naar maximale transparantie en minimale bewaring (het voor jou bewaren van je Sats).
 
 
-Daarom is het voor Lightning-opnames nodig om **BOLT12-aanbiedingen** te gebruiken. Dit is een nieuwe manier van betalen op de Lightning Network die in 2024 opkomt en verschillende dingen mogelijk maakt:
+Daarom is het voor Lightning-opnames nodig om **BOLT12-aanbiedingen** te gebruiken. Dit is een nieuwe manier van betalen op de [Lightning Network](https://planb.academy/resources/glossary/lightning-network) die in 2024 opkomt en verschillende dingen mogelijk maakt:
 
 
 - Het is een herbruikbare betaallink, waardoor automatische betalingen mogelijk zijn en, in tegenstelling tot een Lightning Address, is de BOLT12 niet ongeldig.

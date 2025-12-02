@@ -262,7 +262,7 @@ Innan du klickar på en länk eller vidtar någon åtgärd ska du alltid dubbelk
 #### Bitcoin hårda gafflar
 
 
-Under åren har Bitcoin upplevt flera *Hard forks*, vilket resulterade i skapandet av alternativa versioner av den ursprungliga kryptovalutan. Enkelt uttryckt är en *Hard Fork* en splittring i nätverket som leder till två separata blockkedjor, som båda delar samma historia fram till splittringsögonblicket. Dessa förgreningar sker vanligtvis när en del av utvecklargemenskapen eller det bredare Bitcoin-ekosystemet vill införa stora förändringar i det ursprungliga protokollet men inte kan nå ett brett samförstånd. Istället för att överge sina idéer bestämmer de sig för att lansera en ny version av Bitcoin (med ändrade regler) och hoppas att användare och miners ska välja att följa deras Fork istället.
+Under åren har Bitcoin upplevt flera *Hard forks*, vilket resulterade i skapandet av alternativa versioner av den ursprungliga kryptovalutan. Enkelt uttryckt är en *Hard [Fork](https://planb.academy/resources/glossary/fork)* en splittring i nätverket som leder till två separata blockkedjor, som båda delar samma historia fram till splittringsögonblicket. Dessa förgreningar sker vanligtvis när en del av utvecklargemenskapen eller det bredare Bitcoin-ekosystemet vill införa stora förändringar i det ursprungliga protokollet men inte kan nå ett brett samförstånd. Istället för att överge sina idéer bestämmer de sig för att lansera en ny version av Bitcoin (med ändrade regler) och hoppas att användare och miners ska välja att följa deras Fork istället.
 
 
 ![image](assets/sv/011.webp)
@@ -1008,7 +1008,7 @@ Bitcoin gör det möjligt för vem som helst att kontrollera riktigheten i Block
 #### En motståndskraftig, gränsöverskridande betalningsmetod
 
 
-På grund av sin decentraliserade natur fungerar Bitcoin dygnet runt, oberoende av gränser eller tidszoner. I regioner där traditionell bankinfrastruktur saknas används Bitcoin ofta som en snabb och billig lösning för att skicka eller ta emot pengar utan att förlita sig på dyra mellanhänder. Även om transaktionsavgifterna kan variera beroende på överbelastning i nätverket är de i allmänhet mycket lägre än de avgifter som bankerna tar ut för internationella överföringar. Layer-2-lösningar som Lightning Network möjliggör dessutom ännu snabbare och billigare Bitcoin-transaktioner.
+På grund av sin decentraliserade natur fungerar Bitcoin dygnet runt, oberoende av gränser eller tidszoner. I regioner där traditionell bankinfrastruktur saknas används Bitcoin ofta som en snabb och billig lösning för att skicka eller ta emot pengar utan att förlita sig på dyra mellanhänder. Även om transaktionsavgifterna kan variera beroende på överbelastning i nätverket är de i allmänhet mycket lägre än de avgifter som bankerna tar ut för internationella överföringar. Layer-2-lösningar som [Lightning Network](https://planb.academy/resources/glossary/lightning-network) möjliggör dessutom ännu snabbare och billigare Bitcoin-transaktioner.
 
 
 #### En värdebevarare
@@ -1539,7 +1539,7 @@ Bitcoin Wallet-branschen är indelad i flera kategorier, som var och en tillgodo
 
 
 
-- **Hardware Wallet Tillverkare**: Dessa företag utvecklar fysiska enheter som är utformade för säker lagring av nycklar. Vissa har öppen källkod, medan andra erbjuder proprietära lösningar med varierande funktioner och säkerhetsnivåer. Anmärkningsvärda namn inkluderar Ledger, Trezor, Coinkite, Foundation och Shiftcrypto.
+- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Tillverkare**: Dessa företag utvecklar fysiska enheter som är utformade för säker lagring av nycklar. Vissa har öppen källkod, medan andra erbjuder proprietära lösningar med varierande funktioner och säkerhetsnivåer. Anmärkningsvärda namn inkluderar Ledger, Trezor, Coinkite, Foundation och Shiftcrypto.
 - **Software Wallet-utvecklare**: Dessa omfattar allt från företag till oberoende utvecklare som skapar mobila och stationära applikationer. Deras erbjudanden varierar i användarupplevelse, säkerhet och funktioner. Exempel på detta är Sparrow, Wizard Sardine, Galoy, Synonym och Blockstream.
 - DIY (*Do It Yourself*)-plånböcker: Dessa lösningar med öppen källkod är utformade för avancerade användare som vill ha full kontroll och minimalt beroende av tredje part. Att bygga din egen Wallet minskar förtroendeberoenden och kan öka din säkerhetsställning. Anmärkningsvärda DIY-alternativ inkluderar Seedsigner och Specter DIY.
 
@@ -1670,7 +1670,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 RGB är ett decentraliserat och integritetsfokuserat Smart contract-system som är utformat för att fungera ovanpå Bitcoin och Lightning Network. Till skillnad från traditionella Smart contract-plattformar använder RGB en Client-side Validation-modell (vilket innebär att hela Contract State lagras off-chain och att endast kryptografiska åtaganden publiceras till Bitcoin Blockchain). Denna design förbättrar både skalbarheten och integriteten. Med RGB kan användare skapa avancerade smarta kontrakt för att utfärda tokens, NFT:er, decentraliserade identiteter eller till och med DeFi-applikationer, direkt på Bitcoin eller Lightning.
 
 
-En viktig egenskap hos RGB är dess skydd mot Double-spending, vilket uppnås med hjälp av en kryptografisk teknik som kallas Single-use Seals. Denna mekanism bygger på det faktum att Bitcoin:s UTXO:er (Unspent Transaction Outputs) endast kan användas en gång. Tokens äkthet säkerställs genom validering på användarsidan av Contract:s hela historik (från dess skapande till dess nuvarande tillstånd).
+En viktig egenskap hos RGB är dess skydd mot Double-spending, vilket uppnås med hjälp av en kryptografisk teknik som kallas Single-use Seals. Denna mekanism bygger på det faktum att Bitcoin:s [UTXO](https://planb.academy/resources/glossary/utxo):er (Unspent Transaction Outputs) endast kan användas en gång. Tokens äkthet säkerställs genom validering på användarsidan av Contract:s hela historik (från dess skapande till dess nuvarande tillstånd).
 
 
 ![image](assets/sv/062.webp)
@@ -1702,7 +1702,7 @@ Idag finns det gott om verktyg tillgängliga för handlare som vill acceptera Bi
 Om du föredrar en praktisk lösning och vill ta emot fiatvaluta direkt till ditt bankkonto erbjuder depåtjänster som OpenNode en strömlinjeformad upplevelse:
 
 
-https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-[node](https://planb.academy/resources/glossary/node)-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 För handlare som är mer tekniskt benägna och vill ha full kontroll över processen är BTCPay Server ett fantastiskt alternativ med öppen källkod. Den största nackdelen är att det kräver tid att ställa in och underhålla, tillsammans med viss teknisk kunskap:
 
@@ -1866,7 +1866,7 @@ Ditt dagliga liv spelar också en stor roll i hur du kommer att hantera dina bit
 **Välj enkla, automatiserade lösningar, t.ex. schemalagda inköp som automatiskt överförs till säker förvaring.**
 
 
-**Du kanske föredrar mer avancerade lösningar som Multisig-plånböcker som erbjuder större kontroll och säkerhet.**
+**Du kanske föredrar mer avancerade lösningar som [Multisig](https://planb.academy/resources/glossary/multisig)-plånböcker som erbjuder större kontroll och säkerhet.**
 
 
 **Investera för nära och kära eller framtida generationer? Tänk tidigt på arv.** Det finns sätt att se till att dina bitcoins kan föras vidare på ett säkert sätt om något händer dig.

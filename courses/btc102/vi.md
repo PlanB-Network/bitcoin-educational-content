@@ -263,7 +263,7 @@ Trước khi nhấp vào liên kết hoặc thực hiện bất kỳ hành độ
 #### Bitcoin Hardfork
 
 
-Trong những năm qua, Bitcoin đã trải qua một số lần phân nhánh *Hard*, dẫn đến việc tạo ra các phiên bản thay thế của đồng tiền điện tử gốc. Nói một cách đơn giản, *Hard Fork* là một sự phân tách trong mạng lưới dẫn đến hai blockchain riêng biệt, cả hai đều có cùng lịch sử cho đến thời điểm phân tách. Những đợt phân tách này thường xảy ra khi một phần của cộng đồng nhà phát triển hoặc hệ sinh thái Bitcoin nói chung muốn đưa ra những thay đổi lớn cho giao thức gốc nhưng không đạt được sự đồng thuận rộng rãi. Thay vì từ bỏ ý tưởng của mình, họ quyết định ra mắt phiên bản Bitcoin mới (với các quy tắc được thay đổi) với hy vọng rằng người dùng và thợ đào sẽ chọn làm theo Fork của họ.
+Trong những năm qua, Bitcoin đã trải qua một số lần phân nhánh *Hard*, dẫn đến việc tạo ra các phiên bản thay thế của đồng tiền điện tử gốc. Nói một cách đơn giản, *Hard [Fork](https://planb.academy/resources/glossary/fork)* là một sự phân tách trong mạng lưới dẫn đến hai blockchain riêng biệt, cả hai đều có cùng lịch sử cho đến thời điểm phân tách. Những đợt phân tách này thường xảy ra khi một phần của cộng đồng nhà phát triển hoặc hệ sinh thái Bitcoin nói chung muốn đưa ra những thay đổi lớn cho giao thức gốc nhưng không đạt được sự đồng thuận rộng rãi. Thay vì từ bỏ ý tưởng của mình, họ quyết định ra mắt phiên bản Bitcoin mới (với các quy tắc được thay đổi) với hy vọng rằng người dùng và thợ đào sẽ chọn làm theo Fork của họ.
 
 
 ![BTC102-Bitcoin](assets/vi/007.webp)
@@ -999,7 +999,7 @@ Mặc dù loại quản trị này có thể chậm và đôi khi lộn xộn, n
 #### Xác thực cá nhân: các nút
 
 
-Bitcoin cho phép bất kỳ ai kiểm tra độ chính xác của Blockchain bằng cách chạy một "node" trên máy tính hoặc máy chủ của họ. Điều này có nghĩa là tải xuống phần mềm Bitcoin core (hoặc phiên bản khác của giao thức Bitcoin) và xác minh tất cả các giao dịch và khối kể từ năm 2009. Sau khi node của bạn được thiết lập và đồng bộ hóa, nó sẽ trở thành bản sao đầy đủ của Blockchain và giúp hỗ trợ mạng.
+Bitcoin cho phép bất kỳ ai kiểm tra độ chính xác của Blockchain bằng cách chạy một "[node](https://planb.academy/resources/glossary/node)" trên máy tính hoặc máy chủ của họ. Điều này có nghĩa là tải xuống phần mềm Bitcoin core (hoặc phiên bản khác của giao thức Bitcoin) và xác minh tất cả các giao dịch và khối kể từ năm 2009. Sau khi node của bạn được thiết lập và đồng bộ hóa, nó sẽ trở thành bản sao đầy đủ của Blockchain và giúp hỗ trợ mạng.
 
 
 Mặc dù phương pháp này mang tính kỹ thuật hơn, nhưng nó cung cấp cho những người dùng khó tính nhất khả năng từ chối tin tưởng bên thứ ba. Việc vận hành một nút đảm bảo rằng người dùng có thể tham gia vào quá trình đồng thuận và không bị kiểm duyệt, góp phần trực tiếp vào tính bảo mật và phi tập trung của mạng lưới.
@@ -1011,7 +1011,7 @@ Mặc dù phương pháp này mang tính kỹ thuật hơn, nhưng nó cung cấ
 #### Một phương thức thanh toán xuyên biên giới linh hoạt
 
 
-Nhờ tính chất phi tập trung, Bitcoin hoạt động 24/7, không bị ảnh hưởng bởi biên giới hay múi giờ. Tại những khu vực còn thiếu cơ sở hạ tầng ngân hàng truyền thống, Bitcoin thường được sử dụng như một giải pháp nhanh chóng, chi phí thấp để gửi hoặc nhận tiền mà không cần phụ thuộc vào các trung gian đắt đỏ. Mặc dù phí giao dịch có thể thay đổi tùy theo tình trạng tắc nghẽn mạng, nhưng nhìn chung vẫn thấp hơn nhiều so với phí mà các ngân hàng áp dụng cho các giao dịch chuyển khoản quốc tế. Ngoài ra, các giải pháp Layer-2 như Lightning Network cho phép giao dịch Bitcoin nhanh hơn và rẻ hơn.
+Nhờ tính chất phi tập trung, Bitcoin hoạt động 24/7, không bị ảnh hưởng bởi biên giới hay múi giờ. Tại những khu vực còn thiếu cơ sở hạ tầng ngân hàng truyền thống, Bitcoin thường được sử dụng như một giải pháp nhanh chóng, chi phí thấp để gửi hoặc nhận tiền mà không cần phụ thuộc vào các trung gian đắt đỏ. Mặc dù phí giao dịch có thể thay đổi tùy theo tình trạng tắc nghẽn mạng, nhưng nhìn chung vẫn thấp hơn nhiều so với phí mà các ngân hàng áp dụng cho các giao dịch chuyển khoản quốc tế. Ngoài ra, các giải pháp Layer-2 như [Lightning Network](https://planb.academy/resources/glossary/lightning-network) cho phép giao dịch Bitcoin nhanh hơn và rẻ hơn.
 
 
 #### Một kho lưu trữ giá trị
@@ -1542,7 +1542,7 @@ Ngành công nghiệp Bitcoin Wallet được chia thành nhiều loại, mỗi 
 
 
 
-- Các nhà sản xuất Hardware Wallet**: Các công ty này phát triển các thiết bị vật lý được thiết kế để lưu trữ khóa an toàn. Một số là mã nguồn mở, trong khi những công ty khác cung cấp các giải pháp độc quyền với nhiều tính năng và mức độ bảo mật khác nhau. Những cái tên đáng chú ý bao gồm Ledger, Trezor, Coinkite, Foundation và Shiftcrypto.
+- Các nhà sản xuất [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet)**: Các công ty này phát triển các thiết bị vật lý được thiết kế để lưu trữ khóa an toàn. Một số là mã nguồn mở, trong khi những công ty khác cung cấp các giải pháp độc quyền với nhiều tính năng và mức độ bảo mật khác nhau. Những cái tên đáng chú ý bao gồm Ledger, Trezor, Coinkite, Foundation và Shiftcrypto.
 - Software Wallet Developers**: Bao gồm các công ty và nhà phát triển độc lập chuyên tạo ứng dụng di động và máy tính để bàn. Các sản phẩm của họ đa dạng về trải nghiệm người dùng, bảo mật và tính năng. Ví dụ bao gồm Sparrow, Wizard Sardine, Galoy, Synonym và Blockstream.
 - Ví DIY (*Tự làm*): Các giải pháp mã nguồn mở này được thiết kế cho người dùng nâng cao muốn kiểm soát hoàn toàn và ít phụ thuộc vào bên thứ ba. Việc tự xây dựng Wallet giúp giảm thiểu sự phụ thuộc vào độ tin cậy và có thể tăng cường khả năng bảo mật của bạn. Các tùy chọn DIY đáng chú ý bao gồm Seedsigner và Spectre DIY.
 
@@ -1673,7 +1673,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 RGB là một hệ thống Smart contract phi tập trung và tập trung vào quyền riêng tư, được thiết kế để hoạt động trên nền tảng Bitcoin và Lightning Network. Không giống như các nền tảng Smart contract truyền thống, RGB sử dụng mô hình Client-side Validation (nghĩa là toàn bộ Contract State được lưu trữ trên off-chain, và chỉ các cam kết mật mã được công bố trên Bitcoin Blockchain). Thiết kế này cải thiện cả khả năng mở rộng và quyền riêng tư. Với RGB, người dùng có thể tạo các hợp đồng thông minh nâng cao để phát hành token, NFT, danh tính phi tập trung, hoặc thậm chí cả các ứng dụng DeFi, trực tiếp trên Bitcoin hoặc Lightning.
 
 
-Một tính năng quan trọng của RGB là khả năng bảo vệ chống lại Double-spending, đạt được bằng kỹ thuật mã hóa gọi là Dấu niêm phong sử dụng một lần. Cơ chế này dựa trên thực tế là UTXO (Đầu ra giao dịch chưa sử dụng) của Bitcoin chỉ có thể được sử dụng một lần. Tính xác thực của mã thông báo được đảm bảo bằng việc xác thực phía người dùng về toàn bộ lịch sử của Contract (từ khi tạo ra đến trạng thái hiện tại).
+Một tính năng quan trọng của RGB là khả năng bảo vệ chống lại Double-spending, đạt được bằng kỹ thuật mã hóa gọi là Dấu niêm phong sử dụng một lần. Cơ chế này dựa trên thực tế là [UTXO](https://planb.academy/resources/glossary/utxo) (Đầu ra giao dịch chưa sử dụng) của Bitcoin chỉ có thể được sử dụng một lần. Tính xác thực của mã thông báo được đảm bảo bằng việc xác thực phía người dùng về toàn bộ lịch sử của Contract (từ khi tạo ra đến trạng thái hiện tại).
 
 
 ![BTC102-Bitcoin](assets/vi/060.webp)
@@ -1871,7 +1871,7 @@ Cuộc sống hàng ngày của bạn cũng đóng vai trò quan trọng trong v
 **Thời gian có hạn hay lãi suất có hạn?** Hãy chọn các giải pháp tự động, đơn giản; chẳng hạn như các giao dịch mua theo lịch trình được tự động chuyển sang kho lưu trữ an toàn.
 
 
-** Am hiểu công nghệ hay thực hành?** Bạn có thể thích các giải pháp tiên tiến hơn như ví Multisig mang lại khả năng kiểm soát và bảo mật tốt hơn.
+** Am hiểu công nghệ hay thực hành?** Bạn có thể thích các giải pháp tiên tiến hơn như ví [Multisig](https://planb.academy/resources/glossary/multisig) mang lại khả năng kiểm soát và bảo mật tốt hơn.
 
 
 **Đầu tư cho người thân hoặc thế hệ tương lai?** Hãy cân nhắc sớm về việc thừa kế. Có nhiều cách để đảm bảo Bitcoin của bạn có thể được truyền lại một cách an toàn nếu có chuyện gì xảy ra với bạn.

@@ -12,7 +12,7 @@ Ocean Mining est une pool de minage un peu particulière. Ici, aucun compte à c
 
 ### Système de rémunération
 
-Le système de rémunération d'Ocean s'appelle TIDES, "Transparent Index of Distinct Extended Shares". Ce système enregistre le travail fourni par les mineurs, ce que l'on appelle les "shares". La pool calcule le pourcentage de "shares" de chaque contributeur, puis ajoute leur adresse Bitcoin dans le bloc template de la pool comme bénéficiaire de ce pourcentage de la récompense de bloc. 
+Le système de rémunération d'Ocean s'appelle TIDES, "Transparent Index of Distinct Extended Shares". Ce système enregistre le travail fourni par les mineurs, ce que l'on appelle les "shares". La pool calcule le pourcentage de "shares" de chaque contributeur, puis ajoute leur adresse Bitcoin dans le bloc template de la pool comme bénéficiaire de ce pourcentage de la [récompense de bloc](https://planb.academy/resources/glossary/block-reward). 
 
 Le bloc template est actualisé environ toutes les 10 secondes pour prendre en compte les nouvelles transactions les plus rémunératrices et pour changer la répartition de la récompense de bloc si nécessaire.
 

@@ -341,7 +341,7 @@ Joinstr 應用程式分為三個主要標籤：
 
 
 - 首頁**：主畫面
-- Pools**：建立和管理 CoinJoin 池
+- Pools**：建立和管理 [CoinJoin](https://planb.academy/resources/glossary/coinjoin) 池
 - 設定**：應用程式設定
 
 

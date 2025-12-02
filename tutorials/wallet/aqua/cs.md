@@ -8,7 +8,7 @@ Aqua je mobilní aplikace, která umožňuje snadno vytvořit hot wallet pro Bit
 
 Aplikace Aqua, kterou vyvinula společnost JAN3 pod vedením Samsona Mowa, byla původně navržena speciálně pro potřeby uživatelů v Latinské Americe, i když je vhodná pro všechny uživatele na celém světě. Zajímavá je zejména pro začátečníky a pro ty, kteří používají Bitcoin ke svým platbám denně.
 
-V tomto návodu se dozvíte, jak používat mnoho funkcí systému Aqua. Ještě předtím si ale na chvíli uvědomíme, co je to sidechain v Bitcoinu a jak funguje Liquid, abychom plně pochopili hodnotu Aqua.
+V tomto návodu se dozvíte, jak používat mnoho funkcí systému Aqua. Ještě předtím si ale na chvíli uvědomíme, co je to [sidechain](https://planb.academy/resources/glossary/sidechain) v Bitcoinu a jak funguje Liquid, abychom plně pochopili hodnotu Aqua.
 
 ![AQUA](assets/fr/01.webp)
 

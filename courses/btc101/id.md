@@ -30,7 +30,7 @@ Selamat datang di kursus BTC101!
 
 Bitcoin adalah revolusi teknologi dan moneter, yang mampu membuat kita mempertanyakan hubungan kita dengan uang dan masyarakat. Faktanya, Bitcoin (disebut sebagai BTC) adalah mata uang yang **netral** dan **terdesentralisasi**, yang berarti tidak dikontrol oleh entitas atau institusi mana pun. Ini adalah sebuah inovasi yang lebih dari sekadar "mata uang internet": Bitcoin adalah protokol komputer (Bitcoin) dan unit moneter (bitcoin).
 
-Protokol ini menggunakan teknologi dasar seperti kriptografi, komunikasi jaringan, dan "blockchain" yang terkenal, sementara unit bitcoin berfungsi sebagai mata uang yang diperlukan untuk berfungsinya protokol ini. Dalam kehidupan sehari-hari, warga El Salvador dan para pengguna bitcoin di seluruh dunia menggunakan mata uang bitcoin untuk membeli dan menjual barang dan jasa, dengan mengandalkan teknologi ini untuk membuat hidup mereka lebih baik.
+Protokol ini menggunakan teknologi dasar seperti [kriptografi](https://planb.academy/resources/glossary/cryptography), komunikasi jaringan, dan "blockchain" yang terkenal, sementara unit bitcoin berfungsi sebagai mata uang yang diperlukan untuk berfungsinya protokol ini. Dalam kehidupan sehari-hari, warga El Salvador dan para pengguna bitcoin di seluruh dunia menggunakan mata uang bitcoin untuk membeli dan menjual barang dan jasa, dengan mengandalkan teknologi ini untuk membuat hidup mereka lebih baik.
 
 **Sebuah kurikulum yang lengkap namun mudah diakses:**
 
@@ -128,7 +128,7 @@ Gambar di bawah ini dengan jelas menggambarkan perkembangan gerakan ini melalui 
 
 ![image](assets/id/005.webp)
 
-Dalam lingkungan yang mendukung inilah Satoshi Nakamoto yang misterius menerbitkan whitepaper Bitcoin pada tahun 2008. Dalam dokumen ini, ia menggabungkan beberapa ide dari gerakan cypherpunk, seperti proof of work dan stempel waktu kriptografi, untuk menciptakan mata uang digital yang terdesentralisasi dan tahan sensor.
+Dalam lingkungan yang mendukung inilah Satoshi Nakamoto yang misterius menerbitkan [whitepaper](https://planb.academy/resources/glossary/white-paper) Bitcoin pada tahun 2008. Dalam dokumen ini, ia menggabungkan beberapa ide dari gerakan cypherpunk, seperti proof of work dan stempel waktu kriptografi, untuk menciptakan mata uang digital yang terdesentralisasi dan tahan sensor.
 
 Namun, Bitcoin lebih dari sekadar itu: Bitcoin mewakili pencapaian cita-cita cypherpunk. Di luar teknologinya, Bitcoin melambangkan sebuah revolusi melawan sistem keuangan tradisional dan menawarkan sebuah alternatif berdasarkan transparansi, desentralisasi, dan kedaulatan individu.
 
@@ -203,7 +203,7 @@ Untuk memenuhi kriteria ini, mata uang secara historis telah berevolusi dengan m
 
 - Batu  -> Koin
 - Uang kertas -> Kartu kredit/debit bank
-- Blockchain -> Jaringan Lightning
+- Blockchain -> [Jaringan Lightning](https://planb.academy/resources/glossary/lightning-network)
 
 Mata uang masih terus berkembang hingga hari ini, bentuknya beradaptasi untuk memenuhi berbagai kasus penggunaan. Seperti yang telah kami katakan, meskipun emas adalah penyimpan nilai yang sangat baik, emas tidak lagi cocok untuk ekonomi global saat ini. Demikian pula, mata uang fiat seperti dolar dan euro sangat likuid dan mudah diangkut karena sebagian besar mata uang tersebut sekarang berbentuk digital, tetapi nilainya terus menurun karena inflasi moneter.
 
@@ -372,7 +372,7 @@ Penciptaan bitcoin baru adalah hasil dari proses penambangan. Singkatnya, para p
 
 ![image](assets/id/022.webp)
 
-Setelah berhasil melakukan tugas ini, para penambang akan mendapatkan imbalan berupa penerbitan bitcoin baru setiap sepuluh menit. Hadiah ini diprogram untuk membagi dua setiap 210.000 blok, yang kira-kira setiap empat tahun (sebuah peristiwa yang dikenal sebagai "halving"), memberikan kurva penerbitan moneter bentuk seperti tangga. Karena mekanisme ini, secara matematis dapat diprediksi bahwa penciptaan bitcoin baru akan berhenti pada tahun 2140, ketika jumlahnya mencapai batas 21 juta.
+Setelah berhasil melakukan tugas ini, para penambang akan mendapatkan imbalan berupa penerbitan bitcoin baru setiap sepuluh menit. Hadiah ini diprogram untuk membagi dua setiap 210.000 blok, yang kira-kira setiap empat tahun (sebuah peristiwa yang dikenal sebagai "[halving](https://planb.academy/resources/glossary/halving)"), memberikan kurva penerbitan moneter bentuk seperti tangga. Karena mekanisme ini, secara matematis dapat diprediksi bahwa penciptaan bitcoin baru akan berhenti pada tahun 2140, ketika jumlahnya mencapai batas 21 juta.
 
 | Jumlah Halving | Tinggi Blok | Hadiah BTC Setelah Halving  | Perkiraan BTC yang Beredar Setelah Halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -401,7 +401,7 @@ Kami akan meninjau kembali konsep penambangan secara lebih rinci dalam [bab pena
 
 ### Menjamin kelangkaan digital
 
-Batas 21 juta adalah dasar dari kelangkaan Bitcoin, dan dijamin oleh dua mekanisme utama: penyesuaian tingkat kesulitan penambangan dan game teori.
+Batas 21 juta adalah dasar dari kelangkaan Bitcoin, dan dijamin oleh dua mekanisme utama: penyesuaian tingkat [kesulitan](https://planb.academy/resources/glossary/difficulty) penambangan dan game teori.
 
 - Penyesuaian tingkat kesulitan penambangan adalah sebuah proses yang dilakukan setiap 2016 blok, atau sekitar dua minggu, untuk memastikan bahwa sebuah blok baru ditambahkan ke dalam blockchain setiap sepuluh menit sekali. Frekuensi pembuatan blok dan jumlah total bitcoin merupakan aspek yang tetap dalam protokol Bitcoin dan tidak dapat diubah tanpa adanya konsensus umum, tidak seperti keputusan sewenang-wenang yang dibuat dalam sistem moneter tradisional.
 
@@ -469,7 +469,7 @@ Dengan demikian, portofolio dapat dikategorikan ke dalam kelompok penggunaan yan
 
 ### Bagaimana cara kerja dompet Bitcoin?
 
-Baik itu "bankir" Bitcoin Anda atau Anda sendiri, sebagian besar dompet Bitcoin bekerja dengan teknologi yang sama berdasarkan kriptografi asimetris, yang melibatkan sistem pasangan kunci: kunci privat untuk pengeluaran dan kunci publik untuk penerimaan.
+Baik itu "bankir" Bitcoin Anda atau Anda sendiri, sebagian besar dompet Bitcoin bekerja dengan teknologi yang sama berdasarkan kriptografi asimetris, yang melibatkan sistem pasangan kunci: [kunci privat](https://planb.academy/resources/glossary/private-key) untuk pengeluaran dan [kunci publik](https://planb.academy/resources/glossary/public-key) untuk penerimaan.
 
 - Kunci pribadi
 
@@ -542,7 +542,7 @@ Misalnya, Anda dapat menggunakan Sparrow Wallet sebagai hot wallet:
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-- Level 2\*\*, Anda menggunakan dompet fisik, dan Anda telah mengamankan daftar 12/24 kata. Ini sering disebut sebagai "Cold Wallet" karena kunci Anda disimpan di perangkat yang tidak terhubung ke internet. Dalam hal ini, Anda harus selalu menandatangani setiap transaksi dengan perangkat Anda, yang membuat dana Anda tidak dapat diakses setiap hari.
+- Level 2\*\*, Anda menggunakan dompet fisik, dan Anda telah mengamankan daftar 12/24 kata. Ini sering disebut sebagai "[Cold Wallet](https://planb.academy/resources/glossary/cold-wallet)" karena kunci Anda disimpan di perangkat yang tidak terhubung ke internet. Dalam hal ini, Anda harus selalu menandatangani setiap transaksi dengan perangkat Anda, yang membuat dana Anda tidak dapat diakses setiap hari.
 
 Sebagai contoh, Anda dapat menggunakan Ledger, Satochip, atau Tapsigner:
 
@@ -838,7 +838,7 @@ Setelah kemenangan ini, node-node tersebut mengaktifkan pembaruan yang disebut S
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Penambang mengamankan jaringan dan menambahkan transaksi ke dalam blok. Mereka menggunakan listrik melalui mesin ASIC untuk menyelesaikan (proof of work)bukti kerja Bitcoin.**
+**Penambang mengamankan jaringan dan menambahkan transaksi ke dalam blok. Mereka menggunakan listrik melalui mesin [ASIC](https://planb.academy/resources/glossary/asic) untuk menyelesaikan (proof of work)bukti kerja Bitcoin.**
 
 ![image](assets/id/054.webp)
 
@@ -846,7 +846,7 @@ Setelah kemenangan ini, node-node tersebut mengaktifkan pembaruan yang disebut S
 
 "Proof of Work" (POW) adalah mekanisme konsensus keamanan protokol Bitcoin. Ini adalah fondasi dari segalanya dan memainkan peran penting dalam teori permainan Bitcoin.
 
-Untuk menjelaskan cara kerjanya, bayangkan sebuah lotere universal di mana semua orang dapat berpartisipasi. Tujuannya adalah untuk menemukan nomor tertentu yang memungkinkan pemenang untuk menandatangani blok yang valid, dan mendapatkan hadiah dalam bentuk Bitcoin. Nomor ini sangat mudah diverifikasi menggunakan fungsi hash SHA-256, tetapi sulit ditemukan: peserta (penambang) akan mencoba miliaran kemungkinan, seperti 1, 52, 2648, 26874615, 15344854131318631, dan seterusnya, hingga mereka menemukan nomor yang tepat.
+Untuk menjelaskan cara kerjanya, bayangkan sebuah lotere universal di mana semua orang dapat berpartisipasi. Tujuannya adalah untuk menemukan nomor tertentu yang memungkinkan pemenang untuk menandatangani blok yang valid, dan mendapatkan hadiah dalam bentuk Bitcoin. Nomor ini sangat mudah diverifikasi menggunakan [fungsi hash](https://planb.academy/resources/glossary/hash-function) SHA-256, tetapi sulit ditemukan: peserta (penambang) akan mencoba miliaran kemungkinan, seperti 1, 52, 2648, 26874615, 15344854131318631, dan seterusnya, hingga mereka menemukan nomor yang tepat.
 
 Jika nomor yang dipilih benar: Jackpot! Jika tidak, pencarian berlanjut.
 

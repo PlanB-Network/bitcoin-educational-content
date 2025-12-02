@@ -11,7 +11,7 @@ description: 發現並安裝 Umbrel - 您的 Bitcoin 節點和主伺服器
 
 
 
-### 什麼是 Bitcoin 節點？
+### 什麼是 Bitcoin [節點](https://planb.academy/resources/glossary/node)？
 
 
 
@@ -21,7 +21,7 @@ Bitcoin 節點是透過執行 Bitcoin 核心軟體或替代用戶端而參與 Bi
 
 
 
-- Blockchain 儲存：維護完整、最新的 Blockchain Bitcoin 副本
+- [Blockchain](https://planb.academy/resources/glossary/blockchain) 儲存：維護完整、最新的 Blockchain Bitcoin 副本
 - 交易驗證：根據協定規則驗證每筆交易和區塊
 - 資訊傳播：與其他節點分享新的交易和區塊
 - 建立共識：有助於網路規則的應用

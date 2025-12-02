@@ -47,13 +47,13 @@ Celem tego szkolenia jest przekazanie ci kluczy do opanowania narzędzi, z któr
 
 Zanim zagłębimy się w szczegóły budowy i działania portfeli Bitcoin, zaczniemy od kilku rozdziałów na temat prymitywów kryptograficznych, które warto znać.
 
-Zaczniemy od kryptograficznych funkcji Hash, fundamentalnych zarówno dla portfeli, jak i samego protokołu Bitcoin. Odkryjesz ich główne cechy, konkretne funkcje używane w Bitcoin, a w bardziej technicznym rozdziale poznasz szczegółowo działanie królowej funkcji Hash: SHA256.
+Zaczniemy od kryptograficznych funkcji Hash, fundamentalnych zarówno dla portfeli, jak i samego protokołu Bitcoin. Odkryjesz ich główne cechy, konkretne funkcje używane w Bitcoin, a w bardziej technicznym rozdziale poznasz szczegółowo działanie królowej funkcji Hash: [SHA256](https://planb.academy/resources/glossary/sha256).
 
 
 ![CYP201](assets/en/001.webp)
 
 
-Następnie omówimy działanie algorytmów podpisu cyfrowego, których używasz na co dzień do zabezpieczania swoich UTXO. Bitcoin wykorzystuje dwa z nich: ECDSA i protokół Schnorra. Dowiesz się, jakie prymitywy matematyczne leżą u podstaw tych algorytmów i w jaki sposób zapewniają one bezpieczeństwo transakcji.
+Następnie omówimy działanie algorytmów podpisu cyfrowego, których używasz na co dzień do zabezpieczania swoich UTXO. Bitcoin wykorzystuje dwa z nich: [ECDSA](https://planb.academy/resources/glossary/ecdsa) i protokół Schnorra. Dowiesz się, jakie prymitywy matematyczne leżą u podstaw tych algorytmów i w jaki sposób zapewniają one bezpieczeństwo transakcji.
 
 
 ![CYP201](assets/en/002.webp)
@@ -85,7 +85,7 @@ Ta tabela oferuje tłumaczenie głównych używanych terminów angielskich, aby 
 | Angielski       | Tłumaczenie / Wyjaśnienie                                                                          |
 | --------------- | -------------------------------------------------------------------------------------------------- |
 | *pubkey hash*   | Hasz klucza publicznego (używany do wygenerowania adresu Bitcoin).                                 |
-| *public key*    | Klucz publiczny (służy do odbierania środków, pochodzi z klucza prywatnego).                        |
+| *public key*    | [Klucz publiczny](https://planb.academy/resources/glossary/public-key) (służy do odbierania środków, pochodzi z klucza prywatnego).                        |
 | *signature*     | Podpis cyfrowy (kryptograficzny dowód, że wiadomość pochodzi od posiadacza klucza prywatnego).      |
 | *scriptPubKey*  | Skrypt blokujący (definiuje warunki wydania wyjścia).                                               |
 | *scriptSig*     | Skrypt odblokowujący (dostarcza dane do spełnienia *scriptPubKey*).                                 |
@@ -101,7 +101,7 @@ Ta tabela oferuje tłumaczenie głównych używanych terminów angielskich, aby 
 | *HD Wallet*     | Hierarchiczny portfel deterministyczny (generuje wiele kluczy z jednego seedu).                     |
 | *Random Number* | Liczba losowa (używana do generowania bezpiecznych kluczy prywatnych).                              |
 | *State*         | Stan (wartość pośrednia w procesie kryptograficznym).                                               |
-| *Entropy*       | Entropia (miara losowości, używana do generowania seedów portfela).                                 |
+| *[Entropy](https://planb.academy/resources/glossary/entropy)*       | Entropia (miara losowości, używana do generowania seedów portfela).                                 |
 | *Mnemonic*      | Mnemotechnika (ciąg słów ułatwiający kopię zapasową i odzyskiwanie seedu).                          |
 | *Wordlist*      | Lista słów (z góry określony zestaw używany do generowania mnemotechnik BIP39).                     |
 | *Seed*          | Seed (wartość początkowa umożliwiająca wyprowadzenie wszystkich kluczy portfela HD).                |
@@ -122,7 +122,7 @@ Ta tabela oferuje tłumaczenie głównych używanych terminów angielskich, aby 
 :::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
 
-Pierwszy rodzaj algorytmów kryptograficznych wykorzystywanych w Bitcoin obejmuje funkcje Hash. Odgrywają one istotną rolę na różnych poziomach protokołu, ale także w portfelach Bitcoin. Odkryjmy razem, czym jest funkcja Hash i do czego służy w Bitcoin.
+Pierwszy rodzaj algorytmów kryptograficznych wykorzystywanych w Bitcoin obejmuje funkcje Hash. Odgrywają one istotną rolę na różnych poziomach protokołu, ale także w portfelach Bitcoin. Odkryjmy razem, czym jest [funkcja Hash](https://planb.academy/resources/glossary/hash-function) i do czego służy w Bitcoin.
 
 
 ### Definicja i zasada Hashingu
@@ -938,7 +938,7 @@ Termin "_wallet_" w Bitcoin może być dość mylący dla początkujących. W rz
 
 Protokół Bitcoin jest rozproszony i działa bez centralnego organu. Dlatego nie przypomina tradycyjnych rejestrów bankowych, w których euro należące do użytkownika są po prostu powiązane z jego tożsamością. W Bitcoin twoje UTXO należą do ciebie, ponieważ są chronione przez warunki wydawania określone w języku skryptów. Upraszczając, istnieją dwa rodzaje skryptów: skrypt blokujący (_scriptPubKey_), który chroni UTXO, oraz skrypt odblokowujący (_scriptSig_), który umożliwia odblokowanie UTXO, a tym samym wydawanie reprezentowanych przez niego jednostek Bitcoin.
 
-Początkowe działanie Bitcoin ze skryptami P2PK polega na użyciu klucza publicznego do zablokowania środków, określając w _scriptPubKey_, że osoba, która chce wydać ten UTXO, musi dostarczyć ważny podpis z kluczem prywatnym odpowiadającym temu kluczowi publicznemu. Aby odblokować ten UTXO, konieczne jest zatem dostarczenie ważnego podpisu w _scriptSig_. Jak sugerują ich nazwy, klucz publiczny jest znany wszystkim, ponieważ jest nadawany na Blockchain, podczas gdy klucz prywatny jest znany tylko prawowitemu właścicielowi funduszy.
+Początkowe działanie Bitcoin ze skryptami P2PK polega na użyciu klucza publicznego do zablokowania środków, określając w _scriptPubKey_, że osoba, która chce wydać ten UTXO, musi dostarczyć ważny podpis z kluczem prywatnym odpowiadającym temu kluczowi publicznemu. Aby odblokować ten UTXO, konieczne jest zatem dostarczenie ważnego podpisu w _scriptSig_. Jak sugerują ich nazwy, klucz publiczny jest znany wszystkim, ponieważ jest nadawany na Blockchain, podczas gdy [klucz prywatny](https://planb.academy/resources/glossary/private-key) jest znany tylko prawowitemu właścicielowi funduszy.
 
 Jest to podstawowa operacja Bitcoin, ale z czasem operacja ta stała się bardziej złożona. Po pierwsze, Satoshi wprowadził również skrypty P2PKH, które używają odbiorczego Address w _scriptPubKey_, który reprezentuje Hash klucza publicznego. Następnie system stał się jeszcze bardziej złożony wraz z pojawieniem się SegWit, a następnie Taproot. Jednak ogólna zasada pozostaje zasadniczo taka sama: klucz publiczny lub reprezentacja tego klucza jest używana do blokowania UTXO, a odpowiedni klucz prywatny jest wymagany do ich odblokowania, a tym samym ich wydania.
 

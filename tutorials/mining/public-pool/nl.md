@@ -6,7 +6,7 @@ description: Inleiding tot openbaar zwembad
 ![signup](assets/cover.webp)
 
 
-**Public Pool** is niet zomaar een pool; het is wat ook wel een **Solo Pool** wordt genoemd. Als jouw Miner erin slaagt een blok Mining te maken, dan ontvang je de volledige Block reward, die niet gedeeld wordt met andere deelnemers van de pool of met de pool zelf.
+**Public Pool** is niet zomaar een pool; het is wat ook wel een **Solo Pool** wordt genoemd. Als jouw [Miner](https://planb.academy/resources/glossary/miner) erin slaagt een blok Mining te maken, dan ontvang je de volledige Block reward, die niet gedeeld wordt met andere deelnemers van de pool of met de pool zelf.
 
 
 **Public Pool** biedt alleen een **bloksjabloon** voor je Miner, zodat het zijn taak kan uitvoeren zonder dat je een **Bitcoin node** en de software die met je Miner communiceert, nodig hebt. Omdat je je rekenkracht niet samenvoegt met die van andere deelnemers, zijn je kansen om met succes een Mining blok te maken natuurlijk erg laag. Het lijkt een beetje op een loterijsysteem, waarbij soms een gelukkige de jackpot wint.
@@ -21,7 +21,7 @@ Op het **Dashboard** van **Public Pool** staan nog enkele statistieken zoals het
 ![signup](assets/2.webp)
 
 
-In de eerste paar regels zien we **Bitaxe** met 1323 **Bitaxe** aangesloten voor een totaal van 649TH/s. **Bitaxe** is een **Open source** project dat het mogelijk maakt om eenvoudig een chip van een **ASIC** zoals de **Antminer S19** te hergebruiken op een **opensource** elektronisch bord om een kleine Miner van 0,5TH/s voor 15W te maken. Dit is de Miner die we zullen gebruiken als voorbeeld voor deze tutorial.
+In de eerste paar regels zien we **Bitaxe** met 1323 **Bitaxe** aangesloten voor een totaal van 649TH/s. **Bitaxe** is een **Open source** project dat het mogelijk maakt om eenvoudig een chip van een **[ASIC](https://planb.academy/resources/glossary/asic)** zoals de **Antminer S19** te hergebruiken op een **opensource** elektronisch bord om een kleine Miner van 0,5TH/s voor 15W te maken. Dit is de Miner die we zullen gebruiken als voorbeeld voor deze tutorial.
 
 
 ## Een **Werker** toevoegen 👷‍♂️
@@ -83,7 +83,7 @@ Op het **Dashboard** wordt verschillende informatie weergegeven over je gegevens
 Je hebt **Network Hash Rate** dat overeenkomt met het totale werkvermogen van het **Bitcoin** netwerk.
 
 
-De **Network Difficulty** geeft de moeilijkheidsgraad aan die bereikt moet worden om een blok te valideren.
+De **Network Difficulty** geeft de [moeilijkheidsgraad](https://planb.academy/resources/glossary/difficulty) aan die bereikt moet worden om een blok te valideren.
 
 
 En **Uw beste moeilijkheidsgraad** is de hoogste moeilijkheidsgraad die je hebt bereikt. Als je toevallig 🍀 de netwerk moeilijkheid bereikt, dan win je de hele Block reward... na 100 blokjes. Je moet dan 100 blokjes wachten voordat je ze kunt uitgeven.

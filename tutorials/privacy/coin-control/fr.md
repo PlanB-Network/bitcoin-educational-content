@@ -21,7 +21,7 @@ Vous devriez. S'il est assez facile d'accumuler des Satoshi non-kyc, c'est au st
 
 
 
-### Que se passe-t-il lorsque vous dépensez une UTXO ?
+### Que se passe-t-il lorsque vous dépensez une [UTXO](https://planb.academy/resources/glossary/utxo) ?
 
 
 

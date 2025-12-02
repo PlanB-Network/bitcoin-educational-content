@@ -341,7 +341,7 @@ Aplikace Joinstr je rozdělena do tří hlavních karet:
 
 
 - Domov**: Úvodní obrazovka
-- Bazény**: Vytváření a správa bazénů CoinJoin
+- Bazény**: Vytváření a správa bazénů [CoinJoin](https://planb.academy/resources/glossary/coinjoin)
 - Nastavení**: Konfigurace aplikace
 
 

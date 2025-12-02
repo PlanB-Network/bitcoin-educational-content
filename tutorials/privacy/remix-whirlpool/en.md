@@ -16,7 +16,7 @@ _This tutorial is provided for educational and informational purposes only. We d
 
 This is a question I am often asked. **When doing coinjoins with Whirlpool, how many remixes should be done to achieve satisfactory results?**
 
-The purpose of [coinjoin](https://planb.academy/en/resources/glossary/coinjoin) is to offer plausible deniability by mixing your coin with a group of indistinguishable coins. The goal of this action is to break the traceability links, both from the past to the present and from the present to the past. In other words, an analyst who knows your initial transaction at the entry of the coinjoin cycles should not be able to definitively identify your UTXO at the exit of the remix cycles (analysis from entry cycles to exit cycles).
+The purpose of [coinjoin](https://planb.academy/resources/glossary/coinjoin) is to offer plausible deniability by mixing your coin with a group of indistinguishable coins. The goal of this action is to break the traceability links, both from the past to the present and from the present to the past. In other words, an analyst who knows your initial transaction at the entry of the coinjoin cycles should not be able to definitively identify your UTXO at the exit of the remix cycles (analysis from entry cycles to exit cycles).
 ![past-present links diagram](assets/en/1.webp)
 
 Conversely, an analyst who knows your UTXO at the exit of the coinjoin cycles should be unable to determine the original transaction at the entry of the cycles (analysis from exit cycles to entry cycles).

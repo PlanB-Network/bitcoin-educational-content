@@ -1,7 +1,7 @@
 ---
 name: JoinMarket
 
-description: Panduan dan tutorial tentang cara menggunakan JoinMarket untuk melakukan CoinJoin melalui Bitcoin melalui baris perintah
+description: Panduan dan tutorial tentang cara menggunakan JoinMarket untuk melakukan [CoinJoin](https://planb.academy/resources/glossary/coinjoin) melalui Bitcoin melalui baris perintah
 ---
 
 ![cover](assets/cover.webp)

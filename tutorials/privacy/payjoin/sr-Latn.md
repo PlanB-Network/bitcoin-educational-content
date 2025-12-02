@@ -26,7 +26,7 @@ PayJoin je specifična struktura Bitcoin transakcije koja poboljšava privatnost
 - Steganografska transakcija
 
 
-Jedinstvenost PayJoin-a leži u njegovoj sposobnosti da generiše transakciju koja na prvi pogled deluje obično, ali je zapravo mini CoinJoin između dve strane. Da bi se to postiglo, struktura transakcije uključuje primaoca uplate zajedno sa stvarnim pošiljaocem u ulazima. Primalac uključuje uplatu sebi u sredini transakcije, što im omogućava da budu plaćeni.
+Jedinstvenost PayJoin-a leži u njegovoj sposobnosti da generiše transakciju koja na prvi pogled deluje obično, ali je zapravo mini [CoinJoin](https://planb.academy/resources/glossary/coinjoin) između dve strane. Da bi se to postiglo, struktura transakcije uključuje primaoca uplate zajedno sa stvarnim pošiljaocem u ulazima. Primalac uključuje uplatu sebi u sredini transakcije, što im omogućava da budu plaćeni.
 
 
 Hajde da uzmemo konkretan primer: ako kupite baget za `4000 satošija` koristeći UTXO od `10,000 satošija` i odlučite se za PayJoin, vaš pekar će dodati UTXO od `15,000 satošija` koji pripada njima kao ulaz, koji će primiti u celosti kao izlaz, pored vaših `4000 satošija`:

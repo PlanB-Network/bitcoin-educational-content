@@ -26,7 +26,7 @@ In 2015 noemde [LaurentMT](https://twitter.com/LaurentMT) deze methode voor het 
 - Steganografische transactie
 
 
-Het unieke van PayJoin ligt in de mogelijkheid om generate een transactie te laten uitvoeren die op het eerste gezicht gewoon lijkt, maar eigenlijk een mini CoinJoin is tussen twee partijen. Om dit te bereiken betrekt de transactiestructuur de ontvanger van de betaling naast de feitelijke verzender in de invoer. De ontvanger neemt een betaling aan zichzelf op in het midden van de transactie, waardoor hij betaald kan worden.
+Het unieke van PayJoin ligt in de mogelijkheid om generate een transactie te laten uitvoeren die op het eerste gezicht gewoon lijkt, maar eigenlijk een mini [CoinJoin](https://planb.academy/resources/glossary/coinjoin) is tussen twee partijen. Om dit te bereiken betrekt de transactiestructuur de ontvanger van de betaling naast de feitelijke verzender in de invoer. De ontvanger neemt een betaling aan zichzelf op in het midden van de transactie, waardoor hij betaald kan worden.
 
 
 Laten we een concreet voorbeeld nemen: als je een stokbrood koopt voor `4000 Sats` met een UTXO van `10.000 Sats` en je kiest voor een PayJoin, dan zal je bakker een UTXO van `15.000 Sats` toevoegen die bij hen hoort als input, die ze volledig zullen ontvangen als output, bovenop jouw `4000 Sats`:

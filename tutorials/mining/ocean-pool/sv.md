@@ -16,7 +16,7 @@ Ocean Mining är en något unik Mining pool. Här krävs inga konton, inga e-pos
 ### Ersättningssystem
 
 
-Ocean har ett ersättningssystem som kallas TIDES, "Transparent Index of Distinct Extended Shares". Detta system registrerar det arbete som utförs av gruvarbetarna, så kallade "shares". Poolen beräknar procentandelen "aktier" för varje bidragsgivare och lägger sedan till deras Bitcoin Address i poolens blockmall som mottagare av denna procentandel av Block reward.
+Ocean har ett ersättningssystem som kallas TIDES, "Transparent Index of Distinct Extended Shares". Detta system registrerar det arbete som utförs av gruvarbetarna, så kallade "shares". Poolen beräknar procentandelen "aktier" för varje bidragsgivare och lägger sedan till deras Bitcoin Address i poolens blockmall som mottagare av denna procentandel av [Block reward](https://planb.academy/resources/glossary/block-reward).
 
 
 Blockmallen uppdateras ungefär var 10:e sekund för att ta hänsyn till de mest lukrativa nya transaktionerna och för att ändra fördelningen av Block reward om det behövs.
@@ -210,7 +210,7 @@ Här kan du se att i rutan ** Uppskattad tid fram till minsta utbetalning** stå
 Som du har förstått syftar Ocean till att maximera transparensen och minimera förvaringen (att hålla din Sats för din räkning).
 
 
-Det är därför det är nödvändigt att använda **BOLT12-erbjudanden** för blixtuttag. Detta är ett nytt sätt att göra en betalning på Lightning Network som börjar dyka upp 2024 och möjliggör flera saker:
+Det är därför det är nödvändigt att använda **BOLT12-erbjudanden** för blixtuttag. Detta är ett nytt sätt att göra en betalning på [Lightning Network](https://planb.academy/resources/glossary/lightning-network) som börjar dyka upp 2024 och möjliggör flera saker:
 
 
 - Det är en återanvändbar betalningslänk som möjliggör automatiska betalningar och till skillnad från en Lightning Address är BOLT12 inte frihetsberövande.

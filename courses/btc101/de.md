@@ -4,7 +4,7 @@ goal: Entdecke die Grundlagen von Bitcoin, einschließlich des monetären Wertve
 objectives:
   - Gewinne ein allgemeines Verständnis der Bitcoin-Technologie
   - Verstehe, wie man Bitcoins kauft und sichert
-  - Erlange ein allgemeines Verständnis der Blockchain-Technologie
+  - Erlange ein allgemeines Verständnis der [Blockchain](https://planb.academy/resources/glossary/blockchain)-Technologie
   - Mache dich mit dem Konzept des Lightning Network vertraut
   - Erkenne die geopolitischen und sozialen Auswirkungen von Bitcoin
 ---
@@ -370,7 +370,7 @@ Die Schaffung neuer Bitcoins ist das Ergebnis des Mining-Prozesses. Kurz gesagt,
 
 ![image](assets/de/022.webp)
 
-Nach erfolgreicher Durchführung dieser Aufgabe werden die Miner alle zehn Minuten mit der Ausgabe neuer Bitcoins belohnt. Diese Belohnung ist so programmiert, dass sie sich alle 210.000 Blöcke halbiert, d. h. etwa alle vier Jahre (ein Ereignis, das als "halving" bekannt ist), wodurch die Kurve der Geldausgabe eine treppenartige Form erhält. Aufgrund dieses Mechanismus lässt sich mathematisch vorhersagen, dass die Schaffung neuer Bitcoins um das Jahr 2140 herum aufhören wird, wenn die Gesamtzahl der Bitcoins die Grenze von 21 Millionen erreicht.
+Nach erfolgreicher Durchführung dieser Aufgabe werden die Miner alle zehn Minuten mit der Ausgabe neuer Bitcoins belohnt. Diese Belohnung ist so programmiert, dass sie sich alle 210.000 Blöcke halbiert, d. h. etwa alle vier Jahre (ein Ereignis, das als "[halving](https://planb.academy/resources/glossary/halving)" bekannt ist), wodurch die Kurve der Geldausgabe eine treppenartige Form erhält. Aufgrund dieses Mechanismus lässt sich mathematisch vorhersagen, dass die Schaffung neuer Bitcoins um das Jahr 2140 herum aufhören wird, wenn die Gesamtzahl der Bitcoins die Grenze von 21 Millionen erreicht.
 
 | Halbierungsnummer | Blockhöhe | BTC-Belohnung nach Halbierung | Geschätzte BTC im Umlauf nach Halbierung |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -471,7 +471,7 @@ Portfolios lassen sich also in breite Nutzungsfamilien einteilen, in deren Mitte
 
 Egal, ob es sich um deinen Bitcoin-"Banker" oder um dich selbst handelt, die überwiegende Mehrheit der Bitcoin-Wallets arbeitet mit einer ähnlichen Technologie, die auf asymmetrischer Kryptographie basiert, die ein System von Schlüsselpaaren umfasst: einen privaten Schlüssel (private key) für die Ausgabe und einen öffentlichen Schlüssel (public key) für den Empfang.
 
-- Privater Schlüssel
+- [Privater Schlüssel](https://planb.academy/resources/glossary/private-key)
 
 Bei der Initialisierung einer Brieftasche wird eine geheime Wiederherstellungsphrase (privater Schlüssel) generiert und Ihnen in Form von 12 oder 24 Wörtern präsentiert.
 
@@ -542,7 +542,7 @@ Du kannst zum Beispiel die Sparrow Wallet als Hot-Wallet verwenden:
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-- **Stufe 2**: Du verwendest eine physische Wallet und hast deine Liste mit 12/24 Wörtern gesichert. Dies wird oft als "Cold Wallet" bezeichnet, weil deine Schlüssel auf einem Gerät gespeichert sind, das nicht mit dem Internet verbunden ist. In diesem Fall musst du jede Transaktion immer mit Ihrem Gerät unterschreiben, was den täglichen Zugriff auf dein Geld erschwert.
+- **Stufe 2**: Du verwendest eine physische Wallet und hast deine Liste mit 12/24 Wörtern gesichert. Dies wird oft als "[Cold Wallet](https://planb.academy/resources/glossary/cold-wallet)" bezeichnet, weil deine Schlüssel auf einem Gerät gespeichert sind, das nicht mit dem Internet verbunden ist. In diesem Fall musst du jede Transaktion immer mit Ihrem Gerät unterschreiben, was den täglichen Zugriff auf dein Geld erschwert.
 
 Du kannst zum Beispiel ein Ledger, einen Satochip oder einen Tapsigner verwenden:
 
@@ -686,7 +686,7 @@ Diese Initiative löste nicht sofort Begeisterung aus, wahrscheinlich wegen der 
 
 ![image](assets/de/039.webp)
 
-Am 3. Januar 2009 eröffnete Satoshi offiziell das Bitcoin-Netzwerk, indem er den ersten Block, auch bekannt als "Genesis-Block", erstellte, der den Start der Bitcoin-Blockchain markierte. Dieser Block enthält eine aufschlussreiche Botschaft, die die Mission von Bitcoin widerspiegelt: "03/jan/2009 Bundeskanzler am Rande der zweiten Rettungsaktion für Banken."
+Am 3. Januar 2009 eröffnete Satoshi offiziell das Bitcoin-Netzwerk, indem er den ersten Block, auch bekannt als "[Genesis-Block](https://planb.academy/resources/glossary/genesis-block)", erstellte, der den Start der Bitcoin-Blockchain markierte. Dieser Block enthält eine aufschlussreiche Botschaft, die die Mission von Bitcoin widerspiegelt: "03/jan/2009 Bundeskanzler am Rande der zweiten Rettungsaktion für Banken."
 
 ![image](assets/de/040.webp)
 
@@ -836,7 +836,7 @@ Nach diesem Sieg aktivierten die Nodes ein Update namens SegWit und ebneten dami
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Miner sichern das Netzwerk und fügen Transaktionen zu den Blöcken hinzu. Sie verwenden Elektrizität durch ASIC-Maschinen, um den Bitcoin-Arbeitsnachweis (proof-of-wokr) zu lösen.**
+**Miner sichern das Netzwerk und fügen Transaktionen zu den Blöcken hinzu. Sie verwenden Elektrizität durch [ASIC](https://planb.academy/resources/glossary/asic)-Maschinen, um den Bitcoin-Arbeitsnachweis (proof-of-wokr) zu lösen.**
 
 ![image](assets/de/054.webp)
 

@@ -6,7 +6,7 @@ description: Intangamarara y'Ikidengeri ca bose
 ![signup](assets/cover.webp)
 
 
-**Ikidengeri ca bose** si ikidengeri cose gusa; ni co kizwi kandi kw'izina rya **Solo Pool**. Iyo Miner yawe iroraniwe muri Mining a block, rero ukoranya Block reward yose, idasangira n’abandi bari muri pool canke pool ubwayo.
+**Ikidengeri ca bose** si ikidengeri cose gusa; ni co kizwi kandi kw'izina rya **Solo Pool**. Iyo [Miner](https://planb.academy/resources/glossary/miner) yawe iroraniwe muri Mining a block, rero ukoranya Block reward yose, idasangira n’abandi bari muri pool canke pool ubwayo.
 
 
 **Public Pool** itanga gusa **block template** ya Miner yawe kugira ngo ishobore gukora igikorwa cayo ataco ukeneye kugira **node ya Bitcoin** na porogaramu ivugana na Miner yawe. Kubera ko utariko urafatanya ububasha bwawe bwo gukoresha ubuhinga bwa none n’ubw’abandi bari muri iyo nama, biragaragara ko amahirwe yawe yo gutsinda Mining a block ari make cane, asa n’uburyo bwo gutora, aho rimwe na rimwe umuntu afise amahirwe ari we atsindira amahera menshi.
@@ -21,7 +21,7 @@ Ku **Dashboard** ya **Public Pool**, uracari n'imibare nk'iya pool **Total Hashr
 ![signup](assets/2.webp)
 
 
-Mu mirongo mikeyi ya mbere, turashobora kubona **Bitaxe** ifise **Bitaxe** 1323 zihujwe ku rugero rwose hamwe rwa 649TH/s. **Bitaxe** ni umugambi w'inkomoko yuguruye** ushobora gusubira gukoresha mu buryo bworoshe igice c'umubiri kivuye kuri **ASIC** nka **Antminer S19** ku **inkomoko yuguruye** kugira ngo ukore aka Miner gatoyi ka 0.5TH/s ku 15W. Iyi ni Miner tuzokoresha nk’akarorero muri iyi nyigisho.
+Mu mirongo mikeyi ya mbere, turashobora kubona **Bitaxe** ifise **Bitaxe** 1323 zihujwe ku rugero rwose hamwe rwa 649TH/s. **Bitaxe** ni umugambi w'inkomoko yuguruye** ushobora gusubira gukoresha mu buryo bworoshe igice c'umubiri kivuye kuri **[ASIC](https://planb.academy/resources/glossary/asic)** nka **Antminer S19** ku **inkomoko yuguruye** kugira ngo ukore aka Miner gatoyi ka 0.5TH/s ku 15W. Iyi ni Miner tuzokoresha nk’akarorero muri iyi nyigisho.
 
 
 ## Kwongera **Umukozi** 👷‍♂️
@@ -83,7 +83,7 @@ Ku **Dashboard**, amakuru atandukanye yerekanwa ku makuru yawe no ku rubuga.
 Ufise **Igiciro c'urubuga Hash** gihuye n'ubushobozi bwose bwo gukora bw'urubuga **Bitcoin**.
 
 
-**Ingorane y'urubuga** yerekana ingorane itegerezwa gushikwako kugira ngo umuntu yemeze ububiko.
+**[Ingorane](https://planb.academy/resources/glossary/difficulty) y'urubuga** yerekana ingorane itegerezwa gushikwako kugira ngo umuntu yemeze ububiko.
 
 
 Kandi **Ingorane yawe nziza cane** ni yo ngorane yo hejuru cane washitseko. Iyo, ku mpanuka 🍀, ushitse ku ngorane y’uruja n’uruza, rero uratsinda Block reward yose... inyuma y’amabarabara 100. Wobwirizwa kurindira ama blocs 100 imbere y’uko ushobora kuyakoresha.

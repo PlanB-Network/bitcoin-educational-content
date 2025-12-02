@@ -35,10 +35,10 @@ Tervetuloa CYP201-kurssille, jossa tutkimme syvällisesti HD Bitcoin-lompakoiden
 Tämän koulutuksen tavoitteena on antaa sinulle avaimet päivittäin käyttämiesi työkalujen hallintaan. HD Bitcoin-lompakot, jotka ovat käyttökokemuksesi ytimessä, perustuvat joskus monimutkaisiin käsitteisiin, joita pyrimme tekemään ymmärrettäviksi. Yhdessä demystifioimme ne!
 
 Ennen kuin sukellamme Bitcoin-lompakoiden rakenteen ja toiminnan yksityiskohtiin, aloitamme muutamalla luvulla kryptografisista primitiiveistä, jotka on tiedettävä seuraavaa varten.
-Aloitamme kryptografisista hajautusfunktioista, jotka ovat olennaisia sekä lompakoille että itse Bitcoin-protokollalle. Löydät niiden pääominaisuudet, Bitcoinissa käytetyt erityiset funktiot ja teknisemmässä luvussa opit yksityiskohtaisesti hajautusfunktioiden kuningattaren, SHA256:n, toiminnasta.
+Aloitamme kryptografisista hajautusfunktioista, jotka ovat olennaisia sekä lompakoille että itse Bitcoin-protokollalle. Löydät niiden pääominaisuudet, Bitcoinissa käytetyt erityiset funktiot ja teknisemmässä luvussa opit yksityiskohtaisesti hajautusfunktioiden kuningattaren, [SHA256](https://planb.academy/resources/glossary/sha256):n, toiminnasta.
 ![CYP201](assets/en/001.webp)
 
-Seuraavaksi keskustelemme digitaalisten allekirjoitusalgoritmien toiminnasta, joita käytät joka päivä UTXO:idesi turvaamiseen. Bitcoin käyttää kahta: ECDSA:ta ja Schnorr-protokollaa. Opit, mitkä matemaattiset primitiivit ovat näiden algoritmien taustalla ja kuinka ne takaavat transaktioiden turvallisuuden.
+Seuraavaksi keskustelemme digitaalisten allekirjoitusalgoritmien toiminnasta, joita käytät joka päivä UTXO:idesi turvaamiseen. Bitcoin käyttää kahta: [ECDSA](https://planb.academy/resources/glossary/ecdsa):ta ja Schnorr-protokollaa. Opit, mitkä matemaattiset primitiivit ovat näiden algoritmien taustalla ja kuinka ne takaavat transaktioiden turvallisuuden.
 
 ![CYP201](assets/en/002.webp)
 
@@ -59,7 +59,7 @@ Tämä taulukko tarjoaa sinulle käännöksen käytetyistä keskeisistä englann
 | Englanti        | Käännös / Selitys                                                                                  |
 | --------------- | -------------------------------------------------------------------------------------------------- |
 | *pubkey hash*   | Julkisen avaimen tiiviste (käytetään Bitcoin-osoitteen luomiseen).                                 |
-| *public key*    | Julkinen avain (käytetään varojen vastaanottamiseen, johdettu yksityisestä avaimesta).              |
+| *[public key](https://planb.academy/resources/glossary/public-key)*    | Julkinen avain (käytetään varojen vastaanottamiseen, johdettu yksityisestä avaimesta).              |
 | *signature*     | Digitaalinen allekirjoitus (kryptografinen todiste siitä, että viesti on yksityisen avaimen haltijalta). |
 | *scriptPubKey*  | Lukitusskripti (määrittelee ehdot ulostulon käyttämiselle).                                         |
 | *scriptSig*     | Avainskripti (antaa tiedot *scriptPubKey*:n täyttämiseksi).                                         |
@@ -75,7 +75,7 @@ Tämä taulukko tarjoaa sinulle käännöksen käytetyistä keskeisistä englann
 | *HD Wallet*     | Hierarkkinen deterministinen lompakko (generoi useita avaimia yhdestä siemenestä).                  |
 | *Random Number* | Satunnaisluku (käytetään turvallisten yksityisten avainten luomiseen).                              |
 | *State*         | Tila (välivaiheen arvo kryptografisessa prosessissa).                                              |
-| *Entropy*       | Entropia (satunnaisuuden mitta, jota käytetään lompakon siementen luomiseen).                       |
+| *[Entropy](https://planb.academy/resources/glossary/entropy)*       | Entropia (satunnaisuuden mitta, jota käytetään lompakon siementen luomiseen).                       |
 | *Mnemonic*      | Mnemoniikka (sanajono, joka helpottaa siemenen varmuuskopiointia ja palautusta).                    |
 | *Wordlist*      | Sanalista (ennaltamäärätty sanajoukko, jota käytetään BIP39-mnemoniikkojen luomiseen).              |
 | *Seed*          | Siemen (alkuarvo, josta voidaan johtaa kaikki HD-lompakon avaimet).                                |

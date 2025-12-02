@@ -600,7 +600,7 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 #### Peer-to-peer e nessun organismo centrale
 
-Bitcoin è definito come un "sistema di contante elettronico peer-to-peer" Significa che chiunque può connettersi alla rete utilizzando il software appropriato (un nodo Bitcoin) e interagire direttamente con altri utenti, senza fare affidamento su un server centrale. L'obiettivo di questa decentralizzazione è quello di evitare che una singola entità (come una banca, un governo o una grande azienda) possa controllare, censurare o bloccare il sistema. Bitcoin opera 24 ore su 24, 7 giorni su 7 a livello globale, rimanendo accessibile a tutti senza alcuna condizione.
+Bitcoin è definito come un "sistema di contante elettronico peer-to-peer" Significa che chiunque può connettersi alla rete utilizzando il software appropriato (un [nodo](https://planb.academy/resources/glossary/node) Bitcoin) e interagire direttamente con altri utenti, senza fare affidamento su un server centrale. L'obiettivo di questa decentralizzazione è quello di evitare che una singola entità (come una banca, un governo o una grande azienda) possa controllare, censurare o bloccare il sistema. Bitcoin opera 24 ore su 24, 7 giorni su 7 a livello globale, rimanendo accessibile a tutti senza alcuna condizione.
 
 ![image](assets/it/034.webp)
 
@@ -1118,7 +1118,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 RGB è un sistema di Smart contract decentralizzato e incentrato sulla privacy, progettato per funzionare sopra Bitcoin e Lightning Network. A differenza delle piattaforme smart contract tradizionali, RGB utilizza un modello Client-side Validation (il che significa che l'intero stato del contratto, Contract State, è memorizzato off-chain e solo i commitment crittografici sono pubblicati sulla blockchain di Bitcoin). Questo design migliora sia la scalabilità che la privacy. Con RGB gli utenti possono creare smart contract avanzati per l'emissione di token, NFT, identità decentralizzate o persino applicazioni DeFi, direttamente su Bitcoin o Lightning.
 
-Una caratteristica fondamentale di RGB è la sua protezione nei confronti del Double-spending, ottenuta con una tecnica crittografica chiamata Single-use Seals. Questo meccanismo si basa sul fatto che gli UTXO (Unspent Transaction Output) di Bitcoin possono essere spesi una sola volta. L'autenticità dei token è garantita dalla convalida lato utente dell'intera storia dello smart contract (dalla sua creazione al suo stato attuale).
+Una caratteristica fondamentale di RGB è la sua protezione nei confronti del Double-spending, ottenuta con una tecnica crittografica chiamata Single-use Seals. Questo meccanismo si basa sul fatto che gli [UTXO](https://planb.academy/resources/glossary/utxo) (Unspent Transaction Output) di Bitcoin possono essere spesi una sola volta. L'autenticità dei token è garantita dalla convalida lato utente dell'intera storia dello smart contract (dalla sua creazione al suo stato attuale).
 
 ![image](assets/it/062.webp)
 
@@ -1250,7 +1250,7 @@ Anche la tua quotidianità gioca un ruolo importante nella gestione dei bitcoin.
 
 **Tempo o interesse limitati?** Opta per soluzioni semplici e automatizzate, come acquisti programmati che vengono trasferiti automaticamente in un deposito sicuro.
 
-**Esperto di tecnologia o dell'approccio pratico?** Potresti preferire soluzioni più avanzate come i wallet multisig, che offrono maggiore controllo e sicurezza.
+**Esperto di tecnologia o dell'approccio pratico?** Potresti preferire soluzioni più avanzate come i wallet [multisig](https://planb.academy/resources/glossary/multisig), che offrono maggiore controllo e sicurezza.
 
 **Investi per i tuoi cari o per le generazioni future? ** Pensa per tempo all'eredità. Ci sono modi per assicurarsi che i tuoi bitcoin possano essere tramandati in modo sicuro se ti succede qualcosa.
 

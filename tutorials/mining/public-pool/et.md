@@ -15,7 +15,7 @@ description: Sissejuhatus Avalikku Basseini
 
 ![signup](assets/2.webp)
 
-Esimestes ridadest näeme **Bitaxe**'i 1323 **Bitaxe**'iga, kokku 649TH/s. **Bitaxe** on **avatud lähtekoodiga** projekt, mis võimaldab lihtsalt taaskasutada kiipi **ASIC**'ist nagu **Antminer S19** avatud lähtekoodiga elektroonilisel plaadil, et teha väike kaevur 0.5TH/s 15W jaoks. See on kaevur, mida kasutame selle õpetuse näitena.
+Esimestes ridadest näeme **Bitaxe**'i 1323 **Bitaxe**'iga, kokku 649TH/s. **Bitaxe** on **avatud lähtekoodiga** projekt, mis võimaldab lihtsalt taaskasutada kiipi **[ASIC](https://planb.academy/resources/glossary/asic)**'ist nagu **Antminer S19** avatud lähtekoodiga elektroonilisel plaadil, et teha väike kaevur 0.5TH/s 15W jaoks. See on kaevur, mida kasutame selle õpetuse näitena.
 
 ## Lisades **Töötaja** 👷‍♂️
 

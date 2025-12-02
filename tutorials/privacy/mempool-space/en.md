@@ -27,7 +27,7 @@ In this tutorial, we'll look at the **Mempool.space** project, its features and 
 **Mempool.space** is an open-source explorer that provides useful information on transactions, transaction fees, blocks and miners on the various Bitcoin protocol networks. Launched in 2020, it brings a significant improvement in user experience through representative graphics, smooth animations and uncluttered interfaces.
 
 
-To understand the project, a [Mempool](https://planb.academy/en/resources/glossary/mempool) (memory pool) is a virtual space in which all transactions awaiting confirmation on the Bitcoin network are stored. A Mempool is like a "waiting room" where Bitcoin transactions wait to be confirmed. Each computer on the network (node) has its own waiting room, which explains why not all transactions are visible to everyone at the same time.
+To understand the project, a [Mempool](https://planb.academy/resources/glossary/mempool) (memory pool) is a virtual space in which all transactions awaiting confirmation on the Bitcoin network are stored. A Mempool is like a "waiting room" where Bitcoin transactions wait to be confirmed. Each computer on the network (node) has its own waiting room, which explains why not all transactions are visible to everyone at the same time.
 
 
 The main impact of the platform in the Bitcoin ecosystem is that it allows you to access the varied information in the memory areas of most of the nodes present on Bitcoin without needing to run one. Mempool.space is a repository for viewing and searching Bitcoin protocol networks.

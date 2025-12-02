@@ -50,7 +50,7 @@ Tämän kurssin tavoitteena ei ole tehdä sinusta täysin anonyymiä käyttäess
 
 **Jakso 1: Määritelmät ja keskeiset käsitteet**
 
-Aluksi käymme läpi Bitcoinin toimintaa ohjaavat perusperiaatteet, jotta voimme sitten rauhassa käsitellä luottamuksellisuuteen liittyviä käsitteitä. On tärkeää hallita muutamia peruskäsitteitä, kuten UTXO, osoitteiden vastaanottaminen ja skriptaaminen, ennen kuin voit täysin ymmärtää käsitteet, joita käsittelemme seuraavissa osioissa. Esittelemme myös Bitcoinin yleisen luottamuksellisuusmallin, sellaisena kuin Satoshi Nakamoto sen kuvitteli, jonka avulla voimme hahmottaa siihen liittyvät panokset ja riskit.
+Aluksi käymme läpi Bitcoinin toimintaa ohjaavat perusperiaatteet, jotta voimme sitten rauhassa käsitellä luottamuksellisuuteen liittyviä käsitteitä. On tärkeää hallita muutamia peruskäsitteitä, kuten [UTXO](https://planb.academy/resources/glossary/utxo), osoitteiden vastaanottaminen ja skriptaaminen, ennen kuin voit täysin ymmärtää käsitteet, joita käsittelemme seuraavissa osioissa. Esittelemme myös Bitcoinin yleisen luottamuksellisuusmallin, sellaisena kuin Satoshi Nakamoto sen kuvitteli, jonka avulla voimme hahmottaa siihen liittyvät panokset ja riskit.
 
 ![BTC204](assets/fi/001.webp)
 
@@ -66,7 +66,7 @@ Koulutuskurssimme kolmannessa osiossa siirrymme itse asiaan: harjoitteluun! Tavo
 
 ![BTC204](assets/fi/003.webp)
 
-**Jakso 4: Coinjoin-transaktioiden ymmärtäminen**
+**Jakso 4: [Coinjoin](https://planb.academy/resources/glossary/coinjoin)-transaktioiden ymmärtäminen**
 
 Miten voimme puhua Bitcoinin yksityisyydestä mainitsematta kolikkoliitoksia? Luvussa 4 saat selville kaiken, mitä sinun tarvitsee tietää tästä yhdistämismenetelmästä. Saat tietää, mitä coinjoinit ovat, niiden historian ja tavoitteet sekä erilaiset olemassa olevat coinjoin-tyypit. Kokeneemmille käyttäjille kerrotaan lopuksi, mitä anonsetit ja entropia ovat ja miten ne lasketaan.
 
@@ -572,7 +572,7 @@ Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec
 
 Jälkimmäisestä nähdään, että tulo nro 0 ja lähtö nro 1 käyttävät P2WPKH-skriptejä (SegWit V0), kun taas lähtö nro 0 käyttää eri P2PKH-skriptiä (Legacy).
 
-2010-luvun alussa tämä skriptien versiointiin perustuva heuristiikka oli suhteellisen hyödytön, koska käytettävissä oli vain vähän skriptityyppejä. Ajan myötä ja peräkkäisten Bitcoin-päivitysten myötä skriptityyppejä on kuitenkin otettu käyttöön yhä enemmän. Tästä heuristiikasta on siis tulossa yhä merkityksellisempi, sillä skriptityyppien laajemman valikoiman myötä käyttäjät jakautuvat pienempiin ryhmiin, mikä lisää mahdollisuuksia soveltaa tätä sisäisen versioinnin uudelleenkäytön heuristiikkaa. Tästä syystä pelkästään luottamuksellisuuden näkökulmasta on suositeltavaa valita yleisin käsikirjoitustyyppi. Esimerkiksi näitä rivejä kirjoittaessani Taproot-skriptejä (`bc1p`) käytetään harvemmin kuin SegWit V0 -skriptejä (`bc1q`). Vaikka edelliset tarjoavat taloudellisia ja luottamuksellisuutta koskevia etuja tietyissä erityistilanteissa, perinteisemmissä yhden allekirjoituksen käyttötarkoituksissa voi olla järkevää pitäytyä vanhemmassa standardissa luottamuksellisuussyistä, kunnes uusi standardi otetaan laajemmin käyttöön.
+2010-luvun alussa tämä skriptien versiointiin perustuva heuristiikka oli suhteellisen hyödytön, koska käytettävissä oli vain vähän skriptityyppejä. Ajan myötä ja peräkkäisten Bitcoin-päivitysten myötä skriptityyppejä on kuitenkin otettu käyttöön yhä enemmän. Tästä heuristiikasta on siis tulossa yhä merkityksellisempi, sillä skriptityyppien laajemman valikoiman myötä käyttäjät jakautuvat pienempiin ryhmiin, mikä lisää mahdollisuuksia soveltaa tätä sisäisen versioinnin uudelleenkäytön heuristiikkaa. Tästä syystä pelkästään luottamuksellisuuden näkökulmasta on suositeltavaa valita yleisin käsikirjoitustyyppi. Esimerkiksi näitä rivejä kirjoittaessani [Taproot](https://planb.academy/resources/glossary/taproot)-skriptejä (`bc1p`) käytetään harvemmin kuin [SegWit](https://planb.academy/resources/glossary/segwit) V0 -skriptejä (`bc1q`). Vaikka edelliset tarjoavat taloudellisia ja luottamuksellisuutta koskevia etuja tietyissä erityistilanteissa, perinteisemmissä yhden allekirjoituksen käyttötarkoituksissa voi olla järkevää pitäytyä vanhemmassa standardissa luottamuksellisuussyistä, kunnes uusi standardi otetaan laajemmin käyttöön.
 
 ### Pyöreät numeromaksut
 

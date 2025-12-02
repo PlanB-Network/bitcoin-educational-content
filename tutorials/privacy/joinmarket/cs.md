@@ -1,7 +1,7 @@
 ---
 name: JoinMarket
 
-description: Průvodce a návod, jak používat JoinMarket k provádění CoinJoin přes Bitcoin prostřednictvím příkazového řádku
+description: Průvodce a návod, jak používat JoinMarket k provádění [CoinJoin](https://planb.academy/resources/glossary/coinjoin) přes Bitcoin prostřednictvím příkazového řádku
 ---
 
 ![cover](assets/cover.webp)

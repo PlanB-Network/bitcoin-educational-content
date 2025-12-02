@@ -4,7 +4,7 @@ goal: Scoprire i fondamenti di Bitcoin, tra cui la proposta di valore monetario,
 objectives:
   - Acquisire una conoscenza generale di Bitcoin come tecnologia
   - Capire come acquistare e mettere al sicuro bitcoin
-  - Avere una comprensione generale della tecnologia alla base della Blockchain
+  - Avere una comprensione generale della tecnologia alla base della [Blockchain](https://planb.academy/resources/glossary/blockchain)
   - Familiarizzare con il concetto di Lightning Network
   - Comprendere l'impatto geopolitico e sociale di Bitcoin
 ---
@@ -399,7 +399,7 @@ Rivedremo il concetto di mining in modo più dettagliato nel [capitolo sul minin
 
 ### Garanzia di scarsità digitale
 
-Il limite di 21 milioni è alla base della scarsità di Bitcoin ed è garantito da due meccanismi chiave: l'aggiustamento della difficoltà (che influenza il mining) e la teoria dei giochi.
+Il limite di 21 milioni è alla base della scarsità di Bitcoin ed è garantito da due meccanismi chiave: l'aggiustamento della [difficoltà](https://planb.academy/resources/glossary/difficulty) (che influenza il mining) e la teoria dei giochi.
 
 - L'aggiustamento della difficoltà è un processo che avviene ogni 2016 blocchi, ovvero circa due settimane, per garantire che un nuovo blocco venga aggiunto alla blockchain in media ogni dieci minuti circa. Questa frequenza di creazione dei blocchi e la quantità totale di bitcoin sono entrambi aspetti immutabili del protocollo Bitcoin e non possono essere modificati senza un consenso generale, a differenza delle decisioni arbitrarie prese nei sistemi monetari tradizionali.
 
@@ -467,7 +467,7 @@ I wallet possono quindi essere classificati in ampie famiglie di utilizzo, sempr
 
 ### Come funziona un wallet Bitcoin?
 
-Che si tratti del vostro "banchiere" Bitcoin o di voi stessi, la stragrande maggioranza dei wallet funziona con una tecnologia simile a tutti, basata sulla crittografia asimmetrica, che prevede un sistema di coppie di chiavi: una chiave privata per spendere e una chiave pubblica per ricevere.
+Che si tratti del vostro "banchiere" Bitcoin o di voi stessi, la stragrande maggioranza dei wallet funziona con una tecnologia simile a tutti, basata sulla crittografia asimmetrica, che prevede un sistema di coppie di chiavi: una [chiave privata](https://planb.academy/resources/glossary/private-key) per spendere e una [chiave pubblica](https://planb.academy/resources/glossary/public-key) per ricevere.
 
 - Chiave privata
 
@@ -685,7 +685,7 @@ Immediatamente l'iniziativa non ha suscitato entusiasmo, probabilmente a causa d
 
 ![image](assets/it/039.webp)
 
-Il 3 gennaio 2009 Satoshi ha inaugurato ufficialmente la rete Bitcoin creando il primo blocco, noto anche come "blocco Genesi", che ha segnato il lancio della blockchain Bitcoin. Questo blocco contiene un messaggio rivelatore che riflette la missione di Bitcoin: "03/gen/2009 Il cancelliere sull'orlo del secondo salvataggio delle banche" 
+Il 3 gennaio 2009 Satoshi ha inaugurato ufficialmente la rete Bitcoin creando il primo blocco, noto anche come "[blocco Genesi](https://planb.academy/resources/glossary/genesis-block)", che ha segnato il lancio della blockchain Bitcoin. Questo blocco contiene un messaggio rivelatore che riflette la missione di Bitcoin: "03/gen/2009 Il cancelliere sull'orlo del secondo salvataggio delle banche" 
 
 ![image](assets/it/040.webp)
 
@@ -835,7 +835,7 @@ In seguito a questa vittoria, i nodi hanno attivato un aggiornamento chiamato Se
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**I miner proteggono la rete e aggiungono blocchi transazioni alla blockchain. Utilizzano l'elettricità per alimentare macchine ASIC, le quali risolvono la proof-of-work di Bitcoin.**
+**I miner proteggono la rete e aggiungono blocchi transazioni alla blockchain. Utilizzano l'elettricità per alimentare macchine [ASIC](https://planb.academy/resources/glossary/asic), le quali risolvono la proof-of-work di Bitcoin.**
 
 ![image](assets/it/054.webp)
 

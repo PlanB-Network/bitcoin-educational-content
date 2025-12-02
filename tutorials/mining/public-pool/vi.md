@@ -15,7 +15,7 @@ Trên **Bảng Điều Khiển** của **Hồ Bơi Công Cộng**, bạn vẫn c
 
 ![signup](assets/2.webp)
 
-Trong vài dòng đầu tiên, chúng ta có thể thấy **Bitaxe** với 1323 **Bitaxe** được kết nối cho tổng cộng 649TH/s. **Bitaxe** là một dự án **Mã nguồn mở** cho phép tái sử dụng đơn giản một chip từ một **ASIC** như **Antminer S19** trên một bảng mạch điện tử **mã nguồn mở** để tạo ra một máy đào nhỏ với 0.5TH/s cho 15W. Đây là máy đào mà chúng tôi sẽ sử dụng làm ví dụ cho hướng dẫn này.
+Trong vài dòng đầu tiên, chúng ta có thể thấy **Bitaxe** với 1323 **Bitaxe** được kết nối cho tổng cộng 649TH/s. **Bitaxe** là một dự án **Mã nguồn mở** cho phép tái sử dụng đơn giản một chip từ một **[ASIC](https://planb.academy/resources/glossary/asic)** như **Antminer S19** trên một bảng mạch điện tử **mã nguồn mở** để tạo ra một máy đào nhỏ với 0.5TH/s cho 15W. Đây là máy đào mà chúng tôi sẽ sử dụng làm ví dụ cho hướng dẫn này.
 
 ## Thêm một **Người Lao Động** 👷‍♂️
 

@@ -15,7 +15,7 @@ Di **Dashboard** dari **Kolam Umum**, Anda masih memiliki beberapa statistik sep
 
 ![signup](assets/2.webp)
 
-Dalam beberapa baris pertama, kita dapat melihat **Bitaxe** dengan 1323 **Bitaxe** terhubung untuk total 649TH/s. **Bitaxe** adalah proyek **Sumber Terbuka** yang memungkinkan penggunaan kembali chip dari **ASIC** seperti **Antminer S19** pada papan elektronik **sumber terbuka** untuk membuat penambang kecil 0.5TH/s dengan 15W. Ini adalah penambang yang akan kita gunakan sebagai contoh untuk tutorial ini.
+Dalam beberapa baris pertama, kita dapat melihat **Bitaxe** dengan 1323 **Bitaxe** terhubung untuk total 649TH/s. **Bitaxe** adalah proyek **Sumber Terbuka** yang memungkinkan penggunaan kembali chip dari **[ASIC](https://planb.academy/resources/glossary/asic)** seperti **Antminer S19** pada papan elektronik **sumber terbuka** untuk membuat penambang kecil 0.5TH/s dengan 15W. Ini adalah penambang yang akan kita gunakan sebagai contoh untuk tutorial ini.
 
 ## Menambahkan **Pekerja** 👷‍♂️
 
@@ -55,7 +55,7 @@ Di **Dashboard**, berbagai informasi ditampilkan baik tentang data Anda maupun t
 
 Anda memiliki **Network Hash Rate** yang sesuai dengan total kekuatan kerja dari jaringan **Bitcoin**.
 
-**Network Difficulty** menunjukkan kesulitan yang harus dicapai untuk memvalidasi sebuah blok.
+**Network Difficulty** menunjukkan [kesulitan](https://planb.academy/resources/glossary/difficulty) yang harus dicapai untuk memvalidasi sebuah blok.
 
 Dan **Your Best Difficulty** adalah kesulitan tertinggi yang telah Anda capai. Jika, dengan keberuntungan 🍀, Anda mencapai kesulitan jaringan, maka Anda memenangkan seluruh hadiah blok... setelah 100 blok. Anda harus menunggu 100 blok sebelum dapat menghabiskannya.
 

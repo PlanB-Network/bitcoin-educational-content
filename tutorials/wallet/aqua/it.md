@@ -8,7 +8,7 @@ Aqua è un'applicazione mobile che semplifica la creazione di un portafoglio cal
 
 Sviluppata dalla società JAN3 sotto la direzione di Samson Mow, l'applicazione Aqua è stata inizialmente progettata specificamente per le esigenze degli utenti dell'America Latina, anche se è adatta a qualsiasi utente in tutto il mondo. È particolarmente interessante per i principianti e per coloro che utilizzano quotidianamente i Bitcoin per i loro pagamenti.
 
-In questo tutorial scopriremo come utilizzare le numerose funzionalità di Aqua. Ma prima di farlo, cerchiamo di capire cos'è una sidechain su Bitcoin e come funziona Liquid, in modo da poter comprendere appieno il valore di Aqua.
+In questo tutorial scopriremo come utilizzare le numerose funzionalità di Aqua. Ma prima di farlo, cerchiamo di capire cos'è una [sidechain](https://planb.academy/resources/glossary/sidechain) su Bitcoin e come funziona Liquid, in modo da poter comprendere appieno il valore di Aqua.
 
 ![AQUA](assets/fr/01.webp)
 

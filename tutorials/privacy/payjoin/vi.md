@@ -17,7 +17,7 @@ Vào năm 2015, [LaurentMT](https://twitter.com/LaurentMT) lần đầu tiên đ
 - P2EP (Pay-to-End-Point)
 - Giao dịch Steganographic
 
-Điểm độc đáo của Payjoin nằm ở khả năng tạo ra một giao dịch có vẻ bình thường ở cái nhìn đầu tiên nhưng thực chất là một mini Coinjoin giữa hai bên. Để thực hiện điều này, cấu trúc giao dịch bao gồm sự tham gia của người nhận thanh toán cùng với người gửi thực sự trong các input. Người nhận bao gồm một khoản thanh toán cho chính họ ở giữa giao dịch, điều này cho phép họ được thanh toán.
+Điểm độc đáo của Payjoin nằm ở khả năng tạo ra một giao dịch có vẻ bình thường ở cái nhìn đầu tiên nhưng thực chất là một mini [Coinjoin](https://planb.academy/resources/glossary/coinjoin) giữa hai bên. Để thực hiện điều này, cấu trúc giao dịch bao gồm sự tham gia của người nhận thanh toán cùng với người gửi thực sự trong các input. Người nhận bao gồm một khoản thanh toán cho chính họ ở giữa giao dịch, điều này cho phép họ được thanh toán.
 
 Hãy lấy một ví dụ cụ thể: nếu bạn mua một ổ bánh mì với giá `4000 sats` sử dụng một UTXO của `10,000 sats` và chọn Payjoin, người bán bánh mì của bạn sẽ thêm một UTXO của `15,000 sats` thuộc về họ như một input, mà họ sẽ nhận đầy đủ như một output, ngoài ra còn có `4000 sats` của bạn:
 ![Sơ đồ giao dịch Payjoin](assets/en/1.webp)

@@ -10,7 +10,7 @@ description: Braiins Havuzuna Giriş
 Eskiden Slush Pool olarak bilinen Braiins Pool, ilk Bitcoin Mining pool'dır. Kasım 2010'da kurulmuş ve ilk bloğunu 16 Aralık 2010'da 97834 numaralı blok olarak çıkarmıştır.
 
 
-Mayıs 2024 itibariyle Braiins Havuzu, toplam Bitcoin Hashrate'nin yaklaşık %1,8'ini temsil eden 13 EH/s'lik bir hesaplama gücüne sahiptir. Toplam 1.307.188 bitcoin çıkarmıştır ki bu da var olabilecek maksimum 21 milyon bitcoinin yaklaşık %6'sına tekabül etmektedir.
+Mayıs 2024 itibariyle Braiins Havuzu, toplam Bitcoin [Hashrate](https://planb.academy/resources/glossary/hashrate)'nin yaklaşık %1,8'ini temsil eden 13 EH/s'lik bir hesaplama gücüne sahiptir. Toplam 1.307.188 bitcoin çıkarmıştır ki bu da var olabilecek maksimum 21 milyon bitcoinin yaklaşık %6'sına tekabül etmektedir.
 
 
 ### Tazminat Sistemi

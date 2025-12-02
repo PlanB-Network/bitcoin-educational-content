@@ -262,7 +262,7 @@ Przed kliknięciem łącza lub podjęciem jakichkolwiek działań należy zawsze
 #### Bitcoin Hardforks
 
 
-Na przestrzeni lat Bitcoin doświadczyła kilku *Hard forków*, które doprowadziły do powstania alternatywnych wersji oryginalnej kryptowaluty. Mówiąc prościej, *Hard Fork* to podział sieci, który prowadzi do dwóch oddzielnych łańcuchów bloków, z których oba mają tę samą historię aż do momentu podziału. Forki te zwykle mają miejsce, gdy część społeczności programistów lub szerszego ekosystemu Bitcoin chce wprowadzić poważne zmiany w oryginalnym protokole, ale nie może osiągnąć powszechnego konsensusu. Zamiast porzucić swoje pomysły, decydują się na uruchomienie nowej wersji Bitcoin (ze zmienionymi zasadami), mając nadzieję, że użytkownicy i górnicy zdecydują się zamiast tego podążać za Fork.
+Na przestrzeni lat Bitcoin doświadczyła kilku *Hard forków*, które doprowadziły do powstania alternatywnych wersji oryginalnej kryptowaluty. Mówiąc prościej, *Hard [Fork](https://planb.academy/resources/glossary/fork)* to podział sieci, który prowadzi do dwóch oddzielnych łańcuchów bloków, z których oba mają tę samą historię aż do momentu podziału. Forki te zwykle mają miejsce, gdy część społeczności programistów lub szerszego ekosystemu Bitcoin chce wprowadzić poważne zmiany w oryginalnym protokole, ale nie może osiągnąć powszechnego konsensusu. Zamiast porzucić swoje pomysły, decydują się na uruchomienie nowej wersji Bitcoin (ze zmienionymi zasadami), mając nadzieję, że użytkownicy i górnicy zdecydują się zamiast tego podążać za Fork.
 
 
 ![image](assets/pl/011.webp)
@@ -593,7 +593,7 @@ Bitcoin jest otwarty dla każdego, ale to nie znaczy, że powinieneś nurkować 
 
 
 
-- **Utrata frazy seed:** Fraza odzyskiwania (zwykle 12 lub 24 słowa) to jedyny sposób na uzyskanie dostępu do Bitcoin, jeśli coś stanie się z Wallet. Jeśli ją utracisz, Twoje środki przepadną na stałe;
+- **Utrata frazy seed:** [Fraza odzyskiwania](https://planb.academy/resources/glossary/recovery-phrase) (zwykle 12 lub 24 słowa) to jedyny sposób na uzyskanie dostępu do Bitcoin, jeśli coś stanie się z Wallet. Jeśli ją utracisz, Twoje środki przepadną na stałe;
 - **Przechowywanie bitcoinów na platformie zewnętrznej:** Jeśli twoje monety znajdują się na scentralizowanej platformie, tak naprawdę nie jesteś ich właścicielem. Jesteś narażony na ryzyko, takie jak włamania, awarie platformy, a nawet przejęcie środków;
 - **Zaniedbywanie prywatności:** Ochrona prywatności jest kluczowym elementem zabezpieczania swoich aktywów. Publiczne ujawnienie ilości posiadanych Bitcoin może sprawić, że staniesz się celem;
 - **Niewystarczające zabezpieczenia online:** Niezabezpieczenie urządzeń za pomocą podstawowych zabezpieczeń (takich jak aktualizacje, silne hasła lub 2FA) sprawia, że jesteś łatwym celem dla atakujących; i może kosztować cię wszystko.
@@ -1007,7 +1007,7 @@ Chociaż podejście to jest bardziej techniczne, oferuje najbardziej wymagający
 #### Odporna, transgraniczna metoda płatności
 
 
-Ze względu na swój zdecentralizowany charakter, Bitcoin działa 24 godziny na dobę, 7 dni w tygodniu, bez względu na granice czy strefy czasowe. W regionach, w których brakuje tradycyjnej infrastruktury bankowej, Bitcoin jest często wykorzystywany jako szybkie, tanie rozwiązanie do wysyłania lub odbierania środków bez polegania na drogich pośrednikach. Chociaż opłaty transakcyjne mogą się różnić w zależności od przeciążenia sieci, są one generalnie znacznie niższe niż opłaty pobierane przez banki za przelewy międzynarodowe. Ponadto rozwiązania Layer-2, takie jak Lightning Network, pozwalają na jeszcze szybsze i tańsze transakcje Bitcoin.
+Ze względu na swój zdecentralizowany charakter, Bitcoin działa 24 godziny na dobę, 7 dni w tygodniu, bez względu na granice czy strefy czasowe. W regionach, w których brakuje tradycyjnej infrastruktury bankowej, Bitcoin jest często wykorzystywany jako szybkie, tanie rozwiązanie do wysyłania lub odbierania środków bez polegania na drogich pośrednikach. Chociaż opłaty transakcyjne mogą się różnić w zależności od przeciążenia sieci, są one generalnie znacznie niższe niż opłaty pobierane przez banki za przelewy międzynarodowe. Ponadto rozwiązania Layer-2, takie jak [Lightning Network](https://planb.academy/resources/glossary/lightning-network), pozwalają na jeszcze szybsze i tańsze transakcje Bitcoin.
 
 
 #### Magazyn wartości
@@ -1538,7 +1538,7 @@ Branża Bitcoin Wallet jest podzielona na kilka kategorii, z których każda zas
 
 
 
-- **Producenci Hardware Wallet**: Firmy te opracowują fizyczne urządzenia przeznaczone do bezpiecznego przechowywania kluczy. Niektóre z nich są typu open-source, podczas gdy inne oferują własne rozwiązania o różnych funkcjach i poziomach bezpieczeństwa. Godne uwagi nazwy to Ledger, Trezor, Coinkite, Foundation i Shiftcrypto.
+- **Producenci [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet)**: Firmy te opracowują fizyczne urządzenia przeznaczone do bezpiecznego przechowywania kluczy. Niektóre z nich są typu open-source, podczas gdy inne oferują własne rozwiązania o różnych funkcjach i poziomach bezpieczeństwa. Godne uwagi nazwy to Ledger, Trezor, Coinkite, Foundation i Shiftcrypto.
 - **Deweloperzy Software Wallet**: Są to zarówno firmy, jak i niezależni deweloperzy tworzący aplikacje mobilne i desktopowe. Ich oferty różnią się pod względem doświadczenia użytkownika, bezpieczeństwa i funkcji. Przykłady obejmują Sparrow, Wizard Sardine, Galoy, Synonym i Blockstream.
 - Portfele DIY (*Do It Yourself*): Te rozwiązania open-source są przeznaczone dla zaawansowanych użytkowników, którzy chcą mieć pełną kontrolę i minimalną zależność od stron trzecich. Zbudowanie własnego Wallet zmniejsza zależność od zaufania i może zwiększyć poziom bezpieczeństwa. Godne uwagi opcje DIY obejmują Seedsigner i Specter DIY.
 
@@ -1668,7 +1668,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 RGB to zdecentralizowany i skoncentrowany na prywatności system Smart contract zaprojektowany do pracy na Bitcoin i Lightning Network. W przeciwieństwie do tradycyjnych platform Smart contract, RGB wykorzystuje model Client-side Validation (co oznacza, że pełny Contract State jest przechowywany na off-chain, a tylko zobowiązania kryptograficzne są publikowane na Bitcoin Blockchain). Taka konstrukcja poprawia zarówno skalowalność, jak i prywatność. Dzięki RGB użytkownicy mogą tworzyć zaawansowane inteligentne kontrakty do wydawania tokenów, NFT, zdecentralizowanych tożsamości, a nawet aplikacji DeFi, bezpośrednio na Bitcoin lub Lightning.
 
 
-Kluczową cechą RGB jest jego ochrona przed Double-spending, osiągnięta przy użyciu techniki kryptograficznej zwanej Single-use Seals. Mechanizm ten opiera się na fakcie, że UTXO (Unspent Transaction Outputs) Bitcoin mogą być wydane tylko raz. Autentyczność tokenów jest zapewniona przez walidację po stronie użytkownika całej historii Contract (od jego utworzenia do bieżącego stanu).
+Kluczową cechą RGB jest jego ochrona przed Double-spending, osiągnięta przy użyciu techniki kryptograficznej zwanej Single-use Seals. Mechanizm ten opiera się na fakcie, że [UTXO](https://planb.academy/resources/glossary/utxo) (Unspent Transaction Outputs) Bitcoin mogą być wydane tylko raz. Autentyczność tokenów jest zapewniona przez walidację po stronie użytkownika całej historii Contract (od jego utworzenia do bieżącego stanu).
 
 
 ![image](assets/pl/062.webp)
@@ -1700,7 +1700,7 @@ Obecnie dostępnych jest wiele narzędzi dla sprzedawców, którzy chcą akcepto
 Jeśli wolisz rozwiązanie typu hands-off i chcesz otrzymywać walutę fiducjarną bezpośrednio na swoje konto bankowe, usługi powiernicze, takie jak OpenNode, oferują usprawnione doświadczenie:
 
 
-https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-[node](https://planb.academy/resources/glossary/node)-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Dla sprzedawców, którzy są bardziej zaawansowani technicznie i chcą mieć pełną kontrolę nad procesem, BTCPay Server jest fantastyczną opcją open-source. Główną wadą jest to, że wymaga czasu na konfigurację i utrzymanie, a także pewnej wiedzy technicznej:
 
@@ -1863,7 +1863,7 @@ Twoje codzienne życie również odgrywa dużą rolę w sposobie zarządzania bi
 **Wybierz proste, zautomatyzowane rozwiązania, takie jak zaplanowane zakupy, które automatycznie przenoszą się do bezpiecznego magazynu.**
 
 
-**Być może wolisz bardziej zaawansowane rozwiązania, takie jak portfele Multisig, które oferują większą kontrolę i bezpieczeństwo.**
+**Być może wolisz bardziej zaawansowane rozwiązania, takie jak portfele [Multisig](https://planb.academy/resources/glossary/multisig), które oferują większą kontrolę i bezpieczeństwo.**
 
 
 **Inwestowanie dla bliskich lub przyszłych pokoleń ** Pomyśl wcześnie o dziedziczeniu. Istnieją sposoby, aby upewnić się, że twoje bitcoiny mogą zostać bezpiecznie przekazane, jeśli coś ci się stanie.

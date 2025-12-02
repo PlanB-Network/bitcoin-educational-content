@@ -262,7 +262,7 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 #### Bitcoin 硬叉
 
 
-多年來，Bitcoin 經歷了數次 *Hard 分叉*，導致原始加密貨幣的替代版本產生。簡單來說，*Hard Fork* 是網路的分裂，導致兩個獨立的區塊鏈，兩者在分裂之前共享相同的歷史。當部分開發者社群或更廣泛的 Bitcoin 生態系統想要對原始通訊協定進行重大變更，但無法達成廣泛共識時，通常會發生這些分叉。他們不會放棄自己的想法，而是決定推出一個新版本的 Bitcoin（改變規則），希望使用者和礦工選擇跟隨他們的 Fork。
+多年來，Bitcoin 經歷了數次 *Hard 分叉*，導致原始加密貨幣的替代版本產生。簡單來說，*Hard [Fork](https://planb.academy/resources/glossary/fork)* 是網路的分裂，導致兩個獨立的區塊鏈，兩者在分裂之前共享相同的歷史。當部分開發者社群或更廣泛的 Bitcoin 生態系統想要對原始通訊協定進行重大變更，但無法達成廣泛共識時，通常會發生這些分叉。他們不會放棄自己的想法，而是決定推出一個新版本的 Bitcoin（改變規則），希望使用者和礦工選擇跟隨他們的 Fork。
 
 
 ![image](assets/zh-Hant/011.webp)
@@ -903,7 +903,7 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 #### 點對點，沒有中央機構
 
 
-Bitcoin 被定義為 「點對點電子現金系統」。這意味著任何人都可以使用適當的軟體（Bitcoin 節點）連接至網路，並直接與其他使用者互動，而無需依賴中央伺服器。這種去中心化的目標是防止任何單一實體（如銀行、政府或大型企業）控制、審查或停止系統。Bitcoin 在全球範圍內全天候運作，每個人都可以無條件使用。
+Bitcoin 被定義為 「點對點電子現金系統」。這意味著任何人都可以使用適當的軟體（Bitcoin [節點](https://planb.academy/resources/glossary/node)）連接至網路，並直接與其他使用者互動，而無需依賴中央伺服器。這種去中心化的目標是防止任何單一實體（如銀行、政府或大型企業）控制、審查或停止系統。Bitcoin 在全球範圍內全天候運作，每個人都可以無條件使用。
 
 
 ![image](assets/zh-Hant/034.webp)
@@ -1007,7 +1007,7 @@ Bitcoin 允許任何人透過在自己的電腦或伺服器上執行「節點」
 #### 彈性的跨境支付方式
 
 
-由於其分散性，Bitcoin 全天候運作，不受國界或時區的影響。在缺乏傳統銀行基礎設施的地區，Bitcoin 常常被用來作為快速、低成本的收發資金解決方案，而無需依賴昂貴的中介。雖然交易費用會因網路壅塞情況而有所不同，但通常遠低於銀行收取的國際轉帳費用。此外，Lightning Network 等 Layer-2 解決方案可讓 Bitcoin 交易更快速、更便宜。
+由於其分散性，Bitcoin 全天候運作，不受國界或時區的影響。在缺乏傳統銀行基礎設施的地區，Bitcoin 常常被用來作為快速、低成本的收發資金解決方案，而無需依賴昂貴的中介。雖然交易費用會因網路壅塞情況而有所不同，但通常遠低於銀行收取的國際轉帳費用。此外，[Lightning Network](https://planb.academy/resources/glossary/lightning-network) 等 Layer-2 解決方案可讓 Bitcoin 交易更快速、更便宜。
 
 
 #### 價值儲存
@@ -1538,7 +1538,7 @@ Bitcoin Wallet 產業分為幾個類別，每個類別都迎合不同的需求�
 
 
 
-- **Hardware Wallet 製造商**：這些公司開發設計用於安全金鑰儲存的實體裝置。有些是開放原始碼，有些則提供具有不同功能和安全層級的專屬解決方案。著名的公司包括 Ledger、Trezor、Coinkite、Foundation 和 Shiftcrypto。
+- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) 製造商**：這些公司開發設計用於安全金鑰儲存的實體裝置。有些是開放原始碼，有些則提供具有不同功能和安全層級的專屬解決方案。著名的公司包括 Ledger、Trezor、Coinkite、Foundation 和 Shiftcrypto。
 - **Software Wallet 開發人員**：從公司到獨立開發者，他們都在開發行動和桌上型應用程式。他們提供的產品在使用者體驗、安全性和功能方面各有不同。例如 Sparrow、Wizard Sardine、Galoy、Synonym 和 Blockstream。
 - DIY (*Do It Yourself*) 錢包：這些開放原始碼解決方案專為想要完全控制並盡量減少對第三方依賴的進階使用者所設計。建立您自己的 Wallet 可減少信任依賴，並可增加您的安全姿勢。著名的 DIY 選項包括 **Seedsigner** 和 **Specter DIY**。
 
@@ -1863,7 +1863,7 @@ Bitcoin 與傳統資產不同。它需要深思熟慮的方法，以及對使用
 **選擇簡單、自動化的解決方案；例如排程購買，自動轉移到安全的儲存空間。**
 
 
-**您可能會喜歡更先進的解決方案，例如 Multisig 錢包，它提供更強大的控制力和安全性。**
+**您可能會喜歡更先進的解決方案，例如 [Multisig](https://planb.academy/resources/glossary/multisig) 錢包，它提供更強大的控制力和安全性。**
 
 
 **為親人或後代投資？**及早考慮繼承的問題。有一些方法可以確保您的比特幣在您發生事故時可以安全地傳遞下去。
@@ -2453,7 +2453,7 @@ Hodling 簡單、有效且容易上手，即使是初學者也能輕鬆上手。
 
 
 
-- **Hot Wallet**：手機或桌上型電腦錢包是初學者的理想選擇，可讓您輕鬆接收 Sats 並進行付款。然而，它們最適合小額交易。On-Chain 錢包比 Lightning 錢包更適合堆疊使用，因為 UTXO 的管理更好。推薦軟體錢包：Green Wallet、Blue Wallet、Sparrow Wallet、Bitkit、Nunchuk、Aqua、Proton
+- **Hot Wallet**：手機或桌上型電腦錢包是初學者的理想選擇，可讓您輕鬆接收 Sats 並進行付款。然而，它們最適合小額交易。On-Chain 錢包比 Lightning 錢包更適合堆疊使用，因為 [UTXO](https://planb.academy/resources/glossary/utxo) 的管理更好。推薦軟體錢包：Green Wallet、Blue Wallet、Sparrow Wallet、Bitkit、Nunchuk、Aqua、Proton
 
 
 https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
@@ -3077,7 +3077,7 @@ https://planb.academy/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-5
 
 
 
-- 避免 Address 重複使用，可以手動或使用 Silent Payments 或 **BIP 等先進工具47**；
+- 避免 Address 重複使用，可以手動或使用 Silent Payments 或 **[BIP](https://planb.academy/resources/glossary/bip) 等先進工具47**；
 - 標示您的 **UTXO**；
 - 花費時間練習角落控制**；**
 - 避免 **UTXOs 合併**；

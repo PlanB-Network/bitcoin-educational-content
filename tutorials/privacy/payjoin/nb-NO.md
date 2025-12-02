@@ -17,7 +17,7 @@ I 2015 nevnte [LaurentMT](https://twitter.com/LaurentMT) først denne metoden so
 - P2EP (Pay-to-End-Point)
 - Steganografisk transaksjon
 
-Det unike med Payjoin ligger i dens evne til å generere en transaksjon som ved første øyekast ser vanlig ut, men som faktisk er en mini Coinjoin mellom to parter. For å oppnå dette involverer transaksjonsstrukturen betalingsmottakeren sammen med den faktiske avsenderen i inngangene. Mottakeren inkluderer en betaling til seg selv midt i transaksjonen, noe som gjør det mulig for dem å bli betalt.
+Det unike med Payjoin ligger i dens evne til å generere en transaksjon som ved første øyekast ser vanlig ut, men som faktisk er en mini [Coinjoin](https://planb.academy/resources/glossary/coinjoin) mellom to parter. For å oppnå dette involverer transaksjonsstrukturen betalingsmottakeren sammen med den faktiske avsenderen i inngangene. Mottakeren inkluderer en betaling til seg selv midt i transaksjonen, noe som gjør det mulig for dem å bli betalt.
 
 La oss ta et konkret eksempel: hvis du kjøper en baguette for `4000 sats` ved å bruke en UTXO på `10,000 sats` og velger en Payjoin, vil bakeren din legge til en UTXO på `15,000 sats` som tilhører dem som en inngang, som de vil motta i sin helhet som en utgang, i tillegg til dine `4000 sats`:
 ![Payjoin transaksjonsdiagram](assets/en/1.webp)

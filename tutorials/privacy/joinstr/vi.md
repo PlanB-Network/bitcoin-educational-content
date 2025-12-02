@@ -27,7 +27,7 @@ Joinstr là một công cụ nguồn mở cách mạng hóa phương pháp CoinJ
 
 
 
-**Kiến trúc phi tập trung**: Mạng lưới Nostr thay thế bộ điều phối trung tâm. Người tham gia tạo hoặc tham gia "nhóm" bằng cách đăng thông báo được mã hóa qua các rơ le Nostr. Thông tin này (số lượng, người tham gia, địa chỉ) sẽ không được các rơ le hiểu được, đảm bảo rằng không một thực thể trung tâm nào có thể giám sát, kiểm duyệt hoặc lọc CoinJoin.
+**Kiến trúc phi tập trung**: Mạng lưới Nostr thay thế bộ điều phối trung tâm. Người tham gia tạo hoặc tham gia "nhóm" bằng cách đăng thông báo được mã hóa qua các rơ le Nostr. Thông tin này (số lượng, người tham gia, địa chỉ) sẽ không được các rơ le hiểu được, đảm bảo rằng không một thực thể trung tâm nào có thể giám sát, kiểm duyệt hoặc lọc [CoinJoin](https://planb.academy/resources/glossary/coinjoin).
 
 
 

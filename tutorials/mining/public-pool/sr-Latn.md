@@ -6,7 +6,7 @@ description: Uvod u javni bazen
 ![signup](assets/cover.webp)
 
 
-**Public Pool** nije samo bilo koji bazen; to je ono što je takođe poznato kao **Solo Pool**. Ako vaš Miner uspe u Mining bloku, onda prikupljate ceo Block reward, koji se ne deli sa drugim učesnicima bazena ili sa samim bazenom.
+**Public Pool** nije samo bilo koji bazen; to je ono što je takođe poznato kao **Solo Pool**. Ako vaš [Miner](https://planb.academy/resources/glossary/miner) uspe u Mining bloku, onda prikupljate ceo Block reward, koji se ne deli sa drugim učesnicima bazena ili sa samim bazenom.
 
 
 **Public Pool** isključivo pruža **blok šablon** za vaš Miner kako bi mogao obavljati svoj zadatak bez potrebe da imate **Bitcoin čvor** i softver koji komunicira sa vašim Miner. Pošto ne udružujete svoju računarsku snagu sa snagom drugih učesnika, vaše šanse da uspešno Mining blok su očigledno vrlo male, podsećajući donekle na sistem lutrije, gde ponekad srećni pojedinac osvoji džekpot.
@@ -21,7 +21,7 @@ Na **Dashboardu** **Public Pool-a**, i dalje imate neke statistike kao što je *
 ![signup](assets/2.webp)
 
 
-U prvim redovima možemo videti **Bitaxe** sa 1323 **Bitaxe** povezanih za ukupno 649TH/s. **Bitaxe** je **Open source** projekat koji omogućava jednostavno ponovno korišćenje čipa iz **ASIC** poput **Antminer S19** na **opensource** elektronskoj ploči kako bi se napravio mali Miner od 0.5TH/s za 15W. Ovo je Miner koji ćemo koristiti kao primer za ovaj tutorijal.
+U prvim redovima možemo videti **Bitaxe** sa 1323 **Bitaxe** povezanih za ukupno 649TH/s. **Bitaxe** je **Open source** projekat koji omogućava jednostavno ponovno korišćenje čipa iz **[ASIC](https://planb.academy/resources/glossary/asic)** poput **Antminer S19** na **opensource** elektronskoj ploči kako bi se napravio mali Miner od 0.5TH/s za 15W. Ovo je Miner koji ćemo koristiti kao primer za ovaj tutorijal.
 
 
 ## Dodavanje **Radnika** 👷‍♂️
@@ -83,7 +83,7 @@ Na **Dashboardu**, prikazane su različite informacije kako o vašim podacima, t
 Imate **Network Hash Rate** što odgovara ukupnoj radnoj snazi mreže **Bitcoin**.
 
 
-**Težina mreže** označava težinu koju treba dostići da bi se blok validirao.
+**[Težina](https://planb.academy/resources/glossary/difficulty) mreže** označava težinu koju treba dostići da bi se blok validirao.
 
 
 I **Vaša Najbolja Težina** je najveća težina koju ste dostigli. Ako, slučajno 🍀, dostignete težinu mreže, tada osvajate ceo Block reward... nakon 100 blokova. Morali biste da sačekate 100 blokova pre nego što budete mogli da ih potrošite.

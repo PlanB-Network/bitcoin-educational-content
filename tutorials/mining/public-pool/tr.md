@@ -6,7 +6,7 @@ description: Halka Açık Havuza Giriş
 ![signup](assets/cover.webp)
 
 
-**Halka Açık Havuz** herhangi bir havuz değildir; **Solo Havuz** olarak da bilinir. Miner'niz bir bloğu Mining yapmayı başarırsa, havuzun diğer katılımcılarıyla veya havuzun kendisiyle paylaşılmayan tüm Block reward'ı toplarsınız.
+**Halka Açık Havuz** herhangi bir havuz değildir; **Solo Havuz** olarak da bilinir. [Miner](https://planb.academy/resources/glossary/miner)'niz bir bloğu Mining yapmayı başarırsa, havuzun diğer katılımcılarıyla veya havuzun kendisiyle paylaşılmayan tüm Block reward'ı toplarsınız.
 
 
 **Halka Açık Havuz** yalnızca Miner'iniz için bir **blok şablonu** sağlar, böylece bir **Bitcoin düğümüne** ve Miner'inizle iletişim kuran yazılıma sahip olmanıza gerek kalmadan görevini yerine getirebilir. Bilgi işlem gücünüzü diğer katılımcılarınkiyle bir araya getirmediğiniz için, bir bloğu başarılı bir şekilde Mining yapma şansınız açıkça çok düşüktür, bu da bazen şanslı bir bireyin büyük ikramiyeyi kazandığı bir piyango sistemini andırır.
@@ -21,7 +21,7 @@ Halka Açık Havuzun **Gösterge Tablosunda**, havuzun **Toplam Hashrate** gibi 
 ![signup](assets/2.webp)
 
 
-İlk birkaç satırda, toplam 649TH/s için bağlı 1323 **Bitaxe** ile **Bitaxe** görebiliriz. **Bitaxe**, **Antminer S19** gibi bir **ASIC** çipinin, 15W için 0,5TH/s'lik küçük bir Miner yapmak için bir **opensource** elektronik kart üzerinde basit bir şekilde yeniden kullanılmasına izin veren bir **Açık kaynak** projesidir. Bu ders için örnek olarak kullanacağımız Miner budur.
+İlk birkaç satırda, toplam 649TH/s için bağlı 1323 **Bitaxe** ile **Bitaxe** görebiliriz. **Bitaxe**, **Antminer S19** gibi bir **[ASIC](https://planb.academy/resources/glossary/asic)** çipinin, 15W için 0,5TH/s'lik küçük bir Miner yapmak için bir **opensource** elektronik kart üzerinde basit bir şekilde yeniden kullanılmasına izin veren bir **Açık kaynak** projesidir. Bu ders için örnek olarak kullanacağımız Miner budur.
 
 
 ## Bir **İşçi** Ekleme 👷‍♂️

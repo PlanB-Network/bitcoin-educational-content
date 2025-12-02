@@ -341,7 +341,7 @@ Joinstr-applikationen är organiserad i tre huvudflikar:
 
 
 - Hem**: Startskärm
-- Pooler**: Skapa och hantera CoinJoin-pooler
+- Pooler**: Skapa och hantera [CoinJoin](https://planb.academy/resources/glossary/coinjoin)-pooler
 - Inställningar**: Konfiguration av applikation
 
 

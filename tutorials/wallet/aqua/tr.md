@@ -11,7 +11,7 @@ Aqua, Bitcoin ve Liquid için bir Hot Wallet oluşturmayı kolaylaştıran ve ay
 Samson Mow yönetimindeki JAN3 şirketi tarafından geliştirilen Aqua uygulaması, dünya çapındaki tüm kullanıcılar için uygun olmasına rağmen, başlangıçta özellikle Latin Amerika'daki kullanıcıların ihtiyaçları için tasarlanmıştır. Özellikle yeni başlayanlar ve ödemeleri için günlük olarak Bitcoin kullananlar için ilgi çekicidir.
 
 
-Bu eğitimde, Aqua'ün birçok özelliğini nasıl kullanacağımızı öğreneceğiz. Ancak bunu yapmadan önce, Sidechain'in Bitcoin'de ne olduğunu ve Liquid'ün nasıl çalıştığını anlamak için bir dakikanızı ayıralım, böylece Aqua'ün değerini tam olarak kavrayabiliriz.
+Bu eğitimde, Aqua'ün birçok özelliğini nasıl kullanacağımızı öğreneceğiz. Ancak bunu yapmadan önce, [Sidechain](https://planb.academy/resources/glossary/sidechain)'in Bitcoin'de ne olduğunu ve Liquid'ün nasıl çalıştığını anlamak için bir dakikanızı ayıralım, böylece Aqua'ün değerini tam olarak kavrayabiliriz.
 
 
 ![AQUA](assets/fr/01.webp)

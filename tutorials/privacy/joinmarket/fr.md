@@ -1,7 +1,7 @@
 ---
 name: JoinMarket
 
-description: Guide et tutoriel sur l'utilisation de JoinMarket pour faire du CoinJoin sur du Bitcoin via la ligne de commande
+description: Guide et tutoriel sur l'utilisation de JoinMarket pour faire du [CoinJoin](https://planb.academy/resources/glossary/coinjoin) sur du Bitcoin via la ligne de commande
 ---
 
 ![cover](assets/cover.webp)

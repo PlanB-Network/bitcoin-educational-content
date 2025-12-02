@@ -1,6 +1,6 @@
 ---
 name: Umbrel
-description: Scoprire e installare Umbrel - Il vostro nodo Bitcoin e il vostro server domestico
+description: Scoprire e installare Umbrel - Il vostro [nodo](https://planb.academy/resources/glossary/node) Bitcoin e il vostro server domestico
 ---
 
 ![cover](assets/cover.webp)
@@ -21,7 +21,7 @@ Un nodo Bitcoin è un computer che partecipa alla rete Bitcoin eseguendo il soft
 
 
 
-- **Archiviazione Blockchain**: Mantiene una copia completa e aggiornata del Blockchain Bitcoin
+- **Archiviazione [Blockchain](https://planb.academy/resources/glossary/blockchain)**: Mantiene una copia completa e aggiornata del Blockchain Bitcoin
 - **Verifica delle transazioni**: convalida ogni transazione e blocco in base alle regole del protocollo
 - **Diffusione delle informazioni**: Condivide le nuove transazioni e i blocchi con gli altri nodi
 - **Creazione del consenso**: Contribuisce all'applicazione delle regole della rete

@@ -4,7 +4,7 @@ description: Bitcoin, Lightning and Liquid in a single wallet
 ---
 ![cover](assets/cover.webp)
 
-Aqua is a mobile application that makes it easy to create a [hot wallet](https://planb.academy/en/resources/glossary/hot-wallet--software-wallet) for Bitcoin and Liquid, and also offers the possibility of using Lightning without the complexity of managing a node, thanks to integrated swaps. It also enables USDT stablecoins to be managed on various networks.
+Aqua is a mobile application that makes it easy to create a [hot wallet](https://planb.academy/resources/glossary/hot-wallet--software-wallet) for Bitcoin and Liquid, and also offers the possibility of using Lightning without the complexity of managing a node, thanks to integrated swaps. It also enables USDT stablecoins to be managed on various networks.
 
 Developed by the JAN3 company under the direction of Samson Mow, the Aqua app was initially designed specifically for the needs of users in Latin America, although it is suitable for any user worldwide. It is particularly interesting for beginners and those who use Bitcoin on a daily basis for their payments.
 
@@ -16,7 +16,7 @@ In this tutorial, we're going to find out how to use Aqua's many features. But b
 
 The Bitcoin protocol has intentional technical limitations which help to maintain the network's decentralization and ensure security is distributed among all users. However, these limitations can sometimes frustrate users, particularly during congestion due to a high volume of simultaneous transactions. The debate over Bitcoin's scalability has long divided the community, particularly during the Blocksize War. Since this episode, it is widely recognized within the Bitcoin community that scalability must be ensured by off-chain solutions, on second-layer systems. These solutions include sidechains, which are still relatively unknown and little used compared to other systems such as the Lightning Network.
 
-A [sidechain](https://planb.academy/en/resources/glossary/sidechain) is an independent blockchain that operates in parallel with the main Bitcoin blockchain. It uses bitcoin as a unit of account, thanks to a mechanism called "*two-way peg*". This system makes it possible to lock bitcoins on the main chain in order to reproduce their value on the sidechain, where they circulate in the form of tokens backed by the original bitcoins. These tokens normally retain parity of value with the bitcoins locked on the main chain, and the process can be reversed to recover funds on Bitcoin.
+A [sidechain](https://planb.academy/resources/glossary/sidechain) is an independent blockchain that operates in parallel with the main Bitcoin blockchain. It uses bitcoin as a unit of account, thanks to a mechanism called "*two-way peg*". This system makes it possible to lock bitcoins on the main chain in order to reproduce their value on the sidechain, where they circulate in the form of tokens backed by the original bitcoins. These tokens normally retain parity of value with the bitcoins locked on the main chain, and the process can be reversed to recover funds on Bitcoin.
 
 The aim of sidechains is to offer additional functionalities or technical improvements, such as faster transactions, lower fees or support for smart contracts. These innovations cannot always be implemented directly on the Bitcoin blockchain without compromising its decentralization or security. Sidechains therefore make it possible to test and explore new solutions while preserving Bitcoin's integrity. However, these protocols often require compromises, particularly in terms of decentralization and security, depending on the governance model and consensus mechanism chosen.
 
@@ -56,7 +56,7 @@ And voilà, your wallet is already created!
 
 ![AQUA](assets/fr/08.webp)
 
-But first of all, since this is a self-custody wallet, it is imperative to make a physical backup of your [mnemonic](https://planb.academy/en/resources/glossary/mnemonic-phrase). **This mnemonic gives you full, unrestricted access to all your bitcoins**. Anyone in possession of this mnemonic can steal your funds, even without physical access to your phone.
+But first of all, since this is a self-custody wallet, it is imperative to make a physical backup of your [mnemonic](https://planb.academy/resources/glossary/mnemonic-phrase). **This mnemonic gives you full, unrestricted access to all your bitcoins**. Anyone in possession of this mnemonic can steal your funds, even without physical access to your phone.
 
 It allows you to restore access to your bitcoins in the event of loss, theft or breakage of your phone. It is therefore very important to save it carefully on a physical medium (not digital) and store it in a secure location. You can write it down on a piece of paper, or for added security, if this is a large wallet, I'd recommend engraving it on a stainless steel support to protect it from the risk of fire, flood or collapse (for a hot wallet designed to secure a small quantity of bitcoins, a simple paper backup is probably sufficient).
 

@@ -17,7 +17,7 @@ En 2015, [LaurentMT](https://twitter.com/LaurentMT) mencionó por primera vez es
 - P2EP (Pay-to-End-Point)
 - Transacción esteganográfica
 
-La singularidad de Payjoin radica en su capacidad para generar una transacción que parece ordinaria a primera vista, pero que en realidad es una mini Coinjoin entre dos partes. Para lograr esto, la estructura de la transacción involucra al destinatario del pago junto con el remitente real en las entradas. El destinatario incluye un pago a sí mismo en medio de la transacción, lo que les permite recibir el pago.
+La singularidad de Payjoin radica en su capacidad para generar una transacción que parece ordinaria a primera vista, pero que en realidad es una mini [Coinjoin](https://planb.academy/resources/glossary/coinjoin) entre dos partes. Para lograr esto, la estructura de la transacción involucra al destinatario del pago junto con el remitente real en las entradas. El destinatario incluye un pago a sí mismo en medio de la transacción, lo que les permite recibir el pago.
 
 Tomemos un ejemplo concreto: si compras una baguette por `4000 sats` utilizando una UTXO de `10,000 sats` y optas por un Payjoin, tu panadero agregará una UTXO de `15,000 sats` que les pertenece como entrada, la cual recibirán en su totalidad como salida, además de tus `4000 sats`:
 ![Diagrama de transacción Payjoin](assets/es/1.webp)

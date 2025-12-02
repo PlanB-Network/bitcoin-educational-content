@@ -341,7 +341,7 @@ A aplicação Joinstr está organizada em três separadores principais:
 
 
 - Início**: Ecrã inicial
-- Pools**: Criando e gerenciando pools CoinJoin
+- Pools**: Criando e gerenciando pools [CoinJoin](https://planb.academy/resources/glossary/coinjoin)
 - Definições**: Configuração da aplicação
 
 

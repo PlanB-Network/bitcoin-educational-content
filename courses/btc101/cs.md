@@ -4,7 +4,7 @@ goal: Objevte základy bitcoinu, včetně jeho peněžní hodnoty, těžařů, t
 objectives:
   - Získejte obecné znalosti o technologii Bitcoin
   - Zjistěte, jak nakupovat a zabezpečit bitcoiny
-  - Mít obecné znalosti o technologii Blockchain
+  - Mít obecné znalosti o technologii [Blockchain](https://planb.academy/resources/glossary/blockchain)
   - Seznámení s konceptem sítě Lightning Network
   - Uvědomte si geopolitický a sociální dopad Bitcoinu
 ---
@@ -370,7 +370,7 @@ Výsledkem procesu těžby je vznik nových bitcoinů. Stručně řečeno, těž
 
 ![image](assets/cs/022.webp)
 
-Po úspěšném splnění tohoto úkolu jsou těžaři odměněni vydáním nových bitcoinů každých deset minut. Tato odměna je naprogramována tak, aby se každých 210 000 bloků, tedy přibližně každé čtyři roky, snížila na polovinu (událost známá jako "halving"), což dává křivce emise peněz schodovitý tvar. Díky tomuto mechanismu lze matematicky předpovědět, že tvorba nových bitcoinů se zastaví kolem roku 2140, kdy jejich celkový počet dosáhne hranice 21 milionů.
+Po úspěšném splnění tohoto úkolu jsou těžaři odměněni vydáním nových bitcoinů každých deset minut. Tato odměna je naprogramována tak, aby se každých 210 000 bloků, tedy přibližně každé čtyři roky, snížila na polovinu (událost známá jako "[halving](https://planb.academy/resources/glossary/halving)"), což dává křivce emise peněz schodovitý tvar. Díky tomuto mechanismu lze matematicky předpovědět, že tvorba nových bitcoinů se zastaví kolem roku 2140, kdy jejich celkový počet dosáhne hranice 21 milionů.
 
 | Číslo půlení | Výška bloku | Odměna za BTC po půlení  | Odhadovaný počet BTC v oběhu po půlení |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -467,7 +467,7 @@ Portfolia lze tedy rozdělit do širokých skupin použití, které se vždy sou
 
 ### Jak funguje peněženka Bitcoin?
 
-Ať už je to váš "bankéř" nebo vy sami, naprostá většina peněženek Bitcoin pracuje s podobnou technologií založenou na asymetrické kryptografii, která zahrnuje systém dvojic klíčů: soukromý klíč pro utrácení a veřejný klíč pro příjem.
+Ať už je to váš "bankéř" nebo vy sami, naprostá většina peněženek Bitcoin pracuje s podobnou technologií založenou na asymetrické kryptografii, která zahrnuje systém dvojic klíčů: soukromý klíč pro utrácení a [veřejný klíč](https://planb.academy/resources/glossary/public-key) pro příjem.
 
 - Soukromý klíč
 
@@ -679,7 +679,7 @@ Nyní, když jsme se seznámili se základy bitcoinových peněženek a nejlepš
 
 ![image](assets/cs/038.webp)
 
-31. října 2008 se zrodila nová finanční technologie, kterou je Bitcoin. V tento den anonymní Satoshi Nakamoto představil světu svou inovaci prostřednictvím e-mailu zaslaného do poštovní konference cypherpunks, komunity nadšenců do kryptografie, která se věnuje podpoře soukromí na internetu. Tento e-mail obsahoval dokument nazvaný "Bílá kniha", který představoval, jak Bitcoin funguje.
+31. října 2008 se zrodila nová finanční technologie, kterou je Bitcoin. V tento den anonymní Satoshi Nakamoto představil světu svou inovaci prostřednictvím e-mailu zaslaného do poštovní konference cypherpunks, komunity nadšenců do kryptografie, která se věnuje podpoře soukromí na internetu. Tento e-mail obsahoval dokument nazvaný "[Bílá kniha](https://planb.academy/resources/glossary/white-paper)", který představoval, jak Bitcoin funguje.
 
 Tato iniciativa nevyvolala okamžité nadšení, pravděpodobně kvůli předchozím neúspěchům při pokusech o vytvoření digitálních hotovostních systémů. Přesto se tato Bílá kniha nakonec stala referencí pro uživatele bitcoinu a v průběhu let se stala předmětem mnoha debat v ekosystému bitcoinu.
 
@@ -836,7 +836,7 @@ Po tomto vítězství uzly aktivovaly aktualizaci nazvanou SegWit, čímž přip
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Těžaři zabezpečují síť a přidávají transakce do bloků. K řešení bitcoinových důkazů práce používají elektřinu prostřednictvím strojů ASIC**
+**Těžaři zabezpečují síť a přidávají transakce do bloků. K řešení bitcoinových důkazů práce používají elektřinu prostřednictvím strojů [ASIC](https://planb.academy/resources/glossary/asic)**
 
 ![image](assets/cs/054.webp)
 

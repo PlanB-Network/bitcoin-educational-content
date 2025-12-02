@@ -6,7 +6,7 @@ description: 公共游泳池簡介
 ![signup](assets/cover.webp)
 
 
-**Public Pool** 並非一般的 Pool；它也是所謂的 **Solo Pool**。如果您的 Miner 成功地 Mining 了一個區塊，那麼您就會收集到整個 Block reward，這筆錢不會與池中的其他參與者分享，也不會與池本身分享。
+**Public Pool** 並非一般的 Pool；它也是所謂的 **Solo Pool**。如果您的 [Miner](https://planb.academy/resources/glossary/miner) 成功地 Mining 了一個區塊，那麼您就會收集到整個 Block reward，這筆錢不會與池中的其他參與者分享，也不會與池本身分享。
 
 
 **公共池**僅提供一個**區塊範本**給您的 Miner，讓它可以執行任務，而不需要您擁有**Bitcoin 節點**以及與您的 Miner 通訊的軟體。由於您沒有將您的運算能力與其他參與者的運算能力匯集在一起，因此您成功 Mining 一個區塊的機率顯然非常低，有點像是抽獎系統，有時候會有幸運兒中大獎。
@@ -21,7 +21,7 @@ description: 公共游泳池簡介
 ![signup](assets/2.webp)
 
 
-在前幾行，我們可以看到 **Bitaxe** 連接了 1323 個 **Bitaxe**，總速度為 649TH/s。 **Bitaxe** 是一個**開放原始碼**專案，可以在**開放原始碼**的電子板上，簡單地重複使用**ASIC**（如**Antminer S19**）的晶片，製造出 15W 下 0.5TH/s 的微型 Miner。這就是本教學所要使用的 Miner。
+在前幾行，我們可以看到 **Bitaxe** 連接了 1323 個 **Bitaxe**，總速度為 649TH/s。 **Bitaxe** 是一個**開放原始碼**專案，可以在**開放原始碼**的電子板上，簡單地重複使用**[ASIC](https://planb.academy/resources/glossary/asic)**（如**Antminer S19**）的晶片，製造出 15W 下 0.5TH/s 的微型 Miner。這就是本教學所要使用的 Miner。
 
 
 ## 新增**工作人員** 👷‍♂️

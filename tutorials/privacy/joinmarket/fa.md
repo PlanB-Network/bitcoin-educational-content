@@ -1,7 +1,7 @@
 ---
 name: JoinMarket
 
-description: راهنما و آموزش نحوه استفاده از JoinMarket برای انجام CoinJoin بر روی Bitcoin از طریق خط فرمان
+description: راهنما و آموزش نحوه استفاده از JoinMarket برای انجام [CoinJoin](https://planb.academy/resources/glossary/coinjoin) بر روی Bitcoin از طریق خط فرمان
 ---
 
 ![cover](assets/cover.webp)

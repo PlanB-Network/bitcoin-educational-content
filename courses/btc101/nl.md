@@ -4,8 +4,8 @@ goal: Ontdek de fundamenten van Bitcoin, waaronder de monetaire waardepropositie
 objectives: 
   - Een algemeen begrip krijgen van de Bitcoin technologie
   - Begrijpen hoe je bitcoins kunt kopen en beveiligen
-  - Een algemeen begrip hebben van de Blockchain technologie
-  - Vertrouwd raken met het concept van Lightning Network
+  - Een algemeen begrip hebben van de [Blockchain](https://planb.academy/resources/glossary/blockchain) technologie
+  - Vertrouwd raken met het concept van [Lightning Network](https://planb.academy/resources/glossary/lightning-network)
   - Begrip krijgen van de geopolitieke en sociale impact van Bitcoin
 ---
 
@@ -29,7 +29,7 @@ Welkom bij de BTC101-cursus!
 
 Bitcoin is een technologische en monetaire revolutie, die in staat is onze relatie met geld en de maatschappij in twijfel te trekken. In feite is Bitcoin (ook wel BTC genoemd) een **neutrale** en **decentrale** valuta, wat betekent dat het niet gecontroleerd wordt door een entiteit of instelling. Het is een innovatie die verder gaat dan een gewone "internetvaluta": het is zowel een computerprotocol (Bitcoin) als een munteenheid (bitcoin).
 
-Het Bitcoin protocol maakt gebruik van onderliggende technologieën zoals cryptografie, netwerkcommunicatie en de beroemde "blockchain", terwijl de bitcoin munteenheid dient als de noodzakelijke valuta voor het goed functioneren van dit protocol. In het dagelijks leven gebruiken Salvadoranen en bitcoiners over de hele wereld de bitcoin valuta om goederen en diensten te kopen en verkopen, vertrouwend op deze technologie om hun leven te verbeteren.
+Het Bitcoin protocol maakt gebruik van onderliggende technologieën zoals [cryptografie](https://planb.academy/resources/glossary/cryptography), netwerkcommunicatie en de beroemde "blockchain", terwijl de bitcoin munteenheid dient als de noodzakelijke valuta voor het goed functioneren van dit protocol. In het dagelijks leven gebruiken Salvadoranen en bitcoiners over de hele wereld de bitcoin valuta om goederen en diensten te kopen en verkopen, vertrouwend op deze technologie om hun leven te verbeteren.
 
 **Een uitgebreid maar toegankelijk curriculum:**
 
@@ -366,7 +366,7 @@ De creatie van nieuwe bitcoins is het resultaat van het mining proces. In een no
 
 ![image](assets/nl/022.webp)
 
-Na het succesvol uitvoeren van deze taak, worden miners elke tien minuten beloond met de uitgifte van nieuwe bitcoins. Deze beloning is geprogrammeerd om elke 210.000 blokken te halveren, wat ongeveer elke vier jaar is (een gebeurtenis die bekend staat als "halving (halvering)"), waardoor de monetaire uitgiftecurve een trapvorm krijgt. Door dit mechanisme kan wiskundig worden voorspeld dat de creatie van nieuwe bitcoins zal stoppen tegen het jaar 2140, wanneer het totale aantal de limiet van 21 miljoen bereikt.
+Na het succesvol uitvoeren van deze taak, worden miners elke tien minuten beloond met de uitgifte van nieuwe bitcoins. Deze beloning is geprogrammeerd om elke 210.000 blokken te halveren, wat ongeveer elke vier jaar is (een gebeurtenis die bekend staat als "[halving](https://planb.academy/resources/glossary/halving) (halvering)"), waardoor de monetaire uitgiftecurve een trapvorm krijgt. Door dit mechanisme kan wiskundig worden voorspeld dat de creatie van nieuwe bitcoins zal stoppen tegen het jaar 2140, wanneer het totale aantal de limiet van 21 miljoen bereikt.
 
 | Halveringsnummer | Blockhoogte | BTC beloning na halvering | Geschatte BTC in omloop na halvering |
 | ---------------- | ----------- | ------------------------- | ------------------------------------ |
@@ -395,7 +395,7 @@ We zullen het concept van mining in meer detail bespreken in het [miner hoofdstu
 
 ### Digitale schaarste garanderen
 
-De grens van 21 miljoen is de basis van de schaarste van Bitcoin en wordt gegarandeerd door twee sleutelmechanismen: de aanpassing van de mining moeilijkheidsgraad en de speltheorie (game theory).
+De grens van 21 miljoen is de basis van de schaarste van Bitcoin en wordt gegarandeerd door twee sleutelmechanismen: de aanpassing van de mining [moeilijkheidsgraad](https://planb.academy/resources/glossary/difficulty) en de speltheorie (game theory).
 
 - De moeilijkheidsaanpassing van mining is een proces dat elke 2016 blokken plaatsvindt, wat neerkomt op ongeveer twee weken, en ervoor zorgt dat er gemiddeld elke tien minuten een nieuw blok aan de blockchain wordt toegevoegd. Deze frequentie van het creëren van de blokken en de totale hoeveelheid bitcoins zijn beide vaste aspecten van het Bitcoin protocol en kunnen niet worden veranderd zonder algemene consensus, in tegenstelling tot de arbitraire beslissingen die worden genomen in traditionele monetaire systemen.
 
@@ -465,7 +465,7 @@ Wallets kunnen dus worden onderverdeeld in brede gebruiksfamilies, waarbij steed
 
 ### Hoe werkt een Bitcoin wallet?
 
-Of het nu je Bitcoin "bankier" is of jezelf, de overgrote meerderheid van Bitcoin wallets werken met een vergelijkbare technologie gebaseerd op asymmetrische cryptografie, wat een systeem van sleutelparen inhoudt: een privésleutel voor het spenderen en een openbare sleutel voor het ontvangen.
+Of het nu je Bitcoin "bankier" is of jezelf, de overgrote meerderheid van Bitcoin wallets werken met een vergelijkbare technologie gebaseerd op asymmetrische cryptografie, wat een systeem van sleutelparen inhoudt: een privésleutel voor het spenderen en een [openbare sleutel](https://planb.academy/resources/glossary/public-key) voor het ontvangen.
 
 - Privésleutel
 
@@ -538,7 +538,7 @@ Je kunt bijvoorbeeld Sparrow Wallet gebruiken als hot wallet:
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-- **Niveau 2**, je gebruikt een fysieke wallet en je hebt je lijst van 12/24 woorden beveiligd. Dit wordt doorgaans een "cold wallet" genoemd, omdat je sleutels opgeslagen zijn op een apparaat dat niet verbonden is met het internet. In dit geval moet je elke transactie altijd ondertekenen met je apparaat, waardoor je tegoeden dagelijks minder toegankelijk is.
+- **Niveau 2**, je gebruikt een fysieke wallet en je hebt je lijst van 12/24 woorden beveiligd. Dit wordt doorgaans een "[cold wallet](https://planb.academy/resources/glossary/cold-wallet)" genoemd, omdat je sleutels opgeslagen zijn op een apparaat dat niet verbonden is met het internet. In dit geval moet je elke transactie altijd ondertekenen met je apparaat, waardoor je tegoeden dagelijks minder toegankelijk is.
 
 Je kunt bijvoorbeeld een Ledger, een Satochip of een Tapsigner gebruiken:
 
@@ -683,7 +683,7 @@ Dit initiatief wekte niet meteen enthousiasme op, waarschijnlijk vanwege de eerd
 
 ![image](assets/nl/039.webp)
 
-Op 3 januari 2009 opende Satoshi officieel het Bitcoin netwerk door het eerste blok te creëren, ook bekend als het "Genesis blok". Dit blok bevat een veelzeggende boodschap die de missie van Bitcoin weergeeft: "03/jan/2009 Kanselier op rand van tweede reddingsoperatie voor banken."
+Op 3 januari 2009 opende Satoshi officieel het Bitcoin netwerk door het eerste blok te creëren, ook bekend als het "[Genesis blok](https://planb.academy/resources/glossary/genesis-block)". Dit blok bevat een veelzeggende boodschap die de missie van Bitcoin weergeeft: "03/jan/2009 Kanselier op rand van tweede reddingsoperatie voor banken."
 
 ![image](assets/nl/040.webp)
 
@@ -835,7 +835,7 @@ Na deze overwinning activeerden de nodes een update genaamd SegWit, die de weg v
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Miners beveiligen het netwerk en voegen transacties toe aan de blokken. Ze gebruiken elektriciteit via ASIC machines om de Bitcoin proof of work op te lossen.**
+**Miners beveiligen het netwerk en voegen transacties toe aan de blokken. Ze gebruiken elektriciteit via [ASIC](https://planb.academy/resources/glossary/asic) machines om de Bitcoin proof of work op te lossen.**
 
 ![image](assets/nl/054.webp)
 
@@ -843,7 +843,7 @@ Na deze overwinning activeerden de nodes een update genaamd SegWit, die de weg v
 
 "Proof of Work (POW) is het veiligheidsconsensusmechanisme van het Bitcoin protocol. Het is de basis van alles en speelt een cruciale rol in de speltheorie van Bitcoin.
 
-Om uit te leggen hoe het werkt, stel je een universele loterij voor waaraan iedereen kan deelnemen. Het doel is om een specifiek getal te vinden waarmee de winnaar een geldig blok kan ondertekenen en een beloning in Bitcoin verdient. Dit getal is heel eenvoudig te verifiëren met de SHA-256 hash functie, maar moeilijk te vinden: deelnemers (miners) zullen miljarden en miljarden mogelijkheden proberen, zoals 1, 52, 2648, 26874615, 15344854131318631, enzovoort, totdat ze het juiste getal ontdekken.
+Om uit te leggen hoe het werkt, stel je een universele loterij voor waaraan iedereen kan deelnemen. Het doel is om een specifiek getal te vinden waarmee de winnaar een geldig blok kan ondertekenen en een beloning in Bitcoin verdient. Dit getal is heel eenvoudig te verifiëren met de SHA-256 [hash functie](https://planb.academy/resources/glossary/hash-function), maar moeilijk te vinden: deelnemers (miners) zullen miljarden en miljarden mogelijkheden proberen, zoals 1, 52, 2648, 26874615, 15344854131318631, enzovoort, totdat ze het juiste getal ontdekken.
 
 Als het gekozen nummer juist is: Jackpot! Anders gaat de zoektocht verder.
 Om het aantal pogingen te optimaliseren gebruiken ze specifieke machines, ASIC's genaamd, die als enige taak hebben om miljarden mogelijkheden per seconde te berekenen (de totale hoeveelheid pogingen wordt "HashRate" genoemd). Om deze machines te laten werken, moeten grote hoeveelheden elektriciteit worden verbruikt. Daarom zet POW energie om in geld en verbindt het de echte wereld met de digitale wereld om de eerste op energie gebaseerde munt te creëren.

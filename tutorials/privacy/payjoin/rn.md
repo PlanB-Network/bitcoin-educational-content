@@ -23,7 +23,7 @@ Mu mwaka w’2015, [LaurentMT](https://twitter.com/LaurentMT) yaravuze ubwa mber
 - Ibikorwa vy'ubucuruzi
 
 
-Ubudasa bwa PayJoin buri mu bushobozi bwayo bwo gukora generate igikorwa kimeze nk’igisanzwe iyo umuntu abibonye ubwa mbere ariko mu vy’ukuri ari mini CoinJoin hagati y’abantu babiri. Kugira ngo ivyo bishoboke, urutonde rw’ugucuruza rushiramwo uwuronka amahera iruhande y’uwurungika vy’ukuri mu vyo yinjiza. Uwuronka ashiramwo amahera yishura hagati mu vyo akora, ivyo bikaba bituma ashobora kwishurwa.
+Ubudasa bwa PayJoin buri mu bushobozi bwayo bwo gukora generate igikorwa kimeze nk’igisanzwe iyo umuntu abibonye ubwa mbere ariko mu vy’ukuri ari mini [CoinJoin](https://planb.academy/resources/glossary/coinjoin) hagati y’abantu babiri. Kugira ngo ivyo bishoboke, urutonde rw’ugucuruza rushiramwo uwuronka amahera iruhande y’uwurungika vy’ukuri mu vyo yinjiza. Uwuronka ashiramwo amahera yishura hagati mu vyo akora, ivyo bikaba bituma ashobora kwishurwa.
 
 
 Reka dufate akarorero nyako: iyo uguze baguette ku `4000 Sats` ukoresheje UTXO ya `10,000 Sats` maze ugahitamwo PayJoin, umutetsi wawe azokwongerako UTXO ya `15,000 Sats` nk’uko bazoronka nk’uko bazoronka, ku `4000 Sats` yawe:

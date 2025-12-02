@@ -177,7 +177,7 @@ Controleer altijd de identiteit van de afzender voordat je op een link klikt of 
 
 #### Bitcoin Hardforks
 
-In de loop der jaren heeft Bitcoin verschillende *hard forks* gekend, die resulteerden in de creatie van alternatieve versies van de originele cryptocurrency. Eenvoudig gezegd is een *hard Fork* een splitsing in het netwerk die leidt tot twee afzonderlijke blockchains, die beide dezelfde geschiedenis delen tot het moment van de splitsing. Deze splitsingen gebeuren meestal wanneer een deel van de ontwikkelaarsgemeenschap of het bredere Bitcoin ecosysteem grote veranderingen in het originele protocol wil introduceren, maar geen brede consensus kan bereiken. In plaats van hun ideeën op te geven, besluiten ze een nieuwe versie van Bitcoin te lanceren (met gewijzigde regels) in de hoop dat gebruikers en miners ervoor kiezen om in plaats daarvan hun fork te volgen.
+In de loop der jaren heeft Bitcoin verschillende *hard forks* gekend, die resulteerden in de creatie van alternatieve versies van de originele cryptocurrency. Eenvoudig gezegd is een *hard [Fork](https://planb.academy/resources/glossary/fork)* een splitsing in het netwerk die leidt tot twee afzonderlijke blockchains, die beide dezelfde geschiedenis delen tot het moment van de splitsing. Deze splitsingen gebeuren meestal wanneer een deel van de ontwikkelaarsgemeenschap of het bredere Bitcoin ecosysteem grote veranderingen in het originele protocol wil introduceren, maar geen brede consensus kan bereiken. In plaats van hun ideeën op te geven, besluiten ze een nieuwe versie van Bitcoin te lanceren (met gewijzigde regels) in de hoop dat gebruikers en miners ervoor kiezen om in plaats daarvan hun fork te volgen.
 
 ![image](assets/nl/011.webp)
 
@@ -385,7 +385,7 @@ Dit zijn de belangrijkste punten die we samen zullen bespreken:
 - Investeer alleen **geld dat je je kunt veroorloven te verliezen**;
 - Ken het verschil tussen **handelen** en **beleggen**;
 - Wees je bewust van de **belastingimplicaties** van je beleggingen;
-- Bescherm je **herstelzin** zorgvuldig;
+- Bescherm je **[herstelzin](https://planb.academy/resources/glossary/recovery-phrase)** zorgvuldig;
 - Blijf nederig en houd een **laag profiel** (discretie is onderdeel van veiligheid);
 - **Denk op lange termijn**, zoom uit en wees geduldig (zie het als een marathon, niet als een sprint).
 
@@ -608,7 +608,7 @@ Bitcoin is gedefinieerd als een "peer-to-peer elektronisch geldsysteem" Dit bete
 
 ![image](assets/nl/034.webp)
 
-Eenvoudig gezegd, elke deelnemer aan het Bitcoin netwerk (een "node" genoemd) heeft een volledige kopie van de transactie ledger (grootboek), beter bekend als de blockchain. Wanneer er een nieuwe transactie plaatsvindt, wordt deze uitgezonden naar het netwerk. Wanneer er een nieuwe transactie plaatsvindt, wordt deze uitgezonden naar het netwerk. Miners bevestigen dan deze transacties door ze te groeperen in blokken die vervolgens worden toegevoegd aan het einde van de keten (vandaar de naam "blockchain").
+Eenvoudig gezegd, elke deelnemer aan het Bitcoin netwerk (een "[node](https://planb.academy/resources/glossary/node)" genoemd) heeft een volledige kopie van de transactie ledger (grootboek), beter bekend als de blockchain. Wanneer er een nieuwe transactie plaatsvindt, wordt deze uitgezonden naar het netwerk. Wanneer er een nieuwe transactie plaatsvindt, wordt deze uitgezonden naar het netwerk. Miners bevestigen dan deze transacties door ze te groeperen in blokken die vervolgens worden toegevoegd aan het einde van de keten (vandaar de naam "blockchain").
 
 ![image](assets/nl/035.webp)
 
@@ -672,7 +672,7 @@ Hoewel deze aanpak technischer is, biedt het de meest veeleisende gebruikers de 
 
 #### Een Veerkrachtige, Grensoverschrijdende Betalingsmethode
 
-Door zijn gedecentraliseerde aard werkt Bitcoin 24/7, zonder beïnvloed te worden door grenzen of tijdzones. In regio's waar de traditionele bankinfrastructuur ontbreekt, wordt Bitcoin vaak gebruikt als een snelle, goedkope oplossing voor het verzenden of ontvangen van geld zonder afhankelijk te zijn van dure tussenpersonen. Hoewel transactiekosten kunnen variëren op basis van netwerkcongestie, zijn ze over het algemeen veel lager dan de kosten die banken in rekening brengen voor internationale overboekingen. Bovendien maken laag-2 oplossingen zoals het Lightning Network nog snellere en goedkopere Bitcoin transacties mogelijk.
+Door zijn gedecentraliseerde aard werkt Bitcoin 24/7, zonder beïnvloed te worden door grenzen of tijdzones. In regio's waar de traditionele bankinfrastructuur ontbreekt, wordt Bitcoin vaak gebruikt als een snelle, goedkope oplossing voor het verzenden of ontvangen van geld zonder afhankelijk te zijn van dure tussenpersonen. Hoewel transactiekosten kunnen variëren op basis van netwerkcongestie, zijn ze over het algemeen veel lager dan de kosten die banken in rekening brengen voor internationale overboekingen. Bovendien maken laag-2 oplossingen zoals het [Lightning Network](https://planb.academy/resources/glossary/lightning-network) nog snellere en goedkopere Bitcoin transacties mogelijk.
 
 #### Een opslagplaats van waarde
 
@@ -1034,7 +1034,7 @@ Elk type wallet biedt een andere balans van:
 
 De Bitcoin wallet industrie is onderverdeeld in verschillende categorieën, die elk voldoen aan verschillende behoeften en niveaus van technische expertise:
 
-- **Hardware Wallet Fabrikanten**: Deze bedrijven ontwikkelen fysieke apparaten die ontworpen zijn voor veilige sleutelopslag. Sommige zijn open-source, terwijl andere eigen oplossingen bieden met verschillende functies en beveiligingsniveaus. Bekende namen zijn Ledger, Trezor, Coinkite, Foundation en Shiftcrypto.
+- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Fabrikanten**: Deze bedrijven ontwikkelen fysieke apparaten die ontworpen zijn voor veilige sleutelopslag. Sommige zijn open-source, terwijl andere eigen oplossingen bieden met verschillende functies en beveiligingsniveaus. Bekende namen zijn Ledger, Trezor, Coinkite, Foundation en Shiftcrypto.
 - **Software Wallet Ontwikkelaars**: Deze variëren van bedrijven tot onafhankelijke ontwikkelaars die mobiele en desktopapplicaties maken. Hun aanbod varieert in gebruikerservaring, beveiliging en functies. Voorbeelden zijn Sparrow, Wizard Sardine, Galoy, Synonym en Blockstream.
 - **DIY (*Do It Yourself*) Wallets**: Deze open-source oplossingen zijn ontworpen voor gevorderde gebruikers die volledige controle en minimale afhankelijkheid van derden willen. Door je eigen wallet te bouwen, verminder je de afhankelijkheid van vertrouwen en kun je je beveiliging verbeteren. Bekende doe-het-zelf opties zijn Seedsigner en Specter DIY.
 
@@ -1122,7 +1122,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 RGB is een gedecentraliseerd en privacy-gericht smart contract systeem, ontworpen om bovenop Bitcoin en het Lightning Network te werken. In tegenstelling tot traditionele smart contract platformen, gebruikt RGB een client-side validatie model (wat betekent dat de volledige contract status off-chain wordt opgeslagen en dat alleen cryptografische verplichtingen Bitcoin blockchain worden gepubliceerd). Dit ontwerp verbetert zowel de schaalbaarheid als de privacy. Met RGB kunnen gebruikers geavanceerde smart contracts maken voor het uitgeven van tokens, NFT's, gedecentraliseerde identiteiten of zelfs DeFi applicaties, direct op Bitcoin of Lightning.
 
-Een belangrijk kenmerk van RGB is de bescherming tegen het dubbele uitgave probleem (double-spending problem), bereikt met behulp van een cryptografische techniek genaamd single-use seals. Dit mechanisme is gebaseerd op het feit dat de UTXO's (Unspent Transaction Outputs) van Bitcoin slechts eenmaal kunnen worden uitgegeven. De authenticiteit van de tokens wordt gegarandeerd door de validatie aan gebruikerskant van de hele geschiedenis van het contract (van de creatie tot de huidige staat).
+Een belangrijk kenmerk van RGB is de bescherming tegen het dubbele uitgave probleem (double-spending problem), bereikt met behulp van een cryptografische techniek genaamd single-use seals. Dit mechanisme is gebaseerd op het feit dat de [UTXO](https://planb.academy/resources/glossary/utxo)'s (Unspent Transaction Outputs) van Bitcoin slechts eenmaal kunnen worden uitgegeven. De authenticiteit van de tokens wordt gegarandeerd door de validatie aan gebruikerskant van de hele geschiedenis van het contract (van de creatie tot de huidige staat).
 
 ![image](assets/nl/062.webp)
 
@@ -1251,7 +1251,7 @@ Je dagelijkse leven speelt ook een grote rol in hoe je je bitcoins beheert. Als 
 
 **Kies voor eenvoudige**, geautomatiseerde oplossingen, zoals geplande aankopen die automatisch worden overgezet naar een beveiligde opslag.
 
-**Tech-savvy of hands-on?** Je geeft misschien de voorkeur aan meer geavanceerde oplossingen zoals multisig wallets die meer controle en veiligheid bieden.
+**Tech-savvy of hands-on?** Je geeft misschien de voorkeur aan meer geavanceerde oplossingen zoals [multisig](https://planb.academy/resources/glossary/multisig) wallets die meer controle en veiligheid bieden.
 
 **Beleggen voor geliefden of toekomstige generaties?** Denk vroeg na over erfenissen. Er zijn manieren om ervoor te zorgen dat je bitcoins veilig kunnen worden doorgegeven als er iets met je gebeurt.
 

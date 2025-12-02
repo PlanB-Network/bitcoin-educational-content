@@ -35,14 +35,14 @@ Bienvenido al curso CYP201, donde exploraremos en profundidad el funcionamiento 
 El objetivo de esta formación es darte las claves para dominar las herramientas que usas a diario. Las carteras de Bitcoin HD, que están en el corazón de tu experiencia de usuario, se basan en conceptos a veces complejos, los cuales intentaremos hacer accesibles. ¡Eliminemos esos mitos!
 
 Antes de sumergirnos en los detalles de la construcción y operación de las carteras de Bitcoin, comenzaremos con algunos capítulos sobre los fundamentos de la criptografía que hay que conocer para lo que sigue.
-Comenzaremos con las funciones hash criptográficas, fundamentales tanto para las carteras como para el propio protocolo de Bitcoin. Descubrirás sus principales características, las funciones específicas usadas en Bitcoin y, en un capítulo más técnico, aprenderás en detalle sobre el funcionamiento de la reina de las funciones hash: SHA256.
+Comenzaremos con las funciones hash criptográficas, fundamentales tanto para las carteras como para el propio protocolo de Bitcoin. Descubrirás sus principales características, las funciones específicas usadas en Bitcoin y, en un capítulo más técnico, aprenderás en detalle sobre el funcionamiento de la reina de las funciones hash: [SHA256](https://planb.academy/resources/glossary/sha256).
 ![CYP201](assets/en/001.webp)
 
-A continuación, discutiremos el funcionamiento de los algoritmos de firma digital que usas todos los días para asegurar tus UTXOs. Bitcoin utiliza dos: ECDSA y el protocolo Schnorr. Aprenderás qué fundamentos matemátioas subyacen a estos algoritmos y cómo aseguran las transacciones.
+A continuación, discutiremos el funcionamiento de los algoritmos de firma digital que usas todos los días para asegurar tus UTXOs. Bitcoin utiliza dos: [ECDSA](https://planb.academy/resources/glossary/ecdsa) y el protocolo Schnorr. Aprenderás qué fundamentos matemátioas subyacen a estos algoritmos y cómo aseguran las transacciones.
 
 ![CYP201](assets/en/002.webp)
 
-Una vez que tengamos una buena comprensión de estos elementos de criptografía, finalmente pasaremos al corazón de la formación: ¡las carteras deterministas y jerárquicas! Primero, hay una sección dedicada a las frases mnemotécnicas, estas secuencias de 12 o 24 palabras que te permiten crear y restaurar tus carteras. Descubrirás cómo se generan estas palabras a partir de una fuente de entropía y cómo facilitan el uso de Bitcoin.
+Una vez que tengamos una buena comprensión de estos elementos de criptografía, finalmente pasaremos al corazón de la formación: ¡las carteras deterministas y jerárquicas! Primero, hay una sección dedicada a las frases mnemotécnicas, estas secuencias de 12 o 24 palabras que te permiten crear y restaurar tus carteras. Descubrirás cómo se generan estas palabras a partir de una fuente de [entropía](https://planb.academy/resources/glossary/entropy) y cómo facilitan el uso de Bitcoin.
 
 ![CYP201](assets/en/003.webp)
 La formación continuará con el estudio de la passphrase BIP39, la semilla (no confundir con la frase mnemotécnica), el código de cadena maestro y la llave maestra. Veremos en detalle qué son estos elementos, sus respectivos roles y cómo se calculan.
@@ -58,7 +58,7 @@ Esta tabla le ofrece una traducción de los principales términos en inglés uti
 
 | Inglés          | Traducción / Explicación                                                                           |
 | --------------- | -------------------------------------------------------------------------------------------------- |
-| *pubkey hash*   | Hash de clave pública (usado para generar una dirección de Bitcoin).                               |
+| *pubkey hash*   | Hash de [clave pública](https://planb.academy/resources/glossary/public-key) (usado para generar una dirección de Bitcoin).                               |
 | *public key*    | Clave pública (sirve para recibir fondos, derivada de la clave privada).                           |
 | *signature*     | Firma digital (prueba criptográfica de que un mensaje proviene del titular de una clave privada).  |
 | *scriptPubKey*  | Script de bloqueo (define las condiciones para gastar una salida).                                 |
@@ -92,7 +92,7 @@ Esta tabla le ofrece una traducción de los principales términos en inglés uti
 
 :::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
-El primer tipo de algoritmos criptográficos utilizados en Bitcoin abarca las funciones hash. Juegan un papel esencial en diferentes niveles del protocolo, pero también dentro de las billeteras de Bitcoin. Descubramos juntos qué es una función hash y para qué se utiliza en Bitcoin.
+El primer tipo de algoritmos criptográficos utilizados en Bitcoin abarca las funciones hash. Juegan un papel esencial en diferentes niveles del protocolo, pero también dentro de las billeteras de Bitcoin. Descubramos juntos qué es una [función hash](https://planb.academy/resources/glossary/hash-function) y para qué se utiliza en Bitcoin.
 
 ### Definición y Principio del Hashing
 
@@ -678,7 +678,7 @@ El segundo método criptográfico utilizado en Bitcoin involucra algoritmos de f
 El término "*wallet*" (cartera) en Bitcoin puede ser bastante confuso para los principiantes. De hecho, lo que se llama una cartera de Bitcoin es software que no contiene directamente tus bitcoins, a diferencia de una cartera física que puede contener monedas o billetes. Los bitcoins son simplemente unidades de cuenta. Esta unidad de cuenta está representada por **UTXO** (*Unspent Transaction Outputs* o Salidas de Transacción No Gastadas), que son salidas de transacciones no gastadas. Si estas salidas no se han gastado, significa que pertenecen a un usuario. Los UTXOs son, de cierta manera, piezas de bitcoins, de tamaño variable, que pertenecen a un usuario.
 
 El protocolo de Bitcoin es distribuido y opera sin una autoridad central. Por lo tanto, no es como los registros bancarios tradicionales, donde los euros que te pertenecen están simplemente asociados con tu identidad personal. En Bitcoin, tus UTXOs te pertenecen porque están protegidos por condiciones de gasto especificadas en el lenguaje Script. Para simplificar, hay dos tipos de scripts: el script de bloqueo (*scriptPubKey*), que protege un UTXO, y el script de desbloqueo (*scriptSig*), que permite desbloquear un UTXO y así gastar las unidades de bitcoin que representa.
-La operación inicial de Bitcoin con scripts P2PK implica usar una clave pública para bloquear fondos, especificando en un *scriptPubKey* que la persona que desee gastar este UTXO debe proporcionar una firma válida con la clave privada correspondiente a esta clave pública. Para desbloquear este UTXO, por lo tanto, es necesario proporcionar una firma válida en el *scriptSig*. Como sugieren sus nombres, la clave pública es conocida por todos ya que se transmite en la blockchain, mientras que la clave privada solo es conocida por el legítimo propietario de los fondos.
+La operación inicial de Bitcoin con scripts P2PK implica usar una clave pública para bloquear fondos, especificando en un *scriptPubKey* que la persona que desee gastar este UTXO debe proporcionar una firma válida con la [clave privada](https://planb.academy/resources/glossary/private-key) correspondiente a esta clave pública. Para desbloquear este UTXO, por lo tanto, es necesario proporcionar una firma válida en el *scriptSig*. Como sugieren sus nombres, la clave pública es conocida por todos ya que se transmite en la blockchain, mientras que la clave privada solo es conocida por el legítimo propietario de los fondos.
 
 Esta es la operación básica de Bitcoin, pero con el tiempo, esta operación se ha vuelto más compleja. Primero, Satoshi también introdujo scripts P2PKH, que usan una dirección de recepción en el *scriptPubKey*, que representa el hash de la clave pública. Luego, el sistema se volvió aún más complejo con la llegada de SegWit y luego Taproot. Sin embargo, el principio general sigue siendo fundamentalmente el mismo: una clave pública o una representación de esta clave se usa para bloquear UTXOs, y se requiere una clave privada correspondiente para desbloquearlos y así gastarlos.
 

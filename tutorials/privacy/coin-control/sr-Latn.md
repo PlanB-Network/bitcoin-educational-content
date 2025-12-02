@@ -21,7 +21,7 @@ Trebalo bi. Dok je akumuliranje Satoshi non-kyc prilično lako, vaša privatnost
 
 
 
-### Šta se dešava kada potrošite UTXO
+### Šta se dešava kada potrošite [UTXO](https://planb.academy/resources/glossary/utxo)
 
 
 

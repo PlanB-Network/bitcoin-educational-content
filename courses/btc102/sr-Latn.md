@@ -262,7 +262,7 @@ Pre nego što kliknete na link ili preduzmete bilo kakvu akciju, uvek dvaput pro
 #### Bitcoin Hardforks
 
 
-Tokom godina, Bitcoin je doživeo nekoliko *Hard forkova*, što je rezultiralo stvaranjem alternativnih verzija originalne kriptovalute. Jednostavno rečeno, *Hard Fork* je podela u mreži koja vodi do dve odvojene blokčejn mreže, obe deleći istu istoriju sve do trenutka podele. Ovi forkovi se obično dešavaju kada deo zajednice programera ili širi Bitcoin ekosistem želi da uvede velike promene u originalni protokol, ali ne može da postigne široki konsenzus. Umesto da odustanu od svojih ideja, odlučuju da pokrenu novu verziju Bitcoin(sa izmenjenim pravilima)u nadi da će korisnici i rudari odlučiti da prate njihov Fork umesto toga.
+Tokom godina, Bitcoin je doživeo nekoliko *Hard forkova*, što je rezultiralo stvaranjem alternativnih verzija originalne kriptovalute. Jednostavno rečeno, *Hard [Fork](https://planb.academy/resources/glossary/fork)* je podela u mreži koja vodi do dve odvojene blokčejn mreže, obe deleći istu istoriju sve do trenutka podele. Ovi forkovi se obično dešavaju kada deo zajednice programera ili širi Bitcoin ekosistem želi da uvede velike promene u originalni protokol, ali ne može da postigne široki konsenzus. Umesto da odustanu od svojih ideja, odlučuju da pokrenu novu verziju Bitcoin(sa izmenjenim pravilima)u nadi da će korisnici i rudari odlučiti da prate njihov Fork umesto toga.
 
 
 ![image](assets/sr-Latn/011.webp)
@@ -1008,7 +1008,7 @@ Iako je ovaj pristup tehnički zahtevniji, on nudi najzahtevnijim korisnicima mo
 #### Otpornost, prekogranična metoda plaćanja
 
 
-Zbog svoje decentralizovane prirode, Bitcoin radi 24/7, neometan granicama ili vremenskim zonama. U regionima gde nedostaje tradicionalna bankarska infrastruktura, Bitcoin se često koristi kao brzo i jeftino rešenje za slanje ili primanje sredstava bez oslanjanja na skupe posrednike. Iako naknade za transakcije mogu varirati u zavisnosti od zagušenja mreže, one su generalno mnogo niže od naknada koje banke naplaćuju za međunarodne transfere. Dodatno, Layer-2 rešenja poput Lightning Network omogućavaju još brže i jeftinije Bitcoin transakcije.
+Zbog svoje decentralizovane prirode, Bitcoin radi 24/7, neometan granicama ili vremenskim zonama. U regionima gde nedostaje tradicionalna bankarska infrastruktura, Bitcoin se često koristi kao brzo i jeftino rešenje za slanje ili primanje sredstava bez oslanjanja na skupe posrednike. Iako naknade za transakcije mogu varirati u zavisnosti od zagušenja mreže, one su generalno mnogo niže od naknada koje banke naplaćuju za međunarodne transfere. Dodatno, Layer-2 rešenja poput [Lightning Network](https://planb.academy/resources/glossary/lightning-network) omogućavaju još brže i jeftinije Bitcoin transakcije.
 
 
 #### Prodavnica vrednosti
@@ -1539,7 +1539,7 @@ Industrija Bitcoin Wallet je podeljena u nekoliko kategorija, od kojih svaka zad
 
 
 
-- **Hardware Wallet Proizvođači**: Ove kompanije razvijaju fizičke uređaje dizajnirane za sigurno skladištenje ključeva. Neki su open-source, dok drugi nude vlasnička rešenja sa različitim funkcijama i nivoima sigurnosti. Značajna imena uključuju Ledger, Trezor, Coinkite, Foundation i Shiftcrypto.
+- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Proizvođači**: Ove kompanije razvijaju fizičke uređaje dizajnirane za sigurno skladištenje ključeva. Neki su open-source, dok drugi nude vlasnička rešenja sa različitim funkcijama i nivoima sigurnosti. Značajna imena uključuju Ledger, Trezor, Coinkite, Foundation i Shiftcrypto.
 - **Software Wallet Programeri**: Oni se kreću od kompanija do nezavisnih programera koji kreiraju mobilne i desktop aplikacije. Njihove ponude variraju u korisničkom iskustvu, bezbednosti i funkcijama. Primeri uključuju Sparrow, Wizard Sardine, Galoy, Synonym i Blockstream.
 - DIY (*Do It Yourself*) **Wallets**: Ova rešenja otvorenog koda su dizajnirana za napredne korisnike koji žele potpunu kontrolu i minimalno oslanjanje na treće strane. Izrada sopstvenog Wallet smanjuje zavisnost od poverenja i može povećati vašu sigurnost. Značajne DIY opcije uključuju Seedsigner i Specter DIY.
 
@@ -1670,7 +1670,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 RGB je decentralizovani i na privatnost fokusirani Smart contract sistem dizajniran da radi na vrhu Bitcoin i Lightning Network. Za razliku od tradicionalnih Smart contract platformi, RGB koristi Client-side Validation model (što znači da je ceo Contract State uskladišten off-chain, a samo kriptografske obaveze su objavljene na Bitcoin Blockchain). Ovaj dizajn poboljšava i skalabilnost i privatnost. Sa RGB, korisnici mogu kreirati napredne pametne ugovore za izdavanje tokena, NFT-ova, decentralizovanih identiteta, ili čak DeFi aplikacija, direktno na Bitcoin ili Lightning.
 
 
-Ključna karakteristika RGB je njegova zaštita protiv Double-spending, postignuta korišćenjem kriptografske tehnike zvane Jednokratni Pečati. Ovaj mehanizam se oslanja na činjenicu da se Bitcoin-ovi UTXO-i (Neutrošeni Izlazi Transakcija) mogu potrošiti samo jednom. Autentičnost tokena se osigurava validacijom sa strane korisnika celokupne istorije Contract (od njegovog nastanka do trenutnog stanja).
+Ključna karakteristika RGB je njegova zaštita protiv Double-spending, postignuta korišćenjem kriptografske tehnike zvane Jednokratni Pečati. Ovaj mehanizam se oslanja na činjenicu da se Bitcoin-ovi [UTXO](https://planb.academy/resources/glossary/utxo)-i (Neutrošeni Izlazi Transakcija) mogu potrošiti samo jednom. Autentičnost tokena se osigurava validacijom sa strane korisnika celokupne istorije Contract (od njegovog nastanka do trenutnog stanja).
 
 
 ![image](assets/sr-Latn/062.webp)
@@ -1702,7 +1702,7 @@ Danas postoji mnogo alata dostupnih trgovcima koji žele da prihvate Bitcoin kao
 Ako više volite rešenje bez angažovanja i želite da primate fiat valutu direktno na svoj bankovni račun, usluge čuvanja kao što je OpenNode nude pojednostavljeno iskustvo:
 
 
-https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-[node](https://planb.academy/resources/glossary/node)-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Za trgovce koji su tehnički potkovaniji i žele potpunu kontrolu nad procesom, BTCPay Server je fantastična opcija otvorenog koda. Glavni nedostatak je što zahteva vreme za postavljanje i održavanje, zajedno sa određenim tehničkim znanjem:
 
@@ -1866,7 +1866,7 @@ Vaš svakodnevni život takođe igra veliku ulogu u tome kako ćete upravljati s
 **Ograničeno vreme ili interesovanje?** Odaberite jednostavna, automatizovana rešenja; kao što su zakazane kupovine koje se automatski prenose u sigurnu skladište.
 
 
-**Tehnički potkovani ili praktični?** Možda biste više voleli naprednija rešenja poput Multisig novčanika koji nude veću kontrolu i sigurnost.
+**Tehnički potkovani ili praktični?** Možda biste više voleli naprednija rešenja poput [Multisig](https://planb.academy/resources/glossary/multisig) novčanika koji nude veću kontrolu i sigurnost.
 
 
 **Ulaganje za voljene ili buduće generacije?** Razmislite rano o nasledstvu. Postoje načini da osigurate da se vaši bitkoini mogu sigurno preneti ako vam se nešto dogodi.

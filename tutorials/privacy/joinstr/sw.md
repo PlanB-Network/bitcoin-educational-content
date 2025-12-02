@@ -341,7 +341,7 @@ Programu ya Joinstr imepangwa katika tabo kuu tatu:
 
 
 - Nyumbani**: Skrini ya nyumbani
-- Mabwawa**: Kuunda na kusimamia mabwawa ya CoinJoin
+- Mabwawa**: Kuunda na kusimamia mabwawa ya [CoinJoin](https://planb.academy/resources/glossary/coinjoin)
 - Mipangilio**: Usanidi wa programu
 
 

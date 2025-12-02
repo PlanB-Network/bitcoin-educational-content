@@ -21,7 +21,7 @@ Węzeł Bitcoin to komputer, który uczestniczy w sieci Bitcoin poprzez uruchomi
 
 
 
-- **Przechowywanie Blockchain**: Utrzymuje kompletną, aktualną kopię Blockchain Bitcoin
+- **Przechowywanie [Blockchain](https://planb.academy/resources/glossary/blockchain)**: Utrzymuje kompletną, aktualną kopię Blockchain Bitcoin
 - **Weryfikacja transakcji**: weryfikuje każdą transakcję i blok zgodnie z zasadami protokołu
 - **Rozpowszechnianie informacji**: Udostępnia nowe transakcje i bloki innym węzłom
 - **Budowanie konsensusu**: Przyczynia się do stosowania zasad sieciowych

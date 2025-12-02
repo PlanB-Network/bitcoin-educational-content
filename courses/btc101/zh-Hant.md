@@ -6,7 +6,7 @@ objectives:
   - 獲得對比特幣技術的基本理解
   - 瞭解如何購買和保護比特幣
   - 了解區塊鏈技術的基本概念
-  - 熟悉閃電網路（Lightning Network）的概念
+  - 熟悉閃電網路（[Lightning Network](https://planb.academy/resources/glossary/lightning-network)）的概念
   - 意識到比特幣的地緣政治和社會影響
 
 ---
@@ -489,7 +489,7 @@ https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 ### 比特幣錢包如何運作？
 
-無論是由你自己管理比特幣，還是交由某個「比特幣銀行家」代管，大多數比特幣錢包的運作方式都基於非對稱加密技術，這種技術依賴於一對密鑰來運作：私鑰（Private Key）用於發送比特幣;公鑰（Public Key）用於接收比特幣。
+無論是由你自己管理比特幣，還是交由某個「比特幣銀行家」代管，大多數比特幣錢包的運作方式都基於非對稱加密技術，這種技術依賴於一對密鑰來運作：私鑰（Private Key）用於發送比特幣;[公鑰](https://planb.academy/resources/glossary/public-key)（Public Key）用於接收比特幣。
 
 
 - 私鑰
@@ -701,7 +701,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ![image](assets/zh-Hant/038.webp)
 
-2008 年 10 月 31 日，一項嶄新的金融科技——比特幣誕生。當天，匿名的中本聰透過一封發送到 cypherpunks 郵件列表的電子郵件，向全世界展示了他的創新技術，cypherpunks 是一個由密碼學熱衷者組成的社群，致力於在互聯網上推廣隱私。這封電子郵件包含了一份名為《白皮書》的文件，介紹了比特幣的工作原理。
+2008 年 10 月 31 日，一項嶄新的金融科技——比特幣誕生。當天，匿名的中本聰透過一封發送到 cypherpunks 郵件列表的電子郵件，向全世界展示了他的創新技術，cypherpunks 是一個由密碼學熱衷者組成的社群，致力於在互聯網上推廣隱私。這封電子郵件包含了一份名為《[白皮書](https://planb.academy/resources/glossary/white-paper)》的文件，介紹了比特幣的工作原理。
 
 可能是因為之前嘗試創建數位現金系統的失敗，這項提案當時並未立即引起廣泛關注。儘管如此，這份白皮書最終成為了比特幣社群的基石，並且多年來持續在比特幣生態系中引發無數討論與研究。
 
@@ -773,7 +773,7 @@ Bob 要轉帳比特幣給 Alice，她必須提供她的一個比特幣地址給�
 
 ![image](assets/zh-Hant/046.webp)
 
-此時，儘管這筆交易已經被所有節點接收並存入 Mempool（未確認交易池），但它尚未被確認。交易只有在被礦工打包進區塊後，才算正式生效。
+此時，儘管這筆交易已經被所有節點接收並存入 [Mempool](https://planb.academy/resources/glossary/mempool)（未確認交易池），但它尚未被確認。交易只有在被礦工打包進區塊後，才算正式生效。
 
 事實上，礦工的職責是收集有效和未確認的交易，將其編譯成一個區塊。簡而言之，他們必須在一個稱為「工作量證明」（Proof of Work, PoW）的過程中解決加密謎題，才能使他們的區塊成為比特幣區塊鏈中的下一個區塊。
 
@@ -857,7 +857,7 @@ Bob 將他的交易發送到比特幣網絡，當礦工發佈一個包含 Bob �
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Miners 保護網路安全並將交易加入區塊。他們透過 ASIC 機器消耗電力，來解決比特幣的工作量證明（Proof of Work, PoW）**。
+**Miners 保護網路安全並將交易加入區塊。他們透過 [ASIC](https://planb.academy/resources/glossary/asic) 機器消耗電力，來解決比特幣的工作量證明（Proof of Work, PoW）**。
 
 ![image](assets/zh-Hant/054.webp)
 

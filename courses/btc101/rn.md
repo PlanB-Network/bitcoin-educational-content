@@ -5,8 +5,8 @@ objectives:
 
   - Kuronka ubutahuzi muri rusangi bw'ubuhinga bwa Bitcoin.
   - Gutahura ukuntu ugura ukongera ugakingira ama bitcoins.
-  - Kuronka ubutahuzi muri rusangi bw'ubuhinga bwa Blockchain.
-  - Kwimenyereza iciyumviro ca Lightning Network.
+  - Kuronka ubutahuzi muri rusangi bw'ubuhinga bwa [Blockchain](https://planb.academy/resources/glossary/blockchain).
+  - Kwimenyereza iciyumviro ca [Lightning Network](https://planb.academy/resources/glossary/lightning-network).
   - Kwihweza ingaruka za Bitcoin kumigenderanire ya poritike hamwe n'imibano.
 
 ---
@@ -172,7 +172,7 @@ Nubwo atari Cypherpunk gusa, zino nyandiko zirerekana amarangamutima y'abagize u
 ### Abatanguriye Bitcoin
 
 
-Imbere y'uko Bitcoin imenyekana, hariho ivyigwa vyinshi vyo guhingura amafaranga y’ubuhinga bwa none. Nk'akarorero, David Chaum yashizeho iciyumviro c'"amahera y'ubuhinga bwa none atazwi" n'umugambi wiwe "DigiCash" mu myaka ya 1980. Ikibabaje, kubera ingorane zitandukanye, DigiCash ntiyigeze itera imbere.
+Imbere y'uko Bitcoin imenyekana, hariho ivyigwa vyinshi vyo guhingura amafaranga y’ubuhinga bwa none. Nk'akarorero, David Chaum yashizeho iciyumviro c'"amahera y'ubuhinga bwa none atazwi" n'umugambi wiwe "DigiCash" mu myaka ya 1980. Ikibabaje, kubera [ingorane](https://planb.academy/resources/glossary/difficulty) zitandukanye, DigiCash ntiyigeze itera imbere.
 
 
 Uwundi mukurambere kirumara  "B-money" ya Wei Dai. Naho nyene itigezwe ishirwa mungiro, yarerekanye iciyumviro c'amafaranga y'ubuhinga bwa none aho ifatwa ryibidaca mumategeko vyakorwa n'umugwi w'abasuzuma ahogukorwa n'ubutungane bw'igihugu.
@@ -552,7 +552,7 @@ Ivyo kurema ama bitcoins mashasha ni ingaruka y’igikorwa c'ugucukura. Mu majam
 ![image](assets/rn/022.webp)
 
 
-Inyuma yogukora kinogikorwa neza, abacukuzi bararonka impembo ivuye muma bitcoins mashasha buri minota cumi. Iyo mpembo yatateguwe yigabura na kabiri buri  mapfundo angana na 210.000, ibi biba n'imiburiburi mumyaka ine yose ( Umusi mukuru uzwi nka "Halving"), bivuye kuri buno buryo, birashobora kuvugwa mubiharuro ko uguhingura ama bitcoins mashasha bizohagarara mumwaka w'2140, igihe igiharuro cose kizoba cashitse kumpera y'imiriyoni 21.
+Inyuma yogukora kinogikorwa neza, abacukuzi bararonka impembo ivuye muma bitcoins mashasha buri minota cumi. Iyo mpembo yatateguwe yigabura na kabiri buri  mapfundo angana na 210.000, ibi biba n'imiburiburi mumyaka ine yose ( Umusi mukuru uzwi nka "[Halving](https://planb.academy/resources/glossary/halving)"), bivuye kuri buno buryo, birashobora kuvugwa mubiharuro ko uguhingura ama bitcoins mashasha bizohagarara mumwaka w'2140, igihe igiharuro cose kizoba cashitse kumpera y'imiriyoni 21.
 
 
 | Halving Number | Block Height | BTC Reward After Halving  | Estimated BTC in Circulation After Halving |
@@ -1002,7 +1002,7 @@ Ubu ko twamaze kumenya ivy’ishimikiro vy’amasakoshi ya Bitcoin n’ingene tw
 ![image](assets/rn/038.webp)
 
 
-Mukwicenda, 31 2008 niho havuka ubuhinga bushasha bw'ivy'ubutunzi ari bwo Bitcoin. Kuri uwo musi, uwiyoberanije Satoshi Nakamoto yeretse isi ubuhinga bwiwe bushasha biciye ku butumwa bwo kuri email yarungikiye umugwi witwa cypherpunks, umuryango w’abakunda ubuhinga bwo gukingira amakuru y’ibanga, wiyemeje kumenyekanisha ubuzima bw'ibanga kuri internet. Iyi email yarimwo inyandiko yitwa "White Paper", yerekana ingene Bitcoin ikora.
+Mukwicenda, 31 2008 niho havuka ubuhinga bushasha bw'ivy'ubutunzi ari bwo Bitcoin. Kuri uwo musi, uwiyoberanije Satoshi Nakamoto yeretse isi ubuhinga bwiwe bushasha biciye ku butumwa bwo kuri email yarungikiye umugwi witwa cypherpunks, umuryango w’abakunda ubuhinga bwo gukingira amakuru y’ibanga, wiyemeje kumenyekanisha ubuzima bw'ibanga kuri internet. Iyi email yarimwo inyandiko yitwa "[White Paper](https://planb.academy/resources/glossary/white-paper)", yerekana ingene Bitcoin ikora.
 
 
 Uno mugambi ntiwaciye ugirako utera amatsiko, bishoboka kuba vyavuye kukwanka kw'umugambi wokugerageza gushiraho ubuhinga bwo gukoresha amahera yo kubuhinga bwa none. Naho biri ukwo, ino white paper yarahejeje iba igitabu barabirako abakoresha Bitcoin kandi yarabaye inkuru y'ibiganiro vyinshi vya bitcoin imyaka myinshi. 
@@ -1235,7 +1235,7 @@ Inyuma y’iyo ntsinzi, amapfundo yarashize ahabona ubuhinga bushasha bwitwa Seg
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
 
-**Abacukuzi bakingira urubuga bongerako irungikwa n'iyakira kuma blocs. Bakoresha umuyagankuba biciye mu mashini za ASIC kugira ngo bashobore gutorera inyishu ikibazo ca Bitcoin Proof of Work.**
+**Abacukuzi bakingira urubuga bongerako irungikwa n'iyakira kuma blocs. Bakoresha umuyagankuba biciye mu mashini za [ASIC](https://planb.academy/resources/glossary/asic) kugira ngo bashobore gutorera inyishu ikibazo ca Bitcoin Proof of Work.**
 
 
 ![image](assets/rn/054.webp)

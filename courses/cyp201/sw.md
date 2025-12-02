@@ -34,15 +34,15 @@ Lengo la mafunzo haya ni kukupa funguo za kufahamu zana unazotumia kila siku. Po
 
 Kabla ya kupiga mbizi katika maelezo ya ujenzi na uendeshaji wa pochi za Bitcoin, tutaanza na sura chache juu ya primitives ya cryptographic kujua nini Kina (depth)fuata.
 
-Tutaanza na kazi za kriptografia za Hash, za msingi kwa pochi zote mbili na itifaki ya Bitcoin yenyewe. Utagundua sifa zao kuu, kazi maalum zinazotumiwa katika Bitcoin, na katika sura ya kiufundi zaidi, utajifunza kwa undani kuhusu kazi za malkia wa kazi za Hash: SHA256.
+Tutaanza na kazi za kriptografia za Hash, za msingi kwa pochi zote mbili na itifaki ya Bitcoin yenyewe. Utagundua sifa zao kuu, kazi maalum zinazotumiwa katika Bitcoin, na katika sura ya kiufundi zaidi, utajifunza kwa undani kuhusu kazi za malkia wa kazi za Hash: [SHA256](https://planb.academy/resources/glossary/sha256).
 
 ![CYP201](assets/en/001.webp)
 
-Kisha, tutajadili utendakazi wa kanuni za sahihi za kidijitali unazotumia kila siku kulinda UTXO zako. Bitcoin inatumia mbili: ECDSA na itifaki ya Schnorr. Utajifunza ni kanuni zipi za hisabati zinazozingatia kanuni hizi na jinsi zinavyohakikisha usalama wa miamala.
+Kisha, tutajadili utendakazi wa kanuni za sahihi za kidijitali unazotumia kila siku kulinda UTXO zako. Bitcoin inatumia mbili: [ECDSA](https://planb.academy/resources/glossary/ecdsa) na itifaki ya Schnorr. Utajifunza ni kanuni zipi za hisabati zinazozingatia kanuni hizi na jinsi zinavyohakikisha usalama wa miamala.
 
 ![CYP201](assets/en/002.webp)
 
-Mara tu tunapokuwa na ufahamu mzuri wa Elements hizi za kriptografia, hatimaye tutaendelea hadi kiini cha mafunzo: pochi za kuamua na za hierarchical! Kwanza, kuna sehemu iliyowekwa kwa misemo ya Mnemonic, mlolongo huu wa maneno 12 au 24 ambayo inakuwezesha kuunda na kurejesha pochi zako. Utagundua jinsi maneno haya yanatolewa kutoka kwa chanzo cha entropy na jinsi yanavyowezesha matumizi ya Bitcoin.
+Mara tu tunapokuwa na ufahamu mzuri wa Elements hizi za kriptografia, hatimaye tutaendelea hadi kiini cha mafunzo: pochi za kuamua na za hierarchical! Kwanza, kuna sehemu iliyowekwa kwa misemo ya Mnemonic, mlolongo huu wa maneno 12 au 24 ambayo inakuwezesha kuunda na kurejesha pochi zako. Utagundua jinsi maneno haya yanatolewa kutoka kwa chanzo cha [entropy](https://planb.academy/resources/glossary/entropy) na jinsi yanavyowezesha matumizi ya Bitcoin.
 
 ![CYP201](assets/en/003.webp)
 
@@ -60,7 +60,7 @@ Jedwali hili linakupa tafsiri ya maneno muhimu ya Kiingereza yanayotumika, ili k
 
 | Kiingereza      | Tafsiri / Maelezo                                                                                  |
 | --------------- | -------------------------------------------------------------------------------------------------- |
-| *pubkey hash*   | Hashi ya ufunguo wa umma (inayotumika kutengeneza anuani ya Bitcoin).                               |
+| *pubkey hash*   | Hashi ya [ufunguo wa umma](https://planb.academy/resources/glossary/public-key) (inayotumika kutengeneza anuani ya Bitcoin).                               |
 | *public key*    | Ufunguo wa umma (hutumika kupokea fedha, umetokana na ufunguo wa faragha).                          |
 | *signature*     | Sahihi ya kidijitali (uthibitisho wa kicryptografia kuwa ujumbe umetoka kwa mwenye ufunguo wa faragha). |
 | *scriptPubKey*  | Script ya kufunga (inafafanua masharti ya kutumia output).                                          |
@@ -94,7 +94,7 @@ Jedwali hili linakupa tafsiri ya maneno muhimu ya Kiingereza yanayotumika, ili k
 
 :::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
-Aina ya kwanza ya algorithms ya kriptografia inayotumiwa kwenye Bitcoin inajumuisha kazi za Hash. Wanachukua jukumu muhimu katika viwango tofauti vya itifaki, lakini pia ndani ya pochi za Bitcoin. Hebu tugundue pamoja kazi ya Hash ni nini na inatumika kwa nini katika Bitcoin.
+Aina ya kwanza ya algorithms ya kriptografia inayotumiwa kwenye Bitcoin inajumuisha kazi za Hash. Wanachukua jukumu muhimu katika viwango tofauti vya itifaki, lakini pia ndani ya pochi za Bitcoin. Hebu tugundue pamoja [kazi ya Hash](https://planb.academy/resources/glossary/hash-function) ni nini na inatumika kwa nini katika Bitcoin.
 
 ### Ufafanuzi na Kanuni ya Hashing
 
@@ -1584,7 +1584,7 @@ Umbizo kamili la Ufunguo (Key) uliopanuliwa kwa hivyo ni bytes 78 bila cheki, na
 | Parent Fingerprint| Bytes 4 za kwanza za HASH160 ya ufunguo wa umma wa mzazi                                                      | 4 bytes   |
 | Index Number      | Nafasi ya ufunguo katika mpangilio wa watoto                                                                  | 4 bytes   |
 | Chain Code        | Hutumika kutoa funguo za watoto                                                                               | 32 bytes  |
-| Key               | Ufunguo wa binafsi (na prefix ya byte 1) au ufunguo wa umma                                                  | 33 bytes  |
+| Key               | [Ufunguo wa binafsi](https://planb.academy/resources/glossary/private-key) (na prefix ya byte 1) au ufunguo wa umma                                                  | 33 bytes  |
 | Checksum          | Checksum kuhakikisha utimilifu                                                                                | 4 bytes   |
 
 Ikiwa byte moja itaongezwa kwa Ufunguo (Key) wa faragha pekee, ni kwa sababu Ufunguo (Key) wa umma uliobanwa ni mrefu kuliko Ufunguo (Key) wa faragha kwa byte moja. Byte hii ya ziada, iliyoongezwa mwanzoni mwa Ufunguo (Key) wa faragha kama `0x00`, inasawazisha ukubwa wao, na kuhakikisha kwamba upakiaji wa Ufunguo (Key) uliopanuliwa ni wa urefu sawa, iwe ni Ufunguo (Key) wa umma au wa faragha.

@@ -341,7 +341,7 @@ Joinstr 애플리케이션은 세 가지 주요 탭으로 구성되어 있습니
 
 
 - 홈**: 홈 화면
-- 풀**: CoinJoin 풀 생성 및 관리
+- 풀**: [CoinJoin](https://planb.academy/resources/glossary/coinjoin) 풀 생성 및 관리
 - 설정**: 애플리케이션 구성
 
 

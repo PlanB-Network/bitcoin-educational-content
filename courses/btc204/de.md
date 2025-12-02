@@ -50,7 +50,7 @@ Ziel dieses Kurses ist es nicht, Sie bei der Nutzung von Bitcoin völlig anonym 
 
 **Abschnitt 1: Definitionen und Schlüsselbegriffe**
 
-Zunächst werden wir uns mit den grundlegenden Prinzipien der Funktionsweise von Bitcoin befassen, damit wir uns in Ruhe mit den Begriffen der Vertraulichkeit befassen können. Es ist unerlässlich, einige grundlegende Konzepte wie UTXO, Empfangsadressen und Scripting zu beherrschen, bevor Sie die Konzepte, die wir in den folgenden Abschnitten behandeln werden, vollständig verstehen können. Wir werden auch das allgemeine Vertraulichkeitsmodell von Bitcoin einführen, wie es sich Satoshi Nakamoto vorgestellt hat, um die damit verbundenen Risiken und Gefahren zu verstehen.
+Zunächst werden wir uns mit den grundlegenden Prinzipien der Funktionsweise von Bitcoin befassen, damit wir uns in Ruhe mit den Begriffen der Vertraulichkeit befassen können. Es ist unerlässlich, einige grundlegende Konzepte wie [UTXO](https://planb.academy/resources/glossary/utxo), Empfangsadressen und Scripting zu beherrschen, bevor Sie die Konzepte, die wir in den folgenden Abschnitten behandeln werden, vollständig verstehen können. Wir werden auch das allgemeine Vertraulichkeitsmodell von Bitcoin einführen, wie es sich Satoshi Nakamoto vorgestellt hat, um die damit verbundenen Risiken und Gefahren zu verstehen.
 
 ![BTC204](assets/de/001.webp)
 
@@ -66,7 +66,7 @@ Im dritten Teil unseres Trainingskurses geht es ans Eingemachte: die Praxis! Das
 
 ![BTC204](assets/de/003.webp)
 
-**Abschnitt 4: Verständnis von Coinjoin-Transaktionen**
+**Abschnitt 4: Verständnis von [Coinjoin](https://planb.academy/resources/glossary/coinjoin)-Transaktionen**
 
 Wie können wir über Datenschutz bei Bitcoin sprechen, ohne Coinjoins zu erwähnen? In Abschnitt 4 erfahren Sie alles, was Sie über diese Mischmethode wissen müssen. Sie erfahren, was Coinjoins sind, ihre Geschichte und Ziele sowie die verschiedenen Arten von Coinjoin, die es gibt. Und schließlich erfahren Sie, was Anonsets und Entropie sind und wie man sie berechnet.
 
@@ -74,7 +74,7 @@ Wie können wir über Datenschutz bei Bitcoin sprechen, ohne Coinjoins zu erwäh
 
 **Abschnitt 5: Verständnis der Herausforderungen anderer fortgeschrittener Vertraulichkeitstechniken**
 
-Im fünften Abschnitt werfen wir einen Blick auf all die anderen Techniken, die neben Coinjoin zur Verfügung stehen, um Ihre Privatsphäre auf Bitcoin zu schützen. Im Laufe der Jahre haben die Entwickler bemerkenswerte Kreativität bei der Entwicklung von Tools zum Schutz der Privatsphäre gezeigt. Wir werden uns all diese Methoden wie Payjoin, kollaborative Transaktionen, Coin Swap und Atomic Swap ansehen und detailliert beschreiben, wie sie funktionieren, welche Ziele sie verfolgen und welche Schwächen sie haben.
+Im fünften Abschnitt werfen wir einen Blick auf all die anderen Techniken, die neben Coinjoin zur Verfügung stehen, um Ihre Privatsphäre auf Bitcoin zu schützen. Im Laufe der Jahre haben die Entwickler bemerkenswerte Kreativität bei der Entwicklung von Tools zum Schutz der Privatsphäre gezeigt. Wir werden uns all diese Methoden wie Payjoin, kollaborative Transaktionen, Coin Swap und [Atomic Swap](https://planb.academy/resources/glossary/atomic-swap) ansehen und detailliert beschreiben, wie sie funktionieren, welche Ziele sie verfolgen und welche Schwächen sie haben.
 
 Wir werden auch die Privatsphäre auf der Ebene des Netzwerks der Knoten und der Transaktionsverbreitung betrachten. Wir werden auch die verschiedenen Protokolle diskutieren, die im Laufe der Jahre vorgeschlagen wurden, um die Privatsphäre der Nutzer von Bitcoin zu verbessern, einschließlich statischer Adressprotokolle.
 
@@ -110,7 +110,7 @@ Bitcoin funktioniert anders. Das Konzept eines Kontos gibt es nicht, und die Gel
 1 BTC = 100 000 000 SATS
 ```
 
-Theoretisch kann ein UTXO einen beliebigen Wert in Bitcoins repräsentieren, der von einem Sat bis zu einem theoretischen Maximum von etwa 21 Millionen BTC reicht. Es ist jedoch logisch unmöglich, alle 21 Millionen Bitcoins zu besitzen, und es gibt eine untere wirtschaftliche Schwelle, die als "Dust" (dt. Staub) bezeichnet wird und unterhalb derer ein UTXO als wirtschaftlich unrentabel angesehen wird.
+Theoretisch kann ein UTXO einen beliebigen Wert in Bitcoins repräsentieren, der von einem Sat bis zu einem theoretischen Maximum von etwa 21 Millionen BTC reicht. Es ist jedoch logisch unmöglich, alle 21 Millionen Bitcoins zu besitzen, und es gibt eine untere wirtschaftliche Schwelle, die als "[Dust](https://planb.academy/resources/glossary/dust)" (dt. Staub) bezeichnet wird und unterhalb derer ein UTXO als wirtschaftlich unrentabel angesehen wird.
 
 **Schon gewusst?** Das größte UTXO, das jemals auf Bitcoin erstellt wurde, hatte einen Wert von 500.000 BTC. Er wurde von der MtGox-Plattform während einer Konsolidierungsoperation im November 2011 erstellt: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
@@ -572,7 +572,7 @@ Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec
 
 Auf letzterem ist zu sehen, dass Eingang Nr. 0 und Ausgang Nr. 1 P2WPKH-Skripte (SegWit V0) verwenden, während Ausgang Nr. 0 ein anderes P2PKH-Skript (Legacy) verwendet.
 
-In den frühen 2010er Jahren war diese Heuristik, die auf der Skriptversionierung basierte, aufgrund der begrenzten Anzahl der verfügbaren Skripttypen relativ wenig hilfreich. Im Laufe der Zeit und mit aufeinanderfolgenden Bitcoin-Updates wurde jedoch eine zunehmende Vielfalt an Skripttypen eingeführt. Diese Heuristik wird daher immer relevanter, da sich die Nutzer mit einer größeren Bandbreite an Skripttypen in kleinere Gruppen aufteilen, was die Chancen erhöht, diese interne Heuristik zur Wiederverwendung von Versionen anzuwenden. Aus diesem Grund ist es allein schon aus Gründen der Vertraulichkeit ratsam, sich für den am häufigsten verwendeten Skripttyp zu entscheiden. Während ich diese Zeilen schreibe, werden beispielsweise Taproot-Skripte (`bc1p`) weniger häufig verwendet als SegWit V0-Skripte (`bc1q`). Obwohl erstere in bestimmten Kontexten wirtschaftliche und Vertraulichkeitsvorteile bieten, kann es für traditionellere Anwendungen mit nur einer Unterschrift sinnvoll sein, aus Vertraulichkeitsgründen bei einem älteren Standard zu bleiben, bis sich der neue Standard weiter durchgesetzt hat.
+In den frühen 2010er Jahren war diese Heuristik, die auf der Skriptversionierung basierte, aufgrund der begrenzten Anzahl der verfügbaren Skripttypen relativ wenig hilfreich. Im Laufe der Zeit und mit aufeinanderfolgenden Bitcoin-Updates wurde jedoch eine zunehmende Vielfalt an Skripttypen eingeführt. Diese Heuristik wird daher immer relevanter, da sich die Nutzer mit einer größeren Bandbreite an Skripttypen in kleinere Gruppen aufteilen, was die Chancen erhöht, diese interne Heuristik zur Wiederverwendung von Versionen anzuwenden. Aus diesem Grund ist es allein schon aus Gründen der Vertraulichkeit ratsam, sich für den am häufigsten verwendeten Skripttyp zu entscheiden. Während ich diese Zeilen schreibe, werden beispielsweise [Taproot](https://planb.academy/resources/glossary/taproot)-Skripte (`bc1p`) weniger häufig verwendet als [SegWit](https://planb.academy/resources/glossary/segwit) V0-Skripte (`bc1q`). Obwohl erstere in bestimmten Kontexten wirtschaftliche und Vertraulichkeitsvorteile bieten, kann es für traditionellere Anwendungen mit nur einer Unterschrift sinnvoll sein, aus Vertraulichkeitsgründen bei einem älteren Standard zu bleiben, bis sich der neue Standard weiter durchgesetzt hat.
 
 ### Zahlungen mit runden Zahlen
 

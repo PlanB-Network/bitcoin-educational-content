@@ -36,19 +36,19 @@ L’objectif de cette formation est de vous donner les clés pour maîtriser les
 
 Avant d’entrer dans le détail de la construction et du fonctionnement des portefeuilles Bitcoin, nous commencerons avec quelques chapitres sur les primitives cryptographiques à connaître pour la suite.
 
-Nous commencerons par les fonctions de hachage cryptographique, fondamentales pour les portefeuilles comme pour le protocole Bitcoin lui-même. Vous découvrirez leurs principales caractéristiques, les fonctions spécifiques utilisées dans Bitcoin, et dans un chapitre plus technique, vous découvrirez en détail les rouages de la reine des fonctions de hachage : SHA256.
+Nous commencerons par les fonctions de hachage cryptographique, fondamentales pour les portefeuilles comme pour le protocole Bitcoin lui-même. Vous découvrirez leurs principales caractéristiques, les fonctions spécifiques utilisées dans Bitcoin, et dans un chapitre plus technique, vous découvrirez en détail les rouages de la reine des fonctions de hachage : [SHA256](https://planb.academy/resources/glossary/sha256).
 
 ![CYP201](assets/en/001.webp)
 
-Ensuite, nous aborderons le fonctionnement des algorithmes de signature numérique que vous utilisez au quotidien pour sécuriser vos UTXOs. Bitcoin en utilise deux : ECDSA et le protocole de Schnorr. Vous apprendrez sur quelles primitives mathématiques ces algorithmes reposent et comment ils garantissent la sécurité des transactions.
+Ensuite, nous aborderons le fonctionnement des algorithmes de signature numérique que vous utilisez au quotidien pour sécuriser vos UTXOs. Bitcoin en utilise deux : [ECDSA](https://planb.academy/resources/glossary/ecdsa) et le protocole de Schnorr. Vous apprendrez sur quelles primitives mathématiques ces algorithmes reposent et comment ils garantissent la sécurité des transactions.
 
 ![CYP201](assets/en/002.webp)
 
-Une fois que nous aurons bien compris ces quelques éléments de cryptographie, nous passerons enfin au cœur de la formation : les portefeuilles déterministes et hiérarchiques ! Il y a tout d'abord une section dédiée aux phrases mnémoniques, ces suites de 12 ou 24 mots qui permettent de créer et de restaurer vos portefeuilles. Vous découvrirez comment ces mots sont générés à partir d’une source d’entropie et en quoi ils facilitent l’utilisation de Bitcoin.
+Une fois que nous aurons bien compris ces quelques éléments de cryptographie, nous passerons enfin au cœur de la formation : les portefeuilles déterministes et hiérarchiques ! Il y a tout d'abord une section dédiée aux phrases mnémoniques, ces suites de 12 ou 24 mots qui permettent de créer et de restaurer vos portefeuilles. Vous découvrirez comment ces mots sont générés à partir d’une source d’[entropie](https://planb.academy/resources/glossary/entropy) et en quoi ils facilitent l’utilisation de Bitcoin.
 
 ![CYP201](assets/en/003.webp)
 
-La formation continuera avec l’étude de la passphrase BIP39, de la graine (à ne pas confondre avec la phrase mnémonique), du code chaîne maître et de la clé maîtresse. Nous verrons en détail ce que sont ces éléments, leurs rôles respectifs et la manière dont ils sont calculés.
+La formation continuera avec l’étude de la passphrase BIP39, de la [graine](https://planb.academy/resources/glossary/seed) (à ne pas confondre avec la phrase mnémonique), du code chaîne maître et de la clé maîtresse. Nous verrons en détail ce que sont ces éléments, leurs rôles respectifs et la manière dont ils sont calculés.
 
 ![CYP201](assets/en/004.webp)
 
@@ -61,7 +61,7 @@ Cette formation vous permettra d’utiliser vos logiciels de portefeuille en tou
 
 | Anglais         | Traduction / Explication                                                                           |
 | --------------- | -------------------------------------------------------------------------------------------------- |
-| *pubkey hash*   | Hachage de clé publique (utilisé pour générer une adresse Bitcoin).                                |
+| *pubkey hash*   | Hachage de [clé publique](https://planb.academy/resources/glossary/public-key) (utilisé pour générer une adresse Bitcoin).                                |
 | *public key*    | Clé publique (sert à recevoir des fonds, dérivée de la clé privée).                                |
 | *signature*     | Signature numérique (preuve cryptographique qu’un message provient du détenteur d’une clé privée). |
 | *scriptPubKey*  | Script de verrouillage (définit les conditions pour dépenser une sortie).                          |
@@ -95,7 +95,7 @@ Cette formation vous permettra d’utiliser vos logiciels de portefeuille en tou
 
 :::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
-Le premier type d'algorithmes cryptographiques utilisé par Bitcoin regroupe les fonctions de hachage. Elles jouent un rôle essentiel à différents niveaux du protocole et également au sein des portefeuilles Bitcoin. Découvrons ensemble ce qu'est une fonction de hachage et à quoi ça sert sur Bitcoin.
+Le premier type d'algorithmes cryptographiques utilisé par Bitcoin regroupe les fonctions de hachage. Elles jouent un rôle essentiel à différents niveaux du protocole et également au sein des portefeuilles Bitcoin. Découvrons ensemble ce qu'est une [fonction de hachage](https://planb.academy/resources/glossary/hash-function) et à quoi ça sert sur Bitcoin.
 
 ### Définition et principe du hachage
 
@@ -680,7 +680,7 @@ Le terme "_wallet_" sur Bitcoin est assez déroutant pour les débutants. En eff
 
 Le protocole Bitcoin est distribué et fonctionne sans autorité centrale. On ne peut donc pas faire comme dans les registres bancaires traditionnels, où les euros qui vous appartiennent sont simplement associés à votre identité personnelle. Sur Bitcoin, vos UTXOs vous appartiennent car ils sont protégés par des conditions de dépense spécifiées dans le langage Script. Pour simplifier, il existe deux types de scripts : le script de verrouillage (_scriptPubKey_), qui protège un UTXO, et le script de déverrouillage (_scriptSig_), qui permet de déverrouiller un UTXO et ainsi de dépenser les unités de bitcoins qu'il représente.
 
-Le fonctionnement initial de Bitcoin avec les scripts P2PK consiste à utiliser une clé publique pour verrouiller les fonds, en spécifiant dans un _scriptPubKey_ que la personne souhaitant dépenser cet UTXO doit fournir une signature valide avec la clé privée correspondant à cette clé publique. Pour déverrouiller cet UTXO, il est donc nécessaire de fournir une signature valide dans le _scriptSig_. Comme leurs noms l'indiquent, la clé publique est connue de tous puisqu'elle est diffusée sur la blockchain, tandis que la clé privée est uniquement connue du propriétaire légitime des fonds.
+Le fonctionnement initial de Bitcoin avec les scripts P2PK consiste à utiliser une clé publique pour verrouiller les fonds, en spécifiant dans un _scriptPubKey_ que la personne souhaitant dépenser cet UTXO doit fournir une signature valide avec la [clé privée](https://planb.academy/resources/glossary/private-key) correspondant à cette clé publique. Pour déverrouiller cet UTXO, il est donc nécessaire de fournir une signature valide dans le _scriptSig_. Comme leurs noms l'indiquent, la clé publique est connue de tous puisqu'elle est diffusée sur la blockchain, tandis que la clé privée est uniquement connue du propriétaire légitime des fonds.
 
 Ça, c'est le fonctionnement de base de Bitcoin, mais au fil des mises à jour, ce fonctionnement s'est complexifié. D'abord, Satoshi a également introduit les scripts P2PKH, qui utilisent une adresse de réception dans le _scriptPubKey_, laquelle représente le hachage de la clé publique. Puis, le système s'est encore complexifié avec l'arrivée de SegWit puis de Taproot. Cependant, le principe général reste fondamentalement le même : une clé publique ou une représentation de cette clé sert à verrouiller les UTXOs, et une clé privée correspondante est requise pour les déverrouiller et donc les dépenser.
 

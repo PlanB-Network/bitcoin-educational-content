@@ -17,7 +17,7 @@ V roce 2015 [LaurentMT](https://twitter.com/LaurentMT) poprvé zmínil tuto meto
 - P2EP (Pay-to-End-Point)
 - Steganografická transakce
 
-Unikátnost Payjoinu spočívá v jeho schopnosti generovat transakci, která na první pohled vypadá obyčejně, ale ve skutečnosti se jedná o mini Coinjoin mezi dvěma stranami. K dosažení tohoto cíle zahrnuje struktura transakce vedle skutečného odesílatele také příjemce platby mezi vstupy. Příjemce zahrne platbu sobě samému uprostřed transakce, což jim umožní být zaplaceno.
+Unikátnost Payjoinu spočívá v jeho schopnosti generovat transakci, která na první pohled vypadá obyčejně, ale ve skutečnosti se jedná o mini [Coinjoin](https://planb.academy/resources/glossary/coinjoin) mezi dvěma stranami. K dosažení tohoto cíle zahrnuje struktura transakce vedle skutečného odesílatele také příjemce platby mezi vstupy. Příjemce zahrne platbu sobě samému uprostřed transakce, což jim umožní být zaplaceno.
 
 Pojďme se podívat na konkrétní příklad: pokud kupujete bagetu za `4000 sats` pomocí UTXO `10,000 sats` a zvolíte Payjoin, váš pekař přidá UTXO `15,000 sats`, které patří jim, jako vstup, který obdrží v plné výši jako výstup, kromě vašich `4000 sats`:
 ![Diagram transakce Payjoin](assets/en/1.webp)

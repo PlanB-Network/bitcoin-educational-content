@@ -21,7 +21,7 @@ Uzel Bitcoin je počítač, který se účastní sítě Bitcoin tím, že na ně
 
 
 
-- **Úložiště Blockchain**: Udržuje úplnou a aktuální kopii Blockchain Bitcoin
+- **Úložiště [Blockchain](https://planb.academy/resources/glossary/blockchain)**: Udržuje úplnou a aktuální kopii Blockchain Bitcoin
 - **Ověřování transakcí**: ověřuje každou transakci a blok podle pravidel protokolu
 - **Šíření informací**: Sdílí nové transakce a bloky s ostatními uzly
 - **Budování konsensu**: Přispívá k uplatňování pravidel sítě
@@ -397,7 +397,7 @@ Jakmile je aplikace Umbrel spuštěna a přístupná prostřednictvím prohlíž
 
 
 
-**Bitcoin Node**
+**Bitcoin [Node](https://planb.academy/resources/glossary/node)**
 
 
 

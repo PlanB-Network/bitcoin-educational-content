@@ -23,7 +23,7 @@ Bir Bitcoin düğümü, Bitcoin core yazılımı veya alternatif bir istemci ça
 
 
 
-- **Blockchain deposu**: Blockchain Bitcoin'in eksiksiz ve güncel bir kopyasını muhafaza eder
+- **[Blockchain](https://planb.academy/resources/glossary/blockchain) deposu**: Blockchain Bitcoin'in eksiksiz ve güncel bir kopyasını muhafaza eder
 - **İşlem doğrulama**: her işlemi ve bloğu protokol kurallarına göre doğrular
 - **Bilgi yayma**: Yeni işlemleri ve blokları diğer düğümlerle paylaşır
 - **Fikir birliği oluşturma**: Ağ kurallarının uygulanmasına katkıda bulunur
@@ -399,7 +399,7 @@ Umbrel'iniz başlatıldıktan ve tarayıcınız üzerinden erişilebilir hale ge
 
 
 
-**Bitcoin Node**
+**Bitcoin [Node](https://planb.academy/resources/glossary/node)**
 
 
 

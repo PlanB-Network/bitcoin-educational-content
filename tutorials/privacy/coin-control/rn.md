@@ -21,7 +21,7 @@ Ukwiye. Naho kwirundanira Satoshi non-kyc vyoroshe, ubuzima bwite bwawe burari m
 
 
 
-### Ivyo bishika iyo ukoresheje UTXO.
+### Ivyo bishika iyo ukoresheje [UTXO](https://planb.academy/resources/glossary/utxo).
 
 
 

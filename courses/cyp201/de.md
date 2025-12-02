@@ -35,10 +35,10 @@ Willkommen zum CYP201-Kurs, in dem wir die Funktionsweise von HD Bitcoin-Wallets
 Das Ziel dieses Trainings ist es, Ihnen die Schlüssel zu geben, um die Werkzeuge, die Sie täglich verwenden, zu beherrschen. HD Bitcoin-Wallets, die im Mittelpunkt Ihrer Benutzererfahrung stehen, basieren auf manchmal komplexen Konzepten, die wir zugänglich machen werden. Gemeinsam werden wir sie entmystifizieren!
 
 Bevor wir in die Details des Aufbaus und der Funktionsweise von Bitcoin-Wallets eintauchen, beginnen wir mit einigen Kapiteln über die kryptografischen Grundlagen, die für das Folgende zu wissen sind.
-Wir beginnen mit kryptografischen Hash-Funktionen, die sowohl für Wallets als auch für das Bitcoin-Protokoll selbst grundlegend sind. Sie werden ihre Hauptmerkmale entdecken, die spezifischen Funktionen, die in Bitcoin verwendet werden, und in einem technischeren Kapitel werden Sie im Detail über die Funktionsweise der Königin der Hash-Funktionen lernen: SHA256.
+Wir beginnen mit kryptografischen Hash-Funktionen, die sowohl für Wallets als auch für das Bitcoin-Protokoll selbst grundlegend sind. Sie werden ihre Hauptmerkmale entdecken, die spezifischen Funktionen, die in Bitcoin verwendet werden, und in einem technischeren Kapitel werden Sie im Detail über die Funktionsweise der Königin der Hash-Funktionen lernen: [SHA256](https://planb.academy/resources/glossary/sha256).
 ![CYP201](assets/en/001.webp)
 
-Als Nächstes werden wir die Funktionsweise von digitalen Signaturalgorithmen besprechen, die Sie jeden Tag verwenden, um Ihre UTXOs zu sichern. Bitcoin verwendet zwei: ECDSA und das Schnorr-Protokoll. Sie werden erfahren, welche mathematischen Grundlagen diesen Algorithmen zugrunde liegen und wie sie die Sicherheit von Transaktionen gewährleisten.
+Als Nächstes werden wir die Funktionsweise von digitalen Signaturalgorithmen besprechen, die Sie jeden Tag verwenden, um Ihre UTXOs zu sichern. Bitcoin verwendet zwei: [ECDSA](https://planb.academy/resources/glossary/ecdsa) und das Schnorr-Protokoll. Sie werden erfahren, welche mathematischen Grundlagen diesen Algorithmen zugrunde liegen und wie sie die Sicherheit von Transaktionen gewährleisten.
 
 ![CYP201](assets/en/002.webp)
 
@@ -61,7 +61,7 @@ Diese Tabelle bietet Ihnen eine Übersetzung der wichtigsten verwendeten englisc
 | Englisch        | Übersetzung / Erklärung                                                                            |
 | --------------- | -------------------------------------------------------------------------------------------------- |
 | *pubkey hash*   | Hash des öffentlichen Schlüssels (wird zur Erstellung einer Bitcoin-Adresse verwendet).             |
-| *public key*    | Öffentlicher Schlüssel (dient zum Empfang von Geldern, abgeleitet vom privaten Schlüssel).          |
+| *[public key](https://planb.academy/resources/glossary/public-key)*    | Öffentlicher Schlüssel (dient zum Empfang von Geldern, abgeleitet vom privaten Schlüssel).          |
 | *signature*     | Digitale Signatur (kryptographischer Nachweis, dass eine Nachricht vom Inhaber eines privaten Schlüssels stammt). |
 | *scriptPubKey*  | Sperrskript (definiert die Bedingungen zum Ausgeben eines Outputs).                                 |
 | *scriptSig*     | Entsperrskript (liefert die Daten zur Erfüllung des *scriptPubKey*).                                |
@@ -75,9 +75,9 @@ Diese Tabelle bietet Ihnen eine Übersetzung der wichtigsten verwendeten englisc
 | *hash*          | Hash (eindeutiger und fester Fingerabdruck von Daten).                                             |
 | *SigHash*       | Typ des Signatur-Hashes (definiert, welche Teile einer Transaktion signiert werden).               |
 | *HD Wallet*     | Hierarchische deterministische Wallet (generiert mehrere Schlüssel aus einem einzigen Seed).        |
-| *Random Number* | Zufallszahl (wird zur Erstellung sicherer privater Schlüssel verwendet).                            |
+| *Random Number* | Zufallszahl (wird zur Erstellung sicherer [privater Schlüssel](https://planb.academy/resources/glossary/private-key) verwendet).                            |
 | *State*         | Zustand (Zwischenwert in einem kryptographischen Prozess).                                         |
-| *Entropy*       | Entropie (Maß der Zufälligkeit, verwendet zur Erzeugung von Wallet-Seeds).                         |
+| *[Entropy](https://planb.academy/resources/glossary/entropy)*       | Entropie (Maß der Zufälligkeit, verwendet zur Erzeugung von Wallet-Seeds).                         |
 | *Mnemonic*      | Mnemonik (Wortfolge zur Vereinfachung der Sicherung und Wiederherstellung eines Seeds).             |
 | *Wordlist*      | Wortliste (vordefinierte Menge von Wörtern zur Generierung von BIP39-Mnemoniken).                  |
 | *Seed*          | Seed (Anfangswert, aus dem alle Schlüssel einer HD-Wallet abgeleitet werden können).               |

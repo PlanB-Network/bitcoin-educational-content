@@ -21,7 +21,7 @@ Nút Bitcoin là máy tính tham gia vào mạng Bitcoin bằng cách chạy ph�
 
 
 
-- **Lưu trữ Blockchain**: Duy trì bản sao đầy đủ, cập nhật của Blockchain Bitcoin
+- **Lưu trữ [Blockchain](https://planb.academy/resources/glossary/blockchain)**: Duy trì bản sao đầy đủ, cập nhật của Blockchain Bitcoin
 - **Xác minh giao dịch**: xác thực từng giao dịch và khối theo các quy tắc giao thức
 - **Phổ biến thông tin**: Chia sẻ các giao dịch và khối mới với các nút khác
 - **Xây dựng sự đồng thuận**: Góp phần vào việc áp dụng các quy tắc mạng

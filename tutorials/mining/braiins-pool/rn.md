@@ -10,7 +10,7 @@ description: Intangamarara y'ikidengeri c'ubwonko
 Igikarabiro ca Braiins, mbere citwa igikarabiro ca Slush, ni co ca mbere Bitcoin Mining pool. Yashinzwe mu kwezi kwa cumi na kumwe 2010, yacukuye igice ca mbere ku wa 16 Kigarama 2010, igice ca 97834.
 
 
-Kuva muri Rusama 2024, Braiins Pool ifise ubushobozi bwo gukoresha ubuhinga bwa 13 EH/s, bikaba bigereranya nk'ibice 1,8% vy'umubare wose wa Bitcoin Hashrate. Yacukuye ama bitcoins 1.307.188, ni ukuvuga hafi 6% vy’ama bitcoins agera ku miriyoni 21 azokwigera abaho.
+Kuva muri Rusama 2024, Braiins Pool ifise ubushobozi bwo gukoresha ubuhinga bwa 13 EH/s, bikaba bigereranya nk'ibice 1,8% vy'umubare wose wa Bitcoin [Hashrate](https://planb.academy/resources/glossary/hashrate). Yacukuye ama bitcoins 1.307.188, ni ukuvuga hafi 6% vy’ama bitcoins agera ku miriyoni 21 azokwigera abaho.
 
 
 ### Uburyo bwo gutanga indishi

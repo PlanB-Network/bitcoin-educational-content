@@ -1,5 +1,5 @@
 ---
-name: Ashigaru - Whirlpool Coinjoin
+name: Ashigaru - Whirlpool [Coinjoin](https://planb.academy/resources/glossary/coinjoin)
 description: ¿Cómo hago coinjoins en la aplicación Ashigaru?
 ---
 
@@ -85,7 +85,7 @@ https://planb.academy/tutorials/wallet/mobile/ashigaru-9f903b55-2e55-4b06-9627-8
 
 
 
-- Dojo**, una implementación de nodo Bitcoin que le garantiza una conexión soberana a la red, sin depender de un servidor de terceros.
+- Dojo**, una implementación de [nodo](https://planb.academy/resources/glossary/node) Bitcoin que le garantiza una conexión soberana a la red, sin depender de un servidor de terceros.
 
 
 

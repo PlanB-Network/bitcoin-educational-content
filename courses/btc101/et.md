@@ -29,7 +29,7 @@ Tere tulemast BTC101 kursusele!
 
 Bitcoin on tehnoloogiline ja rahaline revolutsioon, mis võib panna meid kahtlema meie suhetes raha ja ühiskonnaga. Tegelikult on Bitcoin (edaspidi BTC) **neutraalne** ja **detsentraliseeritud** valuuta, mis tähendab, et seda ei kontrolli ükski üksus ega institutsioon. Tegemist on uuendusega, mis läheb kaugemale pelgalt "internetivaluutast": see on nii arvutiprotokoll (Bitcoin) kui ka rahaühik (Bitcoin).
 
-Protokolli aluseks on sellised tehnoloogiad nagu krüptograafia, võrguside ja kuulus "plokiahel", samas kui bitcoini ühik on selle protokolli nõuetekohaseks toimimiseks vajalik valuuta. Igapäevaelus kasutavad Salvadori elanikud ja bitcoin'i kasutajad kogu maailmas bitcoini valuutat kaupade ja teenuste ostmiseks ja müümiseks, tuginedes sellele tehnoloogiale, mis muudab nende elu paremaks.
+Protokolli aluseks on sellised tehnoloogiad nagu [krüptograafia](https://planb.academy/resources/glossary/cryptography), võrguside ja kuulus "plokiahel", samas kui bitcoini ühik on selle protokolli nõuetekohaseks toimimiseks vajalik valuuta. Igapäevaelus kasutavad Salvadori elanikud ja bitcoin'i kasutajad kogu maailmas bitcoini valuutat kaupade ja teenuste ostmiseks ja müümiseks, tuginedes sellele tehnoloogiale, mis muudab nende elu paremaks.
 
 **Terviklik, kuid ligipääsetav õppekava:**
 
@@ -204,7 +204,7 @@ Nende kriteeriumide täitmiseks on valuuta ajalooliselt arenenud erinevate sammu
 
 - Toorkivi -> Mündi
 - Pangatäht -> pangakaart
-- Blockchain -> Lightning Network
+- [Blockchain](https://planb.academy/resources/glossary/blockchain) -> Lightning Network
 
 Valuutad arenevad tänaseni, kohandades oma vorme erinevate kasutusviiside jaoks. Nagu me ütlesime, on kuld küll suurepärane väärtuse säilitaja, kuid praeguses globaliseerunud majanduses ei sobi see enam. Samamoodi on sellised fiduciary valuutad nagu dollar ja euro väga likviidsed ja kergesti transporditavad, sest need on nüüd enamasti digitaalsed, kuid nende väärtust alandab pidevalt rahapoliitiline inflatsioon.
 
@@ -374,7 +374,7 @@ Uute bitcoinide loomine on kaevandamisprotsessi tulemus. Lühidalt öeldes kasut
 
 Pärast selle ülesande edukat täitmist saavad kaevandajad iga kümne minuti tagant uute bitcoinide väljastamise eest tasu. See tasu on programmeeritud nii, et see väheneb poole võrra iga 210 000 ploki järel ehk umbes iga nelja aasta tagant (sündmus, mida nimetatakse "poolitamiseks"), mis annab raha väljaandmise kõverale trepikujulise kuju. Selle mehhanismi tõttu võib matemaatiliselt ennustada, et uute bitcoinide loomine lõpeb umbes aastal 2140, kui nende koguarv jõuab 21 miljoni piirini.
 
-| Halving Number | Block Height | BTC Reward After Halving  | Estimated BTC in Circulation After Halving |
+| [Halving](https://planb.academy/resources/glossary/halving) Number | Block Height | BTC Reward After Halving  | Estimated BTC in Circulation After Halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
 | 1              | 210,000      | 25 BTC                    | 10,500,000 BTC                             |
 | 2              | 420,000      | 12.5 BTC                  | 15,750,000 BTC                             |
@@ -838,7 +838,7 @@ Pärast seda võitu aktiveerisid sõlmed uuenduse nimega SegWit, sillutades teed
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Minerid kindlustavad võrgu ja lisavad tehinguid plokkidesse. Nad kasutavad elektrienergiat ASIC-masinate abil, et lahendada Bitcoini töötõendit **
+**Minerid kindlustavad võrgu ja lisavad tehinguid plokkidesse. Nad kasutavad elektrienergiat [ASIC](https://planb.academy/resources/glossary/asic)-masinate abil, et lahendada Bitcoini töötõendit **
 
 ![image](assets/et/054.webp)
 

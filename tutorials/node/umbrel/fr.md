@@ -1,6 +1,6 @@
 ---
 name: Umbrel
-description: Découvrez et installez Umbrel - Votre noeud bitcoin et votre serveur domestique
+description: Découvrez et installez Umbrel - Votre [noeud](https://planb.academy/resources/glossary/node) bitcoin et votre serveur domestique
 ---
 
 ![cover](assets/cover.webp)
@@ -11,7 +11,7 @@ description: Découvrez et installez Umbrel - Votre noeud bitcoin et votre serve
 
 Un nœud Bitcoin est un ordinateur qui participe au réseau Bitcoin en exécutant le logiciel Bitcoin Core ou un client alternatif. Son rôle est essentiel pour le fonctionnement et la sécurité du réseau :
 
-- **Stockage de la blockchain** : Il maintient une copie complète et à jour de la blockchain Bitcoin
+- **Stockage de la [blockchain](https://planb.academy/resources/glossary/blockchain)** : Il maintient une copie complète et à jour de la blockchain Bitcoin
 - **Vérification des transactions** : Il valide chaque transaction et bloc selon les règles du protocole
 - **Diffusion des informations** : Il partage les nouvelles transactions et blocs avec les autres nœuds
 - **Participation au consensus** : Il contribue à l'application des règles du réseau

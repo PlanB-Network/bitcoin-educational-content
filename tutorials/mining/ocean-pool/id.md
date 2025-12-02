@@ -136,7 +136,7 @@ Di sini, Anda dapat melihat bahwa dalam kotak **Estimated Time Until Minimum Pay
 
 ### Menyiapkan Penarikan Lightning
 Seperti yang Anda pahami, Ocean bertujuan untuk memaksimalkan transparansi dan meminimalkan penyimpanan (menyimpan satoshi Anda atas nama Anda).
-Itulah mengapa, untuk penarikan Lightning, diperlukan penggunaan **BOLT12 offers**. Ini adalah cara baru melakukan pembayaran di jaringan Lightning yang mulai muncul pada tahun 2024 dan memungkinkan beberapa hal:
+Itulah mengapa, untuk penarikan Lightning, diperlukan penggunaan **BOLT12 offers**. Ini adalah cara baru melakukan pembayaran di [jaringan Lightning](https://planb.academy/resources/glossary/lightning-network) yang mulai muncul pada tahun 2024 dan memungkinkan beberapa hal:
 - Ini adalah tautan pembayaran yang dapat digunakan kembali, memungkinkan pembayaran otomatis dan, tidak seperti alamat Lightning, BOLT12 bersifat non-custodial.
 - Ini juga merupakan metode pembayaran yang memberikan bukti bahwa pembayaran telah dilakukan, yang tidak terjadi pada LNURLs.
 - Sangat penting, ini dapat digunakan bersama dengan tanda tangan Bitcoin untuk membuktikan bahwa Anda adalah pemegang alamat BTC dan penawaran BOLT12.

@@ -1,5 +1,5 @@
 ---
-name: Labelling UTXO
+name: Labelling [UTXO](https://planb.academy/resources/glossary/utxo)
 description: ¿Cómo etiquetar correctamente tu UTXO?
 ---
 ![cover](assets/cover.webp)

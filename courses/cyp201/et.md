@@ -35,10 +35,10 @@ Tere tulemast CYP201 kursusele, kus me uurime põhjalikult HD Bitcoin rahakottid
 Selle koolituse eesmärk on anda sulle võtmed igapäevaselt kasutatavate tööriistade meisterlikuks kasutamiseks. HD Bitcoin rahakotid, mis on sinu kasutajakogemuse südames, põhinevad mõnikord keerulistel kontseptsioonidel, mida me püüame muuta ligipääsetavaks. Koos demüstifitseerime need!
 
 Enne kui sukeldume Bitcoin rahakottide ehituse ja toimimise detailidesse, alustame mõne peatükiga krüptograafilistest primitiividest, mida on vaja järgneva jaoks teada.
-Alustame krüptograafilistest hash-funktsioonidest, mis on olulised nii rahakottide kui ka Bitcoin protokolli enda jaoks. Sa avastad nende peamised omadused, Bitcoinis kasutatavad spetsiifilised funktsioonid ja tehnilisemas peatükis õpid detailideni tundma hash-funktsioonide kuningannat: SHA256.
+Alustame krüptograafilistest hash-funktsioonidest, mis on olulised nii rahakottide kui ka Bitcoin protokolli enda jaoks. Sa avastad nende peamised omadused, Bitcoinis kasutatavad spetsiifilised funktsioonid ja tehnilisemas peatükis õpid detailideni tundma hash-funktsioonide kuningannat: [SHA256](https://planb.academy/resources/glossary/sha256).
 ![CYP201](assets/en/001.webp)
 
-Järgnevalt arutame digitaalallkirja algoritmide toimimist, mida sa iga päev oma UTXOde turvamiseks kasutad. Bitcoin kasutab kahte: ECDSA ja Schnorri protokolli. Sa õpid, millised matemaatilised primitiivid nende algoritmide aluseks on ja kuidas need tagavad tehingute turvalisuse.
+Järgnevalt arutame digitaalallkirja algoritmide toimimist, mida sa iga päev oma UTXOde turvamiseks kasutad. Bitcoin kasutab kahte: [ECDSA](https://planb.academy/resources/glossary/ecdsa) ja Schnorri protokolli. Sa õpid, millised matemaatilised primitiivid nende algoritmide aluseks on ja kuidas need tagavad tehingute turvalisuse.
 
 ![CYP201](assets/en/002.webp)
 
@@ -59,7 +59,7 @@ See tabel pakub teile tõlke peamistest ingliskeelsetest terminitest, mida kasut
 | Inglise         | Tõlge / Selgitus                                                                                   |
 | --------------- | -------------------------------------------------------------------------------------------------- |
 | *pubkey hash*   | Avaliku võtme räsi (kasutatakse Bitcoini aadressi loomiseks).                                       |
-| *public key*    | Avalik võti (kasutatakse vahendite vastuvõtmiseks, tuletatud privaatvõtmest).                       |
+| *[public key](https://planb.academy/resources/glossary/public-key)*    | Avalik võti (kasutatakse vahendite vastuvõtmiseks, tuletatud privaatvõtmest).                       |
 | *signature*     | Digitaalallkiri (kryptograafiline tõend, et sõnum pärineb privaatvõtme omanikult).                  |
 | *scriptPubKey*  | Lukustusskript (määrab tingimused väljundi kulutamiseks).                                           |
 | *scriptSig*     | Avamisskript (annab andmed *scriptPubKey* rahuldamiseks).                                           |
@@ -75,7 +75,7 @@ See tabel pakub teile tõlke peamistest ingliskeelsetest terminitest, mida kasut
 | *HD Wallet*     | Hierarhiline deterministlik rahakott (genereerib ühe seemne põhjal mitu võtit).                     |
 | *Random Number* | Juhuslik number (kasutatakse turvaliste privaatvõtmete genereerimiseks).                            |
 | *State*         | Oleku väärtus (vaheväärtus krüptograafilises protsessis).                                          |
-| *Entropy*       | Entroopia (juhuslikkuse mõõt, mida kasutatakse rahakoti seemnete genereerimiseks).                 |
+| *[Entropy](https://planb.academy/resources/glossary/entropy)*       | Entroopia (juhuslikkuse mõõt, mida kasutatakse rahakoti seemnete genereerimiseks).                 |
 | *Mnemonic*      | Mnemoonika (sõnade jada, mis lihtsustab seemne varundamist ja taastamist).                          |
 | *Wordlist*      | Sõnastik (eelmääratud sõnade kogum, mida kasutatakse BIP39 mnemoonikute loomiseks).                 |
 | *Seed*          | Seeme (algväärtus, millest saab tuletada kõik HD rahakoti võtmed).                                  |

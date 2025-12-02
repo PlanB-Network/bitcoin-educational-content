@@ -1,7 +1,7 @@
 ---
 name: JoinMarket
 
-description: Opas ja opetusohjelma siitä, miten JoinMarketia käytetään CoinJoin:n tekemiseen Bitcoin:n yli komentorivin kautta
+description: Opas ja opetusohjelma siitä, miten JoinMarketia käytetään [CoinJoin](https://planb.academy/resources/glossary/coinjoin):n tekemiseen Bitcoin:n yli komentorivin kautta
 ---
 
 ![cover](assets/cover.webp)

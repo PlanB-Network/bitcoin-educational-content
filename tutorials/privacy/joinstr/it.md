@@ -1,6 +1,6 @@
 ---
 name: Joinstr
-description: CoinJoin decentralizzati tramite la rete Nostr per la riservatezza sovrana Bitcoin
+description: [CoinJoin](https://planb.academy/resources/glossary/coinjoin) decentralizzati tramite la rete Nostr per la riservatezza sovrana Bitcoin
 ---
 
 ![cover](assets/cover.webp)

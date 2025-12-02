@@ -1,7 +1,7 @@
 ---
 name: JoinMarket
 
-description: Handleiding en tutorial over hoe JoinMarket te gebruiken om CoinJoin over Bitcoin te doen via de opdrachtregel
+description: Handleiding en tutorial over hoe JoinMarket te gebruiken om [CoinJoin](https://planb.academy/resources/glossary/coinjoin) over Bitcoin te doen via de opdrachtregel
 ---
 
 ![cover](assets/cover.webp)

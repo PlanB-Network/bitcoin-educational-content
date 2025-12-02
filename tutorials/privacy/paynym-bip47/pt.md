@@ -6,7 +6,7 @@ description: Utilizar um código de pagamento reutilizável na Ashigaru
 
 
 
-O pior erro de privacidade que se pode cometer no Bitcoin é a reutilização de endereços. Sempre que o mesmo endereço recebe vários pagamentos, estas transacções são ligadas entre si, fornecendo ao mundo um mapa das suas transacções. Por conseguinte, recomenda-se vivamente que utilize sempre no generate um endereço único para cada recibo. Mas para algumas aplicações Bitcoin, isto não é simples.
+O pior erro de privacidade que se pode cometer no Bitcoin é a [reutilização de endereços](https://planb.academy/resources/glossary/address-reuse). Sempre que o mesmo endereço recebe vários pagamentos, estas transacções são ligadas entre si, fornecendo ao mundo um mapa das suas transacções. Por conseguinte, recomenda-se vivamente que utilize sempre no generate um endereço único para cada recibo. Mas para algumas aplicações Bitcoin, isto não é simples.
 
 
 

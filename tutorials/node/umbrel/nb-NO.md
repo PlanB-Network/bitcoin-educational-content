@@ -1,6 +1,6 @@
 ---
 name: Umbrel
-description: Oppdag og installer Umbrel - din Bitcoin-node og hjemmeserver
+description: Oppdag og installer Umbrel - din Bitcoin-[node](https://planb.academy/resources/glossary/node) og hjemmeserver
 ---
 
 ![cover](assets/cover.webp)
@@ -21,7 +21,7 @@ En Bitcoin-node er en datamaskin som deltar i Bitcoin-nettverket ved å kjøre B
 
 
 
-- **Blockchain-lagring**: Opprettholder en komplett, oppdatert kopi av Blockchain Bitcoin
+- **[Blockchain](https://planb.academy/resources/glossary/blockchain)-lagring**: Opprettholder en komplett, oppdatert kopi av Blockchain Bitcoin
 - **Transaksjonsverifisering**: validerer hver transaksjon og blokk i henhold til protokollreglene
 - **Formidling av informasjon**: Deler nye transaksjoner og blokker med andre noder
 - **Skaper konsensus**: Bidrar til anvendelsen av nettverksregler

@@ -5,8 +5,8 @@ objectives:
 
   - Bitcoin teknolojisi hakkında genel bir anlayış kazanma
   - Bitcoinlerin nasıl satın alınacağını ve güvenliğinin nasıl sağlanacağını anlayın
-  - Blockchain teknolojisi hakkında genel bir anlayışa sahip olmak
-  - Lightning Network kavramına aşina olmak
+  - [Blockchain](https://planb.academy/resources/glossary/blockchain) teknolojisi hakkında genel bir anlayışa sahip olmak
+  - [Lightning Network](https://planb.academy/resources/glossary/lightning-network) kavramına aşina olmak
   - Bitcoin'in jeopolitik ve sosyal etkilerinin farkına varılması
 
 ---
@@ -40,7 +40,7 @@ BTC101 kursuna hoş geldiniz!
 Bitcoin, para ve toplumla olan ilişkimizi sorgulamamıza neden olabilecek teknolojik ve parasal bir devrimdir. Aslında, Bitcoin (BTC olarak anılır) **nötr** ve **merkezi olmayan** bir para birimidir, yani herhangi bir varlık veya kurum tarafından kontrol edilmemektedir. Sadece bir "internet para biriminin" ötesine geçen bir yeniliktir: hem bir bilgisayar protokolü (Bitcoin) hem de bir parasal birimdir (Bitcoin).
 
 
-Bitcoin protokolü kriptografi, ağ iletişimi ve ünlü "Blockchain" gibi temel teknolojileri kullanırken, Bitcoin birimi bu protokolün düzgün işlemesi için gerekli para birimi olarak hizmet vermektedir. Günlük yaşamda, dünyanın dört bir yanındaki Salvadorlular ve bitcoin kullanıcıları, hayatlarını daha iyi hale getirmek için bu teknolojiye güvenerek mal ve hizmet alıp satmak için Bitcoin para birimini kullanıyor.
+Bitcoin protokolü [kriptografi](https://planb.academy/resources/glossary/cryptography), ağ iletişimi ve ünlü "Blockchain" gibi temel teknolojileri kullanırken, Bitcoin birimi bu protokolün düzgün işlemesi için gerekli para birimi olarak hizmet vermektedir. Günlük yaşamda, dünyanın dört bir yanındaki Salvadorlular ve bitcoin kullanıcıları, hayatlarını daha iyi hale getirmek için bu teknolojiye güvenerek mal ve hizmet alıp satmak için Bitcoin para birimini kullanıyor.
 
 
 **Kapsamlı ancak erişilebilir bir müfredat:**
@@ -554,7 +554,7 @@ Yeni bitcoinlerin yaratılması Mining sürecinin sonucudur. Özetle, madenciler
 ![image](assets/tr/022.webp)
 
 
-Bu görevi başarıyla yerine getirdikten sonra madenciler her on dakikada bir yeni bitcoin ihracı ile ödüllendirilir. Bu ödül her 210.000 blokta, yani yaklaşık her dört yılda bir ("Halving" olarak bilinen bir olay) yarıya inecek şekilde programlanmış olup, para basma eğrisine merdiven benzeri bir şekil vermektedir. Bu mekanizma nedeniyle, matematiksel olarak yeni bitcoin yaratımının 2140 yılında, toplam sayı 21 milyon sınırına ulaştığında duracağı tahmin edilebilir.
+Bu görevi başarıyla yerine getirdikten sonra madenciler her on dakikada bir yeni bitcoin ihracı ile ödüllendirilir. Bu ödül her 210.000 blokta, yani yaklaşık her dört yılda bir ("[Halving](https://planb.academy/resources/glossary/halving)" olarak bilinen bir olay) yarıya inecek şekilde programlanmış olup, para basma eğrisine merdiven benzeri bir şekil vermektedir. Bu mekanizma nedeniyle, matematiksel olarak yeni bitcoin yaratımının 2140 yılında, toplam sayı 21 milyon sınırına ulaştığında duracağı tahmin edilebilir.
 
 
 | Halving Number | Block Height | BTC Reward After Halving  | Estimated BTC in Circulation After Halving |
@@ -590,7 +590,7 @@ Mining kavramını [Miner bölümünde] (https://planb.academy/courses/2b7dc507-
 
 
 
-- Mining zorluk ayarlaması, Blockchain'e ortalama her on dakikada bir yeni bir blok eklenmesini sağlamak için her 2016 blokta veya yaklaşık iki haftada bir gerçekleşen bir süreçtir. Bu blok oluşturma sıklığı ve toplam bitcoin miktarı Bitcoin protokolünün sabit unsurlarıdır ve geleneksel para sistemlerinde alınan keyfi kararların aksine genel bir mutabakat olmadan değiştirilemez.
+- Mining [zorluk](https://planb.academy/resources/glossary/difficulty) ayarlaması, Blockchain'e ortalama her on dakikada bir yeni bir blok eklenmesini sağlamak için her 2016 blokta veya yaklaşık iki haftada bir gerçekleşen bir süreçtir. Bu blok oluşturma sıklığı ve toplam bitcoin miktarı Bitcoin protokolünün sabit unsurlarıdır ve geleneksel para sistemlerinde alınan keyfi kararların aksine genel bir mutabakat olmadan değiştirilemez.
 
 
 Geçerli bir Hash bulmanın zorluğu bir tür döngüyü takip eder: madencilerin sayısı artar ve daha fazla blok daha hızlı bulunursa, bu bir blok bulmak için ortalama sürenin azalmasına neden olur ve böylece zorluk artar. Sonuç olarak, madencilerin bulduğu blok sayısı azalır, bu da mekanizmanın blok başına ortalama 10 dakikaya geri döndüğü anlamına gelir. Görsel bir gösterim için lütfen aşağıdaki resme bakın.
@@ -688,7 +688,7 @@ Dolayısıyla portföyler, her zaman kilit bir soru etrafında toplanan geniş k
 ### Bitcoin Wallet nasıl çalışır?
 
 
-İster Bitcoin "bankacınız" ister kendiniz olun, Bitcoin cüzdanlarının büyük çoğunluğu, anahtar çiftleri sistemini içeren asimetrik kriptografiye dayalı benzer bir teknolojiyle çalışır: harcama için bir özel anahtar ve alım için bir ortak anahtar.
+İster Bitcoin "bankacınız" ister kendiniz olun, Bitcoin cüzdanlarının büyük çoğunluğu, anahtar çiftleri sistemini içeren asimetrik kriptografiye dayalı benzer bir teknolojiyle çalışır: harcama için bir [özel anahtar](https://planb.academy/resources/glossary/private-key) ve alım için bir ortak anahtar.
 
 
 
@@ -800,7 +800,7 @@ Aşağıda, çeşitli güvenlik seviyeleri tanımlayacağız:
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
-- **Seviye 2**, fiziksel bir Wallet kullanıyorsunuz ve 12/24 kelimelik listenizi güvence altına aldınız. Genellikle "Cold Wallet" olarak adlandırılır çünkü anahtarlarınız internete bağlı olmayan bir cihazda saklanır. Bu durumda, her zaman her işlemi cihazınızla imzalamanız gerekecektir, bu da fonlarınızı günlük olarak daha az erişilebilir hale getirir.
+- **Seviye 2**, fiziksel bir Wallet kullanıyorsunuz ve 12/24 kelimelik listenizi güvence altına aldınız. Genellikle "[Cold Wallet](https://planb.academy/resources/glossary/cold-wallet)" olarak adlandırılır çünkü anahtarlarınız internete bağlı olmayan bir cihazda saklanır. Bu durumda, her zaman her işlemi cihazınızla imzalamanız gerekecektir, bu da fonlarınızı günlük olarak daha az erişilebilir hale getirir.
 
 
 Örneğin, bir Ledger, bir Satochip veya bir Tapsigner kullanabilirsiniz:
@@ -1236,7 +1236,7 @@ Bu zaferin ardından, düğümler SegWit adlı bir güncellemeyi etkinleştirere
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
 
-**Madenciler ağın güvenliğini sağlar ve bloklara işlem ekler. Bitcoin Proof of Work'yi çözmek için ASIC makineleri aracılığıyla elektrik kullanırlar.**
+**Madenciler ağın güvenliğini sağlar ve bloklara işlem ekler. Bitcoin Proof of Work'yi çözmek için [ASIC](https://planb.academy/resources/glossary/asic) makineleri aracılığıyla elektrik kullanırlar.**
 
 
 ![image](assets/tr/054.webp)

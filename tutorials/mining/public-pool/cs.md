@@ -5,7 +5,7 @@ description: Úvod do Veřejného bazénu
 
 ![signup](assets/cover.webp)
 
-**Veřejný bazén** není jen tak nějaký bazén; jedná se o to, co se také nazývá **Solo bazén**. Pokud váš miner úspěšně vytěží blok, pak získáte celou odměnu za blok, která se nesdílí s ostatními účastníky bazénu ani s samotným bazénem.
+**Veřejný bazén** není jen tak nějaký bazén; jedná se o to, co se také nazývá **Solo bazén**. Pokud váš [miner](https://planb.academy/resources/glossary/miner) úspěšně vytěží blok, pak získáte celou odměnu za blok, která se nesdílí s ostatními účastníky bazénu ani s samotným bazénem.
 
 **Veřejný bazén** poskytuje pouze **šablonu bloku** pro váš miner, aby mohl vykonávat svou úlohu, aniž byste potřebovali mít **Bitcoinový uzel** a software, který komunikuje s vaším minerem. Jelikož nesdružujete svůj výpočetní výkon s výkonem ostatních účastníků, vaše šance na úspěšné vytěžení bloku jsou samozřejmě velmi nízké, což připomíná jakýsi loterijní systém, kde někdy šťastný jedinec vyhraje jackpot.
 
@@ -15,7 +15,7 @@ Na **Dashboardu** **Veřejného bazénu** máte stále nějaké statistiky, jako
 
 ![signup](assets/2.webp)
 
-V prvních několika řádcích můžeme vidět **Bitaxe** s 1323 připojenými **Bitaxe** pro celkový hashrate 649TH/s. **Bitaxe** je **Open source** projekt, který umožňuje jednoduché znovupoužití čipu z **ASIC** jako je **Antminer S19** na **opensource** elektronické desce, aby se vytvořil malý miner o výkonu 0.5TH/s pro 15W. Tento miner použijeme jako příklad pro tento tutoriál.
+V prvních několika řádcích můžeme vidět **Bitaxe** s 1323 připojenými **Bitaxe** pro celkový hashrate 649TH/s. **Bitaxe** je **Open source** projekt, který umožňuje jednoduché znovupoužití čipu z **[ASIC](https://planb.academy/resources/glossary/asic)** jako je **Antminer S19** na **opensource** elektronické desce, aby se vytvořil malý miner o výkonu 0.5TH/s pro 15W. Tento miner použijeme jako příklad pro tento tutoriál.
 
 ## Přidání **Pracovníka** 👷‍♂️
 
@@ -54,7 +54,7 @@ Na **Dashboardu** se zobrazují různé informace jak o vašich datech, tak o s�
 
 Máte zde **Network Hash Rate**, což odpovídá celkové pracovní síle **Bitcoin** sítě.
 
-**Network Difficulty** ukazuje obtížnost, která musí být dosažena pro validaci bloku.
+**Network [Difficulty](https://planb.academy/resources/glossary/difficulty)** ukazuje obtížnost, která musí být dosažena pro validaci bloku.
 
 A **Your Best Difficulty** je nejvyšší obtížnost, kterou jste dosáhli. Pokud se vám náhodou 🍀 podaří dosáhnout obtížnosti sítě, pak vyhráváte celou odměnu za blok... po 100 blocích. Museli byste počkat 100 bloků, než byste je mohli utratit.
 

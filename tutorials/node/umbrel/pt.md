@@ -1,6 +1,6 @@
 ---
 name: Umbrel
-description: Descubra e instale o Umbrel - Seu nó Bitcoin e servidor doméstico
+description: Descubra e instale o Umbrel - Seu [nó](https://planb.academy/resources/glossary/node) Bitcoin e servidor doméstico
 ---
 
 ![cover](assets/cover.webp)
@@ -21,7 +21,7 @@ Um nó Bitcoin é um computador que participa na rede Bitcoin, executando o soft
 
 
 
-- **Armazenamento do Blockchain**: Mantém uma cópia completa e actualizada do Blockchain Bitcoin
+- **Armazenamento do [Blockchain](https://planb.academy/resources/glossary/blockchain)**: Mantém uma cópia completa e actualizada do Blockchain Bitcoin
 - **Verificação da transação**: valida cada transação e bloco de acordo com as regras do protocolo
 - **Divulgação de informações**: Partilha novas transacções e blocos com outros nós
 - **Criação de consensos**: Contribui para a aplicação das regras da rede

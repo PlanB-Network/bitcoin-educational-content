@@ -8,7 +8,7 @@ description: 安裝和使用 Phoenix Wallet
 Phoenix 是由 ACINQ 開發的自我保管型 Lightning Wallet 和節點，ACINQ 是一家專門提供基於 Lightning 軟體解決方案的法國公司。與 Satoshi 的 Wallet 等託管式 Lightning 錢包（比特幣由第三方託管）不同，Phoenix 可讓使用者保留對其私密金鑰的完全控制權。
 
 
-Phoenix 作為真正的 Lightning 節點嵌入您的手機，自動與 ACINQ 的 Lightning 節點開啟通道。該應用程式基於 Lightning-KMP，是 Kotlin 中 Lightning Network 的跨平台實現，針對手機錢包進行了優化。與其他 Lightning 節點解決方案不同，Phoenix 大大簡化了管理。用戶無需處理通道開啟和關閉、運行 Bitcoin 節點或管理 Lightning Network 上的流動性。Phoenix 會在後台處理所有這些技術操作。
+Phoenix 作為真正的 Lightning 節點嵌入您的手機，自動與 ACINQ 的 Lightning 節點開啟通道。該應用程式基於 Lightning-KMP，是 Kotlin 中 [Lightning Network](https://planb.academy/resources/glossary/lightning-network) 的跨平台實現，針對手機錢包進行了優化。與其他 Lightning 節點解決方案不同，Phoenix 大大簡化了管理。用戶無需處理通道開啟和關閉、運行 Bitcoin 節點或管理 Lightning Network 上的流動性。Phoenix 會在後台處理所有這些技術操作。
 
 
 此應用程式結合了行動 Lightning 錢包的易用性與便利性，以及真正個人 Lightning 節點的安全性與主權。Phoenix 使安全、高效、自主地使用 Lightning Network 成為可能，同時享受流暢、直觀的用戶體驗。

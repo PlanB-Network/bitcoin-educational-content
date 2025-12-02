@@ -4,7 +4,7 @@ goal: Descubra os fundamentos da Bitcoin, incluindo a sua proposta de valor mone
 objectives:
   - Obter uma compreensão geral da tecnologia Bitcoin
   - Compreender como comprar e proteger bitcoins
-  - Ter um conhecimento geral da tecnologia Blockchain
+  - Ter um conhecimento geral da tecnologia [Blockchain](https://planb.academy/resources/glossary/blockchain)
   - Familiarizar-se com o conceito de Lightning Network
   - Compreender o impacto geopolítico e social da Bitcoin
 ---
@@ -186,7 +186,7 @@ Por estas razões, o ouro como moeda é o resultado de 4.000 anos de darwinismo 
 
 ### As caraterísticas da moeda
 
-O ouro preenche idealmente os critérios de uma moeda eficiente: a sua raridade natural torna-o valioso, enquanto as suas propriedades químicas garantem que não se desgasta com o tempo. Estas caraterísticas fizeram do ouro uma excelente **bolsa de valor**, mas não uma moeda comum, porque esta forma de dinheiro não é facilmente divisível ou transportável a longas distâncias. Num mundo globalizado e digital, o ouro tem dificuldade em acompanhar o ritmo e necessita de uma entidade central que o torne divisível e facilmente trocável (ou seja, através de moedas cunhadas).
+O ouro preenche idealmente os critérios de uma moeda eficiente: a sua raridade natural torna-o valioso, enquanto as suas propriedades químicas garantem que não se desgasta com o tempo. Estas caraterísticas fizeram do ouro uma excelente **bolsa de valor**, mas não uma moeda comum, porque esta forma de dinheiro não é facilmente divisível ou transportável a longas distâncias. Num mundo globalizado e digital, o ouro tem [dificuldade](https://planb.academy/resources/glossary/difficulty) em acompanhar o ritmo e necessita de uma entidade central que o torne divisível e facilmente trocável (ou seja, através de moedas cunhadas).
 
 Pelo contrário, as moedas fiduciárias estatais (fiat) são facilmente utilizáveis, mas são constantemente desvalorizadas pelas entidades que as controlam (reis, bancos centrais, imperadores, ditadores).
 
@@ -370,7 +370,7 @@ A criação de novos bitcoins é o resultado do processo de mineração. Em pouc
 
 ![image](assets/pt/022.webp)
 
-Depois de executarem esta tarefa com sucesso, os mineiros são recompensados com a emissão de novos bitcoins a cada dez minutos. Esta recompensa está programada para reduzir para metade a cada 210 000 blocos, o que corresponde aproximadamente a cada quatro anos (um evento conhecido como "halving"), dando à curva de emissão monetária uma forma semelhante a uma escada. Devido a este mecanismo, pode prever-se matematicamente que a criação de novos bitcoins cessará por volta do ano 2140, quando o número total atingir o seu limite de 21 milhões.
+Depois de executarem esta tarefa com sucesso, os mineiros são recompensados com a emissão de novos bitcoins a cada dez minutos. Esta recompensa está programada para reduzir para metade a cada 210 000 blocos, o que corresponde aproximadamente a cada quatro anos (um evento conhecido como "[halving](https://planb.academy/resources/glossary/halving)"), dando à curva de emissão monetária uma forma semelhante a uma escada. Devido a este mecanismo, pode prever-se matematicamente que a criação de novos bitcoins cessará por volta do ano 2140, quando o número total atingir o seu limite de 21 milhões.
 
 | Halving Number | Block Height | BTC Reward After Halving  | Estimated BTC in Circulation After Halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -467,7 +467,7 @@ As carteiras podem, assim, ser classificadas em grandes famílias de utilizaçã
 
 ### Como funciona uma carteira Bitcoin?
 
-Quer seja o seu "banqueiro" Bitcoin ou você próprio, a grande maioria das carteiras Bitcoin funciona com uma tecnologia semelhante baseada em criptografia assimétrica, que envolve um sistema de pares de chaves: uma chave privada para gastar e uma chave pública para receber.
+Quer seja o seu "banqueiro" Bitcoin ou você próprio, a grande maioria das carteiras Bitcoin funciona com uma tecnologia semelhante baseada em criptografia assimétrica, que envolve um sistema de pares de chaves: uma [chave privada](https://planb.academy/resources/glossary/private-key) para gastar e uma [chave pública](https://planb.academy/resources/glossary/public-key) para receber.
 
 - Chave privada
 
@@ -679,7 +679,7 @@ Agora que já cobrimos os conceitos básicos das carteiras Bitcoin e as melhores
 
 ![image](assets/pt/038.webp)
 
-O dia 31 de outubro de 2008 marca o nascimento da nova tecnologia financeira que é a Bitcoin. Neste dia, o anónimo Satoshi Nakamoto apresentou a sua inovação ao mundo através de um e-mail enviado para a lista de discussão dos cypherpunks, uma comunidade de entusiastas da criptografia dedicada a promover a privacidade na Internet. Este e-mail continha um documento chamado "Livro Branco", que apresentava o funcionamento da Bitcoin.
+O dia 31 de outubro de 2008 marca o nascimento da nova tecnologia financeira que é a Bitcoin. Neste dia, o anónimo Satoshi Nakamoto apresentou a sua inovação ao mundo através de um e-mail enviado para a lista de discussão dos cypherpunks, uma comunidade de entusiastas da criptografia dedicada a promover a privacidade na Internet. Este e-mail continha um documento chamado "[Livro Branco](https://planb.academy/resources/glossary/white-paper)", que apresentava o funcionamento da Bitcoin.
 
 Esta iniciativa não gerou entusiasmo imediato, provavelmente devido aos fracassos anteriores nas tentativas de criar um sistema de dinheiro digital. No entanto, este Livro Branco acabou por se tornar uma referência para os utilizadores de Bitcoin e tem sido objeto de muitos debates no ecossistema Bitcoin ao longo dos anos.
 
@@ -836,7 +836,7 @@ Após esta vitória, os nós activaram uma atualização denominada SegWit, abri
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-\*\*Os mineiros protegem a rede e adicionam transacções aos blocos. Eles usam eletricidade através de máquinas ASIC para resolver a prova de trabalho do Bitcoin
+\*\*Os mineiros protegem a rede e adicionam transacções aos blocos. Eles usam eletricidade através de máquinas [ASIC](https://planb.academy/resources/glossary/asic) para resolver a prova de trabalho do Bitcoin
 
 ![image](assets/pt/054.webp)
 
@@ -844,7 +844,7 @@ Após esta vitória, os nós activaram uma atualização denominada SegWit, abri
 
 A "Prova de Trabalho" (POW) é o mecanismo de consenso de segurança do protocolo Bitcoin. É a base de tudo e desempenha um papel crucial na teoria dos jogos do Bitcoin.
 
-Para explicar como funciona, imagine uma lotaria universal em que todos podem participar. O objetivo é encontrar um número específico que permita ao vencedor assinar um bloco válido, ganhando uma recompensa em Bitcoin. Este número é muito simples de verificar utilizando a função hash SHA-256, mas difícil de encontrar: os participantes (mineiros) tentarão biliões e biliões de possibilidades, tais como 1, 52, 2648, 26874615, 15344854131318631, e assim por diante, até descobrirem o número certo.
+Para explicar como funciona, imagine uma lotaria universal em que todos podem participar. O objetivo é encontrar um número específico que permita ao vencedor assinar um bloco válido, ganhando uma recompensa em Bitcoin. Este número é muito simples de verificar utilizando a [função hash](https://planb.academy/resources/glossary/hash-function) SHA-256, mas difícil de encontrar: os participantes (mineiros) tentarão biliões e biliões de possibilidades, tais como 1, 52, 2648, 26874615, 15344854131318631, e assim por diante, até descobrirem o número certo.
 
 Se o número escolhido estiver correto: Jackpot! Caso contrário, a procura continua.
 

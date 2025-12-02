@@ -193,7 +193,7 @@ Au premier lancement, l'application Joinstr demandera des autorisations pour con
 
 L'application Joinstr est organisée en trois onglets principaux :
 - **Home** : Écran d'accueil
-- **Pools** : Création et gestion des pools CoinJoin
+- **Pools** : Création et gestion des pools [CoinJoin](https://planb.academy/resources/glossary/coinjoin)
 - **Settings** : Configuration de l'application
 
 ![CONFIGURATION SETTINGS](assets/fr/13.webp)

@@ -11,7 +11,7 @@ Aqua ni programu ya rununu ambayo hurahisisha kuunda Hot Wallet kwa Bitcoin na L
 Iliyoundwa na kampuni ya JAN3 chini ya uelekezi wa Samson Mow, programu ya Aqua awali iliundwa mahususi kwa mahitaji ya watumiaji katika Amerika ya Kusini, ingawa inafaa kwa mtumiaji yeyote duniani kote. Inavutia sana kwa wanaoanza na wale wanaotumia Bitcoin kila siku kwa malipo yao.
 
 
-Katika somo hili, tutajua jinsi ya kutumia Elements nyingi za Aqua. Lakini kabla hatujafanya hivyo, hebu tuchukue muda kuelewa Sidechain ni nini kwenye Bitcoin na jinsi Liquid inavyofanya kazi, ili tuweze kufahamu kikamilifu thamani ya Aqua.
+Katika somo hili, tutajua jinsi ya kutumia Elements nyingi za Aqua. Lakini kabla hatujafanya hivyo, hebu tuchukue muda kuelewa [Sidechain](https://planb.academy/resources/glossary/sidechain) ni nini kwenye Bitcoin na jinsi Liquid inavyofanya kazi, ili tuweze kufahamu kikamilifu thamani ya Aqua.
 
 
 ![AQUA](assets/fr/01.webp)

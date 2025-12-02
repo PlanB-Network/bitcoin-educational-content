@@ -16,7 +16,7 @@ Ocean Mining jest nieco unikalnym Mining pool. Tutaj nie są wymagane żadne kon
 ### System wynagrodzeń
 
 
-System wynagrodzeń Ocean nazywa się TIDES, "Transparent Index of Distinct Extended Shares". System ten rejestruje pracę wykonaną przez górników, znaną jako "udziały". Pula oblicza procent "udziałów" dla każdego współpracownika, a następnie dodaje ich Bitcoin Address do szablonu bloku puli jako beneficjenta tego procentu Block reward.
+System wynagrodzeń Ocean nazywa się TIDES, "Transparent Index of Distinct Extended Shares". System ten rejestruje pracę wykonaną przez górników, znaną jako "udziały". Pula oblicza procent "udziałów" dla każdego współpracownika, a następnie dodaje ich Bitcoin Address do szablonu bloku puli jako beneficjenta tego procentu [Block reward](https://planb.academy/resources/glossary/block-reward).
 
 
 Szablon bloku jest aktualizowany mniej więcej co 10 sekund, aby uwzględnić najbardziej lukratywne nowe transakcje i w razie potrzeby zmienić dystrybucję Block reward.
@@ -210,7 +210,7 @@ Tutaj możesz zobaczyć, że w polu **Estimated Time Until Minimum Payout** jest
 Jak zrozumiałeś, Ocean dąży do maksymalizacji przejrzystości i minimalizacji opieki (przechowywanie Sats w Twoim imieniu).
 
 
-Dlatego w przypadku wypłat Lightning konieczne jest skorzystanie z ofert **BOLT12**. Jest to nowy sposób dokonywania płatności na Lightning Network, który zaczyna się pojawiać w 2024 roku i pozwala na kilka rzeczy:
+Dlatego w przypadku wypłat Lightning konieczne jest skorzystanie z ofert **BOLT12**. Jest to nowy sposób dokonywania płatności na [Lightning Network](https://planb.academy/resources/glossary/lightning-network), który zaczyna się pojawiać w 2024 roku i pozwala na kilka rzeczy:
 
 
 - Jest to łącze płatnicze wielokrotnego użytku, umożliwiające automatyczne płatności i, w przeciwieństwie do Lightning Address, BOLT12 nie podlega ograniczeniom.

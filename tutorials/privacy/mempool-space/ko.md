@@ -1,5 +1,5 @@
 ---
-name: Mempool
+name: [Mempool](https://planb.academy/resources/glossary/mempool)
 description: 전체 Bitcoin 에코시스템을 살펴보세요.
 ---
 

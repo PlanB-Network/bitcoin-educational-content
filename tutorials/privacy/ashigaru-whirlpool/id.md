@@ -1,5 +1,5 @@
 ---
-name: Ashigaru - Whirlpool Coinjoin
+name: Ashigaru - Whirlpool [Coinjoin](https://planb.academy/resources/glossary/coinjoin)
 description: Bagaimana cara membuat koin bersama di aplikasi Ashigaru?
 ---
 
@@ -85,7 +85,7 @@ https://planb.academy/tutorials/wallet/mobile/ashigaru-9f903b55-2e55-4b06-9627-8
 
 
 
-- Dojo**, implementasi node Bitcoin yang menjamin Anda memiliki koneksi yang berdaulat ke jaringan, tanpa ketergantungan pada server pihak ketiga.
+- Dojo**, implementasi [node](https://planb.academy/resources/glossary/node) Bitcoin yang menjamin Anda memiliki koneksi yang berdaulat ke jaringan, tanpa ketergantungan pada server pihak ketiga.
 
 
 

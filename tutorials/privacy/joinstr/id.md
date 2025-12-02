@@ -341,7 +341,7 @@ Aplikasi Joinstr diatur ke dalam tiga tab utama:
 
 
 - Beranda**: Layar beranda
-- Kolam**: Membuat dan mengelola pool CoinJoin
+- Kolam**: Membuat dan mengelola pool [CoinJoin](https://planb.academy/resources/glossary/coinjoin)
 - Pengaturan**: Konfigurasi aplikasi
 
 

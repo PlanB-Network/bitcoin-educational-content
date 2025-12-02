@@ -179,7 +179,7 @@ Bevor du auf einen Link klickst oder eine Aktion durchführst, überprüfe immer
 
 #### Bitcoin 'Hard-Forks'
 
-Im Laufe der Jahre hat Bitcoin mehrere *Hard-Forks* erlebt, die zur Schaffung alternativer Versionen der ursprünglichen Kryptowährung führten. Einfach ausgedrückt ist ein *Hard Fork* eine Abspaltung im Netzwerk, die zu zwei getrennten Blockchains führt. Bis zum Zeitpunkt der Abspaltung haben beide dieselbe Geschichte. Diese Abspaltungen treten typischerweise auf, wenn ein Teil der Entwicklergemeinschaft oder des breiteren Bitcoin-Ökosystems grössere Änderungen am ursprünglichen Protokoll einführen möchte, aber keinen breiten Konsens erreichen kann. Anstatt ihre Ideen aufzugeben, beschliessen sie, eine neue Version von Bitcoin (mit geänderten Regeln) zu starten, in der Hoffnung, dass die Nutzer und Miner stattdessen deinem Fork folgen werden.
+Im Laufe der Jahre hat Bitcoin mehrere *Hard-Forks* erlebt, die zur Schaffung alternativer Versionen der ursprünglichen Kryptowährung führten. Einfach ausgedrückt ist ein *Hard [Fork](https://planb.academy/resources/glossary/fork)* eine Abspaltung im Netzwerk, die zu zwei getrennten Blockchains führt. Bis zum Zeitpunkt der Abspaltung haben beide dieselbe Geschichte. Diese Abspaltungen treten typischerweise auf, wenn ein Teil der Entwicklergemeinschaft oder des breiteren Bitcoin-Ökosystems grössere Änderungen am ursprünglichen Protokoll einführen möchte, aber keinen breiten Konsens erreichen kann. Anstatt ihre Ideen aufzugeben, beschliessen sie, eine neue Version von Bitcoin (mit geänderten Regeln) zu starten, in der Hoffnung, dass die Nutzer und Miner stattdessen deinem Fork folgen werden.
 
 ![image](assets/de/011.webp)
 
@@ -606,7 +606,7 @@ Bitcoin ist definiert als ein "Peer-to-Peer-Electronic-Cash-System". Das bedeute
 
 ![image](assets/de/034.webp)
 
-Vereinfacht ausgedrückt verfügt jeder Teilnehmer des Bitcoin-Netzwerks (eine so genannte "Node") über eine vollständige Kopie des Geschäftsbuchs, die als Blockchain bezeichnet wird. Wenn eine neue Transaktion stattfindet, wird sie an das Netzwerk gesendet. Die Miner bestätigen dann diese Transaktionen, indem sie sie zu Blöcken zusammenfassen, die dann am Ende der Kette angehängt werden (daher der Name "Blockchain").
+Vereinfacht ausgedrückt verfügt jeder Teilnehmer des Bitcoin-Netzwerks (eine so genannte "[Node](https://planb.academy/resources/glossary/node)") über eine vollständige Kopie des Geschäftsbuchs, die als Blockchain bezeichnet wird. Wenn eine neue Transaktion stattfindet, wird sie an das Netzwerk gesendet. Die Miner bestätigen dann diese Transaktionen, indem sie sie zu Blöcken zusammenfassen, die dann am Ende der Kette angehängt werden (daher der Name "Blockchain").
 
 ![image](assets/de/035.webp)
 
@@ -1237,7 +1237,7 @@ Die Wahl der richtigen Strategie für den Erwerb und die Sicherung deiner Bitcoi
 - **Physische Bedrohungen**: Leider gibt es physische Angriffe; Bitcoin-Besitzer waren in der Vergangenheit Opfer von Einbrüchen, Raubüberfällen und sogar Entführungen. Diese Vorfälle sind zwar immer noch selten und betreffen meist prominente Personen. Es lohnt sich jedoch trotzdem, das von Anfang an bei der Planung deiner Sicherheitsstrategie zu berücksichtigen.
 - **Naturkatastrophen**: Vielleicht lebst du in einem Gebiet, das anfällig für Waldbrände, Überschwemmungen oder andere extreme Wetterereignisse ist. Dann ist es wichtig, ein robustes Backup-System zu haben, das deine privaten Schlüssel schützt.
 - **Staatliche Beschlagnahmung**: Möglicherweise gelten in deinem Land restriktive oder instabile Finanzvorschriften. So kann es sein, dass du beim Kauf oder dem Gebrauch von Bitcoin auf Einschränkungen stösst. In solchen Fällen solltest du private Lösungen ohne diese Einschränkungen wählen.
-- **Speicher- oder Datenverlust**: Bei der Verwaltung privater Schlüssel musst du sensible Informationen speichern und abrufen. Wenn du dir Sorgen über Vergesslichkeit oder gesundheitliche Probleme machst, solltest du starke Sicherungssysteme einrichten oder sogar eine vertrauenswürdige Person in deine Sicherheitsstrategi einbeziehen.
+- **Speicher- oder Datenverlust**: Bei der Verwaltung [privater Schlüssel](https://planb.academy/resources/glossary/private-key) musst du sensible Informationen speichern und abrufen. Wenn du dir Sorgen über Vergesslichkeit oder gesundheitliche Probleme machst, solltest du starke Sicherungssysteme einrichten oder sogar eine vertrauenswürdige Person in deine Sicherheitsstrategi einbeziehen.
 
 Um deine Schwachstellen besser zu verstehen, bewerte jedes dieser Risiken auf einer Skala von 0 (niedrig) bis 10 (hoch). Diese Selbsteinschätzung wird dir helfen, die richtigen Schutzmassnahmen für die Zukunft zu priorisieren.
 
@@ -1248,7 +1248,7 @@ Um deine Schwachstellen besser zu verstehen, bewerte jedes dieser Risiken auf ei
 Auch dein Alltag spielt eine grosse Rolle dabei, wie du deine Bitcoins verwalten wirst. Die Wahl eines Systems, das zu deinem Lebensstil passt, wird dir die Arbeit erleichtern und dir helfen, Unanehmlichkeiten zu vermeiden.
 
 - **Wenig Zeit oder Interesse?** Wähle einfache, automatisierte Lösungen wie geplante Käufe, die automatisch in eine sichere Wallet übertragen werden.
-- **Technikaffin oder hands-on?** Du bevorzugst vielleicht fortschrittlichere Lösungen wie Multisig-Wallets, die mehr Kontrolle und Sicherheit bieten.
+- **Technikaffin oder hands-on?** Du bevorzugst vielleicht fortschrittlichere Lösungen wie [Multisig](https://planb.academy/resources/glossary/multisig)-Wallets, die mehr Kontrolle und Sicherheit bieten.
 - **Investierst du für deine Liebsten oder künftige Generationen?** Denke frühzeitig an die Vererbung nach. Es gibt Möglichkeiten sicherzustellen, dass deine Bitcoins sicher weitergegeben werden können.
 - **Wert auf Privatsphäre?** Manche Kaufmethoden erfordern persönliche Angaben (KYC-Plattformen), während andere (wie Peer-to-Peer oder Mining) mehr Diskretion bieten.
 
@@ -1785,7 +1785,7 @@ Die tägliche Anwendung von Bitcoin bietet sowohl individuelle als auch kollekti
 
 - **Profitiere von den einzigartigen Funktionen des Bitcoins**: Der Bitcoin bietet mehrere leistungsstarke Funktionen, wie schnelle Transaktionen über das Lightning-Netzwerk und Freiheit von Zensur, finanzieller Überwachung und Seigniorage. Sein Kernwert liegt darin, dass er die staatliche Kontrolle über das Geldangebot aufhebt und unzensierbare Transaktionen ermöglicht. Wenn diese Vorteile mit deinen persönlichen Bedürfnissen und Werten übereinstimmen, wirst du feststellen, dass das Profil des aktiven Benutzers gut zu dir passt.
 
-- **Lernen durch Tun**: Die aktive Nutzung von Bitcoin hilft dir, Erfahrungen in der Praxis zu sammeln. Du wirst mit den Wallet-Typen, dem Datenschutz bei Zahlungen und der UTXO-Verwaltung vertraut gemacht. Der tägliche Gebrauch wird zu einer praktischen Lernumgebung.
+- **Lernen durch Tun**: Die aktive Nutzung von Bitcoin hilft dir, Erfahrungen in der Praxis zu sammeln. Du wirst mit den Wallet-Typen, dem Datenschutz bei Zahlungen und der [UTXO](https://planb.academy/resources/glossary/utxo)-Verwaltung vertraut gemacht. Der tägliche Gebrauch wird zu einer praktischen Lernumgebung.
 
 Zu den Herausforderungen gehören die technische Komplexität, die Preisvolatilität und die Notwendigkeit einer guten Sicherheitshygiene, um den Verlust von Geldern zu verhindern.
 

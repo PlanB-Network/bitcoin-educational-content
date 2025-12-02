@@ -16,7 +16,7 @@ Ocean Mining ni Mining pool ya kipekee. Hapa, hakuna akaunti, hakuna barua pepe,
 ### Mfumo wa Fidia
 
 
-Mfumo wa fidia wa Bahari unaitwa TIDES, "Transparent Index of Distinct Extended Shares". Mfumo huu unarekodi kazi iliyotolewa na wachimbaji, inayojulikana kama "hisa". Bwawa hukokotoa asilimia ya "hisa" kwa kila mchangiaji, kisha huongeza Bitcoin Address yao kwenye kiolezo cha block ya bwawa kama mnufaika wa asilimia hii ya Block reward.
+Mfumo wa fidia wa Bahari unaitwa TIDES, "Transparent Index of Distinct Extended Shares". Mfumo huu unarekodi kazi iliyotolewa na wachimbaji, inayojulikana kama "hisa". Bwawa hukokotoa asilimia ya "hisa" kwa kila mchangiaji, kisha huongeza Bitcoin Address yao kwenye kiolezo cha block ya bwawa kama mnufaika wa asilimia hii ya [Block reward](https://planb.academy/resources/glossary/block-reward).
 
 
 Kiolezo cha kuzuia husasishwa takriban kila sekunde 10 ili kutoa hesabu kwa miamala mipya yenye faida kubwa zaidi na kubadilisha usambazaji wa Block reward ikiwa ni lazima.
@@ -210,7 +210,7 @@ Hapa, unaweza kuona kwamba katika kisanduku cha **Makadirio ya Muda Hadi Malipo 
 Kama ulivyoelewa, Ocean inalenga kuongeza uwazi na kupunguza ulezi (kushikilia Sats zako kwa niaba yako).
 
 
-Ndiyo sababu, kwa uondoaji wa Umeme, ni muhimu kutumia matoleo ya **BOLT12 **. Hii ni njia mpya ya kufanya malipo kwenye Lightning Network ambayo inaanza kujitokeza mnamo 2024 na inaruhusu mambo kadhaa:
+Ndiyo sababu, kwa uondoaji wa Umeme, ni muhimu kutumia matoleo ya **BOLT12 **. Hii ni njia mpya ya kufanya malipo kwenye [Lightning Network](https://planb.academy/resources/glossary/lightning-network) ambayo inaanza kujitokeza mnamo 2024 na inaruhusu mambo kadhaa:
 
 
 - Ni kiungo cha malipo kinachoweza kutumika tena, kinachoruhusu malipo ya kiotomatiki na, tofauti na Lightning Address, BOLT12 si chini ya ulinzi.

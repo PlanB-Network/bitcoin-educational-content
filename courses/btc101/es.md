@@ -4,7 +4,7 @@ goal: Descubra los fundamentos de Bitcoin, incluyendo su propuesta de valor mone
 objectives:
   - Conocimiento general de la tecnología Bitcoin
   - Entender cómo comprar y asegurar bitcoins
-  - Tener un conocimiento general de la tecnología Blockchain
+  - Tener un conocimiento general de la tecnología [Blockchain](https://planb.academy/resources/glossary/blockchain)
   - Familiarizarse con el concepto de Lightning Network
   - Darse cuenta del impacto geopolítico y social de Bitcoin
 ---
@@ -374,7 +374,7 @@ La creación de nuevos bitcoins es el resultado del proceso de minería. En poca
 Tras realizar con éxito esta tarea, los mineros son recompensados con la emisión de nuevos bitcoins cada diez minutos. Esta recompensa está programada para reducirse a la mitad cada 210.000 bloques, es decir, aproximadamente cada cuatro años (un acontecimiento conocido como "reducción a la mitad"), lo que da a la curva de emisión monetaria una forma escalonada. Debido a este mecanismo, se puede predecir matemáticamente que la creación de nuevos bitcoins cesará hacia el año 2140, cuando el número total alcance su límite de 21 millones.
 
 
-| Número de reducción a la mitad | Altura del bloque | Recompensa en BTC después Halving  | BTC estimado en circulación después Halving |
+| Número de reducción a la mitad | Altura del bloque | Recompensa en BTC después [Halving](https://planb.academy/resources/glossary/halving)  | BTC estimado en circulación después Halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
 | 1              | 210,000      | 25 BTC                    | 10,500,000 BTC                             |
 | 2              | 420,000      | 12.5 BTC                  | 15,750,000 BTC                             |
@@ -401,7 +401,7 @@ Volveremos sobre el concepto de minería con más detalle en el [capítulo sobre
 
 ### Garantizar la escasez digital
 
-El límite de 21 millones es la base de la escasez de Bitcoin, y está garantizado por dos mecanismos clave: el ajuste de la dificultad de minado y la teoría de juegos.
+El límite de 21 millones es la base de la escasez de Bitcoin, y está garantizado por dos mecanismos clave: el ajuste de la [dificultad](https://planb.academy/resources/glossary/difficulty) de minado y la teoría de juegos.
 
 - El ajuste de la dificultad de minado es un proceso que tiene lugar cada 2016 bloques, o alrededor de dos semanas, para garantizar que se añade un nuevo bloque a la blockchain cada diez minutos de media. Tanto esta frecuencia de creación de bloques como la cantidad total de bitcoins son aspectos fijos del protocolo Bitcoin y no pueden modificarse sin un consenso general, a diferencia de las decisiones arbitrarias que se toman en los sistemas monetarios tradicionales.
 
@@ -469,7 +469,7 @@ Así pues, las carteras pueden clasificarse en amplias familias de uso, siempre 
 
 ### ¿Cómo funciona un monedero Bitcoin?
 
-Ya sea su "banquero" de Bitcoin o usted mismo, la gran mayoría de los monederos Bitcoin funcionan con una tecnología similar basada en la criptografía asimétrica, que implica un sistema de pares de claves: una clave privada para gastar y una clave pública para recibir.
+Ya sea su "banquero" de Bitcoin o usted mismo, la gran mayoría de los monederos Bitcoin funcionan con una tecnología similar basada en la criptografía asimétrica, que implica un sistema de pares de claves: una [clave privada](https://planb.academy/resources/glossary/private-key) para gastar y una [clave pública](https://planb.academy/resources/glossary/public-key) para recibir.
 
 - Clave privada
 
@@ -683,11 +683,11 @@ Ahora que hemos cubierto los fundamentos de los monederos Bitcoin y las mejores 
 
 El 31 de octubre de 2008 marca el nacimiento de la nueva tecnología financiera que es Bitcoin. Ese día, el anónimo Satoshi Nakamoto presentó su innovación al mundo a través de un correo electrónico enviado a la lista de correo de los cypherpunks, una comunidad de entusiastas de la criptografía dedicada a promover la privacidad en Internet. Este correo contenía un documento llamado "White Paper", que presentaba el funcionamiento de Bitcoin.
 
-Esta iniciativa no generó entusiasmo de inmediato, probablemente debido a los fracasos anteriores en los intentos de crear un sistema de dinero digital. No obstante, este Libro Blanco acabó convirtiéndose en una referencia para los usuarios de Bitcoin y ha sido objeto de numerosos debates en el ecosistema Bitcoin a lo largo de los años.
+Esta iniciativa no generó entusiasmo de inmediato, probablemente debido a los fracasos anteriores en los intentos de crear un sistema de dinero digital. No obstante, este [Libro Blanco](https://planb.academy/resources/glossary/white-paper) acabó convirtiéndose en una referencia para los usuarios de Bitcoin y ha sido objeto de numerosos debates en el ecosistema Bitcoin a lo largo de los años.
 
 ![image](assets/es/039.webp)
 
-El 3 de enero de 2009, Satoshi inauguró oficialmente la red Bitcoin creando el primer bloque, también conocido como "bloque Génesis", que marcó el lanzamiento de la cadena de bloques Bitcoin. Este bloque contiene un mensaje revelador que refleja la misión de Bitcoin: "03/ene/2009 Canciller al borde del segundo rescate a los bancos"
+El 3 de enero de 2009, Satoshi inauguró oficialmente la red Bitcoin creando el primer bloque, también conocido como "[bloque Génesis](https://planb.academy/resources/glossary/genesis-block)", que marcó el lanzamiento de la cadena de bloques Bitcoin. Este bloque contiene un mensaje revelador que refleja la misión de Bitcoin: "03/ene/2009 Canciller al borde del segundo rescate a los bancos"
 
 ![image](assets/es/040.webp)
 
@@ -838,7 +838,7 @@ Tras esta victoria, los nodos activaron una actualización llamada SegWit, allan
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Los mineros aseguran la red y añaden transacciones a los bloques. Utilizan electricidad a través de máquinas ASIC para resolver la prueba de trabajo de Bitcoin.**
+**Los mineros aseguran la red y añaden transacciones a los bloques. Utilizan electricidad a través de máquinas [ASIC](https://planb.academy/resources/glossary/asic) para resolver la prueba de trabajo de Bitcoin.**
 
 ![image](assets/es/054.webp)
 
@@ -846,7 +846,7 @@ Tras esta victoria, los nodos activaron una actualización llamada SegWit, allan
 
 La "Prueba de Trabajo" (POW) es el mecanismo de consenso de seguridad del protocolo Bitcoin. Es la base de todo y desempeña un papel crucial en la teoría de juegos de Bitcoin.
 
-Para explicar cómo funciona, imagínese una lotería universal en la que todo el mundo puede participar. El objetivo es encontrar un número específico que permita al ganador firmar un bloque válido, ganando una recompensa en Bitcoin. Este número es muy sencillo de verificar utilizando la función hash SHA-256, pero difícil de encontrar: los participantes (mineros) probarán miles y miles de millones de posibilidades, como 1, 52, 2648, 26874615, 15344854131318631, etc., hasta que descubran la correcta.
+Para explicar cómo funciona, imagínese una lotería universal en la que todo el mundo puede participar. El objetivo es encontrar un número específico que permita al ganador firmar un bloque válido, ganando una recompensa en Bitcoin. Este número es muy sencillo de verificar utilizando la [función hash](https://planb.academy/resources/glossary/hash-function) SHA-256, pero difícil de encontrar: los participantes (mineros) probarán miles y miles de millones de posibilidades, como 1, 52, 2648, 26874615, 15344854131318631, etc., hasta que descubran la correcta.
 
 Si el número elegido es correcto: ¡Bingo! De lo contrario, la búsqueda continúa.
 
@@ -1248,7 +1248,7 @@ Si quieres ir más allá de esta introducción y entender todo el funcionamiento
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-## Casos de uso de la Red de Rayos
+## Casos de uso de la [Red de Rayos](https://planb.academy/resources/glossary/lightning-network)
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 

@@ -341,7 +341,7 @@ Joinstr-applikasjonen er organisert i tre hovedfaner:
 
 
 - Hjem**: Startskjerm
-- Pooler**: Opprette og administrere CoinJoin-bassenger
+- Pooler**: Opprette og administrere [CoinJoin](https://planb.academy/resources/glossary/coinjoin)-bassenger
 - Innstillinger**: Applikasjonskonfigurasjon
 
 

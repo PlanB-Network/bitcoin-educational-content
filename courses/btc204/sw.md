@@ -48,7 +48,7 @@ Lengo la kozi hii ya mafunzo si kukufanya usijulikane kabisa katika matumizi yak
 
 ### Sehemu ya 1: Ufafanuzi na dhana muhimu
 
-Kwa kuanzia, tutakagua kanuni za kimsingi zinazosimamia utendakazi wa Bitcoin, ili tuweze kushughulikia kwa utulivu dhana zinazohusiana na faragha. Ni muhimu kufahamu dhana chache za kimsingi, kama vile UTXO, kupokea Address na uandishi, kabla ya kuelewa kikamilifu dhana ambazo tutashughulikia katika sehemu zifuatazo. Pia tutatambulisha modeli ya faragha ya jumla ya Bitcoin, kama inavyofikiriwa na Satoshi Nakamoto, ambayo itatuwezesha kufahamu vizuizi na hatari zinazohusiana.
+Kwa kuanzia, tutakagua kanuni za kimsingi zinazosimamia utendakazi wa Bitcoin, ili tuweze kushughulikia kwa utulivu dhana zinazohusiana na faragha. Ni muhimu kufahamu dhana chache za kimsingi, kama vile [UTXO](https://planb.academy/resources/glossary/utxo), kupokea Address na uandishi, kabla ya kuelewa kikamilifu dhana ambazo tutashughulikia katika sehemu zifuatazo. Pia tutatambulisha modeli ya faragha ya jumla ya Bitcoin, kama inavyofikiriwa na Satoshi Nakamoto, ambayo itatuwezesha kufahamu vizuizi na hatari zinazohusiana.
 
 ![BTC204](assets/sw/001.webp)
 
@@ -64,7 +64,7 @@ Katika sehemu ya tatu ya kozi yetu ya mafunzo, tunashuka hadi kwenye undani wa m
 
 ![BTC204](assets/sw/003.webp)
 
-### Sehemu ya 4: Kuelewa miamala ya CoinJoin
+### Sehemu ya 4: Kuelewa miamala ya [CoinJoin](https://planb.academy/resources/glossary/coinjoin)
 
 Je, tunawezaje kuzungumza juu ya faragha kwenye Bitcoin bila kutaja CoinJoin? Katika Sehemu ya 4, utapata yote unayohitaji kujua kuhusu njia hii ya kuchanganya. Utajifunza CoinJoin ni nini, historia na malengo yake, pamoja na aina tofauti za CoinJoin zilizopo. Hatimaye, kwa mtumiaji mwenye uzoefu zaidi, tutaangalia anonsets na entropy ni nini, na jinsi ya kuzihesabu.
 
@@ -106,7 +106,7 @@ Bitcoin inafanya kazi tofauti. Dhana ya akaunti haipo, na vitengo vya fedha havi
 1 BTC = 100 000 000 SATS
 ```
 
-Kinadharia, UTXO moja inaweza kuwakilisha thamani yoyote katika bitcoins, kuanzia sats hadi upeo wa kinadharia wa karibu milioni 21 BTC. Hata hivyo, kwa mantiki, haiwezekani kumiliki bitcoins zote milioni 21, na kuna kizingiti cha chini cha kiuchumi kinachoitwa "Dust", chini ya hapo UTXO huchukuliwa kuwa haina faida ya kiuchumi kuitumia.
+Kinadharia, UTXO moja inaweza kuwakilisha thamani yoyote katika bitcoins, kuanzia sats hadi upeo wa kinadharia wa karibu milioni 21 BTC. Hata hivyo, kwa mantiki, haiwezekani kumiliki bitcoins zote milioni 21, na kuna kizingiti cha chini cha kiuchumi kinachoitwa "[Dust](https://planb.academy/resources/glossary/dust)", chini ya hapo UTXO huchukuliwa kuwa haina faida ya kiuchumi kuitumia.
 
 **Je, wajua?** UTXO kubwa zaidi kuwahi kuundwa kwenye Bitcoin ilikuwa na thamani ya `500,000 BTC`. Iliundwa na jukwaa la MtGox wakati wa operesheni ya ujumuishaji mnamo Novemba 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://GW-4 8.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
@@ -558,7 +558,7 @@ Chanzo : [Mempool.space](https://Mempool.space/tx/db07516288771ce5d0a06b275962ec
 
 Kwa mwisho, tunaweza kuona kwamba pembejeo hakuna. 0 na pato nambari. 1 tumia hati za P2WPKH (SegWit V0), wakati pato nambari. 0 hutumia hati tofauti ya P2PKH Legacy.
 
-Mapema katika miaka ya 2010, heuristics hii inayotegemea matoleo ya script haikuwa na msaada mkubwa kutokana na aina chache za script zilizokuwepo. Hata hivyo, kadri muda ulivyopita na masasisho mfululizo ya Bitcoin yalivyotekelezwa, utofauti wa aina za script umeongezeka. Kwa hivyo, heuristics hii inazidi kuwa muhimu, kwani kadri aina za script zinavyoongezeka, watumiaji wanagawanyika katika makundi madogo zaidi, jambo linaloongeza uwezekano wa kutumia heuristics hii ya ndani ya kutumia tena toleo la script.Kwa sababu hii, kwa mtazamo wa faragha pekee, inashauriwa kuchagua aina ya script inayotumika sana. Kwa mfano, ninapoandika mistari hii, script za Taproot (`bc1p`) zinatumika kwa nadra zaidi kuliko script za SegWit V0 (`bc1q`). Ingawa za kwanza hutoa faida za kiuchumi na faragha katika hali mahususi, kwa matumizi ya kawaida ya saini moja, huenda ikaeleweka zaidi kushikilia kiwango cha zamani kwa sababu za faragha, hadi kiwango kipya kitapokubalika zaidi.
+Mapema katika miaka ya 2010, heuristics hii inayotegemea matoleo ya script haikuwa na msaada mkubwa kutokana na aina chache za script zilizokuwepo. Hata hivyo, kadri muda ulivyopita na masasisho mfululizo ya Bitcoin yalivyotekelezwa, utofauti wa aina za script umeongezeka. Kwa hivyo, heuristics hii inazidi kuwa muhimu, kwani kadri aina za script zinavyoongezeka, watumiaji wanagawanyika katika makundi madogo zaidi, jambo linaloongeza uwezekano wa kutumia heuristics hii ya ndani ya kutumia tena toleo la script.Kwa sababu hii, kwa mtazamo wa faragha pekee, inashauriwa kuchagua aina ya script inayotumika sana. Kwa mfano, ninapoandika mistari hii, script za [Taproot](https://planb.academy/resources/glossary/taproot) (`bc1p`) zinatumika kwa nadra zaidi kuliko script za [SegWit](https://planb.academy/resources/glossary/segwit) V0 (`bc1q`). Ingawa za kwanza hutoa faida za kiuchumi na faragha katika hali mahususi, kwa matumizi ya kawaida ya saini moja, huenda ikaeleweka zaidi kushikilia kiwango cha zamani kwa sababu za faragha, hadi kiwango kipya kitapokubalika zaidi.
 
 
 ### Malipo ya nambari ya pande zote

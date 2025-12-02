@@ -11,7 +11,7 @@ Aqua ni porogaramu yo kuri telefone ngendanwa ituma vyoroha gukora Hot Wallet ya
 Iyi porogarama ya Aqua yateguwe n’ishirahamwe JAN3 iyobowe na Samson Mow, mu ntango yari yateguwe cane cane ku bikenewe n’abakoresha bo muri Amerika Latini, naho nyene ibereye uwuyikoresha wese kw’isi yose. Birashimishije cane cane abatangura n’abakoresha Bitcoin ku musi ku musi ku bijanye n’amahera yabo.
 
 
-Muri iyi nyigisho, turaza kumenya ingene twokoresha ibintu vyinshi vya Aqua. Ariko imbere y'uko tubikora, reka dufate umwanya wo gutahura ico Sidechain ari co kuri Bitcoin n'ingene Liquid ikora, kugira ngo dushobore gutahura neza agaciro ka Aqua.
+Muri iyi nyigisho, turaza kumenya ingene twokoresha ibintu vyinshi vya Aqua. Ariko imbere y'uko tubikora, reka dufate umwanya wo gutahura ico [Sidechain](https://planb.academy/resources/glossary/sidechain) ari co kuri Bitcoin n'ingene Liquid ikora, kugira ngo dushobore gutahura neza agaciro ka Aqua.
 
 
 ![AQUA](assets/fr/01.webp)

@@ -1,7 +1,7 @@
 ---
 name: JoinMarket
 
-description: Leitfaden und Anleitung zur Verwendung von JoinMarket für die Ausführung von CoinJoin über Bitcoin über die Befehlszeile
+description: Leitfaden und Anleitung zur Verwendung von JoinMarket für die Ausführung von [CoinJoin](https://planb.academy/resources/glossary/coinjoin) über Bitcoin über die Befehlszeile
 ---
 
 ![cover](assets/cover.webp)

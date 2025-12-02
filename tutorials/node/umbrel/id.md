@@ -1,6 +1,6 @@
 ---
 name: Umbrel
-description: Temukan dan instal Umbrel - Node Bitcoin dan server rumah Anda
+description: Temukan dan instal Umbrel - [Node](https://planb.academy/resources/glossary/node) Bitcoin dan server rumah Anda
 ---
 
 ![cover](assets/cover.webp)

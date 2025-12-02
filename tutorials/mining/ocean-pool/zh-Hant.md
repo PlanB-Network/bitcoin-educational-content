@@ -16,7 +16,7 @@ Ocean Mining 是有點獨特的 Mining pool。在這裡，不需要帳號、電�
 ### 補償系統
 
 
-Ocean 的補償系統稱為 TIDES，即「分別擴展股份的透明索引」。此系統記錄礦工提供的工作，稱為「股份」。矿池会计算每个贡献者的 「份额 」百分比，然后将他们的 Bitcoin Address 加入矿池的区块模板中，作为这个百分比的 Block reward 的受益人。
+Ocean 的補償系統稱為 TIDES，即「分別擴展股份的透明索引」。此系統記錄礦工提供的工作，稱為「股份」。矿池会计算每个贡献者的 「份额 」百分比，然后将他们的 Bitcoin Address 加入矿池的区块模板中，作为这个百分比的 [Block reward](https://planb.academy/resources/glossary/block-reward) 的受益人。
 
 
 區塊範本約每 10 秒更新一次，以計入最有利可圖的新交易，並在必要時變更 Block reward 的分佈。
@@ -210,7 +210,7 @@ Bitcoin Core 是讓全球約 99% 的 Bitcoin 節點運作的軟體。Bitcoin 是
 正如您所瞭解的，Ocean 的目標是最大化透明度和最小化保管（代表您持有您的 Sats）。
 
 
-這就是為什麼，對於閃電提款，有必要使用**BOLT12優惠**。這是 2024 年開始出現的一種在 Lightning Network 上付款的新方式，並允許以下幾種情況：
+這就是為什麼，對於閃電提款，有必要使用**BOLT12優惠**。這是 2024 年開始出現的一種在 [Lightning Network](https://planb.academy/resources/glossary/lightning-network) 上付款的新方式，並允許以下幾種情況：
 
 
 - 它是一個可重複使用的付款連結，允許自動付款，而且與 Lightning Address 不同的是，BOLT12 是非監護性的。

@@ -341,7 +341,7 @@ Die Joinstr-Anwendung ist in drei Hauptregisterkarten unterteilt:
 
 
 - Startseite**: Startbildschirm
-- Pools**: Erstellen und Verwalten von CoinJoin-Pools
+- Pools**: Erstellen und Verwalten von [CoinJoin](https://planb.academy/resources/glossary/coinjoin)-Pools
 - Einstellungen**: Konfiguration der Anwendung
 
 

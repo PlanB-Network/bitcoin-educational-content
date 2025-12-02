@@ -1,6 +1,6 @@
 ---
 name: Joinstr
-description: Decentralizovani CoinJoin-ovi putem Nostr mreže za suverenu Bitcoin poverljivost
+description: Decentralizovani [CoinJoin](https://planb.academy/resources/glossary/coinjoin)-ovi putem Nostr mreže za suverenu Bitcoin poverljivost
 ---
 
 ![cover](assets/cover.webp)

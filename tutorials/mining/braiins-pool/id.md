@@ -8,7 +8,7 @@ description: Pengenalan Braiins Pool
 
 Braiins Pool, yang sebelumnya dikenal sebagai Slush Pool, adalah kolam penambangan Bitcoin pertama. Didirikan pada November 2010, kolam ini menambang blok pertamanya pada 16 Desember 2010, blok 97834.
 
-Per Mei 2024, Braiins Pool memiliki kekuatan komputasi sebesar 13 EH/s, yang mewakili sekitar 1,8% dari total hashrate Bitcoin. Kolam ini telah menambang total 1.307.188 bitcoin, yang kira-kira 6% dari maksimum 21 juta bitcoin yang akan pernah ada.
+Per Mei 2024, Braiins Pool memiliki kekuatan komputasi sebesar 13 EH/s, yang mewakili sekitar 1,8% dari total [hashrate](https://planb.academy/resources/glossary/hashrate) Bitcoin. Kolam ini telah menambang total 1.307.188 bitcoin, yang kira-kira 6% dari maksimum 21 juta bitcoin yang akan pernah ada.
 
 ### Sistem Kompensasi
 

@@ -1,7 +1,7 @@
 ---
 name: JoinMarket
 
-description: Vodič i uputstvo za korišćenje JoinMarket-a za CoinJoin transakcije na Bitcoin-u putem komandne linije.
+description: Vodič i uputstvo za korišćenje JoinMarket-a za [CoinJoin](https://planb.academy/resources/glossary/coinjoin) transakcije na Bitcoin-u putem komandne linije.
 ---
 
 ![cover](assets/cover.webp)

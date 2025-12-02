@@ -47,13 +47,13 @@ Målet med den här utbildningen är att ge dig nycklarna till att bemästra de 
 
 Innan vi dyker in i detaljerna kring konstruktion och drift av Bitcoin-plånböcker börjar vi med några kapitel om de kryptografiska primitiver som är viktiga att känna till för det som följer.
 
-Vi börjar med kryptografiska Hash-funktioner, som är grundläggande för både plånböcker och själva Bitcoin-protokollet. Du kommer att upptäcka deras huvudsakliga egenskaper, de specifika funktionerna som används i Bitcoin, och i ett mer tekniskt kapitel kommer du att lära dig i detalj om hur drottningen av Hash-funktioner fungerar: SHA256.
+Vi börjar med kryptografiska Hash-funktioner, som är grundläggande för både plånböcker och själva Bitcoin-protokollet. Du kommer att upptäcka deras huvudsakliga egenskaper, de specifika funktionerna som används i Bitcoin, och i ett mer tekniskt kapitel kommer du att lära dig i detalj om hur drottningen av Hash-funktioner fungerar: [SHA256](https://planb.academy/resources/glossary/sha256).
 
 
 ![CYP201](assets/en/001.webp)
 
 
-Därefter kommer vi att diskutera hur digitala signaturalgoritmer fungerar som du använder varje dag för att säkra dina UTXO:er. Bitcoin använder två: ECDSA och Schnorr-protokollet. Du kommer att lära dig vilka matematiska primitiver som ligger till grund för dessa algoritmer och hur de garanterar säkerheten för transaktioner.
+Därefter kommer vi att diskutera hur digitala signaturalgoritmer fungerar som du använder varje dag för att säkra dina UTXO:er. Bitcoin använder två: [ECDSA](https://planb.academy/resources/glossary/ecdsa) och Schnorr-protokollet. Du kommer att lära dig vilka matematiska primitiver som ligger till grund för dessa algoritmer och hur de garanterar säkerheten för transaktioner.
 
 
 ![CYP201](assets/en/002.webp)
@@ -101,7 +101,7 @@ Denna tabell erbjuder dig en översättning av de viktigaste engelska termerna s
 | *HD Wallet*     | Hierarkisk deterministisk plånbok (genererar flera nycklar från ett enda frö).                      |
 | *Random Number* | Slumptal (används för att generera säkra privata nycklar).                                          |
 | *State*         | Tillstånd (mellanvärde i en kryptografisk process).                                                 |
-| *Entropy*       | Entropi (mått på slumpmässighet, används för att generera plånboksfrön).                            |
+| *[Entropy](https://planb.academy/resources/glossary/entropy)*       | Entropi (mått på slumpmässighet, används för att generera plånboksfrön).                            |
 | *Mnemonic*      | Mnemoteknik (ordföljd som underlättar säkerhetskopiering och återställning av ett frö).             |
 | *Wordlist*      | Ordlista (fördefinierad uppsättning som används för att generera BIP39-mnemoniker).                 |
 | *Seed*          | Frö (initialvärde som tillåter härledning av alla nycklar i en HD-plånbok).                         |
@@ -940,7 +940,7 @@ Bitcoin-protokollet är distribuerat och fungerar utan en central myndighet. Dä
 
 Den initiala driften av Bitcoin med P2PK-skript innebär att en publik nyckel används för att låsa medel, och i en _scriptPubKey_ anges att den person som vill använda denna UTXO måste tillhandahålla en giltig signatur med den privata nyckel som motsvarar denna publika nyckel. För att låsa upp denna UTXO är det därför nödvändigt att tillhandahålla en giltig signatur i _scriptSig_. Som namnen antyder är den publika nyckeln känd av alla eftersom den sänds ut på Blockchain, medan den privata nyckeln endast är känd av den rättmätiga ägaren till pengarna.
 
-Detta är den grundläggande operationen för Bitcoin, men med tiden har denna operation blivit mer komplex. Först introducerade Satoshi också P2PKH-skript, som använder en mottagande Address i _scriptPubKey_, som representerar Hash för den offentliga nyckeln. Sedan blev systemet ännu mer komplext med ankomsten av SegWit och sedan Taproot. Den allmänna principen förblir dock i grunden densamma: en offentlig nyckel eller en representation av denna nyckel används för att låsa UTXO:er, och en motsvarande privat nyckel krävs för att låsa upp dem och därmed spendera dem.
+Detta är den grundläggande operationen för Bitcoin, men med tiden har denna operation blivit mer komplex. Först introducerade Satoshi också P2PKH-skript, som använder en mottagande Address i _scriptPubKey_, som representerar Hash för den offentliga nyckeln. Sedan blev systemet ännu mer komplext med ankomsten av SegWit och sedan Taproot. Den allmänna principen förblir dock i grunden densamma: en [offentlig nyckel](https://planb.academy/resources/glossary/public-key) eller en representation av denna nyckel används för att låsa UTXO:er, och en motsvarande [privat nyckel](https://planb.academy/resources/glossary/private-key) krävs för att låsa upp dem och därmed spendera dem.
 
 
 En användare som vill göra en Bitcoin-transaktion måste därför skapa en digital signatur med hjälp av sin privata nyckel på transaktionen. Signaturen kan verifieras av andra nätverksdeltagare. Om den är giltig innebär det att den användare som initierar transaktionen verkligen är ägare till den privata nyckeln och därmed ägare till de bitcoins som användaren vill spendera. Andra användare kan sedan acceptera och sprida transaktionen.

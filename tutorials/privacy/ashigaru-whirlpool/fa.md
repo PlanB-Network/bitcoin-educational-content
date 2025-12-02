@@ -85,7 +85,7 @@ https://planb.academy/tutorials/wallet/mobile/ashigaru-9f903b55-2e55-4b06-9627-8
 
 
 
-- Dojo**، یک پیاده‌سازی گره Bitcoin که اتصال مستقل شما به شبکه را تضمین می‌کند، بدون وابستگی به سرور شخص ثالث.
+- Dojo**، یک پیاده‌سازی [گره](https://planb.academy/resources/glossary/node) Bitcoin که اتصال مستقل شما به شبکه را تضمین می‌کند، بدون وابستگی به سرور شخص ثالث.
 
 
 

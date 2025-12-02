@@ -341,7 +341,7 @@ Joinstr-sovellus on järjestetty kolmeen päävälilehteen:
 
 
 - Koti**: Aloitusnäyttö
-- Uima-altaat**: CoinJoin-altaiden luominen ja hallinta
+- Uima-altaat**: [CoinJoin](https://planb.academy/resources/glossary/coinjoin)-altaiden luominen ja hallinta
 - Asetukset**: Sovelluksen konfigurointi
 
 

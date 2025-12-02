@@ -50,7 +50,7 @@ O objetivo deste curso de formação não é torná-lo totalmente anónimo na su
 
 **Secção 1: Definições e conceitos-chave**
 
-Para começar, vamos rever os princípios fundamentais que regem o funcionamento da Bitcoin, para depois podermos abordar com calma as noções relacionadas com a confidencialidade. É essencial dominar alguns conceitos básicos, tais como UTXO, receção de endereços e scripting, antes de poder compreender plenamente os conceitos que iremos abordar nas secções seguintes. Introduziremos também o modelo geral de confidencialidade da Bitcoin, tal como imaginado por Satoshi Nakamoto, o que nos permitirá compreender as apostas e os riscos associados.
+Para começar, vamos rever os princípios fundamentais que regem o funcionamento da Bitcoin, para depois podermos abordar com calma as noções relacionadas com a confidencialidade. É essencial dominar alguns conceitos básicos, tais como [UTXO](https://planb.academy/resources/glossary/utxo), receção de endereços e scripting, antes de poder compreender plenamente os conceitos que iremos abordar nas secções seguintes. Introduziremos também o modelo geral de confidencialidade da Bitcoin, tal como imaginado por Satoshi Nakamoto, o que nos permitirá compreender as apostas e os riscos associados.
 
 ![BTC204](assets/pt/001.webp)
 
@@ -66,7 +66,7 @@ Na terceira secção do nosso curso de formação, vamos ao que interessa: a pr�
 
 ![BTC204](assets/pt/003.webp)
 
-**Secção 4: Compreender as transacções coinjoin**
+**Secção 4: Compreender as transacções [coinjoin](https://planb.academy/resources/glossary/coinjoin)**
 
 Como é que podemos falar de privacidade na Bitcoin sem mencionar os coinjoins? Na secção 4, descobrirá tudo o que precisa de saber sobre este método de mistura. Aprenderá o que são coinjoins, a sua história e objectivos, bem como os diferentes tipos de coinjoins que existem. Finalmente, para os utilizadores mais experientes, veremos o que são os anonsets e a entropia e como calculá-los.
 
@@ -371,7 +371,7 @@ As duas primeiras heurísticas de análise de cadeia foram descobertas pelo pró
 
 
 - cIOH (*Common Input Ownership Heuristic*);
-- e reutilização de endereços.
+- e [reutilização de endereços](https://planb.academy/resources/glossary/address-reuse).
 
 ![BTC204](assets/pt/031.webp)
 
@@ -569,7 +569,7 @@ Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec
 
 Neste último, podemos ver que a entrada n.º 0 e a saída n.º 1 utilizam scripts P2WPKH (SegWit V0), enquanto a saída n.º 0 utiliza um script P2PKH diferente (Legacy).
 
-No início dos anos 2010, esta heurística baseada no versionamento de scripts era relativamente inútil devido aos limitados tipos de scripts disponíveis. No entanto, ao longo do tempo e com as sucessivas actualizações do Bitcoin, foi introduzida uma diversidade crescente de tipos de scripts. Esta heurística está, portanto, a tornar-se cada vez mais relevante, uma vez que, com uma maior variedade de tipos de scripts, os utilizadores se dividem em grupos mais pequenos, aumentando assim as hipóteses de aplicar esta heurística de reutilização de versões internas. Por este motivo, apenas numa perspetiva de confidencialidade, é aconselhável optar pelo tipo de script mais comum. Por exemplo, no momento em que escrevo estas linhas, os scripts Taproot (`bc1p`) são menos utilizados do que os scripts SegWit V0 (`bc1q`). Embora os primeiros ofereçam benefícios económicos e de confidencialidade em certos contextos específicos, para utilizações mais tradicionais de assinatura única, pode fazer sentido manter um padrão mais antigo por razões de confidencialidade, até que o novo padrão seja mais amplamente adotado.
+No início dos anos 2010, esta heurística baseada no versionamento de scripts era relativamente inútil devido aos limitados tipos de scripts disponíveis. No entanto, ao longo do tempo e com as sucessivas actualizações do Bitcoin, foi introduzida uma diversidade crescente de tipos de scripts. Esta heurística está, portanto, a tornar-se cada vez mais relevante, uma vez que, com uma maior variedade de tipos de scripts, os utilizadores se dividem em grupos mais pequenos, aumentando assim as hipóteses de aplicar esta heurística de reutilização de versões internas. Por este motivo, apenas numa perspetiva de confidencialidade, é aconselhável optar pelo tipo de script mais comum. Por exemplo, no momento em que escrevo estas linhas, os scripts [Taproot](https://planb.academy/resources/glossary/taproot) (`bc1p`) são menos utilizados do que os scripts [SegWit](https://planb.academy/resources/glossary/segwit) V0 (`bc1q`). Embora os primeiros ofereçam benefícios económicos e de confidencialidade em certos contextos específicos, para utilizações mais tradicionais de assinatura única, pode fazer sentido manter um padrão mais antigo por razões de confidencialidade, até que o novo padrão seja mais amplamente adotado.
 
 ### Pagamentos por números redondos
 
@@ -1560,7 +1560,7 @@ O princípio da consolidação é precisamente aproveitar os períodos em que as
 
 ![BTC204](assets/pt/101.webp)
 
-Para além de poupar nos custos de transação, a consolidação de UTXOs ajuda a evitar a formação de "pó". A "poeira" refere-se a UTXOs cujo valor em sats é tão baixo que é insuficiente para cobrir os custos de transação necessários para os gastar. Isto faz com que estes UTXOs sejam economicamente irracionais de usar enquanto os custos de transação se mantiverem elevados. Ao juntar proactivamente os seus UTXOs, evita que se transformem em pó, assegurando que todos os seus fundos permanecem utilizáveis.
+Para além de poupar nos custos de transação, a consolidação de UTXOs ajuda a evitar a formação de "[pó](https://planb.academy/resources/glossary/dust)". A "poeira" refere-se a UTXOs cujo valor em sats é tão baixo que é insuficiente para cobrir os custos de transação necessários para os gastar. Isto faz com que estes UTXOs sejam economicamente irracionais de usar enquanto os custos de transação se mantiverem elevados. Ao juntar proactivamente os seus UTXOs, evita que se transformem em pó, assegurando que todos os seus fundos permanecem utilizáveis.
 
 ### Qual é o tamanho mínimo dos vossos UTXOs?
 
@@ -2933,7 +2933,7 @@ Vamos resumir como funciona uma assinatura de adaptador num coinswap. Inicialmen
 
 Note-se que as trocas de moedas foram propostas pela primeira vez por [Gregory Maxwell em outubro de 2013 no BitcoinTalk] (https://bitcointalk.org/index.php?topic=321228.0).
 
-### Troca atómica
+### [Troca atómica](https://planb.academy/resources/glossary/atomic-swap)
 
 De forma semelhante ao coinswap, e utilizando os mesmos tipos de contratos inteligentes, é também possível realizar atomic swaps. Um atomic swap permite uma troca direta de diferentes criptomoedas, como o BTC e o XMR, entre dois utilizadores sem necessidade de confiança ou de intervenção de um intermediário. Estas trocas são designadas "atómicas" porque têm apenas dois resultados possíveis: ou a troca é bem sucedida e ambas as partes ficam satisfeitas, ou falha e cada uma mantém as suas criptomoedas originais, eliminando a necessidade de confiar na outra parte.
 

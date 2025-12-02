@@ -8,7 +8,7 @@ description: Tutvustus Braiins Pool'ile
 
 Braiins Pool, varem tuntud kui Slush Pool, on esimene Bitcoin'i kaevandamise bassein. Asutatud novembris 2010, kaevandas see oma esimese ploki 16. detsembril 2010, plokk 97834.
 
-Mai 2024 seisuga on Braiins Pool'i arvutusvõimsus 13 EH/s, mis moodustab umbes 1,8% kogu Bitcoin'i hashrate'ist. See on kaevandanud kokku 1 307 188 bitcoin'i, mis on ligikaudu 6% maksimaalsest 21 miljonist bitcoin'ist, mis kunagi eksisteerima hakkavad.
+Mai 2024 seisuga on Braiins Pool'i arvutusvõimsus 13 EH/s, mis moodustab umbes 1,8% kogu Bitcoin'i [hashrate](https://planb.academy/resources/glossary/hashrate)'ist. See on kaevandanud kokku 1 307 188 bitcoin'i, mis on ligikaudu 6% maksimaalsest 21 miljonist bitcoin'ist, mis kunagi eksisteerima hakkavad.
 
 ### Kompensatsioonisüsteem
 

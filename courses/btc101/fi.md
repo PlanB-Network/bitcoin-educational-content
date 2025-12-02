@@ -202,7 +202,7 @@ Näiden kriteerien täyttämiseksi valuutta on historiallisesti kehittynyt eri v
 
 - Raakakivi -> kolikko
 - Seteli -> Pankkikortti
-- Lohkoketju -> Salamaverkko
+- Lohkoketju -> [Salamaverkko](https://planb.academy/resources/glossary/lightning-network)
 
 Valuutat kehittyvät edelleen tähän päivään asti, ja niiden muotoja mukautetaan eri käyttötarkoituksiin. Kuten sanoimme, vaikka kulta on erinomainen arvovaluutta, se ei enää sovi nykyiseen globalisoituneeseen talouteen. Vastaavasti dollarin ja euron kaltaiset fiduciary-valuutat ovat erittäin likvidejä ja helposti kuljetettavia, koska ne ovat nykyään enimmäkseen digitaalisia, mutta niiden arvoa laskee jatkuvasti rahan inflaatio.
 
@@ -372,7 +372,7 @@ Uusien bitcoinien luominen on louhintaprosessin tulos. Lyhyesti sanottuna louhij
 
 Kun louhijat ovat suorittaneet tämän tehtävän onnistuneesti, heidät palkitaan antamalla uusia bitcoineja kymmenen minuutin välein. Palkkio on ohjelmoitu puolittumaan 210 000 lohkon välein eli noin neljän vuoden välein (tapahtuma tunnetaan nimellä "puolitus"), mikä antaa rahan liikkeeseenlaskun käyrälle porrasmaisen muodon. Tämän mekanismin ansiosta voidaan matemaattisesti ennustaa, että uusien bitcoinien luominen loppuu noin vuonna 2140, kun kokonaislukumäärä saavuttaa 21 miljoonan rajan.
 
-| Halving Number | Block Height | BTC Reward After Halving  | Estimated BTC in Circulation After Halving |
+| [Halving](https://planb.academy/resources/glossary/halving) Number | Block Height | BTC Reward After Halving  | Estimated BTC in Circulation After Halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
 | 1              | 210,000      | 25 BTC                    | 10,500,000 BTC                             |
 | 2              | 420,000      | 12.5 BTC                  | 15,750,000 BTC                             |
@@ -836,7 +836,7 @@ Tämän voiton jälkeen solmut aktivoivat SegWit-nimisen päivityksen, joka taso
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Minerit turvaavat verkon ja lisäävät transaktioita lohkoihin. He käyttävät sähköä ASIC-koneiden avulla ratkaistakseen Bitcoin-työstötodistuksen.**
+**Minerit turvaavat verkon ja lisäävät transaktioita lohkoihin. He käyttävät sähköä [ASIC](https://planb.academy/resources/glossary/asic)-koneiden avulla ratkaistakseen Bitcoin-työstötodistuksen.**
 
 ![image](assets/fi/054.webp)
 

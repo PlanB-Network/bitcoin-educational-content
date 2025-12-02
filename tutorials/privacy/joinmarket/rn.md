@@ -1,7 +1,7 @@
 ---
 name: JoinMarket
 
-description: Inyigisho n'inyigisho ku buryo bwo gukoresha JoinMarket kugira ngo ukore CoinJoin kuri Bitcoin biciye ku murongo w'amabwirizwa
+description: Inyigisho n'inyigisho ku buryo bwo gukoresha JoinMarket kugira ngo ukore [CoinJoin](https://planb.academy/resources/glossary/coinjoin) kuri Bitcoin biciye ku murongo w'amabwirizwa
 ---
 
 ![cover](assets/cover.webp)

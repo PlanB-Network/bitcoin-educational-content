@@ -71,7 +71,7 @@ Cilj ovog kursa obuke nije da vas učini potpuno anonimnim u korišćenju Bitcoi
 **Sekcija 1: Definicije i ključni koncepti**
 
 
-Za početak, razmotrićemp osnovne principe koji regulišu rad Bitcoin-a, kako bismo mirno zatim mogli pristupiti pojmovima koji se odnose na poverljivost. Neophodno je savladati nekoliko osnovnih koncepata, kao što su UTXO, adrese za prijem i programiranje skripti, pre nego što u potpunosti možete razumeti koncepte koje ćemo obraditi u narednim odeljcima. Takođe ćemo predstaviti Bitcoin-ov opšti model poverljivosti, kako ga je zamislio Satoshi Nakamoto, što će nam omogućiti da shvatimo povezane uloge i rizike.
+Za početak, razmotrićemp osnovne principe koji regulišu rad Bitcoin-a, kako bismo mirno zatim mogli pristupiti pojmovima koji se odnose na poverljivost. Neophodno je savladati nekoliko osnovnih koncepata, kao što su [UTXO](https://planb.academy/resources/glossary/utxo), adrese za prijem i programiranje skripti, pre nego što u potpunosti možete razumeti koncepte koje ćemo obraditi u narednim odeljcima. Takođe ćemo predstaviti Bitcoin-ov opšti model poverljivosti, kako ga je zamislio Satoshi Nakamoto, što će nam omogućiti da shvatimo povezane uloge i rizike.
 
 
 ![BTC204](assets/sr-Latn/001.webp)
@@ -95,7 +95,7 @@ U trećem delu našeg kursa obuke, prelazimo na suštinu: praksu! Cilj je da se 
 ![BTC204](assets/sr-Latn/003.webp)
 
 
-**Sekcija 4: Razumevanje CoinJoin transakcija**
+**Sekcija 4: Razumevanje [CoinJoin](https://planb.academy/resources/glossary/coinjoin) transakcija**
 
 
 Kako možemo govoriti o privatnosti na Bitcoin-u bez spominjanja coinjoin-a? U odeljku 4, saznaćete sve što treba da znate o ovoj metodi mešanja UTXO-a. Naučićete šta su coinjoin-i, njihovu istoriju i ciljeve, kao i različite tipove CoinJoin-a koji postoje. Na kraju, za iskusnije korisnike, pogledaćemo šta su anonset-i i entropija, i kako ih izračunati.
@@ -107,7 +107,7 @@ Kako možemo govoriti o privatnosti na Bitcoin-u bez spominjanja coinjoin-a? U o
 **Sekcija 5: Razumevanje izazova drugih naprednih tehnika poverljivosti**
 
 
-U petom delu, pogledaćemo sve druge tehnike dostupne za zaštitu vaše privatnosti na Bitcoin-u, osim CoinJoin-a. Tokom godina, programeri su pokazali izuzetnu kreativnost u dizajniranju alata posvećenih privatnosti. Pogledaćemo sve ove metode, kao što su PayJoin, kolaborativne transakcije, Coin Swap i Atomic Swap, detaljno objašnjavajući kako funkcionišu, njihove ciljeve i eventualne slabosti.
+U petom delu, pogledaćemo sve druge tehnike dostupne za zaštitu vaše privatnosti na Bitcoin-u, osim CoinJoin-a. Tokom godina, programeri su pokazali izuzetnu kreativnost u dizajniranju alata posvećenih privatnosti. Pogledaćemo sve ove metode, kao što su PayJoin, kolaborativne transakcije, Coin Swap i [Atomic Swap](https://planb.academy/resources/glossary/atomic-swap), detaljno objašnjavajući kako funkcionišu, njihove ciljeve i eventualne slabosti.
 
 
 Takođe ćemo razmotriti privatnost na nivou mreže čvorova i distribuciju transakcija. Takođe ćemo diskutovati o raznim protokolima koji su predloženi tokom godina kako bi se poboljšala privatnost korisnika na Bitcoin-u, uključujući protokol statičkih adresa.
@@ -822,7 +822,7 @@ Izvor: [Mempool.space](https://Mempool.space/tx/db07516288771ce5d0a06b275962ec4a
 Na potonjem, možemo videti da ulaz br. 0 i izlaz br. 1 koriste P2WPKH skripte (SegWit V0), dok izlaz br. 0 koristi drugačiju P2PKH skriptu (Legacy).
 
 
-Početkom 2010-ih, ova heuristika zasnovana na verzionisanju skripti bila je relativno neupotrebljiva zbog ograničenih tipova dostupnih skripti. Međutim, tokom vremena i sa sukcesivnim Bitcoin ažuriranjima, uvedena je sve veća raznolikost tipova skripti. Ova heuristika stoga postaje sve relevantnija, jer sa širim spektrom tipova skripti, korisnici se dele u manje grupe, čime se povećavaju šanse za primenu ove interne heuristike ponovne upotrebe verzionisanja. Iz tog razloga, isključivo iz perspektive poverljivosti, preporučljivo je da se odlučite za najčešći tip skripte. Na primer, dok pišem ove redove, Taproot skripte (`bc1p`) se ređe koriste od SegWit V0 skripti (`bc1q`). Iako prve nude ekonomske i prednosti u pogledu privatnosti u određenim specifičnim kontekstima, za tradicionalnije upotrebe sa jednim potpisom, može imati smisla pridržavati se starijeg standarda iz razloga privatnosti, sve dok novi standard ne bude šire prihvaćen.
+Početkom 2010-ih, ova heuristika zasnovana na verzionisanju skripti bila je relativno neupotrebljiva zbog ograničenih tipova dostupnih skripti. Međutim, tokom vremena i sa sukcesivnim Bitcoin ažuriranjima, uvedena je sve veća raznolikost tipova skripti. Ova heuristika stoga postaje sve relevantnija, jer sa širim spektrom tipova skripti, korisnici se dele u manje grupe, čime se povećavaju šanse za primenu ove interne heuristike ponovne upotrebe verzionisanja. Iz tog razloga, isključivo iz perspektive poverljivosti, preporučljivo je da se odlučite za najčešći tip skripte. Na primer, dok pišem ove redove, [Taproot](https://planb.academy/resources/glossary/taproot) skripte (`bc1p`) se ređe koriste od [SegWit](https://planb.academy/resources/glossary/segwit) V0 skripti (`bc1q`). Iako prve nude ekonomske i prednosti u pogledu privatnosti u određenim specifičnim kontekstima, za tradicionalnije upotrebe sa jednim potpisom, može imati smisla pridržavati se starijeg standarda iz razloga privatnosti, sve dok novi standard ne bude šire prihvaćen.
 
 
 ### Plaćanja zaokruženih iznosa
@@ -2211,7 +2211,7 @@ Princip konsolidacije je upravo da se iskoriste periodi kada su naknade niske na
 ![BTC204](assets/sr-Latn/101.webp)
 
 
-Pored uštede na troškovima transakcija, konsolidacija UTXO-a pomaže u sprečavanju formiranja "Dust-a". "Dust" se odnosi na UTXO-e čija je vrednost u Sats-ima toliko niska da nije dovoljna da pokrije troškove transakcije potrebne za njihovo trošenje. To čini ove UTXO-e ekonomski neracionalnim za korišćenje sve dok troškovi transakcije ostaju visoki. Proaktivnim objedinjavanjem svojih UTXO-a, sprečavate ih da postanu Dust, osiguravajući da sva vaša sredstva ostanu upotrebljiva.
+Pored uštede na troškovima transakcija, konsolidacija UTXO-a pomaže u sprečavanju formiranja "[Dust](https://planb.academy/resources/glossary/dust)-a". "Dust" se odnosi na UTXO-e čija je vrednost u Sats-ima toliko niska da nije dovoljna da pokrije troškove transakcije potrebne za njihovo trošenje. To čini ove UTXO-e ekonomski neracionalnim za korišćenje sve dok troškovi transakcije ostaju visoki. Proaktivnim objedinjavanjem svojih UTXO-a, sprečavate ih da postanu Dust, osiguravajući da sva vaša sredstva ostanu upotrebljiva.
 
 
 ### Koja je minimalna veličina za vaše UTXO-e?

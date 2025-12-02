@@ -1,7 +1,7 @@
 ---
 name: JoinMarket
 
-description: Руководство и учебник по использованию JoinMarket для создания CoinJoin над Bitcoin через командную строку
+description: Руководство и учебник по использованию JoinMarket для создания [CoinJoin](https://planb.academy/resources/glossary/coinjoin) над Bitcoin через командную строку
 ---
 
 ![cover](assets/cover.webp)

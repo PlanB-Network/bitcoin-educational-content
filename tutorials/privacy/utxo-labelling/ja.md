@@ -1,5 +1,5 @@
 ---
-name: Labelling UTXO
+name: Labelling [UTXO](https://planb.academy/resources/glossary/utxo)
 description: UTXOを適切にラベル付けする方法は？
 ---
 ![cover](assets/cover.webp)
@@ -15,7 +15,7 @@ description: UTXOを適切にラベル付けする方法は？
 
 コインコントロールを備えたウォレットとUTXOラベリングを使用することで、ユーザーはトランザクションのためのUTXOを正確に区別し選択できるようになり、異なるソースからのUTXOの統合を避けることができます。この実践は、トランザクションの入力の共通所有を示唆するCommon Input Ownership Heuristic（CIOH）に関連するリスクを減らし、これによりユーザーのプライバシーが損なわれる可能性があります。
 
-Bisqからのno-KYC UTXOの例に戻りますが、私の身元を知っている規制された取引プラットフォームから来たUTXOと組み合わせることを避けたいとします。no-KYC UTXOとKYC UTXOに異なるラベルを付けることで、コインコントロール機能を使用して支出を満たすためにどのUTXOを入力として消費するかを簡単に識別できます。
+Bisqからのno-[KYC](https://planb.academy/resources/glossary/kyc-know-your-customer) UTXOの例に戻りますが、私の身元を知っている規制された取引プラットフォームから来たUTXOと組み合わせることを避けたいとします。no-KYC UTXOとKYC UTXOに異なるラベルを付けることで、コインコントロール機能を使用して支出を満たすためにどのUTXOを入力として消費するかを簡単に識別できます。
 
 ## UTXOを適切にラベル付けする方法は？
 UTXOをラベル付けするための万能な方法はありません。ウォレットを簡単に把握できるように、ラベリングシステムを定義するのはあなた次第です。

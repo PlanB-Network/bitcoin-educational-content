@@ -13,7 +13,7 @@ description: کشف و نصب Umbrel - نود Bitcoin و سرور خانگی ش�
 
 
 
-### گره Bitcoin چیست؟
+### [گره](https://planb.academy/resources/glossary/node) Bitcoin چیست؟
 
 
 
@@ -23,7 +23,7 @@ description: کشف و نصب Umbrel - نود Bitcoin و سرور خانگی ش�
 
 
 
-- **Blockchain storage**: نگهداری یک نسخه کامل و به‌روز از Blockchain Bitcoin
+- **[Blockchain](https://planb.academy/resources/glossary/blockchain) storage**: نگهداری یک نسخه کامل و به‌روز از Blockchain Bitcoin
 - **تأیید تراکنش**: هر تراکنش و بلوک را بر اساس قوانین پروتکل اعتبارسنجی می‌کند
 - **انتشار اطلاعات**: تراکنش‌ها و بلوک‌های جدید را با سایر نودها به اشتراک می‌گذارد
 - **اجماع‌سازی**: به کاربرد قوانین شبکه کمک می‌کند

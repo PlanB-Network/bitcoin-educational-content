@@ -23,7 +23,7 @@ En Bitcoin-nod är en dator som deltar i Bitcoin-nätverket genom att köra Bitc
 
 
 
-- **Blockchain-lagring**: Upprätthåller en fullständig, uppdaterad kopia av Blockchain Bitcoin
+- **[Blockchain](https://planb.academy/resources/glossary/blockchain)-lagring**: Upprätthåller en fullständig, uppdaterad kopia av Blockchain Bitcoin
 - **Transaktionsverifiering**: validerar varje transaktion och block i enlighet med protokollreglerna
 - **Informationsspridning**: Delar nya transaktioner och block med andra noder
 - **Skapande av samförstånd**: Bidrar till tillämpningen av nätverksreglerna
@@ -399,7 +399,7 @@ När din Umbrel är startad och tillgänglig via din webbläsare följer du dess
 
 
 
-**Bitcoin Node**
+**Bitcoin [Node](https://planb.academy/resources/glossary/node)**
 
 
 

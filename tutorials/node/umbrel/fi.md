@@ -21,7 +21,7 @@ Bitcoin-solmu on tietokone, joka osallistuu Bitcoinverkkoon käyttämällä Bitc
 
 
 
-- **Blockchain varastointi**: Säilyttää täydellisen ja ajantasaisen kopion Blockchain:sta Bitcoin
+- **[Blockchain](https://planb.academy/resources/glossary/blockchain) varastointi**: Säilyttää täydellisen ja ajantasaisen kopion Blockchain:sta Bitcoin
 - **Tapahtumien todentaminen**: validoi jokaisen tapahtuman ja lohkon protokollan sääntöjen mukaisesti
 - **Tiedon levittäminen**: Jakaa uudet transaktiot ja lohkot muiden solmujen kanssa
 - **Konsensuksen luominen**: Osallistuu verkoston sääntöjen soveltamiseen

@@ -21,7 +21,7 @@ Bitcoin-sõlm on arvuti, mis osaleb Bitcoin võrgus, kasutades Bitcoin Core tark
 
 
 
-- **Blockchain ladustamine**: Hoiab Blockchain täielikku ja ajakohastatud koopiat Bitcoin
+- **[Blockchain](https://planb.academy/resources/glossary/blockchain) ladustamine**: Hoiab Blockchain täielikku ja ajakohastatud koopiat Bitcoin
 - **Tehingu kontrollimine**: valideerib iga tehingu ja ploki vastavalt protokolli reeglitele
 - **Teabe levitamine**: Jagab uusi tehinguid ja plokke teiste sõlmedega
 - **Konsensuse saavutamine**: Aitab kaasa võrgueeskirjade kohaldamisele

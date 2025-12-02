@@ -21,7 +21,7 @@ Dat zou je moeten doen. Hoewel het verzamelen van Satoshi non-kyc vrij eenvoudig
 
 
 
-### Wat gebeurt er als je een UTXO uitgeeft?
+### Wat gebeurt er als je een [UTXO](https://planb.academy/resources/glossary/utxo) uitgeeft?
 
 
 

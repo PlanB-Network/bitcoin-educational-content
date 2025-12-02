@@ -26,7 +26,7 @@ Mnamo mwaka wa 2015, [LaurentMT](https://twitter.com/LaurentMT) alitaja njia hii
 - Steganographic Transactions
 
 
-Upekee wa PayJoin upo katika uwezo wake wa generate muamala unaoonekana kuwa wa kawaida mwanzoni lakini kwa kweli ni CoinJoin ndogo kati ya pande mbili. Ili kufanikisha hili, muundo wa muamala unahusisha mpokeaji malipo pamoja na mtumaji halisi katika pembejeo. Mpokeaji hujumuisha malipo kwao wenyewe katikati ya muamala, ambayo huwawezesha kulipwa.
+Upekee wa PayJoin upo katika uwezo wake wa generate muamala unaoonekana kuwa wa kawaida mwanzoni lakini kwa kweli ni [CoinJoin](https://planb.academy/resources/glossary/coinjoin) ndogo kati ya pande mbili. Ili kufanikisha hili, muundo wa muamala unahusisha mpokeaji malipo pamoja na mtumaji halisi katika pembejeo. Mpokeaji hujumuisha malipo kwao wenyewe katikati ya muamala, ambayo huwawezesha kulipwa.
 
 
 Hebu tuchukue mfano halisi: ukinunua baguette kwa `4000 Sats` kwa kutumia UTXO ya `10,000 Sats` na kuchagua PayJoin, mwokaji wako ataongeza UTXO ya `15,000 Sats` ambayo ni mali yao kama nyongeza, ambayo pato lako la 0 atapokea kwa ukamilifu 0. Sats`:

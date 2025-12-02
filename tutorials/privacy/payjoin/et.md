@@ -17,7 +17,7 @@ Payjoin on Bitcoin'i tehingu spetsiifiline struktuur, mis suurendab kasutaja pri
 - P2EP (Pay-to-End-Point)
 - Steganograafiline tehing
 
-Payjoin'i ainulaadsus seisneb selle võimes genereerida tehing, mis esmapilgul tundub tavaline, kuid on tegelikult mini Coinjoin kahe osapoole vahel. Selle saavutamiseks hõlmab tehingu struktuur makse saajat koos tegeliku saatjaga sisendites. Saaja lisab tehingu keskele makse iseendale, mis võimaldab neil saada makstud.
+Payjoin'i ainulaadsus seisneb selle võimes genereerida tehing, mis esmapilgul tundub tavaline, kuid on tegelikult mini [Coinjoin](https://planb.academy/resources/glossary/coinjoin) kahe osapoole vahel. Selle saavutamiseks hõlmab tehingu struktuur makse saajat koos tegeliku saatjaga sisendites. Saaja lisab tehingu keskele makse iseendale, mis võimaldab neil saada makstud.
 
 Võtame konkreetse näite: kui ostate baguette'i `4000 satsi` eest, kasutades UTXO-d `10,000 satsi` ja valite Payjoin'i, lisab teie pagar sisendina `15,000 satsi` suuruse UTXO, mis kuulub neile, mille nad saavad täielikult väljundina, lisaks teie `4000 satsile`:
 ![Payjoin tehingu diagramm](assets/en/1.webp)

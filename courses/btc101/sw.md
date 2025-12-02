@@ -5,8 +5,8 @@ objectives:
 
   - Pata ufahamu wa jumla wa teknolojia ya Bitcoin
   - Kuelewa jinsi ya kununua kwa usalama bitcoins
-  - Kuwa na ufahamu wa jumla wa teknolojia ya Blockchain
-  - Fahamu dhana ya Lightning Network
+  - Kuwa na ufahamu wa jumla wa teknolojia ya [Blockchain](https://planb.academy/resources/glossary/blockchain)
+  - Fahamu dhana ya [Lightning Network](https://planb.academy/resources/glossary/lightning-network)
   - Tambua athari za kijiografia na kijamii za Bitcoin
 
 ---
@@ -99,7 +99,7 @@ Kabla ya neno "Bitcoin" kuwa sawa na sarafu ya kidijitali na mabadiliko ya kifed
 
 ![image](assets/sw/003.webp)
 
-Katika moyo wa mageuzi ya kiteknolojia ya miaka ya 1980 na 1990, kundi la watu lilianza kutilia shaka kwa kina jukumu la faragha na uhuru katika enzi ya kidijitali. Watu hawa, ambao baadaye wangejulikana kama "cypherpunks", waliamini kabisa kwamba cryptography inaweza kutumika kama chombo cha kulinda haki za mtu binafsi dhidi ya kuingiliwa na serikali na mashirika makubwa.
+Katika moyo wa mageuzi ya kiteknolojia ya miaka ya 1980 na 1990, kundi la watu lilianza kutilia shaka kwa kina jukumu la faragha na uhuru katika enzi ya kidijitali. Watu hawa, ambao baadaye wangejulikana kama "cypherpunks", waliamini kabisa kwamba [cryptography](https://planb.academy/resources/glossary/cryptography) inaweza kutumika kama chombo cha kulinda haki za mtu binafsi dhidi ya kuingiliwa na serikali na mashirika makubwa.
 
 Watu mashuhuri kama vile Julian Assange, Wei Dai, Tim May, na David Chaum walichukua jukumu muhimu katika kuunda falsafa na maono ya harakati. Wanafikra hawa walishirikisha mawazo yao kwenye orodha ya utumaji barua yenye ushawishi, ambapo washiriki kutoka kote ulimwenguni walishiriki katika mijadala kuhusu njia bora za kutumia teknolojia kwa uhuru zaidi wa mtu binafsi.
 
@@ -134,7 +134,7 @@ Picha hapa chini inaonyesha wazi maendeleo ya harakati kupitia uvumbuzi wake mwi
 
 ![image](assets/sw/005.webp)
 
-Ilikuwa katika mazingira haya yenye rutuba ambapo kampuni ya ajabu ya Satoshi Nakamoto ilichapisha karatasi nyeupe ya Bitcoin mwaka wa 2008. Katika waraka huu, alichanganya mawazo kadhaa kutoka kwa vuguvugu la Cypherpunk, kama vile Proof of Work na mihuri ya nyakati ya kriptografia, ili kuunda sarafu ya dijiti iliyogatuliwa na inayostahimili udhibiti.
+Ilikuwa katika mazingira haya yenye rutuba ambapo kampuni ya ajabu ya Satoshi Nakamoto ilichapisha [karatasi nyeupe](https://planb.academy/resources/glossary/white-paper) ya Bitcoin mwaka wa 2008. Katika waraka huu, alichanganya mawazo kadhaa kutoka kwa vuguvugu la Cypherpunk, kama vile Proof of Work na mihuri ya nyakati ya kriptografia, ili kuunda sarafu ya dijiti iliyogatuliwa na inayostahimili udhibiti.
 
 Walakini, Bitcoin ilikuwa zaidi ya hiyo tu: iliwakilisha kufikiwa kwa maadili ya Cypherpunk. Zaidi ya teknolojia yake, iliashiria mapinduzi dhidi ya mifumo ya jadi ya kifedha na kutoa njia mbadala kulingana na uwazi, ugatuaji na uhuru wa mtu binafsi.
 
@@ -237,7 +237,7 @@ Sarafu ya uaminifu ni aina ya pesa ambayo huamuliwa hivyo na taasisi, yaani, ser
 
 ### Kushuka kwa thamani ya fedha: mkakati wa zamani kama Milki ya Kirumi
 
-Tangu nyakati za kale, dhahabu imetumika kama kumbukumbu ya fedha, lakini ugumu wake mara nyingi umesababisha viongozi, wawe watawala wa Kirumi au serikali za kisasa, kuchukua sarafu mbadala, mara nyingi za uaminifu.
+Tangu nyakati za kale, dhahabu imetumika kama kumbukumbu ya fedha, lakini [ugumu](https://planb.academy/resources/glossary/difficulty) wake mara nyingi umesababisha viongozi, wawe watawala wa Kirumi au serikali za kisasa, kuchukua sarafu mbadala, mara nyingi za uaminifu.
 
 Utaratibu huo ni rahisi na umechochewa na mazoea ambayo yamekuwepo tangu asili ya ustaarabu. Viongozi, wakiwa na hamu ya kudhibiti mali, huanza kwa kuweka dhahabu katikati, mara nyingi kwa kutumia mamlaka yao na kuahidi ulinzi na usalama. Wakiwa na hifadhi hii ya thamani mikononi mwao, wanaanzisha sarafu mpya, sawa na thamani ya dhahabu, lakini iliyochorwa kwenye sanamu yao. Sarafu hii basi huanza kuzunguka haraka,kukabiliana na urahisi wa matumizi yake rahisi.
 
@@ -388,7 +388,7 @@ Uundaji wa bitcoins mpya ni matokeo ya mchakato wa uchimbaji. Kwa kifupi, wachim
 
 ![image](assets/sw/022.webp)
 
-Baada ya kufanya kazi hii kwa ufanisi, wachimbaji wanapata thawabu kwa utoaji wa bitcoins mpya kila dakika kumi. Zawadi hii imepangwa kupunguzwa kwa nusu kila vitalu 210,000, ambayo ni takriban kila baada ya miaka minne (tukio linalojulikana kama "Halving"), na kutoa mkondo wa utoaji wa fedha umbo kama ngazi. Kwa sababu ya utaratibu huu, inaweza kutabiriwa kihisabati kuwa uundaji wa bitcoins mpya utakoma mwaka wa 2140, wakati idadi ya jumla inafikia kikomo chake cha milioni 21.
+Baada ya kufanya kazi hii kwa ufanisi, wachimbaji wanapata thawabu kwa utoaji wa bitcoins mpya kila dakika kumi. Zawadi hii imepangwa kupunguzwa kwa nusu kila vitalu 210,000, ambayo ni takriban kila baada ya miaka minne (tukio linalojulikana kama "[Halving](https://planb.academy/resources/glossary/halving)"), na kutoa mkondo wa utoaji wa fedha umbo kama ngazi. Kwa sababu ya utaratibu huu, inaweza kutabiriwa kihisabati kuwa uundaji wa bitcoins mpya utakoma mwaka wa 2140, wakati idadi ya jumla inafikia kikomo chake cha milioni 21.
 
 | Nambari ya Halving | Urefu wa kuzuia| Tuzo la BTC Baada ya Halving  | BTC iliyokadiriwa katika Mzunguko Baada ya Halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -488,7 +488,7 @@ Kwa hivyo, portfolios zinaweza kugawanywa katika familia pana za matumizi, kila 
 
 ### Bitcoin Wallet inafanyaje kazi?
 
-Iwe ni "benki" yako ya Bitcoin au wewe mwenyewe, idadi kubwa ya pochi za Bitcoin hufanya kazi kwa teknolojia sawa kulingana na kriptografia isiyolinganishwa, ambayo inahusisha mfumo wa jozi muhimu: ufunguo wa kibinafsi wa matumizi na ufunguo wa umma wa kupokea.
+Iwe ni "benki" yako ya Bitcoin au wewe mwenyewe, idadi kubwa ya pochi za Bitcoin hufanya kazi kwa teknolojia sawa kulingana na kriptografia isiyolinganishwa, ambayo inahusisha mfumo wa jozi muhimu: ufunguo wa kibinafsi wa matumizi na [ufunguo wa umma](https://planb.academy/resources/glossary/public-key) wa kupokea.
 
 
 - Ufunguo wa kibinafsi
@@ -566,7 +566,7 @@ Kwa mfano, unaweza kutumia Sparrow Wallet kama Hot Wallet:
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-- **Kiwango cha 2**, unatumia Wallet halisi, na umepata orodha yako ya maneno 12/24. Mara nyingi hujulikana kama "Cold Wallet" kwa sababu funguo zako zimehifadhiwa kwenye kifaa ambacho hakijaunganishwa kwenye mtandao. Katika hali hii, utahitaji kutia sahihi kila shughuli ukitumia kifaa chako, jambo ambalo hufanya pesa zako zisifikiwe kila siku.
+- **Kiwango cha 2**, unatumia Wallet halisi, na umepata orodha yako ya maneno 12/24. Mara nyingi hujulikana kama "[Cold Wallet](https://planb.academy/resources/glossary/cold-wallet)" kwa sababu funguo zako zimehifadhiwa kwenye kifaa ambacho hakijaunganishwa kwenye mtandao. Katika hali hii, utahitaji kutia sahihi kila shughuli ukitumia kifaa chako, jambo ambalo hufanya pesa zako zisifikiwe kila siku.
 
 Kwa mfano, unaweza kutumia Ledger, Satochip, au Tapsigner:
 
@@ -710,7 +710,7 @@ Mpango huu haukuwa na shauku ya kuzalisha mara moja, labda kwa sababu ya kushind
 
 ![image](assets/sw/039.webp)
 
-Mnamo Januari 3, 2009, Satoshi alizindua rasmi mtandao wa Bitcoin kwa kuunda bloku ya kwanza, inayojulikana pia kama "Genesis block", ambayo iliashiria uzinduzi wa Bitcoin Blockchain. Kitalu hiki kina ujumbe wa kufichua unaoangazia dhamira ya Bitcoin: "03/jan/2009 Chansela anayekaribia kupata dhamana ya pili kwa benki."
+Mnamo Januari 3, 2009, Satoshi alizindua rasmi mtandao wa Bitcoin kwa kuunda bloku ya kwanza, inayojulikana pia kama "[Genesis block](https://planb.academy/resources/glossary/genesis-block)", ambayo iliashiria uzinduzi wa Bitcoin Blockchain. Kitalu hiki kina ujumbe wa kufichua unaoangazia dhamira ya Bitcoin: "03/jan/2009 Chansela anayekaribia kupata dhamana ya pili kwa benki."
 
 ![image](assets/sw/040.webp)
 
@@ -862,7 +862,7 @@ Kufuatia ushindi huu, nodi zilianzisha sasisho linaloitwa SegWit, na kutengeneza
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Wachimbaji hulinda mtandao na kuongeza miamala kwenye bloku. Wanatumia umeme kupitia mashine za ASIC kutatua Bitcoin Proof of Work.**
+**Wachimbaji hulinda mtandao na kuongeza miamala kwenye bloku. Wanatumia umeme kupitia mashine za [ASIC](https://planb.academy/resources/glossary/asic) kutatua Bitcoin Proof of Work.**
 
 ![image](assets/sw/054.webp)
 

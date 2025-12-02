@@ -259,7 +259,7 @@ Imbere yo gufyonda ku nzira canke gukora ikintu ico ari co cose, wama usuzuma ka
 #### Bitcoin Amaforogo akomeye
 
 
-Mu myaka iheze, Bitcoin yarabonye *amaforogo* menshi ya Hard, ivyo vyatumye habaho ubundi buryo bwo gukoresha amafaranga y’intango. Mu majambo yoroshe, *Hard Fork* ni ugucapura mu rubuga bijana ku nzira zibiri zitandukanye, zompi zisangiye amateka amwe gushika ku gihe c’ugucapura. Ivyo bimenyetso bishika iyo igice c’umuryango w’abahinguzi canke ibidukikije vyagutse vya Bitcoin bishaka gushiramwo amahinduka akomeye mu masezerano y’intango ariko ntibishobora gushika ku masezerano yagutse. Aho guheba ivyiyumviro vyabo, bafata ingingo yo gutanguza verisiyo nshasha ya Bitcoin (ifise amategeko yahinduwe) bizigiye ko abayikoresha n’abacukuzi bazohitamwo gukurikiza Fork yabo aho kuyikurikira.
+Mu myaka iheze, Bitcoin yarabonye *amaforogo* menshi ya Hard, ivyo vyatumye habaho ubundi buryo bwo gukoresha amafaranga y’intango. Mu majambo yoroshe, *Hard [Fork](https://planb.academy/resources/glossary/fork)* ni ugucapura mu rubuga bijana ku nzira zibiri zitandukanye, zompi zisangiye amateka amwe gushika ku gihe c’ugucapura. Ivyo bimenyetso bishika iyo igice c’umuryango w’abahinguzi canke ibidukikije vyagutse vya Bitcoin bishaka gushiramwo amahinduka akomeye mu masezerano y’intango ariko ntibishobora gushika ku masezerano yagutse. Aho guheba ivyiyumviro vyabo, bafata ingingo yo gutanguza verisiyo nshasha ya Bitcoin (ifise amategeko yahinduwe) bizigiye ko abayikoresha n’abacukuzi bazohitamwo gukurikiza Fork yabo aho kuyikurikira.
 
 
 ![image](assets/rn/011.webp)
@@ -901,7 +901,7 @@ Bitcoin isobanurwa nk'"uburyo bw'amahera y'ubuhinga bwa none." Ivyo bisigura ko 
 ![image](assets/rn/034.webp)
 
 
-Mu majambo yoroshe, uwuri mu mugwi wese mu rubuga rwa Bitcoin (rwitwa "node") afise kopi yuzuye y'ibikorwa vya Ledger, bizwi nka Blockchain. Iyo habaye igikorwa gishasha, kiramenyeshwa ku rubuga. Abacukuzi baca bemeza ivyo bikorwa mu kubishira mu bice bica vyongerwa ku mpera y'uruzitiro (ni co gituma izina rya "Blockchain").
+Mu majambo yoroshe, uwuri mu mugwi wese mu rubuga rwa Bitcoin (rwitwa "[node](https://planb.academy/resources/glossary/node)") afise kopi yuzuye y'ibikorwa vya Ledger, bizwi nka Blockchain. Iyo habaye igikorwa gishasha, kiramenyeshwa ku rubuga. Abacukuzi baca bemeza ivyo bikorwa mu kubishira mu bice bica vyongerwa ku mpera y'uruzitiro (ni co gituma izina rya "Blockchain").
 
 
 ![image](assets/rn/035.webp)
@@ -999,7 +999,7 @@ Naho ubu buryo ari ubw’ubuhinga, buraha abakoresha basaba cane ubushobozi bwo 
 #### Uburyo bwo kwishura bukomeye, bujabuka imipaka
 
 
-Kubera ko Bitcoin ikora 24/7, itagira ico ikoze ku mipaka canke ku masaha. Mu turere aho ibikorwa remezo vya kera vy’amabanki bitagira, Bitcoin akenshi ikoreshwa nk’umuti wihuta kandi utazimvye wo kohereza canke kwakira amahera ata kwizigira abahuza bazimvye. Naho amafaranga yo gukoresha ashobora guhinduka bivanye n’uguhagarara kw’urubuga, muri rusangi ni make cane kuruta amafaranga amabanki asaba ku bijanye no gutanga amafaranga hanze. Ikindi, inyishu za Layer-2 nka Lightning Network zituma mbere umuntu ashobora gukoresha Bitcoin vyihuta kandi bihendutse.
+Kubera ko Bitcoin ikora 24/7, itagira ico ikoze ku mipaka canke ku masaha. Mu turere aho ibikorwa remezo vya kera vy’amabanki bitagira, Bitcoin akenshi ikoreshwa nk’umuti wihuta kandi utazimvye wo kohereza canke kwakira amahera ata kwizigira abahuza bazimvye. Naho amafaranga yo gukoresha ashobora guhinduka bivanye n’uguhagarara kw’urubuga, muri rusangi ni make cane kuruta amafaranga amabanki asaba ku bijanye no gutanga amafaranga hanze. Ikindi, inyishu za Layer-2 nka [Lightning Network](https://planb.academy/resources/glossary/lightning-network) zituma mbere umuntu ashobora gukoresha Bitcoin vyihuta kandi bihendutse.
 
 
 #### Ububiko bw'agaciro
@@ -1528,7 +1528,7 @@ Inganda za Bitcoin Wallet zigizwe n’ibice vyinshi, kimwe cose kikaba gifise iv
 
 
 
-- **Abahinguzi ba Hardware Wallet**: Izo sosiyete zikora ibikoresho vy'umubiri vyagenewe kubika imfunguruzo ata nkomanzi. Bimwe bifise inkomoko yuguruye, mu gihe ibindi bitanga inyishu zitandukanye zifise ibintu bitandukanye be n'ingero z'umutekano. Amazina azwi cane ni Ledger, Trezor, Coinkite, Umushinge, na Shiftcrypto.
+- **Abahinguzi ba [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet)**: Izo sosiyete zikora ibikoresho vy'umubiri vyagenewe kubika imfunguruzo ata nkomanzi. Bimwe bifise inkomoko yuguruye, mu gihe ibindi bitanga inyishu zitandukanye zifise ibintu bitandukanye be n'ingero z'umutekano. Amazina azwi cane ni Ledger, Trezor, Coinkite, Umushinge, na Shiftcrypto.
 - **Software Wallet Developers**: Abo bava ku masosiyete gushika ku bahinga bigenga bakora porogarama zo kuri telefone ngendanwa n'izo kuri mudasobwa. Ivyo batanga biratandukanye n'ubumenyi bw'abakoresha, umutekano be n'ibintu birimwo. Ingero ni Sparrow, Sardine y'Umupfumu, Galoy, Ijambo rimwe, n'Igikoko c'Igihugu.
 - DIY (*Do It Yourself*) **Wallets**: Izo nzira zifunguye zigenewe abakoresha bateye imbere bashaka kugenzura vyose no kwizigira cane abandi bantu. Kubaka Wallet yawe bigabanya ukwizigira kandi birashobora kwongera umutekano wawe. Amahitamwo azwi cane yo gukora harimwo Seedsigner na Spectre gukora.
 
@@ -1851,7 +1851,7 @@ Ubuzima bwawe bwa misi yose na bwo burafise uruhara runini mu kuntu uzocungera a
 **Igihe canke inyungu bike?** Hitamwo inyishu zoroshe, zikora; nk’ivyo ugura vyategekanijwe bihita biva mu bubiko butekanye.
 
 
-**Tech-savvy canke hands-on?** Ushobora guhitamwo inyishu ziteye imbere nk’amasakoshi ya Multisig atanga ubugenzuzi n’umutekano mwinshi.
+**Tech-savvy canke hands-on?** Ushobora guhitamwo inyishu ziteye imbere nk’amasakoshi ya [Multisig](https://planb.academy/resources/glossary/multisig) atanga ubugenzuzi n’umutekano mwinshi.
 
 
 **Gushiramwo amafaranga y'abakundwa canke abazoza?** Wiyumvire kare ivy'iragi. Hari uburyo bwo kumenya neza ko ama bitcoins yawe ashobora guca ku bandi ata nkomanzi iyo hari ikintu kigushikiye.
@@ -2440,7 +2440,7 @@ Igikoresho co guteranya ibintu gikeneye ubuhinga bwa Wallet bujanye n’ugukores
 
 
 
-- **Hot Wallet**: Ni vyiza ku batangura, ama wallet yo kuri telefone ngendanwa canke yo ku biro aragufasha kwakira Sats bitagoranye no kwishura. Ariko rero, birabereye cane iyo umuntu akoresheje amahera makeyi. Ivyuma vya On-Chain birakundwa cane mu guteranya ibintu kuruta ivyuma vya Lightning kubera uburongozi bwiza bwa UTXO. Ivyiza vy'amasakoshi y'amaporogarama: Green Wallet, Ubururu Wallet, Sparrow wallet, Bitkit, Nunchuk, Aqua, Proton
+- **Hot Wallet**: Ni vyiza ku batangura, ama wallet yo kuri telefone ngendanwa canke yo ku biro aragufasha kwakira Sats bitagoranye no kwishura. Ariko rero, birabereye cane iyo umuntu akoresheje amahera makeyi. Ivyuma vya On-Chain birakundwa cane mu guteranya ibintu kuruta ivyuma vya Lightning kubera uburongozi bwiza bwa [UTXO](https://planb.academy/resources/glossary/utxo). Ivyiza vy'amasakoshi y'amaporogarama: Green Wallet, Ubururu Wallet, Sparrow wallet, Bitkit, Nunchuk, Aqua, Proton
 
 
 https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125

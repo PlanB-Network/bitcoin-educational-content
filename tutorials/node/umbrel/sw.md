@@ -21,7 +21,7 @@ Nodi ya Bitcoin ni kompyuta inayoshiriki katika mtandao wa Bitcoin kwa kuendesha
 
 
 
-- **Hifadhi ya Blockchain**: Hudumisha nakala kamili, iliyosasishwa ya Blockchain Bitcoin
+- **Hifadhi ya [Blockchain](https://planb.academy/resources/glossary/blockchain)**: Hudumisha nakala kamili, iliyosasishwa ya Blockchain Bitcoin
 - **Uthibitishaji wa muamala**: huthibitisha kila shughuli na kuzuia kulingana na sheria za itifaki
 - **Usambazaji wa habari**: Hushiriki miamala na vizuizi vipya na nodi zingine
 - **Ujenzi wa Makubaliano**: Huchangia katika matumizi ya sheria za mtandao
@@ -651,7 +651,7 @@ Sparrow inatoa njia tatu za uunganisho:
 
 
 
-- Uunganisho wa moja kwa moja kwa node ya Bitcoin
+- Uunganisho wa moja kwa moja kwa [node](https://planb.academy/resources/glossary/node) ya Bitcoin
 - Binafsi lakini polepole
 
 

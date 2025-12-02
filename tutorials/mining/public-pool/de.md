@@ -5,7 +5,7 @@ description: Einführung in Public Pool
 
 ![signup](assets/cover.webp)
 
-**Public Pool** ist nicht einfach irgendein Pool; es ist das, was auch als **Solo Pool** bekannt ist. Wenn es Ihrem Miner gelingt, einen Block zu minen, dann erhalten Sie die gesamte Blockbelohnung, die nicht mit anderen Teilnehmern des Pools oder mit dem Pool selbst geteilt wird.
+**Public Pool** ist nicht einfach irgendein Pool; es ist das, was auch als **Solo Pool** bekannt ist. Wenn es Ihrem [Miner](https://planb.academy/resources/glossary/miner) gelingt, einen Block zu minen, dann erhalten Sie die gesamte Blockbelohnung, die nicht mit anderen Teilnehmern des Pools oder mit dem Pool selbst geteilt wird.
 
 **Public Pool** stellt lediglich eine **Blockvorlage** für Ihren Miner zur Verfügung, damit dieser seine Aufgabe erfüllen kann, ohne dass Sie einen **Bitcoin-Knoten** und die Software, die mit Ihrem Miner kommuniziert, haben müssen. Da Sie Ihre Rechenleistung nicht mit der anderer Teilnehmer bündeln, sind Ihre Chancen, erfolgreich einen Block zu minen, offensichtlich sehr gering und ähneln in gewisser Weise einem Lotteriesystem, bei dem manchmal ein glücklicher Einzelner den Jackpot gewinnt.
 
@@ -15,7 +15,7 @@ Auf dem **Dashboard** von **Public Pool** finden Sie dennoch einige Statistiken 
 
 ![signup](assets/2.webp)
 
-In den ersten Zeilen sehen wir **Bitaxe** mit 1323 **Bitaxe** verbunden für eine Gesamtleistung von 649TH/s. **Bitaxe** ist ein **Open-Source**-Projekt, das die einfache Wiederverwendung eines Chips von einem **ASIC** wie dem **Antminer S19** auf einer **Open-Source**-Elektronikplatine ermöglicht, um einen kleinen Miner von 0,5TH/s für 15W zu machen. Dies ist der Miner, den wir als Beispiel für dieses Tutorial verwenden werden.
+In den ersten Zeilen sehen wir **Bitaxe** mit 1323 **Bitaxe** verbunden für eine Gesamtleistung von 649TH/s. **Bitaxe** ist ein **Open-Source**-Projekt, das die einfache Wiederverwendung eines Chips von einem **[ASIC](https://planb.academy/resources/glossary/asic)** wie dem **Antminer S19** auf einer **Open-Source**-Elektronikplatine ermöglicht, um einen kleinen Miner von 0,5TH/s für 15W zu machen. Dies ist der Miner, den wir als Beispiel für dieses Tutorial verwenden werden.
 
 ## Einen **Worker** hinzufügen 👷‍♂️
 

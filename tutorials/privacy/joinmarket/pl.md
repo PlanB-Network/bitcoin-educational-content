@@ -1,7 +1,7 @@
 ---
 name: JoinMarket
 
-description: Przewodnik i samouczek dotyczący korzystania z JoinMarket do wykonywania CoinJoin przez Bitcoin za pomocą wiersza poleceń
+description: Przewodnik i samouczek dotyczący korzystania z JoinMarket do wykonywania [CoinJoin](https://planb.academy/resources/glossary/coinjoin) przez Bitcoin za pomocą wiersza poleceń
 ---
 
 ![cover](assets/cover.webp)

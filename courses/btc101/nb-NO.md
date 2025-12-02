@@ -4,7 +4,7 @@ goal: Oppdag grunnleggende Bitcoin, inkludert det monetære verdiforslaget, utvi
 objectives:
   - Få en generell forståelse av Bitcoin-teknologien
   - Forstå hvordan du kjøper og sikrer bitcoins
-  - Ha en generell forståelse av Blockchain-teknologien
+  - Ha en generell forståelse av [Blockchain](https://planb.academy/resources/glossary/blockchain)-teknologien
   - Gjør deg kjent med konseptet Lightning Network
   - Forstå den geopolitiske og sosiale effekten av Bitcoin
 ---
@@ -29,7 +29,7 @@ Velkommen til BTC101-kurset!
 
 Bitcoin er en teknologisk og monetær revolusjon som kan få oss til å stille spørsmål ved vårt forhold til penger og samfunnet. Faktisk er Bitcoin (omtalt som BTC) en **nøytral** og **desentralisert** valuta, noe som betyr at den ikke kontrolleres av noen enhet eller institusjon. Det er en innovasjon som går lenger enn bare en "internettvaluta": Det er både en dataprotokoll (Bitcoin) og en pengeenhet (bitcoin).
 
-Protokollen bruker underliggende teknologier som kryptografi, nettverkskommunikasjon og den berømte "blokkjeden", mens bitcoin-enheten fungerer som den nødvendige valutaen for at protokollen skal fungere som den skal. I hverdagen bruker salvadoranere og bitcoinere over hele verden bitcoin-valutaen til å kjøpe og selge varer og tjenester, og de er avhengige av denne teknologien for å gjøre livene sine bedre.
+Protokollen bruker underliggende teknologier som [kryptografi](https://planb.academy/resources/glossary/cryptography), nettverkskommunikasjon og den berømte "blokkjeden", mens bitcoin-enheten fungerer som den nødvendige valutaen for at protokollen skal fungere som den skal. I hverdagen bruker salvadoranere og bitcoinere over hele verden bitcoin-valutaen til å kjøpe og selge varer og tjenester, og de er avhengige av denne teknologien for å gjøre livene sine bedre.
 
 **Et omfattende, men tilgjengelig pensum:**
 
@@ -370,7 +370,7 @@ Opprettelsen av nye bitcoins er resultatet av utvinningsprosessen. Kort fortalt 
 
 ![image](assets/nb-NO/022.webp)
 
-Etter å ha utført denne oppgaven blir utvinnerne belønnet med utstedelse av nye bitcoins hvert tiende minutt. Denne belønningen er programmert til å halveres hvert 210 000. blokk, altså omtrent hvert fjerde år (en hendelse som kalles "halvering"), noe som gir den monetære utstedelseskurven en trappelignende form. På grunn av denne mekanismen kan det matematisk forutsies at utstedelsen av nye bitcoins vil opphøre rundt år 2140, når det totale antallet når sin grense på 21 millioner.
+Etter å ha utført denne oppgaven blir utvinnerne belønnet med utstedelse av nye bitcoins hvert tiende minutt. Denne belønningen er programmert til å halveres hvert 210 000. blokk, altså omtrent hvert fjerde år (en hendelse som kalles "[halvering](https://planb.academy/resources/glossary/halving)"), noe som gir den monetære utstedelseskurven en trappelignende form. På grunn av denne mekanismen kan det matematisk forutsies at utstedelsen av nye bitcoins vil opphøre rundt år 2140, når det totale antallet når sin grense på 21 millioner.
 
 | halveringsnummer | Blokkhøyde | BTC-belønning etter halvering  | Estimert BTC i omløp etter halvering |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -467,7 +467,7 @@ Porteføljer kan dermed kategoriseres i brede familier av bruksområder, alltid 
 
 ### Hvordan fungerer en Bitcoin-lommebok?
 
-Enten det er Bitcoin-"bankmannen" din eller deg selv, fungerer de aller fleste Bitcoin-lommebøker med en lignende teknologi basert på asymmetrisk kryptografi, som innebærer et system med nøkkelpar: en privat nøkkel for å bruke og en offentlig nøkkel for å motta.
+Enten det er Bitcoin-"bankmannen" din eller deg selv, fungerer de aller fleste Bitcoin-lommebøker med en lignende teknologi basert på asymmetrisk kryptografi, som innebærer et system med nøkkelpar: en [privat nøkkel](https://planb.academy/resources/glossary/private-key) for å bruke og en [offentlig nøkkel](https://planb.academy/resources/glossary/public-key) for å motta.
 
 - Privat nøkkel
 
@@ -836,7 +836,7 @@ Etter denne seieren aktiverte nodene en oppdatering kalt SegWit, som banet vei f
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-\*\*Minere sikrer nettverket og legger til transaksjoner i blokkene. De bruker elektrisitet gjennom ASIC-maskiner for å løse Bitcoin proof of work
+\*\*Minere sikrer nettverket og legger til transaksjoner i blokkene. De bruker elektrisitet gjennom [ASIC](https://planb.academy/resources/glossary/asic)-maskiner for å løse Bitcoin proof of work
 
 ![image](assets/nb-NO/054.webp)
 

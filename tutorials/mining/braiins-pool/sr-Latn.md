@@ -10,7 +10,7 @@ description: Uvod u Braiins Pool
 Braiins Pool, formerly known as Slush Pool, je prvi Bitcoin Mining pool. Osnovan u novembru 2010, iskopao je svoj prvi blok 16. decembra 2010, blok 97834.
 
 
-Od maja 2024. godine, Braiins Pool ima računarsku snagu od 13 EH/s, što predstavlja oko 1,8% od ukupnih Bitcoin Hashrate. Iskopao je ukupno 1.307.188 bitkoina, što je približno 6% od maksimalnih 21 milion bitkoina koji će ikada postojati.
+Od maja 2024. godine, Braiins Pool ima računarsku snagu od 13 EH/s, što predstavlja oko 1,8% od ukupnih Bitcoin [Hashrate](https://planb.academy/resources/glossary/hashrate). Iskopao je ukupno 1.307.188 bitkoina, što je približno 6% od maksimalnih 21 milion bitkoina koji će ikada postojati.
 
 
 ### Sistem kompenzacije

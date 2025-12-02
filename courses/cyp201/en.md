@@ -43,11 +43,11 @@ Next, we will discuss the operation of digital signature algorithms that you use
 
 ![CYP201](assets/en/002.webp)
 
-Once we have a good understanding of these elements of cryptography, we will finally move on to the heart of the training: deterministic and hierarchical wallets! First, there is a section dedicated to [mnemonic phrases](https://planb.academy/en/resources/glossary/mnemonic-phrase), these sequences of 12 or 24 words that allow you to create and restore your wallets. You will discover how these words are generated from a source of entropy and how they facilitate the use of Bitcoin.
+Once we have a good understanding of these elements of cryptography, we will finally move on to the heart of the training: deterministic and hierarchical wallets! First, there is a section dedicated to [mnemonic phrases](https://planb.academy/resources/glossary/mnemonic-phrase), these sequences of 12 or 24 words that allow you to create and restore your wallets. You will discover how these words are generated from a source of entropy and how they facilitate the use of Bitcoin.
 
 ![CYP201](assets/en/003.webp)
 
-The training will continue with the study of the [BIP39](https://planb.academy/en/resources/glossary/bip39) passphrase, the [seed](https://planb.academy/en/resources/glossary/seed) (not to be confused with the mnemonic phrase), the master chain code, and the master key. We will see in detail what these elements are, their respective roles, and how they are calculated.
+The training will continue with the study of the [BIP39](https://planb.academy/resources/glossary/bip39) passphrase, the [seed](https://planb.academy/resources/glossary/seed) (not to be confused with the mnemonic phrase), the master chain code, and the master key. We will see in detail what these elements are, their respective roles, and how they are calculated.
 
 ![CYP201](assets/en/004.webp)
 
@@ -99,10 +99,10 @@ The first type of cryptographic algorithms used in Bitcoin encompasses hash func
 
 ### Definition and Principle of Hashing
 
-Hashing is a process that transforms information of arbitrary length into another piece of information of fixed length through a cryptographic [hash function](https://planb.academy/en/resources/glossary/hash-function). In other words, a hash function takes an input of any size and converts it into a fixed-size fingerprint, called a "hash".
+Hashing is a process that transforms information of arbitrary length into another piece of information of fixed length through a cryptographic [hash function](https://planb.academy/resources/glossary/hash-function). In other words, a hash function takes an input of any size and converts it into a fixed-size fingerprint, called a "hash".
 The hash can also sometimes be referred to as "digest", "condensate", "condensed", or "hashed".
 
-For example, the [SHA256](https://planb.academy/en/resources/glossary/sha256) hash function produces a hash of a fixed length of 256 bits. Thus, if we use the input "_PlanB_", a message of arbitrary length, the generated hash will be the following 256-bit fingerprint:
+For example, the [SHA256](https://planb.academy/resources/glossary/sha256) hash function produces a hash of a fixed length of 256 bits. Thus, if we use the input "_PlanB_", a message of arbitrary length, the generated hash will be the following 256-bit fingerprint:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -693,14 +693,14 @@ The second cryptographic method used in Bitcoin involves digital signature algor
 The term "_wallet_" in Bitcoin can be quite confusing for beginners. Indeed, what is called a Bitcoin wallet is software that does not directly hold your bitcoins, unlike a physical wallet that can hold coins or bills. Bitcoins are simply units of account. This unit of account is represented by **UTXO** (_Unspent Transaction Outputs_), which are unspent transaction outputs. If these outputs are unspent, it means they belong to a user. UTXOs are, in a way, pieces of bitcoins, of variable size, belonging to a user.
 
 The Bitcoin protocol is distributed and operates without a central authority. Therefore, it is not like traditional banking records, where the euros that belong to you are simply associated with your personal identity. In Bitcoin, your UTXOs belong to you because they are protected by spending conditions specified in the Script language. To simplify, there are two types of scripts: the locking script (_scriptPubKey_), which protects a UTXO, and the unlocking script (_scriptSig_), which allows unlocking a UTXO and thus spending the bitcoin units it represents.
-The initial operation of Bitcoin with P2PK scripts involves using a [public key](https://planb.academy/en/resources/glossary/public-key) to lock funds, specifying in a _scriptPubKey_ that the person wishing to spend this UTXO must provide a valid signature with the [private key](https://planb.academy/en/resources/glossary/private-key) corresponding to this public key. To unlock this UTXO, it is therefore necessary to provide a valid signature in the _scriptSig_. As their names suggest, the public key is known to all since it is broadcast on the blockchain, while the private key is only known to the legitimate owner of the funds.
+The initial operation of Bitcoin with P2PK scripts involves using a [public key](https://planb.academy/resources/glossary/public-key) to lock funds, specifying in a _scriptPubKey_ that the person wishing to spend this UTXO must provide a valid signature with the [private key](https://planb.academy/resources/glossary/private-key) corresponding to this public key. To unlock this UTXO, it is therefore necessary to provide a valid signature in the _scriptSig_. As their names suggest, the public key is known to all since it is broadcast on the blockchain, while the private key is only known to the legitimate owner of the funds.
 This is the basic operation of Bitcoin, but over time, this operation has become more complex. First, Satoshi also introduced P2PKH scripts, which use a receiving address in the _scriptPubKey_, which represents the hash of the public key. Then, the system became even more complex with the arrival of SegWit and then Taproot. However, the general principle remains fundamentally the same: a public key or a representation of this key is used to lock UTXOs, and a corresponding private key is required to unlock them and thus spend them.
 
 A user who wishes to make a Bitcoin transaction must therefore create a digital signature using their private key on the transaction. The signature can be verified by other network participants. If it is valid, this means that the user initiating the transaction is indeed the owner of the private key, and therefore the owner of the bitcoins they wish to spend. Other users can then accept and propagate the transaction.
 
 As a result, a user who owns bitcoins locked with a public key must find a way to securely store what allows unlocking their funds: the private key. A Bitcoin wallet is precisely a device that will allow you to easily keep all your keys without other people having access to them. It is therefore more like a keychain than a wallet.
 
-The mathematical link between a public key and a private key, as well as the ability to perform a signature to prove the possession of a private key without revealing it, are made possible by a digital signature algorithm. In the Bitcoin protocol, two signature algorithms are used: **[ECDSA](https://planb.academy/en/resources/glossary/ecdsa)** (_Elliptic Curve Digital Signature Algorithm_) and the **[Schnorr](https://planb.academy/en/resources/glossary/schnorr-protocol) signature scheme**. ECDSA is the digital signature protocol used in Bitcoin from its beginnings. Schnorr is more recent in Bitcoin, as it was introduced in November 2021 with the Taproot update.
+The mathematical link between a public key and a private key, as well as the ability to perform a signature to prove the possession of a private key without revealing it, are made possible by a digital signature algorithm. In the Bitcoin protocol, two signature algorithms are used: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_Elliptic Curve Digital Signature Algorithm_) and the **[Schnorr](https://planb.academy/resources/glossary/schnorr-protocol) signature scheme**. ECDSA is the digital signature protocol used in Bitcoin from its beginnings. Schnorr is more recent in Bitcoin, as it was introduced in November 2021 with the Taproot update.
 These two algorithms are quite similar in their mechanisms. They are both based on elliptic curve cryptography. The major difference between these two protocols lies in the structure of the signature and some specific mathematical properties. We will therefore study the functioning of these algorithms, starting with the oldest: ECDSA.
 
 ### Elliptic Curve Cryptography
@@ -1242,7 +1242,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD Wallets
 
-To address the limitation of JBOK wallets, a new wallet structure was subsequently utilized. In 2012, Pieter Wuille proposed an improvement with [BIP32](https://planb.academy/en/resources/glossary/bip32), which introduces HD (Hierarchical Deterministic) wallets. The principle of an HD wallet is to derive all private keys from a single source of information, called a seed, in a deterministic and hierarchical manner. This seed is generated randomly when the wallet is created and constitutes a unique backup that allows for the recreation of all the wallet's private keys. Thus, the user can generate a very large number of private keys to avoid address reuse and preserve their privacy, while only needing to make a single backup of their wallet via the seed.
+To address the limitation of JBOK wallets, a new wallet structure was subsequently utilized. In 2012, Pieter Wuille proposed an improvement with [BIP32](https://planb.academy/resources/glossary/bip32), which introduces HD (Hierarchical Deterministic) wallets. The principle of an HD wallet is to derive all private keys from a single source of information, called a seed, in a deterministic and hierarchical manner. This seed is generated randomly when the wallet is created and constitutes a unique backup that allows for the recreation of all the wallet's private keys. Thus, the user can generate a very large number of private keys to avoid address reuse and preserve their privacy, while only needing to make a single backup of their wallet via the seed.
 
 ![CYP201](assets/en/039.webp)
 
@@ -1262,7 +1262,7 @@ In the upcoming chapters, we will explore the internal workings of HD wallets, i
 
 :::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
 
-Modern HD wallets rely on a single initial piece of information called "[entropy](https://planb.academy/en/resources/glossary/entropy)" to deterministically generate the entire set of wallet keys. This entropy is a pseudo-random number that partly determines the security of the wallet.
+Modern HD wallets rely on a single initial piece of information called "[entropy](https://planb.academy/resources/glossary/entropy)" to deterministically generate the entire set of wallet keys. This entropy is a pseudo-random number that partly determines the security of the wallet.
 
 ### Definition of Entropy
 

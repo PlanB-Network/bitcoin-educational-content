@@ -21,7 +21,7 @@ description: Ознакомьтесь с Coin Control, ключевым инст
 
 
 
-### Что происходит, когда вы тратите UTXO
+### Что происходит, когда вы тратите [UTXO](https://planb.academy/resources/glossary/utxo)
 
 
 

@@ -23,7 +23,7 @@ Bitcoin 노드는 Bitcoin core 소프트웨어 또는 대체 클라이언트를 
 
 
 
-- Blockchain 스토리지**: Blockchain Bitcoin의 완전한 최신 사본을 유지합니다
+- [Blockchain](https://planb.academy/resources/glossary/blockchain) 스토리지**: Blockchain Bitcoin의 완전한 최신 사본을 유지합니다
 - 트랜잭션 검증**: 프로토콜 규칙에 따라 각 트랜잭션과 블록의 유효성을 검사합니다
 - 정보 전파**: 새로운 트랜잭션과 블록을 다른 노드와 공유합니다
 - 합의 형성**: 네트워크 규칙 적용에 기여

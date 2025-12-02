@@ -341,7 +341,7 @@ De Joinstr-toepassing is onderverdeeld in drie hoofdtabbladen:
 
 
 - Home**: Beginscherm
-- Pools**: CoinJoin pools aanmaken en beheren
+- Pools**: [CoinJoin](https://planb.academy/resources/glossary/coinjoin) pools aanmaken en beheren
 - Instellingen**: Toepassingsconfiguratie
 
 

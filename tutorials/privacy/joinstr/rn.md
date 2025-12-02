@@ -341,7 +341,7 @@ Porogaramu ya Joinstr itunganijwe mu bice bitatu nyamukuru:
 
 
 - Inzu**: Igishushanyo c'inzu
-- Ibidengeri**: Guhingura no gucunga ibidengeri vya CoinJoin
+- Ibidengeri**: Guhingura no gucunga ibidengeri vya [CoinJoin](https://planb.academy/resources/glossary/coinjoin)
 - Amagenamiterere**: Gutunganya porogaramu
 
 

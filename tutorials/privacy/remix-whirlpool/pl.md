@@ -21,7 +21,7 @@ ten samouczek służy wyłącznie celom edukacyjnym i informacyjnym. Nie popiera
 Jest to pytanie, które jest mi często zadawane. **Podczas wykonywania coinjoinów z Whirlpool, ile remiksów należy wykonać, aby osiągnąć zadowalające wyniki?**
 
 
-Celem CoinJoin jest zaoferowanie wiarygodnego zaprzeczenia poprzez zmieszanie monety z grupą nieodróżnialnych monet. Celem tego działania jest zerwanie powiązań identyfikowalności, zarówno z przeszłości do teraźniejszości, jak i z teraźniejszości do przeszłości. Innymi słowy, analityk, który zna początkową transakcję na wejściu cykli CoinJoin, nie powinien być w stanie ostatecznie zidentyfikować UTXO na wyjściu cykli remiksowania (analiza od cykli wejścia do cykli wyjścia).
+Celem [CoinJoin](https://planb.academy/resources/glossary/coinjoin) jest zaoferowanie wiarygodnego zaprzeczenia poprzez zmieszanie monety z grupą nieodróżnialnych monet. Celem tego działania jest zerwanie powiązań identyfikowalności, zarówno z przeszłości do teraźniejszości, jak i z teraźniejszości do przeszłości. Innymi słowy, analityk, który zna początkową transakcję na wejściu cykli CoinJoin, nie powinien być w stanie ostatecznie zidentyfikować UTXO na wyjściu cykli remiksowania (analiza od cykli wejścia do cykli wyjścia).
 
 ![past-present links diagram](assets/en/1.webp)
 

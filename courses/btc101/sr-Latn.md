@@ -5,8 +5,8 @@ objectives:
 
   - Steknite opšte razumevanje Bitkoin tehnologije
   - Naučite kako da kupite i osigurate Bitkoine
-  - Imate opšte razumevanje Blockchain tehnologije.
-  - Upoznajte se sa konceptom Lightning Network (mreže)
+  - Imate opšte razumevanje [Blockchain](https://planb.academy/resources/glossary/blockchain) tehnologije.
+  - Upoznajte se sa konceptom [Lightning Network](https://planb.academy/resources/glossary/lightning-network) (mreže)
   - Shvatite geopolitički i društveni uticaj Bitkoina
 
 ---
@@ -40,7 +40,7 @@ Dobrodošli na kurs BTC101!
 Bitkoin je tehnološka i monetarna revolucija, sposobna da nas natera da preispitamo naš odnos prema novcu i društvu. Zapravo, Bitkoin (poznat kao BTC) je **neutralna** i **decentralizovana** valuta, što znači da nije kontrolisana od strane bilo kog entiteta ili institucije. To je inovacija koja prevazilazi puku "internet valutu": to je i kompjuterski protokol (Bitkoin) i monetarna jedinica (bitkoin).
 
 
-Bitkoin protokol koristi osnovne tehnologije kao što su kriptografija, mrežna komunikacija i čuveni "Blockchain", dok bitkoin jedinica služi kao neophodna valuta za pravilno funkcionisanje ovog protokola. U svakodnevnom životu, Salvadorci i bitkoineri širom sveta koriste bitkoin valutu za kupovinu i prodaju robe i usluga, oslanjajući se na ovu tehnologiju kako bi poboljšali svoj život.
+Bitkoin protokol koristi osnovne tehnologije kao što su [kriptografija](https://planb.academy/resources/glossary/cryptography), mrežna komunikacija i čuveni "Blockchain", dok bitkoin jedinica služi kao neophodna valuta za pravilno funkcionisanje ovog protokola. U svakodnevnom životu, Salvadorci i bitkoineri širom sveta koriste bitkoin valutu za kupovinu i prodaju robe i usluga, oslanjajući se na ovu tehnologiju kako bi poboljšali svoj život.
 
 
 **Sveobuhvatan, a ipak pristupačan program:**
@@ -554,7 +554,7 @@ Kreiranje novih bitkoina rezultat je procesa rudarenja. Ukratko, rudari koriste 
 ![image](assets/sr-Latn/022.webp)
 
 
-Nakon uspešnog izvršavanja ovog zadatka, rudari dobijaju nagradu u vidu izdavanja novih bitkoina svakih deset minuta. Ova nagrada je programirana da se prepolovi na svakih 210.000 blokova, što je otprilike svake četiri godine (događaj poznat kao "Halving"-prepolovljavanje), dajući krivi monetarnog izdavanja oblik stepenica. Zbog ovog mehanizma, može se matematički predvideti da će kreiranje novih bitkoina prestati oko godine 2140, kada ukupan broj dostigne svoj limit od 21 milion.
+Nakon uspešnog izvršavanja ovog zadatka, rudari dobijaju nagradu u vidu izdavanja novih bitkoina svakih deset minuta. Ova nagrada je programirana da se prepolovi na svakih 210.000 blokova, što je otprilike svake četiri godine (događaj poznat kao "[Halving](https://planb.academy/resources/glossary/halving)"-prepolovljavanje), dajući krivi monetarnog izdavanja oblik stepenica. Zbog ovog mehanizma, može se matematički predvideti da će kreiranje novih bitkoina prestati oko godine 2140, kada ukupan broj dostigne svoj limit od 21 milion.
 
 
 | Broj Halvinga  |Veličina bloka| Nagrada u BTC nakon halvinga  | Procenjeni BTC u opticaju nakon Halving-a |
@@ -593,7 +593,7 @@ Limit od 21 milion je osnova oskudice Bitkoina, i garantovana je kroz dva ključ
 -  Podešavanje težine rudarenja je proces koji se dešava svakih 2016 blokova, ili otprilike svake dve nedelje, kako bi se osiguralo da se novi blok dodaje u Blockchain u proseku svakih deset minuta. Ova učestalost kreiranja blokova i ukupna količina bitkoina su fiksni aspekti Bitkoin protokola i ne mogu se promeniti bez opšteg konsenzusa, za razliku od proizvoljnih odluka donetih u tradicionalnim monetarnim sistemima.
 
 
-Težina pronalaženja validnog Hash-a prati neku vrstu ciklusa: ako se broj rudara poveća i više blokova se pronađe brže, to uzrokuje smanjenje prosečnog vremena za pronalaženje bloka i tako se povećava težina. Kao posledica toga, broj blokova koje rudari pronađu se smanjuje, što znači da se mehanizam vraća na prosek od 10 minuta po bloku. Molimo pogledajte sliku ispod za vizuelni prikaz.
+[Težina](https://planb.academy/resources/glossary/difficulty) pronalaženja validnog Hash-a prati neku vrstu ciklusa: ako se broj rudara poveća i više blokova se pronađe brže, to uzrokuje smanjenje prosečnog vremena za pronalaženje bloka i tako se povećava težina. Kao posledica toga, broj blokova koje rudari pronađu se smanjuje, što znači da se mehanizam vraća na prosek od 10 minuta po bloku. Molimo pogledajte sliku ispod za vizuelni prikaz.
 
 
 ![image](assets/sr-Latn/023.webp)
@@ -688,7 +688,7 @@ Portfolija se tako mogu kategorizovati u široke porodice upotrebe, uvek fokusir
 ### Kako funkcioniše Bitkoin novčanik?
 
 
-Bilo da je to vaš bitkoin "bankar" ili vi sami, velika većina Bitkoin novčanika radi sa sličnom tehnologijom zasnovanom na asimetričnoj kriptografiji, koja uključuje sistem parova ključeva: privatni ključ za trošenje i javni ključ za primanje.
+Bilo da je to vaš bitkoin "bankar" ili vi sami, velika većina Bitkoin novčanika radi sa sličnom tehnologijom zasnovanom na asimetričnoj kriptografiji, koja uključuje sistem parova ključeva: [privatni ključ](https://planb.academy/resources/glossary/private-key) za trošenje i [javni ključ](https://planb.academy/resources/glossary/public-key) za primanje.
 
 
 
@@ -800,7 +800,7 @@ Na primer, možete koristiti Sparrow novčanik kao Hot Wallet:
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
-- **Nivo 2**, koristite fizički novčanik, i obezbedili ste svoju listu od 12/24 reči. Često se naziva "Cold Wallet" (Hladni novčanik), jer su vaši ključevi pohranjeni na uređaju koji nije povezan na internet. U ovom slučaju, uvek ćete morati da potpisujete svaku transakciju sa svojim uređajem, što čini vaša sredstva manje dostupnim na dnevnoj bazi.
+- **Nivo 2**, koristite fizički novčanik, i obezbedili ste svoju listu od 12/24 reči. Često se naziva "[Cold Wallet](https://planb.academy/resources/glossary/cold-wallet)" (Hladni novčanik), jer su vaši ključevi pohranjeni na uređaju koji nije povezan na internet. U ovom slučaju, uvek ćete morati da potpisujete svaku transakciju sa svojim uređajem, što čini vaša sredstva manje dostupnim na dnevnoj bazi.
 
 
 Na primer, možete koristiti Ledger, Satochip ili Tapsigner:
@@ -1012,7 +1012,7 @@ Ova inicijativa nije odmah izazvala entuzijazam, verovatno zbog prethodnih neusp
 ![image](assets/sr-Latn/039.webp)
 
 
-Dana 3. januara 2009. godine, Satoshi je zvanično inaugurisao mrežu Bitkoin kreiranjem prvog bloka, poznatog i kao "Genesis blok", čime je označen početak bitkoin Blockchain-a. Ovaj blok sadrži otkrivajuću poruku koja odražava misiju Bitkoina: "03/jan/2009 Chancellor on brink of second bailout for banks."
+Dana 3. januara 2009. godine, Satoshi je zvanično inaugurisao mrežu Bitkoin kreiranjem prvog bloka, poznatog i kao "[Genesis blok](https://planb.academy/resources/glossary/genesis-block)", čime je označen početak bitkoin Blockchain-a. Ovaj blok sadrži otkrivajuću poruku koja odražava misiju Bitkoina: "03/jan/2009 Chancellor on brink of second bailout for banks."
 
 
 ![image](assets/sr-Latn/040.webp)
@@ -1236,7 +1236,7 @@ Nakon ove pobede, čvorovi su aktivirali ažuriranje pod nazivom SegWit, otvaraj
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
 
-**Rudari osiguravaju mrežu i dodaju transakcije u blokove. Koriste električnu energiju putem ASIC mašina da reše Bitkoin Proof of Work(dokaz o radu).**
+**Rudari osiguravaju mrežu i dodaju transakcije u blokove. Koriste električnu energiju putem [ASIC](https://planb.academy/resources/glossary/asic) mašina da reše Bitkoin Proof of Work(dokaz o radu).**
 
 
 ![image](assets/sr-Latn/054.webp)

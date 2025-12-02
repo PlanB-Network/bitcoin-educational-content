@@ -50,7 +50,7 @@ El objetivo de este curso de formación no es que usted sea totalmente anónimo 
 
 **Sección 1: Definiciones y conceptos clave**
 
-Para empezar, vamos a repasar los principios fundamentales que rigen el funcionamiento de Bitcoin, para luego poder abordar con calma las nociones relativas a la confidencialidad. Es esencial dominar algunos conceptos básicos, como UTXO, la recepción de direcciones y el scripting, antes de poder entender completamente los conceptos que trataremos en las siguientes secciones. También presentaremos el modelo general de confidencialidad de Bitcoin, tal y como lo imaginó Satoshi Nakamoto, lo que nos permitirá comprender las apuestas y los riesgos asociados.
+Para empezar, vamos a repasar los principios fundamentales que rigen el funcionamiento de Bitcoin, para luego poder abordar con calma las nociones relativas a la confidencialidad. Es esencial dominar algunos conceptos básicos, como [UTXO](https://planb.academy/resources/glossary/utxo), la recepción de direcciones y el scripting, antes de poder entender completamente los conceptos que trataremos en las siguientes secciones. También presentaremos el modelo general de confidencialidad de Bitcoin, tal y como lo imaginó Satoshi Nakamoto, lo que nos permitirá comprender las apuestas y los riesgos asociados.
 
 ![BTC204](assets/es/001.webp)
 
@@ -66,7 +66,7 @@ En la tercera sección de nuestro curso de formación, vamos al grano: ¡la prá
 
 ![BTC204](assets/es/003.webp)
 
-**Sección 4: Entender las transacciones coinjoin**
+**Sección 4: Entender las transacciones [coinjoin](https://planb.academy/resources/glossary/coinjoin)**
 
 ¿Cómo podemos hablar de privacidad en Bitcoin sin mencionar los coinjoins? En la sección 4, descubrirá todo lo que necesita saber sobre este método de mezcla. Aprenderá qué son los coinjoins, su historia y objetivos, así como los diferentes tipos de coinjoin que existen. Por último, para los usuarios más experimentados, veremos qué son los anonsets y la entropía, y cómo calcularlos.
 
@@ -110,7 +110,7 @@ Bitcoin funciona de forma diferente. El concepto de cuenta no existe, y las unid
 1 BTC = 100 000 000 SATS
 ```
 
-Teóricamente, un UTXO puede representar cualquier valor en bitcoins, desde un sat hasta un máximo teórico de unos 21 millones de BTC. Sin embargo, es lógicamente imposible poseer los 21 millones de bitcoins, y existe un umbral económico inferior denominado "polvo", por debajo del cual se considera económicamente poco rentable gastar un UTXO.
+Teóricamente, un UTXO puede representar cualquier valor en bitcoins, desde un sat hasta un máximo teórico de unos 21 millones de BTC. Sin embargo, es lógicamente imposible poseer los 21 millones de bitcoins, y existe un umbral económico inferior denominado "[polvo](https://planb.academy/resources/glossary/dust)", por debajo del cual se considera económicamente poco rentable gastar un UTXO.
 
 **¿Sabías?** El mayor UTXO jamás creado en Bitcoin tenía un valor de `500.000 BTC`. Fue creado por la plataforma MtGox durante una operación de consolidación en noviembre de 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
@@ -374,7 +374,7 @@ Las dos primeras heurísticas de análisis de cadenas fueron descubiertas por el
 
 
 - cIOH (*Heurística de propiedad de entrada común*);
-- y reutilización de direcciones.
+- y [reutilización de direcciones](https://planb.academy/resources/glossary/address-reuse).
 
 ![BTC204](assets/es/031.webp)
 
@@ -572,7 +572,7 @@ Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec
 
 En este último, podemos ver que la entrada nº 0 y la salida nº 1 utilizan scripts P2WPKH (SegWit V0), mientras que la salida nº 0 utiliza un script P2PKH diferente (Legacy).
 
-A principios de 2010, esta heurística basada en el versionado de scripts era relativamente poco útil debido a los limitados tipos de scripts disponibles. Sin embargo, con el tiempo y las sucesivas actualizaciones de Bitcoin, se ha introducido una creciente diversidad de tipos de scripts. Por lo tanto, esta heurística es cada vez más relevante, ya que con una gama más amplia de tipos de script, los usuarios se dividen en grupos más pequeños, aumentando así las posibilidades de aplicar esta heurística de reutilización de versionado interno. Por esta razón, sólo desde el punto de vista de la confidencialidad, es aconsejable optar por el tipo de script más común. Por ejemplo, mientras escribo estas líneas, los scripts Taproot (`bc1p`) se utilizan con menos frecuencia que los scripts SegWit V0 (`bc1q`). Aunque los primeros ofrecen ventajas económicas y de confidencialidad en determinados contextos específicos, para usos más tradicionales de firma única, puede tener sentido seguir con un estándar más antiguo por razones de confidencialidad, hasta que el nuevo estándar se adopte más ampliamente.
+A principios de 2010, esta heurística basada en el versionado de scripts era relativamente poco útil debido a los limitados tipos de scripts disponibles. Sin embargo, con el tiempo y las sucesivas actualizaciones de Bitcoin, se ha introducido una creciente diversidad de tipos de scripts. Por lo tanto, esta heurística es cada vez más relevante, ya que con una gama más amplia de tipos de script, los usuarios se dividen en grupos más pequeños, aumentando así las posibilidades de aplicar esta heurística de reutilización de versionado interno. Por esta razón, sólo desde el punto de vista de la confidencialidad, es aconsejable optar por el tipo de script más común. Por ejemplo, mientras escribo estas líneas, los scripts [Taproot](https://planb.academy/resources/glossary/taproot) (`bc1p`) se utilizan con menos frecuencia que los scripts [SegWit](https://planb.academy/resources/glossary/segwit) V0 (`bc1q`). Aunque los primeros ofrecen ventajas económicas y de confidencialidad en determinados contextos específicos, para usos más tradicionales de firma única, puede tener sentido seguir con un estándar más antiguo por razones de confidencialidad, hasta que el nuevo estándar se adopte más ampliamente.
 
 ### Pagos con números redondos
 
@@ -2190,7 +2190,7 @@ He aquí algunas estrategias para utilizarlos:
 - Marcarlos como "no gastables": **Otro enfoque es dejar de usarlos, marcarlos como "no gastables" en su cuenta dedicada, y simplemente hodl. Así se asegura de no gastarlos accidentalmente. Si el valor del bitcoin sube, pueden surgir nuevos pools más adecuados para tus UTXOs tóxicos;**
 - **Hacer donaciones:** Considera hacer donaciones, por modestas que sean, a los desarrolladores que trabajan en Bitcoin y software relacionado. También puedes donar a asociaciones que acepten BTC. Si gestionar tus UTXO tóxicos te parece demasiado complicado, puedes simplemente deshacerte de ellos y hacer una donación;
 - **Comprar tarjetas regalo:** Plataformas como [Bitrefill](https://www.bitrefill.com/) permiten canjear bitcoins por tarjetas regalo que pueden utilizarse en diversos comercios. Esta puede ser una forma de deshacerte de tus UTXO tóxicos sin perder el valor asociado;
-- **Consolidarlas a través de Monero:** Samourai Wallet ofrecía anteriormente un servicio de intercambio atómico entre BTC y XMR, lamentablemente indisponible desde su arresto. Este método permitía tratar UTXOs tóxicos consolidándolos en Monero sin comprometer su confidencialidad mediante la CIOH, antes de enviarlos nuevamente a Bitcoin. Si reaparece un servicio equivalente, podría ser una opción interesante. No obstante, recuerde que este método puede resultar costoso, tanto por las comisiones de minería como por la prima asociada a las limitaciones de liquidez durante la conversión inversa hacia bitcoins.
+- **Consolidarlas a través de Monero:** Samourai Wallet ofrecía anteriormente un servicio de [intercambio atómico](https://planb.academy/resources/glossary/atomic-swap) entre BTC y XMR, lamentablemente indisponible desde su arresto. Este método permitía tratar UTXOs tóxicos consolidándolos en Monero sin comprometer su confidencialidad mediante la CIOH, antes de enviarlos nuevamente a Bitcoin. Si reaparece un servicio equivalente, podría ser una opción interesante. No obstante, recuerde que este método puede resultar costoso, tanto por las comisiones de minería como por la prima asociada a las limitaciones de liquidez durante la conversión inversa hacia bitcoins.
 - Enviarlos a la Lightning Network: Transferir estos UTXO a la Lightning Network para beneficiarse de tarifas de transacción reducidas puede ser una opción atractiva. Sin embargo, este método puede revelar cierta información en función de cómo utilices Lightning, por lo que debe utilizarse con precaución.
 
 ### ¿Cómo se utiliza Whirlpool?

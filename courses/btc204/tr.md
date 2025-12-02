@@ -71,7 +71,7 @@ Bu kursun amacı sizi Bitcoin kullanımınızda tamamen anonim hale getirmek de�
 **Bölüm 1: Tanımlar ve anahtar kavramlar**
 
 
-Başlangıç olarak, Bitcoin'un çalışmasını yöneten temel ilkeleri gözden geçireceğiz, böylece gizlilikle ilgili kavramları sakin bir şekilde ele alabiliriz. İlerleyen bölümlerde ele alacağımız kavramları tam olarak anlayabilmeniz için UTXO, adres alma ve komut dosyası oluşturma gibi birkaç temel kavrama hakim olmanız çok önemlidir. Ayrıca, Satoshi Nakamoto tarafından hayal edildiği şekliyle Bitcoin'un genel gizlilik modelini tanıtacağız, bu da ilgili riskleri ve riskleri kavramamızı sağlayacaktır.
+Başlangıç olarak, Bitcoin'un çalışmasını yöneten temel ilkeleri gözden geçireceğiz, böylece gizlilikle ilgili kavramları sakin bir şekilde ele alabiliriz. İlerleyen bölümlerde ele alacağımız kavramları tam olarak anlayabilmeniz için [UTXO](https://planb.academy/resources/glossary/utxo), adres alma ve komut dosyası oluşturma gibi birkaç temel kavrama hakim olmanız çok önemlidir. Ayrıca, Satoshi Nakamoto tarafından hayal edildiği şekliyle Bitcoin'un genel gizlilik modelini tanıtacağız, bu da ilgili riskleri ve riskleri kavramamızı sağlayacaktır.
 
 
 ![BTC204](assets/tr/001.webp)
@@ -95,7 +95,7 @@ Kursumuzun üçüncü bölümünde işin özüne iniyoruz: pratik! Amaç, herhan
 ![BTC204](assets/tr/003.webp)
 
 
-**Bölüm 4: CoinJoin işlemlerini anlama**
+**Bölüm 4: [CoinJoin](https://planb.academy/resources/glossary/coinjoin) işlemlerini anlama**
 
 
 Bitcoin'de coinjoins'den bahsetmeden gizlilik hakkında nasıl konuşabiliriz? Bölüm 4'te bu karıştırma yöntemi hakkında bilmeniz gereken her şeyi öğreneceksiniz. Eş birleşimlerin ne olduğunu, tarihçesini ve amaçlarını, ayrıca var olan farklı CoinJoin türlerini öğreneceksiniz. Son olarak, daha deneyimli kullanıcılar için, anonset ve entropinin ne olduğuna ve nasıl hesaplanacağına bir göz atacağız.
@@ -159,7 +159,7 @@ Bitcoin farklı çalışır. Hesap kavramı mevcut değildir ve parasal birimler
 ```
 
 
-Teorik olarak bir UTXO, bir sattan teorik olarak maksimum 21 milyon BTC'ye kadar değişen herhangi bir bitcoin değerini temsil edebilir. Bununla birlikte, 21 milyon bitcoinin tamamına sahip olmak mantıksal olarak imkansızdır ve "Dust" adı verilen ve altında bir UTXO'in ekonomik olarak harcanmasının karsız olduğu düşünülen daha düşük bir ekonomik eşik vardır.
+Teorik olarak bir UTXO, bir sattan teorik olarak maksimum 21 milyon BTC'ye kadar değişen herhangi bir bitcoin değerini temsil edebilir. Bununla birlikte, 21 milyon bitcoinin tamamına sahip olmak mantıksal olarak imkansızdır ve "[Dust](https://planb.academy/resources/glossary/dust)" adı verilen ve altında bir UTXO'in ekonomik olarak harcanmasının karsız olduğu düşünülen daha düşük bir ekonomik eşik vardır.
 
 
 **UTXO üzerinde şimdiye kadar yaratılan en büyük Bitcoin `500.000 BTC` değerine sahipti. MtGox platformu tarafından Kasım 2011'de bir konsolidasyon operasyonu sırasında oluşturulmuştur:** [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://Mempool.space/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
@@ -812,7 +812,7 @@ Girdiler ve çıktılar arasındaki bu benzerlikler Address'in yeniden kullanım
 ![BTC204](assets/tr/047.webp)
 
 
-Bu diyagramda, 0 numaralı girdinin bir P2WPKH komut dosyasını (`bc1q` ile başlayan SegWit V0) açtığını görebiliriz. Çıkış n° 0 aynı türde bir komut dosyası kullanır. Öte yandan, 1 numaralı çıktı bir P2TR komut dosyası (`bc1p` ile başlayan SegWit V1) kullanır. Bu özelliğin yorumu, girdi ile aynı sürümlendirmeye sahip Address'un Address değişikliği olma ihtimalinin yüksek olduğudur. Bu nedenle her zaman aynı kullanıcıya ait olacaktır.
+Bu diyagramda, 0 numaralı girdinin bir P2WPKH komut dosyasını (`bc1q` ile başlayan [SegWit](https://planb.academy/resources/glossary/segwit) V0) açtığını görebiliriz. Çıkış n° 0 aynı türde bir komut dosyası kullanır. Öte yandan, 1 numaralı çıktı bir P2TR komut dosyası (`bc1p` ile başlayan SegWit V1) kullanır. Bu özelliğin yorumu, girdi ile aynı sürümlendirmeye sahip Address'un Address değişikliği olma ihtimalinin yüksek olduğudur. Bu nedenle her zaman aynı kullanıcıya ait olacaktır.
 
 
 İşte bu sezgiselliğin muhtemelen uygulanabileceği bir işlem:
@@ -832,7 +832,7 @@ Kaynak: [Mempool.space](https://Mempool.space/tx/db07516288771ce5d0a06b275962ec4
 İkincisinde, 0 numaralı giriş ve 1 numaralı çıkışın P2WPKH komut dosyalarını (SegWit V0) kullandığını, 0 numaralı çıkışın ise farklı bir P2PKH komut dosyası (Legacy) kullandığını görebiliriz.
 
 
-2010'ların başında, komut dosyası sürümlendirmesine dayalı bu sezgisel yöntem, mevcut komut dosyası türlerinin sınırlı olması nedeniyle nispeten yararsızdı. Ancak, zaman içinde ve birbirini izleyen Bitcoin güncellemeleriyle, artan çeşitlilikte komut dosyası türleri kullanıma sunulmuştur. Bu nedenle bu sezgisel yöntem giderek daha önemli hale gelmektedir, çünkü daha geniş bir komut dosyası türü yelpazesi ile kullanıcılar daha küçük gruplara ayrılmakta ve böylece bu dahili sürümleme yeniden kullanım sezgisel yönteminin uygulanma şansı artmaktadır. Bu nedenle, yalnızca gizlilik açısından bakıldığında, en yaygın komut dosyası türünü tercih etmeniz önerilir. Örneğin, ben bu satırları yazarken, Taproot betikleri (`bc1p`) SegWit V0 betiklerine (`bc1q`) göre daha az kullanılmaktadır. Her ne kadar eski standart bazı özel bağlamlarda ekonomik ve gizlilik avantajları sunsa da, daha geleneksel tek imzalı kullanımlar için, yeni standart daha yaygın bir şekilde benimsenene kadar gizlilik nedenleriyle eski bir standarda bağlı kalmak mantıklı olabilir.
+2010'ların başında, komut dosyası sürümlendirmesine dayalı bu sezgisel yöntem, mevcut komut dosyası türlerinin sınırlı olması nedeniyle nispeten yararsızdı. Ancak, zaman içinde ve birbirini izleyen Bitcoin güncellemeleriyle, artan çeşitlilikte komut dosyası türleri kullanıma sunulmuştur. Bu nedenle bu sezgisel yöntem giderek daha önemli hale gelmektedir, çünkü daha geniş bir komut dosyası türü yelpazesi ile kullanıcılar daha küçük gruplara ayrılmakta ve böylece bu dahili sürümleme yeniden kullanım sezgisel yönteminin uygulanma şansı artmaktadır. Bu nedenle, yalnızca gizlilik açısından bakıldığında, en yaygın komut dosyası türünü tercih etmeniz önerilir. Örneğin, ben bu satırları yazarken, [Taproot](https://planb.academy/resources/glossary/taproot) betikleri (`bc1p`) SegWit V0 betiklerine (`bc1q`) göre daha az kullanılmaktadır. Her ne kadar eski standart bazı özel bağlamlarda ekonomik ve gizlilik avantajları sunsa da, daha geleneksel tek imzalı kullanımlar için, yeni standart daha yaygın bir şekilde benimsenene kadar gizlilik nedenleriyle eski bir standarda bağlı kalmak mantıklı olabilir.
 
 
 ### Yuvarlak sayı ödemeleri
@@ -924,7 +924,7 @@ Kaynak: [Mempool.space](https://Mempool.space/tx/b79d8f8e4756d34bbb26c659ab88314
 Harici sezgisel yöntemlerin incelenmesi, işlemin kendisine özgü olmayan belirli Elements benzerliklerinin, kalıplarının ve özelliklerinin analiz edilmesi anlamına gelmektedir. Başka bir deyişle, daha önce kendimizi içsel sezgisel yöntemlerle işleme özgü KİS-227'den yararlanmakla sınırlarken, şimdi dışsal sezgisel yöntemler sayesinde analiz alanımızı işlemin çevresini de içerecek şekilde genişletiyoruz.
 
 
-### Address yeniden kullanım
+### [Address yeniden kullanım](https://planb.academy/resources/glossary/address-reuse)
 
 
 Bu, bitcoin kullanıcılarının en iyi bilinen sezgisel yöntemlerinden biridir. Address'un yeniden kullanımı, farklı işlemler ve farklı UTXO'lar arasında bir bağlantı kurulmasını mümkün kılar. Address alan bir Bitcoin birkaç kez kullanıldığında ortaya çıkar.
@@ -3140,7 +3140,7 @@ Daha sonra, CoinJoin havuzuna girmeyen doxxic değişikliklerin yönetimi konusu
 - **"Harcanamaz" olarak işaretleyin:** Başka bir yaklaşım da bunları kullanmayı bırakmak, özel hesaplarında "harcanamaz" olarak işaretlemek ve sadece HODL. Bu, onları yanlışlıkla harcamamanızı sağlar. Bitcoin'nın değeri yükselirse, toksik UTXO'larınıza daha uygun yeni havuzlar ortaya çıkabilir;
 - **Bağış yapın:** Bitcoin ve ilgili yazılımlar üzerinde çalışan geliştiricilere mütevazı da olsa bağış yapmayı düşünün. BTC kabul eden derneklere de bağışta bulunabilirsiniz. Toksik UTXO'larınızı yönetmek çok karmaşık görünüyorsa, onlardan kurtulabilir ve bağış yapabilirsiniz;
 - Hediye kartları satın alın: [Bitrefill](https://www.bitrefill.com/) gibi platformlar, çeşitli satıcılarda kullanılabilecek hediye kartları için Exchange bitcoinleri kullanmanıza olanak tanır. Bu, ilgili değeri kaybetmeden toksik UTXO'larınızdan ayrılmanın bir yolu olabilir;
-- **Monero aracılığıyla birleştirmek:** Samourai Wallet geçmişte BTC ile XMR arasında atomik takas hizmeti sunuyordu; ne yazık ki tutuklamaların ardından artık kullanılamıyor. Bu yöntem, toksik UTXO’ları Monero üzerinde birleştirerek CIOH üzerinden mahremiyetinizi tehlikeye atmadan işlemeyi ve ardından tekrar Bitcoin’e göndermeyi sağlıyordu. Benzer bir hizmet yeniden ortaya çıkarsa, dikkate değer bir seçenek olabilir. Yine de bu yöntemin hem madencilik ücretleri hem de bitcoin’e ters dönüşüm sırasında likidite kısıtlarından kaynaklanan prim nedeniyle maliyetli hâle gelebileceğini unutmamak gerekir.
+- **Monero aracılığıyla birleştirmek:** Samourai Wallet geçmişte BTC ile XMR arasında [atomik takas](https://planb.academy/resources/glossary/atomic-swap) hizmeti sunuyordu; ne yazık ki tutuklamaların ardından artık kullanılamıyor. Bu yöntem, toksik UTXO’ları Monero üzerinde birleştirerek CIOH üzerinden mahremiyetinizi tehlikeye atmadan işlemeyi ve ardından tekrar Bitcoin’e göndermeyi sağlıyordu. Benzer bir hizmet yeniden ortaya çıkarsa, dikkate değer bir seçenek olabilir. Yine de bu yöntemin hem madencilik ücretleri hem de bitcoin’e ters dönüşüm sırasında likidite kısıtlarından kaynaklanan prim nedeniyle maliyetli hâle gelebileceğini unutmamak gerekir.
 - **Bunları Lightning Network'e gönderin:** Düşük işlem ücretlerinden yararlanmak için bu UTXO'ları Lightning Network'e aktarmak cazip bir seçenek olabilir. Ancak bu yöntem, Lightning'i nasıl kullandığınıza bağlı olarak bazı bilgileri açığa çıkarabilir ve bu nedenle dikkatli kullanılmalıdır.
 
 

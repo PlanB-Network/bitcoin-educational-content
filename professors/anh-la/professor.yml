@@ -1,44 +1,19 @@
-# generate a random uuid v4
 id: 645ccfd9-3cc3-41c2-8c5b-c5dfd2873208
 
 ## Professor characteristics
 
-# Name
-# Write author's complete name
 name: Anh La
 
-# contributor_id (*)
-# Define its id using the 2 words of the bip39 dictionary by using the associated PlanB-UID (see /docs/planb-uid.md)
-# contributor_id:
-
-# links
-# list releated online presence like twitter and/or website
 links:
   X: https://x.com/AnhContact  
   nostr: 
 
-# Tags
-# Choose from the list the associated tags to this content
-# The list of tags is composed of 51 items that can be found here (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)
 tags:
-  - professional
   - guides
   - business
-  - tax compliance
+  - regulation
 
-# tips
-# List the possibility to directly tip the author
-# Right now only the lightning_address is supported
 tips:
   lightning_address: anh_la@strike.me
 
-# company
-# Define for which company the author is working with
-# Ideally this company is already present in the projects folder
 company: TMF Group
-
-# affiliations
-# List the closest affiliations the author has with any actors of the industry or else.
-# Ideally the cited affiliations are present in the projects folder
-affiliations:
-  - 2d295a5a-899d-4b78-b8da-df05f71b52e3

@@ -633,7 +633,7 @@ Source : [Mempool.space](https://mempool.space/tx/b79d8f8e4756d34bbb26c659ab8831
 
 Lo studio delle euristiche esterne significa analizzare le somiglianze, i modelli e le caratteristiche di alcuni elementi che non sono specifici della transazione stessa. In altre parole, mentre prima ci limitavamo a sfruttare gli elementi intrinseci alla transazione con l'euristica interna, ora stiamo ampliando il nostro campo di analisi per includere l'ambiente della transazione, grazie all'euristica esterna.
 
-### [Riutilizzo dell'indirizzo](https://planb.academy/resources/glossary/address-reuse)
+### Riutilizzo dell'indirizzo
 
 Questa è una delle euristiche più conosciute dai bitcoiners. Il riutilizzo degli indirizzi consente di stabilire un collegamento tra transazioni diverse e UTXO diversi. Si verifica quando un indirizzo di ricezione Bitcoin viene utilizzato più volte.
 
@@ -2932,7 +2932,7 @@ Riassumiamo il funzionamento di un adattatore di firma in un coinswap. Inizialme
 
 Si noti che i coinswap sono stati proposti per la prima volta da [Gregory Maxwell nell'ottobre 2013 su BitcoinTalk](https://bitcointalk.org/index.php?topic=321228.0).
 
-### [Scambio atomico](https://planb.academy/resources/glossary/atomic-swap)
+### Scambio atomico
 
 In modo simile al coinswap, e utilizzando gli stessi tipi di smart contract, è possibile effettuare anche gli atomic swap. Uno swap atomico consente uno scambio diretto di criptovalute diverse, come BTC e XMR, tra due utenti senza bisogno di fiducia o dell'intervento di un intermediario. Questi scambi sono definiti "atomici" perché hanno solo due esiti possibili: o lo scambio va a buon fine ed entrambe le parti sono soddisfatte, oppure fallisce e ciascuno conserva le proprie criptovalute originali, eliminando la necessità di fidarsi dell'altra parte.
 

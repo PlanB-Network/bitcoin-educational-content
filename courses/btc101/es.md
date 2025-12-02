@@ -203,7 +203,8 @@ Para cumplir estos criterios, la moneda ha evolucionado históricamente dando di
 
 - Piedra bruta -> Moneda
 - Billete -> Tarjeta bancaria
-- Blockchain -> Red Rayo
+- Blockchain -> Red Lightning
+
 
 Las monedas siguen evolucionando a día de hoy, adaptando sus formas para satisfacer diferentes casos de uso. Como decíamos, aunque el oro es un excelente depósito de valor, ya no es adecuado para la actual economía globalizada. Del mismo modo, las monedas fiduciarias como el dólar y el euro son muy líquidas y fácilmente transportables porque ahora son en su mayoría digitales, pero su valor disminuye constantemente debido a la inflación monetaria.
 
@@ -1204,7 +1205,7 @@ Si desea ampliar sus conocimientos sobre Bitcoin, este es el momento adecuado: u
 
 <partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 
-## Breve introducción a la Red del Rayo
+## Breve introducción a la Red Lightning
 
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
@@ -1230,7 +1231,7 @@ El problema de la escalabilidad se refiere al reto de implantar un sistema monet
 
 Según ella, un protocolo basado en una cadena de bloques sólo puede satisfacer dos de estas tres características. Dentro del protocolo Bitcoin, los desarrolladores han tomado decisiones para favorecer la descentralización y la seguridad. Por un lado, el tamaño de bloque de 1MB y el tiempo entre dos bloques (una media de 10 minutos) permiten hacer funcionar un nodo Bitcoin a un coste menor, favoreciendo la descentralización. Por otro lado, la producción de bloques mediante Proof-of-Work hace que el fraude dentro del protocolo sea extremadamente costoso, al tiempo que facilita la verificación por parte de los nodos de la red y favorece la seguridad. Sin embargo, estas opciones imponen un límite al número medio de transacciones en un bloque, que corresponde aproximadamente a unas pocas transacciones por segundo. Esta cifra es ridícula si se compara con la capacidad computacional de procesadores de pagos como VISA (1700/s), pero este límite es necesario para poder realizar transacciones con Bitcoin de forma resistente a la censura y sin generar confianza. No obstante, los desarrolladores de Bitcoin llevan pensando en este problema desde el principio.
 
-### Rayo como capa superior
+### Lightning como capa superior
 
 Tras años de reflexión y múltiples intentos, surgió el protocolo Lightning. Utilizando un cierto número de especificaciones, este protocolo construye una red de pagos entre pares aprovechando la seguridad y la programabilidad del protocolo de transacciones de Bitcoin. La red Lightning actúa como una red de canales de pago, permitiendo transacciones instantáneas con bajas comisiones para el remitente, e incluso crea rutas de intercambio entre individuos que no tienen una conexión de canal directa.
 
@@ -1248,7 +1249,7 @@ Si quieres ir más allá de esta introducción y entender todo el funcionamiento
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-## Casos de uso de la [Red de Rayos](https://planb.academy/resources/glossary/lightning-network)
+## Casos de uso de la Red de Lightning
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 

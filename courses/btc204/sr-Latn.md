@@ -4041,7 +4041,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd
 Još jedna od tehnika poverljivosti je tajni prenos vlasništva. Ova metoda ima za cilj prenos vlasništva nad bitkoinima sa jedne osobe na drugu, i obrnuto, bez da transakcija bude eksplicitno vidljiva na blokčejnu. Pogledajmo različite dostupne tehnike, zajedno sa njihovim prednostima i nedostacima.
 
 
-### [Coinswap](https://planb.academy/resources/glossary/coinswap) (zamena novčića)
+### Coinswap (zamena novčića)
 
 
 Coinswap se zasniva na relativno jednostavnom konceptu: koristi pametne ugovore za olakšavanje prenosa vlasništva nad bitkoinima između dva korisnika, bez potrebe za poverenjem i bez da ovaj prenos bude eksplicitno vidljiv na blokčejnu.

@@ -21,7 +21,7 @@ Anda harus melakukannya. Meskipun mengumpulkan Satoshi non-kyc cukup mudah, priv
 
 
 
-### Apa yang terjadi ketika Anda menggunakan [UTXO](https://planb.academy/resources/glossary/utxo)
+### Apa yang terjadi ketika Anda menggunakan UTXO
 
 
 

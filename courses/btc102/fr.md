@@ -1209,7 +1209,7 @@ Parmi ces solutions, on peut également inclure les portefeuilles qui prennent e
 
 Les hot wallets sont adaptés aux petits montants et aux utilisateurs ayant besoin d’un accès fréquent à leurs bitcoins. Ils ne sont pas adaptés pour le stockage à long terme de sommes importantes.
 
-#### [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet)
+#### Hardware Wallet
 
 Les hardware wallets sont des dispositifs physiques conçus pour générer et stocker vos clés privées hors ligne. Ils offrent un niveau de sécurité bien supérieur aux portefeuilles chauds, car ils ne sont pas connectés à internet et disposent d'une surface d'attaque réduite. Exemples : Ledger, Trezor, Jade, Coldcard, BitBox...
 

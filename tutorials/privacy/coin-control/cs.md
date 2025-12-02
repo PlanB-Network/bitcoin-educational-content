@@ -21,7 +21,7 @@ Měli byste. Zatímco nashromáždit ne-kyc Satoshi je poměrně snadné, vaše 
 
 
 
-### Co se stane, když utratíte [UTXO](https://planb.academy/resources/glossary/utxo)
+### Co se stane, když utratíte UTXO
 
 
 

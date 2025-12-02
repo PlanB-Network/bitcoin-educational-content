@@ -13,7 +13,7 @@ description: کشف و نصب Umbrel - نود Bitcoin و سرور خانگی ش�
 
 
 
-### [گره](https://planb.academy/resources/glossary/node) Bitcoin چیست؟
+### گره Bitcoin چیست؟
 
 
 

@@ -21,7 +21,7 @@ Deberías hacerlo. Aunque acumular Satoshi no kyc es bastante fácil, tu privaci
 
 
 
-### Qué pasa cuando gastas un [UTXO](https://planb.academy/resources/glossary/utxo)
+### Qué pasa cuando gastas un UTXO
 
 
 

@@ -21,7 +21,7 @@ Det bør du gjøre. Selv om det er ganske enkelt å samle Satoshi non-kyc, er pe
 
 
 
-### Hva skjer når du bruker en [UTXO](https://planb.academy/resources/glossary/utxo)
+### Hva skjer når du bruker en UTXO
 
 
 

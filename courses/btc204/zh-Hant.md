@@ -4154,7 +4154,7 @@ $$(s_A' + t) \cdot G = N_A + T + H(N_A + T \parallel P_A \parallel m_A) \cdot P_
 請注意，換幣最早是由 [Gregory Maxwell 於 2013 年 10 月在 BitcoinTalk](https://bitcointalk.org/index.php?topic=321228.0) 提出的。
 
 
-### [原子交換](https://planb.academy/resources/glossary/atomic-swap)
+### 原子交換
 
 
 與 Coinswap 相似，使用相同類型的智慧契約，也可以進行原子交換。原子交換可讓兩個使用者之間直接進行不同加密貨幣（如 BTC 和 XMR）的 Exchange 交換，而無需信任或中介介入。這些交換之所以稱為「原子交換」，是因為它們只有兩種可能的結果：交換成功，雙方都滿意；交換失敗，雙方都保留自己原有的加密貨幣，不需要信任對方。

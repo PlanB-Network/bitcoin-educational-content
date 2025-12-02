@@ -914,7 +914,7 @@ Source : [Mempool.space](https://Mempool.space/tx/b79d8f8e4756d34bbb26c659ab8831
 Studien av extern heuristik innebär att man analyserar likheter, mönster och egenskaper hos vissa Elements som inte är specifika för själva transaktionen. Med andra ord, medan vi tidigare begränsade oss till att utnyttja Elements som var inneboende i transaktionen med intern heuristik, breddar vi nu vårt analysfält till att omfatta transaktionens omgivning, tack vare extern heuristik.
 
 
-### [Address återanvändning](https://planb.academy/resources/glossary/address-reuse)
+### Address återanvändning
 
 
 Detta är en av bitcoiners mest kända heuristiker. Address-återanvändning gör det möjligt att upprätta en länk mellan olika transaktioner och olika UTXO:er. Det sker när en Bitcoin som tar emot Address används flera gånger.

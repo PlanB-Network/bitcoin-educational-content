@@ -1700,7 +1700,7 @@ Tänapäeval on kaupmeestele, kes soovivad Bitcoin maksevahendina aktsepteerida,
 Kui eelistate lahendust, mille puhul te ei pea käed külge ja soovite saada fiatvaluutat otse oma pangakontole, pakuvad sellised hoiuteenused nagu OpenNode lihtsustatud kogemust:
 
 
-https://planb.academy/tutorials/business/point-of-sale/open-[node](https://planb.academy/resources/glossary/node)-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Kaupmeeste jaoks, kes on tehniliselt rohkem huvitatud ja soovivad täielikku kontrolli protsessi üle, on BTCPay Server fantastiline avatud lähtekoodiga valik. Peamine puudus on see, et selle seadistamine ja hooldamine nõuab aega ning mõningaid tehnilisi teadmisi:
 

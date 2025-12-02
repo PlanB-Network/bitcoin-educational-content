@@ -64,7 +64,7 @@ Katika sehemu ya tatu ya kozi yetu ya mafunzo, tunashuka hadi kwenye undani wa m
 
 ![BTC204](assets/sw/003.webp)
 
-### Sehemu ya 4: Kuelewa miamala ya [CoinJoin](https://planb.academy/resources/glossary/coinjoin)
+### Sehemu ya 4: Kuelewa miamala ya CoinJoin
 
 Je, tunawezaje kuzungumza juu ya faragha kwenye Bitcoin bila kutaja CoinJoin? Katika Sehemu ya 4, utapata yote unayohitaji kujua kuhusu njia hii ya kuchanganya. Utajifunza CoinJoin ni nini, historia na malengo yake, pamoja na aina tofauti za CoinJoin zilizopo. Hatimaye, kwa mtumiaji mwenye uzoefu zaidi, tutaangalia anonsets na entropy ni nini, na jinsi ya kuzihesabu.
 

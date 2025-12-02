@@ -1700,7 +1700,7 @@ Nykyään kauppiaille, jotka haluavat hyväksyä Bitcoin:n maksuvälineenä, on 
 Jos haluat olla rauhallisempi ja vastaanottaa fiat-valuuttaa suoraan pankkitilillesi, OpenNoden kaltaiset säilytyspalvelut tarjoavat virtaviivaisen kokemuksen:
 
 
-https://planb.academy/tutorials/business/point-of-sale/open-[node](https://planb.academy/resources/glossary/node)-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 BTCPay Server on loistava avoimen lähdekoodin vaihtoehto kauppiaille, jotka ovat teknisesti taitavampia ja haluavat hallita prosessia täysin. Suurin haittapuoli on se, että sen perustaminen ja ylläpito vaatii aikaa ja jonkin verran teknistä osaamista:
 

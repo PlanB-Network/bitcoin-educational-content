@@ -21,7 +21,7 @@ Powinieneś. Podczas gdy gromadzenie Satoshi non-kyc jest raczej łatwe, twoja p
 
 
 
-### Co się stanie, gdy wydasz [UTXO](https://planb.academy/resources/glossary/utxo)
+### Co się stanie, gdy wydasz UTXO
 
 
 

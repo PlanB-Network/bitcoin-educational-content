@@ -924,7 +924,7 @@ Kaynak: [Mempool.space](https://Mempool.space/tx/b79d8f8e4756d34bbb26c659ab88314
 Harici sezgisel yöntemlerin incelenmesi, işlemin kendisine özgü olmayan belirli Elements benzerliklerinin, kalıplarının ve özelliklerinin analiz edilmesi anlamına gelmektedir. Başka bir deyişle, daha önce kendimizi içsel sezgisel yöntemlerle işleme özgü KİS-227'den yararlanmakla sınırlarken, şimdi dışsal sezgisel yöntemler sayesinde analiz alanımızı işlemin çevresini de içerecek şekilde genişletiyoruz.
 
 
-### [Address yeniden kullanım](https://planb.academy/resources/glossary/address-reuse)
+### Address yeniden kullanım
 
 
 Bu, bitcoin kullanıcılarının en iyi bilinen sezgisel yöntemlerinden biridir. Address'un yeniden kullanımı, farklı işlemler ve farklı UTXO'lar arasında bir bağlantı kurulmasını mümkün kılar. Address alan bir Bitcoin birkaç kez kullanıldığında ortaya çıkar.

@@ -21,7 +21,7 @@ Sinun pitäisi. Vaikka Satoshi non-kyc:n kerääminen on melko helppoa, yksityis
 
 
 
-### Mitä tapahtuu, kun käytät [UTXO](https://planb.academy/resources/glossary/utxo)
+### Mitä tapahtuu, kun käytät UTXO
 
 
 

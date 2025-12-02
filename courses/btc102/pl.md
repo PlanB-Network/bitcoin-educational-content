@@ -1700,7 +1700,7 @@ Obecnie dostępnych jest wiele narzędzi dla sprzedawców, którzy chcą akcepto
 Jeśli wolisz rozwiązanie typu hands-off i chcesz otrzymywać walutę fiducjarną bezpośrednio na swoje konto bankowe, usługi powiernicze, takie jak OpenNode, oferują usprawnione doświadczenie:
 
 
-https://planb.academy/tutorials/business/point-of-sale/open-[node](https://planb.academy/resources/glossary/node)-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Dla sprzedawców, którzy są bardziej zaawansowani technicznie i chcą mieć pełną kontrolę nad procesem, BTCPay Server jest fantastyczną opcją open-source. Główną wadą jest to, że wymaga czasu na konfigurację i utrzymanie, a także pewnej wiedzy technicznej:
 

@@ -21,7 +21,7 @@ Yapmalısınız. Satoshi non-kyc biriktirmek oldukça kolay olsa da, gizliliğin
 
 
 
-### Bir [UTXO](https://planb.academy/resources/glossary/utxo) harcadığınızda ne olur?
+### Bir UTXO harcadığınızda ne olur?
 
 
 

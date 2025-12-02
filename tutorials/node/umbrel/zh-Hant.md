@@ -11,7 +11,7 @@ description: 發現並安裝 Umbrel - 您的 Bitcoin 節點和主伺服器
 
 
 
-### 什麼是 Bitcoin [節點](https://planb.academy/resources/glossary/node)？
+### 什麼是 Bitcoin 節點？
 
 
 

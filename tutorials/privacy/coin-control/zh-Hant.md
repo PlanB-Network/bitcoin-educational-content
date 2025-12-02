@@ -21,7 +21,7 @@ description: 認識 Coin Control，這是一個保護您在比特幣上隱私的
 
 
 
-### 當您花費 [UTXO](https://planb.academy/resources/glossary/utxo)
+### 當您花費 UTXO
 
 
 

@@ -12,7 +12,7 @@ Selles õpetuses saame teada, kuidas kasutada Aqua mitmeid funktsioone. Kuid enn
 
 ![AQUA](assets/fr/01.webp)
 
-## Mis on [sidechain](https://planb.academy/resources/glossary/sidechain)?
+## Mis on sidechain?
 
 Bitcoini protokollil on tahtlikud tehnilised piirangud, mis aitavad säilitada võrgu detsentraliseeritust ja tagada, et turvalisus on jaotatud kõigi kasutajate vahel. Siiski võivad need piirangud mõnikord kasutajaid frustreerida, eriti ummikute ajal, mis on tingitud suurest samaaegsete tehingute hulgast. Arutelu Bitcoini skaleeritavuse üle on pikka aega kogukonda lõhestanud, eriti Blocksize War'i ajal. Pärast seda episoodi on Bitcoini kogukonnas laialdaselt tunnustatud, et skaleeritavus tuleb tagada ahelavälise lahenduse abil, teise kihi süsteemides. Nende lahenduste hulka kuuluvad sidechains, mis on veel suhteliselt tundmatu ja vähe kasutatud võrreldes teiste süsteemidega, nagu Lightning Network.
 

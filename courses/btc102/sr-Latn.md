@@ -1702,7 +1702,7 @@ Danas postoji mnogo alata dostupnih trgovcima koji žele da prihvate Bitcoin kao
 Ako više volite rešenje bez angažovanja i želite da primate fiat valutu direktno na svoj bankovni račun, usluge čuvanja kao što je OpenNode nude pojednostavljeno iskustvo:
 
 
-https://planb.academy/tutorials/business/point-of-sale/open-[node](https://planb.academy/resources/glossary/node)-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Za trgovce koji su tehnički potkovaniji i žele potpunu kontrolu nad procesom, BTCPay Server je fantastična opcija otvorenog koda. Glavni nedostatak je što zahteva vreme za postavljanje i održavanje, zajedno sa određenim tehničkim znanjem:
 

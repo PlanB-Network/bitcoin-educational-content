@@ -83,7 +83,7 @@ Prêt à explorer les méandres de la confidentialité sur Bitcoin ? Allons-y !
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
 
 
-## Le modèle d'[UTXO](https://planb.academy/resources/glossary/utxo) de Bitcoin
+## Le modèle d'UTXO de Bitcoin
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
 :::video id=60e8f3fa-9607-47ae-ac4f-5aa747d9b6d4:::

@@ -1702,7 +1702,7 @@ Idag finns det gott om verktyg tillgängliga för handlare som vill acceptera Bi
 Om du föredrar en praktisk lösning och vill ta emot fiatvaluta direkt till ditt bankkonto erbjuder depåtjänster som OpenNode en strömlinjeformad upplevelse:
 
 
-https://planb.academy/tutorials/business/point-of-sale/open-[node](https://planb.academy/resources/glossary/node)-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 För handlare som är mer tekniskt benägna och vill ha full kontroll över processen är BTCPay Server ett fantastiskt alternativ med öppen källkod. Den största nackdelen är att det kräver tid att ställa in och underhålla, tillsammans med viss teknisk kunskap:
 

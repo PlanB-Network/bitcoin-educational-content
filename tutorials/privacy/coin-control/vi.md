@@ -21,7 +21,7 @@ Bạn nên làm vậy. Mặc dù việc tích lũy Satoshi không cần KYC khá
 
 
 
-### Điều gì xảy ra khi bạn dành một [UTXO](https://planb.academy/resources/glossary/utxo)
+### Điều gì xảy ra khi bạn dành một UTXO
 
 
 

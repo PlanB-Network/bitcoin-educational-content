@@ -21,7 +21,7 @@ Sa peaksid. Kuigi Satoshi non-kyc kogumine on üsna lihtne, on teie privaatsus k
 
 
 
-### Mis juhtub, kui te kulutate [UTXO](https://planb.academy/resources/glossary/utxo)
+### Mis juhtub, kui te kulutate UTXO
 
 
 

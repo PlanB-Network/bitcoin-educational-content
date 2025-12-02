@@ -1700,7 +1700,7 @@ V současné době je k dispozici spousta nástrojů pro obchodníky, kteří ch
 Pokud dáváte přednost řešení, které vám nevadí, a chcete přijímat fiat měnu přímo na svůj bankovní účet, služby custodialu, jako je OpenNode, nabízejí zjednodušené služby:
 
 
-https://planb.academy/tutorials/business/point-of-sale/open-[node](https://planb.academy/resources/glossary/node)-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Pro obchodníky, kteří jsou technicky zdatnější a chtějí mít proces plně pod kontrolou, je BTCPay Server fantastickou open-source volbou. Hlavní nevýhodou je, že jeho nastavení a údržba vyžadují čas a určité technické znalosti:
 

@@ -2936,7 +2936,7 @@ Shrňme si, jak funguje podpis adaptéru při výměně mincí. Na začátku Ali
 
 Všimněte si, že výměnu mincí poprvé navrhl [Gregory Maxwell v říjnu 2013 na BitcoinTalk](https://bitcointalk.org/index.php?topic=321228.0).
 
-### [Atomová výměna](https://planb.academy/resources/glossary/atomic-swap)
+### Atomová výměna
 
 Podobně jako u coinswapu a s využitím stejných typů chytrých smluv je možné provádět i atomické swapy. Atomický swap umožňuje přímou výměnu různých kryptoměn, například BTC a XMR, mezi dvěma uživateli bez nutnosti důvěry nebo zásahu zprostředkovatele. Tyto výměny se označují jako "atomické", protože mají pouze dva možné výsledky: buď je swap úspěšný a obě strany jsou spokojené, nebo se nezdaří a každá si ponechá své původní kryptoměny, čímž odpadá nutnost důvěřovat druhé straně.
 

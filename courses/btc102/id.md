@@ -1937,7 +1937,7 @@ Dengan dukungan Lightning: Phoenix, Wallet dari Satoshi, BitKit
 Terbaik untuk: Pemula, saldo kecil, dan sering bertransaksi.
 
 
-#### [Dompet Perangkat Keras](https://planb.academy/resources/glossary/hardware-wallet)
+#### Dompet Perangkat Keras
 
 
 Dompet perangkat keras adalah perangkat fisik yang menyimpan kunci pribadi Anda secara offline. Dompet ini jauh lebih aman dibandingkan dompet Hot karena mengurangi risiko serangan online.

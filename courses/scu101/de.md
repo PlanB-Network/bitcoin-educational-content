@@ -113,7 +113,7 @@ Es gibt zwei große Browserfamilien: diejenigen, die auf Chrome basieren, und di
 Obwohl beide Familien ein ähnliches Sicherheitsniveau bieten, wird empfohlen, den Google Chrome-Browser aufgrund seiner Tracker zu vermeiden. Leichtere Alternativen zu Chrome wie Chromium oder Brave können vorteilhafter sein. Brave wird insbesondere aufgrund seines integrierten Werbeblockers empfohlen. Um auf bestimmte Websites zuzugreifen, kann es erforderlich sein, mehrere Browser zu verwenden.
 ![image](assets/de/006.webp)
 
-### Privates Surfen, [TOR](https://planb.academy/resources/glossary/tor-the-onion-router) und weitere Alternativen für sicheres und anonymes Surfen
+### Privates Surfen, TOR und weitere Alternativen für sicheres und anonymes Surfen
 
 Das Surfen im Privat-Modus verhindert zwar nicht, dass dein Internetdienstanbieter deine Aktivitäten verfolgt, hinterlässt jedoch keine lokalen Spuren auf deinem Computer. Cookies werden automatisch am Ende jeder Sitzung gelöscht, sodass alle Cookies akzeptiert werden können, ohne verfolgt zu werden. Das private Surfen kann beim Online-Einkauf nützlich sein, da Websites unsere Suchgewohnheiten verfolgen und die Preise entsprechend anpassen. Es ist jedoch wichtig zu beachten, dass das private Surfen für temporäre und spezifische Sitzungen empfohlen wird und nicht für die allgemeine Internetnutzung.
 

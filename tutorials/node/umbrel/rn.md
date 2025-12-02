@@ -13,7 +13,7 @@ description: Vumbura kandi ushiremwo Umutaka - Urudodo rwawe rwa Bitcoin na serv
 
 
 
-### [Node](https://planb.academy/resources/glossary/node) ya Bitcoin ni iki?
+### Node ya Bitcoin ni iki?
 
 
 

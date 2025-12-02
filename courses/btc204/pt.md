@@ -2933,7 +2933,7 @@ Vamos resumir como funciona uma assinatura de adaptador num coinswap. Inicialmen
 
 Note-se que as trocas de moedas foram propostas pela primeira vez por [Gregory Maxwell em outubro de 2013 no BitcoinTalk] (https://bitcointalk.org/index.php?topic=321228.0).
 
-### [Troca atómica](https://planb.academy/resources/glossary/atomic-swap)
+### Troca atómica
 
 De forma semelhante ao coinswap, e utilizando os mesmos tipos de contratos inteligentes, é também possível realizar atomic swaps. Um atomic swap permite uma troca direta de diferentes criptomoedas, como o BTC e o XMR, entre dois utilizadores sem necessidade de confiança ou de intervenção de um intermediário. Estas trocas são designadas "atómicas" porque têm apenas dois resultados possíveis: ou a troca é bem sucedida e ambas as partes ficam satisfeitas, ou falha e cada uma mantém as suas criptomoedas originais, eliminando a necessidade de confiar na outra parte.
 

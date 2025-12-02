@@ -21,7 +21,7 @@ description: با Coin Control آشنا شوید، ابزاری کلیدی بر�
 
 
 
-### وقتی یک [UTXO](https://planb.academy/resources/glossary/utxo) خرج می‌کنید چه اتفاقی می‌افتد؟
+### وقتی یک UTXO خرج می‌کنید چه اتفاقی می‌افتد؟
 
 
 

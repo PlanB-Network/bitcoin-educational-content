@@ -1700,7 +1700,7 @@ RGB은 Bitcoin을 기반으로 구축된 많은 프로토콜 중 하나에 불�
 핸즈오프 솔루션을 선호하고 은행 계좌로 직접 법정화폐를 받고 싶다면 OpenNode와 같은 커스터디 서비스를 이용하면 간소화된 경험을 얻을 수 있습니다:
 
 
-https://planb.academy/tutorials/business/point-of-sale/open-[node](https://planb.academy/resources/glossary/node)-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 기술적으로 좀 더 관심이 많고 프로세스를 완벽하게 제어하고자 하는 판매자에게 BTCPay 서버는 환상적인 오픈 소스 옵션입니다. 가장 큰 단점은 설정 및 유지 관리에 시간이 필요하고 약간의 기술 지식이 필요하다는 것입니다:
 

@@ -157,7 +157,6 @@ Tatsächlich zeigte er schon in jungen Jahren einen stark kritischen Geist gegen
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -255,7 +254,6 @@ In diesem Kapitel schlage ich vor, dass wir uns nun Spinozas Hauptwerk mit dem T
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -495,7 +493,6 @@ So wie Nikolaus Kopernikus (1473-1543) feststellte, dass die Erde nicht der Mitt
 ![image](./assets/fr/3.1.1.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -522,7 +519,6 @@ Doch mit der neuen Physik von Kopernikus (1473-1543) im 15. Jahrhundert erfuhr d
 ![image](./assets/fr/3.1.4.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -678,7 +674,6 @@ Abschließend sei darauf hingewiesen, dass sich die libertäre Bewegung, über d
 ![image](./assets/fr/3.2.5.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -1151,7 +1146,6 @@ Letztlich bedeutet diese Klarheit, nicht mehr in dem später von Friedrich Nietz
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 

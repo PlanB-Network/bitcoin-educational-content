@@ -157,7 +157,6 @@ Aslında, erken yaşlardan itibaren yerleşik dine ve özellikle de 1656'da, hen
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -255,7 +254,6 @@ Bu bölümde, Spinoza'nın ölümünden sonra 1677'de yayımlanan Etik başlıkl
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -495,7 +493,6 @@ Nicolas Copernicus'un (1473-1543) dünyanın merkezi olmadığını ortaya koyma
 ![image](./assets/fr/3.1.1.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -522,7 +519,6 @@ Ancak 15. yüzyılda Kopernik'in (1473-1543) yeni fiziği ile kozmoloji, evrenin
 ![image](./assets/fr/3.1.4.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -678,7 +674,6 @@ Son olarak, tartışmak üzere olduğumuz liberter hareket doğrudan bu yeni lib
 ![image](./assets/fr/3.2.5.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -1151,7 +1146,6 @@ Nihayetinde bu berraklık, daha sonra Friedrich Nietzsche (1844-1900) tarafında
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 

@@ -157,7 +157,6 @@ Fin da giovane, infatti, mostrò uno spirito fortemente critico nei confronti de
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -255,7 +254,6 @@ In questo capitolo propongo di passare all'opera principale di Spinoza, intitola
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -495,7 +493,6 @@ Come Nicolas Copernico (1473-1543) stabilì che la terra non era il centro del m
 ![image](./assets/fr/3.1.1.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -522,7 +519,6 @@ Ma con la nuova fisica di Copernico (1473-1543), nel XV secolo, la cosmologia su
 ![image](./assets/fr/3.1.4.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -678,7 +674,6 @@ Infine, vale la pena sottolineare che, mentre il movimento libertario di cui sti
 ![image](./assets/fr/3.2.5.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -1151,7 +1146,6 @@ In definitiva, questa lucidità significa non vivere più nel nichilismo descrit
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 

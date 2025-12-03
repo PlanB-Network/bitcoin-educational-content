@@ -157,7 +157,6 @@ Tegelikult ilmutas ta juba varakult tugevat kriitilist suhtumist väljakujunenud
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -255,7 +254,6 @@ Selles peatükis teen ettepaneku pöörduda nüüd Spinoza põhiteose "Eetika" j
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -495,7 +493,6 @@ Nii nagu Nikolaus Kopernik (1473-1543) tõestas, et Maa ei ole maailma keskpunkt
 ![image](./assets/fr/3.1.1.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -522,7 +519,6 @@ Kuid Koperniku (1473-1543) uue füüsikaga 15. sajandil toimus kosmoloogias suur
 ![image](./assets/fr/3.1.4.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -678,7 +674,6 @@ Lõpetuseks tasub märkida, et kuigi libertaarne liikumine, mida me nüüd aruta
 ![image](./assets/fr/3.2.5.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -1151,7 +1146,6 @@ Lõpuks tähendab see selgus, et ei ela enam nihilismi, mida hiljem kirjeldas Fr
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 

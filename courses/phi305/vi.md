@@ -157,7 +157,6 @@ Trên thực tế, ngay từ khi còn nhỏ, ông đã thể hiện tinh thần 
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -255,7 +254,6 @@ Trong chương này, tôi đề xuất chúng ta hãy chuyển sang tác phẩm 
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -497,7 +495,6 @@ Cũng như Nicolas Copernicus (1473-1543) đã khẳng định rằng Trái Đ�
 ![image](./assets/fr/3.1.1.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -524,7 +521,6 @@ Nhưng với vật lý học mới của Copernicus (1473-1543) vào thế kỷ 
 ![image](./assets/fr/3.1.4.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -682,7 +678,6 @@ Cuối cùng, điều đáng lưu ý là trong khi phong trào tự do mà chún
 ![image](./assets/fr/3.2.5.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -1159,7 +1154,6 @@ Cuối cùng, sự sáng suốt này có nghĩa là không còn sống trong ch�
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 

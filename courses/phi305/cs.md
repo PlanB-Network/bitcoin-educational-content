@@ -157,7 +157,6 @@ Od raného mládí se totiž projevoval silně kriticky vůči zavedenému nábo
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -255,7 +254,6 @@ V této kapitole navrhuji, abychom se nyní zaměřili na Spinozovo hlavní díl
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -495,7 +493,6 @@ Stejně jako Mikuláš Koperník (1473-1543) zjistil, že Země není středem s
 ![image](./assets/fr/3.1.1.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -522,7 +519,6 @@ S novou fyzikou Koperníka (1473-1543) v 15. století však došlo v kosmologii 
 ![image](./assets/fr/3.1.4.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -678,7 +674,6 @@ Nakonec je třeba zdůraznit, že zatímco libertariánské hnutí, o němž bud
 ![image](./assets/fr/3.2.5.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -1151,7 +1146,6 @@ Nakonec tato jasnozřivost znamená, že už nebudeme žít v nihilismu, který 
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 

@@ -157,7 +157,6 @@ Zapravo, od ranog doba pokazivao je snažan kritički duh prema ustaljenoj relig
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -255,7 +254,6 @@ U ovom poglavlju predlažem da se sada okrenemo Spinozinoj glavnoj knjizi, pod n
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -495,7 +493,6 @@ Baš kao što je Nicolas Copernicus (1473-1543) ustanovio da Zemlja nije centar 
 ![image](./assets/fr/3.1.1.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -522,7 +519,6 @@ Ali sa novom fizikom Kopernika (1473-1543) u 15. veku, kosmologija je doživela 
 ![image](./assets/fr/3.1.4.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -678,7 +674,6 @@ Konačno, vredi istaći da, iako se libertarijanski pokret o kojem ćemo diskuto
 ![image](./assets/fr/3.2.5.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -1151,7 +1146,6 @@ Na kraju, ova lucidnost znači prestanak življenja u nihilizmu koji je kasnije 
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 

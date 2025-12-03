@@ -88,7 +88,6 @@ De confession juive, il était membre de la communauté portugaise séfarade des
 
 De fait, dès son plus jeune âge, il exprime un esprit critique assez prononcé de la religion établie et notamment vis-à-vis de sa communauté hébraïque dont il sera rejeté très violemment en 1656, âgé seulement de 24 ans, et alors qu’il n’a encore rien publié. 
 
-![image](./assets/fr/1.2.2.webp)
 
 Cette « excommunication », dit-on, lui permettra toutefois de s’isoler et de travailler son œuvre sans jamais regarder en arrière.
 
@@ -138,7 +137,6 @@ Que ces moyens soient d’ordre philosophiques ou technologiques, comme l’est 
 
 Je vous propose dans ce chapitre de découvrir à présent l’œuvre majeure de Spinoza, intitulée Éthique, publiée à titre posthume, en 1677.
 
-![image](./assets/fr/2.1.1.webp)
 
 Pourquoi à titre posthume ? Et bien à cause de ses idées révolutionnaires ou tout au moins contre-intuitives et disruptives, et donc très dangereuses pour l’époque. Même dans le contexte libéral des Provinces-Unies du 17e siècle.
 
@@ -256,7 +254,6 @@ Grâce à ce nouveau mode de compréhension de Dieu, autrement dit de la Nature,
 Car comme Nicolas Copernic (1473-1543) a établi que la terre n’était donc pas le centre du monde, que Charles Darwin (1809-1882) a montré trois siècles plus tard que l’homme n’était pas au centre du « vivant », Spinoza suivra cette logique et affirmera en son temps que l’homme n’est pas le « maître en sa propre maison » et que l’univers n’est pas fait pour son seul bénéfice. 
 
 ![image](./assets/fr/3.1.1.webp)
-![image](./assets/fr/3.1.2.webp)
 
 Que l’homme n’est pas, dit-il encore, « un empire dans un empire » et que, au même titre que la terre est ramenée au rang de simple planète, comme toutes les autres planètes, l’être humain est ramené au rang de simple mode de la nature, comme tous les autres modes finis de la nature que sont les animaux, les végétaux et tous « les êtres existants ».
 
@@ -269,7 +266,6 @@ La cosmologie scolastique du Moyen-Âge, essentiellement à partir du 12e siècl
 Mais avec la nouvelle physique de Copernic (1473-1543) du 15e siècle, la cosmologie connut un tournant majeur dans la compréhension de l’univers dont le modèle géocentrique fut donc remis en question au profit du système héliocentrique qui ouvrit la voie à la science moderne, et notamment la nouvelle physique et l’astronomie de Kepler (1571-1630) et de Galilée (1564-1642). Puis de Isaac Newton (1643-1727) et enfin d’Albert Einstein (1879-1955), lui-même un spinoziste convaincu.
 
 ![image](./assets/fr/3.1.4.webp)
-![image](./assets/fr/3.1.5.webp)
 
 Mais pour bien comprendre le spinozisme, il faut aussi se replacer dans le contexte de René Descartes (1596-1650), le célèbre philosophe français qui précède Spinoza et dont il fut un disciple et un grand admirateur. 
 
@@ -349,7 +345,6 @@ Et il est ici utile de se rappeler la définition que fait Sigmund Freud (1856-1
 Pour finir, il faut préciser que si le courant libertarien que nous allons bientôt évoquer se réfère directement à cette nouvelle philosophie libérale, certains soulignent que des figures comme Ayn Rand (1905-1982), auteure de « La Grève » ou de « La Source vive » soutiennent l’existence du libre arbitre en considérant que les hommes ont la capacité de faire des choix libres. 
 
 ![image](./assets/fr/3.2.5.webp)
-![image](./assets/fr/3.2.6.webp)
 
 Mais la réalité est tout autre, et la confusion vient plutôt d’un problème sémantique car en reconnaissant aux hommes la capacité d’agir, et de faire des choix, tout en reconnaissant le déterminisme logique dont ils sont l’objet, les premiers libertariens sont, en réalité, eux aussi des héritiers de Spinoza. Ils ont avec lui le point commun de considérer que l’homme n’est pas au-dessus de la nature. Qu’il est bel et bien le résultat d’une évolution qui l’inscrit dans un déterminisme, dans une histoire qui le dépasse et qui fait, en grande partie, ce qu’il est et ce qu’il fait.
 
@@ -589,7 +584,6 @@ Vous le savez maintenant, la liberté selon Spinoza est donc une prise de consci
 
 Cette lucidité consiste finalement à ne plus vivre dans le nihilisme que décrira plus tard Friedrich Nietzsche (1844-1900) pour qui les hommes se perdent dans des idéaux idéologiques, c’est-à-dire des fictions politiques ou religieuses, à cause desquelles ils nient le réel, s’infantilisent et se rendent malheureux. 
 
-![image](./assets/fr/4.3.1.webp)
 
 C’est précisément le propos de la philosophie rationnelle des Lumières, et notamment grâce à Emmanuel Kant (1724-1804) pour qui seul un individu éduqué, sous la conduite de la raison, peut penser par lui-même et déterminer, dans une démarche éthique, ce qui est « vrai », ou « bon », et ce qui est toxique. 
 

@@ -157,7 +157,6 @@ I själva verket visade han redan i tidig ålder en starkt kritisk anda mot den 
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -255,7 +254,6 @@ I detta kapitel föreslår jag att vi nu vänder oss till Spinozas viktigaste ve
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -495,7 +493,6 @@ Precis som Nicolas Copernicus (1473-1543) slog fast att jorden inte var världen
 ![image](./assets/fr/3.1.1.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -522,7 +519,6 @@ Men med Kopernikus (1473-1543) nya fysik på 1400-talet genomgick kosmologin en 
 ![image](./assets/fr/3.1.4.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -678,7 +674,6 @@ Slutligen är det värt att påpeka att även om den libertarianska rörelse som
 ![image](./assets/fr/3.2.5.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -1151,7 +1146,6 @@ I slutändan innebär denna klarsynthet att man inte längre lever i den nihilis
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 

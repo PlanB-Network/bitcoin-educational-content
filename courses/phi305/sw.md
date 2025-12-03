@@ -175,7 +175,6 @@ Kwa hakika, tangu umri mdogo, alionyesha roho ya kukosoa vikali dini iliyoanzish
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -275,7 +274,6 @@ Katika sura hii, ninapendekeza kwamba sasa tugeukie kazi kuu ya Spinoza, yenye k
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -519,7 +517,6 @@ Kama vile Nicolas Copernicus (1473-1543) alivyothibitisha kwamba dunia haikuwa k
 ![image](./assets/fr/3.1.1.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -545,7 +542,6 @@ Lakini pamoja na fizikia mpya ya Copernicus (1473-1543) katika karne ya 15, kosm
 ![image](./assets/fr/3.1.4.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -703,7 +699,6 @@ Hatimaye, inafaa kuashiria kwamba wakati vuguvugu la uhuru tunalokaribia kujadil
 ![image](./assets/fr/3.2.5.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -1184,7 +1179,6 @@ Mwishowe, ufahamu huu unamaanisha kutoishi tena katika nihilism iliyoelezewa baa
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 

@@ -157,7 +157,6 @@ De facto, desde muito cedo, mostrou um espírito fortemente crítico em relaçã
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -255,7 +254,6 @@ Neste capítulo, proponho que nos debrucemos sobre a principal obra de Spinoza, 
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -495,7 +493,6 @@ Tal como Nicolau Copérnico (1473-1543) estabeleceu que a Terra não era o centr
 ![image](./assets/fr/3.1.1.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -522,7 +519,6 @@ Mas com a nova física de Copérnico (1473-1543), no século XV, a cosmologia so
 ![image](./assets/fr/3.1.4.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -678,7 +674,6 @@ Por fim, convém assinalar que, embora o movimento libertário de que vamos fala
 ![image](./assets/fr/3.2.5.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -1151,7 +1146,6 @@ No fim de contas, esta lucidez significa deixar de viver no niilismo descrito ma
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 

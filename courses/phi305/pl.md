@@ -157,7 +157,6 @@ W rzeczywistości od najmłodszych lat wykazywał silnie krytycznego ducha wobec
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -255,7 +254,6 @@ W tym rozdziale proponuję, abyśmy teraz zwrócili się do głównego dzieła S
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -495,7 +493,6 @@ Tak jak Mikołaj Kopernik (1473-1543) ustalił, że Ziemia nie jest centrum świ
 ![image](./assets/fr/3.1.1.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -522,7 +519,6 @@ Jednak wraz z nową fizyką Kopernika (1473-1543) w XV wieku, kosmologia przesz�
 ![image](./assets/fr/3.1.4.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -678,7 +674,6 @@ Na koniec warto zaznaczyć, że podczas gdy ruch libertariański, o którym będ
 ![image](./assets/fr/3.2.5.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -1151,7 +1146,6 @@ Ostatecznie ta jasność oznacza, że nie żyjemy już w nihilizmie opisanym pó
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 

@@ -157,7 +157,6 @@ Faktisk viste han tidlig en sterkt kritisk holdning til den etablerte religionen
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -255,7 +254,6 @@ I dette kapittelet foresl책r jeg at vi n책 vender oss til Spinozas hovedverk, Et
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -495,7 +493,6 @@ P책 samme m책te som Nikolaus Kopernikus (1473-1543) slo fast at jorden ikke var 
 ![image](./assets/fr/3.1.1.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -522,7 +519,6 @@ Men med Kopernikus' (1473-1543) nye fysikk p책 1400-tallet gjennomgikk kosmologi
 ![image](./assets/fr/3.1.4.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -678,7 +674,6 @@ Til slutt er det verdt 책 p책peke at selv om den libertarianske bevegelsen vi n�
 ![image](./assets/fr/3.2.5.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -1151,7 +1146,6 @@ Til syvende og sist betyr denne klarheten at man ikke lenger lever i den nihilis
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 

@@ -157,7 +157,6 @@ Bahkan, sejak usia dini, ia menunjukkan semangat kritis yang kuat terhadap agama
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -255,7 +254,6 @@ Dalam bab ini, saya mengusulkan agar kita beralih ke karya utama Spinoza yang be
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -495,7 +493,6 @@ Seperti halnya Nicolas Copernicus (1473-1543) yang menyatakan bahwa bumi bukanla
 ![image](./assets/fr/3.1.1.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -522,7 +519,6 @@ Namun dengan fisika baru Copernicus (1473-1543) pada abad ke-15, kosmologi menga
 ![image](./assets/fr/3.1.4.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -678,7 +674,6 @@ Terakhir, perlu diketahui bahwa meskipun gerakan libertarian yang akan kita baha
 ![image](./assets/fr/3.2.5.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -1151,7 +1146,6 @@ Pada akhirnya, kejernihan ini berarti tidak lagi hidup dalam nihilisme yang kemu
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 

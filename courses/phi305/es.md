@@ -157,7 +157,6 @@ De hecho, desde muy joven mostró un espíritu fuertemente crítico hacia la rel
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -255,7 +254,6 @@ En este capítulo, propongo que nos centremos ahora en la principal obra de Spin
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -495,7 +493,6 @@ Del mismo modo que Nicolás Copérnico (1473-1543) estableció que la Tierra no 
 ![image](./assets/fr/3.1.1.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -522,7 +519,6 @@ Pero con la nueva física de Copérnico (1473-1543) en el siglo XV, la cosmolog�
 ![image](./assets/fr/3.1.4.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -678,7 +674,6 @@ Por último, cabe señalar que si bien el movimiento libertario del que vamos a 
 ![image](./assets/fr/3.2.5.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -1151,7 +1146,6 @@ En definitiva, esta lucidez significa dejar de vivir en el nihilismo descrito m�
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 

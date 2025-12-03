@@ -120,7 +120,6 @@ Of Jewish faith, he was a member of the Portuguese Sephardic community descended
 In fact, from an early age, he showed a strongly critical spirit towards established religion, and in particular towards his Hebrew community, from which he was violently rejected in 1656, aged just 24, before he had published anything.
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 This "excommunication", it is said, allowed him to isolate himself and focus on his work without ever looking back.
@@ -193,7 +192,6 @@ Whether these means are philosophical or technological, as we shall see later, B
 In this chapter, I propose that we now turn to Spinoza's major work, entitled Ethics, published posthumously in 1677.
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 Why posthumously? Well, because his ideas were revolutionary, or at least counterintuitive and disruptive, and therefore very dangerous at the time, even in the liberal context of the 17th-century United Provinces.
@@ -370,7 +368,6 @@ Just as Nicolas Copernicus (1473-1543) established that the earth was not the ce
 
 ![image](./assets/fr/3.1.1.webp)
 
-![image](./assets/fr/3.1.2.webp)
 
 
 He says that man is not "an empire within an empire" and that, just as the earth is reduced to the status of a mere planet, like all the other planets, the human being is reduced to the status of a mere modes of nature, like all the other finite modes of nature, such as animals, plants and all "existing beings".
@@ -390,7 +387,6 @@ But with the new physics of Copernicus (1473-1543) in the 15th century, cosmolog
 
 ![image](./assets/fr/3.1.4.webp)
 
-![image](./assets/fr/3.1.5.webp)
 
 
 But to fully understand Spinozism, we also need to consider the context of René Descartes (1596-1650), the famous French philosopher who preceded Spinoza and of whom he was both a disciple and a great admirer.
@@ -507,7 +503,6 @@ Finally, it's worth pointing out that while the libertarian movement we're about
 
 ![image](./assets/fr/3.2.5.webp)
 
-![image](./assets/fr/3.2.6.webp)
 
 
 But the reality is quite different, and the confusion stems rather from a semantic problem: by recognizing the capacity of human beings to act, and to make choices, while acknowledging the logical determinism of which they are the object. the first libertarians are, in reality, also heirs of Spinoza. What they have in common with Spinoza is the belief that humans are not above nature but instead are the result of an evolutionary process that places them within a determinism, a history that goes beyond them, and is largely responsible for what humans are and what they do.
@@ -859,7 +854,6 @@ As you now know, freedom according to Spinoza is an awareness of our determinism
 In the end, this lucidity means no longer living in the nihilism later described by Friedrich Nietzsche (1844-1900), for whom men lose themselves in ideological ideals, i.e. political or religious fictions, because of which they deny reality, infantilize themselves and make themselves unhappy.
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 This is precisely what the Enlightenment rational philosophy was all about, thanks in particular to Immanuel Kant (1724-1804), for whom only an educated individual, under the guidance of reason, can think for himself and determine, ethically, what is "true" or "good," and what is toxic.

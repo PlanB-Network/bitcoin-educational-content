@@ -161,7 +161,6 @@ Nkako, kuva akiri muto, yerekanye impwemu yo kunegura cane idini ryashinzwe, na 
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -261,7 +260,6 @@ Muri iki gice, ndasaba ko ubu twosubira ku gitabu gihambaye ca Spinoza, citwa Et
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -505,7 +503,6 @@ Nk'uko Nicolas Copernic (1473-1543) yashizeho ko isi atari yo hagati y'isi, na C
 ![image](./assets/fr/3.1.1.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -532,7 +529,6 @@ Ariko rero, n’ubuhinga bushasha bwa fizike bwa Copernic (1473-1543) mu kinjana
 ![image](./assets/fr/3.1.4.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -690,7 +686,6 @@ Ubwa nyuma, birabereye kuvuga ko naho umuhari w'abaharanira umwidegemvyo turiko 
 ![image](./assets/fr/3.2.5.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -1173,7 +1168,6 @@ Mu mpera, ukwo gusobanukirwa neza bisigura kutaba mu buzima bw’ubusa bwavuzwe 
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 

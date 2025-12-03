@@ -157,7 +157,6 @@ In feite toonde hij al op jonge leeftijd een sterk kritische geest ten opzichte 
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -255,7 +254,6 @@ In dit hoofdstuk stel ik voor dat we ons nu richten op Spinoza's belangrijkste w
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -495,7 +493,6 @@ Net zoals Nicolaas Copernicus (1473-1543) vaststelde dat de aarde niet het midde
 ![image](./assets/fr/3.1.1.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -522,7 +519,6 @@ Maar met de nieuwe natuurkunde van Copernicus (1473-1543) in de 15e eeuw ondergi
 ![image](./assets/fr/3.1.4.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -678,7 +674,6 @@ Tot slot is het de moeite waard om erop te wijzen dat, hoewel de libertarische b
 ![image](./assets/fr/3.2.5.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -1151,7 +1146,6 @@ Uiteindelijk betekent deze luciditeit dat men niet langer leeft in het nihilisme
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 

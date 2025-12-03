@@ -157,7 +157,6 @@ Itse asiassa hän suhtautui jo varhain vahvasti kriittisesti vakiintuneeseen usk
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -255,7 +254,6 @@ Tässä luvussa ehdotan, että siirrymme nyt Spinozan tärkeimpään teokseen Et
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -495,7 +493,6 @@ Aivan kuten Nikolai Kopernikus (1473-1543) totesi, että maapallo ei ole maailma
 ![image](./assets/fr/3.1.1.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -522,7 +519,6 @@ Kopernikuksen (1473-1543) uuden fysiikan myötä 1400-luvulla kosmologiassa tapa
 ![image](./assets/fr/3.1.4.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -678,7 +674,6 @@ Lopuksi on syytä huomauttaa, että vaikka libertaristinen liike, josta nyt kesk
 ![image](./assets/fr/3.2.5.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -1151,7 +1146,6 @@ Loppujen lopuksi tämä selkeys tarkoittaa sitä, ettei ihminen enää elä Frie
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 

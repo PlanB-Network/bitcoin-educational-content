@@ -2148,7 +2148,7 @@ Wallets mbalimbali za lightning zinapatikana, kila moja inakidhi mahitaji na mat
 
 - **Vipengele**: Kiendelezi cha Kivinjari, chanzo-wazi, kinaauni miundo ya uangalizi na isiyo ya uangalizi, inayoboresha utumizi mwingi.
 
-#### Breeze:
+#### Breez:
 
 
 - **Vipengele**: Node nyepesi kwenye simu, chanzo huria, huchanganya kujilinda na ukwasi unaodhibitiwa, kutoa usawa wa udhibiti na urahisi.
@@ -2156,7 +2156,7 @@ Wallets mbalimbali za lightning zinapatikana, kila moja inakidhi mahitaji na mat
 #### Phoenix:
 
 
-- **Vipengele**: Sawa na Breeze, hutumia modeli ya LSP kwa ukwasi, chanzo huria, inaangazia urahisi wa mtumiaji na usimamizi madhubuti wa ukwasi.
+- **Vipengele**: Sawa na Breez, hutumia modeli ya LSP kwa ukwasi, chanzo huria, inaangazia urahisi wa mtumiaji na usimamizi madhubuti wa ukwasi.
 
 ###Open Bitcoin Wallet (OBW):
 
@@ -2169,7 +2169,7 @@ Wallet zinaweza kuainishwa kulingana na nani ana funguo za faragha na ni nani an
 
 
 - **wallet za Utunzaji (Custodial Wallets)**: Mtu wa tatu hushikilia funguo za faragha, kwa kawaida hutoa usimamizi otomatiki wa ukwasi. Mifano ni pamoja na Wallet of Satoshi.
-- **wallet Zisizo Miliki**: Watumiaji hushikilia funguo za faragha, huenda wakahitaji udhibiti wa ukwasi mwenyewe. Mifano ni pamoja na Breeze na OBW.
+- **wallet Zisizo Miliki**: Watumiaji hushikilia funguo za faragha, huenda wakahitaji udhibiti wa ukwasi mwenyewe. Mifano ni pamoja na Breez na OBW.
 
 ![Liquidity Lightning](assets/en/4/12.webp)_2x2 Matrix of LN Clients_
 
@@ -2394,7 +2394,7 @@ Njia za blinded zimeundwa ili kuboresha faragha ya mpokeaji katika Lightning Net
 
 **Lightning service provider (LSPs)**
 
-Iliyoundwa na Breeze Wallet, Lightning service provider (LSPs) wanalenga kuboresha matumizi ya mtumiaji kwa kuwezesha uwezo wa kupokea papo hapo. LSP hufungua chaneli kwa watumiaji, sawa na jinsi watoa huduma za mtandao wanavyotoa huduma za muunganisho. Ubunifu huu hurahisisha mchakato wa kuabiri mtumiaji na kuhakikisha mwingiliano usio na mshono kwenye Lightning Network.
+Iliyoundwa na Breez Wallet, Lightning service provider (LSPs) wanalenga kuboresha matumizi ya mtumiaji kwa kuwezesha uwezo wa kupokea papo hapo. LSP hufungua chaneli kwa watumiaji, sawa na jinsi watoa huduma za mtandao wanavyotoa huduma za muunganisho. Ubunifu huu hurahisisha mchakato wa kuabiri mtumiaji na kuhakikisha mwingiliano usio na mshono kwenye Lightning Network.
 
 **Nyenzo za Kusasishwa**
 

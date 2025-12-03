@@ -2956,7 +2956,7 @@ Berbagai dompet Lightning tersedia, masing-masing memenuhi kebutuhan dan prefere
 - Fitur**: Ekstensi peramban, sumber terbuka, mendukung model kustodian dan non-kustodian, meningkatkan keserbagunaan.
 
 
-#### Breeze:
+#### Breez:
 
 
 
@@ -2967,7 +2967,7 @@ Berbagai dompet Lightning tersedia, masing-masing memenuhi kebutuhan dan prefere
 
 
 
-- Fitur**: Mirip dengan Breeze, menggunakan model LSP untuk likuiditas, sumber terbuka, berfokus pada kesederhanaan pengguna dan manajemen likuiditas yang efektif.
+- Fitur**: Mirip dengan Breez, menggunakan model LSP untuk likuiditas, sumber terbuka, berfokus pada kesederhanaan pengguna dan manajemen likuiditas yang efektif.
 
 
 #### Buka Bitcoin Wallet (OBW):
@@ -2985,7 +2985,7 @@ Dompet dapat diklasifikasikan berdasarkan siapa yang memegang kunci privat dan s
 
 
 - Dompet kustodian**: Pihak ketiga yang menyimpan kunci pribadi, biasanya menawarkan manajemen likuiditas otomatis. Contohnya termasuk Wallet dari Satoshi.
-- Dompet Non-Kustodian**: Pengguna memegang kunci pribadi, mungkin memerlukan manajemen likuiditas manual. Contohnya termasuk Breeze dan OBW.
+- Dompet Non-Kustodian**: Pengguna memegang kunci pribadi, mungkin memerlukan manajemen likuiditas manual. Contohnya termasuk Breez dan OBW.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -3293,7 +3293,7 @@ Jalur blinded dirancang untuk meningkatkan privasi penerima pada Lightning Netwo
 
 *penyedia Layanan Petir (LSP) ** *Penyedia Layanan Petir (LSP)
 
-Dikonseptualisasikan oleh Breeze Wallet, Lightning Service Provider (LSP) bertujuan untuk meningkatkan pengalaman pengguna dengan memungkinkan kemampuan penerimaan instan. LSP membuka saluran bagi pengguna, mirip dengan cara penyedia layanan internet menawarkan layanan konektivitas. Inovasi ini menyederhanakan proses orientasi pengguna dan memastikan interaksi yang mulus pada Lightning Network.
+Dikonseptualisasikan oleh Breez Wallet, Lightning Service Provider (LSP) bertujuan untuk meningkatkan pengalaman pengguna dengan memungkinkan kemampuan penerimaan instan. LSP membuka saluran bagi pengguna, mirip dengan cara penyedia layanan internet menawarkan layanan konektivitas. Inovasi ini menyederhanakan proses orientasi pengguna dan memastikan interaksi yang mulus pada Lightning Network.
 
 
 **Sumber daya untuk tetap mendapatkan informasi terbaru**

@@ -2985,7 +2985,7 @@ Lompakot voidaan luokitella sen mukaan, kenellä on yksityiset avaimet ja kuka h
 
 
 - Huoltajan lompakot**: Kolmannen osapuolen hallussa olevat yksityiset avaimet, tarjoavat yleensä automaattisen likviditeetinhallinnan. Esimerkkejä ovat Wallet ja Satoshi.
-- Muiden kuin huoltajien lompakot**: Käyttäjillä on yksityiset avaimet, voi vaatia manuaalista likviditeetin hallintaa. Esimerkkejä ovat Breeze ja OBW.
+- Muiden kuin huoltajien lompakot**: Käyttäjillä on yksityiset avaimet, voi vaatia manuaalista likviditeetin hallintaa. Esimerkkejä ovat Breez ja OBW.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -3293,7 +3293,7 @@ blinded-reitit on suunniteltu parantamaan vastaanottimen yksityisyyttä Lightnin
 
 **Salamapalveluntarjoajat (LSP) **
 
-Breeze Wallet:n ideoimien Lightning-palveluntarjoajien (LSP) tavoitteena on parantaa käyttäjäkokemusta mahdollistamalla välittömät vastaanottotoiminnot. LSP:t avaavat käyttäjille kanavia samaan tapaan kuin internet-palveluntarjoajat tarjoavat yhteyspalveluja. Tämä innovaatio yksinkertaistaa käyttäjän käyttöönottoprosessia ja varmistaa saumattoman vuorovaikutuksen Lightning Network:lla.
+Breez Wallet:n ideoimien Lightning-palveluntarjoajien (LSP) tavoitteena on parantaa käyttäjäkokemusta mahdollistamalla välittömät vastaanottotoiminnot. LSP:t avaavat käyttäjille kanavia samaan tapaan kuin internet-palveluntarjoajat tarjoavat yhteyspalveluja. Tämä innovaatio yksinkertaistaa käyttäjän käyttöönottoprosessia ja varmistaa saumattoman vuorovaikutuksen Lightning Network:lla.
 
 
 **Lähteet, joiden avulla pysyt ajan tasalla**

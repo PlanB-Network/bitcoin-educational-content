@@ -2956,7 +2956,7 @@ Saadaval on erinevad Lightning rahakotid, mis vastavad erinevatele kasutajate va
 - Omadused**: Toetab nii eestkostja kui ka mittekodaniku mudeleid, suurendades mitmekülgsust.
 
 
-#### Breeze:
+#### Breez:
 
 
 
@@ -2967,7 +2967,7 @@ Saadaval on erinevad Lightning rahakotid, mis vastavad erinevatele kasutajate va
 
 
 
-- Omadused**: Sarnaselt Breeze'ile kasutab likviidsuse jaoks LSP mudelit, avatud lähtekoodiga, keskendub kasutaja lihtsusele ja tõhusale likviidsuse juhtimisele.
+- Omadused**: Sarnaselt Breez'ile kasutab likviidsuse jaoks LSP mudelit, avatud lähtekoodiga, keskendub kasutaja lihtsusele ja tõhusale likviidsuse juhtimisele.
 
 
 #### Avatud Bitcoin Wallet (OBW):
@@ -2985,7 +2985,7 @@ Rahakotid võib liigitada selle alusel, kellele kuuluvad privaatvõtmed ja kes h
 
 
 - Hoolduse rahakotid**: Kolmanda osapoole privaatvõtmed, tavaliselt pakuvad automaatset likviidsuse haldamist. Näiteks Wallet või Satoshi.
-- Mittekohustuslikud rahakotid**: Kasutajad omavad isiklikke võtmeid, võivad nõuda käsitsi likviidsuse haldamist. Näiteks Breeze ja OBW.
+- Mittekohustuslikud rahakotid**: Kasutajad omavad isiklikke võtmeid, võivad nõuda käsitsi likviidsuse haldamist. Näiteks Breez ja OBW.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -3293,7 +3293,7 @@ blinded teed on mõeldud Lightning Network vastuvõtja privaatsuse suurendamisek
 
 **Välketeenuse pakkujad (LSP) **
 
-Breeze Wallet poolt välja töötatud Lightning Service Providers (LSP) eesmärk on parandada kasutajakogemust, võimaldades kiiret vastuvõtuvõimalust. LSPd avavad kasutajatele kanaleid, sarnaselt sellega, kuidas internetiteenuse pakkujad pakuvad ühenduvusteenuseid. See uuendus lihtsustab kasutaja sisseelamisprotsessi ja tagab sujuva suhtluse Lightning Networks.
+Breez Wallet poolt välja töötatud Lightning Service Providers (LSP) eesmärk on parandada kasutajakogemust, võimaldades kiiret vastuvõtuvõimalust. LSPd avavad kasutajatele kanaleid, sarnaselt sellega, kuidas internetiteenuse pakkujad pakuvad ühenduvusteenuseid. See uuendus lihtsustab kasutaja sisseelamisprotsessi ja tagab sujuva suhtluse Lightning Networks.
 
 
 **Ressursid ajakohastamiseks**

@@ -2967,7 +2967,7 @@ Her biri farklı kullanıcı ihtiyaçlarına ve tercihlerine hitap eden çeşitl
 
 
 
-- Özellikler**: Breeze'e benzer şekilde, likidite için LSP modeli kullanır, açık kaynaklıdır, kullanıcı basitliğine ve etkili likidite yönetimine odaklanır.
+- Özellikler**: Breez'e benzer şekilde, likidite için LSP modeli kullanır, açık kaynaklıdır, kullanıcı basitliğine ve etkili likidite yönetimine odaklanır.
 
 
 #### Bitcoin Wallet'yi (OBW) açın:
@@ -2985,7 +2985,7 @@ Cüzdanlar, özel anahtarları kimin elinde tuttuğuna ve likiditeyi kimin yöne
 
 
 - Saklama cüzdanları**: Üçüncü taraf özel anahtarları tutar, genellikle otomatik likidite yönetimi sunar. Örnekler arasında Satoshi'ün Wallet'i yer alır.
-- Gözetim dışı cüzdanlar**: Kullanıcılar özel anahtarlara sahiptir, manuel likidite yönetimi gerektirebilir. Örnekler Breeze ve OBW'yi içerir.
+- Gözetim dışı cüzdanlar**: Kullanıcılar özel anahtarlara sahiptir, manuel likidite yönetimi gerektirebilir. Örnekler Breez ve OBW'yi içerir.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -3293,7 +3293,7 @@ blinded yolları, Lightning Network'da alıcı gizliliğini artırmak için tasa
 
 **Yıldırım Hizmet Sağlayıcıları (LSP'ler)**
 
-Breeze Wallet tarafından kavramsallaştırılan Lightning Hizmet Sağlayıcıları (LSP'ler), anında alım yetenekleri sağlayarak kullanıcı deneyimini iyileştirmeyi amaçlamaktadır. LSP'ler, internet servis sağlayıcılarının bağlantı hizmetleri sunmasına benzer şekilde kullanıcılar için kanallar açar. Bu yenilik, kullanıcı katılım sürecini basitleştirir ve Lightning Network üzerinde sorunsuz etkileşimler sağlar.
+Breez Wallet tarafından kavramsallaştırılan Lightning Hizmet Sağlayıcıları (LSP'ler), anında alım yetenekleri sağlayarak kullanıcı deneyimini iyileştirmeyi amaçlamaktadır. LSP'ler, internet servis sağlayıcılarının bağlantı hizmetleri sunmasına benzer şekilde kullanıcılar için kanallar açar. Bu yenilik, kullanıcı katılım sürecini basitleştirir ve Lightning Network üzerinde sorunsuz etkileşimler sağlar.
 
 
 **Güncel kalmak için kaynaklar**

@@ -2064,13 +2064,13 @@ Various Lightning wallets are available, each catering to different user needs a
 
 - **Features**: Browser extension, open-source, supports both custodial and non-custodial models, enhancing versatility.
 
-#### Breeze:
+#### Breez:
 
 - **Features**: Lightweight node on a phone, open-source, combines self-custody with managed liquidity, providing a balance of control and convenience.
 
 #### Phoenix:
 
-- **Features**: Similar to Breeze, utilizes an LSP model for liquidity, open-source, focuses on user simplicity and effective liquidity management.
+- **Features**: Similar to Breez, utilizes an LSP model for liquidity, open-source, focuses on user simplicity and effective liquidity management.
 
 #### Open Bitcoin Wallet (OBW):
 
@@ -2081,7 +2081,7 @@ Various Lightning wallets are available, each catering to different user needs a
 Wallets can be classified based on who holds the private keys and who manages liquidity. This matrix helps users choose wallets that align with their preferences for security and convenience:
 
 - **Custodial wallets**: Third-party holds private keys, usually offer automatic liquidity management. Examples include Wallet of Satoshi.
-- **Non-Custodial wallets**: Users hold private keys, may require manual liquidity management. Examples include Breeze and OBW.
+- **Non-Custodial wallets**: Users hold private keys, may require manual liquidity management. Examples include Breez and OBW.
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
 
@@ -2287,7 +2287,7 @@ Watchtowers are third-party entities that monitor the blockchain for old channel
 Blinded paths are designed to enhance receiver privacy in the Lightning Network. They obscure the final recipient's address, ensuring that only the sender knows the intermediate node, and each node is aware of only its adjacent nodes. This method protects the receiver's identity and enhances overall privacy.
 
 **Lightning Service Providers (LSPs)**
-Conceptualized by Breeze Wallet, Lightning Service Providers (LSPs) aim to improve user experience by enabling instant receiving capabilities. LSPs open channels for users, akin to how internet service providers offer connectivity services. This innovation simplifies the user onboarding process and ensures seamless interactions on the Lightning Network.
+Conceptualized by Breez Wallet, Lightning Service Providers (LSPs) aim to improve user experience by enabling instant receiving capabilities. LSPs open channels for users, akin to how internet service providers offer connectivity services. This innovation simplifies the user onboarding process and ensures seamless interactions on the Lightning Network.
 
 **Resources for staying updated**
 To keep abreast of the latest technical innovations in Bitcoin and the Lightning Network, it is essential to leverage valuable resources. The Bitcoin OpTec newsletter, the lightning dev mailing list, and materials from industry experts like Jason Lopp provide insights and updates on the ongoing advancements and research in this rapidly evolving field.

@@ -2956,7 +2956,7 @@ Det finns olika Lightning-plånböcker som alla tillgodoser olika användares be
 - Funktioner**: Webbläsartillägg, öppen källkod, stöder både modeller med och utan förmyndare, vilket ökar mångsidigheten.
 
 
-#### Breeze:
+#### Breez:
 
 
 
@@ -2967,7 +2967,7 @@ Det finns olika Lightning-plånböcker som alla tillgodoser olika användares be
 
 
 
-- Funktioner**: Liknar Breeze, använder en LSP-modell för likviditet, öppen källkod, fokuserar på användarvänlighet och effektiv likviditetshantering.
+- Funktioner**: Liknar Breez, använder en LSP-modell för likviditet, öppen källkod, fokuserar på användarvänlighet och effektiv likviditetshantering.
 
 
 #### Öppna Bitcoin Wallet (OBW):
@@ -2985,7 +2985,7 @@ Plånböcker kan klassificeras utifrån vem som innehar de privata nycklarna och
 
 
 - Förvarade plånböcker**: Tredje part innehar privata nycklar och erbjuder vanligtvis automatisk likviditetshantering. Exempel på detta är Wallet eller Satoshi.
-- Icke-förvarade plånböcker**: Användare har privata nycklar, kan kräva manuell likviditetshantering. Exempel på detta är Breeze och OBW.
+- Icke-förvarade plånböcker**: Användare har privata nycklar, kan kräva manuell likviditetshantering. Exempel på detta är Breez och OBW.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -3293,7 +3293,7 @@ blinded-banor är utformade för att förbättra mottagarens integritet i Lightn
 
 **Lightning Service Providers (LSP)** (tjänsteleverantörer för blixtar)
 
-Lightning Service Providers (LSP), som konceptualiserades av Breeze Wallet, syftar till att förbättra användarupplevelsen genom att möjliggöra omedelbar mottagning. LSP:er öppnar kanaler för användare, på samma sätt som internetleverantörer erbjuder anslutningstjänster. Denna innovation förenklar användarens onboardingprocess och säkerställer sömlösa interaktioner på Lightning Network.
+Lightning Service Providers (LSP), som konceptualiserades av Breez Wallet, syftar till att förbättra användarupplevelsen genom att möjliggöra omedelbar mottagning. LSP:er öppnar kanaler för användare, på samma sätt som internetleverantörer erbjuder anslutningstjänster. Denna innovation förenklar användarens onboardingprocess och säkerställer sömlösa interaktioner på Lightning Network.
 
 
 **Resurser för att hålla sig uppdaterad**

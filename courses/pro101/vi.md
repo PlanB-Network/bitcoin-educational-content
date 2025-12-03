@@ -2967,7 +2967,7 @@ Có nhiều loại ví Lightning khác nhau, mỗi loại đáp ứng nhu cầu 
 
 
 
-- Tính năng**: Tương tự như Breeze, sử dụng mô hình LSP cho thanh khoản, mã nguồn mở, tập trung vào sự đơn giản cho người dùng và quản lý thanh khoản hiệu quả.
+- Tính năng**: Tương tự như Breez, sử dụng mô hình LSP cho thanh khoản, mã nguồn mở, tập trung vào sự đơn giản cho người dùng và quản lý thanh khoản hiệu quả.
 
 
 #### Mở Bitcoin Wallet (OBW):
@@ -2985,7 +2985,7 @@ Ví có thể được phân loại dựa trên người nắm giữ khóa riên
 
 
 - Ví lưu ký**: Bên thứ ba nắm giữ khóa riêng tư, thường cung cấp dịch vụ quản lý thanh khoản tự động. Ví dụ bao gồm Wallet hoặc Satoshi.
-- Ví không lưu ký**: Người dùng giữ khóa riêng tư, có thể cần quản lý thanh khoản thủ công. Ví dụ bao gồm Breeze và OBW.
+- Ví không lưu ký**: Người dùng giữ khóa riêng tư, có thể cần quản lý thanh khoản thủ công. Ví dụ bao gồm Breez và OBW.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -3293,7 +3293,7 @@ Tháp canh là các thực thể bên thứ ba giám sát Blockchain để tìm 
 
 **Nhà cung cấp dịch vụ Lightning (LSP)**
 
-Được khái niệm hóa bởi Breeze Wallet, các Nhà cung cấp dịch vụ Lightning (LSP) hướng đến mục tiêu cải thiện trải nghiệm người dùng bằng cách cho phép khả năng tiếp nhận tức thì. LSP mở ra các kênh cho người dùng, tương tự như cách các nhà cung cấp dịch vụ internet cung cấp dịch vụ kết nối. Cải tiến này đơn giản hóa quy trình đăng ký người dùng và đảm bảo tương tác liền mạch trên Lightning Network.
+Được khái niệm hóa bởi Breez Wallet, các Nhà cung cấp dịch vụ Lightning (LSP) hướng đến mục tiêu cải thiện trải nghiệm người dùng bằng cách cho phép khả năng tiếp nhận tức thì. LSP mở ra các kênh cho người dùng, tương tự như cách các nhà cung cấp dịch vụ internet cung cấp dịch vụ kết nối. Cải tiến này đơn giản hóa quy trình đăng ký người dùng và đảm bảo tương tác liền mạch trên Lightning Network.
 
 
 **Tài nguyên để cập nhật thông tin**

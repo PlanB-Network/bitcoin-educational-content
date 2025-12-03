@@ -2967,7 +2967,7 @@ Existen varios monederos Lightning, cada uno de ellos adaptado a las necesidades
 
 
 
-- Características**: Similar a Breeze, utiliza un modelo LSP para la liquidez, de código abierto, se centra en la simplicidad del usuario y la gestión eficaz de la liquidez.
+- Características**: Similar a Breez, utiliza un modelo LSP para la liquidez, de código abierto, se centra en la simplicidad del usuario y la gestión eficaz de la liquidez.
 
 
 #### Abrir Bitcoin Wallet (OBW):
@@ -2985,7 +2985,7 @@ Los monederos pueden clasificarse en función de quién posee las claves privada
 
 
 - Monederos custodiados**: Terceros custodian claves privadas, normalmente ofrecen gestión automática de liquidez. Algunos ejemplos son Wallet o Satoshi.
-- Monederos no custodiados**: Los usuarios poseen claves privadas, pueden requerir una gestión manual de la liquidez. Algunos ejemplos son Breeze y OBW.
+- Monederos no custodiados**: Los usuarios poseen claves privadas, pueden requerir una gestión manual de la liquidez. Algunos ejemplos son Breez y OBW.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -3293,7 +3293,7 @@ Las rutas blinded están diseñadas para mejorar la privacidad del receptor en l
 
 **Proveedores de servicios de iluminación (PSL)**
 
-Conceptualizados por Breeze Wallet, los Proveedores de Servicios Relámpago (LSP) pretenden mejorar la experiencia del usuario habilitando capacidades de recepción instantánea. Los LSP abren canales para los usuarios, de forma similar a como los proveedores de servicios de Internet ofrecen servicios de conectividad. Esta innovación simplifica el proceso de incorporación del usuario y garantiza interacciones fluidas en Lightning Network.
+Conceptualizados por Breez Wallet, los Proveedores de Servicios Relámpago (LSP) pretenden mejorar la experiencia del usuario habilitando capacidades de recepción instantánea. Los LSP abren canales para los usuarios, de forma similar a como los proveedores de servicios de Internet ofrecen servicios de conectividad. Esta innovación simplifica el proceso de incorporación del usuario y garantiza interacciones fluidas en Lightning Network.
 
 
 **Recursos para estar al día**

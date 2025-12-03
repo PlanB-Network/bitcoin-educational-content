@@ -2967,7 +2967,7 @@ Er zijn verschillende Lightning wallets beschikbaar, die elk voldoen aan verschi
 
 
 
-- Kenmerken**: Vergelijkbaar met Breeze, maakt gebruik van een LSP-model voor liquiditeit, open-source, richt zich op eenvoud voor de gebruiker en effectief liquiditeitsbeheer.
+- Kenmerken**: Vergelijkbaar met Breez, maakt gebruik van een LSP-model voor liquiditeit, open-source, richt zich op eenvoud voor de gebruiker en effectief liquiditeitsbeheer.
 
 
 #### Open Bitcoin Wallet (OBW):
@@ -2985,7 +2985,7 @@ Portemonnees kunnen worden ingedeeld op basis van wie de privésleutels bezit en
 
 
 - Custodial wallets**: Een derde partij bewaart privésleutels, biedt meestal automatisch liquiditeitsbeheer. Voorbeelden zijn Wallet of Satoshi.
-- Niet-Custodial-portefeuilles**: Gebruikers houden privésleutels, mogelijk is handmatig liquiditeitsbeheer nodig. Voorbeelden zijn Breeze en OBW.
+- Niet-Custodial-portefeuilles**: Gebruikers houden privésleutels, mogelijk is handmatig liquiditeitsbeheer nodig. Voorbeelden zijn Breez en OBW.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -3293,7 +3293,7 @@ blinded paden zijn ontworpen om de privacy van de ontvanger in de Lightning Netw
 
 **Bliksemdienstverleners (LSP's)**
 
-Lightning Service Providers (LSP's), bedacht door Breeze Wallet, hebben als doel de gebruikerservaring te verbeteren door directe ontvangstmogelijkheden mogelijk te maken. LSP's openen kanalen voor gebruikers, vergelijkbaar met hoe internet service providers connectiviteitsdiensten aanbieden. Deze innovatie vereenvoudigt het onboarding proces van gebruikers en zorgt voor naadloze interacties op de Lightning Network.
+Lightning Service Providers (LSP's), bedacht door Breez Wallet, hebben als doel de gebruikerservaring te verbeteren door directe ontvangstmogelijkheden mogelijk te maken. LSP's openen kanalen voor gebruikers, vergelijkbaar met hoe internet service providers connectiviteitsdiensten aanbieden. Deze innovatie vereenvoudigt het onboarding proces van gebruikers en zorgt voor naadloze interacties op de Lightning Network.
 
 
 **Bronnen om op de hoogte te blijven**

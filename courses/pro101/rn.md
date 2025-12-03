@@ -2967,7 +2967,7 @@ Hariho ama wallets atandukanye ya Lightning, imwe yose ikaba itanga ivyo abakore
 
 
 
-- Ibirango**: Bisa na Breeze, ikoresha uburyo bwa LSP ku bijanye n’ugutanga amahera, ifunguye, yibanda ku kworohereza abakoresha no gucunga neza amahera.
+- Ibirango**: Bisa na Breez, ikoresha uburyo bwa LSP ku bijanye n’ugutanga amahera, ifunguye, yibanda ku kworohereza abakoresha no gucunga neza amahera.
 
 
 #### Gufungura Bitcoin Wallet (OBW):
@@ -2985,7 +2985,7 @@ Ama wallets ashobora gushirwa mu migwi bivanye n’uwufise imfunguruzo z’ibang
 
 
 - Ivyuma vy’ububiko**: Uwundi muntu afise imfunguruzo z’ibanga, akenshi atanga uburongozi bw’amahera bwite. Ingero ni Wallet canke Satoshi.
-- Amasakoshi atari ay’ububiko**: Abakoresha bafise imfunguruzo z’ibanga, bashobora gusaba gucunga amafaranga n’amaboko. Ingero ni Breeze na OBW.
+- Amasakoshi atari ay’ububiko**: Abakoresha bafise imfunguruzo z’ibanga, bashobora gusaba gucunga amafaranga n’amaboko. Ingero ni Breez na OBW.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -3293,7 +3293,7 @@ Inzira za blinded zigenewe kwongereza ubuzima bwite bw'abakira muri Lightning Ne
 
 **Abatanga ibikorwa vy'umuravyo (LSPs)**
 
-Ivyiyumviro vya Breeze Wallet, Abatanga Serivisi z’Imiravyo (LSPs) bafise intumbero yo gutuma abakoresha bamenya neza mu gutuma bashobora kwakira ubwo nyene. LSPs zifungurira abakoresha imihora, nk’uko abatanga ubuhinga bwa internet batanga ubuhinga bwo gukorana. Ivyo bishasha birorosha uburyo bwo gushiramwo abakoresha kandi bikaba bituma haba ugukorana neza kuri Lightning Network.
+Ivyiyumviro vya Breez Wallet, Abatanga Serivisi z’Imiravyo (LSPs) bafise intumbero yo gutuma abakoresha bamenya neza mu gutuma bashobora kwakira ubwo nyene. LSPs zifungurira abakoresha imihora, nk’uko abatanga ubuhinga bwa internet batanga ubuhinga bwo gukorana. Ivyo bishasha birorosha uburyo bwo gushiramwo abakoresha kandi bikaba bituma haba ugukorana neza kuri Lightning Network.
 
 
 **Ibikoresho vyo kuguma umenye amakuru mashasha**

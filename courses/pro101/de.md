@@ -2966,7 +2966,7 @@ Es gibt verschiedene Lightning-Geldbörsen, die jeweils auf die unterschiedliche
 
 
 
-- Merkmale**: Ähnlich wie Breeze, verwendet ein LSP-Modell für die Liquidität, Open-Source, konzentriert sich auf die Einfachheit der Benutzer und ein effektives Liquiditätsmanagement.
+- Merkmale**: Ähnlich wie Breez, verwendet ein LSP-Modell für die Liquidität, Open-Source, konzentriert sich auf die Einfachheit der Benutzer und ein effektives Liquiditätsmanagement.
 
 
 #### Bitcoin Wallet (OBW) öffnen:
@@ -2984,7 +2984,7 @@ Wallets können danach klassifiziert werden, wer die privaten Schlüssel hält u
 
 
 - Verwahrte Geldbörsen**: Dritte halten private Schlüssel und bieten in der Regel ein automatisches Liquiditätsmanagement. Beispiele sind Wallet oder Satoshi.
-- Nicht-verwahrende Geldbörsen**: Die Nutzer besitzen private Schlüssel und müssen die Liquidität möglicherweise manuell verwalten. Beispiele sind Breeze und OBW.
+- Nicht-verwahrende Geldbörsen**: Die Nutzer besitzen private Schlüssel und müssen die Liquidität möglicherweise manuell verwalten. Beispiele sind Breez und OBW.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -3292,7 +3292,7 @@ blinded-Pfade wurden entwickelt, um die Privatsphäre des Empfängers im Lightni
 
 **Blitzdienstleister (LSPs)**
 
-Die von Breeze Wallet konzipierten Lightning Service Provider (LSPs) zielen darauf ab, die Benutzererfahrung zu verbessern, indem sie sofortige Empfangsfunktionen ermöglichen. LSPs öffnen Kanäle für Benutzer, ähnlich wie Internetdienstanbieter Konnektivitätsdienste anbieten. Diese Innovation vereinfacht den Onboarding-Prozess und sorgt für nahtlose Interaktionen mit dem Lightning Network.
+Die von Breez Wallet konzipierten Lightning Service Provider (LSPs) zielen darauf ab, die Benutzererfahrung zu verbessern, indem sie sofortige Empfangsfunktionen ermöglichen. LSPs öffnen Kanäle für Benutzer, ähnlich wie Internetdienstanbieter Konnektivitätsdienste anbieten. Diese Innovation vereinfacht den Onboarding-Prozess und sorgt für nahtlose Interaktionen mit dem Lightning Network.
 
 
 **Ressourcen, um auf dem Laufenden zu bleiben**

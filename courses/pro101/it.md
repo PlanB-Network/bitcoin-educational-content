@@ -2967,7 +2967,7 @@ Sono disponibili diversi portafogli Lightning, ognuno dei quali risponde a diver
 
 
 
-- Caratteristiche**: Simile a Breeze, utilizza un modello LSP per la liquidità, è open-source, si concentra sulla semplicità d'uso e sulla gestione efficace della liquidità.
+- Caratteristiche**: Simile a Breez, utilizza un modello LSP per la liquidità, è open-source, si concentra sulla semplicità d'uso e sulla gestione efficace della liquidità.
 
 
 #### Aprire Bitcoin Wallet (OBW):
@@ -2985,7 +2985,7 @@ I portafogli possono essere classificati in base a chi detiene le chiavi private
 
 
 - Portafogli depositari**: Terzi detengono le chiavi private e di solito offrono una gestione automatica della liquidità. Gli esempi includono Wallet e Satoshi.
-- Portafogli non custoditi**: Gli utenti detengono le chiavi private e possono richiedere una gestione manuale della liquidità. Ne sono un esempio Breeze e OBW.
+- Portafogli non custoditi**: Gli utenti detengono le chiavi private e possono richiedere una gestione manuale della liquidità. Ne sono un esempio Breez e OBW.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -3293,7 +3293,7 @@ I percorsi blinded sono progettati per migliorare la privacy del destinatario ne
 
 **Fornitori di servizi di illuminazione (LSP)**
 
-Concettualizzati da Breeze Wallet, i Lightning Service Provider (LSP) mirano a migliorare l'esperienza degli utenti abilitando le capacità di ricezione istantanea. Gli LSP aprono canali per gli utenti, come i fornitori di servizi Internet che offrono servizi di connettività. Questa innovazione semplifica il processo di inserimento dell'utente e garantisce interazioni senza soluzione di continuità con il Lightning Network.
+Concettualizzati da Breez Wallet, i Lightning Service Provider (LSP) mirano a migliorare l'esperienza degli utenti abilitando le capacità di ricezione istantanea. Gli LSP aprono canali per gli utenti, come i fornitori di servizi Internet che offrono servizi di connettività. Questa innovazione semplifica il processo di inserimento dell'utente e garantisce interazioni senza soluzione di continuità con il Lightning Network.
 
 
 **Risorse per rimanere aggiornati**

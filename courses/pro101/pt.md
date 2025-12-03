@@ -2967,7 +2967,7 @@ Estão disponíveis várias carteiras Lightning, cada uma delas satisfazendo as 
 
 
 
-- Caraterísticas**: Semelhante ao Breeze, utiliza um modelo LSP para liquidez, código aberto, centra-se na simplicidade do utilizador e na gestão eficaz da liquidez.
+- Caraterísticas**: Semelhante ao Breez, utiliza um modelo LSP para liquidez, código aberto, centra-se na simplicidade do utilizador e na gestão eficaz da liquidez.
 
 
 #### Abrir Bitcoin Wallet (OBW):
@@ -2985,7 +2985,7 @@ As carteiras podem ser classificadas com base em quem detém as chaves privadas 
 
 
 - Carteiras de custódia**: Terceiros detêm chaves privadas, normalmente oferecem gestão automática da liquidez. Os exemplos incluem o Wallet do Satoshi.
-- Carteiras sem custódia**: Os utilizadores detêm chaves privadas e podem necessitar de gestão manual da liquidez. Exemplos incluem Breeze e OBW.
+- Carteiras sem custódia**: Os utilizadores detêm chaves privadas e podem necessitar de gestão manual da liquidez. Exemplos incluem Breez e OBW.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -3293,7 +3293,7 @@ Os caminhos blinded são concebidos para melhorar a privacidade do recetor no Li
 
 **Fornecedores de serviços relâmpago (LSPs)
 
-Concebidos pela Breeze Wallet, os Lightning Service Providers (LSPs) visam melhorar a experiência do utilizador, permitindo capacidades de receção instantânea. Os LSPs abrem canais para os utilizadores, à semelhança da forma como os fornecedores de serviços de Internet oferecem serviços de conetividade. Esta inovação simplifica o processo de integração do utilizador e assegura interações perfeitas no Lightning Network.
+Concebidos pela Breez Wallet, os Lightning Service Providers (LSPs) visam melhorar a experiência do utilizador, permitindo capacidades de receção instantânea. Os LSPs abrem canais para os utilizadores, à semelhança da forma como os fornecedores de serviços de Internet oferecem serviços de conetividade. Esta inovação simplifica o processo de integração do utilizador e assegura interações perfeitas no Lightning Network.
 
 
 **Recursos para se manter atualizado

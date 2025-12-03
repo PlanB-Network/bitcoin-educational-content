@@ -2987,7 +2987,7 @@ Različiti Lightning novčanici su dostupni, svaki prilagođen različitim potre
 
 
 
-- Funkcije**: Slično Breeze-u, koristi LSP model za likvidnost, otvorenog koda, fokusira se na jednostavnost korisnika i efikasno upravljanje likvidnošću.
+- Funkcije**: Slično Breez-u, koristi LSP model za likvidnost, otvorenog koda, fokusira se na jednostavnost korisnika i efikasno upravljanje likvidnošću.
 
 
 #### Otvorite Bitcoin Wallet (OBW):
@@ -3005,7 +3005,7 @@ Novčanici se mogu klasifikovati na osnovu toga ko drži privatne ključeve i ko
 
 
 - Skrbnički novčanici**: Treća strana drži privatne ključeve, obično nude automatsko upravljanje likvidnošću. Primeri uključuju Wallet od Satoshi.
-- Novčanici bez staratelja**: Korisnici drže privatne ključeve, može biti potrebno ručno upravljanje likvidnošću. Primeri uključuju Breeze i OBW.
+- Novčanici bez staratelja**: Korisnici drže privatne ključeve, može biti potrebno ručno upravljanje likvidnošću. Primeri uključuju Breez i OBW.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -3313,7 +3313,7 @@ blinded putanje su dizajnirane da poboljšaju privatnost primaoca u Lightning Ne
 
 **Pružaoci usluga munje (LSPs)**
 
-Konceptualizovano od strane Breeze Wallet, Provajderi usluga munje (LSPs) imaju za cilj poboljšanje korisničkog iskustva omogućavanjem trenutnih mogućnosti primanja. LSPs otvaraju kanale za korisnike, slično kao što provajderi internet usluga nude usluge povezivanja. Ova inovacija pojednostavljuje proces prijavljivanja korisnika i osigurava besprekornu interakciju na Lightning Network.
+Konceptualizovano od strane Breez Wallet, Provajderi usluga munje (LSPs) imaju za cilj poboljšanje korisničkog iskustva omogućavanjem trenutnih mogućnosti primanja. LSPs otvaraju kanale za korisnike, slično kao što provajderi internet usluga nude usluge povezivanja. Ova inovacija pojednostavljuje proces prijavljivanja korisnika i osigurava besprekornu interakciju na Lightning Network.
 
 
 **Resursi za ostajanje u toku**

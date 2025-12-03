@@ -12,7 +12,7 @@ objectives:
 
 Embark on an educational journey designed to provide a deep understanding of the Liquid Network and the Elements project. This bootcamp combines theory and practice to teach you the technical, architectural, and business fundamentals necessary to implement and leverage Liquid's capabilities. From confidential transactions to ecosystem design, this course is ideal for those looking to expand their knowledge of advanced tools within the Bitcoin ecosystem.
 
-With presentations by industry experts, the course covers topics such as Liquid architecture, tokenization applications, technical concepts of Elements, and innovative use cases like the Breeze SDK. Designed to be accessible for beginners and intermediate users, the course also offers value to experienced developers seeking to master Liquid as a platform for optimizing their projects.
+With presentations by industry experts, the course covers topics such as Liquid architecture, tokenization applications, technical concepts of Elements, and innovative use cases like the Breez SDK. Designed to be accessible for beginners and intermediate users, the course also offers value to experienced developers seeking to master Liquid as a platform for optimizing their projects.
 +++
 
 # Introduction
@@ -25,7 +25,7 @@ With presentations by industry experts, the course covers topics such as Liquid 
 
 Welcome to the Liquid Bootcamp, a comprehensive training designed to equip you with the knowledge and skills to effectively leverage the Liquid Network and the Elements project. This course offers a comprehensive exploration of Liquid's distinctive features, including Confidential Transactions, asset issuance, and its federated network architecture, while also introducing the foundational concepts of Elements, the software that powers Liquid.
 
-Throughout the boot camp, you will explore the practical applications of the Liquid Network, from setting up and operating nodes to understanding its use in Bitcoin's capital markets and tokenization. With presentations from industry experts, you will also gain insights into advanced topics like HTLCs, the Breeze SDK, and the Blockstream AMP project.
+Throughout the boot camp, you will explore the practical applications of the Liquid Network, from setting up and operating nodes to understanding its use in Bitcoin's capital markets and tokenization. With presentations from industry experts, you will also gain insights into advanced topics like HTLCs, the Breez SDK, and the Blockstream AMP project.
 
 This bootcamp was originally conducted as an in-person event, following a structured schedule (as shown in the image) designed for live sessions. However, for this course adaptation, the content has been reorganized to better suit an online format and facilitate student comprehension. The new order ensures a logical progression from foundational concepts to more advanced and technical topics, thereby maximizing the learning experience.
 
@@ -261,15 +261,15 @@ For a wallet to function, it must successfully reverse this process. When a wall
 <partId>53629f58-b9e0-4a10-8ab2-d51b047414f8</partId>
 <chapterId>f1fdf2b0-4b6a-4ba7-812c-7586dcb36713</chapterId>
 
-## Breeze SDK - Nodeless
+## Breez SDK - Nodeless
 
 <chapterId>fb77442c-3d1e-427e-b2f5-16668ce4c643</chapterId>
 
 :::video id=1a6289b5-fdae-4320-b5b1-41925150108c:::
 
-### Introduction to Breeze Liquid SDK
+### Introduction to Breez Liquid SDK
 
-The Breeze Liquid SDK is a self-custodial, open-source toolkit designed to bridge the gap between the Liquid Network and the broader Bitcoin ecosystem. Its primary mission is to abstract the complexities of Lightning Network node management and atomic swaps, allowing developers to build frictionless financial applications.
+The Breez Liquid SDK is a self-custodial, open-source toolkit designed to bridge the gap between the Liquid Network and the broader Bitcoin ecosystem. Its primary mission is to abstract the complexities of Lightning Network node management and atomic swaps, allowing developers to build frictionless financial applications.
 
 Built with a "mobile-first" philosophy, the core logic is written in Rust for performance and safety, but it utilizes UniFFI (Unified Foreign Function Interface) to provide native bindings for Kotlin, Swift, Python, C#, Dart, and Flutter. This ensures that developers can integrate Bitcoin functionality into their preferred environment without managing low-level cryptographic operations.
 
@@ -283,7 +283,7 @@ The SDK operates with Liquid as its "home base." It excels at three specific ope
 
 ### Payment Architectures: Submarine Swaps
 
-To achieve interoperability between Liquid, Lightning, and Bitcoin without centralized custodians, Breeze relies on **Submarine Swaps**. These are atomic operations where a transaction either completes successfully on both networks or fails on both, ensuring funds are never lost in transit.
+To achieve interoperability between Liquid, Lightning, and Bitcoin without centralized custodians, Breez relies on **Submarine Swaps**. These are atomic operations where a transaction either completes successfully on both networks or fails on both, ensuring funds are never lost in transit.
 
 #### Lightning Send (Submarine Swap)
 When a user pays a Lightning invoice, the SDK broadcasts a "lock-up" transaction on the Liquid Network. This effectively puts the funds in escrow. The swap provider (Boltz) detects this, pays the Lightning invoice, and then uses the payment preimage (the cryptographic receipt) to claim the locked Liquid funds.
@@ -296,7 +296,7 @@ For Liquid-to-Bitcoin transfers, the architecture uses a "dual-swap" mechanism. 
 
 ### Developer Interface and Automated Management
 
-The Breeze SDK simplifies the developer experience by condensing complex financial flows into a standardized three-step process: **Connect, Prepare, and Execute**.
+The Breez SDK simplifies the developer experience by condensing complex financial flows into a standardized three-step process: **Connect, Prepare, and Execute**.
 
 1.  **Connect:** Initializes the wallet, syncs with the blockchain using the Liquid Wallet Kit (LWK), and establishes WebSocket connections for real-time monitoring.
 2.  **Prepare:** Before committing funds, this step calculates and returns all associated network fees and swap costs, allowing the UI to present a clear total to the user.

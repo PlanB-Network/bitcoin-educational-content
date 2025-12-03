@@ -2956,7 +2956,7 @@ Det finnes ulike Lightning-lommebøker, og hver av dem er tilpasset ulike bruker
 - Funksjoner**: Nettleserutvidelse, åpen kildekode, støtter både modeller med og uten forvalteransvar, noe som øker allsidigheten.
 
 
-#### Breeze:
+#### Breez:
 
 
 
@@ -2967,7 +2967,7 @@ Det finnes ulike Lightning-lommebøker, og hver av dem er tilpasset ulike bruker
 
 
 
-- Funksjoner**: I likhet med Breeze, bruker en LSP-modell for likviditet, åpen kildekode, fokuserer på brukervennlighet og effektiv likviditetsstyring.
+- Funksjoner**: I likhet med Breez, bruker en LSP-modell for likviditet, åpen kildekode, fokuserer på brukervennlighet og effektiv likviditetsstyring.
 
 
 #### Åpne Bitcoin Wallet (OBW):
@@ -2985,7 +2985,7 @@ Lommebøker kan klassifiseres basert på hvem som har de private nøklene og hve
 
 
 - Depotlommebøker**: Tredjeparter har private nøkler, og tilbyr vanligvis automatisk likviditetsstyring. Eksempler inkluderer Wallet eller Satoshi.
-- Lommebøker som ikke er depotlommebøker**: Brukerne har private nøkler, og kan kreve manuell likviditetsstyring. Eksempler inkluderer Breeze og OBW.
+- Lommebøker som ikke er depotlommebøker**: Brukerne har private nøkler, og kan kreve manuell likviditetsstyring. Eksempler inkluderer Breez og OBW.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -3293,7 +3293,7 @@ blinded-baner er utformet for å forbedre mottakerens personvern i Lightning Net
 
 **Lightning Service Providers (LSP-er)**
 
-Lightning Service Providers (LSP-er) er utviklet av Breeze Wallet og har som mål å forbedre brukeropplevelsen ved å muliggjøre øyeblikkelig mottak. LSP-er åpner kanaler for brukerne, på samme måte som internettleverandører tilbyr tilkoblingstjenester. Denne innovasjonen forenkler brukerens oppstartsprosess og sikrer sømløse interaksjoner på Lightning Network.
+Lightning Service Providers (LSP-er) er utviklet av Breez Wallet og har som mål å forbedre brukeropplevelsen ved å muliggjøre øyeblikkelig mottak. LSP-er åpner kanaler for brukerne, på samme måte som internettleverandører tilbyr tilkoblingstjenester. Denne innovasjonen forenkler brukerens oppstartsprosess og sikrer sømløse interaksjoner på Lightning Network.
 
 
 **Ressurser for å holde deg oppdatert**

@@ -6,3 +6,4 @@ wrong_answers:
   - Installation von verifizierter wallet-Software aus offiziellen Quellen mit digitalen Signaturen
 explanation: |
   Um Bitcoin vertrauensfrei zu nutzen, müssen Sie einen vollständig validierenden Bitcoin-Knoten betreiben, der unabhängig verifiziert, dass alle Blöcke den Konsensregeln folgen, den Zeitplan für die Ausgabe von Münzen überprüft und Doppelausgaben verhindert. Dadurch wird sichergestellt, dass Sie die Verifizierung nicht an andere auslagern und die vertrauenslose Eigenschaft beibehalten. Die Nutzung von Börsen oder Drittanbietern bedeutet, dass Sie darauf vertrauen, dass andere Ihnen die Wahrheit über den Zustand der Blockchain sagen. Überprüfte Software ist zwar wichtig für die Sicherheit, macht aber die Notwendigkeit eines eigenen Validierungsknotens nicht überflüssig, um echte Vertrauenslosigkeit im Bitcoin-System zu erreichen.
+reviewed: false

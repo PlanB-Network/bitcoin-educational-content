@@ -1,0 +1,8 @@
+question: When designing an Auto Loop budget system for a high-volume routing node, what is the most critical strategic consideration for balancing cost control with liquidity efficiency?
+answer: Setting minimum loop sizes high enough to ensure swap amounts significantly exceed total fee costs while maintaining budget limits that allow frequent rebalancing
+wrong_answers:
+  - Maximizing the total budget allocation to ensure unlimited liquidity operations regardless of fee market conditions or swap efficiency ratios
+  - Setting extremely low minimum loop sizes to enable micro-adjustments while using maximum fee limits to control individual transaction costs
+  - Prioritizing node-level operations over channel-level management to reduce complexity while setting monthly budget cycles for predictable cost planning
+explanation: |
+  The correct answer addresses the fundamental tension in Auto Loop design: preventing "dust" loops that are consumed by fees while ensuring sufficient budget flexibility for necessary rebalancing. The first wrong answer ignores cost control entirely, which could lead to runaway expenses. The second creates inefficient micro-swaps that waste money on fees relative to liquidity gained. The third misunderstands that channel-level precision is often crucial for high-value routing relationships, and budget cycles should match operational needs, not arbitrary timeframes.

@@ -6,3 +6,4 @@ wrong_answers:
   - Des frais administratifs peuvent être exigés, mais uniquement pour les redistributions commerciales
 explanation: |
   La définition de l'open source stipule explicitement dans la rubrique "Free Redistribution" que "The license shall not require a royalty or other fee for such sale" (la licence ne doit pas exiger de redevance ou d'autres frais pour une telle vente) Cela signifie que les logiciels libres doivent pouvoir être redistribués librement, sans frais ni redevances obligatoires. Les autres options suggèrent à tort que divers types de frais sont autorisés, ce qui violerait le principe fondamental de libre redistribution qui définit les logiciels libres.
+reviewed: false

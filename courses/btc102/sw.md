@@ -1,23 +1,23 @@
 ---
-name: Kupata bitcoins zako za kwanza
-goal: Jifunze jinsi ya kununua, kulinda na kudhibiti bitcoins zako za kwanza kwa kujitegemea.
+name: Kupata bitcoin zako za kwanza
+goal: Jifunze jinsi ya kununua, kulinda na kudhibiti bitcoin zako za kwanza kwa kujitegemea.
 objectives: 
 
   - Tambua na uepuke mitego ya kawaida inayohusishwa na Bitcoin
   - Fahamu misingi ya Bitcoin
   - Chagua mkakati sahihi wa usalama ambao unafaa zaidi mahitaji yako
-  - Jifunze jinsi na wapi kupata bitcoins zako za kwanza
-  - Andaa mpango wa urithi wa kuhamisha bitcoins zako
+  - Jifunze jinsi na wapi kupata bitcoin zako za kwanza
+  - Andaa mpango wa urithi wa kuhamisha bitcoin zako
 
 
 ---
-# Safari ya bitcoins zako za kwanza
+# Safari ya bitcoin zako za kwanza
 
 
 Mfumo ikolojia wa Bitcoin unakabiliwa na ukuaji wa kuvutia na usio na kifani. Mabadiliko ya kiteknolojia, kiuchumi na kijamii yanayoendeshwa na uvumbuzi wa Satoshi Nakamoto yanazidi kuongezeka siku baada ya siku, na hatua kwa hatua yanafungua milango ya ulimwengu mpya, ambao sasa unaweza kuutumia kikamilifu.
 
 
-Kupiga mbizi kwenye shimo la sungura la `Bitcoin` ni safari ya kusisimua ya kiakili itakayochochea fikra zako makini na kutoa changamoto kwa imani zako nyingi. Uchanganuzi huu haukupi tu uelewa wa kina wa jinsi `Bitcoin` inavyofanya kazi, bali pia unatoa fursa halisi ya kurejesha uhuru wako wa kibinafsi, kulinda faragha yako, na kufikia mamlaka kamili ya kifedha.
+kuzama kwa kina kwenye mada tata ya `Bitcoin` ni safari ya kusisimua ya kiakili itakayochochea fikra zako makini na kutoa changamoto kwa imani zako nyingi. Uchanganuzi huu haukupi tu uelewa wa kina wa jinsi `Bitcoin` inavyofanya kazi, bali pia unatoa fursa halisi ya kurejesha uhuru wako wa kibinafsi, kulinda faragha yako, na kufikia mamlaka kamili ya kifedha.
 
 
 Ili kukuongoza vyema katika safari hii, nimeunda kozi hii isiyolipishwa kabisa. Hapa, lengo ni Bitcoin pekee. Hakuna mijadala isiyo na maana, hakuna kutaja cryptocurrencies zingine, bali maudhui yaliyo wazi, sahihi, na ya moja kwa moja.
@@ -44,12 +44,12 @@ Kozi hii imeundwa ili kukupa udhibiti kamili wa jinsi unavyojifunza, kukuruhusu 
 Karibu kwenye BTC102! Ikiwa tayari umekamilisha BTC101, umechunguza dhana muhimu za kinadharia kwa nini Bitcoin ni teknolojia ya kimapinduzi. Sasa, kwa BTC102, ni wakati wa kuweka maarifa hayo katika vitendo. Kozi hii imeundwa ili kukusaidia kuunda mpango wako wa kibinafsi wa Bitcoin, hatua kwa hatua.
 
 
-Katika sura zilizo mbele yetu, tutakuongoza kupitia hatua za vitendo ili **kupata bitcoins zako za kwanza**, **kuzilinda** ipasavyo, na kuchukua hatua zako za kwanza kwa ujasiri katika mfumo huu wa ikolojia unaokua kwa kasi.
+Katika sura zilizo mbele yetu, tutakuongoza kupitia hatua za vitendo ili **kupata bitcoin zako za kwanza**, **kuzilinda** ipasavyo, na kuchukua hatua zako za kwanza kwa ujasiri katika mfumo huu wa ikolojia unaokua kwa kasi.
 
 
 https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
-Ingawa Bitcoin imekuwepo kwa zaidi ya miaka 16, tasnia bado ni changa, yenye nguvu, na imejikita katika uhuru. Itifaki yake ya msingi imegawanywa kikamilifu na ni sugu kudhibitiwa na mamlaka yoyote kuu, ikiruhusu mfumo ikolojia kukua kwa njia ya asili na ya kikaboni.
+Ingawa Bitcoin imekuwepo kwa zaidi ya miaka 16, tasnia bado ni changa, yenye nguvu, na imejikita katika uhuru. Protocol yake ya msingi imegawanywa kikamilifu na ni sugu kudhibitiwa na mamlaka yoyote kuu, ikiruhusu mfumo ikolojia kukua kwa njia ya asili na ya kikaboni.
 
 Ingawa uhuru huu unachochea wimbi la uvumbuzi na fursa ya ajabu, pia unakuja na hatari fulani, ikiwa ni pamoja na ulaghai, makosa ya kawaida na mitego ambayo mara nyingi hutokana na ukosefu wa ujuzi. Lengo kuu la kozi hii ni kukusaidia kuabiri mfumo huu mpya wa ikolojia kwa ujasiri na usalama.
 
@@ -67,7 +67,7 @@ Hatimaye, nitakupa vidokezo vichache vya vitendo vilivyoundwa mahususi kwa wanao
 
 Sehemu ya pili, "Kuelewa unachoingia", itaongeza uelewa wako wa jumla wa Bitcoin. Tutaanza na ukaguzi ili kuhakikisha unaelewa kikamilifu dhana muhimu.
 
-Kisha, tutaeleza kwa nini Bitcoin ni muhimu kimsingi kutoka kwa mitazamo ya kiteknolojia, kiuchumi, na kijamii, huku ikiimarisha imani yako katika thamani yake. Pia, utachunguza tasnia ya Bitcoin kwa ujumla: wahusika wake wakuu, muundo wa shirika lake, na mabadiliko yaliyotokea kwa miaka mingi. Hatimaye, tutashughulikia usanifu wa tabaka wa mfumo ikolojia wa Bitcoin — dhana muhimu ya kuelewa jinsi mfumo huu unavyoendelea kuvumbua bila kuathiri uadilifu wa itifaki yake kuu.
+Kisha, tutaeleza kwa nini Bitcoin ni muhimu kimsingi kutoka kwa mitazamo ya kiteknolojia, kiuchumi, na kijamii, huku ikiimarisha imani yako katika thamani yake. Pia, utachunguza tasnia ya Bitcoin kwa ujumla: wahusika wake wakuu, muundo wa shirika lake, na mabadiliko yaliyotokea kwa miaka mingi. Hatimaye, tutashughulikia usanifu wa tabaka wa mfumo ikolojia wa Bitcoin — dhana muhimu ya kuelewa jinsi mfumo huu unavyoendelea kuvumbua bila kuathiri uadilifu wa protocol yake kuu.
 
 
 ![image](assets/sw/002.webp)
@@ -130,7 +130,7 @@ Kabla ya kuendelea zaidi, ni muhimu kutofautisha wazi kati ya ulimwengu mbili to
 
 
 
-- **Mfumo ikolojia wa Bitcoin** umejikita kwenye wazo la pesa nzuri, linalojengwa juu ya ugatuaji thabiti wa madaraka, uthabiti wa muda mrefu, faragha, na uhuru wa mtu binafsi. Tangu kuzinduliwa kwake mwaka wa 2009, Bitcoin imefanya kazi kwa uhakika na kwa usalama, ikiungwa mkono na jumuiya ya kimataifa, iliyojitolea ya wasanidi programu. Sio mwelekeo wa kupita, lakini itifaki thabiti na iliyoimarishwa vizuri iliyoundwa ili kuhifadhi thamani kwa wakati.
+- **Mfumo ikolojia wa Bitcoin** umejikita kwenye wazo la pesa nzuri, linalojengwa juu ya ugatuaji thabiti wa madaraka, uthabiti wa muda mrefu, faragha, na uhuru wa mtu binafsi. Tangu kuzinduliwa kwake mwaka wa 2009, Bitcoin imefanya kazi kwa uhakika na kwa usalama, ikiungwa mkono na jumuiya ya kimataifa, iliyojitolea ya wasanidi programu. Sio mwelekeo wa kupita, lakini protocol thabiti na iliyoimarishwa vizuri iliyoundwa ili kuhifadhi thamani kwa wakati.
 
 
 
@@ -176,13 +176,13 @@ Ulaghai huu kawaida huwa na:
 - Ukosefu kamili wa uwazi juu ya chanzo halisi cha mapato yaliyoahidiwa.
 
 
-Hatimaye, mipango yote ya piramidi na Ponzi inaelekea kushindwa. Udhaifu wao wa kimsingi upo katika hitaji la mara kwa mara la kuleta wawekezaji wapya kulipa faida kwa washiriki wa awali. Hitaji hili linakuwa haliwezekani kudumishwa kihisabati kwa muda kwa sababu idadi ya waajiriwa wapya wanaohitajika huongezeka kwa kasi kadri mfumo unavyokua. Mara tu hatua muhimu inapofikiwa, washiriki wanaanza kuwa na shaka, uaminifu hupotea, na piramidi nzima huanguka. Katika hatua hii, watu wa mwisho kujiunga, mara nyingi wasio na ufahamu mdogo, hupoteza uwekezaji wao wote bila njia ya kuirejesha, huku waandaaji au wawekezaji wa mapema kwa kawaida wakiwa tayari wametoa fedha zao na kuacha mfumo.
+Hatimaye, mipango yote ya piramidi na Ponzi inaelekea kushindwa. Udhaifu wao wa kimsingi upo katika hitaji la mara kwa mara la kuleta wawekezaji wapya kulipa faida kwa washiriki wa awali. Hitaji hilo linakuwa haliwezekani kudumishwa kihisabati kwa muda, kwa sababu idadi ya waajiriwa wapya wanaohitajika huongezeka kwa kasi kadri mfumo unavyokua. Mara tu hatua muhimu inapofikiwa, washiriki wanaanza kuwa na shaka, uaminifu hupotea, na piramidi nzima huanguka. Katika hatua hii, watu wa mwisho kujiunga—mara nyingi wasio na ufahamu wa kutosha—hupoteza uwekezaji wao wote bila njia ya kuurejesha, huku waandaaji au wawekezaji wa mapema kwa kawaida wakiwa tayari wametoa fedha zao na kuacha mfumo.
 
 
 Katika ulimwengu wa cryptocurrency, miradi ya Ponzi inaweza kuchukua sura nyingi—mara nyingi ikiwa imeundwa kuficha asili yake ya ulaghai nyuma ya kinyago cha kiteknolojia au kifedha. Ulaghai huu huweza kujitokeza kama matoleo mapya ya tokeni au Matoleo ya Initial Coin Offering (ICO), ambayo ni njia za kuchangisha fedha ambapo cryptocurrency mpya huuzwa kwa umma. Nyuma ya istilahi za kiufundi kama "blockchain," "mikataba mahiri," au "uwekaji alama" (tokenization), baadhi ya miradi huficha mifumo changamano ya mtindo wa piramidi. Wengine hudai kutoa faida kubwa kwa kuchanganya mali za crypto zenye mashaka na mifumo ya malipo inayotegemea kabisa ongezeko la wawekezaji wapya.
   
 
-Hivi majuzi, miradi ya Ponzi pia imeenea katika ulimwengu wa Fedha zilizowekwa madarakani (DeFi). Ingawa DeFi inakusudiwa kutoa huduma za kifedha bila wasuluhishi, baadhi ya miradi huitumia kutoa dhana potofu ya uhalali wa ulaghai wao. Baadhi ya majukwaa ya DeFi yanaahidi mapato ya juu, yaliyohakikishwa katika Exchange kwa amana za cryptocurrency kwenye itifaki otomatiki. Ahadi hizi za kuvutia mara nyingi zinaungwa mkono na mifumo isiyo wazi na isiyoweza kuthibitishwa, na ishara iliyoundwa mahsusi kwa ulaghai. Kwa kweli, mifumo hii haina mtindo endelevu wa biashara—rejesho hulipwa tu kutoka kwa fedha za watumiaji wapya, kama vile mpango wa kitamaduni wa Ponzi. Imani inapoanza kupotea au mmiminiko wa washiriki wapya unapopungua, mifumo hii inaporomoka, na kusababisha hasara kubwa kwa wawekezaji wasiotarajia.
+Hivi majuzi, miradi ya Ponzi pia imeenea katika ulimwengu wa Fedha zilizowekwa madarakani (DeFi). Ingawa DeFi inakusudiwa kutoa huduma za kifedha bila wasuluhishi, baadhi ya miradi huitumia kutoa dhana potofu ya uhalali wa ulaghai wao. Baadhi ya majukwaa ya DeFi yanaahidi mapato ya juu, yaliyohakikishwa katika Exchange kwa amana za cryptocurrency kwenye protocol otomatiki. Ahadi hizi za kuvutia mara nyingi zinaungwa mkono na mifumo isiyo wazi na isiyoweza kuthibitishwa, na ishara iliyoundwa mahsusi kwa ulaghai. Kwa kweli, mifumo hii haina mtindo endelevu wa biashara—rejesho hulipwa tu kutoka kwa fedha za watumiaji wapya, kama vile mpango wa kitamaduni wa Ponzi. Imani inapoanza kupotea au mmiminiko wa washiriki wapya unapopungua, mifumo hii inaporomoka, na kusababisha hasara kubwa kwa wawekezaji wasiotarajia.
 
 
 Tafadhali kumbuka kuwa maudhui ya kozi hii ni kwa madhumuni ya kielimu pekee na hayapaswi kufasiriwa kama ushauri wa kifedha. Usalama wako wa kifedha unategemea uwezo wako wa kubaki kuwa mwangalifu, mwenye kutilia shaka na mwenye ufahamu wa kutosha katika kila uamuzi wa kifedha unaofanya.
@@ -262,7 +262,7 @@ Kabla ya kubofya kiungo au kuchukua hatua yoyote, daima angalia mara mbili utamb
 #### Bitcoin Hardforks
 
 
-Kwa miaka mingi, Bitcoin imepitia uma *Hard* kadhaa, ambayo ilisababisha kuundwa kwa matoleo mbadala ya cryptocurrency asilia. Kwa maneno rahisi, *Hard Fork* ni mgawanyiko katika mtandao ambao unaongoza kwa blockchains mbili tofauti, zote zinashiriki historia sawa hadi wakati wa mgawanyiko. Uma hizi kwa kawaida hutokea wakati sehemu ya jumuiya ya wasanidi programu au mfumo mpana wa Bitcoin inataka kuleta mabadiliko makubwa kwa itifaki asili lakini haiwezi kufikia makubaliano yaliyoenea. Badala ya kuachana na mawazo yao, wanaamua kuzindua toleo jipya la Bitcoin (na sheria zilizobadilishwa) wakitumaini kwamba watumiaji na wachimbaji watachagua kufuata Fork yao badala yake.
+Kwa miaka mingi, Bitcoin imepitia uma *Hard* kadhaa, ambayo ilisababisha kuundwa kwa matoleo mbadala ya cryptocurrency asilia. Kwa maneno rahisi, *Hard Fork* ni mgawanyiko katika mtandao ambao unaongoza kwa blockchains mbili tofauti, zote zinashiriki historia sawa hadi wakati wa mgawanyiko. Uma hizi kwa kawaida hutokea wakati sehemu ya jumuiya ya wasanidi programu au mfumo mpana wa Bitcoin inataka kuleta mabadiliko makubwa kwa protocol asili lakini haiwezi kufikia makubaliano yaliyoenea. Badala ya kuachana na mawazo yao, wanaamua kuzindua toleo jipya la Bitcoin (na sheria zilizobadilishwa) wakitumaini kwamba watumiaji na miners watachagua kufuata Fork yao badala yake.
 
 
 ![image](assets/sw/011.webp)
@@ -293,7 +293,7 @@ Washawishi hawa mara nyingi hutegemea mbinu zilizothibitishwa ili kuvutia wanaoa
 Ni muhimu kuelewa kwamba ushauri mwingi "wa bure" kutoka kwa watu hawa sio bure kabisa. Nyuma ya uso wa ukarimu mara nyingi kuna mkakati uliokokotolewa wa kuwaelekeza watu kwenye ununuzi wa mali zinazotiliwa shaka. Na hata kama baadhi ya washawishi wangekuwa waaminifu, kuiga matokeo yao kungekuwa karibu kutowezekana; mafanikio yao mara nyingi hutegemea muda maalum, maarifa ya ndani, au hali za kipekee ambazo huna ufikiaji.
 
 
-Baadhi ya watu wanaoshawishiwa wanaweza kukualika ujiunge na vikundi vya faragha vinavyolipiwa, ambavyo vinadai kutoa mawimbi ya kipekee ya biashara au vidokezo vya ndani vinavyoahidi faida za haraka na rahisi. Kwa hakika, vikundi hivi huwanufaisha zaidi waandaaji wake. Mara nyingi hutumia wafuasi wao kama chanzo cha ukwasi—kimsingi wakipakua mali kwa faida yao binafsi. Kwa kawaida, wanaojiunga huishia kupoteza pesa kwa sababu hawawezi kujibu kwa haraka kama wale wa ndani wanaopanga mikakati ya biashara (tazama sehemu ya Mipango ya Pump & Dump).
+Baadhi ya watu wanaoshawishiwa wanaweza kukualika ujiunge na vikundi vya faragha vinavyolipiwa, ambavyo vinadai kutoa signals ya kipekee ya biashara au vidokezo vya ndani vinavyoahidi faida za haraka na rahisi. Kwa hakika, vikundi hivi huwanufaisha zaidi waandaaji wake. Mara nyingi hutumia wafuasi wao kama chanzo cha ukwasi—kimsingi wakipakua mali kwa faida yao binafsi. Kwa kawaida, wanaojiunga huishia kupoteza pesa kwa sababu hawawezi kujibu kwa haraka kama wale wa ndani wanaopanga mikakati ya biashara (tazama sehemu ya Mipango ya Pump & Dump).
 
 
 Kwa kuzingatia ukweli huu, hapa kuna baadhi ya tabia nzuri za kufuata ili kuepuka kuanguka katika mitego iliyowekwa na washawishi wasio waaminifu:
@@ -340,7 +340,7 @@ Hatimaye, utetezi wako bora ni elimu ya kibinafsi, mashaka yenye afya, na muhimu
 - Usiamini kamwe kwa upofu: "*Usiamini, thibitisha*" ;
 - Kuwa na mashaka juu ya mapato ya juu ya uhakika au isiyo ya kawaida;
 - Kamwe usishiriki funguo zako za faragha na mtu yeyote;
-- Usitume Bitcoin (au crypto yoyote) kwa anwani zisizojulikana;
+- Usitume Bitcoin (au crypto yoyote) kwa address zisizojulikana;
 - Ikiwa una shaka, pumzika. Rudi nyuma na ufikirie kabla ya kuchukua hatua. FOMO ni adui yako mbaya zaidi;
 - Epuka vikundi vya biashara vinavyolipwa au jumuiya zinazotoa ahadi zisizo za kweli;
 - Zawadi nyingi au bahati nasibu "za bure" mtandaoni ni ulaghai au zilizoibiwa sana;
@@ -384,7 +384,7 @@ Zaidi ya hayo, thamani ya kifedha ya Bitcoin inafanya kuwa lengo la thamani ya j
 ### Kompyuta safi, iliyosasishwa
 
 
-Mojawapo ya vipengele vinavyopuuzwa sana katika usalama wa kibinafsi ni kusasisha mfumo wa uendeshaji pamoja na programu zako. Masasisho mengi hutengeneza udhaifu unaojulikana ambao unaweza kutumiwa vibaya na washambuliaji. Ingawa baadhi ya watu huepuka masasisho wakihofia matatizo ya utendakazi, hatari halisi iko katika kutumia programu zilizopitwa na wakati, ambazo wadukuzi tayari wanajua jinsi ya kuzivunja
+Mojawapo ya vipengele vinavyopuuzwa sana katika usalama wa kibinafsi ni kusasisha mfumo wa uendeshaji pamoja na programu zako. Masasisho mengi hutengeneza udhaifu unaojulikana ambao unaweza kutumiwa vibaya na washambuliaji. Ingawa baadhi ya watu huepuka masasisho wakihofia matatizo ya utendakazi, hatari halisi iko katika kutumia programu zilizopitwa na wakati, ambazo wadukuzi tayari wanajua jinsi ya kuzivunja.
 
 
 Inapendekezwa pia kutumia Tumia antivirus inayoaminika. Kwenye Windows, Windows Defender iliyojengwa ndani kwa kawaida inatosha kwa watumiaji wengi. Ikiwa unapendelea vipengele vya ziada au utulivu wa akili, kuna chaguzi za kibiashara kama Kaspersky pia. Kwenye macOS, ingawa kihistoria programu hasidi zimekuwa chache, bado ni busara kuchukua tahadhari
@@ -393,7 +393,7 @@ Inapendekezwa pia kutumia Tumia antivirus inayoaminika. Kwenye Windows, Windows 
 ![image](assets/sw/013.webp)
 
 
-Zaidi ya masasisho ya mfumo na ulinzi wa antivirus, jihadhari sana na kupakua programu kutoka kwa tovuti zenye michoro au ile inayoitwa lango la "ulimwengu" la upakuaji. Unapohitaji zana au programu, nenda moja kwa moja kwenye chanzo rasmi kila wakati;Hii inapunguza kwa kiasi kikubwa hatari ya kusakinisha programu hasidi iliyofichwa kama programu halali.
+Zaidi ya masasisho ya mfumo na ulinzi wa antivirus, jihadhari sana na kupakua programu kutoka kwa tovuti zenye michoro au ile inayoitwa lango la “ulimwengu” la upakuaji. Unapohitaji zana au programu, nenda moja kwa moja kwenye chanzo rasmi kila wakati; hii inapunguza kwa kiasi kikubwa hatari ya kusakinisha programu hasidi iliyofichwa kama programu halali.
 
 Tabia nyingine nzuri ni kuthibitisha uhalisi na uadilifu wa programu yoyote kabla ya kuisakinisha kwenye mashine yako. Iwapo huna uhakika jinsi ya kufanya hivyo, usijali tuna mafunzo maalum ya kukusaidia katika mchakato huu:
 
@@ -434,7 +434,7 @@ Kidhibiti cha nenosiri hukuruhusu:
 
 - **Hifadhi manenosiri yako yote kwa usalama** katika chumba kilichosimbwa kwa njia fiche
 - Manenosiri marefu, changamano na ya kipekee ya **generate** kiotomatiki kwa kila akaunti
-- Tumia nenosiri kuu moja tu **, ili kufikia kila kitu kwa usalama
+- **Tumia nenosiri kuu moja tu**, ili kufikia kila kitu kwa usalama
 
 
 Ukiwa na kidhibiti cha nenosiri, hutawahi kubofya "Umesahau nenosiri" tena au kutegemea vitambulisho dhaifu vilivyotumika tena. Zaidi ya hayo, wasimamizi wengi wa nenosiri husawazisha kirahisi kwenye vifaa vyako vyote (kompyuta ya mezani, simu, kompyuta kibao) na hata kujaza fomu za kuingia kiotomatiki, hivyo kufanya ufikiaji salama kuwa rahisi na mzuri.
@@ -487,7 +487,7 @@ https://planb.academy/tutorials/computer-security/authentication/security-key-61
 Faragha na usalama wa mtandao zimeunganishwa kwa karibu: maelezo zaidi unayoacha yaweze kufikiwa kwa urahisi, ndivyo uwezekano wa kuwa mlengwa zaidi.
 
 
-**VPN** (*Virtual Private Network*) ni hatua rahisi lakini yenye ufanisi ya kuficha IP yako Address na kusimba trafiki yako ya mtandaoni kwa njia fiche. Ingawa haitakufanya usionekane kabisa (kwa kuwa mtoa huduma wa VPN bado anaweza kuona shughuli zako), inafanya iwe vigumu zaidi kwa mtu yeyote anayejaribu kukupeleleza au kufuatilia tabia zako za kuvinjari.
+**VPN** (*Virtual Private Network*) ni hatua rahisi lakini yenye ufanisi ya kuficha IP Address yako na kusimba trafiki yako ya mtandaoni kwa njia fiche. Ingawa haitakufanya usionekane kabisa (kwa kuwa mtoa huduma wa VPN bado anaweza kuona shughuli zako), inafanya iwe vigumu zaidi kwa mtu yeyote anayejaribu kukupeleleza au kufuatilia tabia zako za kuvinjari.
 
 Jambo kuu ni kuchagua mtoaji anayeaminika wa VPN ambaye:
 
@@ -510,7 +510,7 @@ https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5
 Hatua muhimu za kulinda faragha yako mtandaoni pia ni pamoja na:
 
 
-- Kwa kutumia **jukwaa za ujumbe zilizosimbwa kwa njia fiche** kama vile Mawimbi, SimpleX au Session;
+- Kwa kutumia **jukwaa za ujumbe zilizosimbwa kwa njia fiche** kama vile Signals, SimpleX au Session;
 - Kutumia vivinjari vinavyolenga faragha kama vile Firefox, Brave, au Tor (kwa kuboresha kutokujulikana);
 
 
@@ -575,7 +575,7 @@ Hapa kuna mambo muhimu ambayo tutapitia pamoja:
 
 
 
-- Jihadharini na **Shitcoins ** na fedha zingine zisizo na maana;
+- Jihadharini na **Shitcoins** na fedha zingine zisizo na maana;
 - Wekeza tu **fedha unazoweza kumudu kupoteza**;
 - Jua tofauti kati ya **biashara** na **kuwekeza**;
 - Jihadharini na **madhara ya kodi** ya uwekezaji wako;
@@ -598,7 +598,7 @@ Bitcoin iko wazi kwa kila mtu, lakini hiyo haimaanishi kuwa unapaswa kupiga mbiz
 
 
 - **Kupoteza kishazi chako cha seed:** Kishazi chako cha kurejesha (kwa kawaida maneno 12 au 24) ndiyo njia pekee ya kufikia Bitcoin yako ikiwa kitu kitatokea kwa Wallet yako. Ukiipoteza, pesa zako zitatoweka kabisa;
-- **Kuhifadhi bitcoins zako kwenye jukwaa la watu wengine:** Ikiwa sarafu zako ziko kwenye mfumo wa kati, huzimiliki. Unakabiliwa na hatari kama vile udukuzi, kushindwa kwa mifumo, au hata kukamata pesa;
+- **Kuhifadhi bitcoin zako kwenye jukwaa la watu wengine:** Ikiwa sarafu zako ziko kwenye mfumo wa kati, huzimiliki. Unakabiliwa na hatari kama vile udukuzi, kushindwa kwa mifumo, au hata kukamata pesa;
 - **Kupuuza faragha:** Kulinda faragha yako ni sehemu ya msingi ya kulinda mali yako. Kufichua hadharani ni kiasi gani cha Bitcoin unachoshikilia kunaweza kukufanya kuwa shabaha;
 - **Usalama wa kutosha mtandaoni:** Kushindwa kulinda vifaa vyako kwa ulinzi wa kimsingi (kama masasisho, manenosiri dhabiti au 2FA) hukufanya kuwa alama rahisi kwa washambuliaji; na inaweza kukugharimu kila kitu.
 
@@ -673,7 +673,7 @@ Zaidi ya yote, kamwe usiwekeze zaidi ya unaweza kumudu kupoteza. Epuka kukopa pe
 ### Kusimamia na kulinda Bitcoin Wallet yako
 
 
-Moja ya vipengele vyenye nguvu zaidi vya Bitcoin (na ambavyo mara nyingi havithaminiwi vya kutosha) ni **kujitunzia mali zako binafsi**. Ukiwa na pochi ya kujitegemea, wewe pekee ndiye unawajibika kwa pesa zako. Pochi hizi kwa kawaida huundwa kutoka kwa **maneno ya kurejesha ufikiaji** (yanayojulikana pia kama *seed phrase*)—mfululizo wa maneno 12 au 24 yanayokupa ufikiaji kamili wa BTC yako. Ukipoteza maneno haya (au mtu mwingine akiyapata), bitcoins zako hupotea milele. **Hakuna huduma kwa wateja. Hakuna kitufe cha kuweka upya.**
+Moja ya vipengele vyenye nguvu zaidi vya Bitcoin (na ambavyo mara nyingi havithaminiwi vya kutosha) ni **kujitunzia mali zako binafsi**. Ukiwa na wallet ya kujitegemea, wewe pekee ndiye unawajibika kwa pesa zako. Wallet hizi kwa kawaida huundwa kutoka kwa **maneno ya kurejesha ufikiaji** (yanayojulikana pia kama *seed phrase*)—mfululizo wa maneno 12 au 24 yanayokupa ufikiaji kamili wa BTC yako. Ukipoteza maneno haya (au mtu mwingine akiyapata), bitcoin zako hupotea milele. **Hakuna huduma kwa wateja. Hakuna kitufe cha kuweka upya.**
 
 
 ![image](assets/sw/025.webp)
@@ -757,7 +757,7 @@ Uuzaji unahusisha uvumi wa muda mfupi (wakati mwingine kwa manufaa) unaolenga ku
 
 Kama Warren Buffett alivyosema maarufu:
 
-"**Ikiwa hauko tayari kushikilia hisa kwa miaka kumi, usifikirie hata kuishikilia kwa dakika kumi **."
+"**Ikiwa hauko tayari kushikilia hisa kwa miaka kumi, usifikirie hata kuishikilia kwa dakika kumi**."
 
 Bitcoin sio mpango wa kupata utajiri wa haraka.
 
@@ -838,10 +838,10 @@ Kwa kufuata kanuni hizi, utaweza kukabiliana na uwekezaji wa Bitcoin kwa uwazi z
 :::kitambulisho cha video=3c2d1e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f:::
 
 
-Katika kozi hii, lengo kuu ni kukuongoza katika kupata na kupata bitcoins zako za kwanza. Lakini kabla ya kupiga mbizi katika hatua za vitendo (jinsi ya kununua BTC, ambayo pochi ya kutumia, na kadhalika) ni muhimu kuchukua hatua nyuma na kuelewa ni nini Bitcoin ni kweli. Kufahamu asili ya kina ya Bitcoin kutakusaidia kuona ni kwa nini mamilioni ya watu wanageukia teknolojia hii, na kwa nini ni muhimu kuelewa mambo ya msingi kabla ya kuweka akiba yako katika rasilimali mpya na tete kama hii.
+Katika kozi hii, lengo kuu ni kukuongoza katika kupata na kupata bitcoin zako za kwanza. Lakini kabla ya kupiga mbizi katika hatua za vitendo (jinsi ya kununua BTC, ambayo wallet ya kutumia, na kadhalika) ni muhimu kuchukua hatua nyuma na kuelewa ni nini Bitcoin ni kweli. Kufahamu asili ya kina ya Bitcoin kutakusaidia kuona ni kwa nini mamilioni ya watu wanageukia teknolojia hii, na kwa nini ni muhimu kuelewa mambo ya msingi kabla ya kuweka akiba yako katika rasilimali mpya na tete kama hii.
 
 
-Kwa miaka mingi, Bitcoin imepata kutambuliwa kama mtandao wa fedha duniani. Imeitwa "dhahabu ya dijitali", "itifaki ya uaminifu", na hata "mfumo wa kifedha sambamba." Lakini maneno hayo yanamaanisha nini hasa? Ili kujibu hilo, tutaangalia kwa karibu kiini cha Bitcoin: hadithi ya asili yake, misingi ya kiufundi, mali ya kifedha, na athari zake zinazowezekana; sio tu kwa watu binafsi, lakini kwa mfumo wa kifedha wa kimataifa kwa ujumla.
+Kwa miaka mingi, Bitcoin imepata kutambuliwa kama mtandao wa fedha duniani. Imeitwa "dhahabu ya dijitali", "protocol ya uaminifu", na hata "mfumo wa kifedha sambamba." Lakini maneno hayo yanamaanisha nini hasa? Ili kujibu hilo, tutaangalia kwa karibu kiini cha Bitcoin: hadithi ya asili yake, misingi ya kiufundi, mali ya kifedha, na athari zake zinazowezekana; sio tu kwa watu binafsi, lakini kwa mfumo wa kifedha wa kimataifa kwa ujumla.
 
 
 ### Asili: Mradi Uliozaliwa kutokana na Jitihada ya Muda Mrefu
@@ -910,13 +910,13 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 #### Rika-kwa-rika (peer-to-peer) bila chombo kikuu
 
 
-Bitcoin inafafanuliwa kama "mfumo wa pesa za kielektroniki wa rika-kwa-rika." Hii ina maana kwamba mtu yeyote anaweza kuunganisha kwenye mtandao kwa kutumia programu inayofaa (nodi ya Bitcoin) na kuingiliana moja kwa moja na watumiaji wengine, bila kutegemea seva kuu. Lengo la ugatuaji huu ni kuzuia huluki yoyote moja (kama vile benki, serikali, au shirika kubwa) kudhibiti, kuathiri, au kusimamisha mfumo. Bitcoin inafanya kazi 24/7, duniani kote, na inapatikana kwa kila mtu bila masharti yoyote.
+Bitcoin inafafanuliwa kama "mfumo wa pesa za kielektroniki wa rika-kwa-rika." Hii ina maana kwamba mtu yeyote anaweza kuunganisha kwenye mtandao kwa kutumia programu inayofaa (node ya Bitcoin) na kuingiliana moja kwa moja na watumiaji wengine, bila kutegemea seva kuu. Lengo la ugatuaji huu ni kuzuia huluki yoyote moja (kama vile benki, serikali, au shirika kubwa) kudhibiti, kuathiri, au kusimamisha mfumo. Bitcoin inafanya kazi 24/7, duniani kote, na inapatikana kwa kila mtu bila masharti yoyote.
 
 
 ![image](assets/sw/034.webp)
 
 
-Kwa maneno rahisi, kila mshiriki katika mtandao wa Bitcoin (anayeitwa "nodi") ana nakala kamili ya leja ya shughuli, inayojulikana kama **blockchain**. Shughuli mpya inapofanyika, hutangazwa kwenye mtandao. Kisha wachimbaji huthibitisha shughuli hizi kwa kuziweka katika vikundi vinavyoongezwa kwenye mwisho wa mnyororo (hivyo basi jina "blockchain").
+Kwa maneno rahisi, kila mshiriki katika mtandao wa Bitcoin (anayeitwa "node") ana nakala kamili ya leja ya miamala, inayojulikana kama **blockchain**. muamala mpya unapofanyika, hutangazwa kwenye mtandao. Kisha miners huthibitisha miamala hii kwa kuiweka katika vikundi vinavyoongezwa kwenye mwisho wa mnyororo (hivyo basi jina "blockchain").
 
 
 ![image](assets/sw/035.webp)
@@ -925,27 +925,27 @@ Kwa maneno rahisi, kila mshiriki katika mtandao wa Bitcoin (anayeitwa "nodi") an
 #### Blockchain: uhasibu Ledger
 
 
-Fikiria Blockchain kama hesabu kubwa ya Ledger, ambapo kila laini inawakilisha shughuli. Katika mfumo wa kitamaduni wa benki, hifadhidata huhifadhiwa kwenye seva za benki, ambazo zinaweza kufanya mabadiliko wakati wowote zinapotaka. Kwa upande mwingine, katika Bitcoin, **mabadiliko yote yanathibitishwa kwenye mtandao mzima**: mara tu kizuizi kipya cha miamala kinapoongezwa kwenye Blockchain, karibu haiwezekani kuibadilisha baadaye. Uthibitishaji huu uliogatuliwa hufanya Bitcoin ya Ledger kuwa salama na wazi.
+Fikiria Blockchain kama hesabu kubwa ya Ledger, ambapo kila laini inawakilisha muamala. Katika mfumo wa kitamaduni wa benki, hifadhidata huhifadhiwa kwenye seva za benki, ambazo zinaweza kufanya mabadiliko wakati wowote zinapotaka. Kwa upande mwingine, katika Bitcoin, **mabadiliko yote yanathibitishwa kwenye mtandao mzima**: mara tu block mpya ya miamala inapoongezwa kwenye Blockchain, karibu haiwezekani kuibadilisha baadaye. Uthibitishaji huu uliogatuliwa hufanya Bitcoin ya Ledger kuwa salama na wazi.
 
 
 ![image](assets/sw/036.webp)
 
 
-### Wajibu wa Wachimbaji na Proof-of-Work
+### Wajibu wa Miners na Proof-of-Work
 
 
 #### Jinsi Blocks Zinavyoundwa: Uchimbaji (Mining)
 
 
-Mining ni mchakato ambao kompyuta (au mashamba makubwa ya mining) huchangia **nguvu ya hesabu** ili kulinda historia ya muamala wa Bitcoin na kuunda blocks mpya. Wachimbaji hushindana kutatua fumbo la kihesabu—hasa, kutafuta mgongano wa hash. Utaratibu huu unahitaji nishati na rasilimali nyingi. Mara tu miner anapopata suluhu halali, hutangaza block hiyo kwenye mtandao, na nodi nyingine huithibitisha na kuikubali kuwa halali.
+Mining ni mchakato ambao kompyuta (au mashamba makubwa ya mining) huchangia **nguvu ya hesabu** ili kulinda historia ya muamala wa Bitcoin na kuunda blocks mpya. Miners hushindana kutatua fumbo la kihesabu—hasa, kutafuta mgongano wa hash. Utaratibu huu unahitaji nishati na rasilimali nyingi. Mara tu miner anapopata suluhu halali, hutangaza block hiyo kwenye mtandao, na node nyingine huithibitisha na kuikubali kuwa halali.
 
-Kama zawadi, miner hupokea bitcoins mpya zilizoundwa (zinazoitwa ruzuku ya block) pamoja na ada za miamala kutoka kwa miamala yote iliyojumuishwa kwenye block hiyo.
+Kama zawadi, miner hupokea bitcoin mpya zilizoundwa (zinazoitwa ruzuku ya block) pamoja na ada za miamala kutoka kwa miamala yote iliyojumuishwa kwenye block hiyo.
 
 
 #### Halving: Kupunguza Ruzuku ya Blocks
 
 
-Ili kuhakikisha uhaba wa Bitcoin, ruzuku ya blocks imepangwa kupunguzwa kwa nusu kila baada ya blocks 210,000; takribani kila baada ya miaka minne. Tukio hili linajulikana kama **Halving**. Wakati Bitcoin ilizinduliwa, wachimbaji walipata 50 BTC kwa block. Kufikia mwaka 2025, tuzo hiyo imeshuka hadi 3.125 BTC na itaendelea kupungua kadri muda unavyosonga.
+Ili kuhakikisha uhaba wa Bitcoin, ruzuku ya blocks imepangwa kupunguzwa kwa nusu kila baada ya blocks 210,000; takribani kila baada ya miaka minne. Tukio hili linajulikana kama **Halving**. Wakati Bitcoin ilizinduliwa, miners walipata 50 BTC kwa block. Kufikia mwaka 2025, tuzo hiyo imeshuka hadi 3.125 BTC na itaendelea kupungua kadri muda unavyosonga.
 
 Hatimaye, karibu mwaka wa 2140, ruzuku itafikia sifuri, kwani jumla ya kiasi cha Bitcoin kitakuwa kimefikia milioni 21. Mkondo huu wa utoaji unaotabirika unaiga uhaba wa bidhaa halisi kama dhahabu — ndiyo sababu Bitcoin mara nyingi hujulikana kama **dhahabu ya dijiti**.
 
@@ -961,10 +961,10 @@ Hatimaye, karibu mwaka wa 2140, ruzuku itafikia sifuri, kwani jumla ya kiasi cha
 
 Moja ya vipengele muhimu zaidi vya Bitcoin ni *sera yake ya fedha inayoweza kutabirika na isiyoweza kubadilika*. Tofauti na sarafu za kitamaduni (kama vile dola, euro au yen), ambazo zinaweza kuchapishwa kwa hiari na benki kuu (mara nyingi husababisha mfumuko wa bei au upotoshaji wa kiuchumi)Bitcoin hufanya kazi chini ya seti ya uwazi iliyopachikwa katika kanuni zake.
 
-Kutakuwa na bitcoins milioni 21 tu, na kiwango ambacho sarafu mpya hutolewa kinajulikana mapema na kila mtu kwenye mtandao.
+Kutakuwa na bitcoin milioni 21 tu, na kiwango ambacho sarafu mpya hutolewa kinajulikana mapema na kila mtu kwenye mtandao.
 
 
-Hakuna serikali, taasisi, au mtu binafsi anayeweza kubadilisha kikomo hiki cha supply au sheria za usambazaji kwa upande mmoja. Njia pekee ya kubadilisha vigezo hivi ni kubadilisha itifaki ya Bitcoin; na hata hilo linahitaji maridhiano kutoka kwa washiriki wengi wa kiuchumi wa mtandao.
+Hakuna serikali, taasisi, au mtu binafsi anayeweza kubadilisha kikomo hiki cha supply au sheria za usambazaji kwa upande mmoja. Njia pekee ya kubadilisha vigezo hivi ni kubadilisha protocol ya Bitcoin; na hata hilo linahitaji maridhiano kutoka kwa washiriki wengi wa kiuchumi wa mtandao.
 
 
 Uhaba huu uliojengeka ndani ni kivutio kikubwa kwa wale wanaotaka kujiondoa kwenye sera za fedha zisizotabirika au kuepuka mmomonyoko wa taratibu wa uwezo wao wa kununua kupitia mfumuko wa bei. Baada ya muda, hii inaweza kuwakilisha mabadiliko katika fikra za kifedha, ambapo kuokoa katika mali ya kupunguza bei kama Bitcoin kunavutia zaidi kuliko kutegemea sarafu za jadi, zinazokabiliwa na mfumuko wa bei.
@@ -982,30 +982,30 @@ Mojawapo ya uwezo wa chini kabisa wa Bitcoin ni mgawanyiko wake. Kila Bitcoin in
 ### Uwazi na Uwazi
 
 
-#### Itifaki ya umma, inayoweza kuthibitishwa na wote
+#### Protocol ya umma, inayoweza kuthibitishwa na wote
 
 
-Bitcoin huendeshwa kwa itifaki ya umma, **chanzo huria**(haswa zaidi kupitia [Bitcoin Core](https://github.com/Bitcoin/Bitcoin)). Hii inamaanisha kuwa msimbo wake unapatikana bila malipo kwa mtu yeyote kukagua, kukagua na kuboresha. Hakuna mifumo iliyofichwa au mifumo iliyofungwa; kila kitu kuhusu jinsi Bitcoin inavyofanya kazi kiko wazi.
+Bitcoin huendeshwa kwa protocol ya umma, **chanzo huria**(haswa zaidi kupitia [Bitcoin Core](https://github.com/Bitcoin/Bitcoin)). Hii inamaanisha kuwa msimbo wake unapatikana bila malipo kwa mtu yeyote kukagua, kukagua na kuboresha. Hakuna mifumo iliyofichwa au mifumo iliyofungwa; kila kitu kuhusu jinsi Bitcoin inavyofanya kazi kiko wazi.
 
-Kiwango hiki cha uwazi hufanya iwe vigumu sana kutambulisha milango ya nyuma au kufanya mabadiliko ya siri. Mtu yeyote aliye na ujuzi wa kiufundi anaweza kuendesha nodi, kuchangia maendeleo, au kuunda zana zinazolingana. Katika Bitcoin, uaminifu hupatikana kupitia msimbo na makubaliano, si kupitia udhibiti wa serikali kuu.
+Kiwango hiki cha uwazi hufanya iwe vigumu sana kutambulisha milango ya nyuma au kufanya mabadiliko ya siri. Mtu yeyote aliye na ujuzi wa kiufundi anaweza kuendesha node, kuchangia maendeleo, au kuunda zana zinazolingana. Katika Bitcoin, uaminifu hupatikana kupitia msimbo na makubaliano, si kupitia udhibiti wa serikali kuu.
 
 
 ![image](assets/sw/039.webp)
 
 
-Uwazi huu ni mojawapo ya sababu kuu za watu kuamini itifaki ya Bitcoin; inazuia kikundi kidogo cha watengenezaji kuchezea mtandao kwa faida yao wenyewe. Bitcoin hufanya kazi kwa kanuni rahisi lakini yenye nguvu: ikiwa hukubaliani na mabadiliko yaliyopendekezwa, uko huru kutosasisha programu yako. Katika baadhi ya matukio, hii haitasababisha usumbufu wowote; bado utaendelea kusawazisha na mtandao mwingine. Lakini katika hali nyingine, hii inaweza kusababisha kile kinachojulikana kama Hard Fork, ambapo mtandao unagawanyika mara mbili, na toleo jipya la Bitcoin linaundwa. Hiyo ndivyo ilivyotokea mwaka wa 2017 na mgawanyiko kati ya Bitcoin (BTC) na Bitcoin Cash (BCH).
+Uwazi huu ni mojawapo ya sababu kuu za watu kuamini protocol ya Bitcoin; inazuia kikundi kidogo cha watengenezaji kuchezea mtandao kwa faida yao wenyewe. Bitcoin hufanya kazi kwa kanuni rahisi lakini yenye nguvu: ikiwa hukubaliani na mabadiliko yaliyopendekezwa, uko huru kutosasisha programu yako. Katika baadhi ya matukio, hii haitasababisha usumbufu wowote; bado utaendelea kusawazisha na mtandao mwingine. Lakini katika hali nyingine, hii inaweza kusababisha kile kinachojulikana kama Hard Fork, ambapo mtandao unagawanyika mara mbili, na toleo jipya la Bitcoin linaundwa. Hiyo ndivyo ilivyotokea mwaka wa 2017 na mgawanyiko kati ya Bitcoin (BTC) na Bitcoin Cash (BCH).
 
 
 Ingawa aina hii ya utawala inaweza kuwa ya polepole na wakati mwingine fujo, pia ni nguvu; inahakikisha kwamba hakuna huluki moja inayoweza kudhibiti kwa upande mmoja, na kusaidia Bitcoin kubaki thabiti, isiyoegemea upande wowote, na sugu kwa uwekaji serikali kuu.
 
 
-#### Uthibitishaji wa Mtu binafsi: nodi
+#### Uthibitishaji wa Mtu binafsi: node
 
 
-Bitcoin inaruhusu mtu yeyote kuangalia usahihi wa Blockchain kwa kuendesha "nodi" kwenye kompyuta au seva yake. Hii ina maana ya kupakua programu ya Bitcoin Core (au toleo lingine la itifaki ya Bitcoin) na kuthibitisha miamala na vizuizi vyote tangu 2009. Mara tu nodi yako inapowekwa na kusawazishwa, inakuwa nakala kamili ya Blockchain na kusaidia kuunga mkono mtandao.
+Bitcoin inaruhusu mtu yeyote kuangalia usahihi wa Blockchain kwa kuendesha "node" kwenye kompyuta au seva yake. Hii ina maana ya kupakua programu ya Bitcoin Core (au toleo lingine la protocol ya Bitcoin) na kuthibitisha miamala na blocks zote tangu 2009. Mara tu node yako inapowekwa na kusawazishwa, inakuwa nakala kamili ya Blockchain na kusaidia kuunga mkono mtandao.
 
 
-Ingawa mbinu hii ni ya kiufundi zaidi, inawapa watumiaji wanaohitaji sana uwezo wa kujiondoa katika kuamini wahusika wengine. Kuendesha nodi huhakikisha kuwa watumiaji wanaweza kushiriki katika mchakato wa makubaliano na kubaki bila kubatilishwa, kuchangia moja kwa moja kwa usalama na ugatuaji wa mtandao.
+Ingawa mbinu hii ni ya kiufundi zaidi, inawapa watumiaji wanaohitaji sana uwezo wa kujiondoa katika kuamini wahusika wengine. Kuendesha node huhakikisha kwamba watumiaji wanaweza kushiriki katika mchakato wa makubaliano na kubaki bila kubatilishwa, wakichangia moja kwa moja katika usalama na ugatuaji wa mtandao.
 
 
 ### Tumia kesi
@@ -1049,7 +1049,7 @@ Ikiwa ungependa kupanua maarifa yako zaidi, unaweza kuchukua kozi ya BTC101 kwen
 
 https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
-Baada ya utangulizi huu wa Bitcoin (ambao huenda umechukua muda mrefu zaidi ya dakika 5!), sasa umeandaliwa vyema zaidi kufikiria kununua na kupata bitcoins. Katika sura zifuatazo za kozi, tutazama zaidi katika umuhimu wa Bitcoin, utendaji wa sekta yake, na maendeleo ya tabaka zake mbalimbali. Ifuatayo, katika sehemu inayokuja, tutajadili jinsi ya kuanzisha mpango wako wa kibinafsi.
+Baada ya utangulizi huu wa Bitcoin (ambao huenda umechukua muda mrefu zaidi ya dakika 5!), sasa umeandaliwa vyema zaidi kufikiria kununua na kupata bitcoin. Katika sura zifuatazo za kozi, tutazama zaidi katika umuhimu wa Bitcoin, utendaji wa sekta yake, na maendeleo ya tabaka zake mbalimbali. Ifuatayo, katika sehemu inayokuja, tutajadili jinsi ya kuanzisha mpango wako wa kibinafsi.
 
 ## Kwa nini Bitcoin ni muhimu?
 
@@ -1068,11 +1068,11 @@ Kwa nini Bitcoin ni muhimu sana? Hilo ndilo swali kuu la kozi hii. Iwe inahusian
 ### Sarafu ya ulimwengu wote
 
 
-Barack Obama aliwahi kuitaja Bitcoin kama "benki ya Uswisi mfukoni mwako," na kwa sababu nzuri. Bitcoin inatoa fursa sawa kwa kila mtu, bila kujali ni nani. Iwe wewe ni kijana, rais, muandamanaji huko Hong Kong, au "Njano Vest" nchini Ufaransa, kila mtu ana ufikiaji sawa wa itifaki na zana sawa:
+Barack Obama aliwahi kuitaja Bitcoin kama "benki ya Uswisi mfukoni mwako," na kwa sababu nzuri. Bitcoin inatoa fursa sawa kwa kila mtu, bila kujali ni nani. Iwe wewe ni kijana, rais, muandamanaji huko Hong Kong, au "Njano Vest" nchini Ufaransa, kila mtu ana ufikiaji sawa wa protocol na zana sawa:
 
 
 
-- Unda pochi zisizolipishwa na zisizo na kikomo (na Bitcoin, hatuzungumzii kuhusu "akaunti," bali "pochi").
+- Unda wallet zisizolipishwa na zisizo na kikomo (na Bitcoin, hatuzungumzii kuhusu "akaunti," bali "wallet").
 - Tuma pesa popote, kwa mtu yeyote.
 - Hakuna haja ya kitambulisho au taratibu zozote za kiutawala.
 - Inapatikana kwa wote, bila kujali umri, jinsia, dini, nchi au kiwango cha mapato.
@@ -1096,7 +1096,7 @@ Hii inatupeleka kwa swali la kimsingi, karibu la kifalsafa ambalo linagawanya wa
 ### Ulinzi dhidi ya migogoro ya sarafu
 
 
-Kwa karne nyingi, ulimwengu umekumbwa na majanga ya kifedha ambayo yamekuwa na athari mbaya kwa idadi ya watu. Mabilioni ya watu bado wanateseka kutokana na matokeo ya sera za fedha zinazosimamiwa vibaya, ambapo utumiaji mbaya wa pesa Supply na viwango vya riba huleta usawa wa kimfumo. Migogoro hii si matukio ya nasibu tu—ni matokeo ya mfumo uliojengwa juu ya uingiliaji kati na upotoshaji wa pesa na thamani za wakati.
+Kwa karne nyingi, ulimwengu umekumbwa na majanga ya kifedha ambayo yamekuwa na athari mbaya kwa idadi ya watu. Mabilioni ya watu bado wanateseka kutokana na matokeo ya sera za fedha zinazosimamiwa vibaya, ambapo utumiaji mbaya wa supply ya pesa na viwango vya riba huleta usawa wa kimfumo. Migogoro hii si matukio ya nasibu tu—ni matokeo ya mfumo uliojengwa juu ya uingiliaji kati na upotoshaji wa pesa na thamani za wakati.
 
 
 ![image](assets/sw/043.webp)
@@ -1132,7 +1132,7 @@ Kuporomoka kwa sarafu za fedha sio mabadiliko ya kihistoria; ni muundo unaojirud
 ### Jibu kwa udhibiti wa serikali na ukosefu wa haki
 
 
-Kuongezeka kwa kukosekana kwa usawa wa kiuchumi kote ulimwenguni kumekuwa msingi wa machafuko ya kijamii na kuongezeka kwa itikadi kali za kisiasa. Historia inaonyesha kwamba pengo kati ya matajiri na maskini linapozidi kuwa kubwa, mara nyingi husababisha mvutano, migogoro, na hata kuimarika kwa tawala za kimabavu. Katika uso wa hatari hizi, kulinda uhuru wako wa kifedha si anasa tu; ni hitaji kwa mtu yeyote anayetaka kuhifadhi uhuru wake na kulinda mustakabali wa familia yake.
+Kuongezeka kwa ukosefu wa usawa wa kiuchumi kote ulimwenguni kumekuwa msingi wa machafuko ya kijamii na kuongezeka kwa itikadi kali za kisiasa. Historia inaonyesha kwamba pengo kati ya matajiri na maskini linapozidi kuwa kubwa, mara nyingi husababisha mvutano, migogoro, na hata kuimarika kwa tawala za kimabavu. Katika uso wa hatari hizi, kulinda uhuru wako wa kifedha si anasa tu; ni hitaji kwa mtu yeyote anayetaka kuhifadhi uhuru wake na kulinda mustakabali wa familia yake.
 
 
 ![image](assets/sw/047.webp)
@@ -1162,10 +1162,10 @@ Kwa mwanga huu, Bitcoin ni zaidi ya teknolojia. Ni chombo cha sheria ya asili, n
 ![image](assets/sw/048.webp)
 
 
-**Je, wajua**? Bitcoin ni jina bandia, sio jina. Watumiaji wanaweza kuunda anwani za Wallet bila kufichua utambulisho wao halisi, kuwaruhusu kutuma na kupokea pesa nje ya mfumo wa kawaida wa benki.
+**Je, wajua**? Bitcoin ni jina bandia, sio jina. Watumiaji wanaweza kuunda address za Wallet bila kufichua utambulisho wao halisi, kuwaruhusu kutuma na kupokea pesa nje ya mfumo wa kawaida wa benki.
 
 
-Hata hivyo, kinyume na imani maarufu, Bitcoin haitoi kutokujulikana kamili. Kila shughuli inarekodiwa kwenye Ledger ya umma (Blockchain) ambayo mtu yeyote anaweza kufikia na kuthibitisha. Ingawa anwani za Wallet hazihusiani na majina, shughuli za kifedha za mtumiaji bado zinaweza kufuatiliwa na kuchambuliwa ikiwa mbinu sahihi za faragha hazitafuatwa.
+Hata hivyo, kinyume na imani maarufu, Bitcoin haitoi kutokujulikana kamili. Kila muamala unarekodiwa kwenye Ledger ya umma (Blockchain) ambayo mtu yeyote anaweza kufikia na kuthibitisha. Ingawa address za Wallet hazihusiani na majina, shughuli za kifedha za mtumiaji bado zinaweza kufuatiliwa na kuchambuliwa ikiwa mbinu sahihi za faragha hazitafuatwa.
 
 
 ### Suluhisho la Ufisadi wa Fedha na Benki
@@ -1192,13 +1192,13 @@ Mfumo wetu wa kisasa wa kifedha umejengwa juu ya mzunguko wa deni; moja ambapo k
 Mfumo huu umeharibiwa na ushawishi wa benki kuu na uwezo wao usiodhibitiwa wa kuchezea Supply ya pesa. **Bitcoin ndiyo mbadala.**
 
 
-Tofauti na sarafu za fedha, Bitcoin inasimamiwa na sheria zinazotekelezwa na makubaliano. Sugavi wake umefungwa; hakutakuwa na zaidi ya bitcoins milioni 21 kuwepo (kwa kweli, kidogo kidogo kutokana na jinsi utoaji unavyopangwa). Hakuna serikali, benki kuu, au mhusika mmoja wa kiuchumi anayeweza kubadilisha kikomo hiki.
+Tofauti na sarafu za fedha, Bitcoin inasimamiwa na sheria zinazotekelezwa na makubaliano. Sugavi wake umefungwa; hakutakuwa na zaidi ya bitcoin milioni 21 kuwepo (kwa kweli, kidogo kidogo kutokana na jinsi utoaji unavyopangwa). Hakuna serikali, benki kuu, au mhusika mmoja wa kiuchumi anayeweza kubadilisha kikomo hiki.
 
 
 Hii ina maana kwamba Bitcoin inafanya kazi chini ya mfumo wa fedha unaotabirika; moja ambapo mfumuko wa bei sio tu wa uwazi, lakini umeundwa kupunguza kabisa mara tu Bitcoin ya mwisho inachimbwa.
 
 
-Hapo awali, dhahabu ilitumika kama hundi dhidi ya upanuzi wa fedha ambao haujadhibitiwa. Lakini tangu kuanguka kwa kiwango cha dhahabu mnamo 1971, hakuna sarafu ya kitaifa (iwe dola, euro au yen) inayoungwa mkono na mali inayoonekana. Kikosi hiki kilizipa benki kuu uhuru wa kuchapisha pesa bila vizuizi, kikifungua njia kwa miongo kadhaa ya upanuzi mkali wa fedha, mapovu ya mara kwa mara ya mali, na migogoro ya kifedha inayojirudia.
+Hapo awali, dhahabu ilitumika kama hundi dhidi ya upanuzi wa fedha ambao haujadhibitiwa. Lakini tangu kuanguka kwa kiwango cha dhahabu mnamo 1971, hakuna sarafu ya kitaifa (iwe dola, euro au yen) inayoungwa mkono na mali inayoonekana. Kikosi hiki kilizipa benki kuu uhuru wa kuchapisha pesa bila blocks, kikifungua njia kwa miongo kadhaa ya upanuzi mkali wa fedha, mapovu ya mara kwa mara ya mali, na migogoro ya kifedha inayojirudia.
 
 
 ![image](assets/sw/050.webp)
@@ -1223,7 +1223,7 @@ Hapa ndipo kanuni ya msingi inapokuja:
 
 **"Si funguo zako, si Bitcoin yako."**
 
-Ikiwa hutadhibiti funguo za faragha za bitcoins zako, basi huzimiliki kikweli. Ziko mikononi mwa mtu wa tatu; kama fiat ilivyo kwenye benki. Lakini ikiwa unashikilia funguo zako za kibinafsi, wewe na wewe peke yako mna udhibiti kamili juu ya pesa zako. Hakuna taasisi, hakuna serikali, hakuna mamlaka inayoweza kukufungia, kukamata, au kuzuia ufikiaji wako.
+Ikiwa hutadhibiti funguo za faragha za bitcoin zako, basi huzimiliki kikweli. Ziko mikononi mwa mtu wa tatu; kama fiat ilivyo kwenye benki. Lakini ikiwa unashikilia funguo zako za kibinafsi, wewe na wewe peke yako mna udhibiti kamili juu ya pesa zako. Hakuna taasisi, hakuna serikali, hakuna mamlaka inayoweza kukufungia, kukamata, au kuzuia ufikiaji wako.
 
 Hili ndilo linaloifanya Bitcoin kuwa mbadala thabiti kwa udhaifu na ufikiaji wa mfumo wa jadi wa kifedha: uhuru wa kifedha.
 
@@ -1249,7 +1249,7 @@ Wanabiashara wa Bitcoin wanatoka nyanja mbalimbali, lakini wana maono yanayofana
 ![image](assets/sw/051.webp)
 
 
-Bitcoin, kwa muundo, inavuka migawanyiko ya kisiasa na kiitikadi. Si ya kushoto wala ya kulia, libertarian wala collectivist. Ni itifaki ya upande wowote, inayotawaliwa na sheria (si mtawala) inayotumika kwa usawa kwa kila mtu. Hata hivyo, kuwepo kwake kunaleta changamoto kwa hali ya kifedha duniani. Bitcoin imekuwa ishara ya upinzani kwa sababu watu wameichukua kama njia mbadala ya sarafu za fiat na miundombinu ya kifedha ya kati—mifumo inayozidi kuonekana kama isiyo ya haki, inayoweza kubadilishwa kiholela na inayotenga baadhi ya watu.
+Bitcoin, kwa muundo, inavuka migawanyiko ya kisiasa na kiitikadi. Si ya kushoto wala ya kulia, libertarian wala collectivist. Ni protocol ya upande wowote, inayotawaliwa na sheria (si mtawala) inayotumika kwa usawa kwa kila mtu. Hata hivyo, kuwepo kwake kunaleta changamoto kwa hali ya kifedha duniani. Bitcoin imekuwa ishara ya upinzani kwa sababu watu wameichukua kama njia mbadala ya sarafu za fiat na miundombinu ya kifedha ya kati—mifumo inayozidi kuonekana kama isiyo ya haki, inayoweza kubadilishwa kiholela na inayotenga baadhi ya watu.
 
 
 Kwa akili ya Cypherpunk, Bitcoin ni zaidi ya mali ya kidijitali. Inasimama dhidi ya mmomonyoko thabiti wa faragha katika ulimwengu ambapo upotevu wa pesa mara nyingi huhalalishwa chini ya kivuli cha "usalama."
@@ -1268,7 +1268,7 @@ Iwe imepitishwa na wapigania uhuru au na wale wanaotafuta tu kuhifadhi uwezo wao
 ![image](assets/sw/053.webp)
 
 
-Sasa kwa kuwa tumechunguza umuhimu wa kina wa uvumbuzi wa Satoshi Nakamoto, sura inayofuata itatupeleka katika tasnia ya ajabu ambayo imekua karibu na itifaki hii; mfumo mzima wa ikolojia unaounda upya fedha, teknolojia na jamii.
+Sasa kwa kuwa tumechunguza umuhimu wa kina wa uvumbuzi wa Satoshi Nakamoto, sura inayofuata itatupeleka katika tasnia ya ajabu ambayo imekua karibu na protocol hii; mfumo mzima wa ikolojia unaounda upya fedha, teknolojia na jamii.
 
 
 ## Kuelewa tasnia ya Bitcoin
@@ -1386,7 +1386,7 @@ Mizani ya Facebook haikusudiwa kupinga hali ilivyo; ilijengwa kufanya kazi na mf
 ### Udhibiti na Mbinu za Serikali
 
 
-Bitcoin, kwa asili yake, inafanya kazi nje ya mifumo ya kitamaduni. Haitegemei mamlaka kuu na haiwezi kudhibitiwa au kubadilishwa na huluki yoyote. Lakini ingawa itifaki yenyewe ina kinga dhidi ya udhibiti, washiriki wanaoingiliana nayo (mabadilishano, biashara, na watumiaji) bado wako chini ya sheria za kitaifa.
+Bitcoin, kwa asili yake, inafanya kazi nje ya mifumo ya kitamaduni. Haitegemei mamlaka kuu na haiwezi kudhibitiwa au kubadilishwa na huluki yoyote. Lakini ingawa protocol yenyewe ina kinga dhidi ya udhibiti, washiriki wanaoingiliana nayo (mabadilishano, biashara, na watumiaji) bado wako chini ya sheria za kitaifa.
 
 
 ![image](assets/sw/056.webp)
@@ -1433,10 +1433,10 @@ Mabadilishano yana jukumu muhimu katika mfumo ikolojia wa Bitcoin, ukifanya kazi
 - huduma kwa wateja yenye msikivu na yenye ufanisi;
 - Interface ifaayo kwa watumiaji ambayo hurahisisha miamala;
 - chaguo la ununuzi wa mara kwa mara wa kiotomatiki (ARP);
-- rahisi, uondoaji wa bure wa bitcoins kwa Wallet ya kibinafsi.
+- rahisi, uondoaji wa bure wa bitcoin kwa Wallet ya kibinafsi.
 
 
-Mabadilishano ambayo yanatii kanuni za ndani kwa kawaida lazima yafuate itifaki kali za **"Mjue Mteja Wako"** (KYC), zinazohitaji watumiaji kutoa hati za utambulisho kabla ya kupata huduma. Ingawa michakato hii imeundwa ili kuzuia shughuli haramu, inaweza kuhatarisha faragha ambayo Bitcoin inatoa.
+Mabadilishano ambayo yanatii kanuni za ndani kwa kawaida lazima yafuate protocol kali za **"Mjue Mteja Wako"** (KYC), zinazohitaji watumiaji kutoa hati za utambulisho kabla ya kupata huduma. Ingawa michakato hii imeundwa ili kuzuia shughuli haramu, inaweza kuhatarisha faragha ambayo Bitcoin inatoa.
 
 
 ![image](assets/sw/058.webp)
@@ -1445,7 +1445,7 @@ Mabadilishano ambayo yanatii kanuni za ndani kwa kawaida lazima yafuate itifaki 
 Mifumo ya KYC hukusanya taarifa zako za kibinafsi chini ya kivuli cha usalama. Data hii inaweza kutumiwa vibaya na serikali ili kufuatilia miamala yako ya kifedha na kukuwekea kikomo ufikiaji wa shughuli fulani.
 
 
-Walakini, kuna njia mbadala za kupata bitcoins bila kuwasilisha kwa KYC:
+Walakini, kuna njia mbadala za kupata bitcoin bila kuwasilisha kwa KYC:
 
 
 
@@ -1453,8 +1453,8 @@ Walakini, kuna njia mbadala za kupata bitcoins bila kuwasilisha kwa KYC:
 - Ununuzi wa moja kwa moja wa pesa taslimu, kwa mfano katika mikutano ya ndani ya Bitcoin;
 - Mifumo ya ununuzi inayodhibitiwa bila KYC, ambayo ni nadra lakini inapatikana katika nchi fulani.;
 - ATM za Bitcoin;
-- Kufanya kazi katika Exchange kwa bitcoins;
-- Mining bitcoins.
+- Kufanya kazi katika Exchange kwa bitcoin;
+- Mining bitcoin.
 
 
 Kuna aina kadhaa za majukwaa, kila moja yanafaa kwa matumizi maalum:
@@ -1465,7 +1465,7 @@ Kuna aina kadhaa za majukwaa, kila moja yanafaa kwa matumizi maalum:
 - **Majukwaa ya Exchange ya rika-kwa-rika (P2P)**
 
 
-Majukwaa haya huruhusu watumiaji kununua na kuuza bitcoins moja kwa moja na kila mmoja wao, bila mpatanishi wa kati. Wanatoa faragha zaidi, haswa kwa sababu wanafanya kazi bila KYC. Unaweza kupata wauzaji wa ndani ambao unaweza kufanya nao miamala ya ana kwa ana au kutumia mbinu mbalimbali za malipo mtandaoni (SEPA, Revolut, Wise, n.k.).
+Majukwaa haya huruhusu watumiaji kununua na kuuza bitcoin moja kwa moja na kila mmoja wao, bila mpatanishi wa kati. Wanatoa faragha zaidi, haswa kwa sababu wanafanya kazi bila KYC. Unaweza kupata wauzaji wa ndani ambao unaweza kufanya nao miamala ya ana kwa ana au kutumia mbinu mbalimbali za malipo mtandaoni (SEPA, Revolut, Wise, n.k.).
 
 
 **Tahadhari:** Kwa shughuli yoyote ya kimwili, chagua eneo la umma na salama ili kuepuka ulaghai unaoweza kutokea.
@@ -1485,7 +1485,7 @@ https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-429
 - **Majukwaa ya Bitcoin-pekee ya Exchange**
 
 
-Majukwaa haya huchukua mbinu ya kirafiki, ikitoa huduma rahisi na ya uwazi. Ni Bitcoin-pekee. Mara nyingi hutekeleza masuluhisho ya ununuzi wa bitcoins kupitia Wastani wa Gharama ya Dollar (DCA) na hutoa uondoaji kiotomatiki kwa Wallet ya kibinafsi. Zinafaa hasa kwa wanaoanza wanaotafuta kukusanya bitcoins kwa njia inayoendelea na salama. Mifano: Relai, Bull Bitcoin, StackinSat, Bitstack...
+Majukwaa haya huchukua mbinu ya kirafiki, ikitoa huduma rahisi na ya uwazi. Ni Bitcoin-pekee. Mara nyingi hutekeleza masuluhisho ya ununuzi wa bitcoin kupitia Wastani wa Gharama ya Dollar (DCA) na hutoa uondoaji kiotomatiki kwa Wallet ya kibinafsi. Zinafaa hasa kwa wanaoanza wanaotafuta kukusanya bitcoin kwa njia inayoendelea na salama. Mifano: Relai, Bull Bitcoin, StackinSat, Bitstack...
 
 
 https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
@@ -1511,25 +1511,25 @@ https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a
 
 https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
-**Mifumo ya Exchange si pochi salama**. Kuacha bitcoins zako kwenye Exchange kunakuweka kwenye hatari kubwa. Matukio kadhaa yanaweza kusababisha upotezaji wa pesa zako:
+**Mifumo ya Exchange si wallet salama**. Kuacha bitcoin zako kwenye Exchange kunakuweka kwenye hatari kubwa. Matukio kadhaa yanaweza kusababisha upotezaji wa pesa zako:
 
 
 
-- **Hacking**: bitcoins nyingi zimeibiwa kutoka kwa majukwaa yaliyoathiriwa (k.m. MtGox);
+- **Hacking**: bitcoin nyingi zimeibiwa kutoka kwa majukwaa yaliyoathiriwa (k.m. MtGox);
 - **Ukamataji wa serikali**: Serikali inaweza kufunga jukwaa na kufungia pesa za watumiaji wake;
 - **Kufilisika au ulaghai**: Mifumo mingi imetoweka na pesa za wateja wao (k.m. FTX).
 
 
-Kanuni ya dhahabu ni rahisi: **Ikiwa humiliki funguo zako za faragha, humiliki bitcoins zako kikweli**. Daima toa pesa zako kwa Wallet ya kibinafsi haraka iwezekanavyo ili kuhakikisha uhuru kamili juu ya pesa zako.
+Kanuni ya dhahabu ni rahisi: **Ikiwa humiliki funguo zako za faragha, humiliki bitcoin zako kikweli**. Daima toa pesa zako kwa Wallet ya kibinafsi haraka iwezekanavyo ili kuhakikisha uhuru kamili juu ya pesa zako.
 
 
 ### wallet, Mining na maendeleo: nguzo za mfumo wa ikolojia
 
 
-#### Pochi za Bitcoin
+#### Wallet za Bitcoin
 
 
-Kiini cha Bitcoin ownership kuna wallet — zana maalum ambayo huhifadhi kwa usalama funguo za faragha zinazohitajika kufikia na kudhibiti bitcoins zako. Wallet inaweza kuchukua aina nyingi: kifaa maalum cha vifaa, programu ya simu au ya mezani, au hata kipande cha karatasi kilicho na ufunguo ulioandikwa juu yake. Pochi hizi huunganisha utajiri wako wa kidijitali na ulimwengu halisi, hivyo kufanya Bitcoin kutumika katika maisha ya kila siku.
+Kiini cha Bitcoin ownership kuna wallet — zana maalum ambayo huhifadhi kwa usalama funguo za faragha zinazohitajika kufikia na kudhibiti bitcoin zako. Wallet inaweza kuchukua aina nyingi: kifaa maalum cha vifaa, programu ya simu au ya mezani, au hata kipande cha karatasi kilicho na ufunguo ulioandikwa juu yake. Wallet hizi huunganisha utajiri wako wa kidijitali na ulimwengu halisi, hivyo kufanya Bitcoin kutumika katika maisha ya kila siku.
 
 
 Kila aina ya Wallet inatoa salio tofauti la:
@@ -1548,19 +1548,19 @@ Sekta ya Bitcoin Wallet imegawanywa katika kategoria kadhaa, kila moja ikizingat
 - **Hardware Wallet Manufacturers**: Kampuni hizi hutengeneza vifaa halisi vilivyoundwa kwa uhifadhi wa ufunguo salama. Baadhi ni chanzo huria, ilhali zingine hutoa suluhu za umiliki zenye vipengele tofauti na viwango vya usalama. Majina mashuhuri ni pamoja na Ledger, Trezor, Coinkite, Foundation, na Shiftcrypto.
  
 - **Wasanidi wa Software Wallet**: Hawa huanzia makampuni hadi wasanidi huru wanaounda programu za simu na za mezani. Matoleo yao yanatofautiana katika uzoefu wa mtumiaji, usalama, na vipengele. Mifano ni pamoja na Sparrow, Wizard Sardine, Galoy, Synonym, na Blockstream.
--DIY (*Jifanyie Mwenyewe*) Pochi: Suluhu hizi za programu huria zimeundwa kwa watumiaji wa hali ya juu ambao wanataka udhibiti kamili na utegemezi mdogo kwa wahusika wengine. Kuunda wallet yako mwenyewe hupunguza utegemezi wa uaminifu na kunaweza kuongeza mkao wako wa usalama. Chaguzi zinazojulikana za DIY ni pamoja na Seedsigner na Specter DIY.
+-DIY (*Jifanyie Mwenyewe*) Wallet: Suluhu hizi za programu huria zimeundwa kwa watumiaji wa hali ya juu ambao wanataka udhibiti kamili na utegemezi mdogo kwa wahusika wengine. Kuunda wallet yako mwenyewe hupunguza utegemezi wa uaminifu na kunaweza kuongeza mkao wako wa usalama. Chaguzi zinazojulikana za DIY ni pamoja na Seedsigner na Specter DIY.
 
 
-Pochi ina jukumu muhimu katika Bitcoin na itagunduliwa kwa kina zaidi baadaye katika kozi hii.
+Wallet ina jukumu muhimu katika Bitcoin na itagunduliwa kwa kina zaidi baadaye katika kozi hii.
 
 
 #### Bitcoin Mining
 
 
-Mining ni kazi ya msingi ya mtandao wa Bitcoin. Inahakikisha usalama wa mfumo na kuweka Blockchain kufanya kazi. Wachimbaji huidhinisha miamala na kulinda mtandao kwa kufanya hesabu zinazotumia nishati nyingi zinazojulikana kama Proof of Work. Kila block mpya inaochimbwa huongeza kundi la miamala kwa Blockchain na kutoa bitcoins mpya kulingana na ratiba ya utoaji wa itifaki.
+Mining ni kazi ya msingi ya mtandao wa Bitcoin. Inahakikisha usalama wa mfumo na kuweka Blockchain kufanya kazi. Miners huidhinisha miamala na kulinda mtandao kwa kufanya hesabu zinazotumia nishati nyingi zinazojulikana kama Proof of Work. Kila block mpya inaochimbwa huongeza kundi la miamala kwa Blockchain na kutoa bitcoin mpya kulingana na ratiba ya utoaji wa protocol.
 
 
-Katika siku za mwanzo za Bitcoin, Mining inaweza kufanywa kutoka kwa kompyuta ya kibinafsi. Leo, ni tasnia shindani, ya kimataifa inayotawaliwa na makampuni yenye rasilimali nyingi za kifedha na kiufundi. Tamaa ya kupata vyanzo vya bei nafuu vya nishati imekuwa jambo kuu, kwani wachimbaji wanalenga kuongeza gharama za uendeshaji na faida. Operesheni za Mining sasa zinaanzia vifaa vikubwa vya viwandani hadi visanidi vidogo vinavyoendeshwa majumbani au karakana.
+Katika siku za mwanzo za Bitcoin, Mining inaweza kufanywa kutoka kwa kompyuta ya kibinafsi. Leo, ni tasnia shindani, ya kimataifa inayotawaliwa na makampuni yenye rasilimali nyingi za kifedha na kiufundi. Tamaa ya kupata vyanzo vya bei nafuu vya nishati imekuwa jambo kuu, kwani miners wanalenga kuongeza gharama za uendeshaji na faida. Operesheni za Mining sasa zinaanzia vifaa vikubwa vya viwandani hadi visanidi vidogo vinavyoendeshwa majumbani au karakana.
 
 
 Mfumo ikolojia wa Mining una wahusika kadhaa wakuu:
@@ -1568,8 +1568,8 @@ Mfumo ikolojia wa Mining una wahusika kadhaa wakuu:
 
 
 - **Watengenezaji wa Maunzi**:Kampuni kama vile kubuni Bitmain na kuzalisha ASIC (Mizunguko Iliyounganishwa ya Programu-Maalum), chipsi zilizobobea zaidi iliyoundwa kwa ajili ya Mining Bitcoin pekee.
-- **Mining pools**:Hizi ni mikusanyiko ya wachimba migodi ambao huchanganya nguvu zao za kompyuta ili kuboresha nafasi zao za kupata zawadi. Kwa kuzingatia ugumu unaoongezeka wa Mining, bwawa hutoa malipo yanayotabirika zaidi kwa kusambaza zawadi za kuzuia (bitcoins mpya zinazochimbwa na ada za miamala) kati ya washiriki kulingana na mchango wao. Mifano ni pamoja na Foundry USA, AntPool, F2Pool, MARA Pool, na Braiins Pool.
-- **Wachimbaji**:Hawa ni watu binafsi au mashirika yanayoendesha maunzi na programu ya Mining. Kwa upande mmoja, kuna wachimbaji wadogo wanaotumia mashine kama vile Antminer S9, na kwa upande mwingine, shughuli za kiviwanda kama vile Galaxy Digital, ambayo inasimamia vifaa vikubwa vilivyotolewa kwa Mining.
+- **Mining pools**:Hizi ni mikusanyiko ya miners ambao huchanganya nguvu zao za kompyuta ili kuboresha nafasi zao za kupata zawadi. Kwa kuzingatia ugumu unaoongezeka wa Mining, bwawa hutoa malipo yanayotabirika zaidi kwa kusambaza zawadi za kuzuia (bitcoin mpya zinazochimbwa na ada za miamala) kati ya washiriki kulingana na mchango wao. Mifano ni pamoja na Foundry USA, AntPool, F2Pool, MARA Pool, na Braiins Pool.
+- **Miners**:Hawa ni watu binafsi au mashirika yanayoendesha maunzi na programu ya Mining. Kwa upande mmoja, kuna miners wadogo wanaotumia mashine kama vile Antminer S9, na kwa upande mwingine, shughuli za kiviwanda kama vile Galaxy Digital, ambayo inasimamia vifaa vikubwa vilivyotolewa kwa Mining.
 
 
 Mining ni ulimwengu wake, na tabaka nyingi za kuchunguza; changamoto za kiufundi, motisha za kiuchumi, na masuala ya nishati yote yanahusika. Kwa wale wanaotaka kuchunguza eneo hili zaidi na kuelewa kwa kweli jinsi linavyofanya kazi, kozi yetu ya MIN201 inakupitisha kila kitu unachohitaji kujua.
@@ -1580,7 +1580,7 @@ https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 #### Maendeleo katika mfumo wa ikolojia wa Bitcoin
 
 
-Kiini cha mageuzi ya kiufundi ya Bitcoin ni Bitcoin Core, kiteja cha programu kinachotumiwa sana kuendesha nodi ya Bitcoin. Ni mradi wa programu huria, uwazi kabisa na unapatikana hadharani kwenye GitHub: [https://github.com/Bitcoin/Bitcoin](https://github.com/Bitcoin/Bitcoin). ambapo mtu yeyote anaweza kukagua msimbo, kufuata majadiliano, na kuona jinsi itifaki inabadilika. Ingawa masasisho yanapendekezwa na kujadiliwa, hakuna anayelazimishwa kuyapitisha na watumiaji wanaendelea kudhibiti toleo wanaloendesha.
+Kiini cha mageuzi ya kiufundi ya Bitcoin ni Bitcoin Core, kiteja cha programu kinachotumiwa sana kuendesha node ya Bitcoin. Ni mradi wa programu huria, uwazi kabisa na unapatikana hadharani kwenye GitHub: [https://github.com/Bitcoin/Bitcoin](https://github.com/Bitcoin/Bitcoin). ambapo mtu yeyote anaweza kukagua msimbo, kufuata majadiliano, na kuona jinsi protocol inabadilika. Ingawa masasisho yanapendekezwa na kujadiliwa, hakuna anayelazimishwa kuyapitisha na watumiaji wanaendelea kudhibiti toleo wanaloendesha.
 
 
 Ukuzaji wa Bitcoin unaweza kueleweka kupitia vikundi vichache tofauti vya wachangiaji:
@@ -1588,11 +1588,11 @@ Ukuzaji wa Bitcoin unaweza kueleweka kupitia vikundi vichache tofauti vya wachan
 
 
 - **Wasanidi wa Bitcoin Core**, Hawa ndio watu ambao hudumisha na kuboresha mteja mkuu wa programu. Miongoni mwa hawa ni watunzaji, ambao wanashikilia funguo za kusimamia hazina. Mnamo 2025, kuna watano kati yao: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao na Ryan Ofsky. Kisha kuna wachangiaji ambao huwasilisha mabadiliko ya msimbo, kurekebishwa kwa hitilafu, au maboresho. Mapendekezo haya hupitia mapitio ya rika na majadiliano ya jumuiya kabla ya kukubaliwa.
-- **Wasanidi wa itifaki za Tabaka**,Kikundi hiki hufanya kazi kwenye teknolojia zinazojengwa juu ya Bitcoin, kama vile Lightning Network au RGB, inayolenga kupanua uwezo wa Bitcoin bila kubadilisha msingi wake.
+- **Wasanidi wa protocol za Tabaka**,Kikundi hiki hufanya kazi kwenye teknolojia zinazojengwa juu ya Bitcoin, kama vile Lightning Network au RGB, inayolenga kupanua uwezo wa Bitcoin bila kubadilisha msingi wake.
 - **Wasanidi programu wanaojitegemea**, Wasanidi programu hawa hulenga kuunda zana na programu ili kuboresha matumizi ya mtumiaji, kama vile Mempool.space (Interface inayoonekana ya kufuatilia shughuli za muamala) au Alby( zana za kutumia malipo ya Mwani katika vivinjari na programu).
 
 
-Mtu yeyote anaweza kupendekeza mabadiliko kwenye Bitcoin Core, lakini mchakato huo ni mkali kimakusudi. Mawazo mapya mara nyingi huchukua miaka kuboresha na kuhitaji uelewa wa kina wa kiufundi, ushirikiano mpana wa jumuiya, na tabaka nyingi za ukaguzi. Mapendekezo kwa kawaida huwasilishwa katika mfumo wa **Mapendekezo ya Uboreshaji ya Bitcoin (BIPs)**;ambayo baadhi yao hayafanyiki katika itifaki.
+Mtu yeyote anaweza kupendekeza mabadiliko kwenye Bitcoin Core, lakini mchakato huo ni mkali kimakusudi. Mawazo mapya mara nyingi huchukua miaka kuboresha na kuhitaji uelewa wa kina wa kiufundi, ushirikiano mpana wa jumuiya, na tabaka nyingi za ukaguzi. Mapendekezo kwa kawaida huwasilishwa katika mfumo wa **Mapendekezo ya Uboreshaji ya Bitcoin (BIPs)**;ambayo baadhi yao hayafanyiki katika protocol.
 
 Ubunifu unakaribishwa, lakini tu unapoungwa mkono na hoja dhabiti, makubaliano ya jumuiya na majaribio ya makini.
 
@@ -1600,15 +1600,15 @@ Ubunifu unakaribishwa, lakini tu unapoungwa mkono na hoja dhabiti, makubaliano y
 ![image](assets/sw/059.webp)
 
 
-Licha ya kile ambacho wengine wanaweza kuamini, hakuna mtu aliye na udhibiti wa upande mmoja juu ya Bitcoin; hata watunzaji wa Bitcoin Core. Jukumu lao ni kusimamia hazina ya programu, sio itifaki yenyewe.
+Licha ya kile ambacho wengine wanaweza kuamini, hakuna mtu aliye na udhibiti wa upande mmoja juu ya Bitcoin; hata watunzaji wa Bitcoin Core. Jukumu lao ni kusimamia hazina ya programu, sio protocol yenyewe.
 
 
 ![image](assets/sw/060.webp)
 
 
-Hata kama mtunza huduma angeidhinisha mabadiliko yenye utata, hayataathiri mtandao isipokuwa **nodi (zinazoendeshwa na watumiaji)** zikubali na kuendesha toleo hilo. Mwishowe, msimbo wa Bitcoin ni muhimu tu ikiwa watu watachagua kuuendesha.
+Hata kama mtunza huduma angeidhinisha mabadiliko yenye utata, hayataathiri mtandao isipokuwa **node (zinazoendeshwa na watumiaji)** zikubali na kuendesha toleo hilo. Mwishowe, msimbo wa Bitcoin ni muhimu tu ikiwa watu watachagua kuuendesha.
 
-Inafaa pia kuzingatia kuwa **Bitcoin Core sio mteja pekee **. Njia mbadala kama vile Bitcoin Knots hutekeleza itifaki ya Bitcoin pia, ikiwapa watumiaji chaguo zaidi na kuimarisha ugatuaji wa mfumo:
+Inafaa pia kuzingatia kuwa **Bitcoin Core sio mteja pekee **. Njia mbadala kama vile Bitcoin Knots hutekeleza protocol ya Bitcoin pia, ikiwapa watumiaji chaguo zaidi na kuimarisha ugatuaji wa mfumo:
 
 
 https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
@@ -1624,13 +1624,13 @@ https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86
 :::kitambulisho cha video=6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e:::
 
 
-Bitcoin ni mfumo wazi ulioundwa kuwa mdogo, thabiti na salama tangu mwanzo. Ili kuongeza utendakazi bila kubadilisha misingi yake, mageuzi kwa ujumla hufanywa kwa kuongeza **tabaka za itifaki** na matumizi ya ziada ambayo yanaboresha mfumo ikolojia bila kuathiri ugatuaji na uthabiti wa mfumo mkuu. Unyumbufu huu umewezesha kampuni nyingi na wasanidi programu huru kujenga miundombinu karibu na Bitcoin, na kuongeza ubunifu uliochukuliwa kwa hali tofauti za utumiaji.
+Bitcoin ni mfumo wazi ulioundwa kuwa mdogo, thabiti na salama tangu mwanzo. Ili kuongeza utendakazi bila kubadilisha misingi yake, mageuzi kwa ujumla hufanywa kwa kuongeza **tabaka za protocol** na matumizi ya ziada ambayo yanaboresha mfumo ikolojia bila kuathiri ugatuaji na uthabiti wa mfumo mkuu. Unyumbufu huu umewezesha kampuni nyingi na wasanidi programu huru kujenga miundombinu karibu na Bitcoin, na kuongeza ubunifu uliochukuliwa kwa hali tofauti za utumiaji.
 
 
 ### Ugani wa Bitcoin na tabaka za ziada
 
 
-Mbinu ya tabaka inaruhusu Bitcoin kuboreshwa bila kubadilisha itifaki yake ya msingi, kuhakikisha utulivu na usalama wa mfumo mkuu. Njia hii ni sawa na jinsi Mtandao unavyofanya kazi, ambapo itifaki nyingi huunda kwenye kila mmoja ili kutoa utendakazi tofauti huku zikidumisha ushirikiano mzuri.
+Mbinu ya tabaka inaruhusu Bitcoin kuboreshwa bila kubadilisha protocol yake ya msingi, kuhakikisha utulivu na usalama wa mfumo mkuu. Njia hii ni sawa na jinsi Mtandao unavyofanya kazi, ambapo protocol nyingi huunda kwenye kila mmoja ili kutoa utendakazi tofauti huku zikidumisha ushirikiano mzuri.
 
 
 Miongoni mwa mifumo kuu ya uwekaji kurutubisha mfumo ikolojia wa Bitcoin ni:
@@ -1675,10 +1675,10 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 - **RGB**:
 
 
-RGB ni mfumo wa Smart contract uliogatuliwa na unaozingatia ufaragha ulioundwa kufanya kazi juu ya Bitcoin na Lightning Network. Tofauti na majukwaa ya kitamaduni ya Smart contract, RGB hutumia modeli ya Client-side Validation (ikimaanisha kuwa Contract State kamili imehifadhiwa off-chain, na ahadi za kriptografia pekee ndizo huchapishwa kwa Bitcoin Blockchain). Muundo huu unaboresha uzani na faragha. Kwa RGB, watumiaji wanaweza kuunda kandarasi za hali ya juu za utoaji wa tokeni, NFTs, vitambulisho vilivyogatuliwa, au hata programu za DeFi, moja kwa moja kwenye Bitcoin au Umeme.
+RGB ni mfumo wa Smart contract uliogatuliwa na unaozingatia ufaragha ulioundwa kufanya kazi juu ya Bitcoin na Lightning Network. Tofauti na majukwaa ya kitamaduni ya Smart contract, RGB hutumia modeli ya Client-side Validation (ikimaanisha kuwa Contract State kamili imehifadhiwa off-chain, na ahadi za cryptography pekee ndizo huchapishwa kwa Bitcoin Blockchain). Muundo huu unaboresha uzani na faragha. Kwa RGB, watumiaji wanaweza kuunda kandarasi za hali ya juu za utoaji wa tokeni, NFTs, vitambulisho vilivyogatuliwa, au hata programu za DeFi, moja kwa moja kwenye Bitcoin au Lightning.
 
 
-Element muhimu cha RGB ni ulinzi wake dhidi ya Double-spending, unaopatikana kwa mbinu ya kriptografia inayoitwa singleuse seal. Utaratibu huu unategemea ukweli kwamba UTXO za Bitcoin (Matokeo ya Shughuli Zisizotumika) zinaweza kutumika mara moja pekee. Usahihi wa tokeni unahakikishwa na uthibitishaji wa upande wa mtumiaji wa historia nzima ya Contract (kutoka kuundwa kwake hadi hali yake ya sasa).
+Element muhimu cha RGB ni ulinzi wake dhidi ya Double-spending, unaopatikana kwa mbinu ya cryptography inayoitwa singleuse seal. Utaratibu huu unategemea ukweli kwamba UTXO za Bitcoin (Matokeo ya Shughuli Zisizotumika) zinaweza kutumika mara moja pekee. Usahihi wa tokeni unahakikishwa na uthibitishaji wa upande wa mtumiaji wa historia nzima ya Contract (kutoka kuundwa kwake hadi hali yake ya sasa).
 
 
 ![image](assets/sw/062.webp)
@@ -1689,16 +1689,16 @@ Ili kuongeza ujuzi wako wa RGB, tunatoa kozi ya mafunzo ya mwaka wa nne (tafadha
 
 https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
-RGB ni mojawapo tu ya itifaki nyingi zilizojengwa juu ya Bitcoin. Wakati zingine zimepitishwa zaidi kuliko zingine, mpya zinaendelea kuibuka. Uzi wa kawaida ni wazo la kuboresha kila Layer kwa kazi maalum, huku tukihifadhi uadilifu na kutobadilika kwa itifaki ya msingi ya Bitcoin.
+RGB ni mojawapo tu ya protocol nyingi zilizojengwa juu ya Bitcoin. Wakati zingine zimepitishwa zaidi kuliko zingine, mpya zinaendelea kuibuka. Uzi wa kawaida ni wazo la kuboresha kila Layer kwa kazi maalum, huku tukihifadhi uadilifu na kutobadilika kwa protocol ya msingi ya Bitcoin.
 
 
-Muundo huu wa tabaka unasimama tofauti na tasnia kubwa ya crypto, ambayo mara nyingi hutafuta kuweka vipengele vingi katika itifaki moja. Kwa kuweka Bitcoin rahisi na kuzingatia kwa ufupi, tunapunguza uso wake wa mashambulizi; ambayo inamaanisha usalama zaidi. Itifaki konda ni rahisi kupata, kudumisha, na kupima. Bitcoin imeundwa kufanya jambo moja vizuri sana: kutoa pesa nzuri, zilizogawanywa. Kila kitu kingine (mikataba mahiri, tokeni, malipo, na zaidi) kinaweza kuwekwa juu, na kuruhusu uvumbuzi bila kuathiri msingi.
+Muundo huu wa tabaka unasimama tofauti na tasnia kubwa ya crypto, ambayo mara nyingi hutafuta kuweka vipengele vingi katika protocol moja. Kwa kuweka Bitcoin rahisi na kuzingatia kwa ufupi, tunapunguza uso wake wa mashambulizi; ambayo inamaanisha usalama zaidi. Protocol konda ni rahisi kupata, kudumisha, na kupima. Bitcoin imeundwa kufanya jambo moja vizuri sana: kutoa pesa nzuri, zilizogawanywa. Kila kitu kingine (mikataba mahiri, tokeni, malipo, na zaidi) kinaweza kuwekwa juu, na kuruhusu uvumbuzi bila kuathiri msingi.
 
 
 ![image](assets/sw/063.webp)
 
 
-**Je, wajua**?Mtandao haukujengwa kwa wakati mmoja; iliibuka kama rundo la itifaki zinazoweza kushirikiana. Kwa mfano, TCP/IP hushughulikia mawasiliano ya mtandao, HTTP huwezesha wavuti, na safu nyingine nyingi hutumikia kazi maalum. Kila Layer imeboreshwa kwa kazi yake, na kuunda mfumo thabiti na wa kawaida. Bitcoin inafuata falsafa hii. Msingi wake wa Layer ni thabiti na ni mdogo, na utendaji wa ziada huongezwa kupitia itifaki zilizowekwa safu kama vile Umeme, Liquid, au RGB; kila moja ililenga kutatua mahitaji tofauti ya watumiaji huku msingi ukiendelea.
+**Je, wajua**?Mtandao haukujengwa kwa wakati mmoja; iliibuka kama rundo la protocol zinazoweza kushirikiana. Kwa mfano, TCP/IP hushughulikia mawasiliano ya mtandao, HTTP huwezesha wavuti, na safu nyingine nyingi hutumikia kazi maalum. Kila Layer imeboreshwa kwa kazi yake, na kuunda mfumo thabiti na wa kawaida. Bitcoin inafuata falsafa hii. Msingi wake wa Layer ni thabiti na ni mdogo, na utendaji wa ziada huongezwa kupitia protocol zilizowekwa safu kama vile Lightning, Liquid, au RGB; kila moja ililenga kutatua mahitaji tofauti ya watumiaji huku msingi ukiendelea.
 
 
 ### Zana za Muuzaji za Kukubali Bitcoin
@@ -1791,13 +1791,13 @@ Inayofuata katika kozi: tutapata vitendo na kukusaidia kufafanua wasifu wako wa 
 :::kitambulisho cha video=1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
 
 
-Sasa kwa kuwa umejifunza misingi ya kinadharia ya Bitcoin, ni wakati wa kuhamia upande wa vitendo. Sehemu hii itakusaidia kuelewa jinsi ya kupata bitcoins zako za kwanza, jinsi ya kuzihifadhi kwa usalama, na jinsi ya kurekebisha mbinu yako kulingana na hali yako ya kibinafsi. Lengo ni kukusaidia kutambua wewe ni mtumiaji wa aina gani ili uweze kutumia mkakati unaolingana na mahitaji na vikwazo vyako.
+Sasa kwa kuwa umejifunza misingi ya kinadharia ya Bitcoin, ni wakati wa kuhamia upande wa vitendo. Sehemu hii itakusaidia kuelewa jinsi ya kupata bitcoin zako za kwanza, jinsi ya kuzihifadhi kwa usalama, na jinsi ya kurekebisha mbinu yako kulingana na hali yako ya kibinafsi. Lengo ni kukusaidia kutambua wewe ni mtumiaji wa aina gani ili uweze kutumia mkakati unaolingana na mahitaji na vikwazo vyako.
 
 
 Bitcoin si kama mali asili. Inahitaji mbinu ya kufikiria na uelewa thabiti wa athari za kiufundi na kiuchumi za kuitumia. Tofauti na sarafu ya fedha, Bitcoin inafanya kazi kwa mfano wa uhuru wa mtu binafsi; maana yake unawajibika kikamilifu kwa usimamizi na usalama wa fedha zako. Kama tulivyojadili katika sehemu za awali, uhuru huu wa kifedha ni faida kuu, lakini pia unakuja na mbinu bora mahususi, ambazo tutachunguza katika sura chache zinazofuata.
 
 
-Kozi hii inachukulia kuwa unaanza na Bitcoin. Kwa hivyo, tutazingatia suluhisho rahisi, za kirafiki ambazo ni rahisi kusanidi. Hatutashughulikia mbinu za udhihirisho wa moja kwa moja kama vile mining, kununua hisa katika kampuni zinazohusiana na Bitcoin, au mikakati changamano ya kifedha. Lengo hapa ni kukusaidia kuchagua wallet inayolingana na hali yako na kupata bitcoins zako za kwanza kwa usalama.
+Kozi hii inachukulia kuwa unaanza na Bitcoin. Kwa hivyo, tutazingatia suluhisho rahisi, za kirafiki ambazo ni rahisi kusanidi. Hatutashughulikia mbinu za udhihirisho wa moja kwa moja kama vile mining, kununua hisa katika kampuni zinazohusiana na Bitcoin, au mikakati changamano ya kifedha. Lengo hapa ni kukusaidia kuchagua wallet inayolingana na hali yako na kupata bitcoin zako za kwanza kwa usalama.
 
 
 ![image](assets/sw/065.webp)
@@ -1809,13 +1809,13 @@ Kozi hii inachukulia kuwa unaanza na Bitcoin. Kwa hivyo, tutazingatia suluhisho 
 Hakuna mbinu ya ukubwa mmoja ya kununua na kudhibiti BTC. Kila mtumiaji ana muktadha wa kipekee, unaochangiwa na hali yake ya kifedha, maarifa ya kiufundi na matarajio kuhusu Bitcoin. Ndiyo maana ni muhimu kuchagua mkakati unaolingana na wasifu wako wa kibinafsi. Kujua mbinu yako mwenyewe hukusaidia kufanya maamuzi bora na kuepuka makosa ya kawaida yanayotokana na kuhukumu vibaya mahitaji yako.
 
 
-Hapa kuna baadhi ya mambo ya kuzingatia wakati wa kutafuta njia bora ya kununua na kuhifadhi bitcoins zako:
+Hapa kuna baadhi ya mambo ya kuzingatia wakati wa kutafuta njia bora ya kununua na kuhifadhi bitcoin zako:
 
 
 
 - **Kiasi unachotaka kuwekeza**: Je, unanunua kiasi kidogo ili kujaribu tu na kujifunza bila kuhatarisha sana? Au unapanga uwekezaji mkubwa zaidi unaokusudiwa kufanywa kwa muda mrefu?
 - **Uwekezaji wako wa mara kwa mara**: Je, ungependa kufanya ununuzi wa mara moja na upate pesa zako mara moja, au ungependa kueneza ununuzi wako baada ya muda ukitumia mkakati kama vile Ukadiriaji wa Gharama ya Dollar (DCA) ili kupunguza kuyumba kwa bei?
-- **Unachotaka kufanya na bitcoins zako**: Je, unaishikilia kama akiba ya muda mrefu? Je, unaitumia kwa malipo ya kila siku? Au labda kidogo ya zote mbili?
+- **Unachotaka kufanya na bitcoin zako**: Je, unaishikilia kama akiba ya muda mrefu? Je, unaitumia kwa malipo ya kila siku? Au labda kidogo ya zote mbili?
 - **Msimamo wako kuhusu faragha**: Je, unastarehesha kutoa taarifa za kibinafsi na kutumia mifumo ya kati kununua Bitcoin? Au unapendelea mbinu za faragha-kwanza kama vile kubadilishana kati ya wenzao, bila KYC?
 - **Muktadha wako wa kibinafsi, kisheria na kijiografia**: Kulingana na mahali unapoishi, ufikiaji wa mabadilishano fulani unaweza kuzuiwa. Sheria za eneo na kanuni za kodi zinaweza pia kuathiri jinsi unavyohifadhi na kutumia Bitcoin yako.
 
@@ -1826,13 +1826,13 @@ Kila moja ya vipengele hivi ina jukumu katika kuunda mkakati unaofaa kwako. Watu
 ![image](assets/sw/066.webp)
 
 
-Hilo ndilo tutakalochunguza baadaye: njia tofauti za kupata na kulinda bitcoins zako, ili uweze kufanya maamuzi sahihi kulingana na wasifu wako na malengo yako.
+Hilo ndilo tutakalochunguza baadaye: njia tofauti za kupata na kulinda bitcoin zako, ili uweze kufanya maamuzi sahihi kulingana na wasifu wako na malengo yako.
 
 
 ### Vigezo kuu vya kufafanua wasifu wako
 
 
-Kuchagua mkakati sahihi wa kupata na kupata bitcoins zako huanza na tathmini ya uaminifu ya hali yako ya kibinafsi. Sababu kadhaa huathiri maamuzi haya, ikiwa ni pamoja na hatari unazoweza kukabiliana nazo, mtindo wako wa maisha, na jinsi unavyopanga kutumia bitcoins zako.
+Kuchagua mkakati sahihi wa kupata na kupata bitcoin zako huanza na tathmini ya uaminifu ya hali yako ya kibinafsi. Sababu kadhaa huathiri maamuzi haya, ikiwa ni pamoja na hatari unazoweza kukabiliana nazo, mtindo wako wa maisha, na jinsi unavyopanga kutumia bitcoin zako.
 
 
 ![image](assets/sw/067.webp)
@@ -1841,11 +1841,11 @@ Kuchagua mkakati sahihi wa kupata na kupata bitcoins zako huanza na tathmini ya 
 #### Hatari na vitisho vinavyowezekana
 
 
-Kuchagua mkakati sahihi wa kupata na kupata bitcoins zako huanza na tathmini ya uaminifu ya hali yako ya kibinafsi. Sababu kadhaa huathiri maamuzi haya, ikiwa ni pamoja na hatari unazoweza kukabiliana nazo, mtindo wako wa maisha, na jinsi unavyopanga kutumia bitcoins zako:
+Kuchagua mkakati sahihi wa kupata na kupata bitcoin zako huanza na tathmini ya uaminifu ya hali yako ya kibinafsi. Sababu kadhaa huathiri maamuzi haya, ikiwa ni pamoja na hatari unazoweza kukabiliana nazo, mtindo wako wa maisha, na jinsi unavyopanga kutumia bitcoin zako:
 
 
 
-- **Mashambulizi ya mtandao**: Ikiwa hujui vyema usalama wa mtandao au unatumia vifaa vinavyoweza kuathiriwa, unaweza kuwa mlengwa wa mashambulizi ya mtandaoni. Katika hali hiyo, kuhifadhi bitcoins zako nje ya mtandao (hifadhi ya Cold) inaweza kuwa chaguo salama zaidi.
+- **Mashambulizi ya mtandao**: Ikiwa hujui vyema usalama wa mtandao au unatumia vifaa vinavyoweza kuathiriwa, unaweza kuwa mlengwa wa mashambulizi ya mtandaoni. Katika hali hiyo, kuhifadhi bitcoin zako nje ya mtandao (hifadhi ya Cold) inaweza kuwa chaguo salama zaidi.
 - **Vitisho vya kimwili**: Kwa bahati mbaya, mashambulizi ya kimwili hutokea; uvunjaji, wizi, hata utekaji nyara umewalenga wamiliki wa Bitcoin. Ingawa matukio haya bado ni nadra na huathiri zaidi watu mashuhuri, inafaa kuzingatia tangu mwanzo wakati wa kuunda usanidi wako wa usalama.
 
 
@@ -1870,22 +1870,22 @@ Ili kuelewa vyema udhaifu wako, kadiria kila moja ya hatari hizi kwa mizani kuto
 #### Mtindo wa Maisha na Tabia za Kibinafsi
 
 
-Maisha yako ya kila siku pia yana jukumu kubwa katika jinsi utakavyodhibiti bitcoins zako. Kuchagua mpangilio unaolingana na mtindo wako wa maisha kutarahisisha mambo na kukusaidia kuepuka msuguano usio wa lazima.
+Maisha yako ya kila siku pia yana jukumu kubwa katika jinsi utakavyodhibiti bitcoin zako. Kuchagua mpangilio unaolingana na mtindo wako wa maisha kutarahisisha mambo na kukusaidia kuepuka msuguano usio wa lazima.
 
 
 **Muda au maslahi machache?** Chagua masuluhisho rahisi na ya kiotomatiki; kama vile ununuzi ulioratibiwa ambao huhamishwa kiotomatiki hadi kwenye hifadhi salama.
 
 
-**Utaalam wa teknolojia au unatumika?** Unaweza kupendelea suluhu za kina zaidi kama vile pochi za Multisig ambazo hutoa udhibiti na usalama zaidi.
+**Utaalam wa teknolojia au unatumika?** Unaweza kupendelea suluhu za kina zaidi kama vile wallet za Multisig ambazo hutoa udhibiti na usalama zaidi.
 
 
-**Kuwekeza kwa ajili ya wapendwa au vizazi vijavyo?** Fikiri mapema kuhusu urithi. Kuna njia za kuhakikisha bitcoins zako zinaweza kupitishwa kwa usalama ikiwa kitu kitatokea kwako.
+**Kuwekeza kwa ajili ya wapendwa au vizazi vijavyo?** Fikiri mapema kuhusu urithi. Kuna njia za kuhakikisha bitcoin zako zinaweza kupitishwa kwa usalama ikiwa kitu kitatokea kwako.
 
 
 **Je, unajali faragha?** Baadhi ya mbinu za ununuzi zinahitaji maelezo ya kibinafsi (mifumo ya KYC), ilhali zingine (kama vile peer-to-peer au Mining) hutoa busara zaidi.
 
 
-#### Kwa kutumia bitcoins zako
+#### Kwa kutumia bitcoin zako
 
 
 Mbinu yako ya kuhifadhi na usimamizi inapaswa kuonyesha jinsi unavyonuia kutumia Bitcoin yako. Kuwa wazi juu ya hili tangu mwanzo itaongoza maamuzi yako.
@@ -1894,7 +1894,7 @@ Mbinu yako ya kuhifadhi na usimamizi inapaswa kuonyesha jinsi unavyonuia kutumia
 
 - **Akiba ya muda mrefu**: Unanunua Bitcoin kama kitega uchumi na huna mpango wa kuitumia hivi karibuni. Katika kesi hii, usalama wa juu na hatari iliyopunguzwa ya ufikiaji ni muhimu.
 - **Mkusanyiko wa taratibu**: Unanunua kiasi kidogo mara kwa mara. Mkakati kama Wastani wa Gharama ya Dollar (DCA), uliooanishwa na Wallet salama, hufanya kazi vizuri.
-- **Gharama za kila siku**: unatumia Bitcoin kama pesa. Tumia simu ya mkononi ya Wallet kwa malipo madogo ya kila siku (labda kwa Umeme), na uweke sehemu kubwa ya Bitcoin yako mahali salama zaidi.
+- **Gharama za kila siku**: unatumia Bitcoin kama pesa. Tumia simu ya mkononi ya Wallet kwa malipo madogo ya kila siku (labda kwa Lightning), na uweke sehemu kubwa ya Bitcoin yako mahali salama zaidi.
 - **Kujitayarisha kwa kustaafu au kupitisha mali yako**: Unataka kupitisha Bitcoin yako kwa mtu baadaye. Tumia zana zinazorahisisha na salama kutuma pesa wakati ufaao. Mikakati kama vile Multisig iliyo na muda au mipango mahususi ya urithi inaweza kuwekwa ili kuhakikisha kuwa pesa zako hazipotei au kufikiwa mapema sana.
 
 
@@ -1914,10 +1914,10 @@ Hapa kuna mambo manne muhimu ya kuamua:
 ![image](assets/sw/069.webp)
 
 
-### Pochi na Mikakati ya Usalama
+### Wallet na Mikakati ya Usalama
 
 
-Kupata funguo zako za faragha (zile zinazokupa ufikiaji wa bitcoins zako) ni sehemu muhimu zaidi ya kumiliki na kutumia Bitcoin. Tofauti na akaunti ya kawaida ya benki, ambapo mtu wa tatu anadhibiti pesa zako, Bitcoin hukuweka katika udhibiti kamili. Lakini kwa uhuru huo huja wajibu: ukipoteza funguo zako, Bitcoin yako imetoweka milele. Kuna aina kadhaa za pochi unaweza kutumia. Kila moja ina faida na hasara zake kulingana na mahitaji yako na kiwango cha uzoefu.
+Kupata funguo zako za faragha (zile zinazokupa ufikiaji wa bitcoin zako) ni sehemu muhimu zaidi ya kumiliki na kutumia Bitcoin. Tofauti na akaunti ya kawaida ya benki, ambapo mtu wa tatu anadhibiti pesa zako, Bitcoin hukuweka katika udhibiti kamili. Lakini kwa uhuru huo huja wajibu: ukipoteza funguo zako, Bitcoin yako imetoweka milele. Kuna aina kadhaa za wallet unaweza kutumia. Kila moja ina faida na hasara zake kulingana na mahitaji yako na kiwango cha uzoefu.
 
 
 ![image](assets/sw/070.webp)
@@ -1926,13 +1926,13 @@ Kupata funguo zako za faragha (zile zinazokupa ufikiaji wa bitcoins zako) ni seh
 #### Hot Wallet
 
 
-Pochi za hot ni programu au programu zilizounganishwa kwenye mtandao. Huhifadhi funguo zako za faragha kwenye kifaa kilekile ambacho zimesakinishwa. Pochi hizi ni nzuri kwa matumizi ya kila siku au kuhifadhi kiasi kidogo cha Bitcoin.
+Hot wallet ni programu au programu zilizounganishwa kwenye mtandao. Huhifadhi funguo zako za faragha kwenye kifaa kilekile ambacho zimesakinishwa.  Wallet hizi ni nzuri kwa matumizi ya kila siku au kuhifadhi kiasi kidogo cha Bitcoin.
 
 
 
 Mifano: Bluu Wallet, Green Wallet, Sparrow wallet
 
-Kwa usaidizi wa Umeme: Phoenix, Wallet ya Satoshi, BitKit
+Kwa usaidizi wa Lightning: Phoenix, Wallet ya Satoshi, BitKit
 
 
 **Faida**:
@@ -1955,10 +1955,10 @@ Kwa usaidizi wa Umeme: Phoenix, Wallet ya Satoshi, BitKit
 Bora kwa: Wanaoanza, salio ndogo, na shughuli za mara kwa mara.
 
 
-#### Mikoba ya Vifaa
+#### Hardware wallets
 
 
-Pochi za maunzi ni vifaa halisi ambavyo huhifadhi funguo zako za faragha nje ya mtandao kabisa. Ni salama zaidi kuliko pochi za Hot kwa sababu hupunguza hatari ya kushambuliwa mtandaoni.
+Hardware wallets ni vifaa halisi ambavyo huhifadhi funguo zako za faragha nje ya mtandao kabisa. Ni salama zaidi kuliko  Hot wallet kwa sababu hupunguza hatari ya kushambuliwa mtandaoni.
 
 
 Mifano: Ledger, Trezor, Coldcard, Jade, BitBox
@@ -1983,10 +1983,10 @@ Mifano: Ledger, Trezor, Coldcard, Jade, BitBox
 Bora kwa: Wamiliki wa muda mrefu na mtu yeyote anayepata kiasi kikubwa zaidi.
 
 
-#### Pochi za Multisig 
+####  Wallet za Multisig 
 
 
-Pochi za Multisig(Sahihi nyingi) zinahitaji zaidi ya funguo moja ili kuidhinisha muamala. Ifikirie kama vault inayohitaji michanganyiko miwili au mitatu ili kufungua. Mipangilio hii ni bora kwa watumiaji wa hali ya juu, biashara, au mtu yeyote anayetafuta usalama wa kiwango cha juu.
+ Wallet za Multisig(Sahihi nyingi) zinahitaji zaidi ya funguo moja ili kuidhinisha muamala. Ifikirie kama vault inayohitaji michanganyiko miwili au mitatu ili kufungua. Mipangilio hii ni bora kwa watumiaji wa hali ya juu, biashara, au mtu yeyote anayetafuta usalama wa kiwango cha juu.
 
 
 Mifano: Liana, Casa, Specter, Sparrow
@@ -2008,7 +2008,7 @@ Mifano: Liana, Casa, Specter, Sparrow
 - Ngumu zaidi kusanidi na kudhibiti.
 - Huenda ikahitaji uratibu kati ya watu/vifaa vingi.
 - Hatari ya upotevu wa fedha ikiwa Multisig haitasimamiwa vibaya;
-- Gharama ya juu ya ununuzi wa awali, ambayo inaweza kuhitaji ununuzi wa pochi kadhaa za vifaa.
+- Gharama ya juu ya ununuzi wa awali, ambayo inaweza kuhitaji ununuzi wa Hardware wallets kadhaa.
 
 
 Bora zaidi kwa: Watumiaji wa nishati, familia, makampuni, na hifadhi ya muda mrefu yenye usalama wa juu.
@@ -2027,7 +2027,7 @@ Mifano: Hubadilishana kama Coinbase au Binance, bidhaa za kifedha kama vile Blac
 
 
 
-- Rahisi kutumia; hakuna haja ya kushughulikia funguo au pochi mwenyewe.
+- Rahisi kutumia; hakuna haja ya kushughulikia funguo au wallet mwenyewe.
 - Inatumika kwa watu ambao wanataka tu kufichuliwa kwa uwekezaji, sio kutumia Bitcoin moja kwa moja.
 
 
@@ -2044,7 +2044,7 @@ p
 **Kanuni ya kidole gumba: Si funguo zako, si sarafu zako.**
 
 
-Hatupendekezi huduma za uhifadhi hata kwa wanaoanza. Ni bora kuchukua muda wa kujifunza jinsi ya kulinda Bitcoin yako vizuri kuliko kuhatarisha kupoteza yote kwa sababu mtu mwingine alishindwa. Lakini ikiwa uko hapa, unasoma kuhusu pochi na usimamizi muhimu, labda tayari umeelewa kwa nini kanuni hiyo ni muhimu.
+Hatupendekezi huduma za uhifadhi hata kwa wanaoanza. Ni bora kuchukua muda wa kujifunza jinsi ya kulinda Bitcoin yako vizuri kuliko kuhatarisha kupoteza yote kwa sababu mtu mwingine alishindwa. Lakini ikiwa uko hapa, unasoma kuhusu wallet na usimamizi muhimu, labda tayari umeelewa kwa nini kanuni hiyo ni muhimu.
 
 
 ![image](assets/sw/071.webp)
@@ -2054,17 +2054,17 @@ Chaguo la Wallet na njia ya usalama inategemea ni kiasi gani unahifadhi, kiwango
 
 
 
-- Tumia simu ya Hot Walleton au Umeme Wallet kwa shughuli za kila siku;
-- Tumia Hardware Wallet kupata bitcoins zako nyingi, ambazo zimekusudiwa kuokoa muda mrefu.
+- Tumia simu ya Hot Walleton au Lightning Wallet kwa shughuli za kila siku;
+- Tumia Hardware Wallet kupata bitcoin zako nyingi, ambazo zimekusudiwa kuokoa muda mrefu.
 
 
-Ikiwa Hot Wallet yako itakusanya bitcoins nyingi sana, unaweza kuhamisha baadhi kwenye hifadhi yako ya Cold. Kwa upande mwingine, ikiwa unahitaji bitcoins zaidi kwa matumizi ya kila siku, unaweza kujiondoa kutoka kwa Cold Wallet yako.
+Ikiwa Hot Wallet yako itakusanya bitcoin nyingi sana, unaweza kuhamisha baadhi kwenye hifadhi yako ya Cold. Kwa upande mwingine, ikiwa unahitaji bitcoin zaidi kwa matumizi ya kila siku, unaweza kujiondoa kutoka kwa Cold Wallet yako.
 
 
 ![image](assets/sw/072.webp)
 
 
-Mwishowe, usalama hutegemea sana jinsi unavyotumia zana. Hardware Wallet haitakufaa sana ikiwa utapoteza, kufichua, au kuhatarisha maneno ya Mnemonic. Tahadhari na nidhamu ni ulinzi wako bora dhidi ya kupoteza bitcoins. Kwa zaidi juu ya hili, napendekeza sana kusoma nakala hii:
+Mwishowe, usalama hutegemea sana jinsi unavyotumia zana. Hardware Wallet haitakufaa sana ikiwa utapoteza, kufichua, au kuhatarisha maneno ya Mnemonic. Tahadhari na nidhamu ni ulinzi wako bora dhidi ya kupoteza bitcoin. Kwa zaidi juu ya hili, napendekeza sana kusoma nakala hii:
 
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
@@ -2072,7 +2072,7 @@ https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 ### Mbinu za Kupata na Kiasi cha Muamala
 
 
-Kuna njia mbalimbali za kupata bitcoins, kulingana na kiasi gani cha faragha unachohitaji, kanuni katika nchi yako, na kiasi unachotaka kupata. Kuna mbinu mbili kuu:
+Kuna njia mbalimbali za kupata bitcoin, kulingana na kiasi gani cha faragha unachohitaji, kanuni katika nchi yako, na kiasi unachotaka kupata. Kuna mbinu mbili kuu:
 
 
 ![image](assets/sw/073.webp)
@@ -2103,7 +2103,7 @@ Kwa kawaida mifumo inayodhibitiwa hukuhitaji uthibitishe utambulisho wako kabla 
 - Masuala makuu ya faragha.
 
 
-Upande mbaya zaidi wa ubadilishanaji wa KYC ni hatari ya faragha, ambayo inaweza pia kuathiri usalama wako wa kibinafsi. KYC huruhusu ubadilishanaji kuunganisha utambulisho wako halisi na anwani zako za uondoaji za Bitcoin. Maelezo haya yanakuwa sehemu bora ya kuanzia kwa uchanganuzi wa Blockchain. Mara tu Address inapotambuliwa, inawezekana kufuatilia miamala yote inayohusiana, ambayo inahatarisha faragha yako ya On-Chain. Bila hatua za ziada za ulinzi, shughuli zako zote za Bitcoin zinaweza kupatikana nyuma kwako.
+Upande mbaya zaidi ya exchange ya KYC ni hatari ya faragha, ambayo inaweza pia kuathiri usalama wako wa kibinafsi. KYC huruhusu ubadilishanaji kuunganisha utambulisho wako halisi na address zako za uondoaji za Bitcoin. Maelezo haya yanakuwa sehemu bora ya kuanzia kwa uchanganuzi wa Blockchain. Mara tu Address inapotambuliwa, inawezekana kufuatilia miamala yote inayohusiana, ambayo inahatarisha faragha yako ya On-Chain. Bila hatua za ziada za ulinzi, shughuli zako zote za Bitcoin zinaweza kupatikana nyuma kwako.
 
 
 Hatari nyingine kubwa ni kwamba serikali, ikiwa na ufikiaji wa hifadhidata za majukwaa yaliyodhibitiwa, inaweza kutambua kwa urahisi watu ambao wamenunua BTC. Ingawa hii inaweza kuonekana kuwa haina madhara leo, inaweza kuwa suala ikiwa vizuizi vya kiuchumi au kisiasa vitawekwa. Zaidi ya hayo, ni lazima mifumo inayodhibitiwa iripoti miamala yoyote inayotiliwa shaka, na hivyo kuongeza uwezekano wa ufuatiliaji unaolengwa na mamlaka ya umma.
@@ -2123,11 +2123,11 @@ Kununua Bitcoin bila kufichua utambulisho wako ni chaguo kwa wale wanaotanguliza
 
 
 - **Peer-to-peer (P2P) kati ya watu binafsi**: Kununua moja kwa moja kwa pesa taslimu kutoka kwa mtu unayemwamini (marafiki, familia, mtandao wa ndani, mikutano...) huepuka rekodi zozote rasmi za miamala na kukuweka nje ya mfumo wa benki. Ingawa hii ndiyo njia bora zaidi ya kupata au kuuza Bitcoin, inakuja na hatari ya kushambuliwa kwa kuwa ni Exchange ya ana kwa ana.
-- **P2P Platforms**: Mifumo kama vile Bisq, RoboSats na Peach huwezesha ubadilishanaji kati ya watu binafsi bila hitaji la uthibitishaji wa utambulisho, kwa kutumia mifumo ya escrow kupata miamala. Mitandao hii bado ina hatari ya wizi ikiwa mhusika mwingine hatatoa ushirikiano, lakini hatari hiyo hupunguzwa na huduma za escrow.
+- **P2P Platforms**: Mifumo kama vile Bisq, RoboSats na Peach huwezesha  kati ya watu binafsi bila hitaji la uthibitishaji wa utambulisho, kwa kutumia mifumo ya escrow kupata miamala. Mitandao hii bado ina hatari ya wizi ikiwa mhusika mwingine hatatoa ushirikiano, lakini hatari hiyo hupunguzwa na huduma za escrow.
 - **Mashine Zinazojiendesha za Bitcoin (ATM)**: Baadhi ya ATM (vioski) hukuruhusu kununua Bitcoin kwa pesa taslimu, ingawa ada huwa kubwa, na zingine zinahitaji uthibitishaji wa kitambulisho kwa miamala mikubwa.
 - **Mifumo ya Exchange isiyo na KYC**: Baadhi ya mifumo, hasa nchini Uswisi, inakuwezesha kununua kiasi kidogo cha Bitcoin bila kuhitaji uthibitishaji wa kitambulisho.
 - **Mining**: Watu binafsi wanaweza kuchimba Bitcoin. Mashine za zamani au ndogo zinaweza kufikiwa, na kutoa njia isiyo ya kawaida ya kupata Bitcoin bila KYC. Kwa kujiunga na Mining pool, unaweza kupata malipo ya kawaida, hata kwa vifaa vya msingi. Kwa maelezo zaidi, [angalia mafunzo yetu ya Mining](https://planb.academy/tutorials/mining).
-- **Malipo / Mshahara katika bitcoins**: Ikiwa unafanya biashara, unaweza kukubali Bitcoin kama malipo. Ikiwa umeajiriwa, kulingana na eneo la mamlaka lako, unaweza kuomba ulipwe katika Bitcoin. Njia hizi hukuruhusu kupata Bitcoin bila KYC.
+- **Malipo / Mshahara katika bitcoin**: Ikiwa unafanya biashara, unaweza kukubali Bitcoin kama malipo. Ikiwa umeajiriwa, kulingana na eneo la mamlaka lako, unaweza kuomba ulipwe katika Bitcoin. Njia hizi hukuruhusu kupata Bitcoin bila KYC.
 
 
 **Faida**:
@@ -2222,7 +2222,7 @@ Mbinu inayopendekezwa:
 
 
 - Pata Bitcoin kupitia chaneli zisizo za KYC pekee;
-- Tumia pochi zilizoimarishwa kwa kaulisiri za BIP39 na usanidi wa saini nyingi;
+- Tumia wallet zilizoimarishwa kwa kaulisiri za BIP39 na usanidi wa saini nyingi;
 - Hifadhi Bitcoin kwenye vifaa vingi vya kimwili katika maeneo tofauti;
 - Epuka huduma za kati ambazo zinaweza kuhatarisha faragha.
 
@@ -2291,7 +2291,7 @@ Hapa kuna mpango madhubuti kwa mkulima:
 
 Kitu cha kwanza na cha muhimu zaidi ni usalama. Hardware Wallet ni ya lazima—hifadhi funguo zako za faragha nje ya mtandao na linda pesa zako dhidi ya mashambulizi ya mtandaoni.
 
-Hapa kuna mafunzo kadhaa ya pochi ambayo ni nzuri kwa washikaji:
+Hapa kuna mafunzo kadhaa ya wallet ambayo ni nzuri kwa washikaji:
 
 
 https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
@@ -2386,7 +2386,7 @@ Mbinu chache bora:
 - Thibitisha mara kwa mara uadilifu wa maneno yako ya kurejesha akaunti. Hakikisha kuwa bahasha haijachezewa na kwamba kati bado inasomeka. Ikiwa kitu chochote kitaharibika, generate nakala rudufu mpya kutoka kwa Wallet yako;
 
 
-Ili kufuatilia umiliki wako bila kuhatarisha funguo zako za faragha, zingatia kutumia Watch-only Wallet. Aina hii ya pochi hukuruhusu kufuatilia salio na miamala kwa kutumia funguo zako za umma pekee.
+Ili kufuatilia umiliki wako bila kuhatarisha funguo zako za faragha, zingatia kutumia Watch-only Wallet. Aina hii ya wallet hukuruhusu kufuatilia salio na miamala kwa kutumia funguo zako za umma pekee.
 
 
 https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
@@ -2435,7 +2435,7 @@ Katika sura inayofuata, tutachunguza wasifu sawa lakini unaotumika zaidi: stacke
 Katika mfumo wa ikolojia wa Bitcoin, stacker ni mtu anayechukua mbinu thabiti, ya muda mrefu ya kukusanya satoshi (au "Sats"), kitengo kidogo zaidi cha Bitcoin. Badala ya kuwekeza kiasi kikubwa kwa wakati mmoja, stacker mara kwa mara hununua kiasi kidogo cha Bitcoin, bila kujali hali ya soko.
 
 
-Wazo ni rahisi: kutakuwa na karibu bitcoins milioni 21 tu, na kila sehemu inahesabu. Dhamira ya stacker ni kukusanya kwa kasi Sats nyingi iwezekanavyo.
+Wazo ni rahisi: kutakuwa na karibu bitcoin milioni 21 tu, na kila sehemu inahesabu. Dhamira ya stacker ni kukusanya kwa kasi Sats nyingi iwezekanavyo.
 
 
 ![image](assets/sw/080.webp)
@@ -2473,7 +2473,7 @@ Staka inahitaji usanidi wa Wallet unaosawazisha urahisi wa kutumia na usalama wa
 
 
 
-- **Hot Wallet**: Inafaa kwa wanaoanza, pochi za rununu au za mezani hukuruhusu kupokea Sats kwa urahisi na kufanya malipo. Hata hivyo, zinafaa zaidi kwa kiasi kidogo. Pochi za On-Chain zinapendekezwa kwa kurundikana juu ya pochi za Radi kutokana na usimamizi bora wa UTXO. Pochi za programu zinazopendekezwa: Green Wallet, Blue Wallet, Sparrow wallet, Bitkit, Nunchuk, Aqua, Proton
+- **Hot Wallet**: Inafaa kwa wanaoanza, wallet za rununu au za mezani hukuruhusu kupokea Sats kwa urahisi na kufanya malipo. Hata hivyo, zinafaa zaidi kwa kiasi kidogo.  Wallet za On-Chain zinapendekezwa kwa kurundikana juu ya wallet za Radi kutokana na usimamizi bora wa UTXO.  Wallet za programu zinazopendekezwa: Green Wallet, Blue Wallet, Sparrow wallet, Bitkit, Nunchuk, Aqua, Proton
 
 
 https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
@@ -2509,7 +2509,7 @@ https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 
 https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
-Njia ya ufanisi zaidi ni kutumia zote mbili: Hot Wallet kwa stacking ya kila siku na Hardware Wallet kwa hifadhi ya muda mrefu ya Cold. Hot Wallet ni rahisi na rahisi kutumia. Inakuruhusu kumiliki bitcoins zako haraka, badala ya kuziacha kwenye jukwaa ambapo zinaweza kukabiliwa na hatari. Walakini, ikilinganishwa na Hardware Wallet, Hot Wallet inatoa usalama mdogo sana. Kwa hivyo mpangaji lazima ahamishe fedha zake mara kwa mara kwa Cold Wallet yake ili kupata akiba yake ya muda mrefu na kuepuka kuweka fedha nyingi katika Hot Wallet. Mara kwa mara, stacker huunganisha UTXO wakati wa kuhamisha kwenye hifadhi ya Cold; kuunganisha pembejeo ndogo ili kuboresha ada za muamala za siku zijazo.
+Njia ya ufanisi zaidi ni kutumia zote mbili: Hot Wallet kwa stacking ya kila siku na Hardware Wallet kwa hifadhi ya muda mrefu ya Cold. Hot Wallet ni rahisi na rahisi kutumia. Inakuruhusu kumiliki bitcoin zako haraka, badala ya kuziacha kwenye jukwaa ambapo zinaweza kukabiliwa na hatari. Walakini, ikilinganishwa na Hardware Wallet, Hot Wallet inatoa usalama mdogo sana. Kwa hivyo mpangaji lazima ahamishe fedha zake mara kwa mara kwa Cold Wallet yake ili kupata akiba yake ya muda mrefu na kuepuka kuweka fedha nyingi katika Hot Wallet. Mara kwa mara, stacker huunganisha UTXO wakati wa kuhamisha kwenye hifadhi ya Cold; kuunganisha pembejeo ndogo ili kuboresha ada za muamala za siku zijazo.
 
 
 ![image](assets/sw/081.webp)
@@ -2541,7 +2541,7 @@ https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d
 
 https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
-Ubadilishanaji mkuu unaounga mkono DCA:
+Ubadilishanaji kuu unaounga mkono DCA:
 
 
 https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
@@ -2567,7 +2567,7 @@ https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9
 
 https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
-#### 3. Kutoa na kupata bitcoins
+#### 3. Kutoa na kupata bitcoin
 
 
 Pindi mkakati wako wa ununuzi unapowekwa, toa tu Bitcoin yako kutoka kwa Exchange na uihamishe kwa Hardware Wallet yako mara kwa mara. Hii inahakikisha ulinzi kamili wa kujitegemea na ulinzi wa muda mrefu.
@@ -2583,10 +2583,10 @@ Tabia kuu:
 
 
 
-- Usiangalie pochi zako mara nyingi sana ili kuzuia mafadhaiko;
+- Usiangalie wallet zako mara nyingi sana ili kuzuia mafadhaiko;
 - Kamwe usiuze kwa kushuka; marekebisho ni ya kawaida;
 - Pata taarifa kuhusu maendeleo ya teknolojia ya Bitcoin;
-- Mara kwa mara angalia nakala zako za seed na hali ya Hardware Wallet: Kwa kuwa pochi zako zimesanidiwa, ni muhimu kuweka ufuatiliaji wa mara kwa mara. Mara kwa mara, hakikisha kuwa kifungu chako cha maneno cha Mnemonic bado kipo mahali kilipohifadhiwa na kwamba bahasha yake isiyo wazi haijafunguliwa. Wakati wa hundi hizi, unaweza pia kufungua bahasha ili kuchunguza hali ya vyombo vya habari. Hakikisha kuwa haijaharibiwa na kwamba sentensi bado inasomeka kikamilifu. Ikiwa kuna dalili zozote za uharibifu, ni bora kuunda nakala mpya kutoka kwa Hardware Wallet yako. Unaweza pia kuangalia pochi za vifaa vyako mara kwa mara.
+- Mara kwa mara angalia nakala zako za seed na hali ya Hardware Wallet: Kwa kuwa wallet zako zimesanidiwa, ni muhimu kuweka ufuatiliaji wa mara kwa mara. Mara kwa mara, hakikisha kuwa kifungu chako cha maneno cha Mnemonic bado kipo mahali kilipohifadhiwa na kwamba bahasha yake isiyo wazi haijafunguliwa. Wakati wa hundi hizi, unaweza pia kufungua bahasha ili kuchunguza hali ya vyombo vya habari. Hakikisha kuwa haijaharibiwa na kwamba sentensi bado inasomeka kikamilifu. Ikiwa kuna dalili zozote za uharibifu, ni bora kuunda nakala mpya kutoka kwa Hardware Wallet yako. Unaweza pia kuangalia hardware wallet yako mara kwa mara.
 
 
 ![image](assets/sw/083.webp)
@@ -2596,7 +2596,7 @@ Kwa ufuatiliaji rahisi bila kuhatarisha usalama, weka Watch-only wallet ili kufu
 
 
 https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
-
+a
 ### Tathmini wasifu wako wa stacker
 
 
@@ -2679,10 +2679,10 @@ Kupitisha Bitcoin kwa malipo ya kila siku kunahitaji mbinu ya kufikiria na iliyo
 ![image](assets/sw/087.webp)
 
 
-#### 1. Kutenganisha wazi kwa pochi
+#### 1. Kutenganisha wazi kwa wallet
 
 
-Watumiaji amilifu wanapaswa kutumia aina mbili tofauti za pochi kusawazisha usalama na urahisi:
+Watumiaji amilifu wanapaswa kutumia aina mbili tofauti za wallet kusawazisha usalama na urahisi:
 
 
 
@@ -2710,7 +2710,7 @@ https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92
 https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 
-- Pochi moja au zaidi ya simu ya Hot kwa shughuli za kila siku. Kwa kawaida, mtumiaji anayetumika atakuwa na On-Chain Hot Wallet na Umeme Wallet.
+-  Wallet moja au zaidi ya simu ya Hot kwa shughuli za kila siku. Kwa kawaida, mtumiaji anayetumika atakuwa na On-Chain Hot Wallet na Lightning Wallet.
 
 
 https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
@@ -2740,10 +2740,10 @@ https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-50
 Kutenganisha pesa zako kwa njia hii husaidia kupunguza hatari iwapo Wallet inayotumika kwa malipo ya kila siku itaathiriwa.
 
 
-#### 2. Weka nodi yako mwenyewe
+#### 2. Weka node yako mwenyewe
 
 
-Watumiaji amilifu mara nyingi hulenga kupunguza utegemezi wao kwa watu wengine wanaoaminika, kulingana na hali zao za kibinafsi. Mojawapo ya njia bora zaidi za kufikia hili ni kwa kuendesha nodi zao za Bitcoin. Hii inawaruhusu kutumia mtandao kwa kujitegemea huku wakiboresha ufaragha wa miamala yao.
+Watumiaji amilifu mara nyingi hulenga kupunguza utegemezi wao kwa watu wengine wanaoaminika, kulingana na hali zao za kibinafsi. Mojawapo ya njia bora zaidi za kufikia hili ni kwa kuendesha node zao za Bitcoin. Hii inawaruhusu kutumia mtandao kwa kujitegemea huku wakiboresha ufaragha wa miamala yao.
 
 
 https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
@@ -2758,7 +2758,7 @@ https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112c
 
 https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
-Kwa wale wanaotumia Lightning Network mara kwa mara, kudhibiti eneo lao la LND, LDK, au Core-Lightning inaweza kuwa hatua nzuri. Inawapa udhibiti kamili juu ya kufungua na kufunga njia, huongeza uhuru wa kibinafsi, na inaweza hata kusaidia ada za chini za ununuzi; haswa inapolinganishwa na suluhu za kiotomatiki kama vile Phoenix, au mbaya zaidi, pochi za Umeme zilizohifadhiwa.
+Kwa wale wanaotumia Lightning Network mara kwa mara, kudhibiti eneo lao la LND, LDK, au Core-Lightning inaweza kuwa hatua nzuri. Inawapa udhibiti kamili juu ya kufungua na kufunga njia, huongeza uhuru wa kibinafsi, na inaweza hata kusaidia ada za chini za ununuzi; haswa inapolinganishwa na suluhu za kiotomatiki kama vile Phoenix, au mbaya zaidi, wallet za Lightning zilizohifadhiwa.
 
 
 https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
@@ -2825,7 +2825,7 @@ https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 #### 4. Usimamizi wa gharama hai
 
 
-Uchaguzi wa bitcoins za matumizi mara nyingi huwa chini ya upinzani. Watumiaji wengine wa Bitcoin wanapendelea kutumia fedha za fiat, ambazo wanaziona kuwa za ubora mdogo na kwa hiyo wanataka kuziondoa, badala ya kutumia bitcoins.Lakini mawazo haya yana makosa mawili muhimu: kwanza, inapuuza faida za Bitcoin kama njia ya malipo (angalia sehemu ya awali), na pili, inaleta swali: kwa nini ushikilie fedha za fiat, ambazo zinaonekana kuwa zisizo na thamani, kwa matumizi ya chini?
+Uchaguzi wa bitcoin za matumizi mara nyingi huwa chini ya upinzani. Watumiaji wengine wa Bitcoin wanapendelea kutumia fedha za fiat, ambazo wanaziona kuwa za ubora mdogo na kwa hiyo wanataka kuziondoa, badala ya kutumia bitcoin.Lakini mawazo haya yana makosa mawili muhimu: kwanza, inapuuza faida za Bitcoin kama njia ya malipo (angalia sehemu ya awali), na pili, inaleta swali: kwa nini ushikilie fedha za fiat, ambazo zinaonekana kuwa zisizo na thamani, kwa matumizi ya chini?
 
 
 Njia ya kimantiki zaidi ni mbinu ya "Tumia na Badilisha". Hii inamaanisha kutumia Bitcoin kwa sababu zote zilizotajwa hapo awali, kisha, badala ya kuruhusu akiba yako ya Bitcoin kupungua, unachukua nafasi ya Sats ulizotumia kwa kununua nyingine mpya kwa kutumia fedha za fiat.
@@ -2842,7 +2842,7 @@ https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 #### 5. Uelewa wa Kiteknolojia na Kubadilika
 
 
-Itifaki ya Bitcoin, pamoja na mifumo ya Layer-2 kama vile Lightning Network na programu nzima ya Layer inayohusiana na mifumo ikolojia hii, inabadilika kwa kasi. Kama mtumiaji anayetumika, unapaswa:
+Protocol ya Bitcoin, pamoja na mifumo ya Layer-2 kama vile Lightning Network na programu nzima ya Layer inayohusiana na mifumo ikolojia hii, inabadilika kwa kasi. Kama mtumiaji anayetumika, unapaswa:
 
 
 
@@ -2859,7 +2859,7 @@ Je, umekataliwa kuwa mtumiaji anayetumika wa Bitcoin? Hapa kuna sifa kuu zinazof
 
 
 - **Pragmatism na Commitment:** Unahamasishwa kujumuisha Bitcoin katika maisha yako ya kila siku na kuchukua jukumu kubwa katika ukuaji wa mfumo wake wa ikolojia. Unatambua faida na changamoto zinazoletwa nayo.
-- **Ustadi wa Kiufundi:** Tayari una ufahamu thabiti wa jinsi pochi za Bitcoin na Lightning Network zinavyofanya kazi; au una hamu ya kujifunza. Una raha kusogeza dhana za kina kama vile usimamizi wa UTXO.
+- **Ustadi wa Kiufundi:** Tayari una ufahamu thabiti wa jinsi wallet za Bitcoin na Lightning Network zinavyofanya kazi; au una hamu ya kujifunza. Una raha kusogeza dhana za kina kama vile usimamizi wa UTXO.
 - **Unyumbufu na Kubadilika:** Uko tayari kujaribu zana mpya, kubadilisha kati ya suluhu, na kurekebisha mazoea yako kadri mfumo ikolojia wa Bitcoin unavyobadilika na mahitaji yako yanabadilika.
 - **Nidhamu ya Kifedha:** Unadhibiti matumizi na akiba yako ya Bitcoin kwa uangalifu. Unaelewa umuhimu wa kutenganisha kwa uwazi fedha zako za kila siku kutoka kwa akiba yako ya muda mrefu.
 
@@ -2921,14 +2921,14 @@ Bitcoiner mbishi hufuata mkakati madhubuti uliojengwa karibu na malengo mawili y
 ![image](assets/sw/092.webp)
 
 
-#### 1. Kuweka pochi na nodi
+#### 1. Kuweka wallet na node
 
 
-Mtumiaji mbishi huwa hachanganyi pesa kulingana na asili au matumizi. Badala yake, wanagawanya Bitcoin yao kwa kusudi, kwa kutumia pochi nyingi, maalum:
+Mtumiaji mbishi huwa hachanganyi pesa kulingana na asili au matumizi. Badala yake, wanagawanya Bitcoin yao kwa kusudi, kwa kutumia wallet nyingi, maalum:
 
 
 
-- **Cold Wallet (iliyo na nafasi ya hewa na/au DIY)** Malipo ya muda mrefu huhifadhiwa katika pochi zilizo salama sana, zisizo na hewa au DIY. Hivi kwa kawaida ni vifaa vya programu huria au vile vilivyo na msimbo unaoweza kuthibitishwa, kama vile Jade, Coldcard, SeedSigner, Portal au Pasipoti... Wakati wowote inapowezekana, watapata vifaa hivi bila kujulikana; ama kwa kulipa pesa taslimu au kutumia Bitcoin kwenye duka halisi, au kwa kuagiza mtandaoni ukitumia chaguo za usafirishaji wa busara na malipo ya BTC. Nchini Ufaransa, kwa mfano, [Bitcoin Bazar](https://bitcoinbazar.fr/) ni moja ya duka kama hilo. Unaweza kutafuta watoa huduma sawa katika eneo Kwao, kila hatua ni ya msingi. Kila muamala, kila usanidi wa Wallet, na kila mwingiliano na mtandao huzingatiwa kwa umakini mkubwa. Kuteleza mara moja kunaweza kufichua taarifa nyeti zinazoweza kuunganisha utambulisho wao na mali zao za Bitcoin. Lengo lao kuu? Kutumia Bitcoin kwa njia inayolinda faragha ya utambulisho wao, eneo, na hali yao ya kifedha kikamilifu..
+- **Cold Wallet (iliyo na nafasi ya hewa na/au DIY)** Malipo ya muda mrefu huhifadhiwa katika wallet zilizo salama sana, zisizo na hewa au DIY. Hivi kwa kawaida ni vifaa vya programu huria au vile vilivyo na msimbo unaoweza kuthibitishwa, kama vile Jade, Coldcard, SeedSigner, Portal au Pasipoti... Wakati wowote inapowezekana, watapata vifaa hivi bila kujulikana; ama kwa kulipa pesa taslimu au kutumia Bitcoin kwenye duka halisi, au kwa kuagiza mtandaoni ukitumia chaguo za usafirishaji wa busara na malipo ya BTC. Nchini Ufaransa, kwa mfano, [Bitcoin Bazar](https://bitcoinbazar.fr/) ni moja ya duka kama hilo. Unaweza kutafuta watoa huduma sawa katika eneo Kwao, kila hatua ni ya msingi. Kila muamala, kila usanidi wa Wallet, na kila mwingiliano na mtandao huzingatiwa kwa umakini mkubwa. Kuteleza mara moja kunaweza kufichua taarifa nyeti zinazoweza kuunganisha utambulisho wao na mali zao za Bitcoin. Lengo lao kuu? Kutumia Bitcoin kwa njia inayolinda faragha ya utambulisho wao, eneo, na hali yao ya kifedha kikamilifu..
 
 
 https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
@@ -2940,7 +2940,7 @@ https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
 
-- **Hot Wallet kwa ajili ya shughuli za kila siku**, Kwa matumizi ya kawaida, watumiaji wasio na akili huchagua pochi zinazolenga faragha kama vile Ashigaru, Wasabi Wallet au Sparrow wallet. Pochi hizi zinaauni vipengele vya kina kama vile: miamala ya matumizi ya mini-CoinJoin, viungo vya malipo, zana zinazowezekana za CoinJoin, udhibiti wa sarafu, kuweka lebo kwa UTXO, au uwezo wa kuunganisha kupitia nodi yako ya Bitcoin.
+- **Hot Wallet kwa ajili ya shughuli za kila siku**, Kwa matumizi ya kawaida, watumiaji wasio na akili huchagua wallet zinazolenga faragha kama vile Ashigaru, Wasabi Wallet au Sparrow wallet.  Wallet hizi zinaauni vipengele vya kina kama vile: miamala ya matumizi ya mini-CoinJoin, viungo vya malipo, zana zinazowezekana za CoinJoin, udhibiti wa sarafu, kuweka lebo kwa UTXO, au uwezo wa kuunganisha kupitia node yako ya Bitcoin.
 
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
@@ -2952,7 +2952,7 @@ https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-80
 
 
 
-- Kuendesha nodi zao za **Bitcoin ** ni muhimu. Inahakikisha udhibiti kamili wa utangazaji wa shughuli na inaepuka kutegemea miundombinu ya watu wengine. Pia hulinda faragha, huzuia udhibiti, na huwaruhusu wathibitishe kwa uhuru sheria za itifaki ya Bitcoin. Iwe kwenye Linux, Windows, macOS, au kupitia usanidi wa programu-jalizi-na-kucheza kama vile RaspiBlitz, myNode, au Start9, mtumiaji mwenye dhana potofu huchukulia nodi yake kama nguzo isiyoweza kujadiliwa ya uhuru.
+- Kuendesha node zao za **Bitcoin** ni muhimu. Inahakikisha udhibiti kamili wa utangazaji wa shughuli na inaepuka kutegemea miundombinu ya watu wengine. Pia hulinda faragha, huzuia udhibiti, na huwaruhusu wathibitishe kwa uhuru sheria za protocol ya Bitcoin. Iwe kwenye Linux, Windows, macOS, au kupitia usanidi wa programu-jalizi-na-kucheza kama vile RaspiBlitz, myNode, au Start9, mtumiaji mwenye dhana potofu huchukulia node yake kama nguzo isiyoweza kujadiliwa ya uhuru.
 
 
 https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
@@ -2968,7 +2968,7 @@ https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112c
 https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 
-- Ili kufanya miamala juu ya **Lightning Network** huku wakiweka kiwango sawa cha udhibiti na busara, pia wanaendesha nodi zao za Umeme. Hii inawaruhusu kudhibiti vituo moja kwa moja na kutumia kwa njia ambayo inapunguza ufuatiliaji au utegemezi kwa huduma za ulezi.
+- Ili kufanya miamala juu ya **Lightning Network** huku wakiweka kiwango sawa cha udhibiti na busara, pia wanaendesha node zao za Lightning. Hii inawaruhusu kudhibiti vituo moja kwa moja na kutumia kwa njia ambayo inapunguza ufuatiliaji au utegemezi kwa huduma za ulezi.
 
 
 https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
@@ -2983,7 +2983,7 @@ https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
-Linapokuja suala la kupata akiba, wanaweza kutekeleza usanidi wa hali ya juu zaidi kama vile pochi zenye saini nyingi (zilizo na au bila kufuli za saa).
+Linapokuja suala la kupata akiba, wanaweza kutekeleza usanidi wa hali ya juu zaidi kama vile wallet zenye saini nyingi (zilizo na au bila kufuli za saa).
 
 
 https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
@@ -2993,7 +2993,7 @@ Mipangilio hii hupunguza hatari. Kuongeza BIP39 passphrase kwa maneno ya seed hu
 
 https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-Bitcoiner mwenye wasiwasi mkubwa (paranoid) bila shaka atakuwa na mpango wa urithi uliofikiria kwa makini kwa ajili ya bitcoins zake. Mada hii muhimu itajadiliwa kwa kina katika sehemu inayofuata ya kozi.
+Bitcoiner mwenye wasiwasi mkubwa (paranoid) bila shaka atakuwa na mpango wa urithi uliofikiria kwa makini kwa ajili ya bitcoin zake. Mada hii muhimu itajadiliwa kwa kina katika sehemu inayofuata ya kozi.
 
 
 Kwa upana zaidi, aina hii ya mtumiaji hutumia mbinu za hali ya juu zinazolenga faragha katika matumizi ya kompyuta kwa ujumla. Huwategemea zana salama za chanzo huria zinazoheshimu faragha ya mtumiaji katika kila safu (layer) ya maisha yao ya kidijitali.
@@ -3048,7 +3048,7 @@ Ikiwa ungependa kujua zaidi kuhusu somo la usalama wa TEHAMA, tunatoa kozi kamil
 
 https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
-#### 2. Kununua bitcoins bila kujulikana
+#### 2. Kununua bitcoin bila kujulikana
 
 
 Kanuni ya msingi kwa mwekezaji mbishi ni kupata Bitcoin bila kuiunganisha na utambulisho wao wa ulimwengu halisi. Ili kuzuia majukwaa ya KYC na kuzuia alama za vidole za On-Chain, wanageukia mikakati kadhaa:
@@ -3077,7 +3077,7 @@ https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 
 - **ATM za Bitcoin**;
 - **Kupata Sats** kwa kutoa bidhaa au huduma katika Exchange kwa Bitcoin;
-- **Mining bitcoins **.
+- **Mining bitcoin **.
 
 
 https://planb.academy/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
@@ -3117,13 +3117,13 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 #### 4. Kukaa macho na kusasisha mkakati wao
 
 
-Itifaki ya Bitcoin, Lightning Network, na zana zinazohusiana zinaendelea kubadilika. Mtumiaji mbishi hubaki macho na anaweza kubadilika:
+Protocol ya Bitcoin, Lightning Network, na zana zinazohusiana zinaendelea kubadilika. Mtumiaji mbishi hubaki macho na anaweza kubadilika:
 
 
 
 - Kukaa na habari kuhusu mbinu mpya za faragha na zana za usalama
 - Kujaribu zana na huduma mpya mara kwa mara ili kuweka usanidi wao wa uendeshaji mkali
-- Kukagua mara kwa mara kuwa pochi za maunzi na nodi zimesasishwa na zinafanya kazi ipasavyo
+- Kukagua mara kwa mara kuwa hardware wallet na node zimesasishwa na zinafanya kazi ipasavyo
 - Kuthibitisha mara kwa mara kwamba nakala rudufu (k.m., bahasha za Mnemonic zilizofungwa) hazijaingiliwa.
 - Kufuatilia maendeleo ya udhibiti ili kurekebisha mkakati wao kwa wakati halisi
 
@@ -3140,7 +3140,7 @@ Hapa kuna sifa kuu za bitcoiner ya paranoid:
 
 
 - **Makini na Kuzingatia Usalama**: Unaweka thamani kubwa kwenye faragha yako na uko tayari kuchukua tahadhari zaidi ili kuzuia uvujaji wowote wa taarifa za kibinafsi. Unaona ufuatiliaji wa kifedha kama tishio kubwa na utafute kikamilifu njia za kujikinga nayo.
-- **Kujitegemea**: Unakataa kutegemea huduma yoyote ya wahusika wengine kuhifadhi, kudhibiti au kuhamisha bitcoins zako. Uko tayari kupangisha Bitcoin na nodi zako za umeme, tumia pochi changamano, na uchukue jukumu kamili la kudhibiti hifadhi zako na funguo za faragha.
+- **Kujitegemea**: Unakataa kutegemea huduma yoyote ya wahusika wengine kuhifadhi, kudhibiti au kuhamisha bitcoin zako. Uko tayari kupangisha Bitcoin na node zako za lightning, tumia wallet changamano, na uchukue jukumu kamili la kudhibiti hifadhi zako na funguo za faragha.
 - **Sina imani**: Unaepuka kikamilifu mifumo ya KYC na unapendelea mbinu za kupata data za P2P zisizojulikana, hata kama itamaanisha kuzilipia. Unaelewa kuwa data yoyote ya kibinafsi iliyoshirikiwa inaweza kutumika siku moja dhidi yako.
 - **Mwenye Maarifa na Mwenye Nidhamu**:Una shauku ya usalama wa mtandao na teknolojia za kuimarisha faragha. Unachukua muda kusoma suluhu zinazopatikana, zana za majaribio, kujielimisha kuhusu mbinu bora, na kutumia mbinu kali ili kupunguza hatari.
 - **Kiutendaji na Kiuhalisia**:Unaelewa kuwa kutokujulikana kabisa ni jambo lisilowezekana, lakini unajitahidi kupunguza udhihirisho wako iwezekanavyo huku ukisawazisha faragha, usalama na uwezo wa kutumia. Mtazamo wako huendelea kubadilika kulingana na vitisho vipya na maendeleo ya teknolojia.
@@ -3161,7 +3161,7 @@ Mbinu hii ni muhimu hasa ikiwa:
 - haja ya kulinda kutokujulikana kwako kwa sababu za kibinafsi, za kitaaluma, au za kiitikadi.
 
 
-Katika sehemu inayofuata ya kozi, tutajadili mada muhimu ambayo mara nyingi hupuuzwa: jinsi ya kupitisha bitcoins zako ikiwa kuna dharura.
+Katika sehemu inayofuata ya kozi, tutajadili mada muhimu ambayo mara nyingi hupuuzwa: jinsi ya kupitisha bitcoin zako ikiwa kuna dharura.
 
 
 # Kuwalinda Warithi Wako na Utajiri Wako
@@ -3181,20 +3181,20 @@ Katika sehemu inayofuata ya kozi, tutajadili mada muhimu ambayo mara nyingi hupu
 :::kitambulisho cha video=7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e:::
 
 
-Kuhakikisha usambazaji wa bitcoins zako ni jukumu ambalo mara nyingi hupuuzwa lakini ni muhimu. Mamlaka ya kifedha ambayo Bitcoin inatoa pia huja na hitaji la usimamizi makini wa mali isiyohamishika. Bila hili, warithi wako wanaweza kujikuta hawawezi kufikia pesa zako za Hard. Katika sura hii, tutachunguza misingi ya upangaji mali kama inavyotumika kwa Bitcoin.
+Kuhakikisha usambazaji wa bitcoin zako ni jukumu ambalo mara nyingi hupuuzwa lakini ni muhimu. Mamlaka ya kifedha ambayo Bitcoin inatoa pia huja na hitaji la usimamizi makini wa mali isiyohamishika. Bila hili, warithi wako wanaweza kujikuta hawawezi kufikia pesa zako za Hard. Katika sura hii, tutachunguza misingi ya upangaji mali kama inavyotumika kwa Bitcoin.
 
 
 ### Kwa nini ni muhimu kuandaa mpango wa urithi wa Bitcoin?
 
 
-Hebu fikiria tukio la ghafla (ajali au hali isiyotarajiwa) na hauko hapa tena. Familia yako, ambayo tayari ina huzuni, sasa inakabiliwa na changamoto nyingine: kupata bitcoins zako. Huenda wamekusikia ukizungumza kuhusu funguo za faragha, misemo ya Mnemonic, na kutoweza kutenduliwa kwa miamala, lakini dhana hizi huenda zisiwe wazi kwao. Wamebaki wakijaribu kubaini wao wenyewe.
+Hebu fikiria tukio la ghafla (ajali au hali isiyotarajiwa) na hauko hapa tena. Familia yako, ambayo tayari ina huzuni, sasa inakabiliwa na changamoto nyingine: kupata bitcoin zako. Huenda wamekusikia ukizungumza kuhusu funguo za faragha, misemo ya Mnemonic, na kutoweza kutenduliwa kwa miamala, lakini dhana hizi huenda zisiwe wazi kwao. Wamebaki wakijaribu kubaini wao wenyewe.
 
 
 Kisha una chaguzi mbili:
 
 
 
-- Kuchukua muda wa kuanzisha mpango wazi, uliopangwa ambao utawawezesha wapendwa wako kufikia bitcoins zako kwa urahisi na kwa usalama;
+- Kuchukua muda wa kuanzisha mpango wazi, uliopangwa ambao utawawezesha wapendwa wako kufikia bitcoin zako kwa urahisi na kwa usalama;
 - Bila kufanya chochote, wakitumaini kwamba wataijua wao wenyewe. Lakini ikiwa watafanya makosa, kupoteza upatikanaji wa Wallet au kwa bahati mbaya kutuma fedha kwa Address isiyo sahihi, utajiri wako unaweza kupotea milele.
 
 
@@ -3208,9 +3208,9 @@ Pamela Morgan, katika kitabu chake *[Cryptoasset Mirathi Planning](https://www.a
 
 
 
-- Hakikisha warithi wako wanaweza kufikia bitcoins zako kwa wakati unaofaa (lakini sio hapo awali);
-- Punguza hatari ya wizi au maelewano kabla ya kurithi bitcoins;
-- Hakikisha warithi wako wanajua jinsi ya kupata bitcoins kwa muda mrefu ikiwa wanataka;
+- Hakikisha warithi wako wanaweza kufikia bitcoin zako kwa wakati unaofaa (lakini sio hapo awali);
+- Punguza hatari ya wizi au maelewano kabla ya kurithi bitcoin;
+- Hakikisha warithi wako wanajua jinsi ya kupata bitcoin kwa muda mrefu ikiwa wanataka;
 - Epuka mizozo ya familia na upunguze matatizo ya kisheria wakati wa kupitisha mali ya crypto.
 
 
@@ -3235,7 +3235,7 @@ Wasifu wake:
 
 - Mwekezaji wa muda mrefu ambaye hafanyi biashara mara kwa mara;
 - Anamiliki Hardware Wallet na Wallet ya simu kwa matumizi ya mara kwa mara;
-- Anatumia jukwaa moja la KYC Exchange kununua bitcoins zake;
+- Anatumia jukwaa moja la KYC Exchange kununua bitcoin zake;
 - Ilitambulishwa kwa Bitcoin na binamu yake;
 - Haina altcoins au kutumia Lightning Network.
 
@@ -3249,7 +3249,7 @@ Lengo letu ni kuunda mpango rahisi, unaofaa unaolenga wasifu wa Cédric kabla ya
 ### Kabla ya kuanza
 
 
-Chukua dakika 30 za wakati wako. Sio kwa ajili yako mwenyewe, bali kwa wale wanaokutegemea. Upangaji wa mali isiyohamishika ni kazi muhimu, lakini ambayo mara nyingi huahirishwa, kupuuzwa au hata kupuuzwa. Watu wengi sana, hata wale waangalifu zaidi, huiweka mbali ... mpaka ni kuchelewa sana. Maelfu ya bitcoins tayari zimepotea kwa kukosa kuona mbele. Usifanye kosa hili! Hii ni **HATUA YA MWISHO** katika safari yako ya kujitawala kifedha: kupata utajiri wako wa Bitcoin kwa ajili ya wapendwa wako.
+Chukua dakika 30 za wakati wako. Sio kwa ajili yako mwenyewe, bali kwa wale wanaokutegemea. Upangaji wa mali isiyohamishika ni kazi muhimu, lakini ambayo mara nyingi huahirishwa, kupuuzwa au hata kupuuzwa. Watu wengi sana, hata wale waangalifu zaidi, huiweka mbali ... mpaka ni kuchelewa sana. Maelfu ya bitcoin tayari zimepotea kwa kukosa kuona mbele. Usifanye kosa hili! Hii ni **HATUA YA MWISHO** katika safari yako ya kujitawala kifedha: kupata utajiri wako wa Bitcoin kwa ajili ya wapendwa wako.
 
 
 #### Unahitaji nini?
@@ -3279,7 +3279,7 @@ Watu wengi huchelewesha hatua hii kwa sababu ya imani potofu zinazowazuia kuchuk
 - **"*Nahitaji kuajiri wakili.*"** → **Uongo**. Ingawa wakili anaweza kusaidia kwa masuala ya kisheria, mpango wa urithi wa Bitcoin unaweza kuanzishwa bila moja. Jambo muhimu zaidi ni kuwa na maelekezo ya wazi na kupatikana;
 - **"*Ninahitaji kumwamini mtu mwingine.*"** → **Siyo**. Mpango wako unaweza kutengenezwa kwa njia ambayo itapunguza hitaji la uaminifu, kama vile kusambaza taarifa kwa pande nyingi au kutumia suluhu zenye saini nyingi, kwa kuwekewa au bila kufunga saa;
 - **"*Kupanga kutafanya mali yangu kuibiwa kwa urahisi.*"** → **Siyo**.Mpango uliofikiriwa vyema hulinda dhidi ya majaribio ya wizi huku ukihakikisha kwamba warithi wako wanaweza kurejesha pesa zako kwa usalama. Hata hivyo, ni muhimu kutambua kwamba hakuna ufumbuzi usio na ujinga: mpango wa urithi huongeza hatari ya wizi, kulingana na taarifa gani zinazoshirikiwa. Tutajadili hili kwa undani zaidi baadaye;
-- **"*Thamani ya bitcoins zangu ni ndogo sana kupanga.*"** → **Uongo**.  daima ni bora kupanga mapema. Wapendwa wako huenda hawajui kiasi kamili cha Bitcoin unachomiliki, na hilo ni jambo zuri. Lakini ikiwa kitu kitakutokea, je, hawataki kuirejesha, hata kama hawajui kiasi halisi? Thamani ya Bitcoin inaweza kukua kwa kiasi kikubwa baada ya muda, kwa hivyo ni busara kuwarahisishia kupata pesa zako, na kuepuka kuwapa matumaini ya uongo kuhusu thamani au kuwaacha wakitafuta kitu ambacho huenda hakipo.
+- **"*Thamani ya bitcoin zangu ni ndogo sana kupanga.*"** → **Uongo**.  daima ni bora kupanga mapema. Wapendwa wako huenda hawajui kiasi kamili cha Bitcoin unachomiliki, na hilo ni jambo zuri. Lakini ikiwa kitu kitakutokea, je, hawataki kuirejesha, hata kama hawajui kiasi halisi? Thamani ya Bitcoin inaweza kukua kwa kiasi kikubwa baada ya muda, kwa hivyo ni busara kuwarahisishia kupata pesa zako, na kuepuka kuwapa matumaini ya uongo kuhusu thamani au kuwaacha wakitafuta kitu ambacho huenda hakipo.
 - **"*Warithi wangu watalifahamu wao wenyewe.*"** → **Uongo**. Bitcoin si kama akaunti ya kawaida ya benki. Bila maagizo yaliyo wazi, wapendwa wako hawawezi kamwe kufikia pesa zako, au kupata tu sehemu yao. Tofauti na akaunti za benki, ambapo taasisi za fedha au wathibitishaji huwasiliana na wanafamilia wanapofariki, hakuna mpatanishi ambaye ataarifu familia yako kuhusu Bitcoin Wallet yako. Kwa hivyo, ni juu yako kuijumuisha kwa uwazi katika mpango wa mali isiyohamishika;
 -** "*Smart contract inaweza kudhibiti kila kitu.*"** → **Uongo**. Smart contract, kama vile multi-sig Wallet iliyo na muda, inaweza kuwa sehemu ya suluhisho, lakini haitawahi kuchukua nafasi ya mpango uliopangwa vizuri, hasa kwa watu wasiojua Bitcoin. Suluhisho zote mbili ni za ziada.
 
@@ -3291,12 +3291,12 @@ Ni wakati wa kuchukua hatua. Tumia dakika hizi 30 kuweka mpango wako wa urithi. 
 ### Hatua ya 1: Chagua watu wanaofaa kuwasaidia warithi wako
 
 
-Inapokuja suala la kupitisha urithi katika Bitcoin, wapendwa wako wanaweza kuwa hawajui kudhibiti funguo za kibinafsi au kurejesha pochi. Watahitaji usaidizi wa nje kutoka kwa watu binafsi wenye uwezo na wanaoaminika. Njia bora ni kuchagua angalau watu wawili tofauti:
+Inapokuja suala la kupitisha urithi katika Bitcoin, wapendwa wako wanaweza kuwa hawajui kudhibiti funguo za kibinafsi au kurejesha wallet. Watahitaji usaidizi wa nje kutoka kwa watu binafsi wenye uwezo na wanaoaminika. Njia bora ni kuchagua angalau watu wawili tofauti:
 
 
 
 - **Jamaa anayeaminika**, ambaye atahakikisha utekelezaji mzuri wa mpango wako. Hazihitaji ujuzi wa kina wa Bitcoin, lakini lazima wawe mtu ambaye warithi wako wanaweza kumtegemea.
-- **Mtumiaji mwenye uzoefu wa Bitcoin**, ambaye anaweza kutoa usaidizi wa kiufundi kwa kurejesha pesa, kudhibiti pochi na kuelewa michakato inayohusika.
+- **Mtumiaji mwenye uzoefu wa Bitcoin**, ambaye anaweza kutoa usaidizi wa kiufundi kwa kurejesha pesa, kudhibiti wallet na kuelewa michakato inayohusika.
 
 
 Watu unaowachagua hawapaswi kamwe kuwa na ufikiaji wa moja kwa moja kwa funguo zako za faragha (au maneno yako ya Mnemonic), lakini wanahitaji kuweza:
@@ -3304,7 +3304,7 @@ Watu unaowachagua hawapaswi kamwe kuwa na ufikiaji wa moja kwa moja kwa funguo z
 
 
 - Waongoze warithi wako katika kurejesha na kupata fedha;
-- Eleza misingi ya pochi za Bitcoin, misemo ya kurejesha, na shughuli;
+- Eleza misingi ya wallet za Bitcoin, misemo ya kurejesha, na shughuli;
 - Saidia kuzuia makosa ya kawaida.
 
 
@@ -3324,20 +3324,20 @@ Ikiwa huna mwanafamilia anayetegemewa au anayestahiki, unaweza pia kuzingatia ku
 ### Hatua ya 2: Unda orodha ya haraka na rahisi
 
 
-Kabla ya kufikiria kuhusu kupata au kusambaza bitcoins zako, ni muhimu kufanya hesabu wazi ya mali yako ya Bitcoin. Orodha hii itatumika kama msingi wa kupanga mpango wako wa urithi na itasaidia warithi wako kuelewa mahali ambapo mali yako iko na jinsi ya kuzifikia.
+Kabla ya kufikiria kuhusu kupata au kusambaza bitcoin zako, ni muhimu kufanya hesabu wazi ya mali yako ya Bitcoin. Orodha hii itatumika kama msingi wa kupanga mpango wako wa urithi na itasaidia warithi wako kuelewa mahali ambapo mali yako iko na jinsi ya kuzifikia.
 
 
-Lengo hapa si kuboresha usalama wako mara moja, lakini tu kuorodhesha hali yako ya sasa. Ni muhtasari wa bitcoins zako na njia za kuzifikia. Unaweza kurekebisha na kuimarisha usalama baadaye, baada ya orodha hii ya kwanza kukamilika.
+Lengo hapa si kuboresha usalama wako mara moja, lakini tu kuorodhesha hali yako ya sasa. Ni muhtasari wa bitcoin zako na njia za kuzifikia. Unaweza kurekebisha na kuimarisha usalama baadaye, baada ya orodha hii ya kwanza kukamilika.
 
 
-Fikiria maeneo yote ambapo una bitcoins au fedha za fiat zinazohusiana na Bitcoin. Hii inaweza kujumuisha:
+Fikiria maeneo yote ambapo una bitcoin au fedha za fiat zinazohusiana na Bitcoin. Hii inaweza kujumuisha:
 
 
 
 - **Mifumo ya Exchange**: Akaunti zilizo na BTC au mtandao unaounganishwa na ununuzi wako wa Bitcoin.
--** Hot wallets(simu ya mkononi au eneo-kazi)**: Programu zilizosakinishwa kwenye simu yako, zinazotumika kwa shughuli za kila siku;
-- **Pochi za maunzi**: Vifaa halisi vinavyohifadhi funguo zako za faragha nje ya mtandao;
-- **Suluhisho zingine **: Multisig, pochi za karatasi, funguo za kibinafsi zilizohifadhiwa, nk.
+-**Hot wallets(simu ya mkononi au eneo-kazi)**: Programu zilizosakinishwa kwenye simu yako, zinazotumika kwa shughuli za kila siku;
+- **Hardware wallet**: Vifaa halisi vinavyohifadhi funguo zako za faragha nje ya mtandao;
+- **Suluhisho zingine **: Multisig, wallet za karatasi, funguo za kibinafsi zilizohifadhiwa, nk.
 
 
 Tumia jedwali kuunda orodha hii. Wazo si kuhifadhi hati hii mtandaoni bali kuiweka mahali salama, kwenye karatasi. Kwa mfano:
@@ -3349,7 +3349,7 @@ Tumia jedwali kuunda orodha hii. Wazo si kuhifadhi hati hii mtandaoni bali kuiwe
 | Physical wallet | Jade Plus | BTC | Personal safe at home | Copy at my Uncle Bob's and in a bank safe at BNP Paribas | passphrase stored at my mother's. PIN code stored on Bitwarden password manager. PIN code stored on Bitwarden password manager. | I use 2 separate wallets: a normal one with only the mnemonic phrase and one with a passphrase. |
 | Green Wallet | BTC | On my Iphone 15 | Copy of the seed in my safe at home | PIN code stored on the Bitwarden password manager. | The application is in hidden mode. | The application is in hidden mode |
 
-Katika hatua hii, unaweza kuhisi hamu ya kurekebisha mara moja usambazaji wako wa hazina, kuboresha usalama wako, au hata kununua au kuuza bitcoins zaidi. Usichukue hatua bado! Lengo hapa si kuchukua hatua bali ni kupata picha ya hali yako ya sasa. Unaweza kuboresha mpango wako wakati wowote baadaye, lakini kwa sasa, endelea kulenga kukamilisha hesabu kwa kina iwezekanavyo.
+Katika hatua hii, unaweza kuhisi hamu ya kurekebisha mara moja usambazaji wako wa hazina, kuboresha usalama wako, au hata kununua au kuuza bitcoin zaidi. Usichukue hatua bado! Lengo hapa si kuchukua hatua bali ni kupata picha ya hali yako ya sasa. Unaweza kuboresha mpango wako wakati wowote baadaye, lakini kwa sasa, endelea kulenga kukamilisha hesabu kwa kina iwezekanavyo.
 
 
 Mara baada ya hesabu hii kufanywa, itakuwa rahisi zaidi kutambua pointi dhaifu na kuandaa mchakato salama na ufanisi wa maambukizi.
@@ -3361,7 +3361,7 @@ Mara baada ya hesabu hii kufanywa, itakuwa rahisi zaidi kutambua pointi dhaifu n
 #### Kwa nini barua iliyoandikwa kwa mkono?
 
 
-Ni muhimu kuhakikisha kwamba mpango wako wa urithi ni wazi, usomeke na salama. Ili kufanikisha hili, andika barua kwa mkono kwa kutumia wino kwenye karatasi, ukiepuka hati za kidijitali zinazoweza kuathiriwa. Ingawa barua hii si wosia wala tamko la kisheria, ni mwongozo wa vitendo wa kuwasaidia wapendwa wako kurejesha bitcoins zako kwa usalama.
+Ni muhimu kuhakikisha kwamba mpango wako wa urithi ni wazi, usomeke na salama. Ili kufanikisha hili, andika barua kwa mkono kwa kutumia wino kwenye karatasi, ukiepuka hati za kidijitali zinazoweza kuathiriwa. Ingawa barua hii si wosia wala tamko la kisheria, ni mwongozo wa vitendo wa kuwasaidia wapendwa wako kurejesha bitcoin zako kwa usalama.
 
 
 Barua inapaswa kuwa rahisi, ya moja kwa moja, na iwe na zifuatazo muhimu za Elements:
@@ -3369,7 +3369,7 @@ Barua inapaswa kuwa rahisi, ya moja kwa moja, na iwe na zifuatazo muhimu za Elem
 
 
 - Utangulizi unaoelezea asili ya mali zitakazorejeshwa;
-- Anwani za watu wanaoaminika ambao wanaweza kusaidia warithi wako katika mchakato wa kurejesha;
+- Address za watu wanaoaminika ambao wanaweza kusaidia warithi wako katika mchakato wa kurejesha;
 - Orodha ya wazi ya mali, ikiwa ni pamoja na mbinu za kuhifadhi na maelezo ya upatikanaji;
 - Maagizo maalum ya usalama ili kuepuka makosa au kashfa;
 - Ujumbe wa mwisho, pamoja na maagizo yoyote ya kisheria yanapotumika.
@@ -3388,7 +3388,7 @@ Huu hapa ni mfano uliochochewa na Upangaji wa Urithi wa Cryptoasset wa Pamela Mo
 Mpendwa `Majina ya warithi`,
 
 
-Ikiwa unasoma barua hii, siko hapa tena. Kwanza kabisa, jua kwamba ninakupenda na nimechukua muda wa kuandaa hati hii ili kukusaidia kudhibiti bitcoins zangu, ambazo zinaweza kuwa na thamani. Hii sio kazi ngumu, lakini inahitaji uangalifu na tahadhari. Bitcoin ni mfumo wa rika-kwa-rika: hakuna suluhu iwapo kosa litafanywa. Tafadhali chukua muda kusoma barua hii kikamilifu kabla ya kuchukua hatua yoyote.
+Ikiwa unasoma barua hii, siko hapa tena. Kwanza kabisa, jua kwamba ninakupenda na nimechukua muda wa kuandaa hati hii ili kukusaidia kudhibiti bitcoin zangu, ambazo zinaweza kuwa na thamani. Hii sio kazi ngumu, lakini inahitaji uangalifu na tahadhari. Bitcoin ni mfumo wa rika-kwa-rika: hakuna suluhu iwapo kosa litafanywa. Tafadhali chukua muda kusoma barua hii kikamilifu kabla ya kuchukua hatua yoyote.
 
 
 #### 1. Wasiliana na Watu Wanaoaminika
@@ -3408,14 +3408,14 @@ Inaweza kuonekana kuwa ya kushangaza, lakini wasiliana nao wote. Zaidi ya hayo, 
 Wasiliana na watu hawa wote na uangalie maoni yao kabla ya kufanya maamuzi muhimu. **Usimwamini mtu yeyote kwa upofu.**
 
 
-#### 2. Bitcoins zangu ziko wapi?
+#### 2. Bitcoin zangu ziko wapi?
 
 Hapa kuna orodha ya kina ya hisa zangu, eneo lao, na jinsi ya kuzifikia.
 
 
 
 - Ninatumia simu yangu (Samsung Galaxy S8) kufikia Samourai Wallet yangu. Kifungu cha urejeshaji cha Wallet hii kimehifadhiwa katika nakala mbili: moja imehifadhiwa kwenye chumba cha benki, nyingine na Mjomba Bob. PIN inayohitajika ili kufungua simu yangu na Wallet huhifadhiwa nyumbani kwangu na kwa bibi yangu.
-- Ninafikia jukwaa la mtandaoni la Exchange la Bitfinex kupitia kompyuta yangu ndogo ya Dell 2018. Bado kunaweza kuwa na bitcoins au dola. Ili kurejesha pesa hizi, utahitaji kuwasiliana na Bitfinex moja kwa moja au ujaribu kufikia akaunti yangu. (**Kuwa mwangalifu, hii inaweza kuwa kinyume cha sheria—angalia sheria za eneo lako**)..
+- Ninafikia jukwaa la mtandaoni la Exchange la Bitfinex kupitia kompyuta yangu ndogo ya Dell 2018. Bado kunaweza kuwa na bitcoin au dola. Ili kurejesha pesa hizi, utahitaji kuwasiliana na Bitfinex moja kwa moja au ujaribu kufikia akaunti yangu. (**Kuwa mwangalifu, hii inaweza kuwa kinyume cha sheria—angalia sheria za eneo lako**)..
 - Nimepata ufikiaji wa akaunti zangu za mtandaoni kwa kutumia kidhibiti cha nenosiri. Hifadhi rudufu ya meneja huyu imehifadhiwa kwenye hifadhi ya benki. Akaunti yangu ya Bitfinex pia inalindwa kwa uthibitishaji wa vipengele viwili, ambao unaweza kufikiwa kupitia simu yangu (Samsung Galaxy S8, programu ya Authy) au kwa kutumia msimbo mbadala ambao nimeweka nyumbani.
 - Ninamiliki Trezor Model One Hardware Wallet, inayofikiwa kupitia Kompyuta yangu kwa kutumia programu ya Sparrow wallet. Kifungu cha urejeshaji cha Wallet hiki kimehifadhiwa katika nakala mbili: moja kwenye chumba cha benki, nyingine na Mjomba Bob. PIN ya Wallet hii imehifadhiwa nyumbani kwangu na kwa mama yangu. Kifaa chenyewe huenda kimehifadhiwa kwenye sefu ofisini kwangu. Ninatumia BIP39 passphrase kwenye Trezor Model One yangu. passphrase hii ni muhimu kwa kupata pesa kwenye kifaa. Hifadhi rudufu ya passphrase hii imehifadhiwa katika sehemu mbili: nyumbani kwangu na kwa mama yangu.
 
@@ -3429,7 +3429,7 @@ Chukua tahadhari zote muhimu kabla ya kushughulikia fedha hizi. Usiwahi kufichua
 
 -**Usikimbilie**. Chukua muda wa kujifunza kabla ya kutenda. Bitcoin ni salama inapotumiwa kwa usahihi.
 - **Usiwahi kutoa sentensi ya maneno 24 kwa mtu mmoja tu**. Mtu akikuomba ufikiaji kamili, kuwa mwangalifu.
-- **Usiunganishe pochi yangu kwa kompyuta isiyojulikana **. Tumia mazingira salama, nje ya mtandao ikiwezekana.
+- **Usiunganishe wallet yangu kwa kompyuta isiyojulikana**. Tumia mazingira salama, nje ya mtandao ikiwezekana.
 - **Jihadhari na ulaghai**. Kuna kashfa nyingi zinazozunguka Bitcoin. Waamini tu watu waliotajwa katika barua hii.
 - **Hifadhi kila kitu unachofanya **.  Andika madokezo, rekodi hatua muhimu na ulinde ufikiaji.
 
@@ -3437,7 +3437,7 @@ Chukua tahadhari zote muhimu kabla ya kushughulikia fedha hizi. Usiwahi kufichua
 #### 4. Taarifa za kisheria na ujumbe wa mwisho
 
 
-Utapata nakala ya wosia wangu kwenye faili yangu ya kibinafsi na kwa mthibitishaji wangu. Barua hii haichukui nafasi ya wosia rasmi, lakini itakuongoza katika kusimamia bitcoins zangu.
+Utapata nakala ya wosia wangu kwenye faili yangu ya kibinafsi na kwa mthibitishaji wangu. Barua hii haichukui nafasi ya wosia rasmi, lakini itakuongoza katika kusimamia bitcoin zangu.
 
 
 Jitunzeni na kumbukeni kwamba ninawapenda. Nia yangu ni kwamba mali hizi ziwe na manufaa kwako na kukusaidia kusonga mbele kwa amani ya akili.
@@ -3453,13 +3453,13 @@ Tarehe
 
 
 ---
-Huu ni mfano halisi wa barua ya urithi. Hakikisha unaibadilisha ili iendane na hali yako binafsi. Pia, ni muhimu kuamua ni maelezo gani ya kujumuisha katika mchakato wa urejeshaji. Ikiwa una wasiwasi kwamba warithi wako hawataweza kurejesha bitcoins zako kwa kutumia maelezo haya machache, fikiria kuandika mafunzo ya hatua kwa hatua yanayoelezea mchakato huo kwa undani.
+Huu ni mfano halisi wa barua ya urithi. Hakikisha unaibadilisha ili iendane na hali yako binafsi. Pia, ni muhimu kuamua ni maelezo gani ya kujumuisha katika mchakato wa urejeshaji. Ikiwa una wasiwasi kwamba warithi wako hawataweza kurejesha bitcoin zako kwa kutumia maelezo haya machache, fikiria kuandika mafunzo ya hatua kwa hatua yanayoelezea mchakato huo kwa undani.
 
 
-Zaidi ya hayo, utahitaji kusawazisha ni taarifa ngapi utakazofichua katika mpango huu wa urithi. Kadiri unavyoshiriki kuhusu mbinu zako za usalama, ndivyo unavyojihatarisha zaidi kuhatarisha usalama wako ukiwa hai ikiwa barua hii itaangukia katika mikono isiyofaa. Kwa mfano, mwizi akipata barua hii atajua mara moja mahali pa kutafuta taarifa muhimu za Wallet. Kwa upande mwingine, ikiwa unashiriki kidogo sana, unawaweka wazi warithi wako kwa hatari ya kutoweza kufikia bitcoins zako. Kwa hivyo, lazima upate msingi wa kati.
+Zaidi ya hayo, utahitaji kusawazisha ni taarifa ngapi utakazofichua katika mpango huu wa urithi. Kadiri unavyoshiriki kuhusu mbinu zako za usalama, ndivyo unavyojihatarisha zaidi kuhatarisha usalama wako ukiwa hai ikiwa barua hii itaangukia katika mikono isiyofaa. Kwa mfano, mwizi akipata barua hii atajua mara moja mahali pa kutafuta taarifa muhimu za Wallet. Kwa upande mwingine, ikiwa unashiriki kidogo sana, unawaweka wazi warithi wako kwa hatari ya kutoweza kufikia bitcoin zako. Kwa hivyo, lazima upate msingi wa kati.
 
 
-Hatimaye, tatizo la mpango wa urithi huakisi mikakati ya usalama: daima ni kuhusu kusawazisha hatari ya hasara na hatari ya wizi. Kutohifadhi taarifa za kutosha huongeza hatari ya warithi wako kupoteza ufikiaji wa bitcoins, wakati kushiriki sana kunaweza kuinua hatari ya wizi sasa.
+Hatimaye, tatizo la mpango wa urithi huakisi mikakati ya usalama: daima ni kuhusu kusawazisha hatari ya hasara na hatari ya wizi. Kutohifadhi taarifa za kutosha huongeza hatari ya warithi wako kupoteza ufikiaji wa bitcoin, wakati kushiriki sana kunaweza kuinua hatari ya wizi sasa.
 
 
 ### Hatua ya 4: Kagua na Uhifadhi Barua Yako
@@ -3531,19 +3531,19 @@ Lakini zaidi ya bei, ukuaji wa Bitcoin ni wa kushangaza. Kilichoanza kama mradi 
 
 Hii hapa toleo lililoboreshwa kwa mtiririko laini, Kiswahili fasaha, na msisitizo unaoendana na maudhui ya kiufundi:
 
-Mabadiliko haya ya mtazamo yameambatana na maendeleo endelevu ya kiufundi. Pochi na miundombinu vinaendelea kuboreshwa kila wakati. Kila mwaka, suluhisho mpya huibuka ambazo hufanya Bitcoin kuwa salama zaidi, thabiti zaidi, na rafiki zaidi kwa mtumiaji. Leo, Bitcoin ina ugatuzi mkubwa zaidi, inapatikana kwa urahisi zaidi, na inaeleweka kuliko wakati wowote ule katika historia yake.
+Mabadiliko haya ya mtazamo yameambatana na maendeleo endelevu ya kiufundi.  Wallet na miundombinu vinaendelea kuboreshwa kila wakati. Kila mwaka, suluhisho mpya huibuka ambazo hufanya Bitcoin kuwa salama zaidi, thabiti zaidi, na rafiki zaidi kwa mtumiaji. Leo, Bitcoin ina ugatuzi mkubwa zaidi, inapatikana kwa urahisi zaidi, na inaeleweka kuliko wakati wowote ule katika historia yake.
 
 
 Bila shaka, changamoto zinasalia: udhibiti, faragha, kupitishwa kwa mapana, na kuendeleza uchumi wa mzunguko. Lakini mradi jumuiya inasalia hai, kutaka kujua, na kujishughulisha, Bitcoin itasalia kuwa njia mbadala yenye nguvu kwa mfumo wa jadi wa kifedha.
 
 
-Jambo moja ni hakika: Bitcoin itaendelea kuwepo; kuzalisha block mpya takriban kila dakika 10, bila kuchoka, siku baada ya siku, mwaka baada ya mwaka. Tutaona watumiaji zaidi, pochi, ubadilishaji, na pia kanuni zaidi, vikwazo vya kiufundi, migogoro na ubunifu.
+Jambo moja ni hakika: Bitcoin itaendelea kuwepo; kuzalisha block mpya takriban kila dakika 10, bila kuchoka, siku baada ya siku, mwaka baada ya mwaka. Tutaona watumiaji zaidi, wallet, ubadilishaji, na pia kanuni zaidi, vikwazo vya kiufundi, migogoro na ubunifu.
 
 
 ![image](assets/sw/102.webp)
 
 
-Kadiri majanga ya kimataifa yanavyoendelea, na mfumuko wa bei unavyozidi kupunguza uwezo wa ununuzi wa sarafu za kawaida, Bitcoin itazidi kuwavutia watu wengi zaidi — hasa wale wanaotafuta uhuru wa kifedha na uhuru wa mtu binafsi. Nguvu hii itaendelea kuimarisha Bitcoin na kuvutia vipaji vipya vya kuboresha itifaki yake, tabaka zake za kuongeza ukubwa (scaling layers), pamoja na matumizi yake ya kila siku katika nyanja za usalama, faragha, na urahisi wa matumizi.
+Kadiri majanga ya kimataifa yanavyoendelea, na mfumuko wa bei unavyozidi kupunguza uwezo wa ununuzi wa sarafu za kawaida, Bitcoin itazidi kuwavutia watu wengi zaidi — hasa wale wanaotafuta uhuru wa kifedha na uhuru wa mtu binafsi. Nguvu hii itaendelea kuimarisha Bitcoin na kuvutia vipaji vipya vya kuboresha protocol yake, tabaka zake za kuongeza ukubwa (scaling layers), pamoja na matumizi yake ya kila siku katika nyanja za usalama, faragha, na urahisi wa matumizi.
 
 
 ### nini hatua yako ijayo?

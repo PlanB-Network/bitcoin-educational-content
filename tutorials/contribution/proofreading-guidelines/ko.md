@@ -44,7 +44,7 @@ https://planb.academy/tutorials/contribution/content/proofreading-review-tutoria
 ## Plan ₿ Academy에서 교정하기 전 첫 단계
 
 
-새 교정 작업을 시작하기 전에 [텔레그램 그룹](https://t.me/PlanBNetwork_ContentBuilder)에 공지하거나, 전용 [이슈](https://github.com/orgs/Plan ₿ Academy/projects/3)를 개설해줄 플랜 ₿ 아카데미 코디네이터에게 알려주세요. 이슈 링크를 받으면 해당 콘텐츠의 교정 작업을 시작한다고 **댓글을 달기만 하면 됩니다.
+새 교정 작업을 시작하기 전에 [텔레그램 그룹](https://t.me/PlanBNetwork_ContentBuilder)에 공지하거나, 전용 [이슈](https://github.com/orgs/PlanB-Network/projects/3)를 개설해줄 플랜 ₿ 아카데미 코디네이터에게 알려주세요. 이슈 링크를 받으면 해당 콘텐츠의 교정 작업을 시작한다고 **댓글을 달기만 하면 됩니다.
 
 
 이 시스템은 코디네이터가 리포지토리 내부의 진행 상황을 추적하는 데 도움이 되며, 교정자가 콘텐츠를 '소유권'을 주장할 수 있어 다른 사람이 중복해서 작업하는 것을 방지합니다.

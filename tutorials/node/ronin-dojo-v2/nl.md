@@ -543,7 +543,7 @@ Na het uitvoeren van coinjoins met Whirlpool is het handig om het bereikte priva
 Om de berekeningsmechanismen van deze anonsets beter te begrijpen, raad ik je aan het artikel te lezen: REMIX - Whirlpool, waarin de werking van deze indices gedetailleerd wordt beschreven.
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

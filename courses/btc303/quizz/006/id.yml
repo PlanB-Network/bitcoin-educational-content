@@ -6,3 +6,4 @@ wrong_answers:
   - Mereka gagal menerapkan mekanisme autentikasi pengguna yang tepat
 explanation: |
   Mata uang digital awal gagal karena mereka bergantung pada server pusat untuk pemrosesan dan validasi transaksi. Seperti yang telah dijelaskan pada bab sebelumnya, sentralisasi ini menjadi "kelemahan" mereka karena pemerintah atau pihak lawan dapat dengan mudah menyensor, mengontrol, atau mematikan titik-titik pusat kegagalan. Bahkan upaya untuk menggunakan beberapa server dalam sebuah federasi masih membuat sistem ini rentan karena setiap server dapat "gagal, atau dibuat gagal, satu per satu." Bitcoin mengatasi hal ini dengan menghilangkan kebutuhan akan otoritas pusat melalui sistem proof-of-work yang terdesentralisasi.
+reviewed: false

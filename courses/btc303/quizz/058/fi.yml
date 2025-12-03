@@ -6,3 +6,4 @@ wrong_answers:
   - Hämärtynyt koodi on asetettava saataville erillisenä latauksena, jonka kopiointikustannukset ovat seuraavat
 explanation: |
   Avoimen lähdekoodin määritelmässä todetaan nimenomaisesti, että "tarkoituksellisesti peitelty lähdekoodi ei ole sallittua" Tämä on perustavanlaatuinen vaatimus, koska peittely estää koodin mielekkään tarkastelun, muokkaamisen ja ymmärtämisen, mikä on vastoin avoimen lähdekoodin ohjelmistojen keskeisiä tarkoituksia. Lähdekoodin on oltava "siinä muodossa, jossa ohjelmoija mieluiten muokkaisi ohjelmaa", joten peittely on ristiriidassa avoimen lähdekoodin periaatteiden kanssa dokumentaatiosta tai jakelutavasta riippumatta.
+reviewed: false

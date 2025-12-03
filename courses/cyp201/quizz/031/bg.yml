@@ -1,0 +1,9 @@
+question: Какъв е модификаторът, който може да се комбинира с основните флагове на Sighash?
+answer: SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
+explanation: |
+  SIGHASH_ANYONECANPAY модифицира флаговете на sighash, за да обхванат само един вход, като оставя останалите да се модифицират.
+reviewed: false

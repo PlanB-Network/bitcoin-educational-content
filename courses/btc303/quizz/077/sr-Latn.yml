@@ -6,3 +6,4 @@ wrong_answers:
   - Objavljivanje zahteva hitnu akciju i zakrpe, dok objavljivanje omogućava postepene popravke kroz normalan tok razvoja.
 explanation: |
   Gregory Maxwell je naglasio ovu ključnu razliku u diskusiji na mailing listi. Otkrivanje se odnosi na odgovoran čin privatnog informisanja održavaoca softvera (prodavca) o ranjivosti kako bi mogli raditi na popravci. Objavljivanje, međutim, znači javno dostupno objavljivanje informacija o ranjivosti, što efektivno informiše potencijalne napadače o eksploatu. Ova razlika je kritična jer dok otkrivanje pomaže u zaštiti sistema, preuranjeno objavljivanje može prouzrokovati štetu omogućavajući zlonamernim akterima da iskoriste ranjivost pre nego što se postave adekvatne odbrane.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Der Wettbewerb zwischen Zwei-Ebenen-Lösungen und on-chain-Skalierungsansätzen um begrenzte Entwicklungsressourcen und Unterstützung durch die Gemeinschaft
 explanation: |
   Maxwell identifizierte ein zweiseitiges Problem, bei dem Bitcoin seine Vorteile in beide Richtungen verliert: Wenn die Ressourcennutzung im Verhältnis zur verfügbaren Technologie zu hoch ist, wird die Validierung zu kostspielig und verdrängt die Nutzer, die sich dann auf vertrauenswürdige Dritte verlassen müssen, anstatt selbst zu validieren. Umgekehrt wird der Zugriff auf die Blockchain zur Beilegung von Streitigkeiten unerschwinglich, wenn die Kapazität zu gering ist und die Transaktionsmethoden ineffizient sind, was wiederum die Nutzer zu vertrauenswürdigen Diensten drängt. Dies schafft ein empfindliches Gleichgewicht, das von Skalierungslösungen beherrscht werden muss.
+reviewed: false

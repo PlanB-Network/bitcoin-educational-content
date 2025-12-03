@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   L'entropie est définie comme le logarithme binaire du nombre de combinaisons possibles.
 
-reviewed: false
+reviewed: true 

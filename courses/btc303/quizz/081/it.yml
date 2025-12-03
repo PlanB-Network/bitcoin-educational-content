@@ -6,3 +6,4 @@ wrong_answers:
   - I bug delle prestazioni creano perdite di memoria che finiscono per bloccare i nodi, causando una temporanea instabilità della rete e una riduzione della velocità di hash
 explanation: |
   Gregory Maxwell ha specificamente avvertito che i bug delle prestazioni, se impiegati con perizia, possono essere utilizzati per partizionare la rete in modo strategico - ad esempio, separando il "minatore A e lo scambio B" in una partizione mentre tutti gli altri vanno in un'altra, creando le condizioni per gli attacchi a doppia spesa. Questo dimostra perché problemi apparentemente minori dovrebbero essere trattati come potenzialmente gravi, in quanto possono essere utilizzati come armi in modi sofisticati che non sono immediatamente evidenti.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Gjennom innlegg i sosiale medier og kunngjøringer om offentlige transaksjoner
 explanation: |
   I henhold til innholdet i kapittelet kan private data lekke på to primære måter: on-chain og off-chain. Lekkasjer i kjeden skjer gjennom analyse av den offentlige blokkjeden, der transaksjonsmønstre, gjenbruk av adresser og klyngedannelser kan avsløre finansiell informasjon. Lekkasjer utenfor kjeden skjer når ondsinnede aktører snapper opp internettkommunikasjon eller på andre måter utenfor blokkjeden. Selv om de gale svarene nevner reelle sikkerhetsproblemer i Bitcoin-økosystemet, representerer de ikke den grunnleggende kategoriseringen av hvordan personvernlekkasjer oppstår, slik det er skissert i materialet.
+reviewed: false

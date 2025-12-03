@@ -34,7 +34,7 @@ Come [Spazio Mempool](https://Mempool.space), che fornisce informazioni utili su
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 In questo tutorial vi faremo fare un giro su questa piattaforma, che è una risorsa essenziale per gli utenti di Lightning Network, per chi vuole collegare il proprio nodo per espandere la rete, ecc.
 
@@ -304,4 +304,4 @@ Ora avete fatto un giro completo delle caratteristiche e degli strumenti di anal
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

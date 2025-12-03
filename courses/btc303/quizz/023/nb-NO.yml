@@ -6,3 +6,4 @@ wrong_answers:
   - Brukerne er helt anonyme, og det er ikke mulig å koble transaksjonene sammen
 explanation: |
   Bitcoins pseudonyme natur betyr at selv om brukerne opererer under pseudonymer (adresser avledet fra offentlige nøkler), kan transaksjonene deres fortsatt spores og kobles mellom disse pseudonymene i blokkjeden. Dette skiller seg fra ekte anonymitet, der transaksjonene ikke etterlater noen sporbare forbindelser i det hele tatt. I Bitcoin kan du følge pengestrømmen mellom adresser, men den virkelige identiteten bak disse adressene avsløres ikke direkte, med mindre noen frivillig avslører den eller gjør feil som lekker privat informasjon.
+reviewed: false

@@ -1,0 +1,9 @@
+question: На кого е хрумнала идеята да се създаде тестова мрежа, за да не се навреди на основната мрежа Bitcoin?
+answer: Гавин Андресен
+wrong_answers:
+  - Satoshi Nakamoto
+  - Martti Malmi
+  - Ласло Ханиец (Laszlo Hanyecz)
+explanation: |
+  Той [спомена](https: //bitcointalk.org/index.php?topic=240.msg2104#msg2104) тази идея във форума на 9 юни и Satoshi я одобри. Той [създаде](https; //bitcointalk.org/index.php?topic=363.msg3018#msg3018) тестовата мрежа на 15 юли.
+reviewed: true

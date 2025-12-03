@@ -6,3 +6,4 @@ wrong_answers:
   - Vývojáři Bitcoin Core požádali o alternativu, která by snížila jejich odpovědnost za modernizaci
 explanation: |
   Když byl v říjnu 2016 vydán aktivační kód Segwit, podle této kapitoly se mezi uživateli Bitcoin objevila obrovská podpora, ale těžaři nesignalizovali podporu pro upgrade, což aktivaci zastavilo a řešení bylo v nedohlednu. Vznikla tak potřeba alternativního mechanismu, který by nespoléhal na signalizaci těžařů, což vedlo Shaolinfryho k návrhu UASF jako řešení, které by místo aktivace hashovací silou využívalo prosazování ekonomické většiny.
+reviewed: false

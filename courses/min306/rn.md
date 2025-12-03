@@ -1,792 +1,1184 @@
 ---
-name: Bitaxe Open Source Mining Mastery
-goal: Master the complete Bitaxe ecosystem from hardware assembly to advanced customization and performance optimization
-objectives:
-  - Understand the philosophy of open source Bitcoin mining hardware
-  - Build Bitaxe mining devices from scratch
-  - Configure and optimize mining software including AxeOS and Public Pool
-  - Implement advanced performance optimizations including overclocking and benchmarking
+name: Bitaxe Inkomoko Yuguruye Mining Ubuhinga
+goal: Kumenya neza ibidukikije vyose vya Bitaxe, kuva ku gukoranya ibikoresho gushika ku guhindura ibintu biteye imbere no gutuma ibikorwa bigenda neza
+objectives: 
+
+  - Gutahura filozofiya y'inkomoko yuguruye Bitcoin mining ibikoresho
+  - Kubaka ibikoresho vya Bitaxe mining kuva mu ntango
+  - Gutunganya no gutunganya neza porogaramu ya mining harimwo AxeOS na Public Pool
+  - Gushira mu ngiro uburyo bwo gutuma ibikorwa bigenda neza harimwo no gupima no gupima
+
 ---
 
-# Your Bitaxe Mining Guide
+# Igitabo cawe ca Bitaxe Mining
 
-Welcome to the comprehensive Bitaxe course, where you'll master the revolutionary open source Bitcoin mining hardware that's democratizing access to mining technology. This course takes you from understanding the philosophical foundations of decentralized mining to advanced hardware customization and performance optimization.
 
-The Bitaxe project represents a paradigm shift in Bitcoin mining, breaking the monopoly of proprietary ASIC manufacturers by providing fully open source designs, firmware, and software. Through these hands-on chapters, you'll gain practical skills in hardware assembly, software configuration, PCB design, and performance optimization.
+Ikaze mu nyigisho ya Bitaxe, aho uzomenya neza ubuhinga bushasha bwa Bitcoin mining bufise ubuhinga bwo gukoresha ubuhinga bwa mining. Iyi nyigisho ikujana mu gutahura imishinge ya filozofiya ya mining yegerejwe gushika ku buhinga buteye imbere bwo guhindura ibikoresho n’ubuhinga bwo gutuma ibikorwa bikora neza.
 
-No prior mining experience is required, though basic electronics knowledge and familiarity with GitHub will be helpful. The course will transform you from a curious observer into a capable Bitaxe builder and contributor.
+
+Umugambi wa Bitaxe ugereranya ihinduka ry’akarorero muri Bitcoin mining, ugaca ububasha bw’abahinguzi ba ASIC mu gutanga imigero y’inkomoko yuguruye, porogarama n’amaporogarama. Biciye muri ivyo bice vy’ibikorwa, uzoronka ubuhinga ngirakamaro mu gukoranya ibikoresho, gutunganya porogarama, guhingura PCB, no gutuma ikora neza.
+
+
+Nta bumenyi bwa mining busabwa, naho ubumenyi bw’ishimikiro bw’ivy’ubuhinga bwa none n’ukumenya GitHub bizofasha. Iryo shure rizoguhindura kuva ku muntu yitegereza ibintu vyinshi, ukaja ku muntu ashoboye kwubaka Bitaxe no gutanga umusanzu.
+
 
 +++
 
 
-# Introduction
+# Imenyekanisha
+
 
 <partId>6b3cd9f0-0063-40f0-a7bb-00a48f330d88</partId>
 
-## Course overview
+
+## Incamake y'amashure
+
 
 <chapterId>1fac9579-0e1c-48e3-9bc5-e7a2960018c8</chapterId>
 
-Welcome to the course MIN 306 _**Bitaxe Open Source Mining Mastery**_, a comprehensive journey into the world of Bitaxe mining. This course is designed for those who want to understand, build, and optimize their own Bitaxe mining hardware while exploring the philosophical and technical foundations that make this project unique within the Bitcoin ecosystem.
 
-### Understanding Bitaxe
+Murakaze mu nyigisho MIN 306 _**Ubuhinga bwo gukoresha Bitaxe Mining**_, urugendo rwuzuye mw'isi ya Bitaxe mining. Iryo shure ryagenewe abashaka gutahura, kwubaka no gutuma ibikoresho vyabo vya Bitaxe mining bigenda neza mu gihe bariko baratohoza imishinge y’ubuhinga n’ubuhinga bituma uyu mugambi uba uwudasanzwe mu bidukikije vya Bitcoin.
 
-The first section lays the essential groundwork: you’ll discover the origins of the Bitaxe project, its evolution, and the values of decentralization and transparency that define it. You’ll learn what a Bitaxe actually is, how it differs from proprietary ASICs, and where to find community resources to deepen your knowledge. This section provides the context needed to understand why Bitaxe represents a turning point in Bitcoin mining history.
 
-### Software and Operations
+### Gutahura Bitaxe
 
-The second section focuses on the software environment, with a detailed presentation of *AxeOS*, the open-source operating system designed specifically for Bitaxe devices. You’ll learn how to configure it, understand its main features, and interact with your device to start your first mining operations.
 
-### Community and Collaboration
+Igice ca mbere gishiraho umushinge w’ingenzi: uzobona inkomoko y’umugambi wa Bitaxe, iterambere ryawo, n’agaciro k’ugusenyura ubutegetsi n’uguseruka biwusobanura. Uzomenya ico Bitaxe ari co, ingene itandukanye n’ama ASIC y’abanyagihugu, n’aho woronkera ibikoresho vyo mu kibano kugira ngo ukomeze ubumenyi bwawe. Iki gice kiratanga ibisobanuro bikenewe kugira ngo umuntu atahure igituma Bitaxe iserukira ihinduka rikomeye mu mateka ya Bitcoin mining.
 
-The third section highlights the collaborative aspect of the project. You’ll explore the open-source philosophy applied to both the hardware and software development of Bitaxe. Through practical exercises, you’ll learn how to contribute directly to the source code, and you’ll also discover _Public Pool_, a community platform for pooling computational power. You’ll also learn how to install it on an Umbrel node for local and sovereign integration.
 
-### Hardware Assembly and Troubleshooting
+### Porogaramu n'imikorere
 
-In the fourth section, you’ll dive into the hardware itself. You’ll learn how to identify the tools needed to assemble a Bitaxe, fix soldering issues, and perform a complete diagnostic using *AxeOS* and USB tools. This section emphasizes hands-on practice and a deep understanding of how hardware and software components interact.
 
-### Advanced Customization
+Igice ca kabiri kivuga cane ku bidukikije vya porogarama, n’ugushikiriza mu buryo burambuye *AxeOS*: ubuhinga bwo gukoresha bufunguye bwagenewe cane cane ibikoresho vya Bitaxe. Uzomenya ibiranga vyayo nyamukuru n’ingene wobitunganya no gukorana n’igikoresho cawe kugira ngo utangure igikorwa cawe ca mbere ca mining.
 
-The fifth section is dedicated to customization. You’ll learn how to modify the PCB (printed circuit board), create a factory file, and use the _Bitaxe Web Flasher_. This section is aimed at those who want to go beyond simple assembly and truly design customized versions of their own device.
 
-### Performance Optimization
+### Umuryango n'ubufatanye
 
-Finally, the sixth section covers advanced optimization techniques. You’ll learn how to benchmark your Bitaxe to evaluate its performance and how to overclock it efficiently. These skills will help you get the most out of your hardware while respecting its physical limitations.
 
-As with every course on Plan ₿ Academy, the final section includes an evaluation designed to reinforce your knowledge.
+Igice ca gatatu kirerekana uruhande rw’ubufatanye rw’uwo mugambi. Uzokwihweza filozofiya y’inkomoko yuguruye ikoreshwa mu gutegura ibikoresho n’amaporogarama ya Bitaxe. Biciye mu myimenyerezo, uzomenya ingene wotanga umusanzu mu buryo butaziguye kuri kode y’inkomoko, kandi uzobona kandi _Public Pool_, urubuga rw’abanyagihugu rwo gukoranya ubushobozi bwo gukoresha ubuhinga bwa none. Uzomenya kandi ingene woyishira ku nzira ya Umbrel kugira ngo ukoreshe mu karere no mu gihugu.
 
-Dive right into this technical adventure — the future of Bitcoin mining is in your hands!
 
-# Understanding Bitaxe
+### Ikoraniro ry'ibikoresho n'ugutorera umuti ingorane
+
+
+Mu gice ca kane, uzokwisuka mu bikoresho ubwavyo. Uzomenya ingene womenya ibikoresho bikenewe kugira ngo ukoranye Bitaxe, ukosore ibibazo vyo gutera no gukora isuzuma ryuzuye ukoresheje ibikoresho vya *AxeOS* na USB. Iki gice gishimika ku bikorwa vy’amaboko no gutahura bimwe bikomeye ingene ibihimba vy’ibikoresho n’ivy’amaporogarama bikorana.
+
+
+### Guhindura uko ushaka
+
+
+Igice ca gatanu kijanye n’uguhindura ibintu nk’uko umuntu abishaka. Uzomenya ingene wohindura PCB (uruzitiro rwacapwe), ukore dosiye y’uruganda, kandi ukoreshe _Bitaxe Web Flasher_. Iki gice kigenewe abashaka kurenga gukoranya ibintu vyoroshe no guhingura vy’ukuri amaverisiyo y’ibikoresho vyabo bwite.
+
+
+### Gutuma ibikorwa bigenda neza
+
+
+Ubwa nyuma, igice ca gatandatu kivuga ubuhinga buteye imbere bwo gutuma ibintu bigenda neza. Uzomenya ingene wogereranya Bitaxe yawe kugira ngo usuzume uko ikora n’ingene woyikoresha neza. Ubwo buhinga buzogufasha kuronka inyungu nyinshi mu bikoresho vyawe mu gihe wubaha ubushobozi bwavyo bwo ku mubiri.
+
+
+Nk’uko bigenda ku nyigisho yose yerekeye Plan ₿ Academy, igice ca nyuma kirimwo isuzuma ryagenewe gukomeza ubumenyi bwawe.
+
+
+Niwibike muri iki gikorwa c’ubuhinga — kazoza ka Bitcoin mining kari mu maboko yawe!
+
+
+# Gutahura Bitaxe
+
 <partId>ba1cb4ea-6a77-54fd-916c-57285c8c2418</partId>
 
-## The History
+
+## Amateka
+
 <chapterId>73d928e5-72f0-5c17-a7a6-8b6ece7f9a30</chapterId>
+
 :::video id=67d2529a-b7cb-4804-b02c-e56c12c9e66e:::
 
-The Bitaxe project represents a groundbreaking shift in Bitcoin mining hardware development, bringing open source principles to an industry dominated by proprietary solutions. This educational series explores the comprehensive history, technical innovations, and community-driven evolution of Bitaxe, providing insights into how a single engineer's vision transformed into a thriving ecosystem of decentralized mining hardware. Through examining the project's origins, challenges, and achievements, we gain valuable understanding of both the technical complexities of ASIC development and the power of open source collaboration in the Bitcoin space.
+Umugambi wa Bitaxe ugereranya ihinduka rikomeye mu gutegura ibikoresho vya Bitcoin mining, uzana ingingo ngenderwako z’inkomoko yuguruye ku nganda igenzurwa n’imiti y’abanyagihugu. Iyi nkuru y’inyigisho iratohoza amateka yose, ubuhinga bushasha, n’iterambere ry’abanyagihugu rya Bitaxe, itanga ubumenyi ku kuntu iyerekwa ry’umuhinga umwe ryahindutse ubuzima butera imbere bw’ibikoresho vya mining vy’ubuhinga bwa none. Biciye mu gusuzuma inkomoko y’umugambi, ingorane, n’ivyo washitseko, turaronka ugutahura kw’agaciro ku bijanye n’ubuhinga butoroshe bwo gutegura ASIC be n’ububasha bwo gukorana n’abandi mu kibanza ca Bitcoin.
 
-### The Origin Story: From Silk Road Discovery to Solar Mining Vision
 
-Scott's journey into Bitcoin mining began with an unexpected encounter at a college party, where he first learned about Bitcoin through someone purchasing items on the Silk Road. This initial exposure to Bitcoin at approximately $20 per coin sparked a curiosity that would later evolve into a revolutionary mining project. The technical foundation for his future work was established during his time at university, where he had access to extensive FPGA resources in a laboratory setting. Working alongside his supervisor, Scott began experimenting with open source FPGA bitstreams for Bitcoin mining, initially with the modest goal of mining enough Bitcoin to purchase a pizza for their office.
+### Inkuru y'inkomoko: Kuva ku kuvumbura inzira y'ubudodo gushika ku kubona kw'izuba Mining
 
-The transition from academic experimentation to serious development occurred years later when Scott was working on solar-powered gateways for remote data collection in Africa. This professional experience with solar power systems sparked the realization that Bitcoin mining ASICs, being fundamentally low-voltage DC devices, would pair perfectly with solar panels. The concept seemed natural and elegant, yet when Scott began researching existing solutions, he discovered a significant gap in the market. Unlike the early days of Bitcoin mining when FPGA designs were openly available, the advent of ASICs had moved the industry toward completely proprietary, closed-source solutions.
 
-The lack of open source mining hardware became a driving frustration for Scott, particularly given his background in open source software development and his belief that Bitcoin's open source nature should extend to its mining infrastructure. This philosophical alignment with open source principles, combined with the technical challenge of reverse-engineering proprietary ASIC designs, set the stage for what would become the Bitaxe project. The initial vision was ambitious yet practical: create a solar-powered Bitcoin miner that could operate independently without requiring a separate computer for control, making it suitable for deployment in remote locations under solar panels.
+Skot, uwashinze Bitaxe, yatanguye urugendo rwiwe rwo kwinjira muri Bitcoin mu musi mukuru wo muri kaminuza aho yamenye ubwa mbere ivyerekeye Bitcoin biciye ku muntu yagura ibintu ku nzira ya Silk. Ukwo gushirwa ahabona kwa mbere kwa Bitcoin ku madolari nka 20 ku gice c’ifeza kwatumye abantu bagira umutima wo kumenya vyinshi, ivyo bikaba vyaciye bihinduka umugambi w’ihinduka ry’ibintu vya mining. Umushinge w’ubuhinga w’ibikorwa vyiwe vyo muri kazoza washinzwe mu gihe yari muri kaminuza, aho yari afise uburenganzira bwo kuronka ubuhinga bwinshi bwa FPGA mu bikorwa vy’ubushakashatsi. Skot akorana n’umucungerezi wiwe, yatanguye kugerageza ubuhinga bwa FPGA bitstreams bwa Bitcoin mining, mu ntango afise intumbero ntoyi yo gukoresha mining ihagije Bitcoin kugira ngo bagure pizza yo gukoresha mu biro vyabo.
 
-### Technical Challenges and Reverse Engineering Breakthroughs
 
-The development of Bitaxe required overcoming substantial technical obstacles, primarily centered around the complete lack of documentation for Bitmain's ASIC chips. Scott's approach to this challenge exemplified the determination and ingenuity required for successful reverse engineering. Without access to official datasheets or technical specifications, he resorted to examining chips under microscopes, measuring pin pitches with calipers, and even scanning chips to determine their exact footprint requirements. This painstaking process resulted in multiple failed prototypes, with the first two iterations of the "day miner" failing to function properly due to incorrect footprint calculations.
+Ivyo kuva ku kugerageza mu vy’inyigisho gushika ku gutera imbere bikomeye vyabaye haciye imyaka igihe Skot yariko arakora ku marembo akoreshwa n’izuba kugira ngo umuntu akusanyirize amakuru kure muri Afirika. Ubwo bumenyi bw’umwuga ku bijanye n’ubuhinga bw’inguvu z’izuba bwatumye bamenya ko Bitcoin mining ASICs, kubera ko ari ibikoresho vy’inguvu ntoyi, vyokorana neza n’ibikoresho vy’izuba. Ico ciyumviro cari kimeze nk’ikisanzwe kandi ciza cane. Ariko rero, igihe Skot yatangura gukora ubushakashatsi ku mirongo yariho yasanze hariho ikinogo kinini mw’isoko: bitandukanye n’imisi ya mbere ya Bitcoin mining igihe imigero ya FPGA yaboneka ku mugaragaro, ukuza kwa ASICs kwari kwatumye inganda zija ku mirongo y’ubuhinga bwose, y’inkomoko yugaye.
 
-The breakthrough came with the third iteration in May 2022, when Scott successfully created a working two-chip design using BM1387 chips harvested from Antminer S9 units. This achievement marked the birth of the Bitaxe name, inspired by the concept of a pickaxe for Bitcoin mining. The success of this design validated the reverse engineering approach and demonstrated that independent developers could create functional mining hardware without manufacturer support. However, the technical challenges extended beyond chip interfacing to include complex power supply design, as the ASICs required precise voltage regulation at high currents, often operating at voltages as low as 0.6 volts while drawing significant amperage.
 
-The firmware development presented another layer of complexity, as the project required creating mining software that could run directly on an ESP32 microcontroller rather than relying on external computers running CGMiner. This self-contained approach was essential to Scott's vision of deployable, independent mining units. The combination of hardware reverse engineering and embedded firmware development created a comprehensive technical challenge that required expertise across multiple disciplines, from electrical engineering and PCB design to embedded programming and network protocols.
+Kubura ibikoresho vya mining vy’inkomoko yuguruye vyacitse ikintu gitera ubwoba Skot, cane cane kubera ubumenyi afise mu gutegura porogarama z’inkomoko yuguruye be n’ukwizera kwiwe ko kamere y’inkomoko yuguruye ya Bitcoin ikwiye gushika no ku bikorwa remezo vyayo vya mining. Ukwo guhuza kwa filozofiya n’ingingo ngenderwako z’inkomoko yuguruye, hamwe n’ingorane y’ubuhinga y’uguhindura imigero y’ubuhinga bwa ASIC, vyashizeho inzira y’ico cobaye umugambi wa Bitaxe. Iciyumviro ca mbere cari gihambaye cane ariko cari gishoboka: guhingura igikoresho co gucukura amabuye y’agaciro citwa Bitcoin gikoreshwa n’izuba gishobora gukora kidakeneye mudasobwa yihariye kugira ngo kigenzure, ivyo bikaba vyatumye gishobora gukoreshwa ahantu kure cane munsi y’amatara y’izuba.
 
-### Community Formation and Open Source Collaboration
 
-The transformation of Bitaxe from a solo project to a thriving community initiative represents one of the most significant aspects of its success story. Initially, Scott's attempts to generate interest through Bitcoin forums and social media met with limited response and occasional skepticism. The breakthrough came when community members like SurveyPsalot recognized the potential of open source mining and established the Open Source Miners United (OSMU) Discord server. This platform provided the collaborative environment necessary for the project to flourish, attracting talented contributors from diverse backgrounds who shared a common interest in democratizing Bitcoin mining technology.
+### Ingorane z'ubuhinga n'iterambere ry'ubuhinga
 
-The community-driven development model proved remarkably effective, with key contributors emerging to tackle specific technical challenges. Johnny Nine's expertise in firmware development solved critical software implementation problems, while Ben's front-end development skills created the intuitive AxeOS dashboard that simplified device configuration and monitoring. Ben's additional contributions included establishing manufacturing capabilities and creating Public Pool, an open source mining pool optimized for Bitaxe devices. This collaborative approach demonstrated how open source principles could accelerate development beyond what any individual contributor could achieve alone.
 
-The OSMU community also fostered an inclusive environment where newcomers could learn and contribute regardless of their initial technical expertise. Ben's own journey from soldering novice to major manufacturer exemplifies this welcoming approach to skill development. The community's commitment to education and mutual support created a virtuous cycle where experienced members mentored newcomers, who then became contributors themselves. This model proved essential for scaling the project beyond its original scope and establishing a sustainable ecosystem for continued innovation and growth.
+Iterambere rya Bitaxe ryasaba gutsinda intambamyi nyinshi z’ubuhinga, ahanini zishingiye ku kubura inyandiko z’ibice vya Bitmain ASIC. Uburyo Skot yakoresheje mu gutorera umuti iyo ngorane bwatanze akarorero k’umwiyemezo n’ubukerebutsi bisabwa kugira ngo umuntu ashobore gukora ibikorwa vy’ubuhinga bwo guhindura ibintu. Kubera ko atashobora kuronka amakuru yemewe canke amakuru y’ubuhinga, yaciye afata ingingo yo gusuzuma ibice vy’umubiri akoresheje ibikoresho bipima uburemere bw’ibice vy’umubiri akoresheje ibipimo vy’ibipimo, eka mbere no gupima ibice vy’umubiri kugira ngo amenye neza neza ibirenge vyavyo bisabwa. Ivyo vyatumye habaho ibigereranyo vyinshi vyananiwe, n'ibisubirwamwo bibiri vya mbere vy'"umucukuzi w'umunsi" vyananiwe gukora neza kubera imibare y'ibirenge idakwiriye.
 
-### Vision for Decentralized Mining and Future Impact
 
-Scott's long-term vision for Bitaxe extends far beyond creating another mining device to encompass a fundamental transformation of Bitcoin's mining landscape. The ambitious goal of producing one million one-terahash miners would create an exahash of distributed mining power, representing a significant step toward mining decentralization. This vision addresses critical concerns about mining centralization, where large pools and industrial operations could potentially be subject to government pressure or regulatory capture. By distributing mining power across countless home miners, the network becomes more resilient and aligned with Bitcoin's decentralized principles.
+Ivyo vyaje n’ugusubiramwo kwa gatatu muri Rusama 2022, igihe Skot yashobora guhingura neza igishushanyo c’ibice bibiri bikora ikoresheje ibice vya BM1387 vyakuwe mu bikoresho vya Antminer S9. Ivyo vyatumye havuka izina rya Bitaxe, ryahumekewe n'iciyumviro c'ibara ry'agahama ry'i Bitcoin mining. Uguterimbere kw’iyi nzira kwaremeje uburyo bwo guhindura ubuhinga kandi vyerekana ko abahinguzi bigenga bashobora guhingura ibikoresho bikora neza vya mining ata nkunga y’ababikora. Ariko rero, ingorane z’ubuhinga zari zirengeye gukorana n’ibice vy’umubiri kugira ngo zishiremwo n’imiterere y’amashanyarazi igoye, kuko ASIC zasaba gutunganya neza umuriro ku mirongo myinshi, akenshi zikora ku mirongo y’amashanyarazi iri hasi cane nk’iya 0,6 volts mu gihe zikoresha amashanyarazi menshi.
 
-The economic model supporting this vision relies on the unique characteristics of home mining, where infrastructure costs are essentially zero and miners can operate with minimal oversight. Unlike industrial mining operations that require massive capital investments in facilities, power infrastructure, and cooling systems, home miners can simply plug devices into existing electrical outlets and internet connections. This approach could theoretically bring significant hash rate online without the traditional barriers to entry that characterize large-scale mining operations.
 
-The project's success has already begun influencing the broader Bitcoin mining ecosystem, with the potential to inspire other manufacturers to embrace open source development models. The financial viability demonstrated by Bitaxe manufacturers proves that open source hardware can be commercially successful while maintaining transparency and community involvement. As the project continues to evolve with new chip integrations, improved designs, and expanded manufacturing partnerships, it serves as a proof of concept for how Bitcoin mining can return to its decentralized roots while embracing modern ASIC technology. The ultimate goal extends beyond mere hash rate distribution to include educational impact, bringing more people into direct contact with Bitcoin's fundamental mining process and fostering deeper understanding of the network's security model.
+Ivyo gutegura porogarama za firmware vyarerekanye ikindi gice c’ibintu bigoranye, kuko uwo mugambi wasaba guhingura porogarama ya mining ishobora gukora ataco ihinduye kuri microcontroller ESP32 aho kwizigira mudasobwa zo hanze zikoresha porogarama nka CGMiner. Ubwo buryo bwo kwigenzura bwari ngirakamaro ku ciyumviro ca Skot c’ibice vya mining bishobora gukoreshwa kandi vyigenga. Ihuriro ry’ubuhinga bwo guhindura ibikoresho n’ugutegura porogarama zishizwemwo vyatumye haba ingorane nyinshi z’ubuhinga zisaba ubuhinga mu vyigwa vyinshi, kuva ku buhinga bw’amashanyarazi n’uguhingura PCB gushika ku gukora porogarama zishizwemwo n’imirongo ngenderwako y’uruja n’uruza.
 
-## What is the Bitaxe?
+
+### Gushinga umuryango n'ugukorana n'inkomoko yuguruye
+
+
+Guhindura Bitaxe kuva ku mugambi w’umuntu ku giti ciwe gushika ku mugambi w’abanyagihugu utera imbere, ni kimwe mu bintu bihambaye cane mu kuroranirwa kwayo. Mu ntango, ivyo Skot yagerageza gukora kugira ngo generate ishiremwo inyungu biciye mu mahuriro ya Bitcoin no ku mbuga ngurukanabumenyi vyahuye n’inyishu nkeyi kandi rimwe na rimwe hariho n’ugukekeranya. Ivyo vyaje igihe abanyamuryango nka SirVapesAlot bamenya ubushobozi bw’inkomoko yuguruye mining maze bashinga inkomoko yuguruye Miners United (OSMU) Discord server. Iryo koraniro ryatanze ubufatanye bukenewe kugira ngo uwo mugambi utere imbere, rikwegera abatanga intererano bava mu mice itandukanye basangiye inyungu mu gutuma ubuhinga bwa Bitcoin mining bugira demokarasi.
+
+
+Ico kigereranyo c’iterambere ry’abanyagihugu caragaragaye ko ari ciza cane, abatanga umusanzu nk’aba johnny9 na Ben baraseruka kugira ngo bashobore gutorera umuti ingorane zidasanzwe z’ubuhinga. Ubuhinga bwa Johnny9 mu gutegura porogarama zikomeye bwatorera umuti ingorane zikomeye zo gushirwa mu ngiro kwa porogarama, mu gihe ubuhinga bwa Ben bwo gutegura porogarama zikomeye bwatumye habaho urupapuro rw’ibikoresho rwa AxeOS rworoshe gutunganya no kugenzura ibikoresho. Ben yongeyeko intererano zarimwo gushinga ubushobozi bwo gukora no kurema Public Pool, pool y’inkomoko yuguruye mining yatunganijwe neza ku bikoresho vya Bitaxe. Ubwo buryo bwo gukorana bwarerekanye ingene ingingo ngenderwako z’inkomoko yuguruye zishobora kwihutisha iterambere rirenze ivyo umuterankunga wese yoshobora gushikako wenyene.
+
+
+Umuryango wa OSMU kandi warateye imbere ikibanza co gushiramwo abantu bose aho abashasha bashobora kwigira no gutanga umusanzu ataco bafatiye ku buhinga bwabo bwo mu ntango. Urugendo Ben ubwiwe yagize kuva mu gihe yari umuhinga mu vyo gukora amabuye y’agaciro gushika aho ari umuhinga mu vyo gukora amabuye y’agaciro, ni akarorero k’ubwo buryo bwo kwakira abantu bwo guteza imbere ubuhinga. Ukwiyemeza kw’abanyagihugu mu vy’uburezi no gufashanya vyatumye haba uruziga rw’ingeso nziza aho abagize umuryango bazi utuntu n’utundi bamenyereza abashasha, na bo nyene bakaba abatanga intererano. Ico kigereranyo caragaragaye ko ari ngirakamaro mu gutuma umugambi urenga urugero rwawo rwa mbere no gushinga urutonde rw’ibidukikije ruramvye kugira ngo hakomeze guhingura ibintu bishasha no gukura.
+
+
+### Intumbero ya Mining yegerejwe n'ingaruka zo muri kazoza
+
+
+Iyerekwa rya Skot ry’igihe kirekire kuri Bitaxe rirarenga kure cane kurema ikindi gikoresho ca mining: ni uguhindura kw’ishimikiro kw’ibarabara rya Bitcoin rya mining. Intumbero ikomeye yo guhingura abacukuzi b’amabuye y’agaciro b’amaterahash imwe miliyoni imwe yotuma habaho exahash y’ububasha bwa mining bugabanywa, bikaba bigereranya intambwe ikomeye mu kwegereza ubutegetsi mining. Iryo yerekwa rivuga ku bibazo bikomeye bijanye no gushiramwo mining, aho ibidengeri binini n’ibikorwa vy’inganda bishobora gushikirwa n’imikazo ya Leta canke gufatwa n’amategeko. Mu gutanga ububasha bwa mining mu bacukuzi b’amabuye y’agaciro bo mu rugo batagira uko bangana, iyo nzira irarushiriza gukomera kandi ikaba ihuye n’ingingo ngenderwako za Bitcoin zijanye n’intara.
+
+
+Icogereranyo c’ubutunzi gishigikira iyo ntumbero gishingiye ku biranga inzu mining, aho igiciro c’ibikorwa remezo ari zero kandi abacukuzi bashobora gukora ata kugenzura guke. Mu buryo butandukanye n’ibikorwa vy’inganda mining bisaba amahera menshi mu bikorwa, mu bikorwa remezo vy’amashanyarazi, no mu buryo bwo gukonjesha, abacukuzi bo mu rugo barashobora gusa gushiramwo ibikoresho mu bikoresho vy’amashanyarazi biriho no mu nzira za internet. Ubu buryo bwoshobora kuzana igitigiri kinini c’amahera yo kuri Internet ata nzitizi za kera zo kwinjira ziranga ibikorwa vyinshi vya mining.
+
+
+Uguterimbere kw’uwo mugambi kwaramaze gutangura kugira ico gukoze ku bidukikije vyagutse vya Bitcoin mining, bifise ubushobozi bwo gutuma abandi bahinga bafata ingingo zo guteza imbere ubuhinga bufunguye. Ubushobozi bw’amahera bwerekanwa n’abahinguzi ba Bitaxe bugaragaza ko ibikoresho vy’ubuhinga bwa none bishobora kuroranirwa mu bucuruzi mu gihe biguma bikora mu mucyo no kugira uruhara mu kibano. Uko umugambi ubandanya gutera imbere n’ugushiramwo ama chip mashasha, imiterere myiza n’ubufatanye bwo gukora, ukora nk’ikimenyamenya c’iciyumviro c’ingene Bitcoin mining ishobora gusubira mu mizi yayo yegerejwe mu gihe yakira ubuhinga bwa none bwa ASIC. Intumbero nyamukuru irarenga gusa ugutanga hash rate kugira ngo ishiremwo ingaruka z’uburezi, gutuma abantu benshi bahura ata guca ku ruhande n’uburyo bw’ishimikiro bwa mining bwa mining no guteza imbere ugutahura kwimbitse kw’akarorero k’umutekano w’urubuga.
+
+
+## None Bitaxe ni iki?
+
 <chapterId>6a56af56-35ce-51af-999b-4bc7305e6464</chapterId>
+
 :::video id=12b26c7a-74b1-4ea9-afc0-e3ef90cf5837:::
 
-### Hardware Overview and Capabilities
-
-The Bitaxe represents a significant development in the open-source mining community, offering enthusiasts and miners an accessible entry point into Bitcoin mining hardware. As an open-source mining device, the Bitaxe provides users with complete transparency into both its hardware design and software implementation, distinguishing it from proprietary mining solutions. This educational exploration examines the fundamental components, capabilities, and practical applications of Bitaxe mining boards, providing essential knowledge for anyone interested in understanding how these devices function and contribute to the Bitcoin network.
-
-The Bitaxe ecosystem encompasses multiple hardware iterations, each designed to optimize different aspects of the mining experience while maintaining the core philosophy of open-source accessibility. These devices serve not only as functional mining hardware but also as educational tools that allow users to understand the intricate relationship between ASIC chips, microcontrollers, and the Bitcoin mining process. Understanding the Bitaxe's design philosophy and technical implementation provides valuable insights into how modern mining hardware operates at both the component and system levels.
+### Incamake y'ibikoresho n'ubushobozi
 
 
-### Bitaxe Max, First-Generation Implementation
+Ivyo bidukikije vya Bitaxe birimwo ivy’ugusubiramwo vyinshi vy’ibikoresho, kimwe cose kikaba gigenewe gutuma imice itandukanye y’ubumenyi bwa mining igenda neza mu gihe kigumya filozofiya nyamukuru y’ugukoresha ubuhinga bufunguye. Ivyo bikoresho ntibikora gusa nk’ibikoresho bikora neza vya mining, ariko kandi birakora nk’ibikoresho vy’inyigisho bituma ababikoresha batahura isano rikomeye riri hagati y’ibice vya ASIC, ibikoresho bigenzura ibikoresho bitobito be n’ingene Bitcoin mining ikora. Gutahura filozofiya y’uguhingura Bitaxe n’ugushirwa mu ngiro kw’ubuhinga bitanga ubumenyi bw’agaciro ku kuntu ibikoresho vya none vya mining bikora ku rwego rw’ibice no ku rwego rwa sisitemu.
 
-The Bitaxe Max represents the foundational implementation of the Bitaxe concept, utilizing the BM1397 ASIC chip originally developed by Bitmain for their S17 mining series. This chip integration demonstrates how open-source hardware can repurpose existing ASIC technology to create accessible mining solutions. The Bitaxe Max delivers an estimated hash rate between 300 to 400 gigahashes per second, positioning it as an educational and experimental mining platform rather than a commercial-scale solution.
 
-The BM1397 chip's integration into the Bitaxe Max required careful consideration of power management, thermal control, and communication protocols. The board's design accommodates the specific requirements of this ASIC while providing the necessary supporting circuitry for stable operation. This implementation showcases how open-source hardware development can leverage existing semiconductor technology to create new applications and learning opportunities within the mining community.
 
-### Bitaxe Ultra, Advanced Chip Technology
+### Bitaxe Max, Ishirwa mu ngiro ry'uruvyaro rwa mbere
 
-The Bitaxe Ultra represents the evolution of the Bitaxe platform, incorporating the more advanced BM1366 ASIC chip from Bitmain's S19 series. This newer chip technology brings improved efficiency and performance characteristics to the Bitaxe platform while maintaining the same fundamental design philosophy. The upgrade to the BM1366 chip demonstrates the platform's adaptability and the community's commitment to incorporating technological advances into open-source mining solutions.
 
-The transition from the BM1397 to the BM1366 chip required modifications to the board's power delivery systems, thermal management, and control algorithms. These changes illustrate the iterative nature of hardware development and the importance of maintaining compatibility while advancing performance. The Bitaxe Ultra's implementation provides users with access to more recent ASIC technology while preserving the educational and experimental nature of the platform.
+Bitaxe Max igereranya ugushirwa mu ngiro kw’ishimikiro kw’iciyumviro ca Bitaxe, ikoresheje igice ca BM1397 ASIC ca mbere cakozwe na Bitmain ku rutonde rwabo rwa S17 mining. Ukwo gukorana kw’ibice vyerekana ingene ibikoresho vy’inkomoko yuguruye bishobora gusubira gukoresha ubuhinga bwa ASIC busanzweho kugira ngo bivemwo inyishu za mining zishoboka. Bitaxe Max itanga igipimo c’ama hash kiri hagati ya 300 na 400 gigahashes ku segonda, ikayishira mu kibanza c’inyigisho n’igerageza mining aho kuba umuti w’ubudandaji.
 
-### Microcontroller and Communication Systems
 
-At the heart of every Bitaxe device lies an ESP microcontroller that serves as the primary interface between the user and the ASIC chip. This microcontroller runs specialized software developed by the Open Source Miners United (OSMU) community, enabling precise control over the ASIC's operation parameters. The communication between the microcontroller and ASIC occurs through carefully designed serial communication lines that are etched directly onto the printed circuit board as visible traces.
+Ugushiramwo chip ya BM1397 muri Bitaxe Max vyasaba ko umuntu yiyumvira neza uburyo bwo gukoresha amashanyarazi, uburyo bwo kugenzura ubushuhe n’imirongo ngenderwako y’itumanaho. Igishushanyo c’iyi board gihuye n’ibisabwa vyihariye vy’iyi ASIC mu gihe itanga ivyuma bikenewe kugira ngo ikore neza. Iryo shirwa mu ngiro ryerekana ingene uguteza imbere ibikoresho vy’ubuhinga bwa none bishobora gukoresha ubuhinga bwa semiconductor busanzweho kugira ngo haboneke ubuhinga bushasha bwo gukoresha n’amahirwe yo kwiga mu muryango wa mining.
 
-The microcontroller's role extends beyond simple ASIC control, encompassing power management, temperature monitoring, and user interface functions. Through the integrated display screen, users can monitor critical operational parameters including temperature, hash rate, IP address, and other relevant mining statistics. This real-time feedback system provides valuable insights into the device's performance and helps users optimize their mining operations while learning about the underlying hardware behavior.
 
-### Power Management and Safety Considerations
+### Bitaxe Ultra, ubuhinga buteye imbere
 
-The Bitaxe platform operates on a strict 5-volt power requirement, making proper power supply selection critical for device longevity and safety. The power management system on the Bitaxe boards includes sophisticated circuitry designed to regulate voltage delivery to the ASIC chip while monitoring power consumption across different operational modes. This power management capability allows the device to operate efficiently across a range of frequencies and voltages, typically consuming between 5 to 25 watts depending on configuration.
 
-Understanding the power requirements becomes crucial when considering that incorrect voltage application can permanently damage the device. The relationship between frequency, voltage, power consumption, and hash rate demonstrates fundamental principles of ASIC operation that apply across all mining hardware. Users can experiment with different power settings to understand the efficiency trade-offs inherent in mining operations, gaining practical experience with concepts that apply to larger-scale mining implementations.
+Bitaxe Ultra igereranya ugutera imbere kw’urubuga rwa Bitaxe, rushiramwo igice giteye imbere cane ca BM1366 ASIC kivuye mu rutonde rwa Bitmain S19. Ubu buhinga bushasha bw’ibice buzana ubushobozi n’ubushobozi bwiza ku rubuga rwa Bitaxe mu gihe bugumya iyo filozofiya y’ishimikiro y’uguhingura. Ivyo guhindura ubuhinga bwa BM1366 vyerekana ko iyo nzira ishobora guhindura ibintu be n’uko abarundi biyemeje kwinjiza ubuhinga bushasha mu gutorera umuti ibibazo vy’ubuhinga bwa none (open-source mining).
 
-### Solo Mining Focus and Network Participation
 
-The Bitaxe platform specifically targets solo mining applications, where individual miners attempt to solve Bitcoin blocks independently rather than participating in large mining pools. While the hash rate of Bitaxe devices makes successful block discovery statistically unlikely, this approach serves important educational and philosophical purposes within the Bitcoin community. Solo mining with Bitaxe devices helps users understand the fundamental mechanics of Bitcoin's proof-of-work system while contributing to network decentralization.
+Ivyo kuva ku gikoresho ca BM1397 bikaja ku gikoresho ca BM1366 vyasaba ko haba uguhindura uburyo bwo gutanga ubushobozi bw’ico gikoresho, uburyo bwo gucungera ubushuhe be n’uburyo bwo kugenzura. Ivyo bihinduka vyerekana ukuntu ugutegura ibikoresho bisubiramwo ibintu be n’akamaro ko kuguma bihuye mu gihe umuntu atera imbere mu bijanye n’ugukora neza. Ishirwa mu ngiro rya Bitaxe Ultra rituma abakoresha bashobora gukoresha ubuhinga bushasha bwa ASIC mu gihe bazigama ubuhinga bwo kwigisha no kugerageza bw’urubuga.
 
-The emphasis on solo mining reflects the OSMU community's commitment to encouraging individual participation in Bitcoin's security model. By providing accessible hardware that can operate independently, the Bitaxe platform enables users to run their own mining operations without relying on pool infrastructure. This approach fosters a deeper understanding of Bitcoin's consensus mechanism while supporting the network's decentralized nature through increased node diversity.
 
-### Hardware Evolution and Production Improvements
+### Igikoresho co gucungera amakuru n'uburyo bwo guhanahana amakuru
 
-The Bitaxe platform continues to evolve through community feedback and production optimization, with newer versions incorporating improvements that enhance manufacturability and user experience. Version updates typically focus on production efficiency rather than fundamental performance changes, ensuring that existing users don't face obsolescence pressure. Features like the transition from micro-USB to USB-C connectors and improved power connection systems reflect the community's attention to practical usability improvements.
 
-This evolutionary approach demonstrates the benefits of open-source hardware development, where community input drives incremental improvements that benefit all users. The philosophy of "if it hashes, it hashes" emphasizes the platform's focus on functionality over constant upgrades, encouraging users to maintain and operate their devices rather than pursuing the latest versions. This approach supports sustainable hardware practices while maintaining the educational value that makes Bitaxe devices valuable learning tools for understanding Bitcoin mining technology.
+Mu mutima w’igikoresho cose ca Bitaxe hariho umugenzuzi mutoyi wa ESP ukora nk’umurongo w’intango hagati y’uwukoresha n’igikoresho ca ASIC. Iyi microcontrôleur ikoresha porogarama yihariye yateguwe n’umuryango w’abacukuzi b’amabuye y’agaciro (OSMU), igatuma umuntu ashobora kugenzura neza ingene ASIC ikora. Ivyo guhanahana amakuru hagati ya microcontrôleur na ASIC bishika biciye ku mirongo y’uguhanahana amakuru y’uruhererekane yatunganijwe neza, ikaba icapwa ata guca ku ruhande ku rubaho rw’ivyuma nk’ibimenyetso bibonetse.
 
-## Where can I learn more?
+
+Uruhara rwa microcontroller rurarengeye ubugenzuzi bworoshe bwa ASIC: rurimwo gucunga ubushobozi, kugenzura ubushuhe n’ibikorwa vy’umukoresha. Biciye ku gicapo c’iyerekanwa ryinjijwe, abakoresha barashobora gukurikirana ibipimo bihambaye vy’ibikorwa nk’ubushuhe, igipimo ca hash, aderesi IP, n’ibindi biharuro bijanye na mining. Ubu buryo bwo gutanga inyishu mu gihe nyaco buratanga ubumenyi bw’agaciro ku bijanye n’ingene igikoresho gikora kandi bugafasha abakoresha gutuma ibikorwa vyabo vya mining bigenda neza mu gihe bariko bariga inyifato y’ibikoresho bishingiyeko.
+
+
+### Uburongozi bw'amashanyarazi n'umutekano
+
+
+Igikoresho ca Bitaxe gikoresha ubushobozi bukomeye bw’amavolte 5, ivyo bikaba bituma guhitamwo neza ubushobozi biba ari ngirakamaro kugira ngo igikoresho kibeho igihe kirekire kandi kigire umutekano. Uburyo bwo gucunga amashanyarazi ku bipande vya Bitaxe burimwo ubuhinga buteye imbere cane bugenewe gutunganya amashanyarazi ashika ku gice ca ASIC mu gihe bugenzura ingene amashanyarazi akoreshwa mu buryo butandukanye bwo gukora. Ubwo bushobozi bwo gucunga ubushobozi butuma ico gikoresho gikora neza mu mirongo itandukanye y’imbere n’inguvu, mu bisanzwe kigakoresha hagati ya watts 5 na 25 bivanye n’ingene giteye.
+
+
+Gutahura ubushobozi busabwa biraba ikintu gihambaye cane iyo umuntu yiyumviriye ko gukoresha umuriro mu buryo butabereye bishobora kwonona igikoresho ubudasiba. Isano hagati y’incuro, umuriro, ugukoresha ubushobozi, n’igipimo ca hash yerekana ingingo ngenderwako z’ishimikiro z’imikorere ya ASIC zikoreshwa mu bikoresho vyose vya mining. Abakoresha barashobora kugerageza uburyo butandukanye bw’ububasha kugira ngo batahure ubushobozi bwo guhindura ibikorwa vya mining, baronke ubumenyi ngirakamaro ku vyiyumviro bikoreshwa mu gushirwa mu ngiro kwa mining ku rugero runini.
+
+
+### Solo Mining Kwibanda no kwifatanya n'urubuga
+
+
+Iryo koraniro rya Bitaxe ryibanda canecane ku bikorwa vya mining vy’umuntu ku giti ciwe, aho abacukuzi b’amabuye y’agaciro ku giti cabo bagerageza gutorera umuti amabuye ya Bitcoin ku giti cabo aho kugira uruhara mu bidengeri binini vya mining. Naho igipimo ca hash c’ibikoresho vya Bitaxe gituma ukuvumbura amabuye kuroranirwa bidashoboka mu buryo bw’imibare, ubu buryo burafasha mu ntumbero zihambaye z’inyigisho n’ubuhinga bwa filozofiya mu muryango wa Bitcoin. Solo mining n’ibikoresho vya Bitaxe ifasha abakoresha gutahura ubuhinga bw’ishimikiro bwa Bitcoin’s proof-of-work system mu gihe itanga umusanzu mu gusenyura urubuga.
+
+
+Ivyo gushimika kuri solo mining vyerekana ko umuryango wa OSMU wiyemeje guhimiriza umuntu ku giti ciwe kugira uruhara mu bijanye n’umutekano wa Bitcoin. Mu gutanga ibikoresho bishobora gukoreshwa bishobora gukora vyigenga, urubuga rwa Bitaxe rurashoboza abarukoresha gukora ibikorwa vyabo vya mining batizigiye ibikorwa remezo vy’amazi. Ubwo buryo buratuma umuntu atahura neza uburyo bwo kwumvikana bwa Bitcoin mu gihe bushigikira kamere y’urubuga rwo kwegeranya abantu biciye mu kwongerekana kw’ubudasa bw’abacukuzi.
+
+
+### Iterambere ry'ibikoresho n'iterambere ry'ibikorwa
+
+
+Urubuga rwa Bitaxe rurabandanya gutera imbere biciye mu gutanga inyishu z’abanyagihugu no gutuma ibikorwa bigenda neza, hakaba hariho amaverisiyo mashasha ashiramwo ivyiza bituma umuntu ashobora gukora neza kandi akagira ubumenyi bw’abakoresha. Ivugurura rya verisiyo ryibanda ku bushobozi bwo gukora aho kwibanda ku mahinduka y’ishimikiro y’ibikorwa, kugira ngo abakoresha bariho ntibashikirwe n’ingorane zo gushaza. Ibintu nk’uguhinduka kuva ku bikoresho bifatanya micro-USB bikaja ku bikoresho bifatanya USB-C be n’uburyo bwo gufatanya amashanyarazi buteye imbere vyerekana ko abanyabubasha bitaho gutera imbere mu bijanye n’ugukoresha.
+
+
+Ubu buryo bw’iterambere bwerekana inyungu zo gutegura ibikoresho vy’ubuhinga bufunguye, aho inyishu z’abanyagihugu zituma habaho iterambere ryinshi rifasha abakoresha bose. Filozofiya y'uko "if it hashes, it hashes" ishimika ku vyo urubuga rwibanda ku mikorere kuruta gukomeza guhindura, iremesha abakoresha kubungabunga no gukoresha ibikoresho vyabo aho gukurikirana verisiyo nshasha. Ubu buryo burashigikira ibikorwa vy’ubuhinga buramba mu gihe bugumya agaciro k’inyigisho ka Bitaxe.
+
+
+## None nomenya vyinshi hehe?
+
 <chapterId>706f2fff-fa1c-5d8e-b14c-ece6e42c016f</chapterId>
+
 :::video id=90088397-3a16-485f-bbd2-89cdbb844e4a:::
 
-The Bitaxe project represents a comprehensive open-source mining initiative that extends far beyond a single device. Understanding where to find reliable information, technical resources, and community support is crucial for anyone looking to engage with this ecosystem. This chapter provides a complete guide to the essential platforms and resources that form the foundation of the Bitaxe and Open Source Miners United (OSMU) community.
-
-### Bitaxe.org, the central Hub
-
-The Bitaxe.org website serves as the primary gateway to all project-related information and resources. This centralized platform functions as your first point of reference whenever you need to learn about Bitaxe devices or explore other projects within the Open Source Miners United community. The website's design prioritizes accessibility and organization, presenting visitors with carefully curated links that connect to various specialized resources throughout the ecosystem.
-
-The importance of this central hub cannot be overstated, as it eliminates the confusion that often accompanies decentralized open-source projects. Rather than searching through multiple platforms or relying on potentially outdated information from unofficial sources, users can trust Bitaxe.org to provide current, verified links to all essential resources. This approach ensures that both newcomers and experienced community members can efficiently locate the specific information they need for their projects.
-
-### Technical Resources and Development Materials
-
-The hardware design files repository on GitHub represents one of the most valuable resources for anyone interested in understanding or building Bitaxe devices. This public repository contains comprehensive documentation that covers every aspect of the hardware design process, from initial concepts to final manufacturing specifications. The repository includes detailed images, project goals, feature descriptions, and built-in component explanations that provide both technical depth and practical guidance.
-
-For those interested in manufacturing their own devices, the repository includes specific documentation files such as building.md, which provides step-by-step instructions for the entire production process. This documentation covers the software tools required for PCB design, the procedures for sending files to manufacturers, and the steps involved in receiving and validating manufactured PCBs. This level of detail ensures that individuals or small organizations can successfully navigate the manufacturing process without extensive prior experience in hardware production.
-
-The ESP-Miner repository serves as the central location for all firmware-related code and documentation. This GitHub repository contains every line of code written for the Bitaxe firmware, along with comprehensive documentation that explains system requirements, hardware specifications, and configuration options. The repository structure is designed to accommodate both users who prefer pre-compiled binary files and developers who want to build the firmware from source code.
-
-The documentation within this repository includes detailed sections on hardware requirements, pre-configuration options, and recommended values for various settings. This information proves invaluable for users who want to customize their devices or troubleshoot specific issues. Additionally, the repository includes information about newer developments, such as RP (Raspberry Pi) integration, ensuring that the documentation remains current with ongoing project evolution.
-
-### Device Management and Maintenance Tools
-
-The Bitaxe web flasher represents a practical solution for device maintenance and updates. This web-based tool allows users to flash firmware to their devices without requiring specialized software or complex command-line procedures. The flasher supports multiple device variants, including the Bitaxe Ultra with various port versions and the older Bitaxe Max models. Users can choose between updating existing firmware through the web interface or performing complete factory resets using USB connections.
-
-This tool addresses one of the most common challenges faced by hardware enthusiasts: maintaining and updating device firmware. By providing a user-friendly web interface, the flasher eliminates many of the technical barriers that might otherwise prevent users from keeping their devices current with the latest firmware releases. The tool's design prioritizes simplicity while maintaining the flexibility needed for different device configurations and update scenarios.
-
-### Community Platforms and Communication Channels
-
-The Discord server represents the heart of real-time community interaction and support within the Bitaxe ecosystem. The server's organization reflects the diverse interests and needs of community members, with carefully structured channels that facilitate focused discussions on specific topics. New members encounter a verification process that requires reading and accepting community rules, ensuring that all participants understand the expectations for respectful and productive interaction.
-
-The server's channel structure includes general discussion areas covering topics such as solar power integration, mining pools, and Bitcoin-related discussions. More specialized sections focus on specific devices, including dedicated channels for the Bitaxe Ultra, Hex, and Supra variants. The firmware channel provides a focused space for technical discussions about software development and troubleshooting, while the official releases channel ensures that community members receive timely notifications about new developments.
-
-The Discord server also features a subscriber area that provides additional benefits for community members who choose to support the project financially. This tiered approach allows the community to offer enhanced services while maintaining open access to essential information and support channels. The help channel serves as a dedicated space for troubleshooting and technical assistance, ensuring that users can receive prompt support when encountering difficulties.
+Umugambi wa Bitaxe ugereranya umugambi w’ubuhinga bushasha bwa mining burengeye kure igikoresho kimwe. Gutahura aho umuntu yoronka amakuru yizewe, ubuhinga, n’infashanyo y’abanyagihugu ni ikintu gihambaye cane ku muntu wese arondera kwifatanya n’ivyo bidukikije. Iki gice kiratanga ubuyobozi bushitse ku nzira n’ibikoresho vy’ingenzi bigize umushinge w’umuryango wa Bitaxe na Open Source Miners United (OSMU).
 
 
-The Open Source Miners United wiki (osmu.wiki) provides comprehensive documentation that complements the real-time discussions occurring on Discord. Unlike chat-based platforms, the wiki offers structured, searchable documentation that covers all aspects of the Bitaxe project and related initiatives. The wiki's organization mirrors the project's structure, with dedicated sections for different device series and comprehensive setup guides.
-
-The wiki's open-source nature allows community members to contribute directly to the documentation. Users can edit pages, submit corrections, and add new information through GitHub integration, ensuring that the knowledge base remains current and comprehensive. This collaborative approach leverages the collective expertise of the community while maintaining quality control through a review process for submitted changes.
-
-The wiki includes practical resources such as PDF setup guides that provide step-by-step instructions for device configuration and use. These guides serve as valuable references for both new users and experienced community members who need quick access to specific procedures or configuration details.
-
-### Purchasing and Vendor Information
-
-The Bitaxe legit list addresses a critical need within the open-source hardware community: identifying trustworthy vendors and avoiding fraudulent sellers. This curated list includes verified resellers and manufacturers who meet specific criteria for legitimacy and community support. Each listing includes direct links to vendor websites, regional information, and company descriptions that help users make informed purchasing decisions.
-
-Importantly, the list indicates whether each vendor contributes back to the OSMU community, either financially or through other forms of support. This transparency helps community members understand which vendors actively support the project's development and sustainability. The list also serves as a protective measure against common scams, such as unauthorized pre-orders for unreleased products, which have historically caused problems within the community.
-
-The emphasis on non-affiliate links demonstrates the community's commitment to providing unbiased vendor recommendations. Users can trust that the recommendations are based on vendor legitimacy and community contribution rather than financial incentives, ensuring that purchasing decisions support both individual needs and community sustainability.
+### Bitaxe.org, Ikigo ca mbere
 
 
-# Software and Operations
+Urubuga rwa Bitaxe.org ni rwo rukora nk’irembo ry’intango ry’amakuru yose ajanye n’umugambi n’ibikoresho vyose. Iyi nzira y’ubuhinga bwa none ikora nk’inzira yawe ya mbere igihe cose ukeneye kwiga ivyerekeye ibikoresho vya Bitaxe canke gutohoza iyindi migambi mu muryango wa OSMU. Urubuga rwakozwe rushira imbere uburyo bwo kuronka amakuru n’ugutunganya ibintu, rukagaragaza abashitsi amahuzu atunganijwe neza ahuza n’ibikoresho bitandukanye vy’umwihariko biri mu bidukikije vyose.
+
+
+Akamaro k’ico kibanza nyamukuru ntidushobora kurengerwa, kuko gakuraho urujijo kenshi rujana n’imigambi y’inkomoko yuguruye yegerejwe. Aho kurondera biciye ku mbuga nyinshi canke kwizigira amakuru ashobora kuba yashize igihe ava ku bibanza bitazwi, abakoresha barashobora kwizigira Bitaxe.org kugira ngo itange amahuza y’ubu, yagenzuwe ku bikoresho vyose vy’ingenzi. Ubwo buryo buratuma abashasha n’abanyagihugu bazi utuntu n’utundi bashobora kuronka neza amakuru yihariye bakeneye ku migambi yabo.
+
+
+### Ibikoresho vy'ubuhinga n'ibikoresho vyo guteza imbere
+
+
+Ububiko bw’amadosiye y’imiterere y’ibikoresho kuri GitHub bugereranya kimwe mu bikoresho vy’agaciro ku muntu wese ashaka gutahura canke kwubaka ibikoresho vya Bitaxe. Ubu bubiko bwa bose burimwo inyandiko zitomoye zivuga ku mice yose y’uguhingura ibikoresho, kuva ku vyiyumviro vy’intango gushika ku mirongo y’iherezo y’uguhingura. Ububiko burimwo amashusho adondora neza, intumbero z’umugambi, insobanuro z’ibintu, n’insobanuro z’ibihimba vyubatswemwo zitanga uburebure bw’ubuhinga n’ubuyobozi ngirakamaro.
+
+
+Ku bashaka kwikorera ibikoresho vyabo, ububiko burimwo amadosiye y’inyandiko yihariye nka building.md, itanga amabwirizwa y’intambwe ku yindi yerekeye igikorwa cose co gukora. Iyi nyandiko ivuga ku bikoresho vya porogarama bisabwa kugira ngo umuntu akore PCB, uburyo bwo kohereza amadosiye abahinguzi, be n’intambwe zijanye n’ukwakira no kwemeza PCB zakozwe. Uwo murongo w’ibintu vyinshi utuma abantu canke amashirahamwe matomato bashobora gukora neza mu bijanye n’uguhingura ibintu ata bumenyi bwinshi bafise mu bijanye n’uguhingura ibintu.
+
+
+Ububiko bwa ESP-Miner ni bwo bukora nk’ahantu hagati y’amakode yose ajanye n’inyandiko. Ubu bubiko bwa GitHub burimwo umurongo wose wa kode yanditswe kuri porogarama ya Bitaxe, hamwe n’inyandiko zitomoye zisigura ibisabwa kuri sisitemu, ibisobanuro vy’ibikoresho, n’uburyo bwo gutunganya. Ububiko bwakozwe kugira ngo bushobore kwakira abakoresha bakunda amadosiye y’ibice bibiri vyakozwe mbere n’abahinguzi bashaka kwubaka porogarama y’ubuhinga bushasha bakoresheje kode y’inkomoko.
+
+
+Ivyanditswe biri muri ubu bubiko birimwo ibice vy’ido n’ido ku bisabwa ku bikoresho, amahitamwo y’imbere y’ugutunganya, n’agaciro keza k’imiterere itandukanye. Aya makuru yerekana ko ari ngirakamaro ku bakoresha bashaka guhindura ibikoresho vyabo canke gutorera umuti ingorane zimwezimwe. Ikindi, ububiko burimwo amakuru yerekeye iterambere rishasha, nk’ugushiramwo Raspberry Pi, kugira ngo inyandiko zigume ziriho n’iterambere ry’umugambi riguma rigenda.
+
+
+### Ibikoresho vyo gucunga no gucungera ibikoresho
+
+
+Igikoresho co gukoresha urubuga rwa Bitaxe kigereranya umuti ngirakamaro wo gucungera no guhindura ibikoresho. Ico gikoresho gishingiye ku rubuga kiratuma abakoresha bashobora gukoresha porogarama zidasanzwe ku bikoresho vyabo ataco basaba porogarama yihariye canke uburyo bugoranye bwo gukoresha umurongo w’amabwirizwa. Ico gikoresho gifasha ibikoresho vyinshi, harimwo Bitaxe Ultra ifise ibikoresho bitandukanye vy’ibarabara n’ibikoresho vya kera vya Bitaxe Max. Abakoresha barashobora guhitamwo hagati yo guhindura porogarama zisanzweho biciye ku rubuga canke gusubiramwo ibintu vyose vy’uruganda bakoresheje ubuhinga bwa USB.
+
+
+Ico gikoresho kiratorera umuti kimwe mu bibazo bikunze gushikira abakunda ivy’ubuhinga bwa none: kubungabunga no guhindura ubuhinga bwa none bw’ibikoresho. Mu gutanga urubuga rworoshe gukoresha, iyo flasher irakuraho intambamyi nyinshi zo mu vy’ubuhinga zoshobora kubuza abakoresha kuguma bafise ibikoresho vyabo bishasha biva kuri porogarama nshasha. Igishushanyo c’ico gikoresho gishira imbere ukworoha mu gihe kigumya uguhinduranya bikenewe ku bijanye n’imiterere itandukanye y’ibikoresho be n’ibintu bishasha.
+
+
+### Imbuga z'abanyagihugu n'imihora y'itumanaho
+
+
+Server ya Discord iserukira umutima w’ugukorana n’ugushigikirana kw’abanyagihugu mu gihe nyaco mu bidukikije vya Bitaxe. Ishirahamwe ry’umukozi ryerekana inyungu n’ivyo abanyabubasha bakeneye bitandukanye, rifise imirongo itunganijwe neza ituma haba ibiganiro vyibanda ku bintu vyihariye. Abagize umuryango bashasha bahura n’ingendo yo kugenzura isaba gusoma no kwemera amategeko y’abanyagihugu, kugira ngo abaje mu nama bose batahure ivyo bitezwe mu gukorana mu buryo bwubahiriza kandi bufise akamaro.
+
+
+Uburyo bw’imirongo ya server burimwo ibiganiro rusangi bivuga ku bintu nk’ugushiramwo inguvu z’izuba, ibidengeri vya mining, n’ibiganiro bijanye na Bitcoin. Ivyiyumviro vyihariye vyibanda ku bikoresho vyihariye, harimwo n’imirongo yihariye y’ibikoresho vya Bitaxe Ultra, Hex, na Supra. Umurongo wa firmware utanga ikibanza cihariye c’ibiganiro vy’ubuhinga bijanye no gutegura porogarama n’ugutorera umuti ingorane, mu gihe umurongo w’ugusohora amakuru uzwi utuma abanyabubasha baronka amakuru ku gihe ku bijanye n’ibintu bishasha bitera imbere.
+
+
+Irafise kandi ahantu h’abanyamuryango batanga inyungu z’inyongera ku banyagihugu bahisemwo gushigikira uwo mugambi mu vy’amahera. Ubwo buryo bushingiye ku rwego butuma abarundi bashobora gutanga ibikorwa vyiza mu gihe baguma bafise uburenganzira bwo kuronka amakuru y’ingenzi n’inzira zo gufasha. Umuhora w’imfashanyo ukora nk’ahantu hagenewe gutorera umuti ingorane n’imfashanyo y’ubuhinga, kugira ngo abakoresha bashobore kuronka imfashanyo yihuse iyo bahuye n’ingorane.
+
+
+
+Wiki y’abacukuzi b’amabuye y’agaciro (osmu.wiki) itanga inyandiko zitomoye zishigikira ibiganiro vy’igihe nyaco bibera kuri Discord. Mu buryo butandukanye n’ibibanza bishingiye ku kuganira, wiki itanga inyandiko zitunganijwe, zishobora gushakishwa zivuga ku mice yose y’umugambi wa Bitaxe n’imigambi ijana na wo. Uko itunganijwe buragaragaza imiterere y’umugambi, harimwo ibice vy’urutonde rw’ibikoresho bitandukanye be n’uburongozi bwo gutegura.
+
+
+Ubuhinga bwa wiki bufunguye butuma abagize umuryango bashobora gutanga umusanzu ataco baciye ku nyandiko. Abakoresha barashobora guhindura amapaji, gutanga ibikosorwa, no kwongerako amakuru mashasha biciye mu gukorana na GitHub, kugira ngo ubumenyi bubeho kandi buboneke. Ubwo buryo bwo gukorana burakoresha ubuhinga rusangi bw’abanyagihugu mu gihe buguma bugenzura uburyo biciye mu nzira yo gusubiramwo amahinduka yashikirijwe.
+
+
+Wiki irimwo ibikoresho ngirakamaro nk’uburongozi bwo gutegura PDF butanga amabwirizwa y’intambwe ku yindi y’ugutunganya no gukoresha igikoresho. Izo nzira zikora nk’ibimenyetso vy’agaciro ku bashasha n’abanyagihugu bazi utuntu n’utundi bakeneye gushika ku buryo bwihariye canke amakuru y’imiterere.
+
+
+### Amakuru y'ugugura n'ugucuruza
+
+
+Urutonde rwa Bitaxe legit ruvuga ku kintu gikenewe cane mu muryango w’ibikoresho vy’ubuhinga bwa none: kumenya abagurisha bizigirwa no kwirinda abagurisha b’ubuhendanyi. Uru rutonde rwatunganijwe rurimwo abagurisha n’abahinguzi bagenzuwe bafise ivyiyumviro vyihariye vyo kwemezwa n’ugushigikirwa n’abanyagihugu. Urutonde rwose rurimwo amahuza ataco akora ku mbuga z’abaguzi, amakuru yo mu karere, n’insobanuro z’amashirahamwe afasha abakoresha gufata ingingo zijanye n’ugugura zishingiye ku makuru.
+
+
+Igihambaye ni uko urutonde rwerekana nimba umucuruzi wese asubiramwo umusanzu mu muryango wa OSMU, haba mu vy’amahera canke mu bundi buryo bwo gufasha. Ukwo guseruka gufasha abanyabubasha gutahura abagurisha bashigikira n’umwete iterambere ry’umugambi n’ubuzima buramba. Iryo lisiti kandi rikora nk’ingero yo kwikingira ubuhendanyi busanzwe, nk’ugusaba imbere y’igihe ibintu bitasohotse ata wemerewe, ivyo bikaba vyarateye ingorane mu kibano kuva kera.
+
+
+Gushimika ku mahuriro atagira aho abogamiye vyerekana ko umuryango wiyemeje gutanga impanuro z’abaguzi zitagira aho zibogamiye. Abakoresha barashobora kwizigira ko izo mpanuro zishingiye ku kwemezwa kw’abaguzi no ku ntererano y’abanyagihugu aho gushingira ku nkunga z’amahera, kugira ngo ingingo zo kugura zishigikire ivyo umuntu akeneye be n’ubuzima buramba bw’abanyagihugu.
+
+
+
+# Porogaramu n'imikorere
+
 <partId>04b302a9-42ba-5ad4-834c-6979950c2948</partId>
 
-## What is AxeOS ?
+
+## AxeOS ni iki?
+
 <chapterId>a0cdf10d-e007-58e2-a17b-b588fd393b5e</chapterId>
+
 :::video id=de7bcbf2-f9ac-4057-ad40-29dc223b4798:::
 
-AxeOS represents the comprehensive firmware and web interface that powers Bitaxe mining devices, providing users with complete control and monitoring capabilities through an intuitive browser-based dashboard. This system transforms the complex task of ASIC management into an accessible experience, allowing miners to monitor performance, adjust settings, and manage multiple devices from a single interface. Understanding AxeOS is essential for maximizing your Bitaxe device's potential and maintaining optimal mining operations.
-
-### Dashboard Overview and Core Metrics
-
-The AxeOS dashboard serves as your primary window into your Bitaxe device's performance, presenting critical mining metrics in an organized, real-time format. When you navigate to your Bitaxe device's IP address, you're immediately presented with four key performance indicators that define your mining operation's current state. The hash rate display shows the actual computational speed your ASIC chip is producing as it processes the current block template, providing immediate feedback on your device's core functionality.
-
-Adjacent to the hash rate, the shares counter tracks every valid solution your Bitaxe device submits to the mining pool, incrementing with each successful submission and serving as a direct measure of your device's contribution to the pool's mining efforts. The efficiency metric provides crucial insight into your device's power performance by calculating the ratio of hash rate to power consumption, helping you optimize your operation's profitability. The best difficulty indicator preserves a record of the highest difficulty share your device has ever found, maintaining this achievement even through reboots and updates, only resetting when you perform a complete factory flash.
-
-The dashboard's expandable menu system, controlled by a toggle button, provides access to all AxeOS functionality while maintaining a clean interface. The live hash rate graph represents one of AxeOS's most valuable features, displaying real-time performance data that becomes increasingly accurate and informative the longer you maintain your session. Below this visualization, the power, heat, and performance sections provide comprehensive monitoring of your device's operational status, including input voltage warnings that alert you to potential power supply issues while ensuring continued operation within safe parameters.
-
-### Advanced Monitoring and System Information
-
-The monitoring capabilities of AxeOS extend far beyond basic hash rate tracking, providing detailed insights into every aspect of your Bitaxe device's operation. The power section displays calculated power consumption derived from onboard integrated circuits, input voltage measurements from your power supply connection, and requested ASIC voltage levels. When voltage drops occur, AxeOS immediately presents warning notifications, though these typically don't affect mining operations and simply indicate potential power supply optimization opportunities.
-
-Temperature monitoring focuses on ASIC chip thermal management, with readings taken from strategic locations on the device to provide accurate thermal data with appropriate offsets for chip-level accuracy. The frequency and voltage displays offer real-time feedback on your ASIC tuning parameters, with the measured voltage representing the most accurate reading available, taken directly at the ASIC chip location. This precision enables fine-tuning of performance parameters while maintaining safe operating conditions.
-
-The connection status section provides immediate visibility into your pool configuration, displaying the current stratum URL, port, and user identification. For devices connected to public pools, AxeOS generates convenient quick links that transport you directly to your pool's web interface, where you can access detailed statistics, device listings, and historical performance data. This integration streamlines the monitoring process by connecting device-level and pool-level information in a seamless workflow.
-
-### Swarm Management and Multi-Device Control
-
-The Swarm functionality represents AxeOS's solution to the complexity of managing multiple Bitaxe devices across a network, eliminating the need to remember and navigate to numerous IP addresses. This centralized management system allows you to add devices by simply entering their IP addresses, automatically detecting active Bitaxe miners and incorporating them into a unified control dashboard. Once configured, Swarm provides comprehensive control over your entire mining operation from a single interface.
-
-Through the Swarm interface, you can perform critical management tasks across multiple devices simultaneously or individually, including pool configuration changes, device restarts, frequency adjustments, and performance monitoring. This centralized approach significantly reduces the administrative overhead of managing large mining operations while ensuring consistent configuration across all devices. The system maintains individual device identity while providing collective management capabilities, striking an optimal balance between granular control and operational efficiency.
-
-The Swarm dashboard presents each managed device with its current status, performance metrics, and quick-access controls, enabling rapid response to performance issues or configuration changes. This functionality proves particularly valuable for miners operating multiple devices in different locations or those who frequently adjust mining parameters based on market conditions or pool performance.
-
-### Configuration Management and System Settings
-
-The Settings section of AxeOS provides comprehensive control over every configurable aspect of your Bitaxe device, from network connectivity to mining parameters and hardware optimization. Network configuration begins with Wi-Fi setup, where you specify your network name and password, with AxeOS recommending single-word network names without spaces to ensure reliable connectivity. The system handles the complete wireless configuration process, enabling remote management and monitoring capabilities.
-
-Mining configuration centers on stratum settings, where you specify your chosen mining pool's URL without protocol prefixes or port numbers, which are handled in separate fields. The stratum user field accommodates various pool requirements, supporting both Bitcoin addresses for solo mining and username systems for pool mining, with the ability to append device identifiers for multi-device operations. The recently added stratum password functionality supports pools requiring authentication, though most public pools operate without this requirement.
-
-Hardware optimization through frequency and core voltage adjustment represents AxeOS's most powerful performance tuning capability. Depending on your device version and browser, these settings may appear as dropdown menus with preset configurations or as open fields allowing custom values. The default settings of 485 MHz frequency and 1200 mV core voltage provide stable operation for initial testing, while advanced users can optimize these parameters for maximum performance or efficiency based on their specific requirements and operating conditions.
-
-### System Maintenance and Advanced Features
-
-AxeOS includes sophisticated system maintenance capabilities designed to keep your Bitaxe device operating at peak performance while providing diagnostic information for troubleshooting and optimization. The update system streamlines firmware management by displaying the latest available release directly in the interface and providing direct download links to official firmware files. This integration eliminates the need to manually navigate GitHub repositories or manage file downloads, simplifying the update process to a few clicks.
-
-The update interface accepts properly named firmware files, specifically esp-miner.bin and www.bin, ensuring compatibility and preventing installation errors. For users experiencing difficulties with the standard update process, AxeOS provides references to comprehensive factory flash procedures that can restore devices to original functionality. This dual approach accommodates both routine updates and recovery scenarios.
-
-The logging system provides real-time insight into device operations, displaying detailed information about ASIC chip models, system uptime, Wi-Fi connectivity status, available memory, firmware versions, and board revisions. These logs prove invaluable for developers and advanced users seeking to understand device behavior, diagnose issues, or optimize performance. The real-time log viewer presents live operational data, including nonce processing, difficulty calculations, and mining submission parameters, offering unprecedented visibility into the mining process itself.
-
-Additional system features include screen orientation control for devices used in custom enclosures, fan polarity inversion for specialized cooling configurations, and automatic fan control that adjusts cooling based on ASIC temperature. Manual fan speed control provides precise cooling management when automatic systems don't meet specific requirements. All configuration changes require saving and device restart to take effect, ensuring stable operation and preventing partial configuration states that could impact mining performance.
+AxeOS ni porogaramu n’urubuga rw’ibikoresho vya Bitaxe mining, bitanga abakoresha ubushobozi bwo kugenzura no kugenzura biciye ku rubuga rwo gukoresha rushingiye ku mucukumbuzi. Uwo murongo uhindura igikorwa kigoye co gucunga ASIC kikaba ubumenyi bushoboka, bugatuma abacukuzi bashobora kugenzura ibikorwa, guhindura imiterere, no gucunga ibikoresho vyinshi bakoresheje interface imwe. Gutahura AxeOS ni ngombwa kugira ngo ushobore gukoresha neza igikoresho cawe ca Bitaxe no kubungabunga ibikorwa vyiza vya mining.
 
 
-# Community and Collaboration
+### Incamake y'urubaho n'ibipimo nyamukuru
+
+
+Igikoresho ca AxeOS gikora nk’idirisha ryawe ry’intango mu bikorwa vy’igikoresho cawe ca Bitaxe, kigaragaza ibipimo bihambaye vya mining mu buryo butunganijwe, bw’igihe nyaco. Iyo winjiye kuri aderesi IP y’igikoresho cawe ca Bitaxe, ubwo nyene ubona ibimenyetso bine vy’ingenzi vy’ibikorwa bisobanura uko igikorwa cawe ca mining kiri ubu. Igishushanyo c’igipimo ca hash kigaragaza umuvuduko nyawo w’ibarabara igikoresho cawe ca ASIC kiriko kiratanga uko gikora igishushanyo c’ibarabara, kigatanga inyishu zihita ku mikorere nyamukuru y’igikoresho cawe.
+
+
+Hafi y’igipimo ca hash, igiharuro c’imigabane gikurikirana umuti wose ubereye igikoresho cawe ca Bitaxe gitanga ku kigega ca mining, kigakomeza uko igikoresho cawe kirungika kandi kigakora nk’ingero itaziguye y’uruhara igikoresho cawe gitanga ku bikorwa vya mining vy’ikigega. Igitigiri c’ubushobozi gitanga ubumenyi buhambaye ku bijanye n’ubushobozi bw’igikoresho cawe mu kubara igipimo c’igipimo ca hash n’ubushobozi bukoreshwa, bikagufasha gutuma igikorwa cawe kigira inyungu nziza. Ikimenyetso ciza c’ingorane kirazigama inyandiko y’ingorane nyinshi cane igikoresho cawe casangira, kigakomeza ico kintu mbere no mu gusubira gutangura no guhindura, gusa kigasubiramwo iyo ukoze flash yuzuye y’uruganda.
+
+
+Uburyo bwo kwagura urutonde rw’ibintu vyo kuri dashboard, bugenzurwa n’ubuto bwo guhindura, buratanga uburenganzira bwo gukoresha ibikorwa vyose vya AxeOS mu gihe buguma bufise interface isukuye. Igishushanyo c’igipimo ca hash kigaragaza kimwe mu bintu vy’agaciro cane, kigaragaza amakuru y’ibikorwa vy’igihe nyaco agenda arushiriza kuba ay’ukuri kandi atanga amakuru uko uguma ukora igihe kirekire. Ivyiyumviro vy’ububasha, ubushuhe, n’ubushobozi biratanga ukugenzura gutomoye kw’ingene igikoresho cawe gikora, harimwo n’imburi z’umuriro winjira zikumenyesha ibibazo bishobora gushika mu bijanye n’ugutanga amashanyarazi mu gihe ubona ko gikomeza gukora mu buryo butekanye.
+
+
+### Igenzura riteye imbere n'amakuru ya sisitemu
+
+
+Ubushobozi bwo kugenzura bwa AxeOS burarengeye kure cane gukurikirana igipimo c’ishimikiro c’amafaranga, butanga ubumenyi burambuye ku bijanye n’imice yose y’imikorere y’igikoresho cawe ca Bitaxe. Igice c’amashanyarazi kigaragaza amashanyarazi aharuwe akomoka ku mirongo y’amashanyarazi iri mu bwato, ingero z’amashanyarazi yinjira zivuye ku nzira yawe y’amashanyarazi, n’ingero z’amashanyarazi zasabwe ASIC. Iyo umuriro ugabanutse, AxeOS ica itanga amatangazo y’imburi, naho ivyo bitagira ico bikoze ku bikorwa vya mining kandi vyerekana gusa amahirwe yo gutuma umuriro utanga neza.
+
+
+Igenzura ry’ubushuhe ryibanda ku gucunga ubushuhe bw’ibice vya ASIC, n’ibisomwa bifatwa mu bibanza vy’ingenzi ku gikoresho kugira ngo hatangwe amakuru y’ubushuhe y’ukuri n’ibisubizo bikwiye vy’ukuri ku rugero rw’ibice. Ivyerekana incuro n’umuriro bitanga inyishu z’igihe nyaco ku mirongo yawe y’ugutunganya ASIC, n’umuriro ugereranijwe ugereranya igisomwa c’ukuri kuruta ibindi vyose kiriho, gifatwa ata guca ku ruhande aho igice ca ASIC kiri. Ukwo gutomoye gutuma umuntu ashobora gutunganya neza ibipimo vy’ibikorwa mu gihe aguma akora neza.
+
+
+Igice c'imiterere y'ihuriro gitanga ukuboneka ubwo nyene mu miterere yawe y'ikidengeri ca mining, kigaragaza URL y'ubu, icuma, n'ikimenyetso c'ukoresha. Ku bikoresho bihuye n’ibidengeri vya bose, AxeOS itanga amahuzu yihuta akwiriye akujana ku rubuga rw’ibidengeri vyawe, aho ushobora kuronka imibare ido n’ido, urutonde rw’ibikoresho, n’amakuru y’ibikorwa vy’amateka. Ukwo gukorana gutuma uburyo bwo kugenzura bugenda neza mu guhuza amakuru yo ku rugero rw’ibikoresho n’ayo mu mazi mu buryo bubereye.
+
+
+### Ubuyobozi bw'umugwi n'ubugenzuzi bw'ibikoresho vyinshi
+
+
+Ivyo bikoresho vya Swarm bigereranya umuti wa AxeOS ku bijanye n’ugucungera ibikoresho vyinshi vya Bitaxe ku rubuga, bikaba bikuraho ivy’ukwibuka no kugendagenda ku ma aderesi menshi ya IP. Ubu buhinga bwo gucunga buhurikiye hamwe buragufasha kwongerako ibikoresho mu kwinjiza gusa amaderesi yavyo ya IP, ugaca umenya abacukuzi ba Bitaxe bakora maze ukabishira mu rutonde rw’ubugenzuzi bumwe. Igihe umaze gutunganya, Swarm itanga ubugenzuzi bushitse ku gikorwa cawe cose ca mining ukoresheje interface imwe.
+
+
+Biciye ku nzira ya Swarm, urashobora gukora ibikorwa vy’uburongozi bihambaye ku bikoresho vyinshi icarimwe canke ku giti cawe, harimwo guhindura imiterere y’ikidengeri, gusubira gutangura ibikoresho, guhindura incuro, no kugenzura ibikorwa. Ubu buryo buhurikiye hamwe buragabanya cane amafaranga y’ubutegetsi yo gucunga ibikorwa binini vya mining mu gihe bushobora gutuma habaho imiterere ihuye ku bikoresho vyose. Ubuhinga burabungabunga akaranga k’igikoresho c’umuntu ku giti ciwe mu gihe butanga ubushobozi bwo kurongora rusangi, bugatuma habaho uburinganire bwiza hagati y’ubugenzuzi bw’ibihimba n’ubushobozi bwo gukora.
+
+
+Igikoresho ca Swarm kigaragaza igikoresho cose gicungiwe n’ingene kimeze ubu, ingero z’imikorere, n’ubugenzuzi bwo kuronka ningoga, bikaba bishoboza kwishura ningoga ku bibazo vy’imikorere canke amahinduka y’imiterere. Ivyo bigaragaza ko ari vyiza cane ku bacukuzi bakoresha ibikoresho vyinshi mu bibanza bitandukanye canke abakunda guhindura ibipimo vya mining bishingiye ku mibereho y’isoko canke ku mikorere y’amazi.
+
+
+### Ubuyobozi bw'imiterere n'imiterere ya sisitemu
+
+
+Igice ca Settings ca AxeOS kiratanga ubugenzuzi bushitse ku kintu cose gishobora guhindurwa c’igikoresho cawe ca Bitaxe, kuva ku guhuza urubuga gushika ku mirongo ya mining no ku gutuma ibikoresho bigenda neza. Gutegura urubuga bitangura n’ugutegura Wi-Fi, aho ugaragaza izina ryawe ry’urubuga n’ijambobanga, AxeOS igasaba amazina y’urubuga y’ijambo rimwe ata myanya kugira ngo ushobore gukorana neza. Ubuhinga burakora ibikorwa vyose vyo gutunganya amakuru ata nsinga, bikaba bishoboza gucungera no kugenzura kure.
+
+
+Mining imiterere ishingiye ku miterere y'imirongo, aho ugaragaza URL y'ikidengeri ca mining wahisemwo ata n'intango y'amaporotokole canke inomero z'icuma, zifatwa mu bibanza bitandukanye. Igikoresho c’abakoresha c’ibarabara gishobora kwakira ibisabwa bitandukanye vy’ibarabara, gishigikira amaderesi ya Bitcoin ku mining yonyene be n’izina ry’abakoresha ry’ibarabara mining, n’ubushobozi bwo kwongerako ibimenyetso vy’ibikoresho ku bikorwa vy’ibikoresho vyinshi. Ijambobanga rya stratum ryongewe vuba rishigikira ama pools asaba kwemezwa, naho ama pools menshi ya bose akora ataco bisabwa.
+
+
+Guhindura neza ibikoresho biciye mu guhindura incuro n’umuriro w’imbere bigereranya ubushobozi bukomeye cane bwa AxeOS bwo guhindura ibikorwa. Bivanye n’uko igikoresho cawe gikoresha be n’umucukumbuzi wawe, ayo mategeko yoshobora kugaragara nk’amamenyu amanuka afise amasengesho yashizweho canke nk’ibibanza vyuguruye vyemerera agaciro k’ibintu. Ivyiyumviro vy’imbere vy’incuro 485 MHz n’umuriro w’imbere 1200 mV bitanga igikorwa gikomeye ku bijanye n’igerageza rya mbere, mu gihe abakoresha bateye imbere bashobora guhindura neza ivyo bipimo kugira ngo bikore neza cane canke bikore neza bishingiye ku bisabwa vyabo vyihariye be n’ingene bakora.
+
+
+### Gucungera sisitemu n'ibiranga biteye imbere
+
+
+AxeOS irimwo ubushobozi bwo gucungera sisitemu buteye imbere bwagenewe kuguma igikoresho cawe ca Bitaxe gikora neza cane mu gihe gitanga amakuru yo gupima kugira ngo utore umuti ingorane no gukora neza. Ubuhinga bwo guhindura bushasha buratuma uburongozi bwa porogarama bugenda neza mu kugaragaza porogarama nshasha ziboneka mu buryo butaziguye mu kigaragaza no gutanga amahuza ku madosiye ya porogarama yemewe. Ukwo gukorana gukuraho ivy’ugukoresha amaboko mu bubiko bwa GitHub canke gucunga amadosiye akurwako, bikworohereza igikorwa co guhindura ku gukanda bike.
+
+
+Igikoresho co guhindura amakuru cemera amadosiye ya firmware yitwa neza, cane cane esp-miner.bin na www.bin, kugira ngo bihure kandi bikarinda amakosa yo gushiramwo. Ku bakoresha bafise ingorane n’uburyo bwo guhindura busanzwe, AxeOS itanga ibisobanuro vy’uburyo bwo gukoresha flash y’uruganda bushobora gusubiza ibikoresho mu mikorere y’intango. Ubu buryo bubiri burashobora kwakira ivyo guhindura ibintu bimenyerewe be n’ibintu vyo gusubirana.
+
+
+Uburyo bwo gufata amakuru buratanga ubumenyi nyabwo ku bijanye n’ingene ibikoresho bikora, bugaragaza amakuru arambuye yerekeye ibigereranyo vy’ibikoresho vya ASIC, igihe ubuhinga bukora, uko Wi-Fi ikora, uburyo bwo kwibuka buriho, verisiyo za porogarama nkuru, n’ugusubiramwo kw’ibarabara. Ivyo bitabo vyerekana ko ari vyiza cane ku bategura n’abakoresha bateye imbere barondera gutahura inyifato y’ibikoresho, gusuzuma ibibazo, canke gutuma bikora neza. Igikoresho co kuraba amakuru y’igihe nyaco kirerekana amakuru y’ibikorwa vy’ubuzima, harimwo n’ugukora nonce, imibare y’ingorane, n’imirongo y’ugutanga mining, bitanga ukuboneka kutagira uko kungana mu nzira ya mining ubwayo.
+
+
+Ibindi bimenyetso vy’urwo rutonde ni nk’ugucungera ukuntu igicapo kigaragara ku bikoresho bikoreshwa mu bibanza vy’ubuhinga, uguhindura umurongo w’ibarabara ku bijanye n’imiterere yihariye y’ugukonjesha, n’ugucungera ibarabara ry’ibarabara ry’ugukonjesha rishingiye ku bushuhe bwa ASIC. Igenzura ry'umuvuduko w'umuyaga ry'amaboko ritanga uburyo bwo gukonjesha neza iyo uburyo bwikora butashitse ku bisabwa vyihariye. Impinduka zose z’imiterere zisaba kubika no gusubira gutangura igikoresho kugira ngo zibeho, zigatuma zikora neza kandi zigakingira imiterere y’ibice bishobora kugira ico bikoze ku mikorere ya mining.
+
+
+
+# Umuryango n'ubufatanye
+
 <partId>eed1ce48-6752-5744-91f7-91e4e20ff6b2</partId>
 
-## Open-Source Contribution Overview
+
+## Incamake y'intererano y'inkomoko yuguruye
+
 <chapterId>715d026e-cebc-536e-a34e-728f5653b999</chapterId>
+
 :::video id=7298ba19-28d2-4a7c-ac0b-44ad0c4770cf:::
 
-### GitHub and Its Role in Software Development
+### GitHub n'uruhara rwayo mu gutegura porogarama
 
-GitHub represents a fundamental shift in how software development projects are managed and shared across the global programming community. As a cloud-based platform that hosts software development projects using Git, a distributed version control system, GitHub enables developers to collaborate seamlessly on projects regardless of their physical location. The platform serves as both a technical tool and a social network for programmers, allowing them to track changes, merge updates, maintain different versions of their code, and contribute to open-source initiatives like the BitX project from Open Source Miners United.
 
-The power of GitHub lies in its ability to simplify the complex process of collaborative development. When multiple developers work on the same project, GitHub provides the infrastructure to manage contributions, review changes, handle project issues, and maintain comprehensive documentation. This collaborative approach has made GitHub an essential component of modern software development workflows, transforming how both individual developers and large organizations approach project management and code sharing.
+GitHub iserukira ihinduka ry’ishimikiro mu buryo imigambi yo gutegura porogarama icungirwa kandi igasangizwa n’abandi kw’isi yose. Nk’urubuga rushingiye ku gicu rwakira imigambi yo gutegura porogarama hakoreshejwe Git, uburyo bwo kugenzura verisiyo zitandukanye, GitHub irashoboza abategura gukorana ata nkomanzi ku migambi ataco bafatiye ku kibanza bari. Iryo koraniro rikora nk’igikoresho c’ubuhinga n’urubuga rw’imigenderanire ku bakora porogarama, bikabafasha gukurikirana amahinduka, gufatanya ivyahinduwe, kubungabunga verisiyo zitandukanye za kode yabo, no gutanga umusanzu mu migambi y’inkomoko yuguruye nk’umugambi wa BitX wo muri Open Source Miners United.
 
-### Navigating the GitHub Interface and Repository Structure
 
-Understanding the GitHub interface begins with recognizing the key elements that make up any repository page. The top navigation bar contains several critical sections including Code, Issues, Pull Requests, Discussions, Actions, Projects, Security, and Insights. Each section serves a specific purpose in the project management ecosystem, with the Code section displaying the actual files and folders that comprise the project.
+Ububasha bwa GitHub buri mu bushobozi bwayo bwo kworohereza inzira igoye y’iterambere ry’ubufatanye. Iyo abahinguzi benshi bakora ku mugambi umwe, GitHub itanga ibikorwa remezo vyo gucunga intererano, gusubiramwo amahinduka, gutorera umuti ibibazo vy’umugambi, no kubungabunga inyandiko zitomoye. Ubu buryo bwo gukorana bwatumye GitHub iba igice nyamukuru c’ibikorwa vyo gutegura porogarama z’ubuhinga bwa none, bihindura ingene abategura porogarama ku giti cabo n’imiryango minini begera uburongozi bw’imigambi no gusangira kode.
 
-The repository structure itself reflects the organizational approach of the project maintainers. Some repositories contain just a single file, perhaps a simple shell script, while others like the BitX hardware project contain numerous files organized into directories and subdirectories. The repository name appears prominently and serves as both an identifier and a brief description of the project's purpose. Essential interactive elements include the Watch button for receiving notifications about repository updates, the Fork button for creating personal copies of the repository, and the Star button which functions as a community endorsement system similar to a "thumbs up" feature.
 
-The About section provides crucial project information in a condensed format, including a one-line description, licensing information, and key project details. For the BitX project, this section identifies it as "open source ASIC Bitcoin miner hardware" and specifies the GPL 3.0 license. Understanding licensing is particularly important because GitHub operates as an open-source platform where public repositories are accessible to the entire community, making license compliance and understanding essential for any contributor.
+### Kugendagenda muri GitHub Interface n'imiterere y'ububiko
 
-### Working with Branches and Project Versions
 
-The concept of branches represents one of GitHub's most powerful features for managing different versions and development tracks within a single project. A branch essentially creates a copy or modified version of the main codebase, allowing developers to work on specific features, bug fixes, or experimental changes without affecting the primary development line. The master branch typically serves as the default and most stable version of the project, while additional branches accommodate different iterations, testing phases, or entirely different product variants.
+Gutahura ikigaragaza GitHub bitangura no kumenya ibintu nyamukuru bigize urupapuro rwose rw'ububiko. Umurongo wo hejuru wo kugenderamwo urimwo ibice vyinshi bihambaye harimwo Itegeko, Ibibazo, Ibisabwa vyo Gukurura, Ibiganiro, Ibikorwa, Imigambi, Umutekano, n’Ivyiyumviro. Buri gice gifise intumbero yihariye mu bijanye n’uburongozi bw’umugambi, igice c’Itegeko kigaragaza amadosiye n’amadosiye nyayo agize umugambi.
 
-In the BitX hardware project, multiple branches exist to manage different hardware versions and configurations. For example, the Ultra v2 branch contains files specific to that hardware iteration, while the Super 401 branch focuses on implementations using the S21 ASIC chip for improved efficiency. Each branch may be several commits ahead or behind the master branch, indicating the extent of changes and development activity. When examining different branches, users will notice completely different file structures, documentation, and even visual representations, reflecting the unique requirements and specifications of each hardware variant.
 
-The branch system prevents confusion among contributors and users by clearly separating different development tracks. Rather than mixing experimental features with stable releases, or combining different hardware versions in a single location, branches provide clean separation while maintaining the ability to merge successful changes back into the main development line when appropriate. This organizational approach ensures that users can easily locate the specific version they need while developers can work on improvements without disrupting the primary project.
+Uburyo bw’ububiko ubwabwo bugaragaza uburyo abacungera umugambi batunganya ibintu. Hari ububiko burimwo dosiye imwe gusa, kumbure inyandiko yoroshe y’igikoko, mu gihe ubundi nk’umugambi w’ibikoresho vya BitX burimwo amadosiye menshi atunganijwe mu bubiko n’ububiko buto. Izina ry’ububiko riboneka cane kandi rikora nk’ikimenyetso be n’insobanuro ngufi y’intumbero y’umugambi. Ibintu vy'ingenzi bikorana birimwo ubuto bwa Watch bwo kwakira amatangazo yerekeye ivy'ububiko bushasha, ubuto bwa Fork bwo gukora kopi z'ububiko bw'umuntu ku giti ciwe, n'ubuto bwa Star bukora nk'uburyo bwo kwemeza umuryango busa n'ikintu "gushira urukumu hejuru".
 
-### Contributing Through Issues
 
-The Issues section serves as the primary communication channel between users and project maintainers for reporting problems, suggesting improvements, and documenting bugs. However, it's crucial to understand that the Issues section is specifically designed for legitimate technical problems rather than general questions or support requests. When users encounter actual malfunctions, unexpected behavior, or identify potential improvements, creating a well-documented issue helps the entire community by bringing attention to problems that may affect multiple users.
+Igice kivuga ivyerekeye umugambi kiratanga amakuru ahambaye yerekeye umugambi mu buryo bugufi, harimwo insobanuro y’umurongo umwe, amakuru yerekeye uruhusha, n’ibintu nyamukuru vyerekeye umugambi. Ku mugambi wa BitX, iki gice kiwumenyesha ko ari "ibikoresho vy'ubucukuzi vy'inkomoko yuguruye ASIC Bitcoin" kandi kigaragaza uruhusha rwa GPL 3.0. Gutahura uruhusha ni ikintu gihambaye cane kuko GitHub ikora nk’urubuga rwuguruye aho ububiko bwa bose bushobora gushikirwa n’abanyagihugu bose ariko ibirimwo bishobora gukoreshwa gusa no gukwiragizwa hakurikijwe amategeko y’ukubahiriza uruhusha rwose.
 
-Effective issue reporting requires detailed documentation of the problem, including the circumstances that led to the issue, steps to reproduce the problem, and any relevant technical details. The BitX project demonstrates this principle through various closed issues that show the resolution process, from initial problem identification through community discussion to final resolution. Some issues result in hardware improvements, such as the addition of mounting holes to increase cooling options, while others may be resolved through user education or software updates.
 
-The distinction between Issues and Discussions is important for maintaining organized community interaction. While Issues focus on specific technical problems, the Discussions section provides a forum-like environment for questions, ideas, and general community engagement. Although the Discord server has become the primary communication channel for the BitX community, the GitHub Discussions section remains available for more formal or searchable conversations that benefit from permanent documentation and easy reference.
+### Gukorana n'amashami n'amaverisiyo y'umugambi
 
-### Understanding Pull Requests
 
-Pull requests represent the mechanism through which external contributors propose changes to a project repository. When someone identifies an improvement, bug fix, or new feature that would benefit the project, they can create a pull request to submit their changes for review and potential integration into the main codebase. This process ensures that all modifications undergo review before becoming part of the official project, maintaining code quality and project coherence while enabling community contributions.
+Iciyumviro c’amashami kigereranya kimwe mu bintu bikomeye cane vya GitHub vyo gucunga verisiyo zitandukanye n’imirongo y’iterambere mu mugambi umwe. Ishami mu vy’ukuri rikora kopi canke verisiyo yahinduwe y’urutonde rw’amakode nyamukuru, bikaba vyemerera abahinguzi gukora ku bintu vyihariye, gukosora ibibazo, canke guhindura ivy’igerageza ataco bihinduye ku murongo w’iterambere ry’intango. Ishami ry’umukuru rikora nk’iry’umugambi ry’imbere kandi rikomeye cane, mu gihe amashami y’inyongera ashobora kwakira ibisubirwamwo bitandukanye, inzira z’igerageza, canke ibintu bitandukanye rwose.
 
-The pull request workflow typically begins when a contributor forks the repository, creates their own copy where they can make changes, and then submits those changes back to the original project through a pull request. Project maintainers can then review the proposed changes, discuss modifications with the contributor, and ultimately decide whether to merge the changes into the main project. This collaborative review process helps maintain project standards while encouraging community participation and improvement.
 
-Understanding tags and releases adds another layer to project management and version control. Tags serve as markers in the development timeline, identifying specific points that represent particular versions or milestones. In hardware projects like BitX, tags often correspond to specific model numbers or hardware revisions, providing clear reference points for users seeking particular versions. Releases, more commonly used in software projects, represent formal distributions of completed features and bug fixes, often accompanied by detailed release notes and downloadable packages.
+Mu mugambi w’ibikoresho vya BitX, hariho amashami menshi yo gucunga verisiyo zitandukanye z’ibikoresho n’imiterere yavyo. Nk’akarorero, ishami rya Ultra v2 ririmwo amadosiye yihariye kuri iyo iteration y’ibikoresho, mu gihe ishami rya Super 401 ryibanda ku gushirwa mu ngiro hakoreshejwe igice ca S21 ASIC kugira ngo bikore neza. Ishami ryose rishobora kuba rifise amasezerano menshi imbere canke inyuma y’ishami ry’umukuru, bikaba vyerekana urugero rw’amahinduka n’igikorwa c’iterambere. Igihe abakoresha basuzuma amashami atandukanye, bazobona imiterere y’amadosiye, inyandiko, eka mbere n’ibimenyetso vy’amashusho bitandukanye rwose, vyerekana ibisabwa n’ibisobanuro vy’ubuhinga bumwe bumwe.
 
-The GitHub ecosystem creates a comprehensive environment for open-source collaboration that extends far beyond simple file sharing. By understanding these various components and their proper usage, contributors can effectively participate in projects, help improve software and hardware designs, and benefit from the collective knowledge and effort of the global development community. Whether reporting issues, suggesting improvements, or contributing code, GitHub provides the tools and structure necessary for meaningful collaboration in the open-source world.
 
-## Open-Source Contribution Hands-on
+Uburyo bw’ishami burabuza urujijo hagati y’abatanga n’abakoresha mu gutandukanya neza inzira zitandukanye z’iterambere. Aho kuvanga ibintu vy’igerageza n’ibisohoka bihoraho, canke gufatanya amaverisiyo atandukanye y’ibikoresho mu kibanza kimwe, amashami aratanga ugutandukanya gusukuye mu gihe agumana ubushobozi bwo gufatanya amahinduka aroraniwe agasubira mu murongo w’iterambere nyamukuru iyo bibereye. Ubu buryo bwo gutunganya ibintu buratuma abakoresha bashobora kuronka bitagoranye verisiyo yihariye bakeneye mu gihe abahinguzi bashobora gukora ku vyo gutera imbere batahungabanya umugambi w’intango.
+
+
+### Gutanga umusanzu biciye mu bibazo
+
+
+Igice c’Ibibazo gikora nk’umuhora nyamukuru wo guhanahana amakuru hagati y’abakoresha n’abacungera umugambi kugira ngo bamenyeshe ingorane, bashireho ivyiyumviro vyo gutera imbere, no kwandika ibibazo. Ariko rero, birahambaye cane gutahura ko igice c'Ibibazo cagenewe canecane ingorane z'ubuhinga zibereye aho kuba ibibazo rusangi canke ibisabwa vyo gufasha. Iyo abakoresha bahuye n’ibibazo vy’ukuri, inyifato zitari zitezwe, canke bamenye ivyoshobora gutera imbere, guhingura ikibazo canditswe neza birafasha umuryango wose mu kuzana ivyiyumviro ku ngorane zishobora gushikira abakoresha benshi.
+
+
+Raporo nziza y’ikibazo bisaba inyandiko zitomoye z’ingorane, harimwo n’ivyatumye ikibazo kiba, intambwe zo gusubiramwo ingorane, n’ibintu vyose vy’ubuhinga bihambaye. Umugambi wa BitX werekana iyo ngingo biciye mu bibazo bitandukanye vyugarijwe vyerekana ingene ingorane zitorera umuti, kuva ku kumenya ingorane mu ntango biciye mu biganiro vy’abanyagihugu gushika ku gutorera umuti ingorane za nyuma. Ibibazo bimwebimwe bituma habaho iterambere ry’ibikoresho, nk’ukwongerako imyobo yo gushiramwo kugira ngo umuntu yongere uburyo bwo gukonjesha, mu gihe ibindi bishobora gutorwa umuti biciye ku kwigisha abakoresha canke guhindura porogarama.
+
+
+Itandukaniro hagati y’Ibibazo n’Ibiganiro ni ngirakamaro mu kubungabunga imigenderanire y’abanyagihugu itunganijwe. Naho Ibibazo vyibanda ku bibazo vy’ubuhinga vyihariye, igice c’Ibiganiro kiratanga ikibanza kimeze nk’ihuriro c’ibibazo, ivyiyumviro, n’ugukorana n’abanyagihugu muri rusangi. Naho umukozi wa Discord yabaye umurongo nyamukuru wo guhanahana amakuru ku muryango wa BitX, igice c’Ibiganiro vya GitHub kiracariho ku biganiro bimenyerewe canke bishobora gushakishwa vyungukira ku nyandiko zihoraho no kuronka amakuru yoroshe.
+
+
+### Gutahura ibisabwa
+
+
+Ibisabwa vyo gukurura bigereranya uburyo abatanga intererano bo hanze bakoresha mu gutanga amahinduka ku bubiko bw’umugambi. Iyo umuntu abonye ikintu co gutera imbere, gukosora ibibazo, canke ikintu gishasha coshobora kugirira akamaro umugambi, arashobora gukora ubusabe bwo gukurura kugira ngo ashikirize amahinduka yiwe kugira ngo asuzumwe kandi ashobore gushirwa mu rutonde rw’amakode nyamukuru. Iyi nzira ituma ivyo vyose bihindurwa bisubirwamwo imbere y’uko biba igice c’umugambi wemewe, bikaguma bifise uburyo bwiza n’uguhuza umugambi mu gihe bishoboka ko abaturage bashobora gutanga intererano.
+
+
+Ibikorwa vy'ugusaba gukurura bitangura iyo umuterankunga ahinduye ububiko, akarema kopi yiwe aho ashobora guhindura, hanyuma agasubiza ayo mahinduka ku mugambi w'intango biciye mu gusaba gukuraho. Abajejwe gucungera umugambi barashobora rero gusubiramwo amahinduka yasabwe, baganira ku mahinduka n’uwutanga, maze amaherezo bagafata ingingo yo gufatanya ayo mahinduka mu mugambi nyamukuru. Uwo murongo wo gusubiramwo mu bufatanye ufasha kubungabunga ingingo mfatirwako z’umugambi mu gihe uremesha abanyabubasha kugira uruhara no gutera imbere.
+
+
+Gutahura ama tags n’ibisohoka vyongera ikindi gice ku burongozi bw’umugambi no kugenzura verisiyo. Ama tags akora nk’ibimenyetso mu gihe c’iterambere, akagaragaza ingingo zidasanzwe zigereranya verisiyo zidasanzwe canke intambwe zihambaye. Mu migambi y’ibikoresho nka BitX, ama tags akenshi ahuye n’imibare y’ibigereranyo vyihariye canke isubiramwo ry’ibikoresho, bitanga ingingo zitomoye ku bakoresha barondera verisiyo zimwe zimwe. Ivyo gusohora, bikoreshwa cane mu migambi ya porogarama, bigereranya ugukwirakwiza mu buryo butegekanijwe kw’ibintu vyuzuye be n’ugukosora ibibazo, akenshi biherekezwa n’ibisohoka vy’ido n’ido be n’ibikoresho bishobora gukurwako.
+
+
+Igikoresho ca GitHub kirarema ikibanza gikomeye co gukorana n'inkomoko yuguruye kirenze kure gusangira dosiye. Mu gutahura ivyo bihimba bitandukanye n’ingene bikoreshwa neza, abatanga intererano barashobora kugira uruhara mu migambi, bagafasha mu gutegura neza imiterere ya porogarama n’ibikoresho, no kwungukira ku bumenyi n’inguvu rusangi z’ishirahamwe ry’iterambere ry’isi yose. Yaba gutanga raporo y’ibibazo, gutanga ivyiyumviro vyo gutera imbere, canke gutanga kode, GitHub itanga ibikoresho n’imiterere bikenewe kugira ngo habeho ubufatanye bufise insiguro mw’isi y’inkomoko yuguruye.
+
+
+## Inkomoko yuguruye intererano y'amaboko
+
 <chapterId>84d033f5-7182-584f-b1a5-697172bc7a1c</chapterId>
+
 :::video id=7d318fd0-6f0b-422a-9f30-2c470b56951d:::
 
-Building upon the foundation of creating issues and exploring open source projects, this chapter focuses on the practical aspects of making direct contributions through pull requests and repository management. Understanding how to fork repositories, make changes, and submit pull requests represents a crucial skill set for any developer looking to contribute meaningfully to open source projects, whether they involve software development or hardware design.
-
-The process of contributing code changes follows a standardized workflow that ensures project integrity while allowing for collaborative development. This workflow involves creating your own copy of a project repository, making modifications in a controlled environment, and then proposing those changes back to the original project through a formal review process. While the examples in this chapter focus primarily on software contributions, the same principles and procedures apply equally to hardware projects involving PCB designs, schematics, and other technical documentation.
-
-### Understanding Forks and Repository Structure
-
-The foundation of contributing to any open source project begins with creating a fork, which serves as your personal copy of the original repository. When you navigate to a GitHub repository and click the "fork" button, you create an independent copy under your own GitHub account that maintains a clear connection to the original source. This forked repository appears in your account with a clear indication of its origin, displaying text such as "forked from [original-owner]/[repository-name]" beneath the repository title.
-
-Your forked repository operates independently from the original, allowing you to make changes without affecting the main project. However, it maintains awareness of updates to the original repository through GitHub's synchronization features. When the original repository receives updates that your fork lacks, GitHub displays status information such as "This branch is X commits behind" or "X commits ahead," providing clear visibility into the relationship between your fork and the upstream repository. You can synchronize your fork with the original repository at any time by clicking the "Sync fork" button, which pulls in the latest changes from the upstream source.
-
-The relationship between your fork and the original repository becomes particularly important when you begin making changes. As you implement modifications and commit them to your fork, GitHub tracks these differences and displays them as commits ahead of the original repository. This tracking system enables the pull request process, where you can propose your changes for inclusion in the main project while maintaining a clear history of what has been modified.
-
-### Setting Up Your Development Environment
-
-Creating an effective development environment requires careful attention to both general development tools and project-specific requirements. Visual Studio Code serves as an excellent integrated development environment (IDE) for most open source contributions, providing essential features for code editing, version control integration, and project management. The first critical component involves installing and configuring the Git extension, which enables seamless integration with GitHub repositories directly from your development environment.
-
-Modern versions of Visual Studio Code typically include Git support by default, but you must authenticate with your GitHub account to enable full functionality. This authentication process involves signing into GitHub through the IDE, which then allows you to clone repositories, commit changes, and push updates directly from your development environment. The GitHub integration appears as an icon in the left sidebar, providing access to repository cloning, branch management, and synchronization features without requiring command-line operations.
-
-For projects involving embedded systems or specific hardware platforms, additional tools become necessary. The ESP-IDF extension represents a crucial component for projects targeting ESP32 microcontrollers, requiring specific version compatibility to ensure proper functionality. The installation process involves selecting the appropriate ESP-IDF version, configuring tool paths, and setting up the development container environment. Version 5.1.3 currently represents the recommended configuration for many ESP32-based projects, though these requirements may evolve as projects update their dependencies and toolchains.
-
-### Making Changes and Managing Commits
-
-Once your development environment is properly configured, the process of making meaningful contributions begins with downloading or cloning your forked repository to your local machine. You can accomplish this either by downloading a ZIP file of the repository contents or by using Visual Studio Code's integrated cloning functionality, which provides a more streamlined workflow for ongoing development. The cloning process creates a local copy of your repository that remains synchronized with your GitHub fork, enabling you to work offline while maintaining version control capabilities.
-
-When working with the local repository, you gain access to the complete project structure, including source code files, configuration files, documentation, and any hardware design files. Most firmware projects utilize programming languages such as C for core functionality, with additional components written in TypeScript for user interfaces or Java for specific utilities. Understanding the project structure helps you identify the appropriate files to modify and ensures that your changes align with the project's architectural patterns and coding standards.
-
-The commit process represents a fundamental aspect of version control that requires careful attention to both technical accuracy and communication clarity. Before making any changes, you should thoroughly understand the existing code and test any modifications in your local environment. The cardinal rule of open source contribution emphasizes never publishing untested code, as this can introduce bugs or security vulnerabilities that affect the entire project community. Additionally, you must never commit sensitive information such as passwords, API tokens, or personal credentials to public repositories, as this information becomes permanently accessible to anyone with repository access.
-
-### Creating and Managing Pull Requests
-
-The culmination of your contribution effort involves creating a pull request, which serves as a formal proposal to merge your changes into the original project repository. This process begins in your GitHub fork, where you can review the differences between your repository and the upstream source. GitHub's interface clearly displays the number of commits ahead or behind, providing immediate visibility into the scope of your proposed changes. Before creating a pull request, you should ensure your fork is synchronized with the latest upstream changes to minimize potential conflicts.
-
-Creating an effective pull request requires more than simply submitting your code changes. The pull request description serves as your opportunity to communicate the purpose, scope, and impact of your modifications to the project maintainers and community. A well-written description explains what problems your changes address, how you implemented the solution, and any potential implications for other parts of the project. This documentation becomes particularly important for complex changes that might not be immediately obvious from examining the code differences alone.
-
-The review process represents a collaborative aspect of open source development where project maintainers and experienced contributors evaluate your proposed changes. You can request specific reviewers who have expertise in the areas your changes affect, ensuring that knowledgeable community members examine your work. The review process may involve multiple iterations, with reviewers providing feedback, requesting modifications, or asking for additional testing. This collaborative refinement process helps maintain code quality while providing valuable learning opportunities for contributors at all experience levels.
-
-Understanding that not all pull requests receive acceptance helps set appropriate expectations for the contribution process. Project maintainers may decline pull requests for various reasons, including misalignment with project goals, insufficient testing, or the existence of alternative solutions already in development. Rather than viewing rejection as failure, consider it an opportunity to learn from feedback, refine your approach, and potentially contribute alternative solutions that better meet the project's needs. The open source community thrives on this iterative process of proposal, review, and refinement that ultimately drives projects forward through collective effort and shared expertise.
+Kuba ku mushinge wo kurema ibibazo no gutohoza imigambi y’inkomoko yuguruye, iki gice cibanda ku mice ngirakamaro yo gutanga intererano zitaziguye biciye mu gusaba gukurura no gucunga ububiko. Gutahura ingene ububiko bwa fork, guhindura, no gutanga ibisabwa vyo gukuraho bigereranya ubuhinga buhambaye ku muhinguzi wese arondera gutanga umusanzu ufise insiguro ku migambi y’inkomoko yuguruye, yaba iyo gutegura porogarama canke uguhingura ibikoresho.
 
 
-## What's Public-Pool ?
+Inzira yo gutanga amahinduka y’amategeko ikurikira urutonde rw’ibikorwa rusanzwe rutuma umugambi uba uwutagira agasembwa mu gihe rwotuma habaho iterambere ry’ubufatanye. Ivyo bikorwa birimwo gukora kopi yawe bwite y’ububiko bw’umugambi, guhindura mu bidukikije bigenzurwa, hanyuma ugasaba ivyo bihinduka gusubira ku mugambi w’intango biciye mu nzira yo gusubiramwo mu buryo butegekanijwe. Naho ingero ziri muri iki kigabane zishimikiye canecane ku ntererano za porogarama, izo ngingo ngenderwako n’uburyo nyene birakora kimwe ku migambi y’ibikoresho birimwo imigero ya PCB, ibishushanyo, n’izindi nyandiko z’ubuhinga.
+
+
+### Gutahura amaforoko n'imiterere y'ububiko
+
+
+Umushinge wo gutanga umusanzu ku mugambi uwo ari wo wose w’inkomoko yuguruye utangura no kurema fork, ikora nk’ikopi yawe bwite y’ububiko bw’intango. Iyo ugendeye mu bubiko bwa GitHub maze ukanda kuri buto ya "fork", urema kopi yigenga munsi ya konti yawe bwite ya GitHub igumya ubucuti butomoye n'inkomoko y'intango. Ubu bubiko butandukanye buboneka muri konti yawe bufise ikimenyetso gitomoye c'inkomoko yabwo, bugaragaza umwandiko nk'uwu "wahinduwe kuva kuri [nyiri-w'umwimerere]/[izina-ry'ububiko]" munsi y'izina ry'ububiko.
+
+
+Ububiko bwawe bukora bwigenga ku bw'umwimerere, bukaguha uburenganzira bwo guhindura ataco buhinduye ku mugambi nyamukuru. Ariko rero, iragumya ubumenyi bw’ibintu bishasha ku bubiko bw’intango biciye ku bimenyetso vy’uguhuza vya GitHub. Iyo ububiko bw'intango bwaronse amakuru mashasha fork yawe idafise, GitHub yerekana amakuru y'imimerere nk'aya ngo "Iri shami ni X yiyemeje inyuma" canke "X yiyemeje imbere," bitanga ukuboneka neza mu bijanye n'isano hagati ya fork yawe n'ububiko bwo hejuru. Ushobora guhuza fork yawe n'ububiko bw'intango igihe cose ukanda kuri buto ya "Sync fork", ikwegeranya amahinduka aherutse kuva ku nzira y'imbere.
+
+
+Isano riri hagati ya fork yawe n’ububiko bw’intango riba rihambaye cane iyo utanguye guhindura. Uko ushira mu ngiro ivyo wahinduye kandi ukabishira kuri fork yawe, GitHub irakurikirana izo ntandukaniro kandi ikavyerekana nk’ivyo ushira imbere y’ububiko bw’intango. Ubu buryo bwo gukurikirana burashoboza igikorwa co gusaba gukurura, aho ushobora gutanga amahinduka yawe kugira ngo ashirwe mu mugambi nyamukuru mu gihe uguma ufise amateka atomoye y’ivyo vyahinduwe.
+
+
+### Gutegura ibidukikije vyawe vy'iterambere
+
+
+Gutuma haba ahantu heza ho gutera imbere bisaba kwitwararika cane ibikoresho rusangi vy’iterambere n’ibisabwa vy’umugambi. Visual Studio Code ikora nk’ibidukikije vyiza cane vy’iterambere ryinjijwe (IDE) ku ntererano nyinshi z’inkomoko yuguruye, itanga ibintu vy’ingenzi vyo guhindura kode, gukorana n’ubugenzuzi bwa verisiyo, no gucunga umugambi. Igice ca mbere gihambaye ni ugushiramwo no gutunganya ukwaguka kwa Git, bishobora gutuma ushobora gukorana neza n'ububiko bwa GitHub buva mu bidukikije vyawe vy'iterambere.
+
+
+Verisiyo za none za Visual Studio Code zirimwo ubufasha bwa Git ku buryo busanzwe, ariko utegerezwa kwemeza ukoresheje konti yawe ya GitHub kugira ngo ushobore gukora neza. Iyi nzira yo kwemeza irimwo kwinjira muri GitHub biciye muri IDE, ivyo bikaba bigufasha gukora clone y'ububiko, guhindura, no gusunika ivyagezwe biva ku bidukikije vyawe vy'iterambere. Ugushiramwo GitHub kugaragara nk’ikimenyetso mu ruhande rw’ibubamfu, gutanga uburenganzira bwo gukora ububiko, gucunga amashami, n’ibikorwa vyo guhuza ataco bisaba ibikorwa vy’umurongo w’amabwirizwa.
+
+
+Ku migambi irimwo ubuhinga bushizwemwo canke ubuhinga bwihariye, ibikoresho vy’inyongera birakenerwa. Iryo koraniro rya ESP-IDF rigereranya igice gihambaye cane ku migambi yibanda ku bikoresho vy’ubuhinga bwa ESP32, bisaba ko habaho uguhuza kwa verisiyo yihariye kugira ngo bikore neza. Ivyo gushiramwo birimwo guhitamwo verisiyo ya ESP-IDF ibereye, gutunganya inzira z’ibikoresho, no gushinga ibidukikije vy’ibikoresho vy’iterambere. Verisiyo 5.1.3 ubu iserukira imiterere iremewe ku migambi myinshi ishingiye kuri ESP32, naho ivyo bisabwa bishobora guhinduka uko imigambi ihindura ibikoresho vyayo.
+
+
+### Guhindura no gucunga amasezerano
+
+
+Igihe ibidukikije vyawe vy’iterambere bimaze gutunganirizwa neza, inzira yo gutanga intererano zifise insiguro itangura n’ugukura canke gukora cloning y’ububiko bwawe bw’amaforked ku mashine yawe yo mu karere. Ivyo ushobora kubishikako mu gukuraho dosiye ya ZIP y’ibirimwo mu bubiko canke mu gukoresha ubuhinga bwo gukora cloning bushizwemwo bwa Visual Studio Code, butanga urugendo rworoshe rw’ibikorwa kugira ngo umuntu abandanye gutera imbere. Ivyo bikoresho bikora kopi y’ububiko bwawe iguma ihuye na GitHub fork yawe, bikagufasha gukora utari mu nzira mu gihe uguma ufise ubushobozi bwo kugenzura verisiyo.
+
+
+Iyo ukorana n’ububiko bwo mu karere, uronka uburenganzira bwo gushika ku miterere y’umugambi yose, harimwo amadosiye ya kode y’inkomoko, amadosiye y’imiterere, inyandiko, n’amadosiye yose y’imiterere y’ibikoresho. Imigambi myinshi ya firmware ikoresha indimi za porogarama nka C ku bikorwa nyamukuru, n’ibindi bice vyanditswe muri TypeScript ku bikorwa vy’abakoresha canke Java ku bikorwa vy’ingenzi. Gutahura imiterere y’umugambi biragufasha kumenya amadosiye akwiye guhindura no kumenya neza ko ivyo uhinduye bihuye n’imiterere y’ubwubatsi bw’umugambi be n’ingingo mfatirwako zo gushiramwo amakode.
+
+
+Uburyo bwo gukora bugereranya umuce w’ishimikiro wo kugenzura verisiyo usaba kwitwararika cane ukuri kw’ubuhinga n’ugusobanuka kw’ivy’uguhanahana amakuru. Imbere y’uko ugira ivyo uhinduye, urakwiye gutahura neza kode iriho maze ukagerageza ivyo uhinduye vyose mu karere kawe. Itegeko ry’ingenzi ry’ugutanga intererano y’inkomoko yuguruye rishimika ku kutigera utangaza kode itageragejwe, kuko ivyo bishobora kuzana ibibazo canke ubugoyagoye bw’umutekano bugira ingaruka ku muryango wose w’umugambi. Ikindi, ntushobora kwigera utanga amakuru y’agaciro nk’amajambo y’ibanga, ibimenyetso vya API, canke amakuru y’umuntu ku giti ciwe mu bubiko bwa bose, kuko ayo makuru ashobora gushikirwa ubudasiba n’umuntu wese afise uburenganzira bwo kuyaronka mu bubiko.
+
+
+### Guhingura no gucunga ibisabwa
+
+
+Iherezo ry'inguvu zawe zo gutanga intererano ni uguhingura igisabwa co gukurura, gikora nk'iciyumviro gitegekanijwe co gufatanya amahinduka yawe mu bubiko bw'umugambi w'intango. Iyi nzira itangura muri GitHub fork yawe, aho ushobora gusubiramwo itandukaniro hagati y'ububiko bwawe n'inkomoko yo hejuru. Igikoresho ca GitHub kigaragaza neza umubare w'ibikorwa biri imbere canke inyuma, bitanga ukuboneka ubwo nyene mu rugero rw'amahinduka ushaka guhindura. Imbere yo kurema igisabwa co gukurura, ukwiye kumenya neza ko fork yawe ihuye n’amahinduka aheruka yo hejuru kugira ngo ugabanye amakimbirane ashobora kubaho.
+
+
+Gukora ubusabe bwo gukurura bubereye bisaba ibirenze gusa gutanga amahinduka ya kode yawe. Insobanuro y’ugusaba gukurura ikora nk’akaryo kawe ko kumenyesha abajejwe umugambi n’abanyagihugu intumbero, urugero, n’ingaruka z’ivyo wahinduye. Insobanuro yanditse neza isigura ingorane amahinduka yawe ashobora gutorera umuti, ingene washize mu ngiro umuti, n’ingaruka iyo ari yo yose yoshobora kugira ku bindi bice vy’umugambi. Iyi nyandiko iraba ngirakamaro cane cane ku mahinduka akomeye yoshobora kutaboneka ubwo nyene mu gusuzuma itandukaniro ry’amakode gusa.
+
+
+Uburyo bwo gusubiramwo bugereranya uruhande rw’ubufatanye rw’iterambere ry’inkomoko yuguruye aho abacungera umugambi n’abatanga intererano bazi utuntu n’utundi basuzuma amahinduka mwasavye. Ushobora gusaba abasubiramwo b’umwihariko bafise ubuhinga mu bijanye n’ivyo amahinduka yawe agira ico akoze, kugira ngo abagize umuryango bafise ubumenyi basuzume igikorwa cawe. Ivyo gusubiramwo bishobora gusaba ko umuntu asubiramwo kenshi, abasubiramwo bagatanga inyishu, bagasaba ko bahindura canke bagasaba ko hagira ibindi bigeragezo. Uwo murongo wo gutunganya ibintu mu bufatanye ufasha kubungabunga uburyo bw’amakode mu gihe utanga amahirwe y’agaciro yo kwiga ku batanga intererano ku nzego zose z’ubumenyi.
+
+
+Gutahura ko atari ibisabwa vyose vyo gukurura vyemerwa bifasha gushinga ivyo umuntu yitega bikwiye ku bijanye n’ingendo y’intererano. Abacungera umugambi bashobora kwanka ibisabwa vyo gukura kubera imvo zitandukanye, harimwo ukudahuza n’intumbero z’umugambi, ukugerageza kudahagije, canke ukubaho kw’izindi nzira zisanzwe ziriko zirategurwa. Aho kubona ko kwanka ari ukunanirwa, bikwiye gufatwa nk’akaryo ko kwigira ku nyishu, gutunganya uburyo bwo gukora, no gutanga ubundi buryo bwo gutorera umuti ibibazo bishobora gushitsa neza ivyo umugambi ukeneye. Umuryango w’inkomoko yuguruye uratera imbere muri iyo nzira isubiramwo y’ugutanga ivyiyumviro, gusubiramwo no gutunganya ibintu bituma imigambi itera imbere biciye mu nguvu rusangi n’ubuhinga busangiye.
+
+
+
+## Igihugu-Pool ni iki?
+
 <chapterId>b461bf94-4a90-5bb8-ba3f-976d5d57be0d</chapterId>
+
 
 :::video id=d4652496-1ed4-4415-8048-0b6871b9ed51:::
 
-Public Pool represents a revolutionary approach to Bitcoin mining that addresses many of the concerns miners have with traditional mining pools. As a fully open-source solo Bitcoin mining pool, Public Pool fundamentally changes the reward distribution model that miners have become accustomed to. Unlike conventional mining pools where participants share rewards when any miner in the pool finds a block, Public Pool operates on a solo mining principle where individual miners retain 100% of their block rewards when they successfully mine a block.
+Public Pool igereranya uburyo bushasha bwo gukoresha Bitcoin mining bushobora gutorera umuti vyinshi mu bibazo abacukuzi bafise ku bijanye n’ibidengeri vya kera vya mining. Nk’ikidengeri c’umuntu ku giti ciwe Bitcoin mining, Public Pool irahindura cane uburyo bwo gutanga impembo abacukuzi bamenyereye. Udakunze ibidengeri vya mining aho abaje mu nama basangira impembo iyo umucukuzi wese ari muri ico kidengeri abonye ibuye, Public Pool ikora ku ngingo ngenderwako ya mining imwe imwe aho abacukuzi ku giti cabo bagumana 100% vy’impera zabo z’ibuye iyo bacukuye neza ibuye.
 
-The most compelling feature of Public Pool is its zero-fee structure. When miners successfully find a block using Public Pool, they receive the complete block reward along with all associated transaction fees, without any deductions for pool operation costs. This stands in stark contrast to traditional mining pools that typically charge fees ranging from 1-3% of mining rewards. The zero-fee model makes Public Pool particularly attractive for miners who want to maximize their potential returns while maintaining full control over their mining operations.
 
-### The Open Source Advantage and Technical Implementation
+Ikintu giteye umunezero cane kuri Public Pool ni uko idatanga amahera. Iyo abacukuzi bashoboye kuronka ibarabara bakoresheje Public Pool, baronka impembo yose y’ibarabara hamwe n’amahera yose ajanye n’ugucuruza, ata n’imwe ikurwako ku bijanye n’amahera yo gukoresha ibarabara. Ivyo bitandukanye cane n’ibidengeri vya kera vya mining bikunda gusaba amahera kuva kuri 1-3% y’impera za mining. Ico kigereranyo c’amahera ataco amaze gituma Public Pool ikwegera cane cane abacukuzi bashaka gutuma baronka inyungu nyinshi mu gihe baguma bafise ububasha bwose ku bikorwa vyabo vya mining.
 
-Public Pool's commitment to open-source development provides miners with unprecedented transparency and control over their mining operations. The entire codebase is available on GitHub, allowing miners to examine exactly how the software operates, modify it according to their needs, and even contribute to its development. This transparency addresses a significant concern in the mining community regarding the unknown configurations and practices of traditional mining pools.
 
-The software architecture includes both the core mining pool functionality and a separate user interface repository, both of which are freely available for download and modification. Miners can run Public Pool in various configurations, including Docker containers, making it adaptable to different hardware setups and technical preferences. The comprehensive documentation provided in the GitHub repositories offers detailed installation guides, configuration options, and modification instructions, making it accessible to miners with varying levels of technical expertise.
+Kugira ngo utahure ikibanza kidasanzwe ca Public Pool, birahambaye gutahura itandukaniro ry'ishimikiro hagati ya solo mining na pooled mining. True solo mining bisigura ko ucukura wigenga kandi ukaronka impembo yuzuye y’ibarabara (ubu 3.125 BTC + amafaranga) iyo ubonye ibarabara, ariko ubushobozi burahuye n’igipimo cawe ca hash ugereranije n’urubuga rwose—bituma habaho itandukaniro rikomeye cane rishobora gufata amezi canke imyaka hagati y’impera. Ivyuma vya kera bifatanya ububasha bwa hash kugira ngo bironke amabuye kenshi, bigabanye ivyiza bihuye kandi bitanga inyungu idahinduka, ishobora gutegekanirwa. Ku bacukuzi b’amabuye y’agaciro bafise umutungo munini bashizwe mu bikoresho vyo mu nzu no mu biguzi vyo gukoresha, pure solo mining mu bisanzwe ntikora ataco bimaze mu vy’ubuhinga bwa filozofiya—ukuntu bitandukanye bituma hafi bidashoboka kwishura ibiciro vy’amashanyarazi no gusubirana amahera yashizwemwo. Ivyo vy’ubutunzi bisigura ko benshi mu bacukuzi bazohitamwo mining kubera imvo z’amahera. Public Pool ikora nk’ikidengeri ca solo mining, bisobanura ko ukiriho uhanganye n’itandukaniro rya solo mining (uronka impembo gusa iyo wewe ubwawe ubonye ibarabara), ariko wungukira ku bikorwa remezo vy’ikidengeri n’ugukora mu buryo buboneye, ataco utanga.
 
-Connecting to Public Pool requires minimal configuration compared to traditional mining setups. Miners simply need to configure their mining devices with the Stratum connection details and provide their Bitcoin address as the username. An optional worker name can be added after a dot separator for organizational purposes. This streamlined connection process eliminates the need for complex account creation or pool-specific configurations that are common with traditional mining pools.
 
-### Community Features and Sustainability Model
+### Inyungu y'inkomoko yuguruye n'ugushirwa mu ngiro kw'ubuhinga
 
-Public Pool incorporates several innovative features that strengthen the Bitcoin mining community while maintaining its zero-fee operation. The platform displays comprehensive statistics including the total hash rate of connected miners, which typically ranges between 1.5 to 2 petahash, and provides detailed information about connected mining devices. Particularly noteworthy is the platform's emphasis on open-source mining hardware, with devices marked by stars indicating fully open-source designs, complete with links to their respective GitHub repositories.
 
-The sustainability of Public Pool's zero-fee operation relies on a creative affiliate program partnership with mining hardware vendors. When miners purchase equipment from partner companies using the discount code "SOLO," fifty percent of the affiliate earnings support Public Pool's operational costs, while the remaining fifty percent is distributed as rewards to miners who achieve the highest difficulty shares each month. This model creates a symbiotic relationship where miners receive discounts on equipment purchases, vendors gain customers, and Public Pool maintains its operations without charging direct fees.
+Ukwiyemeza kwa Public Pool mu guteza imbere ubuhinga bufunguye guha abacukuzi ubutare n’ukugenzura ibikorwa vyabo vya mining bitagira uko bingana. Ico gice cose c’amakode kiraboneka kuri GitHub, kikaba gituma abacukuzi bashobora gusuzuma neza ingene iyo porogarama ikora, bakayihindura bivanye n’ivyo bakeneye, mbere bakagira ico baterereye mu guteza imbere iyo porogarama. Ukwo guseruka gutorera umuti ikibazo gikomeye mu muryango wa mining ku bijanye n’imiterere n’imigenzo itazwi y’ibidengeri vya kera vya mining.
 
-### Decentralization Philosophy and Best Practices
 
-While Public Pool offers an excellent alternative to traditional mining pools, it's important to understand its role within the broader context of Bitcoin decentralization. The platform serves as a stepping stone toward the ultimate goal of individual miners operating their own mining pools. Running your own mining pool represents the highest level of decentralization, as it eliminates dependence on any third-party infrastructure or software, regardless of how transparent or well-intentioned that third party may be.
+Ubwubatsi bwa porogarama burimwo ibikorwa vy’ishimikiro vya mining pool be n’ububiko bw’ikoreshwa ryitandukanye, vyose bikaba bishobora gukurwa ku buntu no kubihindura. Abacukuzi bashobora gukoresha Public Pool mu mice itandukanye, harimwo n’ibikoresho vya Docker, bikaba bituma ishobora guhuzwa n’imiterere itandukanye y’ibikoresho n’ivyo umuntu akunda. Ivyanditswe vyose bitangwa mu bubiko bwa GitHub biratanga ubuyobozi burambuye bwo gushiramwo, uburyo bwo gutunganya, n’amabwirizwa yo guhindura, bikaba bituma abacukuzi b’amabuye y’agaciro bafise ubuhinga butandukanye bashobora kubironka.
 
-Public Pool's open-source nature makes it an ideal learning platform for miners who want to understand pool operations before implementing their own solutions. The availability of installation guides for multiple operating systems and the comprehensive documentation provide miners with the knowledge needed to transition from using Public Pool to operating their own mining infrastructure. This educational aspect aligns with Bitcoin's fundamental principles of self-sovereignty and decentralization, empowering individual miners to take complete control of their mining operations while contributing to the overall security and decentralization of the Bitcoin network.
 
-The platform's user interface provides miners with detailed monitoring capabilities, including worker status, hash rate statistics, and performance metrics. These features help miners optimize their operations while learning about pool management principles that they can later apply to their own mining pool implementations.
+Gufatanya na Public Pool bisaba gutunganya bike cane ugereranyije n’ugutunganya kwa kera kwa mining. Abacukuzi barakeneye gusa gutunganya ibikoresho vyabo vya mining n’amakuru y’ihuriro rya Stratum maze bagatanga aderesi yabo ya Bitcoin nk’izina ry’ukoresha. Izina ry'umukozi ry'ubusa rishobora kwongerwa inyuma y'itandukaniro ry'utudomo ku ntumbero z'imitunganirize.
 
-## How to install Public-Pool on Umbrel
+
+### Ibirango vy'abanyagihugu n'akarorero k'ubuzima buramba
+
+
+Public Pool ishiramwo ibintu bishasha vyinshi bikomeza umuryango wa Bitcoin mining mu gihe uguma ukora ata mahera. Iryo koraniro ryerekana imibare yuzuye harimwo n’igipimo cose c’abacukuzi b’amabuye y’agaciro bahuye, cari hagati ya 1 na 2 PetaHash ku segonda mu 2024 no ku 40 PH/s mu kwezi kwa 11 2025, kandi ritanga amakuru arambuye yerekeye ibikoresho vya mining bihuye. Ikintu gihambaye cane ni uko urubuga rushimika ku bikoresho vy’inkomoko yuguruye mining, n’ibikoresho vyerekanwa n’inyenyeri vyerekana imiterere y’inkomoko yuguruye yuzuye, yuzuye amahuza ku bubiko bwavyo bwa GitHub.
+
+
+Ugukomera kw’ibikorwa vya Public Pool bitagira amahera bishingiye ku bufatanye bwa porogarama y’abafatanyabikorwa n’abagurisha ibikoresho vya mining. Iyo abacukuzi baguze ibikoresho mu masosiyete abafatanyabikorwa bakoresheje kode y'igabanya ry'ibiciro "SOLO", mirongo itanu kw'ijana vy'amahera abafatanyabikorwa baronka birafasha mu gutanga amafaranga y'ibikorwa vya Public Pool, mu gihe ibice mirongo itanu kw'ijana bisigaye bigabanywa nk'impera ku bacukuzi bashika ku migabane myinshi y'ingorane buri kwezi. Ico kigereranyo kirema ubucuti bw’ubumwe aho abacukuzi baronka ibiciro bigabanywa ku bikoresho bagura, abagurisha bagaronka abakiriya, Public Pool na yo igakomeza ibikorwa vyayo ataco isaba.
+
+
+### Filozofiya yo kwegereza ubutegetsi ubutegetsi n'imigenzo myiza
+
+
+Naho Public Pool itanga uburyo bwiza cane bwo gusubirira ibidengeri vya kera vya mining, birahambaye gutahura uruhara rwavyo mu rwego rwagutse rwo kwegereza ubutegetsi Bitcoin. Ico kibanza gikora nk’intambwe yo gushika ku ntumbero nyamukuru y’abacukuzi b’amabuye y’agaciro ku giti cabo bakoresha ibidengeri vyabo bwite vy’amabuye y’agaciro bita mining. Gukoresha ikigega cawe bwite ca mining bigereranya urugero rwo hejuru rwo kwegereza ubutegetsi abaturage, kuko bikuraho kwizigira ibikorwa remezo canke porogarama z’uwundi muntu, utitaye ku kuntu uwo muntu yoba agaragara canke afise intumbero nziza.
+
+
+Kubera ko Public Pool ifise ubuhinga bwo gufungura, bituma iba urubuga rwiza rwo kwigirako abacukuzi bashaka gutahura ibikorwa vy’amazi imbere y’uko bashira mu ngiro inyishu zabo bwite. Kuba hariho uburongozi bwo gushiramwo ubuhinga bwinshi bwo gukoresha n’inyandiko zitomoye bituma abacukuzi b’amabuye y’agaciro bagira ubumenyi bukenewe kugira ngo bave mu gukoresha Public Pool baje mu gukoresha ibikorwa remezo vyabo bwite vya mining. Uwo muce w’inyigisho uhuye n’ingingo ngenderwako z’ishimikiro za Bitcoin z’ukwigenga no kwegereza ubutegetsi, bikaba biha ububasha abacukuzi ku giti cabo bwo kugenzura neza ibikorwa vyabo vya mining mu gihe bagira ico baterereye ku mutekano rusangi no kwegereza ubutegetsi urusobe rwa Bitcoin.
+
+
+Igikoresho c’abakoresha urubuga gitanga abacukuzi ubushobozi bwo kugenzura mu buryo burambuye, harimwo n’ingene abakozi bameze, imibare y’igipimo c’ama hash, n’ibipimo vy’ibikorwa. Ivyo bifasha abacukuzi gukora neza ibikorwa vyabo mu gihe biga ingingo ngenderwako zo gucunga amazi bashobora gukoresha mu nyuma mu gushirwa mu ngiro kw’amazi yabo bwite mining.
+
+
+## Uko woshiraho Public-Pool ku Mutaka
+
 <chapterId>7f6d0307-7715-5581-89ea-f13cf8754f9a</chapterId>
+
 
 :::video id=3a4fe0a9-bbf5-458a-8ec1-52c3b83afd87:::
 
-Running your own Bitcoin mining pool at home has become increasingly accessible with modern hardware and simplified software solutions. This chapter explores the practical implementation of a home-based public pool using affordable mini PC hardware and streamlined node management software. By the end of this guide, you'll understand the hardware requirements, software setup process, and basic configuration needed to establish your own mining pool infrastructure.
+Gukoresha ikidengeri cawe ca Bitcoin mining muhira vyaciye bigenda birashoboka cane kubera ibikoresho vya none be n’imiti yoroshe. Iki gice kiratohoza ugushirwa mu ngiro kw’ikidengeri ca bose co mu rugo hakoreshejwe ibikoresho vya mini PC bishoboka be n’ubuhinga bwo gucunga neza amanode. Mu mpera z’iyi nkuru, uzotahura ibisabwa ku bikoresho, uburyo bwo gutegura porogarama, n’imiterere y’ishimikiro ikenewe kugira ngo ushireho ibikorwa remezo vyawe vy’ikidengeri ca mining.
 
-### Hardware Requirements and Setup
 
-The foundation of any home mining pool setup begins with selecting appropriate hardware that balances performance, cost, and energy efficiency. A mini PC represents an ideal solution for this application, offering sufficient processing power while maintaining a compact footprint and reasonable power consumption. The recommended configuration includes an Intel N100 processor, which provides adequate computational resources for pool operations, paired with at least one terabyte of NVMe storage to accommodate the Bitcoin blockchain and associated data.
+### Ibisabwa ku bikoresho n'ugutegura
 
-The storage requirement is particularly critical since running a mining pool necessitates maintaining a fully synchronized Bitcoin node. The one terabyte NVMe drive ensures fast read/write operations essential for blockchain synchronization and ongoing transaction processing. Additionally, sufficient RAM allocation supports smooth operation of both the underlying Linux operating system and the node management software that will coordinate pool activities.
 
-### Software Architecture and Node Management
+Umushinge w’inzu iyo ari yo yose mining pool setup utangura no guhitamwo ibikoresho bikwiye bihuza ubushobozi, igiciro, n’ugukoresha neza inguvu. PC ntoyi iserukira umuti mwiza w’iyi porogarama, itanga ubushobozi buhagije bwo gukora mu gihe iguma ifise ikirenge gikomeye kandi ikoresha ubushobozi bubereye. Ivyo bikoresho vyemewe birimwo umurongo wa Intel N100, utanga ubuhinga buhagije bwo gukoresha ubuhinga bwa pool, ukaba ufatanijwe n’ububiko bwa NVMe n’imiburiburi terabyte imwe kugira ngo ushobore kwakira Bitcoin blockchain n’amakuru ajanye.
 
-The software stack for a home mining pool builds upon a Linux foundation, providing the stability and security necessary for cryptocurrency operations. On top of this base system, specialized node management software like Umbrel creates an intuitive interface for managing Bitcoin infrastructure. This approach abstracts much of the complexity traditionally associated with running Bitcoin nodes, making pool operation accessible to users without extensive technical backgrounds.
 
-Umbrel serves as a comprehensive node management platform that handles Bitcoin Core installation, synchronization, and ongoing maintenance through a web-based interface. The platform's app store model allows for easy installation of additional services, including mining pool software, through simple point-and-click operations. This architecture ensures that users can focus on pool operation rather than system administration, while still maintaining full control over their Bitcoin infrastructure.
+Igisabwa co kubika ni ikintu gihambaye cane kuko gukoresha ikidengeri ca mining bisaba ko umuntu aguma afise uruzitiro rwa Bitcoin rukoranye neza. Igikoresho kimwe ca NVMe gikora neza gusoma/kwandika vyihuta bihambaye ku bijanye n’uguhuza blockchain no gukora ibikorwa vy’ubudandaji. Ikindi, gutanga RAM ihagije birafasha mu gukora neza kw’imirongo y’ibikorwa ya Linux n’ivy’ubuhinga bwo gucunga node bizohuza ibikorwa vy’ibarabara.
 
-### Public Pool Installation and Configuration
 
-Installing public pool software through the Umbrel platform demonstrates the streamlined nature of modern Bitcoin infrastructure deployment. The process begins with accessing the Umbrel app store through the web interface, where a simple search for "public pool" reveals the available mining pool software. Installation requires only a few clicks: selecting the application, confirming installation, and waiting for the automated setup process to complete.
+### Ubwubatsi bwa porogaramu n'uburongozi bw'imirongo
 
-The installation process automatically configures the necessary connections between the public pool software and the underlying Bitcoin node. This integration ensures that the pool can validate transactions, construct block templates, and distribute work to connected miners without requiring manual configuration of complex networking parameters. Once installation completes, the pool interface becomes immediately accessible through the local network, providing real-time monitoring and management capabilities.
 
-### Connecting Miners and Network Considerations
+Ivyuma vy’amaporogarama vy’inzu mining vyubatswe ku mushinge wa Linux, bitanga ugushikama n’umutekano bikenewe ku bikorwa vya Bitcoin. Hejuru y’iyi sisitemu y’ishimikiro, porogarama yihariye yo gucunga amanode nka Umbrel irema interface yoroshe yo gucunga ibikorwa remezo vya Bitcoin. Ubu buryo burakuraho vyinshi mu bigoranye vyari bisanzwe bifitaniye isano n’ugukoresha ama node ya Bitcoin, bikaba bituma gukoresha pool bishikira abakoresha batagira ubumenyi bwinshi mu vy’ubuhinga.
 
-Connecting mining hardware to your newly established pool requires configuring the miner's pool settings to point to your local infrastructure. This involves replacing the default pool address with your local IP address and the appropriate port number assigned during the public pool installation. The configuration change redirects your mining hardware's computational efforts from external pools to your home-based infrastructure, allowing you to retain full control over mining operations and potential rewards.
 
-Network configuration plays a crucial role in pool accessibility and functionality. Local network setup typically involves standard IP addressing, but users may encounter variations in DNS resolution depending on their router configuration. Some routers provide local DNS services that create friendly names for local services, while others require direct IP address access. For broader accessibility beyond the local network, port forwarding configuration on the router may be necessary, though this introduces additional security considerations that require careful evaluation of the associated risks and benefits.
+Umbrel ikora nk’urubuga rwo gucunga node rwuzuye rukorana n’ugushiraho Bitcoin Core, guhuza, no gukomeza gucungera biciye ku rubuga rushingiye ku rubuga. Ico kigereranyo c’iduka ry’amaporogarama ry’iyi nzira kiremesha gushiramwo mu buryo bworoshe ibindi bikorwa, harimwo n’ubuhinga bwa mining pool, biciye mu bikorwa vyoroshe vy’ugukanda. Iyi nyubakwa ituma abakoresha bashobora kwibanda ku bikorwa vy’amazi aho kwibanda ku burongozi bwa sisitemu, mu gihe baguma bafise ububasha bwose ku bikorwa remezo vyabo vya Bitcoin.
 
-The successful establishment of a home mining pool represents a significant step toward decentralized Bitcoin infrastructure, providing both educational value and practical mining capabilities while maintaining complete control over your cryptocurrency operations.
 
-# Hardware Assembly and Troubleshooting
+### Gushiramwo no gutunganya ikidengeri ca bose
+
+
+Gushiramwo porogarama y’amazi ya bose biciye ku rubuga rwa Umbrel vyerekana uburyo bwo gukoresha ibikorwa remezo vya Bitcoin vy’ubu. Ivyo bitangura no gushika ku bubiko bwa Umbrel app store biciye ku rubuga, aho gushaka "public pool" bigaragaza porogarama ya mining pool iriho. Gushiramwo bisaba gusa gukanda bikeyi: guhitamwo porogarama, kwemeza ko yashizwemwo, no kurindira ko igikorwa co gushiramwo ibintu vy’ubuhinga bwa none kirangira.
+
+
+Ivyo bikoresho bica bihindura amasano akenewe hagati ya porogarama y’amazi ya bose n’uruzitiro rwa Bitcoin ruri munsi yayo. Ivyo bituma iyo pool ishobora kwemeza ibikorwa, kwubaka ibigereranyo vy’amabuye, no gutanga ibikorwa ku bacukuzi bahuye ataco bisaba guhindura n’amaboko ibipimo vy’uruja n’uruza bikomeye. Igihe gushiramwo, interface y’ikidengeri ica ishobora gushikwako ubwo nyene biciye ku rubuga rw’aho hantu, igatanga ubushobozi bwo kugenzura no gucunga mu gihe nyaco.
+
+
+### Guhuza abacukuzi n'ivy'urubuga
+
+
+Guhuza ibikoresho vya mining n’ikidengeri cawe gishasha bisaba gutunganya imiterere y’ikidengeri c’umucukuzi kugira ngo yerekane ibikorwa remezo vyo mu karere kawe. Ivyo birimwo gusubirira aderesi y’ibarabara ry’ibarabara n’aderesi IP yawe yo mu karere n’inomero y’ibarabara ibereye yatanzwe mu gihe co gushiramwo ibarabara rya bose. Ihinduka ry’imiterere rihindura utwigoro tw’ubuhinga bwa mining tuva ku bidengeri vyo hanze tukaja ku bikorwa remezo vyawe vyo muhira, bikagufasha kuguma ugenzura neza ibikorwa vya mining n’ivyiza bishobora gushikako.
+
+
+Itunganywa ry’urubuga rifise uruhara runini mu gushikira no gukora neza. Gutegura urubuga rwo mu karere mu bisanzwe birimwo gukoresha aderesi IP, ariko abakoresha bashobora guhura n’uguhinduka mu gutorera umuti DNS bivanye n’imiterere ya router yabo. Hari ama router atanga ibikorwa vya DNS vyo mu karere bikora amazina y’abagenzi ku bikorwa vyo mu karere, mu gihe ayandi asaba ko umuntu ashobora gushika ku aderesi IP ataco akora. Kugira ngo umuntu ashobore gushikira abantu benshi hanze y’urubuga rwo mu karere, gutunganya ivy’ugurungika amakuru ku rubuga rwo gukoresha bishobora kuba ngombwa, naho ivyo bishobora gutuma habaho ibindi bintu vy’umutekano bisaba gusuzuma neza ingorane n’ivyiza bijana.
+
+
+Gushinga neza ikidengeri co mu nzu ca mining bigereranya intambwe ikomeye mu bijanye n’ibikorwa remezo vya Bitcoin vyegerejwe, bitanga agaciro k’inyigisho n’ubushobozi bukora bwa mining mu gihe uguma ugenzura neza ibikorwa vyawe vya Bitcoin.
+
+
+# Ikoraniro ry'ibikoresho n'ugutorera umuti ingorane
+
 <partId>f6987088-5ba4-52e2-b2d0-aa122080940c</partId>
 
-## What tools to use?
+
+## Ni ibikoresho ibihe twokoresha?
+
 <chapterId>733935b5-0171-5a22-838c-e192df6f7ccf</chapterId>
+
 
 :::video id=bddd0e47-7b43-4685-ba2e-bf3a8ff653c9:::
 
-In the world of surface-mount device (SMD) soldering, particularly when working with Bitaxe projects, having the right tools makes the difference between frustration and success. This comprehensive guide covers the essential equipment needed to tackle SMD soldering projects effectively, from basic hand tools to specialized equipment that will elevate your soldering capabilities.
-
-### Basic Hand Tools and Precision Instruments
-
-The foundation of any SMD soldering setup begins with quality tweezers, which serve as your primary component placement tools. Two types of tweezers prove most valuable in this work: standard straight-tip tweezers and those with a slight bend at the tip. The straight-tip variety handles most SMD components found in typical Bitaxe kits, while the bent-tip tweezers excel when working with extremely small components that require precise positioning. These tools often come included with repair kits, such as iFixit sets designed for phone repairs, making them readily accessible to most hobbyists.
-
-Complementing the tweezers, a good pair of scissors becomes indispensable for cutting electrical tape, which serves multiple purposes in electronics projects. Electrical tape provides essential insulation for cables and components, and having quality tape readily available streamlines the soldering process. These basic supplies can be sourced from hardware stores or online retailers without requiring specialized electronics suppliers.
-
-### Solder Paste Application and Management
-
-The application of solder paste represents one of the most critical aspects of SMD soldering, and the right tools make this process both accurate and enjoyable. Small, non-sharp syringes filled with solder paste provide exceptional control over paste placement. This method allows for precise application of the exact amount of solder paste needed for each joint, and most people quickly develop the proper technique for controlling pressure and flow rate through hands-on practice.
-
-The choice of solder paste itself significantly impacts soldering success. ChipQuik TS391SNL50 stands out as an exceptional solder paste for Bitaxe projects and general SMD work. This paste maintains proper consistency and melting characteristics, avoiding the problems associated with cheaper alternatives that have excessively low melting points. Low-quality solder pastes can create issues where previously soldered joints become fluid again when heating adjacent areas, leading to component displacement and poor connections. While quality solder paste represents a higher initial investment, the improved results and reduced frustration justify the expense.
-
-### Problem-Solving and Cleanup Tools
-
-Even experienced solderers encounter issues that require correction, making desoldering equipment essential for any complete toolkit. A desoldering rig, essentially a heated vacuum tool, removes excess solder and corrects bridged connections between component pins. These tools work most effectively when combined with flux, which improves solder flow and helps the desoldering process work more efficiently.
-
-Flux comes in various forms, including solid and liquid varieties, and serves multiple purposes beyond desoldering assistance. When solder paste begins to lose its effectiveness during extended work sessions, applying additional flux restores proper flow characteristics and ensures reliable connections. A small spoon-like tool, often found in precision repair kits, facilitates accurate flux application to specific areas without contaminating surrounding components.
-
-Board cleanup represents the final step in professional-quality work, requiring isopropanol alcohol and a dedicated cleaning brush. An old toothbrush works perfectly for this purpose, and a squeeze bottle containing isopropanol allows controlled application of cleaning solution. This combination removes flux residue and paste remnants, leaving boards with a clean, professional appearance that also facilitates inspection of solder joints.
-
-### Specialized Equipment and Advanced Tools
-
-For projects involving complex integrated circuits, particularly ASICs, stencils transform the soldering process from tedious hand-placement to efficient, accurate paste application. These precision-cut templates ensure consistent paste thickness and placement, dramatically reducing the time required for complex components while improving reliability. The investment in quality stencils pays dividends in both time savings and improved results.
-
-Thermal management becomes crucial when working with power components, making thermal paste or thermal grease essential supplies. These materials ensure proper heat transfer between heat sinks and integrated circuits, preventing thermal damage and ensuring reliable operation. Quality thermal interface materials represent a small investment that protects much more expensive components.
-
-The heart of any SMD soldering setup is the hot air rework station, which provides the controlled heat necessary for surface-mount work. While budget stations in the $30-50 range can perform adequately, they often lack the reliability and precision of higher-end equipment. These entry-level stations typically operate effectively at 355°C and include automatic temperature reduction when the handpiece is returned to its holder. However, their reliability can be inconsistent, with some units failing prematurely. For serious work, investing in higher-quality equipment from specialized electronics suppliers provides better long-term value through improved reliability and more precise temperature control.
-
-The combination of these tools creates a complete SMD soldering capability that extends far beyond Bitaxe projects to general electronics work. Understanding each tool's role and selecting quality equipment appropriate to your skill level and project requirements ensures successful outcomes and an enjoyable soldering experience.
+Mu isi y’ugutera ivyuma ku ruhande (SMD), cane cane iyo ukorana n’imigambi ya Bitaxe, kugira ibikoresho bikwiye biratuma habaho itandukaniro hagati y’ugucika intege n’uguterimbere. Iyi nkuru yuzuye ivuga ku bikoresho vy’ingenzi bikenewe kugira ngo ushobore guhangana n’imigambi yo gutera SMD neza, kuva ku bikoresho vy’ishimikiro vy’amaboko gushika ku bikoresho vyihariye bizoduza ubushobozi bwawe bwo gutera.
 
 
-## Fix solder issues
+Niba ushaka kwerekeza ku nyandiko zimwe zimwe zijanye n'imirongo, reba iyi [GitHub repo](https://github.com/skot/bitaxe-doc/igiti/igikuru).
+
+
+### Ibikoresho vy'ishimikiro vy'amaboko n'ibikoresho vy'ukuri
+
+
+Umushinge w’ivyo bikoresho vyose vyo gutera SMD utangura n’ibikoresho vy’ubuhinga, bikora nk’ibikoresho vyawe vy’intango vyo gushiramwo ibihimba. Ubwoko bubiri bw’ibikoresho vy’ugupima buragaragaza ko ari ngirakamaro cane muri ico gikorwa: ibikoresho vy’ugupima bimenyerewe bifise umutwe ugororotse be n’ivyo bifise umutwe ugoramye gatoyi. Ubwoko bw’amahembe agororotse burakorana n’ibihimba vyinshi vya SMD biboneka mu bikoresho vya Bitaxe bisanzwe, mu gihe ivyuma bifise amahembe apfutse bikora neza cane iyo bikorana n’ibihimba bitobito cane bisaba gushirwa ahantu habereye. Ivyo bikoresho akenshi bizanana n’ibikoresho vyo gusanura, nk’ibikoresho vy’iFixit vyagenewe gusanura telefone, bikaba bituma abantu benshi bakunda ivyo kwisamaza bashobora kubironka bitagoranye.
+
+
+Kubera ko umukasi mwiza ushobora gucapura, umukasi mwiza uba uwukenewe cane mu gucapura umugozi w’amashanyarazi, ukaba ukoreshwa mu bintu vyinshi mu migambi y’ivy’ubuhinga bwa none. Ivyuma vy’umuyagankuba biratanga uburinzi buhambaye ku nsinga n’ibihimba vyavyo, kandi kugira ivyuma vyiza biboneka bitagoranye biratuma igikorwa co gutera umuyagankuba kigenda neza. Ivyo bikoresho vy’ishimikiro bishobora kuronswa mu maduka y’ibikoresho vy’ubuhinga bwa none canke mu maduka yo kuri Internet ataco bisaba abahinga mu vy’ubuhinga bwa none.
+
+
+### Gukoresha n'uburongozi bwa Solder Paste
+
+
+Gukoresha umunyu w’ivyuma bigereranya kimwe mu bintu bihambaye cane vyo gutera ivyuma bita SMD, kandi ibikoresho bikwiye bituma iyo nzira iba nziza kandi iryoshe. Inshinge ntoyi zidasongoye zuzuye amavuta y’ivyuma zitanga ubugenzuzi budasanzwe ku bijanye no gushiramwo amavuta. Ubwo buryo buratuma umuntu ashobora gukoresha neza igitigiri nyaco c’umunyu w’ivyuma bikenewe ku ntugu imwe imwe, kandi abantu benshi barihuta gutegura ubuhinga bukwiye bwo kugenzura umukazo n’urugero rw’amazi agenda biciye ku kwimenyereza.
+
+
+Guhitamwo umuti wo gutera ubwawo biragira ingaruka nyinshi ku kuroranirwa kw’ugutera. ChipQuik TS391SNL50 igaragara nk’umuti w’ivyuma udasanzwe ku migambi ya Bitaxe n’ibikorwa rusangi vya SMD. Iryo pasta riguma rimeze neza kandi rikaba rifise akaranga ko gushonga, rikagira ingorane zijanye n’ibindi bikoresho bihenda cane bifise ubushobozi bwo gushonga buke cane. Amapaste y’ugusoda y’agaciro gatoyi arashobora gutuma haba ibibazo aho amajosi yari yarasozwe mbere yongera guhinduka amazi igihe asusurutsa ahantu hafi, bikaba bituma ibihimba biva aho bihuriye n’uguhuza nabi. Naho umuti w’ugusodera w’agaciro ugereranya ishoramari ryinshi ry’intango, ivyiza bivamwo be n’ukugabanya intuntu biratuma umuntu akoresha amahera menshi.
+
+
+### Ibikoresho vyo gutorera umuti ingorane no gusukura
+
+
+Mbere n’abasoda bazi utuntu n’utundi barahura n’ingorane zisaba gukosorwa, ivyo bikaba bituma ibikoresho vyo gusodera biba ngirakamaro ku gikoresho ico ari co cose cuzuye. Igikoresho co gukuraho ivyuma, mu vy’ukuri ni igikoresho gishushe, kirakuraho ivyuma birenze urugero maze kigakosora amasano ari hagati y’ibihimba vy’umubiri. Ivyo bikoresho birakora neza cane iyo bifatanijwe n’umuyagankuba, ivyo bikaba bituma umuyagankuba ugenda neza kandi bikaba bifasha igikorwa co gukuraho umuyagankuba gukora neza.
+
+
+Flux iza mu buryo butandukanye, harimwo ubwoko bukomeye n’ubw’amazi, kandi ikora intumbero nyinshi zirenze gufasha gukuraho ivyuma. Iyo umunyu w’ivyuma utanguye gutakaza ubushobozi bwawo mu kiringo c’akazi kirekire, gukoresha ivyuma vy’inyongera birasubizaho ibiranga ivyuma bikwiye kandi bikaba bituma habaho amasano yizigirwa. Igikoresho gitoyi kimeze nk’ikiyiko, akenshi kiboneka mu bikoresho vyo gusanura neza, kirafasha gukoresha neza umuyagankuba mu bibanza bimwebimwe ata kwanduza ibihimba bikikije.
+
+
+Gusukura urubaho bigereranya intambwe ya nyuma mu gikorwa c’ubuhinga, bisaba inzoga ya isopropanol n’uburoso bwo gusukura bwihariye. Igikoresho co gusukura amenyo ca kera kirakora neza cane ku bw’iyo ntumbero, kandi icapa co gufyonda kirimwo isopropanol kiratuma umuntu ashobora gukoresha umuti wo gusukura mu buryo bugenzuwe. Ivyo bivanze bikuraho ibisigarira vy’amazi n’ibisigazwa vy’amazi, bikasiga imbaho ​​zifise ishusho isukuye kandi igaragara nk’iy’umwuga, ivyo bikaba bituma kandi umuntu ashobora gusuzuma aho amasoderi ahuriye.
+
+
+### Ibikoresho vyihariye n'ibikoresho vy'imbere
+
+
+Ku migambi ijana n’imirongo ikomeye, canecane ASIC, ama stencils arahindura uburyo bwo gutera amabuye kuva ku gushiramwo amaboko arambiranye gushika ku gukoresha neza kandi ataco bihinduye. Ivyo bigereranyo vy’ugucapura neza bituma uburemere bw’impuzu n’aho bishirwa bimeze neza, bikagabanya cane igihe gikenewe kugira ngo ibihimba bikomeye bibeho mu gihe bituma umuntu ashobora kwizigirwa. Ivyo gushiramwo amafaranga mu ma stencil y’uburyo bwiza biratanga inyungu mu kuzigama umwanya no mu gutuma umuntu agira ibisubizo vyiza.
+
+
+Ugucungera ubushuhe bica biba ikintu gihambaye cane iyo ukorana n’ibihimba vy’ububasha, bikaba bituma umunyu w’ubushuhe canke amavuta y’ubushuhe biba ibikoresho vy’ingenzi. Ivyo bikoresho bituma ubushuhe bugenda neza hagati y’ibikoresho bifata ubushuhe n’ibikoresho bifata ubushuhe, bikaba bituma ubushuhe butashobora kwonona kandi bikaba bikora neza. Ivyo bikoresho vy’ubushuhe vyiza bigereranya ishoramari ritoyi rikingiye ibihimba bizimvye cane.
+
+
+Umutima w’imiterere yose y’ugutera SMD ni ikibanza co gusubiramwo umuyaga ushushe, kikaba ari co gitanga ubushuhe bugenzurwa bukenewe ku bikorwa vyo gutera hejuru. Naho ama stations y’ingengo y’imari ari hagati y’amadolari 30-50 ashobora gukora neza, akenshi ntashobora kwizigirwa no gukora neza nk’ibikoresho vy’agaciro kanini. Ivyo bikoresho vy’imbere mu nzu bikora neza cane ku bushuhe bwa 355°C kandi birimwo no kugabanya ubushuhe iyo igikoresho co mu ntoke kigarutse aho gifise. Ariko rero, ukwizigirwa kwavyo kurashobora kuba kudahuye, aho amayunite amwe amwe ashobora gusenyuka imbere y’igihe. Ku bikorwa bikomeye, gushiramwo ibikoresho vy’agaciro kanini biva ku bacuruzi b’ibikoresho vy’ubuhinga bwa none bitanga agaciro keza k’igihe kirekire biciye mu kwizigirwa neza no kugenzura neza ubushuhe.
+
+
+Ivyo bikoresho bihurikiye hamwe bituma haba ubushobozi bwo gutera SMD bushitse burengeye kure imigambi ya Bitaxe gushika ku bikorwa rusangi vy’ubuhinga bwa none. Gutahura uruhara rw’igikoresho cose no guhitamwo ibikoresho vyiza bihuye n’urugero rw’ubuhinga bwawe n’ibisabwa mu mugambi bituma uronka ingaruka nziza kandi ukagira ubumenyi bushimishije bwo gusodera.
+
+
+
+## Gutorera umuti ibibazo vy'ugusoda
+
 <chapterId>96663744-b4f7-5154-930f-a68ba7954603</chapterId>
+
 
 :::video id=9286c0dc-acd6-44d9-b34e-59cfb2da9748:::
 
 
-The Bitaxe transceiver kit presents unique challenges during assembly that require careful attention to component orientation, solder bridge prevention, and proper heat management. Understanding these common issues and their solutions is essential for successful kit construction and avoiding costly component damage. This chapter examines the most frequent soldering problems encountered during Bitaxe assembly and provides practical techniques for identifying and resolving them.
+Igikoresho co kwakira amajwi ca Bitaxe kiratanga ingorane zidasanzwe mu gihe co gukoranya ibintu bisaba kwitwararika cane ukuntu ibihimba vy’umubiri biteye, kwirinda ikiraro c’ivyuma, no gucungera neza ubushuhe. Gutahura ivyo bibazo rusangi n’ingene bitorwa umuti ni ngombwa kugira ngo umuntu ashobore kwubaka neza ibikoresho no kwirinda kwonona ibihimba vy’umubiri bizimvye. Iki gice kirasuzuma ingorane zikunda gushika mu gihe c’iteraniro rya Bitaxe kandi kigatanga ubuhinga ngirakamaro bwo kuzimenya no kuzitorera umuti.
 
-### Component Orientation and Identification
 
-Proper component orientation represents one of the most critical aspects of successful Bitaxe assembly, particularly with MOSFETs Q1 and Q2. These components feature distinctive orientation markers that must be carefully observed during installation. Each MOSFET contains a small dot marking that corresponds to specific pad arrangements on the circuit board. The key to correct orientation lies in understanding the physical structure of these components, which feature four pins arranged with one large pad and three smaller pads that have no connection to the large pad.
+### Ivyiyumviro vy'ibice n'ukubimenya
 
-When installing Q1 and Q2, examine both the component and the circuit board carefully. The board layout clearly shows the intended orientation through its pad configuration, with four pins positioned to match the MOSFET structure. Before soldering any large component, always verify orientation by comparing the component's physical markers with the board's pad arrangement. This simple verification step prevents the frustration of desoldering and reinstalling incorrectly oriented components.
 
-The consequences of incorrect orientation extend beyond simple functionality issues. Wrongly oriented MOSFETs can create circuit malfunctions that are difficult to diagnose and may require complete component replacement. Taking time to verify orientation before applying heat ensures proper circuit operation and prevents unnecessary troubleshooting later in the assembly process.
+Ivyerekeye neza ibice bigereranya kimwe mu bintu bihambaye cane vyo gukoranya Bitaxe, cane cane na MOSFETs Q1 na Q2. Ivyo bihimba birafise ibimenyetso bidasanzwe vy’aho umuntu ari bitegerezwa kwihwezwa neza igihe ariko arabishiramwo. MOSFET yose irimwo akadomo gatoyi gahuye n’imiterere yihariye y’ibipande biri ku rubaho rw’umurongo. Urufunguruzo rwo gukosora aho umuntu abona ibintu ni ugutahura ukuntu ivyo bihimba vyubatswe, ivyo bikaba bifise ibipimo bine bitunganijwe n’igipande kimwe kinini be n’ibipande bitatu bitobito bitagira aho bihuriye n’ico gipande kinini.
 
-### Managing Solder Bridges and Excess Solder
 
-Solder bridges represent another common challenge in Bitaxe assembly, particularly around fine-pitch components like U10. These unwanted connections between adjacent pins can cause circuit malfunctions and require careful removal techniques. The most effective approach involves using desoldering wick, a copper braided material that absorbs excess solder when heated. This technique requires patience and proper tool selection to avoid damaging delicate components.
+Igihe ushizeho Q1 na Q2, nusuzume neza igice cose n’uruzitiro rw’umurongo. Igishushanyo c’urubaho kirerekana neza aho gitegekanijwe biciye ku miterere yaco y’ibipande, n’ibipimo bine bishizwe kugira ngo bihure n’imiterere ya MOSFET. Imbere yo gutera igice kinini ico ari co cose, wama ugenzura aho kiri mu kugereranya ibimenyetso vy’umubiri vy’ico gice n’ingene igipande c’urubaho giteye. Iyi ntambwe yoroshe yo kugenzura irabuza gucika intege mu gukuraho ivyuma no gusubira gushiramwo ibihimba bitari vyo.
 
-When addressing solder bridges on integrated circuits, employ a third-hand tool to securely hold the component while working. Apply gentle heat to the affected area and carefully draw the desoldering wick across the bridged connections. The copper braid naturally absorbs the excess solder, separating the unwanted connections. This process may require multiple attempts, but persistence yields clean, properly separated connections.
 
-Prevention remains the best approach to solder bridge management. Using appropriate amounts of solder paste and maintaining steady hand control during component placement significantly reduces bridge formation. When bridges do occur, address them immediately rather than hoping they won't affect circuit operation. Even seemingly minor bridges can cause significant functionality problems that are difficult to diagnose once the board is fully assembled.
+Inkurikizi z’ugutahura nabi zirarenga ibibazo vy’imikorere vyoroshe. MOSFETs zifise ubuhinga butari bwo zirashobora gutuma habaho ukudakora neza kw’imirongo bigoye kumenya kandi bishobora gusaba ko bisubirizwa ibihimba vyose. Gufata umwanya wo kugenzura aho ibintu biri imbere yo gukoresha ubushuhe biratuma umurongo ukora neza kandi bikabuza gutorera umuti ingorane zidakenewe mu nyuma mu gihe c’iteraniro.
 
-### Critical Components and Special Considerations
 
-The buck converter U9 deserves particular attention due to its critical role in converting 5 volts to 1.2 volts for the ASIC chip. This component presents unique challenges due to its five small connections and tendency toward failure. Proper installation requires precise solder paste application and careful heat management. Insufficient solder paste under U9 can result in poor connections that prevent proper voltage conversion, while excess paste can create bridges that cause circuit malfunction.
+### Gucungera ibiraro vy'amabuye y'agaciro n'amabuye y'agaciro arengeje urugero
 
-U9 produces distinctive audio signatures when experiencing solder bridge issues, generating high-frequency noise that differs from normal ASIC operation. This auditory diagnostic technique can help identify problems, though it requires good high-frequency hearing to detect. When audio diagnosis isn't possible, visual inspection becomes essential. Examine all connections carefully, looking for bridges or insufficient solder coverage.
 
-If U9 fails to output the required 1.2 volts despite appearing properly soldered, consider insufficient solder paste as the likely cause. Remove the component, apply a small amount of additional solder paste, and reinstall. In cases where individual pins lack adequate solder coverage, carefully apply small amounts of solder paste to specific locations using tweezers. The solder paste will naturally flow under the component when heated, creating proper connections through capillary action.
+Ibiraro vy'amabuye y'agaciro bigereranya ikindi kibazo gisanzwe mu gukoranya Bitaxe, cane cane hirya no hino y'ibihimba vy'ijwi ryiza nka U10. Ivyo bihuza bidakenewe hagati y’ibipimo bifatanye birashobora gutuma umurongo w’amashanyarazi udakora neza kandi bisaba ubuhinga bwo kubikuraho witonze. Uburyo bwiza kuruta ubundi bwose ni ugukoresha umuriro wo gukuraho ivyuma, ni ukuvuga ikintu gipfutse n’umuringa kinywa ivyuma birenze urugero iyo bishushe. Ubwo buryo busaba ukwihangana no guhitamwo neza ibikoresho kugira ngo umuntu ntiyononekare ibihimba bikomeye.
 
-### Heat Management and Component Protection
 
-Proper heat management protects sensitive components from thermal damage while ensuring reliable solder joints. Components like the crystal oscillator Y1 and U1 are particularly sensitive to prolonged heat exposure and require careful temperature control. Maintain soldering iron temperature at 350 degrees Celsius, but minimize heat application time to prevent component damage. Quick, efficient soldering techniques protect these sensitive components while achieving reliable connections.
+Igihe uvuga ibiraro vy’amabuye y’agaciro ku mirongo y’ivyuma, ukoreshe igikoresho co gufata PCB canke igikoresho co gufata neza igihimba igihe uriko urakora. Siga ubushuhe buyoroshe ahantu hakozweko maze ukwegere witonze umuriro wo gukuraho ivyuma ku bihuza vy’ikiraro. Ico gipfukisho c’umuringa kiranywa mu buryo busanzwe ivyuma birenze urugero, kigatandukanya amasano adakenewe. Ivyo bishobora gusaba ko umuntu agerageza kenshi, mugabo gushikama bituma haba amasano asukuye kandi atandukanye neza.
 
-The ASIC chip requires special handling techniques due to its complex pin structure and sensitivity to mechanical stress. When using stencils for solder paste application, ensure even coverage across all pins to prevent uneven component seating. If excessive solder paste causes the ASIC to sit unevenly, allow the assembly to cool completely before making corrections. Apply gentle pressure only to the component's labeled edges, never to the central die area, while reheating to achieve proper seating.
 
-Component U8 presents unique challenges due to its numerous pins and potential for bent leads. When pins become bent during handling, use a third-hand tool to secure the component and carefully straighten the affected pins. Work slowly and patiently to avoid breaking the delicate leads. Understanding that certain pin groups on U8 are internally connected can simplify troubleshooting, as bridges between these specific pins don't affect circuit operation. However, bridges between other pins require careful removal to ensure proper functionality.
+Gukingira biguma ari uburyo bwiza bwo gucunga ikiraro c’amabuye y’agaciro. Gukoresha ingano zibereye z’umuti w’ivyuma no kuguma ugenzura neza ukuboko mu gihe co gushiramwo ibihimba biragabanya cane uguhingura ikiraro. Igihe ibiraro bishitse, uvyiteho ubwo nyene aho kwizigira ko bitazogira ico bikoze ku migenderanire y’umurongo. Mbere n’ibiraro bisa n’ibitobito birashobora gutuma haba ingorane zikomeye z’imikorere zigoye kumenya iyo urubaho rumaze gukoranywa neza.
 
-## How to debug your Bitaxe using AxeOS
+
+### Ibice bihambaye n'ibintu bidasanzwe vyo kwitwararika
+
+
+Igihindura amafaranga U9 gikwiriye kwitwararikwa cane kubera uruhara ruhambaye gifise mu guhindura ama volts 5 ngo abe 1.2 volts ku gice ca ASIC. Ico gice kiratanga ingorane zidasanzwe kubera amasano mato mato atanu gifise be n’ukuntu gikunda kunanirwa. Gushiramwo neza bisaba gukoresha neza amavuta y'ivyuma no gucungera neza ubushuhe. Igikoresho co gutera ivyuma kidahagije kiri munsi ya U9 gishobora gutuma habaho amahuzu mabi abuza guhindura neza umuriro, mu gihe ivyuma birenze urugero bishobora gutuma haba ibiraro bituma umurongo w’amashanyarazi udakora neza.
+
+
+U9 itanga imikono y’amajwi idasanzwe iyo ishikiwe n’ingorane z’ikiraro c’ivyuma, itanga urusaku rw’incuro nyinshi rutandukanye n’ugukora kwa ASIC gusanzwe. Ubwo buryo bwo gupima indwara bukoresheje ugutwi burashobora gufasha kumenya ingorane, naho nyene bisaba kwumva neza incuro nyinshi kugira ngo umuntu abimenye. Iyo isuzuma ry’amajwi ridashoboka, isuzuma ry’amaso riba ari ngirakamaro. Suzuma neza amahuza yose, urondere ibiraro canke ibipfukisho vy’ivyuma bidahagije.
+
+
+Iyo U9 inaniwe gutanga ama volts 1,2 asabwa naho isa n’iyiteye neza, urabe ko ata n’imwe ihagije ari yo ishobora kuba ari yo yatumye. Kura ico gice, ushireko agace gatoyi k’inyongera k’umunyu w’ivyuma, hanyuma wongere ugishiremwo. Mu bihe aho amapine umwumwe wese adafise igipfukisho gihagije c’ivyuma, ushireko witonze utugingo ngengabuzima dutoduto tw’ivyuma ku bibanza bimwebimwe ukoresheje amapinse. Ivyo bizotuma habaho uguhuza neza biciye ku gikorwa c’imitsi.
+
+
+### Ugucungera ubushuhe n'uburinzi bw'ibice
+
+
+Ugucungera neza ubushuhe birakingira ibihimba bikomeye kugira ngo ntivyononekare bitewe n’ubushuhe mu gihe bituma habaho amajosi yizigirwa. Ibintu nk’ivyo bita crystal oscillator Y1 na U1 birakunda cane gushikirwa n’ubushuhe igihe kirekire kandi bisaba ko umuntu agenzura neza ubushuhe. Gumana ubushuhe bw’icuma co gutera ivyuma ku bushuhe bwa degre 350, ariko ugabanye igihe co gukoresha ubushuhe kugira ngo ibihimba ntivyononeke. Ubuhinga bwo gutera amabuye bwihuta kandi bukora neza burakingira ivyo bihimba bikomeye mu gihe bushika ku guhuza kwizigirwa.
+
+
+Igikoresho ca ASIC gisaba ubuhinga budasanzwe bwo kugikoresha kubera ubuhinga bwaco buteye igomwe kandi gishobora gushikirwa n’imibabaro y’ubuhinga. Igihe ukoresha ama stencils yo gukoresha amavuta y’ivyuma, urabe ko ata n’umwe apfutse ku bipimo vyose kugira ngo ntube ufise ivyicaro bitaringaniye. Nimba umunyu w’ivyuma vy’ivyuma birenze urugero utuma ASIC yicara mu buryo butaringaniye, reka ikoraniro rikone neza imbere y’uko ukosora. Gukoresha umukazo mutoyi gusa ku mpande z’ico gice zifise ikimenyetso, ntukigere ukoresha ahantu hagati, mu gihe uriko urasubira gushusha kugira ngo ushikire aho wicara neza.
+
+
+Igice ca U8 kiratanga ingorane zidasanzwe kubera amapine menshi gifise be n’ubushobozi bwo gukoresha amabara apfutse. Iyo amapine apfutse mu gihe co gukoresha, koresha igikoresho co gufata PCB canke igikoresho co gufata amapine kugira ngo ukingire ico gice maze ugorore neza amapine yakozweko. Kora buhoro buhoro kandi wihangane kugira ngo wirinde guca imirongo y’ivyuma igoye. Gutahura ko imigwi imwe imwe y’amapin kuri U8 ihuriye imbere birashobora kworohereza gutorera umuti ingorane, kuko ibiraro biri hagati y’izo pin zihariye ntibigira ico bikoze ku mikorere y’umurongo. Ariko rero, ibiraro biri hagati y’ibindi bipimo bisaba ko bikurwaho vyitondewe kugira ngo bikore neza.
+
+
+## Uko wokosora Bitaxe yawe ukoresheje AxeOS
+
 <chapterId>603f5c0d-4b7c-51e1-9bad-318a8b8e9db7</chapterId>
+
 :::video id=d23d748b-510e-4748-9617-b875da757031:::
 
-When working with Bitaxe mining devices, hardware failures can manifest in various ways that may not be immediately obvious. Understanding how to systematically diagnose these issues using the AxeOS operating system can save significant time and prevent unnecessary component replacements. This chapter explores the diagnostic techniques and troubleshooting methodologies that experienced technicians use to identify specific hardware problems through software analysis.
+Igihe ukorana n’ibikoresho vya Bitaxe mining, ukunanirwa kw’ibikoresho birashobora kwigaragaza mu buryo butandukanye bishobora kutaboneka ubwo nyene. Gutahura ingene umuntu yosuzuma ivyo bibazo mu buryo butunganye akoresheje ubuhinga bwa AxeOS birashobora kuzigama umwanya munini no gukingira gusubirira ibihimba bidakenewe. Iki gice kiratohoza ubuhinga bwo gupima n’uburyo bwo gutorera umuti ingorane abahinga bazi utuntu n’utundi bakoresha kugira ngo bamenye ingorane zidasanzwe z’ibikoresho biciye mu gusesangura porogarama.
 
-### Understanding Power Consumption Indicators
 
-The first and most critical diagnostic indicator in AxeOS is power consumption monitoring. Normal Bitaxe devices, including the Bitaxe Ultra and Bitaxe Supra models, typically consume between 10 to 17 watts during standard operation. This baseline measurement serves as your primary health indicator for the entire system. When power consumption drops significantly below this range, particularly below 3 watts, it signals a fundamental problem with the ASIC chip or its supporting circuitry.
+### Gutahura ibimenyetso vy'ugukoresha amashanyarazi
 
-Low power consumption scenarios require immediate attention because they indicate that the mining chip is either completely non-functional or operating in a severely degraded state. This measurement alone can help you quickly differentiate between performance issues and complete hardware failures. The power reading in AxeOS provides real-time feedback that allows you to monitor the effectiveness of any repair attempts you make to the device.
 
-### Analyzing ASIC Voltage Measurements
+Ikimenyetso ca mbere kandi gihambaye cane co gupima indwara muri AxeOS ni ugukurikirana ingene amashanyarazi akoreshwa. Ivyuma bisanzwe vya Bitaxe, harimwo n’ivya Bitaxe Ultra na Bitaxe Supra, bikoresha amashanyarazi ari hagati ya 10 na 17 mu gihe bikoreshwa mu buryo busanzwe. Iyi ngero y’intango ikora nk’ikimenyetso cawe ca mbere c’ubuzima ku bijanye n’urutonde rwose. Iyo ubushobozi bukoreshwa bugabanutse cane munsi y’ivyo, cane cane munsi ya 3 watts, bigaragaza ingorane y’ishimikiro ku gice ca ASIC canke ku gice gifasha.
 
-The ASIC voltage measurement feature in AxeOS provides crucial diagnostic information that helps pinpoint the exact nature of hardware problems. When examining voltage readings, you need to understand the relationship between measured voltage and requested voltage to properly diagnose issues. The system displays both the voltage being delivered to the ASIC chip and the voltage that the chip is requesting from the power management system.
 
-When you observe an ASIC voltage measurement of exactly 1.2 volts combined with power consumption below 3 watts, this specific combination indicates either a soldering problem with the ASIC chip or a completely failed ASIC. This voltage reading suggests that power is reaching the chip location, but the chip itself is not functioning properly. Physical inspection of the ASIC die can reveal cracks or other visible damage that would explain this behavior pattern.
+Ivyerekeye ugukoresha amashanyarazi make bisaba ko umuntu ahita avyitaho kubera ko vyerekana ko igice ca mining kitakora rwose canke ko gikora mu buryo bwasenyutse cane. Iyi ngero yonyene irashobora kugufasha gutandukanya ningoga hagati y’ibibazo vy’imikorere n’ugusenyuka kw’ibikoresho. Igisomwa c’ububasha muri AxeOS kiratanga inyishu mu gihe nyaco kigufasha kugenzura ubushobozi bw’ivyo ugerageza gusanura igikoresho vyose.
 
-A different diagnostic scenario emerges when you see low power consumption paired with very low requested voltage readings, such as 100 millivolts or 0.5 volts. This pattern indicates that the ASIC chip is not receiving adequate voltage supply, which typically points to problems with the U9 buck converter component. The buck converter is responsible for providing the precise voltage regulation that ASIC chips require for proper operation.
 
-### Interpreting Log Data and ASIC Communication
+### Gusuzuma ingero z'umuriro ASIC
 
-The AxeOS logging system provides valuable insight into whether your ASIC chip is communicating with the control system. When you access the logs through the "show logs" function, the presence of "ASIC results" entries confirms that the chip is not only powered but also actively processing work and returning results. This communication indicates that the ASIC is properly soldered and maintaining its connection to the control circuitry.
 
-The absence of ASIC results in the logs, particularly when combined with other symptoms, helps narrow down the problem to specific components or connection issues. This diagnostic approach allows you to distinguish between chips that are completely non-responsive and those that may have intermittent connection problems. The log analysis becomes particularly valuable when troubleshooting complex issues where multiple symptoms might suggest different root causes.
+Igikoresho co gupima umuriro ASIC muri AxeOS kiratanga amakuru ahambaye yo gupima afasha kumenya neza kamere nyayo y’ingorane z’ibikoresho. Igihe usuzuma ibisomwa vy’umuriro, urakeneye gutahura isano riri hagati y’umuriro ugereranijwe n’umuriro usabwa kugira ngo ushobore gusuzuma neza ibibazo. Ico gikoresho kigaragaza umuriro uriko urashikirizwa igice ca ASIC be n’umuriro ico gice gisaba ku gikoresho co gucunga ubushobozi.
 
-### Systematic Troubleshooting Approach
 
-When diagnosing Bitaxe hardware issues, following a systematic approach prevents overlooking critical problems and ensures efficient repair processes. Begin by documenting the power consumption and voltage readings, then correlate these measurements with the log data to build a complete picture of the system's behavior. This methodical approach helps identify whether problems stem from the ASIC chip itself, the power delivery system, or the communication pathways between components.
+Iyo ubonye ingero y’umuriro wa ASIC y’ama volts 1,2 nyene ifatanijwe n’inguvu zikoreshwa munsi y’ama watts 3, iyo nzira yihariye yerekana ko hari ingorane yo gutera umuriro ku gice ca ASIC canke ko ASIC yananiwe rwose. Ivyo bisomwa vy’umuriro vyerekana ko ububasha buriko burashika aho iyo chip iri, ariko iyo chip ubwayo ntiriko irakora neza. Gusuzuma umubiri w’urupfu rwa ASIC birashobora kwerekana imivyimba canke ibindi bintu bibonetse vyoshobora gusigura iyo nyifato.
 
-For cases where the U9 buck converter appears to be the problem, physical inspection and potential resoldering may be necessary. The U9 component is particularly susceptible to soldering issues, especially in first-time assembly situations. When voltage regulation problems are suspected, using a multimeter to verify that 1.2 volts is actually present at the ASIC pins provides definitive confirmation of power delivery issues. If voltage is present at the pins but the ASIC still doesn't function, and physical inspection reveals no damage, replacing the ASIC chip becomes the next logical step. Should problems persist even after ASIC replacement, the U2 component, which drives the ASIC chip, may require attention as the final element in the troubleshooting sequence.
 
-## How to debug using USB?
+Igishushanyo gitandukanye co gupima kigaragara iyo ubonye ugukoresha ubushobozi buke bufatanye n’ibisomwa vy’umuriro usabwa bike cane, nk’imillivolts 100 canke 0,5 volts. Ivyo bigaragaza ko igice ca ASIC kitaronka umuriro uhagije, ivyo bikaba vyerekana ingorane ziri mu gice c’umuhinduzi w’amafaranga U9. Igihindura amafaranga ni co gishinzwe gutanga amategeko nyayo y’umuriro akenewe n’ibice vya ASIC kugira ngo bikore neza.
+
+
+### Gusobanura amakuru y'inyandiko n'itumanaho rya ASIC
+
+
+Uburyo bwo gukora amakuru bwa AxeOS buratanga ubumenyi bw’agaciro ku vyerekeye nimba igice cawe ca ASIC kiriko kiravugana n’uburyo bwo kugenzura. Iyo winjiye ku bitabo biciye ku gikorwa ca "show logs", kubaho kw'ibisubizo vya "ASIC" vyemeza ko iyo chip idafise ubushobozi gusa ariko kandi ikora cane igikorwa no kugarura ibisubizo. Iryo tangazo ryerekana ko ASIC ipfutse neza kandi ko iguma ifatanye n’umurongo w’igenzura.
+
+
+Kubura ASIC bituma habaho ibitabo, cane cane iyo bifatanijwe n’ibindi bimenyetso, bifasha kugabanya ingorane ku bihimba vyihariye canke ibibazo vy’uguhuza. Ubwo buryo bwo gupima buratuma ushobora gutandukanya ibice bitagira ico bikora rwose n’ivyo bishobora kuba bifise ingorane zo gukorana n’ibindi bice. Isesengura ry’inyandiko rigira akamaro cane cane iyo umuntu ariko aratorera umuti ibibazo bikomeye aho ibimenyetso vyinshi bishobora kwerekana imvo zitandukanye.
+
+
+### Uburyo bwo gutorera umuti ingorane
+
+
+Igihe umuntu asuzuma ibibazo vy’ibikoresho vya Bitaxe, gukurikiza uburyo butunganye birabuza kwirengagiza ingorane zikomeye kandi bikaba bituma habaho uburyo bwiza bwo gusanura. Tangana n’ugushira mu nyandiko ubushobozi bukoreshwa n’ibisomwa vy’umuriro, hanyuma uhuze izo ngero n’amakuru y’inyandiko kugira ngo wubake ishusho yuzuye y’inyifato y’urwo rutonde. Ubwo buryo bw’ubuhinga burafasha kumenya nimba ingorane zikomoka ku gice ca ASIC ubwaco, ku buryo bwo gutanga ubushobozi, canke ku nzira zikoreshwa mu guhanahana amakuru hagati y’ibihimba.
+
+
+Ku bihe aho umuhinduzi w’amahera ya U9 asa n’uwutera ingorane, gusuzuma umubiri no gusubira gukora bishobora kuba ngombwa. Igihimba ca U9 kirashobora cane gushikirwa n’ingorane zo gutera, cane cane mu bihe vy’iteraniro rya mbere. Iyo umuntu akekwa ko hari ingorane zo gutunganya umuriro, gukoresha igipimo c’umuriro kugira ngo umenye ko 1,2 volts ziriho vy’ukuri ku bipimo vya ASIC bitanga icemezo c’ukuri c’ibibazo bijanye n’ugutanga umuriro. Iyo umuriro uri ku bipimo ariko ASIC ikaba iguma idakora, kandi iyo umuntu asuzumye ataco yononekaye, gusubirira igice ca ASIC bica biba intambwe ikurikira yumvikana. Iyo ingorane zikomeje mbere n’inyuma yo gusubirizwa ASIC, igice ca U2, kijana igice ca ASIC, coshobora gusaba kwitwararikwa nk’ikintu ca nyuma mu rukurikirane rwo gutorera umuti ingorane.
+
+
+## Ni gute wokora debug ukoresheje USB?
+
 <chapterId>f3182763-e1ef-5460-8bc0-f2ea53e3a410</chapterId>
+
 
 :::video id=fe1b4b48-5f8a-4fd7-9417-ca03a36bce9f:::
 
 
-When troubleshooting Bitaxe mining devices, having direct access to the device's internal logging system provides invaluable insights that web-based interfaces cannot offer. This chapter explores how to establish a direct USB serial connection to your Bitaxe device using the ESP-IDF framework, enabling real-time monitoring of system logs, boot sequences, and error messages. This debugging approach is particularly crucial when dealing with devices that experience frequent reboots or hardware failures, as it captures all diagnostic information that might be lost during system restarts.
+Igihe utorera umuti ingorane z’ibikoresho vya Bitaxe mining, kugira uburenganzira bwo gushika ku buryo butaziguye bwo gukora amakuru y’imbere mu gikoresho bitanga ubumenyi bw’agaciro kanini ibikoresho bishingiye ku rubuga bidashobora gutanga. Iki gice kiratohoza ingene woshinga ubufatanye butaziguye bwa USB n’igikoresho cawe ca Bitaxe ukoresheje ubuhinga bwa ESP-IDF, bikaba bishoboza gukurikirana mu gihe nyaco ibitabo vya sisitemu, urutonde rw’ugutangura, n’ubutumwa bw’amakosa. Ubu buryo bwo gukosora ni ngirakamaro cane cane iyo ukorana n’ibikoresho bikunda gusubira gufungura canke bikunda gukora nabi, kuko bifata amakuru yose yo gupima yoshobora gutakarira mu gihe sisitemu isubira gufungura.
 
-The debugging process requires Visual Studio Code with the ESP-IDF extension, though any compatible IDE can be used. This method works with all Bitaxe variants that include a USB port, including the Bitaxe Ultra 204 and other models in the series. The direct serial connection bypasses potential web interface limitations and provides unfiltered access to the device's internal state information.
 
-### Setting Up Serial Communication
+Uburyo bwo gukosora busaba Visual Studio Code n'ukwaguka kwa ESP-IDF, naho IDE yose ihuye ishobora gukoreshwa. Ubu buryo bukorana n’ibindi bikoresho vyose vya Bitaxe birimwo icuma ca USB, harimwo Bitaxe Ultra 204 n’ibindi bikoresho biri muri iyo nkuru. Ihuriro ry’uruhererekane ry’uruhererekane rirenga imipaka ishobora kuba ku rubuga kandi ritanga uburenganzira bwo gushika ku makuru y’imbere mu gikoresho ataco ayunguruwe.
 
-Establishing communication with your Bitaxe device begins with connecting the USB cable and opening the ESP-IDF terminal within your development environment. The command `idf.py monitor` initiates the connection process, automatically scanning available COM ports to establish UART communication with the ESP32 chip on your Bitaxe device. The system typically cycles through available ports (COM3, COM4, COM16, etc.) until it finds the correct connection.
 
-Once connected, the terminal displays the complete boot sequence and ongoing operational logs. The initial connection process may take several moments as the system identifies the correct communication port. If automatic port detection fails, you can manually specify the COM port through the IDE's port selection interface. This direct communication channel remains active throughout the device's operation, providing continuous access to system diagnostics and performance metrics.
+### Gutegura Uguhanahana Amakuru
 
-### Interpreting Boot Sequence and Normal Operation Logs
 
-The boot sequence provides critical information about your Bitaxe device's hardware configuration and initialization process. Normal startup logs begin with ESP-IDF version information, followed by the distinctive "Welcome to the Bitaxe. Hack the planet" message that confirms successful firmware loading. The system then displays ASIC frequency configuration, device model identification, and board version details.
+Gushinga ubutumwa n’igikoresho cawe ca Bitaxe bitangura no gufatanya umugozi wa USB no gufungura umurongo wa ESP-IDF mu bidukikije vyawe vy’iterambere. Itegeko `idf.py monitor` ritangura igikorwa co guhuza, rihita risuzuma ivyuho vya COM biriho kugira ngo rishingireho ubutumwa bwa UART n’igice ca ESP32 ku gikoresho cawe ca Bitaxe. Ubusanzwe iyo sisitemu izunguruka mu bibanza biriho (COM3, COM4, ​​COM16, n’ibindi) gushika ibonye ihuriro ryiza.
 
-A properly functioning device will show successful I2C initialization and ASIC voltage regulation set to 1.2 volts. The logs display GPIO status information and Wi-Fi initialization sequences, followed by DHCP server configuration and IP address assignment. One of the most crucial indicators is the ASIC chip detection message, which should report "detected one ASIC chip" for a single-chip device. This confirmation validates that the mining hardware is properly connected and communicating with the ESP32 controller.
 
-The operational logs reveal multiple concurrent tasks running on the device, including stratum API communication, main task coordination, ASIC task management, and stratum task processing. These different task identifiers help isolate issues to specific system components. Normal operation includes pool connection establishment, difficulty adjustment messages, job queuing and dequeuing, and nonce generation reporting. Successful mining operations display ASIC results with difficulty calculations and mining submit confirmations when shares meet the required threshold.
+Iyo imaze guhuzwa, iyo terminal yerekana urutonde rw’ibikorwa vyose n’inyandiko z’ibikorwa bibandanya. Inzira y’intango yo guhuza ishobora gutwara ibihe vyinshi uko iyo sisitemu imenya icuma co guhanahana amakuru kibereye. Niba ukumenya icuma kwikora kunanirwa, ushobora gusobanura icuma ca COM biciye ku nzira yo guhitamwo icuma ya IDE. Uwo muhora wo guhanahana amakuru utaziguye uraguma ukora mu kiringo cose igikoresho gikora, ugatuma umuntu ashobora gukomeza kumenya ivy’ugupima ubuhinga n’ugupima ubushobozi.
 
-### Identifying Hardware Failures and Error Patterns
 
-Hardware failures manifest in the logs through specific error patterns that indicate which components are malfunctioning. The most common failure mode involves I2C communication errors with specific integrated circuits on the Bitaxe board. For example, DS4432U communication failures appear as "ESP_ERROR_CHECK failed" messages with timeout indicators, pointing to voltage regulation issues or soldering problems affecting the U10 component responsible for display communication.
+### Gusobanura urutonde rw'ibikorwa n'inyandiko z'imikorere isanzwe
 
-These error messages include detailed debugging information such as the specific source file (main_ds4432u.c), the failing function call, and the processor core handling the task. The backtrace information provides additional context for advanced troubleshooting. Similar error patterns can occur with the EMC2101 temperature and fan control chip, each generating distinctive log signatures that help identify the failing component.
 
-Physical hardware issues often present as repeated error cycles followed by system reboots. If your device produces audible noise during operation, this typically indicates soldering problems such as bridges between component pins or inadequate solder joints. While these mechanical issues may not always generate specific log entries, they create unstable operating conditions that manifest as frequent crashes and restart cycles in the monitoring output.
+Urutonde rw’ugutangura rutanga amakuru ahambaye ku bijanye n’imiterere y’ibikoresho vy’igikoresho cawe ca Bitaxe n’ingene gitangura. Ivyandiko vy'intango bisanzwe bitangura n'amakuru ya verisiyo ya ESP-IDF, hanyuma hakaza ubutumwa budasanzwe "Urakaze muri Bitaxe. Hack the planet" bwemeza ko porogarama y'ubuhinga bwa none yashizwemwo neza. Ico gikoresho gica kigaragaza ingene incuro ASIC zitunganijwe, ukuntu igikoresho kigaragara, be n’ingene igikoresho gikoreshwa.
 
-### Advanced Troubleshooting Strategies
 
-Serial monitoring provides several advantages over web-based debugging interfaces, particularly for intermittent failures or devices experiencing frequent reboots. The continuous log capture ensures that no diagnostic information is lost during system restarts, unlike web interfaces that may lose data during disconnection events. This comprehensive logging capability makes it possible to identify patterns in failures and correlate specific error conditions with hardware or environmental factors.
+Igikoresho gikora neza kizokwerekana ko I2C ishobora gutangura neza be n’uko umurongo w’umuriro wa ASIC ushizwe ku 1,2 volts. Ivyo bitabo vyerekana amakuru yerekeye uko GPIO imeze be n’urutonde rw’intango ya Wi-Fi, hanyuma hakaza ugutunganya server ya DHCP n’ugutanga aderesi IP. Kimwe mu bimenyetso bihambaye cane ni ubutumwa bwo kumenya igice ca ASIC, bukwiye gutanga raporo y'uko "habonetse igice kimwe ca ASIC" ku gikoresho gifise igice kimwe. Ivyo vyemezo vyemeza ko ibikoresho vya mining bihuye neza kandi bivugana n’umugenzuzi wa ESP32.
 
-When analyzing problematic devices, focus on the sequence of events leading to failures rather than isolated error messages. Successful ASIC communication should show regular job processing, nonce generation, and share submission cycles. Missing ASIC results in the logs indicate communication failures between the ESP32 and the mining chip, often caused by power supply issues, damaged traces, or component failures.
 
-For systematic troubleshooting, document error patterns and component-specific failures before seeking community support. The detailed error logs, including specific chip identifiers and failure modes, enable experienced users to provide targeted repair guidance, such as component replacement procedures or soldering corrections. This methodical approach to hardware debugging significantly improves repair success rates and reduces troubleshooting time for complex issues.
+Ivyo bitabo vyerekana ibikorwa vyinshi bikorana kuri ico gikoresho, harimwo n’uguhanahana amakuru ku rwego rwa API, guhuza ibikorwa nyamukuru, gucunga ibikorwa vya ASIC, no gutunganya ibikorwa vyo ku rwego rwa ASIC. Ivyo bimenyetso bitandukanye vy'ibikorwa bifasha gutandukanya ibibazo ku bice vy'urutonde vyihariye. Ibikorwa bisanzwe birimwo gushinga uruja n’uruza rw’amazi, ubutumwa bwo guhindura ingorane, gushiramwo umurongo w’akazi no gukuraho umurongo, no gutanga raporo y’uruvyaro rwa nonce. Ibikorwa vya mining vyiza vyerekana ibisubizo vya ASIC n’imibare igoye kandi mining itanga ivyemezo iyo imigabane ishitse ku rugero rukenewe.
 
-# Advanced Customization
+
+### Kumenya ibikoresho vyananiwe n'imiterere y'amakosa
+
+
+Ivyuma bikora nabi bigaragara mu nyandiko biciye ku makosa yihariye yerekana ibihimba bikora nabi. Uburyo busanzwe bwo kunanirwa bujanye n’amakosa yo guhanahana amakuru I2C n’imirongo yihariye yunze ubumwe ku rubaho rwa Bitaxe. Nk'akarorero, DS4432U guhanahana ivy'itumanaho bigaragara nk'ubutumwa "ESP_ERROR_CHECK bwananiwe" bufise ibimenyetso vy'igihe c'iherezo, vyerekana ibibazo vy'amategeko y'umuriro canke ingorane z'ugusodera zigira ingaruka ku gice ca U10 gishinzwe guhanahana amakuru.
+
+
+Ubu butumwa bw'ikosa burimwo amakuru y'ido n'ido yo gukosora nk'idosiye y'inkomoko yihariye (main_ds4432u.c), uguhamagara kw'ibikorwa bidakora, n'umurongo w'umurongo w'ibikorwa. Amakuru y'inyuma atanga ibindi bimenyetso vyo gutorera umuti ingorane ziteye imbere. Amakosa nk’ayo arashobora gushika ku gikoresho co kugenzura ubushuhe n’umuyaga ca EMC2101, kimwe cose kikaba kizana imikono idasanzwe ifasha kumenya igice kidakora neza.
+
+
+Ibibazo vy’ibikoresho vy’umubiri akenshi bigaragara nk’ingendo z’amakosa zisubirwamwo zikurikirwa n’ugusubira gufungura sisitemu. Iyo igikoresho cawe gitera urusaku rwumvikana mu gihe gikora, ivyo vyerekana ingorane zo gutera nk’ibiraro hagati y’ibipimo vy’ibihimba canke amasonga adakwiriye. Naho ivyo bibazo vy’ubuhinga bishobora kutaguma ari ivyanditswe vy’inyandiko vyihariye vya generate, bituma habaho ibintu bidashikamye bigaragara nk’ugusenyuka kenshi no gusubira gutangura mu gisohoka co kugenzura.
+
+
+### Ingamba ziteye imbere zo gutorera umuti ingorane
+
+
+Gukurikirana urutonde bitanga inyungu nyinshi ku rubuga rwo gukosora, cane cane ku bihe bimwe bimwe canke ibikoresho bisubira gufungura kenshi. Ivyo bimenyetso bikomeza gufata amakuru bituma ata makuru y’isuzuma atakarira mu gihe sisitemu isubira gutangura, bitandukanye n’imirongo y’urubuga ishobora gutakaza amakuru mu gihe c’ibintu vy’uguhagarika. Ubu bushobozi bwo gukora ibiti bushitse buratuma bishoboka kumenya uburyo bwo kunanirwa no guhuza ibintu vy’amakosa vyihariye n’ibikoresho canke ibidukikije.
+
+
+Igihe usesangura ibikoresho bifise ingorane, nushire umutima ku rutonde rw’ibintu bishikana ku kunanirwa aho kwibanda ku butumwa bw’amakosa buri ukwabwo. Imenyekanisha ryiza rya ASIC rikwiye kwerekana ugutunganya akazi ubudasiba, uguhingura nonce, n’ingendo zo gutanga amakuru. Ivyiyumviro vya ASIC bibuze mu bitabo vyerekana ko hariho ukunanirwa kw’itumanaho hagati ya ESP32 n’igice ca mining, akenshi biterwa n’ibibazo vy’amashanyarazi, ibimenyetso vyononekaye, canke ukunanirwa kw’ibihimba.
+
+
+Kugira ngo utore umuti w’ingorane mu buryo butunganye, wandike amakosa n’ibice bimwebimwe bitari vyo imbere yo kurondera infashanyo y’abanyagihugu. Ivyo bitabo vy’amakosa vy’ido n’ido, harimwo n’ibimenyetso vy’ibintu vyihariye be n’uburyo bwo kunanirwa, biratuma abakoresha bazi utuntu n’utundi bashobora gutanga ubuyobozi bushingiye ku ntumbero, nk’uburyo bwo gusubirira ibihimba canke gukosora ivyuma. Ubu buryo bwo gukosora ibikoresho butera imbere cane mu gusanura kandi bugabanura igihe co gutorera umuti ingorane zikomeye.
+
+
+# Guhindura uko ushaka
+
 <partId>8d333102-ecb5-5f05-bfb5-03a27b2d0d70</partId>
 
-## Modify the PCB
+
+## Guhindura PCB
+
 <chapterId>ca08d2a4-2b34-575b-aecc-7482a03c190e</chapterId>
+
 
 :::video id=30fb0010-f560-4e96-a05b-c21dc172746e:::
 
-KiCad represents one of the most powerful open-source tools available for printed circuit board (PCB) design and routing. This professional-grade software enables engineers and hobbyists to create complex electronic designs by placing components on virtual boards and routing the intricate traces that connect these components together. What makes KiCad particularly valuable for educational and development purposes is its complete open-source nature, allowing users to modify, customize, and learn from existing designs without licensing restrictions.
+KiCad igereranya kimwe mu bikoresho bikomeye cane vy’inkomoko yuguruye bishobora gukoreshwa mu guhingura no gucapura (PCB). Iyi porogarama y’ubuhinga iratuma abahinga be n’abakunda gukora ivyo bintu bashobora guhingura ibintu bikomeye vy’ubuhinga bwa none mu gushiramwo ibihimba ku bipande vy’ubuhinga bwa none no gutuma ibimenyetso bikomeye bihuza ivyo bihimba hamwe. Igituma KiCad igira agaciro cane cane mu bijanye n’inyigisho n’iterambere ni uko ikoreshwa mu buryo bushitse, igatuma abayikoresha bashobora guhindura, guhindura uko bashaka, no kwigira ku migero iriho ata n’uruhusha rwo gukoresha.
 
-The BidX project exemplifies the power of open-source hardware development, providing a complete PCB design that users can examine, modify, and customize according to their specific needs. This accessibility creates an excellent learning environment where students and practitioners can explore real-world PCB designs while developing their understanding of electronic systems. The ability to customize visual elements like logos provides an approachable entry point for users who may be intimidated by the technical complexity of electronic design.
 
-### Setting Up Your KiCad Environment
+Umugambi wa Bitaxe utanga akarorero k’ububasha bwo gutegura ibikoresho vy’ubuhinga bwa none, utanga umugambi wuzuye wa PCB abakoresha bashobora gusuzuma, guhindura, no guhindura bivanye n’ivyo bakeneye vyihariye. Ukwo gushikira abantu bituma haba ahantu heza cane ho kwigira aho abanyeshure n’abahinga mu vy’ubuhinga bwa none bashobora gutohoza imiterere y’ibikoresho vya PCB vy’ukuri mu gihe bariko barateza imbere ugutahura kwabo ku bijanye n’ubuhinga bwa none. Ubushobozi bwo guhindura ibintu bigaragara nk’ibimenyetso bitanga ahantu heza ho kwinjira ku bakoresha bashobora guterwa ubwoba n’ubuhinga butoroshe bwo guhingura ibintu vy’ubuhinga bwa none.
 
-Before beginning any customization work, proper setup of your development environment is essential. The BidX repository must be downloaded to your local machine, typically accomplished through GitHub's ZIP download functionality. This repository contains all the necessary project files, including the KiCad project files, component libraries, and design documentation required for successful modification.
 
-KiCad installation should be completed using the official distribution from the KiCad website, ensuring compatibility with the project files and access to the latest features. Once both the repository and KiCad are properly installed, opening the project requires navigating to the BidX Ultra KiCad project file within the downloaded repository structure. This project file serves as the central hub that links all associated design files, component libraries, and configuration settings.
+### Gutegura ibidukikije vyawe vya KiCad
 
-The initial view of a complex PCB design can appear overwhelming, with numerous components, traces, and layers creating a dense visual landscape. However, KiCad's 3D viewer functionality provides an invaluable tool for understanding the physical layout and spatial relationships within the design. This three-dimensional perspective transforms the abstract schematic representation into a realistic visualization of the final manufactured product, making it easier to comprehend component placement and overall design aesthetics.
 
-### Logo Customization Process
+Imbere yo gutangura igikorwa cose co guhindura ibintu, gutegura neza ibidukikije vyawe vy’iterambere ni ngombwa. Ububiko bwa Bitaxe butegerezwa gukurwa ku mashine yawe yo mu karere, mu bisanzwe bushikwako biciye ku mikorere yo gukura ZIP ya GitHub. Ubu bubiko burimwo amadosiye yose akenewe y’umugambi, harimwo amadosiye y’umugambi wa KiCad, amasomero y’ibice, n’inyandiko z’imiterere zikenewe kugira ngo umuntu ashobore guhindura neza.
 
-Customizing logos on PCB designs represents one of the most accessible modifications for users new to KiCad, requiring minimal technical knowledge while providing immediate visual results. The process begins with the image converter tool, which transforms standard image files into footprint formats compatible with PCB design software. This conversion process requires careful attention to sizing parameters, typically measured in millimeters to ensure proper scaling on the final manufactured board.
 
-The image converter workflow involves several critical steps that determine the final appearance and placement of custom logos. Source image selection should prioritize high-contrast designs that will translate well to the silkscreen printing process used in PCB manufacturing. Size specification becomes crucial, as logos must be large enough to remain legible after manufacturing while not interfering with component placement or functionality. The choice between front and back silkscreen layers affects both visibility and manufacturing considerations.
+Gushiramwo KiCad bikwiye kurangira hakoreshejwe ugukwiragiza ku mugaragaro ku rubuga rwa KiCad, kugira ngo bihure n’amadosiye y’umugambi no kuronka ibintu bishasha. Igihe ububiko na KiCad vyose bimaze gushirwaho neza, gufungura umugambi bisaba kuja muri dosiye y’umugambi wa Bitaxe Ultra KiCad iri mu miterere y’ububiko bwakuweko. Iyi dosiye y'umugambi ikora nk'inzira nyamukuru ihuza amadosiye yose y'imiterere, amasomero y'ibice, n'imiterere y'imiterere.
 
-Footprint library management represents a fundamental aspect of KiCad customization, requiring users to understand how the software organizes and accesses design elements. Adding custom logos involves creating new footprint libraries or modifying existing ones, then properly linking these libraries within the project structure. This process ensures that custom elements remain accessible across different design sessions and can be easily shared with other team members or collaborators.
 
-### Advanced Design Exploration and Understanding
+Ivyo umuntu abona mu ntango vy’umubumbe w’ibintu bikomeye cane bita PCB birashobora gusa n’ibirengeye urugero, bifise ibihimba vyinshi, ibimenyetso be n’ibice vyinshi bituma umuntu abona ibintu vyinshi. Ariko rero, ubuhinga bwa KiCad bwo kuraba 3D buratanga igikoresho c’agaciro kanini co gutahura ukuntu ibintu vyifashe be n’imigenderanire iri hagati y’ivyo bikoresho. Ivyo bipimo bitatu bihindura igishushanyo c’ibintu bitaboneka bikagira igishushanyo c’ukuri c’igicuruzwa ca nyuma gikozwe, bigatuma vyoroha gutahura ukuntu ibihimba bishirwa be n’ubwiza bw’igishushanyo muri rusangi.
 
-Beyond simple logo customization, KiCad provides powerful tools for exploring and understanding complex PCB designs. The layer management system allows users to selectively view different aspects of the design, from component placement and routing to manufacturing specifications and assembly information. This layered approach enables detailed analysis of specific design elements without visual clutter from unrelated components.
 
-Trace routing analysis represents one of the most educational aspects of PCB exploration, revealing how electrical connections flow between components and subsystems. By following individual traces or groups of related signals, users can develop understanding of circuit functionality and design decisions. For example, examining power distribution networks reveals how voltage regulation and filtering components work together to provide clean, stable power to sensitive electronic components.
+### Uburyo bwo guhindura ikimenyetso
 
-The relationship between schematic design and physical layout becomes apparent through careful examination of component placement and routing decisions. Understanding why specific components are positioned in particular locations, how thermal considerations influence layout decisions, and how signal integrity requirements drive routing choices provides valuable insights into professional PCB design practices. This knowledge proves invaluable for users developing their own designs or modifying existing ones for specific applications.
 
-KiCad's comprehensive design rule checking and verification tools ensure that modifications maintain electrical and manufacturing compatibility. These automated systems help prevent common design errors while educating users about industry standards and best practices. The integration of 3D visualization with electrical design data creates a powerful learning environment where theoretical concepts become tangible through visual representation and interactive exploration.
+Guhindura ibimenyetso ku migero ya PCB bigereranya kimwe mu bihinduka bishobora gushikwako cane ku bakoresha bashasha muri KiCad, bisaba ubumenyi bukeyi bw’ubuhinga mu gihe bitanga ibisubizo vy’amaso vyihuta. Ivyo bitangurana n’igikoresho co guhindura amashusho, gihindura amadosiye y’amashusho asanzwe mu mice y’ibirenge ihuye n’ubuhinga bwo guhingura PCB. Ivyo bihindura bisaba kwitwararika cane ibipimo vy’ingero, mu bisanzwe bipimwa mu milimetero kugira ngo umuntu ashobore gupima neza ku rubaho rwa nyuma rwakozwe.
 
-## How to create a factory file?
+
+Ivyo guhindura ishusho birimwo intambwe nyinshi zihambaye zigena ukuntu ibimenyetso vy’abantu bizoboneka be n’ingene bizoshirwa. Guhitamwo ishusho y’inkomoko bikwiye gushira imbere imigero itandukanye cane izohindura neza uburyo bwo gucapura bukoreshwa mu guhingura PCB. Gusobanura ubunini bica biba ikintu gihambaye cane, kuko ibimenyetso bitegerezwa kuba binini bihagije kugira ngo bigume bisomwa inyuma yo gukorwa mu gihe bitabangamira ugushiramwo ibihimba canke ugukora. Guhitamwo hagati y’imbere n’inyuma y’ibipande vy’ubudodo biragira ico bikoze ku kubona no ku bijanye n’uguhingura.
+
+
+Uburongozi bw’ibitabo vy’ibirenge bugereranya umuce w’ishimikiro wo guhindura KiCad, bisaba abakoresha gutahura ingene porogarama itunganya no gushika ku bintu vy’imiterere. Kwongera ibimenyetso vy’abantu birimwo guhingura amasomero mashasha canke guhindura ayasanzweho, hanyuma ugahuza neza ayo masomero mu mibumbe y’umugambi. Iyi nzira ituma ibintu bimenyerewe biguma bishikira mu bihe bitandukanye vyo guhingura kandi bishobora gusangizwa n’abandi bagize umugwi canke abafatanyabikorwa.
+
+
+### Ugushakashaka no gutahura imigambi iteye imbere
+
+
+Uretse guhindura ikimenyetso gisanzwe, KiCad itanga ibikoresho bikomeye vyo gutohoza no gutahura imigero igoranye ya PCB. Uburyo bwo gucunga ibice buratuma abakoresha bashobora guhitamwo kuraba imice itandukanye y’umugambi, kuva ku gushiramwo ibihimba no ku nzira gushika ku mirongo y’uguhingura n’amakuru y’iteraniro. Ubwo buryo bushingiye ku bice buratuma umuntu ashobora gusuzuma mu buryo burambuye ibintu vyihariye vy’umubumbe ata n’ibintu bitari vyo biva ku bihimba bitagira isano.
+
+
+Isesengura ry’inzira y’ugukurikirana rigereranya kimwe mu bintu vyigisha cane mu gutohoza PCB, rihishura ingene amasano y’amashanyarazi agenda hagati y’ibihimba n’ibice bitobito. Mu gukurikira ibimenyetso vy’umuntu ku giti ciwe canke imigwi y’ibimenyetso bifitaniye isano, abakoresha barashobora gutera imbere mu gutahura imikorere y’umurongo n’ingingo zo guhingura. Nk’akarorero, gusuzuma imirongo y’ugukwiragiza amashanyarazi birerekana ingene ibihimba bigenzura amashanyarazi be n’ibihimba bicungera amashanyarazi bikorana kugira ngo bihe amashanyarazi asukuye kandi adahinduka ku bihimba vy’ubuhinga bwa elegitoronike bifise ubushobozi bwo gukora.
+
+
+Isano riri hagati y’uguhingura igishushanyo n’uguhingura ibintu bigaragara biciye mu gusuzuma neza ukuntu ibihimba bishirwa be n’ingingo zifatwa ku bijanye n’inzira. Gutahura igituma ibihimba vyihariye bishirwa ahantu kanaka, ingene ivyerekeye ubushuhe bigira ico bikoze ku ngingo zifatwa ku bijanye n’imiterere, be n’ingene ibisabwa mu bijanye n’ubutungane bw’ikimenyetso bituma umuntu ahitamwo inzira, biratanga ubumenyi bw’agaciro ku migenzo y’ubuhinga yo guhingura PCB. Ubwo bumenyi buragaragaza ko ari ngirakamaro cane ku bakoresha bariko barategura imigero yabo bwite canke bagahindura iyo bariho kugira ngo bakoreshe mu bikorwa vyihariye.
+
+
+Ibikoresho vya KiCad vyo gusuzuma no kugenzura amategeko y’imiterere y’ibintu vyose bituma ivyo bihinduwe biguma bihuye n’amashanyarazi n’ivyo gukora. Izo nzira zikora zifasha gukingira amakosa asanzwe yo guhingura ibintu mu gihe zigisha abazikoresha ivyerekeye ingingo mfatirwako z’inganda be n’ingene zikora neza. Ugushiramwo ivyerekanwa mu buryo bwa 3D n’amakuru y’imiterere y’amashanyarazi bituma haba ikibanza gikomeye co kwigiramwo aho ivyiyumviro vy’inyigisho bica bigaragara biciye mu guserukira amashusho n’ugutohoza mu buryo bukorana.
+
+
+## Ni gute wokora dosiye y’uruganda?
+
 <chapterId>e9da631c-e6d1-50c1-bb59-bc8455c29d3e</chapterId>
+
 
 :::video id=07f980bf-6052-4ed4-bf7b-75e8aba585df:::
 
-Building custom firmware for ESP-based mining devices requires careful attention to configuration, dependencies, and the proper build process. This comprehensive guide walks through the complete process of creating both standard firmware binaries and factory files that include pre-configured settings, making deployment more efficient and reducing setup time for end users.
+Kubaka porogarama y’ibikoresho vy’ubuhinga bwa none vy’ibikoresho vya mining bishingiye kuri ESP bisaba kwitwararika cane imiterere, ivyo bishingiyeko, n’uburyo bwiza bwo kwubaka. Iyi nzira yuzuye igenda mu nzira yose yo kurema amadosiye y’uruganda arimwo amasetingi yatunganijwe imbere y’igihe, bituma gukoresha bigenda neza kandi bikagabanya igihe co gutegura ku bakoresha.
 
-### Setting Up the Development Environment
 
-The foundation of successful ESP-Miner firmware development begins with establishing the proper development environment in Visual Studio Code. The ESP-IDF extension serves as the cornerstone of this setup, providing the necessary tools and framework integration for ESP32 development. When installing the ESP-IDF extension for the first time, users encounter a setup guide that facilitates the configuration process.
+Zirikana ko iki gice ari ic’ubuhinga kandi ko ushobora kugisoma nimba ushaka kumenya vyinshi.
 
-A critical consideration in the setup process involves selecting the appropriate ESP-IDF version. While version 5.1.3 was previously recommended, practical experience has revealed that this version can cause build issues that complicate the development process. The recommended approach now involves using ESP-IDF version 5.3 Beta 1, which has proven to resolve these building complications and ensures that Bitaxe devices function properly. The installation process requires selecting the Express installation option and specifically choosing version 5.3 Beta 1 from the available options.
 
-The development environment setup extends beyond the ESP-IDF installation to include proper terminal configuration. Visual Studio Code provides multiple methods for accessing ESP-IDF functionality, including the command palette option to open an ESP-IDF terminal or using the dedicated terminal icon located in the interface. This specialized terminal environment ensures that all ESP-IDF commands function correctly and provides access to the complete toolchain.
+### Gutegura ibidukikije vy'iterambere
 
-### Configuring the ESP-Miner Settings
 
-The configuration file represents the heart of the ESP-Miner customization process, containing all the essential parameters that define how the device will operate in its target environment. This configuration encompasses network settings, mining pool connections, and hardware-specific parameters that must be tailored to the specific deployment scenario.
+Kugira ngo utangure gutegura porogarama za ESP-Miner, ushobora gushinga ahantu heza ho gutegura muri Visual Studio Code, vyiza cane ku bijanye n’ugukwiragiza kwa linux. Ukwaguka kwa ESP-IDF ni kwo gukora nk’ibuye ry’imfuruka ry’iyi nzira, ritanga ibikoresho bikenewe n’ugushiramwo inzego z’iterambere rya ESP32. Igihe ushizeho ESP-IDF extension ku ncuro ya mbere, abakoresha bahura n’uburongozi bwo gutegura bworosha igikorwa co gutunganya.
 
-Network configuration forms the primary component of the setup process, requiring the specification of Wi-Fi credentials including the SSID and password. Rather than using placeholder values like "test," production configurations should include the actual network credentials that the device will use in its operational environment. The configuration also accommodates various mining pool setups, supporting both private pool configurations with specific IP addresses and public pools like public-pool.io with their corresponding port settings.
 
-Mining-specific configuration parameters include the stratum user setting, which typically corresponds to the Bitcoin address where mining rewards should be directed. Additional hardware parameters such as frequency settings, voltage configurations, and ASIC type specifications must align with the target hardware platform. The GitHub repository provides pre-configured examples for different hardware variants, such as the BM1368 configuration designed for Super devices and BM1366 settings for Ultra variants. Board version specifications, such as setting the port version to 401 for newer hardware revisions, ensure compatibility with the target device's specific characteristics.
+Iciyumviro gihambaye mu bijanye no gutegura ni uguhitamwo verisiyo ya ESP-IDF ibereye. Naho verisiyo 5.1.3 yari yarasabwe mbere, ubumenyi ngirakamaro bwagaragaje ko iyo verisiyo ishobora gutuma haba ibibazo vyo kwubaka bigorana mu bijanye n’iterambere. Uburyo bushimikijwe ubu ni ugukoresha ESP-IDF version 5.3 Beta 1, ikaba yerekanye ko itorera umuti izo ngorane zo kwubaka kandi igatuma ibikoresho vya Bitaxe bikora neza. Ivyo gushiramwo bisaba guhitamwo uburyo bwo gushiramwo Express no guhitamwo canecane verisiyo 5.3 Beta 1 mu mahitamwo ariho.
 
-### Building the Web Interface and Core Firmware
 
-The ESP-Miner project incorporates a sophisticated web interface that requires separate compilation before the main firmware build process can commence. This web interface, referred to as the XOS firmware, provides users with a comprehensive management interface for monitoring and controlling their mining devices.
+Ivyerekeye ibidukikije vy’iterambere birarenga ivy’ugushiraho ESP-IDF kugira ngo bishiremwo ugutunganya neza kw’iherezo. Visual Studio Code itanga uburyo bwinshi bwo gushika ku mikorere ya ESP-IDF, harimwo n’uburyo bwo gufungura umurongo wa ESP-IDF canke gukoresha ikimenyetso c’umurongo wihariye kiri mu nzira. Ivyo bidukikije vy’iherezo vy’umwihariko bituma amabwirizwa yose ya ESP-IDF akora neza kandi bitanga uburyo bwo gushika ku ruhererekane rw’ibikoresho rwose.
 
-The web interface build process begins by navigating to the HTTP server directory within the main repository structure, specifically the XOS subdirectory. This location contains the Node.js-based web application that requires dependency installation through the npm install command. The build system assumes that Node.js is properly installed on the development system, as this represents a fundamental requirement for the web interface compilation process.
 
-Following the dependency installation, the npm run build command compiles the web interface components, creating the necessary files that will be embedded into the ESP32 firmware. This compilation process generates optimized web assets that provide the user interface functionality while maintaining efficient memory usage on the constrained ESP32 platform. The successful completion of this build step is essential before proceeding to the main firmware compilation, as the ESP-Miner firmware incorporates these web interface components as integral functionality.
+### Gutunganya amategeko ya ESP-Miner
 
-### Creating Factory Files with Embedded Configuration
 
-The creation of factory files represents an advanced deployment strategy that embeds configuration settings directly into the firmware binary, eliminating the need for manual configuration during device setup. This approach proves particularly valuable for large-scale deployments or situations where consistent configuration across multiple devices is essential.
+Dosiye y’imiterere igereranya umutima w’igikorwa co guhindura ESP-Miner, irimwo ibintu vyose vy’ingenzi bisobanura ingene igikoresho kizokorera mu bidukikije bigenewe. Iyi ntunganyo irimwo imiterere y’urubuga, amahuza y’ibidengeri vya mining, n’imirongo yihariye y’ibikoresho bitegerezwa guhuzwa n’ivyo gukoresha.
 
-The factory file creation process begins with generating a configuration binary from the CSV configuration file using the ESP-IDF's NVS partition generator tool. This tool, located within the ESP-IDF components directory under nvs-flash/nvs-partition-generator, converts the human-readable configuration into a binary format suitable for direct flash memory storage. The nvs-partition-gen.py script processes the config.csv file and generates a config.binary file that targets the 0x6000 memory address space.
 
-The final assembly of factory files utilizes specialized merge scripts that combine the core firmware binaries with the configuration data. The repository provides multiple merge options, including a standard merge script for basic factory files and a configuration-inclusive merge script for comprehensive factory files. The merge-bin-with-config.sh script creates factory files that include both the firmware functionality and the pre-configured settings, resulting in a complete deployment package. This approach enables the creation of device-specific factory files, such as versions tailored for Bitaxe Ultra devices with specific board revisions, while maintaining the flexibility to generate generic factory files without embedded configurations for scenarios requiring manual setup flexibility.
+Itunganywa ry’urubuga ni ryo ry’intango ry’igikorwa co gutunganya, risaba gusobanura ivyemezo vya Wi-Fi harimwo SSID n’ijambobanga. Aho gukoresha agaciro k'ibibanza nka "ikigeragezo," imiterere y'ibikorwa ikwiye kubamwo ivyemezo vy'urubuga nyavyo igikoresho kizokoresha mu bidukikije vyaco. Iryo koraniro kandi rishobora kwakira imiterere itandukanye y’ibidengeri vya mining, rishigikira imiterere y’ibidengeri vy’abantu ku giti cabo n’amaderesi ya IP yihariye be n’ibidengeri vya bose nka public-pool.io n’imiterere y’ibidengeri vyavyo bihuye.
 
-The completed factory files provide deployment teams with ready-to-flash binaries that include all necessary firmware components and configuration settings, streamlining the device provisioning process and ensuring consistent operational parameters across deployed mining devices.
 
-## How to use the Bitaxe Web Flasher ?
+Mining-ivyihariye vy'imiterere y'imiterere birimwo imiterere y'umukoresha w'umurongo, ivyo bikaba bihuye n'aderesi ya Bitcoin aho ingororano za mining zikwiye kurungikwa. Ibindi bipimo vy’ibikoresho nk’imiterere y’incuro, imiterere y’umuriro, n’ibisobanuro vy’ubwoko bwa ASIC bitegerezwa guhura n’urubuga rw’ibikoresho vy’intumbero. Ububiko bwa GitHub buratanga ingero zatunganijwe mbere ku mice itandukanye y'ibikoresho, nk'imiterere ya BM1368 yagenewe ibikoresho vya Super n'imiterere ya BM1366 ku mice ya Ultra. Ivyerekeye verisiyo y’ibarabara, nk’ugushinga verisiyo y’icuma kuri 401 ku bijanye n’isubiramwo rishasha ry’ibikoresho, bituma bihuye n’ibiranga igikoresho kigenewe.
+
+
+### Kubaka urubuga Interface na porogaramu nyamukuru
+
+
+Umugambi wa ESP-Miner ushiramwo urubuga rworoshe cane rusaba gukoranya ibintu bitandukanye imbere y’uko igikorwa co kwubaka porogarama nyamukuru gishobora gutangura. Iyi nzira y’urubuga, yitwa firmware ya AxeOS, itanga abakoresha uburyo bwo kugenzura no kugenzura ibikoresho vyabo vya mining.
+
+
+Urubuga rwo kwubaka urubuga rutangura no kugenda mu bubiko bwa server ya HTTP mu miterere y'ububiko nyamukuru, cane cane ububiko buto bwa AxeOS. Iki kibanza kirimwo porogaramu y'urubuga ishingiye kuri Node.js isaba gushiramwo ivy'ubufatanye biciye ku itegeko ry'ugushiramwo npm. Uburyo bwo kwubaka bufata ko Node.js ishizwe neza kuri uburyo bwo gutegura, kuko ivyo bigereranya igisabwa nyamukuru ku bijanye n’ugukoranya urubuga.
+
+
+Inyuma y’ugushiraho ivy’ukwisunga, itegeko rya npm run build rikoranya ibice vy’urubuga, rikagira amadosiye akenewe azoshirwa muri porogarama ya ESP32. Iyi nzira yo gukoranya itanga ibikoresho vyiza vy’urubuga bitanga ubushobozi bwo gukoresha mu gihe bigumya ikoreshwa ryiza ry’ubwenge ku rubuga rwa ESP32 rufise uburenganzira. Kurangiza neza iyi ntambwe yo kwubaka ni ngombwa imbere y’uko umuntu aja ku gukoranya porogarama nyamukuru, kuko porogarama nyamukuru ya ESP-Miner ishiramwo ivyo bihimba vy’urubuga nk’ibikorwa vy’ingenzi.
+
+
+### Gukora amadosiye y'uruganda n'imiterere yinjijwe
+
+
+Guhingura amadosiye y’uruganda bigereranya ubuhinga bwo gukoresha buteye imbere bushiramwo imiterere y’imiterere mu buryo butaziguye muri firmware binary, bikaba bikuraho ivy’imiterere y’amaboko mu gihe co gutegura ibikoresho. Ubu buryo buragaragaza ko ari ngirakamaro cane cane ku bikorwa vyinshi canke mu bihe aho ugutunganya ibintu bimwe bimwe ku bikoresho vyinshi ari ngombwa.
+
+
+Ivyo guhingura dosiye y’uruganda bitangura n’uguhingura ibice bibiri vy’imiterere bivuye muri dosiye y’imiterere ya CSV hakoreshejwe igikoresho co guhingura imigabane ya NVS ca ESP-IDF. Ico gikoresho, kiri mu bubiko bw’ibice vya ESP-IDF munsi ya nvs-flash/nvs-partition-generator, gihindura imiterere ishobora gusomwa n’umuntu mu buryo bubiri bubereye ububiko bw’umuco w’umuco. Inyandiko ya nvs-partition-gen.py ikora dosiye ya config.csv maze itanga dosiye ya config.binary igenewe umwanya w’aderesi y’ububiko 0x6000.
+
+
+Ikoraniro rya nyuma ry’amadosiye y’uruganda rikoresha inyandiko zidasanzwe zifatanya amadosiye y’ingenzi n’amakuru y’imiterere. Ububiko buratanga uburyo bwinshi bwo gufatanya, harimwo inyandiko yo gufatanya isanzwe ku madosiye y'uruganda y'ishimikiro n'inyandiko yo gufatanya irimwo imiterere ku madosiye y'uruganda yuzuye. Inyandiko ya merge-bin-with-config.sh irema amadosiye y'uruganda arimwo ibikorwa vya porogaramu n'imiterere yateguwe mbere, bikavamwo umuzigo wuzuye wo gukoresha. Ubu buryo burashoboza kurema amadosiye y’uruganda yihariye ku bikoresho, nk’amaverisiyo agenewe ibikoresho vya Bitaxe Ultra bifise amasubiramwo yihariye y’urubaho, mu gihe bigumye bifise ubushobozi bwo guhindura amadosiye y’uruganda rwa generate ata n’imiterere ishizwemwo ku bintu bisaba guhinduranya amadosiye y’uruganda n’amaboko.
+
+
+Amadosiye y’uruganda yuzuye atanga imigwi y’abakoresha ibikoresho bibiri biteguye gukoreshwa birimwo ibihimba vyose bikenewe vya porogarama n’imiterere y’imiterere, bituma uburyo bwo gutanga ibikoresho bugenda neza kandi bikaba bituma ibikoresho bikora neza mu bikoresho vyose vya mining.
+
+
+## Ni gute wokoresha urubuga rwa Bitaxe?
+
 <chapterId>8c3e2d4c-c038-53ec-93cb-cc30a29e4394</chapterId>
+
 
 :::video id=291757b9-f459-48f6-8766-56387f907859:::
 
-The Bitaxe Web Installer represents a streamlined approach to firmware management for Bitaxe devices, providing users with multiple installation options through a web-based interface. This comprehensive tool eliminates the complexity traditionally associated with firmware updates and fresh installations, making device management accessible to users regardless of their technical expertise. Understanding the proper use of this installer is crucial for maintaining optimal device performance and avoiding common pitfalls that can render devices temporarily inoperable.
+Bitaxe Web Installer igereranya uburyo bubereye bwo gucunga porogarama y’ibikoresho vya Bitaxe, itanga abakoresha uburyo bwinshi bwo gushiramwo biciye ku rubuga rushingiye ku rubuga. Ico gikoresho gikomeye kirakuraho ubugoyagoye busanzwe bujanye n’uguhindura porogarama n’ugushiramwo ibintu bishasha, bikaba bituma abakoresha bashobora gucunga neza ibikoresho ata kuraba ubuhinga bwabo bwo mu vy’ubuhinga. Gutahura neza ingene iyo nkuru ikoreshwa ni ikintu gihambaye cane kugira ngo ibikoresho bikomeze gukora neza kandi umuntu yirinde imitego isanzwe ishobora gutuma ibikoresho bidakora neza mu gihe gito.
 
-### Accessing and Browser Compatibility Requirements
 
-The Bitaxe Web Installer is accessible through the dedicated URL oneclue.github.io/bitx-web-flasher, serving as the central hub for all firmware installation activities. However, successful operation of this web-based tool requires careful attention to browser compatibility, as the installer relies on specific web technologies that are not universally supported across all browsers. Chrome stands as the primary recommended browser for the installer, providing full compatibility with all features and functions. While other Chromium-based browsers may offer similar functionality, popular alternatives like Brave and Firefox lack the necessary web serial API support, making them incompatible with the installer's core operations.
+### Kuronka no guhuza n'umucukumbuzi bisabwa
 
-This browser limitation stems from the installer's reliance on direct serial communication with Bitaxe devices through the web interface. The web serial API, which enables this communication, remains a relatively new web standard that has not yet achieved universal browser adoption. Users attempting to access the installer through unsupported browsers will encounter connection failures and inability to communicate with their devices, necessitating a switch to a compatible browser before proceeding with any installation activities.
 
-### Power Requirements and Device Preparation
+Igikoresho co gushiramwo urubuga rwa Bitaxe gishobora gushikwako biciye ku rubuga rwa URL rwihariye [https://bitaxeorg.github.io/bitaxe-web-flasher/] (ico kigaragazwa muri videwo mu bikorwa vyose vyacitse intege). Ariko rero, kugira ngo iki gikoresho gishingiye ku rubuga gikore neza, bisaba ko umucukumbuzi akora neza, kuko uwugishiramwo yizigira ubuhinga bwihariye bwo ku rubuga butashigikirwa n’umucukumbuzi wose. Chrome ihagaze nk’umucukumbuzi w’intango ushimikiye ku mucukumbuzi, itanga ubufatanye bushitse n’ibiranga vyose n’imikorere. Naho izindi nzira zikoreshwa na Chromium zishobora gutanga ibikorwa nk’ivyo, izindi nzira zizwi cane nka Brave na Firefox ntizigira ubufasha bukenewe bw’urubuga rwa API, bikaba bituma zidahuye n’ibikorwa nyamukuru vy’uwuzishiramwo.
 
-Bitaxe devices exhibit different power requirements depending on their specific model and version, making proper power management essential for successful firmware installation. Devices running version 204 or below can operate solely through USB power, drawing sufficient current from the connected computer to maintain operation during the flashing process. This simplified power arrangement makes these earlier versions particularly convenient for firmware updates, as users need only connect a single USB cable to begin the installation process.
 
-However, devices running version 205 and above require external power sources in addition to the USB connection, reflecting changes in power consumption and circuit design in newer hardware revisions. These devices cannot draw adequate power through USB alone, necessitating connection to their standard power supplies during firmware installation. Failure to provide adequate power to these newer devices will result in installation failures and potential corruption of the firmware update process.
+Ivyo biva ku kwizigira kw’uwushiramwo ubuhinga bwo guhanahana amakuru n’ibikoresho vya Bitaxe biciye ku rubuga. Urubuga rwa API, rushobora gutuma umuntu ashobora guhanahana amakuru, ruracari urugero rushasha rw’urubuga rutarashika ku kwemerwa n’abacukumbuzi bose. Abakoresha bagerageza gushika ku mucukumbuzi udashigikiwe bazohura n’ibibazo vyo gukorana n’ibikoresho vyabo be n’ukudashobora kuvugana n’ibikoresho vyabo, bikaba bisaba ko bahindukira bakaja ku mucukumbuzi ahuye imbere y’uko babandanya ibikorwa vyose vyo gushiramwo.
 
-The physical connection process requires specific timing and button manipulation to ensure proper communication between the installer and the device. Users must press and hold the boot button on their Bitaxe device before connecting the USB-C cable to their computer. This sequence places the device into bootloader mode, enabling the installer to communicate directly with the device's firmware storage. Connecting the USB cable before engaging the boot button will result in normal device operation rather than the bootloader mode required for firmware installation, preventing the installer from establishing the necessary communication channel.
 
-### Installation Options and Their Applications
+### Ibisabwa n'ugutegura ibikoresho
 
-The Bitaxe Web Installer provides four distinct installation options, each designed for specific use cases and device configurations. The Bitaxe Superboard version 4.0.1 represents the most current firmware for Super model devices, with version 4.0.2 scheduled for future release. This option includes both factory and update variants, providing flexibility in installation approach based on user needs and device status.
 
-Factory installations represent complete firmware replacements that mirror the original manufacturing process, including comprehensive self-test procedures that verify device functionality across all systems. When users select a factory installation, the installer performs a complete erasure of existing firmware and configuration data, replacing it with a fresh, clean installation identical to what would be applied during manufacturing. This process includes automated self-testing that validates proper hardware operation, requiring users to reboot their devices upon completion before normal operation can resume. Factory installations prove particularly valuable when devices experience persistent issues or when users desire to return their devices to original factory specifications.
+Ivyuma vya Bitaxe vyerekana ibisabwa bitandukanye vy’ububasha bivanye n’umuderi wavyo n’uburyo bwavyo, bikaba bituma gucunga neza ububasha biba ngombwa kugira ngo umuntu ashobore gushiramwo neza porogarama. Ivyo bikoresho bikoresha verisiyo 204 canke iri munsi yavyo birashobora gukora gusa biciye ku nguvu za USB, bikakura amashanyarazi ahagije kuri orodinateri ihuriweko kugira ngo bikomeze gukora mu gihe c’uguca ibibatsi. Ukwo gutunganya amashanyarazi kworoshe gutuma izo verisiyo za kera zibereye canecane ku bijanye no guhindura porogarama, kuko abazikoresha bakeneye gusa gufatanya umugozi umwe wa USB kugira ngo batangure gukora.
 
-Update installations provide a more conservative approach, preserving existing configuration data while updating only the core firmware components. This option proves ideal for users who have customized their device settings and wish to maintain their personal configurations while benefiting from firmware improvements and bug fixes. The update process targets only the firmware components that require modification, leaving user-specific settings, WiFi credentials, and Bitcoin addresses intact throughout the installation process.
 
-### Critical Installation Considerations and Data Protection
+Ariko rero, ibikoresho bikoresha verisiyo 205 n’iyirengeye bisaba amasoko y’inguvu yo hanze uretse n’uguhuza USB, ivyo bikaba vyerekana amahinduka mu gukoresha ingufu no mu guhingura imirongo mu bishasha vy’ugusubiramwo ibikoresho. Ivyo bikoresho ntibishobora gukura amashanyarazi ahagije biciye kuri USB gusa, bikaba bisaba ko bifatanya n’amashanyarazi yavyo asanzwe mu gihe co gushiramwo porogarama. Kudatanga ubushobozi buhagije kuri ivyo bikoresho bishasha bizovamwo ukunanirwa kw’ugushiramwo n’ugushobora kwonona uburyo bwo guhindura porogarama.
 
-The distinction between factory and update installations carries significant implications for device configuration and user data preservation. Factory installations perform complete device erasure, removing all user-configured settings including WiFi credentials, Bitcoin addresses, and any personalized device parameters. Following a factory installation, users must reconnect to the device's default WiFi network and reconfigure all personal settings from scratch, essentially treating the device as if it were brand new from the manufacturer.
 
-Update installations require careful attention to the erase device option presented during the installation process. The installer will prompt users with the question "Do you want to erase the device before installing Bitaxe Flasher?" accompanied by a warning that all data on the device will be lost. Users performing update installations must decline this option by clicking "Next" rather than confirming the erase operation. Accepting the erase option during an update installation will remove the device's configuration file, potentially rendering the device non-functional until proper configuration is restored. While this situation does not permanently damage the device, it creates unnecessary complications and requires additional configuration steps to restore normal operation.
+Uburyo bwo guhuza ibintu mu buryo bw’umubiri busaba umwanya wihariye be n’ugukoresha ubuto kugira ngo habeho uguhanahana amakuru neza hagati y’uwushiramwo n’ico gikoresho. Abakoresha bategerezwa gukanda no gufata buto ya boot iri ku gikoresho cabo ca Bitaxe imbere y’uko bafatanya umugozi wa USB-C na mudasobwa yabo. Uwo murongo ushiramwo igikoresho mu buryo bwo gufungura, bikaba bituma uwugishiramwo ashobora kuvugana ata guca ku ruhande n’ububiko bwa porogarama y’ico gikoresho. Gufatanya umugozi wa USB imbere yo gukoresha buto yo gufungura bizotuma igikoresho gikora neza aho gukoresha uburyo bwo gufungura busabwa kugira ngo umuntu ashiremwo porogarama y’imbere, ivyo bikaba bizotuma uwuyishiramwo adashobora gushinga umurongo w’itumanaho ukenewe.
 
-The installation process itself proceeds automatically once users have made their selections and confirmed their choices. The installer handles all technical aspects of firmware transfer and verification, providing progress indicators and status updates throughout the process. This automated approach eliminates the need for users to understand complex firmware installation procedures while ensuring reliable and consistent results across different device models and firmware versions.
 
-## How to create and order the PCB?
+### Amahitamwo yo gushiramwo n'ibikorwa vyavyo
+
+
+Bitaxe Web Installer itanga uburyo bune butandukanye bwo gushiramwo, buri bumwe bugenewe ibikorwa vyihariye n’imiterere y’ibikoresho. Verisiyo ya Bitaxe Superboard 4.0.1 igereranya porogaramu y’ubuhinga bwa none cane ku bikoresho vy’ubuhinga bwa none, verisiyo 4.0.2 ikaba itegekanijwe gusohoka muri kazoza. Iyi nzira irimwo ivy’uruganda n’ivy’ivugurura, itanga uburyo bwo guhindura uburyo bwo gushiramwo bishingiye ku bikenewe n’ukoresha n’ingene igikoresho kimeze.
+
+
+Ivyo bikoresho bishirwa mu ruganda bigereranya ugusubirira porogarama yuzuye yerekana uburyo bwo gukora, harimwo n’uburyo bwo kwisuzuma bushitse bugenzura uko ibikoresho bikora muri sisitemu zose. Iyo abakoresha bahisemwo gushiramwo ibintu mu ruganda, uwubishiramwo arafuta vyose amakuru ya kera n’ay’imiterere y’ibintu vyariho, akabisubiriza n’ibindi bishasha kandi bisukuye bisa n’ivyo vyokoreshwa mu gihe co kubikora. Ivyo birimwo ukwigerageza kw’ivyuma vyemeza ko ibikoresho bikora neza, bisaba ko abakoresha basubira gufungura ibikoresho vyabo iyo bimaze gutangura imbere y’uko ibikorwa bisanzwe bishobora gusubira gutangura. Ivyo bikoresho bishirwa mu ruganda birafise akamaro canecane igihe ibikoresho bifise ingorane zidahera canke igihe ababikoresha bipfuza gusubiza ibikoresho vyabo nk’uko vyari vyifashe mu ruganda.
+
+
+Ivyuma bivugururwa bitanga uburyo bwo kubungabunga, bikazigama amakuru y’imiterere asanzweho mu gihe bivugurura gusa ibice nyamukuru vya porogarama. Iryo hitamwo ryerekana ko ari ryiza ku bakoresha bahinduye imiterere y’ibikoresho vyabo kandi bipfuza kuguma bafise imiterere yabo bwite mu gihe bungukira ku guhindura porogarama n’ugukosora ibibazo. Ivyo guhindura bishingiye gusa ku bihimba vya porogarama bisaba guhindurwa, bikasiga amasetingi yihariye y’ukoresha, ivyemezo vya WiFi, n’amaderesi ya Bitcoin ataco bihinduye mu gihe cose co gushiramwo.
+
+
+### Ivyiyumviro bihambaye vyo gushiramwo no kurinda amakuru
+
+
+Itandukaniro hagati y’uruganda n’ugushiraho ibintu bishasha rifise ingaruka zikomeye ku bijanye n’ugutunganya ibikoresho no kuzigama amakuru y’abakoresha. Ivyuma bishirwa mu ruganda birakuraho ibikoresho vyose, bikakuraho ibintu vyose vyatunganijwe n’ukoresha harimwo n’ivyemezo vya WiFi, amaderesi ya Bitcoin, n’ibindi vyose vyerekeye ibikoresho vy’umuntu ku giti ciwe. Inyuma y’aho bashizeho uruganda, abakoresha bategerezwa gusubira kwifatanya n’urubuga rwa WiFi rwa kera rw’ico gikoresho maze bagasubira gutunganya ibintu vyose vy’umuntu ku giti ciwe kuva mu ntango, mu vy’ukuri bagafata ico gikoresho nk’aho coba ari gishasha kivuye ku wagikoze.
+
+
+Ivyo gushiramwo ibintu bishasha bisaba kwitwararika cane uburyo bwo gukuraho igikoresho kigaragazwa mu gihe co gushiramwo ibintu bishasha. Ico gikoresho kizosaba abakoresha ikibazo kiti "Woba ushaka gukuraho igikoresho imbere yo gushiramwo Bitaxe Flasher?" biherekejwe n’imburi y’uko amakuru yose ari kuri ico gikoresho azozimangana. Abakoresha bakora ivy'ugushiramwo ibintu bishasha bategerezwa kwanka iyo nzira mu gufyonda "Ibikurikira" aho kwemeza igikorwa co gukuraho. Kwemera uburyo bwo gukuraho mu gihe co gushiramwo ivyagezwe bizokuraho dosiye y’imiterere y’igikoresho, bishobora gutuma igikoresho kidakora gushika imiterere ibereye isubiyeho. Naho ivyo bintu bidashobora kwonona igikoresho ubudasiba, biratuma haba ingorane zidakenewe kandi bisaba ko umuntu afata izindi ntambwe zo kugitunganya kugira ngo kigaruke gukora neza.
+
+
+Ivyo gushiramwo ubwavyo biragenda ubwavyo iyo abakoresha bamaze guhitamwo no kwemeza ivyo bahisemwo. Uwushiramwo ni we akora imice yose y’ubuhinga yo gutanga no kugenzura porogarama, agatanga ibimenyetso vy’iterambere n’ivyo guhindura uko ibintu vyifashe mu gihe cose. Ubu buryo bwikora burakuraho ivy’uko abakoresha batahura uburyo butoroshe bwo gushiramwo porogarama y’ubuhinga bwa none mu gihe bashobora gutanga ibisubizo vyizigirwa kandi bihuye ku bikoresho bitandukanye n’imirongo ya porogarama y’ubuhinga bwa none.
+
+
+## Ni gute tworema no gutegeka PCB?
+
 <chapterId>566f5e06-9ec9-55c0-84f6-101d6ca4c2ff</chapterId>
+
 
 :::video id=9a56ad84-d9cf-4f85-ab98-301fb3101228:::
 
-This chapter focuses on the practical process of generating manufacturing files from KiCad projects and ordering professional PCBs from online manufacturers. Using the Bitaxe project as our example, we'll walk through the complete workflow from file generation to placing an order with a PCB manufacturer.
+Iki gice kivuga cane ku buryo bukora bwo guhingura amadosiye y’ubuhinga buva mu migambi ya KiCad no gusaba ama PCB y’umwuga ku bahinga bo kuri Internet. Dukoresheje umugambi wa Bitaxe nk’akarorero kacu, tuzoca mu nzira y’ibikorwa vyose kuva ku guhingura dosiye gushika ku gutanga amategeko ku muhinguzi wa PCB.
 
-### Understanding the PCB Manufacturing Process
 
-The journey from a completed KiCad design to a physical PCB involves several critical steps that bridge the gap between digital design and physical manufacturing. When working with complex projects like the Bitaxe, the PCB editor in KiCad provides a comprehensive view of your design, displaying all components and their interconnections through colored traces. The red and blue lines you see represent the electrical connections between different integrated circuits and components on the board. KiCad's 3D viewer feature allows you to visualize how the final assembled board will appear, providing valuable insight into component placement and potential mechanical conflicts.
+### Gutahura uburyo bwo gukora PCB
 
-The manufacturing process requires specific file formats that PCB manufacturers can interpret and use to fabricate your boards. These files contain precise information about copper layers, drill holes, component placement, and other manufacturing specifications. Understanding this workflow is essential whether you're working with the standard Bitaxe design or creating modifications such as adding custom logos, changing component values, or adjusting the board layout to meet specific requirements.
 
-### Generating Gerber Files for Manufacturing
+Urugendo rwo kuva ku gishushanyo ca KiCad kirangiye gushika ku gishushanyo ca PCB gisanzwe rurimwo intambwe nyinshi zihambaye zizibira ikinogo kiri hagati y’igishushanyo ca digitale n’igishushanyo c’umubiri. Igihe ukora n’imigambi igoye nka Bitaxe, umuhinduzi wa PCB muri KiCad aratanga iciyumviro gitomoye c’umubumbe wawe, yerekana ibice vyose n’uguhuza kwavyo biciye ku bimenyetso vy’amabara. Imirongo y’umutuku n’ubururu ubona igereranya amasano y’umuyagankuba hagati y’ibice bitandukanye vy’umubiri n’ibihimba biri ku rubaho. Igikoresho co kuraba 3D ca KiCad kiragufasha kubona mu ciyumviro ingene urubaho rwa nyuma rwakoranijwe ruzoboneka, kigatanga ubumenyi bw’agaciro ku bijanye n’ugushirwa kw’ibihimba be n’amatati yo mu vy’ubuhinga yoshobora kubaho.
 
-Gerber files serve as the industry standard for communicating PCB design information to manufacturers. These files contain all the necessary data for fabricating your PCB, including copper layer patterns, solder mask definitions, and drill hole locations. To generate these files in KiCad, navigate to the PCB editor and access the fabrication outputs through the Files menu. The software automatically configures the appropriate settings for standard manufacturing processes, including the proper output directory structure typically organized as "manufacturing files/gerbers."
 
-The generation process creates multiple Gerber files, each representing different aspects of your PCB design. These files work together to provide manufacturers with complete fabrication instructions. Once generated, these files must be compressed into a ZIP archive, as this is the standard format expected by most PCB manufacturers. The ZIP file contains all necessary manufacturing data and ensures that no files are lost or corrupted during the upload process to the manufacturer's website.
+Ivyo bikoresho bisaba uburyo bwihariye bw’amadosiye abahinguzi ba PCB bashobora gusobanura no gukoresha mu guhingura amabarabara yawe. Izo dosiye zirimwo amakuru nyayo yerekeye ibipande vy’umuringa, imyobo yo gucukura, aho ibihimba bishirwa, n’ibindi bimenyetso vy’uguhingura. Gutahura iyo nzira y’akazi ni ngombwa waba uriko urakorana n’umubumbe wa Bitaxe usanzwe canke uriko urahingura ibintu nk’ukwongerako ibimenyetso vy’abantu, guhindura agaciro k’ibice, canke guhindura imiterere y’urubaho kugira ngo ushikire ibisabwa vyihariye.
 
-It's worth noting that many open-source projects, including the Bitaxe, often include pre-generated manufacturing files in their repositories. However, understanding how to generate these files yourself is crucial when making design modifications or working with different board versions. This knowledge becomes particularly valuable when customizing designs or troubleshooting manufacturing issues.
 
-### Selecting PCB Manufacturers and Understanding Options
+### Guhingura amadosiye ya Gerber yo guhingura
 
-The PCB manufacturing landscape offers several reputable options, with JLCPCB and PCBWay being among the most popular choices for hobbyists and professionals alike. Both manufacturers provide similar services with competitive pricing and reliable quality, though each has specific advantages depending on your project requirements. JLCPCB often attracts first-time users with promotional pricing and user-friendly interfaces, while PCBWay may offer different material options or specialized services.
 
-When uploading your Gerber files to a manufacturer's website, the system automatically analyzes your design and presents various manufacturing options. The default settings provided by these platforms are typically suitable for most standard designs, and it's generally recommended to maintain these settings unless you have specific requirements. Key parameters include PCB thickness, copper weight, surface finish, and minimum quantities. Most manufacturers require minimum orders of five boards, which actually works well for hobbyist projects where having spare boards or sharing with friends is beneficial.
+Amadosiye ya Gerber akora nk’ikigereranyo c’inganda co kumenyesha abahinguzi amakuru yerekeye imiterere ya PCB. Izo dosiye zirimwo amakuru yose akenewe yo gukora PCB yawe, harimwo n’ibishushanyo vy’ibipande vy’umuringa, insobanuro z’ibipfukisho vy’ivyuma, n’aho imyobo iri. Kugira ngo generate izo dosiye muri KiCad, genda kuri PCB editor maze ushikire ibisohoka mu guhingura biciye mu rutonde rw'amadosiye. Porogaramu ihita ihindura imiterere ibereye y'imigenderanire isanzwe y'uguhingura, harimwo n'imiterere y'ububiko bw'ibisohoka busanzwe butunganijwe nk'"amadosiye y'uguhingura/ibikoresho."
 
-Color options represent one of the few aesthetic choices available during the manufacturing process. While green remains the traditional and most cost-effective option, manufacturers typically offer alternatives including blue, red, yellow, purple, and black. The color choice is purely aesthetic and doesn't affect the electrical performance of your PCB, though some colors may have slight cost implications or longer manufacturing times.
 
-### Advanced Manufacturing Considerations and Assembly Options
+Ivyo bituma habaho amadosiye menshi ya Gerber, imwe yose ikaba iserukira imice itandukanye y’umugambi wawe wa PCB. Izo dosiye zikorana kugira ngo zihe abahinguzi amabwirizwa yuzuye y’ingene zikora. Iyo zimaze gusohoka, izo dosiye zitegerezwa gushirwa mu bubiko bwa ZIP, kuko ari bwo buryo busanzwe bwitezwe n’abahinguzi benshi ba PCB. Dosiye ya ZIP irimwo amakuru yose akenewe yerekeye uguhingura kandi ituma ata dosiye ibura canke yononekara mu gihe co kuyishira ku rubuga rw’umuhinguzi.
 
-Beyond basic PCB fabrication, modern manufacturers offer additional services that can significantly streamline your project completion. Stencils represent one of the most valuable add-on services, particularly for designs with fine-pitch components like the ASIC chips found in Bitcoin mining projects. A stencil is essentially a precision-cut aluminum template with openings that correspond exactly to the solder pad locations on your PCB. This tool enables consistent and accurate application of solder paste, dramatically improving assembly quality and reducing the likelihood of soldering errors.
 
-Stencil options typically include single stencils with both top and bottom patterns, or separate stencils for each side of the board. For most projects, a combined stencil proves more convenient and cost-effective. The stencil thickness is carefully calculated to deposit the appropriate amount of solder paste for your specific component types and pad sizes. Using a stencil transforms what could be a tedious and error-prone manual process into a quick and professional assembly step.
+Ni vyiza kumenya ko imigambi myinshi y’inkomoko yuguruye, harimwo na Bitaxe, akenshi ishiramwo amadosiye y’uguhingura yateguwe mbere mu bubiko bwayo. Ariko rero, gutahura ingene wokora generate kuri izo dosiye wewe ubwawe ni ikintu gihambaye cane igihe uhindura imiterere canke ukorana n’amaverisiyo atandukanye y’ibarabara. Ubwo bumenyi buraba bw’agaciro canecane igihe umuntu ariko arahindura imigero canke ariko aratorera umuti ingorane zijanye n’uguhingura.
 
-While some manufacturers offer partial or complete assembly services, these options require careful consideration for complex projects like the Bitaxe. Component availability, cost implications, and the educational value of self-assembly all factor into this decision. Many specialized components required for Bitcoin mining projects may not be readily available through standard PCB assembly services, making component sourcing and manual assembly the more practical approach. Future episodes in this series will cover component sourcing strategies and assembly techniques to help you successfully complete your Bitaxe project from bare PCB to functional device.
 
-The manufacturing and assembly process represents a crucial bridge between digital design and physical implementation. Understanding these workflows empowers you to take control of your projects, reduce costs, and gain valuable hands-on experience with professional manufacturing processes. Whether you're building a single prototype or planning a small production run, mastering these skills opens up new possibilities for bringing your electronic designs to life.
+### Guhitamwo abahinguzi ba PCB no gutahura amahitamwo
 
-# Performance Optimization
+
+Igihugu gikora PCB gitanga uburyo bwinshi bwiza, JLCPCB na PCBWay ziri mu mahitamwo azwi cane ku bakunda ivy’ugukina n’abahinga. Abahinguzi bompi baratanga ibikorwa bisa n’ivyo n’igiciro gihuye n’ibindi be n’uburyo bwo kwizigirwa, naho umwe wese afise ivyiza vyihariye bivanye n’ivyo umugambi wawe usaba. JLCPCB akenshi ikwegera abakoresha ubwa mbere n’ibiciro vy’iterambere n’imirongo y’abakoresha, mu gihe PCBWay ishobora gutanga uburyo butandukanye bw’ibikoresho canke ibikorwa vyihariye.
+
+
+Igihe ushize amadosiye yawe ya Gerber ku rubuga rw’umuhinguzi, iyo sisitemu ica isesangura ubwo nyene ingene wakoze maze ikaguha uburyo butandukanye bwo kuyakora. Ivyo bikoresho bitangwa n’izo nzira birabereye ku migero myinshi isanzwe, kandi muri rusangi ni vyiza ko uguma ukoresha ivyo bintu kiretse iyo ufise ibisabwa vyihariye. Ivyangombwa nyamukuru birimwo uburebure bwa PCB, uburemere bw’umuringa, iherezo ry’imbere, n’ingero ntoyi. Benshi mu bahinga basaba amategeko makeyi y’ibipande bitanu, ivyo mu vy’ukuri bikora neza ku migambi y’abanyamideri aho kugira ibipande vy’inyuma canke gusangira n’abagenzi ari ngirakamaro.
+
+
+Amahitamwo y’amabara agereranya imwe mu mahitamwo makeyi y’ubwiza aboneka mu gihe c’uguhingura. Naho ibara ry’icatsi kibisi riguma ari ryo ry’agaciro kandi ry’agaciro kuruta ayandi yose, abahinguzi baratanga ubundi buryo harimwo ubururu, umutuku, umuhondo, umuyugubwe n’umwirabura. Ibara ry’uguhitamwo ni ry’ubwiza gusa kandi ntirigira ico rihinduye ku bushobozi bw’umuyagankuba wa PCB yawe, naho amabara amwe amwe yoshobora kugira ingaruka ntoyi ku giciro canke igihe kirekire co gukora.
+
+
+### Ivyiyumviro vy'uguhingura biteye imbere n'amahitamwo yo gukoranya
+
+
+Uretse gukora PCB z’ishimikiro, abahinguzi bo muri iki gihe baratanga ibindi bikorwa bishobora gutuma umugambi wawe urangira neza cane. Ivyuma bigereranya kimwe mu bikorwa vy’agaciro cane vyo kwongerako, cane cane ku migero ifise ibihimba vy’ijwi ryiza nk’ibice vya ASIC biboneka mu migambi ya Bitcoin mining. Igishushanyo ni igishushanyo c’aluminium gicapuwe neza gifise utuzu duhuye neza n’aho ivyuma vy’ivyuma biri kuri PCB yawe. Ico gikoresho kiratuma umuntu ashobora gukoresha neza kandi ataco ahinduye, ivyo bikaba bituma akora neza cane kandi akagabanya n’amakosa yo gutera.
+
+
+Amahitamwo y’ibishushanyo akenshi arimwo ibishushanyo bimwe bimwe bifise ibishushanyo vyo hejuru n’ivyo hasi, canke ibishushanyo bitandukanye ku ruhande rumwe rumwe rw’urubaho. Ku migambi myinshi, igicapo gihuriweko kiragaragara ko ari ciza kandi kidahenda. Igishushanyo c’ivyuma giharurwa neza kugira ngo hashirwemwo umubare ukwiye w’ivyuma vy’ugutera ivyatsi ku bwoko bw’ibihimba vyawe vyihariye be n’ubunini bw’ibipande. Gukoresha igikoresho co gucapura bihindura ivyo vyoshobora kuba ari igikorwa c’amaboko kigoye kandi gitera amakosa, kikaba intambwe yo gukoranya ibintu vyihuta kandi vy’umwuga.
+
+
+Naho abahinguzi bamwebamwe batanga ibikorwa vyo gukoranya igice canke vyose, ayo mahitamwo asaba ko umuntu yiyumvira neza imigambi igoye nka Bitaxe. Uko ibihimba bibonetse, ingaruka z’igiciro, n’agaciro k’inyigisho k’ukwikoranya vyose ni vyo bifata iyo ngingo. Ibice vyinshi vy’umwihariko bisabwa ku migambi ya Bitcoin mining bishobora kutaboneka bitagoranye biciye ku bikorwa vy’ugukoranya PCB, bikaba bituma gutora ibihimba no gukoranya n’amaboko ari vyo bikoreshwa cane. Ibice vyo muri kazoza muri uru rukurikirane bizovuga ku ngabire zo gutora ibihimba n’ubuhinga bwo kubikoranya kugira ngo bigufashe kurangiza neza umugambi wawe wa Bitaxe kuva ku gikoresho ca PCB kitagira ikintu gushika ku gikoresho gikora.
+
+
+Uburyo bwo gukora no gukoranya ibintu bugereranya ikiraro gihambaye hagati y’uguhingura ibintu mu buryo bwa digitale n’ugushirwa mu ngiro kw’ibintu. Gutahura izo nzira z’ibikorwa biguha ubushobozi bwo kugenzura imigambi yawe, kugabanya ibiciro, no kuronka ubumenyi bw’agaciro bwo gukora ibintu mu buryo bw’umwuga. Waba uriko urakora ikigereranyo kimwe canke uriko urategura igikorwa gitoyi co gukora, kumenya neza ubwo buhinga biraguha uburyo bushasha bwo gutuma ibintu vyawe vy’ubuhinga bwa none bigira ubuzima.
+
+
+# Gutuma ibikorwa bigenda neza
+
 <partId>87b8790f-b7a9-5286-a7f8-328176ef7cb5</partId>
 
-## Benchmark your Bitaxe
+
+## Gupima Bitaxe yawe
+
 <chapterId>7259a4b1-93c1-5956-87d3-baaee58115af</chapterId>
+
 
 :::video id=2491a783-9750-4ea5-a40c-1d1d611784d5:::
 
-The pursuit of optimal mining performance requires a systematic approach to hardware configuration that balances hashrate, efficiency, and thermal management. Modern ASIC miners like the Bitaxe offer numerous configuration parameters that can significantly impact performance, but manually testing every combination of settings would be impractical and time-consuming. This chapter explores how to leverage automated benchmarking tools to scientifically optimize your Bitaxe miner's performance while maintaining safe operating conditions.
+Gukurikirana ubushobozi bwiza bwa mining bisaba uburyo butunganye bwo gutunganya ibikoresho bihuza hashrate, ubushobozi, n’ugucungera ubushuhe. Bitaxe itanga amaparametere menshi y’imiterere ashobora kugira ingaruka nyinshi ku bikorwa, ariko gupima n’amaboko ihuriro ryose ry’imiterere vyoba ari ibidashoboka kandi bitwara umwanya. Iki gice kiratohoza ingene wokoresha ibikoresho vy’ugupima vyikoresha kugira ngo ukore neza mu buryo bwa siyansi mu gihe Bitaxe yawe ikora neza mu gihe uguma ukora neza.
 
-### Understanding Bitaxe Performance Metrics and Baseline Configuration
 
-Before diving into optimization techniques, it's essential to understand the key performance indicators that define your Bitaxe's operational efficiency. The primary metrics include hashrate measured in terahash per second, power efficiency expressed in joules per terahash, ASIC frequency in megahertz, and core voltage in volts. A well-configured Bitaxe might achieve approximately 1.09 terahash with an efficiency of 17.62 joules per terahash, operating at 550 megahertz with a measured ASIC voltage of 1.14 volts. These baseline numbers provide a reference point for understanding the potential improvements available through systematic optimization.
+### Gutahura ibipimo vy'imikorere ya Bitaxe n'imiterere y'intango
 
-The relationship between these metrics is complex and interdependent. Higher frequencies typically increase hashrate but also increase power consumption and heat generation. Similarly, voltage adjustments affect both performance and thermal characteristics. The challenge lies in finding the optimal balance that maximizes either hashrate or efficiency while maintaining stable operation within safe temperature limits. This optimization process requires methodical testing across multiple parameter combinations, making automated tools invaluable for achieving optimal results.
 
-### The Bitaxe Hashrate Benchmark Tool Architecture
+Imbere yo kwisuka mu buhinga bwo gutuma ibintu bigenda neza, ni ngombwa gutahura ibimenyetso nyamukuru vy’ibikorwa bisobanura ubushobozi bwa Bitaxe yawe. Ivyo bipimo vya mbere birimwo hashrate bipimwa mu terahash ku segonda, ubushobozi bw’inguvu bugaragazwa mu joules ku terahash, incuro ASIC mu megahertz, n’umuriro w’imbere mu volts. Bitaxe itunganijwe neza yoshobora gushika ku 1,1 terahash n’ubushobozi bwa joules nka 17 kuri terahash, ikora ku megahertz 550 n’inguvu z’umuriro ASIC zigereranywa zingana na 1,14 volts. Ivyo biharuro vy’intango biratanga urufatiro rwo gutahura ivyo bishobora gutera imbere biciye mu gutuma ibintu bigenda neza mu buryo butunganye.
 
-The Bitaxe Hashrate Benchmark tool represents a sophisticated Python-based solution originally developed by WhiteCookie and subsequently enhanced by mrv777. This open-source tool, distributed under the GPLv3 license, automates the complex process of testing multiple configuration combinations to identify optimal settings for your specific hardware. The tool's primary strength lies in its systematic approach to parameter testing, incrementally adjusting frequency and voltage settings while continuously monitoring performance metrics and thermal conditions.
 
-The benchmarking process typically requires 30 to 40 minutes to complete, during which the tool methodically tests various combinations of ASIC frequency and voltage settings. The tool begins with conservative baseline settings, typically starting at 1.15 volts and 500 megahertz, then incrementally increases these parameters while monitoring hashrate, temperature, and stability. Importantly, the tool prioritizes safe operation over maximum performance, automatically backing down from settings that cause excessive heat generation or instability. This conservative approach ensures that the optimization process doesn't compromise hardware longevity or reliability.
+Isano hagati y’izo ngero riragoye kandi rirafatanya. Incuro nyinshi cane zituma hashrate yongera ariko kandi zikongera ubushobozi n’ubushuhe. Na vyo nyene, uguhindura umuriro biragira ico bikoze ku mikorere no ku biranga ubushuhe. Ingorane iri mu kurondera uburinganire bwiza bushobora gutuma hashrate canke ubushobozi bukora neza mu gihe buguma bukora neza mu gihe c’ubushuhe bubereye. Iyi nzira yo gutuma ibintu bigenda neza isaba uburyo bwo kugerageza mu migwi myinshi y’ibipimo, bikaba bituma ibikoresho vy’ubuhinga bwa none bigira agaciro kanini kugira ngo umuntu ashike ku bisubizo vyiza.
 
-### Installation and Setup Requirements
 
-Implementing the Bitaxe Hashrate Benchmark tool requires several prerequisite software components on your local computer. The primary requirements include Python for executing the benchmarking scripts, Git for repository management, and optionally Visual Studio Code for enhanced development environment capabilities. While the tool can be operated from command line interfaces, using an integrated development environment like VS Code provides better visibility into the benchmarking process and results analysis.
+### Ubwubatsi bw'igikoresho c'ikigereranyo ca Bitaxe Hashrate
 
-The installation process follows standard Python development practices, beginning with cloning the repository from GitHub to your local machine. Once the repository is downloaded, you'll need to create a virtual environment to isolate the tool's dependencies from your system's Python installation. This isolation prevents potential conflicts with other Python applications and ensures consistent operation. After activating the virtual environment, you'll install the required dependencies using the provided requirements file, which automatically configures all necessary libraries and modules for proper tool operation.
 
-### Executing Benchmarks and Interpreting Results
+Igikoresho giserukira umuti ushingiye kuri Python wa mbere wateguwe na WhiteCookie hanyuma ugakomezwa na mrv777. Iki gikoresho c’inkomoko yuguruye, gitangazwa hakurikijwe uruhusha rwa GPLv3, gikora igikorwa gikomeye co kugerageza imigwi myinshi y’imiterere kugira ngo umenye imiterere myiza y’ibikoresho vyawe vyihariye. Inkomezi z’intango z’ico gikoresho ziri mu buryo butunganye bwo kugerageza ibipimo, guhindura incuro n’imiterere y’umuriro mu gihe gikomeza gukurikirana ingero z’ubushobozi n’imiterere y’ubushuhe.
 
-Running the benchmark requires executing a single Python command that includes your Bitaxe's IP address as a parameter. The tool automatically connects to your miner's web interface and begins the systematic testing process. During execution, the tool provides detailed logging information showing the current test iteration, applied voltage and frequency settings, resulting hashrate, input voltage, temperature readings, and thermal data from critical components like the buck converter. This real-time feedback allows you to monitor the benchmarking progress and understand how different settings affect your miner's performance.
 
-The tool's intelligent thermal management becomes evident when temperatures approach the 66-degree Celsius safety threshold. Rather than pushing beyond safe operating limits, the benchmark automatically reduces settings to maintain thermal stability. This conservative approach ensures that the optimization process prioritizes long-term hardware reliability over short-term performance gains. Upon completion, the tool generates comprehensive results in JSON format, ranking the top five configurations for both maximum hashrate and optimal efficiency. These results provide clear guidance for selecting the configuration that best matches your operational priorities, whether focused on maximum output or energy efficiency.
+Ivyo bikoresho bisaba iminota 30 gushika ku 40 kugira ngo birangire, muri ico gihe ico gikoresho kigerageza mu buryo bubereye imigwi itandukanye y’incuro n’umuriro wa ASIC. Ico gikoresho gitangura n’imiterere y’intango, mu bisanzwe itangura kuri 1,15 volts na 500 megahertz, hanyuma kigaca kirongereza ivyo bipimo mu gihe kigenzura hashrate, ubushuhe, n’ugushikama. Igihambaye ni uko ico gikoresho gishira imbere ugukora ata nkomanzi kuruta gukora neza cane, kigasubira inyuma ubwaco ku mirongo ituma haba ubushuhe bukaze canke ukudashikama. Ubu buryo bwo kubungabunga butuma uburyo bwo gutuma ibintu bigenda neza butagira ico bukoze ku buzima buramba bw’ibikoresho canke ku kwizigirwa.
 
-The benchmarking tool also offers customization options for advanced users who want to modify the testing parameters. Command-line arguments allow you to specify custom starting voltages and frequencies, enabling more targeted optimization for specific use cases. For instance, if you already know your hardware performs well at higher frequencies, you can start the benchmark at elevated settings rather than beginning from the conservative defaults. This flexibility makes the tool valuable for both novice users seeking automated optimization and experienced miners who want to fine-tune specific performance characteristics.
 
-## Overclock your Bitaxe
+### Gushiramwo no Gutegura Ibisabwa
+
+
+Gushira mu ngiro igikoresho ca Bitaxe Hashrate Benchmark bisaba ibice vyinshi vya porogarama bikenewe kuri mudasobwa yawe yo mu karere. Ibisabwa vya mbere birimwo Python yo gukora inyandiko zo gupima, Git yo gucunga ububiko, n’ubushobozi bwa Visual Studio bwo guteza imbere ubushobozi bw’ibidukikije. Naho igikoresho gishobora gukoreshwa bivuye ku nzira z’umurongo w’amabwirizwa, gukoresha ibidukikije vy’iterambere bihuriweko nka VS Code bitanga ukuboneka neza mu nzira yo gupima n’isesengura ry’ibisubizo.
+
+
+Uburyo bwo gushiramwo bukurikira uburyo busanzwe bwo gutegura Python, gutangura no gukora cloning y’ububiko kuva kuri GitHub gushika ku mashine yawe yo mu karere. Igihe ububiko bumaze gukurwako, uzokenera gukora ikibanza c'ukuri kugira ngo utandukanye ibikoresho vy'igikoresho n'ugushiraho Python kwa sisitemu yawe. Ukwo kwitandukanya gukingira amakimbirane ashobora kubaho n'izindi porogaramu za Python kandi bigatuma bikora neza. Inyuma yo gukoresha ibidukikije vy'ukuri, uzoshiramwo ibikenewe ukoresheje dosiye y'ibisabwa yatanzwe, ihita itunganya amasomero yose akenewe n'ibice kugira ngo ibikoresho bikore neza.
+
+
+### Gushitsa ibipimo no gusobanura ibisubizo
+
+
+Gukoresha ikigereranyo bisaba gukora itegeko rimwe rya Python ririmwo aderesi IP ya Bitaxe yawe nk’igipimo. Ico gikoresho gica gifatanya n’urubuga rw’umucukuzi wawe maze kigatangura igikorwa co kugerageza. Mu gihe c’ugushirwa mu ngiro, igikoresho kiratanga amakuru y’ido n’ido yerekana isubiramwo ry’igerageza ry’ubu, umuriro ukoreshwa n’imiterere y’incuro, bivamwo hashrate, umuriro winjira, ibisomwa vy’ubushuhe, n’amakuru y’ubushuhe ava ku bihimba bihambaye nk’umuhinduzi w’amahera. Iyi nyishu y’igihe nyaco iragufasha gukurikirana ingene ivy’ugupima bigenda no gutahura ingene imiterere itandukanye igira ico ikoze ku bikorwa vy’umucukuzi wawe.
+
+
+Ubuhinga ico gikoresho gikoresha mu gucungera ubushuhe mu buryo bw’ubwenge buragaragara iyo ubushuhe bwegereje urugero rw’umutekano rwo ku bipimo 66 vy’ubushuhe. Aho gusunika birenze imipaka y’ugukoresha itekanye, ikigereranyo kiragabanya ubwo nyene ivyagezwe kugira ngo kigume gishikamye mu bijanye n’ubushuhe. Ubu buryo bwo kubungabunga buratuma uburyo bwo gutuma ibintu bigenda neza bushira imbere ukwizigirwa kw’ibikoresho vy’igihe kirekire kuruta inyungu z’igihe gito. Igihe kirangiye, ico gikoresho kiratanga ibisubizo vyinshi mu buryo bwa JSON, kigashira ku rutonde rw’imiterere itanu y’imbere ku bijanye n’ubushobozi bwo gukora neza hashrate n’ubushobozi bwiza. Ivyo bisubizo bitanga ubuyobozi butomoye bwo guhitamwo imiterere ihuye neza n’ivyo ushira imbere mu bikorwa vyawe, yaba yibanze ku vyo ukora canke ku gukoresha neza inguvu.
+
+
+Igikoresho co gupima kandi kiratanga uburyo bwo guhindura ibintu ku bakoresha bateye imbere bashaka guhindura ibipimo vy’igerageza. Ivyiyumviro vy'umurongo w'amategeko bigufasha gusobanura amashanyarazi n'imirongo y'intango, bikaba bishoboza gukoresha neza cane ku bibazo vy'ikoreshwa vyihariye. Nk'akarorero, nimba umaze kumenya ko ibikoresho vyawe bikora neza ku mirongo myinshi, urashobora gutangura igipimo ku mirongo myinshi aho gutangura ku mirongo y'imbere. Ukwo guhinduranya bituma ico gikoresho gifise akamaro ku bakoresha bashasha barondera gukoresha neza ibintu vy’ubuhinga bwa none be n’abacukuzi b’amabuye y’agaciro bazi utuntu n’utundi bashaka guhindura neza ibiranga ibikorwa vy’ubuhinga.
+
+
+## Guca hejuru y'isaha Bitaxe yawe
+
 <chapterId>6b48c0c6-51c3-51a3-b317-850a374ae61e</chapterId>
+
 
 :::video id=46c7a442-cd72-477c-8c91-b2c489ada1e6:::
 
-Overclocking a Bitaxe device requires careful consideration of both hardware limitations and cooling requirements. While many users prefer to underclock their devices for quieter operation, understanding proper overclocking techniques is essential for those seeking maximum performance without damaging their hardware. The process involves increasing the frequency and potentially adjusting voltage settings beyond factory specifications, which inherently increases heat generation and stress on components.
+Gukoresha igikoresho ca Bitaxe bisaba ko umuntu yiyumvira neza ivyerekeye imipaka y’ibikoresho be n’ibisabwa vyo gukonjesha. Naho benshi mu bakoresha bakunda gukoresha underclock ku bikoresho vyabo kugira ngo bikore neza, gutahura ubuhinga bwiza bwo gukoresha overclocking ni ngombwa ku barondera gukora neza cane ataco bononekaye ku bikoresho vyabo. Ivyo bikaba birimwo kwongera incuro no guhindura ubushobozi bw’umuriro birenze ivyo uruganda ruvuga, ivyo bikaba bituma ubushuhe buva mu bikorwa n’imibabaro ku bihimba.
 
-The foundation of successful overclocking lies in adequate cooling infrastructure. Before attempting any frequency modifications, you must ensure your Bitaxe has proper heat dissipation capabilities. A Bitaxe Gamma with a quality heatsink and fan provides the necessary thermal management for safe overclocking. Devices with small heatsinks and inadequate fans should not be overclocked, as poor cooling performance will lead to thermal throttling and potential hardware damage. The relationship between heat and component longevity is critical to understand—excessive heat creates stress that degrades electronic components over time, significantly reducing the operational lifespan of your device.
 
-### Strategic Heatsink Placement
+Umushinge wo gutera imbere neza uri mu bikorwa remezo bihagije vyo gukonjesha. Imbere yo kugerageza guhindura incuro, utegerezwa kumenya neza ko Bitaxe yawe ifise ubushobozi bwo gukuraho ubushuhe. Bitaxe Gamma ifise heatsink y’uburyo bwiza n’umuyaga itanga uburyo bwo gucungera ubushuhe bukenewe kugira ngo umuntu ashobore gukora overclocking ata nkomanzi. Ivyombo bifise utuzu dutoduto two gukonjesha n’ibikoresho bidakwiye ntibikwiye gukoreshwa cane, kuko iyo bikonjesha nabi bizotuma ubushuhe buhagarara kandi bishobora kwonona ibikoresho. Isano riri hagati y’ubushuhe n’ubuzima buramba bw’ibihimba ni ikintu gihambaye cane kugira ngo umuntu atahure—ubushuhe burenze urugero buratuma umuntu agira umubabaro utuma ibihimba vy’ubuhinga bwa none bihungabana uko igihe kigenda kirarenga, ivyo bikaba bigabanya cane igihe igikoresho cawe gishobora kumara.
 
-The most critical component requiring additional cooling is the buck converter, a small black component located on the backside of the Bitaxe near the large coil. This device converts the incoming 5V power supply down to the appropriate voltage for the ASIC chip, typically around 1.2V. The buck converter, often referred to as the TPS, generates significant heat during operation and represents a thermal bottleneck that limits overclocking potential. Installing a small adhesive heatsink on this component not only enables higher overclocking headroom but also improves overall efficiency by reducing thermal losses.
 
-Additional heatsink placement can benefit other high-current areas of the board. The voltage regulation circuitry experiences substantial electrical stress as power flows from the input section down through various board traces to supply the ASIC chip. Many experienced overclockers install heatsinks on the front of the Bitaxe in these high-current areas to further improve thermal dissipation. While not strictly necessary for moderate overclocking, these additional cooling measures become important when pushing frequencies to extreme levels.
+### Ingamba zo gushiramwo Heatsink
 
-### Cooling System Considerations and Limitations
 
-The ESP32 controller, visible as the silvery component on the board, typically does not require additional cooling. This component generates minimal heat independently and only becomes warm due to thermal transfer from surrounding components. Installing heatsinks near the ESP32 can potentially interfere with the adjacent Wi-Fi antenna, degrading wireless connectivity and signal quality. Focus cooling efforts on the power regulation components and ASIC area rather than the control circuitry.
+Igikoresho gihambaye cane gisaba gukonjeshwa ni igikoresho gihindura buck, igice gitoyi c’umwirabura kiri inyuma ya Bitaxe hafi y’ico gikoresho kinini. Ico gikoresho gihindura umuriro winjira w’amashanyarazi 5V ukaja ku bushobozi bukwiye bw’igice ca ASIC, mu bisanzwe bukaba buri hafi y’amashanyarazi 1.2V. Igihindura amahera, akenshi citwa TPS, kiratanga ubushuhe bwinshi mu gihe c’ibikorwa kandi kigereranya ubushuhe bugabanya ubushobozi bwo gukora cane. Gushiramwo agace gatoyi k’ubushuhe bufatanya kuri ico gice ntibituma gusa umutwe ugira umwanya munini wo gukoresha cane, ariko kandi biratuma umutwe ukora neza muri rusangi mu kugabanya ubushuhe butakazwa.
 
-Dual fan configurations present both opportunities and limitations. While adding a second fan to blow air across the back of the Bitaxe can improve cooling performance, the device's firmware can only control one fan properly. The Bitaxe has two fan headers but only one fan controller, meaning that connecting two fans will confuse the firmware as it receives conflicting RPM signals. This configuration will function but may result in unpredictable fan control behavior.
 
-### Baseline Performance Assessment
+Ivyongeyeko vyo gushiramwo umuriro bishobora kugirira akamaro ibindi bice vy’urubaho bifise amashanyarazi menshi. Ivyo bikoresho bigenzura umuriro birashikirwa n’ingorane nyinshi z’umuyagankuba uko ubushobozi buva mu gice c’injiza bukamanuka biciye mu nzira zitandukanye z’ibarabara kugira ngo buhe igice ca ASIC. Abahinga mu vy’ugutera umuriro benshi bashiraho ibikoresho bifata ubushuhe imbere muri Bitaxe muri ivyo bibanza bifise amashanyarazi menshi kugira ngo barushirize gutuma ubushuhe bugenda neza. Naho bitari ngombwa cane kugira ngo umuntu ashobore gukora cane, izo ngingo z’inyongera zo gukonjesha zica zigira akamaro igihe umuntu asunika incuro ku rugero rwo hejuru cane.
 
-Before attempting any overclocking modifications, establish baseline performance metrics by running your Bitaxe at stock settings for several hours. Monitor the ASIC temperature, voltage regulator temperature, and fan speed percentage through the web interface. Optimal operating temperatures should maintain the ASIC below 60°C and the voltage regulator below 60°C under normal conditions. If your device already operates above 65°C on the ASIC or 70-80°C on the voltage regulator at stock settings, additional cooling hardware is mandatory before proceeding with overclocking.
 
-The systematic approach to frequency increases involves incremental steps using the predefined frequency options in the settings menu. Begin by selecting the next available frequency step above your current setting while maintaining the default core voltage. This conservative approach allows you to evaluate thermal and stability impacts before making additional changes. Allow the device to operate at each new frequency setting for at least 30 minutes to one hour, monitoring temperature trends and hash rate stability throughout the evaluation period.
+### Ivyiyumviro n'imipaka y'uburyo bwo gukonjesha
 
-### Advanced Custom Configuration
 
-Access to custom frequency and voltage settings requires enabling the advanced overclocking interface by appending "?OC" to the device's web interface URL. This unlocks manual input fields for precise frequency and voltage control, accompanied by appropriate warnings about the risks of operating outside designed parameters. The custom interface enables fine-tuning beyond the standard frequency steps, allowing experienced users to optimize performance for their specific cooling configurations.
+Igikoresho co kugenzura ESP32, kiboneka nk’igice c’ifeza kiri ku rubaho, mu bisanzwe ntigikeneye gukonjeshwa kwongereweko. Ico gice gitanga ubushuhe bukeyi cane kandi gica gishuha gusa kubera ubushuhe buva ku bice bikikije. Gushiramwo ibikoresho vy’ugukura umuriro hafi y’i ESP32 birashobora guhungabanya antene ya Wi-Fi iri hafi, bigatuma uburyo bwo gukorana n’ibindi bikoresho bitagira amashanyarazi buhungabana be n’uburyo bw’ikimenyetso. Niwibande ku nguvu zo gukonjesha ku bihimba bigenzura ubushobozi no ku karere ka ASIC aho kwibanda ku nzira y’ubugenzuzi.
 
-When using custom settings, maintain conservative increment sizes of 10-15 MHz per adjustment step. This methodical approach prevents sudden thermal spikes and allows for proper stability testing at each frequency level. Some advanced users achieve frequencies around 700 MHz with core voltages adjusted to 1.175V or similar values, but these extreme settings require extensive cooling modifications and careful monitoring. The voltage regulator can operate at temperatures up to 100°C without immediate damage, but higher temperatures reduce efficiency and long-term reliability. Successful overclocking requires patience, systematic testing, and continuous monitoring to achieve stable performance improvements while preserving hardware integrity.
 
-# Final Section
+Imiterere y'abafana babiri iratanga amahirwe n'imipaka. Naho kwongerako umuyaga wa kabiri wo gufuha umuyaga mu nyuma ya Bitaxe bishobora gutuma ikora neza mu gukonjesha, porogarama y’ico gikoresho ishobora gucungera neza umuyaga umwe gusa. Bitaxe ifise imitwe ibiri y’abafana ariko umugenzuzi w’abafana umwe gusa, bisobanura ko gufatanya abafana babiri bizotera urujijo firmware kuko ironka ibimenyetso vya RPM bihushanye. Iyi ntunganyo izokora ariko ishobora gutuma habaho inyifato idasanzwe yo gucungera umuyaga.
+
+
+### Isuzuma ry'ibikorwa vy'ishimikiro
+
+
+Imbere yo kugerageza guhindura ibintu vyose, shiraho ibipimo vy’ibikorwa vy’intango mu gukoresha Bitaxe yawe ku mirongo y’ububiko mu masaha menshi. Gukurikirana ubushuhe bwa ASIC, ubushuhe bw’umurongozi w’umuriro, n’ijanisha ry’umuvuduko w’umuyaga biciye ku rubuga. Ubushuhe bwiza bwo gukoresha bukwiye gutuma ASIC iguma munsi ya 60°C n’umurongozi w’umuriro munsi ya 60°C mu bihe bisanzwe. Nimba igikoresho cawe gisanzwe gikora hejuru ya 65°C kuri ASIC canke 70-80°C ku gikoresho co guhindura umuriro ku mirongo y’ububiko, ibindi bikoresho vyo gukonjesha ni ngombwa imbere y’uko utangura gukora overclocking.
+
+
+Uburyo butunganye bwo kwongerera incuro bujanye n’intambwe z’inyongera hakoreshejwe amahitamwo y’incuro yategekanijwe imbere y’igihe mu rutonde rw’imiterere. Tangana uhisemwo intambwe ikurikira y’incuro iriho hejuru y’ivyo ukoresha ubu mu gihe uguma ufise umuriro w’imbere. Ubwo buryo bwo kubungabunga buratuma ushobora gusuzuma ingaruka z’ubushuhe n’ugushikama imbere y’uko ugira ibindi bihinduka. Reka igikoresho gikore ku nkuru nshasha yose y’incuro nibura iminota 30 gushika kw’isaha imwe, ukurikirane imigenderanire y’ubushuhe n’ugushikama kw’igipimo ca hash mu kiringo cose c’isuzuma.
+
+
+### Guteza imbere gutunganya ku giti cawe
+
+
+Kugera ku nkuru z'imirongo n'imiterere y'umuriro bisaba gukoresha urubuga rwo gutera imbere mu gushiramwo "?OC" ku rubuga rwa URL rw'urubuga rw'igikoresho. Ivyo bifungura ivyicaro vy’inyungu vy’amaboko kugira ngo umuntu ashobore kugenzura neza incuro n’umuriro, biherekejwe n’imburi zibereye ku bijanye n’ingorane zo gukoresha hanze y’ibipimo vyategekanijwe. Ivyo bikoresho bishobora gutuma umuntu ashobora gutunganya neza ibintu birenze intambwe z’incuro zisanzwe, bikaba vyemerera abakoresha bazi utuntu n’utundi gukora neza kubera imiterere yabo yihariye yo gukonjesha.
+
+
+Igihe ukoresha imiterere y’ibintu, guma ufise ubunini bw’inyongera busanzwe bwa 10-15 MHz ku ntambwe yo guhindura. Ubwo buryo bw’ubuhinga burabuza ubushuhe gutera bukwi na bukwi kandi bugatuma habaho igerageza ryiza ry’ugushikama ku rugero rw’incuro rwose. Bamwe mu bakoresha bateye imbere barashika ku mirongo iri hafi 700 MHz n’amashanyarazi y’imbere ahinduwe ku 1.175V canke agaciro nk’ako, ariko ivyo bipimo bikomeye cane bisaba guhindura cane ugukonjesha no kugenzura neza. Ico gikoresho gishobora gukora ku bushuhe bushika kuri 100°C ata co gica conona, ariko ubushuhe bwinshi buragabanya ubushobozi n’ukwizigirwa kw’igihe kirekire. Kugira ngo umuntu ashobore gukoresha neza overclocking bisaba ukwihangana, gupima mu buryo butunganye, no gukurikirana ubudasiba kugira ngo umuntu ashike ku ntumbero nziza zidahinduka mu gihe azigama ubutungane bw’ibikoresho.
+
+
+# Igice ca nyuma
+
 <partId>33367393-17a7-58d4-8359-79fffc6221fb</partId>
 
-## Evaluate this course
+
+## Gusuzuma iri shure
+
 <chapterId>785f8b92-c8a6-5a65-aa39-e9753a7edf51</chapterId>
+
 <isCourseReview>true</isCourseReview>
 
-## Conclusion
+## Iciyumviro
+
 <chapterId>758baee6-2404-56fb-b534-6a39e441ae29</chapterId>
+
 <isCourseConclusion>true</isCourseConclusion>

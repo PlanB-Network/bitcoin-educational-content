@@ -6,3 +6,4 @@ wrong_answers:
   - Üçüncü taraf projelere erken açıklama yapılmasından kaynaklanabilecek yasal sorumluluk sorunlarından kaçınmak için
 explanation: |
   Zamanlama stratejisi, diğerlerine yardım etmeden önce Bitcoin'ün ağının korunması gereken güvenlik öncelikli bir yaklaşımı yansıtmaktadır. Altcoinler aynı anda bilgilendirilseydi, saldırganlar altcoin uygulamalarını inceleyebilir veya güvenlik açığını anlamak için bunlardan yararlanabilir, ardından potansiyel olarak henüz yükseltilmemiş Bitcoin düğümlerine saldırabilirdi. Sıralı yaklaşım, yardımı diğer ağlara genişletmeden önce Bitcoin'ün yaygın olarak korunmasını sağlayarak ekosistem genelinde güvenlik açığından yararlanma penceresini en aza indirir.
+reviewed: false

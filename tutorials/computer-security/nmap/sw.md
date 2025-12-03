@@ -1,6 +1,6 @@
 ---
 name: Nmap
-description: Master Nmap ya ramani ya mtandao na uchanganuzi wa uwezekano wa kuathirika
+description: Master Nmap ya map ya mtandao na uchanganuzi wa uwezekano wa kuathirika
 ---
 
 ![cover](assets/cover.webp)
@@ -14,7 +14,6 @@ description: Master Nmap ya ramani ya mtandao na uchanganuzi wa uwezekano wa kua
 ___
 
 
-
 Karibu kwenye mafunzo haya ya utangulizi kwa Nmap, yaliyoundwa kwa ajili ya mtu yeyote anayetaka kujua zana hii nzuri ya kuchanganua mtandao. Kusudi ni kukupa maarifa ya kimsingi unayohitaji kutumia Nmap kwa ufanisi siku hadi siku.
 
 
@@ -23,7 +22,7 @@ Nmap ni zana yenye matumizi mengi, inayotumiwa sana na wataalamu wa IT, mtandao 
 
 
 
-Utajifunza misingi ya Nmap, jinsi ya kufanya ukaguzi wa mlango, kutambua seva pangishi zinazotumika kwenye mtandao, kugundua matoleo ya huduma na mifumo ya uendeshaji, kufanya ukaguzi wa uwezekano wa kuathiriwa na mengine mengi. Kila sehemu inajumuisha maelezo ya kina na mifano ya vitendo ili kukusaidia kutumia vyema Nmap katika miktadha mbalimbali.
+Utajifunza misingi ya Nmap, jinsi ya kufanya ukaguzi wa mlango, kutambua server pangishi zinazotumika kwenye mtandao, kugundua matoleo ya huduma na mifumo ya uendeshaji, kufanya ukaguzi wa uwezekano wa kuathiriwa na mengine mengi. Kila sehemu inajumuisha maelezo ya kina na mifano ya vitendo ili kukusaidia kutumia vyema Nmap katika miktadha mbalimbali.
 
 
 
@@ -47,7 +46,7 @@ Katika sehemu hii ya kwanza, tutaangalia zana ya kuchanganua mtandao wa Nmap. Tu
 
 
 
-Nmap, ya _Network Mapper_, ni zana isiyolipishwa na huria inayotumika kwa **ugunduzi wa mtandao, ukaguzi wa ramani na usalama**. Inaweza pia kutumika kwa kazi zingine kama vile ** orodha ya mtandao, uchunguzi au usimamizi**.
+Nmap, ya _Network Mapper_, ni zana isiyolipishwa na huria inayotumika kwa **ugunduzi wa mtandao, ukaguzi wa map na usalama**. Inaweza pia kutumika kwa kazi zingine kama vile ** orodha ya mtandao, uchunguzi au usimamizi**.
 
 
 
@@ -61,9 +60,9 @@ Nguvu za Nmap ni nyingi:
 
 
 
-- **Yenye nguvu na rahisi**: Nmap inaweza kuchanganua mitandao mikubwa na kutumia mbinu za juu za utambuzi. Inaauni UDP, TCP, ICMP, IPv4 na IPv6, na inaweza kutambua toleo, uchanganuzi wa kuathirika au mwingiliano mahususi wa itifaki. Usanifu wake ni wa msimu, shukrani haswa kwa hati za NSE (Nmap Scripting Engine), ambazo tutaziangalia baadaye katika somo hili.
+- **Yenye nguvu na rahisi**: Nmap inaweza kuchanganua mitandao mikubwa na kutumia mbinu za juu za utambuzi. Inaauni UDP, TCP, ICMP, IPv4 na IPv6, na inaweza kutambua toleo, uchanganuzi wa kuathirika au mwingiliano mahususi wa protocol. Usanifu wake ni wa msimu, shukrani haswa kwa hati za NSE (Nmap Scripting Engine), ambazo tutaziangalia baadaye katika somo hili.
 - **Urahisi wa kutumia**: hati rasmi ni nyingi na za ubora wa juu zaidi. Rasilimali nyingi za jumuiya zinapatikana pia kukusaidia kuanza.
-- **Umaarufu na maisha marefu**: Nmap imekuwa rejeleo katika uwanja wake tangu 1998. Toleo la sasa, wakati wa sasisho hili, ni 7.95. Ingawa zana zingine zipo kwa kazi mahususi, Nmap inasalia kuwa lazima iwe nayo kwa uchoraji ramani na uchanganuzi wa mtandao.
+- **Umaarufu na maisha marefu**: Nmap imekuwa rejeleo katika uwanja wake tangu 1998. Toleo la sasa, wakati wa sasisho hili, ni 7.95. Ingawa zana zingine zipo kwa kazi mahususi, Nmap inasalia kuwa lazima iwe nayo kwa uchoraji wa map na uchanganuzi wa mtandao.
 
 
 
@@ -113,11 +112,11 @@ nmap 192.168.10.13 10.10.10.0/24 -sV -sC --top-ports 250
 
 
 
-Amri hii itaelezewa kwa undani baadaye. Katika somo hili, tutakuwa tukitumia Nmap kwenye Linux, lakini matumizi yake yanafanana kwenye mifumo mingine. Chini ya Windows, Nmap inategemea **Npcap** maktaba (ikichukua nafasi ya WinPcap iliyopitwa na wakati) kunasa na kuingiza pakiti za mtandao.
+Amri hii itaelezewa kwa undani baadaye. Katika somo hili, tutakuwa tukitumia Nmap kwenye Linux, lakini matumizi yake yanafanana kwenye mifumo mingine. Chini ya Windows, Nmap inategemea **Npcap** maktaba (ikichukua nafasi ya WinPcap iliyopitwa na wakati) kunasa na kuingiza packet za mtandao.
 
 
 
-Nmap inatumika kama binary ya kawaida, kama vile `ls` au `ip`. Baadhi ya vipengele vya kina vinaweza kuhitaji haki za juu, kwani wakati mwingine zana hubadilisha pakiti kwa njia zisizo za kawaida ili kuibua hisia mahususi kwenye mifumo inayolengwa (hasa kwa ajili ya huduma au utambuzi wa kuathirika).
+Nmap inatumika kama binary ya kawaida, kama vile `ls` au `ip`. Baadhi ya vipengele vya kina vinaweza kuhitaji haki za juu, kwani wakati mwingine zana hubadilisha packet kwa njia zisizo za kawaida ili kuibua hisia mahususi kwenye mifumo inayolengwa (hasa kwa ajili ya huduma au utambuzi wa kuathirika).
 
 
 
@@ -131,8 +130,8 @@ Kabla ya kutumia Nmap, ni muhimu kufahamu athari zake kwenye mitandao na mifumo:
 
 
 
-- Inaweza kutuma **maelfu au hata mamilioni ya pakiti** kwa muda mfupi, ambayo inaweza kujaza miundomsingi fulani ya mtandao.
-- Inaweza generate **pakiti mbovu au zisizo za kawaida**, zinazoweza kutatiza vifaa fulani (hasa mifumo ya viwandani).
+- Inaweza kutuma **maelfu au hata mamilioni ya packet** kwa muda mfupi, ambayo inaweza kujaza miundomsingi fulani ya mtandao.
+- Inaweza generate **packet mbovu au zisizo za kawaida**, zinazoweza kutatiza vifaa fulani (hasa mifumo ya viwandani).
 - Inaweza kutoa **tabia kama ya uvamizi**, ambayo inaweza kusababisha arifa katika mifumo ya usalama (ngome, IDS/IPS, n.k.).
 
 
@@ -145,7 +144,7 @@ Kwa ujumla, **Nmap ni zana inayozungumza sana**, kwani inazalisha trafiki nyingi
 
 
 
-Sehemu hii inatanguliza Nmap na sifa zake kuu. Tumeona kuwa ni zana muhimu, yenye nguvu na inayoweza kunyumbulika ya ramani ya mtandao. Tumejadili pia jinsi inavyofanya kazi na tahadhari unazohitaji kuchukua unapoitumia, ili kuweka eneo la sehemu zifuatazo za mafunzo.
+Sehemu hii inatanguliza Nmap na sifa zake kuu. Tumeona kuwa ni zana muhimu, yenye nguvu na inayoweza kunyumbulika ya map ya mtandao. Tumejadili pia jinsi inavyofanya kazi na tahadhari unazohitaji kuchukua unapoitumia, ili kuweka eneo la sehemu zifuatazo za mafunzo.
 
 
 
@@ -165,11 +164,11 @@ Katika sehemu hii, tutaangalia matumizi makuu ya zana ya kuchanganua mtandao wa 
 
 
 
-Nmap inaweza kutumika kwa uchunguzi wa mtandao na, kwa upana zaidi, kwa ufuatiliaji. Kwa njia sawa na ambayo ping inaweza kutumika kubainisha kama wapangishi wawili wanawasiliana, Nmap inaweza kutumika kubainisha kwa haraka ikiwa seva pangishi inatumika, au kama huduma fulani inafanya kazi. Shukrani kwa [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap"), tunaweza kupata data sahihi kuhusu muda wa kujibu wa mwenyeji, njia inayochukuliwa na pakiti, jibu linalotolewa na huduma mahususi, n.k.
+Nmap inaweza kutumika kwa uchunguzi wa mtandao na, kwa upana zaidi, kwa ufuatiliaji. Kwa njia sawa na ambayo ping inaweza kutumika kubainisha kama wapangishi wawili wanawasiliana, Nmap inaweza kutumika kubainisha kwa haraka ikiwa server pangishi inatumika, au kama huduma fulani inafanya kazi. Shukrani kwa [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap"), tunaweza kupata data sahihi kuhusu muda wa kujibu wa mwenyeji, njia inayochukuliwa na packet, jibu linalotolewa na huduma mahususi, n.k.
 
 
 
-Amri ifuatayo na matokeo yanaweza kutumika, kwa mfano, ili kujua kwa haraka kama seva ya wavuti kwenye seva pangishi **192.168.1.18** inatumika na inajibu ipasavyo:
+Amri ifuatayo na matokeo yanaweza kutumika, kwa mfano, ili kujua kwa haraka kama server ya wavuti kwenye server pangishi **192.168.1.18** inatumika na inajibu ipasavyo:
 
 
 
@@ -183,7 +182,7 @@ nmap --open -p 80 192.168.1.18
 
 
 
-*Tumia Nmap kupata hali ya huduma ya wavuti kutoka kwa seva ya mbali.*
+*Tumia Nmap kupata hali ya huduma ya wavuti kutoka kwa server ya mbali.*
 
 
 
@@ -191,11 +190,11 @@ Kwa hivyo, kutumia Nmap huenda zaidi kuliko "mtihani wa ping" maarufu wakati wa 
 
 
 
-### III. Kutumia Nmap kwa ramani ya mtandao
+### III. Kutumia Nmap kwa map ya mtandao
 
 
 
-Kama _Network Mapper_, ramani ya mtandao ndio lengo kuu la zana hii. Inaweza kutumika ndani ya mtandao wa ndani, au katika mitandao mingi, subneti na VLAN, kuorodhesha seva pangishi na huduma zote zinazoweza kufikiwa. Nmap hufanya kazi hii kuwa ya haraka na bora zaidi kuliko njia yoyote ya mwongozo.
+Kama _Network Mapper_, map ya mtandao ndio lengo kuu la zana hii. Inaweza kutumika ndani ya mtandao wa ndani, au katika mitandao mingi, subneti na VLAN, kuorodhesha server pangishi na huduma zote zinazoweza kufikiwa. Nmap hufanya kazi hii kuwa ya haraka na bora zaidi kuliko njia yoyote ya mwongozo.
 
 
 
@@ -291,7 +290,7 @@ Lakini jihadhari: **zana za kuchanganua uwezekano wa kuathiriwa zina kikomo**. N
 
 
 
-Tumeona kuwa ujuzi wa Nmap unaweza kushughulikia matukio mbalimbali ya utumiaji, kutoka kwa uchunguzi na ufuatiliaji hadi uchoraji wa ramani, tathmini ya sera ya usalama na uchanganuzi wa uwezekano wa kuathirika. Katika sehemu inayofuata, tutashuka hadi nitty-gritty na kusakinisha Nmap.
+Tumeona kuwa ujuzi wa Nmap unaweza kushughulikia matukio mbalimbali ya utumiaji, kutoka kwa uchunguzi na ufuatiliaji hadi uchoraji wa map, tathmini ya sera ya usalama na uchanganuzi wa uwezekano wa kuathirika. Katika sehemu inayofuata, tutashuka hadi nitty-gritty na kusakinisha Nmap.
 
 
 
@@ -370,7 +369,7 @@ matokeo ya kuonyesha toleo la sasa la Nmap._
 
 
 
-Kumbuka uwepo katika onyesho hili la maktaba ya "libpcap" (_Packet Capture Library_) na toleo lake. Pia inatumiwa na Wireshark, "libpcap" inatumiwa na Nmap kuunda na kuendesha pakiti na kusikiliza trafiki ya mtandao.
+Kumbuka uwepo katika onyesho hili la maktaba ya "libpcap" (_Packet Capture Library_) na toleo lake. Pia inatumiwa na Wireshark, "libpcap" inatumiwa na Nmap kuunda na kuendesha packet na kusikiliza trafiki ya mtandao.
 
 
 
@@ -429,7 +428,7 @@ usakinishaji wa maktaba ya "Npcap" wakati wa kusakinisha Nmap chini ya Windows
 
 
 
-Hii ndiyo maktaba ambayo Nmap inategemea kusimamia mawasiliano ya mtandao, yaani, kujenga, kutuma na kupokea pakiti za mtandao. Labda tayari umekutana na maktaba hii ikiwa unatumia Wireshark kwenye Windows, kwani inaitumia pia na inahitaji usakinishaji.
+Hii ndiyo maktaba ambayo Nmap inategemea kusimamia mawasiliano ya mtandao, yaani, kujenga, kutuma na kupokea packet za mtandao. Labda tayari umekutana na maktaba hii ikiwa unatumia Wireshark kwenye Windows, kwani inaitumia pia na inahitaji usakinishaji.
 
 
 
@@ -485,7 +484,7 @@ Iwe kwenye Linux au Windows, kuna hali nyingi ambapo Nmap itakuuliza upate ufiki
 
 
 
-- Kuunda pakiti za mtandao "mbichi": Nmap ina uwezo wa anuwai ya mbinu za kuchanganua, ikiwa ni pamoja na upotoshaji wa pakiti wa hali ya juu na ujenzi. Hivi ndivyo hali ilivyo, kwa mfano, tunapotaka kufanya uchanganuzi wa TCP SYN, ambao hauheshimu desturi ya _Three-way handshake_ ya ubadilishanaji wa TCP. Ili kufanya hivyo, Nmap inahitaji kutumia vitendaji isipokuwa zile asili za mifumo ya uendeshaji, ambayo inajua tu jinsi ya kuheshimu utendaji mzuri katika mawasiliano ya mtandao (inatoa wito kwa maktaba za "Npcap" na "libcap" zilizoonekana hapo juu). Ni kwa sababu Nmap haifanyi mambo kwa njia "ya kawaida" ambayo inaweza kupata habari fulani kuhusu OS, huduma na udhaifu fulani.
+- **Kuunda packet za mtandao "mbichi"**: Nmap ina uwezo wa anuwai ya mbinu za kuchanganua, ikiwa ni pamoja na upotoshaji wa packet wa hali ya juu na ujenzi. Hivi ndivyo hali ilivyo, kwa mfano, tunapotaka kufanya uchanganuzi wa TCP SYN, ambao hauheshimu desturi ya _Three-way handshake_ ya exachange ya TCP. Ili kufanya hivyo, Nmap inahitaji kutumia vitendaji isipokuwa zile asili za mifumo ya uendeshaji, ambayo inajua tu jinsi ya kuheshimu utendaji mzuri katika mawasiliano ya mtandao (inatoa wito kwa maktaba za "Npcap" na "libcap" zilizoonekana hapo juu). Ni kwa sababu Nmap haifanyi mambo kwa njia "ya kawaida" ambayo inaweza kupata habari fulani kuhusu OS, huduma na udhaifu fulani.
 
 
 
@@ -497,13 +496,13 @@ Iwe kwenye Linux au Windows, kuna hali nyingi ambapo Nmap itakuuliza upate ufiki
 
 
 
-- Kusikiliza kwenye bandari za upendeleo: kwenye mifumo ya uendeshaji, bandari kutoka 0 hadi 1024 (TCP pamoja na UDP) zinasemekana kuwa za upendeleo, i.e. zimehifadhiwa kwa matumizi maalum sana na kwa hivyo zinalindwa. Ingawa hii ni sababu ya kizamani leo, bado ni muhimu kuwa na mapendeleo fulani ya kusikiliza kwenye bandari hizi, ambayo Nmap inaweza kufanya kulingana na jinsi itatumika.
+- **Kusikiliza kwenye port za upendeleo**: kwenye mifumo ya uendeshaji, port kutoka 0 hadi 1024 (TCP pamoja na UDP) zinasemekana kuwa za upendeleo, i.e. zimehifadhiwa kwa matumizi maalum sana na kwa hivyo zinalindwa. Ingawa hii ni sababu ya kizamani leo, bado ni muhimu kuwa na mapendeleo fulani ya kusikiliza kwenye port hizi, ambayo Nmap inaweza kufanya kulingana na jinsi itatumika.
 
 
 
 
 
-- Kutuma pakiti za UDP: Vile vile, kusikiliza programu ya mtandao kwenye bandari za UDP (itifaki isiyo na uraia) kunahitaji haki za upendeleo kwenye mifumo ya uendeshaji. Kwa hivyo, kikao cha upendeleo kitahitajika ikiwa ungependa kufanya uchunguzi wa UDP, ambao Nmap italazimika kusikiliza jibu ili kuchanganua majibu ya skanisho zake.
+- **Kutuma packet za UDP:** Vile vile, kusikiliza programu ya mtandao kwenye port za UDP (protocol isiyo na uraia) kunahitaji haki za upendeleo kwenye mifumo ya uendeshaji. Kwa hivyo, kikao cha upendeleo kitahitajika ikiwa ungependa kufanya uchunguzi wa UDP, ambao Nmap italazimika kusikiliza jibu ili kuchanganua majibu ya skanisho zake.
 
 
 
@@ -528,12 +527,12 @@ Ni hayo tu! Nmap sasa imesakinishwa kwenye mfumo wetu wa uendeshaji na iko tayar
 
 
 
-Kwa umakini zaidi, sasa tuna wazo bora zaidi la zana ya kutengeneza ramani ya Nmap ni nini na matumizi yake ya kawaida ni nini, pamoja na mapungufu yake. Hebu tuendelee!
+Kwa umakini zaidi, sasa tuna wazo bora zaidi la zana ya kutengeneza map ya Nmap ni nini na matumizi yake ya kawaida ni nini, pamoja na mapungufu yake. Hebu tuendelee!
 
 
 
 
-## 4 - TCP na UDP huchanganua bandari kwa kutumia Nmap
+## 4 - TCP na UDP huchanganua port kwa kutumia Nmap
 
 
 
@@ -541,11 +540,11 @@ Kwa umakini zaidi, sasa tuna wazo bora zaidi la zana ya kutengeneza ramani ya Nm
 
 
 
-Katika sehemu hii, tutajifunza jinsi ya kufanya upekuzi wetu wa kwanza kwenye mlango kwa kutumia zana ya kuchanganua mtandao wa Nmap. Tutaona jinsi ya kuitumia kuunda orodha ya huduma za mtandao zilizofichuliwa kwa seva pangishi, iwe kwa kutumia itifaki za TCP au UDP.
+Katika sehemu hii, tutajifunza jinsi ya kufanya upekuzi wetu wa kwanza kwenye mlango kwa kutumia zana ya kuchanganua mtandao wa Nmap. Tutaona jinsi ya kuitumia kuunda orodha ya huduma za mtandao zilizofichuliwa kwa server pangishi, iwe kwa kutumia protocol za TCP au UDP.
 
 
 
-Kuanzia sasa na kuendelea, kumbuka kuchanganua seva pangishi pekee katika mazingira yaliyodhibitiwa ambayo unayo idhini ya wazi.
+Kuanzia sasa na kuendelea, kumbuka kuchanganua server pangishi pekee katika mazingira yaliyodhibitiwa ambayo unayo idhini ya wazi.
 
 
 
@@ -562,18 +561,18 @@ Kuanzia sasa na kuendelea, kumbuka kuchanganua seva pangishi pekee katika mazing
 
 
 
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box"): Jukwaa la mafunzo la Udukuzi, Hack The Box kila mara hukupa mifumo hatarishi ili uweze kushambulia unavyoona inafaa. Mifumo mia kadhaa inapatikana, lakini dimbwi jipya la mashine 20 hutolewa bila malipo mwaka mzima, na ufikiaji kupitia OpenVPN VPN.
+- **[Hack The Box](https://app.hackthebox.com/ "Hack The Box")**: Jukwaa la mafunzo la Udukuzi, Hack The Box kila mara hukupa mifumo hatarishi ili uweze kushambulia unavyoona inafaa. Mifumo mia kadhaa inapatikana, lakini dimbwi jipya la mashine 20 hutolewa bila malipo mwaka mzima, na ufikiaji kupitia OpenVPN VPN.
 
 
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub"): Mfumo huu unatoa mifumo mingi hatarishi kimakusudi kwa upakuaji, ambayo inaweza kutumika kupitia VirtualBox (pia suluhu isiyolipishwa) au njia nyinginezo. Mara baada ya kupakuliwa, hakuna haja ya VPN - kila kitu ni cha ndani.
+- **[Vulnhub](https://www.vulnhub.com/ "Vulnhub")**: Mfumo huu unatoa mifumo mingi hatarishi kimakusudi kwa upakuaji, ambayo inaweza kutumika kupitia VirtualBox (pia suluhu isiyolipishwa) au njia nyinginezo. Mara baada ya kupakuliwa, hakuna haja ya VPN - kila kitu ni cha ndani.
 
 
 
 
-Pia, uko huru **kuunda mashine pepe** kwenye mfumo wako wa uendeshaji unaoupenda na usakinishe huduma mbalimbali juu yake kama malengo ya majaribio. Faida hapa itakuwa kwamba utaweza pia kuona kile kinachotokea kwenye upande wa seva wakati wa kuchanganua, haswa kwa Wireshark, na kuwa na mkono kwenye ngome ya ndani tunapofanya majaribio ya hali ya juu zaidi.
+Pia, uko huru **kuunda mashine pepe** kwenye mfumo wako wa uendeshaji unaoupenda na usakinishe huduma mbalimbali juu yake kama malengo ya majaribio. Faida hapa itakuwa kwamba utaweza pia kuona kile kinachotokea kwenye upande wa server wakati wa kuchanganua, haswa kwa Wireshark, na kuwa na mkono kwenye ngome ya ndani tunapofanya majaribio ya hali ya juu zaidi.
 
 
 
@@ -581,15 +580,15 @@ Hebu tupate vitendo!
 
 
 
-### II. Inachanganua bandari za TCP za mwenyeji kupitia Nmap
+### II. Inachanganua port za TCP za mwenyeji kupitia Nmap
 
 
 
-#### A. Uchanganuzi wa bandari wa TCP wa kwanza kwa Nmap
+#### A. Uchanganuzi wa ports wa TCP wa kwanza kwa Nmap
 
 
 
-Sasa tutafanya ukaguzi wetu wa kwanza kupitia Nmap. Lengo letu hapa ni rahisi: tunataka kujua ni huduma zipi zinazofichuliwa na seva ya wavuti ambayo tumetumia hivi punde, ili kuona kama kuna jambo lolote lisilotarajiwa, kama vile huduma ya usimamizi ambayo haifai kufikiwa, au kufichuliwa kwa mlango wa programu ambayo tulifikiri kuwa ilisitishwa.
+Sasa tutafanya ukaguzi wetu wa kwanza kupitia Nmap. Lengo letu hapa ni rahisi: tunataka kujua ni huduma zipi zinazofichuliwa na server ya wavuti ambayo tumetumia hivi punde, ili kuona kama kuna jambo lolote lisilotarajiwa, kama vile huduma ya usimamizi ambayo haifai kufikiwa, au kufichuliwa kwa mlango wa programu ambayo tulifikiri kuwa ilisitishwa.
 
 
 
@@ -615,11 +614,11 @@ matokeo ya uchunguzi rahisi wa TCP uliofanywa na Nmap._
 
 
 
-Kwa kuangalia matokeo haya kwa haraka, tunaelewa kuwa bandari TCP/22 na TCP/80 zinaweza kufikiwa na seva pangishi hii.
+Kwa kuangalia matokeo haya kwa haraka, tunaelewa kuwa port TCP/22 na TCP/80 zinaweza kufikiwa na server pangishi hii.
 
 
 
-Kwa chaguo-msingi, na usipoiambia, Nmap itachanganua tu bandari za TCP.
+Kwa chaguo-msingi, na usipoiambia, Nmap itachanganua tu ports za TCP.
 
 
 
@@ -661,7 +660,7 @@ Host is up (0.00022s latency).
 
 
 
-Hatimaye, Nmap inatufahamisha kwamba bandari 998 za TCP zilizotambuliwa kama zimefungwa hazionyeshwa kwenye:
+Hatimaye, Nmap inatufahamisha kwamba ports 998 za TCP zilizotambuliwa kama zimefungwa hazionyeshwa kwenye:
 
 
 
@@ -688,7 +687,7 @@ Asante kwa kutuepusha na hili!
 
 
 
-Kwa nini bandari 998 "zimefungwa"? Kuongeza lango 2 zilizo wazi hufanya 1000, na hiyo ndiyo idadi ya milango ambayo Nmap itachanganua katika usanidi wake chaguomsingi, si bandari za TCP 65535 zilizopo! Tutaona baadaye kuwa hii inaweza kubinafsishwa kabisa na kwa urahisi. Lakini ikiwa seva pangishi inayolengwa ina huduma inayosikiza kwenye mlango wa kigeni, utambulisho huu wa "chaguo-msingi" hautafichua.
+Kwa nini port 998 "zimefungwa"? Kuongeza lango 2 zilizo wazi hufanya 1000, na hiyo ndiyo idadi ya milango ambayo Nmap itachanganua katika usanidi wake chaguomsingi, si port za TCP 65535 zilizopo! Tutaona baadaye kuwa hii inaweza kubinafsishwa kabisa na kwa urahisi. Lakini ikiwa server pangishi inayolengwa ina huduma inayosikiza kwenye mlango wa kigeni, utambulisho huu wa "chaguo-msingi" hautafichua.
 
 
 
@@ -698,19 +697,19 @@ Kufuatia habari hii, tunapata kinachovutia zaidi: jedwali lililopangwa kulingana
 
 
 
-- Safu wima ya kwanza ya "PORT" inaonyesha tu lango/itifaki inayolengwa, na ni muhimu hapa kuangalia ikiwa ni mlango wa TCP (`<port>/tcp`) au UDP (`<port>/udp`).
+- Safu wima ya kwanza ya "PORT" inaonyesha tu lango/protocol inayolengwa, na ni muhimu hapa kuangalia ikiwa ni mlango wa TCP (`<port>/tcp`) au UDP (`<port>/udp`).
 
 
 
 
 
-- Safu ya "STATE" inaonyesha hali ya huduma ya mtandao iliyogunduliwa kwenye bandari hii na kuamuliwa na Nmap kwa misingi ya jibu lililopatikana. Hii inaweza kuwa "wazi", "imefungwa", "iliyochujwa" au "haijulikani". Tutaona baadaye jinsi Nmap inavyotofautisha kati ya majimbo haya tofauti.
+- Safu ya "STATE" inaonyesha hali ya huduma ya mtandao iliyogunduliwa kwenye port hii na kuamuliwa na Nmap kwa misingi ya jibu lililopatikana. Hii inaweza kuwa "wazi", "imefungwa", "iliyochujwa" au "haijulikani". Tutaona baadaye jinsi Nmap inavyotofautisha kati ya majimbo haya tofauti.
 
 
 
 
 
-- Safu wima ya "SERVICE" inaonyesha huduma iliyofichuliwa kwenye bandari inayohusika. Tafadhali kumbuka, hata hivyo, kwamba hatujatumia chaguo zinazotumika za ugunduzi wa huduma hapa. Nmap inategemea rejeleo la ndani kati ya bandari/itifaki na huduma inayodaiwa kupewa: faili "/etc/services"
+- Safu wima ya "SERVICE" inaonyesha huduma iliyofichuliwa kwenye port inayohusika. Tafadhali kumbuka, hata hivyo, kwamba hatujatumia chaguo zinazotumika za ugunduzi wa huduma hapa. Nmap inategemea rejeleo la ndani kati ya port/protocol na huduma inayodaiwa kupewa: faili "/etc/services"
 
 
 
@@ -727,7 +726,7 @@ hutoa yaliyomo kwenye faili ya "/etc/services" chini ya Linux._
 
 
 
-Ni muhimu kuelewa kwamba, kwa sasa, Nmap haijagundua huduma yoyote inayoendelea. Kwa mfano, haingewezekana kutambua huduma ya SSH nyuma ya bandari ya TCP/80 ikiwa hivi ndivyo ilivyokuwa. Kwa hivyo umuhimu wa kujua jinsi ya kutumia chaguo sahihi - inakuja hivi karibuni!
+Ni muhimu kuelewa kwamba, kwa sasa, Nmap haijagundua huduma yoyote inayoendelea. Kwa mfano, haingewezekana kutambua huduma ya SSH nyuma ya port ya TCP/80 ikiwa hivi ndivyo ilivyokuwa. Kwa hivyo umuhimu wa kujua jinsi ya kutumia chaguo sahihi - inakuja hivi karibuni!
 
 
 
@@ -739,7 +738,7 @@ Kujua jinsi ya kutafsiri matokeo ya Nmap ni sehemu muhimu ya kusimamia zana. Hab
 
 
 
-Ukiangalia kwa karibu kile kinachotokea kwenye mtandao wa Interface wa mwenyeji anayechanganua seva, au kwenye seva yenyewe, vitendo vya Nmap vitakuwa wazi zaidi. Hiyo ndiyo tutafanya hapa.
+Ukiangalia kwa karibu kile kinachotokea kwenye mtandao wa Interface wa mwenyeji anayechanganua server, au kwenye server yenyewe, vitendo vya Nmap vitakuwa wazi zaidi. Hiyo ndiyo tutafanya hapa.
 
 
 
@@ -751,7 +750,7 @@ Katika jaribio hili, mwenyeji wangu wa skanisho (192.168.1.18) na mwenyeji wangu
 
 
 
-Nmap huanza kwa kubaini kama mwenyeji anayelengwa anatumika kwenye mtandao wa ndani kwa kutuma ombi la ARP. Ikipokea jibu, inajua kuwa seva pangishi inatumika na inaanza kuchanganua mtandao wake:
+Nmap huanza kwa kubaini kama mwenyeji anayelengwa anatumika kwenye mtandao wa ndani kwa kutuma ombi la ARP. Ikipokea jibu, inajua kuwa server pangishi inatumika na inaanza kuchanganua mtandao wake:
 
 
 
@@ -763,7 +762,7 @@ _Ombi la ARP lililotolewa na Nmap ili kubaini kama mwenyeji lengwa yupo kwenye m
 
 
 
-Ikiwa seva pangishi itakayochanganuliwa iko kwenye mtandao wa mbali, Nmap huanza kwa kutuma ombi la ping na kujaribu kufikia baadhi ya milango inayoonekana mara kwa mara (TCP/80, TCP/443):
+Ikiwa server pangishi itakayochanganuliwa iko kwenye mtandao wa mbali, Nmap huanza kwa kutuma ombi la ping na kujaribu kufikia baadhi ya milango inayoonekana mara kwa mara (TCP/80, TCP/443):
 
 
 
@@ -779,7 +778,7 @@ Ikipata jibu kwa jaribio lolote kati ya haya, inazingatia lengo kuwa amilifu.
 
 
 
-Mara baada ya Nmap kuamua kuwa lengo lake linatumika, itajaribu kutatua jina la kikoa chake na seva ya DNS iliyosanidiwa kwenye kadi ya mtandao:
+Mara baada ya Nmap kuamua kuwa lengo lake linatumika, itajaribu kutatua jina la kikoa chake na server ya DNS iliyosanidiwa kwenye kadi ya mtandao:
 
 
 
@@ -791,7 +790,7 @@ azimio la dNS kwenye lengo la skanisho la Nmap
 
 
 
-Sasa kwa kuwa Nmap imetambua lengo lake na inajua kuwa ni amilifu, inaanza uchunguzi wake wa bandari wa TCP:
+Sasa kwa kuwa Nmap imetambua lengo lake na inajua kuwa ni amilifu, inaanza uchunguzi wake wa port wa TCP:
 
 
 
@@ -799,11 +798,11 @@ Sasa kwa kuwa Nmap imetambua lengo lake na inajua kuwa ni amilifu, inaanza uchun
 
 
 
-Usambazaji wa pakiti za tCP SYN na mapokezi ya RST/ACK wakati wa kuchanganua Nmap
+Usambazaji wa packet za tCP SYN na mapokezi ya RST/ACK wakati wa kuchanganua Nmap
 
 
 
-Ili kufanya hivyo, katika kila bandari ya TCP katika safu yake chaguomsingi, **itatuma pakiti za TCP SYN na kusubiri jibu**. Katika picha ya skrini hapo juu, inapokea pakiti za TCP RST/ACK kutoka kwa seva iliyochanganuliwa, ikimaanisha "songa mbele, hakuna kitu cha kuona hapa" - kwa maneno mengine, bandari hizi zimefungwa. Kama tulivyoona katika matokeo, hii itakuwa kesi kwa bandari nyingi zilizochanganuliwa. Isipokuwa mbili:
+Ili kufanya hivyo, katika kila port ya TCP katika safu yake chaguomsingi, **itatuma packet za TCP SYN na kusubiri jibu**. Katika picha ya skrini hapo juu, inapokea packet za TCP RST/ACK kutoka kwa server iliyochanganuliwa, ikimaanisha "songa mbele, hakuna kitu cha kuona hapa" - kwa maneno mengine, port hizi zimefungwa. Kama tulivyoona katika matokeo, hii itakuwa kesi kwa port nyingi zilizochanganuliwa. Isipokuwa mbili:
 
 
 
@@ -811,31 +810,31 @@ Ili kufanya hivyo, katika kila bandari ya TCP katika safu yake chaguomsingi, **i
 
 
 
-jibu kwa pakiti ya TCP SYN iliyotumwa kwenye mlango wa 22, inayotumika kwenye shabaha ya kuchanganua
+jibu kwa packet ya TCP SYN iliyotumwa kwenye mlango wa 22, inayotumika kwenye shabaha ya kuchanganua
 
 
 
-Katika picha ya skrini iliyo hapo juu, tunaona pakiti ya TCP SYN/ACK iliyotumwa na mwenyeji lengwa. Bandari inatumika na inaonyesha huduma. Nmap inakubali kupokea jibu, kisha hukatisha muunganisho (TCP RST/ACK). **Hivi ndivyo ilivyojua kuwa bandari TCP/22 ilikuwa hai**.
+Katika picha ya skrini iliyo hapo juu, tunaona packet ya TCP SYN/ACK iliyotumwa na mwenyeji lengwa. port inatumika na inaonyesha huduma. Nmap inakubali kupokea jibu, kisha hukatisha muunganisho (TCP RST/ACK). **Hivi ndivyo ilivyojua kuwa port TCP/22 ilikuwa hai**.
 
 
 
-Tumeona hapa kwamba Nmap inaheshimu "Three Way Handshake" inapochanganua mtandao wa TCP. Kwa sababu za utendaji, inawezekana kuuliza si kujibu kurudi kwa seva, na hivyo kuokoa pakiti elfu kadhaa wakati wa skanning mtandao mkubwa. Lakini tutaangalia chaguo hizi na uboreshaji baadaye katika mafunzo.
+Tumeona hapa kwamba Nmap inaheshimu "Three Way Handshake" inapochanganua mtandao wa TCP. Kwa sababu za utendaji, inawezekana kuuliza si kujibu kurudi kwa server, na hivyo kuokoa packet elfu kadhaa wakati wa skanning mtandao mkubwa. Lakini tutaangalia chaguo hizi na uboreshaji baadaye katika mafunzo.
 
 
 
-Sasa tuna wazo bora la jinsi ya kufanya uchunguzi wa TCP na kile kinachotokea wakati unafanywa. Tumeona pia kuwa, kwa chaguo-msingi, Nmap hufanya uchunguzi wa bandari wa TCP kwenye idadi ndogo ya bandari.
+Sasa tuna wazo bora la jinsi ya kufanya uchunguzi wa TCP na kile kinachotokea wakati unafanywa. Tumeona pia kuwa, kwa chaguo-msingi, Nmap hufanya uchunguzi wa port wa TCP kwenye idadi ndogo ya port.
 
 
 
-### III. Inachanganua bandari za UDP kwa kutumia Nmap
+### III. Inachanganua ports za UDP kwa kutumia Nmap
 
 
 
-#### A. Uchanganuzi wa kwanza wa bandari ya UDP na Nmap
+#### A. Uchanganuzi wa kwanza wa port ya UDP na Nmap
 
 
 
-Sasa hebu tuone jinsi ya kuchanganua bandari za UDP za mwenyeji. Kama tulivyoona, kwa chaguo-msingi Nmap itachanganua milango ya TCP kila wakati. Hii inaweza kumaanisha kukosa habari nyingi ikiwa hatujui.
+Sasa hebu tuone jinsi ya kuchanganua ports za UDP za mwenyeji. Kama tulivyoona, kwa chaguo-msingi Nmap itachanganua milango ya TCP kila wakati. Hii inaweza kumaanisha kukosa habari nyingi ikiwa hatujui.
 
 
 
@@ -873,11 +872,11 @@ kumbuka: Kwa kuwa matoleo ya hivi punde zaidi ya Nmap, inashauriwa kila wakati k
 
 
 
-Uchanganuzi wa UDP unaweza kuchukua muda mrefu sana (sekunde 1100 kuchanganua bandari 1000 kwa mfano wangu), kwa sababu ya kukosekana kwa "Three Way Handshake" katika UDP, ambayo inamaanisha kuwa Nmap itasubiri kurudi kwa kila pakiti ya UDP iliyotumwa, na itaamua bandari kuwa "imefungwa" ikiwa tu hakuna kurudi baada ya muda fulani (muda wa kuisha). Jibu hili kutoka kwa wapangishi waliochanganuliwa si la kimfumo na mara nyingi hupunguzwa kulingana na idadi ya majibu kwa sekunde, ili kuepuka mashambulizi fulani ya ukuzaji. Hii ni tofauti na TCP, ambapo kuna jibu la papo hapo kutoka kwa seva pangishi iliyochanganuliwa, ikiwa mlango umefunguliwa au umefungwa. Tutaona baadaye jinsi ya kuboresha hii.
+Uchanganuzi wa UDP unaweza kuchukua muda mrefu sana (sekunde 1100 kuchanganua port 1000 kwa mfano wangu), kwa sababu ya kukosekana kwa "Three Way Handshake" katika UDP, ambayo inamaanisha kuwa Nmap itasubiri kurudi kwa kila packet ya UDP iliyotumwa, na itaamua port kuwa "imefungwa" ikiwa tu hakuna kurudi baada ya muda fulani (muda wa kuisha). Jibu hili kutoka kwa wapangishi waliochanganuliwa si la kimfumo na mara nyingi hupunguzwa kulingana na idadi ya majibu kwa sekunde, ili kuepuka mashambulizi fulani ya ukuzaji. Hii ni tofauti na TCP, ambapo kuna jibu la papo hapo kutoka kwa server pangishi iliyochanganuliwa, ikiwa mlango umefunguliwa au umefungwa. Tutaona baadaye jinsi ya kuboresha hii.
 
 
 
-Ugumu wa pili wa UDP ni **kwamba huduma hazijibu kila mara kwa pakiti zinazoingia**, kwa urahisi kabisa kwa sababu hii si lazima kila wakati na ni kanuni ya UDP. Wakati hali ikiwa hivi, na hakuna "bandari isiyoweza kufikiwa" ya ICMP inapokewa, huduma hiyo inatiwa alama kama "wazi|iliyochujwa" na Nmap, kama inavyoonyeshwa kwenye picha ya skrini hapo juu.
+Ugumu wa pili wa UDP ni **kwamba huduma hazijibu kila mara kwa packet zinazoingia**, kwa urahisi kabisa kwa sababu hii si lazima kila wakati na ni kanuni ya UDP. Wakati hali ikiwa hivi, na hakuna "port isiyoweza kufikiwa" ya ICMP inapokewa, huduma hiyo inatiwa alama kama "wazi|iliyochujwa" na Nmap, kama inavyoonyeshwa kwenye picha ya skrini hapo juu.
 
 
 
@@ -889,7 +888,7 @@ Kama ilivyo kwa uchunguzi wetu wa TCP, hebu tuangalie kwa karibu kile kinachotok
 
 
 
-Tofauti pekee ya kweli wakati wa kuchanganua UDP ni kwamba Nmap haitasubiri "Three Way Handshake", kwa kuwa utaratibu huu haupo katika UDP (itifaki isiyo na uraia):
+Tofauti pekee ya kweli wakati wa kuchanganua UDP ni kwamba Nmap haitasubiri "Three Way Handshake", kwa kuwa utaratibu huu haupo katika UDP (protocol isiyo na uraia):
 
 
 
@@ -897,11 +896,11 @@ Tofauti pekee ya kweli wakati wa kuchanganua UDP ni kwamba Nmap haitasubiri "Thr
 
 
 
-Usambazaji wa pakiti za uDP na mapokezi ya ICMP (bandari haipatikani) wakati wa kuchanganua Nmap
+Usambazaji wa packet za UDP na mapokezi ya ICMP (port haipatikani) wakati wa kuchanganua Nmap
 
 
 
-Tunaweza kuona kwenye picha ya skrini iliyo hapo juu kwamba Nmap itatuma idadi kubwa ya pakiti za UDP, na kupokea kwa nyingi kati ya hizo pakiti ya ICMP "Lengwa lisilofikiwa (Mlango haupatikani)" kwa kujibu. Hili ni jambo la kawaida, kwa kuwa ni jibu lifaalo linalofafanuliwa na [RFC 1122](https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") wakati bandari ya UDP haiwezi kufikiwa:
+Tunaweza kuona kwenye picha ya skrini iliyo hapo juu kwamba Nmap itatuma idadi kubwa ya packet za UDP, na kupokea kwa nyingi kati ya hizo packet ya ICMP "Lengwa lisilofikiwa (Mlango haupatikani)" kwa kujibu. Hili ni jambo la kawaida, kwa kuwa ni jibu lifaalo linalofafanuliwa na [RFC 1122](https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") wakati port ya UDP haiwezi kufikiwa:
 
 
 
@@ -921,7 +920,7 @@ Wacha tuangalie kwa karibu kunasa huku kwa Wireshark, ambayo inaonyesha ** hali 
 
 
 
-kunasa mtandao wakati wa kuchanganua UDP kwenye bandari tofauti na Nmap._
+kunasa mtandao wakati wa kuchanganua UDP kwenye port tofauti na Nmap._
 
 
 
@@ -931,19 +930,19 @@ Kesi hizo tatu ni kama ifuatavyo:
 
 
 
-- Exchange ya kwanza imeundwa na pakiti No. 3, 4 na 8, 9. Nmap hutuma pakiti za UDP kwenye mlango wa kawaida wa SNMP na kwa hivyo **hutengeneza pakiti zinazotii itifaki mapema**. Kisha hupata jibu kutoka kwa seva (pakiti no. 8 na 9). Matokeo: Nmap imepokea jibu, huduma "imefunguliwa".
+- Exchange ya kwanza imeundwa na packet No. 3, 4 na 8, 9. Nmap hutuma packet za UDP kwenye mlango wa kawaida wa SNMP na kwa hivyo **hutengeneza packet zinazotii protocol mapema**. Kisha hupata jibu kutoka kwa server (packet no. 8 na 9). Matokeo: Nmap imepokea jibu, huduma "imefunguliwa".
 
 
 
 
 
-- Exchange ya pili inajumuisha pakiti 6 na 7. Nmap hutuma pakiti "tupu" ya UDP (bila muundo wa itifaki) kwenye bandari ya UDP/165, na inapokea pakiti ya ICMP kwa kujibu: "Lengo halipatikani (Bandari haipatikani)". Matokeo: Nmap imepokea jibu (hasi), mwenyeji yuko juu, lakini huduma ambayo ilijaribu kufikia haifanyi kazi kwenye bandari hii, ambayo itawekwa alama kuwa "imefungwa".
+- Exchange ya pili inajumuisha packet 6 na 7. Nmap hutuma packet "tupu" ya UDP (bila muundo wa protocol) kwenye port ya UDP/165, na inapokea packet ya ICMP kwa kujibu: "Lengo halipatikani (port haipatikani)". Matokeo: Nmap imepokea jibu (hasi), mwenyeji yuko juu, lakini huduma ambayo ilijaribu kufikia haifanyi kazi kwenye port hii, ambayo itawekwa alama kuwa "imefungwa".
 
 
 
 
 
-- Exchange ya mwisho ina pakiti no. 12: Nmap hutuma pakiti "tupu" ya UDP kwenye bandari ya UDP/1235. Hakuna jibu, hata kukataa kwa uwazi kutoka kwa seva pangishi iliyochanganuliwa. Matokeo: Nmap inatia alama bandari kuwa "imefunguliwa|iliyochujwa", kwa kuwa haiwezi kutambua kama hii ni kwa sababu ya kuwepo kwa ngome, iliyosanidiwa kutojibu, au kwa huduma inayotumika ya UDP ambayo haileti jibu hata hivyo (si lazima katika UDP).
+- Exchange ya mwisho ina packet no. 12: Nmap hutuma packet "tupu" ya UDP kwenye port ya UDP/1235. Hakuna jibu, hata kukataa kwa uwazi kutoka kwa server pangishi iliyochanganuliwa. Matokeo: Nmap inatia alama port kuwa "imefunguliwa|iliyochujwa", kwa kuwa haiwezi kutambua kama hii ni kwa sababu ya kuwepo kwa ngome, iliyosanidiwa kutojibu, au kwa huduma inayotumika ya UDP ambayo haileti jibu hata hivyo (si lazima katika UDP).
 
 
 
@@ -960,7 +959,7 @@ matokeo ya uwezekano wa uchunguzi wa UDP uliofanywa kupitia Nmap._
 
 
 
-Sasa tuna wazo bora la jinsi ya kufanya uchanganuzi wa UDP na nini hasa hufanyika inapofanywa. Kufikia sasa tumekuwa tukitumia Nmap kwa njia rahisi sana, bila kuamua ni bandari zipi za kuchanganua, lakini hiyo inakaribia kubadilika!
+Sasa tuna wazo bora la jinsi ya kufanya uchanganuzi wa UDP na nini hasa hufanyika inapofanywa. Kufikia sasa tumekuwa tukitumia Nmap kwa njia rahisi sana, bila kuamua ni ports zipi za kuchanganua, lakini hiyo inakaribia kubadilika!
 
 
 
@@ -976,7 +975,7 @@ Kama tulivyoona, Nmap yenyewe huchagua nambari na milango ya kuchanganua ikiwa h
 
 
 
-**Bandari hizi huchaguliwaje?**
+**ports hizi huchaguliwaje**
 
 
 
@@ -992,7 +991,7 @@ imetolewa kutoka kwa faili "/usr/shares/nmap/nmap-services"._
 
 
 
-Hapa, katika safu ya tatu, tunaona kile kinachoonekana kama uwezekano (kati ya 0 na 1) au usambazaji wa asilimia. Huu ni mzunguko wa kutokea kwa kila jozi ya bandari/itifaki. Tunaweza kuona kwamba bandari zinazojulikana zaidi (FTP, SSH, TELNET na SMTP katika dondoo hili) zina thamani ya juu zaidi kuliko nyingine.
+Hapa, katika safu ya tatu, tunaona kile kinachoonekana kama uwezekano (kati ya 0 na 1) au usambazaji wa asilimia. Huu ni mzunguko wa kutokea kwa kila jozi ya port/protocol. Tunaweza kuona kwamba port zinazojulikana zaidi (FTP, SSH, TELNET na SMTP katika dondoo hili) zina thamani ya juu zaidi kuliko nyingine.
 
 
 
@@ -1000,11 +999,11 @@ Hapa, katika safu ya tatu, tunaona kile kinachoonekana kama uwezekano (kati ya 0
 
 
 
-Hata hivyo, katika ulimwengu wa kweli, huenda tukahitaji kuchanganua lango mahususi pekee, au bandari kadhaa, au safu mahususi ya bandari. Nmap hurahisisha kufanya hivyo, kwa njia moja kwa skanisho za UDP na TCP.
+Hata hivyo, katika ulimwengu wa kweli, huenda tukahitaji kuchanganua lango mahususi pekee, au port kadhaa, au safu mahususi ya port. Nmap hurahisisha kufanya hivyo, kwa njia moja kwa skanisho za UDP na TCP.
 
 
 
-** Changanua bandari maalum kupitia Nmap**
+** Changanua port maalum kupitia Nmap**
 
 
 
@@ -1022,15 +1021,15 @@ nmap -sU 192.168.1.19 -p 161
 
 
 
-Kwa hivyo, uchanganuzi utakuwa wa haraka zaidi na Nmap itatoa tu pakiti zinazohitajika ili kutambua kama seva pangishi inatumika, na kisha kama mlango uliobainishwa unaweza kufikiwa. Hii inaokoa muda ikiwa ungependa tu kufanya jaribio la haraka ili kuona kama huduma ya wavuti kwenye tovuti yako ya maonyesho bado iko.
+Kwa hivyo, uchanganuzi utakuwa wa haraka zaidi na Nmap itatoa tu packet zinazohitajika ili kutambua kama server pangishi inatumika, na kisha kama mlango uliobainishwa unaweza kufikiwa. Hii inaokoa muda ikiwa ungependa tu kufanya jaribio la haraka ili kuona kama huduma ya wavuti kwenye tovuti yako ya maonyesho bado iko.
 
 
 
-** Changanua bandari nyingi kupitia Nmap**
+** Changanua port nyingi kupitia Nmap**
 
 
 
-Kwa njia hiyo hiyo, tunaweza kutaja bandari kadhaa kwa Nmap, kwa kutumia chaguo sawa na kuunganisha bandari zilizoainishwa na koma:
+Kwa njia hiyo hiyo, tunaweza kutaja port kadhaa kwa Nmap, kwa kutumia chaguo sawa na kuunganisha port zilizoainishwa na koma:
 
 
 
@@ -1048,7 +1047,7 @@ nmap -sU 192.168.1.19 -p 161,23,69
 
 
 
-Bila kujali agizo, Nmap itaangalia bandari hizi zote, na zile tu zilizo kwenye seva pangishi inayolengwa. Utagundua katika matokeo ya Nmap kuwa ** inatuambia kwa uwazi bandari zote na hali zao **, hata kama "zimefungwa". Tofauti na tabia chaguo-msingi, ambapo matokeo haya kamili yangechukua nafasi nyingi sana:
+Bila kujali agizo, Nmap itaangalia port hizi zote, na zile tu zilizo kwenye server pangishi inayolengwa. Utagundua katika matokeo ya Nmap kuwa ** inatuambia kwa uwazi port zote na hali zao **, hata kama "zimefungwa". Tofauti na tabia chaguo-msingi, ambapo matokeo haya kamili yangechukua nafasi nyingi sana:
 
 
 
@@ -1056,11 +1055,11 @@ Bila kujali agizo, Nmap itaangalia bandari hizi zote, na zile tu zilizo kwenye s
 
 
 
-*Matokeo ya uchunguzi wa Nmap TCP kwenye bandari zilizoonyeshwa.*
+*Matokeo ya uchunguzi wa Nmap TCP kwenye ports zilizoonyeshwa.*
 
 
 
-**Changanua anuwai ya bandari**
+**Changanua anuwai ya port**
 
 
 
@@ -1096,11 +1095,11 @@ nmap 192.168.1.19 -p 22,80,1000-2000,3389
 
 
 
-**Uchanganuzi wa bandari wa TCP na UDP**
+**Uchanganuzi wa port wa TCP na UDP**
 
 
 
-Unaweza pia kufanya uchanganuzi wa UDP na TCP kwa wakati mmoja, kwenye bandari zilizochaguliwa:
+Unaweza pia kufanya uchanganuzi wa UDP na TCP kwa wakati mmoja, kwenye ports zilizochaguliwa:
 
 
 
@@ -1118,7 +1117,7 @@ sudo nmap 192.168.1.19 -sT -sU -p U:161,T:22
 
 
 
-Utagundua katika mfano huu wa mwisho uwepo wa "U:" kuashiria bandari ya UDP na "T:" kuashiria lango la TCP. Hapa kuna matokeo yanayowezekana ya aina hii ya skanisho:
+Utagundua katika mfano huu wa mwisho uwepo wa "U:" kuashiria port ya UDP na "T:" kuashiria lango la TCP. Hapa kuna matokeo yanayowezekana ya aina hii ya skanisho:
 
 
 
@@ -1126,7 +1125,7 @@ Utagundua katika mfano huu wa mwisho uwepo wa "U:" kuashiria bandari ya UDP na "
 
 
 
-*Matokeo ya uchunguzi wa bandari wa TCP na UDP kwa kutumia Nmap.*
+*Matokeo ya uchunguzi wa port wa TCP na UDP kwa kutumia Nmap.*
 
 
 
@@ -1134,11 +1133,11 @@ Sasa hiyo ni njia ya kuvutia ya kubinafsisha uchanganuzi wako!
 
 
 
-**Changanua bandari zote**
+** Changanua port zote**
 
 
 
-Hatimaye, inawezekana kubainisha masafa makubwa zaidi au madogo zaidi kwa Nmap. Tumeona kuwa orodha chaguo-msingi iliyochaguliwa na Nmap ina bandari 1000. Tunaweza pia kuuliza bandari 100 zinazoongoza mara kwa mara, au 200 za juu, kwa kutumia chaguo la "--top-ports":
+Hatimaye, inawezekana kubainisha masafa makubwa zaidi au madogo zaidi kwa Nmap. Tumeona kuwa orodha chaguo-msingi iliyochaguliwa na Nmap ina port 1000. Tunaweza pia kuuliza port 100 zinazoongoza mara kwa mara, au 200 za juu, kwa kutumia chaguo la "--top-ports":
 
 
 
@@ -1156,7 +1155,7 @@ nmap 192.168.1.19 --top-ports 200
 
 
 
-Hatimaye, tunaweza kuiomba ichanganue bandari zote zinazowezekana (zote 65535), kwa kutumia nukuu ya "-p-":
+Hatimaye, tunaweza kuiomba ichanganue port zote zinazowezekana (zote 65535), kwa kutumia nukuu ya "-p-":
 
 
 
@@ -1170,15 +1169,15 @@ nmap 192.168.1.19 -p-
 
 
 
-Mwisho utachukua muda mrefu zaidi, haswa na UDP, lakini utahakikisha hutakosa bandari zozote zilizo wazi.
+Mwisho utachukua muda mrefu zaidi, haswa na UDP, lakini utahakikisha hutakosa port zozote zilizo wazi.
 
 
 
-*Kumbuka: Chaguo la "-p-" ndiyo njia inayopendekezwa ya kuchanganua milango yote ya TCP. Kwa uchunguzi wa UDP, inashauriwa kuweka kikomo cha idadi ya milango kwa sababu za utendakazi, kwa kuwa uchanganuzi kamili wa bandari zote za UDP unaweza kuchukua muda mrefu sana.*
+*Kumbuka: Chaguo la "-p-" ndiyo njia inayopendekezwa ya kuchanganua milango yote ya TCP. Kwa uchunguzi wa UDP, inashauriwa kuweka kikomo cha idadi ya milango kwa sababu za utendakazi, kwa kuwa uchanganuzi kamili wa port zote za UDP unaweza kuchukua muda mrefu sana.*
 
 
 
-Baadaye katika mafunzo, tutaona jinsi ya kuongeza kasi ya uchanganuzi wa Nmap ili kukidhi mahitaji yetu, ambayo yatakuwa muhimu sana kwa uchanganuzi kwenye bandari zote za TCP na UDP.
+Baadaye katika mafunzo, tutaona jinsi ya kuongeza kasi ya uchanganuzi wa Nmap ili kukidhi mahitaji yetu, ambayo yatakuwa muhimu sana kwa uchanganuzi kwenye port zote za TCP na UDP.
 
 
 
@@ -1186,12 +1185,12 @@ Baadaye katika mafunzo, tutaona jinsi ya kuongeza kasi ya uchanganuzi wa Nmap il
 
 
 
-Katika sehemu hii, hatimaye tumepata mazoezi ya moja kwa moja, kwa hivyo sasa tunajua **jinsi ya kutumia Nmap kwa njia ya msingi kuchanganua bandari za TCP na UDP za mwenyeji**. Pia tumeangalia kwa kina kile kinachotokea katika kiwango cha mtandao na **jinsi Nmap huamua ikiwa mlango wa TCP au UDP unatumika au la**. Hatimaye, tunajua jinsi ya kuchagua milango vizuri tunayotaka kuchanganua na **chaguo-msingi za Nmap hufanya nini**. Katika kile kinachofuata, tutatumia tena maarifa haya na kuyatumia kuchanganua mtandao mzima, ikijumuisha ramani ya kimataifa na ugunduzi wa mtandao.
+Katika sehemu hii, hatimaye tumepata mazoezi ya moja kwa moja, kwa hivyo sasa tunajua **jinsi ya kutumia Nmap kwa njia ya msingi kuchanganua port za TCP na UDP za mwenyeji**. Pia tumeangalia kwa kina kile kinachotokea katika kiwango cha mtandao na **jinsi Nmap huamua ikiwa mlango wa TCP au UDP unatumika au la**. Hatimaye, tunajua jinsi ya kuchagua milango vizuri tunayotaka kuchanganua na **chaguo-msingi za Nmap hufanya nini**. Katika kile kinachofuata, tutatumia tena maarifa haya na kuyatumia kuchanganua mtandao mzima, ikijumuisha map ya kimataifa na ugunduzi wa mtandao.
 
 
 
 
-## 5 - Ramani ya mtandao na ugunduzi na Nmap
+## 5 - map ya mtandao na ugunduzi na Nmap
 
 
 
@@ -1199,15 +1198,15 @@ Katika sehemu hii, hatimaye tumepata mazoezi ya moja kwa moja, kwa hivyo sasa tu
 
 
 
-Katika sehemu hii, tutajifunza jinsi ya kutumia zana ya kuchanganua mtandao wa Nmap kuweka ramani ya mtandao wako. Tutaona jinsi inavyoweza kuwa na ufanisi katika kazi hii, kupitia chaguzi zake mbalimbali. Hatimaye, tutaangalia njia tofauti za kubainisha shabaha za skanisho zetu kwa Nmap.
+Katika sehemu hii, tutajifunza jinsi ya kutumia zana ya kuchanganua mtandao wa Nmap kuweka map ya mtandao wako. Tutaona jinsi inavyoweza kuwa na ufanisi katika kazi hii, kupitia chaguzi zake mbalimbali. Hatimaye, tutaangalia njia tofauti za kubainisha shabaha za skanisho zetu kwa Nmap.
 
 
 
-Hasa, tutakuwa tukitumia tulichojifunza katika sehemu iliyotangulia kuhusu jinsi Nmap huamua kama seva pangishi inatumika na inapatikana.
+Hasa, tutakuwa tukitumia tulichojifunza katika sehemu iliyotangulia kuhusu jinsi Nmap huamua kama server pangishi inatumika na inapatikana.
 
 
 
-Kama ilivyotajwa katika utangulizi wa Nmap, huyu ni Ramani wa Mtandao. Kwa hivyo, ndiyo zana bora zaidi ya kuunda orodha ya wapangishi wanaoweza kufikiwa kwenye mtandao, iwe wa ndani au wa mbali.
+Kama ilivyotajwa katika utangulizi wa Nmap, huyu ni map wa Mtandao. Kwa hivyo, ndiyo zana bora zaidi ya kuunda orodha ya wapangishi wanaoweza kufikiwa kwenye mtandao, iwe wa ndani au wa mbali.
 
 
 
@@ -1215,11 +1214,11 @@ Kama ilivyotajwa katika utangulizi wa Nmap, huyu ni Ramani wa Mtandao. Kwa hivyo
 
 
 
-Kwa kweli, kama mkaguzi wa cybersecurity na pentester, mimi hutumia Nmap kwa utaratibu wakati wa kufanya majaribio ya kupenya ndani ili kujua nilipo, majirani zangu ni akina nani kwenye mtandao wa ndani na mitandao mingine inapatikana, pamoja na mifumo iliyo juu yao. Kusudi langu ni rahisi: kuweka ramani ya mtandao, kuamua saizi ya mfumo wa habari na, haswa, kuchora uso wake wa shambulio.
+Kwa kweli, kama mkaguzi wa cybersecurity na pentester, mimi hutumia Nmap kwa utaratibu wakati wa kufanya majaribio ya kupenya ndani ili kujua nilipo, majirani zangu ni akina nani kwenye mtandao wa ndani na mitandao mingine inapatikana, pamoja na mifumo iliyo juu yao. Kusudi langu ni rahisi: kuweka map ya mtandao, kuamua saizi ya mfumo wa habari na, haswa, kuchora uso wake wa shambulio.
 
 
 
-Upangaji ramani wa mtandao unaweza pia kuwa muhimu katika muktadha wa uchunguzi wa mtandao, usimamizi, ramani ya vipengee (una uhakika kabisa kuwa IS yako inaundwa na kile kilicho katika Orodha Amilifu pekee au katika Orodha yako ya GLPI/OCS? Inaweza pia kutumiwa kutambua uwepo wa Shadow IT kwenye mfumo wako wa taarifa.
+Upangaji map wa mtandao unaweza pia kuwa muhimu katika muktadha wa uchunguzi wa mtandao, usimamizi, map ya vipengee (una uhakika kabisa kuwa IS yako inaundwa na kile kilicho katika Orodha Amilifu pekee au katika Orodha yako ya GLPI/OCS? Inaweza pia kutumiwa kutambua uwepo wa Shadow IT kwenye mfumo wako wa taarifa.
 
 
 
@@ -1275,7 +1274,7 @@ Huu hapa ni mfano wa matokeo ambayo tunaweza kupata tunapochanganua kwenye mtand
 
 
 
-matokeo ya uchunguzi wa Nmap ili kuweka mitandao kadhaa ramani
+matokeo ya uchunguzi wa Nmap ili kuweka mitandao kadhaa map
 
 
 
@@ -1311,7 +1310,7 @@ Sasa tutaangalia kwa karibu kile kinachotokea katika kiwango cha mtandao wakati 
 
 
 
-Kama tulivyoona katika sehemu iliyotangulia, kwa chaguo-msingi Nmap itatumia itifaki ya ARP kugundua kuwepo kwa wapangishi kwenye mtandao wa ndani:
+Kama tulivyoona katika sehemu iliyotangulia, kwa chaguo-msingi Nmap itatumia protocol ya ARP kugundua kuwepo kwa wapangishi kwenye mtandao wa ndani:
 
 
 
@@ -1319,7 +1318,7 @@ Kama tulivyoona katika sehemu iliyotangulia, kwa chaguo-msingi Nmap itatumia iti
 
 
 
-aRP pakiti zilizonaswa wakati wa kuchanganua mtandao wa ndani kwa kutumia Nmap na chaguo-msingi zake
+aRP packet zilizonaswa wakati wa kuchanganua mtandao wa ndani kwa kutumia Nmap na chaguo-msingi zake
 
 
 
@@ -1335,27 +1334,27 @@ Kwa mitandao ya mbali, Nmap hutumia mchanganyiko wa mbinu:
 
 
 
-Pakiti za iCMP na TCP zilizonaswa wakati wa kuchanganua mtandao wa mbali kwa kutumia Nmap na chaguo-msingi zake
+packet za iCMP na TCP zilizonaswa wakati wa kuchanganua mtandao wa mbali kwa kutumia Nmap na chaguo-msingi zake
 
 
 
-Ili kuwa sahihi zaidi, Nmap hutumia pakiti ya mwangwi ya ICMP (kesi ya kawaida ya pinging) na pakiti ya ICMP Timestamp, ambayo kawaida hutumika kukokotoa nyakati za usafiri wa pakiti. Inatumai kupata jibu kutoka kwa wapangishaji kwenye mitandao ya mbali.
+Ili kuwa sahihi zaidi, Nmap hutumia packet ya mwangwi ya ICMP (kesi ya kawaida ya pinging) na packet ya ICMP Timestamp, ambayo kawaida hutumika kukokotoa nyakati za usafiri wa packet. Inatumai kupata jibu kutoka kwa wapangishaji kwenye mitandao ya mbali.
 
 
 
-Lakini kuna zaidi ya hilo. Unaweza kuona kwenye picha ya Wireshark hapo juu kwamba vifurushi vya **TCP SYN** hutumwa kwa utaratibu kwenye bandari za TCP/443 za kila seva pangishi kwenye mitandao itakayochanganuliwa, pamoja na pakiti za **TCP ACK** kwenye mlango wa TCP/80.
+Lakini kuna zaidi ya hilo. Unaweza kuona kwenye picha ya Wireshark hapo juu kwamba vifurushi vya **TCP SYN** hutumwa kwa utaratibu kwenye port za TCP/443 za kila server pangishi kwenye mitandao itakayochanganuliwa, pamoja na packet za **TCP ACK** kwenye mlango wa TCP/80.
 
 
 
-**Kwa nini utume pakiti za TCP kwenye bandari kama sehemu ya ugunduzi wa mtandao?**
+**Kwa nini utume packet za TCP kwenye port kama sehemu ya ugunduzi wa mtandao?**
 
 
 
-Kutuma pakiti ya SYN kwenye mlango fulani huruhusu Nmap **kuamua ikiwa huduma inasikilizwa kwenye mlango huo**. Ikiwa seva pangishi itajibu pakiti ya SYN yenye pakiti ya SYN/ACK, hii inaonyesha kuwa inatumika na kwamba huduma inasikilizwa kwenye mlango huo. Nmap kwa hivyo inajaribu bahati yake kwenye huduma hii, **hata kama hakuna jibu la ping limepatikana**.
+Kutuma packet ya SYN kwenye mlango fulani huruhusu Nmap **kuamua ikiwa huduma inasikilizwa kwenye mlango huo**. Ikiwa server pangishi itajibu packet ya SYN yenye packet ya SYN/ACK, hii inaonyesha kuwa inatumika na kwamba huduma inasikilizwa kwenye mlango huo. Nmap kwa hivyo inajaribu bahati yake kwenye huduma hii, **hata kama hakuna jibu la ping limepatikana**.
 
 
 
-Kutuma kifurushi cha ACK kwenye mlango fulani huruhusu Nmap **kuamua ikiwa ngome iko kwenye seva pangishi hiyo**. Ikiwa seva pangishi itajibu pakiti ya ACK iliyo na pakiti ya RST (Weka Upya), hii inaonyesha kuwa ngome-mtandao huenda iko kwenye seva pangishi hiyo na inazuia trafiki isiyoombwa. Kwa hivyo mwenyeji husaliti uwepo wake kwenye mtandao, hata ikiwa haijajibu maombi mengine.
+Kutuma kifurushi cha ACK kwenye mlango fulani huruhusu Nmap **kuamua ikiwa ngome iko kwenye server pangishi hiyo**. Ikiwa server pangishi itajibu packet ya ACK iliyo na packet ya RST (Weka Upya), hii inaonyesha kuwa ngome-mtandao huenda iko kwenye server pangishi hiyo na inazuia trafiki isiyoombwa. Kwa hivyo mwenyeji husaliti uwepo wake kwenye mtandao, hata ikiwa haijajibu maombi mengine.
 
 
 
@@ -1371,7 +1370,7 @@ Sasa tumetoka mbali na tunaweza kutekeleza ugunduzi wa kimsingi wa mtandao. Sasa
 
 
 
-Kama unavyoweza kuwa umeona, kwa chaguo-msingi Nmap **hufanya uchanganuzi wa mlango baada ya ugunduzi wake wa seva pangishi amilifu**, ambayo huongeza idadi kubwa ya pakiti na kusubiri majibu kwa uchanganuzi wetu. Ikiwa una wapangishi 5 kwenye mtandao wako, Nmap itajaribu kuangalia hali ya karibu bandari 5,000, ambayo itachukua muda mrefu zaidi.
+Kama unavyoweza kuwa umeona, kwa chaguo-msingi Nmap **hufanya uchanganuzi wa mlango baada ya ugunduzi wake wa server pangishi amilifu**, ambayo huongeza idadi kubwa ya packet na kusubiri majibu kwa uchanganuzi wetu. Ikiwa una wapangishi 5 kwenye mtandao wako, Nmap itajaribu kuangalia hali ya karibu port 5,000, ambayo itachukua muda mrefu zaidi.
 
 
 
@@ -1379,7 +1378,7 @@ Hata hivyo, inawezekana kutumia chaguo za Nmap kufanya **ugunduzi pekee wa wapan
 
 
 
-Iwapo tunataka tu kujua ni seva pangishi zinazoweza kufikiwa, bila taarifa yoyote kuhusu huduma na milango inayofichua, basi tunaweza kutumia chaguo la "-sn" kutekeleza **changanuzi pekee kwa kutumia ICMP Echo (ping) na maombi ya ARP**. Kwa maneno mengine, zima utambazaji wa bandari kabisa:
+Iwapo tunataka tu kujua ni server pangishi zinazoweza kufikiwa, bila taarifa yoyote kuhusu huduma na milango inayofichua, basi tunaweza kutumia chaguo la "-sn" kutekeleza **changanuzi pekee kwa kutumia ICMP Echo (ping) na maombi ya ARP**. Kwa maneno mengine, zima utambazaji wa port kabisa:
 
 
 
@@ -1390,7 +1389,7 @@ nmap 192.168.1.0/24 -sn
 
 
 
-Hapa kuna matokeo ya ugunduzi wa mtandao wa Nmap uliofanywa bila skanning ya bandari:
+Hapa kuna matokeo ya ugunduzi wa mtandao wa Nmap uliofanywa bila skanning ya port:
 
 
 
@@ -1402,11 +1401,11 @@ Matokeo ya ugunduzi wa mtandao bila kukagua mlango kwa kutumia Nmap.
 
 
 
-Tayari tumetaja vikwazo vinavyowezekana vya kutumia ICMP pekee kwa ugunduzi wa mwenyeji (kwa mitandao ya mbali). Ndiyo maana Nmap pia hutumia hila chache ambazo zinaweza kusaliti uwepo wa ngome au huduma mahususi kwa wapangishaji. Kwa usaidizi wa chaguo, tunaweza kutumia tena mbinu hizi na hata kuzipanua, bila kulazimika kuanza tena na uchunguzi kamili wa mlango wa kila seva pangishi iliyogunduliwa.
+Tayari tumetaja vikwazo vinavyowezekana vya kutumia ICMP pekee kwa ugunduzi wa mwenyeji (kwa mitandao ya mbali). Ndiyo maana Nmap pia hutumia hila chache ambazo zinaweza kusaliti uwepo wa ngome au huduma mahususi kwa wapangishaji. Kwa usaidizi wa chaguo, tunaweza kutumia tena mbinu hizi na hata kuzipanua, bila kulazimika kuanza tena na uchunguzi kamili wa mlango wa kila server pangishi iliyogunduliwa.
 
 
 
-Ili kufanya hivyo, tutatumia chaguo za "-PS" (TCP SYN) na "-PA" (TCP ACK), ambazo zitaturuhusu kubainisha bandari tunazotaka kujiunga nazo kama sehemu ya ugunduzi wetu wa mwenyeji, pamoja na chaguo la "-PP":
+Ili kufanya hivyo, tutatumia chaguo za "-PS" (TCP SYN) na "-PA" (TCP ACK), ambazo zitaturuhusu kubainisha port tunazotaka kujiunga nazo kama sehemu ya ugunduzi wetu wa mwenyeji, pamoja na chaguo la "-PP":
 
 
 
@@ -1417,7 +1416,7 @@ nmap -sn -PP -PS22,3389,445,139 -PA80 192.168.1.0/24
 
 
 
-Uchanganuzi huu tayari unahakikisha kuwa ugunduzi wa seva pangishi ni kamili zaidi kuliko kwa chaguo-msingi.
+Uchanganuzi huu tayari unahakikisha kuwa ugunduzi wa server pangishi ni kamili zaidi kuliko kwa chaguo-msingi.
 
 
 
@@ -1431,7 +1430,7 @@ Kwa undani chaguzi za agizo letu la mwisho:
 
 
 
-- "`-sn`: huzima utambazaji mlangoni kwa kila seva pangishi amilifu iliyogunduliwa na Nmap.
+- "`-sn`: huzima utambazaji mlangoni kwa kila server pangishi amilifu iliyogunduliwa na Nmap.
 
 
 
@@ -1443,22 +1442,22 @@ Kwa undani chaguzi za agizo letu la mwisho:
 
 
 
-- "`-PS <PORT>`": tuma kifurushi cha TCP SYN kwenye lango/milango iliyoonyeshwa ili kugundua huduma yoyote inayoendelea inayosaliti uwepo wa seva pangishi ambayo haijajibu ping.
+- "`-PS <PORT>`": tuma kifurushi cha TCP SYN kwenye lango/milango iliyoonyeshwa ili kugundua huduma yoyote inayoendelea inayosaliti uwepo wa server pangishi ambayo haijajibu ping.
 
 
 
 
 
-- "`-PA <PORT>`": tuma pakiti ya TCP ACK kwenye lango (za) iliyoashiriwa ili kugundua ngomemote inayofanya kazi inayosaliti uwepo wa seva pangishi ambayo haijajibu ping.
+- "`-PA <PORT>`": tuma packet ya TCP ACK kwenye lango (za) iliyoashiriwa ili kugundua ngomemote inayofanya kazi inayosaliti uwepo wa server pangishi ambayo haijajibu ping.
 
 
 
 
-Katika mfano hapo juu, ninataja bandari ninazozingatia kuwa zinazofichuliwa mara kwa mara katika muktadha wangu wa Nmap kwa chaguo la "-PS". Lango hizi tofauti zitajaribiwa kwa kila seva pangishi, si ili kuona kama huduma anayopangisha inatumika kweli, lakini ili kuona ikiwa hii inaruhusu sisi kugundua seva pangishi ambayo haijajibu ICMP Echo yetu wakati ingali inatumika (kupitia jibu kutoka kwa huduma au ngome ya mwenyeji).
+Katika mfano hapo juu, ninataja port ninazozingatia kuwa zinazofichuliwa mara kwa mara katika muktadha wangu wa Nmap kwa chaguo la "-PS". Lango hizi tofauti zitajaribiwa kwa kila server pangishi, si ili kuona kama huduma anayopangisha inatumika kweli, lakini ili kuona ikiwa hii inaruhusu sisi kugundua server pangishi ambayo haijajibu ICMP Echo yetu wakati ingali inatumika (kupitia jibu kutoka kwa huduma au ngome ya mwenyeji).
 
 
 
-Hivi ndivyo inavyoweza kuonekana katika kunasa mtandao iliyochukuliwa wakati wa kuchanganua vile, katika kesi hii dondoo kwenye seva pangishi inayolengwa:
+Hivi ndivyo inavyoweza kuonekana katika kunasa mtandao iliyochukuliwa wakati wa kuchanganua vile, katika kesi hii dondoo kwenye server pangishi inayolengwa:
 
 
 
@@ -1470,7 +1469,7 @@ vifurushi vilivyotumwa na Nmap wakati wa ugunduzi wa hali ya juu wa mtandao, bil
 
 
 
-Tunapata pakiti zetu za TCP SYN, TCP ACK yetu kwenye bandari TCP/80 na mwangwi wetu wa ICMP. Nmap itafanya majaribio haya yote kwa kila seva pangishi inayolengwa na ugunduzi wetu wa mtandao.
+Tunapata packet zetu za TCP SYN, TCP ACK yetu kwenye port TCP/80 na mwangwi wetu wa ICMP. Nmap itafanya majaribio haya yote kwa kila server pangishi inayolengwa na ugunduzi wetu wa mtandao.
 
 
 
@@ -1509,7 +1508,7 @@ Nmap basi itajumuisha katika uchanganuzi wake shabaha zote zilizomo kwenye faili
 
 
 
-Ikiwa unataka kuwa na uhakika kwamba malengo yako yote yatazingatiwa, unaweza kutumia chaguo la "-sL -n". Nmap basi itafasiri CIDR na seva pangishi kwenye faili na kukuonyesha, bila kutuma pakiti zozote kwenye mtandao:
+Ikiwa unataka kuwa na uhakika kwamba malengo yako yote yatazingatiwa, unaweza kutumia chaguo la "-sL -n". Nmap basi itafasiri CIDR na server pangishi kwenye faili na kukuonyesha, bila kutuma packet zozote kwenye mtandao:
 
 
 
@@ -1535,15 +1534,15 @@ Nmap scan report for 192.168.0.12
 
 
 
-Hii inahakikisha kuwa orodha ya seva pangishi zitakazochanganuliwa ni sahihi.
+Hii inahakikisha kuwa orodha ya server pangishi zitakazochanganuliwa ni sahihi.
 
 
 
-Kidokezo kimoja muhimu cha mwisho ningependa kushiriki nawe masuala **mwenyeji au kutengwa kwa mtandao kama sehemu ya uchanganuzi**. Hitaji hili la kuwatenga seva pangishi linaweza kuwa muhimu katika matukio kadhaa, hasa ikiwa tunataka kuwa na uhakika kwamba **kipengele nyeti cha mfumo wa taarifa hakijakatizwa au kukatizwa na utafutaji wetu**.
+Kidokezo kimoja muhimu cha mwisho ningependa kushiriki nawe masuala **mwenyeji au kutengwa kwa mtandao kama sehemu ya uchanganuzi**. Hitaji hili la kuwatenga server pangishi linaweza kuwa muhimu katika matukio kadhaa, hasa ikiwa tunataka kuwa na uhakika kwamba **kipengele nyeti cha mfumo wa taarifa hakijakatizwa au kukatizwa na utafutaji wetu**.
 
 
 
-Mifano ya mara kwa mara ya mahitaji hayo ni wakati kampuni inamiliki viwanda (PLC) au vifaa vya afya. Vifaa vile wakati mwingine hutengenezwa vibaya, na sio lengo la kupokea pakiti zilizopangwa vibaya, au nyingi sana. Kwa sababu za wazi za kupatikana au hatari ya biashara/binadamu, ni vyema kuwatenga kwenye majaribio.
+Mifano ya mara kwa mara ya mahitaji hayo ni wakati kampuni inamiliki viwanda (PLC) au vifaa vya afya. Vifaa vile wakati mwingine hutengenezwa vibaya, na sio lengo la kupokea packet zilizopangwa vibaya, au nyingi sana. Kwa sababu za wazi za kupatikana au hatari ya biashara/binadamu, ni vyema kuwatenga kwenye majaribio.
 
 
 
@@ -1558,7 +1557,7 @@ nmap 192.168.1.0/24 --exclude 192.168.1.140
 
 
 
-Katika mfano huu, ninachanganua mtandao "192.168.1.0/24" lakini bila kujumuisha mwenyeji "192.168.1.140" iliyoko hapo. Hakuna pakiti zitatumwa na Nmap kwa mpangishi huyu. Mfano mwingine na kutengwa kwa subnet:
+Katika mfano huu, ninachanganua mtandao "192.168.1.0/24" lakini bila kujumuisha mwenyeji "192.168.1.140" iliyoko hapo. Hakuna packet zitatumwa na Nmap kwa mpangishi huyu. Mfano mwingine na kutengwa kwa subnet:
 
 
 
@@ -1577,11 +1576,11 @@ Vile vile, mimi huchambua mtandao mkubwa "10.0.0.0/16", lakini mtandao "10.0.100
 
 
 
-Sasa tunaweza kuchanganya yale ambayo tumejifunza katika sehemu hii na yale tuliyojifunza katika sehemu iliyotangulia kuhusu chaguo za skanisho la mlango. Kwa chaguo-msingi, tumeona kuwa Nmap itachanganua milango 1000 ya mara kwa mara kwenye kila seva pangishi inayotumika itakayogundua. Tumeona jinsi ya kuzuia tabia hii ikiwa hatuitaki, lakini tunaweza kuidhibiti kikamilifu, na hata kuipanua ikiwa inafaa mahitaji yetu.
+Sasa tunaweza kuchanganya yale ambayo tumejifunza katika sehemu hii na yale tuliyojifunza katika sehemu iliyotangulia kuhusu chaguo za skanisho la mlango. Kwa chaguo-msingi, tumeona kuwa Nmap itachanganua milango 1000 ya mara kwa mara kwenye kila server pangishi inayotumika itakayogundua. Tumeona jinsi ya kuzuia tabia hii ikiwa hatuitaki, lakini tunaweza kuidhibiti kikamilifu, na hata kuipanua ikiwa inafaa mahitaji yetu.
 
 
 
-Kwa mfano, amri ifuatayo itaangalia uwepo wa huduma ya kusikiliza kwenye bandari TCP/22 kwenye kila seva pangishi iliyochanganuliwa:
+Kwa mfano, amri ifuatayo itaangalia uwepo wa huduma ya kusikiliza kwenye port TCP/22 kwenye kila server pangishi iliyochanganuliwa:
 
 
 
@@ -1592,11 +1591,11 @@ nmap 192.168.0.0/24 192.168.1.0/24 -p 22
 
 
 
-Nmap itafanya ugunduzi wa mtandao kwanza ili kuorodhesha wapangishi wanaotumika, na kwa kila mmoja wao, hakikisha kuwa kuna huduma kwenye bandari TCP/22.
+Nmap itafanya ugunduzi wa mtandao kwanza ili kuorodhesha wapangishi wanaotumika, na kwa kila mmoja wao, hakikisha kuwa kuna huduma kwenye port TCP/22.
 
 
 
-Kwa njia hiyo hiyo, tunaweza kufanya uchanganuzi kamili wa bandari zote za TCP kwa kila seva pangishi iliyogunduliwa kwenye mtandao wa "192.168.0.0/24", bila kujumuisha seva pangishi "192.168.0.4" kwa mfano:
+Kwa njia hiyo hiyo, tunaweza kufanya uchanganuzi kamili wa port zote za TCP kwa kila server pangishi iliyogunduliwa kwenye mtandao wa "192.168.0.0/24", bila kujumuisha server pangishi "192.168.0.4" kwa mfano:
 
 
 
@@ -1615,7 +1614,7 @@ Uko huru kuchanganya chaguo zote ambazo tumejifunza kufikia sasa ili kukidhi mah
 
 
 
-Katika sehemu hii, tumeona jinsi ya kutumia Nmap kuweka ramani ya mtandao kwa kutumia chaguo mbalimbali. Sasa tuna uelewa mzuri wa shabaha za skanisho zetu, pamoja na tabia ya ukaguzi wa mlango wa Nmap na mbinu ya kugundua seva pangishi. Na muhimu zaidi, tunajua tabia na vikwazo vya Nmap ni nini, na jinsi ya kutumia chaguo zake kuu kwenda mbali zaidi.
+Katika sehemu hii, tumeona jinsi ya kutumia Nmap kuweka map ya mtandao kwa kutumia chaguo mbalimbali. Sasa tuna uelewa mzuri wa shabaha za skanisho zetu, pamoja na tabia ya ukaguzi wa mlango wa Nmap na mbinu ya kugundua server pangishi. Na muhimu zaidi, tunajua tabia na vikwazo vya Nmap ni nini, na jinsi ya kutumia chaguo zake kuu kwenda mbali zaidi.
 
 
 
@@ -1636,7 +1635,7 @@ Katika sehemu hii, tutajifunza jinsi ya kutumia Nmap kugundua na kugundua kwa us
 
 
 
-Kama tulivyoona katika sehemu zilizopita za mafunzo haya, kwa chaguo-msingi, Nmap haitaangalia ni huduma gani inayofichuliwa kwenye milango inayochanganua na kufikiria kuwa imefunguliwa. Kwa hivyo ikiwa unasikiliza huduma ya wavuti kwenye bandari TCP/22, Nmap itaendelea kuripoti kuwa imefunguliwa, lakini kama huduma ya `SSH`. Hii ni kwa sababu hutumia [database](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) kwenye mfumo wako kutafuta uhusiano kati ya bandari/itifaki na jina la huduma (faili ya `/etc/services/`).
+Kama tulivyoona katika sehemu zilizopita za mafunzo haya, kwa chaguo-msingi, Nmap haitaangalia ni huduma gani inayofichuliwa kwenye milango inayochanganua na kufikiria kuwa imefunguliwa. Kwa hivyo ikiwa unasikiliza huduma ya wavuti kwenye port TCP/22, Nmap itaendelea kuripoti kuwa imefunguliwa, lakini kama huduma ya `SSH`. Hii ni kwa sababu hutumia [database](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) kwenye mfumo wako kutafuta uhusiano kati ya port/protocol na jina la huduma (faili ya `/etc/services/`).
 
 
 
@@ -1660,7 +1659,7 @@ Hiyo ndiyo tutakuwa tukiangalia katika sehemu hii.
 
 
 
-Kutambua teknolojia na toleo kunahusisha kurejesha jina la huduma, CMS, programu au usikilizaji wa programu kwenye mlango unaolengwa. Kwa mfano, ukurasa wa wavuti unasimamiwa na CMS (`WordPress`), inayoendeshwa na huduma ya wavuti (`Apache`, IIS, Nginx) na kupangishwa na seva (Linux au Windows). Lakini unajuaje ni huduma gani ya wavuti inayoendesha?
+Kutambua teknolojia na toleo kunahusisha kurejesha jina la huduma, CMS, programu au usikilizaji wa programu kwenye mlango unaolengwa. Kwa mfano, ukurasa wa wavuti unasimamiwa na CMS (`WordPress`), inayoendeshwa na huduma ya wavuti (`Apache`, IIS, Nginx) na kupangishwa na server (Linux au Windows). Lakini unajuaje ni huduma gani ya wavuti inayoendesha?
 
 
 
@@ -1676,7 +1675,7 @@ onyesha toleo mara tu muunganisho wa TCP unapoanzishwa na huduma ya FTP
 
 
 
-Hapa tunaona kwamba muunganisho rahisi wa TCP kwa huduma hii kupitia `telnet` husababisha pakiti ya TCP iliyo na teknolojia na toleo lake.
+Hapa tunaona kwamba muunganisho rahisi wa TCP kwa huduma hii kupitia `telnet` husababisha packet ya TCP iliyo na teknolojia na toleo lake.
 
 
 
@@ -1684,11 +1683,11 @@ Mara tu unapopata wazo la aina ya huduma unayoshughulika nayo, unaweza pia kutum
 
 
 
-Katika hali zingine, za hali ya juu zaidi, inahitajika kutuma pakiti maalum ili kusababisha athari, kama vile hitilafu, ambayo itatoa maelezo ya kina juu ya toleo au teknolojia iliyotumiwa.
+Katika hali zingine, za hali ya juu zaidi, inahitajika kutuma packet maalum ili kusababisha athari, kama vile hitilafu, ambayo itatoa maelezo ya kina juu ya toleo au teknolojia iliyotumiwa.
 
 
 
-Kama unavyoweza kufikiria, Nmap itatumia mbinu hizi zote kujaribu na kutambua aina halisi ya huduma inayopangishwa kwenye bandari, pamoja na jina la teknolojia na toleo lake.
+Kama unavyoweza kufikiria, Nmap itatumia mbinu hizi zote kujaribu na kutambua aina halisi ya huduma inayopangishwa kwenye port, pamoja na jina la teknolojia na toleo lake.
 
 
 
@@ -1696,7 +1695,7 @@ Kama unavyoweza kufikiria, Nmap itatumia mbinu hizi zote kujaribu na kutambua ai
 
 
 
-Ili kutekeleza ukaguzi huu wote kwenye kila bandari iliyochanganuliwa, Nmap hutumia hifadhidata ya ndani ambayo husasishwa mara kwa mara (kama vile mfumo wa jozi au moduli zake). Hili ni faili la maandishi la mistari elfu kadhaa: `/usr/share/nmap/nmap-service-probes`.
+Ili kutekeleza ukaguzi huu wote kwenye kila port iliyochanganuliwa, Nmap hutumia hifadhidata ya ndani ambayo husasishwa mara kwa mara (kama vile mfumo wa jozi au moduli zake). Hili ni faili la maandishi la mistari elfu kadhaa: `/usr/share/nmap/nmap-service-probes`.
 
 
 
@@ -1706,7 +1705,7 @@ Faili hii ina maingizo mengi, yote yamepangwa kwa miongozo miwili mikuu:
 
 
 
-- `Probe`: huu ndio ufafanuzi wa pakiti ambayo Nmap itatuma katika jaribio la kuibua hisia kutoka kwa huduma ili kutambuliwa. Fikiria kama jaribio la kipofu kama _Hello? Lebo ya Guten? Hujambo? Um... Buenos Dias labda?_. Mara tu huduma inayolengwa inapopokea uchunguzi inaelewa (yaani kuzungumza itifaki sahihi), itajibu Nmap, ambayo itakuwa na uthibitisho wa aina ya huduma hiyo.
+- `Probe`: huu ndio ufafanuzi wa packet ambayo Nmap itatuma katika jaribio la kuibua hisia kutoka kwa huduma ili kutambuliwa. Fikiria kama jaribio la kipofu kama _Hello? Lebo ya Guten? Hujambo? Um... Buenos Dias labda?_. Mara tu huduma inayolengwa inapopokea uchunguzi inaelewa (yaani kuzungumza protocol sahihi), itajibu Nmap, ambayo itakuwa na uthibitisho wa aina ya huduma hiyo.
 
 
 
@@ -1733,7 +1732,7 @@ Katika mstari wa kwanza wa mfano huu, tunaona Uchunguzi ulio rahisi kuelewa unao
 
 
 
-Laini ya `bandari` inaiambia Nmap ni mlango gani wa kutuma Uchunguzi huu. Hii hukuruhusu kutanguliza majaribio na kuokoa muda.
+Laini ya `port` inaiambia Nmap ni mlango gani wa kutuma Uchunguzi huu. Hii hukuruhusu kutanguliza majaribio na kuokoa muda.
 
 
 
@@ -1753,7 +1752,7 @@ mfano wa Uchunguzi kadhaa unaotumiwa na Nmap na uliopo kwenye faili `/usr/share/
 
 
 
-Mbili za kwanza (zinazoitwa `NULL` na `GenericLines`) zinavutia sana hapa, kwani zinatuma tu pakiti tupu ya TCP au iliyo na kivunja mstari. Huduma za seva mara nyingi hujitangaza kwa usahihi punde tu muunganisho unapopokelewa, bila hatua yoyote maalum, amri au ombi kutoka kwa mteja.
+Mbili za kwanza (zinazoitwa `NULL` na `GenericLines`) zinavutia sana hapa, kwani zinatuma tu packet tupu ya TCP au iliyo na kivunja mstari. Huduma za server mara nyingi hujitangaza kwa usahihi punde tu muunganisho unapopokelewa, bila hatua yoyote maalum, amri au ombi kutoka kwa mteja.
 
 
 
@@ -1792,7 +1791,7 @@ Sintaksia halisi ya _matches_ na, kwa ujumla zaidi, ya maagizo katika faili ya `
 
 
 
-Sasa tutatumia _Probe_ na _Match_ mechanics hii yote changamano kupitia chaguo rahisi: `-sV`. Hii inaambia Nmap tu: jaribu kujua ni huduma zipi na matoleo ya bandari ambayo umeweka wazi.
+Sasa tutatumia _Probe_ na _Match_ mechanics hii yote changamano kupitia chaguo rahisi: `-sV`. Hii inaambia Nmap tu: jaribu kujua ni huduma zipi na matoleo ya port ambayo umeweka wazi.
 
 
 
@@ -1886,7 +1885,7 @@ $ grep -E "^rarity" nmap-service-probes |sort |uniq -c
 
 
 
-Inaweza kuonekana kuwa isiyoeleweka, kuna `adimu` zaidi ya 8 na 9 kuliko zingine. Hii ni hasa kwa sababu Rarity 1 Probes ni za kawaida na hufanya kazi katika hali nyingi, bila kujali huduma (kumbuka `NULL` Probe ambayo hutuma pakiti tupu ya TCP). Ingawa Majaribio changamano zaidi yanakaribia kuwa ya kipekee kwa kila huduma.
+Inaweza kuonekana kuwa isiyoeleweka, kuna `adimu` zaidi ya 8 na 9 kuliko zingine. Hii ni hasa kwa sababu Rarity 1 Probes ni za kawaida na hufanya kazi katika hali nyingi, bila kujali huduma (kumbuka `NULL` Probe ambayo hutuma packet tupu ya TCP). Ingawa Majaribio changamano zaidi yanakaribia kuwa ya kipekee kwa kila huduma.
 
 
 
@@ -1916,7 +1915,7 @@ mifano ya Uchunguzi kwa nadra 8 na 9 katika faili `/usr/share/nmap/nmap-service-
 
 
 
-_Probes_ hizi mbili hugundua seva za Quake1 na Quake2 (mchezo wa video). Kuvutia kwa upande wa nostalgic, lakini hakuna uwezekano wa kuwa na matumizi mengi katika maisha ya kila siku.
+_Probes_ hizi mbili hugundua server za Quake1 na Quake2 (mchezo wa video). Kuvutia kwa upande wa nostalgic, lakini hakuna uwezekano wa kuwa na matumizi mengi katika maisha ya kila siku.
 
 
 
@@ -1928,7 +1927,7 @@ Kulingana na mahitaji yako ya usahihi au kasi, kumbuka kuwa kanuni hii ya `rarit
 
 
 
-Sasa tutaangalia jinsi Nmap inaweza kutusaidia kugundua mifumo ya uendeshaji ya seva pangishi iliyochanganuliwa na kutambuliwa kwenye mtandao. Ili kufanya hivyo, tumia chaguo la Nmap `-O` (kwa `OS Scan`) chaguo.
+Sasa tutaangalia jinsi Nmap inaweza kutusaidia kugundua mifumo ya uendeshaji ya server pangishi iliyochanganuliwa na kutambuliwa kwenye mtandao. Ili kufanya hivyo, tumia chaguo la Nmap `-O` (kwa `OS Scan`) chaguo.
 
 
 
@@ -1951,7 +1950,7 @@ ugunduzi wa uwezekano wa kutambuliwa kwa mfumo wa uendeshaji na Nmap
 
 
 
-Ili kufanikisha hili, Nmap itatumia mbinu nyingi zinazofanya kazi kwa njia sawa na _Probes_ na _Matches_ kwa ajili ya kutambua teknolojia na matoleo. Tofauti kuu ni kwamba Nmap itatumia vigezo vya "kiwango cha chini" vya ICMP, TCP, UDP na itifaki zingine. Hapa kuna mifano miwili ya majaribio ya kugundua mfumo wa uendeshaji wa Microsoft Windows 11:
+Ili kufanikisha hili, Nmap itatumia mbinu nyingi zinazofanya kazi kwa njia sawa na _Probes_ na _Matches_ kwa ajili ya kutambua teknolojia na matoleo. Tofauti kuu ni kwamba Nmap itatumia vigezo vya "kiwango cha chini" vya ICMP, TCP, UDP na protocol zingine. Hapa kuna mifano miwili ya majaribio ya kugundua mfumo wa uendeshaji wa Microsoft Windows 11:
 
 
 
@@ -1975,7 +1974,7 @@ Walakini, unahitaji kufahamu kuwa ugunduzi wa OS ni uwezekano ulioanzishwa na Nm
 
 
 
-Katika sehemu hii, tumejifunza jinsi ya kutumia chaguo za Nmap ili kugundua teknolojia, matoleo na mifumo ya uendeshaji ya seva pangishi na huduma zilizochanganuliwa. Sasa tuna ufahamu mzuri wa jinsi Nmap inavyoendelea kupata habari hii kwa mbali. Tumekagua pia chaguo za kudhibiti kitenzi na usahihi wa majaribio, pamoja na mapungufu ya zana kwenye mada haya.
+Katika sehemu hii, tumejifunza jinsi ya kutumia chaguo za Nmap ili kugundua teknolojia, matoleo na mifumo ya uendeshaji ya server pangishi na huduma zilizochanganuliwa. Sasa tuna ufahamu mzuri wa jinsi Nmap inavyoendelea kupata habari hii kwa mbali. Tumekagua pia chaguo za kudhibiti kitenzi na usahihi wa majaribio, pamoja na mapungufu ya zana kwenye mada haya.
 
 
 
@@ -2004,7 +2003,7 @@ Katika sehemu hii ya kwanza, tutaangalia kichanganuzi cha uwezekano wa Nmap, na 
 
 
 
-Sasa tunataka kutumia kichanganuzi cha mtandao cha Nmap ili kugundua udhaifu katika huduma na mifumo ya mfumo wetu wa taarifa. Hii inamaanisha kuwa pamoja na kugundua seva pangishi zinazoendelea, kuorodhesha huduma zilizofichuliwa na kugundua matoleo na teknolojia, Nmap itatafuta udhaifu.
+Sasa tunataka kutumia kichanganuzi cha mtandao cha Nmap ili kugundua udhaifu katika huduma na mifumo ya mfumo wetu wa taarifa. Hii inamaanisha kuwa pamoja na kugundua server pangishi zinazoendelea, kuorodhesha huduma zilizofichuliwa na kugundua matoleo na teknolojia, Nmap itatafuta udhaifu.
 
 
 
@@ -2067,7 +2066,7 @@ Kama unavyoona, hati za NSE huongeza kwa kiasi kikubwa uwezo wa Nmap kulingana n
 
 
 
-Hati za NSE zinaweza kutumika unapotumia Nmap kuchanganua mlango mmoja kwenye seva pangishi, huduma zote kwenye seva pangishi hiyo au huduma zote zinazotambuliwa kwenye mitandao kadhaa. Kwa hivyo tunaweza kutumia chaguzi ambazo tutaona katika miktadha yote ambayo tumesoma hadi sasa.
+Hati za NSE zinaweza kutumika unapotumia Nmap kuchanganua mlango mmoja kwenye server pangishi, huduma zote kwenye server pangishi hiyo au huduma zote zinazotambuliwa kwenye mitandao kadhaa. Kwa hivyo tunaweza kutumia chaguzi ambazo tutaona katika miktadha yote ambayo tumesoma hadi sasa.
 
 
 
@@ -2082,7 +2081,7 @@ nmap -sC 10.10.10.152
 
 
 
-Kumbuka kwamba kwa chaguo-msingi, ikiwa hutabainisha chochote, Nmap itachanganua tu bandari 1000 zinazojulikana zaidi. Haitatambua udhaifu kwenye milango ya kigeni ambayo malengo yako yanaweza kufichua.
+Kumbuka kwamba kwa chaguo-msingi, ikiwa hutabainisha chochote, Nmap itachanganua tu port 1000 zinazojulikana zaidi. Haitatambua udhaifu kwenye milango ya kigeni ambayo malengo yako yanaweza kufichua.
 
 
 
@@ -2090,7 +2089,7 @@ Kabla ya kutumia utendakazi huu kwenye mfumo wa taarifa za uzalishaji, ninakuali
 
 
 
-Kwa kutumia tena yale ambayo tumejifunza hapo awali, tunaweza, kwa mfano, kuwa wa kina zaidi na kuchanganua bandari zote za TCP za lengo:
+Kwa kutumia tena yale ambayo tumejifunza hapo awali, tunaweza, kwa mfano, kuwa wa kina zaidi na kuchanganua port zote za TCP za lengo:
 
 
 
@@ -2171,7 +2170,7 @@ Hebu tuseme wazi: Nmap haina uwezo wa kufanya jaribio kamili la kupenya la mfumo
 
 
 
-- Utata wa mazingira magumu: aina fulani za athari zinaweza kuwa vigumu kutambua kwa kutumia hati za NSE kutokana na uchangamano wake. Kwa mfano, udhaifu unaohitaji mwingiliano changamano na huduma ya mbali hauwezi kutambuliwa vyema na Nmap (kama ilivyo kwa ruhusa nyingi katika kushiriki faili au dosari ya udhibiti wa ruhusa katika programu ya wavuti).
+- **Utata wa mazingira magumu**: aina fulani za athari zinaweza kuwa vigumu kutambua kwa kutumia hati za NSE kutokana na uchangamano wake. Kwa mfano, udhaifu unaohitaji mwingiliano changamano na huduma ya mbali hauwezi kutambuliwa vyema na Nmap (kama ilivyo kwa ruhusa nyingi katika kushiriki faili au dosari ya udhibiti wa ruhusa katika programu ya wavuti).
 
 
 
@@ -2230,7 +2229,7 @@ Sehemu hii inafuatia kutoka kwa mafunzo yaliyotangulia, ambamo tulijifunza jinsi
 
 
 
-Hati za NSE za Nmap hukuruhusu kupanua uwezo wake kwa njia inayonyumbulika sana. Zimeandikwa katika LUA, lugha ya uandishi ambayo ni rahisi kushughulikia na kufikia kuliko C au C# inayotumiwa na Nmap. Faida ya kutumia hati ya LUA iliyo na Nmap badala ya zana ya kusimama pekee ni kwamba huturuhusu kufaidika na kasi ya utekelezaji ya Nmap na vipengele vya kawaida (mwenyeji, bandari na ugunduzi wa toleo, n.k.).
+Hati za NSE za Nmap hukuruhusu kupanua uwezo wake kwa njia inayonyumbulika sana. Zimeandikwa katika LUA, lugha ya uandishi ambayo ni rahisi kushughulikia na kufikia kuliko C au C# inayotumiwa na Nmap. Faida ya kutumia hati ya LUA iliyo na Nmap badala ya zana ya kusimama pekee ni kwamba huturuhusu kufaidika na kasi ya utekelezaji ya Nmap na vipengele vya kawaida (mwenyeji, port na ugunduzi wa toleo, n.k.).
 
 
 
@@ -2288,7 +2287,7 @@ hutoa yaliyomo kwenye saraka ya `/usr/share/nmap/scripts/` iliyo na hati za NSE.
 
 
 
-Saraka hii ina zaidi ya hati 5,000 za NSE. Mara nyingi, sehemu ya kwanza ya jina la hati huwa na itifaki au kategoria ambayo ni mali yake. Hii hutuwezesha kupanga orodha, kwa mfano, ikiwa tunataka kuorodhesha hati zote zinazolenga huduma ya FTP:
+Saraka hii ina zaidi ya hati 5,000 za NSE. Mara nyingi, sehemu ya kwanza ya jina la hati huwa na protocol au kategoria ambayo ni mali yake. Hii hutuwezesha kupanga orodha, kwa mfano, ikiwa tunataka kuorodhesha hati zote zinazolenga huduma ya FTP:
 
 
 
@@ -2551,7 +2550,7 @@ Kama unavyoona, maelezo yanayotolewa na hati za NSE hutanguliwa na `NSE: [jina l
 
 
 
-Ili kuchukua hatua mbele zaidi, na kukukumbusha kuwa haya yote yanaweza kutumika pamoja na chaguo zote ambazo tayari tumeziangalia, hapa kuna amri ambayo itagundua mtandao wa `10.10.10.0/24`, kuchanganua bandari za TCP mara nyingi zaidi za 2000 na kuendesha utafutaji wa ufikiaji usiojulikana kwenye huduma za FTP na kampeni ya nguvu kwenye huduma za SSH:
+Ili kuchukua hatua mbele zaidi, na kukukumbusha kuwa haya yote yanaweza kutumika pamoja na chaguo zote ambazo tayari tumeziangalia, hapa kuna amri ambayo itagundua mtandao wa `10.10.10.0/24`, kuchanganua port za TCP mara nyingi zaidi za 2000 na kuendesha utafutaji wa ufikiaji usiojulikana kwenye huduma za FTP na kampeni ya nguvu kwenye huduma za SSH:
 
 
 
@@ -2594,7 +2593,7 @@ Katika sehemu hii, tutaangalia towe linalotolewa na Nmap, na haswa katika chaguz
 
 
 
-Kwa chaguo-msingi, Nmap inatoa mwonekano wa kina wa matokeo ya skanisho na majaribio inayofanya. Hii inajumuisha seva pangishi na huduma zilizochanganuliwa, zinazogunduliwa kuwa zinaweza kufikiwa, maelezo mahususi ya milango iliyo wazi, hali na toleo lao. Kwa kuongeza, maelezo ya hati za NSE zinapatikana pia katika matokeo ya mwisho. Walakini, pato hili linaweza kuwa kubwa haraka, hata ikiwa na umbizo wazi la habari, ambayo inaweza kufanya iwe ngumu kupata habari sahihi katika matokeo.
+Kwa chaguo-msingi, Nmap inatoa mwonekano wa kina wa matokeo ya skanisho na majaribio inayofanya. Hii inajumuisha server pangishi na huduma zilizochanganuliwa, zinazogunduliwa kuwa zinaweza kufikiwa, maelezo mahususi ya milango iliyo wazi, hali na toleo lao. Kwa kuongeza, maelezo ya hati za NSE zinapatikana pia katika matokeo ya mwisho. Walakini, pato hili linaweza kuwa kubwa haraka, hata ikiwa na umbizo wazi la habari, ambayo inaweza kufanya iwe ngumu kupata habari sahihi katika matokeo.
 
 
 
@@ -2641,7 +2640,7 @@ kuchanganua mtandao wa nmap na kutoa katika umbizo la "greppable"._
 
 
 
-Hapa, nimefanya ugunduzi wa mtandao na vile vile uchunguzi wa bandari na uchanganuzi wa teknolojia na matoleo kwenye mtandao /24, kisha nikahifadhi matokeo katika faili katika umbizo la "greppable". Ninaishia na faili iliyo na mistari 2 kwa kila mwenyeji anayefanya kazi:
+Hapa, nimefanya ugunduzi wa mtandao na vile vile uchunguzi wa port na uchanganuzi wa teknolojia na matoleo kwenye mtandao /24, kisha nikahifadhi matokeo katika faili katika umbizo la "greppable". Ninaishia na faili iliyo na mistari 2 kwa kila mwenyeji anayefanya kazi:
 
 
 
@@ -2653,7 +2652,7 @@ Hapa, nimefanya ugunduzi wa mtandao na vile vile uchunguzi wa bandari na uchanga
 
 
 
-- Mstari wa pili unaniambia ni bandari zipi zimechanganuliwa, hali zao na teknolojia na maelezo ya toleo yaliyopatikana katika umbizo mahususi: `<port>/<status/<protocol>//<service>//<version>/,`
+- Mstari wa pili unaniambia ni port zipi zimechanganuliwa, hali zao na teknolojia na maelezo ya toleo yaliyopatikana katika umbizo mahususi: `<port>/<status/<protocol>//<service>//<version>/,`
 
 
 
@@ -2671,7 +2670,7 @@ Host: 10.10.10.5 () Ports: 21/open/tcp//ftp//Microsoft ftpd/, 80/open/tcp//http/
 
 
 
-Kinyume chake, naweza pia kuorodhesha majeshi yote ambayo yana bandari 21 wazi kwa urahisi, kwani bandari na IP ziko kwenye mstari huo huo:
+Kinyume chake, naweza pia kuorodhesha majeshi yote ambayo yana port 21 wazi kwa urahisi, kwani port na IP ziko kwenye mstari huo huo:
 
 
 
@@ -2716,7 +2715,7 @@ XML (_eXtensible Markup Language_) ni lugha ya alama inayotumiwa kuhifadhi na ku
 
 
 
-Ndani ya Nmap, umbizo la XML linatumika kwa ripoti za kina za generate kuhusu uchanganuzi uliofanywa, ikijumuisha maelezo kuhusu seva pangishi, bandari na udhaifu uliogunduliwa, pamoja na maelezo ya ziada ambayo hayajaonyeshwa katika toleo la kawaida la Nmap.
+Ndani ya Nmap, umbizo la XML linatumika kwa ripoti za kina za generate kuhusu uchanganuzi uliofanywa, ikijumuisha maelezo kuhusu server pangishi, port na udhaifu uliogunduliwa, pamoja na maelezo ya ziada ambayo hayajaonyeshwa katika toleo la kawaida la Nmap.
 
 
 
@@ -2743,11 +2742,11 @@ Bila shaka, umbizo la XML halijaundwa kusomwa na kufasiriwa na wanadamu. Walakin
 
 
 
-mfano wa rekodi ya XML kwa seva pangishi 1 wakati wa kuchanganua Nmap
+mfano wa rekodi ya XML kwa server pangishi 1 wakati wa kuchanganua Nmap
 
 
 
-Kuna habari nyingi hapa, na tunavutiwa sana na bandari mbili zilizo wazi:
+Kuna habari nyingi hapa, na tunavutiwa sana na port mbili zilizo wazi:
 
 
 
@@ -2888,11 +2887,11 @@ pato la kitenzi cha nmap kwa kutumia chaguo la `-v`._
 
 
 
-Kwenye uchanganuzi unaolenga seva pangishi na milango mingi, kifaa cha kutoa matokeo kitakuwa vigumu kutumia kutokana na kiasi cha taarifa kinachoonyeshwa. Kwa sababu hii, chaguo hili linapaswa kutumiwa pamoja na chaguzi zilizoonekana hapo awali, ambazo hukuruhusu kuhifadhi pato la kawaida la Nmap kwenye faili. Taarifa zinazohusiana na matumizi ya kitenzi hazitajumuishwa kwenye faili hii ya towe. Kama unavyoona kutoka kwa mfano hapo juu, kitenzi hiki hukuruhusu kufuatilia vitendo na uvumbuzi wa Nmap kwa uwazi na moja kwa moja. Kwa uchanganuzi wa muda mrefu ambapo onyesho la data linaweza kuwa polepole kuja, hii inaepuka kutoona shughuli ya sasa ya Nmap na kujua kuwa mambo yanaendelea na kwa kasi gani. Ili kuongeza kitenzi kwa kiwango zaidi, unaweza kutumia chaguo la `-vv`.
+Kwenye uchanganuzi unaolenga server pangishi na milango mingi, kifaa cha kutoa matokeo kitakuwa vigumu kutumia kutokana na kiasi cha taarifa kinachoonyeshwa. Kwa sababu hii, chaguo hili linapaswa kutumiwa pamoja na chaguzi zilizoonekana hapo awali, ambazo hukuruhusu kuhifadhi pato la kawaida la Nmap kwenye faili. Taarifa zinazohusiana na matumizi ya kitenzi hazitajumuishwa kwenye faili hii ya towe. Kama unavyoona kutoka kwa mfano hapo juu, kitenzi hiki hukuruhusu kufuatilia vitendo na uvumbuzi wa Nmap kwa uwazi na moja kwa moja. Kwa uchanganuzi wa muda mrefu ambapo onyesho la data linaweza kuwa polepole kuja, hii inaepuka kutoona shughuli ya sasa ya Nmap na kujua kuwa mambo yanaendelea na kwa kasi gani. Ili kuongeza kitenzi kwa kiwango zaidi, unaweza kutumia chaguo la `-vv`.
 
 
 
-Ili kufuatilia zaidi shughuli za Nmap wakati wa kuchanganua, unaweza kutumia chaguo la `--packet-trace`. Kwa chaguo la `-v`, tunapata kumbukumbu ya moja kwa moja ya bandari zote zilizofunguliwa zilizogunduliwa na Nmap, ambapo kwa chaguo hili, tunapata laini ya kumbukumbu kwa kila pakiti inayotumwa kwenye mlango. Kwa kawaida hii hutoa pato la kitenzi, lakini inaruhusu ufuatiliaji wa kina wa shughuli za Nmap, hapa kuna mfano:
+Ili kufuatilia zaidi shughuli za Nmap wakati wa kuchanganua, unaweza kutumia chaguo la `--packet-trace`. Kwa chaguo la `-v`, tunapata kumbukumbu ya moja kwa moja ya port zote zilizofunguliwa zilizogunduliwa na Nmap, ambapo kwa chaguo hili, tunapata laini ya kumbukumbu kwa kila packet inayotumwa kwenye mlango. Kwa kawaida hii hutoa pato la kitenzi, lakini inaruhusu ufuatiliaji wa kina wa shughuli za Nmap, hapa kuna mfano:
 
 
 
@@ -2936,7 +2935,7 @@ habari iliyoonyeshwa na chaguo la Nmap `--stats-every`
 
 
 
-Hasa, tunaweza kupata asilimia ya maendeleo, pamoja na dalili ya awamu ambayo iko: awamu ya ugunduzi wa seva pangishi kupitia [ping](https://www.it-connect.fr/le-ping-pour-les-debutants/), awamu ya ugunduzi wa bandari za TCP zilizofichuliwa, n.k. Maelezo haya pia yanaweza kupatikana katika toleo la mwisho kwa kubonyeza "Enter" wakati wa kuchanganua.
+Hasa, tunaweza kupata asilimia ya maendeleo, pamoja na dalili ya awamu ambayo iko: awamu ya ugunduzi wa server pangishi kupitia [ping](https://www.it-connect.fr/le-ping-pour-les-debutants/), awamu ya ugunduzi wa port za TCP zilizofichuliwa, n.k. Maelezo haya pia yanaweza kupatikana katika toleo la mwisho kwa kubonyeza "Enter" wakati wa kuchanganua.
 
 
 
@@ -2989,7 +2988,7 @@ Metasploit ni mfumo wa kunyonya na kushambulia. Ni suluhisho la bure na chombo k
 
 
 
-Hasa, mfumo huu wa uendeshaji unaojulikana na unaotumika sana unaweza kufanya kazi na postgreSQL [database](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) ambamo wapangishi, bandari, huduma, taarifa za uthibitishaji na mengineyo huhifadhiwa.
+Hasa, mfumo huu wa uendeshaji unaojulikana na unaotumika sana unaweza kufanya kazi na postgreSQL [database](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) ambamo wapangishi, port, huduma, taarifa za uthibitishaji na mengineyo huhifadhiwa.
 
 
 
@@ -3086,7 +3085,7 @@ Zana ya pili ambayo ningependa kutambulisha katika sehemu hii kuhusu kutumia ten
 
 
 
-Aquatone ni kichanganuzi cha wavuti kilichoundwa kuchunguza kwa ufanisi programu za wavuti kwenye mtandao. Inatoa vipengele vya kina vya ugunduzi wa huduma za wavuti, kitambulisho cha kikoa kidogo, uchanganuzi wa bandari na uwekaji alama za vidole kwenye programu ya wavuti. Zote zimewasilishwa kwa uwazi na kwa ufupi katika HTML, JSON na ripoti za maandishi kwa uchanganuzi rahisi wa usalama wa wavuti.
+Aquatone ni kichanganuzi cha wavuti kilichoundwa kuchunguza kwa ufanisi programu za wavuti kwenye mtandao. Inatoa vipengele vya kina vya ugunduzi wa huduma za wavuti, kitambulisho cha kikoa kidogo, uchanganuzi wa port na uwekaji alama za vidole kwenye programu ya wavuti. Zote zimewasilishwa kwa uwazi na kwa ufupi katika HTML, JSON na ripoti za maandishi kwa uchanganuzi rahisi wa usalama wa wavuti.
 
 
 
@@ -3112,7 +3111,7 @@ cat /tmp/nmap_10.10.10.0.xml | ./aquatone -nmap
 
 
 
-Ambapo Aquatone kwa kawaida hufanya ugunduzi wa bandari kwa wapangishaji kupata huduma za wavuti, katika muktadha huu itategemea tu matokeo ya Nmap, ambayo tayari imefanya operesheni hii, hivyo kuokoa muda:
+Ambapo Aquatone kwa kawaida hufanya ugunduzi wa port kwa wapangishaji kupata huduma za wavuti, katika muktadha huu itategemea tu matokeo ya Nmap, ambayo tayari imefanya operesheni hii, hivyo kuokoa muda:
 
 
 
@@ -3177,11 +3176,11 @@ Katika sura hii, tutajifunza jinsi ya kuongeza kasi ya uchanganuzi wa mtandao un
 
 
 
-Sasa kwa kuwa tumeangalia vyema vipengele vya Nmap, wacha tukabiliane na mnyama huyo na nguvu zake. Ikiwa umewahi kutumia chombo kwenye mitandao mikubwa, labda umeona kwamba baadhi ya scanning inaweza kuchukua muda mrefu, licha ya nguvu ya chombo. Na kwa sababu nzuri: amri rahisi ya `nmap` yenye chaguo chache inaweza generate mamilioni ya pakiti zinazolenga mamia ya maelfu ya mifumo na huduma zinazowezekana.
+Sasa kwa kuwa tumeangalia vyema vipengele vya Nmap, wacha tukabiliane na mnyama huyo na nguvu zake. Ikiwa umewahi kutumia chombo kwenye mitandao mikubwa, labda umeona kwamba baadhi ya scanning inaweza kuchukua muda mrefu, licha ya nguvu ya chombo. Na kwa sababu nzuri: amri rahisi ya `nmap` yenye chaguo chache inaweza generate mamilioni ya packet zinazolenga mamia ya maelfu ya mifumo na huduma zinazowezekana.
 
 
 
-Zaidi ya hayo, baadhi ya usanidi wa vifaa vya mtandao unaweza kuweka kimakusudi kasi ya polepole (idadi ya pakiti kwa sekunde), katika hatari ya kukataa pakiti zako au kupiga marufuku IP yako Address kwa sababu za usalama.
+Zaidi ya hayo, baadhi ya usanidi wa vifaa vya mtandao unaweza kuweka kimakusudi kasi ya polepole (idadi ya packet kwa sekunde), katika hatari ya kukataa packet zako au kupiga marufuku IP yako Address kwa sababu za usalama.
 
 
 
@@ -3215,7 +3214,7 @@ Kwa chaguo-msingi, Nmap hutumia ulinganifu katika uchanganuzi wake ili kuzibores
 
 
 
-- `--min-hostgroup/max-hostgroup <size>`: ukubwa wa vikundi sambamba vya kuchanganua seva pangishi.
+- `--min-hostgroup/max-hostgroup <size>`: ukubwa wa vikundi sambamba vya kuchanganua server pangishi.
 
 
 
@@ -3236,11 +3235,11 @@ Jua tu kuwa zipo na zinaweza kutumika.
 
 
 
-#### B. Kusimamia idadi ya pakiti kwa sekunde
+#### B. Kusimamia idadi ya packet kwa sekunde
 
 
 
-Kwa chaguo-msingi, Nmap yenyewe hurekebisha idadi ya pakiti kwa sekunde inazotuma kulingana na majibu ya mtandao. Lakini inawezekana kulazimisha mpangilio huu kwa kufafanua thamani ya juu na/au ya chini kufuata kulingana na idadi ya pakiti kwa sekunde. Mpangilio huu unafanywa kwa kutumia chaguo `--min-rate <number>` na `--max-rate <number>` ambapo `number` inawakilisha idadi ya pakiti kwa sekunde. Mfano:
+Kwa chaguo-msingi, Nmap yenyewe hurekebisha idadi ya packet kwa sekunde inazotuma kulingana na majibu ya mtandao. Lakini inawezekana kulazimisha mpangilio huu kwa kufafanua thamani ya juu na/au ya chini kufuata kulingana na idadi ya packet kwa sekunde. Mpangilio huu unafanywa kwa kutumia chaguo `--min-rate <number>` na `--max-rate <number>` ambapo `number` inawakilisha idadi ya packet kwa sekunde. Mfano:
 
 
 
@@ -3263,11 +3262,11 @@ Kigezo kingine ambacho tunaweza kucheza nacho ili kuboresha kasi ya utafutaji wa
 
 
 
-Kwa _timeouts_, huu ndio muda wa **no majibu kuisha** ambapo Nmap itaacha kusubiri jibu na kuzingatia huduma au seva pangishi haiwezi kufikiwa. Kwa _jaribu tena_, hii ni **idadi ya majaribio mfululizo katika operesheni** ambayo Nmap itafanya kabla ya kuendelea.
+Kwa _timeouts_, huu ndio muda wa **no majibu kuisha** ambapo Nmap itaacha kusubiri jibu na kuzingatia huduma au server pangishi haiwezi kufikiwa. Kwa _jaribu tena_, hii ni **idadi ya majaribio mfululizo katika operesheni** ambayo Nmap itafanya kabla ya kuendelea.
 
 
 
-Kama ilivyo kwa ulinganifu, usimamizi wa _timeout_ na _retry_ unaweza kutumika kwa seva pangishi au awamu za ugunduzi wa huduma:
+Kama ilivyo kwa ulinganifu, usimamizi wa _timeout_ na _retry_ unaweza kutumika kwa server pangishi au awamu za ugunduzi wa huduma:
 
 
 
@@ -3279,13 +3278,13 @@ Kama ilivyo kwa ulinganifu, usimamizi wa _timeout_ na _retry_ unaweza kutumika k
 
 
 
-- `--max-retries <number>`: hupunguza idadi ya utumaji upya wa pakiti wakati wa kuchanganua mlangoni. Kwa chaguo-msingi, Nmap inaweza kwenda hadi majaribio 10 kwa huduma moja, hasa ikiwa inapata muda wa kusubiri au hasara katika kiwango cha mtandao, lakini katika hali nyingi ni moja tu inafanywa.
+- `--max-retries <number>`: hupunguza idadi ya utumaji upya wa packet wakati wa kuchanganua mlangoni. Kwa chaguo-msingi, Nmap inaweza kwenda hadi majaribio 10 kwa huduma moja, hasa ikiwa inapata muda wa kusubiri au hasara katika kiwango cha mtandao, lakini katika hali nyingi ni moja tu inafanywa.
 
 
 
 
 
-- `--host-timeout <time>`: inabainisha muda wa juu zaidi ambao Nmap itatumia kwa seva pangishi kwa shughuli zake zote, ikiwa ni pamoja na kutafuta mlango, kutambua huduma, na shughuli nyingine zozote zinazohusiana na seva pangishi. Iwapo muda huu wa muda utapitwa bila jibu lolote au **kukamilika kwa utendakazi**, Nmap itaachana na seva pangishi hii bila kuonyesha matokeo yoyote kuihusu, na kuendelea na inayofuata katika orodha yake. Hii hukuruhusu kudhibiti muda wa juu zaidi ambao Nmap hutumia kwa seva pangishi fulani, kuepuka kukwama kwa wapangishi waliokaidi na kuboresha muda wa jumla wa kuchanganua.
+- `--host-timeout <time>`: inabainisha muda wa juu zaidi ambao Nmap itatumia kwa server pangishi kwa shughuli zake zote, ikiwa ni pamoja na kutafuta mlango, kutambua huduma, na shughuli nyingine zozote zinazohusiana na server pangishi. Iwapo muda huu wa muda utapitwa bila jibu lolote au **kukamilika kwa utendakazi**, Nmap itaachana na server pangishi hii bila kuonyesha matokeo yoyote kuihusu, na kuendelea na inayofuata katika orodha yake. Hii hukuruhusu kudhibiti muda wa juu zaidi ambao Nmap hutumia kwa server pangishi fulani, kuepuka kukwama kwa wapangishi waliokaidi na kuboresha muda wa jumla wa kuchanganua.
 
 
 
@@ -3402,7 +3401,7 @@ Tumeona pia kwamba, kulingana na hati za NSE zinazotumiwa, matokeo ya uchunguzi 
 
 
 
-Kwa hivyo, mtu mwenye nia mbaya ambaye ataweza kupata matokeo haya ya skanisho atakuwa na ramani ya mfumo wa habari na habari nyingi za kiufundi, bila kufanya vitendo hivi mwenyewe, kwa hatari ya kugunduliwa.
+Kwa hivyo, mtu mwenye nia mbaya ambaye ataweza kupata matokeo haya ya skanisho atakuwa na map ya mfumo wa habari na habari nyingi za kiufundi, bila kufanya vitendo hivi mwenyewe, kwa hatari ya kugunduliwa.
 
 
 
@@ -3433,7 +3432,7 @@ Kwa hivyo ni muhimu kuwa mwangalifu kutokusanya au kuhifadhi habari nyeti kwa nj
 
 
 
-Kama tulivyoona katika somo hili lote, Nmap inaweza kuwa ya kitenzi katika kiwango cha mtandao. Inaweza pia kutuma pakiti ambazo hazijaumbizwa ipasavyo, na ambazo haziheshimu kabisa muundo wa itifaki katika fremu za mtandao na pakiti inazozalisha. Vitendo hivi vyote vinaweza kuwa na athari kwa mifumo na huduma fulani, wakati mwingine hadi kusababisha malfunction au kueneza kwa rasilimali za mfumo na mtandao.
+Kama tulivyoona katika somo hili lote, Nmap inaweza kuwa ya kitenzi katika kiwango cha mtandao. Inaweza pia kutuma packet ambazo hazijaumbizwa ipasavyo, na ambazo haziheshimu kabisa muundo wa protocol katika fremu za mtandao na packet inazozalisha. Vitendo hivi vyote vinaweza kuwa na athari kwa mifumo na huduma fulani, wakati mwingine hadi kusababisha malfunction au kueneza kwa rasilimali za mfumo na mtandao.
 
 
 
@@ -3473,7 +3472,7 @@ Hapa, ninatumia amri ya Nmap kupitia `sudo`, lakini hii inaniruhusu kupata ganda
 
 
 
-Pia haifai sana kusakinisha Nmap kwenye mifumo ambayo haijaundwa kufanya uchanganuzi wa mtandao. Ninafikiria haswa seva au vituo vya kazi. Kwa upande mmoja, hii ingeongeza vekta inayoweza kuinua upendeleo, lakini juu ya yote ingempa mvamizi ufikiaji rahisi wa zana inayokera.
+Pia haifai sana kusakinisha Nmap kwenye mifumo ambayo haijaundwa kufanya uchanganuzi wa mtandao. Ninafikiria haswa server au vituo vya kazi. Kwa upande mmoja, hii ingeongeza vekta inayoweza kuinua upendeleo, lakini juu ya yote ingempa mvamizi ufikiaji rahisi wa zana inayokera.
 
 
 
@@ -3489,7 +3488,7 @@ Kwa kumalizia, hakikisha umeifahamu vyema Nmap kabla ya kuitumia katika hali hal
 
 
 
-## 13 - Uchanganuzi wa bandari kupitia TCP: SYN, Unganisha na FIN
+## 13 - Uchanganuzi wa port kupitia TCP: SYN, Unganisha na FIN
 
 
 
@@ -3525,11 +3524,11 @@ Aina ya kwanza ya uchanganuzi wa TCP tutakayoangalia ni `TCP SYN Scan`, pia inaj
 
 
 
-Tafsiri itakusaidia kuelewa jinsi skanning hii inavyofanya kazi. Kwa hakika, kichanganuzi cha TCP SYN kitatuma pakiti ya TCP SYN kwa kila mlango unaolengwa, ambayo ni pakiti ya kwanza kutumwa na mteja (anayeomba kuanzisha muunganisho) kama sehemu ya _Three way handshake_ TCP maarufu. Kwa kawaida, ikiwa lango limefunguliwa kwenye seva inayolengwa, ikiwa na huduma inayoendeshwa nyuma yake, seva itatuma tena pakiti ya TCP SYN/ACK ili kuthibitisha SYN ya mteja na kuanzisha muunganisho wa TCP. Jibu hili litachukua muundo wa pakiti ya TCP iliyo na alama za SYN na ACK zilizowekwa kuwa 1, na kutuwezesha kuthibitisha kuwa mlango umefunguliwa na unaongoza kwa huduma.
+Tafsiri itakusaidia kuelewa jinsi skanning hii inavyofanya kazi. Kwa hakika, kichanganuzi cha TCP SYN kitatuma packet ya TCP SYN kwa kila mlango unaolengwa, ambayo ni packet ya kwanza kutumwa na mteja (anayeomba kuanzisha muunganisho) kama sehemu ya _Three way handshake_ TCP maarufu. Kwa kawaida, ikiwa lango limefunguliwa kwenye server inayolengwa, ikiwa na huduma inayoendeshwa nyuma yake, server itatuma tena packet ya TCP SYN/ACK ili kuthibitisha SYN ya mteja na kuanzisha muunganisho wa TCP. Jibu hili litachukua muundo wa packet ya TCP iliyo na alama za SYN na ACK zilizowekwa kuwa 1, na kutuwezesha kuthibitisha kuwa mlango umefunguliwa na unaongoza kwa huduma.
 
 
 
-Kwa upande mwingine, lango limefungwa, seva itatutumia pakiti ya `TCP` iliyo na alama za RST na ACK zilizowekwa kuwa 1 ili kusimamisha ombi la muunganisho, kwa hivyo tutajua kuwa hakuna huduma inayoonekana kuwa amilifu nyuma ya mlango huu:
+Kwa upande mwingine, lango limefungwa, server itatutumia packet ya `TCP` iliyo na alama za RST na ACK zilizowekwa kuwa 1 ili kusimamisha ombi la muunganisho, kwa hivyo tutajua kuwa hakuna huduma inayoonekana kuwa amilifu nyuma ya mlango huu:
 
 
 
@@ -3541,7 +3540,7 @@ Mchoro wa tabia wa tCP SYN Scan kwa milango iliyo wazi na iliyofungwa
 
 
 
-Ili kupata mwonekano kamili wa `TCP SYN Scan`, nilichanganua lango la TCP/80 kwa seva pangishi ambayo ilikuwa na seva ya wavuti inayotumika kwenye mlango huu. Kuchanganua mtandao kwa kutumia Wireshark, tunaweza kuona mtiririko ufuatao (chanzo cha skanisho: `10.10.14.84`):
+Ili kupata mwonekano kamili wa `TCP SYN Scan`, nilichanganua lango la TCP/80 kwa server pangishi ambayo ilikuwa na server ya wavuti inayotumika kwenye mlango huu. Kuchanganua mtandao kwa kutumia Wireshark, tunaweza kuona mtiririko ufuatao (chanzo cha skanisho: `10.10.14.84`):
 
 
 
@@ -3553,19 +3552,19 @@ kunasa mtandao wakati wa kuchanganua TCP SYN kwa mlango wazi
 
 
 
-Kwenye mstari wa kwanza, tunaona kwamba chanzo cha kutambaza kinatuma pakiti ya TCP kupangisha `10.10.10.203` kwenye bandari TCP/80. Katika pakiti hii ya TCP, bendera ya SYN imewekwa kuwa 1 ili kuonyesha kuwa hili ni ombi la kuanzisha muunganisho wa TCP.
+Kwenye mstari wa kwanza, tunaona kwamba chanzo cha kutambaza kinatuma packet ya TCP kupangisha `10.10.10.203` kwenye port TCP/80. Katika packet hii ya TCP, bendera ya SYN imewekwa kuwa 1 ili kuonyesha kuwa hili ni ombi la kuanzisha muunganisho wa TCP.
 
 
 
-Kisha, kwenye mstari wa pili, tunaona kwamba lengo linajibu kwa `TCP SYN/ACK`, kumaanisha kwamba inakubali kuanzisha muunganisho na kwa hivyo kupokea mitiririko kwenye bandari TCP/80. Kwa hivyo tunaweza kubaini kuwa bandari TCP/80 imefunguliwa na kwamba seva ya wavuti iko kwenye seva iliyochanganuliwa.
+Kisha, kwenye mstari wa pili, tunaona kwamba lengo linajibu kwa `TCP SYN/ACK`, kumaanisha kwamba inakubali kuanzisha muunganisho na kwa hivyo kupokea mitiririko kwenye port TCP/80. Kwa hivyo tunaweza kubaini kuwa port TCP/80 imefunguliwa na kwamba server ya wavuti iko kwenye server iliyochanganuliwa.
 
 
 
-Mwenyeji wetu kisha anarejesha pakiti ya RST ili kufunga muunganisho, na kuruhusu seva pangishi iliyochanganuliwa kutodumisha muunganisho wazi wa TCP akisubiri jibu. Katika kesi ya uchanganuzi kwenye bandari nyingi, kutofunga miunganisho ya TCP kunaweza kusababisha kukataliwa kwa huduma, kujaza idadi ya miunganisho inayosubiri kujibiwa ambayo seva inaweza kudumisha (ona [Wikipedia - Syn flood](https://fr.wikipedia.org/wiki/SYN_flood))
+Mwenyeji wetu kisha anarejesha packet ya RST ili kufunga muunganisho, na kuruhusu server pangishi iliyochanganuliwa kutodumisha muunganisho wazi wa TCP akisubiri jibu. Katika kesi ya uchanganuzi kwenye port nyingi, kutofunga miunganisho ya TCP kunaweza kusababisha kukataliwa kwa huduma, kujaza idadi ya miunganisho inayosubiri kujibiwa ambayo server inaweza kudumisha (ona [Wikipedia - Syn flood](https://fr.wikipedia.org/wiki/SYN_flood))
 
 
 
-Katika Wireshark, utaweza kuona hali ya alama za TCP kwa kila jaribio tunalofanya. Hii itaonyesha ikiwa pakiti ni SYN, SYN/ACK, ACK, n.k.:
+Katika Wireshark, utaweza kuona hali ya alama za TCP kwa kila jaribio tunalofanya. Hii itaonyesha ikiwa packet ni SYN, SYN/ACK, ACK, n.k.:
 
 
 
@@ -3573,7 +3572,7 @@ Katika Wireshark, utaweza kuona hali ya alama za TCP kwa kila jaribio tunalofany
 
 
 
-tazama bendera za TCP za pakiti huko Wireshark (TCP SYN hapa)
+tazama bendera za TCP za packet huko Wireshark (TCP SYN hapa)
 
 
 
@@ -3605,15 +3604,15 @@ nmap -sS 192.168.1.15
 
 
 
-`TCP SYN Scan` ndiyo skanisho inayotumika sana kwa sababu za kasi. Kwa upande mwingine, kushindwa kwa mteja kukamilisha _Three Way Handshake_ (yaani kutotuma ACK baada ya seva SYN/ACK) kunaweza kuonekana kutiliwa shaka kama kutazingatiwa mara nyingi sana kwenye seva au kutoka kwa chanzo sawa kwenye mtandao. Hakika, tabia ya kawaida ya mteja baada ya kupokea pakiti ya TCP SYN/ACK kwa kujibu TCP SYN ni kutuma `kukiri` (ACK) na kisha kuanzisha Exchange.
+`TCP SYN Scan` ndiyo skanisho inayotumika sana kwa sababu za kasi. Kwa upande mwingine, kushindwa kwa mteja kukamilisha _Three Way Handshake_ (yaani kutotuma ACK baada ya server SYN/ACK) kunaweza kuonekana kutiliwa shaka kama kutazingatiwa mara nyingi sana kwenye server au kutoka kwa chanzo sawa kwenye mtandao. Hakika, tabia ya kawaida ya mteja baada ya kupokea packet ya TCP SYN/ACK kwa kujibu TCP SYN ni kutuma `kukiri` (ACK) na kisha kuanzisha Exchange.
 
 
 
-Walakini, haitoi skana ya haraka zaidi, kwani haisumbui kutuma ACK kwa kila jibu chanya. Faida ya SYN Scan ni kasi yake, kwa kuwa pakiti moja tu inatumwa kwa kila bandari ili kuchunguzwa, kwa gharama ya nafasi kubwa ya kugundua.
+Walakini, haitoi skana ya haraka zaidi, kwani haisumbui kutuma ACK kwa kila jibu chanya. Faida ya SYN Scan ni kasi yake, kwa kuwa packet moja tu inatumwa kwa kila port ili kuchunguzwa, kwa gharama ya nafasi kubwa ya kugundua.
 
 
 
-Kwa kuongeza, uchunguzi wa TCP SYN unaweza kutambua kama mlango unachujwa (kilindwa) na ngome. Kwa hakika, ngome iliyo mbele ya seva pangishi inayolengwa inaweza kutambuliwa kwa jinsi inavyotenda inapopokea pakiti ya TCP SYN kwenye mlango unaopaswa kulinda. Haitajibu tu. Walakini, kama tulivyoona, katika hali zote mbili (mlango wazi au uliofungwa), kuna jibu kutoka kwa seva pangishi. Tabia hii ya tatu itafichua uwepo wa ngome kati ya seva pangishi iliyochanganuliwa na mashine inayochanganua. Haya ndio matokeo ambayo Nmap inaweza kurudi wakati lango lililochanganuliwa linachujwa na ngome:
+Kwa kuongeza, uchunguzi wa TCP SYN unaweza kutambua kama mlango unachujwa (kilindwa) na ngome. Kwa hakika, ngome iliyo mbele ya server pangishi inayolengwa inaweza kutambuliwa kwa jinsi inavyotenda inapopokea packet ya TCP SYN kwenye mlango unaopaswa kulinda. Haitajibu tu. Walakini, kama tulivyoona, katika hali zote mbili (mlango wazi au uliofungwa), kuna jibu kutoka kwa server pangishi. Tabia hii ya tatu itafichua uwepo wa ngome kati ya server pangishi iliyochanganuliwa na mashine inayochanganua. Haya ndio matokeo ambayo Nmap inaweza kurudi wakati lango lililochanganuliwa linachujwa na ngome:
 
 
 
@@ -3637,7 +3636,7 @@ kunasa mtandao wakati wa uchanganuzi wa TCP SYN kwa mlango uliochujwa na ngome
 
 
 
-Tofauti kati ya lango lililofungwa na lango lililochujwa ni kama ifuatavyo: lango lililochujwa ni lango lililolindwa na ngome, ilhali lango lililofungwa ni lango ambalo hakuna huduma inayoendeshwa na kwa hivyo haiwezi kuchakata pakiti zetu za TCP. Baadhi ya aina za uchanganuzi wa TCP, kama vile kichanganuzi cha TCP SYN, zinaweza kutambua kama mlango unachujwa, ilhali aina nyinginezo haziwezi.
+Tofauti kati ya lango lililofungwa na lango lililochujwa ni kama ifuatavyo: lango lililochujwa ni lango lililolindwa na ngome, ilhali lango lililofungwa ni lango ambalo hakuna huduma inayoendeshwa na kwa hivyo haiwezi kuchakata packet zetu za TCP. Baadhi ya aina za uchanganuzi wa TCP, kama vile kichanganuzi cha TCP SYN, zinaweza kutambua kama mlango unachujwa, ilhali aina nyinginezo haziwezi.
 
 
 
@@ -3645,7 +3644,7 @@ Tofauti kati ya lango lililofungwa na lango lililochujwa ni kama ifuatavyo: lang
 
 
 
-Aina ya pili ya uchunguzi wa TCP ni `TCP Connect scan`, inayojulikana pia kama _Full Open Scan_. Inafanya kazi kwa njia sawa na utambazaji wa TCP SYN, lakini wakati huu hurejesha `TCP ACK` baada ya jibu chanya kutoka kwa seva (SYN/ACK). Hii ndiyo sababu inaitwa `Full Open', kwani muunganisho unafunguliwa kikamilifu na kuanzishwa kwenye kila lango linalofunguliwa wakati wa kuchanganua, hivyo basi kuheshimu TCP _Three Way Handshake_:
+Aina ya pili ya uchunguzi wa TCP ni `TCP Connect scan`, inayojulikana pia kama _Full Open Scan_. Inafanya kazi kwa njia sawa na utambazaji wa TCP SYN, lakini wakati huu hurejesha `TCP ACK` baada ya jibu chanya kutoka kwa server (SYN/ACK). Hii ndiyo sababu inaitwa `Full Open', kwani muunganisho unafunguliwa kikamilifu na kuanzishwa kwenye kila lango linalofunguliwa wakati wa kuchanganua, hivyo basi kuheshimu TCP _Three Way Handshake_:
 
 
 
@@ -3669,7 +3668,7 @@ kunusa mtandao wakati wa kuchanganua TCP Connect kwa mlango wazi
 
 
 
-Tunaweza kuona kwamba pakiti ya kwanza ya TCP iliyotumwa ni `TCP SYN` iliyotumwa na mteja, na seva itajibu kwa `TCP SYN/ACK`, ikionyesha kuwa mlango umefunguliwa na unapangisha huduma inayotumika. Ili kuiga mteja halali kila wakati, Nmap itatuma `TCP ACK` kwa seva. Kinyume chake, wakati wa kuchanganua mlango uliofungwa:
+Tunaweza kuona kwamba packet ya kwanza ya TCP iliyotumwa ni `TCP SYN` iliyotumwa na mteja, na server itajibu kwa `TCP SYN/ACK`, ikionyesha kuwa mlango umefunguliwa na unapangisha huduma inayotumika. Ili kuiga mteja halali kila wakati, Nmap itatuma `TCP ACK` kwa server. Kinyume chake, wakati wa kuchanganua mlango uliofungwa:
 
 
 
@@ -3681,7 +3680,7 @@ kukamata mtandao wakati wa kuchanganua TCP Connect kwa mlango uliofungwa
 
 
 
-Kumbuka kuwa jibu la seva kwa pakiti yetu ya `SYN` kwa mara nyingine tena ni pakiti ya `TCP RST/ACK`, kwa hivyo tunaweza kukisia kuwa lango limefungwa na hakuna huduma zinazoendeshwa juu yake.
+Kumbuka kuwa jibu la server kwa packet yetu ya `SYN` kwa mara nyingine tena ni packet ya `TCP RST/ACK`, kwa hivyo tunaweza kukisia kuwa lango limefungwa na hakuna huduma zinazoendeshwa juu yake.
 
 
 
@@ -3696,15 +3695,15 @@ nmap -sT 192.168.1.15
 
 
 
-`TCP Connect Scan` huiga ombi halali zaidi la muunganisho, na tabia inayofanana kwa karibu zaidi na mteja wa lambda, kwa hivyo ni vigumu kutambua uchanganuzi kwenye idadi iliyopunguzwa ya milango. Hata hivyo, ni polepole, kwani inaanzisha kabisa kila muunganisho wa TCP kwenye bandari zilizo wazi za mashine iliyochanganuliwa.
+`TCP Connect Scan` huiga ombi halali zaidi la muunganisho, na tabia inayofanana kwa karibu zaidi na mteja wa lambda, kwa hivyo ni vigumu kutambua uchanganuzi kwenye idadi iliyopunguzwa ya milango. Hata hivyo, ni polepole, kwani inaanzisha kabisa kila muunganisho wa TCP kwenye port zilizo wazi za mashine iliyochanganuliwa.
 
 
 
-Uchunguzi wa Nmap wa bandari 10,000 bado utaendelea kugunduliwa kwa urahisi ikiwa ugunduzi wa uvamizi wa mtandao na huduma za ulinzi (IDS, IPS, EDR) zimesakinishwa. Mshambulizi anapotaka kuweka wasifu wa chini, ataelekea kuzingatia idadi ndogo ya bandari zilizochaguliwa kimkakati, kama vile 445 (SMB) au 80 (HTTP), ambazo mara nyingi hufunguliwa kwenye seva na kuwasilisha udhaifu wa kawaida.
+Uchunguzi wa Nmap wa port 10,000 bado utaendelea kugunduliwa kwa urahisi ikiwa ugunduzi wa uvamizi wa mtandao na huduma za ulinzi (IDS, IPS, EDR) zimesakinishwa. Mshambulizi anapotaka kuweka wasifu wa chini, ataelekea kuzingatia idadi ndogo ya port zilizochaguliwa kimkakati, kama vile 445 (SMB) au 80 (HTTP), ambazo mara nyingi hufunguliwa kwenye server na kuwasilisha udhaifu wa kawaida.
 
 
 
-Kwa kuwa TCP Connect Scan inatarajia jibu katika visa vyote viwili, inaweza pia kutambua uwepo wa ngome ambayo inaweza kuwa inachuja milango kwenye seva pangishi inayolengwa.
+Kwa kuwa TCP Connect Scan inatarajia jibu katika visa vyote viwili, inaweza pia kutambua uwepo wa ngome ambayo inaweza kuwa inachuja milango kwenye server pangishi inayolengwa.
 
 
 
@@ -3716,7 +3715,7 @@ Kwa kuwa TCP Connect Scan inatarajia jibu katika visa vyote viwili, inaweza pia 
 
 
 
-Katika TCP, mwisho wa kipindi humaanisha kutuma pakiti ya TCP iliyo na alama ya FIN iliyowekwa kuwa 1. Katika Exchange ya kawaida, seva inasitisha mawasiliano yote na mteja (hakuna jibu). Ikiwa seva haina muunganisho amilifu wa TCP na mteja, itatuma `RST/ACK`. Kwa hivyo tunaweza kutofautisha kati ya milango iliyo wazi na iliyofungwa kwa kutuma pakiti za `TCP FIN` kwa seti ya milango:
+Katika TCP, mwisho wa kipindi humaanisha kutuma packet ya TCP iliyo na alama ya FIN iliyowekwa kuwa 1. Katika Exchange ya kawaida, server inasitisha mawasiliano yote na mteja (hakuna jibu). Ikiwa server haina muunganisho amilifu wa TCP na mteja, itatuma `RST/ACK`. Kwa hivyo tunaweza kutofautisha kati ya milango iliyo wazi na iliyofungwa kwa kutuma packet za `TCP FIN` kwa seti ya milango:
 
 
 
@@ -3724,7 +3723,7 @@ Katika TCP, mwisho wa kipindi humaanisha kutuma pakiti ya TCP iliyo na alama ya 
 
 
 
-tCP FIN mchoro wa tabia ya kuchanganua kwa bandari zilizo wazi na zilizofungwa
+tCP FIN mchoro wa tabia ya kuchanganua kwa port zilizo wazi na zilizofungwa
 
 
 
@@ -3740,7 +3739,7 @@ kunasa mtandao wakati wa kuchanganua TCP FIN kwa mlango wazi
 
 
 
-Tunaweza kuona kwamba mteja hutuma pakiti moja au mbili ili kuzima muunganisho wa TCP na kwamba seva haijibu. Inakubali tu mwisho wa muunganisho na inaacha kuwasiliana.
+Tunaweza kuona kwamba mteja hutuma packet moja au mbili ili kuzima muunganisho wa TCP na kwamba server haijibu. Inakubali tu mwisho wa muunganisho na inaacha kuwasiliana.
 
 
 
@@ -3756,7 +3755,7 @@ kunasa mtandao wakati wa kuchanganua TCP FIN kwa mlango uliofungwa
 
 
 
-Tunaona kwamba seva hurejesha pakiti ya `TCP RST/ACK`, kwa hivyo kuna tofauti katika tabia kati ya mlango ulio wazi na uliofungwa, na tunaweza kuorodhesha milango iliyo wazi kwenye seva kwa kutuma pakiti ya TCP FIN. Kwa kutumia Nmap, chaguo la `-sF` (`scan FIN`) linatumika kutekeleza Uchanganuzi wa TCP FIN:
+Tunaona kwamba server hurejesha packet ya `TCP RST/ACK`, kwa hivyo kuna tofauti katika tabia kati ya mlango ulio wazi na uliofungwa, na tunaweza kuorodhesha milango iliyo wazi kwenye server kwa kutuma packet ya TCP FIN. Kwa kutumia Nmap, chaguo la `-sF` (`scan FIN`) linatumika kutekeleza Uchanganuzi wa TCP FIN:
 
 
 
@@ -3767,7 +3766,7 @@ nmap -sF 192.168.1.15
 
 
 
-TCP FIN Scan haifanyi kazi kwenye vipangishi vya Windows, kwa sababu Mfumo wa Uendeshaji huelekea kupuuza pakiti za TCP FIN zinapotumwa kwenye milango ambayo haijafunguliwa. Kwa hivyo ukiendesha TCP FIN Scan kwenye seva pangishi ya Windows, utapata hisia kwamba bandari zote zimefungwa.
+TCP FIN Scan haifanyi kazi kwenye vipangishi vya Windows, kwa sababu Mfumo wa Uendeshaji huelekea kupuuza packet za TCP FIN zinapotumwa kwenye milango ambayo haijafunguliwa. Kwa hivyo ukiendesha TCP FIN Scan kwenye server pangishi ya Windows, utapata hisia kwamba port zote zimefungwa.
 
 
 
@@ -3775,7 +3774,7 @@ Ndiyo maana ni muhimu kufahamu mbinu kadhaa za skanning, na kuelewa tofauti kati
 
 
 
-Kwa kuwa kwa vyovyote vile TCP FIN haitasubiri jibu, haitaweza kutambua uwepo wa ngome kati ya seva pangishi inayolengwa na chanzo cha tambazo.
+Kwa kuwa kwa vyovyote vile TCP FIN haitasubiri jibu, haitaweza kutambua uwepo wa ngome kati ya server pangishi inayolengwa na chanzo cha tambazo.
 
 
 
@@ -3791,11 +3790,11 @@ matokeo ya uchunguzi wa TCP FIN na Nmap._
 
 
 
-Kwa kweli, jibu lisilo la kawaida kutoka kwa seva pangishi kwenye mlango fulani linaweza kumaanisha kuwa bandari imechujwa, lakini pia ni wazi na inafanya kazi.
+Kwa kweli, jibu lisilo la kawaida kutoka kwa server pangishi kwenye mlango fulani linaweza kumaanisha kuwa port imechujwa, lakini pia ni wazi na inafanya kazi.
 
 
 
-Uchanganuzi huu unarejelewa kama "uficho", kwani hausababishi trafiki nyingi kwenye generate na kwa ujumla hausababishi ukataji miti katika mifumo inayolengwa. Inaweza kutumika kugundua bandari kwa busara kwenye mtandao bila kuinua kengele zozote. Walakini, kama ilivyotajwa hapo juu, ufanisi wake unaweza kutofautiana kulingana na mfumo unaolengwa, na vile vile uamuzi wake kulingana na usanidi wa vifaa vya usalama.
+Uchanganuzi huu unarejelewa kama "uficho", kwani hausababishi trafiki nyingi kwenye generate na kwa ujumla hausababishi ukataji miti katika mifumo inayolengwa. Inaweza kutumika kugundua port kwa busara kwenye mtandao bila kuinua kengele zozote. Walakini, kama ilivyotajwa hapo juu, ufanisi wake unaweza kutofautiana kulingana na mfumo unaolengwa, na vile vile uamuzi wake kulingana na usanidi wa vifaa vya usalama.
 
 
 
@@ -3803,13 +3802,13 @@ Uchanganuzi huu unarejelewa kama "uficho", kwani hausababishi trafiki nyingi kwe
 
 
 
-Sana kwa sura ya kwanza kati ya mbili za aina tofauti za uchanganuzi za TCP zinazotolewa na Nmap! Katika sura inayofuata, tutaangalia aina za uchunguzi wa XMAS, Null na ACK TCP, ambazo hufanya kazi kwa njia tofauti ili kugundua milango iliyo wazi kwenye seva pangishi.
+Sana kwa sura ya kwanza kati ya mbili za aina tofauti za uchanganuzi za TCP zinazotolewa na Nmap! Katika sura inayofuata, tutaangalia aina za uchunguzi wa XMAS, Null na ACK TCP, ambazo hufanya kazi kwa njia tofauti ili kugundua milango iliyo wazi kwenye server pangishi.
 
 
 
 
 
-## 14 - Uchanganuzi wa bandari kupitia TCP: XMAS, Null na ACK
+## 14 - Uchanganuzi wa port kupitia TCP: XMAS, Null na ACK
 
 
 
@@ -3817,7 +3816,7 @@ Sana kwa sura ya kwanza kati ya mbili za aina tofauti za uchanganuzi za TCP zina
 
 
 
-Katika sehemu hii, tutaendelea kuchunguza mbinu mbalimbali za kuchanganua za TCP zinazotolewa na Nmap. Hapa tutaangalia mbinu za `XMAS`, `Null` na `ACK`, ambazo hutumia vipengele mahususi vya TCP kupata taarifa kwenye bandari na huduma zinazofunguliwa kwa lengo fulani.
+Katika sehemu hii, tutaendelea kuchunguza mbinu mbalimbali za kuchanganua za TCP zinazotolewa na Nmap. Hapa tutaangalia mbinu za `XMAS`, `Null` na `ACK`, ambazo hutumia vipengele mahususi vya TCP kupata taarifa kwenye port na huduma zinazofunguliwa kwa lengo fulani.
 
 
 
@@ -3825,11 +3824,11 @@ Katika sehemu hii, tutaendelea kuchunguza mbinu mbalimbali za kuchanganua za TCP
 
 
 
-XMAS Scan TCP si ya kawaida kidogo kwa kuwa haiigi tabia ya kawaida ya mtumiaji au mashine kwenye mtandao hata kidogo. Kwa hakika, XMAS Scan itatuma pakiti za TCP zenye bendera `URG` (Haraka), `PSH` (Push), na `FIN` (Maliza) zimewekwa kuwa 1, ili kukwepa ngome fulani au mbinu za kuchuja.
+XMAS Scan TCP si ya kawaida kidogo kwa kuwa haiigi tabia ya kawaida ya mtumiaji au mashine kwenye mtandao hata kidogo. Kwa hakika, XMAS Scan itatuma packet za TCP zenye bendera `URG` (Haraka), `PSH` (Push), na `FIN` (Maliza) zimewekwa kuwa 1, ili kukwepa ngome fulani au mbinu za kuchuja.
 
 
 
-Jina XMAS linatokana na ukweli kwamba kuona bendera hizi kwenye si kawaida. Wakati bendera zote tatu zimewekwa kwa wakati mmoja katika pakiti ya TCP, inaonekana kama mti wa Krismasi uliowaka:
+Jina XMAS linatokana na ukweli kwamba kuona bendera hizi kwenye si kawaida. Wakati bendera zote tatu zimewekwa kwa wakati mmoja katika packet ya TCP, inaonekana kama mti wa Krismasi uliowaka:
 
 
 
@@ -3841,7 +3840,7 @@ Bendera za tCP zinazotumika katika uchanganuzi wa XMAS
 
 
 
-Bila kuingia kwa undani kuhusu jukumu la bendera hizi hapa, ni muhimu kujua kwamba unapotuma pakiti iliyo na bendera hizi tatu, huduma inayotumika nyuma ya mlango unaolengwa haitarejesha pakiti zozote. Kwa upande mwingine, ikiwa bandari imefungwa, tutapokea pakiti ya TCP RST/ACK. Sasa tutaweza kutofautisha kati ya tabia ya mlango wazi na uliofungwa wakati wa kuorodhesha bandari kwenye mashine:
+Bila kuingia kwa undani kuhusu jukumu la bendera hizi hapa, ni muhimu kujua kwamba unapotuma packet iliyo na bendera hizi tatu, huduma inayotumika nyuma ya mlango unaolengwa haitarejesha packet zozote. Kwa upande mwingine, ikiwa port imefungwa, tutapokea packet ya TCP RST/ACK. Sasa tutaweza kutofautisha kati ya tabia ya mlango wazi na uliofungwa wakati wa kuorodhesha port kwenye mashine:
 
 
 
@@ -3849,11 +3848,11 @@ Bila kuingia kwa undani kuhusu jukumu la bendera hizi hapa, ni muhimu kujua kwam
 
 
 
-Mchoro wa tabia wa tCP XMAS Scan kwa bandari zilizo wazi na zilizofungwa
+Mchoro wa tabia wa tCP XMAS Scan kwa port zilizo wazi na zilizofungwa
 
 
 
-Bado inafuata mantiki sawa, uchunguzi wa mtandao kwenye mlango wa TCP/80 wa seva pangishi iliyo na seva ya wavuti inayotumika inaonyesha tabia ifuatayo wakati wa kutambua mlango ulio wazi (chanzo cha skani `10.10.14.84`):
+Bado inafuata mantiki sawa, uchunguzi wa mtandao kwenye mlango wa TCP/80 wa server pangishi iliyo na server ya wavuti inayotumika inaonyesha tabia ifuatayo wakati wa kutambua mlango ulio wazi (chanzo cha skani `10.10.14.84`):
 
 
 
@@ -3865,7 +3864,7 @@ kunasa mtandao wakati wa kuchanganua TCP XMAS kwa mlango wazi
 
 
 
-Tunaweza kuona kwamba chanzo cha kuchanganua hutuma pakiti mbili za TCP XMAS (zenye bendera `FIN`, `PSH` na `URG` zimewekwa kuwa 1) ili kupangisha `10.10.10.203` na kwamba hakuna urejeshaji kutoka kwa lengwa, kuonyesha kwamba mlango umefunguliwa. Kinyume chake, wakati wa kutekeleza `TCP XMAS Scan` kwenye mlango uliofungwa, matokeo yafuatayo yanazingatiwa:
+Tunaweza kuona kwamba chanzo cha kuchanganua hutuma packet mbili za TCP XMAS (zenye bendera `FIN`, `PSH` na `URG` zimewekwa kuwa 1) ili kupangisha `10.10.10.203` na kwamba hakuna urejeshaji kutoka kwa lengwa, kuonyesha kwamba mlango umefunguliwa. Kinyume chake, wakati wa kutekeleza `TCP XMAS Scan` kwenye mlango uliofungwa, matokeo yafuatayo yanazingatiwa:
 
 
 
@@ -3888,7 +3887,7 @@ nmap -sX 192.168.1.15
 
 
 
-Ni muhimu kutambua kuwa kichanganuzi cha TCP XMAS hakiwezi kutambua ngome ambazo zinaweza kuwa kati ya lengwa na mashine ya kuchanganua, tofauti na aina zingine za uchanganuzi kama vile TCP SYN au Unganisha. Hakika, ngome inayotumika kati ya wapangishaji wawili itahakikisha kuwa hakuna urejeshaji wa TCP unaofanywa ikiwa mlango unaolengwa unachujwa (yaani, kulindwa na ngome). Katika tukio la kutojibu, kwa hiyo haiwezekani kujua ikiwa bandari inalindwa na firewall au wazi na hai. Unapaswa pia kufahamu kwamba, kama vile TCP FIN scan, baadhi ya programu au mifumo ya uendeshaji kama vile Windows inaweza kupotosha matokeo ya aina hii ya scan.
+Ni muhimu kutambua kuwa kichanganuzi cha TCP XMAS hakiwezi kutambua ngome ambazo zinaweza kuwa kati ya lengwa na mashine ya kuchanganua, tofauti na aina zingine za uchanganuzi kama vile TCP SYN au Unganisha. Hakika, ngome inayotumika kati ya wapangishaji wawili itahakikisha kuwa hakuna urejeshaji wa TCP unaofanywa ikiwa mlango unaolengwa unachujwa (yaani, kulindwa na ngome). Katika tukio la kutojibu, kwa hiyo haiwezekani kujua ikiwa port inalindwa na firewall au wazi na hai. Unapaswa pia kufahamu kwamba, kama vile TCP FIN scan, baadhi ya programu au mifumo ya uendeshaji kama vile Windows inaweza kupotosha matokeo ya aina hii ya scan.
 
 
 
@@ -3900,11 +3899,11 @@ kumbuka: usaidizi wa uchanganuzi wa XMAS/FIN/NULL kwenye matoleo ya hivi majuzi 
 
 
 
-Kinyume na uchanganuzi wa TCP XMAS, TCP Null scan itatuma pakiti za kuchanganua za TCP na alama zote zimewekwa kuwa 0. Hii pia ni tabia ambayo haitapatikana kamwe katika Exchange ya kawaida kati ya mashine, kwani kutuma pakiti ya TCP bila bendera haijabainishwa katika RFC inayoelezea itifaki ya TCP. Hii ndiyo sababu inaweza kugunduliwa kwa urahisi zaidi.
+Kinyume na uchanganuzi wa TCP XMAS, TCP Null scan itatuma packet za kuchanganua za TCP na alama zote zimewekwa kuwa 0. Hii pia ni tabia ambayo haitapatikana kamwe katika Exchange ya kawaida kati ya mashine, kwani kutuma packet ya TCP bila bendera haijabainishwa katika RFC inayoelezea protocol ya TCP. Hii ndiyo sababu inaweza kugunduliwa kwa urahisi zaidi.
 
 
 
-Kama vile kichanganuzi cha TCP XMAS, uchanganuzi huu unaweza kutatiza ngome fulani au moduli za kuchuja, na kuruhusu pakiti kupita:
+Kama vile kichanganuzi cha TCP XMAS, uchanganuzi huu unaweza kutatiza ngome fulani au moduli za kuchuja, na kuruhusu packet kupita:
 
 
 
@@ -3912,11 +3911,11 @@ Kama vile kichanganuzi cha TCP XMAS, uchanganuzi huu unaweza kutatiza ngome fula
 
 
 
-Mchoro wa tabia wa tCP Null Scan kwa bandari zilizo wazi na zilizofungwa
+Mchoro wa tabia wa tCP Null Scan kwa port zilizo wazi na zilizofungwa
 
 
 
-Hapa kuna kile kinachoweza kuonekana kwenye mtandao wakati wa skanati ya TCP Null kwenye bandari iliyo wazi:
+Hapa kuna kile kinachoweza kuonekana kwenye mtandao wakati wa skanati ya TCP Null kwenye port iliyo wazi:
 
 
 
@@ -3928,7 +3927,7 @@ kukamata mtandao wakati wa utaftaji wa Null wa TCP kwa mlango wazi
 
 
 
-Mashine ya kuchanganua hutuma pakiti isiyo na alama (`[<None>]` katika Wireshark) bila jibu lolote kutoka kwa seva. Kinyume chake, wakati bandari inayolengwa imefungwa:
+Mashine ya kuchanganua hutuma packet isiyo na alama (`[<None>]` katika Wireshark) bila jibu lolote kutoka kwa server. Kinyume chake, wakati port inayolengwa imefungwa:
 
 
 
@@ -3951,7 +3950,7 @@ nmap -sN 192.168.1.15
 
 
 
-Kwa kuwa jibu lango limefunguliwa na ngome inapotumika (hakuna maoni ya seva katika hali zote mbili) ni sawa, TCP Null scan haiwezi kutambua kuwepo kwa ngome. Zaidi ya hayo, ngome inaweza hata kupotosha matokeo kwa kupendekeza kuwa lango limefunguliwa, kwa kuwa haijibu pakiti za TCP bila bendera, ingawa bandari imechujwa. Haya ni maelezo muhimu kufahamu unapotumia michanganuo ambayo haiwezi kutofautisha lango lililo wazi na lililochujwa (lililolindwa na ngome), kama vile `TCP Null`, `XMAS` au `FIN` scans, ili kusalia sawa katika tafsiri ya matokeo yaliyopatikana.
+Kwa kuwa jibu lango limefunguliwa na ngome inapotumika (hakuna maoni ya server katika hali zote mbili) ni sawa, TCP Null scan haiwezi kutambua kuwepo kwa ngome. Zaidi ya hayo, ngome inaweza hata kupotosha matokeo kwa kupendekeza kuwa lango limefunguliwa, kwa kuwa haijibu packet za TCP bila bendera, ingawa port imechujwa. Haya ni maelezo muhimu kufahamu unapotumia michanganuo ambayo haiwezi kutofautisha lango lililo wazi na lililochujwa (lililolindwa na ngome), kama vile `TCP Null`, `XMAS` au `FIN` scans, ili kusalia sawa katika tafsiri ya matokeo yaliyopatikana.
 
 
 
@@ -3959,11 +3958,11 @@ Kwa kuwa jibu lango limefunguliwa na ngome inapotumika (hakuna maoni ya seva kat
 
 
 
-Uchanganuzi wa TCP ACK hutumiwa kutambua uwepo wa ngome kwenye seva pangishi inayolengwa au kati ya lengwa na chanzo cha tambazo.
+Uchanganuzi wa TCP ACK hutumiwa kutambua uwepo wa ngome kwenye server pangishi inayolengwa au kati ya lengwa na chanzo cha tambazo.
 
 
 
-Tofauti na utafutaji mwingine, uchunguzi wa TCP ACK haujaribu kutambua ni milango ipi iliyofunguliwa kwenye seva pangishi, lakini kama mfumo wa uchujaji unatumika, unaojibu kwa kila mlango kwa `kuchujwa` au `hakuchujwa`. Baadhi ya uchunguzi wa TCP, kama vile `TCP SYN` au `TCP Connect`, unaweza kufanya zote mbili kwa wakati mmoja, ilhali zingine, kama vile `TCP FIN` au `TCP XMAS`, haziwezi kubainisha uwepo wa uchujaji hata kidogo. Hii ndio sababu skanisho ya TCP ACK inaweza kuwa muhimu:
+Tofauti na utafutaji mwingine, uchunguzi wa TCP ACK haujaribu kutambua ni milango ipi iliyofunguliwa kwenye server pangishi, lakini kama mfumo wa uchujaji unatumika, unaojibu kwa kila mlango kwa `kuchujwa` au `hakuchujwa`. Baadhi ya uchunguzi wa TCP, kama vile `TCP SYN` au `TCP Connect`, unaweza kufanya zote mbili kwa wakati mmoja, ilhali zingine, kama vile `TCP FIN` au `TCP XMAS`, haziwezi kubainisha uwepo wa uchujaji hata kidogo. Hii ndio sababu skanisho ya TCP ACK inaweza kuwa muhimu:
 
 
 
@@ -3987,7 +3986,7 @@ onyesho la nmap wakati TCP ACK Scan._
 
 
 
-Mfano wa matokeo kwa mwenyeji aliye na ngome na moja bila. Nmap hurejesha `iliyochujwa` kwenye milango TCP/80 na TCP/81 ya seva pangishi `10.10.10.203`. Kwenye uchanganuzi wa mtandao kupitia Wireshark, tabia ni kama ifuatavyo.
+Mfano wa matokeo kwa mwenyeji aliye na ngome na moja bila. Nmap hurejesha `iliyochujwa` kwenye milango TCP/80 na TCP/81 ya server pangishi `10.10.10.203`. Kwenye uchanganuzi wa mtandao kupitia Wireshark, tabia ni kama ifuatavyo.
 
 
 
@@ -4044,7 +4043,7 @@ Hapa kuna cheatsheet ya amri iliyotolewa. Ukurasa huu hurahisisha kupata matumiz
 
 
 
-- Uchanganuzi wa bandari
+- Uchanganuzi wa port
 
 
 

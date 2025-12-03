@@ -22,7 +22,7 @@ ___
 
 
 
-**Katika somo hili, tutajifunza jinsi ya kufanya ukaguzi wa usalama kwenye mashine ya Linux kwa kutumia Lynis! Kwa wale ambao hamjui** Lynis, **ni matumizi madogo ya mstari wa amri ambayo yatachanganua usanidi wa seva yako na kutoa mapendekezo ya** kuboresha usalama wa mashine yako.
+**Katika somo hili, tutajifunza jinsi ya kufanya ukaguzi wa usalama kwenye mashine ya Linux kwa kutumia Lynis! Kwa wale ambao hamjui** Lynis, **ni matumizi madogo ya mstari wa amri ambayo yatachanganua usanidi wa server yako na kutoa mapendekezo ya** kuboresha usalama wa mashine yako.
 
 
 
@@ -62,7 +62,7 @@ Mradi unapatikana katika Address hii kwenye **Github**:
 
 
 
-Katika mafunzo haya ya hatua kwa hatua, nitatumia ** kutumia VPS inayoendesha Debian 12** na nitazingatia sehemu ya SSH, kwani ningependa kuangalia usanidi wake na kuiboresha.
+Katika mafunzo haya ya hatua kwa hatua, nitatumia **kutumia VPS inayoendesha Debian 12** na nitazingatia sehemu ya SSH, kwani ningependa kuangalia usanidi wake na kuiboresha.
 
 
 
@@ -82,7 +82,7 @@ Hali hii ya usakinishaji hukuruhusu kutumia amri ya **lynis** kutoka mahali popo
 
 
 
-Unganisha kwa seva yako kupitia SSH na uweke amri zifuatazo ili kusakinisha Lynis:
+Unganisha kwa server yako kupitia SSH na uweke amri zifuatazo ili kusakinisha Lynis:
 
 
 
@@ -287,7 +287,7 @@ sudo lynis audit system
 
 
 
-Kwa chaguo-msingi, ikiwa hujaingia kama mzizi unapoendesha amri hii, zana itaendesha na haki za mtumiaji aliyeingia kwa sasa. Baadhi ya majaribio hayataendeshwa katika muktadha huu:
+Kwa chaguo-msingi, ikiwa hujaingia kama root inapoendesha amri hii, zana itaendesha na haki za mtumiaji aliyeingia kwa sasa. Baadhi ya majaribio hayataendeshwa katika muktadha huu:
 
 
 
@@ -307,7 +307,7 @@ Mara tu amri imetekelezwa, uchambuzi huanza. Subiri kidogo tu.
 
 
 
-Mwisho wa ukaguzi, unapata hii (tunaweza kuona kwamba **Lynis** ametambua kwa usahihi mfumo wa **Debian 12** na atatumia ** programu-jalizi ya Debian ** kwa uchambuzi):
+Mwisho wa ukaguzi, unapata hii (tunaweza kuona kwamba **Lynis** ametambua kwa usahihi mfumo wa **Debian 12** na atatumia **programu-jalizi ya Debian** kwa uchambuzi):
 
 
 
@@ -315,15 +315,15 @@ Mwisho wa ukaguzi, unapata hii (tunaweza kuona kwamba **Lynis** ametambua kwa us
 
 
 
-Ifuatayo, Lynis ataorodhesha seti ya alama zinazolingana na kila kitu ambacho ameangalia kwenye mfumo wetu. Hii imepangwa kwa kategoria, kama tutakavyoona. Inafaa pia kuzingatia kuwa nambari ya rangi hutumiwa kuangazia mapendekezo:
+Ifuatayo, Lynis itaorodhesha seti ya alama zinazolingana na kila kitu ambacho ameangalia kwenye mfumo wetu. Hii imepangwa kwa kategoria, kama tutakavyoona. Inafaa pia kuzingatia kuwa nambari ya rangi hutumiwa kuangazia mapendekezo:
 
 
 
 
 
-- **Nyekundu** kwa Elements muhimu au mbinu bora zisizoheshimiwa (kifurushi kinachokosekana, kwa mfano), yaani, seva yako haiheshimu hatua hii.
+- **Nyekundu** kwa Elements muhimu au mbinu bora zisizoheshimiwa (kifurushi kinachokosekana, kwa mfano), yaani, server yako haiheshimu hatua hii.
 - **Njano** kwa mapendekezo au utiifu wa pendekezo kwa kiasi (tuseme ni nyongeza kutii hoja iliyoangaziwa na rangi hii (isiyo kipaumbele))
-- **Green** kwa pointi ambazo usanidi wa seva yako unatii
+- **Kijani** kwa pointi ambazo usanidi wa server yako unatii
 - **Nyeupe**, wakati upande wowote
 
 
@@ -376,7 +376,7 @@ Kisha, sehemu: "**Huduma za majina", "Bandari na vifurushi", "Mitandao".** Inaon
 
 
 
-Tunaweza kuona kuwa firewall imewashwa (na ndio, kuna iptables!). Kwa kuongeza, tunaweza kuona kwamba imepata sheria zisizotumiwa na kwamba seva ya mtandao ya Apache imewekwa.
+Tunaweza kuona kuwa firewall imewashwa (na ndio, kuna iptables!). Kwa kuongeza, tunaweza kuona kwamba imepata sheria zisizotumiwa na kwamba server ya mtandao ya Apache imewekwa.
 
 
 
@@ -384,11 +384,11 @@ Tunaweza kuona kuwa firewall imewashwa (na ndio, kuna iptables!). Kwa kuongeza, 
 
 
 
-Hii inafuatwa na uchambuzi wa seva ya wavuti yenyewe, kwani huduma imetambuliwa.
+Hii inafuatwa na uchambuzi wa server ya wavuti yenyewe, kwani huduma imetambuliwa.
 
 
 
-Tunaweza kuona kwamba imepata faili za usanidi **Nginx**, na kwamba kwa sehemu ya SSL/TLS, **ciphers** zimesanidiwa kwa matumizi ya itifaki ambayo haitakuwa salama. Kwa upande mwingine, kulingana na Lynis, usimamizi wa logi ni sahihi.
+Tunaweza kuona kwamba imepata faili za usanidi **Nginx**, na kwamba kwa sehemu ya SSL/TLS, **ciphers** zimesanidiwa kwa matumizi ya protocol ambayo haitakuwa salama. Kwa upande mwingine, kulingana na Lynis, usimamizi wa logi ni sahihi.
 
 
 
@@ -396,7 +396,7 @@ Tunaweza kuona kwamba imepata faili za usanidi **Nginx**, na kwamba kwa sehemu y
 
 
 
-Huduma ya SSH iko kwenye seva yangu ya VPS. Usanidi wake unachambuliwa na Lynis. Inapaswa kusemwa kuwa usalama wa SSH unaweza kuboreshwa kwa urahisi! Tutarudi kwenye eneo hili kwa undani mara tu tutakapopata mapendekezo.
+Huduma ya SSH iko kwenye server yangu ya VPS. Usanidi wake unachambuliwa na Lynis. Inapaswa kusemwa kuwa usalama wa SSH unaweza kuboreshwa kwa urahisi! Tutarudi kwenye eneo hili kwa undani mara tu tutakapopata mapendekezo.
 
 
 
@@ -416,7 +416,8 @@ Kuna pendekezo moja muhimu sana kuhusu usimamizi wa kumbukumbu: inapendekezwa sa
 
 
 
-Hapa, tuna ukaguzi wa huduma zilizo katika mazingira magumu, usimamizi wa akaunti, kazi zilizopangwa na maingiliano ya NTP. inaonyeshwa kuwa kiwango ni cha chini kwenye sehemu ya bendera na kitambulisho: hii inaeleweka, ikiwa unaonyesha toleo la mfumo, linatoa dalili kwa mshambuliaji anayeweza. Huu ndio mpangilio chaguo-msingi.
+Hapa, tuna ukaguzi wa huduma zilizoko katika mazingira magumu, usimamizi wa akaunti, kazi zilizopangwa, na maingiliano ya NTP. Inaonyeshwa kuwa kiwango ni cha chini kwenye sehemu ya bendera na kitambulisho; hii ni ya kawaida, kwani ikiwa unaonyesha toleo la mfumo, inatoa dalili kwa mshambuliaji. Huu ndio mpangilio wa chaguo-msingi.
+
 
 
 
@@ -428,7 +429,7 @@ Itapendeza kuamilisha **auditd** ili kuwa na kumbukumbu endapo kuna uchanganuzi 
 
 
 
-Lynis kisha anaangalia kriptografia Elements, uboreshaji, vyombo na mifumo ya usalama. Baadhi ya sehemu ni tupu kwa sababu hakuna mawasiliano na mashine iliyochanganuliwa. Hata hivyo, tunaweza kuona kwamba nina vyeti viwili vya SSL vilivyokwisha muda wake na sijawasha **SELinux**.
+Lynis kisha inaangalia Elements za cryptography, uboreshaji, vyombo na mifumo ya usalama. Baadhi ya sehemu ni tupu kwa sababu hakuna mawasiliano na mashine iliyochanganuliwa. Hata hivyo, tunaweza kuona kwamba nina vyeti viwili vya SSL vilivyokwisha muda wake na sijawasha **SELinux**.
 
 
 
@@ -468,7 +469,7 @@ Baada ya ukaguzi, ni wakati wa kusoma na kuchambua mapendekezo. Hapa ndipo tunap
 
 
 
-Chukua mapendekezo ya SSH, kwa mfano. **Kwa kila pendekezo, utapata kigezo kilichopendekezwa na kiungo kitakachoeleza uhakika wa usalama ** Ni juu yako kuamua, kulingana na muktadha na matumizi yako.
+Chukua mapendekezo ya SSH, kwa mfano. **Kwa kila pendekezo, utapata kigezo kilichopendekezwa na kiungo kitakachoeleza uhakika wa usalama** Ni juu yako kuamua, kulingana na muktadha na matumizi yako.
 
 
 
@@ -607,7 +608,7 @@ Habari fulani kuhusu vifurushi vilivyosakinishwa:
 - **Clamav** ni antivirus.
 - **masasisho yasiyotarajiwa** yatakuwezesha kudhibiti masasisho yako kiotomatiki na hata kuwasha upya mashine au kusafisha kiotomatiki vifurushi vya zamani, inaweza kusanidiwa kikamilifu.
 - **rkhunter** ni anti-rootkit ambayo huchanganua mfumo wako wa faili.
-- **Fail2ban** itajikita kwenye faili zako za kumbukumbu kulingana na kile unachoipa kusoma na itafanya kazi na **iptables**, kwa mfano kupiga marufuku anwani za IP zinazojaribu "kulazimisha" seva yako katika SSH.
+- **Fail2ban** itajikita kwenye faili zako za kumbukumbu kulingana na kile unachoipa kusoma na itafanya kazi na **iptables**, kwa mfano kupiga marufuku IP address zinazojaribu "kulazimisha" server yako katika SSH.
 
 
 
@@ -705,7 +706,7 @@ PasswordAuthentication yes
 
 
 
-Kataza nenosiri tupu na **Kerberos** uthibitishaji, pamoja na **uthibitishaji wa mizizi moja kwa moja**
+Kataza nenosiri tupu na **Kerberos** uthibitishaji, pamoja na **uthibitishaji wa roots moja kwa moja**
 
 
 
@@ -732,7 +733,7 @@ AllowTcpForwarding no
 
 
 
-Inaonyesha kama uelekezaji upya wa TCP unaruhusiwa, na "ndiyo" kama mpangilio chaguomsingi. Tafadhali kumbuka: kulemaza uelekezaji kwingine wa TCP hakuongezei usalama ikiwa watumiaji wanaweza kufikia shell, kwani bado wanaweza kusanidi zana zao za kuelekeza kwingine.
+Inaonyesha kama uelekezaji upya wa TCP unaruhusiwa, na “ndiyo” kama mpangilio wa chaguo-msingi. Tafadhali kumbuka: kulemaza uelekezaji mwingine wa TCP hakukuongezei usalama ikiwa watumiaji wanaweza kufikia shell, kwani bado wanaweza kusanidi zana zao za kuelekeza kwingine.
 
 
 
@@ -764,7 +765,7 @@ ClientAliveInterval  300
 
 
 
-Inafafanua muda wa muda kwa sekunde, baada ya hapo, ikiwa hakuna data iliyopokelewa kutoka kwa mteja, huduma ya sshd hutuma ujumbe unaoomba jibu kutoka kwa mteja. Kwa chaguo-msingi, chaguo hili limewekwa kuwa "0", kumaanisha kuwa ujumbe huu hautumwi kwa mteja. Toleo la 2 pekee la itifaki ya SSH ndilo linaloauni chaguo hili.
+Inafafanua muda wa muda kwa sekunde, baada ya hapo, ikiwa hakuna data iliyopokelewa kutoka kwa mteja, huduma ya sshd hutuma ujumbe unaoomba jibu kutoka kwa mteja. Kwa chaguo-msingi, chaguo hili limewekwa kuwa "0", kumaanisha kuwa ujumbe huu hautumwi kwa mteja. Toleo la 2 pekee la protocol ya SSH ndilo linaloauni chaguo hili.
 
 
 
@@ -800,7 +801,7 @@ Banner none
 
 
 
-Ni vyema kutambua kwamba katika baadhi ya maeneo, kutuma ujumbe kabla ya uthibitishaji inaweza kuwa sharti la ulinzi wa kisheria. Yaliyomo kwenye faili maalum hupitishwa kwa mtumiaji wa mbali kabla ya idhini ya uunganisho kutolewa. Chaguo hili linahitaji kusanidiwa, kwani kwa chaguo-msingi hakuna ujumbe utakaoonyeshwa.
+Ni vyema kutambua kwamba katika baadhi ya maeneo, kutuma ujumbe kabla ya uthibitishaji kunaweza kuwa sharti la ulinzi wa kisheria. Yaliyomo kwenye faili maalum hupitishwa kwa mtumiaji wa mbali kabla ya idhini ya uunganisho kutolewa. Chaguo hili linahitaji kusanidiwa, kwani kwa chaguo-msingi hakuna ujumbe unaoonyeshwa.
 
 
 
@@ -828,7 +829,7 @@ Hatimaye, tusisahau kuangalia **alama ya ukaguzi wa Lynis**! Tunaona kwamba **al
 
 
 
-Hebu tuangalie matokeo kwenye seva yangu ya pili, ambapo nilitumia muda kidogo zaidi kufanya ugumu! Kwa hivyo ni kawaida kuwa alama ni ya juu (**76**).
+Hebu tuangalie matokeo kwenye server yangu ya pili, ambapo nilitumia muda kidogo zaidi kufanya ugumu! Kwa hivyo ni kawaida kuwa alama ni ya juu (**76**).
 
 
 
@@ -840,7 +841,7 @@ Hebu tuangalie matokeo kwenye seva yangu ya pili, ambapo nilitumia muda kidogo z
 
 
 
-**Lynis** pia inatoa chaguo la kuendesha ukaguzi wake kupitia kazi iliyoratibiwa. Kwa kweli kuna chaguo la **"--cronjob "**, ambalo litaendesha majaribio yote ya Lynis bila hitaji la uthibitishaji au hatua ya mtumiaji. Basi unaweza kuunda kwa urahisi hati ambayo itaendesha **Lynis** na kuweka pato katika faili iliyopigwa mhuri na jina la seva inayohusika. Hapa kuna faili ya aina hii ambayo unaweza kuweka kwenye folda ya */etc/cron.daily*:
+**Lynis** pia inatoa chaguo la kuendesha ukaguzi wake kupitia kazi iliyoratibiwa. Kwa kweli kuna chaguo la **"--cronjob "**, ambalo litaendesha majaribio yote ya Lynis bila hitaji la uthibitishaji au hatua ya mtumiaji. Basi unaweza kuunda kwa urahisi hati ambayo itaendesha **Lynis** na kuweka pato katika faili iliyopigwa mhuri na jina la server inayohusika. Hapa kuna faili ya aina hii ambayo unaweza kuweka kwenye folda ya */etc/cron.daily*:
 
 
 
@@ -876,7 +877,7 @@ Pia tutaunda vianufa vichache vya muktadha ambavyo vitatusaidia kujipanga vyema,
 
 
 
-Lynis ni zana inayotumika sana ambayo itakusaidia kuokoa muda na kuwa na ufanisi zaidi unapotaka kujua zaidi kuhusu hali ya usanidi wa seva ya Linux, hasa katika masuala ya usalama. Hata hivyo, usisahau kwamba kila urekebishaji lazima ujaribiwe kabla ya kutumiwa katika toleo la umma, kwa kuzingatia matumizi na muktadha wako.
+Lynis ni zana inayotumika sana ambayo itakusaidia kuokoa muda na kuwa na ufanisi zaidi unapotaka kujua zaidi kuhusu hali ya usanidi wa server ya Linux, hasa katika masuala ya usalama. Hata hivyo, usisahau kwamba kila urekebishaji lazima ujaribiwe kabla ya kutumiwa katika toleo la umma, kwa kuzingatia matumizi na muktadha wako.
 
 
 

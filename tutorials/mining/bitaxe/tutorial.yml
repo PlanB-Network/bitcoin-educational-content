@@ -15,134 +15,134 @@ proofreading:
     urgency: 1
     contributor_names:
       - jimzap
-    reward: 1.72
+    reward: 1.73
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.56
+    reward: 4.58
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.44
+    reward: 3.46
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.79
+    reward: 6.82
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.56
+    reward: 4.58
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.67
+    reward: 5.7
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.56
+    reward: 4.58
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.56
+    reward: 4.58
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.44
+    reward: 3.46
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.44
+    reward: 3.46
   - language: es
     last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
       - Salgraphics
-    reward: 1.72
+    reward: 1.73
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.67
+    reward: 5.7
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.44
+    reward: 3.46
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.79
+    reward: 6.82
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.56
+    reward: 4.58
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.9
+    reward: 7.94
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.56
+    reward: 4.58
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.56
+    reward: 4.58
   - language: sw
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - monyangi10
-    reward: 2.28
+    reward: 2.29
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.67
+    reward: 5.7
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.56
+    reward: 4.58
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.44
+    reward: 3.46
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.56
+    reward: 4.58
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.67
+    reward: 5.7
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.67
+    reward: 5.7
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.79
+    reward: 6.82
 tags:
   - hardware
   - mining

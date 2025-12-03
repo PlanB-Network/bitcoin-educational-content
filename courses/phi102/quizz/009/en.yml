@@ -1,0 +1,8 @@
+question: What is the main reason why collective decisions are less effective than individual decisions according to French liberal thought?
+answer: Collective decisions cannot access the direct, individual perceptions and needs of each person
+wrong_answers:
+  - Collective decisions take too much time to implement and are therefore inefficient
+  - Collective decisions are made by politicians who lack proper education and expertise
+  - Collective decisions create too much bureaucracy and administrative complexity
+explanation: |
+  According to the French liberal tradition, sensations and perceptions are fundamentally individual - you cannot experience hunger through someone else or see through another person's eyes. This individualness of perception means that individual decisions, based on direct personal experience, have superior information quality compared to collective decisions. When collective decisions are made about matters like food distribution, they must aggregate the different perceptions and needs of multiple individuals whose requirements vary in timing and intensity. The result is necessarily less adapted to each person's real situation than decisions made by individuals based on their own direct perceptions and needs.

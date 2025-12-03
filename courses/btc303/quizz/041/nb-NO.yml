@@ -6,3 +6,4 @@ wrong_answers:
   - Det brukeraktiverte myke fork (UASF) flaggdagsaktiveringssystemet
 explanation: |
   Ifølge Eric Lombrozos analyse skapte Satoshis harde fork (som var dårlig kommunisert og skjult i en commit om makefile-endringer) utilsiktet OP_NOP1- til OP_NOP10-opkodene. Disse "no operation"-kodene var utformet slik at de ikke gjorde noe når de ble utført, men de var plassholdere som senere kunne brukes til ny funksjonalitet gjennom soft forks. Dette viste seg å være forutseende, siden OP_NOP2 ble OP_CHECKLOCKTIMEVERIFY (BIP65) og OP_NOP3 ble OP_CHECKSEQUENCEVERIFY (BIP112). De andre alternativene er feil fordi BIP65 og BIP113 var oppgraderingene som brukte disse opkodene i stedet for å skape dem, kompatibilitetsrammeverket er en konseptuell tilnærming snarere enn en teknisk funksjon, og UASF ble foreslått mye senere under Segwit-kontroversen.
+reviewed: false

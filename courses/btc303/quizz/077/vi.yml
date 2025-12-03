@@ -6,3 +6,4 @@ wrong_answers:
   - Việc tiết lộ đòi hỏi hành động ngay lập tức và các bản vá, trong khi việc công bố cho phép sửa chữa dần dần thông qua quy trình phát triển bình thường
 explanation: |
   Gregory Maxwell đã nhấn mạnh sự khác biệt quan trọng này trong cuộc thảo luận về danh sách gửi thư. Việc công bố thông tin đề cập đến hành động có trách nhiệm thông báo riêng cho các nhà bảo trì phần mềm (nhà cung cấp) về lỗ hổng để họ có thể tìm cách khắc phục. Tuy nhiên, việc công bố thông tin đồng nghĩa với việc công khai thông tin về lỗ hổng, giúp những kẻ tấn công tiềm năng biết về lỗ hổng. Sự khác biệt này rất quan trọng vì mặc dù việc công bố thông tin giúp bảo vệ hệ thống, nhưng việc công bố thông tin sớm có thể gây hại bằng cách cho phép kẻ xấu khai thác lỗ hổng trước khi các biện pháp phòng thủ đầy đủ được áp dụng.
+reviewed: false

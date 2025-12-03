@@ -6,3 +6,4 @@ wrong_answers:
   - ID delle transazioni sulla blockchain
 explanation: |
   Bitcoin utilizza come pseudonimi gli indirizzi derivati dalle chiavi pubbliche piuttosto che nomi utente arbitrari o altri identificatori. Questa scelta progettuale serve a diversi scopi importanti: elimina la necessità di registrare preventivamente gli pseudonimi sulla blockchain, riduce gli incentivi a riutilizzare lo stesso pseudonimo, evita un inutile gonfiamento della blockchain e rende molto più difficile per gli attori malintenzionati impersonare altri. L'uso di nomi utente descrittivi richiederebbe un sistema di registrazione e creerebbe vulnerabilità di sicurezza, mentre le chiavi private devono rimanere segrete e gli ID delle transazioni hanno uno scopo diverso nel sistema.
+reviewed: false

@@ -20,12 +20,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.21
+    reward: 0.22
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.21
+    reward: 0.22
   - language: et
     last_contribution_date:
     urgency: 1
@@ -45,12 +45,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.21
+    reward: 0.22
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.37
   - language: id
     last_contribution_date:
     urgency: 1
@@ -60,7 +60,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.21
+    reward: 0.22
   - language: ja
     last_contribution_date:
     urgency: 1
@@ -90,7 +90,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.21
+    reward: 0.22
   - language: rn
     last_contribution_date:
     urgency: 1
@@ -110,7 +110,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.21
+    reward: 0.22
   - language: sw
     last_contribution_date:
     urgency: 1

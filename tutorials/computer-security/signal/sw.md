@@ -6,7 +6,7 @@ description: Jielezee kwa uhuru
 
 
 
-Mawimbi ni programu ya utumaji ujumbe iliyosimbwa kutoka mwisho hadi mwisho, iliyoundwa ili kutoa usiri mzuri kwa chaguomsingi. Kila ujumbe, simu na faili zinalindwa na itifaki ya Mawimbi, inayotambuliwa kama mojawapo ya itifaki thabiti zaidi za ujumbe. Inatumiwa tena na programu nyingine nyingi, ikiwa ni pamoja na WathsApp, Facebook Messenger, Skype na Google Messages kwa mawasiliano ya RCS.
+Signal ni programu ya utumaji ujumbe iliyosimbwa kutoka mwisho hadi mwisho, iliyoundwa ili kutoa usiri mzuri kwa chaguomsingi. Kila ujumbe, simu na faili zinalindwa na protocol ya Signal, inayotambuliwa kama mojawapo ya protocol thabiti zaidi za ujumbe. Inatumiwa tena na programu nyingine nyingi, ikiwa ni pamoja na WathsApp, Facebook Messenger, Skype na Google Messages kwa mawasiliano ya RCS.
 
 
 
@@ -18,15 +18,15 @@ Signal ilizinduliwa mwaka wa 2014 na Moxie Marlinspike (jina bandia) na kuendele
 
 
 
-Ikilinganishwa na WhatsApp, Signal inajitokeza kwa uwazi wake: msimbo wa programu, mteja- na upande wa seva, ni chanzo wazi kabisa. Hii inaruhusu mtu yeyote kuikagua, na hasa kuangalia kwamba usimbaji fiche unatumika kama inavyotangazwa.
+Ikilinganishwa na WhatsApp, Signal inajitokeza kwa uwazi wake: msimbo wa programu, mteja- na upande wa server, ni chanzo wazi kabisa. Hii inaruhusu mtu yeyote kuikagua, na hasa kuangalia kwamba usimbaji fiche unatumika kama inavyotangazwa.
 
 
 
-Walakini, Signal inategemea utumiaji wa nambari ya simu, ambayo ndio udhaifu wake mkuu linapokuja suala la kutokujulikana ikilinganishwa na suluhisho zingine. Licha ya hayo, maombi ni, kwa maoni yangu, moja ya kuaminika zaidi katika suala la usalama na usiri, shukrani kwa usanifu wake wazi kabisa na itifaki ya usimbaji iliyopitishwa sana, na kwa hiyo imejaribiwa na kukaguliwa, tofauti na maombi mengine ya pembezoni zaidi.
+Walakini, Signal inategemea utumiaji wa nambari ya simu, ambayo ndio udhaifu wake mkuu linapokuja suala la kutokujulikana ikilinganishwa na suluhisho zingine. Licha ya hayo, maombi ni, kwa maoni yangu, moja ya kuaminika zaidi katika suala la usalama na usiri, shukrani kwa usanifu wake wazi kabisa na protocol ya usimbaji iliyopitishwa sana, na kwa hiyo imejaribiwa na kukaguliwa, tofauti na maombi mengine ya pembezoni zaidi.
 
 
 
-| Programu             | E2EE 1:1       | E2EE vikundi   | Usajili wa faragha  | Leseni ya mteja chanzo-huria | Leseni ya seva chanzo-huria | Seva iliyogawanywa       | Mwaka wa uundaji  |
+| Programu             | E2EE 1:1       | E2EE vikundi   | Usajili wa faragha  | Leseni ya mteja chanzo-huria | Leseni ya server chanzo-huria | server iliyogawanywa       | Mwaka wa uundaji  |
 | -------------------- | -------------- | -------------- | ------------------- | ---------------------------- | --------------------------- | ------------------------ | ----------------- |
 | WhatsApp             | ✅              | ✅              | ❌                   | ❌                            | ❌                           | ❌                        | 2009              |
 | WeChat               | ❌              | ❌              | ❌                   | ❌                            | ❌                           | ❌                        | 2011              |
@@ -51,11 +51,11 @@ Walakini, Signal inategemea utumiaji wa nambari ya simu, ambayo ndio udhaifu wak
 
 
 
-## Sakinisha programu ya Mawimbi
+## Sakinisha programu ya Signal
 
 
 
-Mawimbi inapatikana kwenye mifumo yote. Unaweza kupakua programu moja kwa moja kutoka kwa duka la programu ya simu yako:
+Signal inapatikana kwenye mifumo yote. Unaweza kupakua programu moja kwa moja kutoka kwa duka la programu ya simu yako:
 
 
 
@@ -73,7 +73,7 @@ Katika mafunzo haya, tutazingatia toleo la simu, lakini tafadhali kumbuka kuwa [
 
 
 
-## Fungua akaunti kwenye Mawimbi
+## Fungua akaunti kwenye Signal
 
 
 
@@ -93,7 +93,7 @@ Ingiza nambari yako ya simu, kisha ubofye "*Next*".
 
 
 
-Nambari ya kuthibitisha itatumwa kwako kwa SMS. Ingiza msimbo huu katika programu ya Mawimbi.
+Nambari ya kuthibitisha itatumwa kwako kwa SMS. Ingiza msimbo huu katika programu ya Signal.
 
 
 
@@ -101,7 +101,7 @@ Nambari ya kuthibitisha itatumwa kwako kwa SMS. Ingiza msimbo huu katika program
 
 
 
-Chagua PIN ili kulinda akaunti yako ya Mawimbi. Nambari hii husimba data yako kwa njia fiche, na inaweza kutumika kurejesha ufikiaji wa akaunti yako ikiwa kifaa chako kitapotea. Kwa hivyo ni muhimu kuchagua msimbo thabiti wa PIN ambao ni mrefu na wa nasibu iwezekanavyo, na kuweka rekodi yake ya kuaminika.
+Chagua PIN ili kulinda akaunti yako ya Signal. Nambari hii husimba data yako kwa njia fiche, na inaweza kutumika kurejesha ufikiaji wa akaunti yako ikiwa kifaa chako kitapotea. Kwa hivyo ni muhimu kuchagua msimbo thabiti wa PIN ambao ni mrefu na wa nasibu iwezekanavyo, na kuweka rekodi yake ya kuaminika.
 
 
 
@@ -117,7 +117,7 @@ Thibitisha msimbo huu wa PIN kwa mara ya pili.
 
 
 
-Sasa unaweza kubinafsisha wasifu wako wa mtumiaji. Chagua picha, weka jina lako au jina la utani. Katika hatua hii, unaweza pia kufafanua ni nani anayeweza kukupata kwenye Mawimbi kupitia nambari yako. Chagua "*Kila mtu*" ikiwa unataka kuonekana, au "*Hakuna mtu*" ili kubaki bila kutafutwa kupitia nambari ya simu (unaweza tu kuongezwa kwa "*Jina la Mtumiaji*"). Mara baada ya kufanya uchaguzi wako, bonyeza "*Next*".
+Sasa unaweza kubinafsisha wasifu wako wa mtumiaji. Chagua picha, weka jina lako au jina la utani. Katika hatua hii, unaweza pia kufafanua ni nani anayeweza kukupata kwenye Signal kupitia nambari yako. Chagua "*Kila mtu*" ikiwa unataka kuonekana, au "*Hakuna mtu*" ili kubaki bila kutafutwa kupitia nambari ya simu (unaweza tu kuongezwa kwa "*Jina la Mtumiaji*"). Mara baada ya kufanya uchaguzi wako, bonyeza "*Next*".
 
 
 
@@ -125,7 +125,7 @@ Sasa unaweza kubinafsisha wasifu wako wa mtumiaji. Chagua picha, weka jina lako 
 
 
 
-Sasa umeunganishwa kwenye Mawimbi na uko tayari kwa ujumbe wa Exchange.
+Sasa umeunganishwa kwenye Signal na uko tayari kwa ujumbe wa Exchange.
 
 
 
@@ -133,7 +133,7 @@ Sasa umeunganishwa kwenye Mawimbi na uko tayari kwa ujumbe wa Exchange.
 
 
 
-## Inasanidi akaunti yako ya Mawimbi
+## Inasanidi akaunti yako ya Signal
 
 
 
@@ -161,7 +161,7 @@ Kubofya tena picha yako ya wasifu kwenye mipangilio itakupeleka kwenye chaguzi z
 
 
 
-Kwa kuchagua "*Msimbo wa QR au kiungo*", utapata maelezo unayohitaji kushiriki na mtu anayetaka kukuongeza kwenye Mawimbi.
+Kwa kuchagua "*Msimbo wa QR au kiungo*", utapata maelezo unayohitaji kushiriki na mtu anayetaka kukuongeza kwenye Signal.
 
 
 
@@ -217,11 +217,11 @@ Vifaa vyako sasa vimesawazishwa kikamilifu.
 
 
 
-## Inatuma ujumbe kwa kutumia Mawimbi
+## Inatuma ujumbe kwa kutumia Signal
 
 
 
-Ili kuwasiliana na mtu kwenye Mawimbi, kwanza unahitaji kumwongeza kama unayewasiliana naye. Kuna chaguo kadhaa: unaweza kuziongeza kupitia nambari yao ya simu (ikiwa mtu amewasha chaguo la kupatikana kwa njia hii), au tumia Kitambulisho chao cha Mawimbi.
+Ili kuwasiliana na mtu kwenye Signal, kwanza unahitaji kumwongeza kama unayewasiliana naye. Kuna chaguo kadhaa: unaweza kuziongeza kupitia nambari yao ya simu (ikiwa mtu amewasha chaguo la kupatikana kwa njia hii), au tumia Kitambulisho chao cha Signal.
 
 
 
@@ -265,7 +265,7 @@ Kisha mazungumzo yataonekana kwenye ukurasa wa nyumbani. Ikiwa mtu huyo atakubal
 
 
 
-Hongera, sasa uko kwenye kasi ya kutumia ujumbe wa Mawimbi, njia mbadala nzuri ya WathsApp! Ikiwa umepata mafunzo haya kuwa ya manufaa, ningeshukuru sana ikiwa utaacha kidole gumba cha Green hapa chini. Jisikie huru kushiriki mafunzo haya kwenye mitandao yako ya kijamii. Asante sana!
+Hongera, sasa uko kwenye kasi ya kutumia ujumbe wa Signal, njia mbadala nzuri ya WathsApp! Ikiwa umepata mafunzo haya kuwa ya manufaa, ningeshukuru sana ikiwa utaacha kidole gumba cha Green hapa chini. Jisikie huru kushiriki mafunzo haya kwenye mitandao yako ya kijamii. Asante sana!
 
 
 

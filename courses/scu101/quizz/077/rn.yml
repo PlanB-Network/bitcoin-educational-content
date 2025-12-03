@@ -1,9 +1,9 @@
-question: Ni kuki ari ngombwa ko ukingira imeyili yawe?
-answer: Kuko bigufasha gusubiramwo amajambo y'ibanga yawe .
+question: Ni kuki ari ngombwa ko ukingira imeyiri yawe?
+answer: Kuko bigufasha gusubizako amajambo y'ibanga yawe .
 wrong_answers:
-  - Kubera ko ari ryo rikoreshwa mu kwakira amakuru .
+  - Kubera ko ariyo ikoreshwa mu kwakira amakuru .
   - Kuko irimwo amajambo y'ibanga yawe yose
   - Kuko irimwo amakuru yawe yo muri banki .
 explanation: |
-  Ico kibanza c’ubutumwa ni co kibanza nyamukuru co gukuramwo amajambo y’ibanga no guhungabanya amakonti menshi iyo habayeho ukurenga ku mategeko.
+  Ububiko bw'ubutumwa ni co kibanza nyamukuru co gukuramwo amajambo y’ibanga no guhungabanya amakonti menshi iyo habayeho ukuja ahagaragara kw'amakuru.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Кой незадължителен индекс може да се активира в ядрото Bitcoin, за да се намери транзакция по нейния txid?
+answer: txindex
+wrong_answers:
+  - addrindex
+  - blockindex
+  - electrumindex
+explanation: |
+  Опцията txindex=1 се използва за търсене на транзакция по нейния уникален идентификатор (txid).
+reviewed: true

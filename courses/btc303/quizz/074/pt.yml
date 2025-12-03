@@ -6,3 +6,4 @@ wrong_answers:
   - Para confirmar que a correção proporciona melhorias de desempenho suficientes
 explanation: |
   De acordo com as práticas de divulgação responsável, os programadores testam se uma correção foi suficientemente bem disfarçada, fornecendo-a a programadores experientes que não tenham sido informados da vulnerabilidade, pedindo-lhes que identifiquem o que esta corrige. Se estes especialistas não conseguirem detetar a vulnerabilidade, mesmo sabendo que um patch a corrige, é provável que esteja bem escondida de potenciais atacantes. Isto é crucial porque os próprios patches podem revelar vulnerabilidades, permitindo potencialmente a exploração maliciosa. As outras opções, embora sejam aspectos importantes da revisão de código, não são o objetivo principal desta prática específica na gestão de vulnerabilidades.
+reviewed: false

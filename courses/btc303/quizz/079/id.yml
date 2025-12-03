@@ -6,3 +6,4 @@ wrong_answers:
   - Untuk menghindari masalah tanggung jawab hukum yang dapat timbul dari pengungkapan dini kepada proyek pihak ketiga
 explanation: |
   Strategi pengaturan waktu ini mencerminkan pendekatan yang mengutamakan keamanan di mana jaringan Bitcoin harus dilindungi sebelum membantu yang lain. Jika altcoin diberitahukan secara bersamaan, penyerang dapat mempelajari implementasi altcoin atau mengeksploitasinya untuk memahami kerentanannya, kemudian berpotensi menyerang node Bitcoin yang belum diupgrade. Pendekatan berurutan memastikan perlindungan Bitcoin secara luas sebelum memperluas bantuan ke jaringan lain, meminimalkan jendela eksploitasi kerentanan di seluruh ekosistem.
+reviewed: false

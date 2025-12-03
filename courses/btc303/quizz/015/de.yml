@@ -6,3 +6,4 @@ wrong_answers:
   - Dienste von Drittanbietern erhalten die Möglichkeit, neue Bitcoins außerhalb des normalen Ausgabezeitplans zu erzeugen
 explanation: |
   Wenn Nutzer nicht ihre eigenen vollständigen Knoten betreiben, lagern sie ihre Macht zur Durchsetzung der Bitcoin-Regeln an andere aus. Dies schwächt die Dezentralisierung von Bitcoin, da weniger unabhängige Parteien Transaktionen und Blöcke validieren. Wie David Harding erklärt, führt dies zu einer Situation, in der eine kleine Anzahl von Minern und Dienstleistern potenziell die Regeln von Bitcoin für nicht verifizierende Nutzer ändern könnte, während diese Nutzer nicht in der Lage wären, mit Personen zu handeln, die vollständige Validierungsknoten betreiben und diese Regeländerungen ablehnen.
+reviewed: false

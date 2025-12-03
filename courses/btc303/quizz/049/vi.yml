@@ -6,3 +6,4 @@ wrong_answers:
   - "Nguồn cung cố định của Bitcoin khiến việc hấp thụ tổn thất từ các cuộc tấn công thành công trở nên bất khả thi về mặt kinh tế, không giống như các hệ thống tài chính truyền thống"
 explanation: |
   Câu trả lời đúng phản ánh quan điểm sâu sắc của Andrew Poelstra về hệ thống trực tuyến so với hệ thống vật lý. Không giống như các tòa nhà, nơi chúng ta chấp nhận một số rủi ro và dựa vào cơ quan thực thi pháp luật, Bitcoin hoạt động trong một môi trường ẩn danh, nơi kẻ tấn công có thể hành động mà không bị phát hiện hay chịu bất kỳ hậu quả nào. Sự khác biệt cơ bản này đồng nghĩa với việc mọi điểm yếu đã biết chắc chắn sẽ bị khai thác, khiến việc bảo mật toàn diện trở nên thiết yếu hơn là quản lý rủi ro tùy chọn.
+reviewed: false

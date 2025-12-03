@@ -6,3 +6,4 @@ wrong_answers:
   - Le opere derivate possono essere distribuite solo con licenze proprietarie che richiedono il pagamento di royalties
 explanation: |
   La definizione di open source afferma esplicitamente che "la licenza deve consentire le modifiche e le opere derivate, e deve permettere loro di essere distribuite secondo gli stessi termini della licenza del software originale" Questo garantisce che le opere derivate mantengano le stesse libertà dell'originale, impedendo a qualcuno di prendere il codice open source e renderlo proprietario. Le altre opzioni violano questo principio fondamentale, limitando la libertà o modificando la compatibilità delle licenze.
+reviewed: false

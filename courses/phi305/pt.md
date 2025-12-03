@@ -35,7 +35,7 @@ Neste curso, tenho o prazer de apresentar a filosofia de Baruch de Spinoza (1632
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/fr/001.webp)
 
 
 Retrato de Spinoza
@@ -70,7 +70,7 @@ Em primeiro lugar, apresento-lhe Spinoza, o seu carácter, o seu contexto social
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/fr/002.webp)
 
 
 Retrato de Spinoza
@@ -93,7 +93,7 @@ Analisaremos também as duas principais obras de Spinoza, começando pela Ética
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/fr/003.webp)
 
 
 
@@ -101,7 +101,7 @@ Em seguida, veremos o Traité théologico-Politique, publicado durante a sua vid
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/fr/004.webp)
 
 
 
@@ -113,7 +113,7 @@ Graças à teoria dos afectos desenvolvida à maneira dos geómetras, "mais geom
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/fr/005.webp)
 
 
 
@@ -149,7 +149,7 @@ De religião judaica, membro da comunidade sefardita portuguesa descendente dos 
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/fr/006.webp)
 
 
 
@@ -168,7 +168,7 @@ Herdeiro, tal como os seus contemporâneos Descartes (1596-1650), Pascal (1632-1
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/fr/007.webp)
 
 
 
@@ -188,10 +188,10 @@ E é essa abordagem que liga Spinoza à filosofia do Iluminismo, seja alemão, c
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/fr/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/fr/009.webp)
 
 
 
@@ -207,7 +207,7 @@ No entanto, a riqueza não está ligada aos recursos naturais, à exploração e
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/fr/010.webp)
 
 
 
@@ -265,7 +265,7 @@ A Ética é uma obra escrita em latim à maneira dos geómetras, provavelmente i
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/fr/011.webp)
 
 
 
@@ -277,7 +277,7 @@ Gostaria de salientar que, ao abrir a Ética, é recomendável começar pelos po
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/fr/012.webp)
 
 
 
@@ -309,7 +309,7 @@ Em primeiro lugar, se o acaso não existe para Spinoza, é porque se trata de um
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/fr/013.webp)
 
 
 
@@ -329,7 +329,7 @@ Segundo Gilles Deleuze (1925-1995), o famoso professor de filosofia e especialis
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/fr/014.webp)
 
 
 
@@ -365,7 +365,7 @@ Trata-se do Traité théologico-politique, ou TTP, publicado anonimamente em 167
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/fr/015.webp)
 
 
 
@@ -376,7 +376,7 @@ Como vimos, o conceito de Deus de Spinoza é o tema de toda a primeira parte da 
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/fr/016.webp)
 
 
 
@@ -388,7 +388,7 @@ E uma vez que os conceitos de Spinoza são geralmente bastante difíceis de apre
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/fr/017.webp)
 
 
 
@@ -425,7 +425,7 @@ O infame terramoto de Lisboa, ocorrido a 1 de novembro de 1755, revelou uma gran
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/fr/018.webp)
 
 
 
@@ -437,7 +437,7 @@ Um drama que reavivou a questão colocada pelo filósofo e matemático alemão L
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/fr/019.webp)
 
 
 
@@ -445,7 +445,7 @@ Muito para além de condenar a mão de Deus, Jean-Jacques Rousseau (1712-1778) e
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/fr/020.webp)
 
 
 
@@ -490,7 +490,7 @@ Tal como Nicolau Copérnico (1473-1543) estabeleceu que a Terra não era o centr
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/fr/021.webp)
 
 
 
@@ -504,7 +504,7 @@ Antes dele, a filosofia grega clássica propunha uma visão ordenada e hierárqu
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/fr/022.webp)
 
 
 
@@ -516,7 +516,7 @@ Mas com a nova física de Copérnico (1473-1543), no século XV, a cosmologia so
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/fr/023.webp)
 
 
 
@@ -526,7 +526,7 @@ Mas para compreender plenamente o spinozismo, precisamos também de considerar o
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/fr/024.webp)
 
 
 
@@ -534,7 +534,7 @@ Apesar dos riscos e das condenações de Giordano Bruno (1548-1600) e de Galileu
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/fr/025.webp)
 
 
 
@@ -578,7 +578,7 @@ Como já vimos, Spinoza (1632-1677) é conhecido por considerar o livre-arbítri
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/fr/026.webp)
 
 
 
@@ -602,7 +602,7 @@ Na condução da sua vida, porque não estaria sujeito a outra lei senão a da s
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/fr/027.webp)
 
 
 
@@ -618,7 +618,7 @@ Spinoza, por outro lado, considera que o nosso mundo é perfeitamente coerente e
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/fr/028.webp)
 
 
 
@@ -646,7 +646,7 @@ Esta abordagem da liberdade como capacidade de ação é a ligação que podemos
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/fr/029.webp)
 
 
 
@@ -671,7 +671,7 @@ Por fim, convém assinalar que, embora o movimento libertário de que vamos fala
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/fr/030.webp)
 
 
 
@@ -704,7 +704,7 @@ Mas para Spinoza (1632-1677), o homem não é "um império dentro de um império
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/fr/031.webp)
 
 
 
@@ -728,7 +728,7 @@ E é por isso que as novas doenças, como a SIDA nos anos 90 ou a covid em 2020,
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/fr/032.webp)
 
 
 
@@ -744,7 +744,7 @@ Foi exatamente o que afirmou o naturalista francês Jean-Baptiste de Lamarck (17
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/fr/033.webp)
 
 
 
@@ -752,7 +752,7 @@ Mas, como diz Spinoza, "a ilusão dos homens não acaba aqui", e entre todos os 
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/fr/034.webp)
 
 
 
@@ -768,7 +768,7 @@ No entanto, esta interpretação enviesada da inflação faz-nos esquecer que, e
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/fr/035.webp)
 
 
 
@@ -804,7 +804,7 @@ Neste último capítulo sobre a nova visão copernicana das ideias oferecida pel
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/fr/036.webp)
 
 
 
@@ -828,7 +828,7 @@ Por outras palavras, um velho de barbas brancas escondido atrás de uma nuvem, a
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/fr/037.webp)
 
 
 
@@ -840,7 +840,7 @@ Mas apesar do nosso orgulho em acreditar que estamos acima da Natureza e em imag
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/fr/038.webp)
 
 
 
@@ -860,7 +860,7 @@ Por outras palavras, "os infames", segundo Voltaire (1694-1778), para quem a sup
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/fr/039.webp)
 
 
 
@@ -872,7 +872,7 @@ Sob o pretexto de nos aliviar, de nos permitir imaginar um mundo melhor, a super
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/fr/040.webp)
 
 
 
@@ -880,7 +880,7 @@ E é isso que Spinoza volta a demonstrar no seu Tratado Teológico-Político, qu
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/fr/041.webp)
 
 
 
@@ -940,7 +940,7 @@ Os filósofos antigos acreditavam que o mal não existia na natureza, e Sócrate
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/fr/042.webp)
 
 
 
@@ -948,7 +948,7 @@ Mas a tradição escolástica, nomeadamente a de Santo Agostinho (354-430), que 
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/fr/043.webp)
 
 
 
@@ -965,7 +965,7 @@ Esta é a ideia defendida pelos religiosos de que os seres humanos nascem pecado
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/fr/044.webp)
 
 
 
@@ -988,7 +988,7 @@ Além disso, já vimos que a visão de Spinoza sobre a responsabilidade das pess
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/fr/045.webp)
 
 
 
@@ -1028,7 +1028,7 @@ Ele desenvolve o seu sistema na terceira parte da Ética. É a famosa "teoria do
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/fr/046.webp)
 
 
 
@@ -1052,7 +1052,7 @@ Falamos de escravatura, ou servidão, um estado caracterizado pela incapacidade 
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/fr/047.webp)
 
 
 
@@ -1068,7 +1068,7 @@ Isto é particularmente verdade, aliás, no domínio das moedas criptográficas.
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/fr/048.webp)
 
 
 
@@ -1088,7 +1088,7 @@ Mas se esta chamada teoria dos afectos se aplica ao nosso "inconsciente", esta f
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/fr/049.webp)
 
 
 
@@ -1108,7 +1108,7 @@ E, neste caso, seria protegermo-nos dos raios sendo racionais, abertos ao progre
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/fr/050.webp)
 
 
 
@@ -1152,7 +1152,7 @@ No fim de contas, esta lucidez significa deixar de viver no niilismo descrito ma
 Foi precisamente o que fez a filosofia racional do Iluminismo, graças, em particular, a Immanuel Kant (1724-1804), para quem só um indivíduo instruído, sob a orientação da razão, pode pensar por si próprio e determinar, eticamente, o que é "verdadeiro" ou "bom" e o que é tóxico.
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/fr/051.webp)
 
 
 
@@ -1163,7 +1163,7 @@ Por outras palavras, diz ele, se pensarmos por nós próprios, se raciocinarmos 
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/fr/052.webp)
 
 
 
@@ -1171,7 +1171,7 @@ Menger e Mises estabeleceram, por exemplo, que todo o conhecimento deve ser cons
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/fr/053.webp)
 
 
 
@@ -1192,7 +1192,7 @@ Como spinozista, Hayek explica num vídeo que "uma vez que este poder não pode 
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/fr/054.webp)
 
 
 
@@ -1200,7 +1200,7 @@ São estes os argumentos políticos e económicos apresentados pelos primeiros c
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/fr/055.webp)
 
 
 
@@ -1208,7 +1208,7 @@ Sobretudo quando inscreveu a manchete do Times de 3 de janeiro de 2009 na base d
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/fr/056.webp)
 
 
 

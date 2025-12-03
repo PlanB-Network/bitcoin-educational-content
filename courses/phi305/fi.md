@@ -35,7 +35,7 @@ Tällä kurssilla minulla on ilo esitellä Baruch de Spinozan (1632-1677) filoso
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/fr/001.webp)
 
 
 Spinozan muotokuva
@@ -70,7 +70,7 @@ Ensin esittelen sinulle Spinozan, hänen luonteensa, hänen sosiaalisen, uskonno
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/fr/002.webp)
 
 
 Spinozan muotokuva
@@ -93,7 +93,7 @@ Tutustumme myös Spinozan kahteen pääteokseen, alkaen Etiikasta, joka julkaist
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/fr/003.webp)
 
 
 
@@ -101,7 +101,7 @@ Sitten tarkastelemme Traité théologico-politique -teosta, joka julkaistiin hä
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/fr/004.webp)
 
 
 
@@ -113,7 +113,7 @@ Geometrien tapaan kehitetyn affektien teorian, "more geometrico", ansiosta näem
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/fr/005.webp)
 
 
 
@@ -149,7 +149,7 @@ Hän oli juutalaista syntyperää ja kuului portugalilaiseen sefardien yhteisö�
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/fr/006.webp)
 
 
 
@@ -168,7 +168,7 @@ Spinoza, joka aikalaistensa Descartesin (1596-1650), Pascalin (1632-1662) ja New
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/fr/007.webp)
 
 
 
@@ -188,10 +188,10 @@ Juuri tämä lähestymistapa yhdistää Spinozan valistuksen filosofiaan, olipa 
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/fr/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/fr/009.webp)
 
 
 
@@ -207,7 +207,7 @@ Rikkaus ei kuitenkaan ole sidoksissa luonnonvaroihin, siirtomaiden riistoon ja r
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/fr/010.webp)
 
 
 
@@ -265,7 +265,7 @@ Etiikka on latinankielinen teos, joka on kirjoitettu geometrikkojen tapaan, ja s
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/fr/011.webp)
 
 
 
@@ -277,7 +277,7 @@ Haluaisin huomauttaa, että kun avaat Etiikan, on suositeltavaa aloittaa jälkis
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/fr/012.webp)
 
 
 
@@ -309,7 +309,7 @@ Ensinnäkin, jos Spinozalle sattumaa ei ole olemassa, se johtuu siitä, että se
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/fr/013.webp)
 
 
 
@@ -329,7 +329,7 @@ Kuuluisan filosofian professorin ja Spinoza-asiantuntijan Gilles Deleuzen (1925-
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/fr/014.webp)
 
 
 
@@ -365,7 +365,7 @@ Kyseessä on Traité théologico-politique eli TTP, joka julkaistiin nimettömä
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/fr/015.webp)
 
 
 
@@ -376,7 +376,7 @@ Kuten olemme nähneet, Spinozan jumalakäsitys on koko Etiikan ensimmäisen osan
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/fr/016.webp)
 
 
 
@@ -388,7 +388,7 @@ Näin Spinoza osoittaa meille, että Jumala ei ole hänen mielestään antropomo
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/fr/017.webp)
 
 
 
@@ -425,7 +425,7 @@ Lissabonin surullisenkuuluisa maanjäristys 1. marraskuuta 1755 osoitti, että i
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/fr/018.webp)
 
 
 
@@ -437,7 +437,7 @@ Draama, joka herätti henkiin saksalaisen filosofin ja matemaatikon Leibnizin (1
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/fr/019.webp)
 
 
 
@@ -445,7 +445,7 @@ Jean-Jacques Rousseau (1712-1778) kirjoitti Voltairelle, jota ihmiskunnan kärsi
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/fr/020.webp)
 
 
 
@@ -490,7 +490,7 @@ Aivan kuten Nikolai Kopernikus (1473-1543) totesi, että maapallo ei ole maailma
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/fr/021.webp)
 
 
 
@@ -504,7 +504,7 @@ Ennen häntä klassisessa kreikkalaisessa filosofiassa maailmankaikkeutta, kosmo
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/fr/022.webp)
 
 
 
@@ -516,7 +516,7 @@ Kopernikuksen (1473-1543) uuden fysiikan myötä 1400-luvulla kosmologiassa tapa
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/fr/023.webp)
 
 
 
@@ -526,7 +526,7 @@ Jotta voimme täysin ymmärtää spinozismia, meidän on kuitenkin otettava huom
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/fr/024.webp)
 
 
 
@@ -534,7 +534,7 @@ Riskeistä ja Giordano Brunon (1548-1600) ja Galileon tuomioista huolimatta Desc
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/fr/025.webp)
 
 
 
@@ -578,7 +578,7 @@ Kuten olemme jo nähneet, Spinoza (1632-1677) on tunnettu siitä, että hän pit
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/fr/026.webp)
 
 
 
@@ -602,7 +602,7 @@ Koska hän ei olisi elämänsä toteuttamisessa minkään muun kuin oman tahtons
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/fr/027.webp)
 
 
 
@@ -618,7 +618,7 @@ Tämä on absoluuttisen determinismin ajatus, josta hän Etiikassaan lähtee, et
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/fr/028.webp)
 
 
 
@@ -646,7 +646,7 @@ Tämä lähestymistapa vapauteen toimintakykynä on se yhteys, jonka voimme luod
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/fr/029.webp)
 
 
 
@@ -671,7 +671,7 @@ Lopuksi on syytä huomauttaa, että vaikka libertaristinen liike, josta nyt kesk
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/fr/030.webp)
 
 
 
@@ -704,7 +704,7 @@ Spinozalle (1632-1677) ihminen ei kuitenkaan ole "valtakunta valtakunnan sisäll
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/fr/031.webp)
 
 
 
@@ -728,7 +728,7 @@ Siksi jotkut ovat aina pitäneet uusia sairauksia, kuten aidsia 90-luvulla tai c
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/fr/032.webp)
 
 
 
@@ -744,7 +744,7 @@ Juuri näin väitti ranskalainen luonnontieteilijä Jean-Baptiste de Lamarck (17
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/fr/033.webp)
 
 
 
@@ -752,7 +752,7 @@ Mutta kuten Spinoza sanoo, "ihmisten harhaluulot eivät lopu tähän", ja kaikki
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/fr/034.webp)
 
 
 
@@ -768,7 +768,7 @@ Tämä yksipuolinen tulkinta inflaatiosta saa meidät kuitenkin unohtamaan, ett�
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/fr/035.webp)
 
 
 
@@ -804,7 +804,7 @@ Tässä viimeisessä luvussa, joka käsittelee spinozismin tarjoamaa uutta koper
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/fr/036.webp)
 
 
 
@@ -828,7 +828,7 @@ Toisin sanoen, pilven taakse kätkeytynyt valkopartainen vanha mies, jonka uskot
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/fr/037.webp)
 
 
 
@@ -840,7 +840,7 @@ Huolimatta ylpeydestämme uskoa olevamme luonnon yläpuolella ja kuvitellessamme
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/fr/038.webp)
 
 
 
@@ -860,7 +860,7 @@ Toisin sanoen Voltairen (1694-1778) mukaan "pahamaineiset", joille taikausko ei 
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/fr/039.webp)
 
 
 
@@ -872,7 +872,7 @@ Tätä saksalaiset, englantilaiset ja ranskalaiset valistajat puolustivat 1700-l
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/fr/040.webp)
 
 
 
@@ -880,7 +880,7 @@ Ja tämän Spinoza osoittaa jälleen kerran teologis-poliittisessa tutkielmassaa
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/fr/041.webp)
 
 
 
@@ -940,7 +940,7 @@ Antiikin filosofit uskoivat, että pahaa ei ole luonnossa, ja esimerkiksi Sokrat
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/fr/042.webp)
 
 
 
@@ -948,7 +948,7 @@ Mutta skolastinen perinne, erityisesti pyhän Augustinuksen (354-430) perinne, j
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/fr/043.webp)
 
 
 
@@ -965,7 +965,7 @@ Kuten voitte kuvitella, Spinoza repii tämän ajatuksen riekaleiksi, sillä hän
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/fr/044.webp)
 
 
 
@@ -988,7 +988,7 @@ Siksi spinotsilainen Gilles Deleuze (1925-1995) selittää, että etiikka on er�
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/fr/045.webp)
 
 
 
@@ -1028,7 +1028,7 @@ Hän kehittää järjestelmäänsä Etiikan kolmannessa osassa. Se on kuuluisa "
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/fr/046.webp)
 
 
 
@@ -1052,7 +1052,7 @@ Näin sanoo Spinoza Etiikassaan, kun hän hämmästelee sitä, että "ihmiset n�
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/fr/047.webp)
 
 
 
@@ -1068,7 +1068,7 @@ Tämä pätee muuten erityisesti kryptovaluuttojen alalla.
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/fr/048.webp)
 
 
 
@@ -1088,7 +1088,7 @@ Tämä on esimerkki salamasta. Kun salama iskee ja tappaa viattomia ihmisiä, ti
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/fr/049.webp)
 
 
 
@@ -1108,7 +1108,7 @@ Tämä on etiikan nerokkuus. Spinoza osoittaa meille, että on mahdollista siirt
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/fr/050.webp)
 
 
 
@@ -1152,7 +1152,7 @@ Loppujen lopuksi tämä selkeys tarkoittaa sitä, ettei ihminen enää elä Frie
 Juuri tästä valistuksen rationaalisessa filosofiassa oli kyse, kiitos erityisesti Immanuel Kantin (1724-1804), jonka mielestä vain koulutettu yksilö voi järjen ohjaamana ajatella itse ja määrittää eettisesti, mikä on "totta" tai "hyvää" ja mikä myrkyllistä.
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/fr/051.webp)
 
 
 
@@ -1163,7 +1163,7 @@ Kyseessä on päättelytapa, joka yhdistää itävaltalaisen liberaalin talousti
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/fr/052.webp)
 
 
 
@@ -1171,7 +1171,7 @@ Menger ja Mises totesivat esimerkiksi, että kaikki tieto on rakennettava asioid
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/fr/053.webp)
 
 
 
@@ -1192,7 +1192,7 @@ Spinotsistina Hayek selittää videolla, että "koska tätä valtaa ei voida ott
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/fr/054.webp)
 
 
 
@@ -1200,7 +1200,7 @@ Nämä ovat poliittisia ja taloudellisia perusteluja, jotka ensimmäiset salakir
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/fr/055.webp)
 
 
 
@@ -1208,7 +1208,7 @@ Varsinkin kun hän kirjoitti 3. tammikuuta 2009 julkaistun Timesin otsikon Block
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/fr/056.webp)
 
 
 

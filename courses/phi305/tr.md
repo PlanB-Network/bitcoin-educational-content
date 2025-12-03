@@ -35,7 +35,7 @@ Bu derste, rasyonel Aydınlanma felsefesinin babası olarak kabul edilen ünlü 
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/fr/001.webp)
 
 
 Spinoza'nın Portresi
@@ -70,7 +70,7 @@ Ve özellikle de felsefi yönüyle, bizi tam olarak özgürlük kavramı üzerin
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/fr/002.webp)
 
 
 Spinoza'nın Portresi
@@ -93,7 +93,7 @@ Ayrıca Spinoza'nın 1677'de ölümünden sonra yayınlanan ve tamamen özgürl�
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/fr/003.webp)
 
 
 
@@ -101,7 +101,7 @@ Daha sonra, 1670 yılında onun sağlığında yayınlanan ve özgürlüğü ba�
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/fr/004.webp)
 
 
 
@@ -113,7 +113,7 @@ Geometriciler tarzında geliştirilen duygulanımlar teorisi sayesinde, "more ge
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/fr/005.webp)
 
 
 
@@ -149,7 +149,7 @@ Yahudi inancına sahip olan ve 15. yüzyılda Katolikler tarafından İspanya'y�
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/fr/006.webp)
 
 
 
@@ -168,7 +168,7 @@ Söylendiğine göre bu "aforoz" onun kendini izole etmesine ve arkasına bile b
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/fr/007.webp)
 
 
 
@@ -188,10 +188,10 @@ Spinoza'yı ister Leibniz (1646-1716), Kant (1724-1804), Schopenhauer (1788-1860
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/fr/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/fr/009.webp)
 
 
 
@@ -207,7 +207,7 @@ Ancak zenginlik doğal kaynaklara, sömürgelere ve köleliğe değil, liberal v
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/fr/010.webp)
 
 
 
@@ -265,7 +265,7 @@ Etika, muhtemelen Kepler (1571-1630) ile birlikte modern bilimin babası olan ve
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/fr/011.webp)
 
 
 
@@ -277,7 +277,7 @@ Etika'yı açtığınızda, önsöz ve eklerle başlamanızın tavsiye edildiği
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/fr/012.webp)
 
 
 
@@ -309,7 +309,7 @@ Ancak akılda tutulması gereken iki nokta var:
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/fr/013.webp)
 
 
 
@@ -329,7 +329,7 @@ Son olarak, etiğin ahlak olmadığını belirtmek önemlidir.
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/fr/014.webp)
 
 
 
@@ -365,7 +365,7 @@ Bu, 1670 yılında anonim olarak yayınlanan Traité théologico-politique veya 
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/fr/015.webp)
 
 
 
@@ -376,7 +376,7 @@ Gördüğümüz gibi, Spinoza'nın Tanrı kavramı, sadece Tanrı'nın varlığ�
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/fr/016.webp)
 
 
 
@@ -388,7 +388,7 @@ Spinoza bize Tanrı'nın, ona göre, niyetlerle donatılmış, cezalandıran vey
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/fr/017.webp)
 
 
 
@@ -425,7 +425,7 @@ Lizbon'da 1 Kasım 1755 tarihinde meydana gelen meşhur deprem, insanların doğ
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/fr/018.webp)
 
 
 
@@ -437,7 +437,7 @@ Alman filozof ve matematikçi Leibniz'in (1646-1716) niyet, iyilik ve her şeye 
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/fr/019.webp)
 
 
 
@@ -445,7 +445,7 @@ Jean-Jacques Rousseau (1712-1778), Tanrı'nın elini lanetlemenin çok ötesinde
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/fr/020.webp)
 
 
 
@@ -490,7 +490,7 @@ Nicolas Copernicus'un (1473-1543) dünyanın merkezi olmadığını ortaya koyma
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/fr/021.webp)
 
 
 
@@ -504,7 +504,7 @@ Ondan önce, klasik Yunan felsefesi dünyayı, kozmosu ve insan deneyimini açı
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/fr/022.webp)
 
 
 
@@ -516,7 +516,7 @@ Ancak 15. yüzyılda Kopernik'in (1473-1543) yeni fiziği ile kozmoloji, evrenin
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/fr/023.webp)
 
 
 
@@ -526,7 +526,7 @@ Ancak Spinozacılığı tam olarak anlamak için, Spinoza'dan önce gelen ve hem
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/fr/024.webp)
 
 
 
@@ -534,7 +534,7 @@ Giordano Bruno (1548-1600) ve Galileo'nun risklerine ve kınamalarına rağmen D
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/fr/025.webp)
 
 
 
@@ -578,7 +578,7 @@ Daha önce de gördüğümüz gibi, Spinoza (1632-1677) özgür iradeyi, kişini
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/fr/026.webp)
 
 
 
@@ -602,7 +602,7 @@ Yaşamını sürdürürken, kendi iradesinden başka hiçbir yasaya tabi olmayac
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/fr/027.webp)
 
 
 
@@ -618,7 +618,7 @@ Bu, Etika'sında insanların hiçbir şekilde özgür iradeye sahip olmadıklar�
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/fr/028.webp)
 
 
 
@@ -646,7 +646,7 @@ Elbette ortaya çıkan sorun insan sorumluluğu ve eylemleridir. Bireyler eyleml
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/fr/029.webp)
 
 
 
@@ -671,7 +671,7 @@ Son olarak, tartışmak üzere olduğumuz liberter hareket doğrudan bu yeni lib
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/fr/030.webp)
 
 
 
@@ -704,7 +704,7 @@ Ancak Spinoza (1632-1677) için insan "imparatorluk içinde bir imparatorluk" de
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/fr/031.webp)
 
 
 
@@ -728,7 +728,7 @@ Bir niyeti, özellikle de ilahi bir niyeti ifade eden ve bizim yorumladığımı
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/fr/032.webp)
 
 
 
@@ -744,7 +744,7 @@ Fransız doğa bilimci Jean-Baptiste de Lamarck'ın (1744-1829), organı yaratan
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/fr/033.webp)
 
 
 
@@ -752,7 +752,7 @@ Ancak Spinoza'nın dediği gibi, "insanların yanılgısı burada bitmiyor" ve n
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/fr/034.webp)
 
 
 
@@ -768,7 +768,7 @@ Ancak enflasyonun bu önyargılı yorumu, kısa vadede ekonomiyi yönetmek için
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/fr/035.webp)
 
 
 
@@ -804,7 +804,7 @@ Spinozacılığın sunduğu yeni Kopernikçi fikir vizyonuna ilişkin bu son bö
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/fr/036.webp)
 
 
 
@@ -828,7 +828,7 @@ Başka bir deyişle, bir bulutun arkasına saklanmış, doğadaki her şeyi bizi
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/fr/037.webp)
 
 
 
@@ -840,7 +840,7 @@ Ancak kendimizi Doğa'nın üstünde görmemizden ve bir şeyi yoktan var edebil
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/fr/038.webp)
 
 
 
@@ -860,7 +860,7 @@ Başka bir deyişle, Voltaire'e (1694-1778) göre "rezil", batıl inanç hiçbir
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/fr/039.webp)
 
 
 
@@ -872,7 +872,7 @@ Alman, İngiliz ve Fransız Aydınlanmasının 18. yüzyıldan itibaren savundu�
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/fr/040.webp)
 
 
 
@@ -880,7 +880,7 @@ Spinoza'nın daha önce değindiğimiz Theologico Political Treatise adlı eseri
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/fr/041.webp)
 
 
 
@@ -940,7 +940,7 @@ Antik filozoflar kötülüğün doğada var olmadığına inanıyordu ve örneğ
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/fr/042.webp)
 
 
 
@@ -948,7 +948,7 @@ Ancak skolastik gelenek, özellikle de bugün hala Hıristiyan ahlakını etkile
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/fr/043.webp)
 
 
 
@@ -965,7 +965,7 @@ spinoza Etika'da "Doğada, içinde var olan bir kötülüğe atfedilebilecek hi�
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/fr/044.webp)
 
 
 
@@ -988,7 +988,7 @@ Spinozacı Gilles Deleuze'ün (1925-1995) etiğin bir tür etoloji, yani var olm
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/fr/045.webp)
 
 
 
@@ -1028,7 +1028,7 @@ Sistemini Etik'in üçüncü bölümünde geliştirir. Bu ünlü "duygulanımlar
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/fr/046.webp)
 
 
 
@@ -1052,7 +1052,7 @@ Spinoza Etika'sında "insanların genellikle en iyiyi görüp, onaylayıp en kö
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/fr/047.webp)
 
 
 
@@ -1068,7 +1068,7 @@ Bu arada, bu durum özellikle kripto para birimleri alanında geçerlidir.
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/fr/048.webp)
 
 
 
@@ -1088,7 +1088,7 @@ Bu yıldırım örneğidir. Çünkü yıldırım düşüp masum insanları öld�
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/fr/049.webp)
 
 
 
@@ -1108,7 +1108,7 @@ Etika'nın dehası budur. Spinoza bize gönüllü kulluktan, "kendimize rağmen 
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/fr/050.webp)
 
 
 
@@ -1152,7 +1152,7 @@ Nihayetinde bu berraklık, daha sonra Friedrich Nietzsche (1844-1900) tarafında
 Özellikle Immanuel Kant (1724-1804) sayesinde Aydınlanmanın rasyonel felsefesi tam da bununla ilgiliydi; ona göre yalnızca eğitimli bir birey aklın rehberliğinde kendi adına düşünebilir ve etik olarak neyin "doğru" ya da "iyi", neyin zehirli olduğunu belirleyebilir.
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/fr/051.webp)
 
 
 
@@ -1163,7 +1163,7 @@ Bu, Birinci Dünya Savaşı öncesinde Viyana'nın son derece verimli entelektü
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/fr/052.webp)
 
 
 
@@ -1171,7 +1171,7 @@ Bu, Birinci Dünya Savaşı öncesinde Viyana'nın son derece verimli entelektü
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/fr/053.webp)
 
 
 
@@ -1192,7 +1192,7 @@ Bir Spinozacı olarak Hayek bir videoda "bu güç şiddet olmadan elden alınama
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/fr/054.webp)
 
 
 
@@ -1200,7 +1200,7 @@ Bunlar, ilk cypherpunk'lar olan Eric Hughes (1953-) tarafından "Cypherpunk mani
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/fr/055.webp)
 
 
 
@@ -1208,7 +1208,7 @@ Bunlar, ilk cypherpunk'lar olan Eric Hughes (1953-) tarafından "Cypherpunk mani
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/fr/056.webp)
 
 
 

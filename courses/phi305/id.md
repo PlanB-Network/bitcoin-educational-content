@@ -35,7 +35,7 @@ Dalam kursus ini, saya dengan senang hati menyajikan filosofi Baruch de Spinoza 
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/fr/001.webp)
 
 
 Potret Spinoza
@@ -70,7 +70,7 @@ Pertama, saya akan memperkenalkan Anda pada Spinoza, karakternya, latar belakang
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/fr/002.webp)
 
 
 Potret Spinoza
@@ -93,7 +93,7 @@ Kita juga akan melihat dua karya utama Spinoza, dimulai dengan Etika, yang diter
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/fr/003.webp)
 
 
 
@@ -101,7 +101,7 @@ Kemudian kita akan melihat Traité théologico-Politique, yang diterbitkan semas
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/fr/004.webp)
 
 
 
@@ -113,7 +113,7 @@ Berkat teori pengaruh yang dikembangkan dengan cara para ahli geometri, "lebih g
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/fr/005.webp)
 
 
 
@@ -149,7 +149,7 @@ Beragama Yahudi, ia adalah anggota komunitas Sephardic Portugis keturunan Marran
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/fr/006.webp)
 
 
 
@@ -168,7 +168,7 @@ Sebagai pewaris, seperti rekan sezamannya Descartes (1596-1650), Pascal (1632-16
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/fr/007.webp)
 
 
 
@@ -188,10 +188,10 @@ Dan pendekatan inilah yang menghubungkan Spinoza dengan filosofi Pencerahan, bai
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/fr/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/fr/009.webp)
 
 
 
@@ -207,7 +207,7 @@ Akan tetapi, kekayaan tidak terkait dengan sumber daya alam, eksploitasi dan pen
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/fr/010.webp)
 
 
 
@@ -265,7 +265,7 @@ Etika adalah karya yang ditulis dalam bahasa Latin dengan gaya geometris, mungki
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/fr/011.webp)
 
 
 
@@ -277,7 +277,7 @@ Saya ingin menunjukkan bahwa ketika Anda membuka Etika, disarankan untuk memulai
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/fr/012.webp)
 
 
 
@@ -309,7 +309,7 @@ Pertama, jika kebetulan tidak ada bagi Spinoza, itu karena itu adalah peristiwa 
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/fr/013.webp)
 
 
 
@@ -329,7 +329,7 @@ Menurut Gilles Deleuze (1925-1995), profesor filsafat terkenal dan spesialis Spi
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/fr/014.webp)
 
 
 
@@ -365,7 +365,7 @@ Ini adalah Traité théologico-politique, atau TTP, yang diterbitkan secara anon
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/fr/015.webp)
 
 
 
@@ -376,7 +376,7 @@ Seperti yang telah kita lihat, konsep Spinoza tentang Tuhan adalah subjek dari s
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/fr/016.webp)
 
 
 
@@ -388,7 +388,7 @@ Dengan cara inilah Spinoza menunjukkan kepada kita bahwa Tuhan, dalam pandangann
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/fr/017.webp)
 
 
 
@@ -425,7 +425,7 @@ Gempa bumi yang terkenal di Lisbon pada tanggal 1 November 1755, menunjukkan per
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/fr/018.webp)
 
 
 
@@ -437,7 +437,7 @@ Sebuah drama yang menghidupkan kembali pertanyaan yang diajukan oleh filsuf dan 
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/fr/019.webp)
 
 
 
@@ -445,7 +445,7 @@ Jauh dari mengutuk tangan Tuhan, Jean-Jacques Rousseau (1712-1778) menulis kepad
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/fr/020.webp)
 
 
 
@@ -490,7 +490,7 @@ Seperti halnya Nicolas Copernicus (1473-1543) yang menyatakan bahwa bumi bukanla
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/fr/021.webp)
 
 
 
@@ -504,7 +504,7 @@ Sebelumnya, filsafat Yunani klasik mengusulkan visi hirarkis yang teratur tentan
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/fr/022.webp)
 
 
 
@@ -516,7 +516,7 @@ Namun dengan fisika baru Copernicus (1473-1543) pada abad ke-15, kosmologi menga
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/fr/023.webp)
 
 
 
@@ -526,7 +526,7 @@ Namun, untuk memahami Spinozisme sepenuhnya, kita juga perlu mempertimbangkan ko
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/fr/024.webp)
 
 
 
@@ -534,7 +534,7 @@ Terlepas dari risiko dan kecaman dari Giordano Bruno (1548-1600) dan Galileo, De
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/fr/025.webp)
 
 
 
@@ -578,7 +578,7 @@ Seperti yang telah kita lihat, Spinoza (1632-1677) terkenal karena menganggap ke
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/fr/026.webp)
 
 
 
@@ -602,7 +602,7 @@ Dalam menjalankan kehidupannya, karena ia tidak akan tunduk pada hukum selain ke
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/fr/027.webp)
 
 
 
@@ -618,7 +618,7 @@ Ini adalah ide determinisme absolut, yang darinya ia menetapkan dalam Etika bahw
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/fr/028.webp)
 
 
 
@@ -646,7 +646,7 @@ Pendekatan terhadap kebebasan sebagai kapasitas untuk bertindak adalah hubungan 
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/fr/029.webp)
 
 
 
@@ -671,7 +671,7 @@ Terakhir, perlu diketahui bahwa meskipun gerakan libertarian yang akan kita baha
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/fr/030.webp)
 
 
 
@@ -704,7 +704,7 @@ Namun bagi Spinoza (1632-1677), manusia bukanlah "sebuah kerajaan di dalam keraj
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/fr/031.webp)
 
 
 
@@ -728,7 +728,7 @@ Dan itulah mengapa penyakit baru seperti AIDS pada tahun 90-an atau covid pada t
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/fr/032.webp)
 
 
 
@@ -744,7 +744,7 @@ Dan inilah yang ditegaskan oleh naturalis Prancis Jean-Baptiste de Lamarck (1744
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/fr/033.webp)
 
 
 
@@ -752,7 +752,7 @@ Tetapi seperti yang dikatakan Spinoza, "khayalan manusia tidak berakhir di situ"
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/fr/034.webp)
 
 
 
@@ -768,7 +768,7 @@ Namun, interpretasi yang bias terhadap inflasi ini membuat kita lupa bahwa, mesk
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/fr/035.webp)
 
 
 
@@ -804,7 +804,7 @@ Dalam bab terakhir tentang visi Copernican baru tentang ide-ide yang ditawarkan 
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/fr/036.webp)
 
 
 
@@ -828,7 +828,7 @@ Dengan kata lain, seorang pria tua berjanggut putih yang tersembunyi di balik aw
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/fr/037.webp)
 
 
 
@@ -840,7 +840,7 @@ Namun, terlepas dari kebanggaan kita yang meyakini bahwa kita berada di atas Ala
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/fr/038.webp)
 
 
 
@@ -860,7 +860,7 @@ Dengan kata lain, "yang tidak terkenal" menurut Voltaire (1694-1778), yang takha
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/fr/039.webp)
 
 
 
@@ -872,7 +872,7 @@ Inilah yang dipertahankan oleh Pencerahan Jerman, Inggris, dan Prancis sejak aba
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/fr/040.webp)
 
 
 
@@ -880,7 +880,7 @@ Dan inilah yang Spinoza tunjukkan lagi dalam Risalah Politik Theologico, yang te
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/fr/041.webp)
 
 
 
@@ -940,7 +940,7 @@ Para filsuf kuno percaya bahwa kejahatan tidak ada di alam, dan Socrates (470-39
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/fr/042.webp)
 
 
 
@@ -948,7 +948,7 @@ Tetapi tradisi skolastik, terutama dari Santo Agustinus (354-430), yang masih me
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/fr/043.webp)
 
 
 
@@ -965,7 +965,7 @@ Tentu saja, seperti yang bisa Anda bayangkan, ide ini dicabik-cabik oleh Spinoza
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/fr/044.webp)
 
 
 
@@ -988,7 +988,7 @@ Inilah sebabnya mengapa filsuf Spinoza Gilles Deleuze (1925-1995) menjelaskan ba
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/fr/045.webp)
 
 
 
@@ -1028,7 +1028,7 @@ Dia mengembangkan sistemnya di bagian ketiga dari Etika. Ini adalah "teori penga
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/fr/046.webp)
 
 
 
@@ -1052,7 +1052,7 @@ Inilah yang dikatakan Spinoza dalam bukunya Etika, ketika ia terkejut bahwa "ora
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/fr/047.webp)
 
 
 
@@ -1068,7 +1068,7 @@ Hal ini terutama berlaku di bidang mata uang kripto.
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/fr/048.webp)
 
 
 
@@ -1088,7 +1088,7 @@ Ini adalah contoh dari petir. Karena ketika petir menyambar dan membunuh orang y
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/fr/049.webp)
 
 
 
@@ -1108,7 +1108,7 @@ Inilah kejeniusan dari Etika. Spinoza menunjukkan kepada kita bahwa adalah mungk
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/fr/050.webp)
 
 
 
@@ -1152,7 +1152,7 @@ Pada akhirnya, kejernihan ini berarti tidak lagi hidup dalam nihilisme yang kemu
 Inilah yang dimaksud dengan filosofi rasional Pencerahan, terutama berkat Immanuel Kant (1724-1804), yang mana hanya orang yang berpendidikan, di bawah bimbingan akal, yang dapat berpikir untuk dirinya sendiri dan menentukan, secara etis, apa yang "benar" atau "baik" dan apa yang beracun.
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/fr/051.webp)
 
 
 
@@ -1163,7 +1163,7 @@ Ini adalah garis penalaran yang membuat hubungan dengan mazhab ekonomi liberal A
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/fr/052.webp)
 
 
 
@@ -1171,7 +1171,7 @@ Menger dan Mises, misalnya, menyatakan bahwa semua pengetahuan harus dibangun be
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/fr/053.webp)
 
 
 
@@ -1192,7 +1192,7 @@ Sebagai seorang Spinozist, Hayek menjelaskan dalam sebuah video bahwa "karena ke
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/fr/054.webp)
 
 
 
@@ -1200,7 +1200,7 @@ Ini adalah argumen politik dan ekonomi yang dikemukakan oleh cypherpunks pertama
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/fr/055.webp)
 
 
 
@@ -1208,7 +1208,7 @@ Khususnya ketika dia menuliskan judul Times pada 3 Januari 2009 di dasar koin bl
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/fr/056.webp)
 
 
 

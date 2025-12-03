@@ -35,7 +35,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/fr/001.webp)
 
 
 Портрет Спинозы
@@ -70,7 +70,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/fr/002.webp)
 
 
 Портрет Спинозы
@@ -93,7 +93,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/fr/003.webp)
 
 
 
@@ -101,7 +101,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/fr/004.webp)
 
 
 
@@ -113,7 +113,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/fr/005.webp)
 
 
 
@@ -149,7 +149,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/fr/006.webp)
 
 
 
@@ -168,7 +168,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/fr/007.webp)
 
 
 
@@ -188,10 +188,10 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/fr/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/fr/009.webp)
 
 
 
@@ -207,7 +207,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/fr/010.webp)
 
 
 
@@ -265,7 +265,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/fr/011.webp)
 
 
 
@@ -277,7 +277,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/fr/012.webp)
 
 
 
@@ -309,7 +309,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/fr/013.webp)
 
 
 
@@ -329,7 +329,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/fr/014.webp)
 
 
 
@@ -365,7 +365,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/fr/015.webp)
 
 
 
@@ -376,7 +376,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/fr/016.webp)
 
 
 
@@ -388,7 +388,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/fr/017.webp)
 
 
 
@@ -425,7 +425,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/fr/018.webp)
 
 
 
@@ -437,7 +437,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/fr/019.webp)
 
 
 
@@ -445,7 +445,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/fr/020.webp)
 
 
 
@@ -490,7 +490,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/fr/021.webp)
 
 
 
@@ -504,7 +504,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/fr/022.webp)
 
 
 
@@ -516,7 +516,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/fr/023.webp)
 
 
 
@@ -526,7 +526,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/fr/024.webp)
 
 
 
@@ -534,7 +534,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/fr/025.webp)
 
 
 
@@ -578,7 +578,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/fr/026.webp)
 
 
 
@@ -602,7 +602,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/fr/027.webp)
 
 
 
@@ -618,7 +618,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/fr/028.webp)
 
 
 
@@ -646,7 +646,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/fr/029.webp)
 
 
 
@@ -671,7 +671,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/fr/030.webp)
 
 
 
@@ -704,7 +704,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/fr/031.webp)
 
 
 
@@ -728,7 +728,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/fr/032.webp)
 
 
 
@@ -744,7 +744,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/fr/033.webp)
 
 
 
@@ -752,7 +752,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/fr/034.webp)
 
 
 
@@ -768,7 +768,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/fr/035.webp)
 
 
 
@@ -804,7 +804,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/fr/036.webp)
 
 
 
@@ -828,7 +828,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/fr/037.webp)
 
 
 
@@ -840,7 +840,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/fr/038.webp)
 
 
 
@@ -860,7 +860,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/fr/039.webp)
 
 
 
@@ -872,7 +872,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/fr/040.webp)
 
 
 
@@ -880,7 +880,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/fr/041.webp)
 
 
 
@@ -940,7 +940,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/fr/042.webp)
 
 
 
@@ -948,7 +948,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/fr/043.webp)
 
 
 
@@ -965,7 +965,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/fr/044.webp)
 
 
 
@@ -988,7 +988,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/fr/045.webp)
 
 
 
@@ -1028,7 +1028,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/fr/046.webp)
 
 
 
@@ -1052,7 +1052,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/fr/047.webp)
 
 
 
@@ -1068,7 +1068,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/fr/048.webp)
 
 
 
@@ -1088,7 +1088,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/fr/049.webp)
 
 
 
@@ -1108,7 +1108,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/fr/050.webp)
 
 
 
@@ -1152,7 +1152,7 @@ objectives:
 Именно на это была направлена рациональная философия эпохи Просвещения, в частности, благодаря Иммануилу Канту (1724-1804), для которого только образованный человек под руководством разума может мыслить самостоятельно и определять с этической точки зрения, что является "истинным" или "хорошим", а что - токсичным.
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/fr/051.webp)
 
 
 
@@ -1163,7 +1163,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/fr/052.webp)
 
 
 
@@ -1171,7 +1171,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/fr/053.webp)
 
 
 
@@ -1192,7 +1192,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/fr/054.webp)
 
 
 
@@ -1200,7 +1200,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/fr/055.webp)
 
 
 
@@ -1208,7 +1208,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/fr/056.webp)
 
 
 

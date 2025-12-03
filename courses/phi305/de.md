@@ -35,7 +35,7 @@ Ich freue mich, in diesem Kurs die Philosophie von Baruch de Spinoza (1632-1677)
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/fr/001.webp)
 
 
 Porträt von Spinoza
@@ -70,7 +70,7 @@ Zunächst stelle ich Ihnen Spinoza, seinen Charakter, seinen sozialen, religiös
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/fr/002.webp)
 
 
 Porträt von Spinoza
@@ -93,7 +93,7 @@ Wir werden auch einen Blick auf die beiden Hauptwerke Spinozas werfen, beginnend
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/fr/003.webp)
 
 
 
@@ -101,7 +101,7 @@ Anschließend werden wir uns mit dem Traité théologico-politique befassen, das
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/fr/004.webp)
 
 
 
@@ -113,7 +113,7 @@ Dank der Theorie der Affekte, die in der Art der Geometer entwickelt wurde, "mor
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/fr/005.webp)
 
 
 
@@ -149,7 +149,7 @@ Als Mitglied der portugiesischen sephardischen Gemeinschaft, die von den Marrano
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/fr/006.webp)
 
 
 
@@ -168,7 +168,7 @@ Wie seine Zeitgenossen Descartes (1596-1650), Pascal (1632-1662) und Newton (164
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/fr/007.webp)
 
 
 
@@ -188,10 +188,10 @@ Und es ist dieser Ansatz, der Spinoza mit der Philosophie der Aufklärung verbin
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/fr/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/fr/009.webp)
 
 
 
@@ -207,7 +207,7 @@ Der Reichtum ist jedoch nicht an die natürlichen Ressourcen, die Ausbeutung und
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/fr/010.webp)
 
 
 
@@ -265,7 +265,7 @@ Die Ethik ist ein Werk, das in lateinischer Sprache in der Art der Geometer verf
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/fr/011.webp)
 
 
 
@@ -277,7 +277,7 @@ Ich möchte darauf hinweisen, dass es empfehlenswert ist, beim Öffnen der Ethik
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/fr/012.webp)
 
 
 
@@ -309,7 +309,7 @@ Erstens: Wenn es den Zufall für Spinoza nicht gibt, dann deshalb, weil er ein E
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/fr/013.webp)
 
 
 
@@ -329,7 +329,7 @@ Nach Gilles Deleuze (1925-1995), dem berühmten Philosophieprofessor und Spinoza
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/fr/014.webp)
 
 
 
@@ -365,7 +365,7 @@ Es handelt sich um die Traité théologico-politique (TTP), die 1670 anonym ver�
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/fr/015.webp)
 
 
 
@@ -376,7 +376,7 @@ Wie wir gesehen haben, ist Spinozas Gottesbegriff das Thema des gesamten ersten 
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/fr/016.webp)
 
 
 
@@ -388,7 +388,7 @@ Auf diese Weise zeigt uns Spinoza, dass Gott in seinen Augen kein anthropomorphe
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/fr/017.webp)
 
 
 
@@ -425,7 +425,7 @@ Das berüchtigte Erdbeben in Lissabon am 1. November 1755 führte zu einem grund
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/fr/018.webp)
 
 
 
@@ -437,7 +437,7 @@ Ein Drama, das die von dem deutschen Philosophen und Mathematiker Leibniz (1646-
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/fr/019.webp)
 
 
 
@@ -445,7 +445,7 @@ Weit davon entfernt, die Hand Gottes zu verdammen, schrieb Jean-Jacques Rousseau
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/fr/020.webp)
 
 
 
@@ -490,7 +490,7 @@ So wie Nikolaus Kopernikus (1473-1543) feststellte, dass die Erde nicht der Mitt
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/fr/021.webp)
 
 
 
@@ -504,7 +504,7 @@ Vor ihm schlug die klassische griechische Philosophie eine geordnete, hierarchis
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/fr/022.webp)
 
 
 
@@ -516,7 +516,7 @@ Doch mit der neuen Physik von Kopernikus (1473-1543) im 15. Jahrhundert erfuhr d
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/fr/023.webp)
 
 
 
@@ -526,7 +526,7 @@ Doch um den Spinozismus vollständig zu verstehen, müssen wir auch den Kontext 
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/fr/024.webp)
 
 
 
@@ -534,7 +534,7 @@ Trotz der Risiken und der Verurteilungen durch Giordano Bruno (1548-1600) und Ga
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/fr/025.webp)
 
 
 
@@ -578,7 +578,7 @@ Wie wir bereits gesehen haben, ist Spinoza (1632-1677) dafür bekannt, dass er d
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/fr/026.webp)
 
 
 
@@ -602,7 +602,7 @@ Da er in seiner Lebensführung keinem anderen Gesetz als dem seines eigenen Will
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/fr/027.webp)
 
 
 
@@ -618,7 +618,7 @@ Dies ist die Idee des absoluten Determinismus, aus der er in seiner Ethik ableit
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/fr/028.webp)
 
 
 
@@ -646,7 +646,7 @@ Diese Auffassung von Freiheit als Handlungsfähigkeit ist die Verbindung, die wi
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/fr/029.webp)
 
 
 
@@ -671,7 +671,7 @@ Abschließend sei darauf hingewiesen, dass sich die libertäre Bewegung, über d
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/fr/030.webp)
 
 
 
@@ -704,7 +704,7 @@ Aber für Spinoza (1632-1677) ist der Mensch kein "Reich im Reich", d.h. er ist 
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/fr/031.webp)
 
 
 
@@ -728,7 +728,7 @@ Aus diesem Grund wurden neue Krankheiten wie AIDS in den 90er Jahren oder Covid 
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/fr/032.webp)
 
 
 
@@ -744,7 +744,7 @@ Und genau das hat der französische Naturforscher Jean-Baptiste de Lamarck (1744
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/fr/033.webp)
 
 
 
@@ -752,7 +752,7 @@ Aber, wie Spinoza sagt, "die Verblendung der Menschen hört damit nicht auf", un
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/fr/034.webp)
 
 
 
@@ -768,7 +768,7 @@ Diese voreingenommene Interpretation der Inflation lässt uns jedoch vergessen, 
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/fr/035.webp)
 
 
 
@@ -804,7 +804,7 @@ In diesem letzten Kapitel über die neue kopernikanische Vision der Ideen, die d
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/fr/036.webp)
 
 
 
@@ -828,7 +828,7 @@ Mit anderen Worten, ein weißbärtiger alter Mann, der sich hinter einer Wolke v
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/fr/037.webp)
 
 
 
@@ -840,7 +840,7 @@ Doch trotz unseres Stolzes, uns über die Natur zu erheben und uns einzubilden, 
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/fr/038.webp)
 
 
 
@@ -860,7 +860,7 @@ Mit anderen Worten, "die Schändlichen" nach Voltaire (1694-1778), für die der 
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/fr/039.webp)
 
 
 
@@ -872,7 +872,7 @@ Das ist es, was die deutsche, englische und französische Aufklärung seit dem 1
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/fr/040.webp)
 
 
 
@@ -880,7 +880,7 @@ Und genau das zeigt Spinoza in seiner Abhandlung Theologico Politico, auf die wi
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/fr/041.webp)
 
 
 
@@ -940,7 +940,7 @@ Die antiken Philosophen glaubten, dass das Böse in der Natur nicht existiert, u
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/fr/042.webp)
 
 
 
@@ -948,7 +948,7 @@ Die scholastische Tradition, insbesondere die des heiligen Augustinus (354-430),
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/fr/043.webp)
 
 
 
@@ -965,7 +965,7 @@ Wie Sie sich vorstellen können, wird diese Idee natürlich von Spinoza in der L
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/fr/044.webp)
 
 
 
@@ -988,7 +988,7 @@ Aus diesem Grund erklärt der Spinozist Gilles Deleuze (1925-1995), dass die Eth
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/fr/045.webp)
 
 
 
@@ -1028,7 +1028,7 @@ Er entwickelt sein System im dritten Teil der Ethik. Es ist die berühmte "Theor
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/fr/046.webp)
 
 
 
@@ -1052,7 +1052,7 @@ Das sagt Spinoza in seiner Ethik, wenn er sich darüber wundert, dass "die Mensc
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/fr/047.webp)
 
 
 
@@ -1068,7 +1068,7 @@ Das gilt übrigens besonders für den Bereich der Kryptowährungen.
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/fr/048.webp)
 
 
 
@@ -1088,7 +1088,7 @@ Dies ist das Beispiel des Blitzes. Denn wenn ein Blitz einschlägt und unschuldi
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/fr/049.webp)
 
 
 
@@ -1108,7 +1108,7 @@ Das ist das Geniale an der Ethik. Spinoza zeigt uns, dass es möglich ist, von d
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/fr/050.webp)
 
 
 
@@ -1152,7 +1152,7 @@ Letztlich bedeutet diese Klarheit, nicht mehr in dem später von Friedrich Nietz
 Genau darum ging es in der rationalen Philosophie der Aufklärung, insbesondere dank Immanuel Kant (1724-1804), für den nur ein gebildetes Individuum unter der Führung der Vernunft selbständig denken und ethisch bestimmen kann, was "wahr" oder "gut" und was giftig ist.
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/fr/051.webp)
 
 
 
@@ -1163,7 +1163,7 @@ Es ist eine Argumentation, die eine Verbindung zur österreichischen Schule der 
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/fr/052.webp)
 
 
 
@@ -1171,7 +1171,7 @@ Menger und Mises stellten beispielsweise fest, dass alles Wissen auf der Grundla
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/fr/053.webp)
 
 
 
@@ -1192,7 +1192,7 @@ Als Spinozist erklärt Hayek in einem Video, dass "da diese Macht nicht ohne Gew
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/fr/054.webp)
 
 
 
@@ -1200,7 +1200,7 @@ Dies sind die politischen und wirtschaftlichen Argumente, die von den ersten Cyp
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/fr/055.webp)
 
 
 
@@ -1208,7 +1208,7 @@ Vor allem, als er die Schlagzeile der Times vom 3. Januar 2009 in die Münzbasis
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/fr/056.webp)
 
 
 

@@ -67,7 +67,7 @@ A co, jeśli klucz do zrozumienia dzisiejszej gospodarki leży w teorii sprzed k
 <chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
 
 
-> "Podstawowym problemem związanym z konwencjonalną walutą jest zaufanie, które jest wymagane do jej funkcjonowania. Bankowi centralnemu należy ufać, że nie zdeprecjonuje waluty, ale historia walut fiducjarnych jest pełna naruszeń tego zaufania. Bankom należy ufać, że będą przechowywać nasze pieniądze i przesyłać je elektronicznie, ale pożyczają je w falach baniek kredytowych z ledwie ułamkiem w rezerwie. Musimy zaufać im w kwestii naszej prywatności, zaufać im, że nie pozwolą złodziejom tożsamości opróżnić naszych kont"
+> "Podstawowym problemem związanym z konwencjonalną walutą jest zaufanie, które jest wymagane do jej funkcjonowania. Bankowi centralnemu należy ufać, że nie zdeprecjonuje waluty, ale historia walut fiducjarnych jest pełna naruszeń tego zaufania. Bankom należy ufać, że będą przechowywać nasze pieniądze i przesyłać je elektronicznie, ale pożyczają je w falach baniek kredytowych z ledwie ułamkiem w rezerwie. Musimy zaufać im w kwestii naszej prywatności, zaufać im, że nie pozwolą złodziejom tożsamości opróżnić naszych kont."
 >
 
 > Satoshi Nakamoto, pseudonimowy wynalazca Bitcoina
@@ -519,7 +519,7 @@ Eugen von Böhm-Bawerk (1851-1914)
 ![image](assets/pl/015.webp)
 
 
-Sklep Robinson Crusoe wyładowany z wraku, John Alexander Gilfillan (1793-1864)
+Robinson Crusoe wyładowuje zapasy z wraku, John Alexander Gilfillan (1793-1864)
 
 
 W swojej książce ekonomista austriacki zachęca nas do rozważenia międzyokresowych kompromisów nieodłącznie związanych z objazdami produkcyjnymi poprzez eksperyment myślowy oparty na Robinsonie Crusoe samotnie przebywającym na swojej wyspie.
@@ -570,7 +570,7 @@ Tego dowiemy się w kolejnym rozdziale poświęconym austriackiej teorii cyklu k
 <chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
 
 
-> "Im dłużej trwa boom inflacyjnego kredytu bankowego, tym większy jest zakres złych inwestycji w dobra kapitałowe i tym większa potrzeba likwidacji tych nieuzasadnionych inwestycji. Kiedy ekspansja kredytowa zatrzymuje się, odwraca lub nawet znacznie spowalnia, złe inwestycje zostają ujawnione"
+> "Im dłużej trwa boom inflacyjny kredytu bankowego, tym większy jest zakres złych inwestycji w dobra kapitałowe i tym większa potrzeba likwidacji tych nieuzasadnionych inwestycji. Kiedy ekspansja kredytowa zatrzymuje się, odwraca lub nawet znacznie spowalnia, złe inwestycje zostają ujawnione."
 >
 
 > Ludwig von Mises
@@ -579,13 +579,13 @@ Tego dowiemy się w kolejnym rozdziale poświęconym austriackiej teorii cyklu k
 To Ludwig Von Mises, najwybitniejszy uczeń Böhm-Bawerka i prawdopodobnie najważniejszy austriacki ekonomista XX wieku, wykorzystał rozumowanie kapitałowe Böhm-Bawerka do wyjaśnienia przyczyn i dynamiki cykli gospodarczych. Friedrich A. Hayek, protegowany Misesa, później rozszerzył to rozumowanie do jego logicznych wniosków w pracach, za które otrzymał Nagrodę Nobla w dziedzinie ekonomii w 1974 roku.
 
 
-Mises i Hayek rozpoczęli swoją analizę od wzrostu oszczędności jako punktu wyjścia. Jak widzieliśmy w poprzednich rozdziałach, każdy wzrost oszczędności z konieczności pociąga za sobą odpowiedni spadek konsumpcji, a tym samym niższe względne ceny dóbr konsumpcyjnych. Prowadzi to do dwóch efektów: po pierwsze, zwiększonego popytu na dobra kapitałowe spowodowanego rosnącymi płacami realnymi wynikającymi z relatywnego spadku cen dóbr konsumpcyjnych; a po drugie, wzrostu zysków przedsiębiorców na etapach produkcji najbardziej oddalonych od konsumpcji (niższego rzędu). Wraz ze wzrostem płac realnych, przedsiębiorcy są zachęcani do oszczędzania pracy poprzez wykorzystywanie większej ilości dóbr kapitałowych, co tworzy silniejszy popyt na dobra kapitałowe i wyższe zyski dla przedsiębiorców produkujących dobra niższego rzędu. Tak więc, w kontekście zwiększonych oszczędności, tj. spadku preferencji czasowej, stopy procentowe spadają, promując rozwój dodatkowych etapów produkcji i zwiększoną produktywność. Jest to klasyczny objazd produkcyjny Böhm-Bawerkiana i jest to bardzo pożądany rezultat.
+Mises i Hayek rozpoczęli swoją analizę od wzrostu oszczędności jako punktu wyjścia. Jak widzieliśmy w poprzednich rozdziałach, każdy wzrost oszczędności z konieczności pociąga za sobą odpowiedni spadek konsumpcji, a tym samym niższe względne ceny dóbr konsumpcyjnych. Prowadzi to do dwóch efektów: po pierwsze, zwiększonego popytu na dobra kapitałowe spowodowanego rosnącymi płacami realnymi wynikającymi z relatywnego spadku cen dóbr konsumpcyjnych; a po drugie, wzrostu zysków przedsiębiorców na etapach produkcji najbardziej oddalonych od konsumpcji (niższego rzędu). Wraz ze wzrostem płac realnych, przedsiębiorcy są zachęcani do oszczędzania pracy poprzez wykorzystywanie większej ilości dóbr kapitałowych, co tworzy silniejszy popyt na dobra kapitałowe i wyższe zyski dla przedsiębiorców produkujących dobra niższego rzędu. Tak więc, w kontekście zwiększonych oszczędności, tj. spadku preferencji czasowej, stopy procentowe spadają, promując rozwój dodatkowych etapów produkcji i zwiększoną produktywność. Jest to klasyczny objazd produkcyjny Böhm-Bawerkiana i jest to rezultat bardzo pożądany.
 
 
 Dwaj austriaccy ekonomiści zastanawiali się jednak, co by się stało, gdyby spadek stopy procentowej, który służy jako punkt wyjścia dla tego objazdu produkcyjnego, nie wynikał ze wzrostu oszczędności, ale z ekspansji kredytowej.
 
 
-W kontekście bankowości opartej na rezerwie cząstkowej ekspansja kredytowa nie wymaga odpowiedniego wzrostu oszczędności. W związku z tym przedsiębiorcy mogą gromadzić więcej kapitału i angażować się w objazdy produkcyjne, nawet jeśli preferencje czasowe pozostają niezmienione, tj. bez jakiegokolwiek spadku konsumpcji. Dla Hayeka i Misesa taka sytuacja powinna prowadzić do poważnych problemów z koordynacją działań podmiotów gospodarczych. Ze względu na brak wolnorynkowych stóp procentowych problemy te mogą nie być od razu widoczne, ale w dłuższej perspektywie wynikająca z nich błędna alokacja kapitału powinna przynieść wymierne konsekwencje: recesję.
+W kontekście bankowości opartej na rezerwach cząstkowych ekspansja kredytowa nie wymaga odpowiedniego wzrostu oszczędności. W związku z tym przedsiębiorcy mogą gromadzić więcej kapitału i angażować się w objazdy produkcyjne, nawet jeśli preferencje czasowe pozostają niezmienione, tj. bez jakiegokolwiek spadku konsumpcji. Dla Hayeka i Misesa taka sytuacja powinna prowadzić do poważnych problemów z koordynacją działań podmiotów gospodarczych. Ze względu na brak wolnorynkowych stóp procentowych problemy te mogą nie być od razu widoczne, ale w dłuższej perspektywie wynikająca z nich błędna alokacja kapitału powinna przynieść wymierne konsekwencje: recesję.
 
 
 Aby opisać to zjawisko czasowej błędnej koordynacji i jego konsekwencje tak jasno, jak to możliwe, oprzemy się na modelu struktury produkcji i zaobserwujemy, jak wpływa na nią najpierw spadek stóp procentowych wynikający ze wzrostu oszczędności, a następnie spadek stóp procentowych spowodowany ekspansją kredytu.

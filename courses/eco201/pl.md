@@ -223,7 +223,7 @@ U podstaw rozumowania ekonomicznego leży kwestia wartości. Jak określamy wart
 Takie pytania nurtowały ekonomistów i filozofów przez wiele stuleci i doczekały się wielu różnych odpowiedzi. Pod wieloma względami epistemologiczna ewolucja ekonomii była przerywana ewolucją teorii wartości.
 
 
-Po tym, jak teoria wartości ziemi fizjokratów, zakładająca, że cała wartość pochodzi z ziemi, została obalona przez klasyczną teorię wartości pracy ekonomistów, postulującą, że wartość dobra wynika z ilości pracy włożonej w jego produkcję, przyszła kolej na marginalną teorię wartości, która zastąpiła tę ostatnią. W latach siedemdziesiątych XIX wieku, po Marksie, ostatnim z klasycznych ekonomistów, trzy nowe szkoły myśli ekonomicznej pojawiły się niemal jednocześnie wokół marginalnej teorii wartości: szkoła lozańska z Leonem Walrasem, szkoła nowoczesna lub neoklasyczna z Williamem Stanleyem Jevonsem oraz szkoła austriacka z Carlem Mengerem. Ta rewolucja w teorii wartości stanowiła znaczącą odnowę myśli ekonomicznej.
+Po tym, jak teoria wartości ziemi fizjokratów, zakładająca, że cała wartość pochodzi z ziemi, została obalona przez klasyczną teorię wartości pracy ekonomistów, postulującą, że wartość dobra wynika z ilości pracy włożonej w jego produkcję, przyszła kolej na marginalną teorię wartości, która zastąpiła tę ostatnią. W latach siedemdziesiątych XIX wieku, po Marksie, ostatnim z ekonomistów klasycznych, trzy nowe szkoły myśli ekonomicznej pojawiły się niemal jednocześnie wokół marginalnej teorii wartości: szkoła lozańska z Leonem Walrasem, szkoła nowoczesna lub neoklasyczna z Williamem Stanleyem Jevonsem oraz szkoła austriacka z Carlem Mengerem. Ta rewolucja w teorii wartości stanowiła znaczącą odnowę myśli ekonomicznej.
 
 
 ![image](assets/pl/007.webp)
@@ -235,7 +235,7 @@ Od lewej do prawej: William Stanley Jevons, Carl Menger, Léon Walras
 Krańcowa teoria wartości utrzymuje, że wartość ekonomiczna odpowiada temu, co podmiot gospodarczy chętnie zapłaci za kolejną jednostkę dobra lub usługi. Ponieważ teoria ta podkreśla fakt, że ceny kształtują się na marginesie, tj. dla następnej jednostki danego dobra, została ona nazwana "marginalizmem".
 
 
-Powszechnie przedstawia się marginalizm tych trzech szkół jako podobny. Rzeczywiście, Walras i Jevons są bardzo kompatybilni, ale teoretyzacja Mengera różni się od innych w głęboki sposób. W swojej pracy, obecnie uważanej za fundament austriackiej teorii ekonomicznej, zatytułowanej "Grundsätze des Volkswirtschaftlehre" (Zasady ekonomii politycznej), opublikowanej w 1874 roku, Menger oferuje marginalne, ale przede wszystkim subiektywne wyjaśnienie wartości, w przeciwieństwie do Walrasa i Jevonsa, którzy uważają wartość za obiektywne i mierzalne zjawisko.
+Powszechnie przedstawia się marginalizm tych trzech szkół jako podobny. Rzeczywiście, Walras i Jevons są bardzo kompatybilni, ale teoria Mengera różni się od innych w głęboki sposób. W swojej pracy, obecnie uważanej za fundament austriackiej teorii ekonomicznej, zatytułowanej "Grundsätze des Volkswirtschaftlehre" (Zasady ekonomii politycznej), opublikowanej w 1874 roku, Menger oferuje marginalne, ale przede wszystkim subiektywne wyjaśnienie wartości, w przeciwieństwie do Walrasa i Jevonsa, którzy uważają wartość za zjawisko obiektywne i mierzalne.
 
 
 ### Wartość subiektywna
@@ -244,7 +244,7 @@ Powszechnie przedstawia się marginalizm tych trzech szkół jako podobny. Rzecz
 ![image](assets/pl/008.webp)
 
 
-Austriacki ekonomista odrzuca koncepcję następców Adama Smitha i porzuca ideę, że wartość dobra wynika z ilości pracy wykorzystanej do jego produkcji, na rzecz poglądu, że jego wartość jest określana przez jednostkę, która w każdym kontekście dokonuje mentalnego aktu wyceny w odniesieniu do określonej ilości dobra lub usługi. Ten intelektualny skok dokonany przez Mengera podważa obiektywność wartości: dla niego wartość nie jest obiektywną właściwością dóbr; jest jedynie wynikiem relacji, jaką jednostka ma z tą rzeczą: "wartość nie istnieje poza ludzką świadomością"
+Ekonomista austriacki odrzuca koncepcję następców Adama Smitha i porzuca ideę, że wartość dobra wynika z ilości pracy wykorzystanej do jego produkcji, na rzecz poglądu, że jego wartość jest określana przez jednostkę, która w każdym kontekście dokonuje mentalnego aktu wyceny w odniesieniu do określonej ilości dobra lub usługi. Ten intelektualny skok dokonany przez Mengera podważa obiektywność wartości: dla niego wartość nie jest obiektywną właściwością dóbr; jest jedynie wynikiem relacji, jaką jednostka ma z tą rzeczą: "wartość nie istnieje poza ludzką świadomością".
 
 
 Innymi słowy, Menger zachęca nas do rozważenia, że wartość istnieje tylko jako subiektywne zjawisko psychologiczne w jednostce, że wartość nie jest nieodłączną właściwością dóbr, ale raczej wynika z opinii jednostki na temat użyteczności, jaką może czerpać z tych dóbr.
@@ -256,22 +256,22 @@ Zgodnie z tym poglądem, litr wody pitnej nie ma obiektywnej wartości. Ktoś, k
 Podsumowując, Menger zauważył, że wartość dobra ekonomicznego to nic innego jak subiektywna wycena, jaką dana osoba przypisuje dodatkowej jednostce tego dobra lub usługi.
 
 
-### Dobrowolne Exchange: gra o sumie dodatniej
+### Dobrowolna wymiana: gra o sumie dodatniej
 
 
-Z tego punktu Menger wywnioskował, że dobrowolne Exchange między dwiema osobami ma miejsce, ponieważ każda ze stron wierzy, że zwiększy to ich subiektywną użyteczność. Dla niego Exchange nie zakłada żadnej równoważności wartości, w przeciwieństwie do tego, w co wierzyli klasyczni ekonomiści. Według austriackiego myśliciela, gdyby istniała równoważność użyteczności między wymienianymi towarami, nie byłoby powodu, aby strony w ogóle zawracały sobie głowę wymianą. Jeśli istnieje Exchange, to dlatego, że każda ze stron uważa, że leży to w ich (subiektywnym) interesie, a co za tym idzie, każdy dobrowolny Exchange przynosi korzyść społeczną.
+Z tego punktu Menger wywnioskował, że dobrowolna wymiana między dwiema osobami ma miejsce, ponieważ każda ze stron wierzy, że zwiększy to ich subiektywną użyteczność. Dla niego wymiana nie zakłada żadnej równoważności wartości, w przeciwieństwie do tego, w co wierzyli klasyczni ekonomiści. Według myśliciela austriackiego, gdyby istniała równoważność użyteczności między wymienianymi towarami, nie byłoby powodu, aby strony w ogóle zawracały sobie głowę wymianą. Jeśli istnieje wymiana, to dlatego, że każda ze stron uważa, że leży to w ich (subiektywnym) interesie, a co za tym idzie, każda dobrowolna dobrowolna przynosi korzyść społeczną.
 
 
 ### Wycena jako zjawisko porządkowania ludzkich pragnień
 
 
-Jednak takiej korzyści społecznej lub subiektywnej wartości przypisywanej dobru nie można zmierzyć. Dla Mengera wartość jest zjawiskiem poznawczym polegającym na porównywaniu (porządkowym), a nie mierzeniu (kardynalnym). Nie jest to, jak uważali ekonomiści neoklasyczni od czasów Walrasa i Jevonsa, Assignment przez jednostkę wartości liczbowej, która odzwierciedla użyteczność, jaką z niej czerpie, ale raczej akt porządkowania ludzkich pragnień, poprzez który jednostka wyraża, że pragnie ilości dobra A bardziej intensywnie niż ilości dobra B.
+Jednak takiej korzyści społecznej lub subiektywnej wartości przypisywanej dobru nie można zmierzyć. Dla Mengera wartość jest zjawiskiem poznawczym polegającym na porównywaniu (porządkowym), a nie mierzeniu (kardynalnym). Nie jest to, jak uważali ekonomiści neoklasyczni od czasów Walrasa i Jevonsa, przypisanie przez jednostkę wartości liczbowej, która odzwierciedla użyteczność, jaką z niej czerpie, ale raczej akt porządkowania ludzkich pragnień, poprzez który jednostka wyraża, że pragnie ilości dobra A bardziej intensywnie niż ilości dobra B.
 
 
-Każdy agent może powiedzieć, czy woli 2 banany od kursu ekonomii, ale nikt nie może rozsądnie powiedzieć, że ceni 2 banany na 3,1416 utils, podczas gdy ceni kurs ekonomii na 3 utils, a zatem woli mieć banany. Taki opis ludzkich preferencji, oparty na ciągłych funkcjach rzeczywistych, nie odpowiada rzeczywistości procesów poznawczych, których doświadczamy w naszym codziennym życiu. Człowiek nigdy nie ocenia prezentowanych mu dóbr poprzez porównanie ich z abstrakcyjnym standardem użyteczności. Zamiast tego subiektywnie porównuje różne kierunki działania, których nie może ocenić w kategoriach bezwzględnych, ale mimo to może je uszeregować na podstawie ich względnej pożądalności.
+Każda osoba może powiedzieć, czy woli 2 banany od kursu ekonomii, ale nikt nie może rozsądnie powiedzieć, że ceni 2 banany na 3,1416 utils, podczas gdy ceni kurs ekonomii na 3 utils, a zatem woli mieć banany. Taki opis ludzkich preferencji, oparty na ciągłych funkcjach rzeczywistych, nie odpowiada rzeczywistości procesów poznawczych, których doświadczamy w naszym codziennym życiu. Człowiek nigdy nie ocenia prezentowanych mu dóbr poprzez porównanie ich z abstrakcyjnym standardem użyteczności. Zamiast tego subiektywnie porównuje różne kierunki działania, których nie może ocenić w kategoriach bezwzględnych, ale mimo to może je uszeregować na podstawie ich względnej pożądalności.
 
 
-Ta subiektywna koncepcja wartości, rozumiana jako psychologiczny związek jednostki z jej celami i środkami odpowiednimi do ich osiągnięcia, pozwala również austriackim ekonomistom wyjaśnić zjawisko podziału pracy.
+Ta subiektywna koncepcja wartości, rozumiana jako psychologiczny związek jednostki z jej celami i środkami odpowiednimi do ich osiągnięcia, pozwala również ekonomistom austriackim wyjaśnić zjawisko podziału pracy.
 
 
 ### Podział pracy
@@ -283,46 +283,46 @@ Ta subiektywna koncepcja wartości, rozumiana jako psychologiczny związek jedno
 Zwiedzanie fabryki gwoździ, Léonard Defrance (XVIII w.)
 
 
-Każdy jest wyjątkowy i ma szczególną sytuację osobistą. Dlatego też każdy posiada lepszą zdolność do wykonywania pewnych zadań niż jego rówieśnicy (przewaga absolutna) lub lepszą zdolność do wykonywania pewnych zadań niż inni (przewaga komparatywna). Nie może być inaczej; zaprzeczenie temu elementarnemu faktowi oznaczałoby twierdzenie, że wszyscy ludzie są równi pod każdym względem.
+Każdy jest wyjątkowy i ma szczególną sytuację osobistą. Dlatego też każdy posiada lepszą zdolność do wykonywania pewnych zadań niż inne osoby (przewaga absolutna) lub lepszą zdolność do wykonywania pewnych zadań niż innych (przewaga komparatywna). Nie może być inaczej; zaprzeczenie temu elementarnemu faktowi oznaczałoby twierdzenie, że wszyscy ludzie są równi pod każdym względem.
 
 
-W przypadku, gdy dana osoba ma większe zdolności w porównaniu do swoich rówieśników w zakresie produkcji danego dobra (przewaga absolutna), jest ona zainteresowana specjalizacją w produkcji tego dobra, a następnie wymianą uzyskanej nadwyżki na dobra, których pragnie. W ten sposób zaspokajają swoją subiektywną użyteczność bardziej ekonomicznie, niż gdyby mieli zaangażować się w produkcję wszystkich pożądanych dóbr.
+W przypadku, gdy dana osoba ma większe zdolności w porównaniu do wszystkich innych osób w zakresie produkcji danego dobra (przewaga absolutna), jest ona zainteresowana specjalizacją w produkcji tego dobra, a następnie wymianą uzyskanej nadwyżki na dobra, których pragnie. W ten sposób zaspokaja swoją subiektywną użyteczność bardziej ekonomicznie, niż gdyby miała zaangażować się w produkcję wszystkich pożądanych dóbr.
 
 
 Może się jednak zdarzyć, że jednostka nie ma absolutnej przewagi w produkcji jakiegokolwiek dobra. W takim przypadku nadal będą istnieć rodzaje produkcji, w których jednostka jest lepsza niż w innych (przewaga komparatywna), i z tego powodu nadal będzie zainteresowana specjalizacją.
 
 
-Z pewnością istnieją osoby, które mogłyby wyprodukować dane dobro bardziej produktywnie niż on, ale ponieważ osoby te są prawdopodobnie bardziej produktywne w innym zadaniu niż w tym, a ponieważ nie mogą wykonywać obu zadań jednocześnie, nieproduktywne jest dla nich pracowanie nad tym zadaniem, a nie nad innym, w którym są bardziej produktywni. Specjalizując się w zadaniu, w którym są najbardziej produktywni, uzyskają nadwyżkę większą niż gdyby się nie specjalizowali, a zatem dzięki Exchange mogliby uzyskać zwiększoną ilość tych innych dóbr, nawet jeśli uzyskane dobra zostałyby wyprodukowane bardziej efektywnie przez nich samych niż przez producentów, od których je uzyskali.
+Z pewnością istnieją osoby, które mogłyby wyprodukować dane dobro bardziej produktywnie, ale ponieważ osoby te są prawdopodobnie bardziej produktywne w innym zadaniu niż w tym, a ponieważ nie mogą wykonywać obu zadań jednocześnie, nieproduktywne jest dla nich pracowanie nad tym zadaniem, a nie nad innym, w którym są bardziej produktywni. Specjalizując się w zadaniu, w którym są najbardziej produktywni, uzyskają nadwyżkę większą niż gdyby się nie specjalizowali, a zatem dzięki wymianie mogliby uzyskać zwiększoną ilość innych dóbr, nawet jeśli uzyskane dobra zostałyby wyprodukowane bardziej efektywnie przez nich samych niż przez producentów, od których je uzyskali.
 
 
 Weźmy za przykład lekarza. Może on być lepszy w pisaniu e-maili i planowaniu spotkań niż jego sekretarka (względna przewaga). Ale czas spędzony na wykonywaniu tych zadań to czas, którego nie poświęca na leczenie pacjentów. W związku z tym, ponieważ jest bardziej produktywny w leczeniu ludzi, w jego interesie jest delegowanie obowiązków administracyjnych innej osobie, nawet jeśli jest lepszy w takich zadaniach niż jego zastępca, ponieważ pozwala mu to zmaksymalizować wartość generowaną dla innych, a tym samym jego własne bogactwo.
 
 
-Zasadniczo specjalizacja jest korzystna, nawet dla osób, które nie mają absolutnej przewagi, ponieważ czas jest rzadkim i rywalizującym zasobem: każda jednostka czasu poświęcona na aktywność inną niż ta, w której dana osoba jest najbardziej produktywna, pociąga za sobą koszt reprezentowany przez utraconą produkcję, z której zrezygnowała (koszt alternatywny).
+Zasadniczo specjalizacja jest korzystna, nawet dla osób, które nie mają absolutnej przewagi, ponieważ czas jest rzadkim i konkurencyjnym zasobem: każda jednostka czasu poświęcona na aktywność inną niż ta, w której dana osoba jest najbardziej produktywna, pociąga za sobą koszt reprezentowany przez utraconą produkcję, z której zrezygnowała (koszt alternatywny).
 
 
-Gdy dana osoba wyspecjalizuje się w określonej produkcji, może zarezerwować ilość produktów, które uważa za niezbędne do osobistej konsumpcji, a nadwyżkę przeznaczyć na inne pożądane dobra. W ten sposób zaspokajają swoje pragnienie dóbr, które sami produkują, co oznacza, że pozostałe jednostki ich produkcji mają dla nich niewielką wartość. Jest to coś, co ekonomiści nazywają malejącą użytecznością krańcową: każda dodatkowa jednostka dobra jest mniej pożądana niż poprzednia. Dla innych, którym brakuje takich dóbr, to inna historia: z tych samych powodów mają tendencję do pożądania dóbr, których nie produkują, bardziej niż tych, które produkują. Prowadzi to do sytuacji, w której istnieje silna asymetria między różnymi subiektywnymi wycenami jednostek, co bardzo sprzyja wymianie: każda ze stron jest zainteresowana wymianą swojej nadwyżki produkcji, ponieważ w ten sposób zwiększa swoją subiektywną użyteczność.
+Gdy dana osoba wyspecjalizuje się w określonej produkcji, może zarezerwować ilość produktów, które uważa za niezbędne do osobistej konsumpcji, a nadwyżkę przeznaczyć na inne pożądane dobra. W ten sposób zaspokaja swoje pragnienie dóbr, które sama produkuje, co oznacza, że pozostałe jednostki ich produkcji mają dla niej niewielką wartość. Jest to coś, co ekonomiści nazywają malejącą użytecznością krańcową: każda dodatkowa jednostka dobra jest mniej pożądana niż poprzednia. Dla innych, którym brakuje takich dóbr, to inna historia: z tych samych powodów mają tendencję do pożądania dóbr, których nie produkują, bardziej niż tych, które produkują. Prowadzi to do sytuacji, w której istnieje silna asymetria między różnymi subiektywnymi wycenami jednostek, co bardzo sprzyja wymianie: każda ze stron jest zainteresowana wymianą swojej nadwyżki produkcyjnej, ponieważ w ten sposób zwiększa swoją subiektywną użyteczność.
 
 
-Rezultatem poprzedniej analizy jest to, że jednostki są zawsze w lepszej sytuacji, gdy specjalizują się w swojej pracy i angażują się w wymianę. Dlatego też austriaccy ekonomiści, zwłaszcza Ludwig Von Mises, stwierdzają, że przewaga produkcyjna wynikająca z podziału pracy jest siłą napędową procesu współpracy społecznej. W tym miejscu warto zacytować go bezpośrednio:
+Rezultatem poprzedniej analizy jest to, że jednostki są zawsze w lepszej sytuacji, gdy specjalizują się w swojej pracy i angażują się w wymianę. Dlatego też ekonomiści austriaccy, zwłaszcza Ludwig Von Mises, stwierdzają, że przewaga produkcyjna wynikająca z podziału pracy jest siłą napędową procesu współpracy społecznej. W tym miejscu warto zacytować go bezpośrednio:
 
 
-"Podstawowymi faktami, które doprowadziły do współpracy, społeczeństwa i cywilizacji oraz przekształciły człowieka zwierzęcego w istotę ludzką, są fakty, że praca wykonywana w ramach podziału pracy jest bardziej produktywna niż praca w izolacji i że rozum człowieka jest w stanie rozpoznać tę prawdę. [...] Ludzie nie współpracują w ramach podziału pracy, ponieważ kochają lub powinni kochać się nawzajem. Współpracują, ponieważ najlepiej służy to ich własnym interesom"
+"Podstawowymi faktami, które doprowadziły do współpracy, społeczeństwa i cywilizacji oraz przekształciły człowieka zwierzęcego w istotę ludzką, są fakty, że praca wykonywana w ramach podziału pracy jest bardziej produktywna niż praca w izolacji i że rozum człowieka jest w stanie rozpoznać tę prawdę. [...] Ludzie nie współpracują w ramach podziału pracy, ponieważ kochają lub powinni kochać się nawzajem. Współpracują, ponieważ najlepiej służy to ich własnym interesom."
 
 
 ### Wnioski
 
 
-> "Jeśli człowiek widzi, że może żyć bardziej komfortowo wisząc na szubienicy niż siedząc przy stole, zachowywałby się jak głupiec, gdyby się nie powiesił"
+> "Jeśli człowiek widzi, że może żyć bardziej komfortowo wisząc na szubienicy niż siedząc przy stole, zachowywałby się jak głupiec, gdyby się nie powiesił."
 >
 
 > Baruch Spinoza
 
 
-lata 1871-1874 to wspaniałe lata nowoczesnej ekonomii: okres ten był świadkiem prac trzech niezależnych myślicieli, którzy stali się fundamentem nowoczesnej ekonomii. Kładąc nacisk na subiektywną wartość porządkową, austriaccy ekonomiści rozwiną całą myśl ekonomiczną, odróżniając ją od swoich homologów. Prace austriackich ekonomistów nad rozumowaniem ludzkiego działania w kontekście niedoboru na zawsze staną w wyraźnym kontraście z doktrynami ekonomicznymi zapoczątkowanymi przez Jevonsa i Walrasa, silnie opierającymi się na matematyce stojącej za ideą, że wartość można obiektywnie zmierzyć i wyprowadzić jako funkcję ciągłą.
+Lata 1871-1874 to wspaniałe lata nowoczesnej ekonomii: okres ten był świadkiem prac trzech niezależnych myślicieli, którzy stali się fundamentem nowoczesnej ekonomii. Kładąc nacisk na subiektywną wartość porządkową, ekonomiści austriaccy rozwiną całą myśl ekonomiczną, odróżniając ją od swoich homologów. Prace ekonomistów austriackich nad rozumowaniem ludzkiego działania w kontekście niedoboru na zawsze staną w wyraźnym kontraście z doktrynami ekonomicznymi zapoczątkowanymi przez Jevonsa i Walrasa, silnie opierającymi się na matematyce stojącej za ideą, że wartość można obiektywnie zmierzyć i wyprowadzić jako funkcję ciągłą.
 
 
-Opierając się na spostrzeżeniach dotyczących subiektywnej wartości porządkowej, Menger wyjaśnił pojawienie się podziału pracy i dobrowolnego Exchange. Jak jednak zobaczymy w następnym rozdziale, bezpośrednie Exchange jest kiepską strategią dla podmiotów gospodarczych dążących do maksymalizacji swojej subiektywnej użyteczności. W ten sposób ojciec Szkoły Austriackiej rozwinął swoje rozumowanie, aby wyjaśnić, dlaczego pieniądz pojawił się jako instytucja społeczna.
+Opierając się na spostrzeżeniach dotyczących subiektywnej wartości porządkowej, Menger wyjaśnił pojawienie się podziału pracy i dobrowolnej wymiany. Jak jednak zobaczymy w następnym rozdziale, bezpośrednia wymiana jest kiepską strategią dla podmiotów gospodarczych dążących do maksymalizacji swojej subiektywnej użyteczności. W ten sposób ojciec Szkoły Austriackiej rozwinął swoje rozumowanie, aby wyjaśnić, dlaczego pieniądz pojawił się jako instytucja społeczna.
 
 
 Kolejne rozdziały będą poświęcone pojawieniu się pieniądza jako instytucji społecznej, teorii kapitału i odsetek, która posłuży jako podstawa teorii cyklu koniunkturalnego, i wreszcie roli cen w obliczeniach ekonomicznych.
@@ -337,10 +337,10 @@ Kolejne rozdziały będą poświęcone pojawieniu się pieniądza jako instytucj
 Podczas gdy jednostki mają wspólny interes w specjalizacji i maksymalizacji podziału pracy, nadal istnieją problemy z koordynacją, które ograniczają tę ekspansję.
 
 
-Po pierwsze, należy zauważyć, że ponieważ procesy produkcyjne są z natury ograniczone czasowo i często asynchroniczne (niejednoczesne), zwykle występuje luka czasowa między początkowym wkładem danej osoby a otrzymaniem odpowiednika. Zobowiązanie się do wykonania określonego zadania teraz, bez wcześniejszej pewności, że inni spełnią nasze potrzeby w przyszłości, może być ryzykowne.
+Po pierwsze, należy zauważyć, że ponieważ procesy produkcyjne są z natury ograniczone czasowo i często asynchroniczne (niejednoczesne), zwykle występuje luka czasowa między początkowym wkładem danej osoby a otrzymaniem wynagrodzenia. Zobowiązanie się do wykonania określonego zadania teraz, bez wcześniejszej pewności, że inni spełnią nasze potrzeby w przyszłości, może być ryzykowne.
 
 
-W podziale pracy każda ze stron odnosi korzyści ze współpracy, ale indywidualnie można ulec pokusie korzystania z pracy innych bez odwzajemniania się, ponieważ w ten sposób zyskuje się coś cennego bez ponoszenia żadnych kosztów. Takie sytuacje, w których wzajemna współpraca skutkuje nieoptymalnymi zyskami dla jednostek, ale maksymalnymi dla grupy, są opisywane w teorii gier jako "dylemat więźnia"
+W podziale pracy każda ze stron odnosi korzyści ze współpracy, ale indywidualnie można ulec pokusie korzystania z pracy innych bez odwzajemniania się, ponieważ w ten sposób zyskuje się coś cennego bez ponoszenia żadnych kosztów. Takie sytuacje, w których wzajemna współpraca skutkuje nieoptymalnymi zyskami dla jednostek, ale maksymalnymi dla grupy, są opisywane w teorii gier jako "dylemat więźnia".
 
 
 ### Dylemat więźnia
@@ -375,7 +375,7 @@ Ta gra ilustruje problem często spotykany w prawdziwym życiu: przy braku mecha
 ![image](assets/pl/010.webp)
 
 
-Problem ten ma mniejszy wpływ na małe społeczności (np. rodziny, kręgi przyjaciół), ponieważ w takich przypadkach wszyscy znają się bezpośrednio, co umożliwia wzajemne zapamiętywanie swojego wkładu. Zakładając, że opuszczenie społeczności (dezercja) wiąże się z kosztami, system reputacji oparty na pamięci poszczególnych agentów jest zwykle wystarczający, aby uniknąć pułapek związanych z dylematem więźnia.
+Problem ten ma mniejszy wpływ na małe społeczności (np. rodziny, kręgi przyjaciół), ponieważ w takich przypadkach wszyscy znają się bezpośrednio, co umożliwia wzajemne zapamiętywanie swojego wkładu. Zakładając, że opuszczenie społeczności (dezercja) wiąże się z kosztami, system reputacji oparty na pamięci poszczególnych osób jest zwykle wystarczający, aby uniknąć pułapek związanych z dylematem więźnia.
 
 
 Jednakże, gdy mamy do czynienia z większymi społecznościami, które czerpią znaczne korzyści z podziału pracy, ponownie pojawiają się problemy z koordynacją. Wynika to z dwóch głównych powodów:
@@ -384,34 +384,34 @@ Jednakże, gdy mamy do czynienia z większymi społecznościami, które czerpią
 Po pierwsze, ludzie są ograniczeni przez swoje zdolności poznawcze. Niemożliwe jest, aby osoba utrzymywała i zapamiętywała stabilne relacje społeczne z ponad 150 osobami, co sprawia, że system reputacji jest niewystarczający do przezwyciężenia dylematu więźnia na dużą skalę.
 
 
-Po drugie, społecznie akceptowany pomiar wartości wkładów w Exchange (współmierność) jest nietrywialnym problemem. Na przykład, jeśli dana osoba dostarcza mięso z polowania i żąda w zamian materiałów na schronienie, jak można ocenić ilość oferowanego mięsa w kategoriach równoważnych z żądanymi materiałami? To samo dotyczy jakości - czy mięso jelenia jest warte więcej czy mniej niż drewno?
+Po drugie, społecznie akceptowany pomiar wartości wkładów w wymianie (współmierność) jest niebanalnym problemem. Na przykład, jeśli dana osoba dostarcza mięso z polowania i żąda w zamian materiałów na schronienie, jak można ocenić ilość oferowanego mięsa w kategoriach równoważnych z żądanymi materiałami? To samo dotyczy jakości - czy mięso jelenia jest warte więcej czy mniej niż drewno?
 
 
-Nawet gdyby możliwe było ustalenie satysfakcjonującego wskaźnika Exchange dla każdej pary towarów, przechowywanie tych informacji szybko staje się niepraktyczne. W bezpośrednim systemie Exchange obejmującym N towarów, istnieje N(N-1)/2 stawek Exchange do zapamiętania. Dla gospodarki składającej się z 50 towarów oznacza to konieczność zapamiętania 50\*49/2, czyli 1225 stawek Exchange, w przeciwieństwie do zaledwie 50 w przypadku wymiany pośredniej. Dla gospodarki składającej się ze 100 towarów liczba ta wzrasta do 4950. Taka kwadratowa zależność nakłada dodatkowy limit na skalowalność bezpośredniej wymiany Exchange (barteru).
+Nawet gdyby możliwe było ustalenie satysfakcjonującego wskaźnika wymiany dla każdej pary towarów, przechowywanie tych informacji szybko staje się niepraktyczne. W bezpośrednim systemie wymiany obejmującym N towarów, istnieje N(N-1)/2 stawek wymiany do zapamiętania. Dla gospodarki składającej się z 50 towarów oznacza to konieczność zapamiętania 50\*49/2, czyli 1225 stawek wymiany, w przeciwieństwie do zaledwie 50 w przypadku wymiany pośredniej. Dla gospodarki składającej się ze 100 towarów liczba ta wzrasta do 4950. Taka kwadratowa zależność nakłada dodatkowy limit na skalowalność wymiany bezpośredniej (barteru).
 
 
-Co więcej, ponieważ wymiany te nie następują natychmiast, ale są rozłożone w czasie, ocena wkładów w czasie dodatkowo komplikuje względną ocenę wkładów. Oprócz oceny stosunku Exchange między dwoma obecnymi dobrami, konieczne staje się oszacowanie wartości przeszłego wkładu w stosunku do przyszłego odpowiednika.
+Co więcej, ponieważ wymiany te nie następują natychmiast, ale są rozłożone w czasie, ocena wkładów w czasie dodatkowo komplikuje względną ocenę wkładów. Oprócz oceny stosunku wymiany między dwoma obecnymi dobrami, konieczne staje się oszacowanie wartości przeszłego wkładu w stosunku do przyszłego odpowiednika.
 
 
-Dziś, pomimo niepraktyczności takiego systemu, moglibyśmy użyć zapisu lub cyfrowego przechowywania danych, aby zapamiętać wszystkie te informacje i ustanowić system kredytowy (śledzenie przeszłych składek, w tym wskaźnika Exchange tych składek, jest zasadniczo ustanowieniem systemu kredytowego).
+Dziś, pomimo niepraktyczności takiego systemu, moglibyśmy użyć zapisu lub cyfrowego przechowywania danych, aby zapamiętać wszystkie te informacje i ustanowić system kredytowy (śledzenie przeszłych składek, w tym wskaźnika wymiany tych składek, jest zasadniczo ustanowieniem systemu kredytowego).
 
 
-W czasach przedcywilizacyjnych technologie te nie istniały. Dlatego nasi przodkowie musieli znaleźć inne rozwiązania, aby cieszyć się korzyściami płynącymi z podziału pracy bez narażania się na negatywne konsekwencje dylematu więźnia. Rozwiązaniem problemu bezpośredniego Exchange był pośredni Exchange ułatwiony przez pieniądze.
+W czasach przedcywilizacyjnych technologie te nie istniały. Dlatego nasi przodkowie musieli znaleźć inne rozwiązania, aby cieszyć się korzyściami płynącymi z podziału pracy bez narażania się na negatywne konsekwencje dylematu więźnia. Rozwiązaniem problemu wymiany bezpośredniej była wymiana pośrednia ułatwiona przez pieniądze.
 
 
-### Podwójna koincydencja chęci i możliwości sprzedaży
+### Podwójna zbieżność potrzeb i możliwości sprzedaży
 
 
 ![image](assets/pl/011.webp)
 
 
-Pieniądze mogą być postrzegane jako rozwiązanie odkryte przez naszych przodków w celu Address, co ekonomiści nazywają problemem "podwójnej koincydencji pragnień". Problem ten ma trzy wymiary: przestrzenny, czasowy i interpersonalny.
+Pieniądze mogą być postrzegane jako rozwiązanie odkryte przez naszych przodków w celu rozwiązania problemu, który ekonomiści nazywają problemem "podwójnej zbieżności potrzeb". Problem ten ma trzy wymiary: przestrzenny, czasowy i interpersonalny.
 
 
-W bezpośrednim Exchange (barterze) pomiędzy Alicją i Bobem, oboje muszą posiadać coś, czego druga osoba pragnie w tym samym czasie i miejscu. Korzystając z pośredniego Exchange, tj. za pośrednictwem pieniądza, Alicja może kupić od Boba, a Bob może użyć tej jednostki monetarnej gdzie indziej, w innym czasie i z kimś innym (pod warunkiem, że druga osoba akceptuje tę formę pieniądza).
+W wymianie bezpośredniej (barterze) pomiędzy Alicją a Bobem, oboje muszą posiadać coś, czego druga osoba pragnie w tym samym czasie i miejscu. Korzystając z wymiany pośredniej, tj. za pośrednictwem pieniądza, Alicja może kupić od Boba, a Bob może użyć tej jednostki monetarnej gdzie indziej, w innym czasie i z kimś innym (pod warunkiem, że druga osoba akceptuje tę formę pieniądza).
 
 
-Aby dobro mogło służyć jako pieniądz, musi mieć wysoką zbywalność, co oznacza, że powinno być pożądane przez jak największą liczbę osób, przez większość czasu. Używając dobra o wysokiej zbywalności, problem podwójnej koincydencji pragnień zostaje rozwiązany w wymiarze przestrzennym i interpersonalnym: jeśli dobro, którego używam jako pieniądza, jest pożądane wszędzie i przez większość ludzi, mogę łatwo oddzielić akt sprzedaży od aktu kupna pod względem lokalizacji i interakcji społecznych.
+Aby dobro mogło służyć jako pieniądz, musi mieć wysoką zbywalność, co oznacza, że powinno być pożądane przez jak największą liczbę osób, przez większość czasu. Poprzez uzycie dobra o wysokiej zbywalności, problem podwójnej zbieżności potrzeb zostaje rozwiązany w wymiarze przestrzennym i interpersonalnym: jeśli dobro, którego używam jako pieniądza, jest pożądane wszędzie i przez większość ludzi, mogę łatwo oddzielić akt sprzedaży od aktu kupna pod względem lokalizacji i interakcji społecznych.
 
 
 Jednak problem zbywalności w czasie jest trudniejszy do rozwiązania z dwóch powodów:
@@ -420,13 +420,13 @@ Jednak problem zbywalności w czasie jest trudniejszy do rozwiązania z dwóch p
 Po pierwsze, entropia (powszechnie znana jako "efekt czasu") stopniowo zmienia cechy większości dóbr o bezpośredniej użyteczności. Dlatego też zachowanie zbywalności towaru w czasie wymaga, aby był on wysoce trwały lub odporny na entropię.
 
 
-Po drugie, względny niedobór danego dobra w czasie "t" nie gwarantuje jego względnego niedoboru w przyszłości. Poświęcając wystarczającą ilość zasobów na określony obszar produkcji, ludzie mogą zwiększyć Supply dowolnego dobra. Jedynym ograniczeniem dla zwiększenia produkcji danego dobra jest związany z tym koszt alternatywny. W związku z tym obecny względny niedobór danego dobra nie może zagwarantować jego przyszłego względnego niedoboru. Tylko dobra, których krańcowa produkcja może być zwiększona przy bardzo wysokich kosztach, mogą być stale rzadkie, dlatego jest to cecha charakterystyczna swobodnie pojawiających się dóbr pieniężnych w całej historii ludzkości.
+Po drugie, względny niedobór danego dobra w czasie "t" nie gwarantuje jego względnego niedoboru w przyszłości. Poświęcając wystarczającą ilość zasobów na określony obszar produkcji, ludzie mogą zwiększyć podaż dowolnego dobra. Jedynym ograniczeniem dla zwiększenia produkcji danego dobra jest związany z tym koszt alternatywny. W związku z tym obecny względny niedobór danego dobra nie może zagwarantować jego przyszłego względnego niedoboru. Tylko dobra, których krańcowa produkcja może być zwiększona przy bardzo wysokich kosztach, mogą być stale rzadkie, dlatego jest to cecha charakterystyczna swobodnie pojawiających się dóbr pieniężnych w całej historii ludzkości.
 
 
-W czasach przedcywilizacyjnych różne towary, takie jak muszle, rzemieślnicza biżuteria, naszyjniki lub koraliki, służyły jako pieniądze. Towary te były łatwe w transporcie, nie miały bezpośredniej użyteczności poza ich wartością ozdobną, były odporne na entropię (tj. nie pogarszały się z upływem czasu), były naturalnie rzadkie i / lub wymagały znacznej ilości wyspecjalizowanej pracy do wyprodukowania. Ponieważ poziom podziału pracy był wówczas niski, a zatem koszt alternatywny związany z produkcją ozdobnych artefaktów był wysoki, przedmioty te nie mogły być produkowane w dużych ilościach. Tak więc ci, którzy używali tych przedmiotów jako pieniędzy, mogli być pewni ich przyszłego względnego niedoboru.
+W czasach przedcywilizacyjnych różne towary, takie jak muszle, biżuteria rzemieślnicza, naszyjniki lub koraliki, służyły jako pieniądze. Towary te były łatwe w transporcie, nie miały bezpośredniej użyteczności poza ich wartością ozdobną, były odporne na entropię (tj. nie pogarszały się z upływem czasu), były naturalnie rzadkie i / lub wymagały znacznej ilości wyspecjalizowanej pracy do ich wyprodukowania. Ponieważ poziom podziału pracy był wówczas niski, a zatem koszt alternatywny związany z produkcją ozdobnych artefaktów był wysoki, przedmioty te nie mogły być produkowane w dużych ilościach. Tak więc ci, którzy używali tych przedmiotów jako pieniędzy, mogli być pewni ich przyszłego względnego niedoboru.
 
 
-Fakt, że nasi przodkowie łowiecko-zbieraccy angażowali się w te zadania wymagające dużej ilości zasobów, nawet jeśli nie generowały one żadnych dóbr o bezpośredniej użyteczności, pokazuje znaczące korzyści, jakich oczekiwali od rozszerzenia przestrzennego, społecznego i czasowego zakresu Exchange. Gdyby tak nie było i bardziej przydatne byłoby dla nich wykorzystanie tych zasobów do budowy schronień, polowań lub innych działań, a nie do produkcji dóbr pieniężnych, prawdopodobnie nie znaleźlibyśmy tak wielu archeologicznych dowodów na te rzemieślnicze działania. Inne grupy wykorzystujące swoje zasoby bardziej efektywnie cieszyłyby się lepszym rozwojem i większym dobrobytem, a te rzemieślnicze zajęcia szybko zniknęłyby na rzecz działań wytwarzających dobra o bezpośredniej użyteczności.
+Fakt, że nasi przodkowie łowiecko-zbieraccy angażowali się w takie zadania wymagające dużej ilości zasobów, nawet jeśli nie generowały one żadnych dóbr o bezpośredniej użyteczności, pokazuje znaczące korzyści, jakich oczekiwali od rozszerzenia przestrzennego, społecznego i czasowego zakresu wymiany. Gdyby tak nie było i bardziej przydatne byłoby dla nich wykorzystanie tych zasobów do budowy schronień, polowań lub innych działań, a nie do produkcji dóbr pieniężnych, prawdopodobnie nie znaleźlibyśmy tak wielu archeologicznych dowodów na te działania rzemieślnicze. Inne grupy wykorzystujące swoje zasoby bardziej efektywnie cieszyłyby się lepszym rozwojem i większym dobrobytem, a te rzemieślnicze zajęcia szybko zniknęłyby na rzecz działań wytwarzających dobra o bezpośredniej użyteczności.
 
 
 W tym sensie produkcja dóbr pieniężnych, poprzez promowanie ekspansji podziału pracy, stanowiła bardziej opłacalne wykorzystanie zasobów (pod względem subiektywnej użyteczności dla jednostek) niż wszystkie inne alternatywy (zwiększenie łowiectwa, rybołówstwa, zbieractwa, produkcji drewna, budowy domów, produkcji większej liczby narzędzi łowieckich i rybackich itp.)
@@ -435,7 +435,7 @@ W tym sensie produkcja dóbr pieniężnych, poprzez promowanie ekspansji podzia�
 ### Niepewność
 
 
-Aby zakończyć naszą analizę instytucji monetarnej, musimy Address kwestię działań gospodarczych w kontekście nieuniknionej niepewności co do przyszłości.
+Aby zakończyć naszą analizę instytucji monetarnej, musimy poruszyć kwestię działań gospodarczych w kontekście nieuniknionej niepewności co do przyszłości.
 
 
 Jak zauważyli austriaccy ekonomiści, ludzkie działanie jest ograniczone w czasie i zawsze zorientowane na przyszłość. Kiedy jednostka działa, zmienia swój obecny stan w nadziei na uzyskanie przyszłej satysfakcji. Ta mentalna projekcja może być zorientowana na bliską lub daleką przyszłość, ale aby jednostka mogła rzutować na dłuższą metę, musi najpierw zapewnić sobie krótkoterminowe utrzymanie, ponieważ jej stan w najbliższej przyszłości bezpośrednio wpływa na jej stan w odległej przyszłości.

@@ -501,7 +501,7 @@ Ta cecha mentalnej projekcji działania we wzorcu sekwencyjnym jest narzucona pr
 Ponieważ jednostki z konieczności mają dodatnie preferencje czasowe, co oznacza, że wolą dobra teraźniejsze od dóbr przyszłych, wybiorą dłuższą ścieżkę tylko wtedy, gdy uzyskany wynik ma dla nich większą subiektywną wartość niż to, co osiągnęliby, wybierając ścieżkę bezpośrednią. W przeciwnym razie nikt nie zastosowałby bardziej czasochłonnych metod: przy równoważnych wynikach najkrótsza ścieżka pozostaje preferowanym wyborem.
 
 
-Ze względu na sekwencyjny charakter ludzkiego działania, te międzyokresowe wybory zawsze mają wpływ na sekwencję działań. Innymi słowy, podejmowane przeze mnie działania krótkoterminowe są podporządkowane wyznaczonym przeze mnie celom długoterminowym, a moje działania krótkoterminowe wpłyną na to, co będę mógł zrobić w przyszłości. Implikacją tego oczywistego punktu dotyczącego działalności produkcyjnej jest to, że każdy objazd produkcyjny, tj. każde wydłużenie struktury produkcji, wymaga wcześniejszych oszczędności. Jeśli zdecyduję się przydzielić więcej zasobów w teraźniejszości, aby osiągnąć przyszły cel, muszę najpierw odłożyć to, co pozwoli mi utrzymać się przez czas trwania inwestycji.
+Ze względu na sekwencyjny charakter ludzkiego działania, te wybory międzyokresowe zawsze mają wpływ na sekwencję działań. Innymi słowy, podejmowane przeze mnie działania krótkoterminowe są podporządkowane wyznaczonym przeze mnie celom długoterminowym, a moje działania krótkoterminowe wpłyną na to, co będę mógł zrobić w przyszłości. Implikacją tego oczywistego punktu dotyczącego działalności produkcyjnej jest to, że każdy objazd produkcyjny, tj. każde wydłużenie struktury produkcji, wymaga wcześniejszych oszczędności. Jeśli zdecyduję się przydzielić więcej zasobów w teraźniejszości, aby osiągnąć przyszły cel, muszę najpierw odłożyć to, co pozwoli mi utrzymać się przez czas trwania inwestycji.
 
 
 Aby zilustrować ten punkt, powróćmy do przykładu podanego przez Böhm-Bawerka w jego pracy "Kapitał i odsetki":
@@ -513,7 +513,7 @@ Aby zilustrować ten punkt, powróćmy do przykładu podanego przez Böhm-Bawerk
 Eugen von Böhm-Bawerk (1851-1914)
 
 
-### Robinson Crusoe i Production Detour/Roundabout:
+### Robinson Crusoe i Objazd Produkcyjny:
 
 
 ![image](assets/pl/015.webp)
@@ -522,16 +522,16 @@ Eugen von Böhm-Bawerk (1851-1914)
 Sklep Robinson Crusoe wyładowany z wraku, John Alexander Gilfillan (1793-1864)
 
 
-W swojej książce austriacki ekonomista zachęca nas do rozważenia międzyokresowych kompromisów nieodłącznie związanych z objazdami produkcyjnymi poprzez eksperyment myślowy oparty na Robinsonie Crusoe samotnie przebywającym na swojej wyspie.
+W swojej książce ekonomista austriacki zachęca nas do rozważenia międzyokresowych kompromisów nieodłącznie związanych z objazdami produkcyjnymi poprzez eksperyment myślowy oparty na Robinsonie Crusoe samotnie przebywającym na swojej wyspie.
 
 
-Robinson, podobnie jak prymitywny człowiek, polega na żerowaniu i polowaniu. Wyobraźmy sobie, że Robinson może zebrać wystarczającą ilość jagód, aby wyżywić się przez cały dzień w ciągu ośmiu godzin. W takich warunkach ma niewiele czasu na inne zajęcia. Robinson uważa jednak, że wykonując drewnianą tyczkę, mógłby z łatwością strącać jagody i zdobywać codzienne pożywienie w ciągu zaledwie czterech godzin pracy. Co więcej, szacuje, że wykonanie tyczki zajmie mu pięć dni, pracując po dwie godziny dziennie. W związku z tym dochodzi do wniosku, że musi zaoszczędzić 1/5 swojej produkcji jagód przez pięć dni lub alternatywnie spędzić dodatkowe 2 godziny dziennie na zbieraniu przez 5 dni, aby zaoszczędzić wystarczającą ilość jagód, aby utrzymać się przez czas, który spędza na robieniu słupa.
+Robinson, podobnie jak człowiek prymitywny, polega na żerowaniu i polowaniu. Wyobraźmy sobie, że Robinson może zebrać wystarczającą ilość jagód, aby wyżywić się przez cały dzień w ciągu ośmiu godzin. W takich warunkach ma niewiele czasu na inne zajęcia. Robinson uważa jednak, że wykonując drewnianą tyczkę, mógłby z łatwością strącać jagody i zdobywać codzienne pożywienie w ciągu zaledwie czterech godzin pracy. Co więcej szacuje, że wykonanie tyczki zajmie mu pięć dni, jeśli będzie pracować po dwie godziny dziennie. W związku z tym dochodzi do wniosku, że musi zaoszczędzić 1/5 swojej produkcji jagód przez pięć dni lub spędzić dodatkowe 2 godziny dziennie na zbieraniu przez 5 dni, aby zaoszczędzić wystarczającą ilość jagód, aby utrzymać się przez czas, który spędzi na robieniu tyczki.
 
 
-Jeśli Robinson nie dokona wcześniejszych oszczędności, nie będzie w stanie ukończyć bieguna i może w międzyczasie umrzeć.
+Jeśli Robinson nie dokona wcześniejszych oszczędności, nie będzie w stanie ukończyć tyczki i może w międzyczasie umrzeć z głodu.
 
 
-Tak więc przez pięć dni poświęca dwie godziny odpoczynku, aby zebrać więcej jagód. Pod koniec tego okresu ma wystarczającą ilość jagód i zaczyna wytwarzać drewniany słup, pracując dwie godziny dziennie przez pięć dni. Po zakończeniu pracy może zebrać wystarczającą ilość jagód na swoją dzienną porcję w ciągu 4 godzin zamiast 8, co pozwala mu wykorzystać pozostałe 4 godziny dziennie na inne czynności.
+Tak więc przez pięć dni poświęca dwie godziny odpoczynku, aby zebrać więcej jagód. Pod koniec tego okresu ma wystarczającą ilość jagód i zaczyna wytwarzać drewnianą tyczkę, pracując dwie godziny dziennie przez pięć dni. Po zakończeniu pracy może zebrać wystarczającą ilość jagód na swoją dzienną porcję w ciągu 4 godzin zamiast 8, co pozwala mu wykorzystać pozostałe 4 godziny dziennie na inne czynności.
 
 
 Działając w ten sposób, Robinson obiera objazd produkcyjny: zamiast bezpośrednio zbierać jagody, inwestuje wysiłek w produkcję dobra kapitałowego, które uczyni go bardziej produktywnym w przyszłości. Aby to osiągnąć, musi jednak dokonać krótkoterminowego poświęcenia, tj. zaoszczędzić. Gdyby tego nie zrobił, nie byłby w stanie ukończyć swojego dobra kapitałowego. To krótkoterminowe poświęcenie zapewnia mu jednak znaczną przewagę, ponieważ po wyposażeniu w tyczkę zyskuje 4 godziny dziennie (dopóki tyczka nie stanie się przestarzała). Te 4 dodatkowe godziny dziennie pozwalają mu tworzyć więcej dóbr kapitałowych, takich jak narzędzia myśliwskie lub sieci rybackie, stopniowo poprawiając jego sytuację.
@@ -546,7 +546,7 @@ Innymi słowy, w jednoosobowej gospodarce Robinsona Crusoe oszczędzanie poprzez
 Jest to kusząca, aczkolwiek prosta koncepcja: każde rozszerzenie struktury produkcji wymaga wcześniejszego oszczędzania (jako że dobra potrzebne do takiej produkcji nie spadną z nieba), a zatem im więcej oszczędzamy, tym więcej kapitału będziemy w stanie zgromadzić, co z kolei przełoży się na wzrost produktywności przynoszący więcej dóbr. Ekonomiści austriaccy uważają więc, że obniżenie preferencji czasowej jest punktem wyjścia dla pozytywnego cyklu: oszczędności -> więcej dóbr kapitałowych  większa produktywność  więcej dóbr = wyższy standard życia -> niższa preferencja czasowa.
 
 
-Jak wspomniano w pierwszym rozdziale, stopy procentowe były manipulowane przez dziesięciolecia przez banki centralne, podczas gdy banki komercyjne udzielały kredytów bez wcześniejszych rezerw, co oznacza, że stopy procentowe nie odzwierciedlają naszej preferencji czasowej i dają złudzenie obfitych oszczędności.
+Jak wspomniano w pierwszym rozdziale, banki centralne manipulowały stopami procentowymi przez dziesięciolecia, podczas gdy banki komercyjne udzielały kredytów bez wcześniejszych rezerw, co oznacza, że stopy procentowe nie odzwierciedlają naszej preferencji czasowej i dają złudzenie obfitych oszczędności.
 
 
 Doskonale ilustruje to poniższy wykres: stopy długoterminowe są niższe niż stopy krótkoterminowe. Po pierwsze, nie ma to absolutnie żadnego sensu, ponieważ oznaczałoby to, że przyszłość jest bardziej pewna niż teraźniejszość. Po drugie, uzasadnia to pytanie o konsekwencje dla alokacji kapitału: jeśli wszyscy są zachęcani do działania tak, jakby oszczędności były obfite, podczas gdy oszczędzających nigdzie nie można znaleźć, ponieważ nie są nagradzani za oszczędzanie, jakie konsekwencje może to mieć dla gospodarki?

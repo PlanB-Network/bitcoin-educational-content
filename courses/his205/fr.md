@@ -346,7 +346,8 @@ Les Incas n’avaient pas de système monétaire malgré l’abondance de métau
 Plus une société est stratifiée, et plus son système de planification est méticuleusement efficace, moins l’utilisation de la monnaie est nécessaire pour sa population. Cela peut expliquer pourquoi les conquistadors espagnols découvrirent que les Mexicains, dont le gouvernement était relativement plus libéral, utilisaient régulièrement de la poudre d’or (conservée dans des tubes transparents) et des fèves de cacao (conservées pour les gros paiements en sacs de 24 000 unités) comme monnaie, tandis qu’à l’inverse, les Incas, organisés selon une hiérarchie beaucoup plus rigide, n’avaient aucune monnaie : une exception confirmée par une règle stricte. L’origine de la monnaie en Chine s’est faite de manière totalement indépendante des autres civilisations ; cependant, la proximité relative des civilisations sumérienne, égyptienne et minoenne laisse subsister des doutes quant à leur degré d’ignorance respective sur leurs pratiques monétaires, surtout compte tenu des échanges commerciaux importants établis dès des périodes très anciennes.
 
 
-En Chine, les pièces de monnaie ont été développées selon une approche totalement différente des traditions occidentales. Il s’agissait d’une monnaie fiduciaire dès l’origine, une monnaie coulée. M. Davies mentionne également les échanges. Il est vrai qu’il existait des échanges entre les Chinois et d’autres populations à certaines époques, mais l’intermédiaire d’échange utilisé pour le commerce extérieur était principalement la soie. On peut aussi noter que dans les zones frontalières, où la présence chinoise était plus faible, on utilisait l’or, mais pas pour le commerce international : celui-ci reposait essentiellement sur la soie.
+En Chine, les pièces de monnaie ont été développées avec une approche totalement différente des traditions occidentales : c’était du fiat dès l’origine, une monnaie coulée.
+Davies mentionne aussi l’existence d’échanges. En effet, la Chine commerçait avec d’autres populations, mais l’intermédiaire d’échange était principalement la soie, surtout pour le commerce extérieur. De plus, dans les régions frontalières où la population chinoise était moindre, l’or circulait davantage, mais ce n’était pas destiné au commerce international (qui, lui, reposait surtout sur la soie).
 
 On peut donc imaginer que, peut-être pour le format des pièces, les Chinois ont pu être influencés par d’autres civilisations contemporaines ayant développé cette technologie. Mais l’essence même de la monnaie en Chine était clairement différente de celle de l’Occident. Nous y reviendrons en détail dans la section consacrée à la Chine.
 
@@ -365,31 +366,34 @@ Et deux cités pour conclure cette section. On a Assur, qui était la capitale d
 Mais on n'a pas de traces à Babylone de ces fameux jardins suspendus. Tandis qu'à Ninive, on a vraiment des preuves archéologiques qu'il y avait des jardins sur des étages. Il est possible qu’il existait une confusion entre Ninive et Babylone chez les historiens grecs qui en font mention, comme Hérodote. Lorsqu'ils visitaient des villes en Mésopotamie, peut-être qu'ils y référaient en tant que Babylone. On a trouvé des traces de fameux jardins suspendus à Ninive et les savants se demandent peut-être que Ninive est ce fameux endroit où il y avait ces jardins auxquels on réfère en tant que jardins suspendus de Babylone.
 
 
-## Organisation économique en Mésopotamie
+## Organisation économique en mésopotamie
 <chapterId>6afb6fc8-cbb7-56a5-8427-484b4b7d7477</chapterId>
 :::video id=aa6a2cbd-5916-4ae3-ad4f-65f0bd5643fa:::
 
 ### Les structures économiques pré-capitalistes et l'esclavagisme
 
-Bienvenue dans cette section consacrée à l'organisation économique en Mésopotamie. L'économie pré-capitaliste a connu trois grandes étapes : primitive, esclavagiste, et féodale. 
+Bienvenue dans cette section consacrée à l’organisation économique en Mésopotamie.
+L’économie pré-capitaliste comprend trois grandes étapes : primitive, esclavagiste et féodale.
 
-Féodale, c'est plus tard évidemment au Moyen Âge et nous avons déjà passé l'étape primitive qu'on a décrit plus haut avec le paléolithique et maintenant, en Mésopotamie, quand on parle d'organisation économique, on parle plutôt de l'esclavagisme.
-
-Cependant, en Mésopotamie, l'essentiel du travail était assuré par une classe dépendante semblable à l'esclavage, sans être juridiquement propriété de ses maîtres, mais qui était privée des fruits de son travail par coercition physique ou idéologique.
+En Mésopotamie, on se situe dans la phase esclavagiste.
+Cependant, la majorité du travail était réalisée par une classe dépendante, similaire à l’esclavage, mais sans être juridiquement considérée comme propriété. Cette classe était néanmoins privée des fruits de son travail par coercition physique ou idéologique.
 
 ### Le rôle des temples et palais comme centres économiques
 
-Les grandes propriétés foncières dominaient l'économie. Les propriétaires exploitaient directement leurs terres en engageant des travailleurs, ou bien ils louaient leurs terres en échange de rentes. Ils exerçaient également des activités financières en prêtant de l'argent à des taux d'intérêt élevés, généralement autour de 20 % à 33,3 % par an, pratiques qui contrastaient fortement avec les règles plus strictes des Hébreux voisins.
+Les grandes propriétés dominaient l’économie. Les propriétaires exploitaient directement leurs terres ou les louaient contre rentes, et pratiquaient également des activités financières, notamment des prêts à taux très élevés (souvent 20 à 33 % par an), ce qui contraste fortement avec les pratiques plus strictes des Hébreux voisins.
 
-Les emprunts contractés par les paysans n'étaient pas destinés à des investissements productifs, sauf exception faite des entreprises maritimes, mais plutôt à assurer leur survie jusqu’à la prochaine récolte. Cette situation entraînait fréquemment l'endettement chronique des paysans.
+Les emprunts ruraux servaient principalement à survivre jusqu’à la prochaine récolte, pas à investir.
+Résultat : un endettement chronique.
 
-Je me permets de faire un petit parallèle ici avec une période plus récente durant l’antiquité (Rome) où les citoyens vivaient des rentes agricoles produites par les paysans et la main-d'œuvre non-libre ainsi que du butin issu des guerres. **Ces revenus étaient répartis entre les citoyens, non pas pour générer davantage de profits, mais pour rehausser leur statut social.** Le commerce et l'artisanat étaient généralement laissés à des groupes extérieurs à l'élite sociale. Tout ceci contraste avec les économies médiévales orientées vers le profit par le commerce et l'artisanat.
+Petit parallèle avec une époque plus tardive (Rome) :Les citoyens romains vivaient des rentes agricoles, du travail non libre et du butin des guerres. Ces revenus étaient utilisés pour le prestige, non pour réinvestir dans la production. Commerce et artisanat étaient laissés à des groupes extérieurs à l’élite.
+Cela contraste avec les économies médiévales orientées vers le profit et l’amélioration des outils de production.
+On était donc encore loin de l’esprit capitaliste.
 
-Donc ce qu'on essaie d'exprimer ici c'est que je fais un parallèle avec le fait que les gens se servaient d'outils financiers de prêt pas nécessairement pour leur permettre d'améliorer leurs outils de production et plus tard à Rome les profits ne servaient pas nécessairement pour être réinvestis mais plutôt c'était plutôt d'augmenter le prestige des gens qui pouvaient profiter de ces profits. On est encore loin de l'esprit capitaliste qui a émergé plus tard au Moyen-Âge où on pouvait faire des emplois pour améliorer les moyens de production et on prenait les surplus, on créait des surplus pour une certaine recherche de profit. On peut donc voir que l'organisation économiques n'étaient pas encore rendues à la troisième étape des évolutions économiques qu'on a listées plus haut.
+### L’émergence du crédit et des unités de compte
+Karl Polanyi distingue trois formes d'échange économique : la réciprocité entre groupes symétriques (tribus primitives : pas besoin de monnaie, crédit informel) ; La redistribution centralisée autour des temples et des palais (cas de la Mésopotamie) et le marché, encore partiel mais déjà présent.
 
-### L'émergence des systèmes de crédit et des unités de compte
-
-**Karl Polanyi distingue trois formes d'échange économique : la réciprocité entre groupes symétriques,** ça ce serait dans les tribus primitives où on n'a pas vraiment besoin de monnaie parce qu'on se fait du crédit informel et on se fait des échanges et de la redistribution. **La redistribution centralisée autour des temples et des palais,** cette forme d’échange est compatible avec la Mésopotamie où les temples étaient au centre de l'organisation économique et pouvaient à une certaine époque redonner, distribuer la richesse sous forme de rations. C’est plus tard qu’on va intégrer la notion de salaire. Donc jusqu’à maintenant on a la forme primitive (1), la redistribution centralisée (2) dans les temples et les palais et ensuite on peut finalement laisser place aux échanges sur les marchés (3)**.** Bien que le marché tel que nous le concevons aujourd'hui n'existait pas pleinement, la présence d’échanges marchands en Mésopotamie est incontestable, attestée par l’existence de termes spécifiques en akkadien et par la présence d’évidences archéologiques de prix, profits, pertes, fluctuations et situations de pénurie.
+Les temples et les palais servaient aussi de centres de dépôt et de stockage sécurisés.
+Ces pratiques sont les premières formes de banques.Cette forme d’échange est compatible avec la Mésopotamie où les temples étaient au centre de l'organisation économique et pouvaient à une certaine époque redonner, distribuer la richesse sous forme de rations. C’est plus tard qu’on va intégrer la notion de salaire. Donc jusqu’à maintenant on a la forme primitive , la redistribution centralisée  dans les temples et les palais et ensuite on peut finalement laisser place aux échanges sur les marchés. Bien que le marché tel que nous le concevons aujourd'hui n'existait pas pleinement, la présence d’échanges marchands en Mésopotamie est incontestable, attestée par l’existence de termes spécifiques en akkadien et par la présence d’évidences archéologiques de prix, profits, pertes, fluctuations et situations de pénurie.
 
 Les ménages mésopotamiens géraient de manière autonome toutes les étapes de production agricole, depuis les semailles jusqu'à la transformation finale en pain et bière. Les femmes assuraient aussi la production de textiles nécessaires aux dépendants. Pour les biens non produits localement, les ménages faisaient appel à des marchands spécialisés.
 
@@ -399,17 +403,17 @@ Dans ces échanges, il y avait des métaux, et c'était des métaux précieux et
 
 Le tribut et les taxes étaient principalement payés en nature (orge ou argent pesé). Les temples et les palais constituaient les principaux centres économiques, administratifs, politiques et religieux, assurant aussi les premières fonctions bancaires par le dépôt sécurisé de biens, d'abord du grain, puis d'autres produits agricoles et enfin des métaux précieux. Ainsi se développèrent les premières opérations de crédit et de prêts, bien avant l’apparition des pièces de monnaie.
 
-L’économie mésopotamienne utilisait principalement l’orge et l’argent comme étalons de valeur. L'argent se pesait selon des unités standardisées, comme le sìqlum (shekel) d’environ 8,33 grammes. Dès la période babylonienne ancienne (sous Hammurabi), l’argent servait de moyen de paiement courant avec une notion précoce de valeur nominale ("nūbum") par opposition au poids réel ("šuqulum"), **anticipant ainsi le concept moderne de monnaie fiduciaire**.
+L’économie mésopotamienne utilisait principalement l’orge et l’argent comme étalons de valeur. L'argent se pesait selon des unités standardisées, comme le sìqlum (shekel) d’environ 8,33 grammes. Dès la période babylonienne ancienne (sous Hammurabi), l’argent servait de moyen de paiement courant avec une notion précoce de valeur nominale ("nūbum") par opposition au poids réel ("šuqulum"), anticipant ainsi le concept moderne de monnaie fiduciaire.
 
-Mais ce n'était pas déjà de la monnaie fiduciaire à proprement parler. Il n'y avait pas la notion d'estampe avec une figure d’autorité, mais y avait une notion d'une unité de compte nominale, en opposition à la notion de métal pesée. Il y avait une distinction dans la langue pour ces deux concepts et je trouve ça important de le mentionner.
+Mais ce n'était pas déjà de la monnaie fiduciaire à proprement dit. Il n'y avait pas la notion d'estampe avec une figure d’autorité, mais y avait une notion d'une unité de compte nominale, en opposition à la notion de métal pesée. Il y avait une distinction dans la langue pour ces deux concepts et je trouve ça important de le mentionner.
 
-La transition vers un marché du travail salarié a été difficile. Elle nécessitait deux innovations conceptuelles majeures : la séparation du travail de la personne et du produit final, et l'introduction du "temps de travail" comme unité mesurable. Pour avoir cette notion de salaire et de salarié, il a fallu d’abord passer par ces deux innovations. **Au IIIᵉ millénaire, le travail se rémunérait d'abord par des rations fixes, avant d’évoluer progressivement vers un système de salaires au début du IIᵉ millénaire.**
+La transition vers un marché du travail salarié a été difficile. Elle nécessitait deux innovations conceptuelles majeures : la séparation du travail  et du produit final, et l'introduction du "temps de travail" comme unité mesurable. Pour avoir cette notion de salaire et de salarié, il a fallu d’abord passer par ces deux innovations.Au IIIᵉ millénaire, le travail se rémunérait d'abord par des rations fixes, avant d’évoluer progressivement vers un système de salaires au début du IIᵉ millénaire.
 
-Finalement, à partir du XXVIᵉ siècle av. J.-C., une véritable notion de valeur monétaire s'installa durablement, même si la "monnaie" mésopotamienne n’était pas une pièce frappée, mais plutôt une mesure pondérale en céréales ou en métaux. **Ainsi, lors de transactions importantes ou dans des contextes nécessitant la conservation de la valeur, on préférait souvent convertir les céréales en argent, plus facilement conservable.** Un peu comme l’exemple de Kanesh ou on recevait de l’argent métal à thésauriser.
+Finalement, à partir du XXVIᵉ siècle av. J.-C., une véritable notion de valeur monétaire s'installa durablement, même si la "monnaie" mésopotamienne n’était pas une pièce frappée, mais plutôt une mesure pondérale en céréales ou en métaux. Ainsi, lors des transactions importantes ou dans des contextes nécessitant la conservation de la valeur, on préférait souvent convertir les céréales en argent, plus facilement conservable. Un peu comme l’exemple de Kanesh ou on recevait de l’argent métal à thésauriser.
 
-À partir du XXI siècle avant notre ère, **avec la quasi-disparition des échanges asymétriques**, on note que dans les contrats de cessions, le verbe sa, désigne le paiement du prix. On voit dans les contrats l’apparition de cette notion qui s'appelle "sa" et ça fait référence au paiement d'un prix et non par une mesure d’une denrée en particulier. Le “sa” fait simplement référence à un paiement ou à un prix. C’est un anthropologue qui note ça et mentionne que c'est vraiment une avancée, on voit une espèce de dichotomie entre le avant et après de cette introduction du verbe "sa" dans les contrats.
+À partir du XXI siècle avant notre ère,avec la quasi-disparition des échanges asymétriques, on note que dans les contrats de cessions, le verbe sa, désigne le paiement du prix. On voit dans les contrats l’apparition de cette notion qui s'appelle "sa" et ça fait référence au paiement d'un prix et non par une mesure d’une denrée en particulier. Le “sa” fait simplement référence à un paiement ou à un prix. C’est un anthropologue qui note ça et mentionne que c'est vraiment une avancée, on voit une espèce de dichotomie entre le avant et après de cette introduction du verbe "sa" dans les contrats.
 
-On ne peut ignorer les données empiriques présentes dans les archives du Proche-Orient attestant de l'existence de **certains mécanismes de marché**, intégrant les **notions de profit** et de **perte**, les **fluctuations des prix** et des situations de **pénurie**. Mais la difficulté fondamentale réside dans la détermination de l'importance relative de l'échange par le biais du marché au sein de l'ensemble de l'économie mésopotamienne ancienne.
+On ne peut ignorer les données empiriques présentes dans les archives du Proche-Orient attestant de l'existence de certains mécanismes de marché, intégrant les notions de profit et de perte, les fluctuations des prix et des situations de pénurie. Mais la difficulté fondamentale réside dans la détermination de l'importance relative de l'échange par le biais du marché au sein de l'ensemble de l'économie mésopotamienne ancienne.
 
 Je pense que les experts dans ce domaine ont vu des traces de ces concepts de marché, mais ils ne sont pas vraiment capables de nous dire à quel point, quelle part de l'économie de l'époque était basée sur ce concept plus moderne de marché ou par d'autres mécanismes.  
 On sait que ça existait, mais on ne sait pas si c'était la façon principale, disons, de déterminer des prix ou de faire des échanges.
@@ -424,81 +428,83 @@ Dans les prochaines sections, nous allons faire le même travail pour l'Égypte 
 
 ### Cadre historique et périodes égyptiennes
 
-Cette section sera consacrée à l'organisation économique et monétaire en Égypte ancienne. Pour vous donner juste un petit peu de contexte voici une liste et une courte description des périodes en question.
+Cette section est consacrée à l’organisation économique et monétaire dans l’Égypte ancienne. Pour situer le contexte, voici une liste simple des principales périodes :
 
-- **Ancien Empire (env. 2575 \- env. 2130 av. J.-C.)**. Période marquée par la construction des grandes pyramides, notamment celles de Gizeh. C’est l’âge d’or de la monarchie égyptienne centralisée.
-- **Moyen Empire (1938 \- env. 1630 av. J.-C.)**. Renaissance politique et culturelle après une période d’instabilité.
-- **Nouvel Empire (env. 1539 \- 1075 av. J.-C.)**. Période d’expansion territoriale, de puissance militaire et d’échanges internationaux. Elle comprend les règnes de pharaons célèbres comme Toutankhamon et Ramsès II.
-- **1323 av. J.-C. – Mort de Toutankhamon**. Le jeune pharaon meurt à environ 18-19 ans. Sa tombe presque intacte sera découverte en 1922, devenant l'une des plus célèbres découvertes archéologiques.
-- **Ramsès II – Règne de 1279 à 1213 av. J.-C.**. L’un des plus puissants pharaons du Nouvel Empire. Connu pour ses campagnes militaires, ses grands monuments, et pour avoir probablement conclu le premier traité de paix connu.
-- **1275 av. J.-C. – Peuples de la mer**. Invasions ou migrations de groupes appelés "Peuples de la mer" qui déstabilisent plusieurs civilisations méditerranéennes, dont l’Égypte.
-- **Bataille de Xoïs – 1178 av. J.-C.**. Conflit entre l’armée égyptienne et des envahisseurs, probablement liés aux Peuples de la mer. Elle fait partie des nombreuses luttes de la fin du Nouvel Empire.
-- **La Basse Époque** est la période de l'histoire de l'Égypte antique qui va des environs de 664 à 332 av.
-- **Cléopâtre VII (69 \- 30 av. J.-C.)**. Dernière reine d’Égypte, célèbre pour son intelligence, son charisme et ses alliances avec Jules César puis Marc Antoine et probablement aussi pour son nez. Son règne marque la fin de l'Égypte pharaonique avant son annexion par Rome.
+Ancien Empire (env. 2575 – env. 2130 av. J.-C.) : période marquée par la construction des grandes pyramides, notamment celles de Gizeh. C’est l’âge d’or d’une monarchie fortement centralisée.
 
-Dès les Ve et IVe millénaires avant notre ère, l’Égypte connaissait déjà une intense activité commerciale à grande échelle reliant la Nubie, la Palestine, la Libye et les régions de la mer Rouge, à travers des échanges maritimes, fluviaux et terrestres (notamment par caravanes d’ânes).
+Moyen Empire (1938 – env. 1630 av. J.-C.) : période de renaissance politique et culturelle après une phase d’instabilité.
+
+Nouvel Empire (env. 1539 – 1075 av. J.-C.) : période d’expansion militaire, de prospérité et d’échanges internationaux. Elle inclut les règnes de pharaons célèbres comme Toutankhamon ou Ramsès II.
+
+1323 av. J.-C., mort de Toutankhamon : le jeune pharaon meurt vers 18–19 ans. Sa tombe presque intacte, découverte en 1922, deviendra l’une des plus célèbres découvertes archéologiques.
+
+Ramsès II (1279–1213 av. J.-C.) : l’un des pharaons les plus puissants. Connu pour ses campagnes militaires, ses monuments et le premier traité de paix connu.
+
+1275 av. J.-C., Peuples de la mer : migrations ou invasions qui touchent plusieurs civilisations méditerranéennes, dont l’Égypte.
+
+Bataille de Xoïs (1178 av. J.-C.) : conflit opposant l’armée égyptienne à des envahisseurs liés aux Peuples de la mer, illustrant les difficultés de la fin du Nouvel Empire.
+
+Basse Époque (664 – 332 av. J.-C.) : période tardive précédant la conquête macédonienne.
+
+Cléopâtre VII (69 – 30 av. J.-C.) : dernière reine d’Égypte, connue pour son intelligence, son influence politique et ses alliances avec Jules César et Marc Antoine. Son règne marque la fin de l’Égypte pharaonique avant sa conquête par Rome.
+
+Dès les Ve et IVe millénaires av. J.-C., l’Égypte connaissait déjà une activité commerciale importante avec la Nubie, la Palestine, la Libye et les régions de la mer Rouge, grâce aux échanges maritimes, fluviaux et terrestres.
 
 ### Les premiers systèmes d'échange et la paléomonnaie
 
-Avec l'émergence des premières chefferies égyptiennes vers 3650-3400 av. J.-C., le site de Maadi, au sud de l'actuelle ville du Caire, devint un centre majeur pour la technologie du cuivre et les échanges à longue distance, notamment avec la Mésopotamie par la côte syrienne.
+Avec l’émergence des premières chefferies vers 3650–3400 av. J.-C., le site de Maadi devint un centre majeur pour la métallurgie du cuivre et les échanges à longue distance, notamment avec la Mésopotamie.
 
-Bien que les échanges volumineux reposaient principalement sur le troc, une forme primitive de monnaie ("paléomonnaie"), constituée d'objets de prestige comme des pierres semi-précieuses et des coquillages fossiles, existait probablement. L'or jouait probablement déjà un rôle important dans ces échanges. La première mention explicite d'une monnaie dans les documents égyptiens au milieu du IIIe millénaire av. J.-C. reflète une longue maturation liée aux pratiques commerciales.
+Même si les échanges volumineux fonctionnaient surtout par troc, une forme primitive de monnaie  la paléomonnaie  existait déjà. Elle prenait la forme d’objets de prestige : pierres semi-précieuses, coquillages fossiles, et probablement de l’or. La première mention d’une monnaie dans les documents égyptiens, au milieu du IIIe millénaire, reflète un long processus lié aux pratiques commerciales.
 
-Dans la société archaïque (ici on ne parle pas nécessairement de l’Egypte mais des sociétés archaïques en général), les paiements étaient fréquents, non pour acheter directement, mais pour payer la dot, les rituels religieux, et d’autres obligations sociales. Ces transactions supposaient une tarification et une évaluation précises. Nombre de sociétés primitives disposent d'objets privilégiés, monétiformes, c'est-à-dire dénombrables, dans les termes desquels est estimée cette valeur. Si on paye une dote, évidemment, il faut noter une quantité quelconque d'un objet à échanger pour payer la dote. Valeur qui, pour l'essentiel, n'est autre que celle des personnes.
+Dans les sociétés archaïques en général (et pas seulement en Égypte), les paiements existaient déjà : dot, rituels religieux, compensations diverses. Ces paiements nécessitaient une évaluation précise. Les sociétés utilisaient alors des objets facilement dénombrables pour exprimer la valeur. La valeur reflétait souvent celle des personnes elles-mêmes, par exemple dans la dot ou le prix du sang.
 
-Dans les sociétés archaïques, avant l'apparition de monnaie ou des systèmes monétaires, il y avait des paiements, mais ils étaient souvent liés à des obligations sociales, et leur valeur découlait de la valeur des personnes, comme dans la paiement de la dote ou du prix du sang.
+ Le shât(y) et l’évolution de la monnaie égyptienne
+Durant l’Ancien Empire apparaît le shât(y), une petite mesure d’or ou d’argent d’environ 7,6 g. Rapidement, il cesse d’être utilisé comme monnaie réelle et devient une unité de compte, servant à mesurer la valeur plutôt qu’à circuler comme pièce de monnaie (puisqu’il n’était pas frappé ni estampillé).
 
-Pour en revenir à l’Égypte, durant l’ancien empire apparaît le "shât(y)", unité monétaire concrète à l’origine (petite pièce d'or ou d'argent d'environ 7,6 grammes), est très vite passé de sa fonction réelle d'espèce sonnante et trébuchante à une **fonction comptable** qui a engendré la notion de valeur. On peut y reconnaître une espèce d’une unité de compte pour exprimer la valeur, qui à l'origine était une sorte de pièce, mais on ne peut pas vraiment parler de pièce de monnaie parce que ce n'est pas estampé, c'est juste une mesure de métal. On se rapproche de la notion d'unité de compte.
+Cette unité de compte disparaît ensuite, probablement en raison de fraudes. À noter : l’Égypte adoptera tardivement les vraies pièces frappées, et même après leur adoption, les Égyptiens continueront à les peser pour vérifier leur valeur.
 
-Cette notion de shât(y) fut éventuellement abandonnée, peut-être liée aux risques de fraude. On verra plus tard que les Égyptiens ont tardé à adopter les pièces de monnaies estampées et ont même continué à les peser, même après leur adoption par leurs voisins.
+Au Moyen Empire
+L’argent-métal était rarement utilisé dans les transactions du quotidien. Les échanges se faisaient surtout en céréales ou pains. C’est aussi l’époque où apparaît une forme de monnaie scripturale, avec des paiements enregistrés par écrit ou par transfert.
 
-Au Moyen Empire, l’argent-métal était rarement utilisé pour les transactions courantes, celles-ci s’effectuant essentiellement avec des mesures de céréales et quantités de pains. C’est durant cette période que semble apparaître une forme de monnaie scripturale, où les paiements peuvent être enregistrés par écrit, ou par transfert réel.
+Au Nouvel Empire
+-Le système devient plus complexe : or, argent, cuivre, étoffes, céréales, huile…
+-Les prix des biens courants étaient exprimés en céréales ou en cuivre.
+-Les biens précieux étaient évalués en or ou en argent.
+-L’argent, rare en Égypte, y était beaucoup plus prisé qu’ailleurs, ce qui le rendait surévalué.
 
-Au Nouvel Empire, le système monétaire devint plus complexe, intégrant différentes monnaies-marchandises évaluées en métaux (or, argent, cuivre), en étoffes standardisées, en céréales et en huile. Pour les étoffes, on parlait de mesures de tissus. **Les prix des marchandises courantes étaient souvent exprimés en céréales ou en cuivre, tandis que les objets précieux étaient évalués en or ou en argent. L’argent, plus rare en Égypte que l’or, devint particulièrement prisé.** L'argent était surévalué comparé à l'or qui était plus abondant en Égypte.
+À la Basse Époque
+L’argent devient le métal d’échange courant dans tout le Proche-Orient, circulant sous forme de lingots ou anneaux pesés et marqués dans les temples (mais toujours sans effigie frappée, contrairement aux monnaies modernes).
 
-À la Basse Époque (premier millénaire av. J.-C.), l'argent était devenu le métal d’échange courant dans tout le Proche-Orient. Il circulait sous forme de lingots, de pièces métalliques ou d'anneaux pesés et marqués dans les temples, garantissant leur poids et pureté sans qu'il s'agisse toutefois de monnaie frappée à l'effigie d’un souverain. Ça, c'est arrivé plus tard et ce sera le sujet d'une subséquente section au sujet des Lydiens.
+Les Égyptiens utilisaient le mot hedj pour désigner l’argent et, par extension, tout moyen de paiement (métal, céréales, étoffes, bois, animaux, services…). Les paiements pouvaient combiner plusieurs biens dont la valeur totale était exprimée en deben (unité de cuivre).
 
-On peut noter aussi que les anciens égyptiens avaient un terme, "hedj", pour désigner l’argent et était utilisé de manière générique pour désigner tout moyen de paiement servant de contrepartie lors d’une transaction, qu’il s’agisse de métal, de céréales, d’étoffes ou de biens divers (bois, animaux, services, etc.). Des exemples documentés montrent que les Égyptiens pouvaient régler une transaction en combinant divers produits dont la valeur totale était exprimée en unités de cuivre ("deben").
+Le rôle économique des temples
+Les temples jouaient un rôle central : ils collectaient et stockaient d’énormes quantités d’or et d’argent, destinées au culte mais aussi utilisées comme réserves monétaires, réinjectées dans l’économie selon les besoins. Ils pouvaient même fondre des statues en cas de crise, un phénomène observé dans plusieurs civilisations.
 
-**Les temples jouaient un rôle central dans l’économie égyptienne : ils collectaient et thésaurisaient des trésors considérables en métaux précieux (or et argent) destinés à honorer les dieux mais aussi à servir de réserve monétaire pouvant être réintroduite dans le circuit économique selon les besoins**. Nous verrons des exemples de ça où d'autres civilisations accumulaient comme ça des réserves de valeur dans les temples par exemple des statues pour éventuellement être fondue au besoin en cas de guerre, s'il y a pénurie de monnaie ou en cas de crise. Ça, ça revient assez souvent dans l'histoire.
+“Coinage” vs “Money”
+Les Égyptiens pesaient leurs pièces, ce qui montre la différence entre :
+-coinage : la pièce frappée (qui arrive plus tard, notamment avec les Lydiens)
+-money : la monnaie au sens large (unité de compte, valeur mesurée, moyens d’échange)
+Ainsi, les pièces ne sont pas nécessaires pour qu’une société ait une monnaie.
+La monnaie existe déjà au IIIe millénaire, et certainement au IIe millénaire, notamment sous Hammourabi.
 
-On peut aussi mentionner que la culture du lin était un monopole royal concédé aux temples, et la fabrication d’étoffes précieuses confirmait leur importance économique.
+L’idée importante ici est la monnaie qui existait bien avant les pièces frappées. L’apparition des pièces n’est qu’un développement technique.
 
-Les anciens Égyptiens faisaient clairement la distinction entre l'aspect idéologique des métaux précieux, liés à la divinité (l’or représentant la chair des dieux, l’argent leurs os), et leur fonction pratique en tant que monnaie servant de référence pour toutes les autres formes de paiement.  
-Ainsi, bien que l’Égypte antique n'ait pas développé une monnaie frappée comparable aux systèmes monétaires modernes avant la période tardive, elle possédait un système monétaire sophistiqué, basé sur l'utilisation combinée de monnaie scripturale, d’unités de compte précises, de monnaie-marchandise et de métaux précieux évalués au poids.
+ Dévaluations et gestion économique ancienne
+Aux origines de la monnaie, l’auteur explique que la monnaie frappée sert notamment à : développer la possibilité d’agir sur l’économie en jouant sur les dévaluations ou réévaluations pour influencer commerce, importations et exportations.
 
-Les pièces de monnaie elles-mêmes étaient pesées, si bien qu'on aboutit à deux concepts différents, celui de **“coinage" et celui de "money"**. J'ai utilisé deux termes en anglais. D’abord le “coinage” qui réfère aux pièces de monnaie, un concept qui vient plus tard, et on a aussi ce concept de monnaie comme "money". On peut déjà définir une certaine notion de "money" par les unités de compte que je viens de vous exprimer en mesure d'argent, mais qui n'étaient pas encore des pièces de monnaie, donc "coinage" qui viennent un peu plus tard avec les Lydiens.
+Dès les premières pièces en électrum, on sait que les souverains (comme Crésus) émettaient des pièces contenant moins d’or que l’électrum naturel. Cela montre qu’ils maîtrisaient la séparation des métaux et utilisaient déjà la manipulation monétaire pour gérer l’économie.
 
-Et donc, les pièces de monnaie ne sont pas une condition préalable à la monnaie, **si bien qu'on peut admettre l'existence de la monnaie dès le Ille millénaire,** en tout cas et sans aucun doute au cours du Ile millénaire et particulièrement sous le règne de Hammourabi.
-
-Ce qui est important de retenir ici, et c’est ce que l'auteur qui mentionne dans le livre "Aux origines de la monnaie", est qu’il n'y a aucun doute sur le fait que le concept de monnaie existait déjà à l'époque, dans ces systèmes monétaires et qu'on fait erreur de lier la naissance de la monnaie en tant que concept à l'apparition des pièces de monnaie.
-
-Enfin, les concepts de réciprocité et de redistribution développés par Polanyi, souvent appliqués à l’Égypte ancienne, doivent être nuancés : bien qu’existant, ils ne constituent pas un cadre exclusif. L’Égypte pharaonique avait développé une économie complexe intégrant pleinement des échanges marchands sophistiqués, distincts des pratiques religieuses et rituelles, démontrant une réelle autonomie du domaine économique par rapport au domaine idéologique.
-
-Cette particularité est en lien avec la notion que les métaux précieux étaient liés à une certaine divinité mais ils étaient quand même capables d'avoir une distinction.
-
-Je le soulève ici, parce que Polanyi référait à l'usage de ces métaux précieux comme une notion plutôt religieuse ou de divinité, quand en fait on propose ici que c'était aussi intégré dans le système économique et que les Égyptiens étaient déjà à même de faire une distinction.
-
-Pour conclure, je vais reprendre une citation du livre "Aux origines de la monnaie", qui liste à quoi sert cette invention, la monnaie frappée. Il y a plusieurs points, mais je voudrais insister seulement sur le point 5:
-
-*développer la possibilité du jeu économique par la mise en œuvre de méthodes telles que les dévaluations, réévaluations successives qui permettent de réduire, d'augmenter à moindre coût importation et exportation.*
-
-Donc, déjà à ces époques archaïques, l'auteur propose que les pièces de monnaie aient déjà été inventées ou ont émergé sous un contrôle étatique et jouaient déjà avec leurs quantité de métaux précieux et leur poids pour gérer l'économie. Je me permets déjà de vous faire un petit scoop par rapport à une section plus subséquente. **Déjà dans les premières formes de pièces de monnaie qui étaient en électrum, qui est un alliage d'or et d'argent, on sait quand on analyse le taux de métaux précieux dans ces pièces des premiers émetteurs, par exemple Crésus, avaient moins d'or que dans l'électrum naturel.**
-
-Ça veut dire qu'ils savaient déjà séparer l'or et l'argent, et qu'ils émettaient des pièces contenant moins d’or.
-
-L'auteur nous propose que dès les premières utilisations de pièces de monnaie, au-delà de simplement certifier le poids, de faciliter et de fluidifier les échanges, on abusait déjà du pouvoir de battre monnaie pour en augmenter la quantité émise, possiblement pour appliquer une certaine forme de planification économique.
-
-## La monnaie signe et l’organisation économique et monétaire en Chine antique
+## La monnaie-signe et l’organisation économique en Chine antique
 <chapterId>e08d3be9-423c-5cf3-a606-6ad54e2261af</chapterId>
 :::video id=ae7e6367-1725-455e-bfe6-359be1f443e5:::
 
-Dans cette section intitulée "La monnaie signe et l'organisation économique et monétaire en Chine antique" nous verrons que la monnaie antique chinoise présente des caractéristiques distinctes des traditions occidentales. La monnaie chinoise était déjà une “monnaie signe” dès son origine. Les enseignements de cette section sont tirés des notes que j'ai prises suite à la lecture du livre "Aux origines de la monnaie".
+Dans cette section intitulée « La monnaie-signe et l’organisation économique et monétaire en Chine antique », on voit que la Chine a développé très tôt une forme de monnaie différente de celle de l’Occident. Voici les points essentiels tirés du livre Aux origines de la monnaie.
 
 ### Le concept de monnaie signe et ses caractéristiques distinctes
 
-La monnaie signe, selon l'auteur, est l'équivalent du fiat actuel. C'est une monnaie qui n'a pas une valeur liée à son contenu de métal. C'était dès l'origine une espèce d'entente, un consensus social sur la valeur de ces pièces de monnaie.
+La monnaie-signe est comparable au fiat actuel : sa valeur ne dépend pas de son métal, mais d’un consensus social. En Chine, la monnaie était métallique mais coulée, jamais frappée, et ne portait pas l’effigie d’un souverain. L’État n’avait pas le monopole d’émission monétaire, probablement parce qu’il disposait déjà de ressources fiscales abondantes.
 
+La monnaie chinoise était donc à ses débuts, fiduciaire.
 La monnaie antique chinoise présente des caractéristiques distinctes des traditions occidentales. Elle était principalement métallique mais coulée et non frappée, sans porter l'effigie d'un souverain. De manière surprenante, l'État chinois n'avait pas le monopole de l'émission monétaire. Ce libéralisme apparent peut s’expliquer par l’absence de nécessité économique de monopoliser l’émission monétaire, grâce aux abondantes ressources fiscales prélevées sur une large population imposable.
 
 La monnaie chinoise se caractérise aussi par son aspect fiduciaire. Dès le début, des imitations en bronze de cauris (coquillages marins) servaient de monnaie, sans rapport direct avec la valeur intrinsèque du métal utilisé. Si on recule très loin dans l'histoire, les Chinois utilisaient des coquillages comme monnaie. Éventuellement, quand les coquillages sont devenus trop rares, ils ont fait des répliques en cuivre et ces copies avaient la même valeur que les vrai coquillages.
@@ -507,49 +513,44 @@ La monnaie chinoise n’était donc pas fondée sur la valeur du matériau ou la
 
 ### Des cauris aux imitations métalliques 
 
-Le cauri était très utilisé comme unité monétaire primitive. Les inscriptions antiques montrent que, dès les dynasties Shang et Zhou (les premières dynasties du premier et deuxième millénaires avant notre ère), les cauris servaient non seulement à récompenser des actes militaires mais aussi à **rémunérer le travail, mesurer la valeur et acheter des biens fonciers**.
+Les cauris (coquillages) servaient d’unité monétaire primitive dès les dynasties Shang et Zhou. Ils étaient utilisés pour : récompenser des actes militaires, rémunérer le travail, mesurer la valeur, acheter des terres.
 
-Ce qui est important de retenir ici c’est que ce n'était pas juste un outil quelconque qui était utilisé par la société pour des usages restreints. On note des récompenses militaires, paiement pour le travail, la mesure de la valeur. On trouve des traces comme ça dans les écritures dans les recherches archéologiques. On ne sait pas si ça permettait d'acheter du pain dans le quotidien, disons, mais on possède des traces que que ça pouvait servir à faire les types de transactions mentionnées ci-haut.
+Lorsque les cauris réels sont devenus rares, on a commencé à fabriquer des imitations en bronze, os, nacre ou pierre. Elles avaient la même valeur que les originaux grâce à la confiance sociale et au contrôle du prince.
 
-Avec le temps, la raréfaction des cauris réels a poussé à produire des imitations en bronze, os, nacre ou pierre, utilisées notamment dans les contextes funéraires pour éviter d’immobiliser des valeurs réelles dans les tombes. Il faut aussi rattacher ce changement de support à l'idée du contrôle du prince sur la monnaie, contrôle d'autant plus facile si le prince fabrique la monnaie.
+En Chine, les mots liés à la monnaie proviennent des objets eux-mêmes : cauri (bei), couteaux (dao), bêches (bu), pièces rondes (quan / qian).
 
-Ce qu'il faut comprendre ici, c'est qu'au lieu de se limiter par la  notion de rareté naturelle des coquillages, si le prince peut créer lui-même la monnaie, ça lui permet plus de s'immiscer dans la gestion de l'économie.
-
-Contrairement à la Mésopotamie où les monnaies étaient liées au poids du métal précieux, la terminologie chinoise des monnaies provient directement des formes initiales des objets utilisés comme monnaie : cauris (bei), couteaux (dao), bêches (bu), et pièces rondes (quan ou qian). Donc, on voit que l'origine des mots en lien avec la monnaie en Chine faisait référence à ces objets. Et nous, en Occident, on a plusieurs termes monétaires qui viennent de concepts qui sont assez différents de ceux-là, plutôt liés aux caractéristiques physiques et au poids des objets monétaires. Ces différences étymologiques démontrent très bien le schisme entre la vision occidentale et chinoise de la monnaie. 
-
-Ainsi, en Chine, la valeur monétaire était totalement fiduciaire et reposait sur une convention sociale entre l'État, les producteurs et les commerçants.
+Cela illustre la différence fondamentale avec l’Occident, où la terminologie est liée au poids et aux métaux précieux. En Chine, la valeur reposait sur une convention sociale, un véritable système fiduciaire avant l’heure.
 
 ### Régulation économique et philosophie monétaire
 
-L'État chinois utilisait la monnaie comme un instrument de régulation économique : en période d'abondance monétaire, la valeur de la monnaie diminuait, facilitant l'achat par les populations, tandis qu'en période de pénurie monétaire, celle-ci gagnait en valeur, renforçant ainsi le pouvoir d'achat étatique pour ses prochaines opérations.
+L’État chinois utilisait la monnaie comme un instrument de régulation économique. En période d’abondance monétaire, sa valeur diminuait, facilitant les achats pour la population. En période de pénurie, elle gagnait en valeur, renforçant le pouvoir d’achat de l’État pour ses propres opérations.
 
-On peut faire ici un lien avec l'inflation et la déflation. Lorsqu’on a une masse monétaire fixe, si on augmente la productivité de l’économie, la valeur de la monnaie monte. Si la productivité baisse, la valeur de monnaie diminue. Mais par contre, dans cet exemple ci-haut, c'est un peu l'inverse. Probablement parce que le Prince n’avait pas un monopole complet sur la production de la monnaie, mais ça dénote quand même une notion que la valeur de la monnaie était liée aux conditions économiques.
+On peut faire ici un lien avec l’inflation et la déflation. Dans une économie à masse monétaire fixe, l’augmentation de la productivité fait monter la valeur de la monnaie, tandis qu’une baisse de productivité la fait diminuer. Mais dans l’exemple ci-dessus, c’est presque l’inverse : probablement parce que le prince ne possédait pas un monopole total sur la production monétaire. Cela montre en tout cas que la valeur de la monnaie restait étroitement liée aux conditions économiques.
 
-Le philosophe Mo Di (Ve-IVe siècle av. J.-C.) avait déjà analysé cette relation entre prix et valeur : selon lui, les variations des prix ne reflètent pas une réelle notion de bon marché ou de cherté absolue, mais plutôt un rapport fluctuant entre biens et monnaie, indépendamment de la valeur nominale stable du signe monétaire.
+Le philosophe Mo Di (Ve-IVe siècle av. J.-C.) avait déjà analysé cette relation entre prix et valeur. Selon lui, les variations des prix ne reflètent pas un bon marché ou une cherté absolue, mais un rapport fluctuant entre biens et monnaie, indépendamment de la valeur nominale stable du signe monétaire.
 
-Donc ici, au lieu de dire que, la pièce de monnaie en or aurait une espèce de valeur de base en tant que telle, comme une valeur d'usage ou une valeur intrinsèque, il souligne que la valeur du signe monétaire venait plutôt de l'état de l'économie.
+Autrement dit, au lieu de dire qu’une pièce d’or possède une valeur intrinsèque par nature, Mo Di montre que la valeur du signe monétaire dépend avant tout de l’état global de l’économie.
 
-En Chine, la monnaie n’avait pas nécessairement besoin de marque ou de garantie officielle. Son acceptation dépendait uniquement de la confiance collective, ce qui explique pourquoi des monnaies de bronze ou cuivre sans inscriptions spécifiques ont pu circuler librement pendant longtemps.
+En Chine, la monnaie ne nécessitait pas forcément de marque ni de garantie officielle. Son acceptation reposait essentiellement sur la confiance collective. C’est pourquoi des monnaies de bronze ou de cuivre, parfois sans inscriptions précises, ont pu circuler librement pendant longtemps.
 
 ![image](assets/fr/004.webp)
 
-Voici une pièce de monnaie de la Chrine qui date du Moyen Âge. Il s’agit d’une pièce coulée avec un trou carré au milieu. Cela permettait de passer une corde puis faire des espèces de bracelets ou des colliers, mais pas nécessairement pour porter, c'était plus pour la comptabilité. Ça permettait de les mettre ensemble et de former des sorte d’unités de compte sous forme de grandes ficelles avec les pièces imbriquées une sur une. Il n'y avait pas nécessairement des marques spécifiques, parfois c'était simplement des ronds de bronze.
+Voici une pièce de monnaie chinoise datant du Moyen Âge. Il s’agit d’une pièce coulée, percée d’un trou carré au centre. Ce trou permettait d’enfiler une corde pour les regrouper, non pas pour les porter comme des bijoux, mais pour faciliter la comptabilité. On attachait plusieurs pièces ensemble pour former des unités de compte. Certaines n’avaient même pas de marques spécifiques : il s’agissait simplement de rondelles de bronze.
 
-Le monopole monétaire de l’État, instauré tardivement par Wudi des Han en 113 av. J.-C., était souvent remis en cause, permettant ainsi à divers acteurs privés ou locaux d’émettre leurs propres monnaies, à condition que celles-ci bénéficient d'une confiance sociale suffisante.
+Le monopole monétaire de l’État, instauré relativement tard par l’empereur Wudi des Han en 113 av. J.-C., fut souvent contesté. Des acteurs privés ou locaux pouvaient émettre leurs propres monnaies, tant que celles-ci bénéficiaient d’une confiance sociale suffisante.
 
-**La valeur intrinsèque faible des monnaies chinoises évitait la thésaurisation, garantissant ainsi leur circulation fluide**. En effet, les métaux précieux étaient rarement utilisés comme monnaie courante pour éviter leur thésaurisation. Ils ne voulaient pas utiliser l'or parce que l'or, ça valait trop cher, donc thésaurisé. C'était ça le concept. **Seule la soie représentait une réelle monnaie de haute valeur dans les échanges internationaux chinois**. Les Chinois faisaient du commerce extérieur avec de la soie, pas avec de l’or.
+La faible valeur intrinsèque des monnaies chinoises empêchait la thésaurisation, ce qui garantissait une circulation fluide. Les métaux précieux étaient rarement utilisés comme monnaie courante pour éviter qu’ils ne soient mis en réserve. L’or, trop précieux, était donc exclu de la circulation quotidienne. La soie, en revanche, servait de véritable monnaie de haute valeur dans les échanges internationaux : la Chine commerçait à l’étranger avec de la soie, pas avec de l’or.
 
-Lors de crises économiques ou monétaires, notamment lorsque le prix du cuivre montait, des solutions innovantes furent adoptées : ainsi, dès le IIe siècle apr. J.-C., des monnaies en circulation furent coupées pour créer des unités plus petites, permettant de maintenir une circulation fluide à moindre coût. **D’autres périodes, telles que celle de Wang Mang (début Ier siècle apr. J.-C.), expérimentèrent des monnaies fortement fiduciaires avec des valeurs faciales très supérieures à leur contenu métallique réel, préfigurant ainsi les billets de banque**. Ce que ça veut dire, c'est qu'ils prenaient une pièce et estampaient disons 50, 100, 200 dessus pour représenter 200 pièces. Ça devait créer beaucoup d'inflation.
+Lors de crises économiques ou monétaires, notamment lorsque le prix du cuivre augmentait, des solutions innovantes furent adoptées : dès le IIe siècle apr. J.-C., certaines monnaies furent coupées pour créer des unités plus petites, maintenant la circulation à moindre coût. D’autres périodes, comme sous Wang Mang (début Ier siècle apr. J.-C.), expérimentèrent des monnaies fortement fiduciaires, avec des valeurs faciales très supérieures à leur contenu métallique, préfigurant ainsi les billets de banque. Concrètement, on frappait une valeur de 50, 100 ou 200 sur une pièce qui ne les valait pas réellement, ce qui entraînait de fortes pressions inflationnistes.
 
-Ce système reposait, comme mentionné précédemment, sur une convention sociale entre l'État, les producteurs et les commerçants mais aussi sur des règles autoritaires et sévères pour ceux qui ne jouaient pas le jeu notamment en lien avec le choix des pièces (belles ou pas belles) ou la longueur des tissus (non conforme à l’étalon). 
+Ce système reposait à la fois sur une convention sociale entre l’État, les producteurs et les commerçants, et sur des règles strictes. Ceux qui n’acceptaient pas les pièces abîmées, ou qui refusaient les tissus ne respectant pas les longueurs standards, risquaient des sanctions sévères.
 
-À mon humble avis, ce n'est pas très solide comme système. Il reposait surtout sur des règles strictes pour les fonctionnaires et les commerçants pour qu’ils acceptent les pièces endommagées, sous menace de sanctions.
+À mon avis, ce système manquait de solidité et dépendait surtout de la coercition pour fonctionner.
 
-### Innovations monétaires chinoises et leur impact économique
+### Innovations monétaires chinoises et  impact économique
+La Chine fut également pionnière dans l’émission de formes précoces de monnaie papier, adoptées d’abord en réponse à une pénurie de métal au IXe siècle apr. J.-C. Malgré leurs avantages, ces monnaies ont souvent provoqué des spirales inflationnistes lorsque l’État en émettait trop. Les dynasties Song et Ming en offrent de bons exemples , les émissions excessives ont conduit à de graves crises monétaires. Marco Polo, au XIIIe siècle, note même que la falsification de ces billets était punie de mort, preuve de la sévérité du système. On peut difficilement ignorer la violence de ces pratiques.
 
-La Chine est également pionnière dans l'émission de formes précoces de monnaie papier, initialement adoptées en réponse à une pénurie de métal au IXe siècle apr. J.-C. Malgré leurs avantages initiaux, ces monnaies papier ont régulièrement conduit à des spirales inflationnistes lorsqu'elles étaient émises en trop grande quantité, comme en témoignent les périodes Song ou Ming, où des émissions excessives entraînèrent de graves crises monétaires, illustrées par Marco Polo au XIIIe siècle, qui nota même que la falsification de cette monnaie papier était punie de mort. Je ne peux m'empêcher de souligner une forme de violence ici.
-
-Ainsi, l’expérience chinoise se caractérise par une conception profondément fiduciaire de la monnaie, une flexibilité remarquable du système monétaire et une utilisation précoce des monnaies papier, fondées sur la confiance entre les acteurs économiques plutôt que sur la valeur intrinsèque des supports utilisés.
+Ainsi, l’expérience chinoise se distingue par une conception profondément fiduciaire de la monnaie, une grande flexibilité du système monétaire et une adoption très précoce de la monnaie papier, fondée sur la confiance plutôt que sur la valeur intrinsèque du support.
 
 
 ## Organisation sociétale et économique durant l’antiquité 

@@ -1,7 +1,7 @@
 ---
-Název: Bitcoinová cesta
-Cíl: Objevte základy bitcoinu, včetně jeho peněžní hodnoty, těžařů, transakcí a peněženek.
-Výsledky:
+name: Bitcoinová cesta
+goal: Objevte základy bitcoinu, včetně jeho peněžní hodnoty, těžařů, transakcí a peněženek.
+objectives:
   - Získáte obecné znalosti o technologii Bitcoin
   - Zjistíte, jak nakupovat a zabezpečit bitcoiny
   - Budete mít obecné znalosti o technologii Blockchain

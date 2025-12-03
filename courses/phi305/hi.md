@@ -37,7 +37,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/001.webp)
+![image](assets/hi/001.webp)
 
 
 स्पिनोज़ा का चित्र
@@ -72,7 +72,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/002.webp)
+![image](assets/hi/002.webp)
 
 
 स्पिनोज़ा का चित्र
@@ -95,7 +95,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/003.webp)
+![image](assets/hi/003.webp)
 
 
 
@@ -103,7 +103,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/004.webp)
+![image](assets/hi/004.webp)
 
 
 
@@ -115,7 +115,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/005.webp)
+![image](assets/hi/005.webp)
 
 
 
@@ -153,7 +153,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/006.webp)
+![image](assets/hi/006.webp)
 
 
 
@@ -172,7 +172,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/007.webp)
+![image](assets/hi/007.webp)
 
 
 
@@ -192,10 +192,10 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/008.webp)
+![image](assets/hi/008.webp)
 
 
-![image](assets/fr/009.webp)
+![image](assets/hi/009.webp)
 
 
 
@@ -211,7 +211,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/010.webp)
+![image](assets/hi/010.webp)
 
 
 
@@ -271,7 +271,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/011.webp)
+![image](assets/hi/011.webp)
 
 
 
@@ -283,7 +283,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/012.webp)
+![image](assets/hi/012.webp)
 
 
 
@@ -315,7 +315,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/013.webp)
+![image](assets/hi/013.webp)
 
 
 
@@ -335,7 +335,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/014.webp)
+![image](assets/hi/014.webp)
 
 
 
@@ -373,7 +373,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/015.webp)
+![image](assets/hi/015.webp)
 
 
 
@@ -384,7 +384,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/016.webp)
+![image](assets/hi/016.webp)
 
 
 
@@ -396,7 +396,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/017.webp)
+![image](assets/hi/017.webp)
 
 
 
@@ -433,7 +433,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/018.webp)
+![image](assets/hi/018.webp)
 
 
 
@@ -445,7 +445,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/019.webp)
+![image](assets/hi/019.webp)
 
 
 
@@ -453,7 +453,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/020.webp)
+![image](assets/hi/020.webp)
 
 
 
@@ -500,7 +500,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/021.webp)
+![image](assets/hi/021.webp)
 
 
 
@@ -514,7 +514,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/022.webp)
+![image](assets/hi/022.webp)
 
 
 
@@ -526,7 +526,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/023.webp)
+![image](assets/hi/023.webp)
 
 
 
@@ -536,7 +536,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/024.webp)
+![image](assets/hi/024.webp)
 
 
 
@@ -544,7 +544,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/025.webp)
+![image](assets/hi/025.webp)
 
 
 
@@ -590,7 +590,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/026.webp)
+![image](assets/hi/026.webp)
 
 
 
@@ -614,7 +614,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/027.webp)
+![image](assets/hi/027.webp)
 
 
 
@@ -630,7 +630,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/028.webp)
+![image](assets/hi/028.webp)
 
 
 
@@ -658,7 +658,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/029.webp)
+![image](assets/hi/029.webp)
 
 
 
@@ -683,7 +683,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/030.webp)
+![image](assets/hi/030.webp)
 
 
 
@@ -718,7 +718,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/031.webp)
+![image](assets/hi/031.webp)
 
 
 
@@ -742,7 +742,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/032.webp)
+![image](assets/hi/032.webp)
 
 
 
@@ -758,7 +758,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/033.webp)
+![image](assets/hi/033.webp)
 
 
 
@@ -766,7 +766,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/034.webp)
+![image](assets/hi/034.webp)
 
 
 
@@ -782,7 +782,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/035.webp)
+![image](assets/hi/035.webp)
 
 
 
@@ -820,7 +820,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/036.webp)
+![image](assets/hi/036.webp)
 
 
 
@@ -844,7 +844,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/037.webp)
+![image](assets/hi/037.webp)
 
 
 
@@ -856,7 +856,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/038.webp)
+![image](assets/hi/038.webp)
 
 
 
@@ -876,7 +876,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/039.webp)
+![image](assets/hi/039.webp)
 
 
 
@@ -888,7 +888,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/040.webp)
+![image](assets/hi/040.webp)
 
 
 
@@ -896,7 +896,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/041.webp)
+![image](assets/hi/041.webp)
 
 
 
@@ -958,7 +958,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/042.webp)
+![image](assets/hi/042.webp)
 
 
 
@@ -966,7 +966,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/043.webp)
+![image](assets/hi/043.webp)
 
 
 
@@ -983,7 +983,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/044.webp)
+![image](assets/hi/044.webp)
 
 
 
@@ -1006,7 +1006,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/045.webp)
+![image](assets/hi/045.webp)
 
 
 
@@ -1048,7 +1048,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/046.webp)
+![image](assets/hi/046.webp)
 
 
 
@@ -1072,7 +1072,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/047.webp)
+![image](assets/hi/047.webp)
 
 
 
@@ -1088,7 +1088,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/048.webp)
+![image](assets/hi/048.webp)
 
 
 
@@ -1108,7 +1108,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/049.webp)
+![image](assets/hi/049.webp)
 
 
 
@@ -1128,7 +1128,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/050.webp)
+![image](assets/hi/050.webp)
 
 
 
@@ -1174,7 +1174,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 यह वास्तव में वही है जो ज्ञानोदयकालीन तर्कसंगत दर्शन के बारे में था, विशेष रूप से इमैनुअल कांट (1724-1804) के लिए धन्यवाद, जिनके अनुसार केवल एक शिक्षित व्यक्ति, तर्क के मार्गदर्शन में, स्वयं सोच सकता है और नैतिक रूप से यह निर्धारित कर सकता है कि क्या "सत्य" या "अच्छा" है, और क्या विषाक्त है।
 
 
-![image](assets/fr/051.webp)
+![image](assets/hi/051.webp)
 
 
 
@@ -1185,7 +1185,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/052.webp)
+![image](assets/hi/052.webp)
 
 
 
@@ -1193,7 +1193,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/053.webp)
+![image](assets/hi/053.webp)
 
 
 
@@ -1214,7 +1214,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/054.webp)
+![image](assets/hi/054.webp)
 
 
 
@@ -1222,7 +1222,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/055.webp)
+![image](assets/hi/055.webp)
 
 
 
@@ -1230,7 +1230,7 @@ bitcoin की दार्शनिक नींव को समझने औ�
 
 
 
-![image](assets/fr/056.webp)
+![image](assets/hi/056.webp)
 
 
 

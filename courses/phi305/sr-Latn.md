@@ -35,7 +35,7 @@ U ovom kursu, sa zadovoljstvom predstavljam filozofiju Barucha de Spinoze (1632-
 
 
 
-![image](assets/fr/001.webp)
+![image](assets/sr-Latn/001.webp)
 
 
 Portret Spinoze
@@ -70,7 +70,7 @@ Prvo, predstaviću vam Spinozu, njegov karakter, društvenu, versku i porodičnu
 
 
 
-![image](assets/fr/002.webp)
+![image](assets/sr-Latn/002.webp)
 
 
 Portret Spinoze
@@ -93,7 +93,7 @@ Takođe ćemo pogledati dva glavna dela Spinoze, počevši od Etike, objavljene 
 
 
 
-![image](assets/fr/003.webp)
+![image](assets/sr-Latn/003.webp)
 
 
 
@@ -101,7 +101,7 @@ Zatim ćemo pogledati Traité théologico-Politique, objavljen za njegovog živo
 
 
 
-![image](assets/fr/004.webp)
+![image](assets/sr-Latn/004.webp)
 
 
 
@@ -113,7 +113,7 @@ Zahvaljujući teoriji afekata razvijenoj na način geometara, "more geometrico",
 
 
 
-![image](assets/fr/005.webp)
+![image](assets/sr-Latn/005.webp)
 
 
 
@@ -149,7 +149,7 @@ Jevrejske vere, bio je član portugalske sefardske zajednice potomaka Marana koj
 
 
 
-![image](assets/fr/006.webp)
+![image](assets/sr-Latn/006.webp)
 
 
 
@@ -168,7 +168,7 @@ Naslednik, poput svojih savremenika Dekarta (1596-1650), Paskala (1632-1662) i N
 
 
 
-![image](assets/fr/007.webp)
+![image](assets/sr-Latn/007.webp)
 
 
 
@@ -188,10 +188,10 @@ I upravo taj pristup povezuje Spinozu sa filozofijom prosvetiteljstva, bilo nema
 
 
 
-![image](assets/fr/008.webp)
+![image](assets/sr-Latn/008.webp)
 
 
-![image](assets/fr/009.webp)
+![image](assets/sr-Latn/009.webp)
 
 
 
@@ -207,7 +207,7 @@ Bogatstvo, međutim, nije vezano za prirodne resurse, eksploataciju i pustošenj
 
 
 
-![image](assets/fr/010.webp)
+![image](assets/sr-Latn/010.webp)
 
 
 
@@ -265,7 +265,7 @@ Etika je delo napisano na latinskom jeziku na način geometara, verovatno inspir
 
 
 
-![image](assets/fr/011.webp)
+![image](assets/sr-Latn/011.webp)
 
 
 
@@ -277,7 +277,7 @@ Kao takva, Etika je, prema Spinozinim rečima, "način dolaska do slobode ili pu
 
 
 
-![image](assets/fr/012.webp)
+![image](assets/sr-Latn/012.webp)
 
 
 
@@ -309,7 +309,7 @@ Prvo, ako šansa ne postoji za Spinozu, to je zato što je to događaj čiji uzr
 
 
 
-![image](assets/fr/013.webp)
+![image](assets/sr-Latn/013.webp)
 
 
 
@@ -329,7 +329,7 @@ Prema Gillesu Deleuzu (1925-1995), poznatom profesoru filozofije i stručnjaku z
 
 
 
-![image](assets/fr/014.webp)
+![image](assets/sr-Latn/014.webp)
 
 
 
@@ -365,7 +365,7 @@ Ovo je Traité théologico-politique, ili TTP, objavljen anonimno 1670. godine.
 
 
 
-![image](assets/fr/015.webp)
+![image](assets/sr-Latn/015.webp)
 
 
 
@@ -376,7 +376,7 @@ Kao što smo videli, Spinozina koncepcija Boga je tema celog prvog dela Etike, u
 
 
 
-![image](assets/fr/016.webp)
+![image](assets/sr-Latn/016.webp)
 
 
 
@@ -388,7 +388,7 @@ Ovo je način na koji nam Spinoza pokazuje da Bog, prema njegovom mišljenju, ni
 
 
 
-![image](assets/fr/017.webp)
+![image](assets/sr-Latn/017.webp)
 
 
 
@@ -425,7 +425,7 @@ Zloglasni zemljotres u Lisabonu 1. novembra 1755. godine pokazao je veliki pomak
 
 
 
-![image](assets/fr/018.webp)
+![image](assets/sr-Latn/018.webp)
 
 
 
@@ -437,7 +437,7 @@ Drama koja je oživela pitanje koje je postavio nemački filozof i matematičar 
 
 
 
-![image](assets/fr/019.webp)
+![image](assets/sr-Latn/019.webp)
 
 
 
@@ -445,7 +445,7 @@ Daleko od toga da proklinje ruku Božju, Žan-Žak Ruso (1712-1778) pisao je Vol
 
 
 
-![image](assets/fr/020.webp)
+![image](assets/sr-Latn/020.webp)
 
 
 
@@ -490,7 +490,7 @@ Baš kao što je Nicolas Copernicus (1473-1543) ustanovio da Zemlja nije centar 
 
 
 
-![image](assets/fr/021.webp)
+![image](assets/sr-Latn/021.webp)
 
 
 
@@ -504,7 +504,7 @@ Pre njega, klasična grčka filozofija predložila je uređen, hijerarhijski pog
 
 
 
-![image](assets/fr/022.webp)
+![image](assets/sr-Latn/022.webp)
 
 
 
@@ -516,7 +516,7 @@ Ali sa novom fizikom Kopernika (1473-1543) u 15. veku, kosmologija je doživela 
 
 
 
-![image](assets/fr/023.webp)
+![image](assets/sr-Latn/023.webp)
 
 
 
@@ -526,7 +526,7 @@ Ali da bismo u potpunosti razumeli Spinozizam, takođe moramo uzeti u obzir kont
 
 
 
-![image](assets/fr/024.webp)
+![image](assets/sr-Latn/024.webp)
 
 
 
@@ -534,7 +534,7 @@ Uprkos rizicima i osudama Đordana Bruna (1548-1600) i Galileja, Dekart je krenu
 
 
 
-![image](assets/fr/025.webp)
+![image](assets/sr-Latn/025.webp)
 
 
 
@@ -578,7 +578,7 @@ Kao što smo već videli, Spinoza (1632-1677) je poznat po tome što slobodnu vo
 
 
 
-![image](assets/fr/026.webp)
+![image](assets/sr-Latn/026.webp)
 
 
 
@@ -602,7 +602,7 @@ U vođenju svog života, jer ne bi bio podložan nijednom zakonu osim zakonu svo
 
 
 
-![image](assets/fr/027.webp)
+![image](assets/sr-Latn/027.webp)
 
 
 
@@ -618,7 +618,7 @@ Ovo je ideja apsolutnog determinizma, iz koje on u svojoj Etici postavlja da lju
 
 
 
-![image](assets/fr/028.webp)
+![image](assets/sr-Latn/028.webp)
 
 
 
@@ -646,7 +646,7 @@ Ovaj pristup slobodi kao sposobnosti delovanja je veza koju možemo uspostaviti 
 
 
 
-![image](assets/fr/029.webp)
+![image](assets/sr-Latn/029.webp)
 
 
 
@@ -671,7 +671,7 @@ Konačno, vredi istaći da, iako se libertarijanski pokret o kojem ćemo diskuto
 
 
 
-![image](assets/fr/030.webp)
+![image](assets/sr-Latn/030.webp)
 
 
 
@@ -704,7 +704,7 @@ Ali za Spinozu (1632-1677), čovek nije "carstvo unutar carstva", tj. on nije, s
 
 
 
-![image](assets/fr/031.webp)
+![image](assets/sr-Latn/031.webp)
 
 
 
@@ -728,7 +728,7 @@ I zato su nove bolesti kao što su AIDS u 90-im ili covid u 2020. godini uvek bi
 
 
 
-![image](assets/fr/032.webp)
+![image](assets/sr-Latn/032.webp)
 
 
 
@@ -744,7 +744,7 @@ I ovo je tačno ono što je francuski prirodnjak Žan-Baptist de Lamark (1744-18
 
 
 
-![image](assets/fr/033.webp)
+![image](assets/sr-Latn/033.webp)
 
 
 
@@ -752,7 +752,7 @@ Ali, kako Spinoza kaže, "obmana ljudi tu ne prestaje", i među svim primerima n
 
 
 
-![image](assets/fr/034.webp)
+![image](assets/sr-Latn/034.webp)
 
 
 
@@ -768,7 +768,7 @@ Međutim, ova pristrasna interpretacija inflacije navodi nas da zaboravimo da, i
 
 
 
-![image](assets/fr/035.webp)
+![image](assets/sr-Latn/035.webp)
 
 
 
@@ -804,7 +804,7 @@ U ovom završnom poglavlju o novoj kopernikanskoj viziji ideja koju nudi spinozi
 
 
 
-![image](assets/fr/036.webp)
+![image](assets/sr-Latn/036.webp)
 
 
 
@@ -828,7 +828,7 @@ Drugim rečima, starac sa belom bradom skriven iza oblaka, kojem se pripisuje st
 
 
 
-![image](assets/fr/037.webp)
+![image](assets/sr-Latn/037.webp)
 
 
 
@@ -840,7 +840,7 @@ Ali uprkos našem ponosu što verujemo da smo iznad Prirode i što zamišljamo d
 
 
 
-![image](assets/fr/038.webp)
+![image](assets/sr-Latn/038.webp)
 
 
 
@@ -860,7 +860,7 @@ Drugim rečima, "ozloglašeni" prema Volteru (1694-1778), za koga sujeverje nika
 
 
 
-![image](assets/fr/039.webp)
+![image](assets/sr-Latn/039.webp)
 
 
 
@@ -872,7 +872,7 @@ Ovo je ono što su nemačko, englesko i francusko prosvetiteljstvo branili od 18
 
 
 
-![image](assets/fr/040.webp)
+![image](assets/sr-Latn/040.webp)
 
 
 
@@ -880,7 +880,7 @@ I ovo je ono što Spinoza ponovo pokazuje u svom Teološko-političkom traktatu,
 
 
 
-![image](assets/fr/041.webp)
+![image](assets/sr-Latn/041.webp)
 
 
 
@@ -940,7 +940,7 @@ Drevni filozofi su verovali da zlo ne postoji u prirodi, a Sokrat (470-399 p.n.e
 
 
 
-![image](assets/fr/042.webp)
+![image](assets/sr-Latn/042.webp)
 
 
 
@@ -948,7 +948,7 @@ Ali školska tradicija, posebno ona Svetog Avgustina (354-430), koja i danas uti
 
 
 
-![image](assets/fr/043.webp)
+![image](assets/sr-Latn/043.webp)
 
 
 
@@ -965,7 +965,7 @@ Naravno, kao što možete zamisliti, ovu ideju je rastrgao Spinoza, koji smatra 
 
 
 
-![image](assets/fr/044.webp)
+![image](assets/sr-Latn/044.webp)
 
 
 
@@ -988,7 +988,7 @@ Zato Spinozist Gilles Deleuze (1925-1995) objašnjava da je etika vrsta etologij
 
 
 
-![image](assets/fr/045.webp)
+![image](assets/sr-Latn/045.webp)
 
 
 
@@ -1028,7 +1028,7 @@ On razvija svoj sistem u trećem delu Etike. To je čuvena "teorija afekata".
 
 
 
-![image](assets/fr/046.webp)
+![image](assets/sr-Latn/046.webp)
 
 
 
@@ -1052,7 +1052,7 @@ Ovo je ono što Spinoza kaže u svojoj Etici, kada je iznenađen da "ljudi čest
 
 
 
-![image](assets/fr/047.webp)
+![image](assets/sr-Latn/047.webp)
 
 
 
@@ -1068,7 +1068,7 @@ Ovo je posebno tačno, uzgred budi rečeno, u oblasti kriptovaluta.
 
 
 
-![image](assets/fr/048.webp)
+![image](assets/sr-Latn/048.webp)
 
 
 
@@ -1088,7 +1088,7 @@ Ovo je primer munje. Jer kada munja udari i ubije nevine ljude, neuki će to če
 
 
 
-![image](assets/fr/049.webp)
+![image](assets/sr-Latn/049.webp)
 
 
 
@@ -1108,7 +1108,7 @@ Ovo je genijalnost Etike. Spinoza nam pokazuje da je moguće preći iz dobrovolj
 
 
 
-![image](assets/fr/050.webp)
+![image](assets/sr-Latn/050.webp)
 
 
 
@@ -1152,7 +1152,7 @@ Na kraju, ova lucidnost znači prestanak življenja u nihilizmu koji je kasnije 
 Ovo je upravo ono o čemu je racionalna filozofija prosvetiteljstva govorila, zahvaljujući posebno Immanuelu Kantu (1724-1804), za koga samo obrazovana osoba, pod vođstvom razuma, može misliti za sebe i odrediti, etički, šta je "istina" ili "dobro," a šta je toksično.
 
 
-![image](assets/fr/051.webp)
+![image](assets/sr-Latn/051.webp)
 
 
 
@@ -1163,7 +1163,7 @@ To je linija razmišljanja koja povezuje sa austrijskom školom liberalne ekonom
 
 
 
-![image](assets/fr/052.webp)
+![image](assets/sr-Latn/052.webp)
 
 
 
@@ -1171,7 +1171,7 @@ Menger i Mises su ustanovili, na primer, da se svo znanje mora konstruisati prem
 
 
 
-![image](assets/fr/053.webp)
+![image](assets/sr-Latn/053.webp)
 
 
 
@@ -1192,7 +1192,7 @@ Kao Spinozista, Hayek objašnjava u videu da "pošto se ova moć ne može oduzet
 
 
 
-![image](assets/fr/054.webp)
+![image](assets/sr-Latn/054.webp)
 
 
 
@@ -1200,7 +1200,7 @@ Ovo su politički i ekonomski argumenti koje su izneli prvi cypherpunks, Eric Hu
 
 
 
-![image](assets/fr/055.webp)
+![image](assets/sr-Latn/055.webp)
 
 
 
@@ -1208,7 +1208,7 @@ Posebno kada je upisao naslov iz Times-a od 3. januara 2009. u coinbase bloka Ge
 
 
 
-![image](assets/fr/056.webp)
+![image](assets/sr-Latn/056.webp)
 
 
 

@@ -35,7 +35,7 @@ objectives:
 
 
 
-![image](assets/fr/001.webp)
+![image](assets/fa/001.webp)
 
 
 پرتره اسپینوزا
@@ -70,7 +70,7 @@ objectives:
 
 
 
-![image](assets/fr/002.webp)
+![image](assets/fa/002.webp)
 
 
 پرتره اسپینوزا
@@ -93,7 +93,7 @@ objectives:
 
 
 
-![image](assets/fr/003.webp)
+![image](assets/fa/003.webp)
 
 
 
@@ -101,7 +101,7 @@ objectives:
 
 
 
-![image](assets/fr/004.webp)
+![image](assets/fa/004.webp)
 
 
 
@@ -113,7 +113,7 @@ objectives:
 
 
 
-![image](assets/fr/005.webp)
+![image](assets/fa/005.webp)
 
 
 
@@ -149,7 +149,7 @@ objectives:
 
 
 
-![image](assets/fr/006.webp)
+![image](assets/fa/006.webp)
 
 
 
@@ -168,7 +168,7 @@ objectives:
 
 
 
-![image](assets/fr/007.webp)
+![image](assets/fa/007.webp)
 
 
 
@@ -188,10 +188,10 @@ objectives:
 
 
 
-![image](assets/fr/008.webp)
+![image](assets/fa/008.webp)
 
 
-![image](assets/fr/009.webp)
+![image](assets/fa/009.webp)
 
 
 
@@ -207,7 +207,7 @@ objectives:
 
 
 
-![image](assets/fr/010.webp)
+![image](assets/fa/010.webp)
 
 
 
@@ -265,7 +265,7 @@ objectives:
 
 
 
-![image](assets/fr/011.webp)
+![image](assets/fa/011.webp)
 
 
 
@@ -277,7 +277,7 @@ objectives:
 
 
 
-![image](assets/fr/012.webp)
+![image](assets/fa/012.webp)
 
 
 
@@ -309,7 +309,7 @@ objectives:
 
 
 
-![image](assets/fr/013.webp)
+![image](assets/fa/013.webp)
 
 
 
@@ -329,7 +329,7 @@ objectives:
 
 
 
-![image](assets/fr/014.webp)
+![image](assets/fa/014.webp)
 
 
 
@@ -365,7 +365,7 @@ objectives:
 
 
 
-![image](assets/fr/015.webp)
+![image](assets/fa/015.webp)
 
 
 
@@ -376,7 +376,7 @@ objectives:
 
 
 
-![image](assets/fr/016.webp)
+![image](assets/fa/016.webp)
 
 
 
@@ -388,7 +388,7 @@ objectives:
 
 
 
-![image](assets/fr/017.webp)
+![image](assets/fa/017.webp)
 
 
 
@@ -425,7 +425,7 @@ objectives:
 
 
 
-![image](assets/fr/018.webp)
+![image](assets/fa/018.webp)
 
 
 
@@ -437,7 +437,7 @@ objectives:
 
 
 
-![image](assets/fr/019.webp)
+![image](assets/fa/019.webp)
 
 
 
@@ -445,7 +445,7 @@ objectives:
 
 
 
-![image](assets/fr/020.webp)
+![image](assets/fa/020.webp)
 
 
 
@@ -490,7 +490,7 @@ objectives:
 
 
 
-![image](assets/fr/021.webp)
+![image](assets/fa/021.webp)
 
 
 
@@ -504,7 +504,7 @@ objectives:
 
 
 
-![image](assets/fr/022.webp)
+![image](assets/fa/022.webp)
 
 
 
@@ -516,7 +516,7 @@ objectives:
 
 
 
-![image](assets/fr/023.webp)
+![image](assets/fa/023.webp)
 
 
 
@@ -526,7 +526,7 @@ objectives:
 
 
 
-![image](assets/fr/024.webp)
+![image](assets/fa/024.webp)
 
 
 
@@ -534,7 +534,7 @@ objectives:
 
 
 
-![image](assets/fr/025.webp)
+![image](assets/fa/025.webp)
 
 
 
@@ -578,7 +578,7 @@ objectives:
 
 
 
-![image](assets/fr/026.webp)
+![image](assets/fa/026.webp)
 
 
 
@@ -602,7 +602,7 @@ objectives:
 
 
 
-![image](assets/fr/027.webp)
+![image](assets/fa/027.webp)
 
 
 
@@ -618,7 +618,7 @@ objectives:
 
 
 
-![image](assets/fr/028.webp)
+![image](assets/fa/028.webp)
 
 
 
@@ -646,7 +646,7 @@ objectives:
 
 
 
-![image](assets/fr/029.webp)
+![image](assets/fa/029.webp)
 
 
 
@@ -671,7 +671,7 @@ objectives:
 
 
 
-![image](assets/fr/030.webp)
+![image](assets/fa/030.webp)
 
 
 
@@ -704,7 +704,7 @@ objectives:
 
 
 
-![image](assets/fr/031.webp)
+![image](assets/fa/031.webp)
 
 
 
@@ -728,7 +728,7 @@ objectives:
 
 
 
-![image](assets/fr/032.webp)
+![image](assets/fa/032.webp)
 
 
 
@@ -744,7 +744,7 @@ objectives:
 
 
 
-![image](assets/fr/033.webp)
+![image](assets/fa/033.webp)
 
 
 
@@ -752,7 +752,7 @@ objectives:
 
 
 
-![image](assets/fr/034.webp)
+![image](assets/fa/034.webp)
 
 
 
@@ -768,7 +768,7 @@ objectives:
 
 
 
-![image](assets/fr/035.webp)
+![image](assets/fa/035.webp)
 
 
 
@@ -804,7 +804,7 @@ objectives:
 
 
 
-![image](assets/fr/036.webp)
+![image](assets/fa/036.webp)
 
 
 
@@ -828,7 +828,7 @@ objectives:
 
 
 
-![image](assets/fr/037.webp)
+![image](assets/fa/037.webp)
 
 
 
@@ -840,7 +840,7 @@ objectives:
 
 
 
-![image](assets/fr/038.webp)
+![image](assets/fa/038.webp)
 
 
 
@@ -860,7 +860,7 @@ objectives:
 
 
 
-![image](assets/fr/039.webp)
+![image](assets/fa/039.webp)
 
 
 
@@ -872,7 +872,7 @@ objectives:
 
 
 
-![image](assets/fr/040.webp)
+![image](assets/fa/040.webp)
 
 
 
@@ -880,7 +880,7 @@ objectives:
 
 
 
-![image](assets/fr/041.webp)
+![image](assets/fa/041.webp)
 
 
 
@@ -940,7 +940,7 @@ objectives:
 
 
 
-![image](assets/fr/042.webp)
+![image](assets/fa/042.webp)
 
 
 
@@ -948,7 +948,7 @@ objectives:
 
 
 
-![image](assets/fr/043.webp)
+![image](assets/fa/043.webp)
 
 
 
@@ -965,7 +965,7 @@ objectives:
 
 
 
-![image](assets/fr/044.webp)
+![image](assets/fa/044.webp)
 
 
 
@@ -988,7 +988,7 @@ objectives:
 
 
 
-![image](assets/fr/045.webp)
+![image](assets/fa/045.webp)
 
 
 
@@ -1028,7 +1028,7 @@ objectives:
 
 
 
-![image](assets/fr/046.webp)
+![image](assets/fa/046.webp)
 
 
 
@@ -1052,7 +1052,7 @@ objectives:
 
 
 
-![image](assets/fr/047.webp)
+![image](assets/fa/047.webp)
 
 
 
@@ -1068,7 +1068,7 @@ objectives:
 
 
 
-![image](assets/fr/048.webp)
+![image](assets/fa/048.webp)
 
 
 
@@ -1088,7 +1088,7 @@ objectives:
 
 
 
-![image](assets/fr/049.webp)
+![image](assets/fa/049.webp)
 
 
 
@@ -1108,7 +1108,7 @@ objectives:
 
 
 
-![image](assets/fr/050.webp)
+![image](assets/fa/050.webp)
 
 
 
@@ -1152,7 +1152,7 @@ objectives:
 این دقیقاً همان چیزی است که فلسفه عقلانی روشنگری به آن می‌پرداخت، به‌ویژه به لطف ایمانوئل کانت (1724-1804)، که برای او تنها یک فرد تحصیل‌کرده، تحت هدایت عقل، می‌تواند برای خود فکر کند و به‌طور اخلاقی تعیین کند که چه چیزی "درست" یا "خوب" است و چه چیزی سمی است.
 
 
-![image](assets/fr/051.webp)
+![image](assets/fa/051.webp)
 
 
 
@@ -1163,7 +1163,7 @@ objectives:
 
 
 
-![image](assets/fr/052.webp)
+![image](assets/fa/052.webp)
 
 
 
@@ -1171,7 +1171,7 @@ objectives:
 
 
 
-![image](assets/fr/053.webp)
+![image](assets/fa/053.webp)
 
 
 
@@ -1192,7 +1192,7 @@ objectives:
 
 
 
-![image](assets/fr/054.webp)
+![image](assets/fa/054.webp)
 
 
 
@@ -1200,7 +1200,7 @@ objectives:
 
 
 
-![image](assets/fr/055.webp)
+![image](assets/fa/055.webp)
 
 
 
@@ -1208,7 +1208,7 @@ objectives:
 
 
 
-![image](assets/fr/056.webp)
+![image](assets/fa/056.webp)
 
 
 

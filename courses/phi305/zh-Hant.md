@@ -35,7 +35,7 @@ objectives:
 
 
 
-![image](assets/fr/001.webp)
+![image](assets/zh-Hant/001.webp)
 
 
 斯賓諾莎肖像
@@ -70,7 +70,7 @@ objectives:
 
 
 
-![image](assets/fr/002.webp)
+![image](assets/zh-Hant/002.webp)
 
 
 斯賓諾莎肖像
@@ -93,7 +93,7 @@ objectives:
 
 
 
-![image](assets/fr/003.webp)
+![image](assets/zh-Hant/003.webp)
 
 
 
@@ -101,7 +101,7 @@ objectives:
 
 
 
-![image](assets/fr/004.webp)
+![image](assets/zh-Hant/004.webp)
 
 
 
@@ -113,7 +113,7 @@ objectives:
 
 
 
-![image](assets/fr/005.webp)
+![image](assets/zh-Hant/005.webp)
 
 
 
@@ -149,7 +149,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/006.webp)
+![image](assets/zh-Hant/006.webp)
 
 
 
@@ -168,7 +168,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/007.webp)
+![image](assets/zh-Hant/007.webp)
 
 
 
@@ -188,10 +188,10 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/008.webp)
+![image](assets/zh-Hant/008.webp)
 
 
-![image](assets/fr/009.webp)
+![image](assets/zh-Hant/009.webp)
 
 
 
@@ -207,7 +207,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/010.webp)
+![image](assets/zh-Hant/010.webp)
 
 
 
@@ -265,7 +265,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/011.webp)
+![image](assets/zh-Hant/011.webp)
 
 
 
@@ -277,7 +277,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/012.webp)
+![image](assets/zh-Hant/012.webp)
 
 
 
@@ -309,7 +309,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/013.webp)
+![image](assets/zh-Hant/013.webp)
 
 
 
@@ -329,7 +329,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/014.webp)
+![image](assets/zh-Hant/014.webp)
 
 
 
@@ -365,7 +365,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/015.webp)
+![image](assets/zh-Hant/015.webp)
 
 
 
@@ -376,7 +376,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/016.webp)
+![image](assets/zh-Hant/016.webp)
 
 
 
@@ -388,7 +388,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/017.webp)
+![image](assets/zh-Hant/017.webp)
 
 
 
@@ -425,7 +425,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/018.webp)
+![image](assets/zh-Hant/018.webp)
 
 
 
@@ -437,7 +437,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/019.webp)
+![image](assets/zh-Hant/019.webp)
 
 
 
@@ -445,7 +445,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/020.webp)
+![image](assets/zh-Hant/020.webp)
 
 
 
@@ -490,7 +490,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/021.webp)
+![image](assets/zh-Hant/021.webp)
 
 
 
@@ -504,7 +504,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/022.webp)
+![image](assets/zh-Hant/022.webp)
 
 
 
@@ -516,7 +516,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/023.webp)
+![image](assets/zh-Hant/023.webp)
 
 
 
@@ -526,7 +526,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/024.webp)
+![image](assets/zh-Hant/024.webp)
 
 
 
@@ -534,7 +534,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/025.webp)
+![image](assets/zh-Hant/025.webp)
 
 
 
@@ -578,7 +578,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/026.webp)
+![image](assets/zh-Hant/026.webp)
 
 
 
@@ -602,7 +602,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/027.webp)
+![image](assets/zh-Hant/027.webp)
 
 
 
@@ -618,7 +618,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/028.webp)
+![image](assets/zh-Hant/028.webp)
 
 
 
@@ -646,7 +646,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/029.webp)
+![image](assets/zh-Hant/029.webp)
 
 
 
@@ -671,7 +671,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/030.webp)
+![image](assets/zh-Hant/030.webp)
 
 
 
@@ -704,7 +704,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/031.webp)
+![image](assets/zh-Hant/031.webp)
 
 
 
@@ -728,7 +728,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/032.webp)
+![image](assets/zh-Hant/032.webp)
 
 
 
@@ -744,7 +744,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/033.webp)
+![image](assets/zh-Hant/033.webp)
 
 
 
@@ -752,7 +752,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/034.webp)
+![image](assets/zh-Hant/034.webp)
 
 
 
@@ -768,7 +768,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/035.webp)
+![image](assets/zh-Hant/035.webp)
 
 
 
@@ -804,7 +804,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/036.webp)
+![image](assets/zh-Hant/036.webp)
 
 
 
@@ -828,7 +828,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/037.webp)
+![image](assets/zh-Hant/037.webp)
 
 
 
@@ -840,7 +840,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/038.webp)
+![image](assets/zh-Hant/038.webp)
 
 
 
@@ -860,7 +860,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/039.webp)
+![image](assets/zh-Hant/039.webp)
 
 
 
@@ -872,7 +872,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/040.webp)
+![image](assets/zh-Hant/040.webp)
 
 
 
@@ -880,7 +880,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/041.webp)
+![image](assets/zh-Hant/041.webp)
 
 
 
@@ -940,7 +940,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/042.webp)
+![image](assets/zh-Hant/042.webp)
 
 
 
@@ -948,7 +948,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/043.webp)
+![image](assets/zh-Hant/043.webp)
 
 
 
@@ -965,7 +965,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/044.webp)
+![image](assets/zh-Hant/044.webp)
 
 
 
@@ -988,7 +988,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/045.webp)
+![image](assets/zh-Hant/045.webp)
 
 
 
@@ -1028,7 +1028,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/046.webp)
+![image](assets/zh-Hant/046.webp)
 
 
 
@@ -1052,7 +1052,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/047.webp)
+![image](assets/zh-Hant/047.webp)
 
 
 
@@ -1068,7 +1068,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/048.webp)
+![image](assets/zh-Hant/048.webp)
 
 
 
@@ -1088,7 +1088,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/049.webp)
+![image](assets/zh-Hant/049.webp)
 
 
 
@@ -1108,7 +1108,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/050.webp)
+![image](assets/zh-Hant/050.webp)
 
 
 
@@ -1152,7 +1152,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 這正是啟蒙時期理性哲學的目的，特別要感謝伊曼紐爾‧康德（Immanuel Kant，1724-1804），對他來說，只有受過教育的個人，在理性的引導下，才能自己思考，並在倫理上決定什麼是「真」或「善」，什麼是有毒的。
 
 
-![image](assets/fr/051.webp)
+![image](assets/zh-Hant/051.webp)
 
 
 
@@ -1163,7 +1163,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/052.webp)
+![image](assets/zh-Hant/052.webp)
 
 
 
@@ -1171,7 +1171,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/053.webp)
+![image](assets/zh-Hant/053.webp)
 
 
 
@@ -1192,7 +1192,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/054.webp)
+![image](assets/zh-Hant/054.webp)
 
 
 
@@ -1200,7 +1200,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/055.webp)
+![image](assets/zh-Hant/055.webp)
 
 
 
@@ -1208,7 +1208,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](assets/fr/056.webp)
+![image](assets/zh-Hant/056.webp)
 
 
 

@@ -4,32 +4,38 @@ description: Comment lancer facilement son propre nœud Lightning ?
 ---
 ![cover](assets/cover.webp)
 
-Alby Hub est le dernier logiciel open-source de Alby, la société derrière l'extension web Lightning populaire. Alby Hub est un portefeuille auto-dépositaire avec le nœud Lightning le plus facile à utiliser, accessible de partout pour s'intégrer avec des dizaines d'applications. Alby Hub est une interface facile à utiliser pour gérer les nœuds Lightning.
+Alby Hub est le tout dernier logiciel open-source développé par Alby, l’entreprise à l’origine de la populaire extension web Lightning.
+Il s’agit d’un portefeuille auto-dépositaire intégré à un nœud Lightning, conçu pour être le plus simple possible à utiliser. Grâce à Alby Hub, vous pouvez gérer votre nœud et vos fonds de manière autonome, tout en profitant d’une interface accessible depuis n’importe où et compatible avec des dizaines d’applications.
 
-Dans ce tutoriel, nous allons explorer différentes façons d'utiliser Alby Hub et comment le connecter à Alby Go, l'application mobile de Alby, ou à l'extension de navigateur Alby. Cela vous permettra de dépenser vos sats en déplacement tout en restant autonome dans la gestion de votre nœud.
+Dans ce tutoriel, nous verrons comment utiliser Alby Hub de différentes façons, ainsi que la procédure pour le connecter à Alby Go — l’application mobile d’Alby — ou à l’extension de navigateur Alby.
+Cette connexion vous permettra de dépenser vos sats en déplacement tout en conservant un contrôle total sur votre propre nœud Lightning.
 
 ![ALBY HUB](assets/fr/01.webp)
 
 ## C'est quoi Alby Hub ?
 
-Alby Hub est destiné à devenir le nouvel outil phare de l'écosystème Alby. Ce logiciel permet aux utilisateurs de gérer facilement leur propre portefeuille auto-dépositaire avec un nœud Lightning intégré, tout en conservant la propriété de leurs clés (self-custody).
+Alby Hub est conçu pour devenir l’outil central de l’écosystème Alby.
+Ce logiciel offre aux utilisateurs une manière simple et intuitive de gérer leur propre portefeuille en self-custody, tout en intégrant un nœud Lightning complet. Avec Alby Hub, vous conservez la pleine propriété de vos clés et gardez un contrôle total sur vos fonds, sans dépendre d’un service tiers.
 
-Alby Hub est un outil très adaptable. Il peut répondre aux besoins d'utilisateurs débutants comme avancés. Les novices l'utiliseront pour opérer facilement un vrai nœud Lightning en toute autonomie, sans se heurter à la complexité sous-jacente. Pour les utilisateurs plus expérimentés, Alby Hub peut être utilisé comme une interface complète pour la gestion avancée d'un nœud Lightning déjà existant.
+Alby Hub est un outil particulièrement polyvalent, capable de s’adapter aussi bien aux débutants qu’aux utilisateurs avancés.
+Pour les novices, il offre un moyen simple d’exploiter un véritable nœud Lightning en toute autonomie, sans avoir à affronter la complexité technique habituellement associée à ce type d’infrastructure.
+Pour les utilisateurs expérimentés, Alby Hub peut servir d’interface complète et puissante pour administrer un nœud Lightning déjà existant, en leur donnant accès à des outils de gestion avancée.
 
 Selon votre utilisation, Alby Hub peut se décliner en 4 configurations :
 
 - **Alby Hub Cloud :**
-Idéale pour les novices, cette première option est l’option cloud d’Alby. Elle vous permet de déployer un Hub directement sur un serveur géré par Alby, accessible via votre interface Alby Hub. Bien qu’Alby gère le serveur, vous conservez la souveraineté sur vos fonds, car vos clés sont chiffrées à l'aide d'un mot de passe connu uniquement de vous. Cependant, vos clés doivent rester déchiffrées en RAM pour que le nœud fonctionne, ce qui les expose théoriquement à un risque si quelqu'un accède physiquement au serveur. C'est un compromis intéressant pour les débutants, mais il est important d'être conscient des risques.
+Cette première option est la solution cloud proposée par Alby. Elle permet de déployer un Hub sur un serveur géré par Alby, accessible depuis votre interface Alby Hub. Même si l’infrastructure est hébergée par Alby, vous gardez le contrôle de vos fonds : vos clés sont chiffrées avec un mot de passe qui n’est connu que de vous.
+Cependant, pour que le nœud fonctionne, les clés doivent être déchiffrées en RAM. Cela implique qu’en cas d’accès physique au serveur ou de compromission de la machine, elles pourraient être exposées. Autrement dit, cette option reste pratique et simple pour les débutants, mais elle repose sur un niveau de confiance non négligeable envers l’hébergeur et comporte un risque résiduel lié au cloud.
 
 Cette option présente l'avantage majeur de vous offrir un nœud Lightning opérationnel 24h/24, 7j/7, sans avoir à gérer vous-même l'hébergement. De plus, les sauvegardes de votre nœud Lightning sont simplifiées et automatisées par rapport aux options auto-hébergées où vous devez gérer vous-même la sauvegarde des canaux.
 
 Alby Cloud est un service payant [Consultez leurs tarifs](https://albyhub.com/#pricing) pour plus de détails. Les frais sont automatiquement déduits de votre portefeuille via une facture Lightning émise par Alby. Cela se fait via une connexion NWC qui configure votre nœud pour payer automatiquement les factures Alby liées à votre abonnement.
 
 - **Alby Hub avec un nœud existant :**
-Si vous possédez déjà un nœud hébergé, par exemple sur Umbrel ou Start9, Alby Hub peut être utilisé comme une interface de gestion avancée, de la même manière que ThunderHub ou RTL.
+Si vous disposez déjà d’un nœud hébergé — par exemple sur Umbrel ou Start9 — vous pouvez utiliser Alby Hub comme interface de gestion supplémentaire. Il fonctionne alors de manière comparable à ThunderHub ou RTL, en offrant une vue centralisée et des outils avancés pour administrer votre nœud existant.
 
 - **Alby Hub en local :**
-Il est également possible d’installer Alby Hub directement sur votre PC, bien que cette option soit moins pratique, car votre PC doit rester actif en permanence pour accéder à distance au nœud Lightning. Cependant, cette alternative peut convenir à vos besoins spécifiques.
+Il est également possible d’installer Alby Hub directement sur votre ordinateur. Cette option est toutefois moins pratique, car votre machine doit rester allumée en continu pour permettre un accès à distance à votre nœud Lightning. Malgré ces contraintes, cette solution peut être adaptée si elle correspond à vos besoins particuliers.
 
 - **Alby Hub sur un serveur personnel :**
 Pour les utilisateurs avancés, Alby Hub peut être déployé sur un serveur personnel avec une simple commande. Cette option n'est pas couverte dans ce tutoriel, mais vous pouvez trouver les instructions dédiées [sur le GitHub d'Alby](https://github.com/getAlby/hub?tab=readme-ov-file#docker).
@@ -68,7 +74,7 @@ Cliquez de nouveau sur "*Continue*".
 
 ## L'option d'hébergement cloud
 
-Vous devrez ensuite choisir entre une option auto-hébergée, où vous installez Alby Hub sur votre propre appareil, ou des options premium. Je vais commencer par expliquer comment procéder avec l’option Pro Cloud (notez qu’il s’agit d’une option payante, voir les détails dans la section précédente).
+Vous devrez ensuite choisir entre une option auto-hébergée, où Alby Hub est installé sur votre propre appareil, ou l’une des options premium. Nous allons commencer par la procédure liée à l’option Pro Cloud. Notez qu’il s’agit d’une offre payante, comme expliqué dans la section précédente.
 
 Cliquez sur "*Upgrade*".
 
@@ -93,7 +99,9 @@ Et voilà, votre Alby Hub est maintenant configuré. Dans la prochaine section, 
 
 ## L'option d'auto-hébergement
 
-Si vous préférez utiliser Alby Hub comme interface pour votre nœud Lightning existant, vous avez plusieurs options : l'installer sur un serveur, en local sur votre ordinateur, ou via un node-in-box (Umbrel ou Start9). L'utilisation d'Alby Hub dans ces configurations est gratuite. Nous allons nous concentrer sur l'option node-in-box, car je trouve que l'option serveur, sans accès physique, présente des risques similaires à la version cloud, et l'installation locale sur PC est souvent inadaptée.
+Si vous souhaitez utiliser Alby Hub comme interface pour un nœud Lightning que vous possédez déjà, plusieurs possibilités s’offrent à vous : l’installer sur un serveur, l’exécuter localement sur votre ordinateur, ou l’utiliser via une solution type node-in-a-box comme Umbrel ou Start9.
+Dans toutes ces configurations, l’utilisation d’Alby Hub est gratuite.
+Nous allons nous concentrer sur l’option node-in-a-box, car l’installation sur un serveur sans accès physique comporte des risques proches de ceux du cloud, tandis que l’installation locale sur PC est souvent peu adaptée en pratique.
 
 Pour configurer cela sur Umbrel (les étapes pour Start9 sont identiques), vous devez d'abord avoir un nœud LND déjà configuré.
 
@@ -119,9 +127,9 @@ Cliquez sur le bouton "*Get Started*".
 
 ![ALBY HUB](assets/fr/18.webp)
 
-Alby Hub vous invitera ensuite à choisir un mot de passe. Ce mot de passe est très important, car il sera utilisé pour chiffrer votre portefeuille. Dans la version cloud payante, vos clés sont conservées sur le serveur d'Alby, chiffrées avec ce mot de passe que vous êtes le seul à connaître, puis déchiffrées et stockées uniquement en RAM pour signer les transactions quand nécessaire.
+Alby Hub vous demandera ensuite de définir un mot de passe. Ce mot de passe est crucial, car il sert à chiffrer votre portefeuille. Dans la version cloud payante, vos clés privées sont stockées sur le serveur d’Alby, chiffrées avec ce mot de passe que vous êtes le seul à connaître. Elles ne sont déchiffrées qu’en RAM, uniquement au moment de signer des transactions.
 
-Il est donc essentiel de choisir un mot de passe robuste. Toute personne disposant de ce mot de passe pourrait potentiellement accéder à votre nœud. Assurez-vous également de faire une ou plusieurs sauvegardes physiques de ce mot de passe sur un morceau de papier, ou mieux encore, sur un morceau de métal pour une sécurité accrue.
+Il est donc indispensable de choisir un mot de passe solide : toute personne qui y aurait accès pourrait potentiellement prendre le contrôle de votre nœud. Pensez également à en faire une ou plusieurs sauvegardes physiques — idéalement sur papier, ou encore mieux sur un support métallique plus durable — afin d’éviter toute perte.
 
 Après avoir soigneusement choisi et sauvegardé votre mot de passe, cliquez sur "*Create Password*".
 
@@ -149,14 +157,14 @@ Après avoir sauvegardé la phrase, cochez la case confirmant que vous l'avez bi
 
 ## Comment récupérer l'accès à ses bitcoins ?
 
-Avant d'envoyer des fonds à votre Alby Hub, il est important de comprendre comment les récupérer en cas de problème, ainsi que les informations nécessaires pour cette récupération. Le processus varie en fonction de la nature des fonds à récupérer et du mode d'hébergement de votre nœud.
+Avant d’envoyer des fonds vers votre Alby Hub, il est essentiel de comprendre comment les récupérer en cas de problème, ainsi que les informations nécessaires à cette récupération. La procédure dépend à la fois du type de fonds concernés et du mode d’hébergement de votre nœud.
+Pour les utilisateurs de l’option cloud payante, la récupération complète de vos bitcoins repose sur deux éléments indispensables :
 
-Pour les utilisateurs de cloud payant, la récupération complète de vos bitcoins nécessite trois éléments essentiels :
+-votre phrase de récupération ;
 
-- Votre phrase de récupération ;
-- L'accès à votre compte Alby, pour récupérer les sauvegardes automatiques.
+-l’accès à votre compte Alby, qui permet de récupérer les sauvegardes automatiques.
 
-L'absence de l'une de ces deux informations rendrait impossible la récupération complète de vos bitcoins.
+Si l’un de ces éléments manque, la récupération intégrale de vos bitcoins devient impossible.
 
 Pour ceux qui utilisent Alby Hub sur leur propre appareil, le processus de récupération est documenté [ici](https://guides.getalby.com/user-guide/alby-account-and-browser-extension/alby-hub/backups-and-recover#alby-hub-self-hosted-with-an-alby-account).
 
@@ -197,7 +205,8 @@ J'ai reçu mon premier paiement de 120 000 sats.
 
 ![ALBY HUB](assets/fr/32.webp)
 
-En retournant dans l'onglet "*Wallet*", vous pouvez vérifier le solde de votre portefeuille. Notez qu'Alby Hub met automatiquement en réserve 354 sats lors du premier paiement. Pour chaque canal Lightning que vous ouvrez par la suite, Alby Hub constituera automatiquement une réserve équivalente à 1% des capacités du canal. Cette réserve est une mesure de sécurité qui permet à votre nœud de récupérer les fonds du canal en cas de tentative de fraude par votre pair. C'est pourquoi, bien que j'aie envoyé 120 000 sats, seul 119 646 sats sont affichés sur mon solde.
+En retournant dans l’onglet Wallet, vous pouvez consulter le solde de votre portefeuille. Notez qu’Alby Hub met automatiquement en réserve 354 sats lors de votre premier paiement. Par la suite, pour chaque canal Lightning que vous ouvrez, Alby Hub constituera automatiquement une réserve correspondant à 1 % de la capacité du canal.
+Cette réserve joue un rôle de sécurité : elle permet à votre nœud de récupérer les fonds du canal en cas de comportement malveillant ou de tentative de fraude de la part de votre pair. C’est la raison pour laquelle, même si j’ai envoyé 120 000 sats, seul 119 646 sats apparaissent dans mon solde disponible.
 
 ![ALBY HUB](assets/fr/33.webp)
 
@@ -225,7 +234,7 @@ Dans l'onglet "*Node*", cliquez sur "*Open Channel*".
 
 ![ALBY HUB](assets/fr/37.webp)
 
-Sélectionnez la taille de votre canal. Je vous recommande de ne pas ouvrir de canaux trop petits, tout en gardant à l'esprit que c'est un nœud Lightning et que la machine hébergeant vos clés n'offre pas le même niveau de sécurité qu'un hardware wallet. Soyez donc prudents avec les montants que vous choisissez de bloquer.
+Sélectionnez ensuite la taille de votre canal. Je vous conseille d’éviter d’ouvrir des canaux trop petits, mais gardez également à l’esprit qu’il s’agit d’un nœud Lightning : la machine qui héberge vos clés ne bénéficie pas du même niveau de sécurité qu’un hardware wallet. Il est donc important de rester prudent quant aux montants que vous choisissez d’immobiliser dans un canal.
 
 ![ALBY HUB](assets/fr/38.webp)
 
@@ -254,9 +263,9 @@ Gérer vos canaux Lightning est plus simple que vous ne le pensez. Alby Hub vous
 
 ## Connecter une application de dépense
 
-Maintenant que vous disposez d'un nœud Lightning fonctionnel, vous pouvez l'utiliser pour recevoir et dépenser des sats au quotidien. Bien que l'interface web d'Alby Hub soit pratique pour gérer votre nœud, elle n'est pas idéale pour effectuer rapidement des transactions en déplacement. Pour cela, nous allons utiliser une application de wallet Lightning installée sur notre smartphone.
+Maintenant que votre nœud Lightning est opérationnel, vous pouvez l’utiliser pour recevoir et dépenser des sats au quotidien. L’interface web d’Alby Hub est pratique pour administrer votre nœud, mais elle n’est pas conçue pour effectuer rapidement des transactions lorsque vous êtes en déplacement. Pour cela, il est préférable d’utiliser une application Lightning installée sur votre smartphone.
 
-Dans ce tutoriel, je vous recommande d'opter pour Alby Go, qui est très simple d'utilisation, mais vous pouvez également utiliser d'autres applications compatibles comme Zeus.
+Dans ce tutoriel, je vous recommande d’utiliser Alby Go, qui est simple et intuitive, mais vous pouvez également opter pour d’autres applications compatibles, comme Zeus.
 
 ![ALBY HUB](assets/fr/43.webp)
 
@@ -292,7 +301,7 @@ Cliquez sur "*Finish*".
 
 ![ALBY HUB](assets/fr/51.webp)
 
-Vous avez désormais un accès à distance à votre nœud Lightning alimenté par Alby Hub depuis votre smartphone, ce qui facilite l’envoi et la réception de sats en déplacement chaque jour.
+Vous disposez désormais d’un accès à distance à votre nœud Lightning, piloté par Alby Hub, directement depuis votre smartphone. Cela vous permet d’envoyer et de recevoir des sats facilement, même lorsque vous êtes en déplacement.
 
 
 ![ALBY HUB](assets/fr/52.webp)
@@ -329,7 +338,7 @@ Votre transaction est confirmée.
 
 ![ALBY HUB](assets/fr/60.webp)
 
-En cliquant sur la petite flèche, vous pouvez accéder à votre historique de transactions.
+En cliquant sur la petite flèche, vous pouvez afficher l’historique de vos transactions.
 
 ![ALBY HUB](assets/fr/61.webp)
 
@@ -351,11 +360,11 @@ Modifiez votre adresse, puis confirmez en cliquant sur "*Update your lightning a
 
 ![ALBY HUB](assets/fr/65.webp)
 
-Attention, une fois modifiée, votre ancienne adresse ne vous appartient plus. Assurez-vous donc de ne plus y faire envoyer des sats.
+Attention : une fois modifiée, votre ancienne adresse ne vous appartient plus. Veillez donc à ce qu’aucun satoshi ne soit envoyé vers cette ancienne adresse.
 
-Et voilà, vous savez maintenant comment utiliser Lightning avec votre propre nœud à l'aide de l'outil Alby Hub. Si vous avez trouvé ce tutoriel utile, je vous serais très reconnaissant de mettre un pouce vert ci-dessous. N'hésitez pas à partager cet article sur vos réseaux sociaux. Merci beaucoup !
+Vous savez désormais comment utiliser Lightning avec votre propre nœud grâce à Alby Hub. Si ce tutoriel vous a été utile, je vous serais reconnaissant de laisser un pouce vert ci-dessous et de le partager sur vos réseaux sociaux. Merci pour votre soutien !
 
-Pour comprendre en détail tous les mécanismes de Lightning que nous avons manipulés dans ce tutoriel, je vous conseille vivement de découvrir notre formation gratuite sur le sujet :
+Si vous souhaitez comprendre en détail les mécanismes Lightning abordés dans ce guide, je vous recommande vivement notre formation gratuite dédiée au protocole:
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 

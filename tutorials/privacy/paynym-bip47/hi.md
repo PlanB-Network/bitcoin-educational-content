@@ -1,6 +1,6 @@
 ---
 name: BIP47 - PayNym
-description: आशिगारू पर पुन: प्रयोज्य भुगतान कोड का उपयोग करें
+description: आशिगारू पर पुन प्रयोज्य भुगतान कोड का उपयोग करें
 ---
 ![cover](assets/cover.webp)
 

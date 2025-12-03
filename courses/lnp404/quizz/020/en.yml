@@ -1,0 +1,8 @@
+question: What approach does the Auto-Fees algorithm use to establish performance benchmarks before making fee adjustments?
+answer: Analyzes forwarding traffic from the node's top five earning peers over approximately 60 days
+wrong_answers:
+  - Monitors all channel activity across the entire Lightning Network for 30 days
+  - Compares current fees against the global average of similar-sized Lightning nodes
+  - "Tracks the node's total revenue performance against predetermined profit targets"
+explanation: |
+  The Auto-Fees algorithm establishes baselines by specifically analyzing the forwarding traffic of the node's top five earning peers over roughly 60 days. This targeted approach focuses on the most profitable relationships rather than all channels or network-wide data. Once this historical baseline is established, the system compares recent traffic (last few days) against this trend to make informed adjustments. The other options are incorrect because the algorithm doesn't monitor the entire network, doesn't compare against global averages, and doesn't use predetermined profit targets as its primary benchmark.

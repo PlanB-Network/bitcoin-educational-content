@@ -1,0 +1,8 @@
+question: What cryptographic feature allows Liquid to hide transaction amounts and asset types from public view?
+answer: Confidential Transactions (CT)
+wrong_answers:
+  - Hardware Security Modules (HSMs)
+  - Dynamic Federation (Dynafed) protocol
+  - Peg-out Authorization Keys (PAKs)
+explanation: |
+  Confidential Transactions (CT) is the cryptographic feature that enables Liquid to hide asset types and transaction amounts from the public ledger while still allowing the network to verify transaction validity. This provides commercial privacy essential for institutions. Hardware Security Modules are physical devices that secure private keys, the Dynafed protocol manages federation changes, and PAKs control the peg-out process - none of these hide transaction details from public view.

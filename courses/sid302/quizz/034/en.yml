@@ -1,0 +1,8 @@
+question: What architectural mechanism enables the Breez SDK to perform Liquid-to-Bitcoin transfers without relying on federated peg-outs or centralized exchanges?
+answer: A dual-swap mechanism with simultaneous lock-up transactions on both chains where the sender claims Bitcoin funds and receiver claims Liquid funds
+wrong_answers:
+  - A single submarine swap where Bitcoin funds are locked first and then claimed using a Lightning payment preimage from the Liquid transaction
+  - A reverse submarine swap architecture where the Liquid Network acts as an intermediary bridge to validate Bitcoin mainchain transactions
+  - A federated multi-signature escrow system managed by Boltz that coordinates atomic swaps between Liquid and Bitcoin using time-locked contracts
+explanation: |
+  The dual-swap mechanism is specifically designed for cross-chain Bitcoin transfers, involving simultaneous lock-up transactions on both Liquid and Bitcoin networks. This trustless approach allows direct bridging without federated peg-outs. The other options incorrectly describe single-direction submarine swaps, misrepresent the Liquid Network's role, or incorrectly suggest reliance on federated systems that the SDK explicitly avoids.

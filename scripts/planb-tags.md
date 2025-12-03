@@ -95,7 +95,7 @@
 - Bolivia: 1
 - Boltzmann: 1
 - Brazil: 1
-- Breeze: 2
+- Breez: 2
 - Browser Extensions: 1
 - Browser extensions: 1
 - Browsing: 1

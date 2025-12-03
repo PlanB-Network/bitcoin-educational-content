@@ -1,0 +1,8 @@
+question: What is the primary purpose of Pedersen Commitments in Elements' Confidential Transactions?
+answer: To replace visible transaction amounts with cryptographic commitments that can be validated without revealing the actual values
+wrong_answers:
+  - To generate unique 64-character hexadecimal identifiers for newly issued assets on the Elements blockchain
+  - To prevent double-spending by creating mathematical proofs that hidden values are positive integers within valid ranges
+  - To enable the transfer of Bitcoin from the main chain to Elements sidechains through cryptographic pegging mechanisms
+explanation: |
+  Pedersen Commitments are the core cryptographic mechanism that enables privacy in Confidential Transactions by replacing visible amounts with mathematical commitments. Due to their homomorphic properties, validators can verify that inputs equal outputs plus fees without seeing actual values. Range Proofs prevent negative amounts, asset IDs identify tokens, and pegging mechanisms handle cross-chain transfers, but none of these are the function of Pedersen Commitments specifically.

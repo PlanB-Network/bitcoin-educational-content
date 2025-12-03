@@ -1,0 +1,8 @@
+question: What happens when a service provider pays a Lightning invoice to complete a Liquid-to-Lightning swap using HTLCs?
+answer: The provider receives the preimage from the Lightning payment, which they can then use to unlock and claim the L-BTC from the HTLC
+wrong_answers:
+  - The provider must wait for the time lock to expire before they can access the L-BTC locked in the HTLC contract
+  - "The client automatically receives the preimage and uses it to release the L-BTC directly to the provider's Liquid wallet"
+  - The HTLC contract automatically executes and transfers the L-BTC to the provider without requiring any additional cryptographic proof
+explanation: |
+  HTLCs create atomic swaps through cryptographic binding using the same hash lock on both networks. When the provider successfully pays the Lightning invoice, they obtain the preimage (secret) that matches the hash lock. This preimage is the cryptographic key that allows them to unlock the L-BTC that was previously locked in the HTLC. The other options are incorrect because they don't reflect the atomic nature of HTLCs - the time lock is only a fallback mechanism, clients don't handle preimage distribution, and HTLCs require active cryptographic proof rather than automatic execution.

@@ -1,11 +1,11 @@
 ---
 name: Bitaxe Open Source Mining Mastery
-goal: Boresha mfumo kamili wa ikolojia wa Bitaxe, kutoka kwa usanifu wa maunzi hadi ubinafsishaji wa hali ya juu na uboreshaji wa utendakazi
+goal: Boresha mfumo kamili wa ikolojia wa Bitaxe, kutoka kwa usanifu wa vifaa hadi ubinafsishaji wa hali ya juu na uboreshaji wa utendakazi
 objectives: 
 
   - Elewa falsafa ya maunzi ya chanzo huria ya Bitcoin mining
   - Unda vifaa vya Bitaxe mining kutoka mwanzo
-  - Sanidi na uboresha programu ya mining ikijumuisha AxeOS na Dimbwi la Umma
+  - Sanidi na uboresha programu ya mining ikijumuisha AxeOS na Public Pool
   - Tekeleza uboreshaji wa hali ya juu ikiwa ni pamoja na kuzidisha saa na kuweka alama
 
 ---
@@ -13,7 +13,7 @@ objectives:
 # Mwongozo wako wa Bitaxe Mining
 
 
-Karibu kwenye kozi ya kina ya Bitaxe, ambapo utaweza kumiliki maunzi ya kimapinduzi ya chanzo huria ya Bitcoin mining ambayo yanaleta kidemokrasia ufikiaji wa teknolojia ya mining. Kozi hii inakuchukua kutoka kuelewa misingi ya kifalsafa ya mining iliyogatuliwa hadi ubinafsishaji wa hali ya juu wa mbinu za utendakazi.
+Karibu kwenye kozi ya kina ya Bitaxe, ambapo utaweza kumiliki maunzi ya kimapinduzi (revolutionary hardware) ya chanzo huria ya Bitcoin mining ambayo yanakuza ufikiaji wa kidemokrasia wa teknolojia ya mining. Kozi hii itakupeleka kutoka kwenye kuelewa misingi ya kifalsafa ya mining iliyogawanyika hadi ubinafsishaji wa hali ya juu wa mbinu za utendaji.
 
 
 Mradi wa Bitaxe unawakilisha mabadiliko ya dhana katika Bitcoin mining, kuvunja ukiritimba wa watengenezaji wamiliki wa ASIC kwa kutoa miundo ya chanzo huria kikamilifu, programu dhibiti na programu. Kupitia sura hizi zinazotumika, utapata ujuzi wa vitendo katika kuunganisha maunzi, usanidi wa programu, muundo wa PCB, na uboreshaji wa utendakazi.
@@ -55,25 +55,25 @@ Sehemu ya pili inaangazia mazingira ya programu, ikiwa na uwasilishaji wa kina w
 ### Jumuiya na Ushirikiano
 
 
-Sehemu ya tatu inaangazia kipengele cha ushirikiano cha mradi. Utachunguza falsafa ya chanzo-wazi inayotumika kwa usanidi wa maunzi na programu ya Bitaxe. Kupitia mazoezi ya vitendo, utajifunza jinsi ya kuchangia moja kwa moja kwenye msimbo wa chanzo, na pia utagundua _Public Pool_, jukwaa la jumuiya la kuunganisha nguvu za hesabu. Pia utajifunza jinsi ya kuiweka kwenye nodi ya Umbrel kwa ushirikiano wa ndani na huru.
+Sehemu ya tatu inaangazia kipengele cha ushirikiano cha mradi. Utachunguza falsafa ya chanzo-wazi inayotumika kwa usanidi wa maunzi na programu ya Bitaxe. Kupitia mazoezi ya vitendo, utajifunza jinsi ya kuchangia moja kwa moja kwenye msimbo wa chanzo, na pia utagundua _Public Pool_, jukwaa la jumuiya la kuunganisha nguvu za hesabu. Pia utajifunza jinsi ya kuiweka kwenye node ya Umbrel kwa ushirikiano wa ndani na huru.
 
 
 ### Mkutano wa vifaa na utatuzi wa shida
 
 
-Katika sehemu ya nne, utaingia kwenye vifaa yenyewe. Utajifunza jinsi ya kutambua zana zinazohitajika ili kuunganisha Bitaxe, kurekebisha matatizo ya kuuza bidhaa na kufanya uchunguzi kamili kwa kutumia *AxeOS* na zana za USB. Sehemu hii inasisitiza mazoezi ya vitendo na uelewa wa kina wa jinsi maunzi na vipengele vya programu huingiliana.
+Katika sehemu ya nne, utaingia kwa kina kwenye Hardware yenyewe. Utajifunza jinsi ya kutambua tools zinazohitajika ili kufanya Assembly ya Bitaxe, kurekebisha changamoto za Soldering, na kufanya Diagnostics kamili kwa kutumia **AxeOS** na USB tools. Sehemu hii inasisitiza mazoezi ya vitendo na uelewa wa kina wa jinsi Hardware na vipengele vya Software vinavyoingiliana (interact).
 
 
 ### Advanced Customization
 
 
-Sehemu ya tano imejitolea kwa ubinafsishaji. Utajifunza jinsi ya kurekebisha PCB (ubao wa mzunguko uliochapishwa), kuunda faili ya kiwanda, na kutumia _Bitaxe Web Flasher_. Sehemu hii inalenga wale ambao wanataka kwenda zaidi ya mkusanyiko rahisi na kubuni kweli matoleo yaliyobinafsishwa ya kifaa chao wenyewe.
+Sehemu ya tano imejitolea kwa ubinafsishaji (Customization)Utajifunza jinsi ya kufanya marekebisho kwenye PCB, kuunda faili ya Firmware ya kiwanda (au Factory Files), na kutumia Bitaxe Web Flasher. Sehemu hii inalenga wale wanaotaka kwenda zaidi ya uunganishaji wa kawaida na kuunda Matoleo Maalum (Custom Versions) ya kifaa chao wenyewe.
 
 
-### Uboreshaji wa Utendaji
+### Uboreshaji wa Utendaji (Performance Optimization)
 
 
-Hatimaye, sehemu ya sita inashughulikia mbinu za uboreshaji wa hali ya juu. Utajifunza jinsi ya kuweka alama kwenye Bitaxe yako ili kutathmini utendakazi wake na jinsi ya kuibadilisha kwa ufanisi. Ujuzi huu utakusaidia kupata zaidi kutoka kwa maunzi yako huku ukiheshimu mapungufu yake ya mwili.
+Hatimaye, sehemu ya sita inashughulikia mbinu za Advanced Optimization. Utajifunza jinsi ya kufanya Benchmarking kwenye Bitaxe yako ili kutathmini Performance yake, na jinsi ya kufanya Overclocking kwa ufanisi. Ujuzi huu utakusaidia kupata zaidi kutoka kwa Hardware yako huku ukiheshimu mipaka yake ya kimwili..
 
 
 Kama ilivyo kwa kila kozi kwenye Plan ₿ Academy, sehemu ya mwisho inajumuisha tathmini iliyoundwa ili kuimarisha ujuzi wako.
@@ -93,7 +93,7 @@ Ingia moja kwa moja katika tukio hili la kiufundi - mustakabali wa Bitcoin minin
 
 :::video id=67d2529a-b7cb-4804-b02c-e56c12c9e66e:::
 
-Mradi wa Bitaxe unawakilisha mabadiliko ya msingi katika ukuzaji wa maunzi ya Bitcoin mining, na kuleta kanuni za chanzo wazi kwa tasnia inayotawaliwa na suluhisho za wamiliki. Mfululizo huu wa elimu unachunguza historia ya kina, uvumbuzi wa kiufundi, na mageuzi yanayoendeshwa na jumuiya ya Bitaxe, ukitoa maarifa kuhusu jinsi maono ya mhandisi mmoja yalivyobadilika na kuwa mfumo ikolojia unaostawi wa maunzi ya mining yaliyogatuliwa. Kupitia kukagua chimbuko la mradi, changamoto na mafanikio, tunapata ufahamu muhimu wa matatizo ya kiufundi ya ukuzaji wa ASIC na uwezo wa ushirikiano wa chanzo huria katika nafasi ya Bitcoin.
+Mradi wa Bitaxe unawakilisha mabadiliko ya msingi katika ukuzaji wa Bitcoin Mining Hardware, na kuleta kanuni za chanzo wazi kwa tasnia inayotawaliwa na suluhisho za wamiliki. Mfululizo huu wa elimu unachunguza historia ya kina, uvumbuzi wa kiufundi, na mageuzi yanayoendeshwa na jumuiya ya Bitaxe, ukitoa maarifa kuhusu jinsi maono ya mhandisi mmoja yalivyobadilika na kuwa mfumo ikolojia unaostawi wa maunzi ya mining yaliyogatuliwa. Kupitia kukagua chimbuko la mradi, changamoto na mafanikio, tunapata ufahamu muhimu wa matatizo ya kiufundi ya ukuzaji wa ASIC na uwezo wa ushirikiano wa chanzo huria katika nafasi ya Bitcoin.
 
 
 ### Hadithi ya Asili: Kutoka Ugunduzi wa Barabara ya Hariri hadi Maono ya Jua Mining

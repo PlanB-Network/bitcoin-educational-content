@@ -1,0 +1,8 @@
+question: What are the minimum development tool requirements needed to install Lightning Terminal from source?
+answer: Go 1.21.3+ and Node.js 2.1.5+
+wrong_answers:
+  - Python 3.8+ and Docker 20.10+
+  - Rust 1.70+ and npm 9.0+
+  - Java 17+ and Yarn 3.0+
+explanation: |
+  Lightning Terminal requires Go 1.21.3+ and Node.js 2.1.5+ as the minimum development tools for source installation. Go is needed to compile the backend code, while Node.js is required to build the UI assets during the compilation process. The other options mention different programming languages and tools that are not used in the Lightning Terminal build process.

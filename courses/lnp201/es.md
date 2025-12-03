@@ -13,7 +13,7 @@ objectives:
 
 Sumérgete en el corazón de la Red Lightning, un sistema esencial para el futuro de las transacciones de Bitcoin. LNP201 es un curso teórico sobre el funcionamiento técnico de Lightning. Revela los fundamentos y mecanismos de esta red de segunda capa, diseñada para hacer que los pagos de Bitcoin sean rápidos, económicos y escalables.
 
-Gracias a su red de canales de pago, Lightning permite transacciones rápidas y seguras sin registrar cada intercambio en la blockchain de Bitcoin. A lo largo de los capítulos, aprenderás cómo funciona la apertura, gestión y cierre de canales, cómo se enrutan los pagos a través de nodos intermediarios de manera segura mientras se minimiza la necesidad de confianza, y cómo gestionar la liquidez. Descubrirás qué son las transacciones de compromiso, los HTLCs, las llaves de revocación, los mecanismos de castigo, el enrutamiento cebolla y las facturas.
+Gracias a su red de canales de pago, Lightning permite transacciones rápidas y seguras sin registrar cada intercambio en la blockchain de Bitcoin. A lo largo de los capítulos, aprenderás cómo funciona la apertura, gestión y cierre de canales, cómo se enrutan los pagos a través de nodos intermediarios de manera segura mientras se minimiza la necesidad de confianza, y cómo gestionar la liquidez. Descubrirás qué son las transacciones de compromiso, los HTLCs, las llaves de revocación, los mecanismos de castigo, el enrutamiento onion y las facturas.
 
 Ya seas un principiante en Bitcoin o un usuario más experimentado, este curso proporcionará información valiosa para entender y usar la Red Lightning. Aunque cubriremos algunos fundamentos del funcionamiento de Bitcoin en las primeras partes, es esencial dominar los conceptos básicos de la invención de Satoshi antes de sumergirse en LNP201.
 
@@ -29,7 +29,7 @@ Ya seas un principiante en Bitcoin o un usuario más experimentado, este curso p
 
 ¡Bienvenido al curso LNP201!
 
-Este curso tiene como objetivo proporcionarte una comprensión técnica profunda de la Lightning Network, una red de capa secundaria diseñada para realizar transacciones en bitcoins de manera rápida y, a menudo, con costos más bajos. Descubrirás progresivamente los conceptos fundamentales que rigen este sistema, desde la apertura de canales de pago hasta las técnicas de enrutamiento y la gestión de la liquidez.
+Este curso tiene como objetivo proporcionarte una comprensión técnica profunda de la Lightning Network, una red de capa secundaria diseñada para realizar transacciones en Bitcoin de manera rápida y, a menudo, con costos más bajos. Descubrirás progresivamente los conceptos fundamentales que rigen este sistema, desde la apertura de canales de pago hasta las técnicas de enrutamiento y la gestión de la liquidez.
 
 **Sección 1: Los fundamentos**  
 Comenzaremos con una introducción general a la Lightning Network, estableciendo las bases esenciales sobre Bitcoin, sus direcciones, los UTXOs y el funcionamiento de las transacciones. Este repaso de los fundamentos es esencial para comprender cómo la Lightning Network se basa en los mecanismos de la cadena de bloques principal para operar de manera segura.
@@ -65,7 +65,7 @@ Finalmente, concluiremos el curso recapitulando los conceptos tratados y abriend
 | *Asks the invoice* | Solicita la factura           |
 | *Give the invoice* | Proporciona la factura        |
 | *Payment*          | Pago                          |
-| *Preimage*         | Preimagen                     |
+| *Preimage*         | Preimage                      |
 
 # Los Fundamentos
 
@@ -136,7 +136,7 @@ Este capítulo es un poco especial ya que no estará dedicado directamente a Lig
 
 ### Direcciones de Bitcoin, Claves Privadas y Claves Públicas
 
-Una dirección de Bitcoin es una serie de caracteres derivados de una **clave pública**, que a su vez se calcula a partir de una **clave privada**. Como seguramente sabes, se utiliza para bloquear bitcoins, lo cual equivale a recibirlos en nuestra billetera.
+Una dirección de Bitcoin es una serie de caracteres derivados de una **clave pública**, que a su vez se calcula a partir de una **clave privada**. Como seguramente sabes, se utiliza para bloquear Bitcoin, lo cual equivale a recibirlo en nuestra billetera.
 
 La clave privada es un elemento secreto que **nunca debe ser compartido**, mientras que la clave pública y la dirección pueden ser compartidas sin riesgo de seguridad (su divulgación solo representa un riesgo para tu privacidad). Aquí hay una representación común que adoptaremos a lo largo de este entrenamiento:
 
@@ -154,11 +154,11 @@ El script más común requiere una firma con la clave privada asociada a la dire
 
 ### UTXOs: Salidas de Transacción No Gastadas
 
-En Bitcoin, lo que realmente intercambiamos no son directamente bitcoins, sino **UTXOs** (_Unspent Transaction Outputs_), que significa "salidas de transacción no gastadas".
+En Bitcoin, lo que realmente intercambiamos no son directamente Bitcoin, sino **UTXOs** (_Unspent Transaction Outputs_), que significa "salidas de transacción no gastadas".
 
-Un UTXO es una pieza de bitcoin que puede ser de cualquier valor, por ejemplo, **2,000 bitcoins**, **8 bitcoins**, o incluso **8,000 sats**. Cada UTXO está bloqueado por un script, y para gastarlo, se deben satisfacer las condiciones del script, a menudo una firma con la clave privada correspondiente a una dirección de recepción dada.
+Un UTXO es una pieza de Bitcoin que puede ser de cualquier valor, por ejemplo, **2,000 Bitcoin**, **8 Bitcoin**, o incluso **8,000 sats**. Cada UTXO está bloqueado por un script, y para gastarlo, se deben satisfacer las condiciones del script, a menudo una firma con la clave privada correspondiente a una dirección de recepción dada.
 
-Los UTXOs no pueden dividirse. Cada vez que se utilizan para gastar la cantidad en bitcoins que representan, debe hacerse en su totalidad. Es un poco como un billete de banco: si tienes un billete de €10 y le debes al panadero €5, no puedes simplemente cortar el billete por la mitad. Tienes que darle el billete de €10, y él te dará €5 de cambio. ¡Este es exactamente el mismo principio para los UTXOs en Bitcoin! Por ejemplo, cuando Alice desbloquea un script con su clave privada, desbloquea el UTXO completo. Si desea enviar solo una parte de los fondos representados por este UTXO a Bob, puede "fragmentarlo" en varios más pequeños. Luego enviará 0.0015 BTC a Bob y enviará el resto, 0.0005 BTC, a una **dirección de cambio**.
+Los UTXOs no pueden dividirse. Cada vez que se utilizan para gastar la cantidad en Bitcoin que representan, debe hacerse en su totalidad. Es un poco como un billete de banco: si tienes un billete de €10 y le debes al panadero €5, no puedes simplemente cortar el billete por la mitad. Tienes que darle el billete de €10, y él te dará €5 de cambio. ¡Este es exactamente el mismo principio para los UTXOs en Bitcoin! Por ejemplo, cuando Alice desbloquea un script con su clave privada, desbloquea el UTXO completo. Si desea enviar solo una parte de los fondos representados por este UTXO a Bob, puede "fragmentarlo" en varios más pequeños. Luego enviará 0.0015 BTC a Bob y enviará el resto, 0.0005 BTC, a una **dirección de cambio**.
 
 Aquí hay un ejemplo de una transacción con 2 salidas:
 
@@ -183,7 +183,7 @@ Este tipo de dirección es precisamente la representación en la blockchain de B
 
 - Una **dirección de Bitcoin** se deriva de una clave pública, que a su vez se deriva de una clave privada.
 - Los fondos en Bitcoin están bloqueados por **scripts**, y para gastar estos fondos, uno debe satisfacer el script, lo que generalmente implica proporcionar una firma con la clave privada correspondiente.
-- Los **UTXOs** son porciones de bitcoins bloqueadas por scripts, y cada transacción en Bitcoin consiste en desbloquear un UTXO y luego crear uno o más nuevos a cambio.
+- Los **UTXOs** son porciones de Bitcoin bloqueadas por scripts, y cada transacción en Bitcoin consiste en desbloquear un UTXO y luego crear uno o más nuevos a cambio.
 - Las **direcciones multi-firma 2/2** requieren la firma de dos claves privadas para gastar los fondos. Estas direcciones específicas se utilizan en el contexto de Lightning para crear canales de pago.
 
 Este capítulo sobre Bitcoin nos ha permitido revisar algunas nociones esenciales para lo que sigue. En el próximo capítulo, descubriremos específicamente cómo funciona la apertura de canales en la Red Lightning.
@@ -215,6 +215,7 @@ Es crucial distinguir claramente los diferentes niveles de intercambio en la Red
 - **Transacciones de Bitcoin (protocolo Bitcoin)**: Estas son las transacciones realizadas en la cadena, que representaremos con líneas naranjas.
 
 ![LNP201](assets/en/010.webp)
+
 Es importante señalar que un nodo Lightning puede comunicarse a través del protocolo P2P sin abrir un canal, pero para intercambiar fondos, es necesario un canal.
 
 ### Pasos para Abrir un Canal Lightning
@@ -266,11 +267,12 @@ En este capítulo, descubriremos el funcionamiento técnico de una transacción 
 ### Recordatorio del ciclo de vida del canal
 
 Como se ha visto anteriormente, un canal Lightning comienza con una **apertura** a través de una transacción de Bitcoin. El canal puede ser **cerrado** en cualquier momento, también a través de una transacción de Bitcoin. Entre estos dos momentos, se pueden realizar un número casi infinito de transacciones dentro del canal, sin pasar por la blockchain de Bitcoin. Veamos qué sucede durante una transacción en el canal.
+
 ![LNP201](assets/en/017.webp)
 
 ### El estado inicial del canal
 
-En el momento de abrir el canal, Alice depositó **130,000 satoshis** en la dirección de multisignatura del canal. Así, en el estado inicial, todos los fondos están del lado de Alice. Antes de abrir el canal, Alice también hizo que Bob firmara una **transacción de retiro**, lo que le permitiría recuperar sus fondos si deseaba cerrar el canal.
+En el momento de abrir el canal, Alice depositó **130,000 satoshis** en la dirección de multifirma del canal. Así, en el estado inicial, todos los fondos están del lado de Alice. Antes de abrir el canal, Alice también hizo que Bob firmara una **transacción de retiro**, lo que le permitiría recuperar sus fondos si deseaba cerrar el canal.
 
 ![LNP201](assets/en/018.webp)
 
@@ -282,7 +284,8 @@ Tomemos un ejemplo con Alice enviando 30,000 satoshis a Bob:
 
 - **Inicialmente**: Alice tiene 130,000 satoshis.
 - **Después de la transacción**: Alice tiene 100,000 satoshis, y Bob 30,000 satoshis.
-  Para validar esta transferencia, Alice y Bob crean una nueva **transacción de Bitcoin no publicada** que enviaría **100,000 satoshis a Alice** y **30,000 satoshis a Bob** desde la dirección de multisignatura. Ambas partes construyen esta transacción de forma independiente, pero con los mismos datos (cantidades y direcciones). Una vez construida, cada uno firma la transacción e intercambia su firma con el otro. Esto permite que cualquiera de las partes publique la transacción en cualquier momento si es necesario para recuperar su parte del canal en la blockchain principal de Bitcoin.
+  Para validar esta transferencia, Alice y Bob crean una nueva **transacción de Bitcoin no publicada** que enviaría **100,000 satoshis a Alice** y **30,000 satoshis a Bob** desde la dirección de multifirma. Ambas partes construyen esta transacción de forma independiente, pero con los mismos datos (cantidades y direcciones). Una vez construida, cada uno firma la transacción e intercambia su firma con el otro. Esto permite que cualquiera de las partes publique la transacción en cualquier momento si es necesario para recuperar su parte del canal en la blockchain principal de Bitcoin.
+  
   ![LNP201](assets/en/019.webp)
 
 ### Proceso de Transferencia: La Factura
@@ -350,6 +353,7 @@ Para prevenir este tipo de engaño por parte de Alice, en la Red Lightning, se a
 - **El timelock**: Cada transacción de compromiso incluye un timelock para los fondos de Alice. El timelock es una primitiva de contrato inteligente que establece una condición de tiempo que debe cumplirse para que una transacción se añada a un bloque. Esto significa que Alice no puede recuperar sus fondos hasta que haya pasado un cierto número de bloques si publica una de las transacciones de compromiso. Este timelock comienza a aplicarse desde la confirmación de la transacción de compromiso. Su duración es generalmente proporcional al tamaño del canal, pero también puede configurarse manualmente.
 - **Revocation Key**: Los fondos de Alice también pueden ser gastados inmediatamente por Bob si él posee la **revocation key**. Esta clave consiste en un secreto mantenido por Alice y un secreto mantenido por Bob. Note que este secreto es diferente para cada transacción de compromiso.
    Gracias a estos 2 mecanismos combinados, Bob tiene tiempo para detectar el intento de Alice de engañar y castigarla recuperando su salida con la llave de revocación, lo que para Bob significa recuperar todos los fondos del canal. Nuestra nueva transacción de compromiso ahora se verá así:
+  
    ![LNP201](assets/en/025.webp)
 
 Detallemos el funcionamiento de este mecanismo juntos.
@@ -386,7 +390,7 @@ Incluso si, en este caso, Bob no tiene interés económico en intentar engañar,
 Las **transacciones de compromiso** en la Red Lightning incluyen mecanismos de seguridad que reducen tanto el riesgo de engaño como los incentivos para hacerlo. Antes de firmar una nueva transacción de compromiso, Alice y Bob intercambian sus respectivos **secretos** para las transacciones de compromiso anteriores. Si Alice intenta publicar una transacción de compromiso antigua, Bob puede usar la **llave de revocación** para recuperar todos los fondos antes de que Alice pueda (porque está bloqueada por el timelock), lo que la castiga por intentar engañar.
 
 Este sistema de seguridad asegura que los participantes se adhieran a las reglas de la Red Lightning, y no puedan beneficiarse de publicar transacciones de compromiso antiguas.
-En este punto del entrenamiento, ya sabes cómo se abren los canales Lightning y cómo funcionan las transacciones dentro de estos canales. En el próximo capítulo, descubriremos las diferentes maneras de cerrar un canal y recuperar tus bitcoins en la blockchain principal.
+En este punto del curso, ya sabes cómo se abren los canales Lightning y cómo funcionan las transacciones dentro de estos canales. En el próximo capítulo, descubriremos las diferentes maneras de cerrar un canal y recuperar tu Bitcoin en la blockchain principal.
 
 ## Cierre de Canal
 
@@ -417,7 +421,7 @@ Tomemos un ejemplo:
 
 ![LNP201](assets/en/030.webp)
 
-### El Bueno: el cierre cooperativo
+### El Bueno: El cierre cooperativo
 
 En un **cierre cooperativo**, Alice y Bob acuerdan cerrar el canal. Así es como sucede:
 
@@ -429,11 +433,12 @@ En un **cierre cooperativo**, Alice y Bob acuerdan cerrar el canal. Así es como
 - Alice y Bob negocian juntos las tarifas de la **transacción de cierre**. Estas tarifas generalmente se calculan basadas en el mercado de tarifas de Bitcoin en el momento del cierre. Es importante notar que **siempre es la persona que abrió el canal** (Alice en nuestro ejemplo) quien paga las tarifas de cierre.
 - Ellos construyen una nueva **transacción de cierre**. Esta transacción se parece a una transacción de compromiso, pero sin bloqueos de tiempo o mecanismos de revocación, ya que ambas partes están cooperando y no hay riesgo de trampa. Esta transacción de cierre cooperativo es, por lo tanto, diferente de las transacciones de compromiso.
    Por ejemplo, si Alice posee **100,000 satoshis** y Bob **30,000 satoshis**, la transacción de cierre enviará **100,000 satoshis** a la dirección de Alice y **30,000 satoshis** a la dirección de Bob, sin restricciones de timelock. Una vez que esta transacción es firmada por ambas partes, es publicada por Alice. Una vez que la transacción es confirmada en la blockchain de Bitcoin, el canal Lightning será oficialmente cerrado.
+
    ![LNP201](assets/en/032.webp)
 
-El **cierre cooperativo** es el método preferido de cierre porque es rápido (sin timelock) y las tarifas de la transacción se ajustan de acuerdo con las condiciones actuales del mercado de Bitcoin. Esto evita pagar demasiado poco, lo que podría arriesgar el bloqueo de la transacción en los mempools, o pagar en exceso innecesariamente, lo que lleva a una pérdida financiera innecesaria para los participantes.
+El **cierre cooperativo** Es el método preferido de cierre porque es rápido (sin timelock) y las tarifas de la transacción se ajustan de acuerdo con las condiciones actuales del mercado de Bitcoin. Esto evita pagar demasiado poco, lo que podría arriesgar el bloqueo de la transacción en los mempools, o pagar en exceso innecesariamente, lo que lleva a una pérdida financiera innecesaria para los participantes.
 
-### Lo malo: el cierre forzado
+### El malo: El cierre forzado
 
 Cuando el nodo de Alice envía un mensaje al de Bob pidiendo un cierre cooperativo, si él no responde (por ejemplo, debido a una caída de internet o un problema técnico), Alice puede proceder con un **cierre forzado** publicando la **última transacción de compromiso firmada**.
 En este caso, Alice simplemente publicará la última transacción de compromiso, que refleja el estado del canal en el momento en que tuvo lugar la última transacción de Lightning con la distribución correcta de fondos.
@@ -448,7 +453,7 @@ Además, las tarifas de la transacción de compromiso pueden ser inadecuadas en 
 
 En resumen, el **cierre forzado** es una opción de último recurso cuando el par ya no responde. Es más lento y menos económico que un cierre cooperativo. Por lo tanto, se debe evitar tanto como sea posible.
 
-### La trampa: el engaño
+### La trampa: El engaño
 
 Finalmente, un cierre con **engaño** ocurre cuando una de las partes intenta publicar una transacción de compromiso antigua, a menudo donde tenían más fondos de los que deberían. Por ejemplo, Alice podría publicar una transacción antigua donde poseía **120,000 satoshis**, mientras que en realidad ahora solo posee **100,000**.
 
@@ -460,7 +465,7 @@ Bob, para prevenir este engaño, monitorea la blockchain de Bitcoin y su mempool
 
 Obviamente, el engaño puede tener éxito potencialmente si Bob no actúa dentro del tiempo impuesto por el timelock en la salida de Alice. En este caso, la salida de Alice se desbloquea, permitiéndole consumirla para crear una nueva salida a una dirección que controla.
 
-**¿Qué debes llevar de este capítulo?**
+**¿Qué debes recordar de este capítulo?**
 
 Hay tres maneras de cerrar un canal:
 
@@ -502,6 +507,7 @@ Supongamos que Alice quiere enviar **50,000 satoshis** a Bob:
 - **Suzie** replica esta transferencia enviando 50,000 satoshis a **Bob** en su canal.
 
 ![LNP201](assets/en/038.webp)
+
 Así, el pago se enruta a Bob mediante un movimiento de liquidez en cada canal. Al final de la operación, Alice termina con 50,000 sats. De hecho, ha transferido 50,000 sats ya que inicialmente tenía 100,000. Bob, por su parte, termina con 50,000 sats adicionales. Para Suzie (el nodo intermedio), esta operación es neutral: inicialmente, tenía 30,000 sats en su canal con Alice y 250,000 sats en su canal con Bob, un total de 280,000 sats. Después de la operación, mantiene 80,000 sats en su canal con Alice y 200,000 sats en su canal con Bob, que es la misma suma que al inicio.
 Esta transferencia está así limitada por la **liquidez disponible** en la dirección de la transferencia.
 
@@ -524,7 +530,7 @@ Alice envía **40,000 satoshis** a Bob a través de los canales:
 
 ![LNP201](assets/en/040.webp)
 
-Los **satoshis enviados** en cada canal **permanecen en el canal**, así que los satoshis enviados por Carol a Bob no son los mismos que los enviados por Alice a Suzie. La transferencia se realiza solo ajustando la liquidez dentro de cada canal. Además, la capacidad total de los canales permanece sin cambios.
+Los **satoshis enviados** en cada canal **permanecen en el canal**, por lo que los satoshis enviados por Carol a Bob no son los mismos que los enviados por Alice a Suzie. La transferencia se realiza solo ajustando la liquidez dentro de cada canal. Además, la capacidad total de los canales permanece sin cambios.
 
 ![LNP201](assets/en/041.webp)
 
@@ -536,22 +542,22 @@ El papel de los nodos intermedios es, por lo tanto, muy importante en el funcion
 
 Los nodos intermedios aplican tarifas para permitir que los pagos pasen a través de sus canales. Estas tarifas son establecidas por **cada nodo para cada canal**. Las tarifas consisten en 2 elementos:
 
-- "**Tarifa base**": una cantidad fija por canal, a menudo **1 sat** por defecto, pero personalizable.
-- "**Tarifa variable**": un porcentaje del monto transferido, calculado en **partes por millón (ppm)**. Por defecto, es **1 ppm** (1 sat por millón de satoshis transferidos), pero también puede ajustarse.
+- "**Tarifa base**": Una cantidad fija por canal, a menudo **1 sat** por defecto, pero personalizable.
+- "**Tarifa variable**": Un porcentaje del monto transferido, calculado en **partes por millón (ppm)**. Por defecto, es **1 ppm** (1 sat por millón de satoshis transferidos), pero también puede ajustarse.
    Las tarifas también varían dependiendo de la dirección de la transferencia. Por ejemplo, para una transferencia de Alice a Suzie, se aplican las tarifas de Alice. Por el contrario, de Suzie a Alice, se utilizan las tarifas de Suzie.
 
 Por ejemplo, para un canal entre Alice y Suzie, podríamos tener:
 
-- **Alice**: tarifa base de 1 sat y 1 ppm para tarifas variables.
-- **Suzie**: tarifa base de 0.5 sat y 10 ppm para tarifas variables.
+- **Alice**: Tarifa base de 1 sat y 1 ppm para tarifas variables.
+- **Suzie**: Tarifa base de 0.5 sat y 10 ppm para tarifas variables.
 
 ![LNP201](assets/en/042.webp)
 
 Para entender mejor cómo funcionan las tarifas, estudiemos la misma Red Lightning que antes, pero ahora con las siguientes tarifas de enrutamiento:
 
-- Canal **Alice - Suzie**: tarifa base de 1 satoshi y 1 ppm para Alice.
-- Canal **Suzie - Carol**: tarifa base de 0 satoshi y 200 ppm para Suzie.
-- Canal **Carol - Bob**: tarifa base de 1 satoshi y 1 ppm para Suzie 2.
+- Canal **Alice - Suzie**: Tarifa base de 1 satoshi y 1 ppm para Alice.
+- Canal **Suzie - Carol**: Tarifa base de 0 satoshi y 200 ppm para Suzie.
+- Canal **Carol - Bob**: Tarifa base de 1 satoshi y 1 ppm para Suzie 2.
   ![LNP201](assets/en/043.webp)
 
 Para el mismo pago de **40,000 satoshis** a Bob, Alice tendrá que enviar un poco más, ya que cada nodo intermediario deducirá sus tarifas:
@@ -572,19 +578,20 @@ La liquidez se actualiza por lo tanto:
 
 ![LNP201](assets/en/045.webp)
 
-### Enrutamiento Cebolla
+### Enrutamiento Onion
 
-Para enrutar un pago del emisor al receptor, la Red Lightning utiliza un método llamado "**enrutamiento cebolla**". A diferencia del enrutamiento de datos clásicos, donde cada enrutador decide la dirección de los datos basándose en su destino, el enrutamiento cebolla funciona de manera diferente:
+Para enrutar un pago del emisor al receptor, la Red Lightning utiliza un método llamado "**enrutamiento onion**". A diferencia del enrutamiento de datos clásicos, donde cada enrutador decide la dirección de los datos basándose en su destino, el enrutamiento onion funciona de manera diferente:
 
 - **El nodo emisor calcula toda la ruta**: Alice, por ejemplo, determina que su pago debe pasar por Suzie y Carol antes de llegar a Bob.
-- **Cada nodo intermediario solo conoce a su vecino inmediato**: Suzie solo sabe que recibió fondos de Alice y que debe transferirlos a Carol. Sin embargo, Suzie no sabe si Alice es el nodo fuente o un nodo intermediario, y tampoco sabe si Carol es el nodo receptor o simplemente otro nodo intermediario. Este principio también se aplica a Carol y todos los demás nodos en el camino. El enrutamiento de cebolla (onion routing) preserva así la confidencialidad de las transacciones al enmascarar la identidad del remitente y del destinatario final. Para asegurar que el nodo transmisor pueda calcular una ruta completa hasta el destinatario en el enrutamiento de cebolla, debe mantener un **gráfico de red** para conocer su topología y determinar posibles rutas.
-  **¿Qué debes llevar contigo de este capítulo?**
+- **Cada nodo intermediario solo conoce a su vecino inmediato**: Suzie solo sabe que recibió fondos de Alice y que debe transferirlos a Carol. Sin embargo, Suzie no sabe si Alice es el nodo fuente o un nodo intermediario, y tampoco sabe si Carol es el nodo receptor o simplemente otro nodo intermediario. Este principio también se aplica a Carol y todos los demás nodos en el camino. El enrutamiento onion (onion routing) preserva así la confidencialidad de las transacciones al enmascarar la identidad del remitente y del destinatario final. Para asegurar que el nodo transmisor pueda calcular una ruta completa hasta el destinatario en el enrutamiento onion, debe mantener un **gráfico de red** para conocer su topología y determinar posibles rutas.
+  
+  **¿Qué debes llevarte de este capítulo?**
 
 - En Lightning, los pagos pueden ser enrutados entre nodos indirectamente conectados a través de canales intermediarios. Cada uno de estos nodos intermediarios facilita la retransmisión de liquidez.
 - Los nodos intermediarios reciben una comisión por su servicio, consistente en tarifas fijas y variables.
-- El enrutamiento de cebolla permite al nodo transmisor calcular la ruta completa sin que los nodos intermediarios conozcan la fuente o el destino final.
+- El enrutamiento onion permite al nodo transmisor calcular la ruta completa sin que los nodos intermediarios conozcan la fuente o el destino final.
 
-En este capítulo, exploramos el enrutamiento de pagos en la Red Lightning. Pero surge una pregunta: ¿qué impide que los nodos intermediarios acepten un pago entrante sin reenviarlo al siguiente destino, con el objetivo de interceptar la transacción? Este es precisamente el papel de los HTLCs que estudiaremos en el siguiente capítulo.
+En este capítulo, exploramos el enrutamiento de pagos en la Red Lightning. Pero surge una pregunta: ¿Qué impide que los nodos intermediarios acepten un pago entrante sin reenviarlo al siguiente destino, con el objetivo de interceptar la transacción? Este es precisamente el papel de los HTLCs que estudiaremos en el siguiente capítulo.
 
 ## HTLC – Contrato de Tiempo Bloqueado con Hash
 
@@ -606,6 +613,7 @@ Alice quiere enviar 40,000 sats a Bob pero no tiene un canal directo con él y n
 Si Alice envía ingenuamente 40,000 satoshis a Suzie esperando que Suzie transfiera esta suma a Bob, Suzie podría quedarse con los fondos para sí misma y no transmitir nada a Bob.
 
 ![LNP201](assets/en/047.webp)
+
 Para evitar esta situación, en Lightning, usamos HTLCs (Contratos de Tiempo Bloqueado con Hash), que hacen el pago al nodo intermediario condicional, lo que significa que Suzie debe cumplir ciertas condiciones para acceder a los fondos de Alice y transferirlos a Bob.
 
 ### Cómo Funcionan los HTLCs
@@ -618,7 +626,8 @@ Un HTLC es un contrato especial basado en dos principios:
 Así es como funciona este proceso en nuestro ejemplo con Alice, Suzie y Bob:
 
 ![LNP201](assets/en/048.webp)
-**Creando el secreto**: Bob genera un secreto aleatorio denotado como _s_ (la preimagen), y calcula su hash denotado como _r_ con la función hash denotada como _h_. Tenemos:
+
+**Creando el secreto**: Bob genera un secreto aleatorio denotado como _s_ (la preimage), y calcula su hash denotado como _r_ con la función hash denotada como _h_. Tenemos:
 
 $$
 r = h(s)
@@ -651,6 +660,7 @@ $$
 **Validación por el secreto _s_**: Bob proporciona _s_ a Suzie para recibir los 40,000 satoshis prometidos en el HTLC. Con este secreto, Suzie puede entonces desbloquear el HTLC de Alice y obtener los 40,000 satoshis de Alice. El pago es entonces correctamente dirigido a Bob.
 
 ![LNP201](assets/en/053.webp)
+
 Este proceso evita que Suzie se quede con los fondos de Alice sin completar la transferencia a Bob, ya que debe enviar el pago a Bob para obtener el secreto _s_ y así desbloquear el HTLC de Alice. La operación permanece igual incluso si la ruta incluye varios nodos intermediarios: simplemente se trata de repetir los pasos de Suzie para cada nodo intermediario. Cada nodo está protegido por las condiciones de los HTLCs, porque desbloquear el último HTLC por el destinatario desencadena automáticamente el desbloqueo de todos los demás HTLCs en cascada.
 
 ### Expiración y gestión de HTLCs en caso de problemas
@@ -664,12 +674,15 @@ Para evitar esto, los HTLCs en Lightning tienen una expiración que permite la e
 ![LNP201](assets/en/055.webp)
 
 Luego el HTLC de Alice a Suzie.
+
 ![LNP201](assets/en/056.webp)
+
 Si el orden de expiración se invirtiera, Alice podría recuperar su pago antes de que Suzie pudiera protegerse de un posible engaño. De hecho, si Bob regresa para reclamar su HTLC mientras Alice ya ha eliminado el suyo, Suzie estaría en desventaja. Este orden cascada de expiración de HTLCs asegura que ningún nodo intermediario sufra pérdidas injustas.
 
 ### Representación de HTLCs en transacciones de compromiso
 
-Las transacciones de compromiso representan los HTLCs de tal manera que las condiciones que imponen sobre Lightning pueden transferirse a Bitcoin en el evento de un cierre forzado del canal durante la vida útil de un HTLC. Como recordatorio, las transacciones de compromiso representan el estado actual del canal entre los dos usuarios y permiten un cierre forzado unilateral en caso de problemas. Con cada nuevo estado del canal, se crean 2 transacciones de compromiso: una para cada parte. Revisemos nuestro ejemplo con Alice, Suzie y Bob, pero miremos más de cerca qué sucede a nivel de canal entre Alice y Suzie cuando se crea el HTLC.
+Las transacciones de compromiso representan los HTLCs de tal manera que las condiciones que imponen sobre Lightning pueden transferirse a Bitcoin en el evento de un cierre forzado del canal durante la vida útil de un HTLC. Como recordatorio, las transacciones de compromiso representan el estado actual del canal entre los dos usuarios y permiten un cierre forzado unilateral en caso de problemas. Con cada nuevo estado del canal, se crean 2 transacciones de compromiso: Una para cada parte. Revisemos nuestro ejemplo con Alice, Suzie y Bob, pero miremos más de cerca qué sucede a nivel de canal entre Alice y Suzie cuando se crea el HTLC.
+
 ![LNP201](assets/en/057.webp)
 
 Antes del inicio del pago de 40,000 sats entre Alice y Bob, Alice tiene 100,000 sats en su canal con Suzie, mientras que Suzie tiene 30,000. Sus transacciones de compromiso son las siguientes:
@@ -689,15 +702,17 @@ Estas condiciones aplican solo si el canal se cierra (es decir, una transacción
 
 Además, si el canal se cierra mientras varios HTLCs están pendientes, habrá tantas salidas adicionales como HTLCs en curso.
 Si el canal no se cierra, entonces después de la expiración o el éxito del pago de Lightning, se crean nuevas transacciones de compromiso para reflejar el nuevo estado ahora estable del canal, es decir, sin ningún HTLC pendiente. Las salidas relacionadas con los HTLCs pueden, por lo tanto, eliminarse de las transacciones de compromiso.
+
 ![LNP201](assets/en/060.webp)
+
 Finalmente, en el caso de un cierre cooperativo del canal mientras un HTLC está activo, Alice y Suzie dejan de aceptar nuevos pagos y esperan la resolución o expiración de los HTLCs en curso. Esto les permite publicar una transacción de cierre más ligera, sin las salidas relacionadas con los HTLCs, reduciendo así las comisiones y evitando la espera por un posible bloqueo de tiempo.
 
 **¿Qué debes recordar de este capítulo?**
 
 Los HTLCs permiten el enrutamiento de pagos a través de Lightning mediante múltiples nodos sin necesidad de confiar en ellos. Aquí están los puntos clave a recordar:
 
-- Los HTLCs aseguran la seguridad de los pagos mediante un secreto (preimagen) y un tiempo de expiración.
-- La resolución o expiración de los HTLCs sigue un orden específico: luego desde el destino hacia la fuente, para proteger a cada nodo.
+- Los HTLCs aseguran la seguridad de los pagos mediante un secreto (preimage) y un tiempo de expiración.
+- La resolución o expiración de los HTLCs sigue un orden específico: Luego desde el destino hacia la fuente, para proteger a cada nodo.
 - Mientras un HTLC no se resuelve ni expira, se mantiene como una salida en las transacciones de compromiso más recientes.
 
 En el próximo capítulo, descubriremos cómo un nodo que emite una transacción Lightning encuentra y selecciona rutas para que su pago alcance al nodo receptor.
@@ -712,10 +727,12 @@ En los capítulos anteriores, vimos cómo usar los canales de otros nodos para e
 
 ### El Problema del Enrutamiento en Lightning
 
-Como hemos visto, en Lightning, es el nodo que envía el pago el que debe calcular la ruta completa hasta el destinatario, porque utilizamos un sistema de enrutamiento tipo cebolla. Los nodos intermediarios no conocen ni el punto de origen ni el destino final. Solo saben de dónde viene el pago y a qué nodo deben transferirlo a continuación. Esto significa que el nodo emisor debe mantener una topología local dinámica de la red, con los nodos Lightning existentes y los canales entre cada uno, teniendo en cuenta aperturas, cierres y actualizaciones de estado.
+Como hemos visto, en Lightning, es el nodo que envía el pago el que debe calcular la ruta completa hasta el destinatario, porque utilizamos un sistema de enrutamiento tipo onion. Los nodos intermediarios no conocen ni el punto de origen ni el destino final. Solo saben de dónde viene el pago y a qué nodo deben transferirlo a continuación. Esto significa que el nodo emisor debe mantener una topología local dinámica de la red, con los nodos Lightning existentes y los canales entre cada uno, teniendo en cuenta aperturas, cierres y actualizaciones de estado.
 
 ![LNP201](assets/en/061.webp)
+
 Incluso con esta topología de la Red Lightning, hay información esencial para el enrutamiento que permanece inaccesible para el nodo emisor, que es la distribución exacta de liquidez en los canales en cualquier momento dado. De hecho, cada canal solo muestra su **capacidad total**, pero la distribución interna de fondos solo es conocida por los dos nodos participantes. Esto plantea desafíos para un enrutamiento eficiente, ya que el éxito del pago depende notablemente de si su cantidad es menor que la liquidez más baja en la ruta elegida. Sin embargo, las liquideces no son todas visibles para el nodo emisor.
+
 ![LNP201](assets/en/062.webp)
 
 ### Actualización del Mapa de la Red
@@ -724,8 +741,8 @@ Para mantener su mapa de la red actualizado, los nodos intercambian regularmente
 
 Los 2 mensajes principales intercambiados entre los nodos Lightning son los siguientes:
 
-- "**Anuncios de Canal**": mensajes que señalan la apertura de un nuevo canal.
-- "**Actualizaciones de Canal**": mensajes de actualización sobre el estado de un canal, particularmente sobre la evolución de las comisiones (pero no sobre la distribución de la liquidez).
+- "**Anuncios de Canal**": Mensajes que señalan la apertura de un nuevo canal.
+- "**Actualizaciones de Canal**": Mensajes de actualización sobre el estado de un canal, particularmente sobre la evolución de las comisiones (pero no sobre la distribución de la liquidez).
   Los nodos de Lightning también monitorean la blockchain de Bitcoin para detectar transacciones de cierre de canal. El canal cerrado se elimina entonces del mapa ya que no puede ser utilizado para enrutar nuestros pagos.
 
 ### Enrutando un Pago
@@ -753,10 +770,10 @@ Para hacer un pago de 100,000 sats de Alice a Bob, las opciones de enrutamiento 
 
 Pero dado que Alice no conoce la distribución exacta de fondos en cada canal, debe estimar la ruta óptima de manera probabilística, teniendo en cuenta los siguientes criterios:
 
-- **Probabilidad de éxito**: un canal con una mayor capacidad total es más probable que contenga suficiente liquidez. Por ejemplo, el canal entre el nodo 2 y el nodo 3 tiene una capacidad total de 110,000 sats, por lo que es improbable encontrar 100,000 sats o más del lado del nodo 2, aunque sigue siendo posible.
-- **Comisiones de transacción**: al elegir la mejor ruta, el nodo emisor también considera las comisiones aplicadas por cada nodo intermedio y busca minimizar el costo total de enrutamiento.
-- **Expiración de HTLCs**: para evitar pagos bloqueados, el tiempo de expiración de los HTLCs también es un parámetro a considerar.
-- **Número de nodos intermedios**: finalmente, de manera más general, el nodo emisor buscará encontrar una ruta con el menor número posible de nodos para reducir el riesgo de fallo y limitar las comisiones de transacción de Lightning.
+- **Probabilidad de éxito**: Un canal con una mayor capacidad total es más probable que contenga suficiente liquidez. Por ejemplo, el canal entre el nodo 2 y el nodo 3 tiene una capacidad total de 110,000 sats, por lo que es improbable encontrar 100,000 sats o más del lado del nodo 2, aunque sigue siendo posible.
+- **Comisiones de transacción**: Al elegir la mejor ruta, el nodo emisor también considera las comisiones aplicadas por cada nodo intermedio y busca minimizar el costo total de enrutamiento.
+- **Expiración de HTLCs**: Para evitar pagos bloqueados, el tiempo de expiración de los HTLCs también es un parámetro a considerar.
+- **Número de nodos intermedios**: Finalmente, de manera más general, el nodo emisor buscará encontrar una ruta con el menor número posible de nodos para reducir el riesgo de fallo y limitar las comisiones de transacción de Lightning.
   Al analizar estos criterios, el nodo emisor puede probar las rutas más probables e intentar optimizarlas. En nuestro ejemplo, Alice podría clasificar las mejores rutas de la siguiente manera:
 
 - `Alice → 1 → 2 → 5 → Bob`, porque es la ruta más corta con la mayor capacidad.
@@ -769,11 +786,11 @@ Alice decide probar su primera ruta (`Alice → 1 → 2 → 5 → Bob`). Por lo 
 
 ![LNP201](assets/en/066.webp)
 
-Alice luego intenta enrutar su pago usando su segunda ruta (`Alice → 1 → 2 → 4 → 5 → Bob`). Envía un HTLC de 100,000 sats al nodo 1, quien lo transmite al nodo 2, luego al nodo 4, al nodo 5 y finalmente a Bob. Esta vez, la liquidez es suficiente y la ruta es funcional. Cada nodo desbloquea su HTLC en cascada usando el preimagen proporcionado por Bob (el secreto _s_), lo que permite que el pago de Alice a Bob se finalice con éxito.
+Alice luego intenta enrutar su pago usando su segunda ruta (`Alice → 1 → 2 → 4 → 5 → Bob`). Envía un HTLC de 100,000 sats al nodo 1, quien lo transmite al nodo 2, luego al nodo 4, al nodo 5 y finalmente a Bob. Esta vez, la liquidez es suficiente y la ruta es funcional. Cada nodo desbloquea su HTLC en cascada usando el preimage proporcionado por Bob (el secreto _s_), lo que permite que el pago de Alice a Bob se finalice con éxito.
 
 ![LNP201](assets/en/067.webp)
 
-La búsqueda de una ruta se lleva a cabo de la siguiente manera: el nodo emisor comienza por identificar las mejores rutas posibles, luego intenta pagos sucesivamente hasta encontrar una ruta funcional.
+La búsqueda de una ruta se lleva a cabo de la siguiente manera: El nodo emisor comienza por identificar las mejores rutas posibles, luego intenta pagos sucesivamente hasta encontrar una ruta funcional.
 
 Vale la pena mencionar que Bob puede proporcionar a Alice información en la **factura** para facilitar el enrutamiento. Por ejemplo, puede indicar canales cercanos con suficiente liquidez o revelar la existencia de canales privados. Estas indicaciones permiten a Alice evitar rutas con pocas posibilidades de éxito y primero intentar los caminos recomendados por Bob.
 
@@ -793,15 +810,17 @@ En el siguiente capítulo, estudiaremos específicamente el funcionamiento de la
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 :::video id=309c3412-506e-4189-ad46-5e5088c55008:::
+
 En este capítulo, vamos a examinar más de cerca el funcionamiento de las **facturas** de Lightning, es decir, solicitudes de pago enviadas por el nodo receptor al nodo emisor. El objetivo es entender cómo pagar y recibir pagos en Lightning. También discutiremos 2 alternativas a las facturas clásicas: LNURL y Keysend.
+
 ![LNP201](assets/en/068.webp)
 
 ### La Estructura de las Facturas de Lightning
 
-Como se explicó en el capítulo sobre HTLCs, cada pago comienza con la generación de una **factura** por parte del receptor. Esta factura se transmite luego al pagador (a través de un código QR o copiando y pegando) para iniciar el pago. Una factura consta de dos partes principales:
+Como explicamos en el capítulo sobre HTLCs, cada pago comienza con la generación de una **factura** por parte del receptor. Esta factura se transmite luego al pagador (a través de un código QR o copiando y pegando) para iniciar el pago. Una factura consta de dos partes principales:
 
-- **La Parte Legible por Humanos**: esta sección contiene metadatos claramente visibles para mejorar la experiencia del usuario.
-- **El Payload**: esta sección incluye información destinada a que las máquinas procesen el pago.
+- **La Parte Legible por Humanos**: Esta sección contiene metadatos claramente visibles para mejorar la experiencia del usuario.
+- **El Payload**: Esta sección incluye información destinada a que las máquinas procesen el pago.
 
 La estructura típica de una factura comienza con un identificador `ln` por "Lightning", seguido de `bc` por Bitcoin, luego la cantidad de la factura. Un separador `1` distingue la parte legible por humanos de la parte de datos (payload).
 
@@ -833,25 +852,25 @@ En la primera parte, podemos ver que:
 
 Para designar la cantidad de pago, se expresa en subunidades de bitcoin. Aquí están las unidades utilizadas:
 
-- **Millibitcoin (denotado `m`):** Representa una milésima parte de un bitcoin.
+- **Millibitcoin (denotado `m`):** Representa una milésima parte de un Bitcoin.
 
   $$
   1 \, \text{mBTC} = 10^{-3} \, \text{BTC} = 10^5 \, \text{satoshis}
   $$
 
-- **Microbitcoin (denotado `u`):** También a veces llamado "bit", representa una millonésima parte de un bitcoin.
+- **Microbitcoin (denotado `u`):** También a veces llamado "bit", representa una millonésima parte de un Bitcoin.
 
   $$
   1 \, \mu\text{BTC} = 10^{-6} \, \text{BTC} = 100 \, \text{satoshis}
   $$
 
-- **Nanobitcoin (denotado `n`):** Representa una milmillonésima parte de un bitcoin.
+- **Nanobitcoin (denotado `n`):** Representa una milmillonésima parte de un Bitcoin.
 
   $$
   1 \, \text{nBTC} = 10^{-9} \, \text{BTC} = 0.1 \, \text{satoshis}
   $$
 
-- **Picobitcoin (denotado `p`):** Representa una billonésima parte de un bitcoin.
+- **Picobitcoin (denotado `p`):** Representa una billonésima parte de un Bitcoin.
   $$
   1 \, \text{pBTC} = 10^{-12} \, \text{BTC} = 0.0001 \, \text{satoshis}
   $$
@@ -861,8 +880,8 @@ Para designar la cantidad de pago, se expresa en subunidades de bitcoin. Aquí e
 El cuerpo de una factura incluye varias piezas de información necesarias para procesar el pago:
 
 - **La marca de tiempo:** El momento de la creación de la factura, expresado en Timestamp Unix (el número de segundos que han transcurrido desde el 1 de enero de 1970).
-- **Hashing el Secreto**: Como vimos en la sección sobre HTLCs, el nodo receptor debe proporcionar al nodo emisor el hash de la preimagen. Esto se utiliza en HTLCs para asegurar la transacción. Nos referimos a ello como "_r_".
-- **El Secreto de Pago**: Otro secreto es generado por el receptor, pero esta vez se transmite al nodo emisor. Se utiliza en el enrutamiento de cebolla para evitar que los nodos intermedios adivinen si el próximo nodo es el destinatario final o no. Esto mantiene así una forma de confidencialidad para el destinatario con respecto al último nodo intermedio en la ruta.
+- **Hashing el Secreto**: Como vimos en la sección sobre HTLCs, el nodo receptor debe proporcionar al nodo emisor el hash de la preimage. Esto se utiliza en HTLCs para asegurar la transacción. Nos referimos a ello como "_r_".
+- **El Secreto de Pago**: Otro secreto es generado por el receptor, pero esta vez se transmite al nodo emisor. Se utiliza en el enrutamiento onion para evitar que los nodos intermedios adivinen si el próximo nodo es el destinatario final o no. Esto mantiene así una forma de confidencialidad para el destinatario con respecto al último nodo intermedio en la ruta.
 - **La Clave Pública del Destinatario**: Indica al pagador el identificador de la persona a ser pagada.
 - **La Duración de Expiración**: El tiempo máximo para que la factura sea pagada (1 hora por defecto).
 - **Indicaciones de Enrutamiento**: Información adicional proporcionada por el receptor para ayudar al emisor a optimizar la ruta de pago.
@@ -870,10 +889,10 @@ El cuerpo de una factura incluye varias piezas de información necesarias para p
 
 Las facturas se codifican entonces en **bech32**, el mismo formato que para las direcciones SegWit de Bitcoin (formato que comienza con `bc1`).
 
-### LNURL Retiro
+### Retiro LNURL
 
 En una transacción tradicional, como una compra en tienda, se genera una factura por el monto total a pagar. Una vez que se presenta la factura (en forma de código QR o cadena de caracteres), el cliente puede escanearla y finalizar la transacción. El pago sigue entonces el proceso tradicional que estudiamos en la sección anterior. Sin embargo, este proceso a veces puede ser muy engorroso para la experiencia del usuario, ya que requiere que el receptor envíe información al emisor a través de la factura.
-Para ciertas situaciones, como retirar bitcoins de un servicio en línea, el proceso tradicional es demasiado engorroso. En tales casos, la solución de retiro **LNURL** simplifica este proceso al mostrar un código QR que la billetera del destinatario escanea para crear automáticamente la factura. El servicio luego paga la factura, y el usuario simplemente ve un retiro instantáneo.
+Para ciertas situaciones, como retirar Bitcoin de un servicio en línea, el proceso tradicional es demasiado engorroso. En tales casos, la solución de retiro **LNURL** simplifica este proceso al mostrar un código QR que la billetera del destinatario escanea para crear automáticamente la factura. El servicio luego paga la factura, y el usuario simplemente ve un retiro instantáneo.
 
 ![LNP201](assets/en/069.webp)
 
@@ -883,7 +902,7 @@ Por ejemplo, la característica LNURL-withdraw (LUD-03) permite retirar fondos d
 
 ### Enviando un Pago Lightning sin una Factura: Keysend
 
-Otro caso interesante es la transferencia de fondos sin haber recibido una factura de antemano, conocido como "**Keysend**". Este protocolo permite enviar fondos agregando una preimagen en los datos del pago encriptado, accesible solo por el destinatario. Esta preimagen permite al destinatario desbloquear el HTLC, recuperando así los fondos sin haber generado una factura de antemano.
+Otro caso interesante es la transferencia de fondos sin haber recibido una factura de antemano, conocido como "**Keysend**". Este protocolo permite enviar fondos agregando una preimage en los datos del pago encriptado, accesible solo por el destinatario. Esta preimage permite al destinatario desbloquear el HTLC, recuperando así los fondos sin haber generado una factura de antemano.
 
 Para simplificar, en este protocolo, es el emisor quien genera el secreto utilizado en los HTLCs, en lugar del destinatario. Prácticamente, esto permite al emisor realizar un pago sin haber tenido que interactuar con el destinatario de antemano.
 
@@ -893,7 +912,7 @@ Para simplificar, en este protocolo, es el emisor quien genera el secreto utiliz
 
 - Una **Factura Lightning** es una solicitud de pago que consta de una parte legible por humanos y una parte de datos de máquina.
 - La factura está codificada en **bech32**, con un separador `1` para facilitar la copia y una parte de datos que contiene toda la información necesaria para procesar el pago.
-- Existen otros procesos de pago en Lightning, notablemente **LNURL-Withdraw** para facilitar retiros, y **Keysend** para transferencias directas sin factura.
+- Existen otros procesos de pago en Lightning, notablemente **Retiro LNURL** para facilitar retiros, y **Keysend** para transferencias directas sin factura.
 
 En el siguiente capítulo, veremos cómo un operador de nodo puede gestionar la liquidez en sus canales, para nunca estar bloqueado y siempre poder enviar y recibir pagos en la Red Lightning.
 
@@ -915,7 +934,7 @@ Existen tres perfiles principales de usuarios en Lightning, cada uno con necesid
 
 Estos perfiles obviamente no son fijos; un usuario puede cambiar entre pagador y beneficiario dependiendo de las transacciones. Por ejemplo, Bob podría recibir su salario en Lightning de su empleador, colocándolo en la posición de un "vendedor" que requiere liquidez entrante. Posteriormente, si quiere usar su salario para comprar comida, se convierte en un "pagador" y debe entonces tener liquidez saliente.
 
-Para entender mejor, tomemos el ejemplo de una red simple compuesta por tres nodos: el comprador (Alice), el enrutador (Suzie) y el vendedor (Bob).
+Para entender mejor, tomemos el ejemplo de una red simple compuesta por tres nodos: El comprador (Alice), el enrutador (Suzie) y el vendedor (Bob).
 
 ![LNP201](assets/en/071.webp)
 
@@ -942,7 +961,7 @@ Por otro lado, para el vendedor, la tarea es más compleja. Para poder recibir p
 
 ![LNP201](assets/en/074.webp)
 
-Finalmente, para los routers, cuyo objetivo es maximizar el número de pagos procesados y las comisiones recogidas, deben:
+Finalmente, para los enrutadores, cuyo objetivo es maximizar el número de pagos procesados y las comisiones recogidas, deben:
 
 - Abrir canales bien financiados con nodos estratégicos.
 - Ajustar regularmente la distribución de fondos en los canales según las necesidades de la red.
@@ -953,7 +972,7 @@ El servicio [Loop Out](https://lightning.engineering/loop/), ofrecido por Lightn
 
 ![LNP201](assets/en/075.webp)
 
-Por lo tanto, este servicio permite la liquidez entrante mientras se recuperan los bitcoins en cadena, lo que ayuda a limitar la inmovilización de efectivo necesaria para aceptar pagos con Lightning.
+Por lo tanto, este servicio permite la liquidez entrante mientras se recupera el Bitcoin on Chain, lo que ayuda a limitar la inmovilización de efectivo necesaria para aceptar pagos con Lightning.
 
 **¿Qué debes recordar de este capítulo?**
 
@@ -961,7 +980,7 @@ Por lo tanto, este servicio permite la liquidez entrante mientras se recuperan l
 - Para recibir pagos, necesitas tener liquidez del lado opuesto en tus canales. Aumentar esta capacidad de recepción es más complejo, ya que requiere que otros abran canales hacia ti, o hacer pagos (ficticios o reales) para mover la liquidez al otro lado.
 - Mantener la liquidez donde se desea puede ser aún más desafiante dependiendo del uso de los canales. Por eso existen herramientas y servicios para ayudar a equilibrar los canales según se desee.
 
-En el próximo capítulo, propongo revisar los conceptos más importantes de esta formación.
+En el próximo capítulo, revisaremos los conceptos más importantes de esta formación.
 
 # Ir Más Allá
 
@@ -973,8 +992,8 @@ En el próximo capítulo, propongo revisar los conceptos más importantes de est
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 
 :::video id=5f4f4344-ef27-4765-8f09-8262e6833bde:::
-En este capítulo final que marca el fin del entrenamiento LNP201, propongo revisar los conceptos importantes que hemos cubierto juntos.
-El objetivo de este entrenamiento era proporcionarte una comprensión comprensiva y técnica de la Red Lightning. Descubrimos cómo la Red Lightning depende de la blockchain de Bitcoin para realizar transacciones fuera de la cadena, mientras retiene las características fundamentales de Bitcoin, notablemente la ausencia de la necesidad de confiar en otros nodos.
+En este capítulo final que marca el fin del entrenamiento LNP201, repasaremos los conceptos importantes que hemos cubierto juntos.
+El objetivo de este curso es proporcionarte una comprensión comprensiva y técnica de la Red Lightning. Descubrimos cómo la Red Lightning depende de la blockchain de Bitcoin para realizar transacciones fuera de la cadena, mientras retiene las características fundamentales de Bitcoin, notablemente la ausencia de la necesidad de confiar en otros nodos.
 
 ### Canales de Pago
 
@@ -982,7 +1001,10 @@ En los capítulos iniciales, exploramos cómo dos partes, al abrir un canal de p
 
 - **Apertura del Canal**: La creación del canal se realiza a través de una transacción de Bitcoin que bloquea los fondos en una dirección multisignatura 2/2. Este depósito representa el canal Lightning en la blockchain.
 
-![LNP201](assets/en/076.webp) 2. **Transacciones en el Canal**: En este canal, entonces es posible llevar a cabo numerosas transacciones sin tener que publicarlas en la blockchain. Cada transacción Lightning crea un nuevo estado del canal reflejado en una transacción de compromiso.
+![LNP201](assets/en/076.webp) 
+
+- **Transacciones en el Canal**: En este canal, entonces es posible llevar a cabo numerosas transacciones sin tener que publicarlas en la blockchain. Cada transacción Lightning crea un nuevo estado del canal reflejado en una transacción de compromiso.
+
 ![LNP201](assets/en/077.webp)
 
 - **Aseguramiento y Cierre**: Los participantes se comprometen con el nuevo estado del canal intercambiando llaves de revocación para asegurar los fondos y prevenir cualquier engaño. Ambas partes pueden cerrar el canal cooperativamente haciendo una nueva transacción en la blockchain de Bitcoin, o como último recurso a través de un cierre forzado. Esta última opción, aunque menos eficiente porque es más larga y a veces mal evaluada en términos de comisiones, aún permite la recuperación de fondos. En caso de engaño, la víctima puede castigar al tramposo recuperando todos los fondos del canal en la blockchain.
@@ -1007,7 +1029,7 @@ Después de estudiar canales aislados, extendimos nuestro análisis a la red de 
 
 ### Gestión de Liquidez
 
-Hemos visto que la gestión de liquidez es un desafío en Lightning para asegurar el flujo suave de pagos. Enviar pagos es relativamente simple: solo requiere abrir un canal. Sin embargo, recibir pagos requiere tener liquidez en el lado opuesto de los canales propios. Aquí algunas estrategias discutidas:
+Hemos visto que la gestión de liquidez es un desafío en Lightning para asegurar el flujo suave de pagos. Enviar pagos es relativamente simple: Solo requiere abrir un canal. Sin embargo, recibir pagos requiere tener liquidez en el lado opuesto de los canales propios. Aquí algunas estrategias discutidas:
 
 - **Atraer Canales**: Alentando a otros nodos a abrir canales hacia uno mismo, un usuario obtiene liquidez entrante.
 
@@ -1016,7 +1038,9 @@ Hemos visto que la gestión de liquidez es un desafío en Lightning para asegura
 ![LNP201](assets/en/082.webp)
 
 - **Usar Servicios como Loop y Pool**: Estos servicios permiten reequilibrar o comprar canales con liquidez en el lado opuesto.
+
   ![LNP201](assets/en/083.webp)
+
 - **Aperturas Colaborativas**: También hay plataformas disponibles para conectarse para realizar aperturas triangulares y tener liquidez entrante.
 
 ![LNP201](assets/en/084.webp)

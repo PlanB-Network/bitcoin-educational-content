@@ -6,3 +6,4 @@ wrong_answers:
   - Konsensusregler validerer og autoriserer automatisk alle nye protokoller som bygges på toppen av Bitcoin gjennom blokkjedeverifiseringsprosessen
 explanation: |
   Tillatelsesfri utvikling er det riktige svaret fordi det er det grunnleggende prinsippet som gjør det mulig for alle å bygge på Bitcoin uten å be om tillatelse. De gale svarene er feil fordi: lisensiering av åpen kildekode krever ikke automatisk godkjenning eller integrering i Bitcoin Core; MIT-lisensen gir faktisk brede tillatelser uten å kreve godkjenning fra utviklere; og konsensusregler validerer transaksjoner og blokker, ikke protokoller på høyere nivå som er bygget på toppen av Bitcoin.
+reviewed: false

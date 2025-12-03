@@ -6,3 +6,4 @@ wrong_answers:
   - See vähendab võrgu üldist hash-kiirust, kuna kaevurid kulutavad ressursse ühenduvusele, mitte mining-le
 explanation: |
   Peatükis selgitatakse, et kui plokkide suurus suureneb, suureneb ka paljundusaeg, mis toob kaasa rohkem aegunud plokke. Selleks, et vältida aegunud plokkidest tuleneva tasu kaotamist, otsivad kaevandajad parema ribalaiuse ja ühenduvusega basseinid. See sunnib kaevandajaid liikuma suuremate, hästi ühendatud basseinide poole, vähendades mining detsentraliseeritust. Teised valikud on valed: raskusaste kohandub automaatselt, sõltumata basseinide ühenduvusest, ühenduvuskulud ei tekita täiendavaid tehingutasusid ja kaevandajad ei vähenda hash-kiirust, kui nad liituvad paremini ühendatud basseinidega.
+reviewed: false

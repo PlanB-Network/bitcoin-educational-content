@@ -6,3 +6,4 @@ wrong_answers:
   - Oceniać każdą lukę w zabezpieczeniach w oderwaniu od innych, nie biorąc pod uwagę tego, jak wiele drobnych błędów może łączyć się ze sobą, tworząc poważne zagrożenia dla bezpieczeństwa
 explanation: |
   Maxwell twierdzi, że deweloperzy powinni traktować luki jako poważniejsze niż się wydają, ponieważ trudne do wykorzystania problemy mogą stać się trywialne dzięki odpowiedniej technice, a pozornie drobne problemy mogą eskalować w poważne zagrożenia. Podkreśla on, że proste błędy w wydajności mogą zostać wykorzystane do partycjonowania sieci i umożliwienia ataków double-spending. To konserwatywne podejście uznaje, że deweloperzy mogą początkowo nie rozumieć pełnego potencjału wykorzystania podatności, co sprawia, że rozsądnie jest zakładać najgorszy scenariusz, zamiast bagatelizować zagrożenie.
+reviewed: false

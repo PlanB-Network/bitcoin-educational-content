@@ -405,7 +405,7 @@ Níže můžete obdivovat mou kopii tabulky s klínovým písmem. Domnívám se,
 
 
 
-![](./assets/fr/1-1-3_1_Tablette_small.webp)
+![image](assets/cs/001.webp)
 
 
 
@@ -416,7 +416,7 @@ Mám také něco, co považuji za pravou sumerskou tabulku s malým klínovým p
 Značky s malými číslicemi sloužily jako podpisy v době, kdy většina lidí neuměla psát, protože tuto schopnost měli pouze zkušení písaři.
 
 
-![](./assets/fr/1-1-3_2_Tablette_big.webp)
+![image](assets/cs/002.webp)
 
 
 
@@ -426,7 +426,7 @@ Níže vidíte výše zmíněný válec: kámen s vyrytými specifickými tvary.
 Tehdejší písaři proto používali k tisku nápisů na mokré tabulky klínový stylus.
 
 
-![](./assets/fr/1-1-3_3_cylindre.webp)
+![image](assets/cs/003.webp)
 
 
 
@@ -1010,7 +1010,7 @@ V Číně nemusely být mince nutně úředně označeny nebo zaručeny. Jejich 
 
 
 
-![](./assets/fr/1-2-3_chine.webp)
+![image](assets/cs/004.webp)
 
 
 Nahoře je čínská mince ze středověku. Jedná se o litou minci se čtvercovým otvorem uprostřed. Tímto otvorem se provlékal provaz, kterým se mince navlékaly na náramky nebo náhrdelníky. Ty však nebyly primárně určeny k nošení; používaly se především k účetním účelům. Mohly se navlékat na sebe a vytvářet účetní jednotky v podobě velkých provázků, jejichž části se vzájemně propojovaly. Nebyly na nich nutně žádné specifické značky, někdy to byly prostě bronzové kruhy.
@@ -1221,7 +1221,7 @@ Považuji za zajímavé zmínit, že v Egyptě se mince vážily ještě dlouho 
 
 
 
-![](./assets/fr/1-3-0_indes.webp)
+![image](assets/cs/005.webp)
 
 
 
@@ -1248,7 +1248,7 @@ Protože nemůžeme oddělit výskyt mincí od Lýdie a Peršanů, přejděme k 
 Níže si můžete prohlédnout jednu z nejstarších lýdských mincí, na které je zobrazen lev s kořistí v čele. Na zadní straně si můžete všimnout razidla nebo otvoru, který podle některých názorů sloužil k testování ryzosti kovu a k ujištění, že se nejedná pouze o povrchovou vrstvu. Přestože se jedná o jeden z nejranějších příkladů, je důležité si uvědomit, že tento kus je kopií. Všechny mé zlaté a elektrumové kousky jsou repliky nebo moderní rekonstrukce, které mají zabránit tomu, abych za tuto sbírku utratil všechny své úspory.
 
 
-![](./assets/fr/1-3-1_1_lydia.webp)
+![image](assets/cs/006.webp)
 
 
 
@@ -1291,7 +1291,7 @@ Když v roce 546 př. n. l. dobyli Lýdii, Achaimenovští Peršané tuto novink
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/cs/007.webp)
 
 
 
@@ -1404,7 +1404,7 @@ Po části o vzniku mincí jsem chtěl uvést velmi krátkou část o vývoji v�
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/cs/008.webp)
 
 
 Později, jak se dozvíme v následující části, Řekové tuto technologii zdokonalili a vytvořili kulaté mince, které byly raženy z obou stran. Vzali hladký, plochý kus drahého kovu, na jednu stranu vyryli požadovaný vzor a poté jej ručně otloukli, aby vznikla hotová mince.
@@ -1413,7 +1413,7 @@ Později, jak se dozvíme v následující části, Řekové tuto technologii zd
 Technologie individuální ruční ražby mincí pravděpodobně hrála v této době roli při kontrole inflace, i když se mince často ředily, aby se zvýšila jejich produkce. To se projevilo zejména v římském období a v menší míře během některých válek v řeckém období. Přestože ražba mincí po jednom kuse omezovala kapacitu úřadu pro masovou výrobu, účinně přispívala ke kontrole inflace, a to i přes značnou devalvaci, ke které docházelo. Vývoj tak postupoval od kapky kovu, která se razí, ke kulaté ražené minci.
 
 
-![](./assets/fr/1-3-2_1_drachm.webp)
+![image](assets/cs/009.webp)
 
 
 
@@ -1735,7 +1735,7 @@ Níže můžete obdivovat pozoruhodný příklad monumentálních kamenů na ost
 
 
 
-![](./assets/fr/Pierre_de_Yap.webp)
+![image](assets/cs/010.webp)
 
 
 
@@ -1945,7 +1945,7 @@ Peněžní prémie je jednoduše založena na jistotě, že někdo tyto peníze 
 
 
 
-![image](./assets/fr/prime_monetaire.webp)
+![image](assets/cs/011.webp)
 
 
 
@@ -2322,7 +2322,7 @@ Níže si můžete prohlédnout tweet Stephanie Keltonové, která je jakousi ž
 
 
 
-![image](./assets/fr/no_debt_crisis.webp)
+![image](assets/cs/012.webp)
 
 
 
@@ -2534,7 +2534,7 @@ A já mám to štěstí, že mám kopii řecké drachmy z té doby s tou slavnou
 
 
 
-![](./assets/fr/3_1_tetradrachm.webp)
+![image](assets/cs/013.webp)
 
 
 
@@ -2704,7 +2704,7 @@ Rozhodující střetnutí s Řeky v jižní Itálii skutečně zavedlo Římanů
 Na mnoha římských mincích z období republiky jsou zobrazeny zakladatelské mýty. Tu mou si můžete prohlédnout níže: jde o vynikající, skutečnou minci krále Tatia. Znázorňuje mýtus o únosu žen od Sabinů. Tatius byl králem této oblasti a zakladatelský mýtus vypráví o tom, jak Římané unášeli ženy Sabinům, obyvatelům, kteří žili nedaleko. Král Tatius se následně stal spoluvládcem Romula, jednoho ze zakladatelů Říma.
 
 
-![](./assets/fr/3_2_tatius.webp)
+![image](assets/cs/014.webp)
 
 
 
@@ -2728,7 +2728,7 @@ Zde se můžeme vrátit ke konceptu, o kterém jsme již dříve hovořili a kte
 
 
 
-![](./assets/fr/3_2_Carthage.webp)
+![image](assets/cs/015.webp)
 
 
 
@@ -2892,19 +2892,19 @@ Po Caesarově zavraždění v roce 44 př. n. l. se vlády v Římě ujal Oktavi
 
 
 
-![](./assets/fr/3_3_aureus.webp)
+![image](assets/cs/016.webp)
 
 
 
-![](./assets/fr/3_3_denier.webp)
+![image](assets/cs/017.webp)
 
 
 
-![](./assets/fr/3_3_sesterce.webp)
+![image](assets/cs/018.webp)
 
 
 
-![](./assets/fr/3_3_dernier-sesterce.webp)
+![image](assets/cs/019.webp)
 
 
 
@@ -2920,11 +2920,11 @@ Tato část mi umožní představit poslední kus této části: antoninianus. P
 
 
 
-![](./assets/fr/3_3_antoninien.webp)
+![image](assets/cs/020.webp)
 
 
 
-![](./assets/fr/3_3_Denier-Antoninien.webp)
+![image](assets/cs/021.webp)
 
 
 
@@ -2943,11 +2943,11 @@ Tuto formu znehodnocování, která je mnohem rychlejší než postupné znehodn
 Pro názornou ilustraci této extrémní devalvace jsem našel několik fascinujících statistik o ceně obilí v Egyptě od roku 40 př. n. l. do 3. století, tedy v rozmezí více než 300 let. Níže si můžete prohlédnout řeckou tetradrachmu z mé sbírky. V té době, v Egyptě pod římskou okupací ve 3. století, byla ekvivalentem egyptská tetradrachma. Stále se používal nominál drachmy, který odpovídal denáru.
 
 
-![](./assets/fr/3_3_egypt-tetradrachm.webp)
+![image](assets/cs/022.webp)
 
 
 
-![](./assets/fr/3_3_tetradrachm-vs-tetradrachm.webp)
+![image](assets/cs/023.webp)
 
 
 
@@ -3192,7 +3192,7 @@ Jako první artefakt vztahující se k tomuto období vám ukážu reprodukci an
 
 
 
-![](./assets/fr/3_5_penny.webp)
+![image](assets/cs/024.webp)
 
 
 
@@ -3228,7 +3228,7 @@ Abyste si uvědomili souvislost s templáři, můžete si níže prohlédnout fr
 
 
 
-![](./assets/fr/3_5_Denier-france.webp)
+![image](assets/cs/025.webp)
 
 
 
@@ -3285,7 +3285,7 @@ Níže si můžete prohlédnout reprodukci florinu: zlatý florin vyrobený z c�
 
 
 
-![](./assets/fr/4_Florin.webp)
+![image](assets/cs/026.webp)
 
 
 
@@ -3293,11 +3293,11 @@ Tento návrat ke zlatým mincím byl vyvolán specifickým kontextem: zhroucení
 
 
 
-![](./assets/fr/4_Byzantine.webp)
+![image](assets/cs/027.webp)
 
 
 
-![](./assets/fr/4_Hongrie.webp)
+![image](assets/cs/028.webp)
 
 
 
@@ -3335,7 +3335,7 @@ V tomto období se také Evropa díky cestě Marca Pola ve 13. století dozvěd�
 Máme na mysli techniku kyvadlového úderu, o které jsme se zmínili dříve v kurzu. Tato metoda umožňovala ve srovnání s ražbou kladivem vyrábět rovnoměrnější mince a, což je důležité, umožňovala nápisy na okraji mince, jak jsem již dříve předvedl. Níže je uveden evropský tolar z roku 1793, na němž je zřetelně vidět nápis na okraji.
 
 
-![image](./assets/fr/4_thaler.webp)
+![image](assets/cs/029.webp)
 
 
 
@@ -3414,7 +3414,7 @@ V reakci na evropskou poptávku po zlatě a stříbře byl "stálou motivací ve
 
 
 
-![](./assets/fr/5_1_Real_Portugais.webp)
+![image](assets/cs/030.webp)
 
 
 
@@ -3431,7 +3431,7 @@ Po dobytí Nového světa se dominantním hráčem stal **Španělsko**. Jeho pa
 
 
 
-![](./assets/fr/5_1_Dollar_Espagnol.webp)
+![image](assets/cs/031.webp)
 
 
 
@@ -3441,7 +3441,7 @@ Po dobytí Nového světa se dominantním hráčem stal **Španělsko**. Jeho pa
 Zajímavé je zejména to, že španělský dolar v té době sloužil jako mezinárodní rezervní měna. Španělské úřady také vydávaly vlastní místní měnu, maravedi, a pravidelně upravovaly peněžní zásobu odvoláváním. Například měděná nebo bronzová mince, která měla původně hodnotu jednoho maravedi, mohla být odvolána a vyražena s číslem "2", později s číslem "4" a tak dále, případně až s číslem "8" Na fotografii s vysokým rozlišením je jasně vidět, že na minci je vyraženo "8". Tato metoda účinně rozšířila peněžní zásobu... což nevyhnutelně vedlo k inflaci.
 
 
-![](./assets/fr/5_1_maravedi.webp)
+![image](assets/cs/032.webp)
 
 
 
@@ -3473,10 +3473,10 @@ Po iberském apogeu se **Nizozemsko** stalo v 17. století novou obchodní velmo
 
 
 
-![](./assets/fr/5_1_gulden.webp)
+![image](assets/cs/033.webp)
 
 
-![](./assets/fr/5_1_VOC.webp)
+![image](assets/cs/034.webp)
 
 
 
@@ -3522,7 +3522,7 @@ Restriktivnější zákony se snažily zavést assignat, ale bez úspěchu. Vlá
 
 
 
-![](./assets/fr/5_1_assignat.webp)
+![image](assets/cs/035.webp)
 
 
 
@@ -3530,7 +3530,7 @@ Když tyto papírové peníze nahradily všechny kvalitní mince z drahých kov�
 
 
 
-![](./assets/fr/5_1_cloche.webp)
+![image](assets/cs/036.webp)
 
 
 
@@ -3562,10 +3562,10 @@ Suverén byla měnová mince - zlatá mince původně v hodnotě jedné libry.
 Před slavným sovereignem byla guinea, která fungovala na stejném principu. Guinea byla pojmenována podle drahých kovů, které obsahovala a které pocházely z oblasti Guineje.
 
 
-![](./assets/fr/5_2_sovereign.webp)
+![image](assets/cs/037.webp)
 
 
-![](./assets/fr/5_1_Guinea.webp)
+![image](assets/cs/038.webp)
 
 
 
@@ -3593,7 +3593,7 @@ V Antverpách se konaly kupecké trhy, kde se často scházeli obchodníci, aby 
 
 
 
-![](./assets/fr/5_2_Billet_a_ordre.webp)
+![image](assets/cs/039.webp)
 
 
 
@@ -3758,7 +3758,7 @@ Pak přišla panika v roce 1776. Všichni se vrhli na peněžní pyramidu. To zn
 Od florinu jsme přešli k založení Bank of England. Mezitím samozřejmě proběhla první a druhá světová válka, ale již dříve, v roce 1796, probíhal vývoj i na druhé straně Atlantiku. V roce 1776 byla Amerika stále britskou kolonií a kolonie používaly tuto papírovou měnu. Níže je vyobrazena connecticutská dvoušilinková bankovka z roku 1776.
 
 
-![](./assets/fr/two_shilling.webp)
+![image](assets/cs/040.webp)
 
 
 Než vyhlásily Anglii válku a nakonec vydaly vlastní měnu, používaly kolonie tuto papírovou měnu spolu se španělským dolarem pro hotovostní transakce. Termín "dolar" zůstal ve skutečnosti pro označení amerického dolaru.
@@ -3767,7 +3767,7 @@ Než vyhlásily Anglii válku a nakonec vydaly vlastní měnu, používaly kolon
 Pokud se nemýlím, v roce 1792 přijali zákon, který jim umožňoval razit peníze. Jako příklad lze uvést níže uvedený americký dolar z moderní doby.
 
 
-![](./assets/fr/silver_dollar.webp)
+![image](assets/cs/041.webp)
 
 
 Její nominální hodnota samozřejmě není jen jeden dolar, má hodnotu asi 30 nebo 40 dolarů, protože představuje unci stříbra. Její hodnota kolísá v závislosti na ceně stříbra, obvykle se pohybuje nejméně kolem 30 nebo 40 amerických dolarů. Dnes si papírový dolar samozřejmě zachovává pouze nominální hodnotu jednoho dolaru, ale v té době měl americký dolar kořeny v této hodnotě stříbra.
@@ -3777,7 +3777,7 @@ Promluvme si nyní o občanské válce v Americe. Konfederace tiskla peníze, kt
 
 
 
-![](./assets/fr/confederate.webp)
+![image](assets/cs/042.webp)
 
 
 
@@ -3785,7 +3785,7 @@ Jejich protivníci ze severu měli také dolary. Těsně nad nimi jste mohli vid
 
 
 
-![](./assets/fr/greenback.webp)
+![image](assets/cs/043.webp)
 
 
 
@@ -3800,7 +3800,7 @@ Po první světové válce obsahovala poslední série tištěných bankovek vž
 
 
 
-![](./assets/fr/1928.webp)
+![image](assets/cs/044.webp)
 
 
 
@@ -3811,7 +3811,7 @@ Níže vidíte zlatý certifikát z roku 1928.
 
 
 
-![](./assets/fr/Gold_certificate.webp)
+![image](assets/cs/045.webp)
 
 
 
@@ -3831,7 +3831,7 @@ Po vydání nařízení 6102 zabavili všechno zlato a za každou unci zlata vym
 
 
 
-![](./assets/fr/1934.webp)
+![image](assets/cs/046.webp)
 
 
 Objevuje se zde pojem zákonné platidlo, který nahrazuje výraz "vyměnitelné ve zlatě" Obě bankovky mohou vypadat stejně, mění se jen několik slov, ale podvod spočívá v tom, že v tomto období došlo k devalvaci dolaru; hodnota unce zlata se snížila z 20,67 USD na 35 USD za unci v roce 1934. To představovalo znehodnocení přibližně o 40 %!
@@ -3869,10 +3869,10 @@ Musí se jen ujistit, že tyto převody mohou provést, ale neexistuje žádná 
 
 
 
-Chcete-li pochopit souvislost mezi penězi a inflací, doporučuji kurz, který mám na Plan ₿ Network a který se tomuto tématu věnuje. Dozvíte se, jaký je rozdíl mezi růstem cen, který vidíme v životě, a inflací. Není to totéž. Ve skutečnosti, když mluvíme o inflaci, často mluvíme o růstu cen, nikoli o inflaci samotné. Inflace je poměrně přesný pojem, který se vysvětluje růstem nabídky peněz.
+Chcete-li pochopit souvislost mezi penězi a inflací, doporučuji kurz, který mám na Plan ₿ Academy a který se tomuto tématu věnuje. Dozvíte se, jaký je rozdíl mezi růstem cen, který vidíme v životě, a inflací. Není to totéž. Ve skutečnosti, když mluvíme o inflaci, často mluvíme o růstu cen, nikoli o inflaci samotné. Inflace je poměrně přesný pojem, který se vysvětluje růstem nabídky peněz.
 
 
-https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 Na závěr této části o světě fiat bych vás rád upozornil na zdroj, který vám pomůže lépe pochopit jevy, které jsem právě vysvětlil, jako je inflace.
 
@@ -3903,7 +3903,7 @@ Tímto systémem spojil Law papírové peníze s akciemi své společnosti. Čí
 
 
 
-![image](./assets/fr/paper_illustration.webp)
+![image](assets/cs/047.webp)
 
 
 

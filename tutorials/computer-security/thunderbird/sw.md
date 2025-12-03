@@ -19,7 +19,7 @@ Thunderbird ni programu ya barua pepe inayojulikana kwa kubadilika na anuwai ya 
 
 - **Chanzo huria na huria**: tofauti na programu nyingi za kutuma ujumbe, Thunderbird ni bure kabisa. Hata hivyo, unaweza kusaidia jumuiya ya wasanidi programu kwa kuwatumia mchango.
 - **Intuitive Interface na rahisi kujifunza**: Usanidi wa Thunderbird, kwa sehemu kubwa, ni wa moja kwa moja, kwa hivyo huna haja ya kuwa na wasiwasi kuihusu.
-- Inafaa kwa aina kadhaa za barua pepe: iwe Gmail, Yahoo, Outlook au hata barua pepe za biashara zinazohusiana na jina la kikoa, kisanduku hiki cha barua kinaweza kutumika sana.
+- **Inafaa kwa aina kadhaa za barua pepe**: iwe Gmail, Yahoo, Outlook au hata barua pepe za biashara zinazohusiana na Domain name, kisanduku hiki cha barua kinaweza kutumika sana.
 - **Akaunti nyingi**: Thunderbird hukuwezesha kuunganisha kwa akaunti kadhaa za barua pepe kwa wakati mmoja, na kuifanya iwe rahisi kufikia ujumbe wako wote.
 - **Vipengele vya utendakazi wa hali ya juu na ukubwa**: kwa chaguomsingi, Thunderbird hutoa anuwai ya vipengele vya kudhibiti akaunti zako za barua pepe na kalenda ya matukio. Hata hivyo, pia inakuwezesha kuongeza chaguo zaidi kwa shukrani kwa viendelezi vingi vinavyopatikana.
 - **Multi-platform**: Thunderbird inapatikana kwenye vifaa mbalimbali (Android, Windows, Linux, macOS), kukupa ufikiaji rahisi wa barua pepe zako.
@@ -60,7 +60,7 @@ Kwenye Windows, endesha programu iliyopakuliwa ili kuanza usakinishaji. Bonyeza 
 
 
 - **Kawaida**: inaruhusu usakinishaji wa moja kwa moja bila usanidi wa awali.
-- **Maalum**: hukuwezesha kuchagua folda ya usakinishaji na iwapo utaunda au kutounda njia za mkato za eneo-kazi.
+- ****Maalum**: hukuwezesha kuchagua folda ya usakinishaji na iwapo utaunda au kutounda njia za mkato za eneo-kazi.
 
 
 
@@ -108,7 +108,7 @@ Thunderbird inasaidia aina tofauti za barua pepe. Ili kuunganisha kwa mara ya kw
 
 
 
-Dirisha linafungua ili kukuruhusu kuingiza maelezo yako. Ingiza jina kamili litakaloonyeshwa kwenye kisanduku chako cha barua, pamoja na barua pepe yako kamili ya Address, kisha uthibitishe.
+Window inafungua ili kukuruhusu kuingiza maelezo yako. Ingiza jina kamili litakaloonyeshwa kwenye kisanduku chako cha barua, pamoja na barua pepe yako kamili ya Address, kisha uthibitishe.
 
 
 
@@ -116,11 +116,11 @@ Dirisha linafungua ili kukuruhusu kuingiza maelezo yako. Ingiza jina kamili lita
 
 
 
-**Uteuzi wa itifaki na usanidi wa muunganisho:**
+**Uteuzi wa protocol na usanidi wa muunganisho:**
 
 
 
-Utaombwa kuchagua itifaki ya ujumbe inayofaa zaidi mahitaji yako. Katika hali nyingi, IMAP itatosha. Kwa usanidi maalum, unaweza kurekebisha mipangilio au bonyeza tu "Ifuatayo".
+Utaombwa kuchagua protocol ya ujumbe inayofaa zaidi mahitaji yako. Katika hali nyingi, IMAP itatosha. Kwa usanidi maalum, unaweza kurekebisha mipangilio au bonyeza tu "Ifuatayo".
 
 
 
@@ -128,7 +128,7 @@ Utaombwa kuchagua itifaki ya ujumbe inayofaa zaidi mahitaji yako. Katika hali ny
 
 
 
-Dirisha jipya litafungua, kukuwezesha kuunganisha kwenye kisanduku chako cha barua kwa kutumia kuingia na nenosiri lako. Idhinisha Thunderbird kufikia akaunti yako, kisha ubofye Sawa.
+Window mpya itafungua, kukuwezesha kuunganisha kwenye kisanduku chako cha barua kwa kutumia kuingia na nenosiri lako. Idhinisha Thunderbird kufikia akaunti yako, kisha ubofye Sawa.
 
 
 

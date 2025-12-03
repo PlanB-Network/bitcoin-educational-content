@@ -2546,7 +2546,7 @@ Etter at Samourais grunnleggere ble arrestert, er disse verktøyene dessverre ik
 
 Nå som vi har dekket coinjoins i detalj, skal vi se på de andre personvernteknikkene som er tilgjengelige på Bitcoin i den siste delen av kurset vårt. Vi skal se på payjoins, spesifikke transaksjonstyper for pseudocoinjoins, statiske adresseprotokoller, samt tiltak for å styrke konfidensialiteten, ikke på transaksjonsnivå, men på nettverksnivå.
 
-https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # Forstå utfordringene med andre avanserte konfidensialitetsteknikker
 

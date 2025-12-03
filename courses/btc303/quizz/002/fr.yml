@@ -6,3 +6,4 @@ wrong_answers:
   - Décentralisation des utilisateurs et décentralisation des développeurs
 explanation: |
   La décentralisation du Bitcoin comporte deux éléments clés : la décentralisation des mineurs et la décentralisation du full node. La décentralisation Miner signifie que le traitement et l'ordonnancement des transactions ne sont pas contrôlés par une entité unique, mais par un collectif dynamique de mineurs qui peuvent se joindre au réseau ou le quitter librement. La décentralisation Full node signifie que la validation des blocs est effectuée à la périphérie du réseau par les utilisateurs eux-mêmes, plutôt que par des autorités de confiance. Ces deux aspects s'allient pour résister à la censure : les mineurs empêchent la centralisation des transactions, tandis que les nœuds complets garantissent une validation sans faille de la blockchain.
+reviewed: false

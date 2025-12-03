@@ -11,9 +11,9 @@ objectives:
 ---
 # Devenez un bitcoiner souverain
 
-Vous connaissez sans doute l’adage "*Pas tes clés, pas tes coins*", qui encourage la self-custody de vos bitcoins. Détenir ses propres clés constitue en effet une première étape indispensable, mais elle ne suffit pas. Pour obtenir une véritable souveraineté monétaire, il est également nécessaire d’installer et d’utiliser votre propre nœud Bitcoin. Ce cours a justement pour objectif de vous guider dans cette étape fondamentale de votre parcours de bitcoiner !
+Vous connaissez sans doute l’adage "*Not yours keys,not your coins*", qui encourage la self-custody de vos bitcoins. Détenir ses propres clés constitue en effet une première étape indispensable, mais elle ne suffit pas. Pour obtenir une véritable souveraineté monétaire, il est également nécessaire d’installer et d’utiliser votre propre nœud Bitcoin. Ce cours a justement pour objectif de vous guider dans cette étape fondamentale de votre parcours de bitcoiner !
 
-BTC 202 est une formation accessible conçue pour vous apprendre à faire tourner votre propre nœud Bitcoin, même si vous n’êtes pas un expert technique. Nous commencerons par définir ce qu’est un nœud Bitcoin, à quoi il sert, et pourquoi il est absolument essentiel d’en faire tourner un par soi-même. Je vous guiderai ensuite pas à pas dans le choix de votre matériel, l’installation des logiciels nécessaires, la connexion de votre logiciel de portefeuille et les premières optimisations possibles pour aller plus loin.
+BTC 202 est une formation accessible conçue pour vous apprendre à faire tourner votre propre nœud Bitcoin, même si vous n’êtes pas un expert technique. Nous commencerons par définir ce qu’est un nœud Bitcoin, à quoi il sert et pourquoi il est absolument essentiel d’en faire tourner un par soi-même. Je vous guiderai ensuite pas à pas dans le choix de votre matériel, l’installation des logiciels nécessaires, la connexion de votre logiciel de portefeuille et les optimisations possibles pour aller plus loin.
 
 Faire tourner un nœud Bitcoin, ce n’est pas une option réservée aux experts. C’est un outil de résilience que chaque utilisateur doit comprendre et mettre en place. Ce cours est votre point de départ pour devenir un bitcoiner souverain !
 
@@ -34,7 +34,7 @@ Bienvenue dans ce cours BTC 202, où vous apprendrez à installer, configurer et
 
 ### Partie 1 - Introduction
 
-Dans cette première partie du cours, nous allons clarifier les notions de base pour repartir sur des définitions précises. Qu’est-ce qu’un nœud ? Quelles sont les différences entre nœud, portefeuille et mineur ? Vous découvrirez ensuite ce que sont Bitcoin Core et les implémentations du protocole. Objectif : parler le même langage, éviter les confusions, et partir sur des bases théoriques solides pour la suite.
+Dans cette première partie du cours, nous allons clarifier les notions de base pour repartir sur des définitions précises. Qu’est-ce qu’un nœud ? Quelles sont les différences entre nœud, portefeuille et mineur ? Vous découvrirez ensuite ce que sont Bitcoin Core et les implémentations du protocole. Objectif : parler le même langage, éviter les confusions et partir sur des bases théoriques solides pour la suite.
 
 ### Partie 2 - Devenir un bitcoiner souverain
 
@@ -60,7 +60,7 @@ Nous détaillerons également le rôle des indexeurs et les différents modes de
 
 Dans cette dernière partie de BTC 202, l’objectif est d’approfondir vos connaissances. Nous verrons d’abord les bonnes pratiques à adopter avec votre nouveau nœud Bitcoin et comment l’entretenir sur le long terme.
 
-Nous prendrons ensuite le temps de revenir sur certaines notions théoriques abordées plus tôt dans la formation : comprendre en détail le processus de l’IBD et la découverte des pairs, explorer l’anatomie d’un nœud, et enfin apprendre à utiliser le fichier `bitcoin.conf` pour ajuster vos paramètres.
+Nous prendrons ensuite le temps de revenir sur certaines notions théoriques abordées plus tôt dans la formation : comprendre en détail le processus de l’IBD et la découverte des pairs, explorer l’anatomie d’un nœud et enfin apprendre à utiliser le fichier `bitcoin.conf` pour ajuster vos paramètres.
 
 ### Partie 6 - Partie finale
 
@@ -82,7 +82,7 @@ Puisque Bitcoin est un système, il doit nécessairement être exécuté sur des
 
 Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
-Ce sont précisément ces utilisateurs qui assurent la sécurité de Bitcoin. Comme l’expose Eric Voskuil dans son ouvrage *Cryptoeconomics*, la sécurité de Bitcoin ne repose ni sur la blockchain, ni sur la puissance de hachage, ni sur la validation, la décentralisation, la cryptographie, l’open source ou la théorie des jeux. La sécurité de Bitcoin dépend avant tout des personnes qui acceptent de s’exposer à des risques personnels. La décentralisation permet de répartir cette prise de risque sur de nombreux individus et seule leur capacité à résister assure la robustesse du système.
+Ce sont précisément ces utilisateurs qui assurent la sécurité de Bitcoin. Comme l’expose Eric Voskuil dans son ouvrage *Cryptoeconomics*, la sécurité de Bitcoin ne repose ni sur la blockchain ni sur la puissance de hachage ni sur la validation, la décentralisation, la cryptographie, l’open source ou la théorie des jeux. La sécurité de Bitcoin dépend avant tout des personnes qui acceptent de s’exposer à des risques personnels. La décentralisation permet de répartir cette prise de risque sur de nombreux individus et seule leur capacité à résister assure la robustesse du système.
 
 Ce principe est facile à comprendre : si Bitcoin dépendait d’un unique nœud détenu par une seule personne, il suffirait d’emprisonner cette personne pour mettre fin au réseau, puisqu'elle assumerait seule tous les risques. Avec des dizaines de milliers de nœuds répartis dans le monde, le risque est disséminé : il faudrait neutraliser chacun de ces opérateurs pour éteindre Bitcoin.
 
@@ -100,11 +100,11 @@ On peut ainsi distinguer et nommer plusieurs concepts pour clarifier les choses 
 
 L'ensemble des nœuds Bitcoin représente donc ce que l'on appelle le réseau Bitcoin. Ce sont eux qui permettent à l’ensemble du système de fonctionner de manière autonome, sans recours à une autorité centrale ni à une hiérarchie de serveurs.
 
-Dès l’origine, Bitcoin a été conçu pour que chaque utilisateur exécute un nœud personnel. C’est encore ce que propose le logiciel Bitcoin Core aujourd'hui, qui combine à la fois le rôle de portefeuille et le rôle de nœud. Mais de nos jours, cette fonction est souvent dissociée : beaucoup de portefeuilles Bitcoin modernes sont juste des portefeuilles qui se connectent à des nœuds externes (possédés par la même personne ou non).
+Dès l’origine, Bitcoin a été conçu pour que chaque utilisateur exécute un nœud personnel. C’est encore ce que propose le logiciel Bitcoin Core aujourd'hui, qui combine à la fois le rôle de portefeuille et le rôle de nœud. Mais de nos jours, cette fonction est souvent dissociée : beaucoup de portefeuilles Bitcoin modernes sont simplement des portefeuilles qui se connectent à des nœuds externes (possédés par la même personne ou non).
 
 ### Conserver la blockchain
 
-La première mission d’un nœud consiste à conserver une copie locale de la blockchain. Pour empêcher la double dépense sur Bitcoin sans faire appel à une autorité centrale, chaque utilisateur doit vérifier la non existence d'une transaction dans le système. La seule manière d’en être certain est de connaître l’ensemble des transactions passées sur Bitcoin. C’est pourquoi toutes les transactions sont horodatées et regroupées dans des blocs, et chaque nœud stocke l’intégralité de la blockchain.
+La première mission d’un nœud consiste à conserver une copie locale de la blockchain. Pour empêcher la double dépense sur Bitcoin sans faire appel à une autorité centrale, chaque utilisateur doit vérifier l'inexistence d'une transaction dans le système. La seule manière d’en être certain est de connaître l’ensemble des transactions passées sur Bitcoin. C’est pourquoi toutes les transactions sont horodatées et regroupées dans des blocs, et chaque nœud stocke l’intégralité de la blockchain.
 
 > Le seul moyen pour confirmer l’absence d’une transaction est d’être au courant de toutes les transactions.
 
@@ -189,9 +189,9 @@ Parmi ces implémentations, une domine très largement : **Bitcoin Core**.
 
 ### Une implémentation historique devenue référence
 
-Bitcoin Core est le logiciel de référence du protocole Bitcoin. Il est issu du code original écrit par Satoshi Nakamoto en 2008-2009, et en constitue la continuité directe. Initialement connu sous le nom de "*Bitcoin*", puis "*Bitcoin QT*" (en raison de l’ajout d’une interface graphique via la bibliothèque Qt), il a été rebaptisé "*Bitcoin Core*" en 2014 pour bien différencier le logiciel du réseau. Depuis la version 0.5, il est distribué avec deux composants : `bitcoin-qt` (l’interface graphique) et `bitcoind` (l'interface en ligne de commande).
+Bitcoin Core est le logiciel de référence du protocole Bitcoin. Il est issu du code original écrit par Satoshi Nakamoto en 2008-2009 dont il constitue la continuité directe. Initialement connu sous le nom de "*Bitcoin*", puis "*Bitcoin QT*" (en raison de l’ajout d’une interface graphique via la bibliothèque Qt), il a été rebaptisé "*Bitcoin Core*" en 2014 pour bien différencier le logiciel du réseau. Depuis la version 0.5, il est distribué avec deux composants : `bitcoin-qt` (l’interface graphique) et `bitcoind` (l'interface en ligne de commande).
 
-Bitcoin Core ne représente théoriquement pas le protocole Bitcoin, mais seulement une implémentation parmi d’autres. Il se distingue toutefois par son adoption massive, son ancienneté, la robustesse de son code, et la rigueur de son processus de développement. En conséquence, dans la pratique, les règles appliquées par Bitcoin Core sont de facto celles du protocole Bitcoin : les utilisateurs, développeurs, mineurs et services de l’écosystème s’y réfèrent presque exclusivement.
+Bitcoin Core ne représente théoriquement pas le protocole Bitcoin, mais seulement une implémentation parmi d’autres. Il se distingue toutefois par son adoption massive, son ancienneté, la robustesse de son code et la rigueur de son processus de développement. En conséquence, dans la pratique, les règles appliquées par Bitcoin Core sont de facto celles du protocole Bitcoin : les utilisateurs, développeurs, mineurs et services de l’écosystème s’y réfèrent presque exclusivement.
 
 ### Répartition actuelle des implémentations
 
@@ -208,14 +208,14 @@ Autrement dit, environ 9 nœuds publics sur 10 font tourner Bitcoin Core. Le res
 
 ### Fonctionnement interne de Bitcoin Core
 
-Bitcoin Core est un logiciel écrit en C++. C'est également un projet open source qui est maintenu par une communauté de développeurs bénévoles ou rémunérés par des entités diverses (souvent par des entreprises de l’écosystème qui ont intérêt à ce que le développement de Core se déroule favorablement). [Le code est hébergé sur GitHub](https://github.com/bitcoin/bitcoin), et le développement suit un modèle rigoureux :
+Bitcoin Core est un logiciel écrit en C++. C'est également un projet open source qui est maintenu par une communauté de développeurs bénévoles ou rémunérés par des entités diverses (souvent par des entreprises de l’écosystème qui ont intérêt à ce que le développement de Core se déroule favorablement). [Le code est hébergé sur GitHub](https://github.com/bitcoin/bitcoin) et le développement suit un modèle rigoureux :
 - Les **contributeurs** soumettent des propositions sous forme de _pull requests_ (PR). En principe, n'importe qui peut proposer une modification, mais celle-ci doit être testée, documentée et passer par un processus de relecture par les pairs ;
 - Les **mainteneurs** ont le droit d’approuver et de fusionner les PR. Ce sont eux qui garantissent la cohérence et la stabilité du projet. En juillet 2025, ils sont cinq : Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao et Ryan Ofsky ;
 - Il n’existe plus de **mainteneur principal** depuis février 2023. Ce rôle avait été tenu naturellement par Satoshi Nakamoto au lancement de Bitcoin, puis par Gavin Andresen suite au départ de Nakamoto début 2011, et enfin par Wladimir J. Van Der Laan de 2014 à 2023.
 
 ![Image](assets/fr/057.webp)
 
-Le développement de Bitcoin Core suit une logique de méritocratie : les nouveaux contributeurs sont encouragés à relire et tester le code avant d’en proposer eux-mêmes. Les décisions sont fondées sur le consensus technique, et les modifications importantes (notamment en matière de consensus) nécessitent des discussions en amont sur des canaux publics comme les mailing lists ou les clubs de revue de PR.
+Le développement de Bitcoin Core suit une logique de méritocratie : les nouveaux contributeurs sont encouragés à relire et tester le code avant d’en proposer eux-mêmes. Les décisions sont fondées sur le consensus technique et les modifications importantes (notamment en matière de consensus) nécessitent des discussions en amont sur des canaux publics comme les mailing lists ou les clubs de revue de PR.
 
 ### Les autres implémentations de Bitcoin
 
@@ -1225,7 +1225,7 @@ Une fois l’application installée, il vous suffit de l’ouvrir pour accéder 
 
 Pour approfondir l’utilisation de l'explorateur Mempool.space, je vous recommande de consulter ce tutoriel complet :
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Nœud Lightning
 

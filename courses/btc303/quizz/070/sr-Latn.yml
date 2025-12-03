@@ -6,3 +6,4 @@ wrong_answers:
   - Naglašava smanjenje računarskih zahteva za čvorove umesto proširenja kapaciteta mreže
 explanation: |
   Knjiga definiše skaliranje kao 'povećanje kapaciteta korišćenja Bitcoin bez ugrožavanja njegove otpornosti na cenzuru,' što eksplicitno uključuje ograničenje otpornosti na cenzuru. Ovo ga razlikuje od drugih definicija koje se fokusiraju isključivo na povećanje kapaciteta transakcija, poboljšanja efikasnosti ili slojevite sisteme bez razmatranja očuvanja osnovnih svojstava Bitcoin. Zahtev otpornosti na cenzuru osigurava da rešenja za skaliranje ne potkopavaju osnovnu vrednost Bitcoin kao sistema bez poverenja, decentralizovanog sistema koji ne može biti kontrolisan od strane bilo kojeg pojedinačnog entiteta.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Aby zachować wsteczną kompatybilność ze starszymi wersjami węzłów, które nie mogą obsługiwać poprawek awaryjnych
 explanation: |
   Prawidłowa odpowiedź podkreśla kluczowy paradoks w łataniu zabezpieczeń: sama poprawka może ujawnić lukę. Rozdział podkreśla, że programiści muszą starannie ukrywać poprawki, ponieważ ich natychmiastowe opublikowanie może ujawnić podatność atakującym, zanim większość węzłów zostanie zabezpieczona. Błędne odpowiedzi, choć prawdopodobne, błędnie przedstawiają priorytety: powiadomienie o altcoinach następuje po wdrożeniu sieci Bitcoin, testowanie puli mining nie jest głównym zmartwieniem w przypadku niekrytycznych kwestii, a kompatybilność wsteczna nie wpływa na harmonogram łatek bezpieczeństwa.
+reviewed: false

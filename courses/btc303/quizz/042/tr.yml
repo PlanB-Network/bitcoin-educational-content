@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin Çekirdek geliştiricileri, yükseltmelerdeki sorumluluklarını azaltmak için bir alternatif talep ettiler
 explanation: |
   Bölüme göre, Segwit aktivasyon kodu Ekim 2016'da yayınlandığında, Bitcoin kullanıcıları arasında büyük bir destek vardı, ancak madenciler yükseltme için destek sinyali vermedi ve bu da görünürde bir çözüm olmadan aktivasyonu durdurdu. Bu durum, madencilerin sinyal vermesine dayanmayan alternatif bir mekanizma ihtiyacını doğurdu ve Shaolinfry'nin hash gücü aktivasyonu yerine ekonomik çoğunluk uygulamasını kullanacak bir çözüm olarak UASF'yi önermesine yol açtı.
+reviewed: false

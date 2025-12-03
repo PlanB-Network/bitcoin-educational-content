@@ -6,4 +6,4 @@ wrong_answers:
   - Transacciones entre diferentes blockchains
 explanation: |
   La Red Lightning permite transacciones rápidas y de bajo costo a través de canales de pago fuera de la cadena, lo cual difiere de las transacciones regulares en la blockchain.
-reviewed: false
+reviewed: true

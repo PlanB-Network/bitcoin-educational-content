@@ -6,3 +6,4 @@ wrong_answers:
   - 20,500,000.0000 BTC aproximadamente
 explanation: |
   Pieter Wuille calculou que a oferta máxima teórica é de 20.999.999,9769 BTC, o que é ligeiramente inferior aos 21 milhões comummente citados. Isto deve-se ao calendário específico de redução para metade e ao arredondamento no código do Bitcoin. O valor de 21 milhões é uma aproximação arredondada. O valor de 20 999 817,3131 representa a oferta real em circulação depois de contabilizadas as moedas perdidas e os erros do mining até um bloco específico, e não o máximo teórico.
+reviewed: false

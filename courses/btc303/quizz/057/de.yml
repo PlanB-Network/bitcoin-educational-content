@@ -6,3 +6,4 @@ wrong_answers:
   - Konsensregeln validieren und autorisieren automatisch jedes neue Protokoll, das auf Bitcoin aufbaut, durch den Blockchain-Verifizierungsprozess
 explanation: |
   Die erlaubnisfreie Entwicklung ist die richtige Antwort, weil sie das Grundprinzip ist, das es jedem erlaubt, auf Bitcoin aufzubauen, ohne um Erlaubnis zu fragen. Die falschen Antworten sind falsch, denn: Open-Source-Lizenzen erfordern keine automatische Genehmigung oder Integration in den Bitcoin-Kern; die MIT-Lizenz gewährt tatsächlich weitreichende Genehmigungen, ohne dass eine Genehmigung von den Entwicklern erforderlich ist; und Konsensregeln validieren Transaktionen und Blöcke, nicht Protokolle auf höherer Ebene, die auf Bitcoin aufbauen.
+reviewed: false

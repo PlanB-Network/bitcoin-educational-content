@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin teilt sich in mehrere parallele Ketten auf, um die Rechenlast zu verteilen und gleichzeitig dieselben Sicherheitsgarantien für alle Benutzer aufrechtzuerhalten
 explanation: |
   Maxwell hat einen grundlegenden Kompromiss identifiziert, bei dem übermäßige Ressourcenanforderungen die Nutzer eher zu vertrauenswürdigen Dritten als zu einer unabhängigen Validierung drängen. Wenn die Validierungskosten unerschwinglich werden, können es sich die Nutzer nicht mehr leisten, vollständige Knoten zu betreiben und müssen sich auf andere verlassen, wodurch der vertrauenslose Charakter von Bitcoin untergraben wird. Die falschen Antworten suggerieren fälschlicherweise vorteilhafte Ergebnisse (erhöhte Sicherheit, automatische Anpassungen oder aufrechterhaltene Garantien), obwohl ein hoher Ressourcenverbrauch in Wirklichkeit eine Zentralisierung und Vertrauensabhängigkeit erzwingt.
+reviewed: false

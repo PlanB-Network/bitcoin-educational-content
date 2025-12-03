@@ -6,3 +6,4 @@ wrong_answers:
   - Los usuarios deben confiar en las firmas criptográficas de desarrolladores de confianza para validar el comportamiento del software
 explanation: |
   El capítulo afirma explícitamente que para que los usuarios verifiquen que el software de Bitcoin "funciona como se anuncia", deben tener acceso sin restricciones al código fuente. Esto conecta directamente con el principio "No confíes, verifica" y con el requisito de la definición de código abierto de disponibilidad del código fuente. Las respuestas erróneas contradicen los principios básicos del código abierto: exigir permiso viola el principio de libre acceso, pagar tasas contradice el requisito de distribución sin coste y confiar únicamente en las firmas socava la capacidad de verificación mediante inspección que ofrece el código abierto.
+reviewed: false

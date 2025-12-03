@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   L'anonset rétrospectif indique le nombre de sources possibles pour une pièce donnée, sachant l'UTXO en sortie de cycle.
 
-reviewed: false
+reviewed: true 

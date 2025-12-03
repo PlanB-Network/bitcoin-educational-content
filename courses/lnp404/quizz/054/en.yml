@@ -1,0 +1,8 @@
+question: What is the minimum storage requirement for a pruned Bitcoin node configuration when deploying LITD, and why is this sufficient for most Lightning Network operations?
+answer: ~80GB storage because pruned nodes only retain recent blockchain data needed for UTXO validation and Lightning channel operations
+wrong_answers:
+  - ~40GB storage because LITD compresses blockchain data and only stores channel state information locally
+  - ~200GB storage because pruned nodes must maintain full transaction history for the past two years to support Lightning routing
+  - ~1TB storage because all Lightning nodes require complete blockchain history to validate channel opening and closing transactions
+explanation: |
+  A pruned Bitcoin node requires approximately 80GB of storage because it only maintains recent blockchain data necessary for UTXO validation and Lightning operations, discarding older transaction history. This is sufficient for Lightning Network functionality since channels only need current blockchain state for validation. The wrong answers either underestimate storage needs, overestimate requirements for pruned configurations, or incorrectly assume full archival data is mandatory for Lightning operations.

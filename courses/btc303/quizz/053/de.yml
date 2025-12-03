@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin verwendet kryptografische Signaturen zum Schutz, während Gebäude auf Zugangskontroll- und Überwachungssysteme angewiesen sind
 explanation: |
   Der entscheidende Unterschied besteht darin, dass Online-Systeme wie Bitcoin mit anonymen Angreifern konfrontiert sind, die unweigerlich jede bekannte Schwachstelle ausnutzen werden, im Gegensatz zu physischen Systemen, bei denen wir ein gewisses Risiko in Kauf nehmen können, weil die Täter identifiziert und strafrechtlich verfolgt werden können. Wie Andrew Poelstra feststellte, haben wir online nicht den Luxus der Abschreckung durch die Strafverfolgungsbehörden - wenn es möglich ist, das System nachteilig zu beeinflussen, werden anonyme Akteure dies tun. Dies zwingt Bitcoin dazu, alle Schwachstellen zu beseitigen, anstatt kalkulierte Risiken in Kauf zu nehmen.
+reviewed: false

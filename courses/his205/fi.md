@@ -405,7 +405,7 @@ Tässä alla voit ihailla kopiotani taulusta, jossa on kiilakirjoitusta. Uskon, 
 
 
 
-![](./assets/fr/1-1-3_1_Tablette_small.webp)
+![image](assets/fi/001.webp)
 
 
 
@@ -416,7 +416,7 @@ Minulla on myös uskoakseni aito sumerilainen taulu, jonka keskellä on pieni ki
 Pienillä numeroilla varustetut merkit toimivat allekirjoituksina aikana, jolloin suurin osa ihmisistä ei osannut kirjoittaa, sillä vain taitavilla kirjureilla oli tämä kyky.
 
 
-![](./assets/fr/1-1-3_2_Tablette_big.webp)
+![image](assets/fi/002.webp)
 
 
 
@@ -426,7 +426,7 @@ Alla näet edellä mainitun sylinterin: kivi, johon on kaiverrettu erityisiä mu
 Sen ajan kirjurit käyttivät siis kiilamaista kynää painaakseen merkkejä märille tauluille.
 
 
-![](./assets/fr/1-1-3_3_cylindre.webp)
+![image](assets/fi/003.webp)
 
 
 
@@ -1010,7 +1010,7 @@ Kiinassa kolikoiden ei välttämättä tarvinnut olla virallisesti merkittyjä t
 
 
 
-![](./assets/fr/1-2-3_chine.webp)
+![image](assets/fi/004.webp)
 
 
 Yllä oleva kolikko on kiinalainen kolikko keskiajalta. Se on valettu kolikko, jonka keskellä on neliönmuotoinen reikä. Tämän reiän läpi pujotettiin köysi, jonka avulla kolikot voitiin pujottaa yhteen rannekorujen tai kaulakorujen tekemiseksi. Niitä ei kuitenkaan ensisijaisesti pidetty, vaan niitä käytettiin lähinnä kirjanpitotarkoituksiin. Ne voitiin kiinnittää toisiinsa ja muodostaa tiliyksikköjä suurina nauhoina, joiden palat olivat toisiinsa kiinnitettyjä. Niissä ei välttämättä ollut mitään erityisiä merkkejä, joskus ne olivat yksinkertaisesti pronssisia ympyröitä.
@@ -1221,7 +1221,7 @@ Minusta on mielenkiintoista mainita tässä yhteydessä, että Egyptissä jatket
 
 
 
-![](./assets/fr/1-3-0_indes.webp)
+![image](assets/fi/005.webp)
 
 
 
@@ -1248,7 +1248,7 @@ Koska emme voi erottaa kolikoiden ilmestymistä Lydiasta ja persialaisista, siir
 Alla näet yhden varhaisimmista lydialaisista kolikoista, jossa on leijona ja sen saalis edessä. Takapuolella saattaa olla leima tai reikä, jonka jotkut uskovat käytetyn metallin puhtauden testaamiseen ja sen varmistamiseen, ettei kyseessä ollut vain pintakerros. Vaikka kyseessä on yksi varhaisimmista esimerkeistä, on tärkeää huomata, että kyseessä on kopio. Kaikki kulta- ja elektrumkappaleeni ovat jäljennöksiä tai nykyaikaisia uusintoja, joiden tarkoituksena on estää minua käyttämästä kaikkia säästöjäni tähän kokoelmaan.
 
 
-![](./assets/fr/1-3-1_1_lydia.webp)
+![image](assets/fi/006.webp)
 
 
 
@@ -1291,7 +1291,7 @@ Kun akhamenidipersialaiset valloittivat Lydian vuonna 546 eaa., he ottivat täm�
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/fi/007.webp)
 
 
 
@@ -1404,7 +1404,7 @@ Kolikoiden syntyä käsittelevän jakson jälkeen halusin esitellä hyvin lyhyen
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/fi/008.webp)
 
 
 Myöhemmin kreikkalaiset kehittivät tätä tekniikkaa, kuten seuraavassa jaksossa esitellään, ja loivat pyöreitä kolikoita, jotka oli vasaroitu molemmilta puolilta. He ottivat sileän, tasaisen jalometallipalan, kaiversivat halutun kuvion toiselle puolelle ja vasaroivat sen jälkeen käsin valmiin kolikon.
@@ -1413,7 +1413,7 @@ Myöhemmin kreikkalaiset kehittivät tätä tekniikkaa, kuten seuraavassa jaksos
 Yksittäisten kolikoiden käsinlyönnin tekniikalla oli todennäköisesti merkitystä inflaation hillitsemisessä tuona aikana, vaikka kolikoita usein laimennettiinkin tuotannon lisäämiseksi. Tämä oli erityisen ilmeistä roomalaisella kaudella ja vähäisemmässä määrin eräiden kreikkalaisen kauden sotien aikana. Vaikka kolikoiden lyöminen yksitellen rajoitti viranomaisten valmiuksia massatuotantoon, se vaikutti tehokkaasti inflaation hallintaan huolimatta tapahtuneista merkittävistä devalvaatioista. Kolikko kehittyi siten lyötävästä metallitölpystä pyöreäksi, vasaroiduksi kolikoksi.
 
 
-![](./assets/fr/1-3-2_1_drachm.webp)
+![image](assets/fi/009.webp)
 
 
 
@@ -1735,7 +1735,7 @@ Alla voit ihailla silmiinpistävää esimerkkiä Yapin saaren monumentaalisista 
 
 
 
-![](./assets/fr/Pierre_de_Yap.webp)
+![image](assets/fi/010.webp)
 
 
 
@@ -1945,7 +1945,7 @@ Rahapalkkio perustuu yksinkertaisesti luottamukseen siihen, että joku vaihtaa t
 
 
 
-![image](./assets/fr/prime_monetaire.webp)
+![image](assets/fi/011.webp)
 
 
 
@@ -2322,7 +2322,7 @@ Alla näet tviitin Stephanie Keltonilta, joka on eräänlainen tämän liikkeen 
 
 
 
-![image](./assets/fr/no_debt_crisis.webp)
+![image](assets/fi/012.webp)
 
 
 
@@ -2534,7 +2534,7 @@ Minulla on onneksi kopio tuolta ajalta peräisin olevasta kreikkalaisesta drakma
 
 
 
-![](./assets/fr/3_1_tetradrachm.webp)
+![image](assets/fi/013.webp)
 
 
 
@@ -2704,7 +2704,7 @@ Ratkaiseva kohtaaminen Etelä-Italian kreikkalaisten kanssa toi roomalaisille ho
 Itse asiassa monissa Rooman tasavallan aikaisten roomalaisten kolikoissa kuvataan perustamismyyttejä. Voit nähdä omani alla: se on upea, aito kolikko kuningas Tatiukselta. Se kuvaa myyttiä naisten sieppauksesta sabiineilta. Tatius oli tämän alueen kuningas, ja perustamismyytti kertoo, kuinka roomalaiset sieppasivat naisia lähellä asuneelta sabiineilta. Sittemmin kuningas Tatiuksesta tuli Rooman perustajiin kuuluneen Romuluksen kanssa yhteiskuningas.
 
 
-![](./assets/fr/3_2_tatius.webp)
+![image](assets/fi/014.webp)
 
 
 
@@ -2728,7 +2728,7 @@ Tässä yhteydessä voimme palata käsitteeseen, josta olemme aiemmin keskustell
 
 
 
-![](./assets/fr/3_2_Carthage.webp)
+![image](assets/fi/015.webp)
 
 
 
@@ -2892,19 +2892,19 @@ Caesarin murhan jälkeen vuonna 44 eaa. Octavianus (Augustus) otti Rooman vallan
 
 
 
-![](./assets/fr/3_3_aureus.webp)
+![image](assets/fi/016.webp)
 
 
 
-![](./assets/fr/3_3_denier.webp)
+![image](assets/fi/017.webp)
 
 
 
-![](./assets/fr/3_3_sesterce.webp)
+![image](assets/fi/018.webp)
 
 
 
-![](./assets/fr/3_3_dernier-sesterce.webp)
+![image](assets/fi/019.webp)
 
 
 
@@ -2920,11 +2920,11 @@ Tässä osassa voin esitellä tämän jakson viimeisen kappaleen: antoninianukse
 
 
 
-![](./assets/fr/3_3_antoninien.webp)
+![image](assets/fi/020.webp)
 
 
 
-![](./assets/fr/3_3_Denier-Antoninien.webp)
+![image](assets/fi/021.webp)
 
 
 
@@ -2943,11 +2943,11 @@ Aurelianus keksi tämän devalvaatiomuodon, joka on paljon nopeampi kuin metalli
 Havainnollistaakseni tätä äärimmäistä devalvaatiota olen löytänyt joitakin kiehtovia tilastoja viljan hinnasta Egyptissä vuodesta 40 eKr. aina 3. vuosisadalle saakka, joka kattaa yli 300 vuotta. Alla näet kreikkalaisen tetradrakman kokoelmastani. Tuohon aikaan, Rooman miehittämässä Egyptissä 3. vuosisadalla, vastaava arvo oli egyptiläinen tetradrahma. Drakmojen nimellisarvo oli edelleen käytössä, ja se vastasi denaaria.
 
 
-![](./assets/fr/3_3_egypt-tetradrachm.webp)
+![image](assets/fi/022.webp)
 
 
 
-![](./assets/fr/3_3_tetradrachm-vs-tetradrachm.webp)
+![image](assets/fi/023.webp)
 
 
 
@@ -3192,7 +3192,7 @@ Ensimmäisenä tähän ajanjaksoon liittyvänä esineenä näytän teille jälje
 
 
 
-![](./assets/fr/3_5_penny.webp)
+![image](assets/fi/024.webp)
 
 
 
@@ -3228,7 +3228,7 @@ Jotta yhteys temppeliherroihin olisi mahdollista, voitte tarkastella alla olevaa
 
 
 
-![](./assets/fr/3_5_Denier-france.webp)
+![image](assets/fi/025.webp)
 
 
 
@@ -3285,7 +3285,7 @@ Alla näet jäljennöksen Florinista: kultainen Florin, joka on valmistettu tina
 
 
 
-![](./assets/fr/4_Florin.webp)
+![image](assets/fi/026.webp)
 
 
 
@@ -3293,11 +3293,11 @@ Paluu kultakolikoihin johtui erityisestä tilanteesta: Bysantin soliduksen romah
 
 
 
-![](./assets/fr/4_Byzantine.webp)
+![image](assets/fi/027.webp)
 
 
 
-![](./assets/fr/4_Hongrie.webp)
+![image](assets/fi/028.webp)
 
 
 
@@ -3335,7 +3335,7 @@ Tänä aikana Eurooppa sai myös tietää paperirahan olemassaolosta Kiinassa Ma
 Viittaamme aiemmin kurssilla mainittuun heiluri-iskutekniikkaan. Tämä menetelmä mahdollisti tasaisempien kolikoiden valmistuksen verrattuna vasaralyöntiin, ja mikä tärkeintä, se mahdollisti myös kolikon reunan ympärille tehtävät merkinnät, kuten aiemmin osoitin. Alla oleva kolikko on eurooppalainen taleri vuodelta 1793, jonka reunassa on selvästi kirjoitusta.
 
 
-![image](./assets/fr/4_thaler.webp)
+![image](assets/fi/029.webp)
 
 
 
@@ -3414,7 +3414,7 @@ Vastauksena Euroopan kullan ja hopean kysyntään "suurten löytöjen jatkuvana 
 
 
 
-![](./assets/fr/5_1_Real_Portugais.webp)
+![image](assets/fi/030.webp)
 
 
 
@@ -3431,7 +3431,7 @@ Uuden maailman valloituksen myötä **Espanjasta** tuli hallitseva toimija. Sen 
 
 
 
-![](./assets/fr/5_1_Dollar_Espagnol.webp)
+![image](assets/fi/031.webp)
 
 
 
@@ -3441,7 +3441,7 @@ Espanjalainen real, joka tunnetaan myös nimellä "kasipala", sai lempinimensä,
 Erityisen mielenkiintoista on se, että Espanjan dollari toimi tuolloin kansainvälisenä varantovaluuttana. Espanjan viranomaiset laskivat liikkeelle myös omaa paikallista valuuttaa, maravediä, ja mukauttivat rahan määrää säännöllisesti muistutusten avulla. Esimerkiksi kupari- tai pronssikolikko, jonka arvo oli alun perin yksi maravedi, saatettiin palauttaa ja leimata merkinnällä "2", myöhemmin merkinnällä "4" ja niin edelleen, ja lopulta se saattoi olla jopa "8" Korkearesoluutioisessa kuvassa näkyy selvästi kolikkoon leimattu "8". Tämä menetelmä laajensi tehokkaasti rahan määrää... mikä johti väistämättä inflaatioon.
 
 
-![](./assets/fr/5_1_maravedi.webp)
+![image](assets/fi/032.webp)
 
 
 
@@ -3473,10 +3473,10 @@ Iberian niemimaan huipun jälkeen Alankomaista** tuli uusi kauppamahti 1600-luvu
 
 
 
-![](./assets/fr/5_1_gulden.webp)
+![image](assets/fi/033.webp)
 
 
-![](./assets/fr/5_1_VOC.webp)
+![image](assets/fi/034.webp)
 
 
 
@@ -3522,7 +3522,7 @@ Tiukemmilla laeilla pyrittiin määräämään assignat, mutta siinä ei onnistu
 
 
 
-![](./assets/fr/5_1_assignat.webp)
+![image](assets/fi/035.webp)
 
 
 
@@ -3530,7 +3530,7 @@ Kun tämä paperiraha korvasi kaikki laadukkaat jalometallirahat ja noudatti kuu
 
 
 
-![](./assets/fr/5_1_cloche.webp)
+![image](assets/fi/036.webp)
 
 
 
@@ -3562,10 +3562,10 @@ Valtakunta oli rahakolikko - kultakolikko, jonka arvo oli alun perin yksi punta.
 Kuuluisaa sovereignia edelsi guinea, joka toimi samalla periaatteella. Guinea sai nimensä sen sisältämien, Guinean alueelta peräisin olevien jalometallien mukaan.
 
 
-![](./assets/fr/5_2_sovereign.webp)
+![image](assets/fi/037.webp)
 
 
-![](./assets/fr/5_1_Guinea.webp)
+![image](assets/fi/038.webp)
 
 
 
@@ -3593,7 +3593,7 @@ Antwerpenissä järjestettiin kauppamessuja, joilla kauppiaat kokoontuivat usein
 
 
 
-![](./assets/fr/5_2_Billet_a_ordre.webp)
+![image](assets/fi/039.webp)
 
 
 
@@ -3758,7 +3758,7 @@ Sitten tuli vuoden 1776 paniikki. Kaikki ryntäsivät rahapyramidia ylöspäin. 
 Siirryimme guldenista Englannin pankin perustamiseen. Välissä olivat tietenkin ensimmäinen ja toinen maailmansota, mutta jo aiemmin, vuonna 1796, tapahtui kehitystä myös Atlantin toisella puolella. Vuonna 1776 Amerikka oli vielä Britannian siirtomaa, ja siirtokunnat käyttivät tätä paperivaluuttaa. Alla on Connecticutin kahden shillingin seteli vuodelta 1776.
 
 
-![](./assets/fr/two_shilling.webp)
+![image](assets/fi/040.webp)
 
 
 Ennen kuin siirtomaat julistivat sodan Englannille ja lopulta laskivat liikkeelle oman rahansa, ne käyttivät tätä paperivaluuttaa Espanjan dollarin ohella käteiskaupassa. Itse asiassa termi "dollari" jäi merkitsemään Yhdysvaltain dollaria.
@@ -3767,7 +3767,7 @@ Ennen kuin siirtomaat julistivat sodan Englannille ja lopulta laskivat liikkeell
 Jos en erehdy, vuonna 1792 he hyväksyivät lain, joka salli rahan lyönnin. Esimerkkinä alla oleva dollari on nykyajan amerikkalainen dollari.
 
 
-![](./assets/fr/silver_dollar.webp)
+![image](assets/fi/041.webp)
 
 
 Sen nimellisarvo ei tietenkään ole vain yksi dollari, vaan se on arvoltaan noin 30 tai 40 dollaria, koska se edustaa unssia hopeaa. Sen arvo vaihtelee hopean hinnan mukaan, ja yleensä se on vähintään 30 tai 40 Yhdysvaltain dollaria. Nykyään paperidollari säilyttää tietysti vain yhden dollarin nimellisarvonsa, mutta tuolloin Yhdysvaltain dollari perustui tähän hopeaarvoon.
@@ -3777,7 +3777,7 @@ Puhutaan nyt Amerikan sisällissodasta. Konfederaatiot painoivat rahaa, joka oli
 
 
 
-![](./assets/fr/confederate.webp)
+![image](assets/fi/042.webp)
 
 
 
@@ -3785,7 +3785,7 @@ Heidän pohjoisilla vastustajillaan oli myös dollareita. Yläpuolella on konfed
 
 
 
-![](./assets/fr/greenback.webp)
+![image](assets/fi/043.webp)
 
 
 
@@ -3800,7 +3800,7 @@ Ensimmäisen maailmansodan jälkeen painettujen seteleiden viimeisessä sarjassa
 
 
 
-![](./assets/fr/1928.webp)
+![image](assets/fi/044.webp)
 
 
 
@@ -3811,7 +3811,7 @@ Alla näet kultaisen sertifikaatin vuodelta 1928.
 
 
 
-![](./assets/fr/Gold_certificate.webp)
+![image](assets/fi/045.webp)
 
 
 
@@ -3831,7 +3831,7 @@ Täytäntöönpanomääräyksen 6102 antamisen jälkeen he takavarikoivat kaiken
 
 
 
-![](./assets/fr/1934.webp)
+![image](assets/fi/046.webp)
 
 
 Laillisen maksuvälineen käsite nousee tässä esiin ja korvaa ilmauksen "lunastettavissa kullalla" Nämä kaksi seteliä saattavat näyttää identtisiltä, sillä vain muutama sana on muuttunut, mutta huijaus piilee siinä, että dollari devalvoitui tänä aikana; sen arvo laski 20,67 dollarista 35 dollariin unssilta vuonna 1934. Se merkitsi noin 40 prosentin devalvaatiota!
@@ -3869,10 +3869,10 @@ Heidän on vain varmistettava, että he voivat tehdä nämä siirrot, mutta mit�
 
 
 
-Jos haluatte ymmärtää rahan ja inflaation välisen yhteyden, suosittelen Plan ₿ Network:ssä pitämääni kurssia, joka on omistettu tälle aiheelle. Opit eron hintojen nousun, jota näemme elämässä, ja inflaation välillä. Ne eivät ole sama asia. Itse asiassa, kun puhumme inflaatiosta, puhumme usein hintojen noususta, emme itse inflaatiosta. Inflaatio on melko tarkka käsite, joka selittyy rahan määrän kasvulla.
+Jos haluatte ymmärtää rahan ja inflaation välisen yhteyden, suosittelen Plan ₿ Academy:ssä pitämääni kurssia, joka on omistettu tälle aiheelle. Opit eron hintojen nousun, jota näemme elämässä, ja inflaation välillä. Ne eivät ole sama asia. Itse asiassa, kun puhumme inflaatiosta, puhumme usein hintojen noususta, emme itse inflaatiosta. Inflaatio on melko tarkka käsite, joka selittyy rahan määrän kasvulla.
 
 
-https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 Tämän fiat-maailmaa käsittelevän osion lopuksi haluan mainita erään resurssin, joka auttaa sinua ymmärtämään paremmin äsken selittämäni ilmiöt, kuten inflaation.
 
@@ -3903,7 +3903,7 @@ Tämän järjestelmän avulla Law yhdisti paperirahan yhtiönsä osakkeisiin. Mi
 
 
 
-![image](./assets/fr/paper_illustration.webp)
+![image](assets/fi/047.webp)
 
 
 

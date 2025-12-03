@@ -2080,7 +2080,7 @@ Quản trị viên máy chủ có thể mở thêm thông tin chi tiết để x
 #### LND (PHẦN CÒN LẠI)
 
 
-BTCPay cung cấp dịch vụ REST của LND cho bên ngoài; bạn sẽ tìm thấy thông tin kết nối tại đây; các ví tương thích được liệt kê tại đây. Trong số các ví tương thích có Joule, Alby và ZeusLN. Máy chủ BTCPay cung cấp mã QR để kết nối, có thể được quét và áp dụng vào Wallet tương thích.
+BTCPay cung cấp dịch vụ REST của LND cho bên ngoài; bạn sẽ tìm thấy thông tin kết nối [tại đây](https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay); các ví tương thích được liệt kê [tại đây](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server). Trong số các ví tương thích có Joule, Alby và ZeusLN. Máy chủ BTCPay cung cấp mã QR để kết nối, có thể được quét và áp dụng vào Wallet tương thích.
 
 
 

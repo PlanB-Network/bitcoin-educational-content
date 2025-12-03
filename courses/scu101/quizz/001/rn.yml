@@ -1,13 +1,13 @@
-question: Ni kubera iki ari vyiza ko ugabanya igitigiri c’ibintu vyinshi ushize kuri mucukumbuzi wawe?
-answer: Kugira ngo umuntu yirinde ibibazo bishobora guterwa n’umutekano n’imikorere.
+question: Ni kubera iki uhanuwe ku gabanya igitigiri c’inyongerabushobozi ushira muri mucukumbuzi yawe?
+answer: kugira ngo wirinde ingorane zikomeye z'umutekano n’imikorere.
 wrong_answers:
-  - Kugira ngo uzigame umwanya wo kubika ku gikoresho cawe.
-  - Kugira ngo umucukumbuzi ntihagire uwupfa.
+  - Kugira ngo uzigame umwanya wo kubikako ku gikoresho cawe.
+  - Kugira ngo mucukumbuzi yawe ntipfe.
   - Kugira ngo ntibakurikiranywe n’imbuga z’abandi.
 explanation: |
-  Mu gihe ivyungura umucukumbuzi bishobora gutanga ngirakamaro
-  imikorere, birashobora kandi gutera ingorane z’umutekano uko bi
-  birashobora gushika ku makuru yawe no ku gikorwa co gusura. Ikindi,
-  kugira extensions nyinshi cane birashobora gutuma umucukumbuzi wawe agenda buhoro kandi
+  Mu gihe inyongerabushobozi za mucukumbuzi zishobora gutanga uburyo 
+  bw'imikorere bw'umumaro, zirashobora kandi gutera ingorane z’umutekano kuko zirashobora
+  gushikika ku makuru yawe no ku bikorwa vyawe vyo kurondera kumbuga. Ikindi,
+  kugira inyongerabushobozi nyinshi cane birashobora gutuma mucukumbuzi yawe igenda buhoro kandi
   bigira ico bikoze ku mikorere yayo.
 reviewed: true

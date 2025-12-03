@@ -2522,7 +2522,7 @@ Unfortunately, following the arrest of Samourai's founders, these tools are no l
 
 Now that we've covered coinjoins in detail, we'll look at the other privacy techniques available on Bitcoin in the final section of our course. We'll be examining payjoins, specific pseudo-coinjoin transaction types, static address protocols, as well as measures to enhance confidentiality not at the level of the transactions themselves, but at the level of the network of nodes.
 
-https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # Understanding the challenges of other advanced confidentiality techniques
 

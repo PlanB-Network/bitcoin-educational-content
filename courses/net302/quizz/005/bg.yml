@@ -1,0 +1,9 @@
+question: Кой документ служи като техническа справка за спецификациите на протокола TCP/IP?
+answer: RFC
+wrong_answers:
+  - Бяла книга
+  - ISO
+  - IIP
+explanation: |
+  RFC (Request For Comments - искане за коментар) са референтните документи, които определят спецификациите на протоколите TCP/IP.
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Porque los canales se cierran automáticamente después de cada transacción
 explanation: |
   La distribución precisa de fondos en un canal solo es visible para los dos nodos participantes, impidiendo que otros nodos estimen la liquidez disponible para el enrutamiento.
-reviewed: false
+reviewed: true

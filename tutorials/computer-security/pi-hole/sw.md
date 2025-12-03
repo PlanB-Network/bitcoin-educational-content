@@ -26,7 +26,7 @@ Sote tumeifanya mara tu tulipoanzisha kivinjari tunachopenda: sakinisha **blocke
 
 
 
-Katika somo hili, tutatatua tatizo rahisi**: toa kizuia tangazo kwa mashine zote kwenye mtandao wetu na uidhibiti katikati.**
+**Katika somo hili, tutatatua tatizo rahisi**: toa kizuia tangazo kwa mashine zote kwenye mtandao wetu na uidhibiti katikati.**
 
 
 
@@ -50,11 +50,11 @@ Isipokuwa kwamba kompyuta zetu hazielewi lugha ya kibinadamu, wanachoelewa ni mf
 
 
 
-Kwa hivyo kila wakati unapoingiza jina la tovuti kwenye kivinjari chako, au kubofya kiungo, kompyuta yako kwanza huuliza seva ya DNS kwa IP Address inayolingana na jina hilo.
+Kwa hivyo kila wakati unapoingiza jina la tovuti kwenye kivinjari chako, au kubofya kiungo, kompyuta yako kwanza huuliza  server ya DNS kwa IP Address inayolingana na jina hilo.
 
 
 
-**Pi-Hole kisha itakagua maombi haya (kuna mamia yao kila siku!) na kuzuia kiotomatiki yale yanayojulikana kupangisha matangazo au hata faili hasidi.**
+**Pi-Hole kisha itakagua maombi haya (kuna mamia yao kila siku!) na kuzuia kiotomatiki yale yanayojulikana kupangisha matangazo au hata faili hasidi.
 
 
 
@@ -62,7 +62,7 @@ Kwa hivyo kila wakati unapoingiza jina la tovuti kwenye kivinjari chako, au kubo
 
 
 
-Kwa jina kama Pi-Hole, unaweza kudhania kwamba unahitaji Raspberry-Pi... Lakini hiyo si kweli kabisa. **Pi-Hole inaweza kusakinishwa kwenye kompyuta yoyote ya Linux (Debian, Fedora, Rocky, Ubuntu, n.k.)**
+Kwa jina kama Pi-Hole, unaweza kudhania kwamba unahitaji Raspberry-Pi... Lakini hiyo si kweli kabisa. **Pi-Hole inaweza kusakinishwa kwenye kompyuta yoyote ya Linux (Debian, Fedora, Rocky, Ubuntu, n.k.)
 
 
 
@@ -84,7 +84,7 @@ curl -sSL https://install.pi-hole.net | bash
 >
 
 
-> **Kumbuka: kwenye matoleo madogo ya Debian 11, Curl haijasakinishwa, kwa hivyo unahitaji kuisakinisha wewe mwenyewe na** **apt-get install curl** **amri kabla ya kuandika amri iliyo hapo juu.**
+> **Kumbuka: kwenye matoleo madogo ya Debian 11, Curl haijasakinishwa, kwa hivyo unahitaji kuisakinisha wewe mwenyewe na **apt-get install curl** amri kabla ya kuandika amri iliyo hapo juu.
 
 Mara tu hati itakapoendeshwa, safu ya majaribio itafanywa, na usakinishaji wenyewe utajishughulikia yenyewe:
 
@@ -112,7 +112,7 @@ Skrini ya kuanza ya Pi-Hole
 
 > **Kumbuka**: ikiwa unatumia DHCP kwenye mashine yako, utapata ujumbe wa onyo kuhusu hili. Bila shaka, kwa matumizi sahihi, tunapendekeza sana kwamba ugawanye IP fasta kwa mashine yako.
 
-Kufuatia skrini hii, utapata ujumbe machache wa habari, na kisha utachukuliwa kwa mchawi wa usanidi, ambao utakuuliza kwanza ni seva gani ya DNS Pi-Hole itakayosambaza maombi. Kwa upande wangu, nimechagua Quad9, ambayo ina hati ya faragha ya mtumiaji.
+Kufuatia skrini hii, utapata ujumbe machache wa habari, na kisha utachukuliwa kwa  wizard ya usanidi, ambao utakuuliza kwanza ni  server gani ya DNS Pi-Hole itakayosambaza maombi. Kwa upande wangu, nimechagua Quad9, ambayo ina hati ya faragha ya mtumiaji.
 
 
 
@@ -124,9 +124,9 @@ Uchaguzi wa DNS - Pi-Hole
 
 
 
-> **Kumbuka: ikiwa uko katika kampuni, kuna uwezekano kuwa seva yako ya sasa ya DNS ndiyo kidhibiti cha kikoa cha Saraka Inayotumika. Lakini usijali, unaweza baadaye kutaja kielekeza upya chenye masharti kwa kikoa unachochagua. Kwa kawaida, utaweza kuelekeza upya ombi lolote kuhusu kikoa chako cha ndani kwa seva yako ya DNS.**
+> **Kumbuka**: ikiwa uko katika kampuni, kuna uwezekano kuwa  server yako ya sasa ya DNS ndiyo kidhibiti cha kikoa cha Saraka Inayotumika. Lakini usijali, unaweza baadaye kutaja kielekeza upya chenye masharti kwa kikoa unachochagua. Kwa kawaida, utaweza kuelekeza upya ombi lolote kuhusu kikoa chako cha ndani kwa  server yako ya DNS.
 
-Utagundua kuwa baadhi ya chaguo ni pamoja na chaguo la DNSSEC. Kimsingi, itifaki ya DNS si salama (haikuundwa kwa kuzingatia hili wakati huo). DNSSEC hutatua tatizo hili kwa kuongeza Layer ya usalama kupitia usimbaji fiche na kutia saini kwa ubadilishanaji, kama ilivyoelezwa katika makala sambamba: [DNS Security](https://www.it-connect.fr/securite-dns-doh-quest-ce-le-dns-over-https/)
+Utagundua kuwa baadhi ya chaguo ni pamoja na chaguo la DNSSEC. Kimsingi,  protocol ya DNS si salama (haikuundwa kwa kuzingatia hili wakati huo). DNSSEC hutatua tatizo hili kwa kuongeza Layer ya usalama kupitia usimbaji fiche na kutia saini kwa ubadilishanaji, kama ilivyoelezwa katika makala sambamba: [DNS Security](https://www.it-connect.fr/securite-dns-doh-quest-ce-le-dns-over-https/)
 
 
 
@@ -138,7 +138,7 @@ Kizuizi chochote cha matangazo kinategemea orodha moja au zaidi kufanya kazi yak
 
 
 
-Njoo swali kuhusu wavuti ya Interface, usakinishaji wake ni wa hiari, kwani chombo kina safu yake ya amri ya usimamizi na taswira. Lakini Interface hii ni ya kupendeza na imefanywa vizuri, kwa hivyo ninapendekeza usakinishe kwa wakati mmoja:
+Njoo na swali kuhusu wavuti ya Interface, usakinishaji wake ni wa hiari, kwani chombo kina safu yake ya amri ya usimamizi na taswira. Lakini Interface hii ni ya kupendeza na imefanywa vizuri, kwa hivyo ninapendekeza usakinishe kwa wakati mmoja:
 
 
 
@@ -146,7 +146,7 @@ Njoo swali kuhusu wavuti ya Interface, usakinishaji wake ni wa hiari, kwani chom
 
 
 
-Ikiwa unasakinisha Pi-Hole kwenye mashine ambayo tayari ina seva ya Wavuti, unaweza kujibu "hapana" kwa swali lifuatalo. Tafadhali kumbuka, hata hivyo, kwamba PHP na moduli kadhaa zinahitajika kwa hili kufanya kazi. Vinginevyo, **lighttpd itasakinishwa na moduli zote muhimu **.
+Ikiwa unasakinisha Pi-Hole kwenye mashine ambayo tayari ina  server ya Wavuti, unaweza kujibu "hapana" kwa swali lifuatalo. Tafadhali kumbuka, hata hivyo, kwamba PHP na moduli kadhaa zinahitajika kwa hili kufanya kazi. Vinginevyo, **lighttpd itasakinishwa na moduli zote muhimu**.
 
 
 
@@ -162,7 +162,7 @@ Kisha unaulizwa ikiwa ungependa kurekodi maombi ya DNS. **Ikiwa ungependa kuhifa
 
 
 
-Kwa wavuti yake ya Interface, Pi-Hole hutumia utendaji wa aina yake yenyewe iitwayo FTLDNS, ambayo hutoa API na kutoa takwimu kutoka kwa maombi ya DNS. Chaguo hili la kukokotoa linaweza kujumuisha hali ya "faragha" ambayo hufunika vikoa vilivyoombwa, wateja walio nyuma ya ombi, au zote mbili. Inafaa ikiwa unataka kufanya ufuatiliaji bila kukiuka faragha ya watu, au ikiwa tu unataka kuzingatia kanuni zinazofaa katika kesi ya matumizi kwenye mtandao wa umma.
+Kwa wavuti wake wa Interface, Pi-Hole hutumia utendaji wa aina yake yenyewe iitwayo FTLDNS, ambayo hutoa API na kutoa takwimu kutoka kwa maombi ya DNS. Chaguo hili la kukokotoa linaweza kujumuisha hali ya "faragha" ambayo hufunika vikoa vilivyoombwa, wateja walio nyuma ya ombi, au zote mbili. Inafaa ikiwa unataka kufanya ufuatiliaji bila kukiuka faragha ya watu, au ikiwa tu unataka kuzingatia kanuni zinazofaa katika kesi ya matumizi kwenye mtandao wa umma.
 
 
 
@@ -200,13 +200,13 @@ Ili kufanya kazi, Pi-Hole inahitaji "kusuluhisha" maombi ya DNS kutoka kwa watej
 
 
 
-- Rekebisha mipangilio ya DNS katika seva yako ya DHCP (k.m. Sanduku lako)
-- Zima seva hii na utumie ile iliyotolewa na Pi-Hole
+- Rekebisha mipangilio ya DNS katika  server yako ya DHCP (k.m. Sanduku lako)
+- Zima  server hii na utumie ile iliyotolewa na Pi-Hole
 - Rekebisha kila kifaa wewe mwenyewe ili kutumia Pi-Hole kama DNS
 
 
 
-Mimi binafsi huchagua suluhisho la kwanza. Uwezekano ni **una seva ya DHCP ulipo** (kawaida kisanduku chako). Kwa hivyo hakuna haja ya kujisumbua.
+Mimi binafsi huchagua suluhisho la kwanza. Uwezekano ni **una  server ya DHCP ulipo** (kawaida kisanduku chako). Kwa hivyo hakuna haja ya kujisumbua.
 
 
 
@@ -381,7 +381,7 @@ Ni wazi, nimezuiwa mahali fulani. Ili kuhakikisha kuwa ni Pi-Hole ambayo imefany
 
 
 
-Katika somo hili, tumekuonyesha jinsi ya kusanidi seva ya DNS ambayo sio tu inaondoa matangazo mengi kwa faraja yako ya kuvinjari, lakini pia huongeza **Layer ya usalama kwa kuzuia hadaa na vikoa vinavyoeneza programu hasidi**.
+Katika somo hili, tumekuonyesha jinsi ya kusanidi  server ya DNS ambayo sio tu inaondoa matangazo mengi kwa faraja yako ya kuvinjari, lakini pia huongeza **Layer ya usalama kwa kuzuia hadaa na vikoa vinavyoeneza programu hasidi**.
 
 
 

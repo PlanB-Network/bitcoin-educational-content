@@ -6,3 +6,4 @@ wrong_answers:
   - See on õiguslikult kaitstud MIT litsentsiga kui Bitcoin koodi ainus autoriteetne allikas
 explanation: |
   Nagu Jameson Lopp selgitab, on Bitcoin Core'i GitHubi repositoorium tehniliselt identne tuhandete teiste koopiatega kogu maailmas, kuid sellest on saanud sotsiaalselt aktsepteeritud keskpunkt arenduse koordineerimiseks. Sellel ei ole erilisi tehnilisi omadusi, krüptograafilisi autentimismehhanisme ega õiguslikke kaitsemeetmeid, mis muudaksid selle paremaks. MIT-litsents tagab tegelikult, et igaüks võib koodi vabalt kopeerida ja levitada. Kui see repositoorium kaoks, looks kogukond lihtsalt uue keskuse mujal, mis näitab, et selle tähtsus on puhtalt sotsiaalne konventsioon, mitte tehniline vajadus.
+reviewed: false

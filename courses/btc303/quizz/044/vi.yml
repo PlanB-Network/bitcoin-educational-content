@@ -6,3 +6,4 @@ wrong_answers:
   - Bản nâng cấp đã gây ra sự chia tách chuỗi vĩnh viễn vì thợ đào và người dùng không đồng ý về các chi tiết triển khai
 explanation: |
   Sự cố BIP66 đã tiết lộ một lỗ hổng nghiêm trọng trong soft fork do thợ đào kích hoạt: việc báo hiệu sẵn sàng không đảm bảo xác thực thực tế. Mặc dù 95% thợ đào cho biết họ đã sẵn sàng cho việc nâng cấp, nhưng khoảng một nửa trong số họ đã không xác thực đúng các quy tắc mới và đã khai thác nhầm trên một khối không hợp lệ. Điều này chứng minh rằng việc báo hiệu sức mạnh băm có thể gây hiểu lầm và không đảm bảo việc triển khai đúng cách, đây là một trong những lập luận chính của Shaolinfry khi đề xuất sử dụng User Activated Soft Fork như một cơ chế nâng cấp đáng tin cậy hơn.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Ni kubera iki bihambaye ko uhora uhindura ubuhinga bwawe n’ubuhinga bwawe?
-answer: Gukosora ubugoyagoye buzwi bw'umutekano
+question: Ni kubera iki bihambaye ko uhora ushira kugihe ubuhinga bwawe ukoresha?
+answer: Gukosora ukugyagoya kw'umutekano kuzwi
 wrong_answers:
-  - Kugira ngo PC igende neza kandi gutyo ishobore kwishura ningoga ibitero vyo kuri Internet .
-  - Kugira ngo wongereko ibiranga ubusuma
+  - Kugira  .ngo wongereze umuvuduko w'inyabwonko yawe kugira ubone ningonga abashaka kukwinjirira
+  - Kugira ngo wongereko ibikoresho vyo kwirinda
   - Kugira ngo umukino wa videwo uhure neza na Bitcoin.
 explanation: |
-  Ivyo guhindura kenshi birakosora ubugoyagoye buzwi bukoreshwa n’abasuma.
+  Ivyo guhindura kenshi birakosora ubugoyagoye buzwi abasuma bakoresha.
 reviewed: false

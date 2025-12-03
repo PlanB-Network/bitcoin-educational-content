@@ -6,3 +6,4 @@ wrong_answers:
   - After a standard 90-day embargo period regardless of deployment status
 explanation: |
   Bitcoin Core follows a deployment-based disclosure timeline rather than a fixed time period. The 80% threshold ensures that the vast majority of the network is protected before attackers can learn about the vulnerability from public disclosure. This approach prioritizes network security over arbitrary timelines, as premature disclosure could expose the remaining 20% of nodes to targeted attacks. The other options represent common practices in traditional software security but don't account for Bitcoin's decentralized nature where users must voluntarily upgrade their nodes.
+reviewed: false

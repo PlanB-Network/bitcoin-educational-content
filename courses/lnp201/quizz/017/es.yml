@@ -6,3 +6,4 @@ wrong_answers:
   - La factura se paga a través de una transacción en cadena en Bitcoin.
 explanation: |
   Cuando Bob envía una factura a Alice, ella crea y firma una nueva transacción de compromiso para ajustar la distribución de fondos, transfiriendo así 30,000 satoshis en el canal.
+reviewed: true

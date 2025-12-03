@@ -1,0 +1,31 @@
+id: 816d3834-cd76-11f0-86c7-4f72ea768589
+
+test_only: true
+
+topic: social studies
+subtopic: philosophy
+type: theory
+level: beginner
+hours: 5
+
+professors_id:
+  - 28add585-0683-4574-9221-16b331cbd37a
+
+tags:
+  - historical
+  - self-sovereignty
+  - deep-dive
+
+contributor_names:
+  - Asi0Flammeus
+
+published_at: 2025-11-29
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-11-29
+    urgency: 1
+    contributor_names:
+      - Asi0Flammeus
+    reward: 10.95

@@ -405,7 +405,7 @@ Poniżej można podziwiać moją kopię tabliczki z pismem klinowym. Sądzę, ż
 
 
 
-![](./assets/fr/1-1-3_1_Tablette_small.webp)
+![image](assets/pl/001.webp)
 
 
 
@@ -416,7 +416,7 @@ Mam też coś, co uważam za autentyczną sumeryjską tabliczkę z małym pismem
 Znaki z małymi cyframi służyły jako podpisy w czasach, gdy większość ludzi nie potrafiła pisać, ponieważ tylko wykwalifikowani skrybowie posiadali tę umiejętność.
 
 
-![](./assets/fr/1-1-3_2_Tablette_big.webp)
+![image](assets/pl/002.webp)
 
 
 
@@ -426,7 +426,7 @@ Poniżej znajduje się wspomniany powyżej cylinder: kamień z wygrawerowanymi o
 Ówcześni skrybowie używali zatem rysika w kształcie klina do drukowania znaków na mokrych tablicach.
 
 
-![](./assets/fr/1-1-3_3_cylindre.webp)
+![image](assets/pl/003.webp)
 
 
 
@@ -1010,7 +1010,7 @@ W Chinach monety niekoniecznie musiały być oficjalnie oznaczone lub gwarantowa
 
 
 
-![](./assets/fr/1-2-3_chine.webp)
+![image](assets/pl/004.webp)
 
 
 Ta powyżej to chińska moneta z okresu średniowiecza. Jest to odlewana moneta z kwadratowym otworem pośrodku. Otwór ten służył do przewlekania liny, dzięki czemu monety można było nawlekać na siebie, tworząc bransoletki lub naszyjniki. Monety te nie były jednak przeznaczone głównie do noszenia; były one używane głównie do celów księgowych. Można je było łączyć ze sobą, tworząc jednostki rozliczeniowe w postaci dużych sznurków, których elementy się zazębiały. Niekoniecznie były jakieś konkretne znaki, czasami były to po prostu brązowe kółka.
@@ -1221,7 +1221,7 @@ Uważam za interesujące wspomnieć tutaj, że w Egipcie nadal ważono monety d�
 
 
 
-![](./assets/fr/1-3-0_indes.webp)
+![image](assets/pl/005.webp)
 
 
 
@@ -1248,7 +1248,7 @@ Ponieważ nie możemy oddzielić pojawienia się monet od Lidii i Persów, przej
 Poniżej znajduje się jedna z najwcześniejszych monet lidyjskich, przedstawiająca lwa ze zdobyczą z przodu. Można zauważyć stempel lub otwór z tyłu, który według niektórych był używany do testowania czystości metalu i upewnienia się, że nie jest to tylko warstwa powierzchniowa. Chociaż jest to jeden z najwcześniejszych przykładów, ważne jest, aby pamiętać, że ten egzemplarz jest kopią. Wszystkie moje złote i elektrumowe egzemplarze są replikami lub nowoczesnymi odtworzeniami, mającymi na celu powstrzymanie mnie przed wydaniem wszystkich oszczędności na tę kolekcję.
 
 
-![](./assets/fr/1-3-1_1_lydia.webp)
+![image](assets/pl/006.webp)
 
 
 
@@ -1291,7 +1291,7 @@ Kiedy podbili Lidię w 546 r. p.n.e., Persowie Achemenidów natychmiast przyjęl
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/pl/007.webp)
 
 
 
@@ -1404,7 +1404,7 @@ Po sekcji o powstaniu monet, chciałem przedstawić bardzo krótką sekcję na t
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/pl/008.webp)
 
 
 Później, jak omówimy w kolejnej sekcji, Grecy udoskonalili tę technologię, tworząc okrągłe monety, które były młotkowane po obu stronach. Brali gładki, płaski kawałek metalu szlachetnego, grawerowali pożądany wzór po jednej stronie, a następnie ręcznie go młotkowali, aby stworzyć gotową monetę.
@@ -1413,7 +1413,7 @@ Później, jak omówimy w kolejnej sekcji, Grecy udoskonalili tę technologię, 
 Technologia ręcznego bicia monet indywidualnie prawdopodobnie odegrała rolę w kontrolowaniu inflacji w tym czasie, mimo że monety były często rozcieńczane w celu zwiększenia produkcji. Było to szczególnie widoczne w okresie rzymskim i, w mniejszym stopniu, podczas niektórych wojen w okresie greckim. Podczas gdy bicie monet pojedynczo ograniczało zdolność władz do masowej produkcji, skutecznie przyczyniało się to do kontroli inflacji, pomimo znacznych dewaluacji, które miały miejsce. W ten sposób ewolucja przeszła od wykrawanej bryły metalu do okrągłej, młotkowanej monety.
 
 
-![](./assets/fr/1-3-2_1_drachm.webp)
+![image](assets/pl/009.webp)
 
 
 
@@ -1735,7 +1735,7 @@ Poniżej można podziwiać uderzający przykład monumentalnych kamieni na wyspi
 
 
 
-![](./assets/fr/Pierre_de_Yap.webp)
+![image](assets/pl/010.webp)
 
 
 
@@ -1945,7 +1945,7 @@ Premia pieniężna opiera się po prostu na pewności, że ktoś wymieni te pien
 
 
 
-![image](./assets/fr/prime_monetaire.webp)
+![image](assets/pl/011.webp)
 
 
 
@@ -2322,7 +2322,7 @@ Poniżej znajduje się tweet Stephanie Kelton, która jest swego rodzaju plakate
 
 
 
-![image](./assets/fr/no_debt_crisis.webp)
+![image](assets/pl/012.webp)
 
 
 
@@ -2534,7 +2534,7 @@ Mam to szczęście, że posiadam kopię greckiej drachmy z tamtego okresu ze sł
 
 
 
-![](./assets/fr/3_1_tetradrachm.webp)
+![image](assets/pl/013.webp)
 
 
 
@@ -2704,7 +2704,7 @@ Decydujące spotkanie z Grekami z południowych Włoch naprawdę wprowadziło Rz
 W rzeczywistości wiele rzymskich monet z okresu republiki przedstawia mity założycielskie. Moją można zobaczyć poniżej: to wspaniała, prawdziwa moneta króla Tacjusza. Ilustruje ona mit o porwaniu kobiet przez Sabinów. Tacjusz był królem tego regionu, a mit założycielski opowiada o tym, jak Rzymianie uprowadzili kobiety od Sabinów, ludności, która mieszkała w pobliżu. Następnie król Tacjusz został współkrólem Romulusa, jednego z założycieli Rzymu.
 
 
-![](./assets/fr/3_2_tatius.webp)
+![image](assets/pl/014.webp)
 
 
 
@@ -2728,7 +2728,7 @@ Tutaj możemy powrócić do koncepcji, którą wcześniej omawialiśmy w odniesi
 
 
 
-![](./assets/fr/3_2_Carthage.webp)
+![image](assets/pl/015.webp)
 
 
 
@@ -2892,19 +2892,19 @@ Po zabójstwie Cezara w 44 r. p.n.e. Oktawian (August) przejął kontrolę nad R
 
 
 
-![](./assets/fr/3_3_aureus.webp)
+![image](assets/pl/016.webp)
 
 
 
-![](./assets/fr/3_3_denier.webp)
+![image](assets/pl/017.webp)
 
 
 
-![](./assets/fr/3_3_sesterce.webp)
+![image](assets/pl/018.webp)
 
 
 
-![](./assets/fr/3_3_dernier-sesterce.webp)
+![image](assets/pl/019.webp)
 
 
 
@@ -2920,11 +2920,11 @@ Ta część pozwala mi przedstawić ostatni element w tej sekcji: antoninianus. 
 
 
 
-![](./assets/fr/3_3_antoninien.webp)
+![image](assets/pl/020.webp)
 
 
 
-![](./assets/fr/3_3_Denier-Antoninien.webp)
+![image](assets/pl/021.webp)
 
 
 
@@ -2943,11 +2943,11 @@ To właśnie Aurelian wynalazł tę formę dewaluacji, która jest znacznie szyb
 Aby wizualnie zilustrować tę ekstremalną dewaluację, znalazłem kilka fascynujących statystyk dotyczących cen zboża w Egipcie od 40 r. p.n.e. do III wieku, obejmujących ponad 300 lat. Poniżej znajduje się grecka tetradrachma z mojej kolekcji. W tym czasie, w Egipcie pod okupacją rzymską w III wieku, odpowiednikiem była egipska tetradrachma. Nominał drachmy był nadal w użyciu i odpowiadał denarowi.
 
 
-![](./assets/fr/3_3_egypt-tetradrachm.webp)
+![image](assets/pl/022.webp)
 
 
 
-![](./assets/fr/3_3_tetradrachm-vs-tetradrachm.webp)
+![image](assets/pl/023.webp)
 
 
 
@@ -3192,7 +3192,7 @@ Jako pierwszy artefakt związany z tym okresem, pozwolę sobie pokazać reproduk
 
 
 
-![](./assets/fr/3_5_penny.webp)
+![image](assets/pl/024.webp)
 
 
 
@@ -3228,7 +3228,7 @@ Aby nawiązać do Templariuszy, poniżej znajduje się francuska średniowieczna
 
 
 
-![](./assets/fr/3_5_Denier-france.webp)
+![image](assets/pl/025.webp)
 
 
 
@@ -3285,7 +3285,7 @@ Poniżej znajduje się reprodukcja florena: złoty floren wykonany z cyny i wybi
 
 
 
-![](./assets/fr/4_Florin.webp)
+![image](assets/pl/026.webp)
 
 
 
@@ -3293,11 +3293,11 @@ Ten powrót do złotej monety był spowodowany specyficznym kontekstem: upadek b
 
 
 
-![](./assets/fr/4_Byzantine.webp)
+![image](assets/pl/027.webp)
 
 
 
-![](./assets/fr/4_Hongrie.webp)
+![image](assets/pl/028.webp)
 
 
 
@@ -3335,7 +3335,7 @@ To właśnie w tym okresie Europa dowiedziała się o istnieniu papierowych pien
 Mamy tu na myśli wspomnianą wcześniej technikę bicia wahadłem. Metoda ta umożliwiła produkcję bardziej jednolitych monet w porównaniu do bicia młotkiem i, co ważne, pozwoliła na wykonanie napisów wokół krawędzi monety, co wcześniej zademonstrowałem. Poniższa moneta to talar europejski z 1793 roku, na którym wyraźnie widać napis na krawędzi.
 
 
-![image](./assets/fr/4_thaler.webp)
+![image](assets/pl/029.webp)
 
 
 
@@ -3414,7 +3414,7 @@ W odpowiedzi na zapotrzebowanie Europy na złoto i srebro, "stałą motywacją d
 
 
 
-![](./assets/fr/5_1_Real_Portugais.webp)
+![image](assets/pl/030.webp)
 
 
 
@@ -3431,7 +3431,7 @@ Wraz z podbojem Nowego Świata, **Hiszpania** stała się dominującym graczem. 
 
 
 
-![](./assets/fr/5_1_Dollar_Espagnol.webp)
+![image](assets/pl/031.webp)
 
 
 
@@ -3441,7 +3441,7 @@ Hiszpański real, znany również jako "kawałek ósemki", zyskał swój przydom
 Szczególnie interesujące jest to, że dolar hiszpański służył wówczas jako międzynarodowa waluta rezerwowa. Władze hiszpańskie wyemitowały również własną lokalną walutę, maravedi, i regularnie dostosowywały podaż pieniądza poprzez wycofywanie monet. Na przykład, miedziana lub brązowa moneta początkowo o wartości jednego maravedi mogła zostać wycofana i ostemplowana "2", później "4" i tak dalej, potencjalnie osiągając "8" Na zdjęciu w wysokiej rozdzielczości wyraźnie widać "8" wybite na monecie. Metoda ta skutecznie zwiększała podaż pieniądza... co nieuchronnie prowadziło do inflacji.
 
 
-![](./assets/fr/5_1_maravedi.webp)
+![image](assets/pl/032.webp)
 
 
 
@@ -3473,10 +3473,10 @@ Po iberyjskim apogeum, **Holandia** stała się nową potęgą handlową w XVII 
 
 
 
-![](./assets/fr/5_1_gulden.webp)
+![image](assets/pl/033.webp)
 
 
-![](./assets/fr/5_1_VOC.webp)
+![image](assets/pl/034.webp)
 
 
 
@@ -3522,7 +3522,7 @@ Bardziej restrykcyjne prawa starały się narzucić assignat, ale bez powodzenia
 
 
 
-![](./assets/fr/5_1_assignat.webp)
+![image](assets/pl/035.webp)
 
 
 
@@ -3530,7 +3530,7 @@ Gdy papierowe pieniądze zastąpiły wszystkie monety z metali szlachetnych, zgo
 
 
 
-![](./assets/fr/5_1_cloche.webp)
+![image](assets/pl/036.webp)
 
 
 
@@ -3562,10 +3562,10 @@ Suweren był monetą pieniężną - złotą monetą o pierwotnej wartości jedne
 Poprzednikiem słynnego suwerena była gwinea, która działała na tej samej zasadzie. Nazwa gwinei pochodzi od zawartych w niej metali szlachetnych pochodzących z regionu Gwinei.
 
 
-![](./assets/fr/5_2_sovereign.webp)
+![image](assets/pl/037.webp)
 
 
-![](./assets/fr/5_1_Guinea.webp)
+![image](assets/pl/038.webp)
 
 
 
@@ -3593,7 +3593,7 @@ W Antwerpii odbywały się targi kupieckie, na których handlowcy często zbiera
 
 
 
-![](./assets/fr/5_2_Billet_a_ordre.webp)
+![image](assets/pl/039.webp)
 
 
 
@@ -3758,7 +3758,7 @@ Potem przyszła panika 1776 roku. Wszyscy rzucili się w górę piramidy pienią
 Przeszliśmy od florena do utworzenia Banku Anglii. Oczywiście w międzyczasie miały miejsce pierwsza i druga wojna światowa, ale wcześniej, w 1796 r., wydarzenia miały miejsce również po drugiej stronie Atlantyku. W 1776 roku Ameryka wciąż była brytyjską kolonią, a kolonie używały papierowej waluty. Poniżej znajduje się banknot dwuszylingowy Connecticut z 1776 roku.
 
 
-![](./assets/fr/two_shilling.webp)
+![image](assets/pl/040.webp)
 
 
 Przed wypowiedzeniem wojny Anglii i ostatecznie wyemitowaniem własnej waluty, kolonie używały tej papierowej waluty, obok hiszpańskiego dolara do transakcji gotówkowych. W rzeczywistości termin "dolar" pozostał na określenie dolara amerykańskiego.
@@ -3767,7 +3767,7 @@ Przed wypowiedzeniem wojny Anglii i ostatecznie wyemitowaniem własnej waluty, k
 Jeśli się nie mylę, w 1792 r. uchwalono ustawę zezwalającą na bicie monet. Dla przykładu, poniższa moneta to dolar amerykański z ery nowożytnej.
 
 
-![](./assets/fr/silver_dollar.webp)
+![image](assets/pl/041.webp)
 
 
 Cóż, oczywiście nie ma on wartości nominalnej jednego dolara; jest wart około 30 lub 40 dolarów, ponieważ reprezentuje uncję srebra. Jego wartość waha się w zależności od ceny srebra, zazwyczaj na poziomie 30 lub 40 dolarów amerykańskich. Dziś oczywiście papierowy dolar zachowuje tylko wartość nominalną jednego dolara, ale w tamtych czasach dolar amerykański był zakorzeniony w tej wartości srebra.
@@ -3777,7 +3777,7 @@ Porozmawiajmy teraz o wojnie secesyjnej w Ameryce. Konfederaci drukowali pienią
 
 
 
-![](./assets/fr/confederate.webp)
+![image](assets/pl/042.webp)
 
 
 
@@ -3785,7 +3785,7 @@ Ich przeciwnicy z północy również posiadali dolary. Powyżej widać dolary K
 
 
 
-![](./assets/fr/greenback.webp)
+![image](assets/pl/043.webp)
 
 
 
@@ -3800,7 +3800,7 @@ W następstwie pierwszej wojny światowej ostatnia seria drukowanych banknotów 
 
 
 
-![](./assets/fr/1928.webp)
+![image](assets/pl/044.webp)
 
 
 
@@ -3811,7 +3811,7 @@ Poniżej znajduje się złoty certyfikat z 1928 roku.
 
 
 
-![](./assets/fr/Gold_certificate.webp)
+![image](assets/pl/045.webp)
 
 
 
@@ -3831,7 +3831,7 @@ Po wydaniu rozporządzenia wykonawczego nr 6102 przejęto całe złoto i wymieni
 
 
 
-![](./assets/fr/1934.webp)
+![image](assets/pl/046.webp)
 
 
 Pojęcie legalnego środka płatniczego pojawia się tutaj, zastępując frazę "wymienialny w złocie" Oba banknoty mogą wyglądać identycznie, zmieniając tylko kilka słów, ale oszustwo polega na tym, że dolar został zdewaluowany w tym okresie; spadł z uncji złota wycenianej na 20,67 USD do 35 USD za uncję w 1934 roku. Oznaczało to dewaluację o około 40%!
@@ -3869,10 +3869,10 @@ Muszą tylko upewnić się, że mogą dokonać tych transferów, ale nie ma obow
 
 
 
-Aby zrozumieć związek między pieniądzem a inflacją, polecam kurs, który mam na Plan ₿ Network poświęcony temu tematowi. Dowiesz się, jaka jest różnica między wzrostem cen, czyli tym, co widzimy w życiu, a inflacją. To nie jest to samo. W rzeczywistości, kiedy mówimy o inflacji, często mówimy o wzroście cen, a nie o samej inflacji. Inflacja jest dość precyzyjną koncepcją, wyjaśnioną przez wzrost podaży pieniądza.
+Aby zrozumieć związek między pieniądzem a inflacją, polecam kurs, który mam na Plan ₿ Academy poświęcony temu tematowi. Dowiesz się, jaka jest różnica między wzrostem cen, czyli tym, co widzimy w życiu, a inflacją. To nie jest to samo. W rzeczywistości, kiedy mówimy o inflacji, często mówimy o wzroście cen, a nie o samej inflacji. Inflacja jest dość precyzyjną koncepcją, wyjaśnioną przez wzrost podaży pieniądza.
 
 
-https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 Na zakończenie tej sekcji dotyczącej świata pieniądza fiducjarnego, chciałbym wskazać źródło, które pomoże ci lepiej zrozumieć zjawiska, które właśnie wyjaśniłem, takie jak inflacja.
 
@@ -3903,7 +3903,7 @@ Dzięki temu systemowi Law powiązał papierowe pieniądze z akcjami swojej firm
 
 
 
-![image](./assets/fr/paper_illustration.webp)
+![image](assets/pl/047.webp)
 
 
 

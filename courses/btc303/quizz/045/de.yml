@@ -6,3 +6,4 @@ wrong_answers:
   - Sofortige Aktivierung des harten fork, ohne den Nutzern genügend Zeit zu geben, ihre Knotensoftware zu aktualisieren
 explanation: |
   Nach Eric Lombrozos Analyse bestand der problematische Ansatz von Satoshi darin, eine konsensbrechende Änderung in einem Commit mit einer irreführenden Beschreibung zu verschleiern, die nur "reverted makefile.unix wx-config version 0.3.6" ohne jeden Hinweis auf die konsensbrechenden Änderungen erwähnte. Diese Praxis, kritische konsensbrechende Änderungen in harmlos aussehenden Commits zu verstecken, wäre nach heutigen Maßstäben inakzeptabel, da Transparenz und klare Kommunikation über konsensbrechende Änderungen grundlegende Prinzipien der Bitcoin Entwicklung sind.
+reviewed: false

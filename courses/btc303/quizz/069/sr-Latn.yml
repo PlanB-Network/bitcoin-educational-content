@@ -6,3 +6,4 @@ wrong_answers:
   - Kreiranje čvorova za validaciju odobrenih od strane vlade koji mogu efikasnije obrađivati transakcije
 explanation: |
   Knjiga definiše Bitcoin skaliranje kao 'povećanje kapaciteta korišćenja Bitcoin bez ugrožavanja njegove otpornosti na cenzuru.' Prostor-efikasna verifikacija potpisa direktno odgovara ovoj definiciji tako što transakcije koriste manje bajtova dok održavaju decentralizaciju. Pogrešni odgovori svi ugrožavaju otpornost na cenzuru: centralizovane berze uvode pouzdane treće strane, filtriranje transakcija stvara mehanizme cenzure, a čvorovi odobreni od strane vlade centralizuju autoritet validacije. Pravo skaliranje očuva osnovne osobine Bitcoin dok poboljšava efikasnost.
+reviewed: false

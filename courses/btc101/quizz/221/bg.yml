@@ -1,0 +1,8 @@
+question: Таксите за транзакции в Lightning Network са изключително ниски, често по-малки от...?
+answer: 0.5%.
+wrong_answers:
+  - 1%.
+  - 2%.
+  - 3%.
+explanation: >-
+reviewed: true

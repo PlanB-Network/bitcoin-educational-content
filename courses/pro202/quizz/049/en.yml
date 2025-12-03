@@ -1,0 +1,8 @@
+question: What are the two critical verification checks a Bitcoin node must perform when receiving a new block before accepting it into the blockchain?
+answer: The block hash must be below the target difficulty and the computed Merkle root must match the header's Merkle root
+wrong_answers:
+  - The block timestamp must be valid and all transaction signatures must be cryptographically verified
+  - The block size must be under 1MB and the previous block hash must reference a known valid block
+  - The block version must match network consensus and the total transaction fees must exceed the mining reward
+explanation: |
+  Bitcoin's "don't trust, verify" principle requires exactly two fundamental checks for block acceptance: proof-of-work validation (block hash below difficulty target) and transaction integrity verification (Merkle root matching). While other checks like timestamp validation, signature verification, and size limits are important, these two specific checks ensure the block meets difficulty requirements and contains the claimed transactions without tampering.

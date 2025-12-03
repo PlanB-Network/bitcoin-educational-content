@@ -6,3 +6,4 @@ wrong_answers:
   - Privatni ključevi su pohranjeni na više uređaja umesto na jednom wallet
 explanation: |
   Decentralizacija Full node znači da se validacija blokova (podataka koje rudari proizvode) dešava na ivici mreže od strane individualnih korisnika koji pokreću svoje čvorove, umesto da se oslanja na nekoliko pouzdanih autoriteta za verifikaciju transakcija. Ovo je različito od decentralizacije rudara, koja se bavi redosledom i obradom transakcija. Druge opcije mešaju decentralizaciju full node sa distribucijom mining, strukturama upravljanja ili bezbednosnim praksama, ali nijedna ne obuhvata suštinski koncept distribuirane validacije blokova od strane učesnika mreže.
+reviewed: false

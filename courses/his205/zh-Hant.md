@@ -405,7 +405,7 @@ objectives:
 
 
 
-![](./assets/fr/1-1-3_1_Tablette_small.webp)
+![image](assets/zh-Hant/001.webp)
 
 
 
@@ -416,7 +416,7 @@ objectives:
 在大多數人都不會寫字的年代，只有熟練的抄寫員才有這種能力。
 
 
-![](./assets/fr/1-1-3_2_Tablette_big.webp)
+![image](assets/zh-Hant/002.webp)
 
 
 
@@ -426,7 +426,7 @@ objectives:
 因此，當時的抄寫員使用楔形手寫筆在濕潤的石板上印上記號。
 
 
-![](./assets/fr/1-1-3_3_cylindre.webp)
+![image](assets/zh-Hant/003.webp)
 
 
 
@@ -1010,7 +1010,7 @@ objectives:
 
 
 
-![](./assets/fr/1-2-3_chine.webp)
+![image](assets/zh-Hant/004.webp)
 
 
 上面這枚是中世紀的中國錢幣。它是一枚鑄造的錢幣，中心有一個方形的孔。這個孔是用來穿繩子的，可以將錢幣串在一起，製成手鐲或項鏈。然而，這些錢幣並非主要用於佩戴，而是主要用於會計用途。這些錢幣可以串在一起，形成大串的會計單位，枚枚相扣。它們不一定有任何特定的標記，有時只是簡單的青銅圈。
@@ -1221,7 +1221,7 @@ objectives:
 
 
 
-![](./assets/fr/1-3-0_indes.webp)
+![image](assets/zh-Hant/005.webp)
 
 
 
@@ -1248,7 +1248,7 @@ objectives:
 下面，您可以看到最早的呂底亞錢幣之一，其特色是一頭獅子與前面的獵物。您可能會注意到背面有一個印章或孔洞，有些人認為這是用來測試金屬的純度，確保它不只是表面層。雖然這是最早的例子之一，但必須注意的是，這件作品是複製品。我所有的黃金和金幣都是複製品或現代再現品，目的是防止我把所有的積蓄都花在這個收藏上。
 
 
-![](./assets/fr/1-3-1_1_lydia.webp)
+![image](assets/zh-Hant/006.webp)
 
 
 
@@ -1291,7 +1291,7 @@ objectives:
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/zh-Hant/007.webp)
 
 
 
@@ -1404,7 +1404,7 @@ objectives:
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/zh-Hant/008.webp)
 
 
 之後，正如我們將在接下來的章節中探討的，希臘人改進了這項技術，製造出了雙面都經過錘擊的圓形錢幣。他們會使用一塊光滑、平整的貴金屬，在其中一面刻上所需的圖案，然後用手鎚擊，製造出完成的錢幣。
@@ -1413,7 +1413,7 @@ objectives:
 個別手工鑄造硬幣的技術很可能在那段時期起到了控制通貨膨脹的作用，儘管硬幣經常被稀釋以增加產量。這在羅馬時期尤其明顯，其次是在希臘時期的某些戰爭中。儘管一次鑄造一枚錢幣限制了當局的大量生產能力，但它有效地幫助控制了通貨膨脹，儘管出現了重大的貶值。因此，錢幣的演變從一團被打孔的金屬圓球發展到圓形的錘鑄錢幣。
 
 
-![](./assets/fr/1-3-2_1_drachm.webp)
+![image](assets/zh-Hant/009.webp)
 
 
 
@@ -1735,7 +1735,7 @@ David Graeber 等人類學家反駁這個觀點，提出「易貨神話」。他
 
 
 
-![](./assets/fr/Pierre_de_Yap.webp)
+![image](assets/zh-Hant/010.webp)
 
 
 
@@ -1945,7 +1945,7 @@ Saifedean 在他的書 "The Bitcoin Standard" 中詳細談論了這一點。對�
 
 
 
-![image](./assets/fr/prime_monetaire.webp)
+![image](assets/zh-Hant/011.webp)
 
 
 
@@ -2322,7 +2322,7 @@ Saifedean 在他的書 "The Bitcoin Standard" 中詳細談論了這一點。對�
 
 
 
-![image](./assets/fr/no_debt_crisis.webp)
+![image](assets/zh-Hant/012.webp)
 
 
 
@@ -2534,7 +2534,7 @@ Saifedean 在他的書 "The Bitcoin Standard" 中詳細談論了這一點。對�
 
 
 
-![](./assets/fr/3_1_tetradrachm.webp)
+![image](assets/zh-Hant/013.webp)
 
 
 
@@ -2704,7 +2704,7 @@ Saifedean 在他的書 "The Bitcoin Standard" 中詳細談論了這一點。對�
 事實上，共和國時期的許多羅馬錢幣都描繪了建國神話。您可以在下面這裏看到我的錢幣：這是一枚來自 Tatius 國王的極品真幣。它描繪了誘拐薩賓人婦女的神話。Tatius 是這個地區的國王，而這個開國神話講述羅馬人如何從薩賓人那裡擄走女人，薩賓人就住在附近。其後，Tatius 國王與羅穆盧斯（羅馬的創始人之一）成為共王。
 
 
-![](./assets/fr/3_2_tatius.webp)
+![image](assets/zh-Hant/014.webp)
 
 
 
@@ -2728,7 +2728,7 @@ Saifedean 在他的書 "The Bitcoin Standard" 中詳細談論了這一點。對�
 
 
 
-![](./assets/fr/3_2_Carthage.webp)
+![image](assets/zh-Hant/015.webp)
 
 
 
@@ -2892,19 +2892,19 @@ Saifedean 在他的書 "The Bitcoin Standard" 中詳細談論了這一點。對�
 
 
 
-![](./assets/fr/3_3_aureus.webp)
+![image](assets/zh-Hant/016.webp)
 
 
 
-![](./assets/fr/3_3_denier.webp)
+![image](assets/zh-Hant/017.webp)
 
 
 
-![](./assets/fr/3_3_sesterce.webp)
+![image](assets/zh-Hant/018.webp)
 
 
 
-![](./assets/fr/3_3_dernier-sesterce.webp)
+![image](assets/zh-Hant/019.webp)
 
 
 
@@ -2920,11 +2920,11 @@ Saifedean 在他的書 "The Bitcoin Standard" 中詳細談論了這一點。對�
 
 
 
-![](./assets/fr/3_3_antoninien.webp)
+![image](assets/zh-Hant/020.webp)
 
 
 
-![](./assets/fr/3_3_Denier-Antoninien.webp)
+![image](assets/zh-Hant/021.webp)
 
 
 
@@ -2943,11 +2943,11 @@ Aurelian 在 XXI 標誌錢幣上引入了純度測量，表示成分為 20 份�
 為了直觀地說明這種極端貶值的情況，我找到了從公元前 40 年到公元 3 世紀，橫跨 300 多年的埃及穀物價格的一些引人入勝的統計數據。下面，您可以看到我收藏的希臘四進制鈔票。當時，在 3 世紀羅馬佔領下的埃及，相當於埃及的四德拉克馬。德拉克馬的面額仍在使用，它相當於一個第納利斯（denarius）。
 
 
-![](./assets/fr/3_3_egypt-tetradrachm.webp)
+![image](assets/zh-Hant/022.webp)
 
 
 
-![](./assets/fr/3_3_tetradrachm-vs-tetradrachm.webp)
+![image](assets/zh-Hant/023.webp)
 
 
 
@@ -3192,7 +3192,7 @@ Aurelian 這項改革所帶來的效果，可以從《貨幣體制與通貨膨�
 
 
 
-![](./assets/fr/3_5_penny.webp)
+![image](assets/zh-Hant/024.webp)
 
 
 
@@ -3228,7 +3228,7 @@ Aurelian 這項改革所帶來的效果，可以從《貨幣體制與通貨膨�
 
 
 
-![](./assets/fr/3_5_Denier-france.webp)
+![image](assets/zh-Hant/025.webp)
 
 
 
@@ -3285,7 +3285,7 @@ Aurelian 這項改革所帶來的效果，可以從《貨幣體制與通貨膨�
 
 
 
-![](./assets/fr/4_Florin.webp)
+![image](assets/zh-Hant/026.webp)
 
 
 
@@ -3293,11 +3293,11 @@ Aurelian 這項改革所帶來的效果，可以從《貨幣體制與通貨膨�
 
 
 
-![](./assets/fr/4_Byzantine.webp)
+![image](assets/zh-Hant/027.webp)
 
 
 
-![](./assets/fr/4_Hongrie.webp)
+![image](assets/zh-Hant/028.webp)
 
 
 
@@ -3335,7 +3335,7 @@ Aurelian 這項改革所帶來的效果，可以從《貨幣體制與通貨膨�
 我們指的是課程前面提到的鐘擺鑄造技術。與錘擊法相比，這種方法能夠製造出更均勻的錢幣，而且重要的是，它允許在錢幣邊緣進行刻字，正如我之前演示的那樣。下面這枚是 1793 年的歐洲 thaler，它清楚地顯示了邊緣上的文字。
 
 
-![image](./assets/fr/4_thaler.webp)
+![image](assets/zh-Hant/029.webp)
 
 
 
@@ -3414,7 +3414,7 @@ Aurelian 這項改革所帶來的效果，可以從《貨幣體制與通貨膨�
 
 
 
-![](./assets/fr/5_1_Real_Portugais.webp)
+![image](assets/zh-Hant/030.webp)
 
 
 
@@ -3431,7 +3431,7 @@ Aurelian 這項改革所帶來的效果，可以從《貨幣體制與通貨膨�
 
 
 
-![](./assets/fr/5_1_Dollar_Espagnol.webp)
+![image](assets/zh-Hant/031.webp)
 
 
 
@@ -3441,7 +3441,7 @@ Aurelian 這項改革所帶來的效果，可以從《貨幣體制與通貨膨�
 特別有趣的是，西班牙元當時是國際儲備貨幣。西班牙當局還發行了自己的當地貨幣 maravedi，並通過回收定期調整貨幣供應。例如，一枚最初價值 1 maravedi 的銅幣或銅幣可能會被回收，並蓋上 "2 「的印章，之後再蓋上 」4 「的印章，如此類推，可能會達到 」8 "的印章。在高解析度照片中，您可以清楚地看到硬幣上印有「8」字樣。這種方法有效地擴大了貨幣供應......這不可避免地導致了通貨膨脹。
 
 
-![](./assets/fr/5_1_maravedi.webp)
+![image](assets/zh-Hant/032.webp)
 
 
 
@@ -3473,10 +3473,10 @@ Aurelian 這項改革所帶來的效果，可以從《貨幣體制與通貨膨�
 
 
 
-![](./assets/fr/5_1_gulden.webp)
+![image](assets/zh-Hant/033.webp)
 
 
-![](./assets/fr/5_1_VOC.webp)
+![image](assets/zh-Hant/034.webp)
 
 
 
@@ -3522,7 +3522,7 @@ John Law（1716-1720）進行了紙幣的第一次重大實驗。Banque Généra
 
 
 
-![](./assets/fr/5_1_assignat.webp)
+![image](assets/zh-Hant/035.webp)
 
 
 
@@ -3530,7 +3530,7 @@ John Law（1716-1720）進行了紙幣的第一次重大實驗。Banque Généra
 
 
 
-![](./assets/fr/5_1_cloche.webp)
+![image](assets/zh-Hant/036.webp)
 
 
 
@@ -3562,10 +3562,10 @@ John Law（1716-1720）進行了紙幣的第一次重大實驗。Banque Généra
 在著名的主權幣之前是基尼幣，其運作原理與主權幣相同。基尼因其所含的貴金屬而得名，這些貴金屬來自幾內亞地區。
 
 
-![](./assets/fr/5_2_sovereign.webp)
+![image](assets/zh-Hant/037.webp)
 
 
-![](./assets/fr/5_1_Guinea.webp)
+![image](assets/zh-Hant/038.webp)
 
 
 
@@ -3593,7 +3593,7 @@ John Law（1716-1720）進行了紙幣的第一次重大實驗。Banque Généra
 
 
 
-![](./assets/fr/5_2_Billet_a_ordre.webp)
+![image](assets/zh-Hant/039.webp)
 
 
 
@@ -3758,7 +3758,7 @@ John Law（1716-1720）進行了紙幣的第一次重大實驗。Banque Généra
 我們從弗羅林過渡到英格蘭銀行的建立。當然，其間發生了第一次和第二次世界大戰，但在更早的1796年，大西洋的另一邊也發生了一些發展。1776 年，美國仍然是英國的殖民地，殖民地使用這種紙幣。下面是 1776 年康涅狄格州的兩先令紙幣。
 
 
-![](./assets/fr/two_shilling.webp)
+![image](assets/zh-Hant/040.webp)
 
 
 在向英格蘭宣戰並最終發行自己的貨幣之前，殖民地使用這種紙幣與西班牙的美元一起進行現金交易。事實上，「美元 」一詞一直用來表示美國美元。
@@ -3767,7 +3767,7 @@ John Law（1716-1720）進行了紙幣的第一次重大實驗。Banque Généra
 如果我沒弄錯的話，在1792年，他們通過了一項法律，允許他們鑄造貨幣。舉例來說，下面這張是現代的美國美元。
 
 
-![](./assets/fr/silver_dollar.webp)
+![image](assets/zh-Hant/041.webp)
 
 
 很明顯，它的面值並非只有一美元；它的價值約為 30 或 40 美元，因為它代表一盎司白銀。它的價值會根據銀價浮動，通常至少在 30 或 40 美元左右。當然，今天的紙幣只保留了一美元的面值，但在當時，美元是以這種銀價值為基礎的。
@@ -3777,7 +3777,7 @@ John Law（1716-1720）進行了紙幣的第一次重大實驗。Banque Généra
 
 
 
-![](./assets/fr/confederate.webp)
+![image](assets/zh-Hant/042.webp)
 
 
 
@@ -3785,7 +3785,7 @@ John Law（1716-1720）進行了紙幣的第一次重大實驗。Banque Généra
 
 
 
-![](./assets/fr/greenback.webp)
+![image](assets/zh-Hant/043.webp)
 
 
 
@@ -3800,7 +3800,7 @@ John Law（1716-1720）進行了紙幣的第一次重大實驗。Banque Généra
 
 
 
-![](./assets/fr/1928.webp)
+![image](assets/zh-Hant/044.webp)
 
 
 
@@ -3811,7 +3811,7 @@ John Law（1716-1720）進行了紙幣的第一次重大實驗。Banque Généra
 
 
 
-![](./assets/fr/Gold_certificate.webp)
+![image](assets/zh-Hant/045.webp)
 
 
 
@@ -3831,7 +3831,7 @@ John Law（1716-1720）進行了紙幣的第一次重大實驗。Banque Généra
 
 
 
-![](./assets/fr/1934.webp)
+![image](assets/zh-Hant/046.webp)
 
 
 這裏出現了法定貨幣的概念，取代了「可兌換黃金」一詞。這兩張鈔票看起來一模一樣，只有幾個字有所改變，但騙局就在於美元在這段期間貶值；美元從每盎司黃金 20.67 美元降至 1934 年的每盎司 35 美元。這代表了大約 40% 的貶值！
@@ -3869,10 +3869,10 @@ John Law（1716-1720）進行了紙幣的第一次重大實驗。Banque Généra
 
 
 
-要瞭解貨幣與通貨膨脹之間的關係，我推薦您學習我在 Plan ₿ Network 上專門針對這個主題的課程。您將學習到物價上漲與通貨膨脹之間的區別，物價上漲是我們在生活中看到的，而通貨膨脹則是我們在生活中看到的。它們不是一回事。事實上，當我們提到通貨膨脹時，我們通常說的是價格上漲，而不是通貨膨脹本身。通貨膨脹是一個相當精確的概念，以貨幣供應的增加來解釋。
+要瞭解貨幣與通貨膨脹之間的關係，我推薦您學習我在 Plan ₿ Academy 上專門針對這個主題的課程。您將學習到物價上漲與通貨膨脹之間的區別，物價上漲是我們在生活中看到的，而通貨膨脹則是我們在生活中看到的。它們不是一回事。事實上，當我們提到通貨膨脹時，我們通常說的是價格上漲，而不是通貨膨脹本身。通貨膨脹是一個相當精確的概念，以貨幣供應的增加來解釋。
 
 
-https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 在結束本節關於法定貨幣世界的內容之前，我想指出一項資源，以協助您更好地理解我剛才所解釋的現象，例如通貨膨脹。
 
@@ -3903,7 +3903,7 @@ https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcc
 
 
 
-![image](./assets/fr/paper_illustration.webp)
+![image](assets/zh-Hant/047.webp)
 
 
 

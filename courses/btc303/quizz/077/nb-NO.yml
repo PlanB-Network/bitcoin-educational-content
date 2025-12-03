@@ -6,3 +6,4 @@ wrong_answers:
   - Offentliggjøring krever umiddelbare tiltak og oppdateringer, mens publisering gir mulighet for gradvise rettelser gjennom normal utviklingsflyt
 explanation: |
   Gregory Maxwell understreket dette viktige skillet i diskusjonen på e-postlisten. Disclosure refererer til den ansvarlige handlingen det er å informere programvareleverandøren (leverandøren) om en sårbarhet, slik at de kan jobbe med en løsning. Publisering, derimot, betyr å gjøre sårbarhetsinformasjonen offentlig tilgjengelig, noe som effektivt informerer potensielle angripere om hvordan sårbarheten kan utnyttes. Dette skillet er viktig, for mens offentliggjøring bidrar til å beskytte systemet, kan for tidlig publisering forårsake skade ved å gjøre det mulig for ondsinnede aktører å utnytte sårbarheten før tilstrekkelige forsvarsverk er på plass.
+reviewed: false

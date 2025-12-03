@@ -6,3 +6,4 @@ wrong_answers:
   - Ein System, in dem Transaktionen von niemandem rückgängig gemacht oder angefochten werden können
 explanation: |
   Trustless bezieht sich speziell auf eine technische Eigenschaft, bei der ein verteiltes System korrekt funktionieren kann, ohne dass irgendwelche vertrauenswürdigen Parteien erforderlich sind. Dies ist etwas anderes als die Abschaffung jeglichen Vertrauens (man vertraut immer noch seiner Software/Hardware) oder die Verhinderung von Rückbuchungen (Bitcoin-Transaktionen können durch Umschreiben der Kette rückgängig gemacht werden). Der Begriff bedeutet auch nicht, dass die Benutzer den Teilnehmern nicht vertrauen können - vielmehr hängt die Korrektheit des Systems nicht davon ab, dass man ihnen vertraut.
+reviewed: false

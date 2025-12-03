@@ -1,0 +1,9 @@
+question: Кой изобретява World Wide Web и разработва първия уеб браузър?
+answer: Тим Бърнърс-Лий
+wrong_answers:
+  - Марк Андресен
+  - Джим Кларк
+  - Брендън Айх
+explanation: |
+  Тим Бърнърс-Лий е създателят на World Wide Web и през 1990 г. разработва първия браузър WorldWideWeb (сега Nexus).
+reviewed: false

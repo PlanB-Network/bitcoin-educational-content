@@ -3,13 +3,13 @@ name: Podstawy austriackiej szkoły ekonomii
 goal: Odkryj ekonomię austriacką jako alternatywne ramy analizy rynków i indywidualnego podejmowania decyzji
 objectives:
 - Analiza funkcji pieniądza, kredytu i systemów bankowości centralnej
-- Zastosowanie teorię wartości subiektywnej i preferencji czasowej do zachowań rynkowych
-- Zrozumienie austriackiej teorii cyklu koniunkturalnego i jej przyczyny
-- Porównanie metodologii austriackiej z mainstreamowymi podejściami ekonomicznymi
+- Zastosowanie teorii wartości subiektywnej i preferencji czasowej do zachowań rynkowych
+- Zrozumienie austriackiej teorii cyklu koniunkturalnego i jej przyczyn
+- Porównanie metodologii austriackiej z podejściami ekonomicznymi głównego nurtu
 ---
 # Podróż do ekonomii austriackiej
 
-Czy zastanawiałeś się kiedyś, dlaczego niektórzy ekonomiści myślą inaczej o rynkach, wolności i ludzkim zachowaniu? Ekonomia austriacka oferuje odświeżającą perspektywę, która stawia cię w centrum myślenia ekonomicznego. Zamiast skomplikowanej matematyki i abstrakcyjnych modeli, to podejście koncentruje się na logice, ludzkich wyborach i tym, jak prawdziwi ludzie podejmują decyzje w swoim codziennym życiu. To ekonomia przez pryzmat wolności, racjonalności i osobistego działania.
+Czy zastanawiałeś się kiedyś, dlaczego niektórzy ekonomiści myślą inaczej o rynkach, wolności i ludzkim zachowaniu? Ekonomia austriacka oferuje odświeżającą perspektywę, która stawia ciebie w centrum myślenia ekonomicznego. Zamiast skomplikowanej matematyki i abstrakcyjnych modeli, to podejście koncentruje się na logice, ludzkich wyborach i tym, jak prawdziwi ludzie podejmują decyzje w swoim codziennym życiu. To ekonomia przez pryzmat wolności, racjonalności i osobistego działania.
 
 Ta szkoła myślenia kształtowała debaty przez wieki, dzięki wpływowym myślicielom takim jak Hayek, Mises i Bastiat. Podczas gdy główny nurt ekonomii keynesowskiej dominuje w dzisiejszych dyskusjach politycznych, tradycja austriacka zadaje inne pytania: Co się dzieje, gdy priorytetem jest wolność jednostki? Jak naprawdę działają wolne rynki, gdy ludzie mogą swobodnie wybierać? Jeśli jesteś ciekawy alternatywnych sposobów myślenia o rynkach, społeczeństwie i wolności, to jest twoja szansa, aby poznać idee, których nie znajdziesz w standardowych podręcznikach.
 +++
@@ -37,7 +37,7 @@ Dzięki ponad dwustuletnim badaniom, refleksji filozoficznej i pismom znanych au
 Ekonomia jest w rzeczywistości głęboko społeczną i złożoną dziedziną, składającą się z wielu niezależnych podmiotów, które swobodnie oddziałują na siebie, tworząc spójną całość. Aby zrozumieć ten dynamiczny system, ekonomia austriacka preferuje analizę jakościową, opartą na ludzkiej logice, socjologii i badaniu procesów rynkowych, a nie na sztywnych równaniach matematycznych.
 
 
-Na tym kursie poznasz podstawowe zasady tej szkoły myślenia. Théo Mogenet, twój instruktor, jest zagorzałym zwolennikiem tego podejścia ekonomicznego i poprowadzi cię przez kluczowe koncepcje ekonomii austriackiej pokazując, w jaki sposób te idee w szczególności odnoszą się do świata Bitcoina.
+Na tym kursie poznasz podstawowe zasady tej szkoły myślenia. Théo Mogenet, twój instruktor, jest zagorzałym zwolennikiem tego podejścia ekonomicznego i poprowadzi cię przez kluczowe koncepcje ekonomii austriackiej pokazując, w jaki sposób te idee odnoszą się w szczególności do świata Bitcoina.
 
 
 **Sekcja 1: Wprowadzenie do ekonomii**
@@ -47,7 +47,7 @@ Zaczniemy od ogólnego wprowadzenia do ekonomii austriackiej, badając jej histo
 
 **Sekcja 2: Podstawy teoretyczne**
 
-W tej sekcji zagłębimy się w podstawowe koncepcje ekonomii austriackiej, takie jak subiektywna teoria wartości, która wyjaśnia, dlaczego wartość dobra nie jest obiektywna, ale zależy od użyteczności postrzeganej przez każdą osobę. Dowiesz się również, w jaki sposób pieniądz naturalnie wyłania się jako zjawisko społeczne, wraz z koncepcjami preferencji czasowej, odsetek i kapitału, które są sercem austriackiej teorii wolnego rynku.
+W tej sekcji zagłębimy się w podstawowe koncepcje ekonomii austriackiej, takie jak subiektywna teoria wartości, która wyjaśnia, dlaczego wartość dobra nie jest obiektywna, ale zależy od jego użyteczności postrzeganej przez każdą osobę. Dowiesz się również, w jaki sposób pieniądz naturalnie wyłania się jako zjawisko społeczne, wraz z koncepcjami preferencji czasowej, odsetek i kapitału, które są sercem austriackiej teorii wolnego rynku.
 
 
 **Sekcja 3: Austriackie perspektywy ekonomiczne**
@@ -70,22 +70,22 @@ A co, jeśli klucz do zrozumienia dzisiejszej gospodarki leży w teorii sprzed k
 > "Podstawowym problemem związanym z konwencjonalną walutą jest zaufanie, które jest wymagane do jej funkcjonowania. Bankowi centralnemu należy ufać, że nie zdeprecjonuje waluty, ale historia walut fiducjarnych jest pełna naruszeń tego zaufania. Bankom należy ufać, że będą przechowywać nasze pieniądze i przesyłać je elektronicznie, ale pożyczają je w falach baniek kredytowych z ledwie ułamkiem w rezerwie. Musimy zaufać im w kwestii naszej prywatności, zaufać im, że nie pozwolą złodziejom tożsamości opróżnić naszych kont"
 >
 
-> Satoshi Nakamoto, pseudonimowy wynalazca Bitcoin
+> Satoshi Nakamoto, pseudonimowy wynalazca Bitcoina
 
 
 ### Jak powstają pieniądze
 
 
-W naszym obecnym systemie monetarnym pieniądz jest tworzony głównie poprzez praktykę bankową znaną jako "bankowość rezerwy cząstkowej" Termin ten zasadniczo oznacza, że banki nie są zobowiązane do utrzymywania tylu rezerw, ile otrzymują w depozytach. W rezultacie mogą one tworzyć nową siłę nabywczą podczas udzielania pożyczek i odwrotnie, zmniejszać siłę nabywczą, gdy klienci spłacają swoje pożyczki.
+W naszym obecnym systemie monetarnym pieniądz jest tworzony głównie poprzez praktykę bankową znaną jako "bankowość rezerw cząstkowych". Termin ten zasadniczo oznacza, że banki nie są zobowiązane do utrzymywania tylu rezerw, ile otrzymują w depozytach. W rezultacie mogą one tworzyć nową siłę nabywczą podczas udzielania pożyczek i odwrotnie, zmniejszać siłę nabywczą, gdy klienci spłacają swoje pożyczki.
 
 
-Na przykład, gdybyś zwrócił się do lokalnego banku w celu zabezpieczenia kredytu hipotecznego na zakup domu, pieniądze pożyczone ci przez bank zostałyby zapisane w księgach rachunkowych. W księgowości zazwyczaj przedstawiamy majątek netto danej osoby za pomocą bilansu, który ma dwie strony: stronę aktywów, w tym wszelkie nieruchomości, kontrakty finansowe, zapasy lub inne formy posiadanego bogactwa, oraz stronę pasywów, pokazującą źródło funduszy wykorzystanych do stworzenia kapitału wymienionego po stronie aktywów. Różnica między aktywami a zobowiązaniami jest określana jako "kapitał własny" i może być traktowana jako bogactwo netto jednostki.
+Na przykład, gdybyś zwrócił się do lokalnego banku w celu zabezpieczenia kredytu hipotecznego na zakup domu, pieniądze pożyczone ci przez bank zostałyby zapisane w księgach rachunkowych. W księgowości zazwyczaj przedstawiamy majątek netto danej osoby za pomocą bilansu, który ma dwie strony: stronę aktywów, w tym wszelkie nieruchomości, kontrakty finansowe, oszczędności lub inne formy posiadanego bogactwa, oraz stronę pasywów, pokazującą źródło funduszy wykorzystanych do stworzenia kapitału wymienionego po stronie aktywów. Różnica między aktywami a zobowiązaniami jest określana jako "kapitał własny" i może być traktowana jako bogactwo netto jednostki.
 
 
-Gdy instytucja finansowa posiada licencję bankową, zasadniczo oznacza to, że zobowiązania zarejestrowane jako "depozyty klientów" są uważane za oficjalne pieniądze w określonym kraju lub strefie monetarnej. Dlatego też, gdy ubiegasz się o pożyczkę na zakup domu w banku, bankier nie pożycza środków zdeponowanych przez innego klienta. Zamiast tego bank zapisuje pożyczoną kwotę na koncie klienta i jednocześnie rejestruje pożyczkę Contract jako aktywa banku. Gdy spłacasz pożyczkę, pieniądze są skutecznie wygaszane, a wartość odpowiedniej pożyczki Contract maleje, a bank zatrzymuje tylko odsetki od pożyczki.
+Gdy instytucja finansowa posiada licencję bankową, zasadniczo oznacza to, że zobowiązania zarejestrowane jako "depozyty klientów" są uważane za oficjalne pieniądze w określonym kraju lub strefie monetarnej. Dlatego też, gdy ubiegasz się o pożyczkę na zakup domu w banku, bankier nie pożycza środków zdeponowanych przez innego klienta. Zamiast tego bank zapisuje pożyczoną kwotę na koncie klienta i jednocześnie rejestruje pożyczkę jako aktywa banku. Gdy spłacasz pożyczkę, pieniądze są skutecznie wygaszane, wartość odpowiedniej pożyczki maleje, a bank zatrzymuje tylko odsetki od pożyczki.
 
 
-Po zakupie domu użytkownik zleca swojemu bankierowi przelanie pieniędzy na konto sprzedawcy. Jeśli konto sprzedającego znajduje się w innym banku, Twój bankier powiadamia odpowiedniego bankiera w innej instytucji, aby upewnić się, że konto sprzedającego zostanie odpowiednio zasilone, jednocześnie obciążając Twoje konto odpowiednią kwotą.
+Po zakupie domu użytkownik zleca swojemu bankierowi przelanie pieniędzy na konto sprzedawcy. Jeśli konto sprzedającego znajduje się w innym banku, twój bankier powiadamia odpowiedniego bankiera w innej instytucji, aby upewnić się, że konto sprzedającego zostanie odpowiednio zasilone, jednocześnie obciążając twoje konto odpowiednią kwotą.
 
 
 ![image](assets/pl/001.webp)
@@ -94,7 +94,7 @@ Po zakupie domu użytkownik zleca swojemu bankierowi przelanie pieniędzy na kon
 Rysunek 1: Kreacja pieniądza jako zapis księgowy
 
 
-> "To dobrze, że ludzie w naszym narodzie nie rozumieją naszego systemu bankowego i monetarnego, bo gdyby tak było, wierzę, że rewolucja wybuchłaby jeszcze przed jutrzejszym porankiem"
+> "To dobrze, że ludzie w naszym narodzie nie rozumieją naszego systemu bankowego i monetarnego, bo gdyby tak było, wierzę, że rewolucja wybuchłaby jeszcze przed jutrzejszym porankiem."
 >
 
 > Henry Ford
@@ -109,10 +109,10 @@ Proces ten pozwala bankom rejestrować wszystkie transakcje, w tym przelewy bank
 Głównym problemem związanym z systemem rezerwy cząstkowej jest to, że znaczne wypłaty z danego banku mogą potencjalnie doprowadzić do jego bankructwa. Ponieważ banki muszą zaspokajać zapotrzebowanie klientów na gotówkę, posiadając jedynie ograniczony bufor rezerw bankowych, jednoczesny pośpiech wielu klientów w celu wypłaty środków może sprawić, że bank nie będzie w stanie zaspokoić tych żądań, co doprowadzi do bankructwa. Biorąc pod uwagę, że wiele osób, firm i instytucji deponuje swoje środki w bankach, dopuszczenie do upadłości banku może mieć poważne konsekwencje gospodarcze, takie jak recesja, a nawet depresja.
 
 
-Ta zagadka dała początek nowoczesnym bankom centralnym. W XIX wieku w Anglii powtarzające się upadki banków zagrażały stabilności finansowej, co doprowadziło do ustanowienia Banku Anglii jako "pożyczkodawcy ostatniej instancji" Bank Anglii miał za zadanie pożyczać fundusze bankom znajdującym się w trudnej sytuacji podczas kryzysów, aby zapobiec efektowi domina, który mógłby sparaliżować cały system finansowy. Koncepcja banków centralnych jako pożyczkodawców ostatniej instancji rozprzestrzeniła się na cały świat i stała się powszechna.
+Ta zawiłość dała początek nowoczesnym bankom centralnym. W XIX wieku w Anglii powtarzające się upadki banków zagrażały stabilności finansowej, co doprowadziło do ustanowienia Banku Anglii jako "pożyczkodawcy ostatniej instancji". Bank Anglii miał za zadanie pożyczać fundusze bankom znajdującym się w trudnej sytuacji podczas kryzysów, aby zapobiec efektowi domina, który mógłby sparaliżować cały system finansowy. Koncepcja banków centralnych jako pożyczkodawców ostatniej instancji rozprzestrzeniła się na cały świat i stała się powszechna.
 
 
-Oprócz utrzymywania stabilności finansowej, banki centralne są odpowiedzialne za ustalanie kluczowych stóp procentowych. Stopy te określają koszt, po jakim licencjonowane banki mogą pożyczać środki od banku centralnego, zasadniczo definiując koszt płynności dla instytucji finansowych, które odgrywają kluczową rolę w udzielaniu pożyczek w naszych gospodarkach. Dlatego też stopy te służą jako punkt odniesienia dla całego systemu finansowego. Jako osoba fizyczna, oprocentowanie kredytu hipotecznego można podzielić na stopę procentową i marżę banku.
+Oprócz utrzymywania stabilności finansowej, banki centralne są odpowiedzialne za ustalanie kluczowych stóp procentowych. Stopy te określają koszt, po jakim licencjonowane banki mogą pożyczać środki od banku centralnego, zasadniczo definiując koszt płynności dla instytucji finansowych, które odgrywają kluczową rolę w udzielaniu pożyczek w naszych gospodarkach. Dlatego też stopy te służą jako punkt odniesienia dla całego systemu finansowego. Dla osób fizycznych oprocentowanie kredytu hipotecznego można podzielić na stopę procentową i marżę banku.
 
 
 ![image](assets/pl/002.webp)
@@ -121,7 +121,7 @@ Oprócz utrzymywania stabilności finansowej, banki centralne są odpowiedzialne
 Rysunek 2: Upadłość Lehman Brothers (15/09/2008)
 
 
-Podczas poważnego kryzysu finansowego w 2008 r. Lehman Brothers, duży bank inwestycyjny, ogłosił upadłość po poniesieniu znacznych strat na posiadanych papierach wartościowych zabezpieczonych hipoteką i doświadczeniu masowych wypłat od zaniepokojonych klientów. W odpowiedzi na to bezprecedensowe zamieszanie finansowe, bankierzy centralni na całym świecie wstrzyknęli duże ilości płynności na rynki finansowe, połączyli borykające się z trudnościami banki inwestycyjne z bankami komercyjnymi i obniżyli stopy procentowe do poziomu bliskiego zeru, starając się zapobiec załamaniu systemowemu.
+Podczas poważnego kryzysu finansowego w 2008 r. Lehman Brothers, duży bank inwestycyjny, ogłosił upadłość po poniesieniu znacznych strat na posiadanych papierach wartościowych zabezpieczonych hipoteką i doświadczeniu masowych wypłat od zaniepokojonych klientów. W odpowiedzi na to bezprecedensowe zamieszanie finansowe bankierzy centralni na całym świecie wstrzyknęli duże ilości płynności na rynki finansowe, połączyli borykające się z trudnościami banki inwestycyjne z bankami komercyjnymi i obniżyli stopy procentowe do poziomu bliskiego zeru, starając się zapobiec załamaniu systemowemu.
 
 
 Chociaż środki te zapobiegły kaskadowej fali bankructw, w niewielkim stopniu złagodziły późniejsze spowolnienie gospodarcze. Miliony ludzi straciło pracę i domy, wydatki konsumentów gwałtownie spadły, firmy upadły, a banki poniosły znaczne straty. Pomimo historycznie niskich stóp procentowych, niewielu było chętnych do zaciągania pożyczek, co doprowadziło do błędnego koła, w którym początkowy spadek wydatków i inwestycji sam się wzmocnił. W związku z tym bankierzy centralni podjęli dalsze kroki, wdrażając programy luzowania ilościowego (QE). W ramach tych programów banki centralne kupowały obligacje rządowe i papiery wartościowe zabezpieczone hipoteką od banków komercyjnych za pomocą rezerw banku centralnego.
@@ -133,13 +133,13 @@ Chociaż środki te zapobiegły kaskadowej fali bankructw, w niewielkim stopniu 
 Wykres 3: Stopy procentowe w głównych gospodarkach / Źródło: EBC
 
 
-W przeciwieństwie do wielu oczekiwań, programy QE nie ożywiły znacząco wzrostu gospodarczego, ale spowodowały wzrost aktywów finansowych do historycznych poziomów. Skorzystały na tym przede wszystkim osoby zamożne i instytucje finansowe, ponieważ posiadały one już znaczne ilości takich aktywów, zwiększając tym samym dysproporcje majątkowe. Biorąc pod uwagę wyjaśnioną wcześniej strukturę systemu bankowego, wynik ten nie powinien być zaskoczeniem. Ponieważ rezerwy bankowe nie mogą łatwo wpłynąć do realnej gospodarki, programy QE głównie podniosły ceny aktywów bez skutecznej poprawy sytuacji finansowej przeciętnych osób.
+W przeciwieństwie do wielu oczekiwań, programy QE nie ożywiły znacząco wzrostu gospodarczego, ale spowodowały wzrost aktywów finansowych do historycznych poziomów. Skorzystały na tym przede wszystkim osoby zamożne i instytucje finansowe, ponieważ posiadały one już znaczne ilości takich aktywów, zwiększając tym samym dysproporcje majątkowe. Biorąc pod uwagę wyjaśnioną wcześniej strukturę systemu bankowego, wynik ten nie powinien być zaskoczeniem. Ponieważ rezerwy bankowe nie mogą łatwo wpłynąć do realnej gospodarki, programy QE podniosły głównie ceny aktywów bez skutecznej poprawy sytuacji finansowej przeciętnych osób.
 
 
 ### Efekt Cantillona
 
 
-Niemniej jednak z tego epizodu można wyciągnąć podstawową zasadę ekonomiczną: kiedy tworzony jest nowy pieniądz, początkowo przynosi on korzyści tym, którzy znajdują się najbliżej źródła pieniądza, kosztem tych, którzy znajdują się dalej. To spostrzeżenie ekonomiczne pochodzi z XVIII wieku, kiedy Richard Cantillon przedstawił je w swoim "Eseju o naturze handlu w ogóle" Jest on obecnie potocznie nazywany "efektem Cantillona".
+Niemniej jednak z tego epizodu można wyciągnąć podstawową zasadę ekonomiczną: kiedy tworzony jest nowy pieniądz, początkowo przynosi on korzyści tym, którzy znajdują się najbliżej źródła pieniądza, kosztem tych, którzy znajdują się dalej. To spostrzeżenie ekonomiczne pochodzi z XVIII wieku, kiedy Richard Cantillon przedstawił je w swoim "Eseju o naturze handlu w ogóle". Jest on obecnie potocznie nazywany "efektem Cantillona".
 
 
 ![image](assets/pl/004.webp)
@@ -148,7 +148,7 @@ Niemniej jednak z tego epizodu można wyciągnąć podstawową zasadę ekonomicz
 Rysunek 4: Efekt Cantillona w pigułce / Źródło: River Financial
 
 
-W tym przypadku bankierzy, dyrektorzy banków, właściciele akcji i obligacji, deweloperzy nieruchomości, pożyczkodawcy nieruchomości i wszyscy posiadający aktywa finansowe lub nieruchomości otrzymali gratkę finansową, podczas gdy ciężar spadł na wszystkich innych. Sytuacja ta utrzymywała się przez lata i w dużej mierze wyjaśnia rosnące nierówności majątkowe, poczucie pozbawienia praw wyborczych wśród ciężko pracujących osób oraz pozornie niepowstrzymany wzrost cen aktywów pomimo powolnego wzrostu PKB.
+W tym przypadku bankierzy, dyrektorzy banków, właściciele akcji i obligacji, deweloperzy nieruchomości, pożyczkodawcy nieruchomości i wszyscy posiadający aktywa finansowe lub nieruchomości otrzymali gratkę finansową, podczas gdy ciężar spadł na wszystkich innych. Sytuacja ta utrzymywała się przez lata i w dużej mierze wyjaśnia rosnące nierówności majątkowe, poczucie pozbawienia praw wyborczych wśród ciężko pracujących osób oraz pozornie niepohamowany wzrost cen aktywów pomimo powolnego wzrostu PKB.
 
 
 Zasadniczo system jest wypaczony. Banki są z natury niestabilne, ale ich upadek może zagrozić całej gospodarce. Ta pokusa nadużycia zachęca dyrektorów banków do podejmowania nadmiernego ryzyka w celu maksymalizacji przychodów banku, wiedząc, że bank centralny ostatecznie ich uratuje, przenosząc koszty na podatników. W takich scenariuszach bankierzy centralni tworzą warunki do masowego transferu siły nabywczej od ciężko pracujących osób i oszczędzających do właścicieli aktywów i osób powiązanych z systemem finansowym, odłączając w ten sposób proces tworzenia bogactwa od jego akumulacji.
@@ -163,10 +163,10 @@ Rysunek 5: Dystrybucja bogactwa w Chinach + Europie + USA / Źródło: OECD
 ### Konsekwencje polityki zerowych stóp procentowych
 
 
-W dłuższych okresach polityki zerowych stóp procentowych (ZIRP) banki mają ograniczone możliwości odbudowy kapitału własnego, ponieważ ich marże ulegają erozji. Banki zazwyczaj zarabiają pieniądze, pożyczając po krótkoterminowych stopach procentowych i udzielając pożyczek po długoterminowych stopach procentowych. Jednakże, gdy banki centralne skupują duże ilości obligacji i ustalają stopy procentowe na poziomie zerowym, banki mają niewielką motywację do udzielania pożyczek, zwłaszcza przedsiębiorcom i innym osobom podejmującym ryzyko. Zamiast tego przeznaczają swoje zasoby na sekurytyzację istniejącego kapitału lub udzielają pożyczek pod zastaw, aby zaspokoić popyt osób korzystających z efektu Cantillona.
+W dłuższych okresach polityki zerowych stóp procentowych (ZIRP) banki mają ograniczone możliwości odbudowy kapitału własnego, ponieważ ich marże ulegają erozji. Banki zazwyczaj zarabiają pieniądze, pożyczając po krótkoterminowych stopach procentowych i udzielając pożyczek po długoterminowych stopach procentowych. Jednakże, gdy banki centralne skupują duże ilości obligacji i ustalają stopy procentowe na poziomie zerowym, banki mają niewielką motywację do udzielania pożyczek, zwłaszcza przedsiębiorcom i innym osobom podejmującym ryzyko. Zamiast tego przeznaczają swoje zasoby na zabezpieczanie istniejącego kapitału lub udzielają pożyczek pod zastaw, aby zaspokoić popyt osób korzystających z efektu Cantillona.
 
 
-Inną niezamierzoną konsekwencją ZIRP jest zachęcanie rządów do angażowania się w szeroko zakrojone wydatki. Ponieważ rządy nie ponoszą kosztów zaciągania pożyczek i mogą polegać na bankach centralnych, które skupują ich obligacje w ramach programów QE, mają one naturalną motywację do wydawania jak największej ilości pieniędzy, szczególnie w demokratycznych kontekstach, w których wydatki mogą przyciągnąć głosy. Tendencja ta często lekceważy długoterminowe konsekwencje takiej rozrzutności fiskalnej, prowadząc do znacznego wzrostu poziomu długu publicznego w gospodarkach rozwiniętych od czasu globalnego kryzysu finansowego (GFC).
+Inną niezamierzoną konsekwencją ZIRP jest zachęcanie rządów do angażowania się w szeroko zakrojone wydatki. Ponieważ rządy nie ponoszą kosztów zaciągania pożyczek i mogą polegać na bankach centralnych, które skupują ich obligacje w ramach programów QE, mają one naturalną motywację do wydawania jak największej ilości pieniędzy, szczególnie w kontekstach demokratycznych, w których wydatki mogą przyciągnąć głosy. Tendencja ta często lekceważy długoterminowe konsekwencje takiej rozrzutności fiskalnej, prowadząc do znacznego wzrostu poziomu długu publicznego w gospodarkach rozwiniętych od czasu globalnego kryzysu finansowego (GFC).
 
 
 ![image](assets/pl/006.webp)
@@ -175,19 +175,19 @@ Inną niezamierzoną konsekwencją ZIRP jest zachęcanie rządów do angażowani
 Wykres 6: Dług publiczny i prywatny jako % PKB (świat, ważony PKB na kraj) / Źródło MFW
 
 
-Wraz z rosnącą inflacją spowodowaną znaczną kreacją pieniądza w odpowiedzi na blokady związane z COVID, bankierzy centralni podnoszą obecnie stopy procentowe, próbując ograniczyć inflację. Stanowi to jednak poważne wyzwanie dla całego systemu. Banki są bardziej lewarowane niż kiedykolwiek, rządy mają historycznie wysoki poziom zadłużenia, wzrost gospodarczy jest powolny, deficyty rosną, a konsumenci, zmagający się z rosnącymi cenami podstawowych towarów, z trudem wiążą koniec z końcem. Kontrolowanie inflacji wymagałoby podniesienia stóp procentowych do poziomu, który mógłby doprowadzić rządy do bankructwa, podczas gdy banki ryzykują utratę deponentów, ponieważ osoby fizyczne wydają swoje oszczędności na coraz droższe artykuły pierwszej potrzeby lub szukają schronienia w aktywach Hard i funduszach rynku pieniężnego, aby zabezpieczyć się przed inflacją.
+Wraz z rosnącą inflacją spowodowaną znaczną kreacją pieniądza w odpowiedzi na blokady związane z COVIDem, bankierzy centralni podnoszą obecnie stopy procentowe, próbując ograniczyć inflację. Stanowi to jednak poważne wyzwanie dla całego systemu. Banki są lewarowane bardziej niż kiedykolwiek, rządy mają historycznie wysoki poziom zadłużenia, wzrost gospodarczy jest powolny, deficyty rosną, a konsumenci, zmagający się z rosnącymi cenami podstawowych towarów, z trudem wiążą koniec z końcem. Kontrolowanie inflacji wymagałoby podniesienia stóp procentowych do poziomu, który mógłby doprowadzić rządy do bankructwa, podczas gdy banki ryzykują utratę deponentów, ponieważ osoby fizyczne wydają swoje oszczędności na coraz droższe artykuły pierwszej potrzeby lub szukają schronienia w aktywach materialnych i funduszach rynku pieniężnego, aby zabezpieczyć się przed inflacją.
 
 
 ### Wnioski
 
 
-> "W ten sposób (bankowość z rezerwą cząstkową) rządy mogą potajemnie i niezauważenie konfiskować bogactwo ludzi, a żaden człowiek na milion nie wykryje kradzieży"
+> "W ten sposób (bankowość z rezerwą cząstkową) rządy mogą potajemnie i niezauważenie konfiskować bogactwo ludzi, a żaden człowiek na milion nie wykryje kradzieży."
 >
 
 > John Maynard Keynes
 
 
-Zasadniczo nasz system stoi w obliczu poważnych wyzwań, a Bitcoin wyłania się jako jedyna wiarygodna alternatywa. Jednak sam Bitcoin nie jest w stanie rozwiązać Address problemów naszego systemu monetarnego. Przede wszystkim potrzebujemy osób, które rozumieją podstawowe zasady ekonomiczne wśród entuzjastów Bitcoin, umożliwiając szerszą świadomość i zdrowy rozsądek ekonomiczny, aby poprowadzić nas od budowy kolejnego kruchego fundamentu finansowego dla naszej cywilizacji. Głównym celem tego kursu jest edukacja nowych entuzjastów Bitcoin w zakresie zdrowych zasad ekonomicznych.
+Zasadniczo nasz system stoi w obliczu poważnych wyzwań, a Bitcoin wyłania się jako jedyna wiarygodna alternatywa. Jednak sam Bitcoin nie jest w stanie rozwiązać problemów naszego systemu monetarnego. Przede wszystkim wśród entuzjastów Bitcoina potrzebujemy osób, które rozumieją podstawowe zasady ekonomiczne, promując szerszą świadomość i zdrowy rozsądek ekonomiczny, aby poprowadzić nas z dala od budowy kolejnego kruchego fundamentu finansowego dla naszej cywilizacji. Głównym celem tego kursu jest edukacja nowych entuzjastów Bitcoina w zakresie zdrowych zasad ekonomicznych.
 
 
 Aby osiągnąć ten cel, wyjaśnimy podstawowe zasady "ekonomii austriackiej", szkoły ekonomicznej o tradycji metodologicznej sięgającej XVI wieku, zapewniającej wgląd w ludzkie działania w warunkach ograniczeń ekonomicznych. Dzięki temu wprowadzeniu rozumiesz teraz podstawy kreacji pieniądza i obecny stan naszego systemu finansowego i monetarnego.
@@ -208,7 +208,7 @@ W następnym rozdziale zagłębimy się w fundamentalny kamień węgielny każde
 <chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
 
 
-> "Wartość istnieje tylko w ludzkiej świadomości"
+> "Wartość istnieje tylko w ludzkiej świadomości."
 >
 
 > Carl Menger, Zasady ekonomii politycznej

@@ -124,11 +124,12 @@ proofreading:
     contributor_names:
     reward: 60.91
   - language: sw
-    last_contribution_date: 2025-08-18
+    last_contribution_date: 2025-12-04
     urgency: 1
     contributor_names:
       - monyangi10
-    reward: 17.43
+      - Arianebtc
+    reward: 8.71
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -157,15 +158,17 @@ proofreading:
     contributor_names:
     reward: 43.54
   - language: rn
-    last_contribution_date:
+    last_contribution_date: 2025-12-04
     urgency: 1
     contributor_names:
-    reward: 52.23
+      - barakana
+    reward: 26.11
   - language: bg
-    last_contribution_date:
+    last_contribution_date: 2025-12-04
     urgency: 1
     contributor_names:
-    reward: 34.85
+      - dnabg
+    reward: 17.43
 tags:
   - wallets
   - user-friendly

@@ -477,11 +477,11 @@ Supongamos que ha seleccionado uniformemente una tecla para que tenga el valor 1
 El cifrado completo de la palabra "DOG" con un valor de clave de 17 es el siguiente:
 
 
-- Mensaje = DOG = D,O,G = 3,14,6
+- Mensaje = DOG = D,O,G = 3,15,6
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(14 + 17) \mod 26] = [(32) \mod 26] = 6 = F$
+- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UFX$
+- $c = UGX$
 
 Todo el mundo puede entender intuitivamente cómo funciona el cifrado por turnos y probablemente utilizarlo por sí mismo. Sin embargo, para avanzar en el conocimiento de la criptografía, es importante empezar a sentirse más cómodo con la formalización, ya que los esquemas se volverán mucho más difíciles. De ahí que se hayan formalizado los pasos del cifrado por turnos.
 
@@ -834,7 +834,7 @@ Para empezar, es cierto que a cualquier conjunto de enteros con $2^m$ elementos 
 
 Resulta que los campos de extensión de $2^m$ particularmente aplicables en criptografía son los definidos sobre conjuntos particulares de expresiones polinómicas, en lugar de algún conjunto de números enteros.
 
-Por ejemplo, supongamos que queremos un campo de extensión con $2^3$ (es decir, 8) elementos en el conjunto. Aunque podría haber muchos conjuntos diferentes que se pueden utilizar para campos de ese tamaño, uno de esos conjuntos incluye todos los polinomios únicos de la forma $a_2x^2 + a_1x + a_0$, donde cada coeficiente $a_i$ es 0 ó 1. Por lo tanto, este conjunto **S** incluye los siguientes elementos: a_2x^2 + a_1x + a_0$. Por lo tanto, este conjunto **S** incluye los siguientes elementos:
+Por ejemplo, supongamos que queremos un campo de extensión con $2^3$ (es decir, 8) elementos en el conjunto. Aunque podría haber muchos conjuntos diferentes que se pueden utilizar para campos de ese tamaño, uno de esos conjuntos incluye todos los polinomios únicos de la forma $a_2x^2 + a_1x + a_0$, donde cada coeficiente $a_i$ es 0 ó 1. Por lo tanto, este conjunto **S** incluye los siguientes elementos: 
 
 1. $0$: El caso en que $a_2 = 0$, $a_1 = 0$, y $a_0 = 0$.
 
@@ -896,8 +896,7 @@ Para empezar, puedes ver que la expresión $x^3 + x + 1$ entra en $x^4 + x^3 + x
 
 
 - $[(x^4 + x^3 + x^2 + x) - (x^4 + x^2 + x)] \mod x^3 + x + 1 =$
-- $[x^3] \mod x^3 + x + 1 =$
-- $x^3$
+- $[x^3] \mod x^3 + x + 1 =$ $x^3$
 
 Así que después de dividir $x^4 + x^3 + x^2 + x$ entre $x^3 + x + 1$ un total de $x$ veces, tenemos un resto de $x^3$. ¿Se puede volver a dividir entre $x^3 + x + 1$?
 
@@ -959,11 +958,11 @@ El debate principal comienza con el examen de los esquemas de cifrado simétrico
 
 En este capítulo se examinan de pasada varios esquemas criptográficos simétricos de la práctica. El capítulo siguiente ofrece una exposición detallada del cifrado con un cifrado de flujo y un cifrado de bloque a partir de la práctica, a saber, RC4 y AES respectivamente.
 
-Antes de comenzar nuestra discusión sobre la criptografía simétrica, quiero hacer brevemente algunas observaciones sobre las ilustraciones de Alicia y Bob en este capítulo y en los siguientes.
+Antes de comenzar nuestra discusión sobre la criptografía simétrica, quiero hacer brevemente algunas observaciones sobre las ilustraciones de Alice y Bob en este capítulo y en los siguientes.
 
 ___
 
-Para ilustrar los principios de la criptografía, a menudo se recurre a ejemplos en los que intervienen Alicia y Bob. Yo también lo haré.
+Para ilustrar los principios de la criptografía, a menudo se recurre a ejemplos en los que intervienen Alice y Bob. Yo también lo haré.
 
 Especialmente si eres nuevo en criptografía, es importante que te des cuenta de que estos ejemplos de Alice y Bob solo pretenden servir como ilustración de los principios y construcciones criptográficas en un entorno simplificado. Sin embargo, los principios y las construcciones son aplicables a una gama mucho más amplia de contextos de la vida real.
 
@@ -1011,7 +1010,7 @@ Bob cifra el mensaje $M$ en el tiempo $T_0$ con la clave $K$ para producir el te
 
 ![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
-*Figura 2: Secretismo a lo largo del tiempo*
+*Figura 2: Secreto a través del tiempo*
 
 ![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
@@ -1041,13 +1040,13 @@ Lo que hace que el cifrado por turnos sea un esquema de cifrado simétrico es qu
 
 Este cifrado por turnos es un ejemplo de **cifrado de sustitución monoalfabético**: un esquema de cifrado en el que el alfabeto del texto cifrado es fijo (es decir, solo se utiliza un alfabeto). Suponiendo que el algoritmo de descifrado sea determinista, cada símbolo del texto cifrado por sustitución puede corresponder como máximo a un símbolo del texto sin cifrar.
 
-Hasta el siglo XVIII, muchas aplicaciones del cifrado se basaban en cifrados de sustitución monoalfabéticos, aunque a menudo eran mucho más complejos que el cifrado Shift. Se podía, por ejemplo, seleccionar aleatoriamente una letra del alfabeto para cada letra del texto original con la restricción de que cada letra solo apareciera una vez en el alfabeto del texto cifrado. Eso significa que tendrías un factorial de 26 posibles claves privadas, lo que era enorme en la era preinformática.
+Hasta el siglo XVIII, muchas aplicaciones del cifrado se basaban en cifrados de sustitución monoalfabéticos, aunque a menudo eran mucho más complejos que el cifrado por turnos. Se podía, por ejemplo, seleccionar aleatoriamente una letra del alfabeto para cada letra del texto original con la restricción de que cada letra solo apareciera una vez en el alfabeto del texto cifrado. Eso significa que tendrías un factorial de 26 posibles claves privadas, lo que era enorme en la era preinformática.
 
 Ten en cuenta que te encontrarás con el término **cifrar** muchas veces en criptografía. Ten en cuenta que este término tiene varios significados. De hecho, conozco al menos cinco significados distintos del término dentro de la criptografía.
 
 En algunos casos, se refiere a un esquema de cifrado, como ocurre con el cifrado por turnos y el cifrado por sustitución monoalfabética. Sin embargo, el término también puede referirse específicamente al algoritmo de cifrado, a la clave privada o simplemente al texto cifrado de cualquier esquema de cifrado de este tipo.
 
-Por último, el término cifra también puede referirse a un algoritmo central a partir del cual se pueden construir esquemas criptográficos. Estos pueden incluir varios algoritmos de cifrado, pero también otros tipos de esquemas criptográficos. Este sentido del término cobra relevancia en el contexto de los cifradores de bloques (véase la sección "Cifradores de bloques" más adelante).
+Por último, el término cifrado también puede referirse a un algoritmo central a partir del cual se pueden construir esquemas criptográficos. Estos pueden incluir varios algoritmos de cifrado, pero también otros tipos de esquemas criptográficos. Este sentido del término cobra relevancia en el contexto de los cifradores de bloques (véase la sección "Cifradores de bloques" más adelante).
 
 Puede que también te encuentres con los términos **encriptar** o **descifrar**. Estos términos no son más que sinónimos de cifrar y descifrar.
 
@@ -1103,7 +1102,7 @@ Aunque no profundizaremos en todos los detalles de las distintas nociones de seg
 
 <chapterId>479aa6f4-45c4-59ca-8616-8cf8e61fc871</chapterId>
 
-Los sistemas de cifrado simétrico se dividen normalmente en dos tipos: **cifradores de flujo** y **cifradores de bloque**. Sin embargo, esta distinción es algo problemática, ya que la gente utiliza estos términos de forma incoherente. En las próximas secciones expondré la distinción de la forma que considero más adecuada. Sin embargo, debes tener en cuenta que mucha gente utilizará estos términos de forma algo diferente a la que yo expongo.
+Los sistemas de cifrado simétrico se dividen normalmente en dos tipos: **cifrados de flujo** y **cifrados de bloque**. Sin embargo, esta distinción es algo problemática, ya que la gente utiliza estos términos de forma incoherente. En las próximas secciones expondré la distinción de la forma que considero más adecuada. Sin embargo, debes tener en cuenta que mucha gente utilizará estos términos de forma algo diferente a la que yo expongo.
 
 Hablemos primero de los cifradores de flujo. Un **cifrador de flujo** es un esquema de cifrado simétrico en el que el cifrado consta de dos pasos.
 
@@ -1135,7 +1134,7 @@ De manera informal, el esquema de cifrado funciona como sigue:
 
 4. Continúa este proceso hasta que todo el mensaje haya sido cifrado.
 
-Para ilustrarlo, supongamos que su clave privada es "ORO" y desea cifrar el mensaje "CRYPTOGRAPHY". En ese caso, procedería del siguiente modo según el cifrado de Vigenère:
+Para ilustrarlo, supongamos que su clave privada es "GOLD" y desea cifrar el mensaje "CRYPTOGRAPHY". En ese caso, procedería del siguiente modo según el cifrado de Vigenère:
 
 
 - $c_0 = [(2 + 6) \mod 26] = 8 = I$
@@ -1813,7 +1812,7 @@ Para entender mejor lo que ocurre, imagina que en lugar de enviar un mensaje ele
 
 Aunque Bob es capaz de cerrar el candado, ni él ni ninguna otra persona que intercepte la caja puede deshacer el candado si es que es seguro. solo Alice puede abrirlo y ver el contenido de la carta de Bob porque tiene la llave.
 
-Un esquema de cifrado asimétrico es, a grandes rasgos, una versión digital de este proceso. El candado es similar a la clave pública y la clave del candado es similar a la clave privada. Sin embargo, como el candado es digital, es mucho más fácil y no tan costoso para Alicia distribuirlo a cualquiera que quiera enviarle mensajes secretos.
+Un esquema de cifrado asimétrico es, a grandes rasgos, una versión digital de este proceso. El candado es similar a la clave pública y la clave del candado es similar a la clave privada. Sin embargo, como el candado es digital, es mucho más fácil y no tan costoso para Alice distribuirlo a cualquiera que quiera enviarle mensajes secretos.
 
 Para la autenticación en el entorno asimétrico, utilizamos **firmas digitales**. Éstas tienen la misma función que los códigos de autenticación de mensajes en el entorno simétrico. En la *Figura 2* se ofrece una visión general de las firmas digitales.
 
@@ -2086,13 +2085,13 @@ Este es un resultado clave para el problema RSA en particular, y se establece en
 
 **Proposición 2**. Si $N$ es el producto de dos primos, $p$ y $q$, el orden de $N$ es el producto $(p - 1) \cdot (q - 1)$.
 
-Para ilustrarlo, supongamos que $N = 119$. Este número entero se puede descomponer en dos primos, a saber, 7 y 17. Por lo tanto, la función Phi de Euler sugiere que el orden de 119 es el siguiente:
+Para ilustrarlo, supongamos que $N = 119$. Este número entero se puede descomponer en dos primos, de hecho, 7 y 17. Por lo tanto, la función Phi de Euler sugiere que el orden de 119 es el siguiente:
 
 $$\phi(119) = (7 - 1) \cdot (17 - 1) = 6 \cdot 16 = 96$$
 
 En otras palabras, el número entero 119 tiene 96 coprimos en el intervalo de 1 a 119. De hecho, este conjunto incluye todos los números enteros de 1 a 119 que no son múltiplos ni de 7 ni de 17. De hecho, este conjunto incluye todos los números enteros de 1 a 119 que no son múltiplos de 7 ni de 17.
 
-De aquí en adelante, vamos a denotar el conjunto de coprimas que determina el orden de $N$ como $C_N$. Para nuestro ejemplo en el que $N = 119$, el conjunto $C_{119}$ es demasiado grande para enumerarlo completamente. Pero algunos de los elementos son los siguientes:
+De aquí en adelante, vamos a denotar el conjunto de coprimos que determina el orden de $N$ como $C_N$. Para nuestro ejemplo en el que $N = 119$, el conjunto $C_{119}$ es demasiado grande para enumerarlo completamente. Pero algunos de los elementos son los siguientes:
 
 $$C_{119} = \{1, 2, \dots, 6, 8, \dots, 13, 15, 16, 18, \dots, 33, 35, \dots, 96\}$$
 
@@ -2127,11 +2126,11 @@ Para el caso en que $a = 5$ y $N = 11$, concluimos que $a^{-1} = 9$, dado que $5
 
 Antes de pasar al problema RSA, necesitamos entender otro teorema crucial, el **teorema de Euler**. Establece lo siguiente:
 
-**Teorema 3**. Supongamos que dos enteros $a$ y $N$ son coprimas. Entonces, $a^{\phi(N)} \mod N = 1 \mod N$.
+**Teorema 3**. Supongamos que dos enteros $a$ y $N$ son coprimos. Entonces, $a^{\phi(N)} \mod N = 1 \mod N$.
 
 Es un resultado notable, pero un poco confuso al principio. Recurramos a un ejemplo para entenderlo.
 
-Supongamos que $a = 5$ y $N = 7$. Efectivamente, son coprimas, como exige el teorema de Euler. Sabemos que el orden de 7 es igual a 6, dado que 7 es un número primo (ver **Proposición 1**).
+Supongamos que $a = 5$ y $N = 7$. Efectivamente, son coprimos, como exige el teorema de Euler. Sabemos que el orden de 7 es igual a 6, dado que 7 es un número primo (ver **Proposición 1**).
 
 Lo que el teorema de Euler afirma ahora es que $5^6 \mod 7$ debe ser igual a $1 \mod 7$. A continuación se presentan los cálculos para demostrar que esto es cierto.
 
@@ -2146,7 +2145,7 @@ A continuación, utilizando la función Phi de Euler, **Teorema 2**, se puede de
 
 No vamos a demostrar por qué es así. Pero simplemente tenga en cuenta que ya ha visto la evidencia de esta proposición por el hecho de que $\phi(p \cdot q) = \phi(p) \cdot \phi(q) = (p - 1) \cdot (q - 1)$ cuando $p$ y $q$ son primos, como se indica en **Proposición 2**.
 
-El teorema de Euler junto con la **Proposición 5** tiene implicaciones importantes. Véase lo que ocurre, por ejemplo, en las expresiones siguientes, donde $a$ y $N$ son coprimas.
+El teorema de Euler junto con la **Proposición 5** tiene implicaciones importantes. Véase lo que ocurre, por ejemplo, en las expresiones siguientes, donde $a$ y $N$ son coprimos.
 
 
 - $a^{2 \cdot \phi(N)} \mod N = a^{\phi(N)} \cdot a^{\phi(N)} \mod N = 1 \cdot 1 \mod N = 1 \mod N$
@@ -2159,7 +2158,7 @@ Por tanto, la combinación del teorema de Euler y la **Proposición 5** nos perm
 
 Ahora tenemos que unirlo todo en un último paso complicado.
 
-Igual que $N$ tiene un orden $\phi(N)$ que incluye los elementos del conjunto $C_N$, sabemos que el entero $\phi(N)$ debe tener a su vez también un orden y un conjunto de coprimas. Pongamos que $\phi(N) = R$. Entonces sabemos que también hay un valor para $\phi(R)$ y un conjunto de coprimas $C_R$.
+Igual que $N$ tiene un orden $\phi(N)$ que incluye los elementos del conjunto $C_N$, sabemos que el entero $\phi(N)$ debe tener a su vez también un orden y un conjunto de coprimos. Pongamos que $\phi(N) = R$. Entonces sabemos que también hay un valor para $\phi(R)$ y un conjunto de coprimos $C_R$.
 
 Supongamos que ahora seleccionamos un entero $e$ del conjunto $C_R$. Sabemos por la **Proposición 3** que este entero $e$ solo tiene un único inverso positivo menor que $R$. Es decir, $e$ tiene un único inverso del conjunto $C_R$. Llamemos a este inverso $d$. Dada la definición de inverso, esto significa que $e \cdot d = 1 \mod R$.
 
@@ -2179,7 +2178,7 @@ Ahora estamos listos para plantear el problema RSA. Supongamos que creamos un co
 
 2. Calcular el orden de $N$, $\phi(N)$, mediante el siguiente producto: $(p - 1) \cdot (q - 1)$.
 
-3. Seleccionar una $e > 2$ tal que sea menor y coprima a $\phi(N)$.
+3. Seleccionar una $e > 2$ tal que sea menor y coprimo a $\phi(N)$.
 
 4. Calcular $d$ estableciendo $e \cdot d \mod \phi(N) = 1$.
 

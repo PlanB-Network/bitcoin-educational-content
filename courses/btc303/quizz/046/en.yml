@@ -6,3 +6,4 @@ wrong_answers:
   - Online systems process transactions faster making it easier for adversaries to launch coordinated attacks
 explanation: |
   The key distinction highlighted by Andrew Poelstra is that physical systems can rely on law enforcement and the visibility of adversaries to deter attacks, even accepting some risks like buildings being burned down. However, online systems like Bitcoin operate in an environment where adversaries can act pseudonymously or anonymously, connect from anywhere, and exploit weaknesses without being identified or caught. This fundamental difference means that all known weaknesses in Bitcoin must be addressed, as they will inevitably be exploited by invisible adversaries who face no real-world consequences.
+reviewed: false

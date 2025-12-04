@@ -1,0 +1,8 @@
+question: What prevents users from creating money out of thin air in Elements' Confidential Transactions system?
+answer: Range Proofs that mathematically prove hidden values are positive integers within valid ranges
+wrong_answers:
+  - Pedersen Commitments that cryptographically bind transaction amounts to public keys
+  - Asset Registry validation that checks all transaction amounts against registered asset limits
+  - Federated consensus nodes that decrypt and verify all confidential transaction amounts
+explanation: |
+  Range Proofs are the specific cryptographic mechanism that prevents users from exploiting the confidential transaction system by using negative numbers or invalid amounts to create money from nothing. While Pedersen Commitments hide the actual amounts, Range Proofs ensure mathematical integrity by proving the hidden values fall within legitimate ranges. The Asset Registry only maps asset IDs to human-readable names and doesn't validate amounts, and federated nodes don't decrypt confidential transactions - they verify them without seeing the actual values.

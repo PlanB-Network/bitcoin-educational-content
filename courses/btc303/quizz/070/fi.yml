@@ -6,3 +6,4 @@ wrong_answers:
   - Siinä korostetaan solmujen laskentavaatimusten vähentämistä verkkokapasiteetin laajentamisen sijaan
 explanation: |
   Kirjassa määritellään skaalautuminen seuraavasti: "Bitcoin:n käyttökapasiteetin kasvattaminen sensuurinsietokykyä vaarantamatta", mikä sisältää nimenomaisesti sensuurinsietokykyä koskevan rajoituksen. Tämä erottaa sen muista määritelmistä, joissa keskitytään pelkästään transaktiokapasiteetin kasvattamiseen, tehokkuuden parantamiseen tai kerrostettuihin järjestelmiin ottamatta huomioon Bitcoin:n perusominaisuuksien säilymistä. Sensuurinkestävyysvaatimus varmistaa, että skaalautumisratkaisut eivät heikennä Bitcoin:n keskeistä arvolupausta olla luototon, hajautettu järjestelmä, jota mikään yksittäinen taho ei voi hallita.
+reviewed: false

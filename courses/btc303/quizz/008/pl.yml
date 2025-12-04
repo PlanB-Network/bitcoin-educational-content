@@ -6,3 +6,4 @@ wrong_answers:
   - Opłaty transakcyjne są automatycznie dostosowywane, aby zapobiec atakom ekonomicznym ze strony scentralizowanych władz
 explanation: |
   Bitcoin osiąga odporność na cenzurę poprzez decentralizację górników, w której zamawianie transakcji jest przeprowadzane wspólnie przez wszystkich górników, którzy zdecydują się uczestniczyć. Tworzy to dynamiczny system, w którym każdy może swobodnie dołączyć lub opuścić proces mining, eliminując jakikolwiek pojedynczy punkt kontroli, który mógłby być naciskany w celu cenzurowania transakcji. Błędne odpowiedzi opisują cechy techniczne, zaufane strony lub mechanizmy ekonomiczne, które nie odnoszą się do podstawowej kwestii zdecentralizowanej kontroli nad przetwarzaniem transakcji.
+reviewed: false

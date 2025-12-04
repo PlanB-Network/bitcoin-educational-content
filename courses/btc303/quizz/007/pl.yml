@@ -6,3 +6,4 @@ wrong_answers:
   - Klucze prywatne są przechowywane na wielu urządzeniach zamiast na jednym wallet
 explanation: |
   Decentralizacja Full node oznacza, że walidacja bloków (danych wytwarzanych przez górników) odbywa się na obrzeżach sieci przez indywidualnych użytkowników obsługujących własne węzły, zamiast polegać na kilku zaufanych organach w celu weryfikacji transakcji. Różni się to od decentralizacji górników, która dotyczy zamawiania i przetwarzania transakcji. Pozostałe opcje mylą decentralizację full node z dystrybucją mining, strukturami zarządzania lub praktykami bezpieczeństwa, ale żadna z nich nie obejmuje podstawowej koncepcji rozproszonej walidacji bloków przez uczestników sieci.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - "Revela que a plataforma GitHub tem limitações técnicas para lidar com a base de código do Bitcoin"
 explanation: |
   De acordo com o conteúdo do capítulo, os pull requests demoram muito tempo a serem fundidos, principalmente devido à falta de revisão, que decorre da insuficiência de revisores e não da obstrução do responsável ou de questões técnicas. O processo de revisão é crucial para a segurança do Bitcoin, pois garante a qualidade do código e evita alterações maliciosas. Este estrangulamento existe porque a revisão de código criptográfico complexo requer experiência e tempo, tornando os revisores qualificados um recurso escasso no processo de desenvolvimento.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Los promotores del Bitcoin Core solicitaron una alternativa para reducir su responsabilidad en las mejoras
 explanation: |
   Según el capítulo, cuando se publicó el código de activación de Segwit en octubre de 2016, hubo un apoyo abrumador entre los usuarios de Bitcoin, pero los mineros no señalaron su apoyo a la actualización, lo que paralizó la activación sin solución a la vista. Esto creó la necesidad de un mecanismo alternativo que no dependiera de la señalización de los mineros, lo que llevó a Shaolinfry a proponer UASF como una solución que utilizaría la aplicación de la mayoría económica en lugar de la activación del hash power.
+reviewed: false

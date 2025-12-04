@@ -6,3 +6,4 @@ wrong_answers:
   - x/(1-x)^2
 explanation: |
   A fórmula correta é (x/(1-x))^2 porque o fee sniping exige que um mineiro extraia com sucesso dois blocos consecutivos para substituir o bloco anterior e aumentar a cadeia. A probabilidade de mining um bloco contra mineiros honestos é x/(1-x), e como dois blocos devem ser minerados consecutivamente, esta probabilidade é elevada ao quadrado. As outras fórmulas são matematicamente plausíveis, mas representam diferentes cenários de probabilidade que não correspondem aos requisitos específicos do fee sniping, em que o mineiro desonesto tem de ultrapassar a rede honesta duas vezes seguidas.
+reviewed: false

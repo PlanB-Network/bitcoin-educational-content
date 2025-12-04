@@ -6,3 +6,4 @@ wrong_answers:
   - Pravidla konsensu automaticky ověřují a autorizují jakýkoli nový protokol vytvořený nad Bitcoin prostřednictvím procesu ověřování blockchainu
 explanation: |
   Správnou odpovědí je vývoj bez povolení, protože jde o základní princip, který umožňuje komukoli stavět na Bitcoin bez žádosti o povolení. Nesprávné odpovědi jsou nesprávné, protože: licencování open source nevyžaduje automatické schválení nebo začlenění do jádra Bitcoin; licence MIT ve skutečnosti poskytuje široká oprávnění, aniž by vyžadovala souhlas vývojářů; a pravidla konsensu ověřují transakce a bloky, nikoli protokoly vyšší úrovně postavené nad Bitcoin.
+reviewed: false

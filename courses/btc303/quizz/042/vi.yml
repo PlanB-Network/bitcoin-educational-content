@@ -6,3 +6,4 @@ wrong_answers:
   - Các nhà phát triển Bitcoin Core đã yêu cầu một giải pháp thay thế để giảm trách nhiệm của họ trong việc nâng cấp
 explanation: |
   Theo chương này, khi mã kích hoạt Segwit được phát hành vào tháng 10 năm 2016, người dùng Bitcoin đã ủng hộ rất lớn, nhưng các thợ đào lại không phát tín hiệu ủng hộ việc nâng cấp, khiến việc kích hoạt bị đình trệ mà chưa thấy có giải pháp nào khả thi. Điều này đặt ra nhu cầu về một cơ chế thay thế không phụ thuộc vào tín hiệu của thợ đào, dẫn đến việc Shaolinfry đề xuất UASF như một giải pháp sử dụng cơ chế thực thi đa số kinh tế thay vì kích hoạt sức mạnh băm.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - "Tấn công kỹ thuật xã hội; nó không hiệu quả vì các nhà phát triển Bitcoin sử dụng các phương pháp xác minh chính thức để ngăn chặn thao túng"
 explanation: |
   Tấn công Sybil xảy ra khi một thực thể kiểm soát nhiều nút để ngụy trang thành nhiều thực thể riêng biệt. Tuy nhiên, tấn công này không hiệu quả với Bitcoin vì mạng không dựa vào việc đếm số nút hay bỏ phiếu dân chủ giữa những người tham gia mạng. Thay vào đó, Bitcoin sử dụng cơ chế đồng thuận proof-of-work, trong đó sức mạnh tính toán (hashpower) quyết định các quyết định của mạng, chứ không phải số lượng nút. Điều này khiến kẻ tấn công không thể gây ảnh hưởng chỉ bằng cách chạy nhiều nút mà không có đủ tài nguyên tính toán tương ứng.
+reviewed: false

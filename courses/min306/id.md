@@ -1,792 +1,1184 @@
 ---
-name: Bitaxe Open Source Mining Mastery
-goal: Master the complete Bitaxe ecosystem from hardware assembly to advanced customization and performance optimization
-objectives:
-  - Understand the philosophy of open source Bitcoin mining hardware
-  - Build Bitaxe mining devices from scratch
-  - Configure and optimize mining software including AxeOS and Public Pool
-  - Implement advanced performance optimizations including overclocking and benchmarking
+name: Penguasaan Bitaxe Open Source Mining
+goal: Kuasai ekosistem Bitaxe yang lengkap, mulai dari perakitan perangkat keras hingga kustomisasi tingkat lanjut dan pengoptimalan kinerja
+objectives: 
+
+  - Memahami filosofi perangkat keras open source Bitcoin mining
+  - Membangun perangkat Bitaxe mining dari awal
+  - Mengkonfigurasi dan mengoptimalkan perangkat lunak mining termasuk AxeOS dan Public Pool
+  - Menerapkan pengoptimalan kinerja tingkat lanjut termasuk overclocking dan benchmarking
+
 ---
 
-# Your Bitaxe Mining Guide
+# Panduan Bitaxe Mining Anda
 
-Welcome to the comprehensive Bitaxe course, where you'll master the revolutionary open source Bitcoin mining hardware that's democratizing access to mining technology. This course takes you from understanding the philosophical foundations of decentralized mining to advanced hardware customization and performance optimization.
 
-The Bitaxe project represents a paradigm shift in Bitcoin mining, breaking the monopoly of proprietary ASIC manufacturers by providing fully open source designs, firmware, and software. Through these hands-on chapters, you'll gain practical skills in hardware assembly, software configuration, PCB design, and performance optimization.
+Selamat datang di kursus Bitaxe yang komprehensif, di mana Anda akan menguasai perangkat keras Bitcoin mining open source revolusioner yang mendemokratisasi akses ke teknologi mining. Kursus ini akan membawa Anda dari memahami dasar filosofis mining yang terdesentralisasi hingga kustomisasi perangkat keras tingkat lanjut dan teknik pengoptimalan kinerja.
 
-No prior mining experience is required, though basic electronics knowledge and familiarity with GitHub will be helpful. The course will transform you from a curious observer into a capable Bitaxe builder and contributor.
+
+Proyek Bitaxe mewakili pergeseran paradigma dalam Bitcoin mining, mematahkan monopoli produsen ASIC yang berpemilik dengan menyediakan desain, firmware, dan perangkat lunak yang sepenuhnya terbuka. Melalui bab-bab praktik ini, Anda akan mendapatkan keterampilan praktis dalam perakitan perangkat keras, konfigurasi perangkat lunak, desain PCB, dan pengoptimalan kinerja.
+
+
+Tidak diperlukan pengalaman mining sebelumnya, meskipun pengetahuan elektronik dasar dan keakraban dengan GitHub akan sangat membantu. Kursus ini akan mengubah Anda dari seorang pengamat yang ingin tahu menjadi pembuat dan kontributor Bitaxe yang cakap.
+
 
 +++
 
 
-# Introduction
+# Pendahuluan
+
 
 <partId>6b3cd9f0-0063-40f0-a7bb-00a48f330d88</partId>
 
-## Course overview
+
+## Gambaran umum kursus
+
 
 <chapterId>1fac9579-0e1c-48e3-9bc5-e7a2960018c8</chapterId>
 
-Welcome to the course MIN 306 _**Bitaxe Open Source Mining Mastery**_, a comprehensive journey into the world of Bitaxe mining. This course is designed for those who want to understand, build, and optimize their own Bitaxe mining hardware while exploring the philosophical and technical foundations that make this project unique within the Bitcoin ecosystem.
 
-### Understanding Bitaxe
+Selamat datang di kursus MIN 306 _**Penguasaan Bitaxe Open Source Mining**_, sebuah perjalanan komprehensif ke dunia Bitaxe mining. Kursus ini dirancang untuk mereka yang ingin memahami, membangun, dan mengoptimalkan perangkat keras Bitaxe mining mereka sendiri sambil menjelajahi dasar-dasar filosofis dan teknis yang membuat proyek ini unik dalam ekosistem Bitcoin.
 
-The first section lays the essential groundwork: you’ll discover the origins of the Bitaxe project, its evolution, and the values of decentralization and transparency that define it. You’ll learn what a Bitaxe actually is, how it differs from proprietary ASICs, and where to find community resources to deepen your knowledge. This section provides the context needed to understand why Bitaxe represents a turning point in Bitcoin mining history.
 
-### Software and Operations
+### Memahami Bitaxe
 
-The second section focuses on the software environment, with a detailed presentation of *AxeOS*, the open-source operating system designed specifically for Bitaxe devices. You’ll learn how to configure it, understand its main features, and interact with your device to start your first mining operations.
 
-### Community and Collaboration
+Bagian pertama meletakkan dasar-dasar penting: Anda akan menemukan asal-usul proyek Bitaxe, evolusinya, dan nilai-nilai desentralisasi dan transparansi yang mendefinisikannya. Anda akan mempelajari apa itu Bitaxe, perbedaannya dengan ASIC, dan di mana menemukan sumber daya komunitas untuk memperdalam pengetahuan Anda. Bagian ini memberikan konteks yang diperlukan untuk memahami mengapa Bitaxe mewakili titik balik dalam sejarah Bitcoin mining.
 
-The third section highlights the collaborative aspect of the project. You’ll explore the open-source philosophy applied to both the hardware and software development of Bitaxe. Through practical exercises, you’ll learn how to contribute directly to the source code, and you’ll also discover _Public Pool_, a community platform for pooling computational power. You’ll also learn how to install it on an Umbrel node for local and sovereign integration.
 
-### Hardware Assembly and Troubleshooting
+### Perangkat Lunak dan Operasi
 
-In the fourth section, you’ll dive into the hardware itself. You’ll learn how to identify the tools needed to assemble a Bitaxe, fix soldering issues, and perform a complete diagnostic using *AxeOS* and USB tools. This section emphasizes hands-on practice and a deep understanding of how hardware and software components interact.
 
-### Advanced Customization
+Bagian kedua berfokus pada lingkungan perangkat lunak, dengan presentasi terperinci tentang *AxeOS*: sistem operasi sumber terbuka yang dirancang khusus untuk perangkat Bitaxe. Anda akan mempelajari fitur-fitur utamanya dan cara mengonfigurasi serta berinteraksi dengan perangkat Anda untuk memulai pengoperasian mining pertama Anda.
 
-The fifth section is dedicated to customization. You’ll learn how to modify the PCB (printed circuit board), create a factory file, and use the _Bitaxe Web Flasher_. This section is aimed at those who want to go beyond simple assembly and truly design customized versions of their own device.
 
-### Performance Optimization
+### Komunitas dan Kolaborasi
 
-Finally, the sixth section covers advanced optimization techniques. You’ll learn how to benchmark your Bitaxe to evaluate its performance and how to overclock it efficiently. These skills will help you get the most out of your hardware while respecting its physical limitations.
 
-As with every course on Plan ₿ Academy, the final section includes an evaluation designed to reinforce your knowledge.
+Bagian ketiga menyoroti aspek kolaboratif dari proyek ini. Anda akan menjelajahi filosofi sumber terbuka yang diterapkan pada pengembangan perangkat keras dan perangkat lunak Bitaxe. Melalui latihan praktis, Anda akan belajar cara berkontribusi langsung ke kode sumber, dan Anda juga akan menemukan _Public Pool_, sebuah platform komunitas untuk menggabungkan kekuatan komputasi. Anda juga akan belajar cara menginstalnya pada node Umbrel untuk integrasi lokal dan berdaulat.
 
-Dive right into this technical adventure — the future of Bitcoin mining is in your hands!
 
-# Understanding Bitaxe
+### Perakitan dan Pemecahan Masalah Perangkat Keras
+
+
+Pada bagian keempat, Anda akan mempelajari perangkat keras itu sendiri. Anda akan belajar cara mengidentifikasi alat yang diperlukan untuk merakit Bitaxe, memperbaiki masalah penyolderan, dan melakukan diagnostik lengkap menggunakan *AxeOS* dan alat USB. Bagian ini menekankan pada praktik langsung dan pemahaman mendalam tentang bagaimana komponen perangkat keras dan perangkat lunak berinteraksi.
+
+
+### Kustomisasi Tingkat Lanjut
+
+
+Bagian kelima didedikasikan untuk kustomisasi. Anda akan belajar cara memodifikasi PCB (papan sirkuit tercetak), membuat file pabrik, dan menggunakan _Bitaxe Web Flasher_. Bagian ini ditujukan bagi mereka yang ingin melampaui perakitan sederhana dan benar-benar mendesain versi khusus perangkat mereka sendiri.
+
+
+### Optimalisasi Kinerja
+
+
+Terakhir, bagian keenam mencakup teknik optimasi tingkat lanjut. Anda akan mempelajari cara melakukan benchmarking Bitaxe Anda untuk mengevaluasi kinerjanya dan cara meng-overclock-nya secara efisien. Keterampilan ini akan membantu Anda mendapatkan hasil maksimal dari perangkat keras Anda sambil menghormati keterbatasan fisiknya.
+
+
+Seperti setiap kursus di Plan ₿ Academy, bagian akhir mencakup evaluasi yang dirancang untuk memperkuat pengetahuan Anda.
+
+
+Selami petualangan teknis ini - masa depan Bitcoin mining ada di tangan Anda!
+
+
+# Memahami Bitaxe
+
 <partId>ba1cb4ea-6a77-54fd-916c-57285c8c2418</partId>
 
-## The History
+
+## Sejarah
+
 <chapterId>73d928e5-72f0-5c17-a7a6-8b6ece7f9a30</chapterId>
+
 :::video id=67d2529a-b7cb-4804-b02c-e56c12c9e66e:::
 
-The Bitaxe project represents a groundbreaking shift in Bitcoin mining hardware development, bringing open source principles to an industry dominated by proprietary solutions. This educational series explores the comprehensive history, technical innovations, and community-driven evolution of Bitaxe, providing insights into how a single engineer's vision transformed into a thriving ecosystem of decentralized mining hardware. Through examining the project's origins, challenges, and achievements, we gain valuable understanding of both the technical complexities of ASIC development and the power of open source collaboration in the Bitcoin space.
+Proyek Bitaxe mewakili perubahan terobosan dalam pengembangan perangkat keras Bitcoin mining, yang membawa prinsip-prinsip sumber terbuka ke industri yang didominasi oleh solusi berpemilik. Seri edukasi ini mengeksplorasi sejarah komprehensif, inovasi teknis, dan evolusi Bitaxe yang digerakkan oleh komunitas, memberikan wawasan tentang bagaimana visi seorang insinyur bertransformasi menjadi ekosistem perangkat keras mining yang terdesentralisasi yang berkembang pesat. Dengan memeriksa asal-usul, tantangan, dan pencapaian proyek, kami memperoleh pemahaman yang berharga tentang kompleksitas teknis pengembangan ASIC dan kekuatan kolaborasi sumber terbuka di ruang Bitcoin.
 
-### The Origin Story: From Silk Road Discovery to Solar Mining Vision
 
-Scott's journey into Bitcoin mining began with an unexpected encounter at a college party, where he first learned about Bitcoin through someone purchasing items on the Silk Road. This initial exposure to Bitcoin at approximately $20 per coin sparked a curiosity that would later evolve into a revolutionary mining project. The technical foundation for his future work was established during his time at university, where he had access to extensive FPGA resources in a laboratory setting. Working alongside his supervisor, Scott began experimenting with open source FPGA bitstreams for Bitcoin mining, initially with the modest goal of mining enough Bitcoin to purchase a pizza for their office.
+### Kisah Asal Mula: Dari Penemuan Jalur Sutra hingga Visi Mining Surya
 
-The transition from academic experimentation to serious development occurred years later when Scott was working on solar-powered gateways for remote data collection in Africa. This professional experience with solar power systems sparked the realization that Bitcoin mining ASICs, being fundamentally low-voltage DC devices, would pair perfectly with solar panels. The concept seemed natural and elegant, yet when Scott began researching existing solutions, he discovered a significant gap in the market. Unlike the early days of Bitcoin mining when FPGA designs were openly available, the advent of ASICs had moved the industry toward completely proprietary, closed-source solutions.
 
-The lack of open source mining hardware became a driving frustration for Scott, particularly given his background in open source software development and his belief that Bitcoin's open source nature should extend to its mining infrastructure. This philosophical alignment with open source principles, combined with the technical challenge of reverse-engineering proprietary ASIC designs, set the stage for what would become the Bitaxe project. The initial vision was ambitious yet practical: create a solar-powered Bitcoin miner that could operate independently without requiring a separate computer for control, making it suitable for deployment in remote locations under solar panels.
+Skot, pendiri Bitaxe, memulai perjalanannya ke Bitcoin di sebuah pesta kampus di mana ia pertama kali mengetahui tentang Bitcoin melalui seseorang yang membeli barang di Silk Road. Paparan awal terhadap Bitcoin dengan harga sekitar $20 per koin memicu rasa ingin tahu yang kemudian berkembang menjadi proyek mining yang revolusioner. Landasan teknis untuk pekerjaannya di masa depan dibangun selama masa kuliahnya, di mana ia memiliki akses ke sumber daya FPGA yang luas di laboratorium. Bekerja bersama supervisornya, Skot mulai bereksperimen dengan bitstream FPGA open source untuk Bitcoin mining, awalnya dengan tujuan sederhana yaitu mining yang cukup untuk membeli pizza untuk kantor mereka.
 
-### Technical Challenges and Reverse Engineering Breakthroughs
 
-The development of Bitaxe required overcoming substantial technical obstacles, primarily centered around the complete lack of documentation for Bitmain's ASIC chips. Scott's approach to this challenge exemplified the determination and ingenuity required for successful reverse engineering. Without access to official datasheets or technical specifications, he resorted to examining chips under microscopes, measuring pin pitches with calipers, and even scanning chips to determine their exact footprint requirements. This painstaking process resulted in multiple failed prototypes, with the first two iterations of the "day miner" failing to function properly due to incorrect footprint calculations.
+Transisi dari eksperimen akademis ke pengembangan yang serius terjadi beberapa tahun kemudian ketika Skot mengerjakan gerbang bertenaga surya untuk pengumpulan data jarak jauh di Afrika. Pengalaman profesional dengan sistem tenaga surya ini memicu kesadaran bahwa ASIC Bitcoin mining, yang pada dasarnya merupakan perangkat DC tegangan rendah, akan berpasangan dengan sempurna dengan panel surya. Konsep ini tampak alami dan elegan. Namun, ketika Skot mulai meneliti solusi yang ada, ia menemukan kesenjangan yang signifikan di pasar: tidak seperti masa-masa awal Bitcoin mining ketika desain FPGA tersedia secara terbuka, kemunculan ASIC telah menggerakkan industri ke arah solusi yang sepenuhnya eksklusif dan bersumber tertutup.
 
-The breakthrough came with the third iteration in May 2022, when Scott successfully created a working two-chip design using BM1387 chips harvested from Antminer S9 units. This achievement marked the birth of the Bitaxe name, inspired by the concept of a pickaxe for Bitcoin mining. The success of this design validated the reverse engineering approach and demonstrated that independent developers could create functional mining hardware without manufacturer support. However, the technical challenges extended beyond chip interfacing to include complex power supply design, as the ASICs required precise voltage regulation at high currents, often operating at voltages as low as 0.6 volts while drawing significant amperage.
 
-The firmware development presented another layer of complexity, as the project required creating mining software that could run directly on an ESP32 microcontroller rather than relying on external computers running CGMiner. This self-contained approach was essential to Scott's vision of deployable, independent mining units. The combination of hardware reverse engineering and embedded firmware development created a comprehensive technical challenge that required expertise across multiple disciplines, from electrical engineering and PCB design to embedded programming and network protocols.
+Kurangnya perangkat keras open source mining menjadi penyebab frustrasi bagi Skot, terutama karena latar belakangnya dalam pengembangan perangkat lunak open source dan keyakinannya bahwa sifat open source Bitcoin harus diperluas ke infrastruktur mining. Keselarasan filosofis dengan prinsip-prinsip open source ini, dikombinasikan dengan tantangan teknis untuk merekayasa ulang desain ASIC yang dipatenkan, menyiapkan panggung untuk apa yang akan menjadi proyek Bitaxe. Visi awalnya sangat ambisius namun praktis: menciptakan penambang Bitcoin bertenaga surya yang dapat beroperasi secara independen tanpa memerlukan komputer terpisah untuk kontrol, sehingga cocok untuk digunakan di lokasi-lokasi terpencil di bawah panel surya.
 
-### Community Formation and Open Source Collaboration
 
-The transformation of Bitaxe from a solo project to a thriving community initiative represents one of the most significant aspects of its success story. Initially, Scott's attempts to generate interest through Bitcoin forums and social media met with limited response and occasional skepticism. The breakthrough came when community members like SurveyPsalot recognized the potential of open source mining and established the Open Source Miners United (OSMU) Discord server. This platform provided the collaborative environment necessary for the project to flourish, attracting talented contributors from diverse backgrounds who shared a common interest in democratizing Bitcoin mining technology.
+### Tantangan Teknis dan Terobosan Rekayasa Terbalik
 
-The community-driven development model proved remarkably effective, with key contributors emerging to tackle specific technical challenges. Johnny Nine's expertise in firmware development solved critical software implementation problems, while Ben's front-end development skills created the intuitive AxeOS dashboard that simplified device configuration and monitoring. Ben's additional contributions included establishing manufacturing capabilities and creating Public Pool, an open source mining pool optimized for Bitaxe devices. This collaborative approach demonstrated how open source principles could accelerate development beyond what any individual contributor could achieve alone.
 
-The OSMU community also fostered an inclusive environment where newcomers could learn and contribute regardless of their initial technical expertise. Ben's own journey from soldering novice to major manufacturer exemplifies this welcoming approach to skill development. The community's commitment to education and mutual support created a virtuous cycle where experienced members mentored newcomers, who then became contributors themselves. This model proved essential for scaling the project beyond its original scope and establishing a sustainable ecosystem for continued innovation and growth.
+Pengembangan Bitaxe membutuhkan penanganan kendala teknis yang substansial, terutama berpusat pada kurangnya dokumentasi chip ASIC Bitmain. Pendekatan Skot terhadap tantangan ini menunjukkan tekad dan kecerdikan yang diperlukan untuk rekayasa balik yang sukses. Tanpa akses ke lembar data resmi atau spesifikasi teknis, ia terpaksa memeriksa chip di bawah mikroskop, mengukur jarak pin dengan kaliper, dan bahkan memindai chip untuk menentukan persyaratan footprint yang tepat. Proses yang melelahkan ini menghasilkan beberapa prototipe yang gagal, dengan dua iterasi pertama "penambang harian" gagal berfungsi dengan baik karena perhitungan footprint yang salah.
 
-### Vision for Decentralized Mining and Future Impact
 
-Scott's long-term vision for Bitaxe extends far beyond creating another mining device to encompass a fundamental transformation of Bitcoin's mining landscape. The ambitious goal of producing one million one-terahash miners would create an exahash of distributed mining power, representing a significant step toward mining decentralization. This vision addresses critical concerns about mining centralization, where large pools and industrial operations could potentially be subject to government pressure or regulatory capture. By distributing mining power across countless home miners, the network becomes more resilient and aligned with Bitcoin's decentralized principles.
+Terobosan datang dengan iterasi ketiga pada bulan Mei 2022, ketika Skot berhasil menciptakan desain dua chip yang berfungsi menggunakan chip BM1387 yang diambil dari unit Antminer S9. Pencapaian ini menandai lahirnya nama Bitaxe, yang terinspirasi dari konsep beliung untuk Bitcoin mining. Keberhasilan desain ini memvalidasi pendekatan reverse engineering dan menunjukkan bahwa pengembang independen dapat membuat perangkat keras mining yang fungsional tanpa dukungan pabrikan. Namun, tantangan teknis yang dihadapi tidak hanya pada antarmuka chip tetapi juga desain catu daya yang rumit, karena ASIC memerlukan pengaturan tegangan yang tepat pada arus tinggi, sering beroperasi pada tegangan serendah 0,6 volt sambil menarik arus listrik yang signifikan.
 
-The economic model supporting this vision relies on the unique characteristics of home mining, where infrastructure costs are essentially zero and miners can operate with minimal oversight. Unlike industrial mining operations that require massive capital investments in facilities, power infrastructure, and cooling systems, home miners can simply plug devices into existing electrical outlets and internet connections. This approach could theoretically bring significant hash rate online without the traditional barriers to entry that characterize large-scale mining operations.
 
-The project's success has already begun influencing the broader Bitcoin mining ecosystem, with the potential to inspire other manufacturers to embrace open source development models. The financial viability demonstrated by Bitaxe manufacturers proves that open source hardware can be commercially successful while maintaining transparency and community involvement. As the project continues to evolve with new chip integrations, improved designs, and expanded manufacturing partnerships, it serves as a proof of concept for how Bitcoin mining can return to its decentralized roots while embracing modern ASIC technology. The ultimate goal extends beyond mere hash rate distribution to include educational impact, bringing more people into direct contact with Bitcoin's fundamental mining process and fostering deeper understanding of the network's security model.
+Pengembangan firmware menghadirkan lapisan kerumitan lain, karena proyek ini memerlukan pembuatan perangkat lunak mining yang dapat berjalan langsung pada mikrokontroler ESP32 daripada mengandalkan komputer eksternal yang menjalankan perangkat lunak seperti CGMiner. Pendekatan mandiri ini sangat penting untuk visi Skot tentang unit mining yang dapat digunakan secara mandiri. Kombinasi rekayasa balik perangkat keras dan pengembangan firmware tertanam menciptakan tantangan teknis yang komprehensif yang membutuhkan keahlian di berbagai disiplin ilmu, mulai dari teknik kelistrikan dan desain PCB hingga pemrograman tertanam dan protokol jaringan.
 
-## What is the Bitaxe?
+
+### Pembentukan Komunitas dan Kolaborasi Open Source
+
+
+Transformasi Bitaxe dari proyek tunggal menjadi inisiatif komunitas yang berkembang merupakan salah satu aspek yang paling signifikan dari keberhasilannya. Awalnya, upaya Skot untuk menarik minat generate melalui forum Bitcoin dan media sosial hanya mendapat sedikit tanggapan dan terkadang skeptis. Terobosan datang ketika anggota komunitas seperti SirVapesAlot menyadari potensi open source mining dan mendirikan server Open Source Miners United (OSMU) Discord. Platform ini menyediakan lingkungan kolaboratif yang diperlukan agar proyek dapat berkembang, menarik kontributor dari berbagai latar belakang yang memiliki minat yang sama dalam mendemokratisasi teknologi Bitcoin mining.
+
+
+Model pengembangan berbasis komunitas terbukti sangat efektif, dengan kontributor utama seperti Johnny9 dan Ben yang muncul untuk mengatasi tantangan teknis tertentu. Keahlian Johnny9 dalam pengembangan firmware memecahkan masalah implementasi perangkat lunak yang kritis, sementara keahlian pengembangan front-end Ben menciptakan dasbor AxeOS yang intuitif yang menyederhanakan konfigurasi dan pemantauan perangkat. Kontribusi tambahan Ben termasuk membangun kemampuan manufaktur dan menciptakan Public Pool, sebuah pool mining open source yang dioptimalkan untuk perangkat Bitaxe. Pendekatan kolaboratif ini menunjukkan bagaimana prinsip-prinsip open source dapat mempercepat pengembangan melebihi apa yang dapat dicapai oleh kontributor individu mana pun.
+
+
+Komunitas OSMU juga memupuk lingkungan yang inklusif di mana para pendatang baru dapat belajar dan berkontribusi terlepas dari keahlian teknis awal mereka. Perjalanan Ben sendiri dari seorang pemula dalam menyolder hingga menjadi seorang produsen besar merupakan contoh dari pendekatan yang ramah terhadap pengembangan keterampilan. Komitmen komunitas terhadap pendidikan dan dukungan timbal balik menciptakan siklus yang baik di mana anggota yang berpengalaman membimbing pendatang baru, yang kemudian menjadi kontributor. Model ini terbukti penting untuk meningkatkan skala proyek di luar lingkup aslinya dan membangun ekosistem yang berkelanjutan untuk inovasi dan pertumbuhan yang berkelanjutan.
+
+
+### Visi Desentralisasi Mining dan Dampak di Masa Depan
+
+
+Visi jangka panjang Skot untuk Bitaxe jauh melampaui pembuatan perangkat mining lainnya: Bitaxe merupakan transformasi fundamental dari lanskap Bitcoin. Tujuan ambisius untuk memproduksi satu juta penambang satu terahash akan menciptakan kekuatan mining yang terdistribusi, yang mewakili langkah signifikan menuju desentralisasi mining. Visi ini menjawab kekhawatiran kritis tentang sentralisasi mining, di mana kumpulan besar dan operasi industri berpotensi tunduk pada tekanan pemerintah atau penangkapan peraturan. Dengan mendistribusikan daya mining ke penambang rumahan yang tak terhitung jumlahnya, jaringan menjadi lebih tangguh dan selaras dengan prinsip-prinsip desentralisasi Bitcoin.
+
+
+Model ekonomi yang mendukung visi ini bergantung pada karakteristik unik mining rumahan, di mana biaya infrastruktur pada dasarnya nol dan penambang dapat beroperasi dengan pengawasan yang minimal. Tidak seperti operasi mining industri yang membutuhkan investasi modal besar-besaran dalam fasilitas, infrastruktur listrik, dan sistem pendingin, penambang rumahan cukup mencolokkan perangkat ke outlet listrik yang ada dan koneksi internet. Pendekatan ini secara teoritis dapat menghasilkan tingkat hash yang signifikan secara online tanpa hambatan masuk tradisional yang menjadi ciri operasi mining skala besar.
+
+
+Keberhasilan proyek ini telah mulai mempengaruhi ekosistem Bitcoin mining yang lebih luas, dengan potensi untuk menginspirasi produsen lain untuk merangkul model pengembangan open source. Kelayakan finansial yang ditunjukkan oleh produsen Bitaxe membuktikan bahwa perangkat keras open source dapat sukses secara komersial dengan tetap menjaga transparansi dan keterlibatan komunitas. Karena proyek ini terus berkembang dengan integrasi chip baru, desain yang lebih baik, dan kemitraan manufaktur yang diperluas, proyek ini berfungsi sebagai bukti konsep bagaimana Bitcoin mining dapat kembali ke akarnya yang terdesentralisasi sembari merangkul teknologi ASIC yang modern. Tujuan utamanya lebih dari sekadar distribusi tingkat hash untuk memasukkan dampak pendidikan, membawa lebih banyak orang ke dalam kontak langsung dengan proses Bitcoin yang mendasar dari mining dan menumbuhkan pemahaman yang lebih dalam tentang model keamanan jaringan.
+
+
+## Apa yang dimaksud dengan Bitaxe?
+
 <chapterId>6a56af56-35ce-51af-999b-4bc7305e6464</chapterId>
+
 :::video id=12b26c7a-74b1-4ea9-afc0-e3ef90cf5837:::
 
-### Hardware Overview and Capabilities
-
-The Bitaxe represents a significant development in the open-source mining community, offering enthusiasts and miners an accessible entry point into Bitcoin mining hardware. As an open-source mining device, the Bitaxe provides users with complete transparency into both its hardware design and software implementation, distinguishing it from proprietary mining solutions. This educational exploration examines the fundamental components, capabilities, and practical applications of Bitaxe mining boards, providing essential knowledge for anyone interested in understanding how these devices function and contribute to the Bitcoin network.
-
-The Bitaxe ecosystem encompasses multiple hardware iterations, each designed to optimize different aspects of the mining experience while maintaining the core philosophy of open-source accessibility. These devices serve not only as functional mining hardware but also as educational tools that allow users to understand the intricate relationship between ASIC chips, microcontrollers, and the Bitcoin mining process. Understanding the Bitaxe's design philosophy and technical implementation provides valuable insights into how modern mining hardware operates at both the component and system levels.
+### Gambaran Umum dan Kemampuan Perangkat Keras
 
 
-### Bitaxe Max, First-Generation Implementation
+Ekosistem Bitaxe mencakup beberapa iterasi perangkat keras, masing-masing dirancang untuk mengoptimalkan berbagai aspek pengalaman mining dengan tetap mempertahankan filosofi inti dari aksesibilitas sumber terbuka. Perangkat ini tidak hanya berfungsi sebagai perangkat keras mining yang fungsional, tetapi juga sebagai alat edukasi yang memungkinkan pengguna untuk memahami hubungan yang rumit antara chip ASIC, mikrokontroler, dan proses Bitcoin mining. Memahami filosofi desain dan implementasi teknis Bitaxe memberikan wawasan berharga tentang bagaimana perangkat keras mining modern beroperasi di tingkat komponen dan sistem.
 
-The Bitaxe Max represents the foundational implementation of the Bitaxe concept, utilizing the BM1397 ASIC chip originally developed by Bitmain for their S17 mining series. This chip integration demonstrates how open-source hardware can repurpose existing ASIC technology to create accessible mining solutions. The Bitaxe Max delivers an estimated hash rate between 300 to 400 gigahashes per second, positioning it as an educational and experimental mining platform rather than a commercial-scale solution.
 
-The BM1397 chip's integration into the Bitaxe Max required careful consideration of power management, thermal control, and communication protocols. The board's design accommodates the specific requirements of this ASIC while providing the necessary supporting circuitry for stable operation. This implementation showcases how open-source hardware development can leverage existing semiconductor technology to create new applications and learning opportunities within the mining community.
 
-### Bitaxe Ultra, Advanced Chip Technology
+### Bitaxe Max, Implementasi Generasi Pertama
 
-The Bitaxe Ultra represents the evolution of the Bitaxe platform, incorporating the more advanced BM1366 ASIC chip from Bitmain's S19 series. This newer chip technology brings improved efficiency and performance characteristics to the Bitaxe platform while maintaining the same fundamental design philosophy. The upgrade to the BM1366 chip demonstrates the platform's adaptability and the community's commitment to incorporating technological advances into open-source mining solutions.
 
-The transition from the BM1397 to the BM1366 chip required modifications to the board's power delivery systems, thermal management, and control algorithms. These changes illustrate the iterative nature of hardware development and the importance of maintaining compatibility while advancing performance. The Bitaxe Ultra's implementation provides users with access to more recent ASIC technology while preserving the educational and experimental nature of the platform.
+Bitaxe Max merupakan implementasi dasar dari konsep Bitaxe, memanfaatkan chip BM1397 ASIC yang awalnya dikembangkan oleh Bitmain untuk seri S17 mining mereka. Integrasi chip ini menunjukkan bagaimana perangkat keras sumber terbuka dapat menggunakan kembali teknologi ASIC yang ada untuk menciptakan solusi mining yang dapat diakses. Bitaxe Max memberikan perkiraan kecepatan hash antara 300 hingga 400 gigahash per detik, memposisikannya sebagai platform mining edukasi dan eksperimental daripada solusi skala komersial.
 
-### Microcontroller and Communication Systems
 
-At the heart of every Bitaxe device lies an ESP microcontroller that serves as the primary interface between the user and the ASIC chip. This microcontroller runs specialized software developed by the Open Source Miners United (OSMU) community, enabling precise control over the ASIC's operation parameters. The communication between the microcontroller and ASIC occurs through carefully designed serial communication lines that are etched directly onto the printed circuit board as visible traces.
+Integrasi chip BM1397 ke dalam Bitaxe Max memerlukan pertimbangan yang cermat terhadap manajemen daya, kontrol termal, dan protokol komunikasi. Desain papan mengakomodasi persyaratan khusus ASIC ini sekaligus menyediakan sirkuit pendukung yang diperlukan untuk operasi yang stabil. Implementasi ini menunjukkan bagaimana pengembangan perangkat keras sumber terbuka dapat memanfaatkan teknologi semikonduktor yang ada untuk menciptakan aplikasi baru dan peluang pembelajaran dalam komunitas mining.
 
-The microcontroller's role extends beyond simple ASIC control, encompassing power management, temperature monitoring, and user interface functions. Through the integrated display screen, users can monitor critical operational parameters including temperature, hash rate, IP address, and other relevant mining statistics. This real-time feedback system provides valuable insights into the device's performance and helps users optimize their mining operations while learning about the underlying hardware behavior.
 
-### Power Management and Safety Considerations
+### Bitaxe Ultra, Teknologi Chip Canggih
 
-The Bitaxe platform operates on a strict 5-volt power requirement, making proper power supply selection critical for device longevity and safety. The power management system on the Bitaxe boards includes sophisticated circuitry designed to regulate voltage delivery to the ASIC chip while monitoring power consumption across different operational modes. This power management capability allows the device to operate efficiently across a range of frequencies and voltages, typically consuming between 5 to 25 watts depending on configuration.
 
-Understanding the power requirements becomes crucial when considering that incorrect voltage application can permanently damage the device. The relationship between frequency, voltage, power consumption, and hash rate demonstrates fundamental principles of ASIC operation that apply across all mining hardware. Users can experiment with different power settings to understand the efficiency trade-offs inherent in mining operations, gaining practical experience with concepts that apply to larger-scale mining implementations.
+Bitaxe Ultra merupakan evolusi dari platform Bitaxe, yang menggabungkan chip BM1366 ASIC yang lebih canggih dari seri S19 Bitmain. Teknologi chip yang lebih baru ini membawa peningkatan efisiensi dan karakteristik kinerja pada platform Bitaxe dengan tetap mempertahankan filosofi desain dasar yang sama. Peningkatan ke chip BM1366 menunjukkan kemampuan beradaptasi platform dan komitmen komunitas untuk menggabungkan kemajuan teknologi ke dalam solusi mining open-source.
 
-### Solo Mining Focus and Network Participation
 
-The Bitaxe platform specifically targets solo mining applications, where individual miners attempt to solve Bitcoin blocks independently rather than participating in large mining pools. While the hash rate of Bitaxe devices makes successful block discovery statistically unlikely, this approach serves important educational and philosophical purposes within the Bitcoin community. Solo mining with Bitaxe devices helps users understand the fundamental mechanics of Bitcoin's proof-of-work system while contributing to network decentralization.
+Transisi dari chip BM1397 ke BM1366 memerlukan modifikasi pada sistem pengiriman daya, manajemen termal, dan algoritme kontrol board. Perubahan ini menggambarkan sifat pengembangan perangkat keras yang berulang-ulang dan pentingnya menjaga kompatibilitas sambil meningkatkan kinerja. Implementasi Bitaxe Ultra memberi pengguna akses ke teknologi ASIC yang lebih baru sambil mempertahankan sifat edukatif dan eksperimental dari platform ini.
 
-The emphasis on solo mining reflects the OSMU community's commitment to encouraging individual participation in Bitcoin's security model. By providing accessible hardware that can operate independently, the Bitaxe platform enables users to run their own mining operations without relying on pool infrastructure. This approach fosters a deeper understanding of Bitcoin's consensus mechanism while supporting the network's decentralized nature through increased node diversity.
 
-### Hardware Evolution and Production Improvements
+### Mikrokontroler dan Sistem Komunikasi
 
-The Bitaxe platform continues to evolve through community feedback and production optimization, with newer versions incorporating improvements that enhance manufacturability and user experience. Version updates typically focus on production efficiency rather than fundamental performance changes, ensuring that existing users don't face obsolescence pressure. Features like the transition from micro-USB to USB-C connectors and improved power connection systems reflect the community's attention to practical usability improvements.
 
-This evolutionary approach demonstrates the benefits of open-source hardware development, where community input drives incremental improvements that benefit all users. The philosophy of "if it hashes, it hashes" emphasizes the platform's focus on functionality over constant upgrades, encouraging users to maintain and operate their devices rather than pursuing the latest versions. This approach supports sustainable hardware practices while maintaining the educational value that makes Bitaxe devices valuable learning tools for understanding Bitcoin mining technology.
+Di jantung setiap perangkat Bitaxe terdapat mikrokontroler ESP yang berfungsi sebagai antarmuka utama antara pengguna dan chip ASIC. Mikrokontroler ini menjalankan perangkat lunak khusus yang dikembangkan oleh komunitas Open Source Miners United (OSMU), yang memungkinkan kontrol yang tepat atas parameter operasi ASIC. Komunikasi antara mikrokontroler dan ASIC terjadi melalui jalur komunikasi serial yang dirancang dengan hati-hati yang diukir langsung ke papan sirkuit tercetak sebagai jejak yang terlihat.
 
-## Where can I learn more?
+
+Peran mikrokontroler lebih dari sekadar kontrol ASIC sederhana: mikrokontroler ini mencakup manajemen daya, pemantauan suhu, dan fungsi antarmuka pengguna. Melalui layar tampilan terintegrasi, pengguna dapat memantau parameter operasional yang penting seperti suhu, tingkat hash, alamat IP, dan statistik mining yang relevan lainnya. Sistem umpan balik waktu nyata ini memberikan wawasan berharga ke dalam kinerja perangkat dan membantu pengguna mengoptimalkan operasi mining mereka sambil mempelajari perilaku perangkat keras yang mendasarinya.
+
+
+### Pertimbangan Manajemen Daya dan Keamanan
+
+
+Platform Bitaxe beroperasi dengan persyaratan daya 5 volt yang ketat, sehingga pemilihan catu daya yang tepat sangat penting untuk masa pakai dan keamanan perangkat. Sistem manajemen daya pada papan Bitaxe mencakup sirkuit canggih yang dirancang untuk mengatur pengiriman tegangan ke chip ASIC sambil memantau konsumsi daya di berbagai mode operasional. Kemampuan manajemen daya ini memungkinkan perangkat beroperasi secara efisien di berbagai frekuensi dan tegangan internal, biasanya mengkonsumsi antara 5 hingga 25 watt tergantung pada konfigurasi.
+
+
+Memahami kebutuhan daya menjadi sangat penting ketika mempertimbangkan bahwa aplikasi tegangan yang salah dapat merusak perangkat secara permanen. Hubungan antara frekuensi, voltase, konsumsi daya, dan laju hash menunjukkan prinsip-prinsip dasar operasi ASIC yang berlaku di semua perangkat keras mining. Pengguna dapat bereksperimen dengan pengaturan daya yang berbeda untuk memahami pertukaran efisiensi yang melekat pada operasi mining, mendapatkan pengalaman praktis dengan konsep yang berlaku untuk implementasi mining skala yang lebih besar.
+
+
+### Fokus dan Partisipasi Jaringan Mining Solo
+
+
+Platform Bitaxe secara khusus menargetkan aplikasi mining solo, di mana penambang individu mencoba untuk memecahkan blok Bitcoin secara mandiri daripada berpartisipasi dalam kumpulan mining yang besar. Walaupun tingkat hash perangkat Bitaxe membuat penemuan blok yang sukses secara statistik tidak mungkin terjadi, pendekatan ini memiliki tujuan pendidikan dan filosofis yang penting dalam komunitas Bitcoin. Solo mining dengan perangkat Bitaxe membantu pengguna memahami mekanisme dasar sistem Bitcoin sambil berkontribusi pada desentralisasi jaringan.
+
+
+Penekanan pada mining solo mencerminkan komitmen komunitas OSMU untuk mendorong partisipasi individu dalam model keamanan Bitcoin. Dengan menyediakan perangkat keras yang dapat diakses yang dapat beroperasi secara independen, platform Bitaxe memungkinkan pengguna untuk menjalankan operasi mining mereka sendiri tanpa bergantung pada infrastruktur pool. Pendekatan ini mendorong pemahaman yang lebih dalam mengenai mekanisme konsensus Bitcoin sekaligus mendukung sifat desentralisasi jaringan melalui peningkatan keragaman penambang.
+
+
+### Evolusi Perangkat Keras dan Peningkatan Produksi
+
+
+Platform Bitaxe terus berkembang melalui umpan balik dari komunitas dan optimalisasi produksi, dengan versi yang lebih baru yang menggabungkan peningkatan yang meningkatkan kemampuan produksi dan pengalaman pengguna. Pembaruan versi biasanya berfokus pada efisiensi produksi daripada perubahan kinerja yang mendasar, memastikan bahwa pengguna yang ada tidak menghadapi tekanan keusangan. Fitur-fitur seperti transisi dari konektor micro-USB ke USB-C dan sistem koneksi daya yang lebih baik mencerminkan perhatian komunitas terhadap peningkatan kegunaan praktis.
+
+
+Pendekatan evolusioner ini menunjukkan manfaat pengembangan perangkat keras sumber terbuka, di mana masukan dari komunitas mendorong peningkatan bertahap yang bermanfaat bagi semua pengguna. Filosofi "jika ada hash, maka ada hash" menekankan fokus platform pada fungsionalitas daripada peningkatan yang konstan, mendorong pengguna untuk memelihara dan mengoperasikan perangkat mereka daripada mengejar versi terbaru. Pendekatan ini mendukung praktik perangkat keras yang berkelanjutan dengan tetap mempertahankan nilai edukasi Bitaxe.
+
+
+## Di mana saya dapat mempelajari lebih lanjut?
+
 <chapterId>706f2fff-fa1c-5d8e-b14c-ece6e42c016f</chapterId>
+
 :::video id=90088397-3a16-485f-bbd2-89cdbb844e4a:::
 
-The Bitaxe project represents a comprehensive open-source mining initiative that extends far beyond a single device. Understanding where to find reliable information, technical resources, and community support is crucial for anyone looking to engage with this ecosystem. This chapter provides a complete guide to the essential platforms and resources that form the foundation of the Bitaxe and Open Source Miners United (OSMU) community.
-
-### Bitaxe.org, the central Hub
-
-The Bitaxe.org website serves as the primary gateway to all project-related information and resources. This centralized platform functions as your first point of reference whenever you need to learn about Bitaxe devices or explore other projects within the Open Source Miners United community. The website's design prioritizes accessibility and organization, presenting visitors with carefully curated links that connect to various specialized resources throughout the ecosystem.
-
-The importance of this central hub cannot be overstated, as it eliminates the confusion that often accompanies decentralized open-source projects. Rather than searching through multiple platforms or relying on potentially outdated information from unofficial sources, users can trust Bitaxe.org to provide current, verified links to all essential resources. This approach ensures that both newcomers and experienced community members can efficiently locate the specific information they need for their projects.
-
-### Technical Resources and Development Materials
-
-The hardware design files repository on GitHub represents one of the most valuable resources for anyone interested in understanding or building Bitaxe devices. This public repository contains comprehensive documentation that covers every aspect of the hardware design process, from initial concepts to final manufacturing specifications. The repository includes detailed images, project goals, feature descriptions, and built-in component explanations that provide both technical depth and practical guidance.
-
-For those interested in manufacturing their own devices, the repository includes specific documentation files such as building.md, which provides step-by-step instructions for the entire production process. This documentation covers the software tools required for PCB design, the procedures for sending files to manufacturers, and the steps involved in receiving and validating manufactured PCBs. This level of detail ensures that individuals or small organizations can successfully navigate the manufacturing process without extensive prior experience in hardware production.
-
-The ESP-Miner repository serves as the central location for all firmware-related code and documentation. This GitHub repository contains every line of code written for the Bitaxe firmware, along with comprehensive documentation that explains system requirements, hardware specifications, and configuration options. The repository structure is designed to accommodate both users who prefer pre-compiled binary files and developers who want to build the firmware from source code.
-
-The documentation within this repository includes detailed sections on hardware requirements, pre-configuration options, and recommended values for various settings. This information proves invaluable for users who want to customize their devices or troubleshoot specific issues. Additionally, the repository includes information about newer developments, such as RP (Raspberry Pi) integration, ensuring that the documentation remains current with ongoing project evolution.
-
-### Device Management and Maintenance Tools
-
-The Bitaxe web flasher represents a practical solution for device maintenance and updates. This web-based tool allows users to flash firmware to their devices without requiring specialized software or complex command-line procedures. The flasher supports multiple device variants, including the Bitaxe Ultra with various port versions and the older Bitaxe Max models. Users can choose between updating existing firmware through the web interface or performing complete factory resets using USB connections.
-
-This tool addresses one of the most common challenges faced by hardware enthusiasts: maintaining and updating device firmware. By providing a user-friendly web interface, the flasher eliminates many of the technical barriers that might otherwise prevent users from keeping their devices current with the latest firmware releases. The tool's design prioritizes simplicity while maintaining the flexibility needed for different device configurations and update scenarios.
-
-### Community Platforms and Communication Channels
-
-The Discord server represents the heart of real-time community interaction and support within the Bitaxe ecosystem. The server's organization reflects the diverse interests and needs of community members, with carefully structured channels that facilitate focused discussions on specific topics. New members encounter a verification process that requires reading and accepting community rules, ensuring that all participants understand the expectations for respectful and productive interaction.
-
-The server's channel structure includes general discussion areas covering topics such as solar power integration, mining pools, and Bitcoin-related discussions. More specialized sections focus on specific devices, including dedicated channels for the Bitaxe Ultra, Hex, and Supra variants. The firmware channel provides a focused space for technical discussions about software development and troubleshooting, while the official releases channel ensures that community members receive timely notifications about new developments.
-
-The Discord server also features a subscriber area that provides additional benefits for community members who choose to support the project financially. This tiered approach allows the community to offer enhanced services while maintaining open access to essential information and support channels. The help channel serves as a dedicated space for troubleshooting and technical assistance, ensuring that users can receive prompt support when encountering difficulties.
+Proyek Bitaxe merupakan inisiatif open-source mining yang komprehensif yang melampaui satu perangkat. Memahami di mana menemukan informasi yang dapat diandalkan, sumber daya teknis, dan dukungan komunitas sangat penting bagi siapa saja yang ingin terlibat dalam ekosistem ini. Bab ini memberikan panduan lengkap untuk platform dan sumber daya penting yang menjadi fondasi komunitas Bitaxe dan Open Source Miners United (OSMU).
 
 
-The Open Source Miners United wiki (osmu.wiki) provides comprehensive documentation that complements the real-time discussions occurring on Discord. Unlike chat-based platforms, the wiki offers structured, searchable documentation that covers all aspects of the Bitaxe project and related initiatives. The wiki's organization mirrors the project's structure, with dedicated sections for different device series and comprehensive setup guides.
-
-The wiki's open-source nature allows community members to contribute directly to the documentation. Users can edit pages, submit corrections, and add new information through GitHub integration, ensuring that the knowledge base remains current and comprehensive. This collaborative approach leverages the collective expertise of the community while maintaining quality control through a review process for submitted changes.
-
-The wiki includes practical resources such as PDF setup guides that provide step-by-step instructions for device configuration and use. These guides serve as valuable references for both new users and experienced community members who need quick access to specific procedures or configuration details.
-
-### Purchasing and Vendor Information
-
-The Bitaxe legit list addresses a critical need within the open-source hardware community: identifying trustworthy vendors and avoiding fraudulent sellers. This curated list includes verified resellers and manufacturers who meet specific criteria for legitimacy and community support. Each listing includes direct links to vendor websites, regional information, and company descriptions that help users make informed purchasing decisions.
-
-Importantly, the list indicates whether each vendor contributes back to the OSMU community, either financially or through other forms of support. This transparency helps community members understand which vendors actively support the project's development and sustainability. The list also serves as a protective measure against common scams, such as unauthorized pre-orders for unreleased products, which have historically caused problems within the community.
-
-The emphasis on non-affiliate links demonstrates the community's commitment to providing unbiased vendor recommendations. Users can trust that the recommendations are based on vendor legitimacy and community contribution rather than financial incentives, ensuring that purchasing decisions support both individual needs and community sustainability.
+### Bitaxe.org, Pusat Informasi
 
 
-# Software and Operations
+Situs web Bitaxe.org berfungsi sebagai pintu gerbang utama untuk semua informasi dan sumber daya yang berhubungan dengan proyek. Platform terpusat ini berfungsi sebagai titik referensi pertama Anda kapan pun Anda perlu mempelajari perangkat Bitaxe atau menjelajahi proyek-proyek lain dalam komunitas OSMU. Desain situs web ini memprioritaskan aksesibilitas dan pengaturan, menyajikan pengunjung dengan tautan yang dikurasi dengan cermat yang menghubungkan ke berbagai sumber daya khusus di seluruh ekosistem.
+
+
+Pentingnya pusat pusat ini tidak dapat dilebih-lebihkan, karena menghilangkan kebingungan yang sering menyertai proyek-proyek sumber terbuka yang terdesentralisasi. Daripada mencari melalui berbagai platform atau mengandalkan informasi yang mungkin sudah ketinggalan zaman dari sumber yang tidak resmi, pengguna dapat mempercayai Bitaxe.org untuk menyediakan tautan terkini dan terverifikasi ke semua sumber daya penting. Pendekatan ini memastikan bahwa baik pendatang baru maupun anggota komunitas yang berpengalaman dapat secara efisien menemukan informasi spesifik yang mereka butuhkan untuk proyek mereka.
+
+
+### Sumber Daya Teknis dan Materi Pengembangan
+
+
+Repositori file desain perangkat keras di GitHub merupakan salah satu sumber daya yang paling berharga bagi siapa saja yang tertarik untuk memahami atau membangun perangkat Bitaxe. Repositori publik ini berisi dokumentasi komprehensif yang mencakup setiap aspek proses desain perangkat keras, mulai dari konsep awal hingga spesifikasi manufaktur akhir. Repositori ini mencakup gambar-gambar terperinci, tujuan proyek, deskripsi fitur, dan penjelasan komponen internal yang memberikan kedalaman teknis dan panduan praktis.
+
+
+Bagi mereka yang tertarik untuk membuat perangkat mereka sendiri, repositori ini menyertakan file dokumentasi khusus seperti building.md, yang memberikan petunjuk langkah demi langkah untuk seluruh proses produksi. Dokumentasi ini mencakup alat perangkat lunak yang diperlukan untuk desain PCB, prosedur untuk mengirim file ke produsen, dan langkah-langkah yang terlibat dalam menerima dan memvalidasi PCB yang diproduksi. Tingkat detail ini memastikan bahwa individu atau organisasi kecil dapat berhasil menavigasi proses produksi tanpa pengalaman yang luas sebelumnya dalam produksi perangkat keras.
+
+
+Repositori ESP-Miner berfungsi sebagai lokasi pusat untuk semua kode dan dokumentasi yang berhubungan dengan firmware. Repositori GitHub ini berisi setiap baris kode yang ditulis untuk firmware Bitaxe, bersama dengan dokumentasi lengkap yang menjelaskan persyaratan sistem, spesifikasi perangkat keras, dan opsi konfigurasi. Struktur repositori dirancang untuk mengakomodasi pengguna yang lebih memilih file biner yang sudah dikompilasi dan pengembang yang ingin membangun firmware dari kode sumber.
+
+
+Dokumentasi dalam repositori ini mencakup bagian yang mendetail mengenai persyaratan perangkat keras, opsi pra-konfigurasi, dan nilai yang direkomendasikan untuk berbagai pengaturan. Informasi ini terbukti sangat berharga bagi pengguna yang ingin menyesuaikan perangkat mereka atau memecahkan masalah tertentu. Selain itu, repositori ini juga menyertakan informasi tentang perkembangan terbaru, seperti integrasi Raspberry Pi, untuk memastikan bahwa dokumentasi tetap mutakhir dengan evolusi proyek yang sedang berlangsung.
+
+
+### Alat Manajemen dan Pemeliharaan Perangkat
+
+
+Flasher web Bitaxe merupakan solusi praktis untuk pemeliharaan dan pembaruan perangkat. Alat berbasis web ini memungkinkan pengguna untuk melakukan flash firmware ke perangkat mereka tanpa memerlukan perangkat lunak khusus atau prosedur baris perintah yang rumit. Flasher ini mendukung berbagai varian perangkat, termasuk Bitaxe Ultra dengan berbagai versi port dan model Bitaxe Max yang lebih lama. Pengguna dapat memilih antara memperbarui firmware yang ada melalui antarmuka web atau melakukan reset lengkap dari pabrik menggunakan koneksi USB.
+
+
+Alat ini menjawab salah satu tantangan paling umum yang dihadapi oleh para penggemar perangkat keras: memelihara dan memperbarui firmware perangkat. Dengan menyediakan antarmuka web yang mudah digunakan, flasher ini menghilangkan banyak hambatan teknis yang mungkin menghalangi pengguna untuk selalu memperbarui perangkat mereka dengan rilis firmware terbaru. Desain alat ini memprioritaskan kesederhanaan sekaligus mempertahankan fleksibilitas yang diperlukan untuk berbagai konfigurasi perangkat dan skenario pembaruan.
+
+
+### Platform Komunitas dan Saluran Komunikasi
+
+
+Server Discord merupakan jantung dari interaksi dan dukungan komunitas secara real-time dalam ekosistem Bitaxe. Organisasi server mencerminkan minat dan kebutuhan anggota komunitas yang beragam, dengan saluran yang terstruktur dengan cermat yang memfasilitasi diskusi terfokus pada topik tertentu. Anggota baru akan menghadapi proses verifikasi yang mengharuskan mereka membaca dan menerima peraturan komunitas, memastikan bahwa semua peserta memahami harapan untuk interaksi yang saling menghormati dan produktif.
+
+
+Struktur saluran server mencakup area diskusi umum yang mencakup topik-topik seperti integrasi tenaga surya, kumpulan mining, dan diskusi terkait Bitcoin. Bagian yang lebih khusus berfokus pada perangkat tertentu, termasuk saluran khusus untuk varian Bitaxe Ultra, Hex, dan Supra. Saluran firmware menyediakan ruang yang terfokus untuk diskusi teknis tentang pengembangan perangkat lunak dan pemecahan masalah, sementara saluran rilis resmi memastikan bahwa anggota komunitas menerima pemberitahuan tepat waktu tentang perkembangan baru.
+
+
+Situs ini juga dilengkapi dengan area pelanggan yang memberikan manfaat tambahan bagi anggota komunitas yang memilih untuk mendukung proyek ini secara finansial. Pendekatan berjenjang ini memungkinkan komunitas untuk menawarkan layanan yang lebih baik dengan tetap mempertahankan akses terbuka ke informasi penting dan saluran dukungan. Saluran bantuan berfungsi sebagai ruang khusus untuk pemecahan masalah dan bantuan teknis, memastikan bahwa pengguna dapat menerima dukungan yang cepat ketika menghadapi kesulitan.
+
+
+
+Wiki Open Source Miners United (osmu.wiki) menyediakan dokumentasi komprehensif yang melengkapi diskusi real-time yang terjadi di Discord. Tidak seperti platform berbasis obrolan, wiki ini menawarkan dokumentasi yang terstruktur dan dapat dicari yang mencakup semua aspek proyek Bitaxe dan inisiatif terkait. Cara pengorganisasiannya mencerminkan struktur proyek, dengan bagian khusus untuk seri perangkat yang berbeda dan panduan penyiapan yang komprehensif.
+
+
+Sifat sumber terbuka wiki memungkinkan anggota komunitas untuk berkontribusi secara langsung pada dokumentasi. Pengguna dapat mengedit halaman, mengirimkan koreksi, dan menambahkan informasi baru melalui integrasi GitHub, memastikan bahwa basis pengetahuan tetap mutakhir dan transparan. Pendekatan kolaboratif ini memanfaatkan keahlian kolektif komunitas sambil mempertahankan kontrol kualitas melalui proses peninjauan untuk perubahan yang diajukan.
+
+
+Wiki mencakup sumber daya praktis seperti panduan penyiapan PDF yang menyediakan petunjuk langkah demi langkah untuk konfigurasi dan penggunaan perangkat. Panduan ini berfungsi sebagai referensi berharga bagi pengguna baru dan anggota komunitas berpengalaman yang membutuhkan akses cepat ke prosedur atau detail konfigurasi tertentu.
+
+
+### Informasi Pembelian dan Vendor
+
+
+Daftar resmi Bitaxe memenuhi kebutuhan penting dalam komunitas perangkat keras sumber terbuka: mengidentifikasi vendor yang dapat dipercaya dan menghindari penjual yang curang. Daftar yang telah dikurasi ini mencakup pengecer dan produsen terverifikasi yang memenuhi kriteria khusus untuk keabsahan dan dukungan komunitas. Setiap daftar mencakup tautan langsung ke situs web vendor, informasi regional, dan deskripsi perusahaan yang membantu pengguna membuat keputusan pembelian yang tepat.
+
+
+Yang penting, daftar tersebut menunjukkan apakah setiap vendor berkontribusi kembali kepada komunitas OSMU, baik secara finansial maupun melalui bentuk dukungan lainnya. Transparansi ini membantu anggota komunitas untuk memahami vendor mana yang secara aktif mendukung pengembangan dan keberlanjutan proyek. Daftar ini juga berfungsi sebagai tindakan perlindungan terhadap penipuan umum, seperti pre-order tidak sah untuk produk yang belum dirilis, yang secara historis menyebabkan masalah dalam komunitas.
+
+
+Penekanan pada tautan non-afiliasi menunjukkan komitmen komunitas untuk memberikan rekomendasi vendor yang tidak bias. Pengguna dapat mempercayai bahwa rekomendasi yang diberikan didasarkan pada legitimasi vendor dan kontribusi komunitas, bukan insentif finansial, sehingga memastikan bahwa keputusan pembelian mendukung kebutuhan individu dan keberlanjutan komunitas.
+
+
+
+# Perangkat Lunak dan Operasi
+
 <partId>04b302a9-42ba-5ad4-834c-6979950c2948</partId>
 
-## What is AxeOS ?
+
+## Apa itu AxeOS?
+
 <chapterId>a0cdf10d-e007-58e2-a17b-b588fd393b5e</chapterId>
+
 :::video id=de7bcbf2-f9ac-4057-ad40-29dc223b4798:::
 
-AxeOS represents the comprehensive firmware and web interface that powers Bitaxe mining devices, providing users with complete control and monitoring capabilities through an intuitive browser-based dashboard. This system transforms the complex task of ASIC management into an accessible experience, allowing miners to monitor performance, adjust settings, and manage multiple devices from a single interface. Understanding AxeOS is essential for maximizing your Bitaxe device's potential and maintaining optimal mining operations.
-
-### Dashboard Overview and Core Metrics
-
-The AxeOS dashboard serves as your primary window into your Bitaxe device's performance, presenting critical mining metrics in an organized, real-time format. When you navigate to your Bitaxe device's IP address, you're immediately presented with four key performance indicators that define your mining operation's current state. The hash rate display shows the actual computational speed your ASIC chip is producing as it processes the current block template, providing immediate feedback on your device's core functionality.
-
-Adjacent to the hash rate, the shares counter tracks every valid solution your Bitaxe device submits to the mining pool, incrementing with each successful submission and serving as a direct measure of your device's contribution to the pool's mining efforts. The efficiency metric provides crucial insight into your device's power performance by calculating the ratio of hash rate to power consumption, helping you optimize your operation's profitability. The best difficulty indicator preserves a record of the highest difficulty share your device has ever found, maintaining this achievement even through reboots and updates, only resetting when you perform a complete factory flash.
-
-The dashboard's expandable menu system, controlled by a toggle button, provides access to all AxeOS functionality while maintaining a clean interface. The live hash rate graph represents one of AxeOS's most valuable features, displaying real-time performance data that becomes increasingly accurate and informative the longer you maintain your session. Below this visualization, the power, heat, and performance sections provide comprehensive monitoring of your device's operational status, including input voltage warnings that alert you to potential power supply issues while ensuring continued operation within safe parameters.
-
-### Advanced Monitoring and System Information
-
-The monitoring capabilities of AxeOS extend far beyond basic hash rate tracking, providing detailed insights into every aspect of your Bitaxe device's operation. The power section displays calculated power consumption derived from onboard integrated circuits, input voltage measurements from your power supply connection, and requested ASIC voltage levels. When voltage drops occur, AxeOS immediately presents warning notifications, though these typically don't affect mining operations and simply indicate potential power supply optimization opportunities.
-
-Temperature monitoring focuses on ASIC chip thermal management, with readings taken from strategic locations on the device to provide accurate thermal data with appropriate offsets for chip-level accuracy. The frequency and voltage displays offer real-time feedback on your ASIC tuning parameters, with the measured voltage representing the most accurate reading available, taken directly at the ASIC chip location. This precision enables fine-tuning of performance parameters while maintaining safe operating conditions.
-
-The connection status section provides immediate visibility into your pool configuration, displaying the current stratum URL, port, and user identification. For devices connected to public pools, AxeOS generates convenient quick links that transport you directly to your pool's web interface, where you can access detailed statistics, device listings, and historical performance data. This integration streamlines the monitoring process by connecting device-level and pool-level information in a seamless workflow.
-
-### Swarm Management and Multi-Device Control
-
-The Swarm functionality represents AxeOS's solution to the complexity of managing multiple Bitaxe devices across a network, eliminating the need to remember and navigate to numerous IP addresses. This centralized management system allows you to add devices by simply entering their IP addresses, automatically detecting active Bitaxe miners and incorporating them into a unified control dashboard. Once configured, Swarm provides comprehensive control over your entire mining operation from a single interface.
-
-Through the Swarm interface, you can perform critical management tasks across multiple devices simultaneously or individually, including pool configuration changes, device restarts, frequency adjustments, and performance monitoring. This centralized approach significantly reduces the administrative overhead of managing large mining operations while ensuring consistent configuration across all devices. The system maintains individual device identity while providing collective management capabilities, striking an optimal balance between granular control and operational efficiency.
-
-The Swarm dashboard presents each managed device with its current status, performance metrics, and quick-access controls, enabling rapid response to performance issues or configuration changes. This functionality proves particularly valuable for miners operating multiple devices in different locations or those who frequently adjust mining parameters based on market conditions or pool performance.
-
-### Configuration Management and System Settings
-
-The Settings section of AxeOS provides comprehensive control over every configurable aspect of your Bitaxe device, from network connectivity to mining parameters and hardware optimization. Network configuration begins with Wi-Fi setup, where you specify your network name and password, with AxeOS recommending single-word network names without spaces to ensure reliable connectivity. The system handles the complete wireless configuration process, enabling remote management and monitoring capabilities.
-
-Mining configuration centers on stratum settings, where you specify your chosen mining pool's URL without protocol prefixes or port numbers, which are handled in separate fields. The stratum user field accommodates various pool requirements, supporting both Bitcoin addresses for solo mining and username systems for pool mining, with the ability to append device identifiers for multi-device operations. The recently added stratum password functionality supports pools requiring authentication, though most public pools operate without this requirement.
-
-Hardware optimization through frequency and core voltage adjustment represents AxeOS's most powerful performance tuning capability. Depending on your device version and browser, these settings may appear as dropdown menus with preset configurations or as open fields allowing custom values. The default settings of 485 MHz frequency and 1200 mV core voltage provide stable operation for initial testing, while advanced users can optimize these parameters for maximum performance or efficiency based on their specific requirements and operating conditions.
-
-### System Maintenance and Advanced Features
-
-AxeOS includes sophisticated system maintenance capabilities designed to keep your Bitaxe device operating at peak performance while providing diagnostic information for troubleshooting and optimization. The update system streamlines firmware management by displaying the latest available release directly in the interface and providing direct download links to official firmware files. This integration eliminates the need to manually navigate GitHub repositories or manage file downloads, simplifying the update process to a few clicks.
-
-The update interface accepts properly named firmware files, specifically esp-miner.bin and www.bin, ensuring compatibility and preventing installation errors. For users experiencing difficulties with the standard update process, AxeOS provides references to comprehensive factory flash procedures that can restore devices to original functionality. This dual approach accommodates both routine updates and recovery scenarios.
-
-The logging system provides real-time insight into device operations, displaying detailed information about ASIC chip models, system uptime, Wi-Fi connectivity status, available memory, firmware versions, and board revisions. These logs prove invaluable for developers and advanced users seeking to understand device behavior, diagnose issues, or optimize performance. The real-time log viewer presents live operational data, including nonce processing, difficulty calculations, and mining submission parameters, offering unprecedented visibility into the mining process itself.
-
-Additional system features include screen orientation control for devices used in custom enclosures, fan polarity inversion for specialized cooling configurations, and automatic fan control that adjusts cooling based on ASIC temperature. Manual fan speed control provides precise cooling management when automatic systems don't meet specific requirements. All configuration changes require saving and device restart to take effect, ensuring stable operation and preventing partial configuration states that could impact mining performance.
+AxeOS adalah firmware dan antarmuka web untuk perangkat Bitaxe mining, yang memberikan kontrol penuh dan kemampuan pemantauan kepada pengguna melalui dasbor berbasis browser yang intuitif. Sistem ini mengubah tugas manajemen ASIC yang rumit menjadi pengalaman yang mudah diakses, memungkinkan penambang untuk memantau kinerja, menyesuaikan pengaturan, dan mengelola beberapa perangkat dari satu antarmuka. Memahami AxeOS sangat penting untuk memaksimalkan potensi perangkat Bitaxe Anda dan mempertahankan operasi mining yang optimal.
 
 
-# Community and Collaboration
+### Ikhtisar Dasbor dan Metrik Inti
+
+
+Dasbor AxeOS berfungsi sebagai jendela utama Anda ke dalam kinerja perangkat Bitaxe Anda, menyajikan metrik mining yang penting dalam format waktu nyata yang terorganisir. Ketika Anda menavigasi ke alamat IP perangkat Bitaxe Anda, Anda akan segera disajikan dengan empat indikator kinerja utama yang menentukan kondisi operasi mining Anda saat ini. Tampilan laju hash menunjukkan kecepatan komputasi aktual yang dihasilkan chip ASIC Anda saat memproses template blok saat ini, memberikan umpan balik langsung pada fungsionalitas inti perangkat Anda.
+
+
+Berdekatan dengan tingkat hash, penghitung saham melacak setiap solusi valid yang dikirimkan perangkat Bitaxe Anda ke kumpulan mining, bertambah dengan setiap pengiriman yang berhasil dan berfungsi sebagai ukuran langsung dari kontribusi perangkat Anda terhadap upaya mining. Metrik efisiensi memberikan wawasan penting tentang kinerja daya perangkat Anda dengan menghitung rasio tingkat hash terhadap konsumsi daya, sehingga membantu Anda mengoptimalkan profitabilitas operasi Anda. Indikator tingkat kesulitan terbaik menyimpan catatan tingkat kesulitan tertinggi yang pernah ditemukan perangkat Anda, mempertahankan pencapaian ini bahkan melalui reboot dan pembaruan, hanya mengatur ulang ketika Anda melakukan flash pabrik secara lengkap.
+
+
+Sistem menu dasbor yang dapat diperluas, dikontrol oleh tombol sakelar, menyediakan akses ke semua fungsionalitas AxeOS dengan tetap mempertahankan antarmuka yang bersih. Grafik hash rate langsung merupakan salah satu fitur yang paling berharga, menampilkan data kinerja waktu nyata yang menjadi lebih akurat dan informatif semakin lama Anda mempertahankan sesi Anda. Bagian daya, panas, dan kinerja menyediakan pemantauan komprehensif terhadap status operasional perangkat Anda, termasuk peringatan tegangan input yang memperingatkan Anda akan potensi masalah catu daya sambil memastikan pengoperasian yang berkelanjutan dalam parameter yang aman.
+
+
+### Pemantauan Lanjutan dan Informasi Sistem
+
+
+Kemampuan pemantauan AxeOS jauh melampaui pelacakan tingkat hash dasar, memberikan wawasan terperinci tentang setiap aspek operasi perangkat Bitaxe Anda. Bagian daya menampilkan konsumsi daya yang dihitung yang berasal dari sirkuit terintegrasi onboard, pengukuran tegangan input dari koneksi catu daya Anda, dan level tegangan ASIC yang diminta. Ketika terjadi penurunan tegangan, AxeOS segera menampilkan notifikasi peringatan, meskipun ini biasanya tidak mempengaruhi operasi mining dan hanya menunjukkan peluang optimalisasi catu daya.
+
+
+Pemantauan suhu berfokus pada manajemen termal chip ASIC, dengan pembacaan yang diambil dari lokasi strategis pada perangkat untuk memberikan data termal yang akurat dengan offset yang sesuai untuk akurasi tingkat chip. Tampilan frekuensi dan tegangan menawarkan umpan balik waktu nyata pada parameter penyetelan ASIC Anda, dengan tegangan terukur yang mewakili pembacaan paling akurat yang tersedia, yang diambil langsung di lokasi chip ASIC. Ketepatan ini memungkinkan penyetelan parameter kinerja dengan tetap mempertahankan kondisi pengoperasian yang aman.
+
+
+Bagian status koneksi memberikan visibilitas langsung ke dalam konfigurasi pool mining Anda, menampilkan URL strata saat ini, port, dan identifikasi pengguna. Untuk perangkat yang terhubung ke kolam renang umum, AxeOS menghasilkan tautan cepat yang nyaman yang membawa Anda langsung ke antarmuka web kolam renang Anda, di mana Anda dapat mengakses statistik terperinci, daftar perangkat, dan data kinerja historis. Integrasi ini menyederhanakan proses pemantauan dengan menghubungkan informasi tingkat perangkat dan tingkat kolam renang dalam alur kerja yang mulus.
+
+
+### Manajemen Kawanan dan Kontrol Multi-Perangkat
+
+
+Fungsionalitas Swarm merupakan solusi AxeOS untuk kerumitan dalam mengelola beberapa perangkat Bitaxe di seluruh jaringan, sehingga tidak perlu lagi mengingat dan menavigasi ke banyak alamat IP. Sistem manajemen terpusat ini memungkinkan Anda untuk menambahkan perangkat hanya dengan memasukkan alamat IP mereka, secara otomatis mendeteksi penambang Bitaxe yang aktif dan menggabungkannya ke dalam dasbor kontrol terpadu. Setelah dikonfigurasi, Swarm memberikan kontrol yang komprehensif atas seluruh operasi mining Anda dari satu antarmuka.
+
+
+Melalui antarmuka Swarm, Anda dapat melakukan tugas-tugas manajemen penting di beberapa perangkat secara bersamaan atau satu per satu, termasuk perubahan konfigurasi pool, restart perangkat, penyesuaian frekuensi, dan pemantauan kinerja. Pendekatan terpusat ini secara signifikan mengurangi biaya administrasi dalam mengelola operasi mining yang besar sekaligus memastikan konfigurasi yang konsisten di semua perangkat. Sistem ini mempertahankan identitas perangkat individu sambil memberikan kemampuan manajemen kolektif, mencapai keseimbangan optimal antara kontrol granular dan efisiensi operasional.
+
+
+Dasbor Swarm menampilkan setiap perangkat yang dikelola dengan status saat ini, metrik kinerja, dan kontrol akses cepat, sehingga memungkinkan respons yang cepat terhadap masalah kinerja atau perubahan konfigurasi. Fungsionalitas ini terbukti sangat berharga bagi para penambang yang mengoperasikan beberapa perangkat di lokasi yang berbeda atau mereka yang sering menyesuaikan parameter mining berdasarkan kondisi pasar atau kinerja pool.
+
+
+### Manajemen Konfigurasi dan Pengaturan Sistem
+
+
+Bagian Pengaturan dari AxeOS menyediakan kontrol yang komprehensif atas setiap aspek yang dapat dikonfigurasi dari perangkat Bitaxe Anda, mulai dari konektivitas jaringan hingga parameter mining dan optimalisasi perangkat keras. Konfigurasi jaringan dimulai dengan pengaturan Wi-Fi, di mana Anda menentukan nama jaringan dan kata sandi Anda, dengan AxeOS merekomendasikan nama jaringan satu kata tanpa spasi untuk memastikan konektivitas yang andal. Sistem ini menangani proses konfigurasi nirkabel yang lengkap, memungkinkan manajemen jarak jauh dan kemampuan pemantauan.
+
+
+Konfigurasi Mining berpusat pada pengaturan strata, di mana Anda menentukan URL pool mining yang Anda pilih tanpa awalan protokol atau nomor port, yang ditangani dalam bidang terpisah. Bidang pengguna strata mengakomodasi berbagai persyaratan pool, mendukung alamat Bitcoin untuk mining tunggal dan sistem nama pengguna untuk pool mining, dengan kemampuan untuk menambahkan pengidentifikasi perangkat untuk operasi multi-perangkat. Fungsionalitas kata sandi strata yang baru-baru ini ditambahkan mendukung pool yang membutuhkan autentikasi, meskipun sebagian besar pool publik beroperasi tanpa persyaratan ini.
+
+
+Pengoptimalan perangkat keras melalui penyesuaian frekuensi dan tegangan inti merupakan kemampuan penyetelan kinerja AxeOS yang paling kuat. Tergantung pada versi perangkat dan browser Anda, pengaturan ini dapat muncul sebagai menu tarik-turun dengan konfigurasi yang telah ditetapkan atau sebagai bidang terbuka yang memungkinkan nilai khusus. Pengaturan default frekuensi 485 MHz dan tegangan inti 1200 mV memberikan operasi yang stabil untuk pengujian awal, sementara pengguna tingkat lanjut dapat mengoptimalkan parameter ini untuk kinerja atau efisiensi maksimum berdasarkan persyaratan khusus dan kondisi operasi mereka.
+
+
+### Pemeliharaan Sistem dan Fitur Lanjutan
+
+
+AxeOS mencakup kemampuan pemeliharaan sistem yang canggih yang dirancang untuk menjaga perangkat Bitaxe Anda tetap beroperasi pada kinerja puncak sambil memberikan informasi diagnostik untuk pemecahan masalah dan pengoptimalan. Sistem pembaruan menyederhanakan manajemen firmware dengan menampilkan rilis terbaru yang tersedia secara langsung di antarmuka dan menyediakan tautan unduhan langsung ke file firmware resmi. Integrasi ini menghilangkan kebutuhan untuk menavigasi repositori GitHub secara manual atau mengelola unduhan file, menyederhanakan proses pembaruan menjadi beberapa klik.
+
+
+Antarmuka pembaruan menerima file firmware dengan nama yang tepat, khususnya esp-miner.bin dan www.bin, untuk memastikan kompatibilitas dan mencegah kesalahan instalasi. Bagi pengguna yang mengalami kesulitan dengan proses pembaruan standar, AxeOS menyediakan referensi untuk prosedur flash pabrik yang komprehensif yang dapat mengembalikan perangkat ke fungsi aslinya. Pendekatan ganda ini mengakomodasi pembaruan rutin dan skenario pemulihan.
+
+
+Sistem pencatatan memberikan wawasan waktu nyata ke dalam operasi perangkat, menampilkan informasi terperinci tentang model chip ASIC, waktu aktif sistem, status konektivitas Wi-Fi, memori yang tersedia, versi firmware, dan revisi board. Log ini terbukti sangat berharga bagi pengembang dan pengguna tingkat lanjut yang ingin memahami perilaku perangkat, mendiagnosis masalah, atau mengoptimalkan kinerja. Penampil log waktu nyata menyajikan data operasional langsung, termasuk pemrosesan nonce, perhitungan kesulitan, dan parameter pengiriman mining, menawarkan visibilitas yang belum pernah terjadi sebelumnya ke dalam proses mining itu sendiri.
+
+
+Fitur sistem tambahan termasuk kontrol orientasi layar untuk perangkat yang digunakan dalam penutup khusus, inversi polaritas kipas untuk konfigurasi pendinginan khusus, dan kontrol kipas otomatis yang menyesuaikan pendinginan berdasarkan suhu ASIC. Kontrol kecepatan kipas manual memberikan manajemen pendinginan yang tepat ketika sistem otomatis tidak memenuhi persyaratan tertentu. Semua perubahan konfigurasi memerlukan penyimpanan dan restart perangkat agar dapat diterapkan, memastikan operasi yang stabil dan mencegah status konfigurasi parsial yang dapat memengaruhi kinerja mining.
+
+
+
+# Komunitas dan Kolaborasi
+
 <partId>eed1ce48-6752-5744-91f7-91e4e20ff6b2</partId>
 
-## Open-Source Contribution Overview
+
+## Ikhtisar Kontribusi Sumber Terbuka
+
 <chapterId>715d026e-cebc-536e-a34e-728f5653b999</chapterId>
+
 :::video id=7298ba19-28d2-4a7c-ac0b-44ad0c4770cf:::
 
-### GitHub and Its Role in Software Development
+### GitHub dan Perannya dalam Pengembangan Perangkat Lunak
 
-GitHub represents a fundamental shift in how software development projects are managed and shared across the global programming community. As a cloud-based platform that hosts software development projects using Git, a distributed version control system, GitHub enables developers to collaborate seamlessly on projects regardless of their physical location. The platform serves as both a technical tool and a social network for programmers, allowing them to track changes, merge updates, maintain different versions of their code, and contribute to open-source initiatives like the BitX project from Open Source Miners United.
 
-The power of GitHub lies in its ability to simplify the complex process of collaborative development. When multiple developers work on the same project, GitHub provides the infrastructure to manage contributions, review changes, handle project issues, and maintain comprehensive documentation. This collaborative approach has made GitHub an essential component of modern software development workflows, transforming how both individual developers and large organizations approach project management and code sharing.
+GitHub mewakili perubahan mendasar dalam cara proyek pengembangan perangkat lunak dikelola dan dibagikan di seluruh komunitas pemrograman global. Sebagai platform berbasis cloud yang menjadi tuan rumah proyek pengembangan perangkat lunak menggunakan Git, sistem kontrol versi terdistribusi, GitHub memungkinkan para pengembang untuk berkolaborasi dengan lancar dalam proyek tanpa memandang lokasi fisik mereka. Platform ini berfungsi sebagai alat teknis dan jaringan sosial bagi para programmer, memungkinkan mereka untuk melacak perubahan, menggabungkan pembaruan, memelihara berbagai versi kode mereka, dan berkontribusi pada inisiatif sumber terbuka seperti proyek BitX dari Open Source Miners United.
 
-### Navigating the GitHub Interface and Repository Structure
 
-Understanding the GitHub interface begins with recognizing the key elements that make up any repository page. The top navigation bar contains several critical sections including Code, Issues, Pull Requests, Discussions, Actions, Projects, Security, and Insights. Each section serves a specific purpose in the project management ecosystem, with the Code section displaying the actual files and folders that comprise the project.
+Kekuatan GitHub terletak pada kemampuannya untuk menyederhanakan proses pengembangan kolaboratif yang kompleks. Ketika beberapa pengembang mengerjakan proyek yang sama, GitHub menyediakan infrastruktur untuk mengelola kontribusi, meninjau perubahan, menangani masalah proyek, dan memelihara dokumentasi yang komprehensif. Pendekatan kolaboratif ini telah menjadikan GitHub sebagai komponen penting dalam alur kerja pengembangan perangkat lunak modern, yang mengubah cara pengembang individu dan organisasi besar dalam melakukan pendekatan terhadap manajemen proyek dan berbagi kode.
 
-The repository structure itself reflects the organizational approach of the project maintainers. Some repositories contain just a single file, perhaps a simple shell script, while others like the BitX hardware project contain numerous files organized into directories and subdirectories. The repository name appears prominently and serves as both an identifier and a brief description of the project's purpose. Essential interactive elements include the Watch button for receiving notifications about repository updates, the Fork button for creating personal copies of the repository, and the Star button which functions as a community endorsement system similar to a "thumbs up" feature.
 
-The About section provides crucial project information in a condensed format, including a one-line description, licensing information, and key project details. For the BitX project, this section identifies it as "open source ASIC Bitcoin miner hardware" and specifies the GPL 3.0 license. Understanding licensing is particularly important because GitHub operates as an open-source platform where public repositories are accessible to the entire community, making license compliance and understanding essential for any contributor.
+### Menavigasi GitHub Interface dan Struktur Repositori
 
-### Working with Branches and Project Versions
 
-The concept of branches represents one of GitHub's most powerful features for managing different versions and development tracks within a single project. A branch essentially creates a copy or modified version of the main codebase, allowing developers to work on specific features, bug fixes, or experimental changes without affecting the primary development line. The master branch typically serves as the default and most stable version of the project, while additional branches accommodate different iterations, testing phases, or entirely different product variants.
+Memahami antarmuka GitHub dimulai dengan mengenali elemen-elemen kunci yang membentuk halaman repositori. Bilah navigasi bagian atas berisi beberapa bagian penting termasuk Kode, Masalah, Permintaan Tarik, Diskusi, Tindakan, Proyek, Keamanan, dan Wawasan. Setiap bagian memiliki tujuan tertentu dalam ekosistem manajemen proyek, dengan bagian Code menampilkan file dan folder aktual yang membentuk proyek.
 
-In the BitX hardware project, multiple branches exist to manage different hardware versions and configurations. For example, the Ultra v2 branch contains files specific to that hardware iteration, while the Super 401 branch focuses on implementations using the S21 ASIC chip for improved efficiency. Each branch may be several commits ahead or behind the master branch, indicating the extent of changes and development activity. When examining different branches, users will notice completely different file structures, documentation, and even visual representations, reflecting the unique requirements and specifications of each hardware variant.
 
-The branch system prevents confusion among contributors and users by clearly separating different development tracks. Rather than mixing experimental features with stable releases, or combining different hardware versions in a single location, branches provide clean separation while maintaining the ability to merge successful changes back into the main development line when appropriate. This organizational approach ensures that users can easily locate the specific version they need while developers can work on improvements without disrupting the primary project.
+Struktur repositori itu sendiri mencerminkan pendekatan organisasi pengelola proyek. Beberapa repositori hanya berisi satu berkas, mungkin sebuah skrip shell sederhana, sementara yang lain seperti proyek perangkat keras BitX berisi banyak berkas yang diorganisasikan ke dalam direktori dan subdirektori. Nama repositori muncul dengan jelas dan berfungsi sebagai pengenal dan deskripsi singkat tentang tujuan proyek. Elemen interaktif yang penting termasuk tombol Watch untuk menerima pemberitahuan tentang pembaruan repositori, tombol Fork untuk membuat salinan pribadi repositori, dan tombol Star yang berfungsi sebagai sistem pengesahan komunitas yang mirip dengan fitur "jempol".
 
-### Contributing Through Issues
 
-The Issues section serves as the primary communication channel between users and project maintainers for reporting problems, suggesting improvements, and documenting bugs. However, it's crucial to understand that the Issues section is specifically designed for legitimate technical problems rather than general questions or support requests. When users encounter actual malfunctions, unexpected behavior, or identify potential improvements, creating a well-documented issue helps the entire community by bringing attention to problems that may affect multiple users.
+Bagian Tentang menyediakan informasi proyek yang penting dalam format yang ringkas, termasuk deskripsi satu baris, informasi lisensi, dan detail proyek utama. Untuk proyek BitX, bagian ini mengidentifikasikannya sebagai "perangkat keras penambang open source ASIC Bitcoin" dan menentukan lisensi GPL 3.0. Memahami lisensi sangat penting karena GitHub beroperasi sebagai platform sumber terbuka di mana repositori publik dapat diakses oleh seluruh komunitas, tetapi kontennya hanya dapat digunakan dan didistribusikan sesuai dengan aturan kepatuhan masing-masing lisensi.
 
-Effective issue reporting requires detailed documentation of the problem, including the circumstances that led to the issue, steps to reproduce the problem, and any relevant technical details. The BitX project demonstrates this principle through various closed issues that show the resolution process, from initial problem identification through community discussion to final resolution. Some issues result in hardware improvements, such as the addition of mounting holes to increase cooling options, while others may be resolved through user education or software updates.
 
-The distinction between Issues and Discussions is important for maintaining organized community interaction. While Issues focus on specific technical problems, the Discussions section provides a forum-like environment for questions, ideas, and general community engagement. Although the Discord server has become the primary communication channel for the BitX community, the GitHub Discussions section remains available for more formal or searchable conversations that benefit from permanent documentation and easy reference.
+### Bekerja dengan Cabang dan Versi Proyek
 
-### Understanding Pull Requests
 
-Pull requests represent the mechanism through which external contributors propose changes to a project repository. When someone identifies an improvement, bug fix, or new feature that would benefit the project, they can create a pull request to submit their changes for review and potential integration into the main codebase. This process ensures that all modifications undergo review before becoming part of the official project, maintaining code quality and project coherence while enabling community contributions.
+Konsep cabang merupakan salah satu fitur GitHub yang paling kuat untuk mengelola berbagai versi dan jalur pengembangan dalam satu proyek. Cabang pada dasarnya membuat salinan atau versi modifikasi dari basis kode utama, yang memungkinkan pengembang untuk mengerjakan fitur-fitur tertentu, perbaikan bug, atau perubahan eksperimental tanpa memengaruhi jalur pengembangan utama. Cabang utama biasanya berfungsi sebagai versi default dan paling stabil dari proyek, sementara cabang tambahan mengakomodasi iterasi yang berbeda, fase pengujian, atau varian produk yang sama sekali berbeda.
 
-The pull request workflow typically begins when a contributor forks the repository, creates their own copy where they can make changes, and then submits those changes back to the original project through a pull request. Project maintainers can then review the proposed changes, discuss modifications with the contributor, and ultimately decide whether to merge the changes into the main project. This collaborative review process helps maintain project standards while encouraging community participation and improvement.
 
-Understanding tags and releases adds another layer to project management and version control. Tags serve as markers in the development timeline, identifying specific points that represent particular versions or milestones. In hardware projects like BitX, tags often correspond to specific model numbers or hardware revisions, providing clear reference points for users seeking particular versions. Releases, more commonly used in software projects, represent formal distributions of completed features and bug fixes, often accompanied by detailed release notes and downloadable packages.
+Dalam proyek perangkat keras BitX, terdapat beberapa cabang untuk mengelola versi dan konfigurasi perangkat keras yang berbeda. Sebagai contoh, cabang Ultra v2 berisi file khusus untuk iterasi perangkat keras tersebut, sedangkan cabang Super 401 berfokus pada implementasi yang menggunakan chip S21 ASIC untuk meningkatkan efisiensi. Setiap cabang mungkin memiliki beberapa komit di depan atau di belakang cabang utama, yang menunjukkan sejauh mana perubahan dan aktivitas pengembangan. Ketika memeriksa cabang yang berbeda, pengguna akan melihat struktur file, dokumentasi, dan bahkan representasi visual yang sama sekali berbeda, yang mencerminkan persyaratan dan spesifikasi unik dari setiap varian perangkat keras.
 
-The GitHub ecosystem creates a comprehensive environment for open-source collaboration that extends far beyond simple file sharing. By understanding these various components and their proper usage, contributors can effectively participate in projects, help improve software and hardware designs, and benefit from the collective knowledge and effort of the global development community. Whether reporting issues, suggesting improvements, or contributing code, GitHub provides the tools and structure necessary for meaningful collaboration in the open-source world.
 
-## Open-Source Contribution Hands-on
+Sistem cabang mencegah kebingungan di antara kontributor dan pengguna dengan memisahkan jalur pengembangan yang berbeda secara jelas. Daripada mencampur fitur eksperimental dengan rilis stabil, atau menggabungkan versi perangkat keras yang berbeda di satu lokasi, cabang memberikan pemisahan yang jelas sambil mempertahankan kemampuan untuk menggabungkan perubahan yang berhasil kembali ke jalur pengembangan utama jika diperlukan. Pendekatan organisasi ini memastikan bahwa pengguna dapat dengan mudah menemukan versi spesifik yang mereka butuhkan sementara pengembang dapat mengerjakan perbaikan tanpa mengganggu proyek utama.
+
+
+### Berkontribusi Melalui Isu
+
+
+Bagian Masalah berfungsi sebagai saluran komunikasi utama antara pengguna dan pengelola proyek untuk melaporkan masalah, menyarankan perbaikan, dan mendokumentasikan bug. Namun, sangat penting untuk memahami bahwa bagian Masalah dirancang khusus untuk masalah teknis yang sah, bukan pertanyaan umum atau permintaan dukungan. Ketika pengguna menemukan kerusakan aktual, perilaku tak terduga, atau mengidentifikasi potensi perbaikan, membuat masalah yang terdokumentasi dengan baik akan membantu seluruh komunitas dengan memberikan perhatian pada masalah yang dapat memengaruhi banyak pengguna.
+
+
+Pelaporan masalah yang efektif membutuhkan dokumentasi masalah yang mendetail, termasuk keadaan yang menyebabkan masalah tersebut, langkah-langkah untuk mereproduksi masalah, dan detail teknis yang relevan. Proyek BitX mendemonstrasikan prinsip ini melalui berbagai masalah tertutup yang menunjukkan proses penyelesaiannya, mulai dari identifikasi masalah awal melalui diskusi komunitas hingga penyelesaian akhir. Beberapa masalah menghasilkan perbaikan perangkat keras, seperti penambahan lubang pemasangan untuk meningkatkan opsi pendinginan, sementara yang lain dapat diselesaikan melalui pendidikan pengguna atau pembaruan perangkat lunak.
+
+
+Perbedaan antara Isu dan Diskusi penting untuk menjaga interaksi komunitas yang terorganisir. Sementara Isu berfokus pada masalah teknis tertentu, bagian Diskusi menyediakan lingkungan seperti forum untuk pertanyaan, ide, dan keterlibatan komunitas secara umum. Meskipun server Discord telah menjadi saluran komunikasi utama untuk komunitas BitX, bagian Diskusi GitHub tetap tersedia untuk percakapan yang lebih formal atau dapat dicari yang mendapat manfaat dari dokumentasi permanen dan referensi yang mudah.
+
+
+### Memahami Pull Request
+
+
+Pull request merupakan mekanisme yang digunakan kontributor eksternal untuk mengusulkan perubahan pada repositori proyek. Ketika seseorang mengidentifikasi peningkatan, perbaikan bug, atau fitur baru yang akan bermanfaat bagi proyek, mereka dapat membuat pull request untuk mengirimkan perubahan mereka untuk ditinjau dan potensi integrasi ke dalam basis kode utama. Proses ini memastikan bahwa semua modifikasi telah ditinjau sebelum menjadi bagian dari proyek resmi, menjaga kualitas kode dan koherensi proyek sambil memungkinkan kontribusi komunitas.
+
+
+Alur kerja pull request biasanya dimulai ketika seorang kontributor melakukan fork pada repositori, membuat salinannya sendiri di mana mereka dapat melakukan perubahan, dan kemudian mengirimkan perubahan tersebut kembali ke proyek asli melalui pull request. Pengelola proyek kemudian dapat meninjau perubahan yang diusulkan, mendiskusikan modifikasi dengan kontributor, dan pada akhirnya memutuskan apakah akan menggabungkan perubahan tersebut ke dalam proyek utama. Proses peninjauan kolaboratif ini membantu menjaga standar proyek sekaligus mendorong partisipasi dan peningkatan komunitas.
+
+
+Memahami tag dan rilis menambahkan lapisan lain pada manajemen proyek dan kontrol versi. Tag berfungsi sebagai penanda dalam garis waktu pengembangan, mengidentifikasi titik-titik tertentu yang mewakili versi atau pencapaian tertentu. Dalam proyek perangkat keras seperti BitX, tag sering kali berhubungan dengan nomor model atau revisi perangkat keras tertentu, memberikan titik referensi yang jelas bagi pengguna yang mencari versi tertentu. Rilis, yang lebih umum digunakan dalam proyek perangkat lunak, mewakili distribusi formal dari fitur-fitur yang telah selesai dan perbaikan bug, sering kali disertai dengan catatan rilis yang terperinci dan paket yang dapat diunduh.
+
+
+Ekosistem GitHub menciptakan lingkungan yang komprehensif untuk kolaborasi sumber terbuka yang jauh melampaui berbagi file sederhana. Dengan memahami berbagai komponen ini dan penggunaannya yang tepat, kontributor dapat berpartisipasi secara efektif dalam proyek, membantu meningkatkan desain perangkat lunak dan perangkat keras, serta mendapatkan manfaat dari pengetahuan dan upaya kolektif komunitas pengembangan global. Baik melaporkan masalah, menyarankan perbaikan, atau menyumbangkan kode, GitHub menyediakan alat dan struktur yang diperlukan untuk kolaborasi yang berarti di dunia sumber terbuka.
+
+
+## Kontribusi Sumber Terbuka Secara Langsung
+
 <chapterId>84d033f5-7182-584f-b1a5-697172bc7a1c</chapterId>
+
 :::video id=7d318fd0-6f0b-422a-9f30-2c470b56951d:::
 
-Building upon the foundation of creating issues and exploring open source projects, this chapter focuses on the practical aspects of making direct contributions through pull requests and repository management. Understanding how to fork repositories, make changes, and submit pull requests represents a crucial skill set for any developer looking to contribute meaningfully to open source projects, whether they involve software development or hardware design.
-
-The process of contributing code changes follows a standardized workflow that ensures project integrity while allowing for collaborative development. This workflow involves creating your own copy of a project repository, making modifications in a controlled environment, and then proposing those changes back to the original project through a formal review process. While the examples in this chapter focus primarily on software contributions, the same principles and procedures apply equally to hardware projects involving PCB designs, schematics, and other technical documentation.
-
-### Understanding Forks and Repository Structure
-
-The foundation of contributing to any open source project begins with creating a fork, which serves as your personal copy of the original repository. When you navigate to a GitHub repository and click the "fork" button, you create an independent copy under your own GitHub account that maintains a clear connection to the original source. This forked repository appears in your account with a clear indication of its origin, displaying text such as "forked from [original-owner]/[repository-name]" beneath the repository title.
-
-Your forked repository operates independently from the original, allowing you to make changes without affecting the main project. However, it maintains awareness of updates to the original repository through GitHub's synchronization features. When the original repository receives updates that your fork lacks, GitHub displays status information such as "This branch is X commits behind" or "X commits ahead," providing clear visibility into the relationship between your fork and the upstream repository. You can synchronize your fork with the original repository at any time by clicking the "Sync fork" button, which pulls in the latest changes from the upstream source.
-
-The relationship between your fork and the original repository becomes particularly important when you begin making changes. As you implement modifications and commit them to your fork, GitHub tracks these differences and displays them as commits ahead of the original repository. This tracking system enables the pull request process, where you can propose your changes for inclusion in the main project while maintaining a clear history of what has been modified.
-
-### Setting Up Your Development Environment
-
-Creating an effective development environment requires careful attention to both general development tools and project-specific requirements. Visual Studio Code serves as an excellent integrated development environment (IDE) for most open source contributions, providing essential features for code editing, version control integration, and project management. The first critical component involves installing and configuring the Git extension, which enables seamless integration with GitHub repositories directly from your development environment.
-
-Modern versions of Visual Studio Code typically include Git support by default, but you must authenticate with your GitHub account to enable full functionality. This authentication process involves signing into GitHub through the IDE, which then allows you to clone repositories, commit changes, and push updates directly from your development environment. The GitHub integration appears as an icon in the left sidebar, providing access to repository cloning, branch management, and synchronization features without requiring command-line operations.
-
-For projects involving embedded systems or specific hardware platforms, additional tools become necessary. The ESP-IDF extension represents a crucial component for projects targeting ESP32 microcontrollers, requiring specific version compatibility to ensure proper functionality. The installation process involves selecting the appropriate ESP-IDF version, configuring tool paths, and setting up the development container environment. Version 5.1.3 currently represents the recommended configuration for many ESP32-based projects, though these requirements may evolve as projects update their dependencies and toolchains.
-
-### Making Changes and Managing Commits
-
-Once your development environment is properly configured, the process of making meaningful contributions begins with downloading or cloning your forked repository to your local machine. You can accomplish this either by downloading a ZIP file of the repository contents or by using Visual Studio Code's integrated cloning functionality, which provides a more streamlined workflow for ongoing development. The cloning process creates a local copy of your repository that remains synchronized with your GitHub fork, enabling you to work offline while maintaining version control capabilities.
-
-When working with the local repository, you gain access to the complete project structure, including source code files, configuration files, documentation, and any hardware design files. Most firmware projects utilize programming languages such as C for core functionality, with additional components written in TypeScript for user interfaces or Java for specific utilities. Understanding the project structure helps you identify the appropriate files to modify and ensures that your changes align with the project's architectural patterns and coding standards.
-
-The commit process represents a fundamental aspect of version control that requires careful attention to both technical accuracy and communication clarity. Before making any changes, you should thoroughly understand the existing code and test any modifications in your local environment. The cardinal rule of open source contribution emphasizes never publishing untested code, as this can introduce bugs or security vulnerabilities that affect the entire project community. Additionally, you must never commit sensitive information such as passwords, API tokens, or personal credentials to public repositories, as this information becomes permanently accessible to anyone with repository access.
-
-### Creating and Managing Pull Requests
-
-The culmination of your contribution effort involves creating a pull request, which serves as a formal proposal to merge your changes into the original project repository. This process begins in your GitHub fork, where you can review the differences between your repository and the upstream source. GitHub's interface clearly displays the number of commits ahead or behind, providing immediate visibility into the scope of your proposed changes. Before creating a pull request, you should ensure your fork is synchronized with the latest upstream changes to minimize potential conflicts.
-
-Creating an effective pull request requires more than simply submitting your code changes. The pull request description serves as your opportunity to communicate the purpose, scope, and impact of your modifications to the project maintainers and community. A well-written description explains what problems your changes address, how you implemented the solution, and any potential implications for other parts of the project. This documentation becomes particularly important for complex changes that might not be immediately obvious from examining the code differences alone.
-
-The review process represents a collaborative aspect of open source development where project maintainers and experienced contributors evaluate your proposed changes. You can request specific reviewers who have expertise in the areas your changes affect, ensuring that knowledgeable community members examine your work. The review process may involve multiple iterations, with reviewers providing feedback, requesting modifications, or asking for additional testing. This collaborative refinement process helps maintain code quality while providing valuable learning opportunities for contributors at all experience levels.
-
-Understanding that not all pull requests receive acceptance helps set appropriate expectations for the contribution process. Project maintainers may decline pull requests for various reasons, including misalignment with project goals, insufficient testing, or the existence of alternative solutions already in development. Rather than viewing rejection as failure, consider it an opportunity to learn from feedback, refine your approach, and potentially contribute alternative solutions that better meet the project's needs. The open source community thrives on this iterative process of proposal, review, and refinement that ultimately drives projects forward through collective effort and shared expertise.
+Dengan membangun fondasi untuk membuat isu dan mengeksplorasi proyek open source, bab ini berfokus pada aspek praktis dalam memberikan kontribusi langsung melalui pull request dan manajemen repositori. Memahami cara mengelola repositori fork, membuat perubahan, dan mengirimkan pull request merupakan keahlian yang sangat penting bagi setiap pengembang yang ingin berkontribusi secara bermakna pada proyek open source, baik itu pengembangan perangkat lunak maupun desain perangkat keras.
 
 
-## What's Public-Pool ?
+Proses kontribusi perubahan kode mengikuti alur kerja standar yang memastikan integritas proyek sekaligus memungkinkan pengembangan kolaboratif. Alur kerja ini melibatkan pembuatan salinan repositori proyek Anda sendiri, melakukan modifikasi dalam lingkungan yang terkendali, dan kemudian mengusulkan perubahan tersebut kembali ke proyek asli melalui proses peninjauan formal. Meskipun contoh-contoh dalam bab ini berfokus pada kontribusi perangkat lunak, prinsip dan prosedur yang sama juga berlaku untuk proyek perangkat keras yang melibatkan desain PCB, skema, dan dokumentasi teknis lainnya.
+
+
+### Memahami Forks dan Struktur Repositori
+
+
+Dasar dari berkontribusi pada proyek sumber terbuka dimulai dengan membuat fork, yang berfungsi sebagai salinan pribadi Anda dari repositori asli. Ketika Anda menavigasi ke repositori GitHub dan mengklik tombol "fork", Anda membuat salinan independen di bawah akun GitHub Anda sendiri yang mempertahankan koneksi yang jelas ke sumber aslinya. Repositori bercabang ini muncul di akun Anda dengan indikasi yang jelas tentang asalnya, menampilkan teks seperti "bercabang dari [pemilik-asli]/[nama-repositori]" di bawah judul repositori.
+
+
+Repositori bercabang Anda beroperasi secara independen dari yang asli, memungkinkan Anda untuk membuat perubahan tanpa memengaruhi proyek utama. Namun, repositori cabang tetap mengetahui pembaruan pada repositori asli melalui fitur sinkronisasi GitHub. Ketika repositori asli menerima pembaruan yang tidak dimiliki oleh fork Anda, GitHub menampilkan informasi status seperti "Cabang ini adalah X yang berkomitmen di belakang" atau "X yang berkomitmen di depan," yang memberikan visibilitas yang jelas ke dalam hubungan antara fork dan repositori hulu. Anda dapat menyinkronkan fork Anda dengan repositori asli kapan saja dengan mengklik tombol "Sinkronkan fork", yang menarik perubahan terbaru dari sumber hulu.
+
+
+Hubungan antara fork dan repositori asli menjadi sangat penting ketika Anda mulai membuat perubahan. Ketika Anda mengimplementasikan modifikasi dan mengomitnya ke fork Anda, GitHub melacak perbedaan ini dan menampilkannya sebagai komit di depan repositori asli. Sistem pelacakan ini memungkinkan proses pull request, di mana Anda dapat mengusulkan perubahan Anda untuk dimasukkan ke dalam proyek utama sambil mempertahankan riwayat yang jelas tentang apa yang telah dimodifikasi.
+
+
+### Menyiapkan Lingkungan Pengembangan Anda
+
+
+Menciptakan lingkungan pengembangan yang efektif membutuhkan perhatian yang cermat terhadap alat pengembangan umum dan persyaratan khusus proyek. Visual Studio Code berfungsi sebagai lingkungan pengembangan terintegrasi (IDE) yang sangat baik untuk sebagian besar kontribusi sumber terbuka, menyediakan fitur-fitur penting untuk pengeditan kode, integrasi kontrol versi, dan manajemen proyek. Komponen penting pertama melibatkan pemasangan dan konfigurasi ekstensi Git, yang memungkinkan integrasi tanpa batas dengan repositori GitHub langsung dari lingkungan pengembangan Anda.
+
+
+Versi modern Visual Studio Code biasanya menyertakan dukungan Git secara default, tetapi Anda harus melakukan autentikasi dengan akun GitHub untuk mengaktifkan fungsionalitas penuh. Proses autentikasi ini melibatkan masuk ke GitHub melalui IDE, yang kemudian memungkinkan Anda untuk mengkloning repositori, melakukan perubahan, dan mendorong pembaruan langsung dari lingkungan pengembangan Anda. Integrasi GitHub muncul sebagai ikon di bilah sisi kiri, menyediakan akses ke kloning repositori, manajemen cabang, dan fitur sinkronisasi tanpa memerlukan operasi baris perintah.
+
+
+Untuk proyek yang melibatkan sistem tertanam atau platform perangkat keras tertentu, alat tambahan menjadi penting. Ekstensi ESP-IDF merupakan komponen penting untuk proyek yang menargetkan mikrokontroler ESP32, yang membutuhkan kompatibilitas versi tertentu untuk memastikan fungsionalitas yang tepat. Proses instalasi melibatkan pemilihan versi ESP-IDF yang sesuai, mengkonfigurasi jalur alat, dan menyiapkan lingkungan wadah pengembangan. Versi 5.1.3 saat ini mewakili konfigurasi yang direkomendasikan untuk banyak proyek berbasis ESP32, meskipun persyaratan ini dapat berkembang saat proyek memperbarui dependensi dan rantai alat mereka.
+
+
+### Membuat Perubahan dan Mengelola Komitmen
+
+
+Setelah lingkungan pengembangan Anda dikonfigurasi dengan benar, proses membuat kontribusi yang berarti dimulai dengan mengunduh atau mengkloning repositori bercabang Anda ke mesin lokal Anda. Anda dapat melakukannya dengan mengunduh file ZIP dari konten repositori atau dengan menggunakan fungsionalitas kloning terintegrasi Visual Studio Code, yang menyediakan alur kerja yang lebih efisien untuk pengembangan yang sedang berlangsung. Proses kloning membuat salinan lokal repositori Anda yang tetap tersinkronisasi dengan GitHub fork, memungkinkan Anda untuk bekerja secara offline dengan tetap mempertahankan kemampuan kontrol versi.
+
+
+Ketika bekerja dengan repositori lokal, Anda mendapatkan akses ke struktur proyek yang lengkap, termasuk file kode sumber, file konfigurasi, dokumentasi, dan file desain perangkat keras. Sebagian besar proyek firmware menggunakan bahasa pemrograman seperti C untuk fungsionalitas inti, dengan komponen tambahan yang ditulis dalam TypeScript untuk antarmuka pengguna atau Java untuk utilitas tertentu. Memahami struktur proyek membantu Anda mengidentifikasi file yang sesuai untuk dimodifikasi dan memastikan bahwa perubahan yang Anda lakukan selaras dengan pola arsitektur dan standar pengkodean proyek.
+
+
+Proses komit merupakan aspek fundamental dari kontrol versi yang membutuhkan perhatian yang cermat terhadap akurasi teknis dan kejelasan komunikasi. Sebelum melakukan perubahan apa pun, Anda harus benar-benar memahami kode yang ada dan menguji modifikasi apa pun di lingkungan lokal Anda. Aturan utama dari kontribusi open source menekankan untuk tidak pernah mempublikasikan kode yang belum teruji, karena hal ini dapat menyebabkan bug atau kerentanan keamanan yang mempengaruhi seluruh komunitas proyek. Selain itu, Anda tidak boleh memberikan informasi sensitif seperti kata sandi, token API, atau kredensial pribadi ke repositori publik, karena informasi ini dapat diakses secara permanen oleh siapa pun yang memiliki akses ke repositori.
+
+
+### Membuat dan Mengelola Pull Request
+
+
+Puncak dari upaya kontribusi Anda adalah membuat pull request, yang berfungsi sebagai proposal formal untuk menggabungkan perubahan Anda ke dalam repositori proyek asli. Proses ini dimulai di GitHub fork Anda, di mana Anda dapat meninjau perbedaan antara repositori Anda dan sumber hulu. Antarmuka GitHub dengan jelas menampilkan jumlah komit di depan atau di belakang, memberikan visibilitas langsung ke dalam cakupan perubahan yang Anda usulkan. Sebelum membuat pull request, Anda harus memastikan fork Anda disinkronkan dengan perubahan hulu terbaru untuk meminimalkan potensi konflik.
+
+
+Membuat pull request yang efektif membutuhkan lebih dari sekadar mengirimkan perubahan kode Anda. Deskripsi pull request berfungsi sebagai kesempatan Anda untuk mengomunikasikan tujuan, ruang lingkup, dan dampak modifikasi Anda kepada pengelola dan komunitas proyek. Deskripsi yang ditulis dengan baik menjelaskan masalah apa yang diatasi oleh perubahan Anda, bagaimana Anda mengimplementasikan solusinya, dan implikasi potensial untuk bagian lain dari proyek. Dokumentasi ini menjadi sangat penting untuk perubahan kompleks yang mungkin tidak langsung terlihat dengan melihat perbedaan kode saja.
+
+
+Proses peninjauan merupakan aspek kolaboratif dari pengembangan open source di mana pengelola proyek dan kontributor berpengalaman mengevaluasi perubahan yang Anda ajukan. Anda dapat meminta peninjau khusus yang memiliki keahlian di bidang yang dipengaruhi oleh perubahan Anda, memastikan bahwa anggota komunitas yang berpengetahuan luas memeriksa pekerjaan Anda. Proses peninjauan dapat melibatkan beberapa iterasi, dengan peninjau memberikan umpan balik, meminta modifikasi, atau meminta pengujian tambahan. Proses penyempurnaan kolaboratif ini membantu menjaga kualitas kode sambil memberikan kesempatan belajar yang berharga bagi kontributor di semua tingkat pengalaman.
+
+
+Memahami bahwa tidak semua pull request akan diterima akan membantu menetapkan ekspektasi yang tepat untuk proses kontribusi. Pengelola proyek dapat menolak pull request karena berbagai alasan, termasuk ketidaksesuaian dengan tujuan proyek, pengujian yang tidak memadai, atau adanya solusi alternatif yang sudah dikembangkan. Daripada melihat penolakan sebagai kegagalan, hal ini harus dianggap sebagai kesempatan untuk belajar dari umpan balik, memperbaiki pendekatan, dan berpotensi menyumbangkan solusi alternatif yang lebih baik untuk memenuhi kebutuhan proyek. Komunitas open source tumbuh subur dalam proses berulang dari proposal, tinjauan, dan penyempurnaan yang pada akhirnya mendorong proyek ke depan melalui upaya kolektif dan keahlian bersama.
+
+
+
+## Apa itu Kolam Renang Umum?
+
 <chapterId>b461bf94-4a90-5bb8-ba3f-976d5d57be0d</chapterId>
+
 
 :::video id=d4652496-1ed4-4415-8048-0b6871b9ed51:::
 
-Public Pool represents a revolutionary approach to Bitcoin mining that addresses many of the concerns miners have with traditional mining pools. As a fully open-source solo Bitcoin mining pool, Public Pool fundamentally changes the reward distribution model that miners have become accustomed to. Unlike conventional mining pools where participants share rewards when any miner in the pool finds a block, Public Pool operates on a solo mining principle where individual miners retain 100% of their block rewards when they successfully mine a block.
+Public Pool mewakili pendekatan revolusioner untuk Bitcoin mining yang mengatasi banyak masalah yang dimiliki oleh para penambang dengan pool mining tradisional. Sebagai pool Bitcoin mining solo yang sepenuhnya open-source, Public Pool secara fundamental mengubah model distribusi reward yang selama ini digunakan oleh para penambang. Tidak seperti pool mining konvensional di mana para peserta berbagi reward ketika ada penambang di pool tersebut yang menemukan sebuah blok, Public Pool beroperasi dengan prinsip solo mining di mana penambang individu mempertahankan 100% dari reward blok mereka ketika mereka berhasil menambang sebuah blok.
 
-The most compelling feature of Public Pool is its zero-fee structure. When miners successfully find a block using Public Pool, they receive the complete block reward along with all associated transaction fees, without any deductions for pool operation costs. This stands in stark contrast to traditional mining pools that typically charge fees ranging from 1-3% of mining rewards. The zero-fee model makes Public Pool particularly attractive for miners who want to maximize their potential returns while maintaining full control over their mining operations.
 
-### The Open Source Advantage and Technical Implementation
+Fitur yang paling menarik dari Public Pool adalah struktur tanpa biaya. Ketika penambang berhasil menemukan sebuah blok menggunakan Public Pool, mereka akan menerima reward blok secara utuh beserta seluruh biaya transaksi yang terkait, tanpa potongan biaya operasional pool. Hal ini sangat berbeda dengan pool mining tradisional yang biasanya mengenakan biaya mulai dari 1-3% dari reward mining. Model tanpa biaya ini membuat Public Pool sangat menarik bagi para penambang yang ingin memaksimalkan potensi keuntungan mereka dengan tetap memegang kendali penuh atas operasi mining mereka.
 
-Public Pool's commitment to open-source development provides miners with unprecedented transparency and control over their mining operations. The entire codebase is available on GitHub, allowing miners to examine exactly how the software operates, modify it according to their needs, and even contribute to its development. This transparency addresses a significant concern in the mining community regarding the unknown configurations and practices of traditional mining pools.
 
-The software architecture includes both the core mining pool functionality and a separate user interface repository, both of which are freely available for download and modification. Miners can run Public Pool in various configurations, including Docker containers, making it adaptable to different hardware setups and technical preferences. The comprehensive documentation provided in the GitHub repositories offers detailed installation guides, configuration options, and modification instructions, making it accessible to miners with varying levels of technical expertise.
+Untuk memahami posisi unik Public Pool, penting untuk memahami perbedaan mendasar antara solo mining dan pooled mining. mining solo yang sebenarnya berarti Anda menambang secara mandiri dan menerima upah blok penuh (saat ini 3,125 BTC + biaya) jika Anda menemukan blok, tetapi probabilitasnya sebanding dengan tingkat hash Anda dibandingkan dengan seluruh jaringan - menciptakan varians ekstrem yang dapat berlangsung selama berbulan-bulan atau bertahun-tahun di antara upah. Pool tradisional menggabungkan kekuatan hash untuk menemukan blok lebih sering, mendistribusikan reward secara proporsional dan memberikan pendapatan yang stabil dan dapat diprediksi. Untuk penambang dengan modal yang signifikan yang diinvestasikan dalam perangkat keras dan biaya operasional, mining solo murni biasanya tidak praktis terlepas dari keuntungan filosofisnya - variansnya membuat hampir tidak mungkin untuk menutupi biaya listrik dan memulihkan investasi. Realitas ekonomi ini berarti sebagian besar penambang akan memilih mining gabungan untuk alasan keuangan praktis. Public Pool beroperasi sebagai pool mining tunggal, yang berarti Anda masih menghadapi varians mining tunggal (Anda hanya mendapatkan imbalan ketika Anda menemukan blok secara pribadi), tetapi Anda mendapatkan keuntungan dari infrastruktur pool dan operasi tanpa biaya yang transparan.
 
-Connecting to Public Pool requires minimal configuration compared to traditional mining setups. Miners simply need to configure their mining devices with the Stratum connection details and provide their Bitcoin address as the username. An optional worker name can be added after a dot separator for organizational purposes. This streamlined connection process eliminates the need for complex account creation or pool-specific configurations that are common with traditional mining pools.
 
-### Community Features and Sustainability Model
+### Keuntungan Open Source dan Implementasi Teknis
 
-Public Pool incorporates several innovative features that strengthen the Bitcoin mining community while maintaining its zero-fee operation. The platform displays comprehensive statistics including the total hash rate of connected miners, which typically ranges between 1.5 to 2 petahash, and provides detailed information about connected mining devices. Particularly noteworthy is the platform's emphasis on open-source mining hardware, with devices marked by stars indicating fully open-source designs, complete with links to their respective GitHub repositories.
 
-The sustainability of Public Pool's zero-fee operation relies on a creative affiliate program partnership with mining hardware vendors. When miners purchase equipment from partner companies using the discount code "SOLO," fifty percent of the affiliate earnings support Public Pool's operational costs, while the remaining fifty percent is distributed as rewards to miners who achieve the highest difficulty shares each month. This model creates a symbiotic relationship where miners receive discounts on equipment purchases, vendors gain customers, and Public Pool maintains its operations without charging direct fees.
+Komitmen Public Pool terhadap pengembangan sumber terbuka memberikan para penambang transparansi dan kontrol yang belum pernah ada sebelumnya terhadap operasi mining mereka. Seluruh basis kode tersedia di GitHub, memungkinkan para penambang untuk memeriksa dengan tepat bagaimana perangkat lunak beroperasi, memodifikasinya sesuai dengan kebutuhan mereka, dan bahkan berkontribusi pada pengembangannya. Transparansi ini menjawab kekhawatiran yang signifikan dalam komunitas mining mengenai konfigurasi dan praktik yang tidak diketahui dari pool mining tradisional.
 
-### Decentralization Philosophy and Best Practices
 
-While Public Pool offers an excellent alternative to traditional mining pools, it's important to understand its role within the broader context of Bitcoin decentralization. The platform serves as a stepping stone toward the ultimate goal of individual miners operating their own mining pools. Running your own mining pool represents the highest level of decentralization, as it eliminates dependence on any third-party infrastructure or software, regardless of how transparent or well-intentioned that third party may be.
+Arsitektur perangkat lunak mencakup fungsionalitas inti pool mining dan repositori antarmuka pengguna yang terpisah, yang keduanya tersedia secara bebas untuk diunduh dan dimodifikasi. Penambang dapat menjalankan Public Pool dalam berbagai konfigurasi, termasuk kontainer Docker, membuatnya dapat beradaptasi dengan pengaturan perangkat keras dan preferensi teknis yang berbeda. Dokumentasi komprehensif yang disediakan di repositori GitHub menawarkan panduan instalasi yang mendetail, opsi konfigurasi, dan instruksi modifikasi, sehingga dapat diakses oleh para penambang dengan berbagai tingkat keahlian teknis.
 
-Public Pool's open-source nature makes it an ideal learning platform for miners who want to understand pool operations before implementing their own solutions. The availability of installation guides for multiple operating systems and the comprehensive documentation provide miners with the knowledge needed to transition from using Public Pool to operating their own mining infrastructure. This educational aspect aligns with Bitcoin's fundamental principles of self-sovereignty and decentralization, empowering individual miners to take complete control of their mining operations while contributing to the overall security and decentralization of the Bitcoin network.
 
-The platform's user interface provides miners with detailed monitoring capabilities, including worker status, hash rate statistics, and performance metrics. These features help miners optimize their operations while learning about pool management principles that they can later apply to their own mining pool implementations.
+Menghubungkan ke Public Pool membutuhkan konfigurasi minimal dibandingkan dengan pengaturan mining tradisional. Para penambang hanya perlu mengonfigurasi perangkat mining mereka dengan detail koneksi Stratum dan memberikan alamat Bitcoin mereka sebagai nama pengguna. Nama pekerja opsional dapat ditambahkan setelah pemisah titik untuk tujuan organisasi.
 
-## How to install Public-Pool on Umbrel
+
+### Fitur Komunitas dan Model Keberlanjutan
+
+
+Public Pool menggabungkan beberapa fitur inovatif yang memperkuat komunitas Bitcoin mining sambil mempertahankan operasi tanpa biaya. Platform ini menampilkan statistik yang komprehensif termasuk total hash rate dari penambang yang terhubung, yang biasanya berkisar antara 1 hingga 2 PetaHash per detik pada tahun 2024 dan sekitar 40 PH/detik pada bulan November 2025, dan memberikan informasi terperinci tentang perangkat mining yang terhubung. Yang paling penting adalah penekanan platform pada perangkat keras mining open-source, dengan perangkat yang ditandai dengan bintang yang menunjukkan desain open-source sepenuhnya, lengkap dengan tautan ke repositori GitHub masing-masing.
+
+
+Keberlanjutan operasi tanpa biaya Public Pool bergantung pada kemitraan program afiliasi yang kreatif dengan vendor perangkat keras mining. Ketika para penambang membeli peralatan dari perusahaan mitra dengan menggunakan kode diskon "SOLO", lima puluh persen dari pendapatan afiliasi akan mendukung biaya operasional Public Pool, sementara lima puluh persen sisanya akan didistribusikan sebagai hadiah bagi para penambang yang mencapai tingkat kesulitan tertinggi setiap bulannya. Model ini menciptakan hubungan simbiosis mutualisme di mana para penambang mendapatkan diskon untuk pembelian peralatan, vendor mendapatkan pelanggan, dan Public Pool mempertahankan operasinya tanpa memungut biaya langsung.
+
+
+### Filosofi Desentralisasi dan Praktik Terbaik
+
+
+Meskipun Public Pool menawarkan alternatif yang sangat baik untuk pool mining tradisional, penting untuk memahami perannya dalam konteks desentralisasi Bitcoin yang lebih luas. Platform ini berfungsi sebagai batu loncatan menuju tujuan akhir penambang individu yang mengoperasikan pool mining mereka sendiri. Menjalankan pool mining Anda sendiri merupakan tingkat desentralisasi tertinggi, karena menghilangkan ketergantungan pada infrastruktur atau perangkat lunak pihak ketiga, terlepas dari seberapa transparan atau bermaksud baik pihak ketiga tersebut.
+
+
+Sifat Public Pool yang open-source menjadikannya sebagai platform pembelajaran yang ideal bagi para penambang yang ingin memahami operasi pool sebelum mengimplementasikan solusi mereka sendiri. Ketersediaan panduan instalasi untuk berbagai sistem operasi dan dokumentasi yang komprehensif memberikan para penambang pengetahuan yang dibutuhkan untuk bertransisi dari penggunaan Public Pool ke pengoperasian infrastruktur mining mereka sendiri. Aspek edukasi ini selaras dengan prinsip-prinsip fundamental Bitcoin tentang kedaulatan dan desentralisasi, memberdayakan para penambang individu untuk mengambil kendali penuh atas operasi mining mereka sambil berkontribusi pada keamanan dan desentralisasi jaringan Bitcoin secara keseluruhan.
+
+
+Antarmuka pengguna platform ini memberikan penambang kemampuan pemantauan yang terperinci, termasuk status pekerja, statistik tingkat hash, dan metrik kinerja. Fitur-fitur ini membantu para penambang mengoptimalkan operasi mereka sambil mempelajari prinsip-prinsip manajemen pool yang nantinya dapat mereka terapkan pada implementasi pool mining mereka sendiri.
+
+
+## Cara memasang Public-Pool di Umbrel
+
 <chapterId>7f6d0307-7715-5581-89ea-f13cf8754f9a</chapterId>
+
 
 :::video id=3a4fe0a9-bbf5-458a-8ec1-52c3b83afd87:::
 
-Running your own Bitcoin mining pool at home has become increasingly accessible with modern hardware and simplified software solutions. This chapter explores the practical implementation of a home-based public pool using affordable mini PC hardware and streamlined node management software. By the end of this guide, you'll understand the hardware requirements, software setup process, and basic configuration needed to establish your own mining pool infrastructure.
+Menjalankan kolam renang Bitcoin mining Anda sendiri di rumah menjadi semakin mudah diakses dengan perangkat keras modern dan solusi perangkat lunak yang disederhanakan. Bab ini membahas implementasi praktis dari kolam renang umum berbasis rumah menggunakan perangkat keras PC mini yang terjangkau dan perangkat lunak manajemen node yang disederhanakan. Pada akhir panduan ini, Anda akan memahami persyaratan perangkat keras, proses penyiapan perangkat lunak, dan konfigurasi dasar yang diperlukan untuk membangun infrastruktur kolam renang mining Anda sendiri.
 
-### Hardware Requirements and Setup
 
-The foundation of any home mining pool setup begins with selecting appropriate hardware that balances performance, cost, and energy efficiency. A mini PC represents an ideal solution for this application, offering sufficient processing power while maintaining a compact footprint and reasonable power consumption. The recommended configuration includes an Intel N100 processor, which provides adequate computational resources for pool operations, paired with at least one terabyte of NVMe storage to accommodate the Bitcoin blockchain and associated data.
+### Persyaratan dan Pengaturan Perangkat Keras
 
-The storage requirement is particularly critical since running a mining pool necessitates maintaining a fully synchronized Bitcoin node. The one terabyte NVMe drive ensures fast read/write operations essential for blockchain synchronization and ongoing transaction processing. Additionally, sufficient RAM allocation supports smooth operation of both the underlying Linux operating system and the node management software that will coordinate pool activities.
 
-### Software Architecture and Node Management
+Fondasi dari setiap pengaturan pool mining di rumah dimulai dengan memilih perangkat keras yang sesuai yang menyeimbangkan kinerja, biaya, dan efisiensi energi. PC mini merupakan solusi ideal untuk aplikasi ini, menawarkan daya pemrosesan yang cukup sekaligus mempertahankan jejak yang ringkas dan konsumsi daya yang wajar. Konfigurasi yang disarankan mencakup prosesor Intel N100, yang menyediakan sumber daya komputasi yang memadai untuk operasi pool, dipasangkan dengan setidaknya satu terabyte penyimpanan NVMe untuk mengakomodasi blockchain Bitcoin dan data terkait.
 
-The software stack for a home mining pool builds upon a Linux foundation, providing the stability and security necessary for cryptocurrency operations. On top of this base system, specialized node management software like Umbrel creates an intuitive interface for managing Bitcoin infrastructure. This approach abstracts much of the complexity traditionally associated with running Bitcoin nodes, making pool operation accessible to users without extensive technical backgrounds.
 
-Umbrel serves as a comprehensive node management platform that handles Bitcoin Core installation, synchronization, and ongoing maintenance through a web-based interface. The platform's app store model allows for easy installation of additional services, including mining pool software, through simple point-and-click operations. This architecture ensures that users can focus on pool operation rather than system administration, while still maintaining full control over their Bitcoin infrastructure.
+Persyaratan penyimpanan sangat penting karena menjalankan pool mining memerlukan pemeliharaan node Bitcoin yang tersinkronisasi sepenuhnya. Drive NVMe satu terabyte memastikan operasi baca/tulis yang cepat, yang penting untuk sinkronisasi blockchain dan pemrosesan transaksi yang sedang berlangsung. Selain itu, alokasi RAM yang memadai mendukung kelancaran operasi sistem operasi Linux yang mendasari dan perangkat lunak manajemen node yang akan mengoordinasikan aktivitas pool.
 
-### Public Pool Installation and Configuration
 
-Installing public pool software through the Umbrel platform demonstrates the streamlined nature of modern Bitcoin infrastructure deployment. The process begins with accessing the Umbrel app store through the web interface, where a simple search for "public pool" reveals the available mining pool software. Installation requires only a few clicks: selecting the application, confirming installation, and waiting for the automated setup process to complete.
+### Arsitektur Perangkat Lunak dan Manajemen Node
 
-The installation process automatically configures the necessary connections between the public pool software and the underlying Bitcoin node. This integration ensures that the pool can validate transactions, construct block templates, and distribute work to connected miners without requiring manual configuration of complex networking parameters. Once installation completes, the pool interface becomes immediately accessible through the local network, providing real-time monitoring and management capabilities.
 
-### Connecting Miners and Network Considerations
+Tumpukan perangkat lunak untuk kumpulan mining rumahan dibangun di atas fondasi Linux, memberikan stabilitas dan keamanan yang diperlukan untuk operasi Bitcoin. Di atas sistem dasar ini, perangkat lunak manajemen node khusus seperti Umbrel menciptakan antarmuka yang intuitif untuk mengelola infrastruktur Bitcoin. Pendekatan ini mengabstraksikan banyak kerumitan yang secara tradisional terkait dengan menjalankan node Bitcoin, membuat operasi pool dapat diakses oleh pengguna tanpa latar belakang teknis yang luas.
 
-Connecting mining hardware to your newly established pool requires configuring the miner's pool settings to point to your local infrastructure. This involves replacing the default pool address with your local IP address and the appropriate port number assigned during the public pool installation. The configuration change redirects your mining hardware's computational efforts from external pools to your home-based infrastructure, allowing you to retain full control over mining operations and potential rewards.
 
-Network configuration plays a crucial role in pool accessibility and functionality. Local network setup typically involves standard IP addressing, but users may encounter variations in DNS resolution depending on their router configuration. Some routers provide local DNS services that create friendly names for local services, while others require direct IP address access. For broader accessibility beyond the local network, port forwarding configuration on the router may be necessary, though this introduces additional security considerations that require careful evaluation of the associated risks and benefits.
+Umbrel berfungsi sebagai platform manajemen node yang komprehensif yang menangani instalasi, sinkronisasi, dan pemeliharaan Bitcoin Core yang sedang berlangsung melalui antarmuka berbasis web. Model toko aplikasi platform ini memungkinkan pemasangan layanan tambahan yang mudah, termasuk perangkat lunak kumpulan mining, melalui operasi tunjuk-dan-klik yang sederhana. Arsitektur ini memastikan bahwa pengguna dapat fokus pada operasi pool daripada administrasi sistem, sambil tetap mempertahankan kontrol penuh atas infrastruktur Bitcoin mereka.
 
-The successful establishment of a home mining pool represents a significant step toward decentralized Bitcoin infrastructure, providing both educational value and practical mining capabilities while maintaining complete control over your cryptocurrency operations.
 
-# Hardware Assembly and Troubleshooting
+### Instalasi dan Konfigurasi Kolam Renang Umum
+
+
+Menginstal perangkat lunak kolam renang umum melalui platform Umbrel menunjukkan sifat ramping dari penyebaran infrastruktur Bitcoin modern. Prosesnya dimulai dengan mengakses toko aplikasi Umbrel melalui antarmuka web, di mana pencarian sederhana untuk "kolam renang umum" akan menampilkan perangkat lunak kolam renang mining yang tersedia. Instalasi hanya membutuhkan beberapa klik: memilih aplikasi, mengonfirmasi instalasi, dan menunggu proses penyiapan otomatis selesai.
+
+
+Proses instalasi secara otomatis mengkonfigurasi koneksi yang diperlukan antara perangkat lunak pool publik dan node Bitcoin yang mendasarinya. Integrasi ini memastikan bahwa pool dapat memvalidasi transaksi, membuat template blok, dan mendistribusikan pekerjaan ke penambang yang terhubung tanpa memerlukan konfigurasi manual dari parameter jaringan yang kompleks. Setelah instalasi selesai, antarmuka pool dapat langsung diakses melalui jaringan lokal, memberikan kemampuan pemantauan dan manajemen secara real-time.
+
+
+### Menghubungkan Penambang dan Pertimbangan Jaringan
+
+
+Menghubungkan perangkat keras mining ke pool yang baru saja dibuat membutuhkan konfigurasi pengaturan pool penambang untuk mengarahkan ke infrastruktur lokal Anda. Hal ini melibatkan penggantian alamat pool default dengan alamat IP lokal Anda dan nomor port yang sesuai yang ditetapkan selama instalasi pool publik. Perubahan konfigurasi akan mengalihkan upaya komputasi perangkat keras mining Anda dari pool eksternal ke infrastruktur berbasis rumah Anda, sehingga Anda dapat mempertahankan kontrol penuh atas operasi mining dan potensi reward.
+
+
+Konfigurasi jaringan memainkan peran penting dalam aksesibilitas dan fungsionalitas pool. Pengaturan jaringan lokal biasanya melibatkan pengalamatan IP standar, tetapi pengguna dapat menemukan variasi dalam resolusi DNS tergantung pada konfigurasi router mereka. Beberapa router menyediakan layanan DNS lokal yang membuat nama yang ramah untuk layanan lokal, sementara yang lain memerlukan akses alamat IP langsung. Untuk akses yang lebih luas di luar jaringan lokal, konfigurasi port forwarding pada router mungkin diperlukan, meskipun hal ini menimbulkan pertimbangan keamanan tambahan yang memerlukan evaluasi yang cermat terhadap risiko dan manfaat yang terkait.
+
+
+Keberhasilan pembentukan pool mining rumahan merupakan langkah signifikan menuju infrastruktur Bitcoin yang terdesentralisasi, yang memberikan nilai edukasi dan kemampuan mining yang praktis sambil mempertahankan kendali penuh atas operasi Bitcoin Anda.
+
+
+# Perakitan dan Pemecahan Masalah Perangkat Keras
+
 <partId>f6987088-5ba4-52e2-b2d0-aa122080940c</partId>
 
-## What tools to use?
+
+## Alat apa yang digunakan?
+
 <chapterId>733935b5-0171-5a22-838c-e192df6f7ccf</chapterId>
+
 
 :::video id=bddd0e47-7b43-4685-ba2e-bf3a8ff653c9:::
 
-In the world of surface-mount device (SMD) soldering, particularly when working with Bitaxe projects, having the right tools makes the difference between frustration and success. This comprehensive guide covers the essential equipment needed to tackle SMD soldering projects effectively, from basic hand tools to specialized equipment that will elevate your soldering capabilities.
-
-### Basic Hand Tools and Precision Instruments
-
-The foundation of any SMD soldering setup begins with quality tweezers, which serve as your primary component placement tools. Two types of tweezers prove most valuable in this work: standard straight-tip tweezers and those with a slight bend at the tip. The straight-tip variety handles most SMD components found in typical Bitaxe kits, while the bent-tip tweezers excel when working with extremely small components that require precise positioning. These tools often come included with repair kits, such as iFixit sets designed for phone repairs, making them readily accessible to most hobbyists.
-
-Complementing the tweezers, a good pair of scissors becomes indispensable for cutting electrical tape, which serves multiple purposes in electronics projects. Electrical tape provides essential insulation for cables and components, and having quality tape readily available streamlines the soldering process. These basic supplies can be sourced from hardware stores or online retailers without requiring specialized electronics suppliers.
-
-### Solder Paste Application and Management
-
-The application of solder paste represents one of the most critical aspects of SMD soldering, and the right tools make this process both accurate and enjoyable. Small, non-sharp syringes filled with solder paste provide exceptional control over paste placement. This method allows for precise application of the exact amount of solder paste needed for each joint, and most people quickly develop the proper technique for controlling pressure and flow rate through hands-on practice.
-
-The choice of solder paste itself significantly impacts soldering success. ChipQuik TS391SNL50 stands out as an exceptional solder paste for Bitaxe projects and general SMD work. This paste maintains proper consistency and melting characteristics, avoiding the problems associated with cheaper alternatives that have excessively low melting points. Low-quality solder pastes can create issues where previously soldered joints become fluid again when heating adjacent areas, leading to component displacement and poor connections. While quality solder paste represents a higher initial investment, the improved results and reduced frustration justify the expense.
-
-### Problem-Solving and Cleanup Tools
-
-Even experienced solderers encounter issues that require correction, making desoldering equipment essential for any complete toolkit. A desoldering rig, essentially a heated vacuum tool, removes excess solder and corrects bridged connections between component pins. These tools work most effectively when combined with flux, which improves solder flow and helps the desoldering process work more efficiently.
-
-Flux comes in various forms, including solid and liquid varieties, and serves multiple purposes beyond desoldering assistance. When solder paste begins to lose its effectiveness during extended work sessions, applying additional flux restores proper flow characteristics and ensures reliable connections. A small spoon-like tool, often found in precision repair kits, facilitates accurate flux application to specific areas without contaminating surrounding components.
-
-Board cleanup represents the final step in professional-quality work, requiring isopropanol alcohol and a dedicated cleaning brush. An old toothbrush works perfectly for this purpose, and a squeeze bottle containing isopropanol allows controlled application of cleaning solution. This combination removes flux residue and paste remnants, leaving boards with a clean, professional appearance that also facilitates inspection of solder joints.
-
-### Specialized Equipment and Advanced Tools
-
-For projects involving complex integrated circuits, particularly ASICs, stencils transform the soldering process from tedious hand-placement to efficient, accurate paste application. These precision-cut templates ensure consistent paste thickness and placement, dramatically reducing the time required for complex components while improving reliability. The investment in quality stencils pays dividends in both time savings and improved results.
-
-Thermal management becomes crucial when working with power components, making thermal paste or thermal grease essential supplies. These materials ensure proper heat transfer between heat sinks and integrated circuits, preventing thermal damage and ensuring reliable operation. Quality thermal interface materials represent a small investment that protects much more expensive components.
-
-The heart of any SMD soldering setup is the hot air rework station, which provides the controlled heat necessary for surface-mount work. While budget stations in the $30-50 range can perform adequately, they often lack the reliability and precision of higher-end equipment. These entry-level stations typically operate effectively at 355°C and include automatic temperature reduction when the handpiece is returned to its holder. However, their reliability can be inconsistent, with some units failing prematurely. For serious work, investing in higher-quality equipment from specialized electronics suppliers provides better long-term value through improved reliability and more precise temperature control.
-
-The combination of these tools creates a complete SMD soldering capability that extends far beyond Bitaxe projects to general electronics work. Understanding each tool's role and selecting quality equipment appropriate to your skill level and project requirements ensures successful outcomes and an enjoyable soldering experience.
+Dalam dunia penyolderan perangkat pemasangan permukaan (SMD), terutama ketika bekerja dengan proyek Bitaxe, memiliki peralatan yang tepat membuat perbedaan antara frustrasi dan kesuksesan. Panduan komprehensif ini mencakup peralatan penting yang diperlukan untuk menangani proyek penyolderan SMD secara efektif, mulai dari perkakas tangan dasar hingga peralatan khusus yang akan meningkatkan kemampuan penyolderan Anda.
 
 
-## Fix solder issues
+Jika Anda ingin merujuk ke beberapa dokumentasi tentang skema, periksa [repo GitHub] (https://github.com/skot/bitaxe-doc/tree/main).
+
+
+### Perkakas Tangan Dasar dan Instrumen Presisi
+
+
+Dasar dari setiap penyolderan SMD dimulai dengan pinset berkualitas, yang berfungsi sebagai alat penempatan komponen utama Anda. Dua jenis pinset terbukti paling berharga dalam pekerjaan ini: pinset berujung lurus standar dan pinset dengan sedikit lengkungan di ujungnya. Variasi ujung lurus menangani sebagian besar komponen SMD yang ditemukan dalam kit Bitaxe pada umumnya, sedangkan pinset dengan ujung bengkok lebih unggul ketika bekerja dengan komponen yang sangat kecil yang memerlukan pemosisian yang tepat. Alat-alat ini sering kali disertakan dengan kit perbaikan, seperti set iFixit yang dirancang untuk perbaikan ponsel, sehingga mudah diakses oleh sebagian besar penggemar.
+
+
+Melengkapi pinset, gunting yang bagus menjadi sangat diperlukan untuk memotong pita listrik, yang memiliki banyak fungsi dalam proyek elektronik. Selotip listrik menyediakan isolasi penting untuk kabel dan komponen, dan memiliki selotip berkualitas yang sudah tersedia akan menyederhanakan proses penyolderan. Persediaan dasar ini dapat diperoleh dari toko perangkat keras atau pengecer online tanpa memerlukan pemasok elektronik khusus.
+
+
+### Aplikasi dan Manajemen Pasta Solder
+
+
+Penerapan pasta solder merupakan salah satu aspek paling penting dari penyolderan SMD, dan alat yang tepat membuat proses ini akurat dan menyenangkan. Jarum suntik kecil dan tidak tajam yang diisi dengan pasta solder memberikan kontrol yang luar biasa atas penempatan pasta. Metode ini memungkinkan aplikasi yang tepat dari jumlah pasta solder yang tepat yang dibutuhkan untuk setiap sambungan, dan kebanyakan orang dengan cepat mengembangkan teknik yang tepat untuk mengontrol tekanan dan laju aliran melalui praktik langsung.
+
+
+Pilihan pasta solder itu sendiri secara signifikan berdampak pada keberhasilan penyolderan. ChipQuik TS391SNL50 menonjol sebagai pasta solder yang luar biasa untuk proyek Bitaxe dan pekerjaan SMD umum. Pasta ini mempertahankan konsistensi dan karakteristik peleburan yang tepat, menghindari masalah yang terkait dengan alternatif yang lebih murah yang memiliki titik leleh yang terlalu rendah. Pasta solder berkualitas rendah dapat menimbulkan masalah di mana sambungan yang sebelumnya disolder menjadi cair kembali saat memanaskan area yang berdekatan, yang menyebabkan perpindahan komponen dan koneksi yang buruk. Meskipun pasta solder berkualitas mewakili investasi awal yang lebih tinggi, hasil yang lebih baik dan berkurangnya rasa frustrasi membenarkan biaya yang dikeluarkan.
+
+
+### Alat Bantu Pemecahan Masalah dan Pembersihan
+
+
+Bahkan para penyolder yang berpengalaman pun mengalami masalah yang memerlukan koreksi, sehingga peralatan pematrian sangat penting untuk toolkit yang lengkap. Peralatan pematrian, pada dasarnya adalah alat vakum yang dipanaskan, menghilangkan kelebihan solder dan mengoreksi sambungan yang tidak terhubung di antara pin komponen. Alat-alat ini bekerja paling efektif bila dikombinasikan dengan fluks, yang meningkatkan aliran solder dan membantu proses pematrian bekerja lebih efisien.
+
+
+Fluks tersedia dalam berbagai bentuk, termasuk jenis padat dan cair, dan memiliki banyak tujuan selain bantuan pematrian. Ketika pasta solder mulai kehilangan keefektifannya selama sesi kerja yang lama, menerapkan fluks tambahan akan mengembalikan karakteristik aliran yang tepat dan memastikan koneksi yang andal. Alat seperti sendok kecil, yang sering ditemukan dalam kit perbaikan presisi, memfasilitasi aplikasi fluks yang akurat ke area tertentu tanpa mencemari komponen di sekitarnya.
+
+
+Pembersihan papan merupakan langkah terakhir dalam pekerjaan berkualitas profesional, yang membutuhkan alkohol isopropanol dan sikat pembersih khusus. Sikat gigi bekas dapat digunakan dengan sempurna untuk tujuan ini, dan botol pemerasan yang berisi isopropanol memungkinkan aplikasi larutan pembersih yang terkontrol. Kombinasi ini menghilangkan residu fluks dan sisa-sisa pasta, sehingga papan terlihat bersih dan profesional yang juga memudahkan pemeriksaan sambungan solder.
+
+
+### Peralatan Khusus dan Peralatan Canggih
+
+
+Untuk proyek yang melibatkan sirkuit terpadu yang kompleks, khususnya ASIC, stensil mengubah proses penyolderan dari penempatan tangan yang membosankan menjadi aplikasi pasta yang efisien dan akurat. Templat yang dipotong secara presisi ini memastikan ketebalan dan penempatan pasta yang konsisten, secara dramatis mengurangi waktu yang diperlukan untuk komponen yang kompleks sekaligus meningkatkan keandalan. Investasi dalam stensil berkualitas membayar dividen dalam penghematan waktu dan hasil yang lebih baik.
+
+
+Manajemen termal menjadi sangat penting ketika bekerja dengan komponen daya, membuat pasta termal atau pelumas termal menjadi persediaan yang penting. Bahan-bahan ini memastikan perpindahan panas yang tepat antara heat sink dan sirkuit terpadu, mencegah kerusakan termal dan memastikan pengoperasian yang andal. Bahan antarmuka termal berkualitas merupakan investasi kecil yang melindungi komponen yang jauh lebih mahal.
+
+
+Inti dari pengaturan penyolderan SMD adalah stasiun pengerjaan ulang udara panas, yang menyediakan panas terkontrol yang diperlukan untuk pekerjaan pemasangan di permukaan. Meskipun stasiun anggaran dalam kisaran $ 30-50 dapat berkinerja memadai, mereka sering kali tidak memiliki keandalan dan ketepatan peralatan kelas atas. Stasiun tingkat pemula ini biasanya beroperasi secara efektif pada suhu 355°C dan mencakup pengurangan suhu otomatis ketika alat genggam dikembalikan ke dudukannya. Namun, keandalannya tidak konsisten, dengan beberapa unit yang mengalami kerusakan sebelum waktunya. Untuk pekerjaan yang serius, berinvestasi pada peralatan berkualitas lebih tinggi dari pemasok elektronik khusus akan memberikan nilai jangka panjang yang lebih baik melalui peningkatan keandalan dan kontrol suhu yang lebih tepat.
+
+
+Kombinasi alat ini menciptakan kemampuan penyolderan SMD lengkap yang jauh melampaui proyek Bitaxe hingga pekerjaan elektronik umum. Memahami peran masing-masing alat dan memilih peralatan berkualitas yang sesuai dengan tingkat keahlian dan persyaratan proyek Anda memastikan hasil yang sukses dan pengalaman menyolder yang menyenangkan.
+
+
+
+## Memperbaiki masalah solder
+
 <chapterId>96663744-b4f7-5154-930f-a68ba7954603</chapterId>
+
 
 :::video id=9286c0dc-acd6-44d9-b34e-59cfb2da9748:::
 
 
-The Bitaxe transceiver kit presents unique challenges during assembly that require careful attention to component orientation, solder bridge prevention, and proper heat management. Understanding these common issues and their solutions is essential for successful kit construction and avoiding costly component damage. This chapter examines the most frequent soldering problems encountered during Bitaxe assembly and provides practical techniques for identifying and resolving them.
+Kit transceiver Bitaxe menghadirkan tantangan unik selama perakitan yang memerlukan perhatian yang cermat terhadap orientasi komponen, pencegahan jembatan solder, dan manajemen panas yang tepat. Memahami masalah umum ini dan solusinya sangat penting untuk konstruksi kit yang sukses dan menghindari kerusakan komponen yang mahal. Bab ini membahas masalah penyolderan yang paling sering dijumpai selama perakitan Bitaxe dan memberikan teknik praktis untuk mengidentifikasi dan mengatasinya.
 
-### Component Orientation and Identification
 
-Proper component orientation represents one of the most critical aspects of successful Bitaxe assembly, particularly with MOSFETs Q1 and Q2. These components feature distinctive orientation markers that must be carefully observed during installation. Each MOSFET contains a small dot marking that corresponds to specific pad arrangements on the circuit board. The key to correct orientation lies in understanding the physical structure of these components, which feature four pins arranged with one large pad and three smaller pads that have no connection to the large pad.
+### Orientasi dan Identifikasi Komponen
 
-When installing Q1 and Q2, examine both the component and the circuit board carefully. The board layout clearly shows the intended orientation through its pad configuration, with four pins positioned to match the MOSFET structure. Before soldering any large component, always verify orientation by comparing the component's physical markers with the board's pad arrangement. This simple verification step prevents the frustration of desoldering and reinstalling incorrectly oriented components.
 
-The consequences of incorrect orientation extend beyond simple functionality issues. Wrongly oriented MOSFETs can create circuit malfunctions that are difficult to diagnose and may require complete component replacement. Taking time to verify orientation before applying heat ensures proper circuit operation and prevents unnecessary troubleshooting later in the assembly process.
+Orientasi komponen yang tepat merupakan salah satu aspek yang paling penting dalam perakitan Bitaxe yang sukses, khususnya dengan MOSFET Q1 dan Q2. Komponen-komponen ini memiliki penanda orientasi khas yang harus diperhatikan dengan cermat selama pemasangan. Setiap MOSFET berisi tanda titik kecil yang sesuai dengan pengaturan pad tertentu pada papan sirkuit. Kunci untuk orientasi yang benar terletak pada pemahaman struktur fisik komponen ini, yang memiliki empat pin yang disusun dengan satu pad besar dan tiga pad kecil yang tidak memiliki koneksi ke pad besar.
 
-### Managing Solder Bridges and Excess Solder
 
-Solder bridges represent another common challenge in Bitaxe assembly, particularly around fine-pitch components like U10. These unwanted connections between adjacent pins can cause circuit malfunctions and require careful removal techniques. The most effective approach involves using desoldering wick, a copper braided material that absorbs excess solder when heated. This technique requires patience and proper tool selection to avoid damaging delicate components.
+Apabila memasang Q1 dan Q2, periksa komponen dan papan sirkuit secara cermat. Tata letak papan dengan jelas menunjukkan orientasi yang diinginkan melalui konfigurasi pad, dengan empat pin diposisikan agar sesuai dengan struktur MOSFET. Sebelum menyolder komponen besar apa pun, selalu verifikasi orientasi dengan membandingkan penanda fisik komponen dengan susunan pad papan. Langkah verifikasi sederhana ini mencegah frustrasi karena harus mematahkan dan memasang kembali komponen yang salah orientasi.
 
-When addressing solder bridges on integrated circuits, employ a third-hand tool to securely hold the component while working. Apply gentle heat to the affected area and carefully draw the desoldering wick across the bridged connections. The copper braid naturally absorbs the excess solder, separating the unwanted connections. This process may require multiple attempts, but persistence yields clean, properly separated connections.
 
-Prevention remains the best approach to solder bridge management. Using appropriate amounts of solder paste and maintaining steady hand control during component placement significantly reduces bridge formation. When bridges do occur, address them immediately rather than hoping they won't affect circuit operation. Even seemingly minor bridges can cause significant functionality problems that are difficult to diagnose once the board is fully assembled.
+Konsekuensi dari orientasi yang salah lebih dari sekadar masalah fungsionalitas. MOSFET yang salah orientasi dapat menyebabkan kerusakan sirkuit yang sulit didiagnosis dan mungkin memerlukan penggantian komponen secara menyeluruh. Meluangkan waktu untuk memverifikasi orientasi sebelum menerapkan panas memastikan operasi sirkuit yang tepat dan mencegah pemecahan masalah yang tidak perlu di kemudian hari dalam proses perakitan.
 
-### Critical Components and Special Considerations
 
-The buck converter U9 deserves particular attention due to its critical role in converting 5 volts to 1.2 volts for the ASIC chip. This component presents unique challenges due to its five small connections and tendency toward failure. Proper installation requires precise solder paste application and careful heat management. Insufficient solder paste under U9 can result in poor connections that prevent proper voltage conversion, while excess paste can create bridges that cause circuit malfunction.
+### Mengelola Jembatan Solder dan Solder Berlebih
 
-U9 produces distinctive audio signatures when experiencing solder bridge issues, generating high-frequency noise that differs from normal ASIC operation. This auditory diagnostic technique can help identify problems, though it requires good high-frequency hearing to detect. When audio diagnosis isn't possible, visual inspection becomes essential. Examine all connections carefully, looking for bridges or insufficient solder coverage.
 
-If U9 fails to output the required 1.2 volts despite appearing properly soldered, consider insufficient solder paste as the likely cause. Remove the component, apply a small amount of additional solder paste, and reinstall. In cases where individual pins lack adequate solder coverage, carefully apply small amounts of solder paste to specific locations using tweezers. The solder paste will naturally flow under the component when heated, creating proper connections through capillary action.
+Jembatan solder merupakan tantangan umum lainnya dalam perakitan Bitaxe, terutama di sekitar komponen bernada halus seperti U10. Sambungan yang tidak diinginkan antara pin yang berdekatan ini dapat menyebabkan kerusakan sirkuit dan memerlukan teknik pelepasan yang hati-hati. Pendekatan yang paling efektif adalah dengan menggunakan sumbu pematrian, bahan jalinan tembaga yang menyerap kelebihan solder ketika dipanaskan. Teknik ini membutuhkan kesabaran dan pemilihan alat yang tepat untuk menghindari kerusakan komponen yang sensitif.
 
-### Heat Management and Component Protection
 
-Proper heat management protects sensitive components from thermal damage while ensuring reliable solder joints. Components like the crystal oscillator Y1 and U1 are particularly sensitive to prolonged heat exposure and require careful temperature control. Maintain soldering iron temperature at 350 degrees Celsius, but minimize heat application time to prevent component damage. Quick, efficient soldering techniques protect these sensitive components while achieving reliable connections.
+Saat menangani jembatan solder pada sirkuit terpadu, gunakan penahan PCB atau penjepit yang diartikulasikan untuk menahan komponen dengan aman saat bekerja. Terapkan panas yang lembut pada area yang terkena dan tarik sumbu pematrian dengan hati-hati pada sambungan yang dijembatani. Jalinan tembaga secara alami menyerap kelebihan solder, memisahkan sambungan yang tidak diinginkan. Proses ini mungkin memerlukan beberapa kali percobaan, tetapi ketekunan akan menghasilkan sambungan yang bersih dan terpisah dengan benar.
 
-The ASIC chip requires special handling techniques due to its complex pin structure and sensitivity to mechanical stress. When using stencils for solder paste application, ensure even coverage across all pins to prevent uneven component seating. If excessive solder paste causes the ASIC to sit unevenly, allow the assembly to cool completely before making corrections. Apply gentle pressure only to the component's labeled edges, never to the central die area, while reheating to achieve proper seating.
 
-Component U8 presents unique challenges due to its numerous pins and potential for bent leads. When pins become bent during handling, use a third-hand tool to secure the component and carefully straighten the affected pins. Work slowly and patiently to avoid breaking the delicate leads. Understanding that certain pin groups on U8 are internally connected can simplify troubleshooting, as bridges between these specific pins don't affect circuit operation. However, bridges between other pins require careful removal to ensure proper functionality.
+Pencegahan tetap merupakan pendekatan terbaik untuk manajemen jembatan solder. Menggunakan pasta solder dalam jumlah yang tepat dan mempertahankan kontrol tangan yang stabil selama penempatan komponen secara signifikan mengurangi pembentukan jembatan. Ketika jembatan terjadi, segera atasi daripada berharap jembatan tidak akan mempengaruhi operasi sirkuit. Bahkan jembatan yang tampaknya kecil dapat menyebabkan masalah fungsionalitas yang signifikan yang sulit didiagnosis setelah papan dirakit sepenuhnya.
 
-## How to debug your Bitaxe using AxeOS
+
+### Komponen Penting dan Pertimbangan Khusus
+
+
+Konverter buck U9 perlu mendapat perhatian khusus karena perannya yang sangat penting dalam mengubah 5 volt menjadi 1,2 volt untuk chip ASIC. Komponen ini menghadirkan tantangan unik karena lima koneksi kecil dan kecenderungan kegagalan. Pemasangan yang tepat membutuhkan aplikasi pasta solder yang tepat dan manajemen panas yang cermat. Pasta solder yang tidak mencukupi di bawah U9 dapat mengakibatkan koneksi yang buruk yang mencegah konversi tegangan yang tepat, sementara pasta yang berlebihan dapat membuat jembatan yang menyebabkan kerusakan sirkuit.
+
+
+U9 menghasilkan tanda tangan audio yang khas ketika mengalami masalah jembatan solder, menghasilkan suara frekuensi tinggi yang berbeda dari pengoperasian ASIC yang normal. Teknik diagnostik pendengaran ini dapat membantu mengidentifikasi masalah, meskipun memerlukan pendengaran frekuensi tinggi yang baik untuk mendeteksi. Jika diagnosis audio tidak memungkinkan, inspeksi visual menjadi penting. Periksa semua koneksi dengan hati-hati, cari jembatan atau cakupan solder yang tidak memadai.
+
+
+Jika U9 gagal menghasilkan output 1,2 volt yang diperlukan meskipun terlihat disolder dengan benar, pertimbangkan pasta solder yang tidak mencukupi sebagai penyebabnya. Lepaskan komponen, oleskan sedikit pasta solder tambahan, dan pasang kembali. Dalam kasus di mana masing-masing pin tidak memiliki cakupan solder yang memadai, oleskan sedikit pasta solder dengan hati-hati ke lokasi tertentu dengan menggunakan pinset. Pasta solder secara alami akan mengalir di bawah komponen saat dipanaskan, menciptakan sambungan yang tepat melalui aksi kapiler.
+
+
+### Manajemen Panas dan Perlindungan Komponen
+
+
+Manajemen panas yang tepat melindungi komponen sensitif dari kerusakan termal sekaligus memastikan sambungan solder yang andal. Komponen seperti osilator kristal Y1 dan U1 sangat sensitif terhadap paparan panas dalam waktu lama dan memerlukan kontrol suhu yang cermat. Pertahankan suhu besi solder pada 350 derajat Celcius, tetapi minimalkan waktu aplikasi panas untuk mencegah kerusakan komponen. Teknik penyolderan yang cepat dan efisien melindungi komponen sensitif ini sekaligus menghasilkan koneksi yang andal.
+
+
+Chip ASIC memerlukan teknik penanganan khusus karena struktur pin yang kompleks dan sensitivitasnya terhadap tekanan mekanis. Saat menggunakan stensil untuk aplikasi pasta solder, pastikan cakupan yang merata di semua pin untuk mencegah penempatan komponen yang tidak rata. Jika pasta solder yang berlebihan menyebabkan ASIC tidak terpasang dengan rata, biarkan rakitan mendingin sepenuhnya sebelum melakukan koreksi. Berikan tekanan lembut hanya pada tepi komponen yang berlabel, jangan pernah ke area cetakan tengah, saat memanaskan ulang untuk mendapatkan posisi yang tepat.
+
+
+Komponen U8 menghadirkan tantangan unik karena banyaknya pin dan potensi kabel yang tertekuk. Apabila pin tertekuk selama penanganan, gunakan penahan PCB atau penjepit artikulasi untuk mengamankan komponen dan luruskan pin yang terpengaruh dengan hati-hati. Bekerjalah secara perlahan dan sabar untuk menghindari putusnya kabel yang halus. Memahami bahwa kelompok pin tertentu pada U8 terhubung secara internal dapat menyederhanakan pemecahan masalah, karena jembatan di antara pin tertentu ini tidak memengaruhi operasi sirkuit. Namun, jembatan antara pin lain memerlukan pelepasan yang hati-hati untuk memastikan fungsionalitas yang tepat.
+
+
+## Cara men-debug Bitaxe Anda menggunakan AxeOS
+
 <chapterId>603f5c0d-4b7c-51e1-9bad-318a8b8e9db7</chapterId>
+
 :::video id=d23d748b-510e-4748-9617-b875da757031:::
 
-When working with Bitaxe mining devices, hardware failures can manifest in various ways that may not be immediately obvious. Understanding how to systematically diagnose these issues using the AxeOS operating system can save significant time and prevent unnecessary component replacements. This chapter explores the diagnostic techniques and troubleshooting methodologies that experienced technicians use to identify specific hardware problems through software analysis.
+Ketika bekerja dengan perangkat Bitaxe mining, kegagalan perangkat keras dapat muncul dalam berbagai cara yang mungkin tidak langsung terlihat. Memahami cara mendiagnosis masalah ini secara sistematis menggunakan sistem operasi AxeOS dapat menghemat waktu yang signifikan dan mencegah penggantian komponen yang tidak perlu. Bab ini membahas teknik diagnostik dan metodologi pemecahan masalah yang digunakan oleh teknisi berpengalaman untuk mengidentifikasi masalah perangkat keras tertentu melalui analisis perangkat lunak.
 
-### Understanding Power Consumption Indicators
 
-The first and most critical diagnostic indicator in AxeOS is power consumption monitoring. Normal Bitaxe devices, including the Bitaxe Ultra and Bitaxe Supra models, typically consume between 10 to 17 watts during standard operation. This baseline measurement serves as your primary health indicator for the entire system. When power consumption drops significantly below this range, particularly below 3 watts, it signals a fundamental problem with the ASIC chip or its supporting circuitry.
+### Memahami Indikator Konsumsi Daya
 
-Low power consumption scenarios require immediate attention because they indicate that the mining chip is either completely non-functional or operating in a severely degraded state. This measurement alone can help you quickly differentiate between performance issues and complete hardware failures. The power reading in AxeOS provides real-time feedback that allows you to monitor the effectiveness of any repair attempts you make to the device.
 
-### Analyzing ASIC Voltage Measurements
+Indikator diagnostik pertama dan paling penting dalam AxeOS adalah pemantauan konsumsi daya. Perangkat Bitaxe normal, termasuk model Bitaxe Ultra dan Bitaxe Supra, biasanya mengkonsumsi antara 10 hingga 17 watt selama pengoperasian standar. Pengukuran dasar ini berfungsi sebagai indikator kesehatan utama Anda untuk seluruh sistem. Ketika konsumsi daya turun secara signifikan di bawah kisaran ini, terutama di bawah 3 watt, hal ini menandakan adanya masalah mendasar pada chip ASIC atau sirkuit pendukungnya.
 
-The ASIC voltage measurement feature in AxeOS provides crucial diagnostic information that helps pinpoint the exact nature of hardware problems. When examining voltage readings, you need to understand the relationship between measured voltage and requested voltage to properly diagnose issues. The system displays both the voltage being delivered to the ASIC chip and the voltage that the chip is requesting from the power management system.
 
-When you observe an ASIC voltage measurement of exactly 1.2 volts combined with power consumption below 3 watts, this specific combination indicates either a soldering problem with the ASIC chip or a completely failed ASIC. This voltage reading suggests that power is reaching the chip location, but the chip itself is not functioning properly. Physical inspection of the ASIC die can reveal cracks or other visible damage that would explain this behavior pattern.
+Skenario konsumsi daya yang rendah memerlukan perhatian segera karena mengindikasikan bahwa chip mining sama sekali tidak berfungsi atau beroperasi dalam kondisi yang sangat menurun. Pengukuran ini sendiri dapat membantu Anda dengan cepat membedakan antara masalah kinerja dan kegagalan perangkat keras sepenuhnya. Pembacaan daya di AxeOS memberikan umpan balik waktu nyata yang memungkinkan Anda untuk memantau keefektifan upaya perbaikan yang Anda lakukan pada perangkat.
 
-A different diagnostic scenario emerges when you see low power consumption paired with very low requested voltage readings, such as 100 millivolts or 0.5 volts. This pattern indicates that the ASIC chip is not receiving adequate voltage supply, which typically points to problems with the U9 buck converter component. The buck converter is responsible for providing the precise voltage regulation that ASIC chips require for proper operation.
 
-### Interpreting Log Data and ASIC Communication
+### Menganalisis Pengukuran Tegangan ASIC
 
-The AxeOS logging system provides valuable insight into whether your ASIC chip is communicating with the control system. When you access the logs through the "show logs" function, the presence of "ASIC results" entries confirms that the chip is not only powered but also actively processing work and returning results. This communication indicates that the ASIC is properly soldered and maintaining its connection to the control circuitry.
 
-The absence of ASIC results in the logs, particularly when combined with other symptoms, helps narrow down the problem to specific components or connection issues. This diagnostic approach allows you to distinguish between chips that are completely non-responsive and those that may have intermittent connection problems. The log analysis becomes particularly valuable when troubleshooting complex issues where multiple symptoms might suggest different root causes.
+Fitur pengukuran tegangan ASIC di AxeOS memberikan informasi diagnostik penting yang membantu menentukan dengan tepat sifat masalah perangkat keras. Saat memeriksa pembacaan tegangan, Anda perlu memahami hubungan antara tegangan yang diukur dan tegangan yang diminta untuk mendiagnosis masalah dengan benar. Sistem menampilkan tegangan yang dikirim ke chip ASIC dan tegangan yang diminta oleh chip dari sistem manajemen daya.
 
-### Systematic Troubleshooting Approach
 
-When diagnosing Bitaxe hardware issues, following a systematic approach prevents overlooking critical problems and ensures efficient repair processes. Begin by documenting the power consumption and voltage readings, then correlate these measurements with the log data to build a complete picture of the system's behavior. This methodical approach helps identify whether problems stem from the ASIC chip itself, the power delivery system, or the communication pathways between components.
+Apabila Anda mengamati pengukuran tegangan ASIC tepat 1,2 volt yang dikombinasikan dengan konsumsi daya di bawah 3 watt, kombinasi spesifik ini mengindikasikan masalah penyolderan pada chip ASIC atau ASIC yang gagal total. Pembacaan tegangan ini menunjukkan bahwa daya mencapai lokasi chip, tetapi chip itu sendiri tidak berfungsi dengan baik. Pemeriksaan fisik die ASIC dapat menunjukkan adanya retakan atau kerusakan lain yang terlihat yang dapat menjelaskan pola perilaku ini.
 
-For cases where the U9 buck converter appears to be the problem, physical inspection and potential resoldering may be necessary. The U9 component is particularly susceptible to soldering issues, especially in first-time assembly situations. When voltage regulation problems are suspected, using a multimeter to verify that 1.2 volts is actually present at the ASIC pins provides definitive confirmation of power delivery issues. If voltage is present at the pins but the ASIC still doesn't function, and physical inspection reveals no damage, replacing the ASIC chip becomes the next logical step. Should problems persist even after ASIC replacement, the U2 component, which drives the ASIC chip, may require attention as the final element in the troubleshooting sequence.
 
-## How to debug using USB?
+Skenario diagnostik yang berbeda muncul ketika Anda melihat konsumsi daya yang rendah dipasangkan dengan pembacaan tegangan yang diminta sangat rendah, seperti 100 milivolt atau 0,5 volt. Pola ini menunjukkan bahwa chip ASIC tidak menerima suplai tegangan yang memadai, yang biasanya menunjukkan masalah pada komponen konverter buck U9. Konverter buck bertanggung jawab untuk menyediakan regulasi tegangan yang tepat yang dibutuhkan chip ASIC untuk pengoperasian yang tepat.
+
+
+### Menafsirkan Data Log dan Komunikasi ASIC
+
+
+Sistem pencatatan AxeOS memberikan wawasan yang berharga mengenai apakah chip ASIC Anda berkomunikasi dengan sistem kontrol. Ketika Anda mengakses log melalui fungsi "tampilkan log", keberadaan entri "hasil ASIC" menegaskan bahwa chip tidak hanya diberi daya tetapi juga secara aktif memproses pekerjaan dan mengembalikan hasil. Komunikasi ini menunjukkan bahwa ASIC disolder dengan benar dan mempertahankan koneksinya ke sirkuit kontrol.
+
+
+Tidak adanya hasil ASIC dalam log, khususnya ketika dikombinasikan dengan gejala lain, membantu mempersempit masalah ke komponen tertentu atau masalah koneksi. Pendekatan diagnostik ini memungkinkan Anda untuk membedakan antara chip yang sama sekali tidak responsif dan chip yang mungkin memiliki masalah koneksi yang terputus-putus. Analisis log menjadi sangat berharga ketika memecahkan masalah yang kompleks di mana beberapa gejala mungkin menunjukkan akar penyebab yang berbeda.
+
+
+### Pendekatan Pemecahan Masalah yang Sistematis
+
+
+Ketika mendiagnosis masalah perangkat keras Bitaxe, mengikuti pendekatan sistematis mencegah pengabaian masalah kritis dan memastikan proses perbaikan yang efisien. Mulailah dengan mendokumentasikan konsumsi daya dan pembacaan voltase, kemudian hubungkan pengukuran ini dengan data log untuk membangun gambaran lengkap tentang perilaku sistem. Pendekatan metodis ini membantu mengidentifikasi apakah masalah berasal dari chip ASIC itu sendiri, sistem pengiriman daya, atau jalur komunikasi antar komponen.
+
+
+Untuk kasus-kasus di mana konverter buck U9 tampaknya menjadi masalah, pemeriksaan fisik dan kemungkinan penyolderan ulang mungkin diperlukan. Komponen U9 sangat rentan terhadap masalah penyolderan, terutama dalam situasi perakitan pertama kali. Ketika masalah regulasi tegangan dicurigai, menggunakan multimeter untuk memverifikasi bahwa 1,2 volt benar-benar ada pada pin ASIC memberikan konfirmasi yang pasti tentang masalah pengiriman daya. Jika tegangan ada pada pin tetapi ASIC masih tidak berfungsi, dan pemeriksaan fisik menunjukkan tidak ada kerusakan, mengganti chip ASIC menjadi langkah logis berikutnya. Jika masalah masih berlanjut bahkan setelah penggantian ASIC, komponen U2, yang menggerakkan chip ASIC, mungkin memerlukan perhatian sebagai elemen terakhir dalam urutan pemecahan masalah.
+
+
+## Bagaimana cara men-debug menggunakan USB?
+
 <chapterId>f3182763-e1ef-5460-8bc0-f2ea53e3a410</chapterId>
+
 
 :::video id=fe1b4b48-5f8a-4fd7-9417-ca03a36bce9f:::
 
 
-When troubleshooting Bitaxe mining devices, having direct access to the device's internal logging system provides invaluable insights that web-based interfaces cannot offer. This chapter explores how to establish a direct USB serial connection to your Bitaxe device using the ESP-IDF framework, enabling real-time monitoring of system logs, boot sequences, and error messages. This debugging approach is particularly crucial when dealing with devices that experience frequent reboots or hardware failures, as it captures all diagnostic information that might be lost during system restarts.
+Ketika memecahkan masalah perangkat Bitaxe mining, memiliki akses langsung ke sistem pencatatan internal perangkat akan memberikan wawasan yang tak ternilai yang tidak dapat ditawarkan oleh antarmuka berbasis web. Bab ini membahas cara membuat koneksi serial USB langsung ke perangkat Bitaxe Anda menggunakan kerangka kerja ESP-IDF, yang memungkinkan pemantauan log sistem, urutan booting, dan pesan kesalahan secara real-time. Pendekatan debugging ini sangat penting ketika menangani perangkat yang sering mengalami reboot atau kegagalan perangkat keras, karena dapat menangkap semua informasi diagnostik yang mungkin hilang selama restart sistem.
 
-The debugging process requires Visual Studio Code with the ESP-IDF extension, though any compatible IDE can be used. This method works with all Bitaxe variants that include a USB port, including the Bitaxe Ultra 204 and other models in the series. The direct serial connection bypasses potential web interface limitations and provides unfiltered access to the device's internal state information.
 
-### Setting Up Serial Communication
+Proses debugging memerlukan Visual Studio Code dengan ekstensi ESP-IDF, meskipun IDE apa pun yang kompatibel dapat digunakan. Metode ini dapat digunakan pada semua varian Bitaxe yang memiliki port USB, termasuk Bitaxe Ultra 204 dan model lainnya dalam seri ini. Koneksi serial langsung melewati potensi keterbatasan antarmuka web dan menyediakan akses tanpa filter ke informasi status internal perangkat.
 
-Establishing communication with your Bitaxe device begins with connecting the USB cable and opening the ESP-IDF terminal within your development environment. The command `idf.py monitor` initiates the connection process, automatically scanning available COM ports to establish UART communication with the ESP32 chip on your Bitaxe device. The system typically cycles through available ports (COM3, COM4, COM16, etc.) until it finds the correct connection.
 
-Once connected, the terminal displays the complete boot sequence and ongoing operational logs. The initial connection process may take several moments as the system identifies the correct communication port. If automatic port detection fails, you can manually specify the COM port through the IDE's port selection interface. This direct communication channel remains active throughout the device's operation, providing continuous access to system diagnostics and performance metrics.
+### Menyiapkan Komunikasi Serial
 
-### Interpreting Boot Sequence and Normal Operation Logs
 
-The boot sequence provides critical information about your Bitaxe device's hardware configuration and initialization process. Normal startup logs begin with ESP-IDF version information, followed by the distinctive "Welcome to the Bitaxe. Hack the planet" message that confirms successful firmware loading. The system then displays ASIC frequency configuration, device model identification, and board version details.
+Membangun komunikasi dengan perangkat Bitaxe Anda dimulai dengan menghubungkan kabel USB dan membuka terminal ESP-IDF dalam lingkungan pengembangan Anda. Perintah `idf.py monitor` memulai proses koneksi, secara otomatis memindai port COM yang tersedia untuk membuat komunikasi UART dengan chip ESP32 pada perangkat Bitaxe Anda. Sistem biasanya melakukan siklus melalui port yang tersedia (COM3, COM4, COM16, dll.) sampai menemukan koneksi yang benar.
 
-A properly functioning device will show successful I2C initialization and ASIC voltage regulation set to 1.2 volts. The logs display GPIO status information and Wi-Fi initialization sequences, followed by DHCP server configuration and IP address assignment. One of the most crucial indicators is the ASIC chip detection message, which should report "detected one ASIC chip" for a single-chip device. This confirmation validates that the mining hardware is properly connected and communicating with the ESP32 controller.
 
-The operational logs reveal multiple concurrent tasks running on the device, including stratum API communication, main task coordination, ASIC task management, and stratum task processing. These different task identifiers help isolate issues to specific system components. Normal operation includes pool connection establishment, difficulty adjustment messages, job queuing and dequeuing, and nonce generation reporting. Successful mining operations display ASIC results with difficulty calculations and mining submit confirmations when shares meet the required threshold.
+Setelah tersambung, terminal akan menampilkan urutan booting lengkap dan log operasional yang sedang berlangsung. Proses koneksi awal mungkin memerlukan waktu beberapa saat karena sistem mengidentifikasi port komunikasi yang benar. Jika deteksi port otomatis gagal, Anda dapat menentukan port COM secara manual melalui antarmuka pemilihan port IDE. Saluran komunikasi langsung ini tetap aktif selama perangkat beroperasi, sehingga memberikan akses berkelanjutan ke diagnostik sistem dan metrik kinerja.
 
-### Identifying Hardware Failures and Error Patterns
 
-Hardware failures manifest in the logs through specific error patterns that indicate which components are malfunctioning. The most common failure mode involves I2C communication errors with specific integrated circuits on the Bitaxe board. For example, DS4432U communication failures appear as "ESP_ERROR_CHECK failed" messages with timeout indicators, pointing to voltage regulation issues or soldering problems affecting the U10 component responsible for display communication.
+### Menafsirkan Urutan Booting dan Log Operasi Normal
 
-These error messages include detailed debugging information such as the specific source file (main_ds4432u.c), the failing function call, and the processor core handling the task. The backtrace information provides additional context for advanced troubleshooting. Similar error patterns can occur with the EMC2101 temperature and fan control chip, each generating distinctive log signatures that help identify the failing component.
 
-Physical hardware issues often present as repeated error cycles followed by system reboots. If your device produces audible noise during operation, this typically indicates soldering problems such as bridges between component pins or inadequate solder joints. While these mechanical issues may not always generate specific log entries, they create unstable operating conditions that manifest as frequent crashes and restart cycles in the monitoring output.
+Urutan booting memberikan informasi penting tentang konfigurasi perangkat keras dan proses inisialisasi perangkat Bitaxe Anda. Log pengaktifan normal dimulai dengan informasi versi ESP-IDF, diikuti dengan pesan "Selamat datang di Bitaxe. Hack the planet" yang mengonfirmasi pemuatan firmware yang berhasil. Sistem kemudian menampilkan konfigurasi frekuensi ASIC, identifikasi model perangkat, dan detail versi board.
 
-### Advanced Troubleshooting Strategies
 
-Serial monitoring provides several advantages over web-based debugging interfaces, particularly for intermittent failures or devices experiencing frequent reboots. The continuous log capture ensures that no diagnostic information is lost during system restarts, unlike web interfaces that may lose data during disconnection events. This comprehensive logging capability makes it possible to identify patterns in failures and correlate specific error conditions with hardware or environmental factors.
+Perangkat yang berfungsi dengan baik akan menunjukkan inisialisasi I2C yang berhasil dan pengaturan tegangan ASIC yang diatur ke 1,2 volt. Log menampilkan informasi status GPIO dan urutan inisialisasi Wi-Fi, diikuti dengan konfigurasi server DHCP dan penetapan alamat IP. Salah satu indikator yang paling penting adalah pesan deteksi chip ASIC, yang seharusnya melaporkan "terdeteksi satu chip ASIC" untuk perangkat chip tunggal. Konfirmasi ini memvalidasi bahwa perangkat keras mining telah terhubung dengan benar dan berkomunikasi dengan pengontrol ESP32.
 
-When analyzing problematic devices, focus on the sequence of events leading to failures rather than isolated error messages. Successful ASIC communication should show regular job processing, nonce generation, and share submission cycles. Missing ASIC results in the logs indicate communication failures between the ESP32 and the mining chip, often caused by power supply issues, damaged traces, or component failures.
 
-For systematic troubleshooting, document error patterns and component-specific failures before seeking community support. The detailed error logs, including specific chip identifiers and failure modes, enable experienced users to provide targeted repair guidance, such as component replacement procedures or soldering corrections. This methodical approach to hardware debugging significantly improves repair success rates and reduces troubleshooting time for complex issues.
+Log operasional mengungkapkan beberapa tugas bersamaan yang berjalan pada perangkat, termasuk komunikasi strata API, koordinasi tugas utama, manajemen tugas ASIC, dan pemrosesan tugas strata. Pengidentifikasi tugas yang berbeda ini membantu mengisolasi masalah pada komponen sistem tertentu. Operasi normal mencakup pembentukan koneksi pool, pesan penyesuaian kesulitan, antrian pekerjaan dan dequeuing, dan pelaporan pembuatan nonce. Operasi mining yang berhasil menampilkan hasil ASIC dengan perhitungan tingkat kesulitan dan mining mengirimkan konfirmasi ketika saham memenuhi ambang batas yang diperlukan.
 
-# Advanced Customization
+
+### Mengidentifikasi Kegagalan Perangkat Keras dan Pola Kesalahan
+
+
+Kegagalan perangkat keras termanifestasi dalam log melalui pola kesalahan tertentu yang menunjukkan komponen mana yang tidak berfungsi. Modus kegagalan yang paling umum adalah kesalahan komunikasi I2C dengan sirkuit terpadu tertentu pada papan Bitaxe. Sebagai contoh, kegagalan komunikasi DS4432U muncul sebagai pesan "ESP_ERROR_CHECK failed" dengan indikator waktu habis, yang menunjukkan masalah pengaturan tegangan atau masalah penyolderan yang mempengaruhi komponen U10 yang bertanggung jawab atas komunikasi tampilan.
+
+
+Pesan kesalahan ini mencakup informasi debugging yang terperinci seperti file sumber tertentu (main_ds4432u.c), panggilan fungsi yang gagal, dan inti prosesor yang menangani tugas tersebut. Informasi penelusuran kembali memberikan konteks tambahan untuk pemecahan masalah tingkat lanjut. Pola kesalahan yang sama dapat terjadi pada chip kontrol suhu dan kipas EMC2101, masing-masing menghasilkan tanda tangan log yang berbeda yang membantu mengidentifikasi komponen yang gagal.
+
+
+Masalah perangkat keras fisik sering kali muncul sebagai siklus kesalahan berulang yang diikuti dengan boot ulang sistem. Jika perangkat Anda mengeluarkan suara berisik selama pengoperasian, hal ini biasanya mengindikasikan masalah penyolderan seperti sambungan antar pin komponen atau sambungan solder yang tidak memadai. Meskipun masalah mekanis ini mungkin tidak selalu menjadi entri log spesifik generate, masalah ini menciptakan kondisi operasi yang tidak stabil yang bermanifestasi sebagai seringnya terjadi crash dan siklus restart pada output pemantauan.
+
+
+### Strategi Pemecahan Masalah Tingkat Lanjut
+
+
+Pemantauan serial memberikan beberapa keunggulan dibandingkan antarmuka debugging berbasis web, terutama untuk kegagalan intermiten atau perangkat yang sering mengalami reboot. Pengambilan log secara terus menerus memastikan bahwa tidak ada informasi diagnostik yang hilang selama restart sistem, tidak seperti antarmuka web yang mungkin kehilangan data selama peristiwa pemutusan sambungan. Kemampuan pencatatan yang komprehensif ini memungkinkan untuk mengidentifikasi pola kegagalan dan menghubungkan kondisi kesalahan tertentu dengan perangkat keras atau faktor lingkungan.
+
+
+Saat menganalisis perangkat yang bermasalah, fokuslah pada urutan kejadian yang menyebabkan kegagalan daripada pesan kesalahan yang terisolasi. Komunikasi ASIC yang berhasil harus menunjukkan pemrosesan pekerjaan yang teratur, pembuatan nonce, dan siklus pengiriman berbagi. Hasil ASIC yang hilang dalam log menunjukkan kegagalan komunikasi antara ESP32 dan chip mining, yang sering kali disebabkan oleh masalah catu daya, jejak yang rusak, atau kegagalan komponen.
+
+
+Untuk pemecahan masalah yang sistematis, dokumentasikan pola kesalahan dan kegagalan spesifik komponen sebelum mencari dukungan komunitas. Log kesalahan yang terperinci, termasuk pengidentifikasi chip dan mode kegagalan tertentu, memungkinkan pengguna yang berpengalaman untuk memberikan panduan perbaikan yang ditargetkan, seperti prosedur penggantian komponen atau koreksi penyolderan. Pendekatan metodis untuk debugging perangkat keras ini secara signifikan meningkatkan tingkat keberhasilan perbaikan dan mengurangi waktu pemecahan masalah untuk masalah yang kompleks.
+
+
+# Kustomisasi Tingkat Lanjut
+
 <partId>8d333102-ecb5-5f05-bfb5-03a27b2d0d70</partId>
 
-## Modify the PCB
+
+## Memodifikasi PCB
+
 <chapterId>ca08d2a4-2b34-575b-aecc-7482a03c190e</chapterId>
+
 
 :::video id=30fb0010-f560-4e96-a05b-c21dc172746e:::
 
-KiCad represents one of the most powerful open-source tools available for printed circuit board (PCB) design and routing. This professional-grade software enables engineers and hobbyists to create complex electronic designs by placing components on virtual boards and routing the intricate traces that connect these components together. What makes KiCad particularly valuable for educational and development purposes is its complete open-source nature, allowing users to modify, customize, and learn from existing designs without licensing restrictions.
+KiCad merupakan salah satu alat bantu sumber terbuka yang paling kuat yang tersedia untuk desain dan perutean papan sirkuit tercetak (PCB). Perangkat lunak kelas profesional ini memungkinkan para insinyur dan penghobi untuk membuat desain elektronik yang rumit dengan menempatkan komponen pada papan virtual dan merutekan jalur rumit yang menghubungkan komponen-komponen tersebut. Apa yang membuat KiCad sangat berharga untuk tujuan pendidikan dan pengembangan adalah sifat sumber terbuka yang lengkap, memungkinkan pengguna untuk memodifikasi, menyesuaikan, dan belajar dari desain yang ada tanpa batasan lisensi.
 
-The BidX project exemplifies the power of open-source hardware development, providing a complete PCB design that users can examine, modify, and customize according to their specific needs. This accessibility creates an excellent learning environment where students and practitioners can explore real-world PCB designs while developing their understanding of electronic systems. The ability to customize visual elements like logos provides an approachable entry point for users who may be intimidated by the technical complexity of electronic design.
 
-### Setting Up Your KiCad Environment
+Proyek Bitaxe mencontohkan kekuatan pengembangan perangkat keras sumber terbuka, menyediakan desain PCB lengkap yang dapat diperiksa, dimodifikasi, dan disesuaikan oleh pengguna sesuai dengan kebutuhan spesifik mereka. Aksesibilitas ini menciptakan lingkungan pembelajaran yang sangat baik di mana siswa dan praktisi dapat menjelajahi desain PCB dunia nyata sambil mengembangkan pemahaman mereka tentang sistem elektronik. Kemampuan untuk menyesuaikan elemen visual seperti logo memberikan titik masuk yang mudah didekati bagi pengguna yang mungkin terintimidasi oleh kerumitan teknis desain elektronik.
 
-Before beginning any customization work, proper setup of your development environment is essential. The BidX repository must be downloaded to your local machine, typically accomplished through GitHub's ZIP download functionality. This repository contains all the necessary project files, including the KiCad project files, component libraries, and design documentation required for successful modification.
 
-KiCad installation should be completed using the official distribution from the KiCad website, ensuring compatibility with the project files and access to the latest features. Once both the repository and KiCad are properly installed, opening the project requires navigating to the BidX Ultra KiCad project file within the downloaded repository structure. This project file serves as the central hub that links all associated design files, component libraries, and configuration settings.
+### Menyiapkan Lingkungan KiCad Anda
 
-The initial view of a complex PCB design can appear overwhelming, with numerous components, traces, and layers creating a dense visual landscape. However, KiCad's 3D viewer functionality provides an invaluable tool for understanding the physical layout and spatial relationships within the design. This three-dimensional perspective transforms the abstract schematic representation into a realistic visualization of the final manufactured product, making it easier to comprehend component placement and overall design aesthetics.
 
-### Logo Customization Process
+Sebelum memulai pekerjaan kustomisasi, pengaturan yang tepat untuk lingkungan pengembangan Anda sangatlah penting. Repositori Bitaxe harus diunduh ke mesin lokal Anda, biasanya dilakukan melalui fungsionalitas pengunduhan ZIP GitHub. Repositori ini berisi semua file proyek yang diperlukan, termasuk file proyek KiCad, pustaka komponen, dan dokumentasi desain yang diperlukan untuk modifikasi yang berhasil.
 
-Customizing logos on PCB designs represents one of the most accessible modifications for users new to KiCad, requiring minimal technical knowledge while providing immediate visual results. The process begins with the image converter tool, which transforms standard image files into footprint formats compatible with PCB design software. This conversion process requires careful attention to sizing parameters, typically measured in millimeters to ensure proper scaling on the final manufactured board.
 
-The image converter workflow involves several critical steps that determine the final appearance and placement of custom logos. Source image selection should prioritize high-contrast designs that will translate well to the silkscreen printing process used in PCB manufacturing. Size specification becomes crucial, as logos must be large enough to remain legible after manufacturing while not interfering with component placement or functionality. The choice between front and back silkscreen layers affects both visibility and manufacturing considerations.
+Instalasi KiCad harus dilakukan dengan menggunakan distribusi resmi dari situs web KiCad, untuk memastikan kompatibilitas dengan file proyek dan akses ke fitur-fitur terbaru. Setelah repositori dan KiCad terinstal dengan benar, membuka proyek memerlukan navigasi ke file proyek Bitaxe Ultra KiCad di dalam struktur repositori yang telah diunduh. File proyek ini berfungsi sebagai pusat penghubung yang menghubungkan semua file desain, pustaka komponen, dan pengaturan konfigurasi yang terkait.
 
-Footprint library management represents a fundamental aspect of KiCad customization, requiring users to understand how the software organizes and accesses design elements. Adding custom logos involves creating new footprint libraries or modifying existing ones, then properly linking these libraries within the project structure. This process ensures that custom elements remain accessible across different design sessions and can be easily shared with other team members or collaborators.
 
-### Advanced Design Exploration and Understanding
+Tampilan awal desain PCB yang kompleks dapat tampak luar biasa, dengan banyak komponen, jejak, dan lapisan yang menciptakan lanskap visual yang padat. Namun, fungsionalitas penampil 3D KiCad menyediakan alat yang sangat berharga untuk memahami tata letak fisik dan hubungan spasial dalam desain. Perspektif tiga dimensi ini mengubah representasi skematik abstrak menjadi visualisasi realistis dari produk akhir yang diproduksi, membuatnya lebih mudah untuk memahami penempatan komponen dan estetika desain secara keseluruhan.
 
-Beyond simple logo customization, KiCad provides powerful tools for exploring and understanding complex PCB designs. The layer management system allows users to selectively view different aspects of the design, from component placement and routing to manufacturing specifications and assembly information. This layered approach enables detailed analysis of specific design elements without visual clutter from unrelated components.
 
-Trace routing analysis represents one of the most educational aspects of PCB exploration, revealing how electrical connections flow between components and subsystems. By following individual traces or groups of related signals, users can develop understanding of circuit functionality and design decisions. For example, examining power distribution networks reveals how voltage regulation and filtering components work together to provide clean, stable power to sensitive electronic components.
+### Proses Kustomisasi Logo
 
-The relationship between schematic design and physical layout becomes apparent through careful examination of component placement and routing decisions. Understanding why specific components are positioned in particular locations, how thermal considerations influence layout decisions, and how signal integrity requirements drive routing choices provides valuable insights into professional PCB design practices. This knowledge proves invaluable for users developing their own designs or modifying existing ones for specific applications.
 
-KiCad's comprehensive design rule checking and verification tools ensure that modifications maintain electrical and manufacturing compatibility. These automated systems help prevent common design errors while educating users about industry standards and best practices. The integration of 3D visualization with electrical design data creates a powerful learning environment where theoretical concepts become tangible through visual representation and interactive exploration.
+Menyesuaikan logo pada desain PCB merupakan salah satu modifikasi yang paling mudah diakses oleh pengguna yang baru mengenal KiCad, yang membutuhkan pengetahuan teknis minimal sekaligus memberikan hasil visual langsung. Prosesnya dimulai dengan alat konverter gambar, yang mengubah file gambar standar menjadi format footprint yang kompatibel dengan perangkat lunak desain PCB. Proses konversi ini membutuhkan perhatian yang cermat terhadap parameter ukuran, biasanya diukur dalam milimeter untuk memastikan penskalaan yang tepat pada papan akhir yang diproduksi.
 
-## How to create a factory file?
+
+Alur kerja konverter gambar melibatkan beberapa langkah penting yang menentukan tampilan akhir dan penempatan logo kustom. Pemilihan gambar sumber harus memprioritaskan desain dengan kontras tinggi yang akan diterjemahkan dengan baik ke proses pencetakan silkscreen yang digunakan dalam pembuatan PCB. Spesifikasi ukuran menjadi sangat penting, karena logo harus cukup besar agar tetap terbaca setelah diproduksi tanpa mengganggu penempatan atau fungsionalitas komponen. Pilihan antara lapisan silkscreen depan dan belakang memengaruhi visibilitas dan pertimbangan manufaktur.
+
+
+Manajemen footprint library merupakan aspek fundamental dari kustomisasi KiCad, yang mengharuskan pengguna untuk memahami bagaimana perangkat lunak ini mengatur dan mengakses elemen-elemen desain. Menambahkan logo kustom melibatkan pembuatan footprint library baru atau memodifikasi yang sudah ada, kemudian menautkan library ini dengan benar di dalam struktur proyek. Proses ini memastikan bahwa elemen kustom tetap dapat diakses di berbagai sesi desain dan dapat dengan mudah dibagikan dengan anggota tim atau kolaborator lain.
+
+
+### Eksplorasi dan Pemahaman Desain Tingkat Lanjut
+
+
+Di luar kustomisasi logo yang sederhana, KiCad menyediakan alat bantu yang kuat untuk mengeksplorasi dan memahami desain PCB yang kompleks. Sistem manajemen lapisan memungkinkan pengguna untuk secara selektif melihat berbagai aspek desain, mulai dari penempatan komponen dan perutean hingga spesifikasi manufaktur dan informasi perakitan. Pendekatan berlapis ini memungkinkan analisis terperinci dari elemen desain tertentu tanpa kekacauan visual dari komponen yang tidak terkait.
+
+
+Analisis penelusuran jejak merupakan salah satu aspek yang paling mendidik dari eksplorasi PCB, yang mengungkapkan bagaimana koneksi listrik mengalir di antara komponen dan subsistem. Dengan mengikuti jejak individu atau kelompok sinyal terkait, pengguna dapat mengembangkan pemahaman tentang fungsionalitas sirkuit dan keputusan desain. Sebagai contoh, memeriksa jaringan distribusi daya mengungkapkan bagaimana regulasi tegangan dan komponen penyaringan bekerja bersama untuk memberikan daya yang bersih dan stabil ke komponen elektronik yang sensitif.
+
+
+Hubungan antara desain skematik dan tata letak fisik menjadi jelas melalui pemeriksaan yang cermat terhadap penempatan komponen dan keputusan perutean. Memahami mengapa komponen tertentu diposisikan di lokasi tertentu, bagaimana pertimbangan termal memengaruhi keputusan tata letak, dan bagaimana persyaratan integritas sinyal mendorong pilihan perutean memberikan wawasan yang berharga ke dalam praktik desain PCB profesional. Pengetahuan ini terbukti sangat berharga bagi pengguna yang mengembangkan desain mereka sendiri atau memodifikasi desain yang sudah ada untuk aplikasi tertentu.
+
+
+Alat bantu pemeriksaan dan verifikasi aturan desain KiCad yang komprehensif memastikan bahwa modifikasi menjaga kompatibilitas kelistrikan dan manufaktur. Sistem otomatis ini membantu mencegah kesalahan desain yang umum terjadi sekaligus mengedukasi pengguna tentang standar industri dan praktik terbaik. Integrasi visualisasi 3D dengan data desain kelistrikan menciptakan lingkungan pembelajaran yang kuat di mana konsep teoretis menjadi nyata melalui representasi visual dan eksplorasi interaktif.
+
+
+## Bagaimana cara membuat file pabrik?
+
 <chapterId>e9da631c-e6d1-50c1-bb59-bc8455c29d3e</chapterId>
+
 
 :::video id=07f980bf-6052-4ed4-bf7b-75e8aba585df:::
 
-Building custom firmware for ESP-based mining devices requires careful attention to configuration, dependencies, and the proper build process. This comprehensive guide walks through the complete process of creating both standard firmware binaries and factory files that include pre-configured settings, making deployment more efficient and reducing setup time for end users.
+Membangun firmware khusus untuk perangkat mining berbasis ESP membutuhkan perhatian yang cermat terhadap konfigurasi, ketergantungan, dan proses pembuatan yang tepat. Panduan komprehensif ini memandu Anda melalui proses lengkap pembuatan binari firmware standar dan file pabrik yang menyertakan pengaturan yang telah dikonfigurasi sebelumnya, sehingga penerapan menjadi lebih efisien dan mengurangi waktu penyiapan bagi pengguna akhir.
 
-### Setting Up the Development Environment
 
-The foundation of successful ESP-Miner firmware development begins with establishing the proper development environment in Visual Studio Code. The ESP-IDF extension serves as the cornerstone of this setup, providing the necessary tools and framework integration for ESP32 development. When installing the ESP-IDF extension for the first time, users encounter a setup guide that facilitates the configuration process.
+Harap diperhatikan bahwa bab ini cukup teknis dan dapat dibaca sekilas saja jika Anda ingin tahu lebih banyak.
 
-A critical consideration in the setup process involves selecting the appropriate ESP-IDF version. While version 5.1.3 was previously recommended, practical experience has revealed that this version can cause build issues that complicate the development process. The recommended approach now involves using ESP-IDF version 5.3 Beta 1, which has proven to resolve these building complications and ensures that Bitaxe devices function properly. The installation process requires selecting the Express installation option and specifically choosing version 5.3 Beta 1 from the available options.
 
-The development environment setup extends beyond the ESP-IDF installation to include proper terminal configuration. Visual Studio Code provides multiple methods for accessing ESP-IDF functionality, including the command palette option to open an ESP-IDF terminal or using the dedicated terminal icon located in the interface. This specialized terminal environment ensures that all ESP-IDF commands function correctly and provides access to the complete toolchain.
+### Menyiapkan Lingkungan Pengembangan
 
-### Configuring the ESP-Miner Settings
 
-The configuration file represents the heart of the ESP-Miner customization process, containing all the essential parameters that define how the device will operate in its target environment. This configuration encompasses network settings, mining pool connections, and hardware-specific parameters that must be tailored to the specific deployment scenario.
+Untuk memulai pengembangan firmware ESP-Miner, Anda harus membuat lingkungan pengembangan yang tepat di Visual Studio Code, idealnya pada distribusi linux. Ekstensi ESP-IDF berfungsi sebagai landasan penyiapan ini, menyediakan alat yang diperlukan dan integrasi kerangka kerja untuk pengembangan ESP32. Ketika menginstal ekstensi ESP-IDF untuk pertama kalinya, pengguna akan menemukan panduan penyiapan yang memfasilitasi proses konfigurasi.
 
-Network configuration forms the primary component of the setup process, requiring the specification of Wi-Fi credentials including the SSID and password. Rather than using placeholder values like "test," production configurations should include the actual network credentials that the device will use in its operational environment. The configuration also accommodates various mining pool setups, supporting both private pool configurations with specific IP addresses and public pools like public-pool.io with their corresponding port settings.
 
-Mining-specific configuration parameters include the stratum user setting, which typically corresponds to the Bitcoin address where mining rewards should be directed. Additional hardware parameters such as frequency settings, voltage configurations, and ASIC type specifications must align with the target hardware platform. The GitHub repository provides pre-configured examples for different hardware variants, such as the BM1368 configuration designed for Super devices and BM1366 settings for Ultra variants. Board version specifications, such as setting the port version to 401 for newer hardware revisions, ensure compatibility with the target device's specific characteristics.
+Pertimbangan penting dalam proses penyiapan adalah memilih versi ESP-IDF yang sesuai. Meskipun versi 5.1.3 sebelumnya direkomendasikan, pengalaman praktis telah mengungkapkan bahwa versi ini dapat menyebabkan masalah pembangunan yang mempersulit proses pengembangan. Pendekatan yang direkomendasikan sekarang adalah menggunakan ESP-IDF versi 5.3 Beta 1, yang telah terbukti dapat mengatasi masalah-masalah tersebut dan memastikan bahwa perangkat Bitaxe berfungsi dengan baik. Proses instalasi memerlukan pemilihan opsi instalasi Express dan secara khusus memilih versi 5.3 Beta 1 dari pilihan yang tersedia.
 
-### Building the Web Interface and Core Firmware
 
-The ESP-Miner project incorporates a sophisticated web interface that requires separate compilation before the main firmware build process can commence. This web interface, referred to as the XOS firmware, provides users with a comprehensive management interface for monitoring and controlling their mining devices.
+Penyiapan lingkungan pengembangan melampaui instalasi ESP-IDF untuk menyertakan konfigurasi terminal yang tepat. Visual Studio Code menyediakan beberapa metode untuk mengakses fungsionalitas ESP-IDF, termasuk opsi palet perintah untuk membuka terminal ESP-IDF atau menggunakan ikon terminal khusus yang terletak di antarmuka. Lingkungan terminal khusus ini memastikan bahwa semua perintah ESP-IDF berfungsi dengan benar dan menyediakan akses ke rantai alat yang lengkap.
 
-The web interface build process begins by navigating to the HTTP server directory within the main repository structure, specifically the XOS subdirectory. This location contains the Node.js-based web application that requires dependency installation through the npm install command. The build system assumes that Node.js is properly installed on the development system, as this represents a fundamental requirement for the web interface compilation process.
 
-Following the dependency installation, the npm run build command compiles the web interface components, creating the necessary files that will be embedded into the ESP32 firmware. This compilation process generates optimized web assets that provide the user interface functionality while maintaining efficient memory usage on the constrained ESP32 platform. The successful completion of this build step is essential before proceeding to the main firmware compilation, as the ESP-Miner firmware incorporates these web interface components as integral functionality.
+### Mengkonfigurasi Pengaturan ESP-Miner
 
-### Creating Factory Files with Embedded Configuration
 
-The creation of factory files represents an advanced deployment strategy that embeds configuration settings directly into the firmware binary, eliminating the need for manual configuration during device setup. This approach proves particularly valuable for large-scale deployments or situations where consistent configuration across multiple devices is essential.
+File konfigurasi merupakan inti dari proses kustomisasi ESP-Miner, yang berisi semua parameter penting yang menentukan bagaimana perangkat akan beroperasi di lingkungan targetnya. Konfigurasi ini mencakup pengaturan jaringan, koneksi pool mining, dan parameter khusus perangkat keras yang harus disesuaikan dengan skenario penerapan tertentu.
 
-The factory file creation process begins with generating a configuration binary from the CSV configuration file using the ESP-IDF's NVS partition generator tool. This tool, located within the ESP-IDF components directory under nvs-flash/nvs-partition-generator, converts the human-readable configuration into a binary format suitable for direct flash memory storage. The nvs-partition-gen.py script processes the config.csv file and generates a config.binary file that targets the 0x6000 memory address space.
 
-The final assembly of factory files utilizes specialized merge scripts that combine the core firmware binaries with the configuration data. The repository provides multiple merge options, including a standard merge script for basic factory files and a configuration-inclusive merge script for comprehensive factory files. The merge-bin-with-config.sh script creates factory files that include both the firmware functionality and the pre-configured settings, resulting in a complete deployment package. This approach enables the creation of device-specific factory files, such as versions tailored for Bitaxe Ultra devices with specific board revisions, while maintaining the flexibility to generate generic factory files without embedded configurations for scenarios requiring manual setup flexibility.
+Konfigurasi jaringan merupakan komponen utama dari proses penyiapan, yang memerlukan spesifikasi kredensial Wi-Fi termasuk SSID dan kata sandi. Daripada menggunakan nilai placeholder seperti "test", konfigurasi produksi harus menyertakan kredensial jaringan yang sebenarnya yang akan digunakan perangkat dalam lingkungan operasionalnya. Konfigurasi ini juga mengakomodasi berbagai pengaturan pool mining, mendukung konfigurasi pool pribadi dengan alamat IP tertentu dan pool publik seperti public-pool.io dengan pengaturan port yang sesuai.
 
-The completed factory files provide deployment teams with ready-to-flash binaries that include all necessary firmware components and configuration settings, streamlining the device provisioning process and ensuring consistent operational parameters across deployed mining devices.
 
-## How to use the Bitaxe Web Flasher ?
+Parameter konfigurasi khusus Mining mencakup pengaturan pengguna strata, yang biasanya sesuai dengan alamat Bitcoin di mana hadiah mining harus diarahkan. Parameter perangkat keras tambahan seperti pengaturan frekuensi, konfigurasi voltase, dan spesifikasi tipe ASIC harus sesuai dengan platform perangkat keras target. Repositori GitHub menyediakan contoh pra-konfigurasi untuk varian perangkat keras yang berbeda, seperti konfigurasi BM1368 yang dirancang untuk perangkat Super dan pengaturan BM1366 untuk varian Ultra. Spesifikasi versi board, seperti mengatur versi port ke 401 untuk revisi perangkat keras yang lebih baru, memastikan kompatibilitas dengan karakteristik spesifik perangkat target.
+
+
+### Membangun Web Interface dan Firmware Inti
+
+
+Proyek ESP-Miner menggabungkan antarmuka web yang canggih yang memerlukan kompilasi terpisah sebelum proses pembuatan firmware utama dapat dimulai. Antarmuka web ini, yang disebut sebagai firmware AxeOS, menyediakan antarmuka manajemen yang komprehensif bagi pengguna untuk memantau dan mengendalikan perangkat mining mereka.
+
+
+Proses pembuatan antarmuka web dimulai dengan menavigasi ke direktori server HTTP di dalam struktur repositori utama, khususnya subdirektori AxeOS. Lokasi ini berisi aplikasi web berbasis Node.js yang membutuhkan instalasi ketergantungan melalui perintah npm install. Sistem build mengasumsikan bahwa Node.js telah terinstal dengan benar pada sistem pengembangan, karena ini merupakan persyaratan mendasar untuk proses kompilasi antarmuka web.
+
+
+Setelah instalasi ketergantungan, perintah npm run build mengkompilasi komponen antarmuka web, membuat file yang diperlukan yang akan disematkan ke dalam firmware ESP32. Proses kompilasi ini menghasilkan aset web yang dioptimalkan yang menyediakan fungsionalitas antarmuka pengguna sambil mempertahankan penggunaan memori yang efisien pada platform ESP32 yang terbatas. Keberhasilan penyelesaian langkah pembuatan ini sangat penting sebelum melanjutkan ke kompilasi firmware utama, karena firmware ESP-Miner menggabungkan komponen antarmuka web ini sebagai fungsionalitas integral.
+
+
+### Membuat File Pabrik dengan Konfigurasi Tertanam
+
+
+Pembuatan file pabrik merupakan strategi penerapan tingkat lanjut yang menyematkan pengaturan konfigurasi secara langsung ke dalam biner firmware, sehingga tidak memerlukan konfigurasi manual selama penyiapan perangkat. Pendekatan ini terbukti sangat berharga untuk penerapan skala besar atau situasi di mana konfigurasi yang konsisten di beberapa perangkat sangat penting.
+
+
+Proses pembuatan file pabrik dimulai dengan membuat biner konfigurasi dari file konfigurasi CSV menggunakan alat penghasil partisi NVS ESP-IDF. Alat ini, yang terletak di dalam direktori komponen ESP-IDF di bawah nvs-flash/nvs-partition-generator, mengonversi konfigurasi yang dapat dibaca manusia ke dalam format biner yang sesuai untuk penyimpanan memori flash langsung. Skrip nvs-partition-gen.py memproses file config.csv dan menghasilkan file config.binary yang menargetkan ruang alamat memori 0x6000.
+
+
+Perakitan akhir file pabrik menggunakan skrip penggabungan khusus yang menggabungkan binari firmware inti dengan data konfigurasi. Repositori ini menyediakan beberapa opsi penggabungan, termasuk skrip penggabungan standar untuk file pabrik dasar dan skrip penggabungan yang mencakup konfigurasi untuk file pabrik yang komprehensif. Skrip penggabungan dengan konfigurasi.sh membuat file pabrik yang menyertakan fungsionalitas firmware dan pengaturan yang telah dikonfigurasi sebelumnya, sehingga menghasilkan paket penerapan yang lengkap. Pendekatan ini memungkinkan pembuatan file pabrik khusus perangkat, seperti versi yang disesuaikan untuk perangkat Bitaxe Ultra dengan revisi papan tertentu, sambil mempertahankan fleksibilitas untuk file pabrik generik generate tanpa konfigurasi yang disematkan untuk skenario yang membutuhkan fleksibilitas pengaturan manual.
+
+
+File pabrik yang telah selesai menyediakan tim penerapan dengan binari siap pakai yang mencakup semua komponen firmware yang diperlukan dan pengaturan konfigurasi, merampingkan proses penyediaan perangkat dan memastikan parameter operasional yang konsisten di seluruh perangkat mining yang digunakan.
+
+
+## Bagaimana cara menggunakan Bitaxe Web Flasher?
+
 <chapterId>8c3e2d4c-c038-53ec-93cb-cc30a29e4394</chapterId>
+
 
 :::video id=291757b9-f459-48f6-8766-56387f907859:::
 
-The Bitaxe Web Installer represents a streamlined approach to firmware management for Bitaxe devices, providing users with multiple installation options through a web-based interface. This comprehensive tool eliminates the complexity traditionally associated with firmware updates and fresh installations, making device management accessible to users regardless of their technical expertise. Understanding the proper use of this installer is crucial for maintaining optimal device performance and avoiding common pitfalls that can render devices temporarily inoperable.
+Penginstal Web Bitaxe mewakili pendekatan yang efisien untuk manajemen firmware untuk perangkat Bitaxe, memberikan pengguna beberapa opsi instalasi melalui antarmuka berbasis web. Alat yang komprehensif ini menghilangkan kerumitan yang biasanya terkait dengan pembaruan firmware dan instalasi baru, sehingga manajemen perangkat dapat diakses oleh pengguna terlepas dari keahlian teknis mereka. Memahami penggunaan penginstal yang tepat dari penginstal ini sangat penting untuk mempertahankan kinerja perangkat yang optimal dan menghindari jebakan umum yang dapat membuat perangkat tidak dapat dioperasikan untuk sementara waktu.
 
-### Accessing and Browser Compatibility Requirements
 
-The Bitaxe Web Installer is accessible through the dedicated URL oneclue.github.io/bitx-web-flasher, serving as the central hub for all firmware installation activities. However, successful operation of this web-based tool requires careful attention to browser compatibility, as the installer relies on specific web technologies that are not universally supported across all browsers. Chrome stands as the primary recommended browser for the installer, providing full compatibility with all features and functions. While other Chromium-based browsers may offer similar functionality, popular alternatives like Brave and Firefox lack the necessary web serial API support, making them incompatible with the installer's core operations.
+### Persyaratan Pengaksesan dan Kompatibilitas Peramban
 
-This browser limitation stems from the installer's reliance on direct serial communication with Bitaxe devices through the web interface. The web serial API, which enables this communication, remains a relatively new web standard that has not yet achieved universal browser adoption. Users attempting to access the installer through unsupported browsers will encounter connection failures and inability to communicate with their devices, necessitating a switch to a compatible browser before proceeding with any installation activities.
 
-### Power Requirements and Device Preparation
+Penginstal Web Bitaxe dapat diakses melalui URL khusus [https://bitaxeorg.github.io/bitaxe-web-flasher/](https://bitaxeorg.github.io/bitaxe-web-flasher/) (URL yang ditampilkan dalam video sekarang sudah tidak digunakan lagi), yang berfungsi sebagai pusat untuk semua aktivitas instalasi firmware. Namun, keberhasilan pengoperasian alat berbasis web ini memerlukan kompatibilitas browser, karena penginstal bergantung pada teknologi web tertentu yang tidak didukung secara universal di semua browser. Chrome merupakan peramban yang direkomendasikan sebagai peramban utama untuk penginstal, yang menyediakan kompatibilitas penuh dengan semua fitur dan fungsi. Sementara peramban berbasis Chromium lainnya mungkin menawarkan fungsionalitas yang serupa, alternatif populer seperti Brave dan Firefox tidak memiliki dukungan serial web API yang diperlukan, sehingga tidak kompatibel dengan operasi inti pemasang.
 
-Bitaxe devices exhibit different power requirements depending on their specific model and version, making proper power management essential for successful firmware installation. Devices running version 204 or below can operate solely through USB power, drawing sufficient current from the connected computer to maintain operation during the flashing process. This simplified power arrangement makes these earlier versions particularly convenient for firmware updates, as users need only connect a single USB cable to begin the installation process.
 
-However, devices running version 205 and above require external power sources in addition to the USB connection, reflecting changes in power consumption and circuit design in newer hardware revisions. These devices cannot draw adequate power through USB alone, necessitating connection to their standard power supplies during firmware installation. Failure to provide adequate power to these newer devices will result in installation failures and potential corruption of the firmware update process.
+Keterbatasan browser ini berasal dari ketergantungan penginstal pada komunikasi serial langsung dengan perangkat Bitaxe melalui antarmuka web. Serial web API, yang memungkinkan komunikasi ini, masih merupakan standar web yang relatif baru yang belum mencapai adopsi browser secara universal. Pengguna yang mencoba mengakses penginstal melalui browser yang tidak didukung akan mengalami kegagalan koneksi dan ketidakmampuan untuk berkomunikasi dengan perangkat mereka, sehingga perlu beralih ke browser yang kompatibel sebelum melanjutkan aktivitas penginstalan.
 
-The physical connection process requires specific timing and button manipulation to ensure proper communication between the installer and the device. Users must press and hold the boot button on their Bitaxe device before connecting the USB-C cable to their computer. This sequence places the device into bootloader mode, enabling the installer to communicate directly with the device's firmware storage. Connecting the USB cable before engaging the boot button will result in normal device operation rather than the bootloader mode required for firmware installation, preventing the installer from establishing the necessary communication channel.
 
-### Installation Options and Their Applications
+### Persyaratan Daya dan Persiapan Perangkat
 
-The Bitaxe Web Installer provides four distinct installation options, each designed for specific use cases and device configurations. The Bitaxe Superboard version 4.0.1 represents the most current firmware for Super model devices, with version 4.0.2 scheduled for future release. This option includes both factory and update variants, providing flexibility in installation approach based on user needs and device status.
 
-Factory installations represent complete firmware replacements that mirror the original manufacturing process, including comprehensive self-test procedures that verify device functionality across all systems. When users select a factory installation, the installer performs a complete erasure of existing firmware and configuration data, replacing it with a fresh, clean installation identical to what would be applied during manufacturing. This process includes automated self-testing that validates proper hardware operation, requiring users to reboot their devices upon completion before normal operation can resume. Factory installations prove particularly valuable when devices experience persistent issues or when users desire to return their devices to original factory specifications.
+Perangkat Bitaxe memiliki kebutuhan daya yang berbeda tergantung pada model dan versinya, sehingga manajemen daya yang tepat sangat penting untuk keberhasilan penginstalan firmware. Perangkat yang menjalankan versi 204 atau di bawahnya dapat beroperasi hanya melalui daya USB, mengambil arus yang cukup dari komputer yang terhubung untuk mempertahankan operasi selama proses flashing. Pengaturan daya yang disederhanakan ini membuat versi sebelumnya sangat nyaman untuk pembaruan firmware, karena pengguna hanya perlu menyambungkan satu kabel USB untuk memulai proses instalasi.
 
-Update installations provide a more conservative approach, preserving existing configuration data while updating only the core firmware components. This option proves ideal for users who have customized their device settings and wish to maintain their personal configurations while benefiting from firmware improvements and bug fixes. The update process targets only the firmware components that require modification, leaving user-specific settings, WiFi credentials, and Bitcoin addresses intact throughout the installation process.
 
-### Critical Installation Considerations and Data Protection
+Namun demikian, perangkat yang menjalankan versi 205 dan di atasnya memerlukan sumber daya eksternal selain koneksi USB, yang mencerminkan perubahan dalam konsumsi daya dan desain sirkuit dalam revisi perangkat keras yang lebih baru. Perangkat ini tidak dapat menarik daya yang memadai melalui USB saja, sehingga memerlukan koneksi ke catu daya standar selama penginstalan firmware. Kegagalan dalam menyediakan daya yang memadai untuk perangkat yang lebih baru ini akan mengakibatkan kegagalan penginstalan dan potensi kerusakan pada proses pembaruan firmware.
 
-The distinction between factory and update installations carries significant implications for device configuration and user data preservation. Factory installations perform complete device erasure, removing all user-configured settings including WiFi credentials, Bitcoin addresses, and any personalized device parameters. Following a factory installation, users must reconnect to the device's default WiFi network and reconfigure all personal settings from scratch, essentially treating the device as if it were brand new from the manufacturer.
 
-Update installations require careful attention to the erase device option presented during the installation process. The installer will prompt users with the question "Do you want to erase the device before installing Bitaxe Flasher?" accompanied by a warning that all data on the device will be lost. Users performing update installations must decline this option by clicking "Next" rather than confirming the erase operation. Accepting the erase option during an update installation will remove the device's configuration file, potentially rendering the device non-functional until proper configuration is restored. While this situation does not permanently damage the device, it creates unnecessary complications and requires additional configuration steps to restore normal operation.
+Proses koneksi fisik memerlukan pengaturan waktu dan manipulasi tombol yang spesifik untuk memastikan komunikasi yang tepat antara pemasang dan perangkat. Pengguna harus menekan dan menahan tombol boot pada perangkat Bitaxe mereka sebelum menghubungkan kabel USB-C ke komputer. Urutan ini menempatkan perangkat ke dalam mode bootloader, sehingga memungkinkan penginstal berkomunikasi langsung dengan penyimpanan firmware perangkat. Menghubungkan kabel USB sebelum menekan tombol boot akan menghasilkan operasi perangkat normal dan bukan mode bootloader yang diperlukan untuk instalasi firmware, sehingga penginstal tidak dapat membuat saluran komunikasi yang diperlukan.
 
-The installation process itself proceeds automatically once users have made their selections and confirmed their choices. The installer handles all technical aspects of firmware transfer and verification, providing progress indicators and status updates throughout the process. This automated approach eliminates the need for users to understand complex firmware installation procedures while ensuring reliable and consistent results across different device models and firmware versions.
 
-## How to create and order the PCB?
+### Opsi Instalasi dan Aplikasinya
+
+
+Penginstal Web Bitaxe menyediakan empat pilihan instalasi yang berbeda, masing-masing dirancang untuk kasus penggunaan dan konfigurasi perangkat tertentu. Bitaxe Superboard versi 4.0.1 merupakan firmware terbaru untuk perangkat model Super, dengan versi 4.0.2 yang dijadwalkan untuk rilis di masa mendatang. Opsi ini mencakup varian pabrik dan pembaruan, memberikan fleksibilitas dalam pendekatan instalasi berdasarkan kebutuhan pengguna dan status perangkat.
+
+
+Instalasi pabrik merupakan penggantian firmware lengkap yang mencerminkan proses manufaktur asli, termasuk prosedur uji mandiri komprehensif yang memverifikasi fungsionalitas perangkat di semua sistem. Ketika pengguna memilih penginstalan pabrik, penginstal melakukan penghapusan lengkap firmware dan data konfigurasi yang ada, menggantinya dengan penginstalan yang baru dan bersih, sama seperti yang akan diterapkan saat pembuatan. Proses ini mencakup pengujian mandiri otomatis yang memvalidasi operasi perangkat keras yang tepat, mengharuskan pengguna untuk melakukan boot ulang perangkat mereka setelah selesai sebelum operasi normal dapat dilanjutkan. Instalasi pabrik terbukti sangat berharga ketika perangkat mengalami masalah yang terus-menerus atau ketika pengguna ingin mengembalikan perangkat mereka ke spesifikasi asli pabrik.
+
+
+Instalasi pembaruan memberikan pendekatan yang lebih konservatif, mempertahankan data konfigurasi yang ada sementara hanya memperbarui komponen firmware inti. Opsi ini terbukti ideal bagi pengguna yang telah menyesuaikan pengaturan perangkat mereka dan ingin mempertahankan konfigurasi pribadi mereka sambil memanfaatkan peningkatan firmware dan perbaikan bug. Proses pembaruan hanya menargetkan komponen firmware yang memerlukan modifikasi, sehingga pengaturan khusus pengguna, kredensial WiFi, dan alamat Bitcoin tetap utuh selama proses instalasi.
+
+
+### Pertimbangan Instalasi Penting dan Perlindungan Data
+
+
+Perbedaan antara instalasi pabrik dan pembaruan membawa implikasi yang signifikan untuk konfigurasi perangkat dan pelestarian data pengguna. Instalasi pabrik melakukan penghapusan perangkat secara menyeluruh, menghapus semua pengaturan yang dikonfigurasi pengguna termasuk kredensial WiFi, alamat Bitcoin, dan parameter perangkat yang dipersonalisasi. Setelah instalasi pabrik, pengguna harus menyambungkan kembali ke jaringan WiFi default perangkat dan mengkonfigurasi ulang semua pengaturan pribadi dari awal, yang pada dasarnya memperlakukan perangkat seolah-olah perangkat tersebut baru dari pabrik.
+
+
+Instalasi pembaruan memerlukan perhatian yang cermat terhadap opsi hapus perangkat yang disajikan selama proses instalasi. Penginstal akan meminta pengguna dengan pertanyaan "Apakah Anda ingin menghapus perangkat sebelum menginstal Bitaxe Flasher?" disertai dengan peringatan bahwa semua data pada perangkat akan hilang. Pengguna yang melakukan instalasi pembaruan harus menolak opsi ini dengan mengklik "Next" daripada mengonfirmasi operasi penghapusan. Menerima opsi hapus selama instalasi pembaruan akan menghapus file konfigurasi perangkat, yang berpotensi membuat perangkat tidak berfungsi hingga konfigurasi yang tepat dipulihkan. Meskipun situasi ini tidak merusak perangkat secara permanen, namun hal ini akan menimbulkan komplikasi yang tidak perlu dan memerlukan langkah konfigurasi tambahan untuk mengembalikan pengoperasian normal.
+
+
+Proses instalasi itu sendiri berjalan secara otomatis setelah pengguna menentukan pilihan dan mengonfirmasi pilihan mereka. Penginstal menangani semua aspek teknis transfer dan verifikasi firmware, menyediakan indikator kemajuan dan pembaruan status selama proses berlangsung. Pendekatan otomatis ini menghilangkan kebutuhan pengguna untuk memahami prosedur penginstalan firmware yang rumit sekaligus memastikan hasil yang andal dan konsisten di berbagai model perangkat dan versi firmware.
+
+
+## Bagaimana cara membuat dan memesan PCB?
+
 <chapterId>566f5e06-9ec9-55c0-84f6-101d6ca4c2ff</chapterId>
+
 
 :::video id=9a56ad84-d9cf-4f85-ab98-301fb3101228:::
 
-This chapter focuses on the practical process of generating manufacturing files from KiCad projects and ordering professional PCBs from online manufacturers. Using the Bitaxe project as our example, we'll walk through the complete workflow from file generation to placing an order with a PCB manufacturer.
+Bab ini berfokus pada proses praktis pembuatan file manufaktur dari proyek KiCad dan pemesanan PCB profesional dari produsen online. Dengan menggunakan proyek Bitaxe sebagai contoh, kita akan membahas alur kerja lengkap mulai dari pembuatan file hingga melakukan pemesanan dengan produsen PCB.
 
-### Understanding the PCB Manufacturing Process
 
-The journey from a completed KiCad design to a physical PCB involves several critical steps that bridge the gap between digital design and physical manufacturing. When working with complex projects like the Bitaxe, the PCB editor in KiCad provides a comprehensive view of your design, displaying all components and their interconnections through colored traces. The red and blue lines you see represent the electrical connections between different integrated circuits and components on the board. KiCad's 3D viewer feature allows you to visualize how the final assembled board will appear, providing valuable insight into component placement and potential mechanical conflicts.
+### Memahami Proses Pembuatan PCB
 
-The manufacturing process requires specific file formats that PCB manufacturers can interpret and use to fabricate your boards. These files contain precise information about copper layers, drill holes, component placement, and other manufacturing specifications. Understanding this workflow is essential whether you're working with the standard Bitaxe design or creating modifications such as adding custom logos, changing component values, or adjusting the board layout to meet specific requirements.
 
-### Generating Gerber Files for Manufacturing
+Perjalanan dari desain KiCad yang telah selesai ke PCB fisik melibatkan beberapa langkah penting yang menjembatani kesenjangan antara desain digital dan manufaktur fisik. Ketika bekerja dengan proyek yang rumit seperti Bitaxe, editor PCB di KiCad memberikan tampilan komprehensif dari desain Anda, menampilkan semua komponen dan interkoneksinya melalui jejak berwarna. Garis merah dan biru yang Anda lihat mewakili koneksi listrik antara sirkuit terintegrasi yang berbeda dan komponen pada papan. Fitur penampil 3D KiCad memungkinkan Anda memvisualisasikan bagaimana tampilan papan rakitan akhir, memberikan wawasan yang berharga tentang penempatan komponen dan potensi konflik mekanis.
 
-Gerber files serve as the industry standard for communicating PCB design information to manufacturers. These files contain all the necessary data for fabricating your PCB, including copper layer patterns, solder mask definitions, and drill hole locations. To generate these files in KiCad, navigate to the PCB editor and access the fabrication outputs through the Files menu. The software automatically configures the appropriate settings for standard manufacturing processes, including the proper output directory structure typically organized as "manufacturing files/gerbers."
 
-The generation process creates multiple Gerber files, each representing different aspects of your PCB design. These files work together to provide manufacturers with complete fabrication instructions. Once generated, these files must be compressed into a ZIP archive, as this is the standard format expected by most PCB manufacturers. The ZIP file contains all necessary manufacturing data and ensures that no files are lost or corrupted during the upload process to the manufacturer's website.
+Proses manufaktur memerlukan format file tertentu yang dapat ditafsirkan dan digunakan oleh produsen PCB untuk membuat papan Anda. File-file ini berisi informasi yang tepat tentang lapisan tembaga, lubang bor, penempatan komponen, dan spesifikasi manufaktur lainnya. Memahami alur kerja ini sangat penting, baik saat Anda bekerja dengan desain Bitaxe standar atau membuat modifikasi seperti menambahkan logo khusus, mengubah nilai komponen, atau menyesuaikan tata letak papan untuk memenuhi persyaratan tertentu.
 
-It's worth noting that many open-source projects, including the Bitaxe, often include pre-generated manufacturing files in their repositories. However, understanding how to generate these files yourself is crucial when making design modifications or working with different board versions. This knowledge becomes particularly valuable when customizing designs or troubleshooting manufacturing issues.
 
-### Selecting PCB Manufacturers and Understanding Options
+### Menghasilkan File Gerber untuk Manufaktur
 
-The PCB manufacturing landscape offers several reputable options, with JLCPCB and PCBWay being among the most popular choices for hobbyists and professionals alike. Both manufacturers provide similar services with competitive pricing and reliable quality, though each has specific advantages depending on your project requirements. JLCPCB often attracts first-time users with promotional pricing and user-friendly interfaces, while PCBWay may offer different material options or specialized services.
 
-When uploading your Gerber files to a manufacturer's website, the system automatically analyzes your design and presents various manufacturing options. The default settings provided by these platforms are typically suitable for most standard designs, and it's generally recommended to maintain these settings unless you have specific requirements. Key parameters include PCB thickness, copper weight, surface finish, and minimum quantities. Most manufacturers require minimum orders of five boards, which actually works well for hobbyist projects where having spare boards or sharing with friends is beneficial.
+File Gerber berfungsi sebagai standar industri untuk mengomunikasikan informasi desain PCB kepada produsen. File-file ini berisi semua data yang diperlukan untuk membuat PCB Anda, termasuk pola lapisan tembaga, definisi topeng solder, dan lokasi lubang bor. Untuk membuka file-file ini di KiCad, buka editor PCB dan akses hasil fabrikasi melalui menu File. Perangkat lunak ini secara otomatis mengonfigurasi pengaturan yang sesuai untuk proses manufaktur standar, termasuk struktur direktori output yang tepat yang biasanya diatur sebagai "file manufaktur/gerber."
 
-Color options represent one of the few aesthetic choices available during the manufacturing process. While green remains the traditional and most cost-effective option, manufacturers typically offer alternatives including blue, red, yellow, purple, and black. The color choice is purely aesthetic and doesn't affect the electrical performance of your PCB, though some colors may have slight cost implications or longer manufacturing times.
 
-### Advanced Manufacturing Considerations and Assembly Options
+Proses pembuatan membuat beberapa file Gerber, masing-masing mewakili aspek yang berbeda dari desain PCB Anda. File-file ini bekerja sama untuk memberikan instruksi fabrikasi lengkap kepada produsen. Setelah dibuat, file-file ini harus dikompres menjadi arsip ZIP, karena ini adalah format standar yang diharapkan oleh sebagian besar produsen PCB. File ZIP berisi semua data manufaktur yang diperlukan dan memastikan bahwa tidak ada file yang hilang atau rusak selama proses pengunggahan ke situs web produsen.
 
-Beyond basic PCB fabrication, modern manufacturers offer additional services that can significantly streamline your project completion. Stencils represent one of the most valuable add-on services, particularly for designs with fine-pitch components like the ASIC chips found in Bitcoin mining projects. A stencil is essentially a precision-cut aluminum template with openings that correspond exactly to the solder pad locations on your PCB. This tool enables consistent and accurate application of solder paste, dramatically improving assembly quality and reducing the likelihood of soldering errors.
 
-Stencil options typically include single stencils with both top and bottom patterns, or separate stencils for each side of the board. For most projects, a combined stencil proves more convenient and cost-effective. The stencil thickness is carefully calculated to deposit the appropriate amount of solder paste for your specific component types and pad sizes. Using a stencil transforms what could be a tedious and error-prone manual process into a quick and professional assembly step.
+Perlu dicatat bahwa banyak proyek sumber terbuka, termasuk Bitaxe, sering menyertakan file manufaktur yang sudah dibuat sebelumnya di repositori mereka. Namun, memahami cara generate file-file ini sendiri sangat penting ketika membuat modifikasi desain atau bekerja dengan versi board yang berbeda. Pengetahuan ini menjadi sangat berharga ketika menyesuaikan desain atau memecahkan masalah manufaktur.
 
-While some manufacturers offer partial or complete assembly services, these options require careful consideration for complex projects like the Bitaxe. Component availability, cost implications, and the educational value of self-assembly all factor into this decision. Many specialized components required for Bitcoin mining projects may not be readily available through standard PCB assembly services, making component sourcing and manual assembly the more practical approach. Future episodes in this series will cover component sourcing strategies and assembly techniques to help you successfully complete your Bitaxe project from bare PCB to functional device.
 
-The manufacturing and assembly process represents a crucial bridge between digital design and physical implementation. Understanding these workflows empowers you to take control of your projects, reduce costs, and gain valuable hands-on experience with professional manufacturing processes. Whether you're building a single prototype or planning a small production run, mastering these skills opens up new possibilities for bringing your electronic designs to life.
+### Memilih Produsen PCB dan Memahami Opsi
 
-# Performance Optimization
+
+Lanskap manufaktur PCB menawarkan beberapa opsi terkemuka, dengan JLCPCB dan PCBWay menjadi salah satu pilihan paling populer bagi para penggemar dan profesional. Kedua produsen menyediakan layanan serupa dengan harga yang kompetitif dan kualitas yang dapat diandalkan, meskipun masing-masing memiliki keunggulan spesifik tergantung pada kebutuhan proyek Anda. JLCPCB sering kali menarik pengguna pertama kali dengan harga promosi dan antarmuka yang ramah pengguna, sementara PCBWay mungkin menawarkan opsi material yang berbeda atau layanan khusus.
+
+
+Apabila mengunggah file Gerber Anda ke situs web produsen, sistem akan secara otomatis menganalisis desain Anda dan menyajikan berbagai opsi manufaktur. Pengaturan default yang disediakan oleh platform ini biasanya cocok untuk sebagian besar desain standar, dan secara umum disarankan untuk mempertahankan pengaturan ini kecuali Anda memiliki persyaratan khusus. Parameter utama meliputi ketebalan PCB, berat tembaga, permukaan akhir, dan jumlah minimum. Sebagian besar produsen mengharuskan pesanan minimum lima papan, yang sebenarnya bekerja dengan baik untuk proyek-proyek penghobi di mana memiliki papan cadangan atau berbagi dengan teman akan bermanfaat.
+
+
+Pilihan warna merupakan salah satu dari sedikit pilihan estetika yang tersedia selama proses produksi. Meskipun hijau tetap menjadi pilihan tradisional dan paling hemat biaya, produsen biasanya menawarkan alternatif termasuk biru, merah, kuning, ungu, dan hitam. Pilihan warna murni estetika dan tidak memengaruhi kinerja listrik PCB Anda, meskipun beberapa warna mungkin memiliki sedikit implikasi biaya atau waktu produksi yang lebih lama.
+
+
+### Pertimbangan Manufaktur Tingkat Lanjut dan Opsi Perakitan
+
+
+Di luar fabrikasi PCB dasar, produsen modern menawarkan layanan tambahan yang secara signifikan dapat merampingkan penyelesaian proyek Anda. Stensil merupakan salah satu layanan tambahan yang paling berharga, terutama untuk desain dengan komponen nada halus seperti chip ASIC yang ditemukan dalam proyek Bitcoin mining. Stensil pada dasarnya adalah templat aluminium yang dipotong secara presisi dengan bukaan yang sesuai persis dengan lokasi bantalan solder pada PCB Anda. Alat ini memungkinkan aplikasi pasta solder yang konsisten dan akurat, secara dramatis meningkatkan kualitas perakitan dan mengurangi kemungkinan kesalahan penyolderan.
+
+
+Pilihan stensil biasanya mencakup stensil tunggal dengan pola atas dan bawah, atau stensil terpisah untuk setiap sisi papan. Untuk sebagian besar proyek, stensil gabungan terbukti lebih nyaman dan hemat biaya. Ketebalan stensil dihitung dengan cermat untuk menyimpan jumlah pasta solder yang sesuai untuk jenis komponen dan ukuran pad tertentu. Menggunakan stensil mengubah apa yang bisa menjadi proses manual yang membosankan dan rawan kesalahan menjadi langkah perakitan yang cepat dan profesional.
+
+
+Meskipun beberapa produsen menawarkan layanan perakitan parsial atau lengkap, opsi ini memerlukan pertimbangan yang cermat untuk proyek-proyek kompleks seperti Bitaxe. Ketersediaan komponen, implikasi biaya, dan nilai edukasi dari perakitan mandiri semuanya menjadi faktor dalam keputusan ini. Banyak komponen khusus yang diperlukan untuk proyek Bitcoin mining mungkin tidak tersedia melalui layanan perakitan PCB standar, sehingga pencarian komponen dan perakitan manual menjadi pendekatan yang lebih praktis. Episode mendatang dalam seri ini akan membahas strategi sumber komponen dan teknik perakitan untuk membantu Anda menyelesaikan proyek Bitaxe Anda dengan sukses dari PCB kosong menjadi perangkat fungsional.
+
+
+Proses manufaktur dan perakitan merupakan jembatan penting antara desain digital dan implementasi fisik. Memahami alur kerja ini memberdayakan Anda untuk mengendalikan proyek Anda, mengurangi biaya, dan mendapatkan pengalaman langsung yang berharga dengan proses manufaktur profesional. Baik Anda membuat satu prototipe atau merencanakan produksi kecil, menguasai keterampilan ini membuka kemungkinan baru untuk mewujudkan desain elektronik Anda.
+
+
+# Optimalisasi Kinerja
+
 <partId>87b8790f-b7a9-5286-a7f8-328176ef7cb5</partId>
 
-## Benchmark your Bitaxe
+
+## Membandingkan Bitaxe Anda
+
 <chapterId>7259a4b1-93c1-5956-87d3-baaee58115af</chapterId>
+
 
 :::video id=2491a783-9750-4ea5-a40c-1d1d611784d5:::
 
-The pursuit of optimal mining performance requires a systematic approach to hardware configuration that balances hashrate, efficiency, and thermal management. Modern ASIC miners like the Bitaxe offer numerous configuration parameters that can significantly impact performance, but manually testing every combination of settings would be impractical and time-consuming. This chapter explores how to leverage automated benchmarking tools to scientifically optimize your Bitaxe miner's performance while maintaining safe operating conditions.
+Mengejar kinerja mining yang optimal membutuhkan pendekatan sistematis untuk konfigurasi perangkat keras yang menyeimbangkan hashrate, efisiensi, dan manajemen termal. Bitaxe menawarkan banyak parameter konfigurasi yang dapat memengaruhi kinerja secara signifikan, tetapi menguji setiap kombinasi pengaturan secara manual akan menjadi tidak praktis dan memakan waktu. Bab ini membahas cara memanfaatkan alat pembandingan otomatis untuk mengoptimalkan kinerja Bitaxe Anda secara ilmiah sambil mempertahankan kondisi pengoperasian yang aman.
 
-### Understanding Bitaxe Performance Metrics and Baseline Configuration
 
-Before diving into optimization techniques, it's essential to understand the key performance indicators that define your Bitaxe's operational efficiency. The primary metrics include hashrate measured in terahash per second, power efficiency expressed in joules per terahash, ASIC frequency in megahertz, and core voltage in volts. A well-configured Bitaxe might achieve approximately 1.09 terahash with an efficiency of 17.62 joules per terahash, operating at 550 megahertz with a measured ASIC voltage of 1.14 volts. These baseline numbers provide a reference point for understanding the potential improvements available through systematic optimization.
+### Memahami Metrik Kinerja Bitaxe dan Konfigurasi Dasar
 
-The relationship between these metrics is complex and interdependent. Higher frequencies typically increase hashrate but also increase power consumption and heat generation. Similarly, voltage adjustments affect both performance and thermal characteristics. The challenge lies in finding the optimal balance that maximizes either hashrate or efficiency while maintaining stable operation within safe temperature limits. This optimization process requires methodical testing across multiple parameter combinations, making automated tools invaluable for achieving optimal results.
 
-### The Bitaxe Hashrate Benchmark Tool Architecture
+Sebelum masuk ke dalam teknik pengoptimalan, sangat penting untuk memahami indikator kinerja utama yang menentukan efisiensi operasional Bitaxe Anda. Metrik utama meliputi hashrate yang diukur dalam terahash per detik, efisiensi daya yang dinyatakan dalam joule per terahash, frekuensi ASIC dalam megahertz, dan tegangan inti dalam volt. Bitaxe yang dikonfigurasi dengan baik dapat mencapai sekitar 1,1 terahash dengan efisiensi sekitar 17 joule per terahash, beroperasi pada 550 megahertz dengan tegangan ASIC terukur sebesar 1,14 volt. Angka-angka dasar ini memberikan titik acuan untuk memahami potensi peningkatan yang tersedia melalui optimasi sistematis.
 
-The Bitaxe Hashrate Benchmark tool represents a sophisticated Python-based solution originally developed by WhiteCookie and subsequently enhanced by mrv777. This open-source tool, distributed under the GPLv3 license, automates the complex process of testing multiple configuration combinations to identify optimal settings for your specific hardware. The tool's primary strength lies in its systematic approach to parameter testing, incrementally adjusting frequency and voltage settings while continuously monitoring performance metrics and thermal conditions.
 
-The benchmarking process typically requires 30 to 40 minutes to complete, during which the tool methodically tests various combinations of ASIC frequency and voltage settings. The tool begins with conservative baseline settings, typically starting at 1.15 volts and 500 megahertz, then incrementally increases these parameters while monitoring hashrate, temperature, and stability. Importantly, the tool prioritizes safe operation over maximum performance, automatically backing down from settings that cause excessive heat generation or instability. This conservative approach ensures that the optimization process doesn't compromise hardware longevity or reliability.
+Hubungan antara metrik ini sangat kompleks dan saling bergantung. Frekuensi yang lebih tinggi biasanya meningkatkan hashrate tetapi juga meningkatkan konsumsi daya dan panas. Demikian pula, penyesuaian voltase mempengaruhi kinerja dan karakteristik termal. Tantangannya terletak pada menemukan keseimbangan optimal yang memaksimalkan hashrate atau efisiensi sambil mempertahankan operasi yang stabil dalam batas suhu yang aman. Proses pengoptimalan ini membutuhkan pengujian metodis di berbagai kombinasi parameter, sehingga alat otomatis sangat berharga untuk mencapai hasil yang optimal.
 
-### Installation and Setup Requirements
 
-Implementing the Bitaxe Hashrate Benchmark tool requires several prerequisite software components on your local computer. The primary requirements include Python for executing the benchmarking scripts, Git for repository management, and optionally Visual Studio Code for enhanced development environment capabilities. While the tool can be operated from command line interfaces, using an integrated development environment like VS Code provides better visibility into the benchmarking process and results analysis.
+### Arsitektur Alat Benchmark Bitaxe Hashrate
 
-The installation process follows standard Python development practices, beginning with cloning the repository from GitHub to your local machine. Once the repository is downloaded, you'll need to create a virtual environment to isolate the tool's dependencies from your system's Python installation. This isolation prevents potential conflicts with other Python applications and ensures consistent operation. After activating the virtual environment, you'll install the required dependencies using the provided requirements file, which automatically configures all necessary libraries and modules for proper tool operation.
 
-### Executing Benchmarks and Interpreting Results
+Alat [Bitaxe Hashrate Benchmark] (https://github.com/mrv777/Bitaxe-Hashrate-Benchmark/) merupakan solusi canggih berbasis Python yang awalnya dikembangkan oleh WhiteCookie dan kemudian disempurnakan oleh mrv777. Alat sumber terbuka ini, yang didistribusikan di bawah lisensi GPLv3, mengotomatiskan proses kompleks pengujian beberapa kombinasi konfigurasi untuk mengidentifikasi pengaturan optimal untuk perangkat keras spesifik Anda. Kekuatan utama alat ini terletak pada pendekatan sistematisnya terhadap pengujian parameter, secara bertahap menyesuaikan pengaturan frekuensi dan voltase sambil terus memantau metrik kinerja dan kondisi termal.
 
-Running the benchmark requires executing a single Python command that includes your Bitaxe's IP address as a parameter. The tool automatically connects to your miner's web interface and begins the systematic testing process. During execution, the tool provides detailed logging information showing the current test iteration, applied voltage and frequency settings, resulting hashrate, input voltage, temperature readings, and thermal data from critical components like the buck converter. This real-time feedback allows you to monitor the benchmarking progress and understand how different settings affect your miner's performance.
 
-The tool's intelligent thermal management becomes evident when temperatures approach the 66-degree Celsius safety threshold. Rather than pushing beyond safe operating limits, the benchmark automatically reduces settings to maintain thermal stability. This conservative approach ensures that the optimization process prioritizes long-term hardware reliability over short-term performance gains. Upon completion, the tool generates comprehensive results in JSON format, ranking the top five configurations for both maximum hashrate and optimal efficiency. These results provide clear guidance for selecting the configuration that best matches your operational priorities, whether focused on maximum output or energy efficiency.
+Proses pembandingan biasanya membutuhkan waktu 30 hingga 40 menit untuk menyelesaikannya, di mana alat ini secara metodis menguji berbagai kombinasi pengaturan frekuensi dan voltase ASIC. Alat ini dimulai dengan pengaturan awal yang konservatif, biasanya dimulai dari 1,15 volt dan 500 megahertz, kemudian secara bertahap meningkatkan parameter ini sambil memantau hashrate, suhu, dan stabilitas. Yang penting, alat ini memprioritaskan pengoperasian yang aman di atas kinerja maksimum, secara otomatis mundur dari pengaturan yang menyebabkan pembentukan panas yang berlebihan atau ketidakstabilan. Pendekatan konservatif ini memastikan bahwa proses pengoptimalan tidak mengorbankan umur panjang atau keandalan perangkat keras.
 
-The benchmarking tool also offers customization options for advanced users who want to modify the testing parameters. Command-line arguments allow you to specify custom starting voltages and frequencies, enabling more targeted optimization for specific use cases. For instance, if you already know your hardware performs well at higher frequencies, you can start the benchmark at elevated settings rather than beginning from the conservative defaults. This flexibility makes the tool valuable for both novice users seeking automated optimization and experienced miners who want to fine-tune specific performance characteristics.
 
-## Overclock your Bitaxe
+### Persyaratan Pemasangan dan Pengaturan
+
+
+Menerapkan alat Benchmark Bitaxe Hashrate memerlukan beberapa komponen perangkat lunak prasyarat pada komputer lokal Anda. Persyaratan utama termasuk Python untuk menjalankan skrip benchmarking, Git untuk manajemen repositori, dan secara opsional Visual Studio Code untuk meningkatkan kemampuan lingkungan pengembangan. Meskipun alat ini dapat dioperasikan dari antarmuka baris perintah, menggunakan lingkungan pengembangan terintegrasi seperti VS Code memberikan visibilitas yang lebih baik ke dalam proses pembandingan dan analisis hasil.
+
+
+Proses instalasi mengikuti praktik pengembangan Python standar, dimulai dengan mengkloning repositori dari GitHub ke mesin lokal Anda. Setelah repositori diunduh, Anda harus membuat lingkungan virtual untuk mengisolasi ketergantungan alat ini dari instalasi Python sistem Anda. Isolasi ini mencegah potensi konflik dengan aplikasi Python lain dan memastikan operasi yang konsisten. Setelah mengaktifkan lingkungan virtual, Anda akan menginstal dependensi yang diperlukan menggunakan file persyaratan yang disediakan, yang secara otomatis mengonfigurasi semua pustaka dan modul yang diperlukan untuk pengoperasian alat yang tepat.
+
+
+### Menjalankan Tolok Ukur dan Menafsirkan Hasil
+
+
+Menjalankan benchmark membutuhkan eksekusi satu perintah Python yang menyertakan alamat IP Bitaxe Anda sebagai parameter. Alat ini secara otomatis terhubung ke antarmuka web penambang Anda dan memulai proses pengujian sistematis. Selama eksekusi, alat ini memberikan informasi logging terperinci yang menunjukkan iterasi pengujian saat ini, pengaturan voltase dan frekuensi yang diterapkan, hashrate yang dihasilkan, voltase input, pembacaan suhu, dan data termal dari komponen penting seperti konverter buck. Umpan balik waktu nyata ini memungkinkan Anda untuk memantau kemajuan pembandingan dan memahami bagaimana pengaturan yang berbeda memengaruhi kinerja penambang Anda.
+
+
+Manajemen termal cerdas alat ini menjadi nyata ketika suhu mendekati ambang batas keamanan 66 derajat Celcius. Alih-alih mendorong melampaui batas pengoperasian yang aman, benchmark secara otomatis mengurangi pengaturan untuk menjaga stabilitas termal. Pendekatan konservatif ini memastikan bahwa proses pengoptimalan memprioritaskan keandalan perangkat keras jangka panjang di atas peningkatan performa jangka pendek. Setelah selesai, alat ini menghasilkan hasil yang komprehensif dalam format JSON, memberi peringkat lima konfigurasi teratas untuk hashrate maksimum dan efisiensi optimal. Hasil ini memberikan panduan yang jelas untuk memilih konfigurasi yang paling sesuai dengan prioritas operasional Anda, baik yang berfokus pada output maksimum atau efisiensi energi.
+
+
+Alat pembandingan juga menawarkan opsi penyesuaian untuk pengguna tingkat lanjut yang ingin memodifikasi parameter pengujian. Argumen baris perintah memungkinkan Anda untuk menentukan voltase dan frekuensi awal khusus, sehingga memungkinkan pengoptimalan yang lebih bertarget untuk kasus penggunaan tertentu. Misalnya, jika Anda sudah mengetahui bahwa perangkat keras Anda berkinerja baik pada frekuensi yang lebih tinggi, Anda dapat memulai benchmark pada pengaturan yang lebih tinggi daripada memulai dari pengaturan default yang konservatif. Fleksibilitas ini membuat alat ini berharga bagi pengguna pemula yang mencari pengoptimalan otomatis dan penambang berpengalaman yang ingin menyempurnakan karakteristik kinerja tertentu.
+
+
+## Lakukan overclock Bitaxe Anda
+
 <chapterId>6b48c0c6-51c3-51a3-b317-850a374ae61e</chapterId>
+
 
 :::video id=46c7a442-cd72-477c-8c91-b2c489ada1e6:::
 
-Overclocking a Bitaxe device requires careful consideration of both hardware limitations and cooling requirements. While many users prefer to underclock their devices for quieter operation, understanding proper overclocking techniques is essential for those seeking maximum performance without damaging their hardware. The process involves increasing the frequency and potentially adjusting voltage settings beyond factory specifications, which inherently increases heat generation and stress on components.
+Meng-overclock perangkat Bitaxe membutuhkan pertimbangan yang cermat terhadap batasan perangkat keras dan kebutuhan pendinginan. Meskipun banyak pengguna lebih memilih untuk melakukan underclock pada perangkat mereka untuk pengoperasian yang lebih tenang, memahami teknik overclocking yang tepat sangatlah penting bagi mereka yang mencari performa maksimum tanpa merusak perangkat keras mereka. Proses ini melibatkan peningkatan frekuensi dan kemungkinan menyesuaikan pengaturan voltase di luar spesifikasi pabrik, yang secara inheren meningkatkan panas dan tekanan pada komponen.
 
-The foundation of successful overclocking lies in adequate cooling infrastructure. Before attempting any frequency modifications, you must ensure your Bitaxe has proper heat dissipation capabilities. A Bitaxe Gamma with a quality heatsink and fan provides the necessary thermal management for safe overclocking. Devices with small heatsinks and inadequate fans should not be overclocked, as poor cooling performance will lead to thermal throttling and potential hardware damage. The relationship between heat and component longevity is critical to understand—excessive heat creates stress that degrades electronic components over time, significantly reducing the operational lifespan of your device.
 
-### Strategic Heatsink Placement
+Dasar dari overclocking yang sukses terletak pada infrastruktur pendingin yang memadai. Sebelum mencoba modifikasi frekuensi, Anda harus memastikan Bitaxe Anda memiliki kemampuan pembuangan panas yang tepat. Bitaxe Gamma dengan heatsink dan kipas berkualitas menyediakan manajemen termal yang diperlukan untuk overclocking yang aman. Perangkat dengan heatsink kecil dan kipas yang tidak memadai tidak boleh di-overclock, karena kinerja pendinginan yang buruk akan menyebabkan pelambatan termal dan potensi kerusakan perangkat keras. Hubungan antara panas dan umur komponen sangat penting untuk dipahami-panas yang berlebihan menciptakan tekanan yang menurunkan komponen elektronik dari waktu ke waktu, sehingga secara signifikan mengurangi masa pakai perangkat Anda.
 
-The most critical component requiring additional cooling is the buck converter, a small black component located on the backside of the Bitaxe near the large coil. This device converts the incoming 5V power supply down to the appropriate voltage for the ASIC chip, typically around 1.2V. The buck converter, often referred to as the TPS, generates significant heat during operation and represents a thermal bottleneck that limits overclocking potential. Installing a small adhesive heatsink on this component not only enables higher overclocking headroom but also improves overall efficiency by reducing thermal losses.
 
-Additional heatsink placement can benefit other high-current areas of the board. The voltage regulation circuitry experiences substantial electrical stress as power flows from the input section down through various board traces to supply the ASIC chip. Many experienced overclockers install heatsinks on the front of the Bitaxe in these high-current areas to further improve thermal dissipation. While not strictly necessary for moderate overclocking, these additional cooling measures become important when pushing frequencies to extreme levels.
+### Penempatan Heatsink yang Strategis
 
-### Cooling System Considerations and Limitations
 
-The ESP32 controller, visible as the silvery component on the board, typically does not require additional cooling. This component generates minimal heat independently and only becomes warm due to thermal transfer from surrounding components. Installing heatsinks near the ESP32 can potentially interfere with the adjacent Wi-Fi antenna, degrading wireless connectivity and signal quality. Focus cooling efforts on the power regulation components and ASIC area rather than the control circuitry.
+Komponen paling penting yang membutuhkan pendinginan tambahan adalah buck converter, sebuah komponen kecil berwarna hitam yang terletak di bagian belakang Bitaxe dekat koil besar. Perangkat ini mengubah catu daya 5V yang masuk menjadi tegangan yang sesuai untuk chip ASIC, biasanya sekitar 1,2V. Buck converter, yang sering disebut sebagai TPS, menghasilkan panas yang signifikan selama operasi dan merupakan hambatan termal yang membatasi potensi overclocking. Memasang heatsink berperekat kecil pada komponen ini tidak hanya memungkinkan ruang overclocking yang lebih tinggi tetapi juga meningkatkan efisiensi secara keseluruhan dengan mengurangi kerugian termal.
 
-Dual fan configurations present both opportunities and limitations. While adding a second fan to blow air across the back of the Bitaxe can improve cooling performance, the device's firmware can only control one fan properly. The Bitaxe has two fan headers but only one fan controller, meaning that connecting two fans will confuse the firmware as it receives conflicting RPM signals. This configuration will function but may result in unpredictable fan control behavior.
 
-### Baseline Performance Assessment
+Penempatan heatsink tambahan dapat memberikan manfaat pada area papan dengan arus tinggi lainnya. Sirkuit pengaturan tegangan mengalami tekanan listrik yang cukup besar saat daya mengalir dari bagian input ke bawah melalui berbagai jalur board untuk memasok chip ASIC. Banyak overclocker berpengalaman memasang heatsink di bagian depan Bitaxe di area-area berarus tinggi ini untuk meningkatkan pembuangan panas lebih jauh. Meskipun tidak terlalu diperlukan untuk overclocking moderat, langkah pendinginan tambahan ini menjadi penting ketika mendorong frekuensi ke tingkat ekstrim.
 
-Before attempting any overclocking modifications, establish baseline performance metrics by running your Bitaxe at stock settings for several hours. Monitor the ASIC temperature, voltage regulator temperature, and fan speed percentage through the web interface. Optimal operating temperatures should maintain the ASIC below 60°C and the voltage regulator below 60°C under normal conditions. If your device already operates above 65°C on the ASIC or 70-80°C on the voltage regulator at stock settings, additional cooling hardware is mandatory before proceeding with overclocking.
 
-The systematic approach to frequency increases involves incremental steps using the predefined frequency options in the settings menu. Begin by selecting the next available frequency step above your current setting while maintaining the default core voltage. This conservative approach allows you to evaluate thermal and stability impacts before making additional changes. Allow the device to operate at each new frequency setting for at least 30 minutes to one hour, monitoring temperature trends and hash rate stability throughout the evaluation period.
+### Pertimbangan dan Keterbatasan Sistem Pendingin
 
-### Advanced Custom Configuration
 
-Access to custom frequency and voltage settings requires enabling the advanced overclocking interface by appending "?OC" to the device's web interface URL. This unlocks manual input fields for precise frequency and voltage control, accompanied by appropriate warnings about the risks of operating outside designed parameters. The custom interface enables fine-tuning beyond the standard frequency steps, allowing experienced users to optimize performance for their specific cooling configurations.
+Kontroler ESP32, terlihat sebagai komponen keperakan pada papan, biasanya tidak memerlukan pendinginan tambahan. Komponen ini menghasilkan panas minimal secara independen dan hanya menjadi hangat karena transfer panas dari komponen di sekitarnya. Memasang heatsink di dekat ESP32 berpotensi mengganggu antena Wi-Fi yang berdekatan, menurunkan konektivitas nirkabel dan kualitas sinyal. Fokuskan upaya pendinginan pada komponen pengaturan daya dan area ASIC daripada sirkuit kontrol.
 
-When using custom settings, maintain conservative increment sizes of 10-15 MHz per adjustment step. This methodical approach prevents sudden thermal spikes and allows for proper stability testing at each frequency level. Some advanced users achieve frequencies around 700 MHz with core voltages adjusted to 1.175V or similar values, but these extreme settings require extensive cooling modifications and careful monitoring. The voltage regulator can operate at temperatures up to 100°C without immediate damage, but higher temperatures reduce efficiency and long-term reliability. Successful overclocking requires patience, systematic testing, and continuous monitoring to achieve stable performance improvements while preserving hardware integrity.
 
-# Final Section
+Konfigurasi kipas ganda menghadirkan peluang dan keterbatasan. Meskipun menambahkan kipas kedua untuk menghembuskan udara di bagian belakang Bitaxe dapat meningkatkan performa pendinginan, firmware perangkat hanya dapat mengontrol satu kipas dengan baik. Bitaxe memiliki dua header kipas tetapi hanya satu pengontrol kipas, yang berarti bahwa menghubungkan dua kipas akan membingungkan firmware karena menerima sinyal RPM yang saling bertentangan. Konfigurasi ini akan berfungsi tetapi dapat mengakibatkan perilaku kontrol kipas yang tidak dapat diprediksi.
+
+
+### Penilaian Kinerja Dasar
+
+
+Sebelum mencoba modifikasi overclocking, tetapkan metrik performa awal dengan menjalankan Bitaxe Anda pada pengaturan stock selama beberapa jam. Pantau temperatur ASIC, temperatur regulator tegangan, dan persentase kecepatan kipas melalui antarmuka web. Suhu pengoperasian yang optimal harus menjaga ASIC di bawah 60°C dan regulator tegangan di bawah 60°C dalam kondisi normal. Jika perangkat Anda sudah beroperasi di atas 65°C pada ASIC atau 70-80°C pada regulator tegangan pada pengaturan stok, perangkat keras pendingin tambahan wajib dipasang sebelum melanjutkan overclocking.
+
+
+Pendekatan sistematis untuk peningkatan frekuensi melibatkan langkah-langkah bertahap menggunakan opsi frekuensi yang telah ditentukan sebelumnya dalam menu pengaturan. Mulailah dengan memilih langkah frekuensi berikutnya yang tersedia di atas pengaturan Anda saat ini sambil mempertahankan tegangan inti default. Pendekatan konservatif ini memungkinkan Anda untuk mengevaluasi dampak termal dan stabilitas sebelum membuat perubahan tambahan. Biarkan perangkat beroperasi pada setiap pengaturan frekuensi baru setidaknya selama 30 menit hingga satu jam, memantau tren suhu dan stabilitas laju hash selama periode evaluasi.
+
+
+### Konfigurasi Khusus Tingkat Lanjut
+
+
+Akses ke pengaturan frekuensi dan voltase khusus memerlukan pengaktifan antarmuka overclocking tingkat lanjut dengan menambahkan "?OC" pada URL antarmuka web perangkat. Hal ini akan membuka kolom input manual untuk kontrol frekuensi dan voltase yang tepat, disertai dengan peringatan yang sesuai tentang risiko pengoperasian di luar parameter yang dirancang. Antarmuka khusus memungkinkan penyetelan di luar langkah frekuensi standar, sehingga pengguna yang berpengalaman dapat mengoptimalkan kinerja untuk konfigurasi pendinginan spesifik mereka.
+
+
+Ketika menggunakan pengaturan khusus, pertahankan ukuran kenaikan konservatif 10-15 MHz per langkah penyesuaian. Pendekatan metodis ini mencegah lonjakan panas yang tiba-tiba dan memungkinkan pengujian stabilitas yang tepat pada setiap tingkat frekuensi. Beberapa pengguna tingkat lanjut mencapai frekuensi sekitar 700 MHz dengan tegangan inti yang disesuaikan ke 1.175V atau nilai yang serupa, tetapi pengaturan ekstrem ini memerlukan modifikasi pendinginan yang ekstensif dan pemantauan yang cermat. Regulator tegangan dapat beroperasi pada suhu hingga 100°C tanpa kerusakan langsung, tetapi suhu yang lebih tinggi mengurangi efisiensi dan keandalan jangka panjang. Overclocking yang sukses membutuhkan kesabaran, pengujian sistematis, dan pemantauan terus menerus untuk mencapai peningkatan kinerja yang stabil sambil menjaga integritas perangkat keras.
+
+
+# Bagian Akhir
+
 <partId>33367393-17a7-58d4-8359-79fffc6221fb</partId>
 
-## Evaluate this course
+
+## Evaluasi kursus ini
+
 <chapterId>785f8b92-c8a6-5a65-aa39-e9753a7edf51</chapterId>
+
 <isCourseReview>true</isCourseReview>
 
-## Conclusion
+## Kesimpulan
+
 <chapterId>758baee6-2404-56fb-b534-6a39e441ae29</chapterId>
+
 <isCourseConclusion>true</isCourseConclusion>

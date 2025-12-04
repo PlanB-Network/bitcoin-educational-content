@@ -6,3 +6,4 @@ wrong_answers:
   - I sistemi online elaborano le transazioni più velocemente, facilitando il lancio di attacchi coordinati da parte degli avversari
 explanation: |
   La distinzione chiave evidenziata da Andrew Poelstra è che i sistemi fisici possono fare affidamento sulle forze dell'ordine e sulla visibilità degli avversari per scoraggiare gli attacchi, accettando anche alcuni rischi come l'incendio degli edifici. Tuttavia, i sistemi online come il Bitcoin operano in un ambiente in cui gli avversari possono agire in modo pseudonimo o anonimo, collegarsi da qualsiasi luogo e sfruttare i punti deboli senza essere identificati o scoperti. Questa differenza fondamentale significa che tutte le debolezze note del Bitcoin devono essere affrontate, poiché saranno inevitabilmente sfruttate da avversari invisibili che non affrontano conseguenze nel mondo reale.
+reviewed: false

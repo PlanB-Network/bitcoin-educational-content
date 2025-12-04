@@ -6,3 +6,4 @@ wrong_answers:
   - Les nœuds économiques ont rejeté la mise à niveau en raison des inquiétudes liées à l'augmentation des frais de transaction
 explanation: |
   La mise à niveau de Segwit était unique parce qu'elle était confrontée à un problème de coordination : les utilisateurs de Bitcoin étaient massivement favorables à la mise à niveau, mais les mineurs refusaient de la soutenir. Cela a créé une situation d'impasse où la mise à niveau ne pouvait pas être activée par le mécanisme normal de soft fork activé par les mineurs. Les mises à niveau précédentes s'étaient déroulées sans problème car elles bénéficiaient du soutien des utilisateurs et des mineurs. Cette situation a conduit à la proposition de fourche Soft activée par l'utilisateur (UASF) en tant que mécanisme d'activation alternatif ne reposant pas sur la signalisation des mineurs, soulignant la tension entre les différentes parties prenantes de l'écosystème Bitcoin.
+reviewed: false

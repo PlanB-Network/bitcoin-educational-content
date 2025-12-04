@@ -6,3 +6,4 @@ wrong_answers:
   - Nelze na něj navázat žádné další systémy
 explanation: |
   Bezdůvěryhodná základní vrstva systému Bitcoin poskytuje základ, který umožňuje flexibilní budování různých typů systémů. Jak vysvětlil Matt Corallo, zatímco na důvěryhodných systémech nelze budovat nedůvěryhodné systémy, na nedůvěryhodných systémech lze budovat důvěryhodné systémy (jako jsou například úschovné peněženky). To znamená, že bezdůvěryhodný základ Bitcoin podporuje jak bezdůvěryhodné aplikace, tak důvěryhodné služby, což dává návrhářům systémů svobodu zvolit vhodné kompromisy, aniž by tyto kompromisy vnucovali všem ostatním, kteří základní vrstvu používají.
+reviewed: false

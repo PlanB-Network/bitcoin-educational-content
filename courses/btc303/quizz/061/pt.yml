@@ -6,3 +6,4 @@ wrong_answers:
   - Os utilizadores devem confiar em assinaturas criptográficas de programadores de confiança para validar o comportamento do software
 explanation: |
   O capítulo afirma explicitamente que, para que os utilizadores verifiquem se o software Bitcoin "funciona como anunciado", devem ter acesso ilimitado ao código-fonte. Isto está diretamente relacionado com o princípio 'Não Confie, Verifique' e com o requisito da definição de código aberto para a disponibilidade do código fonte. As respostas erradas contradizem os princípios fundamentais do código aberto: exigir permissão viola o princípio do livre acesso, pagar taxas contradiz o requisito de distribuição sem custos, e confiar apenas em assinaturas mina a capacidade de verificação através de inspeção que o código aberto fornece.
+reviewed: false

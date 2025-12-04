@@ -6,3 +6,4 @@ wrong_answers:
   - Izvedena dela mogu se distribuirati samo pod vlasničkim licencama koje zahtevaju plaćanje tantijema.
 explanation: |
   Definicija otvorenog koda eksplicitno navodi da 'licenca mora dozvoliti izmene i izvedena dela, i mora dozvoliti njihovu distribuciju pod istim uslovima kao i licenca originalnog softvera.' Ovo osigurava da izvedena dela zadrže iste slobode kao i original, sprečavajući nekoga da uzme kod otvorenog koda i učini ga vlasničkim. Druge opcije krše ovaj fundamentalni princip ili ograničavanjem slobode ili promenom kompatibilnosti licenci.
+reviewed: false

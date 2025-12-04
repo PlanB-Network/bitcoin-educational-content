@@ -1,6 +1,6 @@
 ---
-name: Breeze Nodeless SDK Hands-on
-goal: Master the Breeze Nodeless SDK to build Lightning Network applications without running a node
+name: Breez Nodeless SDK Hands-on
+goal: Master the Breez Nodeless SDK to build Lightning Network applications without running a node
 objectives:
   - Learn practical implementation of the Nodeless SDK methods and APIs
   - Build a complete Lightning-enabled application from scratch
@@ -10,11 +10,11 @@ objectives:
 
 # Build Lightning Apps Without Running a Node
 
-The Breeze Nodeless SDK enables developers to integrate Lightning Network payments into their applications without the complexity of running and managing a Lightning node. This hands-on workshop will take you from SDK fundamentals to building a complete Lightning-powered application.
+The Breez Nodeless SDK enables developers to integrate Lightning Network payments into their applications without the complexity of running and managing a Lightning node. This hands-on workshop will take you from SDK fundamentals to building a complete Lightning-powered application.
 
-Through a combination of theory, live coding demonstrations, and practical challenges, you'll learn how to leverage the full power of the Breeze SDK. The course centers around "Bitcoin Wars," an interactive project that showcases real-world Lightning integration patterns.
+Through a combination of theory, live coding demonstrations, and practical challenges, you'll learn how to leverage the full power of the Breez SDK. The course centers around "Bitcoin Wars," an interactive project that showcases real-world Lightning integration patterns.
 
-By the end of this course, you'll have built a working Lightning application, understand the SDK's core methods, and know how to continue learning and contributing to the Breeze ecosystem.
+By the end of this course, you'll have built a working Lightning application, understand the SDK's core methods, and know how to continue learning and contributing to the Breez ecosystem.
 
 +++
 
@@ -26,7 +26,7 @@ By the end of this course, you'll have built a working Lightning application, un
 
 <chapterId>c21db68f-f299-5714-badf-bba132f0d2c4</chapterId>
 
-Thank you for joining our Breeze Nodeless SDK Course!
+Thank you for joining our Breez Nodeless SDK Course!
 
 Here's everything you need to know to participate:
 
@@ -215,7 +215,7 @@ Review of the complete solution and discussion.
 <liveLanguage>English</liveLanguage>
 <addressLine1>Expo Room Plan ₿ Network, via Motta 7a, Lugano</addressLine1>
 
-How to stay updated and contribute to the Breeze ecosystem.
+How to stay updated and contribute to the Breez ecosystem.
 
 **Resources:**
 

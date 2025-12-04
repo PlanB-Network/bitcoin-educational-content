@@ -1,3 +1,11 @@
+---
+name: Le Far West de la finance
+goal: todo
+objectives:
+  - todo1
+  - todo2
+  - todo3
+---
 # La construction de Bitcoin entre 2011 et 2012 : le Far West de la finance
 
 Bienvenue dans ce cours consacré à l'histoire de Bitcoin entre le printemps 2011 et l'été 2012 ! Si vous vous intéressez à Bitcoin, il est probable que vous sachiez ce qu'étaient Silk Road, la première place de marché du dark web utilisant le bitcoin, et Mt. Gox, la première réelle plateforme de change. Peut-être avez-vous aussi entendu parler du service de change BitInstant, de la plateforme de trading Bitcoinica, du type d'adresse Pay to Script Hash, du processeur de paiement BitPay, du portefeuille Electrum, des bitcoins de Casascius, du jeu en ligne SatoshiDICE, de la coopérative de minage Deepbit, de la cryptomonnaie alternative Litecoin, de la plateforme de change en pair à pair LocalBitcoins, ou encore de la pyramide de Ponzi appelée Bitcoin Savings & Trust ? Enfin, il se peut que vous connaissiez des personnages comme Ross Ulbricht, Mark Karpelès, Roger Ver, Erik Voorhees, Charlie Shrem ou Luke Dashjr. Si c'est le cas, et que vous voulez en apprendre plus sur ces gens ou ces projets, sachez que vous êtes au bon endroit, car ils sont emblématiques de cette partie de l'histoire de Bitcoin !

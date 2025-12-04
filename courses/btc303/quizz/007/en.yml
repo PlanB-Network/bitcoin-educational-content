@@ -6,3 +6,4 @@ wrong_answers:
   - Private keys are stored across multiple devices instead of a single wallet
 explanation: |
   Full node decentralization means that the validation of blocks (the data that miners produce) happens at the edge of the network by individual users running their own nodes, rather than relying on a few trusted authorities to verify transactions. This is distinct from miner decentralization, which deals with transaction ordering and processing. The other options confuse full node decentralization with mining distribution, governance structures, or security practices, but none capture the core concept of distributed block validation by network participants.
+reviewed: false

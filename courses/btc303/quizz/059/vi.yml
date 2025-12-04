@@ -6,3 +6,4 @@ wrong_answers:
   - "Điều này cho thấy nền tảng GitHub có những hạn chế về mặt kỹ thuật trong việc xử lý cơ sở mã của Bitcoin"
 explanation: |
   Theo nội dung chương, việc hợp nhất các yêu cầu kéo mất nhiều thời gian, chủ yếu do thiếu đánh giá, xuất phát từ việc thiếu người đánh giá chứ không phải do sự cản trở của người bảo trì hoặc các vấn đề kỹ thuật. Quy trình đánh giá rất quan trọng đối với bảo mật của Bitcoin, vì nó đảm bảo chất lượng mã và ngăn chặn các thay đổi độc hại. Điểm nghẽn này tồn tại do việc đánh giá mã hóa phức tạp đòi hỏi chuyên môn và thời gian, khiến các đánh giá viên đủ tiêu chuẩn trở thành nguồn lực khan hiếm trong quá trình phát triển.
+reviewed: false

@@ -1,0 +1,8 @@
+question: What is the distinguishing on-chain structure that confirms a Lightning batch channel opening transaction was executed correctly?
+answer: Multiple outputs representing funded channels plus a single change output returning remaining funds to the node's wallet
+wrong_answers:
+  - Multiple inputs from different wallets plus multiple change outputs distributed across various addresses
+  - A single large output representing the total batch amount plus multiple small inputs for transaction fees
+  - Multiple identical outputs of the same value plus multiple inputs from the same UTXO source
+explanation: |
+  A properly executed batch transaction has a specific structure: one or more UTXOs as inputs from the node's wallet, multiple outputs of varying values representing the funded channels (each going to a 2-of-2 multisignature address), and a single change output returning leftover funds to the node's internal wallet. This structure proves the batch logic worked correctly, locking funds into the required Lightning channel addresses while maximizing efficiency. The other options describe incorrect transaction structures that wouldn't represent valid Lightning batch opens.

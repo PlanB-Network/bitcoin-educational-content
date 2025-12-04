@@ -6,3 +6,4 @@ wrong_answers:
   - Nad ei ole rakendanud nõuetekohaseid kasutajate autentimise mehhanisme
 explanation: |
   Varasemad digitaalvaluutad ebaõnnestusid, sest sõltusid tehingu töötlemiseks ja valideerimiseks keskserveritest. Nagu peatükis selgitatud, sai sellest tsentraliseerimisest nende "Achilleuse kand", sest valitsused või muud vastased võisid neid keskseid tõrkepunkte kergesti tsenseerida, kontrollida või sulgeda. Isegi katsed kasutada föderatsioonis mitut serverit jätsid süsteemi ikkagi haavatavaks, sest iga server võis "ükshaaval ebaõnnestuda või ebaõnnestuma panna" Bitcoin lahendas selle probleemi, kõrvaldades detsentraliseeritud proof-of-work süsteemi abil vajaduse mis tahes keskse asutuse järele.
+reviewed: false

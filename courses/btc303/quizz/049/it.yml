@@ -6,3 +6,4 @@ wrong_answers:
   - "La fornitura fissa di Bitcoin rende economicamente impraticabile l'assorbimento delle perdite derivanti da attacchi riusciti, a differenza dei sistemi finanziari tradizionali"
 explanation: |
   La risposta corretta riflette l'intuizione chiave di Andrew Poelstra sui sistemi online rispetto a quelli fisici. A differenza degli edifici, dove accettiamo un certo rischio e ci affidiamo alle forze dell'ordine, il Bitcoin opera in un ambiente pseudonimo dove gli aggressori possono agire senza visibilità o conseguenze. Questa differenza fondamentale significa che ogni punto debole conosciuto sarà inevitabilmente sfruttato, rendendo la sicurezza completa essenziale piuttosto che una gestione opzionale del rischio.
+reviewed: false

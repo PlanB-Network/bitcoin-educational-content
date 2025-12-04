@@ -6,3 +6,4 @@ wrong_answers:
   - Desentralisering av brukere og desentralisering av utviklere
 explanation: |
   Bitcoins desentralisering har to nøkkelkomponenter: desentralisering av utvinnere og full node-desentralisering. Miner-desentralisering betyr at transaksjonsbehandling og -bestilling ikke kontrolleres av én enkelt enhet, men av et dynamisk kollektiv av utvinnere som fritt kan slutte seg til eller forlate nettverket. Full node-desentralisering innebærer at valideringen av blokker utføres i utkanten av nettverket av brukerne selv, i stedet for av betrodde myndigheter. Disse to aspektene fungerer sammen for å oppnå sensurresistens - utvinnere forhindrer sentralisert transaksjonsbestilling, mens fulle noder sikrer tillitsløs validering av blokkjeden.
+reviewed: false

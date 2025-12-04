@@ -6,3 +6,4 @@ wrong_answers:
   - Anonimowość zapewniana przez korzystanie z wielu adresów wallet
 explanation: |
   Prywatność Blockchain odnosi się konkretnie do informacji, które ujawniasz, dokonując transakcji na blockchainie, co dotyczy wszystkich wysyłanych i otrzymywanych transakcji. Różni się to od szyfrowania wallet (które chroni przechowywane klucze), bezpieczeństwa połączenia internetowego (które jest prywatnością off-chain) lub błędnego przekonania, że wiele adresów zapewnia anonimowość. Wycieki prywatności w łańcuchu występują w wyniku ponownego użycia adresu i klastrowania, gdzie transakcje mogą być łączone ze sobą w celu ujawnienia wzorców dotyczących działań finansowych użytkowników.
+reviewed: false

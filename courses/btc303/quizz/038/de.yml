@@ -6,3 +6,4 @@ wrong_answers:
   - Eine weiche fork kann heimlich in Commits implementiert werden, während eine harte fork eine öffentliche Ankündigung erfordert
 explanation: |
   In diesem Kapitel werden die Kompatibilitätsarten klar definiert: Vorwärtskompatibilität ermöglicht es alter Software, neue Daten zu verarbeiten, indem unbekannte Teile ignoriert werden, während Rückwärtskompatibilität es neuer Software ermöglicht, alte Daten zu verarbeiten. Ein weicher fork behält beide Arten der Kompatibilität bei und ist somit vollständig kompatibel. Ein hartes fork erhält nur die Abwärtskompatibilität aufrecht, d. h. neue Software kann alte Daten verarbeiten, aber alte Software kann keine neuen Daten aus dem aktualisierten System verarbeiten. Diese Unterscheidung ist entscheidend für das Verständnis der Bitcoin-Upgrade-Mechanismen und dafür, warum Soft Forks zur Aufrechterhaltung der Netzwerkharmonie bevorzugt werden.
+reviewed: false

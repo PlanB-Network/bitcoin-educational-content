@@ -481,11 +481,11 @@ Suppose that you uniformly selected a key to have the value of 17. The letter �
 
 The entire encryption of the word “DOG” with a key value of 17 is as follows:
 
-**Message = DOG = D,O,G = 3,15,6**
+**Message = DOG = D,O,G = 3,14,6**
 $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-$c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 6 = F$
 $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-*c = UGX*
+*c = UFX*
 
 Everyone can intuitively understand how the shift cipher works and probably use it themselves. For advancing your knowledge of cryptography, however, it is important to start becoming more comfortable with formalization, as the schemes will become much more difficult. Hence, why the steps for the shift cipher were formalized.
 

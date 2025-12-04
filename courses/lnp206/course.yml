@@ -22,7 +22,7 @@ inperson_price_dollars: 0
 payment_expiration_date: 2025-12-07
 available_seats: 30
 paid_description: |
-  Learn to build Lightning Network applications using the Breeze Nodeless SDK. This hands-on workshop
+  Learn to build Lightning Network applications using the Breez Nodeless SDK. This hands-on workshop
   combines theoretical knowledge with practical implementation, guiding you through building a complete
   Bitcoin Lightning application. Perfect for developers looking to integrate Lightning payments without
   running a node.

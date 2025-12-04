@@ -55,13 +55,13 @@ _Unbanked Population_
 
 Mhadhara huu, **"Kwa Nini El Salvador Inahitaji Bitcoin,"** unatoa muhtasari wa **protocol ya Bitcoin**, mizizi yake katika harakati za **Cypherpunk**, na jukumu lake kama chombo cha uhuru-kuwezesha **fedha ambazo hazijadhibitiwa**, **ujumuisho wa kifedha**, na mengi zaidi.
 
-> **Ufafanuzi:**
->
+**Ufafanuzi:**
 
-> - Protocol  ya _Bitcoin:_ Sheria na muundo unaosimamia jinsi Bitcoin inavyofanya kazi kama sarafu ya kidijitali iliyogatuliwa.
-> - _Cypherpunk movement:_ Kundi linalotetea matumizi fiche ili kuhakikisha faragha na uhuru katika nafasi za kidijitali.
-> - _Ujumuisho wa kifedha:_ Kutoa ufikiaji wa huduma za kifedha kwa watu ambao wametengwa kutoka kwa mifumo ya kawaida ya benki, ambayo mara nyingi hujulikana kama "isiyo na benki."
-> - _Pesa zisizopimwa:_ Pesa ambazo haziwezi kudhibitiwa au kuwekewa vikwazo na serikali au taasisi za fedha.
+
+- Protocol  ya _Bitcoin:_ Sheria na muundo unaosimamia jinsi Bitcoin inavyofanya kazi kama sarafu ya kidijitali iliyogatuliwa.
+- _Cypherpunk movement:_ Kundi linalotetea matumizi fiche ili kuhakikisha faragha na uhuru katika nafasi za kidijitali.
+- _Ujumuisho wa kifedha:_ Kutoa ufikiaji wa huduma za kifedha kwa watu ambao wametengwa kutoka kwa mifumo ya kawaida ya benki, ambayo mara nyingi hujulikana kama "isiyo na benki."
+- _Pesa zisizopimwa:_ Pesa ambazo haziwezi kudhibitiwa au kuwekewa vikwazo na serikali au taasisi za fedha.
 #### Asili ya Ricky na Utetezi wa Bitcoin
 
 Safari ya Ricky katika Bitcoin inatokana na kazi yake kama mtetezi wa haki za binadamu. Anaamini kuwa Bitcoin inaweza kuwapa watu binafsi udhibiti wa fedha zao, kuwaruhusu kulinda faragha yao na kuepuka vikwazo vya benki kuu. Ugunduzi wake wa kupitishwa kwa Bitcoin katika maeneo kama El Salvador unaonyesha jinsi teknolojia hii inaweza kuwawezesha watu katika masoko yanayoibukia kupata uhuru wa kifedha.
@@ -76,11 +76,11 @@ Katika tawala za kimabavu, ambapo ukandamizaji wa kifedha ni jambo la kawaida, a
 
 Licha ya uwezo wake, Bitcoin inakabiliwa na changamoto kubwa. Katika maeneo kama vile Afrika na India, miundombinu ya kimsingi kama vile Lightning na ufikiaji wa mtandao mara nyingi hukosekana, na hivyo kuzuia kupitishwa. Zaidi ya hayo, **ujumuishi wa kidijitali**—kuhakikisha kwamba watu wa rika zote na viwango vya elimu wanaweza kutumia teknolojia—kunasalia kuwa kikwazo kikubwa.
 
-> **Ufafanuzi:**
->
+**Ufafanuzi:**
 
-> - _Private keys:_ Nambari za siri zinazotoa ufikiaji wa Bitcoin ya mtumiaji.
-> - __Open-source:_ Programu ambayo mtu yeyote anaweza kukagua, kurekebisha, na kuboresha.
+
+- _Private keys:_ Nambari za siri zinazotoa ufikiaji wa Bitcoin ya mtumiaji.
+- __Open-source:_ Programu ambayo mtu yeyote anaweza kukagua, kurekebisha, na kuboresha.
 ### Kesi ya El Salvador
 
 Uamuzi wa El Salvador wa kupitisha Bitcoin kama zabuni ya kisheria unaonyesha uwezo wake wa kuleta mabadiliko. Kwa kutumia Bitcoin, nchi inalenga kuvutia uwekezaji wa kigeni na kuimarisha utulivu wa kifedha. Miradi kama vile **Bitcoin Beach** inaonyesha jinsi uchumi wa ndani unavyoweza kukua kwa kutumia Bitcoin kama njia ya exchange .
@@ -99,26 +99,26 @@ Kwa muhtasari, Bitcoin ina ahadi kubwa ya uwezeshaji wa kifedha na ushirikishwaj
 
 **Harakati za Cypherpunk** ziliibuka mwishoni mwa karne ya 20, zikitetea ufaragha na uhuru kupitia cryptography. Waanzilishi kama vile **Eric Hughes** na **Tim May** waliamini kuwa usimbaji fiche thabiti ni muhimu ili kulinda uhuru wa kibinafsi katika ulimwengu wa kidijitali. Mawazo yao yaliathiri sana uundaji wa Bitcoin.
 
-> **Ufafanuzi:**
->
+**Ufafanuzi:**
 
-> - _Cypherpunk:_ Harakati ya kukuza faragha na uhuru kwa kutumia cryptography.
+
+- _Cypherpunk:_ Harakati ya kukuza faragha na uhuru kwa kutumia cryptography.
 #### Uchumi wa Austria
 
 Wakati huo huo, **Uchumi wa Austria** ulitoa msingi wa kanuni za fedha za Bitcoin. Wanauchumi kama vile **Ludwig von Mises** na **Friedrich Hayek** walisema kwamba pesa zinazofaa zinapaswa kuwa chache, zidumu, na hazina nzuri ya thamani—kanuni kuu ambazo zilibadilisha muundo wa Bitcoin.
 
-> **Ufafanuzi:**
->
+**Ufafanuzi:**
 
-> -_Scarcity_ Upatikanaji mdogo, kuunda thamani kupitia hitaji la ugawaji makini.
+
+-_Scarcity_ Upatikanaji mdogo, kuunda thamani kupitia hitaji la ugawaji makini.
 ### Uumbaji wa Bitcoin
 
 **Satoshi Nakamoto** alichanganya mawazo haya ili kuunda Bitcoin mwaka wa 2008 kama sarafu ya dijitali iliyogatuliwa na inayostahimili udhibiti. Kwa kuunganisha maadili ya Cypherpunk ya faragha na kanuni za Austria za pesa nzuri, Bitcoin inatoa mfumo wa kifedha unaopinga benki za jadi na udhibiti wa serikali.
 
-> **Ufafanuzi:**
->
+**Ufafanuzi:**
 
-> - _Inastahimili udhibiti:_ Pesa ambazo haziwezi kudhibitiwa au kuzuiwa na nguvu za nje.
+
+- _Inastahimili udhibiti:_ Pesa ambazo haziwezi kudhibitiwa au kuzuiwa na nguvu za nje.
 #### Kanuni Muhimu za Kiuchumi
 
 
@@ -126,11 +126,11 @@ Wakati huo huo, **Uchumi wa Austria** ulitoa msingi wa kanuni za fedha za Bitcoi
 - **Upendeleo wa wakati:** Huhimiza kuweka akiba kwa ajili ya siku zijazo badala ya kutumia mara moja.
 - **Kuhifadhi:** Kuhifadhi thamani kwa mahitaji ya siku zijazo, ambayo husababisha uwekezaji na uvumbuzi.
 
-> **Ufafanuzi:**
->
+**Ufafanuzi:**
 
-> - _Mapendeleo ya wakati:_ Kuthamini bidhaa za sasa kuliko za baadaye.
-> - _Kuhifadhi:_ Thamani ya kuhifadhi kwa matumizi ya baadaye.
+
+- _Mapendeleo ya wakati:_ Kuthamini bidhaa za sasa kuliko za baadaye.
+- _Kuhifadhi:_ Thamani ya kuhifadhi kwa matumizi ya baadaye.
 ### Bitcoin huko El Salvador
 
 Kupitisha kwa El Salvador kwa Bitcoin kunaonyesha uwezo wake kama zana ya uhuru wa kifedha, ikipatana na **Uchumi wa Austria** kwa kuhimiza kupitishwa kwa hiari na ugatuaji. Hatua hii inatoa changamoto kwa mifumo ya jadi ya kifedha kwa kushughulikia masuala muhimu: ushindani, ukiritimba, na unyang'anyi.
@@ -174,11 +174,11 @@ Bitcoin inategemea **sahihi za kidijitali** kwa kutumia ** cryptography ya mkunj
 
 **Satoshi Nakamoto**, muundaji wa jina bandia la Bitcoin, alipanua mawazo haya kwa kubadilisha muundo wa PoW hadi **Blockchain** uliogatuliwa. Hii iliruhusu mtandao uliosambazwa wa node kuthibitisha na kurekodi miamala bila mamlaka kuu, kuashiria mabadiliko makubwa kutoka kwa majaribio ya awali ya sarafu ya digitali.
 
-> **Ufafanuzi:**
->
+**Ufafanuzi:**
 
-> - _Uthibitisho-wa-Kazi (PoW):_ Mfumo ambapo washiriki wanapaswa kutatua mafumbo ya kihesabu ili kuthibitisha miamala na usalama wa mtandao.
-> - _Elliptic Curve Cryptography:_ Mbinu ya  cryptography inayowezesha sahihi, sahihi za kidijitali.
+
+- _Uthibitisho-wa-Kazi (PoW):_ Mfumo ambapo washiriki wanapaswa kutatua mafumbo ya kihesabu ili kuthibitisha miamala na usalama wa mtandao.
+- _Elliptic Curve Cryptography:_ Mbinu ya  cryptography inayowezesha sahihi, sahihi za kidijitali.
 ### Mitambo ya Blockchain na Uthibitishaji wa Muamala
 
 Malipo ya Bitcoin yanathibitishwa na kuongezwa kwenye blocks na **miners**, wanaoshindana kutatua fumbo la siri kwa kutumia algoriti ya Proof-of-Work. Hii inahusisha kutafuta Hash yenye nambari maalum ya sufuri zinazoongoza kwa kurekebisha thamani ya **Nonce** ​​hadi Hash sahihi igunduliwe.
@@ -189,12 +189,12 @@ Kila **block** katika Blockchain ina kichwa **** (yenye data kama vile Hash ya b
 
 Kabla ya shughuli kujumuishwa kwenye kizuizi, wanakaa katika **Mempool**, ambapo wanangojea uthibitisho. Baada ya kuthibitishwa, shughuli hizi huongezwa kwenye kizuizi kipya cha kuchimbwa na kisha kwa Blockchain.
 
-> **Ufafanuzi:**
->
+**Ufafanuzi:**
 
-> - _mining:_ Mchakato wa kutatua mafumbo ya siri ili kuongeza blocks vipya kwenye Blockchain.
-> - _Nonce:_ Thamani iliyotumika kupata Hash sahihi wakati wa mining.
-> - _Mempool:_ Eneo la kungojea miamala ambayo haijathibitishwa kabla ya kuongezwa kwenye kizuizi.
+
+- _mining:_ Mchakato wa kutatua mafumbo ya siri ili kuongeza blocks vipya kwenye Blockchain.
+- _Nonce:_ Thamani iliyotumika kupata Hash sahihi wakati wa mining.
+- _Mempool:_ Eneo la kungojea miamala ambayo haijathibitishwa kabla ya kuongezwa kwenye kizuizi.
 ### Scalability, Faragha, na Maendeleo katika Bitcoin
 
 Bitcoin inakabiliwa na changamoto zinazohusiana na hatari na faragha. Uwezo mdogo wa muamala wa Blockchain hufanya iwe vigumu kushughulikia viwango vya juu vya muamala. Suluhu kama vile **Lightning Network** Address changamoto hizi kwa kuwezesha miamala ya off-chain kupitia njia za malipo, ambayo huongeza kasi na faragha.
@@ -203,12 +203,12 @@ Kuendesha **node iliyokamilika** ni muhimu ili kuhakikisha ugatuaji na usalama, 
 
 Maendeleo ya Bitcoin yamebadilika ili kuboresha utendaji na usalama. Maboresho makubwa yanajumuisha **Shahidi Aliyetenganishwa (SegWit)**, ambayo hushughulikia kutoweza kuharibika kwa miamala na kuongeza ukubwa unaofaa wa kizuizi, na **Taproot**, ambayo huboresha faragha na kuruhusu kandarasi ngumu zaidi kwa kutumia **Miti ya Muhtasari wa Sintaksia ya Merkleized (MAST)**.
 
-> **Ufafanuzi:**
->
+**Ufafanuzi:**
 
-> - _SegWit:_ Uboreshaji wa Bitcoin ambao hutenganisha data ya sahihi kutoka kwa data ya shughuli, kuboresha ufanisi.
-> - _Taproot:_ Uboreshaji unaoboresha ufaragha na uimara wa Bitcoin kwa kuwezesha kandarasi ngumu zaidi mahiri.
-> - _lightning network:_ Suluhisho la pili la safu kwa miamala ya haraka na nafuu ya Bitcoin kwa kutumia njia za malipo.
+
+- _SegWit:_ Uboreshaji wa Bitcoin ambao hutenganisha data ya sahihi kutoka kwa data ya shughuli, kuboresha ufanisi.
+- _Taproot:_ Uboreshaji unaoboresha ufaragha na uimara wa Bitcoin kwa kuwezesha kandarasi ngumu zaidi mahiri.
+- _lightning network:_ Suluhisho la pili la safu kwa miamala ya haraka na nafuu ya Bitcoin kwa kutumia njia za malipo.
 #### Hitimisho
 
 Muundo wa Bitcoin na mageuzi yanayoendelea yanaonyesha uvumbuzi na uwezo wa kubadilika wa teknolojia yake. Kutoka **Hashcash** hadi Blockchain iliyogatuliwa, na kutoka **SegWit** hadi **Taproot**, Bitcoin inaendelea hadi changamoto za Address zinazohusiana na hatari, faragha na usalama. Juhudi zinazoendelea za jumuiya zinahakikisha kuwa Bitcoin inasalia kuwa thabiti na kugatuliwa huku ikibadilika ili kukidhi mahitaji ya siku zijazo.
@@ -227,29 +227,29 @@ Katika mhadhara huu, tunakanusha hadithi za kawaida zinazozunguka **Bitcoin**, *
 
 Dhana potofu ya mara kwa mara ni kwamba **Bitcoin** na **Blockchain** ni sawa. Ingawa Bitcoin ni sarafu ya kidijitali, **Blockchain** ndiyo teknolojia inayoiwezesha. Blockchains hutoa rekodi iliyoidhinishwa ya miamala lakini huja na maafikiano kama vile kasi ndogo na gharama kubwa zaidi, ambazo hutatuliwa kama Address ya **Lightning Network** .
 
-> **Ufafanuzi:**
->
+**Ufafanuzi:**
 
-> - _Blockchain:_ Teknolojia ya msingi inayotumiwa kurekodi shughuli katika Leja iliyogatuliwa, isiyoweza kubadilika.
-> - _lightning network:_ Suluhisho la pili la safu linaloboresha ufanisi wa muamala wa Bitcoin kwa kuwezesha miamala ya off-chain.
+
+- _Blockchain:_ Teknolojia ya msingi inayotumiwa kurekodi shughuli katika Leja iliyogatuliwa, isiyoweza kubadilika.
+- _lightning network:_ Suluhisho la pili la safu linaloboresha ufanisi wa muamala wa Bitcoin kwa kuwezesha miamala ya off-chain.
 ### Bitcoin dhidi ya Crypto
 
 Tofauti nyingine kuu ni kwamba **Bitcoin** iliundwa kwa madhumuni ya pekee ya kutoa aina ya pesa iliyogawanywa, inayostahimili udhibiti, isiyodhibitiwa na kampuni au serikali yoyote. Kinyume chake, fedha za siri **shitcoins** mara nyingi huundwa kwa udhibiti wa kati, unaopatikana kimsingi ili kutajirisha kampuni zilizo nyuma yao kupitia mbinu za unyang'anyi, miradi ya kusukuma maji na kutupa, au ulaghai wa moja kwa moja. Tokeni hizi kwa kawaida hazitumiki kwa madhumuni ya kweli zaidi ya kupata faida ya haraka kwa watayarishi wao kwa gharama ya wawekezaji wasio na taarifa. Bitcoin, hata hivyo, inasimama peke yake kama sarafu pekee ya kidijitali iliyogatuliwa kwa kweli na rekodi iliyothibitishwa ya usalama na uthabiti.
 
-> **Ufafanuzi:**
->
+**Ufafanuzi:**
 
-> - _Shitcoins:_ Shitcoins ni sarafu za siri za thamani ya chini au zenye ubora wa kutiliwa shaka ambazo hazina matumizi halisi. Mara nyingi huwa ni ya kubahatisha sana na wakati mwingine huundwa kwa madhumuni ya ulaghai au bila kusudi dhahiri, ikichukua fursa ya kushamiri kwa soko la sarafu-fiche.
+
+- _Shitcoins:_ Shitcoins ni sarafu za siri za thamani ya chini au zenye ubora wa kutiliwa shaka ambazo hazina matumizi halisi. Mara nyingi huwa ni ya kubahatisha sana na wakati mwingine huundwa kwa madhumuni ya ulaghai au bila kusudi dhahiri, ikichukua fursa ya kushamiri kwa soko la sarafu-fiche.
 ![Image](assets/en/1/2.webp)
 
 ### Matumizi ya Nishati na Athari kwa Mazingira
 
 Mojawapo ya ukosoaji wa kawaida wa Bitcoin ni **matumizi yake ya nishati**. Ingawa mining wa Bitcoin hautumii nishati, unachukua chini ya 1% ya matumizi ya umeme ulimwenguni na chini ya 3% ya nishati inayopotea. Zaidi ya hayo, **mining wa Bitcoin** mara nyingi huingia kwenye vyanzo vya nishati visivyotumika au vinavyoweza kurejeshwa, na kuifanya kuwa ya kijani zaidi kuliko inavyoonyeshwa mara nyingi.
 
-> **Ufafanuzi:**
->
+**Ufafanuzi:**
 
-> - _mining wa Bitcoin :_ Mchakato wa kuthibitisha miamala na kupata mtandao kwa kutatua mafumbo ya  cryptography, ambayo yanahitaji nguvu ya kukokotoa.
+
+- _mining wa Bitcoin :_ Mchakato wa kuthibitisha miamala na kupata mtandao kwa kutatua mafumbo ya  cryptography, ambayo yanahitaji nguvu ya kukokotoa.
 ### Dhana Potofu Kuhusu Matumizi ya Jinai
 
 Bitcoin mara nyingi inakosolewa kwa kutumika katika shughuli za uhalifu. Hata hivyo, uchambuzi wa Blockchain unaonyesha kuwa ni asilimia ndogo tu ya miamala ya Bitcoin inayohusishwa na uhalifu. Kwa kweli, mifumo ya jadi ya kifedha inaona matumizi mengi ya uhalifu kuliko Bitcoin.
@@ -258,10 +258,10 @@ Bitcoin mara nyingi inakosolewa kwa kutumika katika shughuli za uhalifu. Hata hi
 
 **Faragha** na **uwezekano wa kueleweka** ni vipengele muhimu vya Bitcoin. Faragha hulinda watumiaji katika mifumo dhalimu, na uwezekano wa kueleweka huhakikisha kwamba kila Bitcoin ni sawa, bila kujali historia yake. Hii inafanya Bitcoin kuwa aina ya pesa ya kuaminika na ya haki.
 
-> **Ufafanuzi:**
->
+**Ufafanuzi:**
 
-> - _Fungibility:_ Mali ya pesa ambapo kila kitengo kinaweza kubadilishana na kingine, kuhakikisha thamani sawa.
+
+- _Fungibility:_ Mali ya pesa ambapo kila kitengo kinaweza kubadilishana na kingine, kuhakikisha thamani sawa.
 ### Kushughulikia FUD na Mienendo ya Soko
 
 FUD inayozunguka Bitcoin mara nyingi hutia chumvi wasiwasi kuhusu athari zake kwa mazingira, matumizi ya uhalifu na usalama. Ingawa mabadiliko ya soko yatatokea, teknolojia ya Bitcoin iliyogatuliwa na sauti hutoa msingi thabiti wa utulivu wa muda mrefu na uhuru wa kifedha, haswa katika mazingira yenye blocks kama vile Venezuela.
@@ -2148,7 +2148,7 @@ Wallets mbalimbali za lightning zinapatikana, kila moja inakidhi mahitaji na mat
 
 - **Vipengele**: Kiendelezi cha Kivinjari, chanzo-wazi, kinaauni miundo ya uangalizi na isiyo ya uangalizi, inayoboresha utumizi mwingi.
 
-#### Breeze:
+#### Breez:
 
 
 - **Vipengele**: Node nyepesi kwenye simu, chanzo huria, huchanganya kujilinda na ukwasi unaodhibitiwa, kutoa usawa wa udhibiti na urahisi.
@@ -2156,7 +2156,7 @@ Wallets mbalimbali za lightning zinapatikana, kila moja inakidhi mahitaji na mat
 #### Phoenix:
 
 
-- **Vipengele**: Sawa na Breeze, hutumia modeli ya LSP kwa ukwasi, chanzo huria, inaangazia urahisi wa mtumiaji na usimamizi madhubuti wa ukwasi.
+- **Vipengele**: Sawa na Breez, hutumia modeli ya LSP kwa ukwasi, chanzo huria, inaangazia urahisi wa mtumiaji na usimamizi madhubuti wa ukwasi.
 
 ###Open Bitcoin Wallet (OBW):
 
@@ -2169,7 +2169,7 @@ Wallet zinaweza kuainishwa kulingana na nani ana funguo za faragha na ni nani an
 
 
 - **wallet za Utunzaji (Custodial Wallets)**: Mtu wa tatu hushikilia funguo za faragha, kwa kawaida hutoa usimamizi otomatiki wa ukwasi. Mifano ni pamoja na Wallet of Satoshi.
-- **wallet Zisizo Miliki**: Watumiaji hushikilia funguo za faragha, huenda wakahitaji udhibiti wa ukwasi mwenyewe. Mifano ni pamoja na Breeze na OBW.
+- **wallet Zisizo Miliki**: Watumiaji hushikilia funguo za faragha, huenda wakahitaji udhibiti wa ukwasi mwenyewe. Mifano ni pamoja na Breez na OBW.
 
 ![Liquidity Lightning](assets/en/4/12.webp)_2x2 Matrix of LN Clients_
 
@@ -2246,11 +2246,11 @@ Wasanidi programu wanakabiliwa na changamoto ya kutekeleza usimamizi wa ukwasi u
 - **Suala la Kiutendaji**: Utekelezaji wa kanuni faafu za kuelekeza malipo kwenye mtandao wenye ukwasi unaobadilika kunaweza kuwa changamano na kwa kiasi kikubwa kukokotoa.
 - **Suluhisho Zinazowezekana**: Wasanidi programu wanachunguza algoriti za kina za **uelekezaji wa upepesi** na kutumia **njia zinazofadhiliwa na pande mbili** ili kuhakikisha kuwa ukwasi unapatikana katika ncha zote mbili za muamala.
 
-> **Ufafanuzi**:
->
+**Ufafanuzi**:
 
-> - **Liquidity**: Upatikanaji wa fedha katika chaneli ya Lightning kufanya au kupokea malipo.
-> - **LSP (Lightning Service Provider)**: Huduma inayowasaidia watumiaji kudhibiti ukwasi na chaneli kwenye Lightning Network.
+
+- **Liquidity**: Upatikanaji wa fedha katika chaneli ya Lightning kufanya au kupokea malipo.
+- **LSP (Lightning Service Provider)**: Huduma inayowasaidia watumiaji kudhibiti ukwasi na chaneli kwenye Lightning Network.
 ---
 ### Changamoto ya 2: Muhtasari wa L1/L2
 
@@ -2270,12 +2270,12 @@ Wasanidi programu wana jukumu la kuondoa utata wa L1 na L2 kwa watumiaji, kuunda
 - **Tatizo la Kiutendaji**: Kuhakikisha kwamba mtumiaji amekingwa dhidi ya matatizo ya kiufundi ya kudhibiti chaneli na miamala ya On-Chain huku akidumisha uwazi inapohitajika.
 - **Suluhisho Zinazowezekana**: Wasanidi wanashughulikia vipengele kama vile **kuunganisha** (ambayo inaruhusu pesa kuongezwa au kuondolewa kwenye kituo bila kuifunga) na zana za kiotomatiki za kudhibiti idhaa.
 
-> **Ufafanuzi**:
->
+**Ufafanuzi**:
 
-> - **L1 (Layer 1)**: Bitcoin kuu ya Blockchain Layer.
-> - **L2 (Layer 2)**: Lightning Network, ambayo hufanya kazi juu ya Bitcoin ili kuwezesha shughuli za haraka na nafuu.
-> - **Kuunganisha**: Mbinu inayoruhusu marekebisho ya usawa wa kituo cha Lightning bila kuhitaji kuifunga.
+
+- **L1 (Layer 1)**: Bitcoin kuu ya Blockchain Layer.
+- **L2 (Layer 2)**: Lightning Network, ambayo hufanya kazi juu ya Bitcoin ili kuwezesha shughuli za haraka na nafuu.
+- **Kuunganisha**: Mbinu inayoruhusu marekebisho ya usawa wa kituo cha Lightning bila kuhitaji kuifunga.
 ---
 ### Changamoto ya 3: Kupokea Malipo ya Nje ya Mtandao
 
@@ -2295,11 +2295,11 @@ Wasanidi programu wanachunguza njia za kuruhusu watumiaji kupokea malipo ya Radi
 - **Tatizo la Kiutendaji**: Kuunda Protocol au mfumo unaowaruhusu watumiaji kupokea malipo nje ya mtandao bila kuathiri usalama au ugatuaji ni changamoto kubwa ya kiufundi.
 - **Suluhu Zinazowezekana**: Utafiti kuhusu **hati za malipo za nje ya mtandao**, ambao ungewaruhusu wapokeaji kudai malipo wakishaunganisha tena mtandao, unaendelea.
 
-> **Ufafanuzi**:
->
+**Ufafanuzi**:
 
-> - **Malipo ya Nje ya Mtandao**: Malipo yanayotumwa au kupokewa wakati mhusika mmoja hajaunganishwa kwenye Lightning Network.
-> - **wallet za Uhifadhi**: wallet ambapo mtu mwingine hudhibiti funguo za faragha na kudhibiti miamala kwa niaba ya mtumiaji.
+
+- **Malipo ya Nje ya Mtandao**: Malipo yanayotumwa au kupokewa wakati mhusika mmoja hajaunganishwa kwenye Lightning Network.
+- **wallet za Uhifadhi**: wallet ambapo mtu mwingine hudhibiti funguo za faragha na kudhibiti miamala kwa niaba ya mtumiaji.
 ---
 ### Changamoto ya 4: Usimamizi wa Hifadhi Nakala
 
@@ -2319,10 +2319,10 @@ Wasanidi programu wanahitaji kutekeleza suluhu za chelezo zinazoruhusu watumiaji
 - **Suala la Kiutendaji**: Kubuni mifumo ya chelezo ambayo ni salama, iliyogatuliwa, na inayofaa mtumiaji huleta changamoto kubwa, kwa vile ni lazima hifadhi rudufu zisasishwe na kila mabadiliko ya hali katika kituo.
 - **Suluhu Zinazowezekana**: **Hifadhi Nakala za Idhaa tuli (SCBs)** zimeundwa ili kurahisisha urejeshaji, lakini suluhu za kina zaidi zinahitajika ili kuhifadhi nakala kiotomatiki na salama kabisa.
 
-> **Ufafanuzi**:
->
+**Ufafanuzi**:
 
-> - **Nakala Iliyotulia ya Kituo (SCB)**: Aina ya hifadhi rudufu inayowaruhusu watumiaji kurejesha pesa zao kutoka kwa kituo cha Lightning endapo kutashindikana kwa kurejesha hali ya hivi punde ya kituo.
+
+- **Nakala Iliyotulia ya Kituo (SCB)**: Aina ya hifadhi rudufu inayowaruhusu watumiaji kurejesha pesa zao kutoka kwa kituo cha Lightning endapo kutashindikana kwa kurejesha hali ya hivi punde ya kituo.
 ---
 #### Hitimisho
 
@@ -2394,7 +2394,7 @@ Njia za blinded zimeundwa ili kuboresha faragha ya mpokeaji katika Lightning Net
 
 **Lightning service provider (LSPs)**
 
-Iliyoundwa na Breeze Wallet, Lightning service provider (LSPs) wanalenga kuboresha matumizi ya mtumiaji kwa kuwezesha uwezo wa kupokea papo hapo. LSP hufungua chaneli kwa watumiaji, sawa na jinsi watoa huduma za mtandao wanavyotoa huduma za muunganisho. Ubunifu huu hurahisisha mchakato wa kuabiri mtumiaji na kuhakikisha mwingiliano usio na mshono kwenye Lightning Network.
+Iliyoundwa na Breez Wallet, Lightning service provider (LSPs) wanalenga kuboresha matumizi ya mtumiaji kwa kuwezesha uwezo wa kupokea papo hapo. LSP hufungua chaneli kwa watumiaji, sawa na jinsi watoa huduma za mtandao wanavyotoa huduma za muunganisho. Ubunifu huu hurahisisha mchakato wa kuabiri mtumiaji na kuhakikisha mwingiliano usio na mshono kwenye Lightning Network.
 
 **Nyenzo za Kusasishwa**
 
@@ -2430,12 +2430,12 @@ Hata hivyo, ankara za jadi zina vikwazo vyake. Kwa mfano:
 - **Matumizi Mamoja**: Ankara kwa kawaida hutumika kwa muamala mmoja pekee, jambo ambalo linaweza kuwa tabu.
 - **Vikwazo vya ukubwa**: Ankara kubwa inaweza kuwa vigumu kushughulikia katika fomu ya msimbo wa QR, na kuzifanya ziwe zisizofaa kwa programu fulani.
 
-> **Ufafanuzi**:
->
+**Ufafanuzi**:
 
-> - **Address ya ununuzi**: Ombi la malipo katika Lightning Network, kwa kawaida huwa na kiasi na maelezo ya mpokeaji.
-> - **HTLC (Hash Time-Locked Contract)**: Aina ya Smart contract inayotumiwa kuhakikisha malipo ya masharti ndani ya muda uliowekwa.
-> - **Uelekezaji wa Vitunguu**: Mbinu ya faragha ambapo data ya muamala imewekwa kama kitunguu ili kulinda utambulisho wa mtumaji na mpokeaji.
+
+- **Address ya ununuzi**: Ombi la malipo katika Lightning Network, kwa kawaida huwa na kiasi na maelezo ya mpokeaji.
+- **HTLC (Hash Time-Locked Contract)**: Aina ya Smart contract inayotumiwa kuhakikisha malipo ya masharti ndani ya muda uliowekwa.
+- **Uelekezaji wa Vitunguu**: Mbinu ya faragha ambapo data ya muamala imewekwa kama kitunguu ili kulinda utambulisho wa mtumaji na mpokeaji.
 ### Protocol na Kesi za Matumizi
 
 Kwa Miundo ya Biashara na Protocol za Kina
@@ -2452,15 +2452,15 @@ Protocol nyingine, **RGB**, inapanua zaidi utendakazi wa Radi kwa kuwezesha **uh
 
 **Lightning service provider (LSPs)** pia wana jukumu muhimu katika kupanua malipo ya lightning. LSPs hutoa ukwasi wa kupokea malipo, husaidia kufungua **njia zinazofadhiliwa na pande mbili**, na kuhakikisha miamala isiyo na mshono kwa kukatiza malipo na kufungua chaneli popote ulipo.
 
-> **Ufafanuzi**:
->
+**Ufafanuzi**:
 
-> - **LNURL**: Protocol inayoruhusu uundaji thabiti wa Address ya ununuzi, kufanya malipo kuwa urahisi na rahisi kubadilika.
-> - **Bolt 12**: Upanuzi wa lightning unaotumia ujumbe wa onion kwa faragha huku ukileta Address ya ununuzi kiotomatiki .
-> - **Nostr**: Jukwaa lililogatuliwa ambalo linaunganisha LProtocols na Kesi za Matumizi
-> malipo ya usiku kwa shughuli ndogo ndogo.
-> - **Protocol ya RGB**: Protocol inayowezesha uhamishaji wa mali, kama tokeni, kupitia Lightning Network.
-> - **LSP (Lightning Service Provider)**: Huluki ambayo hutoa ukwasi na kufungua njia za miamala yaLightning, na kufanya mtandao kufikiwa zaidi na watumiaji.
+
+- **LNURL**: Protocol inayoruhusu uundaji thabiti wa Address ya ununuzi, kufanya malipo kuwa urahisi na rahisi kubadilika.
+- **Bolt 12**: Upanuzi wa lightning unaotumia ujumbe wa onion kwa faragha huku ukileta Address ya ununuzi kiotomatiki .
+- **Nostr**: Jukwaa lililogatuliwa ambalo linaunganisha LProtocols na Kesi za Matumizi
+- malipo ya usiku kwa shughuli ndogo ndogo.
+- **Protocol ya RGB**: Protocol inayowezesha uhamishaji wa mali, kama tokeni, kupitia Lightning Network.
+- **LSP (Lightning Service Provider)**: Huluki ambayo hutoa ukwasi na kufungua njia za miamala yaLightning, na kufanya mtandao kufikiwa zaidi na watumiaji.
 ### Miundo ya Biashara na Protocol za Kina
 
 Maendeleo katika malipo ya lightning yamefungua njia kwa miundo mipya ya biashara, hasa kwa **Lightning service provider (LSPs)**. LSPs huboresha matumizi ya mtumiaji kwa kufungua chaneli tu wakati malipo yanapotambuliwa, hivyo basi kupunguza utata wa kusanidi.
@@ -2475,12 +2475,12 @@ Protocol za hali ya juu kama vile **Kandarasi Zilizofungwa kwa Muda wa Pointi (P
 
 Protocol kama vile **LNURL** na **Bolt 12** hurahisisha malipo kwa kupunguza mwingiliano wa mikono, kuhakikisha kuwa Lightning Network inakuwa rahisi zaidi na inakubalika kwa watu wengi.
 
-> **Ufafanuzi**:
->
+**Ufafanuzi**:
 
-> - **PTLC (Point Time-Locked Contract)**: Kitabu cha awali cha   cryptography ambacho huboreshwa kwenye HTLC, kuwezesha malipo rahisi na salama zaidi.
-> - **Picha ya awali**: Thamani inayotumika kufungua HTLC, ambayo inaweza pia kutumika kama ufunguo wa ufikiaji wa huduma.
-> - **Mfano wa Mnada**: Mtindo wa malipo ambapo malipo hufanyika yakisubiri wakati wa mnada na kutolewa tu wakati zabuni ya juu zaidi inakubaliwa.
+
+- **PTLC (Point Time-Locked Contract)**: Kitabu cha awali cha   cryptography ambacho huboreshwa kwenye HTLC, kuwezesha malipo rahisi na salama zaidi.
+- **Picha ya awali**: Thamani inayotumika kufungua HTLC, ambayo inaweza pia kutumika kama ufunguo wa ufikiaji wa huduma.
+- **Mfano wa Mnada**: Mtindo wa malipo ambapo malipo hufanyika yakisubiri wakati wa mnada na kutolewa tu wakati zabuni ya juu zaidi inakubaliwa.
 ### Hitimisho
 
 Upanuzi na ujumuishaji wa malipo ya Lightning kupitia Protocol mbalimbali na kesi za utumiaji zinaonyesha mabadiliko ya nguvu ya Lightning Network. Kuanzia kuboresha utendakazi wa kimsingi wa malipo hadi kuanzisha miundo ya hali ya juu ya biashara na Protocol za  cryptography, mustakabali waLightning una ahadi kubwa ya uvumbuzi na kukubalika kote.

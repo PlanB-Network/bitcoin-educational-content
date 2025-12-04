@@ -1,9 +1,9 @@
-question: Ni gute umutungo waremwe mu buryo bw’ubuhinga buva ku mahera ashingiye ku myenda utandukanye n’umutungo w’umuco w’i Otirishiya?
-answer: Itunga nk’iryo muri Otirishiya rikomoka ku kuzigama nyakuri no kwitanga, mu gihe itunga rishingiye ku myenda riremwa ubwo nyene rivuye ku ngurane kandi rishobora guhindura ibimenyetso vy’ubutunzi.
+question: Ni gute umutungo waremwe mu buryo bw’ubuhinga buva ku mahera ashingiye ku madeni utandukanye n’umutungo w’umuco w’i Otirishiya?
+answer: Itunga nk’iryo muri Otirishiya rikomoka ku kuzigama nyakuri no kwitanga, mu gihe itunga rishingiye ku madeni riremwa ubwo nyene rivuye ku ngurane kandi rishobora guhindura ibimenyetso vy’ubutunzi.
 wrong_answers:
-  - Igihugu c’ubutunzi nk’ico muri Otirishiya kiva mu gucapura amahera menshi igihe cose bikenewe.
-  - Itunga rishingiye ku myenda ntirigera risaba kwishurwa kandi ringana n’amahera nyayo umuntu azigamye.
-  - Nta tandukaniro ririho; ubwo bwoko bwompi bw’umutungo burasa mu kamere no mu ngaruka.
+  - Igihugu c’ubutunzi nk’ico muri Otirishiya kiva mu gukora amahera menshi igihe cose bikenewe.
+  - Itunga rishingiye ku ku madeni ntirigera risaba kwishurwa kandi ringana n’amahera nyayo umuntu azigamye.
+  - Nta tandukaniro ririho; ubwo bwoko bwose bw’umutungo burasa mu kamere no mu ngaruka.
 explanation: |
-  Itunga rya Otirishiya riva mu gukoresha vy’ukuri n’ugushiramwo amahera vyitondewe. Itunga rishingiye ku myenda, riremeshwa mu buryo bworoshe biciye mu ngurane, rirashobora kuzimiza abashoramari no gutuma habaho ishoramari ritagira akamaro, kuko ritagaragaza ukuzigama nyakuri canke ivyo abaguzi bakunda.
-reviewed: false
+  Itunga rya Otirishiya riva mu gukoresha vy’ukuri n’ugushiramwo amahera vyitondewe. Itunga rishingiye kumadeni, riremeshwa mu buryo bworoshe biciye mu ngurane, rirashobora kuzimiza abashoramari no gutuma habaho ishoramari ritagira akamaro, kuko ritagaragaza ukuzigama nyakuri canke ivyo abaguzi bakunda.
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - (p - 1) + (q - 1)
 explanation: |
   Para N igual al producto de dos números primos p y q, el orden de N se calcula como (p - 1) * (q - 1).
-reviewed: false
+reviewed: true

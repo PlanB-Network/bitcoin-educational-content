@@ -6,4 +6,4 @@ wrong_answers:
   - Debe ser igual a φ(N)
 explanation: |
   En RSA, el exponente e se elige de tal manera que sea mayor que 2 y coprimo con φ(N), lo que asegura la seguridad de las operaciones.
-reviewed: false
+reviewed: true

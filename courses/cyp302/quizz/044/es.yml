@@ -6,4 +6,4 @@ wrong_answers:
   - No hay elemento neutro para la multiplicación
 explanation: |
   El conjunto de enteros no satisface la condición de inversión bajo la multiplicación porque no hay un inverso para cada entero que al multiplicarse dé 1. Solo los elementos 1 y -1 cumplen esta condición.
-reviewed: false
+reviewed: true

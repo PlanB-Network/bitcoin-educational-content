@@ -6,4 +6,4 @@ wrong_answers:
   - Cifrando los mensajes con un algoritmo diferente
 explanation: |
   Los números de secuencia aseguran que los mensajes se reciban en el orden correcto y previenen su reordenamiento.
-reviewed: false
+reviewed: true

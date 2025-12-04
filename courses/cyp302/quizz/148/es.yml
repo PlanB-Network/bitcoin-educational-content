@@ -6,4 +6,4 @@ wrong_answers:
   - La función de Gauss
 explanation: |
   La función Phi de Euler (o función totiente) se utiliza para calcular el número de coprimos de un entero N, especialmente para enteros no primos.
-reviewed: false
+reviewed: true

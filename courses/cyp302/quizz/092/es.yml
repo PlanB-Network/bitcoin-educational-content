@@ -6,4 +6,4 @@ wrong_answers:
   - Aumentando la longitud de la clave para cada bloque cifrado
 explanation: |
   Modos como OFB permiten que un cifrado de bloque actúe como un cifrado de flujo al generar un flujo de clave, que luego se utiliza para cada porción del texto plano.
-reviewed: false
+reviewed: true

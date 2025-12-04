@@ -6,4 +6,4 @@ wrong_answers:
   - Introducir confusión adicional mediante la sustitución de bytes
 explanation: |
   La operación shift rows en AES reorganiza los bytes en la tabla de estado para dispersar la información, aumentando así la difusión.
-reviewed: false
+reviewed: true

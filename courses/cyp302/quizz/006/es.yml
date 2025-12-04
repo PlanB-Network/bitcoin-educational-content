@@ -6,4 +6,4 @@ wrong_answers:
   - Criptografía simétrica
 explanation: |
   Las funciones hash son un componente clave de la criptografía moderna, pero no están específicamente asociadas con esquemas simétricos o asimétricos, a diferencia de las claves públicas y privadas.
-reviewed: false
+reviewed: true

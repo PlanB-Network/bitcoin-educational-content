@@ -6,4 +6,4 @@ wrong_answers:
   - Porque los cifrados de flujo siempre son más lentos
 explanation: |
   Los cifrados de flujo están diseñados para cifrar datos de manera continua (bit a bit o byte a byte), lo que complica su uso en modo bloque que requiere procesamiento en bloques de tamaño fijo.
-reviewed: false
+reviewed: true

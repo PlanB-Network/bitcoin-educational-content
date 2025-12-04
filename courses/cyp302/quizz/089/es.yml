@@ -6,4 +6,4 @@ wrong_answers:
   - Hace que el código del algoritmo sea más bello para los humanos.
 explanation: |
   Al usar un nonce aleatorio para cada sesión, los métodos CBC y OFB aseguran que cada cifrado sea único, lo que previene ataques que explotan datos idénticos.
-reviewed: false
+reviewed: true

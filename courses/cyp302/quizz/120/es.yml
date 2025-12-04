@@ -6,4 +6,4 @@ wrong_answers:
   - Exigían el uso de criptografía homomórfica
 explanation: |
   Antes de los años 70, los problemas con la distribución y gestión de claves dificultaban asegurar las comunicaciones a gran escala, obstaculizando así el desarrollo de aplicaciones modernas como las compras en línea.
-reviewed: false
+reviewed: true

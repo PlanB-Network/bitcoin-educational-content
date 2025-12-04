@@ -6,4 +6,4 @@ wrong_answers:
   - Matriz
 explanation: |
   El grupo es la estructura algebraica fundamental sobre la cual se basa el álgebra abstracta, definida por un conjunto de elementos y una operación binaria que respeta ciertas propiedades.
-reviewed: false
+reviewed: true

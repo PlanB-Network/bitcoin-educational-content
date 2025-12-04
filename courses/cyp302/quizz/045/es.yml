@@ -6,4 +6,4 @@ wrong_answers:
   - El grado del grupo
 explanation: |
   El orden de un grupo es el número total de elementos que contiene.
-reviewed: false
+reviewed: true

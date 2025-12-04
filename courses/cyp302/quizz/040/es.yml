@@ -6,4 +6,4 @@ wrong_answers:
   - La condición de distributividad
 explanation: |
   Un conjunto S con una operación binaria debe satisfacer varias condiciones para formar un grupo, y la primera es la condición de clausura: la operación entre dos elementos de S debe producir un elemento de S.
-reviewed: false
+reviewed: true

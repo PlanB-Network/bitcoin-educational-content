@@ -6,4 +6,4 @@ wrong_answers:
   - Las variables discretas no existen en la criptografía moderna, solo se utilizan variables continuas.
 explanation: |
   Las variables discretas tienen un conjunto finito de resultados, mientras que las variables continuas pueden tomar cualquier valor dentro de un intervalo, como los números reales entre 0 y 1.
-reviewed: false
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - Un método para crear dinero electrónico
 explanation: |
   Criptógrafos británicos, trabajando para GCHQ, desarrollaron de manera independiente ideas similares a las de Diffie y Hellman, pero estos avances permanecieron confidenciales hasta que se revelaron en 1997.
-reviewed: false
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - La información sensible se mezcla en cada bloque del texto cifrado
 explanation: |
   Difusión significa que un pequeño cambio en el texto plano resulta en un cambio significativo en el texto cifrado, dificultando que un atacante pueda deducir el texto plano.
-reviewed: false
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - No permite la autenticación del remitente en el momento de la sesión.
 explanation: |
   Un esquema de cifrado autenticado no protege contra ataques como la repetición, reordenamiento y reflexión sin la adición de indicadores como identificadores y números de secuencia.
-reviewed: false
+reviewed: true

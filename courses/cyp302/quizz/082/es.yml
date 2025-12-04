@@ -6,4 +6,4 @@ wrong_answers:
   - Porque solo cifra mensajes pequeños
 explanation: |
   El cifrado de un solo uso es seguro porque cada bit de la clave es aleatorio y nunca se reutiliza, asegurando que no deja rastros explotables para un atacante.
-reviewed: false
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - 256, 512, 1024 o 2048 bits
 explanation: |
   Los cifrados de bloque procesan datos en bloques de tamaño fijo, típicamente de 64, 128, 192 o 256 bits, para asegurar la seguridad óptima e integridad del cifrado.
-reviewed: false
+reviewed: true

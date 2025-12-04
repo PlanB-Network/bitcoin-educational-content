@@ -6,4 +6,4 @@ wrong_answers:
   - XOR es el inverso de la adición
 explanation: |
   La operación XOR puede verse como una adición de bits con un módulo 2, haciendo que los resultados sean idénticos.
-reviewed: false
+reviewed: true

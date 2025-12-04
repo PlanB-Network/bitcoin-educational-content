@@ -6,4 +6,4 @@ wrong_answers:
   - a mod N
 explanation: |
   El teorema de Euler establece que para dos enteros a y N que son coprimos, la exponenciación a^ϕ(N) mod N siempre es igual a 1 mod N, una propiedad utilizada en criptografía.
-reviewed: false
+reviewed: true 

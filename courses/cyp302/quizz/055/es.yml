@@ -6,4 +6,4 @@ wrong_answers:
   - Se utilizan para hashear mensajes directamente para preservar su integridad
 explanation: |
   En criptografía, los grupos cíclicos, al tener generadores, son esenciales para establecer bases para las claves de cifrado, especialmente en sistemas de clave pública.
-reviewed: false
+reviewed: true

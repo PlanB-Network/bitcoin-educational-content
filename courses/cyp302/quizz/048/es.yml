@@ -6,4 +6,4 @@ wrong_answers:
   - Un inverso
 explanation: |
   Un generador es un elemento en un grupo cíclico que, mediante la exponenciación, puede producir todos los demás elementos del grupo.
-reviewed: false
+reviewed: true

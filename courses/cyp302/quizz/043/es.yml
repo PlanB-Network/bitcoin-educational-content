@@ -6,4 +6,4 @@ wrong_answers:
   - Grupos de números racionales o elementos descritos por números racionales
 explanation: |
   La criptografía utiliza grupos basados en enteros, o elementos descritos por enteros como los puntos en una curva elíptica, para operaciones de cifrado y firma.
-reviewed: false
+reviewed: true

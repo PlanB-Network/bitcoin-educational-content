@@ -6,4 +6,4 @@ wrong_answers:
   - Porque depende de la multiplicación y no de la división.
 explanation: |
   Factorizar un número enorme, el producto de dos grandes números primos, demanda capacidades de cómputo que exceden la capacidad de las computadoras actuales, haciendo esta tarea prácticamente inviable.
-reviewed: false
+reviewed: true

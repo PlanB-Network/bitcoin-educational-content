@@ -6,4 +6,4 @@ wrong_answers:
   - Una encriptación que segmenta el mensaje en bloques de datos
 explanation: |
   Un stream cipher es una encriptación simétrica en la cual un flujo de claves de la misma longitud que el mensaje se combina con este último para producir el texto cifrado.
-reviewed: false
+reviewed: true

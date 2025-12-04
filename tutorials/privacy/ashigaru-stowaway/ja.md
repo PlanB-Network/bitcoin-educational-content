@@ -1,5 +1,5 @@
 ---
-name: 足軽 - 密航者
+name: Ashigaru - Stowaway
 description: 足軽でPayjoin取引をするにはどうすればいいですか？
 ---
 ![cover](assets/cover.webp)

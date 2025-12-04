@@ -1,5 +1,5 @@
 ---
-name: 足軽 - ストーンウォール x2
+name: Ashigaru - Stonewall x2
 description: 足軽におけるストーンウォールx2取引の理解と利用
 ---
 ![cover stonewall x2](assets/cover.webp)

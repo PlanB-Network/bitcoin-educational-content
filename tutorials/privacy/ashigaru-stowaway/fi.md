@@ -1,5 +1,5 @@
 ---
-name: Ashigaru - Salamatkustaja
+name: Ashigaru - Stowaway
 description: Miten teen Payjoin-tilisiirron Ashigarussa?
 ---
 ![cover](assets/cover.webp)

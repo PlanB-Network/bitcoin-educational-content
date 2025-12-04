@@ -1,5 +1,5 @@
 ---
-name: 芦原 - 偷渡者
+name: Ashigaru - Stowaway
 description: 如何在 Ashigaru 上进行 Payjoin 交易？
 ---
 ![cover](assets/cover.webp)

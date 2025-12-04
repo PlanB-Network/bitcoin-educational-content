@@ -1,5 +1,5 @@
 ---
-name: Кали
+name: Kali
 description: Установка Kali Linux в VirtualBox, на загрузочный USB-накопитель или в режиме двойной загрузки - шаг за шагом.
 ---
 

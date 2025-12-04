@@ -1,5 +1,5 @@
 ---
-name: Ashigaru - Blinder Passagier
+name: Ashigaru - Stowaway
 description: Wie führe ich eine Payjoin-Transaktion auf Ashigaru durch?
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: दाना Wallet
+name: Dana Wallet
 description: मौन भुगतान के लिए न्यूनतम पोर्टफोलियो (BIP-352)
 ---
 

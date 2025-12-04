@@ -22,7 +22,8 @@ LANGUAGE_NAMES = {
     'sr-Latn': 'Serbian', 'et': 'Estonian', 'ja': 'Japanese',
     'zh-Hans': 'Chinese (Simplified)', 'zh-Hant': 'Chinese (Traditional)',
     'ko': 'Korean', 'vi': 'Vietnamese', 'hi': 'Hindi', 'id': 'Indonesian',
-    'fa': 'Persian', 'tr': 'Turkish', 'sw': 'Swahili', 'rn': 'Kirundi'
+    'fa': 'Persian', 'tr': 'Turkish', 'sw': 'Swahili', 'rn': 'Kirundi',
+    'bg': 'Bulgarian'
 }
 
 # Excluded contributors from leaderboards

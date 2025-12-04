@@ -2948,7 +2948,7 @@ cargo install rgb-contracts --all-features
 
 The installation compiles a large number of dependencies (e.g. command parsing, Electrum integration, zero-knowledge proofs management, etc.).
 
-Once installation is complete, the: ##### THIS LINE SEEMS TO ME A MISTRANSLATION FROM THE FRENCH?
+Once installation is complete, the:
 
 ```bash
 rgb
@@ -2966,7 +2966,7 @@ When you run the following command, you'll see that an `RGB20` interface is alre
 rgb interfaces
 ```
 
-If this interface is not integrated, clone the: ##### THIS LINE SEEMS TO ME A MISTRANSLATION FROM THE FRENCH?
+If this interface is not integrated, clone the:
 
 ```bash
 git clone https://github.com/RGB-WG/rgb-interfaces
@@ -3106,7 +3106,7 @@ rgb state '<ContractId>'
 
 ### Export, import and validation
 
-To share this contract with other users, it can be exported from the stash to a: #### "file" seems to be missing from french translation
+To share this contract with other users, it can be exported from the stash to a:
 
 ```bash
 rgb export '<ContractId>' myContractPBN.rgb
@@ -3152,7 +3152,7 @@ In most cases, interaction between the participants in a contract (e.g. Alice an
 - **Alice** (the issuer of the invoice);
 - **Bob** (who receives and executes the invoice).
 
-Unlike other ecosystems, an RGB invoice is not limited to the notion of payment. It can embed any request linked to the contract: revoke a key, vote, create an engraving (*engraving*) on an NFT, etc. The corresponding operation can be described in the contract interface. The corresponding operation can be described in the contract interface. ### Duplicated sentence by AI translation
+Unlike other ecosystems, an RGB invoice is not limited to the notion of payment. It can embed any request linked to the contract: revoke a key, vote, create an engraving (*engraving*) on an NFT, etc. The corresponding operation can be described in the contract interface. The corresponding operation can be described in the contract interface.
 
 The following command generates an RGB invoice:
 
@@ -3190,7 +3190,7 @@ It can be transmitted to Bob via any channel (text, QR code, etc.).
 To transfer from this invoice:
 
 
-- Bob (who holds the tokens in his stash) has a Bitcoin wallet. He needs to prepare a Bitcoin transaction (in the form of a PSBT, e.g. `tx.psbt`) which spends the UTXOs where the required RGB tokens are located, plus one UTXO for currency (exchange);  ### INCORRECT TRANSLATION from French (I think). "currency (exchange)" refers to the change amount in a BTC transaction
+- Bob (who holds the tokens in his stash) has a Bitcoin wallet. He needs to prepare a Bitcoin transaction (in the form of a PSBT, e.g. `tx.psbt`) which spends the UTXOs where the required RGB tokens are located, plus one UTXO for currency (exchange);
 - Bob executes the following command:
 
 ```bash
@@ -3309,7 +3309,7 @@ Management of deterministic anchoring in Bitcoin transactions (Tapret, OP_RETURN
 - **Repository**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
 - **Crate**: [commit_verify](https://crates.io/crates/commit_verify)
 
-Multiple engagement combinations and integration with different protocols. ### NOT SURE I GET THE FRENCH AND IF "Multiple engagement combinations" IS CORRECTLY TRANSLATED
+Multiple engagement combinations and integration with different protocols.
 
 #### Strict Types & Strict Encoding
 
@@ -3508,7 +3508,7 @@ All in all, Iris offers a user experience close to that of a classic Bitcoin wal
 
 ### Proxy server and user experience
 
-The proxy server introduced above deserves to be detailed, as it is the key to a smooth user experience. Instead of the sender having to manually transmit the *consignments* to the recipient, the RGB transaction takes place in the background via a: ###### SOME PARTS ARE MISSING IN THE TRANSLATION FROM FRENCH
+The proxy server introduced above deserves to be detailed, as it is the key to a smooth user experience. Instead of the sender having to manually transmit the *consignments* to the recipient, the RGB transaction takes place in the background via a:
 
 
 - The recipient generates an *invoice* (containing, among other things, the proxy address);
@@ -3528,7 +3528,7 @@ Another key focus of the Bitfinex team's work is to make the Lightning Network c
 - Generate Lightning commitment transactions (Bitcoin side) accompanied by corresponding RGB state transitions. Each time the channel is updated, an RGB transition redefines the asset distribution in the Lightning outputs;
 - Enable unilateral closure, where the asset is retrieved in an exclusive UTXO, in compliance with Lightning Network rules (HTLC, timelock, punishment, etc.).
 
-This solution, dubbed "**RGB Lightning Node**", uses LDK (*Lightning Dev Kit*) as a base, and adds the mechanisms needed to inject RGB tokens into the channels. Lightning commitments retain the classic structure (puncturable outputs, timelock...), and in addition anchor an RGB state transition (via `Opret` or `Tapret`). For the user, this opens the way to Lightning channels in stablecoins or in any other asset emitted via RGB. ##### "puncturable outputs" SHOULD PROBABLY BE "punishable outputs"
+This solution, dubbed "**RGB Lightning Node**", uses LDK (*Lightning Dev Kit*) as a base, and adds the mechanisms needed to inject RGB tokens into the channels. Lightning commitments retain the classic structure (puncturable outputs, timelock...), and in addition anchor an RGB state transition (via `Opret` or `Tapret`). For the user, this opens the way to Lightning channels in stablecoins or in any other asset emitted via RGB.
 
 ### DEX potential and impact on Bitcoin
 
@@ -3592,7 +3592,7 @@ The code is still at the alpha stage: we recommend using it in **regtest** or on
 
 ### Node installation
 
-To compile and install the `rgb-lightning-node` binary, we start by cloning the repository and its sub-modules, then we run the: ##### SEEMS INCOMPLETE AFTER TRANSLATION FROM FRENCH
+To compile and install the `rgb-lightning-node` binary, we start by cloning the repository and its sub-modules, then we run the:
 
 ```bash
 git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules --shallow-submodules
@@ -3736,12 +3736,12 @@ rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
 --ldk-peer-listening-port 9737 --network testnet
 ```
 
-By default, if no configuration is found, the daemon will try to use the: ### SEEMS NOT QUITE CORRECTLY TRANSLATED
+By default, if no configuration is found, the daemon will try to use the:
 
 
 - `bitcoind_rpc_host`: `electrum.iriswallet.com`
 - `bitcoind_rpc_port`: `18332`
-- `indexer_url`: `ssl://electrum.iriswallet.com:50013`
+- indexer_url`: `ssl://electrum.iriswallet.com:50013`
 - `proxy_endpoint`: `rpcs://proxy.iriswallet.com/0.2/json-rpc`
 
 With login:
@@ -3770,7 +3770,7 @@ curl -X POST -H "Content-Type: application/json" \
 
 ![RGB-Bitcoin](assets/en/107.webp)
 
-You can, of course, adapt the order. To confirm the transaction, we mine a: ### IS "block" MISSING?
+You can, of course, adapt the order. To confirm the transaction, we mine a:
 
 ```bash
 ./regtest.sh mine 1

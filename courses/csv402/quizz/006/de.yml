@@ -1,9 +1,9 @@
-question: Wo liegt bei RGB die Verpflichtung, wenn ein Einwegverschluss geschlossen wird?
-answer: In der Ausgabe der Transaktion, die den Outpoint
+question: Wo ist bei RGB das Commitment, wenn ein Single-use Seal geschlossen wird?
+answer: Im Output der Transaktion, die den Outpoint ausgibt
 wrong_answers:
-  - Im Eingang der Transaktion, die den Ausgangspunkt
-  - ImSig -Skript der Transaktion, die den Outpoint
-  - Der Zeuge der Transaktion gibt den Ausgangspunkt
+  - Im Input der Transaktion, die den Outpoint ausgibt
+  - Im scriptSig der Transaktion, die den Outpoint ausgibt
+  - In den Zeugen(Witness)-Daten der Transaktion gibt den Outpoint ausgibt
 explanation: |
-  Die Mittelbindung wird in die Ausgabe der Transaktion eingefügt, die den Ausgabepunkt für die Definition des Einweg-Siegels ausgibt.
+  Das Commitment wird in den Output der Transaktion eingefügt, die den Outpoint (aus der Definition des Single-use Seals) ausgibt.
 reviewed: false

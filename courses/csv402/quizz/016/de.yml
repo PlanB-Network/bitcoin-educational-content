@@ -1,9 +1,9 @@
-question: Was sind die beiden Hauptbestandteile eines intelligenten Vertragsstatus in RGB?
-answer: Globaler Staat und eigene Staaten
+question: Was sind die beiden Hauptbestandteile eines Smart Contract Zustands in RGB?
+answer: Global State(s) und Owned State(s)
 wrong_answers:
-  - Engagement und Genese
+  - Commitment und Genesis
   - Siegeldefinition und Zustandsübergang
-  - Wertigkeit und Vertragsrechte
+  - Valenz und Vertragsrechte
 explanation: |
   Der Global State enthält öffentliche Daten, während Owned States über UTXOs mit bestimmten Inhabern verbunden sind.
 reviewed: false

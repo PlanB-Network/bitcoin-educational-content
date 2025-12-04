@@ -2,8 +2,8 @@ question: Wie verhindert RGB Doppelausgaben während eines Zustandsübergangs?
 answer: Schließen eines bestehenden Siegels und Erstellen eines neuen Siegels
 wrong_answers:
   - Durch die Verifizierung aller Transaktionen auf der Blockchain
-  - Durch die Auferlegung von Multisig-Signaturen für jeden Vorgang
+  - Durch das Einfordern von MultiSig-Signaturen für jeden Vorgang
   - Validierung von Global State-Daten
 explanation: |
-  Das Schließen eines Siegels mit einem verbrauchten UTXO beweist, dass ein Übergang einmalig und unwiderruflich ist.
+  Das Schließen eines Siegels mit einem ausgegebenen UTXO beweist, dass ein Übergang einmalig und unwiderruflich ist.
 reviewed: false

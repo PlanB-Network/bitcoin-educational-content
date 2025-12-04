@@ -1,9 +1,9 @@
 question: Welcher Mechanismus in RGB ermöglicht es, mehrere Übergänge in einer einzigen Bitcoin-Transaktion zusammenzufassen?
-answer: Übergangsbündel
+answer: Transition Bundles
 wrong_answers:
   - Siegel-Aggregation
-  - Multi-Commitment-Baum
-  - Staatliche Konsolidierung
+  - Multi-Commitment-Tree
+  - Zustands Konsolidierung
 explanation: |
-  Ein Transitionsbündel ist ein Satz von RGB-Zustandsübergängen (die zum selben Vertrag gehören), die alle in dieselbe Bitcoin-Zeugentransaktion involviert sind.
+  Ein Transition Bundle ist ein Satz von RGB-Zustandsübergängen (die zum selben Vertrag gehören), die alle in dieselbe Bitcoin-Zeugentransaktion involviert sind.
 reviewed: false

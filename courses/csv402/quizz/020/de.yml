@@ -1,4 +1,4 @@
-question: Welches ist das Schlüsselelement, das sicherstellt, dass Bob bei einem Zustandsübergang in RGB eine Anlage erhält?
+question: Welches ist das Schlüsselelement, das sicherstellt, dass Bob bei einem Zustandsübergang in RGB einen Vermögenswert erhält?
 answer: Eine neue Siegeldefinition, die auf Bobs UTXO verweist
 wrong_answers:
   - Eine Kontrolltransaktion ohne Bezug zu einer UTXO

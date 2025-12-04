@@ -1,7 +1,7 @@
 question: Welche Rolle spielt ein Schema in RGB?
-answer: Definition von Vertragsvariablen, Regeln und Geschäftslogik
+answer: Definition von Vertragsvariablen, Regeln und Business Logic
 wrong_answers:
-  - Zwischen den Teilnehmern ausgetauschte Warensendungen lagern
+  - Zwischen den Teilnehmern ausgetauschte Consignments lagern
   - Validierung von Pedersen-Commitments bei Bitcoin-Transaktionen
   - Siegeldefinitionen für jedes UTXO erstellen
 explanation: |

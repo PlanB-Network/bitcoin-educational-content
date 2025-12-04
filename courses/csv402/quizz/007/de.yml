@@ -1,9 +1,9 @@
-question: Wie kann RGB seine Sichtbarkeit minimieren?
-answer: Pfahlwurzel (Tapret)
+question: Wie minimert RGB seine Sichtbarkeit?
+answer: Taproot (Tapret)
 wrong_answers:
   - OP_RETURN (Opret)
   - Sig-Tweak
-  - Optimierung der Tasten
+  - Key-Tweak
 explanation: |
-  Taproot (Tapret) ermöglicht es, Verpflichtungen diskret und effizient in eine Transaktion einzufügen, wobei die Kompatibilität mit den aktuellen Standards gewährleistet ist.
+  Taproot (Tapret) ermöglicht es, Commitments diskret und effizient in eine Transaktion einzufügen, wobei die Kompatibilität mit den aktuellen Standards gewährleistet ist.
 reviewed: false

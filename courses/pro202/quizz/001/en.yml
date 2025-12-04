@@ -1,0 +1,8 @@
+question: What is a finite field F(p) in Bitcoin's cryptographic system?
+answer: An arithmetic system defined by a prime number p, containing elements 0 through p-1
+wrong_answers:
+  - An infinite set of numbers used for generating Bitcoin addresses and keys
+  - A mathematical field containing all real numbers between 0 and p-1 inclusive
+  - A cryptographic hash function that produces outputs of exactly p bits in length
+explanation: |
+  A finite field F(p) is specifically an arithmetic system built around a prime number p that contains exactly p elements: the integers from 0 to p-1. The 'finite' aspect is crucial - it's not infinite, and it's not about real numbers or hash functions. Prime fields ensure every non-zero element has a multiplicative inverse, and all arithmetic operations (addition, subtraction, multiplication) wrap around using modulo p, keeping results within the field. This bounded, predictable structure is essential for Bitcoin's cryptographic security.

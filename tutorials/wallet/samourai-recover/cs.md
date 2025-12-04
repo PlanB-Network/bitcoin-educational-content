@@ -29,10 +29,10 @@ Na druhou stranu, některé nástroje jsou buď ovlivněny vypnutím serveru, ne
 Pokud jde o individuální nástroje pro utrácení, vše funguje normálně, samozřejmě za předpokladu, že máte vlastní Dojo. Normální transakce Stonewall (a ne Stonewall x2) fungují bez jakéhokoli problému.
 
 Komentáře na Twitteru upozornily na to, že soukromí nabízené transakcí Stonewall by nyní mohlo být sníženo. Přidaná hodnota transakce Stonewall spočívá ve skutečnosti, že je z hlediska struktury nerozeznatelná od transakce Stonewall x2. Když analytik narazí na tento konkrétní vzor, nemůže určit, zda jde o standardní Stonewall s jedním uživatelem nebo o Stonewall x2 s účastí dvou uživatelů. Avšak, jak uvidíme v následujících odstavcích, provádění transakcí Stonewall x2 se stalo složitějším kvůli nedostupnosti Sorobanu. Někteří proto myslí, že analytik by nyní mohl předpokládat, že jakákoli transakce s touto strukturou je normální Stonewall. Osobně s tímto předpokladem nesouhlasím. I když mohou být transakce Stonewall x2 méně časté (a myslím, že už před tímto incidentem byly), skutečnost, že jsou stále možné, může zneplatnit celou analýzu založenou na předpokladu, že nejsou.
-**[-> Dozvědět se více o transakcích Stonewall.](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
+**[-> Dozvědět se více o transakcích Stonewall.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 Pokud jde o Ricochet, nebyl jsem schopen ověřit, zda je služba stále funkční, protože nemám Dojo na Testnetu, a raději neriskuji utrácení `100 000 sats` směrem k peněžence, která by mohla být kontrolována úřady. Pokud jste měli nedávno příležitost tento nástroj otestovat, zvu vás, abyste se se mnou spojili, abychom mohli tento článek aktualizovat.
 
-Pokud potřebujete použít Ricochet, mějte na paměti, že tuto operaci můžete vždy provést ručně s jakýmkoli softwarem pro peněženky. Jak správně provést jednotlivé skoky ručně, doporučuji konzultovat tento další článek: [**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
+Pokud potřebujete použít Ricochet, mějte na paměti, že tuto operaci můžete vždy provést ručně s jakýmkoli softwarem pro peněženky. Jak správně provést jednotlivé skoky ručně, doporučuji konzultovat tento další článek: [**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 Nástroj JoinBot již není funkční, jelikož byl zcela závislý na účasti peněženky spravované Samourai.
 
@@ -43,9 +43,9 @@ Pokud jde o další typy spolupracujících transakcí, často označované jako
 Po několika testech se ukázalo, že Soroban již nefunguje. Provedení těchto spolupracujících transakcí tedy musí proběhnout ručně. Zde jsou dvě možnosti, jak provést tuto výměnu:
 - Pokud jste fyzicky blízko svému spolupracovníkovi, můžete postupně skenovat QR kódy.
 - Pokud jste od svého spolupracovníka vzdáleni, můžete si PSBTs vyměňovat prostřednictvím externího komunikačního kanálu aplikace. Buďte ovšem opatrní, protože data obsažená v těchto PSBTs jsou citlivá z hlediska soukromí. Doporučuji použít šifrovanou zprávu, abyste zajistili důvěrnost výměny.
-**[-> Dozvědět se více o transakcích Stonewall x2.](https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
+**[-> Dozvědět se více o transakcích Stonewall x2.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
-**[-> Dozvědět se více o transakcích Stowaway.](https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
+**[-> Dozvědět se více o transakcích Stowaway.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 Co se týče Whirlpool, protokol již zdá se nefunguje, ani pro uživatele, kteří mají vlastní Dojo. Poslední dny jsem sledoval svůj RoninDojo a pokusil se o některé základní manipulace, ale Whirlpool CLI se od vypnutí serveru nepodařilo připojit.
 

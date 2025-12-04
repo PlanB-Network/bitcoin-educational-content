@@ -6,3 +6,4 @@ wrong_answers:
   - Anonymita zajištěná použitím více adres wallet
 explanation: |
   Soukromí Blockchain se týká konkrétně informací, které zveřejňujete při transakcích v blockchainu, což platí pro všechny transakce, které odesíláte a přijímáte. Tím se liší od šifrování wallet (které chrání uložené klíče), zabezpečení internetového připojení (což je soukromí off-chain) nebo mylné představy, že více adres zajišťuje anonymitu. K úniku soukromí v řetězci dochází v důsledku opakovaného použití adres a shlukování, kdy lze transakce propojit a odhalit tak vzorce finančních aktivit uživatelů.
+reviewed: false

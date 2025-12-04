@@ -6,3 +6,4 @@ wrong_answers:
   - Sistem u kojem transakcije ne mogu biti poništene ili osporene od strane bilo koga
 explanation: |
   Trustless se posebno odnosi na tehničku osobinu gde distribuirani sistem može ispravno funkcionisati bez potrebe za bilo kakvim pouzdanim stranama. Ovo se razlikuje od eliminisanja svakog poverenja (i dalje verujete svom softveru/hardveru) ili sprečavanja poništavanja (Bitcoin transakcije se mogu poništiti kroz prepisivanje lanca). Termin takođe ne znači da korisnici ne mogu verovati učesnicima - već da ispravnost sistema ne zavisi od poverenja u njih.
+reviewed: false

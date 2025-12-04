@@ -10,8 +10,6 @@ description: Mfumo wa uendeshaji wa simu unaolenga usalama na faragha unaotegeme
 GrapheneOS, iliyoanzishwa mwaka wa 2014 kama 'CopperheadOS' inategemea Kanuni ya jadi ya Android (AOSP), lakini ikiwa na mabadiliko mengi na maboresho yanayolenga kuboresha faragha na usalama wa mtumiaji. GrapheneOS huweka mtumiaji udhibiti wa simu zao, si makampuni makubwa ya teknolojia.
 
 
-![video](https://youtu.be/VnumtalYLFI)
-
 ### Sommaire:
 
 
@@ -32,7 +30,7 @@ GrapheneOS, iliyoanzishwa mwaka wa 2014 kama 'CopperheadOS' inategemea Kanuni ya
 
 Simu za kisasa ni $500-$1000 kufuatilia na kuvuna data. Kila sehemu ya maisha yetu hupitia mambo hayo, na kwa bahati mbaya data hii nyingi hushirikiwa na washirika wengine kwa namna fulani.
 
-GrapheneOS imeundwa mahususi ili kupunguza ushiriki huu wa data na kuboresha usalama wa kifaa chako kutoka kwa vekta zinazoweza kushambulia. Hakuna kitu kama akaunti ya GrapheneOS. Huhitaji moja kupakua programu au kuingiliana na Mfumo wa Uendeshaji. Kwa ufupi, wewe sio bidhaa.
+GrapheneOS imeundwa mahsusi ili kupunguza kushirikiana kwa data na kuongeza usalama wa kifaa chako dhidi ya mashambulizi yanayoweza kutokea. Hakuna kitu kinachoitwa akaunti ya GrapheneOS. Huhitaji akaunti yoyote ili kupakua programu au kutumia Mfumo wa Uendeshaji. Kwa maneno mengine, hutumiki kama bidhaa.
 
 
 GrapheneOS hutoa usalama zaidi kwa matumizi yako ya Android kupitia baadhi ya kanuni rahisi za msingi.
@@ -40,12 +38,12 @@ GrapheneOS hutoa usalama zaidi kwa matumizi yako ya Android kupitia baadhi ya ka
 
 1. **Kupunguza uso wa mashambulizi** - Ondoa msimbo usio wa lazima (au bloatware).
 
-2. **Uzuiaji wa kuathiriwa** - Ruhusu mtumiaji uzito wa kutosha kuchagua maelewano ambayo anastarehekea.
+2. **Uzuiaji wa kuathiriwa** -Unamruhusu mtumiaji kuchagua kiwango cha ulinzi na maelewano (trade-off) anayojisikia salama nacho.
 
-3. **Kizuizi cha kisanduku cha mchanga** - GrapheneOS huimarisha visanduku vya mchanga vya Android vilivyopo, ikizuia zaidi uwezo wa kila programu kuwasiliana na simu yako yote.
+3. **Sandbox hardening** – GrapheneOS huimarisha sandbox zilizopo za Android, na hivyo kupunguza zaidi uwezo wa kila programu kuwasiliana na mfumo mzima wa simu yako.
 
 
-Pata maelezo zaidi kuhusu maelezo ya kiufundi ya seti ya kipengele cha GrapheneOS [hapa](https://grapheneos.org/features).
+Pata maelezo zaidi kuhusu maelezo ya kiufundi ya seti ya element ya GrapheneOS [hapa](https://grapheneos.org/features).
 
 
 ### Kurahisisha Mpito
@@ -194,7 +192,7 @@ Nenda kwenye **Mipangilio** > **Betri**, kisha uwashe **Onyesha asilimia ya betr
 **Kutoka kwa simu nyingine ya Android** - Nenda kwa programu ya Anwani na utafute chaguo la Hamisha hadi VCF.
 
 
-**Kutoka kwa iOS** - Tumia programu kama vile Hamisha Anwani na utumie chaguo la kuhamisha la 'vCard' ili kuhamisha faili ya VCF.
+**Kutoka kwa iOS** - Tumia programu kama vile Transfer address na utumie chaguo la kuhamisha la 'vCard' ili kuhamisha faili ya VCF.
 
 Pindi tu unapokuwa na faili ya VCF, unaweza kuhamisha hadi kwenye kifaa chako cha GrapheneOS na chaguo la hifadhi ya nje kama vile kadi ya microSD au hifadhi ya USB. Ikiwa huna hizo za kukabidhi, unaweza kuchagua kushiriki kupitia mojawapo ya programu nyingi zilizoorodheshwa hapa chini.
 
@@ -212,7 +210,7 @@ Skrini ya nyumbani iliyobinafsishwa
 Ili kufanya simu yako kuwa muhimu, utataka kusakinisha baadhi ya programu! Chaguo zinazofuata zimejumuishwa kwa sababu nimezitumia zote kibinafsi au kwa sababu zinapokea mapendekezo dhabiti kutoka kwa jumuiya pana ya faragha. Kuna njia mbadala nyingi zinazopatikana ambazo hazijatajwa, na [Faragha ya Kushangaza](https://awesome-privacy.xyz) inatoa orodha pana sana ya kuhifadhi ufaragha kwa kila aina ya kifaa.
 
 
-Kwa sababu tu programu ni Programu Huria na Huria (FOSS) haimaanishi kuwa haina uvujaji wa faragha. Tumia [Kutoka](https://reports.exodus-privacy.eu.org/en/) kuona jinsi programu unazopendelea zinavyofanya kazi dhidi ya ukaguzi wao wa faragha.
+Kwa sababu tu programu ni Free and Open Source Softwaren (FOSS) haimaanishi kuwa haina uvujaji wa faragha. Tumia [Kutoka](https://reports.exodus-privacy.eu.org/en/) kuona jinsi programu unazopendelea zinavyofanya kazi dhidi ya ukaguzi wao wa faragha.
 
 
 ### F-Droid
@@ -233,7 +231,7 @@ Pamoja na programu zinazopatikana ndani ya hazina chaguomsingi katika F-Droid, m
 Skrini ya nyumbani ya F-Droid
 
 
-https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 ### Duka la Aurora
 
@@ -241,7 +239,7 @@ https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c0
 [Aurora Store](https://auroraoss.com/) ni toleo la FOSS la Google Play Store. Aurora inaonekana na inafanana sana na Google Play Store na hukuruhusu kupakua na kusasisha programu yoyote ambayo kwa kawaida utapata kupitia chaguo la Google.
 
 
-Kipengele kikuu cha Aurora ni ingia katika akaunti bila kukutambulisha. Hii ina maana kwamba unaweza kupakua programu zozote uzipendazo ambazo hazipatikani kupitia F-Droid au APK ya moja kwa moja, bila kuhitaji kuingia katika akaunti yako ya Google.
+Kipengele kikuu cha Aurora ni uwezo wa kuingia bila kujitambulisha. Hii inamaanisha unaweza kupakua programu unazotaka ambazo hazipatikani kupitia F-Droid au APK ya moja kwa moja, bila kuhitaji kuingia kwenye akaunti yako ya Google.
 
 
 Kabla ya kuharakisha kufanya chaguo hili chaguomsingi la kusakinisha, kumbuka kwamba programu nyingi tunazojaribu kuepuka zilisakinishwa kutoka kwenye Play Store. Kwa sababu tu zinapatikana kutoka Aurora haibadilishi ukweli kwamba baadhi wanaweza kuwa na vipengele vya ufuatiliaji vilivyopachikwa. Haitawezekana kila wakati, lakini wakati wowote unaweza, tafuta mbadala wa F-Droid kabla ya kupakua kupitia Aurora.
@@ -263,7 +261,7 @@ Aurora pia haina vibebaji vya ushambuliaji vinavyowezekana, kwani "akaunti zisiz
 Skrini ya kwanza ya Duka la Aurora
 
 
-https://planb.academy/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
 
 ### Upakuaji wa APK
 
@@ -277,7 +275,7 @@ Upande mbaya wa mbinu hii ni kwamba hupati masasisho ya kiotomatiki, kwa hivyo u
 ![image](assets/fr/7.webp)
 
 
-Obtanium hakikisho
+Hakikisho la Obtanium 
 
 
 ### Programu za Wavuti
@@ -286,7 +284,7 @@ Obtanium hakikisho
 Kwa nyakati ambapo unaweza kutaka kutumia huduma mara chache na hutaki kupakua programu asili, unaweza kufikia toleo la wavuti kwa urahisi. Tovuti nyingi siku hizi pia hutoa usaidizi wa Progressive Web App (PWA). Hapa ndipo unaweza kualamisha tovuti maalum (km Twitter.com) kwenye skrini ya nyumbani ya simu yako. Kisha unapogonga ikoni inafunguka kama programu tumizi ya skrini nzima bila visumbufu vya kawaida vinavyokuja na matumizi ya kawaida ya kivinjari. Unaweza kuona mfano wa jinsi hii inaonekana hapa chini.
 
 
-Ili kufanikisha hili katika Vanadium, kivinjari asili cha GrapheneOS, nenda kwenye tovuti ya chaguo lako, gusa nukta tatu wima kwenye kona ya juu kulia ya skrini kisha uguse **'Ongeza kwenye Skrini ya Nyumbani'**.
+Ili kufanikisha hili katika Vanadium, kivinjari asili cha GrapheneOS, nenda kwenye tovuti ya chaguo lako, gusa nukta tatu wima kwenye kona ya juu kulia ya skrini kisha uguse **'Ongeza kwenye home screen'**.
 
 
 Upande wa pekee wa mbinu hii ni kwamba kwa sababu huu ni ukurasa wa wavuti ulioalamishwa tu, hutapata arifa za aina yoyote. Ingawa wengine wanaweza kuona hilo kama jambo chanya!
@@ -310,7 +308,7 @@ Kwa nyakati ambazo unahitaji kufikia tovuti asili za Tor `.onion`, unaweza kupak
 ### VPN
 
 
-Ili kulinda shughuli zako za mtandaoni dhidi ya mtoa huduma wako wa mtandaoni (ISP), programu ya Mtandao wa Kibinafsi wa Kibinafsi (VPN) ni chaguo nzuri. VPN hutuma trafiki yako ya mtandao katika handaki iliyosimbwa kwa IP Address iliyoshirikiwa inayodhibitiwa na mtoa huduma wa VPN ili kuhakikisha kuwa shughuli za kifaa chako haziwezi kuunganishwa nawe.
+Ili kulinda shughuli zako za mtandaoni dhidi ya mtoa huduma wako wa mtandaoni "Internet service providers" (ISP), programu ya Mtandao wa Kibinafsi wa Kibinafsi (VPN) ni chaguo nzuri. VPN hutuma trafiki yako ya mtandao katika handaki iliyosimbwa kwa IP Address iliyoshirikiwa inayodhibitiwa na mtoa huduma wa VPN ili kuhakikisha kuwa shughuli za kifaa chako haziwezi kuunganishwa nawe.
 
 
 Hapa kuna chaguo mbili zinazotambulika zinazokuwezesha kulipia huduma kwa Bitcoin bila kutoa taarifa yoyote ya kibinafsi. Zote mbili zinapatikana kwenye F-Droid.
@@ -319,9 +317,9 @@ Hapa kuna chaguo mbili zinazotambulika zinazokuwezesha kulipia huduma kwa Bitcoi
 
 
 
-https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### Kutuma ujumbe
 
@@ -333,10 +331,10 @@ Watu wengi ambao hawapendezwi na nafasi ya faragha wana uwezekano wa kutumia Wha
 
 
 
-- [Signal](https://signal.org/) ni mojawapo ya wajumbe maarufu zaidi waliosimbwa kutoka mwisho hadi mwisho (E2EE) ambao wana rekodi nzuri ya wimbo na seti nyingi za vipengele. Mawimbi inahitaji nambari ya simu ili kujisajili, kwa hivyo ikiwa unapanga kuzungumza na watu ambao hungependa kujua nambari yako ya simu, labda angalia baadhi ya njia mbadala. Ni lazima mawimbi ipakuliwe kupitia Aurora Store.
+- [Signal](https://signal.org/) ni mojawapo ya wajumbe maarufu zaidi waliosimbwa kutoka mwisho hadi mwisho (E2EE) ambao wana rekodi nzuri ya wimbo na seti nyingi za vipengele. signals zinahitaji nambari ya simu ili kujisajili, kwa hivyo ikiwa unapanga kuzungumza na watu ambao hungependa kujua nambari yako ya simu, labda angalia baadhi ya njia mbadala. Ni lazima signals zipakuliwe kupitia Aurora Store.
 - [Simplex](https://f-droid.org/en/packages/chat.simplex.app/) ni mjumbe mpya kabisa wa E2EE. Haina kitambulisho cha mtumiaji, haihitaji nambari ya simu au maelezo ya kibinafsi. Watu wanakupata kwa kuchanganua msimbo wako wa kibinafsi wa QR au kwa kutembelea kiungo chako cha kipekee. Simplex pia inaruhusu watumiaji wa hali ya juu kuendesha seva yao wenyewe ili kupunguza zaidi utegemezi wa chombo chochote cha kati. Simplex haina kiteja cha eneo-kazi, kwa hivyo huenda isifae ikiwa vifaa vingi viko kwenye orodha yako ya kipaumbele. Simplex kwa Android inapatikana kupitia F-Droid.
 - [Threema](https://threema.ch/en/faq/libre_installation) inatoa matumizi sawa na Simplex, lakini imekuwapo kwa muda mrefu na kwa hivyo, inahisi kung'olewa zaidi. Threema si bure, leseni ya maisha yote inagharimu $4.99 na inaweza kununuliwa kwa Bitcoin. Threema inatoa mteja wa wavuti na programu asilia za eneo-kazi. Programu ya Android inapatikana kupitia F-Droid.
-- [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) ni FOSS Fork isiyo rasmi ya programu rasmi ya Telegram ya Android. Telegramu ina 'soga za siri' za E2EE, lakini chaguo-msingi si la faragha. Telegramu FOSS inaweza kupakuliwa kutoka F-Droid.
+- [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) ni FOSS Fork isiyo rasmi ya programu rasmi ya Telegram ya Android. Telegram ina 'private chats' za E2EE, lakini chaguo-msingi si la faragha. Telegram FOSS inaweza kupakuliwa kutoka F-Droid.
 
 
 ![image](assets/fr/9.webp)
@@ -344,24 +342,24 @@ Watu wengi ambao hawapendezwi na nafasi ya faragha wana uwezekano wa kutumia Wha
 Kushoto: Threema, Kulia: Simplex
 
 
-https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
-https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
-https://planb.academy/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
 
-https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
-https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 ### Vyombo vya habari
 
 
 
-- [Spotube](https://f-droid.org/packages/oss.krtirtho.spotube/) ni kiteja cha Spotify ambacho hakiitaji akaunti ya Premium. Spotube inapatikana kupitia F-Droid.
+- [Spotube](https://f-droid.org/packages/oss.krtirtho.spotube/) ni client wa Spotify ambayo haitaji akaunti ya Premium. Spotube inapatikana kupitia F-Droid.
 - [ViMusic](https://f-droid.org/en/packages/it.vfsfitvnm.vimusic/) ni programu nzuri ya kuanika muziki wowote kutoka kwa muziki wa YouTube, bila malipo. ViMusic inapatikana kutoka F-Droid.
 - [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/) inatoa matumizi ya YouTube bila matangazo ya kuudhi na ruhusa zinazotiliwa shaka. Ukiwa na NewPipe unaweza kujiandikisha kwa vituo, kusikiliza chinichini na hata kupakua ili kutazamwa nje ya mtandao. NewPipe inapatikana kupitia F-Droid.
-- [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) ni kicheza podikasti kinachokuruhusu kujisajili na kudhibiti vipindi vyako vyote unavyovipenda. AntennaPod inapatikana kupitia F-Droid.
+- [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) ni kicheza podcast kinachokuruhusu kujisajili na kudhibiti vipindi vyako vyote unavyovipenda. AntennaPod inapatikana kupitia F-Droid.
 
 
 ![image](assets/fr/11.webp)
@@ -369,21 +367,21 @@ https://planb.academy/tutorials/computer-security/communication/threema-24382d25
 Kushoto: Spotube, Kulia: ViMusic
 
 
-### Ramani
+### Ramani 
 
 
 Iwapo unataka usaidizi wa kutamka unapoendesha gari na kutumia programu ya ramani katika GrapheneOS, utahitaji kusakinisha [RHVoice](https://rhvoice.org/installation/) na [configure](https://discuss.grapheneos.org/d/2488-organic-maps-app-voice-instructions-are-not-available)
 
 
 
-- [Magic Earth](https://www.magicearth.com/) ni njia mbadala ya ramani inayoauni urambazaji wa hatua kwa hatua, 3D na ramani za nje ya mtandao. Dunia ya Uchawi inaweza kupakuliwa kutoka Hifadhi ya Aurora.
+- [Magic Earth](https://www.magicearth.com/) ni njia mbadala ya ramani inayoauni urambazaji wa hatua kwa hatua, 3D na ramani za nje ya mtandao. Magic Earth inaweza kupakuliwa kutoka Hifadhi ya Aurora.
 - [Ramani za Kikaboni](https://f-droid.org/en/packages/app.organicmaps/) ni mbadala wa ramani kwa wasafiri, watalii, wapanda baiskeli na wapanda baiskeli kulingana na data ya OpenStreetMap iliyoletwa na umati. Ni programu ya Fork inayolenga faragha, chanzo huria ya Maps.me (hapo awali ilijulikana kama MapsWithMe). Inaauni 100% ya vipengele bila muunganisho unaotumika wa Intaneti na inaweza kupakuliwa kutoka F-Droid.
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) ni mbadala nyingine bora ya ramani inayoauni vipengele vyote vilivyotajwa hapo juu.
 
 
 ![image](assets/fr/13.webp)
 
-Kushoto: Dunia ya Uchawi, Kulia: Ramani za Kikaboni
+Kushoto: Magic Earth, Kulia: Ramani za Kikaboni
 
 
 ### Barua pepe
@@ -421,15 +419,15 @@ Kushoto: Notesnook, Kulia: KDE Connect
 
 
 
-- [Hali ya hewa ya kijiometri](https://f-droid.org/en/packages/wangdaye.com.geometricweather/) ni programu iliyoundwa kwa uzuri ya Open Source inayopatikana kupitia F-Droid. Pia inaweza kutumia saizi tofauti za wijeti ili uweze kuona hali ya hewa katika eneo ulilochagua moja kwa moja kutoka skrini yako ya nyumbani.
+- [Geometric Weather](https://f-droid.org/en/packages/wangdaye.com.geometricweather/) ni programu iliyoundwa kwa uzuri ya Open Source inayopatikana kupitia F-Droid. Pia inaweza kutumia saizi tofauti za wijeti ili uweze kuona hali ya hewa katika eneo ulilochagua moja kwa moja kutoka skrini yako ya nyumbani.
 - [Translate You](https://f-droid.org/packages/com.bnyro.translate/) ni Chanzo Huria na programu ya utafsiri inayohifadhi faragha ambayo inatumia zaidi ya lugha 200. Translate You inapatikana kupitia F-Droid.
-- [Kalenda ya Protoni](https://proton.me/calendar/download) ni rahisi kutumia E2EE ambayo huwasiliana kwa urahisi na akaunti zako za barua pepe za Proton. Kalenda ya Protoni inaweza kupakuliwa kama APK au kupitia duka la Aurora.
+- [Proton calendar](https://proton.me/calendar/download) ni rahisi kutumia E2EE ambayo huwasiliana kwa urahisi na akaunti zako za barua pepe za Proton. Proton Calendar inaweza kupakuliwa kama APK au kupitia duka la Aurora.
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) ni programu ya kuonyesha na kuhifadhi pasi za kuabiri, kuponi, tikiti za filamu na kadi za uanachama n.k. Pakua kwa urahisi `pkpass` au faili `espass` husika na ufungue kwa programu. PassAndroid inapatikana kupitia F-Droid.
 
 
 ![image](assets/fr/19.webp)
 
-Kushoto: Hali ya Hewa ya Kijiometri, Kulia: Kalenda ya Protoni
+Kushoto: Geometric Weather, Kulia: Proton Calendar
 
 
 ### Usalama/Faragha
@@ -438,8 +436,8 @@ Kushoto: Hali ya Hewa ya Kijiometri, Kulia: Kalenda ya Protoni
 
 - [Bitwarden](https://mobileapp.bitwarden.com/fdroid/) hutoa suluhisho la kidhibiti nenosiri la mfumo tofauti la E2EE bila malipo kwa vifaa vyako vyote. Huduma yao ya kulipia hukuruhusu kujumuisha misimbo ya 2FA kwenye programu. Upande wa seva ya Bitwarden unaweza kujipangisha mwenyewe na programu ya Android inapatikana kupitia F-Droid.
 - [Proton Pass](https://proton.me/pass/download) inatoa huduma sawa bila malipo kwa Bitwarden, lakini wateja wa [Proton Unlimited](https://proton.me/pricing) wanaweza kufikia vipengele vya juu zaidi. Proton Pass inapatikana kupitia APK au Aurora.
-- [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) ni programu ya uthibitishaji wa vipengele viwili kwa mifumo inayotumia itifaki za nenosiri za wakati mmoja. Tokeni zinaweza kuongezwa kwa urahisi kwa kuchanganua msimbo wa QR. FreeOTP inapatikana kupitia F-Droid.
-- [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) ni programu isiyolipishwa, salama na ya Open Source ya Android ili kudhibiti tokeni zako za uthibitishaji wa hatua 2 za huduma zako za mtandaoni. Aegis inapatikana kupitia F-Droid.
+- [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) ni programu ya Two-Factor Authentication kwa mifumo inayotumia protocols za nenosiri za wakati mmoja. Tokeni zinaweza kuongezwa kwa urahisi kwa kuchanganua msimbo wa QR. FreeOTP inapatikana kupitia F-Droid.
+- [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) ni programu isiyolipishwa, salama na ya Open Source ya Android ili kudhibiti tokeni zako za 2FA za huduma zako za mtandaoni. Aegis inapatikana kupitia F-Droid.
 - [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) ni huduma ya mfumo tofauti inayolipishwa ambayo husimba data yako ndani ya nchi kwa njia fiche ili uweze kuipakia kwa usalama kwenye huduma yako ya wingu uipendayo. Cryptomator inaweza kupakuliwa kupitia F-Droid.
 
 
@@ -449,30 +447,30 @@ Kushoto: Proton Pass,
 Kulia: Bitwarden
 
 
-https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 
-https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
 
-https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
-### Ufumbuzi wa Wingu
+### Ufumbuzi wa cloud 
 
 
 
-- [Proton Drive](https://proton.me/drive/download) ni suluhisho la wingu la E2EE linalolipwa kwa kuhifadhi nakala na kuhifadhi faili zako zote. Wakati wa kuandika, wametangaza tu mteja wa eneo-kazi la Windows, lakini watumiaji wa Mac na Linux lazima waendelee kutumia toleo la wavuti kusawazisha kutoka kwa kompyuta zao (kwa sasa). Kiteja cha Android kinapatikana kama APK au kupitia Aurora.
-- [Skiff](https://skiff.com/download) pia hutoa hifadhi ya wingu ya E2EE inayolipishwa na zana za kushirikiana za faili. Wanatoa mteja wa eneo-kazi la Mac na Windows (pamoja na programu ya wavuti) na wateja wao wa Android lazima wapakuliwe kutoka Aurora.
-- [Nextcloud](https://f-droid.org/en/packages/com.nextcloud.client/) inatoa suluhu inayoangaziwa kikamilifu inayotegemea wingu kwa ajili ya ushirikiano, usawazishaji wa vifaa mbalimbali na kuhifadhi faili. Watumiaji mahiri zaidi wanaweza kuchagua kupangisha programu yao ya Bila Malipo na Open Source kwenye maunzi yoyote wanayopenda. Wateja wa Android wanaweza kupakuliwa kupitia F-Droid.
+- [Proton Drive](https://proton.me/drive/download) ni suluhisho la cloud la E2EE linalolipwa kwa kuhifadhi nakala na kuhifadhi faili zako zote. Wakati wa kuandika, wametangaza tu mteja wa eneo-kazi la Windows, lakini watumiaji wa Mac na Linux lazima waendelee kutumia toleo la wavuti kusawazisha kutoka kwa kompyuta zao (kwa sasa). Kiteja cha Android kinapatikana kama APK au kupitia Aurora.
+- [Skiff](https://skiff.com/download) pia hutoa hifadhi ya cloud ya E2EE inayolipishwa na zana za kushirikiana za faili. Wanatoa mteja wa eneo-kazi la Mac na Windows (pamoja na programu ya wavuti) na wateja wao wa Android lazima wapakuliwe kutoka Aurora.
+- [Nextcloud](https://f-droid.org/en/packages/com.nextcloud.client/) inatoa suluhu inayoangaziwa kikamilifu inayotegemea cloud kwa ajili ya ushirikiano, usawazishaji wa vifaa mbalimbali na kuhifadhi faili. Watumiaji mahiri zaidi wanaweza kuchagua kupangisha programu yao ya Bila Malipo na Open Source kwenye maunzi yoyote wanayopenda. Wateja wa Android wanaweza kupakuliwa kupitia F-Droid.
 - [Cryptpad](https://cryptpad.fr/) inatoa mbadala wa Hati za Google bila malipo, msingi wa wavuti, E2EE.
 
 
 ![image](assets/fr/23.webp)
 
-Hifadhi ya Protoni
+Proton Drive
 
 
-https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 ## Mapungufu
 
@@ -515,7 +513,7 @@ Skrini ya kusakinisha ya Huduma za Google Play
 
 GrapheneOS hukuruhusu kuwa na matumizi tofauti ya simu, ndani ya simu yako. Wasifu wa ziada unaweza kusakinisha programu na huduma zao na hauwezi kufikia faili au data yoyote kutoka kwa akaunti ya mmiliki.
 
-Iwapo una programu moja au mbili tu kati ya hizo ni lazima uwe na programu zinazohitaji Huduma za Google Play, lakini hutumiwa mara chache sana, kusakinisha hizo kando ya Huduma za Google Play katika wasifu tofauti kunaweza kuwa jambo zuri kuimarisha zaidi dakika zozote za athari za faragha zinazoachwa kwa kuzifanya ziendeshwe katika wasifu wa mmiliki.
+Iwapo una programu moja au mbili tu kati ya hizo zinazohitaji Google Play Services, lakini hutumika mara chache sana, kuzisakinisha kando na Google Play Services katika wasifu tofauti kunaweza kuwa wazo zuri ili kupunguza zaidi athari za faragha, kwa sababu zitakuwa zinaendeshwa tu kwenye wasifu wa mmiliki.
 
 
 Unaweza kusoma zaidi kuhusu kesi hii ya utumiaji [hapa]( https://discuss.grapheneos.org/d/168-ideas-for-user-profiles/2).
@@ -547,7 +545,7 @@ Huduma za Google Play za Sandbox lazima zisakinishwe kwa utoaji wa eSIM katika G
 Baada ya kupata usanidi mpya wa simu yako ya Pixel isiyokuwa ya Google, ni vyema ujiundie nakala rudufu. Nakala hii itakuwezesha kurejesha simu katika hali sawa endapo utapoteza simu yako au itapotea/kuibiwa.
 
 
-Unaweza kuchagua kuhifadhi faili ya chelezo kwenye media yoyote ya uhifadhi wa nje, au kwa suluhisho la wingu linalojiendesha kama Nextcloud, ingawa watumiaji wengine huripoti viwango tofauti vya mafanikio na chaguo la mwisho.
+Unaweza kuchagua kuhifadhi faili ya chelezo kwenye media yoyote ya uhifadhi wa nje, au kwa suluhisho la cloud linalojiendesha kama Nextcloud, ingawa watumiaji wengine huripoti viwango tofauti vya mafanikio na chaguo la mwisho.
 
 
 Ili kuunda nakala yako ya kwanza:
@@ -595,7 +593,7 @@ Ikiwa wewe ni mtumiaji aliyepo wa GrapheneOS, au uwe mtumiaji mmoja kutokana na 
 ### Jifunze zaidi
 
 
-GrapheneOS ni shimo la sungura mtu yeyote anaweza kutumia kwa urahisi wiki kwenda chini. Kuna mengi tu unayoweza kujifunza na kufikiria ili kurekebisha uzoefu kulingana na mahitaji yako na mifano ya vitisho. Vifuatavyo ni baadhi ya viungo ambavyo unaweza kuendelea na safari yako:
+GrapheneOS ni mada yenye kina ambayo mtu yeyote anaweza kuchunguza kwa urahisi kwa wiki kadhaa. Kuna mengi ya kujifunza na kuzingatia ili kuurekebisha uzoefu kulingana na mahitaji yako na hali za vitisho. Hapa chini kuna baadhi ya viungo utakavyoweza kuendelea navyo katika safari yako:
 
 
 

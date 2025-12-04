@@ -1,9 +1,9 @@
-question: Umbrel 上有哪两种 Lightning Network 实现？
-answer: LND 和核心闪电
+question: Umbrel 上有哪两种闪电网络实现？
+answer: LND 和 Core Lightning
 wrong_answers:
-  - 电极和支点
-  - Bitcoin core 和 Bitcoin Knots
-  - 乘风破浪和雷电枢纽
+  - Electrs 和 Fulcrum
+  - Bitcoin Core 和 Bitcoin Knots
+  - Ride The Lightning 和 ThunderHub
 explanation: |
-  Umbrel 可让您选择 LND 和 Core Lightning 作为 Lightning Network 的实现。
+  Umbrel 可让您选择 LND 和 Core Lightning 作为闪电网路的实现。
 reviewed: true

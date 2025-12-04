@@ -6,3 +6,4 @@ wrong_answers:
   - De riskerar att skapa double-spend-attacker eftersom de inte kan verifiera att inkommande transaktioner är legitima
 explanation: |
   När gruvarbetare använder sig av valideringsfri mining kontrollerar de endast proof-of-work i blockhuvudet och startar omedelbart mining ovanpå det samtidigt som de laddar ner och validerar hela blocket parallellt. Den kritiska risken är att de kanske bygger på ett ogiltigt block, vilket innebär att deras beräkningsansträngning slösas bort på en blockkedjegren som kommer att avvisas när det ogiltiga blocket upptäcks. Detta undergräver nätverkssäkerheten eftersom en del av mining-kraften inte bidrar till den starkaste giltiga kedjan, vilket är Bitcoin:s grundläggande säkerhetsmekanism.
+reviewed: false

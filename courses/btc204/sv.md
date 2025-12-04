@@ -3587,7 +3587,7 @@ Efter gripandet av Samourais grundare är dessa verktyg tyvärr inte längre i d
 Nu när vi har täckt coinjoins i detalj kommer vi att titta på de andra sekretessteknikerna som finns tillgängliga på Bitcoin i det sista avsnittet av vår kurs. Vi kommer att titta på payjoins, specifika pseudo-CoinJoin-transaktionstyper, statiska Address-protokoll samt åtgärder för att förstärka sekretessen inte på transaktionsnivån utan på nivån för nätverket av noder.
 
 
-https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # Förstå utmaningarna med andra avancerade sekretesstekniker
 

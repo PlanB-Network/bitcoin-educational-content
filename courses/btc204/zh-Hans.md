@@ -2545,7 +2545,7 @@ $$
 
 既然我们已经详细介绍了 Cooinjoins，我们将在课程的最后一节了解比特币上的其他隐私保护技术。我们将学习支付连接、特定的伪比特币连接交易类型、静态地址协议，以及不是在交易本身层面，而是在节点网络层面加强保密性的措施。
 
-https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # 了解其他先进保密技术的挑战
 

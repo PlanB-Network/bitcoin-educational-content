@@ -6,3 +6,4 @@ wrong_answers:
   - Falsche Münzausgabeschemata, die gegen das Protokoll verstoßen
 explanation: |
   Ein full node kann zwar überprüfen, ob Blöcke den Konsensregeln folgen, die Ausgabe ungültiger Münzen verhindern und Protokollverletzungen aufdecken, aber es kann nicht verhindern, dass die Kette umgeschrieben wird, wenn Schürfer die Blockchain umorganisieren, um Transaktionen doppelt auszugeben. In dem Kapitel wird ausdrücklich darauf hingewiesen, dass Sie unabhängig davon, wie fortschrittlich Ihre Software ist, darauf vertrauen müssen, dass Blöcke, die Ihre Münzen enthalten, nicht umgeschrieben werden. Aus diesem Grund beruht der Verteidigungsmechanismus von Bitcoin auf dem Warten auf mehrere Bestätigungen, um die Wahrscheinlichkeit einer Kettenumschreibung auf ein akzeptables Niveau zu reduzieren.
+reviewed: false

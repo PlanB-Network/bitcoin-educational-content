@@ -1,0 +1,9 @@
+question: Кое приложение на Umbrel ви позволява да управлявате възела Lightning с усъвършенстван Interface?
+answer: Язди мълнията
+wrong_answers:
+  - BTCPay Lightning
+  - Nostr Relay
+  - Bitfeed
+explanation: |
+  Ride The Lightning и ThunderHub предлагат пълен уеб базиран Interface за администриране на възел Lightning.
+reviewed: true

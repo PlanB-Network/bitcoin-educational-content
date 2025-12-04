@@ -4842,18 +4842,18 @@ Um alle in einer Datei enthaltenen Metadaten anzuzeigen, verwende den folgenden 
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-Ersetze "Name.jpg" durch den richtigen Namen deiner Datei. Stelle ausserdem sicher, dass du dich in dem Verzeichnis befindest, das dieses Bild enthält. Wenn ich zum Beispiel ein Foto der Satoshi Nakamoto-Statue im Verzeichnis `/Downloads` habe, kann ich die Metadaten mit dem folgenden Befehl anzeigen:
+Ersetze "Name.webp" durch den richtigen Namen deiner Datei. Stelle ausserdem sicher, dass du dich in dem Verzeichnis befindest, das dieses Bild enthält. Wenn ich zum Beispiel ein Foto der Satoshi Nakamoto-Statue im Verzeichnis `/Downloads` habe, kann ich die Metadaten mit dem folgenden Befehl anzeigen:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4890,7 +4890,7 @@ Um alle unnötigen Metadaten aus einer Datei zu löschen, verwende folgenden Bef
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -4912,7 +4912,7 @@ Wenn du das Original nicht behalten willst, kannst du es mit folgendem Befehl l�
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -4936,12 +4936,12 @@ Wenn du mehrere Dateien im selben Verzeichnis zu verarbeiten hast, kannst du ein
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-Dies löscht die Metadaten aller JPEG-Dateien im aktuellen Verzeichnis. Du kannst die Erweiterung an deine Bedürfnisse anpassen (`*.png`, `*.pdf`...).
+Dies löscht die Metadaten aller JPEG-Dateien im aktuellen Verzeichnis. Du kannst die Erweiterung an deine Bedürfnisse anpassen (`*.webp`, `*.pdf`...).
 
 
 
@@ -5711,7 +5711,7 @@ Aus Sicht der Sicherheit und des Datenschutzes bietet Zen eine native Blockierun
 
 Zen Browser ist eine interessante Alternative, wenn du eine Gecko-Browsing-Umgebung suchst, die kostenlos, innovativ und übersichtlich ist und deine Privatsphäre respektiert.
 
-https://planb.academy/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.academy/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit-basierte Browser
 
@@ -6935,7 +6935,7 @@ Telegram ist dank seiner Ergonomie und seiner Funktionen (öffentliche Kanäle, 
 Telegram kann daher technisch auf den Inhalt der meisten Unterhaltungen zugreifen, die nicht ausdrücklich geschützt sind. Auch wenn das Unternehmen eine feste Haltung gegenüber Regierungsbehörden einnimmt, ist Telegram keine optimale Lösung für vertrauliche oder sensible Gespräche. Es sei denn, du nutzt ausdrücklich die "geheimen Nachrichten", die im Alltag weit weniger praktisch sind.
 
 
-https://planb.academy/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 

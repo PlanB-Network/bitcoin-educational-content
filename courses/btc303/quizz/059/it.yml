@@ -6,3 +6,4 @@ wrong_answers:
   - "Rivela che la piattaforma GitHub ha dei limiti tecnici per gestire la base di codice di Bitcoin"
 explanation: |
   Secondo il contenuto del capitolo, le richieste di pull richiedono molto tempo per essere unite, principalmente a causa della mancanza di revisione, che deriva da un numero insufficiente di revisori piuttosto che dall'ostruzione dei manutentori o da problemi tecnici. Il processo di revisione è cruciale per la sicurezza di Bitcoin, in quanto garantisce la qualità del codice e previene modifiche dannose. Questo collo di bottiglia esiste perché la revisione di codice crittografico complesso richiede competenze e tempo, rendendo i revisori qualificati una risorsa scarsa nel processo di sviluppo.
+reviewed: false

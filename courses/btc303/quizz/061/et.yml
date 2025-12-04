@@ -6,3 +6,4 @@ wrong_answers:
   - Kasutajad peavad tuginema usaldusväärsete arendajate krüptograafilistele allkirjadele, et kinnitada tarkvara käitumist
 explanation: |
   Peatükis märgitakse selgesõnaliselt, et selleks, et kasutajad saaksid kontrollida, kas Bitcoin tarkvara "töötab nii, nagu seda reklaamitakse", peab neil olema piiramatu juurdepääs lähtekoodile. See on otseselt seotud põhimõttega "Don't Trust, Verify" ja avatud lähtekoodi määratluse nõudega lähtekoodi kättesaadavuse kohta. Valed vastused on vastuolus avatud lähtekoodi põhiprintsiipidega: loa nõudmine rikub vaba juurdepääsu põhimõtet, tasu maksmine on vastuolus tasuta levitamise nõudega ja üksnes allkirjadele tuginemine õõnestab avatud lähtekoodi poolt pakutavat kontrolli-läbivaatamise võimet.
+reviewed: false

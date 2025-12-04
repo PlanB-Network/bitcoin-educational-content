@@ -6,3 +6,4 @@ wrong_answers:
   - Ağ tıkanıklığı ve mining merkezileştirme
 explanation: |
   Bitcoin teknik incelemesinin 7. bölümünde Satoshi Nakamoto, adresin yeniden kullanımını ve adres kümelenmesini ana blok zinciri gizlilik sorunları olarak tanımlamıştır. Address yeniden kullanım, aynı adres birden fazla kez kullanıldığında ortaya çıkar ve işlemlerin aynı kullanıcıya bağlanmasını kolaylaştırır. Address kümelenmesi, özellikle tüm girdilerin aynı kişi tarafından kontrol edildiğini ortaya çıkaran çoklu girdi işlemleri yoluyla farklı adreslerin aynı sahibine ait olduğunu belirleme yeteneğini ifade eder. Diğer seçenekler Bitcoin'teki teknik veya operasyonel zorluklardır, ancak teknik incelemede özellikle Satoshi tarafından tartışılan gizlilik sorunları değildir.
+reviewed: false

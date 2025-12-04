@@ -6,3 +6,4 @@ wrong_answers:
   - Soft fork değişiklikleri kalıcı hale gelir ve madenciler bunları etkinleştirdikten sonra değiştirilemez
 explanation: |
   Shaolinfry, madenci sinyallerinin doğal bir veto sistemi yarattığını ve hashrate'in küçük bir yüzdesinin bile yükseltmelerin tüm ağ için etkinleştirilmesini engelleyebileceğini tespit etmiştir. Bu 'yükseltme ataleti', mining daha merkeziyetsiz hale geldikçe daha sorunlu hale gelir ve potansiyel olarak faydalı protokol iyileştirmelerini engeller. Diğer seçenekler yumuşak çatalların nasıl çalıştığını yanlış yansıtmaktadır - madenciler aktivasyonları tek taraflı olarak tersine çeviremez, ekonomik düğümler doğrulama yetkisini elinde tutar ve yumuşak çatallar teorik olarak sonraki yükseltmelerle değiştirilebilir.
+reviewed: false

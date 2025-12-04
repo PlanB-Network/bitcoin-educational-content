@@ -3,7 +3,7 @@ answer: Ukosefu wa tahajia ya kushikilia
 wrong_answers:
   - Kifupi cha kushikilia
   - Kifupi cha Hot Wallet
-  - Mkazo wa mnyororo wa HODL
+  - Mkazo wa chain ya HODL
 explanation: |
   Neno "hodler" linatokana na kosa la kuandika kwenye Bitcoin Talk, ambapo neno "shikilia" liliandikwa kimakosa kama "HODL" ili kuonyesha kushikilia kwa muda mrefu.
-reviewed: false
+reviewed: true

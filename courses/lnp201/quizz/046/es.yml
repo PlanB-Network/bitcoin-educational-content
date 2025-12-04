@@ -6,3 +6,4 @@ wrong_answers:
   - Que es una transacción en la cadena principal
 explanation: |
   El prefijo lnbc significa que la factura es para una transacción Lightning en la red de Bitcoin, y no en otra red.
+reviewed: true

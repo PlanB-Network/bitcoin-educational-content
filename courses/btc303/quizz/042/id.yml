@@ -6,3 +6,4 @@ wrong_answers:
   - Pengembang Bitcoin Core meminta alternatif untuk mengurangi tanggung jawab mereka dalam peningkatan
 explanation: |
   Menurut bab ini, ketika kode aktivasi Segwit dirilis pada bulan Oktober 2016, terdapat dukungan yang sangat besar di antara para pengguna Bitcoin, tetapi para penambang tidak memberikan sinyal dukungan untuk peningkatan tersebut, sehingga aktivasi terhenti tanpa adanya resolusi yang terlihat. Hal ini menciptakan kebutuhan akan mekanisme alternatif yang tidak bergantung pada sinyal penambang, sehingga Shaolinfry mengusulkan UASF sebagai solusi yang akan menggunakan penegakan mayoritas ekonomi alih-alih aktivasi hash power.
+reviewed: false

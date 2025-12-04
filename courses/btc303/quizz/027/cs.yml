@@ -6,3 +6,4 @@ wrong_answers:
   - Pomáhá zlepšit celkovou anonymitu systému Bitcoin
 explanation: |
   Soukromí Bitcoin je mezi uživateli vzájemně propojeno. Pokud jedna osoba nedbá na ochranu soukromí, může to mít negativní dopad na soukromí ostatních uživatelů, se kterými provádí transakce. K tomu dochází, protože vzory transakcí, shlukování adres a další techniky analýzy blockchainu mohou odhalit informace o více stranách zapojených do transakcí. Kapitola zdůrazňuje, že opatření na ochranu soukromí, která přijmete, nechrání jen vás samotné - pomáhají také chránit širší komunitu Bitcoin, čímž se ochrana soukromí stává kolektivní odpovědností, nikoli pouze individuální záležitostí.
+reviewed: false

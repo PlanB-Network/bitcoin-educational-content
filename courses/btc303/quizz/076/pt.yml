@@ -6,3 +6,4 @@ wrong_answers:
   - Determinar a compensação financeira adequada para a descoberta de vulnerabilidades antes de concordar em divulgar as informações aos programadores
 explanation: |
   O principal desafio ético na divulgação responsável é o delicado equilíbrio entre transparência e segurança. Os investigadores devem garantir que as vulnerabilidades são resolvidas sem fornecer inadvertidamente um roteiro para a exploração maliciosa. Isto implica uma coordenação cuidadosa com os programadores, uma calendarização adequada das divulgações e a consideração do impacto mais vasto no ecossistema. As outras opções centram-se em preocupações financeiras ou regulamentares que, embora potencialmente relevantes, não são o principal dilema ético delineado nas práticas de divulgação responsável.
+reviewed: false

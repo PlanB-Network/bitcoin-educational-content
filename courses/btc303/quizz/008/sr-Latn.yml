@@ -6,3 +6,4 @@ wrong_answers:
   - Naknade za transakcije se automatski prilagođavaju kako bi se sprečili ekonomski napadi centralizovanih vlasti.
 explanation: |
   Bitcoin postiže otpornost na cenzuru kroz decentralizaciju rudara, gde se redosled transakcija sprovodi kolektivno od strane svih rudara koji odluče da učestvuju. Ovo stvara dinamičan sistem gde svako može slobodno da se pridruži ili napusti mining proces, eliminišući bilo koju tačku kontrole koja bi mogla biti pod pritiskom da cenzuriše transakcije. Pogrešni odgovori opisuju tehničke karakteristike, pouzdane strane ili ekonomske mehanizme koji ne rešavaju suštinsko pitanje decentralizovane kontrole nad obradom transakcija.
+reviewed: false

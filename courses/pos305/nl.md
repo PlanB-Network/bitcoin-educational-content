@@ -2069,7 +2069,6 @@ BTCPay stelt de GRPC-service van LND open voor gebruik van buitenaf; u vindt ver
 Serverbeheerders kunnen meer details bekijken.
 
 
-
 - Gegevens gastheer
 - Gebruik van SSL
 - Macaroon
@@ -2082,7 +2081,7 @@ Serverbeheerders kunnen meer details bekijken.
 #### LND (REST)
 
 
-BTCPay stelt LND's REST service bloot voor externe consumptie; u vindt de verbindingsinformatie hier; compatibele wallets zijn hier opgesomd. Onder de compatibele wallets zijn Joule, Alby en ZeusLN. BTCPay Server biedt een QR-code voor verbinding, die kan worden gescand en toegepast in een compatibele Wallet.
+BTCPay stelt LND's REST service bloot voor externe consumptie; u vindt de verbindingsinformatie [hier](https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay); compatibele wallets zijn [hier](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server) opgesomd. Onder de compatibele wallets zijn Joule, Alby en ZeusLN. BTCPay Server biedt een QR-code voor verbinding, die kan worden gescand en toegepast in een compatibele Wallet.
 
 
 

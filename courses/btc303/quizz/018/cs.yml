@@ -6,3 +6,4 @@ wrong_answers:
   - Mechanismy konsensu v síti pro odsouhlasení platných bloků
 explanation: |
   Bezdůvěryhodná vlastnost Bitcoin konkrétně eliminuje potřebu důvěryhodných třetích stran, jako jsou banky nebo finanční instituce, pro zpracování a ověřování transakcí. Jak vysvětlil Satoshi Nakamoto v dokumentu Bitcoin whitepaper, tradiční obchodování se spoléhá na finanční instituce, které slouží jako důvěryhodní zprostředkovatelé, ale design Bitcoin umožňuje, aby systém správně fungoval bez důvěryhodných stran díky decentralizovanému konsensuálnímu mechanismu. Ostatní možnosti představují základní technické komponenty, které Bitcoin stále vyžaduje - k účasti je stále potřeba hardware/software, kryptografické zabezpečení zůstává základem a konsensus v síti je spíše způsobem, jakým Bitcoin dosahuje nedůvěryhodnosti, než něčím, co by eliminoval.
+reviewed: false

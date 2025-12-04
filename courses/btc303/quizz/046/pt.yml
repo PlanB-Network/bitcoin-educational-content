@@ -6,3 +6,4 @@ wrong_answers:
   - Os sistemas em linha processam as transacções mais rapidamente, facilitando aos adversários o lançamento de ataques coordenados
 explanation: |
   A principal distinção salientada por Andrew Poelstra é que os sistemas físicos podem confiar na aplicação da lei e na visibilidade dos adversários para dissuadir os ataques, aceitando mesmo alguns riscos, como o incêndio de edifícios. No entanto, os sistemas em linha, como o Bitcoin, funcionam num ambiente em que os adversários podem agir de forma pseudónima ou anónima, ligar-se a partir de qualquer lugar e explorar os pontos fracos sem serem identificados ou apanhados. Esta diferença fundamental significa que todos os pontos fracos conhecidos no Bitcoin devem ser tratados, uma vez que serão inevitavelmente explorados por adversários invisíveis que não enfrentam quaisquer consequências no mundo real.
+reviewed: false

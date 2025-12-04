@@ -3586,7 +3586,7 @@ Nažalost, nakon hapšenja osnivača Samourai-a, ovi alati više nisu operativni
 Sada kada smo detaljno obradili coinjoin-e, pogledaćemo druge tehnike privatnosti dostupne na Bitcoin-u u poslednjem delu našeg kursa. Pogledaćemo payjoin-e, specifične pseudo-CoinJoin tipove transakcija, protokole statičnih adresa, kao i mere za jačanje poverljivosti ne na nivou samih transakcija, već na nivou mreže čvorova.
 
 
-https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # Razumevanje izazova drugih naprednih tehnika poverljivosti
 

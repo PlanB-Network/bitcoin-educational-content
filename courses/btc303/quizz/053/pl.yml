@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin wykorzystuje podpisy kryptograficzne do ochrony, podczas gdy budynki polegają na systemach kontroli dostępu i monitoringu
 explanation: |
   Kluczową różnicą jest to, że systemy online, takie jak Bitcoin, muszą stawić czoła anonimowym przeciwnikom, którzy nieuchronnie wykorzystają każdą znaną słabość, w przeciwieństwie do systemów fizycznych, w których możemy zaakceptować pewne ryzyko, ponieważ sprawcy mogą zostać zidentyfikowani i ścigani. Jak zauważył Andrew Poelstra, w Internecie nie mamy luksusu odstraszania organów ścigania - jeśli możliwe jest wrogie uszkodzenie systemu, anonimowi aktorzy to zrobią. Zmusza to Bitcoin do zajęcia się wszystkimi słabymi punktami, zamiast akceptować skalkulowane ryzyko.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Vaatimus, jonka mukaan asiakkaiden on esitettävä liiallisia henkilöllisyystodistuksia
 explanation: |
   Satoshi Nakamoton Bitcoin-tiedotteessa esittämän mukaan perinteiset rahoitusjärjestelmät kärsivät siitä perustavanlaatuisesta heikkoudesta, että täysin peruuttamattomat transaktiot eivät ole mahdollisia, koska rahoituslaitosten on soviteltava riitoja. Tämä aiheuttaa ongelmien kaskadin: sovittelusta johtuvat transaktiokustannukset kasvavat, pienet satunnaiset transaktiot häviävät ja luottamusvaatimukset leviävät koko järjestelmään. Vaikka muut vaihtoehdot ovatkin rahoitusjärjestelmien kannalta mahdollisesti merkityksellisiä, ne eivät ole se ydinongelma, jota Bitcoin:n luototon suunnittelu nimenomaan käsittelee. Bitcoin:n innovaatio mahdollistaa lopullisen selvityksen ilman, että tarvitaan luotettavaa kolmatta osapuolta peruuttamaan transaktioita.
+reviewed: false

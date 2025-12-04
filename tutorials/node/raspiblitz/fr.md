@@ -7,11 +7,11 @@ description: Guide pour configurer votre RaspiBlitz
 
 Le RaspiBlitz est un nœud Lightning (LND et/ou Core Lightning) à faire soi-même, fonctionnant avec un Bitcoin-Fullnode sur un RaspberryPi (1TB SSD) et un bel écran pour une configuration et une surveillance faciles.
 
-Le RaspiBlitz est principalement destiné à apprendre comment exécuter votre propre nœud décentralisé depuis chez vous - car : Pas votre nœud, pas vos règles. Découvrez et développez l'écosystème croissant du Lightning Network en en devenant un membre à part entière. Construisez-le lors d'un atelier ou en tant que projet de week-end.
+Le RaspiBlitz est principalement conçu pour vous apprendre comment exécuter votre propre nœud décentralisé depuis chez vous - car : Pas votre nœud, pas vos règles. Découvrez et explorez l'écosystème croissant du Lightning Network en devenant un membre à part entière. Construisez-le lors d'un atelier ou en tant que projet de week-end.
 
 ![video](https://youtu.be/DTHlSPMz3ns)
 
-RASPIBLITZ - Comment exécuter un nœud Lightning et Bitcoin Full Node par BTC session
+RASPIBLITZ - Comment exécuter un nœud Lightning et Bitcoin Full Node par BTC session ?
 
 # Guide d'installation de Raspiblitz de Parman
 
@@ -25,7 +25,7 @@ Essentiellement, le processus est très similaire à celui de la configuration d
 
 ## Étape 1 : Achetez le matériel.
 
-Vous avez besoin exactement du même matériel que pour exécuter un nœud MyNode. Vous pouvez essayer l'un ou l'autre, la seule différence est les données sur la carte micro SD.
+Vous avez besoin exactement du même matériel que pour exécuter un nœud MyNode. Vous pouvez essayer l'un ou l'autre, la seule différence se trouve dans les données présentes sur la carte micro SD.
 
 - Raspberry Pi 4, 4 Go de mémoire ou 8 Go (4 Go suffisent)
 - Alimentation officielle Raspberry Pi (Très important ! N'achetez pas de générique, sérieusement)
@@ -54,7 +54,7 @@ Accédez au [site GitHub de Raspiblitz](https://github.com/rootzoll/raspiblitz),
 
 ![image](assets/4.webp)
 
-Le hachage sha-256 du fichier téléchargé est fourni sur le site web. Il changera à chaque mise à jour. Si vous ne comprenez pas de quoi il s’agit, vous devriez, c’est pourquoi j’ai rédigé un [guide que vous pouvez lire ici.](https://armantheparman.com/gpg/)
+Le hachage sha-256 du fichier téléchargé est fourni sur le site web. Il changera à chaque mise à jour. Si vous ne comprenez pas ce que cela signifie, vous devriez vous y intéresser, c’est précisément pour cela que j’ai rédigé un [guide que vous pouvez lire ici.](https://armantheparman.com/gpg/)
 
 ![image](assets/5.webp)
 
@@ -127,10 +127,10 @@ Enfin, connectez l'alimentation:
 
 ## Étape 6: Trouver l'adresse IP du Pi
 
-Vous n'avez jamais besoin d'un moniteur avec le Raspiblitz. Cependant, vous avez besoin d'un autre ordinateur sur le réseau domestique. Si votre Pi n'est pas connecté par Ethernet et que vous souhaitez utiliser le WiFi, trouver l'adresse IP nécessite certaines compétences en informatique. Je ne peux pas vous aider, désolé. Vous avez besoin d'une connexion Ethernet. (Le problème vient du fait qu'il faut accéder à un moniteur et au système d'exploitation pour connecter le WiFi et entrer un mot de passe.)
+Vous n'avez jamais besoin d'un moniteur avec le Raspiblitz. Cependant, vous avez besoin d'un autre ordinateur sur le réseau domestique. Si votre Pi n'est pas connecté par Ethernet et que vous souhaitez utiliser le WiFi, trouver l'adresse IP nécessite certaines compétences en informatique. Je ne peux pas vous assister dans cette étape, désolé. Vous avez besoin d'une connexion Ethernet. (Le problème vient du fait qu'il faut accéder à un moniteur et au système d'exploitation pour connecter le WiFi et entrer un mot de passe.)
 Vérifiez votre routeur pour obtenir une liste de toutes les adresses IP des appareils connectés.
 
-J'ai tapé 192.168.0.1 dans le navigateur (instructions fournies avec mon routeur), me suis connecté et j'ai pu voir mon appareil avec l'adresse IP 192.168.0.191. Notez que ces adresses IP ne sont pas visibles sur Internet (elles passent d'abord par le routeur), ce sont simplement des identifiants pour les appareils de votre réseau domestique.
+J'ai tapé 192.168.0.1 dans le navigateur (instructions fournies avec mon routeur), et je me suis connecté. J'ai alors vu mon appareil avec l'adresse IP 192.168.0.191. Notez que ces adresses IP ne sont pas visibles sur Internet (elles passent d'abord par le routeur), ce sont simplement des identifiants pour les appareils de votre réseau domestique.
 
 Trouver l'adresse IP est crucial.
 

@@ -6,7 +6,7 @@ description: Jinsi ya kujenga kompyuta ndogo, iliyotengwa na ya gharama nafuu kw
 
 
 
-Ikiwa umekuwa kwenye kurasa za Plan ₿ Academy kwa muda, tayari umejifunza kwamba mojawapo ya mipangilio ya usalama inayopendekezwa zaidi, ambayo ni lazima, **ni usimamizi wa fedha kwa kuhifadhi nje ya mtandao wa funguo zako za faragha**.
+Ikiwa umekuwa kwenye kurasa za Plan ₿ academy kwa muda, tayari umejifunza kwamba mojawapo ya mipangilio ya usalama inayopendekezwa zaidi, ambayo ni lazima, **ni usimamizi wa fedha kwa kuhifadhi nje ya mtandao wa funguo zako za faragha**.
 
 
 
@@ -66,11 +66,11 @@ sehemu ya mwongozo huu itakuonyesha jinsi na mahali pa kuifanya. Walakini, ikiwa
 
 
 
-**2** _starter kit_ kwa Raspberry PI Zero: kama ilivyo desturi kwa ulimwengu wa Raspberry, mifupa tupu, bila kipochi cha nje. Kwa kuongeza, rasilimali ndogo za bodi ndogo hiyo zinaweka uwezekano wa kuunganishwa na ulimwengu wa nje.
+**2** _starter kit_ kwa Raspberry PI Zero: kama ilivyo desturi kwa ulimwengu wa Raspberry, mifupa tupu, bila wallet ya nje. Zaidi ya hayo, rasilimali ndogo za bodi hiyo ndogo hupunguza uwezo wa kuunganishwa na ulimwengu wa nje.
 
 
 
-Nilipoamua kuendelea, nilipata [seti hii](https://www.amazon.it/-/en/GeeekPi-Raspberry-Aluminium-Passive-Heatsink/dp/B0BJ1WWHGF?crid=1NAFFVHG3IFBU&sprefix=raspberry+pi+zero+kit+8+8sr8-8068s) kamili ya vifaa, ili kuchukua fursa kamili ya uwezo kamili wa PI Zero. Kwa kweli, seti hii ina USB A -> nishati ndogo ya USB Supply, kitovu kidogo cha USB, mini-HDMI -> adapta ya HDMI, heatsink ya shaba, na kipochi cha nje cha alumini. Pia zinazotolewa na kit ni screws na allen wrench zinazohitajika kuweka PI Zero katika kesi mpya.
+Nilipoamua kuendelea, nilipata [seti hii](https://www.amazon.it/-/en/GeeekPi-Raspberry-Aluminium-Passive-Heatsink/dp/B0BJ1WWHGF?crid=1NAFFVHG3IFBU&sprefix=raspberry+pi+zero+kit+8+8sr8-8068s) kamili ya vifaa, ili kuchukua fursa kamili ya uwezo kamili wa PI Zero. Kwa kweli, seti hii ina USB A -> nishati ndogo ya USB Supply, kitovu kidogo cha USB, mini-HDMI -> adapta ya HDMI, heatsink ya shaba, na Wallet ya nje ya alumini. Pia zinazotolewa na kit ni screws na allen wrench zinazohitajika kuweka PI Zero katika kesi mpya.
 
 
 
@@ -80,7 +80,7 @@ Nilipoamua kuendelea, nilipata [seti hii](https://www.amazon.it/-/en/GeeekPi-Ras
 
 
 
-**3** Mafunzo haya hayahitaji kutumia bajeti kubwa kwenye kompyuta ya airgap. Unapaswa kujua, hata hivyo, kwamba utahitaji kibodi ya USB na panya (iliyo na waya kabisa, epuka Bluetooth) na mfuatiliaji. Kulingana na ingizo la kifuatiliaji chako, unaweza kuhitaji adapta kutoka mini-HDMI, pato pekee linalopatikana kwenye PI Zero. Hatimaye, angalia Hard kwa ukweli kwamba sisi sote tuna kibodi isiyo na waya na panya ndani ya nyumba mahali fulani-ni wakati wa kuzizima Dust.
+**3** Mafunzo haya hayahitaji kutumia bajeti kubwa kwenye kompyuta ya airgap. Unapaswa kujua, hata hivyo, kwamba utahitaji kibodi ya USB na mouse (iliyo na waya kabisa, epuka Bluetooth) na mfuatiliaji. Kulingana na ingizo la kifuatiliaji chako, unaweza kuhitaji adapta kutoka mini-HDMI, pato pekee linalopatikana kwenye PI Zero. Hatimaye, angalia ugumu kwa ukweli kwamba sisi sote tuna kibodi isiyo na waya na mouse ndani ya nyumba mahali fulani-ni wakati wa kuzizima vumbi.
 
 
 
@@ -163,7 +163,7 @@ Hatimaye, endesha faili `sha256sum` amri na ulinganishe Hash na ile iliyotolewa 
 
 
 
-Au, ikiwa unayo Windows, fungua Shell ya Nguvu na chapa amri ifuatayo:
+Au, ikiwa unayo Windows, PowerShell ya Nguvu na chapa amri ifuatayo:
 
 
 
@@ -181,7 +181,7 @@ Utapata Hash ambayo lazima ilingane na ile iliyochapishwa kwenye Raspberry Githu
 
 
 
-Mara baada ya kuthibitisha upakuaji, unaweza kusakinisha Imager kwenye kompyuta yako ya kila siku na kuifungua. Imager ni chombo unachohitaji kuchoma mfumo wa uendeshaji kwa SD ndogo, ambayo itakuwa "diski ya mfumo" ya PI Zero.
+Mara baada ya kuthibitisha upakuaji, unaweza kusakinisha Imager kwenye kompyuta yako ya kila siku na kuifungua. Imager ni chombo unachohitaji kuchoma mfumo wa uendeshaji kwa SD ndogo, ambayo itakuwa "system disk" ya PI Zero.
 
 
 
@@ -292,11 +292,11 @@ Bofya _Next_ na utaulizwa kuunda mtumiaji wako, andika kitambulisho chako na uzi
 
 
 
-Mchawi hukuuliza uchague kivinjari chaguo-msingi cha wavuti, kati ya Chromium na Firefox; inaweza pia kukuuliza kuhusu mipangilio ya mtandao wa Wi-Fi ikiwa unafanya kazi na Zero W au 2W PI. Endelea na ubofye _Ruka_.
+Installation wizard hukuuliza uchague kivinjari chaguo-msingi cha wavuti, kati ya Chromium na Firefox; inaweza pia kukuuliza kuhusu mipangilio ya mtandao wa Wi-Fi ikiwa unafanya kazi na Zero W au 2W PI. Endelea na ubofye _Skip_.
 
 
 
-Wakati fulani utaombwa kuboresha programu kwenye ubao na mfumo wa uendeshaji. Chagua _Ruka_: kwa madhumuni ya zoezi hili kwa kweli tunaunda mashine ya nje ya mtandao, ambayo lazima isalie nje ya mtandao kufikia wakati huu.
+Wakati fulani utaombwa kuboresha programu kwenye ubao na mfumo wa uendeshaji. Chagua _Skip_: kwa madhumuni ya zoezi hili kwa kweli tunaunda mashine ya nje ya mtandao, ambayo lazima isalie nje ya mtandao kufikia wakati huu.
 
 
 
@@ -330,7 +330,7 @@ Baada ya kuwasha upya, kompyuta yako mpya ya airgap iko tayari. PI Zero inakuony
 ### Hatua za Kwanza za PI Zero W au 2W
 
 
-Ikiwa unafanya kazi na mfululizo wa Raspberry PI Zero W au 2W, ubao wako una vichipu vya Wi-Fi na Bluetooth ubaoni. Wakati wa usanidi wa kwanza uliruka usanidi wa uunganisho, kwa hivyo PI Zero haijaunganishwa kwenye Mtandao. Sasa unaweza kulemaza chipsi hizo mbili kabisa kupitia programu.
+Ikiwa unafanya kazi na mfululizo wa Raspberry PI Zero W au 2W, ubao wako una chips za Wi-Fi na Bluetooth ubaoni. Wakati wa usanidi wa kwanza uliruka usanidi wa uunganisho, kwa hivyo PI Zero haijaunganishwa kwenye Mtandao. Sasa unaweza kulemaza chipsi hizo mbili kabisa kupitia programu.
 
 
 
@@ -496,7 +496,7 @@ Ingawa utendakazi unaonekana kuwa mdogo (kwenye karatasi na ikilinganishwa na ng
 
 
 
-Miongoni mwa Pochi ambazo ninazifahamu, pekee ambayo hutoa toleo la 32-bit ni Electrum. Vema: IP ya Sifuri jinsi tulivyoitayarisha katika mafunzo haya itakuruhusu kuweka funguo za faragha nje ya mtandao zilizowekwa kwa Wallet airgap ambayo tulishughulikia katika mafunzo haya:
+Miongoni mwa wallet ambazo ninazifahamu, pekee ambayo hutoa toleo la 32-bit ni Electrum. Vema: IP ya Sifuri jinsi tulivyoitayarisha katika mafunzo haya itakuruhusu kuweka funguo za faragha nje ya mtandao zilizowekwa kwa Wallet airgap ambayo tulishughulikia katika mafunzo haya:
 
 
 

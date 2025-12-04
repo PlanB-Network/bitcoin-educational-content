@@ -6,3 +6,4 @@ wrong_answers:
   - Ze lopen het risico op double-spend aanvallen omdat ze niet kunnen verifiëren of binnenkomende transacties legitiem zijn
 explanation: |
   Wanneer mijners validatieloos mining toepassen, controleren ze alleen de proof-of-work in de koptekst van het blok en beginnen daar meteen mining bovenop, terwijl ze parallel het volledige blok downloaden en valideren. Het kritieke risico is dat ze op een ongeldig blok bouwen, wat betekent dat hun rekeninspanning verspild wordt aan een blockchaintak die verworpen zal worden zodra het ongeldige blok ontdekt wordt. Dit ondermijnt de veiligheid van het netwerk omdat een deel van de mining kracht niet bijdraagt aan de sterkste geldige keten, wat het fundamentele veiligheidsmechanisme van Bitcoin is.
+reviewed: false

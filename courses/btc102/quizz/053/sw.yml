@@ -3,7 +3,7 @@ answer: Ramani ya BTC
 wrong_answers:
   - CoinMarketCap
   - Bitcoin Majadiliano
-  - Uswisi Bitcoin Pay
+  - Swiss Bitcoin Pay
 explanation: |
   Ramani ya BTC ni jukwaa maalum ambalo huwapata wafanyabiashara wanaokubali Bitcoin kote ulimwenguni.
-reviewed: false
+reviewed: true

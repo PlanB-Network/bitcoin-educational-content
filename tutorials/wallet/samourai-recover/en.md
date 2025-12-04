@@ -32,10 +32,10 @@ On the other hand, some tools are either affected by the server shutdown or comp
 Regarding individual spending tools, everything works normally provided, of course, that you have your own Dojo. Normal Stonewall transactions (and not Stonewall x2) work without any problem.
 
 Comments on Twitter have highlighted that the privacy offered by a Stonewall transaction might now be reduced. The added value of a Stonewall transaction lies in the fact that it is indistinguishable from a Stonewall x2 transaction in terms of structure. When an analyst encounters this specific pattern, they cannot determine whether it is a standard Stonewall with a single user or a Stonewall x2 involving two users. However, as we will see in the following paragraphs, carrying out Stonewall x2 transactions has become more complex due to the unavailability of Soroban. Some therefore think that an analyst might now assume that any transaction with this structure is a normal Stonewall. Personally, I do not share this assumption. Although Stonewall x2 transactions may be less frequent (and I think they were already before this incident), the fact that they are still possible can invalidate an entire analysis based on the assumption that they are not.
-**[-> Learn more about Stonewall transactions.](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
+**[-> Learn more about Stonewall transactions.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 Regarding Ricochet, I have not been able to verify if the service is still operational, due to not owning a Dojo on the Testnet, and I prefer not to risk spending `100 000 sats` towards a wallet that could be controlled by the authorities. If you have had the opportunity to test this tool recently, I invite you to contact me so we can update this article.
 
-If you need to use Ricochet, be aware that you can always perform this operation manually with any wallet software. To learn how to manually perform the various hops properly, I recommend consulting this other article: [**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)
+If you need to use Ricochet, be aware that you can always perform this operation manually with any wallet software. To learn how to manually perform the various hops properly, I recommend consulting this other article: [**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589)
 
 The JoinBot tool is no longer operational, as it was entirely dependent on the participation of a wallet managed by Samourai.
 
@@ -49,9 +49,9 @@ After several tests, it appears that Soroban is no longer functioning. To perfor
 - If you are physically close to your collaborator, you can scan the QR codes successively;
 - If you are distant from your collaborator, you can exchange the PSBTs via an external communication channel to the application. However, be careful, as the data contained in these PSBTs are sensitive in terms of privacy. I recommend using an encrypted messaging service to ensure the confidentiality of the exchange.
 
-**[-> Learn more about Stonewall x2 transactions.](https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
+**[-> Learn more about Stonewall x2 transactions.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
-**[-> Learn more about Stowaway transactions.](https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
+**[-> Learn more about Stowaway transactions.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 As for Whirlpool, the protocol no longer seems to function, even for users who have their own Dojo. I have been monitoring my RoninDojo these past few days and attempted some basic manipulations, but the Whirlpool CLI has not been able to connect since the server shutdown.
 

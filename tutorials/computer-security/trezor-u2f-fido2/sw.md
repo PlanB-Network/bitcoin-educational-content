@@ -1,28 +1,28 @@
 ---
-name: "Trezor U2F & FIDO2"
+name: Trezor U2F & FIDO2
 description: Imarisha usalama wako mtandaoni ukitumia Trezor
 ---
 ![cover](assets/cover.webp)
 
 
 
-Vifaa vya Trezor ni pochi za maunzi zilizoundwa awali kulinda Bitcoin Wallet, lakini pia zinaangazia chaguo za kina za uthibitishaji thabiti kwenye wavuti. Shukrani kwa upatanifu wao na itifaki za **U2F** na **FIDO2**, zinakuwezesha kupata ufikiaji salama wa akaunti zako za mtandaoni bila kutegemea manenosiri pekee.
+Vifaa vya Trezor ni  hardware wallet zilizoundwa awali kulinda Bitcoin Wallet, lakini pia zinaangazia chaguo za kina za uthibitishaji thabiti kwenye wavuti. Shukrani kwa upatanifu wao na  l Protocol za **U2F** na **FIDO2**, zinakuwezesha kupata ufikiaji salama wa akaunti zako za mtandaoni bila kutegemea manenosiri pekee.
 
 
 
-Itifaki ya U2F (*Universal 2nd Factor*) ilianzishwa na Google na Yubico mwaka wa 2014, kisha kusawazishwa na Muungano wa FIDO. Huwezesha kipengele cha pili cha uthibitishaji halisi (2FA) kuongezwa wakati wa kuingia. Mara baada ya kuanzishwa, pamoja na nenosiri la kawaida, watumiaji lazima waidhinishe kila jaribio la kuunganisha kwenye akaunti yao kwa kubofya kitufe kwenye Trezor yao. Katika muktadha huu, Trezor inafanya kazi kwa njia sawa na Yubikey.
+Protocol ya U2F (*Universal 2nd Factor*) ilianzishwa na Google na Yubico mwaka wa 2014, kisha kusawazishwa na Muungano wa FIDO. Huwezesha kipengele cha pili cha uthibitishaji halisi (2FA) kuongezwa wakati wa kuingia. Mara baada ya kuanzishwa, pamoja na nenosiri la kawaida, watumiaji lazima waidhinishe kila jaribio la kuunganisha kwenye akaunti yao kwa kubofya kitufe kwenye Trezor yao. Katika muktadha huu, Trezor inafanya kazi kwa njia sawa na Yubikey.
 
 
 
-Njia hii inategemea kriptografia isiyolinganishwa: hakuna data ya siri inayosambazwa, na hivyo kufanya mashambulizi ya kuhadaa ili kupata maelezo ya kibinafsi au udukuzi kutofaa. U2F sasa inaungwa mkono na huduma nyingi za mtandaoni.
+Njia hii inategemea  cryptography isiyolinganishwa: hakuna data ya siri inayosambazwa, na hivyo kufanya mashambulizi ya kuhadaa ili kupata maelezo ya kibinafsi au udukuzi kutofaa. U2F sasa inaungwa mkono na huduma nyingi za mtandaoni.
 
 
 
-Mbali na U2F, ambayo huwezesha uthibitishaji wa vipengele viwili, Trezors pia inaunga mkono FIDO2 (* Utambulisho wa Haraka Mkondoni 2.0*), mageuzi ya U2F. Hii ni itifaki sanifu ya uthibitishaji kutoka 2018, ambayo huongeza mantiki ya U2F na inalenga kuchukua nafasi ya nywila kabisa. Inategemea vipengele viwili: *WebAuthn* (upande wa kivinjari) na *CTAP2* (upande wa ufunguo wa kimwili). FIDO2 huwezesha uthibitishaji wa "usio na nenosiri": watumiaji hujitambulisha pekee kupitia kifaa chao cha Trezor, ambacho hufanya kama ishara ya kipekee ya kriptografia, bila nenosiri la ziada. Itifaki hii sasa inaoana na idadi ya huduma za mtandaoni, hasa zile zinazolenga biashara.
+Mbali na U2F, ambayo huwezesha Two factor verification, Trezors pia inaunga mkono FIDO2 (* Utambulisho wa Haraka Mkondoni 2.0*), mageuzi ya U2F. Hii ni   Protocol sanifu ya uthibitishaji kutoka 2018, ambayo huongeza mantiki ya U2F na inalenga kuchukua nafasi ya nywila kabisa. Inategemea vipengele viwili: *WebAuthn* (upande wa kivinjari) na *CTAP2* (Client to Authenticator Protocol 2). FIDO2 huwezesha uthibitishaji wa "usio na nenosiri": watumiaji hujitambulisha pekee kupitia kifaa chao cha Trezor, ambacho hufanya kama ishara ya kipekee ya  cryptography, bila nenosiri la ziada.   Protocol hii sasa inaoana na idadi ya huduma za mtandaoni, hasa zile zinazolenga biashara.
 
 
 
-Kando na utendakazi wa "bila nenosiri", FIDO2 pia huwezesha uthibitishaji wa vipengele viwili kwa njia sawa na U2F.
+Kando na utendakazi wa "bila nenosiri*", FIDO2 pia huwezesha Two factor verification kwa njia sawa na U2F.
 
 
 
@@ -30,7 +30,7 @@ FIDO2 pia inatanguliza dhana ya vitambulisho vya mkazi, yaani, vitambulisho vili
 
 
 
-Katika somo hili tutagundua jinsi ya kuwezesha U2F au FIDO2 kwa uthibitishaji wa vipengele viwili, na kisha jinsi ya kusanidi FIDO2 kufikia akaunti zako bila nenosiri, moja kwa moja na Trezor yako.
+Katika somo hili tutagundua jinsi ya kuwezesha U2F au FIDO2 kwa Two factor verification, na kisha jinsi ya kusanidi FIDO2 kufikia akaunti zako bila nenosiri, moja kwa moja na Trezor yako.
 
 
 
@@ -42,7 +42,7 @@ Katika somo hili tutagundua jinsi ya kuwezesha U2F au FIDO2 kwa uthibitishaji wa
 
 
 
-Kabla ya kuanza, hakikisha kuwa umeweka Bitcoin Wallet yako kwenye Trezor yako. Ni muhimu kuhifadhi Mnemonic yako kwa usahihi, kwa vile vitufe vinavyotumika kwa U2F na FIDO2 katika uthibitishaji wa vipengele viwili vimetokana na Mnemonic hii. Trezor yako ikipotea au kuharibika, unaweza kurejesha ufikiaji wa funguo zako kwa kuingiza maneno yako ya Mnemonic kwenye kifaa kingine cha Trezor (kumbuka kuwa kwa vitambulisho vya FIDO2 katika hali ya "*password*", seed pekee haitoshi, kama tutakavyoona katika sehemu zinazofuata).
+Kabla ya kuanza, hakikisha kuwa umeweka Bitcoin Wallet yako kwenye Trezor yako. Ni muhimu kuhifadhi Mnemonic yako kwa usahihi, kwa vile vitufe vinavyotumika kwa U2F na FIDO2 katika Two factor verification umetokana na Mnemonic hii. Trezor yako ikipotea au kuharibika, unaweza kurejesha ufikiaji wa funguo zako kwa kuingiza maneno yako ya Mnemonic kwenye kifaa kingine cha Trezor (kumbuka kuwa kwa vitambulisho vya FIDO2 katika hali ya "*password*", seed pekee haitoshi, kama tutakavyoona katika sehemu zinazofuata).
 
 
 
@@ -54,7 +54,7 @@ Unganisha Trezor yako kwenye kompyuta yako na uifungue.
 
 
 
-Fikia akaunti unayotaka kulinda kwa uthibitishaji wa vipengele viwili. Kwa mfano, nitatumia akaunti ya Bitwarden. Kwa kawaida utapata chaguo la 2FA katika mipangilio ya huduma, chini ya vichupo vya "*uthibitishaji*", "*usalama*", "*ingia*" au "*nenosiri*".
+Fikia akaunti unayotaka kulinda kwa Two factor verification. Kwa mfano, nitatumia akaunti ya Bitwarden. Kwa kawaida utapata chaguo la 2FA katika mipangilio ya huduma, chini ya vichupo vya "*uthibitishaji*", "*usalama*", "*ingia*" au "*nenosiri*".
 
 
 
@@ -62,7 +62,7 @@ Fikia akaunti unayotaka kulinda kwa uthibitishaji wa vipengele viwili. Kwa mfano
 
 
 
-Katika sehemu inayotolewa kwa uthibitishaji wa vipengele viwili, chagua chaguo la "*Nenosiri*" (neno linaweza kutofautiana kulingana na tovuti unayotumia).
+Katika sehemu inayotolewa kwa Two factor verification, chagua chaguo la "*Nenosiri*" (neno linaweza kutofautiana kulingana na tovuti unayotumia).
 
 
 
@@ -78,7 +78,7 @@ Mara nyingi utaulizwa kuthibitisha nenosiri lako la sasa.
 
 
 
-Ipe ufunguo wako wa usalama jina ili kutambulika kwa urahisi, kisha ubofye "*Ufunguo wa Kusoma*".
+Ipe ufunguo wako wa usalama jina ili kutambulika kwa urahisi, kisha ubofye "*read-only key*".
 
 
 
@@ -118,7 +118,7 @@ Kisha unaweza kubofya skrini yako ya Trezor ili kuthibitisha uthibitishaji.
 
 
 
-Faida ya kutumia Hardware Wallet Trezor kwa uthibitishaji wa vipengele viwili ni kwamba unaweza kurejesha funguo zako kwa urahisi kutokana na maneno ya Mnemonic. Kando na hifadhi hii ya msingi, unaweza pia kutumia msimbo wa dharura unaotolewa na kila huduma ambapo umewasha 2FA. Nambari hii ya kuthibitisha dharura hukuwezesha kuunganisha kwenye akaunti yako ukipoteza ufunguo wako wa usalama. Kwa hivyo inachukua nafasi ya 2FA kwa unganisho ikiwa ni lazima.
+Faida ya kutumia Hardware Wallet Trezor kwa Two factor verification ni kwamba unaweza kurejesha funguo zako kwa urahisi kutokana na maneno ya Mnemonic. Kando na hifadhi hii ya msingi, unaweza pia kutumia msimbo wa dharura unaotolewa na kila huduma ambapo umewasha 2FA. Nambari hii ya kuthibitisha dharura hukuwezesha kuunganisha kwenye akaunti yako ukipoteza ufunguo wako wa usalama. Kwa hivyo inachukua nafasi ya 2FA kwa unganisho ikiwa ni lazima.
 
 
 
@@ -148,7 +148,7 @@ Mbinu hii hukupa viwango viwili vya kuhifadhi nakala katika tukio la kupoteza Tr
 
 
 
-Mbali na uthibitishaji wa vipengele viwili, FIDO2 pia huwezesha uthibitishaji wa "usio na nenosiri", yaani bila kuingiza nenosiri wakati wa kuingia kwenye tovuti. Unganisha tu Trezor yako kwenye kompyuta yako ili kufikia akaunti yako salama kwa njia hii. Hivi ndivyo jinsi ya kusanidi kipengele hiki.
+Mbali na Two factor verification, FIDO2 pia huwezesha uthibitishaji wa "usio na nenosiri", yaani bila kuingiza nenosiri wakati wa kuingia kwenye tovuti. Unganisha tu Trezor yako kwenye kompyuta yako ili kufikia akaunti yako salama kwa njia hii. Hivi ndivyo jinsi ya kusanidi kipengele hiki.
 
 
 
@@ -168,7 +168,7 @@ Fikia akaunti unayotaka kulinda katika hali ya "*password*". Nitatumia akaunti y
 
 
 
-Kwa Bitwarden, kwa mfano, chaguo linapatikana chini ya kichupo cha "**Nenosiri kuu**". Bofya "**Washa**" ili kuamilisha uthibitishaji kupitia FIDO2.
+Kwa Bitwarden, kwa mfano, chaguo linapatikana chini ya kichupo cha "*Nenosiri kuu". Bofya "*Washa*" ili kuamilisha uthibitishaji kupitia FIDO2.
 
 
 
@@ -240,7 +240,7 @@ Utaunganishwa kwenye akaunti yako bila kulazimika kuingiza nenosiri lako.
 
 
 
-Ikiwa unatumia FIDO2 au U2F kwa uthibitishaji wa vipengele viwili, yaani, kuingia katika akaunti zinazohitaji nenosiri pamoja na uthibitishaji wa 2FA kupitia Trezor yako, basi kifungu cha maneno cha Mnemonic pekee kitapata ufikiaji wa funguo zako. Hata hivyo, ikiwa unatumia FIDO2 katika hali ya "*isiyo na nenosiri*" kama ilivyoelezwa katika sehemu iliyotangulia, itakuwa muhimu kutengeneza nakala ya vitambulisho vyako vya FIDO pamoja na kuhifadhi nakala ya maneno yako ya Mnemonic ambayo husimba vitambulisho hivi kwa njia fiche.
+Ikiwa unatumia FIDO2 au U2F kwa Two factor verification, yaani, kuingia katika akaunti zinazohitaji nenosiri pamoja na uthibitishaji wa 2FA kupitia Trezor yako, basi kifungu cha maneno cha Mnemonic pekee kitapata ufikiaji wa funguo zako. Hata hivyo, ikiwa unatumia FIDO2 katika hali ya "*isiyo na nenosiri*" kama ilivyoelezwa katika sehemu iliyotangulia, itakuwa muhimu kutengeneza nakala ya vitambulisho vyako vya FIDO pamoja na kuhifadhi nakala ya maneno yako ya Mnemonic ambayo husimba vitambulisho hivi kwa njia fiche.
 
 
 
@@ -289,8 +289,8 @@ WebAuthn credential at index 0:
 Relying party ID:       vault.bitwarden.com
 Relying party name:     Bitwarden
 User ID:                6e315ebabc8b6945a253b1c50116538d
-User name:              tutoplanbnetwork@proton.me
-User display name:      Plan ₿ Academy
+User name:              tutoplanbacademy@proton.me
+User display name:      PBN
 Creation time:          2
 hmac-secret enabled:    True
 Use signature counter:  True

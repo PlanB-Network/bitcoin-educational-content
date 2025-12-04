@@ -1,0 +1,9 @@
+question: Какъв е произходът на думата HODL-ър?
+answer: Неправилно изписване на "hold"
+wrong_answers:
+  - Съкращение на думата hold
+  - Съкращение на hot wallet
+  - Свиване на веригата hodl
+explanation: |
+  Терминът "hodler" идва от печатна грешка в Bitcoin Talk, където "hold" е изписано неправилно като "hodl", за да се изрази дългосрочно държане.
+reviewed: false

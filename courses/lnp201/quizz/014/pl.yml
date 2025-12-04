@@ -6,4 +6,4 @@ wrong_answers:
   - Weryfikacja salda środków każdego uczestnika
 explanation: |
   Ostatnim krokiem do otwarcia kanału jest opublikowanie transakcji depozytu w łańcuchu bloków, co oficjalnie otwiera kanał.
-reviewed: false
+reviewed: true

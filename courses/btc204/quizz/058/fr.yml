@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   La réutilisation d'adresse externe s'observe lorsqu'une adresse est réutilisée sur plusieurs transactions différentes, tandis que la réutilisation interne concerne une adresse qui est utilisée à la fois dans les inputs et dans les outputs d'une même transaction.
 
-reviewed: false
+reviewed: true 

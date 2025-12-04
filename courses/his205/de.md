@@ -405,7 +405,7 @@ Hier unten können Sie mein Exemplar einer Tafel mit Keilschrift bewundern. Um a
 
 
 
-![](./assets/fr/1-1-3_1_Tablette_small.webp)
+![image](assets/de/001.webp)
 
 
 
@@ -416,7 +416,7 @@ Ich habe auch etwas, von dem ich glaube, dass es eine echte sumerische Tafel mit
 Die Zeichen mit den kleinen Ziffern dienten als Unterschriften in einer Zeit, in der die meisten Menschen nicht schreiben konnten, da nur erfahrene Schreiber diese Fähigkeit besaßen.
 
 
-![](./assets/fr/1-1-3_2_Tablette_big.webp)
+![image](assets/de/002.webp)
 
 
 
@@ -426,7 +426,7 @@ Unten sehen Sie den oben erwähnten Zylinder: ein Stein, in den bestimmte Formen
 Die Schreiber der damaligen Zeit benutzten daher einen keilförmigen Griffel, um Zeichen auf nasse Tafeln zu drucken.
 
 
-![](./assets/fr/1-1-3_3_cylindre.webp)
+![image](assets/de/003.webp)
 
 
 
@@ -1010,7 +1010,7 @@ In China mussten die Münzen nicht unbedingt offiziell gekennzeichnet oder garan
 
 
 
-![](./assets/fr/1-2-3_chine.webp)
+![image](assets/de/004.webp)
 
 
 Die oben abgebildete Münze ist eine chinesische Münze aus dem Mittelalter. Es handelt sich um eine gegossene Münze, die in der Mitte ein quadratisches Loch aufweist. Durch dieses Loch wurde ein Seil gefädelt, so dass die Münzen zu Armbändern oder Halsketten zusammengebunden werden konnten. Diese waren jedoch nicht in erster Linie zum Tragen gedacht, sondern dienten vor allem der Buchhaltung. Sie konnten aneinandergereiht werden, um Rechnungseinheiten in Form von großen Schnüren zu bilden, wobei die Stücke ineinander griffen. Es gab nicht unbedingt besondere Zeichen, manchmal waren es einfach Bronzekreise.
@@ -1221,7 +1221,7 @@ Ich finde es interessant, hier zu erwähnen, dass in Ägypten noch lange nach de
 
 
 
-![](./assets/fr/1-3-0_indes.webp)
+![image](assets/de/005.webp)
 
 
 
@@ -1248,7 +1248,7 @@ Da wir das Auftauchen von Münzen in Lydien und bei den Persern nicht trennen k�
 Unten sehen Sie eine der frühesten lydischen Münzen, auf der ein Löwe mit seiner Beute im Vordergrund abgebildet ist. Vielleicht fällt Ihnen ein Stempel oder ein Loch auf der Rückseite auf, von dem manche glauben, dass es dazu diente, die Reinheit des Metalls zu prüfen und sicherzustellen, dass es sich nicht nur um eine Oberflächenschicht handelt. Obwohl es sich um eines der frühesten Exemplare handelt, ist es wichtig zu wissen, dass dieses Stück eine Kopie ist. Alle meine Gold- und Elektrumstücke sind Repliken oder moderne Nachbildungen, die verhindern sollen, dass ich meine gesamten Ersparnisse für diese Sammlung ausgebe.
 
 
-![](./assets/fr/1-3-1_1_lydia.webp)
+![image](assets/de/006.webp)
 
 
 
@@ -1291,7 +1291,7 @@ Nach der Eroberung Lydiens im Jahr 546 v. Chr. übernahmen die achämenidischen 
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/de/007.webp)
 
 
 
@@ -1404,7 +1404,7 @@ Nach einem Abschnitt über die Entstehung der Münzen möchte ich einen kurzen A
 
 
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/de/008.webp)
 
 
 Später verfeinerten die Griechen diese Technik, wie wir in einem späteren Abschnitt sehen werden, indem sie runde Münzen herstellten, die auf beiden Seiten gehämmert wurden. Sie nahmen ein glattes, flaches Stück Edelmetall, gravierten das gewünschte Motiv auf eine Seite und hämmerten es dann von Hand, um die fertige Münze herzustellen.
@@ -1413,7 +1413,7 @@ Später verfeinerten die Griechen diese Technik, wie wir in einem späteren Absc
 Die Technologie der Handprägung von Münzen spielte wahrscheinlich eine Rolle bei der Kontrolle der Inflation in dieser Zeit, auch wenn die Münzen oft verdünnt wurden, um die Produktion zu erhöhen. Dies war vor allem in der römischen Epoche und in geringerem Maße auch während bestimmter Kriege in der griechischen Epoche der Fall. Die Einzelprägung von Münzen schränkte zwar die Fähigkeit der Behörde zur Massenproduktion ein, trug aber trotz erheblicher Abwertungen wirksam zur Inflationskontrolle bei. So entwickelte sich die Münze von einem gestanzten Metallklumpen zu einer runden, gehämmerten Münze.
 
 
-![](./assets/fr/1-3-2_1_drachm.webp)
+![image](assets/de/009.webp)
 
 
 
@@ -1735,7 +1735,7 @@ Hier unten können Sie ein eindrucksvolles Beispiel für die monumentalen Steine
 
 
 
-![](./assets/fr/Pierre_de_Yap.webp)
+![image](assets/de/010.webp)
 
 
 
@@ -1945,7 +1945,7 @@ Die Geldprämie basiert einfach auf dem Vertrauen, dass jemand dieses Geld spät
 
 
 
-![image](./assets/fr/prime_monetaire.webp)
+![image](assets/de/011.webp)
 
 
 
@@ -2322,7 +2322,7 @@ Hier unten sehen Sie einen Tweet von Stephanie Kelton, die eine Art Aushängesch
 
 
 
-![image](./assets/fr/no_debt_crisis.webp)
+![image](assets/de/012.webp)
 
 
 
@@ -2534,7 +2534,7 @@ Und ich habe das Glück, eine Kopie einer griechischen Drachme aus dieser Zeit m
 
 
 
-![](./assets/fr/3_1_tetradrachm.webp)
+![image](assets/de/013.webp)
 
 
 
@@ -2704,7 +2704,7 @@ Die entscheidende Begegnung mit den Griechen in Süditalien führte die Römer t
 Auf vielen römischen Münzen aus der Zeit der Republik sind Gründungsmythen dargestellt. Meine können Sie hier unten sehen: Es ist eine hervorragende, echte Münze von König Tatius. Sie illustriert den Mythos von der Entführung der Frauen durch die Sabiner. Tatius war der König dieser Region, und der Gründungsmythos erzählt, wie die Römer Frauen von den Sabinern entführten, einem Volk, das in der Nähe lebte. In der Folge wurde König Tatius ein gemeinsamer König mit Romulus, einem der Gründer Roms.
 
 
-![](./assets/fr/3_2_tatius.webp)
+![image](assets/de/014.webp)
 
 
 
@@ -2728,7 +2728,7 @@ Hier können wir ein Konzept wieder aufgreifen, das wir schon einmal besprochen 
 
 
 
-![](./assets/fr/3_2_Carthage.webp)
+![image](assets/de/015.webp)
 
 
 
@@ -2892,19 +2892,19 @@ Nach der Ermordung Caesars im Jahr 44 v. Chr. übernahm Octavian (Augustus) die 
 
 
 
-![](./assets/fr/3_3_aureus.webp)
+![image](assets/de/016.webp)
 
 
 
-![](./assets/fr/3_3_denier.webp)
+![image](assets/de/017.webp)
 
 
 
-![](./assets/fr/3_3_sesterce.webp)
+![image](assets/de/018.webp)
 
 
 
-![](./assets/fr/3_3_dernier-sesterce.webp)
+![image](assets/de/019.webp)
 
 
 
@@ -2920,11 +2920,11 @@ Dieser Teil erlaubt es mir, das letzte Stück in diesem Abschnitt vorzustellen: 
 
 
 
-![](./assets/fr/3_3_antoninien.webp)
+![image](assets/de/020.webp)
 
 
 
-![](./assets/fr/3_3_Denier-Antoninien.webp)
+![image](assets/de/021.webp)
 
 
 
@@ -2943,11 +2943,11 @@ Aurelian hat diese Form der Entwertung erfunden, die viel schneller ist als die 
 Um diese extreme Entwertung visuell zu veranschaulichen, habe ich einige faszinierende Statistiken über den Getreidepreis in Ägypten von 40 v. Chr. bis zum 3. Jahrhundert, also über 300 Jahre, gefunden. Unten sehen Sie eine griechische Tetradrachme aus meiner Sammlung. Damals, im 3. Jahrhundert in Ägypten unter römischer Besatzung, war der Gegenwert eine ägyptische Tetradrachme. Der Nennwert der Drachmen war noch in Gebrauch und entsprach einem Denar.
 
 
-![](./assets/fr/3_3_egypt-tetradrachm.webp)
+![image](assets/de/022.webp)
 
 
 
-![](./assets/fr/3_3_tetradrachm-vs-tetradrachm.webp)
+![image](assets/de/023.webp)
 
 
 
@@ -3192,7 +3192,7 @@ Als erstes Artefakt aus dieser Zeit möchte ich Ihnen eine Reproduktion eines en
 
 
 
-![](./assets/fr/3_5_penny.webp)
+![image](assets/de/024.webp)
 
 
 
@@ -3228,7 +3228,7 @@ Um die Verbindung zu den Templern herzustellen, können Sie hier unten eine fran
 
 
 
-![](./assets/fr/3_5_Denier-france.webp)
+![image](assets/de/025.webp)
 
 
 
@@ -3285,7 +3285,7 @@ Hier unten sehen Sie eine Reproduktion eines Florins: ein goldener Florin aus Zi
 
 
 
-![](./assets/fr/4_Florin.webp)
+![image](assets/de/026.webp)
 
 
 
@@ -3293,11 +3293,11 @@ Diese Rückkehr zur Goldmünze war durch einen bestimmten Kontext bedingt: Der Z
 
 
 
-![](./assets/fr/4_Byzantine.webp)
+![image](assets/de/027.webp)
 
 
 
-![](./assets/fr/4_Hongrie.webp)
+![image](assets/de/028.webp)
 
 
 
@@ -3335,7 +3335,7 @@ In diese Zeit fällt auch, dass Europa dank Marco Polos Reise im 13. Jahrhundert
 Gemeint ist die bereits erwähnte Technik der Pendelprägung. Diese Methode ermöglichte die Herstellung gleichmäßigerer Münzen im Vergleich zum Hammerschlag und erlaubte vor allem Inschriften am Rand der Münze, wie ich bereits gezeigt habe. Der unten abgebildete europäische Taler aus dem Jahr 1793 zeigt deutlich eine Inschrift am Rande.
 
 
-![image](./assets/fr/4_thaler.webp)
+![image](assets/de/029.webp)
 
 
 
@@ -3414,7 +3414,7 @@ Als Reaktion auf die europäische Nachfrage nach Gold und Silber "war die ständ
 
 
 
-![](./assets/fr/5_1_Real_Portugais.webp)
+![image](assets/de/030.webp)
 
 
 
@@ -3431,7 +3431,7 @@ Mit der Eroberung der Neuen Welt wurde **Spanien** der dominierende Akteur. Sein
 
 
 
-![](./assets/fr/5_1_Dollar_Espagnol.webp)
+![image](assets/de/031.webp)
 
 
 
@@ -3441,7 +3441,7 @@ Der spanische Real, auch als "Achtelstück" bekannt, erhielt seinen Spitznamen, 
 Besonders interessant ist, dass der spanische Dollar zu dieser Zeit als internationale Reservewährung diente. Die spanischen Behörden gaben auch ihre eigene Landeswährung, den Maravedi, aus und passten die Geldmenge regelmäßig durch Rückrufe an. So konnte eine Kupfer- oder Bronzemünze, die ursprünglich einen Maravedi wert war, zurückgerufen und mit "2", später mit "4" und so weiter geprägt werden, bis sie schließlich "8" erreichte Auf dem hochauflösenden Foto ist die auf die Münze geprägte "8" deutlich zu erkennen. Mit dieser Methode wurde die Geldmenge effektiv ausgeweitet, was unweigerlich zu einer Inflation führte.
 
 
-![](./assets/fr/5_1_maravedi.webp)
+![image](assets/de/032.webp)
 
 
 
@@ -3473,10 +3473,10 @@ Nach dem iberischen Höhepunkt entwickelten sich die **Niederlande** im 17. Jahr
 
 
 
-![](./assets/fr/5_1_gulden.webp)
+![image](assets/de/033.webp)
 
 
-![](./assets/fr/5_1_VOC.webp)
+![image](assets/de/034.webp)
 
 
 
@@ -3522,7 +3522,7 @@ Mit restriktiveren Gesetzen wurde versucht, das Assignat durchzusetzen, jedoch o
 
 
 
-![](./assets/fr/5_1_assignat.webp)
+![image](assets/de/035.webp)
 
 
 
@@ -3530,7 +3530,7 @@ Da dieses Papiergeld alle hochwertigen Edelmetallmünzen ersetzte, kam es in Üb
 
 
 
-![](./assets/fr/5_1_cloche.webp)
+![image](assets/de/036.webp)
 
 
 
@@ -3562,10 +3562,10 @@ Der Sovereign war eine Geldmünze - eine Goldmünze im Wert von ursprünglich ei
 Der Vorgänger des berühmten Sovereigns war der Guinea, der nach demselben Prinzip funktionierte. Der Guinea wurde nach den in ihm enthaltenen Edelmetallen benannt, die aus der Region Guinea stammten.
 
 
-![](./assets/fr/5_2_sovereign.webp)
+![image](assets/de/037.webp)
 
 
-![](./assets/fr/5_1_Guinea.webp)
+![image](assets/de/038.webp)
 
 
 
@@ -3593,7 +3593,7 @@ In Antwerpen fanden Handelsmessen statt, auf denen sich die Händler häufig tra
 
 
 
-![](./assets/fr/5_2_Billet_a_ordre.webp)
+![image](assets/de/039.webp)
 
 
 
@@ -3758,7 +3758,7 @@ Dann kam die Panik von 1776. Alle stürzten sich auf die Geldpyramide. Das heiß
 Wir sind vom Gulden zur Gründung der Bank of England übergegangen. Natürlich gab es in der Zwischenzeit den Ersten und den Zweiten Weltkrieg, aber zuvor, im Jahr 1796, fanden auch auf der anderen Seite des Atlantiks Entwicklungen statt. Im Jahr 1776 war Amerika noch eine britische Kolonie, und die Kolonien verwendeten diese Papierwährung. Unten sehen Sie einen Zwei-Schilling-Schein aus Connecticut von 1776.
 
 
-![](./assets/fr/two_shilling.webp)
+![image](assets/de/040.webp)
 
 
 Bevor sie England den Krieg erklärten und schließlich ihre eigene Währung ausgaben, verwendeten die Kolonien diese Papierwährung zusammen mit dem spanischen Dollar für Bargeldtransaktionen. Tatsächlich blieb der Begriff "Dollar" erhalten, um den amerikanischen Dollar zu bezeichnen.
@@ -3767,7 +3767,7 @@ Bevor sie England den Krieg erklärten und schließlich ihre eigene Währung aus
 Wenn ich mich nicht irre, verabschiedeten sie 1792 ein Gesetz, das es ihnen erlaubte, Geld zu prägen. Das folgende Beispiel ist ein amerikanischer Dollar aus der Neuzeit.
 
 
-![](./assets/fr/silver_dollar.webp)
+![image](assets/de/041.webp)
 
 
 Natürlich hat er nicht nur einen Nennwert von einem Dollar; er ist etwa 30 oder 40 Dollar wert, da er eine Unze Silber repräsentiert. Sein Wert schwankt in Abhängigkeit vom Silberpreis und liegt in der Regel bei mindestens 30 oder 40 US-Dollar. Heute hat ein Papierdollar natürlich nur noch den Nennwert von einem Dollar, aber damals war der US-Dollar in diesem Silberwert verwurzelt.
@@ -3777,7 +3777,7 @@ Lassen Sie uns jetzt über den Bürgerkrieg in Amerika sprechen. Die Konföderie
 
 
 
-![](./assets/fr/confederate.webp)
+![image](assets/de/042.webp)
 
 
 
@@ -3785,7 +3785,7 @@ Auch ihre Gegner im Norden hatten Dollars. Oben sehen Sie die Dollar der Konföd
 
 
 
-![](./assets/fr/greenback.webp)
+![image](assets/de/043.webp)
 
 
 
@@ -3800,7 +3800,7 @@ Nach dem Ersten Weltkrieg enthielt die letzte Serie der gedruckten Banknoten imm
 
 
 
-![](./assets/fr/1928.webp)
+![image](assets/de/044.webp)
 
 
 
@@ -3811,7 +3811,7 @@ Hier unten sehen Sie ein Goldzertifikat aus dem Jahr 1928.
 
 
 
-![](./assets/fr/Gold_certificate.webp)
+![image](assets/de/045.webp)
 
 
 
@@ -3831,7 +3831,7 @@ Nach dem Erlass der Executive Order 6102 beschlagnahmten sie das gesamte Gold un
 
 
 
-![](./assets/fr/1934.webp)
+![image](assets/de/046.webp)
 
 
 Das Konzept des gesetzlichen Zahlungsmittels taucht hier auf und ersetzt die Formulierung "in Gold einlösbar" Die beiden Scheine sehen zwar identisch aus und es ändern sich nur ein paar Worte, aber die Täuschung liegt in der Tatsache, dass der Dollar in dieser Zeit abgewertet wurde; der Wert einer Unze Gold sank von 20,67 $ auf 35 $ pro Unze im Jahr 1934. Das entsprach einer Abwertung von etwa 40 %!
@@ -3869,10 +3869,10 @@ Sie müssen nur sicherstellen, dass sie diese Überweisungen vornehmen können, 
 
 
 
-Um den Zusammenhang zwischen Geld und Inflation zu verstehen, empfehle ich einen Kurs auf Plan ₿ Network, der sich mit diesem Thema befasst. Sie werden den Unterschied zwischen Preiserhöhungen, die wir im Leben erleben, und Inflation kennen lernen. Das ist nicht das Gleiche. Wenn wir von Inflation sprechen, meinen wir oft den Preisanstieg, nicht die Inflation selbst. Die Inflation ist ein ziemlich präzises Konzept, das durch die Zunahme der Geldmenge erklärt wird.
+Um den Zusammenhang zwischen Geld und Inflation zu verstehen, empfehle ich einen Kurs auf Plan ₿ Academy, der sich mit diesem Thema befasst. Sie werden den Unterschied zwischen Preiserhöhungen, die wir im Leben erleben, und Inflation kennen lernen. Das ist nicht das Gleiche. Wenn wir von Inflation sprechen, meinen wir oft den Preisanstieg, nicht die Inflation selbst. Die Inflation ist ein ziemlich präzises Konzept, das durch die Zunahme der Geldmenge erklärt wird.
 
 
-https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 Zum Abschluss dieses Abschnitts über die Fiat-Welt möchte ich Sie auf eine Quelle hinweisen, die Ihnen hilft, die soeben erläuterten Phänomene wie die Inflation besser zu verstehen.
 
@@ -3903,7 +3903,7 @@ Mit diesem System verknüpfte Law das Papiergeld mit den Aktien seines Unternehm
 
 
 
-![image](./assets/fr/paper_illustration.webp)
+![image](assets/de/047.webp)
 
 
 

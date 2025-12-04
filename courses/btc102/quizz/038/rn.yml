@@ -1,9 +1,9 @@
-question: Ni uwuhe murongo ushigikira ugutunga ata KYC no gukoresha ama wallets afise umutekano mwinshi?
-answer: Uwugira ubwoba
+question: Ni uwuhe umuntu ashigikira ukugura ata KYC no gukoresha ingodo afise umutekano mwinshi?
+answer: Uwukoresha w'umunyabwoba
 wrong_answers:
-  - Uwo hodler
+  - Uwubika vy'igihe kirekire
   - Uwurundanya
-  - Uwukoresha akora
+  - Uwukoresha aguma akara
 explanation: |
-  Umunyamibabaro ashira imbere ubuzima bwite n’umutekano, akoresheje uburyo bwo kuronka no kubika butekanye cane.
+  Uwukoresha w'umunyabwoba ashira imbere ubuzima bw'ibanga n’umutekano wiwe, akoresheje uburyo bwo kuronka no kubika butekanye cane.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Кое VPN приложение с отворен код позволява анонимно създаване на акаунт без имейл и приема плащания с биткойн?
+answer: Mullvad
+wrong_answers:
+  - ExpressVPN
+  - Proton VPN
+  - NordVPN
+explanation: |
+  Mullvad VPN се отличава с напълно анонимно създаване на акаунт, без изискване за имейл или парола, и приема плащане в Bitcoin или в брой.
+reviewed: false

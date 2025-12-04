@@ -1,9 +1,9 @@
-question: Ni kuki Lightning Network ishobora kugereranywa n’“imeli yo kwishura”?
-answer: Kuko bishoboza agaciro ka Exchange katagira umurongo, k’isi yose, kandi katagira uruhusha mu buryo bworoshe nk’ugutuma ubutumwa.
+question: Ni kuki Lightning Network ishobora kugereranywa n’“ubutumwa ngurukana bumenyi(email) muvyo kwishura amahera”?
+answer: Kuko ishoboza guhana hana ubutunzi biciye mumuco , murirusangi, kandi kudasaba uruhusha, kandi vyoroshe nko kurungika ubutumwa kuri terephone.
 wrong_answers:
-  - Kuko yohereza amahera biciye ku ba email ba kera.
-  - Kuko ikora gusa iyo ifatanye n’ubutumwa busanzwe bwo kuri email.
-  - Kuko ibika amafaranga y’abakoresha mu mubiri w’imeli.
+  - Kuko yohereza amahera biciye kubarungika ubutumwa ngurukana bumenyi bwakera.
+  - Kuko ikora gusa iyo ifatanye n’ubutumwa ngurukana bumenyi busanzwe .
+  - Kuko ibika amafaranga y’abakoresha mu muburyo bwubuhinga ngurukana bumenyi.
 explanation: |
-  Nk’uko nyene imeyili yahinduye cane uburyo bwo guhanahana amakuru mu gukuraho abahuza no gutuma umuntu wese yohereza ubutumwa kw’isi yose, Lightning Network yorosha kandi yihutisha ibikorwa vyo gutanga ubutumwa, igatuma gutanga agaciro ata ngorane kandi bishikira nk’imeyili.
-reviewed: false
+  Nk’uko nyene ubutumwa ngurukana bumenyi bwateje imbere cane uburyo bwo guhanahana amakuru mu gukuraho abahuza no gutuma umuntu wese yohereza ubutumwa kw’isi yose, Lightning Network yorosha kandi yihutisha ibikorwa vyo gutanga ubutumwa, igatuma gutanga amahera ata ngorane kandi bishikira nkubutumwa ngurukana bumenyi.
+reviewed:  true

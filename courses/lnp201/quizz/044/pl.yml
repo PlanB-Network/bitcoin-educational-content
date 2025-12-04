@@ -6,4 +6,4 @@ wrong_answers:
   - Prosi węzły pośredniczące o zwiększenie płynności
 explanation: |
   Gdy trasa nie powiedzie się, węzeł wysyłający próbuje innych alternatywnych tras, aż do znalezienia funkcjonującej ścieżki lub wyczerpania wszystkich opcji.
-reviewed: false
+reviewed: true

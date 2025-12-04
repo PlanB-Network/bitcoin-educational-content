@@ -6,3 +6,4 @@ wrong_answers:
   - 20,500,000.0000 BTC approximately
 explanation: |
   Pieter Wuille calculated that the theoretical maximum supply is 20,999,999.9769 BTC, which is slightly less than the commonly cited 21 million. This is due to the specific halving schedule and rounding in Bitcoin's code. The 21 million figure is a rounded approximation. The 20,999,817.3131 figure represents the actual circulating supply after accounting for lost coins and mining errors up to a specific block, not the theoretical maximum.
+reviewed: false

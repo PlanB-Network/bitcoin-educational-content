@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   L'anonset prospectif indique la taille du groupe parmi lequel se cache l'UTXO étudié en sortie de cycle, sachant l'UTXO en entrée, c'est-à-dire le nombre de pièces indifférenciables présentes au sein de ce groupe.
 
-reviewed: false
+reviewed: true 

@@ -6,3 +6,4 @@ wrong_answers:
   - Tredjepartstjänster får möjlighet att skapa nya bitcoins utöver det normala utgivningsschemat
 explanation: |
   När användare inte driver sina egna fullständiga noder lägger de ut sin makt att genomdriva Bitcoin:s regler på andra. Detta försvagar Bitcoin:s decentralisering eftersom färre oberoende parter validerar transaktioner och block. Som David Harding förklarar skapar detta en situation där ett litet antal gruvarbetare och tjänsteleverantörer potentiellt kan ändra Bitcoin:s regler för icke-verifierande användare, medan dessa användare inte skulle kunna göra transaktioner med personer som driver fullständiga valideringsnoder som avvisar dessa regeländringar.
+reviewed: false

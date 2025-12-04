@@ -6,3 +6,4 @@ wrong_answers:
   - Para evitar los problemas de responsabilidad jurídica que podrían derivarse de una divulgación prematura a proyectos de terceros
 explanation: |
   La estrategia temporal refleja un planteamiento de seguridad ante todo, en el que la red de Bitcoin debe protegerse antes de ayudar a los demás. Si las altcoins fueran notificadas simultáneamente, los atacantes podrían estudiar las implementaciones de las altcoins o explotarlas para entender la vulnerabilidad y, a continuación, atacar potencialmente los nodos de Bitcoin que aún no se hayan actualizado. El enfoque secuencial garantiza la protección generalizada de Bitcoin antes de ampliar la ayuda a otras redes, minimizando la ventana de explotación de la vulnerabilidad en todo el ecosistema.
+reviewed: false

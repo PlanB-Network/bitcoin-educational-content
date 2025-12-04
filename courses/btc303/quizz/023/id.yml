@@ -6,3 +6,4 @@ wrong_answers:
   - Pengguna sepenuhnya anonim tanpa ada cara untuk menghubungkan transaksi apa pun
 explanation: |
   Sifat pseudonim Bitcoin berarti bahwa walaupun pengguna beroperasi dengan nama samaran (alamat yang berasal dari kunci publik), transaksi mereka masih dapat dilacak dan dihubungkan di antara nama-nama samaran tersebut pada blockchain. Hal ini berbeda dengan anonimitas yang sebenarnya, di mana transaksi tidak akan meninggalkan koneksi yang dapat dilacak sama sekali. Dalam Bitcoin, Anda dapat mengikuti aliran dana antar alamat, tetapi identitas dunia nyata di balik alamat-alamat tersebut tidak akan terungkap secara langsung kecuali jika seseorang secara sukarela mengungkapkannya atau melakukan kesalahan yang membocorkan informasi pribadinya.
+reviewed: false

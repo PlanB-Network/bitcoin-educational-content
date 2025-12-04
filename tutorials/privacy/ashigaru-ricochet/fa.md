@@ -1,5 +1,5 @@
 ---
-name: آشیگارو - ریکوشه
+name: Ashigaru - Ricochet
 description: درک و استفاده از تراکنش‌های Ricochet
 ---
 ![cover ricochet](assets/cover.webp)

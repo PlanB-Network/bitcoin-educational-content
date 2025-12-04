@@ -2894,10 +2894,10 @@ rgb:7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK/RGB21/DbwzvSu-4BZU81
 Here we see:
 
 
-- **`rgb:`**: URL prefix;
+- `rgb:`**: URL prefix;
 - **`7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**: Contract ID (NFT);
-- **`rGB21`**: interface for non-fungible assets (NFT);
-- **`DbwzvSu-4BZU81jEp-...`**: an explicit reference to the unique part of the NFT, for example a hash of the data blob (media, metadata...);**
+- **rGB21**: interface for non-fungible assets (NFT);
+- `DbwzvSu-4BZU81jEp-...`: **an explicit reference to the unique part of the NFT, for example a hash of the data blob (media, metadata...);**
 - **`+utxob:egXsFnw-...`**: the seal definition.
 
 The idea is the same: transmit a unique link that the wallet can interpret, clearly identifying the unique asset to be transferred.

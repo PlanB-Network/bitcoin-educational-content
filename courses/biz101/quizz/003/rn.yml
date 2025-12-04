@@ -1,9 +1,9 @@
-question: Ni ikihe kintu kimwe kibi kiri mu bijanye n’ubuhinga bwa none bwo gukoresha amahera hagati?
-answer: Akenshi ntibagira umuco n’ubugenzuzi mu gucunga amahera Supply.
+question: Ni ikihe kintu kibi kiri mu bijanye n’ubuhinga bwa none bwo gukoresha amahera  akwirikiranwa ninzego na reta?
+answer: Akenshi birabuze gukorera mumuco , n’ubugenzuzi bwa amahera azunguruka mubantu.
 wrong_answers:
-  - Bitanga agaciro gakomeye, kadahinduka ku mafaranga yose.
-  - Bakuraho abahuza bose maze bagatuma amasezerano yihuta gushika ku milisegonda.
-  - Bakora vyose kugira ngo ugutanga amahera gushikirizwe mu buryo bushitse kandi ntihagire ugutera imbere kw’ibiciro.
+  - Bitanga agaciro kadahinduka ku mafaranga yose abaho.
+  - Bikuraho abahuza bose maze bigatuma amarungika yihuta kumurindi wa milisegonda.
+  - Vyemeza ko ishirwaho ryamafaranga ata nzego nimwe iyagenzura , kandi arinzwe gutakaza agaciro.
 explanation: |
-  Uburyo buhurikiye hamwe burashobora gutanga amahera uko bushaka, kenshi ata kugenzura gutomoye. Ivyo birashobora gusenyura ukwizigirana kubera ugutera imbere kw’ibiciro, amasezerano agoranye hagati y’amabanki, n’uburongozi bubi bushobora kubaho.
-reviewed: false
+  Uburyo bwamahera bukurikiramwa (centralisés) burashobora gutanga amahera uko bushaka, kenshi bidaciye mumuco. Ivyo birashobora gusenyura ukwizigirwa kubera ukuduga kwibiciro, ibikorwa bigorana hagati y’amabanki, n’ubugenzuzi bubi bushobora kubaho.
+reviewed: true

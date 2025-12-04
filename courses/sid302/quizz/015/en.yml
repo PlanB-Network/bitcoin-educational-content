@@ -1,0 +1,8 @@
+question: In a Taproot-enabled HTLC, what information is revealed to the Bitcoin network when the swap fails and one party needs to recover their funds through the adversarial path?
+answer: Only the specific Merkle tree branch containing the hash/time lock conditions needed for fund recovery
+wrong_answers:
+  - "The complete script logic including all possible execution paths and both parties' individual public keys"
+  - The preimage secret and all aggregated public keys used in the MuSig2 key combination process
+  - The entire HTLC contract terms including swap amounts, timeframes, and both Lightning and Liquid addresses
+explanation: |
+  Taproot organizes HTLC conditions in a Merkle tree structure, allowing selective disclosure. When cooperation fails, only the specific branch needed to prove the right to recover funds is revealed, while other contract details remain hidden. This is unlike legacy HTLCs that exposed complete scripts, and differs from cooperative cases where no script details are revealed at all.

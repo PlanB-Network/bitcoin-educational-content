@@ -6,3 +6,4 @@ wrong_answers:
   - Brukerne må stole på kryptografiske signaturer fra pålitelige utviklere for å validere programvarens oppførsel
 explanation: |
   Kapittelet sier eksplisitt at brukerne må ha ubegrenset tilgang til kildekoden for å kunne verifisere at Bitcoin-programvaren "fungerer som annonsert". Dette er direkte knyttet til prinsippet "Don't Trust, Verify" og åpen kildekode-definisjonens krav om at kildekoden skal være tilgjengelig. De gale svarene er i strid med kjerneprinsippene for åpen kildekode: Å kreve tillatelse bryter med prinsippet om fri tilgang, å betale avgifter er i strid med kravet om gratis distribusjon, og å basere seg utelukkende på signaturer undergraver muligheten for verifisering gjennom inspeksjon som åpen kildekode gir.
+reviewed: false

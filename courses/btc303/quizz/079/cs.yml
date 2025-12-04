@@ -6,3 +6,4 @@ wrong_answers:
   - Aby se předešlo problémům s právní odpovědností, které by mohly vzniknout v důsledku předčasného zveřejnění informací o projektech třetích stran
 explanation: |
   Strategie načasování odráží přístup "bezpečnost především", kdy je třeba nejprve chránit síť Bitcoin a teprve poté pomáhat ostatním. Pokud by byly altcoiny oznámeny současně, mohli by útočníci studovat implementace altcoinů nebo je zneužít k pochopení zranitelnosti a poté potenciálně napadnout uzly Bitcoin, které ještě neprovedly upgrade. Postupný přístup zajišťuje rozsáhlou ochranu Bitcoin před rozšířením pomoci na další sítě, čímž se minimalizuje prostor pro zneužití zranitelnosti v celém ekosystému.
+reviewed: false

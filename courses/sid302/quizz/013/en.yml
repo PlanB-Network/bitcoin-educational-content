@@ -1,0 +1,8 @@
+question: In a Taproot-enabled HTLC, what happens when both parties cooperatively agree to complete the cross-layer swap?
+answer: They co-sign using their aggregated public key via MuSig2, creating a transaction indistinguishable from a standard single-signature payment
+wrong_answers:
+  - They must reveal the complete script containing hash and time locks on-chain for network verification
+  - They publish only the specific Merkle tree branch needed while keeping the aggregated key hidden from observers
+  - They broadcast separate transactions on each layer simultaneously to ensure atomic settlement without key aggregation
+explanation: |
+  The cooperative "key path" in Taproot allows parties to combine their keys into a single aggregated public key using MuSig2. When both agree, they simply co-sign the transaction, which appears identical to any standard payment on the blockchain. This provides maximum privacy and efficiency since no script logic is revealed, consuming minimal block space. The other options incorrectly describe either legacy HTLC behavior or the adversarial script path scenario.

@@ -6,3 +6,4 @@ wrong_answers:
   - Os serviços de terceiros ganham a capacidade de criar novos bitcoins para além do calendário normal de emissão
 explanation: |
   Quando os utilizadores não gerem os seus próprios nós completos, eles transferem o seu poder de fazer cumprir as regras do Bitcoin para outros. Isto enfraquece a descentralização do Bitcoin porque há menos partes independentes a validar transacções e blocos. Como explica David Harding, isto cria uma situação em que um pequeno número de mineiros e fornecedores de serviços poderia potencialmente alterar as regras do Bitcoin para utilizadores não verificadores, enquanto esses utilizadores seriam incapazes de transacionar com pessoas que gerem nós de validação completos que rejeitam essas alterações de regras.
+reviewed: false

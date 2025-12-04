@@ -1,12 +1,12 @@
 ---
-name: Proton Authenticator
-description: Ninawezaje kutumia Kithibitishaji cha Proton ili kulinda akaunti zangu na 2FA?
+name: Proton-authenticator
+description: Ninawezaje kutumia Proton authenticator ili kulinda akaunti zangu na 2FA?
 ---
 ![cover](assets/cover.webp)
 
 
 
-Uthibitishaji wa vipengele viwili (2FA) huongeza kizuizi cha ziada cha usalama kwa akaunti yako kwa kuhitaji, pamoja na nenosiri lako, uthibitisho wa ziada kwamba ni wewe pekee unayo. Kuwasha 2FA kunapunguza kwa kiasi kikubwa hatari ya udukuzi, hata kama nenosiri lako limeingiliwa kupitia hadaa au uvujaji wa data. Bila 2FA, mshambulizi atahitaji tu nenosiri lako kufikia akaunti zako; na 2FA, angehitaji pia sababu yako ya pili, kuzuia majaribio mengi ya wizi wa akaunti.
+Uthibitishaji wa vipengele viwili  (Two-Factor Authentication - 2FA) huongeza block ya ziada ya usalama kwa akaunti yako kwa kuhitaji, pamoja na nenosiri lako, uthibitisho wa ziada kwamba ni wewe pekee unayo. Kuwasha 2FA kunapunguza kwa kiasi kikubwa hatari ya udukuzi, hata kama nenosiri lako limeingiliwa kupitia hadaa au uvujaji wa data. Bila 2FA, mshambulizi atahitaji tu nenosiri lako kufikia akaunti zako; na 2FA, angehitaji pia sababu yako ya pili, kuzuia majaribio mengi ya wizi wa akaunti.
 
 
 
@@ -14,43 +14,43 @@ Kuna aina mbalimbali za 2FA. Nambari za misimbo za SMS ni bora kuliko kitu choch
 
 
 
-Kithibitishaji cha Proton ni kithibitishaji cha TOTP. Ni jibu la Proton kwa vikwazo vya programu zilizopo: nyingi ni za umiliki, zina vifuatiliaji vya matangazo na hazitoi nakala rudufu iliyosimbwa. Kithibitishaji cha Proton kinajiweka kando kwa kutoa programu huria, isiyo na matangazo na vifuatiliaji, yenye nakala rudufu iliyosimbwa kutoka mwisho hadi mwisho.
+Proton authenticator ni kithibitishaji cha TOTP. Ni jibu la Proton kwa vikwazo vya programu zilizopo: nyingi ni za umiliki, zina vifuatiliaji vya matangazo na hazitoi nakala rudufu iliyosimbwa. Proton authenticator inajiweka kando kwa kutoa programu huria, isiyo na matangazo na vifuatiliaji, yenye nakala rudufu iliyosimbwa kutoka mwisho hadi mwisho.
 
 
 
-## Tunakuletea Kithibitishaji cha Protoni
+## Tunakuletea Proton-authenticator
 
 
 
-Kithibitishaji cha Proton ni programu ya uthibitishaji ya TOTP ya simu ya mkononi na ya kompyuta ya mezani iliyotengenezwa na Proton, inayojulikana kwa huduma zake zinazolenga faragha. Kama bidhaa zote za Proton, programu ni chanzo huria na imefanyiwa ukaguzi huru wa usalama. Inapatikana bila malipo kwenye majukwaa yote (Android, iOS, Windows, macOS, Linux).
+Proton authenticator ni programu ya uthibitishaji ya TOTP ya simu ya mkononi na ya kompyuta ya mezani iliyotengenezwa na Proton, inayojulikana kwa huduma zake zinazolenga faragha. Kama bidhaa zote za Proton, programu ni chanzo huria na imefanyiwa ukaguzi huru wa usalama. Inapatikana bila malipo kwenye majukwaa yote (Android, iOS, Windows, macOS, Linux).
 
 
 
-Kithibitishaji cha Proton hutoa huduma muhimu zifuatazo:
-
-
-
-
-
-- Uzalishaji wa misimbo ya **TOTP** ya akaunti zako za 2FA, inayooana na tovuti nyingi zinazotumia Kithibitishaji cha Google, Authy, n.k.
+Proton authenticator hutoa huduma muhimu zifuatazo:
 
 
 
 
 
-- **Hifadhi nakala ya wingu iliyosimbwa kwa hiari**: unaweza kuunganisha programu kwenye akaunti yako ya Proton ili kuhifadhi nakala na kusawazisha misimbo yako kwa usimbaji fiche kutoka mwanzo hadi mwisho. Ukipoteza kifaa chako, unganisha upya kifaa kipya ili kurejesha misimbo yako yote.
+- **Uzalishaji wa misimbo ya TOTP** ya akaunti zako za 2FA, inayooana na tovuti nyingi zinazotumia Kithibitishaji cha Google, Authy, n.k.
 
 
 
 
 
-- **Usawazishaji wa vifaa vingi**: kwa kuingia katika Protoni katika programu, misimbo yako ya 2FA husawazishwa kiotomatiki kati ya vifaa vingi kupitia usimbaji fiche kutoka mwanzo hadi mwisho. Kwenye iOS, njia mbadala ni maingiliano kupitia iCloud.
+- **Hifadhi nakala ya cloud iliyosimbwa kwa hiari**: unaweza kuunganisha programu kwenye akaunti yako ya Proton ili kuhifadhi nakala na kusawazisha misimbo yako kwa usimbaji fiche kutoka mwanzo hadi mwisho. Ukipoteza kifaa chako, unganisha upya kifaa kipya ili kurejesha misimbo yako yote.
 
 
 
 
 
-- **Kufunga ndani kwa kutumia nenosiri au bayometriki**: programu hutoa PIN na/au alama ya vidole/kifunga Kitambulisho cha Uso. Kwa hivyo hata mtu akifikia simu yako ambayo haijafunguliwa, hataweza kufungua Kithibitishaji cha Proton.
+- **Usawazishaji wa vifaa vingi**: kwa kuingia katika proton  katika programu, misimbo yako ya 2FA husawazishwa kiotomatiki kati ya vifaa vingi kupitia usimbaji fiche kutoka mwanzo hadi mwisho. Kwenye iOS, njia mbadala ni maingiliano kupitia iCloud.
+
+
+
+
+
+- **Kufunga ndani kwa kutumia nenosiri au bayometriki**: programu hutoa PIN na/au alama ya vidole/kifunga Kitambulisho cha Uso. Kwa hivyo hata mtu akifikia simu yako ambayo haijafunguliwa, hataweza kufungua Proton authenticator.
 
 
 
@@ -66,7 +66,7 @@ Kithibitishaji cha Proton hutoa huduma muhimu zifuatazo:
 
 
 
-Kwa kifupi, Kithibitishaji cha Proton kinalenga kuwa suluhu isiyobadilika ya 2FA: salama, ya faragha, inayonyumbulika.
+Kwa kifupi, Proton authenticator kinalenga kuwa suluhu isiyobadilika ya 2FA: salama, ya faragha, inayonyumbulika.
 
 
 
@@ -82,7 +82,7 @@ Proton Authenticator inapatikana bila malipo kwenye mifumo yote. Ili kupakua pro
 
 
 
-*Ukurasa rasmi wa Kithibitishaji cha Protoni unaoonyesha vipengele vikuu vya programu na Interface*
+*Ukurasa rasmi wa Proton-authenticator unaoonyesha vipengele vikuu vya programu na Interface*
 
 
 
@@ -98,7 +98,7 @@ Katika somo hili, tutakuonyesha jinsi ya kusakinisha na kusanidi kwenye macOS, n
 
 
 
-Mara tu unapopakua na kusakinisha programu, zindua Kithibitishaji cha Proton. Katika uzinduzi wa kwanza, programu inakuongoza kupitia skrini chache za usanidi wa awali:
+Mara tu unapopakua na kusakinisha programu, zindua Proton authenticator. Katika uzinduzi wa kwanza, programu inakuongoza kupitia skrini chache za usanidi wa awali:
 
 
 
@@ -106,7 +106,7 @@ Mara tu unapopakua na kusakinisha programu, zindua Kithibitishaji cha Proton. Ka
 
 
 
-*Skrini ya kukaribisha ya Kithibitishaji cha Proton yenye ujumbe wa "Usalama katika kila msimbo" na kitufe cha "Anza"*
+*Skrini ya kukaribisha ya Proton authenticator yenye ujumbe wa "Usalama katika kila msimbo" na kitufe cha "Anza"*
 
 
 
@@ -114,7 +114,7 @@ Mara tu unapopakua na kusakinisha programu, zindua Kithibitishaji cha Proton. Ka
 
 
 
-Ikiwa Kithibitishaji cha Proton kitatambua kuwa ulikuwa ukitumia programu nyingine ya 2FA hapo awali, mchawi wa kuingiza unaweza kutokea. Inaauni uagizaji wa moja kwa moja kutoka kwa programu fulani (Kithibitishaji cha Google, 2FAS, Authy, Aegis, n.k.). Vinginevyo, unaweza kuruka hatua hii na kuongeza akaunti zako mwenyewe baadaye.
+Ikiwa Proton authenticator itatambua kuwa ulikuwa ukitumia programu nyingine ya 2FA hapo awali, mchawi wa kuingiza unaweza kutokea. Inaauni uagizaji wa moja kwa moja kutoka kwa programu fulani (Kithibitishaji cha Google, 2FAS, Authy, Aegis, n.k.). Vinginevyo, unaweza kuruka hatua hii na kuongeza akaunti zako mwenyewe baadaye.
 
 
 
@@ -166,7 +166,7 @@ Programu pia hukuruhusu kuamilisha ulandanishi wa iCloud ili kuhifadhi nakala ya
 
 
 
-Baada ya hatua hizi kukamilika, Kithibitishaji cha Proton kiko tayari kutumika.
+Baada ya hatua hizi kukamilika, Proton authenticator iko tayari kutumika.
 
 
 
@@ -244,11 +244,11 @@ Ikiwa ungependa kuingiza ufunguo wewe mwenyewe, bofya "Ingiza ufunguo mwenyewe b
 
 
 
-### Changanua msimbo wa QR na Kithibitishaji cha Proton
+### Changanua msimbo wa QR na Proton authenticator
 
 
 
-Katika Kithibitishaji cha Proton kwenye macOS, bonyeza "Unda nambari mpya". Programu inakupa chaguo kadhaa: **Changanua msimbo wa QR** au **Weka ufunguo wewe mwenyewe**.
+Katika Proton authenticator kwenye macOS, bonyeza "Unda nambari mpya". Programu inakupa chaguo kadhaa: **Changanua msimbo wa QR** au **Weka ufunguo wewe mwenyewe**.
 
 
 
@@ -260,11 +260,11 @@ Tumia kamera ya Mac yako kuchanganua msimbo wa QR unaoonyeshwa kwenye skrini ya 
 
 
 
-*Dirisha jipya la kuunda ingizo lenye Kichwa (ProtonMail), Siri, Mtumaji (Protoni), vigezo vya tarakimu na sehemu za muda*
+*Dirisha jipya la kuunda ingizo lenye Kichwa (ProtonMail), Siri, Mtumaji (proton ), vigezo vya tarakimu na sehemu za muda*
 
 
 
-Kithibitishaji cha Protoni kitajaza maelezo kiotomatiki. Unaweza kubinafsisha jina ukitaka, kisha ubofye "Hifadhi".
+Proton-authenticator itajaza maelezo kiotomatiki. Unaweza kubinafsisha jina ukitaka, kisha ubofye "Hifadhi".
 
 
 
@@ -312,7 +312,7 @@ Baada ya kuthibitishwa, ProtonMail itakuomba upakue misimbo yako ya urejeshaji. 
 
 
 
-Unapoongeza akaunti, weka misimbo ya uokoaji iliyotolewa na huduma. Tovuti nyingi hutoa misimbo ya uokoaji tuli, ya matumizi moja tu ili kuhifadhi mahali salama. Weka misimbo hii mbadala nje ya Kithibitishaji cha Proton ili uweze kufikia akaunti yako ukipoteza ufikiaji wa programu ya 2FA.
+Unapoongeza akaunti, weka misimbo ya uokoaji iliyotolewa na huduma. Tovuti nyingi hutoa misimbo ya uokoaji tuli, ya matumizi moja tu ili kuhifadhi mahali salama. Weka misimbo hii mbadala nje ya Proton authenticator ili uweze kufikia akaunti yako ukipoteza ufikiaji wa programu ya 2FA.
 
 
 
@@ -320,7 +320,7 @@ Unapoongeza akaunti, weka misimbo ya uokoaji iliyotolewa na huduma. Tovuti nying
 
 
 
-Kwa kuwa sasa umeanzisha Kithibitishaji cha Proton kwenye macOS, unaweza pia kutaka kuitumia kwenye iPhone au iPad yako. Hivi ndivyo jinsi ya kupata misimbo yako ya 2FA kwenye vifaa vingi.
+Kwa kuwa sasa umeanzisha Proton authenticator kwenye macOS, unaweza pia kutaka kuitumia kwenye iPhone au iPad yako. Hivi ndivyo jinsi ya kupata misimbo yako ya 2FA kwenye vifaa vingi.
 
 
 
@@ -328,7 +328,7 @@ Kwa kuwa sasa umeanzisha Kithibitishaji cha Proton kwenye macOS, unaweza pia kut
 
 
 
-Nenda kwenye Duka la Programu na utafute "Kithibitishaji cha Proton". Pakua na usakinishe programu kwenye kifaa chako cha iOS.
+Nenda kwenye Duka la Programu na utafute "Proton authenticator". Pakua na usakinishe programu kwenye kifaa chako cha iOS.
 
 
 
@@ -336,7 +336,7 @@ Nenda kwenye Duka la Programu na utafute "Kithibitishaji cha Proton". Pakua na u
 
 
 
-*Mchakato wa usakinishaji kwenye iOS: skrini ya kukaribisha, mchawi wa kuingiza, uteuzi wa programu zinazooana na "Leta misimbo kutoka kwa Kithibitishaji cha Proton"* skrini
+*Mchakato wa usakinishaji kwenye iOS: skrini ya kukaribisha, mchawi wa kuingiza, uteuzi wa programu zinazooana na "Leta misimbo kutoka kwa Proton authenticator"* skrini
 
 
 
@@ -352,7 +352,7 @@ Ikiwa hutumii ulandanishi wa kiotomatiki (akaunti ya iCloud au Proton), utahitaj
 
 
 
-Kwenye Mac yako, fungua Kithibitishaji cha Proton na uende kwa Mipangilio (ikoni ya gia). Katika menyu, bonyeza "Export".
+Kwenye Mac yako, fungua Proton authenticator na uende kwa Mipangilio (ikoni ya gia). Katika menyu, bonyeza "Export".
 
 
 
@@ -360,7 +360,7 @@ Kwenye Mac yako, fungua Kithibitishaji cha Proton na uende kwa Mipangilio (ikoni
 
 
 
-* Menyu ya mipangilio ya Kithibitishaji cha Proton kwenye macOS na chaguo la "Export" linaonekana *
+* Menyu ya mipangilio ya Proton authenticator kwenye macOS na chaguo la "Export" linaonekana *
 
 
 
@@ -380,7 +380,7 @@ Hifadhi faili ya JSON kwenye Mac yako. Unaweza kuituma kwa barua pepe salama au 
 
 
 
-Kwenye iPhone yako, sakinisha Kithibitishaji cha Proton na wakati wa usanidi, chagua kuleta misimbo. Chagua "Kithibitishaji cha Proton" kutoka kwenye orodha na uingize faili ya JSON.
+Kwenye iPhone yako, sakinisha Proton authenticator na wakati wa usanidi, chagua kuleta misimbo. Chagua "Proton authenticator" kutoka kwenye orodha na uingize faili ya JSON.
 
 
 
@@ -396,7 +396,7 @@ Kwenye iPhone yako, sakinisha Kithibitishaji cha Proton na wakati wa usanidi, ch
 
 
 
-**Kupitia akaunti ya Protoni (kwa ulandanishi wa majukwaa mengi)** :
+**Kupitia akaunti ya proton  (kwa ulandanishi wa majukwaa mengi)** :
 
 
 
@@ -408,7 +408,7 @@ Ikiwa bado haujafungua akaunti ya Proton na ungependa kusawazisha kati ya mifumo
 
 
 
-*Skrini ya kusawazisha kifaa ikikuuliza uunde akaunti ya Protoni bila malipo au uunganishe kwenye akaunti iliyopo*
+*Skrini ya kusawazisha kifaa ikikuuliza uunde akaunti ya proton  bila malipo au uunganishe kwenye akaunti iliyopo*
 
 
 
@@ -431,7 +431,7 @@ Moja ya vipengele muhimu vya Proton Authenticator ni uhifadhi wake wa mwisho-mwi
 
 
 
-Inapokuja suala la kuhifadhi nakala ya wingu iliyosimbwa kwa njia fiche na Kithibitishaji cha Proton, siri zako za TOTP husimbwa kwa njia fiche kwenye kifaa chako kabla ya kutumwa kwa seva ya Proton. Ni wewe tu unayeweza kusimbua, kwenye vifaa vyako vilivyounganishwa kwenye akaunti yako ya Proton. Proton AG haina ufunguo wa kusoma misimbo yako iliyosajiliwa.
+Inapokuja suala la kuhifadhi nakala ya cloud iliyosimbwa kwa njia fiche na Proton authenticator, siri zako za TOTP husimbwa kwa njia fiche kwenye kifaa chako kabla ya kutumwa kwa seva ya Proton. Ni wewe tu unayeweza kusimbua, kwenye vifaa vyako vilivyounganishwa kwenye akaunti yako ya Proton. Proton AG haina ufunguo wa kusoma misimbo yako iliyosajiliwa.
 
 
 
@@ -447,19 +447,19 @@ Simu yako ikipotea, kuibiwa au ukibadilisha simu :
 
 
 
-**Nakala ya Proton ikiwa imewashwa**: Sakinisha Kithibitishaji cha Protoni kwenye kifaa kipya. Wakati wa usanidi wa awali, ingia kwenye akaunti sawa ya Protoni. Mara moja, programu itasawazisha na kupakua misimbo yako yote ya 2FA kutoka kwa hifadhi rudufu iliyosimbwa.
+**Nakala ya Proton ikiwa imewashwa**: Sakinisha Proton-authenticator kwenye kifaa kipya. Wakati wa usanidi wa awali, ingia kwenye akaunti sawa ya proton . Mara moja, programu itasawazisha na kupakua misimbo yako yote ya 2FA kutoka kwa hifadhi rudufu iliyosimbwa.
 
 
 
-**Kwa kutumia nakala rudufu ya iCloud (iOS)**: Unganisha iPhone/iPad mpya kwa Kitambulisho sawa cha Apple na uhakikishe kuwa umewasha iCloud Keychain. Baada ya kusakinisha Kithibitishaji cha Proton, unganisha kwa iCloud. Nambari zako zinapaswa kusawazishwa kupitia iCloud na kuonekana.
+**Kwa kutumia nakala rudufu ya iCloud (iOS)**: Unganisha iPhone/iPad mpya kwa Kitambulisho sawa cha Apple na uhakikishe kuwa umewasha iCloud Keychain. Baada ya kusakinisha Proton authenticator, unganisha kwa iCloud. Nambari zako zinapaswa kusawazishwa kupitia iCloud na kuonekana.
 
 
 
-**Hakuna hifadhi rudufu ya mtandaoni**: Utahitaji kuleta akaunti zako wewe mwenyewe. Ikiwa ulikuwa umehamisha faili chelezo, tumia kipengele cha Leta katika Kithibitishaji cha Proton. Katika hali mbaya zaidi, ikiwa hukuwa na chelezo, utahitaji kutumia misimbo ya hifadhi rudufu kwa kila huduma, au uwasiliane na usaidizi.
+**Hakuna hifadhi rudufu ya mtandaoni**: Utahitaji kuleta akaunti zako wewe mwenyewe. Ikiwa ulikuwa umehamisha faili chelezo, tumia kipengele cha Leta katika Proton authenticator. Katika hali mbaya zaidi, ikiwa hukuwa na chelezo, utahitaji kutumia misimbo ya hifadhi rudufu kwa kila huduma, au uwasiliane na usaidizi.
 
 
 
-Kithibitishaji cha Proton hukuruhusu kuhamisha akaunti zako wakati wowote, kama faili iliyosimbwa kwa njia fiche au kama msimbo wa QR wa akaunti nyingi. Chaguo hizi hukupa uhakikisho zaidi.
+Proton authenticator hukuruhusu kuhamisha akaunti zako wakati wowote, kama faili iliyosimbwa kwa njia fiche au kama msimbo wa QR wa akaunti nyingi. Chaguo hizi hukupa uhakikisho zaidi.
 
 
 
@@ -483,7 +483,7 @@ Unapowasha 2FA kwenye huduma, mara nyingi hupewa orodha ya misimbo ya uokoaji. Z
 
 
 
-Inajaribu kutumia kidhibiti cha nenosiri ambacho pia huhifadhi TOTP. Hata hivyo, kuweka nenosiri na msimbo wa 2FA mahali pamoja hujenga hatua moja ya kushindwa na kudhoofisha uthibitishaji wa pande mbili. Kwa usalama wa hali ya juu, wataalam wengi wanapendekeza kutenganisha vipengele viwili: nenosiri katika kidhibiti salama, na misimbo ya 2FA katika programu tofauti kama vile Kithibitishaji cha Proton. Walakini, kutumia meneja aliyejumuishwa bado ni bora kuliko kutokuwa na 2FA kabisa.
+Inajaribu kutumia kidhibiti cha nenosiri ambacho pia huhifadhi TOTP. Hata hivyo, kuweka nenosiri na msimbo wa 2FA mahali pamoja hujenga hatua moja ya kushindwa na kudhoofisha uthibitishaji wa pande mbili. Kwa usalama wa hali ya juu, wataalam wengi wanapendekeza kutenganisha vipengele viwili: nenosiri katika kidhibiti salama, na misimbo ya 2FA katika programu tofauti kama vile Proton authenticator. Walakini, kutumia meneja aliyejumuishwa bado ni bora kuliko kutokuwa na 2FA kabisa.
 
 
 
@@ -505,7 +505,7 @@ Vile vile, weka misimbo ya dharura iliyochapishwa mkononi.
 
 
 
-Usiruhusu mtu yeyote kutafuta simu yako ambayo haijafunguliwa. Ukiwa na Kithibitishaji cha Proton, misimbo yako inalindwa na PIN/bayometriki - usifichue PIN hii. Vile vile, jihadhari na wizi wa data binafsi: hata kwa 2FA, ikiwa unatoa msimbo kwa tovuti ya ulaghai kwa wakati halisi, inaweza kutumiwa na mshambulizi.
+Usiruhusu mtu yeyote kutafuta simu yako ambayo haijafunguliwa. Ukiwa na Proton authenticator, misimbo yako inalindwa na PIN/bayometriki - usifichue PIN hii. Vile vile, jihadhari na wizi wa data binafsi: hata kwa 2FA, ikiwa unatoa msimbo kwa tovuti ya ulaghai kwa wakati halisi, inaweza kutumiwa na mshambulizi.
 
 
 
@@ -513,7 +513,7 @@ Usiruhusu mtu yeyote kutafuta simu yako ambayo haijafunguliwa. Ukiwa na Kithibit
 
 
 
-Sasisha Kithibitishaji cha Proton (sasisha dosari zinazowezekana). Kwa vile kanuni ziko wazi, jumuiya hufanya ukaguzi usio rasmi, na Proton huchapisha matokeo ya ukaguzi rasmi.
+Sasisha Proton authenticator (sasisha dosari zinazowezekana). Kwa vile kanuni ziko wazi, jumuiya hufanya ukaguzi usio rasmi, na Proton huchapisha matokeo ya ukaguzi rasmi.
 
 
 
@@ -521,23 +521,23 @@ Sasisha Kithibitishaji cha Proton (sasisha dosari zinazowezekana). Kwa vile kanu
 
 
 
-Kithibitishaji cha Proton hujipanga vipi dhidi ya programu zingine za uthibitishaji? Hapa kuna muhtasari wa kulinganisha:
+Proton authenticator hujipanga vipi dhidi ya programu zingine za uthibitishaji? Hapa kuna muhtasari wa kulinganisha:
 
 
 
-**Kithibitishaji cha Proton**: Chanzo huria, hifadhi rudufu ya wingu iliyosimbwa kwa hiari ya E2EE, usawazishaji wa vifaa vingi, kufunga ndani, hakuna ufuatiliaji, unapatikana kwenye simu na eneo-kazi.
+**Proton authenticator**: Chanzo huria, hifadhi rudufu ya cloud iliyosimbwa kwa hiari ya E2EE, usawazishaji wa vifaa vingi, kufunga ndani, hakuna ufuatiliaji, unapatikana kwenye simu na eneo-kazi.
 
 
 
-**Kithibitishaji cha Google**: Umiliki, kuhifadhi nakala kupitia akaunti ya Google tangu 2023 lakini bila usimbaji fiche kutoka mwanzo hadi mwisho (funguo zinaweza kuonekana na Google), usawazishaji wa vifaa vingi uliongezwa mnamo 2023, hakuna kufunga programu kwa chaguomsingi, una vifuatiliaji vya Google.
+**Google Authenticator**: Umiliki, kuhifadhi nakala kupitia akaunti ya Google tangu 2023 lakini bila usimbaji fiche kutoka mwanzo hadi mwisho (funguo zinaweza kuonekana na Google), usawazishaji wa vifaa vingi uliongezwa mnamo 2023, hakuna kufunga programu kwa chaguomsingi, una vifuatiliaji vya Google.
 
 
 
-**Kithibitishaji cha Aegis**: Chanzo huria, hifadhi rudufu ya ndani pekee, hakuna ulandanishi wa wingu, kufuli ya msimbo/kibayometriki, hakuna ufuatiliaji, Android pekee.
+**Aegis Authenticator**: Chanzo huria, hifadhi rudufu ya ndani pekee, hakuna ulandanishi wa cloud, kufuli ya msimbo/kibayometriki, hakuna ufuatiliaji, Android pekee.
 
 
 
-**Uhalali**: Hifadhi rudufu ya wingu yenye umiliki, iliyosimbwa kwa nenosiri lakini msimbo uliofungwa, usawazishaji wa vifaa vingi, kifunga PIN/alama ya vidole, hukusanya nambari ya simu, programu ya kompyuta ya mezani ilikomeshwa mnamo Machi 2024.
+**Uhalali**: Hifadhi rudufu ya cloud yenye umiliki, iliyosimbwa kwa nenosiri lakini msimbo uliofungwa, usawazishaji wa vifaa vingi, kifunga PIN/alama ya vidole, hukusanya nambari ya simu, programu ya kompyuta ya mezani ilikomeshwa mnamo Machi 2024.
 
 
 
@@ -547,7 +547,7 @@ Utapata mwongozo wetu kwa Authy hapa chini:
 
 https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-Kithibitishaji cha Proton ni mojawapo ya suluhu za kina na salama zinazopatikana: chanzo huria, ulandanishi uliosimbwa wa vifaa vingi, hakuna ufuatiliaji wa kibiashara.
+Proton authenticator ni mojawapo ya suluhu za kina na salama zinazopatikana: chanzo huria, ulandanishi uliosimbwa wa vifaa vingi, hakuna ufuatiliaji wa kibiashara.
 
 
 
@@ -562,8 +562,8 @@ Kithibitishaji cha Proton ni mojawapo ya suluhu za kina na salama zinazopatikana
 
 - **Tovuti rasmi**: [proton.me/authenticator](https://proton.me/authenticator) - Wasilisho na upakuaji wa bidhaa
 - **Pakua ukurasa**: [proton.me/en/authenticator/download](https://proton.me/fr/authenticator/download) - Viungo vya OS zote
-- **Usaidizi wa Protoni**: [proton.me/support/two-factor-authentication-2fa](https://proton.me/support/two-factor-authentication-2fa) - Mwongozo Rasmi wa kuwezesha 2FA
-- **Blogu ya Protoni**: [proton.me/blog/authenticator-app](https://proton.me/blog/authenticator-app) - Tangazo na vipengele vya kina
+- **Usaidizi wa Proton**: [proton.me/support/two-factor-authentication-2fa](https://proton.me/support/two-factor-authentication-2fa) - Mwongozo Rasmi wa kuwezesha 2FA
+- **Blog ya Proton**: [proton.me/blog/authenticator-app](https://proton.me/blog/authenticator-app) - Tangazo na vipengele vya kina
 
 
 
@@ -572,7 +572,7 @@ Kithibitishaji cha Proton ni mojawapo ya suluhu za kina na salama zinazopatikana
 
 
 
-- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Fungua msimbo wa chanzo
+- **GitHub Proton Authenticator** : [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Fungua msimbo wa chanzo
 - **Ukaguzi wa usalama**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Ripoti za ukaguzi huru
 
 
@@ -595,8 +595,8 @@ Baada ya kusanidi, jaribu usanidi wako:
 
 
 
-- Reddit r/Proton: [reddit.com/r/ProtonMail](https://reddit.com/r/ProtonMail) - Jumuiya Rasmi ya Protoni
-- **Mijadala ya Miongozo ya Faragha**: [discuss.privacyguides.net](https://discuss.privacyguides.net) - Mijadala ya kiufundi kuhusu masuala ya faragha
+- **Reddit r/Proton** : [reddit.com/r/ProtonMail](https://reddit.com/r/ProtonMail) - Jumuiya Rasmi ya proton 
+- **Mijadala ya Miongozo ya Faragha** : [discuss.privacyguides.net](https://discuss.privacyguides.net) - Mijadala ya kiufundi kuhusu masuala ya faragha
 - **Reddit r/privacy**: [reddit.com/r/privacy](https://reddit.com/r/privacy) - Vidokezo vya jumla vya faragha
 
 

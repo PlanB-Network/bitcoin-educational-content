@@ -6,3 +6,4 @@ wrong_answers:
   - Hallinnollisia maksuja saatetaan vaatia, mutta vain kaupallisesta uudelleenjakelusta
 explanation: |
   Avoimen lähdekoodin määritelmän kohdassa "Vapaa jakelu" todetaan nimenomaisesti, että "Lisenssi ei saa vaatia rojaltia tai muuta maksua tällaisesta myynnistä" Tämä tarkoittaa, että avoimen lähdekoodin ohjelmistojen on oltava vapaasti jaettavissa ilman pakollisia maksuja tai rojalteja. Muissa vaihtoehdoissa annetaan virheellisesti ymmärtää, että erilaiset maksut ovat sallittuja, mikä rikkoisi avoimen lähdekoodin ohjelmistoja määrittelevää vapaan uudelleenjakelun perusperiaatetta.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Кой създава първия кооператив mining, който произвежда блок в Bitcoin?
+answer: doublec
+wrong_answers:
+  - слаш
+  - puddinpop
+  - m0mchil
+explanation: |
+  Той го популяризира на 1 декември. Блокът е [намерен](https: //bitcointalk.org/index.php?topic=2027.msg26688#msg26688) на 4 декември 2010 г. От друга страна, кооперативът на Слаш е стартиран на 16 декември.
+reviewed: true

@@ -22,11 +22,11 @@ Sote tunatumia saa nyingi mtandaoni, mara nyingi bila kutambua kile kivinjari ch
 
 
 
-Kama grafu hii inavyoonyesha, Google Chrome inatawala sana, na zaidi ya 65% ya matumizi duniani kote. Utawala huu unamaanisha kuwa wengi wa watumiaji wa Intaneti hukabidhi data yao ya kuvinjari kwa Google, kampuni ambayo muundo wake wa biashara unategemea utangazaji lengwa. Firefox, yenye 3% tu ya soko, inawakilisha njia mbadala iliyotengenezwa na Mozilla, shirika lisilo la faida lisilo na nia ya kibiashara katika kutumia data yako.
+Kama grafu hii inavyoonyesha, Google Chrome inatawala sana, ikiwa na zaidi ya asilimia 65 ya matumizi duniani kote. Utawala huu unamaanisha kuwa wengi wa watumiaji wa Intaneti hukabidhi data yao ya kuvinjari kwa Google, kampuni ambayo muundo wake wa biashara unategemea matangazo lengwa. Firefox, yenye asilimia 3 tu ya soko, inawakilisha njia mbadala iliyotengenezwa na Mozilla, shirika lisilo la faida na lisilo na nia ya kibiashara katika kutumia data yako.
 
 
 
-Lakini kuchagua Firefox ni hatua ya kwanza tu. Kwa chaguo-msingi, hata Firefox inahitaji marekebisho ili kuongeza ulinzi wako. Mwongozo huu unakuchukua hatua kwa hatua, kutoka rahisi hadi ya hali ya juu zaidi, ili kubadilisha Firefox kuwa ngao ya kweli dhidi ya ufuatiliaji huku ukihifadhi hali ya kuvinjari ya kupendeza.
+Lakini kuchagua Firefox ni hatua ya kwanza tu. Kwa chaguo-msingi, hata Firefox inahitaji marekebisho ili kuongeza ulinzi wako. Mwongozo huu unakuongoza hatua kwa hatua, kutoka rahisi hadi ya hali ya juu zaidi, ili kubadilisha Firefox kuwa ngao ya kweli dhidi ya ufuatiliaji huku ukihifadhi uzoefu mzuri wa kuvinjari.
 
 
 
@@ -36,7 +36,7 @@ Lakini kuchagua Firefox ni hatua ya kwanza tu. Kwa chaguo-msingi, hata Firefox i
 
 
 
-- **Chanzo huria na huria** (Injini ya Gecko): msimbo unaoweza kukaguliwa na uwazi
+- **Chanzo huria na wazi** (Injini ya Gecko): msimbo unaoweza kukaguliwa na uwazi
 - **Shirika lisilo la faida**: Wakfu wa Mozilla, dhamira ya maslahi ya jumla
 - **Ulinzi wa asili uliojengewa ndani**: Ulinzi ulioimarishwa wa Ufuatiliaji (ETP), Ulinzi wa Jumla wa Vidakuzi (TCP), Ugawaji wa Jimbo, hali ya HTTPS pekee, DNS kupitia HTTPS (DoH)
 - **Ubinafsishaji wa hali ya juu**: tofauti na Chrome, Firefox hukuruhusu kurekebisha tabia yake kwa kina
@@ -137,7 +137,7 @@ Ili kufikia mipangilio, bofya kwenye menyu ☰ iliyo juu kulia, kisha **"Mipangi
 
 
 - Badili **ETP** hadi **Madhubuti**. Unazuia vifuatiliaji zaidi (vidakuzi vya tovuti tofauti, uwekaji alama za vidole, maandishi ya siri, wijeti za kijamii...).
-- Ikiwa tovuti itavunjika (video, kitufe cha kuingia...), zima ulinzi kwa tovuti hiyo pekee kupitia ngao ya 🛡️, kisha uonyeshe upya kichupo.
+- Ikiwa tovuti itavunjika (video, kitufe cha kuingia...), zima ulinzi kwa tovuti hiyo pekee kupitia shield ya 🛡️, kisha uonyeshe upya kichupo.
 
 
 
@@ -147,7 +147,7 @@ Hapa kuna viwango tofauti vya usalama vya ETP:
 
 
 - **Kawaida** (uwiano, utangamano wa juu zaidi)
-  - Vitalu: vifuatiliaji vya kijamii, vidakuzi vya tovuti mbalimbali (madirisha yote), kufuatilia maudhui katika kuvinjari kwa faragha, wachimbaji madini ya cryptocurrency, vigunduzi vya alama za vidole.
+  - Blocks: vifuatiliaji vya kijamii, vidakuzi vya tovuti mbalimbali (madirisha yote), kufuatilia maudhui katika kuvinjari kwa faragha, wachimbaji madini ya cryptocurrency, vigunduzi vya alama za vidole.
   - Inajumuisha **Jumla ya Ulinzi wa Vidakuzi** (TCP): jarida moja kwa kila tovuti.
 - **Madhubuti** (inapendekezwa kwa usiri)
   - Pia huzuia ufuatiliaji wa maudhui katika madirisha yote + yanayojulikana na kushukiwa kuwa alama ya vidole.
@@ -312,7 +312,7 @@ Lengo: kugawanya shughuli na kupunguza uvujaji wa mtandao.
 
 
 
-- **Kuki Kufuta Kiotomatiki**: hufuta vidakuzi vya tovuti mara tu kichupo kinapofungwa (ni muhimu ikiwa Firefox imefunguliwa kwa muda mrefu).
+- **Kufuta cookie Kiotomatiki**: hufuta vidakuzi vya tovuti mara tu kichupo kinapofungwa (ni muhimu ikiwa Firefox imefunguliwa kwa muda mrefu).
 - **LocalCDN**: hutumikia maktaba za sasa ndani ya nchi (hupunguza simu kwa Google/Microsoft). Utangamano wa sehemu.
 
 
@@ -338,10 +338,10 @@ Chagua moja tu kati ya njia mbili zifuatazo:
 
 
 
-**Njia A - Marekebisho ya Mwongozo**: Marekebisho machache yaliyolengwa kupitia `kuhusu:usanidi` (udhibiti rahisi na sahihi zaidi)
+**Plan A - Marekebisho ya Mwongozo**: Marekebisho machache yaliyolengwa kupitia `kuhusu:usanidi` (udhibiti rahisi na sahihi zaidi)
 
 
-**Njia B - Arkenfox user.js**: Usanidi kamili wa kiotomatiki (ulinzi tata zaidi, wa juu zaidi)
+**Plan B - Arkenfox user.js**: Usanidi kamili wa kiotomatiki (ulinzi tata zaidi, wa juu zaidi)
 
 
 
@@ -385,7 +385,7 @@ Madoido: Saa za eneo la UTC, **boxboxing** (ukubwa wa kawaida wa dirisha), Wakal
 
 
 
-- Lemaza WebRTC (huepuka uvujaji wa IP; vunja vioo vya Wavuti)
+- Lemaza WebRTC (huepuka uvujaji wa IP; break web mirrors)
 
 
 ```text
@@ -450,7 +450,7 @@ Mradi wa **Arkenfox** unatoa faili ya `user.js` inayodumishwa na jumuiya ambayo 
 - Kinachobadilika (mifano): kukatwa kwa telemetry, vidakuzi/akiba/referrer/HTTPS kuimarishwa, **RFP** + letterboxing, **WebRTC imezimwa**, marekebisho ya DoH/TLS, API za gumzo zimepunguzwa.
 - Wakati wa kuitumia: ikiwa ungependa Firefox iwe ngumu kwa dakika 10 na ukubali vighairi vichache (DRM/kutiririsha, Visio ya Wavuti, SSO/malipo).
 - Manufaa: haraka, thabiti, **ilisasishwa** (imepangiliwa na ESR), imeandikwa vizuri sana **iliyoandikwa** (wiki + maoni), **inayoweza kubinafsishwa** kupitia kubatilisha.
-- Vizuizi: uoanifu (baadhi ya programu za wavuti), faraja (UTC, ukubwa wa dirisha), na kikumbusho: **sio Tor** (hakuna utambulisho wa mtandao).
+- Blocks: uoanifu (baadhi ya programu za wavuti), faraja (UTC, ukubwa wa dirisha), na kikumbusho: **sio Tor** (hakuna utambulisho wa mtandao).
 
 
 
@@ -473,7 +473,7 @@ Usakinishaji (bora kwenye wasifu uliojitolea)
    - macOS: `~/Maktaba/Msaada wa Maombi/Firefox/Profaili/...`
 
 
-4. Funga Firefox na usogeze `user.js` kwenye mzizi wa folda ya wasifu.
+4. Funga Firefox na usogeze `user.js` kwenye roots ya folda ya wasifu.
 
 
 5. Kuzindua upya; geuza kukufaa kupitia `kuhusu:config` au faili ya kubatilisha.
@@ -531,7 +531,7 @@ Mbinu bora
 
 - Tumia wasifu tofauti **"Arkenfox"** na uweke wasifu "wa kawaida" kwa faraja.
 - Punguza viendelezi (UBlock Origin Sawa) ili kupunguza eneo la mashambulizi na upekee.
-- Ongeza vighairi vya tovuti kwa tovuti (ngao 🛡️, uBO, NoScript ikitumika) inapohitajika.
+- Ongeza vighairi vya tovuti kwa tovuti (shield 🛡️, uBO, NoScript ikitumika) inapohitajika.
 - Jaribu baada ya kila mabadiliko: Uvujaji wa WebRTC/DNS, Funika Nyimbo Zako, CreepJS.
 
 
@@ -544,7 +544,7 @@ Mbinu bora
 
 - **Masasisho**: Firefox na viendelezi vilivyosasishwa.
 - **Viendelezi**: busara na ya kuaminika; Jihadharini na ukombozi "wa kutisha".
-- **Vipakuliwa**: tahadhari; jaribu faili nyeti kwenye VirusTotal.
+- **Downloads**: tahadhari; jaribu faili nyeti kwenye VirusTotal.
 - **Nenosiri**: **meneja aliyejitolea** (Bitwarden, KeePassXC); **2FA** imewezeshwa; epuka kuhifadhi kwenye kivinjari.
 - **Usafi**: funga Google/Facebook kwenye vyombo; funga/fungua mara kwa mara ili "kuweka upya" muktadha.
 
@@ -583,7 +583,7 @@ https://planb.academy/tutorials/computer-security/communication/mullvad-browser-
 
 
 
-Kwa kufuata mwongozo huu wa hatua kwa hatua, umebadilisha Firefox kuwa ngome ya kweli dhidi ya ufuatiliaji wa dijiti. Kuanzia mipangilio muhimu ya Kiwango cha 1 hadi usanidi wa hali ya juu wa Arkenfox, kila mabadiliko huimarisha faragha yako bila kuathiri matumizi yako ya kuvinjari.
+Kwa kufuata mwongozo huu wa hatua kwa hatua, umebadilisha Firefox kuwa ngome ya kweli dhidi ya ufuatiliaji wa dijiti. Kuanzia mipangilio muhimu ya Kiwango cha 1 hadi usanidi wa hali ya juu wa Arkenfox, kila mabadiliko huimarisha faragha yako bila kuathiri uzoefu wako wa kuvinjari.
 
 
 
@@ -591,7 +591,7 @@ Kwa kufuata mwongozo huu wa hatua kwa hatua, umebadilisha Firefox kuwa ngome ya 
 
 
 
-**Kumbuka: usiri haupewi kamwe. Jaribu ulinzi wako mara kwa mara, sasisha mipangilio yako, na usisite kurekebisha usanidi wako tabia zako zinavyobadilika. Kutokujulikana kwako mtandaoni kunategemea zaidi zana zako na mbinu zako.**
+**Kumbuka:Usiri haupewi kamwe. Jaribu ulinzi wako mara kwa mara, sasisha mipangilio yako, na usisite kurekebisha usanidi wako kadri tabia zako zinavyobadilika. Kutokujulikana kwako mtandaoni kunategemea zaidi zana zako na mbinu zako.**
 
 
 

@@ -6,3 +6,4 @@ wrong_answers:
   - Troškove subvencije blokova snose berze putem naknada za trgovanje, dok naknade za transakcije plaćaju wallet provajderi.
 explanation: |
   Kao što je Paul Sztorc primetio, subvencija za blok i transakcione naknade su fundamentalno različite po prirodi. Subvencija za blok predstavlja stvaranje novih bitkoina, što razređuje postojeću ponudu i efektivno košta sve vlasnike bitkoina kroz monetarnu inflaciju. Nasuprot tome, transakcione naknade su direktna plaćanja koja vrše korisnici koji žele da transakcionišu, što znači da trošak direktno snose potrošači. Poglavlje ilustruje ovu tranziciju pokazujući kako će se troškovi sigurnosti prebaciti sa vlasnika na potrošače kako subvencija za blok bude opadala tokom vremena.
+reviewed: false

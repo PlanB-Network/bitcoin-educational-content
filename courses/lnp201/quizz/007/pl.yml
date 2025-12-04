@@ -6,4 +6,4 @@ wrong_answers:
   - Reprezentują one niewielkie, stałe ilości bitcoinów
 explanation: |
   Podobnie jak banknot, UTXO musi zostać wydany w transakcji w całości, a nadwyżka jest zwracana nadawcy jako reszta.
-reviewed: false
+reviewed: true

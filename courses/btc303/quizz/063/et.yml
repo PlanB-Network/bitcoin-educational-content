@@ -6,3 +6,4 @@ wrong_answers:
   - GitHubi repositoorium säilitab põhivõti, mis kinnitab kõik teised repositooriumi koopiad kogu maailmas
 explanation: |
   Peatükis viidatud Jameson Loppi analüüsi kohaselt on Bitcoin Core'i GitHubi repositoorium tehniliselt identne kõigi teiste koopiatega. Selle tähtsus on puhtalt sotsiaalne - sellest on saanud arenduse koordineerimise keskpunkt. Hoidla on pigem mugavuse kui tehnilise autoriteedi küsimus ja kui see kaoks, tekiks loomulikult uus keskne punkt. See näitab Bitcoin detsentraliseeritud olemust, kus ühelgi hoidlal ei ole tehnilist ülemvõimu teiste üle.
+reviewed: false

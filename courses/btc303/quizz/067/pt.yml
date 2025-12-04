@@ -6,3 +6,4 @@ wrong_answers:
   - Melhorar o desempenho da verificação de assinaturas para processar blocos mais rapidamente
 explanation: |
   O capítulo define explicitamente o escalonamento do Bitcoin como 'aumentar a capacidade de uso do Bitcoin sem comprometer sua resistência à censura' A resposta correta viola essa definição porque exigir que os usuários confiem em processadores de pagamento centralizados compromete diretamente a resistência à censura do Bitcoin - uma proposta de valor central. Todas as respostas erradas representam abordagens legítimas de escalonamento mencionadas no capítulo: a codificação eficiente reduz o uso de recursos, as soluções em camadas permitem capacidade adicional enquanto preservam as propriedades da camada de base e a verificação de assinatura aprimorada melhora o desempenho sem compensações de centralização.
+reviewed: false

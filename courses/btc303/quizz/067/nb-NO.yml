@@ -6,3 +6,4 @@ wrong_answers:
   - Forbedret signaturverifisering for å behandle blokker raskere
 explanation: |
   Kapittelet definerer Bitcoin-skalering eksplisitt som "å øke Bitcoins brukskapasitet uten at det går på bekostning av sensurmotstanden" Det riktige svaret bryter med denne definisjonen fordi det å kreve at brukerne stoler på sentraliserte betalingsprosessorer, går direkte på bekostning av Bitcoins sensurresistens - et sentralt verdiforslag. De gale svarene representerer alle legitime skaleringsmetoder som er nevnt i kapittelet: effektiv koding reduserer ressursbruken, lagdelte løsninger muliggjør ekstra kapasitet samtidig som basislagets egenskaper bevares, og forbedret signaturverifisering øker ytelsen uten at det går på bekostning av sentralisering.
+reviewed: false

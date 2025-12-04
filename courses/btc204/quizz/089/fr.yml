@@ -8,6 +8,7 @@ wrong_answers:
   - Par des subventions de la communauté Bitcoin.
 
 explanation: |
-  Les makers laissent leurs bitcoins à disposition des takers et reçoivent des frais en contrepartie de leur service. Les takers, quant à eux, paient pour utiliser les bitcoins des makers afin de réaliser leurs propres transactions coinjoin.
+  Les makers laissent leurs bitcoins à disposition des takers et reçoivent des frais en contrepartie de leur service. Les takers, quant à eux, 
+  paient pour utiliser les bitcoins des makers afin de réaliser leurs propres transactions coinjoin.
 
-reviewed: false
+reviewed: true 

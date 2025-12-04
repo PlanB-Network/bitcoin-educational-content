@@ -1,6 +1,6 @@
 ---
 name: Aegis Authenticator
-description: Unawezaje kutumia Kithibitishaji cha Aegis ili kulinda akaunti zako kwa uthibitishaji wa pande mbili?
+description: Unawezaje kutumia Authenticator ya Aegis ili kulinda akaunti zako kwa uthibitishaji wa pande mbili?
 ---
 
 ![cover](assets/cover.webp)
@@ -11,15 +11,15 @@ Leo, uthibitishaji wa vipengele viwili (2FA) ni muhimu ili kupata akaunti za mta
 
 
 
-Walakini, sio programu zote za uthibitishaji zinaundwa sawa. Masuluhisho mengi ya wamiliki (Kithibitishaji cha Google, Authy, n.k.) huleta matatizo: ni ya umiliki na ya siri (haiwezekani kukagua usalama wao), wakati mwingine hujumuisha vifuatiliaji vya utangazaji, haitoi nakala rudufu za misimbo yako, na inaweza hata kuzuia kusafirisha akaunti zako ili kukufungia kwenye mfumo wao wa ikolojia.
+Walakini, sio programu zote za uthibitishaji zinaundwa sawa. Masuluhisho mengi ya wamiliki (Authenticator ya Google, Authy, n.k.) huleta matatizo: ni ya umiliki na ya siri (haiwezekani kukagua usalama wao), wakati mwingine hujumuisha vifuatiliaji vya utangazaji, haitoi nakala rudufu za misimbo yako, na inaweza hata kuzuia kusafirisha akaunti zako ili kukufungia kwenye mfumo wao wa ikolojia.
 
 
 
-Kithibitishaji cha Aegis, kwa upande mwingine, kinajiwasilisha kama mbadala huru na ya kimaadili kwa programu hizi. Aegis ni programu isiyolipishwa, salama na ya chanzo huria ya kudhibiti tokeni zako za uthibitishaji wa hatua mbili kwenye Android. Ukuzaji wake huangazia vipengele muhimu ambavyo programu zingine hazitoi, ikiwa ni pamoja na usimbaji fiche thabiti wa data ya ndani na uwezekano wa kuhifadhi nakala salama. Yote kwa yote, Aegis inatoa suluhisho la ndani, linaloweza kukaguliwa la uthibitishaji wa pande mbili, bora kwa yeyote anayetaka kuhifadhi udhibiti kamili wa misimbo yao ya 2FA.
+Authenticator ya Aegis, kwa upande mwingine, kinajiwasilisha kama mbadala huru na ya kimaadili kwa programu hizi. Aegis ni programu isiyolipishwa, salama na ya chanzo huria ya kudhibiti tokeni zako za uthibitishaji wa hatua mbili kwenye Android. Ukuzaji wake huangazia vipengele muhimu ambavyo programu zingine hazitoi, ikiwa ni pamoja na usimbaji fiche thabiti wa data ya ndani na uwezekano wa kuhifadhi nakala salama. Yote kwa yote, Aegis inatoa suluhisho la ndani, linaloweza kukaguliwa la uthibitishaji wa pande mbili, bora kwa yeyote anayetaka kuhifadhi udhibiti kamili wa misimbo yao ya 2FA.
 
 
 
-## Tunakuletea Kithibitishaji cha Aegis
+## Tunakuletea Authenticator ya Aegis
 
 
 
@@ -39,7 +39,7 @@ Aegis Authenticator ni programu huria ya 2FA ya Android, iliyotolewa chini ya le
 
 
 
-**Nakala rudufu za ndani zilizosimbwa kwa njia fiche:** Ili kuhakikisha hutawahi kupoteza ufikiaji wa akaunti zako, Aegis hutoa nakala rudufu za kiotomatiki za salama yako. Hizi zimesimbwa (kupitia nenosiri) na zinaweza kuhifadhiwa katika eneo la chaguo lako (hifadhi ya ndani, folda ya wingu, nk). Programu inaweza pia kuhamisha hifadhidata ya akaunti yako mwenyewe, katika muundo uliosimbwa au ambao haujasimbwa kama inavyohitajika. Kuleta akaunti kutoka kwa programu zingine za 2FA ni rahisi vivyo hivyo (Aegis inaweza kuagiza kutoka kwa Authy, Kithibitishaji cha Google, FreeOTP, naOTP, n.k.).
+**Nakala rudufu za ndani zilizosimbwa kwa njia fiche:** Ili kuhakikisha hutawahi kupoteza ufikiaji wa akaunti zako, Aegis hutoa nakala rudufu za kiotomatiki za salama yako. Hizi zimesimbwa (kupitia nenosiri) na zinaweza kuhifadhiwa katika eneo la chaguo lako (hifadhi ya ndani, folda ya wingu, nk). Programu inaweza pia kuhamisha hifadhidata ya akaunti yako mwenyewe, katika muundo uliosimbwa au ambao haujasimbwa kama inavyohitajika. Kuleta akaunti kutoka kwa programu zingine za 2FA ni rahisi vivyo hivyo (Aegis inaweza kuagiza kutoka kwa Authy, Google Authenticator , FreeOTP, naOTP, n.k.).
 
 
 
@@ -55,7 +55,7 @@ Aegis Authenticator ni programu huria ya 2FA ya Android, iliyotolewa chini ya le
 
 
 
-Kwa vile Kithibitishaji cha Aegis ni chanzo huria, watengenezaji wake wanapendelea njia za usambazaji zinazofaa kwa faragha. Kuna njia mbili kuu za kuiweka:
+Kwa vile Authenticator ya Aegis ni chanzo huria, watengenezaji wake wanapendelea njia za usambazaji zinazofaa kwa faragha. Kuna njia mbili kuu za kuiweka:
 
 
 
@@ -103,7 +103,7 @@ Baada ya usakinishaji wa mwongozo, programu itafanya kazi sawasawa. Tafadhali ku
 
 
 
-Kithibitishaji cha Aegis kinapatikana kwenye Duka la Google Play na F-Droid, kukupa chaguo la mbinu ya usakinishaji:
+Authenticator ya Aegis kinapatikana kwenye Duka la Google Play na F-Droid, kukupa chaguo la mbinu ya usakinishaji:
 
 
 
@@ -443,7 +443,7 @@ Aegis hujipanga vipi dhidi ya programu zingine maarufu za uthibitishaji?
 
 
 
-### Aegis dhidi ya Kithibitishaji cha Google
+### Aegis dhidi ya Google Authenticator 
 
 
 
@@ -460,7 +460,7 @@ Aegis hujipanga vipi dhidi ya programu zingine maarufu za uthibitishaji?
 
 
 
-**Kithibitishaji cha Google :**
+**Google Authenticator  :**
 
 
 
@@ -513,7 +513,7 @@ Aegis huwafaa watumiaji wa Android wanaothamini uwazi, usalama wa ndani na udhib
 
 
 
-Kithibitishaji cha Aegis ni suluhisho bora kwa wale wanaotafuta programu ya 2FA ya ufaragha, salama na ya uwazi. Mbinu yake ya chanzo huria, pamoja na usimbaji fiche thabiti na Interface nadhifu, huifanya kuwa chaguo la kwanza la kupata akaunti zako za mtandaoni.
+Aegis Authenticator  ni suluhisho bora kwa wale wanaotafuta programu ya 2FA ya ufaragha, salama na ya uwazi. Mbinu yake ya chanzo huria, pamoja na usimbaji fiche thabiti na Interface nadhifu, huifanya kuwa chaguo la kwanza la kupata akaunti zako za mtandaoni.
 
 
 

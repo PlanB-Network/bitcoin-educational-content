@@ -6,3 +6,4 @@ wrong_answers:
   - Järjestelmä, jossa kukaan ei voi peruuttaa tai kiistää tapahtumia
 explanation: |
   Trustless viittaa erityisesti tekniseen ominaisuuteen, jonka mukaan hajautettu järjestelmä voi toimia oikein ilman luotettavia osapuolia. Tämä on eri asia kuin kaiken luottamuksen poistaminen (ohjelmistoon/laitteistoon luotetaan edelleen) tai peruutusten estäminen (Bitcoin-transaktiot voidaan peruuttaa ketjun uudelleenkirjoittamisen avulla). Termi ei myöskään tarkoita, etteivät käyttäjät voisi luottaa osallistujiin - pikemminkin järjestelmän oikeellisuus ei riipu siitä, että heihin luotetaan.
+reviewed: false

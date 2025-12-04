@@ -6,3 +6,4 @@ wrong_answers:
   - Sistem slepog potpisa sa centralnom pouzdanom stranom za sprečavanje dvostrukog trošenja
 explanation: |
   Satoshi Nakamoto je posebno predložio korišćenje 'peer-to-peer distribuiranog servera vremenskih oznaka za generate računsku potvrdu hronološkog reda transakcija' kako je navedeno u Bitcoin beležnici. Ključna reč je 'distribuiran,' što znači da nema centralne tačke kontrole. Pogrešni odgovori predstavljaju ranije neuspele pokušaje digitalnog novca koji su se oslanjali na centralizovane ili polucentralizovane pristupe, što ih je činilo podložnim cenzuri i neuspehu - upravo problemima koje je Bitcoin bio dizajniran da reši kroz pravu decentralizaciju.
+reviewed: false

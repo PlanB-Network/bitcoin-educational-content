@@ -6,3 +6,4 @@ wrong_answers:
   - Que los usuarios siempre priorizarán la descentralización sobre la comodidad
 explanation: |
   El axioma de la resistencia asume que los sistemas pueden resistir el control estatal, lo que es fundamental para el propósito de Bitcoin como dinero sin permiso. Sin este supuesto, toda la premisa de Bitcoin se derrumba, ya que estaría inevitablemente controlada por los Estados. Las otras opciones, aunque relevantes para la seguridad de Bitcoin, no forman parte del axioma de resistencia de Voskuil, que aborda específicamente el fundamento filosófico de que la resistencia al control estatal es posible.
+reviewed: false

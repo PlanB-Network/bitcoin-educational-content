@@ -328,7 +328,7 @@ Po provedení coinjoinů s Whirlpool je užitečné přesně zhodnotit dosaženo
 
 Pro prohloubení vašeho porozumění výpočetním mechanismům těchto anonymních setů doporučuji přečíst článek: REMIX - WHIRLPOOL, který detailně popisuje fungování těchto indexů.
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

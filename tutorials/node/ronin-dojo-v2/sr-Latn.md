@@ -542,7 +542,7 @@ Nakon obavljanja coinjoin-a sa Whirlpool-om, korisno je precizno proceniti nivo 
 Da biste produbili svoje razumevanje mehanizama izračunavanja ovih anonseta, preporučujem čitanje članka: REMIX - Whirlpool, koji detaljno opisuje funkcionisanje ovih pokazatelja.
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

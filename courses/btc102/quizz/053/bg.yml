@@ -1,5 +1,5 @@
 question: Коя услуга съдържа списък на търговците, които приемат биткойн в цял свят?
-answer: Карта на БТК
+answer: BTCmap
 wrong_answers:
   - CoinMarketCap
   - Разговор за Bitcoin

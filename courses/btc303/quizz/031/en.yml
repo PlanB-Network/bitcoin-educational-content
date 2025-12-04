@@ -6,3 +6,4 @@ wrong_answers:
   - Security costs shift from being paid by developers through code maintenance to being paid by users through network participation
 explanation: |
   The chapter clearly explains that today, holders pay for Bitcoin's security through monetary inflation (new coins being created via block subsidy), but in the future when block subsidy approaches zero, spenders will pay for security through transaction fees. This represents a fundamental economic shift in who bears the cost of maintaining network security, moving from a model where new coin creation funds mining to one where transaction fees must provide sufficient incentive for miners to secure the network.
+reviewed: false

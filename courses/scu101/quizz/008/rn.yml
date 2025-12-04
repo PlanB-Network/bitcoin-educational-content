@@ -1,13 +1,12 @@
-question: None iyo nzira ya TOR ni iyihe?
-answer: Urubuga rutanga ubutamenyekana mu gupfuka IP y’uwukoresha Address no kwemerera umuntu gushika ku rubuga rwa Darknet.
+question: Umuhora wa TOR ni iki?
+answer: Umuhora utanga ukutamenyekana mu gupfuka aderese IP y’uwukoresha no kwemerera umuntu gushika ku Darknet.
 wrong_answers:
-  - Igikoresho kirinda igikoresho cawe ama virusi n’ibindi bikoresho bibi.
-  - Urubuga rwo guhisha igikorwa cawe co kuri internet ku muntu aguha interineti.
-  - Ihuriro rituma ushobora guca kuri internet vyihuta.
+  - Umuhora ukingira igikoresho cawe umugera(nyabwonko) nizindi porogarame mbi.
+  - Umuhora unyegeza igikorwa cawe co kuri internet uwuguha interineti.
+  - Umuhora utuma ushobora kuronderera kuri internet binyaruka.
 explanation: |
-  Urubuga rwa TOR (Igitunguru Router) ni urusobe rutanga .
-  kutamenyekana mu gupfuka IP y'ukoresha Address no kwemera
-  gushika ku rubuga rw’umwiza. Ikoreshwa n’abanyamakuru, umwidegemvyo .
-  abaharanira uburenganzira bw’abantu, n’abandi bipfuza guhunga ugucengera mu 2012.
-  ibihugu vy’ubutegetsi bw’agahomerabunwa.
+  Umuhora wa TOR (The Onion Router) ni umuhora utanga ukutamenyekana 
+  mu gupfuka aderese IP y'uwukoresha no kwemerera umuntu gushika kuri Darknet.
+  Ikoreshwa n’abanyamakuru, aba haranira ukwishira ukizana, n’abandi barondera guca kuruhande 
+  ibibujijwe mubihugu bidatanga ukwishira ukizana muri vyose.
 reviewed: true

@@ -1,9 +1,9 @@
-question: Ni irihe jambo rigaragaza neza uruhara rwa Bitcoin nk’urubuga n’umutungo ku bucuruzi?
-answer: Ishobora gukora nk’ububiko bw’agaciro be n’uburyo bwo gukoresha Exchange mu buryo bw’isi yose, bushizwe ahantu hamwe.
+question: Ni irihe jambo rigaragaza neza uruhara rwa Bitcoin nk’urubuga n’umutungo ku nganda?
+answer: Ishobora gukora nk’ububiko bw’agaciro be n’uburyo bwo  guhanahana amahera  bw’isi yose budakorera ahantu hamwe gusa(décentralisé).
 wrong_answers:
-  - Ishobora gukora gusa nk’uburyo bw’ikarata y’ingabirano yo mu karere.
-  - Ni igikoresho co gucuruza gusa c’ugutekereza ku bintu ataco bimaze.
-  - Bitegerezwa gubohera ku ngingo ngenderwako z amafaranga y igihugu kimwe kugira ngo bikore.
+  - Ishobora gukora gusa nk’uburyo bwo mukarere bwi karata yo gukoresha mugusuma ibindi bintu.
+  - Ni igikoresho gusa co gucungana nuko agaciro kaduga , ntakamaro kagaragara gifise.
+  - Kugira bikore ,bitegerezwa kugira kungingo ngenderwako yamafaranga y'igihugu kimwe .
 explanation: |
-  Bitcoin s isi yose, internet-native design iratuma idakora gusa nk’ububiko bw’agaciro ariko kandi nk’uburyo bwa Exchange, itanga ubucuruzi bwihuta, ata ruhusha, kandi bwa nyuma bwo gutanga amafaranga kw’isi yose.
-reviewed: false
+  Inyubako rusangi ya Bitcoin , bwite yo kuri interineti, buyituma idakora gusa nk’ububiko bw’agaciro ariko kandi nk’uburyo bwo guhanahana amafaranga, igaha inganda uburyo bwihuse, ata ruhusha umuntu amanza gusaba, kandi bwa nyuma bwo gutanga amafaranga kw’isi yose.
+reviewed: true

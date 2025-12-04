@@ -6,3 +6,4 @@ wrong_answers:
   - Ne eivät ottaneet käyttöön asianmukaisia käyttäjien todentamismekanismeja
 explanation: |
   Varhaiset digitaaliset valuutat epäonnistuivat, koska ne olivat riippuvaisia keskitetyistä palvelimista tapahtumien käsittelyssä ja validoinnissa. Kuten luvussa selitetään, tästä keskittämisestä tuli niiden "akilleen kantapää", koska hallitukset tai muut vastustajat pystyivät helposti sensuroimaan, valvomaan tai sulkemaan nämä keskitetyt vikapisteet. Jopa yritykset käyttää useita palvelimia federaatiossa jättivät järjestelmän haavoittuvaksi, koska jokainen palvelin saattoi "epäonnistua tai joutua epäonnistumaan yksi kerrallaan" Bitcoin ratkaisi tämän ongelman poistamalla keskusviranomaisten tarpeen hajautetun proof-of-work-järjestelmänsä avulla.
+reviewed: false

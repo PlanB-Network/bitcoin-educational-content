@@ -3869,7 +3869,7 @@ Oni samo treba da se pobrinu da mogu da izvrše ove transfere, ali nema obavezne
 
 
 
-Da biste razumeli vezu između novca i inflacije, preporučujem kurs koji imam na Plan ₿ Network posvećen ovoj temi. Naučićete razliku između povećanja cena, što je ono što vidimo u životu, i inflacije. Oni nisu ista stvar. Zapravo, kada govorimo o inflaciji, često mislimo na povećanje cena, a ne na samu inflaciju. Inflacija je prilično precizan koncept, objašnjen povećanjem količine novca u opticaju.
+Da biste razumeli vezu između novca i inflacije, preporučujem kurs koji imam na Plan ₿ Academy posvećen ovoj temi. Naučićete razliku između povećanja cena, što je ono što vidimo u životu, i inflacije. Oni nisu ista stvar. Zapravo, kada govorimo o inflaciji, često mislimo na povećanje cena, a ne na samu inflaciju. Inflacija je prilično precizan koncept, objašnjen povećanjem količine novca u opticaju.
 
 
 https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1

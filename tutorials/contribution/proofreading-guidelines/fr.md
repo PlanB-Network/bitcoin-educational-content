@@ -44,7 +44,7 @@ En ce sens, tous les contributeurs de Plan ₿ Academy sont des éducateurs !
 ## Les premières étapes de la relecture sur Plan ₿ Academy
 
 
-Avant de commencer une nouvelle tâche de relecture, annoncez-la dans le [groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder) ou informez votre coordinateur Plan ₿ Academy, qui ouvrira une "[issue](https://github.com/orgs/Plan ₿ Academy/projects/3)" dédiée. Lorsque vous recevrez le lien de l'issue, il vous suffira de **commenter que vous commencez** la tâche de relecture de ce contenu.
+Avant de commencer une nouvelle tâche de relecture, annoncez-la dans le [groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder) ou informez votre coordinateur Plan ₿ Academy, qui ouvrira une "[issue](https://github.com/orgs/PlanB-Network/projects/3)" dédiée. Lorsque vous recevrez le lien de l'issue, il vous suffira de **commenter que vous commencez** la tâche de relecture de ce contenu.
 
 
 Ce système aide le coordinateur à suivre l'évolution de la situation dans le répertoire et permet au contenu d'être "revendiqué" par le relecteur, ce qui évite la duplication des efforts par quelqu'un d'autre.

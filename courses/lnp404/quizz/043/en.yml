@@ -1,0 +1,8 @@
+question: When the Routable Inbound Chart reveals that a Lightning node has abundant total liquidity concentrated entirely in high-fee channels while low-fee channels remain consistently depleted, what fundamental routing problem does this indicate?
+answer: The node's routing algorithms are being systematically bypassed because network pathfinding favors lower-cost routes, causing invisible revenue loss despite adequate capacity
+wrong_answers:
+  - "The node's channels are experiencing technical connectivity issues that prevent proper fee rate negotiation with peer nodes during payment forwarding attempts"
+  - "The node's total channel capacity is insufficient to handle the volume of routing requests, requiring immediate capital injection to increase liquidity depth"
+  - "The node's fee structure is optimally configured for maximum profitability, successfully filtering out low-value transactions while capturing premium routing revenue"
+explanation: |
+  This scenario describes a classic systematic inefficiency where the node appears healthy in terms of total liquidity but fails to capture routing revenue. Lightning network pathfinding algorithms prioritize cost-effective routes, so when a node's available liquidity is concentrated in expensive channels, payments route around it entirely. The depleted low-fee channels indicate past routing activity, but their emptiness prevents future routing. This creates 'invisible' revenue loss because the operator sees adequate capacity but doesn't realize payments are avoiding their node due to poor fee rate distribution across channels.

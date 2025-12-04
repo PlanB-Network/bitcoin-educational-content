@@ -38,7 +38,7 @@ Debian hutoa mazingira kadhaa ya eneo-kazi kutosheleza mahitaji yako:
 - **GNOME**: ya kisasa, angavu Interface, bora kwa wanaoanza. Inatoa menyu ya picha, ambayo ni rahisi kutumia kwa kupata programu.
 - **XFCE**: nyepesi na ya haraka, kamili kwa mashine zenye nguvu kidogo.
 - **KDE Plasma**: inaweza kubinafsishwa sana, na mwonekano unaofanana na Windows.
-- **Mdalasini**: rahisi, kifahari Interface, iliyoongozwa na Windows.
+- **Cinnamon**: rahisi, kifahari Interface, iliyoongozwa na Windows.
 - **LXDE / LXQt**: mwanga mwingi, unaofaa kwa kompyuta za zamani.
 - **MATE**: rahisi na ya kisasa, karibu na GNOME ya zamani.
 
@@ -61,8 +61,8 @@ Kabla ya kuanza usakinishaji, tafadhali hakikisha kuwa una vifaa vifuatavyo:
 
 
 
-- **Kitufe cha USB**: Kima cha chini cha GB 8 ili kushikilia picha ya ISO inayoweza kuwashwa.
-- **Kumbukumbu ya Ufikiaji Nasibu (RAM)**: GB 4 kwa usakinishaji na uendeshaji laini.
+- **USB drive**: Kima cha chini cha GB 8 ili kushikilia picha ya ISO inayoweza kuwashwa.
+- **Random Access Memory (RAM)**: GB 4 kwa usakinishaji na uendeshaji laini.
 - **Nafasi ya diski**: angalau GB 15 ya nafasi ya bure kwa mfumo na masasisho.
 
 

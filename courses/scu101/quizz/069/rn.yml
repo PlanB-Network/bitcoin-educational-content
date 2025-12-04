@@ -1,9 +1,9 @@
 question: Ni ivyiza ibihe biva mu gukoresha DOH (DNS kuri HTTPS) na DOT (DNS kuri TLS)?
-answer: Bica bipfuka uruja n’uruza rwa DNS, bikaba bituma umuntu agira ubuzima bwite n’umutekano mwinshi, kandi bikaba birinda ibitero vy’umuntu ari hagati.
+answer: Binyegeza uruja n’uruza rwa DNS, bikaba bituma umuntu agira ubuzima bwibanga n’umutekano bikwiye, kandi bikaba birinda ibitero vya man-in-the-middle.
 wrong_answers:
-  - Baca bihutisha uruja n’uruza rwa internet.
-  - Bahagarika amatangazo yose.
+  - Bica vyihutisha uruja n’uruza rwa internet.
+  - Bihagarika amatangazo yose.
   - Bituma umuntu ashobora gushika ku mbuga zabujijwe.
 explanation: |
-  DOH (DNS kuri HTTPS) na DOT (DNS kuri TLS) zipfuka uruja n’uruza rwa DNS, zigatuma umuntu agira ubuzima bwite n’umutekano mwinshi. Kubera umutekano wavyo, izo porotokole zikoreshwa cane mu bigo kandi zishigikirwa na Windows, Android, na iPhone. Bituma umuntu agira ubuzima bwite n’umutekano mu kwirinda ibitero vy’abantu bari hagati.
+  DOH (DNS kuri HTTPS) na DOT (DNS kuri TLS) zinyegeza uruja n’uruza rwa DNS, zigatuma umuntu agira ubuzima bwibanga n’umutekano bikwiye. Kubera umutekano wazo ukajije, ayo mategeko akoreshwa cane mu bigo kandi ashigikirwa na Windows, Android, na iPhone. Atuma umuntu agira ubuzima bwibanga n’umutekano mu birushije mukwirinda ibitero vya man-in-the-middle.
 reviewed: true

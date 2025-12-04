@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin kodunun tek yetkili kaynağı olarak MIT Lisansı tarafından yasal olarak korunmaktadır
 explanation: |
   Jameson Lopp'un açıkladığı gibi, Bitcoin Core'un GitHub deposu teknik olarak dünya çapındaki diğer binlerce kopyayla aynıdır, ancak geliştirme koordinasyonu için sosyal olarak kabul edilen odak noktası haline gelmiştir. Kendisini üstün kılan özel teknik özellikleri, kriptografik kimlik doğrulama mekanizmaları ya da yasal korumaları yok. MIT Lisansı aslında herkesin kodu özgürce kopyalayabilmesini ve yeniden dağıtabilmesini sağlar. Eğer bu depo ortadan kalkarsa, topluluk basitçe başka bir yerde yeni bir odak noktası oluşturacak ve öneminin teknik gereklilikten ziyade tamamen sosyal bir gelenek olduğunu gösterecektir.
+reviewed: false

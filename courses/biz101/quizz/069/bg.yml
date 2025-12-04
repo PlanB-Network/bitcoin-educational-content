@@ -1,8 +1,8 @@
 question: Кой софтуер с отворен код е адаптиран към платежна система Professional Bitcoin?
 answer: BTC Pay сървър
 wrong_answers:
-  - Швейцарска заплата Bitcoin
-  - Отворен възел
+  - Swiss Bitcoin Pay
+  - Open Node
   - Bitcoinize PoS
 explanation: |
   BTC Pay Server е подчертан в курса като основното решение с отворен код за професионални настройки поради широките възможности за интеграция и контрол.

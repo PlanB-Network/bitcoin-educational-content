@@ -6,3 +6,4 @@ wrong_answers:
   - Acil durum yamalarını işleyemeyen eski düğüm sürümleriyle geriye dönük uyumluluğu korumak için
 explanation: |
   Doğru cevap güvenlik yamalarında önemli bir paradoksu vurgulamaktadır: düzeltmenin kendisi güvenlik açığını ortaya çıkarabilir. Bu bölüm, geliştiricilerin yamaları dikkatli bir şekilde gizlemeleri gerektiğini vurgulamaktadır çünkü yamaları hemen yayınlamak, çoğu düğüm korunmadan önce güvenlik açığını saldırganlara ifşa edebilir. Yanlış cevaplar makul olmakla birlikte öncelikleri yanlış yansıtmaktadır: altcoin bildirimi Bitcoin ağ dağıtımından sonra gerçekleşir, mining havuz testi kritik olmayan sorunlar için birincil endişe kaynağı değildir ve geriye dönük uyumluluk güvenlik yamalarının zamanlamasını yönlendirmez.
+reviewed: false

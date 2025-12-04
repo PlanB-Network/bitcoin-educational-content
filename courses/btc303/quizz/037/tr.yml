@@ -6,3 +6,4 @@ wrong_answers:
   - Ekonomik düğümler, artan işlem ücretleriyle ilgili endişeler nedeniyle yükseltmeyi reddetti
 explanation: |
   Segwit yükseltmesi benzersizdi çünkü Bitcoin kullanıcıları arasında ezici bir desteğin olduğu ancak madencilerin yükseltme için destek sinyali vermeyi reddettiği bir koordinasyon sorunuyla karşı karşıya kaldı. Bu durum, yükseltmenin madenciler tarafından etkinleştirilen normal yumuşak fork mekanizması aracılığıyla etkinleştirilemediği bir çıkmaz durumu yarattı. Önceki yükseltmeler hem kullanıcı hem de madenci desteğine sahip oldukları için nispeten sorunsuz gerçekleşmişti. Bu durum, madenci sinyaline dayanmayan alternatif bir etkinleştirme mekanizması olarak Kullanıcı Etkinleştirilmiş Soft Çatallarının (UASF) önerilmesine yol açtı ve Bitcoin ekosistemindeki farklı paydaşlar arasındaki gerilimi vurguladı.
+reviewed: false

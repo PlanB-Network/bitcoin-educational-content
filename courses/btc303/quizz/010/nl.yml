@@ -6,3 +6,4 @@ wrong_answers:
   - Geverifieerde wallet software installeren van officiële bronnen met digitale handtekeningen
 explanation: |
   Om Bitcoin zonder vertrouwen te gebruiken, moet je een volledig validerende Bitcoin node draaien die onafhankelijk verifieert of alle blokken de consensusregels volgen, het uitgifteschema van munten controleert en dubbele uitgaven voorkomt. Dit zorgt ervoor dat je de verificatie niet uitbesteedt aan anderen, waardoor de vertrouwensloze eigenschap behouden blijft. Het gebruik van exchanges of diensten van derden betekent dat je erop vertrouwt dat anderen je de waarheid vertellen over de toestand van de blockchain. Hoewel geverifieerde software belangrijk is voor de veiligheid, elimineert het niet de noodzaak voor uw eigen validatieknooppunt om echte vertrouwensloosheid in het Bitcoin systeem te bereiken.
+reviewed: false

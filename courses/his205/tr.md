@@ -3869,7 +3869,7 @@ Sadece bu transferleri yapabileceklerinden emin olmaları gerekiyor, ancak %3, %
 
 
 
-Para ve enflasyon arasındaki bağlantıyı anlamak için Plan ₿ Network'de bu konuya adanmış bir kursu tavsiye ederim. Hayatta gördüğümüz fiyat artışları ile enflasyon arasındaki farkı öğreneceksiniz. İkisi aynı şey değildir. Aslında, enflasyondan söz ettiğimizde, genellikle enflasyonun kendisinden değil, fiyat artışlarından söz ederiz. Enflasyon, para arzındaki artışla açıklanan oldukça kesin bir kavramdır.
+Para ve enflasyon arasındaki bağlantıyı anlamak için Plan ₿ Academy'de bu konuya adanmış bir kursu tavsiye ederim. Hayatta gördüğümüz fiyat artışları ile enflasyon arasındaki farkı öğreneceksiniz. İkisi aynı şey değildir. Aslında, enflasyondan söz ettiğimizde, genellikle enflasyonun kendisinden değil, fiyat artışlarından söz ederiz. Enflasyon, para arzındaki artışla açıklanan oldukça kesin bir kavramdır.
 
 
 https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1

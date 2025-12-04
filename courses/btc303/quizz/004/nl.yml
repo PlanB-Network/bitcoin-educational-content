@@ -6,3 +6,4 @@ wrong_answers:
   - Een blinde handtekening systeem met centrale vertrouwde partij voor het voorkomen van dubbele uitgaven
 explanation: |
   Satoshi Nakamoto stelde specifiek voor om een 'peer-to-peer gedistribueerde tijdstempelserver te gebruiken voor generate het berekenen van bewijs van de chronologische volgorde van transacties', zoals vermeld in het Bitcoin whitepaper. Het sleutelwoord is 'gedistribueerd', wat betekent dat er geen centraal controlepunt is. De foute antwoorden staan voor eerdere mislukte pogingen tot digitaal geld die vertrouwden op gecentraliseerde of semi-gecentraliseerde benaderingen, wat ze kwetsbaar maakte voor censuur en mislukking - precies de problemen die Bitcoin moest oplossen door echte decentralisatie.
+reviewed: false

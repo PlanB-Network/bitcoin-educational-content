@@ -6,3 +6,4 @@ wrong_answers:
   - Verkon validoijat, jotka äänestävät tapahtuman pätevyydestä demokraattisen prosessin avulla
 explanation: |
   Bitcoin:n toimitusrajoitusta valvotaan täysillä solmuilla, jotka suorittavat tarkistuskoodia tarkistaakseen jokaisen lohkon coinbase-tapahtuman konsensussääntöjä vastaan. Vaikka jotkut solmut muuttuisivat pahantahtoisiksi ja hyväksyisivät virheellisiä lohkoja liiallisilla palkkioilla, rehelliset solmut yksinkertaisesti jättävät ne huomiotta ja jatkavat voimassa olevaa ketjua. Tämä luo luotettavan järjestelmän, jossa ei tarvitse luottaa mihinkään yksilöön tai viranomaiseen - tarvitsee vain ajaa koodia, joka tarkistaa, että sääntöjä noudatetaan, mikä tekee verkosta kollektiivisesti turvallisen tarjontainflaatioyrityksiä vastaan.
+reviewed: false

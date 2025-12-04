@@ -6,3 +6,4 @@ wrong_answers:
   - Nó làm giảm tổng tốc độ băm của mạng vì thợ đào dành tài nguyên cho kết nối thay vì mining
 explanation: |
   Chương này giải thích rằng khi kích thước khối tăng, thời gian lan truyền cũng tăng, dẫn đến nhiều khối cũ hơn. Để tránh mất phần thưởng khối từ các khối cũ, thợ đào tìm kiếm các nhóm có băng thông và kết nối tốt hơn. Điều này thúc đẩy thợ đào hướng đến các nhóm lớn hơn, được kết nối tốt hơn, làm giảm tính phi tập trung của mining. Các lựa chọn khác là không chính xác: độ khó tự động điều chỉnh bất kể kết nối nhóm, chi phí kết nối không tạo thêm phí giao dịch, và thợ đào không giảm tỷ lệ băm khi tham gia các nhóm được kết nối tốt hơn.
+reviewed: false

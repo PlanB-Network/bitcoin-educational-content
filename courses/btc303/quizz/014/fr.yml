@@ -6,3 +6,4 @@ wrong_answers:
   - Les réglementations gouvernementales empêchent les institutions financières d'opérer au-delà des frontières internationales
 explanation: |
   La Satoshi précise que les institutions financières qui font office de tiers de confiance ne peuvent pas éviter la médiation des litiges, ce qui empêche les transactions totalement irréversibles. Cela crée des faiblesses inhérentes au modèle basé sur la confiance, augmente les coûts de médiation et oblige les commerçants à se méfier de leurs clients. Les autres options décrivent des problèmes différents qui ne sont pas mentionnés dans l'analyse de Satoshi des systèmes de paiement traditionnels.
+reviewed: false

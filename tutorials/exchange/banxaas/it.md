@@ -24,7 +24,7 @@ https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 - Contabilità trasparente: Banxaas favorisce la trasparenza, rafforzando al contempo l'anonimato nelle transazioni finanziarie.
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Fare trading per la prima volta con Banxaas
 
@@ -139,4 +139,4 @@ Dai anche un’occhiata al nostro tutorial su Peach, una piattaforma peer-to-pee
 
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874

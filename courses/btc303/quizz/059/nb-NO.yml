@@ -6,3 +6,4 @@ wrong_answers:
   - "Det viser seg at GitHub-plattformen har tekniske begrensninger for å håndtere Bitcoins kodebase"
 explanation: |
   Ifølge kapittelinnholdet tar det lang tid å slå sammen pull requests, først og fremst på grunn av manglende gjennomgang, noe som skyldes mangel på korrekturlesere snarere enn obstruksjon fra vedlikeholderne eller tekniske problemer. Gjennomgangsprosessen er avgjørende for Bitcoins sikkerhet, ettersom den sikrer kodekvalitet og forhindrer ondsinnede endringer. Denne flaskehalsen eksisterer fordi det krever ekspertise og tid å gjennomgå kompleks kryptografisk kode, noe som gjør kvalifiserte korrekturlesere til en knapp ressurs i utviklingsprosessen.
+reviewed: false

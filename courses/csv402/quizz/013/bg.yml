@@ -1,0 +1,9 @@
+question: Какви са основните операции при договор RGB?
+answer: State Transition, Genesis и State Extension
+wrong_answers:
+  - Seal Definition, Commitment и валидиране
+  - Създаване на Anchor, актуализиране на DAG и подписване на транзакции
+  - Блок Genesis, разпределение UTXO и потвърждаване на скрипт
+explanation: |
+  Тези операции променят или завършват състоянието на даден договор в съответствие с неговия Schema.
+reviewed: false

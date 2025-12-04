@@ -6,3 +6,4 @@ wrong_answers:
   - Käyttäjän aktivoima pehmeä fork (UASF) lippupäivän aktivointijärjestelmä
 explanation: |
   Eric Lombrozon analyysin mukaan Satoshi:n kova fork (josta tiedotettiin huonosti ja joka piilotettiin makefile-muutoksia koskevaan toimitukseen) loi vahingossa OP_NOP1-OP_NOP10-opcodit. Nämä "no operation" -koodit oli suunniteltu siten, että ne eivät tee mitään, kun ne suoritetaan, mutta ne tarjosivat paikanvarauskoodeja, joita voitiin myöhemmin käyttää uudelleen uusiin toimintoihin pehmeiden haarojen avulla. Tämä osoittautui ennakoivaksi, sillä OP_NOP2:sta tuli OP_CHECKLOCKTIMEVERIFY (BIP65) ja OP_NOP3:sta OP_CHECKSEQUENCEVERIFY (BIP112). Muut vaihtoehdot ovat virheellisiä, koska BIP65 ja BIP113 olivat päivityksiä, joissa käytettiin näitä opkoodeja eikä luotu niitä, yhteensopivuuspuitteet ovat pikemminkin käsitteellinen lähestymistapa kuin tekninen ominaisuus, ja UASF ehdotettiin paljon myöhemmin Segwit-kiistan aikana.
+reviewed: false

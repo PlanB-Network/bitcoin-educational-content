@@ -653,7 +653,7 @@ Let's take a closer look at each of these two scenarios.
 
 #### Tapret incorporation without existing Script Path
 
-In this first case, we start from a taproot output key (*Taproot Output Key*) `Q` which contains only the internal public key `P` (*Internal Key*), with no associated script path (*Script Path*):
+In this first case, we start from a taproot output key (*Taproot Output Key*) `Q` which contains only the internal public key `P` *(Internal Key*), with no associated script path (*Script Path*):
 
 ![RGB-Bitcoin](assets/en/047.webp)
 
@@ -819,7 +819,7 @@ where:
 
 - `mpc_tag` is a tag: `urn:ubideco:mpc:commitment#2024-01-31`, chosen according to [RGB tagging conventions](https://github.com/RGB-WG/rgb-core/blob/master/doc/Commitments.md);
 - `depth` (1 byte) indicates the depth of the *MPC Tree*;
-- `cofactor` (16 bits, in Little Endian) is a parameter used to promote the uniqueness of the positions assigned to each contract in the tree;
+- cofactor` (16 bits, in Little Endian) is a parameter used to promote the uniqueness of the positions assigned to each contract in the tree;
 - `mpc::Root` is the root of *MPC Tree*, calculated according to the process described in the next section.
 
 ![RGB-Bitcoin](assets/en/044.webp)
@@ -861,7 +861,7 @@ where:
 - `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, is always chosen according to the Merkle conventions of RGB;
 - `0x10` identifies a _contract leaf_;
 - `c_i` is the 32-byte contract identifier (derived from the Genesis hash);
-- `bundleId(c_i)` is a 32-byte hash describing the set of `State Transitions` relative to `c_i` (gathered into a *Transition Bundle*).
+- bundleId(c_i)` is a 32-byte hash describing the set of `State Transitions` relative to `c_i` (gathered into a *Transition Bundle*).
 
 #### Uninhabited leaves
 
@@ -891,10 +891,10 @@ where:
 
 
 - `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, is always chosen according to the Merkle conventions of RGB;
-- `b` is the _branching factor_ (8 bits). Most often, `b=0x02` because the tree is binary and complete;
-- `d` is the depth of the node in the tree;
+- b` is the _branching factor_ (8 bits). Most often, `b=0x02` because the tree is binary and complete;
+- d` is the depth of the node in the tree;
 - `w` is the tree width (in 256-bit Little Endian binary);
-- `tH1` and `tH2` are the hashes of the child nodes (or leaves), already calculated as shown above.
+- tH1` and `tH2` are the hashes of the child nodes (or leaves), already calculated as shown above.
 
 Progressing in this way, we obtain the root `mpc::Root`. We can then calculate `mpc::Commitment` (as explained above) and insert it on-chain.
 

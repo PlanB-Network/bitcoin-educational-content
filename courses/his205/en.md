@@ -2608,7 +2608,7 @@ Preceding the famous sovereign was the guinea, which operated on the same princi
 
 :::video id=7661b7b5-e00f-48f3-b69a-6fb2eb5ebba4:::
 
-Following on from this section on the history of the first reserve currencies and their evolution, here's a segment on the emergence of central banks. It follows much the same path as the emergence of reserve currencies, but focuses a little more on the banking technologies of the time.
+This section follows the history of the first reserve currencies and focuses on the emergence of central banks and the banking technologies of the time.
 
 
 ### The beginnings of banks and proto-banks
@@ -2625,18 +2625,13 @@ Antwerp hosted merchant fairs where traders frequently gathered to settle debts,
 This effervescence led to the creation of more sophisticated banking institutions. **Lombard bankers** and later Dutch merchants perfected credit instruments (bills of exchange, promissory bills, etc.). The modern banking system is based on this idea: money can be credit, not just metal.
 
 
-As you can see, this brings us back to our original question about the origins of money.
-
-Does money emanate from a commodity that emerges from the need to exchange, or does it emerge from credit? Traces of this can still be found in this section.
+This brings us back to the fundamantal question of the origins of money: does money emanate from a commodity that emerges from the need to exchange, or does it emerge from credit? 
 
 
 ### The Swedish example: Stockholms Banco and Riksens Ständers Bank
 
 
-Let's move on to Sweden, where the very first central bank was created.
-
-
-**Sweden** was a pioneer in central banking: in 1657, Johan Palmstruch created the **Stockholm Banco**, authorized to lend more than its metal reserves, thus marking the birth of fractional reserve banking. But excessive banknote issuance led to panic and a run on the bank in 1663. Well, well...
+**Sweden** was a pioneer in central banking: in 1657, Johan Palmstruch created the **Stockholm Banco**, authorized to lend more than its metal reserves, thus marking the birth of fractional reserve banking. But excessive banknote issuance led to panic and a run on the bank in 1663. 
 
 
 In 1668, Riksens Ständers Bank, the world's first true central bank, was founded in Stockholm. However, it too suffered from crises (1709, 1715...) linked to the abuse of banknotes, often to finance the kingdom's wars.
@@ -2645,13 +2640,10 @@ In 1668, Riksens Ständers Bank, the world's first true central bank, was founde
 ### John Law's failed coup
 
 
-Let's head for France, where we once again find our beloved John Law.
+In France, **John Law**, a Scotsman, persuaded the Regent (Duke of Orleans) to create a private bank, the Banque Générale (1716), authorized to issue paper against gold, silver, and government debts. It became the Banque Royale (1718), and helped the Mississippi Company's shares soar.
 
 
-**John Law**, a Scotsman, persuaded the Regent (Duke of Orleans) to create a private bank, the Banque Générale (1716), authorized to issue paper against gold, silver, and government debts. It became the Banque Royale (1718), and helped the Mississippi Company's shares soar.
-
-
-When reality caught up with speculation, **the panic was exacerbated by the decision to ban the holding of gold and force the use of Law's notes**. Well, well...
+When reality caught up with speculation, **the panic was exacerbated by the decision to ban the holding of gold and force the use of Law's notes**. 
 
 
 Finally, the bubble burst in 1720, causing a collapse that ruined the credibility of paper money in France for a long time to come.
@@ -2660,10 +2652,10 @@ Finally, the bubble burst in 1720, causing a collapse that ruined the credibilit
 ### Bank of Amsterdam, the rise of a pioneering model
 
 
-We're now transported to Amsterdam in 1609, where the **Bank of Amsterdam** (Wisselbank) seized control of coin custody and convertibility in Amsterdam. It prohibited the circulation of private banknotes and enforced the deposit of metallic coins in its vaults. Little by little, they wrested control of the currency. They forbade moneychangers to keep coins with them. The moneychangers worked all day and had to deposit their coins in the Bank of Amsterdam's vaults at the end of the day. As I've mentioned, it wasn't necessarily metal coins that were used in international trade. It was scriptural money on the bank's books.
+In Amsterdam in 1609, the **Bank of Amsterdam** (Wisselbank) seized control of coin custody and convertibility in Amsterdam. It prohibited the circulation of private banknotes and enforced the deposit of metallic coins in its vaults. The bank gradually wrested control of the currency by forbidding moneychangers to keep coins overnight, mandating that they be deposited in the Bank of Amsterdam's vaults at the end of each day. As mentioned earlier, it was not necessarily metal coins that were used in international trade, but rather scriptural money recorded on the bank's books.
 
 
-Thanks to Dutch merchant power, the bank played the role of the first de facto "central bank", stabilizing world trade. Over time, however, it granted unsecured loans to the VOC and eventually ran out of metal to back its bills. In 1790, it emerged that it had lent large sums to the VOC, and virtually declared bankruptcy, ruining the credibility of the gulden. Well, well...
+Thanks to Dutch merchant power, the bank played the role of the first de facto "central bank", stabilizing world trade. Over time, however, it granted unsecured loans to the VOC and eventually ran out of metal to back its bills. In 1790, it emerged that it had lent large sums to the VOC, and virtually declared bankruptcy, ruining the credibility of the gulden. 
 
 
 ### The Bank of England, founding act of modern banking
@@ -2672,10 +2664,10 @@ Thanks to Dutch merchant power, the bank played the role of the first de facto "
 In 17th-century England, gold and silver were stored by goldsmiths, who issued receipts. This partially decentralized organization proved its limits when the Crown found itself in massive need of financing for the war against France.
 
 
-In 1694, the **Bank of England (BoE)** was founded. The Bank of England was thus born of a marriage of convenience between the London business community and the government, which was desperate to find funds for the war.
+In 1694, the **Bank of England (BoE)** was founded. The Bank of England was thus born of a partnership between the London business community and the government, which was desperate to find funds for the war.
 
 
-The Bank obtained a monopoly on banknote issuance in England (reinforced in 1708, 1742, etc.). From then on, paper money backed by gold reserves circulated alongside coins. This is an important point for understanding the gradual takeover of money by state institutions. First, the Bank of Amsterdam prevented moneychangers from keeping coins and forced them to return them to the Bank. In England, private banks were prohibited from issuing their own bills redeemable in gold.
+The Bank obtained a monopoly on banknote issuance in England (reinforced in 1708, 1742, etc.). From then on, paper money backed by gold reserves circulated alongside coins. This development is a key step in understanding the gradual takeover of money by state institutions. First, the Bank of Amsterdam prevented moneychangers from keeping coins and forced them to return them to the Bank. In England, private banks were prohibited from issuing their own bills redeemable in gold.
 
 
 They did allow private banks to issue banknotes, but these could only be exchanged for Bank of England bills.
@@ -2696,10 +2688,10 @@ This model was consolidated over the course of the 18th and 19th centuries, to t
 **The emergence of central banks** was a gradual process. These institutions often arose in the context of costly wars, enabling the state to finance itself through debt. When the gold standard was adopted (England, 17th-19th centuries), it provided a veneer of stability, until the great world wars of the 20th century led to the gradual abandonment of gold convertibility. The power to mint money thus shifted from the royal monopoly to more complex entities, first private (goldsmiths, bankers), then semi-public (central banks), reflecting the evolution of monetary sovereignty towards institutionalized, globalized forms.
 
 
-So, this is what I was describing earlier. We have often shifted the burden of sovereign debt directly to either central banks or the permission to create money by legal institutions, such as Parliament.
+This process illustrates the shift described earlier: the burden of sovereign debt was increasingly transferred to central banks or legal institutions like Parliament, which were granted the power to create money.
 
 
-And the most important fact here is that **we've gone from a debt that could disappear through the bankruptcy of the sovereign to a debt that rested mainly on the shoulders of the population**.
+The most significant outcome of this evolution is that **the system moved from a debt that could be extinguished by a sovereign's bankruptcy to a debt that rested primarily on the shoulders of the population**.
 
 
 

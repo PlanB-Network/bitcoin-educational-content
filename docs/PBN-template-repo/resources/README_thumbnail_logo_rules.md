@@ -1,18 +1,19 @@
 ## Repository 
 
-The following rules applies to all of the thumbnail and logo files of the following resource types:
+The following rules apply to thumbnails and logo files related to the following resource types:
 - channels
 - newsletters
 - podcasts
 - projects
 
-The rules for images are:
-- format webp only (`.webp` file extension)
+**Image requirements**
+
+- format: only `webp` (`.webp` file extension)
 - shape: square image only
 - size: max 800 x 800 pixels
 - background colors:
-    - pure black background should not be used, please use instead a dark-grey background of your choice
-    - pure white background should not be used, please use instead a light-grey background of your choice
+    - **do not** use pure black background - please use a dark-grey background of your choice instead
+    - **do not** use pure white background - please use a light-grey background of your choice instead
 - filename:
-    - `logo.webp` for project, podcast trypes
+    - `logo.webp` for project, podcast types
     - `thumbnail.webp` for channel, newsletter types

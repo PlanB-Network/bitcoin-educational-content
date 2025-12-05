@@ -9,9 +9,10 @@ objectives:
 ---
 # Voyage vers l'économie autrichienne
 
-Vous êtes-vous déjà demandé pourquoi certains économistes pensent différemment les marchés, la liberté et le comportement humain ? L'économie autrichienne offre une perspective rafraîchissante qui vous place au cœur de la pensée économique. Au lieu de mathématiques complexes et de modèles abstraits, cette approche se concentre sur la logique, le choix humain et la façon dont les gens réels prennent des décisions dans leur vie quotidienne. C'est l'économie à travers le prisme de la liberté, de la rationalité et de l'action personnelle.
+Vous êtes-vous déjà demandé pourquoi certains économistes pensent différemment des marchés, de la liberté et du comportement humain ? 
+L'économie autrichienne offre une perspective rafraîchissante qui vous place au cœur de la pensée économique. Au lieu de mathématiques complexes et de modèles abstraits, cette approche se concentre sur la logique, le choix humain et la façon dont les gens réels prennent des décisions dans leur vie quotidienne. C'est l'économie à travers le prisme de la liberté, de la rationalité et de l'action personnelle.
 
-Cette école de pensée a façonné les débats pendant des siècles, grâce à des penseurs influents comme Hayek, Mises et Bastiat. Alors que l'économie keynésienne dominante domine les discussions politiques d'aujourd'hui, la tradition autrichienne pose des questions différentes : Que se passe-t-il lorsque nous priorisons la liberté individuelle ? Comment les marchés libres fonctionnent-ils réellement lorsque les gens sont libres de choisir ? Si vous êtes curieux de connaître des façons alternatives de penser les marchés, la société et la liberté, c'est votre chance d'explorer des idées que vous ne trouverez pas dans les manuels standards.
+Cette école de pensée a façonné les débats pendant des siècles, grâce à des penseurs influents comme Hayek, Mises et Bastiat. Alors que l'économie keynésienne dominante domine les discussions politiques d'aujourd'hui, la tradition autrichienne pose des questions différentes : Que se passe t-il lorsque nous priorisons la liberté individuelle ? Comment les marchés libres fonctionnent-ils réellement lorsque les gens sont libres de choisir ? Si vous êtes curieux de connaître des façons alternatives de penser les marchés, la société et la liberté, c'est votre chance d'explorer des idées que vous ne trouverez pas dans les manuels standards.
 +++
 # Introduction
 
@@ -35,14 +36,15 @@ Dans ce cours, vous explorerez les principes fondamentaux de cette école de pen
 Nous débuterons par une introduction générale à l'économie autrichienne, en explorant ses origines historiques et les fondements de sa pensée. Cette section couvre également des notions essentielles telles que l'argent, le crédit, les banques et les banques centrales. Vous comprendrez pourquoi ces institutions jouent un rôle central dans la pensée autrichienne, en particulier dans leur critique des interventions monétaires.
 
 **Section 2 : Fondements théoriques**  
-Cette section approfondira les concepts fondamentaux de l'économie autrichienne, comme la théorie subjective de la valeur, qui explique pourquoi la valeur d'un bien n'est pas objective mais dépend de l'utilité perçue par chaque individu. Vous découvrirez également comment l'argent émerge naturellement en tant que phénomène social, ainsi que les concepts de préférence temporelle, d'intérêt et de capital qui sont au cœur de la théorie autrichienne du marché libre.
+Cette section approfondira les concepts nécessaires de l'économie autrichienne, comme la théorie subjective de la valeur, qui explique pourquoi la valeur d'un bien n'est pas objective mais dépend de l'utilité perçue par chaque individu. Vous découvrirez également comment l'argent émerge naturellement en tant que phénomène social, ainsi que les concepts de préférence temporelle, d'intérêt et de capital qui sont au cœur de la théorie autrichienne du marché libre.
 
 **Section 3 : Perspectives économiques autrichiennes**  
 Ici, nous explorerons les applications pratiques de la théorie autrichienne. Vous apprendrez en détail la théorie autrichienne du cycle économique, qui explique comment les manipulations monétaires provoquent des booms artificiels suivis de récessions. Nous verrons également pourquoi le calcul économique est impossible sous un système socialiste et en quoi la méthodologie autrichienne, basée sur la praxéologie (l'étude de l'action humaine), constitue une approche unique et cohérente pour comprendre les phénomènes économiques.
 
 Ce cours est une fusion entre économie et philosophie, animé par une discussion ouverte entre Théo et moi (Rogzy). Je tiens à remercier chaleureusement Théo Mogenet pour la création de ce cours. Nous avons pris beaucoup de plaisir à développer ce contenu, qui est conçu pour être accessible à tous. Ce cours constitue une introduction essentielle et posera les bases pour nos futurs modules plus avancés sur l'économie.
 
-Et si la clé pour comprendre l'économie actuelle résidait dans une théorie vieille de plusieurs siècles ? Découvrons-la ensemble !
+Et si la clé pour comprendre l'économie actuelle résidait dans une théorie vieille de plusieurs siècles ? 
+Découvrons-la ensemble !
 
 ## L'argent, le crédit, les banques et les banques centrales
 
@@ -50,37 +52,45 @@ Et si la clé pour comprendre l'économie actuelle résidait dans une théorie v
 
 :::video id=d29b87ef-78fe-451d-afb4-be3b57096afb:::
 
-> "Le problème fondamental avec la monnaie conventionnelle est toute la confiance qui est nécessaire pour la faire fonctionner. La banque centrale doit être digne de confiance pour ne pas dévaluer la monnaie, mais l'histoire des monnaies fiduciaires est pleine de violations de cette confiance. Les banques doivent être dignes de confiance pour garder notre argent et le transférer électroniquement, mais elles le prêtent en vagues de bulles de crédit avec à peine une fraction en réserve. Nous devons leur faire confiance pour notre vie privée, leur faire confiance pour ne pas laisser les voleurs d'identité vider nos comptes."
+> "Le problème fondamental de la monnaie conventionnelle réside dans la quantité de confiance nécessaire à son fonctionnement. La banque centrale doit être digne de confiance pour ne pas dévaluer la monnaie, mais l’histoire des devises fiduciaires est marquée par de nombreuses violations de cette confiance.
+Les banques doivent également être fiables pour conserver notre argent et effectuer les transferts électroniques ; pourtant, elles prêtent bien au-delà de leurs réserves, alimentant des vagues de bulles de crédit.
+Nous devons leur faire confiance pour protéger notre vie privée et éviter que des voleurs d’identité ne vident"
 >
 > Satoshi Nakamoto, inventeur pseudonyme du Bitcoin
 
 ### Comment l'argent est créé
 
-Dans notre système monétaire actuel, l'argent est principalement créé grâce à une pratique bancaire appelée "banque à réserves fractionnaires". Ce terme signifie essentiellement que les banques ne sont pas tenues de détenir autant de réserves qu'elles reçoivent de dépôts. Par conséquent, elles peuvent créer de nouveaux pouvoirs d'achat lorsqu'elles accordent des prêts et, inversement, réduire le pouvoir d'achat lorsque les clients remboursent leurs prêts.
+Dans notre système monétaire actuel, l’argent est principalement créé grâce à une pratique bancaire appelée « banque à réserves fractionnaires ». Ce terme signifie que les banques ne sont pas tenues de détenir en réserve l’intégralité des dépôts qu’elles reçoivent. Elles peuvent ainsi créer de nouveaux pouvoirs d’achat lorsqu’elles accordent des prêts et, inversement, réduire ce pouvoir d’achat lorsque les clients remboursent leurs emprunts.
 
-Par exemple, si vous vous adressez à votre banque locale pour obtenir un prêt hypothécaire pour l'achat d'une maison, l'argent que la banque vous prête prendrait naissance sous forme d'une entrée comptable. En comptabilité, nous représentons généralement la richesse nette d'une personne par un bilan, qui comporte deux côtés : le côté actif, comprenant tous les biens, contrats financiers, stocks ou autres formes de richesse possédés, et le côté passif, montrant la source des fonds utilisés pour créer le capital figurant à l'actif. La différence entre les actifs et les passifs est appelée "capitaux propres" et peut être considérée comme la richesse nette de l'entité.
+Par exemple, si vous sollicitez un prêt hypothécaire auprès de votre banque pour acheter une maison, l’argent prêté est créé sous la forme d’une simple écriture comptable. En comptabilité, la richesse nette d’un individu ou d’une entité est généralement représentée par un bilan comportant deux volets :
 
-Lorsqu'une institution financière détient une licence bancaire, cela signifie essentiellement que les passifs enregistrés en tant que "dépôts des clients" sont considérés comme de l'argent officiel dans un pays ou une zone monétaire spécifique. Par conséquent, lorsque vous demandez un prêt pour acheter une maison à la banque, le banquier ne prête pas les fonds déposés par un autre client. Au lieu de cela, la banque crédite le montant emprunté sur votre compte et enregistre simultanément votre contrat de prêt en tant qu'actif de la banque. Lorsque vous remboursez votre prêt, l'argent est détruit et la valeur du contrat de prêt correspondant diminue, la banque ne conservant que les intérêts sur le prêt.
+l’actif, qui regroupe tous les biens, contrats financiers, stocks ou autres formes de richesse détenus ;
 
-Lors de l'achat de la maison, vous demandez à votre banquier de transférer de l'argent sur le compte du vendeur. Si le compte du vendeur est dans une autre banque, votre banquier informe le banquier correspondant de l'autre institution pour s'assurer que le compte du vendeur est crédité du montant correspondant, tout en débitant votre compte du montant correspondant.
+le passif, qui indique l’origine des fonds ayant permis de constituer ces actifs.
+
+La différence entre les actifs et les passifs constitue les « capitaux propres », assimilables à la richesse nette de l’entité.
+
+Lorsqu’une institution financière possède une licence bancaire, cela signifie que les passifs enregistrés sous forme de « dépôts des clients » sont reconnus comme de la monnaie officielle dans un pays ou une zone monétaire donnée. Ainsi, lorsque vous demandez un prêt pour acheter une maison, le banquier ne prête pas l’argent déposé par un autre client. Au contraire, la banque crédite votre compte du montant emprunté et inscrit simultanément votre contrat de prêt à son actif. Lorsque vous remboursez l’emprunt, l’argent ainsi créé est détruit et la valeur du contrat de prêt correspondant diminue ; la banque ne conserve que les intérêts perçus.
+
+Lors de l’achat du bien immobilier, vous demandez ensuite à votre banque de transférer les fonds vers le compte du vendeur. Si celui-ci est domicilié dans une autre banque, votre banquier contacte l’établissement concerné afin que le compte du vendeur soit crédité du montant prévu, tandis que le vôtre est débité en conséquence.
 
 ![image](assets/fr/001.webp)
 
-Figure 1 : Création d'argent sous forme d'entrées comptables
+Figure 1 : Création monétaire sous forme d’écritures comptables
 
 > "Il est bien suffisant que les gens de notre nation ne comprennent pas notre système bancaire et monétaire, car s'ils le faisaient, je crois qu'il y aurait une révolution avant demain matin."
 >
 > Henry Ford
 
-Ce processus permet aux banques d'enregistrer toutes les transactions, y compris les virements bancaires, les achats par carte de crédit et les chèques, sur une période donnée (généralement une semaine ou un mois). Elles règlent ensuite ces transactions entre elles en utilisant des réserves bancaires, qui sont une autre forme de monnaie fiduciaire jamais utilisée par le public. Les réserves bancaires sont détenues à la banque centrale sur un compte spécial accessible uniquement aux banques et aux institutions financières agréées.
+Ce processus permet aux banques d’enregistrer toutes les transactions, qu’il s’agisse de virements bancaires, de paiements par carte de crédit ou de chèques, sur une période donnée (généralement une semaine ou un mois). Elles régularisent ensuite ces transactions entre elles en utilisant des réserves bancaires, une forme de monnaie fiduciaire qui n’est jamais directement accessible au public. Ces réserves sont conservées à la banque centrale, sur un compte spécial réservé aux banques et aux institutions financières agréées.
 
-### Instabilité de la banque à réserves fractionnaires et prêteur en dernier ressort
+### Instabilité de la banque à réserves fractionnaires et de prêteur en dernier ressort
 
-Le principal problème de ce système de réserve fractionnaire est que des retraits importants d'une banque particulière peuvent potentiellement conduire à sa faillite. Étant donné que les banques doivent répondre aux demandes de liquidités des clients tout en ne détenant qu'une réserve limitée de réserves bancaires, une ruée simultanée de nombreux clients pour retirer des fonds peut rendre la banque incapable de satisfaire ces demandes, entraînant sa faillite. Étant donné que de nombreuses personnes, entreprises et institutions ont leurs fonds déposés dans des banques, laisser une banque faire faillite pourrait avoir de graves conséquences économiques, telles qu'une récession ou même une dépression.
+Le principal problème du système à réserves fractionnaires réside dans le fait que des retraits massifs dans une banque peuvent potentiellement provoquer sa faillite. Comme les banques doivent répondre aux demandes de liquidités des clients tout en ne disposant que d’une réserve limitée, une ruée simultanée de nombreux déposants peut les rendre incapables de satisfaire ces demandes, entraînant ainsi leur effondrement. Étant donné que de nombreuses personnes, entreprises et institutions déposent leurs fonds dans ces banques, laisser une faillite se produire pourrait avoir de graves conséquences économiques, telles qu’une récession, voire une dépression.
 
-Ce dilemme a donné naissance aux banques centrales modernes. Au XIXe siècle en Angleterre, des retraits massifs menaçaient la stabilité financière, ce qui a conduit à la création de la Banque d'Angleterre en tant que "prêteur en dernier ressort". La Banque d'Angleterre avait pour mission de prêter des fonds aux banques en difficulté lors de crises afin d'éviter un effet domino qui pourrait paralyser l'ensemble du système financier. Ce concept de banques centrales en tant que prêteurs en dernier ressort s'est depuis répandu dans le monde entier et est devenu courant.
+Ce risque a conduit à la création des banques centrales modernes. Au XIXᵉ siècle en Angleterre, les retraits massifs menaçaient la stabilité financière, ce qui a entraîné la création de la Banque d’Angleterre en tant que prêteur en dernier ressort. Sa mission consistait à fournir des fonds aux banques en difficulté lors de crises, afin d’éviter un effet domino pouvant paralyser l’ensemble du système financier. Ce concept s’est depuis généralisé et constitue aujourd’hui une fonction essentielle des banques centrales dans le monde entier.
 
-En plus de maintenir la stabilité financière, les banques centrales sont responsables de la fixation des taux d'intérêt clés. Ces taux déterminent le coût auquel les banques agréées peuvent emprunter des fonds auprès de la banque centrale, définissant essentiellement le coût de la liquidité pour les institutions financières qui jouent un rôle crucial dans les prêts dans nos économies. Par conséquent, ces taux servent de référence pour l'ensemble du système financier. En tant qu'individu, les taux d'intérêt que vous payez sur votre prêt hypothécaire peuvent être décomposés en taux de politique monétaire et marge de la banque.
+Outre le maintien de la stabilité financière, les banques centrales sont responsables de la fixation des taux d’intérêt directeurs. Ces taux déterminent le coût auquel les banques agréées peuvent emprunter auprès de la banque centrale, définissant ainsi le prix de la liquidité pour les institutions financières qui jouent un rôle clé dans le financement de l’économie. Par conséquent, ces taux servent de référence pour l’ensemble du système financier. Pour un particulier, les taux d’intérêt appliqués à un prêt hypothécaire peuvent être décomposés en taux de politique monétaire et marge bancaire.
 
 ![image](assets/fr/002.webp)
 
@@ -94,18 +104,19 @@ Bien que ces mesures aient empêché une vague de faillites en cascade, elles n'
 
 Figure3: Taux d'intérêt dans les principales économies / Source: BCE
 
-Contrairement à de nombreuses attentes, les programmes d'assouplissement quantitatif n'ont pas relancé de manière significative la croissance économique, mais ont fait grimper les actifs financiers à des niveaux historiques. Cela a principalement profité aux riches et aux institutions financières, car elles détenaient déjà des quantités importantes d'actifs, creusant ainsi les inégalités de richesse. Étant donné la structure du système bancaire expliquée précédemment, ce résultat n'est pas surprenant. Étant donné que les réserves bancaires ne peuvent pas facilement circuler dans l'économie réelle, les programmes d'assouplissement quantitatif ont principalement stimulé les prix des actifs sans améliorer efficacement la situation financière des individus moyens.
+Contrairement à ce que l’on pourrait attendre, les programmes d’assouplissement quantitatif n’ont pas stimulé de manière significative la croissance économique, mais ont fait grimper les prix des actifs financiers à des niveaux historiques. Ces hausses ont principalement profité aux riches et aux institutions financières, déjà détentrices d’importantes quantités d’actifs, creusant ainsi les inégalités de richesse. Au regard de la structure du système bancaire décrite précédemment, ce résultat n’est pas surprenant : comme les réserves bancaires circulent difficilement dans l’économie réelle, les programmes d’assouplissement quantitatif ont surtout fait monter les prix des actifs, sans améliorer de manière notable la situation financière de l’individu moyen.
 
 ### L'effet Cantillon
 
-Néanmoins, un principe économique essentiel peut être tiré de cet épisode : lorsque de l'argent neuf est créé, il profite initialement à ceux qui sont les plus proches de sa source, au détriment de ceux qui en sont plus éloignés. Cette notion économique remonte au XVIIIe siècle, lorsque Richard Cantillon l'a exposée dans son "Essai sur la nature du commerce en général". On l'appelle maintenant familièrement l'"effet Cantillon".
+Un principe économique essentiel ressort néanmoins de cet épisode : lorsque de la monnaie nouvelle est créée, elle profite d’abord à ceux qui sont les plus proches de sa source, au détriment de ceux qui en sont plus éloignés. Ce concept, présenté pour la première fois au XVIIIᵉ siècle par Richard Cantillon dans son Essai sur la nature du commerce en général, est aujourd’hui connu sous le nom d’« effet Cantillon ».
 
 ![image](assets/fr/004.webp)
 
 Figure4: L'effet Cantillon en un coup d'œil / Source: River Financial
 
-Dans ce cas, les banquiers, les dirigeants de banque, les propriétaires d'actions et d'obligations, les promoteurs et prêteurs immobiliers ainsi que toute personne détenant des actifs financiers ou immobiliers ont reçu une manne financière, tandis que le fardeau est tombé sur le reste de la population. Cette situation a perduré pendant des années et explique en grande partie l'accroissement des inégalités de richesse, le sentiment de marginalisation chez les travailleurs et la hausse inexorable des prix des actifs malgré une croissance économique anémique.
-En essence, le système est biaisé. Les banques sont intrinsèquement instables, mais leur faillite peut mettre en péril l'ensemble de l'économie. Ce risque moral incite les dirigeants de banque à prendre des risques excessifs pour maximiser les revenus de leur banque, sachant que la banque centrale les renflouera ultimement, transférant ainsi le coût aux contribuables. Dans de tels scénarios, les banquiers centraux créent les conditions d'un transfert massif du pouvoir d'achat des travailleurs et des épargnants vers les propriétaires d'actifs et ceux qui sont liés au système financier, dissociant ainsi le processus de création de richesse de l'accumulation de richesse.
+Dans ce contexte, les banquiers, dirigeants d’établissement, actionnaires, détenteurs d’obligations, promoteurs et prêteurs immobiliers, ainsi que toute personne possédant des actifs financiers ou immobiliers, ont bénéficié d’une véritable manne financière, tandis que le fardeau est retombé sur le reste de la population. Cette situation a perduré pendant des années et explique en grande partie l’accroissement des inégalités de richesse, le sentiment de marginalisation des travailleurs et la hausse continue des prix des actifs malgré une croissance économique faible.
+
+En substance, le système est biaisé. Les banques sont intrinsèquement instables, mais leur faillite pourrait menacer l’ensemble de l’économie. Ce risque moral incite les dirigeants bancaires à prendre des risques excessifs pour maximiser les revenus de leur établissement, sachant que la banque centrale interviendra en dernier ressort, transférant ainsi le coût aux contribuables. Dans ce type de scénario, les banques centrales créent les conditions d’un transfert massif du pouvoir d’achat des travailleurs et des épargnants vers les propriétaires d’actifs et les acteurs du système financier, dissociant le processus de création de richesse de l’accumulation effective de richesse.
 
 ![image](assets/fr/005.webp)
 
@@ -113,9 +124,9 @@ Figure 5 : Répartition de la richesse en Chine + Europe + États-Unis / Source 
 
 ### Conséquences des politiques de taux d'intérêt nuls
 
-Pendant de longues périodes de politiques de taux d'intérêt nuls (Zero Interest-Rate Policy), les banques ont peu d'opportunités de reconstituer leurs fonds propres car leurs marges sont érodées. Elles gagnent généralement de l'argent en empruntant à des taux à court terme et en prêtant à des taux à plus long terme. Cependant, lorsque les banques centrales achètent de grandes quantités d'obligations et fixent les taux à zéro, les banques ont peu d'incitation à prêter, en particulier aux entrepreneurs et aux autres preneurs de risques. Au lieu de cela, elles allouent leurs ressources à la titrisation du capital existant ou à l'octroi de prêts contre des garanties pour répondre à la demande des bénéficiaires de l'effet Cantillon.
+Pendant de longues périodes de politique de taux d’intérêt nul (Zero Interest-Rate Policy, ZIRP), les banques disposent de peu d’opportunités pour reconstituer leurs fonds propres, car leurs marges se trouvent fortement comprimées. Elles réalisent généralement des profits en empruntant à court terme et en prêtant à long terme. Cependant, lorsque les banques centrales achètent d’importantes quantités d’obligations et maintiennent les taux proches de zéro, les banques ont peu d’incitation à prêter, notamment aux entrepreneurs et autres preneurs de risques. Elles préfèrent alors allouer leurs ressources à la titrisation du capital existant ou à l’octroi de prêts garantis pour répondre à la demande des bénéficiaires de l’effet Cantillon.
 
-Une autre conséquence involontaire de la ZIRP est qu'elle encourage les gouvernements à engager des dépenses importantes. Étant donné que les gouvernements ne supportent aucun coût d'emprunt et peuvent compter sur les banques centrales pour acheter leurs obligations par le biais de programmes d'assouplissement quantitatif, ils ont une incitation naturelle à dépenser autant que possible, en particulier dans les contextes démocratiques où les dépenses peuvent rapporter des votes. Cette tendance néglige souvent les conséquences à long terme d'une telle prodigalité budgétaire qui entraîne une augmentation significative du niveau de la dette publique dans les économies développées depuis la crise financière mondiale (Global Finance Crisis).
+Une autre conséquence involontaire de la ZIRP est qu’elle encourage les gouvernements à engager des dépenses importantes. Comme ils ne supportent pratiquement aucun coût d’emprunt et peuvent compter sur les banques centrales pour acheter leurs obligations via les programmes d’assouplissement quantitatif, les gouvernements ont une incitation naturelle à dépenser autant que possible, surtout dans les systèmes démocratiques où ces dépenses peuvent se traduire par un gain électoral. Cette tendance néglige souvent les conséquences à long terme, entraînant une augmentation significative du niveau de la dette publique dans les économies développées depuis la crise financière mondiale (Global Financial Crisis).
 
 ![image](assets/fr/006.webp)
 
@@ -125,7 +136,7 @@ Avec la hausse de l'inflation en raison de la création monétaire importante en
 
 ### Conclusion
 
-> "Par ce moyen (la banque à réserves fractionnaires), les gouvernements peuvent confisquer la richesse du peuple en secret et sans être détectés, et pas un homme sur un million ne détecterait le vol"
+> "Par ce moyen (la banque à réserves fractionnaires), les gouvernements peuvent confisquer en secret la richesse du peuple, et pas un individu sur un million ne remarquerait ce vol.
 >
 > John Maynard Keynes
 

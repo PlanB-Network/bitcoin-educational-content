@@ -2540,13 +2540,13 @@ This first photo above shows a Gulden from 1722, while the second shows a coin i
 
 The VOC was an extremely powerful company for its time: it had its own army and even issued its own currency.
 
-The Dutch invented modern capitalism, which began as a means of distributing risk in risky ventures such as expeditions to the New World or the search for new trade routes. Joint-stock companies enabled several investors to pool their money and share the risk. To facilitate these exchanges, it was then necessary to create institutions capable of negotiating and exchanging these securities. Thus, in 1602, the first joint-stock company and stock exchange were created.
+The Dutch invented modern capitalism, which began as a means of distributing risk in risky ventures such as expeditions to the New World or the search for new trade routes. Joint-stock companies enabled several investors to pool their money and share the risk. To facilitate these exchanges, institutions capable of negotiating and exchanging these securities were created. Thus, in 1602, the first joint-stock company and stock exchange were established.
 
 
-Dutch currency, the **Gulden**, gained credibility thanks to its purity in silver, and then to its adoption by the Bank of Amsterdam (1609), where deposits became a preferred form of money in Europe. This is a very important point to mention. Yes, of course there were coins, but what really constituted money in those days was a form of scriptural money. In fact, much of the world's trade passed through the books of the Bank of Amsterdam. This was a real banking breakthrough: international trade was no longer necessarily conducted with physical coins, but directly through the bank's accounting records.
+Dutch currency, the **Gulden**, gained credibility thanks to its purity in silver, and then to its adoption by the Bank of Amsterdam (1609), where deposits became a preferred form of money in Europe. This was a significant banking breakthrough: while coins existed, much of the world's trade was conducted as scriptural money through the accounting records of the Bank of Amsterdam. International trade was no longer necessarily conducted with physical coins, but directly through the bank's ledgers.
 
 
-This period of prosperity was marked by a large influx of gold and silver, particularly from other countries practicing inflation or monetary control. There's an interesting character to mention: **Thomas Gresham**. At this time, he worked for English royalty in the Netherlands, managing the flow of money between the two countries. It was this same Gresham who left us the famous **"Gresham Law"**.
+This period of prosperity was marked by a large influx of gold and silver, particularly from other countries practicing inflation or monetary control. An important figure from this period is **Thomas Gresham**. At this time, he worked for English royalty in the Netherlands, managing the flow of money between the two countries. It was this same Gresham who left us the famous **"Gresham Law"**.
 
 
 Nevertheless, the Dutch Empire also eventually ran out of steam. Wars with England, the dilution of the gulden in times of conflict, and competition from other powers (France and England) signaled the end of Dutch hegemony. After the Fourth Anglo-Dutch War (1780-84), the decline of the gulden as a reserve currency became irreversible.
@@ -2558,19 +2558,19 @@ Nevertheless, the Dutch Empire also eventually ran out of steam. Wars with Engla
 Under Louis XIV, **France** became the greatest continental power in Europe. However, the French currency never achieved the status of a dominant reference: numerous devaluations, heavy taxation, and costly wars (the League of Augsburg, the War of the Spanish Succession, etc.) weighed heavily on the stability of the monetary system.
 
 
-The first major experiment in paper money was conducted by John Law (1716-1720). The Banque Générale issued bills backed by promises of government debt. This scheme led to a speculative bubble and collapse (the Mississippi Bubble) in 1720. This disaster left France with a lasting distrust of paper money. It was this disastrous experience that led Richard Cantillon to become wealthy thanks to this system of stating principles, now known as the Cantillon effect, where money printing enriches those with access to the printing press.
+The first major experiment in paper money was conducted by John Law (1716-1720). The Banque Générale issued bills backed by promises of government debt. This scheme led to a speculative bubble and collapse (the Mississippi Bubble) in 1720. This disaster left France with a lasting distrust of paper money. It was this disastrous experience that allowed Richard Cantillon to become wealthy by applying the principles now known as the Cantillon effect, where money printing enriches those with closest access to the new money.
 
 
 When this mistrust finally faded, another French paper fiasco: revolutionary **assignats**. Issued from 1790 onwards based on the confiscation of clergy property, these assignats experienced galloping hyperinflation, making them officially the first hyperinflation in history to exceed 50% per month. In 1795, although their face value had been multiplied, they were trading at just a few percent of their initial value.
 
 
-More restrictive laws sought to impose the assignat, but without success. The government tried to impose it, going so far as to threaten those who didn't accept it with death, and forcing shopkeepers to stay open. But of course, in the end, it didn't work.
+More restrictive laws sought to impose the assignat, but without success. The government attempted to force its use, even threatening with death those who refused to accept it and compelling shopkeepers to remain open, but these measures ultimately failed.
 
 
 ![](./assets/fr/5_1_assignat.webp)
 
 
-As this paper money replaced all the quality precious metal coinage, aligning with the famous Gresham's Law, a coin shortage ensued. To mint new coins, they used bell metal seized from the clergy. Here below you can see a beautiful piece of bell metal, crafted from recovered copper by melting down the coins taken from the clergy.
+As this paper money replaced all the quality precious metal coinage, aligning with the famous Gresham's Law, a coin shortage ensued. To mint new coins, they used bell metal seized from the clergy. The image below shows a piece of bell metal, crafted from copper recovered by melting down the bells taken from the clergy.
 
 
 ![](./assets/fr/5_1_cloche.webp)
@@ -2579,7 +2579,7 @@ As this paper money replaced all the quality precious metal coinage, aligning wi
 ### British domination (18th - early 20th centuries)
 
 
-**England**, having overtaken the Netherlands, became the dominant power in the 18th century. The pound sterling is the oldest currency still in use, originally linked to a pound of silver. Gradually, its status grew stronger, underpinned by a financial and fiscal revolution: parliamentary monarchy, strong tax-raising capacity, and the creation of the Bank of England in 1694\.
+**England**, having overtaken the Netherlands, became the dominant power in the 18th century. The pound sterling is the oldest currency still in use, originally linked to a pound of silver. Gradually, its status grew stronger, underpinned by a financial and fiscal revolution: parliamentary monarchy, strong tax-raising capacity, and the creation of the Bank of England in 1694.
 
 
 After a series of wars against France, the United Kingdom emerged victorious in 1815 (Waterloo), confirming its supremacy. Throughout the 19th century, the pound sterling acted as the world's reserve currency. At its peak, with just 2.5% of the world's population, Britain produced 20% of global income and controlled almost a quarter of the earth's surface.
@@ -2591,10 +2591,10 @@ The **Industrial Revolution** and the adoption of a **Gold Standard** (1717 or 1
 However, the First World War (1914-1918) put an end to this system. Within weeks, all the major warring powers suspended gold convertibility. The British Empire, and later the pound, emerged from the Second World War in a weakened state, giving way to the American dollar in the 20th century.
 
 
-And as an artefact, you can see some beautiful and interesting pieces below. These are monetary weights. The first one is the sovereign: the earliest representations of the pound. I only have money weights to represent these coins because I can't afford to buy a real sovereign. To weigh them, we used scales and then placed the monetary weight equivalent to the sovereign's value on the other side.
-The sovereign was a monetary coin - a gold coin originally worth one pound. 
+Below are some monetary weights from the period. The first is a weight for the sovereign. These weights were used with scales to verify the value of coins; the weight equivalent to the coin's value would be placed on the opposite side of the scale. 
+The sovereign was a gold coin originally worth one pound. 
 
-Preceding the famous sovereign was the guinea, which operated on the same principle. The guinea was named for the precious metals it contained, sourced from the region of Guinea.
+Preceding the famous sovereign was the guinea, which operated on the same principle. The guinea was named for the region of Guinea from which its precious metals were sourced.
 
 ![](./assets/fr/5_2_sovereign.webp)
 

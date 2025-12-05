@@ -289,6 +289,7 @@ non_translatable:
   - Plan ₿ Hangouts
   - Plan ₿ Labs
   - Plan ₿ Network
+  - Plan ₿ Academy
   - POOL HOPPING
   - Proof of Work
   - Proof-of-Work
@@ -475,6 +476,7 @@ non_translatable:
   - KeePass
   - Keet
   - "Ledger U2F & FIDO2"
+  - FIDO2
   - LibreWolf
   - LineageOS
   - "Linux Mint"
@@ -575,6 +577,7 @@ non_translatable:
   - Nakamochi
   - Neutrino
   - NOSTR
+  - Nostr
   - RaspiBlitz
   - "RGB CLI"
   - "Ride The Lightning (RTL)"
@@ -588,6 +591,11 @@ non_translatable:
   - "Umbrel Nostr"
   - "Lightning Watchtower"
   - "Ashigaru Terminal"
+  - "Ashigaru Ricochet"
+  - "Ashigaru - Ricochet"
+  - "Ashigaru - Stonewall"
+  - "Ashigaru - Stonewall x2"
+  - "Ashigaru - Stowaway"
   - "Blockstream Explorer"
   - "Coin Control"
   - "Remix - Whirlpool"
@@ -613,6 +621,7 @@ non_translatable:
   - Breez
   - "Bull Bitcoin Wallet"
   - "Cake Wallet"
+  - "Dana Wallet"
   - Cashu.me
   - "COLDCARD Mk"
   - "COLDCARD - Co-Sign"
@@ -666,3 +675,8 @@ non_translatable:
   - "Wallet of Satoshi"
   - "Wasabi Wallet"
   - "Zeus Embedded"
+  - Kali
+  - "Kali Linux"
+  - "Pop!_OS"
+  - "LN Markets"
+  - Windows 11

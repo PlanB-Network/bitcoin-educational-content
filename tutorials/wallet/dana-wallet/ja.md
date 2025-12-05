@@ -1,5 +1,5 @@
 ---
-name: ダナ Wallet
+name: Dana Wallet
 description: サイレント決済のためのミニマリスト・ポートフォリオ (BIP-352)
 ---
 

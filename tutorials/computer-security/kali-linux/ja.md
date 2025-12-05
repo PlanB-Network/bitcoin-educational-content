@@ -1,5 +1,5 @@
 ---
-name: カリ
+name: Kali
 description: VirtualBox、ブータブルUSBスティック、デュアルブートでKali Linuxをインストールする。
 ---
 

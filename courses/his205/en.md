@@ -2745,36 +2745,34 @@ During the American Civil War, the Confederates printed money that experienced h
 ![](./assets/fr/confederate.webp)
 
 
-Their opponents of the north also had dollars. Just above, you could see Confederate dollars, while below you can observe Northern dollars. They were called "the greenback" because the back was green.
+The Northern opponents issued their own currency, known as "the greenback" due to the color on the reverse of the notes as shown below.
 
 
 ![](./assets/fr/greenback.webp)
 
 
-And I invite you to compare the difference in size with modern banknotes. Back then, banknotes were bigger.
+Banknotes from that era were larger than the modern ones.
 
 
-As we know, the north won, so the greenback became the currency of the reunified American states. Then came the founding of the FED in 1913, and the First World War.
+Following the the Northern victory, the greenback became the currency of the reunified American states. This was followed by the founding of the Federal Reserve (FED) in 1913, and the First World War.
 
-In the aftermath of the First World War, the last series of printed banknotes always included the words "redeemable in gold on demand". So, in 1928, $20 bought almost an ounce of gold, as the price of gold was $20.67. The bill in the image below could buy an ounce of gold in 1928.
+In the aftermath of the war, banknotes still included the words "redeemable in gold on demand". In 1928, $20 bought almost an ounce of gold, as the price was fixed at $20.67. The bill in the image below could have been exchanged for an ounce of gold in 1928.
 
 
 ![](./assets/fr/1928.webp)
 
 
-Today, an ounce of gold is worth US $3,000. So you can see the power of devaluation here, of course. It was the last bill containing the words "redeemable in gold". We'll see that right after the Executive Order 6102, they would seize all the gold. In fact, they would seize both the gold and the gold certificates. 
+Today, an ounce of gold is worth approximately $3,000, illustrating the extent of the currency's devaluation. This was the last series of bills to contain the words "redeemable in gold". Shortly thereafter, Executive Order 6102 resulted in the seizure all privately held gold and gold certificates. 
 
-Here below you can see a gold certificate from 1928.
+Below is an example of a 1928 gold certificate.
 
 
 ![](./assets/fr/Gold_certificate.webp)
 
 
-Not only was it "redeemable in gold" like the 1928 bill, it was also redeemable in gold coins: it really is a "gold certificate". They've all been seized after Executive Order 6102. Up until 1964, it was even illegal to own them. 
+Not only was it "redeemable in gold" like the 1928 Federal Reserve note, but it was a direct claim on gold coins.  These "gold certificates" were seized under Executive Order 6102, and it remained illegal to own them until 1964. 
 
-I'm very happy to have one.
-
-Starting from 1964, it became illegal to own gold, until 1974, if I'm not mistaken. In the 70s, they allowed people to accumulate gold after the Nixon shock, which we'll describe shortly. In 1933, when they issued "Executive Order 6102", they seized gold and it became illegal to possess it. You received a big prison sentence if you were caught keeping your gold. During those days, every ounce of gold was exchanged for a bill similar to the one below, after 1934. 
+Starting from 1964, it became illegal to own gold, until 1974. In the 70s, they allowed people to accumulate gold after the Nixon shock, which we'll describe shortly. In 1933, when they issued "Executive Order 6102", they seized gold and it became illegal to possess it. You received a big prison sentence if you were caught keeping your gold. During those days, every ounce of gold was exchanged for a bill similar to the one below, after 1934. 
 
 As we said, in 1928, a dollar still had the "redeemable in gold" text on it.
 
@@ -2783,15 +2781,13 @@ After the issuance of the Executive Order 6102, they seized all the gold and exc
 
 ![](./assets/fr/1934.webp)
 
-The concept of legal tender emerges here, replacing the phrase "redeemable in gold." The two bills may look identical, with only a few words changing, but the scam lies in the fact that the dollar was devalued during this period; it decreased from an ounce of gold being valued at $20.67 to $35 per ounce in 1934. It represented a devaluation of approximately 40%!
+The concept of legal tender emerges here, replacing the promise of redeemability in gold. The critical change, however, was a simultaneous devaluation of the dollar; in 1934 the official price of gold was raised from $20.67 to $35 per ounce, a devaluation of approximately 40%!
 
-Then came the Second World War. Following the war, the Bretton Woods Agreement centralized much of the world's gold in the United States. The Americans issued banknotes in exchange, though these bills were no longer redeemable for gold by the general public. Instead, they remained exchangeable for gold at the state level.
+Then came the Second World War. Following the war, the Bretton Woods Agreement centralized much of the world's gold in the United States. In exchange, the Americans issued dollars. While those dollars were no longer redeemable for gold by the general public, they remained exchangeable for gold at the state level, for other central banks.
 
-Eventually, countries like France and Germany began to suspect that there were probably more dollar bills in circulation than gold in US vaults.
+Eventually, countries like France and Germany began to suspect that the U.S. had issued more dollars than it had gold to back them and requested to repatriate their gold. In 1971, President Richard Nixon severed the link between the dollar and gold, blaming speculators for the move.
 
-So they asked to repatriate their gold. Well, they said, "Okay, we'll do it, but it'll take a little time." In 1971, our friend Richard Nixon cut the link between banknotes and gold once and for all, blaming speculators in the process.
-
-Gold was undervalued at $35 per ounce, a price that did not correspond to the volume of money that had been printed or its true market value. Over just a few years, the price surged from $34 to $800. Similar to historical examples, such as in Rome, where the connection between the denarius and the solidus was severed, gold was allowed to float. This fact led to a process of price discovery, resulting in gold being valued much higher in dollar terms thereafter.
+Gold was undervalued at $35 per ounce, a price that did not reflect the volume of money in circulation. Over the following years, the price of gold surged from $34 to over $800, as it was allowed to float. Similar to historical precedents, such as in Rome, where the connection between the denarius and the solidus was severed, this allowed for a process of price discovery, resulting in gold being valued much higher in dollar terms thereafter.
 
 ### The modern fiat currency system and its implications
 

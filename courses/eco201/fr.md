@@ -11,7 +11,8 @@ objectives:
 
 Vous êtes-vous déjà demandé pourquoi certains économistes pensent différemment les marchés, la liberté et le comportement humain ? L'économie autrichienne offre une perspective rafraîchissante qui vous place au cœur de la pensée économique. Au lieu de mathématiques complexes et de modèles abstraits, cette approche se concentre sur la logique, le choix humain et la façon dont les gens réels prennent des décisions dans leur vie quotidienne. C'est l'économie à travers le prisme de la liberté, de la rationalité et de l'action personnelle.
 
-Cette école de pensée a façonné les débats pendant des siècles, grâce à des penseurs influents comme Hayek, Mises et Bastiat. Alors que l'économie keynésienne dominante domine les discussions politiques d'aujourd'hui, la tradition autrichienne pose des questions différentes : Que se passe-t-il lorsque nous priorisons la liberté individuelle ? Comment les marchés libres fonctionnent-ils réellement lorsque les gens sont libres de choisir ? Si vous êtes curieux de connaître des façons alternatives de penser les marchés, la société et la liberté, c'est votre chance d'explorer des idées que vous ne trouverez pas dans les manuels standards.
+Cette école de pensée a façonné les débats pendant des siècles, grâce à des penseurs influents comme Hayek, Mises et Bastiat. Alors que l'économie keynésienne dominante domine les discussions politiques d'aujourd'hui, la tradition autrichienne pose des questions différentes : Que se passe t-il lorsque nous priorisons la liberté individuelle ? Comment les marchés libres fonctionnent-ils réellement lorsque les gens sont libres de choisir ? 
+Si vous êtes curieux de connaître des façons alternatives de penser les marchés, la société et la liberté, c'est votre chance d'explorer des idées que vous ne trouverez pas dans les manuels standards.
 +++
 # Introduction
 
@@ -21,9 +22,9 @@ Cette école de pensée a façonné les débats pendant des siècles, grâce à 
 
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
-Bienvenue dans la formation ECO201 !
+Bienvenue dans la formation ECO201
 
-Dans ce cours proposé par Théo Mogenet, vous découvrirez une école de pensée économique qui se distingue fondamentalement de la doctrine keynésienne prédominante. Jusqu'à présent, on vous a peut-être enseigné que la gestion de la monnaie et la politique économique sont principalement du ressort des banques centrales, avec l'idée que l'impression monétaire et les dépenses publiques stimulent la croissance économique. Pourtant, il existe une approche alternative plus cohérente : **l'économie autrichienne**.
+Dans ce cours proposé par Théo Mogenet, vous découvrirez une école de pensée économique qui se distingue fondamentalement de la doctrine keynésienne prédominante. Jusqu'à présent, on vous a peut-être enseigné que la gestion de la monnaie et la politique économique sont principalement du ressort des banques centrales, avec l'idée que l'impression monétaire et les dépenses publiques stimulent la croissance économique. Pourtant, il existe une approche alternative plus cohérente : l'économie autrichienne.
 
 Forte de plus de deux siècles de recherche, de réflexions philosophiques et d'écrits d'auteurs de renom tels que Carl Menger, Ludwig von Mises ou encore Friedrich Hayek, cette école de pensée adopte une perspective différente, privilégiant une vision décentralisée de l'économie, fondée sur l'individu et la rationalité humaine.
 

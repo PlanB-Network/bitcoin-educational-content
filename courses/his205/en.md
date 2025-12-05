@@ -2702,49 +2702,44 @@ The most significant outcome of this evolution is that **the system moved from a
 
 :::video id=e27a753e-aeee-4307-a65c-9506aab380a1:::
 
-We've now reached the end of this course on the history of money, and to bring it to a close, I wanted to propose two topics. The first topic is the various stages that led to our current fiat currency system. We'll be revisiting the facts from section 5 about the creation of central banks, and we'll add the concept of the US dollar, which is ultimately the current reserve currency. We'll take a look at how it evolved, how the dollar came into being, how it evolved, how it changed, what stages it went through to become a fiat system, because the origin of the dollar is a silver coin.
-
-
-Then, immediately afterwards, I'm going to give you a short segment on the history of finance, to help you understand how we arrived at the welfare state. So we're going to look at two subjects: how we arrived at the fiat system, and then immediately afterwards, how the evolution of finance led us to the concept of the welfare state.
+This final section of the course covers two topics. The first is the progression of stages that led to the current fiat currency system, building upon the history of central banks from section 5 and adding the story of the US dollar, the current reserve currency. It will trace the dollar's evolution from its origins as a silver coin to its current status as a fiat currency.
+The second topic is brief history of finance, explaining how its evolution contributed to the emergence of the modern welfare state.
 
 
 ### The European foundations of modern banking
 
 
-Let's go back to the 13th century with the florin. To understand how we arrived at the fiat model, we need to start with the 13th century. Alongside the florin, a technology emerged at the same time with the Medici, the concept of bills of exchange.
+To understand the emergence of the fiat model, we must return to the 13th century. Alongside the florin, a technology emerged with the Medici: the bill of exchange.
 
 
 Then came the Antwerp stock exchange, with its concept of discounting and promissory bills.
 
-Then, as we've seen, we had the VOC, the first stock market in Amsterdam. This marked the birth of capitalism, with company shares and the exchange of shares. The Amsterdam bank then imposed the use of deposits by decree. This meant that coins had to be deposited at the end of the day. It was the moneychangers who could no longer keep change in coin form.
+As previously discussed, the VOC and the Amsterdam stock exchange marked the birth of capitalism, with company shares and their exchange. The Amsterdam bank then imposed the use of deposits by decree, mandating that moneychangers deposit their coins at the end of the day.
 
 
-Then came the creation of the Bank of England out of the need to create debt to finance the war at the end of the 17th century. At that time, private banks became the third layer of money. By the way, this whole section, from the florin to the notion of central bank creation, is extremely well summarized in Nick Bhatia's famous book "Layered Money", which I was lucky enough to translate with a few colleagues. We did a great job of translating it so that French speakers everywhere could benefit from these teachings.
+Subsequently, the Bank of England was created at the end of the 17th century out of the need to create debt to finance war. At that time, private banknotes became the third layer of money, as they were no longer redeemable in gold directly, but only for Bank of England bills, which were themselves redeemable in gold. This demonstrates the seizure of the power of exchange by the Bank of England . 
+
+This progression, from the florin to the creation of central banks, is summarized in Nick Bhatia's book "Layered Money".
 
 
-So we're at the end of the 17th century. The Bank of England was created to finance the war.
-
-The private banks took over the third layer of the currency. In fact, private bank bills were no longer redeemable in gold: it was the Bank of England's bills that were redeemable in gold. This demonstrates the seizure of the power of exchange by the institution that is the Bank of England.
-
-
-Then came the panic of 1776. Everyone rushed up the money pyramid. What this means is that in 1776, there's a run on the banks, and so all the people who have third-layer paper, i.e., private bank bills, try to get Bank of England bills, and then try to get gold, but obviously there wasn't enough gold in the vaults. They declared a kind of banking holiday to avoid paying back the gold bills, and this gave rise to the concept of the lender of last resort.
+Then came the panic of 1776. A bank run occurred, and holders of third-layer private banknotes attempted to exchange them for Bank of England bills, and subsequently for gold. The gold reserves were insuffcient. To avoid a default on gold redemption, a banking holiday was declared, which gave rise to the concept of the lender of last resort.
 
 
 ### The evolution of the US dollar
 
-We transitioned from the florin to the establishment of the Bank of England. Of course, there were the First and Second World Wars in the interim, but earlier, in 1796, developments were also occurring on the other side of the Atlantic. In 1776, America was still a British colony, and the colonies used this paper currency. Below is a Connecticut two-shilling bill from 1776.
+After the establishment of the Bank of England, developments were also occurring on the other side of the Atlantic. In 1776, America was still a British colony, and the colonies used a paper currency. Below is a Connecticut two-shilling bill from 1776.
 
 ![](./assets/fr/two_shilling.webp)
 
-Before declaring war on England and eventually issuing their own currency, the colonies used this paper currency, alongside the Spanish dollar for cash transactions. In fact, the term "dollar" remained to indicate the American dollar.
+Before declaring war on England and issuing their own currency, the colonies used this paper currency alongside the Spanish dollar for cash transactions. The term "dollar" was retained for the new American currency.
 
-If I'm not mistaken, in 1792 they passed a law that allowed them to coin money. As an example, the one below is an American dollar of the modern era.
+In 1792, a law was passed to authorize official coinage. The image below shows an American dollar from the modern era.
 
 ![](./assets/fr/silver_dollar.webp)
 
-Well, obviously, it doesn't have a face value of just one dollar; it is worth around 30 or 40 dollars, as it represents an ounce of silver. Its value fluctuates based on the price of silver, typically placing it at least at 30 or 40 US dollars. Today, of course, a paper dollar retains only its face value of one dollar, but at that time, the US dollar was rooted in this silver value.
+It's face value is one dollar, but as it represents an ounce of silver, its market value fluctuates with the price of silver, typically placing it between $30 and $40. At that time, the US dollar was rooted in this silver value, unlike today's paper dollar, which retains only its face value.
 
-Let us talk about the Civil War in America now. The Confederates were printing money, which was hyper-inflated. This phenomenon is not included in the official Hanke-Krus list, as it did not reach a hyperinflation rate of 50%. However, it did experience a monthly inflation rate of 40%, indicating that a substantial amount of currency was printed during the war.
+During the American Civil War, the Confederates printed money that experienced hyperinflation. While not included in the official Hanke-Krus list, as it did not consistently exceed a 50% monthly inflation rate, it did experience periods of extreme inflation, indicating substantial currency printing during the war.
 
 
 ![](./assets/fr/confederate.webp)

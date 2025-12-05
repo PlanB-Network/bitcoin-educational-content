@@ -1,5 +1,5 @@
 ---
-name: Ashigaru - Penumpang gelap
+name: Ashigaru - Stowaway
 description: Bagaimana cara melakukan transaksi Payjoin di Ashigaru?
 ---
 ![cover](assets/cover.webp)

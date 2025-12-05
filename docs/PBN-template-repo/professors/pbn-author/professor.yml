@@ -7,10 +7,6 @@ id: 17f8bc5b-7034-4ff6-96e0-11484a133642
 # Write author's complete name
 name: Plan ₿ Network Author
 
-# contributor_id (*)
-# Define its id using the 2 words of the bip39 dictionary by using the associated PlanB-UID (see /docs/planb-uid.md)
-contributor_id: another-satoshi
-
 # links
 # list releated online presence like twitter and/or website
 links:

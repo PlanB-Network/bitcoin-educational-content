@@ -2792,26 +2792,21 @@ Gold was undervalued at $35 per ounce, a price that did not reflect the volume o
 ### The modern fiat currency system and its implications
 
 
-This part sums up how we moved from a monetary system based on silver or gold. Little by little, institutions gained more and more power over money. Ultimately, a unilateral decision completely severed the link between precious metals and money, following an over-issuance.
+This section summarizes the transition from a monetary system based on precious metals to the modern fiat system. Over time, institutions gained increasing power over money, culminating in a unilateral decision that severed the link between precious metals and currency, following a period of over-issuance.
 
 
-As a result, there is no longer any link between gold and banknotes or scriptural money. And it's not even a fractional reserve system - that's an outdated concept. Instead, private banks issue and create money through bank credit. Money is mainly created this way and is correlated to the key interest rate set by the central bank.
+As a result, there is no longer any link between gold and banknotes or scriptural money. The current system is not a fractional reserve system, as the concept is now outdated. Instead, private banks create money through the issuance of credit. This form of money creation is the primary method in the modern economy and is largely influenced by the key interest rate set by the central bank.
 
 
-There really is no limit. There are no mandatory reserve levels anymore, at least in America and Canada. The only reserve is the need for banks to arrange to be able to respond to interbank exchanges so as not to run out of liquidity.
+There are effectively no limits, as mandatory reserve levels no longer exist in systems like those of America and Canada. The only reserve requirement is for banks to maintain sufficient liquidity to settle interbank exchanges.
 
 
-They just need to make sure they can make these transfers, but there's no 3%, 1%, 10% compulsory reserve. We've truly moved away from the fractional reserve concept. Now, it's central banks, governments through fiscal deficits, central banks through quantitative easing (QE), and private banks through the creation of bank loans that can increase the total money supply and, in my opinion, cause inflation.
+The total money supply can now be increased by central banks through quantitative easing (QE), by governments through fiscal deficits, and by private banks through the creation of bank loans, which can lead to inflation.
 
 
-To understand the link between money and inflation, I recommend a course I have on Plan ₿ Network dedicated to this subject. You will learn the difference between price increases, which is what we see in life, and inflation. They're not the same thing. In fact, when we refer to inflation, we're often talking about price increases, not inflation itself. Inflation is a fairly precise concept, explained by the increase in the money supply.
+To understand the link between money and inflation, a dedicated course on the subject on Plan ₿ Network is recommended. It explains the difference between price increases, which are commonly observed, and inflation, which is technically defined as an increase in the money supply. The two are not the same, though the former is often a symptom of the latter.
 
 https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
-
-To conclude this section on the fiat world, I'd like to point out a resource to help you better understand the phenomena I've just explained, such as inflation.
-
-
-Thank you for your attention.
 
 
 ## The history of money bubbles
@@ -2824,10 +2819,10 @@ Thank you for your attention.
 ### The invention of paper money and the first great bubble
 
 
-With the creation of central banks in the 18th century, a real revolution was born: magic money in the form of banknotes. The most striking example in France is that of John Law. This Scotsman, exiled in Paris, proposed to the regent, the Duc d'Orléans, a solution to the bankruptcy of the royal finances by creating a state bank and a colonial trading company: the famous **Banque Royale** and the **Compagnie du Mississippi**.
+With the creation of central banks in the 18th century, a significant monetary innovation emerged: the use of paper currency. The most striking example in France is that of John Law. This Scotsman, exiled in Paris, proposed to the regent, the Duc d'Orléans, a solution to the bankruptcy of the royal finances by creating a state bank and a colonial trading company: the famous **Banque Royale** and the **Compagnie du Mississippi**.
 
 
-With this system, Law linked paper money to his company's shares. The more banknotes circulated, the higher the value of the shares, and the more solid the bank seemed to be... until speculation outstripped reality. The bubble burst suddenly in 1720, ruining the nobility, the bourgeoisie, and much of Europe, which had come to speculate on rue Quincampoix. The result: a lasting distrust of paper money in France, and Europe's first lesson in speculative bubbles.
+With this system, Law linked paper money to his company's shares. The more banknotes circulated, the higher the value of the shares, and the more solid the bank seemed to be, until speculation outstripped reality. The bubble burst suddenly in 1720, ruining the nobility, the bourgeoisie, and much of Europe, which had come to speculate on rue Quincampoix. The result was a lasting distrust of paper money in France and Europe's first major lesson in speculative bubbles.
 
 
 ![image](./assets/fr/paper_illustration.webp)
@@ -2836,46 +2831,46 @@ With this system, Law linked paper money to his company's shares. The more bankn
 ### When land becomes "collateral"
 
 
-A century later, the French Revolution broke new ground with **assignats**, a currency backed by seized Church property. An attractive idea on paper - transforming land into monetary collateral - but ineffective: land is neither liquid nor divisible. The result: hyperinflation, multiple prohibitions on land use, uncontrolled inflation, and shortages.
+A century later, the French Revolution broke new ground with **assignats**, a currency backed by seized Church property. While an attractive concept in theory—transforming land into monetary collateral—it proved ineffective in practice, as land is neither liquid nor divisible. The result was hyperinflation, multiple prohibitions on land use, uncontrolled inflation, and severe shortages.
 
 
-Napoleon, deeply affected by this chaos, re-established gold and silver as the monetary basis in 1800 with the creation of the Banque de France, thereby guaranteeing the regular pay of his armies. A pragmatic way to regain confidence: pay in hard currency.
+In response to this chaos, Napoleon re-established gold and silver as the monetary basis in 1800 with the creation of the Banque de France, thereby guaranteeing the regular pay of his armies. This was a pragmatic measure to restore confidence: payment in hard currency.
 
 
 ### The Roaring Twenties and the Great Depression of 1929
 
 
-Let's skip two centuries. After the First World War, governments financed the effort through inflation and the suspension of gold. In the 1920s, the American Fed pursued an overly accommodating monetary policy to support the British pound. The result: easy credit, unbridled speculation on Wall Street, share purchases on credit, and the emergence of a real estate and banking bubble.
+Moving forward two centuries, after the First World War, governments financed the effort through inflation and the suspension of gold convertibility. In the 1920s, the American Fed pursued an overly accommodating monetary policy to support the British pound. The result was easy credit, unbridled speculation on Wall Street, widespread share purchases on credit, and the emergence of a real estate and banking bubble.
 
 
-When the machine went haywire, the crash of 1929 was inevitable: massive bank failures, record unemployment, and queues at soup kitchens. This gave rise to the persistent misconception that **all deflation is bad**, whereas we need to distinguish between deflation through growth (healthy) and deflation through debt (devastating).
+When this system became unsustainable, the crash of 1929 was inevitable, leading to massive bank failures, record unemployment, and queues at soup kitchens. This period gave rise to the persistent misconception that **all deflation is bad**, whereas it is necessary to distinguish between deflation through growth (healthy) and deflation esulting from debt (devastating).
 
 
 ### Asia in the 90s and the domino effect
 
 
-In the 1990s, the "Asian miracle" had the world dreaming. Exchange rates were pegged to the dollar, growth was at 8-10%, and Western capital was pouring in. All was well... until the tide receded. Bankruptcies cascaded, currencies devalued by 80%, and investors were ruined. The IMF had to intervene, imposing painful reforms. The same scenario as always: abundant capital, credit-fed bubbles, then collapse.
+In the 1990s, the "Asian miracle" had the world dreaming. Exchange rates were pegged to the dollar, growth was at 8-10%, and Western capital was pouring in. This period of prosperity ended abruptly when the tide receded. Bankruptcies cascaded, currencies devalued up to 80%, and investors were ruined. The IMF had to intervene, imposing painful reforms. The same scenario as always recurred: abundant capital, credit-fed bubbles, and eventual collapse.
 
 
 ### 2008 and the era of the permanent bubble
 
 
-The Internet bubble (2000) was followed by the subprime real estate bubble. Securitization transformed bank loans into "triple-A" financial products, spread all over the world. The promise: eliminate risk by diluting it. The reality: all risks were in fact correlated. When real estate collapsed, so did the entire global banking system.
+The Internet bubble (2000) was followed by the subprime real estate bubble. Securitization transformed bank loans into "triple-A" financial products that were spread globally. The promise was to eliminate risk by diluting it; the reality was that all risks were, in fact, correlated. When the real estate market collapsed, so did the entire global banking system.
 
 
-The result: massive public bailouts, quantitative easing and zero interest rates. And with it, a headlong rush: each crisis will no longer purge the excesses, but will be covered by ever more debt and money printing. This is what led to the current situation: **the "everything bubble"**, where everything - stocks, real estate, art, crypto, even Pokémon cards - inflates artificially.
+The result was massive public bailouts, quantitative easing and zero interest rates. Consequently, a new paradigm emerged: crisis were no longer allowed to purge excesses, but were instead met with ever increasing debt and money printing. This has led to the current situation: **the "everything bubble"**, where a wide range of assets—including stocks, real estate, art, crypto, and even Pokémon cards—inflates artificially.
 
 
 ### The eternal return of magic money
 
 
-From one century to the next, one constant emerges: as soon as a society believes it can create wealth with money instead of producing real goods, bubbles appear. From John Law to 2008, from the rue Quincampoix to Wall Street, the process repeats itself: euphoria, credit, boom, and bust.
+From one century to the next, one constant emerges:  when a society believes it can create wealth with money instead of producing real goods, speculative bubbles appear. From John Law to 2008, from the rue Quincampoix to Wall Street, the process repeats itself: euphoria, credit, boom, and bust.
 
 
-And in the end, invariably, when nobody trusts paper anymore, people look for something else - gold, land, safe havens... or new currencies. Yesterday Napoleon imposed metal, today some see Bitcoin as the successor.
+In the end, when trust in paper currency erodes, people seek alternatives—gold, land, safe havens, or new currencies. Yesterday Napoleon imposed a metallic standard, today some see Bitcoin as a successor.
 
 
-The history of finance is a never-ending cycle: print, speculate, collapse. Until the next bubble.
+The history of finance is a recurring cycle: print, speculate, collapse. Until the next bubble.
 
 
 
@@ -2887,51 +2882,42 @@ The history of finance is a never-ending cycle: print, speculate, collapse. Unti
 
 :::video id=bd6d0807-2d8f-4637-a0f5-1e990e5c0d0f:::
 
-This short section will revisit many of the events we've already seen throughout the course, summarizing a few anecdotes that I find interesting.
+This section revisits several events from the course to examine the relationship between monetary systems and state coercion.
 
 
 ### Technology and violence
 
 
-Here are a few anecdotes that we've probably already talked about in the course. They serve to introduce a very fascinating discussion I had with Theo about a lecture he gave at B-Ondy, which I found very interesting in terms of how technological advances affect the relationship of violence between the population and the State.
+The historical relationship between technological advances and the balance of power between the population and the state is a key theme.
 
 
 ### Money and state coercion
 
 
-To introduce this section, I'm going to give you a brief and non-exhaustive list, just to remind you of the events we've probably already covered in the course.
+Worthless paper money, which can be printed without limit, has historically been accompanied by coercive rules and threats. During the French Revolution, the assignats, carried explicit threats of death for counterfeiters. Legal texts from the period also prescribed severe penalties for those who refused to accept the currency.
 
-One link I can already make with money and violence is that when it comes to worthless paper money that can be printed ad infinitum, it often comes with all kinds of rules and all kinds of threats. We can already talk about the assignats, where it was literally written on the banknotes that counterfeiters were threatened with death. It's easy to find in the legal texts of the time death threats for those who didn't accept this famous paper money.
-
-To remain in France, in one of the legal texts I was able to obtain from the Revolutionary era, I saw that the "per diem" for transporting and operating the guillotine was described in the currency-related sections. I found this rather zany.
+An interesting detail from the Revolutionary era is that the legal codes concerning currency also specified the "per diem" payments for transporting and operating the guillotine.
 
 
-We've also talked about coinage in China, with the state supervising the minting. We saw in a section at the beginning of the course that when coins, some of which were less beautiful, were discarded, there were legal consequences.
+This pattern of state violence is recurrent. In China, the state supervised minting  and imposed legal consequences for discarding debased coins.
 
 
-There's also an anecdote about a king in England who ended up cutting off the hands of those who minted money if they didn't behave as he expected.
+In England, a king ordered the hands of moneyers to be cut off for failing to meet his standards.
 
 
-Also, in China, I've read about the seizure of copper from Buddhist monasteries. At a time when copper was gaining in value and destabilizing their economy - which was based on a form of fiat money that had little to do with the metal's value - they resorted to finding a place where there was wealth and seized the copper from monasteries.
+In both China and England during the Reformation, the state seized copper or other wealth from Buddhist monasteries and the Church to fund its activities. 
 
 
-The same applied to monasteries in England during the English Reformation. When the famous king quarreled with the Pope over his divorce, there was another reason behind it all: he took advantage of the abolition of the monasteries to seize the wealth contained in these ecclesiastical organizations.
+During the French Revolution, all Church assets were seized, and coins were minted from melted-down church bells.
 
 
-During the French Revolution, they seized all the Church's assets. They saw beautiful coins created from melted-down church bells.
+One of the most explicit examples of economic violence is found under Emperor Diocletian. **When peasants, unwilling to accept the devalued currency, sought to leave their land, Diocletian responded by binding them to it through a hereditary caste system,** preventing them and their children from leaving. A similar restriction was applied to the soldiers.
 
 
-If we go back even further, one of the most explicit notions of economic violence and freedom, of liberticidal laws, is **Diocletian with his hereditary caste which was directly linked to the fact that the peasants no longer wanted to accept the devalued currency**. They wanted to leave their work as peasants, and Diocletian reacted simply by telling them, "you can't leave your land, and neither can your children". The same thing applied to the soldiers.
+The dissolution of the Knights Templar provides another example. Facing funding problems, the French king sued the Order, seized its wealth, and had many of its members arrested. This event has given rise to legends of a hidden Templar treasure, a subject explored in popular media.
 
 
-I think that's a pretty explicit form of violence. I could conclude by talking about the Knights Templar or a French king. When the Knights Templar settled in France, I imagine he saw the manna of Templar wealth and had state funding problems. He sued the Templar Order, and some of them were able to walk away with part of the treasure, which has given rise to a very interesting show in the U.S. or Canada. I don't know who produced it, but it's called *The Mystery of Oak Island*. It's about people who think there's a Templar treasure buried on an island in Canada, in the Maritimes, and they've been drilling for years - maybe even more than a decade - to make some kind of well. They've found a well with lots of galleries, and they're looking for a treasure buried by the Knights Templar on this island, which is the subject of this TV show. I salute my father, who is a big fan of this show.
-
-
-So there you have it: a very quick list of facts we've seen during this course which, I think, raise the link with violence. I'll leave you with the next part from Theo, who's going to tell us a very interesting story about technological change and the balance of power between the plebs and the authorities.
-
-Thank you!
-
-
+These historical facts demonstrate a recurring link between monetary control and state violence.
 
 ## The economic consequences of organized violence
 

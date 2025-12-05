@@ -2928,7 +2928,7 @@ These historical facts demonstrate a recurring link between monetary control and
 ### Organized violence and the evolution of the state
 
 
-Historian Frederic C. Lane proposes a revolutionary thesis: the anatomy of the state throughout history is shaped by the technologies used to project violence. Starting from the Weberian principle that the state holds a monopoly on legitimate violence, Lane observes that this monopoly - paradoxically more efficient than competition in this field - evolves according to the relationship between the cost of attack and the cost of defense.
+Historian Frederic C. Lane proposes a revolutionary thesis: the anatomy of the state throughout history is shaped by the technologies used to project violence. Starting from the Weberian principle that the state holds a monopoly on legitimate violence, Lane observes that this monopoly—paradoxically more efficient than competition in this field—evolves according to the relationship between the cost of attack and the cost of defense.
 
 
 This analysis, taken up by the authors of "The Sovereign Individual" (1997), explains the historical mutations in political organization: from the medieval feudal system to the city-states of the Renaissance, then to the industrial nation-states and finally to the modern welfare states. Each transition corresponds to a major technological breakthrough in the exercise of violence, occurring approximately every 400-500 years.
@@ -2937,16 +2937,16 @@ This analysis, taken up by the authors of "The Sovereign Individual" (1997), exp
 ### Medieval balance
 
 
-In the Middle Ages, the agrarian economy was over 90% dominant. The peasant, literally rooted to his land, could not flee from the lord and his knights. Military technology - hand-forged armor, years of sword training - was extremely expensive. This asymmetry massively favored attack over defense.
+In the Middle Ages, the agrarian economy was over 90% dominant. The peasant, literally rooted to his land, could not flee from the lord and his knights. Military technology—hand-forged armor, years of sword training—was extremely expensive. This asymmetry massively favored attack over defense.
 
 
-The immobile agricultural producer becomes the captive of the local monopolist of violence. His capacity for tax extraction reaches new heights - although, paradoxically, medieval taxes remain modest compared to the 78% of compulsory levies in modern times. The lord can tax at will, because the peasant can neither resist nor leave.
+The immobile agricultural producer became the captive of the local monopolist of violence. His capacity for tax extraction reached new heights—although, paradoxically, medieval taxes remain modest compared to the 78% of compulsory levies in modern times. The lord could tax at will, because the peasant could neither resist nor leave.
 
 
 ### The Merchant Renaissance
 
 
-The emergence of Hanseatic trade in the North and Mediterranean trade in the South transformed the situation. Merchants, the main creators of added value, possessed mobile capital - their ships. They needed only light maritime militias, as the seas were difficult to police. Above all, they could easily migrate to a neighboring port if taxation becomes excessive.
+The emergence of Hanseatic trade in the North and Mediterranean trade in the South transformed the situation. Merchants, the main creators of added value, possessed mobile capital—their ships. They needed only light maritime militias, as the seas were difficult to police. Above all, they could easily migrate to a neighboring port if taxation became excessive.
 
 
 This mobility created tax competition between city-states. Venice, Genoa and Bruges had to offer the most liberal framework possible: reliable contracts, quality currency, insurance, minimal taxation. Princes had to seduce rather than coerce. The symmetry reverses: defense (through flight) becomes easier than attack.
@@ -2955,7 +2955,7 @@ This mobility created tax competition between city-states. Venice, Genoa and Bru
 ### The industrial era
 
 
-The Industrial Revolution brought with it a configuration akin to feudalism. Factories, railroads and assembly lines represent massive, immobile investments. Henry Ford was unable to relocate his plants in the face of taxation. Workers, concentrated in industrial cities, unionized to negotiate collectively rather than migrate individually.
+The Industrial Revolution brought with it a configuration similar to feudalism. Factories, railroads and assembly lines represent massive, immobile investments. Henry Ford was unable to relocate his plants in the face of taxation. Workers, concentrated in industrial cities, unionized to negotiate collectively rather than migrate individually.
 
 
 The "welfare state" emerged: industrial planning (Japan, Korea), military protection of infrastructures, minimum social benefits for the workforce. The Second World War illustrated this vulnerability: bombing enemy factories became the dominant strategy. The concentration of physical capital enabled massive tax extraction to finance the welfare state.
@@ -2964,25 +2964,25 @@ The "welfare state" emerged: industrial planning (Japan, Korea), military protec
 ### The microprocessor revolution
 
 
-Three technological innovations are now upsetting these age-old balances. The microprocessor is transforming warfare: an operator in Nevada pilots a drone in Afghanistan with surgical precision. The Gulf War (1991) demonstrated this breakthrough: the world's fourth-largest army (Iraq) was wiped out in 45 days, with fewer than 200 deaths on the coalition side. Technological superiority made frontal attack impossible.
+Three technological innovations are now disrupting these long-standing balances. The microprocessor is transforming warfare: an operator in Nevada pilots a drone in Afghanistan with surgical precision. The Gulf War (1991) demonstrated this breakthrough: the world's fourth-largest army (Iraq's) was defeated in 45 days, with fewer than 200 deaths on the coalition side. Technological superiority rendered frontal attack obsolete.
 
 
-The Internet and asymmetric cryptography are revolutionizing the creation of value. A developer can work from anywhere with a MacBook and Starlink, exporting their production instantly and free of charge. Digital nomads escape geographical captivity, pitting states against each other in a way not seen since the Renaissance.
+The Internet and asymmetric cryptography are revolutionizing value creation. A developer can work from anywhere with a MacBook and Starlink, exporting their production instantly and free of charge. Digital nomads escape geographical constraints, compelling states to compete for them in a way not seen since the Renaissance.
 
 
-Bitcoin represents the culmination of this logic: a currency freed from the State, protected by an inviolable cryptographic shield. Wealth becomes defensible against any physical force. The individual regains the ability to defend themselves against state monopoly.
+Bitcoin represents the culmination of this logic: a currency freed from the state, protected by an inviolable cryptographic shield. Wealth becomes defensible against any physical force. The individual regains the ability to defend against state monopoly.
 
 
 ### The collapse of the Westphalian model
 
 
-Western welfare states, designed for the industrial age, are becoming obsolete. Value creators - developers, artists, financiers - are migrating to Singapore, Dubai or El Salvador, preferring fewer public services in exchange for minimal taxation. Modern giants like Apple and Tether need neither offices nor physical infrastructure.
+Western welfare states, designed for the industrial age, are becoming obsolete. Value creators—developers, artists, financiers—are migrating to Singapore, Dubai or El Salvador, preferring fewer public services in exchange for minimal taxation. Modern giants like Apple and Tether need neither offices nor physical infrastructure.
 
 
-This brain drain creates a spiral: fewer net contributors, degraded public services, increased taxation on those who stay, and accelerated departures. States must radically downsize or go bankrupt. Fragmentation into small, competitive jurisdictions - a new model of digital city-states - seems inevitable.
+This brain drain creates a spiral: fewer net contributors, degraded public services, increased taxation on those who stay, and accelerated departures. States must radically downsize or face bankruptcy. Fragmentation into small, competitive jurisdictions—a new model of digital city-states—seems inevitable.
 
 
-History teaches us that these transitions take generations. But Bitcoin's separation of currency and state could accelerate the process. Individuals now vote with their feet and their cryptographic wallets, redrawing the map of global power along lines we're only beginning to perceive.
+History teaches us that these transitions take generations. But Bitcoin's separation of money and state could accelerate the process. Individuals now vote with their feet and their cryptographic wallets, redrawing the map of global power along lines we are only beginning to perceive.
 
 
 ## A very short history of finance
@@ -2991,32 +2991,31 @@ History teaches us that these transitions take generations. But Bitcoin's separa
 
 :::video id=fdfabbc6-e4d8-463a-8522-19176f8fb460:::
 
-Following this account of the history of money, which takes us right up to the fiat system, I'd like to quickly and succinctly explain the evolution of finance that eventually led to the welfare state. Initially, in Roman times, we had coins.
+Following this account of the history of money, which takes us right up to the fiat system, this chapter will explain the evolution of finance that led to the welfare state. 
 
-
-Coins were a financial technology that allowed the empire to pay soldiers, expand, and trade. It worked very well, except that eventually there were too many devaluations. At some point when they stopped expanding and stopped getting spoils from their wars and territory expansion, their system collapsed.
+Initially, in Roman times, we had coins. Coins were a financial technology that allowed the empire to pay soldiers, expand, and facilitate trade. This system worked very well, except that eventually there were too many devaluations. At some point when they stopped expanding and stopped getting spoils from their wars and territory expansion, their system collapsed.
 
 
 ### The evolution of financial technologies
 
 
-Then came the Middle Ages, when there was very little evolution until the Florin, which brought back a stable currency, and banking developments in Italy and Antwerp, where the concept of "time value of money" was developed - in other words, discounting. They developed discounting to create a form of paper money in which a "promissory note" was issued, i.e., a promise that at a later date one would be able to recover $100 plus an interest rate.
+Financial innovation was limited during the early Middle Ages until the introduction of the Florin, a stable currency. Concurrently, banking developments in Italy and Antwerp introduced the concept of "time value of money"—in other words, discounting. They developed discounting to create a form of paper money: a "promissory note", which is a promise to repay a principal amount, such as $100, plus interest at a future date.
 
 This system created a financial technology that allows the holder to sell the note before the end of the term, so if you sell it after 4 months out of a 6-month term, the person will actually pay a premium to compensate for the loss of yield for the remaining 2 months.
 
 
-It was a financial technology developed in Antwerp and Amsterdam at the time. Later, we saw the evolution of central banks and the notion of lender of last resort. It can be argued that during the Bank of Amsterdam , the use of coins in international trade was abandoned in favor of scriptural money.
+This financial technology was developed in Antwerp and Amsterdam during that period. Later, we saw the evolution of central banks and the notion of lender of last resort. It can be argued that during the era of the Bank of Amsterdam , the use of coins in international trade was abandoned in favor of scriptural money.
 
-Later, in the 18th century, in terms of financial technology, we can talk about insurance. So there's an anecdote that's very well told in Neil Ferguson's book "The Ascent of Money". The first insurance company to be born was called **Scottish Widowss**, and essentially, it was the clergy who wanted to develop insurance for priests who sometimes died earlier, died suddenly. The clergy, at the time, were looking after their wives and offspring in Scotland for a year. And so the clergy found this one-year period perhaps a little too short. As a result, **they invented actuarial calculations** to literally calculate the number of contributors necessary for the system to cover its costs, depending on the number of priests who died prematurely.
+In the 18th century, another key financial technology emerged: insurance. An illustrative anecdote from Neil Ferguson's book "The Ascent of Money", explains The founding of the first modern insurance company, **Scottish Widowss**. The clergy in Scotland sought to improve upon a system that provided only one year of support for the wives and children of priests who died unexpectedly. They found this period insufficient. As a result, **they invented actuarial calculations** to literally calculate the number of contributors necessary for the system to cover its costs, depending on the number of priests who died prematurely.
 
 
-They developed actuarial calculations to say "Okay, well, each priest gives us this amount. Then, if the priest dies, well, the insurance will cover the costs to ensure the survival of his wife and children until they are self-sufficient." So it was the first insurance company called "Scottish Widows" that popularized this system, and where it was deployed.
+They developed these calculations to create a model where each priest would pay a set amount, and in the event of his death, the insurance would cover the costs of supporting of his wife and children until they became self-sufficient. The "Scottish Widows" company who popularized and deployed this system.
 
 
 ### From private insurance to the welfare state
 
 
-So insurance is part of the history of financial technology. And this brings me to the concept of the welfare state, which is that private insurance eventually came up against a problem, a notion of optimization, where we say to ourselves, if we offer health insurance to people who are healthy, they may have less interest in paying the premium because they say to themselves, "I'm healthy, I won't get sick". On the other hand, people who know they're sick will certainly want to subscribe.
+Insurance is a key development in the history of financial technology. This leads to the concept of the welfare state, which is that private insurance eventually came up against a problem, a notion of optimization, where we say to ourselves, if we offer health insurance to people who are healthy, they may have less interest in paying the premium because they say to themselves, "I'm healthy, I won't get sick". On the other hand, people who know they're sick will certainly want to subscribe.
 
 
 This system creates an imbalance between the number of sick people who will take out health insurance, as opposed to healthy people who may take out less. So there's a sort of imbalance: if you calculate the figures, they wouldn't balance out because you probably wouldn't be able to insure enough healthy people to offset the costs. In economics, this is the concept of **moral hazard**.

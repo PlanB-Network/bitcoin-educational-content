@@ -3015,36 +3015,37 @@ They developed these calculations to create a model where each priest would pay 
 ### From private insurance to the welfare state
 
 
-Insurance is a key development in the history of financial technology. This leads to the concept of the welfare state, which is that private insurance eventually came up against a problem, a notion of optimization, where we say to ourselves, if we offer health insurance to people who are healthy, they may have less interest in paying the premium because they say to themselves, "I'm healthy, I won't get sick". On the other hand, people who know they're sick will certainly want to subscribe.
+Insurance is a key development in the history of financial technology. This leads to the concept of the welfare state, which arose from a fundamental problem in private insurance: adverse selection. In a voluntary system, healthy individuals may see little reason to pay premiums, thinking, "I am healthy, I will not get sick". Conversely, individuals who know they are sick have a strong incentive to subscribe.
 
 
-This system creates an imbalance between the number of sick people who will take out health insurance, as opposed to healthy people who may take out less. So there's a sort of imbalance: if you calculate the figures, they wouldn't balance out because you probably wouldn't be able to insure enough healthy people to offset the costs. In economics, this is the concept of **moral hazard**.
+This creates an imbalance where the risk pool is dominated by the sick, with insufficient healthy participants to offset the costs. From an actuarial perspective, the model would become unsustainable. In economics, this problem is known as **adverse selection**.
 
 
-One of the ideas that's been put forward is to make insurance compulsory. If everyone is obliged to contribute, it rebalances the whole thing and both healthy and unhealthy people will contribute, distributing the risks to the largest population.
+One proposed solution is to make insurance compulsory. If everyone is required to contribute, the risk pool is rebalanced. Both healthy and unhealthy individuals participate, distributing risk across the entire population.
 
 
-And so, in many parts of the world, the state has said, "Well, we'll take care of that". While I'm not an expert on this issue, I can see that this same reasoning is probably applied to all sorts of other forms of insurance, such as unemployment insurance. There is a desire to simplify and optimize, based on the idea that it will be simpler if there's just one organization to take care of it.
+Following this logic, many states have assumed this role, arguing that a single, centralized entity is the most efficient way to manage it. This reasoning has been applied to other forms of insurance, such as unemployment insurance. The perceived benefits of simplification and optimization favor a single administrative body.
 
 
-In my opinion, this led to a centralization of all these insurance concepts, and ultimately to the birth of the welfare state, where all these financial concepts that were originally private enterprises, private initiatives to meet an insurance market need to distribute risk among the population, were seized upon by the state for reasons that are probably quite logical in relation to moral hazard and the desire to optimize.
+This centralization of various insurance functions under state authority ultimately led to the birth of the welfare state. Financial concepts that began as private initiatives to meet market needs and distribute risk were thus subsumed by the state, a logical response to the problem of adverse selection and the drive for systemic optimization.
 
 
 ### Alternative models and reflections on state monopolies
 
 
-Ultimately, in some countries like Canada, we end up with several types of insurance - health insurance, unemployment insurance - that are state monopolies.
+Ultimately, some countries, like Canada, have developed state monopolies for several types of insurance, including health and unemployment.
 
 
-I can give you an example I know. In Switzerland, the system is a bit different. There are private mutual insurance companies and private hospitals, so you can choose your mutual insurance company, you can choose your package within your mutual insurance company. You still get relatively universal services, even if a large part of this system remains private.
+An alternative model exists in Switzerland. There, private mutual insurance companies and private hospitals allow individuals to choose their insurer and their specific coverage plan. This system still delivers relatively universal services, even though a large part of it remains private. This demonstrates that a privately operated system is also feasible. 
 
 
-So I think it's possible that it's also privately operated. But everything I wanted to describe to you, in fact, is not a statement to express whether one system is better than the other, it was rather to explain to you that in reading about the history of finance, I realized why in the West, particularly in France, particularly in Canada, the State wanted to take control of these financial principles.
+My purpose here is not to argue that one system is superior to another. Rather, it is to explain how the history of finance reveals why Western states, particularly in France and Canada, sought to take control of these financial principles.
 
 
-The point I wanted to make is that the concept of insurance is first and foremost an evolution of finance, and as governments are sometimes so good at doing, they will try to take control of it, just as they have tried to take control of money, for several reasons. One reason, incidentally, is the concept of the lender of last resort.
+The point is that insurance is fundamentally an evolution of finance, and as governments often do, they have attempted to seize control of it, just as they have with money, for several reasons. 
 
 
+One reason, incidentally, is the concept of the lender of last resort.
 The idea is that it's much better if there's a big institution behind it that distributes the risk more widely. That was the initial initiative behind the notion of lender of last resort, where this institution could actually choose institutions that were strong enough to survive and prevent them from collapsing by lending them money.
 
 

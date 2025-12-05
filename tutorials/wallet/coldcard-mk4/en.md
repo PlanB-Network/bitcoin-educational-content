@@ -11,3 +11,24 @@ In this tutorial, we will explore one of the most popular hardware wallets produ
 
 ## Coldcard Mk4 Overview
 
+Coldcard Mk4 is a Bitcoin-only hardware wallet manufactured by Coinkite. This device is equipped with a screen, a numeric keypad and a protective sliding cover. In addtion, the device offers several ways to connect and interact, including USB-C, air-gapped operation using a MicroSD card, NFC, and a virtual disk mode. The Mk4 also includes advanced security features such as the BIP39 passphrase and trick PINs, giving users greater control and protection over their Bitcoin.
+
+## Initial Setup
+
+To get started, the Coldcard Mk4 can be purchased directly from [Coinkite's website](https://store.coinkite.com/store). Buyers can also choose to pay using fiat currency or Bitcoin.
+
+
+
+## Creating a New Wallet
+
+## Exporting to Sparrow Wallet
+
+## Receiving and Sending bitcoin
+
+## Firmware Upgrade
+
+## Passphrase
+
+## Trick PINs
+
+

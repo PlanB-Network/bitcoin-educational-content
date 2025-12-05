@@ -20,7 +20,7 @@ Vous trouverez ci-dessous quelques sources de description pour Electrum :
 
 ## Pourquoi Electrum ?
 
-Il s'agit d'un guide détaillé sur l'utilisation du portefeuille Bitcoin Electrum, avec des solutions à tous ses pièges et particularités - quelque chose que j'ai développé après plusieurs années d'utilisation et d'enseignement de la sécurité/confidentialité du Bitcoin aux étudiants. Electrum n'est pas le meilleur portefeuille Bitcoin pour les personnes qui veulent tout garder aussi simple que possible et préfèrent rester au niveau débutant. Au contraire, il est destiné à la personne qui est, ou aspire à être, un utilisateur "avancé".
+Il s'agit d'un guide détaillé sur l'utilisation du portefeuille Bitcoin Electrum, avec des solutions à tous ses pièges et particularités, quelque chose que j'ai développé après plusieurs années d'utilisation et d'enseignement de la sécurité/confidentialité du Bitcoin aux étudiants. Electrum n'est pas le meilleur portefeuille Bitcoin pour les personnes qui veulent tout garder aussi simple que possible et préfèrent rester au niveau débutant. Au contraire, il est destiné à la personne qui est, ou aspire à être, un utilisateur "avancé".
 
 Pour le nouveau détenteur de Bitcoin, il est excellent à condition d'être supervisé par un utilisateur expérimenté pour lui montrer la voie. S'ils apprennent à l'utiliser seuls, cela serait sûr à condition qu'ils prennent leur temps et l'utilisent dans un environnement de test avec seulement un petit nombre de sats au départ. Ce guide soutient cette entreprise, mais il est également une bonne référence pour les autres.
 
@@ -28,7 +28,7 @@ Pour le nouveau détenteur de Bitcoin, il est excellent à condition d'être sup
 
 ## Téléchargement d'Electrum
 
-Idéalement, utilisez un ordinateur dédié au Bitcoin pour vos transactions Bitcoin (Mon guide à ce sujet https://armantheparman.com/mint/) _(ÉGALEMENT disponible dans la section confidentialité)_. Il est possible de s'entraîner avec de petites sommes sur un ordinateur "sale" lorsque vous apprenez pour la première fois (qui sait combien de logiciels malveillants cachés votre ordinateur habituel a accumulés au fil des ans - vous ne voulez pas exposer vos portefeuilles Bitcoin à ceux-ci).
+Idéalement, utilisez un ordinateur dédié au Bitcoin pour vos transactions Bitcoin (Mon guide à ce sujet https://armantheparman.com/mint/) _(ÉGALEMENT disponible dans la section confidentialité)_. Il est possible de s'entraîner avec de petites sommes sur un ordinateur "sale" lorsque vous apprenez pour la première fois (qui sait combien de logiciels malveillants cachés votre ordinateur habituel a accumulés au fil des ans, vous ne voulez pas exposer vos portefeuilles Bitcoin à ceux-ci).
 
 Obtenez Electrum depuis https://electrum.org/.
 
@@ -54,11 +54,11 @@ Pour obtenir la signature, cliquez sur le lien correspondant au fichier que vous
 
 En cliquant sur le lien, le fichier peut être automatiquement téléchargé dans votre dossier de téléchargements, ou il peut s'ouvrir dans le navigateur. S'il s'ouvre dans le navigateur, vous devez enregistrer le fichier. Vous pouvez faire un clic droit et sélectionner "enregistrer sous". Selon le système d'exploitation ou le navigateur, vous devrez peut-être faire un clic droit sur la zone d'espace blanc, pas sur le texte.
 
-Voici à quoi ressemble le texte téléchargé. Vous pouvez voir qu'il y a plusieurs signatures - ce sont des signatures de différentes personnes. Vous pouvez vérifier chacune d'entre elles. Je vais vous montrer comment vérifier celle du développeur.
+Voici à quoi ressemble le texte téléchargé. Vous pouvez voir qu'il y a plusieurs signatures, ce sont des signatures de différentes personnes. Vous pouvez vérifier chacune d'entre elles. Je vais vous montrer comment vérifier celle du développeur.
 
 ![image](assets/3.webp)
 
-Ensuite, vous devez obtenir la clé publique de ThomasV - c'est le principal développeur. Vous pouvez l'obtenir directement de lui, de son compte Keybase, de Github, ou de quelqu'un d'autre, d'un serveur de clés, ou du site Web Electrum.
+Ensuite, vous devez obtenir la clé publique de ThomasV, c'est le principal développeur. Vous pouvez l'obtenir directement de lui, de son compte Keybase, de Github, ou de quelqu'un d'autre, d'un serveur de clés, ou du site Web Electrum.
 
 Obtenir la clé publique à partir du site Web Electrum est en réalité la méthode la moins sécurisée, car si ce site Web est malveillant (la chose même que nous vérifions), pourquoi obtenir une clé publique à partir de celui-ci (la clé publique pourrait être fausse) ?
 
@@ -80,7 +80,7 @@ Ouvrez un terminal sur Mac ou Linux, ou une invite de commande (CMD) sur Windows
 
 Accédez au répertoire des téléchargements (ou à l'endroit où vous avez mis les trois fichiers). Si vous n'avez aucune idée de ce que cela signifie, apprenez à partir de cette courte vidéo pour Linux/Mac (https://www.youtube.com/watch?v=AO0jzD1hpXc) et celle-ci pour Windows (https://www.youtube.com/watch?v=9zMWXD-xoxc). N'oubliez pas que sur les ordinateurs Linux, les noms de répertoire sont sensibles à la casse.
 
-Dans le terminal, tapez ceci pour importer la clé publique de ThomasV dans le "trousseau" de votre ordinateur (le trousseau est un concept abstrait - en réalité, il s'agit simplement d'un fichier sur votre ordinateur) :
+Dans le terminal, tapez ceci pour importer la clé publique de ThomasV dans le "trousseau" de votre ordinateur (le trousseau est un concept abstrait, en réalité, il s'agit simplement d'un fichier sur votre ordinateur) :
 
 ```
 gpg --import ThomasV.asc
@@ -105,7 +105,7 @@ Remarquez qu'il y a 4 "éléments" ici, séparés chacun par un espace. J'ai mis
 
 Il est intéressant de noter que parfois vous pouvez omettre le 4e élément et l'ordinateur devine ce que vous voulez dire. Je ne suis pas sûr, mais je crois que cela ne fonctionne que si les noms de fichiers ne diffèrent que par le "asc" à la fin.
 
-Ne copiez pas simplement les noms de fichiers que j'ai indiqués ici - assurez-vous qu'ils correspondent au nom du fichier que vous avez sur votre système.
+Ne copiez pas simplement les noms de fichiers que j'ai indiqués ici, assurez-vous qu'ils correspondent au nom du fichier que vous avez sur votre système.
 
 Appuyez sur <enter> pour exécuter la commande. Vous devriez voir une "bonne signature de ThomasV" pour indiquer le succès. Il y aura quelques erreurs car nous n'avons pas les clés publiques des autres signatures qui sont contenues dans le fichier de signature (ce système de combinaison des signatures dans un seul fichier peut changer dans les versions ultérieures). De plus, il y a un avertissement en bas que nous pouvons ignorer (cela nous alerte que nous n'avons pas explicitement indiqué à l'ordinateur que nous faisons confiance à la clé publique de ThomasV).
 
@@ -128,7 +128,7 @@ sudo apt-get upgrade
 
 Copiez le texte jaune surligné, collez-le dans le terminal et appuyez sur <enter>. On vous demandera votre mot de passe, éventuellement une confirmation pour continuer, puis il installera ces fichiers ("dépendances").
 
-Vous devrez également extraire le fichier compressé dans un répertoire de votre choix. Vous pouvez le faire avec l'interface utilisateur graphique ou en ligne de commande (commande surlignée en rose) - rappelez-vous que vos noms de fichiers peuvent être différents. (Notez que lorsque nous avons vérifié le téléchargement dans la section précédente, c'était le fichier zip que nous avons vérifié, pas le répertoire extrait.)
+Vous devrez également extraire le fichier compressé dans un répertoire de votre choix. Vous pouvez le faire avec l'interface utilisateur graphique ou en ligne de commande (commande surlignée en rose), rappelez-vous que vos noms de fichiers peuvent être différents. (Notez que lorsque nous avons vérifié le téléchargement dans la section précédente, c'était le fichier zip que nous avons vérifié, pas le répertoire extrait.)
 
 Il y a une option pour "installer" en utilisant le programme PIP, mais cela est inutile et ajoute des étapes supplémentaires et l'installation de fichiers. Exécutez simplement le programme en utilisant le terminal pour contourner tout cela.
 
@@ -177,7 +177,7 @@ Lorsque vous chargez Electrum pour la première fois, une fenêtre s'ouvrira com
 
 Nous sélectionnerons votre serveur manuellement plus tard, mais pour l'instant, laissez les paramètres par défaut et connectez-vous automatiquement.
 
-Ensuite, créez un portefeuille fictif - ne mettez jamais de fonds dans ce portefeuille. Le but de ce portefeuille fictif est de progresser dans le logiciel et de s'assurer que tout fonctionne bien avant de charger votre vrai portefeuille. Nous essayons d'éviter de divulguer accidentellement la confidentialité avec un vrai portefeuille. Si vous vous entraînez simplement, le portefeuille que vous créez peut être considéré comme un portefeuille fictif de toute façon.
+Ensuite, créez un portefeuille fictif, ne mettez jamais de fonds dans ce portefeuille. Le but de ce portefeuille fictif est de progresser dans le logiciel et de s'assurer que tout fonctionne bien avant de charger votre vrai portefeuille. Nous essayons d'éviter de divulguer accidentellement la confidentialité avec un vrai portefeuille. Si vous vous entraînez simplement, le portefeuille que vous créez peut être considéré comme un portefeuille fictif de toute façon.
 
 Vous pouvez laisser le nom par défaut "default_wallet" ou le changer selon vos préférences, puis cliquez sur suivant. Plus tard, si vous avez plusieurs portefeuilles, vous pouvez les trouver et les ouvrir à cette étape en cliquant d'abord sur "Choisir..."
 
@@ -187,7 +187,7 @@ Choisissez "Portefeuille standard" et <Suivant> :
 
 ![image](assets/8.webp)
 
-Ensuite, sélectionnez "J'ai déjà une graine". Je ne veux pas que vous preniez l'habitude de créer une graine Electrum, car elle utilise son propre protocole qui n'est pas compatible avec d'autres portefeuilles - c'est pourquoi nous ne cliquons pas sur "nouvelle graine".
+Ensuite, sélectionnez "J'ai déjà une graine". Je ne veux pas que vous preniez l'habitude de créer une graine Electrum, car elle utilise son propre protocole qui n'est pas compatible avec d'autres portefeuilles, c'est pourquoi nous ne cliquons pas sur "nouvelle graine".
 
 ![image](assets/9.webp)
 
@@ -205,17 +205,17 @@ Electrum recherchera des mots correspondant à son propre protocole. Nous devons
 
 La graine devient alors valide. (Avant cela, Electrum s'attendait à une graine Electrum, donc cette graine était considérée comme invalide). Avant de cliquer sur suivant, remarquez le texte qui dit "Checksum OK". Il est important (pour le vrai portefeuille que vous pourriez utiliser ultérieurement) que vous le voyiez avant de continuer, car cela confirme la validité de la graine que vous avez entrée. L'avertissement en bas peut être ignoré, c'est la plainte du développeur d'Electrum à propos de BIP39 et de leurs revendications "FUD"ey" selon lesquelles leur version (qui n'est pas compatible avec d'autres portefeuilles) est supérieure.
 
-> Un petit détour pour un avertissement important. Le but de la somme de contrôle est de s'assurer que vous avez entré votre graine sans erreur de frappe. La somme de contrôle est la dernière partie de la graine (le 12e mot est la somme de contrôle) qui est mathématiquement déterminée par la première partie de la graine (11 mots). Si vous faisiez une erreur de frappe au début, le mot de somme de contrôle ne correspondra pas mathématiquement, et le logiciel de portefeuille vous alertera avec un avertissement. Cela ne signifie pas que la graine ne peut pas être utilisée pour créer un portefeuille Bitcoin fonctionnel. Imaginez créer un portefeuille avec une erreur de frappe, charger le portefeuille avec des bitcoins, puis un jour vous pourriez avoir besoin de restaurer le portefeuille, mais lorsque vous le faites, vous ne recréez pas l'erreur de frappe - vous restaurerez le mauvais portefeuille ! Il est assez dangereux qu'Electrum vous permette de continuer à créer un portefeuille si votre somme de contrôle est invalide, alors soyez averti, c'est votre responsabilité de vous en assurer. D'autres portefeuilles ne vous permettront pas de continuer, ce qui est beaucoup plus sûr. C'est l'une des choses que je veux dire quand je dis qu'Electrum est bon à utiliser, une fois que vous avez appris à l'utiliser correctement (les développeurs d'Electrum devraient corriger cela).
+> Un petit détour pour un avertissement important. Le but de la somme de contrôle est de s'assurer que vous avez entré votre graine sans erreur de frappe. La somme de contrôle est la dernière partie de la graine (le 12e mot est la somme de contrôle) qui est mathématiquement déterminée par la première partie de la graine (11 mots). Si vous faisiez une erreur de frappe au début, le mot de somme de contrôle ne correspondra pas mathématiquement, et le logiciel de portefeuille vous alertera avec un avertissement. Cela ne signifie pas que la graine ne peut pas être utilisée pour créer un portefeuille Bitcoin fonctionnel. Imaginez créer un portefeuille avec une erreur de frappe, charger le portefeuille avec des bitcoins, puis un jour vous pourriez avoir besoin de restaurer le portefeuille, mais lorsque vous le faites, vous ne recréez pas l'erreur de frappe, vous restaurerez le mauvais portefeuille ! Il est assez dangereux qu'Electrum vous permette de continuer à créer un portefeuille si votre somme de contrôle est invalide, alors soyez averti, c'est votre responsabilité de vous en assurer. D'autres portefeuilles ne vous permettront pas de continuer, ce qui est beaucoup plus sûr. C'est l'une des choses que je veux dire quand je dis qu'Electrum est bon à utiliser, une fois que vous avez appris à l'utiliser correctement (les développeurs d'Electrum devraient corriger cela).
 
 Remarquez que si vous souhaitez ajouter une phrase secrète, la possibilité de la sélectionner se trouve dans cette fenêtre d'options, juste en haut.
 
 Après avoir cliqué sur OK, vous serez ramené à l'endroit où vous avez saisi la phrase de la graine. Si vous avez sélectionné une option de phrase secrète, vous NE LA SAISISSEZ PAS avec les mots de la graine (la demande à cet effet viendra ensuite).
 
-Si vous n'avez pas demandé de phrase secrète, vous verrez ensuite cet écran - plus d'options pour le type de script de votre portefeuille et le chemin de dérivation que vous pouvez apprendre ici (https://armantheparman.com/public-and-private-keys/), mais laissez simplement les valeurs par défaut et continuez.
+Si vous n'avez pas demandé de phrase secrète, vous verrez ensuite cet écran, plus d'options pour le type de script de votre portefeuille et le chemin de dérivation que vous pouvez apprendre ici (https://armantheparman.com/public-and-private-keys/), mais laissez simplement les valeurs par défaut et continuez.
 
 ![image](assets/13.webp)
 
-> Pour des informations supplémentaires : La première option vous permet de choisir entre l'héritage (adresses commençant par "1"), le pay-to-script-hash (adresses commençant par "3") ou bech32/native segwit (adresses commençant par "bc1q"). Au moment de la rédaction, Electrum ne prend pas encore en charge taproot (adresses commençant par "bc1p"). La deuxième option dans cette fenêtre vous permet de modifier le chemin de dérivation. Je vous suggère de ne jamais le modifier, surtout avant de comprendre ce que cela signifie. Les gens insisteront sur l'importance d'écrire le chemin de dérivation afin de pouvoir récupérer votre portefeuille si nécessaire, mais si vous le laissez par défaut, vous devriez probablement vous en sortir, donc ne paniquez pas - mais il est toujours bon de prendre l'habitude d'écrire le chemin de dérivation.
+> Pour des informations supplémentaires : La première option vous permet de choisir entre l'héritage (adresses commençant par "1"), le pay-to-script-hash (adresses commençant par "3") ou bech32/native segwit (adresses commençant par "bc1q"). Au moment de la rédaction, Electrum ne prend pas encore en charge taproot (adresses commençant par "bc1p"). La deuxième option dans cette fenêtre vous permet de modifier le chemin de dérivation. Je vous suggère de ne jamais le modifier, surtout avant de comprendre ce que cela signifie. Les gens insisteront sur l'importance d'écrire le chemin de dérivation afin de pouvoir récupérer votre portefeuille si nécessaire, mais si vous le laissez par défaut, vous devriez probablement vous en sortir, donc ne paniquez pas, mais il est toujours bon de prendre l'habitude d'écrire le chemin de dérivation.
 
 Ensuite, vous aurez la possibilité d'ajouter un MOT DE PASSE. Ne confondez pas cela avec "PHRASE SECRÈTE". Un mot de passe verrouille le fichier sur votre ordinateur. Une phrase secrète fait partie de la composition de la clé privée. Comme il s'agit d'un portefeuille fictif, vous pouvez laisser le mot de passe vide et continuer.
 

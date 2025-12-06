@@ -577,9 +577,9 @@ Cliquez toujours sur "avancé" à cette étape pour pouvoir avoir un contrôle p
 
 Nous voyons deux fenêtres internes blanches. La première en haut est la fenêtre des entrées (quelles pièces sont dépensées), et la seconde en bas est celle des sorties (où vont les pièces).
 
-Note, le statut (en haut à gauche) est "non signé" pour le moment. Le "Montant envoyé" est de 0 car les pièces sont en train d'être transférées dans le portefeuille. Les frais sont de 481 sats. Notez que s'ils étaient de 480 sats, le zéro final serait supprimé, comme ceci, 0.0000048 et pour l'œil fatigué, cela peut ressembler à 48 sats - soyez prudent (quelque chose que les développeurs d'Electrum devraient corriger).
+Note, le statut (en haut à gauche) est "non signé" pour le moment. Le "Montant envoyé" est de 0 car les pièces sont en train d'être transférées dans le portefeuille. Les frais sont de 481 sats. Notez que s'ils étaient de 480 sats, le zéro final serait supprimé, comme ceci, 0.0000048 et pour l'œil fatigué, cela peut ressembler à 48 sats, soyez prudent (quelque chose que les développeurs d'Electrum devraient corriger).
 
-La taille de la transaction fait référence à la taille des données en octets, pas au montant de bitcoin. Le "remplacement par frais" est activé par défaut et vous permet de renvoyer la transaction avec des frais plus élevés si nécessaire. Le LockTime vous permet d'ajuster quand la transaction est valide - je n'ai pas encore joué avec cela, mais je déconseille de l'utiliser à moins de comprendre parfaitement ce que vous faites et d'avoir pratiqué avec de petites sommes.
+La taille de la transaction fait référence à la taille des données en octets, pas au montant de bitcoin. Le "remplacement par frais" est activé par défaut et vous permet de renvoyer la transaction avec des frais plus élevés si nécessaire. Le LockTime vous permet d'ajuster quand la transaction est valide, je n'ai pas encore joué avec cela, mais je déconseille de l'utiliser à moins de comprendre parfaitement ce que vous faites et d'avoir pratiqué avec de petites sommes.
 
 En bas, nous avons quelques outils sophistiqués d'ajustement des frais miniers. Tout ce que vous avez à faire pour les transferts internes est de le régler sur les frais minimums de 1 sat/byte. Tapez simplement manuellement le nombre dans le champ Frais cible. Pour vérifier les frais appropriés pour un paiement externe, vous pouvez consulter https://mempool.space pour voir à quel point le mempool est occupé, et certains frais suggérés sont affichés.
 
@@ -587,7 +587,7 @@ En bas, nous avons quelques outils sophistiqués d'ajustement des frais miniers.
 
 J'ai sélectionné 1 sat/byte.
 
-Dans la fenêtre d'entrée, nous voyons deux entrées. La première est le don de 5000 sats. Nous voyons à gauche son hachage de transaction (que nous pouvons rechercher sur la blockchain). À côté, il y a un "21" - cela indique qu'il s'agit de la sortie étiquetée 21 dans cette transaction (c'est en réalité la 22e sortie car la première est étiquetée zéro).
+Dans la fenêtre d'entrée, nous voyons deux entrées. La première est le don de 5000 sats. Nous voyons à gauche son hachage de transaction (que nous pouvons rechercher sur la blockchain). À côté, il y a un "21", cela indique qu'il s'agit de la sortie étiquetée 21 dans cette transaction (c'est en réalité la 22e sortie car la première est étiquetée zéro).
 
 Quelque chose à noter ici : les UTXO n'existent que dans une transaction. Pour dépenser un UTXO, nous devons le référencer et mettre cette référence dans l'entrée d'une nouvelle transaction. Les sorties deviennent alors de nouveaux UTXO et l'ancien UTXO devient un STXO (sortie de transaction dépensée).
 
@@ -603,7 +603,7 @@ Une fois que vous avez vérifié tout dans la transaction et que vous êtes sûr
 
 ![image](assets/42.webp)
 
-Après avoir cliqué sur "finaliser", vous ne pouvez plus apporter de modifications - Si vous en avez besoin, vous devez fermer cela et recommencer. Remarquez que le bouton "finaliser" a changé en "exporter" et de nouveaux boutons sont apparus : "enregistrer", "combiner", "signer" et "diffuser". Le bouton "diffuser" est grisé car la transaction est non signée et donc invalide à ce stade.
+Après avoir cliqué sur "finaliser", vous ne pouvez plus apporter de modifications. Si vous en avez besoin, vous devez fermer cela et recommencer. Remarquez que le bouton "finaliser" a changé en "exporter" et de nouveaux boutons sont apparus : "enregistrer", "combiner", "signer" et "diffuser". Le bouton "diffuser" est grisé car la transaction est non signée et donc invalide à ce stade.
 Une fois que vous avez cliqué sur "signer", si vous avez un mot de passe pour le portefeuille, vous serez invité à le saisir, puis le statut (en haut à droite) passera de "non signé" à "signé". Ensuite, le bouton "Diffuser" sera disponible.
 
 Après avoir diffusé, vous pouvez fermer la fenêtre de transaction. Si vous allez à l'onglet d'adresse, vous verrez maintenant que la première adresse est vide et que la deuxième adresse a 1 UTXO.
@@ -630,7 +630,7 @@ Il n'est pas intuitif de charger une transaction enregistrée, alors prenez note
 
 Un processus similaire est possible avec une transaction enregistrée sous forme de fichier. Essayez de vous entraîner avec l'une ou l'autre méthode, dans le même portefeuille. Je ne vais pas le détailler ici, mais vous pouvez utiliser cette fonctionnalité pour transmettre une transaction entre le même portefeuille sur différents ordinateurs, entre des portefeuilles multi-signatures et vers et depuis des portefeuilles matériels. Voici quelques instructions.
 
-Maintenant, en revenant au bouton "enregistrer" - ce n'est pas ainsi que vous enregistrez le texte de la transaction. Ce que cela fait réellement, c'est indiquer au portefeuille Electrum de reconnaître cette transaction sur l'ordinateur local comme étant soumise en tant que paiement. Si vous le faites par accident, vous verrez la transaction avec une petite icône d'ordinateur. Vous pouvez faire un clic droit et supprimer la transaction - ne vous inquiétez pas, vous ne pouvez pas supprimer des bitcoins de cette manière. Electrum oubliera alors que cette transaction a jamais eu lieu et "remboursera" les sats et affichera les sats à l'endroit correct où ils se trouvent réellement.
+Maintenant, en revenant au bouton "enregistrer", ce n'est pas ainsi que vous enregistrez le texte de la transaction. Ce que cela fait réellement, c'est indiquer au portefeuille Electrum de reconnaître cette transaction sur l'ordinateur local comme étant soumise en tant que paiement. Si vous le faites par accident, vous verrez la transaction avec une petite icône d'ordinateur. Vous pouvez faire un clic droit et supprimer la transaction, ne vous inquiétez pas, vous ne pouvez pas supprimer des bitcoins de cette manière. Electrum oubliera alors que cette transaction a jamais eu lieu et "remboursera" les sats et affichera les sats à l'endroit correct où ils se trouvent réellement.
 
 ### Adresses de changement
 
@@ -653,19 +653,19 @@ Vous pouvez ensuite entrer plusieurs destinations pour le solde de la UTXO que v
 
 ![image](assets/47.webp)
 
-Collez l'adresse, tapez une virgule, puis un espace, puis le montant, puis <entrée>, puis recommencez. NE SAISISSEZ PAS LES MONTANTS DANS LES FENÊTRES "MONTANT" - Electrum remplira le total ici au fur et à mesure que vous tapez les montants individuels dans la fenêtre "Payer à".
+Collez l'adresse, tapez une virgule, puis un espace, puis le montant, puis <entrée>, puis recommencez. NE SAISISSEZ PAS LES MONTANTS DANS LES FENÊTRES "MONTANT", Electrum remplira le total ici au fur et à mesure que vous tapez les montants individuels dans la fenêtre "Payer à".
 
 Cela vous permet de déterminer manuellement où va le changement (par exemple, une adresse spécifique dans votre portefeuille ou un autre portefeuille), ou vous pouvez payer plusieurs personnes à la fois. Si votre total n'est pas suffisamment élevé pour correspondre à la taille de la UTXO, Electrum créera quand même une sortie de changement supplémentaire pour vous.
 
-La fonctionnalité "Payer à plusieurs" permet également la possibilité de créer vos propres "PayJoins" ou "CoinJoins" - en dehors du cadre de cet article, mais j'ai un guide ici. (https://armantheparman.com/cj/)
+La fonctionnalité "Payer à plusieurs" permet également la possibilité de créer vos propres "PayJoins" ou "CoinJoins", en dehors du cadre de cet article, mais j'ai un guide ici. (https://armantheparman.com/cj/)
 
 ## Portefeuilles
 
 Je veux vous montrer un portefeuille en mode "Observation seulement" utilisant Electrum. Pour cela, je dois d'abord définir "portefeuille". Le mot "portefeuille" est utilisé de deux manières différentes dans Bitcoin :
 
-- Type A, "portefeuille" - fait référence au logiciel qui affiche vos adresses et soldes, par exemple Electrum, Blue Wallet, Sparrow Wallet, etc.
+- Type A, "portefeuille", fait référence au logiciel qui affiche vos adresses et soldes, par exemple Electrum, Blue Wallet, Sparrow Wallet, etc.
 
-- Type B, "portefeuille" - fait référence à la collection unique d'adresses associées à la combinaison de notre phrase de récupération/phrase secrète/chemin de dérivation. Il y a 8,6 milliards d'adresses dans n'importe quel portefeuille (4,3 milliards d'adresses de réception et 4,3 milliards d'adresses de changement). Si vous modifiez quelque chose dans la phrase de récupération, la phrase secrète ou le chemin de dérivation, vous obtenez un nouveau portefeuille inutilisé avec 8,6 milliards d'adresses vides, toutes uniques.
+- Type B, "portefeuille", fait référence à la collection unique d'adresses associées à la combinaison de notre phrase de récupération/phrase secrète/chemin de dérivation. Il y a 8,6 milliards d'adresses dans n'importe quel portefeuille (4,3 milliards d'adresses de réception et 4,3 milliards d'adresses de changement). Si vous modifiez quelque chose dans la phrase de récupération, la phrase secrète ou le chemin de dérivation, vous obtenez un nouveau portefeuille inutilisé avec 8,6 milliards d'adresses vides, toutes uniques.
 
 Le type auquel on fait référence lorsqu'on utilise le mot "portefeuille" est évident dans le contexte.
 
@@ -673,13 +673,13 @@ Le type auquel on fait référence lorsqu'on utilise le mot "portefeuille" est �
 
 Il n'est pas complètement évident à quoi sert un portefeuille de surveillance, mais je vais commencer par expliquer ce que c'est, comment en créer un à titre d'exemple, puis nous reviendrons plus tard sur son objectif lorsque j'expliquerai davantage sur les portefeuilles matériels. (Pour une revue approfondie sur l'utilisation d'un portefeuille matériel et les différentes marques spécifiques, voir ici.)
 
-Nous allons créer un faux portefeuille ordinaire (cette fois-ci en ajoutant un peu plus de complexité avec une phrase secrète), puis son portefeuille de surveillance correspondant. Si vous le souhaitez, vous pouvez copier exactement celui que j'ai créé, ou créer le vôtre - ce portefeuille doit être jeté ; ne l'utilisez pas réellement. Commencez par générer une graine de 12 mots en utilisant le site Ian Coleman.
+Nous allons créer un faux portefeuille ordinaire (cette fois-ci en ajoutant un peu plus de complexité avec une phrase secrète), puis son portefeuille de surveillance correspondant. Si vous le souhaitez, vous pouvez copier exactement celui que j'ai créé, ou créer le vôtre, ce portefeuille doit être jeté ; ne l'utilisez pas réellement. Commencez par générer une graine de 12 mots en utilisant le site Ian Coleman.
 
 Remarquez les 12 mots aléatoires dans la capture d'écran ci-dessous, et que j'ai saisi une phrase secrète dans le champ de la phrase secrète :
 
 PHRASE SECRÈTE : "Craig Wright est un menteur et un escroc et mérite d'être en prison. De plus, Ross Ulbricht devrait être libéré de prison immédiatement."
 
-La phrase secrète peut comporter jusqu'à 100 caractères et idéalement ne devrait pas être ambiguë ni trop courte - celle que j'ai utilisée est juste pour le plaisir - je suggère généralement d'éviter les lettres majuscules et les symboles pour réduire votre stress lorsque vous essayez des combinaisons si vous avez déjà eu des problèmes pour vous souvenir de votre phrase secrète.
+La phrase secrète peut comporter jusqu'à 100 caractères et idéalement ne devrait pas être ambiguë ni trop courte, celle que j'ai utilisée est juste pour le plaisir, je suggère généralement d'éviter les lettres majuscules et les symboles pour réduire votre stress lorsque vous essayez des combinaisons si vous avez déjà eu des problèmes pour vous souvenir de votre phrase secrète.
 
 ![image](assets/48.webp)
 
@@ -705,9 +705,9 @@ Les clés privées et publiques étendues sont juste en dessous, et elles change
 
 ![image](assets/51.webp)
 
-Vous verrez également les clés privées/publiques étendues "BIP32" - elles doivent être ignorées pour le moment.
+Vous verrez également les clés privées/publiques étendues "BIP32", elles doivent être ignorées pour le moment.
 
-La clé privée étendue du compte peut être utilisée pour régénérer entièrement votre portefeuille. Cependant, la clé publique étendue du compte ne peut produire qu'une version limitée du même portefeuille (portefeuille de surveillance) - si vous mettez cette clé dans Electrum, elle produira toujours les 8,6 milliards d'adresses que la graine ou la clé privée étendue auraient, mais il n'y aura pas de clés privées disponibles pour Electrum, donc aucune dépense n'est possible. Faisons-le maintenant pour illustrer le point :
+La clé privée étendue du compte peut être utilisée pour régénérer entièrement votre portefeuille. Cependant, la clé publique étendue du compte ne peut produire qu'une version limitée du même portefeuille (portefeuille de surveillance), si vous mettez cette clé dans Electrum, elle produira toujours les 8,6 milliards d'adresses que la graine ou la clé privée étendue auraient, mais il n'y aura pas de clés privées disponibles pour Electrum, donc aucune dépense n'est possible. Faisons-le maintenant pour illustrer le point :
 
 Copiez la "clé publique étendue du compte" dans le presse-papiers.
 
@@ -727,13 +727,13 @@ Une raison, et pas la principale, est que vous pouvez potentiellement observer v
 
 Une autre raison est que cela est REQUIS pour effectuer des paiements si vous choisissez de garder vos clés privées hors de l'ordinateur ; je vais expliquer :
 
-> Les portefeuilles matériels (HWW) ont été créés pour qu'un appareil puisse stocker vos clés privées en toute sécurité (verrouillées avec un code PIN), ne jamais exposer les clés à un ordinateur (même lorsqu'il est connecté à un ordinateur via un câble) et ne peuvent pas se connecter à Internet eux-mêmes. Un tel appareil ne peut pas effectuer de transactions par lui-même car toutes les transactions Bitcoin commencent par la référence à une UTXO(s) sur la blockchain (qui se trouve sur un nœud). Un portefeuille doit spécifier l'ID de transaction dans lequel se trouve l'UTXO, ainsi que la sortie de la transaction à dépenser. Ce n'est qu'après avoir spécifié l'entrée qu'une nouvelle transaction peut être créée en premier lieu, sans parler de la signer. Les portefeuilles matériels ne peuvent pas créer de transactions car ils n'ont pas accès à des UTXOs - ils ne sont connectés à rien ! Une clé publique étendue est généralement extraite du HWW, et les adresses sont ensuite affichées sur un ordinateur - beaucoup de personnes sont familières avec le logiciel Ledger ou Trezor Suite qui affiche les adresses et les soldes sur leur ordinateur - c'est un portefeuille de surveillance. Ces programmes peuvent créer des transactions, mais ils ne peuvent pas les signer. Ils peuvent seulement faire signer des transactions par des HWW qui y sont connectés. Le HWW prend la transaction nouvellement générée à partir du portefeuille de surveillance, la signe, puis la renvoie à l'ordinateur pour la diffuser à un nœud. Le HWW ne peut pas diffuser par lui-même, c'est le portefeuille de surveillance associé qui le fait. De cette manière, les deux portefeuilles (portefeuille de clé publique sur l'ordinateur et portefeuille de clé privée dans le HWW) coopèrent pour générer, signer et diffuser, tout en veillant à ce que les clés privées restent isolées et éloignées d'un appareil connecté à Internet.
+> Les portefeuilles matériels (HWW) ont été créés pour qu'un appareil puisse stocker vos clés privées en toute sécurité (verrouillées avec un code PIN), ne jamais exposer les clés à un ordinateur (même lorsqu'il est connecté à un ordinateur via un câble) et ne peuvent pas se connecter à Internet eux-mêmes. Un tel appareil ne peut pas effectuer de transactions par lui-même car toutes les transactions Bitcoin commencent par la référence à une UTXO(s) sur la blockchain (qui se trouve sur un nœud). Un portefeuille doit spécifier l'ID de transaction dans lequel se trouve l'UTXO, ainsi que la sortie de la transaction à dépenser. Ce n'est qu'après avoir spécifié l'entrée qu'une nouvelle transaction peut être créée en premier lieu, sans parler de la signer. Les portefeuilles matériels ne peuvent pas créer de transactions car ils n'ont pas accès à des UTXOs, ils ne sont connectés à rien ! Une clé publique étendue est généralement extraite du HWW, et les adresses sont ensuite affichées sur un ordinateur, beaucoup de personnes sont familières avec le logiciel Ledger ou Trezor Suite qui affiche les adresses et les soldes sur leur ordinateur, c'est un portefeuille de surveillance. Ces programmes peuvent créer des transactions, mais ils ne peuvent pas les signer. Ils peuvent seulement faire signer des transactions par des HWW qui y sont connectés. Le HWW prend la transaction nouvellement générée à partir du portefeuille de surveillance, la signe, puis la renvoie à l'ordinateur pour la diffuser à un nœud. Le HWW ne peut pas diffuser par lui-même, c'est le portefeuille de surveillance associé qui le fait. De cette manière, les deux portefeuilles (portefeuille de clé publique sur l'ordinateur et portefeuille de clé privée dans le HWW) coopèrent pour générer, signer et diffuser, tout en veillant à ce que les clés privées restent isolées et éloignées d'un appareil connecté à Internet.
 
 ## Transactions Bitcoin partiellement signées (PSBTs)
 
-Il est possible de créer une transaction, de l'enregistrer dans un fichier, de la recharger ultérieurement, de la signer, de l'enregistrer à nouveau, puis de la diffuser enfin - je ne dis pas que quelqu'un aurait besoin de le faire ; c'est juste quelque chose de possible.
+Il est possible de créer une transaction, de l'enregistrer dans un fichier, de la recharger ultérieurement, de la signer, de l'enregistrer à nouveau, puis de la diffuser enfin, je ne dis pas que quelqu'un aurait besoin de le faire ; c'est juste quelque chose de possible.
 
-Maintenant, considérez un portefeuille multisignature 3 sur 5 - 5 clés privées créent un portefeuille et 3 sont nécessaires pour signer complètement une transaction (voir ici pour en savoir plus sur les clés de portefeuille multisignature). Il est possible d'avoir 5 ordinateurs différents, chacun avec l'une des cinq clés privées.
+Maintenant, considérez un portefeuille multisignature 3 sur 5, 5 clés privées créent un portefeuille et 3 sont nécessaires pour signer complètement une transaction (voir ici pour en savoir plus sur les clés de portefeuille multisignature). Il est possible d'avoir 5 ordinateurs différents, chacun avec l'une des cinq clés privées.
 
 L'ordinateur un peut générer une transaction et la signer. Il peut ensuite l'enregistrer dans un fichier et l'envoyer par e-mail à l'ordinateur 2. L'ordinateur 2 peut ensuite la signer et potentiellement enregistrer le fichier dans un code QR, puis transmettre le QR via un appel Zoom à l'ordinateur 3 de l'autre côté du monde. L'ordinateur 3 peut capturer le QR, charger la transaction dans Electrum et la signer. Après les deux premières signatures, la transaction était une PSBT (transaction Bitcoin partiellement signée). Après la troisième signature, la transaction est devenue entièrement signée et valide, prête à être diffusée.
 Pour en savoir plus sur PSBTS, consultez ce guide. (https://armantheparman.com/psbt/)
@@ -744,7 +744,7 @@ J'ai un guide sur l'utilisation des portefeuilles matériels en général, que j
 
 Il existe également des guides sur différentes marques de HWW se connectant à Sparrow Bitcoin Wallet que vous pouvez trouver ici. (https://armantheparman.com/hwws/)
 
-Ce sera mon premier guide montrant comment utiliser un portefeuille matériel avec Electrum - je vais utiliser le portefeuille matériel ColdCard pour le démontrer. Ce n'est pas censé être un guide détaillé sur le ColdCard en particulier, ce guide se trouve ici. Je montre simplement des points spécifiques à Electrum. (https://armantheparman.com/cc/)
+Ce sera mon premier guide montrant comment utiliser un portefeuille matériel avec Electrum, je vais utiliser le portefeuille matériel ColdCard pour le démontrer. Ce n'est pas censé être un guide détaillé sur le ColdCard en particulier, ce guide se trouve ici. Je montre simplement des points spécifiques à Electrum. (https://armantheparman.com/cc/)
 
 ### Connexion via la carte micro SD (hors ligne)
 
@@ -852,11 +852,11 @@ Linux :
 
 > /home/votre_nom_d'utilisateur/.electrum
 
-Notez le "." avant "electrum" dans Linux et Mac - cela indique que le répertoire est caché. Notez également que ce répertoire n'est créé (automatiquement) qu'une fois que vous avez exécuté Electrum pour la première fois. Le répertoire contient le fichier de configuration d'Electrum ainsi que le répertoire qui contient tous les portefeuilles que vous avez enregistrés.
+Notez le "." avant "electrum" dans Linux et Mac, cela indique que le répertoire est caché. Notez également que ce répertoire n'est créé (automatiquement) qu'une fois que vous avez exécuté Electrum pour la première fois. Le répertoire contient le fichier de configuration d'Electrum ainsi que le répertoire qui contient tous les portefeuilles que vous avez enregistrés.
 
 Si vous supprimez le programme Electrum de votre ordinateur, le répertoire caché restera, à moins que vous ne le supprimiez également activement.
 
-Pour mettre à niveau Electrum, vous suivez la même procédure que celle que j'ai décrite au début pour le téléchargement et la vérification. Vous aurez alors deux copies du programme sur votre ordinateur, et vous pourrez exécuter l'une ou l'autre - chaque programme accédera au même dossier caché d'Electrum pour sa configuration et l'accès à votre portefeuille. Tout ce que nous avons enregistré, comme l'unité de base, le nœud par défaut auquel se connecter, les autres préférences et l'accès aux portefeuilles, restera car tout cela est enregistré dans ce dossier.
+Pour mettre à niveau Electrum, vous suivez la même procédure que celle que j'ai décrite au début pour le téléchargement et la vérification. Vous aurez alors deux copies du programme sur votre ordinateur, et vous pourrez exécuter l'une ou l'autre, chaque programme accédera au même dossier caché d'Electrum pour sa configuration et l'accès à votre portefeuille. Tout ce que nous avons enregistré, comme l'unité de base, le nœud par défaut auquel se connecter, les autres préférences et l'accès aux portefeuilles, restera car tout cela est enregistré dans ce dossier.
 
 ### Déplacer votre Electrum et vos portefeuilles vers un autre ordinateur
 

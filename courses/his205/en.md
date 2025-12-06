@@ -231,7 +231,7 @@ Global warming at the end of the Ice Age radically transformed this social organ
 This gradual sedentarization led to profound social transformations. **Neolithic agriculture gave rise to the modern concept of work**: attachment to a specific territory meant tending to one's property, storing the fruits of one's labor and planning for future harvests. This new relationship with time—deferring present use for future benefit—revolutionized social organization.
 
 
-Pottery perfectly illustrates this evolution: initially developed to store cereals and seeds, is evidence of this new ability to anticipate future needs. Some prehistorians even argue that the Neolithic would not have been possible without these storage systems.
+Pottery perfectly illustrates this evolution: initially developed to store cereals and seeds, it is evidence of this new ability to anticipate future needs. Some prehistorians even argue that the Neolithic would not have been possible without these storage systems.
 
 
 **Private property emerged as the central institution** of these new societies. While individual property had already existed in the Paleolithic (such as personal hunting spears), it took on an unprecedented territorial dimension in the Neolithic. This land appropriation led to the first archaeologically documented human conflicts, necessitating the emergence of a function dedicated to territorial security function.
@@ -243,7 +243,7 @@ Pottery perfectly illustrates this evolution: initially developed to store cerea
 Agriculture made it possible to feed larger populations while freeing some individuals from the direct necessity of food production to pursue other productive activities. This emerging specialization - farmers, potters, craftsmen, guards - laid the foundations for the division of labor and social hierarchies.
 
 
-Archaeological remains bear witness to this growing stratification: burials evolved from collective to differentiated individual graves, and housing moved from architectural uniformity to constructions revealing distinct social statuses. The precense of funerary objects—ornaments, specialized tools, pottery—serves as material evidence for the emergence of a notion of wealth and social prestige.
+Archaeological remains bear witness to this growing stratification: burials evolved from collective to differentiated individual graves, and housing moved from architectural uniformity to constructions revealing distinct social statuses. The presense of funerary objects—ornaments, specialized tools, pottery—serves as material evidence for the emergence of a notion of wealth and social prestige.
 
 
 ### The emergence of distance exchanges
@@ -1370,7 +1370,7 @@ A ratio of 25x implies it would take 25 years to double the stock at the current
 *"In short, whenever a commodity currency has found itself in competition with gold and silver, the latter has always come out on top in the end. Other commodities might remain currencies for limited periods or in specific regions, but gold and silver have always proved their ability to become globally competitive currencies and to dominate the competition. This is because when civilizations met, holders of gold and silver always had the technological capacity to devalue other forms of currency, while holders of shells, pearls, livestock, salt, cloth or inferior metals could never devalue gold or silver."*
 
 
-This thesis, as described in "The Bitcoin Standard" by Saifedean Ammous, is illustrated by the case of the African tribes who used glass beads as currency. When Venetian merchants arrived with large quantities of industrially producedf glass beads, their technological capacity to manufacture the currency allowed them to devalue it. This destabilized the local monetary systems, enabling the merchants to effectively plunder their resources.
+This thesis, as described in "The Bitcoin Standard" by Saifedean Ammous, is illustrated by the case of the African tribes who used glass beads as currency. When Venetian merchants arrived with large quantities of industrially produced glass beads, their technological capacity to manufacture the currency allowed them to devalue it. This destabilized the local monetary systems, enabling the merchants to effectively plunder their resources.
 
 
 ### Unit of account and credit
@@ -1397,7 +1397,7 @@ The authority governing the register varies. For commodity money like gold, natu
 ### The monetary premium concept
 
 
-As a proposal for unifying monetary theories, consider the concept of the the monetary premium. The value of money can be explained by the monetary premium arising from its monetary demand, whether in the form of clay tablets, precious metal coins, banknotes, or bitcoin. The monetary premium is simply based on the confidence that someone will exchange this currency in the future for a comparable price.
+As a proposal for unifying monetary theories, consider the concept of the monetary premium. The value of money can be explained by the monetary premium arising from its monetary demand, whether in the form of clay tablets, precious metal coins, banknotes, or bitcoin. The monetary premium is simply based on the confidence that someone will exchange this currency in the future for a comparable price.
 
 
  For any monetary asset, including fiat banknotes with no use value or a gold ingot, **it's often the monetary premium that makes up most of its value**. If we take a piece of gold, a certain part of its value is explained by its use value, its use in industry, or to make jewelry. However, much of the demand for jewelry is itself driven by gold's monetary properties, as people use it as a store of value. Therefore, a significant portion of jewelry demand can also be considered part of the monetary premium.
@@ -1424,7 +1424,7 @@ Fiat currency's value is derived almost entirely from this authority premium. It
 The monetary premium proposal unifies debt and commodity money theories by arguing that their value is not fundamentally different. The value of a gold coin does not  primarily derive from its "intrinsic" or use value. Rather, like fiat money, its value is predominantly a function of confidence and monetary demand. For example, if gold's industrial use is 10% of its value, accounting for $300 of its $3,000 market price, the remaining $2,700 is the monetary premium. The fact that fiat has zero use value does not change this principle; the mechanism of value attribution is the same. Therefore, the minimal use value of a commodity like gold does not alter the fundamental process of monetary valuation.
 
 
-On the other hand, it's certain that **at the level of emergence, according to Mises' regression theorem, use value can create a demand an initial demand that initiates the process of monetization.** With debt money, however, emergence is an imposition by an authority, so the source and initiation are completely different. **Nevertheless, at the level of value, the monetary premium provides a unified explanation for why  both fiat money and why commodity money possess the value** we attribute to them. The underlying process is the same: the money premium.
+On the other hand, it's certain that **at the level of emergence, according to Mises' regression theorem, use value can create an initial demand that initiates the process of monetization.** With debt money, however, emergence is an imposition by an authority, so the source and initiation are completely different. **Nevertheless, at the level of value, the monetary premium provides a unified explanation for why  both fiat money and why commodity money possess the value** we attribute to them. The underlying process is the same: the moneytary premium.
 
 
 #### The monetary premium
@@ -1473,7 +1473,7 @@ In a more sophisticated financial crime, stealing  all of a victim's "argent" me
 A *devise* is necessarily the currency of another country. If you're French, you would say: "La livre sterling est la devise du Royaume-Uni et l'euro et la monnaie de l'Europe" (The pound sterling is the currency of the United Kingdom and the euro is the currency of Europe).
 
 
-This semantic disctinction is often lost in translation. In English, "money" efers to the broad concept of a medium of exchange, while "currency" refers to the specific system of money in common use, particularly for a country. In French, *monnaie* can signify both the general concept of money and a specific national currency. The term *devise* is reserved exclusively for a foreign currency. The confusion arises when English speakers use "currency" in a context where French requires monnaie, and vice-versa. This ambiguity complicates discussions about assets like Bitcoin. In French, one might hear "ce n'est pas une monnaie" (it is not a currency) because bitcoin is not the legal tender of a nation-state. However, this argument conflates monnaie in its sense of "national currency" with monnaie in its broader sense of "money." The claim that it cannot be monnaie because it is not a national currency is a semantic error, and one that has become factually tenuous since El Salvador adopted Bitcoin as legal tender in 2021. Regardless of its legal status in any single country, if we use the broader definition, Bitcoin can be considered a form of monnaie (money), as it functions as a medium of exchange. The French language lacks a dedicated word like the English "money" to cleanly separate the general concept from the national unit, which is a source of this confusion. While *argent* can refer to money, it more broadly means wealth or cash, and does not serve as a perfect equivalent to the English concept of "money".
+This semantic distinction is often lost in translation. In English, "money" refers to the broad concept of a medium of exchange, while "currency" refers to the specific system of money in common use, particularly for a country. In French, *monnaie* can signify both the general concept of money and a specific national currency. The term *devise* is reserved exclusively for a foreign currency. The confusion arises when English speakers use "currency" in a context where French requires monnaie, and vice-versa. This ambiguity complicates discussions about assets like Bitcoin. In French, one might hear "ce n'est pas une monnaie" (it is not a currency) because bitcoin is not the legal tender of a nation-state. However, this argument conflates monnaie in its sense of "national currency" with monnaie in its broader sense of "money." The claim that it cannot be monnaie because it is not a national currency is a semantic error, and one that has become factually tenuous since El Salvador adopted Bitcoin as legal tender in 2021. Regardless of its legal status in any single country, if we use the broader definition, Bitcoin can be considered a form of monnaie (money), as it functions as a medium of exchange. The French language lacks a dedicated word like the English "money" to cleanly separate the general concept from the national unit, which is a source of this confusion. While *argent* can refer to money, it more broadly means wealth or cash, and does not serve as a perfect equivalent to the English concept of "money".
 
 
 
@@ -1508,7 +1508,7 @@ To this definition, it can be added that a monetary good acquires a monetary pre
 ### Scarcity and market mechanisms
 
 
-For a monetary premium to persist, the monetary good must be sufficiently scarce. This is critical because standard market mechanisms typically erode such premiums. **For most goods, price increases incentivize producers to increase supply to capture the gains. Conversely, price decreases lead to reduced production**. This supply-response mechanism keeps prices relatively stable by adjusting to demand. **However, for a sufficiently scarce good like gold, this market mechanism is ineffective. The supply cannot be readily increased to meet rising monetary demand, so the variable that adjusts is the price. Bitcoin operates on the same principle**. When demand for bitcoin increases, it's price rises because **the supply of new bitcoins is fixed by a pre-programmed algorithm and cannot be altered** in response to market signals. This predictable and unchangeable supply ensures that the monetary good is rare enough for its monetary premium to persist without being undermined by production adjustments.
+For a monetary premium to persist, the monetary good must be sufficiently scarce. This is critical because standard market mechanisms typically erode such premiums. **For most goods, price increases incentivize producers to increase supply to capture the gains. Conversely, price decreases lead to reduced production**. This supply-response mechanism keeps prices relatively stable by adjusting to demand. **However, for a sufficiently scarce good like gold, this market mechanism is ineffective. The supply cannot be readily increased to meet rising monetary demand, so the variable that adjusts is the price. Bitcoin operates on the same principle**. When demand for bitcoin increases, its price rises because **the supply of new bitcoins is fixed by a pre-programmed algorithm and cannot be altered** in response to market signals. This predictable and unchangeable supply ensures that the monetary good is rare enough for its monetary premium to persist without being undermined by production adjustments.
 
 
 
@@ -1675,10 +1675,10 @@ To conclude this section on the various monetary theories, let's examine Modern 
 ### The role of taxes in MMT
 
 
-A common question is, "If a state can create money, why pay taxes?" MMT provides a specific answer. While a modern fiat system technically has no limit money on creation other than inflation, MMT argues that taxation is a primary tool for managing that risk. By removing money from the economy, taxes can compensate for new money creation and prevent inflation. In this view, taxes function as a mechanism to control aggregate demand and inflation.
+A common question is, "If a state can create money, why pay taxes?" MMT provides a specific answer. While a modern fiat system technically has no limit on money creation other than inflation, MMT argues that taxation is a primary tool for managing that risk. By removing money from the economy, taxes can compensate for new money creation and prevent inflation. In this view, taxes function as a mechanism to control aggregate demand and inflation.
 
 
-Regarding the absorption of new money, consider the example of the United States directing trillions of dollars to the military industry. This spending does not necessarily cause inflation because the military-industrial complex has the productive capacity to absorbing those funds.
+Regarding the absorption of new money, consider the example of the United States directing trillions of dollars to the military industry. This spending does not necessarily cause inflation because the military-industrial complex has the productive capacity to absorb those funds.
 
 
 Conversely, if a government were to double the budget for roads construction but faced a limited supply of resources and contractors, this would create scarcity. The price of labor and materials would rise due to market forces of supply and demand. MMT posits that if the state could direct new money exclusively to sectors with available capacity, it would not cause inflation. A common critique, however, is that in practice, such targeted spending is difficult, and inflation often results.
@@ -1703,7 +1703,7 @@ For example, the economist Stephanie Kelton, author of "The Deficit Myth" and a 
 A primary criticism of MMT is its limited applicability; it is a functional framework only for countries with monetary sovereignty. This creates a two-tiered global system. Sovereign currency issuers can, in theory, create currency with less fear of domestic inflation, effectively exporting that inflation to other nations. This dynamic, often described as an "exorbitant privilege," resembles a form of monetary colonialism, where global demand for a currency allows its issuer to print money with fewer immediate consequences.
 
 
-Furthermore, MMT requires a significant degree of centralized economic planning. To manage inflation, the state must effectively control and allocate real resources, icluding labor, raw materials, and industrial capacity. and to manage inflation. This necessity for central planning is another key point of critique for the theory.
+Furthermore, MMT requires a significant degree of centralized economic planning. To manage inflation, the state must effectively control and allocate real resources, including labor, raw materials, and industrial capacity. and to manage inflation. This necessity for central planning is another key point of critique for the theory.
 
 # The fall and rebirth of money
 
@@ -2204,7 +2204,7 @@ A more gradual devaluation of the aureus is also noted. This difference in the r
 
 This phenomenon has recurred throughout history and is evident with all reserve currencies. The reserve unit of value, such as the aureus in Rome, remains stable, while the unit of account used by the general population for trade and everyday transactions is often devalued. As a result, monetary inflation disproportionately affects the common people, while those who can afford gold coins remain largely unaffected.
 
-**This same pdynamic is observable in modern economies, where currency devaluation can lead to an increase in the value of financial assets**. As a result, individuals who transact primarily in the currency—often the least wealthy—see their purchasing power decline. Conversely, those with the means to hold assets that appreciate during inflation can protect and even grow their wealth, a process that deepens social inequalities.
+**This same dynamic is observable in modern economies, where currency devaluation can lead to an increase in the value of financial assets**. As a result, individuals who transact primarily in the currency—often the least wealthy—see their purchasing power decline. Conversely, those with the means to hold assets that appreciate during inflation can protect and even grow their wealth, a process that deepens social inequalities.
 
 
 The mechanism described here is known as the Cantillon effect. Richard Cantillon was an economist who lived in the time of John Law, a subject we will also cover in a subsequent section.
@@ -2372,7 +2372,7 @@ At the same time, the Hundred Years' War (1337-1453) forced states to adopt more
 The Middle Ages were thus marked by a constant tension between the need for reliable money for trade and the constant temptation for rulers to dilute money for immediate profit. This conflict profoundly shaped European monetary development, laying the foundations for modern economic systems.
 
 
-To conclude this section, it is worth noting a major paradigm shift that occurred in England regarding state indebtedness. According Glyn Davies in "History of Money", the rise of Parliament transferred the burden of debt from the sovereign to the representative body. Before this shift, the debt was the personal obligation of the king and could be extinguished upon his death or bankruptcy.
+To conclude this section, it is worth noting a major paradigm shift that occurred in England regarding state indebtedness. According to Glyn Davies in "History of Money", the rise of Parliament transferred the burden of debt from the sovereign to the representative body. Before this shift, the debt was the personal obligation of the king and could be extinguished upon his death or bankruptcy.
 
 
 However, once Parliament gained control over debt creation, the concept of sovereign debt as we understand it today emerged. This debt was no longer tied to the life of a monarch but to the continuity of the state itself, making it potentially unlimited. This development forced the state to develop new methods for refinancing and spreading this perpetual debt over time. The burden of guaranteeing and repaying these debts shifted from the monarch to the nation and its citizens.
@@ -2625,7 +2625,7 @@ Antwerp hosted merchant fairs where traders frequently gathered to settle debts,
 This effervescence led to the creation of more sophisticated banking institutions. **Lombard bankers** and later Dutch merchants perfected credit instruments (bills of exchange, promissory bills, etc.). The modern banking system is based on this idea: money can be credit, not just metal.
 
 
-This brings us back to the fundamantal question of the origins of money: does money emanate from a commodity that emerges from the need to exchange, or does it emerge from credit? 
+This brings us back to the fundamental question of the origins of money: does money emanate from a commodity that emerges from the need to exchange, or does it emerge from credit? 
 
 
 ### The Swedish example: Stockholms Banco and Riksens Ständers Bank
@@ -2722,7 +2722,7 @@ Subsequently, the Bank of England was created at the end of the 17th century out
 This progression, from the florin to the creation of central banks, is summarized in Nick Bhatia's book "Layered Money".
 
 
-Then came the panic of 1776. A bank run occurred, and holders of third-layer private banknotes attempted to exchange them for Bank of England bills, and subsequently for gold. The gold reserves were insuffcient. To avoid a default on gold redemption, a banking holiday was declared, which gave rise to the concept of the lender of last resort.
+Then came the panic of 1776. A bank run occurred, and holders of third-layer private banknotes attempted to exchange them for Bank of England bills, and subsequently for gold. The gold reserves were insufficient. To avoid a default on gold redemption, a banking holiday was declared, which gave rise to the concept of the lender of last resort.
 
 
 ### The evolution of the US dollar
@@ -2737,7 +2737,7 @@ In 1792, a law was passed to authorize official coinage. The image below shows a
 
 ![](./assets/fr/silver_dollar.webp)
 
-It's face value is one dollar, but as it represents an ounce of silver, its market value fluctuates with the price of silver, typically placing it between $30 and $40. At that time, the US dollar was rooted in this silver value, unlike today's paper dollar, which retains only its face value.
+Its face value is one dollar, but as it represents an ounce of silver, its market value fluctuates with the price of silver, typically placing it between $30 and $40. At that time, the US dollar was rooted in this silver value, unlike today's paper dollar, which retains only its face value.
 
 During the American Civil War, the Confederates printed money that experienced hyperinflation. While not included in the official Hanke-Krus list, as it did not consistently exceed a 50% monthly inflation rate, it did experience periods of extreme inflation, indicating substantial currency printing during the war.
 
@@ -2754,7 +2754,7 @@ The Northern opponents issued their own currency, known as "the greenback" due t
 Banknotes from that era were larger than the modern ones.
 
 
-Following the the Northern victory, the greenback became the currency of the reunified American states. This was followed by the founding of the Federal Reserve (FED) in 1913, and the First World War.
+Following the Northern victory, the greenback became the currency of the reunified American states. This was followed by the founding of the Federal Reserve (FED) in 1913, and the First World War.
 
 In the aftermath of the war, banknotes still included the words "redeemable in gold on demand". In 1928, $20 bought almost an ounce of gold, as the price was fixed at $20.67. The bill in the image below could have been exchanged for an ounce of gold in 1928.
 
@@ -2762,7 +2762,7 @@ In the aftermath of the war, banknotes still included the words "redeemable in g
 ![](./assets/fr/1928.webp)
 
 
-Today, an ounce of gold is worth approximately $3,000, illustrating the extent of the currency's devaluation. This was the last series of bills to contain the words "redeemable in gold". Shortly thereafter, Executive Order 6102 resulted in the seizure all privately held gold and gold certificates. 
+Today, an ounce of gold is worth approximately $3,000, illustrating the extent of the currency's devaluation. This was the last series of bills to contain the words "redeemable in gold". Shortly thereafter, Executive Order 6102 resulted in the seizure of all privately held gold and gold certificates. 
 
 Below is an example of a 1928 gold certificate.
 
@@ -2843,7 +2843,7 @@ In response to this chaos, Napoleon re-established gold and silver as the moneta
 Moving forward two centuries, after the First World War, governments financed the effort through inflation and the suspension of gold convertibility. In the 1920s, the American Fed pursued an overly accommodating monetary policy to support the British pound. The result was easy credit, unbridled speculation on Wall Street, widespread share purchases on credit, and the emergence of a real estate and banking bubble.
 
 
-When this system became unsustainable, the crash of 1929 was inevitable, leading to massive bank failures, record unemployment, and queues at soup kitchens. This period gave rise to the persistent misconception that **all deflation is bad**, whereas it is necessary to distinguish between deflation through growth (healthy) and deflation esulting from debt (devastating).
+When this system became unsustainable, the crash of 1929 was inevitable, leading to massive bank failures, record unemployment, and queues at soup kitchens. This period gave rise to the persistent misconception that **all deflation is bad**, whereas it is necessary to distinguish between deflation through growth (healthy) and deflation resulting from debt (devastating).
 
 
 ### Asia in the 90s and the domino effect
@@ -3006,10 +3006,10 @@ This system created a financial technology that allows the holder to sell the no
 
 This financial technology was developed in Antwerp and Amsterdam during that period. Later, we saw the evolution of central banks and the notion of lender of last resort. It can be argued that during the era of the Bank of Amsterdam , the use of coins in international trade was abandoned in favor of scriptural money.
 
-In the 18th century, another key financial technology emerged: insurance. An illustrative anecdote from Neil Ferguson's book "The Ascent of Money", explains The founding of the first modern insurance company, **Scottish Widowss**. The clergy in Scotland sought to improve upon a system that provided only one year of support for the wives and children of priests who died unexpectedly. They found this period insufficient. As a result, **they invented actuarial calculations** to literally calculate the number of contributors necessary for the system to cover its costs, depending on the number of priests who died prematurely.
+In the 18th century, another key financial technology emerged: insurance. An illustrative anecdote from Neil Ferguson's book "The Ascent of Money", explains The founding of the first modern insurance company, **Scottish Widows**. The clergy in Scotland sought to improve upon a system that provided only one year of support for the wives and children of priests who died unexpectedly. They found this period insufficient. As a result, **they invented actuarial calculations** to literally calculate the number of contributors necessary for the system to cover its costs, depending on the number of priests who died prematurely.
 
 
-They developed these calculations to create a model where each priest would pay a set amount, and in the event of his death, the insurance would cover the costs of supporting of his wife and children until they became self-sufficient. The "Scottish Widows" company who popularized and deployed this system.
+They developed these calculations to create a model where each priest would pay a set amount, and in the event of his death, the insurance would cover the costs of supporting his wife and children until they became self-sufficient. The "Scottish Widows" company who popularized and deployed this system.
 
 
 ### From private insurance to the welfare state
@@ -3045,7 +3045,7 @@ My purpose here is not to argue that one system is superior to another. Rather, 
 The point is that insurance is fundamentally an evolution of finance, and as governments often do, they have attempted to seize control of it, just as they have with money, for several reasons. 
 
 
-One such reason is the concept of the lender of last resort. The idea is that  a large, backstopping institution can distribute risk more broadly. The initial intent behind this concept was for an institution could to selectively support strong financial entities, preventing their collapse by lending to money.
+One such reason is the concept of the lender of last resort. The idea is that  a large, backstopping institution can distribute risk more broadly. The initial intent behind this concept was for an institution to selectively support strong financial entities, preventing their collapse by lending them money.
 
 
 However, what ultimately emerged was a system of universal bailouts. The "too big to fail" principle initially intended for a few, was applied broadly to nearly all banks and major corporations due to financial centralization. This is a concept applied "at large" by the state, much like the insurance model previously described.

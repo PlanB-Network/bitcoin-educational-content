@@ -277,7 +277,7 @@ Un éditeur de texte s'ouvrira (appelé nano) avec le fichier de configuration o
 Changez "false" en "true" ; et ne perturbez pas la syntaxe (ne supprimez pas la virgule ou le point-virgule).
 
 Appuyez sur <ctrl> x pour quitter, puis sur "y" pour enregistrer, puis <enter> pour confirmer le changement sans modifier le nom du fichier.
-Maintenant, exécutez à nouveau Electrum. Ensuite, cliquez sur le cercle en bas à droite, ce qui ouvre les paramètres réseau. Ensuite, près du haut dans l'onglet aperçu, vous verrez "connecté à 1 nœud" - cela indique le succès.
+Maintenant, exécutez à nouveau Electrum. Ensuite, cliquez sur le cercle en bas à droite, ce qui ouvre les paramètres réseau. Ensuite, près du haut dans l'onglet aperçu, vous verrez "connecté à 1 nœud", cela indique le succès.
 Juste en dessous, vous verrez un champ de texte et l'adresse du serveur est là. Vous êtes actuellement connecté à ce nœud aléatoire. Plus d'informations sur la connexion à un nœud dans la prochaine section.
 
 ### Fichier de configuration Windows
@@ -316,7 +316,7 @@ Au fait, voici les instructions pour exécuter votre propre nœud, et voici les 
 
 La seule raison de le faire serait si vous devez accéder à la blockchain et que vous n'avez pas votre propre nœud disponible (ou celui d'un ami).
 
-Connectons-nous au nœud de Bitaroo - On nous dit qu'ils ne collectent pas de données. Ils sont une bourse Bitcoin uniquement, gérée par un passionné de Bitcoin. Se connecter à eux implique un peu de confiance, mais c'est mieux que de se connecter à un nœud aléatoire, qui pourrait être une entreprise de surveillance.
+Connectons-nous au nœud de Bitaroo. On nous dit qu'ils ne collectent pas de données. Ils sont une bourse Bitcoin uniquement, gérée par un passionné de Bitcoin. Se connecter à eux implique un peu de confiance, mais c'est mieux que de se connecter à un nœud aléatoire, qui pourrait être une entreprise de surveillance.
 
 Accédez aux paramètres réseau en cliquant sur le cercle dans la partie inférieure droite de la fenêtre du portefeuille (le rouge indique une absence de connexion, le vert indique une connexion, et le bleu indique une connexion via Tor).
 
@@ -334,7 +334,7 @@ Fermez la fenêtre, et maintenant nous devrions être connectés au nœud de Bit
 
 Si vous avez votre propre nœud, c'est génial. Si vous avez seulement Bitcoin Core et pas un serveur Electrum en plus, vous ne pourrez pas encore connecter un portefeuille Electrum à votre nœud.
 
-> Note : Le serveur Electrum et le portefeuille Electrum sont des choses différentes. Le serveur est un logiciel requis pour que le portefeuille Electrum puisse communiquer avec la blockchain Bitcoin - Je ne sais pas pourquoi cela a été conçu de cette façon - peut-être pour la vitesse, mais je pourrais me tromper.
+> Note : Le serveur Electrum et le portefeuille Electrum sont des choses différentes. Le serveur est un logiciel requis pour que le portefeuille Electrum puisse communiquer avec la blockchain Bitcoin. Je ne sais pas pourquoi cela a été conçu de cette façon, peut-être pour la vitesse, mais je pourrais me tromper.
 > Si vous utilisez un logiciel de nœud comme MyNode (celui que je recommande aux débutants), Raspiblitz (recommandé pour les utilisateurs plus avancés) ou Umbrel (que je ne recommande pas encore personnellement car j'ai rencontré trop de problèmes), vous pourrez connecter votre portefeuille simplement en entrant l'adresse IP de l'ordinateur (Raspberry Pi) sur lequel le nœud est exécuté, suivie de deux points et de 50002, comme indiqué sur l'image de la section précédente. (Plus bas, je vous montrerai comment trouver l'adresse IP de votre nœud).
 > Ouvrez les paramètres réseau (cliquez sur le cercle vert ou rouge en bas à droite). Décochez la case "sélectionner le serveur automatiquement", puis saisissez votre adresse IP comme je l'ai fait (la vôtre sera différente, mais les deux points et "50002" doivent être identiques).
 
@@ -386,7 +386,7 @@ Ensuite, à l'avenir, vous pourrez taper 192.168.0.150 ou http://192.168.0.150 d
 
 Pour le Raspiblitz (lorsqu'il n'est pas connecté à un écran), vous avez besoin d'une méthode différente (qui fonctionne également pour MyNode) :
 
-Connectez-vous à la page web de votre routeur - ici, vous trouverez l'adresse IP de tous vos appareils connectés. La page web du routeur sera une adresse IP que vous entrez dans un navigateur web. La mienne est :
+Connectez-vous à la page web de votre routeur. Ici, vous trouverez l'adresse IP de tous vos appareils connectés. La page web du routeur sera une adresse IP que vous entrez dans un navigateur web. La mienne est :
 
     http://192.168.0.1
 
@@ -419,7 +419,7 @@ ipconfig/all
 
 et appuyez sur Entrée. L'adresse IP se trouve dans la sortie.
 
-C'était la partie facile. La partie difficile consiste maintenant à trouver l'adresse IP de votre nœud - nous devons deviner par force brute. Disons par exemple que l'adresse IP de votre ordinateur commence par 192.168.0.xxx, alors pour votre nœud, dans un navigateur, essayez :
+C'était la partie facile. La partie difficile consiste maintenant à trouver l'adresse IP de votre nœud, nous devons deviner par force brute. Disons par exemple que l'adresse IP de votre ordinateur commence par 192.168.0.xxx, alors pour votre nœud, dans un navigateur, essayez :
 
 ```
 https://192.168.0.2
@@ -443,7 +443,7 @@ Maintenant, nous nous sommes connectés avec succès à un seul et unique nœud.
 
 Après avoir supprimé le portefeuille factice, recommencez et créez-en un nouveau, de la même manière, mais cette fois, notez les mots de la graine et gardez-les assez en sécurité.
 
-Il est bon d'apprendre comment Electrum fonctionne avec ce portefeuille de pratique, sans le matériel encombrant (nécessaire pour une sécurité élevée). Ne mettez qu'une petite quantité de bitcoin dans ce portefeuille - supposez que vous perdrez cet argent. Une fois compétent, apprenez ensuite à utiliser Electrum avec un portefeuille matériel.
+Il est bon d'apprendre comment Electrum fonctionne avec ce portefeuille de pratique, sans le matériel encombrant (nécessaire pour une sécurité élevée). Ne mettez qu'une petite quantité de bitcoin dans ce portefeuille, supposez que vous perdrez cet argent. Une fois compétent, apprenez ensuite à utiliser Electrum avec un portefeuille matériel.
 
 Dans le nouveau portefeuille que vous avez créé, vous verrez une liste d'adresses. Les adresses vertes sont appelées "adresses de réception". Elles sont le produit de 3 choses :
 
@@ -461,11 +461,11 @@ C'est très différent de certains autres portefeuilles qui ne présentent qu'un
 
 Parce que vous avez saisi la phrase de la graine pour créer ce portefeuille, Electrum dispose de la clé privée pour chacune des adresses, et il est possible de dépenser à partir de ces adresses.
 
-Notez également qu'il existe des adresses jaunes, appelées "adresses de changement" - Il s'agit simplement d'un autre ensemble d'adresses provenant d'une branche mathématique différente (4,3 milliards de celles-ci existent également). Elles sont utilisées par le portefeuille pour renvoyer automatiquement les fonds excédentaires dans le portefeuille en tant que monnaie de rendu. Par exemple, si vous prenez 1,5 bitcoin et en dépensez 0,5 chez un commerçant, les 1,0 restants doivent aller quelque part. Votre portefeuille les dépensera sur la prochaine adresse de changement jaune vide - sinon, cela ira au mineur ! Pour plus d'informations à ce sujet (UTXOs), consultez ce guide. (https://armantheparman.com/utxo/)
+Notez également qu'il existe des adresses jaunes, appelées "adresses de changement". Il s'agit simplement d'un autre ensemble d'adresses provenant d'une branche mathématique différente (4,3 milliards de celles-ci existent également). Elles sont utilisées par le portefeuille pour renvoyer automatiquement les fonds excédentaires dans le portefeuille en tant que monnaie de rendu. Par exemple, si vous prenez 1,5 bitcoin et en dépensez 0,5 chez un commerçant, les 1,0 restants doivent aller quelque part. Votre portefeuille les dépensera sur la prochaine adresse de changement jaune vide, sinon, cela ira au mineur ! Pour plus d'informations à ce sujet (UTXOs), consultez ce guide. (https://armantheparman.com/utxo/)
 
 Ensuite, retournez sur le site de clé privée d'Ian Colman et saisissez la graine (au lieu d'en générer une). Vous verrez que les informations de clé privée et de clé publique ci-dessous changent ; tout ce qui se trouve en dessous dépend des éléments ci-dessus sur la page.
 
-> N'oubliez pas que vous ne devez "jamais" saisir la graine sur un ordinateur pour votre véritable portefeuille Bitcoin - les logiciels malveillants peuvent la voler. Nous utilisons simplement un portefeuille d'entraînement, à des fins d'apprentissage, donc c'est bien pour le moment.
+> N'oubliez pas que vous ne devez "jamais" saisir la graine sur un ordinateur pour votre véritable portefeuille Bitcoin, les logiciels malveillants peuvent la voler. Nous utilisons simplement un portefeuille d'entraînement, à des fins d'apprentissage, donc c'est bien pour le moment.
 
 Faites défiler vers le bas et modifiez le chemin de dérivation en BIP84 (segwit) pour correspondre à votre portefeuille Electrum en cliquant sur l'onglet BIP84.
 
@@ -525,7 +525,7 @@ Connectez-vous et cliquez sur le bouton "Envoyer/Recevoir", qui se trouve actuel
 
 ![image](assets/31.webp)
 
-Évidemment, je n'ai pas de fonds sur Coinbase, mais imaginez simplement qu'il y en a et suivez les étapes : Collez l'adresse d'Electrum dans le champ "À" comme je l'ai fait. Vous devrez également sélectionner un montant (je suggère environ 50 000 sats). Ne mettez pas de "message facultatif" - Coinbase collecte suffisamment de vos données (et les vend), il n'est donc pas nécessaire de les aider. Enfin, cliquez sur "Continuer". Après cela, je ne sais pas quels autres pop-ups vous obtiendrez, vous êtes seul, mais la méthode est similaire pour toutes les plateformes d'échange.
+Évidemment, je n'ai pas de fonds sur Coinbase, mais imaginez simplement qu'il y en a et suivez les étapes : Collez l'adresse d'Electrum dans le champ "À" comme je l'ai fait. Vous devrez également sélectionner un montant (je suggère environ 50 000 sats). Ne mettez pas de "message facultatif", Coinbase collecte suffisamment de vos données (et les vend), il n'est donc pas nécessaire de les aider. Enfin, cliquez sur "Continuer". Après cela, je ne sais pas quels autres pop-ups vous obtiendrez, vous êtes seul, mais la méthode est similaire pour toutes les plateformes d'échange.
 
 ![image](assets/32.webp)
 

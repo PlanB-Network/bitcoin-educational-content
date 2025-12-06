@@ -161,7 +161,7 @@ Let's begin with an overview of human evolution, tracing our journey from Austra
 - **1st century AD** - North African Berbers domesticate the camel.
 
 
-So, this historical overview provides perspective on the emergence of certain technologies, animal domestication, and cultures, contextualizing them with the development of writing and money, which we will discuss next.
+This historical overview provides context for the emergence of key technologies, animal domestication, and cultures, setting the stage for our discussion on writing and money.
 
 
 ## From Hunter-Gatherer to Farmer: The Dawn of Civilization
@@ -243,7 +243,7 @@ Pottery perfectly illustrates this evolution: initially developed to store cerea
 Agriculture made it possible to feed larger populations while freeing some individuals from the direct necessity of food production to pursue other productive activities. This emerging specialization - farmers, potters, craftsmen, guards - laid the foundations for the division of labor and social hierarchies.
 
 
-Archaeological remains bear witness to this growing stratification: burials evolved from collective to differentiated individual graves, and housing moved from architectural uniformity to constructions revealing distinct social statuses. The presense of funerary objects—ornaments, specialized tools, pottery—serves as material evidence for the emergence of a notion of wealth and social prestige.
+Archaeological remains bear witness to this growing stratification: burials evolved from collective to differentiated individual graves, and housing moved from architectural uniformity to constructions revealing distinct social statuses. The presense of funerary objects—ornaments, specialized tools, pottery—provides material evidence of an emerging notion of wealth and social prestige.
 
 
 ### The emergence of distance exchanges
@@ -360,7 +360,7 @@ This form of writing, which was both an economic management tool and a cultural 
 
 In ancient Mesopotamia, economic organization was based on highly sophisticated mechanisms that existed long before the invention of metal coins. From the outset, formal and informal credit systems were already an essential form of money, enabling local populations to carry out many complex economic transactions.
 
-It was precisely to meet administrative and economic needs that cuneiform writing was invented. The famous Mesopotamian clay tablets were mainly used to record various types of contract: private loans, sales, rentals, mortgages, and even marriage agreements. Writing these tablets required the expertise of specialized scribes, a task costly in time and effort, **a cost justified only when significant financial or legal interests were at stake.** Consequently, personal correspondence—such as love letters or writings about anxieties—was rare, as scribes were almost exclusively retained for creating documents of economic or legal importance.
+It was precisely to meet administrative and economic needs that cuneiform writing was invented. The famous Mesopotamian clay tablets were mainly used to record various types of contract: private loans, sales, rentals, mortgages, and even marriage agreements. Writing these tablets required specialized scribes, a task so costly in time and effort, **a cost justified only when significant financial or legal interests were at stake.** As a result, personal correspondence—such as love letters or writings about anxieties—was rare, as scribes were almost exclusively used for documents of economic or legal importance.
 
 
 It's also worth mentioning that some of these tablets circulated as bearer bonds, changing hands freely.
@@ -558,7 +558,7 @@ This was not yet fiat money in the strict sense, as it lacked the stamp of state
 The transition to a wage labor market was a difficult one. It required two major conceptual innovations: the separation of the person's work from the final product, and the introduction of "working time" as a measurable unit. These innovations were prerequisites for the concepts of wages and salaried employment. **In the IIIᵉ millennium, work was initially remunerated by fixed rations, before gradually evolving towards a wage system at the beginning of the IIᵉ millennium.**
 
 
-Finally, from the 26th century BC onwards, a real notion of monetary value took root, even though Mesopotamian "money" was not a coin, but rather a weighted measure of grain or metal. **Thus, for important transactions or in contexts requiring the conservation of value, it was often preferred to convert grain into silver, which was more easily preserved.** This practice is exemplified by the trade at Kanesh, where silver was specifically received as a store of value.
+Finally, from the 26th century BC onwards, a real notion of monetary value took root, even though Mesopotamian "money" was not a coin, but rather a weighted measure of grain or metal. **Thus, for important transactions or as a store of value, people often preferred to convert grain into more easily preservable silver.** This practice is exemplified by the trade at Kanesh, where silver was specifically received as a store of value.
 
 
 From the 21st century BC onwards, **with the virtual disappearance of asymmetrical exchanges**, a significant linguistic development occurred in assignment contracts. The verb "sa" began to refer specifically to the payment of a price, rather than the measurement of a commodity. Anthropologists note this as a key breakthrough, marking a clear conceptual shift in the understanding of payment and value.
@@ -922,13 +922,13 @@ This is what these early pieces looked like: a stamped blob (or lump, in English
 Contrary to the widespread belief that money was invented to facilitate everyday trade and replace barter, the first Lydian, Achaemenid, and Greek coins were likely not initially used for small-scale commerce. The monetary units were often too large for everyday transactions, and their circulation was initially limited to regions near their production.
 
 
-However, the anthropological argument that coins were not used for everyday trade due to their large denomination is not definitive. While some coins may have represented the equivalent of a day's wage, archaeologists have also found smaller denominations. This suggests that a potential use for everyday purchases cannot be dismissed.
+However, the anthropological argument that coins were not used for everyday trade due to their large denomination is not definitive. Although some coins were equivalent to a day's wage, smaller denominations have also been found, suggesting they could have been used for everyday purchases.
 
 
 ### The role of the State in money creation
 
 
-The real origin of coins seems to be linked to the direct action of states. There are two main hypotheses on this subject: the first, idealistic, draws a parallel between the Greek term 'nomisma' (money) and 'nomos' (law), suggesting that money was linked to the codification of laws, reinforcing the authority and political organization of cities. The second, more realistic hypothesis, widely accepted today, is that money was first and foremost a means for states to exercise economic and social control. By officially guaranteeing the weight and value of the precious metals they contained, states were able to manipulate the circulation and value of these coins, creating confidence and liquidity premiums specific to domestic currencies.
+The origin of coins appears to be directly linked to the actions of states. There are two main hypotheses on this subject: the first, idealistic, draws a parallel between the Greek term 'nomisma' (money) and 'nomos' (law), suggesting that money was linked to the codification of laws, reinforcing the authority and political organization of cities. The second, more realistic hypothesis, widely accepted today, is that money was first and foremost a means for states to exercise economic and social control. By officially guaranteeing the weight and value of the precious metals they contained, states were able to manipulate the circulation and value of these coins, creating confidence and liquidity premiums specific to domestic currencies.
 
 
 Evidence for this practice exists. For instance, in electrum coins, natural electrum is normally around 70% gold and 30% silver. In the first coins, specifically the early Lydian coins, the gold content is approximately 50 to 55% instead of 70. This suggests that even back then, coin issuers were trying to reduce the share of the more precious metal, probably to produce more coins and make them appear to be worth the same as an unmarked blob of natural electrum. This practice became systematic under King Croesus—as in "rich as Croesus"—as it was during his reign that the technology to separate gold and silver was developed.
@@ -997,10 +997,10 @@ This guarantee has an observable price on the market: a minted gold coin is wort
 The story of the first Lydian staters reveals a disturbing irony. Recent analyses show that the gold content of these electrum coins was systematically lower than that of natural electrum. The authority certifying quality was simultaneously manipulating composition.
 
 
-This practice illustrates the dual usefulness of coinage. For the market, it makes exchanges more fluid and offers a guarantee of standardization. For the issuing authority, it becomes a tool of economic control through dilution. By reducing the gold content while maintaining the nominal value, the state effectively increases the money supply - creating more monetary units from the same quantity of precious metal.
+This practice illustrates the dual nature of coinage. For the market, it makes exchanges more fluid and offers a guarantee of standardization. For the issuing authority, it becomes a tool of economic control through dilution. By reducing the gold content while maintaining the nominal value, the state effectively increases the money supply - creating more monetary units from the same quantity of precious metal.
 
 
-The state itself, however, remained constrained by this manipulation. As illustrated by the example of Constantine's gold solidus in the 4th century, the Roman administration scrupulously checked the quality of coins, as it demanded to be paid in good coinage. The authority had a vital interest in maintaining the quality of its own coinage to guarantee the value of its tax revenues.
+The state was not unconstrained, however. The Roman administration, for example, scrupulously checked the quality of coins like Constantine's 4th-century gold solidus, precisely because it demanded payment in high-quality currency. The authority had a vital interest in maintaining the quality of its own coinage to guarantee the value of its tax revenues.
 
 
 ### Economic analysis of devaluation
@@ -1032,7 +1032,7 @@ Following the emergence of coins, manufacturing evolved. As we have seen, it all
 
 Later, as we'll explore in a subsequent section, the Greeks refined this technology by creating round coins that were hammered on both sides. They would take a smooth, flat piece of precious metal, engrave the desired design on one side, and then hammer it by hand to create the finished coin.
 
-The technology of hand minting coins individually likely played a role in controlling inflation during that time, even though the coins were often diluted to increase production. This was particularly evident during the Roman period and, to a lesser extent, during certain wars in the Greek period. While minting coins one at a time limited the authority's capacity for mass production, it effectively contributed to inflation control, despite the significant devaluations that occurred. Thus, the evolution progressed from a blob of metal being punched to a round, hammered coin.
+The technology of hand minting coins individually likely played a role in controlling inflation during that time, even though the coins were often diluted to increase production. This was particularly evident during the Roman period and, to a lesser extent, during certain wars in the Greek period. While minting coins one at a time limited the authority's capacity for mass production, it effectively contributed to inflation control, despite the significant devaluations that occurred. This marked the evolution from a punched blob of metal to a round, hammered coin.
 
 ![](./assets/fr/1-3-2_1_drachm.webp)
 
@@ -1268,7 +1268,7 @@ Contrary to the traditional theory that money emerged naturally from barter to f
 In primitive societies, money was rarely used for the day-to-day exchange of material goods, contrary to the classical definition of money as a "medium of exchange". In fact, these societies made massive use of credit, with deferred payments embedded in vast networks of social and personal relationships. These ubiquitous credit systems logically and historically preceded the appearance of money.
 
 
-Thus, in the anthropological vision, we often have this notion of money coming from an authority or a social concept that precedes market needs.
+From this anthropological perspective, money is often seen as emerging from authority or social concepts that precede market needs.
 
 
 ### The example of the Yap stones
@@ -1319,7 +1319,7 @@ This analysis leads to a deeper reflection: rather than opposing money to barter
 Unlike credit, which is always nominative, money enables anonymous, generalized and immediately liberatory transactions. **This unique liberatory power of money is its decisive superiority.**
 
 
-Thus, far from being a modest tool to facilitate economic exchange, money is a major social innovation, closely linked to the evolution of human institutions and practices, from personal credit **to a generalized, anonymous payment system**. This anthropological evolution shows that money, far more than a simple means of exchange, represents a powerful social institution, profoundly shaping human societies, to the point of becoming, in our modern societies, the very purpose of economic activity.
+Money is therefore far more than a modest tool for economic exchange; it is a major social innovation, closely linked to the evolution of human institutions and practices, from personal credit **to a generalized, anonymous payment system**. This anthropological evolution shows that money, far more than a simple means of exchange, represents a powerful social institution, profoundly shaping human societies, to the point of becoming, in our modern societies, the very purpose of economic activity.
 
 
 This leads to a fundamental shift in the purpose of economic exchange. Historically, the goal was to acquire goods or commodities for direct consumption. In modern societies, however, the purpose of exchange is often the accumulation of money itself. Money's general acceptability allows it to be accumulated and later exchanged for any needed good or service, making it the ultimate object of economic activity.
@@ -1350,7 +1350,7 @@ Here, Alden refers to Bitcoin.
 
 > Some rare chemical elements, such as rhodium, are rarer than gold, but have low stock-flow ratios because they are consumed by industry as quickly as they are mined. A rhodium coin or ingot can be purchased as a specialized collectible or store of value, but is not suitable as a socially accepted currency, and so does not emerge naturally as money.
 
-Saifedean Ammous discusses this concept in "The Bitcoin Standard". The stock-to-flow ratio compares the existing stock of a commodity to its annual production (flow). This metric can be counter-intuitive; scarcity is less about total quantity and more about the difficulty of significantly increasing the existing stock. A high stock-to-flow ratio indicates that new production is minimal compared to existing reserves, making the commodity scarce. For example, gold has a large accumulated stock because it is hoarded as a store of value, while its annual production (flow) from mining is only about 1-3% of that stock. In contrast, rhodium may be rarer than gold in terms of total annual production, but it is consumed by industry at a similar rate. This means its stock remains low, and a small increase in new supply could double the existing stock. With gold, at its current rate of production, it would take over 50 years to double the existing stock. This is unlike most consumable commodities, where the existing stock is small and can be doubled quickly by increased production.
+Saifedean Ammous discusses this concept in "The Bitcoin Standard". The stock-to-flow ratio compares the existing stock of a commodity to its annual production (flow). This metric can be counter-intuitive; scarcity is less about total quantity and more about the difficulty of significantly increasing the existing stock. A high stock-to-flow ratio indicates that new production is minimal compared to existing reserves, making the commodity scarce. For example, gold has a large accumulated stock because it is hoarded as a store of value, while its annual production (flow) from mining is only about 1-3% of that stock. In contrast, rhodium may be rarer than gold in terms of total annual production, but it is consumed by industry at a similar rate. This means its stock remains low, and a small increase in new supply could double the existing stock. With gold, at its current rate of production, it would take over 50 years to double the existing stock. In contrast, most consumable commodities have a small existing stock that can be doubled quickly by ramping up production.
 
 
 *"Gold has maintained a stock-to-flow ratio of between 25x and 100x throughout modern history, usually around 50x or more, briefly never falling below 16x, even during the Gold Rush of the mid-19th century. "*
@@ -1379,13 +1379,13 @@ This thesis, as described in "The Bitcoin Standard" by Saifedean Ammous, is illu
 *"Historically, even when credit was used directly as an instrument of exchange, it was usually denominated in units of monetary commodities naturally chosen for their properties."*
 
 
-This is a crucial point. Even if a Mesopotamian temple manages credit systems, the unit of account was the shekel. There is no definitive proof that the temple authoritatively established the shekel; it may have emerged naturally from merchants' needs for trade with neighboring peoples. Evidence for this includes a merchant from Kanesh (as mentioned in Part 1) who imported precious metals not for their commodity value but as a store of value. The key question is whether the choice of the silver shekel was made by merchants or by the temple. However, a strong argument suggests the choice likely originated with the merchants.
+This is a crucial point. Even if a Mesopotamian temple manages credit systems, the unit of account was the shekel. There is no definitive proof that the temple officially established the shekel; it may have emerged naturally to meet the trade needs of merchants with neighboring peoples. Evidence for this includes a merchant from Kanesh (as mentioned in Part 1) who imported precious metals not for their commodity value but as a store of value. The key question is whether the choice of the silver shekel was made by merchants or by the temple. However, a strong argument suggests the choice likely originated with the merchants.
 
 
 *"Thus, the unification of the two theories can be described as an "accounting theory of money" ("ledger theory of money") since it describes the fundamental logic common to both theories. Both flexible social credit and collectible proto-currencies date back to the dawn of humanity. In both cases, human groups of various sizes keep an accounting ledger among themselves to avoid having to satisfy the double coincidence of wants, reduce friction in exchanges, and serve as a form of liquid savings. The essential difference lies in the authority entrusted with keeping the register."*
 
 
-The authority governing the register varies. For commodity money like gold, nature manages scarcity by making mining difficult, thus limiting supply. The register is decentralized, with possession of the physical coin serving as proof of ownership. For credit money, scarcity is managed by the availability of credit itself. For fiat currency, a central authority manages scarcity by deciding whether to increase the money supply. In the case of physical token money (e.g., banknotes), the register is managed by the token holder; possession of the token proves ownership. Conversely, scriptural money relies on a centralized register managed by an institution, such as a bank, which records ownership.
+The authority governing the register varies. With commodity money like gold, for example, nature manages scarcity by making mining difficult, which limits supply. The register is decentralized, with possession of the physical coin serving as proof of ownership. For credit money, scarcity is managed by the availability of credit itself. For fiat currency, a central authority manages scarcity by deciding whether to increase the money supply. In the case of physical token money (e.g., banknotes), the register is managed by the token holder; possession of the token proves ownership. Conversely, scriptural money relies on a centralized register managed by an institution, such as a bank, which records ownership.
 
 
 ## Unification through the monetary premium
@@ -1397,7 +1397,7 @@ The authority governing the register varies. For commodity money like gold, natu
 ### The monetary premium concept
 
 
-As a proposal for unifying monetary theories, consider the concept of the monetary premium. The value of money can be explained by the monetary premium arising from its monetary demand, whether in the form of clay tablets, precious metal coins, banknotes, or bitcoin. The monetary premium is simply based on the confidence that someone will exchange this currency in the future for a comparable price.
+As a proposal for unifying monetary theories, consider the concept of the monetary premium. The value of money can be explained by a monetary premium that arises from its demand, whether in the form of clay tablets, precious metal coins, banknotes, or bitcoin. The monetary premium is simply based on the confidence that someone will exchange this currency in the future for a comparable price.
 
 
  For any monetary asset, including fiat banknotes with no use value or a gold ingot, **it's often the monetary premium that makes up most of its value**. If we take a piece of gold, a certain part of its value is explained by its use value, its use in industry, or to make jewelry. However, much of the demand for jewelry is itself driven by gold's monetary properties, as people use it as a store of value. Therefore, a significant portion of jewelry demand can also be considered part of the monetary premium.
@@ -1473,7 +1473,7 @@ In a more sophisticated financial crime, stealing  all of a victim's "argent" me
 A *devise* is necessarily the currency of another country. If you're French, you would say: "La livre sterling est la devise du Royaume-Uni et l'euro et la monnaie de l'Europe" (The pound sterling is the currency of the United Kingdom and the euro is the currency of Europe).
 
 
-This semantic distinction is often lost in translation. In English, "money" refers to the broad concept of a medium of exchange, while "currency" refers to the specific system of money in common use, particularly for a country. In French, *monnaie* can signify both the general concept of money and a specific national currency. The term *devise* is reserved exclusively for a foreign currency. The confusion arises when English speakers use "currency" in a context where French requires monnaie, and vice-versa. This ambiguity complicates discussions about assets like Bitcoin. In French, one might hear "ce n'est pas une monnaie" (it is not a currency) because bitcoin is not the legal tender of a nation-state. However, this argument conflates monnaie in its sense of "national currency" with monnaie in its broader sense of "money." The claim that it cannot be monnaie because it is not a national currency is a semantic error, and one that has become factually tenuous since El Salvador adopted Bitcoin as legal tender in 2021. Regardless of its legal status in any single country, if we use the broader definition, Bitcoin can be considered a form of monnaie (money), as it functions as a medium of exchange. The French language lacks a dedicated word like the English "money" to cleanly separate the general concept from the national unit, which is a source of this confusion. While *argent* can refer to money, it more broadly means wealth or cash, and does not serve as a perfect equivalent to the English concept of "money".
+This semantic distinction is often lost in translation. In English, "money" refers to the broad concept of a medium of exchange, while "currency" refers to the specific system of money in common use, particularly for a country. In French, *monnaie* can signify both the general concept of money and a specific national currency. The term *devise* is reserved exclusively for a foreign currency. The confusion arises when English speakers use "currency" in a context where French requires monnaie, and vice-versa. This ambiguity complicates discussions about assets like Bitcoin. In French, one might hear "ce n'est pas une monnaie" (it is not a currency) because bitcoin is not the legal tender of a nation-state. However, this argument conflates monnaie in its sense of "national currency" with monnaie in its broader sense of "money." The claim that it cannot be monnaie because it is not a national currency is a semantic error, and one that has become factually tenuous since El Salvador adopted Bitcoin as legal tender in 2021. Regardless of its legal status in any single country, if we use the broader definition, Bitcoin can be considered a form of monnaie (money), as it functions as a medium of exchange. The French language lacks a dedicated word like the English "money" to cleanly separate the general concept from the national unit, creating a source of confusion. While *argent* can refer to money, it more broadly means wealth or cash, and does not serve as a perfect equivalent to the English concept of "money".
 
 
 
@@ -1570,7 +1570,7 @@ Let's explore a clear summary of these theories.
 Here is a summary of the monetary theory known as **"debt money"**, according to which money is fundamentally a form of debt:
 
 
-According to this theory, developed in particular by Alfred Mitchell-Innes and further developed by David Graeber, money is intrinsically an acknowledgement of debt, stemming from the credit relations that historically pre-existed direct monetary exchanges. Rather than arising from a need linked to barter, money appears as a way of accounting for, transferring, and settling social obligations or debts between individuals or groups.
+According to this theory, developed by Alfred Mitchell-Innes and expanded upon by David Graeber, money is intrinsically an acknowledgement of debt, stemming from the credit relations that historically pre-existed direct monetary exchanges. Rather than arising from a need linked to barter, money appears as a way of accounting for, transferring, and settling social obligations or debts between individuals or groups.
 
 
 Thus, all money circulates as a debt owed by one person or institution to another, backed by the trust and social or state authority guaranteeing its validity. According to this view, to possess money is to hold a claim on society; society owes the holder a debt. Money is therefore never neutral or autonomous, but always an underlying debt: holding money essentially means owning a claim on society or an economic community.
@@ -1899,7 +1899,7 @@ The opposition between Athens and Sparta during the classical Greek period revea
 ### The monetary necessity of naval power
 
 
-The Athenian Empire, despite its grandiose name, remained geographically modest - essentially Athens and the cities of the Aegean Sea. Its power rested on the Delian League, a military alliance dominated by Athens as hegemon. This imperial structure required a unified economic instrument: the Athenian silver coin.
+Despite its grandiose name, the Athenian Empire was geographically limited, comprising essentially Athens and the cities of the Aegean Sea. Its power rested on the Delian League, a military alliance dominated by Athens as hegemon. This imperial structure required a unified economic instrument: the Athenian silver coin.
 
 
 Maintaining a fleet was at the heart of this monetary necessity. A single Athenian trireme cost between one and two talents of silver - a considerable sum. With several hundred ships to maintain, Athens needed an efficient tax system. Currency became the indispensable tool for collecting tribute from vassal cities and financing the naval projection force that guaranteed the cohesion of the empire.
@@ -1911,7 +1911,7 @@ Maintaining a fleet was at the heart of this monetary necessity. A single Atheni
 Athens imposed its silver currency on all members of the League of Delos. This monetary standardization served several strategic objectives. Firstly, it facilitated the collection of tributes by creating a common unit of account. Secondly, it reinforced the economic dependence of vassal cities on Athens. Finally, it symbolically projected Athenian power across the entire maritime empire.
 
 
-This monetary policy contrasts sharply with the Spartan model. Sparta, a land power, could rely on the labor of the Peloponnesian helots (slaves) for its subsistence. Its closed, city-centric economic system did not require sophisticated monetary instruments. Citizen-soldiers lived together, shared common meals, and didn't need money for daily exchanges.
+This policy contrasts sharply with Sparta, a land power that could rely on the labor of its helot slaves for subsistence. Its closed, city-centric economic system did not require sophisticated monetary instruments. Citizen-soldiers lived together, shared common meals, and didn't need money for daily exchanges.
 
 
 ### Currency as a vehicle for maritime trade
@@ -1986,7 +1986,7 @@ In fact, many Roman coins from the Republic period, as displayed below, depict f
 ### The origin of the word "coin" and the temple of Juno Moneta
 
 
-The term "coin" has its origins in the temple of Juno Moneta in Rome. Legend has it that, during a Gallic invasion in 390 BC, the sacred geese of the Capitol alerted the Romans to an imminent danger. To thank the goddess Juno, protector of the Capitol, a temple was erected in her honor and soon became the mint for Roman coins.
+The term 'coin' originates from the Temple of Juno Moneta in Rome, where, legend has it, the sacred geese alerted the Romans to a Gallic invasion around 390 BC. To thank the goddess Juno, protector of the Capitol, a temple was erected in her honor and soon became the mint for Roman coins.
 
 
 ### The Punic Wars and currency crises
@@ -2204,7 +2204,7 @@ A more gradual devaluation of the aureus is also noted. This difference in the r
 
 This phenomenon has recurred throughout history and is evident with all reserve currencies. The reserve unit of value, such as the aureus in Rome, remains stable, while the unit of account used by the general population for trade and everyday transactions is often devalued. As a result, monetary inflation disproportionately affects the common people, while those who can afford gold coins remain largely unaffected.
 
-**This same dynamic is observable in modern economies, where currency devaluation can lead to an increase in the value of financial assets**. As a result, individuals who transact primarily in the currency—often the least wealthy—see their purchasing power decline. Conversely, those with the means to hold assets that appreciate during inflation can protect and even grow their wealth, a process that deepens social inequalities.
+**This dynamic is also present in modern economies, where currency devaluation can increase the value of financial assets**. As a result, individuals who transact primarily in the currency—often the least wealthy—see their purchasing power decline. Conversely, those with the means to hold assets that appreciate during inflation can protect and even grow their wealth, a process that deepens social inequalities.
 
 
 The mechanism described here is known as the Cantillon effect. Richard Cantillon was an economist who lived in the time of John Law, a subject we will also cover in a subsequent section.
@@ -2342,7 +2342,7 @@ During the High Middle Ages, Europe fell into feudalism following the collapse o
 The return of coinage as a means of payment occurred gradually, culminating in the 13th century with the appearance of the gold florin in Florence in 1252, followed by the gold ducat in Venice. These gold coins were widely used thanks to the expansion of trade and the growing need for reliable, internationally accepted means of payment.
 
 
-In England, the monetary system was protected from dilution by innovative fiscal policies, such as the land tax introduced by William the Conqueror after 1066, which preserved the quality of the penny sterling. **The introduction of this tax was a significant development, as it allowed the state to be financed through taxation rather than monetary dilution, thereby helping to maintain currency stability.**
+In England, however, they did something clever. The monetary system was protected from dilution thanks to innovative fiscal policies, like the land tax introduced by William the Conqueror after 1066, which allowed them to preserve the quality of the penny sterling. **The introduction of this tax was a significant development, as it allowed the state to be financed through taxation rather than monetary dilution, thereby helping to maintain currency stability.**
 
 
 However, the temptation to profit through monetary dilution led to crises, as in the reign of Henry I in the 12th century, when the quality of coinage fell dramatically. Severe reforms, sometimes accompanied by violent measures against coiners, temporarily restored confidence in the currency.
@@ -2510,7 +2510,7 @@ The Spanish dollar served as the international reserve currency of the time. The
 ![](./assets/fr/5_1_maravedi.webp)
 
 
-An interesting pattern emerges from the history of reserve currencies: empires did not inflate their currencies as long as they retained their reserve currency status. **It was only at the end of their domination that they ended up devaluing it, losing this privilege, which was then passed on to a new empire**.
+An interesting pattern emerges from the history of reserve currencies: empires did not inflate their currencies as long as they retained their reserve currency status. **They only tended to devalue their currency at the end of their dominance, causing them to lose the privilege, which was then passed to a new empire**.
 
 
 In Spain, the Spanish dollar dominated world trade for almost 200 years, particularly between China and Europe. These coins could even be found in Chinese ports. And that's where we get a wink from history: the American dollar comes directly from this currency. When the United States was formed in 1792, it passed a law to mint its own currency, and its first dollars were created on the model of the Spanish dollar, both in name and coin size.
@@ -2546,7 +2546,7 @@ The Dutch invented modern capitalism, which began as a means of distributing ris
 Dutch currency, the **Gulden**, gained credibility thanks to its purity in silver, and then to its adoption by the Bank of Amsterdam (1609), where deposits became a preferred form of money in Europe. This was a significant banking breakthrough: while coins existed, much of the world's trade was conducted as scriptural money through the accounting records of the Bank of Amsterdam. International trade was no longer necessarily conducted with physical coins, but directly through the bank's ledgers.
 
 
-This period of prosperity was marked by a large influx of gold and silver, particularly from other countries practicing inflation or monetary control. An important figure from this period is **Thomas Gresham**. At this time, he worked for English royalty in the Netherlands, managing the flow of money between the two countries. It was this same Gresham who left us the famous **"Gresham Law"**.
+This period of prosperity was marked by a large influx of gold and silver, particularly from other countries practicing inflation or monetary control. An important figure from this period is **Thomas Gresham**. At this time, he worked for English royalty in the Netherlands, managing the flow of money between the two countries. This is the same Gresham who gave us the famous **Gresham's Law**.
 
 
 Nevertheless, the Dutch Empire also eventually ran out of steam. Wars with England, the dilution of the gulden in times of conflict, and competition from other powers (France and England) signaled the end of Dutch hegemony. After the Fourth Anglo-Dutch War (1780-84), the decline of the gulden as a reserve currency became irreversible.
@@ -3027,7 +3027,7 @@ One proposed solution is to make insurance compulsory. If everyone is required t
 Following this logic, many states have assumed this role, arguing that a single, centralized entity is the most efficient way to manage it. This reasoning has been applied to other forms of insurance, such as unemployment insurance. The perceived benefits of simplification and optimization favor a single administrative body.
 
 
-And that, right there, is the story. This centralization of various insurance functions under state authority is what ultimately led to the birth of the modern welfare state as we know it. Financial concepts that began as private initiatives to meet market needs and distribute risk were thus subsumed by the state, a logical response to the problem of adverse selection and the drive for systemic optimization.
+And that, right there, is the story. The centralization of these insurance functions under state authority ultimately led to the birth of the modern welfare state as we know it. Financial concepts that began as private initiatives to meet market needs and distribute risk were thus subsumed by the state, a logical response to the problem of adverse selection and the drive for systemic optimization.
 
 
 ### Alternative models and reflections on state monopolies
@@ -3039,10 +3039,10 @@ Ultimately, some countries, like Canada, have developed state monopolies for sev
 An alternative model exists in Switzerland. There, private mutual insurance companies and private hospitals allow individuals to choose their insurer and their specific coverage plan. This system still delivers relatively universal services, even though a large part of it remains private. This demonstrates that a privately operated system is also feasible. 
 
 
-My purpose here is not to argue that one system is superior to another. Rather, it is to explain how the history of finance reveals why Western states, particularly in France and Canada, sought to take control of these financial principles.
+My point here is not to argue that one system is better than another. Rather, it is to show how my study of financial history revealed why Western states, particularly France and Canada, sought to take control of these financial principles.
 
 
-The point is that insurance is fundamentally an evolution of finance, and as governments often do, they have attempted to seize control of it, just as they have with money, for several reasons. 
+Essentially, insurance is an evolution of finance, and as governments often do, they have attempted to seize control of it, just as they have with money, for several reasons. 
 
 
 One such reason is the concept of the lender of last resort. The idea is that  a large, backstopping institution can distribute risk more broadly. The initial intent behind this concept was for an institution to selectively support strong financial entities, preventing their collapse by lending them money.

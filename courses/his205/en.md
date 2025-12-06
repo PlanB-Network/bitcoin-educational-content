@@ -2519,7 +2519,7 @@ In Spain, the Spanish dollar dominated world trade for almost 200 years, particu
 To give you an idea of its value, an American dollar was originally a silver coin weighing almost an ounce, or between €30 and €40 in today's money, unlike the paper currency we know today. As for the Spanish dollar, it circulated so widely that it is considered the first true global currency.
 
 
-However, this influx of precious metals from the Americas caused inflation in Europe. During the Price Revolution (c. 1540-1640), the cost of living in England increased sevenfold. In Spain, the abundance of silver had a perverse resource curse effect, hindering the development of solid banking institutions.
+But—and this is a crucial point—this massive influx of precious metals from the Americas wasn't without consequences. It triggered significant inflation across Europe. Just to give you an idea, during the Price Revolution (c. 1540-1640), the cost of living in England increased sevenfold. In Spain, the abundance of silver had a perverse resource curse effect, hindering the development of solid banking institutions.
 
 
 Subsequently, Spain faced numerous military conflicts (Flanders, Netherlands, Thirty Years' War), and its finances gradually collapsed. Instead of devaluing the world-renowned silver coin, successive rulers chose to default on or depreciate the copper coin (vellón) used by the local population. This is what I described earlier with the Maravedis.
@@ -2664,7 +2664,7 @@ Thanks to Dutch merchant power, the bank played the role of the first de facto "
 In 17th-century England, gold and silver were stored by goldsmiths, who issued receipts. This partially decentralized organization proved its limits when the Crown found itself in massive need of financing for the war against France.
 
 
-In 1694, the **Bank of England (BoE)** was founded. The Bank of England was thus born of a partnership between the London business community and the government, which was desperate to find funds for the war.
+In 1694, the **Bank of England (BoE)** was founded. So, how was the Bank of England born? It came out of a rather desperate partnership between the London business community and a government that was, frankly, desperate to find funds for its war against France.
 
 
 The Bank obtained a monopoly on banknote issuance in England (reinforced in 1708, 1742, etc.). From then on, paper money backed by gold reserves circulated alongside coins. This development is a key step in understanding the gradual takeover of money by state institutions. First, the Bank of Amsterdam prevented moneychangers from keeping coins and forced them to return them to the Bank. In England, private banks were prohibited from issuing their own bills redeemable in gold.
@@ -2781,11 +2781,11 @@ After the issuance of the Executive Order 6102, they seized all the gold and exc
 
 ![](./assets/fr/1934.webp)
 
-The concept of legal tender emerges here, replacing the promise of redeemability in gold. The critical change, however, was a simultaneous devaluation of the dollar; in 1934 the official price of gold was raised from $20.67 to $35 per ounce, a devaluation of approximately 40%!
+The concept of legal tender emerges here, replacing the promise of redeemability in gold. But here's the real kicker, the part that really shows the nature of this seizure. At the exact same time they confiscated the gold, they devalued the dollar. In 1934, the official price of gold was raised from $20.67 to $35 per ounce. That's a devaluation of approximately 40%, literally overnight.
 
 Then came the Second World War. Following the war, the Bretton Woods Agreement centralized much of the world's gold in the United States. In exchange, the Americans issued dollars. While those dollars were no longer redeemable for gold by the general public, they remained exchangeable for gold at the state level, for other central banks.
 
-Eventually, countries like France and Germany began to suspect that the U.S. had issued more dollars than it had gold to back them and requested to repatriate their gold. In 1971, President Richard Nixon severed the link between the dollar and gold, blaming speculators for the move.
+Eventually, countries like France and Germany began to suspect that the U.S. had issued more dollars than it had gold to back them and requested to repatriate their gold. Then, in 1971, came the final break. President Richard Nixon unilaterally severed the link between the dollar and gold. And who did he blame for this move? The speculators, of course.
 
 Gold was undervalued at $35 per ounce, a price that did not reflect the volume of money in circulation. Over the following years, the price of gold surged from $34 to over $800, as it was allowed to float. Similar to historical precedents, such as in Rome, where the connection between the denarius and the solidus was severed, this allowed for a process of price discovery, resulting in gold being valued much higher in dollar terms thereafter.
 
@@ -2840,7 +2840,7 @@ In response to this chaos, Napoleon re-established gold and silver as the moneta
 ### The Roaring Twenties and the Great Depression of 1929
 
 
-Moving forward two centuries, after the First World War, governments financed the effort through inflation and the suspension of gold convertibility. In the 1920s, the American Fed pursued an overly accommodating monetary policy to support the British pound. The result was easy credit, unbridled speculation on Wall Street, widespread share purchases on credit, and the emergence of a real estate and banking bubble.
+Moving forward two centuries, after the First World War, governments financed the effort through inflation and the suspension of gold convertibility. Let's look at the Roaring Twenties. The American Fed pursued an overly accommodating monetary policy—why? To support the British pound. The result was a classic recipe for disaster: easy credit, unbridled speculation on Wall Street, widespread share purchases on credit, and the emergence of a real estate and banking bubble.
 
 
 When this system became unsustainable, the crash of 1929 was inevitable, leading to massive bank failures, record unemployment, and queues at soup kitchens. This period gave rise to the persistent misconception that **all deflation is bad**, whereas it is necessary to distinguish between deflation through growth (healthy) and deflation resulting from debt (devastating).
@@ -2858,7 +2858,7 @@ In the 1990s, the "Asian miracle" had the world dreaming. Exchange rates were pe
 The Internet bubble (2000) was followed by the subprime real estate bubble. Securitization transformed bank loans into "triple-A" financial products that were spread globally. The promise was to eliminate risk by diluting it; the reality was that all risks were, in fact, correlated. When the real estate market collapsed, so did the entire global banking system.
 
 
-The result was massive public bailouts, quantitative easing and zero interest rates. Consequently, a new paradigm emerged: crisis were no longer allowed to purge excesses, but were instead met with ever increasing debt and money printing. This has led to the current situation: **the "everything bubble"**, where a wide range of assets—including stocks, real estate, art, crypto, and even Pokémon cards—inflates artificially.
+The result was massive public bailouts, quantitative easing and zero interest rates. Consequently, a new paradigm emerged: crisis were no longer allowed to purge excesses, but were instead met with ever increasing debt and money printing. And where has all this led us? To the current situation, which I call **the "everything bubble"**. This is where a wide range of assets—and I'm not just talking about stocks and real estate, but art, crypto, and even things like Pokémon cards—inflates artificially, all at once.
 
 
 ### The eternal return of magic money
@@ -2882,7 +2882,7 @@ The history of finance is a recurring cycle: print, speculate, collapse. Until t
 
 :::video id=bd6d0807-2d8f-4637-a0f5-1e990e5c0d0f:::
 
-This section revisits several events from the course to examine the relationship between monetary systems and state coercion.
+This final section will revisit several events we've already covered, but I want to do it to make a specific point. I'm going to share a few anecdotes that I find particularly revealing about the link between money and violence.
 
 
 ### Technology and violence
@@ -2911,13 +2911,13 @@ In both China and England during the Reformation, the state seized copper or oth
 During the French Revolution, all Church assets were seized, and coins were minted from melted-down church bells.
 
 
-One of the most explicit examples of economic violence is found under Emperor Diocletian. **When peasants, unwilling to accept the devalued currency, sought to leave their land, Diocletian responded by binding them to it through a hereditary caste system,** preventing them and their children from leaving. A similar restriction was applied to the soldiers.
+One of the most explicit examples of economic violence is found under Emperor Diocletian. What happens when people simply won't play along? **When peasants, unwilling to accept his devalued currency, tried to leave their land to find better opportunities, Diocletian's response was not to fix the money. It was to use force. He bound them to the land, creating a hereditary caste system.** A similar restriction was applied to the soldiers.
 
 
 The dissolution of the Knights Templar provides another example. Facing funding problems, the French king sued the Order, seized its wealth, and had many of its members arrested. This event has given rise to legends of a hidden Templar treasure, a subject explored in popular media.
 
 
-These historical facts demonstrate a recurring link between monetary control and state violence.
+So, as you can see, these historical facts are not just isolated anecdotes. They demonstrate a recurring, and frankly, disturbing link between monetary control and state violence.
 
 ## The economic consequences of organized violence
 
@@ -3027,7 +3027,7 @@ One proposed solution is to make insurance compulsory. If everyone is required t
 Following this logic, many states have assumed this role, arguing that a single, centralized entity is the most efficient way to manage it. This reasoning has been applied to other forms of insurance, such as unemployment insurance. The perceived benefits of simplification and optimization favor a single administrative body.
 
 
-This centralization of various insurance functions under state authority ultimately led to the birth of the welfare state. Financial concepts that began as private initiatives to meet market needs and distribute risk were thus subsumed by the state, a logical response to the problem of adverse selection and the drive for systemic optimization.
+And that, right there, is the story. This centralization of various insurance functions under state authority is what ultimately led to the birth of the modern welfare state as we know it. Financial concepts that began as private initiatives to meet market needs and distribute risk were thus subsumed by the state, a logical response to the problem of adverse selection and the drive for systemic optimization.
 
 
 ### Alternative models and reflections on state monopolies

@@ -1,4 +1,4 @@
-question: Коя опция позволява разрешаването или забраняването на P2P transport V2 във файла за конфигурация на ядрото на Bitcoin?
+question: Коя опция позволява разрешаването или забраняването на P2P transport V2 във файла за конфигурация на Bitcoin core?
 answer: v2transport=
 wrong_answers:
   - p2penable=

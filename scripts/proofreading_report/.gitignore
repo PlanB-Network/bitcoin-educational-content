@@ -1,0 +1,8 @@
+# Environment files with secrets
+.env
+
+# Cache files
+github_pr_cache.json
+
+# Generated dashboard (optional - may want to commit this)
+# proofreading_dashboard.html

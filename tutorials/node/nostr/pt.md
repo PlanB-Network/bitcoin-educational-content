@@ -1,6 +1,5 @@
 ---
-name: NOSTR
-
+name: Nostr
 description: Descubra e comece a usar o NOSTR
 ---
 

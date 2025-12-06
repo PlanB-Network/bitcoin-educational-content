@@ -1,6 +1,5 @@
 ---
-name: NOSTR
-
+name: Nostr
 description: 发现并开始使用NOSTR
 ---
 

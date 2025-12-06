@@ -1,5 +1,5 @@
 ---
-name: Ашигару - Каменная стена x2
+name: Ashigaru - Stonewall x2
 description: Понимание и использование транзакций Stonewall x2 на Ashigaru
 ---
 ![cover stonewall x2](assets/cover.webp)

@@ -34,10 +34,10 @@ You must choose how to connect to the RGB Lightning Network. This choice impacts
 
 ### Option 1: Local Node (Recommended for Self-Custody)
 
-**For complete control and privacy**, run a node directly on your machine.
--   **Self-Custodial**: You hold the keys. No third party can freeze your funds or censor your transactions.
--   **Privacy**: Your data stays on your device.
--   **Independence**: No reliance on external service providers.
+**For complete control and privacy**, run a node directly on your machine, see the advantages below:
+- **Self-Custodial**: You hold the keys. No third party can freeze your funds or censor your transactions.
+- **Privacy**: Your data stays on your device.
+- **Independence**: No reliance on external service providers.
 
 If you select **Local Node**, you will be taken to the setup screen where you can create a new wallet or restore an existing one.
 
@@ -46,8 +46,8 @@ If you select **Local Node**, you will be taken to the setup screen where you ca
 ### Option 2: Remote Node
 
 Connect to a remote RGB Lightning Node (self-hosted on a VPS or a hosted provider).
--   **Advantages**: No local resource usage, 24/7 availability.
--   **Trade-off**: Requires trusting the host or managing a remote server.
+- **Advantages**: No local resource usage, 24/7 availability.
+- **Trade-off**: Requires trusting the host or managing a remote server.
 
 ![Remote Node Setup Screen](assets/en/03.webp)
 
@@ -114,7 +114,7 @@ To receive RGB assets (like USDT), you need specific UTXOs available to be "colo
 When receiving RGB assets on-chain, you have two privacy modes:
 
 - **Blinded Receive (Recommended for Privacy)**: You provide a "blinded" UTXO to the sender. You are asking the sender to send assets to an existing UTXO that you own, but you obfuscate the actual UTXO identifier. This offers better privacy.
--   **Witness Receive**: You provide a standard Bitcoin address. You are asking the sender to create a *new* UTXO for you by sending the assets to that address. This allows the RGB assets to be attached directly to the new UTXO created by the transaction.
+- **Witness Receive**: You provide a standard Bitcoin address. You are asking the sender to create a *new* UTXO for you by sending the assets to that address. This allows the RGB assets to be attached directly to the new UTXO created by the transaction.
 
 #### Lightning Deposit
 
@@ -129,18 +129,18 @@ To route RGB assets over the Lightning Network, you need a channel with sufficie
 
 ### Buying a Channel from Kaleido LSP
 
-1.  Go to the **Channels** tab. You will see options to "Open Channel" (manual) or "Buy Channel" (LSP).
-2.  Click **Buy Channel**.
+1. Go to the **Channels** tab. You will see options to "Open Channel" (manual) or "Buy Channel" (LSP).
+2. Click **Buy Channel**.
 
 ![Channels Dashboard](assets/en/11.webp)
 
-3.  **Connect to LSP**: The app will connect to the default Kaleido LSP. This provider offers inbound liquidity and supports RGB asset routing.
+3. **Connect to LSP**: The app will connect to the default Kaleido LSP. This provider offers inbound liquidity and supports RGB asset routing.
 
 ![Connect to LSP](assets/en/12.webp)
 
 4. **Configure Channel**:
-    -  **Capacity**: Select the total Bitcoin capacity for the channel.
-    -  **RGB Allocation**: Choose the RGB asset (e.g., USDT) you want to be able to receive or send. The LSP will ensure the channel is configured to support this asset.
+    - **Capacity**: Select the total Bitcoin capacity for the channel.
+    - **RGB Allocation**: Choose the RGB asset (e.g., USDT) you want to be able to receive or send. The LSP will ensure the channel is configured to support this asset.
 
 ![Configure Channel](assets/en/13.webp)
 
@@ -154,11 +154,11 @@ To route RGB assets over the Lightning Network, you need a channel with sufficie
 
 ![Complete Payment](assets/en/15.webp)
 
-6.  Once payment is confirmed, the LSP will initiate the channel opening transaction. You will see an **Order Completed** screen.
+6. Once payment is confirmed, the LSP will initiate the channel opening transaction. You will see an **Order Completed** screen.
 
 ![Order Completed](assets/en/16.webp)
 
-7.  After confirmation on the blockchain, your channel will be active and ready for RGB transfers.
+7. After confirmation on the blockchain, your channel will be active and ready for RGB transfers.
 
 
 ## Trading: Taker-Maker Model
@@ -169,20 +169,20 @@ KaleidoSwap's trading engine operates on a **Taker-Maker model**. You can swap a
 
 This is the most common way to trade. You act as the **Taker**, executing orders against the available liquidity provided by the LSP (**Maker**).
 
-1.  Navigate to the **Trade** tab and select **Market Maker**.
-2.  **Enter Amount**: Input the amount of Bitcoin you want to send (or the asset you want to receive). The interface will show the estimated exchange rate and fees.
+1. Navigate to the **Trade** tab and select **Market Maker**.
+2. **Enter Amount**: Input the amount of Bitcoin you want to send (or the asset you want to receive). The interface will show the estimated exchange rate and fees.
 
 ![Market Maker Swap](assets/en/17.webp)
 
-3.  **Confirm Swap**: Review the details, including the exchange rate and the exact amount you will receive. Click **Confirm Swap**.
+3. **Confirm Swap**: Review the details, including the exchange rate and the exact amount you will receive. Click **Confirm Swap**.
 
 ![Confirm Swap](assets/en/18.webp)
 
-4.  **Processing**: The swap is executed atomically on the Lightning Network. You will see a status screen indicating the swap is pending.
+4. **Processing**: The swap is executed atomically on the Lightning Network. You will see a status screen indicating the swap is pending.
 
 ![Swap Pending](assets/en/19.webp)
 
-5.  **Success**: Once the HTLCs are settled, the swap is complete, and the assets are in your channel.
+5. **Success**: Once the HTLCs are settled, the swap is complete, and the assets are in your channel.
 
 ![Swap Success](assets/en/20.webp)
 
@@ -191,9 +191,9 @@ This is the most common way to trade. You act as the **Taker**, executing orders
 
 For developers building on top of KaleidoSwap, the application exposes an API that supports:
 
--  **RGB LSPS1**: For automated liquidity services.
--  **Swap API**: For programmatic trading and market making.
--  **WebSocket**: For real-time market data subscriptions.
+- **RGB LSPS1**: For automated liquidity services.
+- **Swap API**: For programmatic trading and market making.
+- **WebSocket**: For real-time market data subscriptions.
 
 Refer to the [API Documentation](https://docs.kaleidoswap.com/api/introduction) for full endpoints and specifications.
 

@@ -4,23 +4,23 @@ description: Comment lancer un nœud avec le client alternatif Bitcoin Knots ?
 ---
 ![cover](assets/cover.webp)
 
-Bitcoin Knots est une implémentation alternative du protocole Bitcoin, dérivée de Bitcoin Core. Conçue et maintenue par Luke Dashjr, elle propose quelques fonctionnalités supplémentaires et des ajustements de règles de mempool, tout en restant compatible avec les autres nœuds du réseau. Bitcoin Knots intègre un portefeuille Bitcoin, mais il peut également être utilisé comme un simple noeud Bitcoin avec à côté d'autres logiciels de portefeuille.
+Bitcoin Knots est une implémentation alternative du protocole Bitcoin, dérivée de Bitcoin Core. Développée et maintenue par Luke Dashjr, elle ajoute quelques fonctionnalités supplémentaires et des ajuste certaines règles du mempool, tout en restant compatible avec les autres nœuds du réseau. Bitcoin Knots intègre un portefeuille Bitcoin, mais peut également être utilisé uniquement comme un simple noeud Bitcoin, en association avec d'autres logiciels de portefeuille.
 
 ## Pourquoi utiliser Knots plutôt que Core ?
 
-Actuellement, Core est l'implémentation majoritaire du protocole Bitcoin sur le réseau. En effet, le protocole Bitcoin n'est qu'un ensemble de règles. Il nécessite un logiciel pour leur application. Une machine exécutant un tel logiciel implémentant le protocole Bitcoin s'appelle un nœud, et tous ces nœuds réunis constituent le réseau Bitcoin.
+Actuellement, Bitcoin Core est l'implémentation la plus utilisée du protocole Bitcoin sur le réseau. En réalité, le protocole Bitcoin n'est qu'un ensemble de règles. Il lui faut donc un logiciel pour leur application. Lorsqu’une machine exécute un tel logiciel qui respecte ces règles, l'implémentation du protocole Bitcoin s'appelle un nœud, et tous ces nœuds réunis constituent le réseau Bitcoin.
 
-Tout au long de l'histoire de Bitcoin, de nombreux clients dérivés du logiciel initial développé par Satoshi Nakamoto ont vu le jour. Aujourd'hui (mars 2025), Bitcoin Core est ultra-majoritaire, puisque près de 98 % des nœuds du réseau Bitcoin utilisent ce client.
+Depuis la création de Bitcoin, plusieurs logiciels dérivés du client d’origine développé par Satoshi Nakamoto ont été créés. Aujourd'hui (mars 2025), Bitcoin Core est ultra-majoritaire, avec près de 98 % des nœuds du réseau Bitcoin qui l'utilisent.
 
-Cependant, il existe aussi des logiciels alternatifs. Il ne s'agit pas de nœuds liés à des altcoins comme Bitcoin Cash, mais bien de clients alternatifs compatibles avec le vrai réseau Bitcoin. Parmi eux, Bitcoin Knots est le plus connu. Il représente actuellement environ 1,4 % du réseau. Les autres clients alternatifs demeurent très minoritaires.
+Cependant, il existe aussi des logiciels alternatifs. Il ne s'agit pas des versions associées à des altcoins comme Bitcoin Cash, mais bien de clients alternatifs compatibles avec le véritable réseau Bitcoin. Parmi eux, Bitcoin Knots est le plus connu et représente actuellement environ 1,4 % du réseau. Les autres clients alternatifs restent très minoritaires.
 
 ![Image](assets/fr/01.webp)
 
-Deux principales raisons peuvent vous pousser à utiliser un client alternatif comme Knots au lieu de Core :
+Deux principales raisons peuvent vous amener à utiliser un client alternatif comme Knots plutôt que Bitcoin Core :
 
-- **Technique** : Ces clients offrent souvent des options différentes de Core, notamment en matière de gestion de la mempool, en déterminant les transactions acceptées et diffusées par votre nœud.
+- **Raison Technique** : Les clients alternatifs proposent souvent des options différentes de Core, notamment en matière de gestion de la mempool, en déterminant les transactions acceptées et diffusées par votre nœud.
 
-- **Politique** : Certains préfèrent utiliser des clients alternatifs tels que Knots pour des raisons non techniques, notamment pour soutenir une alternative à Core et ainsi réduire son monopole. Si Core venait un jour à être compromis, il serait alors utile de disposer d'autres clients solides et bien maintenus, mais aussi de savoir les utiliser. D'autres utilisent Knots dans une démarche contestataire, parce qu'ils ont perdu confiance dans les développeurs de Core ou désapprouvent la gestion du client majoritaire.
+- **Raison Politique** : Certains choisissent d'utiliser des clients alternatifs tels que Knots pour des raisons non techniques, notamment pour soutenir une alternative à Core et ainsi réduire son monopole. Si Core venait un jour à être compromis, il serait alors utile de disposer d'autres clients solides et bien maintenus, et surtout de savoir les utiliser. D'autres optent pour Knots par esprit de contestation, parce qu'ils ont perdu confiance aux développeurs de Core ou désapprouvent la manière dont le client majoritaire est géré.
 
 ## Comment installer Bitcoin Knots ?
 
@@ -38,21 +38,21 @@ Une fois le logiciel vérifié, installez-le en suivant les étapes indiquées d
 
 ## Lancer l'IBD
 
-Lors du premier lancement de Bitcoin Knots, vous pourrez choisir le répertoire local où seront stockées les données de votre nœud (notamment la blockchain, l'UTXO set et les paramètres).
+Lors du premier lancement de Bitcoin Knots, vous pourrez choisir le dossier local dans lequel seront stockées toutes les données de votre nœud (notamment la blockchain, l’ensemble l'UTXO et les paramètres).
 
 ![Image](assets/fr/04.webp)
 
-Vous pouvez également choisir d'élaguer les données de la blockchain pour ne conserver que les blocs les plus récents. Cette option permet à votre nœud de vérifier intégralement chaque bloc tout en respectant une limite de stockage fixée, ce qui supprime donc progressivement les blocs les plus anciens. Si vous disposez de suffisamment d'espace disque (environ 650 Go actuellement, mais ce nombre ne cesse d'augmenter), laissez cette option décochée. Si votre espace disque est limité, activez l'élagage et indiquez la capacité maximale autorisée.
+Vous pouvez également activer l'élaguer des données de la blockchain pour ne conserver que les blocs les plus récents. Cette option permet à votre nœud de vérifier intégralement chaque bloc tout en respectant une limite de stockage fixée, ce qui supprime donc progressivement les blocs les plus anciens. Si vous disposez de suffisamment d'espace disque (environ 650 Go actuellement, mais ce nombre ne cesse d'augmenter), laissez cette option décochée. Si votre espace disque est limité, vous pouvez activez l'élagage et définir la taille maximale maximale autorisée.
 
-Attention : Si votre nœud est élagué et que vous l'utilisez pour synchroniser un portefeuille récupéré, vous ne pourrez pas retrouver les transactions antérieures au bloc le plus ancien conservé localement.
+Attention : Si votre nœud est élagué et que vous souhaitez synchroniser un portefeuille récupéré, vous ne pourrez pas retrouver les transactions antérieures au bloc le plus ancien encore présent sur votre disque.
 
 ![Image](assets/fr/05.webp)
 
 Une autre option disponible est "*Assume Valid*". Elle permet d'accélérer la synchronisation initiale en sautant la vérification des signatures des transactions incluses dans les blocs antérieurs à un bloc précis.
 
-L'objectif d'"*Assume Valid*" est d'accélérer la première synchronisation du nœud sans réduire significativement la sécurité, en présumant que ces transactions ont déjà été validées massivement par le réseau auparavant. Le seul compromis important est que votre nœud ne détectera pas d'éventuels vols antérieurs de bitcoins, mais il permettra tout de même de garantir l'exactitude du nombre total de bitcoins émis. Votre nœud vérifiera toutes les signatures des transactions situées après le bloc indiqué. Cette approche repose sur l'hypothèse qu'une transaction acceptée depuis longtemps par le réseau sans contestation est très probablement valide.
+Le but d'"*Assume Valid*" est d'accélérer la première synchronisation du nœud sans réduire significativement la sécurité, en présumant que ces transactions ont déjà été validées massivement par le réseau auparavant. Le seul compromis important est que votre nœud ne détectera pas d'éventuels vols antérieurs de bitcoins, mais il permettra tout de même de garantir l'exactitude du nombre total de bitcoins émis. Votre nœud vérifiera toutes les signatures des transactions situées après le bloc indiqué. Cette approche repose sur l'hypothèse qu'une transaction acceptée depuis longtemps par le réseau sans contestation est très probablement valide.
 
-Par exemple, ici, "*Assume Valid*" est paramétré sur le bloc n°855 000 `0000000000000000000233ea80aa10d38aa4486cd7033fffc2c4df556d0b9138`, publié le 1er août 2024. Durant l'IBD, mon nœud commencera donc la vérification complète des signatures seulement à partir de ce bloc.
+Par exemple, ici, "*Assume Valid*" est paramétré sur le bloc n°855 000 `0000000000000000000233ea80aa10d38aa4486cd7033fffc2c4df556d0b9138`, publié le 1er août 2024. Pendant la synchronisation initiale (IBD), mon nœud commencera donc la vérification complète des signatures seulement à partir de ce bloc.
 
 ![Image](assets/fr/06.webp)
 
@@ -86,11 +86,11 @@ L'onglet "*Mempool*" permet de configurer la *Memory Pool*, c'est-à-dire la ges
 
 ![Image](assets/fr/12.webp)
 
-L'onglet "*Spam filtering*" est une fonctionnalité propre à Bitcoin Knots. Vous y trouverez de nombreux réglages permettant de choisir quelles transactions vous acceptez ou refusez de diffuser. L'objectif principal est de limiter certaines utilisations marginales de Bitcoin, en particulier les méta-protocoles, afin de combattre ces pratiques tout en évitant la surcharge de votre nœud. Il s'agit donc d'un choix politique selon votre vision personnelle de Bitcoin.
+L'onglet "*Spam filtering*" est une fonctionnalité propre à Bitcoin Knots. Il rassemble différents réglages qui vous permettent de décider quelles transactions votre nœud accepte ou refuse de diffuser. L'objectif principal est de limiter certaines utilisations marginales de Bitcoin, en particulier les méta-protocoles, afin de réduire leur impact tout en évitant la surcharge de votre nœud. Il s'agit donc d'un choix politique selon votre vision personnelle de Bitcoin.
 
-Vous y trouverez aussi des paramètres classiques comme la définition du seuil de "*Dust*".
+Vous y trouverez aussi des paramètres plus classiques, comme la définition du seuil de "*Dust*".
 
-Cependant, ces paramètres influencent uniquement les règles de standardisation. Votre nœud continuera à accepter les transactions ne respectant pas ces critères uniquement lorsqu'elles sont incluses dans un bloc, afin de rester compatible avec le reste du réseau Bitcoin. Ces paramètres modifient seulement la manière dont votre nœud traite et diffuse les transactions non confirmées à ses pairs. En pratique, comme Knots est minoritaire, ce sont les règles établies par défaut sur Bitcoin Core qui définissent la standardisation sur le réseau.
+Cependant, ces paramètres influencent uniquement les règles de standardisation. Votre nœud continuera d'accepter les transactions ne respectant pas ces critères uniquement lorsqu'elles sont incluses dans un bloc, afin de rester compatible avec le reste du réseau Bitcoin. Ces paramètres influencent uniquement la manière dont votre nœud traite et diffuse les transactions non confirmées à ses pairs. En pratique, comme Bitcoin Knots est minoritaire, ce sont les règles établies par défaut de Bitcoin Core qui déterminent la standardisation sur le réseau.
 
 ![Image](assets/fr/13.webp)
 
@@ -126,11 +126,11 @@ Votre portefeuille Bitcoin est désormais créé.
 
 ## Sauvegarder son portefeuille Bitcoin
 
-Avant même de recevoir vos premiers bitcoins, il est indispensable d'effectuer une sauvegarde de votre portefeuille Bitcoin afin de pouvoir récupérer vos fonds en cas de perte ou de panne de votre ordinateur. Pour ce faire, cliquez sur l'onglet "*File*" puis sur "*Backup wallet*".
+Avant même de recevoir vos premiers bitcoins, il est indispensable d'effectuer une sauvegarde de votre portefeuille Bitcoin. Cette sauvegarde vous permettra de récupérer vos fonds en cas de perte ou de problème sur votre ordinateur. Pour ce faire, cliquez sur l'onglet "*File*" puis sur "*Backup wallet*".
 
 ![Image](assets/fr/20.webp)
 
-Cette opération génère un fichier unique qui permet, à lui seul, de restaurer l'ensemble de vos bitcoins. Soyez donc très vigilant, et sauvegardez-le sur un support externe sécurisé.
+Cette action génère un fichier unique qui permet, à lui seul, de restaurer l'intégralité de vos bitcoins. Soyez donc très vigilant, et sauvegardez-le sur un support externe sécurisé.
 
 ## Recevoir des bitcoins
 
@@ -267,7 +267,7 @@ rpcpassword=my_password
 
 Après avoir modifié et sauvegardé le fichier, redémarrez Bitcoin Knots.
 
-Vous pouvez maintenant aller sur votre logiciel de gestion de portefeuille (par exemple Sparrow Wallet ou Liana). Sur Sparrow, accédez à l'onglet "*User / Pass*". Saisissez le nom d'utilisateur et le mot de passe que vous avez configurés dans le fichier `bitcoin.conf`. Laissez les autres paramètres par défaut, à savoir l'URL `127.0.0.1` et le port `8332`. Cliquez ensuite sur "*Test Connection*".
+Vous pouvez maintenant ensuite ouvrir votre logiciel de gestion de portefeuille (par exemple Sparrow Wallet ou Liana). Sur Sparrow, accédez à l'onglet "*User / Pass*". Saisissez le nom d'utilisateur et le mot de passe que vous avez configurés dans le fichier `bitcoin.conf`. Laissez les autres paramètres par défaut, à savoir l'URL `127.0.0.1` et le port `8332`. Cliquez ensuite sur "*Test Connection*".
 
 ![Image](assets/fr/40.webp)
 
@@ -275,7 +275,7 @@ La connexion est établie.
 
 Vous savez maintenant tout sur l'implémentation alternative Bitcoin Knots.
 
-Si vous avez trouvé ce tutoriel utile, je vous serais très reconnaissant de laisser un pouce vert ci-dessous. N'hésitez pas à le partager sur vos réseaux sociaux. Merci beaucoup !
+Si ce tutoriel vous a été utile, je vous serais très reconnaissant de laisser un pouce vert ci-dessous. N'hésitez pas à le partager sur vos réseaux sociaux. Merci beaucoup !
 
 Je vous conseille également de découvrir cet autre tutoriel dans lequel je vous explique comment mettre en place votre propre nœud Lightning :
 

@@ -43,7 +43,7 @@ However, this course is not limited to a simple chronology of dates or historica
 We will examine the emergence of currencies, monetary systems, banks, paper money, central banks, and finally, the current "fiat" monetary system.
 
 
-We begin our journey with proto-currencies,  examining the emergence of debt money and units of account in Mesopotamia, as well as other systems like dowry and blood money in primitive societies. We'll also see how sophisticated monetary systems already existed in ancient Egypt, well before the Middle Kingdom.
+We begin our journey with proto-currencies,  examining the emergence of debt-money and units of account in Mesopotamia, as well as other systems like dowry and blood money in primitive societies. We'll also see how sophisticated monetary systems already existed in ancient Egypt, well before the Middle Kingdom.
 
 
 We then move on to the appearance of the first coins in Lydia, a key moment often regarded as the true beginning of money in economics textbooks. We'll examine how these coins spread through the empires of the Persians, Alexander the Great, and Rome, before eventually achieving dominance and then collapsing.
@@ -228,7 +228,7 @@ Global warming at the end of the Ice Age radically transformed this social organ
 ### The Invention of Work and Property
 
 
-This gradual sedentarization led to profound social transformations. **Neolithic agriculture gave rise to the modern concept of work**: attachment to a specific territory meant tending to one's property, storing the fruits of one's labor and planning for future harvests. This new relationship with time—deferring present use for future benefit—revolutionized social organization.
+This gradual sedentarization precipitated profound social transformations. **Neolithic agriculture gave rise to the modern concept of work**: attachment to a specific territory meant tending to one's property, storing the fruits of one's labor and planning for future harvests. This new relationship with time—deferring present use for future benefit—revolutionized social organization.
 
 
 Pottery perfectly illustrates this evolution: initially developed to store cereals and seeds, it is evidence of this new ability to anticipate future needs. Some prehistorians even argue that the Neolithic would not have been possible without these storage systems.
@@ -243,7 +243,7 @@ Pottery perfectly illustrates this evolution: initially developed to store cerea
 Agriculture made it possible to feed larger populations while freeing some individuals from the direct necessity of food production to pursue other productive activities. This emerging specialization - farmers, potters, craftsmen, guards - laid the foundations for the division of labor and social hierarchies.
 
 
-Archaeological remains bear witness to this growing stratification: burials evolved from collective to differentiated individual graves, and housing moved from architectural uniformity to constructions revealing distinct social statuses. The presense of funerary objects—ornaments, specialized tools, pottery—provides material evidence of an emerging notion of wealth and social prestige.
+Archaeological remains bear witness to this growing stratification: burials evolved from collective to differentiated individual graves, and housing moved from architectural uniformity to constructions revealing distinct social statuses. The presence of funerary objects—ornaments, specialized tools, pottery—provides material evidence of an emerging concept of wealth and social prestige.
 
 
 ### The emergence of distance exchanges
@@ -371,7 +371,7 @@ One example is the type of clay ball which enclosed small counter-stones.
 The surface was inscribed with a seal and a number representing the quantity of goods held within. To verify the contents, the ball could be broken open, validating that the internal count matched the external record.
 
 
-Another example, a tablet found southwest of present-day Baghdad, stipulates that a debtor undertakes to repay a creditor 330 measures of grain on harvest day. Even more fascinating, another tablet clearly states that a debt of four measures of barley must be repaid directly to the bearer of the tablet, thus **introducing the notion of payment to the bearer, a particularly innovative concept for the time**.
+Another example, a tablet found southwest of present-day Baghdad, stipulates that a debtor undertakes to repay a creditor 330 measures of grain on harvest day, functioning as a bearer instrument. Even more fascinating, another tablet clearly states that a debt of four measures of barley must be repaid directly to the bearer of the tablet, thus **introducing the notion of payment to the bearer, a particularly innovative concept for the time**.
 
 
 From 2000 BC onwards, there was a law requiring all commercial transactions, even the smallest ones, to be formalized in writing and signed in the presence of witnesses. Imagine what a huge bureaucracy it was in those days to record all transactions in registers made, I remind you, of clay by scribes. This legal rigor was intended to prevent future disputes over ownership and rights of the exchanged goods. Witnesses were often called in to testify that the contract had indeed been signed.
@@ -453,7 +453,7 @@ This coexistence illustrates a fundamental debate in economic history: **the opp
 Sumerian temples epitomized this tension: they used popular monetary innovations (references to the shekel) while developing their own control instruments (cuneiform tablets). This strategy enabled them to reap the benefits of both systems: the popular legitimacy of traditional currencies and the administrative control of formalized debts.
 
 
-The Mesopotamian experience establishes lasting precedents for the evolution of financial systems. It demonstrates that **financial sophistication often precedes technological innovations by several millennia**, which are usually associated with it. The concepts of interest, credit, negotiable instruments and mortgage collateral did not wait for the invention of metallic money to develop.
+The Mesopotamian experience thus set enduring precedents for the evolution of financial systems. It demonstrates that **financial sophistication often precedes technological innovations by several millennia**, which are usually associated with it. The concepts of interest, credit, negotiable instruments and mortgage collateral did not wait for the invention of metallic money to develop.
 
 
 This seminal period also reveals the power issues inherent in any monetary innovation: who controls the technology, who defines the rules, and how formal systems and popular practices are articulated. These fundamental questions have persisted throughout economic history, extending to contemporary debates on digital currencies and cryptocurrencies.
@@ -642,7 +642,7 @@ The cultivation of linen was a royal monopoly often granted to the temples, and 
 The ancient Egyptians made a clear distinction between the ideological aspect of precious metals, linked to divinity (gold representing the flesh of the gods, silver their bones), and their practical function a store of value and a standard for other forms of payment.
 
 
-Thus, although ancient Egypt did not develop a minted currency until the Late Period, it possessed a sophisticated monetary system based on the combined use of scriptural money, precise units of account, commodity money, and precious metals valued by weight.
+Thus, although ancient Egypt did not develop a minted currency until the Late Period, it possessed a sophisticated monetary system based on the combined use of scriptural money, precise units of account, commodity-money, and precious metals valued by weight.
 
 
 A distinction must be drawn between the concepts of **"money"** and **"coinage."** "Coinage" refers to minted coins, a concept that appeared later with the Lydians. "Money," however, is a broader concept encompassing units of account and stores of value. By this definition, a sophisticated notion of money existed long before the first coins.
@@ -751,7 +751,7 @@ During economic or monetary crises, particularly when the price of copper was ri
 As mentioned above, this system was based on a social convention between the State, producers, and merchants, but also on authoritarian and severe rules for those who did not play the game, notably in relation to the choice of pieces (whether beautiful or not) or the length of fabrics (not in line with the standard).
 
 
-This system was not inherently stable. It relied mainly on strict rules requiring officials and traders to accept damaged coins, under threat of sanctions.
+This system was inherently unstable, relying primarily on strict rules that compelled officials and traders to accept damaged coins under threat of sanction.
 
 
 ### Chinese monetary innovations and their economic impact
@@ -973,7 +973,7 @@ This section addresses **coins** specifically, not money in general. The central
 The emergence of minted money raises a fundamental question: is money a spontaneous creation of the market or an institution imposed by authority? This conceptual tension pits two radically different visions against each other.
 
 
-On the one hand, the Austrian school of economics defends the idea that commodity money - particularly gold - was naturally selected by economic actors for its intrinsic qualities: durability, portability, divisibility and fungibility. From this perspective, the state then appropriated this spontaneous currency to control its supply. It is an institution that emerges naturally from market needs before being captured by political power.
+On the one hand, the Austrian school of economics defends the idea that commodity-money - particularly gold - was naturally selected by economic actors for its intrinsic qualities: durability, portability, divisibility and fungibility. From this perspective, the state then appropriated this spontaneous currency to control its supply. It is an institution that emerges naturally from market needs before being captured by political power.
 
 
 In contrast, the anthropological and institutional view holds that money really comes into being with state coinage. The authority would consciously create the currency by affixing its seal, thus transforming the metal into a genuine monetary instrument. This perspective suggests that the earliest Lydian coins were mainly used to pay armies - one stater corresponding roughly to a soldier's daily wage.
@@ -997,7 +997,7 @@ This guarantee has an observable price on the market: a minted gold coin is wort
 The story of the first Lydian staters reveals a disturbing irony. Recent analyses show that the gold content of these electrum coins was systematically lower than that of natural electrum. The authority certifying quality was simultaneously manipulating composition.
 
 
-This practice illustrates the dual nature of coinage. For the market, it makes exchanges more fluid and offers a guarantee of standardization. For the issuing authority, it becomes a tool of economic control through dilution. By reducing the gold content while maintaining the nominal value, the state effectively increases the money supply - creating more monetary units from the same quantity of precious metal.
+This practice illustrates the dual nature of coinage. For the market, it makes exchanges more fluid and offers a guarantee of standardization. For the issuing authority, it becomes a tool of economic control through debasement. By reducing the gold content while maintaining the nominal value, the state effectively increases the money supply - creating more monetary units from the same quantity of precious metal.
 
 
 The state was not unconstrained, however. The Roman administration, for example, scrupulously checked the quality of coins like Constantine's 4th-century gold solidus, precisely because it demanded payment in high-quality currency. The authority had a vital interest in maintaining the quality of its own coinage to guarantee the value of its tax revenues.
@@ -1009,10 +1009,10 @@ The state was not unconstrained, however. The Roman administration, for example,
 The study of currency devaluation reveals consistent patterns throughout history. For metallic coins, economists track the percentage of precious metal contained in the coins - a descending curve indicating progressive devaluation. For modern paper money, the opposite is true: the circulating money supply is observed, and its increase signals devaluation.
 
 
-Both methods measure the same fundamental phenomenon: the dilution of monetary value. Whether by reducing the precious metal content or printing new banknotes, the mechanism remains the same. The more monetary units an authority creates from the same real resources, the more each unit loses its value.
+Both methods measure the same fundamental phenomenon: the debasement of monetary value. Whether by reducing the precious metal content or printing new banknotes, the mechanism remains the same. The more monetary units an authority creates from the same real resources, the more each unit loses its value.
 
 
-This manipulation, observable from the earliest Lydian coins, suggests that monetary control has always been an issue of power. Minted money thus represents a remarkable technical innovation coupled with an instrument of economic control - a duality that runs throughout monetary history, right up to the present day.
+This manipulation, evident from the earliest Lydian coins, suggests that monetary control has always been intrinsically linked to power. Minted money thus represents a remarkable technical innovation coupled with an instrument of economic control - a duality that runs throughout monetary history, right up to the present day.
 
 
 ## Parts manufacturing
@@ -1071,7 +1071,7 @@ For example, in Mesopotamia, one theory of emergence suggests that the temple, a
 As for bartering, some theories suggest that it was mainly used in international exchanges, i.e., with people we simply didn't trust.
 
 
-This section will survey the different theories on the emergence of money and its definitions, presenting and critiquing the theses of classical economists and anthropologists. An Austrian economist's perspective on these subjects will also be presented.
+This section will survey the primary theories on the emergence of money, presenting and critiquing the competing theses of classical economists and anthropologists. An Austrian economist's perspective on these subjects will also be presented.
 
 
 ## The emergence of money for classical economists
@@ -1081,7 +1081,7 @@ This section will survey the different theories on the emergence of money and it
 
 :::video id=873a16c1-17ac-448d-8941-df4feb7ab79d:::
 
-This segment is dedicated to the different theories on the emergence of money. The first topic to be covered is the emergence of money according to classical economists.
+This segment is dedicated to the different theories on the emergence of money. The first topic to be covered is the classical economists' theory of money's emergence.
 
 
 ### Adam Smith's classic theory
@@ -1093,7 +1093,7 @@ According to classical economic theories, in particular that championed by Adam 
 ### Criticism of classical theory
 
 
-A critique of this theory can be formulated. This notion that **coins** are an evolution of barter is problematic because the minted coin definitely emerges from authority, since it's minted by authority. There are several reasons for this, not least the authorities' desire to control the economy, to take control of money.
+A critique of this theory can be formulated. This notion that **coins** are an evolution of barter is problematic because the minted coin definitely emerges from authority, since it's minted by authority. This is driven, not insignificantly, by the authorities' desire to control the economy and assert monetary sovereignty.
 
 
 On the other hand, if we're talking about money as a concept, not necessarily coins, then it's less clear-cut because, with the first coins, the Lydian staters, we've found silver blobs that weren't marked. It remains to be seen whether they were in circulation. If they were circulating, this means that people may have originally identified this asset as a potential currency that could be widely demanded and easily exchanged. And maybe it was only afterwards that the authorities noticed this situation and took control of it by putting a stamp on it to certify it.
@@ -1110,7 +1110,7 @@ Alexander the Great, for example, made great use of it, as we'll see later.
 We've also seen that as early as ancient China, cowrie shells were used for economic exchange (**remunerating labor, measuring value and purchasing land)**. What's more, in Mesopotamia and Egypt, functional monetary systems already existed and were used for trade, wage payments and tax payments. This suggests it is incorrect to think that coins in the Western conception emerge from the need to make exchanges more fluid.
 
 
-Since coins are issued by an authority, we can perhaps assume that, from the outset, they have been linked to the issuing authorities. That makes sense. On the other hand, we don't necessarily know how the forms of money or the forms of monetary systems, the proto-coins, that preceded them emerged. On the one hand, we're going to suggest that it was the temples that identified these monetary units and, afterwards, people used them. And, on the other hand, we'll tell you, no, it was the merchants who needed a means of exchange, a way of trading with the outside world, and it was they who identified, for example, silver metal, to be used because it was in demand from the outside world. The point is, we don't really know. That's why we have the two opposing theories. We don't have perfect proof to explain whether money emerges naturally from the need to trade, for example by merchants, or whether it emanates from authority.
+Since coins are issued by an authority, we can perhaps assume that, from the outset, they have been linked to the issuing authorities. That makes sense. On the other hand, we don't necessarily know how the forms of money or the forms of monetary systems, the proto-coins, that preceded them emerged. On the one hand, we're going to suggest that it was the temples that identified these monetary units and, afterwards, people used them. And, on the other hand, we'll tell you, no, it was the merchants who needed a means of exchange, a way of trading with the outside world, and it was they who identified, for example, silver metal, to be used because it was in demand from the outside world. The precise origin remains uncertain, giving rise to these two opposing theories. We don't have perfect proof to explain whether money emerges naturally from the need to trade, for example by merchants, or whether it emanates from authority.
 
 
 ### Distinguishing between coins and primitive money
@@ -1135,7 +1135,7 @@ The emergence of money according to classical economists has been covered. A con
 One criticism of this classic theory of the emergence of money is the lack of historical evidence to support its ideas.
 
 
-The critique known as the "barter myth", formulated by anthropologist David Graeber, among others, challenges the classic idea that money emerged naturally from barter. According to this critique, there is no historical or anthropological evidence to show that societies systematically used barter before the advent of money. In fact, ancient societies operated on the basis of credit, debt, social obligations and ceremonial exchanges. The "barter myth" is therefore a theoretical construct designed to justify the classical economic vision, with no real empirical basis.
+The critique known as the "barter myth", formulated by anthropologist David Graeber, among others, challenges the classical theory that money emerged naturally from barter. According to this critique, there is no historical or anthropological evidence to show that societies systematically used barter before the advent of money. In fact, ancient societies operated on the basis of credit, debt, social obligations and ceremonial exchanges. The "barter myth" is therefore a theoretical construct designed to justify the classical economic vision, with no real empirical basis.
 
 
 It should be noted, however, that this theory does not deny that bartering existed, for example, for exchanges between different tribes. It simply denies that bartering was a widely practiced activity within these so-called primitive groups, and that money would be a logical evolution of these practices. It denies that bartering was widely used within a tribe, and that money eventually emanated to fluidify exchanges and resolve the difficulties that existed with bartering. Instead, according to this theory, these groups practiced a form of informal credit or gift for gift.
@@ -1144,10 +1144,10 @@ It should be noted, however, that this theory does not deny that bartering exist
 ### Primitive societies vs. great civilizations
 
 
-**The application of this theory requires clarifications regarding the great civilizations of ancient antiquity.** The theory of the barter myth applies to primitive (stateless) groups of the past and even today (e.g., the tribes studied by explorers in the 18th and 19th centuries). They did not use barter, but rather the forms of exchange mentioned earlier, for reasons already mentioned (weak division of labor, subsistence farming). However, this theory may not apply to the great civilizations of the past, such as Mesopotamia and ancient Egypt.
+**The application of this theory requires clarifications regarding the great civilizations of ancient antiquity.** The theory of the barter myth applies to primitive (stateless) groups of the past and even today (e.g., the tribes studied by explorers in the 18th and 19th centuries). They did not use barter, but rather the forms of exchange mentioned earlier, for reasons already mentioned (weak division of labor, subsistence farming). This theory, however, may not be applicable to the great civilizations of antiquity, such as Mesopotamia and ancient Egypt.
 
 
-Here are two excerpts from *Aux origines de la monnaie* on this subject:
+The following excerpts from *Aux origines de la monnaie* illustrate this point:
 
 
 > The model outlined by M. Mauss in his famous "The Gift" has been adopted by Egyptologists with as much unanimity and enthusiasm as lack of discernment. This has led to a number of confusions, which we won't go into here. Let us simply note that this model applies to so-called primitive societies, which is not the case of Pharaonic Egypt.
@@ -1159,7 +1159,7 @@ As was seen earlier in the section on Egypt and even Mesopotamia and China, thes
 
 
 
-## The emergence of money through debt money
+## The emergence of money through debt-money
 
 <chapterId>4f508615-aa61-5d62-89d3-cecd02aeaa62</chapterId>
 
@@ -1169,13 +1169,13 @@ As was seen earlier in the section on Egypt and even Mesopotamia and China, thes
 ### Money as an IOU
 
 
-In this section, the theory of debt money is covered.
+In this section, the debt-money theory is covered.
 
 
-The theory of **debt money**, developed notably by economist Alfred Mitchell-Innes and later expanded by David Graeber, asserts that money did not originate from barter, but rather from debt and credit relationships present from the earliest human societies. According to this theory, money appears when social obligations (debts between individuals or groups) become quantified and transferable. This concept introduces the notion of the quantification of exchanges and transfer. Thus, money is above all a **recognition of debt**, backed by mutual trust and often guaranteed by political or religious authority, rather than a commodity serving merely as an intermediary in exchanges.
+The **debt-money theory**, developed notably by economist Alfred Mitchell-Innes and later expanded by David Graeber, asserts that money did not originate from barter, but rather from debt and credit relationships present from the earliest human societies. According to this theory, money appears when social obligations (debts between individuals or groups) become quantified and transferable. This concept introduces the notion of the quantification of exchanges and transfer. Thus, money is above all a **recognition of debt**, backed by mutual trust and often guaranteed by political or religious authority, rather than a commodity serving merely as an intermediary in exchanges.
 
 
-An even more advanced form of this theory is that all money is a debt. Someone who possesses money has a claim on society in general—a claim on all those who accept that money. And since money, **in this vision, must be accepted in a compulsory way**, otherwise it is not money, because if this money can be refused, the system does not work. In a given group that has identified a currency, all those who possess it are as if they have a credit to all the other members of that society who accept that currency, and those who accept the currency have a form of debt to the person who possesses that monetary unit. This is essentially their theory.
+An even more advanced form of this theory is that all money is a debt. Someone who possesses money has a claim on society in general—a claim on all those who accept that money. And since money, **in this vision, must be accepted in a compulsory way**, otherwise it is not money, because if this money can be refused, the system does not work. In a given group that has identified a currency, all those who possess it are as if they have a credit to all the other members of that society who accept that currency, and those who accept the currency have a form of debt to the person who possesses that monetary unit. This, in essence, is their theory.
 
 
 ### Criticism of the compulsory system
@@ -1184,7 +1184,7 @@ An even more advanced form of this theory is that all money is a debt. Someone w
 **My critique of this theory:**
 
 
-Let me make one small criticism of this theory. I accept that money is a kind of social consensus. It is a trust that a group places in a monetary "sign", whatever it may be. So I subscribe to the concept of mutual trust, which we'll take up again later with the concept of the monetary premium. Where it gets complicated is when the proponents of this theory add a notion of obligation and insist on the notion of debt. For them, when someone possesses a monetary token, they hold a claim on the community as a whole, and the community would therefore owe the holder a debt. There would also be an obligation to settle, with group members obliged to accept the token; otherwise, in their view, the system wouldn't work. I think the system described above in ancient China represents this theory well.
+I will now offer a critique of this theory. I accept that money is a kind of social consensus. It is a trust that a group places in a monetary "sign", whatever it may be. So I subscribe to the concept of mutual trust, which we'll take up again later with the concept of the monetary premium. Where it gets complicated is when the proponents of this theory add a notion of obligation and insist on the notion of debt. For them, when someone possesses a monetary token, they hold a claim on the community as a whole, and the community would therefore owe the holder a debt. There would also be an obligation to settle, with group members obliged to accept the token; otherwise, in their view, the system wouldn't work. I think the system described above in ancient China represents this theory well.
 
 
 For my part, I can easily imagine a system where money is a social consensus where the chosen token is generally accepted as a means of payment, with no formal obligation. I can see a system like that working if people accept it of their own free will. It can work. On the other hand, it often comes with obligations, legal tender, and violence, which we'll see later in a section. But theoretically, I don't have the impression that this system can quite work. I think Bitcoin is an example. Bitcoin has value because it has a monetary premium, because there's demand for it to be put to monetary use, i.e., a store of value, perhaps also a medium of exchange or protection against the fiat system. No one is obliged to accept it, and the more it is accepted as a means of payment, the more it can be used as a means of exchange. We can already use it as a store of value without any problem. There's no doubt about that. What I mean to say is that Bitcoin seems to me to be an example, a kind of currency that is a form of social consensus where we think we'll be able to get our money back if we buy some later, we acquire it to be able to exchange it later, to preserve our purchasing power.
@@ -1202,7 +1202,7 @@ Owning a monetary token is not a "claim" on the community, but rather a hope tha
 
 :::video id=e543995f-d5e2-49d7-9133-e397b46e0833:::
 
-For the Austrian school of economics, initiated by Carl Menger, money emerges naturally from a barter economy faced with the problem of the double coincidence of wants. In this vision, individuals spontaneously converge on intermediate goods that facilitate exchange—goods not intended for direct consumption but commodities recognized for their capacity to be widely demanded.
+According to the commodity-money theory, championed by the Austrian school of economics and initiated by Carl Menger, money emerges naturally from a barter economy faced with the problem of the double coincidence of wants. In this vision, individuals spontaneously converge on intermediate goods that facilitate exchange—goods not intended for direct consumption but commodities recognized for their capacity to be widely demanded.
 
 
 These monetary goods must possess qualities identified since Aristotle: they must serve as a store of value, a means of exchange, and a unit of account. Economic agents gradually identify, accumulate and save them, thus initiating their emergence as money. This process is entirely spontaneous—money represents a natural market response to the problem of coordinating exchanges, without the conscious intervention of an authority.
@@ -1217,7 +1217,7 @@ Anthropologists such as David Graeber dispute this view, invoking the "barter my
 However, this criticism is based on a restrictive definition of barter. As Menger pointed out back in 1892, barter goes beyond the simple direct exchange of goods for goods. It also encompasses deferred transfers, services for wages, and exchanges with temporality—what Menger called "unilateral transfers between individuals". This extended form of barter can coexist with credit systems in restricted circles of trust.
 
 
-The absence of proof is not proof of absence, and Austrian economists recognize that no complex society can develop sustainably on the basis of direct barter alone—hence the necessary emergence of money.
+The absence of evidence is not evidence of absence. Austrian economists acknowledge that no complex society can sustain itself solely on direct barter, necessitating the emergence of money.
 
 
 ### The Mesopotamian case: merchants versus temples
@@ -1340,7 +1340,7 @@ This section explores proposals for unifying two monetary theories: the emergenc
 *Excerpt from Broken Money by Lyn Alden:*
 
 
-> Fundamentally, money is an accounting register. Commodity money is a register governed by nature. Bank money is a ledger governed by nation-states. Open-source money is a ledger governed by its users.
+> Fundamentally, money is an accounting register. Commodity-money is a register governed by nature. Bank money is a ledger governed by nation-states. Open-source money is a ledger governed by its users.
 
 Here, Alden refers to Bitcoin.
 
@@ -1385,7 +1385,7 @@ This is a crucial point. Even if a Mesopotamian temple manages credit systems, t
 *"Thus, the unification of the two theories can be described as an "accounting theory of money" ("ledger theory of money") since it describes the fundamental logic common to both theories. Both flexible social credit and collectible proto-currencies date back to the dawn of humanity. In both cases, human groups of various sizes keep an accounting ledger among themselves to avoid having to satisfy the double coincidence of wants, reduce friction in exchanges, and serve as a form of liquid savings. The essential difference lies in the authority entrusted with keeping the register."*
 
 
-The authority governing the register varies. With commodity money like gold, for example, nature manages scarcity by making mining difficult, which limits supply. The register is decentralized, with possession of the physical coin serving as proof of ownership. For credit money, scarcity is managed by the availability of credit itself. For fiat currency, a central authority manages scarcity by deciding whether to increase the money supply. In the case of physical token money (e.g., banknotes), the register is managed by the token holder; possession of the token proves ownership. Conversely, scriptural money relies on a centralized register managed by an institution, such as a bank, which records ownership.
+The authority governing the register varies. With commodity-money like gold, for example, nature manages scarcity by making mining difficult, which limits supply. The register is decentralized, with possession of the physical coin serving as proof of ownership. For credit money, scarcity is managed by the availability of credit itself. For fiat currency, a central authority manages scarcity by deciding whether to increase the money supply. In the case of physical token money (e.g., banknotes), the register is managed by the token holder; possession of the token proves ownership. Conversely, scriptural money relies on a centralized register managed by an institution, such as a bank, which records ownership.
 
 
 ## Unification through the monetary premium
@@ -1397,7 +1397,7 @@ The authority governing the register varies. With commodity money like gold, for
 ### The monetary premium concept
 
 
-As a proposal for unifying monetary theories, consider the concept of the monetary premium. The value of money can be explained by a monetary premium that arises from its demand, whether in the form of clay tablets, precious metal coins, banknotes, or bitcoin. The monetary premium is simply based on the confidence that someone will exchange this currency in the future for a comparable price.
+As a proposal for unifying monetary theories, consider the concept of the monetary premium. The value of any monetary asset—from clay tablets and precious metal coins to banknotes and bitcoin—is explained by a monetary premium arising from its demand. The monetary premium is simply based on the confidence that someone will exchange this currency in the future for a comparable price.
 
 
  For any monetary asset, including fiat banknotes with no use value or a gold ingot, **it's often the monetary premium that makes up most of its value**. If we take a piece of gold, a certain part of its value is explained by its use value, its use in industry, or to make jewelry. However, much of the demand for jewelry is itself driven by gold's monetary properties, as people use it as a store of value. Therefore, a significant portion of jewelry demand can also be considered part of the monetary premium.
@@ -1421,16 +1421,16 @@ Fiat currency's value is derived almost entirely from this authority premium. It
 ### Unification through monetary demand
 
 
-The monetary premium proposal unifies debt and commodity money theories by arguing that their value is not fundamentally different. The value of a gold coin does not  primarily derive from its "intrinsic" or use value. Rather, like fiat money, its value is predominantly a function of confidence and monetary demand. For example, if gold's industrial use is 10% of its value, accounting for $300 of its $3,000 market price, the remaining $2,700 is the monetary premium. The fact that fiat has zero use value does not change this principle; the mechanism of value attribution is the same. Therefore, the minimal use value of a commodity like gold does not alter the fundamental process of monetary valuation.
+The monetary premium proposal unifies debt and commodity-money theories by arguing that their value is not fundamentally different. The value of a gold coin does not  primarily derive from its "intrinsic" or use value. Rather, like fiat money, its value is predominantly a function of confidence and monetary demand. For example, if gold's industrial use is 10% of its value, accounting for $300 of its $3,000 market price, the remaining $2,700 is the monetary premium. The fact that fiat has zero use value does not change this principle; the mechanism of value attribution is the same. Therefore, the minimal use value of a commodity like gold does not alter the fundamental process of monetary valuation.
 
 
-On the other hand, it's certain that **at the level of emergence, according to Mises' regression theorem, use value can create an initial demand that initiates the process of monetization.** With debt money, however, emergence is an imposition by an authority, so the source and initiation are completely different. **Nevertheless, at the level of value, the monetary premium provides a unified explanation for why  both fiat money and why commodity money possess the value** we attribute to them. The underlying process is the same: the moneytary premium.
+On the other hand, it's certain that **at the level of emergence, according to Mises' regression theorem, use value can create an initial demand that initiates the process of monetization.** With debt-money, however, emergence is an imposition by an authority, so the source and initiation are completely different. **Nevertheless, at the level of value, the monetary premium provides a unified explanation for why  both fiat money and why commodity-money possess the value** we attribute to them. The underlying process is the same: the moneytary premium.
 
 
 #### The monetary premium
 
 
-In summary, the value of money can be explained by the monetary premium arising from its monetary demand, whether in the form of clay tablets, precious metal coins, banknotes, or bitcoin.
+In summary, the value of any monetary asset can be explained by its monetary premium—the value derived from its demand as a medium of exchange or store of value—whether in the form of clay tablets, precious metal coins, banknotes, or bitcoin.
 
 The monetary premium is simply based on the confidence that someone will exchange this currency later for a comparable price.
 
@@ -1549,7 +1549,7 @@ The defining characteristic of these payments is their liberatory power: they fu
 
 
 
-## Debt money vs. commodity money
+## Debt-money vs. commodity-money
 
 <chapterId>4093677a-c8e8-5828-b994-15c01656186e</chapterId>
 
@@ -1558,7 +1558,7 @@ The defining characteristic of these payments is their liberatory power: they fu
 ### The fundamental debate
 
 
-This section explores two diametrically opposed theories of money: that "money is always debt" and that "money is always a commodity". On the one hand, proponents of debt-based monetary theory assert that money is fundamentally a form of debt. On the other hand, proponents of commodity money argue that money is fundamentally a commodity, such as gold, with other instruments, such as bills and IOUs, being merely forms of credit. 
+This section explores two diametrically opposed theories of money: the debt-money theory and the commodity-money theory. On the one hand, proponents of debt-based monetary theory assert that money is fundamentally a form of debt. On the other hand, proponents of commodity-money argue that money is fundamentally a commodity, such as gold, with other instruments, such as bills and IOUs, being merely forms of credit. 
 
 
 Let's explore a clear summary of these theories.
@@ -1567,7 +1567,7 @@ Let's explore a clear summary of these theories.
 ### The "always a debt" theory
 
 
-Here is a summary of the monetary theory known as **"debt money"**, according to which money is fundamentally a form of debt:
+Here is a summary of the monetary theory known as **"debt-money"**, according to which money is fundamentally a form of debt:
 
 
 According to this theory, developed by Alfred Mitchell-Innes and expanded upon by David Graeber, money is intrinsically an acknowledgement of debt, stemming from the credit relations that historically pre-existed direct monetary exchanges. Rather than arising from a need linked to barter, money appears as a way of accounting for, transferring, and settling social obligations or debts between individuals or groups.
@@ -1582,7 +1582,7 @@ This reasoning contradicts the classic idea of money as a simple "intermediate c
 **My review:**
 
 
-What bothers me about this theory is that it asserts that money is always a debt, when we have examples of exchanges between two different tribes who, for example, exchange gold, where the transaction is definitively final and no latent debt remains. Proponents of this theory will often tell us that these exchanges are not monetary exchanges, but barter. As already mentioned, I disagree. It is a monetary exchange, since the gold is not going to be consumed; it is going to be used as money.
+A point of contention in this theory is its assertion that money is invariably a debt, particularly when considering examples like the exchange of gold between distinct tribes, where the transaction is final and leaves no residual debt. Proponents of this theory will often tell us that these exchanges are not monetary exchanges, but barter. As already mentioned, I disagree. It is a monetary exchange, since the gold is not going to be consumed; it is going to be used as money.
 
 
 ### The "always a commodity" theory
@@ -1591,13 +1591,13 @@ What bothers me about this theory is that it asserts that money is always a debt
 **Always a commodity:**
 
 
-Here's a clear summary of the monetary theory known as **"commodity money"**, where money always emerges as a commodity, notably gold, which emerges from a need to be able to trade, a commodity that will generally be accepted abroad and which is acquired for trading purposes.
+Here's a clear summary of the monetary theory known as **"commodity-money"**, where money always emerges as a commodity, notably gold, which emerges from a need to be able to trade, a commodity that will generally be accepted abroad and which is acquired for trading purposes.
 
 
 According to this theory, developed by classical economists (Adam Smith, David Ricardo) and taken up by Marx, money emerges naturally as a commodity among others, often a precious metal such as gold or silver, which has an intrinsic value independent of its monetary role. Initially, these commodities are spontaneously chosen by economic players to facilitate trade, thanks to their intrinsic qualities (scarcity, durability, divisibility, and stability).
 
 
-Commodity money is distinguished by its physical existence and a value determined by the amount of labor socially required to produce it (as in Marx). Society uses gold, for example, not only to simplify barter but also as a unit of account, a store of value, and a universal medium of exchange.
+Commodity-money is distinguished by its physical existence and a value determined by the amount of labor socially required to produce it (as in Marx). Society uses gold, for example, not only to simplify barter but also as a unit of account, a store of value, and a universal medium of exchange.
 
 
 In this vision, money always retains a real value, as it remains linked to a tangible commodity. Even when the role of money becomes abstract (minted coins, banknotes, or scriptural money), its validity still derives, directly or indirectly, from a reference to an underlying commodity such as gold. This theory therefore insists on the material and economic origin of money, as opposed to theories that regard it as a mere convention or debt. According to this theory, any representation of money by a substitute, such as a bill redeemable in gold, would be credit.
@@ -1609,13 +1609,13 @@ In this vision, money always retains a real value, as it remains linked to a tan
 The **always commodity** theory posits that money must be a tangible good, such as gold. Proponents of this view argue that a banknote, even if backed by gold and functioning as money, is not money itself but merely a claim on the underlying commodity.
 
 
-A common analogy used to support this argument is that of a locker room coupon. The claim is that a banknote to a gold coin is like a coat check ticket to a coat; the ticket is not the coat itself, but merely a claim on a specific object.
+A common analogy posits that a banknote is to a gold coin what a coat check ticket is to a coat: the ticket is not the coat, but merely a claim on that specific object
 
 
 However, this analogy is flawed. A locker room coupon is not a generally accepted method of payment. It is a specific claim on a particular good. Money, in contrast, is a universal medium of exchange. **Money is not a claim on a specific object but a generally accepted means of payment that can be used to acquire any good or service**. 
 
 
-Therefore, the parallel between a limited-use coupon and a universally accepted banknote is invalid. This distinction highlights a key point of contention. Commodity money theorists often maintain that only the physical gold in the vault is money, and the banknote is a substitute. Critics of this view, however, see no semantic paradox in considering both the physical gold and the representative banknote to be forms of money, a concept Ludwig von Mises addressed with his theory of "monetary substitutes."
+Therefore, the parallel between a limited-use coupon and a universally accepted banknote is invalid. This distinction highlights a key point of contention. Commodity-money theorists often maintain that only the physical gold in the vault is money, and the banknote is a substitute. Critics of this view, however, see no semantic paradox in considering both the physical gold and the representative banknote to be forms of money, a concept Ludwig von Mises addressed with his theory of "monetary substitutes."
 
 
 
@@ -1629,16 +1629,16 @@ The same author further develops this concept of a **claim** to distinguish mone
 > Bastiat is quite at liberty to imagine a voucher for the whole of society presented as "an immense bazaar", but this little addition, this seemingly innocuous extension, is the whole difference between credit and money. Money is not a claim on a particular store. There is no such thing as an anonymous claim. But the anonymity that characterizes money, and therefore its generality, is what makes it so powerful. Money is not like credit, still less is it in any way reducible to it. **Money is much more than credit.**
 
 
-**A paradox: debt money vs. commodity money**
+**A paradox: debt-money vs. commodity-money**
 
 
-The paradox that best illustrates the profound dichotomy between debt money and commodity money theories concerns the question of whether gold is a currency today.
+The most striking paradox illustrating the dichotomy between debt-money and commodity-money theories concerns the question of whether gold is a currency today.
 
 
-On the one hand, debt money theory defines money first and foremost as an intermediary exchange or means of payment that is generally accepted, or even imposed, by a public authority. From this perspective, gold is no longer a currency, since it is not widely used or accepted as a common medium of exchange.
+On the one hand, debt-money theory defines money first and foremost as an intermediary exchange or means of payment that is generally accepted, or even imposed, by a public authority. From this perspective, gold is no longer a currency, since it is not widely used or accepted as a common medium of exchange.
 
 
-On the other hand, commodity money theory views money as a tangible commodity, spontaneously chosen by society for its intrinsic characteristics (scarcity, durability, divisibility, etc.). According to this approach, gold remains the true universal currency, and all other forms of money today are, fundamentally, no more than credit based on trust.
+On the other hand, commodity-money theory views money as a tangible commodity, spontaneously chosen by society for its intrinsic characteristics (scarcity, durability, divisibility, etc.). According to this approach, gold remains the true universal currency, and all other forms of money today are, fundamentally, no more than credit based on trust.
 
 
 This paradox clearly shows the gap between these two monetary conceptions: for the former, gold is no longer a currency; for the latter, on the contrary, it remains the only true currency in existence.
@@ -1992,7 +1992,7 @@ The term 'coin' originates from the Temple of Juno Moneta in Rome, where, legend
 ### The Punic Wars and currency crises
 
 
-Military conflicts had a considerable influence on Roman monetary development. During the Second Punic War (218-201 BC) against Carthage, Rome faced severe financial difficulties in the face of Hannibal's invasion. To alleviate these urgent needs, Rome resorted for the first time to an exceptional issue of gold coins, as well as to a significant devaluation of its silver coinage, from an initial purity of 97% to around 89%. The weight of bronze coins (aes) also dropped drastically, losing almost 80% in six years.
+Military conflicts had a considerable influence on Roman monetary development. During the Second Punic War (218-201 BC) against Carthage, Rome faced severe financial difficulties in the face of Hannibal's invasion. To alleviate these urgent needs, Rome resorted for the first time to an exceptional issue of gold coins, as well as to a significant debasement of its silver coinage, from an initial purity of 97% to around 89%. The weight of bronze coins (aes) also dropped drastically, losing almost 80% in six years.
 
 
 This practice of debasement during crisis was not unique to Rome. For instance, Carthage also experienced currency deterioration during the war. **Carthaginian** coins of the period often featured a palm tree on one side and a horse on the other. On the example shown below, the horse's design is significantly worn due to age.
@@ -2176,7 +2176,7 @@ This policy is described in the book "*Monetary Regime and Inflation*":
 It was Constantine (306-337 AD) who finally succeeded in stabilizing the monetary system by introducing the solidus in 312, a pure gold coin whose quality and weight he strictly guaranteed. An entire system for verifying the purity and weight of the solidus was established. **This stability, however, only affected a wealthy elite and the imperial administration**, while the **majority of the population continued to suffer from low-quality currency and persistent inflation**. The solidus remained stable in the Eastern Empire (Byzantium), where it lasted for more than a millennium, while in the West, coinage fragmented into small, low-value coins, accompanying the final economic and political disintegration of the Roman Empire, which fell definitively in 476 AD.
 
 
-To conclude, this quote from Glyn Davies' *A History of Money: From Ancient Times to the Present Day* masterfully summarizes the factors that perhaps led to Rome's downfall:
+To conclude, this quote from Glyn Davies' *A History of Money: From Ancient Times to the Present Day* masterfully encapsulates the factors precipitating Rome's downfall:
 
 
 *"Taxes were consistently inadequate, and the difficulties associated with these increasingly inadequate, belatedly adjusted, and highly visible taxes drove Rome to rely more on an easy, immediate and hidden form of taxation: currency devaluation. Short-lived, ad hoc reforms failed to reverse this age-old trend of decline. Financial pressures caused by the wear and tear of coins, shipwrecks, money leaks due to the purchase of luxury goods from the East, gifts offered to Germanic barbarians, the growth of urban populations, the decline of agricultural production, the gradual exhaustion of the richest mines, and above all the "bread and circuses" policies deemed essential to maintain a minimum of order in urban life - all these cumulative pressures led Rome to constant monetary devaluation, interspersed with occasional reforms doomed to failure."*
@@ -2186,19 +2186,19 @@ To conclude, this quote from Glyn Davies' *A History of Money: From Ancient Time
 
 
 
-## Links between monetary dilution and inflation: from causes to consequences
+## Links between monetary debasement and inflation: from causes to consequences
 
 <chapterId>38d5781c-e900-53f7-baa7-413655d71754</chapterId>
 
 :::video id=3999256d-aafe-4502-9b72-dfa8491a2777:::
 
-This section looks at the links between monetary dilution and inflation, from causes to consequences. Monetary dilution is one of the major economic phenomena in Roman monetary history, with direct effects on inflation. From the 1st century AD, there was an initial slow phase of dilution of silver coinage (denarius) from the reign of Nero (54-68 AD) onwards, accelerated by repeated military and financial crises, notably under Septimius Severus (193-211) and Gallienus (253-268).
+This section looks at the links between monetary debasement and inflation, from causes to consequences. Monetary debasement is one of the major economic phenomena in Roman monetary history, with direct effects on inflation. From the 1st century AD, there was an initial slow phase of debasement of silver coinage (denarius) from the reign of Nero (54-68 AD) onwards, accelerated by repeated military and financial crises, notably under Septimius Severus (193-211) and Gallienus (253-268).
 
 
 A more gradual devaluation of the aureus is also noted. This difference in the rate of devaluation highlights two points:
 
 
-1. The role of the unit of account in bimetallism for state control of money. The unit of account in this example is the denarius. There are three distinct methods of managing the value of the unit of account evident in this period: devaluation (dilution of the metal), redenomination (antoninianus) and the imposition of a face value by marking "XXI" (Aurelian)
+1. The role of the unit of account in bimetallism for state control of money. The unit of account in this example is the denarius. There are three distinct methods of managing the value of the unit of account evident in this period: devaluation (debasement of the metal), redenomination (antoninianus) and the imposition of a face value by marking "XXI" (Aurelian)
 
 2. The State's desire to postpone as long as possible the devaluation of the aureus, the reserve of value that enables the elite to maintain their purchasing power at the expense of the less fortunate. We will frequently revisit this principle throughout the course, especially in connection with the concept known as the "Cantillon effect" and the redenominations of the Maravedi in Spain.
 
@@ -2237,16 +2237,16 @@ A striking example of the effects of this reform by Aurelian is perfectly illust
 *"Between the reigns of the emperors Claudius (41-54 AD) and Constantius (337-361 AD), the price of wheat on the open market in Egypt, expressed in drachmas, **increased by a factor of over a million**. Spectacular price inflation is one of the central economic facts of the 3rd and 4th centuries AD" (Lendon 1990, p. 106). But this development is **less dramatic than it seems**, as it corresponds to an **average annual inflation rate of 4.4%**. And according to Wassink (1991, p. 482), inflation actually began **only in 238 AD**"*
 
 
-*"From this date onwards, inflation slowly accelerated, as **good money was first driven out of circulation**, so that the total money supply hardly increased at all at first. Subsequently, it reached an average annual rate of **3.65% between 250 and 293**, rising to **22.28% between 293 and 301** (Wassink 1991, p. 466), i.e., up to the **aborted monetary reforms of Emperor Diocletian**. This phenomenon is **particularly impressive for inflation in a metal-based monetary regime**. "*
+*"From this date onwards, inflation slowly accelerated, as **good money was first driven out of circulation**, so that the total money supply hardly increased at all at first. Subsequently, it reached an average annual rate of **3.65% between 250 and 293**, rising to **22.28% between 293 and 301** (Wassink 1991, p. 466), i.e., up to the **aborted monetary reforms of Emperor Diocletian**. This phenomenon is **particularly impressive for inflation under a commodity-money regime**. "*
 
 
-This phenomenon of inflation linked to monetary dilution initially responded to the occasional cash crises of the Roman state. By reducing the precious metal content of coins while maintaining their face value, the state temporarily increased its resources. But prices did not react immediately: indeed, the Roman system had a certain stickiness, which meant that wages and prices were slow to adapt to successive devaluations. Nevertheless, after a certain threshold, prices would rise sharply to bring the market back into balance with the real value of the currencies.
+This phenomenon of inflation linked to monetary debasement initially responded to the occasional cash crises of the Roman state. By reducing the precious metal content of coins while maintaining their face value, the state temporarily increased its resources. But prices did not react immediately: indeed, the Roman system had a certain stickiness, which meant that wages and prices were slow to adapt to successive devaluations. Nevertheless, after a certain threshold, prices would rise sharply to bring the market back into balance with the real value of the currencies.
 
 
 As mentioned above, this phenomenon is particularly evident from the middle of the 3rd century onwards. In Egypt, a richly documented region, prices were multiplied by 10 under Aurelian (274 AD) after an official revaluation of the currency, despite an initial attempt at stabilization. Then, under Diocletian (301 AD), the price edict imposed drastic controls to curb inflation without tackling the root cause - overproduction and monetary degradation - thus causing a predictable failure. Persistent inflation ultimately pushes the economy towards a two-tier system: **the elite, protected by gold reserves (like Constantine's solidus**), enjoy stability, while the majority of the population continues to suffer chronic inflation, **illustrating what is known today as the Cantillon effect.**
 
 
-There is a clear link between Roman monetary dilution and inflation, the causes of which are essentially linked to chronic fiscal deficits, incessant military spending, and poor state economic management.
+There is a clear link between Roman monetary debasement and inflation, the causes of which are essentially linked to chronic fiscal deficits, incessant military spending, and poor state economic management.
 
 
 
@@ -2336,16 +2336,16 @@ As reproduction of an English penny from that period is shown below.
 ![](./assets/fr/3_5_penny.webp)
 
 
-During the High Middle Ages, Europe fell into feudalism following the collapse of the Roman monetary system. The majority of the population used low-value copper or bronze coins, often subject to currency dilution, thus limiting trade over long distances.
+During the High Middle Ages, Europe fell into feudalism following the collapse of the Roman monetary system. The majority of the population used low-value copper or bronze coins, often subject to currency debasement, thus limiting trade over long distances.
 
 
 The return of coinage as a means of payment occurred gradually, culminating in the 13th century with the appearance of the gold florin in Florence in 1252, followed by the gold ducat in Venice. These gold coins were widely used thanks to the expansion of trade and the growing need for reliable, internationally accepted means of payment.
 
 
-In England, however, they did something clever. The monetary system was protected from dilution thanks to innovative fiscal policies, like the land tax introduced by William the Conqueror after 1066, which allowed them to preserve the quality of the penny sterling. **The introduction of this tax was a significant development, as it allowed the state to be financed through taxation rather than monetary dilution, thereby helping to maintain currency stability.**
+In England, however, they did something clever. The monetary system was protected from debasement thanks to innovative fiscal policies, like the land tax introduced by William the Conqueror after 1066, which allowed them to preserve the quality of the penny sterling. **The introduction of this tax was a significant development, as it allowed the state to be financed through taxation rather than monetary debasement, thereby helping to maintain currency stability.**
 
 
-However, the temptation to profit through monetary dilution led to crises, as in the reign of Henry I in the 12th century, when the quality of coinage fell dramatically. Severe reforms, sometimes accompanied by violent measures against coiners, temporarily restored confidence in the currency.
+However, the temptation to profit through monetary debasement led to crises, as in the reign of Henry I in the 12th century, when the quality of coinage fell dramatically. Severe reforms, sometimes accompanied by violent measures against coiners, temporarily restored confidence in the currency.
 
 
 The Middle Ages also saw the emergence of sophisticated financial practices, such as the use of tally sticks in England to circumvent the ban on usury and extend credit. The Church was not very keen on interest-bearing loans, so various techniques were used to circumvent the prohibition on the use of interest.
@@ -2549,7 +2549,7 @@ Dutch currency, the **Gulden**, gained credibility thanks to its purity in silve
 This period of prosperity was marked by a large influx of gold and silver, particularly from other countries practicing inflation or monetary control. An important figure from this period is **Thomas Gresham**. At this time, he worked for English royalty in the Netherlands, managing the flow of money between the two countries. This is the same Gresham who gave us the famous **Gresham's Law**.
 
 
-Nevertheless, the Dutch Empire also eventually ran out of steam. Wars with England, the dilution of the gulden in times of conflict, and competition from other powers (France and England) signaled the end of Dutch hegemony. After the Fourth Anglo-Dutch War (1780-84), the decline of the gulden as a reserve currency became irreversible.
+Nevertheless, the Dutch Empire also eventually ran out of steam. Wars with England, the debasement of the gulden in times of conflict, and competition from other powers (France and England) signaled the end of Dutch hegemony. After the Fourth Anglo-Dutch War (1780-84), the decline of the gulden as a reserve currency became irreversible.
 
 
 ### French power, ambitions and failures (17th-18th centuries)
@@ -2622,7 +2622,7 @@ Antwerp hosted merchant fairs where traders frequently gathered to settle debts,
 ![](./assets/fr/5_2_Billet_a_ordre.webp)
 
 
-This effervescence led to the creation of more sophisticated banking institutions. **Lombard bankers** and later Dutch merchants perfected credit instruments (bills of exchange, promissory bills, etc.). The modern banking system is based on this idea: money can be credit, not just metal.
+This effervescence led to the creation of more sophisticated banking institutions. **Lombard bankers** and later Dutch merchants perfected credit instruments (bills of exchange, promissory bills, etc.). The modern banking system is based on this idea: money can be scriptural money, not just metal.
 
 
 This brings us back to the fundamental question of the origins of money: does money emanate from a commodity that emerges from the need to exchange, or does it emerge from credit? 
@@ -2792,7 +2792,7 @@ Gold was undervalued at $35 per ounce, a price that did not reflect the volume o
 ### The modern fiat currency system and its implications
 
 
-This section summarizes the transition from a monetary system based on precious metals to the modern fiat system. Over time, institutions gained increasing power over money, culminating in a unilateral decision that severed the link between precious metals and currency, following a period of over-issuance.
+This section summarizes the transition from a commodity-money system based on precious metals to the modern fiat system. Over time, institutions gained increasing power over money, culminating in a unilateral decision that severed the link between precious metals and currency, following a period of over-issuance.
 
 
 As a result, there is no longer any link between gold and banknotes or scriptural money. The current system is not a fractional reserve system, as the concept is now outdated. Instead, private banks create money through the issuance of credit. This form of money creation is the primary method in the modern economy and is largely influenced by the key interest rate set by the central bank.
@@ -2964,7 +2964,7 @@ The "welfare state" emerged: industrial planning (Japan, Korea), military protec
 ### The microprocessor revolution
 
 
-Three technological innovations are now disrupting these long-standing balances. The microprocessor is transforming warfare: an operator in Nevada pilots a drone in Afghanistan with surgical precision. The Gulf War (1991) demonstrated this breakthrough: the world's fourth-largest army (Iraq's) was defeated in 45 days, with fewer than 200 deaths on the coalition side. Technological superiority rendered frontal attack obsolete.
+Three technological innovations are now disrupting these long-standing balances. The microprocessor is revolutionizing warfare, enabling an operator in Nevada to pilot a drone in Afghanistan with surgical precision. The Gulf War (1991) demonstrated this breakthrough: the world's fourth-largest army (Iraq's) was defeated in 45 days, with fewer than 200 deaths on the coalition side. Technological superiority rendered frontal attack obsolete.
 
 
 The Internet and asymmetric cryptography are revolutionizing value creation. A developer can work from anywhere with a MacBook and Starlink, exporting their production instantly and free of charge. Digital nomads escape geographical constraints, compelling states to compete for them in a way not seen since the Renaissance.

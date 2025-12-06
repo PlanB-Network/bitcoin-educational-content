@@ -3045,17 +3045,16 @@ My purpose here is not to argue that one system is superior to another. Rather, 
 The point is that insurance is fundamentally an evolution of finance, and as governments often do, they have attempted to seize control of it, just as they have with money, for several reasons. 
 
 
-One reason, incidentally, is the concept of the lender of last resort.
-The idea is that it's much better if there's a big institution behind it that distributes the risk more widely. That was the initial initiative behind the notion of lender of last resort, where this institution could actually choose institutions that were strong enough to survive and prevent them from collapsing by lending them money.
+One such reason is the concept of the lender of last resort. The idea is that  a large, backstopping institution can distribute risk more broadly. The initial intent behind this concept was for an institution could to selectively support strong financial entities, preventing their collapse by lending to money.
 
 
-At the time, there was a real analysis when this concept finally appeared for the first time, but what ended up happening is that we save everyone, "too big to fail", it applies to almost all the banks because there is centralization, and also to all the big companies. In the end, we see that it's still a concept that is applied "at large" by the State, similar to the concept of insurance that I've just described to you.
+However, what ultimately emerged was a system of universal bailouts. The "too big to fail" principle initially intended for a few, was applied broadly to nearly all banks and major corporations due to financial centralization. This is a concept applied "at large" by the state, much like the insurance model previously described.
 
 
-Ultimately, the state decides that it's going to take care of everything, turning a financial technology created in Scotland to solve a specific problem into the vast welfare state we know today. It uses actuarial financial principles to offer services to its population in need. However, we can agree that the monopolies arising from this system create all sorts of problems, which we are currently experiencing in countries like Canada and France. Fortunately, different models exist, such as the one in Switzerland.
+Ultimately, the state assumed responsibility for these functions, transforming a financial technology created in Scotland to solve a specific problem into the vast welfare state we know today. It uses actuarial financial principles to provide services to its population, however, it is widely acknowledged that the monopolies arising from this system create significant problems, as seen in countries like Canada and France. Fortunately, alternative models exist, such as the one in Switzerland.
 
 
-We simply have to realize that this concept of the welfare state emanates from finance. This realization suggests that we can explore avenues other than the famous state monopolies, and I would even apply this reasoning to the concept of central banks as lenders of last resort - but that's a subject for another time.
+Recognizing that the welfare state concept originates in finance allows us to explore avenues other alternatives to state monopolies. This same reasoning could be applied to the concept of central banks as lenders of last resort—but that is a subject for another time.
 
 
 # Final section

@@ -103,8 +103,7 @@ To operate with RGB assets, you need to fund your wallet. KaleidoSwap supports d
 
 To receive RGB assets (like USDT), you need specific UTXOs available to be "colored" (assigned an asset).
 
-1. Click **Deposit** and select the RGB asset (e.g., USDT).
-    - **Important**: If this is the **first time** your node is receiving this specific asset, **leave the Asset ID field empty**. Entering an ID for an unknown asset will cause the node to return an error as it doesn't recognize it yet.
+1. Click **Deposit** and select the RGB asset (e.g., USDT). **Important**: If this is the **first time** your node is receiving this specific asset, **leave the Asset ID field empty**. Entering an ID for an unknown asset will cause the node to return an error as it doesn't recognize it yet.
 2. Choose **On-chain** or **Lightning**.
 
 ![USDT Deposit Options](assets/en/09.webp)
@@ -148,9 +147,7 @@ To route RGB assets over the Lightning Network, you need a channel with sufficie
 
 ![RGB Allocation](assets/en/14.webp)
 
-5.  **Payment**: You must pay a fee to the LSP for opening the channel and providing liquidity.
-    - You can pay using **Lightning** or **On-chain** Bitcoin.
-    - The payment can be made from your internal KaleidoSwap wallet or an external wallet.
+5.  **Payment**: You must pay a fee to the LSP for opening the channel and providing liquidity. You can pay using **Lightning** or **On-chain** Bitcoin. The payment can be made from your internal KaleidoSwap wallet or an external wallet.
 
 ![Complete Payment](assets/en/15.webp)
 

@@ -67,7 +67,7 @@ We'll examine in detail the advent of paper money and central banking, drawing p
 Finally, we'll connect these historical threads to our contemporary monetary system, exploring its consequences and tracing the history of finance to better understand the origins of today's welfare state.
 
 
-As a bonus, we'll also uncover the many fascinating etymological links related to money that continue to influence our daily lives and languages.
+As a bonus, we'll also un the many fascinating etymological links related to money that continue to influence our daily lives and languages.
 
 
 ### Course structure
@@ -1081,7 +1081,7 @@ This section will survey the primary theories on the emergence of money, present
 
 :::video id=873a16c1-17ac-448d-8941-df4feb7ab79d:::
 
-This segment is dedicated to the different theories on the emergence of money. The first topic to be covered is the classical economists' theory of money's emergence.
+This segment is dedicated to the different theories on the emergence of money. The first topic to be explored is the classical economists' theory of money's emergence.
 
 
 ### Adam Smith's classic theory
@@ -1129,7 +1129,7 @@ In conclusion, coins necessarily emanate from authority, since they were stamped
 ### David Graeber's review
 
 
-The emergence of money according to classical economists has been covered. A concept known as the barter myth will now be examined.
+The emergence of money according to classical economists has been explored. A concept known as the barter myth will now be examined.
 
 
 One criticism of this classic theory of the emergence of money is the lack of historical evidence to support its ideas.
@@ -1169,7 +1169,7 @@ As was seen earlier in the section on Egypt and even Mesopotamia and China, thes
 ### Money as an IOU
 
 
-In this section, the debt-money theory is covered.
+In this section, the debt-money theory is explored.
 
 
 The **debt-money theory**, developed notably by economist Alfred Mitchell-Innes and later expanded by David Graeber, asserts that money did not originate from barter, but rather from debt and credit relationships present from the earliest human societies. According to this theory, money appears when social obligations (debts between individuals or groups) become quantified and transferable. This concept introduces the notion of the quantification of exchanges and transfer. Thus, money is above all a **recognition of debt**, backed by mutual trust and often guaranteed by political or religious authority, rather than a commodity serving merely as an intermediary in exchanges.
@@ -2882,7 +2882,7 @@ The history of finance is a recurring cycle: print, speculate, collapse. Until t
 
 :::video id=bd6d0807-2d8f-4637-a0f5-1e990e5c0d0f:::
 
-This final section will revisit several events we've already covered, but I want to do it to make a specific point. I'm going to share a few anecdotes that I find particularly revealing about the link between money and violence.
+This final section will revisit several events we've already examined, but I want to do it to make a specific point. I'm going to share a few anecdotes that I find particularly revealing about the link between money and violence.
 
 
 ### Technology and violence

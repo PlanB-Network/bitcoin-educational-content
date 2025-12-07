@@ -4,14 +4,14 @@ goal: Découvrez l'évolution de la liberté à travers les âges, des philosoph
 objectives:
 - Analyser les philosophies politiques de la liberté et du pouvoir.
 - Retracer les origines historiques de la liberté de l'Antiquité au Moyen Âge.
-- Examiner l'essor et le déclin de la liberté du XIXe au XXe siècle.
+- Examiner l'essor et le déclin de la liberté du XIXᵉ  au XXᵉ  siècle.
 - Analyser la relation entre la liberté politique et économique.
 ---
 # Un voyage à travers l'histoire philosophique de la liberté
 
-Ce cours examine la liberté à travers l'histoire en analysant deux philosophies politiques concurrentes : la liberté et le pouvoir. Vous étudierez des penseurs influents, tels que Frédéric Bastiat, Lord Acton, Karl Marx et Murray Rothbard, ainsi que leurs points de vue contrastés sur la production, le pillage, la lutte des classes et le rôle de l'État.
+Ce cours examine la liberté à travers l'histoire en analysant deux philosophies politiques concurrentes : la liberté et le pouvoir. Vous étudierez des penseurs influents tels que Frédéric Bastiat, Lord Acton, Karl Marx et Murray Rothbard, ainsi que leurs points de vue contrastés sur la production, le pillage, la lutte des classes et le rôle de l'État.
 
-De l'Antiquité aux Lumières, la liberté s'est élevée à mesure que les sociétés embrassaient la tolérance et l'indépendance économique. Pourtant, les XIXe et XXe siècles ont apporté un déclin, alors que le capitalisme faisait face à la critique et que le collectivisme montait. Explorez comment ces changements éclairent les menaces actuelles pesant sur la liberté et commencez dès maintenant à comprendre la bataille entre la liberté et le pouvoir.
+De l'Antiquité aux Lumières, la liberté s'est élevée à mesure que les sociétés embrassaient la tolérance et l'indépendance économique. Pourtant, les XIXᵉ et XXᵉ siècles ont apporté un déclin, alors que le capitalisme faisait face à la critique et que le collectivisme montait. Explorez comment ces changements éclairent les menaces actuelles qui pèsent sur la liberté et commencez dès maintenant à comprendre la bataille entre la liberté et le pouvoir.
 +++
 # Introduction
 
@@ -24,7 +24,7 @@ De l'Antiquité aux Lumières, la liberté s'est élevée à mesure que les soci
 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
-Bienvenu dans le cours PHI201 !
+Bienvenue dans le cours PHI201 !
 
 Cette formation vous invite à explorer l’évolution de la liberté à travers l’histoire en analysant les grands courants de pensée qui l’ont façonnée. Vous découvrirez comment la notion de liberté s’est construite au fil des siècles, en opposition ou en collaboration avec le pouvoir, à travers un parcours historique allant de l’Antiquité aux débats contemporains.
 
@@ -34,17 +34,17 @@ Nous débuterons par un panorama des deux grandes philosophies politiques qui on
 **Section 2 : Les origines de la liberté : l’Antiquité**  
 Ici, nous remonterons aux racines de la pensée philosophique avec les Grecs, qui ont inventé la rationalité critique, et les Romains, qui ont établi les bases du droit moderne. Nous examinerons également la chute de Rome comme un moment charnière qui redéfinit l’organisation politique et sociale autour de la notion de liberté.
 
-**Section 3 : Les origines de la liberté : le Moyen-Âge**  
-Le Moyen-Âge est souvent perçu comme une période obscure, mais nous découvrirons qu’il a en réalité jeté les bases de la liberté moderne. Nous étudierons l’affirmation de la liberté humaine, les débats entre raison et foi, la naissance de l’État souverain, l’éthique biblique valorisant l’individu, ainsi que les premières ébauches du capitalisme qui apparaissent à cette époque.
+**Section 3 : Les origines de la liberté : le Moyen Âge**  
+Le Moyen Âge est souvent perçu comme une période obscure, mais nous découvrirons qu’il a en réalité jeté les bases de la liberté moderne. Nous étudierons l’affirmation de la liberté humaine, les débats entre raison et foi, la naissance de l’État souverain, l’éthique biblique valorisant l’individu, ainsi que les premières ébauches du capitalisme qui apparaissent à cette époque.
 
 **Section 4 : L’essor de la liberté : de la Renaissance aux Lumières**  
 Cette section portera sur l’émergence de la tolérance religieuse et de la liberté économique, qui prendront leur essor lors de la Renaissance et des Lumières. Nous analyserons aussi l’importance de l’année 1776, qui marque un tournant majeur avec des événements clés pour le monde libre, avant de plonger dans l’ère des révolutions qui redéfiniront la notion même de liberté.
 
-**Section 5 : Apogée et déclin : du XIXe au XXe siècle**  
-Nous poursuivrons par l’étude des bouleversements des XIXe et XXe siècles, en mettant en perspective les forces et faiblesses de la démocratie, les critiques marxistes du capitalisme et la réponse autrichienne à ces critiques. Nous explorerons aussi les avertissements sur les dangers du collectivisme à travers des œuvres majeures telles que "La route de la servitude".
+**Section 5 : Apogée et déclin : du XIXᵉ au XXᵉ siècle**  
+Nous poursuivrons par l’étude des bouleversements des XIXᵉ et XXᵉ siècles, en mettant en perspective les forces et faiblesses de la démocratie, les critiques marxistes du capitalisme et la réponse autrichienne à ces critiques. Nous explorerons aussi les avertissements sur les dangers du collectivisme à travers des œuvres majeures telles que "La Route de la servitude".
 
-**Section 6 : L’essor de l’État providence au XXe siècle**  
-Enfin, cette section examinera comment l’État providence a progressivement pris le pas sur les idées de liberté économique, en analysant notamment le triomphe de Keynes et l’abandon de l’étalon-or. Nous conclurons sur l’importance des idées pour influer sur le cours de l’histoire et la place que la liberté occupe encore dans nos sociétés modernes.
+**Section 6 : L’essor de l’État-providence au XXᵉ siècle**  
+Enfin, cette section examinera comment l’État-providence a progressivement pris le pas sur les idées de liberté économique, en analysant notamment le triomphe de Keynes et l’abandon de l’étalon-or. Nous conclurons sur l’importance des idées pour influer sur le cours de l’histoire et la place que la liberté occupe encore dans nos sociétés modernes.
 
 Prêt à plonger dans ce parcours philosophique unique sur la quête de la liberté ? Allons-y !
 
@@ -60,63 +60,64 @@ Prêt à plonger dans ce parcours philosophique unique sur la quête de la liber
 
 Pourquoi intituler ce cours : une histoire de la liberté ? Parce que nous avons besoin de comprendre la relation entre les idées et les événements, pour mieux juger notre époque et agir avec discernement. C’est dans le passé que nous trouvons les éléments d'une meilleure compréhension de ce qu’est la liberté et des raisons pour lesquelles nous devons la chérir.
 
-> Quand le passé n'éclaire plus l'avenir, l'esprit marche dans les ténèbres (Alexis de Tocqueville - _De la démocratie en Amérique_.)
-
 ![image](assets/fr/001.webp)
 
-A la même époque, on trouve cette phrase d’Auguste Comte : « On ne connaît pas complètement une science tant qu'on n'en sait pas l'histoire ». On pourrait appliquer cette vérité à l’idée de liberté.
+À la même époque, on trouve cette phrase d’Auguste Comte : « On ne connaît pas complètement une science tant qu'on n'en sait pas l'histoire ». On pourrait appliquer cette vérité à l’idée de liberté.
 
 En effet, la liberté n’est pas une idée nouvelle. C’est un héritage transmis par les générations. Toute l’histoire de la civilisation est le témoignage d’une lutte incessante pour la liberté.
 
 ![image](assets/fr/002.webp)
 
-Mais le but de ce cours n'est pas seulement d'éclairer le passé de la liberté mais aussi et surtout de se former un jugement critique. En effet l’histoire ne suffit pas pour juger le présent et l’avenir. Elle a besoin d’être accompagnée d’une réflexion critique et d’un jugement sur les erreurs du passé. Tel est l’apport de la philosophie. C’est pourquoi j’ai intitulé ce cours : une histoire philosophique de la liberté. Il s’agit en effet d’explorer la manière dont les philosophes ont conçu la liberté au cours des âges.
+Mais le but de ce cours n'est pas seulement d'éclairer le passé de la liberté, mais aussi et surtout de se former un jugement critique. En effet, l’histoire ne suffit pas pour juger le présent et l’avenir. Elle a besoin d’être accompagnée d’une réflexion critique et d’un jugement sur les erreurs du passé. Tel est l’apport de la philosophie. C’est pourquoi j’ai intitulé ce cours : une histoire philosophique de la liberté. Il s’agit en effet d’explorer la manière dont les philosophes ont conçu la liberté au cours des âges.
 
 ### La tâche de la philosophie
 
 Depuis ses origines, elle est double :
 
-- Premièrement, elle est de donner un sens à des concepts flous et confus. Qu’est-ce que le bien, le vrai, le juste, le beau ? Autant l’histoire a pour fonction d’éclairer le passé, autant la philosophie est l’art de définir correctement les concepts. C’est pourquoi il nous faut commencer dans ce
-  cours par comprendre ce qu’est la liberté.
+- Premièrement, elle consiste à donner un sens à des concepts flous et confus. Qu’est-ce que le bien, le vrai, le juste, le beau ? Autant l’histoire a pour fonction d’éclairer le passé, autant la philosophie est l’art de définir correctement les concepts. C’est pourquoi il nous faut commencer dans ce cours par comprendre ce qu’est la liberté.
 
 ![image](assets/fr/003.webp)
 
-La liberté est un concept qui recouvre une multitude de variantes qui sont autant de déclinaisons possible d’une même réalité : liberté politique, économique, liberté de conscience, de parole, liberté religieuse, d’association etc. De quelle réalité s’agit-il ?
+La liberté est un concept qui recouvre une multitude de variantes qui sont autant de déclinaisons possibles d’une même réalité : liberté politique, économique, liberté de conscience, de parole, liberté religieuse, d’association, etc. De quelle réalité s’agit-il ?
 
 La liberté peut se définir simplement comme le pouvoir du choix, avec ce qui est à soi. C’est une faculté inhérente à l’être humain. C’est une réalité par essence individuelle. Seul l’individu peut penser et agir, c’est-à-dire faire des choix. Cela ne signifie pas que l’individu est seul, qu’il ne doit rien aux autres. Au contraire, il vit en société et doit coopérer avec les autres pour son propre bien. Mais chacun reste libre de coopérer ou non et doit assumer la responsabilité de ses choix.
 
-La notion de responsabilité est corollaire de la liberté car tout choix a des conséquences. Est responsable celui qui assume les coûts de ses propres choix et ne fait pas reposer ce coût sur les autres. En d’autre termes, la liberté est exigeante. C’est une notion morale qui implique des droits mais aussi des devoirs envers les autres, dont celui de respecter leur liberté.
+La notion de responsabilité est corollaire de la liberté, car tout choix a des conséquences. Est responsable celui qui assume les coûts de ses propres choix et ne fait pas reposer ce coût sur les autres. En d’autres termes, la liberté est exigeante. C’est une notion morale qui implique des droits mais aussi des devoirs envers les autres, dont celui de respecter leur liberté.
 
-- Deuxièmement, la philosophie est normative, à la différence de l’histoire qui est seulement descriptive. Ainsi la philosophie politique se distingue des sciences politiques. La philosophie politique est normative, cela signifie qu’elle prescrit des valeurs et juge les actions humaines à l’aune d’un critère de la justice. De leur côté, les sciences politiques se contentent de décrire les régimes, de faire l’histoire des institutions, sans porter de jugement de valeur.
+- Deuxièmement, la philosophie est normative, à la différence de l’histoire qui est seulement descriptive. Ainsi, la philosophie politique se distingue des sciences politiques. La philosophie politique est normative, cela signifie qu’elle prescrit des valeurs et juge les actions humaines à l’aune d’un critère de justice. De leur côté, les sciences politiques se contentent de décrire les régimes, de faire l’histoire des institutions, sans porter de jugement de valeur.
 
 ### Philosophie de la liberté et philosophie du pouvoir
 
-De ce point de vue, il n’existe deux sortes de philosophies politiques et deux seulement. La philosophie de la liberté et la philosophie du pouvoir.
+De ce point de vue, il n’existe que deux sortes de philosophies politiques, et deux seulement : la philosophie de la liberté et la philosophie du pouvoir.
 
 ![image](assets/fr/004.webp)
 
-- La philosophie de la liberté est celle qui s’appuie sur le droit naturel de propriété et affirme que la loi n’a d’autre objet que de protéger la propriété privée et les contrats. Chacun devrait pouvoir faire ce qu’il veut avec ce qui lui appartient à condition de n’agresser personne. C’est une philosophie qui défend une égale liberté pour tous de disposer de soi et de sa propriété sous condition de responsabilité. C’est la philosophie du libre marché.
-- La philosophie du pouvoir justifie l’autorité de certaines entités collectives comme l’État ou la société pour décider des limites à donner au marché et à la propriété, donc à la liberté. Dans ce cadre, c’est à la loi d’organiser l’économie, la santé, le logement, la culture, l’éducation... Cette philosophie constructiviste a toujours eu ses défenseurs, au nom de l’intérêt collectif, de l’égalité, de la protection et du bien-être.
+- La philosophie de la liberté est celle qui s’appuie sur le droit naturel de propriété et affirme que la loi n’a d’autre objet que de protéger la propriété privée et les contrats. Chacun devrait pouvoir faire ce qu’il veut avec ce qui lui appartient, à condition de n’agresser personne. C’est une philosophie qui défend une égale liberté pour tous de disposer de soi et de sa propriété, sous condition de responsabilité. C’est la philosophie du libre marché.
+- La philosophie du pouvoir justifie l’autorité de certaines entités collectives, comme l’État ou la société, pour décider des limites à donner au marché et à la propriété, donc à la liberté. Dans ce cadre, c’est à la loi d’organiser l’économie, la santé, le logement, la culture, l’éducation... Cette philosophie constructiviste a toujours eu ses défenseurs, au nom de l’intérêt collectif, de l’égalité, de la protection et du bien-être.
 
 L’antagonisme entre ces deux philosophies existe à toutes les époques. Mais nous pouvons l’illustrer avec la philosophie des Lumières. On voit clairement une ligne de partage entre deux types de penseurs.
 
-Ceux qui défendent la première philosophie en France sont les Physiocrates, avec François Quesnay à leur tête. Ils se nomment Physiocrates, (le nom vient du grec Physis qui veut dire nature et Kratos qui veut dire règle) car ils développent une pensée économique et sociale fondée sur les droits naturels de l’homme. Pour eux la société, les personnes et les propriétés existent antérieurement aux lois. Dans ce système, explique Bastiat,
+Ceux qui défendent la première philosophie en France sont les Physiocrates, avec François Quesnay à leur tête. Ils se nomment Physiocrates (le nom vient du grec *Physis*, qui veut dire "nature", et *Kratos*, qui veut dire "règle"), car ils développent une pensée économique et sociale fondée sur les droits naturels de l’homme. Pour eux, la société, les personnes et les propriétés existent antérieurement aux lois. Dans ce système, explique Bastiat :
 
-> Ce n’est pas parce qu’il y a des lois qu’il y a des propriétés, mais parce qu’il y a des propriétés qu’il y a des lois. (_Propriété et Loi_).
+> Ce n’est pas parce qu’il y a des lois qu’il y a des propriétés, mais parce qu’il y a des propriétés qu’il y a des lois.
+>
+> (_Propriété et Loi_, Frédéric Bastiat).
 
 ![image](assets/fr/005.webp)
 
-Pour Turgot et Say, disciples de Quesnay, il existe une loi naturelle, indépendante du bon plaisir des législateurs qui est valable pour tous les hommes et antérieure à toute société. C’est une philosophie qui provient en droite ligne de la scolastique médiévale, des stoïciens, d’Aristote et de Sophocle. Les lois non-écrites sont à la fois antérieures et supérieurs aux lois écrites car elles découlent de la nature humaine et de la raison.
+Pour Turgot et Say, disciples de Quesnay, il existe une loi naturelle, indépendante du bon plaisir des législateurs, qui est valable pour tous les hommes et antérieure à toute société. C’est une philosophie qui provient en droite ligne de la scolastique médiévale, des stoïciens, d’Aristote et de Sophocle. Les lois non écrites sont à la fois antérieures et supérieures aux lois écrites, car elles découlent de la nature humaine et de la raison.
 
 ![image](assets/fr/006.webp)
 
-La seconde philosophie se retrouve chez des auteurs comme Rousseau, Robespierre ou Kant, qui incarnent la tradition républicaine pour laquelle la souveraineté de la volonté générale est la véritable source du droit. Contemporain de Quesnay, Rousseau est un anti-physiocrate. Pour lui le législateur doit organiser la société, comme un mécanicien qui invente une machine à partir d’une matière inerte.
+La seconde philosophie se retrouve chez des auteurs comme Rousseau, Robespierre ou Kant, qui incarnent la tradition républicaine pour laquelle la souveraineté de la volonté générale est la véritable source du droit. Contemporain de Quesnay, Rousseau est un anti-physiocrate. Pour lui, le législateur doit organiser la société, comme un mécanicien qui invente une machine à partir d’une matière inerte.
 
 ![image](assets/fr/007.webp)
 
-> Celui qui ose entreprendre d’instituer un peuple, dit Rousseau, doit se sentir en état de changer, pour ainsi dire, la nature humaine, de transformer chaque individu qui, par lui-même, est un tout parfait et solitaire, en partie d’un plus grand tout dont cet individu reçoive en quelque sorte sa vie et son être. (_Contrat social_)
+> Celui qui ose entreprendre d’instituer un peuple, dit Rousseau, doit se sentir en état de changer, pour ainsi dire, la nature humaine, de transformer chaque individu qui, par lui-même, est un tout parfait et solitaire, en partie d’un plus grand tout dont cet individu reçoive en quelque sorte sa vie et son être.
+>
+> (_Contrat social_, Jean-Jacques Rousseau)
 
-Dans cette perspective, le législateur a pour mission d’organiser, modifier, supprimer même la propriété, s’il le trouve bon. Pour Rousseau, la propriété n’est pas naturelle mais conventionnelle, comme la société elle-même. À son tour Robespierre pose le principe que « La propriété est le droit qu’a chaque citoyen de jouir et de disposer de la portion de biens qui lui est garantie par la loi ». Il n’y a pas de droit naturel de propriété, il n’y a qu’un nombre indéfini d’arrangements possibles et contingents.
+Dans cette perspective, le législateur a pour mission d’organiser, modifier, supprimer même la propriété, s’il le trouve bon. Pour Rousseau, la propriété n’est pas naturelle mais conventionnelle, comme la société elle-même. À son tour, Robespierre pose le principe que : « La propriété est le droit qu’a chaque citoyen de jouir et de disposer de la portion de biens qui lui est garantie par la loi ». Il n’y a pas de droit naturel de propriété, il n’y a qu’un nombre indéfini d’arrangements possibles et contingents.
 
 ## Frédéric Bastiat : production versus spoliation
 
@@ -127,39 +128,57 @@ Dans cette perspective, le législateur a pour mission d’organiser, modifier, 
 
 Quand on ouvre les manuels scolaires, remarquait Bastiat, on apprend que l’humanité serait vouée au néant sans l’intervention du pouvoir :
 
-> Il suffit d’ouvrir, à peu près au hasard, un livre de philosophie, de politique ou d’histoire pour voir combien est fortement enracinée dans notre pays cette idée, fille des études classiques et mère du Socialisme, que l’humanité est une matière inerte recevant du pouvoir la vie, l’organisation, la moralité et la richesse ; — ou bien, ce qui est encore pis, que d’elle-même l’humanité tend vers sa dégradation et n’est arrêtée sur cette pente que par la main mystérieuse du Législateur. ([_La loi_](http://bastiat.org/fr/la_loi.html)).
+> Il suffit d’ouvrir, à peu près au hasard, un livre de philosophie, de politique ou d’histoire pour voir combien est fortement enracinée dans notre pays cette idée, fille des études classiques et mère du Socialisme, que l’humanité est une matière inerte recevant du pouvoir la vie, l’organisation, la moralité et la richesse ; — ou bien, ce qui est encore pis, que d’elle-même l’humanité tend vers sa dégradation et n’est arrêtée sur cette pente que par la main mystérieuse du Législateur.
+>
+> ([_La loi_](http://bastiat.org/fr/la_loi.html))
 
-Autrement dit, le préjugé culturel qui domine la philosophie occidentale ainsi que l’historiographie c’est que nous devons tout au pouvoir : la liberté, la santé, l’éducation, la sécurité, la prospérité. L’humanité est décrite comme une « matière inerte » qui prendrait forme grâce au législateur.
+Autrement dit, le préjugé culturel qui domine la philosophie occidentale ainsi que l’historiographie est que nous devons tout au pouvoir : la liberté, la santé, l’éducation, la sécurité, la prospérité. L’humanité est décrite comme une « matière inerte » qui prendrait forme grâce au législateur.
 
-Mais la réalité du pouvoir est tout autre selon Bastiat. Le pouvoir c’est l’oppression. Il écrit :
+Mais la réalité du pouvoir est tout autre selon Bastiat. Le pouvoir, c’est l’oppression. Il écrit :
 
-> Ouvrez donc au hasard les annales de l’humanité ! Consultez l’histoire ancienne ou moderne, sacrée ou profane, demandez-vous d’où sont venues toutes ces guerres de races, de classes, de nations, de familles ! Vous obtiendrez toujours cette réponse invariable : De la soif du pouvoir. ([_Incompatibilités parlementaires_](http://bastiat.org/fr/incompatibilites_parlementaires.html))
+> Ouvrez donc au hasard les annales de l’humanité ! Consultez l’histoire ancienne ou moderne, sacrée ou profane, demandez-vous d’où sont venues toutes ces guerres de races, de classes, de nations, de familles ! Vous obtiendrez toujours cette réponse invariable : De la soif du pouvoir.
+>
+> ([_Incompatibilités parlementaires_](http://bastiat.org/fr/incompatibilites_parlementaires.html))
 
-C’est la soif du pouvoir qui est à l’origine de toutes les formes d’oppression dans l’histoire. Dans une lettre à Mme Chevreux, datée du 23 juin 1850, Bastiat indique quelles sont les phases de l’oppression : « Les temps de luttes, à qui s’emparera de l’État ; et les temps de trêve qui seront le règne éphémère d’une oppression triomphante, présage d’une lutte nouvelle. » D’abord la conquête du pouvoir par la guerre, puis l’établissement d’un État qui subsiste par le pillage des richesses de ses citoyens.
+C’est la soif du pouvoir qui est à l’origine de toutes les formes d’oppression dans l’histoire. Dans une lettre à Mme Chevreux, datée du 23 juin 1850, Bastiat indique quelles sont les phases de l’oppression : « Les temps de luttes, à qui s’emparera de l’État ; et les temps de trêve qui seront le règne éphémère d’une oppression triomphante, présage d’une lutte nouvelle ». D’abord la conquête du pouvoir par la guerre, puis l’établissement d’un État qui subsiste par le pillage des richesses de ses citoyens.
 
 L’histoire est donc une lutte entre deux principes : la liberté et l’oppression :
 
-> Liberté ! voilà, en définitive, le principe harmonique. Oppression ! voilà le principe dissonant ; la lutte de ces deux puissances remplit les annales du genre humain. ([_Harmonies économiques_](http://bastiat.org/fr/conclusion_eo_harmonies.html), conclusion de l’édition originale).
+> Liberté ! voilà, en définitive, le principe harmonique. Oppression ! voilà le principe dissonant ; la lutte de ces deux puissances remplit les annales du genre humain.
+>
+> ([_Harmonies économiques_](http://bastiat.org/fr/conclusion_eo_harmonies.html), conclusion de l’édition originale).
 
 ### Qu’est-ce que l’oppression ?
 
 ![image](assets/fr/008.webp)
 
-En un mot, c’est la spoliation. Bastiat esquisse les principaux types de spoliation qui proviennent des élites dirigeantes : la guerre, l’esclavage, la théocratie et le monopole. En effet, selon lui : « Il n’y a que deux moyens de se procurer les choses nécessaires à la conservation, à l’embellissement et au perfectionnement de la vie : la PRODUCTION et la SPOLIATION. » ([_Physiologie de la Spoliation_](http://bastiat.org/fr/physiologie_de_la_spoliation.html))
+En un mot, c’est la spoliation. Bastiat esquisse les principaux types de spoliation qui proviennent des élites dirigeantes : la guerre, l’esclavage, la théocratie et le monopole. En effet, selon lui : 
+
+> Il n’y a que deux moyens de se procurer les choses nécessaires à la conservation, à l’embellissement et au perfectionnement de la vie : la PRODUCTION et la SPOLIATION.
+>
+> ([_Physiologie de la Spoliation_](http://bastiat.org/fr/physiologie_de_la_spoliation.html))
 
 Quelle est la différence entre production et spoliation ? Voici la réponse de Bastiat :
 
-> Pour produire, il faut diriger toutes ses facultés vers la domination de la nature ; car c’est elle qu’il s’agit de combattre, de dompter et d’asservir. C’est pourquoi le fer converti en charrue est l’emblème de la production. Pour spolier, il faut diriger toutes ses facultés vers la domination des hommes ; car ce sont eux qu’il faut combattre, tuer ou asservir. C’est pourquoi le fer converti en épée est l’emblème de la spoliation. ([_Harmonies économiques_](http://bastiat.org/fr/guerre.html), Guerre).
+> Pour produire, il faut diriger toutes ses facultés vers la domination de la nature ; car c’est elle qu’il s’agit de combattre, de dompter et d’asservir. C’est pourquoi le fer converti en charrue est l’emblème de la production. Pour spolier, il faut diriger toutes ses facultés vers la domination des hommes ; car ce sont eux qu’il faut combattre, tuer ou asservir. C’est pourquoi le fer converti en épée est l’emblème de la spoliation.
+>
+> ([_Harmonies économiques_](http://bastiat.org/fr/guerre.html), Guerre).
 
-Autrement dit, la production c’est le pouvoir sur la nature. La spoliation c’est le pouvoir sur les hommes. Or il y a deux formes de spoliation : légale et illégale.
+Autrement dit, la production, c’est le pouvoir sur la nature. La spoliation, c’est le pouvoir sur les hommes. Or il y a deux formes de spoliation : légale et illégale.
 
-La spoliation illégale, c’est le vol ou le crime accomplit par un citoyen contre un autre citoyen. C’est l’action du bandit ou de l’escroc.
+La spoliation illégale, c’est le vol ou le crime accompli par un citoyen contre un autre citoyen. C’est l’action du bandit ou de l’escroc.
 
-Mais la pire forme de spoliation est celle qui est accomplie par la loi : « Il y a des gens qui pensent que la spoliation perd toute son immoralité pourvu qu’elle soit légale. Quant à moi, je ne saurais imaginer une circonstance plus aggravante. » ([_Ce qu’on voit et ce qu’on ne voit pas_](http://bastiat.org/fr/cqovecqonvp.html#RESTRICTION)).
+Mais la pire forme de spoliation est celle qui est accomplie par la loi : 
+
+> Il y a des gens qui pensent que la spoliation perd toute son immoralité pourvu qu’elle soit légale. Quant à moi, je ne saurais imaginer une circonstance plus aggravante.
+>
+> ([_Ce qu’on voit et ce qu’on ne voit pas_](http://bastiat.org/fr/cqovecqonvp.html#RESTRICTION)).
 
 Il y a encore deux formes de spoliation légale, nous dit Bastiat :
 
-> La spoliation au dehors s’appelle guerre, conquêtes, colonies. La spoliation au dedans se nomme impôts, places, monopoles. ([_Cobden et la ligue_](http://bastiat.org/fr/introduction_cobden_ligue.html)_, Introduction_).
+> La spoliation au dehors s’appelle guerre, conquêtes, colonies. La spoliation au dedans se nomme impôts, places, monopoles.
+>
+> ([_Cobden et la ligue_](http://bastiat.org/fr/introduction_cobden_ligue.html)_, Introduction).
 
 Dans [_Physiologie de la spoliation_](http://bastiat.org/fr/physiologie_de_la_spoliation.html), il développe :
 
@@ -169,15 +188,17 @@ Dans [_Physiologie de la spoliation_](http://bastiat.org/fr/physiologie_de_la_sp
 
 ![image](assets/fr/009.webp)
 
-Historiquement les élites dirigeantes ont toujours vécu de la spoliation. Bastiat note :
+Historiquement, les élites dirigeantes ont toujours vécu de la spoliation. Bastiat note :
 
 > La force appliquée à la spoliation fait le fond des annales humaines. En retracer l’histoire, ce serait reproduire presque en entier l’histoire de tous les peuples : Assyriens, Babyloniens, Mèdes, Perses, Égyptiens, Grecs, Romains, Goths, Francs, Huns, Turcs, Arabes, Mongols, Tartares, sans compter celle des Espagnols en Amérique, des Anglais dans l’Inde, des Français en Afrique, des Russes en Asie, etc.
 >
-> ([_Sophismes économiques_](http://bastiat.org/fr/conclusion_sophismes.html)_, Conclusion du premier volume)_.
+> ([_Sophismes économiques_](http://bastiat.org/fr/conclusion_sophismes.html), conclusion du premier volume).
 
-ou encore:
+Ou encore :
 
-> La spoliation, sous sa forme la plus brutale, armée de la torche et de l’épée, remplit les annales du genre humain. Quels sont les noms qui résument l’histoire ? Cyrus, Sésostris, Alexandre, Scipion, César, Attila, Tamerlan, Mahomet, Pizarre, Guillaume le Conquérant ; c’est la spoliation naïve par voie de conquêtes. À elle les lauriers, les monuments, les statues, les arcs de triomphe. ([_Harmonies économiques_](http://bastiat.org/fr/conclusion_eo_harmonies.html), conclusion de l’édition originale).
+> La spoliation, sous sa forme la plus brutale, armée de la torche et de l’épée, remplit les annales du genre humain. Quels sont les noms qui résument l’histoire ? Cyrus, Sésostris, Alexandre, Scipion, César, Attila, Tamerlan, Mahomet, Pizarre, Guillaume le Conquérant ; c’est la spoliation naïve par voie de conquêtes. À elle les lauriers, les monuments, les statues, les arcs de triomphe.
+>
+> ([_Harmonies économiques_](http://bastiat.org/fr/conclusion_eo_harmonies.html), conclusion de l’édition originale).
 
 L’histoire du monde est l’histoire de la façon dont un groupe de personnes en a pillé d’autres, souvent de manière systématique, au moyen de la guerre, de l’esclavage, de la théocratie. De nos jours, c’est le monopole, c’est-à-dire les privilèges économiques distribués par l’État à ses clients.
 
@@ -185,7 +206,7 @@ Quelques jours avant sa mort à Rome en 1850, Bastiat confiait à son ami Prospe
 
 > Un travail bien important à faire, pour l’économie politique, c’est d’écrire l’histoire de la Spoliation. C’est une longue histoire dans laquelle, dès l’origine, apparaissent les conquêtes, les migrations des peuples, les invasions et tous les funestes excès de la force aux prises avec la justice. De tout cela il reste encore aujourd’hui des traces vivantes, et c’est une grande difficulté pour la solution des questions posées dans notre siècle. On n’arrivera pas à cette solution tant qu’on n’aura pas bien constaté en quoi et comment l’injustice, faisant sa part au milieu de nous, s’est impatronisée dans nos mœurs et dans nos lois.
 >
-> (P. Paillottet, _Neuf jours près d’un mourant_)
+> (_Neuf jours près d’un mourant_, P. Paillottet)
 
 ## Lord Acton : la liberté est le moteur de l’histoire
 
@@ -200,7 +221,7 @@ On le sait, l’histoire est écrite par les vainqueurs. L'attention est souvent
 
 Ceci est particulièrement vrai des manuels scolaires destinés aux écoles publiques et rédigés par des professeurs employés par l’État.
 
-Tel n’est pas le cas d’un ouvrage en deux tomes écrit par un historien de Cambridge au XIXe siècle, [Lord Acton](https://www.lesbelleslettres.com/livre/9782251447858/le-pouvoir-corrompt). Son nom complet est John Emerich Edward Dalberg, baron of Acton (1834-1902). Il est l’auteur de _Histoire de la Liberté dans l'Antiquité Et le Christianisme_. Son travail est considéré comme l'un des plus importants sur le sujet et il y a consacré une grande partie de sa carrière. Son œuvre, bien qu’inachevée, est une mise en garde puissante contre les dangers de l'abus de pouvoir et son plaidoyer pour la liberté et la responsabilité individuelle reste d’actualité.
+Tel n’est pas le cas d’un ouvrage en deux tomes écrit par un historien de Cambridge au XIXᵉ siècle, [Lord Acton](https://www.lesbelleslettres.com/livre/9782251447858/le-pouvoir-corrompt). Son nom complet est John Emerich Edward Dalberg, baron of Acton (1834-1902). Il est l’auteur de _Histoire de la Liberté dans l'Antiquité Et le Christianisme_. Son travail est considéré comme l'un des plus importants sur le sujet et il y a consacré une grande partie de sa carrière. Son œuvre, bien qu’inachevée, est une mise en garde puissante contre les dangers de l'abus de pouvoir, et son plaidoyer pour la liberté et la responsabilité individuelle reste d’actualité.
 
 Cet auteur est surtout connu pour sa maxime : « Le pouvoir tend à corrompre et le pouvoir absolu corrompt absolument ». Une formule qui fait écho à celle de Montesquieu dans [_L’esprit des lois_](https://fr.wikisource.org/wiki/Page:Montesquieu_-_Esprit_des_Lois_-_Tome_1.djvu/316) :
 
@@ -210,7 +231,7 @@ Cet auteur est surtout connu pour sa maxime : « Le pouvoir tend à corrompre et
 
 ![image](assets/fr/011.webp)
 
-Pour Acton, le conflit entre la liberté et le pouvoir est le fil rouge de l'histoire humaine et la liberté est le moteur du progrès et de l'évolution des sociétés. Acton a voulu comprendre les facteurs qui ont contribué à l'essor de la liberté en Occident. Son objectif était de cerner les conditions nécessaires à sa préservation et à son développement. Il a étudié les idées philosophiques, les structures sociales et les contextes politiques qui ont favorisé son émergence au cours du temps.
+Pour Acton, le conflit entre la liberté et le pouvoir est le fil rouge de l'histoire humaine, et la liberté est le moteur du progrès et de l'évolution des sociétés. Acton a voulu comprendre les facteurs qui ont contribué à l'essor de la liberté en Occident. Son objectif était de cerner les conditions nécessaires à sa préservation et à son développement. Il a étudié les idées philosophiques, les structures sociales et les contextes politiques qui ont favorisé son émergence au cours du temps.
 
 Sa thèse centrale est que « la liberté est établie par le conflit des pouvoirs ». Selon Acton, pendant des siècles après la chute de l'Empire romain d'Occident, l'Église catholique était la seule force capable de contester l'autorité des seigneurs féodaux, des monarques et des empereurs. Cette lutte de pouvoir entre l'Église et l'État s'avéra cruciale pour l'essor de la liberté. L’Europe disposait d’un Dieu fort et d’un pouvoir faible, du fait de la querelle permanente, au Moyen Âge, entre les papes et les rois. Au contraire, la Chine connaissait une divinité faible et un pouvoir bureaucratique fort.
 

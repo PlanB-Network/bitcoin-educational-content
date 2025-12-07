@@ -1424,7 +1424,7 @@ Fiat currency's value is derived almost entirely from this authority premium. It
 The monetary premium proposal unifies debt and commodity-money theories by arguing that their value is not fundamentally different. The value of a gold coin does not  primarily derive from its "intrinsic" or use value. Rather, like fiat money, its value is predominantly a function of confidence and monetary demand. For example, if gold's industrial use is 10% of its value, accounting for $300 of its $3,000 market price, the remaining $2,700 is the monetary premium. The fact that fiat has zero use value does not change this principle; the mechanism of value attribution is the same. Therefore, the minimal use value of a commodity like gold does not alter the fundamental process of monetary valuation.
 
 
-On the other hand, it's certain that **at the level of emergence, according to Mises' regression theorem, use value can create an initial demand that initiates the process of monetization.** With debt-money, however, emergence is an imposition by an authority, so the source and initiation are completely different. **Nevertheless, at the level of value, the monetary premium provides a unified explanation for why  both fiat money and why commodity-money possess the value** we attribute to them. The underlying process is the same: the moneytary premium.
+On the other hand, it's certain that **at the level of emergence, according to Mises' regression theorem, use value can create an initial demand that initiates the process of monetization.** With debt-money, however, emergence is an imposition by an authority, so the source and initiation are completely different. **Nevertheless, at the level of value, the monetary premium provides a unified explanation for why  both fiat money and why commodity-money possess the value** we attribute to them. The underlying process is the same: the monetary premium.
 
 
 #### The monetary premium
@@ -2274,7 +2274,7 @@ Roman monetary history can be divided into three distinct periods. The first, fr
 The second period, the 3rd century, was one of military anarchy. Twenty-six emperors succeeded one another in the space of a few decades. The currency collapsed: the antoninianus, supposedly worth two denarii, contained only 1.5 in metallic weight - the first attempt to divorce legal and real value. This manipulation triggers Gresham's Law: bad money drives out good money. Citizens hoarded the good coins, spending only the devalued ones.
 
 
-Archaeological evidence, such as monetary treasures,reveals this economic anxiety. Buried amphorae, analyzed through stratification, show how Romans deposited the highest-quality coins first, gradually adding more debased ones over time. These ancient "stacks" bear witness to human action in the face of uncertainty - an attempt to preserve value in a decaying world.
+Archaeological evidence, such as monetary treasures, reveals this economic anxiety. Buried amphorae, analyzed through stratification, show how Romans deposited the highest-quality coins first, gradually adding more debased ones over time. These ancient "stacks" bear witness to human action in the face of uncertainty - an attempt to preserve value in a decaying world.
 
 
 ### Constantine and the dual system
@@ -2717,7 +2717,7 @@ Then came the Antwerp stock exchange, with its concept of discounting and promis
 As previously discussed, the VOC and the Amsterdam stock exchange marked the birth of capitalism, with company shares and their exchange. The Amsterdam bank then imposed the use of deposits by decree, mandating that moneychangers deposit their coins at the end of the day.
 
 
-Subsequently, the Bank of England was created at the end of the 17th century out of the need to create debt to finance war. At that time, private banknotes became the third layer of money, as they were no longer redeemable in gold directly, but only for Bank of England bills, which were themselves redeemable in gold. This demonstrates the seizure of the power of exchange by the Bank of England . 
+Subsequently, the Bank of England was created at the end of the 17th century out of the need to create debt to finance war. At that time, private banknotes became the third layer of money, as they were no longer redeemable in gold directly, but only for Bank of England bills, which were themselves redeemable in gold. This demonstrates the seizure of the power of exchange by the Bank of England. 
 
 This progression, from the florin to the creation of central banks, is summarized in Nick Bhatia's book "Layered Money".
 
@@ -3009,7 +3009,7 @@ This financial technology was developed in Antwerp and Amsterdam during that per
 In the 18th century, another key financial technology emerged: insurance. An illustrative anecdote from Neil Ferguson's book "The Ascent of Money", explains The founding of the first modern insurance company, **Scottish Widows**. The clergy in Scotland sought to improve upon a system that provided only one year of support for the wives and children of priests who died unexpectedly. They found this period insufficient. As a result, **they invented actuarial calculations** to literally calculate the number of contributors necessary for the system to cover its costs, depending on the number of priests who died prematurely.
 
 
-They developed these calculations to create a model where each priest would pay a set amount, and in the event of his death, the insurance would cover the costs of supporting his wife and children until they became self-sufficient. The "Scottish Widows" company who popularized and deployed this system.
+They developed these calculations to create a model where each priest would pay a set amount, and in the event of his death, the insurance would cover the costs of supporting his wife and children until they became self-sufficient. The "Scottish Widows" company popularized and deployed this system.
 
 
 ### From private insurance to the welfare state
@@ -3051,7 +3051,7 @@ One such reason is the concept of the lender of last resort. The idea is that  a
 However, what ultimately emerged was a system of universal bailouts. The "too big to fail" principle initially intended for a few, was applied broadly to nearly all banks and major corporations due to financial centralization. This is a concept applied "at large" by the state, much like the insurance model previously described.
 
 
-Ultimately, the state assumed responsibility for these functions, transforming a financial technology created in Scotland to solve a specific problem into the vast welfare state we know today. It uses actuarial financial principles to provide services to its population, however, it is widely acknowledged that the monopolies arising from this system create significant problems, as seen in countries like Canada and France. Fortunately, alternative models exist, such as the one in Switzerland.
+Ultimately, the state assumed responsibility for these functions, transforming a financial technology created in Scotland to solve a specific problem into the vast welfare state we know today. It uses actuarial financial principles to provide services to its population; however, it is widely acknowledged that the monopolies arising from this system create significant problems, as seen in countries like Canada and France. Fortunately, alternative models exist, such as the one in Switzerland.
 
 
 Recognizing that the welfare state concept originates in finance allows us to explore avenues other alternatives to state monopolies. This same reasoning could be applied to the concept of central banks as lenders of last resort—but that is a subject for another time.

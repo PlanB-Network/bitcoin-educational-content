@@ -112,7 +112,6 @@ French history illustrates the consequences of the absence of this freedom. Desp
 
 
 French history illustrates the consequences of the absence of such freedom. Despite the influence of the Enlightenment, the lack of newspapers accessible to the general public prevented the formation of an informed opinion capable of supporting Turgot's reforms. Ultimately, these reforms could only be realized through the Revolution. The press functioned as a “court of public opinion”—a free and rapid mechanism for observing the effects of laws and highlighting their problematic aspects.
-**STOPPED HERE**
 
 ## Property and freedom of work
 
@@ -126,7 +125,7 @@ French history illustrates the consequences of the absence of such freedom. Desp
 ### Self-ownership as the primary foundation
 
 
-Self-ownership is the foundation of all thinking about economic freedom. Without recognition of the individual as self-owner, it is impossible to conceive of legitimate ownership of material goods.
+Self-ownership is the foundation of all thinking about economic freedom. Without recognition of the individual as self-owner, it is impossible to have legitimate ownership of material goods.
 
 
 This property is articulated around two fundamental cycles. The first goes from sensation to judgment, then to opinion: our sensory perceptions are personal and individual, our judgments remain free, and their expression leads to freedom of the press, education and religious tolerance. The second cycle links observation, reasoning and adaptation: the individual observes, establishes links between cause and effect, then acts according to a personal plan of conduct.
@@ -138,10 +137,10 @@ Jules Simon demonstrated that complex economic notions such as capital or freedo
 ### Ownership of things and land
 
 
-The ownership of things is based on the need to acquire. Human existence can only be sustained through the appropriation and production of goods. Vital necessities dictate production, which requires the reasoning of self-ownership.
+The ownership of things is based on the need to acquire. Human existence can only be sustained through the appropriation and production of goods. Vital necessities make production indispensable, which requires the reasoning of self-ownership.
 
 
-Appropriation necessarily precedes consumption: to consume an apple, you must first appropriate it. This appropriation is individual in nature, and it is precisely because we appropriate goods individually that we feel their effects in a personal way.
+Appropriation necessarily precedes consumption: to consume an apple, you must first appropriate it. This appropriation is individual in nature, and it is precisely because we appropriate goods ourselves that we feel their effects personally.
 
 
 Land ownership is an extension of this logic, and is based on work. The image of the sweaty land-clearer illustrates this reality: virgin land remains unsuitable for satisfying human needs. To make it productive, it must be cleared, cultivated and maintained. Possession is truly work, an observation that extends even to capital: preserving and increasing capital requires resistance to the temptations of immediate consumption and the ability to direct investments wisely.
@@ -150,19 +149,19 @@ Land ownership is an extension of this logic, and is based on work. The image of
 ### The universality of ownership
 
 
-Ownership can be observed in all ages and societies. Phases of human development correspond to different forms of property, depending on the conditions of production, but the fundamental principle remains constant.
+Ownership can be observed in all ages and societies. Phases of human development correspond to different forms of property, depending on the conditions of production, but the fundamental principle remains same.
 
 
-This notion can even be observed among animals, who share spaces and territories that they defend against intruders. Even in the Stone Age, caves and resources were regarded as private property, although often collectively within a group. This collective tribal ownership should not be confused with ownership common to the whole of humanity: tribes excluded other human groups.
+This notion can even be observed among animals, who share spaces and territories that they defend against intruders. Even in the Stone Age, caves and resources were regarded as private property, although often treated as group owned property. This collective tribal ownership should not be confused with common ownership by all humanity: tribes excluded other human groups.
 
 
-This collective form of hunting can be explained by production conditions. Hunting could not be carried out in restricted areas, since animals moved over vast territories. Ownership existed, but adapted to the technical constraints of the time.
+This collective form of hunting can be explained by production conditions. Hunting could not be carried out in restricted areas, because animals moved over vast territories. Ownership existed, but adapted to the technical constraints of the time.
 
 
 ### Freedom to work, self-interest and free trade
 
 
-Freedom to work is rooted in real, individual need. It is I who feel my own hunger, it is I who experience a particular suffering. This individuality is the basis of freedom to work: as the need is personal, I must be allowed to respond to it in the way I see fit.
+Freedom to work is rooted in real, individual need. It is I who feel my own hunger, it is I who experience a particular suffering. This individuality is the basis of freedom to work: as the need is personal, one must be free to address it in the way they see fit.
 
 
 A second foundation is the variety of dispositions, tastes and strengths between individuals. Faced with similar needs, individuals feel them differently. Each must find the resources to draw from his own body the utilities that will meet his specific needs. When a regulatory state intervenes, it breaks this natural chain by imposing a uniform course of action without taking individual dispositions into account.
@@ -171,7 +170,7 @@ A second foundation is the variety of dispositions, tastes and strengths between
 Self-interest is a fundamental motive for human action. Pierre de Boisguilbert identified it as early as the beginning of the eighteenth century: all commerce is governed solely by the interests of entrepreneurs, who are never thinking of rendering service but of satisfying their own needs. This reciprocal utility is what makes the world harmonious.
 
 
-Free trade is the logical extension of these principles. If I am an owner by virtue of my work, what authority can prevent me from exchanging my good for another that pleases me more? To legitimately own a good and not have the freedom to exchange it is a contradiction of fundamental human facts.
+Free trade is the logical extension of these principles. If I am an owner by virtue of my work, what authority can prevent me from exchanging my good for another that pleases me more? To legitimately own a good and not have the freedom to trade it is a contradiction with basic human realities.
 
 
 Taken together, these observations do not constitute an abstract theory, but a rigorous appreciation of the facts of human nature, developed by the liberal economists of the eighteenth and nineteenth centuries.
@@ -190,13 +189,13 @@ Taken together, these observations do not constitute an abstract theory, but a r
 ### The physiological basis of the non-aggression principle
 
 
-The principle of non-aggression has its roots in universal biological facts. Pain is the mechanism by which infringements of our freedom and bodily property manifest themselves to our consciousness. Without this phenomenon, transmitted by the nervous system, it would be impossible to perceive violations of our physical integrity. This physiological reality establishes a natural limit to everyone's freedom: any action that causes pain to others constitutes an infringement of their self-ownership.
+The principle of non-aggression has its roots in universal biological facts. Pain is the mechanism through which violations of our freedom and bodily integrity become perceptible to us. Without this phenomenon, transmitted by the nervous system, it would be impossible to perceive violations of our physical integrity. This physiological reality establishes a natural limit to everyone's freedom: any action that causes pain to others constitutes an infringement of their self-ownership.
 
 
-A second fact completes this understanding: fear and the brake on action it engenders. Gustave de Molinari developed this analysis: when others infringe our rights or pose a threat, we have to re-examine and modify our plans. This psychological constraint prevents us from acting as we would have done in the absence of the threat, diminishing our effective freedom.
+A second fact completes this understanding: fear and the inhibition of action it produces. Gustave de Molinari developed this analysis: when others infringe our rights or pose a threat, we are compelled to reconsider and adjust our plans. This psychological constraint prevents us from acting as we would have done without the threat, diminishing our effective freedom.
 
 
-However, not all nuisances can be treated equally by the law. The example of the baker illustrates this distinction: a new competitor causes an economic nuisance, but this does not constitute a legally condemnable aggression. Historical developments show a gradual broadening of the nuisances excluded from the legal framework. In the Middle Ages, competition and technical progress were often condemned because their effects were concentrated in restricted communities. The emancipation of these restrictions accompanied the development of a freer society.
+However, not all nuisances can be treated equally by the law. The example of the baker illustrates this distinction: a new competitor causes an economic nuisance, but this does not constitute a legally actionable aggression. Historical developments show a gradual expansion of the nuisances that the law no longer considers punishable. In the Middle Ages, competition and technical progress were often condemned because their effects were concentrated in restricted communities. The emancipation of these restrictions accompanied the development of a freer society.
 
 
 ### Social harmony and peace through exchange
@@ -205,7 +204,7 @@ However, not all nuisances can be treated equally by the law. The example of the
 Frédéric Bastiat and Gustave de Molinari summed up their doctrine as "liberty and peace". This harmony is rooted in the relationship between customers and suppliers. The customer needs his supplier to obtain the desired goods, while the supplier needs his customer to be prosperous. A rational supplier prefers wealthy customers capable of acquiring his products. This logic applies at every level, from the family to international trade, creating mutually beneficial relationships that naturally engender harmony.
 
 
-The Abbé de Saint-Pierre underlines a fundamental fact: security is a universal need, because no individual is strong enough to protect himself alone. The strongest man was not strong in childhood, nor will he be in old age. Even at the peak of his strength, he experiences moments of vulnerability: sleep, illness, weakening. This vulnerability creates a universal need for collective security, satisfied by the establishment of the rule of law.
+The Abbé de Saint-Pierre underlines a fundamental fact: security is a universal need, because no individual is strong enough to protect themselves alone. Even the strongest person was not strong in childhood, nor will he be in old age. Even at the peak of strength, individuals experience moments of vulnerability— such as sleep, illness, and weakening. This vulnerability creates a universal need for collective security, satisfied by the establishment of the rule of law.
 
 
 The evolution of modern production reinforces this tendency towards peace. Hunting and fishing are violent forms of production, based on destruction rather than creation. Agriculture represents an advance towards peaceful production, embodying harmony rather than predatory activities.
@@ -214,19 +213,19 @@ The evolution of modern production reinforces this tendency towards peace. Hunti
 ### The foundations of political freedom
 
 
-Political freedom is based on fundamental human facts. The principle of decentralization is rooted in human variety: human beings have different needs, preferences and circumstances. This diversity is above all individual. Logically, decentralization should be pushed to the point of individual autonomy. This logic, defended by Benjamin Constant, reveals the fundamental impossibility of planism: you can't organize a society in a centralized way while ignoring this irreducible diversity.
+Political freedom is grounded in fundamental facts about human nature. The principle of decentralization is rooted in human variety: human beings have different needs, preferences, and circumstances. This diversity is above all individual. Logically, decentralization should extend to individual autonomy. This reasoning, defended by Benjamin Constant, highlights the fundamental impossibility of central planning: one cannot organize society in a centralized manner while ignoring this irreducible diversity.
 
 
-Universal suffrage is based on the fact that pleasures and pains are individual experiences: everyone feels the effects of laws directly. Different individuals can have different perceptions of the same situations, and form judgments based on their personal experience. This reality justifies soliciting everyone's opinion in the democratic process.
+Universal suffrage is based on the fact that pleasures and pains are individual experiences: everyone feels the effects of laws directly. People may perceive the same situation differently and form judgments based on their own experiences. This reality justifies involving everyone in the democratic process.
 
 
 ### The foundations of civil liberty
 
 
-Civil liberty is also based on fundamental facts. Freedom of expression and religious tolerance derive from the fact that judgments are based on human personality and self-ownership. As each personality is different, judgments can and must be different to enable the debate of ideas, the driving force behind human perfectibility. This diversity of judgments is not an obstacle, but a richness to be cultivated.
+Civil liberty is likewise grounded in fundamental truths. Freedom of expression and religious tolerance arise from the reality that judgments stem from individual personality and self-ownership. Because personalities differ, judgments will — and must — differ as well. This diversity makes possible the exchange of ideas, which is the driving force behind human improvement. Rather than an obstacle, this plurality of viewpoints is a resource to be cultivated.
 
 
-The question of marriage illustrates these principles: the choice of spouse must be free, because there are a thousand shades of beauty and a thousand ways of being happy. Aesthetic and emotional perceptions are profoundly individual. These simple facts underpin essential elements of civil liberty, demonstrating how liberalism is rooted in the concrete reality of human experience rather than abstract ideological constructs.
+The question of marriage illustrates these principles: the choice of spouse must be free, because there are a thousand shades of beauty and a thousand ways of being happy. Aesthetic and emotional perceptions are profoundly individual. These simple facts suport the essential elements of civil liberty, shows that liberalism is rooted in the concrete reality of human experience rather than abstract ideological constructions.
 
 
 
@@ -241,10 +240,10 @@ The question of marriage illustrates these principles: the choice of spouse must
 ### The contradictions surrounding property
 
 
-Proudhon's formula "property is theft" illustrates the internal contradictions of systems of constraint. Bastiat demonstrated its logical incoherence: if property is theft, then theft is property, which amounts to asserting that what is legitimate is not legitimate. His analysis establishes that property flows naturally from work, self-ownership and human faculties, present in all societies throughout history.
+Proudhon's formula "property is theft" illustrates the internal contradictions of systems of constraint. Bastiat demonstrated its logical incoherence: if property is theft, then theft would be property, which is equivalent to claiming that what is legitimate is illegitimate. His analysis establishes that property flows naturally from work, self-ownership, and human faculties, present in all societies throughout history.
 
 
-Non-freedom systems postulate an original spoliation of land by force, followed by enjoyment without work. This vision contains two major factual errors. Firstly, it assumes an automatic ease to enrichment, ignoring the constant risks, back-breaking work and difficulties faced by entrepreneurs. Secondly, if this original despoilment were true, we should be seeing the descendants of these land-grabbers among the richest families today. However, reality shows that exchanges are legitimately made through work and the exchange of value for value. Today's properties have been validated by work and voluntary exchange. What's more, production conditions are constantly evolving: once-valuable lands can lose their value, while neglected areas acquire new interest, as the example of rare earths illustrates.
+Non-freedom systems postulate an original spoliation of land by force, followed by enjoyment without work. This vision contains two major factual errors. Firstly, it assumes an automatic ease to enrichment, ignoring the constant risks, back-breaking work and difficulties faced by entrepreneurs. Secondly, if this original despoilment were true, we would expect to see the descendants of these land-grabbers among the wealthiest families toda. However, reality shows that exchanges are legitimately made through work and the exchange of value for value. Today's properties have been validated by work and voluntary exchange. Moreover, production conditions are constantly evolving: lands that were once valuable can lose their worth, while previously neglected areas can gain value, as illustrated by rare earths earths illustrates.
 
 
 ### The contradictions of human nature

@@ -142,35 +142,35 @@ Vy'umwihariko, iciyumviro c’**uguhurizako** mu buryo busanzwe gifise imice ibi
 - **Ukwemeranya kumategeko** kurizi mpinduka za Leta, ivyo bikaba bituma bidashoboka gusubira kwandika canke gusubira guhindura ibikorwa vyemewe imbere y'igihe (ivyo navyo bizwi muri Bitcoin nk'"uburinzi bw'amahera akoreshwa kabiri").
 
 
-Ikoreshwa ryambere, ritagira uruhusha atakiguzi rw’uburyo bwo kwumvikana busanzwe ryashizweho na Satoshi Nakamoto hamwe na Bitcoin, bivuye ku gukoresha hamwe ubuhinga bw’amakuru bwa Blockchain n’ubuhinga bwa Proof-of-Work (PoW). Muri iyo nzira, ukwizera amateka y’amabuye kuva ku bubasha bwo guharura buhabwa n’ibihimba (abacukuzi). Bitcoin rero ni akarorero kanini kandi k’akahise k’uburyo bwo kwumvikana busanzwe bufunguriwe bose (*ata ruhusha*).
+Ikoreshwa ryambere, ritagira uruhusha atakiguzi rw’uburyo bwo kwumvikana busanzwe ryashizweho na Satoshi Nakamoto hamwe na Bitcoin, bivuye ku gukoresha ihurizwa hamwe ry'ibiharuro vya Blockchain Blockchain n’ubuhinga bwa Proof-of-Work (PoW). Muri buno buryo, ukwizera kwa kahise k'imice (Ama block) kuvana k'ubushobozi  bwo guharura buhabwa n’ama nodes (abacukuzi). Bitcoin rero ni akarorero kanini kandi k’akahise k’uburyo bwo kwumvikana busanzwe bwugururiye bose (*ata ruhusha*).
 
 
-Mu isi ya Blockchain n'ubuhinga bwo gukoresha ubuhinga bwa none, turashobora gutandukanya ingero zibiri z'ishimikiro: ***Blockchain*** mu buryo bwa kera, na ***imirongo ya Leta***, akarorero keza kayo mu guhingura ni Lightning Network. Blockchain isobanurwa nk’igitabu c’ibintu vyabaye bikurikiranye, bisubirwamwo n’uguhurizako mu nzira ifunguye kandi idafise uruhusha. Ku rundi ruhande, imirongo ya Leta ni imirongo y’urunganwe ishoboza abayigize babiri (canke barenga) kuguma bafise off-chain ya Leta ivuguruwe, bakoresheje Blockchain gusa igihe bafungura no gufunga iyo mihora.
+Mwisi ya Blockchain n'ubuhinga bwo gukoresha ubuhinga bwa none busabikanije, turashobora gutandukanya ingero zibiri z'ishimikiro: ***Blockchain*** mu buryo bwa kera, na ***imihora ya Leta***, akarorero keza kayo mu guhingura ni Lightning Network. Blockchain isigurwa nk’igitabu c’ibintu vyabaye bikurikiranije ibihe, bisubirwamwo n’uguhurizako mu nzira ifunguye kandi itarinda gusaba uruhusha. Ku rundi ruhande, imihora ya Leta n'imihora yubakiye kubuhinga bwa peer-to-peer ishoboza abayigize babiri (canke barenga) kuguma off-chain ya Leta irikugihe, bakoresheje Blockchain gusa igihe buguruye canke bugaye iyo mihora.
 
 
-Mu bijanye na Bitcoin, nta gukeka ko umenyereye ingingo ngenderwako za Mining, kwegereza ubutegetsi abaturage n’uguheza ibikorwa ku Blockchain, hamwe n’ingene inzira zo kwishura zikora. Na RGB, turiko turazana uburyo bushasha bwitwa **Client-side Validation**, butandukanye na Blockchain canke Lightning, bugizwe no kubika no kwemeza imihindukire ya Smart contract. Ivyo navyo bitandukanye n'ubundi buhinga bwa "DeFi" (_rollups_, _plasma_, _ARK_, n'ibindi), aho Client-side Validation yizigira Blockchain kugira ngo ibuze Double-spending no kugira uburyo bwo gushiramwo ikidodo c'igihe, mu gihe igumya urutonde rw'ibihugu vya off-chain n'imihindukire, gusa n'ivyo.
+Muru bino bijanye na Bitcoin, nta gukeka ko umenyereye ingingo ngenderwako z'ugucukura (Mining), kutagira ahugutwarirwa n’ukurangiza ihanahanwa kuri, hamwe n'uko nihihora y'ukuriha ikora. Hamwe na RGB, turiko turazana akandi gace gashasha kitwa  **Client-side Validation**(Uruhande rw'ukwemeza rw'umuguzi), butandukanye na Blockchain canke Lightning, butuma indani(Muruhanda rw'umuguzi) habaho kubika no kwemeza ukwerekeza kuma Smart contract. Ivyo navyo bitandukanye n'ubundi buhinga bwa "DeFi" (_rollups_, _plasma_, _ARK_, n'ibindi), aho Client-side Validation (Uruhande rw'ukwemeza rw'umu client) rushingira kuri Blockchain kugira ngo ibuze ukurungika kabiri(Double-spending) no kugira uburyo bwo gushiramwo ikidodo c'igihe, mu gihe igumya urutonde rw'ibihugu vya off-chain n'imihindukire, gusa n'ivyo.
 
 
 ![RGB-Bitcoin](assets/en/003.webp)
 
 
-Mu nyuma, tuzozana kandi ijambo rihambaye: iciyumviro ca "**Stash**", ryerekeza ku rutonde rw'amakuru yo ku ruhande rw'umukiriya asabwa kugira ngo umuntu azigame uko Contract imeze, kuko ayo makuru adasubirwamwo kw'isi yose ku rubuga. Ubwa nyuma, turaza kuraba imvo n’imvano y’inyuma ya RGB, umurongo w’itegeko ukoresha neza Client-side Validation, n’igituma yuzuza uburyo busanzweho (Blockchain n’imirongo ya leta).
+Mu nyuma, tuzozana kandi ijambo rikomeye cane: iciyumviro ca "**Stash**", ryerekeza ku rutonde rw'amakuru yo ku ruhande rw'uwuguze asabwa kugira ngo umuntu azigame uko amasezerano ameze, nkuko binobiharuro bidasubirwamwo kw'isi yose ku rubuga. Ubwa nyuma, turaza kurabira hamwe imvo n’imvano y’inyuma ya RGB, urukwirikirane rukoresha neza agace k'ukwemeza kw'umuguzi Client-side Validation, n’igituma yuzuza uburyo busanzweho (Blockchain n'imihora ya leta).
 
 
 ### Ibibazo bitatu mu gukoresha ubuhinga bwa none
 
 
-Kugira ngo dutahure ingene ingorane za Client-side Validation na RGB Address zitatowe umuti na Blockchain na Lightning, reka tuvumbure "trilemmas" 3 zikomeye mu gukoresha ubuhinga bwa none:
+Kugira ngo dutahure neza ingene uruhande rw'ukwemeza rw'umuguzi (Client-side Validation) n'aderesi ya RGB zitatorewe umuti na Blockchain na Lightning, reka turabire hamwe ibintu nyamukuru"trilemmas" 3 bikomeye mu gukoresha ubuhinga bwa none:
 
 
 
 
-- Ugutera imbere, Ukwegereza ubutegetsi, **Ubuzima bwite**;
-- **CAP** Theorem (Uguhuza, Ububoneka, Ukwihanganira Ugucapura);
-- **CIA** trilemma (Ibanga, Ubutungane, Ububoneka).
+- **Ugutera imbere**, **Ukutagira aho ikukira**, **Ibanga**;
+- **CAP** Theorem (**Consistency**:Ukugumizako, **Availability**: Ububoneka, **Partition Tolerance**: Ukwihanganira Ugucapura);
+- **CIA** trilemma (**Confidentiality**:Ibanga, **Integrity**: Ubutungane, **Availability**:Ukuboneka).
 
 
-#### 1. Gushobora gutera imbere, kwegereza ubutegetsi abaturage n'ibanga
+## 1. Ugutera imbere, ukutagira aho ikukira n'ibanga##
 
 
 
@@ -178,15 +178,15 @@ Kugira ngo dutahure ingene ingorane za Client-side Validation na RGB Address zit
 - **Blockchain (Bitcoin)**
 
 
-Blockchain ni igisata gikomeye cane, ariko ntishobora gukoreshwa cane. Ikindi, kuko vyose biri mu gitabu c’isi yose, c’abantu bose, ibanga rirake. Turashobora kugerageza gutuma ibanga rigenda neza dukoresheje ubuhinga butagira ubumenyi (Confidential Transactions, imigambi ya mimblewimble, n’ibindi), ariko uruhererekane rwa bose ntirushobora guhisha igicapo c’ibikorwa.
+Blockchain ni igisata kitagira aho gikukira nahamwe, ariko ntitera imbere cane. Iciyongerako, nuko vyose biri mu gitabu c’isi yose, kiri kukarubanda, ibanga rirafise aho rigarukira. Turashobora kugerageza kwongereza ibanga rigenda neza atabuhinga nabumwe dukoresheje (Ihana hanwa mw'ibanga, imigambi ya mimblewimble, n’ibindi), ariko umuhora uri kukarubanda ntushobora kunyegeza ibishushanyo vy'ihanahanwa.
 
 
 
 
-- **Imiravyo/Imirongo ya Leta**
+- **Lightning/Imihora ya Leta**
 
 
-Imirongo ya Leta (nk'uko biri kuri Lightning Network) irashobora gukoreshwa cane kandi ni iy'ibanga kuruta Blockchain, nk'uko amafaranga akoreshwa off-chain. Ariko rero, inshingano yo gutangaza ku mugaragaro Elements zimwe zimwe (ibikorwa vy’ugutanga amahera, topologie y’urubuga) no kugenzura uruja n’uruza rw’urubuga birashobora gutuma ibanga ridahinduka. Ukwegereza ubutegetsi ubutegetsi na kwo nyene kurababazwa: ugushiramwo ubutegetsi birasaba amahera menshi, kandi ama node akomeye arashobora kuba ahantu ho kwegereza ubutegetsi ubutegetsi hagati. Ivyo ni vyo nyene dutangura kubona kuri Lightning.
+Imihora ya Leta (nk'uko biri kuri Lightning Network) irashobora gutera imbere cane kandi igafita ibanga kuruta Blockchain, nk'ihana hanwa rikoreshwa kuri off-chainuko. Ariko rero, itegeko ryogushira kukarubanda uduce tumwetumwe (ibikorwa vy’ugutanga amahera, topologie y’urubuga) no kugenzura uruja n’uruza rw’urubuga birashobora gutuma ibanga rihungabana. Ukutagira aho itwarirwa navyo biragora : ugushiramwo ubutegetsi birasaba amahera menshi, kandi ama node makuru arashobora kuba ahantu ho kwegereza ubutegetsi ubutegetsi hagati. Ivyo ni vyo nyene dutangura kubona kuri Lightning.
 
 
 
@@ -194,16 +194,16 @@ Imirongo ya Leta (nk'uko biri kuri Lightning Network) irashobora gukoreshwa cane
 - **Client-side Validation (RGB)**
 
 
-Iyi nzira nshasha irarushiriza gukoreshwa kandi irarushiriza kuba ibanga, kuko ntidushobora gusa gushiramwo ubuhinga bwo gutangaza ikimenyamenya c’ubumenyi ataco buvuze, ariko nta n’igishushanyo c’isi yose c’ibikorwa vy’ubudandaji kiriho, kuko ata n’umwe afise igitabu cose. Ku rundi ruhande, bivuga kandi ko hariho ugusenyera ku mugozi umwe ku bijanye no kwegereza ubutegetsi abaturage: uwutanga Smart contract arashobora kugira uruhara ruhambaye (nk'uwutanga Contract muri Ethereum). Ariko rero, bitandukanye na Blockchain, na Client-side Validation, ubika gusa kandi ukemeza amasezerano ushaka, ivyo bikaba bituma habaho uguhindura neza mu kwirinda gukura no kugenzura intara zose zihari.
+Ino nzira nshasha iratera imbere cane kandi ifise n'ibanga cane, kubera turetse y'uko gusa, dushobora gushiramwo ubuhinga bwo gutangaza ikimenyamenya c’ubumenyi ataco buvuze, ariko nta n’igishushanyo c’isi yose c’ibikorwa vy’ihana hanwa kiriho, kuko ata n’umwe afise igitabu cose. Ku rundi ruhande, bivuga kandi ko hariho ugusenyera ku mugozi umwe ku bijanye no kwegereza ubutegetsi abaturage: uwutanga Smart contract arashobora kugira uruhara ruhambaye (nk'uwutanga Contract muri Ethereum). Ariko rero, bitandukanye na Blockchain, na Client-side Validation, ubika gusa kandi ukemeza amasezerano ushaka, ivyo bikaba bituma habaho uguhindura neza mu kwirinda gukura no kugenzura intara zose zihari.
 
 
 ![RGB-Bitcoin](assets/en/004.webp)
 
 
-#### 2. CAP Theorem (Uguhuza, Ububoneka, Ukwihanganira ugucapura)
+## 2.CAP Theorem (Consistency:Ukugumizako, Availability: Ububoneka, Partition Tolerance: Ukwihanganira Ugucapura);##
 
 
-Iciyumviro ca CAP gishimika ku vy’uko bidashoboka ko uburyo busanzwe bushobora guhazwa icarimwe *Uguhuza*,*Ukuboneka* na *Ukwihanganira ugucapura*.
+Iciyumviro ca CAP gishimika ko bidashoboka ko uburyo busabikanijwe bushobora gukwirizwa icarimwe *Uguhuza*,*Ukuboneka* na *Ukwihanganira ugucapura*.
 
 
 
@@ -211,15 +211,15 @@ Iciyumviro ca CAP gishimika ku vy’uko bidashoboka ko uburyo busanzwe bushobora
 - **Blockchain**
 
 
-Blockchain ikunda uguhuza n’ukuboneka, ariko ntikora neza mu gucapura urubuga: iyo udashobora kubona igice, ntushobora gukora kandi ukagira iciyumviro kimwe n’urubuga rwose.
+Blockchain ikunda ukugumizako n’ukuboneka, ariko ntikora neza mu kugabagura urubuga: iyo udashobora kubona igice, ntushobora gukora kandi ukagira iciyumviro kimwe n’urubuga rwose.
 
 
 
 
-- **Imiravyo**
+- **Lightning**
 
 
-Uburyo bw’imirongo ya Leta burafise ubushobozi bwo kuboneka no kwihanganira gucapura (kubera ko uturongo tubiri dushobora kuguma dufatanye naho urubuga rwoba rwacitsemwo ibice), ariko uguhuza muri rusangi kuva ku gufungura no gufunga imirongo kuri Blockchain.
+Uburyo bw'imihora ya Leta bufise ubushobozi bwo kuboneka no kwihanganira kugabagura (kubera ko ama nodes abiri ashobora kuguma afatanye naho urubuga rwoba rwacitsemwo uduce duce ), ariko uguhuza muri rusangi kuva ku kw'ugurura no kwugara kuri Blockchain.
 
 
 
@@ -227,7 +227,7 @@ Uburyo bw’imirongo ya Leta burafise ubushobozi bwo kuboneka no kwihanganira gu
 - **Client-side Validation (RGB)**
 
 
-Uburyo nka RGB buratanga uguhuza (umwe wese mu bari muri iyo nama yemeza amakuru yiwe mu karere, ataco asobanura) no kwihanganira gucapura (ugumya amakuru yawe wigenga), ariko ntivyemeza ko azoboneka kw’isi yose (umuntu wese ategerezwa kumenya neza ko afise ibice vy’amateka bibereye, kandi bamwe mu bari muri iyo nama bashobora kudahagarika gutangaza ikintu na kimwe canke gutangaza ikintu na kimwe muri certa).
+Uburyo nka RGB buratanga ukugumizako (umwe wese mu bari muri iyo nama yemeza amakuru yiwe mu karere, ataco asobanura) no kwihanganira gucapura (ugumya amakuru yawe wigenga), ariko ntivyemeza ko azoboneka kw’isi yose (umuntu wese ategerezwa kumenya neza ko afise ibice vy’amateka bibereye, kandi bamwe mu bari muri iyo nama bashobora kudahagarika gutangaza ikintu na kimwe canke gutangaza ikintu na kimwe muri certa).
 
 
 ![RGB-Bitcoin](assets/en/005.webp)

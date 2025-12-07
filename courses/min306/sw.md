@@ -476,7 +476,7 @@ Kwa miradi inayohusisha mifumo iliyopachikwa (embedded systems) au majukwaa mahu
 ### Kufanya Mabadiliko na Kusimamia Ahadi
 
 
-Kwa miradi inayohusisha mifumo iliyopachikwa (embedded systems) au majukwaa mahususi ya maunzi (hardware platforms), zana za ziada zinahitajika. Kiendelezi cha ESP-IDF (ESP-IDF extension) kinawakilisha kipengele muhimu kwa miradi inayolenga vidhibiti vidogo vya ESP32 (ESP32 microcontrollers), vinavyohitaji upatanifu wa toleo mahususi ili kuhakikisha utendakazi ufaao. Mchakato wa usakinishaji unahusisha kuchagua toleo linalofaa la ESP-IDF (ESP-IDF version), kusanidi njia za zana (toolchain paths), na kusanidi mazingira ya kontena la usanidi (configuration container environment). Toleo la 5.1.3 kwa sasa linawakilisha usanidi unaopendekezwa kwa miradi mingi inayotegemea ESP32, ingawa mahitaji haya yanaweza kubadilika kadri miradi inavyosasisha utegemezi (dependencies) na minyororo ya zana (toolchains).
+Mara tu mazingira yako ya usanidi yamesanidiwa ipasavyo, mchakato wa kutoa michango yenye maana huanza kwa kupakua au kuweka hazina yako iliyogawanyika kwa mashine ya karibu nawe. Unaweza kukamilisha hili kwa kupakua faili ya ZIP ya yaliyomo kwenye hazina au kwa kutumia utendakazi wa uundaji wa Msimbo wa Visual Studio, ambao hutoa mtiririko wa kazi uliorahisishwa zaidi kwa maendeleo yanayoendelea. Mchakato wa kuunda nakala ya ndani ya hazina yako ambayo inasalia kulinganishwa na GitHub fork yako, kukuwezesha kufanya kazi nje ya mtandao huku ukidumisha uwezo wa udhibiti wa toleo.
 
 
 Unapofanya kazi na hazina ya ndani, unapata ufikiaji wa muundo kamili wa mradi, ikijumuisha faili za msimbo wa chanzo, faili za usanidi, hati na faili zozote za muundo wa maunzi. Miradi mingi ya firmware hutumia lugha za programu kama vile C kwa utendakazi wa kimsingi, na vipengee vya ziada vilivyoandikwa katika TypeScript kwa violesura vya mtumiaji au Java kwa huduma mahususi. Kuelewa muundo wa mradi hukusaidia kutambua faili zinazofaa ili kurekebisha na kuhakikisha kuwa mabadiliko yako yanapatana na muundo wa usanifu wa mradi na viwango vya usimbaji.
@@ -671,11 +671,13 @@ Mchanganyiko wa zana hizi huunda uwezo kamili wa kutengenezea SMD ambao unaenea 
 :::video id=9286c0dc-acd6-44d9-b34e-59cfb2da9748:::
 
 
+Seti ya transceiver ya Bitaxe huwasilisha changamoto za kipekee wakati wa kuunganisha ambazo zinahitaji uangalizi wa kina kwa mwelekeo wa vipengele, uzuiaji wa daraja la solder na udhibiti sahihi wa joto. Kuelewa masuala haya ya kawaida na ufumbuzi wao ni muhimu kwa ajili ya ujenzi wa vifaa vya mafanikio na kuepuka uharibifu wa sehemu ya gharama kubwa. Sura hii inachunguza matatizo ya mara kwa mara ya soldering yaliyopatikana wakati wa mkusanyiko wa Bitaxe na hutoa mbinu za vitendo za kutambua na kutatua
+
 
 ### Mwelekeo wa Sehemu na Utambulisho
 
 
-Mwelekeo unaofaa wa sehemu unawakilisha mojawapo ya vipengele muhimu zaidi vya kuunganishwa kwa Bitaxe kwa ufanisi, hasa kwa MOSFETs Q1 na Q2. Vipengele hivi vina alama za mwelekeo tofauti ambazo lazima zizingatiwe kwa uangalifu wakati wa usakinishaji. Kila MOSFET ina alama ndogo ya dot ambayo inalingana na mipangilio maalum ya pedi kwenye bodi ya mzunguko. UfSeti ya transceiver ya Bitaxe huwasilisha changamoto za kipekee wakati wa kuunganisha ambazo zinahitaji uangalizi wa kina kwa mwelekeo wa vipengele, uzuiaji wa daraja la solder na udhibiti sahihi wa joto. Kuelewa masuala haya ya kawaida na ufumbuzi wao ni muhimu kwa ajili ya ujenzi wa vifaa vya mafanikio na kuepuka uharibifu wa sehemu ya gharama kubwa. Sura hii inachunguza matatizo ya mara kwa mara ya soldering yaliyopatikana wakati wa mkusanyiko wa Bitaxe na hutoa mbinu za vitendo za kutambua na kutatua.
+Mwelekeo unaofaa wa sehemu unawakilisha mojawapo ya vipengele muhimu zaidi vya kuunganishwa kwa Bitaxe kwa ufanisi, hasa kwa MOSFETs Q1 na Q2. Vipengele hivi vina alama za mwelekeo tofauti ambazo lazima zizingatiwe kwa uangalifu wakati wa usakinishaji. Kila MOSFET ina alama ndogo ya dot ambayo inalingana na mipangilio maalum ya pedi kwenye bodi ya mzunguko.Ufunguo wa mwelekeo sahihi upo katika kuelewa muundo wa kimwili wa vipengele hivi, ambavyo vina pini nne zilizopangwa na pedi moja kubwa na pedi ndogo tatu ambazo hazina uhusiano na pedi kubwa.
 
 unguo wa mwelekeo sahihi upo katika kuelewa muundo wa kimwili wa vipengele hivi, ambavyo vina pini nne zilizopangwa na pedi moja kubwa na pedi ndogo tatu ambazo hazina uhusiano na pedi kubwa.
 
@@ -820,7 +822,7 @@ Masuala ya maunzi halisi mara nyingi hujitokeza kama mizunguko ya makosa yanayor
 ### Mikakati ya Kina ya Utatuzi
 
 
-Hitilafu za maunzi hujitokeza kwenye kumbukumbu kupitia mifumo maalum ya kosa inayoonyesha ni vipengele gani vinavyofanya kazi isivyofaa. Hali ya kawaida ya hitilafu huhusisha makosa ya mawasiliano ya I2C kwenye nyaya mahususi zilizounganishwa kwenye bodi ya Bitaxe. Kwa mfano, hitilafu za mawasiliano za DS4432U huonekana kama jumbe za “ESP_ERROR_CHECK failed” zenye viashirio vya muda, vinavyoashiria masuala ya udhibiti wa voltage au matatizo ya soldering yanayoathiri sehemu ya U10, ambayo inahusika na mawasiliano ya onyesho.
+Ufuatiliaji wa serial hutoa manufaa kadhaa juu ya violesura vya utatuzi vinavyotegemea wavuti, hasa kwa hitilafu za mara kwa mara au vifaa vinavyopata kuwashwa upya mara kwa mara. Upigaji kumbukumbu unaoendelea huhakikisha kuwa hakuna taarifa za uchunguzi zinazopotea wakati mfumo ukiwashwa upya, tofauti na violesura vya wavuti ambavyo vinaweza kupoteza data wakati wa matukio ya kukatwa. Uwezo huu wa kina wa ukataji miti hufanya iwezekane kutambua ruwaza katika kushindwa na kuoanisha hali mahususi za hitilafu na maunzi au vipengele vya mazingira.
 
 
 Unapochanganua vifaa vyenye matatizo, zingatia mlolongo wa matukio yanayosababisha kushindwa badala ya ujumbe wa hitilafu uliotengwa. Mawasiliano yaliyofaulu ya ASIC yanapaswa kuonyesha uchakataji wa kazi mara kwa mara, utayarishaji wa nonce, na kushiriki mizunguko ya uwasilishaji. Matokeo ya ASIC yanayokosekana katika kumbukumbu yanaonyesha hitilafu za mawasiliano kati ya ESP32 na chip ya mining, mara nyingi husababishwa na matatizo ya usambazaji wa nishati, ufuatiliaji ulioharibika, au hitilafu za vipengele.

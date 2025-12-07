@@ -5,15 +5,15 @@ objectives:
 
   - Identify the fundamental human facts that justify freedom and property
   - Analyze the historical evolution of freedom from primitive societies to the present day
-  - Recognizing the fallacies that underpin systems of unfreedom
-  - Applying liberal principles to contemporary economic, political and social issues
+  - Recognize the fallacies that underpin systems of unfreedom
+  - Apply liberal principles to contemporary economic, political and social issues
 
 ---
 
 # Journey to freedom
 
 
-This course explores liberty as a social project, drawing on the rich French liberal tradition of the 18th and 19th centuries. Through the writings of thinkers such as Frédéric Bastiat, Gustave de Molinari, Paul Leroy-Beaulieu, Benjamin Constant and Charles Dunoyer, you will discover how liberty is not an abstract utopia, but deeply rooted in the facts of human existence.
+This course explores liberty as a social project, drawing on the rich French liberal tradition of the 18th and 19th centuries. Through the writings of thinkers such as Frédéric Bastiat, Gustave de Molinari, Paul Leroy-Beaulieu, Benjamin Constant, and Charles Dunoyer, you will discover how liberty is not an abstract utopia, but deeply rooted in the facts of human existence.
 
 
 Ready to discover why freedom is not only a moral ideal, but also the most effective solution to the challenges facing our societies? Let's begin this intellectual journey to the heart of French liberal thought.
@@ -37,35 +37,34 @@ Ready to discover why freedom is not only a moral ideal, but also the most effec
 ### Introduction to the French liberal tradition
 
 
-The French liberal tradition, developed in the 18th and 19th centuries, constitutes a major intellectual heritage that the Coppet Institute is striving to rehabilitate. This thought deserves attention for three reasons: the resurgence of ideas of liberty in contemporary debate, its deep roots in French-speaking culture, and its universalist perspective, which thinks of man as a human being rather than as a citizen of a particular time or country. The influence of thinkers like Frédéric Bastiat extends far beyond France's borders, and remains of considerable relevance today.
+The French liberal tradition, developed in the 18th and 19th centuries, constitutes a major part of the french intellectual heritage that the Coppet Institute is striving to rehabilitate. This intellectual tradition deserves attention for three reasons: the resurgence of ideas of liberty in contemporary debate, its deep roots in French-speaking culture, and its universalist perspective, which regards man as a human being rather than as a citizen of a particular time or country. The influence of thinkers like Frédéric Bastiat extends far beyond France's borders, and remains highly relevant today.
 
 
 ### Beyond theory-practice opposition and the coherence of freedom
 
 
-Public debate artificially pits theorists, dismissed as disconnected from reality, against practitioners, valued for their concrete knowledge. This dichotomy doesn't stand up to scrutiny: every one of our everyday actions, such as climbing stairs or picking up an object, is based on implicit theories such as gravitation. Practitioners themselves constantly apply theoretical frameworks, often unconsciously. The real question is not to choose between theory and practice, but to distinguish good theories, based on observable facts, from bad ones, built on sophisms.
+Public debate artificially opposes theorists, dismissed as disconnected from reality, against practitioners, valued for their concrete knowledge. This dichotomy doesn't stand up to scrutiny: every one of our everyday actions, such as climbing stairs or picking up an object, is based on implicit theories such as gravity. Practitioners themselves constantly apply theoretical frameworks, often unconsciously. The real question is not to choose between theory and practice, but to distinguish good theories, based on observable facts, from bad ones, built on fallacies.
 
 
-A problematic distinction has also been drawn between freedom, accepted as a fundamental value, and liberalism, often rejected as too abstract. This separation leads to the fragmentation of freedom into good and bad categories: political freedom is valued, while economic freedom is distrusted. Yet the principles underpinning religious tolerance and universal suffrage - in other words, the individual's capacity for choice - should logically lead to the recognition of economic freedom too. This incoherence reduces freedom to the simple faculty of periodically choosing a political master. Moreover, collective choice presents structural limitations: temporary and spaced out over time, it eliminates many individual choices that would enable constant adaptation to circumstances, direct responsibility and respect for the diversity of preferences.
+A problematic distinction has also been drawn between freedom, accepted as a fundamental value, and liberalism, often rejected as too abstract. This separation leads to the breaking of freedom into good and bad categories: political freedom is valued, while economic freedom is distrusted. Yet the principles underpinning religious tolerance and universal suffrage — in other words, the individual's capacity for choice - should logically lead to the recognition of economic freedom too. This lack of organisation reduces freedom to the simple faculty of periodically choosing a political master. Moreover, collective choice presents structural limitations: temporary and spaced out over time, they eliminate many individual choices that would enable constant adaptation to circumstances, direct responsibility and respect for the diversity of preferences.
 
 
 ### Ideologists and the factual foundations of freedom
 
 
-Ideologists such as Destutt de Tracy, Cabanis and Volney, active during the Revolution and the Empire, sought to anchor the theory of liberty in the observation of facts. Contrary to the image of the disconnected theorist, these thinkers were also practitioners: Cabanis was a physician, Destutt de Tracy an agronomist. Napoleon gave them this pejorative name, but admitted on St. Helena that he himself did not know the purpose of his conquests. Ironically, it was the Ideologists who possessed a coherent understanding of human action, while the so-called practitioner acted without clear direction.
+Ideologists such as Destutt de Tracy, Cabanis, and Volney, active during the Revolution and the Empire, sought to anchor the theory of liberty in the observation of facts. Contrary to the image of the disconnected theorist, these thinkers were also practitioners: Cabanis was a physician, Destutt de Tracy was an agronomist. Napoleon gave them this pejorative name, but admitted on St. Helena that he himself did not know the purpose of his conquests. Ironically, it was the Ideologists who possessed a coherent understanding of human action, while the so-called practitioner acted without clear direction.
 
 
-The first fundamental fact they identify is that the human being constitutes a body necessarily occupying a physical space. When someone sleeps in a bed, he occupies it exclusively - even in a collectivist society, the bed belongs to him de facto while he is using it. Ownership thus emerges not as an arbitrary social construct, but as a direct consequence of our bodily existence. More fundamentally, appropriation appears to be willed by nature: to eat an apple is necessarily to appropriate it; to breathe requires appropriation of the air. Ownership is therefore a reality rooted in our physical existence, not a convention that can be changed at will.
+The first fundamental fact they identify is that the human being constitutes a body necessarily occupying a physical space. When someone sleeps in a bed, they occupy exclusively - even in a collectivist society, the bed belongs to them de facto while they are using it. Ownership thus emerges not as an arbitrary social construct, but as a direct consequence of our bodily existence. More fundamentally, appropriation appears to be required by nature: to eat an apple is necessarily to appropriate it; to breathe requires appropriation of the air. Ownership is therefore a reality rooted in our physical existence, not a convention that can be changed at will.
 
 
 ### The finitude of the world and the individuality of perceptions
 
 
-The finiteness of resources necessarily generates a form of competition. Apples have to be appropriated precisely because they don't exist in infinite numbers. We can criticize competition, but we can't replace it with anything else. Collectivist systems don't eliminate it: they displace it into political relations, queues or administrative privileges, generally to the detriment of efficiency and justice. The relevant question is not whether competition will exist, but what rules will govern it.
+The finite nature of resources inevitably gives rise to competition. Apples, for example, must be appropriated precisely because they are not infinite in number. While we can critique competition, we cannot eliminate it entirely. Collectivist systems do not remove it either; they simply redirect it into political relations, queues, or administrative privileges, often at the expense of efficiency and justice. The more pertinent question is not whether competition will exist, but what rules should govern it.
 
 
-Finally, sensations are a fundamentally individual phenomenon. You can't hunger through someone else's eyes, nor can you see through someone else's eyes. This individuality has major consequences for social organization: individual decisions, based on direct perceptions, possess a quality of information that collective decisions cannot reproduce. A collective decision concerning food must aggregate the perceptions of multiple individuals whose needs differ in time and intensity. Its effects will necessarily be less adapted to each individual's actual situation. These facts show that freedom is not just one option among many, but a necessity deriving from the very nature of man and the world.
-
+Furthermore, sensations are inherently individual. One cannot experience hunger through another person’s eyes, nor can one truly see through someone else’s perspective. This individuality carries significant implications for social organization: decisions based on direct personal perceptions contain information that collective decisions cannot replicate. For instance, a collective decision regarding food must aggregate the perceptions of multiple individuals, each with different needs in terms of timing and intensity. As a result, its outcomes will inevitably be less tailored to each person’s actual situation. These observations demonstrate that freedom is not merely one option among many, but a necessity arising from the very nature of human beings and the world they inhabit
 
 
 
@@ -80,7 +79,7 @@ Finally, sensations are a fundamentally individual phenomenon. You can't hunger 
 ### The natural foundations of freedom of thought
 
 
-Freedom is based on concrete human facts rather than abstract constructs. The human being is not just a body acting in the material world: he is first and foremost a mind capable of feeling, conceiving and sharing ideas. Charles Comte, in his course on natural law (circa 1830), asserts that an individual devoid of cognitive abilities would scarcely be recognized as human. Social relationships are formed precisely because individuals can exchange thoughts and feelings.
+Freedom is based on concrete human realities rather than abstract constructs. The human being is not just a body acting in the material world: they are first and foremost a mind capable of feeling, conceiving and sharing ideas. Charles Comte, in his course on natural law (circa 1830), asserts that an individual devoid of cognitive abilities would scarcely be recognized as human. Social relationships are formed precisely because individuals can exchange thoughts and feelings.
 
 
 This ability to think is accompanied by an intrinsic pleasure that naturally encourages its development and sharing. The story of Father Yves-Marie André illustrates this reality: when his superiors forbade him to carry out philosophical research, he suffered deeply. For many people, developing and sharing their thoughts is a fundamental source of satisfaction. Thought is a manifestation of individual will and an extension of our individuality: we feel, conceive projects and naturally want to communicate them.

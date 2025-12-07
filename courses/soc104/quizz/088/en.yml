@@ -1,0 +1,8 @@
+question: According to Karl Popper's framework, what is the fundamental characteristic that distinguishes an open society from a closed society?
+answer: The ability of individuals to exercise critical judgment and personal responsibility in decision-making
+wrong_answers:
+  - The degree of economic freedom and market-based exchanges between different social groups
+  - The level of technological advancement and scientific progress achieved by the society
+  - The extent of democratic participation and majority rule in political decision-making processes
+explanation: |
+  Popper defines open society as one where individuals are confronted with personal decisions and can exercise critical judgment, while closed society refuses critical freedom and individual responsibility. The distinction is fundamentally about cognitive and moral autonomy rather than economic systems, technological progress, or democratic procedures. Closed societies fear change and criticism, idealizing static order, while open societies embrace dynamic criticism and individual choice within abstract rules of conduct.

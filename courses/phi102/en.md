@@ -88,20 +88,19 @@ This ability to think is accompanied by an intrinsic pleasure that naturally enc
 ### The inviolability of conscience and intellectual property
 
 
-Thought is a logical consequence of the will, and its expression is merely its materialization. Since we possess free will, no one can stop us from thinking. There is therefore a natural postulate in favor of free expression: to hinder this freedom would break the organic link between sensation, will, thought and expression. When a person writes down his or her thoughts, it is always his or her personal property, directly related to self-ownership.
+Thought is a logical consequence of the will, and its expression is merely its material manifestation. Since we possess free will, no one can prevent us from thinking. There is, therefore a natural postulate in favor of free expression: to hinder this freedom would break the organic link between sensation, will, thought and expression. When a person writes down their thoughts, it is always their personal property, directly tied to self-ownership.
 
 
-This inviolability of conscience is historically demonstrated by the ineffectiveness of burning at the stake and intellectual repression. The physical existence of the bearer of an idea can be suppressed, but the act of thinking itself cannot be prevented. No authority has ever had power over thought as such, only over its material expression. We are free to change it, to pursue it, to construct concepts or to abandon them. Benjamin Constant, in his "Principes de politique" (1815), makes this point forcefully: "Error or truth, man's thought is his most sacred property." To break this freedom in the name of a higher reason, whatever it may be, seems fundamentally unjust.
+This inviolability of conscience is historically demonstrated by the ineffectiveness of burning at the stake and intellectual repression. While the physical existence of the bearer of an idea can be suppressed, but the act of thinking itself cannot be prevented. No authority has ever had power over thought as such, only over its material expression. We are free to change our ideas, pursue them, construct concepts or abandon them. Benjamin Constant, in his "Principes de politique" (1815), "makes this point forcefully: 'Error or truth, man's thought is his most sacred property."" To break this freedom in the name of a higher reason, whatever it may be, seems fundamentally unjust.
 
 
 ### Human perfectibility and the debate of ideas
 
 
-Freedom of expression is also justified by its usefulness for human progress. Condorcet, in his "Esquisse d'un tableau historique des progrès de l'esprit humain", develops the idea that humanity is continually progressing, thus overturning the doctrine of the original fall. However, this perfectibility requires active conditions: new, daring or revolutionary ideas must be able to be communicated, so that discoveries can be passed on to subsequent generations.
+Freedom of expression is also justified by its useFreedom of expression is also justified by its contribution to human progress. Condorcet, in his Esquisse d'un tableau historique des progrès de l'esprit humain, develops the idea that humanity is continually advancing, thereby challenging the doctrine of the original fall. However, this perfectibility depends on certain conditions: new, daring, or revolutionary ideas must be freely communicated so that discoveries can be transmitted to subsequent generations.fulness for human progress. Condorcet, in his "Esquisse d'un tableau historique des progrès de l'esprit humain", develops the idea that humanity is continually progressing, thus overturning the doctrine of the original fall. However, this perfectibility requires active conditions: new, daring or revolutionary ideas must be able to be communicated, so that discoveries can be passed on to subsequent generations.
 
 
-Intellectual debate works on a principle similar to economic competition: it allows the best ideas to win through confrontation. Everyone can check whether a new conception corresponds to their own observations and perceptions. This dynamic is an essential mechanism of progress, enabling the continuous improvement of humanity's intellectual heritage. What's more, the natural variety of human beings necessarily generates a diversity of ideas. Differently constituted individuals develop distinct tastes, perceptions and sensibilities. This diversity fully justifies the need for free debate, enabling the most soundly based conceptions to find their audience.
-
+Intellectual debate operates on a principle similar to economic competition: it allows the best ideas to prevail through confrontation. Everyone can assess whether a new conception aligns with their own observations and experiences. This dynamics serves as an essential mechanism of progress, enabling the continuous enhancement of humanity's intellectual heritage. Furthermore, the natural variety among human beings inevitably generates a diversity of ideas. Individuals with different dispositions develop distinct tastes, perceptions, and sensibilities. This diversity fully justifies the necessity of free debate, allowing the most well-founded ideas to reach their audience.
 
 ### Press freedom and free education
 
@@ -111,6 +110,9 @@ Freedom of the press plays a specific role in the functioning of democracy. Poli
 
 French history illustrates the consequences of the absence of this freedom. Despite the influence of the Enlightenment, the absence of newspapers accessible to the people prevented the formation of an informed public opinion capable of supporting Turgot's reforms. In the end, these changes could only be brought about by the Revolution. The press acted as a "court of public opinion", a free and rapid mechanism for observing the effects of laws and pointing out their problematic aspects.
 
+
+French history illustrates the consequences of the absence of such freedom. Despite the influence of the Enlightenment, the lack of newspapers accessible to the general public prevented the formation of an informed opinion capable of supporting Turgot's reforms. Ultimately, these reforms could only be realized through the Revolution. The press functioned as a “court of public opinion”—a free and rapid mechanism for observing the effects of laws and highlighting their problematic aspects.
+**STOPPED HERE**
 
 ## Property and freedom of work
 

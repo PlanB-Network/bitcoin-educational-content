@@ -28,12 +28,13 @@ original_language: fr
 
 proofreading:
   - language: fr
-    last_contribution_date: 2025-11-05
+    last_contribution_date: 2025-12-04
     urgency: 1
     contributor_names:
       - LoicPandul
       - ProfScofield21
-    reward: 13.02
+      - therancedognon-max
+    reward: 0
   - language: en
     last_contribution_date: 2025-10-31
     urgency: 1
@@ -51,10 +52,11 @@ proofreading:
     contributor_names:
     reward: 52.08
   - language: es
-    last_contribution_date:
+    last_contribution_date: 2025-12-04
     urgency: 1
     contributor_names:
-    reward: 52.08
+      - Truja503
+    reward: 26.04
   - language: et
     last_contribution_date:
     urgency: 1
@@ -153,12 +155,18 @@ proofreading:
     contributor_names:
     reward: 104.06
   - language: zh-Hans
-    last_contribution_date:
+    last_contribution_date: 2025-12-04
     urgency: 1
     contributor_names:
-    reward: 86.74
+      - MilankovicProtocol
+    reward: 43.37
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 86.74
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 69.41

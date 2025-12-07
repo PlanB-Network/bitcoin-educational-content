@@ -1,5 +1,5 @@
 ---
-name: دانا Wallet
+name: Dana Wallet
 description: پورتفولیوی مینیمالیستی برای پرداخت‌های بی‌صدا (BIP-352)
 ---
 

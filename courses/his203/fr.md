@@ -1,18 +1,17 @@
 ---
-name: Le Far West de la finance
-goal: todo
+name: L'histoire de l'ère pionnière de Bitcoin
+goal: Découvrir l'histoire de Bitcoin entre 2011 et 2012, marquée par les premiers succès économiques de la cryptomonnaie.
 objectives:
-  - todo1
-  - todo2
-  - todo3
+  - Comprendre comment la bulle spéculative de 2011 a façonné le Bitcoin de l'époque
+  - Connaitre les différents services financiers et commerciaux qui ont émergé durant la période
+  - Appréhender le développement initial des portefeuilles, des coopératives de minage et du logiciel de Bitcoin par la communauté
+  - Discerner les cas d'utilisation controversés qui prédominaient alors
 ---
-# La construction de Bitcoin entre 2011 et 2012 : le Far West de la finance
+# Partez en voyage dans le Far West de la finance
 
-Bienvenue dans ce cours consacré à l'histoire de Bitcoin entre le printemps 2011 et l'été 2012 ! Si vous vous intéressez à Bitcoin, il est probable que vous sachiez ce qu'étaient Silk Road, la première place de marché du dark web utilisant le bitcoin, et Mt. Gox, la première réelle plateforme de change. Peut-être avez-vous aussi entendu parler du service de change BitInstant, de la plateforme de trading Bitcoinica, du type d'adresse Pay to Script Hash, du processeur de paiement BitPay, du portefeuille Electrum, des bitcoins de Casascius, du jeu en ligne SatoshiDICE, de la coopérative de minage Deepbit, de la cryptomonnaie alternative Litecoin, de la plateforme de change en pair à pair LocalBitcoins, ou encore de la pyramide de Ponzi appelée Bitcoin Savings & Trust ? Enfin, il se peut que vous connaissiez des personnages comme Ross Ulbricht, Mark Karpelès, Roger Ver, Erik Voorhees, Charlie Shrem ou Luke Dashjr. Si c'est le cas, et que vous voulez en apprendre plus sur ces gens ou ces projets, sachez que vous êtes au bon endroit, car ils sont emblématiques de cette partie de l'histoire de Bitcoin !
+Bienvenue dans ce cours consacré à l'histoire de Bitcoin entre le printemps 2011 et l'été 2012 ! Même si vous avez parfois entendu parler de cette période en raison du destin tragique de Silk Road et de Mt. Gox, il est probable que vous ne la connaissiez pas bien, car Bitcoin était encore largement ignoré par grand public et les utilisateurs étaient alors peu nombreux. Ce cours constitue donc pour vous une occasion de vous familiariser avec cette ère pionnière et communautaire de l'histoire cryptomonétaire qui a façonné Bitcoin. Vous découvrirez en détail les évènements, les personnages, les places de marché, les services financiers et les projets logiciels qui l'ont marquée.
 
-La période qui va du printemps 2011 à l'été 2012 est caractérisée par une désobéissance profonde des acteurs impliqués et une absence à peu près totale de règlementation financière, à tel point que nous la surnommons ici le « Far West de la finance », à l'image des références faites par les utilisateurs de l'époque. Il s'agit d'une période de liberté et de diversité, durant laquelle surgissent de nombreux projets parfois loufoques, qui réussissent plus ou moins, mais qui ont généralement pour but d'améliorer l'utilisation de Bitcoin. Bien qu'elle soit courte (à peine un an et demi), elle est riche d'enseignements ; c'est encore une phase d'apprentissage et de construction qui regorge de « premières fois », d'expérimentations qui sont par la suite devenu des éléments fondamentaux de la structure économique et culturelle de Bitcoin.
-
-Dans ce cours, vous découvrirez en détail les évènements qui ont marqué cette période. Dans un premier temps, vous apprendrez comment la bulle spéculative de 2011 a façonné le Bitcoin de l'époque, tant par son gonflement, qui a provoqué la croissance de Mt. Gox et le succès initial de Silk Road, que par son éclatement. Le premier marché baissier digne de ce nom a ainsi été particulièrement fertile pour l'écosystème économique, faisant apparaitre de multiples services financiers qui se sont imposés par la suite. Dans un second temps, vous étudierez le développement technique qui a eu lieu au cours de la période, que ce soit au niveau des portefeuilles, des coopératives de minage ou du protocole. Enfin, dans un troisième temps, vous prendrez connaissance de tous les excès engendrés par l'utilisation libre de Bitcoin, comme la prolifération des cryptomonnaies alternatives, l'explosion du trafic de drogues, le succès du jeu d'argent, et la multiplication des piratages !
+En particulier, la période qui va du printemps 2011 à l'été 2012 est caractérisée par une attitude de défiance de la part des acteurs impliqués et une absence à peu près totale de règlementation financière, à tel point que nous la surnommons ici le « Far West de la finance ». Il s'agit d'une période de liberté et de diversité, durant laquelle surgissent de nombreux projets parfois loufoques, qui réussissent plus ou moins, mais qui ont généralement pour but d'améliorer l'utilisation de Bitcoin. Bien qu'elle soit courte (à peine un an et demi), elle est riche d'enseignements ; c'est encore une phase d'apprentissage et de construction qui regorge de « premières fois », d'expérimentations qui sont par la suite devenues des éléments fondamentaux de la structure technique, économique et culturelle de Bitcoin.
 
 +++
 

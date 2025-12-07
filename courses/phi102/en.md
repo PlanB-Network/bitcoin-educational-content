@@ -252,7 +252,7 @@ Non-freedom systems postulate an original spoliation of land by force, followed 
 Uniform laws and administrative centralization are in direct contradiction with humanity's natural diversity. These systems impose uniform ways of working and enjoying property, whereas property should confer the freedom to do with it as one wishes. Under these regimes, the owner becomes a mere usufructuary, with true ownership belonging to the state, reminiscent of the Ancien Régime when the king was the ultimate owner of all land.
 
 
-Another major contradiction is the weakening of self-interest. Every human being is born with a distinct personality that manifests itself throughout his or her life. Freedom allows self-interest to find its satisfactions voluntarily and peacefully, at its own pace and according to its own particular needs. Non-freedom imposes standardized satisfactions that do not correspond to people's real needs.
+Another major contradiction is the weakening of self-interest. Every human being is born with a distinct personality that manifests itself throughout their life. Freedom allows self-interest to find its satisfactions voluntarily and peacefully, at its own pace and according to its own particular needs. Non-freedom imposes standardized satisfactions that do not correspond to people's actual needs.
 
 
 The rejection of parental love in education represents a particularly serious contradiction. Unfree education replaces these natural feelings with state administrative guardianship. The state, devoid of feelings, cannot appreciate the unique personality of each child, unlike parents, who possess irreplaceable intimate knowledge and emotional investment.
@@ -263,9 +263,8 @@ The rejection of parental love in education represents a particularly serious co
 
 Attempts to control thought are manifested through the subsidized press, monopolistic national education, limitations on religious freedom and regulated democracy. These measures are attacks on the very nature of human thought. Thought is formed within, belongs intimately to each individual and is the purest expression of self-ownership. Systems of coercion attempt to break the natural link between ideas and their peaceful expression, depriving society of the process of discovering and improving the truth that emerges from free debate.
 
-
-This attempt reveals a profound misunderstanding of how ideas are formed and propagated. Thought cannot be controlled from the outside without destroying the ability to think creatively and critically. Systems that impose intellectual orthodoxy end up stifling the innovation and intellectual progress essential to human development.
-
+This approach reveals a profound misunderstanding of how ideas are formed and propagated. Thought cannot be controlled from the outside without destroying the ability to think creatively and critically. Systems that impose intellectual orthodoxy end up stifling innovation and intellectual progress essential to human development
+**STOPPED HERE**
 
 ### Economic contradictions
 

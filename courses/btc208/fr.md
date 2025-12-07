@@ -10,7 +10,8 @@ objectives:
 
 ---
 
-# Votre voyage dans les fondements thermodynamiques de Bitcoin
+# Au cœur de la géopolitique de Bitcoin
+
 
 Ce séminaire explore les liens profonds entre Bitcoin et la géopolitique, révélant comment un actif numérique peut transformer les rapports de force internationaux. Articulé en plusieurs modules, ce cours combine histoire, analyse stratégique et réflexion pour offrir une compréhension approfondie des grandes transformations en cours. Objet nativement numérique mais indissociable de réalités physiques et énergétiques, Bitcoin s'impose désormais comme un enjeu stratégique qui attire la convoitise d'individus, d'entreprises et d'États.
 

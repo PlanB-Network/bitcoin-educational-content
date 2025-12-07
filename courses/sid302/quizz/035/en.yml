@@ -1,4 +1,4 @@
-question: What is the primary purpose of the three-step Connect, Prepare, and Execute process in the Breeze SDK's developer interface?
+question: What is the primary purpose of the three-step Connect, Prepare, and Execute process in the Breez SDK's developer interface?
 answer: To standardize complex financial flows by syncing wallets, calculating all fees upfront, and then constructing transactions
 wrong_answers:
   - To establish redundant backup connections across multiple swap providers before initiating any atomic operations

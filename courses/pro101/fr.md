@@ -2933,7 +2933,7 @@ Il existe plusieurs portefeuilles Lightning, chacun répondant aux différents b
 - **Caractéristiques** : Extension pour navigateur, open source, prend en charge les modèles *custodial* et *non-custodial*, ce qui accroît la polyvalence.
 
 
-#### Breeze 
+#### Breez 
 
 
 - **Caractéristiques** : Nœud léger sur un téléphone, open source, combinant l'autodétention et une liquidité gérée, offrant un équilibre entre le contrôle et la commodité.
@@ -2943,7 +2943,7 @@ Il existe plusieurs portefeuilles Lightning, chacun répondant aux différents b
 
 
 
-- **Caractéristiques** : Similaire à Breeze, utilise un modèle LSP pour la liquidité, open source, se concentre sur la simplicité d'utilisation et une gestion efficace de la liquidité.
+- **Caractéristiques** : Similaire à Breez, utilise un modèle LSP pour la liquidité, open source, se concentre sur la simplicité d'utilisation et une gestion efficace de la liquidité.
 
 
 #### Open Bitcoin Wallet (OBW) 
@@ -2961,7 +2961,7 @@ Les portefeuilles peuvent être classés en fonction de qui détient les clés p
 
 
 - **Portefeuilles dépositaires (*Custodial*)** : Un tiers détient les clés privées et propose généralement une gestion automatique des liquidités. Exemple : Wallet de Satoshi.
-- **Portefeuilles non dépositaires (*Non-custodial*)** : Les utilisateurs détiennent les clés privées, ce qui peut nécessiter une gestion manuelle des liquidités. Exemples : Breeze et OBW.
+- **Portefeuilles non dépositaires (*Non-custodial*)** : Les utilisateurs détiennent les clés privées, ce qui peut nécessiter une gestion manuelle des liquidités. Exemples : Breez et OBW.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -3264,7 +3264,7 @@ Les chemins aveugles (*blinded paths*) sont conçus pour améliorer la confident
 
 **Lightning Services Providers (LSP)**
 
-Conceptualisés par Breeze Wallet, les fournisseurs de services Lightning (*Lightning Services Providers*, LSP) visent à améliorer l'expérience de l'utilisateur en lui permettant de recevoir instantanément des paiements. Les LSPs ouvrent des canaux pour les utilisateurs, de la même manière que les fournisseurs de services Internet offrent des services de connectivité. Cette innovation simplifie le processus d'intégration de l'utilisateur et garantit des interactions fluides sur le Lightning Network.
+Conceptualisés par Breez Wallet, les fournisseurs de services Lightning (*Lightning Services Providers*, LSP) visent à améliorer l'expérience de l'utilisateur en lui permettant de recevoir instantanément des paiements. Les LSPs ouvrent des canaux pour les utilisateurs, de la même manière que les fournisseurs de services Internet offrent des services de connectivité. Cette innovation simplifie le processus d'intégration de l'utilisateur et garantit des interactions fluides sur le Lightning Network.
 
 
 **Ressources pour rester informé**

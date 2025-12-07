@@ -1,5 +1,5 @@
 ---
-name: Ashigaru - Polizón
+name: Ashigaru - Stowaway
 description: ¿Cómo realizo una transacción Payjoin en Ashigaru?
 ---
 ![cover](assets/cover.webp)

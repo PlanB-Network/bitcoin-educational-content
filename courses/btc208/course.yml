@@ -13,7 +13,7 @@ hours: 3
 
 teaching_format: professor_led
 professors_id:
- - de3c7e8e-cedf-11f0-82bd-b32e37c791e7
+  - de3c7e8e-cedf-11f0-82bd-b32e37c791e7
 
 format: inperson # online, inperson, hybrid
 address_city_country: Paris, France
@@ -38,4 +38,4 @@ proofreading:
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 1
+    reward: 0.32

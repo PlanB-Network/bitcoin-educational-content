@@ -1,9 +1,9 @@
-question: Ni igikorwa nyamukuru ikihe c’uburyo bwo kwishura bwa kera?
-answer: Kugira ngo bishobore gutanga amafaranga hagati y'imigwi ibiri .
+question: Ni ikihe gikorwa nyamukuru  c’uburyo bwo kwishura bwa kera?
+answer: Gutuma hashoboka gutangwa amafaranga hagati y'imigwi ibiri .
 wrong_answers:
   - Kugira ngo haboneke ifaranga rimwe ry'isi yose rigenzurwa n'ubutegetsi bukuru
   - Kugira ngo ubudandaji mpuzamakungu bube bworoshe .
-  - Kugabanya amafaranga yoherezwa mu guhindura amafaranga gusa
+  - Kugabanya amafaranga yoherezwa mu guhindura mumafaranga agaragara.
 explanation: |
   Uburyo bwo kwishura bwa kera buratanga uburyo n’ibikorwa remezo vyo gutanga amafaranga hagati y’abariha n’abahembwa mu gihugu no hanze.
-reviewed: false
+reviewed: true

@@ -1,8 +1,8 @@
-question: What is the fundamental reason why the Breeze SDK's architecture prevents regulatory hurdles that typically affect custodial Lightning services?
+question: What is the fundamental reason why the Breez SDK's architecture prevents regulatory hurdles that typically affect custodial Lightning services?
 answer: Users maintain complete control over their private keys which never leave their devices, making it non-custodial software
 wrong_answers:
   - The SDK operates through decentralized LSPs that distribute regulatory responsibility across multiple jurisdictions
   - Greenlight infrastructure is hosted in regulatory-friendly jurisdictions that exempt cloud-based Lightning services
   - The just-in-time channel mechanism creates temporary payment channels that fall outside traditional financial regulations
 explanation: |
-  The Breeze SDK avoids regulatory hurdles because it maintains non-custodial principles - users' private keys never leave their devices and Greenlight cannot access user funds or perform unauthorized operations. This non-custodial architecture means the software doesn't hold customer funds, unlike custodial services which face significant regulatory requirements as they control user assets. The other options incorrectly suggest regulatory advantages come from technical features or jurisdictional strategies, when the core advantage is simply that non-custodial software faces fewer regulatory barriers globally.
+  The Breez SDK avoids regulatory hurdles because it maintains non-custodial principles - users' private keys never leave their devices and Greenlight cannot access user funds or perform unauthorized operations. This non-custodial architecture means the software doesn't hold customer funds, unlike custodial services which face significant regulatory requirements as they control user assets. The other options incorrectly suggest regulatory advantages come from technical features or jurisdictional strategies, when the core advantage is simply that non-custodial software faces fewer regulatory barriers globally.

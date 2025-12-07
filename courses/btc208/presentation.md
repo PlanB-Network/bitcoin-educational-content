@@ -58,12 +58,12 @@ Nous recommandons simplement :
 
 # Informations logistiques
 
-**Quand :** Ce séminaire aura lieu le **jeudi 27 novembre 2025**, de **14h30 à 17h30** (3 heures incluant les pauses café)
+**Quand :** Ce séminaire aura lieu le **jeudi 18 Décembre 2025**, de **14h30 à 17h30** (3 heures incluant les pauses café)
 
 **Où :** Le séminaire se tiendra à l'**Institut Péricles**, à Paris, France.
 
 **Langue :** Le séminaire sera conduit en **français**.
 
-**Prix :** L'accès à ce séminaire est **GRATUIT**, mais les places sont **limitées à 50 participants**. **Une réservation préalable est obligatoire** pour garantir votre place.
+**Prix :** L'accès à ce séminaire est **GRATUIT**, mais les places sont **limitées à 40 participants**. **Une réservation préalable est obligatoire** pour garantir votre place.
 
-**IMPORTANT :** En raison du nombre limité de places, nous vous encourageons à vous inscrire rapidement. Les inscriptions seront closes dès que la capacité maximale sera atteinte ou au plus tard le 27 novembre 2025.
+**IMPORTANT :** En raison du nombre limité de places, nous vous encourageons à vous inscrire rapidement. Les inscriptions seront closes dès que la capacité maximale sera atteinte ou au plus tard le 18 Décembre 2025.

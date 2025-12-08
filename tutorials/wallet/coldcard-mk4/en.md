@@ -21,7 +21,7 @@ You will receive your Mk4 in a tamper-evident bag. Please ensure that the bag ha
 
 If there are no problems with the packaging, you may open the bag. The Mk4 will come with a wallet backup card that can be used to store information regarding the device's PIN, anti-phishing words, and seedphrase. Follow the following steps for the initialization: 
 
-- Connect the Mk4 to a power source (USB-C cable) and insert the MicroSD card. The device will power up
+1. Connect the Mk4 to a power source (USB-C cable) and insert the MicroSD card. The device will power up
 
 
 ## Creating a New Wallet

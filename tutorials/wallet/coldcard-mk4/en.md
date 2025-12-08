@@ -29,30 +29,57 @@ If there are no problems with the packaging, you may open the bag. The Mk4 will 
 4. Select `Choose PIN Code`.
 5. Navigate down as you read the instructions to proceed to the next step.
 6. To perform the following steps, prepare a piece of paper and a pen.
-7. On the Mk4, enter the PIN prefix (must be 2 to 6 characters long) and write it down.
-8. Write down the two words displayed at the screen. These are the anti-phishing words.
-9. Enter the PIN suffix (or rest of PIN, must be 2 to 6 characters long) and write it down.
-10. Reenter your PIN prefix.
+7. On the Mk4, create and enter the PIN prefix (must be 2 to 6 characters long) and write it down, then press `✓` to continue.
+8. Write down the two words displayed at the screen. These are the anti-phishing words. Press `✓` to continue.
+9. Create and enter the PIN suffix (or rest of PIN, must be 2 to 6 characters long) and write it down. Press `✓` to continue.
+10. Reenter your PIN prefix. Press `✓` to continue.
 11. Check whether the anti-phishing words are the same with the one you wrote on step 8. Press `✓` to continue.
-12. Reenter your PIN suffix (or rest of PIN).
+12. Reenter your PIN suffix (or rest of PIN). Press `✓` to continue.
 13. Your Mk4's PIN and anti-phishing words are now successfully created and stored by the device.
+
+Note that Mk4 will always ask you to input your PIN each time you switch your device on. Without this PIN, you are not able to access your Coldcard Mk4. So make sure that you create sufficient backup for the PIN and anti-phishing words.
 
 ## Setting up your Wallet
 
 The next step is to set up your wallet. There are three ways for you to do this:
 - Creating a new wallet (standard)
 - Creating a new wallet with dice rolls
-- Importing an existing wallet
+- Importing a wallet
 
 ### Creating a new wallet (standard)
 
 To create a new wallet, simply do the following steps.
 
-1. Select `New
+1. Select `New Wallet` (or `New Seed Words`).
+2. Select `12 Word` or `24 Word (default)` depending on your preference.
+3. The device will generate 12 or 24 words as your seedphrase based on your choice. Navigate down as you carefully write down each word in the correct order. Then, press `✓` to continue. 
+4. The device will ask you to verify your seedphrase by asking the in a random order (for example, `Word 1 is?`, then `Word 5 is?`, then `Word 12 is?`, and so on) and there will be three word choices for each question. Refer to the note from Step 3 and choose the words correctly (by pressing `1`, `2` or `3`, whichever corresponds to the correct word) to complete the wallet creation.
+5. Mk4 will then ask whether you want to Enable NFC/Tap or not. For now, select `✕` for this option. This can be changed in the settings in the future.
+6. Finally, Mk4 will also if you want to disable the USB Port. For now, select `✓` for this option. This can be changed in the settings in the future.
+7. The screen will now display a new menu with `Ready to Sign` at the top. This marks the completion of the wallet creation process.
+
+### Creating a new wallet with dice roll
+
+Alternatively, you can also choose to generate the new seedphrase with entropy. This is done if you do not trust Mk4's freshly generated seedphrase. The procedure is as follows:
+
+1. Select `New Wallet` (or `New Seed Words`).
+2. Select `12 Word Dice Roll` or `24 Word Dice Roll` depending on your preference.
+3. You will be asked to enter the results of your dice rolls. Each dice roll adds randomness to the wallet creation process, ensuring that your seed phrase is generated in a fully secure and unpredictable way. The minimum number of roll is 99. Press `✓` after you have input at least 99 dice roll values.
+4. The device will generate 12 or 24 words as your seedphrase based on your choice. Navigate down as you carefully write down each word in the correct order. Then, press `✓` to continue. 
+5. The device will ask you to verify your seedphrase by asking the in a random order (for example, `Word 1 is?`, then `Word 5 is?`, then `Word 12 is?`, and so on) and there will be three word choices for each question. Refer to the note from Step 3 and choose the words correctly (by pressing `1`, `2` or `3`, whichever corresponds to the correct word) to complete the wallet creation.
+6. Mk4 will then ask whether you want to Enable NFC/Tap or not. For now, select `✕` for this option. This can be changed in the settings in the future.
+7. Finally, Mk4 will also if you want to disable the USB Port. For now, select `✓` for this option. This can be changed in the settings in the future.
+8. The screen will now display a new menu with `Ready to Sign` at the top. This marks the completion of the wallet creation process.
+
+### Importing a wallet
+
+The final option is for you to import a wallet. You can do this if you want to recover 
 
 ## Exporting to Sparrow Wallet
 
-## Receiving and Sending bitcoin
+## Receiving bitcoin
+
+## Sending bitcoin
 
 ## Firmware Upgrade
 

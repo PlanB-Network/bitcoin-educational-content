@@ -13,7 +13,7 @@ In this tutorial, we will explore one of the most popular hardware wallets produ
 
 Coldcard Mk4 is a Bitcoin-only hardware wallet manufactured by Coinkite. This device is equipped with a screen, a numeric keypad and a protective sliding cover. In addtion, the device offers several ways to connect and interact, including USB-C, air-gapped operation using a MicroSD card, NFC, and a virtual disk mode. The Mk4 also includes advanced security features such as the BIP39 passphrase and trick PINs, giving users greater control and protection over their Bitcoin.
 
-## Initial Setup
+## Initial Setup: PIN and Anti-Phishing Words
 
 To get started, the Coldcard Mk4 can be purchased directly from [Coinkite's website](https://store.coinkite.com/store). Buyers can also choose to pay using fiat currency or Bitcoin. In addition, you will also need a MicroSD card (4GB is sufficient) and a power source that can be connected via USB-C cable (the Coldcard Mk4 only has a USB-C power input port). Note that since the Mk4 does not have a built-in battery, it must be connected to the power source at all times while being used.
 
@@ -29,17 +29,26 @@ If there are no problems with the packaging, you may open the bag. The Mk4 will 
 4. Select `Choose PIN Code`.
 5. Navigate down as you read the instructions to proceed to the next step.
 6. To perform the following steps, prepare a piece of paper and a pen.
-7. On the Mk4, enter the PIN prefix (2 to 6 characters long) and write it down.
+7. On the Mk4, enter the PIN prefix (must be 2 to 6 characters long) and write it down.
 8. Write down the two words displayed at the screen. These are the anti-phishing words.
-9. Enter the PIN suffix (or rest of PIN, 2 to 6 characters long) and write it down.
+9. Enter the PIN suffix (or rest of PIN, must be 2 to 6 characters long) and write it down.
 10. Reenter your PIN prefix.
 11. Check whether the anti-phishing words are the same with the one you wrote on step 8. Press `✓` to continue.
 12. Reenter your PIN suffix (or rest of PIN).
 13. Your Mk4's PIN and anti-phishing words are now successfully created and stored by the device.
 
-## Creating a New Wallet
+## Setting up your Wallet
 
+The next step is to set up your wallet. There are three ways for you to do this:
+- Creating a new wallet (standard)
+- Creating a new wallet with dice rolls
+- Importing an existing wallet
 
+### Creating a new wallet (standard)
+
+To create a new wallet, simply do the following steps.
+
+1. Select `New
 
 ## Exporting to Sparrow Wallet
 

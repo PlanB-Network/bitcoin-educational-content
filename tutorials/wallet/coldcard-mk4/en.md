@@ -73,7 +73,17 @@ Alternatively, you can also choose to generate the new seedphrase with entropy. 
 
 ### Importing a wallet
 
-The final option is for you to import a wallet. You can do this if you want to recover 
+The final option is for you to import a wallet. You can do this if you want to recover a wallet from a seedphrase that you already have. You can follow these steps:
+
+1. Select `Import Existing`.
+2. Select `24 Words`, `18 Words` or `12 Words`, depending on your seedphrase's word count.
+3. Coldcard Mk4 will then ask you what each word is in consecutive order. For each word, navigate down or up until you find the write prefix for each word. The device will narrow down the possibilities until you can find the correct word. Do this for the rest of the other words.
+4. For the final word, Coldcard Mk4 will display only a limited amount of possible words. If there are no matches, you may have input the words incorrectly. Otherwise, select the word that matches the one on your seedphrase.
+5. Mk4 will then ask whether you want to Enable NFC/Tap or not. For now, select `✕` for this option. This can be changed in the settings in the future.
+6. Finally, Mk4 will also if you want to disable the USB Port. For now, select `✓` for this option. This can be changed in the settings in the future.
+7. The screen will now display a new menu with `Ready to Sign` at the top. This marks the completion of the wallet creation process.
+
+Do note that the seedphrase is the access to your wallet. Create a backup of your seedphrase and store it in a secure place. Not your keys, not your coins, whoever has your seedphrase has access to your bitcoins!
 
 ## Exporting to Sparrow Wallet
 

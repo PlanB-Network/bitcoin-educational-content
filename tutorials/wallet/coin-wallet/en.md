@@ -156,7 +156,7 @@ Bitcoin • Avalanche • Binance Smart Chain • Ethereum • Ethereum Classic 
 
 More about Replace-by-fee (RBF): https://bitcoinops.org/en/topics/replace-by-fee/
 
-## 6. Exporting Private Keys
+## 6️⃣ Exporting Private Keys
 
 **When do you actually need a private key?**  
 (99 % of users never do — the 12-word passphrase is enough)

@@ -3,16 +3,16 @@ name: Programmation RGB
 goal: Acquérir les compétences nécessaires pour comprendre et utiliser RGB
 objectives:
 - Comprendre les concepts fondamentaux du protocole RGB
-- Maîtriser les principes de la validation côté client et des engagements sur Bitcoin
+- Maîtriser les principes du client-side validation et des engagements sur Bitcoin
 - Apprendre à créer, gérer et transférer des contrats RGB
-- Savoir opérer un noeud Lightning compatible avec RGB
+- Savoir utiliser un nœud Lightning compatible avec RGB
 ---
 
 # À la découverte du protocole RGB
 
 Plongez dans l’univers de RGB, un protocole conçu pour appliquer et faire respecter des droits numériques, sous forme de contrats et d’actifs, en s’appuyant sur les règles de consensus et les opérations de la blockchain Bitcoin. Cette formation complète vous guide à travers les fondations techniques et pratiques de RGB, depuis les concepts de la "Client-side Validation" et des "Single-use Seals", jusqu'à l'implémentation de contrats intelligents avancés.
 
-À travers un programme structuré et progressif, vous découvrirez les mécanismes de la validation côté client, les engagements déterministes sur Bitcoin et les schémas d’interaction entre les utilisateurs. Apprenez à créer, gérer et transférer des tokens RGB sur Bitcoin ou bien sur le Lightning Network.
+À travers un programme structuré et progressif, vous découvrirez les mécanismes de la validation côté-client, les engagements déterministes sur Bitcoin et les schémas d’interaction entre les utilisateurs. Apprenez à créer, gérer et transférer des tokens RGB sur Bitcoin ou bien sur le Lightning Network.
 
 Que vous soyez développeur, passionné de Bitcoin, ou simplement curieux d’en apprendre davantage sur cette technologie, cette formation vous fournira les outils et les connaissances nécessaires pour maîtriser RGB et construire des solutions innovantes sur Bitcoin.
 
@@ -26,11 +26,11 @@ Le cours est issu d'un séminaire en direct organisé par Fulgur'Ventures et ens
 ## Présentation du cours
 <chapterId>cf2f087b-6c6b-5037-8f98-94fc9f1d7f46</chapterId>
 
-Bonjour à tous et bienvenue dans cette formation dédiée à RGB, un système de contrats intelligents validés côté client, fonctionnant sur Bitcoin et le Lightning Network. La structure de cette formation est pensée pour permettre une exploration approfondie de ce sujet complexe. Voici comment la formation est organisée :
+Bonjour à tous et bienvenue dans cette formation dédiée à RGB, un système de contrats intelligents validés côté-client, fonctionnant sur Bitcoin et le Lightning Network. La structure de cette formation est pensée pour permettre une exploration approfondie de ce sujet complexe. Voici comment la formation est organisée :
 
 **Section 1 : Théorie**  
 
-La première section est dédiée aux concepts théoriques nécessaires pour comprendre les principes fondamentaux de la validation côté client et de RGB. Comme vous le découvrirez dans cette formation, RGB introduit une multitude de concepts techniques que l'on n'a pas l'habitude de voir sur Bitcoin. Vous trouverez donc également dans cette section un glossaire fournissant des définitions pour tous les termes spécifiques au protocole RGB.
+La première section est dédiée aux concepts théoriques nécessaires pour comprendre les principes fondamentaux de la validation côté-client et de RGB. Comme vous le découvrirez dans cette formation, RGB introduit une multitude de concepts techniques que l'on n'a pas l'habitude de voir sur Bitcoin. Vous trouverez donc également dans cette section un glossaire fournissant des définitions pour tous les termes spécifiques au protocole RGB.
 
 **Section 2 : Pratique**  
 
@@ -93,27 +93,27 @@ En particulier, la notion de **consensus** dans un système distribué recouvre 
 
 La première implémentation sans permission et fonctionnelle d’un mécanisme de consensus distribué a été introduite par Satoshi Nakamoto avec Bitcoin, grâce à l’utilisation conjointe d’une structure de données en blockchain et d’un algorithme de Proof-of-Work (PoW). Dans ce système, la crédibilité de l’historique des blocs dépend de la puissance de calcul que les nœuds (mineurs) y consacrent. Bitcoin est donc un exemple historique et majeur de système de consensus distribué ouvert à tous (*permissionless*).
 
-Dans l'univers de la blockchain et de l'informatique distribuée, nous pouvons distinguer deux paradigmes fondamentaux : la ***blockchain*** au sens traditionnel, et les ***state channels*** (canaux d'état), dont le meilleur exemple en production est le Lightning Network. La blockchain se définit comme un registre d'événements ordonnés chronologiquement, répliqué par consensus au sein d'un réseau ouvert et sans permission. Les state channels, eux, sont des canaux en pair-à-pair qui permettent à deux (ou plusieurs) participants de maintenir un état mis à jour off-chain, ne recourant à la blockchain qu'au moment de l'ouverture et de la fermeture de ces canaux.
+Dans l'univers de la blockchain et de l'informatique distribuée, nous pouvons distinguer deux paradigmes fondamentaux : la ***blockchain*** au sens traditionnel, et les ***state channels*** (canaux d'état), dont le meilleur exemple en production est le Lightning Network. La blockchain se définit comme un registre d'événements ordonnés chronologiquement, répliqué par consensus au sein d'un réseau ouvert et sans permission. Les state channels, eux, sont des canaux en pair-à-pair qui permettent à deux (ou plusieurs) participants de maintenir un état actualisé off-chain, ne recourant à la blockchain qu'au moment de l'ouverture et de la fermeture de ces canaux.
 
-Dans le cadre de Bitcoin, vous connaissez sans doute les principes du minage, de la décentralisation et de la finalité des transactions sur la blockchain, ainsi que le fonctionnement des canaux de paiement. Avec RGB, nous allons introduire un nouveau paradigme appelé **Client-side Validation** (validation côté client), qui, contrairement à la blockchain ou à Lightning, consiste à conserver et à valider localement (côté client) les transitions d'état d'un contrat intelligent. Ceci se différencie aussi d'autres techniques de la "DeFi" (_rollups_, _plasma_, _ARK_, etc.), dans la mesure où la Client-side Validation s'appuie sur la blockchain pour empêcher la double dépense et pour avoir un système d'horodatage, tout en conservant le registre des états et des transitions off-chain, uniquement chez les participants concernés.
+Dans le cadre de Bitcoin, vous connaissez sans doute les principes du minage, de la décentralisation et de la finalité des transactions sur la blockchain, ainsi que le fonctionnement des canaux de paiement. Avec RGB, nous allons introduire un nouveau paradigme appelé **Client-side Validation** (validation côté-client), qui, contrairement à la blockchain ou à Lightning, consiste à conserver et à valider localement (côté-client) les transitions d'état d'un contrat intelligent. Ceci se différencie aussi d'autres techniques de la "DeFi" (_rollups_, _plasma_, _ARK_, etc.), dans la mesure où la Client-side Validation s'appuie sur la blockchain pour empêcher la double dépense et pour avoir un système d'horodatage, tout en conservant le registre des états et des transitions off-chain, uniquement chez les participants concernés.
 
 ![RGB-Bitcoin](assets/en/003.webp)
 
-Nous allons également plus tard introduire un terme important : la notion de "**stash**", qui désigne l'ensemble des données côté client nécessaires pour préserver l'état d'un contrat, ces données n'étant pas répliquées de façon globale sur le réseau. Enfin, nous aborderons la raison d'être de RGB, un protocole qui tire parti de la Client-side Validation, et pourquoi il se révèle complémentaire aux approches existantes (blockchain et state channels).
+Nous allons également plus tard introduire un terme important : la notion de "**stash**", qui désigne l'ensemble des données côté-client nécessaires pour préserver l'état d'un contrat, ces données n'étant pas répliquées de façon globale sur le réseau. Enfin, nous aborderons la raison d'être de RGB, un protocole qui tire parti de la Client-side Validation, et pourquoi il se révèle complémentaire aux approches existantes (blockchain et state channels).
 
 ### Les trilemmes en informatique distribuée
 
 Pour comprendre en quoi la Client-side Validation et RGB répondent à des problématiques non résolues par la blockchain et Lightning, découvrons 3 "trilemmes" majeurs en informatique distribuée :
 
-- **Scalabilité, Décentralisation, Privacy** ;
-- **Théorème CAP** (Cohérence, Disponibilité, tolérance aux Partitions) ;
-- **Trilemme CIA** (Confidentialité, Intégrité, Disponibilité).
+- **Scalabilité, Décentralisation, Confidentialité** ;
+- **Théorème CAP** (Cohérence, Disponibilité, Tolérance aux Partitions) ;
+- **Trilemme CID** (Confidentialité, Intégrité, Disponibilité).
 
 #### 1. Scalabilité, décentralisation et confidentialité
 
 - **Blockchain (Bitcoin)**
 
-La blockchain est très décentralisée, mais peu scalable. De plus, comme tout se trouve dans un registre global et public, la confidentialité est limitée. On peut tenter d'améliorer la confidentialité avec des technologies zero-knowledge (transactions confidentielles, schémas mimblewimble, etc.), mais la chaîne publique ne peut pas cacher le graphe des transactions.
+La blockchain est très décentralisée, mais peu scalable. De plus, comme tout se trouve dans un registre global et public, la confidentialité est limitée. On peut tenter d'améliorer la confidentialité avec des technologies zero-knowledge (transactions confidentielles, schémas mimblewimble, etc.), mais la chaîne publique ne peut pas masquer le graphique des transactions.
 
 - **Lightning/State channels**
 

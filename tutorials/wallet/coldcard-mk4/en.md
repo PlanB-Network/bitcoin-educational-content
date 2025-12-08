@@ -19,9 +19,11 @@ To get started, the Coldcard Mk4 can be purchased directly from [Coinkite's webs
 
 You will receive your Mk4 in a tamper-evident bag. Please ensure that the bag has not been compromised. If you spot something that may be a problem such as damage or tear on the bag, you can inform Coinkite by sending an email to support@coinkite.com. In addition, you can also find a 12-digit number on the tamper-evident bag, which we will refer to as the Mk4's bag number. This bag number will be used later to verify that the device has not been tampered with during shipping and that it comes directly from Coinkite. 
 
+The keypad consists of 10 numeric buttons, an OK (`✓`) button, and a cancel (`✕`) button. Some numeric buttons can also be used for navigation, `5` to navigate up (`^`), `7` to navigate left (`<`), `8` to navigate down `˅`, and `9` to navigate right (`>`).
+
 If there are no problems with the packaging, you may open the bag. The Mk4 will come with a wallet backup card that can be used to store information regarding the device's PIN, anti-phishing words, and seedphrase. Follow the following steps for the initialization: 
 
-1. Connect the Mk4 to a power source (USB-C cable) and insert the MicroSD card. The device will power up
+1. Connect the Mk4 to a power source (USB-C cable) and insert the MicroSD card. The device will power up 
 
 
 ## Creating a New Wallet

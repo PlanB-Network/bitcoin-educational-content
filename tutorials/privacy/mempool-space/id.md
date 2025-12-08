@@ -7,10 +7,9 @@ description: Jelajahi seluruh ekosistem Bitcoin.
 
 
 
-Protokol Bitcoin adalah jaringan terdesentralisasi yang bersifat pseudonim dan terbuka untuk konsultasi. Anggota (node), yaitu komputer yang memiliki contoh perangkat lunak Bitcoin, memiliki akses tak terbatas ke semua data yang dipublikasikan di Bitcoin. Namun, pada tahun-tahun awal Bitcoin, protokol ini tidak dapat diakses secara luas seperti saat ini.
+Protokol Bitcoin adalah jaringan terdesentralisasi yang bersifat pseudonim dan terbuka untuk dilihat siapa saja. Para anggota (node), yaitu komputer yang menjalankan perangkat lunak Bitcoin, punya akses penuh ke semua data yang dipublikasikan di Bitcoin. Tapi, di tahun-tahun awal Bitcoin, protokol ini belum bisa diakses luas seperti sekarang.
 
-
-Pada masa-masa awal Bitcoin, perlu menjalankan node Bitcoin untuk mengakses alat yang sesuai (bitcoin-cli) untuk menginterogasi jaringan dari baris perintah.
+Di masa awal itu, kamu harus menjalankan node Bitcoin untuk memakai alat yang tepat (bitcoin-cli) agar bisa menginterogasi jaringan lewat baris perintah.
 
 
 
@@ -18,7 +17,7 @@ https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d
 
 https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-Oleh karena itu, berbagai proyek telah diluncurkan untuk memperluas komunitas Bitcoin, sehingga lebih mudah diakses oleh siapa saja yang tidak memiliki node dan/atau tidak memiliki keterampilan teknis yang diperlukan.
+Karena itu, berbagai proyek mulai bermunculan untuk memperluas komunitas Bitcoin agar siapa saja yang tidak punya node dan/atau tidak punya keterampilan teknis yang dibutuhkan tetap bisa mengaksesnya dengan mudah.
 
 
 
@@ -30,19 +29,13 @@ Dalam tutorial ini, kita akan melihat proyek **Mempool.space**, fitur-fiturnya, 
 
 
 
-**Mempool.space** adalah penjelajah sumber terbuka yang menyediakan informasi berguna tentang transaksi, biaya transaksi, blok, dan penambang di berbagai jaringan protokol Bitcoin. Diluncurkan pada tahun 2020, aplikasi ini membawa peningkatan yang signifikan dalam pengalaman pengguna melalui grafik yang representatif, animasi yang halus, dan antarmuka yang rapi.
+**Mempool.space** adalah penjelajah open source yang menyediakan informasi berguna tentang transaksi, biaya transaksi, blok, dan para penambang di berbagai jaringan protokol Bitcoin. Diluncurkan pada 2020, aplikasi ini membawa peningkatan besar dalam pengalaman pengguna lewat grafik yang jelas, animasi yang halus, dan antarmuka yang rapi.
 
+Untuk memahami proyek ini, Mempool (kumpulan memori) adalah ruang virtual tempat semua transaksi yang menunggu konfirmasi di jaringan Bitcoin disimpan. Mempool itu seperti ruang tunggu tempat transaksi Bitcoin menunggu untuk dikonfirmasi. Setiap komputer di jaringan (node) punya ruang tunggu sendiri, dan ini menjelaskan kenapa tidak semua transaksi bisa terlihat oleh semua orang pada waktu yang sama.
 
+Dampak utama platform ini dalam ekosistem Bitcoin adalah memungkinkan kamu mengakses beragam informasi dari area memori sebagian besar node Bitcoin tanpa perlu menjalankannya sendiri. Mempool.space adalah tempat untuk melihat dan menelusuri jaringan protokol Bitcoin.
 
-Untuk memahami proyek ini, Mempool (kumpulan memori) adalah ruang virtual tempat semua transaksi yang menunggu konfirmasi di jaringan Bitcoin disimpan. Mempool seperti sebuah "ruang tunggu" di mana transaksi Bitcoin menunggu untuk dikonfirmasi. Setiap komputer di jaringan (node) memiliki ruang tunggu sendiri, yang menjelaskan mengapa tidak semua transaksi dapat dilihat oleh semua orang pada waktu yang sama.
-
-
-
-Dampak utama dari platform dalam ekosistem Bitcoin adalah memungkinkan Anda untuk mengakses beragam informasi di area memori sebagian besar node yang ada di Bitcoin tanpa perlu menjalankannya. Mempool.space adalah tempat penyimpanan untuk melihat dan mencari jaringan protokol Bitcoin.
-
-
-
-Penggunaan yang semakin meluas dalam ekosistem dan fakta bahwa Mempool.space adalah open source telah memungkinkannya untuk diintegrasikan ke dalam lebih banyak sistem hosting pribadi. Anda sekarang dapat memiliki instans Mempool.space Anda sendiri secara langsung di node pribadi Anda. Lihat tutorial kami tentang cara mengonfigurasi Mempool.space pada node Umbrel Anda di bawah ini.
+Penggunaannya yang semakin luas di ekosistem, ditambah fakta bahwa Mempool.space bersifat open source, membuatnya bisa diintegrasikan ke lebih banyak sistem hosting pribadi. Sekarang kamu bisa menjalankan instans Mempool.space milik kamu sendiri langsung di node pribadi. Lihat tutorial kami tentang cara mengonfigurasi Mempool.space di node Umbrel kamu di bawah ini.
 
 
 

@@ -59,7 +59,7 @@ Ce qu'il faut comprendre, c'est que pour transférer des bitcoins d'un endroit �
 Un grand pouvoir s'accompagne d'une grande responsabilité : si vous perdez vos clés, vos fonds disparaissent à jamais. On peut donc considérer les clés du coffre-fort comme l'argent lui-même. Bien que les clés ne soient pas la même chose que les bitcoins, elles constituent le mécanisme permettant de déplacer vos fonds et il est donc extrêmement important de les protéger. C'est pourquoi nous disons "pas vos clés, pas vos pièces".
 
 
-Le terme "autodétention" peut sembler déroutant, mais il signifie simplement que vous détenez vos propres clés privées et que vous contrôlez vos propres bitcoins. Si vous ne détenez pas cette clé, vous faites confiance à quelqu'un d'autre pour la détenir à votre place. Si votre bitcoin se trouve dans un ETF ou sur une bourse (Mt. Gox, FTX, Coinbase, Binance, etc.), vous ne possédez pas de bitcoin, mais une créance sur le bitcoin. ), vous ne possédez pas de bitcoins, mais une créance sur les bitcoins. Cela introduit toutes sortes de risques, comme le piratage des bourses et la perte de vos bitcoins, ou le fait que des entreprises prêtent votre argent et ne vous donnent qu'une fraction de la réserve. En outre, des tiers de confiance auraient le contrôle total de votre argent et pourraient limiter ou geler les retraits.
+Le terme "autodétention" peut sembler déroutant, mais il signifie simplement que vous détenez vos propres clés privées et que vous contrôlez vos propres bitcoins. Si vous ne détenez pas cette clé, vous faites confiance à quelqu'un d'autre pour la détenir à votre place. Si votre bitcoin se trouve dans un ETF ou sur une bourse (Mt. Gox, FTX, Coinbase, Binance, etc.), vous ne possédez pas de bitcoin, mais une créance sur le bitcoin. Cela introduit toutes sortes de risques, comme le piratage des bourses et la perte de vos bitcoins, ou le fait que des entreprises prêtent votre argent et ne vous donnent qu'une fraction de la réserve. En outre, des tiers de confiance auraient le contrôle total de votre argent et pourraient limiter ou geler les retraits.
 
 
 ![image](assets/fr/01.webp)
@@ -74,7 +74,7 @@ Bitcoin a été créé pour résoudre le problème de la manipulation de la conf
 ### Qu'est-ce qu'un Wallet ?
 
 
-Le terme wallet est un peu mal choisi et peut donc prêter à confusion. Il est vrai qu'une wallet bitcoin, comme une wallet physique, stocke de la valeur. Mais la principale différence réside dans le fait que les portefeuilles bitcoins ne stockent pas réellement de bitcoins.
+Le terme wallet est un peu mal choisi et peut donc prêter à confusion. Il est vrai qu'un wallet bitcoin, comme un wallet physique, stocke de la valeur. Mais la principale différence réside dans le fait que les portefeuilles bitcoins ne stockent pas réellement de bitcoins.
 
 
 Le Bitcoin n'existe qu'en tant qu'entrée du grand livre sur la blockchain publique, ou dans les chambres fortes métaphoriques du cyberespace. Pour déplacer des bitcoins, vous devez utiliser vos clés pour déverrouiller le coffre-fort et déplacer les pièces ailleurs ; ce sont les clés privées qui sont utilisées pour dépenser les bitcoins. Lorsque vous effectuez une transaction avec votre wallet, vous utilisez simplement vos clés pour signer la transaction. C'est ainsi que vous prouvez que vous possédez l'argent et que vous avez le droit de dépenser ces pièces.
@@ -86,7 +86,7 @@ Les portefeuilles Bitcoin ne font que stocker vos clés privées, il serait donc
 ### Portefeuilles Hot vs Cold
 
 
-Un hot wallet est une application logicielle installée sur votre téléphone ou votre ordinateur. Elle est connectée à l'internet, ce qui la rend plus facile à utiliser et plus rapide pour signer des transactions, mais cela signifie aussi qu'elle est plus exposée aux pirates, aux logiciels malveillants et à l'hameçonnage. Il est dit "chaud" parce qu'il est connecté à l'internet, qu'il est branché et qu'il est sous tension. Un exemple serait un téléphone wallet ou un navigateur wallet.
+Un hot wallet est une application logicielle installée sur votre téléphone ou votre ordinateur. Elle est connectée à internet, ce qui la rend plus facile à utiliser et plus rapide pour signer des transactions, mais cela signifie aussi qu'elle est plus exposée aux pirates, aux logiciels malveillants et à l'hameçonnage. Il est dit "chaud" parce qu'il est connecté à internet, qu'il est branché et qu'il est sous tension. Un exemple serait un téléphone wallet ou un navigateur wallet.
 
 
 En revanche, un wallet froid, ou wallet matériel, est un dispositif qui crée et stocke votre clé hors ligne. Ce dispositif élimine la possibilité pour quelqu'un de pirater vos fonds et est beaucoup plus sûr pour l'épargne à long terme, mais il est nécessaire de signer chaque transaction et peut s'avérer moins pratique.
@@ -95,7 +95,7 @@ En revanche, un wallet froid, ou wallet matériel, est un dispositif qui crée e
 ### Modèle de menace Hardware Wallet
 
 
-Les portefeuilles matériels existent pour résoudre un problème fondamental : comment signer des transactions Bitcoin sans exposer vos clés privées à un ordinateur connecté à l'internet qui pourrait être compromis par des logiciels malveillants ou des attaquants à distance ? Le modèle de menace principal suppose que votre ordinateur portable ou votre téléphone de tous les jours est potentiellement hostile. Un wallet matériel crée un environnement isolé dans lequel les clés privées ne quittent jamais l'appareil, et la signature de la transaction s'effectue dans un secure element ou un microcontrôleur qui ne communique que la signature à l'ordinateur hôte, et non la clé elle-même. Même si votre ordinateur est complètement compromis, un pirate ne peut pas voler votre Bitcoin sans avoir un accès physique à l'appareil et à votre code PIN.
+Les portefeuilles matériels existent pour résoudre un problème fondamental : comment signer des transactions Bitcoin sans exposer vos clés privées à un ordinateur connecté à internet qui pourrait être compromis par des logiciels malveillants ou des attaquants à distance ? Le modèle de menace principal suppose que votre ordinateur portable ou votre téléphone de tous les jours est potentiellement hostile. Un wallet matériel crée un environnement isolé dans lequel les clés privées ne quittent jamais l'appareil, et la signature de la transaction s'effectue dans un secure element ou un microcontrôleur qui ne communique que la signature à l'ordinateur hôte, et non la clé elle-même. Même si votre ordinateur est complètement compromis, un pirate ne peut pas voler votre Bitcoin sans avoir un accès physique à l'appareil et à votre code PIN.
 
 
 Cependant, les portefeuilles matériels présentent leurs propres risques. Vous devez être certain que le fabricant n'a pas introduit de portes dérobées, que la chaîne d'approvisionnement n'a pas été altérée et que la génération de nombres aléatoires est réellement aléatoire. Les attaquants physiques peuvent extraire des clés par le biais d'attaques par canal latéral ou de manipulation de la puce, et une personne disposant d'un accès temporaire peut modifier votre appareil. La création de votre propre matériel wallet vous aide à comprendre ces compromis : vous prendrez des décisions concernant les éléments sécurisés par rapport aux microcontrôleurs généraux, la manière de vérifier les transactions sur un écran et la façon de se protéger contre les menaces physiques et à distance. L'objectif n'est pas d'obtenir une sécurité parfaite, mais de comprendre les menaces contre lesquelles vous vous protégez et celles qui subsistent.
@@ -106,7 +106,7 @@ Cependant, les portefeuilles matériels présentent leurs propres risques. Vous 
 
 
 - Entropie et phrases seed:** Votre wallet n'est aussi sûr que le hasard qui le fait naître. Nous mélangerons le générateur de nombres aléatoires de l'appareil avec des astuces humaines telles que des lancers de dés, nous convertirons cette entropie en une [phrase BIP39] de 12 ou 24 mots (https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), et nous quitterons la pièce avec une sauvegarde écrite ou en métal en laquelle vous avez confiance.
-- Hygiène des phrases de semences:** Considérez les seed comme les clés principales de vos économies. Ne tapez jamais les mots sur un téléphone ou un ordinateur - les enregistreurs de frappe, les captures d'écran et les sauvegardes dans le nuage peuvent les divulguer à tout jamais. Conservez la phrase hors ligne, stockez-la dans un endroit auquel vous êtes le seul à pouvoir accéder et entraînez-vous à la relire à voix haute avant de partir.
+- Hygiène des phrases de semences:** Considérez les seed comme les clés principales de vos économies. Ne tapez jamais les mots sur un téléphone ou un ordinateur. Les enregistreurs de frappe, les captures d'écran et les sauvegardes dans le nuage peuvent les divulguer à tout jamais. Conservez la phrase hors ligne, stockez-la dans un endroit auquel vous êtes le seul à pouvoir accéder et entraînez-vous à la relire à voix haute avant de partir.
 - Élément sécurisé + microcontrôleur:** Considérez la secure element comme le coffre-fort et le microcontrôleur comme le cerveau. La secure element protège les clés privées en les rendant inviolables, tandis que le microcontrôleur gère l'écran, les boutons et la logique du micrologiciel. Notez que les portefeuilles matériels que nous construisons aujourd'hui n'ont pas de secure element. Cela ne signifie pas qu'ils ne sont pas sûrs, mais simplement qu'ils ont un niveau de protection en moins.
 - Faire confiance au firmware:** Le firmware est le système d'exploitation invisible du wallet. Téléchargez toujours des versions étiquetées, vérifiez le hash publié, et comprenez que les versions reproductibles permettent à plusieurs personnes de compiler le même code et d'obtenir exactement le même binaire. Si la somme de contrôle ne correspond pas, vous ne signez pas.
 
@@ -305,7 +305,7 @@ Une fois que le micrologiciel a été flashé avec succès, votre LilyGO T-Displ
 - Vérifiez chaque mot au fur et à mesure que vous l'écrivez
 - Ne photographiez jamais la phrase seed avec votre téléphone
 - Ne jamais taper les mots sur un ordinateur ou un téléphone
-- Gardez votre phrase seed privée - ne partagez pas votre écran et ne la montrez pas à d'autres personnes
+- Gardez votre phrase seed privée, ne partagez pas votre écran et ne la montrez pas à d'autres personnes
 
 
 
@@ -349,10 +349,10 @@ Si vous souhaitez tester rapidement votre appareil avec un appareil mobile :
 - Ouvrez l'application et sélectionnez "Connect Hardware Wallet"
 - Choisissez "Jade" dans la liste des appareils pris en charge
 - Branchez votre Jade sur votre téléphone à l'aide d'un câble USB-C à USB-C (ou d'un adaptateur USB-C à Lightning pour iPhone 15+)
-- Suivez les instructions à l'écran pour vous connecter et créer votre première wallet
+- Suivez les instructions à l'écran pour vous connecter et créer votre premier wallet
 
 
-**Note sur le Liquid:** L'application Blockstream Green supporte à la fois le Bitcoin et le Liquid (une chaîne latérale du Bitcoin). Si vous utilisez les fonctionnalités de la Liquid, vous pouvez être invité à "Exporter la clé d'aveuglement principale" - cela permet à l'application de voir les montants des transactions sur le réseau Liquid, qui sont autrement confidentiels. Pour cet atelier, vous pouvez ignorer les fonctionnalités Liquid et vous concentrer sur les transactions Bitcoin standard.
+**Note sur le Liquid:** L'application Blockstream Green supporte à la fois le Bitcoin et le Liquid (une chaîne latérale du Bitcoin). Si vous utilisez les fonctionnalités de la Liquid, vous pouvez être invité à "Exporter la clé d'aveuglement principale", cela permet à l'application de voir les montants des transactions sur le réseau Liquid, qui sont autrement confidentiels. Pour cet atelier, vous pouvez ignorer les fonctionnalités Liquid et vous concentrer sur les transactions Bitcoin standard.
 
 
 #### Option 2 : Sparrow Wallet (recommandé pour les ateliers)
@@ -493,7 +493,7 @@ Blockstream Green est le logiciel qui permet de terminer la configuration de Jad
 
 
 
-- Une fois que vous l'avez trouvé, cliquez pour le lancer - un écran de démarrage devrait apparaître.
+- Une fois que vous l'avez trouvé, cliquez pour le lancer, un écran de démarrage devrait apparaître.
 
 
 ### Vérification de la configuration
@@ -503,7 +503,7 @@ Une fois connecté à Sparrow (ou à une autre application wallet) :
 
 
 
-- Vérifiez vos adresses:** Sparrow affichera les adresses de réception dérivées de votre phrase seed. Vous pouvez vérifier une adresse sur votre appareil Jade en allant sur l'onglet "Recevoir" dans Sparrow et en cliquant sur "Afficher Address" - l'adresse devrait apparaître à la fois sur l'écran de votre ordinateur et sur l'écran Jade.
+- Vérifiez vos adresses:** Sparrow affichera les adresses de réception dérivées de votre phrase seed. Vous pouvez vérifier une adresse sur votre appareil Jade en allant sur l'onglet "Recevoir" dans Sparrow et en cliquant sur "Afficher Address", l'adresse devrait apparaître à la fois sur l'écran de votre ordinateur et sur l'écran Jade.
 
 
 

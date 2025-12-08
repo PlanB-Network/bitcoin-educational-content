@@ -1,29 +1,29 @@
 ---
-name: Amateka y'ibiceri
-goal: Raba ukuntu amahera yahindutse kuva mu gihe c'amabuye y'agaciro gushika n'ubu
+name: Amateka y'amahera
+goal: Raba ukuntu amahera yagiye arahindagurika kuva mu gihe cakera cane gushika ubu
 objectives: 
 
 
-  - Gutahura ukuntu amahera atandukanye yaje n'ukuntu yateye imbere muri kahise
-  - Gusuzuma uburyo bw’amahera bw’amahanga akomeye n’inganji .
-  - Iga ukuntu amafaranga y'icuma yava ku mafaranga aja ku mafaranga y'impapuro n'uburyo bwa fiat
-  - Gusuzuma uruhara rw'amabanki n'amabanki nkuru mu guteza imbere amafaranga .
-  - Gushinga amasano hagati y'amateka y'amahera n'ingorane z'ubutunzi zo muri iki gihe
+  - Gutahura ukuntu amahera atandukanye yagiye arabaho n'ukuntu yagiye aratere imbere muri kahise
+  - Gusuzuma uburyo bw’amahera bw’ibihugu vy'ibihangange n’inganji zikomeye.
+  - Iga ukuntu amafaranga yagiye arahindagurika kuva kumabuye yinzahabu kuja ku mafaranga y'impapuro n'uburyo bufatiye kukwizera agaciro.
+  - Gusuzuma uruhara rw'amabanki n'amabanki makuru mu guteza imbere amafaranga .
+  - Gushinga amasano hagati y'amateka y'amahera hamwe n'ingorane z'ubutunzi zo muri iki gihe
 
 
 ---
 
-# Urugendo rwo mu mateka y'ibiceri
+# Gusubira inyuma mu mateka y'amahera
 
 
 
-Iryo koraniro riryoshe cane rizogutwara mu gutohoza ukuntu amahera yateye imbere mu buryo buteye umunezero kuva mu bihugu vya kera cane gushika mu buryo bw’amahera dufise ubu. Tuzojabuka ibihe, kuva mu gihe c’amabuye y’agaciro gushika mu bihe vya none, tubone ingene amahera yahinduwe kandi yahinduwe n’ubuhinga bukomeye bw’abantu. Kuva ku mafaranga y’i Mezopotamiya gushika ku mafaranga y’ibanga, ibiceri vy’i Lidiya, florin y’Ivugurura, n’ukuza kw’amabanki nkuru - iri shure ritanga iciyumviro gitomoye kuri imwe mu nkingi z’ishimikiro z’imibano yacu.
+Ik'icirwa kiryohera amatwi kizodutuma dutohoza ukuntu amahera yateye imbere mu buryo  butangaje kuva mubisekuru vyakera cane gushika mu buryo bw’amahera dufise ubu. Tuzojabuka ibihe, kuva mu gihe c’amabuye y’agaciro gushika mu bihe vya none, tubone ingene amahera yahinduwe kandi yahinduwe nimico yibihugu vyari bikomeye kwisi. Kuva kuburyo bwamafaranga bwa proto-monnaie mésopotamienne gushika ku mafaranga yubuhinga bwanone cryptomonnaies, biciye kub'ibiceri lydiennes, florin de la Renaissance, n’ukuza kw’amabanki makuru - ik'icirwa gitanga iciyumviro gitomoye kuri imwe mu nkingi z’ishimikiro mukibano cacu.
 
 
 
 
 +++
-# Imenyekanisha
+# Intangamarara
 
 
 <partId>59878a67-8a1d-5d6b-af41-5b847c14363c</partId>
@@ -39,31 +39,31 @@ Iryo koraniro riryoshe cane rizogutwara mu gutohoza ukuntu amahera yateye imbere
 :::video id=08ff35ca-8a40-4286-abaf-71283faf6e78:::
 
 
-Murakaze muri iri shure ry'amateka y'amahera. Nk’uko umutwe w’ikiganiro ubivuga, turaza gutohoza ingene ibiceri vyateye imbere mu mateka. Kuva mu gihe c’amabuye y’agaciro gushika n’ubu, turaza kuraba inganji n’imico kama ikomeye ya kera.
+Murakaza muri iri ik'icirwa c'amateka y'amahera. Nk’uko umutwe w’ikiganiro ubivuga, turaza gutohoza ingene amafaranga yagiye aratera imbere mu mateka. Kuva mu gihe ca kera gose gushika mugihe ca none, turaza kuraba inganji n’ibihugu bikomakomeye isi yigeze ibona.
 
 
 
-Ariko rero, iyo nyigisho ntigarukira gusa ku rutonde rworoshe rw’amatariki canke ibintu vyabaye mu kahise. Ahubwo, intumbero yacu nyayo ni ugutanga ugutahura kwimbitse kw’ivyiyumviro nyamukuru bijanye n’uguseruka kw’amahera, canke ahubwo, amafaranga.
+Ariko rero, ik'icirwa ntikigarukira gusa ku rutonde rusanzwe rw’amatariki canke ibintu vyabaye muri kahise. Ahubwo, intumbero yacu nyayo ni ugutanga ugutahura kwimbitse kw’ivyiyumviro nyamukuru bijanye nukuvuka kw’amahera, muri make kubwoko bw'amahera.
 
 
 
-### Ivyiyumviro vy'ishimikiro vyo gutohoza
+### Ivyiyumviro vy'ishimikiro vyo kwigako
 
 
 
-Rero turiko turavuga ivy'uguseruka: uguseruka kw'amafaranga ubwayo, kw'imirongo y'amahera, kw'amabanki, kw'amahera y'impapuro, kw'amabanki nkuru, n'ubwa nyuma, uguseruka kw'imirongo y'amahera "fiat" iriho ubu.
+Tugiye kuvuga kuvyamavuka: ukuvuka kw'amafaranga ubwayo, ubuhinga bw'amahera, bw'amabanki, bw'amahera y'impapuro, bw'amabanki makuru, ubwa nyuma,tuvuge ukuvuka kw'ubuhinga bw'amahera afatiye kukwizera agaciro "fiat" vyomugihe ca none.
 
 
 
-Turatangura urugendo rwacu rwo gushika mu mafaranga y’intango n’uguseruka kw’amahera y’imyenda n’ibice vy’amakonte muri Mezopotamiya, hamwe n’izindi nzira nk’inkwano n’amahera y’amaraso mu mibano ya kera. Turabona kandi ingene uburyo nyabwo bwo gukoresha amahera bwari busanzweho muri Misiri ya kera, imbere cane y’Ubwami bwo Hagati.
+Turatangura urugendo rwacu hamwe na proto-monnaies tuvuga kandi k’amahera yubuhinga bwogusaba ama deni "monnaie-dette" n’ubuhinga bwokuraba agaciro  Mésopotamie , hamwe n’izindi nzira nk’inkwano n’ibiciro vyamaraso vyo mu mibano ya kera cane. Turabona kandi ingene uburyo nyabwo bwo gukoresha amahera bwari busanzweho muri Misiri ya kera, imbere cane ya Moyen Empire.
 
 
 
-Turaheza tuja ku kuboneka kw’ibiceri vya mbere i Lidiya, igihe nyamukuru akenshi kibonwa ko ari intango nyakuri y’amahera nk’uko ibitabu vy’ubutunzi bivyerekana. Turaza gusuzuma ingene ivyo biceri vyashoboye gukwiragira kubera Abaperesi, Alegizandere Mukuru, hanyuma Roma, imbere y’uko amaherezo vyitegeka, bikaganza no gusenyuka.
+Turaheza tuje ku kukuvuka kw’ibiceri vya mbere "Lydie", igihe nyamukuru akenshi kibonwa ko ari intango nyakuri y’amahera nk’uko ibitabu vy’ubutunzi bivyerekana. Turaza gusuzuma ingene ivyo biceri vyashoboye gukwiragira kubera aba Perses, Alexandre le Grand, hanyuma i Roma, ubwanyuma na nyuma ubwo buhinga burashinga imizi , buraganza haragera naho busenyuka.
 
 
 
-Tuvuye ng'aho, dufise ivyo twize vyose, tuzofata umwanya dukeneye wo kwiyumvira hamwe insobanuro y'amahera, tukarenga ivyiyumviro vy'abantu nk'ibi ngo "amahera yama ari umwenda" canke "amahera yama ari igicuruzwa". Mu vy’ukuri, amahera ni ikintu ciza kandi ni itegeko ry’imibano. Cane cane tuzovuga ku ciyumviro c’amahera y’imbere y’igihe no kugerageza guhuza inyigisho zitandukanye zisigura ukuntu amahera yaserutse.
+Tuvuye ng'aho, dufise ivyo twize vyose, tuzofata umwanya ukwiye wo kwiyumvira hamwe insobanuro y'amahera, tukarenga ivyiyumviro vy'abantu nk'ibi ngo "amahera yama ari ideni(la monnaie est toujours une dette)" canke "amahera yama ari igicuruzwa". Mu vy’ukuri, amahera ni ikintu ciza kandi nuburyo bwimibereho mumibano. Cane cane tuzovuga ku ciyumviro c’amahera y’imbere y’igihe no kugerageza guhuza inyigisho zitandukanye zisigura ukuntu amahera yavutse.
 
 
 
@@ -71,15 +71,15 @@ Tuvuye ng'aho, dufise ivyo twize vyose, tuzofata umwanya dukeneye wo kwiyumvira 
 
 
 
-Turaheza tugahindukira tuja mu kiringo c’amagorwa, carangwa n’ukudashikama kumwe kumwe mu vy’amahera, naho vyari ukwo, vyatumye habaho ibintu bishasha bitangaje nk’ideni ry’Abongereza, ryakoreshwa mu guha ibiturire abatera igihugu bo muri Danimarka, be n’ipound ya Charlemagne, ivyo bikaba bikiriho n’ubu ku noti zimwezimwe zo muri iki gihe.
+Turaheza tugahindukira tuja mu biringo vyama kuba yabayeho, vyaranzwe n’ukudashikama neza kw’amahera, naho vyari ukwo, vyatumye habaho ibintu bishasha bitangaje nka penny anglais, ryakoreshwa mu guha ibiturire abatera ibihugu bo muri Danimarke, be nuburyo bwamahera bwitwa la livre de Charlemagne, ivyo bikaba bikiriho n’ubu ku noti zimwezimwe zo muri iki gihe.
 
 
 
-Turaza kandi kuraba ingene intambara z’aba Crusade zabonye ukuza kw’uburyo bwa mbere bwo kohereza amahera kure. Hanyuma ni igihe co kuraba ingaruka z’i Florin, amafaranga yaherekejwe n’Ivugurura, n’ukuza kw’ivyuma vy’agaciro biva muri Amerika, vyagize ingaruka zikomeye ku bici- ro vy’i Buraya.
+Turaza kandi kuraba ingene intambara za croisades zabonye ukuvuka kwa mbere kw’uburyo  bwo kohereza amahera kure. Hanyuma ni igihe co kuraba ingaruka z’i Florin, amafaranga yaherekejwe n’Ivugurura, n’ukuza kw’amabuye y’agaciro avuye muri Amerika, vyagize ingaruka zikomeye ku bici- ro vy’i Buraya.
 
 
 
-Turaza kuraba mu buryo burambuye ukuntu amahera y’impapuro n’amabanki nkuru vyaje, tubigereranye n’amateka y’ingorane z’ivy’ubutunzi be n’ingaruka zazo zikunda kuba ziteye akaga.
+Turaza kuraba mu buryo burambuye ukuntu amahera y’impapuro n’amabanki makuru vyaje, kuruhande turaba n’amateka y’amagume k’ubutunzi be n’ingaruka zazo zikunda kuba zihambaye.
 
 
 
@@ -87,11 +87,11 @@ Ubwa nyuma, tuzogereranya n’uburyo bwacu bw’amahera bwo muri iki gihe, dusuz
 
 
 
-Kandi, nk’agashimwe, turaza kuraba kandi amahuzu menshi aryoshe cane y’inkomoko ajanye n’amahera, abandanya agira ico akoze ku buzima bwacu bwa misi yose mu ndimi zitandukanye.
+Kandi, nk’inyongera, turaza kuraba kandi amahuzo menshi aryoshe cane y’inkomoko ajanye n’amahera, abandanya agira ico akoze ku buzima bwacu bwa misi yose mu ndimi zitandukanye.
 
 
 
-### Ubuhinga bw'amashure
+### Inyubako yicirwa
 
 
 
@@ -99,11 +99,11 @@ Iryo shure rigizwe n’ibice bitatu bihambaye.
 
 
 
-Igice ca mbere kiraba ukuntu amahera yaserutse, igice ca kabiri kiraba ukuntu amahera yavutse n’ukuntu yatemba, igice ca gatatu kigaragaza ingene inzego za Leta canke Leta zagenda zifata ububasha ku mahera, bishikana ku nzira ya fiat iriho ubu.
+Igice ca mbere kiraba ukuntu amahera yagiye aravuka, igice ca kabiri kiraba ukuntu amahera yavutse yagiye arivyakiranya, igice ca gatatu kigaragaza ingene inzego za Leta canke Leta zagenda zifata ububasha ku mahera, bishikana ku nzira ya fiat iriho ubu.
 
 
 
-Murakoze kandi mwinovore!
+Murakoze kandi kumwihwezo!
 
 
 

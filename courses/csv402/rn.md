@@ -227,16 +227,16 @@ Uburyo bw'imihora ya Leta bufise ubushobozi bwo kuboneka no kwihanganira kugabag
 - **Client-side Validation (RGB)**
 
 
-Uburyo nka RGB buratanga ukugumizako (umwe wese mu bari muri iyo nama yemeza amakuru yiwe mu karere, ataco asobanura) no kwihanganira gucapura (ugumya amakuru yawe wigenga), ariko ntivyemeza ko azoboneka kw’isi yose (umuntu wese ategerezwa kumenya neza ko afise ibice vy’amateka bibereye, kandi bamwe mu bari muri iyo nama bashobora kudahagarika gutangaza ikintu na kimwe canke gutangaza ikintu na kimwe muri certa).
+Uburyo nka RGB buratanga ukugumizako (burimuntu ayikoresha wese yemeza iwiwe ibiharuro, atamakega agize) bugashira imbere ukwirengagiza (amakuru yawe aguma yigenga), kandi ntibwemeza ukuboneka kuruhande rw'isi yose ( burimuntu wese ategezwa kumenya ko afise ibice vya kahise bibereye, kandi bamwe mubitabira bashobora kudashira kumugaragaro ikintu nakimwe, hama bagahagarika gusabikanya amakuru amwamwe).
 
 
 ![RGB-Bitcoin](assets/en/005.webp)
 
 
-#### 3. CIA trilemma (Ibanga, Ubutungane, Ububoneka)
+#### 3. CIA trilemma (Ibanga, Ubutungane, Ukuboneka)
 
 
-Iyi trilemma itwibutsa ko ibanga, ubutungane n’ukuboneka vyose bidashobora gutunganirizwa igihe kimwe. Blockchain, Umuravyo na Client-side Validation bigwa mu buryo butandukanye muri iyo nzira. Iciyumviro ni uko ata rutonde rumwe rushobora gutanga vyose; birakenewe gufatanya uburyo bwinshi (uburyo bwo gushiramwo ikidodo c’igihe bwa Blockchain, uburyo bwa Lightning bujanye n’igihe, n’uburyo bwo kwemeza mu karere na RGB) kugira ngo haboneke umugwi uhuye utanga ivyemezo vyiza muri buri rugero.
+Ino nyabutatu(trilemma) itwibutsa ko ibanga, ubutungane n’ukuboneka bidashobora gushirwa kurugezo rwohejuru icarimwe. Blockchain, Lightning hamwe n'uruhande rw'ukwemeza rw'umuguzi (Client-side Validation) bikorokera ugutandukanye muricruno rugezo. Iciyumviro ni uko ata rutonde narumwe rushobora gutanga vyose icarimwe; birakenewe gufatanya uburyo bwinshi butandukanye (uburyo bwa Blockchain bwo gushiramwo ikidodo, uburyo bwa Lightning bwo gushira kugihe, n’uburyo bwo kwemeza indani na RGB) kugira ngo haboneke umufungo utanga ivyemezo kuri buri rugero.
 
 
 ![RGB-Bitcoin](assets/en/006.webp)
@@ -245,96 +245,95 @@ Iyi trilemma itwibutsa ko ibanga, ubutungane n’ukuboneka vyose bidashobora gut
 ### Uruhara rwa Blockchain n'iciyumviro co gucapura
 
 
-Blockchain (muri iki gihe, Bitcoin) ikora cane cane nk’uburyo bwo _gushiramwo ikidodo_ c’igihe_ n’uburinzi bwo gukoresha amahera kabiri. Aho kwinjiza amakuru yuzuye ya Smart contract canke uburyo bwegerejwe, dushiramwo gusa **imihigo y'ubuhinga bwa none** ku bikorwa (mu busobanuro bwa Client-side Validation, ivyo tuzokwita "imihindukire ya leta"). Gutyo:
+Blockchain (muri kano kanya, Bitcoin) ifasha vyibanze nk'ubuhinga bwo gushira ikidodo_ c’igihe_ n’ukurinda yuko amahera arihwa kabiri. Aho kwinjiza amakuru yuzuye ya Smart contract canke uburyo butagira aho butwarirwa (decentralized), dushiramwo gusa **ukwiyemeza vy'ubuhinga bunyegeza amakuru** kw'ihanahanwa (mu buryo bwa uruhande rw'ukwemeza rw'umuguzi(Client-side Validation), ivyo tuzokwita "impinduka za leta"). Gutyo:
 
 
 
 
-- Turabohora Blockchain ku makuru menshi n’ubwenge;
-- Buri muntu wese akoresha abika gusa amateka asabwa ku gice ciwe bwite ca Contract ("*Shard*" yiwe), aho kwisubirako Global State.
+- Turabohora Blockchain ku makuru menshi n’uruhererekane;
+- Buri muntu wese akoresha abika kahise gakenewe gusa mugace kiwe bwite k'amasezerano ("*Shard*" yiwe), aho kubika ivyisubirije vy'imihingo yose.
 
 
-Sharding ni iciyumviro cavuye mu makuru yatanzwe (nk’akarorero MySQL ku mbuga ngurukanabumenyi nka Facebook canke Twitter). Kugira ngo umuntu atore umuti w’ingorane y’ubunini bw’amakuru n’igihe co gukorana, urutonde rw’amakuru ruca mu bice _shards_ (USA, Uburayi, Aziya, n’ibindi). Igice kimwekimwe cose kirahuye n’aho hantu kandi gihuye n’ibindi bimwebimwe gusa.
+Sharding ni iciyumviro cavuye mububiko bw'amakuru busabikanije (nk’akarorero MySQL ku mbuga ngurukanabumenyi nka Facebook canke Twitter). Kugira ngo umuntu atore umuti w’ingorane y’ubunini bw’amakuru n’igihe co gukorana, ububiko bw'amakuru bugabuye mukintu citwa _shards_ (USA, Uburayi, Aziya, n’ibindi). Igice kimwekimwe cose kirahuye n’aho hantu kandi gihuye n’ibindi bimwebimwe gusa.
 
 
-Ku masezerano y’ubwenge y’ubwoko bwa RGB, dukora Shard twisunze amasezerano ubwayo. Contract yose ni _shard_ yigenga. Nk’akarorero, iyo ufise gusa ibimenyetso vya USDT, ntubwirizwa kubika canke kwemeza amateka yose y’iyindi token nka USDC. Ku Bitcoin, Blockchain ntikora _sharding_: ufise umugwi w'isi yose w'ama UTXO. Na Client-side Validation, uwuriko arayigira wese aguma afise amakuru ya Contract gusa afise canke akoresha.
+Uburyo bwa smart contracts bwa RGB, dukora Shard twisunze amasezerano ubwayo. Buri masezerano ni shard yigenga. Nk’akarorero, iyo ufise gusa tokens za USDT, ntutegerezwa kubika kahise kose kiyindiToken nka USDC. kuri Bitcoin, Blockchain ntikora sharding: ufise umugwi w'isi yose w'ama UTXO. Na Client-side Validation, uwuyikoresha wese agumana amasezerano kumakuru ikoresha canke ifise.
+
+Turashobora rero kwiyumvira umuryango nkuku gukwirikira:
 
 
-Turashobora rero kwiyumvira ibidukikije nk’uko bikurikira:
 
 
-
-
-- **Blockchain (Bitcoin)** nk'umushinge utuma habaho ugusubiramwo gushitse kw'igitabu gitoyi kandi ukora nk'igitabu gishirako ikidodo c'igihe Layer;
-- **Lightning Network** y'ukwihuta, Confidential Transactions, iracari ishingiye ku mutekano n'ugushinga intahe kwa nyuma kwa Bitcoin Blockchain;
-- **RGB na Client-side Validation** kugira ngo wongereko ubuhinga buhambaye bwa Smart contract, ata gutera umuvurungano Blockchain canke gutakaza ibanga.
+- **Blockchain (Bitcoin)** nk'umushinge utuma habaho ugusubiramwo gushitse kw'igitabu gitoyi kandi ukora nk'igitabu gishirako ikidodo c'igihe kuri Layer;
+- **Lightning Network** kukunyarutsa, ihanahanwa mwibanga, iguma yubakiye kumutekano n'ugushinga intahe kwa nyuma kwa Blockchain ya Bitcoin;
+- **RGB na Client-side Validation** kwongerako ubuhinga bundi buyobeye bwa Smart contract mwihererekano, ata gutera umudugararo Blockchain canke gutakaza ibanga.
 
 
 ![RGB-Bitcoin](assets/en/007.webp)
 
 
-Izo Elements zitatu zikora igice c'inkomoko itatu, aho kuba ikirundo c'umurongo c'"Layer 2", "Layer 3" n'ibindi. Umuravyo ushobora gufatanya na Bitcoin, canke ugafatanya n’ibikorwa vya Bitcoin birimwo amakuru ya RGB. Na "BiFi" (ivy'amahera kuri Bitcoin) irashobora gukorana na Blockchain, na Lightning na RGB bivanye n'ivyo bikenewe ku bijanye n'ibanga, ubushobozi bwo gutera imbere canke ubuhinga bwa Contract.
+Bino bintu bitatu bikora inyabutatu ikwiye, aho kuba ikirundo c'umurongo c'"Layer 2", "Layer 3" n'ibindi. Lightning ishobra gufatanya ataho iciye Bitcoin, canke ugafatanya ihanahana rya  Bitcoin bishiramwo amakuru ya RGB. Na "BiFi" (Ingengabutunzi kuri Bitcoin) ishobora kugigwa na Blockchain, na Lightning na RGB bivanye n'iikenewe kubijanye n'ibanga, ubushobozi bw'ugutera imbere canke n'uko contrat imeze.
 
 
 ![RGB-Bitcoin](assets/en/008.webp)
 
 
-### Iciyumviro c'imihindukire ya Leta
+### Icirwa c'impiduka ya Leta
 
 
-Mu buryo bwose busanzwe, intumbero y’uburyo bwo kwemeza ni ugushobora **kumenya ukuri n’urutonde rw’ibihe vy’amahinduka ya Leta**. Intumbero ni ukugenzura ko amategeko y’amasezerano yubahirijwe, no kwemeza ko ayo mahinduka ya Leta akurikirana mu buryo butomoye, butagira aho bugarukira.
+Mu buryo bwaribwo bwose busabikanijwe, intumbero yaburi buhinga bw'ukwemeza n'ugushobora  kwemeza **kumenya ukuri n’urutonde rw’ibihe vy’amahinduka ya Leta**. Intumbero ni ukugenzura ko amategeko y’amasezerano yubahirijwe, no kwemeza ko ayo mahinduka ya Leta akurikirana mu buryo butomoye, butagira aho bugarukira.
 
 
-Kugira ngo dutahure ingene iyo validation ikora mu bijanye na **Bitcoin** kandi, muri rusangi, kugira ngo dutahure filozofiya iri inyuma ya Client-side Validation, reka tubanze dusubire kuraba uburyo Bitcoin Blockchain ikora, imbere yo kubona ingene Client-side Validation itandukanye na zo n’ivyo ishobora gutuma bishoboka.
+Kugira ngo utahure uko ukwemeza gukora mubijanye na **Bitcoin** kandi, muri rusangi, kugira ngo dutahure ivyiyumviro iri inyuma ya Client-side Validation, reka tumanze gusubiza amaso inyuma kuko blockchain ya Bitcoin yubatse, imbere yo kubona ingene Client-side Validation itandukanye nazo n'iyiyongera ishobora gutuma ikunda.
 
 
 ![RGB-Bitcoin](assets/en/009.webp)
 
 
-Ku bijanye na Bitcoin Blockchain, kwemeza amafaranga bishingiye kw’itegeko ryoroshe:
+Kuvyerekeye Blockchain ya Bitcoin, iyemeza ryirungika rifatiye kw'itegeko risanzwe:
 
 
 
 
-- Ivyuma vyose vy’urubuga bikuraho buri bubiko n’ugucuruza;
-- Bashingira intahe ivyo bikorwa kugira ngo basuzume iterambere ryiza ry’umugwi wa UTXO (ibisohoka vyose bitakoreshejwe);
-- Babika ayo makuru (mu buryo bw’ibipande) kugira ngo amateka ashobore gusubirwamwo iyo bikenewe.
+- Buri ma nodes y'urubuga yose akuraho buri bubiko n’ugucuruza;
+- Bemezwa rino hanahanwa kugira basuzume iterambere nyaryo ry'umufungo w'amma UTXO (ibisohoka vyose bitakoreshejwe);
+- Barabika ano makuru (mu buryo bw’ibipande) kugira ngo kahise gashobore gusubirwamwo iyo bikenewe.
 
 
 ![RGB-Bitcoin](assets/en/010.webp)
 
 
-Ariko rero, iyo nzira irafise ingorane zibiri zikomeye:
+Nubwo biruko, iyo nzira irafise ingorane zibiri zikomeye:
 
 
 
 
-- **Scalability**: kuko node yose itegerezwa gukora, kugenzura no gushiramwo ububiko bw'ibikorwa vy'umuntu wese, hariho urugero rugaragara rw'ubushobozi bwo gukora, rufitaniye isano cane cane n'ubunini bw'ibara ry'ibara (1 MB ku mwanya mu minota 10 kuri Bitcoin, hatarimwo ama cookies);
-- **Ibanga**: vyose biramenyeshwa kandi bikabikwa ku mugaragaro (amahera, amaderesi y'aho umuntu aja, n'ibindi), ivyo bikaba bigabanya ibanga ry'uguhanahana amakuru.
+- **Gutera imbere**: kuko buri node yose itegerezwa gukora, gusuzuma no gushingura ihanahanwa rya buriwese, hariho urugero rugaragara rw'ubushobozi bwo gukora, rufitaniye isano vy'umwihariko n'ubunini bwa burigice (1 MB ku mwanya ugereranye mu minota 10 kuri Bitcoin, hatarimwo nivyiyongerako);
+- **Ibanga**: Vyose biramenyeshwa kandi bikabikwa kukarubanda( igitigiri, aho yerekeza, n'ibindi), ibituma ibanga ry'uguhindura rigabanuka.
 
 
 ![RGB-Bitcoin](assets/en/012.webp)
 
 
-Mu bikorwa, iki kigereranyo gikorera Bitcoin nk’ishimikiro Layer (Layer 1), ariko gishobora kuba kidahagije ku bikorwa bikomeye cane bisaba icarimwe ubushobozi bwinshi bwo gucuruza n’urugero runaka rw’ibanga.
+Mu bikorwa, iki kigereranyo gikorera Bitcoin nka Layer y'ishimikiro (Layer 1), ariko gishobora kuba kidahagije ku bikorwa bikomeye cane bisaba icarimwe ubushobozi bwinshi bwo gucuruza n’urugero runaka rw’ibanga.
 
 
-Client-side Validation ishingiye ku ciyumviro gihushanye n’ico: aho gusaba ko urubuga rwose rwemeza no kubika amafaranga yose akoreshwa, umwe wese mu bari muri iyo nama (umukiriya) azokwemeza gusa igice c’amateka kimureba:
+Client-side Validation yubakiye ku ciyumviro kinyuranye nico: aho y'uko bisa urubuga rwose rwemeza no kubika ihanahanwa ryose, burimuntu wese araho(Umuguzi) azoterako igikumu gusa igice ca kahise kimwerekeye:
 
 
 
 
-- Iyo umuntu aronse umutungo (canke uwundi mutungo uwo ari wo wose w’ubuhinga bwa none), akeneye gusa kumenya no kugenzura uruhererekane rw’ibikorwa (imihindukire ya Leta) ijana kuri uwo mutungo no kwemeza ko ari we wemewe;
-- Uwo murongo w’ibikorwa, kuva ku ***Genesis*** (ikinyamakuru ca mbere) gushika ku giciro gishasha, ugira igishushanyo c’inzira (DAG) canke Shard, ni ukuvuga igice c’amateka yose.
+- Iyo umuntu aronse umutungo (canke uwundi mutungo wose urikubuhinga bwa none), baba bakeneye gusa kumenya no gusuzuma ipfundo bikorerwako (imihindukire ya Leta) yerekeza kuruyo mutungo kandi yerekana ko weewe;
+- Agace k'ibikorwa, kuva ku ***mwitanguriro*** (agafindo kambere) gushika kw'ihanahanwa riherukirwako gushika ku giciro gishasha, ugira igishushanyo c’inzira (DAG) canke Shard, ni ukuvuga igice ca kahise kose.
 
 
 ![RGB-Bitcoin](assets/en/013.webp)
 
 
-Muri ico gihe nyene, kugira ngo igice gisigaye c’urubuga (canke mu buryo bubereye, Layer iri munsi yayo, nka Bitcoin) gishobore gufunga mu rwego rwa nyuma kitabona ido n’ido ry’ayo makuru, Client-side Validation yizigira iciyumviro ca ***Commitment***.
+Muri ako kanya nyene, kugira ngo igice gisigaye c’urubuga (canke tukivuze neza, Layer yubakiweko, nka Bitcoin) gishobore gufunga mu rwego rwa nyuma kitabona ido n’ido ry’ayo makuru, Client-side Validation yizigira iciyumviro ca ***kwiyemeza***.
 
 
-*Commitment* ni Commitment y'ibanga, mu bisanzwe _hash_ (SHA-256 nk'akarorero) yinjijwe mu gikorwa ca Bitcoin, kigaragaza ko amakuru y'ibanga yashizwemwo, ata guhishura ayo makuru.
+*Commitment*(Kwiyemeza) ni ukugumizako biri munyandiko zinyegejwe, mu bisanzwe _hash_ (SHA-256 nk'akarorero) yinjijwe mu hanahanwa rya Bitcoin, vyemezako amakru y'ibangayashizwemwo, atagushira kumugaragaro ayomakuru.
 
 
 Kubera ivyo _vyemezo_, turashobora kwemeza:
@@ -342,49 +341,49 @@ Kubera ivyo _vyemezo_, turashobora kwemeza:
 
 
 
-- Kubaho kw’amakuru (kubera ko yiyemeje gukora Hash);
-- Imbere y’ayo makuru (kuko ashizweko ikidodo kandi afise ikidodo c’isaha muri Blockchain, afise itariki n’urutonde rw’ibice).
+- Kubaho kw’amakuru (kubera ko yiyemeje kuri Hash);
+- Ivyantanguriye ano makuru (kuko ashizweko ikidodo kandi afise ikidodo c’isaha muri Blockchain, afise itariki n’urutonde rw’ibice).
 
 
-Ariko rero, ibirimwo vy’ukuri ntibimenyekana, gutyo bikaba bizigama ibanga ryavyo.
+Inyandiko z'ukuri, nubwo biruko, ntizishirwa ahabona, gutyo bikaba bizigama ibanga ryavyo.
 
 
-Mu majambo nyayo, ng’uko uko RGB State Transition ikora:
+Mu majambo nyayo, ng’uko uko  RGB State Transition (ihinduka rya Leta) ikora:
 
 
 
 
 - Utegura State Transition nshasha (nk’uguhindura RGB token);
-- U generate Commitment y'ibanga kuri iyi mpinduka maze ukayishira mu gikorwa ca Bitcoin (ivyo vyemezo vyitwa "*anchors*" mu masezerano ya RGB);
+- Urakora ukwiyemeza kw'inyandiko zinyegejwe  y'ibanga kuri iyi mpinduka maze ukayishira mwirungikwa rya Bitcoin (ivyo vyemezo vyitwa "*anchors*" mu masezerano ya RGB);
 - Uwundi muntu (uwuronka) araronka amateka y’uruhande rw’umukiriya ajanye n’ico kintu maze akavyemeza ko bihuye kuva ku mpera kugeza ku mpera, kuva kuri Genesis ya Smart contract gushika ku mpinduka uyirungikira.
 
 
 ![RGB-Bitcoin](assets/en/014.webp)
 
 
-Client-side Validation itanga ivyiza bibiri bihambaye:
+Client-side Validation itanga inyungu zibiri zihambaye :
 
 
 
 
-- Ugushobora gukwiragizwa:
+- Ugushobora gutera imbere:
 
 
-*Ivyemezo* biri muri Blockchain ni bito (vy'urutonde rw'ama bytes amajana makeyi). Ivyo bituma ikibanza c’amabuye kitazura, kuko Hash yonyene ari yo ikeneye gushirwamwo. Bituma kandi umurongo wa off-chain utera imbere, kuko umukoresha wese ategerezwa gusa kubika igice c'amateka yiwe (_stash_ yiwe).
+*Ivyemezo* biri muri Blockchain ni bito (vy'urutonde rw'ama bytes amaduzeni makeyi). Ivyo vyerekana ikibanza c'ugushinguramwo ama block ko kituzuye, nkuko Hash yonyene ikeneye kujamwo. Bituma kandi umurongo wa off-chain utera imbere, nkuko uwukoresha wese ategerewa ategerezwa kubika igice ca kahise yiwe (_stash_ yiwe).
 
 
 
 
-- **Ubuzima bwite:**
+- **Ibanga:**
 
 
-Ibikorwa ubwavyo (ni ukuvuga ibirimwo mu buryo burambuye) ntibisohorwa On-Chain. Intoke zabo gusa (*Hash*) ni zo. Gutyo, amafaranga, amaderesi n’ubuhinga bwa Contract biguma ari ivy’ibanga, kandi uwuyakira arashobora kugenzura, mu karere, ukuri kwa Shard yiwe mu gusuzuma ihinduka ryose ry’imbere. Nta mpamvu n’imwe yotuma uwuronka ayo makuru amenyeshwa abantu bose, kiretse iyo habaye impaka canke iyo bisabwe ikimenyamenya.
+Ihanahanwa ryonyene (akarorero ibirimwo mu buryo buramvuye) ntibshirwa ahabona kuri On-Chain. Intoke (fingerprints) zabo gusa (*Hash*) nizo. Gutyo, igitigitri, amaderesi n’uko amasezerano ameze biguma mwibanga, Hama uwakira arashobora gusuzuma, iwe, ko ino Shard yemewe iwe mukugenzura ihanahanwa riheruka. Nta mpamvu n’imwe yotuma uwakira ashira ano makuru kukarubanda, kiretse iyo habaye impari canke iyo ivyemezo bikenewe.
 
 
-Mu buryo nka RGB, amahinduka menshi ya Leta avuye mu masezerano atandukanye (canke itunga ritandukanye) ashobora guhurizwa hamwe mu gikorwa kimwe ca Bitcoin biciye ku _ukwiyemeza_ kumwe. Ubu buryo bushinga isano ry’igihe hagati y’ugucuruza kwa On-Chain n’amakuru ya off-chain (ihinduka ryemejwe n’uruhande rw’umukiriya), kandi rituma ibice vyinshi vyandikwa icarimwe mu ntumbero imwe ya Anchor, bikaba bigabanya igiciro ca On-Chain n’ikirenge.
+Mu buryo nkubwa RGB, amahinduka menshi ya Leta avuye mu masezerano atandukanye (canke itunga ritandukanye) ashobora guhurizwa hamwe mmwihanahanwe imwe ya Bitcoin biciye mukwiyemeza gusa kumwe. Ubu buryo bushinga isano ry’igihe hagati y’ugucuruza kwa On-Chain n’amakuru ya off-chain (ihinduka ryemejwe n’uruhande rw’umukiriya), kandi rituma ibice vyinshi vyandikwa icarimwe mu ntumbero imwe ya Anchor, bikaba bigabanya igiciro ca On-Chain n’ikirenge.
 
 
-Mu bikorwa, iyo iyo nzira ya Bitcoin yemejwe, "ifunga" ubudasiba ivy'amasezerano y'ishimikiro, kuko bica bidashoboka guhindura Hash yari yaramaze kwandikwa muri Blockchain.
+Mu ngiro, iyo rino hanahanwa rya Bitcoin ryemewe, ivyagateganyo iba "ifunga" amasezerano vyubakiyeko, kuko bitakiba bishoboka guhindura Hash yari yaramaze kwandikwa muri Blockchain.
 
 
 ![RGB-Bitcoin](assets/en/015.webp)
@@ -393,13 +392,13 @@ Mu bikorwa, iyo iyo nzira ya Bitcoin yemejwe, "ifunga" ubudasiba ivy'amasezerano
 ### Iciyumviro ca Stash
 
 
-**Stash** ni urutonde rw'amakuru y'umukiriya uwuriko arakora ategerezwa kubika kugira ngo agumane ubutungane n'amateka ya RGB Smart contract. Udakunze umurongo wa Lightning, aho intara zimwe zimwe zishobora gusubirwamwo mu karere zivuye ku makuru asangiye, Stash ya RGB Contract ntiyisubirwamwo ahandi: iyo uyitakaje, nta n’umwe azoshobora kuyigusubiza, kuko ari wewe ufise uruhara ku mugabane wawe w’amateka. Ni co gituma ukeneye gukoresha uburyo bufise uburyo bwo gusubiza inyuma bwizewe muri RGB.
+**Stash** ni urutonde rw'amakuru y'umuguzi rutuma umuntu ategerezwa kugumana ubutungane hamwe na kahise ka  Smart contract ya RGB. Aho bitandukaniye n'umuhora wa Lightning, aho intara zimwe zimwe zishobora gusubirwamwo mu karere zivuye ku makuru asabikanijwe, amasezerano ya Stash kuri RGB ntasubirwamwo nahamwe: iyo uyitakaje, nta n’umwe azoshobora kuyikugarukanira, kuberako uri uwufise uruhara mugusabikanya kahise kawe. Nico gituma ushaka gukoresha ubuhinga bufise  uburyo bwo gusubiza inyuma bwizewe muri RGB.
 
 
 ![RGB-Bitcoin](assets/en/016.webp)
 
 
-### Single-Use Seal: inkomoko n'imikorere
+### Single-Use Seal: amamuko n'uko ikora
 
 
 Igihe wemera umutungo nk’amahera, hariho ivyemezo bibiri bihambaye:

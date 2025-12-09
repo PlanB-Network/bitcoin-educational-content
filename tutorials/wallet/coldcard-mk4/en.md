@@ -248,9 +248,23 @@ A Trick PIN is an alternative PIN code distinct from the one you use to set up y
     - `Policy Unlock`, when selected, Single Signer Spending Policy (SSSP) will be disable after the trick PIN is entered.
     - `Policy Unlock & Wipe`, when selected, it pretends to disable SSSP but it will wipe the seedphrase in the process.
 12. After you have selected the action you want to pair with the trick PIN, confirm your choice by pressing `✓`. Your trick PIN is successfully configured.
-13. In the `Settings` > `Login Settings` > `Trick PINs`, you can see the list of trick PINs you have created and the actions paired with it.
+13. In the `Settings` > `Login Settings` > `Trick PINs`, you can see the list of trick PINs you have created and the actions paired with it. You can choose to reconfigure the trick PINs and the actions paired with it. You can also hide or delete it by selecting the PIN then select `Hide Trick` or `Delete Trick`. 
 
 ### Trick PINs - Add If Wrong
 
-Alternatively, you
+Alternatively, you can add a `Add If Wrong` action that will be triggered after the incorrect PIN is entered certain amount of times. You can configure this by performing the following steps:
 
+1. Turn on your Mk4 by connecting it to a power source.
+2. Input your PIN.
+3. Go to `Settings` > Select `Login Settings` > Select `Trick PINs` > Select `Add If Wrong`.
+4. Mk4 will display a message regarding this setting. Navigate down as you read through the explanation, then press `✓` to proceed.
+5. Input the number of wrong attempts required to trigger the action. Note: The maximum attempt count is `12`. This is because Mk4 is designed such that when the incorrect PIN is entered `13` times, the device will brick itself, making it unusable permanently. Press `✓` to continue.
+6. Navigate up or down to select the action. The actions available are as follows:
+   - `Wipe, Stop`: The seedphrase is erased and the device shows “Seed is wiped, Stop.”
+   - `Wipe & Reboot`: The seedphrase is erased and the device restarts without any message.
+   - `Silent Wipe`: The seedphrase is erased quietly and the device behaves like a wrong-PIN attempt (no obvious wipe message).
+   - `Brick Self`: The device is permanently disabled and only shows “Bricked.”
+   - `Last Chance`: The seedphrase is erased but you get one final PIN attempt; enter the wrong PIN again and the device will be bricked.
+   - `Just Reboot`: The device simply restarts and nothing else changes.
+   Choose the action you want to apply and press `✓` to proceed
+7. You will be brought back to the `Settings > Login Settings > Trick PINs` directory. Under the `Trick PINs:`, you will find the list of trick pins along with `WRONG PIN` action. You can also hide or delete it by selecting the PIN then select `Hide Trick` or `Delete Trick`. 

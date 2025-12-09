@@ -233,10 +233,18 @@ A Trick PIN is an alternative PIN code distinct from the one you use to set up y
 10. Reenter your new PIN suffix (or rest of PIN).
 11. Navigate down or up to select the action you want to pair with the trick PIN you just created. The list of actions are:
     - `Brick Self`, when selected, your Mk4's chips will be destroyed after the PIN is entered, making your Mk4 to be unusable permanently.
-    - `Wipe Seed`, when selected, you can choose between the following actions:
-      > ff
+    - `Wipe Seed`, you can choose between the following actions:
+      - `Wipe & Reboot`: The seed is wiped and Coldcard will reboot after the PIN is entered.
+      - `Silent Wipe`: The seed is wiped silently, however Coldcard will act as if the PIN was entered incorrectly.
+      - `Wipe -> Wallet`: The seed is wiped silently, and the Coldcard will take you into a duress wallet.
     - `Duress Wallet`, when selected, your Mk4 will lead to a duress wallet after the PIN is entered.
-    - `Login Countdown`, when selected, your Mk4 will display a 1-hour countdown and you can set another action
+    - `Login Countdown`, you can choose between the folowing actions:
+      - `Wipe & Countdown`: The seed is immediately wiped, then Mk4 will begin displaying a countdown.
+      - `Countdown & Brick`: The countdown begins and Mk4 will brick itself after the time runs out.
+      - `Just Countdown`: Mk4 will begin the countdown and will reboot itself after the time runs out.
+    - `Look Blank`, when selected, after the trick PIN is entered, the Coldcard act as if the seedphrase is wiped, but it is in fact still in memory.
+    - `Just Reboot`, when selected, Coldcard will reboot itself after the trick PIN is entered.
+    - `Delta Mode`, This advanced feature is meant for experienced users and is designed to protect against serious threats, such as coercion by someone with insider knowledge. When Delta Mode is activated, the COLDCARD appears to open the real wallet, allowing the attacker to browse and confirm that it looks genuine. However, it secretly blocks all transaction signing, so no bitcoin can be sent. It also disables access to the seed phrase, and any attempt to view it will erase it completely. To make the fake wallet look more convincing, the Trick PIN used for Delta Mode must start with the same numbers as the real PIN (so it shows the same anti-phishing words) but end differently.
 13. 
 
 

@@ -509,7 +509,7 @@ Inyuma y’aho isohokeye kuri urwo rutonde rwo kumenyekanisha, b-money yarafashe
 ![Citation of b-money in the Bitcoin white paper](assets/en/16.webp)
 
 
-### Bit Gold: inzahabu ya digitale imbere ya Bitcoin
+### Bit Gold: inzahabu y'ubuhinga bwa none imbere ya Bitcoin
 
 
 Iciyumviro ca kabiri cavuye mu vyiyumviro vy’aba cypherpunks ni iciyumviro ca « bit gold »  (inzahabu y’ibice), ico Nick Szabo yari yiyumviriye mu 1998. Yari umuhinga mu vy’ubuhinga bwa none w’Umunyamerika w’inkomoko ya Hongiriya yari amaze amezi atandatu akora nk’umujanama wa DigiCash. Cypherpunk, azwi cane mu gushinga intahe iciyumviro c'amasezerano y'ubwenge(smart contract) mu 1995.
@@ -523,29 +523,29 @@ Mu mwaka w’1994, Nick Szabo yarashizeho urutonde rw’abantu bigenga rwitwa li
 Nick Szabo mu 1997 (isoko: [Adrien Chen] (ifoto/1))
 
 
-Nick Szabo mu ntango yaradondora iciyumviro ciwe ku rutonde rwa libtech-l imbere y’uko atanga [umugambi] w’urupapuro rwera ku rubuga rwiwe bwite. 2005 mu [ngingo](iyindi nkuru] yasohoye ku rubuga rwiwe rwitwa Unenumerated.
+Nick Szabo mu ntango yaradondora iciyumviro ciwe ku rutonde rwa libtech-l imbere y’uko atanga [umugambi] w’urupapuro rwera ku rubuga rwiwe bwite mu 1999. Hanyuma ashira ahabona muri 2005 mu [ngingo](iyindi nkuru] yasohoye ku rubuga rwiwe rwitwa Unenumerated.
 
 
-Iryo tegeko ryari rikwiye gucungera iremwa n'uguhanahana ry’ibintu vy’inzahabu vy’ukuri. Mu buryo butandukanye n’inzahabu y’ubuhinga bwa none, yari ishingiye ku nzahabu y’umubiri, canke b-money, yari ishizwe mu giseke c’ibintu, inzahabu y’ubuhinga bwa none ntiyari ikwiye gushigikirwa n’ikindi kintu cose ariko yari ifise ubukene bw’imbere, butashobora guhindurwa, gutyo ikaba yari inzahabu y’ubuhinga bwa none.
+Urwo rutonde rwari rikwiye gucungera iremwa n'uguhanahana igitigiri kanaka c'insahabu y'bihimbano. Mu buryo butandukanye n’inzahabu y’ubuhinga bwa none, yari yishingirwa n'inzahabu nyayo y'umubiri, canke amafaranga y'ubuhinga bwa none, yari yishingiwe ku giseke c’ibintu, inzahabu y’ubuhinga bwa none ntiyari ikwiye gushigikirwa n’ikindi kintu cose ariko yari ifise ubukene bw’imbere kandi idasubirwamwo, bica bigira mu buryo bwuzuyeinzahabu y'ubuhinga bwa none.
 
-Ikintu nyamukuru cari muri iyo porotokole cari uko uguhingura amahera vyakorwa biciye muri Proof of Work: ibice vy’inzahabu vyaremwa hakoreshejwe ububasha bwo guharura bwa , kandi umuti wose waharurwa uvuye ku wundi, bikaba vyatuma habaho uruhererekane rw’ibimenyamenya vy’ibikorwa. Itariki n’isaha ivyo bimenyamenya vy’ibikorwa vyakozwe vyaremejwe hakoreshejwe amaserver menshi ya Timestamp. Uwo murongo wari wishingikirije ku gitabu ca bose c’amazina y’itunga, kikaba kivuga ku bintu n’ivyo abakoresha bahindura, ivyo bikaba vyamenyekana biciye ku mfunguruzo zabo za bose be n’ugucuruza kwemerewe hakoreshejwe imfunguruzo zabo z’ibanga. Iryo kete ryagenzuwe kandi rikabungabungwa n'urubuga rw'abakozi rwitwa "property club," rwahujwe n'ubuhinga bwa kera bwo kwumvikana bwitwa [Byzantine Quorum System].
-
-
-Bit gold isa na Bitcoin biratangaje. Ivyo bice bitatu bigize Elements vy’urwo rutonde (ugutanga ibimenyamenya vy’akazi, gushiramwo ikidodo cavyo, n’ugucungera igitabu c’itunga), vyari bitandukanye mu nzahabu y’ibice, biboneka muri Bitcoin nk’iciyumviro kimwe: Blockchain. Ni co gituma benshi babona ko ari umugambi wa Bitcoin bagaca biyumvira ko Nick Szabo yoba ari Satoshi.
+Ikintu nyamukuru cari muri urwo rutonde cari uko uguhingura amahera vyakorwa biciye muri Proof of Work: ibice vy’inzahabu vyaremwa hakoreshejwe ububasha bwo guharura bw'imashini nyabwonko, kandi inyishu yose yaharurwa bivuye kuyayibanjirije, bikaba vyatuma habaho urukurikirane rw’ama proof of work. Itariki n’isaha y'ikorwa ry'iyo proof of work vyemejwe hakoreshejwe amaserver menshi ya Timestamp. Uwo murongo wari wishingikirije ku gitabu ca bose c’amazina y’itunga, kikaba kivuga ku bintu n’ivyo abakoresha bahindura, ivyo bikaba vyamenyekana biciye ku mfunguruzo zabo za bose be n’ugucuruza kwemerewe hakoreshejwe imfunguruzo zabo z’ibanga. Iryo kete ryagenzuwe kandi rikabungabungwa n'urubuga rw'ama server rwiswe "property club," gitegekanijwe n’urunani rw’inyishu rusanzwe rw'ubuhinga n'ukumvikana:[Byzantine Quorum System].
 
 
-Ariko rero, ivyo abo bagabo babiri babonye vyari bitandukanye. Mu nzahabu y’ibice, uburyo ibice vy’inzahabu vy’ubuhinga bwa none vyakozwe vyasobanura ko bitashobora guhinduka, bisobanura ko bitashobora kuvangwa: vyategerezwa gusuzumwa kw’isoko ryo hanze y’urutonde kugira ngo bikoreshwe nk’ishimikiro ry’igice c’ibara ry’ukuri kimwe. Icogereranyo c’inzahabu y’ibice rero carateguwe nk’uburyo bwo gutanga amafaranga yo gucunga amafaranga y’ububiko adasanzwe, hejuru yayo hakaba ubutunzi bw’amabanki butagira amahera, nimba bishoboka, hakoreshejwe icogereranyo ca Chaumian. Gutyo, muri Ndamukiza 2008, mu . [Ivyiyumviro](urubuga.ububiko.org/urubuga/20171227190431/2008/04/amasoko-y’inzahabu-y’ibice. blog, Nick Szabo yari agisaba imfashanyo yo gushitsa iciyumviro ciwe. Ariko rero, iyo nzira y’ugushirwa mu ngiro ntiyigeze ibaho.
+Isano riri hagati ya Bit gold na Bitcoin riratangaje. Ivyo bice bitatu bigize iyo sisiteme (ugukora ama proof of work, gushiramwo ikidodo cavyo, n’ugucungera igitabu c’itunga), vyari bitandukanye na bit gold, biboneka muri Bitcoin nk’iciyumviro kimwe: Blockchain. Ni co gituma benshi babona ko ari umugambi wa Bitcoin bagaca biyumvira ko Nick Szabo yoba ari Satoshi.
 
 
-### RPOW: Ivyemezo vy'akazi bishobora gusubirwamwo
-
-Uburyo bwa gatatu buzosohoka mu vyiyumviro vy’abanyabwenge b’ivy’ubuhinga bwa none ni ubuhinga bwa RPOW, ni uburyo bugufi bw’ibimenyamenya vy’akazi bishobora gusubirwamwo, bwateguwe na Hal Finney mu 2004. Hal Finney yari umuhinga mu vy’ubuhinga bwa mudasobwa w’Umunyamerika akaba n’umuhinga mu vy’ubuhinga bwa none yaba i Los Angeles. A Cypherpunk kuva mu misi ya mbere, yari afise urukundo rwinshi ku vyiyumviro vya David Chaum n’umuderi wiwe uzwi cane wa eCash. Yari yarakoranye kuva mu 1996 mu gutegura porogarama yo gupfuka amakuru y’ibanga yitwa PGP ari kumwe na Phil Zimmermann.
+Ariko rero, ivyo abo bagabo babiri vyari bitandukanye cane. Muri bit gold, uburyo ibice vy’inzahabu vy’ubuhinga bwa none vyakozwe vyasobanura ko atakintu gishobora kubisubirira mu buryo bungana, bisobanura ko bitashobora kuvangwa: vyategerezwa gusuzumwa kw’isoko ryo hanze ya sisiteme kugira ngo bikoreshwe nk’ishimikiro ry’igice c’ingero y’ukuri kimwe. Uburyo bwa  « bit gold » rero bwarateguwe nk’uburyo bwo kugenzura amafaranga no gucunga amafaranga y’ububiko bw'agaciro, aho akaba ariho amabanki yigenga yisunga ndetse anagenderako, nimba bishoboka, hakoreshejwe icogereranyo ca Chaumian. Gutyo, muri Ndamukiza 2008, mu . [Ivyiyumviro](urubuga.ububiko.org/urubuga/20171227190431/2008/04/amasoko-y’inzahabu-y’ibice. blog, Nick Szabo yari agisaba imfashanyo yo gushitsa iciyumviro ciwe. Ariko rero, iyo nzira y’ugushirwa mu ngiro ntiyigeze ibaho.
 
 
-Kugira ngo akore ubuhinga bwiwe bwa RPOW, Hal Finney yafashe ivyiyumviro biri inyuma ya eCash n’inzahabu y’ibice. Ubudasa bw’uburyo bwiwe ni uko bwari bushingiye kuri server ibonerana yatuma umuntu ashobora gutanga ibimenyamenya vy’akazi vyasohowe na Hashcash. Iyi server yakoresheje IBM 4758 Secure Cryptographic Coprocessor, ikintu gifise umutekano mwinshi kidashobora guhindurwa, kikaba catuma, biciye ku buryo bwo kwemeza ko umuntu ari uwuriho, cakozwe na IBM, umuntu ashobora kugenzura porogarama zariko zirakora kuri iyo mashini. Umuntu wo hanze rero yari gushobora kumenya neza ko umukozi wa RPOW yariko arakoresha porogarama ibereye, afise kode iboneka ku mugaragaro.
+### RPOW: Proof of work bishobora gusubirwamwo
+
+Sisiteme igira gatatu ivuye mu vyiyumviro vy’aba cypherpunks ni ubuhinga bwa RPOW, ni uburyo bugufi bwa proof of work bishobora gusubirwamwo, bwateguwe na Hal Finney mu 2004. Hal Finney yari umuhinga mu vy’ubuhinga bw'inyabwonko w’Umunyamerika akaba n’umuhinga mu vy’ubuhinga bwa none yaba i Los Angeles. Cypherpunk kuva mu misi ya mbere, yari afise urukundo rwinshi ku vyiyumviro vya David Chaum n'uburyo bwiwe buzwi cane bwa eCash. Yari yarakoranye kuva mu 1996 mu gutegura porogarama yo kunyegeza amakuru y’ibanga yitwa PGP ari kumwe na Phil Zimmermann.
 
 
-Serveri ni yo yari icungera ibimenyetso vya Proof-of-Work bishobora gusubira gukoreshwa kandi ni yo yari ishinzwe kubishirako umukono hakoreshejwe ubuhinga bwa RSA. Zaremwe mu gukora Proof of Work biciye kuri Hashcash canke zivuye mu RPOW token ya kera. Mu gihe c’ukwishura, uwurungitse yaha ibimenyetso vyabo vya RPOW uwuvyakira, uwo na we aca ahita avugana na server kugira ngo aronke ikimenyetso kimwe canke vyinshi bishasha, agaciro kavyo kose kakaba kangana n’agaciro k’ivyo yinjije. Ibikorwa vy’aba RPOW rero vyari bisa n’ivy’amatike y’ubuhinga bwa none muri eCash.
+Kugira ngo akore ubuhinga bwiwe bwa RPOW, Hal Finney yisunze ivyiyumviro biri inyuma ya eCash na bit gold. Ubudasa bw’uburyo bwiwe ni uko bwari bushingiye kuri server yo mu muco, yashoboza kurungika ama proof of work vyasohowe na Hashcash. Iyi server yakoresheje ubuhinga bwo guhisha burinzwe neza bwa IBM 4758 (Secure Cryptographic Coprocessor), igikoresho gifise umutekano mwinshi kidashobora guhindurwa, kikaba catuma, biciye ku buryo bwo kwemeza ko umuntu ari uwuriho, cakozwe na IBM, umuntu ashobora kugenzura porogarama zariko zirakora kuri iyo mashini. Umuntu wo hanze rero yari gushobora kumenya neza ko umukozi wa RPOW yariko arakoresha porogarama ibereye, afise kode iboneka ku mugaragaro.
+
+
+Serveri ni yo yari icungera ibimenyetso(token) vya Proof-of-Work bishobora gusubira gukoreshwa kandi ni yo yari ishinzwe kubishirako umukono hakoreshejwe ubuhinga bwa RSA. Zaremwe mu gukora Proof of Work biciye kuri Hashcash canke zivuye mu RPOW token ya kera. Mu gihe c’ukwishura, uwurungitse yaha ibimenyetso vyabo vya RPOW uwuvyakira, uwo na we aca ahita avugana na server kugira ngo aronke ikimenyetso kimwe canke vyinshi bishasha, agaciro kavyo kose kakaba kangana n’agaciro k’ivyo yinjije. Ibikorwa vy’aba RPOW rero vyari bisa n’ivy’amatike y’ubuhinga bwa none muri eCash.
 
 
 Aha niho hari ikigereranyo [cakozwe] cakozwe na Hal Finney ubwiwe:
@@ -560,14 +560,14 @@ Ariko rero, RPOW yari ifise utunenge two mu mutima twoshobora gusigura igituma i
 
 
 
-- Icogereranyo caco c’umutekano cari gifise intege nke, kuko cari cizigiye server ihuriweko;
+- Icogereranyo caco c’umutekano cari gifise intege nke, kuko cari cizigiye server zigenzurwa;
 - Itegeko ryayo ry’amahera (rishingiye ku gukora hashing) ntiryari ryiza cane kubera ukwiyongera kw’ubushobozi bwo gukoresha ubuhinga bwa none.
 
 
 Gutyo, ikoreshwa nyaryo rya RPOW ryari ry’inkuru z’ivya kera. Naho ari ukwo, Hal Finney arakwiriye gushimwa kubera "[yateguye inzira]" (*umwimerere: "yatwaye iri tara"*) ku Bitcoin mu gushinga ikimenyamenya c'igerageza c'iciyumviro imyaka ine imbere y'uko Satoshi Nakamoto ishika.
 
 
-### Ripple: Ukwegereza inguzanyo
+### Ripple: Ugusanzaza ingurane
 
 
 Iyindi nzira izwi cane y’imbere ya Bitcoin, ariko ihambaye aha, ni uburyo bwo gutanga inguzanyo Ripple, bwakozwe n’umuhinga mu vy’ubuhinga bwo gutegura ibintu wo muri Kanada Ryan Fugger mu 2004. Uwo musore w’Umunyakanada yahumekewe n’iciyumviro c’ubudandaji bwa [Exchange bwo mu karere system](LETS), ikintu yari yarabonye i Vancouver imbere y’uko akora umurongo wiwe. Yasohoye igitabu citwa Ripple [igitabu cera] ku wa 14 Ndamukiza 2004. Hanyuma aragishira mu ngiro biciye ku kimenyamenya c’ubuhinga bwa none. yemerewe abakoresha kwihuza n'imeli gusa Address.

@@ -217,7 +217,7 @@ If you want to change your login PIN, simply perform the following steps:
 12. Reenter your new PIN suffix (or rest of PIN).
 13. Your PIN has successfully been changed.
 
-### Trick PINs
+### Trick PINs - Add New Trick
 
 A Trick PIN is an alternative PIN code distinct from the one you use to set up your Coldcard Mk4 for the very first time. When you turn on your Mk4, you can input the trick PIN(s) instead of your Main PIN to trigger certain actions. To configure the trick PIN in Mk4, you can do the following steps:
 
@@ -245,7 +245,12 @@ A Trick PIN is an alternative PIN code distinct from the one you use to set up y
     - `Look Blank`, when selected, after the trick PIN is entered, the Coldcard act as if the seedphrase is wiped, but it is in fact still in memory.
     - `Just Reboot`, when selected, Coldcard will reboot itself after the trick PIN is entered.
     - `Delta Mode`, This advanced feature is meant for experienced users and is designed to protect against serious threats, such as coercion by someone with insider knowledge. When Delta Mode is activated, the COLDCARD appears to open the real wallet, allowing the attacker to browse and confirm that it looks genuine. However, it secretly blocks all transaction signing, so no bitcoin can be sent. It also disables access to the seed phrase, and any attempt to view it will erase it completely. To make the fake wallet look more convincing, the Trick PIN used for Delta Mode must start with the same numbers as the real PIN (so it shows the same anti-phishing words) but end differently.
-13. 
+    - `Policy Unlock`, when selected, Single Signer Spending Policy (SSSP) will be disable after the trick PIN is entered.
+    - `Policy Unlock & Wipe`, when selected, it pretends to disable SSSP but it will wipe the seedphrase in the process.
+12. After you have selected the action you want to pair with the trick PIN, confirm your choice by pressing `✓`. Your trick PIN is successfully configured.
+13. In the `Settings` > `Login Settings` > `Trick PINs`, you can see the list of trick PINs you have created and the actions paired with it.
 
+### Trick PINs - Add If Wrong
 
+Alternatively, you
 

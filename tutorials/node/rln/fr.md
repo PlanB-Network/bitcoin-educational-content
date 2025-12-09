@@ -4,13 +4,13 @@ description: Comment lancer un nœud Lightning compatible RGB avec RLN ?
 ---
 ![cover](assets/cover.webp)
 
-Dans ce tutoriel, vous allez découvrir étape par étape la mise en place d'un nœud Lightning RGB sur un environnement en Regtest. Nous allons voir comment y créer des tokens RGB et les faire circuler dans des canaux.
+Dans ce tutoriel, vous allez découvrir étape par étape comment mettre en place d'un nœud Lightning RGB dans un environnement Regtest. Nous allons voir comment y créer des tokens RGB et les faire circuler à travers des canaux Lightning.
 
 ## Le projet RLN
 
-L’équipe de Bitfinex dédiée à RGB travaille depuis 2022 à enrichir l’écosystème de ce protocole en développant une pile technologique complète. Plutôt que de viser un produit commercial unique, ses efforts se concentrent sur la mise à disposition de briques logicielles open-source, la contribution aux spécifications du protocole RGB et la création de références de mise en œuvre.
+Depuis 2022, L’équipe de Bitfinex dédiée à RGB travaille à enrichir son écosystème en développant une pile technologique complète. Plutôt que de viser un produit commercial unique, elle se concentre sur la création de briques logicielles open-source, la contribution aux spécifications du protocole RGB et la publication de références d’implémentation.
 
-Parmi les contributions notables de Bitfinex à l'écosystème RGB, il y a [la librairie *RGBlib*](https://github.com/RGB-Tools/rgb-lib), écrite en Rust et accessible via des bindings en Kotlin et Python, qui simplifie grandement le développement d’applications RGB en encapsulant les mécanismes complexes de validation et d’engagement.
+Parmi les contributions majeures de Bitfinex à l'écosystème RGB, figure [la librairie *RGBlib*](https://github.com/RGB-Tools/rgb-lib), écrite en Rust et accessible via des bindings en Kotlin et Python, qui simplifie grandement le développement d’applications RGB en encapsulant les mécanismes complexes de validation et d’engagement.
 
 L'équipe de Bitfinex a également conçu un wallet mobile RGB, nommé "[*Iris Wallet*](https://iriswallet.com/)", disponible sur Android. Ce wallet intègre notamment l'utilisation d'un serveur proxy RGB qui permet de gérer facilement les échanges de données off-chain (*consignments*) pour la *Client‐side Validation* sur RGB.
 

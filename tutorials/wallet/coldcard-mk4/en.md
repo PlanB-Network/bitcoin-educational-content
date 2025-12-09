@@ -25,7 +25,7 @@ If there are no problems with the packaging, you may open the bag. The Mk4 will 
 
 1. Prepare a piece of paper and a pen.
 2. Connect the Mk4 to a power source (USB-C cable) and insert the MicroSD card. 
-3. Once the device is powered up for the first time, the screen will display a message regarding Coldcard's Terms of Sale and Use. Navigate down and press `✓` to continue.
+3. Once the device is powered up for the first time, the screen will display a message regarding Coldcard's Terms of Sale and Use. Navigate down, then press `✓` to continue.
 4. Next, a 12-digit number will be displayed on the screen. Check this number against the one on the tamper-evident bag to ensure the device has not been tampered with. If the numbers do not match, contact Coinkite support immediately before proceeding. Otherwise, press `✓` to continue. 
 5. Select `Choose PIN Code`.
 6. Navigate down as you read the instructions to proceed to the next step.
@@ -125,20 +125,119 @@ In this tutorial, we will use Sparrow Wallet as the interface. The procedure to 
 5. Remove the MicroSD card from the Coldcard and insert it into the device where Sparrow Wallet is installed.
 6. Open Sparrow Wallet.
 7. Click `File` > `New Wallet` > Input the name for the wallet > Click `Create Wallet`
-8. On the Keystore section, select `Airgapped Hardware Wallet`.
-9. Look for Coldcard and click `Import File...`.
-10. Select the file that was created in Step 4 (the one with the `.json` format).
-11. On the Mk4, return to the main menu and navigate to `Advanced/Tools` > `View Identity`. Ensure that the fingerprint displayed on the Mk4's screen matches the one on Sparrow Wallet (the Master fingerprint on the Keystore section)
-12. Click the `Apply` button on the bottom right corner.
-13. Optionally, you can also add a password for the exported wallet. This password is required each time you open the Sparrow Wallet application to access the wallet. If you forget the password in the future, you can simply repeat Steps 1-12 and choose a new password.
-14. The wallet is now successfully exported and ready to be used.
+8. Select the `Script Type`.
+9. On the Keystore section, select `Airgapped Hardware Wallet`.
+10. Look for Coldcard and click `Import File...`.
+11. Select the file that was created in Step 4 (the one with the `.json` format).
+12. On the Mk4, return to the main menu and navigate to `Advanced/Tools` > `View Identity`. Ensure that the fingerprint displayed on the Mk4's screen matches the one on Sparrow Wallet (the Master fingerprint on the Keystore section)
+13. Click the `Apply` button on the bottom right corner.
+14. Optionally, you can also add a password for the exported wallet. This password is required each time you open the Sparrow Wallet application to access the wallet. If you forget the password in the future, you can simply repeat Steps 1-13 and choose a new password.
+15. The wallet is now successfully exported and ready to be used.
 
 ## Receiving bitcoin
 
+Next, we’ll learn how to receive Bitcoin using the Mk4. This process is quite simple because you don’t need to use the Mk4 device itself. As long as you’ve already exported your wallet to Sparrow, you can receive Bitcoin directly through Sparrow Wallet. Follow these steps to receive bitcoins with Mk4:
+
+1. Open Sparrow Wallet.
+2. Select `Open Wallet` > Choose the wallet file to which you want to receive bitcoin > Enter the password associated with that wallet.
+3. On Sparrow's interface, click on the `Receive` tab on the left side of the interface.
+4. An address along with a QR code will appear at the top. You can copy and paste the address or scan the QR code using the wallet you’ll use to send bitcoin to Sparrow Wallet. Optionally, you can type in a label for the bitcoin you receive.
+5. After you send the bitcoins, on Sparrow's interface, click on the `Transactions` tab on the left side of the interface. You’ll see a new entry at the top of the transaction history, which corresponds to the transaction you just made.
+6. You can also navigate on the `UTXOs` tab on the left side of the interface to see the bitcoin you just received.
+
 ## Sending bitcoin
+
+Unlike receiving bitcoins, spending the bitcoins associated with your Coldcard requires you to use the Coldcard for signing the transactions. The procedure of sending bitcoins with Mk4 is as follows:
+
+1. Insert the MicroSD card into the device where your Sparrow Wallet is installed.
+2. Open Sparrow Wallet.
+3. Select `Open Wallet` > Choose the wallet file to which you want to receive bitcoin > Enter the password associated with that wallet.
+4. On Sparrow's interface, click on the `Send` tab on the left side of the interface.
+5. On the `Pay to` tab, enter the address you want to send the bitcoins to.
+6. Add a label for the transaction.
+7. Enter the amount of bitcoins you want to send.
+8. Enter the fee by toggling the `Range` or directly input a number into the `Fee` part.
+9. On the bottom right corner, click `Create Transaction`.
+10. You will be brought into a new transaction tab whose name is the label you input on Step 6. Click `Finalize Transaction for Signing`.
+11. Click `Save Transaction` and save the transaction in the MicroSD card. Rename the file if necessary. This step will save the transaction as a PSBT file.
+12. Remove the MicroSD card and insert it into your Coldcard Mk4.
+13. Turn on your Mk4 by connecting it to a power source.
+14. Input your PIN.
+15. Go to `Passphrase` and input the passphrase of the wallet you want to use to send the bitcoins with. If you want to use the wallet with the blank passphrase, skip this step.
+16. Ensure the master key fingerprint is the same with the one on your Sparrow Wallet. You can check this on Sparrow Wallet's `Settings` tab on the left side of the interface. Then, press `✓` on your Mk4 to proceed. This will take you to the main menu.
+17. On Mk4's main menu, select `Ready to Sign`. The screen will display an `OKAY TO SEND?` message. Ensure the amount of the bitcoins you want to send and the receiving address are all correct. Press `✓` to confirm or `✕` to cancel.
+18. If there are multiple PSBT files to choose from, Mk4 will display `Choose PSBT file to be signed` message. Press `✓` to continue. Then, select the PSBT file you want to sign by navigating down or up. Perform Step 17 on that transaction.
+19. Mk4 will now display the `PSBT Signed` along with the name of the file of the signed PSBT. Press `✓` to continue.
+20. Remove the MicroSD card from the Coldcard and insert it into the device where Sparrow Wallet is installed.
+21. On Sparrow Wallet, click `Load Transaction`.
+22. Select the file with the same name as the one created on Step 19.
+23. Click `Broadcast Transaction`.
 
 ## Firmware Upgrade
 
-## Trick PINs
+### Checking your Firmware Version
+
+Coldcard Mk4's firmware can always be upgraded to a newer version. To check whether your Mk4 has been upgraded to the latest version or not, perform the following steps:
+1. Turn on your Mk4 by connecting it to a power source.
+2. Input your PIN.
+3. Go to `Advanced/Tools` > Select `Upgrade Firmware` > Select `Show Version`. Check the version displayed on Mk4's screen against the one on [Coinkite's website](https://coldcard.com/downloads). If the version is different, you are able to upgrade the firmware into the newer version.
+
+### Upgrading your Firmware
+
+If you want to upgrade the firmware to the latest version, do the following steps:
+
+1. Insert the MicroSD card into your laptop/PC.
+2. Go to [Coinkite's website](https://coldcard.com/downloads) and download the latest firmware to your MicroSD card (The red button right of the Mk4 image with the version number on it). You can also download other versions by clicking on `All Files on Mk4` and exploring the version you want to download. The downloaded file will be in `.dfu` format.
+3. Remove the MicroSD card and insert it into your Mk4.
+4. Turn on your Mk4 by connecting it to a power source.
+5. Input your PIN.
+6. Go to `Advanced/Tools` > Select `Upgrade Firmware` > Select `From MicroSD` > Scroll down as you read the instructions then press `✓`.
+7. Select the `.dfu` file that you downloaded in Step 2.
+8. Coldcard Mk4 will display a `Install this new firmware?` message. Scroll down as you read the instructions then press `✓`.
+9. Wait for the Mk4 to finish installing the new firmware. Do not disconnect the power source during the installation.
+10. Upon completion, Mk4 will restart itself. You may enter your PIN and perform the "Checking your Firmware Version" steps to check whether the firmware has been upgraded or not.
+
+## Advanced Features
+
+### Change your PIN
+
+If you want to change your login PIN, simply perform the following steps:
+
+1. Prepare a pen and a piece of paper.
+2. Turn on your Mk4 by connecting it to a power source.
+3. Input your PIN.
+4. Go to `Settings` > Select `Login Settings` > Select `Change Main PIN`
+5. Navigate down as you read the message, then press `✓` to proceed.
+6. Input your old PIN.
+7. Input your new PIN prefix (must be 2 to 6 characters long) and write it down.
+8. Mk4 will now display two new anti-phishing words, write them down, then press `✓` to proceed.
+9. Input your new PIN suffix (or rest of PIN, must be 2 to 6 characters long) and write it down.
+10. Reenter your new PIN prefix.
+11. Check whether the anti-phishing words match the one you wrote in Step 8.
+12. Reenter your new PIN suffix (or rest of PIN).
+13. Your PIN has successfully been changed.
+
+### Trick PINs
+
+A Trick PIN is an alternative PIN code distinct from the one you use to set up your Coldcard Mk4 for the very first time. When you turn on your Mk4, you can input the trick PIN(s) instead of your Main PIN to trigger certain actions. To configure the trick PIN in Mk4, you can do the following steps:
+
+1. Prepare a pen and a piece of paper.
+2. Turn on your Mk4 by connecting it to a power source.
+3. Input your PIN.
+4. Go to `Settings` > Select `Login Settings` > Select `Trick PINs` > Select `Add New Trick`.
+5. Input your trick PIN prefix (must be 2 to 6 characters long) and write it down.
+6. Mk4 will now display two new anti-phishing words, write them down, then press `✓` to proceed.
+7. Input your trick PIN suffix (or rest of PIN, must be 2 to 6 characters long) and write it down.
+8. Reenter your new PIN prefix.
+9. Check whether the anti-phishing words match the one you wrote in Step 8.
+10. Reenter your new PIN suffix (or rest of PIN).
+11. Navigate down or up to select the action you want to pair with the trick PIN you just created. The list of actions are:
+    - `Brick Self`, when selected, your Mk4's chips will be destroyed after the PIN is entered, making your Mk4 to be unusable permanently.
+    - `Wipe Seed`, when selected, you can choose between the following actions:
+      > ff
+    - `Duress Wallet`, when selected, your Mk4 will lead to a duress wallet after the PIN is entered.
+    - `Login Countdown`, when selected, your Mk4 will display a 1-hour countdown and you can set another action
+13. 
+
 
 

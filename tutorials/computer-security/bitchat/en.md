@@ -11,7 +11,7 @@ description: Decentralized, Internet-free messaging for free communication
 
 Bitchat emerged from a rapid prototyping effort where [@jack](https://primal.net/jack) developed the initial concept during a weekend coding session. [@calle](https://primal.net/calle) joined the project shortly afterward to co-develop the Android implementation. Jack currently leads the development of the iOS version, while calle oversees the Android version with the support of many other contributors. 
 
-## **Introduction: Chat Freely, Without the Grid**
+## Introduction: Chat Freely, Without the Grid
 
 Imagine sending messages when the internet goes down, during a natural disaster, or in places where communication is restricted. Bitchat makes this possible. It’s a decentralized, peer-to-peer messaging app that skips central servers, letting devices talk directly to each other, entirely offline using Bluetooth and mesh networking. Designed with privacy and resilience in mind, Bitchat is ideal for use in areas where traditional connectivity is unreliable or unavailable—such as during disaster scenarios, in remote locations, or for those looking to avoid surveillance. At its core, Bitchat uses cryptography to ensure every message is end-to-end encrypted, verified, and tamper-proof. 
 
@@ -36,7 +36,7 @@ Bitchat enables offline messaging through these [features](https://github.com/pe
 
 ## 1️⃣ How Bitchat Works - simply
 
-Bitchat lets you message nearby phones directly via BLE, with no internet or cell signal needed. When you start a chat, the phones perform a secure handshake to create a unique, temporary encryption key for your conversation. Every message is protected with end-to-end encryption, and a new key is used for each one to ensure past messages remain safe even if your phone is compromised later. Finally, the app splits messages into small pieces and mixes them with random dummy data to hide your messaging activity. For direct device-to-device chats, it only works within a range of up to ~100m. It's like passing encrypted notes in a crowded room—devices whisper directly to each other, shredding the keys after every message.
+Bitchat lets you message nearby phones directly via Bluetooth (`BLE` as follows), with no internet or cell signal needed. When you start a chat, the phones perform a secure handshake to create a unique, temporary encryption key for your conversation. Every message is protected with end-to-end encryption, and a new key is used for each one to ensure past messages remain safe even if your phone is compromised later. Finally, the app splits messages into small pieces and mixes them with random dummy data to hide your messaging activity. For direct device-to-device chats, it only works within a range of up to ~100m. It's like passing encrypted notes in a crowded room—devices whisper directly to each other, shredding the keys after every message.
 
 Bitchat also allows you to join location-based chat rooms using the Nostr protocol and `#geohashes`. A geohash is a short code, like `#u33d`, that represents a specific geographic area, from a single neighborhood, up to an entire city or region. You can `teleport` into any geohash chat room around the world simply by entering its tag. Your messages are sent through a decentralized network of relays, which protects your exact location. Furthermore, each time you join a geohash room, you are given a new, temporary identity, adding an extra layer of privacy to your location-based conversations.
 
@@ -58,7 +58,7 @@ Android users also have alternative options:
 
 ![image](assets/en/01.webp)
 
-*Note: This tutorial focuses primarily on the Android implementation. The iOS version may differ.* 
+**Note**: _This tutorial focuses primarily on the Android implementation. The iOS version may differ._
 
 ### Setup Process
 
@@ -98,15 +98,15 @@ Tap the `bitchat/anonXXXX` field at the top to choose your username. This is h
 
 Use the `#location channels` menu (right of username) to switch between connection types:
 
-- **BLE Mesh***: Default Bluetooth mode (no internet, ~10 - 50m range)
+- **BLE Mesh***: Default Bluetooth mode (no internet, from 10 to 50 meters range)
 - **#geohashes**: Internet-enabled geographic communities using [Nostr protocol](https://nostr.com/) 
 
-When you select #geohashes mode, Bitchat integrates with the Nostr protocol to enable geographic communities. Your messages are published to `decentralized Nostr relays` rather than Bitchat's peer-to-peer network, allowing broader but location-filtered conversations. Crucially, your Bitchat identity keys cryptographically sign all Nostr events to maintain authentication, while geohash tags (like `#u4pruyd` for a neighborhood) filter messages to your chosen precision level. This means you can participate in local discussions without revealing exact coordinates, though internet access is required.
+When you select `#geohashes` mode, Bitchat integrates with the Nostr protocol to enable geographic communities. Your messages are published to `decentralized Nostr relays` rather than Bitchat's peer-to-peer network, allowing broader but location-filtered conversations. Crucially, your Bitchat identity keys cryptographically sign all Nostr events to maintain authentication, while geohash tags (like `#u4pruyd` for a neighborhood) filter messages to your chosen precision level. This means you can participate in local discussions without revealing exact coordinates, though internet access is required.
 
 ![image](assets/en/04.webp) 
 
 ### Monitor Peers
-
+licence: CC-BY-SA-V4
 The peer counter shows users:
 
 - Nearby (BLE Mesh) or
@@ -123,7 +123,7 @@ Bitchat provides two distinct communication modes to suit different needs:
 
 Understanding both modes will help you navigate your conversations.
 
-### **P**ublic Channels: The Community Hub
+### Public Channels: The Community Hub
 
 The `#location channels` menu (top-right) controls your public visibility. Selecting `mesh` connects you to all nearby users via BLE mesh - typically devices within 10-50 meters. This creates an open forum where messages broadcast to everyone in range, ideal for event announcements or local alerts. 
 
@@ -159,7 +159,8 @@ Commands execute immediately - like `/block Satoshi` to silence critics or `/
 
 Channels in Bitchat enable organized communication around topics, locations, or communities. To create your own, follow this workflow:
 
-**Step 1: Create a channel**
+### Step 1: Create a channel
+
 To create a channel, type `/j` or `/join` followed by the `channel name` in any chat (e.g. /j <channelname>). After creation a new `icon ⧉` appears indicating the new channel. Other users can join by typing the same command (e.g. /j bitchat_tutorial). 
 
 ![image](assets/en/10.webp)  
@@ -176,9 +177,9 @@ For private communities, this command enables password protection, requiring app
 
 ## 6️⃣ Panic Mode
 
-Now, let's talk about that `panic mode`…Triple-tapping the `Bitchat logo` initiates a complete wipe of all local messages and data within the app. This is your ultimate privacy safeguard, perfect for situations requiring immediate discretion.
+Now, let's talk about that `panic mode`: triple-tapping the `Bitchat logo` initiates a complete wipe of all local messages and data within the app. This is your ultimate privacy safeguard, perfect for situations requiring immediate discretion.
 
-***Important reminder:*** *Panic mode is permanent. Once activated, data cannot be recovered. Use with caution.*
+**Important reminder:** _Panic mode is permanent. Once activated, data cannot be recovered. Use with caution._
 
 ![image](assets/en/11.webp)  
 
@@ -199,7 +200,7 @@ Precision selection balances privacy with utility: higher levels create more exc
 ### Joining #geohash channels
 
 1. Access the `#location channels` menu.
-2. Select your desired precision level and enter the `#geohash`  (e.g. #u33d)
+2. Select your desired precision level and enter the `#geohash` (e.g. #u33d)
 3. Tap the `Teleport` button to join the `#location channel`. 
 
 ![image](assets/en/12.webp)  
@@ -208,7 +209,7 @@ Alternatively, you can tap the `map icon` to use the map view to determine the p
 
 ![image](assets/en/13.webp)  
 
-*Important reminder: #geohash functionality requires an active internet connection* *- unlike BLE mesh which operates offline via Bluetooth.*
+**Important reminder**: _#geohash functionality requires an active internet connection - unlike BLE mesh which operates offline via Bluetooth._
 
 ## 8️⃣ Heatmaps
 

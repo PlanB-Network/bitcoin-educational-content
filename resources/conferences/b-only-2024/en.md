@@ -29,3 +29,18 @@ description: La conférence Bitcoin, par les Bitcoiners, pour les Bitcoiners et 
 
 ![video](https://makertube.net/videos/embed/8DeUtWdakMxBFDn7T9833B)
 
+## Nathalie Janson 
+
+![video](https://makertube.net/videos/embed/4uJV7KPMrkom7qMMgcvQYR)
+
+## Lightning, solution au problème à 2200 milliards? - Elie Sader - B-Only'24 
+
+![video](https://makertube.net/videos/embed/sD8sSMestSLcbHkbJRbcEC)
+
+## - le grand débat - Nathalie Janson, Mathieu Faraco, Howtobitcoin, et le public, A Stachtchenko... 
+
+![video](https://makertube.net/videos/embed/8RqJncjAFDAbTMa2mx4Vpc)
+
+## Alexis Roussel 
+
+![video](https://makertube.net/videos/embed/qyUD88V22AAim271PMbzh4)

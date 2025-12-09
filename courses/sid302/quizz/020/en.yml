@@ -1,0 +1,8 @@
+question: What happens to the network configuration during Liquid's Dynamic Federation (Dynafed) transition process when a functionary needs to be replaced?
+answer: The network broadcasts a transition transaction followed by a two-week overlap period before the new configuration takes over
+wrong_answers:
+  - The network immediately switches to the new functionary configuration after broadcasting the transition transaction
+  - All functionaries must simultaneously vote to approve the replacement before any configuration changes occur
+  - The network requires a hard fork and temporary shutdown to update the functionary list and restart operations
+explanation: |
+  Dynamic Federation allows Liquid to evolve without hard forks through a carefully orchestrated transition process. When functionary replacement is needed, the network broadcasts a transition transaction that signals the upcoming change. This is followed by a mandatory two-week overlap period where both old and new configurations coexist, ensuring seamless continuity. The other options are incorrect because immediate switching would risk network instability, simultaneous voting isn't the mechanism used, and hard forks are specifically what Dynafed was designed to avoid.

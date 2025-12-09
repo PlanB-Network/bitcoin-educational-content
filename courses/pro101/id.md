@@ -73,13 +73,13 @@ populasi Global yang Tidak Memiliki Rekening Bank
 Kuliah ini, "Mengapa El Salvador Membutuhkan Bitcoin," memberikan gambaran umum tentang protokol **Bitcoin**, akarnya dalam gerakan **Cypherpunk**, dan perannya sebagai alat untuk kebebasan - memungkinkan **uang yang tidak disensor**, **inklusi keuangan**, dan banyak lagi.
 
 
-> *definisi:** *Definisi
->
+**Definisi:**
 
-> - protokol Bitcoin:_ Aturan dan struktur yang mengatur bagaimana Bitcoin beroperasi sebagai mata uang digital yang terdesentralisasi.
-> - gerakan Cypherpunk:_ Kelompok yang mengadvokasi penggunaan kriptografi untuk memastikan privasi dan kebebasan dalam ruang digital.
-> - inklusi keuangan:_ Menyediakan akses ke layanan keuangan bagi masyarakat yang selama ini tidak terjangkau oleh sistem perbankan tradisional, yang sering disebut sebagai "unbanked."
-> - uang yang tidak disensor:_ Uang yang tidak dapat dikontrol atau dibatasi oleh pemerintah atau lembaga keuangan.
+
+- protokol Bitcoin:_ Aturan dan struktur yang mengatur bagaimana Bitcoin beroperasi sebagai mata uang digital yang terdesentralisasi.
+- gerakan Cypherpunk:_ Kelompok yang mengadvokasi penggunaan kriptografi untuk memastikan privasi dan kebebasan dalam ruang digital.
+- inklusi keuangan:_ Menyediakan akses ke layanan keuangan bagi masyarakat yang selama ini tidak terjangkau oleh sistem perbankan tradisional, yang sering disebut sebagai "unbanked."
+- uang yang tidak disensor:_ Uang yang tidak dapat dikontrol atau dibatasi oleh pemerintah atau lembaga keuangan.
 
 #### Latar belakang Ricky dan advokasi Bitcoin
 
@@ -102,11 +102,11 @@ Dalam rezim otoriter, di mana penindasan keuangan adalah hal yang umum, sifat **
 Terlepas dari potensinya, Bitcoin menghadapi tantangan yang signifikan. Di daerah seperti Afrika dan India, infrastruktur dasar seperti listrik dan akses internet sering kali masih kurang, sehingga membatasi adopsi. Selain itu, **inklusi digital** - memastikan bahwa orang-orang dari segala usia dan tingkat pendidikan dapat menggunakan teknologi - tetap menjadi rintangan utama.
 
 
-> *definisi:** *Definisi
->
+**Definisi:**
 
-> - kunci pribadi:_ Kode rahasia yang memberikan akses ke Bitcoin pengguna.
-> - sumber terbuka:_ Perangkat lunak yang dapat diperiksa, dimodifikasi, dan dikembangkan oleh siapa saja.
+
+- kunci pribadi:_ Kode rahasia yang memberikan akses ke Bitcoin pengguna.
+- sumber terbuka:_ Perangkat lunak yang dapat diperiksa, dimodifikasi, dan dikembangkan oleh siapa saja.
 
 ### Kasus El Salvador
 
@@ -135,10 +135,10 @@ Singkatnya, Bitcoin memiliki janji yang sangat besar untuk pemberdayaan dan inkl
 Gerakan **Cypherpunk** muncul pada akhir abad ke-20, mengadvokasi privasi dan kebebasan melalui kriptografi. Para perintis seperti **Eric Hughes** dan **Tim May** percaya bahwa enkripsi yang kuat sangat penting untuk melindungi kebebasan pribadi di dunia digital. Ide-ide mereka sangat mempengaruhi penciptaan Bitcoin.
 
 
-> **Definisi:**
->
+**Definisi:**
 
-> - cypherpunk:_ Sebuah gerakan yang mempromosikan privasi dan kebebasan menggunakan kriptografi.
+
+- cypherpunk:_ Sebuah gerakan yang mempromosikan privasi dan kebebasan menggunakan kriptografi.
 
 #### Ekonomi Austria
 
@@ -146,10 +146,10 @@ Gerakan **Cypherpunk** muncul pada akhir abad ke-20, mengadvokasi privasi dan ke
 Pada saat yang sama, **Ekonomi Austria** memberikan fondasi untuk prinsip-prinsip moneter Bitcoin. Ekonom seperti **Ludwig von Mises** dan **Friedrich Hayek** berpendapat bahwa uang yang baik haruslah langka, tahan lama, dan merupakan penyimpan yang baik dari prinsip-prinsip inti nilai yang membentuk desain Bitcoin.
 
 
-> **Definisi:**
->
+**Definisi:**
 
-> - kelangkaan:_ Ketersediaan yang terbatas, menciptakan nilai melalui kebutuhan akan alokasi yang cermat.
+
+- kelangkaan:_ Ketersediaan yang terbatas, menciptakan nilai melalui kebutuhan akan alokasi yang cermat.
 
 ### Penciptaan Bitcoin
 
@@ -157,10 +157,10 @@ Pada saat yang sama, **Ekonomi Austria** memberikan fondasi untuk prinsip-prinsi
 **Satoshi Nakamoto** menggabungkan ide-ide ini untuk menciptakan Bitcoin pada tahun 2008 sebagai mata uang digital yang terdesentralisasi dan tahan sensor. Dengan menggabungkan cita-cita privasi Cypherpunk dengan prinsip-prinsip Austria tentang uang yang sehat, Bitcoin menawarkan sebuah sistem keuangan yang menantang bank-bank tradisional dan kontrol pemerintah.
 
 
-> **Definisi:**
->
+**Definisi:**
 
-> - tahan sensor:_ Uang yang tidak dapat dikontrol atau diblokir oleh kekuatan eksternal.
+
+- tahan sensor:_ Uang yang tidak dapat dikontrol atau diblokir oleh kekuatan eksternal.
 
 #### Prinsip-prinsip ekonomi utama
 
@@ -171,11 +171,11 @@ Pada saat yang sama, **Ekonomi Austria** memberikan fondasi untuk prinsip-prinsi
 - Menabung:** Menyimpan nilai untuk kebutuhan masa depan, yang mengarah pada investasi dan inovasi.
 
 
-> *definisi:** *Definisi
->
+**Definisi:**
 
-> - preferensi waktu:_ Menghargai barang saat ini daripada barang yang akan datang.
-> - menyimpan:_ Menyimpan nilai untuk penggunaan di masa mendatang.
+
+- preferensi waktu:_ Menghargai barang saat ini daripada barang yang akan datang.
+- menyimpan:_ Menyimpan nilai untuk penggunaan di masa mendatang.
 
 ### Bitcoin di El Salvador
 
@@ -243,11 +243,11 @@ Bitcoin mengandalkan **tanda tangan digital** menggunakan **kriptografi kurva el
 **Satoshi Nakamoto**, pencipta nama samaran Bitcoin, mengembangkan ide-ide ini dengan mengalihkan model PoW ke **Blockchain** yang terdesentralisasi. Hal ini memungkinkan jaringan node terdistribusi untuk memvalidasi dan mencatat transaksi tanpa otoritas pusat, menandai evolusi yang signifikan dari upaya mata uang digital sebelumnya.
 
 
-> *definisi:** *Definisi
->
+**Definisi:**
 
-> - proof-of-Work (PoW):_ Sistem di mana para peserta harus memecahkan teka-teki komputasi untuk memvalidasi transaksi dan mengamankan jaringan.
-> - kriptografi Kurva Eliptik:_ Metode kriptografi yang memungkinkan tanda tangan digital yang aman dan efisien.
+
+- proof-of-Work (PoW):_ Sistem di mana para peserta harus memecahkan teka-teki komputasi untuk memvalidasi transaksi dan mengamankan jaringan.
+- kriptografi Kurva Eliptik:_ Metode kriptografi yang memungkinkan tanda tangan digital yang aman dan efisien.
 
 ### Mekanisme Blockchain dan validasi transaksi
 
@@ -264,12 +264,12 @@ Setiap **blok** dalam Blockchain terdiri dari **header** (dengan data seperti bl
 Sebelum transaksi dimasukkan ke dalam blok, transaksi tersebut berada di **Mempool**, di mana mereka menunggu validasi. Setelah divalidasi, transaksi-transaksi ini ditambahkan ke blok yang baru ditambang dan kemudian ke Blockchain.
 
 
-> *definisi:** *Definisi
->
+**Definisi:**
 
-> - penambangan:_ Proses memecahkan teka-teki kriptografi untuk menambahkan blok baru ke Blockchain.
-> - _Nonce:_ Nilai yang digunakan untuk menemukan Hash yang benar selama Mining.
-> - _Mempool:_ Ruang tunggu untuk transaksi yang belum dikonfirmasi sebelum ditambahkan ke dalam blok.
+
+- penambangan:_ Proses memecahkan teka-teki kriptografi untuk menambahkan blok baru ke Blockchain.
+- _Nonce:_ Nilai yang digunakan untuk menemukan Hash yang benar selama Mining.
+- _Mempool:_ Ruang tunggu untuk transaksi yang belum dikonfirmasi sebelum ditambahkan ke dalam blok.
 
 ### Skalabilitas, privasi, dan pengembangan di Bitcoin
 
@@ -283,12 +283,12 @@ Menjalankan **Full node** sangat penting untuk memastikan desentralisasi dan kea
 Pengembangan Bitcoin telah berkembang untuk meningkatkan kinerja dan keamanan. Peningkatan utama termasuk **Segregated Witness (SegWit)**, yang menangani kelenturan transaksi dan meningkatkan ukuran blok yang efektif, dan **Taproot**, yang meningkatkan privasi dan memungkinkan kontrak yang lebih kompleks dengan menggunakan **Merkleized Abstract Syntax Trees (MAST)**.
 
 
-> *definisi:** *Definisi
->
+**Definisi:**
 
-> - segWit:_ Peningkatan Bitcoin yang memisahkan data tanda tangan dari data transaksi, sehingga meningkatkan efisiensi.
-> - taproot:_ Peningkatan yang meningkatkan privasi dan skalabilitas Bitcoin dengan memungkinkan kontrak pintar yang lebih kompleks.
-> - lightning Network:_ Solusi Layer kedua untuk transaksi Bitcoin yang lebih cepat dan lebih murah menggunakan saluran pembayaran.
+
+- segWit:_ Peningkatan Bitcoin yang memisahkan data tanda tangan dari data transaksi, sehingga meningkatkan efisiensi.
+- taproot:_ Peningkatan yang meningkatkan privasi dan skalabilitas Bitcoin dengan memungkinkan kontrak pintar yang lebih kompleks.
+- lightning Network:_ Solusi Layer kedua untuk transaksi Bitcoin yang lebih cepat dan lebih murah menggunakan saluran pembayaran.
 
 #### Kesimpulan
 
@@ -316,11 +316,11 @@ Dalam kuliah ini, kita akan mematahkan mitos-mitos umum seputar **Bitcoin**, **b
 Kesalahpahaman yang sering terjadi adalah bahwa **Bitcoin** dan **Blockchain** adalah sama. Walaupun Bitcoin adalah mata uang digital, **Blockchain** adalah teknologi yang mendukungnya. Blockchain menyediakan catatan transaksi yang terverifikasi tetapi memiliki kekurangan seperti kecepatan yang lebih lambat dan biaya yang lebih tinggi, yang mana solusi seperti **Lightning Network** Address.
 
 
-> *definisi:** *Definisi
->
+**Definisi:**
 
-> - blockchain:_ Teknologi dasar yang digunakan untuk mencatat transaksi dalam Ledger yang terdesentralisasi dan tidak dapat diubah.
-> - lightning Network:_ Solusi Layer kedua yang meningkatkan efisiensi transaksi Bitcoin dengan memungkinkan transaksi off-chain.
+
+- blockchain:_ Teknologi dasar yang digunakan untuk mencatat transaksi dalam Ledger yang terdesentralisasi dan tidak dapat diubah.
+- lightning Network:_ Solusi Layer kedua yang meningkatkan efisiensi transaksi Bitcoin dengan memungkinkan transaksi off-chain.
 
 ### Bitcoin vs Crypto
 
@@ -328,10 +328,10 @@ Kesalahpahaman yang sering terjadi adalah bahwa **Bitcoin** dan **Blockchain** a
 Perbedaan utama lainnya adalah bahwa **Bitcoin** diciptakan dengan tujuan tunggal untuk menyediakan bentuk uang yang terdesentralisasi dan tahan sensor, bebas dari kontrol perusahaan atau pemerintah mana pun. Sebaliknya, mata uang kripto **shitcoins** sering kali dirancang dengan kontrol terpusat, terutama untuk memperkaya perusahaan di belakangnya melalui praktik-praktik predator, skema pump-and-dump, atau penipuan. Token-token ini biasanya tidak memiliki tujuan yang jelas selain menghasilkan keuntungan yang cepat bagi penciptanya dengan mengorbankan para investor yang kurang informasi. Akan tetapi, Bitcoin berdiri sendiri sebagai satu-satunya mata uang digital yang benar-benar terdesentralisasi dengan rekam jejak keamanan dan ketahanan yang telah terbukti.
 
 
-> *definisi:** *Definisi
->
+**Definisi:**
 
-> - shitcoin:_ Shitcoin adalah mata uang kripto bernilai rendah atau berkualitas meragukan yang tidak memiliki kegunaan nyata. Mereka sering kali sangat spekulatif dan terkadang dibuat untuk tujuan penipuan atau tanpa tujuan yang jelas, mengambil keuntungan dari booming pasar mata uang kripto.
+
+- shitcoin:_ Shitcoin adalah mata uang kripto bernilai rendah atau berkualitas meragukan yang tidak memiliki kegunaan nyata. Mereka sering kali sangat spekulatif dan terkadang dibuat untuk tujuan penipuan atau tanpa tujuan yang jelas, mengambil keuntungan dari booming pasar mata uang kripto.
 
 ![Image](assets/en/005.webp)
 
@@ -342,10 +342,10 @@ Perbedaan utama lainnya adalah bahwa **Bitcoin** diciptakan dengan tujuan tungga
 Salah satu kritik yang paling umum terhadap Bitcoin adalah konsumsi energinya. Meskipun Bitcoin Mining memang menggunakan energi, namun hanya menyumbang kurang dari 1% konsumsi listrik global dan kurang dari 3% energi yang terbuang. Selain itu, **Bitcoin Mining** sering kali memanfaatkan sumber energi yang tidak terpakai atau terbarukan, membuatnya lebih ramah lingkungan daripada yang sering digambarkan.
 
 
-> *definisi:** *Definisi
->
+**Definisi:**
 
-> - bitcoin Mining:_ Proses memvalidasi transaksi dan mengamankan jaringan dengan memecahkan teka-teki kriptografi, yang membutuhkan daya komputasi.
+
+- bitcoin Mining:_ Proses memvalidasi transaksi dan mengamankan jaringan dengan memecahkan teka-teki kriptografi, yang membutuhkan daya komputasi.
 
 ### Kesalahpahaman tentang penggunaan kriminal
 
@@ -359,10 +359,10 @@ Bitcoin sering dikritik karena digunakan dalam kegiatan kriminal. Namun, analisi
 **Privasi** dan **fungibilitas** adalah fitur penting dari Bitcoin. Privasi melindungi pengguna dalam rezim yang menindas, dan fungibilitas memastikan bahwa setiap Bitcoin setara, terlepas dari sejarahnya. Hal ini menjadikan Bitcoin sebagai bentuk uang yang dapat diandalkan dan adil.
 
 
-> *definisi:** *Definisi
->
+**Definisi:**
 
-> - fungibilitas:_ Sifat uang di mana setiap unit dapat dipertukarkan dengan unit lainnya, memastikan nilai yang sama.
+
+- fungibilitas:_ Sifat uang di mana setiap unit dapat dipertukarkan dengan unit lainnya, memastikan nilai yang sama.
 
 ### Menangani FUD dan dinamika pasar
 
@@ -2956,7 +2956,7 @@ Berbagai dompet Lightning tersedia, masing-masing memenuhi kebutuhan dan prefere
 - Fitur**: Ekstensi peramban, sumber terbuka, mendukung model kustodian dan non-kustodian, meningkatkan keserbagunaan.
 
 
-#### Breeze:
+#### Breez:
 
 
 
@@ -2967,7 +2967,7 @@ Berbagai dompet Lightning tersedia, masing-masing memenuhi kebutuhan dan prefere
 
 
 
-- Fitur**: Mirip dengan Breeze, menggunakan model LSP untuk likuiditas, sumber terbuka, berfokus pada kesederhanaan pengguna dan manajemen likuiditas yang efektif.
+- Fitur**: Mirip dengan Breez, menggunakan model LSP untuk likuiditas, sumber terbuka, berfokus pada kesederhanaan pengguna dan manajemen likuiditas yang efektif.
 
 
 #### Buka Bitcoin Wallet (OBW):
@@ -2985,7 +2985,7 @@ Dompet dapat diklasifikasikan berdasarkan siapa yang memegang kunci privat dan s
 
 
 - Dompet kustodian**: Pihak ketiga yang menyimpan kunci pribadi, biasanya menawarkan manajemen likuiditas otomatis. Contohnya termasuk Wallet dari Satoshi.
-- Dompet Non-Kustodian**: Pengguna memegang kunci pribadi, mungkin memerlukan manajemen likuiditas manual. Contohnya termasuk Breeze dan OBW.
+- Dompet Non-Kustodian**: Pengguna memegang kunci pribadi, mungkin memerlukan manajemen likuiditas manual. Contohnya termasuk Breez dan OBW.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -3096,11 +3096,11 @@ Para pengembang menghadapi tantangan untuk mengimplementasikan manajemen likuidi
 - Solusi yang memungkinkan**: Pengembang sedang mengeksplorasi algoritme canggih untuk **perutean likuiditas** dan memanfaatkan **saluran pendanaan ganda** untuk memastikan likuiditas tersedia di kedua sisi transaksi.
 
 
-> **Definisi**:
->
+**Definisi:**
 
-> - **Likuiditas**: Ketersediaan dana dalam saluran Lightning untuk melakukan atau menerima pembayaran.
-> - **LSP (Penyedia Layanan Petir)**: Layanan yang membantu pengguna mengelola likuiditas dan saluran pada Lightning Network.
+
+- **Likuiditas**: Ketersediaan dana dalam saluran Lightning untuk melakukan atau menerima pembayaran.
+- **LSP (Penyedia Layanan Petir)**: Layanan yang membantu pengguna mengelola likuiditas dan saluran pada Lightning Network.
 
 ---
 
@@ -3129,12 +3129,12 @@ Pengembang ditugaskan untuk mengabstraksikan kompleksitas L1 dan L2 untuk penggu
 - Solusi yang memungkinkan**: Para pengembang sedang mengerjakan fitur-fitur seperti **splicing** (yang memungkinkan dana ditambahkan atau dihapus dari saluran tanpa menutupnya) dan alat manajemen saluran otomatis.
 
 
-> **Definisi**:
->
+**Definisi:**
 
-> - **L1 (Layer 1) **: Bitcoin utama Blockchain Layer.
-> - **L2 (Layer 2) **: Lightning Network, yang beroperasi di atas Bitcoin untuk memungkinkan transaksi yang lebih cepat dan lebih murah.
-> - **Penyambungan**: Teknik yang memungkinkan modifikasi keseimbangan saluran Lightning tanpa perlu menutupnya.
+
+- **L1 (Layer 1) **: Bitcoin utama Blockchain Layer.
+- **L2 (Layer 2) **: Lightning Network, yang beroperasi di atas Bitcoin untuk memungkinkan transaksi yang lebih cepat dan lebih murah.
+- **Penyambungan**: Teknik yang memungkinkan modifikasi keseimbangan saluran Lightning tanpa perlu menutupnya.
 
 ---
 
@@ -3163,11 +3163,11 @@ Para pengembang sedang mengeksplorasi cara-cara untuk memungkinkan pengguna mene
 - Solusi yang memungkinkan**: Penelitian mengenai **voucher pembayaran offline**, yang memungkinkan penerima untuk mengklaim pembayaran setelah mereka terhubung kembali ke jaringan, sedang berlangsung.
 
 
-> **Definisi**:
->
+**Definisi:**
 
-> - **Pembayaran offline**: Pembayaran yang dikirim atau diterima ketika salah satu pihak tidak terhubung ke Lightning Network.
-> - **Dompet kustodian**: Dompet di mana pihak ketiga mengontrol kunci pribadi dan mengelola transaksi atas nama pengguna.
+
+- **Pembayaran offline**: Pembayaran yang dikirim atau diterima ketika salah satu pihak tidak terhubung ke Lightning Network.
+- **Dompet kustodian**: Dompet di mana pihak ketiga mengontrol kunci pribadi dan mengelola transaksi atas nama pengguna.
 
 ---
 
@@ -3196,10 +3196,10 @@ Pengembang perlu menerapkan solusi pencadangan yang memungkinkan pengguna memuli
 - Solusi yang memungkinkan**: **Cadangan Saluran Statis (SCB) ** telah dikembangkan untuk menyederhanakan pemulihan, tetapi solusi yang lebih canggih diperlukan untuk cadangan yang sepenuhnya otomatis dan aman.
 
 
-> **Definisi**:
->
+**Definisi:**
 
-> - **Pencadangan Saluran Statis (SCB) **: Jenis pencadangan yang memungkinkan pengguna memulihkan dana mereka dari saluran Lightning jika terjadi kegagalan dengan memulihkan status terakhir saluran.
+
+- **Pencadangan Saluran Statis (SCB) **: Jenis pencadangan yang memungkinkan pengguna memulihkan dana mereka dari saluran Lightning jika terjadi kegagalan dengan memulihkan status terakhir saluran.
 
 ---
 
@@ -3293,7 +3293,7 @@ Jalur blinded dirancang untuk meningkatkan privasi penerima pada Lightning Netwo
 
 *penyedia Layanan Petir (LSP) ** *Penyedia Layanan Petir (LSP)
 
-Dikonseptualisasikan oleh Breeze Wallet, Lightning Service Provider (LSP) bertujuan untuk meningkatkan pengalaman pengguna dengan memungkinkan kemampuan penerimaan instan. LSP membuka saluran bagi pengguna, mirip dengan cara penyedia layanan internet menawarkan layanan konektivitas. Inovasi ini menyederhanakan proses orientasi pengguna dan memastikan interaksi yang mulus pada Lightning Network.
+Dikonseptualisasikan oleh Breez Wallet, Lightning Service Provider (LSP) bertujuan untuk meningkatkan pengalaman pengguna dengan memungkinkan kemampuan penerimaan instan. LSP membuka saluran bagi pengguna, mirip dengan cara penyedia layanan internet menawarkan layanan konektivitas. Inovasi ini menyederhanakan proses orientasi pengguna dan memastikan interaksi yang mulus pada Lightning Network.
 
 
 **Sumber daya untuk tetap mendapatkan informasi terbaru**
@@ -3342,12 +3342,12 @@ Namun, faktur tradisional memiliki keterbatasan. Sebagai contoh:
 - Keterbatasan ukuran**: Faktur berukuran besar mungkin sulit ditangani dalam bentuk kode QR, sehingga tidak praktis untuk aplikasi tertentu.
 
 
-> **Definisi**:
->
+**Definisi:**
 
-> - **Invoice**: Permintaan pembayaran dalam Lightning Network, biasanya berisi jumlah dan detail penerima.
-> - **HTLC (Hash Contract Terkunci Waktu): Jenis Smart contract yang digunakan untuk memastikan pembayaran bersyarat dalam batas waktu tertentu.
-> - **Perutean bawang**: Teknik privasi di mana data transaksi berlapis-lapis seperti bawang untuk melindungi identitas pengirim dan penerima.
+
+- **Invoice**: Permintaan pembayaran dalam Lightning Network, biasanya berisi jumlah dan detail penerima.
+- **HTLC (Hash Contract Terkunci Waktu): Jenis Smart contract yang digunakan untuk memastikan pembayaran bersyarat dalam batas waktu tertentu.
+- **Perutean bawang**: Teknik privasi di mana data transaksi berlapis-lapis seperti bawang untuk melindungi identitas pengirim dan penerima.
 
 ### Protokol dan kasus penggunaan
 
@@ -3374,15 +3374,15 @@ Protokol lain, **RGB**, semakin memperluas fungsionalitas Lightning dengan memun
 **Penyedia Layanan Likuiditas Lightning (LSP) juga memainkan peran penting dalam memperluas pembayaran Lightning. LSP menyediakan likuiditas untuk menerima pembayaran, membantu membuka **saluran yang didanai ganda**, dan memastikan transaksi yang lancar dengan mencegat pembayaran dan membuka saluran dengan cepat.
 
 
-> **Definisi**:
->
+**Definisi:**
 
-> - **LNURL**: Protokol yang memungkinkan pembuatan Invoice yang dinamis, sehingga pembayaran menjadi lebih mudah dan fleksibel.
-> - **Bolt 12**: Perpanjangan dari Lightning yang memanfaatkan pesan Onion untuk privasi sekaligus mengotomatiskan pengambilan Invoice.
-> - **Tidak ada: Platform terdesentralisasi yang mengintegrasikan LProtokol dan Kasus Penggunaan
-> pembayaran kilat untuk transaksi mikro.
-> - protokol **RGB**: Protokol yang memungkinkan transfer aset, seperti token, melalui Lightning Network.
-> - **LSP (Penyedia Layanan Lightning)**: Entitas yang menyediakan likuiditas dan membuka saluran untuk transaksi Lightning, membuat jaringan lebih mudah diakses oleh pengguna.
+
+- **LNURL**: Protokol yang memungkinkan pembuatan Invoice yang dinamis, sehingga pembayaran menjadi lebih mudah dan fleksibel.
+- **Bolt 12**: Perpanjangan dari Lightning yang memanfaatkan pesan Onion untuk privasi sekaligus mengotomatiskan pengambilan Invoice.
+- **Tidak ada: Platform terdesentralisasi yang mengintegrasikan LProtokol dan Kasus Penggunaan
+- mbayaran kilat untuk transaksi mikro.
+- protokol **RGB**: Protokol yang memungkinkan transfer aset, seperti token, melalui Lightning Network.
+- **LSP (Penyedia Layanan Lightning)**: Entitas yang menyediakan likuiditas dan membuka saluran untuk transaksi Lightning, membuat jaringan lebih mudah diakses oleh pengguna.
 
 ### Model bisnis dan protokol tingkat lanjut
 
@@ -3405,12 +3405,12 @@ Protokol tingkat lanjut seperti **Point Time-Locked Contracts (PTLC) ** membawa 
 Protokol seperti **LNURL** dan **Bolt 12** merampingkan pembayaran dengan mengurangi interaksi manual, memastikan bahwa Lightning Network menjadi lebih ramah pengguna dan diadopsi secara luas.
 
 
-> **Definisi**:
->
+**Definisi:**
 
-> - **PTLC (Point Time-Locked Contract)**: Primitif kriptografi yang menyempurnakan HTLC, memungkinkan pembayaran yang lebih fleksibel dan aman.
-> - **Gambar awal**: Nilai yang digunakan untuk membuka kunci HTLC, yang juga dapat berfungsi sebagai kunci akses untuk layanan.
-> - **Model Lelang**: Model pembayaran di mana pembayaran ditunda selama lelang dan baru akan dibayarkan setelah tawaran tertinggi diterima.
+
+- **PTLC (Point Time-Locked Contract)**: Primitif kriptografi yang menyempurnakan HTLC, memungkinkan pembayaran yang lebih fleksibel dan aman.
+- **Gambar awal**: Nilai yang digunakan untuk membuka kunci HTLC, yang juga dapat berfungsi sebagai kunci akses untuk layanan.
+- **Model Lelang**: Model pembayaran di mana pembayaran ditunda selama lelang dan baru akan dibayarkan setelah tawaran tertinggi diterima.
 
 ### Kesimpulan
 

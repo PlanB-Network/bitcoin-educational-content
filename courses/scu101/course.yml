@@ -156,10 +156,17 @@ proofreading:
       - 4xvgal
     reward: 5.89
   - language: rn
-    last_contribution_date:
+    last_contribution_date: 2025-12-04
     urgency: 1
     contributor_names:
-    reward: 14.12
+      - miguelandy875
+    reward: 7.06
+  - language: bg
+    last_contribution_date: 2025-12-04
+    urgency: 1
+    contributor_names:
+      - dnabg
+    reward: 4.72
 tags:
   - personal-security
   - privacy

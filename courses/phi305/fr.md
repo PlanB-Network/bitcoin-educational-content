@@ -1,7 +1,7 @@
 ---
 name: Spinoza et Bitcoin
 goal: Découvrez les liens philosophiques entre la pensée de Spinoza et Bitcoin comme outils de liberté à travers les siècles.
-objectives:
+objectifs:
 - Comprendre la philosophie pratique de Spinoza et sa quête de liberté.
 - Explorer les concepts spinozistes du déterminisme et des illusions humaines.
 - Analyser les parallèles entre la révolution des idées de Spinoza et la révolution technologique du Bitcoin.
@@ -23,12 +23,12 @@ Apprenez des outils pratiques issus de l'éthique de Spinoza pour comprendre les
 
 
 
-Je suis heureux de vous présenter dans ce cours la philosophie de Baruch de Spinoza (1632-1677), célèbre philosophe du 17e siècle considéré comme le père de la philosophie rationnelle des Lumières. 
+Je suis heureux de vous présenter dans ce cours la philosophie de Baruch de Spinoza (1632-1677), célèbre philosophe du XVIIe siècle considéré comme le père de la philosophie rationnelle des Lumières. 
 
 ![image](./assets/fr/1.1.1.webp)
 Portrait de Spinoza
 
-Sachez que ces cours sont construits à partir des deux essais que j’ai consacrés au sujet, « La religion vraie de Spinoza » et « Bitcoin, l’évangile de la liberté » disponibles sous forme papier en ligne ou directement sur mon site web et sous forme électronique Kindle Amazon. 
+Sachez que ces cours sont construits à partir des deux essais que j’ai consacrés au sujet: « La religion vraie de Spinoza » et « Bitcoin, l’évangile de la liberté » disponibles sous forme papier en ligne ou directement sur mon site web et sous forme électronique Kindle Amazon. 
 
 Le but de ce cours est d’abord de comprendre de manière simplifiée une philosophie considérée souvent comme très complexe et inaccessible, malgré le regain d’intérêt qu’elle connaît aujourd’hui.
 
@@ -36,11 +36,11 @@ En effet, cette philosophie nous permet non seulement de nous interroger sur le 
 
 Quand la vie nous sourit et que nous estimerions, par exemple, ne pas avoir à nous poser de questions en considérant avec un orgueil vu comme illusoire et servile que notre bonheur, ou que notre réussite, ne viendrait que de notre talent, de notre travail ou de nos choix prétendus libres. Bref, de notre seule et libre volonté opposée au déterminisme auquel nous sommes soumis.
 
-Nous pourrons ainsi faire le lien entre cette philosophie pratique tournée vers la liberté ou, comme le dit Spinoza, « vers les moyens pour y parvenir », et le nouveau monde technologique qui nous intéresse ici, la crypto en général et Bitcoin en particulier. 
+Nous pourrons ainsi faire le lien entre cette philosophie pratique tournée vers la liberté ou, comme le dit Spinoza, « vers les moyens pour y parvenir » et le nouveau monde technologique qui nous intéresse ici; la crypto en général et  le Bitcoin en particulier. 
 
 Et notamment dans son aspect philosophique qui nous fait précisément réfléchir à la notion de liberté, la liberté de penser, de s’exprimer, le respect de la vie privée et, évidemment pour ce qui nous concerne, la liberté d’échanger.
 
-Dans un premier temps, je vais donc vous présenter qui est Spinoza, le personnage, son milieu social, religieux et familial et quel était le contexte historique des Provinces-Unies où il vivait.
+Dans un premier temps, je vais donc vous présenter qui est Spinoza, le personnage, ses milieux social, religieux et familial et quel était le contexte historique des Provinces-Unies où il vivait.
 
 ![image](./assets/fr/1.1.2.webp)
 Portrait de Spinoza
@@ -50,7 +50,7 @@ Nous verrons ensuite ce qu’est cette nouvelle philosophie rationnelle selon la
 
 C’est l’idée qu’on ne peut comprendre le monde et la nature humaine qu’en fonction du lien de causalité des choses selon lequel un effet a toujours une cause, et que cette cause est elle-même l’effet d’une autre cause et ainsi de suite, jusqu’à remonter à la cause première à laquelle nous n’avons pas accès et qui est, selon Spinoza, la Nature. 
 
-La Nature, autrement dit Dieu, c’est le fameux « Deus sive Natura » en latin qui illustre tout le sens du spinozisme.
+La Nature, autrement dit Dieu, c’est le fameux _« Deus sive Natura »_ en latin qui illustre tout le sens du spinozisme.
 
 Nous verrons aussi les deux œuvres majeures de Spinoza, avec d’abord l’Éthique, publiée à titre posthume en 1677, et qui est donc entièrement tournée vers la liberté et le besoin de nous extraire des servitudes qui nous enferment. 
 
@@ -62,13 +62,13 @@ Puis nous verrons le Traité théologico-Politique publié, lui, de son vivant e
 
 Nous verrons enfin pourquoi le spinozisme est donc une révolution copernicienne des idées et en quoi il s’agit d’une nouvelle définition du monde et de la nature humaine en étudiant les 3 illusions fondamentales dénoncées par Spinoza que sont l’illusion du libre arbitre, l’illusion des causes finales ou le finalisme et l’illusion théologique.
 
-Grâce à la théorie des affects développés à la façon des géomètres, « more geometrico », nous verrons enfin comment Spinoza nous propose donc une méthode pratique afin de nous extraire ou de tenter de nous extraire, des servitudes propres à la nature humaine et aux passions extérieures. Un mécanisme rationnel qui, pour lutter contre l’ignorance, se compare à l’idée que les trois angles d’un triangle font toujours 180° et nous permettra de faire le lien entre l’esprit des Lumières qui en découle et les courants libéraux du 19e siècle ou libertarien du 20e siècle qui sont, eux, directement liés à l’invention de Satoshi Nakamoto, Bitcoin.
+Grâce à la théorie des affects développés à la façon des géomètres, _« more geometrico »_, nous verrons enfin comment Spinoza nous propose donc une méthode pratique afin de nous extraire ou de tenter de nous extraire, des servitudes propres à la nature humaine et aux passions extérieures. Un mécanisme rationnel qui, pour lutter contre l’ignorance, se compare à l’idée que les trois angles d’un triangle font toujours 180° et nous permettra de faire le lien entre l’esprit des Lumières qui en découle et les courants libéraux du XIXe siècle ou libertarien du XXe siècle qui sont, eux, directement liés à l’invention de Satoshi Nakamoto, Bitcoin.
 
 ![image](./assets/fr/1.1.5.webp)
 
 Nous comprendrons alors que parmi les nombreux points communs entre les concepts spinozistes et cet outil de liberté inventé par Satoshi Nakamoto, le premier est que, dans les deux cas, si nous sommes curieux, de bonne volonté et que nous faisons, comme on le disait à cette époque, preuve « d’entendement », alors nous ne pourrons pas ne pas y adhérer. Et que si nous n’y adhérions pas, ce qui serait bien sûr notre droit le plus absolu puisqu’il est fondamental de respecter la liberté de croire, ou de ne pas croire, c’est que nous serions déterminés à ne pas pouvoir, ou à ne pas vouloir, ce qui revient au même. 
 
-Et c’est ainsi que nous pouvons comprendre qu’un fondamentaliste religieux ne pourra par exemple jamais accepter, ni entendre la moindre pensée copernicienne comme le spinozisme, tout comme un banquier central ne pourra, lui, que très difficilement accepter Bitcoin.
+Et c’est ainsi que nous pouvons comprendre qu’un fondamentaliste religieux ne pourra par exemple jamais accepter, ni entendre la moindre pensée copernicienne comme le spinozisme, tout comme un banquier central ne pourra, lui, que très difficilement accepter le  Bitcoin.
 
 Même si, vous le savez, les choses sont actuellement en train d’évoluer dans le bon sens.
 
@@ -82,7 +82,7 @@ Même si, vous le savez, les choses sont actuellement en train d’évoluer dans
 
 Qui est donc Baruch de Spinoza ? Eh bien il s’agit d’un philosophe hollandais né en 1632 et mort à l’âge de 45 ans, en 1677. 
 
-De confession juive, il était membre de la communauté portugaise séfarade descendant des marranes chassés d’Espagne par les catholiques au 15e siècle et il fut donc élevé dans un milieu religieux et intellectuel, conscient de ce que signifie être persécuté. 
+De confession juive, il était membre de la communauté portugaise séfarade descendant des marranes chassés d’Espagne par les catholiques au XVe siècle et il fut donc élevé dans un milieu religieux et intellectuel, conscient de ce que signifie être persécuté. 
 
 ![image](./assets/fr/1.2.1.webp)
 
@@ -109,7 +109,7 @@ Et c’est cette approche qui fait le lien entre Spinoza et la philosophie des L
 
 Or, pour commencer à lier cette philosophie avec Bitcoin, il est important de signaler que Spinoza est né dans une époque très particulière. 
 
-Car les Provinces-Unies du 17e siècle sont alors non seulement le pays le plus libre du monde du point de vue des idées, politiques et religieuses, mais aussi le pays le plus riche du monde. Autrement dit, le pays le plus en avance d’un point de vue économique et technologique.
+Car les Provinces-Unies du XVIIe siècle sont alors non seulement le pays le plus libre du monde du point de vue des idées politiques et religieuses, mais aussi le pays le plus riche du monde. Autrement dit, le pays le plus en avance d’un point de vue économique et technologique.
 
 Une richesse qui n’est toutefois pas liée à une ressource naturelle, ni à l’exploitation et à la spoliation de colonies ou à l’esclavage mais qui est liée, bel et bien, au commerce et au négoce international dans un esprit libéral et entrepreneurial. Un esprit qui sera plus tard défendu par un spinoziste célèbre, Voltaire (1694-1778), pour qui dans une salle de marché un homme d’affaire, ou un entrepreneur d’obédience libérale, ne sera jamais exclu, ne sera jamais traité d’infidèle ou excommunié dit-il, en fonction de sa religion ou de ses origines, mais seulement s’il a fait banqueroute.
 
@@ -117,13 +117,13 @@ Une richesse qui n’est toutefois pas liée à une ressource naturelle, ni à l
 
 En outre, la Hollande de cette époque fut aussi un lieu de progrès technologiques majeurs par exemple dans le domaine de la mécanique et de l’optique. Les lunettes d’astronomie utilisées par Galilée pour lever les yeux vers le ciel et découvrir l’univers étaient effectivement considérées pour l’époque comme une technologie de pointe comme le sont aujourd’hui les nouvelles technologies liées à l’informatique, à l’IA et, bien sûr, à la crypto. 
 
-Et comme Spinoza a lui-même exercé le métier de polisseur de lunettes d’astronomie, ce qui est amusant pour quelqu’un, dit-on, qui voyait tout de travers, nous pouvons imaginer qu’il aurait certainement soutenu un outil de liberté comme Bitcoin.
+Et comme Spinoza a lui-même exercé le métier de polisseur de lunettes d’astronomie, ce qui est amusant pour quelqu’un, dit-on, qui voyait tout de travers, nous pouvons imaginer qu’il aurait certainement soutenu un outil de liberté comme le Bitcoin.
 
 Autrement dit, ce sont bien toutes ces valeurs de liberté et de progrès véhiculées par le spinozisme qui s’opposent à un monde où le fondamentalisme religieux, les théories du complot, la superstition et surtout l’ignorance sont une triste réalité.
 
 Un monde, pourtant, dans lequel tous les moyens sont utiles pour nous en sortir, pour nous extraire des servitudes qui nous enferment et être libre en acceptant le monde tel qu’il est, pas tel que nous voudrions qu’il soit.
 
-Que ces moyens soient d’ordre philosophiques ou technologiques, comme l’est donc, et c’est ce que nous verrons par la suite, cet outil de liberté qu’est Bitcoin. Un outil pour que nous puissions, nous individus mais aussi les États, nous extraire des servitudes et notamment monétaires.
+Que ces moyens soient d’ordre philosophiques ou technologiques, comme l’est donc, cet outil de liberté qu’est le Bitcoin. Et c'est d'ailleurs ce que nous allons voir par la suite. Un outil pour que nous puissions, nous individus mais aussi les États, nous extraire des servitudes et notamment monétaires.
 
 
 # Les œuvres majeures, Éthique et politique

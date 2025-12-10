@@ -25,7 +25,7 @@ Bitcoin Keeper organise la gestion des fonds autour de deux concepts distincts. 
 
 ### Fonctionnalités principales
 
-Bitcoin Keeper prend en charge la quasi-totalité des portefeuilles matériels du marché : Coldcard, Trezor, Ledger, Passport, Keystone, BitBox02, Jade, Seedsigner, et le Tapsigner de Coinkite. L'intégration s'effectue via différentes méthodes selon les appareils : scan de QR code, connexion NFC, ou import de fichier.
+Bitcoin Keeper prend en charge la quasi-totalité des portefeuilles matériels du marché : Coldcard, Trezor, Ledger, Keystone, BitBox02, Jade, Seedsigner, Passport, et le Tapsigner de Coinkite. L'intégration s'effectue via différentes méthodes selon les appareils : scan de QR code, connexion NFC, ou import de fichier.
 
 L'application offre également une gestion avancée des UTXO avec étiquetage des transactions, coin control pour sélectionner manuellement les inputs lors d'un envoi, et support du format PSBT pour les transactions partiellement signées.
 
@@ -65,9 +65,9 @@ Depuis l'onglet More, faites défiler jusqu'à trouver les paramètres de serveu
 
 Pour un serveur privé, renseignez l'URL (par exemple umbrel.local pour un nœud Umbrel) et le numéro de port (généralement 50001). Activez SSL si votre serveur le supporte. Vous pouvez également scanner un QR code de configuration. Une fois les paramètres saisis, appuyez sur « Connect to Server ».
 
-Si vous n'avez pas encore votre noeud bitcoin, n'hésitez pas à consulter notre tutoriel sur Umbrel, une solution simple et accessible à tous pour faire tourner son propre noeud : 
+Si vous n'avez pas encore votre nœud Bitcoin, n'hésitez pas à consulter notre tutoriel sur Umbrel, une solution simple et accessible à tous pour faire tourner son propre nœud :
 
-https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Recevoir des bitcoins
 
@@ -121,16 +121,15 @@ Choisissez « Add key from a hardware » pour connecter un portefeuille matérie
 
 ### Configuration d'un Tapsigner
 
-Le Tapsigner est une carte NFC de Coinkite particulièrement adaptée à l'usage mobile. Si vous voulez en apprendre d'avantage, nous avons un tutoriel dédié : 
+Le Tapsigner est une carte NFC de Coinkite particulièrement adaptée à l'usage mobile. Si vous voulez en apprendre davantage, nous avons un tutoriel dédié :
 
-https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
-
+https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 Pour ajouter le Tapsigner, sélectionnez-le dans la liste des hardware wallets.
 
 ![Configuration du Tapsigner](assets/fr/11.webp)
 
-Entrez d'abord le code PIN à 6-32 chiffres imprimé au dos de votre carte (par défaut sur les cartes neuves) ou bien votre PIN si il est déjà configuré. Appuyez sur « Proceed » puis approchez votre Tapsigner du dos de votre téléphone lorsque « Prêt à scanner » s'affiche. La communication NFC importe automatiquement la clé publique. Vous pouvez ensuite ajouter une description (ex: « Métro Card ») pour identifier cette clé.
+Entrez d'abord le code PIN à 6-32 chiffres imprimé au dos de votre carte (par défaut sur les cartes neuves) ou bien votre PIN s'il est déjà configuré. Appuyez sur « Proceed » puis approchez votre Tapsigner du dos de votre téléphone lorsque « Prêt à scanner » s'affiche. La communication NFC importe automatiquement la clé publique. Vous pouvez ensuite ajouter une description (ex: « Métro Card ») pour identifier cette clé.
 
 ## Créer un portefeuille multisig
 
@@ -212,3 +211,4 @@ Ce tutoriel couvre les fonctionnalités essentielles de Bitcoin Keeper dans sa v
 - Centre d'aide : [help.bitcoinkeeper.app](https://help.bitcoinkeeper.app)
 - Code source : [github.com/bithyve/bitcoin-keeper](https://github.com/bithyve/bitcoin-keeper)
 - Telegram : [t.me/BitcoinKeeper](https://t.me/BitcoinKeeper)
+- Twitter/X : [@bitcoinkeeper_](https://x.com/bitcoinkeeper_)

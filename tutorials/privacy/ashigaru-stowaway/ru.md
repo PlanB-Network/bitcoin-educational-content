@@ -1,5 +1,5 @@
 ---
-name: Асигару - Безбилетник
+name: Ashigaru - Stowaway
 description: Как совершить транзакцию Payjoin на Ashigaru?
 ---
 ![cover](assets/cover.webp)

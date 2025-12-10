@@ -1,5 +1,5 @@
 ---
-name: Ashigaru - Pasażer na gapę
+name: Ashigaru - Stowaway
 description: Jak mogę dokonać transakcji Payjoin na Ashigaru?
 ---
 ![cover](assets/cover.webp)

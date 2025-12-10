@@ -1,0 +1,8 @@
+question: According to Hayek's theory of dispersed knowledge, why is central planning fundamentally flawed as an economic coordination mechanism?
+answer: Knowledge exists only as dispersed fragments among individuals, making it impossible for central planners to access the complete information needed for efficient coordination
+wrong_answers:
+  - Central planners lack the moral authority to make decisions for others, even when they possess complete market information
+  - Political corruption and self-interest prevent central planners from implementing economically optimal solutions despite having access to all necessary data
+  - "Central planning requires too much computational power and technology that wasn't available in Hayek's time but could work today"
+explanation: |
+  Hayek's critique of central planning is epistemological, not moral or technological. He argued that knowledge never exists in concentrated form but only as 'dispersed fragments of incomplete and frequently contradictory knowledge possessed by all distinct individuals.' This dispersed knowledge problem means central planners cannot access the subjective costs, benefits, and local preferences that only individuals possess, making efficient economic coordination impossible regardless of their intentions or computational capabilities.

@@ -1,7 +1,6 @@
 ---
-name: NOSTR
-
-description: Temukan dan mulai menggunakan NOSTR
+name: Nostr
+description: Temukan dan mulai menggunakan Nostr
 ---
 
 

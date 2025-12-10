@@ -1,7 +1,6 @@
 ---
-name: NOSTR
-
-description: Avasta ja hakka kasutama NOSTRit
+name: Nostr
+description: Avasta ja hakka kasutama Nostrit
 ---
 
 

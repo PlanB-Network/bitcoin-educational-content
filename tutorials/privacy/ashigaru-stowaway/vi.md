@@ -1,5 +1,5 @@
 ---
-name: Ashigaru - Người đi lậu
+name: Ashigaru - Stowaway
 description: Làm thế nào để thực hiện giao dịch Payjoin trên Ashigaru?
 ---
 ![cover](assets/cover.webp)

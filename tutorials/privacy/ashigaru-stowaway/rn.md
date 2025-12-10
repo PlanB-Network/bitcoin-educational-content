@@ -1,5 +1,5 @@
 ---
-name: Ashigaru - Umucungezi
+name: Ashigaru - Stowaway
 description: None nokora gute igikorwa ca Payjoin kuri Ashigaru?
 ---
 ![cover](assets/cover.webp)

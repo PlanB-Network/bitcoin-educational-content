@@ -169,4 +169,4 @@ This network features a different chain length, to which you can connect and tes
 You're now ready to exploit Blockstream Explorer's full potential for querying blockchains on the on-chain and Liquid layers. We hope you've found this tutorial informative, and recommend our tutorial on another Bitcoin explorer:
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

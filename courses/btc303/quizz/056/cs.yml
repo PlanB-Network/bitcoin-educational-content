@@ -6,3 +6,4 @@ wrong_answers:
   - Odvozené práce musí obsahovat původní značku Bitcoin Core a nesmí být přejmenovány ani přebrandovány
 explanation: |
   Licence MIT vyžaduje, aby odvozená díla byla šířena za stejných licenčních podmínek jako původní software, čímž je zajištěno zachování povahy open source. To nezakazuje komerční prodej (špatná odpověď 1), nevyžaduje povolení od vývojářů (špatná odpověď 2) a nenařizuje zachování původní značky (špatná odpověď 3). Licence výslovně uvádí, že modifikace a odvozená díla musí být povolena za stejných podmínek, čímž je zachován model vývoje bez povolení, který umožňuje inovace, jako je Lightning Network a sidechains.
+reviewed: false

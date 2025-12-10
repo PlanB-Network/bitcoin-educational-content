@@ -6,4 +6,4 @@ wrong_answers:
   - Tworzenie skryptów blokujących do ochrony bitcoinów
 explanation: |
   Klucz prywatny jest używany do podpisywania transakcji w celu wykonania skryptu i odblokowania bitcoinów.
-reviewed: false
+reviewed: true

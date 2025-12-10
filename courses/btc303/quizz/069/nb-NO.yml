@@ -6,3 +6,4 @@ wrong_answers:
   - Opprette myndighetsgodkjente valideringsnoder som kan behandle transaksjoner mer effektivt
 explanation: |
   I boken defineres Bitcoin-skalering som "å øke Bitcoins brukskapasitet uten at det går på bekostning av sensurmotstanden" Plassbesparende signaturverifisering passer direkte inn i denne definisjonen ved at transaksjoner bruker færre byte, samtidig som desentraliseringen opprettholdes. De gale svarene går alle på bekostning av sensurmotstanden: Sentraliserte børser introduserer betrodde tredjeparter, transaksjonsfiltrering skaper sensurmekanismer, og myndighetsgodkjente noder sentraliserer valideringsmyndigheten. Ekte skalering bevarer Bitcoins kjerneegenskaper samtidig som effektiviteten forbedres.
+reviewed: false

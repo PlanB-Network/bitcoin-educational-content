@@ -6,3 +6,4 @@ wrong_answers:
   - Systémy Trustless a důvěryhodné systémy musí fungovat nezávisle a nelze je vrstvit na sebe
 explanation: |
   Klíčovým poznatkem Matta Coralla je, že nedůvěryhodná základní vrstva Bitcoin umožňuje flexibilitu při návrhu systému. Bezdůvěryhodný základ, jako je protokol Bitcoin, umožňuje vývojářům vytvářet důvěryhodné služby (například úschovné peněženky) na vyšších vrstvách při zachování základních bezpečnostních záruk. Opačný postup však není možný - nelze vytvářet skutečně nedůvěryhodné systémy, pokud samotný základ vyžaduje důvěryhodnost, protože jakékoli nedůvěryhodné vlastnosti by byly narušeny zranitelnostmi důvěryhodné základní vrstvy.
+reviewed: false

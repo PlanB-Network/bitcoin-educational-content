@@ -1,0 +1,8 @@
+question: According to economic theory, what fundamental characteristic makes voluntary exchange beneficial for society?
+answer: Exchange is a positive-sum game where both parties gain mutual benefit
+wrong_answers:
+  - Exchange creates material wealth by transforming raw materials into finished goods
+  - Exchange redistributes resources from wealthy to poor participants equally
+  - Exchange eliminates scarcity by maximizing the total quantity of available goods
+explanation: |
+  Voluntary exchange is fundamentally a positive-sum game because both parties enter the transaction expecting to benefit, otherwise they would simply choose not to engage. As demonstrated by the Abbé de Saint-Pierre's analysis, when a sale occurs between merchants, both the seller and buyer gain - the seller wouldn't sell at that price and the buyer wouldn't purchase unless both found it advantageous. This mutual benefit principle explains why multiplying exchanges enriches societies while reducing commerce diminishes prosperity. The other options are incorrect because exchange doesn't create material wealth (it creates utility), doesn't redistribute wealth equally, and doesn't eliminate scarcity but rather optimizes resource allocation through voluntary cooperation.

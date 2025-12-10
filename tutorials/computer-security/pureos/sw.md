@@ -27,8 +27,7 @@ PureOS ni mfumo wa uendeshaji unaotegemea Debian uliotengenezwa na Purism. PureO
 
 
 
-- **Rahisi, angavu Interface**: GNOME inatoa eneo-kazi wazi la Interface, iliyoundwa kuwa rahisi kutumia, hata kwa watu ambao hawapendezwi na safu ya amri.
-
+**Rahisi na Angavu**: GNOME hutoa kiolesura cha eneo-kazi kilicho wazi na rahisi kutumia, kimeundwa mahsusi kwa ajili ya watumiaji wote — hata wale wasiozoea kutumia amri za kwenye terminal.
 
 
 
@@ -58,9 +57,9 @@ Kusakinisha na kusanidi PureOS kwenye kompyuta yako kutahitaji vipengele vifuata
 
 
 
-- Kitufe cha USB cha angalau 8GB ili kuangaza mfumo.
+- USB drive ya angalau 8GB ili kuangaza mfumo.
 - RAM ya GB 4.
-- GB 30 ya nafasi bila malipo kwenye diski yako ya Hard.
+- GB 30 ya nafasi bila malipo kwenye hard disk.
 
 
 
@@ -156,7 +155,7 @@ Bofya kwenye menyu ya **Shughuli** na uchunguze programu na zana zilizosakinishw
 
 
 
-Weka lugha ya mfumo na mpangilio wa kibodi inavyohitajika, kisha usanidi modi ya kugawanya diski ya Hard.
+Weka lugha ya mfumo na mpangilio wa kibodi inavyohitajika, kisha usanidi modi ya kugawanya  Hard disk.
 
 
 
@@ -176,12 +175,12 @@ Weka lugha ya mfumo na mpangilio wa kibodi inavyohitajika, kisha usanidi modi ya
 
 
 
-Una chaguzi mbili za kugawa diski yako ya Hard:
+Una chaguzi mbili za kugawa hard disk:
 
 
 
 
-- **Futa diski**: Kwa usakinishaji kamili wa PureOS, kufuta data zote zilizopo kwenye diski yako ya Hard.
+- **Futa disk**: Kwa usakinishaji kamili wa PureOS, kufuta data zote zilizopo kwenye hard disk yako.
 
 
 
@@ -195,7 +194,7 @@ Una chaguzi mbili za kugawa diski yako ya Hard:
 
 
 
-⚠️ Unapounda vizuizi kwa ajili ya mfumo wako wa uendeshaji, hakikisha kwamba umetenga sehemu ya chini ya GB 2 kwa uendeshaji wa PureOS na kisha sehemu nyingine ya data.
+⚠️ Unapounda blocks kwa ajili ya mfumo wako wa uendeshaji, hakikisha kwamba umetenga sehemu ya chini ya GB 2 kwa uendeshaji wa PureOS na kisha sehemu nyingine ya data.
 
 
 
@@ -203,7 +202,7 @@ Una chaguzi mbili za kugawa diski yako ya Hard:
 
 
 
-Washa **usimbaji fiche wa diski** ikiwa unataka kulinda data yako. Weka nenosiri thabiti na changamano.
+Washa **usimbaji fiche wa disk** ikiwa unataka kulinda data yako. Weka nenosiri thabiti na changamano.
 
 
 
@@ -260,7 +259,7 @@ Kabla ya kuanza kutumia PureOS, ni muhimu kusasisha mfumo wako. Hii itakuwezesha
 
 
 
-- Sasisha kupitia mchoro wa **Interface**:
+- **Sasisha kupitia mchoro wa Interface**:
 
 
 Fungua programu ya **Programu**, kisha uende kwenye kichupo cha **Sasisho**. Masasisho yanayopatikana yanaonyeshwa kiotomatiki. Bofya **Pakua**, kisha **Sakinisha** upakuaji utakapokamilika.

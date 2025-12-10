@@ -1,9 +1,9 @@
-question: What is one benefit of using a custodial wallet for the Starter profile?
-answer: Reduced technical responsibilities
+question: Một lợi ích của việc sử dụng wallet giám hộ cho hồ sơ Starter là gì?
+answer: Giảm trách nhiệm kỹ thuật
 wrong_answers:
-  - Increased control over private keys
-  - Enhanced privacy with full autonomy over transactions
-  - Elimination of transaction fees
+  - Tăng cường kiểm soát khóa riêng tư
+  - Quyền riêng tư được tăng cường với quyền tự chủ hoàn toàn đối với các giao dịch
+  - Loại bỏ phí giao dịch
 explanation: |
-  Custodial wallets manage private keys, easing technical burdens for users.
-reviewed: false
+  Ví lưu ký quản lý khóa riêng, giúp giảm bớt gánh nặng kỹ thuật cho người dùng.
+reviewed: true

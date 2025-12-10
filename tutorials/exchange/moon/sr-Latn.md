@@ -177,7 +177,7 @@ Pomoću ove virtuelne kartice, možete plaćati proizvode i usluge online kao š
 
 
 
-https://planb.academy/courses/the-world-of-bitcoin-mining-7750d9da-417a-4377-8e35-85c377168477
+https://planb.academy/courses/7750d9da-417a-4377-8e35-85c377168477
 
 ![buycourse](assets/fr/13.webp)
 

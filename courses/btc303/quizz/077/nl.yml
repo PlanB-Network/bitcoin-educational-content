@@ -6,3 +6,4 @@ wrong_answers:
   - Openbaarmaking vereist onmiddellijke actie en patches, terwijl publicatie ruimte biedt voor geleidelijke oplossingen via de normale ontwikkelingsstroom
 explanation: |
   Gregory Maxwell benadrukte dit cruciale onderscheid in de discussie op de mailinglijst. Openbaarmaking verwijst naar de verantwoordelijke handeling om de softwarebeheerders (de verkoper) privé te informeren over een kwetsbaarheid zodat ze aan een oplossing kunnen werken. Openbaarmaking daarentegen betekent het openbaar maken van de informatie over de kwetsbaarheid, waardoor potentiële aanvallers op de hoogte worden gebracht van de exploit. Dit onderscheid is cruciaal, want terwijl openbaarmaking helpt om het systeem te beschermen, kan voortijdige publicatie schade veroorzaken doordat kwaadwillende actoren de kwetsbaarheid kunnen misbruiken voordat er adequate verdedigingsmechanismen aanwezig zijn.
+reviewed: false

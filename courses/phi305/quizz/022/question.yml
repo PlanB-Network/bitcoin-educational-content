@@ -6,11 +6,12 @@ author: vote-seminar
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: '2025-01-29'
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 0.07
+      - nrak10
+    reward: 0.04
   - language: en
     last_contribution_date:
     urgency: 1
@@ -112,10 +113,11 @@ proofreading:
     contributor_names:
     reward: 0.14
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 0.16
+      - Tinnah924
+    reward: 0.08
   - language: tr
     last_contribution_date:
     urgency: 1
@@ -136,3 +138,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.17
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.16

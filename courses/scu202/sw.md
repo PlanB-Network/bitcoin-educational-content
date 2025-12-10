@@ -4966,18 +4966,18 @@ Ili kuona metadata yote iliyomo kwenye faili, tumia amri ifuatayo:
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-Badilisha `name.jpg` na jina halisi la faili yako. Pia hakikisha kuwa umewekwa katika saraka iliyo na picha hii. Kwa mfano, ikiwa nina picha ya sanamu ya Satoshi Nakamoto kwenye saraka ya `/ Vipakuliwa`, naweza kuonyesha metadata yake kwa kutekeleza amri ifuatayo:
+Badilisha `name.webp` na jina halisi la faili yako. Pia hakikisha kuwa umewekwa katika saraka iliyo na picha hii. Kwa mfano, ikiwa nina picha ya sanamu ya Satoshi Nakamoto kwenye saraka ya `/ Vipakuliwa`, naweza kuonyesha metadata yake kwa kutekeleza amri ifuatayo:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -5014,7 +5014,7 @@ Ili kufuta metadata yote isiyo ya lazima kutoka kwa faili, tumia amri:
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5036,7 +5036,7 @@ Ikiwa hutaki kuweka asili, unaweza kuifuta kwa amri:
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5060,12 +5060,12 @@ Ikiwa una faili kadhaa za kuchakata kwenye saraka sawa, unaweza kutumia amri ya 
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-Hii inafuta metadata ya faili zote za JPEG kwenye saraka ya sasa. Unaweza kurekebisha kiendelezi kulingana na mahitaji yako (`*.png`, `*.pdf`...).
+Hii inafuta metadata ya faili zote za JPEG kwenye saraka ya sasa. Unaweza kurekebisha kiendelezi kulingana na mahitaji yako (`*.webp`, `*.pdf`...).
 
 
 

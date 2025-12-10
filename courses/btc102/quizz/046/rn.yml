@@ -1,9 +1,9 @@
 question: Ni igikoresho ikihe kigufasha gukurikirana Wallet yawe utagaragaje imfunguruzo zawe z’ibanga?
-answer: Watch-only wallet.
+answer: Ingodo uraba gusa atakindi ukora.
 wrong_answers:
-  - Hot Wallet.
-  - Umuravyo Wallet.
-  - Ububiko Wallet.
+  - Hot Wallet
+  - Lightning Wallet
+  - Custodial Wallet
 explanation: |
-  Watch-only wallet ikoresha gusa imfunguruzo za bose kugira ngo yerekane amafaranga n’ibikorwa, ata ngorane yo gushirwa ahabona kw’imfunguruzo z’ibanga.
+  Ingodo uraba gusa atakindi ukora ikoresha gusa imfunguruzo za bose kugira ngo yerekane amafaranga n’ibikorwa, ata ngorane yo gushirwa ahabona kw’imfunguruzo z’ibanga.
 reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Transaktions-IDs in der Blockchain
 explanation: |
   Bitcoin verwendet von öffentlichen Schlüsseln abgeleitete Adressen als Pseudonyme und nicht beliebige Benutzernamen oder andere Identifikatoren. Diese Entscheidung dient mehreren wichtigen Zwecken: Sie macht eine vorherige Registrierung von Pseudonymen in der Blockchain überflüssig, verringert die Anreize zur Wiederverwendung desselben Pseudonyms, vermeidet eine unnötige Aufblähung der Blockchain und erschwert es böswilligen Akteuren, sich für andere auszugeben. Die Verwendung beschreibender Benutzernamen würde ein Registrierungssystem erfordern und Sicherheitslücken schaffen, während private Schlüssel geheim bleiben müssen und Transaktions-IDs einem anderen Zweck im System dienen.
+reviewed: false

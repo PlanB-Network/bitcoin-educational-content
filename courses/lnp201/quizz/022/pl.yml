@@ -6,4 +6,4 @@ wrong_answers:
   - Zapobieganie dalszym transakcjom w kanale
 explanation: |
   Klucz unieważniający umożliwia stronie poszkodowanej odzyskanie wszystkich środków w przypadku próby oszustwa przez drugą stronę.
-reviewed: false
+reviewed: true

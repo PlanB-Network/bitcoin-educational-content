@@ -1,0 +1,9 @@
+question: Какви са компонентите, съдържащи се в пратка RGB, която Bob (получател) получава за договор?
+answer: Genesis, Schema, Interface и Interface Implementation
+wrong_answers:
+  - Genesis, Schema, Преход и разширение
+  - Schema, Interface, Подпис и PSBT
+  - Genesis, Interface, PSBT и история
+explanation: |
+  Консигнацията на договор RGB включва Genesis, Schema, Interface и Interface Implementation, които предоставят всички данни, необходими за валидиране на договора.
+reviewed: false

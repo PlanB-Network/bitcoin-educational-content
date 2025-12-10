@@ -6,3 +6,4 @@ wrong_answers:
   - Installazione di software wallet verificato da fonti ufficiali con firma digitale
 explanation: |
   Per utilizzare Bitcoin in modo affidabile, è necessario gestire un nodo Bitcoin completamente validante che verifichi in modo indipendente che tutti i blocchi seguano le regole del consenso, controlli il programma di emissione delle monete e prevenga i doppi pagamenti. In questo modo si evita di esternalizzare la verifica ad altri, mantenendo la proprietà trustless. Utilizzare scambi o servizi di terze parti significa affidarsi ad altri per sapere la verità sullo stato della blockchain. Sebbene il software verificato sia importante per la sicurezza, non elimina la necessità di avere un proprio nodo di convalida per ottenere la vera assenza di fiducia nel sistema Bitcoin.
+reviewed: false

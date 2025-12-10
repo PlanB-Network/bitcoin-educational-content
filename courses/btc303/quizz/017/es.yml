@@ -6,3 +6,4 @@ wrong_answers:
   - El requisito de que los clientes presenten un número excesivo de documentos de identificación personal
 explanation: |
   Según Satoshi Nakamoto en el libro blanco Bitcoin, los sistemas financieros tradicionales adolecen de la debilidad fundamental de que no son posibles las transacciones completamente no reversibles porque las instituciones financieras deben mediar en las disputas. Esto crea una cascada de problemas: aumento de los costes de transacción debido a la mediación, eliminación de las pequeñas transacciones casuales y propagación de los requisitos de confianza por todo el sistema. Las otras opciones, aunque potencialmente relevantes para los sistemas financieros, no son el problema central que aborda específicamente el diseño sin confianza de Bitcoin. La innovación de Bitcoin consiste en permitir la liquidación final sin necesidad de que un tercero de confianza anule las transacciones.
+reviewed: false

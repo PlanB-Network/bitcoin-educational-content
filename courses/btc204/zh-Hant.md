@@ -3587,7 +3587,7 @@ $$
 現在我們已經詳細介紹了硬幣接合，在課程的最後一部分，我們將探討 Bitcoin 上的其他隱私技術。我們將探討 payjoins、特定的偽 CoinJoin 交易類型、靜態 Address 協定，以及不是在交易本身層級，而是在節點網路層級強化機密性的措施。
 
 
-https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # 瞭解其他先進保密技術的挑戰
 

@@ -6,3 +6,4 @@ wrong_answers:
   - Melalui postingan media sosial dan pengumuman transaksi publik
 explanation: |
   Menurut isi bab ini, data pribadi dapat bocor dalam dua cara utama: on-chain dan off-chain. Kebocoran on-chain terjadi melalui analisis blockchain publik, di mana pola transaksi, penggunaan ulang alamat, dan pengelompokan dapat mengungkapkan informasi keuangan. Kebocoran off-chain terjadi ketika pihak-pihak yang berniat jahat mencegat komunikasi internet atau melalui sarana non-blockchain lainnya. Meskipun jawaban yang salah menyebutkan masalah keamanan yang nyata dalam ekosistem Bitcoin, jawaban tersebut tidak mewakili kategorisasi mendasar tentang bagaimana kebocoran privasi terjadi seperti yang diuraikan dalam materi.
+reviewed: false

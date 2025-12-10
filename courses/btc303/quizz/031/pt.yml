@@ -6,3 +6,4 @@ wrong_answers:
   - Os custos de segurança deixam de ser pagos pelos programadores através da manutenção do código e passam a ser pagos pelos utilizadores através da participação na rede
 explanation: |
   O capítulo explica claramente que, atualmente, os detentores pagam pela segurança do Bitcoin através da inflação monetária (criação de novas moedas através do subsídio por bloco), mas no futuro, quando o subsídio por bloco se aproximar de zero, os utilizadores pagarão pela segurança através de taxas de transação. Isto representa uma mudança económica fundamental em relação a quem suporta o custo de manter a segurança da rede, passando de um modelo em que a criação de novas moedas financia o mining para um modelo em que as taxas de transação devem fornecer incentivos suficientes para os mineiros protegerem a rede.
+reviewed: false

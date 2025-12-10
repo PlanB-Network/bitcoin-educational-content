@@ -1,0 +1,9 @@
+question: Кой е измислил концепцията за proof of work?
+answer: Синтия Дворк и Мони Наор
+wrong_answers:
+  - Маркус Якобсон и Ари Хуелс
+  - Adam Back
+  - Satoshi Nakamoto
+explanation: |
+  Те описват концепцията през 1992 г. Маркус Якобсон и Ари Юелс създават термина proof of work. По-късно Адам Бак възприема концепцията за Hashcash.
+reviewed: true

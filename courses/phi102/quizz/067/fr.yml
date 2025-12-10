@@ -1,0 +1,8 @@
+question: D'après le texte, quel paradoxe existe-t-il entre la sécurité et le progrès économique ?
+answer: La sécurité est à la fois une condition préalable au développement et une conséquence de celui-ci
+wrong_answers:
+  - La sécurité vient toujours après le développement économique
+  - Le progrès économique élimine naturellement le besoin de mesures de sécurité
+  - La sécurité et le progrès économique sont totalement indépendants l'un de l'autre
+explanation: |
+  Le chapitre explique que la sécurité et le progrès économique créent une relation paradoxale : la sécurité est nécessaire au développement (on ne peut pas innover ou investir à long terme sans elle), mais il faut aussi un excédent économique de la production pour financer les institutions qui assurent la sécurité. Il s'agit là d'un cycle difficile à mettre en place, mais qui, une fois amorcé, se renforce de lui-même. Les autres réponses sont erronées parce qu'elles suggèrent une simple relation à sens unique ou une indépendance, plutôt que cette interdépendance complexe.

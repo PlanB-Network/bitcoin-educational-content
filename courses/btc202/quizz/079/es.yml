@@ -1,7 +1,7 @@
 question: ¿Cuál es el tamaño máximo de un archivo blkNNNNN.dat antes de que se cree uno nuevo?
-answer: 128 MB
+answer: 128 MiB
 wrong_answers:
-  - 256 MB
+  - 256 MiB
   - 256 GiB
   - 128 GiB
 explanation: |

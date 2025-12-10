@@ -1,0 +1,8 @@
+question: When configuring a batch channel opening in Lightning Terminal, what happens to the mining fee cost as you add more channels to the same transaction?
+answer: The effective cost per channel decreases because the single mining fee is amortized across all channels in the batch
+wrong_answers:
+  - The mining fee increases proportionally with each additional channel added to maintain network security requirements
+  - Each channel in the batch requires its own separate mining fee to ensure proper on-chain confirmation
+  - The mining fee remains constant per channel regardless of how many channels are included in the batch
+explanation: |
+  In batch opens, a single mining fee pays for the entire aggregate transaction containing multiple channel outputs. This fee is spread across all channels being opened, making each individual channel cheaper to establish. The wrong answers incorrectly suggest either proportional increases, separate fees per channel, or no cost benefit - all contradicting the fundamental economic advantage of batching multiple operations into one transaction.

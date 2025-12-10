@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin menggunakan tanda tangan kriptografi untuk perlindungan sementara bangunan mengandalkan kontrol akses dan sistem pemantauan
 explanation: |
   Perbedaan utamanya adalah bahwa sistem online seperti Bitcoin menghadapi musuh anonim yang pasti akan mengeksploitasi kelemahan yang diketahui, tidak seperti sistem fisik di mana kita dapat menerima beberapa risiko karena pelaku dapat diidentifikasi dan dituntut. Seperti yang dicatat oleh Andrew Poelstra, secara online kita tidak memiliki kemewahan untuk mencegah penegakan hukum - jika memungkinkan untuk melukai sistem secara berlawanan, aktor anonim akan melakukannya. Hal ini memaksa Bitcoin untuk mengatasi semua kerentanan daripada menerima risiko yang telah diperhitungkan.
+reviewed: false

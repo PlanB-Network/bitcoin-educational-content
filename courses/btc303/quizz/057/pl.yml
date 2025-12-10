@@ -6,3 +6,4 @@ wrong_answers:
   - Reguły konsensusu automatycznie zatwierdzają i autoryzują każdy nowy protokół zbudowany na Bitcoin poprzez proces weryfikacji blockchain
 explanation: |
   Rozwój bez zezwoleń jest poprawną odpowiedzią, ponieważ jest to podstawowa zasada, która pozwala każdemu budować na Bitcoin bez pytania o pozwolenie. Błędne odpowiedzi są nieprawidłowe, ponieważ: licencjonowanie open source nie wymaga automatycznego zatwierdzania lub integracji z Bitcoin Core; licencja MIT faktycznie przyznaje szerokie uprawnienia bez konieczności zatwierdzania przez deweloperów; a zasady konsensusu zatwierdzają transakcje i bloki, a nie protokoły wyższego poziomu zbudowane na Bitcoin.
+reviewed: false

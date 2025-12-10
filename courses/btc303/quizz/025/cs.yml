@@ -6,3 +6,4 @@ wrong_answers:
   - Prostřednictvím příspěvků na sociálních sítích a veřejných oznámení o transakcích
 explanation: |
   Podle obsahu kapitoly mohou soukromá data uniknout dvěma základními způsoby: on-chain a off-chain. K únikům v řetězci dochází prostřednictvím analýzy veřejného blockchainu, kdy vzory transakcí, opakované použití adres a shlukování mohou odhalit finanční informace. K únikům mimo řetězec dochází, když záškodníci zachytí internetovou komunikaci nebo jinými prostředky mimo blockchain. Ačkoli špatné odpovědi zmiňují skutečné bezpečnostní problémy v ekosystému Bitcoin, nepředstavují základní kategorizaci způsobů, jak dochází k únikům soukromí, jak je uvedeno v materiálu.
+reviewed: false

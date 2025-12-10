@@ -6,3 +6,4 @@ wrong_answers:
   - Los fallos de rendimiento crean fugas de memoria que acaban bloqueando los nodos, lo que provoca una inestabilidad temporal de la red y una reducción de la tasa de hash
 explanation: |
   Gregory Maxwell advirtió específicamente de que los fallos de rendimiento, cuando se despliegan de forma experta, pueden utilizarse para dividir la red estratégicamente, por ejemplo, separando al "minero A y al intercambio B" en una partición mientras todos los demás van a otra, creando las condiciones para ataques de doble gasto. Esto demuestra por qué los problemas aparentemente menores deben tratarse como potencialmente graves, ya que pueden convertirse en armas de formas sofisticadas que no son inmediatamente obvias.
+reviewed: false

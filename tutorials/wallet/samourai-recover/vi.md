@@ -30,10 +30,10 @@ Một số công cụ bị ảnh hưởng bởi việc tắt máy chủ hoặc h
 Về công cụ chi tiêu cá nhân, mọi thứ vẫn hoạt động bình thường miễn là, tất nhiên, bạn có Dojo riêng của mình. Giao dịch Stonewall (không phải Stonewall x2) hoạt động bình thường mà không có vấn đề gì.
 
 Các bình luận trên Twitter đã chỉ ra rằng, có thể là bây giờ, sự riêng tư được cung cấp bởi một giao dịch Stonewall đã giảm. Giá trị cộng thêm của một giao dịch Stonewall nằm ở chỗ nó không thể phân biệt được với một giao dịch Stonewall x2 về cấu trúc. Khi một nhà phân tích gặp phải mẫu cụ thể này, họ không thể xác định liệu đó là một Stonewall tiêu chuẩn với một người dùng duy nhất hay một Stonewall x2 liên quan đến hai người dùng. Tuy nhiên, như chúng ta sẽ thấy trong các phần sau, việc thực hiện giao dịch Stonewall x2 đã trở nên phức tạp hơn do sự không khả dụng của Soroban. Một số người do đó nghĩ rằng, giờ đây, một nhà phân tích có thể giả định rằng bất kỳ giao dịch nào với cấu trúc này là một Stonewall bình thường. Cá nhân tôi không đồng ý với giả định này. Mặc dù các giao dịch Stonewall x2 có thể ít phổ biến hơn (và tôi nghĩ chúng đã ít phổ biến như vậy trước sự cố này), thực tế là chúng vẫn có thể làm vô hiệu một phân tích dựa trên giả định rằng chúng không phải là.
-**[-> Tìm hiểu thêm về giao dịch Stonewall.](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
+**[-> Tìm hiểu thêm về giao dịch Stonewall.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 Về Ricochet, tôi chưa thể xác minh liệu dịch vụ này vẫn còn hoạt động hay không, do không sở hữu một Dojo trên Testnet, và tôi không muốn mạo hiểm chi tiêu `100 000 sats` vào một ví có thể được kiểm soát bởi cơ quan chức năng. Nếu bạn đã có cơ hội thử nghiệm công cụ này gần đây, rất mong liên hệ với tôi để chúng tôi có thể cập nhật bài viết này.
 
-Nếu bạn cần sử dụng Ricochet, hãy biết rằng bạn vẫn có thể thực hiện thao tác này một cách thủ công với bất kỳ phần mềm ví nào. Để tìm hiểu cách thực hiện các bước nhảy một cách thủ công một cách đúng đắn, tôi khuyên bạn nên tham khảo bài viết khác này: [**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
+Nếu bạn cần sử dụng Ricochet, hãy biết rằng bạn vẫn có thể thực hiện thao tác này một cách thủ công với bất kỳ phần mềm ví nào. Để tìm hiểu cách thực hiện các bước nhảy một cách thủ công một cách đúng đắn, tôi khuyên bạn nên tham khảo bài viết khác này: [**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 Công cụ JoinBot không còn hoạt động, vì nó hoàn toàn phụ thuộc vào sự tham gia của một ví được quản lý bởi Samourai.
 
@@ -44,9 +44,9 @@ Về các loại giao dịch hợp tác khác, thường được gọi là "cah
 Sau một số lần thử nghiệm, có vẻ như Soroban không còn hoạt động. Để thực hiện các giao dịch hợp tác này, việc trao đổi dữ liệu phải được thực hiện một cách thủ công. Dưới đây là hai lựa chọn để thực hiện việc trao đổi này:
 - Nếu bạn ở gần người hợp tác về mặt vật lý, bạn có thể quét các mã QR liên tiếp;
 - Nếu bạn ở xa người cộng tác, bạn có thể trao đổi PSBTs thông qua một kênh liên lạc bên ngoài ứng dụng. Tuy nhiên, hãy cẩn thận, vì dữ liệu trong các PSBTs này rất nhạy cảm về mặt quyền riêng tư. Tôi khuyên bạn nên sử dụng dịch vụ nhắn tin mã hóa để đảm bảo tính bảo mật của việc trao đổi.
-**[-> Tìm hiểu thêm về giao dịch Stonewall x2.](https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
+**[-> Tìm hiểu thêm về giao dịch Stonewall x2.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
-**[-> Tìm hiểu thêm về giao dịch Stowaway.](https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
+**[-> Tìm hiểu thêm về giao dịch Stowaway.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 Về Whirlpool, giao thức này dường như không còn hoạt động, ngay cả đối với những người dùng có Dojo riêng của họ. Tôi đã theo dõi RoninDojo của mình trong những ngày qua và thử nghiệm một số thao tác cơ bản, nhưng Whirlpool CLI không thể kết nối kể từ khi máy chủ ngừng hoạt động.
 

@@ -6,3 +6,4 @@ wrong_answers:
   - Repozytorium GitHub utrzymuje klucz główny, który waliduje wszystkie inne kopie repozytorium na całym świecie
 explanation: |
   Zgodnie z analizą Jamesona Loppa cytowaną w rozdziale, repozytorium GitHub Bitcoin Core jest technicznie identyczne ze wszystkimi innymi kopiami. Jego znaczenie jest czysto społeczne - stało się centralnym punktem koordynacji rozwoju. Repozytorium służy raczej wygodzie niż autorytetowi technicznemu, a gdyby zniknęło, w naturalny sposób pojawiłby się nowy punkt centralny. Pokazuje to zdecentralizowany charakter Bitcoin, w którym żadne pojedyncze repozytorium nie ma technicznej przewagi nad innymi.
+reviewed: false

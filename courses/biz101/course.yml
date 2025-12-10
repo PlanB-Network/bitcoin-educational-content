@@ -159,6 +159,12 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 35.19
+  - language: bg
+    last_contribution_date: 2025-12-04
+    urgency: 1
+    contributor_names:
+      - dnabg
+    reward: 11.75
 tags:
   - business
   - adoption

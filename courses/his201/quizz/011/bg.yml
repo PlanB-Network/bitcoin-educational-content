@@ -1,0 +1,9 @@
+question: Коя частна валутна система изрично споменава Satoshi Nakamoto в своите трудове?
+answer: Liberty Reserve
+wrong_answers:
+  - e-gold
+  - Доларът на свободата
+  - e-Bullion
+explanation: |
+  За разлика от електронното злато и Liberty Dollar, по време на Bitcoin тази емисия все още беше активна. Satoshi също така [споменава](https: //bitcointalk.org/index.php?topic=87.msg807#msg807) Pecunix, цифрова златна валута, създадена през 2002 г.
+reviewed: true

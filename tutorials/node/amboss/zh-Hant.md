@@ -34,7 +34,7 @@ https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 在本教程中，我們將帶您參觀這個平台，它是 Lightning Network 使用者、想要連接節點擴充網路的使用者等不可或缺的資源。
 
@@ -304,4 +304,4 @@ Amboss 提供許多工具，協助您最佳化搜尋和行動。
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

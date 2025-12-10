@@ -3869,10 +3869,10 @@ De må bare sørge for at de kan foreta disse overføringene, men det finnes ing
 
 
 
-For å forstå sammenhengen mellom penger og inflasjon anbefaler jeg et kurs jeg har på Plan ₿ Network som er dedikert til dette emnet. Du vil lære forskjellen mellom prisstigninger, som er det vi ser i livet, og inflasjon. De er ikke det samme. Når vi snakker om inflasjon, snakker vi faktisk ofte om prisstigning, ikke inflasjon i seg selv. Inflasjon er et ganske presist begrep, som forklares med økningen i pengemengden.
+For å forstå sammenhengen mellom penger og inflasjon anbefaler jeg et kurs jeg har på Plan ₿ Academy som er dedikert til dette emnet. Du vil lære forskjellen mellom prisstigninger, som er det vi ser i livet, og inflasjon. De er ikke det samme. Når vi snakker om inflasjon, snakker vi faktisk ofte om prisstigning, ikke inflasjon i seg selv. Inflasjon er et ganske presist begrep, som forklares med økningen i pengemengden.
 
 
-https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 Som en avslutning på denne delen om fiat-verdenen vil jeg gjerne peke på en ressurs som kan hjelpe deg med å forstå fenomenene jeg nettopp har forklart, som for eksempel inflasjon.
 

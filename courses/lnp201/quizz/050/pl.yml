@@ -6,4 +6,4 @@ wrong_answers:
   - Aby zablokować środki w perspektywie długoterminowej
 explanation: |
   Dokonując fikcyjnej płatności, sprzedawca przenosi płynność ze swojej strony na przeciwną stronę kanału, uwalniając w ten sposób swoją zdolność do otrzymywania płatności.
-reviewed: false
+reviewed: true

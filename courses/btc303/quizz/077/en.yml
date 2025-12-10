@@ -6,3 +6,4 @@ wrong_answers:
   - Disclosure requires immediate action and patches, while publication allows for gradual fixes through normal development flow
 explanation: |
   Gregory Maxwell emphasized this crucial distinction in the mailing list discussion. Disclosure refers to the responsible act of privately informing the software maintainers (the vendor) about a vulnerability so they can work on a fix. Publication, however, means making the vulnerability information publicly available, which effectively informs potential attackers about the exploit. This distinction is critical because while disclosure helps protect the system, premature publication can cause harm by enabling malicious actors to exploit the vulnerability before adequate defenses are in place.
+reviewed: false

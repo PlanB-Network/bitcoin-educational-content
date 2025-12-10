@@ -6,3 +6,4 @@ wrong_answers:
   - Statliga regleringar hindrar finansinstitut från att bedriva verksamhet över internationella gränser
 explanation: |
   Satoshi identifierar specifikt att finansiella institutioner som fungerar som betrodda tredje parter inte kan undvika att medla i tvister, vilket förhindrar helt icke-reversibla transaktioner. Detta skapar inneboende svagheter i den tillitsbaserade modellen, ökar kostnaderna genom medling och tvingar handlare att vara försiktiga med kunder. De andra alternativen beskriver olika problem som inte nämns i Satoshi:s analys av traditionella betalningssystem.
+reviewed: false

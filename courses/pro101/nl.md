@@ -73,13 +73,13 @@ wereldwijde bevolking zonder bankrekeningen
 Deze lezing, **"Waarom El Salvador Bitcoin nodig heeft,"** geeft een overzicht van het **Bitcoin protocol**, de wortels ervan in de **Cypherpunk beweging**, en de rol ervan als vrijheidsinstrument voor **ongecensureerd geld**, **financiële inclusie**, en nog veel meer.
 
 
-> **Definities:**
->
+**Definities:**
 
-> - bitcoin-protocol:_ De regels en structuur die bepalen hoe Bitcoin werkt als gedecentraliseerde digitale valuta.
-> - _Cypherpunk-beweging:_ Een groep die pleit voor het gebruik van cryptografie om privacy en vrijheid in digitale ruimtes te garanderen.
-> - financiële inclusie: toegang bieden tot financiële diensten aan mensen die zijn uitgesloten van traditionele banksystemen, vaak aangeduid als de "unbanked"
-> - ongecensureerd geld:_ Geld dat niet gecontroleerd of beperkt kan worden door overheden of financiële instellingen.
+
+- bitcoin-protocol:_ De regels en structuur die bepalen hoe Bitcoin werkt als gedecentraliseerde digitale valuta.
+- _Cypherpunk-beweging:_ Een groep die pleit voor het gebruik van cryptografie om privacy en vrijheid in digitale ruimtes te garanderen.
+- financiële inclusie: toegang bieden tot financiële diensten aan mensen die zijn uitgesloten van traditionele banksystemen, vaak aangeduid als de "unbanked"
+- ongecensureerd geld:_ Geld dat niet gecontroleerd of beperkt kan worden door overheden of financiële instellingen.
 
 #### Ricky's achtergrond en verdediging voor Bitcoin
 
@@ -102,11 +102,11 @@ In autoritaire regimes, waar financiële repressie gebruikelijk is, stelt de **o
 Ondanks het potentieel staat Bitcoin voor grote uitdagingen. In gebieden zoals Afrika en India ontbreekt het vaak aan basisinfrastructuur zoals elektriciteit en internettoegang, wat de toepassing beperkt. Bovendien blijft **digitale inclusie** - ervoor zorgen dat mensen van alle leeftijden en opleidingsniveaus gebruik kunnen maken van technologie - een grote hindernis.
 
 
-> **Definities:**
->
+**Definities:**
 
-> - geheime codes die toegang geven tot de Bitcoin van een gebruiker.
-> - open-source:_ Software die iedereen kan inspecteren, wijzigen en verbeteren.
+
+- geheime codes die toegang geven tot de Bitcoin van een gebruiker.
+- open-source:_ Software die iedereen kan inspecteren, wijzigen en verbeteren.
 
 ### Het geval van El Salvador
 
@@ -135,10 +135,10 @@ Samengevat houdt Bitcoin een immense belofte in voor financiële empowerment en 
 De **Cypherpunk beweging** ontstond aan het eind van de 20e eeuw en pleitte voor privacy en vrijheid door middel van cryptografie. Pioniers zoals **Eric Hughes** en **Tim May** geloofden dat sterke encryptie essentieel was om persoonlijke vrijheid in een digitale wereld te beschermen. Hun ideeën hebben de creatie van Bitcoin sterk beïnvloed.
 
 
-> **Definitie:**
->
+**Definitie:**
 
-> - _Cypherpunk:_ Een beweging die privacy en vrijheid promoot met behulp van cryptografie.
+
+- _Cypherpunk:_ Een beweging die privacy en vrijheid promoot met behulp van cryptografie.
 
 #### Oostenrijkse economie
 
@@ -146,10 +146,10 @@ De **Cypherpunk beweging** ontstond aan het eind van de 20e eeuw en pleitte voor
 Tegelijkertijd leverde **Oostenrijkse Economie** de basis voor de monetaire principes van Bitcoin. Economen als **Ludwig von Mises** en **Friedrich Hayek** stelden dat gezond geld schaars en duurzaam moest zijn, en een goede opslagplaats van waarde moest zijn, kernprincipes die het ontwerp van Bitcoin vorm gaven.
 
 
-> **Definitie:**
->
+**Definitie:**
 
-> - schaarste:_ Beperkte beschikbaarheid, wat waarde creëert door de noodzaak van zorgvuldige allocatie.
+
+- schaarste:_ Beperkte beschikbaarheid, wat waarde creëert door de noodzaak van zorgvuldige allocatie.
 
 ### Bitcoin's creatie
 
@@ -157,10 +157,10 @@ Tegelijkertijd leverde **Oostenrijkse Economie** de basis voor de monetaire prin
 **Satoshi Nakamoto** combineerde deze ideeën om in 2008 Bitcoin te creëren als een gedecentraliseerde, censuurbestendige digitale valuta. Door Cypherpunk idealen van privacy samen te voegen met Oostenrijkse principes van gezond geld, biedt Bitcoin een financieel systeem dat traditionele banken en overheidscontrole uitdaagt.
 
 
-> **Definitie:**
->
+**Definitie:**
 
-> - _Censuurbestendig:_ Geld dat niet gecontroleerd of geblokkeerd kan worden door externe krachten.
+
+- _Censuurbestendig:_ Geld dat niet gecontroleerd of geblokkeerd kan worden door externe krachten.
 
 #### Belangrijkste economische principes
 
@@ -171,11 +171,11 @@ Tegelijkertijd leverde **Oostenrijkse Economie** de basis voor de monetaire prin
 - Sparen:** Waarde opslaan voor toekomstige behoeften, wat leidt tot investeringen en innovatie.
 
 
-> **Definities:**
->
+**Definities:**
 
-> - tijdsvoorkeur:_ Huidige goederen boven toekomstige waarderen.
-> - opslaan:_ Waarde opslaan voor toekomstig gebruik.
+
+- tijdsvoorkeur:_ Huidige goederen boven toekomstige waarderen.
+- opslaan:_ Waarde opslaan voor toekomstig gebruik.
 
 ### Bitcoin in El Salvador
 
@@ -243,11 +243,11 @@ Bitcoin vertrouwt op **digitale handtekeningen** met **elliptische curve cryptog
 **Satoshi Nakamoto**, de pseudonieme maker van Bitcoin, breidde deze ideeën uit door het PoW-model om te zetten naar een gedecentraliseerde **Blockchain**. Hierdoor kon een gedistribueerd netwerk van knooppunten transacties valideren en vastleggen zonder een centrale autoriteit, wat een belangrijke evolutie betekende ten opzichte van eerdere pogingen om digitale valuta te ontwikkelen.
 
 
-> **Definities:**
->
+**Definities:**
 
-> - proof-of-Work (PoW):_ Een systeem waarbij deelnemers rekenpuzzels moeten oplossen om transacties te valideren en het netwerk te beveiligen.
-> - een cryptografische methode die veilige, efficiënte digitale handtekeningen mogelijk maakt.
+
+- proof-of-Work (PoW):_ Een systeem waarbij deelnemers rekenpuzzels moeten oplossen om transacties te valideren en het netwerk te beveiligen.
+- een cryptografische methode die veilige, efficiënte digitale handtekeningen mogelijk maakt.
 
 ### Blockchain mechanica en transactievalidatie
 
@@ -264,12 +264,12 @@ Elk **blok** in de Blockchain bestaat uit een **kop** (met gegevens zoals de Has
 Voordat transacties in een blok worden opgenomen, verblijven ze in de **Mempool**, waar ze wachten op validatie. Zodra ze gevalideerd zijn, worden deze transacties toegevoegd aan het nieuw gemijnde blok en vervolgens aan de Blockchain.
 
 
-> **Definities:**
->
+**Definities:**
 
-> - mijnen:_ Het proces van het oplossen van cryptografische puzzels om nieuwe blokken aan het Blockchain toe te voegen.
-> - _Nonce:_ Een waarde die gebruikt wordt om de juiste Hash te vinden tijdens Mining.
-> - mempool:_ Een wachtruimte voor onbevestigde transacties voordat ze aan een blok worden toegevoegd.
+
+- mijnen:_ Het proces van het oplossen van cryptografische puzzels om nieuwe blokken aan het Blockchain toe te voegen.
+- _Nonce:_ Een waarde die gebruikt wordt om de juiste Hash te vinden tijdens Mining.
+- mempool:_ Een wachtruimte voor onbevestigde transacties voordat ze aan een blok worden toegevoegd.
 
 ### Schaalbaarheid, privacy en ontwikkeling in Bitcoin
 
@@ -283,12 +283,12 @@ Het draaien van een **Full node** is essentieel voor het waarborgen van decentra
 Bitcoin ontwikkeling is geëvolueerd om prestaties en veiligheid te verbeteren. Belangrijke upgrades zijn **Gesegregeerde Getuige (SegWit)**, die de vervormbaarheid van transacties aanpakt en de effectieve blokgrootte vergroot, en **Taproot**, die de privacy verbetert en complexere contracten toestaat door **Merkleized Abstract Syntax Trees (MAST)** te gebruiken.
 
 
-> **Definities:**
->
+**Definities:**
 
-> - segWit:_ Een Bitcoin upgrade die handtekeninggegevens scheidt van transactiegegevens, wat de efficiëntie verbetert.
-> - _Taproot:_ Een upgrade die de privacy en schaalbaarheid van Bitcoin verbetert door complexere slimme contracten mogelijk te maken.
-> - lightning Network:_ Een tweede Layer oplossing voor snellere, goedkopere Bitcoin transacties via betaalkanalen.
+
+- segWit:_ Een Bitcoin upgrade die handtekeninggegevens scheidt van transactiegegevens, wat de efficiëntie verbetert.
+- _Taproot:_ Een upgrade die de privacy en schaalbaarheid van Bitcoin verbetert door complexere slimme contracten mogelijk te maken.
+- lightning Network:_ Een tweede Layer oplossing voor snellere, goedkopere Bitcoin transacties via betaalkanalen.
 
 #### Conclusie
 
@@ -316,11 +316,11 @@ In deze lezing ontkrachten we veelvoorkomende mythes over **Bitcoin**, **blockch
 Een veel voorkomende misvatting is dat **Bitcoin** en **Blockchain** hetzelfde zijn. Terwijl Bitcoin een digitale valuta is, is **Blockchain** de technologie die het aandrijft. Blockchains bieden een geverifieerde registratie van transacties, maar hebben nadelen zoals lagere snelheden en hogere kosten, waardoor oplossingen zoals de **Lightning Network** Address.
 
 
-> **Definities:**
->
+**Definities:**
 
-> - blockchain:_ De onderliggende technologie die wordt gebruikt om transacties vast te leggen in een gedecentraliseerd, onveranderbaar Ledger.
-> - lightning Network:_ Een tweede Layer oplossing die de transactie-efficiëntie van Bitcoin verbetert door off-chain transacties mogelijk te maken.
+
+- blockchain:_ De onderliggende technologie die wordt gebruikt om transacties vast te leggen in een gedecentraliseerd, onveranderbaar Ledger.
+- lightning Network:_ Een tweede Layer oplossing die de transactie-efficiëntie van Bitcoin verbetert door off-chain transacties mogelijk te maken.
 
 ### Bitcoin vs. Crypto
 
@@ -328,10 +328,10 @@ Een veel voorkomende misvatting is dat **Bitcoin** en **Blockchain** hetzelfde z
 Een ander belangrijk verschil is dat **Bitcoin** is gecreëerd met als enige doel het bieden van een gedecentraliseerde, censuurbestendige vorm van geld, vrij van controle door een bedrijf of overheid. In tegenstelling hiermee zijn cryptocurrencies **shitcoins** vaak ontworpen met gecentraliseerde controle en bestaan ze voornamelijk om de bedrijven erachter te verrijken door middel van roofpraktijken, pump-and-dump schema's of regelrechte oplichting. Deze tokens dienen meestal geen echt doel, behalve het maken van snelle winst voor hun makers ten koste van onwetende investeerders. Bitcoin staat echter op zichzelf als de enige echt gedecentraliseerde digitale valuta met een bewezen staat van dienst op het gebied van veiligheid en veerkracht.
 
 
-> **Definities:**
->
+**Definities:**
 
-> - shitcoins:_ Shitcoins zijn cryptocurrencies met een lage waarde of van twijfelachtige kwaliteit die geen echt nut hebben. Ze zijn vaak zeer speculatief en worden soms gemaakt voor frauduleuze doeleinden of zonder een duidelijk doel, waarbij ze profiteren van de hausse op de cryptocurrency markt.
+
+- shitcoins:_ Shitcoins zijn cryptocurrencies met een lage waarde of van twijfelachtige kwaliteit die geen echt nut hebben. Ze zijn vaak zeer speculatief en worden soms gemaakt voor frauduleuze doeleinden of zonder een duidelijk doel, waarbij ze profiteren van de hausse op de cryptocurrency markt.
 
 ![Image](assets/en/005.webp)
 
@@ -342,10 +342,10 @@ Een ander belangrijk verschil is dat **Bitcoin** is gecreëerd met als enige doe
 Een van de meest gehoorde punten van kritiek op Bitcoin is het energieverbruik**. Bitcoin Mining gebruikt weliswaar energie, maar is goed voor minder dan 1% van het wereldwijde elektriciteitsverbruik en minder dan 3% van de verspilde energie. Bovendien maakt Bitcoin Mining** vaak gebruik van ongebruikte of hernieuwbare energiebronnen, waardoor het groener is dan vaak wordt afgeschilderd.
 
 
-> **Definities:**
->
+**Definities:**
 
-> - bitcoin Mining:_ Het proces van het valideren van transacties en het beveiligen van het netwerk door het oplossen van cryptografische puzzels, waarvoor rekenkracht nodig is.
+
+- bitcoin Mining:_ Het proces van het valideren van transacties en het beveiligen van het netwerk door het oplossen van cryptografische puzzels, waarvoor rekenkracht nodig is.
 
 ### Misvattingen over crimineel gebruik
 
@@ -359,10 +359,10 @@ Bitcoin wordt vaak bekritiseerd omdat het gebruikt wordt voor criminele activite
 **Privacy** en **fungibility** zijn essentiële kenmerken van Bitcoin. Privacy beschermt gebruikers in onderdrukkende regimes en fungibiliteit zorgt ervoor dat elke Bitcoin gelijk is, ongeacht zijn geschiedenis. Dit maakt Bitcoin een betrouwbare en eerlijke vorm van geld.
 
 
-> **Definities:**
->
+**Definities:**
 
-> - _Verwisselbaarheid:_ De eigenschap van geld waarbij elke eenheid uitwisselbaar is met een andere, waardoor gelijke waarde wordt gegarandeerd.
+
+- _Verwisselbaarheid:_ De eigenschap van geld waarbij elke eenheid uitwisselbaar is met een andere, waardoor gelijke waarde wordt gegarandeerd.
 
 ### Omgaan met FUD en marktdynamiek
 
@@ -2967,7 +2967,7 @@ Er zijn verschillende Lightning wallets beschikbaar, die elk voldoen aan verschi
 
 
 
-- Kenmerken**: Vergelijkbaar met Breeze, maakt gebruik van een LSP-model voor liquiditeit, open-source, richt zich op eenvoud voor de gebruiker en effectief liquiditeitsbeheer.
+- Kenmerken**: Vergelijkbaar met Breez, maakt gebruik van een LSP-model voor liquiditeit, open-source, richt zich op eenvoud voor de gebruiker en effectief liquiditeitsbeheer.
 
 
 #### Open Bitcoin Wallet (OBW):
@@ -2985,7 +2985,7 @@ Portemonnees kunnen worden ingedeeld op basis van wie de privésleutels bezit en
 
 
 - Custodial wallets**: Een derde partij bewaart privésleutels, biedt meestal automatisch liquiditeitsbeheer. Voorbeelden zijn Wallet of Satoshi.
-- Niet-Custodial-portefeuilles**: Gebruikers houden privésleutels, mogelijk is handmatig liquiditeitsbeheer nodig. Voorbeelden zijn Breeze en OBW.
+- Niet-Custodial-portefeuilles**: Gebruikers houden privésleutels, mogelijk is handmatig liquiditeitsbeheer nodig. Voorbeelden zijn Breez en OBW.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -3096,11 +3096,11 @@ Ontwikkelaars staan voor de uitdaging om naadloos liquiditeitsbeheer te implemen
 - Mogelijke oplossingen**: Ontwikkelaars onderzoeken geavanceerde algoritmes voor **liquiditeitsroutering** en het gebruik van **duaal gefinancierde kanalen** om ervoor te zorgen dat liquiditeit beschikbaar is aan beide uiteinden van een transactie.
 
 
-> **Definities**:
->
+**Definities**:
 
-> - **Liquiditeit**: De beschikbaarheid van fondsen in een Lightning-kanaal om betalingen te doen of te ontvangen.
-> - **LSP (Lightning Service Provider)**: Een dienst die gebruikers helpt bij het beheren van liquiditeit en kanalen op de Lightning Network.
+
+- **Liquiditeit**: De beschikbaarheid van fondsen in een Lightning-kanaal om betalingen te doen of te ontvangen.
+- **LSP (Lightning Service Provider)**: Een dienst die gebruikers helpt bij het beheren van liquiditeit en kanalen op de Lightning Network.
 
 ---
 
@@ -3129,12 +3129,12 @@ Het is de taak van ontwikkelaars om de complexiteit van L1 en L2 voor gebruikers
 - Mogelijke oplossingen**: Ontwikkelaars werken aan functies zoals **splicing** (waarmee fondsen kunnen worden toegevoegd aan of verwijderd uit een chatroom zonder deze te sluiten) en tools voor automatisch chatroombeheer.
 
 
-> **Definities**:
->
+**Definities**:
 
-> - **L1 (Layer 1)**: Bitcoin's hoofd Blockchain Layer.
-> - **L2 (Layer 2)**: De Lightning Network, die bovenop de Bitcoin werkt om snellere en goedkopere transacties mogelijk te maken.
-> - **Splitsen**: Een techniek waarmee de balans van een Lightning-kanaal kan worden aangepast zonder dat het kanaal hoeft te worden afgesloten.
+
+- **L1 (Layer 1)**: Bitcoin's hoofd Blockchain Layer.
+- **L2 (Layer 2)**: De Lightning Network, die bovenop de Bitcoin werkt om snellere en goedkopere transacties mogelijk te maken.
+- **Splitsen**: Een techniek waarmee de balans van een Lightning-kanaal kan worden aangepast zonder dat het kanaal hoeft te worden afgesloten.
 
 ---
 
@@ -3163,11 +3163,11 @@ Ontwikkelaars onderzoeken manieren om gebruikers in staat te stellen Lightning-b
 - Mogelijke oplossingen**: Er wordt onderzoek gedaan naar **offline betalingsvouchers**, waarmee ontvangers betalingen kunnen aanvragen zodra ze weer verbinding hebben met het netwerk.
 
 
-> **Definities**:
->
+**Definities**:
 
-> - **Offline betalingen**: Betalingen verzonden of ontvangen terwijl één partij niet verbonden is met de Lightning Network.
-> - **Custodial wallets**: Portemonnees waarbij een derde partij de privésleutels beheert en transacties uit naam van de gebruiker beheert.
+
+- **Offline betalingen**: Betalingen verzonden of ontvangen terwijl één partij niet verbonden is met de Lightning Network.
+- **Custodial wallets**: Portemonnees waarbij een derde partij de privésleutels beheert en transacties uit naam van de gebruiker beheert.
 
 ---
 
@@ -3196,10 +3196,10 @@ Ontwikkelaars moeten back-upoplossingen implementeren waarmee gebruikers hun fon
 - Mogelijke oplossingen**: **Static Channel Backups (SCB's)** zijn ontwikkeld om herstel te vereenvoudigen, maar er zijn geavanceerdere oplossingen nodig voor volledig geautomatiseerde en veilige back-ups.
 
 
-> **Definities**:
->
+**Definities**:
 
-> - **Static Channel Backup (SCB)**: Een type back-up waarmee gebruikers hun geld van een Lightning-kanaal kunnen herstellen in geval van storing door de laatste status van het kanaal te herstellen.
+
+- **Static Channel Backup (SCB)**: Een type back-up waarmee gebruikers hun geld van een Lightning-kanaal kunnen herstellen in geval van storing door de laatste status van het kanaal te herstellen.
 
 ---
 
@@ -3293,7 +3293,7 @@ blinded paden zijn ontworpen om de privacy van de ontvanger in de Lightning Netw
 
 **Bliksemdienstverleners (LSP's)**
 
-Lightning Service Providers (LSP's), bedacht door Breeze Wallet, hebben als doel de gebruikerservaring te verbeteren door directe ontvangstmogelijkheden mogelijk te maken. LSP's openen kanalen voor gebruikers, vergelijkbaar met hoe internet service providers connectiviteitsdiensten aanbieden. Deze innovatie vereenvoudigt het onboarding proces van gebruikers en zorgt voor naadloze interacties op de Lightning Network.
+Lightning Service Providers (LSP's), bedacht door Breez Wallet, hebben als doel de gebruikerservaring te verbeteren door directe ontvangstmogelijkheden mogelijk te maken. LSP's openen kanalen voor gebruikers, vergelijkbaar met hoe internet service providers connectiviteitsdiensten aanbieden. Deze innovatie vereenvoudigt het onboarding proces van gebruikers en zorgt voor naadloze interacties op de Lightning Network.
 
 
 **Bronnen om op de hoogte te blijven**
@@ -3342,12 +3342,12 @@ Traditionele facturen hebben echter hun beperkingen. Bijvoorbeeld:
 - Beperkingen in grootte**: Grote facturen kunnen moeilijk te verwerken zijn in QR code vorm, waardoor ze onpraktisch zijn voor bepaalde toepassingen.
 
 
-> **Definities**:
->
+**Definities**:
 
-> - **Invoice**: Een verzoek om betaling in de Lightning Network, meestal met het bedrag en de gegevens van de ontvanger.
-> - **HTLC (Hash Tijdgebonden Contract)**: Een type Smart contract dat wordt gebruikt om voorwaardelijke betalingen binnen een tijdslimiet te garanderen.
-> - **Onion routing**: Een privacytechniek waarbij transactiegegevens worden gelaagd als een ui om de identiteit van de verzender en ontvanger te beschermen.
+
+- **Invoice**: Een verzoek om betaling in de Lightning Network, meestal met het bedrag en de gegevens van de ontvanger.
+- **HTLC (Hash Tijdgebonden Contract)**: Een type Smart contract dat wordt gebruikt om voorwaardelijke betalingen binnen een tijdslimiet te garanderen.
+- **Onion routing**: Een privacytechniek waarbij transactiegegevens worden gelaagd als een ui om de identiteit van de verzender en ontvanger te beschermen.
 
 ### Protocollen en gebruikssituaties
 
@@ -3374,15 +3374,15 @@ Een ander protocol, **RGB**, breidt de functionaliteit van Lightning verder uit 
 **Lightning Liquidity Service Providers (LSP's)** spelen ook een cruciale rol in de uitbreiding van Lightning-betalingen. LSP's bieden liquiditeit voor het ontvangen van betalingen, helpen bij het openen van **duaal gefinancierde kanalen** en zorgen voor naadloze transacties door betalingen te onderscheppen en kanalen on-the-fly te openen.
 
 
-> **Definities**:
->
+**Definities**:
 
-> - **LNURL**: Een protocol waarmee Invoice dynamisch kan worden aangemaakt, waardoor betalingen eenvoudiger en flexibeler worden.
-> - **Bolt 12**: Een uitbreiding van Lightning die gebruik maakt van Onion berichtenverkeer voor privacy terwijl het ophalen van Invoice geautomatiseerd wordt.
-> - **Nostr**: Een gedecentraliseerd platform dat LProtocollen en Use Cases integreert
-> bliksemsnelle betalingen voor microtransacties.
-> - **RGB protocol**: Een protocol dat de overdracht van activa, zoals tokens, over de Lightning Network mogelijk maakt.
-> - **LSP (Lightning Service Provider)**: Een entiteit die liquiditeit biedt en kanalen opent voor Lightning-transacties, waardoor het netwerk toegankelijker wordt voor gebruikers.
+
+- **LNURL**: Een protocol waarmee Invoice dynamisch kan worden aangemaakt, waardoor betalingen eenvoudiger en flexibeler worden.
+- **Bolt 12**: Een uitbreiding van Lightning die gebruik maakt van Onion berichtenverkeer voor privacy terwijl het ophalen van Invoice geautomatiseerd wordt.
+- **Nostr**: Een gedecentraliseerd platform dat LProtocollen en Use Cases integreert
+- bliksemsnelle betalingen voor microtransacties.
+- **RGB protocol**: Een protocol dat de overdracht van activa, zoals tokens, over de Lightning Network mogelijk maakt.
+- **LSP (Lightning Service Provider)**: Een entiteit die liquiditeit biedt en kanalen opent voor Lightning-transacties, waardoor het netwerk toegankelijker wordt voor gebruikers.
 
 ### Bedrijfsmodellen en geavanceerde protocollen
 
@@ -3405,12 +3405,12 @@ Geavanceerde protocollen zoals **Point Time-Locked Contracts (PTLC's)** gaan nog
 Protocollen zoals **LNURL** en **Bolt 12** stroomlijnen betalingen door handmatige interacties te verminderen en zorgen ervoor dat de Lightning Network gebruiksvriendelijker wordt en op grote schaal wordt gebruikt.
 
 
-> **Definities**:
->
+**Definities**:
 
-> - **PTLC (Point Time-Locked Contract)**: Een cryptografische primitieve die HTLC's verbetert en flexibelere en veiligere betalingen mogelijk maakt.
-> - **Pre-image**: Een waarde die gebruikt wordt om een HTLC te ontgrendelen, die ook kan dienen als een toegangssleutel voor diensten.
-> - **Veilingmodel**: Een betalingsmodel waarbij betalingen tijdens een veiling worden aangehouden en pas worden vrijgegeven als het hoogste bod is geaccepteerd.
+
+- **PTLC (Point Time-Locked Contract)**: Een cryptografische primitieve die HTLC's verbetert en flexibelere en veiligere betalingen mogelijk maakt.
+- **Pre-image**: Een waarde die gebruikt wordt om een HTLC te ontgrendelen, die ook kan dienen als een toegangssleutel voor diensten.
+- **Veilingmodel**: Een betalingsmodel waarbij betalingen tijdens een veiling worden aangehouden en pas worden vrijgegeven als het hoogste bod is geaccepteerd.
 
 ### Conclusie
 

@@ -31,15 +31,12 @@ De nombreuses personnes sont impliquées dans le projet Bitcoin ; comme certaine
 
 ### Qui a écrit cela ?
 
-
-Ce cours est adapté du livre éponyme dont l'auteur principal est Kalle Rosenbaum. Linnéa Rosenbaum y a contribué en tant que co-auteur.
+Ce cours est adapté du livre éponyme dont l’auteur principal est Kalle Rosenbaum. Linnéa Rosenbaum y a contribué en tant que coautrice.
 
 Ce livre a été commandé et financé par [Chaincode Labs](https://learning.chaincode.com/), un centre de développement qui organise des programmes éducatifs à l'intention des développeurs désireux de se familiariser avec le développement de Bitcoin.
 
 
 +++
-
-
 
 # Introduction
 
@@ -51,128 +48,95 @@ Ce livre a été commandé et financé par [Chaincode Labs](https://learning.cha
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
 
-Bienvenue dans ce cours PHI 302 sur la philosophie de développement de Bitcoin.
+Bienvenue dans ce cours BTC 303 sur la philosophie de développement Bitcoin.
 
 
-Le Bitcoin est plus qu'une simple crypto-monnaie, il incarne une vision philosophique de la décentralisation, de la vie privée, de l'absence de confiance et de la résilience. Ce cours est conçu spécifiquement pour les développeurs qui connaissent déjà les fondements techniques du Bitcoin et qui cherchent maintenant à approfondir leur compréhension des principes qui sous-tendent la conception et la gouvernance du Bitcoin.
-
+Le Bitcoin est plus qu'une simple crypto-monnaie : il incarne une vision philosophique de la décentralisation, de la vie privée, de la confiance minimisée et de la résilience. Ce cours est spécialement conçu pour les développeurs qui maîtrisent déjà les bases techniques du protocole et souhaitent approfondir leur compréhension des principes fondamentaux qui guident sa conception et sa gouvernance.
 
 Tout au long de ce cours, vous comprendrez mieux les valeurs et les stratégies essentielles qui ont guidé l'évolution du Bitcoin depuis plus d'une décennie. En explorant ces thèmes en profondeur, vous développerez la perspective critique nécessaire pour évaluer les développements futurs et y contribuer en toute confiance.
 
 
 ### Les valeurs centrales du Bitcoin
 
+Qu'est-ce qui rend Bitcoin unique ? 
+Cette section dévoile les valeurs fondamentales au cœur de sa conception. Vous y découvrirez la décentralisation, pierre angulaire qui empêche toute entité de contrôler le réseau ; la confiance minimisée, qui élimine la dépendance aux tiers ; la confidentialité, essentielle à la fois pour la liberté individuelle et l’intégrité du système ; ainsi que l’offre limitée, garantie codée de rareté qui façonne l’identité économique de Bitcoin.
 
-Qu'est-ce qui rend Bitcoin unique ? Cette section révèle les valeurs fondamentales qui sont au cœur de la conception de Bitcoin. Vous découvrirez la **décentralisation**, la pierre angulaire qui garantit qu'aucune entité ne contrôle le réseau ; l'**absence de confiance**, la clé qui élimine la dépendance à l'égard des tiers ; la **confidentialité**, essentielle à la fois à la liberté individuelle et à l'intégrité du système ; et l'**offre limitée**, la garantie codée de la rareté qui façonne l'identité économique du Bitcoin. La maîtrise de ces concepts vous permettra d'appréhender pleinement les forces et les faiblesses de Bitcoin.
-
+Comprendre ces principes vous permettra de saisir pleinement les forces et les limites du protocole.
 
 ### Bitcoin Gouvernance
 
-
-Naviguer dans le paysage complexe de la gouvernance du Bitcoin exige plus qu'une expertise technique, il faut comprendre l'approche unique du Bitcoin en matière de consensus et de prise de décision. Dans cette section, vous découvrirez les mécanismes et les philosophies qui sous-tendent les processus critiques tels que les mises à jour de protocole, la nécessité de la pensée contradictoire, la force de la collaboration open-source, les défis permanents de la mise à l'échelle et les stratégies nuancées requises lorsque les choses tournent mal. Fort de ces connaissances, vous serez prêt non seulement à participer, mais aussi à façonner l'avenir de Bitcoin de manière efficace et responsable.
-
+Naviguer dans le paysage complexe de la gouvernance du Bitcoin exige plus qu'une expertise technique, il faut comprendre l'approche unique du Bitcoin en matière de consensus et de prise de décision. Dans cette section, vous découvrirez les mécanismes et les philosophies qui sous-tendent les processus critiques tels que les mises à jour du protocole, la nécessité de la pensée contradictoire, la force de la collaboration open-source, les défis permanents de la mise à l'échelle et les stratégies nuancées requises lorsque les choses tournent mal. Fort de ces connaissances, vous serez prêt non seulement à participer, mais aussi à façonner l'avenir de Bitcoin de manière efficace et responsable.
 
 Prêt à franchir la prochaine étape de votre parcours Bitcoin ? Commençons !
 
-
 ***N.B.** : Si vous rencontrez des termes inconnus liés à Bitcoin pendant le cours, veuillez vous référer au [glossaire](https://planb.academy/resources/glossary) pour trouver les définitions.*
-
-
 
 
 # Bitcoin Valeurs centrales
 
 <partId>2d6c683b-54c8-5465-b2ca-4e96a6828834</partId>
 
-
 ## Décentralisation
 
 <chapterId>9397c84b-0038-5d0e-88d5-11767ce8182d</chapterId>
 
-
-
-
 Ce document analyse ce qu'est la décentralisation et pourquoi elle est essentielle au fonctionnement de Bitcoin. Nous faisons la distinction entre la décentralisation des mineurs et celle des nœuds complets, et discuter de ce qu'ils apportent à la résistance à la censure, l'une des propriétés les plus importantes du Bitcoin.
-
 
 La discussion s'oriente ensuite vers la compréhension de la neutralité, ou l'absence de permission envers les utilisateurs, les mineurs et les développeurs, qui est une propriété nécessaire de tout système décentralisé. Enfin, nous abordons la question de savoir à quel point il peut être difficile de comprendre un système décentralisé tel que le Bitcoin, et nous présentons quelques modèles mentaux qui pourraient vous aider à le comprendre.
 
 
 Un système sans point de contrôle central est dit *décentralisé*. Bitcoin est conçu pour éviter d'avoir un point central de contrôle, ou plus précisément un *point central de censure*.
 
-
 La décentralisation est un moyen de parvenir à une *résistance à la censure*.
 
-
-Il y a deux aspects majeurs de la décentralisation dans le Bitcoin : La décentralisation des mineurs et celle des noeuds complets.
+Il existe deux aspects majeurs de la décentralisation dans Bitcoin : la décentralisation des mineurs et celle des nœuds complets.
 
 
 La décentralisation des mineurs fait référence au fait que le traitement des transactions n'est ni effectué ni coordonné par une entité centrale. La décentralisation des noeuds complets fait référence au fait que la validation des blocs, c'est-à-dire les données produites par les mineurs, est effectuée à la périphérie du réseau, en fin de compte par ses utilisateurs, et non par quelques autorités de confiance.
 
-
 ![](assets/fr/001.webp)
-
 
 ### La décentralisation des mineurs
 
-
-
 Il y a eu des tentatives de création de monnaies numériques avant le Bitcoin, mais la plupart d'entre elles ont échoué en raison d'un manque de décentralisation de la gouvernance et d'un manque de résistance à la censure.
 
-
-La décentralisation des mineurs dans Bitcoin signifie que l'"ordre des transactions" n'est pas effectué par une seule entité ou un ensemble fixe d'entités. Il est effectué collectivement par tous les acteurs qui veulent y participer ; ce collectif de mineurs est un ensemble dynamique d'utilisateurs. Chacun peut s'y joindre ou le quitter à sa guise. Cette propriété rend Bitcoin résistant à la censure.
+La décentralisation des mineurs dans Bitcoin signifie que "l'ordre des transactions" n'est pas effectué par une seule entité ou un ensemble fixe d'entités. Il est effectué collectivement par tous les acteurs qui veulent y participer ; ce collectif de mineurs est un ensemble dynamique d'utilisateurs. Chacun peut s'y joindre ou le quitter à sa guise. Cette propriété rend Bitcoin résistant à la censure.
 
 
 Si Bitcoin était centralisé, il serait vulnérable à ceux qui voudraient le censurer, comme les gouvernements. Il connaîtrait le même sort que les précédentes tentatives de création de monnaie numérique. Dans l'introduction d'un [document](https://www.blockstream.com/sidechains.pdf) intitulé "Enabling Blockchain Innovations with Pegged Sidechains", les auteurs expliquent que les premières versions de monnaies numériques n'étaient pas adaptées pour un environnement contradictoire (voir également le chapitre sur la pensée contradictoire dans la partie suivante).
 
 
-David Chaum a présenté la monnaie numérique comme un sujet de recherche en 1983, dans un contexte où un serveur central est chargé d'empêcher la double-dépense. Afin d'atténuer le risque de violation de la vie privée par cette partie centrale de confiance et d'assurer la fongibilité, Chaum a introduit la signature aveugle, qu'il a utilisée pour fournir un moyen cryptographique d'empêcher la liaison des signatures du serveur central (qui représentent des pièces de monnaie), tout en permettant au serveur central d'empêcher les doubles dépenses.
+David Chaum a introduit la monnaie numérique comme sujet de recherche en 1983, dans un modèle reposant sur un serveur central chargé d’empêcher la double dépense. Pour réduire le risque d’atteinte à la vie privée inhérent à cette entité de confiance, et pour préserver la fongibilité, Chaum a proposé le mécanisme de signature aveugle. Celui-ci permettait au serveur de signer des « pièces » sans pouvoir relier les signatures aux utilisateurs, tout en conservant la capacité d’empêcher les doubles dépenses.
 
-La nécessité d'un serveur central est devenue le talon d'Achille de l'argent liquide numérique [Gri99]. Bien qu'il soit possible de répartir ce point de défaillance unique en remplaçant la signature du serveur central par une signature de seuil de plusieurs signataires, il est important pour l'auditabilité que les signataires soient distincts et identifiables. Le système reste donc vulnérable aux pannes, puisque chaque signataire peut tomber en panne, ou être mis en panne, un par un.
-
+La nécessité d'un serveur central est devenue le talon d'Achille de l'argent liquide numérique [Gri99]. Même si l’on peut réduire ce point de défaillance unique en remplaçant la signature du serveur par une signature de seuil impliquant plusieurs signataires, l’auditabilité exige que ces signataires soient distincts et identifiables.Le système reste donc vulnérable aux pannes, puisque chaque signataire peut tomber en panne, ou être mis en panne, un par un.
 
 Il est clairement apparu que l'utilisation d'un serveur central pour ordonner les transactions n'était pas une option viable en raison du risque élevé de censure. Même si l'on remplaçait le serveur central par une fédération d'un ensemble fixe de n serveurs, dont au moins m doivent approuver une commande, des difficultés subsisteraient. Le problème se déplacerait en effet vers une situation où les utilisateurs devraient se mettre d'accord sur cet ensemble de n serveurs ainsi que sur la manière de remplacer les serveurs malveillants par de bons serveurs sans dépendre d'une autorité centrale.
 
-
-Imaginons ce qui pourrait se passer si Bitcoin était censurable. Le censeur pourrait obliger les utilisateurs à s'identifier, à déclarer d'où vient leur argent ou ce qu'ils achètent avec avant d'autoriser leurs transactions à entrer dans la Blockchain.
-
+Imaginons ce qui pourrait se produire si Bitcoin était censurable. Un censeur pourrait exiger que les utilisateurs s’identifient, déclarent l’origine de leurs fonds ou expliquent ce qu’ils achètent avant d’autoriser leurs transactions à être inscrites dans la blockchain.
 
 De plus, l'absence de résistance à la censure permettrait au censeur de contraindre les utilisateurs à adopter de nouvelles règles du système. Par exemple, il pourrait imposer un changement qui lui permettrait de gonfler la masse monétaire, s'enrichissant ainsi lui-même. Dans ce cas, un utilisateur vérifiant les blocs aurait trois options pour gérer les nouvelles règles :
-
-
-
-- Adopter : Accepter les modifications et les intégrer dans leur noeud complet.
-- Rejeter : Refuser d'adopter les modifications ; l'utilisateur se retrouve alors avec un système qui ne traite plus les transactions, car les blocages du censeur sont désormais considérés comme non valables par le noeud complet de l'utilisateur.
+- Adopter : accepter les modifications et les intégrer dans leur noeud complet.
+- Rejeter : refuser d'adopter les modifications ; l'utilisateur se retrouve alors avec un système qui ne traite plus les transactions, car les blocages du censeur sont désormais considérés comme non valables par le noeud complet de l'utilisateur.
 - Déplacement : désigner un nouveau point central de contrôle ; tous les utilisateurs doivent déterminer comment se coordonner et se mettre d'accord sur le nouveau point central de contrôle.
-
 
 S'ils y parviennent, les mêmes problèmes referont probablement surface à l'avenir, étant donné que le système est resté tout aussi censurable qu'auparavant.
 
-
 Aucune de ces options n'est bénéfique pour l'utilisateur.
 
+La résistance à la censure grâce à la décentralisation est ce qui différencie le Bitcoin des autres systèmes monétaires, mais ce n'est pas une chose facile à accomplir en raison du *problème de la double-dépense*. Il s'agit de s'assurer que personne ne peut dépenser deux fois la même pièce, un problème que de nombreuses personnes pensaient impossible à résoudre de manière décentralisée. Satoshi Nakamoto écrit dans son [Bitcoin whitepaper](https://planb.academy/bitcoin.pdf) comment résoudre le problème de la double-dépense : 
 
-La résistance à la censure grâce à la décentralisation est ce qui différencie le Bitcoin des autres systèmes monétaires, mais ce n'est pas une chose facile à accomplir en raison du *problème de la double-dépense*. Il s'agit de s'assurer que personne ne peut dépenser deux fois la même pièce, un problème que de nombreuses personnes pensaient impossible à résoudre de manière décentralisée. Satoshi Nakamoto écrit dans son [Bitcoin whitepaper](https://planb.academy/bitcoin.pdf) comment résoudre le problème de la double-dépense :
-
-
-> Dans cet article, nous proposons une solution au problème de la double-dépense en utilisant un serveur distribué d'horodatage pair-à-pair pour générer la preuve informatique de l'ordre chronologique des transactions.
-
+Dans cet article, nous proposons une solution au problème de la double-dépense en utilisant un serveur distribué d'horodatage pair-à-pair pour générer la preuve informatique de l'ordre chronologique des transactions.
 
 Il utilise ici l'expression étrange de "serveur distribué d'horodatage pair à pair". Le mot clé est ici *distribué*, ce qui, dans ce contexte, signifie qu'il n'y a pas de point de contrôle central. Nakamoto explique ensuite comment la preuve de travail est la solution.
 
 Pourtant, personne ne l'explique mieux que [Gregory Maxwell sur Reddit](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), où il répond à quelqu'un qui propose de limiter la puissance de Hash des mineurs pour éviter les attaques potentielles de 51 % :
 
-
-> Un système décentralisé comme Bitcoin utilise une élection publique. Mais on ne peut pas se contenter d'un vote des "gens" dans un système décentralisé, car il faudrait alors qu'une partie centralisée autorise les gens à voter. Bitcoin utilise plutôt un vote de puissance informatique, car il est possible de vérifier la puissance informatique sans l'aide d'un système centralisé
+Un système décentralisé comme Bitcoin utilise une élection publique. Mais on ne peut pas se contenter d'un vote des "gens" dans un système décentralisé, car il faudrait alors qu'une partie centralisée autorise les gens à voter. Bitcoin utilise plutôt un vote de puissance informatique, car il est possible de vérifier la puissance informatique sans l'aide d'un système centralisé
 tiers.
-
 
 La publication explique comment le réseau décentralisé Bitcoin peut parvenir à un accord sur l'ordre des transactions grâce à l'utilisation de la preuve de travail.
 
-
-Il conclut en disant que l'attaque des 51% n'est pas particulièrement inquiétante, comparée au fait que les gens ne se soucient pas des propriétés de décentralisation de Bitcoin ou ne les comprennent pas :
-
-
+Il conclut en affirmant que l’attaque des 51 % n’est pas le plus grand sujet d’inquiétude ; le véritable danger réside plutôt dans le fait que beaucoup ne se préoccupent pas ou ne comprennent pas les propriétés de décentralisation de Bitcoin: 
 > Le risque le plus important pour Bitcoin est que le public qui l'utilise ne comprenne pas, ne se préoccupe pas et ne protège pas les propriétés de décentralisation qui lui confèrent sa valeur par rapport aux alternatives centralisées.
 
 La conclusion est importante. Si les gens ne protègent pas la décentralisation de Bitcoin, qui est une approximation de sa résistance à la censure, Bitcoin pourrait être victime de pouvoirs centralisateurs, jusqu'à ce qu'il soit tellement centralisé que la censure devienne une réalité. Dans ce cas, la plupart, sinon la totalité, de sa proposition de valeur disparaît. Ceci nous amène à la section suivante sur la décentralisation des noeuds complets.

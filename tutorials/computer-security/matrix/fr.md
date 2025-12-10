@@ -133,8 +133,6 @@ Les messages privés sont simplement des salons avec deux participants, souvent 
 
 La synchronisation des salons se fait en temps réel entre les serveurs participants, ce qui permet une expérience fluide tout en conservant la décentralisation.
 
-![capture](assets/fr/07.webp)
-
 ## Pourquoi utiliser Matrix ?
 
 Matrix n’est pas simplement une alternative aux messageries centralisées : c’est une technologie qui répond à des besoins réels en matière de souveraineté numérique, de sécurité et d’interopérabilité. Plusieurs raisons expliquent pourquoi de plus en plus de personnes, d’entreprises et d’institutions choisissent ce protocole pour communiquer.
@@ -213,8 +211,6 @@ Cela garantit plusieurs avantages :
 - une résilience à long terme.
 
 Contrairement aux messageries propriétaires, l’avenir de Matrix ne dépend pas d’une entreprise, mais d’une communauté mondiale et d’un standard ouvert.
-
-![capture](assets/fr/08.webp)
 
 ## Comment créer un compte Matrix ?
 

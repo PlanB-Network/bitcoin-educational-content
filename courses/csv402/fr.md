@@ -521,7 +521,7 @@ Le **key tweak** reprend le concept historique de _pay-to-contract_. On prend la
 Néanmoins, dans la pratique, on se heurte aux difficultés suivantes :
 - Les wallets ne reconnaissent plus la clé publique standard, puisqu’elle a été “tweakée” ; ils ne peuvent donc pas facilement associer l’UTXO à votre clé habituelle ;
 - Les hardware wallets ne sont pas conçus pour signer avec une clé qui n’est pas issue de leur dérivation standard ;
-- Vous devez adapter vos scripts, descriptors, etc.
+- Vous devez adapter vos scripts, descripteurs, etc.
 
 Dans le cadre de RGB, cette piste a été envisagée jusqu’en 2021, mais il s’est avéré trop compliqué de la faire fonctionner avec les standards et l’infrastructure actuelle.
 
@@ -529,10 +529,10 @@ Dans le cadre de RGB, cette piste a été envisagée jusqu’en 2021, mais il s�
 
 Une autre idée, que certains protocoles comme les _inscriptions Ordinals_ ont concrétisée, est de placer les données directement dans la section `witness` de la transaction (d’où l’expression "witness tweak"). Cependant, cette méthode :
 - Rend l’engagement immédiatement visible (vous collez littéralement des données brutes dans le witness) ;
-- Peut être sujette à la censure (des mineurs ou nœuds peuvent refuser de relayer si c’est trop volumineux ou toute autre caractéristique arbitraire) ;
+- Peut être sujette à la censure (des mineurs ou des nœuds peuvent refuser de relayer si c’est trop volumineux ou présente toute autre caractéristique arbitraire) ;
 - Consomme de l’espace dans les blocs, ce qui est contraire à l’objectif de discrétion et de légèreté de RGB.
 
-En plus, le witness est conçu pour être prunable dans certains contextes, ce qui peut rendre plus compliqué le fait d'avoir des preuves robustes.
+En plus, le witness est conçu pour être élagué ou retirer de manière sûre sans nuire à la validité de la blockchain dans certains contextes, ce qui peut rendre plus compliqué le fait d'avoir des preuves robustes.
 
 ***Op-return (opret) :***
 
@@ -584,7 +584,7 @@ Dans ce premier cas, on part d’une sortie taproot (*Taproot Output Key*) `Q` q
 - `G` : le point générateur de la courbe elliptique [secp256k1](https://en.bitcoin.it/wiki/Secp256k1).
 - `t = tH_TWEAK(P)` est le facteur de tweak, calculé via un _tagged hash_ (par exemple `SHA-256(SHA-256(TapTweak) || P)`), conformément au [BIP86](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation). Cela prouve qu’il n’y a pas de script caché.
 
-Pour inclure un commitment **Tapret**, il faut alors ajouter une **Script Path Spend** avec un **unique script**, selon le schéma suivant :
+Pour inclure un commitment **Tapret**, il faut alors ajouter une **Script Path Spend** avec un **script unique**, selon le schéma suivant :
 
 ![RGB-Bitcoin](assets/en/048.webp)
 
@@ -602,7 +602,7 @@ Le second scénario concerne une **sortie taproot** `Q` plus complexe, qui compo
 - `tH_LEAF(x)` désigne la fonction de hachage (tagged hash) normalisée d’un script leaf.
 - `A, B, C` représentent les scripts déjà inclus dans la structure taproot.
 
-Pour ajouter le commitment Tapret, on doit insérer un script "inconsommable" (*unspendable script*) au premier niveau de l’arbre, en décalant les scripts déjà existants un niveau plus bas. Visuellement, l’arbre devient :
+Pour ajouter le commitment Tapret, on doit insérer un script "inconsommable" (*unspendable script*) au premier niveau de l'arborescence, en déplaçant les scripts existants d'un niveau vers le bas. Visuellement, l'arborescence devient :
 
 ![RGB-Bitcoin](assets/en/050.webp)
 
@@ -610,7 +610,7 @@ Pour ajouter le commitment Tapret, on doit insérer un script "inconsommable" (*
 - `tHT` représente le hash du script correspondant au `Tapret` de 64 octets.
 
 Selon les règles de taproot, chaque branche/feuille doit être combinée en respectant un ordre lexicographique des hachages. Deux cas se présentent alors :
-- `tHT` > `tHABC` : le commitment Tapret se place à droite dans l’arbre. La preuve d’unicité n’a besoin que de `tHABC` et `P` ;
+- `tHT` > `tHABC` : le commitment Tapret se place à droite dans l’arborescence. La preuve d’unicité n’a besoin que de `tHABC` et `P` ;
 - **`tHT` < `tHABC`** : le commitment Tapret se place à gauche. Pour prouver qu’il n’y a pas d’autre commitment Tapret dans la partie droite, il faut révéler `tHAB` et `tHC` afin de démontrer l’absence de tout autre script de ce type.
 
 Exemple visuel pour le premier cas (`tHABC < tHT`) :
@@ -623,7 +623,7 @@ Exemple pour le second cas (`tHABC > tHT`) :
 
 #### Optimisation avec le nonce
 
-Pour améliorer la confidentialité, on peut "miner" (un terme plus juste serait "bruteforcer") la valeur du `<Nonce>` (le dernier octet du `Tapret` de 64 octets) pour tenter d’obtenir un hash `tHT` tel que `tHABC < tHT`. Dans ce cas, le commitment se place à droite, ce qui évite ainsi à l’utilisateur de devoir divulguer tout le contenu des scripts existants pour prouver l’unicité du Tapret.
+Pour améliorer la confidentialité, on peut "miner" (un terme plus juste serait "brute-forcer") la valeur du `<Nonce>` (le dernier octet du `Tapret` de 64 octets) pour tenter d’obtenir un hash `tHT` tel que `tHABC < tHT`. Dans ce cas, le commitment se place à droite, ce qui évite ainsi à l’utilisateur de devoir divulguer tout le contenu des scripts existants pour prouver l’unicité du Tapret.
 
 En résumé, le `Tapret` offre un moyen discret et déterministe d’incorporer un engagement dans une transaction taproot, tout en respectant l’exigence d’unicité et de non-ambiguïté essentielle à la logique de Client-side Validation et des Single-use Seal de RGB.
 
@@ -650,7 +650,7 @@ Quand nous avons démarré RGB, nous avons passé en revue toutes ces méthodes 
 | Keytweak (P2C déterministe)                         | 🟢                       | 🟡                 | 🔴                            | 🟠                       | 🔴 BOLT, 🔴 Bifrost     | 🟠 Taproot, 🟢 MuSig  |
 | Sigtweak (S2C déterministe)                         | 🟢                       | 🟢                 | 🟠                            | 🔴                       | 🔴 BOLT, 🔴 Bifrost     | 🟠 Taproot, 🔴 MuSig  |
 | Opret (OP_RETURN)                                   | 🔴                       | 🟢                 | 🟢                            | 🟠                       | 🔴 BOLT, 🟠 Bifrost     | -                     |
-| Algorithme Tapret : noeud haut-gauche               | 🟠                       | 🔴                 | 🟠                            | 🟢                       | 🔴 BOLT, 🟢 Bifrost     | 🟢 Taproot, 🟢 MuSig  |
+| Algorithme Tapret : nœud supérieur gauche               | 🟠                       | 🔴                 | 🟠                            | 🟢                       | 🔴 BOLT, 🟢 Bifrost     | 🟢 Taproot, 🟢 MuSig  |
 | Algorithme Tapret #4 : n'importe quel nœud + preuve | 🟢                       | 🟠                 | 🟠                            | 🟢                       | 🔴 BOLT, 🟢 Bifrost     | 🟢 Taproot, 🟢 MuSig  |
 
 
@@ -659,8 +659,8 @@ Quand nous avons démarré RGB, nous avons passé en revue toutes ces méthodes 
 | Keytweak (P2C déterministe)                                   | LNPBP-1, 2     | 0 bytes                                                                                                                 | 33 bytes (clé non tweakée)                                                                                         |
 | Sigtweak (S2C déterministe)                                   | WIP (LNPBP-39) | 0 bytes                                                                                                                 | 0 bytes                                                                                                            |
 | Opret (OP_RETURN)                                             | -              | 36 (v)bytes (TxOut additionnel)                                                                                         | 0 bytes                                                                                                            |
-| Algorithme Tapret : nœud haut-gauche                          | LNPBP-6        | 32 bytes dans le témoin (8 vbytes) sur n’importe quel multisig n-of-m et dépenses par chemin de script                  | 0 bytes sur les scriptless scripts taproot ~270 bytes dans un cas de script unique, ~128 bytes si plus d’un script |
-| Algorithme Tapret #4 : n’importe quel nœud + preuve d’unicité | LNPBP-6        | 32 bytes dans le témoin (8 vbytes) pour les cas de script unique, 0 bytes dans le témoin dans la plupart des autres cas | 0 bytes sur les scriptless scripts taproot, 65 bytes jusqu’à ce que le Taptree ait une douzaine de scripts         |
+| Algorithme Tapret : nœud supérieur gauche                        | LNPBP-6        | 32 bytes dans le witness (8 vbytes) sur n’importe quel multisig n-of-m et dépenses par chemin de script                  | 0 bytes sur les scriptless scripts taproot ~270 bytes dans un cas de script unique, ~128 bytes si plus d’un script |
+| Algorithme Tapret #4 : n’importe quel nœud + preuve d’unicité | LNPBP-6        | 32 bytes dans le témoin (8 vbytes) pour les cas de script unique, 0 bytes dans le witness dans la plupart des autres cas | 0 bytes sur les scriptless scripts taproot, 65 bytes jusqu’à ce que le Taptree ait une douzaine de scripts         |
 
 
 | Layer                          | Coût on-chain (bytes/vbytes) | Coût on-chain (bytes/vbytes) | Coût on-chain (bytes/vbytes) | Coût on-chain (bytes/vbytes) | Coût on-chain (bytes/vbytes) | Coût côté client (bytes) | Coût côté client (bytes) | Coût côté client (bytes) | Coût côté client (bytes) | Coût côté client (bytes) |
@@ -689,7 +689,7 @@ Quand nous avons démarré RGB, nous avons passé en revue toutes ces méthodes 
 | Keytweak (P2C déterministe)               | 🟢                             | 🔴               | 🔴            | 🟡          | 🟡         |
 | Sigtweak (S2C déterministe)               | 🟢                             | 🔴               | 🔴            | 🟢          | 🔴         |
 | Opret (OP_RETURN)                         | 🔴                             | 🟠               | 🔴            | 🟢          | 🟢         |
-| Algo Tapret : nœud haut-gauche            | 🟠                             | 🟢               | 🟢            | 🔴          | 🟠         |
+| Algo Tapret : nœud supérieur gauche            | 🟠                             | 🟢               | 🟢            | 🔴          | 🟠         |
 | Algo Tapret #4 : Nœud quelconque + preuve | 🟢                             | 🟢               | 🟢            | 🟠          | 🔴         |
 
 Au fil de l’étude, il est apparu qu’aucun des schémas de commitments n’était pleinement compatible avec le standard Lightning actuel (qui n’emploie pas Taproot, ni _muSig2_, ni la prise en compte d’un _commitment_ supplémentaire). Des efforts sont en cours pour modifier la construction de canaux Lightning (*BiFrost*) et permettre d’insérer les engagements RGB. C’est un autre chantier où l’on doit revoir la structure de la transaction, les clés, et la façon dont sont signées les mises à jour de canaux.
@@ -817,7 +817,7 @@ Ce mécanisme garantit ainsi que :
 
 #### Résumé de la structure MPC
 
-Le *Multi Protocol Commitment* (MPC) est donc le principe qui permet à RGB d’agréger plusieurs contrats dans une seule transaction Bitcoin, tout en maintenant l’unicité des engagements et la confidentialité vis-à-vis des autres participants. Grâce à la construction déterministe de l’arbre, chaque contrat se voit attribuer une position unique, et la présence de feuilles “dummy” (*Entropy Leaves*) masque partiellement le nombre total de contrats participant à l’opération.
+Le *Multi Protocol Commitment* (MPC) est donc le principe qui permet à RGB d’agréger plusieurs contrats dans une seule transaction Bitcoin, tout en maintenant l’unicité des engagements et la confidentialité vis-à-vis des autres participants. Grâce à la construction déterministe de l’arbre, chaque contrat se voit attribuer une position unique et la présence de feuilles “dummy” (*Entropy Leaves*) masque partiellement le nombre total de contrats participant à l’opération.
 
 Sur le client, on ne stocke jamais l’ensemble de l'arbre de Merkle. On se contente de générer, à l’instant T, un _Merkle path_ pour chaque contrat concerné, à transmettre au destinataire (qui pourra ainsi valider l’engagement). Dans certains cas, vous possédez plusieurs actifs passés par le même UTXO. Vous pouvez alors fusionner plusieurs _Merkle paths_ dans ce qu’on appelle un _multi-protocol commitment block_, afin d'éviter de dupliquer trop de données.
 
@@ -847,7 +847,7 @@ En théorie, il serait envisageable de retrouver ce `Txid` en retraçant la cha�
 Le second champ, la `MPC Proof`, se rapporte à la preuve que ce contrat précis (par exemple `c_i`) est bien inclus dans le _Multi Protocol Commitment_. Il s’agit d’une combinaison de :
 - `pos_i`, la position de ce contrat dans l’arbre du MPC ;
 - `cofactor`, la valeur définie pour résoudre les collisions de positions ;
-- la `Merkle Proof`, c’est-à-dire l’ensemble des nœuds et hachages permettant de reconstruire la racine du MPC et de vérifier que l’identifiant de contrat et son `Transition Bundle` sont bien engagés dans la racine.
+- la `Merkle Proof`, c’est-à-dire l’ensemble des nœuds et des hachages permettant de reconstruire la racine du MPC et de vérifier que l’identifiant de contrat et son `Transition Bundle` sont bien engagés dans la racine.
 
 Ce mécanisme a été décrit dans la section précédente consacrée à la construction du *MPC Tree*, où chaque contrat obtient une feuille unique grâce à l’opération :
 
@@ -855,7 +855,7 @@ Ce mécanisme a été décrit dans la section précédente consacrée à la cons
 pos(c_i) = c_i mod (w - cofactor)
 ```
 
-Puis, on utilise un schéma de merkelisation déterministe pour agréger toutes les feuilles (contrats + entropie). La `MPC Proof` permet, au final, de reconstituer localement la racine et de la comparer au `mpc::Commitment` inclus on-chain.
+Puis, on utilise un schéma de merkelisation déterministe pour agréger toutes les feuilles (contrats + entropie). La `MPC Proof` permet, finalement, de reconstituer localement la racine et de la comparer au `mpc::Commitment` inclus on-chain.
 
 #### Extra Transaction Proof – ETP
 
@@ -865,7 +865,7 @@ Le troisième champ, l’**ETP**, dépend du type d’engagement utilisé. Si l�
 - La clé publique interne (`P`) de la sortie taproot dans laquelle est incrusté le *commitment* ;
 - Les nœuds partenaires du `Script Path Spend` (lorsque le *commitment* Tapret est inséré dans un script), afin de prouver l’emplacement exact de ce script dans l’arbre taproot :
 	- Si le *commitment* `Tapret` se trouve sur la branche de droite, on révèle le nœud de gauche (par exemple `tHABC`),
-	- Si le *commitment* `Tapret` est sur la gauche, il faut divulguer 2 nœuds (par exemple `tHAB` et `tHC`) pour prouver qu’aucun autre *commitment* n’est présent sur la partie de droite.
+	- Si le *commitment* `Tapret` est sur la gauche, il faut divulguer deux nœuds (par exemple `tHAB` et `tHC`) pour prouver qu’aucun autre *commitment* n’est présent sur la partie de droite.
 - Le `nonce` éventuellement utilisé pour "miner" la meilleure configuration, permettant de placer le *commitment* à droite de l’arbre (optimisation de la preuve).
 
 Cette preuve supplémentaire est indispensable, car, contrairement à `Opret`, l’engagement `Tapret` s’intègre dans la structure d’un script taproot, ce qui exige de révéler une partie de l’arbre taproot afin de valider correctement l’emplacement du *commitment*.
@@ -880,7 +880,7 @@ Dans ce chapitre, nous avons couvert :
 - Comment appliquer le concept de Single-use Seals dans Bitcoin (en particulier via un _outpoint_) ;
 - Les différentes méthodes pour insérer de façon déterministe un _commitment_ dans une transaction (Sig tweak, Key tweak, witness tweak, op_return, Taproot/Tapret) ;
 - Les raisons pour lesquelles RGB se concentre sur les engagements Tapret ;
-- La gestion multi-contrat via des _multi-protocol commitments_, indispensable pour ne pas exposer l’intégralité d’un état ou d’autres contrats lorsqu’on veut prouver un point précis ;
+- La gestion multicontrat via des _multi-protocol commitments_, indispensable pour ne pas exposer l’intégralité d’un état ou d’autres contrats lorsqu’on veut prouver un point précis ;
 - Nous avons aussi vu le rôle des _Anchors_, qui rassemblent tout (le TXID de la transaction, la preuve de l’arbre de Merkle et la preuve Taproot) dans un même ensemble.
 
 En pratique, la mise en œuvre technique est répartie entre plusieurs _crates_ Rust dédiés (dans _client_side_validation_, _commit-verify_, _bp_core_, etc.). Les notions fondamentales sont là :
@@ -898,7 +898,7 @@ Dans ce chapitre et le prochain, nous allons aborder la notion de **smart contra
 
 ### Contrats intelligents et droits au porteur numériques
 
-L’objectif de RGB est de proposer une infrastructure où l’on peut mettre en œuvre des smart contracts sur Bitcoin. Par "smart contract", on entend un accord entre plusieurs parties qui est automatiquement et informatiquement appliqué, sans intervention humaine pour faire respecter les clauses. En d’autres termes, la loi du contrat est exécutée par le logiciel, et non par un tiers de confiance.
+L’objectif de RGB est de proposer une infrastructure permettant la mise en œuvre des "smart contracts" sur Bitcoin. Par "smart contract", on entend un accord entre plusieurs parties qui est automatiquement et informatiquement appliqué, sans intervention humaine pour faire respecter les clauses. En d’autres termes, la loi du contrat est exécutée par le logiciel, et non par un tiers de confiance.
 
 Cette automatisation soulève la question de la décentralisation : comment s’affranchir d’un registre centralisé (par exemple une plateforme ou une base de données centrale) pour gérer la propriété et l’exécution des contrats ? L’idée d’origine, reprise par RGB, consiste à renouer avec un mode de possession dit **"au porteur"** (*bearer instruments*). Dans la tradition historique, certains titres (obligations, actions, etc.) étaient émis au porteur, permettant à quiconque possédait physiquement le document de faire valoir ses droits.  
 
@@ -906,7 +906,7 @@ Cette automatisation soulève la question de la décentralisation : comment s’
 
 RGB applique ce concept au monde numérique : les droits (et obligations) sont enfermés dans des données manipulées off-chain, et l’état de ces données est validé par les participants eux-mêmes. Cela permet, à priori, un degré de confidentialité et d’indépendance beaucoup plus grand que celui qu’offrent d’autres approches basées sur des registres publics.
 
-### Introduction à l’État d’un Smart Contract RGB
+### Introduction à l’état d’un Smart Contract RGB
 
 Un smart contract dans RGB peut être vu comme une machine à états, définie par :
 - Un **State** (état), c’est-à-dire l’ensemble d’informations reflétant la configuration actuelle du contrat ;
@@ -919,36 +919,37 @@ Il est important de comprendre que ces contrats ne sont pas limités aux simples
 - **Les parties détentrices** de droits (*ownership*) ou d’autres capacités d’exécution ;
 - Des **observateurs**, potentiellement limités à voir certaines informations, mais qui ne peuvent pas déclencher des modifications.
 
-Cette séparation des rôles contribue à la résistance à la censure, en permettant que seules les personnes autorisées puissent interagir avec l’état contractuel. Cela confère également à RGB la capacité de s’étendre de manière horizontale : la majorité des validations a lieu en dehors de la blockchain, et seules des ancrages cryptographiques (les *commitments*) sont inscrits sur Bitcoin.
+Cette séparation des rôles contribue à la résistance à la censure, en permettant que seules les personnes autorisées puissent interagir avec l’état contractuel. Cela confère également à RGB la capacité de s’étendre de manière horizontale : la majorité des validations a lieu en dehors de la blockchain et seuls les ancrages cryptographiques (les *commitments*) sont inscrits sur Bitcoin.
 
 ### État et Business Logic dans RGB
 
-D’un point de vue pratique, la **Business Logic** du contrat se présente sous forme de règles et de scripts, définis dans ce que RGB appelle un **Schema**. Le Schema encode :
-- La structure de l’État (quels champs sont publics ? Quels champs sont détenus par telle ou telle partie ?) ;
-- Les conditions de validité (qu’est-ce qui doit être vérifié avant d’autoriser une mise à jour de l’État ?) ;
+D’un point de vue pratique, la **Business Logic** du contrat se présente sous forme de règles et de scripts, définis dans ce que RGB appelle un **Schéma** (_Schema_). 
+Le Schéma encode :
+- La structure de l’état (quels champs sont publics ? Quels champs sont détenus par telle ou telle partie ?) ;
+- Les conditions de validité (qu’est-ce qui doit être vérifié avant d’autoriser une mise à jour de l’état ?) ;
 - Les autorisations (qui peut initier une *State Transition* ? Qui peut seulement observer ?).
 
-En parallèle, l’**État** (_Contract State_) se décompose souvent en deux volets :
+En parallèle, l’**état** (_Contract State_) se décompose souvent en deux volets :
 - Un **Global State** : partie publique, potentiellement observable par tous (selon la configuration) ;
 - Des **Owned States** : parties privées, attribuées spécifiquement à des détenteurs (*owners*) via des UTXOs référencés dans la logique du contrat.
 
 Comme nous le verrons dans les chapitres suivants, toute mise à jour d’état (*Contract Operation*) doit s’arrimer à un _commitment_ Bitcoin (via `Opret` ou `Tapret`) et se conformer aux scripts de la *Business Logic* pour être considérée comme valide.
 
-### Contract Operations : création et évolution de l’État
+### Contract Operations : création et évolution de l’état
 
 Dans l’univers RGB, on appelle ***Contract Operation*** tout événement qui fait passer le contrat d’un **ancien état** (_old state_) à un **nouvel état** (_new state_). Ces opérations suivent la logique suivante :
-- On prend connaissance de l’État actuel du contrat ;
+- On prend connaissance de l’état actuel du contrat ;
 - On applique la règle ou l’opération (une ***State Transition***, une ***Genesis*** si c’est le tout premier état, ou encore une ***State Extension*** s’il y a une *valency* publique à redéclencher) ;
-- On ancre la modification via un nouveau _commitment_ sur la blockchain, en fermant un _single-use seal_ et en en créant un autre ;
+- On ancre la modification via un nouveau _commitment_ sur la blockchain, en fermant un _single-use seal_ et en créant un autre ;
 - Les détenteurs de droits concernés valident localement (*client-side*) que la transition est conforme au *Schema* et que la transaction Bitcoin associée est inscrite on-chain.
 
 ![RGB-Bitcoin](assets/en/057.webp)
 
-Le résultat final est un contrat mis à jour, dont l’État est désormais différent. Cette transition ne nécessite pas que l’ensemble du réseau Bitcoin s’intéresse aux détails, puisque seule une petite empreinte cryptographique (le _commitment_) est enregistrée dans la blockchain. La séquence des Single-use Seals prévient toute double-dépense ou double-utilisation de l’État.
+Le résultat final est un contrat mis à jour, dont l’état est désormais différent. Cette transition ne nécessite pas que l’ensemble du réseau Bitcoin s’intéresse aux détails, puisque seule une petite empreinte cryptographique (le _commitment_) est enregistrée dans la blockchain. La séquence des Single-use Seals prévient toute double dépense ou double utilisation de l’état.
 
-### Chaîne d’opérations : de la Genesis au Terminal State
+### Chaîne d’opérations : de la Genèse à l'état terminal (from Genesis to Terminal State)
 
-Pour remettre en perspective, un smart contract RGB démarre par une **Genesis**, le tout premier état. Par la suite, diverses Contract Operations se succèdent, formant un DAG (*Directed Acyclic Graph*) d’opérations :
+Pour remettre en perspective, un smart contrat RGB démarre par une **Genesis**, le tout premier état. Par la suite, diverses _Contract Operations_ se succèdent, formant un DAG (*Directed Acyclic Graph*) d’opérations :
 - Chaque transition s’appuie sur un état précédent (ou plusieurs, en cas de transitions convergentes) ;
 - L’ordre chronologique est garanti par l’inclusion de chaque transition dans un ancrage Bitcoin, horodaté et inaltérable grâce au consensus par Proof-of-Work ;
 - Lorsque plus aucune opération n’est en cours, on atteint un **Terminal State** : la situation la plus récente et complète du contrat.
@@ -959,12 +960,12 @@ Cette topologie en DAG (au lieu d’une simple chaîne linéaire) reflète la po
 
 ### Synthèse
 
-Les smart contracts dans RGB introduisent un modèle d’instruments au porteur numériques, décentralisés, mais ancrés dans Bitcoin pour l’horodatage et la garantie de l’ordre des opérations. L’exécution automatisée de ces contrats repose sur :
-- Un **État** (*Contract State*), indiquant la configuration actuelle du contrat (droits, soldes, variables…) ;
+Les smart contrats dans RGB introduisent un modèle d’instruments au porteur numériques, décentralisés, mais ancrés dans Bitcoin pour l’horodatage et la garantie de l’ordre des opérations. L’exécution automatisée de ces contrats repose sur :
+- Un **état** (*Contract State*), indiquant la configuration actuelle du contrat (droits, soldes, variables…) ;
 - Une **Business Logic** (*Schema*), définissant quelles transitions sont autorisées et comment elles doivent être validées ;
-- Des **Contract Operations**, qui mettent à jour cet État étape par étape, grâce à des engagements ancrés dans des transactions Bitcoin.
+- Des **Contract Operations**, qui mettent à jour cet état étape par étape, grâce à des engagements ancrés dans des transactions Bitcoin.
 
-Dans le chapitre suivant, nous entrerons plus en détail dans la représentation concrète de ces ***states*** et des ***state transitions*** au niveau off-chain, ainsi que dans la manière dont ils se lient aux UTXOs et aux Single-use Seals ancrés dans Bitcoin. Ce sera l’occasion de voir comment la mécanique interne de RGB, fondée sur une validation client-side, parvient à maintenir la cohérence des smart contracts tout en préservant la confidentialité des données.
+Dans le chapitre suivant, nous entrerons plus en détail dans la représentation concrète de ces ***states*** et des ***state transitions*** au niveau off-chain, ainsi que dans la manière dont ils se lient aux UTXOs et aux Single-use Seals ancrés dans Bitcoin. Ce sera l’occasion de voir comment la mécanique interne de RGB, fondée sur une validation client-side, parvient à maintenir la cohérence des smart contrats tout en préservant la confidentialité des données.
 
 
 ## Opérations des contrats RGB
@@ -972,7 +973,7 @@ Dans le chapitre suivant, nous entrerons plus en détail dans la représentation
 
 :::video id=1caec34d-f214-425b-a1a4-0a40ae7d3e0e:::
 
-Dans ce chapitre, nous allons étudier le fonctionnement des opérations dans les contrats intelligents et des transitions d'état, toujours au sein du protocole RGB. Le but sera également de comprendre comment plusieurs participants coopèrent pour transférer la propriété d’un actif.
+Dans ce chapitre, nous allons étudier le fonctionnement des opérations dans les smart contrats et dans les transitions d'état, toujours au sein du protocole RGB. Le but sera également de comprendre comment plusieurs participants coopèrent pour transférer la propriété d’un actif.
 
 ### Les transitions d'état et leurs mécaniques
 

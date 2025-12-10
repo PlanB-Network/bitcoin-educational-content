@@ -125,7 +125,7 @@ Understanding both modes will help you navigate your conversations.
 
 ### Public Channels: The Community Hub
 
-The `#location channels` menu (top-right) controls your public visibility. Selecting `mesh` connects you to all nearby users via BLE mesh - typically devices within 10-50 meters. This creates an open forum where messages broadcast to everyone in range, ideal for event announcements or local alerts. 
+The `#location channels` menu (top-right) controls your public visibility. Selecting `mesh` connects you to all nearby users via BLE mesh, typically devices within 10-50 meters. This creates an open forum where messages broadcast to everyone in range, ideal for event announcements or local alerts. 
 
 For broader geographic reach, choose any `#geohash` tag to join internet-powered communities filtered by location. These channels use Nostr protocol relays, allowing communication across cities or regions while maintaining location-based relevance. Your messages appear live to others in the same channel, with new participants automatically seeing recent message history upon joining.
 

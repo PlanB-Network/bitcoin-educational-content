@@ -55,7 +55,7 @@ non_translatable:
   - Blinded ranges
   - BLK*.DAT
   - BLKINDEX.DAT
-  - BLKTREE/
+  - "BLKTREE/"
   - BLOCK
   - Block explorer
   - Block reward
@@ -71,6 +71,7 @@ non_translatable:
   - B-MONEY
   - CGMINER
   - chain code
+  - "CHAINSTATE/"
   - CLI
   - CPFP
   - Child pay for parent
@@ -80,9 +81,9 @@ non_translatable:
   - Coinjoin
   - Coin
   - Coinbase Transaction
-  - COINS/
+  - "COINS/"
   - Cold
-  - COOKIE (.COOKIE)
+  - "COOKIE (.COOKIE)"
   - Commitment
   - Commitment Transaction
   - Confidential Transactions
@@ -95,6 +96,7 @@ non_translatable:
   - Contract Rights
   - Contract State
   - Cypherpunk
+  - "DATABASE/"
   - DB.LOG
   - DEBUG.LOG
   - Debugger
@@ -102,9 +104,12 @@ non_translatable:
   - Descriptor
   - Descriptor Wallets
   - Deterministic Bitcoin Commitment
+  - "DIGEST (HASH)"
   - Directed Acyclic Graph
   - Double-spending
   - Dust
+  - DUST LIMIT
+  - DUSTING ATTACK
   - Découvre Bitcoin
   - ECASH
   - ECLAIR

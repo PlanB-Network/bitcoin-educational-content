@@ -17,7 +17,7 @@ objectives:
 
 La philosophie de développement du Bitcoin est un cours destiné aux développeurs Bitcoin qui comprennent déjà les bases des concepts et processus tels que le Proof-of-Work, la construction de blocs et le cycle de vie des transactions, et qui souhaitent passer à un niveau supérieur en acquérant une compréhension plus approfondie des compromis et de la philosophie de conception du Bitcoin.
 
-Il devrait aider les nouveaux développeurs à assimiler les principales leçons tirées de plus d'une décennie de développement du Bitcoin et de débat public, tout en leur fournissant un contexte utile pour évaluer les nouvelles idées (les bonnes comme les mauvaises !).
+Il devrait aider les nouveaux développeurs à assimiler les principales leçons tirées de plus d'une décennie de développement du Bitcoin et de débat public, tout en leur fournissant un contexte utile pour évaluer les nouvelles idées (les bonnes comme les mauvaises).
 
 
 ### À quoi s'attendre ?

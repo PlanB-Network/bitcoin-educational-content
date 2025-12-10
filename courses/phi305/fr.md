@@ -198,7 +198,7 @@ Il s’agit du Traité théologico-politique, dit le TTP, publié anonymement en
 
 ![image](./assets/fr/2.2.1.webp)
 
-Cet ouvrage, Spinoza (1632-1677) l’a écrit en interrompant la rédaction de son Éthique pour tenter de mettre fin à un malentendu qui court malgré tout encore aujourd’hui. C’est l’idée selon laquelle il serait athée.
+Cet ouvrage, Spinoza (1632-1677) l’a écrit en interrompant la rédaction de son Éthique pour tenter de mettre fin à un malentendu qui court encore aujourd'hui, malgré tout. C’est l’idée selon laquelle il serait athée.
 Or, comme nous l’avons vu, le concept de Dieu chez Spinoza fait l‘objet de toute la première partie de l’Éthique dans laquelle il démontre que non seulement Dieu existe mais aussi quelle est sa vraie nature. 
 
 ![image](./assets/fr/2.2.2.webp)
@@ -237,7 +237,7 @@ Et bien au-delà d’accabler la main de Dieu, Jean-Jacques Rousseau (1712-1778)
 À quoi, Voltaire (1694-1778), spinoziste s’il en est, lui répondit que cette catastrophe naturelle devait surtout nous faire comprendre que les moyens scientifiques de se protéger de la nature existaient et que l’enjeu de leur époque était donc de se demander si les hommes pouvaient, grâce à la connaissance et au progrès, prendre leur avenir en main et se libérer de la théologie et de la superstition.
 
 Et s’il ne s’agissait bien sûr pas d’empêcher les tremblements de terre qui sont encore aujourd’hui non seulement imprévisibles mais aussi tout à fait incontrôlables, il s’agissait plutôt de faire en sorte que, par exemple, les habitations soient construites pour pouvoir y résister. 
-C’est pourquoi le 18e siècle des Lumières, grâce à l’exercice de la raison, aux sciences et à la technologie, est le siècle du progrès. Autrement dit, le progrès vu comme outil de liberté.
+C’est pourquoi le XVIIIe siècle des Lumières, grâce à l’exercice de la raison, aux sciences et à la technologie, est le siècle du progrès. Autrement dit, le progrès vu comme outil de liberté.
 
 # La révolution spinoziste, les trois illusions
 <partId>f5d45c2b-28da-527a-ab20-dd255e9a9e0d</partId>
@@ -264,9 +264,9 @@ Avant lui, la philosophie grecque classique proposait une vision ordonnée et hi
 
 ![image](./assets/fr/3.1.3.webp)
 
-La cosmologie scolastique du Moyen-Âge, essentiellement à partir du 12e siècle, fut alors une évolution vers plus de raisonnements afin d‘harmoniser la raison et la foi pour expliquer un univers toujours hiérarchisé mais qui correspondait mieux à la philosophie chrétienne.
+La cosmologie scolastique du Moyen-Âge, essentiellement à partir du XIIe siècle, fut alors une évolution vers plus de raisonnements afin d‘harmoniser la raison et la foi pour expliquer un univers toujours hiérarchisé mais qui correspondait mieux à la philosophie chrétienne.
 
-Mais avec la nouvelle physique de Copernic (1473-1543) du 15e siècle, la cosmologie connut un tournant majeur dans la compréhension de l’univers dont le modèle géocentrique fut donc remis en question au profit du système héliocentrique qui ouvrit la voie à la science moderne, et notamment la nouvelle physique et l’astronomie de Kepler (1571-1630) et de Galilée (1564-1642). Puis de Isaac Newton (1643-1727) et enfin d’Albert Einstein (1879-1955), lui-même un spinoziste convaincu.
+Mais avec la nouvelle physique de Copernic (1473-1543) du XVe siècle, la cosmologie connut un tournant majeur dans la compréhension de l’univers dont le modèle géocentrique fut donc remis en question au profit du système héliocentrique qui ouvrit la voie à la science moderne, et notamment la nouvelle physique et l’astronomie de Kepler (1571-1630) et de Galilée (1564-1642). Puis de Isaac Newton (1643-1727) et enfin d’Albert Einstein (1879-1955), lui-même un spinoziste convaincu.
 
 ![image](./assets/fr/3.1.4.webp)
 ![image](./assets/fr/3.1.5.webp)
@@ -333,7 +333,7 @@ Bien sûr, le problème qui se pose est celui de la responsabilité des hommes e
 
 Ce serait par contre illusoire de croire que les actions, par exemple, d’un criminel ne sont jamais liées à son propre déterminisme. Et s’il ne s’agit bien sûr pas de les excuser, il s’agit au moins de tenter de les comprendre. C’est d’ailleurs ce que fait la justice qui, au-delà de punir les actions illégales, joue le rôle de prévoir et de protéger l’avenir et c’est la raison pour laquelle certains crimes ne sont pas seulement punis mais font aussi l’objet de soins, compte tenu du passé familial, social et psychologique du délinquant.
 
-Or, cette façon d’envisager la liberté comme une capacité d’agir est le lien que l’on peut faire avec la philosophie des Lumières du 18e siècle. Selon un de ses plus grands ambassadeurs, le philosophe allemand Emmanuel Kant (1724-1804), les Lumières sont effectivement le moyen de sortir les hommes de l’état de tutelle, ou de servitude volontaire aurait dit Étienne de la Boétie (1530-1563), dont ils sont eux-mêmes responsables. 
+Or, cette façon d’envisager la liberté comme une capacité d’agir est le lien que l’on peut faire avec la philosophie des Lumières du XVIIIe siècle. Selon un de ses plus grands ambassadeurs, le philosophe allemand Emmanuel Kant (1724-1804), les Lumières sont effectivement le moyen de sortir les hommes de l’état de tutelle, ou de servitude volontaire aurait dit Étienne de la Boétie (1530-1563), dont ils sont eux-mêmes responsables. 
 
 ![image](./assets/fr/3.2.4.webp)
 
@@ -341,7 +341,7 @@ La devise de Kant est d’ailleurs « Penser par soi-même » et « Oser savo
 
 La capacité d’agir de Spinoza est ainsi le pouvoir que l’homme a en lui de comprendre sa propre condition animale et de comprendre la nature et ses phénomènes, positifs ou négatifs, en les rapportant à des causes objectives pour ne pas s’en remettre à des explications morales, fausses et illusoires, c’est-à-dire qui nous conviennent en fonction de nos désirs. Mais plutôt à chercher à les expliquer, grâce à la raison, en étant tourné vers l’émancipation et la liberté.
 
-Et le progrès, grâce auquel vont apparaître les premières révolutions technologiques et les premières idées libérales et entrepreneuriales de la fin du 18e siècle, notamment avec le philosophe libéral anglais John Locke (1632-1704) ou encore l’économiste anglais Adam Smith (1723-1790).
+Et le progrès, grâce auquel vont apparaître les premières révolutions technologiques et les premières idées libérales et entrepreneuriales de la fin du XVIIIe siècle, notamment avec le philosophe libéral anglais John Locke (1632-1704) ou encore l’économiste anglais Adam Smith (1723-1790).
 
 Et il est ici utile de se rappeler la définition que fait Sigmund Freud (1856-1939) de l’illusion. Selon le père de la psychanalyse qui a toujours reconnu l’influence de Spinoza sur son travail, une illusion est précisément « une croyance motivée par la réalisation d’un désir en ne tenant pas compte, de ce fait, de la réalité ».
 
@@ -362,19 +362,19 @@ Enfin, si la croyance au libre arbitre est une illusion dont il est extrêmement
 
 
 
-Nous avons vu dans le précédant chapitre que l’illusion du libre arbitre consiste à croire que l’on pourrait donc commencer quelque chose à partir de rien, que seule notre volonté nous permettrait de diriger notre vie et que nous disposerions d’un pouvoir de décision indéterminé. C’est l’idée que l’homme serait en mesure de troubler l’ordre de la Nature plus qu’il ne le subit.
+Nous avons vu dans le précédent chapitre que l’illusion du libre arbitre consiste à croire que l’on pourrait donc commencer quelque chose à partir de rien, que seule notre volonté nous permettrait de diriger notre vie et que nous disposerions d’un pouvoir de décision indéterminé. C’est l’idée que l’homme serait en mesure de troubler l’ordre de la Nature plus qu’il ne le subit.
 
 Mais pour Spinoza (1632-1677), l’homme n’est pas « un empire dans un empire », c’est-à-dire qu’il n’est pas, contrairement à ce qu’établissait Descartes (1596-1650), une exception dans la nature et qu’il n’est jamais exonéré du prolongement de l’enchaînement déterministe des causes et des effets. 
 
 ![image](./assets/fr/3.3.1.webp)
 
-Et comme la Nature, dit encore Spinoza, n’a aucune fin prescrite d’un point de vue moral et que les hommes ont tendance à prendre leur imagination pour de l’entendement, ils projettent sur elle une grille de lecture de ce qui leur est utile. Au point, alors, de donner une signification aux choses qui ne découle que de la manière dont ils les apprécient et les rapportent à eux-mêmes.
+Et comme la Nature, dit encore Spinoza, n’a aucune fin prescrite d’un point de vue moral et que les hommes ont tendance à prendre leur imagination pour de l’entendement, ils projettent sur elle une grille de lecture de ce qui leur est utile. Au point, alors, de donner une signification aux choses qui ne découlent que de la manière dont ils les apprécient et les rapportent à eux-mêmes.
 
 C‘est-à-dire en fonction de leurs désirs, de leurs espoirs et de leurs craintes. 
 
 Ce raisonnement est illustré par cette illusion des causes finales qui est un obstacle majeur à la pensée et à l’exercice de la raison car elle exprime tout simplement notre besoin de faire correspondre les effets d’une chose non pas à ses vraies causes mais à une croyance, même absurde, même infantilisante.
 
-Une croyance qui exprime une intention, notamment divine, et qui, dans la façon que nous avons de l’interpréter, relève souvent de la superstition. Ou de l’ignorance. 
+Une croyance qui exprime une intention, notamment divine, et qui, dans la façon que nous avons de l’interpréter, relève souvent de la superstition ou de l’ignorance. 
 
 Et c’est pourquoi les nouvelles maladies comme le Sida dans les années 90 ou la covid en 2020 ont toujours été perçues par certains comme l’expression d’une intention, divine et souvent punitive, selon un raisonnement contraire, de ce fait, avec le principe de causalité fondateur du rationalisme et de la science moderne établie depuis Copernic (1473-1543), Kepler (1571-1630) et Galilée (1564-1727).
 
@@ -392,7 +392,7 @@ Mais comme dit Spinoza, « le délire des hommes ne s’arrête pas là » et 
 
 ![image](./assets/fr/3.3.4.webp)
 
-Et la définition que les économistes Keynésiens et les défenseurs de l’État providence donnent par exemple de l’inflation illustre aussi très bien ce paradoxe. Selon eux, l’inflation serait une augmentation des prix qui, d’après certains banquiers centraux, viendrait soit de « nulle part », soit de contextes géopolitiques que personne ne peut donc ni maîtriser, ni anticiper. Alors que si une augmentation des prix peut effectivement aboutir à une inflation conjoncturelle, par exemple quand le prix du pétrole augmente, les prix de certains biens transformés augmenteront également, les vraies causes structurelles de l’inflation sont d’abord liées à une augmentation de la masse monétaire qui implique, elle, une baisse de la valeur de la monnaie et, ipso facto, une augmentation mécanique des prix.
+Et la définition que les économistes Keynésiens et les défenseurs de l’État providence donnent par exemple de l’inflation illustre aussi très bien ce paradoxe. Selon eux, l’inflation serait une augmentation des prix qui, d’après certains banquiers centraux, viendrait soit de « nulle part », soit de contextes géopolitiques que personne ne peut donc ni maîtriser, ni anticiper. Alors que si une augmentation des prix peut effectivement aboutir à une inflation conjoncturelle, par exemple quand le prix du pétrole augmente, les prix de certains biens transformés augmenteront également, les vraies causes structurelles de l’inflation sont d’abord liées à une augmentation de la masse monétaire qui implique, elle, une baisse de la valeur de la monnaie et, _ipso facto_, une augmentation mécanique des prix.
 
 Croire ou faire croire le contraire revient ainsi à rêver les yeux ouverts, comme le dit Spinoza moqueur, et à construire un raisonnement qui est faux, ou mensonger, et qui est d’autant plus facile à faire accepter qu’il est entendu comme une réponse attendue pour se donner raison. En l’espèce, quand les défenseurs de l’intervention de l’État considèrent que l’inflation est le meilleur moyen de résoudre les problèmes économiques. 
 
@@ -450,7 +450,7 @@ Autrement dit « L’infâme » selon Voltaire (1694-1778) pour qui la superst
 
 Car sous l’apparence de nous soulager, de nous permettre d’imaginer un monde meilleur, la superstition nous enferme en réalité malgré nous dans nos illusions et nos propres mensonges. Dans des servitudes desquelles nous aurons beaucoup de mal à nous extirper.
 
-C’est ce que défendront donc les Lumières allemandes, anglaises et françaises dès le 18e siècle en affirmant que la superstition empêche simplement les hommes de devenir adulte, non seulement en limitant l’exercice de la raison, mais aussi, et surtout, en faisant naître l’intolérance dont elle est le meilleur instrument pour asseoir la domination d’un pouvoir. Qu’il soit d’ordre politique ou religieux.
+C’est ce que défendront donc les Lumières allemandes, anglaises et françaises dès le XVIIIe siècle en affirmant que la superstition empêche simplement les hommes de devenir adulte, non seulement en limitant l’exercice de la raison, mais aussi, et surtout, en faisant naître l’intolérance dont elle est le meilleur instrument pour asseoir la domination d’un pouvoir. Qu’il soit d’ordre politique ou religieux.
 
 ![image](./assets/fr/3.4.5.webp)
 
@@ -529,7 +529,7 @@ Son système, il le développe dans la troisième partie de l’Éthique. Il s�
 
 ![image](./assets/fr/4.2.1.webp)
 
-Le principe est que les affects humains sont, dit Spinoza, des modifications, actives ou passives, du corps et de la pensée qui influencent notre puissance d’agir, c’est-à-dire nos comportements. 
+Le principe est que les affects humains sont, dit Spinoza, des modifications actives ou passives, du corps et de la pensée qui influencent notre puissance d’agir, c’est-à-dire nos comportements. 
 
 Or, en fonction des affects propres à la fois à la nature humaine et de ceux issus du monde extérieur, nous sommes tout à fait capables de former des idées vraies, de raisonner et d’exprimer de la joie. 
 
@@ -622,11 +622,11 @@ Notamment lorsqu’il inscrit le titre du Times du 3 janvier 2009 dans le coinba
 ![image](./assets/fr/4.3.7.webp)
 
 Le White Paper publié le 31 octobre 2008 présente ainsi Bitcoin comme un moyen d’échanger de la valeur sur internet sans tiers de confiance, en se fondant sur un protocole décentralisé. Une révolution « copernicienne » qui permet enfin aux hommes de retrouver leur capacité d’agir, c’est-à-dire leur liberté, leur liberté d’échanger, leur droit de propriété et le respect de leur vie privée. 
-Pourquoi ? Car Bitcoin permet de nous extraire de cette servitude à la façon de Spinoza, grâce à la raison, grâce au langage de Galilée que sont les mathématiques. Et comme le suggère Hayek, sans que les État puissent s’y opposer. Et de façon pacifique, sans contrainte et donc sans prosélytisme.
+Pourquoi ? Car Bitcoin permet de nous extraire de cette servitude à la façon de Spinoza, grâce à la raison, grâce au langage de Galilée que sont les mathématiques. Et comme le suggère Hayek, sans que les États puissent s’y opposer. Et de façon pacifique, sans contrainte et donc sans prosélytisme.
 
-C’est d’ailleurs le dernier parallèle que je ferai entre le spinozisme et Bitcoin pour montrer qu’il ne sert à rien de convaincre quiconque n’adhère pas à un concept copernicien ou disruptif autrement que par la raison, l’entendement, la curiosité ou la bonne volonté. 
+C’est d’ailleurs le dernier parallèle que je ferai entre le spinozisme et le Bitcoin pour montrer qu’il ne sert à rien de convaincre. Quiconque n’adhère à un concept copernicien ou disruptif autrement que par la raison, l’entendement, la curiosité ou la bonne volonté. 
 
-À rien et surtout pas par la contrainte, ni par la violence. Car le fait est que Copernic, Galilée, Newton, Darwin, Einstein, Hayek, Spinoza ou Satoshi Nakamoto n’ont ainsi jamais menacé quiconque ne croyait pas en leurs idées et en leurs démonstrations. 
+À rien et surtout pas, par la contrainte, ni par la violence. Car le fait est que Copernic, Galilée, Newton, Darwin, Einstein, Hayek, Spinoza ou Satoshi Nakamoto n’ont ainsi jamais menacé quiconque ne croyait en leurs idées et en leurs démonstrations. 
 
 
 # Section finale

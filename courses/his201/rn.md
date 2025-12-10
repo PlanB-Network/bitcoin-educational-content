@@ -570,7 +570,7 @@ Gutyo, ikoreshwa nyaryo rya RPOW ryari ry’inkuru z’ivya kera. Naho ari ukwo,
 ### Ripple: Ugusanzaza ingurane
 
 
-Iyindi nzira izwi cane y’imbere ya Bitcoin, ariko ihambaye aha, ni uburyo bwo gutanga inguzanyo Ripple, bwakozwe n’umuhinga mu vy’ubuhinga bwo gutegura ibintu wo muri Kanada Ryan Fugger mu 2004. Uwo musore w’Umunyakanada yahumekewe n’iciyumviro c’ubudandaji bwa [Exchange bwo mu karere system](LETS), ikintu yari yarabonye i Vancouver imbere y’uko akora umurongo wiwe. Yasohoye igitabu citwa Ripple [igitabu cera] ku wa 14 Ndamukiza 2004. Hanyuma aragishira mu ngiro biciye ku kimenyamenya c’ubuhinga bwa none. yemerewe abakoresha kwihuza n'imeli gusa Address.
+Iyindi nzira izwi cane y’imbere ya Bitcoin, ariko ihambaye aha, ni uburyo bwo gutanga ingurane Ripple, bwakozwe n’umuhinga mu vy’ubuhinga bwo gutegura ibintu wo muri Kanada Ryan Fugger mu 2004. Uwo musore w’Umunyakanada yisunze iciyumviro c’ubudandaji bwa [guhanahana bwo mu karere system](LETS), ikintu yari yarabonye i Vancouver imbere y’uko akora umurongo wiwe. Yasohoye igitabu citwa Ripple [igitabu cera] ku wa 14 Ndamukiza 2004. Hanyuma aragishira mu ngiro biciye ku kimenyamenya c'iciyumviro citwa RipplePay. yemerewe abakoresha kwinjira bakoresheje email gusa Address.
 
 
 ![Ryan Fugger circa 2010](assets/en/19.webp)
@@ -578,33 +578,33 @@ Iyindi nzira izwi cane y’imbere ya Bitcoin, ariko ihambaye aha, ni uburyo bwo 
 Ryan Fugger nko mu mwaka w'2010 (isoko: [Ikibanza c'Ivy'Imibano] (Umuntu/Ryan-Fugger))
 
 
-Iciyumviro ca Ripple cari gishingiye ku ciyumviro c’uko amahera ahanini agizwe n’ama IOU, ni ukuvuga inguzanyo. Vyari ku bijanye no gushinga urubuga rw’urunganwe rw’urunganwe rwoba ari ubucuti bw’inguzanyo hagati y’abantu. Ivyishyurwa vyaciye bikorwa mu gutanga urutonde rw’inguzanyo, abaje muri iyo nama bose bakaba bakora nk’abakozi bo mu mabanki bagurishanya amahera. Alice yari gushobora guha David amadolari 10 mu kuguriza Bob amadolari 10, agasaba Bob ngo na we abigirire Carole. Carole na we nyene yaragiriye David: Konte ya David yashizwemwo amadolari 10 avuye mu kurema amahera kwa Alice. Uwo murongo wakora mu buryo bumwe canke ubundi biciye ku mipfunda, ivyo bikaba bisigura izina ry’uwo mugambi.
+Iciyumviro ca Ripple cari gishingiye ku ciyumviro c’uko amahera ahanini agizwe nukwemera ideni., ni ukuvuga ingurane. Vyari ku bijanye no gushinga urubuga rw’uguhanahana hagati y'abantu babiri rwoba ari ubucuti bw’ingurane hagati y’abantu. Ivyishurwa vyaciye bikorwa mu gutanga urutonde rw’ingurane, abaje muri iyo nama bose bakaba bakora nk’abakozi bo mu mabanki baguranana amahera. Alice yari gushobora kuriha David amadolari 10 mu kugurana Bob amadolari 10, agasaba Bob ngo na we ngo agire nkuko kwa Carole. Carole na we nyene abigire nkuko kuri David: Konte ya David yashizwemwo amadolari 10 avuye mu kurema amahera kwa Alice. Uwo murongo wakora mu buryo bumwe canke ubundi mu n=buryo bwo kwimenyereza, ivyo bikaba bisigura izina ry’uwo mugambi.
 
 
-Aha niho hari amasanamu y’intango ya Ripple yakozwe mu 2011:
+Ngaya amasanamu yerekana Ripple yakozwe mu 2011:
 
 
 :::id ya videwo=056364f2-a222-4d79-a4a1-cb0dc4cea751::
 
 
-Naho abayikoresha bari bafise umunezero mwinshi be n’abayikoresha ibihumbi bikeyi, Ripple yari ifise amakosa akomeye yatumye idashobora kuroranirwa. Cane cane, [rababajwe](https://fiatjaf.com/3cb7c325.html) n'"ingorane ya Commitment yegerejwe": mu gihe c'ukwishura, abaje mu nama ntibashobora kwiyemeza mu buryo butekanye kugira ngo bashobore kumenya uruhererekane rw'inguzanyo. Umuravyo uzotorera umuti ico kibazo mu nyuma. (*umwimerere: "ikibazo c'umugambi wegerejwe"*)
+Naho abayikoresha bari bafise umunezero mwinshi be n’abayikoresha ibihumbi kanaka, Ripple yari ifise amakosa akomeye yatumye idashobora gutera imbere. Cane cane, [rababajwe](https://fiatjaf.com/3cb7c325.html) n'"ingorane y'ukwiyemeza kutagenzurwa": mu gihe c'ukuriha, bene kuyikoresha ntibashobora kwiyemeza mu buryo butekanye kugira ngo bashobore kumenya uruhererekane rw'ingurane.  Lightning yatoreye umuti ico kibazo mu nyuma. (*umwimerere: "ikibazo c'umugambi wegerejwe"*)
 
 
-Ryan Fugger abonye ko umugambi wiwe ataho uja, yaciye ashira ububasha kuri Ripple abarongozi b’iryo shirahamwe, Chris Larsen na Jed McCaleb bo muri OpenCoin Inc., mu kwezi kwa 11/2012. Iryo shirahamwe ryahinduwe izina ryitwa Ripple Labs mu 2013. XRP. Ryan Fugger amaherezo yarahinduye izina ry’ikimenyamenya ciwe c’iciyumviro ari [Rumplepay](https://rumplepay.com/) mu 2020 kugira ngo ntihagire uwuvyura urujijo.
+Ryan Fugger abonye ko umugambi wiwe uriko urasubira inyuma cane, yaciye ayishira mu maboko b'abarongozi b’iryo shirahamwe, Chris Larsen na Jed McCaleb bo muri OpenCoin Inc., mu kwezi kwa 11/2012. Iryo shirahamwe ryahinduwe izina ryitwa Ripple Labs mu 2013. Baca bazanamwo amategeko mashasha atandukanye n'iciyumviro c'ibanze, Gihagaze ku buhinga bw'ukumvikanan muri rusangi n'ingero ya konti XRP. Ryan Fugger amaherezo yarahinduye izina ry’ikimenyamenya ciwe c’iciyumviro ari [Rumplepay](https://rumplepay.com/) mu 2020 kugira ngo ntihagire uwugira amadidane.
 
 
-Ripple yari mu gihe kimwe na Bitcoin, kandi abantu benshi bashimishijwe n’ivyo vya nyuma na bo nyene bari bashimishijwe n’ivyo vya mbere. Nkako, Ripple yari ikigereranyo gishasha, gishingiye ku nyubakwa zisanzwe, ikintu gisangiye na Bitcoin. Kuri iyo nkuru, Satoshi Nakamoto [yanditse] ko "Ubushakashatsi-bubiko/ububiko bw'ibintu/2009-F. gukwiragiza ukwizigira aho kukwibanda ku kwibanda."
+Ripple yari mu gihe kimwe na Bitcoin, kandi abantu benshi bashimishijwe n’ivyo vya nyuma na bo nyene bari bashimishijwe n’ivyo vya mbere. Nkako, Ripple yari ikigereranyo gishasha, gishingiye ku nyubakwa zisanzaye, ikimenyetso isabgiye na Bitcoin. Kuri iyo nkuro, Satoshi Nakamoto [yanditse] ko "Ripple irihariye kuko ikwiragiza ubwizigirwa aho kukwitororokanya ahantu hamwe."
 
 
-### Bitcoin, iherezo ry’urugendo
+### Bitcoin, intumbero ry’urugendo
 
-Gutyo, mu mpera z’imyaka ya 2000, ibice vyose bigize Elements vya Bitcoin vyari vyaramenyekanye, kandi hari harageragejwe kenshi kubifatanya. Ariko rero, amakoraniro yariko arategurwa ntiyari yemeza. Aba cypherpunks, cane cane, buhorobuhoro baratakaje ugushimishwa kuri ico kibazo, bizera ko uguhingura amafaranga y’ubuhinga bwa none yegerejwe vy’ukuri bidashoboka. Satoshi Nakamoto yaragaragaje ko bariko barabesha.
-
-
-Bitcoin vy’ukuri ni ikoraniro ry’ubuhinga ry’ivyo vyiyumviro vyose. Ishingiye ku mukono wa digitale, uva ku nzira y'ubuhinga bwa none (asymétrique cryptography) yashikirijwe na Diffie na Hellmann mu 1976. Ni "amahera y'ubuhinga bwa none" nk'uko vyari bigamijwe n'akarorero ka David Chaum ka eCash kashizwe mu ngiro mu myaka ya 90. Uburyo bwayo bushasha bwo kwumvikana buratorera umuti neza ingorane y’abajenerali b’Abanyabizantine, nk’uko vyavuzwe na Lamport, Shostak, na Pease mu 1982. 153, ikoresha Proof of Work, uburyo busa na Hashcash, bwashikirijwe na Adam Back mu 1997. Ubwa nyuma, mu guhingura kwayo, yibuka imigambi ya b-money, bit gold, RPOW, na Ripple, iyo Satoshi Nakamoto yarishe umusoro mu buryo bumwe canke ubundi, mu 1997.
+Gutyo, mu mpera z’imyaka ya 2000, ibice vyose bigize Bitcoin vyari vyaramenyekanye, kandi hari harageragejwe kenshi kubifatanya. Ariko rero, amakoraniro yariko arategurwa ntiyari afasha. Aba cypherpunks, cane cane, buhorobuhoro baratakaje ugushimishwa kuri ico kibazo, bizera ko uguhingura amafaranga y’ubuhinga bwa none atagenzurwa vy’ukuri bidashoboka. Satoshi Nakamoto yaragaragaje ko bariko barabesha.
 
 
-Bitcoin rero ni yo igira iherezo ry’ugushaka amahera yo kuri Internet, amahera ariho yose kuri Internet kandi atari ku mbabazi za Leta. Mu bindi bice vy’iki cigwa, tuzosubiramwo ingene ryaje kubaho be n’ibintu bihambaye vyabaye mu myaka yaryo ya mbere. Iyi nkuru ni iyidasanzwe kandi nta gukeka ko izogushimisha nimba warashitse aha. Nimwitegure!
+Bitcoin vy’ukuri ni ikoraniro ry’ubuhinga ry’ivyo vyiyumviro vyose. Ishingiye ku mukono wa digitale, uva ku nzira y'ubuhinga bwa none (asymétrique cryptography) yashikirijwe na Diffie na Hellmann mu 1976. Ni "amafaranga y'ubuhinga bwa none" nk'uko vyari bigamijwe n'akarorero ka David Chaum ka eCash kashizwe mu ngiro mu myaka ya 90. Uburyo bwayo bushasha bwo kwumvikana buratorera umuti neza ingorane y’abajenerali b’Abanyabizantine, nk’uko vyavuzwe na Lamport, Shostak, na Pease mu 1982. 153, ikoresha Proof of Work, uburyo busa na Hashcash, bwashikirijwe na Adam Back mu 1997. Ubwa nyuma, mu gukorwa kwayo, yibuka imigambi ya b-money, bit gold, RPOW, na Ripple, iyo Satoshi Nakamoto yashimye aranavuga mu buryo bumwe canke ubundi, mu 1997.
+
+
+Bitcoin rero ni yo ntumbero y'uburondezi bw'amahera yo kuri Interinete, amahera ariho yose kuri Interinete kandi yigenga ku ma Leta. Mu bindi bice vy’iki cigwa, tuzosubiramwo ingene ryaje kubaho be n’ibintu bihambaye vyabaye mu myaka yaryo ya mbere. Iyi nkuru ni iyidasanzwe kandi nta gukeka ko izogushimisha nimba warashitse aha. Nimwitegure!
 
 
 # Uguseruka buhoro buhoro kwa Bitcoin
@@ -617,78 +617,78 @@ Bitcoin rero ni yo igira iherezo ry’ugushaka amahera yo kuri Internet, amahera
 <chapterId>3d141918-e9c2-46e8-8c03-2bb4eb9b2150</chapterId>
 
 
-Tumaze kumenya aho Bitcoin yava, tuzokwibanda ku mateka yayo. Ivyo vyarashikirijwe ingingo nyinshi, amasanamu menshi be n’amasanamu menshi, ku buryo hafi y’aho vyacitse inkuru z’imigani zishinga intahe. Nk’uko twabibonye, ​​Bitcoin ntishobora gutandukanywa n’aho yaremewe; ni ko biri no ku bintu vyabaye mu myaka yayo ya mbere, ivyo bikaba vyatumye iba ico iri uno musi, n’imico yayo be n’amakosa yayo.
+Tumaze kumenya aho Bitcoin yavuye, tuzokwibanda kuri kahise kayo. Ivyo vyarashikirijwe n'ingingo nyinshi, amasanamu menshi be n’ibiganiro vyinshi cane, ku buryo hafi y’aho vyacitse inkuru z’imigani zishinga intahe. Nk’uko twabibonye, ​​Bitcoin ntishobora gutandukanywa n’aho yaremewe; ni ko biri no ku bintu vyabaye mu myaka yayo ya mbere, ivyo bikaba vyatumye iba ico iri uno musi, n’imico yayo be n’amakosa yayo.
 
-Bitcoin yaremwe na Satoshi Nakamoto, umuntu atazwi yivugira ko ari Umuyapani, yafashe umwanya wo kuyihingura neza imbere y’uko ayihishurira abantu bose. Mu nyuma, barakoze vyose kugira ngo Bitcoin itanguzwe mu buryo bwiza, ishikirizwe neza mu biganiro, kandi abantu benshi bayikoreshe. Amaherezo, utwigoro tw’umuremyi twari mu gutangura ubutunzi bw’urwo rutonde nk’uko twari mu guhingura urwo rutonde mu ntango, nimba atari vyinshi.
+Bitcoin yaremwe na Satoshi Nakamoto, umuntu atazwi yivugira ko ari Umuyapani, yafashe umwanya wo kuyihingura neza imbere y’uko ayishikiriza abantu bose. Mu nyuma, barakoze vyose kugira ngo Bitcoin itanguzwe mu buryo bwiza, ishikirizwe neza mu biganiro biciye mu mpari, kandi abantu benshi bayikoreshe. Amaherezo, utwigoro tw’umuremye twarazanye vyinshi mugushira mu ngiro ubutunzi bwa sisiteme kurusha imero yayo y'intango.
 
 
-Iki gice kivuga ibijanye n’ivuka rya Bitcoin, ryabaye hagati y’impeshi y’umwaka w’2008 n’imbeho y’umwaka w’2009.Ico kiringo cararanzwe n’ibintu bibiri bihambaye: ugusohoka kw’igitabu cera, ari co gitabu c’ishimikiro gisobanura ingene iyo nzira ikora mu buryo bw’ubuhinga, ku wa 31 Gitugutu 2009; n’ugutangura kw’urubuga rw’akarorero ku wa 9 Nzero 2009, haciye amezi arenga abiri gusa. Gutyo, tuzokwibanda ku bikorwa vya Satoshi Nakamoto muri iki kiringo be n’imigenderanire mikeyi yagiranye n’abayifata mbere n’abayinegura.
+Iki gice kivuga ibijanye n’ivuka rya Bitcoin, ryabaye hagati y’impeshi y’umwaka w’2008 na hiver y’umwaka w’2009.Ico kiringo cararanzwe n’ibintu bibiri bihambaye: ugusohoka kw’igitabu cera, ari co gitabu c’ishimikiro gisobanura ingene iyo nzira ikora mu buryo bw’ubuhinga, ku wa 31 Gitugutu 2009; n’ugutangura kw’urubuga nk’akarorero ku wa 9 Nzero 2009, haciye amezi arenga abiri gusa. Gutyo, tuzokwibanda ku bikorwa vya Satoshi Nakamoto muri iki kiringo be n’imigenderanire mikeyi yagiranye n’abayifata mbere n’abayinegura.
 
 
 ### Ivyo bavumbuye
 
 
-Dukurikije [ubuhamya] bwiwe bwite, GW-being theW6being theW682. spring of 2007. Amaze gukora ubushakashatsi butandukanye ku mafaranga y’ubuhinga bwa none, amaherezo yararonse uburyo bwo gutorera umuti ingorane ya Double-spending ata muntu agira gatatu yizigirwa. Yaramaze umwaka urenga afise ibanga ry’ico kigereranyo ciwe, ashaka kugitunganya kugira ngo kibe gikomeye. Nk’uko [vyanditse] mu nyuma:
+Dukurikije [intahe] yiwe bwite, Satoshi Nakamoto yatanguye guora kuri bitcoin ku mpeshi ya 2007 . Inyma yo kugira ubushakashatsi butandukanye ku mafaranga y’ubuhinga bwa none, amaherezo yararonse uburyo bwo gutorera umuti ingorane yo gusohora kabiri(Double-spending) ata muntu agira gatatu yizigiwe. Yaramaze umwaka urenga afise ibanga ry’ico ciyumviro ciwe, ashaka kugitunganya kugira ngo kibe gikomeye. Nk’uko [vyanditse] mu nyuma:
 
 
-> "Hari igihe nemera ko hari uburyo bwo kubikora ata kwizigira na gato bisabwa kandi ntashobora kunanira kuguma ndavyiyumvira. Ibikorwa vyinshi vyari uguhingura kuruta gukora amakode."
+> "Hari igihe nemera ko hari uburyo bwo kubikora ata kwizigira na gato bisabwa kandi ntashobora guhagarika kuguma ndavyiyumvira. Ibikorwa vyinshi vyari uguhingura(kwiyumvira uburyo vyokorwa) kuruta gukora amakode."
 
-Kugira ngo bimenyekane ko ikora neza, Satoshi [yashizeho porogarama] y’akarorero imbere y’uko itegura urupapuro rweranda. Ubwo buryo burahushanye n’ivyo bikunze gukorwa mu gisata c’inyigisho, aho ivyiyumviro bishikirizwa mu buryo butegekanijwe mu mpapuro z’ubuhinga imbere y’uko bishirwa mu ngiro. Uwaremye Bitcoin [yavuze]:
+Kugira akwirikirane yemeze ko ikora neza, Satoshi [yashizeho porogarama] nk'akarorero imbere y’uko ategura igitabo cera. Ubwo buryo burahushanye n’ivyo bikunze gukorwa mu gisata c’inyigisho za kaminuza, aho ivyiyumviro bishikirizwa mu buryo butegekanijwe mu mpapuro z’ubuhinga imbere y’uko bishirwa mu ngiro. Uwaremye Bitcoin [yavuze]:
 
 
-> "Mu vy'ukuri nakoze ivyo bintu nsubira inyuma. Nabwirizwa kwandika kode yose imbere y'uko niyemeza ko nshobora gutorera umuti ingorane yose, hanyuma nkandika urupapuro."
+> "Mu vy'ukuri nakoze gato nk'uwucurika. Nabwirizwa kwandika kode yose imbere y'uko niyemeza ko nshobora gutorera umuti ingorane yose, hanyuma nkandika urupapuro."
 
 ### Gutegura
 
 
-Muri Myandagaro 2008 niho Satoshi yafata ingingo yo kwitegurira gutangura Bitcoin. Ku wa 18, yazigamye izina ry’indangarubuga Bitcoin.org biciye ku kigo kitazwi AnonymousSpeech (na [Netcoin.org] (Netcoin.org] (1573234325046558720), kumbure yari yarahisemwo izina ryiwe). Izina ry’itongo ryoba ryakira urubuga nyamukuru rwa Bitcoin. Ariko rero, Satoshi ntiyashoboye kubika izina ry’indangarubuga Bitcoin.com, iryo zina ryari rifise [umunyabwenge] (https://mmalmi.github.io/Satoshi/#email-28) kandi ryari kuba [yakoreshejwe](yakoreshejwe](ikoreshwa] hagati y’umwaka wa 2009 n’uwa 2011 n’ishirahamwe ryitwa Bitcoin Ltd., ryitaho ivy’ugutanga amahera make.
+Muri Myandagaro 2008 niho Satoshi yafata ingingo yo kwitegurira gutanguza Bitcoin. Ku wa 18, yazigamye izina ry’indangarubuga Bitcoin.org biciye ku kigo kitazwi AnonymousSpeech (na [Netcoin.org] (Netcoin.org] (1573234325046558720), kumbure yari yarahisemwo izina ryiwe). Izina ry’indangarubuga ryoba ryakira urubuga nyamukuru rwa Bitcoin. Ariko rero, Satoshi ntiyashoboye kubika izina ry’indangarubuga Bitcoin.com, iryo zina ryari rifise [umunyabwenge] (https://mmalmi.github.io/Satoshi/#email-28) kandi ryari kuba [yakoreshejwe](yakoreshejwe](ikoreshwa] hagati y’umwaka wa 2009 n’uwa 2011 n’ishirahamwe ryitwa Bitcoin Ltd., ryihariye mu vy’ugutanga amahera make.
 
 
-Ku wa 20 Myandagaro, uwaremye igitabu Bitcoin [yarashikirije] Adam Back, mu kumurungikira ubutumwa kuri email amusaba impanuro ku buryo yovuga urupapuro rwiwe mu rurimi rwa Hashca. Ni Hard kutabona ivyo nk’urwitwazo rwo kumenya neza ko uwahinguye Hashcash yamenye uburyo bwiwe bushasha.
+Ku wa 20 Myandagaro, uwaremye Bitcoin [yarashikirije] Adam Back, mu kumurungikira ubutumwa kuri email amusaba impanuro ku buryo yovuga hashcash mu gitabu cera. Biragoye kutabona ivyo nk’urwitwazo rwo kumenya neza ko uwahinguye Hashcash amenya uburyo bwiwe bushasha.
 
 
 ![Adam Back in 2012](assets/en/20.webp)
 
-Adamu Back mu mwaka w’2012 (inkomoko: [Urupapuro rwiwe bwite rwa Adamu Back]
+Adamu Back mu mwaka w’2012 (inkomoko: [urubuga rwiwe bwite rwa Adamu Back]
 
 
-Iyo email yarimwo uruja n’uruza rw’umugambi w’ico gitabu cera. Izina rya dosiye ya PDF ryari `ecash.pdf`, kandi umutwe wayo wari "Amahera y'ubuhinga bwa none ata muntu yizigirwa." Ico gitabu c’inyongera ni co kimwe n’ica mbere, kizosohoka mu kwezi kwa Gitugutu, kikaba gitandukanye n’ijambo rimwe. Ikibabaje ni uko ata nyandiko yuzuye dufise.
+Iyo email yarimwo uruja n’uruza rw’umugambi w’ico gitabu cera. Izina rya dosiye ya PDF ryari `ecash.pdf`, kandi umutwe wayo wari "Amahera y'ubuhinga bwa none ata muntu yizigirwa."("Electronic Cash Without a Trusted Third Party.") Ico gitabu ni co kimwe n’ica mbere, cahavuye arico gisohoka mu kwezi kwa Gitugutu, vyarasa ijambo kurindi. Ikibabaje ni uko ata nyandiko ikwiye dufise.
 
-Umusi ukurikira gusoma incamake ya Satoshi (ariko si urupapuro), Adam Back aca amurungika ku ciyumviro ca Wei Dai c’amahera b, kikaba kimeze nk’iciyumviro ciwe. Satoshi arishura ashimira Adam Back kubera iyo nkuru kandi akavuga ko "ivyiyumviro vyanje bitangura kuri iyo nkuru nyene." Adam Back nawe avuga ko hariho MicroMint, ariko Satoshi ntiyishura.
+Umusi ukurikira gusoma incamake ya Satoshi (ariko atari inyandiko yose), Adam Back aca amurungika ku ciyumviro ca Wei Dai c’amahera y'umuyaga(b-money), kikaba kimeze nk’iciyumviro ciwe. Satoshi arishura ashimira Adam Back kubera iyo nkuru kandi anavuga ko "ivyiyumviro vyanje bitanguriye kuri iyo nkuru nyene." Adam Back nawe avuga ko hariho MicroMint, ariko Satoshi ntiyishura.
 
 
-Umusi ukurikira, ku wa 22 Myandagaro, Satoshi yohereza ubutumwa kuri Wei Dai avuga ko "ariko aritegurira gusohora urupapuro rwagura ivyiyumviro vyawe mu buryo bushitse" maze amusaba umwaka wo gusohora urupapuro rwiwe ku b-money kugira ngo ashobore kurukoresha mu rupapuro rwera. Nk’uko biri muri Exchange yiwe na Adam Back, asangira umugambi w’igitabu cera na Wei Dai.
+Umusi ukurikira, ku wa 22 Myandagaro, Satoshi arungika ubutumwa kuri Wei Dai avuga ko "ariko aritegurira gusohora urupapuro rwagura ivyiyumviro vyawe mu buryo bwuzuye" maze amusaba umwaka wo gusohora urupapuro rwiwe ku mafaranga y'umuyaga kugira ngo ashobore kurukoresha mu rupapuro rwera. Nk’uko biri mu kiyago ciwe na Adam Back, asangira umugambi w’igitabu cera na Wei Dai.
 
 
 Naho ivyo vyari bifitaniye isano, Adam Back na Wei Dai ntibaciye bakunda iciyumviro ca Satoshi. Bazosubira muri Bitcoin gusa haciye imyaka: Wei Dai mu 2010-2011 na Adamu mu 2013.
 
 
-Ku ruhande rwiwe, Satoshi araheza kwitegurira gutangaza ivyo yahinguye. Ku wa 3 Gitugutu, yararangije gukora igitabu ca mbere c’igitabu cera Bitcoin, ubu kikaba gifise izina ryaco ryatowe. Ku wa 5 Gitugutu, yariyandikishije ku rubuga rwo gucunga umugambi rwa SourceForge, aho kode y'inkomoko ya porogarama yuguruye izokwakirwa kandi ikabungabungwa gushika mu 2011.
+Ku ruhande rwiwe, Satoshi araheza kwitegurira kugira ashire ahabona ivyo yavumbuye. Ku wa 3 Gitugutu, yararangije gukora verisiyo ya mbere y’igitabu cera Bitcoin, ubu kikaba gifise izina ryaco ryatowe. Ku wa 5 Gitugutu, yariyandikishije ku rubuga rwo gucunga umugambi rwa SourceForge, aho kode y'inkomoko ya porogarama yahavuye yandikwa kandi ikanabikwa gushika mu 2011.
 
 
 ### Gusohoka kw'igitabu cera
 
 
-Ku wa 31 Gitugutu 2008, Satoshi Nakamoto yasohoye [urupapuro rwa mbere rw'igitabu cera](itunga/pdf/Bitcoin-20081003.pdf) ku rutonde rw'ubutumwa rwo kuri imeyili rwerekeye ubuhinga bwo gukingira amakuru, rwitwa gusa "Urutonde rw'ubutumwa bwo gukingira amakuru." Uru rutonde rwacungiwe n’umuhinga mu bijanye n’ivy’ubuhinga Perry Metzger kuva mu 1996, [iremwa] ryayo, kandi rwari rwashizwe ku rubuga rwiwe bwite, Metdowd.com, kuva mu 1996. [2003] (Ubutumwa bw'amazi/ubuhinga bwo gukora amakuru y'ibanga/2003-Myandagaro/004484.html). Ni ryo rikurikira urutonde rw’aba cypherpunks, n’itandukaniro ry’uko rishobora gukorwako uburinganire bukomeye. Mu mwaka w’2008, abantu benshi bahora ari abahinga mu vy’ubuhinga bwa none, nka John Gilmore, Hal Finney na Len Sassaman, baracariko baravyitabira.
+Ku wa 31 Gitugutu 2008, Satoshi Nakamoto yasohoye [verisiyo ya mbere c'igitabu cera](itunga/pdf/Bitcoin-20081003.pdf) ku rutonde rw'ubutumwa rwo kuri email rwerekeye ubuhinga bwo gukingira amakuru, rwitwa gusa "Urutonde rw'ubutumwa bwo gukingira amakuru." Uru rutonde rwacungiwe n’umuhinga mu gukora ama pororgarama Perry Metzger kuva mu 1996, [iremwa] ryayo, kandi rwari rwashizwe ku rubuga rwiwe bwite, Metdowd.com, kuva mu 1996. [2003] (Ubutumwa bw'amazi/ubuhinga bwo gukora amakuru y'ibanga/2003-Myandagaro/004484.html). Ni ryo rikurikira urutonde rw’aba cypherpunks, n’itandukaniro ry’uko rishobora gukorwako n'uburinganire bukomeye. Mu mwaka w’2008, benshi mu bahoze mu muhari wa cypherpunks, nka John Gilmore, Hal Finney na Len Sassaman, baracariko baravyitabira.
 
 
-Mu [imeli] yiwe ya mbere (imeli] yandikiye urwo rutonde, Satoshi yanditse ati:
+Muri [imeli](ubutumwa) yiwe yambere yandikiye urwo rutonde, Satoshi yanditse ati:
 
 
-> "Nariko ndakora ku buryo bushasha bwo gutanga amahera bushingiye ku buhinga bwa none, ata wundi muntu yizigirwa."
+> "Nariko ndakora ku buryo bushasha bwo gutanga amahera bushingiye ku guhanahana hagiti y'abantu babiri gusa, ata wundi muntu yizigirwa."
 
-Iratanga kandi urutonde rw’ibintu nyamukuru vy’akarorero kiwe:
+Iratanga kandi urutonde rw’ibintu nyamukuru vy'ubwo buryo:
 
 
 
-- "Double-spending irabujijwe n'urubuga rw'urunganwe."
-- "Nta mint canke abandi bantu bizigira."
-- "Abazoja muri iyo nama bashobora kutamenyekana."
-- "Ibice bishasha bikozwe mu buryo bwa Hashcash Proof-of-Work."
+- "Double-spending(gusohora kabiri) birabujijwe n'urubuga rw'uguhanahana hagati ya babiri."
+- "Si mahera canke ubundi uruhande rwo kwizigira."
+- "Abazoja muri iyo nama ntibazomenyekana."
+- "Ingero nshasha zikozwe mu buryo bwa Hashcash Proof-of-Work."
 - "Proof-of-Work ikoreshwa mu guhingura ibikoresho bishasha nayo ituma urubuga rushobora gukingira Double-spending."
 
 
-Muri email yiwe, ashiramwo uruja n’uruza rw’ico gitabu cera, kikaba gisanzwe kiri kuri Bitcoin.org. Iyi nyandiko ngufi y’impapuro 9, yerekanwa nk’ingingo y’ubuhinga, idondora ingene Bitcoin ikora mu buryo bw’ubuhinga kandi yibanda ku ngorane yo kwishura ku rubuga.
+Muri email yiwe, ashiramwo uruja n’uruza rw’ico gitabu cera, kikaba gisanzwe kiri kuri Bitcoin.org. Iyi nyandiko ngufi y’impapuro 9, yerekanwa nk’ingingo y’ubuhinga, idondora ingene Bitcoin ikora mu buryo bw’ubuhinga kandi yibanda ku ngorane yo kuriha kuri interinete.
 
 
 ![Title and summary of the first version of the white paper (October 2008)](assets/en/21.webp)
@@ -698,14 +698,15 @@ Satoshi yararonse inyishu nkeyi inyuma y’iryo tangazo, ariko benshi barakekera
 
 
 
-- Ubwa mbere, Cypherpunk James A. Donald [ararwanya] ubushobozi bw'urwo rutonde mu kuvuga ko "rusa n'urudashobora gukoreshwa ku rugero rukenewe." Satoshi [inyishu](inyishu] ko "uburebure bw'uruja n'uruza bushobora kuba butabujijwe nk'uko wiyumvira."
-- Iciyumviro ca kabiri kibi kiva kuri John R. Levine, umwanditsi w’igitabu *Internet for Dummies* akaba n’umujanama yize cane ibikorwa remezo vy’imeli, ukuyungurura ubutumwa butari bwo, n’uburenganzira bwo gukoresha porogarama. [Aranegura] umutekano wa Bitcoin mu kuvuga ububasha bwo gukoresha ubuhinga bwa none bufise "amatongo y'amamashini y'ibikoko" agizwe na mudasobwa zigenzurwa n'abanyaruyeri. Avuga cane cane ko, kuri Internet, "abagabo beza bafise ububasha buke cane bwo gukoresha ubuhinga bwa none kurusha ababi." Satoshi [arishura] neza cane ati: "Igisabwa ni uko abahungu beza bose hamwe bafise ububasha bwo gukoresha ubuhinga bw'ibarabara kurusha umuterabwoba uwo ari we wese."
+- Ubwa mbere, Umu Cypherpunk James A. Donald [ararwanya] ugutera imbere kw'iyo sisiteme anavuga ko "rusa n'urudashobora gukoreshwa ku rugero rukenewe." Satoshi [inyishu](inyishu] ko "uburebure bw'uruja n'uruza bushobora kuba budateye ikibazo nk'uko wiyumvira."
+  
+- Iciyumviro ca kabiri kibi kiva kuri John R. Levine, umwanditsi w’igitabu *Internet for Dummies* akaba n’umujanama yize cane ibikorwa vy'inyubako za email, ukuyungurura ubutumwa budakenewe canke butaribwo(spam), n’uburenganzira bwo gukoresha porogarama. [Aranegura] umutekano wa Bitcoin mu kuvuga ububasha bwo gukoresha ubuhinga bwa none bufise "amatongo y'amamashini y'ibikoko" agizwe n'inyabwonko zigenzurwa n'abanyaruyeri. Avuga cane cane ko, kuri Inteirnete, "abagabo beza bafise ububasha buke cane bwo gukoresha ubuhinga bwa none kurusha ababi." Satoshi [arishura] neza cane ati: "Igisabwa ni uko abantu beza bose hamwe bafise ububasha bwo gukoresha ubuhinga bw'uguharura kurusha umuterabwoba uwo ari we wese yihishe."
 
 
 
-- Ubwa nyuma, umuntu yitwa Ray Dillinger (akoresheje izina ry’uruyeri ry’idubu) [aratangara] ku bijanye n’agaciro k’igice c’ikonti, akavuga ko “ibimenyamenya vy’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga. ku bijanye n’ugutera imbere kw’ubuhinga bw’ibikoresho vya orodinateri. Satoshi [inyishu](inyishu](https://www.metzdowd.com/pipermail/cryptography/2008-Ugushyingo/014831.html) ko "ukwiyongera kw'umuvuduko w'ibikoresho bifatwa" n'uguhindura igihe cose ingorane yo gukora.
+- Ubwa nyuma, umuntu yitwa Ray Dillinger (akoresheje izina ry’uruyeri bear(idubu)) [aratangara] ku bijanye n’agaciro k’igice c’ikonti, akavuga ko “proof of work z’ubuhinga bwa none ata gaciro k'indani na kamwe zifise” kandi bagatunga urutoke kuri kamere yabwo ko gutakaza agaciro k'amafaranga biterwa n’ukwiyongera kwibikoresho ubuhinga bwa none. Satoshi [yishura] ko “ukwiyongera k’umuvuduko w’ibikoresho vy'ubuhinga bwa none bisigurwa” n’uguhindurwa guhura n’igihe c’ingorane yo kubikora.
 
-Naho ugukekeranya ari co ciyumviro gihambaye kuri urwo rutonde, ntikisangirwa n’umuntu wese yiyandikishije kuri urwo rutonde rw’abarungika ubutumwa. Cane cane, umuntu umwe aratandukanye n’abandi kubera umunezero wabo: Hal Finney, afise icizigiro ku bijanye n’akazoza kandi atigeze areka iciyumviro c’amahera y’ubuhinga bwa none, naho nyene mu myaka ya 90 vyari vyananiwe. Yavuze (https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833) kuri ivyo haciye imyaka mikeyi yuko “abanyabwenge banje b’imvi z’ubuhinga bwa none [...] bakunda kuba abanyaruyeri” ariko ko “yari umuntu w’umunyaruyeri cane, yari umuntu w’umunyaruyeri cane”. ibiteye kubiri n'ivyo." (*original: "Nabonye ko abafise ubwana bw'imvi bw'ibanga (nari mfise imyaka 50) bakunda gutera isoni. Nari umuntu afise ivyiyumviro vyiza; nama nkunda ibanga, akabanga n'ibiteye ubwoba birimwo."*) Gutyo, ku wa 7 Ugushyingo, yanditse mu kinyamakuru kimwe. ku rutonde rw'uko "Bitcoin isa n'iciyumviro gitanga umuhango cane" kandi akagereranya ikigereranyo ca Satoshi n'inzahabu y'ibice ya Nick Szabo. (*umwimerere: "Bitcoin isa n'iciyumviro gitanga umuhango cane."*)
+Naho ugukekeranya ari co ciyumviro gihambaye kuri urwo rutonde, ntikisangirwa n’umuntu wese yiyandikishije kuri urwo rutonde rw’abarungika ubutumwa. Cane cane, umuntu umwe aratandukanye n’abandi kubera umunezero wabo: Hal Finney, afise icizere ku bijanye n’akazoza kandi atigeze areka iciyumviro c’amahera y’ubuhinga bwa none, naho nyene mu myaka ya 90 vyari vyananiwe. Yavuze (https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833) kuri ivyo haciye imyaka mikeyi yuko “abanyabwenge banje b’imvi z’ubuhinga bwa none [...] bakunda kuba abatavyemera” ariko ko “yari umuntu w’umunyaruyeri cane, yari umuntu w’umunyaruyeri cane”. ibiteye kubiri n'ivyo." (*original: "Nabonye ko abafise uburambe muvyo kunyegeza amakuru  (nari mfise imyaka 50) bakunda kutemera. Nari umuntu afise ivyiyumviro vyiza; nama nkunda ibanga, akabanga n'ibiteye ubwoba birimwo."*) Gutyo, ku wa 7 Ugushyingo, yanditse mu kinyamakuru kimwe. ku rutonde rw'uko "Bitcoin isa n'iciyumviro gitanga umuhango cane" kandi akagereranya ikigereranyo ca Satoshi na bit gold ya Nick Szabo. (*original: "Bitcoin isa n'iciyumviro gitanga umuhango cane."*)
 
 
 ![Hal Finney in 2007](assets/en/22.webp)
@@ -713,15 +714,15 @@ Naho ugukekeranya ari co ciyumviro gihambaye kuri urwo rutonde, ntikisangirwa n�
 Hal Finney muri 2007
 
 
-### Politike y'amafaranga n'itegeko rya porogaramu
+### Politike y'amafaranga na kode porogaramu
 
 
-Bitcoin ikoresha ubuhinga bwo kwumvikana busanzwe bushobora gutuma ama node yose y’urubuga yemeranya ku birimwo Ledger, ivyo Hal Finney avuga muri email yiwe ya mbere ko ari “uruzitiro rw’amabuye,” mu majambo abiri. Blockchain ibereye yatowe ni yo ifise amabuye menshi, kandi amatati ku mabuye ahanganye atorerwa umuti hakurikijwe iyo ngingo ngenderwako yoroshe. Ubwo buryo bwobaye butunganijwe [mu nyuma](https://sourceforge.net/p/Bitcoin/code/109/) kugira ngo haboneke umubare w’ibikorwa vyirundanijwe aho guharura umubare w’amabuye.
+Bitcoin ikoresha ubuhinga bwo kwumvikana busanzwe bushobora gutuma ama node yose y’urubuga yemeranya ku birimwo munyandiko, ivyo Hal Finney avuga muri email yiwe ya mbere ko ari “uruzitiro rw’amabuye,” mu majambo abiri. Blockchain ibereye yatowe ni yo ifise ama blocks, kandi amatati ku mabuye ahanganye atorerwa umuti hakurikijwe iyo ngingo ngenderwako yoroshe. Ubwo buryo bwobaye butunganijwe [mu nyuma](https://sourceforge.net/p/Bitcoin/code/109/) kugira ngo haboneke igitigiri c’ibikorwa vyirundanijwe aho guharura igitigiri c'ama blocks.
 
 
-Ubwo buryo bwo kwumvikana buratuma hashirwaho ubwoko bwose bw’amategeko n’inkurikizi (gukoresha ijambo rya nyuma ry’igitabu cera) muri iyo nzira. Kubera ko Bitcoin igizwe n’igikorwa co gutanga ikidodo c’igihe, birashoboka kandi ko ayo mategeko akorana n’igihe. Ni co gituma, ubuhinga bwo guhindura ingorane buza mu bikorwa kugira ngo butunganye uguhingura amabuye mashasha be n’ama bitcoins ajana na yo: iyo umubare w’amabuye yakozwe mu kiringo kinaka ari mwinshi cane, rero ingorane zo gukora ziragwira; mu gihe gihushanye n’ico, biragabanuka. Gutyo, Bitcoin itandukanye na RPOW, aho ibimenyamenya vy’ibikorwa ari vyo bigize ibice vy’ikonti.
+Ubwo buryo bwo kwumvikana buratuma hashirwaho ubwoko bwose bw’amategeko y'uguhamagarira (gukoresha ijambo rya nyuma ry’igitabu cera) muri iyo nzira. Kubera ko Bitcoin igizwe n’igikorwa co gutanga ikidodo c’igihe, birashoboka kandi ko ayo mategeko akorana n’igihe. Ni co gituma, ubuhinga bwo guhindura ingorane buza mu bikorwa kugira ngo butunganye uguhingura ama blocks mashasha be n’ama bitcoins ajana na yo: iyo umubare w’amabuye yakozwe mu kiringo kinaka ari mwinshi cane, rero ingorane zo gukora ziragwira; mu gihe gihushanye n’ico, biragabanuka. Gutyo, Bitcoin itandukanye na RPOW, aho proof of work ari vyo bigize ibice vy’ikonti.
 
-Kubera iyo mpinduka y’ingorane, Bitcoin irashobora kugira politike y’amahera, bisobanura ko umubare w’ama unités mashasha asohorwa n’iyo porotokole ushobora gutegekanirwa imbere y’igihe. Mu ntango, biteguwe ko ugusohora amahera bigumaho kugira ngo biremeshe ama node akora gutanga ubushobozi bwayo bwo gukoresha ubuhinga bwa none ku rubuga, kandi nta mahera yo gukoresha. Nk'uko Satoshi Nakamoto avyandika mu gice c'"Inkurikizi" c'[igitabu cera](itunga/pdf/Bitcoin-20081003.pdf):
+Kubera iyo mpinduka y’ingorane, Bitcoin irashobora kugira politike y’amahera, bisobanura ko igitigiri w’ingero nshasha asohorwa n’iyo porotokole ushobora gutegekanirwa imbere y’igihe. Mu ntango, biteguwe ko ugusohora amahera bigumaho kugira ngo biremeshe ama node akora gutanga ubushobozi bwayo bwo gukoresha ubuhinga bwa none ku rubuga, kandi nta mahera yo gukoresha. Nk'uko Satoshi Nakamoto avyandika mu gice c'"Inkurikizi" c'[igitabu cera](itunga/pdf/Bitcoin-20081003.pdf):
 
 > "Ukwongerwa kw'ibiceri bishasha bihoraho bisa n'abacukuzi b'inzahabu bakoresha amahera kugira ngo bongere inzahabu mu gukoreshwa."
 

@@ -21,7 +21,7 @@ You will receive your Mk4 in a tamper-evident bag. Please ensure that the bag ha
 
 The keypad consists of 10 numeric buttons, an OK (`✓`) button, and a cancel (`✕`) button. Some numeric buttons can also be used for navigation: `5` to navigate up (`^`), `7` to navigate left (`<`), `8` to navigate down `˅`, and `9` to navigate right (`>`).
 
-![01](assets/en/Coldcard2.png)
+![01](assets/Coldcard2.png)
 
 If there are no problems with the packaging, you may open the bag. The Mk4 will come with a wallet backup card that can be used to store information regarding the device's PIN, anti-phishing words, and seedphrase. Follow the following steps for the initialization: 
 

@@ -1,9 +1,9 @@
 question: Кое е основното решение за плащане, препоръчвано за предприятия със съществен профил?
-answer: Швейцарска заплата Bitcoin
+answer: Swiss Bitcoin Pay
 wrong_answers:
-  - Отворен възел
-  - Сървър на BTCPay
+  - Open Node
+  - BTCPay server
   - Bitcoinize PoS
 explanation: |
-  Изтъкваме швейцарския Bitcoin Pay като препоръчително решение за профил Essential, съчетаващ простота и сигурност.
+  Изтъкваме Swiss Bitcoin Pay като препоръчително решение за профил Essential, съчетаващ простота и сигурност.
 reviewed: true

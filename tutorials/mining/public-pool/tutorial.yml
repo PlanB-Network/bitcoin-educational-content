@@ -11,11 +11,12 @@ project_id: 9891d4f8-e1c3-4156-a1f1-eeaf5ee39e4d
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2024-09-01
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 0.92
+      - JosephQuaye
+    reward: 0.46
   - language: et
     last_contribution_date:
     urgency: 1

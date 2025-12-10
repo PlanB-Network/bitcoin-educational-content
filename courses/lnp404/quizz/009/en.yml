@@ -1,0 +1,8 @@
+question: What is the dual purpose served by Lightning Terminal's Recommended Channels feature?
+answer: Identifying stable peers and promoting network health through decentralized routing paths
+wrong_answers:
+  - Monitoring node uptime and calculating total channel capacity across the network
+  - Evaluating peer quality scores and determining optimal channel closure timing
+  - Tracking payment history and optimizing fee structures for maximum profitability
+explanation: |
+  The Recommended Channels feature serves two specific purposes: first, it identifies stable peer nodes that would benefit from additional well-connected partners, helping you find quality channel partners. Second, it promotes overall Lightning Network health by encouraging connections that decentralize routing paths and allocate capital where it's most needed. The other options describe different Lightning Network functions but don't capture the dual nature of recommendations - they're not about monitoring existing performance, closing channels, or fee optimization, but rather about strategic channel opening that benefits both individual nodes and the broader network ecosystem.

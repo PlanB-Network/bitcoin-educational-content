@@ -18,11 +18,12 @@ professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-09-22
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - Pivii
-    reward: 4.04
+      - marshal-opsource
+    reward: 2.03
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -39,10 +40,11 @@ proofreading:
     contributor_names:
     reward: 8.11
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 8.11
+      - Salgraphics
+    reward: 4.06
   - language: et
     last_contribution_date:
     urgency: 1

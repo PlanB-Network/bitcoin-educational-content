@@ -1,0 +1,31 @@
+id: 6fb540d1-12eb-48fa-959b-626849c690fe
+
+tags:
+  - software
+  - guides
+  - use-case
+
+category: operating system
+
+level: advanced
+
+professor_id: ecb6a3f0-851e-4304-8287-66f63f4f4697
+
+licence: CC-BY-SA-V4
+
+# Proofreading metadata
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-11-11
+    urgency: 1
+    contributor_names:
+      - zeraatchi
+    reward: 2.3
+  - language: fa
+    last_contribution_date: 2025-11-11
+    urgency: 1
+    contributor_names:
+      - zeraatchi
+    reward: 3.04

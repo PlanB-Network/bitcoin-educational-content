@@ -3,24 +3,25 @@ name: Shelter
 description: Utilisez le même téléphone pour le travail et pour la vie privée avec Shelter
 ---
 
-![coverI|400](cover.webp)
+![cover](cover.webp)
 
 ## Introduction
 
 Bitcoin est un projet open source, transparent, décentralisé…
-Plus vous vous enfoncez dans le terrier du lapin — plus vous vous intéressez au Bitcoin au-delà de l'aspect spéculatif — plus vous devenez bitcoiner. 
-De facto, un désir naturel émerge en vous et vous incite à découvrir, adopter, et à partager avec vos pairs des projets qui partagent ces mêmes valeurs et qui développent des applications indispensables dans nos activités quotidiennes. 
+
+Plus vous vous enfoncez dans le terrier du lapin — plus vous vous intéressez au Bitcoin au-delà de l'aspect spéculatif — plus vous devenez bitcoiner.
+
+De facto, un désir naturel émerge en vous et vous incite à découvrir, adopter, et à partager avec vos pairs des projets qui partagent ces mêmes valeurs et qui développent des applications indispensables dans nos activités quotidiennes.
 
 Dans ce tutoriel, allons à la découverte  d'un outil de gestion de la vie privée qui limite les permissions et l'accès à vos données aux applications installées sur votre smartphone : **Shelter**.
- 
+
 **Shelter** est une application mobile, libre et open source (FOSS) qui vous fournit un espace isolé où vous avez la possibilité d'installer ou de cloner des applications.    
-  
+
 Selon le dépôt GitHub de Shelter, les principaux cas d'utilisation sont :  
-  
 - l'installation d'applications dans le "Work Profil" pour les isoler ;  
 - le gel des applications dans le "Work Profil" pour les empêcher de s'exécuter ou de se réactiver lorsque vous ne les utilisez pas activement ;
-- l'installation de deux copies de la même application sur le même téléphone (clonage). 
-  
+- l'installation de deux copies de la même application sur le même téléphone (clonage).
+
 Pour fonctionner, Shelter exploite la fonctionnalité **Work Profil** (Profil professionnel) du système d'exploitation mobile **Android**. Par conséquent, Shelter n'est pas disponible pour les utilisateurs du système IOS d'Apple. 
 
 Mais qu'est-ce que la fonctionnalité **Work Profile** (Profil Professionnel) ?
@@ -47,7 +48,8 @@ D'abord, sur l'interface **Nouveautés** de F-droid, cliquez sur l'icône de rec
 
 ![screen](assets/fr/04.webp)
 
-Ensuite, cliquez sur son logo lorsqu'il apparait dans la liste de résultat de recherche. Vous serez redirigé vers une interface où vous trouverez notamment une description détaillée de l'application, ses différentes versions… 
+Ensuite, cliquez sur son logo lorsqu'il apparait dans la liste de résultat de recherche. Vous serez redirigé vers une interface où vous trouverez notamment une description détaillée de l'application, ses différentes versions…
+
 Enfin, cliquez sur le bouton **Installer**.
 
 ![screen](assets/fr/05.webp)
@@ -56,7 +58,7 @@ Enfin, cliquez sur le bouton **Installer**.
 
 ![screen](assets/fr/06.webp)
 
-En outre, vous avez la possibilité d'installer Shelter depuis son dépôt  [GitHub](https://gitea.angry.im/PeterCxy/Shelter).
+En outre, vous avez la possibilité d'installer Shelter depuis son dépôt [Git](https://gitea.angry.im/PeterCxy/Shelter).
 
 ![screen](assets/fr/07.webp)
 
@@ -218,7 +220,6 @@ Quoi qu'il en soit, vous devez supprimer avant tout le **Profil Professionnel**.
 ![screen](assets/fr/43.webp)
 
 Ensuite, revenez dans le menu de vos applications et désinstallez l'application **Shelter** maintenant. 
-
 
 Vous savez désormais comment utiliser l'application Shelter pour créer un **profil professionnel** (Work Profile) isolé et distinct de vos applications personnelles. Si ce tutoriel vous a été utile, merci de me laisser un pouce vert ci-dessous. N'hésitez pas à le partager. 
 

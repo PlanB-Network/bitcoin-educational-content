@@ -3,15 +3,15 @@ name: Matrix
 description: Guide pour comprendre, configurer et utiliser Matrix, la plateforme de communication sécurisée, ouverte et décentralisée.
 ---
 
-![cover-kali](assets/cover.webp)
+![cover](assets/cover.webp)
 
-## **Qu’est-ce que Matrix ?**
+## Qu’est-ce que Matrix ?
 
 Matrix est un **protocole de communication décentralisé** conçu pour permettre l’échange de messages, de fichiers et d’appels audio/vidéo entre utilisateurs et applications, sans dépendance à une entreprise centrale. Contrairement aux plateformes de messagerie traditionnelles, Matrix constitue une **infrastructure ouverte**, comparable à l’email : chacun peut choisir un serveur ou en exploiter un soi-même, tout en conservant la possibilité d’échanger avec le reste du réseau.
 
 Matrix se distingue par trois principes fondamentaux :
 
-### **Un protocole, pas une application**
+### Un protocole, pas une application
 
 Matrix n’est pas une application comme WhatsApp ou Telegram.  
 C’est un langage standardisé que plusieurs applications peuvent utiliser.  
@@ -21,7 +21,7 @@ Cela garantit une liberté totale : changement d’application sans perte de con
 
 ![capture](assets/fr/03.webp)
 
-### **Un réseau décentralisé et fédéré**
+### Un réseau décentralisé et fédéré
 
 La structure de Matrix repose sur la **fédération**, un modèle où plusieurs serveurs indépendants coopèrent entre eux.  
 Chaque serveur (appelé _homeserver_) peut accueillir des utilisateurs, héberger des salons de discussion et synchroniser les messages avec les autres serveurs du réseau.
@@ -59,11 +59,11 @@ Cela permet d’unifier des communautés dispersées entre plusieurs plateformes
 
 ![capture](assets/fr/06.webp)
 
-## **Comment fonctionne une Matrix?**
+## Comment fonctionne Matrix?
 
 Cette section présente la structure interne du réseau Matrix afin de comprendre comment les utilisateurs, les serveurs et les applications interagissent au sein de cet écosystème décentralisé. Matrix repose sur trois éléments essentiels : les _homeservers_, les identités, et les _clients_ utilisés pour communiquer.
 
-### **Les serveurs : les homeservers**
+### Les serveurs : les homeservers
 
 Matrix fonctionne grâce à des serveurs indépendants appelés _homeservers_.  
 Chaque homeserver gère :
@@ -80,7 +80,7 @@ Tous les homeservers connectés au réseau Matrix échangent automatiquement les
 
 Ce modèle assure une grande résilience et permet à chaque organisation ou individu de gérer sa propre infrastructure.
 
-### **Les identifiants Matrix**
+### Les identifiants Matrix
 
 Chaque utilisateur dispose d’un identifiant unique, appelé **MXID** (_Matrix ID_), qui ressemble à une adresse :
 
@@ -100,7 +100,7 @@ Exemples :
 
 Cet identifiant permet de communiquer avec n’importe quel autre utilisateur Matrix, indépendamment du serveur d’origine.
 
-### **Les clients Matrix (applications)**
+### Les clients Matrix (applications)
 
 Pour utiliser Matrix, il faut se connecter avec une application appelée **client Matrix**.
 
@@ -120,7 +120,7 @@ Ces applications ne sont que des interfaces permettant :
 
 Toutes les applications communiquent avec les serveurs via le même protocole standardisé.
 
-### **Les salons (rooms) et les messages privés (DM)**
+### Les salons (rooms) et les messages privés (DM)
 
 Dans Matrix, les échanges se déroulent dans des **rooms** :
 
@@ -135,18 +135,18 @@ La synchronisation des salons se fait en temps réel entre les serveurs particip
 
 ![capture](assets/fr/07.webp)
 
-## **Pourquoi utiliser Matrix ?**
+## Pourquoi utiliser Matrix ?
 
 Matrix n’est pas simplement une alternative aux messageries centralisées : c’est une technologie qui répond à des besoins réels en matière de souveraineté numérique, de sécurité et d’interopérabilité. Plusieurs raisons expliquent pourquoi de plus en plus de personnes, d’entreprises et d’institutions choisissent ce protocole pour communiquer.
 
-### **Reprendre le contrôle de ses communications**
+### Reprendre le contrôle de ses communications
 
 La plupart des plateformes de messagerie fonctionnent selon un modèle centralisé : un acteur unique contrôle les serveurs, l'accès, les données et les règles d'utilisation. Ce modèle implique une dépendance totale envers le fournisseur.
 Matrix adopte une approche différente.  
 Chacun peut choisir où héberger son compte, ou même déployer son propre serveur. Aucune entité n’est en position de bloquer un utilisateur, d'exiger une identification intrusive ou d’imposer un changement de politique.
 Cette architecture redonne de l’autonomie, tant aux individus qu’aux organisations. Les communications ne reposent plus sur la confiance envers une entreprise, mais sur un protocole ouvert, documenté et vérifiable.
 
-### **Communiquer de manière sécurisée et chiffrée**
+### Communiquer de manière sécurisée et chiffrée
 
 Matrix prend en charge le chiffrement de bout en bout pour les conversations privées et les groupes. Ce mécanisme garantit que seuls les participants peuvent lire les messages, même si ceux-ci transitent par des serveurs tiers dans la fédération.
 
@@ -160,7 +160,7 @@ Cela permet de :
 
 Le chiffrement n’est pas une option : c’est une brique centrale du protocole.
 
-### **Ne plus dépendre d’une seule application**
+### Ne plus dépendre d’une seule application
 
 Matrix n’est pas une application, mais un protocole.  
 
@@ -172,7 +172,7 @@ Cette diversité de client garantit :
 
 Si un client ne convient pas ou cesse d’être maintenu, il suffit d’en choisir un autre : le compte continue de fonctionner normalement.
 
-### **Fédérer et interconnecter différentes communautés**
+### Fédérer et interconnecter différentes communautés
 
 La fédération permet à différents serveurs de fonctionner ensemble tout en étant administrés indépendamment.  
 Ainsi :
@@ -185,7 +185,7 @@ Cette flexibilité permet de créer des espaces de communication adaptés à cha
 
 Matrix est particulièrement prisé dans les milieux techniques, les collectifs d’activistes, les chercheurs, les gouvernements, et de plus en plus dans les communautés Bitcoin.
 
-### **Une interopérabilité unique dans le paysage de la messagerie**
+### Une interopérabilité unique dans le paysage de la messagerie
 
 L’un des atouts majeurs de Matrix est sa capacité à **étendre** les échanges grâce à des bridges (passerelles) capables de relier :
 
@@ -202,7 +202,7 @@ Matrix devient ainsi une couche unificatrice pour les communications, permettant
 
 Cette interopérabilité réduit la fragmentation et simplifie la collaboration.
 
-### **Un protocole libre, ouvert et pérenne**
+### Un protocole libre, ouvert et pérenne
 
 Le protocole Matrix est entièrement open source et développé de manière transparente.  
 Cela garantit plusieurs avantages :
@@ -216,16 +216,16 @@ Contrairement aux messageries propriétaires, l’avenir de Matrix ne dépend pa
 
 ![capture](assets/fr/08.webp)
 
-## **Comment créer un compte Matrix ?**
+## Comment créer un compte Matrix ?
 
 Créer un compte Matrix est simple et ne nécessite aucune compétence technique. L’utilisateur peut rejoindre un serveur existant, créer son identifiant, puis commencer à discuter immédiatement. Cette section présente les étapes essentielles.
 
-### **Choisir un serveur (public ou privé)**
+### Choisir un serveur (public ou privé)
 
 Matrix est un réseau fédéré : il existe de nombreux serveurs (homeservers) gérés par différentes organisations, communautés ou particuliers. Le choix du serveur détermine seulement _où_ le compte est hébergé, mais n’empêche pas de communiquer avec l’ensemble du réseau.
 **Deux options existent :**
 
-### **• Utiliser un serveur public**
+### • Utiliser un serveur public
 
 C’est la solution la plus simple.  
 Exemples de serveurs très utilisés :
@@ -236,7 +236,7 @@ Exemples de serveurs très utilisés :
 
 Ces serveurs conviennent aux utilisateurs débutants qui souhaitent une inscription rapide.
 
-### **• Utiliser un serveur privé**
+### • Utiliser un serveur privé
 
 Idéal pour :
 
@@ -249,7 +249,7 @@ Idéal pour :
 Dans ce cas, quelqu’un doit administrer le serveur (Synapse, Dendrite, Conduit…).
 Peu importe le serveur choisi, les utilisateurs peuvent discuter entre eux grâce à la fédération.
 
-### **Créer un compte étape par étape**
+### Créer un compte étape par étape
 
 Comme Matrix est un protocole ouvert, plusieurs applications permettent d’y accéder.  
 Comme présentées, plus haut, elles offrent des interfaces et des fonctionnalités différentes selon les besoins :
@@ -262,11 +262,10 @@ Comme présentées, plus haut, elles offrent des interfaces et des fonctionnalit
 
 Le choix du client n’a pas d’impact sur le compte : tous fonctionnent avec n’importe quel serveur Matrix.
 
-### **Étapes classiques :**
+### Étapes classiques :
 
-1. Ouvrir l’application choisie.
-Pour notre cas, nous allons le faire avec [Element](app.element.io).
-2. Choisir “Créer un compte”.
+- Ouvrir l’application choisie. Pour notre cas, nous allons le faire avec [Element](app.element.io).
+- Choisir “Créer un compte”.
 
 ![cover-kali](assets/fr/10.webp)
 
@@ -280,9 +279,10 @@ Une fois l’inscription validée, un e-mail de confirmation est envoyé.
 Il suffit de cliquer sur le lien reçu pour activer le compte et accéder à l’application web (Element) afin de rejoindre ses premières conversations Matrix.
 
 ![cover-kali](assets/fr/11.webp)
+
 Vous disposez désormais d'un compte et utilisez la version Web d'Element.
 
-## **4.3 Ajouter son premier contact**
+## Ajouter son premier contact
 
 Pour communiquer avec quelqu’un sur Matrix, il suffit de connaître son identifiant complet, appelé **Matrix ID**.
 
@@ -301,11 +301,12 @@ Cliquez sur « Inviter dans cette salle » en haut de la liste des personnes et 
 Il n’existe pas de système “d’amis” : un contact est simplement une personne avec laquelle une conversation a été ouverte.
 
 ![cover-kali](assets/fr/13.webp)
+
 La personne que vous avez invitée peut soit accepter, soit refuser l’invitation. S'ils acceptent ça, tu devrais les voir rejoindre la pièce. Plus on est de fous, plus on rit !
 
 ![cover-kali](assets/fr/14.webp)
 
-### **Installer son propre serveur**
+### Installer son propre serveur
 
 Matrix prend tout son sens lorsqu'il est utilisé avec un serveur personnel.  
 Déployer son propre homeserver permet :
@@ -329,7 +330,7 @@ Déployer son propre homeserver permet :
 
 Même si cela demande un peu de configuration, gérer son propre serveur transforme Matrix en un outil souverain et durable.
 
-### **Rejoindre ses premiers salons**
+### Rejoindre ses premiers salons
 
 Matrix repose en grande partie sur les _rooms_ (salons).  
 Il existe des salons publics, privés, communautaires, techniques, locaux ou internationaux.
@@ -401,7 +402,7 @@ Il peut être utilisé pour structurer des groupes de travail, organiser des com
 
 Matrix devient alors un pilier de la communication pour toute structure souhaitant rester indépendante des grandes plateformes centralisées.
 
-## **Conclusion**
+## Conclusion
 
 Matrix représente une solution moderne, ouverte et sécurisée pour la communication en temps réel, offrant une alternative décentralisée aux plateformes traditionnelles. Grâce à son architecture fédérée et à ses protocoles de chiffrement avancés, il permet aux utilisateurs de conserver le contrôle de leurs données tout en bénéficiant d’une expérience fluide et interopérable. Que ce soit pour un usage personnel, professionnel ou communautaire, Matrix offre un cadre robuste et évolutif pour construire des environnements de communication adaptés aux besoins d’aujourd’hui.
 

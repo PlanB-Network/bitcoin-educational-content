@@ -27,22 +27,28 @@ Dashboard
 ![This is a neat little dashboard that'll give you a great overview of everything that you have available.](assets/en/08.webp)
 
 Navigation Toolbar
+
 On the left side, we have a useful toolbar, separated into two sections. Just to overview. 
 
 Merchant Tools Overview
+
 Over here on the left, we have our merchant tools, where we can make payment links. We have POS for our point-of-sale system.Event tickets, invoices, recurring invoices, payment requests, and a checkout section, where you can customize how your checkout experience will be for your customers.
 
 Business Tools Overview
+
 Underneath that, we also have your business section. Here you can configure what your orders can be made up of, transactions, contacts, connections, and settings. And then after that, we have support that will link you to all sorts of quick tips and tricks for how to use the section.
 
 Header
+
 Back up at the top, we do have a useful ticker showing the current US dollar denominated price of Bitcoin, or whatever currency you select for your business.
+
 Next to that, we do have a quick button as well that allows us to quickly get to payment links, POS, events, invoice, recurring invoice, payment request, contacts, and transactions. And next to that, we also have our account, where we can edit our account or sign out.
 
 Income Summary
 
 Beneath that, on this dashboard, we do have an income summary. This will show your Bitcoin received.
 As well as the current, the accounted value in your currency of choice.
+
 Your Bitcoin payments will be listed, by whether they come in as Bitcoin on-chain payments or Lightning payments, as well as if you are receiving any fiat payments that will be received in your, currency of choice, and locate it there. You do also have a filter, for a certain date range, if you want to look that up. So you can go backdate that and show that for a certain period as well.
 
 
@@ -51,145 +57,258 @@ Your Bitcoin payments will be listed, by whether they come in as Bitcoin on-chai
 ### Payment Links
 
 Going further down, we have our payment links. You can create a payment link there. That's just something simple you can shoot out to someone.
+
 Each payment link is composed of a title, a image, your brand logo, and your brand color. 
 
 ![Payment Link Creation Form](assets/en/09.webp)
 
 You can give a description, for example, let's just say "dijital Technologies payment"
+
 I'll just say Pay to dijital Technologies.
-Demo… or ZapRite demo link.
+
 And beneath that, you can also configure your item.
-or, you know, your actual item that you're selling, you can choose your currency, it defaults to your payment, you can choose Bitcoin,
-You can add taxes to that as well. The customer can choose what to pay, or you can display whatever the set price is.
-You can also take stock, how much is available.
-So let's say we have 10, like, in max order 1.
-You can choose what the customer has to enter, so you can get as much information as you would like.
+
+you can choose your currency, it defaults to your local currency, although you can choose Bitcoin
+
+You can add taxes to that as well. 
+
+For the price, the customer can choose what to pay, or you can display whatever the set price is.
+
+You can also take stock, how much is available. So let's say we have 10. And set a max order of 1.
+
+You can choose what details the customer has to enter, so you can get as much information as you would like.
 
 Let's just say a email is required.
-And let's say if you have a, item that you need to, ship off, you would check required fulfillment. This would load in, back to the system where you can mark that,
+
+And let's say if you have a, item that you need to, ship off, you would check required fulfillment. This would load in, back to the system where you can mark that.
+
 So the system will say, if checked, orders will be marked as paid upon payment. You will then be able to mark orders as complete. So once you, actually ship off whatever they need to get.
+
 You can also add tags to your orders. So let's just add a demo tag, as well as a…
+
 Products… And you can then also notify team members when payments are received, we'll keep that checked.
+
 And then we can go with our default payment option, but just to take a look, you can configure a custom payment solution based on whatever,
+
 Based on whatever connections you have, set up.
+
 But I'll go with my default payment that I've already configured, and that does show this checkout preview. So it'll give the price here, since we selected BTC, that's what the, order shows up on the left, and then on the right, they do have all the available payment options.
+
 Then at the bottom, when the order is complete, you then can direct them to a specific page. This is useful, especially if you have things that shouldn't be visible unless the customer has paid for them. This is a great way to add that functionality here.
+
 He just… to add the example, and I'll say ditch.io, my website.
+
 And I'll save… And the payment link has been created.
+
 Now, it gives you a pay.zaprite.com.
+
 link, you can copy that. You do also get, as well with that, you get a option to show a embed code.
+
 That you can copy and paste into a website. They can pay that way.
+
 You can get a QR code generated, you can save the PNG or the SVG versions.
+
 And deliver the, your payment that way.
+
 And then you can also print out your QR code.
+
 So that is a neat little feature.
+
 So the print will take your QR code and set that to be printed. That is another great feature. You do also have the ability to go back and edit. You can view your link, see your orders. Let's click View.
+
 So with Vue, you get the payment, also we get the name of our item, the price in Bitcoin, 5,000 sets.
+
 And then just our description at the bottom, and then we have our name and email as we selected.
+
 So once you put in your information, you then can make your payment.
+
 That will generate an invoice, generates a QR code with your business logo, and the amount in SATs, to fulfill the invoice. You can then scan and pay, this payment.
+
 We can go back… Pretty much cancel the order.
+
 If we go to the orders page…
+
 Nothing does show up there, but if any payments are made, they will show up there for the orders.
+
 And then we also have the option to unpublish or delete this as well. And if we take a note, just make a new tab…
+
 Paste in that link, it shows that same view that we were just looking at.
-And that is the payment link. If we go back… To our homepage…
-Let's go down tow the payment links page. You can see our link that we created is here as well. The income summary is also available at the top of this page.
+
+And that is the payment link. 
+
+![Payment Link Created](assets/en/10.webp)
+
+If we go back to our homepage at the payment links section. You can see our link that we created is here as well. The income summary is also available at the top of this page.
 
 ### POS
 
-![Point Of Sale](assets/en/10.webp)
+![Point Of Sale](assets/en/11.webp)
 
 Going down to the POS, point of sale system, our income summary does continue over. If you do notice from the dashboard, we had the total for all payments. For the payment links, that number gets updated for how many payments have come through this payment method.
+
 Going down to point of sale, same thing there. You can create a new point of sale system here.
-And so there, there we can see we have our title, so I'll say Demo Point of Sale.
-Point of sale system… for ZapRite tutorial.
+
+And so there we can see we have our title, so I'll say Demo Point of Sale System for ZapRite tutorial.
+
 Here you also have your currency option, so whether you want to use, a fiat currency or you can just denote the payment in Bitcoin, you are free to do that. You can add your tax percentage, and then a note for you and your team as well.
-Down here for the customer fields, again, we have our options, name, email, address, phone number, company, and note. All of these are optional. You do not have to require your customer, any of these. So you could check these for them to show up.
-But then, depending on how much KYC you want or require, you can then just break that down to be whatever is required to make the payment.
-So nothing can technically be required, but you can still have the fields available.
-require fulfillment, just like with the payment link. It is an optional choice in case you have to do some further processing of the order before they're technically complete.
-This is great for that, but for this instance, we'll just leave that off, since, at a point-of-sale sale, usually you're going to be interacting with the customer, usually get the product right then and there.
-Here with the global tags, you can see we created demo and product. I'm gonna just put demo, and since we're not technically requiring fulfillment, we're gonna leave product off.
-We're gonna keep our team notified when payments come through, and here we're gonna simplify this. We're just going to say this is a Lightning point-of-sale system. So no fiat, so they won't pay me through Square, Cash App, no bank transfers.
-But I will allow them to…
-You can only select one lightning payment method, that's fine.
+
+Down here for the customer fields, again, we have our options, name, email, address, phone number, company, and note. All of these are optional. You do not have to require your customer to provide any of these.
+
+But then, depending on how much KYC you want or require, you can then check whether the field is required to make the payment.
+
+Again, nothing has to be required, but they are available.
+
+Requiring fulfillment, just like with the payment link, it is an optional choice in case you have to do some further processing of the order before they're marked as complete.
+
+We'll leave that off, since, at in most point-of-sale situations, usually you're going to be interacting directly with the customer and they get the product right then and there.
+
+Here we have our global tags, you can see we created demo and product. I'm gonna just put demo, and since we're not technically requiring fulfillment, we're gonna leave product off.
+
+We're gonna keep our team notified when payments come through, and here we're gonna simplify this. We're just going to say this is a Lightning point-of-sale system. So no fiat, so they won't pay me through Cash App or bank transfers.
+
+You can only select one lightning payment method.
+
 So since I do have Strike, Lightning enabled, for Lightning and Bitcoin, I'm not able to use any other Lightning providers, so it's just one option for checkout.
-let's preview that, just so we can see what that looks like. they get the business logo, business name, as well as a order, and the total, and the two options, so Lightning or Bitcoin. What the customer will see is just a QR code for them to process their payment, but as we saw before, that will go through my strike, so via either on-chain or through my Lightning address.
+
+![Point Of Sale - Continued](assets/en/12.webp)
+
+Now, let's preview that just so we can see what that looks like. They get the business logo, business name, as well as a order, and the total, and the two options, so Lightning or Bitcoin. What the customer will see is just a QR code for them to process their payment, but as we saw before, that will go through my strike, so via either on-chain or through my Lightning address.
+
+![Point Of Sale - Checkout Preview](assets/en/13.webp)
+
 Here also, we do have the option for premiums and discounts. I do have a 5% premium discount set up for my Lightning or Bitcoin payments.
-So, they're kind of grouped by the type of payment. So, you can set a discount or a upcharge.
+
+They're kind of grouped by the type of payment. So, you can set a discount or a upcharge.
+
 So if you want to charge more for Fiat payments, feel free to do that.
+
+![Checkout - Premium/Discount](assets/en/14.webp)
+
 And then you can add that to your checkout experience. And I'm gonna save this.
+
 So now my POS has been created.
+
+![Point of Sale - View Terminal Options](assets/en/15.webp)
+
 And here, with my POS terminal, I get a link to that URL, as well as, once again, an embed code.
+
 That can be pasted into another web page, that I manage.
-The title does say Pay Now, we can change that.
-To buy now.
-It says for com…
+
+The title does say "Pay Now", we can change that to "buy now".
+
 Oh, so the radius of the corner. By default, it is at 8.
+
 The higher that number goes, the more ovoid… more oval-shaped the button becomes. So you see, going from 8 to 30, it's pretty round.
+
+![Point of Sale - Button Options](assets/en/16.webp)
+
 You can also, once again, get the QR code. You can then save that as a PNG picture or a SVG.
+
 Then once again, you have your URL builder.
+
 So if we take our POS link, paste that in a new tab.
+
 We get to see that this basically gives us a checkout experience.
+
+![Point of Sale - Checkout Experience](assets/en/17.webp)
+
 So there is a price at the top with dollars and sats. We can reverse that order.
+
 If I, let's say, pay $25, $22,291 sats currently, Charge that to the customer.
+
 We can take in their name, email, since it is a, you know, a point of sale, I could technically just use this webpage to manage, you know, my checkout process.
+
 So they're saving $1.25 by using Lightning via my payment method discount.
+
 And then it generates a lightning QR code, so I can then scan and make that payment.
+
 And that is the point-of-sale system. 
 
 ### Event Tickets
 
-![Event Tickets are a new feature that will have a processing cost](assets/en/11.webp)
+![Event Tickets are a new feature that will have a processing cost](assets/en/18.webp)
 
-Going down the line of merchant tools, we can also create event tickets. So you can enable event tickets as a new feature of ZapRite. These are subject to transaction fees, as outlined in the pricing page of our website and our knowledge article, so you can read further there.the pricing page of our website and our knowledge article. By clicking it below, you have, have read and agreed to our standard pricing and billing policies.
+Going down the line of merchant tools, we can also create event tickets. So you can enable event tickets as a new feature of ZapRite. 
+
+These are subject to transaction fees, as outlined in the pricing page of our website and our knowledge article, so you can read further there.the pricing page of our website and our knowledge article. 
+
+By clicking it below, you have, have read and agreed to our standard pricing and billing policies.
+
 So, if we just double-check on the pricing… Let's see… So once you enable your account, they do take a 1% processing for event tickets, plus $3 per ticket, so just keep that in mind as you make tickets.
+
 But, for invoices, payment requests, payment links, there are no fees for that, no fees for the point of sale. But for event tickets, the APAI usage and WooCommerce plugin, there is a 1% fee.
+
 And the 1% fees apply to any on-chain Liquid, Lightning, or Tether payments, likely just to cover their infrastructure, since Lightning servers and, I believe Liquid nodes would have a fee.
+
 There is a fee cap of $15 per transaction, just FYI.
+
 There's no additional charge on top of existing fiat processing.
+
+![Event Ticket Processing Fee](assets/en/19.webp)
+
+For more in depth look at fees, see the following links:
 
 [Zaprite Support: Event Tickets](https://help.zaprite.com/en/articles/11565182-how-to-create-event-tickets-in-zaprite#h_6070a198be)
 
 [Zaprite Pricing](https://help.zaprite.com/en/articles/12125797-zaprite-pricing)
-<!-- 
-ZapRite Processing, this gives us a quicker breakdown.
-So the account fee is just $25 a month per regular, or $250 annually.
-$240 annually.
-And then they have a table breakdown for the, percentages that they do charge.
-Fees would be capped at $15. -->
 
+Now let's head over to the Invoice and Contacts features.
 
-I'm gonna go down to invoices.
-Here, once again, we have our income summary at the top. It'll separate your BTC from fiat payments. It'll show how many payments you have received, accordingly. And this will just list out any and all invoices that you have created.
-So I have created 6 so far, for my software development business, or for my IT consulting business.
+Here, once again, we have our income summary at the top. It'll separate your BTC from fiat payments. It'll show how many payments you have received, accordingly. Here, you will see a list of any and all invoices that you have created.
+
+I have created 6 so far, for my software development / IT consulting business.
+
+Click [+ New Invoice] button To see what the "New Invoice" creation process looks like. 
 
 ### Contacts
 
-![](assets/en/12.webp)
+![New Invoice Form - Contact Info](assets/en/20.webp)
 
-From there, let's see what the new invoice creation process looks like. You can create or select a customer.
-So if you create a contact, let's just say, john Doe, Inc.
-Display name, John Doe, contact name, John Doe… Email…
-Doe at yahoo.com. Thank you, autofill.
+First, you need a Customer that you can either Create or Select from previous customers.
+
+So if you create a contact, let's just say, John Doe, Inc.
+
+Display name, John Doe. Contact name, John Doe. Email, Doe at yahoo.com. Thank you, autofill.
+
 Tax ID, if you have that information. Then a billing address, if you have that as well.
+
 For country, we're just gonna say U.S.
+
 And John Doe has been created.
+
+![New Invoice Form - Contact Created](assets/en/21.webp)
+
 He would be getting invoice number 7, this just auto-increments up, and the date can be now or at some point in the future.
+
 And you can set this to be due in 30 days, due on receipt in 10 days, however your business goes. I usually send out due on receipt.
-A PO number, that would be a purchase order number that you can, send as well, and then a title for the invoice.
- Could you say… consulting?
+
+A PO number, that would be a purchase order number that you can, send as well, and then a title for the invoice. Let's say… consulting.
+
+![New Invoice Form - Invoice Setup](assets/en/22.webp)
+
 And then we can add a line item.
+
 So let's say, new business IT setup. So, you know, get their computers online, set up any…
-Any security, any, monitoring that they might need. Let's just say a flat price, $70 an hour, 2-hour setup, no discount, no additional tax on that. And then just to reiterate the description.
+
+Any security, any, monitoring that they might need. Let's just say a flat price, $70 an hour, 2-hour setup, no discount, no additional tax on that. 
+
+And then just to reiterate the description.
 
 New computer setup, security… Program, security program install… Networking, monitoring… Remote access…
+
+![New Invoice Form - Invoice Fields](assets/en/23.webp)
+
 Just leave that one line item, keep our default checkout options,
+
 Just as a reminder, that gives us Lightning Payment, Bitcoin payment, card payment, Cash App payment, bank, and ACH transfers.
-Thanks for trusting us with your business, or thank you for being a loyal customer.
+
+You can also add a note at the bottom to help your customer relations: "Thanks for trusting us with your business, or thank you for being a loyal customer. etc."
+
 Then you can choose to save or send this off to your customer, and then the email will be delivered to them, automatically. If you do choose to cancel, there is a, just an alert box to make sure that you're ready to do that.
 
+![New Invoice Form - Preview Invoice](assets/en/24.webp)
+
+![New Invoice Form - Preview Checkout](assets/en/25.webp)
 
 ### Invoices
 

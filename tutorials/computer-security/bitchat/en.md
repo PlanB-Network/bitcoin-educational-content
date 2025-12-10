@@ -161,7 +161,7 @@ Channels in Bitchat enable organized communication around topics, locations, or 
 
 ### Step 1: Create a channel
 
-To create a channel, type `/j` or `/join` followed by the `channel name` in any chat (e.g. /j <channelname>). After creation a new `icon ⧉` appears indicating the new channel. Other users can join by typing the same command (e.g. /j bitchat_tutorial). 
+To create a channel, type `/j` or `/join` followed by the `channel name` in any chat (e.g. `/j <channelname>`). After creation a new `icon ⧉` appears indicating the new channel. Other users can join by typing the same command (e.g. `/j bitchat_tutorial`). 
 
 ![image](assets/en/10.webp)  
 
@@ -187,7 +187,7 @@ Now, let's talk about that `panic mode`: triple-tapping the `Bitchat logo` initi
 
 Geohash channels enable targeted conversations based on `geographic locations` rather than traditional network connections. This feature transforms bitchat into a location-aware communication tool, ideal for local coordination, community building, and location-specific discussions.
 
-### How #geohashes work
+### How `#geohashes` work
 
 The system divides the world into grid squares using the [Geohash system](https://en.wikipedia.org/wiki/Geohash), where each character in the hash represents greater precision:
 
@@ -197,7 +197,7 @@ The system divides the world into grid squares using the [Geohash system](https
 
 Precision selection balances privacy with utility: higher levels create more exclusive zones but reveal your location more precisely.
 
-### Joining #geohash channels
+### Joining `#geohash` channels
 
 1. Access the `#location channels` menu.
 2. Select your desired precision level and enter the `#geohash` (e.g. #u33d)

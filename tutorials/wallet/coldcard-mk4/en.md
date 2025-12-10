@@ -62,7 +62,7 @@ To create a new wallet, simply do the following steps.
 Alternatively, you can also choose to generate the new seedphrase with entropy. This is done if you do not trust Mk4's freshly generated seedphrase. The procedure is as follows:
 
 1. Select `New Wallet` (or `New Seed Words`) > Select `12 Word Dice Roll` or `24 Word Dice Roll` depending on your preference.
-2. You will be asked to enter the results of your dice rolls. Each dice roll adds randomness to the wallet creation process, ensuring that your seedphrase is generated in a fully secure and unpredictable way. The minimum number of roll is 99. Press `✓` after you have input at least 99 dice roll values.
+2. You will be asked to enter the results of your dice rolls. Each dice roll adds randomness to the wallet creation process, ensuring that your seedphrase is generated in a fully secure and unpredictable way. The minimum number of rolls is 99. Press `✓` after you have input at least 99 dice roll values.
 3. The device will generate 12 or 24 words as your seedphrase based on your choice. Navigate down as you carefully write down each word in the correct order. Then, press `✓` to continue. 
 4. The device will ask you to verify your seedphrase by asking the in a random order (for example, `Word 1 is?`, then `Word 5 is?`, then `Word 12 is?`, and so on) and there will be three word choices for each question. Refer to the note from Step 3 and choose the words correctly (by pressing `1`, `2` or `3`, whichever corresponds to the correct word) to complete the wallet creation.
 5. Mk4 will then ask whether you want to Enable NFC/Tap or not. For now, select `✕` for this option. This can be changed in the settings in the future.
@@ -81,7 +81,7 @@ The final option is for you to import a wallet. You can do this if you want to r
 6. Finally, Mk4 will also if you want to disable the USB Port. For now, select `✓` for this option. This can be changed in the settings in the future.
 7. The screen will now display the main menu with `Ready to Sign` at the top. This marks the completion of the wallet creation process.
 
-Do note that the seedphrase is the only access to recover your wallet. Create a backup of your seedphrase and store it in a secure place. Not your keys, not your coins, whoever has your seedphrase has access to your bitcoins!
+Do note that the seedphrase is the only access to recover your wallet. Create a backup of your seedphrase and store it in a secure place. **Not your keys, not your coins**, whoever has your seedphrase has access to your bitcoins!
 
 ## Setting up your passphrase
 
@@ -106,11 +106,11 @@ One of the best practices in Bitcoin is to use a passphrase. The passphrase acts
 8. Mk4 will then display a 8-character long master key fingerprint. This can be regarded as the "ID" of the wallet. Write down this fingerprint and press `✓` to proceed.
 9. Now, the wallet will display the main menu of the wallet with the passphrase that you have input.
 10. It's important to note that a wallet will not tell you that you have input the incorrect passphrase, because each passphrase corresponds to each own wallet with a unique identity (master key fingerprint). Therefore, it’s a good practice to re-enter the same passphrase and check whether it produces the same wallet fingerprint, ensuring that you’ve entered it correctly. To do that, perform Steps 11 to 14.
-11. Select `Restore Master`, then press `✓`. You are now back in the main menu of the wallet with the blank passphrase.
+11. On the main menu, select `Restore Master`, then press `✓`. You are now back in the main menu of the wallet with the blank passphrase.
 12. Go to `Passphrase` again, then press `✓` to proceed.
 13. Reinput the passphrase that you have written down on Step 6, then press `APPLY`.
 14. Check the 8-character long master key fingerprint against the one you have written down on Step 8. If both fingerprints does not match, you may have typed mismatched characters. You can select a new passphrase instead and repeat the process from Step 1. But if both fingerprints match, it means that you have input the passphrase correctly.
-15. The wallet with the passphrase is ready to use.
+15. The wallet with your chosen passphrase is ready to be used.
 
 ## Exporting the Wallet to Sparrow
 
@@ -119,7 +119,7 @@ Like other hardware wallets, the Coldcard Mk4 cannot be used on its own. It need
 In this tutorial, we will use Sparrow Wallet as the interface. The procedure to export the wallet is as follows:
 
 1. Ensure that you have a MicroSD card inserted into the Mk4.
-2. Perform Steps 1-15 on the "Setting up your passphrase" steps on the wallet with the passphrase that you want to export. If you want to export the wallet with the blank passphrase, you can skip this step.
+2. Perform the "Setting up your passphrase" steps on the wallet with the passphrase that you want to export. If you want to export the wallet with the blank passphrase, you can skip this step.
 3. Go to `Advanced/Tools` > Choose `Export Wallet` > Select `Generic JSON` > Scroll down as you read the instructions, then press `✓`.
 4. Mk4 now has created a file with a `.json` format in the MicroSD card.
 5. Remove the MicroSD card from the Coldcard and insert it into the device where Sparrow Wallet is installed.

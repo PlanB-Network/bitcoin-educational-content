@@ -44,7 +44,6 @@ objectives:
 
 在设计比特币时，中本聪极大地受到了电子现金模型的启发，这是密码学家大卫·尚姆在1982年提出的概念，并通过他的公司DigiCash在90年代实施。这个模型依赖于盲签名过程，允许用户以相对保密的方式进行交换。然而，它基于一个由银行组成的中心化网络来防止双重支付。因此，当DigiCash破产时，系统崩溃了。比特币通过消除对可信第三方的需求来纠正这个问题。
 
-比特币出现在一个特定的背景下：美国联邦政府关闭私人货币系统，如2008年的数字黄金货币e-gold和2013年的Liberty Reserve系统。通过依赖于一个分散风险给其参与者的模型，类似于像BitTorrent这样的点对点共享系统，中本聪创建了一个能够抵御国家直接攻击的强大的数字货币模型。
 
 比特币的创建也是在国家关闭私人货币系统如e-gold和Liberty Reserve的背景下。它构成了一个能够抵抗美国联邦政府直接攻击的强大的数字货币模型。通过在其参与者之间分散风险，类似于像BitTorrent这样的点对点共享系统，它确保了自己的生存。
 
@@ -52,7 +51,7 @@ objectives:
 
 **课程大纲**
 
-本课程分为四个部分，分别关注比特币的起源（3章）、其缓慢的出现（3章）、其初期的崛起（3章）以及其社区的形成（4章）。总共包括以下12章（同时指定了相关时期）：
+本课程分为四个部分，分别探讨比特币的起源（3章）、其缓慢的出现（3章）、最初的兴起（3章）以及其社区的形成（4章）。总共包含13章，具体如下（并注明相关时期）：
 
 - eCash：Chaumian电子现金（1976-1998）
 - 私人数字货币（1996-2013）
@@ -111,7 +110,7 @@ David Chaum的行动遵循了一个概念性的革命：1976年Whitfield Diffie�
 另一方面，数字签名依赖于使用私钥作为签名密钥，公钥作为验证密钥。用户生成一对密钥，用私钥签署消息，并将其发送给他们的通信对象，这些对象可以使用公钥验证其真实性。因此，他们永远不需要知道私钥。
 ![数字签名](assets/zh-Hans/002.webp)
 
-非对称密码学在1970年代被几位研究人员独立发现。然而，第一个呈现他们所发现的是来自斯坦福大学的两位密码学家Whitfield Diffie和Martin Hellman。1976年11月，他们在《IEEE信息理论交易》杂志上发表了一篇题为“[密码学的新方向](https://ee.stanford.edu/~hellman/publications/24.pdf)”的论文，该论文描述了一个密钥交换算法（用于对称加密的秘密密钥的传输）以及一个数字签名过程。在这篇论文的引言中，他们写道：
+非对称加密在 20 世纪 70 年代被多个研究团队独立发现。然而，最早公布其研究成果的是斯坦福大学的两位密码学家——Whitfield Diffie 和 Martin Hellman。1976 年 11 月，他们在期刊 *IEEE Transactions on Information Theory* 上发表了一篇题为“ [New Directions in Cryptography](https://ee.stanford.edu/~hellman/publications/24.pdf) ”的论文，文中描述了一种密钥交换算法（用于传输对称加密所需的秘密密钥）以及一种数字签名方法。在论文的引言部分，他们写道：
 > “我们今天站在密码学革命的边缘。廉价的数字硬件的发展使其从机械计算的设计限制中解放出来，并将高级密码设备的成本降低到可以在商业应用中使用的程度，如远程现金分发机和计算机终端。反过来，这些应用创造了对新型密码系统的需求，这些系统最小化了安全密钥分发渠道的必要性，并提供了书面签名的等价物。同时，信息理论和计算机科学的理论发展有望提供可证明安全的密码系统，将这门古老的艺术变成一门科学。”
 
 这是1977年由斯坦福新闻服务的Chuck Painter拍摄的一张照片，你可以看到Whitfield Diffie（右侧）和Martin Hellman（中间）。左侧的人是密码学家Ralph Merkle，他当时正处于做出同样发现的边缘。
@@ -180,7 +179,7 @@ eCash模型是一种数字货币概念，允许客户进行相对保密的支付
 
 eCash于1995年10月引入银行系统，开始了DigiCash与密苏里州的Mark Twain Bank的合作。与CyberBucks的浮动汇率不同，计量单位由美元支持。在1996年至1998年间，六家银行跟随Mark Twain Bank的步伐：芬兰的Merita Bank、德国的Deutsche Bank、澳大利亚的Advance Bank、奥地利的Bank Austria、挪威的Den norske Bank和瑞士的Credit Suisse。媒体随后为这一系统预言了光明的未来。
 
-然而，事情并未按计划进行。由于David Chaum固执且多疑的性格，他希望保持对公司的控制，拒绝了与ING、ABN AMRO、Visa、Netscape和Microsoft等主要金融参与者的合作。他在1997年离开了自己的职位，同年公司将总部迁至加利福尼亚。在1998年，合作银行宣布他们将放弃eCash。DigiCash最终在1998年11月破产，结束了Chaumian电子现金的这一实施。
+然而，并非一切都按计划进行。由于他固执和多疑的性格，David Chaum希望保持对他公司的控制权，并拒绝与ING、ABN AMRO、Visa、Netscape和Microsoft等主要参与者建立合作关系。他于1997年离职，同年公司将总部迁至加利福尼亚。在1998年期间，合作银行宣布放弃eCash。DigiCash最终于1998年11月破产，从而结束了这种查姆式的电子现金的实施。
 ### 大卫·查姆模型的遗产
 然而，eCash模型的发展并非毫无成果。它为多个倡议奠定了基础。
 在1990年代，其他技术解决方案利用eCash开启的趋势，在互联网上进行支付：CyberCash、First Virtual或Open Market就是这样的案例，它们受益于当时信用卡支付的不便、成本高昂和不安全。微支付系统也随之出现，如CyberCoin（由CyberCash管理）、NetBill和MilliCent。这些系统从未真正普及，但它们为PayPal自1999年起的发展铺平了道路，我们将在下一章中讨论这个案例。
@@ -188,7 +187,7 @@ eCash于1995年10月引入银行系统，开始了DigiCash与密苏里州的Mark
 
 然后，eCash启发了密码朋克，他们开发了自己的模型，如b-money、bit gold和RPOW。他们加入了工作证明(proof of work)和其他元素，这些后来在比特币中找到。我们将在第三章研究这些概念。
 
-最终，大卫·查姆的模型在他开发货币概念时对中本聪产生了重大影响。这一点通过[白皮书](assets/pdf/bitcoin-20090324.pdf)中的多处引用得到证明（标题，第2节中问题的描述，2008年8月发送给魏戴的PDF[链接](https://gwern.net/doc/bitcoin/2008-nakamoto)），以及他的私人和公开干预。从这个意义上说，eCash是比特币的主要前身，即使它不是唯一的前身。
+最终，大卫·查姆的模型在他开发货币概念时对中本聪产生了重大影响。这一点通过[白皮书](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf)中的多处引用得到证明（标题，第2节中问题的描述，2008年8月发送给魏戴的PDF[链接](https://gwern.net/doc/bitcoin/2008-nakamoto)），以及他的私人和公开干预。从这个意义上说，eCash是比特币的主要前身，即使它不是唯一的前身。
 
 通过比特币，中本聪创建了一个健壮且保密的数字货币，真正的电子现金。这样做，他实现了诺贝尔经济学奖得主、芝加哥学派创始人米尔顿·弗里德曼的[预言](https://www.youtube.com/watch?v=mlwxdyLnMXM&t=872s)，他在1999年接受国家纳税人联盟基金会采访时说：
 
@@ -288,7 +287,7 @@ PayPal的最初愿景是革命性的，符合彼得·蒂尔的自由主义愿景
 
 解决这个问题对于需要管理账户单位的分布式系统非常重要。这样的系统确实需要参与者就账户单位的所有权达成一致，即谁拥有什么。
 
-在比特币出现之前，这个问题通过所谓的“经典”算法得到了绝对的解决，这些算法要求提前知道节点，并且其中两个节点是诚实的。其中最著名的可能是1999年由Miguel Castro和Barbara Liskov开发的共识算法[PBFT](https://css.csail.mit.edu/6.824/2014/papers/castro-practicalbft.pdf)（Practical Byzantine Fault Tolerance的缩写），它允许一定数量的参与者通过每秒处理数千个请求并且延迟小于一毫秒来达成一致。
+在比特币出现之前，这个问题是通过所谓的“经典”算法以绝对方式解决的，这些算法要求节点事先已知，并且其中三分之二必须是诚实的。其中最著名的大概是 [PBFT](https://css.csail.mit.edu/6.824/2014/papers/castro-practicalbft.pdf) 共识算法（*Practical Byzantine Fault Tolerance* 的首字母缩略词），它由 Miguel Castro 和 Barbara Liskov 于 1999 年开发，允许给定数量的参与者通过处理每秒数千个请求并在不到一毫秒的延迟内达成一致。
 
 通过比特币共识算法，中本聪以一种概率方式解决了它，允许去除某些约束，牺牲交易的严格终结性。2008年11月13日，他[写道](https://www.metzdowd.com/pipermail/cryptography/2008-November/014849.html)，“工作量证明链是解决拜占庭将军问题的一个方案。”
 
@@ -300,7 +299,7 @@ PayPal的最初愿景是革命性的，符合彼得·蒂尔的自由主义愿景
 认证时间戳的示例（来源：[维基媒体](https://en.m.wikipedia.org/wiki/File:Trusted_timestamping.svg)）
 
 哈伯和斯托内塔通过从1992年开始在《纽约时报》的分类广告中发布加密指纹（由有用数据的哈希结果产生）来实施他们的想法。然后，他们在1994年创立了自己的公司Surety Technologies，旨在全身心投入这项活动。因此，他们以创建第一个时间戳链而[闻名](https://www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain)，在计算要在报纸上发布的新指纹时考虑了之前的指纹，这预示了比特币区块链的出现。
-中本聪在[比特币白皮书](assets/pdf/bitcoin-20090324.pdf)中引用了哈伯和斯托内塔的三篇论文：前面提到的1991年的论文，一篇1993年的[论文](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf)对早期提出的协议进行了改进，特别是通过使用默克尔树，以及一篇1997年的[论文](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf)介绍了使用单向函数为文件命名的方法。还引用了一篇1999年由比利时鲁汶天主教大学密码学研究小组的三位成员亨利·马西亚斯（Henri Massias）、哈维尔·塞雷特-阿维拉（Xavier Serret-Avila）和让-雅克·基斯夸特（Jean-Jacques Quisquater）撰写的描述新时间戳系统的[论文](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf)。
+中本聪在[比特币白皮书](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf)中引用了哈伯和斯托内塔的三篇论文：前面提到的1991年的论文，一篇1993年的[论文](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf)对早期提出的协议进行了改进，特别是通过使用默克尔树，以及一篇1997年的[论文](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf)介绍了使用单向函数为文件命名的方法。还引用了一篇1999年由比利时鲁汶天主教大学密码学研究小组的三位成员亨利·马西亚斯（Henri Massias）、哈维尔·塞雷特-阿维拉（Xavier Serret-Avila）和让-雅克·基斯夸特（Jean-Jacques Quisquater）撰写的描述新时间戳系统的[论文](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf)。
 ### 工作量证明和Hashcash
 
 工作量证明是一个过程，它允许计算机设备以客观和可量化的方式证明它已经耗费了能量，以便被选中访问服务或特权。它本质上是一种抵抗Sybil攻击的机制，这使得攻击者难以过度增加身份以破坏或控制任何声誉系统。
@@ -329,7 +328,7 @@ PayPal的最初愿景是革命性的，符合彼得·蒂尔的自由主义愿景
 
 ### 比特金：比特币之前的数字黄金
 
-从密码朋克的想法中涌现的第二个模型是尼克·萨博（Nick Szabo）在1998年想象的比特金概念。他是一位美国计算机科学家，拥有匈牙利血统，曾经为DigiCash担任顾问六个月。作为一个密码朋克，他以在1995年正式定义智能合约的概念而闻名。
+从密码朋克（cypherpunks）的想法中诞生的第二个模型是 Nick Szabo 在 1998 年构想的 bit gold（比特黄金）概念。后者是一位匈牙利裔美国计算机科学家，他曾在 DigiCash 担任顾问六个月。作为一名密码朋克，他以在 1995 年将 *smart contract*（智能合约）的概念正式化而闻名。
 1994年，Nick Szabo 创建了一个名为 libtech-l 的私人邮件列表，其目的如其名称所示，旨在主持关于解放技术的讨论，允许保护个人自由，抵御权威的侵犯。像 Wei Dai 和 Hal Finney 这样的密码朋克，以及经济学家 Larry White 和 George Selgin 都可以访问，他们是哈耶克货币竞争和自由银行制度的支持者。
 ![Nick Szabo in 1997](assets/zh-Hans/017.webp)
 1997年的Nick Szabo（来源：[Adrien Chen](https://twitter.com/AdrianChen/status/456922865992863744/photo/1)）
@@ -341,7 +340,7 @@ PayPal的最初愿景是革命性的，符合彼得·蒂尔的自由主义愿景
 
 比特黄金与比特币的相似之处是惊人的。系统的三个组成元素（工作证明的生产、时间戳记和产权登记册的管理），在比特黄金中是分开的，在比特币中被找到作为一个单一概念：区块链。这就是为什么许多人将其视为比特币的草稿，并推测Nick Szabo可能是中本聪。
 
-然而，两人的愿景有所不同。在比特黄金中，数字黄金片的生产方式意味着它们不是可互换的，意味着它们不能相互混合：它们必须在系统外部市场上评估，以便作为一个真正的同质单位账户的基础。因此，比特黄金模型被构想为一个用于管理稀有储备货币的结算系统，在其上可以建立一个自由银行经济，如果可能的话，使用Chaumian模型。因此，在2008年4月，Nick Szabo 在他的博客上的一条[评论](https://web.archive.org/web/20171227190431/http://unenumerated.blogspot.com/2008/04/bit-gold-markets.html?showComment=1207799580000#c3741843833998921269)中仍在寻求帮助以实施他的概念。然而，这种实施从未发生。
+然而，两人的愿景存在分歧。在 bit gold 中，数字黄金碎片的生产方式意味着它们是不可替代的（non-fungible），即它们不能相互混合：因此，它们必须在系统外部的市场进行估值，才能作为真正的同质记账单位的基础。因此，bit gold 模型被设想为一个结算系统，允许管理一种稀有的储备货币，并在此之上建立一个自由的银行经济，如果可能的话，使用查姆模型。因此，在 2008 年 4 月，在他的博客上的一篇[评论](https://web.archive.org/web/20171227190431/http://unenumerated.blogspot.com/2008/04/bit-gold-markets.html?showComment=1207799580000#c3741843833998921269)中，尼克·萨博仍在寻求帮助以实现他的概念。然而，这种实现从未发生过。
 
 ### RPOW: 可重用工作证明
 从密码朋克的思想中涌现出的第三个系统是RPOW系统，这是可重用工作证明（Reusable Proofs of Work）的缩写，由Hal Finney于2004年开发。Hal Finney是一位居住在洛杉矶地区的美国计算机科学家和密码学家。作为早期的密码朋克，他对David Chaum及其著名的eCash模型的理念充满热情。自1996年以来，他一直在与Phil Zimmermann一起开发PGP加密软件。
@@ -427,7 +426,7 @@ Ripple的概念基于这样一个观点，即金钱本质上是由借据组成�
 
 ### 白皮书的发布
 
-2008年10月31日，中本聪在一个专门讨论密码学的电子邮件邮件列表上发布了[白皮书的第一版](assets/pdf/bitcoin-20081003.pdf)，这个邮件列表简称为“密码学邮件列表”。该列表自1996年以来一直由开发者佩里·梅茨格（Perry Metzger）管理，自[2003年](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html)起，它一直托管在他的个人网站Metdowd.com上。它是cypherpunks列表的继承者，不同之处在于它受到严格的审核。2008年，一些前cypherpunks成员仍然参与其中，如约翰·吉尔摩（John Gilmore）、哈尔·芬尼（Hal Finney）和伦·萨萨曼（Len Sassaman）。
+2008年10月31日，中本聪在一个专门讨论密码学的电子邮件邮件列表上发布了[白皮书的第一版](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf)，这个邮件列表简称为“密码学邮件列表”。该列表自1996年以来一直由开发者佩里·梅茨格（Perry Metzger）管理，自[2003年](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html)起，它一直托管在他的个人网站Metdowd.com上。它是cypherpunks列表的继承者，不同之处在于它受到严格的审核。2008年，一些前cypherpunks成员仍然参与其中，如约翰·吉尔摩（John Gilmore）、哈尔·芬尼（Hal Finney）和伦·萨萨曼（Len Sassaman）。
 
 在他发给列表的第一封[电子邮件](https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html)中，中本聪简单地写道：
 
@@ -460,7 +459,7 @@ Hal Finney 2007年
 
 这种共识机制允许在系统内强加各种规则和激励措施（使用白皮书的最后一句话）。由于比特币构成了一个分布式时间戳服务，因此也可以让这些规则与时间的流逝相互作用。因此出现了难度调整算法，用来调节新区块的产生及其关联的比特币：如果在给定期间内产生的区块数量过高，则生产难度增加；反之，则减少。因此，比特币与RPOW不同，在RPOW中，工作证明本身构成了账户单位。
 
-多亏了这种难度调整，比特币因此可以有一种货币政策，意味着协议发行的新单位数量可以预先确定。最初，计划货币发行量保持恒定，以鼓励生产节点贡献其计算能力给网络，并且没有交易费用。正如中本聪在[白皮书](assets/pdf/bitcoin-20081003.pdf)的“激励”部分所写：
+多亏了这种难度调整，比特币因此可以有一种货币政策，意味着协议发行的新单位数量可以预先确定。最初，计划货币发行量保持恒定，以鼓励生产节点贡献其计算能力给网络，并且没有交易费用。正如中本聪在[白皮书](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf)的“激励”部分所写：
 > “不断增加恒定数量的新币类似于金矿工人耗费资源将黄金加入流通。”
 
 这一属性，通过中本聪[在邮件列表上](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html)和[在他的私人通信中](https://mmalmi.github.io/satoshi/#email-3)得到确认，詹姆斯·A·唐纳德并未忽视。11月9日，他[批评](https://www.metzdowd.com/pipermail/cryptography/2008-November/014837.html)“追踪谁拥有什么”的工作（即，挖矿）是“通过铸币税支付”的，并且“需要通货膨胀”，尽管他指出，“可预测的通货膨胀比时不时地调整通货膨胀以将财富从一个投票群体转移到另一个投票群体更不令人反感。”（原文：“在提议的系统中，追踪谁拥有哪些硬币的工作是通过铸币税支付的，这需要通货膨胀。这不是一个无法容忍的缺陷 - 可预测的通货膨胀比时不时地调整通货膨胀以将财富从一个投票群体转移到另一个投票群体更不令人反感。”）此外，他[指出](https://www.metzdowd.com/pipermail/cryptography/2008-November/014841.html)一个忽略它不关心的所有支出的挖矿节点“不会遭受不利后果”，从而突出了审查制度的问题。（原文：“如果一个节点正在忽略所有它不关心的支出，它不会遭受不利后果。”）
@@ -556,7 +555,8 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 
 几天后，Hal Finney在邮件列表上对这种货币政策做出了积极反应，他对“系统可以配置为只允许生成一定最大数量的单位”这一事实感到兴奋。在他的电子邮件中，他估计，如果比特币成为“全球使用的主要支付系统”，那么每个单位的价值将达到“大约1000万美元”。他总结道，“今天用几分钱的计算时间生成单位”的可能性可能是“一个非常好的赌注”。即使这个估计是有争议的（因为它基于的是相当于全球总财富的比特币估值），这种推理是合理的。
 
-1月16日，中本聪在他与邮件列表分享的一封电子邮件中重新审视了这个“长期投资”的想法，他描述了潜在的使用案例。他当时[表示](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html)，“仅仅为了以防万一它流行起来，获取一些可能是有意义的。如果足够多的人有同样的想法，那就成为了一种自我实现的预言。”一个月后，他[重申](https://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562)了这一主张，解释说有限的单位数量可能会创造一个“正反馈循环”，意味着“用户越多，价值增加得越多，这可能吸引更多希望从增值中受益的用户。”因此，从一开始就存在投机元素，目的是启动系统。
+1月16日，中本聪在发送给邮件列表的一封电子邮件中重申了“长期投资”的理念，他在其中描述了比特币的潜在用例。他当时[声明](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html)，“如果它能流行起来，拥有一些可能是审慎的”，并且“如果有足够多的人有相同的想法，那就会成为一个自我实现的预言”。一个月后，他[重申](https://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562)了这一断言，解释说有限的单位数量很可能创造一个“积极的反馈循环”，即“用户越多，价值增加越多，这可能会吸引更多渴望从不断增长的价值中受益的用户”。因此，投机因素从一开始就存在，目的是启动该系统。
+
 
 ### 监管、僵尸网络和生态
 
@@ -598,7 +598,7 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 这一切都表明，比特币的创造者在适应他的听众，并且正在尽其所能让人们对他的发现感兴趣。
 
 ### Mike Hearn 和2100万
-Satoshi的沟通策略逐渐见效。2009年4月，其他人开始对他的发明感兴趣。其中包括Mike Hearn，一位在瑞士为Google工作的英国开发者，他在业余时间从事开源软件。他后来对数字支付系统产生了兴趣，特别是对Ryan Fugger的项目Ripple感兴趣。正是在Ripple Google Group上，他通过Charles N. Wyble（一位年轻的美国计算机科学家和企业家）在3月创建的[讨论帖](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14)中听说了比特币。
+中本聪的沟通策略正逐步取得成效。2009 年 4 月，其他人开始对他的发明产生兴趣。其中之一是 Mike Hearn，一位 24 岁的英国开发人员，在瑞士为谷歌工作，并在业余时间致力于自由软件。他当时对数字支付系统感兴趣，特别是 Ryan Fugger 的项目 Ripple。正是在 Ripple 的 Google Group 上，他通过年轻的美国计算机科学家和企业家 Charles N. Wyble 在三月份创建的一个[讨论串](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14)听说了比特币。
 
 4月12日，Mike Hearn向Satoshi发送了一封[电子邮件](https://plan99.net/~mike/satoshi-emails/thread1.html)，他在邮件中询问了关于比特币的一系列问题。他指出“很少遇到真正革命性的想法”，并且没有忘记提及Ripple。
 
@@ -954,7 +954,7 @@ Satoshi的挖矿活动有一个独特的模式，使得可以识别他可能找�
 
 Satoshi的首要目标是使软件和协议更加安全，以应对最近使用量的增加。他和Gavin Andresen一起考虑可能发生的各种攻击（包括拒绝服务攻击），并努力修正发现的漏洞。这就是7月17日添加检查点系统（[v0.3.2](https://bitcointalk.org/index.php?topic=437.msg3807#msg3807)）的原因，它阻止了在特定日期之前重写链的行为，并且在7月25日集成了工作概念（[v0.3.3](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707)）以完善节点选择正确链的机制。
 
-Gavin和Satoshi还修复了几个漏洞。其中最主要的一个是“1 RETURN漏洞”，这是脚本系统中的一个漏洞，它使得可以使用特定脚本从任何地址花费比特币。这个漏洞于7月28日被ArtForz报告，他没有选择利用这个漏洞并悄悄致富，而是选择与Satoshi和Gavin分享他的发现。Satoshi很快在软件中包含了修复（[v0.3.6](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451)），并推荐所有用户升级。因此，比特币免于一场潜在的灾难性情况。这个漏洞后来在MITRE下以标识符[CVE-2010-5141](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-5141)记录。
+Gavin 和中本聪也修复了几个错误。其中主要的错误是“*1 RETURN bug*”，这是脚本系统中的一个漏洞，它使得通过一个特定的脚本可以从任何地址花费比特币。这个漏洞由 ArtForz 在 7 月 28 日报告，他没有选择利用这个缺陷并悄悄致富，而是选择与中本聪和 Gavin 分享他的发现。中本聪急忙将修复程序包含在软件 ([v0.3.6](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451)) 中，并建议所有用户进行升级。比特币因此避免了最坏的情况。此漏洞稍后将以标识符 [CVE-2010-5141](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-5141) 注册到 MITRE 公司。
 第二个目标是通过对协议进行修改或优化软件的操作来提高系统的性能。在这一类别中，向内部脚本系统添加`OP_NOP`操作码的行为就是其中之一，这是由中本聪在7月29日（v0.3.6）悄悄进行的，唯一的[评论](https://sourceforge.net/p/bitcoin/code/119/)是“扩展”一词。这些操作码是静默指令，如果出现在脚本中不会产生任何效果，但也不会使交易无效。因此，可以修改这些指令的行为，而不会使脚本与协议的旧版本不兼容，这就是中本聪评论的原因。这些操作码将特别允许所谓的“软分叉”，在2015年和2016年通过将指令`OP_NOP2`和`OP_NOP3`转换为`OP_CHECKLOCKTIMEVERIFY`和`OP_CHECKSEQUENCEVERIFY`（分别）来实现。
 
 矿工们也分享他们的发现，以直接或间接地改善与主软件的比特币生成。首先，[Laszlo的个人优化](https://bitcointalk.org/index.php?topic=199.msg1686#msg1686)在7月6日（v0.3.0）被整合到软件中。然后，Nils Schneider的SHA-256哈希函数的[上下文缓存](https://bitcointalk.org/index.php?topic=501.msg5815#msg5815)和BlackEye的[计算优化](https://bitcointalk.org/index.php?topic=453.msg5774#msg5774)在7月29日（v0.3.6）被添加到软件中。最后，Nils Schneider（再次）提出的[在单个处理器上的计算并行化](https://bitcointalk.org/index.php?topic=648.msg6722#msg6722)在8月15日（v0.3.10）被[整合](https://bitcointalk.org/index.php?topic=827.msg9590#msg9590)到代码中。
@@ -1035,14 +1035,19 @@ ArtForz在2010年8月至10月间的挖矿产量（来源：Blackburn et al., "[C
 9月2日，矿工puddinpop [分享](https://bitcointalk.org/index.php?topic=133.msg11940#msg11940)了他的挖矿客户端的可执行文件，该文件利用了CUDA算法。他对任何使用它的人收取了10%的费用。这种做法并没有受到主张免费软件的论坛成员的特别欢迎。
 
 9月6日，应论坛成员的建议，他[声明](https://bitcointalk.org/index.php?topic=133.msg12107#msg12107)如果收到“一笔可观的捐赠”，他“或许愿意将代码开源”。15日，Jeff Garzik就此事提出了一个[提议](https://bitcointalk.org/index.php?topic=133.msg12921#msg12921)，提议给puddinpop 10,000比特币，当时大约值600美元。Puddinpop接受了：交易在18日[发生](https://mempool.space/tx/f79314da84567196905f6e061e2bc9f3ee8b30d40f7b80dac90fcb1f4b4c71ea)，不久之后puddinpop便根据免费许可证[发布](https://bitcointalk.org/index.php?topic=133.msg13135#msg13135)了算法。
-大约在同一时间，其他算法也被公之于众。9月9日，一个名为nelisky的论坛成员[分享](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264)了他们自己使用CUDA的挖矿算法。10月1日，一个名为m0mchil的人，在2月份加入论坛，[发布](https://web.archive.org/web/20101206143359/http://www.bitcoin.org/smf/index.php?topic=1334.0)了他们的算法（POCLBM），将其描述为“大众的OpenCL矿工”。
+其他算法也同时公开。9月9日，一位自称 nelisky 的论坛成员[分享](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264)了他使用 CUDA 的自己的挖矿算法。10月1日，一位名叫 Momchil Georgiev 的人士（他于 2 月加入论坛并使用化名 m0mchil）[发布](https://web.archive.org/web/20101206143359/http://www.bitcoin.org/smf/index.php?topic=1334.0)了他的算法 (POCLBM)，称之为“面向大众的 OpenCL 矿工”。
 
 这一改进使得技术最为精湛的个体能够生成大量比特币。除了ArtForz，Nils Schneider（tcatm）显然成为了这一时期的主要矿工之一。2010年10月3日，他[声称](https://bitcointalk.org/index.php?topic=1327.msg15111#msg15111)拥有由3个图形处理器产生的983 MH/s的哈希率。这个数字让[中本聪](https://bitcointalk.org/index.php?topic=1327.msg15112#msg15112)自己都感到惊讶。
 
 ### 第一个挖矿池
 
 由于挖矿专业化导致的哈希率大幅增加，使得使用中央处理器生成比特币变得越来越难，也越来越不划算。实际上，生成比特币的可能性越来越依赖于变数，有些个体从未成功产生一个区块。解决这个问题的方法是合作挖矿。
-10月1日，m0mchil在[发布](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840)了一个API的修改，该修改允许客户端节点通过一个名为`getwork`的新函数检索候选区块，并在找到解决方案时返回工作证明。他写道，这个修复“为外部比特币矿工打开了大门”并且“允许为一个客户端设置多个矿工。”同一天，论坛成员在一个名为“How to overthrow the GPU Oligarchs”的帖子中首次[提到](https://bitcointalk.org/index.php?topic=1332.msg14838#msg14838)了“联合挖矿”的想法。10月13日，puddinpop[提出](https://bitcointalk.org/index.php?topic=1458.msg16906#msg16906)了这种类型的模型。矿工的计算能力使用元哈希来衡量，元哈希是包括每个区块哈希的第一个字节的缓冲区的印记。然后服务器可以定期验证客户端是否按照定义执行计算。这个模型很复杂并且[不允许出错](https://bitcointalk.org/index.php?topic=1458.msg17015#msg17015)。
+
+
+10 月 1 日，Momchil [发布了](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840)一项 API 修改，允许客户端节点通过一个名为 `getwork` 的新功能检索候选区块，并在找到解决方案时返回工作量证明。他写道，此修复程序“为外部比特币矿工开辟了道路”，并“允许为一个客户端安装多个矿工”。
+
+
+”同一天，论坛成员在一个名为“How to overthrow the GPU Oligarchs”的帖子中首次[提到](https://bitcointalk.org/index.php?topic=1332.msg14838#msg14838)了“联合挖矿”的想法。10月13日，puddinpop[提出](https://bitcointalk.org/index.php?topic=1458.msg16906#msg16906)了这种类型的模型。矿工的计算能力使用元哈希来衡量，元哈希是包括每个区块哈希的第一个字节的缓冲区的印记。然后服务器可以定期验证客户端是否按照定义执行计算。这个模型很复杂并且[不允许出错](https://bitcointalk.org/index.php?topic=1458.msg17015#msg17015)。
 
 然而，有一种更简单的方法来衡量客户端的哈希率：部分工作证明。这种方法是由ribuck、Nils Schneider和Gavin Andresen在puddinpop的描述之后[提出](https://bitcointalk.org/index.php?topic=1458.msg16951#msg16951)的。它涉及检索来自同一个候选区块的低于网络难度的部分工作证明。收集的部分证明允许对消耗的功率进行概率估计。
 
@@ -1052,13 +1057,13 @@ ArtForz在2010年8月至10月间的挖矿产量（来源：Blackburn et al., "[C
 
 ![Marek Palatinus (slush) 在2013年5月11日布拉格的Z-DAY会议上](assets/zh-Hans/050.webp)
 Marek Palatinus（slush）在2013年5月11日于布拉格举行的Z-DAY会议上
-两种估算模型于12月份实施。首先，puddinpop概念由用户doublec在12月1日应用，他[邀请](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859)人们连接到他的矿池服务器。该团队形成的[产出](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688)了其第一个区块（95,420）于12月4日。在几天后又产出了一个额外的区块后，doublec的服务器于15日被[关闭](https://bluishcoder.co.nz/bitcoin-pool/)。由于出现了一个更高效的合作伙伴：Bitcoin.cz Mining，该服务于17日永久关闭。
+这两种估算模型于 12 月实施。首先，puddinpop 的概念于 12 月 1 日由用户 doublec 应用，他[邀请](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859)人们连接到他的分组挖矿服务器。由此形成的分组于 12 月 4 日[产生了](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688)它的第一个区块（95,420）。在几天后产生了另一个额外的区块后，doublec 的服务器于 15 日[停止](https://bluishcoder.co.nz/bitcoin-pool/)运行。由于出现了一个效率更高的合作社：BitcoinCZ Mining，该服务于 17 日永久关闭。
 
-在浏览论坛后，Marek Palatinus决定实施他的矿业合作模型，并显著地在测试网络上进行了试验。他还确保服务器能够对CPU矿工（使用Jeff Garzik的软件）和GPU矿工（使用m0mchil和puddinpop的客户端）都可访问。
+在对论坛进行调查后，Marek Palatinus 决定实施他的挖矿合作社模型，并特别在测试网络上进行测试。他还确保服务器可以同时供 CPU 矿工（使用 Jeff Garzik 的软件）和 GPU 矿工（使用 Momchil 和 puddinpop 的客户端）访问。
 
 在12月15日至16日的夜间，该合作社最终由Marek Palatinus在主网络上[启动](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520)。第一个区块于16日上午被[发现](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655)（97,834）。随后，生产了许多其他区块。矿业小组从一开始就遇到了成功：在几天内，其哈希率达到了4 GH/s，占总网络功率的3.5%。
 
-该合作社将成为比特币挖矿的一个基准。它[经历](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history)了多年的几个名称：Bitcoin Pooled Mining (BPM)、Bitcoin.cz Mining，最终以其创造者的名字命名为Slush Pool。它在2022年9月变成了Braiins Pool。
+该合作社将成为比特币挖矿领域的参考。多年来，它[将拥有](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history)多个名称：Bitcoin Pooled Mining (BPM)、BitcoinCZ Mining，以及最后是 Slush Pool，以纪念其创建者。它将于 2022 年 9 月成为 Braiins Pool。
 
 ![Slush合作社2011年9月的标志](assets/zh-Hans/051.webp)
 Slush合作社2011年9月的标志（来源：[存档](https://web.archive.org/web/20110923151034/http://mining.bitcoin.cz:80/)网站）
@@ -1128,7 +1133,7 @@ Lionel Dricot (Ploum) 2012年时，作为比利时海盗党的候选人参加了
 
 ### 电子前哨基金会接受比特币
 
-2010年底的一个重大事件是电子前哨基金会接受比特币，这是一个由Mitch Kapor、John Gilmore和John Perry Barlow于1900年共同创立的国际组织，旨在保护互联网上的自由。这对比特币的早期采用者来说尤其重要，他们内心是密码朋克。他们热衷于让其接受比特币。
+2010 年底的一个重要事件是 *Electronic Frontier Foundation*（一个致力于保护互联网自由的国际组织，由 Mitch Kapor、John Gilmore 和 John Perry Barlow 于 1990 年共同创立）接受了比特币。该组织深受第一批比特币追随者（他们本质上是密码朋克 cypherpunks）的喜爱。因此，他们非常希望它能接受比特币。
 
 ![电子前哨基金会的标志](assets/zh-Hans/058.webp)
 
@@ -1180,7 +1185,7 @@ Hal Finney在2009年4月退出比特币后，很快就得知自己在2009年8月
 然而，比特币的源代码仍然是自由的，所以任何人都可以复制和修改它，这防止了协议的演变完全是任意的。正如Jeff Garzik在11月19日[表达](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-19.html#l-1538)的：
 
 > “中本聪凭空想出了魔法数字，我们集体支持这个方向。[...] 中本聪做出社区不支持的疯狂事情的那一刻，就是协议/代码库真正被分叉的时刻。”
-因此，中本聪作为领导者的角色并不阻止批评的发生。这就是为什么从7月开始社区内部逐渐出现紧张情绪。例如，在8月部署警报系统或11月修改m0mchil的`getwork`函数期间，出现了反对意见。对于这种独裁式决策的挫败感有时在IRC上[更加公开地](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-24.html#l-384)表达。
+因此，中本聪的领导作用并不能阻止批评的发生。这就是为什么从七月开始，社区中的紧张局势逐渐显现。例如，在八月 [部署](https://bitcointalk.org/index.php?topic=898.msg10745#msg10745)警报系统或十一月 [修改](https://bitcointalk.org/index.php?topic=1901.msg24050#msg24050) Momchil 的 `getwork` 函数时，都出现了反对意见。对这种独裁决策的不满有时在 IRC 上[更加公开地](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-24.html#l-384)表达。
 
 接近中本聪但也与其他开发者讨论的Gavin清楚地看到了这种情况所带来的问题。2010年9月27日，在IRC上，Gavin[声明](https://buildingbitcoin.org/bitcoin-dev/log-2010-09-27.html#l-522)他希望“能够说服\[中本聪\]转向更加协作的开发模式。”（原文：“I just wish I could convince him to switch to a more collaborative development model.”）10月，Gavin[获得](https://sourceforge.net/p/bitcoin/code/165/)了在SourceForge上的仓库写入权限，这改善了情况。到了12月，随着维基解密事件的爆发，中本聪突然退出，问题自行解决。
 
@@ -1190,7 +1195,7 @@ Hal Finney在2009年4月退出比特币后，很快就得知自己在2009年8月
 
 ![2010年11月的维基解密标志](assets/zh-Hans/059.webp)
 
-维基解密的资金主要基于公众捐款，因此该组织依赖支付处理商来接收在线支付。然而，随着这些揭露，这些中介机构因担心监管机构的反应而受到压力。这就是在线支付公司Moneybookers在10月14日[冻结](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked)该NGO账户的原因。
+维基解密的资金主要依赖公众捐款，因此该组织依赖支付处理商来接收在线付款。然而，在这些爆料之后，监管机构反应的担忧给这些第三方带来了压力。这就是在线支付公司 Moneybookers 在 10 月 14 日[冻结](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked)该非政府组织账户的原因。
 
 这种情况为使用比特币打开了一条通道，比特币不依赖任何可信第三方，能够更好地抵抗财务审查。这一假设在11月由Amir Taaki在论坛上提出，Amir Taaki是一位22岁的英国伊朗裔，使用genjix这个化名。
 

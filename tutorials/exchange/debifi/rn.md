@@ -24,11 +24,11 @@ Ico bivamwo ni **Debifi**, urubuga rwishize mu kibanza c’ubuhinga bwa none bwo
 
 
 
-Debifi ni urubuga rw’inguzanyo rudashigikiwe na Bitcoin, bisobanura ko uguma ugenzura imfunguruzo zawe z’ibanga. Ituma abakoresha bashobora gufungura amahera muri Exchange ku bitcoins zabo zifunze nk’ingwati. Mu buryo butandukanye n’inguzanyo za banki za kera, Debifi ikoresha uburyo bwo gushiramwo amasinya menshi (3 kuri 4) kandi ntiyemera gutanga ingwati, ivyo bikaba bitanga umutekano mwinshi n’uguseruka.
+Debifi ni urubuga rw’inguzanyo rudashigikiwe na Bitcoin, bisobanura ko uguma ugenzura imfunguruzo zawe z’ibanga. Ituma abakoresha bashobora gufungura amahera mu guhindura amafaranga yabo yafunze nk’ingwati. Mu buryo butandukanye n’inguzanyo za banki za kera, Debifi ikoresha uburyo bwo gushiramwo amasinya menshi (3 kuri 4) kandi ntiyemera gusubira gutanga ingwati, ivyo bikaba bitanga umutekano mwinshi n’uguseruka.
 
 
 
-Mu bikorwa, ivyo bisigura ko Debifi canke uwuguha inguzanyo ku giti ciwe atashobora gukoresha BTC yawe ata masezerano y’abantu batatu (wewe, uwuguha inguzanyo n’uwundi muntu wizigirwa). Ivyo bituma iyo sisitemu igira umutekano mwinshi: iyo ugurije kuri Debifi, uguma ufise Ownership ya Bitcoin yawe gushika iyo ngurane yishuwe yose.
+Mu bikorwa, ivyo bisigura ko Debifi canke uwuguha inguzanyo ku giti ciwe atashobora gukoresha BTC yawe ata masezerano y’abantu batatu (wewe, uwuguha inguzanyo n’uwundi muntu wizigirwa). Ivyo bituma iyo sisitemu igira umutekano mwinshi: iyo ugurije kuri Debifi, uguma ufise ububasha ku Bitcoin yawe gushika iyo ngurane yishuwe yose.
 
 
 
@@ -36,22 +36,21 @@ Mu bikorwa, ivyo bisigura ko Debifi canke uwuguha inguzanyo ku giti ciwe atashob
 
 
 
-Na Debifi, ni inguzanyo zifise ingwati, umutekano wa Blockchain (umukono mwinshi, 2FA), uguhitamwo amafaranga/amazi, ibanga n’ubugenzuzi bwose bwa Bitcoin. Debifi "iraguha uburenganzira bwo kugumya amahera yawe" (imfunguruzo zawe, ibiceri vyawe), mu gihe itanga ibiciro bihuye n'ibindi n'uburyo bwo kuronka inguzanyo zishigikiwe na BTC kw'isi yose.
+Na Debifi, uronka inguzanyo zishigikiwe na Bitcoin zifise ingwati nyinshi kandi zifise ingwati on-chain. Amahera yawe aguma ari meza n’ibipapuro vy’amasakoshi vy’amasinya menshi, 2FA, n’ububasha bwose kuri Bitcoin yawe — ufata imfunguruzo zawe, ubika ibiceri vyawe. Gutiza mu rutonde rw’ibiceri bikomeye canke amahitamwo y’amahera, ku biciro bihuye, n’amahera yo kw’isi yose.
 
 
 
 Aha niho tugereranya vyihuse inguzanyo ya Debifi n’inguzanyo ya banki isanzwe:
 
 
-
-| Caractéristiques       | Prêt via Debifi                                                       | Prêt bancaire traditionnel                                                 |
-| ---------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Accessibilité          | ✔️ Ouvert à tout détenteur de Bitcoin (même sans historique bancaire) | ❌ Souvent réservé aux clients avec garanties physiques et dossiers solides |
-| Vitesse d’obtention    | ✔️ Liquide en quelques minutes/heures                                 | ❌ Processus long (jours ou semaines)                                       |
-| Garanties exigées      | ✔️ Collatéral en Bitcoin uniquement                                   | ❌ Garanties physiques (maisons, terrains, revenus stables)                 |
-| Contrôle de l’actif    | ✔️ Vous conservez l’exposition au Bitcoin et son potentiel de hausse  | ❌ Vous n’avez aucun lien entre le prêt et vos actifs financiers            |
-| Souplesse géographique | ✔️ Disponible partout (sans contrainte géographique bancaire)         | ❌ Limité à la juridiction de la banque                                     |
-| Risque principal       | ❌ Risque de liquidation si le prix du BTC chute trop                  | ❌ Risque de saisie de biens ou impact négatif sur la cote de crédit        |
+| Characteristics        | Loan via Debifi                                                        | Traditional Bank Loan                                                       |
+| ---------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Accessibility          | ✔️ Open to any Bitcoin holder (even without banking history)           | ❌ Often limited to clients with physical collateral and strong records      |
+| Speed of approval      | ✔️ Funds available within minutes or hours                             | ❌ Lengthy process (days or weeks)                                           |
+| Required guarantees    | ✔️ Bitcoin used as the sole collateral                                 | ❌ Physical guarantees (property, land, stable income)                       |
+| Asset control          | ✔️ You keep exposure to Bitcoin and its upside potential               | ❌ No connection between the loan and your financial assets                  |
+| Geographic flexibility | ✔️ Available everywhere (no banking jurisdiction constraints)          | ❌ Restricted to the bank’s jurisdiction                                     |
+| Main risk              | ❌ Liquidation risk if BTC price drops too sharply                      | ❌ Risk of asset seizure or negative impact on credit score                  |
 
 Imbere y’uko ndakwereka intambwe ku yindi ingene woguriza kuri Debifi, hariho ingingo nkeyi mbona ko ukwiye kumenya.
 
@@ -76,7 +75,7 @@ Imbere y’uko ndakwereka intambwe ku yindi ingene woguriza kuri Debifi, hariho 
 
 
 
-- Uburyo bwa Multisig escrow (3/4)** ni uburyo bwo kubika amafaranga aho amafaranga y'umuguzi ashirwa mu Address ifise imikono myinshi. Mu buryo bwihariye, abantu bane (4) umwe wese afise urufunguruzo (uwugurisha, uwugurisha, Debifi, uwugira gatatu yigenga). Kugira ngo umuntu yimure amahera, bisaba nibura amasinyatire 3 kuri 4.
+- Uburyo bwa Multisig escrow (3/4)** ni uburyo bwo gushiramwo amahera ataco akora aho amahera y’umuguzi ashirwa kuri aderesi y’imikono myinshi. Mu buryo bwihariye, abantu bane (4) umwe wese afise urufunguruzo (uwugurisha, uwugurisha, Debifi, uwugira gatatu yigenga). Kugira ngo umuntu yimure amahera, bisaba nibura amasinyatire 3 kuri 4.
 
 
 
@@ -112,23 +111,17 @@ Kugira ngo utangure kuri Debifi, uzokenera ibintu bikeyi.
 
 
 
-Imbere y’uko ushobora kugurana kuri Debifi, urabe neza ko ufise ibi bikurikira:
+Imbere y’uko ushobora kugurana na Debifi, urabe neza ko ufise ibi bikurikira:
 
 
 
 
 
-- Bitcoin Wallet: aho ufise BTC yawe (vyiza ni uko udashobora kuyibika, nk’akarorero Hardware Wallet canke Wallet yizigirwa). Ni muri iyi Wallet uzorungika ingwati ya Bitcoin kuri Debifi maze ubone amahera.
+- Bitcoin wallet: aho ufise BTC yawe (vyiza ni uko udashobora kuyibika, nk’akarorero Hardware Wallet canke wallet yizigirwa). Ni muri iyi wallet uzorungika ingwati ya Bitcoin kuri Debifi maze ugasubira kuronka ingwati.
 
 
 
-
-
-- Ibiceri bikomeye canke fiat: Debifi igurisha mu biceri bikomeye n’amahera amwe amwe y’amahera. Ivyuma nyamukuru bikoreshwa ni USDT na USDC.
-
-
-
-Ushobora gukoresha Aqua, Bitcoin na Liquid Wallet nayo ifasha mu gucunga amafaranga y’amadolari y’Amerika ku nzira zitandukanye. Canke COLDCARD (Mk4 canke Q), ubu ni co gikoresho conyene gifashwa na Debifi.
+Ushobora gukoresha Aqua, Bitcoin na Liquid wallet nayo ifasha uburongozi bw’amahera y’USDT ku nzira zitandukanye. Canke COLDCARD (Mk4 canke Q), ubu ni co gikoresho conyene gifashwa na Debifi.
 
 
 
@@ -148,7 +141,7 @@ https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 
 
 
-- Ikoreshwa ry’ukwemeza ry’ibintu bibiri: Debifi isaba kode y’Ukwemeza ku gikorwa cose gihambaye. Ni Layer y’inyongera y’umutekano. Muri iyi nyigisho, tuzokoresha Google yemeza. Canke na ho, woshobora gukoresha abandi uko ubona ko bikwiye.
+- Ikoreshwa ry’ukwemeza ry’ibintu bibiri: Debifi isaba kode y’Ukwemeza ku gikorwa cose gihambaye. Ni ikindi gice c’umutekano. Muri iyi nyigisho, tuzokoresha Google yemeza. Canke na ho, woshobora gukoresha abandi uko ubona ko bikwiye.
 
 
 
@@ -158,13 +151,13 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-- Urubuga rwa Debifi n’iporogarama yo kuri telefone ngendanwa: Debifi ni urubuga n’iporogarama yo kuri telefone ngendanwa, kandi ivyo bibiri bikorana. Iryo koraniro ry’amatelefone ngendanwa rihinduka Wallet, ikaba ibika urufunguzo rwawe rw’ibanga, kandi igacungera ugusinyana amasezerano. Ikindi, urakeneye gukoresha urubuga kugira ngo ukore amasezerano (Interface nini iraguha iciyumviro rusangi c’amasezerano y’inguzanyo n’ibintu vyihariye vyayo).
+- Urubuga rwa Debifi n’iporogarama yo kuri telefone ngendanwa: Debifi ni urubuga n’iporogarama yo kuri telefone ngendanwa, kandi ivyo bibiri bikorana. Iryo koraniro ry’amatelefone ngendanwa rihinduka wallet, ikaba ibika urufunguzo rwawe rw’ibanga, kandi igacungera ugusinyana amasezerano. Ikindi, urakeneye gukoresha urubuga kugira ngo ukore amasezerano (Interface nini iraguha iciyumviro rusangi c’amasezerano y’ingurane n’ibintu vyihariye vyayo).
 
 
 
 
 
-- Kugira ngo umuntu afate inguzanyo, asabwa gukoresha porogarama ya Debifi (iOS/Android). Utegerezwa gukuraho iyo app, ugakora konti maze "ugahuza" igikoresho cawe (kwandika igikoresho kuri konti yawe). Porogarama ya Debifi ifasha mu kwemeza ibintu bibiri (2FA) kandi ata telefone ngendanwa, ntushobora kwemeza amafaranga ukoresha kuri Debifi.
+- Kugira ngo umuntu afate inguzanyo, asabwa gukoresha porogarama ya Debifi (iOS/Android). Utegerezwa gukuraho iyo app, ugakora konti maze "ugahuza" igikoresho cawe (kwandika igikoresho kuri konti yawe). Porogarama ya Debifi ifasha mu kwemeza ko umuntu ari uwundi (2FA) kandi ata telefone ngendanwa, ntushobora kwemeza amafaranga ukoresha kuri Debifi.
 
 
 
@@ -200,7 +193,7 @@ Igihe umaze kwinjira muri porogarama, ukande kuri **Settings**.
 
 
 
-Hanyuma ukande kuri **Injira canke ufungure konti** kugira ngo ufungure konti ukoresheje e-mail yawe Address.
+Hanyuma ukande kuri **Injira canke ukore konti** kugira ngo ukore konti ufise aderesi yawe ya e-mail.
 
 
 
@@ -268,7 +261,7 @@ Kubera umutekano, Debifi izogusaba gukurikira intambwe zitatu.
 
 
 
-- Kugira ngo ubone umutekano wongereweko, urashobora mbere kwongerako passphrase.
+- Kugira ngo uronke umutekano wongereweko, urashobora mbere kwongerako passphrase.
 
 
 
@@ -278,11 +271,11 @@ Kubera umutekano, Debifi izogusaba gukurikira intambwe zitatu.
 
 https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-Urashobora kubona ko telefone yawe y’ubuhinga bwa none yanditswe ari yo yonyene izoshobora gufungura konti yawe (ingero y’umutekano y’inyongera).
+Urashobora kumenya ko telefone yawe y’ubuhinga bwa none yanditswe ari yo yonyene izoshobora gufungura konti yawe (ingero y’umutekano y’inyongera).
 
 
 
-Uhejeje izo ntambwe, ukande kuri **Offers** kugira ubone inguzanyo ziriho. Iyo ukanze ku kintu, kigusubiza ku rubuga rwa Debifi.
+Uhejeje izo ntambwe, ukande kuri **Offers** kugira ubone inguzanyo zihari. Iyo ukanze ku kintu, kigusubiza ku rubuga rwa Debifi.
 
 
 
@@ -347,7 +340,7 @@ Amafaranga ya fiat Debifi itanga ubu urashobora kuyabona kuri platform.
 
 
 
-Debifi yizigira amategeko y’inguzanyo agaragara kandi ashobora guhinduka kugira ngo ashobore gushitsa ivyo buri ruhande rukeneye (uwugurisha n’uwugurisha). Ivyiyumviro nyamukuru birimwo :
+Debifi yizigira amategeko y’inguzanyo agaragara kandi ashobora guhinduka kugira ngo ashobore gushitsa ivyo buri wese akeneye (uwugurisha n’uwugurisha). Ivyiyumviro nyamukuru birimwo :
 
 
 
@@ -360,7 +353,7 @@ Ivyiyumviro vy’inguzanyo vya Bitcoin muri rusangi ni bitatu (3) mu mubare:
 
 
 
-- Conservative (20% - 40% LTV), ihuye n’inguzanyo idafise ingorane nyinshi, ni nziza cane mu gutuma umuntu agira umutekano mwinshi ku bijanye n’uguhinduka kw’ibiciro vya Bitcoin;
+- Conservative (30% - 40% LTV), ihuye n’inguzanyo idafise ingorane nyinshi, ni nziza cane mu gutuma umuntu agira umutekano mwinshi ku bijanye n’uguhinduka kw’ibiciro vya Bitcoin;
 
 
 
@@ -372,7 +365,7 @@ Ivyiyumviro vy’inguzanyo vya Bitcoin muri rusangi ni bitatu (3) mu mubare:
 
 
 
-- Aggressive (70% - 85% LTV), itanga amahera menshi, ariko ikaba itwara ingorane nyinshi cane zo gusenyuka mu gihe isoko rigenda rigabanuka. Gukurikirana neza uko isoko rya Bitcoin rimeze ni ngombwa igihe uhitamwo iki gice.
+- Aggressive (70% LTV), itanga amafaranga menshi, ariko ikaba ifise ingorane nyinshi cane zo gutakaza amafaranga mu gihe isoko ririko rigwa. Gukurikirana neza uko isoko rya Bitcoin rimeze ni ngombwa igihe uhitamwo iki gice.
 
 
 
@@ -388,7 +381,7 @@ Gushinga igiciro muri rusangi bivana na LTV wahisemwo, igihe c’inguzanyo, uguh
 
 
 
-Urutonde rwo kwishura inguzanyo akenshi rurahinduka kandi rukaba rujanye n’ivyo uwuzikoresha akeneye. Ivyishyurwa bishobora gukorwa igihe cose igihe cose ibisabwa vy’ingwati bishitse. Ivyishyurwa vy’inguzanyo muri rusangi ni inyungu mu kiringo c’inguzanyo, n’amahera y’inguzanyo akwiye guhera.
+Urutonde rwo kwishura rurahinduka kandi rugenewe guhura n’ivyo uwuguze akeneye. Inguzanyo zishobora kwishurwa zose canke igice igihe cose ata yindi mahera, igihe gusa ibisabwa vy’ingwati biguma vyuzuye. Mu kiringo cose c’inguzanyo, inyungu zirihwa mu bihe bitandukanye, mu gihe inyungu nyamukuru irihwa iyo ishitse.
 
 
 
@@ -396,7 +389,16 @@ Urutonde rwo kwishura inguzanyo akenshi rurahinduka kandi rukaba rujanye n’ivy
 
 
 
-Kubera ko igiciro ca Bitcoin gihinduka, inguzanyo ifise inshingano irimwo amategeko yihariye y’uguhamagara ku ruhande mu masezerano. Iryo tegeko rituma uwugurizwa amenyeshwa ko yotanga ingwati y’inyongera, canke ko yokwishura igice c’inguzanyo.
+Kubera ko Bitcoin idahinduka, inguzanyo zirimwo ingingo ngenderwako y’uguhamagara amahera. Ihamagara ry’inyuma rishika iyo LTV iduze kubera ukugabanuka kw’agaciro k’ingwati. Debifi imenyesha uwuguze biciye kuri email no kuri app, bikaba bimufasha kwongerako ingwati canke kwishura igice c’inguzanyo.
+
+
+75% LTV — Imburi ya mbere
+
+80% LTV — Imburi ya kabiri
+
+85% LTV — Imburi ya nyuma
+
+90% LTV — Ingwati irahembwa
 
 
 
@@ -433,7 +435,7 @@ Ushobora kubona :
 6. Amahera nyayo ukeneye ategerezwa kwinjira (ayo mafaranga ategerezwa kuba ari mu bandi, raba 2);
 
 
-7. Ethereum USDC Address izokoreshwa mu kwakira amahera itegerezwa kwinjira.
+7. Aderesi ya Ethereum USDC izokoreshwa mu kwakira amahera itegerezwa kwinjira.
 
 
 
@@ -453,7 +455,7 @@ Subira kuri porogaramu ya telefone ngendanwa ku ''**Tanga urufunguzo rwa bose**'
 
 
 
-Kanda '' **Tanga urufunguzo rwa bose** '', hanyuma uhitemwo inkomoko y'urufunguzo rwa bose. Uwugurisha azokenera kandi Supply urufunguzo rwa bose.
+Kanda '' **Tanga urufunguzo rwa bose** '', hanyuma uhitemwo inkomoko y'urufunguzo rwa bose. Uwugurisha azokenera kandi gutanga urufunguzo rwa bose.
 
 
 
@@ -473,7 +475,7 @@ Kanda '' **Tanga urufunguzo rwa bose** '', hanyuma uhitemwo inkomoko y'urufunguz
 
 
 
-Intambwe ikurikira ni ugushira umukono kuri Contract. Naho biri muri porogaramu yo kuri telefone ngendanwa, kanda '' **Sinya Contract** ''
+Intambwe ikurikira ni ugusinyana amasezerano. Naho biri muri porogaramu yo kuri telefone ngendanwa, kanda '' **Sinya Contract** ''
 
 
 
@@ -485,7 +487,7 @@ Intambwe ikurikira ni ugushira umukono kuri Contract. Naho biri muri porogaramu 
 
 
 
-Iyo uhejeje gusinyana Contract, Debifi ica ihita irema Bitcoin Address (escrow 3-sur-4) y'amasinya menshi ku Contract yawe. Igihe cose ama bitcoins yawe azoba ari mu escrow, ntashobora gukoreshwa ahandi.
+Iyo uhejeje gusinya amasezerano, Debifi ica ihita irema aderesi yihariye y’amasinya menshi Bitcoin (escrow 3-sur-4) y’amasezerano yawe. Igihe cose ama bitcoins yawe azoba ari mu escrow, ntashobora gukoreshwa ahandi.
 
 
 
@@ -493,7 +495,7 @@ Iyo uhejeje gusinyana Contract, Debifi ica ihita irema Bitcoin Address (escrow 3
 
 
 
-Intambwe ya nyuma ni ugushiramwo ingwati yawe ya Bitcoin mu buryo bwo gushiramwo ingwati y’imikono myinshi. Debifi aca akwereka escrow Address (B) n’ingero ya BTC (A) izorungikwa nk’(ingwati + komisiyo).
+Intambwe ya nyuma ni ugushiramwo ingwati yawe ya Bitcoin mu buryo bwo gushiramwo ingwati y’imikono myinshi. Debifi ikwereka aderesi y’isoko (B) n’ingero ya BTC (A) izorungikwa nk’ingwati + komisiyo).
 
 
 
@@ -509,7 +511,7 @@ Uzoronka kandi iryo tangazo muri porogarama yawe yo kuri telefone ngendanwa.
 
 
 
-Igihe nyene amahera yawe yashizweho azoba yemejwe, uwuguha inguzanyo azokwishura amahera y’inguzanyo ku Address yakira werekanye, arangize igikorwa kandi aguhe uburenganzira bwo kuronka amahera ukeneye.
+Igihe amahera yawe yashizweho azoba yemejwe, uwuguha inguzanyo azokwishura amahera y’inguzanyo kuri aderesi y’ukwakira wavuze, arangize igikorwa kandi aguhe uburenganzira bwo kuronka amahera ukeneye.
 
 
 
@@ -517,11 +519,11 @@ Uzoheza uronke itangazo rivuye kuri Debifi, rigusaba kwishura amafaranga y’ing
 
 
 
-Mu vy’ukuri, iyo Contract imaze kuremwa, amahera y’inguzanyo aca akurwa ku ngwati yashizweho n’uwuguze mu ngwati y’imikono myinshi Address.
+Mu vy’ukuri, iyo amasezerano amaze gukorwa, amahera y’inguzanyo aca akurwako ubwo nyene ku ngwati yashizweho n’uwuguze muri aderesi y’ingwati y’imikono myinshi.
 
 
 
-Ico ubwirizwa gukora n’ugusinyana amasezerano azotuma Debifi ishobora gukurako komisiyo yayo ku garanti. Ku ruhande rwayo, uwuguha inguzanyo na we azokenera gusinya ku gikorwa co gukurako amafaranga, ahandi ho Debifi ntizoshobora kuronka komisiyo yiwe.
+Ico ubwirizwa gukora n’ugusinya amasezerano azotuma Debifi ishobora gukurako komisiyo yayo ku garanti. Ku ruhande rwayo, uwuguha inguzanyo na we azokenera gusinya ku gikorwa co gukurako amafaranga, ahandi ho Debifi ntizoshobora kuronka komisiyo yiwe.
 
 
 
@@ -529,7 +531,7 @@ Ico ubwirizwa gukora n’ugusinyana amasezerano azotuma Debifi ishobora gukurako
 
 
 
-Amafaranga y’inguzanyo akoreshwa ni 1,5-2%, bivanye n’igihe Contract imara. Iryo koraniro risaba amakomisiyo mu Bitcoin gusa.
+Amafaranga y’inguzanyo akoreshwa ni 1,5-2%, bivanye n’igihe amasezerano amara. Iryo koraniro risaba amakomisiyo mu Bitcoin gusa.
 
 
 
@@ -537,25 +539,23 @@ Amafaranga y’inguzanyo akoreshwa ni 1,5-2%, bivanye n’igihe Contract imara. 
 
 
 
-Iyo inguzanyo imaze gutangura, Debifi iragufasha gukurikirana Contract yawe mu gihe nyaco. Muri Interface, uzobona :
-
-
+Iyo inguzanyo imaze gukora, Debifi iragufasha gukurikirana amasezerano yawe mu gihe nyaco. Mu kigaragaza, uzosanga:
 
 
 
 - Amahera yaguzwe n’igihe gisigaye.
-- Igitigiri ca LTV (Loan-to-Value) c’ubu: LTV iraduga iyo igiciro ca BTC kigabanutse (kubera ko ingwati yawe ifise agaciro gato). Hashirwaho urugero rw’imburi (muri rusangi 90%). Iyo LTV yawe irenze iyo nzira, hariho ingorane yo gusesagura ku nguvu. Debifi azoca aguha amasaha 24 kugira ngo uvyifatemwo neza.
-
-
-
-Abaguzi bazomenyeshwa ko igiciro kigabanutse. Aya makuru azoboneka kandi kuri paji y’incamake ya Contract. Kugira ngo umuntu asubire ku rugero rw’inguzanyo n’agaciro k’inguzanyo, uwugurizwa ategerezwa :
+- Igitigiri ca LTV (Loan-to-Value) kiriho ubu, kiduga iyo igiciro ca BTC kigabanutse kandi agaciro k’ingwati yawe kagabanuka.
 
 
 
 
+Abaguzi baramenyeshwa iyo agaciro k’ingwati kagabanutse, kandi ayo makuru araboneka no kuri paji y’incamake y’amasezerano. Kugira ngo umuntu asubizeho igipimo c’inguzanyo n’agaciro k’inguzanyo, ategerezwa:
 
-- canke gushiramwo ingwati y’inyongera ;
+
+
+- gushiramwo ingwati y’inyongera;
 - kwishura umwenda wose canke igice cawo.
+
 
 
 
@@ -564,7 +564,7 @@ Iyo igiciro c’ingwati congerekanye, uwuguze aguma afise inyungu yose y’umutu
 
 
 
-## Kwishura no gusubiza ingwati
+## Kwishura no gusubiza ingwate
 
 
 
@@ -577,21 +577,21 @@ Muri Debifi :
 
 
 
-- Genda kuri Contract yawe ukande kuri **Ishura**. Injira amahera yose akwiye (amahera y’ishingiro + inyungu).
+- Genda ku masezerano yawe ukande kuri **Ishura**. Injira amafaranga yose akwiye (amahera y’ishingiro + inyungu).
 
 
 
 
 
-- Wohereze stablecoins zivuye kuri Wallet yawe kuri Address y’umuguzi yerekanwa, hanyuma usubire kwemeza ko wishuye ku rubuga mu gukopa **ID** y’ivyo wishuye mu gice cagenewe. Ivyo bituma Debifi yoroherwa no gukora amatohoza yayo.
+- Wohereze stablecoins zivuye kuri wallet yawe kuri aderesi y’umuguzi yerekanwa, hanyuma usubire kwemeza ko wishuye ku rubuga mu gukopa **ID** y’ivyo wishuye mu gice cagenewe. Ivyo bituma Debifi yoroherwa no gukora amatohoza yayo.
 
 
 
-Igihe ukwishyura kwemejwe n’uwuguha inguzanyo (na wewe), Debifi izoca igusaba **gusubiza**. Ingwati yawe ya Bitcoin irarekurwa kandi urashobora kuyigarura uyikuye mu escrow ukayisubiza mu portfolio yawe bwite.  Ntimwibagire gukoranya ama Bitcoins yanyu yose.
+Igihe ukwishyura kwemejwe n’uwuguha inguzanyo (na wewe), Debifi izoca igusaba **gusubiza**. Ingwati yawe ya Bitcoin irarekurwa kandi ushobora kuyigarura mu giciro cawe bwite.  Ntimwibagire gukoranya ama Bitcoins yanyu yose.
 
 
 
-Ukimara kwakira ama bitcoins yawe, inguzanyo Contract ihinduka **Contract irarangiye**.
+Ukimara kwakira ama bitcoins yawe, amasezerano y’inguzanyo arahinduka **Contract irarangiye**.
 
 
 
@@ -604,7 +604,7 @@ Urakoze cane! Mwarangije inzira.
 
 
 
-Uko intumbero zawe canke imvo zawe zoba ziri kwose - gufasha umugambi, kuronka umutungo, kugura ama bitcoins, n'ibindi - urabe maso cane imbere yo gufata inguzanyo ishigikiwe na Bitcoin. - kwiyubara cane imbere yo gufata inguzanyo ishigikiwe na Bitcoin. Fata umwanya wo kurimbura neza ingingo yawe, kuko Bitcoin iguma ari ikintu gishobora guhinduka. **Igiciro caco kigabanutse cane coshobora gutuma amafaranga yawe y’ama bitcoins arangizwa ku nguvu**.
+Uko intumbero zawe canke ibigutera intege vyoba biri kwose—gufasha umugambi, kuronka umutungo, kugura amafaranga y’ibiceri, n’ibindi—ube maso cane imbere yo gufata inguzanyo ishigikiwe na Bitcoin. Fata umwanya wo gusuzuma neza ingingo yawe, kuko Bitcoin iguma ari ikintu gishobora guhinduka. **Igiciro cayo kigabanutse cane bishobora gutuma amafaranga yawe y'ama bitcoins asesa ku nguvu.**
 
 
 
@@ -612,7 +612,7 @@ Gukurikirana igipimo c’inguzanyo yawe n’ingwati (LTV). Gushiraho imburi (igi
 
 
 
-Gucungera imfunguruzo zawe. Bika BTC yawe muri Wallet itekanye (vyiza ni hardware canke Wallet izwi). Ntushireho PIN code ijanye n’itariki ihambaye mu buzima bwawe kandi ntukigere usangira ijambo ryawe ryo gukira. Kuri Debifi, wewe generate urufunguzo rwawe rw'ibanga muri porogarama - Debifi ntaco azi.
+Gucungera imfunguruzo zawe. Gumana BTC yawe mu wallet itekanye (vyiza ni hardware canke wallet izwi). Ntushireho PIN code ijanye n’itariki ihambaye mu buzima bwawe kandi ntukigere usangira ijambo ryawe ryo gukira. Kuri Debifi, wewe generate urufunguzo rwawe rw'ibanga muri porogarama - Debifi ntaco azi.
 
 
 

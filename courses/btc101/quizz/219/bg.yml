@@ -1,0 +1,8 @@
+question: Каква мрежа създава Lightning Network?
+answer: Мрежа от канали за плащане.
+wrong_answers:
+  - Мрежа от възли mining.
+  - Мрежа от блокчейн възли.
+  - Мрежа от борси за криптовалути.
+explanation: >-
+reviewed: true

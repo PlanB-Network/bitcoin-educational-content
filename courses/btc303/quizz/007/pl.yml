@@ -1,0 +1,9 @@
+question: Do czego odnosi się decentralizacja full node w Bitcoin?
+answer: Walidacja bloków jest przeprowadzana na brzegu sieci przez użytkowników, a nie przez zaufane organy
+wrong_answers:
+  - Przetwarzanie transakcji jest rozproszone pomiędzy wiele pul mining, a nie pojedynczy podmiot
+  - Zasady protokołu Bitcoin są ustalane przez rozproszoną grupę głównych deweloperów
+  - Klucze prywatne są przechowywane na wielu urządzeniach zamiast na jednym wallet
+explanation: |
+  Decentralizacja Full node oznacza, że walidacja bloków (danych wytwarzanych przez górników) odbywa się na obrzeżach sieci przez indywidualnych użytkowników obsługujących własne węzły, zamiast polegać na kilku zaufanych organach w celu weryfikacji transakcji. Różni się to od decentralizacji górników, która dotyczy zamawiania i przetwarzania transakcji. Pozostałe opcje mylą decentralizację full node z dystrybucją mining, strukturami zarządzania lub praktykami bezpieczeństwa, ale żadna z nich nie obejmuje podstawowej koncepcji rozproszonej walidacji bloków przez uczestników sieci.
+reviewed: false

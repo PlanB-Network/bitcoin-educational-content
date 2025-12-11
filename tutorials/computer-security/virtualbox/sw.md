@@ -43,7 +43,7 @@ Usanidi wangu: **kituo cha kazi cha Windows 11 ambapo nitasakinisha VirtualBox**
 
 
 
-Ili kupakua VirtualBox kwa usakinishaji kwenye mashine ya Windows, kuna Address moja tu nzuri: [tovuti rasmi ya VirtualBox](https://www.virtualbox.org/wiki/Downloads) katika sehemu ya "**Vipakuliwa**". Bofya tu kwenye "Wapangishi wa Windows" ili kuanza kupakua hii inayoweza kutekelezwa, ambayo ni zaidi ya MB 100 kwa ukubwa.
+Ili kupakua VirtualBox kwa usakinishaji kwenye mashine ya Windows, kuna Address moja tu nzuri: [tovuti rasmi ya VirtualBox](https://www.virtualbox.org/wiki/Downloads) katika sehemu ya "**Downloads**". Bofya tu kwenye "Wapangishi wa Windows" ili kuanza kupakua hii inayoweza kutekelezwa, ambayo ni zaidi ya MB 100 kwa ukubwa.
 
 
 
@@ -59,7 +59,7 @@ Ili kupakua VirtualBox kwa usakinishaji kwenye mashine ya Windows, kuna Address 
 
 
 
-Kusakinisha **VirtualBox** ni moja kwa moja, na mchakato ni sawa kwa matoleo yote ya Windows. Anza kwa kuzindua VirtualBox inayoweza kutekelezwa ambayo umepakua, kisha ubofye "**Inayofuata**".
+Kusakinisha VirtualBox** ni moja kwa moja, na mchakato ni sawa kwa matoleo yote ya Windows. Anza kwa kuzindua VirtualBox inayoweza kutekelezwa ambayo umepakua, kisha ubofye "**Inayofuata**".
 
 
 
@@ -75,7 +75,7 @@ Ufungaji huu unaweza kubinafsishwa, lakini ninapendekeza usakinishe vipengele vy
 
 - **Usaidizi wa USB wa VirtualBox** ili kuwezesha VirtualBox kutumia vifaa vya USB
 - **VirtualBox Bridged Network** ili kuunganisha usaidizi wa mtandao katika hali ya "Bridge" (mashine pepe inaweza kuunganisha moja kwa moja kwenye mtandao wako wa karibu)
-- **VirtualBox Host-only Network** ili kujumuisha usaidizi wa mtandao katika hali ya "Mpangishi-Pekee" (mashine pepe inaweza tu kuwasiliana na seva pangishi yako ya Windows 11 na mashine zingine pepe katika hali hii)
+- **VirtualBox Host-only Network** ili kujumuisha usaidizi wa mtandao katika hali ya "Host-only" (mashine pepe inaweza tu kuwasiliana na ,host server yako ya Windows 11 na mashine zingine pepe katika hali hii)
 
 
 
@@ -184,7 +184,7 @@ Upande wa kushoto, sehemu ya "**Zana**" inatoa ufikiaji wa **vitendaji vya hali 
 
 
 
-**Kama ukumbusho, VirtualBox inasaidia mifumo mingi ya uendeshaji, ikijumuisha Windows, Linux na BSD. Katika mfano huu, nitaunda mashine pepe ya Windows 11. Sehemu kadhaa zinahitaji kujazwa:**
+**Kama ukumbusho, VirtualBox inasaidia mifumo mingi ya uendeshaji, ikijumuisha Windows, Linux na BSD. Katika mfano huu, nitaunda mashine pepe ya Windows 11. Sehemu kadhaa zinahitaji kujazwa:
 
 
 
@@ -205,7 +205,7 @@ Bofya "**Inayofuata**" ili kuendelea.
 
 
 
-Kulingana na mfumo wa uendeshaji uliochagua katika hatua ya awali, **VirtualBox hutoa mapendekezo juu ya rasilimali za kugawia mashine pepe**. Hapa, tunazungumza juu ya RAM unayotaka kutenga kwa VM. Wacha tuchukue GB 4, kwa sababu hii inapendekezwa kwa Windows 11, lakini ikiwa huna rasilimali, taja 2 GB badala yake. **Endelea**
+Kulingana na mfumo wa uendeshaji uliochagua katika hatua ya awali, **VirtualBox hutoa mapendekezo juu ya rasilimali za kugawia mashine pepe**. Hapa, tunazungumza juu ya RAM unayotaka kutenga kwa VM. Wacha tuchukue GB 4, kwa sababu hii inapendekezwa kwa Windows 11, lakini ikiwa huna rasilimali, taja 2 GB badala yake. **Endelea
 
 
 
@@ -225,7 +225,7 @@ Kuhusu diski ya Hard inayohusika, tunaanza kutoka mwanzo, kwa hivyo tunahitaji k
 
 
 
-VirtualBox inasaidia fomati tatu tofauti za diski za Hard, ambayo ni tofauti kubwa ikilinganishwa na suluhisho zingine kama vile VMware na Hyper-V. Kuna fomati tatu za kuchagua kutoka:
+VirtualBox inasaidia format tatu tofauti za  Hard disk, ambayo ni tofauti kubwa ikilinganishwa na suluhisho zingine kama vile VMware na Hyper-V. Kuna fomati tatu za kuchagua kutoka:
 
 
 
@@ -245,11 +245,11 @@ Ili kuunda mashine pepe ambayo itatumika tu kwenye mfano huu wa VirtualBox, chag
 
 
 
-**Diski pepe inaweza kuwa ya nguvu au isiyobadilika kwa ukubwa **. Wakati inabadilika, faili inayowakilisha **diski pepe (hapa faili ya .vdi) itakua data inapoandikwa kwenye diski** hadi ifikie ukubwa wake wa juu zaidi, lakini haitapungua ikiwa data itafutwa. Kinyume chake, wakati ni wa ukubwa wa kudumu, ** nafasi ya hifadhi ya jumla imetengwa mara moja (na kwa hiyo imehifadhiwa) **, ambayo inaruhusu utendaji wa juu kidogo, lakini inachukua muda mrefu wakati disk virtual inapoundwa kwanza.
+**Virtual Disk inaweza kuwa ya nguvu au isiyobadilika kwa ukubwa**. Wakati inabadilika, faili inayowakilisha **Virtual Disk (hapa faili ya .vdi) itakua data inapoandikwa kwenye disk** hadi ifikie ukubwa wake wa juu zaidi, lakini haitapungua ikiwa data itafutwa. Kinyume chake, wakati ni wa ukubwa wa kudumu, **nafasi ya hifadhi ya jumla imetengwa mara moja (na kwa hiyo imehifadhiwa) l**, ambayo inaruhusu utendaji wa juu kidogo, lakini inachukua muda mrefu wakati disk virtual inapoundwa kwanza.
 
 
 
-Binafsi, kwa majaribio ya mashine pepe na VirtualBox, ninaona hali ya "**Dynamically zilizotengwa **" inatosha.
+Binafsi, kwa majaribio ya mashine pepe na VirtualBox, ninaona hali ya "**Dynamically allocated**" inatosha
 
 
 
@@ -257,7 +257,7 @@ Binafsi, kwa majaribio ya mashine pepe na VirtualBox, ninaona hali ya "**Dynamic
 
 
 
-**Hatua inayofuata ni kutaja ukubwa wa disk virtual **, kwa kuzingatia kwamba kwa default, disk itahifadhiwa kwenye saraka ya VM (hii inaweza kubadilishwa katika hatua hii). Nimeonyesha ukubwa wa GB 64 ili kuzingatia mahitaji ya Windows 11, lakini hapa tena, saizi ndogo inaweza kupewa. Bonyeza "** Unda **" ili kuunda VM!
+**Hatua inayofuata ni kutaja ukubwa wa disk virtual**, kwa kuzingatia kwamba kwa default, disk itahifadhiwa kwenye saraka ya VM (hii inaweza kubadilishwa katika hatua hii). Nimeonyesha ukubwa wa GB 64 ili kuzingatia mahitaji ya Windows 11, lakini hapa tena, saizi ndogo inaweza kupewa. Bonyeza "** Unda **" ili kuunda VM!
 
 
 
@@ -273,11 +273,11 @@ Kwa wakati huu, VM iko kwenye orodha yetu, imesanidiwa, lakini mfumo wa uendesha
 
 
 
-Ili kusakinisha Windows 11, au mfumo mwingine wowote, tunahitaji vyanzo vya usakinishaji. Mara nyingi, tunatumia picha ya disk katika muundo wa ISO ili kufunga mfumo wa uendeshaji. **Ni muhimu kupakia picha ya Windows 11 ya ISO kwenye kiendeshi chetu cha DVD cha VM.**
+Ili kusakinisha Windows 11, au mfumo mwingine wowote, tunahitaji vyanzo vya usakinishaji. Mara nyingi, tunatumia picha ya disk katika muundo wa ISO ili kufunga mfumo wa uendeshaji. **Ni muhimu kupakia picha ya Windows 11 ya ISO kwenye kiendeshi chetu cha DVD cha VM
 
 
 
-Bofya kwenye VM kwenye orodha ya VirtualBox (1), kisha kwenye kitufe cha "**Configuration**" (2), ambayo inatoa ufikiaji wa usanidi wa jumla wa mashine hii ya mtandaoni. Menyu hii inatumika kudhibiti rasilimali (k.m. kuongeza RAM, kusanidi CPU, n.k.). Bofya kwenye "**Hifadhi**" upande wa kushoto (3), kwenye kiendeshi cha DVD ambapo inasema "**Tupu**" kwa sasa (4) kisha ubofye ikoni yenye umbo la DVD (5) na "**Chagua faili ya diski**".
+Bofya kwenye VM kwenye orodha ya VirtualBox (1), kisha kwenye kitufe cha "**Configuration**" (2), ambayo inatoa ufikiaji wa usanidi wa jumla wa mashine hii ya mtandaoni. Menyu hii inatumika kudhibiti rasilimali (k.m. kuongeza RAM, kusanidi CPU, n.k.). Bofya kwenye "**Memory**" upande wa kushoto (3), kwenye kiendeshi cha DVD ambapo inasema "**Tupu**" kwa sasa (4) kisha ubofye ikoni yenye umbo la DVD (5) na "**Chagua faili ya diski**".
 
 
 
@@ -301,7 +301,7 @@ Kaa katika sehemu ya "**Configuration**" ya VM, bado nina mambo machache ya kuel
 
 
 
-Nenda kwenye sehemu ya "**Mtandao**" iliyo upande wa kushoto. Sehemu hii hukuwezesha kudhibiti mtandao wa mashine pepe: idadi ya violesura vya mtandao pepe (hadi 4 kwa VM), MAC Address, na hali ya ufikiaji wa mtandao (NAT, ufikiaji wa daraja, mtandao wa ndani, n.k.). **Kama ungependa mashine yako pepe ipate ufikiaji wa Mtandao, chagua "NAT" au "Ufikiaji wa Daraja"**, lakini hali hii ya pili inahitaji seva ya DHCP ili itumike kwenye mtandao wako, au itabidi usanidi IP Address wewe mwenyewe.
+Nenda kwenye sehemu ya "**Mtandao**" iliyo upande wa kushoto. Sehemu hii hukuwezesha kudhibiti mtandao wa mashine pepe: idadi ya violesura vya mtandao pepe (hadi 4 kwa VM), MAC Address, na hali ya ufikiaji wa mtandao (NAT, ufikiaji wa daraja, mtandao wa ndani, n.k.). **Kama ungependa mashine yako pepe ipate ufikiaji wa Mtandao, chagua "NAT" au "Bridged Access"**, lakini hali hii ya pili inahitaji seva ya DHCP ili itumike kwenye mtandao wako, au itabidi usanidi IP Address wewe mwenyewe.
 
 
 
@@ -313,11 +313,11 @@ Kumbuka: Nitarudi kwenye sehemu ya mtandao kwa undani zaidi katika makala maalum
 
 
 
-### D. Idadi ya vichakataji mtandaoni
+### D. Idadi ya virtual processors mtandaoni
 
 
 
-Kama kompyuta halisi, mashine pepe inahitaji RAM, diski ya Hard na kichakataji kufanya kazi. Tulipounda VM, unaweza kuwa umegundua kuwa mchawi haukujumuisha usanidi wa kichakataji. Hata hivyo, hii inaweza kusanidiwa wakati wowote kupitia kichupo cha "**Mfumo**", kisha "**Kichakata**", ambapo unaweza kuchagua idadi ya vichakataji pepe.
+Kama kompyuta halisi, mashine pepe inahitaji RAM,  Hard disk na kichakataji kufanya kazi. Tulipounda VM, unaweza kuwa umegundua kuwa mchawi haukujumuisha usanidi wa kichakataji. Hata hivyo, hii inaweza kusanidiwa wakati wowote kupitia kichupo cha "**Mfumo**", kisha "**Kichakata**", ambapo unaweza kuchagua idadi ya vichakataji pepe.
 
 
 
@@ -333,7 +333,7 @@ Kwa upande wangu, mashine ya kawaida ina wasindikaji 2 wa kawaida:
 
 
 
-**Usisite kuangalia sehemu zingine za menyu ya usanidi.**
+**Usisite kuangalia sehemu zingine za menyu ya usanidi.
 
 
 
@@ -349,7 +349,7 @@ Kuanzisha mashine ya kawaida, chagua tu kwenye hesabu na ubofye kitufe cha "**An
 
 
 
-Lo, ninapata hitilafu mbaya na mashine yangu ya mtandaoni haitaanza! Kosa ni "Kuingia kumeshindwa kwa mashine ya kawaida ..." na maelezo yafuatayo:
+Lo, ninapata hitilafu mbaya na mashine yangu ya mtandaoni haitaanza! Kosa ni: "Kuingia kumeshindwa kwa mashine ya kawaida.." na maelezo yafuatayo:
 
 
 
@@ -360,7 +360,7 @@ AMD-V is disabled in the BIOS (or by the host OS)
 
 
 
-Kwa kweli, hii ni kawaida kwa sababu **kipengele cha uboreshaji hakijawezeshwa kwenye kompyuta yangu**! Ili kurekebisha tatizo hili, unahitaji kuanzisha upya kompyuta yako ili kufikia BIOS na kuwezesha virtualization.
+Kwa kweli, hii ni kawaida kwa sababu **Element ya uboreshaji hakijawezeshwa kwenye kompyuta yangu**! Ili kurekebisha tatizo hili, unahitaji kuanzisha upya kompyuta yako ili kufikia BIOS na kuwezesha virtualization.
 
 
 
@@ -390,10 +390,10 @@ Kwenye mwenyeji wetu wa Windows 11, ambapo VirtualBox imewekwa, tunaweza kuona k
 
 
 
-- Faili ya **VBOX** (katika umbizo la XML) inayolingana na usanidi wa VM (RAM, CPU, n.k.)
-- Faili ya **VBOX-PREV** ni chelezo ya usanidi uliopita
-- Faili ya **VDI** inalingana na diski halisi ya Hard katika hali ya nguvu, kwa hiyo kwa sasa ni GB 13 tu, ambapo ukubwa wake wa juu ni 64 GB.
-- Faili ya **NVRAM** ina hali ya BIOS ya mashine pepe, ambayo ni sawa na kumbukumbu isiyo tete ya mashine halisi.
+- **Faili ya VBOX** (katika umbizo la XML) inayolingana na usanidi wa VM (RAM, CPU, n.k.)
+- **Faili ya VBOX-PREV** ni chelezo ya usanidi uliopita
+- **Faili ya VDI** inalingana na diski halisi ya Hard katika hali ya nguvu, kwa hiyo kwa sasa ni GB 13 tu, ambapo ukubwa wake wa juu ni 64 GB.
+- **Faili ya NVRAM** ina hali ya BIOS ya mashine pepe, ambayo ni sawa na kumbukumbu isiyo tete ya mashine halisi.
 
 
 
@@ -405,4 +405,4 @@ Kwenye mwenyeji wetu wa Windows 11, ambapo VirtualBox imewekwa, tunaweza kuona k
 
 
 
-**VirtualBox sasa iko kwenye mashine yetu ya kimwili ya Windows 11! Kilichosalia ni kunufaika nayo na kuunda mashine pepe!** Nitarudi kusakinisha Windows 11 katika VirtualBox VM katika makala nyingine. Kwa Windows 10, Windows Server au usambazaji wa Linux (Ubuntu, Debian, n.k.), hebu tukuongoze!
+**VirtualBox sasa iko kwenye physical mashine zetu ya Windows 11! Kilichosalia ni kunufaika nayo na kuunda mashine pepe!** Nitarudi kusakinisha Windows 11 katika VirtualBox VM katika makala nyingine. Kwa Windows 10, Windows Server au usambazaji wa Linux (Ubuntu, Debian, n.k.), hebu tukuongoze!

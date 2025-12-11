@@ -332,7 +332,7 @@ Después de realizar coinjoins con Whirlpool, es útil evaluar precisamente el n
 
 Para profundizar tu comprensión de los mecanismos de cálculo de estos anonsets, recomendamos leer el artículo: REMIX - WHIRLPOOL, que detalla el funcionamiento de estos índices.
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

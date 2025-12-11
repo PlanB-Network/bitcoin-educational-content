@@ -1,5 +1,5 @@
 ---
-name: COLDCARD - kaasallkiri
+name: COLDCARD - Co-Sign
 description: Avastage kaasallkirja funktsioon ja kasutage seda oma COLDCARDi puhul
 ---
 

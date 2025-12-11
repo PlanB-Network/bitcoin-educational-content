@@ -1874,19 +1874,21 @@ Når en bruker mottar bitcoins, oppretter avsenderen en utdata UTXO og låser de
 
 Det er nettopp i *scriptPubKey* at mottaksadressene finnes. Imidlertid varierer bruken av dem avhengig av hvilken skriptstandard som er vedtatt. Her er en oppsummeringstabell over informasjonen som er inneholdt i *scriptPubKey* i henhold til standarden som brukes, samt informasjonen som forventes i *scriptSig* for å låse opp *scriptPubKey*.
 
-| Standard           | *scriptPubKey*                                              | *scriptSig*                     | *innløsningsskript* | *vitne*                                  |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signatur>`                    |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signatur> <offentlig nøkkel>` |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <innløsningsskript>` | Vilkaarlig data |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signatur> <offentlig nøkkel>`          |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <vitneskript>`            |
-| P2SH-P2WPKH        | `OP_HASH160 <innløsningsskriptHash> OP_EQUAL`               | `<innløsningsskript>`           | `0 <pubKeyHash>`    | `<signatur> <offentlig nøkkel>`          |
-| P2SH-P2WSH         | `OP_HASH160 <innløsningsskriptHash> OP_EQUAL`               | `<innløsningsskript>`           | `0 <scriptHash>`    | `<data pushes> <vitneskript>`            |
-| P2TR (nøkkelbane)  | `1 <offentlig nøkkel>`                                      |                                 |                     | `<signatur>`                             |
-| P2TR (skriptbane)  | `1 <offentlig nøkkel>`                                      |                                 |                     | `<data pushes> <skript> <kontrollblokk>` |
 
-*Kilde: Bitcoin Core PR review club, 7. juli 2021 - Gloria Zhao*
+
+| Standard             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Vilkårlige data | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_Kilde: Bitcoin Core PR review club 7. juli 2021 – Gloria Zhao_
 
 Opcodes brukt i et skript er designet for å manipulere informasjon, og om nødvendig, sammenligne eller teste den. La oss ta eksempelet med et P2PKH-skript, som er som følger:
 

@@ -77,7 +77,6 @@ Prêt à débuter votre parcours dans le monde de Bitcoin ? Allons-y !
 
 :::video id=9f3a7b2e-2c4d-4c1e-8b1f-3a2c1d4e5f6a:::
 
-![lecture](https://www.youtube.com/watch?v=LeyI3CBw2g4)
 
 L’écosystème Bitcoin et son environnement restent relativement jeunes et faiblement régulés en fonction des pays. Si cette liberté offre d’immenses possibilités, elle constitue aussi un terrain fertile pour les fraudes financières, les escroqueries et toutes sortes de manipulations. C'est précisément pour cette raison que ce premier chapitre est important : connaître les pièges typiques permet de mieux s’en protéger. Votre sécurité financière est une priorité, car une mauvaise expérience nuit non seulement à vous, mais également à la réputation de toute la communauté Bitcoin.
 
@@ -219,7 +218,6 @@ Se prémunir contre les arnaques est une première étape importante pour la pro
 
 :::video id=2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
 
-![lecture](https://www.youtube.com/watch?v=d9Ccy17yWB0)
 
 
 Dès l’instant où vous vous intéressez à Bitcoin, vous devez forcément vous intéresser un minimum à la cybersécurité. Les fraudes financières et les arnaques ne sont pas les seules menaces : la perte accidentelle de données, les malwares ou le vol de mots de passe peuvent eux aussi causer des dommages. L’objectif de ce chapitre est de vous présenter des mesures de protection simples et efficaces, applicables à tout utilisateur désireux de renforcer son hygiène numérique.
@@ -346,7 +344,6 @@ Dans le prochain chapitre, je vais vous donner quelques conseils supplémentaire
 
 :::video id=7e9f3b2c-4d1a-4c5e-8b0d-3a2c1d4e5f6b:::
 
-![lecture](https://www.youtube.com/watch?v=juMUJ3MWeZY)
 
 
 Lorsque l’on découvre Bitcoin, il est facile de se laisser emporter par l’engouement et d’adopter des comportements hasardeux. L’univers des cryptomonnaies est en effet très particulier : volatilité des prix, nouvelles technologies, risques de pertes définitives en raison d’erreurs techniques ou de mauvais choix d’investissement… Autant d’écueils à éviter.
@@ -505,7 +502,6 @@ En appliquant ces préceptes, vous pourrez aborder l’investissement de manièr
 
 :::video id=3c2d1e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f:::
 
-![lecture](https://www.youtube.com/watch?v=CB99UqN5JgE)
 
 Dans cette formation, l’objectif principal consiste à vous guider dans l’obtention et la sécurisation de vos premiers bitcoins. Toutefois, avant de passer aux considérations pratiques (comment acquérir des BTC, quels portefeuilles utiliser, etc.), un bref rappel sur ce qu’est réellement Bitcoin s’impose. Comprendre la nature profonde de Bitcoin vous aidera à discerner les raisons pour lesquelles des millions de personnes s’intéressent à cette technologie, et pourquoi il est essentiel de bien maîtriser les concepts fondamentaux avant d’investir votre épargne dans un actif aussi novateur et volatile.
 
@@ -645,7 +641,6 @@ Après cette introduction sur Bitcoin (certes un peu plus longue que 5 minutes�
 
 :::video id=5f6e7d8c-9b0a-1c2d-3e4f-5a6b7c8d9e0f:::
 
-![lecture](https://www.youtube.com/watch?v=Iq0wZF3Ui9A)
 
 
 Pourquoi Bitcoin est-il si important ? C'est la question centrale de ce cours. Que cela touche vos études ou votre stratégie d'investissement, sans une compréhension claire de l'importance de Bitcoin, il y a un risque de déviation de votre plan d'action. L'objectif est donc de toujours garder à l'esprit les principes fondamentaux de Bitcoin pour s'assurer que votre stratégie reste alignée avec vos convictions.
@@ -769,7 +764,6 @@ Maintenant que nous avons étudié l'importance de l'invention de Satoshi Nakamo
 
 :::video id=8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d:::
 
-![lecture](https://www.youtube.com/watch?v=fcXvjghA-uM)
 
 
 Avec l’arrivée de Bitcoin en 2009 sous l’impulsion de Satoshi Nakamoto, une toute nouvelle industrie, aujourd’hui valorisée à plusieurs milliards de dollars, a vu le jour. Malgré son jeune âge, cet écosystème a connu une croissance fulgurante, en évoluant à un rythme exponentiel au cours de la dernière décennie. Chaque jour, de nouveaux acteurs, investisseurs institutionnels, startups innovantes et grandes entreprises technologiques, injectent des sommes considérables pour s’imposer dans ce secteur en pleine expansion.
@@ -1718,7 +1712,7 @@ https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-5
 
 https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.academy/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
+https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
 
 https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
@@ -2081,7 +2075,6 @@ Dans la prochaine section du cours, nous allons aborder un sujet souvent néglig
 
 :::video id=7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e:::
 
-![lecture](https://www.youtube.com/watch?v=FzeZApwZ0XM)
 
 Assurer la transmission de ses bitcoins est une responsabilité souvent négligée, mais pourtant essentielle. La souveraineté financière qu’offre Bitcoin implique également une gestion rigoureuse de sa succession, faute de quoi vos héritiers pourraient se retrouver dans l’incapacité d’accéder à vos fonds durement gagnés. Dans ce chapitre, nous allons explorer les principes fondamentaux de la planification successorale appliquée à Bitcoin.
 

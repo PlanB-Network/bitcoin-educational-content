@@ -1,0 +1,9 @@
+question: Mikä on Gregory Maxwellin mukaan suurempi riski Bitcoin:lle kuin 51 prosentin hyökkäykset?
+answer: Ihmiset eivät ymmärrä tai suojele Bitcoin:n hajautusominaisuuksia
+wrong_answers:
+  - Louhijat keskittävät liikaa laskentatehoa yhteen paikkaan
+  - Bitcoin mining-toiminnan estävät viranomaismääräykset
+  - "Tekniset haavoittuvuudet Bitcoin:n salausalgoritmeissa"
+explanation: |
+  Luvussa siteeratun Gregory Maxwellin Reddit-postauksen mukaan, vaikka 51 prosentin hyökkäykset ovat teoreettinen huolenaihe, paljon suurempi riski on se, että Bitcoin:n käyttäjät eivät ymmärrä, välitä tai suojele hajautusominaisuuksia, jotka tekevät Bitcoin:stä arvokkaamman kuin keskitetyt vaihtoehdot. Tämä johtuu siitä, että juuri hajauttaminen takaa Bitcoin:n sensuurinsietokyvyn - sen tärkeimmän eron perinteisiin rahajärjestelmiin. Jos ihmiset eivät aktiivisesti suojele näitä ominaisuuksia, Bitcoin:stä voi tulla vähitellen keskitetty, kunnes sensuuri tulee mahdolliseksi, mikä tuhoaa suurimman osan sen arvolupauksesta. Vaikka muut vaihtoehdot ovatkin mahdollisia huolenaiheita, Maxwell ei nimenomaan pitänyt niitä Bitcoin:n pitkän aikavälin menestystä uhkaavina tekijöinä.
+reviewed: false

@@ -1,26 +1,19 @@
 ---
-name: Studi Hiperinflasi
+name: Studi Kasus Hiperinflasi
 goal: Memahami kemunculan hiperinflasi di dunia Fiat dan konsekuensinya
-objectives: 
-
-  - Mempelajari siklus hiperinflasi
-  - Memahami dampak nyata hiperinflasi terhadap kehidupan kita sehari-hari
-  - Mempelajari kesamaan hiperinflasi sepanjang waktu
-  - Memiliki gagasan konkret tentang cara melindungi diri dari hiperinflasi
-
+objectives:
+- Mempelajari siklus hiperinflasi
+- Memahami dampak nyata hiperinflasi terhadap kehidupan kita sehari-hari
+- Mempelajari kesamaan hiperinflasi sepanjang waktu
+- Memiliki gagasan konkret tentang cara melindungi diri dari hiperinflasi
 ---
+# Sebuah Perjalanan Melalui Keruntuhan Ekonomi
 
-# Sebuah perjalanan menuju ekonomi
+Seperti apa ketika uang kehilangan maknanya?
+Kursus ini memandu Anda melalui dunia hiperinflasi yang menarik namun menyedihkan. Anda akan menemukan episode sejarah dan kasus modern di mana mata uang runtuh dan ekonomi berubah dalam semalam. Anda akan mengungkap pola, penyebab, dan dampak dunia nyata pada orang-orang biasa, memperoleh wawasan tentang salah satu fenomena paling dramatis dalam ekonomi.
 
-
-Program ini bertujuan untuk memberikan pemahaman yang mendalam mengenai kemunculan hiperinflasi di dunia yang didominasi oleh mata uang Fiat dan untuk memeriksa konsekuensi yang signifikan. Para peserta akan mempelajari siklus hiperinflasi secara rinci, memeriksa penyebab, pemicu, dan memberikan contoh historis dan kontemporer. Mereka juga akan memeriksa dampak nyata hiperinflasi terhadap ekonomi dan kehidupan sehari-hari, mempelajari dampaknya terhadap nilai mata uang, daya beli, dan tabungan individu dan kolektif.
-
-
-Di sini, kami akan menyoroti tren dan pola umum dalam episode hiperinflasi sepanjang sejarah, sambil memberikan strategi yang efektif dan konkret untuk melindungi diri sendiri selama periode hiperinflasi. Peserta akan memiliki kesempatan untuk mengeksplorasi berbagai pilihan investasi dan mekanisme pertahanan finansial, memperoleh alat praktis dan pengetahuan penting untuk menavigasi dengan tenang dalam iklim ekonomi yang tidak stabil.
-
-
+Sepanjang perjalanan, Anda juga akan menemukan bagaimana individu dan komunitas telah menavigasi periode-periode bergejolak ini. Pelajari strategi yang telah membantu melindungi kekayaan selama krisis mata uang dan membangun pemahaman yang lebih dalam tentang ketahanan finansial. Jika Anda penasaran tentang kekuatan ekonomi yang membentuk dunia kita, perjalanan ini menawarkan pengetahuan dan perspektif praktis.
 +++
-
 # Pendahuluan
 
 

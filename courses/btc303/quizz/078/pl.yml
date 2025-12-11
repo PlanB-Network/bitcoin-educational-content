@@ -1,0 +1,9 @@
+question: Zgodnie z omówionymi ramami odpowiedzialnego ujawniania informacji, jaki jest główny powód, dla którego programiści unikają natychmiastowego łatania niekrytycznych luk w Bitcoin Core?
+answer: Aby zapobiec ujawnieniu natury luki przez samą łatkę przed jej powszechnym wdrożeniem
+wrong_answers:
+  - Aby dać deweloperom altcoinów wystarczająco dużo czasu na wdrożenie własnych niezależnych poprawek w pierwszej kolejności
+  - Aby umożliwić kompleksowe testowanie różnych pul mining przed wydaniem jakichkolwiek aktualizacji zabezpieczeń
+  - Aby zachować wsteczną kompatybilność ze starszymi wersjami węzłów, które nie mogą obsługiwać poprawek awaryjnych
+explanation: |
+  Prawidłowa odpowiedź podkreśla kluczowy paradoks w łataniu zabezpieczeń: sama poprawka może ujawnić lukę. Rozdział podkreśla, że programiści muszą starannie ukrywać poprawki, ponieważ ich natychmiastowe opublikowanie może ujawnić podatność atakującym, zanim większość węzłów zostanie zabezpieczona. Błędne odpowiedzi, choć prawdopodobne, błędnie przedstawiają priorytety: powiadomienie o altcoinach następuje po wdrożeniu sieci Bitcoin, testowanie puli mining nie jest głównym zmartwieniem w przypadku niekrytycznych kwestii, a kompatybilność wsteczna nie wpływa na harmonogram łatek bezpieczeństwa.
+reviewed: false

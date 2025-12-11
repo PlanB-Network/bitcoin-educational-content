@@ -1,12 +1,12 @@
 ---
-name: Introduzione Teorica a Lightning Network
+name: Teoria del Lightning Network
 goal: Scoprire Lightning Network da una prospettiva tecnica
 objectives:
-  - Comprendere il funzionamento dei canali di pagamento.
-  - Prendere confidenza con i termini HTLC, LNURL e UTXO.
-  - Gestire la liquidità e le fee di LN.
-  - Identificare Lightning Network come una rete.
-  - Scoprire gli usi teorici di Lightning Network.
+- Comprendere il funzionamento dei canali di pagamento.
+- Prendere confidenza con i termini HTLC, LNURL e UTXO.
+- Gestire la liquidità e le fee di LN.
+- Identificare Lightning Network come una rete.
+- Scoprire gli usi teorici di Lightning Network.
 ---
 
 # Un Viaggio nel Layer 2 di Bitcoin

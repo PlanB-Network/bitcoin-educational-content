@@ -1,0 +1,9 @@
+question: Wat is volgens responsible disclosure praktijken het belangrijkste ethische dilemma voor beveiligingsonderzoekers die kwetsbaarheden ontdekken in gedecentraliseerde systemen zoals Bitcoin?
+answer: Een evenwicht vinden tussen de noodzaak om verantwoordelijke partijen te informeren en tegelijkertijd te voorkomen dat de kwetsbaarheid bekend wordt gemaakt aan potentieel kwaadwillende actoren die er misbruik van kunnen maken
+wrong_answers:
+  - Beslissen of er profijt moet worden getrokken van de ontdekking van kwetsbaarheden via bug bounty-programma's of de informatie vrijelijk aan de gemeenschap schenken
+  - Kiezen tussen eerst rapporteren aan overheidsinstanties versus direct rapporteren aan het softwareontwikkelingsteam om complicaties door regelgeving te voorkomen
+  - De juiste financiële compensatie voor het ontdekken van kwetsbaarheden bepalen voordat wordt ingestemd met het vrijgeven van de informatie aan ontwikkelaars
+explanation: |
+  De belangrijkste ethische uitdaging bij responsible disclosure is de delicate balans tussen transparantie en veiligheid. Onderzoekers moeten ervoor zorgen dat kwetsbaarheden worden verholpen zonder onbedoeld een routekaart te bieden voor kwaadwillig gebruik. Dit vereist zorgvuldige afstemming met ontwikkelaars, de juiste timing van openbaarmakingen en rekening houden met de bredere impact op het ecosysteem. De andere opties richten zich op financiële of regelgevingskwesties die, hoewel ze mogelijk relevant zijn, niet het primaire ethische dilemma vormen dat in de praktijk van responsible disclosure wordt geschetst.
+reviewed: false

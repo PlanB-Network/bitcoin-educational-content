@@ -1,11 +1,11 @@
 ---
 name: Bisq
-description: Cómo usar Bisq, un intercambio peer to peer
+description: Cómo usar Bisq, la plataforma de intercambio peer to peer
 ---
 
 ![portada](assets/cover.webp)
 
-Bisq es una plataforma de trading descentralizada para activos digitales, principalmente Bitcoin. Proporciona transacciones directas, seguras y privadas entre usuarios de todo el mundo sin necesidad de un intermediario.
+Bisq es una plataforma de intercambio descentralizada para activos digitales, principalmente Bitcoin. Proporciona transacciones directas, seguras y privadas entre usuarios de todo el mundo sin necesidad de un intermediario.
 
 Sitio web: https://bisq.network/
 información: https://bisq.network/getting-started/
@@ -46,7 +46,7 @@ Con Bisq, tienes un control total sobre tus fondos y tus datos. Esto significa q
 
 También hemos preparado un breve recorrido por la interfaz de Bisq para que puedas aprovechar al máximo.
 
-Más detalles se encuentran en la wiki: anotar tus palabras de semilla y hacer una copia de seguridad de tu directorio de datos. (https://bisq.wiki/Backing_up_application_data)
+Más detalles se encuentran en la wiki: Anotar tus palabras de semilla y hacer una copia de seguridad de tu directorio de datos. (https://bisq.wiki/Backing_up_application_data)
 
 ![imagen](assets/2.webp)
 
@@ -58,7 +58,7 @@ Más detalles se encuentran en la wiki: anotar tus palabras de semilla y hacer u
 
 ![Todo sobre los límites de cuenta en Bisq (solo moneda fiduciaria)](https://youtu.be/TP5Zh6IJPVo)
 
-Para poder comerciar con bitcoin en Bisq, debes configurar alguna forma de enviar o recibir otros fondos. Bisq solo maneja el lado del bitcoin en una transacción, el otro lado se maneja a través de servicios de pago en moneda fiduciaria (bancos, giros postales, efectivo) o billeteras de criptomonedas alternativas.
+Para poder comerciar con Bitcoin en Bisq, debes configurar alguna forma de enviar o recibir otros fondos. Bisq solo maneja el lado del Bitcoin en una transacción, el otro lado se maneja a través de servicios de pago en moneda fiduciaria (bancos, giros postales, efectivo) o billeteras de criptomonedas alternativas.
 
 ¿No estás seguro de qué tipo de cuenta de pago configurar? Hay una lista completa de métodos de pago en el wiki (https://bisq.wiki/Payment_methods). Si vas a comerciar con moneda fiduciaria, asegúrate de ver el video de límites de cuenta o leer este artículo en el wiki (https://bisq.wiki/Account_limits).
 
@@ -81,11 +81,11 @@ Notarás que los creadores de ofertas pagan mucho menos. Ten en cuenta que hay u
 
 Eso es todo, lo esencial para comenzar con Bisq.
 
-## Guía paso a paso para el comercio
+## Guía paso a paso para el intercambio
 
 Guía paso a paso de Bitcoiner.guide, también conocido como bitcoinQ&A https://bitcoiner.guide/bisq/
 
-3. Ahora que tienes configurado tu método de pago, puedes ir a la pestaña 'Buy BTC' y ver los vendedores que ofrecen bitcoin a cambio de tu método de pago elegido. Aquí puedes ver el precio de BTC, la diferencia porcentual en comparación con el precio 'spot' y la cantidad de bitcoin en venta de cada vendedor. Una vez que hayas encontrado una oferta que te guste, haz clic en 'Take offer to buy BTC'.
+3. Ahora que tienes configurado tu método de pago, puedes ir a la pestaña 'Buy BTC' y ver los vendedores que ofrecen Bitcoin a cambio de tu método de pago elegido. Aquí puedes ver el precio de BTC, la diferencia porcentual en comparación con el precio 'spot' y la cantidad de Bitcoin en venta de cada vendedor. Una vez que hayas encontrado una oferta que te guste, haz clic en 'Take offer to buy BTC'.
 
 ![imagen](assets/3.webp)
 
@@ -93,7 +93,7 @@ Guía paso a paso de Bitcoiner.guide, también conocido como bitcoinQ&A https://
 
 ![imagen](assets/4.webp)
 
-5. Ahora debes financiar tu billetera de transacciones con una pequeña cantidad de bitcoin que actúa como depósito de seguridad. Esto suele ser alrededor del 15% del tamaño de la transacción. El vendedor también debe realizar un depósito en su lado.
+5. Ahora debes financiar tu billetera de transacciones con una pequeña cantidad de Bitcoin que actúa como depósito de seguridad. Esto suele ser alrededor del 15% del tamaño de la transacción. El vendedor también debe realizar un depósito en su lado.
 
 ![imagen](assets/5.webp)
 
@@ -101,7 +101,7 @@ Guía paso a paso de Bitcoiner.guide, también conocido como bitcoinQ&A https://
 
 ![imagen](assets/6.webp)
 
-7. Ahora tendrás una espera muy corta mientras la red de Bitcoin confirma la transacción de la transacción, lo que coloca los depósitos de seguridad de ambas partes en el contrato de depósito múltiple.
+7. Ahora tendrás una espera muy corta mientras la red de Bitcoin confirma la transacción, lo que coloca los depósitos de seguridad de ambas partes en el contrato de depósito múltiple.
 
 ![imagen](assets/7.webp)
 
@@ -111,26 +111,26 @@ Guía paso a paso de Bitcoiner.guide, también conocido como bitcoinQ&A https://
 
 9. Una vez que hayas enviado el pago, presiona el botón para confirmar que lo has hecho y luego espera a que el vendedor confirme que ha recibido tus fondos. En este punto, también puedes chatear con tu socio comercial a través de mensajes encriptados de extremo a extremo presionando 'Abrir chat de trader'.
 
-Una vez que el vendedor confirme la recepción de los fondos, los bitcoins comprados junto con tu depósito de seguridad se liberarán en tu billetera de Bisq.
+Una vez que el vendedor confirme la recepción de los fondos, el Bitcoins comprado junto con tu depósito de seguridad se liberarán en tu billetera de Bisq.
 
 ![image](assets/9.webp)
 
-10. ¡Eso es todo, tu primera operación está completa! Ahora puedes retirar tus bitcoins a una billetera externa o dejarlos en tu cuenta de Bisq.
+10. ¡Eso es todo, tu primera operación está completa! Ahora puedes retirar tu Bitcoin a una billetera externa o dejarlos en tu cuenta de Bisq.
 
 ![image](assets/10.webp)
 
 ## Los compromisos al comprar sin KYC (por preguntas y respuestas de Bitcoin)
 
-Tan simple como comprar en Bisq es, hay algunos compromisos de los que debes estar consciente.
+Aunque es tan simple comprar en Bisq, hay algunos compromisos de los que debes estar consciente.
 
-1. Necesitas BTC antes de realizar una operación para formar un depósito de seguridad. No es un problema si has estado en el mundo de Bitcoin por un tiempo, pero podría convertirse en un problema si quieres usar Bisq como tu primera compra. Tu mejor opción en este caso es obtener algunos bitcoins de un amigo o familiar.
+1. Necesitas BTC antes de realizar una operación para formar un depósito de seguridad. No es un problema si has estado en el mundo de Bitcoin por un tiempo, pero podría convertirse en un problema si quieres usar Bisq como tu primera compra. Tu mejor opción en este caso es obtener algo de Bitcoin de un amigo o familiar.
 
-2. El bitcoin sin KYC a menudo atrae un precio premium por encima del precio de mercado, lo que puede desanimar a algunos compradores. Como mencioné anteriormente, esto se trata de compromisos y personalmente estaría dispuesto a pagar un 5-8% por encima del precio de mercado por la comodidad de mantener seguros mis datos personales.
+2. El Bbitcoin sin KYC a menudo atrae un precio premium por encima del precio de mercado, lo que puede desanimar a algunos compradores. Como mencionamos anteriormente, esto se trata de compromisos y creemos que estamos dispuestos a pagar un 5-8% por encima del precio de mercado por la comodidad de mantener seguros nuestros datos personales.
 
-Si no tienes prisa por comprar, también puedes configurar una 'Oferta de compra' donde puedes informar a la red de Bisq que estás dispuesto a comprar una cantidad de bitcoin a un precio determinado en relación con el valor de mercado. Si un vendedor aparece y le gusta tu oferta, puede aceptarla.
+Si no tienes prisa por comprar, también puedes configurar una 'Oferta de compra' donde puedes informar a la red de Bisq que estás dispuesto a comprar una cantidad de Bitcoin a un precio determinado en relación con el valor de mercado. Si un vendedor aparece y le gusta tu oferta, puede aceptarla.
 
 3. Los intercambios descentralizados a veces pueden sufrir escasez de liquidez en comparación con entidades centralizadas más grandes. Si estás buscando comprar cantidades más grandes con más frecuencia, es posible que tengas dificultades.
 
-4. Aunque nunca me ha sucedido, a veces el comercio entre pares no funciona como se esperaba y los usuarios deben pasar por el proceso de resolución de disputas. Afortunadamente, debido a la forma en que se estructuran los incentivos de Bisq, estos casos son pocos y distantes entre sí.
+4. Aunque nunca nos ha sucedido, a veces el comercio entre pares no funciona como se esperaba y los usuarios deben pasar por el proceso de resolución de disputas. Afortunadamente, debido a la forma en que se estructuran los incentivos de Bisq, estos casos son pocos y distantes entre sí.
 
-Como con la mayoría de las cosas relacionadas con Bitcoin, el debate KYC/No KYC es sutil y está lleno de compromisos. Lo entiendo, las formas más comunes de ingresar dinero fiduciario como Coinbase y CashApp hacen que sea muy fácil comprar, especialmente para los principiantes, pero tómate un segundo para considerar los compromisos y explorar las alternativas antes de regalar tu información personal tan fácilmente.
+Como con la mayoría de las cosas relacionadas con Bitcoin, el debate KYC/No KYC es sutil y está lleno de compromisos. Lo entendemos, las formas más comunes de ingresar dinero fiduciario como Coinbase y CashApp hacen que sea muy fácil comprar, especialmente para los principiantes, pero tómate un segundo para considerar los compromisos y explorar las alternativas antes de regalar tu información personal tan fácilmente.

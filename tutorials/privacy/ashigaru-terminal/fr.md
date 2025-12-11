@@ -15,6 +15,8 @@ En résumé, Ashigaru Terminal vous sera particulièrement utile si vous souhait
 
 Dans ce premier tutoriel, je vais vous accompagner dans l’installation et la prise en main d’Ashigaru Terminal. Un second tutoriel, plus avancé, sera ensuite consacré à la réalisation concrète de coinjoins.
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. Installer Ashigaru Terminal
 
 Pour installer Ashigaru Terminal, vous aurez besoin de Tor Browser, car les binaires ne sont distribués que via le réseau Tor. Si ce n’est pas déjà fait, [installez-le sur votre machine](https://www.torproject.org/download/).
@@ -146,7 +148,7 @@ Deux possibilités s’offrent à vous :
 
 Dans ce tutoriel, nous allons opter pour la seconde méthode. Toutefois, si vous préférez créer un portefeuille entièrement nouveau, la procédure reste identique : la seule différence interviendra lors de la création, où vous devrez sauvegarder votre nouvelle phrase mnémonique et votre nouvelle passphrase.
 
-Notez également qu’Ashigaru Terminal ne permet pas de dépenser directement vos bitcoins. Vous pouvez soit synchroniser le même portefeuille sur Ashigaru Terminal et sur l’application Ashigaru (ce que je vais faire dans ce tutoriel), soit utiliser l’option `Mix to` (que nous verrons dans le prochain tutoriel) afin d’envoyer automatiquement vos fonds vers un hardware wallet après un nombre défini de cycles de mixage.
+Notez également qu’Ashigaru Terminal ne permet pas de dépenser directement vos bitcoins. Vous pouvez soit synchroniser le même portefeuille sur Ashigaru Terminal et sur l’application Ashigaru (ce que je vais faire dans ce tutoriel), ou bien sur Sparrow Wallet.
 
 Si vous n’avez pas encore de portefeuille sur l’application Ashigaru, vous pouvez suivre le tutoriel dédié :
 
@@ -165,8 +167,6 @@ Attribuez un nom à votre portefeuille.
 ![Image](assets/fr/17.webp)
 
 Choisissez ensuite le type de portefeuille `Hot Wallet`.
-
-*Remarque* : l’option `Watch-only` permet d’enregistrer la `xpub` d’un hardware wallet afin d’utiliser ultérieurement la fonction `Mix to`. Toutefois, ce type de portefeuille ne peut évidemment pas participer à des coinjoins. Nous reviendrons en détail sur cette fonctionnalité dans le prochain tutoriel.
 
 ![Image](assets/fr/18.webp)
 
@@ -221,5 +221,6 @@ Le fonctionnement est ensuite identique à celui de Sparrow, puisque Ashigaru Te
 
 ![Image](assets/fr/27.webp)
 
-Vous savez désormais comment installer et prendre en main Ashigaru Terminal. Dans le prochain tutoriel, nous verrons comment réaliser des coinjoins avec ce logiciel et comment gérer les fonds en "*Postmix*", soit via l’application Ashigaru, soit grâce à l’option `Mix to`.
+Vous savez désormais comment installer et prendre en main Ashigaru Terminal. Dans le prochain tutoriel, nous verrons comment réaliser des coinjoins avec ce logiciel et comment gérer les fonds en "*Postmix*".
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

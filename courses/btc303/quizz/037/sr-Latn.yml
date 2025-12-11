@@ -1,0 +1,9 @@
+question: Koje je bilo primarno pitanje koje je učinilo da se Segwit nadogradnja razlikuje od prethodnih Bitcoin nadogradnji?
+answer: Rudari nisu signalizirali podršku uprkos ogromnoj podršci korisnika, što je zaustavilo proces aktivacije.
+wrong_answers:
+  - Nadogradnja je zahtevala hard fork umesto uobičajenog soft fork metoda implementacije.
+  - Tehnički bagovi u Segwit kodu sprečili su bezbedno implementiranje dok nisu bili rešeni
+  - Ekonomski čvorovi odbili su nadogradnju zbog zabrinutosti oko povećanih naknada za transakcije
+explanation: |
+  Segwit nadogradnja bila je jedinstvena jer se suočila sa problemom koordinacije gde je postojala ogromna podrška među korisnicima Bitcoin, ali su rudari odbijali da signaliziraju podršku za nadogradnju. Ovo je stvorilo pat poziciju gde nadogradnja nije mogla da se aktivira kroz uobičajeni mehanizam soft fork aktiviran od strane rudara. Prethodne nadogradnje su bile relativno bezbolne jer su imale podršku i korisnika i rudara. Ova situacija je dovela do predloga User Activated Soft Forks (UASF) kao alternativnog mehanizma aktivacije koji se nije oslanjao na signalizaciju rudara, ističući tenziju između različitih zainteresovanih strana u Bitcoin ekosistemu.
+reviewed: false

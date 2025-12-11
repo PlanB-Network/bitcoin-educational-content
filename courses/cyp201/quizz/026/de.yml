@@ -6,4 +6,4 @@ wrong_answers:
   - Eine benutzerdefinierte elliptische Kurve
 explanation: |
   Eine ECDSA-Signatur beginnt mit der Berechnung des Hashs der zu signierenden Nachricht, oft mit SHA256.
-reviewed: false
+reviewed: true

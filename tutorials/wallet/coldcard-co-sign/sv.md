@@ -1,5 +1,5 @@
 ---
-name: COLDCARD - Medsignera
+name: COLDCARD - Co-Sign
 description: Upptäck Co-Sign-funktionen och använd den på ditt COLDCARD
 ---
 

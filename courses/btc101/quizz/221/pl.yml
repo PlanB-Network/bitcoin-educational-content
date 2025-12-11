@@ -1,8 +1,8 @@
-question: Opłaty za transakcje na Lightning Network są niezwykle niskie, często niższe niż...?
-answer: 0.5%.
+question: Opłaty za transakcje w sieci Lightning są niezwykle niskie, często niższe niż...?
+answer: 0.5%
 wrong_answers:
-  - 1%.
-  - 2%.
-  - 3%.
+  - 1%
+  - 2%
+  - 3%
 explanation: >-
 reviewed: true

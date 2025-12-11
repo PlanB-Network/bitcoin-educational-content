@@ -1,0 +1,8 @@
+question: According to Satoshi Nakamoto's philosophy, what fundamental problem with conventional currencies does Bitcoin attempt to solve?
+answer: The excessive trust required in centralized institutions that historically breach that trust through currency debasement
+wrong_answers:
+  - The technical inefficiency of traditional payment processing systems that create delays in international transactions
+  - The environmental impact of physical currency production and the carbon footprint of traditional banking infrastructure
+  - The mathematical complexity of current monetary policy that makes it difficult for citizens to understand economic decisions
+explanation: |
+  Satoshi Nakamoto explicitly stated that 'the root problem with conventional currency is all the trust that's required to make it work' and that 'the history of fiat currencies is full of breaches of that trust' This quote reveals Bitcoin's core purpose: eliminating the need to trust central banks not to debase currency. The Genesis Block's reference to bank bailouts reinforces this critique of institutional failures. The wrong answers focus on technical, environmental, or complexity issues that, while potentially valid concerns, were not the fundamental philosophical motivation behind Bitcoin's creation as articulated by its creator.

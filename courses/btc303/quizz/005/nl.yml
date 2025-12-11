@@ -1,0 +1,9 @@
+question: Waar verwijst decentralisatie van mijnwerkers specifiek naar in Bitcoin?
+answer: Het ordenen van transacties wordt collectief uitgevoerd door een dynamische reeks miners in plaats van één enkele entiteit
+wrong_answers:
+  - De validatie van blokken wordt verdeeld over meerdere vertrouwde autoriteiten in plaats van één centrale server
+  - De mining-beloningen worden gelijk verdeeld over alle deelnemers in het Bitcoin-netwerk
+  - De mining hardware wordt door verschillende bedrijven gemaakt om monopolisering van apparatuur te voorkomen
+explanation: |
+  Miner decentralisatie betekent specifiek dat het bestellen van transacties niet wordt gecontroleerd door een enkele entiteit of vaste groep, maar eerder door een collectief van miners die zich vrij kunnen aansluiten of vertrekken. Dit is anders dan blokvalidatie (wat te maken heeft met full node decentralisatie), beloningsdistributie of hardwarefabricage. De dynamische aard van het mining collectief - waar iedereen zonder toestemming aan kan deelnemen - is wat Bitcoin censuurbestendig maakt en voorkomt dat een enkele partij kan bepalen welke transacties in blokken worden opgenomen.
+reviewed: false

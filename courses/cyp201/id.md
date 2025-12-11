@@ -1883,19 +1883,21 @@ Ketika seorang pengguna menerima bitcoin, pengirim membuat sebuah output UTXO da
 
 Tepatnya dalam *scriptPubKey* tempat alamat penerima ditemukan. Namun, penggunaannya bervariasi tergantung pada standar skrip yang diadopsi. Berikut adalah tabel ringkasan informasi yang terkandung dalam *scriptPubKey* menurut standar yang digunakan, serta informasi yang diharapkan dalam *scriptSig* untuk membuka *scriptPubKey*.
 
-| Standar            | *scriptPubKey*                                              | *scriptSig*                     | *redeem script*     | *witness*                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <redeem script>` | Data sembarang      |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <pubKeyHash>`    | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <scriptHash>`    | `<data pushes> <witness script>`         |
-| P2TR (jalur kunci) | `1 <public key>`                                            |                                 |                     | `<signature>`                            |
-| P2TR (jalur skrip) | `1 <public key>`                                            |                                 |                     | `<data pushes> <script> <blok kontrol>`  |
 
-*Sumber: Bitcoin Core PR review club, 7 Juli 2021 - Gloria Zhao*
+
+| Standar             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Data sewenang-wenang | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_Sumber: Bitcoin Core PR review club tanggal 7 Juli 2021 – Gloria Zhao_
 
 Opcodes yang digunakan dalam skrip dirancang untuk memanipulasi informasi, dan, jika perlu, untuk membandingkan atau mengujinya. Mari kita ambil contoh skrip P2PKH, yang adalah sebagai berikut:
 

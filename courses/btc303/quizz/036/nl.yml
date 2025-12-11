@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste verschil tussen bloksubsidie en transactievergoedingen in termen van wie uiteindelijk de kosten draagt van de netwerkbeveiliging van Bitcoin?
+answer: De kosten van de bloksubsidie worden gedragen door de houders via de monetaire inflatie, terwijl de transactiekosten worden betaald door de uitgevers
+wrong_answers:
+  - Kosten voor bloksubsidie worden betaald door miners via uitgaven voor apparatuur, terwijl transactiekosten worden gedragen door exploitanten van knooppunten
+  - Kosten voor bloksubsidie worden gelijkelijk verdeeld tussen alle netwerkdeelnemers, terwijl transactievergoedingen alleen grote instellingen treffen
+  - De kosten van bloksubsidies worden gedragen door beurzen via handelsvergoedingen, terwijl de transactiekosten worden betaald door wallet aanbieders
+explanation: |
+  Zoals Paul Sztorc opmerkte, zijn bloksubsidie en transactievergoedingen fundamenteel verschillend van aard. De blokkensubsidie vertegenwoordigt de creatie van nieuwe bitcoins, die het bestaande aanbod verdunt en effectief alle bitcoinhouders op kosten jaagt door monetaire inflatie. Transactievergoedingen daarentegen zijn directe betalingen door gebruikers die een transactie willen doen, wat betekent dat spenders deze kosten direct dragen. Het hoofdstuk illustreert deze overgang en laat zien hoe beveiligingskosten verschuiven van houders naar spenders naarmate de bloksubsidie in de loop van de tijd afneemt.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Je, ni mambo gani mawili makuu ya ugatuaji katika Bitcoin?
+answer: Ugatuaji wa Miner na ugatuaji wa full node
+wrong_answers:
+  - Ugatuaji wa shughuli na ugatuaji wa wallet
+  - Ugatuaji wa mtandao na ugatuaji wa itifaki
+  - Ugatuaji wa watumiaji na ugatuaji wa wasanidi programu
+explanation: |
+  Ugatuaji wa Bitcoin una vipengele viwili muhimu: ugatuaji wa wachimbaji na ugatuaji wa full node. Ugatuaji wa Miner unamaanisha kuwa uchakataji na uagizaji wa miamala haudhibitiwi na chombo chochote, bali na kikundi chenye nguvu cha wachimbaji madini ambao wanaweza kujiunga au kuondoka kwa uhuru. Ugatuaji wa Full node unarejelea uthibitishaji wa vitalu vinavyotekelezwa kwenye ukingo wa mtandao na watumiaji wenyewe, badala ya mamlaka zinazoaminika. Vipengele hivi viwili vinafanya kazi pamoja ili kufikia upinzani wa udhibiti - wachimbaji huzuia uagizaji wa shughuli kati huku nodi kamili zinahakikisha uthibitisho usioaminika wa blockchain.
+reviewed: false

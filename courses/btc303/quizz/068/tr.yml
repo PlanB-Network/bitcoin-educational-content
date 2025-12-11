@@ -1,0 +1,9 @@
+question: Madenciler blok boyutlarının arttığı dönemlerde bayat bloklardan kaçınmak için daha yüksek bant genişliği ve bağlantıya sahip mining havuzlarına bağlandıklarında, Bitcoin ağı için birincil olumsuz sonuç nedir?
+answer: Küçük madenciler üstün altyapıya sahip daha büyük havuzlara doğru itildikçe mining ademi merkeziyetçiliğini azaltır
+wrong_answers:
+  - mining işlemlerinin hesaplama zorluğunu artırarak blokların çözülmesini zorlaştırır
+  - Ağ bağlantısını sürdürmek için ödenmesi gereken ek işlem ücretleri yaratır
+  - Madenciler kaynakları mining yerine bağlantı için harcadıklarından ağın toplam hash oranını düşürür
+explanation: |
+  Bu bölümde, blok boyutları büyüdüğünde yayılma sürelerinin arttığı ve bunun da daha fazla bayat bloğa yol açtığı açıklanmaktadır. Bayat bloklardan kaynaklanan blok ödüllerini kaybetmemek için madenciler daha iyi bant genişliğine ve bağlantıya sahip havuzlar ararlar. Bu da madencileri daha büyük, iyi bağlantılı havuzlara doğru iterek mining merkezsizleşmesini azaltır. Diğer seçenekler yanlıştır: zorluk, havuz bağlantısından bağımsız olarak otomatik olarak ayarlanır, bağlantı maliyetleri ek işlem ücretleri yaratmaz ve madenciler daha iyi bağlantılı havuzlara katılırken hash oranını azaltmaz.
+reviewed: false

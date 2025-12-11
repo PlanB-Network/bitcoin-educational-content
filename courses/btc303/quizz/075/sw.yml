@@ -1,0 +1,9 @@
+question: Kulingana na mtazamo wa Gregory Maxwell kuhusu tathmini ya ukali wa hatari, wasanidi programu wanapaswa kuchukua mbinu gani wakati wa kutathmini athari inayoweza kusababishwa na masuala ya usalama yaliyogunduliwa?
+answer: Chukulia udhaifu kuwa mbaya zaidi kuliko unaojulikana sasa na ufikirie kuwa unaweza kutumiwa kwa urahisi hata kama unaonekana kuwa mgumu kuutumia.
+wrong_answers:
+  - Lenga tu athari inayoonekana mara moja na weka udhaifu kulingana na mbinu zao za sasa za unyonyaji.
+  - Tanguliza udhaifu kulingana na utata wao wa kiufundi na urekebishaji wa ucheleweshaji wa maswala ambayo yanaonekana kuwa magumu kutumia.
+  - Tathmini kila udhaifu ukiwa umejitenga bila kuzingatia jinsi masuala madogo madogo yanavyoweza kuunganishwa ili kuleta hatari kubwa za usalama.
+explanation: |
+  Maxwell anabisha kuwa wasanidi programu wanapaswa kuchukulia udhaifu kuwa mbaya zaidi kuliko unavyoonekana kwa sababu masuala magumu kutumia yanaweza kuwa madogo kwa mbinu sahihi, na matatizo yanayoonekana madogo yanaweza kuongezeka hadi vitisho vikubwa. Anasisitiza kuwa hitilafu rahisi za utendakazi zinaweza kutumiwa ili kugawa mtandao na kuwezesha mashambulizi ya double-spending. Mbinu hii ya kihafidhina inakubali kwamba wasanidi programu huenda wasielewe awali uwezekano kamili wa unyonyaji wa mazingira magumu, na kuifanya kuwa jambo la busara kuchukulia hali mbaya zaidi badala ya kudharau tishio.
+reviewed: false

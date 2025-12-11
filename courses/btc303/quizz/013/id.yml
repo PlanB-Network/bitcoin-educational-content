@@ -1,0 +1,9 @@
+question: Menurut presentasi Matt Corallo, apa hubungan antara sistem tanpa kepercayaan dan sistem tepercaya dalam arsitektur Bitcoin?
+answer: Anda bisa membangun sistem tepercaya di atas sistem tanpa kepercayaan, tetapi tidak bisa membangun sistem tanpa kepercayaan di atas sistem tepercaya
+wrong_answers:
+  - Anda bisa membangun sistem tanpa kepercayaan di atas sistem tepercaya, tetapi tidak bisa membangun sistem tepercaya di atas sistem tanpa kepercayaan
+  - Baik sistem yang tidak dapat dipercaya maupun yang dapat dipercaya dapat dibangun di atas satu sama lain tanpa batasan arsitektur apa pun
+  - Trustless dan sistem tepercaya harus beroperasi secara independen dan tidak dapat ditumpuk di atas satu sama lain
+explanation: |
+  Wawasan utama Matt Corallo adalah bahwa lapisan dasar tanpa kepercayaan dari Bitcoin memungkinkan fleksibilitas dalam desain sistem. Fondasi tanpa kepercayaan seperti protokol Bitcoin memungkinkan pengembang untuk membuat layanan tepercaya (seperti dompet kustodian) pada lapisan yang lebih tinggi sambil mempertahankan jaminan keamanan yang mendasarinya. Akan tetapi, kebalikannya tidak mungkin terjadi - Anda tidak dapat membuat sistem yang benar-benar tanpa kepercayaan jika fondasinya sendiri membutuhkan kepercayaan, karena properti tanpa kepercayaan akan dirusak oleh kerentanan lapisan dasar tepercaya.
+reviewed: false

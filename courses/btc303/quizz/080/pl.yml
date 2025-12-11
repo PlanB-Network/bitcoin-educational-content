@@ -1,0 +1,9 @@
+question: Jakie jest główne wyzwanie, które sprawia, że publikowanie łatek na luki w Bitcoin jest szczególnie złożone w porównaniu z tradycyjnymi scentralizowanymi systemami oprogramowania?
+answer: Sam kod poprawki może ujawnić podatność potencjalnym atakującym, którzy analizują zmiany
+wrong_answers:
+  - Zdecentralizowany charakter oznacza, że nie ma centralnego organu, który koordynowałby czas wdrażania poprawek
+  - "Mechanizm konsensusu Bitcoin wymaga większościowego zatwierdzenia przed wdrożeniem jakichkolwiek poprawek bezpieczeństwa"
+  - Charakter open-source oznacza, że wszystkie luki muszą zostać ujawnione publicznie przed opracowaniem łatek
+explanation: |
+  W tekście wyraźnie podkreślono, że deweloperzy muszą zachować szczególną ostrożność podczas publikowania łatek, ponieważ "sama łatka może ujawnić lukę" Stwarza to wyjątkowe wyzwanie, w którym rozwiązanie może nieumyślnie ujawnić problem. Czwarty punkt opisuje, w jaki sposób deweloperzy Bitcoin sprawdzają, czy łatka została "wystarczająco dobrze zamaskowana", zlecając doświadczonym programistom sprawdzenie jej bez znajomości konkretnej podatności. Jeśli eksperci nie są w stanie zidentyfikować luki w zabezpieczeniach, łatka jest uznawana za bezpieczną do wdrożenia. Pozostałe opcje są nieprawidłowe: istnieje koordynacja za pośrednictwem opiekunów Bitcoin Core, konsensus nie jest wymagany w przypadku łatek, a luki są utrzymywane w tajemnicy podczas odpowiedzialnego ujawniania.
+reviewed: false

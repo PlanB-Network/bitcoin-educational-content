@@ -1,12 +1,12 @@
 ---
-name: Teoreetiline sissejuhatus Lightning Network'i
+name: Lightning Network'i teooria
 goal: Avasta Lightning Network tehnilisest perspektiivist
 objectives:
-  - Mõista võrgu kanalite toimimist.
-  - Tutvuda terminitega HTLC, LNURL ja UTXO.
-  - Omandada teadmised likviidsuse haldamisest ja LNN tasudest.
-  - Tunnustada Lightning Network'i kui võrku.
-  - Mõista Lightning Network'i teoreetilisi kasutusviise.
+- Mõista võrgu kanalite toimimist.
+- Tutvuda terminitega HTLC, LNURL ja UTXO.
+- Omandada teadmised likviidsuse haldamisest ja LNN tasudest.
+- Tunnustada Lightning Network'i kui võrku.
+- Mõista Lightning Network'i teoreetilisi kasutusviise.
 ---
 
 # Teekond Bitcoin'i teise kihti

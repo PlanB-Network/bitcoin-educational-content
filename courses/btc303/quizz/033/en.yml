@@ -6,3 +6,4 @@ wrong_answers:
   - 2160
 explanation: |
   According to the chapter, BIP42 fixed a very-long-term inflation bug and ensures the block subsidy will reach zero around the year 2140. This is when Bitcoin will transition from a subsidy-based reward system to a purely fee-based system, fundamentally changing how network security costs are covered from holders paying through inflation to spenders paying through transaction fees.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Theo chương này, hạn chế chính mà ngay cả full node cũng không thể bảo vệ bạn là gì?
+answer: Viết lại chuỗi có thể khiến giao dịch của bạn bị chi tiêu gấp đôi
+wrong_answers:
+  - Phần mềm độc hại đánh cắp khóa riêng tư của bạn từ bộ nhớ
+  - "Các khối không hợp lệ không tuân theo các quy tắc đồng thuận của Bitcoin"
+  - Lịch trình phát hành tiền xu không chính xác vi phạm giao thức
+explanation: |
+  Mặc dù full node có thể xác minh các khối tuân theo các quy tắc đồng thuận, ngăn chặn việc phát hành coin không hợp lệ và phát hiện các vi phạm giao thức, nhưng nó không thể ngăn chặn việc viết lại chuỗi, trong đó các thợ đào tổ chức lại blockchain để thực hiện các giao dịch chi tiêu gấp đôi. Chương này nêu rõ rằng dù phần mềm của bạn có tiên tiến đến đâu, bạn vẫn phải tin tưởng rằng các khối chứa coin của bạn sẽ không bị viết lại. Đây là lý do tại sao cơ chế phòng thủ của Bitcoin dựa vào việc chờ đợi nhiều xác nhận để giảm khả năng viết lại chuỗi xuống mức chấp nhận được.
+reviewed: false

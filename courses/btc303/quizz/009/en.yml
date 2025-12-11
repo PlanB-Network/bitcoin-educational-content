@@ -6,3 +6,4 @@ wrong_answers:
   - "Technical vulnerabilities in Bitcoin's cryptographic algorithms"
 explanation: |
   According to Gregory Maxwell's Reddit post cited in the chapter, while 51% attacks exist as a theoretical concern, the far bigger risk is that Bitcoin users won't understand, care about, or protect the decentralization properties that make Bitcoin valuable over centralized alternatives. This is because decentralization is what provides Bitcoin's censorship resistance - its key differentiator from traditional money systems. If people don't actively protect these properties, Bitcoin could gradually become centralized until censorship becomes possible, destroying most of its value proposition. The other options, while potential concerns, are not what Maxwell specifically identified as the greater threat to Bitcoin's long-term success.
+reviewed: false

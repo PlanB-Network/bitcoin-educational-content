@@ -1,11 +1,11 @@
-question: Co powinno być głównym zmartwieniem podczas posiadania Bitcoin?
-answer: Bezpieczeństwo Twoich środków.
+question: Co powinno być twoim głównym zmartwieniem związanym z posiadaniem bitcoinów?
+answer: Bezpieczeństwo twoich środków.
 wrong_answers:
-  - Wartość Bitcoin w dolarach.
+  - Wartość bitcoina w dolarach.
   - Legalność posiadania bitcoinów.
   - Zezwolenie na wydawanie środków.
 explanation: |
-  Kiedy posiadasz bitcoiny, głównym zmartwieniem jest bezpieczeństwo
-  środków. Wynika to z faktu, że Bitcoin, jak każda inna forma
+  Kiedy posiadasz bitcoiny, twoim głównym zmartwieniem jest bezpieczeństwo
+  środków. Wynika to z faktu, że bitcoiny, jak każda inna forma
   waluty, mogą zostać skradzione lub utracone, jeśli nie są odpowiednio zabezpieczone.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Mida konkreetselt kaotab Bitcoin usaldusvaba vara digitaalsetes tehingutes?
+answer: Usaldusväärsed kolmandad osapooled tehingute töötlemiseks ja valideerimiseks
+wrong_answers:
+  - Bitcoin sõlmede käitamiseks vajalikud riist- ja tarkvarakomponendid
+  - Krüptograafilised algoritmid privaatvõtmete ja allkirjade kaitsmiseks
+  - Võrgu konsensusmehhanismid kehtivate plokkide kokkuleppimiseks
+explanation: |
+  Bitcoin usaldusteta omadus välistab konkreetselt vajaduse usaldusväärsete kolmandate osapoolte, näiteks pankade või finantsasutuste järele tehingute töötlemiseks ja valideerimiseks. Nagu Satoshi Nakamoto selgitas Bitcoin teabepaberis, tugineb traditsiooniline kaubandus finantsasutustele, mis on usaldusväärsed vahendajad, kuid Bitcoin ülesehitus võimaldab süsteemil detsentraliseeritud konsensusmehhanismi kaudu toimida korrektselt ilma usaldusväärsete osapoolteta. Teised valikud esindavad olulisi tehnilisi komponente, mida Bitcoin endiselt vajab - osalemiseks on endiselt vaja riistvara/tarkvara, krüptoturve on endiselt põhiline ja võrgu konsensus on see, kuidas Bitcoin saavutab usaldamatuse, mitte midagi, mida ta kaotab.
+reviewed: false

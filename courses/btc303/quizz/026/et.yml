@@ -1,0 +1,9 @@
+question: Mida tähendab plokiahela privaatsus konkreetselt Bitcoin kontekstis?
+answer: Teave, mida te avaldate tehingutega plokiahelas tehtavate tehingute kaudu
+wrong_answers:
+  - Teie wallet-s salvestatud privaatvõtmete krüpteerimine
+  - Teie internetiühenduse kaitse Bitcoin kasutamise ajal
+  - Anonüümsus, mida pakub mitme wallet aadressi kasutamine
+explanation: |
+  Blockchain privaatsus viitab konkreetselt teabele, mida avaldate plokiahelas tehingutega, mis kehtib kõigi tehingute kohta, mida saadate ja saate. See erineb wallet krüpteerimisest (mis kaitseb salvestatud võtmeid), internetiühenduse turvalisusest (mis on off-chain privaatsus) või väärarusaamast, et mitu aadressi tagavad anonüümsuse. Privaatsuse lekkimine ahelas toimub aadresside korduvkasutamise ja klastriteerimise kaudu, kus tehinguid saab omavahel siduda, et paljastada kasutajate finantstegevuste mustreid.
+reviewed: false

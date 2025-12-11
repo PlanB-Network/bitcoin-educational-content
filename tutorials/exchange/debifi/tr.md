@@ -24,11 +24,11 @@ Sonuç, kendisini bankalara modern bir alternatif olarak konumlandıran bir plat
 
 
 
-Debifi, gözetim dışı bir Bitcoin destekli borç verme platformudur, bu da özel anahtarlarınızın kontrolünü elinizde tuttuğunuz anlamına gelir. Kullanıcıların teminat olarak kilitli bitcoinleri için Exchange'teki likiditenin kilidini açmalarına olanak tanır. Geleneksel banka kredilerinin aksine Debifi, çoklu imza emanet sistemi (4'te 3) kullanmakta ve teminat ipoteği kabul etmeyerek daha fazla güvenlik ve şeffaflık sağlamaktadır.
+Debifi, gözetim altında olmayan Bitcoin destekli bir borç verme platformudur; bu da özel anahtarlarınızın kontrolünü elinizde tuttuğunuz anlamına gelir. Kullanıcıların teminat olarak kilitli bitcoinleri karşılığında likiditenin kilidini açmalarına olanak tanır. Geleneksel banka kredilerinin aksine Debifi, çoklu imza emanet sistemi (4'te 3) kullanır ve daha fazla güvenlik ve şeffaflığı garanti ederek teminat rehinini kabul etmez.
 
 
 
-Uygulamada bu, ne Debifi'nin ne de bireysel bir borç verenin BTC'nizi üç tarafın (siz, borç veren ve güvenilir bir üçüncü taraf) onayı olmadan harcayamayacağı anlamına gelir. Bu, sistemi daha güvenli hale getirir: Debifi'den borç alırsanız, kredinin tamamı geri ödenene kadar Ownership'inizin Bitcoin'sını elinizde tutarsınız.
+Uygulamada bu, ne Debifi'nin ne de bireysel bir borç verenin BTC'nizi üç tarafın (siz, borç veren ve güvenilir bir üçüncü taraf) onayı olmadan harcayamayacağı anlamına gelir. Bu, sistemi daha güvenli hale getirir: Debifi'den borç alırsanız, kredinin tamamı geri ödenene kadar Bitcoin'ünüzün mülkiyetini elinizde tutarsınız.
 
 
 
@@ -36,22 +36,21 @@ Uygulamada bu, ne Debifi'nin ne de bireysel bir borç verenin BTC'nizi üç tara
 
 
 
-Debifi ile teminatlandırılmış krediler, Blockchain güvenliği (çoklu imza, 2FA), sabit coin/sıvı seçenekleri, gizlilik ve tam Bitcoin kontrolü. Debifi, rekabetçi oranlar ve BTC destekli kredilere küresel erişim sunarken "paranızı korumanıza izin verir" (anahtarlarınız, coin'leriniz).
+Debifi ile, aşırı teminatlı ve Bitcoin güvenceli on-chain destekli krediler alırsınız. Fonlarınız çoklu imza cüzdanları, 2FA ve Bitcoin'nız üzerinde tam kontrol ile güvende kalır - anahtarlarınız sizde, coin'leriniz sizde kalır. Rekabetçi oranlarda ve küresel likiditede bir dizi sabit coin veya fiat seçeneğiyle borç alın.
 
 
 
 İşte Debifi kredisi ile geleneksel banka kredisi arasında hızlı bir karşılaştırma:
 
 
-
-| Caractéristiques       | Prêt via Debifi                                                       | Prêt bancaire traditionnel                                                 |
-| ---------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Accessibilité          | ✔️ Ouvert à tout détenteur de Bitcoin (même sans historique bancaire) | ❌ Souvent réservé aux clients avec garanties physiques et dossiers solides |
-| Vitesse d’obtention    | ✔️ Liquide en quelques minutes/heures                                 | ❌ Processus long (jours ou semaines)                                       |
-| Garanties exigées      | ✔️ Collatéral en Bitcoin uniquement                                   | ❌ Garanties physiques (maisons, terrains, revenus stables)                 |
-| Contrôle de l’actif    | ✔️ Vous conservez l’exposition au Bitcoin et son potentiel de hausse  | ❌ Vous n’avez aucun lien entre le prêt et vos actifs financiers            |
-| Souplesse géographique | ✔️ Disponible partout (sans contrainte géographique bancaire)         | ❌ Limité à la juridiction de la banque                                     |
-| Risque principal       | ❌ Risque de liquidation si le prix du BTC chute trop                  | ❌ Risque de saisie de biens ou impact négatif sur la cote de crédit        |
+| Characteristics        | Loan via Debifi                                                        | Traditional Bank Loan                                                       |
+| ---------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Accessibility          | ✔️ Open to any Bitcoin holder (even without banking history)           | ❌ Often limited to clients with physical collateral and strong records      |
+| Speed of approval      | ✔️ Funds available within minutes or hours                             | ❌ Lengthy process (days or weeks)                                           |
+| Required guarantees    | ✔️ Bitcoin used as the sole collateral                                 | ❌ Physical guarantees (property, land, stable income)                       |
+| Asset control          | ✔️ You keep exposure to Bitcoin and its upside potential               | ❌ No connection between the loan and your financial assets                  |
+| Geographic flexibility | ✔️ Available everywhere (no banking jurisdiction constraints)          | ❌ Restricted to the bank’s jurisdiction                                     |
+| Main risk              | ❌ Liquidation risk if BTC price drops too sharply                      | ❌ Risk of asset seizure or negative impact on credit score                  |
 
 Debifi'de nasıl borçlanacağınızı adım adım göstermeden önce bilmeniz gerektiğini düşündüğüm birkaç nokta var.
 
@@ -70,25 +69,25 @@ Debifi'de nasıl borçlanacağınızı adım adım göstermeden önce bilmeniz g
 
 
 
-- Teminat** bir krediyi güvence altına almak için yatırdığınız bir varlıktır. Debifi'nin durumunda teminat, borçlunun Multisig 3/4 emanetine yatırdığı Bitcoin'dur (BTC).
+- Teminat** bir krediyi güvence altına almak için yatırdığınız bir varlıktır. Debifi'nin durumunda teminat, borçlunun Multisig 3/4 emanetine yatırdığı Bitcoin'dir (BTC).
 
 
 
 
 
-- Multisig emanet (3/4)** sistemi, bir borçlunun bitcoinlerinin çok imzalı bir Address'ye yerleştirildiği güvenli bir para yatırma mekanizmasıdır. Spesifik olarak, dört (4) tarafın her biri bir anahtara sahiptir (borç alan, borç veren, Debifi, bağımsız üçüncü taraf). Fonları taşımak için 4 imzadan en az 3'ü gereklidir.
+- Multisig emanet (3/4)** sistemi, bir borçlunun bitcoinlerinin çok imzalı bir adrese yerleştirildiği güvenli bir para yatırma mekanizmasıdır. Spesifik olarak, dört (4) tarafın her biri bir anahtara sahiptir (borç alan, borç veren, Debifi, bağımsız üçüncü taraf). Fonları taşımak için 4 imzadan en az 3'ü gereklidir.
 
 
 
 
 
-- Stabilcoin**, değeri sabit bir varlığa (örneğin ABD doları) sabitlenmiş bir kripto para birimidir ve Bitcoin'ün oynaklığını önler. Örneğin, 1 USDC fiat rezervleri tarafından desteklendiği için her zaman ~1$ değerindedir.
+- Stabilcoin**, değeri sabit bir varlığa (örneğin ABD doları) sabitlenmiş bir kripto para birimidir ve Bitcoin'un oynaklığını önler. Örneğin, 1 USDC fiat rezervleri tarafından desteklendiği için her zaman ~1$ değerindedir.
 
 
 
 
 
-- Bir kredinin Kredi-Değer (LTV)** oranı, Bitcoin'ünüz için teminat olarak ne kadar nakit borç alabileceğinizi belirler. LTV oranı = Kredi tutarı / Teminat tutarı * 100. Örneğin, %50'lik bir LTV, kredinin değerinin yatırılan Bitcoin'ün değerinin %50'sine eşit olduğu anlamına gelir.
+- Bir kredinin Kredi-Değer (LTV)** oranı, Bitcoin'iniz için teminat olarak ne kadar nakit borç alabileceğinizi belirler. LTV oranı = Kredi tutarı / Teminat tutarı * 100. Örneğin, %50'lik bir LTV, kredinin değerinin yatırılan Bitcoin'in değerinin %50'sine eşit olduğu anlamına gelir.
 
 
 
@@ -118,17 +117,11 @@ Debifi'den ödünç almadan önce lütfen aşağıdaki eşyalara sahip olduğunu
 
 
 
-- Bitcoin Wallet: BTC'nizi tuttuğunuz yer (ideal olarak gözetim altında olmayan, örneğin Hardware Wallet veya güvenilir bir mobil Wallet). Bu Wallet'den Bitcoin teminatını Debifi'ye gönderecek ve fonları alacaksınız.
+- Bitcoin wallet: BTC'nizi tuttuğunuz yer (ideal olarak gözetim altında olmayan, örneğin Hardware Wallet veya güvenilir bir mobil wallet). Bu wallet'ten Bitcoin teminatını Debifi'ye gönderecek ve teminatı geri alacaksınız.
 
 
 
-
-
-- Stablecoinler veya fiat: Debifi, sabit paralar ve bazı fiat para birimlerinde borç verir. Kullanılan ana stabilcoinler USDT ve USDC'dir.
-
-
-
-Çeşitli ağlarda USDT stablecoin yönetimini de destekleyen Aqua, bir Bitcoin ve Liquid Wallet kullanabilirsiniz. Veya şu anda Debifi tarafından desteklenen tek donanım olan COLDCARD (Mk4 veya Q).
+Çeşitli ağlarda USDT stablecoin yönetimini de destekleyen Aqua, bir Bitcoin ve Liquid wallet kullanabilirsiniz. Veya şu anda Debifi tarafından desteklenen tek donanım olan COLDCARD (Mk4 veya Q).
 
 
 
@@ -148,7 +141,7 @@ https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 
 
 
-- İki faktörlü kimlik doğrulama uygulaması: Debifi, her önemli işlem için bir Authenticator kodu gerektirir. Bu ekstra bir Layer güvenliktir. Bu eğitimde Google Authenticator kullanacağız. Alternatif olarak, uygun gördüğünüz diğerlerini de kullanabilirsiniz.
+- İki faktörlü kimlik doğrulama uygulaması: Debifi, her önemli işlem için bir Authenticator kodu gerektirir. Bu ekstra bir güvenlik katmanıdır. Bu eğitimde Google Authenticator kullanacağız. Alternatif olarak, uygun gördüğünüz diğerlerini de kullanabilirsiniz.
 
 
 
@@ -158,7 +151,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-- Debifi web sitesi ve mobil uygulaması: Debifi hem bir web sitesi hem de bir mobil uygulamadır ve ikisi birlikte çalışır. Mobil uygulama, özel anahtarınızı saklayan ve sözleşmelerin imzalanmasını yöneten bir Wallet haline gelir. Buna ek olarak, sözleşme yapmak için web sitesini kullanmanız gerekir (büyük bir Interface size kredi sözleşmelerinin ve özelliklerinin genel bir görünümünü verir).
+- Debifi web sitesi ve mobil uygulaması: Debifi hem bir web sitesi hem de bir mobil uygulamadır ve ikisi birlikte çalışır. Mobil uygulama, özel anahtarınızı saklayan ve sözleşmelerin imzalanmasını yöneten bir wallet haline gelir. Buna ek olarak, sözleşme yapmak için web sitesini kullanmanız gerekir (büyük bir Interface size kredi sözleşmelerinin ve özelliklerinin genel bir görünümünü verir).
 
 
 
@@ -200,7 +193,7 @@ Uygulamaya girdikten sonra **Ayarlar** menüsüne tıklayın.
 
 
 
-Ardından, Address e-postanızla bir hesap oluşturmak için **Giriş yap veya hesap oluştur** seçeneğine tıklayın.
+Ardından e-posta adresinizle bir hesap oluşturmak için **Giriş yap veya hesap oluştur** seçeneğine tıklayın.
 
 
 
@@ -216,7 +209,7 @@ Ardından, Address e-postanızla bir hesap oluşturmak için **Giriş yap veya h
 
 
 
-E-posta ile bir doğrulama kodu alacaksınız. Bu kodu kopyalayın ve uygulamaya yapıştırın. Ardından akıllı telefonunuzdaki Debifi uygulamasını açın ve giriş yapın.
+E-posta ile bir doğrulama kodu alacaksınız. Bu kodu kopyalayıp uygulamaya yapıştırın. Ardından akıllı telefonunuzdaki Debifi uygulamasını açın ve giriş yapın.
 
 
 
@@ -294,7 +287,7 @@ Bu adımları tamamladıktan sonra, mevcut kredi tekliflerini görmek için **Te
 
 
 
-Cihazınız bağlandıktan sonra [Debifi web sitesine] (https://debifi.com/) gidin. Debifi mobil uygulaması ile web platformu arasında güvenli bir bağlantı kurmak için oturum açın. Bu, mevcut kredi teklifleriyle (her teklifin ayrıntılarının net bir görünümü) etkileşim kurmanızı ve hesabınızı yönetmenizi kolaylaştırır.
+Cihazınız bağlandıktan sonra [Debifi web sitesine] (https://debifi.com/) gidin. Debifi mobil uygulaması ile web platformu arasında güvenli bir bağlantı kurmak için oturum açın. Bu, mevcut kredi teklifleriyle etkileşim kurmanızı (her teklifin ayrıntılarının net bir görünümü) ve hesabınızı yönetmenizi kolaylaştırır.
 
 
 
@@ -360,7 +353,7 @@ Bitcoin kredi dilimleri genellikle üç (3) adettir:
 
 
 
-- Düşük riskli bir krediye karşılık gelen muhafazakar (%20 - %40 LTV), Bitcoin fiyat oynaklığına karşı güvenliği en üst düzeye çıkarmak için idealdir;
+- Düşük riskli bir krediye karşılık gelen muhafazakar (%30 - %40 LTV), Bitcoin fiyat oynaklığına karşı güvenliği en üst düzeye çıkarmak için idealdir;
 
 
 
@@ -372,7 +365,7 @@ Bitcoin kredi dilimleri genellikle üç (3) adettir:
 
 
 
-- Agresif (%70 - %85 LTV), daha fazla likidite sunar, ancak piyasa düşüşleri sırasında çok yüksek bir tasfiye riski taşır. Bu dilimi seçerken Bitcoin piyasa koşullarının aktif olarak izlenmesi şarttır.
+- Agresif (%70 LTV), daha fazla likidite sunar, ancak piyasa düşüşleri sırasında çok yüksek bir tasfiye riski taşır. Bu dilimi seçerken Bitcoin piyasa koşullarının aktif olarak izlenmesi şarttır.
 
 
 
@@ -388,7 +381,7 @@ Oran belirleme genellikle seçtiğiniz LTV'ye, kredi vadesinin uzunluğuna, temi
 
 
 
-Krediler için geri ödeme planları genellikle esnektir ve kullanıcının ihtiyaçlarına göre uyarlanır. Teminat gereklilikleri karşılandığı sürece ödemeler herhangi bir zamanda yapılabilir. Kredi ödemeleri genellikle kredi süresi boyunca faizdir ve anapara vade sonunda ödenir.
+Geri ödeme planları esnektir ve borçlunun ihtiyaçlarını karşılayacak şekilde tasarlanmıştır. Teminat gerekliliklerinin karşılanması koşuluyla, krediler herhangi bir zamanda ek ücret olmaksızın tamamen veya kısmen geri ödenebilir. Kredi vadesi boyunca faiz genellikle periyodik olarak ödenirken, anapara vade sonunda ödenir.
 
 
 
@@ -396,7 +389,16 @@ Krediler için geri ödeme planları genellikle esnektir ve kullanıcının ihti
 
 
 
-Bitcoin'un fiyatı değişken olduğundan, sorumlu bir kredi, sözleşmede belirli marj çağrısı politikalarını içerir. Bu politika, borçlunun ek teminat sağlaması ya da kredinin bir kısmını geri ödemesi için bilgilendirilmesine olanak tanır.
+Bitcoin'in volatilitesi göz önüne alındığında, krediler açıkça tanımlanmış bir teminat tamamlama çağrısı politikası içermektedir. Teminat değerindeki düşüş nedeniyle LTV yükseldiğinde bir marj çağrısı meydana gelir. Debifi, borçluyu e-posta ve uygulama aracılığıyla bilgilendirerek teminat eklemesine veya kredinin bir kısmını geri ödemesine olanak tanır.
+
+
+75 LTV - İlk uyarı
+
+80 LTV - İkinci uyarı
+
+85 LTV - Son uyarı
+
+90 LTV - Teminat nakde çevrilir
 
 
 
@@ -433,7 +435,7 @@ Görebilirsiniz:
 6. İhtiyacınız olan tam miktar girilmelidir (bu miktar bant içinde olmalıdır, bkz. 2);
 
 
-7. Fonları almak için kullanılacak Ethereum USDC Address girilmelidir.
+7. Fonları almak için kullanılacak Ethereum USDC adresi girilmelidir.
 
 
 
@@ -453,7 +455,7 @@ Tekliften memnun kaldığınızda ve gerekli bilgileri doldurduğunuzda, "Contra
 
 
 
-'' **Provide public key** '' seçeneğine basın, ardından ortak anahtarın kaynağını seçin. Borç verenin de Supply genel anahtarına ihtiyacı olacaktır.
+'' **Provide public key** '' seçeneğine basın, ardından ortak anahtarın kaynağını seçin. Borç verenin de bir açık anahtar sağlaması gerekecektir.
 
 
 
@@ -473,7 +475,7 @@ Tekliften memnun kaldığınızda ve gerekli bilgileri doldurduğunuzda, "Contra
 
 
 
-Bir sonraki adım Contract'ü imzalamaktır. Hala mobil uygulamadayken '' **Contract** İmzala '' düğmesine basın
+Bir sonraki adım sözleşmeyi imzalamaktır. Hala mobil uygulamadayken '' **Sign Contract** '' düğmesine basın
 
 
 
@@ -485,7 +487,7 @@ Bir sonraki adım Contract'ü imzalamaktır. Hala mobil uygulamadayken '' **Cont
 
 
 
-Contract'i imzalamayı bitirdiğinizde, Debifi otomatik olarak Contract'iniz için benzersiz bir çoklu-imzalı Bitcoin Address (emanet 3-sur-4) oluşturur. Bitcoinleriniz emanette olduğu sürece başka bir yerde kullanılamazlar.
+Sözleşmeyi imzalamayı bitirdiğinizde, Debifi otomatik olarak sözleşmeniz için benzersiz bir çoklu-imzalı Bitcoin adresi (emanet 3-sur-4) oluşturur. Bitcoinleriniz emanette olduğu sürece, başka bir yerde kullanılamazlar.
 
 
 
@@ -493,7 +495,7 @@ Contract'i imzalamayı bitirdiğinizde, Debifi otomatik olarak Contract'iniz iç
 
 
 
-Son adım, Bitcoin teminatınızı çoklu imza emanet sistemine yatırmaktır. Debifi daha sonra size emanet Address'i (B) ve (teminat + komisyon) olarak gönderilecek BTC miktarını (A) gösterir.
+Son adım, Bitcoin teminatınızı çoklu imza emanet sistemine yatırmaktır. Debifi size emanet adresini (B) ve (teminat + komisyon) olarak gönderilecek BTC miktarını (A) gösterir.
 
 
 
@@ -509,7 +511,7 @@ Bu bildirimi mobil uygulamanızda da alacaksınız.
 
 
 
-Depozitonuz onaylanır onaylanmaz, borç veren kredi tutarını belirttiğiniz alıcı Address'a ödeyerek işlemi sonuçlandıracak ve ihtiyacınız olan fonlara erişmenizi sağlayacaktır.
+Depozitonuz onaylanır onaylanmaz, kredi veren kredi tutarını belirttiğiniz alıcı adresine ödeyerek işlemi sonuçlandırır ve ihtiyacınız olan fonlara erişmenizi sağlar.
 
 
 
@@ -517,11 +519,11 @@ Daha sonra Debifi'den, kredinizin durumunu ilerletmek için kredi ücretlerini v
 
 
 
-Gerçekte, Contract oluşturulduktan sonra, kredi ücretleri borçlu tarafından çok imzalı emanet Address'de emanet edilen teminattan otomatik olarak düşülür.
+Gerçekte, sözleşme oluşturulduktan sonra, kredi ücretleri borçlu tarafından çoklu imza emanet adresine emanet edilen teminattan otomatik olarak düşülür.
 
 
 
-Tek yapmanız gereken Debifi'nin komisyonunu teminattan düşmesine izin verecek bir işlem imzalamaktır. Borç vereninizin de ücret kesintisi işlemini imzalaması gerekecektir, aksi takdirde Debifi komisyonunu alamayacaktır.
+Tek yapmanız gereken, Debifi'nin komisyonunu teminattan düşmesine izin verecek bir işlem imzalamaktır. Borç vereninizin de ücret kesintisi işlemini imzalaması gerekecektir, aksi takdirde Debifi komisyonunu alamayacaktır.
 
 
 
@@ -529,7 +531,7 @@ Tek yapmanız gereken Debifi'nin komisyonunu teminattan düşmesine izin verecek
 
 
 
-Geçerli borç verme ücretleri, Contract'ün vadesine bağlı olarak %1,5-2'dir. Platform yalnızca Bitcoin'te komisyon almaktadır.
+Uygulanabilir kredi ücretleri, sözleşmenin vadesine bağlı olarak %1,5-2'dir. Platform yalnızca Bitcoin cinsinden komisyon almaktadır.
 
 
 
@@ -537,25 +539,23 @@ Geçerli borç verme ücretleri, Contract'ün vadesine bağlı olarak %1,5-2'dir
 
 
 
-Kredi başladıktan sonra Debifi, Contract'nızı gerçek zamanlı olarak izlemenizi sağlar. Interface'te şunları göreceksiniz :
-
-
+Kredi aktif hale geldiğinde, Debifi sözleşmenizi gerçek zamanlı olarak takip etmenizi sağlar. Arayüzde şunları bulacaksınız:
 
 
 
 - Ödünç alınan miktar ve kalan vade.
-- Mevcut LTV (Kredi-Değer) oranı: BTC fiyatı düşerse LTV artar (teminatınız daha az değerli olduğundan). Bir uyarı eşiği (genellikle %90) belirlenmiştir. LTV'niz bu eşiği aşarsa, zorunlu tasfiye riski vardır. Debifi size tepki vermeniz için 24 saat süre tanır.
-
-
-
-Borçlular fiyat indirimi konusunda bilgilendirilecektir. Bu bilgi Contract özet sayfasında da mevcut olacaktır. Bir kredinin orijinal kredi-değer oranını eski haline getirmek için borçlunun :
+- Mevcut LTV (Kredi-Değer) oranı, BTC fiyatı düştüğünde ve teminatınızın değeri azaldığında yükselir.
 
 
 
 
+Teminat değeri düştüğünde borçlular bilgilendirilir ve bu bilgi sözleşme özeti sayfasında da görüntülenir. Orijinal kredi-değer oranını eski haline getirmek için borçlunun aşağıdakilerden birini yapması gerekir:
 
-- veya ek bir teminat yatırın;
+
+
+- ek teminat yatırmak;
 - borcun tamamını veya bir kısmını geri ödeyebilir.
+
 
 
 
@@ -577,21 +577,21 @@ Debifi'de:
 
 
 
-- Contract'unuza gidin ve **Geri ödeme yap** seçeneğine tıklayın. Ödenmesi gereken toplam tutarı girin (anapara + faiz).
+- Sözleşmenize gidin ve **Geri ödeme yap** seçeneğine tıklayın. Ödenmesi gereken toplam tutarı girin (anapara + faiz).
 
 
 
 
 
-- Sabit coinleri Wallet'inizden borç verenin belirtilen Address'sine gönderin ve geri ödeme işleminin **ID'sini** özel sekmeye kopyalayarak platformdaki geri ödemeyi onaylamak için geri dönün. Bu, Debifi'nin kontrollerini gerçekleştirmesini kolaylaştırır.
+- Sabit coinleri wallet'nizden borç verenin belirtilen adresine gönderin ve geri ödeme işleminin **ID'sini** özel sekmeye kopyalayarak platformdaki geri ödemeyi onaylamak için geri dönün. Bu, Debifi'nin kontrollerini gerçekleştirmesini kolaylaştırır.
 
 
 
-Ödeme borç veren tarafından (ve sizin tarafınızdan) onaylandıktan sonra Debifi sizden **geri ödeme** yapmanızı isteyecektir. Bitcoin teminatınız serbest bırakılır ve emanetten kendi portföyünüze iade edebilirsiniz.  Tüm Bitcoin'lerinizi toplamayı unutmayın.
+Ödeme borç veren tarafından (ve sizin tarafınızdan) onaylandıktan sonra Debifi sizden **geri ödeme** yapmanızı isteyecektir. Bitcoin teminatınız serbest bırakılır ve emanetten kendi wallet'ünüze iade edebilirsiniz.  Tüm Bitcoin'lerinizi toplamayı unutmayın.
 
 
 
-Bitcoinlerinizi alır almaz, Contract kredisi **Contract tamamlandı** olarak değişir.
+Bitcoinlerinizi alır almaz, kredi sözleşmesi **Contract tamamlandı** olarak değişir.
 
 
 
@@ -604,7 +604,7 @@ Tebrikler! Süreci tamamladınız.
 
 
 
-Hedefleriniz veya motivasyonlarınız ne olursa olsun - bir projeyi finanse etmek, mülk edinmek, bitcoin satın almak vb. - gW-54 tarafından desteklenen bir kredi almadan önce son derece dikkatli olun. - gW-54 destekli bir kredi almadan önce son derece dikkatli olun. Bitcoin değişken bir varlık olmaya devam ettiğinden, kararınızı dikkatlice değerlendirmek için zaman ayırın. **Fiyatındaki keskin bir düşüş, bitcoinlerinizin zorla tasfiye edilmesine neden olabilir**.
+Hedefleriniz veya motivasyonlarınız ne olursa olsun - bir projeyi finanse etmek, mülk edinmek, bitcoin satın almak vb - Bitcoin ile desteklenen bir kredi almadan önce çok dikkatli olun. Bitcoin değişken bir varlık olmaya devam ettiğinden, kararınızı dikkatlice değerlendirmek için zaman ayırın. **Fiyatındaki keskin bir düşüş, bitcoinlerinizin zorla tasfiye edilmesine neden olabilir.**
 
 
 
@@ -612,7 +612,7 @@ Kredi/teminat (LTV) oranınızı izleyin. Mümkünse uyarılar (BTC fiyatı, LTV
 
 
 
-Anahtarlarınızı kontrol edin. BTC'nizi güvenli bir Wallet'da tutun (ideal olarak donanım veya saygın bir Wallet). Hayatınızdaki önemli bir tarihle ilgili bir PIN kodu belirlemeyin ve kurtarma cümlenizi asla paylaşmayın. Debifi'de, özel anahtarınızı uygulamada generate yaparsınız - Debifi bunu bilmez.
+Anahtarlarınızı kontrol edin. BTC'nizi güvenli bir wallet'de tutun (ideal olarak donanım veya saygın bir wallet). Hayatınızdaki önemli bir tarihle ilgili bir PIN kodu belirlemeyin ve kurtarma cümlenizi asla paylaşmayın. Debifi'de, özel anahtarınızı uygulamada generate yaparsınız - Debifi bunu bilmez.
 
 
 

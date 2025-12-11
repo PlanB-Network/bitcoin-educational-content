@@ -1,0 +1,8 @@
+question: What permissions does the Lightning Node Connect (LNC) session have when Auto-Fees is activated on a Lightning Terminal node?
+answer: Read access to forwarding history and balances, write access limited to updating fee policies only
+wrong_answers:
+  - Full administrative access to all node functions including channel management and fund transfers
+  - Read-only access to all node data with no ability to modify any settings or policies
+  - Write access to all channel settings and read access to private keys and wallet information
+explanation: |
+  Auto-Fees operates under the principle of least privilege through a restricted LNC session. It has limited read access to forwarding history, channel balances, and current fee policies, plus write access strictly confined to updating fee policies. It cannot spend funds, close channels, or alter other node settings, ensuring security while enabling automated fee management.

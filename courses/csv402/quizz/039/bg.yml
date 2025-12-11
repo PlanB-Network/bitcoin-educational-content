@@ -1,0 +1,9 @@
+question: Коя команда експортира договор от скривалището във външен файл?
+answer: rgb export '<ContractId>' myContractPBN.rgb
+wrong_answers:
+  - rgb изтегляне на '<ContractId>' myContractPBN.rgb
+  - rgb dump '<ContractId>' myContractPBN.rgb
+  - rgb issue '<ContractId>' myContractPBN.rgb
+explanation: |
+  Командата "rgb експорт" се използва за извличане на договор от хранилището и записването му като файл за лесно споделяне.
+reviewed: false

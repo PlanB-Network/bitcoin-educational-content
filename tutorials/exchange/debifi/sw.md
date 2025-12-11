@@ -24,11 +24,11 @@ Matokeo yake ni **Debifi**, jukwaa ambalo linajiweka kama mbadala wa kisasa kwa 
 
 
 
-Debifi ni mfumo wa ukopeshaji wa Bitcoin usio na dhamana, unaomaanisha kuwa unaendelea kudhibiti funguo zako za faragha. Inaruhusu watumiaji kufungua ukwasi katika Exchange kwa bitcoins zao zilizofungwa kama dhamana. Tofauti na mikopo ya kawaida ya benki, Debifi hutumia mfumo wa escrow wa saini nyingi (3 kati ya 4) na haikubali uwekaji rehani, ikihakikisha usalama na uwazi zaidi.
+Debifi ni mfumo wa kukopeshana wa Bitcoin usio na dhamana, unaomaanisha kuwa unaendelea kudhibiti funguo zako za faragha. Inaruhusu watumiaji kufungua ukwasi badala ya bitcoins zao zilizofungwa kama dhamana. Tofauti na mikopo ya kawaida ya benki, Debifi hutumia mfumo wa escrow wa saini nyingi (3 kati ya 4) na haikubali uhakikisho wa dhamana, unaohakikisha usalama na uwazi zaidi.
 
 
 
-Kwa mazoezi, hii ina maana kwamba si Debifi au mkopeshaji binafsi anayeweza kutumia BTC yako bila makubaliano ya pande tatu (wewe, mkopeshaji na mtu wa tatu anayeaminika). Hii inafanya mfumo kuwa salama zaidi: ukikopa kwenye Debifi, utahifadhi Ownership ya Bitcoin yako hadi mkopo utakapolipwa kikamilifu.
+Kwa mazoezi, hii ina maana kwamba si Debifi au mkopeshaji binafsi anayeweza kutumia BTC yako bila makubaliano ya pande tatu (wewe, mkopeshaji na mtu wa tatu anayeaminika). Hii inafanya mfumo kuwa salama zaidi: ukikopa kwenye Debifi, utahifadhi umiliki wa Bitcoin yako hadi mkopo utakapolipwa kikamilifu.
 
 
 
@@ -36,22 +36,21 @@ Kwa mazoezi, hii ina maana kwamba si Debifi au mkopeshaji binafsi anayeweza kutu
 
 
 
-Kwa Debifi, ni mikopo iliyowekewa dhamana, usalama wa Blockchain (sahihi nyingi, 2FA), chaguo la sarafu/kimiminiko, usiri na udhibiti kamili wa Bitcoin. Debifi "hukuruhusu kuhifadhi pesa zako" (funguo zako, sarafu zako), huku ukitoa viwango vya ushindani na ufikiaji wa kimataifa kwa mikopo inayoungwa mkono na BTC.
+Ukiwa na Debifi, unapata mikopo inayoungwa mkono na Bitcoin ambayo imeidhinishwa kupita kiasi na kulindwa on-chain. Pesa zako hubaki salama kwa pochi zenye saini nyingi, 2FA, na udhibiti kamili wa Bitcoin yako - unashikilia funguo zako, unahifadhi sarafu zako. Azima katika anuwai ya sarafu za sarafu au chaguo za fiat, kwa viwango vya ushindani, na ukwasi wa kimataifa.
 
 
 
 Huu hapa ni ulinganisho wa haraka kati ya mkopo wa Debifi na mkopo wa kawaida wa benki:
 
 
-
-| Caractéristiques       | Prêt via Debifi                                                       | Prêt bancaire traditionnel                                                 |
-| ---------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Accessibilité          | ✔️ Ouvert à tout détenteur de Bitcoin (même sans historique bancaire) | ❌ Souvent réservé aux clients avec garanties physiques et dossiers solides |
-| Vitesse d’obtention    | ✔️ Liquide en quelques minutes/heures                                 | ❌ Processus long (jours ou semaines)                                       |
-| Garanties exigées      | ✔️ Collatéral en Bitcoin uniquement                                   | ❌ Garanties physiques (maisons, terrains, revenus stables)                 |
-| Contrôle de l’actif    | ✔️ Vous conservez l’exposition au Bitcoin et son potentiel de hausse  | ❌ Vous n’avez aucun lien entre le prêt et vos actifs financiers            |
-| Souplesse géographique | ✔️ Disponible partout (sans contrainte géographique bancaire)         | ❌ Limité à la juridiction de la banque                                     |
-| Risque principal       | ❌ Risque de liquidation si le prix du BTC chute trop                  | ❌ Risque de saisie de biens ou impact négatif sur la cote de crédit        |
+| Characteristics        | Loan via Debifi                                                        | Traditional Bank Loan                                                       |
+| ---------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Accessibility          | ✔️ Open to any Bitcoin holder (even without banking history)           | ❌ Often limited to clients with physical collateral and strong records      |
+| Speed of approval      | ✔️ Funds available within minutes or hours                             | ❌ Lengthy process (days or weeks)                                           |
+| Required guarantees    | ✔️ Bitcoin used as the sole collateral                                 | ❌ Physical guarantees (property, land, stable income)                       |
+| Asset control          | ✔️ You keep exposure to Bitcoin and its upside potential               | ❌ No connection between the loan and your financial assets                  |
+| Geographic flexibility | ✔️ Available everywhere (no banking jurisdiction constraints)          | ❌ Restricted to the bank’s jurisdiction                                     |
+| Main risk              | ❌ Liquidation risk if BTC price drops too sharply                      | ❌ Risk of asset seizure or negative impact on credit score                  |
 
 Kabla sijakuonyesha hatua kwa hatua jinsi ya kukopa kwenye Debifi, kuna vidokezo vichache nadhani unahitaji kujua.
 
@@ -70,13 +69,13 @@ Kabla sijakuonyesha hatua kwa hatua jinsi ya kukopa kwenye Debifi, kuna vidokezo
 
 
 
-- Dhamana** ni mali unayoweka ili kupata mkopo. Kwa upande wa Debifi, dhamana ni Bitcoin (BTC), ambayo mkopaji huweka amana kwenye Multisig 3/4 escrow.
+- Dhamana** ni mali unayoweka ili kupata mkopo. Kwa upande wa Debifi, dhamana ni Bitcoin (BTC), ambayo akopaye huweka amana kwenye Multisig 3/4 escrow.
 
 
 
 
 
-- Mfumo wa Multisig escrow (3/4)** ni utaratibu salama wa kuhifadhi ambapo bitcoins za mkopaji huwekwa kwenye Address ya saini nyingi. Hasa, pande nne (4) kila moja ina ufunguo (azimaye, mkopeshaji, Debifi, mtu wa tatu huru). Ili kuhamisha pesa, angalau sahihi 3 kati ya 4 zinahitajika.
+- Mfumo wa Multisig escrow (3/4)** ni utaratibu salama wa kuhifadhi ambapo bitcoins za mkopaji huwekwa katika anwani yenye saini nyingi. Hasa, pande nne (4) kila moja ina ufunguo (azimaye, mkopeshaji, Debifi, mtu wa tatu huru). Ili kuhamisha pesa, angalau sahihi 3 kati ya 4 zinahitajika.
 
 
 
@@ -118,17 +117,11 @@ Kabla ya kukopa kutoka kwa Debifi, tafadhali hakikisha kuwa una bidhaa zifuatazo
 
 
 
-- Bitcoin Wallet: ambapo unashikilia BTC yako (haifai kuwa chini ya ulinzi, k.m. Hardware Wallet au simu ya mkononi inayoaminika ya Wallet). Ni kutoka kwa Wallet hii ambapo utatuma dhamana ya Bitcoin kwa Debifi na kupokea pesa.
+- Bitcoin wallet: ambapo unashikilia BTC yako (haifai kuwa chini ya ulinzi, k.m. Hardware Wallet au simu ya mkononi inayoaminika ya wallet). Ni kutoka kwa wallet hii ambapo utatuma dhamana ya Bitcoin kwa Debifi na kupokea dhamana hiyo.
 
 
 
-
-
-- Stablecoins au fiat: Debifi hukopesha kwa stablecoins na baadhi ya sarafu za fiat. Stablecoins kuu zinazotumiwa ni USDT na USDC.
-
-
-
-Unaweza kutumia Aqua, Bitcoin na Liquid Wallet ambayo pia inasaidia usimamizi wa sarafu thabiti ya USDT kwenye mitandao mbalimbali. Au COLDCARD (Mk4 au Q), ndiyo maunzi pekee yanayotumika na Debifi.
+Unaweza kutumia Aqua, Bitcoin na Liquid wallet ambayo pia inasaidia usimamizi wa sarafu thabiti ya USDT kwenye mitandao mbalimbali. Au COLDCARD (Mk4 au Q), ndiyo maunzi pekee yanayotumika na Debifi.
 
 
 
@@ -148,7 +141,7 @@ https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 
 
 
-- Programu ya uthibitishaji wa vipengele viwili: Debifi inahitaji msimbo wa Kithibitishaji kwa kila kitendo muhimu. Ni Layer ya ziada ya usalama. Katika somo hili, tutakuwa tukitumia Google Authenticator. Vinginevyo, unaweza kutumia wengine unavyoona inafaa.
+- Programu ya uthibitishaji wa vipengele viwili: Debifi inahitaji msimbo wa Kithibitishaji kwa kila kitendo muhimu. Ni safu ya ziada ya usalama. Katika somo hili, tutakuwa tukitumia Google Authenticator. Vinginevyo, unaweza kutumia wengine unavyoona inafaa.
 
 
 
@@ -158,7 +151,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-- Tovuti ya Debifi na programu ya simu ya mkononi: Debifi ni tovuti na programu ya simu ya mkononi, na zote mbili zinafanya kazi sanjari. Programu ya simu ya mkononi inakuwa Wallet, ambayo huhifadhi ufunguo wako wa faragha, na kudhibiti utiaji saini wa mikataba. Kwa kuongeza, unahitaji kutumia tovuti kufanya mikataba (Interface kubwa inakupa mtazamo wa jumla wa mikataba ya mkopo na maalum yao).
+- Tovuti ya Debifi na programu ya simu ya mkononi: Debifi ni tovuti na programu ya simu ya mkononi, na zote mbili zinafanya kazi sanjari. Programu ya simu ya mkononi inakuwa wallet, ambayo huhifadhi ufunguo wako wa faragha, na kudhibiti utiaji saini wa mikataba. Kwa kuongeza, unahitaji kutumia tovuti kufanya mikataba (Interface kubwa inakupa mtazamo wa jumla wa mikataba ya mkopo na maalum yao).
 
 
 
@@ -200,7 +193,7 @@ Mara tu kwenye programu, bonyeza kwenye menyu ya **Mipangilio**.
 
 
 
-Kisha ubofye kwenye **Ingia au ufungue akaunti** ili kuunda akaunti ukitumia barua pepe yako ya Address.
+Kisha ubofye **Ingia au uunde akaunti** ili kuunda akaunti ukitumia anwani yako ya barua pepe.
 
 
 
@@ -360,7 +353,7 @@ Sehemu za mkopo za Bitcoin kwa ujumla ni tatu (3) kwa idadi:
 
 
 
-- Conservative (20% - 40% LTV), ambayo inalingana na mkopo wa hatari ndogo, ni bora kwa kuongeza usalama dhidi ya tete ya bei ya Bitcoin;
+- Conservative (30% - 40% LTV), ambayo inalingana na mkopo wa hatari ndogo, ni bora kwa kuongeza usalama dhidi ya tete ya bei ya Bitcoin;
 
 
 
@@ -372,7 +365,7 @@ Sehemu za mkopo za Bitcoin kwa ujumla ni tatu (3) kwa idadi:
 
 
 
-- Aggressive (70% - 85% LTV), ambayo inatoa ukwasi mkubwa, lakini hubeba hatari kubwa sana ya kufilisi wakati wa kushuka kwa soko. Ufuatiliaji hai wa hali ya soko la Bitcoin ni lazima wakati wa kuchagua sehemu hii.
+- Aggressive (70% LTV), ambayo inatoa ukwasi mkubwa, lakini hubeba hatari kubwa sana ya kufilisi wakati wa kushuka kwa soko. Ufuatiliaji hai wa hali ya soko la Bitcoin ni lazima wakati wa kuchagua sehemu hii.
 
 
 
@@ -388,7 +381,7 @@ Upangaji wa ada kwa ujumla hutegemea LTV uliyochagua, urefu wa muda wa mkopo, ha
 
 
 
-Ratiba za urejeshaji wa mikopo mara nyingi hubadilika na kulengwa kulingana na mahitaji ya mtumiaji. Malipo yanaweza kufanywa wakati wowote mradi mahitaji ya dhamana yametimizwa. Malipo ya mkopo kwa ujumla ni riba kwa muda wote wa mkopo, na malipo makuu yatalipwa baada ya kukomaa.
+Ratiba za urejeshaji zinaweza kunyumbulika na zimeundwa kutosheleza mahitaji ya mkopaji. Mikopo inaweza kulipwa kikamilifu au kiasi wakati wowote bila ada za ziada, mradi mahitaji ya dhamana yatabaki kuridhika. Katika muda wote wa mkopo, riba kwa kawaida hulipwa mara kwa mara, huku mhusika akilipwa kwa ukomavu.
 
 
 
@@ -396,7 +389,16 @@ Ratiba za urejeshaji wa mikopo mara nyingi hubadilika na kulengwa kulingana na m
 
 
 
-Kwa vile bei ya Bitcoin ni tete, mkopo unaowajibika unajumuisha sera mahususi za wito wa ukingo katika makubaliano. Sera hii inaruhusu mkopaji kuarifiwa ili aidha atoe dhamana ya ziada, au kurejesha sehemu ya mkopo.
+Kwa kuzingatia hali tete ya Bitcoin, mikopo ni pamoja na sera iliyofafanuliwa wazi ya kupiga simu. Simu ya ukingo hutokea wakati LTV inapopanda kutokana na kushuka kwa thamani ya dhamana. Debifi humjulisha mkopaji kwa barua pepe na kupitia programu, hivyo kumruhusu kuongeza dhamana au kurejesha sehemu ya mkopo.
+
+
+75% LTV — Tahadhari ya kwanza
+
+80% LTV - Tahadhari ya pili
+
+85% LTV - Tahadhari ya mwisho
+
+90% LTV - Dhamana imefutwa
 
 
 
@@ -433,7 +435,7 @@ Unaweza kuona:
 6. Kiasi halisi unachohitaji lazima kiingizwe (kiasi hiki lazima kiwe ndani ya bendi, angalia 2);
 
 
-7. Ethereum USDC Address itakayotumika kupokea fedha lazima iingizwe.
+7. Anwani ya Ethereum USDC itakayotumiwa kupokea pesa lazima iingizwe.
 
 
 
@@ -453,7 +455,7 @@ Rudi kwa programu ya simu ya ''**Toa ufunguo wa umma**''.
 
 
 
-Bonyeza '' **Toa ufunguo wa umma** '', kisha uchague chanzo cha ufunguo wa umma. Mkopeshaji pia atahitaji Supply ufunguo wa umma.
+Bonyeza '' **Toa ufunguo wa umma** '', kisha uchague chanzo cha ufunguo wa umma. Mkopeshaji pia atahitaji kutoa ufunguo wa umma.
 
 
 
@@ -473,7 +475,7 @@ Bonyeza '' **Toa ufunguo wa umma** '', kisha uchague chanzo cha ufunguo wa umma.
 
 
 
-Hatua inayofuata ni kusaini Contract. Bado katika programu ya simu ya mkononi, bonyeza '' **Sign Contract** ''
+Hatua inayofuata ni kusaini mkataba. Bado katika programu ya simu, bonyeza '' **Saini Contract** ''
 
 
 
@@ -485,7 +487,7 @@ Hatua inayofuata ni kusaini Contract. Bado katika programu ya simu ya mkononi, b
 
 
 
-Unapomaliza kutia saini Contract, Debifi hutengeneza kiotomatiki saini nyingi za Bitcoin Address (escrow 3-sur-4) kwa Contract yako. Muda tu bitcoins zako ziko kwenye escrow, haziwezi kutumika mahali pengine.
+Unapomaliza kutia saini mkataba, Debifi huunda kiotomatiki anwani ya kipekee ya Bitcoin yenye saini nyingi (escrow 3-sur-4) kwa ajili ya mkataba wako. Muda tu bitcoins zako ziko kwenye escrow, haziwezi kutumika mahali pengine.
 
 
 
@@ -493,7 +495,7 @@ Unapomaliza kutia saini Contract, Debifi hutengeneza kiotomatiki saini nyingi za
 
 
 
-Hatua ya mwisho ni kuweka dhamana yako ya Bitcoin katika mfumo wa escrow wa saini nyingi. Debifi kisha inakuonyesha escrow Address (B) na idadi ya BTC (A) itakayotumwa kama (dhamana + tume).
+Hatua ya mwisho ni kuweka dhamana yako ya Bitcoin katika mfumo wa escrow wa saini nyingi. Debifi hukuonyesha anwani ya escrow (B) na kiasi cha BTC (A) itakayotumwa kama (dhamana + tume).
 
 
 
@@ -509,7 +511,7 @@ Pia utapokea arifa hii katika programu yako ya simu.
 
 
 
-Mara tu amana yako itakapothibitishwa, mkopeshaji atalipa kiasi cha mkopo kwa Address inayopokea uliyoonyesha, akikamilisha muamala na kukupa ufikiaji wa pesa unazohitaji.
+Mara tu amana yako itakapothibitishwa, mkopeshaji atalipa kiasi cha mkopo kwa anwani ya kupokea uliyoonyesha, akikamilisha muamala na kukupa ufikiaji wa pesa unazohitaji.
 
 
 
@@ -517,7 +519,7 @@ Kisha utapokea arifa kutoka kwa Debifi, ikikuuliza ulipe ada za mkopo au kamishe
 
 
 
-Kwa uhalisia, mara tu Contract inapoundwa, ada za mkopo hukatwa kiotomatiki kutoka kwa dhamana inayotolewa na mkopaji katika hati ya saini nyingi ya Address.
+Kwa kweli, mara tu mkataba unapoundwa, ada za mkopo hukatwa moja kwa moja kutoka kwa dhamana inayotolewa na akopaye katika anwani ya escrow ya saini nyingi.
 
 
 
@@ -529,7 +531,7 @@ Unachohitajika kufanya ni kusaini muamala ambao utaruhusu Debifi kukata kamishen
 
 
 
-Ada zinazotumika za mikopo ni 1.5-2%, kulingana na muda wa Contract. Jukwaa hutoza kamisheni katika Bitcoin pekee.
+Ada zinazotumika za kukopesha ni 1.5-2%, kulingana na muda wa mkataba. Jukwaa hutoza kamisheni katika Bitcoin pekee.
 
 
 
@@ -537,25 +539,23 @@ Ada zinazotumika za mikopo ni 1.5-2%, kulingana na muda wa Contract. Jukwaa huto
 
 
 
-Mara tu mkopo unapoendelea, Debifi hukuruhusu kufuatilia Contract yako kwa wakati halisi. Katika Interface, utaona:
-
-
+Baada ya mkopo kuanza kutumika, Debifi hukuruhusu kufuatilia mkataba wako kwa wakati halisi. Katika interface utapata:
 
 
 
 - Kiasi kilichokopwa na muda uliobaki.
-- Uwiano wa sasa wa LTV (Mkopo-kwa-Thamani): LTV huongezeka ikiwa bei ya BTC itashuka (kwa kuwa dhamana yako ina thamani ndogo). Kizingiti cha onyo (kwa ujumla 90%) kimewekwa. Ikiwa LTV yako itazidi kiwango hiki, kuna hatari ya kufutwa kwa lazima. Debifi itakupa saa 24 kujibu.
-
-
-
-Wakopaji watajulishwa juu ya kupunguzwa kwa bei. Taarifa hii pia itapatikana kwenye ukurasa wa muhtasari wa Contract. Ili kurejesha uwiano wa awali wa mkopo kwa thamani ya mkopo, mkopaji lazima:
+- Uwiano wa sasa wa LTV (Mkopo-kwa-Thamani), ambao hupanda bei ya BTC inapopungua na thamani ya dhamana yako inashuka.
 
 
 
 
+Wakopaji huarifiwa wakati thamani ya dhamana inapungua, na maelezo haya pia yanaonyeshwa kwenye ukurasa wa muhtasari wa mkataba. Ili kurejesha uwiano wa awali wa mkopo kwa thamani, mkopaji lazima:
 
-- au kuweka dhamana ya ziada;
+
+
+- kuweka dhamana ya ziada;
 - kulipa deni lote au sehemu yake.
+
 
 
 
@@ -577,21 +577,21 @@ Katika Debifi:
 
 
 
-- Nenda kwa Contract yako na ubofye kwenye **Fanya ulipaji**. Weka jumla ya kiasi unachodaiwa (kanuni + riba).
+- Nenda kwenye mkataba wako na ubofye kwenye **Fanya ulipaji**. Weka jumla ya kiasi unachodaiwa (kanuni + riba).
 
 
 
 
 
-- Tuma stablecoins kutoka Wallet yako kwa Address ya mkopeshaji iliyoonyeshwa, na urudi ili kuthibitisha urejeshaji kwenye jukwaa kwa kunakili **Kitambulisho** cha malipo ya malipo kwenye kichupo maalum. Hii hurahisisha Debifi kutekeleza ukaguzi wake.
+- Tuma stablecoins kutoka wallet yako hadi kwa anwani ya mkopeshaji iliyoonyeshwa, na urudi ili kuthibitisha urejeshaji kwenye jukwaa kwa kunakili **Kitambulisho** cha muamala wa ulipaji kwenye kichupo maalum. Hii hurahisisha Debifi kutekeleza ukaguzi wake.
 
 
 
-Baada ya malipo kuthibitishwa na mkopeshaji (na wewe), Debifi itakuomba **rejeshe pesa**. Dhamana yako ya Bitcoin imetolewa na unaweza kuirudisha kutoka kwenye escrow hadi kwenye kwingineko yako mwenyewe.  Usisahau kukusanya Bitcoins zako zote.
+Baada ya malipo kuthibitishwa na mkopeshaji (na wewe), Debifi itakuomba **rejeshe pesa**. Dhamana yako ya Bitcoin imetolewa na unaweza kuirudisha kutoka kwenye escrow hadi wallet yako mwenyewe.  Usisahau kukusanya Bitcoins zako zote.
 
 
 
-Mara tu unapopokea bitcoins zako, mkopo wa Contract hubadilika kuwa **Contract imekamilika **.
+Mara tu unapopokea bitcoins zako, mkataba wa mkopo hubadilika kuwa **Contract imekamilika **.
 
 
 
@@ -604,7 +604,7 @@ Hongera! Umekamilisha mchakato.
 
 
 
-Bila kujali malengo au motisha zako - kufadhili mradi, kupata mali, kununua bitcoins, n.k. - kuwa mwangalifu sana kabla ya kuchukua mkopo unaoungwa mkono na Bitcoin. - kuwa mwangalifu sana kabla ya kuchukua mkopo unaoungwa mkono na Bitcoin. Chukua muda kutafakari uamuzi wako kwa makini, kwani Bitcoin inasalia kuwa nyenzo tete. **Kushuka kwa kasi kwa bei yake kunaweza kusababisha kufutwa kwa bitcoins zako kwa lazima **.
+Bila kujali malengo au motisha zako—kufadhili mradi, kupata mali, kununua bitcoins, n.k—kuwa waangalifu sana kabla ya kuchukua mkopo unaoungwa mkono na Bitcoin. Chukua muda wa kutathmini uamuzi wako kwa makini, kwani Bitcoin inasalia kuwa rasilimali tete. **Kushuka kwa kasi kwa bei yake kunaweza kusababisha kufilisishwa kwa bitcoins zako.**
 
 
 
@@ -612,7 +612,7 @@ Fuatilia uwiano wako wa mkopo-kwa-dhamana (LTV). Weka arifa (bei ya BTC, LTV) ik
 
 
 
-Dhibiti funguo zako. Weka BTC yako katika Wallet salama (vifaa vya maunzi au Wallet inayotambulika). Usiweke msimbo wa PIN unaohusiana na tarehe muhimu katika maisha yako na usishiriki kamwe maneno yako ya kurejesha akaunti. Kwenye Debifi, wewe generate ufunguo wako wa faragha kwenye programu - Debifi haijui.
+Dhibiti funguo zako. Weka BTC yako katika wallet salama (kifaa cha maunzi au wallet inayotambulika). Usiweke msimbo wa PIN unaohusiana na tarehe muhimu katika maisha yako na usishiriki kamwe maneno yako ya kurejesha akaunti. Kwenye Debifi, wewe generate ufunguo wako wa faragha katika programu - Debifi haijui.
 
 
 

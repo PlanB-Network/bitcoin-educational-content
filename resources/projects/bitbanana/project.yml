@@ -1,0 +1,31 @@
+id: 54bf3f83-79c5-49dc-86c9-5223351212e9
+
+name: BitBanana
+
+links:
+  website: https://bitbanana.app/
+  twitter: https://x.com/BitBananaApp
+  nostr: https://snort.social/p/npub1dwn7wphjhrlej6ks4sktgn77w82ayq6hn6lj37ll75tav55nd3vq07xzaj
+  github: https://github.com/michaelWuensch/BitBanana
+
+category: wallet
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - wallets
+  - software
+  - lightning
+
+licence: CC-BY-SA-V4
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-11-20
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

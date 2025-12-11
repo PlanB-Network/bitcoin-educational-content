@@ -18,11 +18,11 @@ Fedora ni mfumo wa uendeshaji wa Linux usiolipishwa na wa chanzo huria uliozindu
 
 
 
-Kama ulivyosoma hapo awali, Fedora ni mfumo wa uendeshaji wa bure kulingana na kernel ya Linux. Kiini cha Linux ni sehemu ya mfumo wa uendeshaji unaowasiliana na maunzi ya kompyuta na kudhibiti rasilimali za mfumo kama vile kumbukumbu na nguvu ya usindikaji.
+Kama ulivyosoma hapo awali, Fedora ni mfumo wa uendeshaji wa bure unaotegemea kernel ya Linux. Kernel ya Linux ni sehemu ya mfumo wa uendeshaji inayowasiliana na maunzi ya kompyuta na kudhibiti rasilimali za mfumo kama vile kumbukumbu na nguvu ya usindikaji.
 
 
 
-Fedora Linux inajumuisha zana mbalimbali za programu na programu zinazohitajika kuendesha mfumo wa uendeshaji juu ya kernel ya Linux. Usanifu wa kawaida wa Fedora unamaanisha kuwa inajumuisha mkusanyiko wa vifaa vya mtu binafsi ambavyo vinaweza kuongezwa kwa urahisi, kuondolewa au kubadilishwa kama inavyotakiwa. Hii inakuwezesha kuunda mfumo wa uendeshaji kwa kutumia rasilimali tu unayohitaji.
+Fedora Linux inajumuisha zana mbalimbali za programu na programu zinazohitajika kuendesha mfumo wa uendeshaji juu ya kernel ya Linux. Usanifu wa kawaida wa Fedora unamaanisha kuwa inajumuisha mkusanyiko wa vifaa vya mtu binafsi ambavyo vinaweza kuongezwa kwa urahisi, kuondolewa, au kubadilishwa kama inavyotakiwa. Hii inakuwezesha kuunda mfumo wa uendeshaji kwa kutumia rasilimali unazohitaji tu.
 
 
 
@@ -78,7 +78,7 @@ Kulingana na wasifu wako na matumizi, Fedora inatoa matoleo ili kukidhi mahitaji
 
 
 
-- **Seva ya Fedora**: Toleo hili limetolewa kwa usimamizi wa seva. Seva ya Fedora inajumuisha zana mbalimbali za kukusaidia kupeleka na kudhibiti seva kwa kiwango chako mwenyewe.
+- **Server ya Fedora**: Toleo hili limetolewa kwa usimamizi wa seva. Seva ya Fedora inajumuisha zana mbalimbali za kukusaidia kupeleka na kudhibiti server kwa kiwango chako mwenyewe.
 
 
 
@@ -101,8 +101,8 @@ Kufunga Fedora Workstation inahitaji usanidi wa vifaa ufuatao:
 
 
 
-- Kitufe cha USB cha angalau **8 GB** ili kuwasha mfumo wa uendeshaji.
-- Angalau **nafasi ya GB 40 bila malipo** kwenye diski ya Hard ya kompyuta yako.
+- USB drive cha angalau **8 GB** ili kuwasha mfumo wa uendeshaji.
+- Angalau **nafasi ya GB 40 bila malipo** kwenye Hard disk ya kompyuta yako.
 - **4 GB RAM** kwa matumizi laini.
 
 
@@ -401,7 +401,7 @@ Baada ya usakinishaji, ni muhimu kusasisha Fedora ili kuchukua fursa ya viraka v
 
 
 
-- Fungua Fedora ** Mipangilio **, kisha uende kwenye sehemu ya ** Mfumo **.
+- Fungua Fedora **Mipangilio**, kisha uende kwenye sehemu ya **Mfumo**.
 - Bofya kwenye **Sasisho la programu**.
 - Anza kupakua sasisho na usubiri hadi mchakato ukamilike.
 

@@ -1,0 +1,9 @@
+question: Bitcoin'ın güvensiz tasarımının çözmeyi amaçladığı güvenilir finansal sistemlerin temel dezavantajı nedir?
+answer: Uyuşmazlık arabuluculuğu gereklilikleri nedeniyle tamamen geri döndürülemez işlemlerin yapılamaması
+wrong_answers:
+  - Elektronik ödemelerin bankalar aracılığıyla işlenmesi için gereken yüksek enerji tüketimi
+  - Finansal kuruluşlar tarafından saniyede işlenebilen işlem sayısının sınırlı olması
+  - Müşterilerin aşırı kişisel kimlik belgesi sağlama zorunluluğu
+explanation: |
+  Bitcoin teknik incelemesinde Satoshi Nakamoto'ya göre, geleneksel finansal sistemler, finansal kurumların anlaşmazlıklara aracılık etmesi gerektiği için tamamen geri döndürülemez işlemlerin mümkün olmaması gibi temel bir zayıflıktan muzdariptir. Bu da bir dizi sorun yaratmaktadır: arabuluculuk nedeniyle artan işlem maliyetleri, küçük sıradan işlemlerin ortadan kaldırılması ve güven gereksinimlerinin sistem geneline yayılması. Diğer seçenekler, potansiyel olarak finansal sistemlerle ilgili olsa da, Bitcoin'in güvensiz tasarımının özellikle ele aldığı temel sorun değildir. Bitcoin'in yeniliği, işlemleri tersine çevirmek için güvenilir bir üçüncü tarafa ihtiyaç duymadan nihai mutabakatı mümkün kılmasıdır.
+reviewed: false

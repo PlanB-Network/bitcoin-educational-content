@@ -1,5 +1,5 @@
 ---
-name: 道场
+name: Dojo
 description: 实现隐私和自主的开源 Bitcoin 节点
 ---
 

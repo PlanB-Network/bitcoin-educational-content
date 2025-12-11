@@ -1,26 +1,19 @@
 ---
-name: Studi sull'iperinflazione
+name: Casi di studio sull'iperinflazione
 goal: Comprendere l'emergere delle iperinflazioni in un mondo Fiat e le loro conseguenze
-objectives: 
-
-  - Studiare i cicli di iperinflazione
-  - Capire l'impatto reale dell'iperinflazione sulla nostra vita quotidiana
-  - Studiare le somiglianze tra le iperinflazioni nel corso del tempo
-  - Avere un'idea concreta di come proteggersi dall'iperinflazione
-
+objectives:
+- Studiare i cicli di iperinflazione
+- Capire l'impatto reale dell'iperinflazione sulla nostra vita quotidiana
+- Studiare le somiglianze tra le iperinflazioni nel corso del tempo
+- Avere un'idea concreta di come proteggersi dall'iperinflazione
 ---
+# Un Viaggio Attraverso il Collasso Economico
 
-# Un viaggio nell'economia
+Come appare quando il denaro perde il suo significato?
+Questo corso ti guida attraverso l'affascinante ma sobrio mondo dell'iperinflazione. Scoprirai episodi storici e casi moderni in cui le valute sono crollate e le economie si sono trasformate da un giorno all'altro. Scoprirai i modelli, le cause e l'impatto reale sulle persone comuni, acquisendo una comprensione di uno dei fenomeni più drammatici dell'economia.
 
-
-Questo programma si propone di fornire una comprensione approfondita dell'emergere delle iperinflazioni in un mondo dominato dalla moneta Fiat e di esaminarne le conseguenze significative. I partecipanti approfondiranno i cicli di iperinflazione, esaminandone le cause, le cause scatenanti e fornendo esempi storici e contemporanei. Esamineranno inoltre l'impatto tangibile dell'iperinflazione sull'economia e sulla vita quotidiana, studiando le ripercussioni sul valore della moneta, sul potere d'acquisto e sul risparmio individuale e collettivo.
-
-
-In questa sede verranno evidenziate le tendenze e gli schemi comuni negli episodi di iperinflazione nel corso della storia, fornendo al contempo strategie efficaci e concrete per proteggersi durante i periodi di iperinflazione. I partecipanti avranno l'opportunità di esplorare varie opzioni di investimento e meccanismi di difesa finanziaria, acquisendo strumenti pratici e conoscenze essenziali per navigare serenamente in un clima economico instabile.
-
-
+Lungo il percorso, scoprirai anche come individui e comunità hanno navigato questi periodi turbolenti. Impara le strategie che hanno aiutato a proteggere la ricchezza durante le crisi valutarie e costruisci una comprensione più profonda della resilienza finanziaria. Se sei curioso delle forze economiche che plasmano il nostro mondo, questo viaggio offre sia conoscenza che prospettiva pratica.
 +++
-
 # Introduzione
 
 

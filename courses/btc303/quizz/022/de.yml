@@ -1,0 +1,9 @@
+question: Was sind die beiden Hauptprobleme der Blockchain-Privatsphäre, die Satoshi Nakamoto im Bitcoin Whitepaper identifiziert hat?
+answer: Address-Wiederverwendung und Adress-Clustering
+wrong_answers:
+  - Transaktionsgebühren und Verzögerungen bei der Bestätigung
+  - Doppelte Ausgaben und Hash-Kollisionen
+  - Netzüberlastung und mining-Zentralisierung
+explanation: |
+  In Abschnitt 7 des Bitcoin-Whitepapers bezeichnete Satoshi Nakamoto die Wiederverwendung von Adressen und das Clustering von Adressen als die wichtigsten Datenschutzprobleme der Blockchain. Address Wiederverwendung tritt auf, wenn dieselbe Adresse mehrfach verwendet wird, was es leicht macht, Transaktionen mit demselben Nutzer zu verknüpfen. Address-Clustering bezieht sich auf die Möglichkeit, festzustellen, dass verschiedene Adressen demselben Eigentümer gehören, insbesondere durch Transaktionen mit mehreren Eingaben, die zeigen, dass alle Eingaben von derselben Person kontrolliert wurden. Bei den anderen Optionen handelt es sich um technische oder betriebliche Herausforderungen in Bitcoin, aber nicht um die Fragen des Datenschutzes, die im Whitepaper unter Satoshi speziell erörtert werden.
+reviewed: false

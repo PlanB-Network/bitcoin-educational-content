@@ -13,13 +13,13 @@ Vexl est un réseau social pair à pair qui a la particularité de connecter des
 
 Débuter avec Vexl est assez simple : rendez-vous sur le [site officiel](https://vexl.it) puis téléchargez l'application mobile sur votre téléphone iOS ou Android.
 
-⚠️ Télécharger l'application mobile depuis le site web officiel vous prévient de toutes éventuelles copies frauduleuses de la plateforme et garantie l'intégrité de vos données.
+⚠️ Télécharger l'application mobile depuis le site web officiel vous prévient de toutes éventuelles copies frauduleuses de la plateforme et garantit l'intégrité de vos données.
 
-Dans ce tutoriel, nous évoluerons principalement sur la plateforme Android mais tout le processus ci-dessous détaillé est également valable pour iOS.
+Dans ce tutoriel, nous évoluerons principalement sur la plateforme Android, mais tout le processus ci-dessous détaillé est également valable pour iOS.
 
 ![app](assets/fr/01.webp)
 
-Une fois l'application installée, créez votre compte en vérifiant votre numéro de téléphone. Vexl vous demande le moins d'informations possibles pour préserver votre anonymat et aussi renforcer votre confidentialité.
+Une fois l'application installée, créez votre compte en vérifiant votre numéro de téléphone. Vexl vous demande le moins d'informations possible pour préserver votre anonymat et aussi renforcer votre confidentialité.
 
 ![verify](assets/fr/02.webp)
 
@@ -27,7 +27,7 @@ Après la vérification de votre compte, commencez à découvrir les membres du 
 
 ![contacts](assets/fr/03.webp)
 
-Vexl fonctionne comme une place marché pair à pair qui vous propose plusieurs options :
+Vexl fonctionne comme une place de marché pair à pair qui vous propose plusieurs options :
 
 - Acheter du bitcoin avec du cash.
 - Vendre du bitcoin pour avoir du cash.
@@ -39,9 +39,9 @@ Vexl fonctionne comme une place marché pair à pair qui vous propose plusieurs 
 
 ![options](assets/fr/04.webp)
 
-Sur la page d'accueil de Vexl, vous pouvez voir dès votre inscription, des suggestions sur comment faire des opérations spécifiques et sur les configurations que vous pouvez faire pour fluidifier votre expérience utilisateur.
+Sur la page d'accueil de Vexl, vous pouvez voir, dès votre inscription, des suggestions sur comment faire des opérations spécifiques et sur les configurations que vous pouvez faire pour fluidifier votre expérience utilisateur.
 
-En cliquant sur l'icône **Chat**, vous retrouverez l'historique des discussions que vous avez eu avec vos contacts et les personnes avec qui vous avez eu à échanger.
+En cliquant sur l'icône **Chat**, vous retrouverez l'historique des discussions que vous avez eues avec vos contacts et les personnes avec qui vous avez eu à échanger.
 
 ![suggests](assets/fr/05.webp)
 
@@ -51,21 +51,21 @@ Vexl vous met en place un écosystème assez personnalisable pour configurer à 
 
 ![initiate](assets/fr/07.webp)
 
-Choisissez le type de liste d'ordre que vous souhaitez puis spécifier si vous êtes dans une position de vendeur ou d'acheteur.
+Choisissez le type de liste d'ordres que vous souhaitez puis spécifiez si vous êtes dans une position de vendeur ou d'acheteur.
 
 Dans ce tutoriel, nous nous focaliserons sur les échanges de bitcoins.
 
 ![rate](assets/fr/08.webp)
 
-Sélectionnez la devise dans laquelle vous souhaitez échanger puis la tranche équivalente que vous souhaitez acheter ou vendre. Vous êtes en mesure d'acheter et de vendre chez plusieurs membres du réseau jusqu'à ce que vous atteignez le montant que vous souhaitez avoir. Vous avez également la possibilité de définir une date d'expiration pour votre échange.
+Sélectionnez la devise dans laquelle vous souhaitez échanger puis la tranche équivalente que vous souhaitez acheter ou vendre. Vous êtes en mesure d'acheter et de vendre chez plusieurs membres du réseau jusqu'à ce que vous atteigniez le montant que vous souhaitez avoir. Vous avez également la possibilité de définir une date d'expiration pour votre échange.
 
 ![préférences](assets/fr/09.webp)
 
-Selon votre convenance, vous êtes en mesure d'effectuer votre échange en physique dans une zone géographique que vous allez situer, ou rester sur Vexl, entrer en communication avec un contact et effectuer l'échange en ligne. Pour ce qui est des échanges bitcoins, Vexl supporte aussi bien le Lightning Network, idéal pour les petits paiements rapides et les transactions sur la chaîne principale lorsqu'il s'agit de grandes quantités de bitcoins.
+Selon votre convenance, vous êtes en mesure d'effectuer votre échange en physique dans une zone géographique que vous allez situer, ou de rester sur Vexl, entrer en communication avec un contact et effectuer l'échange en ligne. Pour ce qui est des échanges de bitcoins, Vexl supporte aussi bien le Lightning Network — idéal pour les petits paiements rapides — que les transactions sur la chaîne principale, lorsqu'il s'agit de grandes quantités de bitcoins.
 
 ![arguments](assets/fr/10.webp)
 
-Spécifiez également le langage dans lequel vous souhaitez converser puis donnez au moins une raison valable aux autres membres du réseau de prendre au sérieux votre offre.
+Spécifiez également la langue dans laquelle vous souhaitez converser puis donnez au moins une raison valable aux autres membres du réseau de prendre au sérieux votre offre.
 
 ![friends](assets/fr/11.webp)
 
@@ -73,7 +73,7 @@ Recherchez des personnes avec lesquelles faire ces échanges parmi vos contacts 
 
 ![done](assets/fr/12.webp)
 
-Vérifiez les différentes configurations pour votre offre puis valider pour que votre offre soit enregistrée.
+Vérifiez les différentes configurations pour votre offre puis validez pour que votre offre soit enregistrée.
 
 
 ![checkup](assets/fr/13.webp)
@@ -82,7 +82,7 @@ Vérifiez les différentes configurations pour votre offre puis valider pour que
 
 ### La confidentialité
 
-Dans les paramètres de l'application, retrouvez les configurations liées à votre compte. Sur Vexl, votre nom d'utilisateur n'est pas statique ce qui améliore votre confidentialité : les autres utilisateurs ne pourront donc pas associer vos transactions à votre compte en se basant sur votre nom d'utilisateur.
+Dans les paramètres de l'application, retrouvez les configurations liées à votre compte. Sur Vexl, votre nom d'utilisateur n'est pas statique, ce qui améliore votre confidentialité : les autres utilisateurs ne pourront donc pas associer vos transactions à votre compte en se basant sur votre nom d'utilisateur.
 
 ![settings](assets/fr/15.webp)
 

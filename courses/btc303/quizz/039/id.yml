@@ -1,0 +1,9 @@
+question: Menurut argumen Shaolinfry untuk User Activated Soft Forks (UASF), apa masalah utama dengan soft fork yang diaktifkan oleh penambang terkait implementasi upgrade?
+answer: Sebagian kecil hashrate dapat memveto peningkatan untuk semua orang, menciptakan inersia peningkatan
+wrong_answers:
+  - Penambang dapat membalikkan aktivasi fork lunak setelah implementasi melalui konsensus mayoritas
+  - Simpul ekonomi kehilangan kendali atas aturan validasi ketika penambang memberi sinyal aktivasi
+  - Perubahan Soft fork menjadi permanen dan tidak dapat dimodifikasi setelah penambang mengaktifkannya
+explanation: |
+  Shaolinfry mengidentifikasi bahwa pensinyalan penambang menciptakan sistem veto alami di mana bahkan persentase kecil dari hashrate dapat mencegah peningkatan diaktifkan untuk seluruh jaringan. 'Kelambanan peningkatan' ini menjadi lebih bermasalah ketika mining menjadi lebih terdesentralisasi, yang berpotensi menghalangi peningkatan protokol yang bermanfaat. Opsi lainnya salah menggambarkan cara kerja soft fork - penambang tidak dapat membalikkan aktivasi secara sepihak, node ekonomi mempertahankan otoritas validasi, dan soft fork secara teoritis dapat dimodifikasi melalui peningkatan berikutnya.
+reviewed: false

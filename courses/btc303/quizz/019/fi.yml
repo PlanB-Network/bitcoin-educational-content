@@ -1,0 +1,9 @@
+question: Mikä on anonymiteetin ja pseudonymiteetin tärkein ero Bitcoin-tapahtumien yhteydessä?
+answer: Bitcoin:n kaltaisissa pseudonyymijärjestelmissä maksut voidaan jäljittää pseudonyymien välillä, kun taas anonyymeissä järjestelmissä niitä ei voida jäljittää
+wrong_answers:
+  - Pseudonyymit järjestelmät käyttävät oikeita nimiä, kun taas anonyymit järjestelmät käyttävät väärennettyjä nimiä kaikissa tapahtumissa
+  - Anonyymit järjestelmät edellyttävät julkisia avaimia, kun taas pseudonyymit järjestelmät käyttävät tunnistamiseen ainoastaan yksityisiä avaimia
+  - "Pseudonyymit järjestelmät piilottavat transaktioiden summat, kun taas anonyymit järjestelmät piilottavat vain lähettäjän henkilöllisyyden"
+explanation: |
+  Bitcoin on pseudonyymi, ei anonyymi, koska kaikki osoitteiden (pseudonyymien) väliset transaktiot ovat jäljitettävissä lohkoketjussa. Todella anonyymissä järjestelmässä ei olisi mitään jälkiä siitä, mistä raha on peräisin tai minne se on menossa, mikä voitaisiin teoriassa saavuttaa nollatietotodistusten avulla. Bitcoin:n läpinäkyvyyden ansiosta kuka tahansa voi kuitenkin seurata bitcoinien kulkua eri osoitteiden välillä, mikä tekee järjestelmästä pikemminkin pseudonyymin kuin anonyymin. Bitcoin:n pseudonyymit ovat julkisista avaimista johdettuja osoitteita, eivät mielivaltaisia käyttäjätunnuksia tai todellisia henkilöllisyyksiä.
+reviewed: false

@@ -1,26 +1,19 @@
 ---
-name: Estudios sobre hiperinflación
+name: Estudios de caso de hiperinflación
 goal: Comprender la aparición de hiperinflaciones en un mundo Fiat y sus consecuencias
-objectives: 
-
-  - Estudiar los ciclos de hiperinflación
-  - Comprender las repercusiones reales de la hiperinflación en nuestra vida cotidiana
-  - Estudiar las similitudes de las hiperinflaciones a lo largo del tiempo
-  - Tener una idea concreta de cómo protegerse de la hiperinflación
-
+objectives:
+- Estudiar los ciclos de hiperinflación
+- Comprender las repercusiones reales de la hiperinflación en nuestra vida cotidiana
+- Estudiar las similitudes de las hiperinflaciones a lo largo del tiempo
+- Tener una idea concreta de cómo protegerse de la hiperinflación
 ---
+# Un viaje a través del colapso económico
 
-# Un viaje a la economía
+¿Cómo se ve cuando el dinero pierde su significado?
+Este curso te guía a través del fascinante pero aleccionador mundo de la hiperinflación. Descubrirás episodios históricos y casos modernos donde las monedas colapsaron y las economías se transformaron de la noche a la mañana. Descubrirás los patrones, las causas y el impacto real en la vida cotidiana de las personas, obteniendo una visión de uno de los fenómenos más dramáticos de la economía.
 
-
-Este programa pretende ofrecer una comprensión profunda de la aparición de las hiperinflaciones en un mundo dominado por la moneda fiduciaria y examinar sus importantes consecuencias. Los participantes profundizarán en los ciclos de hiperinflación, examinando las causas, los factores desencadenantes y ofreciendo ejemplos históricos y contemporáneos. También examinarán el impacto tangible de la hiperinflación en la economía y la vida cotidiana, estudiando las repercusiones en el valor de la moneda, el poder adquisitivo y el ahorro individual y colectivo.
-
-
-Aquí destacaremos las tendencias y los patrones comunes en los episodios de hiperinflación a lo largo de la historia, al tiempo que ofreceremos estrategias eficaces y concretas para protegerse durante los periodos de hiperinflación. Los participantes tendrán la oportunidad de explorar diversas opciones de inversión y mecanismos de defensa financiera, adquiriendo herramientas prácticas y conocimientos esenciales para navegar con calma en un clima económico inestable.
-
-
+En el camino, también descubrirás cómo los individuos y las comunidades han navegado estos períodos turbulentos. Aprende las estrategias que han ayudado a proteger la riqueza durante las crisis monetarias y desarrolla una comprensión más profunda de la resiliencia financiera. Si tienes curiosidad sobre las fuerzas económicas que dan forma a nuestro mundo, este viaje ofrece tanto conocimiento como perspectiva práctica.
 +++
-
 # Introducción
 
 

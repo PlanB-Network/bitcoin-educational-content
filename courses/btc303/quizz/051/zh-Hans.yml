@@ -1,0 +1,9 @@
+question: 根据 Ragnar Lifthasir 的批评，"只是 HODL "这样简单化的 Bitcoin 叙事会给 Bitcoin 生态系统带来什么问题？
+answer: 它们变得一成不变，导致用户忽视安全和无信任使用等更重要的方面
+wrong_answers:
+  - "它们鼓励过度的交易活动，破坏了 Bitcoin 的价格和市场动态的稳定"
+  - 它们造成了对有保证回报的错误预期，导致监管机构的审查和干预
+  - 它们提倡集中使用交易所，将 Bitcoin 的持有量集中在托管服务中
+explanation: |
+  Lifthasir 将这些简单化的叙述定义为 "monomanias"--过度关注单一想法，导致人们忽略了可能更重要的考虑因素。由于只关注持有 Bitcoin，用户可能会忽视一些重要方面，如正确的安全实践、自我监护或以无信任的方式使用 Bitcoin。其他选项虽然可能存在问题，但并不是 Lifthasir 对过于简化的 Bitcoin 信息所提出的具体批评。
+reviewed: false

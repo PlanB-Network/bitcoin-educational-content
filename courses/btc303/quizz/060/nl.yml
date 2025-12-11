@@ -1,0 +1,9 @@
+question: Wat is volgens de definitie van open source de belangrijkste vereiste met betrekking tot vergoedingen bij het herdistribueren van open source software als onderdeel van een geaggregeerde softwaredistributie?
+answer: De licentie vereist geen royalty of andere vergoeding voor een dergelijke verkoop
+wrong_answers:
+  - Er moeten redelijke reproductiekosten in rekening worden gebracht om de ontwikkelingskosten te dekken
+  - Royalty's zijn toegestaan, maar mogen niet meer dan 5% van de distributieprijs bedragen
+  - Administratieve vergoedingen kunnen vereist zijn, maar alleen voor commerciële herdistributies
+explanation: |
+  De definitie van open bron stelt expliciet onder 'Gratis herverspreiding' dat 'De licentie geen royalty's of andere vergoeding voor een dergelijke verkoop vereist' Dit betekent dat open source software vrij verspreid moet kunnen worden zonder verplichte vergoedingen of royalty's. De andere opties suggereren ten onrechte dat verschillende soorten vergoedingen zijn toegestaan, wat in strijd zou zijn met het fundamentele principe van vrije herdistributie dat open source software definieert.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Millise probleemi traditsiooniliste finantssüsteemide puhul tuvastab Satoshi Nakamoto Bitcoin valge raamatu sissejuhatuses?
+answer: Finantsasutused ei saa vältida vaidluste vahendamist, mis muudab täiesti pöördumatud tehingud võimatuks
+wrong_answers:
+  - Pangad võtavad ülemääraseid tasusid, mis muudavad kõik elektroonilised tehingud tarbijatele kahjumlikuks
+  - Krediitkaardiettevõtted keelduvad digitaalsete kaupade ja võrguteenuste eest tehtavatest maksetest
+  - Valitsuse määrused takistavad finantsasutustel tegutseda üle rahvusvaheliste piiride
+explanation: |
+  Satoshi määratleb konkreetselt, et usaldusväärsete kolmandate osapooltena tegutsevad finantsasutused ei saa vältida vaidluste vahendamist, mis takistab täiesti pöördumatuid tehinguid. See tekitab usaldusel põhineva mudeli loomupäraseid nõrkusi, suurendab kulusid vahendamise kaudu ja sunnib kaupmehi olema klientide suhtes ettevaatlikud. Muude võimaluste puhul kirjeldatakse erinevaid probleeme, mida Satoshi traditsiooniliste maksesüsteemide analüüsis ei mainita.
+reviewed: false

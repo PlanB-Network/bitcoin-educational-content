@@ -1,0 +1,8 @@
+question: According to the text, what paradox exists between security and economic progress?
+answer: Security is both a prerequisite for development and a consequence of it
+wrong_answers:
+  - Security always comes after economic development has been achieved
+  - Economic progress naturally eliminates the need for security measures
+  - Security and economic progress are completely independent of each other
+explanation: |
+  The chapter explains that security and economic progress create a paradoxical relationship: security is needed before development can occur (you can't innovate or invest long-term without it), but you also need economic surplus from production to fund the institutions that provide security. This creates a difficult cycle to start, but once begun, it becomes self-reinforcing. The other answers are wrong because they suggest a simple one-way relationship or independence, rather than this complex interdependence.

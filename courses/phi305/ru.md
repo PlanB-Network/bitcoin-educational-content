@@ -1,35 +1,18 @@
 ---
 name: Спиноза и Bitcoin
 goal: Откройте для себя философские связи между мыслями Спинозы и Bitcoin как инструментами свободы на протяжении веков.
-objectives: 
-
-
-  - Понимание практической философии Спинозы и его стремления к свободе.
-  - Исследование спинозистских концепций детерминизма и человеческих иллюзий.
-  - Анализ параллелей между революцией идей Спинозы и технологической революцией Bitcoin.
-
-
-
+objectives:
+- Понимание практической философии Спинозы и его поиска свободы.
+- Изучение спинозистских концепций детерминизма и человеческих иллюзий.
+- Анализ параллелей между революцией идей Спинозы и технологической революцией Биткоина.
+- Применение теории аффектов для распознавания и сопротивления манипуляциям в политических системах.
 ---
+# Когда Спиноза встретил Сатоши
 
-# Философское исследование свободы через Спинозу и Bitcoin
+Узнайте, как радикальные идеи философа XVII века Баруха де Спинозы о свободе, разуме и власти предвосхищают децентрализованную революцию Биткоина. Этот курс раскрывает поразительные параллели: оба отвергают слепую веру и центральную власть, оба используют математическую строгость для освобождения. Спиноза освободил умы от религиозных догм, Биткоин освобождает деньги от государственного контроля.
 
-
-
-Этот курс исследует глубокие связи между революционной философией Баруха де Спинозы (1632-1677) и Bitcoin, двумя инструментами свободы, разделенными веками, но объединенными одним стремлением: освобождением человека от рабства.
-
-
-
-Мы узнаем, как Спиноза, отец рациональной философии Просвещения, разработал практическую этику, чтобы освободить нас от иллюзий, которые нас сковывают, - свободы воли, финализма и теологических суеверий. Его геометрический метод и теория аффектов показывают нам, как понять свое место в мире и направить свое существование на то, что увеличивает нашу способность действовать.
-
-
-
-Затем в курсе проводятся увлекательные параллели между этой коперниканской революцией идей и Bitcoin: две системы, которые не требуют ни слепой веры, ни центральной власти, а просто применения разума. Подобно тому, как спинозизм освободил мысль от религиозных догм, Bitcoin освобождает деньги от государственного контроля, предлагая новую форму экономической свободы, основанной на математике и криптографии.
-
-
-
+Изучите практические инструменты из этики Спинозы, чтобы понять философские основы биткоина и расширить свою свободу действий. Готовы исследовать два величайших инструмента человеческой эмансипации в истории?
 +++
-
 # Введение
 
 
@@ -52,7 +35,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/ru/001.webp)
 
 
 Портрет Спинозы
@@ -87,7 +70,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/ru/002.webp)
 
 
 Портрет Спинозы
@@ -110,7 +93,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/ru/003.webp)
 
 
 
@@ -118,7 +101,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/ru/004.webp)
 
 
 
@@ -130,7 +113,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/ru/005.webp)
 
 
 
@@ -166,7 +149,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/ru/006.webp)
 
 
 
@@ -174,7 +157,6 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -186,7 +168,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/ru/007.webp)
 
 
 
@@ -206,10 +188,10 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/ru/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/ru/009.webp)
 
 
 
@@ -225,7 +207,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/ru/010.webp)
 
 
 
@@ -272,7 +254,6 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -284,7 +265,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/ru/011.webp)
 
 
 
@@ -296,7 +277,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/ru/012.webp)
 
 
 
@@ -328,7 +309,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/ru/013.webp)
 
 
 
@@ -348,7 +329,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/ru/014.webp)
 
 
 
@@ -384,7 +365,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/ru/015.webp)
 
 
 
@@ -395,7 +376,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/ru/016.webp)
 
 
 
@@ -407,7 +388,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/ru/017.webp)
 
 
 
@@ -444,7 +425,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/ru/018.webp)
 
 
 
@@ -456,7 +437,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/ru/019.webp)
 
 
 
@@ -464,7 +445,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/ru/020.webp)
 
 
 
@@ -509,10 +490,9 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/ru/021.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -524,7 +504,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/ru/022.webp)
 
 
 
@@ -536,10 +516,9 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/ru/023.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -547,7 +526,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/ru/024.webp)
 
 
 
@@ -555,7 +534,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/ru/025.webp)
 
 
 
@@ -599,7 +578,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/ru/026.webp)
 
 
 
@@ -623,7 +602,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/ru/027.webp)
 
 
 
@@ -639,7 +618,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/ru/028.webp)
 
 
 
@@ -667,7 +646,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/ru/029.webp)
 
 
 
@@ -692,10 +671,9 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/ru/030.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -726,7 +704,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/ru/031.webp)
 
 
 
@@ -750,7 +728,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/ru/032.webp)
 
 
 
@@ -766,7 +744,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/ru/033.webp)
 
 
 
@@ -774,7 +752,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/ru/034.webp)
 
 
 
@@ -790,7 +768,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/ru/035.webp)
 
 
 
@@ -826,7 +804,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/ru/036.webp)
 
 
 
@@ -850,7 +828,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/ru/037.webp)
 
 
 
@@ -862,7 +840,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/ru/038.webp)
 
 
 
@@ -882,7 +860,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/ru/039.webp)
 
 
 
@@ -894,7 +872,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/ru/040.webp)
 
 
 
@@ -902,7 +880,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/ru/041.webp)
 
 
 
@@ -962,7 +940,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/ru/042.webp)
 
 
 
@@ -970,7 +948,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/ru/043.webp)
 
 
 
@@ -987,7 +965,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/ru/044.webp)
 
 
 
@@ -1010,7 +988,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/ru/045.webp)
 
 
 
@@ -1050,7 +1028,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/ru/046.webp)
 
 
 
@@ -1074,7 +1052,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/ru/047.webp)
 
 
 
@@ -1090,7 +1068,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/ru/048.webp)
 
 
 
@@ -1110,7 +1088,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/ru/049.webp)
 
 
 
@@ -1130,7 +1108,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/ru/050.webp)
 
 
 
@@ -1168,14 +1146,13 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 
 Именно на это была направлена рациональная философия эпохи Просвещения, в частности, благодаря Иммануилу Канту (1724-1804), для которого только образованный человек под руководством разума может мыслить самостоятельно и определять с этической точки зрения, что является "истинным" или "хорошим", а что - токсичным.
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/ru/051.webp)
 
 
 
@@ -1186,7 +1163,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/ru/052.webp)
 
 
 
@@ -1194,7 +1171,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/ru/053.webp)
 
 
 
@@ -1215,7 +1192,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/ru/054.webp)
 
 
 
@@ -1223,7 +1200,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/ru/055.webp)
 
 
 
@@ -1231,7 +1208,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/ru/056.webp)
 
 
 

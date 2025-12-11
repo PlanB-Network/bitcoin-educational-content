@@ -1,0 +1,9 @@
+question: Bitcoin-yhteensopivuutta koskevan luvun mukaan minkälaisen yhteensopivuuden pehmeä fork tarjoaa?
+answer: Sekä eteenpäin- että taaksepäin yhteensopivuus, joten se on täysin yhteensopiva
+wrong_answers:
+  - Ainoastaan taaksepäin yhteensopivuus, jolloin uudet ohjelmistot voivat käsitellä vanhoja tietoja
+  - Ainoastaan eteenpäin yhteensopivuus, jolloin vanhat ohjelmistot voivat käsitellä uusia tietoja
+  - Ei yhteensopivuutta eteen- eikä taaksepäin, vaatii täydellisiä järjestelmäpäivityksiä
+explanation: |
+  Luvussa todetaan selvästi, että "Bitcoin-konsensussääntöjen muutoksen sanotaan olevan pehmeä fork, jos se on täysin yhteensopiva" Siinä määritellään täysin yhteensopivaksi sekä eteenpäin että taaksepäin yhteensopivaksi. Eteenpäin yhteensopivuus tarkoittaa, että vanha ohjelmisto voi käsitellä uudempien versioiden tietoja jättämällä huomiotta osat, joita se ei ymmärrä, kun taas taaksepäin yhteensopivuus tarkoittaa, että uusi ohjelmisto voi käsitellä vanhoja tietoja. Tämä kaksoisyhteensopivuus tekee pehmeistä haaroista Bitcoin:n ensisijaisen päivitysmekanismin, koska ne eivät riko olemassa olevia järjestelmiä ja mahdollistavat samalla uusia toimintoja.
+reviewed: false

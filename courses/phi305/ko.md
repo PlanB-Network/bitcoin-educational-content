@@ -1,35 +1,18 @@
 ---
 name: 스피노자와 Bitcoin
 goal: 수세기에 걸쳐 자유의 도구로서 스피노자의 사상과 Bitcoin 사이의 철학적 연관성을 알아보세요.
-objectives: 
-
-
-  - 스피노자의 실천 철학과 자유에 대한 그의 탐구를 이해합니다.
-  - 스피노자의 결정론과 인간의 착각에 대한 개념을 살펴봅니다.
-  - 스피노자의 사상 혁명과 Bitcoin의 기술 혁명 사이의 유사점을 분석합니다.
-
-
-
+objectives:
+- 스피노자의 실천 철학과 자유에 대한 그의 탐구를 이해하기.
+- 결정론과 인간의 환상에 대한 스피노자주의 개념을 탐구하기.
+- 스피노자의 사상 혁명과 비트코인의 기술 혁명 사이의 유사점을 분석하기.
+- 정치 시스템에서 조작을 인식하고 저항하기 위해 정동 이론을 적용하기.
 ---
+# 스피노자가 사토시를 만났을 때
 
-# 스피노자와 Bitcoin를 통한 자유에 대한 철학적 탐구
+17세기 철학자 바뤼흐 드 스피노자의 자유, 이성, 권력에 대한 급진적 사상이 어떻게 비트코인의 탈중앙화 혁명을 예견했는지 발견하세요. 이 강좌는 놀라운 유사점을 드러냅니다: 둘 다 맹목적 신앙과 중앙 권위를 거부하고, 둘 다 수학적 엄밀성을 사용하여 해방합니다. 스피노자는 종교적 교리로부터 정신을 해방시켰고, 비트코인은 국가 통제로부터 화폐를 해방시킵니다.
 
-
-
-이 강좌에서는 수 세기 동안 분리되었지만 노예로부터의 인간 해방이라는 동일한 탐구로 결합된 두 가지 자유의 도구, 바로크 드 스피노자(1632-1677)의 혁명적 철학과 Bitcoin 사이의 깊은 연관성을 탐구합니다.
-
-
-
-합리적인 계몽주의 철학의 아버지인 스피노자가 자유 의지, 최종주의, 신학적 미신 등 우리를 가두는 환상으로부터 우리를 해방시키기 위해 어떻게 실천 윤리를 발전시켰는지 알아보세요. 그의 기하학적 방법과 정동 이론은 우리가 세상에서 우리의 위치를 이해하고 우리의 존재를 행동력을 높이는 방향으로 이끄는 방법을 보여줍니다.
-
-
-
-이 강좌에서는 코페르니쿠스의 사상 혁명과 Bitcoin, 즉 맹목적인 믿음이나 중앙 권위가 아니라 단순히 이성의 행사를 필요로 하는 두 시스템 사이의 흥미로운 유사점을 살펴봅니다. 스피노자주의가 종교적 도그마로부터 사상을 해방시킨 것처럼, Bitcoin는 수학과 암호학에 뿌리를 둔 새로운 형태의 경제적 자유를 제공함으로써 국가의 통제에서 돈을 해방시켰습니다.
-
-
-
+스피노자의 윤리학에서 실용적인 도구를 배워 비트코인의 철학적 토대를 이해하고 당신의 주체성을 높이세요. 역사상 가장 위대한 두 가지 인간 해방의 도구를 탐구할 준비가 되셨나요?
 +++
-
 # 소개
 
 
@@ -52,7 +35,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/ko/001.webp)
 
 
 스피노자의 초상
@@ -87,7 +70,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/ko/002.webp)
 
 
 스피노자의 초상
@@ -110,7 +93,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/ko/003.webp)
 
 
 
@@ -118,7 +101,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/ko/004.webp)
 
 
 
@@ -130,7 +113,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/ko/005.webp)
 
 
 
@@ -166,7 +149,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/ko/006.webp)
 
 
 
@@ -174,7 +157,6 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -186,7 +168,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/ko/007.webp)
 
 
 
@@ -206,10 +188,10 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/ko/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/ko/009.webp)
 
 
 
@@ -225,7 +207,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/ko/010.webp)
 
 
 
@@ -272,7 +254,6 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -284,7 +265,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/ko/011.webp)
 
 
 
@@ -296,7 +277,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/ko/012.webp)
 
 
 
@@ -328,7 +309,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/ko/013.webp)
 
 
 
@@ -348,7 +329,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/ko/014.webp)
 
 
 
@@ -384,7 +365,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/ko/015.webp)
 
 
 
@@ -395,7 +376,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/ko/016.webp)
 
 
 
@@ -407,7 +388,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/ko/017.webp)
 
 
 
@@ -444,7 +425,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/ko/018.webp)
 
 
 
@@ -456,7 +437,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/ko/019.webp)
 
 
 
@@ -464,7 +445,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/ko/020.webp)
 
 
 
@@ -509,10 +490,9 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/ko/021.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -524,7 +504,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/ko/022.webp)
 
 
 
@@ -536,10 +516,9 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/ko/023.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -547,7 +526,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/ko/024.webp)
 
 
 
@@ -555,7 +534,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/ko/025.webp)
 
 
 
@@ -599,7 +578,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/ko/026.webp)
 
 
 
@@ -623,7 +602,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/ko/027.webp)
 
 
 
@@ -639,7 +618,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/ko/028.webp)
 
 
 
@@ -667,7 +646,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/ko/029.webp)
 
 
 
@@ -692,10 +671,9 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/ko/030.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -726,7 +704,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/ko/031.webp)
 
 
 
@@ -750,7 +728,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/ko/032.webp)
 
 
 
@@ -766,7 +744,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/ko/033.webp)
 
 
 
@@ -774,7 +752,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/ko/034.webp)
 
 
 
@@ -790,7 +768,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/ko/035.webp)
 
 
 
@@ -826,7 +804,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/ko/036.webp)
 
 
 
@@ -850,7 +828,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/ko/037.webp)
 
 
 
@@ -862,7 +840,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/ko/038.webp)
 
 
 
@@ -882,7 +860,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/ko/039.webp)
 
 
 
@@ -894,7 +872,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/ko/040.webp)
 
 
 
@@ -902,7 +880,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/ko/041.webp)
 
 
 
@@ -962,7 +940,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/ko/042.webp)
 
 
 
@@ -970,7 +948,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/ko/043.webp)
 
 
 
@@ -987,7 +965,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/ko/044.webp)
 
 
 
@@ -1010,7 +988,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/ko/045.webp)
 
 
 
@@ -1050,7 +1028,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/ko/046.webp)
 
 
 
@@ -1074,7 +1052,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/ko/047.webp)
 
 
 
@@ -1090,7 +1068,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/ko/048.webp)
 
 
 
@@ -1110,7 +1088,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/ko/049.webp)
 
 
 
@@ -1130,7 +1108,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/ko/050.webp)
 
 
 
@@ -1168,14 +1146,13 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 
 특히 임마누엘 칸트(1724-1804)의 계몽주의 이성 철학은 교육받은 개인만이 이성의 지도 아래 스스로 생각하고 무엇이 '참' 또는 '선'이고 무엇이 해로운지 윤리적으로 판단할 수 있다고 믿었습니다.
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/ko/051.webp)
 
 
 
@@ -1186,7 +1163,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/ko/052.webp)
 
 
 
@@ -1194,7 +1171,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/ko/053.webp)
 
 
 
@@ -1215,7 +1192,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/ko/054.webp)
 
 
 
@@ -1223,7 +1200,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/ko/055.webp)
 
 
 
@@ -1231,7 +1208,7 @@ TTP에서 발전된 종교에 대한 이러한 성숙한 비전에는 모든 개
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/ko/056.webp)
 
 
 

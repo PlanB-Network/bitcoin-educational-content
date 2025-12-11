@@ -1,0 +1,9 @@
+question: De acuerdo con la definición proporcionada para el escalado Bitcoin, ¿qué enfoque NO se calificaría como escalado legítimo?
+answer: Aumentar el rendimiento de las transacciones exigiendo a los usuarios que confíen en procesadores de pagos centralizados para la mayoría de las transacciones
+wrong_answers:
+  - Menor consumo de bytes en las transacciones gracias a una codificación más eficaz
+  - Implantación de soluciones de arquitectura por capas que construyen protocolos sobre Bitcoin
+  - Mejora del rendimiento de la verificación de firmas para procesar los bloques con mayor rapidez
+explanation: |
+  El capítulo define explícitamente el escalado de Bitcoin como "el aumento de la capacidad de uso de Bitcoin sin comprometer su resistencia a la censura" La respuesta correcta viola esta definición porque exigir a los usuarios que confíen en procesadores de pago centralizados compromete directamente la resistencia a la censura de Bitcoin, una de sus principales propuestas de valor. Todas las respuestas erróneas representan enfoques de escalado legítimos mencionados en el capítulo: la codificación eficiente reduce el uso de recursos, las soluciones por capas permiten aumentar la capacidad conservando las propiedades de la capa base y la verificación de firmas mejorada aumenta el rendimiento sin concesiones a la centralización.
+reviewed: false

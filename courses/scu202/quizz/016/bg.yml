@@ -1,0 +1,9 @@
+question: Коя фамилия дистрибуции използва мениджъра на пакети RPM?
+answer: Red Hat
+wrong_answers:
+  - Дебиан
+  - Arch
+  - Slackware
+explanation: |
+  Форматът RPM е създаден по инициатива на Red Hat и е в основата на Fedora, RHEL, CentOS, AlmaLinux, Rocky Linux и други свързани дистрибуции.
+reviewed: false

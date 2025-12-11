@@ -1,0 +1,9 @@
+question: Кой проектира първото истинско лого на Bitcoin (златисто голямо B, пресечено от две вертикални ленти) през февруари 2010 г.?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - NewLibertyStandard
+  - Martti Malmi
+  - bitboy
+explanation: |
+  Той използва предложението на NewLibertyStandard да използва символа на тайландския бат (฿). По-късно оранжевото лого е създадено от човек, известен като Bitboy.
+reviewed: true

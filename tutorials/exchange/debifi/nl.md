@@ -24,11 +24,11 @@ Het resultaat is **Debifi**, een platform dat zich positioneert als een modern a
 
 
 
-Debifi is een niet-custodial Bitcoin backed lending platform, wat betekent dat je de controle behoudt over je private keys. Het stelt gebruikers in staat om liquiditeit in Exchange vrij te spelen voor hun vergrendelde bitcoins als onderpand. In tegenstelling tot traditionele bankleningen, maakt Debifi gebruik van een multi-handtekening escrow systeem (3 uit 4) en accepteert het geen hypotheken op onderpand, wat meer veiligheid en transparantie garandeert.
+Debifi is een niet-custodial Bitcoin backed lending platform, wat betekent dat je de controle behoudt over je private keys. Het stelt gebruikers in staat om liquiditeit te ontsluiten in ruil voor hun vergrendelde bitcoins als onderpand. In tegenstelling tot traditionele bankleningen maakt Debifi gebruik van een multi-handtekening escrow systeem (3 uit 4) en accepteert geen herhypothekering van onderpand, waardoor een grotere veiligheid en transparantie wordt gegarandeerd.
 
 
 
-In de praktijk betekent dit dat noch Debifi, noch een individuele kredietverstrekker jouw BTC kan uitgeven zonder de toestemming van drie partijen (jij, de kredietverstrekker en een vertrouwde derde partij). Dit maakt het systeem veiliger: als je op Debifi leent, behoud je Ownership van je Bitcoin totdat de lening volledig is terugbetaald.
+In de praktijk betekent dit dat noch Debifi, noch een individuele geldschieter jouw BTC kan uitgeven zonder de toestemming van drie partijen (jij, de geldschieter en een vertrouwde derde partij). Dit maakt het systeem veiliger: als je op Debifi leent, blijf je eigenaar van je Bitcoin totdat de lening volledig is terugbetaald.
 
 
 
@@ -36,22 +36,21 @@ In de praktijk betekent dit dat noch Debifi, noch een individuele kredietverstre
 
 
 
-Met Debifi zijn het leningen met onderpand, Blockchain beveiliging (meerdere handtekeningen, 2FA), een keuze uit stablecoins/vloeistoffen, vertrouwelijkheid en totale Bitcoin controle. Debifi "laat u uw geld houden" (uw sleutels, uw munten), terwijl het concurrerende tarieven en wereldwijde toegang tot BTC-ondersteunde leningen biedt.
+Met Debifi krijg je door Bitcoin gedekte leningen die over-verzekerd en on-chain beveiligd zijn. Uw fondsen blijven veilig met multi-handtekening wallets, 2FA, en totale controle over uw Bitcoin - u houdt uw sleutels, u houdt uw munten. Leen in een reeks stablecoins of fiatopties, tegen concurrerende tarieven en wereldwijde liquiditeit.
 
 
 
 Hier volgt een snelle vergelijking tussen een Debifi-lening en een traditionele banklening:
 
 
-
-| Caractéristiques       | Prêt via Debifi                                                       | Prêt bancaire traditionnel                                                 |
-| ---------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Accessibilité          | ✔️ Ouvert à tout détenteur de Bitcoin (même sans historique bancaire) | ❌ Souvent réservé aux clients avec garanties physiques et dossiers solides |
-| Vitesse d’obtention    | ✔️ Liquide en quelques minutes/heures                                 | ❌ Processus long (jours ou semaines)                                       |
-| Garanties exigées      | ✔️ Collatéral en Bitcoin uniquement                                   | ❌ Garanties physiques (maisons, terrains, revenus stables)                 |
-| Contrôle de l’actif    | ✔️ Vous conservez l’exposition au Bitcoin et son potentiel de hausse  | ❌ Vous n’avez aucun lien entre le prêt et vos actifs financiers            |
-| Souplesse géographique | ✔️ Disponible partout (sans contrainte géographique bancaire)         | ❌ Limité à la juridiction de la banque                                     |
-| Risque principal       | ❌ Risque de liquidation si le prix du BTC chute trop                  | ❌ Risque de saisie de biens ou impact négatif sur la cote de crédit        |
+| Characteristics        | Loan via Debifi                                                        | Traditional Bank Loan                                                       |
+| ---------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Accessibility          | ✔️ Open to any Bitcoin holder (even without banking history)           | ❌ Often limited to clients with physical collateral and strong records      |
+| Speed of approval      | ✔️ Funds available within minutes or hours                             | ❌ Lengthy process (days or weeks)                                           |
+| Required guarantees    | ✔️ Bitcoin used as the sole collateral                                 | ❌ Physical guarantees (property, land, stable income)                       |
+| Asset control          | ✔️ You keep exposure to Bitcoin and its upside potential               | ❌ No connection between the loan and your financial assets                  |
+| Geographic flexibility | ✔️ Available everywhere (no banking jurisdiction constraints)          | ❌ Restricted to the bank’s jurisdiction                                     |
+| Main risk              | ❌ Liquidation risk if BTC price drops too sharply                      | ❌ Risk of asset seizure or negative impact on credit score                  |
 
 Voordat ik je stap voor stap laat zien hoe je kunt lenen op Debifi, zijn er een paar punten die je volgens mij moet weten.
 
@@ -70,13 +69,13 @@ Voordat ik je stap voor stap laat zien hoe je kunt lenen op Debifi, zijn er een 
 
 
 
-- Een onderpand** is een goed dat je deponeert om een lening te garanderen. In het geval van Debifi is het onderpand Bitcoin (BTC), dat de lener deponeert in de Multisig 3/4 escrow.
+- Onderpand** is een goed dat je stort om een lening te garanderen. In het geval van Debifi is het onderpand Bitcoin (BTC), dat de lener deponeert in de Multisig 3/4 escrow.
 
 
 
 
 
-- Het Multisig escrow (3/4)** systeem is een veilig depositomechanisme waarbij de bitcoins van een lener in een Address met meerdere handtekeningen worden geplaatst. Concreet houden vier (4) partijen elk een sleutel (lener, geldschieter, Debifi, onafhankelijke derde partij). Om geld te verplaatsen zijn minstens 3 van de 4 handtekeningen nodig.
+- Het Multisig escrow (3/4)** systeem is een veilig depositomechanisme waarbij de bitcoins van een lener in een multi-handtekeningadres worden geplaatst. Concreet houden vier (4) partijen elk een sleutel (lener, geldschieter, Debifi, onafhankelijke derde partij). Om geld te verplaatsen zijn minstens 3 van de 4 handtekeningen nodig.
 
 
 
@@ -88,7 +87,7 @@ Voordat ik je stap voor stap laat zien hoe je kunt lenen op Debifi, zijn er een 
 
 
 
-- De Loan-to-Value (LTV)** ratio van een lening bepaalt hoeveel geld je kunt lenen als onderpand voor je Bitcoin. LTV-ratio = Leningbedrag / Onderpandbedrag * 100. Een LTV van 50% betekent bijvoorbeeld dat de waarde van de lening gelijk is aan 50% van de waarde van het ingelegde Bitcoin onderpand.
+- De Loan-to-Value (LTV)** ratio van een lening bepaalt hoeveel geld je kunt lenen als onderpand voor je Bitcoin. LTV ratio = Leningbedrag / Onderpandbedrag * 100. Bijvoorbeeld, een LTV van 50% betekent dat de waarde van de lening gelijk is aan 50% van de waarde van de Bitcoin in onderpand.
 
 
 
@@ -118,17 +117,11 @@ Voordat je van Debifi kunt lenen, moet je ervoor zorgen dat je de volgende items
 
 
 
-- Bitcoin Wallet: waar je je BTC bewaart (idealiter niet-bewaard, bijv. Hardware Wallet of een vertrouwde mobiele Wallet). Vanaf deze Wallet stuur je het Bitcoin onderpand naar Debifi en ontvang je het geld.
+- Bitcoin wallet: waar je je BTC bewaart (idealiter niet-bewaard, bijv. Hardware Wallet of een vertrouwde mobiele wallet). Vanaf deze wallet stuur je het Bitcoin onderpand naar Debifi en ontvang je het onderpand terug.
 
 
 
-
-
-- Stablecoins of fiat: Debifi leent in stablecoins en sommige fiatvaluta's. De belangrijkste gebruikte stablecoins zijn USDT en USDC.
-
-
-
-Je kunt Aqua gebruiken, een Bitcoin en Liquid Wallet die ook USDT stablecoin-beheer op verschillende netwerken ondersteunt. Of COLDCARD (Mk4 of Q), momenteel de enige hardware die door Debifi wordt ondersteund.
+Je kunt Aqua gebruiken, een Bitcoin en Liquid wallet die ook USDT stablecoin-beheer op verschillende netwerken ondersteunt. Of COLDCARD (Mk4 of Q), momenteel de enige hardware die door Debifi wordt ondersteund.
 
 
 
@@ -148,7 +141,7 @@ https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 
 
 
-- Toepassing voor authenticatie met twee factoren: Debifi vereist een Authenticator-code voor elke belangrijke actie. Het is een extra Layer beveiliging. In deze tutorial gebruiken we Google Authenticator. Je kunt ook andere Authenticators gebruiken.
+- Toepassing voor authenticatie met twee factoren: Debifi vereist een Authenticator-code voor elke belangrijke actie. Het is een extra beveiligingslaag. In deze tutorial gebruiken we Google Authenticator. Je kunt ook andere Authenticators gebruiken.
 
 
 
@@ -158,7 +151,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-- Debifi website en mobiele applicatie: Debifi is zowel een website als een mobiele applicatie, en de twee werken samen. De mobiele app wordt een Wallet, die je privésleutel opslaat en de ondertekening van contracten beheert. Daarnaast moet je de website gebruiken om contracten vast te leggen (een grote Interface geeft je een algemeen overzicht van leencontracten en hun details).
+- Debifi website en mobiele applicatie: Debifi is zowel een website als een mobiele applicatie, en de twee werken samen. De mobiele app wordt een wallet, die je privésleutel opslaat en de ondertekening van contracten beheert. Daarnaast moet je de website gebruiken om contracten vast te leggen (een grote Interface geeft je een algemeen overzicht van leencontracten en hun details).
 
 
 
@@ -200,7 +193,7 @@ Klik in de applicatie op het menu **Instellingen**.
 
 
 
-Klik dan op **Login of maak account aan** om een account aan te maken met je e-mail Address.
+Klik vervolgens op **Login of maak account aan** om een account aan te maken met je e-mailadres.
 
 
 
@@ -294,7 +287,7 @@ Zodra je deze stappen hebt doorlopen, klik je op het menu **Aanbiedingen** om de
 
 
 
-Zodra uw apparaat verbonden is, gaat u naar de [Debifi website](https://debifi.com/). Log in om een beveiligde verbinding tussen de Debifi mobiele applicatie en het webplatform tot stand te brengen. Dit maakt het makkelijker voor je om beschikbare leenaanbiedingen te bekijken (een duidelijk overzicht van de details van elke aanbieding) en je account te beheren.
+Zodra uw apparaat verbonden is, gaat u naar de [Debifi website](https://debifi.com/). Log in om een beveiligde verbinding tussen de Debifi mobiele applicatie en het webplatform tot stand te brengen. Dit maakt het makkelijker voor je om beschikbare leningaanbiedingen te bekijken (een duidelijk overzicht van de details van elke aanbieding) en je account te beheren.
 
 
 
@@ -360,7 +353,7 @@ De tranches van Bitcoin leningen zijn over het algemeen drie (3) in getal:
 
 
 
-- Conservatief (20% - 40% LTV), wat overeenkomt met een lening met een laag risico, is ideaal voor het maximaliseren van de zekerheid tegen Bitcoin prijsvolatiliteit;
+- Conservatief (30% - 40% LTV), wat overeenkomt met een lening met een laag risico, is ideaal voor het maximaliseren van de zekerheid tegen Bitcoin prijsvolatiliteit;
 
 
 
@@ -372,7 +365,7 @@ De tranches van Bitcoin leningen zijn over het algemeen drie (3) in getal:
 
 
 
-- Agressief (70% - 85% LTV), die een grotere liquiditeit biedt, maar een zeer hoog risico op liquidatie inhoudt tijdens marktdalingen. Actief toezicht op de Bitcoin marktomstandigheden is een must bij het kiezen van deze tranche.
+- Agressief (70% LTV), die een grotere liquiditeit biedt, maar een zeer hoog risico op liquidatie inhoudt tijdens marktdalingen. Actief toezicht op de Bitcoin marktomstandigheden is een must bij het kiezen van deze tranche.
 
 
 
@@ -388,7 +381,7 @@ Het bepalen van de rente is over het algemeen afhankelijk van de door jou gekoze
 
 
 
-Aflossingsschema's voor leningen zijn vaak flexibel en afgestemd op de behoeften van de gebruiker. Betalingen kunnen op elk moment worden gedaan, zolang aan de onderpandeisen wordt voldaan. Leningbetalingen bestaan meestal uit rente voor de duur van de lening, en de hoofdsom moet op de vervaldatum worden betaald.
+Terugbetalingsschema's zijn flexibel en ontworpen om tegemoet te komen aan de behoeften van de lener. Leningen kunnen op elk moment geheel of gedeeltelijk worden terugbetaald zonder extra kosten, op voorwaarde dat aan de onderpandeisen wordt voldaan. Gedurende de looptijd van de lening wordt de rente periodiek betaald, terwijl de hoofdsom op de vervaldatum wordt vereffend.
 
 
 
@@ -396,7 +389,16 @@ Aflossingsschema's voor leningen zijn vaak flexibel en afgestemd op de behoeften
 
 
 
-Omdat de prijs van Bitcoin volatiel is, bevat een verantwoorde lening een specifiek margin call beleid in de overeenkomst. Met dit beleid kan de lener worden aangemaand om ofwel extra onderpand te geven, of een deel van de lening terug te betalen.
+Gezien de volatiliteit van Bitcoin bevatten leningen een duidelijk gedefinieerd margestortingsbeleid. Een margin call vindt plaats wanneer de LTV stijgt door een daling in de waarde van het onderpand. Debifi informeert de lener per e-mail en via de app, zodat deze onderpand kan toevoegen of een deel van de lening kan terugbetalen.
+
+
+75% LTV - Eerste waarschuwing
+
+80% LTV - Tweede waarschuwing
+
+85% LTV - Laatste waarschuwing
+
+90% LTV - Onderpand wordt geliquideerd
 
 
 
@@ -433,11 +435,11 @@ U kunt zien :
 6. Het exacte bedrag dat je nodig hebt moet worden ingevoerd (dit bedrag moet binnen de bandbreedte liggen, zie 2);
 
 
-7. De Ethereum USDC Address die moet worden gebruikt om de fondsen te ontvangen, moet worden ingevoerd.
+7. Het Ethereum USDC-adres dat moet worden gebruikt om de fondsen te ontvangen, moet worden ingevoerd.
 
 
 
-Zodra je tevreden bent met het aanbod en de benodigde informatie hebt ingevuld, klik je op "Contract aanvraag".
+Zodra je tevreden bent met het aanbod en de nodige informatie hebt ingevuld, klik je op "Contract aanvragen".
 
 
 
@@ -453,7 +455,7 @@ Ga terug naar de mobiele applicatie voor ''**Verstrek openbare sleutel**''.
 
 
 
-Druk op '' **Provide public key** '' en kies vervolgens de bron van de publieke sleutel. De geldschieter moet ook Supply een openbare sleutel geven.
+Druk op '' **Provide public key** '' en kies vervolgens de bron van de openbare sleutel. De kredietverstrekker moet ook een openbare sleutel verstrekken.
 
 
 
@@ -473,7 +475,7 @@ Druk op '' **Provide public key** '' en kies vervolgens de bron van de publieke 
 
 
 
-De volgende stap is het ondertekenen van de Contract. Druk, nog steeds in de mobiele applicatie, op '' **Teken Contract** ''
+De volgende stap is het ondertekenen van het contract. Druk, nog steeds in de mobiele applicatie, op '' **Teken Contract** ''
 
 
 
@@ -485,7 +487,7 @@ De volgende stap is het ondertekenen van de Contract. Druk, nog steeds in de mob
 
 
 
-Wanneer u klaar bent met het ondertekenen van de Contract, maakt Debifi automatisch een unieke Bitcoin Address (escrow 3-sur-4) met meerdere handtekeningen voor uw Contract aan. Zolang uw bitcoins zich in de escrow bevinden, kunnen ze niet elders worden gebruikt.
+Wanneer je klaar bent met het ondertekenen van het contract, maakt Debifi automatisch een uniek Bitcoin-adres met meerdere handtekeningen aan (escrow 3-sur-4) voor je contract. Zolang je bitcoins zich in de escrow bevinden, kunnen ze niet elders worden gebruikt.
 
 
 
@@ -493,7 +495,7 @@ Wanneer u klaar bent met het ondertekenen van de Contract, maakt Debifi automati
 
 
 
-De laatste stap is het storten van je Bitcoin onderpand in het multi-signature escrow systeem. Debifi toont je dan de escrow Address (B) en de hoeveelheid BTC (A) die moet worden verzonden als (onderpand + commissie).
+De laatste stap is het storten van je Bitcoin onderpand in het multi-signature escrow systeem. Debifi toont je het escrow-adres (B) en de hoeveelheid BTC (A) die moet worden verzonden als (onderpand + commissie).
 
 
 
@@ -509,7 +511,7 @@ Je ontvangt deze melding ook in je mobiele applicatie.
 
 
 
-Zodra je storting is bevestigd, betaalt de kredietverstrekker het geleende bedrag aan de ontvangende Address die je hebt aangegeven, waarmee de transactie wordt afgerond en jij toegang krijgt tot het geld dat je nodig hebt.
+Zodra je storting is bevestigd, stort de kredietverstrekker het geleende bedrag op het door jou opgegeven ontvangstadres, waarmee de transactie wordt afgerond en jij toegang krijgt tot het geld dat je nodig hebt.
 
 
 
@@ -517,7 +519,7 @@ Je ontvangt dan een bericht van Debifi, waarin je wordt gevraagd om de leenkoste
 
 
 
-In werkelijkheid worden, zodra de Contract is aangemaakt, de leenkosten automatisch afgetrokken van het onderpand dat door de lener is geblokkeerd in de multi-signature escrow Address.
+In werkelijkheid worden, zodra het contract is aangemaakt, de leenkosten automatisch afgetrokken van het onderpand dat door de lener is geblokkeerd in het multi-signature escrow-adres.
 
 
 
@@ -529,7 +531,7 @@ Je hoeft alleen maar een transactie te ondertekenen waardoor Debifi zijn commiss
 
 
 
-De toepasselijke leenprovisies zijn 1,5-2%, afhankelijk van de looptijd van de Contract. Het platform brengt alleen provisies in rekening in Bitcoin.
+De toepasselijke leenprovisies zijn 1,5-2%, afhankelijk van de looptijd van het contract. Het platform berekent alleen commissies in Bitcoin.
 
 
 
@@ -537,29 +539,27 @@ De toepasselijke leenprovisies zijn 1,5-2%, afhankelijk van de looptijd van de C
 
 
 
-Zodra de lening onderweg is, kun je met Debifi je Contract in realtime volgen. In Interface zie je :
-
-
+Zodra de lening actief is, kun je met Debifi je contract in realtime volgen. In de interface vind je:
 
 
 
 - Het geleende bedrag en de resterende looptijd.
-- Huidige LTV (Loan-to-Value) ratio: LTV stijgt als de prijs van BTC daalt (omdat je onderpand minder waard is). Er is een waarschuwingsdrempel (meestal 90%) ingesteld. Als je LTV deze drempel overschrijdt, is er een risico op gedwongen liquidatie. Debifi geeft je dan 24 uur om te reageren.
-
-
-
-Leners worden geïnformeerd over de prijsverlaging. Deze informatie zal ook beschikbaar zijn op de Contract overzichtspagina. Om de oorspronkelijke loan-to-value ratio van een lening te herstellen, moet de lener :
+- De huidige LTV (Loan-to-Value) ratio, die stijgt als de prijs van BTC daalt en de waarde van je onderpand daalt.
 
 
 
 
+Leners worden op de hoogte gesteld wanneer de waarde van het onderpand afneemt, en deze informatie wordt ook weergegeven op de overzichtspagina van het contract. Om de oorspronkelijke loan-to-value ratio te herstellen, moet de lener ofwel:
 
-- of een extra waarborg storten ;
+
+
+- extra onderpand storten;
 - de schuld geheel of gedeeltelijk terugbetalen.
 
 
 
-In het geval van een prijsstijging van het onderpand behoudt de lener eventuele meerwaarden op het onderpand. Hij is alleen het bedrag van de lening verschuldigd, dat vooraf is vastgesteld en onafhankelijk is van de Bitcoin prijs.
+
+In het geval van een prijsstijging van het onderpand behoudt de lener eventuele meerwaarden op het onderpand. Hij is alleen het bedrag van de lening verschuldigd, dat vooraf is bepaald en onafhankelijk is van de Bitcoin prijs.
 
 
 
@@ -577,21 +577,21 @@ In Debifi :
 
 
 
-- Ga naar je Contract en klik op **Aflossing doen**. Voer het totaal verschuldigde bedrag in (hoofdsom + rente).
+- Ga naar je contract en klik op **Aflossing uitvoeren**. Voer het totaal verschuldigde bedrag in (hoofdsom + rente).
 
 
 
 
 
-- Stuur de stablecoins van je Wallet naar de aangegeven Address van de geldschieter, en ga terug om de terugbetaling op het platform te bevestigen door de **ID** van de terugbetalingstransactie te kopiëren naar het daarvoor bestemde tabblad. Dit maakt het makkelijker voor Debifi om zijn controles uit te voeren.
+- Stuur de stablecoins van je wallet naar het aangegeven adres van de geldschieter, en kom terug om de terugbetaling te bevestigen op het platform door de **ID** van de terugbetalingstransactie te kopiëren in de daarvoor bestemde tab. Dit maakt het makkelijker voor Debifi om zijn controles uit te voeren.
 
 
 
-Zodra de betaling is bevestigd door de kredietverstrekker (en door jou), zal Debifi je vragen om **terug te betalen**. Uw Bitcoin onderpand wordt vrijgegeven en u kunt het vanuit de escrow teruggeven aan uw eigen portefeuille.  Vergeet niet al je Bitcoins te verzamelen.
+Zodra de betaling is bevestigd door de geldschieter (en door jou), zal Debifi je vragen om **terug te betalen**. Je Bitcoin onderpand wordt vrijgegeven en je kunt het terugzetten van de escrow naar je eigen wallet.  Vergeet niet al je Bitcoins te verzamelen.
 
 
 
-Zodra je je bitcoins hebt ontvangen, verandert de lening Contract in **Contract voltooid**.
+Zodra u uw bitcoins ontvangt, verandert het leencontract in **Contract voltooid**.
 
 
 
@@ -604,7 +604,7 @@ Gefeliciteerd! Je hebt het proces afgerond.
 
 
 
-Wat je doelstellingen of motivaties ook zijn - een project financieren, eigendom verwerven, bitcoins kopen, enz. - wees uiterst voorzichtig voordat u een lening afsluit die gedekt wordt door Bitcoin. - wees uiterst voorzichtig voordat u een lening afsluit die wordt gedekt door Bitcoin. Neem de tijd om uw beslissing zorgvuldig te overwegen, want Bitcoin blijft een volatiel activum. **Een scherpe daling van de prijs kan resulteren in de gedwongen liquidatie van uw bitcoins**.
+Wat uw doelstellingen of motivaties ook zijn, het financieren van een project, het verwerven van onroerend goed, het kopen van bitcoins, enzovoort, wees zeer voorzichtig voordat u een lening afsluit met Bitcoin als onderpand. Neem de tijd om je beslissing zorgvuldig te beoordelen, want Bitcoin blijft een volatiel activum. **Een scherpe daling van de prijs kan resulteren in de gedwongen liquidatie van uw bitcoins.**
 
 
 
@@ -612,7 +612,7 @@ Bewaak je loan-to-collateral (LTV) ratio. Stel indien mogelijk waarschuwingen in
 
 
 
-Controleer je sleutels. Bewaar je BTC in een veilige Wallet (idealiter hardware of een gerenommeerde Wallet). Stel geen PIN-code in die gerelateerd is aan een belangrijke datum in je leven en deel nooit je herstelzin. Op Debifi, generate je je private sleutel in de applicatie - Debifi weet het niet.
+Controleer je sleutels. Bewaar je BTC in een veilige wallet (idealiter hardware of een gerenommeerde wallet). Stel geen PIN-code in die gerelateerd is aan een belangrijke datum in je leven en deel nooit je herstelzin. Op Debifi, generate je je private sleutel in de applicatie - Debifi weet het niet.
 
 
 

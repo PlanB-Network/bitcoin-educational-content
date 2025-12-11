@@ -6,3 +6,4 @@ wrong_answers:
   - The requirement for customers to provide excessive personal identification documents
 explanation: |
   According to Satoshi Nakamoto in the Bitcoin whitepaper, traditional financial systems suffer from the fundamental weakness that completely non-reversible transactions are not possible because financial institutions must mediate disputes. This creates a cascade of problems: increased transaction costs due to mediation, elimination of small casual transactions, and the spread of trust requirements throughout the system. The other options, while potentially relevant to financial systems, are not the core issue that Bitcoin's trustless design specifically addresses. Bitcoin's innovation is enabling final settlement without requiring a trusted third party to reverse transactions.
+reviewed: false

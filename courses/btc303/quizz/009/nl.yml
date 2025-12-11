@@ -1,0 +1,9 @@
+question: Wat ziet Gregory Maxwell als een groter risico voor Bitcoin dan 51% aanvallen?
+answer: Mensen die de decentralisatie-eigenschappen van Bitcoin niet begrijpen of beschermen
+wrong_answers:
+  - Mijnwerkers concentreren te veel rekenkracht op één locatie
+  - Overheidsvoorschriften die Bitcoin mining activiteiten verhinderen
+  - "Technische kwetsbaarheden in de cryptografische algoritmen van Bitcoin"
+explanation: |
+  Volgens Gregory Maxwell's Reddit post die in het hoofdstuk wordt aangehaald, zijn 51% aanvallen weliswaar een theoretisch probleem, maar het veel grotere risico is dat Bitcoin gebruikers de decentralisatie-eigenschappen die Bitcoin waardevoller maken dan gecentraliseerde alternatieven niet begrijpen, er niet om geven en ze niet beschermen. Dit komt doordat decentralisatie zorgt voor de censuurbestendigheid van Bitcoin - de belangrijkste onderscheidende factor ten opzichte van traditionele geldsystemen. Als mensen deze eigenschappen niet actief beschermen, zou Bitcoin geleidelijk gecentraliseerd kunnen worden totdat censuur mogelijk wordt, waardoor het grootste deel van de waardepropositie verloren gaat. De andere opties, hoewel potentiële problemen, zijn niet wat Maxwell specifiek heeft geïdentificeerd als de grootste bedreiging voor het succes van Bitcoin op de lange termijn.
+reviewed: false

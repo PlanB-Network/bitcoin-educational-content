@@ -1,0 +1,9 @@
+question: Koja ključna karakteristika razvojnog procesa Bitcoin ga čini posebno ranjivim na taktike infiltracije opisane u priručnicima za sabotažu u ratnim uslovima?
+answer: Razvoj Bitcoin je otvoren za svakoga ko želi učestvovati, bez čuvara.
+wrong_answers:
+  - Razvoj Bitcoin oslanja se na malu grupu pouzdanih glavnih održavatelja.
+  - Razvoj Bitcoin zahteva formalno odobrenje vlade za veće promene
+  - Razvoj Bitcoin koristi zatvoreni kod koji ograničava spoljne doprinose
+explanation: |
+  Otvoreni razvojni proces Bitcoin, iako je jedna od njegovih najvećih snaga za decentralizaciju i transparentnost, takođe stvara ranjivost na neprijateljsku infiltraciju. Pošto svako može učestvovati u diskusijama, predlagati promene i učestvovati u procesu pregleda bez potrebe za dozvolom ili akreditivima, posvećeni napadači mogu iskoristiti ovu otvorenost. Oni mogu usporiti napredak beskrajnim zabrinutostima oko nebitnih pitanja, cenjkati se oko preciznih formulacija, ponavljati već rešene diskusije ili primeniti 'socijalne Sybil napade' koristeći više lažnih identiteta kako bi stvorili lažni utisak otpora. Ova otvorenost je u oštrom kontrastu sa zatvorenim razvojnim modelima koji imaju čuvare ili procese odobravanja koji bi mogli filtrirati loše aktere.
+reviewed: false

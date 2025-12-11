@@ -1,8 +1,8 @@
-question: Jakie jest jedno z potencjalnych zastosowań Lightning Network w życiu codziennym?
+question: Jakie jest jedno z potencjalnych zastosowań sieci Lightning w życiu codziennym?
 answer: Natychmiastowe rozliczenia w handlu.
 wrong_answers:
-  - Mining nowe Bitcoiny.
+  - Wykopywanie nowych bitcoinów.
   - Tworzenie nowych kryptowalut.
-  - Zwiększenie wartości Bitcoin.
+  - Zwiększenie wartości bitcoina.
 explanation: >-
 reviewed: true

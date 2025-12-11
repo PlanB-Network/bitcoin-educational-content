@@ -1,9 +1,9 @@
-question: How does a non-custodial wallet differ in functionality for Starter users?
-answer: It gives the business owner full control of the private keys
+question: Chức năng của wallet không lưu ký khác biệt như thế nào đối với người dùng Starter?
+answer: Nó cung cấp cho chủ doanh nghiệp toàn quyền kiểm soát các khóa riêng tư
 wrong_answers:
-  - It can automatically converts bitcoins to fiat currency
-  - It requires no backup procedures or security measures
-  - It manages all transactions through a third-party service
+  - Nó có thể tự động chuyển đổi bitcoin sang tiền pháp định
+  - Nó không yêu cầu bất kỳ thủ tục sao lưu hoặc biện pháp bảo mật nào
+  - Nó quản lý tất cả các giao dịch thông qua dịch vụ của bên thứ ba
 explanation: |
-  Non-custodial wallets place the control of private keys and transactions entirely in the hands of the user.
-reviewed: false
+  Ví không lưu ký trao toàn bộ quyền kiểm soát khóa riêng tư và giao dịch vào tay người dùng.
+reviewed: true

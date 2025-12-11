@@ -1,0 +1,9 @@
+question: Ni nini matokeo ya msingi wakati maombi ya vuta ya Bitcoin Core huchukua muda mrefu sana kabla ya kuunganishwa kwenye hazina na watunzaji?
+answer: Inaonyesha ukosefu wa wakaguzi wanaopatikana ili kutathmini mabadiliko ya kanuni zinazopendekezwa
+wrong_answers:
+  - "Inaonyesha kuwa watunzaji wanapunguza kwa makusudi mchakato wa ukuzaji wa Bitcoin"
+  - "Inaonyesha kuwa mabadiliko yaliyopendekezwa kimsingi hayaendani na sheria za makubaliano za Bitcoin"
+  - "Inaonyesha kuwa jukwaa la GitHub lina mapungufu ya kiufundi ya kushughulikia codebase ya Bitcoin"
+explanation: |
+  Kulingana na maudhui ya sura, maombi ya kuvuta huchukua muda mrefu kuunganishwa kimsingi kwa sababu ya ukosefu wa ukaguzi, unaotokana na wakaguzi wasiotosha badala ya kizuizi cha mtunzaji au masuala ya kiufundi. Mchakato wa ukaguzi ni muhimu kwa usalama wa Bitcoin, kwani unahakikisha ubora wa msimbo na kuzuia mabadiliko mabaya. Tatizo hili lipo kwa sababu kukagua msimbo changamano wa kriptografia kunahitaji utaalamu na muda, hivyo kufanya wakaguzi waliohitimu kuwa rasilimali adimu katika mchakato wa utayarishaji.
+reviewed: false

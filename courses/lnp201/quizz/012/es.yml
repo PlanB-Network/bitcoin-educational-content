@@ -3,6 +3,7 @@ answer: Cuando la transacción de depósito es confirmada en la blockchain de Bi
 wrong_answers:
   - Tan pronto como se intercambian las claves públicas entre los participantes
   - Cuando la transacción de retiro es firmada por ambas partes
-  - Tan pronto como se crea la dirección de multisignatura 2/2
+  - Tan pronto como se crea la dirección de multifirma 2/2
 explanation: |
   El canal se considera abierto una vez que la transacción de depósito ha sido incluida en un bloque de Bitcoin y ha alcanzado un cierto número de confirmaciones.
+reviewed: true

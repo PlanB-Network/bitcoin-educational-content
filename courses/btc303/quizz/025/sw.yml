@@ -1,0 +1,9 @@
+question: Je, ni njia gani kuu mbili ambazo maelezo ya kibinafsi ya kifedha yanaweza kuvuja unapotumia Bitcoin?
+answer: Kwenye mnyororo kupitia uchanganuzi wa blockchain na off-chain kupitia mawasiliano yaliyoingiliwa
+wrong_answers:
+  - Kupitia hitilafu za programu za wallet na ukiukaji wa data ya kundi la mining
+  - Kupitia udukuzi wa kubadilishana na programu za ufuatiliaji za serikali
+  - Kupitia machapisho ya mitandao ya kijamii na matangazo ya shughuli za umma
+explanation: |
+  Kulingana na yaliyomo kwenye sura, data ya kibinafsi inaweza kuvuja kwa njia mbili za msingi: on-chain na off-chain. Uvujaji wa mtandaoni hutokea kupitia uchanganuzi wa blockchain ya umma, ambapo mifumo ya muamala, utumiaji wa anwani, na kuunganisha kunaweza kufichua maelezo ya kifedha. Uvujaji wa nje ya mnyororo hutokea wakati watendaji hasidi wanaingilia mawasiliano ya mtandao au kupitia njia zingine zisizo za kuzuia. Ingawa majibu yasiyo sahihi yanataja maswala halisi ya usalama katika mfumo ikolojia wa Bitcoin, hayawakilishi uainishaji wa kimsingi wa jinsi uvujaji wa faragha unavyotokea kama ilivyoainishwa kwenye nyenzo.
+reviewed: false

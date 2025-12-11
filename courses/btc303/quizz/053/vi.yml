@@ -1,0 +1,9 @@
+question: Điều gì phân biệt các giả định về an ninh của Bitcoin với các hệ thống an ninh vật lý truyền thống như tòa nhà?
+answer: Bitcoin phải giải quyết tất cả các điểm yếu đã biết vì kẻ thù trực tuyến ẩn danh và sẽ khai thác bất kỳ lỗ hổng nào
+wrong_answers:
+  - Bitcoin dựa vào các bằng chứng toán học trong khi các tòa nhà phụ thuộc vào các rào cản vật lý và thực thi pháp luật
+  - "An ninh của Bitcoin dựa trên các ưu đãi kinh tế trong khi các tòa nhà sử dụng biện pháp răn đe thông qua các biện pháp an ninh hữu hình"
+  - Bitcoin sử dụng chữ ký mật mã để bảo vệ trong khi các tòa nhà dựa vào hệ thống kiểm soát và giám sát truy cập
+explanation: |
+  Điểm khác biệt chính là các hệ thống trực tuyến như Bitcoin phải đối mặt với những kẻ tấn công ẩn danh, những kẻ chắc chắn sẽ khai thác bất kỳ điểm yếu nào đã biết, không giống như các hệ thống vật lý, nơi chúng ta có thể chấp nhận một số rủi ro vì thủ phạm có thể bị xác định và truy tố. Như Andrew Poelstra đã lưu ý, trên mạng, chúng ta không có sự răn đe của cơ quan thực thi pháp luật - nếu có thể gây tổn hại đến hệ thống bằng cách đối đầu, những kẻ tấn công ẩn danh sẽ làm điều đó. Điều này buộc Bitcoin phải giải quyết tất cả các lỗ hổng thay vì chấp nhận những rủi ro đã được tính toán.
+reviewed: false

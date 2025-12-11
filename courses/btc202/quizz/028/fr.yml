@@ -6,4 +6,4 @@ wrong_answers:
   - Il ne conserve aucune copie locale de la blockchain, uniquement l'UTXO set
 explanation: |
   Le nœud élagué valide toute la chaîne mais ne conserve qu’une partie récente des blocs afin de limiter son stockage.
-reviewed: false
+reviewed: true 

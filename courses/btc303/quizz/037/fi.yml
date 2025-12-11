@@ -1,0 +1,9 @@
+question: Mikä oli ensisijainen asia, joka erotti Segwit-päivityksen aiemmista Bitcoin-päivityksistä?
+answer: Kaivostyöntekijät eivät ilmoittaneet tuesta huolimatta käyttäjien ylivoimaisesta tuesta, mikä pysäytti aktivointiprosessin
+wrong_answers:
+  - Päivitys edellytti kovaa fork:tä tavanomaisen pehmeän fork-toteutusmenetelmän sijasta
+  - Segwit-koodin tekniset viat estivät turvallisen käyttöönoton, kunnes ne on korjattu
+  - Taloussolmut hylkäsivät päivityksen, koska ne olivat huolissaan lisääntyneistä transaktiomaksuista
+explanation: |
+  Segwit-päivitys oli ainutlaatuinen, koska se kohtasi koordinointiongelman, jossa Bitcoin:n käyttäjät tukivat sitä ylivoimaisesti, mutta kaivostyöläiset kieltäytyivät antamasta tukea päivitykselle. Tämä loi pattitilanteen, jossa päivitys ei voinut aktivoitua normaalin louhijoiden aktivoiman pehmeän fork-mekanismin kautta. Aiemmat päivitykset olivat olleet suhteellisen kivuttomia, koska niillä oli sekä käyttäjien että kaivostyöläisten tuki. Tämä tilanne johti siihen, että ehdotettiin User Activated Soft Forks (UASF) -järjestelmää vaihtoehtoiseksi aktivointimekanismiksi, joka ei ollut riippuvainen kaivosmiesten signaloinnista, mikä korosti jännitteitä eri sidosryhmien välillä Bitcoin-ekosysteemissä.
+reviewed: false

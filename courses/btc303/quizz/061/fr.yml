@@ -1,0 +1,9 @@
+question: Quelle est l'exigence fondamentale qui permet aux utilisateurs de vérifier que le logiciel Bitcoin "fonctionne comme annoncé" conformément aux principes de l'open source évoqués ?
+answer: Les utilisateurs doivent avoir un accès illimité au code source du logiciel qu'ils souhaitent vérifier
+wrong_answers:
+  - Les utilisateurs doivent obtenir l'autorisation des responsables du Bitcoin Core avant d'accéder aux outils de vérification
+  - Les utilisateurs doivent payer une redevance raisonnable pour avoir accès aux binaires de vérification compilés à partir de sources officielles
+  - Les utilisateurs doivent s'appuyer sur les signatures cryptographiques de développeurs de confiance pour valider le comportement du logiciel
+explanation: |
+  Le chapitre indique explicitement que pour que les utilisateurs puissent vérifier que le logiciel Bitcoin "fonctionne comme annoncé", ils doivent avoir un accès illimité au code source. Cela est directement lié au principe "Ne faites pas confiance, vérifiez" et à l'exigence de la définition de l'open source concernant la disponibilité du code source. Les mauvaises réponses contredisent les principes fondamentaux de l'open source : exiger une autorisation viole le principe de libre accès, payer des droits contredit l'exigence de distribution gratuite, et s'appuyer uniquement sur les signatures sape la capacité de vérification par inspection qu'offre l'open source.
+reviewed: false

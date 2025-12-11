@@ -15,7 +15,6 @@ Muri iyi nyigisho tuzoba turiko turaraba Blue Wallet, Bitcoin Wallet yoroshe ari
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 
@@ -122,7 +121,7 @@ Ushobora rero guhitamwo igipimo c’amahera y’ugucuruza kigubereye nimba ushak
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 

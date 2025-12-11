@@ -1,0 +1,9 @@
+question: Co se musí podle požadavků na definici open source stát, když je zdrojový kód v distribuci open source softwaru záměrně obfuskován?
+answer: Záměrně zastřený zdrojový kód porušuje zásady open source a není povolen
+wrong_answers:
+  - K obfuskovanému kódu musí být přiložena podrobná dokumentace vysvětlující jeho funkčnost
+  - Obfuskovaný kód je přijatelný, pokud jsou poskytnuty také zkompilované binární soubory
+  - Obfuskovaný kód musí být k dispozici prostřednictvím samostatného souboru ke stažení s náklady na reprodukci
+explanation: |
+  Definice open source výslovně uvádí, že "záměrně zastřený zdrojový kód není povolen" To je zásadní požadavek, protože obfuskace brání smysluplné kontrole, úpravám a pochopení kódu, což je v rozporu s hlavním účelem softwaru s otevřeným zdrojovým kódem. Zdrojový kód musí být v "preferované podobě, v jaké by programátor program upravil", čímž se obfuskace stává neslučitelnou se zásadami open source bez ohledu na dokumentaci nebo způsob distribuce.
+reviewed: false

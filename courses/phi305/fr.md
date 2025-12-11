@@ -1,7 +1,7 @@
 ---
 name: Spinoza et Bitcoin
 goal: Découvrez les liens philosophiques entre la pensée de Spinoza et Bitcoin comme outils de liberté à travers les siècles.
-objectifs:
+objectives:
 - Comprendre la philosophie pratique de Spinoza et sa quête de liberté.
 - Explorer les concepts spinozistes du déterminisme et des illusions humaines.
 - Analyser les parallèles entre la révolution des idées de Spinoza et la révolution technologique du Bitcoin.

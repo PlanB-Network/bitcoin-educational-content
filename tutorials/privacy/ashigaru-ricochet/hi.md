@@ -1,5 +1,5 @@
 ---
-name: अशीगारू - रिकोषेट
+name: Ashigaru - Ricochet
 description: रिकोशे लेनदेन को समझना और उनका उपयोग करना
 ---
 ![cover ricochet](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Gruszki
+name: Pears
 description: Jak zainstalować i używać aplikacji na Pears?
 ---
 

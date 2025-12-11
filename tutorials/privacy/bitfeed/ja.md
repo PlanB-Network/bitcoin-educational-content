@@ -1,5 +1,5 @@
 ---
-name: ビットフィード
+name: Bitfeed
 description: Bitcoinの主なプロトコルチェインを探る。
 ---
 

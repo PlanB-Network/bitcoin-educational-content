@@ -1,5 +1,5 @@
 ---
-name: Bitcoin-keeper-inheritance
+name: Bitcoin Keeper - Mpango wa urithi
 description: Sanidi na utumie Bitcoin Keeper Wallet na Tapsigners ili kuunda mpango wa urithi
 ---
 

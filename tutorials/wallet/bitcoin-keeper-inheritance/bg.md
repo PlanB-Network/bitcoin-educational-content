@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - План за унаследяване
+name: Bitcoin Keeper - План за наследяване
 description: Създаване и използване на Bitcoin Keeper Wallet заедно с тапицери за създаване на план за наследяване
 ---
 

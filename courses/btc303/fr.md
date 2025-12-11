@@ -1708,8 +1708,6 @@ Il en ressort que les BIP doivent être plus ou moins *atomiques*, c'est-à-dire
 
 ##### Séparations dues à la non validation par minage
 
-
-
 Malheureusement, l'histoire du BIP66 ne s'est pas arrêtée là. Lorsque le BIP66 a été activé, il s'est avéré assez désordonné parce que certains mineurs n'ont pas vérifié les blocs qu'ils essayaient d'étendre. C'est ce qu'on appelle le minage sans validation, ou SPV-Mining (Simplified Payment Verification). Un message d'alerte a été envoyé aux nœuds Bitcoin avec un lien vers [une page web décrivant le problème](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining) :
 
 
@@ -1725,8 +1723,6 @@ La scission mentionnée ci-dessus s'est produite le 2015-07-04 à 02:10 UTC apr�
 
 Les événements qui ont conduit à BIP66, son déploiement et ses conséquences constituent un très bon étude de cas qui montre à quel point les développeurs de Bitcoin doivent être prudents. Quelques éléments clés à retenir de BIP66 :
 
-
-
 - L'équilibre entre l'ouverture et le fait de ne pas publier une vulnérabilité est délicat à trouver.
 - Le déploiement de correctifs pour les vulnérabilités non publiées est délicat.
 - Le consensus de maintien est difficile.
@@ -1736,10 +1732,7 @@ Les événements qui ont conduit à BIP66, son déploiement et ses conséquences
 
 ### Conclusion à propos de "Quand tout dérape"
 
-
-
-Bitcoin a des bugs. Les personnes qui découvrent des bugs sont encouragées à les divulguer de manière responsable aux développeurs de Bitcoin, afin qu'ils puissent corriger le bug sans le révéler publiquement. Idéalement, la correction du bug peut être déguisée en amélioration des performances, ou en un autre écran de fumée.
-
+Bitcoin a des bugs. Les personnes qui découvrent des bugs sont encouragées à les divulguer de manière responsable aux développeurs de Bitcoin, afin qu'ils puissent corriger le bug sans le révéler publiquement. Idéalement, la correction du bug peut être déguisée en amélioration des performances ou en un autre écran de fumée.
 
 Nous avons examiné certains des problèmes les plus graves qui sont apparus au fil des ans et la manière dont ils ont été traités. Certains ont été découverts publiquement grâce à des exploits, tandis que d'autres ont été divulgués de manière responsable et ont pu être corrigés avant que des acteurs malveillants n'aient la possibilité de les exploiter.
 
@@ -1748,16 +1741,12 @@ Nous avons examiné certains des problèmes les plus graves qui sont apparus au 
 
 <chapterId>91462ca7-f09c-55da-a5b9-3e211de31da5</chapterId>
 
-
-Ces questions de discussion ne sont pas seulement un récapitulatif du contenu de "Bitcoin development philosophy", elles ont pour but de vous encourager à faire des recherches plus approfondies, alors n'hésitez pas à sortir et à explorer.
-
+Ces questions de discussion ne sont pas seulement un récapitulatif du contenu de "Bitcoin development philosophy", elles ont pour but de vous encourager à faire des recherches plus approfondies. N'hésitez pas à sortir et à explorer.
 
 Vous pouvez tester la profondeur de votre compréhension en rédigeant un [mini-essai](https://www.youtube.com/watch?v=N4YjXJVzoZY) de 100 à 300 mots en choisissant un sujet dans cette liste de questions. Si vous souhaitez obtenir un retour sur votre travail, vous pouvez l'envoyer à mini-essay@planb.network, nous serons ravis de l'examiner.
 
 
 #### Décentralisation
-
-
 
 - La décentralisation est difficile. Pourquoi se donner tant de mal pour la faire fonctionner ? Pourrions-nous opter pour une approche hybride, où certaines parties sont centralisées et d'autres non ?
 - La décentralisation introduit-elle le problème de la double dépense ou le problème de la double dépense nécessite-t-il la décentralisation ? Comment Satoshi a-t-il résolu le problème de la double dépense ?
@@ -1768,9 +1757,6 @@ Vous pouvez tester la profondeur de votre compréhension en rédigeant un [mini-
 
 #### L'absence de confiance
 
-
-
-
 - L'absence de confiance est souvent un spectre, et non une brique. Quels sont les aspects de Bitcoin qui sont plutôt sans confiance, et quels sont ceux qui impliquent généralement un niveau de confiance plus élevé ? Peut-on les atténuer ?
 - Vous souhaitez exécuter un noeud complet pour pouvoir valider entièrement toutes les transactions. Vous téléchargez Bitcoin Core à partir de https://Bitcoin.org/en/download. Où avez-vous placé votre confiance et où en êtes-vous avec l'abscence de confiance ?
 - Est-il possible de construire un système sans confiance au-dessus d'un système de confiance ?
@@ -1778,9 +1764,6 @@ Vous pouvez tester la profondeur de votre compréhension en rédigeant un [mini-
 
 
 #### Vie privée
-
-
-
 
 - Quels sont les principaux avantages qu'un utilisateur retire du respect de sa vie privée lorsqu'il interagit avec Bitcoin ? Quels sont les avantages altruistes pour le réseau ?
 - Comment la réutilisation des adresses affecte-t-elle votre vie privée ?
@@ -1790,17 +1773,12 @@ Vous pouvez tester la profondeur de votre compréhension en rédigeant un [mini-
 
 #### Quantité finie
 
-
-
-
 - Quelle est la relation entre la quantité finie de Bitcoin et son émission de pièces par le biais de la Coinbase Transaction ? Quelle est la relation entre l'émission de pièces et le budget de sécurité, et comment s'opposent-ils ?
 - Quels paramètres Satoshi aurait-il pu modifier pour changer le plafond de la quantité de Bitcoin ? Qu'est-ce qui changerait s'il avait décidé de plafonner la quantité à 1 million ? Qu'en serait-il d'un trillion ?
 - Pourquoi certaines personnes préconisent-elles une augmentation de la quantité de Bitcoin ? Pensez-vous que cela se produira ?
 
 
 #### Mise à jour
-
-
 
 - Qu'est-ce que le procès rapide et pourquoi était-il nécessaire d'activer Taproot ?
 - Pourquoi avons-nous besoin d'un pourcentage aussi élevé de mineurs pour procéder à une mise à niveau dans le cadre d'un softfork ? Pourquoi le seuil n'est-il pas simplement de 51 % ?
@@ -1809,18 +1787,12 @@ Vous pouvez tester la profondeur de votre compréhension en rédigeant un [mini-
 
 #### Pensée contradictoire
 
-
-
-
 - Qu'est-ce qu'une attaque de type "sybil" et pourquoi un réseau décentralisé y est-il si vulnérable ?
 - Pourquoi est-il important que tous les acteurs du réseau Bitcoin, et pas seulement les développeurs, pensent de manière contradictoire ?
 
 
 
 #### Open Source
-
-
-
 
 - Seule une poignée de mainteneurs ont les permissions GitHub nécessaires pour fusionner le code dans le dépôt [Bitcoin Core](https://github.com/Bitcoin/Bitcoin). Cela ne va-t-il pas à l'encontre d'un réseau sans permission ?
 - Le processus de développement des logiciels libres est-il susceptible de faire l'objet d'une attaque de type "sybil" ? Si oui, comment y remédier ?
@@ -1831,9 +1803,6 @@ Vous pouvez tester la profondeur de votre compréhension en rédigeant un [mini-
 
 
 #### Scalabilité
-
-
-
 
 - L'argument avancé est que le sharding offre des avantages en termes de scalabilité au détriment de la complexité. Pourquoi devrions-nous ou ne devrions-nous pas adopter des améliorations technologiques parce qu'elles sont difficiles à comprendre, même si elles semblent technologiquement valables ?
 - Quels sont les exemples de méthodes de scalabilité vers l'intérieur introduites dans Bitcoin ?

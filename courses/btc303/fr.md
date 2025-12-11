@@ -1112,9 +1112,7 @@ Les nouveaux (et anciens) développeurs peuvent être frustrés par cela. Mais, 
 
 ### Conclusion sur l'Open Source
 
-
 Bitcoin Core et la plupart des autres logiciels Bitcoin sont open source, ce qui signifie que chacun est libre de distribuer, de modifier et d'utiliser le logiciel comme il l'entend. Le dépôt Bitcoin Core sur GitHub est actuellement le point central du développement de Bitcoin, mais ce statut peut changer si les gens commencent à se méfier de ses mainteneurs, ou du site web lui-même.
-
 
 L'open source permet un développement sans permission dans et au-dessus de Bitcoin. Que vous écriviez du code, que vous révisiez du code ou des protocoles, l'open source est ce qui vous permet de le faire, de manière pseudonome ou non.
 
@@ -1127,9 +1125,7 @@ Le processus de développement de Bitcoin est radicalement ouvert, ce qui peut d
 <chapterId>bb3f3924-202c-5cdd-b2e9-e0c1cab0e48e</chapterId>
 
 
-
 ![](assets/fr/011.webp)
-
 
 
 Dans ce chapitre, nous examinons comment Bitcoin peut ou ne peut pas être scalable. Nous commençons par examiner comment les gens ont raisonné sur la scalabilité dans le passé. Ensuite, la majeure partie de ce chapitre explique diverses approches de la scalabilité de Bitcoin, en particulier la scalabilité verticale, horizontale, vers l'intérieur et en couches. Chaque description est suivie de considérations sur la question de savoir si l'approche interfère avec la proposition de valeur de Bitcoin.
@@ -1152,8 +1148,6 @@ Nous nous pencherons bientôt sur les différentes approches de la scalabilité,
 
 
 ### Histoire de la scalabilité
-
-
 
 La scalabilité a été un point central de discussion depuis la Genesis de Bitcoin. La toute première phrase du [tout premier courriel](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) en réponse à l'annonce par Satoshi du livre blanc de Bitcoin sur la liste de diffusion Cryptographie concernait en effet la scalabilité :
 
@@ -1188,20 +1182,15 @@ Il poursuit en résumant les nombreuses approches de la mise à la scalabilité 
 
 ### Méthodes de la scalabilité
 
-
-
 Comme nous l'avons suggéré plus haut, la scalabilité de Bitcoin ne doit pas nécessairement consister à augmenter la taille limite des blocs ou d'autres limites. Nous allons maintenant passer en revue quelques approches générales de la scalabilité, dont certaines ne souffrent pas du compromis débit-décentralisation mentionné dans la section précédente.
 
 
 #### La scalabilité verticale
 
-
-
 La scalabilité verticale est le processus d'augmentation des ressources informatiques des machines qui traitent les données. Dans le contexte de Bitcoin, ces dernières seraient les nœuds complets, à savoir les machines qui valident la Blockchain pour le compte de leurs utilisateurs.
 
 
 La technique la plus couramment évoquée pour la scalabilité verticale pour Bitcoin est l'augmentation de la taille limite des blocs. Cela nécessiterait que certains nœuds complets mettent à niveau leur matériel pour répondre à l'augmentation des demandes de calcul. L'inconvénient est que cela se fait au détriment de la centralisation.
-
 
 Outre les effets négatifs sur la décentralisation des noeuds complets, la scalabilité verticale pourrait également avoir un impact négatif sur la décentralisation et la sécurité du minage de Bitcoin de manière moins évidente. Voyons comment les mineurs "devraient" fonctionner. Supposons qu'un mineur mine un bloc à la hauteur 7 et publie ce bloc sur le réseau Bitcoin. Il faudra un certain temps pour que ce bloc soit largement accepté, ce qui est principalement dû à deux facteurs :
 
@@ -1225,16 +1214,13 @@ Les mineurs n'aiment pas que leurs blocs soient bloqués parce qu'ils perdent le
 - Report de la validation d'un bloc entrant, également connu sous le nom de *validationless Mining*. Les mineurs peuvent simplement vérifier la preuve de travail de l'en-tête du bloc et miner par-dessus, tout en téléchargeant le bloc complet et en le validant.
 - Connexion à un pool de minage avec une plus grande largeur de bande et une meilleure connectivité.
 
-
-Le minage sans validation affaiblit encore la décentralisation des noeuds complets, car le mineur se contente de faire confiance aux blocs entrants, au moins temporairement. Elle nuit également à la sécurité dans une certaine mesure, car une partie de la puissance de calcul du réseau est potentiellement construite sur une Blockchain invalide, au lieu de construire sur la chaîne la plus forte et la plus valide.
+Le minage sans validation affaiblit encore la décentralisation des noeuds complets, car le mineur se contente de faire confiance aux blocs entrants, au moins temporairement. Il nuit également à la sécurité dans une certaine mesure, car une partie de la puissance de calcul du réseau est potentiellement construite sur une Blockchain invalide, au lieu de construire sur la chaîne la plus forte et la plus valide.
 
 
 Le deuxième point a un effet négatif sur la décentralisation du minage, car les pools disposant de la meilleure connectivité réseau et de la meilleure bande passante sont aussi les plus grands, ce qui incite les mineurs à graviter autour de quelques grands pools.
 
 
 #### La scalabilité horizontale
-
-
 
 La scalabilité horizontale fait référence aux techniques qui divisent la charge de travail entre plusieurs machines. Bien qu'il s'agisse d'une approche de scalabilité très répandue sur les sites web et les bases de données populaires, elle n'est pas facile à mettre en œuvre dans Bitcoin.
 
@@ -1247,7 +1233,7 @@ De nombreuses personnes appellent cette approche de scalabilité de Bitcoin *sha
 Il présente ensuite plusieurs idées sur la manière d'aborder le sharding, ou la scalabilité horizontale. Vers la fin de son billet, il conclut :
 
 
-> Mais il y a un gros problème : ce qui précède est sacrément complexe par rapport à Bitcoin ! Même la version "enfant" du sharding, mon schéma de linéarisation plutôt que zk-SNARKS, est probablement un ou deux ordres de grandeur plus complexe que l'utilisation du protocole Bitcoin à l'heure actuelle, et pourtant un énorme % des entreprises dans cet espace semblent avoir jeté leurs mains en l'air et utilisé des fournisseurs d'API centralisés à la place. Il ne sera pas facile de mettre en œuvre ce qui précède et de le mettre entre les mains des utilisateurs finaux.
+> Mais il y a un gros problème : ce qui précède est sacrément complexe par rapport à Bitcoin ! Même la version "enfant" du sharding, mon schéma de linéarisation plutôt que zk-SNARKS, est probablement un ou deux ordres de grandeur plus complexe que l'utilisation du protocole Bitcoin à l'heure actuelle, et pourtant un énorme pourcentage des entreprises dans cet espace semble avoir jeté leurs mains en l'air et utilisé des fournisseurs d'API centralisés à la place. Il ne sera pas facile de mettre en œuvre ce qui précède et de le mettre entre les mains des utilisateurs finaux.
 >
 
 > D'autre part, la décentralisation n'est pas bon marché : l'utilisation de PayPal est un ou deux ordres de grandeur plus simple que le protocole Bitcoin.
@@ -1257,9 +1243,7 @@ La conclusion qu'il en tire est que le sharding *pourrait* être techniquement p
 
 #### La scalabilité vers l'intérieur
 
-
-
-Alors que la scalabilité horizontale et verticale ont toujours bien fonctionné dans les systèmes centralisés tels que les bases de données et les serveurs web, elles ne semblent pas convenir à un réseau décentralisé tel que Bitcoin en raison de leurs effets centralisateurs.
+Alors que la scalabilité horizontale et verticale a toujours bien fonctionné dans les systèmes centralisés tels que les bases de données et les serveurs web, elles ne semblent pas convenir à un réseau décentralisé tel que Bitcoin en raison de leurs effets centralisateurs.
 
 
 Une approche qui n'est pas assez appréciée est ce que l'on peut appeler *inward scaling*, qui se traduit par "faire plus avec moins". Il s'agit du travail permanent effectué par de nombreux développeurs pour optimiser les algorithmes déjà en place, afin que nous puissions faire plus dans les limites existantes du système.
@@ -1271,11 +1255,9 @@ Les améliorations obtenues grâce à l'échelonnement vers l'intérieur sont im
 ![](assets/fr/012.webp)
 
 
-Performances de téléchargement des blocs initiaux de différentes versions de Bitcoin Core. L'axe des ordonnées indique la hauteur du bloc synchronisé et l'axe des abscisses indique le temps qu'il a fallu pour synchroniser à cette hauteur
-
+Performances de téléchargement des blocs initiaux de différentes versions de Bitcoin Core. L'axe des ordonnées indique la hauteur du bloc synchronisé et l'axe des abscisses indique le temps qu'il a fallu pour se synchroniser jusqu'à cette hauteur.
 
 Les différentes lignes représentent les différentes versions de Bitcoin Core. La ligne la plus à gauche est la plus récente, c'est-à-dire la version 0.22, qui a été publiée en septembre 2021 et a pris 396 minutes pour se synchroniser complètement. La ligne la plus à droite est la version 0.8 de novembre 2013, qui a pris 3452 minutes. Toute cette amélioration, environ 10x, est due à une scalabilité vers l'intérieur.
-
 
 Les améliorations peuvent être classées comme suit : économie d'espace (RAM, disque, bande passante, etc.) ou économie de puissance de calcul. Ces deux catégories contribuent aux améliorations présentées dans le diagramme ci-dessus.
 
@@ -1286,8 +1268,7 @@ Un bon exemple d'amélioration du calcul se trouve dans la bibliothèque [libsec
 ![](assets/fr/013.webp)
 
 
-Performance de la vérification des signatures au fil du temps, avec les demandes de retrait significatives marquées sur la ligne du temps
-
+Performance de la vérification des signatures au fil du temps, avec les demandes de retrait significatives marquées sur la ligne du temps.
 
 Le graphique montre la tendance pour deux types de CPU 64 bits différents, à savoir ARM et x86. La différence de performance est due aux instructions plus spécialisées disponibles sur x86 par rapport à l'architecture ARM, qui dispose d'instructions moins nombreuses et plus génériques. Cependant, la tendance générale est la même pour les deux architectures. Notez que l'axe des ordonnées est logarithmique, ce qui rend les améliorations moins impressionnantes qu'elles ne le sont en réalité.
 
@@ -1300,12 +1281,9 @@ Il existe également plusieurs bons exemples d'améliorations permettant d'écon
 
 Gain de place pour les différents types de dépenses, Taproot et anciennes versions.
 
-
-Un dispositif multisignatures 2 sur 3 utilisant SegWit nativement nécessiterait un total de 104,5+43 vB = 147,5 vB, alors que l'utilisation la plus prudente de Taproot ne nécessiterait que 57,5+43 vB = 100,5 vB dans le cas d'utilisation standard. Dans le pire des cas et dans des cas rares, comme lorsqu'un signataire standard n'est pas disponible pour une raison quelconque, Taproot utiliserait 107,5+43 vB = 150,5 vB. Il n'est pas nécessaire de comprendre tous les détails, mais cela devrait vous donner une idée de la façon dont les développeurs pensent à économiser de l'espace, chaque petit octet compte.
-
+Un dispositif multisignatures 2 sur 3 utilisant SegWit nativement nécessiterait un total de 104,5 + 43 vB = 147,5 vB, alors que l'utilisation la plus prudente de Taproot ne nécessiterait que 57,5 + 43 vB = 100,5 vB dans le cas d'utilisation standard. Dans le pire des cas et dans des situations rares, comme lorsqu'un signataire standard n'est pas disponible pour une raison quelconque, Taproot utiliserait 107,5 + 43 vB = 150,5 vB. Il n'est pas nécessaire de comprendre tous les détails, mais cela devrait vous donner une idée de la façon dont les développeurs pensent à économiser de l'espace, chaque petit octet compte.
 
 Outre l'élargissement vers l'intérieur du logiciel Bitcoin, les utilisateurs peuvent également contribuer à l'élargissement vers l'intérieur de certaines manières. Ils peuvent effectuer leurs transactions de manière plus intelligente afin d'économiser les frais de transaction tout en réduisant leur empreinte sur les exigences des noeuds complets. Deux techniques couramment utilisées pour atteindre cet objectif sont la mise en lots des transactions et la consolidation des sorties.
-
 
 L'idée de la mise en lot des transactions est de combiner plusieurs paiements en une seule transaction, au lieu d'effectuer une transaction par paiement. Cela peut vous permettre d'économiser beaucoup de frais, tout en réduisant la charge de l'espace de bloc.
 
@@ -1315,7 +1293,6 @@ L'idée de la mise en lot des transactions est de combiner plusieurs paiements e
 
 La mise en lot des transactions permet de regrouper plusieurs paiements en une seule transaction afin d'économiser des frais.
 
-
 La consolidation des sorties consiste à profiter des périodes de faible demande d'espace de stockage pour combiner plusieurs sorties en une seule. Cela peut réduire le coût de la redevance plus tard, lorsque vous devrez effectuer un paiement alors que la demande d'espace de stockage est élevée.
 
 
@@ -1323,7 +1300,6 @@ La consolidation des sorties consiste à profiter des périodes de faible demand
 
 
 Consolidation des sorties : Faites fondre vos pièces en une seule lorsque les frais sont peu élevés afin d'économiser des frais par la suite.
-
 
 Il n'est peut-être pas évident de comprendre comment la consolidation des sorties contribue à la scalabilité vers l'intérieur. Après tout, la quantité totale des données de la Blockchain est même légèrement augmentée avec cette méthode. Néanmoins, l'ensemble UTXO, c'est-à-dire la base de données qui permet de savoir qui possède quelles pièces, diminue car vous dépensez plus d'UTXO que vous n'en créez. Cela allège le fardeau des nœuds complets qui doivent maintenir leurs ensembles UTXO.
 

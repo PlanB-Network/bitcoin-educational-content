@@ -21,7 +21,7 @@ objectives:
 # Въведение
 
 
-<partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
+<partId>541d6444-caf8-4e5b-80c3-b97f4d883d57</partId>
 
 
 ## Преглед на курса
@@ -62,7 +62,7 @@ objectives:
 ## Критично признание за Bitcoin и BTCPay Server на автора
 
 
-<chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
+<chapterId>f0645534-c825-40fb-a190-e24358e8accc</chapterId>
 
 
 Нека започнем с това да разберем какво представлява сървърът BTCPay и какъв е неговият произход. Ние ценим прозрачността и определени стандарти за формиране на доверие в Bitcoin пространството.
@@ -118,7 +118,7 @@ NB. Ако следвате този курс в класната стая, им
 ## Въведение в Bitcoin
 
 
-<chapterId>5c0bc234-c188-5b4a-94d5-adee87a120e2</chapterId>
+<chapterId>ba6af1e5-86f1-4139-a549-df2367d6319a</chapterId>
 
 
 ### Разбиране на Bitcoin чрез упражнения в класната стая
@@ -221,7 +221,7 @@ NB. Ако следвате този курс в класната стая, им
 ## Оценка на знанията
 
 
-<chapterId>1461f064-933d-50ea-8935-324b68ec5d5f</chapterId>
+<chapterId>c8cec6af-1e57-4a0e-a86a-7dc35f5c2350</chapterId>
 
 
 ### KA Дискусия в класната стая
@@ -252,13 +252,13 @@ Blockchain, транзакция, двоен разход, византийск�
 # Представяне на сървъра на BTCPay
 
 
-<partId>9c8a2d0c-9ba1-5c39-874c-f9eaf1bba663</partId>
+<partId>8a8bbf80-1322-4ad0-b49c-9c18b969236d</partId>
 
 
 ## Разбиране на екрана за вход в сървъра на BTCPay
 
 
-<chapterId>14aad54c-9bd8-54f2-9455-178b8ae63408</chapterId>
+<chapterId>2d35d204-1c04-418f-91eb-a7a547ddc210</chapterId>
 
 
 ### Работа със сървъра на BTCPay
@@ -359,7 +359,7 @@ https://mainnet.demo.btcpayserver.org/login.
 ## Управление на потребителски акаунт(и)
 
 
-<chapterId>b58ca6ee-b7fc-5e81-a6aa-c8ff212b4c55</chapterId>
+<chapterId>7f2dcbc7-ba0b-4515-bf6d-d23ab19c1831</chapterId>
 
 
 ### Управление на сметка на сървъра на BTCPay
@@ -479,7 +479,7 @@ https://mainnet.demo.btcpayserver.org/login.
 ## Създаване на нов магазин
 
 
-<chapterId>463b3634-b49f-5512-a711-3b2e096fc2e0</chapterId>
+<chapterId>6e8d48b0-b9b6-4fbd-8961-5cde37109c0d</chapterId>
 
 
 ### Създаване на съветник за магазина
@@ -565,13 +565,13 @@ https://mainnet.demo.btcpayserver.org/login.
 # Въведение в защитата на ключове Bitcoin
 
 
-<partId>25da22d8-fd37-51c5-af2a-58b9f3b046b2</partId>
+<partId>dd0975de-76e6-4255-a3b2-e454009d1aa5</partId>
 
 
 ## Разбиране на генерирането на ключове Bitcoin
 
 
-<chapterId>d162735b-847b-578e-83b8-a044ab703ec5</chapterId>
+<chapterId>8a6164a5-aea6-4348-aa71-135d03de98bc</chapterId>
 
 
 ### Какво е необходимо за генериране на ключове Bitcoin?
@@ -644,7 +644,7 @@ Address се извлича от публичния ключ чрез "алго�
 ## Защита на ключове с хардуер wallet
 
 
-<chapterId>c54a6d61-5a43-5fdb-93ae-c6750de9c612</chapterId>
+<chapterId>94cf5f31-7292-4608-b10e-8e46b1ebd627</chapterId>
 
 
 ### Съхраняване на ключовете на Bitcoin
@@ -705,7 +705,7 @@ Address се извлича от публичния ключ чрез "алго�
 ## Използване на клавишите на Bitcoin
 
 
-<chapterId>bff488de-5052-56e6-b696-97e896f762ae</chapterId>
+<chapterId>ae5aafd5-28b7-4ef7-8ebc-3ac5f19769c7</chapterId>
 
 
 ### Сървър на BTCPay Wallet
@@ -1042,7 +1042,7 @@ BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCL UDE_FRAGMENTS;opt-mempoolfullrbf"
 ## BTCPay Server Lightning Wallet
 
 
-<chapterId>1bbece7e-0197-57e6-a93a-561cf384d946</chapterId>
+<chapterId>ca874f9a-4f97-44d5-9bf4-57c8b17d25bf</chapterId>
 
 
 Когато администраторът на сървъра създава нова инстанция на BTCPay Server, той може да зададе реализация на Lightning Network, като например LND, Core Lightning или Eclair; за по-подробни инструкции за инсталиране вижте частта Конфигуриране на BTCPay Server.
@@ -1292,13 +1292,13 @@ BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCL UDE_FRAGMENTS;opt-mempoolfullrbf"
 # Сървър на BTCPay Interface
 
 
-<partId>25e88b81-e1ab-515f-a035-09f2a3075556</partId>
+<partId>76b4a36d-9cf8-469d-a763-a75cc38c812a</partId>
 
 
 ## Преглед на информационното табло
 
 
-<chapterId>410ff28b-a272-5c91-93e0-48d5b28c53ab</chapterId>
+<chapterId>8bd1c31e-a487-4c32-b3af-bcecc7117a80</chapterId>
 
 
 BTCPay Server е модулен софтуерен пакет. Въпреки това има стандарти, към които всеки BTCPay Server трябва да се придържа, и тези стандарти ще управляват взаимодействието между администратора и потребителите. Започваме с Информационното табло. Основната входна точка на всеки BTCPay Server след влизане в системата. Таблото за управление предоставя преглед на работата на магазина ви, текущия баланс на wallet и транзакциите от последните 7 дни. Тъй като това е модулен изглед, плъгините могат да използват този изглед в своя полза и да създават свои плочки на таблото за управление. За този курс ще обсъдим само стандартните плъгини и приложения, заедно със съответните им изгледи, в целия BTCPay Server.
@@ -1422,7 +1422,7 @@ BTCPay Server е модулен софтуерен пакет. Въпреки т
 ## Сървър на BTCPay - Настройки на магазина
 
 
-<chapterId>e8faef7b-278d-550e-a511-bc3a442daf64</chapterId>
+<chapterId>00ff7c8c-46f9-4d88-92cc-c63e4ff348f9</chapterId>
 
 
 В рамките на софтуера на BTCPay Server познаваме два вида настройки. Специфични за магазина настройки на BTCPay Server, бутонът за настройки, който се намира в лявата лента на менюто под Информационното табло, и настройки на BTCPay Server, които се намират в долната част на лентата на менюто, точно над Сметката. Специфичните за сървъра на BTCPay настройки могат да бъдат разглеждани само от администраторите на сървъра.
@@ -1877,7 +1877,7 @@ Webhooks не са предназначени да бъдат съвместим
 ## BTCPay Server - Настройки на сървъра
 
 
-<chapterId>1dd858a2-49ea-586b-9bc1-75a65f508df6</chapterId>
+<chapterId>07022d6d-594f-46d7-8363-c8c16a561f4f</chapterId>
 
 
 Сървърът на BTCPay се състои от два различни изгледа на настройките. Единият е посветен на настройките на магазина, а другият - на настройките на сървъра. Последният е достъпен само за администраторите на сървъри, но не и за собствениците на магазини. Администраторите на сървъра могат да добавят потребители, да създават потребителски роли, да конфигурират имейл сървъра, да задават политики, да изпълняват задачи за поддръжка, да проверяват всички услуги, свързани с BTCPay Server, да качват файлове на сървъра или да проверяват дневниците.
@@ -2443,7 +2443,7 @@ bitcoin-cli.sh getblockchaininfo
 ## Сървър на BTCPay - Плащания
 
 
-<chapterId>e2b71ff9-3f4f-5e71-9771-8e03fbbef00f</chapterId>
+<chapterId>1f6899d4-85c1-41fe-8f23-4a7bec44e9c2</chapterId>
 
 
 Фактурата е документ, който продавачът издава на купувача, за да получи плащане.
@@ -2789,7 +2789,7 @@ color: white;
 ## Плъгини по подразбиране на сървъра на BTCPay
 
 
-<chapterId>7d673dc4-bd5d-5411-819b-f135f1d86636</chapterId>
+<chapterId>2d994561-7f8d-4862-8b9f-cee7d81df6f2</chapterId>
 
 
 ### Плъгини и приложения по подразбиране
@@ -3276,13 +3276,13 @@ Server IPN (Instant Payment Notification) е проектиран за webhooks 
 # Конфигуриране на сървъра на BTCPay
 
 
-<partId>ff38596c-7de3-5e5c-ba50-9b9edbbbb5eb</partId>
+<partId>c3a8bd83-0676-4388-87b2-325d67f43d9d</partId>
 
 
 ## Основни познания за инсталирането на BTCPay Server в среда LunaNode
 
 
-<chapterId>d0a28514-ffcf-529b-9156-29141f0b060a</chapterId>
+<chapterId>f0f934af-eb3c-4d86-bd7b-3fee8fb7c10e</chapterId>
 
 
 ### Инсталиране на сървъра на BTCPay на хостинг среда (LunaNode)
@@ -3421,7 +3421,7 @@ LunaNode предлага няколко плана за виртуални ма
 ## Инсталиране на BTCPay Server в среда на напрежение
 
 
-<chapterId>11c7d284-b4d2-5542-872c-df9bd9c1491b</chapterId>
+<chapterId>ef790587-4c73-4311-96f1-5a9219b9a7fd</chapterId>
 
 
 Ще се запознаете с Voltage.cloud като доставчик на хостинг услуги, ще научите за първите стъпки при използването на вашия BTCPay сървър и ще научите как да използвате Lightning Network. След като преминем през всички стъпки, можете да стартирате уеб магазин или платформа за групово финансиране, приемаща Bitcoin!
@@ -3494,7 +3494,7 @@ https://docs.btcpayserver.org.
 ## Инсталиране на BTCPay Server на възел Umbrel
 
 
-<chapterId>3298e292-6476-5fe0-836c-7fa021348799</chapterId>
+<chapterId>bdd94bfc-c8da-4c8b-8b0e-ed4f9a5dd42e</chapterId>
 
 
 В края на тези стъпки можете да приемате светкавични плащания към вашия магазин на BTCPay в локалната си мрежа. Този процес ще се приложи и ако управлявате възел на umbrel в ресторант или бизнес. Ако искате да свържете този магазин с публичен уебсайт, следвайте упражнението за напреднали, за да изложите възела си umbrel на обществеността.
@@ -3583,20 +3583,20 @@ https://umbrel.com/
 # Последен раздел
 
 
-<partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
+<partId>5449bff6-f410-4f2a-a373-7b915bb6d726</partId>
 
 
 
 
 ## Отзиви и оценки
 
-<chapterId>d90bb93d-b894-551e-9fd6-6855c739a904</chapterId>
+<chapterId>bf665be7-1be0-4d54-b8c6-64fbb40c9190</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Заключение на курса
 
 
-<chapterId>c07ac2a5-f97e-5c57-8a80-4955b48128d4</chapterId>
+<chapterId>bbda2002-757d-4dad-8c8a-ff95cec77077</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

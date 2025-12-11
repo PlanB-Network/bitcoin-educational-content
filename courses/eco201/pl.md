@@ -16,13 +16,13 @@ Ta szkoła myślenia kształtowała debaty przez wieki, dzięki wpływowym myśl
 # Wprowadzenie
 
 
-<partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
+<partId>21613091-f43a-4a87-88d9-2d69038d41d2</partId>
 
 
 ## Przegląd kursu
 
 
-<chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
+<chapterId>43b56a2b-bbee-4faa-b52a-9b6c540df559</chapterId>
 
 
 Witamy na kursie ECO201!
@@ -64,7 +64,7 @@ A co, jeśli klucz do zrozumienia dzisiejszej gospodarki leży w teorii sprzed k
 ## Pieniądz, kredyt, banki i banki centralne
 
 
-<chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
+<chapterId>84a09f98-8cd7-468f-9cc1-6c0add06ce12</chapterId>
 
 
 > "Podstawowym problemem związanym z konwencjonalną walutą jest zaufanie, które jest wymagane do jej funkcjonowania. Bankowi centralnemu należy ufać, że nie zdeprecjonuje waluty, ale historia walut fiducjarnych jest pełna naruszeń tego zaufania. Bankom należy ufać, że będą przechowywać nasze pieniądze i przesyłać je elektronicznie, ale pożyczają je w falach baniek kredytowych z ledwie ułamkiem w rezerwie. Musimy zaufać im w kwestii naszej prywatności, zaufać im, że nie pozwolą złodziejom tożsamości opróżnić naszych kont"
@@ -199,13 +199,13 @@ W następnym rozdziale zagłębimy się w fundamentalny kamień węgielny każde
 # Podstawy teoretyczne
 
 
-<partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
+<partId>6249c7e4-71bc-453b-8a09-ab579d340709</partId>
 
 
 ## Subiektywna teoria wartości
 
 
-<chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
+<chapterId>fb001732-6bf7-4935-b8ec-6c225dab1025</chapterId>
 
 
 > "Wartość istnieje tylko w ludzkiej świadomości"
@@ -331,7 +331,7 @@ Kolejne rozdziały będą poświęcone pojawieniu się pieniądza jako instytucj
 ## Pojawienie się pieniądza jako zjawiska społecznego
 
 
-<chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
+<chapterId>469d591e-b407-4218-bccb-6a433f731cb3</chapterId>
 
 
 Podczas gdy jednostki mają wspólny interes w specjalizacji i maksymalizacji podziału pracy, nadal istnieją problemy z koordynacją, które ograniczają tę ekspansję.
@@ -453,7 +453,7 @@ W następnym rozdziale zagłębimy się w koncepcję preferencji czasowej i wyja
 ## Preferencja czasowa, odsetki i kapitał
 
 
-<chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
+<chapterId>e0a5c946-dd4c-4aa6-9b6e-aaacb23241ae</chapterId>
 
 
 ### Preferencje czasowe
@@ -561,13 +561,13 @@ Tego dowiemy się w kolejnym rozdziale poświęconym austriackiej teorii cyklu k
 # Austriackie perspektywy ekonomiczne
 
 
-<partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
+<partId>851a6712-84ea-48d2-85f7-3354e1381a06</partId>
 
 
 ## Austriacka teoria cyklu koniunkturalnego
 
 
-<chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
+<chapterId>17248205-835a-4284-ba94-0eb131916aa3</chapterId>
 
 
 > "Im dłużej trwa boom inflacyjnego kredytu bankowego, tym większy jest zakres złych inwestycji w dobra kapitałowe i tym większa potrzeba likwidacji tych nieuzasadnionych inwestycji. Kiedy ekspansja kredytowa zatrzymuje się, odwraca lub nawet znacznie spowalnia, złe inwestycje zostają ujawnione"
@@ -681,7 +681,7 @@ Będzie to tematem następnego i ostatniego rozdziału tego kursu.
 ## Niemożliwość kalkulacji ekonomicznej w socjalizmie
 
 
-<chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
+<chapterId>9b9e185f-5b0d-4850-813e-0c50e309a909</chapterId>
 
 
 > "Tam, gdzie nie ma cen rynkowych dla czynników produkcji, ponieważ nie są one ani kupowane, ani sprzedawane, niemożliwe jest uciekanie się do kalkulacji w planowaniu przyszłych działań i określaniu rezultatów przeszłych działań. Socjalistyczne zarządzanie produkcją po prostu nie wiedziałoby, czy to, co planuje i wykonuje, jest najbardziej odpowiednim środkiem do osiągnięcia zamierzonych celów. Będzie działać niejako po omacku. Roztrwoni ograniczone czynniki produkcji, zarówno materialne, jak i ludzkie (pracę). Nieuchronnie doprowadzi to do chaosu i ubóstwa dla wszystkich"
@@ -791,7 +791,7 @@ Tradycja austriacka ucieleśnia pokorne podejście do ludzkiego działania, wyci
 ## Metodologia austriacka
 
 
-<chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
+<chapterId>1fdf4c5d-0008-4f69-97e7-127fb3ef63e0</chapterId>
 
 
 Austriacka szkoła ekonomii odróżnia się od innych szkół swoją metodologią aksjomatyczno-dedukcyjną, która różni się od podejścia pozytywistycznego często stosowanego w naukach społecznych. Podejście pozytywistyczne opiera się na prawach ustalonych na podstawie danych empirycznych, przyjmując metodę podobną do tej stosowanej w naukach fizycznych. Formułuje hipotezy na podstawie obserwacji, które są następnie potwierdzane lub obalane przez tymczasowe eksperymenty. Metoda naukowa polega na utrzymaniu hipotezy, która najlepiej wyjaśnia dane i kontynuowaniu jej badania, aż do znalezienia bardziej precyzyjnej hipotezy.
@@ -824,20 +824,20 @@ Metodologia jest istotnym aspektem w ekonomii i ogólnie w naukach społecznych.
 # Sekcja końcowa
 
 
-<partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
+<partId>373760d2-4e6e-4a05-8081-6d02072457d7</partId>
 
 
 ## Recenzje i oceny
 
 
-<chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
+<chapterId>2373a3ce-1c87-415a-8dd6-0437b4f71e79</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Egzamin końcowy
 
 
-<chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
+<chapterId>1c584ca3-c738-4151-8a85-101a142fcbbc</chapterId>
 
 <isCourseExam>true</isCourseExam>
 

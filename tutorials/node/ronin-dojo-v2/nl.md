@@ -333,7 +333,7 @@ Eenmaal op de RoninUI homepage, zal je gevraagd worden om de setup te starten. K
 ![lets start](assets/notext/25.webp)
 
 
-In dit stadium geeft RoninUI je je `root` wachtwoord. Het is essentieel om het veilig te bewaren. Je kunt kiezen voor een fysieke back-up, op papier, of sla het op in een [wachtwoordmanager] (https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
+In dit stadium geeft RoninUI je je `root` wachtwoord. Het is essentieel om het veilig te bewaren. Je kunt kiezen voor een fysieke back-up, op papier, of sla het op in een [wachtwoordmanager] (https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/fcdebe4d-e2ee-495a-b0e7-ae967250866c).
 
 
 ![root password](assets/notext/26.webp)

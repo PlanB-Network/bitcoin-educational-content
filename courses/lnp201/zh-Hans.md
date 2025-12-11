@@ -69,11 +69,11 @@ objectives:
 
 # 基础知识
 
-<partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>
+<partId>c4db4d33-823f-4aad-b5ee-77a9a85447eb</partId>
 
 ## 理解闪电网络
 
-<chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
+<chapterId>0760bdb2-5907-4dc1-8fc1-ebe7f05149d4</chapterId>
 :::video id=4315a277-12fe-4946-bb49-a807e60c09a7:::
 
 
@@ -128,7 +128,7 @@ objectives:
 
 ## 比特币、地址、UTXO和交易
 
-<chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
+<chapterId>24cfbaa4-a8fb-4b76-b755-490b1c61af77</chapterId>
 :::video id=75323eef-ea03-45ac-9a6e-46d73ca255de:::
 
 本章有些特别，因为它不会直接专注于闪电网络（Lightning Network），而是比特币（Bitcoin）。实际上，闪电网络是建立在比特币之上的一个层。因此，要正确理解后续章节中闪电网络的运作，理解比特币的某些基本概念是至关重要的。在本章中，我们将回顾比特币接收地址、UTXO以及比特币交易的运作基础。
@@ -189,11 +189,11 @@ UTXO不能被分割。每次它们被用来花费它们代表的比特币金额�
 
 # 开设和关闭通道
 
-<partId>900b5b6b-ccd0-5b2f-9424-4b191d0e935d</partId>
+<partId>22976fdf-b923-42f1-bfb4-d84fc763e88c</partId>
 
 ## 通道开设
 
-<chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
+<chapterId>7b137f2e-af9c-4bc9-8ffe-777ff7bc7eed</chapterId>
 :::video id=6098fee1-735e-4d8d-9f57-0faf5fef6d76:::
 
 
@@ -256,7 +256,7 @@ UTXO不能被分割。每次它们被用来花费它们代表的比特币金额�
 
 ## 承诺交易
 
-<chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
+<chapterId>05a128ec-a6df-43b4-a3fe-9f1efab57fbd</chapterId>
 :::video id=c17454f3-14c5-47a0-8c9c-42ee12932bd3:::
 
 
@@ -312,7 +312,7 @@ UTXO不能被分割。每次它们被用来花费它们代表的比特币金额�
 
 ## 撤销密钥
 
-<chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
+<chapterId>be1ec347-83fa-404d-af47-7f352c629aa5</chapterId>
 :::video id=1d850f23-eff1-4725-b284-ce12456a2c26:::
 在本章中，我们将深入探讨闪电网络上的交易是如何工作的，讨论为防止欺骗而设置的机制，确保每一方遵守通道内的规则。
 
@@ -388,7 +388,7 @@ UTXO不能被分割。每次它们被用来花费它们代表的比特币金额�
 
 ## 通道关闭
 
-<chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
+<chapterId>84258cba-f143-47fd-ae8c-a589cc28cedf</chapterId>
 :::video id=4d8ad4e6-32ff-46d3-bd17-343929aa863b:::
 
 
@@ -469,11 +469,11 @@ Bob为了防止这种作弊，会监控比特币区块链及其内存池，以�
 
 # 一个流动性网络
 
-<partId>a873f1cb-751f-5f4a-9ed7-25092bfdef11</partId>
+<partId>b4305510-2b99-4c35-9cbf-738bfdc89d8d</partId>
 
 ## 闪电网络
 
-<chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
+<chapterId>4b4f4111-398e-491f-8a75-1be65b4c9719</chapterId>
 :::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
 
 
@@ -586,7 +586,7 @@ $$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \a
 
 ## HTLC – 哈希时间锁定合约
 
-<chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
+<chapterId>96e7f2b1-8f53-4848-9d2d-f3d4b1c39e0e</chapterId>
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
@@ -706,7 +706,7 @@ HTLCs使得通过多个节点路由闪电网络支付成为可能，而无需信
 
 ## 寻找你的路
 
-<chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
+<chapterId>673e3d66-ade1-4321-8388-a940e661b66a</chapterId>
 :::video id=e5baa834-111d-46f5-a28b-3538bed2bbb0:::
 
 
@@ -789,11 +789,11 @@ Alice然后尝试使用她的第二条路由（`Alice → 1 → 2 → 4 → 5 �
 
 # 闪电网络的工具
 
-<partId>74d6c334-ec5d-55d9-8598-f05694703bf6</partId>
+<partId>e28a697b-74ff-4a09-bd83-41a02b992517</partId>
 
 ## 发票，LNURL，和Keysend
 
-<chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
+<chapterId>eadaa33c-0da9-4031-ab9f-e119226a1652</chapterId>
 :::video id=309c3412-506e-4189-ad46-5e5088c55008:::
 在本章中，我们将更仔细地研究闪电网络**发票**的操作，即接收节点发送给发送节点的支付请求。目标是理解如何在闪电网络上支付和接收支付。我们还将讨论两种替代传统发票的方法：LNURL和Keysend。
 ![LNP201](assets/en/068.webp)
@@ -902,7 +902,7 @@ LNURL是一个通信协议，指定了一组旨在简化闪电网络节点与客
 
 ## 管理您的流动性
 
-<chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
+<chapterId>56d28137-25fc-4164-b54f-95ef445ae187</chapterId>
 :::video id=96096aef-e4ce-4c44-a022-57e27082232a:::
 
 
@@ -968,12 +968,12 @@ LNURL是一个通信协议，指定了一组旨在简化闪电网络节点与客
 
 # 进一步了解
 
-<partId>6bbf107d-a224-5916-9f0c-2b4d30dd0b17</partId>
+<partId>a0323bbb-7f6a-4020-8aa9-5290ac76156c</partId>
 
 ## 培训总结
 
 
-<chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
+<chapterId>80b02339-681e-4c6d-8008-0dc8e1a1c5b5</chapterId>
 :::video id=5f4f4344-ef27-4765-8f09-8262e6833bde:::
 
 在这最后一章，标志着LNP201培训结束，我建议我们一起回顾我们共同覆盖的重要概念。
@@ -1030,15 +1030,15 @@ LNURL是一个通信协议，指定了一组旨在简化闪电网络节点与客
 
 ## 评价 & 评分
 
-<chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
+<chapterId>174d014a-8f5b-4285-b70b-802dd00028b9</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## 期末考试
 
-<chapterId>7ed33400-aef7-5f3e-bfb1-7867e445d708</chapterId>
+<chapterId>51117a58-542c-4146-bf95-c19f88860120</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## 总结
 
-<chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
+<chapterId>da9ed31b-b8c0-45de-b2a8-2bb5a74dd812</chapterId>
 <isCourseConclusion>true</isCourseConclusion>

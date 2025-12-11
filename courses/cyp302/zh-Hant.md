@@ -15,11 +15,11 @@ objectives:
 +++
 # 簡介
 
-<partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
+<partId>abfa0d9a-736e-40f8-937a-490ef19bc481</partId>
 
 ## 簡短說明
 
-<chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+<chapterId>dc6c887e-00a6-4b7f-9d50-14cbdfd5e867</chapterId>
 
 本書深入淺出地介紹了密碼學的科學與實踐。在可能的情況下，它著重於概念，而非形式上的材料說明。
 
@@ -85,11 +85,11 @@ objectives:
 
 # 什麼是密碼學？
 
-<partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>
+<partId>dfa3633c-f97b-4650-8a2e-cb15a42ca557</partId>
 
 ## Beale 的密碼
 
-<chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
+<chapterId>b97d116b-035b-4e92-890c-e377b48edb36</chapterId>
 
 讓我們從密碼學歷史上最迷人、最有趣的事件開始，探究密碼學的領域：Beale 密碼。[1]
 
@@ -129,7 +129,7 @@ Morriss 在生命的末期，於 1862 年將盒子交給一位朋友。這位朋
 
 ## 現代密碼學
 
-<chapterId>d07d576f-8a4b-5890-b182-2e5763f550f4</chapterId>
+<chapterId>a53dab64-fcf9-48c1-b578-dc43d799f3de</chapterId>
 
 我們大多數人都會將 Beale 密碼這樣豐富多彩的故事與密碼學聯繫起來。然而，現代密碼學至少在四個重要方面有別於這些歷史範例。
 
@@ -181,7 +181,7 @@ Morriss 在生命的末期，於 1862 年將盒子交給一位朋友。這位朋
 
 ## 開放式通訊
 
-<chapterId>cb23d0a6-ba9a-5dc6-a55a-258405ae4117</chapterId>
+<chapterId>87b637ca-3d20-42b5-b299-ecb084b60aec</chapterId>
 
 現代密碼學的設計是為了在**開放的通訊**環境中提供安全保證。如果我們的通訊管道保護得很好，竊聽者沒有機會竄改或甚至只是觀察我們的訊息，那麼加密技術就是多餘的。然而，我們大多數的通訊管道都很難受到如此完善的保護。
 
@@ -201,11 +201,11 @@ Morriss 在生命的末期，於 1862 年將盒子交給一位朋友。這位朋
 
 # 密碼學的數學基礎 1
 
-<partId>1bf9f0aa-0f68-5493-83fb-2167238ff9de</partId>
+<partId>22c3967a-c64b-468c-8e68-3324fe552738</partId>
 
 ## 隨機變數
 
-<chapterId>b623a7d0-3dff-5803-bd4e-8257ff73dd69</chapterId>
+<chapterId>c5fa2255-6041-400b-9072-217b73bf411e</chapterId>
 
 密碼學依賴於數學。如果您想要對密碼學有更深入的了解，就必須對數學有更深入的認識。
 
@@ -410,7 +410,7 @@ $$
 
 ## 模運算
 
-<chapterId>709b34e5-b155-53d2-abbd-97d67e56db00</chapterId>
+<chapterId>a7e063f0-62dd-4c35-892a-55fa1b10aad8</chapterId>
 
 ### 模組
 
@@ -498,7 +498,7 @@ $$
 
 ## XOR 運算
 
-<chapterId>22f185cc-c516-5b33-950b-0908f2f881fe</chapterId>
+<chapterId>941aaabd-0896-4eb2-843c-e1af055c87fc</chapterId>
 
 所有的電腦資料都是以位元為單位來處理、儲存和傳送的。任何應用於電腦資料的加密方案也是在位元層級運作。
 
@@ -533,7 +533,7 @@ $$
 
 ## 偽隨機性
 
-<chapterId>20463fc5-3e92-581f-a1b7-3151279bd95e</chapterId>
+<chapterId>bd0c7d54-5392-490b-bdca-04dcbe7d83ff</chapterId>
 
 在討論隨機變數和均勻變數時，我們特別區分了「隨機」和「均勻」。在描述隨機變數時，這種區別通常會在實務中保留。然而，在我們目前的環境中，這個區別需要被捨棄，「隨機」和「均勻」是同義的。我將在本節的結尾解釋原因。
 
@@ -577,11 +577,11 @@ $$
 
 # 密碼學的數學基礎 2
 
-<partId>d7245cc9-bb6d-5403-b3d5-9c703d9a2f81</partId>
+<partId>62963952-ae03-43f4-88d6-90aea95e5c5f</partId>
 
 ## 什麼是數學理論？
 
-<chapterId>c0051c34-fd5d-539c-93e2-5c6dfd4c3355</chapterId>
+<chapterId>67e7dace-4c23-41a8-bdb3-c6c87d223899</chapterId>
 
 本章涵蓋了密碼學的數學基礎中更進階的主題：數論。雖然數學理論對對稱密碼學 (例如 Rijndael 密碼學) 十分重要，但在公開密碼匙密碼學的環境中尤其重要。
 
@@ -601,7 +601,7 @@ ___
 
 ## 群組
 
-<chapterId>3209b270-f9cd-5224-803e-0ed19fbf7826</chapterId>
+<chapterId>4353d3ff-6319-4985-a4b8-3b20111ecfff</chapterId>
 
 數學中的一個基本概念是 Elements 的集合。集合通常用讚譽符號表示，Elements 用逗號分隔。
 
@@ -674,7 +674,7 @@ Bitcoin 中的交易通常會以某種方式將輸出鎖定在一個或多個公
 
 ## 環狀群組
 
-<chapterId>bfa5c714-7952-5fef-88b1-ca5b07edd886</chapterId>
+<chapterId>b5b552f6-cf7c-4ba8-bd9c-685bfc4aacad</chapterId>
 
 我們可以區分的一個主要區別是**有限**和**無限群**。前者有有限數的 Elements，而後者則有無限數的 Elements。任何有限群中 Elements 的數量稱為該群的**階**。所有涉及使用群組的實際密碼學都依賴於有限（數論）群組。
 
@@ -763,7 +763,7 @@ $$
 
 ## 字段
 
-<chapterId>fad52d86-3a22-5c9f-979e-3bec9eaa008e</chapterId>
+<chapterId>7a8c9ab0-fc8f-43fa-8dd7-fd1839bcda81</chapterId>
 
 群是抽象代數中最基本的代數結構，但還有許多其他的代數結構。您唯一需要熟悉的其他代數結構是**場**，特別是**無限場**。這種代數結構常用於密碼學，例如 Advanced Encryption Standard（進階加密標準）。後者是您在實際應用中會遇到的主要對稱加密方案。
 
@@ -914,7 +914,7 @@ $$
 
 ## 抽象代數的實踐
 
-<chapterId>ed35b98d-18b4-5790-9911-1078e0f84f92</chapterId>
+<chapterId>9b8cd1fc-8a34-4e1b-ab4f-c634a763a20c</chapterId>
 
 儘管討論的語言形式化且抽象，群組的概念應該不難掌握。它只是一組 Elements 加上一個二元運算，在這些 Elements 上執行二元運算要符合四個一般條件。非等邊群只是多了一個稱為換向性的條件。而循環群則是一種特殊的阿伯利群，也就是有一個產生器的群。場只是基本群概念的複雜構造。
 
@@ -942,11 +942,11 @@ $$
 
 # 對稱密碼學
 
-<partId>ef768d0e-fe7b-510c-87d6-6febb3de1039</partId>
+<partId>b994593e-cb9b-4a2c-ae80-2dec3478e1a6</partId>
 
 ## 愛麗絲和鮑勃
 
-<chapterId>47345330-be2d-5faf-afd0-d289a8d21bf1</chapterId>
+<chapterId>9c901027-b83a-4954-99b4-9e4f0c1598b7</chapterId>
 
 對稱加密是加密學的兩個主要分支之一。它包括加密方案以及與認證和完整性有關的方案。在 1970 年代之前，所有的加密學都是由對稱加密方案所構成。
 
@@ -976,7 +976,7 @@ ___
 
 ## 對稱加密方案
 
-<chapterId>41bfdbe1-6d41-5272-98bb-81f24b2fd6af</chapterId>
+<chapterId>e2645185-bb06-41d2-9a80-81dd84108647</chapterId>
 
 我們可以將 ** 對稱加密方案** 寬鬆地定義為任何具有三種演算法的加密方案：
 
@@ -1012,7 +1012,7 @@ Bob 首先使用私人密碼匙 $K$ 加密訊息 $M$。然後，他將密碼訊�
 
 ## 舉例說明：移位密碼
 
-<chapterId>7b179ae8-8d15-5e80-a43f-22c970d87b5e</chapterId>
+<chapterId>63287a89-bda1-4395-ade6-cd8d8debe797</chapterId>
 
 在第二章中，我們遇到了移位密碼，它是一個非常簡單的對稱加密方案的例子。讓我們在此再看一次。
 
@@ -1048,7 +1048,7 @@ Bob 首先使用私人密碼匙 $K$ 加密訊息 $M$。然後，他將密碼訊�
 
 ## 暴力攻擊和 Kerckhoff 原理
 
-<chapterId>2d73ef97-26c5-5d11-8815-0ddbe89c8003</chapterId>
+<chapterId>4a72d8d8-0186-4654-b5ba-f99a4e03fb59</chapterId>
 
 至少在現代世界中，移位密碼是非常不安全的對稱加密方案。[1] 攻擊者可以嘗試用所有 26 個可能的鑰匙來解密任何密碼文本，看看哪個結果是合理的。這類攻擊，攻擊者只是循環使用鑰匙，看看哪個可行，稱為 ** 暴力攻擊** 或 ** 窮盡鑰匙搜尋**。
 
@@ -1096,7 +1096,7 @@ Kerckhoffs 原則是現代密碼學的核心，原因有四。[2] 首先，針�
 
 ## 串流密碼
 
-<chapterId>479aa6f4-45c4-59ca-8616-8cf8e61fc871</chapterId>
+<chapterId>82a4d8c5-7fd7-4bbb-a97e-e7a2d7cc55a0</chapterId>
 
 對稱加密方案標準地細分為兩種類型： **stream ciphers** 和 **block ciphers**。然而，這個區別有點麻煩，因為人們使用這些詞彙的方式並不一致。在接下來的幾節中，我會以我認為最好的方式來區分。不過，您應該知道，許多人使用這些詞彙的方式與我所說的有些不同。
 
@@ -1184,7 +1184,7 @@ Kerckhoffs 原則是現代密碼學的核心，原因有四。[2] 首先，針�
 
 ## 區塊密碼
 
-<chapterId>2df52d51-943d-5df7-9d49-333e4c5d97b7</chapterId>
+<chapterId>ffb7ba1c-eb20-43a8-a2f1-2b8a54a31044</chapterId>
 
 **塊密碼**通常被理解為比流密碼更原始的東西：它是一種核心演算法，利用金鑰對適當長度的字串執行長度保留轉換。此演算法可用於建立加密方案，或其他類型的密碼方案。
 
@@ -1260,7 +1260,7 @@ AES 區塊密碼將在 *第五章* 詳細說明。
 
 ## 釐清混亂
 
-<chapterId>121c1858-27e3-5862-b0ce-4ff2f70f9f0f</chapterId>
+<chapterId>61e393f2-6764-4214-a871-f7471cb8ea32</chapterId>
 
 區塊式密碼和串流式密碼之間的區別之所以會產生混淆，是因為有時候人們會將「區塊式密碼」一詞理解為特指具有區塊加密模式*的 * 區塊式密碼。
 
@@ -1284,7 +1284,7 @@ AES 區塊密碼將在 *第五章* 詳細說明。
 
 ## 訊息驗證碼
 
-<chapterId>19fa7c00-db59-56a0-9654-5350a137939d</chapterId>
+<chapterId>626181b6-f80f-4160-b441-417a79b66ec6</chapterId>
 
 加密與保密有關。但密碼學也關注更廣泛的主題，例如訊息的完整性、真實性和不可抵賴性。所謂的**訊息驗證碼** (MAC) 是對稱密鑰加密方案，可支援通訊的真實性和完整性。
 
@@ -1314,7 +1314,7 @@ MAC 保證訊息確實是由 Bob 所建立。這種真實性自動意味著訊�
 
 ## 認證加密
 
-<chapterId>33f2ec9b-9fb4-5c61-8fb4-50836270a144</chapterId>
+<chapterId>64c1aef9-0bf8-45c5-92ba-12161d907eac</chapterId>
 
 一般而言，您希望同時保證通訊的保密性和真實性，因此，加密方案和 MAC 方案通常會一起使用。
 
@@ -1358,7 +1358,7 @@ Alice 現在先檢查密文 $C$ 和金鑰 $K_T$ 的標籤是否有效。如果�
 
 ## 安全通訊會議
 
-<chapterId>c7f7dcd3-bbed-53ed-a43d-039da0f180c5</chapterId>
+<chapterId>16be8853-ef4e-432b-b724-f34e780f2abe</chapterId>
 
 假設雙方正在進行通訊會談，因此他們會來回傳送多條訊息。
 
@@ -1390,11 +1390,11 @@ Alice 現在先檢查密文 $C$ 和金鑰 $K_T$ 的標籤是否有效。如果�
 
 # RC4 和 AES
 
-<partId>a48c4a7d-0a41-523f-a4ab-1305b4430324</partId>
+<partId>9948fc0a-59fe-46a4-b324-b12cde16e576</partId>
 
 ## RC4 串流密碼
 
-<chapterId>5caec5bd-5a77-56c9-b5e6-1e86f0d294aa</chapterId>
+<chapterId>2f83a43a-16e5-4b4e-9d2f-4976f92eba15</chapterId>
 
 在本章中，我們將討論使用現代原始流密碼 RC4 (或「Rivest cipher 4」) 和現代區塊密碼 AES 的加密方案的細節。雖然 RC4 密碼已不再是加密方法，但 AES 卻是現代對稱加密的標準。這兩個範例應該可以讓您更了解對稱加密在引擎蓋下的運作方式。
 
@@ -1522,7 +1522,7 @@ for 環路從 $i = 0$ 開始。根據我們上面的偽碼，**j**的新值變�
 
 ## 128 位元金鑰的 AES
 
-<chapterId>0b30886f-e620-5b8d-807b-9d84685ca8ff</chapterId>
+<chapterId>593d6ae3-7887-40d5-b14b-98a580b9a254</chapterId>
 
 如前一章所述，美國國家標準與技術研究院 (NIST) 在 1997 年至 2000 年間舉辦了一場比賽，以決定新的對稱加密標準。結果**Rijndael 密碼**獲勝。這個名字是比利時創造者 Vincent Rijmen 和 Joan Daemen 的名字的文字遊戲。
 
@@ -1714,11 +1714,11 @@ Rijndael 密碼背後運算的理由是它們會產生高度混淆和擴散。�
 
 # 非對稱密碼學
 
-<partId>868bd9dd-6e1c-5ea9-9ece-54affc13ba05</partId>
+<partId>20c55ed4-4e45-493a-8bfe-970f332d764c</partId>
 
 ## 金鑰分發與管理問題
 
-<chapterId>1bb651ba-689a-5a89-a7d3-0b9cc3b694f7</chapterId>
+<chapterId>4bbc8769-e00d-4d59-8365-c5f491b1217b</chapterId>
 
 與對稱加密法一樣，非對稱方案可用於確保保密性和認證。然而，相較之下，這些方案使用兩條金鑰而非一條：一條私人金鑰和一條公開金鑰。
 
@@ -1763,7 +1763,7 @@ ___
 
 ## 密碼學的新方向
 
-<chapterId>7a9dd9a3-496e-5f9d-93e0-b5028a7dd0f1</chapterId>
+<chapterId>e0f7950c-bb5a-437e-b27e-8d6878e15291</chapterId>
 
 到了 1970 年代，金鑰分發和金鑰管理問題吸引了一群美國學術密碼學家的注意：Whitfield Diffie、Martin Hellman 和 Ralph Merkle。面對大多數同行的嚴厲質疑，他們冒險設計了一個解決方案。
 
@@ -1826,7 +1826,7 @@ Diffie 和 Helmann 在 1976 年的論文中為 Address 金鑰分發和管理問�
 
 ## 非對稱加密和認證
 
-<chapterId>2f6f0f03-3c3d-5025-90f0-5211139bc0cc</chapterId>
+<chapterId>a36ea521-ecee-476d-ade9-57f09bed2469</chapterId>
 
 在*圖 1* 中提供了在 Bob 和 Alice 協助下的**非對稱加密**概觀。
 
@@ -1904,7 +1904,7 @@ Alice 將訊息、公開金鑰及數位簽章插入**驗證演算法**。此演�
 
 ## Hash 功能
 
-<chapterId>ea8327ab-b0e3-5635-941c-4b51f396a648</chapterId>
+<chapterId>49d6c9a5-5f18-4ec4-8c83-e02fc60941ff</chapterId>
 
 Hash 函數在密碼學中無處不在。它們既不是對稱方案，也不是非對稱方案，而是本身就屬於一個加密類別。
 
@@ -1982,11 +1982,11 @@ Hash 函數 (例如 SHA-256) 在密碼學中有各種用途。Hash 函數需要�
 
 # RSA 密碼系統
 
-<partId>864dca42-2a8d-530f-bb94-2e1f68b3f411</partId>
+<partId>a8fb0a0b-747f-422a-a464-3c84979efa43</partId>
 
 ## 因式分解問題
 
-<chapterId>a31a66e4-52ea-539c-9953-4769ad565d7e</chapterId>
+<chapterId>406b1681-f8bf-4a03-b555-c84ac4dee44a</chapterId>
 
 對大多數人來說，對稱加密法通常相當直覺，但非對稱加密法通常並非如此。雖然您可能對前面幾節所提供的高層次描述感到滿意，但您可能仍想知道單向函數到底是什麼，以及它們是如何用來建構非對稱方案的。
 
@@ -2079,7 +2079,7 @@ $$ \frac{2^{1024}}{\LN(2^{1024})} - \frac{2^{1023}}{\LN(2^{1023})} $$
 
 ## 數理結果
 
-<chapterId>23cd2186-8d97-5709-a4a7-b984f1eb9999</chapterId>
+<chapterId>a5528852-d9cc-4f94-a15d-02f11081e026</chapterId>
 
 不幸的是，因式分解問題無法直接用於非對稱加密方案。不過，我們可以利用一個更複雜但相關的問題來達到這個效果：RSA 問題。
 
@@ -2205,7 +2205,7 @@ Euler定理與**命題5**的結合具有重要的意義。例如，看看在下�
 
 ## RSA 密碼系統
 
-<chapterId>0253c2f7-b8a4-5d0e-bd60-812ed6b6c7a9</chapterId>
+<chapterId>b230194d-5774-49fe-9d19-53e345453c34</chapterId>
 
 現在我們準備說明 RSA 問題.假設您創建了一個變量集，其中包括 $p$、$q$、$N$、$\phi(N)$、$e$、$d$ 和 $y$。稱這個集合為 $\Pi$。它的創建過程如下：
 
@@ -2300,6 +2300,6 @@ $$ y^d \mod N = x^{e \cdot d}\mod N = x^{e \cdot d \mod \phi(N)} \mod N = x^{1 \
 <isCourseExam>true</isCourseExam>
 ## 總結
 
-<chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
+<chapterId>97ce180b-5092-45eb-a160-57fc52917567</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

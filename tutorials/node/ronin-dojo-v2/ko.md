@@ -333,7 +333,7 @@ RoninUI 홈페이지에 들어가면 설정을 시작하라는 메시지가 표�
 ![lets start](assets/notext/25.webp)
 
 
-이 단계에서 RoninUI가 '루트' 비밀번호를 제공합니다. 안전하게 보관하는 것이 중요합니다. 물리적 백업을 선택하거나 종이에 저장하거나 [비밀번호 관리자](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f)에 저장할 수 있습니다.
+이 단계에서 RoninUI가 '루트' 비밀번호를 제공합니다. 안전하게 보관하는 것이 중요합니다. 물리적 백업을 선택하거나 종이에 저장하거나 [비밀번호 관리자](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/fcdebe4d-e2ee-495a-b0e7-ae967250866c)에 저장할 수 있습니다.
 
 
 ![root password](assets/notext/26.webp)

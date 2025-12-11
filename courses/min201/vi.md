@@ -22,11 +22,11 @@ Nếu bạn cần sự giúp đỡ trong quá trình thực hiện, chúng tôi 
 
 # Giới thiệu
 
-<partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
+<partId>264edfbf-0647-43c0-b202-5f82bfaba747</partId>
 
 ## Tổng quan về khóa học
 
-<chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
+<chapterId>a1885374-d6b9-4d6d-9b90-44f27099e4ae</chapterId>
 
 Chào mừng bạn đến với khóa học MIN201: Giới thiệu về đào tiền. Ajelex, Jim & Rogzy rất vui được hướng dẫn bạn những bước đầu tiên trong ngành này. Chúng tôi hy vọng bạn sẽ thích khóa học này và bắt đầu cuộc phiêu lưu với việc khai thác Bitcoin tại nhà!
 
@@ -52,11 +52,11 @@ Sẵn sàng khám phá thế giới khai thác Bitcoin và chinh phục thử th
 
 # Tất cả những gì bạn cần biết về đào bitcoin
 
-<partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
+<partId>80efb136-9e4e-40f2-98a2-f6721737fc81</partId>
 
 ## Giải thích về đào bitcoin
 
-<chapterId>36a82de7-87ee-5e7a-b69e-48fc30030447</chapterId>
+<chapterId>3d083cf5-9bbd-4d2b-94d9-e12a82819395</chapterId>
 
 ### Giải thích về đào bitcoin: Trò chơi xếp hình
 
@@ -100,7 +100,7 @@ Kết luận, ngành công nghiệp đào bitcoin tiếp tục thích nghi và p
 
 ## Ngành công nghiệp đào bitcoin
 
-<chapterId>0896dfc1-c97e-5bec-9bf1-8c20b3388a2c</chapterId>
+<chapterId>75651629-94db-47e7-8735-a8ed75ae4e1d</chapterId>
 
 ### Các pool đào bitcoin
 
@@ -150,7 +150,7 @@ Tóm lại, sự phi tập trung là rất quan trọng đối với sự an to�
 
 ## Những nét đặc trưng của ngành công nghiệp đào bitcoin
 
-<chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
+<chapterId>60d00d42-bd45-4afa-8612-939d714b1f6f</chapterId>
 
 ### Nguyên Tắc của Attakai
 
@@ -190,7 +190,7 @@ Có nhiều suy đoán về việc sử dụng không gian khối trong tương 
 
 ## Đào bitcoin trong Giao thức Bitcoin
 
-<chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
+<chapterId>51e7a8b1-e901-424e-bd63-51451b330da2</chapterId>
 
 Vai trò của các thợ đào trong mạng lưới Bitcoin đã là đề tài tranh luận sôi nổi trong giai đoạn cuộc chiến kích thước khối - "block size wars". Mặc dù là yếu tố thiết yếu cho sự an toàn và chức năng của mạng lưới, các thợ đào không nhất thiết nắm giữ quyền lực tối thượng trong hệ sinh thái Bitcoin. Sự cân bằng giữa thợ đào, người vận hành node và người dùng cuối đảm bảo tính toàn vẹn và phân tán của mạng lưới.
 
@@ -230,7 +230,7 @@ Tóm lại, các thợ đào củng cố mạng lưới Bitcoin, chống lại s
 
 ## Giá bitcoin và Hashrate, có sự tương quan?
 
-<chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
+<chapterId>002750ad-c35e-48c3-8644-302467a384d3</chapterId>
 
 
 ### Hashrate, giá bitcoin, và lợi nhuận
@@ -261,7 +261,7 @@ Việc đào thiết lập một mức giá sàn cho bitcoin, dưới đó các 
 
 ## Chủ quyền và quy định quản lý
 
-<chapterId>9d9a5908-2acc-501e-906b-a6fce9ecfebd</chapterId>
+<chapterId>ec30a758-5a03-43a1-9b75-e4bb6053a1be</chapterId>
 
 ### Chủ quyền trước, lợi nhuận sau?
 
@@ -294,11 +294,11 @@ Kết luận, mặc dù có rủi ro quy định và khả năng cấm đào bit
 
 # Khai thác tại nhà và tái sử dụng nhiệt
 
-<partId>78d22d06-2c4a-573f-86bb-1027115dad3a</partId>
+<partId>c0fb1f33-6c44-48a7-83f5-b1c9cbc314b3</partId>
 
 ## Attakai - biến khai thác tại nhà trở nên khả thi và dễ tiếp cận!
 
-<chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
+<chapterId>64c27a67-c2f0-4456-9821-5c94ea623de5</chapterId>
 
 
 Attakai, có nghĩa là "nhiệt độ lý tưởng" trong tiếng Nhật, là tên của sáng kiến đào bitcoin bằng cách tái sử dụng nhiệt được khởi xướng bởi @ajelexBTC và @jimzap21 với sự hỗ trợ từ Découvre Bitcoin.
@@ -345,7 +345,7 @@ Khi vừa ra khỏi nhà máy, một máy đào không phù hợp để sử d�
 
 ## Hướng dẫn mua máy ASIC cũ
 
-<chapterId>3b0b3bf0-859b-57f2-b92f-843ac70b7e68</chapterId>
+<chapterId>17e07e2e-9848-4fb0-be55-077ea783c670</chapterId>
 
 
 Trong phần này, chúng ta sẽ thảo luận về các phương pháp tốt nhất để mua một máy đào Bitmain Antminer S9 cũ, thiét bị sẽ được sử dụng để chuyển đổi thành một máy sưởi thông qua hướng dẫn này. Hướng dẫn này cũng áp dụng cho các mẫu ASIC khác vì đây là một hướng dẫn mua hàng cũ chung cho các loại máy đào.
@@ -401,7 +401,7 @@ Tóm tắt hướng dẫn này trong một câu: **"Đừng tin, hãy kiểm ch�
 
 ## Hướng dẫn mua sắm phần cứng để cải tiến cho mẫu S9
 
-<chapterId>fa5f5eca-bcbf-5a83-9b03-98ecbadbabd6</chapterId>
+<chapterId>67c86e8a-e7d8-4744-8eeb-03a17c09bfa2</chapterId>
 
 
 Là chủ sở hữu của một Antminer S9, chắc hẳn bạn đã biết rằng thiết bị này có thể tạo ra tiếng ồn và rất cồng kềnh. Tuy nhiên, bạn có thể biến nó thành một bộ sưởi ấm yên tĩnh và kết nối với một số thao tác đơn giản. Trong phần này, chúng tôi sẽ giới thiệu các thiết bị cần thiết để thực hiện các chỉnh sửa.
@@ -445,11 +445,11 @@ Danh sách thiết bị và liên kết đến cửa hàng
 
 # Attakai - Chỉnh sửa phần mềm của Antminer S9
 
-<partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
+<partId>17871b9d-4c93-4ca4-a09f-c6dc8a1df1d1</partId>
 
 ## Thiết lập cầu nối WIFI/Ethernet Vonet
 
-<chapterId>3cf487a4-21ef-5b24-83d5-789b811f740f</chapterId>
+<chapterId>bf5b8552-8f0f-44aa-b742-600a657bdfbf</chapterId>
 
 Để kết nối ASIC của bạn qua WIFI, bạn sẽ cần một thiết bị được gọi là cầu nối. Thiết bị này cho phép bạn thu tín hiệu WIFI từ bộ định tuyến và truyền nó đến thiết bị khác qua Ethernet.
 
@@ -486,7 +486,7 @@ Sau khi kết nối xong, hãy kết nối cáp Ethernet từ cầu nối vào A
 
 ## Thiết lập lại cài đặt gốc cho Antminer S9
 
-<chapterId>b518b6bd-9dae-5136-ae3c-1fafb1cb2592</chapterId>
+<chapterId>e83025fd-0261-4d4a-913a-dbfc05f7e51e</chapterId>
 
 Trước khi cài đặt BraiinOS+, có thể bạn phải đưa S9 của bạn về cài đặt gốc của nhà máy.
 Phương pháp này có thể được áp dụng trong khoảng từ 2 phút đến 10 phút sau khi khởi động máy đào.
@@ -496,7 +496,7 @@ Phương pháp này có thể được áp dụng trong khoảng từ 2 phút đ
 
 ## Cài đặt BraiinsOS+ trên Antminer S9
 
-<chapterId>38e8b1a8-8b1d-51ed-8b92-59d4ddb15184</chapterId>
+<chapterId>d2ea148c-37dd-4505-97e9-78ce2237b84a</chapterId>
 
 Phần mềm gốc được Antminer cài đặt trên các máy đào của họ bị hạn chế về chức năng. Đó là lý do vì sao trong hướng dẫn này, chúng ta sẽ cài đặt một phần mềm khác gọi là BraiinsOS+. Đây là phần mềm của bên thứ ba được phát triển bởi pool đào bitcoin đầu tiên trên thế giới với nhiều tính năng hơn và cho phép, ví dụ, chỉnh sửa công suất của máy.
 
@@ -532,7 +532,7 @@ Có một số cách để cài đặt Braiins OS+ trên ASIC. Bạn có thể t
 
 ## Cấu hình BraiinsOS+
 
-<chapterId>36e432f2-85bc-52d0-a62a-009fc4c69338</chapterId>
+<chapterId>41f8ef76-c5b9-427f-8b22-1e3761057157</chapterId>
 
 Bạn cần kết nối với ASIC của mình sử dụng địa chỉ IP cục bộ của thiết bị thông qua trình duyệt.
 
@@ -576,11 +576,11 @@ Trên trang đầu tiên này, bạn có thể quan sát hiệu suất thực t�
 
 # Attakai - Chỉnh sửa quạt
 
-<partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
+<partId>a18012de-bf2e-4469-8b33-6bd9368cf27d</partId>
 
 ## Thay quạt của bộ nguồn
 
-<chapterId>0c6befa7-f3ef-5bcf-ae8d-0ad5e5d41d70</chapterId>
+<chapterId>369aa394-0597-4578-96ef-01a45e9d86c6</chapterId>
 
 > CẢNH BÁO: Điều cần thiết là phải đã cài đặt Braiins OS+ trên máy đào của bạn, hoặc bất kỳ phần mềm nào khác có thể giảm hiệu suất của máy. Biện pháp này rất quan trọng vì để giảm tiếng ồn, chúng ta sẽ lắp đặt quạt yếu hơn có thể tản nhiệt kém hơn.
 
@@ -650,7 +650,7 @@ Cuối cùng, đặt nắp thùng máy trở lại và vặn 6 ốc vít ở cá
 
 ## Thay thế quạt chính
 
-<chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
+<chapterId>46cd034a-1ffd-4459-9d66-a68e9b4bfeeb</chapterId>
 
 > CẢNH BÁO: Điều cần thiết là phải đã cài đặt Braiins OS+ trên máy đào của bạn, hoặc bất kỳ phần mềm nào khác có thể giảm hiệu suất của máy. Biện pháp này rất quan trọng vì để giảm tiếng ồn, chúng ta sẽ lắp đặt quạt yếu hơn có thể tản nhiệt kém hơn.
 
@@ -701,11 +701,11 @@ Vậy là, xin chúc mừng! Bạn vừa thay thế toàn bộ phần cơ khí c
 
 # Attakai - Cấu hình
 
-<partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
+<partId>045a50df-20cd-423f-8f2f-dce686793ffb</partId>
 
 ## Tham gia một pool đào
 
-<chapterId>b57a6105-0a53-5fe9-bad1-d6d9daf97c0d</chapterId>
+<chapterId>db476c86-3dfe-4fcd-948a-083df8442395</chapterId>
 Chúng ta có thể hình dung một pool đào như một hợp tác xã nông nghiệp. Các nông dân tổ chức hoạt động sản xuất của họ lại với nhau để giảm biến động của cung và cầu, do đó, thu được thu nhập ổn định hơn cho hoạt động của họ. Một pool đào hoạt động theo cùng nguyên lý tương tự, với nguồn lực được chia sẻ là các mã băm (hash). Thực vậy, việc phát hiện ra một hash hợp lệ duy nhất cho phép thợ đào tạo ra một khối và giành được phần thưởng, hiện tại là 3,125 BTC (2024) cộng với các phí giao dịch được bao gồm trong khối.
 
 Nếu đào bitcoin một mình, bạn chỉ được thưởng khi tìm thấy một khối. Khi cạnh tranh với tất cả các thợ đào khác trên hành tinh, bạn sẽ có rất ít cơ hội để giành chiến thắng trong trò chơi xổ số này và bạn vẫn phải trả các phí liên quan đến việc sử dụng máy đào của mình mà không có bất kỳ bảo đảm nào về thành công. Các pool đào giải quyết vấn đề này bằng cách tập hợp sức mạnh tính toán của nhiều (hàng nghìn) thợ đào và chia sẻ phần thưởng của họ dựa trên tỷ lệ phần trăm tham gia vào hashrate của pool khi một khối được tìm thấy. Để biết được cơ hội một mình đào thành công một khối, bạn có thể sử dụng công cụ này. Bằng cách nhập thông tin của một Antminer S9, chúng ta có thể thấy rằng cơ hội tìm thấy một hash cho phép tạo ra một khối là 1 trong 24.777.849 cho mỗi khối hoặc 1 trong 172.068 mỗi ngày. Trung bình (với hashrate và độ khó không đổi), sẽ mất 471 năm để một thợ đào Antmier S9 riêng lẻ tìm thấy một khối.
@@ -736,7 +736,7 @@ Bây giờ bạn có thể quay lại giao diện Braiins OS+ để nhập nhữ
 
 ## Tối ưu hóa hiệu suất cho Antminer S9 của bạn
 
-<chapterId>25380972-31c7-540d-80d8-17a06b171ca0</chapterId>
+<chapterId>e8dd98a2-86be-4cb1-a061-79f5c8129df6</chapterId>
 
 Cả việc tăng tốc và tự động điều chỉnh đều liên quan đến việc điều chỉnh tần số trên các hashboard để cải thiện hiệu suất của ASIC. Sự khác biệt giữa hai phương pháp này nằm ở độ phức tạp của các cài đặt tần số.
 
@@ -759,7 +759,7 @@ Kết quả cuối cùng là tốc độ hash cao hơn trên mỗi watt điện 
 
 ## Nhận xét & Đánh giá
 
-<chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
+<chapterId>9c4bf742-f774-4d82-bdef-0c5398be7759</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Kỳ thi cuối khóa

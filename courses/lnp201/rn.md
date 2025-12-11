@@ -92,13 +92,13 @@ Ni mwiteguye guhishura uburyo bw’ubuhinga bwa Lightning Network? Reka twinjire
 # Ivy'ishimikiro
 
 
-<partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>
+<partId>c4db4d33-823f-4aad-b5ee-77a9a85447eb</partId>
 
 
 ## Gutahura igitabu Lightning Network
 
 
-<chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
+<chapterId>0760bdb2-5907-4dc1-8fc1-ebe7f05149d4</chapterId>
 
 
 :::id ya videwo=4315a277-12fe-4946-bb49-a807e60c09a7:::
@@ -182,7 +182,7 @@ Aho ni ho iki gice ca mbere gihera, aho twashizeho umushinge wa Lightning Networ
 ## Bitcoin, Amaderesi, UTXO, n’Ivy’Imigenderanire
 
 
-<chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
+<chapterId>24cfbaa4-a8fb-4b76-b755-490b1c61af77</chapterId>
 
 
 :::id ya videwo=75323eef-ea03-45ac-9a6e-46d73ca255de:::
@@ -275,13 +275,13 @@ Iki gice kivuga kuri Bitcoin caratumye dusubiramwo ivyiyumviro bimwebimwe vy’i
 # Gufungura no gufunga imirongo
 
 
-<partId>900b5b6b-ccd0-5b2f-9424-4b191d0e935d</partId>
+<partId>22976fdf-b923-42f1-bfb4-d84fc763e88c</partId>
 
 
 ## Gufungura umurongo
 
 
-<chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
+<chapterId>7b137f2e-af9c-4bc9-8ffe-777ff7bc7eed</chapterId>
 
 
 :::id ya videwo=6098amafaranga1-735e-4d8d-9f57-0faf5fef6d76:::
@@ -383,7 +383,7 @@ Mu gice gikurikira, tuzokwihweza ingene ubuhinga bw’ugucuruza Lightning bukora
 ## Commitment Transaction
 
 
-<chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
+<chapterId>05a128ec-a6df-43b4-a3fe-9f1efab57fbd</chapterId>
 
 
 :::id ya videwo = c17454f3-14c5-47a0-8c9c-42ee12932bd3:::
@@ -472,7 +472,7 @@ Ariko rero, iyo nzira irafise akaga gashobora kubaho, ivyo tuzobibona Address mu
 ## Urufunguzo rwo gukuraho
 
 
-<chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
+<chapterId>be1ec347-83fa-404d-af47-7f352c629aa5</chapterId>
 
 :::id ya videwo=1d850f23-eff1-4725-b284-ce12456a2c26:::
 
@@ -592,7 +592,7 @@ Muri iki gihe c’amahugurwa, ubu urazi ingene imirongo ya Lightning ifungurwa n
 ## Gufunga umurongo
 
 
-<chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
+<chapterId>84258cba-f143-47fd-ae8c-a589cc28cedf</chapterId>
 
 
 :::id ya videwo=4d8ad4e6-32ff-46d3-bd17-343929aa863b:::
@@ -720,13 +720,13 @@ Mu bice bizoza, tuzokwihweza Lightning Network mu buryo bwagutse, twibanda ku ku
 # Urubuga rw'amahera
 
 
-<partId>a873f1cb-751f-5f4a-9ed7-25092bfdef11</partId>
+<partId>b4305510-2b99-4c35-9cbf-738bfdc89d8d</partId>
 
 
 ## Lightning Network
 
 
-<chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
+<chapterId>4b4f4111-398e-491f-8a75-1be65b4c9719</chapterId>
 
 
 :::id ya videwo=38419c23-5592-4573-b0a7-84824a5bfb77::
@@ -910,7 +910,7 @@ Muri iki gice, twasuzumye inzira yo kwishura kuri Lightning Network. Ariko ikiba
 ## HTLC – Igihe ca Hash cafunzwe Contract
 
 
-<chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
+<chapterId>96e7f2b1-8f53-4848-9d2d-f3d4b1c39e0e</chapterId>
 
 
 :::id ya videwo::
@@ -1091,7 +1091,7 @@ Mu gice gikurikira, tuzobona ingene urudodo rutanga amafaranga y’umuravyo ruro
 ## Kurondera inzira yawe
 
 
-<chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
+<chapterId>673e3d66-ade1-4321-8388-a940e661b66a</chapterId>
 
 
 :::id ya videwo=e5baa834-111d-46f5-a28b-3538igitanda2bbb0:::
@@ -1217,13 +1217,13 @@ Mu kigabane gikurikira, tuzokwiga canecane ingene amafagitire akora, hamwe n’i
 # Ibikoresho vya Lightning Network
 
 
-<partId>74d6c334-ec5d-55d9-8598-f05694703bf6</partId>
+<partId>e28a697b-74ff-4a09-bd83-41a02b992517</partId>
 
 
 ## Invoice, LNURL, na Keysend
 
 
-<chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
+<chapterId>eadaa33c-0da9-4031-ab9f-e119226a1652</chapterId>
 
 :::id ya videwo = 309c3412-506e-4189-ad46-5088c55008:::
 
@@ -1388,7 +1388,7 @@ Mu gice gikurikira, tuzobona ingene umukoresha w’uruzitiro ashobora gucunga am
 ## Gucungera amafaranga yawe
 
 
-<chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
+<chapterId>56d28137-25fc-4164-b54f-95ef445ae187</chapterId>
 
 
 :::id ya videwo=96096aef-e4ce-4c44-a022-57e27082232a:::
@@ -1495,14 +1495,14 @@ Mu kigabane gikurikira, ndasaba ko twosubiramwo ivyiyumviro bihambaye cane vy’
 # Genda kure
 
 
-<partId>6bbf107d-a224-5916-9f0c-2b4d30dd0b17</partId>
+<partId>a0323bbb-7f6a-4020-8aa9-5290ac76156c</partId>
 
 
 ## Incamake y'amashure
 
 
 
-<chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
+<chapterId>80b02339-681e-4c6d-8008-0dc8e1a1c5b5</chapterId>
 
 
 :::id y'amasanamu y'amasanamu:::
@@ -1601,20 +1601,20 @@ Twarabonye ko gucunga amafaranga ari ingorane kuri Lightning kugira ngo amafaran
 ## Amasuzuma n'Ibipimo
 
 
-<chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
+<chapterId>174d014a-8f5b-4285-b70b-802dd00028b9</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Ikibazo canyuma
 
 
-<chapterId>7ed33400-aef7-5f3e-bfb1-7867e445d708</chapterId>
+<chapterId>51117a58-542c-4146-bf95-c19f88860120</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## Iciyumviro
 
 
-<chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
+<chapterId>da9ed31b-b8c0-45de-b2a8-2bb5a74dd812</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

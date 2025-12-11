@@ -59,13 +59,13 @@ Gotowy na ponowne odkrycie francuskich korzeni liberalizmu gospodarczego? Do dzi
 # Prekursorzy
 
 
-<partId>91565b10-6010-53cb-a2f4-9c2306c7ef8c</partId>
+<partId>c77622e2-0e20-4de1-a55d-380a454185bc</partId>
 
 
 ## Tło historyczne
 
 
-<chapterId>6a5fd101-6dfd-5d77-96c7-9e1aa4a19758</chapterId>
+<chapterId>eb7344f4-ec44-43ae-83e5-e764e22b7c11</chapterId>
 
 
 Na początku XVIII wieku Francja znajdowała się w niepokojącym stanie. Ludność wiejska ledwo produkowała wystarczająco dużo, aby przetrwać i była obłożona wysokimi podatkami.
@@ -145,7 +145,7 @@ Są to cztery zasady, którymi kierował się francuski rząd przez kilka dekad,
 ## Vauban
 
 
-<chapterId>ee9c1e0e-96cc-5026-a5e2-963d68122786</chapterId>
+<chapterId>6b77468d-b8e3-47d2-b304-c290eea1c7d9</chapterId>
 
 
 Dziś, gdy presja podatkowa w naszym kraju wciąż rośnie, grożąc zduszeniem krajowych sił gospodarczych, pojawiają się głosy na rzecz zmian. Świadomie lub nie, te apele o reformę często odzwierciedlają prace francuskich ekonomistów, którzy od XVII wieku krytykowali krajowy system podatkowy jako chaotyczny, despotyczny i nadmierny.
@@ -212,7 +212,7 @@ Na krótko przed śmiercią pomysł Vaubana został przyjęty przez ministrów L
 ## Boisguilbert
 
 
-<chapterId>200149c6-b5fc-566e-ab0e-bafb1c3fed3c</chapterId>
+<chapterId>e5dd73e0-e48e-43e7-a9af-d651414cfc6b</chapterId>
 
 
 Niewielu francuskich ekonomistów z przeszłości cieszy się dziś uznaniem w swojej ojczyźnie, które dorównuje ich wkładowi, a Boisguilbert nie jest wyjątkiem.
@@ -272,7 +272,7 @@ Boisguilbert krytykował nawet "*dobre dusze*", jak ich nazywał, tych, którzy 
 ## Cantillon
 
 
-<chapterId>bc206d41-6a64-5688-a489-40fcfa0e5397</chapterId>
+<chapterId>7a6654fe-874e-45ca-a98f-1f3d17c09f24</chapterId>
 
 
 Autor "Eseju o naturze handlu w ogólności" (napisanego około 1730 r., opublikowanego w 1755 r.), Richard Cantillon jest uważany za jednego z pionierów współczesnej nauki ekonomicznej. W swojej Historii myśli ekonomicznej ekonomista Murray Rothbard odnosi się nawet do Cantillona jako założyciela nowoczesnej ekonomii.
@@ -335,13 +335,13 @@ Dzięki tej teorii dotyczącej skutków inflacji Cantillon dostarcza nam odpowie
 # Reformatorzy i myśliciele początku XVIII wieku
 
 
-<partId>1f7b50d4-ce93-5db3-8396-43c1fa5419ff</partId>
+<partId>c4403d75-884e-4922-8be7-5121e2709d6a</partId>
 
 
 ## Opat Saint-Pierre
 
 
-<chapterId>13478fe2-4c12-593c-a410-54c2cfb7ef7f</chapterId>
+<chapterId>756469cd-d78c-49aa-926f-7c134e8aa4c6</chapterId>
 
 
 Spośród wszystkich autorów, których zdecydowaliśmy się włączyć do panteonu XVIII-wiecznych francuskich myślicieli leseferystycznych, opat Saint-Pierre jest bez wątpienia najbardziej pomijany.
@@ -407,7 +407,7 @@ Podkreślał również, zanim zrobił to Vincent de Gournay, wartość pracy i z
 ## Markiz d'Argenson
 
 
-<chapterId>e9960ab4-72ec-5afd-8e97-bf89c83b62bc</chapterId>
+<chapterId>3f0c9654-a6f7-47db-8859-836c592127db</chapterId>
 
 
 Markiz d'Argenson jest zapomnianym twórcą doktryny leseferyzmu.
@@ -479,7 +479,7 @@ W kwestii handlu na własne potrzeby d'Argenson nie miał innej odpowiedzi niż 
 ## Vincent de Gournay
 
 
-<chapterId>e8ae40dc-7450-552f-9ddc-9e02936cf425</chapterId>
+<chapterId>7446cc6a-9631-49ca-ac85-c477537b3a8d</chapterId>
 
 
 Vincent de Gournay był jednym z pierwszych przedstawicieli leseferyzmu we Francji i jednym z jego najwcześniejszych orędowników w administracji publicznej i kręgach intelektualnych. Z tego powodu zasługuje na znacznie większe uznanie w historii myśli ekonomicznej, niż zwykle otrzymuje. Starałem się podkreślić jego wkład w niedawnej książce.
@@ -548,7 +548,7 @@ Wiele lat później Turgot, przyszły minister Ludwika XVI, napisał Éloge (poc
 ## Krąg Gournay
 
 
-<chapterId>b86ba6bd-8f3a-5d8f-b098-4d0413f00deb</chapterId>
+<chapterId>6e2a0dbe-3afb-4071-b5f8-ab400da3e891</chapterId>
 
 
 Jeśli chodzi o początki nauk ekonomicznych, historia ma tendencję do podkreślania pierwszej szkoły myślenia: fizjokratów, kierowanej przez François Quesnaya i jego uczniów. Jednak prawie dekadę przed ich powstaniem istniała inna, mniej formalna, ale równie ważna grupa skupiona wokół ekonomisty Vincenta de Gournaya.
@@ -626,7 +626,7 @@ I rzeczywiście, w latach pięćdziesiątych XVII wieku kwestie ekonomiczne sta�
 ## Mirabeau
 
 
-<chapterId>2d2f802b-e3b6-556f-9025-a1b1dc4409ca</chapterId>
+<chapterId>5a11f48f-03ee-4c58-876e-f1c49fbb377a</chapterId>
 
 
 Francja znała dwóch słynnych mężczyzn o imieniu Mirabeau, ojca i syna, ale to syn naprawdę zapisał się w historii. Rewolucyjny trybun i jedna z centralnych postaci wydarzeń Rewolucji Francuskiej, pozostał sławny.
@@ -715,7 +715,7 @@ Przez całe życie Mirabeau pozostawał niestrudzonym pisarzem. Był autorem lic
 ## Quesnay
 
 
-<chapterId>7a35f20b-5ea0-544d-b290-bcd9c6f7f11a</chapterId>
+<chapterId>6025f746-08fe-4406-8793-a0f5b9d64a45</chapterId>
 
 
 François Quesnay jest jednym z najbardziej znanych francuskich ekonomistów.
@@ -797,13 +797,13 @@ Ta książka zebrała główny wkład Quesnaya. Przedstawiono w niej ekonomiczny
 # Szkoła fizjokratyczna
 
 
-<partId>27af82c1-ad82-5c3b-8ce9-c674b67bbf7c</partId>
+<partId>d8a123a2-c47e-4aa4-873b-1b5a75fe313b</partId>
 
 
 ## Historia fizjokratów
 
 
-<chapterId>4236ff8b-b53a-59e7-92c0-f96f9afa1c00</chapterId>
+<chapterId>b039837d-d765-43fc-a3dd-e492d7caf4c3</chapterId>
 
 
 Fizjokracja stała się modna we Francji, a nawet w całej Europie, zaledwie przez dekadę. Po długim okresie rozwoju zyskała na znaczeniu w połowie lat sześćdziesiątych XVII wieku. Zanim Turgot doszedł do władzy w 1776 r., ruch ten stracił już na popularności, a minister w większości ukrywał swoje poparcie dla szkoły Quesnaya.
@@ -876,7 +876,7 @@ Fizjokracja nadal wywierała wpływ aż do rewolucji. We Francji, najpierw przez
 ## Podstawy doktryny fizjokratów
 
 
-<chapterId>4dbe5436-0578-57c2-b054-03ed00aa091a</chapterId>
+<chapterId>57beea84-ff70-4757-b5f4-9f2d18deec18</chapterId>
 
 Termin Physiocracy, oznaczający "rząd z natury", został wymyślony przez Dupont de Nemours i użyty jako tytuł *Physiocracy*, zbioru artykułów Quesnaya opublikowanych w 1768 roku.
 
@@ -975,7 +975,7 @@ Zaciekli przeciwnicy niewolnictwa, fizjokraci byli również wielkimi pacyfistam
 ## Osiągnięcia i wpływy fizjokratów
 
 
-<chapterId>5b911105-796a-5e2e-a501-c7a364fc758e</chapterId>
+<chapterId>9ebd22fa-9f00-4148-871b-7e12874b18c0</chapterId>
 
 
 Jak widzieliśmy w pierwszym z trzech rozdziałów poświęconych fizjokratom, zwolennicy Quesnaya byli wściekli we Francji przez około dekadę. Entuzjazm dla ich idei kształtował się zarówno w ich czasach, jak i trwał do końca wieku. Tutaj przyjrzymy się niektórym z ich osiągnięć i wpływowi, jaki wywarli na swoich następców w dziedzinie myśli ekonomicznej.
@@ -1054,7 +1054,7 @@ Niestety, Quesnay zmarł dwa lata przed publikacją książki Smitha, a Smith us
 ## Dupont de Nemours
 
 
-<chapterId>6d585e0f-93b8-5b0a-a0a8-7f6e4a5bc68e</chapterId>
+<chapterId>be6cf3ea-a927-4407-b232-98c703a3a4ed</chapterId>
 
 
 
@@ -1145,13 +1145,13 @@ Pomimo tego bogatego w wydarzenia życia, podczas którego opublikował dziesią
 # Oświecenie i ekonomia polityczna
 
 
-<partId>d1c885ad-7cb1-5f81-816c-be312719d9f8</partId>
+<partId>c8a1fe43-bdb6-48d8-9542-4d086cdffab3</partId>
 
 
 ## Wolter i filozofowie
 
 
-<chapterId>16bcf7bf-dad4-5113-8c64-2800f04ff07b</chapterId>
+<chapterId>57749874-730e-452d-a53d-d3297eb81e9f</chapterId>
 
 
 W XVIII wieku we Francji pojawiła się ekonomia jako nauka i pierwsza szkoła myśli ekonomicznej: Fizjokracja. Adam Smith szkolił się w ekonomii w tym okresie, a francuscy ekonomiści byli uznawani na całym świecie za liderów. Wiek ten jest jednak pamiętany bardziej jako wiek filozofii niż ekonomii. Podczas gdy ruch fizjokratyczny w swoich ambicjach był zgodny z filozofią oświecenia, postawy filozofów - zwłaszcza Diderota i Woltera - zasługują na dokładną analizę. Przekonamy się, że oświeceniowi myśliciele znacząco przyczynili się do rozpowszechnienia idei leseferyzmu we Francji.
@@ -1210,7 +1210,7 @@ Ostatecznie związek filozofów z myślą ekonomiczną jest mieszany. Pomimo ich
 ## Turgot, teoretyk
 
 
-<chapterId>a8cd8185-8351-556b-8011-3a0c313e8a9d</chapterId>
+<chapterId>e6b12aac-aa56-4932-8ca2-67efb9aa4d72</chapterId>
 
 
 W słynnym fragmencie swojej *Historii myśli ekonomicznej* amerykański ekonomista Murray Rothbard chwalił to, co nazwał "błyskotliwością" Turgota.
@@ -1307,7 +1307,7 @@ Znajdujemy tu bardzo jasne stwierdzenie doktryny leseferyzmu, a także zapowied�
 ## Turgot, reformator
 
 
-<chapterId>9177429f-1679-51c4-bfd2-dd036d24a1cc</chapterId>
+<chapterId>32c45d6f-511e-48d4-980f-aca5f2ec8464</chapterId>
 
 
 Jak pokrótce przypomnieliśmy w poprzednim rozdziale, Turgot był synem prominentnej rodziny, która wyróżniała się na wyższych szczeblach francuskiej służby cywilnej.
@@ -1388,7 +1388,7 @@ Ostatecznie zwyciężyły parlements i klasy uprzywilejowane. Król mógł jedyn
 ## Condillac
 
 
-<chapterId>0ba8dbb5-dcd5-5981-bf85-6c185e0bf192</chapterId>
+<chapterId>f3f1683a-4bcd-4b2a-b5d1-ec0e94c3b457</chapterId>
 
 
 Podobnie jak merkantylizm, który jest jego najbardziej oczywistym praktycznym przejawem, sofistyka Montaigne'a potrzebowała wiele czasu, by zniknąć.
@@ -1467,7 +1467,7 @@ Dlatego też całkowicie niszczą krytykę wolnego handlu, ponieważ protekcjoni
 ## Condorcet
 
 
-<chapterId>99e4aba6-da7f-5041-b02f-337158381515</chapterId>
+<chapterId>55fbdf44-8975-44af-b161-f36d69a49347</chapterId>
 
 
 Condorcet jest bez wątpienia najbardziej ekonomicznie myślącym filozofem Oświecenia.
@@ -1524,7 +1524,7 @@ Chociaż poświęcił całą swoją energię na obronę Turgota, Condorcet nie m
 ## Liberalny zdrowy rozsądek w czasach rewolucji
 
 
-<chapterId>95e9a90d-e37a-58ff-b1ac-928b42e76ecf</chapterId>
+<chapterId>37ad7db0-ed45-44ba-8bef-d1fa323dbe8e</chapterId>
 
 
 Dupont de Nemours był najmłodszym uczniem François Quesnaya, który kiedyś powiedział o nim: "Musimy dbać o tego młodego człowieka, bo będzie przemawiał, gdy my będziemy martwi". Kiedy rozpoczęła się rewolucja francuska, prawie wszyscy wielcy fizjokraci, w tym markiz de Mirabeau, już nie żyli; sam Mirabeau zmarł 13 lipca 1789 roku.
@@ -1598,7 +1598,7 @@ Ale po raz kolejny nikt go nie słuchał.
 ## Podsumowanie: Przekazywanie pochodni
 
 
-<chapterId>ada8082f-db96-5e52-954f-719b47998153</chapterId>
+<chapterId>691a1639-3e28-4401-bc29-6b17abcfc333</chapterId>
 
 
 Francuska myśl ekonomiczna XVIII wieku jest często przyćmiewana przez bardziej znanych ekonomistów XIX wieku. Jednak jeśli chodzi o obronę wolności, to właśnie w XVIII wieku wszystko się zaczęło. Jest to wiek, w którym zasada leseferyzmu, tak rewolucyjna w swoim czasie, została po raz pierwszy jasno wyrażona przez wielu myślicieli, od Boisguilberta po Dupont de Nemours.
@@ -1652,7 +1652,7 @@ Wszystkie te idee zostały podjęte przez ekonomistów XIX wieku. Niektórzy, ja
 ## Biografia
 
 
-<chapterId>17cf2865-e53c-5f3b-a5c2-a43560efaf01</chapterId>
+<chapterId>9daf678b-2687-4a2f-a490-8826538c1b49</chapterId>
 
 
 **WYBIÓRCZA BIBLIOGRAFIA**
@@ -1735,27 +1735,27 @@ Poniżej znajduje się wybór ponad trzydziestu tekstów:
 # Sekcja końcowa
 
 
-<partId>385bffab-aea1-5bcd-9569-62b3f30665b7</partId>
+<partId>aa809524-47cd-4945-92d0-2e674b98e2e2</partId>
 
 
 ## Recenzje i oceny
 
 
-<chapterId>a1e689d9-abd0-5dcb-ba56-a8d355d0a84f</chapterId>
+<chapterId>e13b6e40-2801-4e3c-8ed1-1c9144f47e27</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Egzamin końcowy
 
 
-<chapterId>bdb7fd98-33e7-11f0-9fe6-b785c859ffc5</chapterId>
+<chapterId>9da23eb9-a79c-4cf3-8b73-b64a9b3f45d1</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## Wnioski
 
 
-<chapterId>3b366ff6-03c8-5f6a-b4c0-ba8186e65d7e</chapterId>
+<chapterId>027ecdbb-a845-4232-be81-92e1b7101618</chapterId>
 
 
 <isCourseConclusion>true</isCourseConclusion>

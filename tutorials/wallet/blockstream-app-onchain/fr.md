@@ -142,7 +142,7 @@ Avant d'envoyer des fonds sur une adresse associée à cette seed phrase, vous d
 
 Pour cela nous allons noter une référence, supprimer le wallet, le restaurer avec la sauvegarde, et vérifier que la référence est inchangée.
 
-- Sur l'écran d'accueil du wallet, cliquez sur l'onglet "Paramètres", puis sur "Wallet Details", et copiez la zPub ([clé publique étendue](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602)) :
+- Sur l'écran d'accueil du wallet, cliquez sur l'onglet "Paramètres", puis sur "Wallet Details", et copiez la zPub ([clé publique étendue](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/0488ec38-da31-46a1-b31e-04b5c05fb6e8)) :
 
 ![image](assets/fr/09.webp)
 

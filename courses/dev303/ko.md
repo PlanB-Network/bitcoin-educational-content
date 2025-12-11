@@ -19,10 +19,10 @@ No prior Rust or Bitcoin development is strictly required, though familiarity wi
 +++
 
 # Introduction
-<partId>594ab43f-7216-5326-ab41-f92b85be4581</partId>
+<partId>f07f61f2-1411-4c1f-9425-a8454b5a6411</partId>
 
 ## Course overview
-<chapterId>36526df2-66a2-58df-8f38-378fb553f08c</chapterId>
+<chapterId>7a951595-bf4d-441b-9ebb-7cb22d9f87f8</chapterId>
 
 **Introduction**
 
@@ -43,10 +43,10 @@ You’ll learn how to develop LN nodes using various SDKs like Breez SDK and Gre
 
 Ready to grow your Lightning Network skills with Rust? Let’s go!
 # Learn how to code with the rust book
-<partId>152b58c9-fb33-5d3b-9c15-64919869aa34</partId>
+<partId>98f7f95c-f1c5-4487-8050-32902ced259a</partId>
 
 ## Introduction to Rust 
-<chapterId>af7108eb-4974-5ac2-9784-d2a5c0d77a45</chapterId>
+<chapterId>5c36eee0-486c-41e6-8e9b-04bcaa25412f</chapterId>
 <professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
 :::video id=12a518cf-64be-43f1-b6d4-f6592a1324ea:::
@@ -123,7 +123,7 @@ Array access uses square bracket notation like most languages, but Rust provides
 
 
 ## Ownership and Memory Safety in Rust
-<chapterId>918ca359-c123-5414-af01-253016670f3a</chapterId>
+<chapterId>722eee61-b5ce-4904-bfea-ccead8ef5d98</chapterId>
 
 :::video id=8ed76bae-7c30-4aac-9f28-bb4cbb9180e4:::
 
@@ -178,7 +178,7 @@ The relationship between owned types (String, Vec<T>) and their borrowed slice c
 
 
 ## Structures, Building Complex Data Types
-<chapterId>0278ed13-68b6-59e1-97c5-f8dde505549b</chapterId>
+<chapterId>cca20f50-afab-4f73-9775-af099c451e0a</chapterId>
 
 :::video id=c78a543f-1462-43a1-9845-889d310d31a4:::
 
@@ -262,7 +262,7 @@ For safe character-by-character processing, strings provide iterator methods lik
 
 
 ## Rust's Two-Category Error Handling System
-<chapterId>915e523a-8fbd-5789-ab42-99b56a2a16c3</chapterId>
+<chapterId>ccb0e08d-8010-4b0d-8939-9cebaf88a029</chapterId>
 
 :::video id=0f2f6f68-52ca-474f-a64f-ba61cdc92821:::
 
@@ -310,7 +310,7 @@ Consider creating custom types that enforce validation at construction time to p
 
 ## Functional Programming Features, Closures and Smart Pointers
 
-<chapterId>96d54999-cdbc-5601-acac-1bc7acbe2eb7</chapterId>
+<chapterId>e9dd9c6f-d90c-40e4-8e9f-06839cf1df73</chapterId>
 
 :::video id=5514da77-5b71-4763-96b8-49eb21291c2b:::
 
@@ -414,7 +414,7 @@ This foundation of closures, iterators, and smart pointers provides Rust develop
 
 
 ## Reference Counting and Interior Mutability
-<chapterId>a66c63ed-9514-51d1-b3a0-c8edb57603bb</chapterId>
+<chapterId>94a5a6d9-b2fa-4efe-914c-5b2946e01035</chapterId>
 
 :::video id=44c681d1-d154-4240-b3e8-15590cbfcbd2:::
 
@@ -469,7 +469,7 @@ The combination of Arc and Mutex creates a powerful pattern for shared mutable s
 The Send and Sync traits work behind the scenes to ensure thread safety at compile time. Send indicates that a type can be safely transferred to another thread, while Sync indicates that references to a type can be safely shared between threads. Most types automatically implement these traits when their components are thread-safe, but some types like RC and RefCell explicitly don't implement them because they're not designed for concurrent access. This automatic trait implementation prevents accidental introduction of thread safety violations while allowing safe types to work seamlessly in concurrent contexts.
 
 ## Understanding Rust Macros
-<chapterId>21cf8dab-239a-580a-85cd-34326aeb1b26</chapterId>
+<chapterId>f7171cb9-2d19-4b31-8578-30d3f02fc014</chapterId>
 
 :::video id=5e96914d-df02-4781-ae54-b06008952301:::
 
@@ -511,10 +511,10 @@ Complex macros can implement recursive patterns, where a macro calls itself with
 
 
 # Rust & Bitcoin 
-<partId>0f4f2ff0-7f41-5ce3-8f64-9ecff69c5355</partId>
+<partId>82df1a55-9d93-4ee7-8711-9abb67d79437</partId>
 
 ## Why Rust for Bitcoin Development
-<chapterId>92f13f36-70bd-5b00-8c6c-fcd1a1bd1531</chapterId>
+<chapterId>bd215421-2ff4-486e-816e-07bab62170d2</chapterId>
 
 :::video id=f59c4951-e109-4c70-b7da-41721e50ab04:::
 
@@ -563,7 +563,7 @@ This approach to error handling, combined with Rust's type system and tooling, c
 
 
 ## Error model
-<chapterId>1a648363-0aff-54dd-a79d-ead75231e5d6</chapterId>
+<chapterId>50933785-7078-4160-8727-66aa3fb23c47</chapterId>
 
 :::video id=9fac0184-8443-4c36-8afd-8acb21fb43c3:::
 
@@ -605,7 +605,7 @@ More sophisticated error handling approaches involve creating custom error types
 
 ## UniFFI, Bridging Rust Libraries to Multiple Languages
 
-<chapterId>fe1be3e3-2288-5a10-b64b-9ba72fb985d1</chapterId>
+<chapterId>4b34cdf4-e987-4881-a4c3-296a63a4fa88</chapterId>
 
 :::video id=b1a0f5f6-fc29-4b83-9c09-0b24711654e2:::
 
@@ -650,7 +650,7 @@ Examining real-world UDL files from these projects reveals patterns and best pra
 However, UniFFI does have notable limitations that developers must consider. The most significant is the lack of support for asynchronous interfaces. All generated bindings are synchronous, requiring developers to handle asynchronous operations within their Rust code and present synchronous interfaces to consuming applications. Additionally, documentation placement presents a challenge: documentation written in Rust code doesn't transfer to generated bindings, while documentation in UDL files isn't available to direct Rust consumers of the library. While there are ongoing efforts to address these limitations through automatic parsing and generation, they remain considerations for current implementations. Finally, UniFFI generates language bindings but doesn't handle the platform-specific packaging and distribution, leaving developers to manage the final steps of creating distributable packages for each target platform.
 
 ## Async traits
-<chapterId>e1610abe-574c-5995-abe4-a92b0dca4c93</chapterId>
+<chapterId>ad38d601-c57a-4a4c-acfd-e4f4e9df210a</chapterId>
 
 :::video id=8926dd48-3613-43b6-a509-60ba26ec337f:::
 
@@ -687,10 +687,10 @@ Additionally, the project explores progress bar implementation through dedicated
 The project setup begins with creating a new Cargo application using `cargo new guess`, followed by navigating to the project directory and running the initial build. Dependencies can be added efficiently using Cargo's built-in dependency management, which automatically updates the project's configuration file with the required library information.
 
 # Developping LNP/BP with SDK
-<partId>42e8e0f8-1c07-5c71-8378-c57afb38e25d</partId>
+<partId>c73a09b6-72f6-4f12-880d-63237ccd1471</partId>
 
 ## LN node on SDK
-<chapterId>643e4670-bb1f-581f-a102-f84e8e5d2a02</chapterId>
+<chapterId>1ae00d22-b9b7-45c6-a6b4-59753b38e9cb</chapterId>
 
 :::video id=94b9bee6-154e-4b9c-a8ce-5e2d9e9656a2:::
 
@@ -735,7 +735,7 @@ The library's language binding system enables LDK integration across multiple pr
 Fee estimation and transaction broadcasting represent additional areas where LDK's flexibility proves valuable. Applications can implement custom fee estimation strategies that account for their specific operational patterns and user requirements. Similarly, transaction broadcasting can be customized to work with various Bitcoin network interfaces, from direct full node connections to third-party broadcasting services. This flexibility ensures that LDK-based applications can optimize their blockchain interactions for their particular use cases while maintaining Lightning protocol compliance and security standards.
 
 ## Breez sdk
-<chapterId>52f20a4d-7d81-58e4-be00-9d39334352af</chapterId>
+<chapterId>4f15f703-bf22-493c-8cce-5e5262df324d</chapterId>
 
 :::video id=68d1f253-6210-4eab-8329-b676e5772eac:::
 
@@ -778,7 +778,7 @@ Key components work together seamlessly to provide this simplified experience. T
 The SDK's trustless architecture ensures that while Greenlight can observe channel states and routing information, they cannot access user funds or perform unauthorized operations. Users maintain complete control over their private keys, which never leave their devices. This approach represents a carefully considered trade-off between operational simplicity and privacy, providing a practical path for mainstream Lightning adoption while preserving Bitcoin's core principles of financial sovereignty.
 
 ## Greenlight for Lipa
-<chapterId>7ba30435-d26e-5e6f-a973-94080d44bf27</chapterId>
+<chapterId>4ddec7ad-55f6-4a1d-b1c3-2f32c6f7c780</chapterId>
 
 :::video id=c3dec3df-1416-4761-b7c8-e1d66d27e390:::
 
@@ -821,7 +821,7 @@ Despite these centralization concerns, the practical benefits often outweigh the
 
 
 ## Breez SDK for Lipa
-<chapterId>93d87d63-dd7b-5e05-ad2e-dda12915ea32</chapterId>
+<chapterId>2ef07dd5-3c50-4c93-b20a-e89200001140</chapterId>
 
 :::video id=f2770a37-a22f-43d7-9334-8de60eaacff8:::
 
@@ -927,14 +927,14 @@ Organizations must carefully evaluate whether their specific use case justifies 
 The rapid evolution of the Lightning ecosystem also means that solutions developed today may require significant updates as standards and best practices continue evolving. Development teams must plan for ongoing maintenance and updates rather than treating Lightning wallet development as a one-time implementation project. This long-term commitment requirement should factor into strategic planning and resource allocation decisions.
 
 # Final Section
-<partId>aff1e861-e6a3-58ad-af6a-33ceaedbda99</partId>
+<partId>ca7736d8-4015-4b8c-80e0-14c98b3a85f9</partId>
 
 
 ## Reviews & Ratings
-<chapterId>9331e519-9e5c-5639-9d0d-055587d8ba4c</chapterId>
+<chapterId>6f6d5b44-f3f2-406f-8a1e-f220a103c94a</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Conclusion
-<chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
+<chapterId>b8b6851c-0272-4cd8-99f1-2f4e1ccfed64</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
 

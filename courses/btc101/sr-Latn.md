@@ -25,13 +25,13 @@ Nije potrebno prethodno znanje da biste započeli ovaj kurs. BTC 101 je osmišlj
 # Uvod
 
 
-<partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
+<partId>34ab5c9f-08b8-4324-a53e-582c63a2b1ea</partId>
 
 
 ## Pregled kursa
 
 
-<chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
+<chapterId>a47e30ce-f437-404b-99e0-0c1cf1a78f37</chapterId>
 
 
 Dobrodošli na kurs BTC101!
@@ -127,7 +127,7 @@ Spremni da zaronite u fascinantan svet Bitkoina i razumete sve njegove unutrašn
 ## Praistorija Bitkoina
 
 
-<chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
+<chapterId>0824f3a8-502a-4321-bb0d-13ccba37f3fa</chapterId>
 
 
 Pre nego što je termin "Bitkoin" postao sinonim za digitalnu valutu i finansijsku transformaciju, osnova za njegovo stvaranje postavljena je nizom ideja, inovacija i društvenih pokreta. Među njima, pokret Cypherpunk ističe se kao ključni element u preistoriji Bitkoina.
@@ -212,13 +212,13 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 # Novac
 
 
-<partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
+<partId>c7430a3c-6419-465e-b84d-d677e277f732</partId>
 
 
 ## Novac kroz istoriju
 
 
-<chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
+<chapterId>84047ee5-9f48-4105-9849-8be318496304</chapterId>
 
 
 Evolucija novca je fascinantan aspekt ljudske istorije koji odražava domišljatost civilizacija kroz vekove u ispunjavanju stalno promenljivih ekonomskih potreba.
@@ -310,7 +310,7 @@ S druge strane, Bitkoin predstavlja nove mogućnosti. Njegova svojstva, kao što
 ## Fiducijarne valute
 
 
-<chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
+<chapterId>8c6dbe02-c275-4568-bd1b-fc36b8d4796d</chapterId>
 
 
 > "Oni koji ne pamte prošlost, osuđeni su da je ponavljaju", rekao je George Santayana.
@@ -392,7 +392,7 @@ https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 ## Hiperinflacija
 
 
-<chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
+<chapterId>3f99733a-7a40-42a8-870c-cc4947560bba</chapterId>
 
 
 Hiperinflacija je monetarni fenomen koji je specifičan za fiat valute: karakteriše se potpunim gubitkom poverenja u valutu i drastičnim povećanjem inflacije usled štampanja novca od strane vlasti. Kao rezultat toga, štednja koju su pojedinci akumulirali može nestati u relativno kratkom vremenskom periodu, gurajući zemlju na ivicu ekonomskog, društvenog i političkog kolapsa.
@@ -530,7 +530,7 @@ https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 ## 21 milion Bitkoina
 
 
-<chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
+<chapterId>e6172b08-5916-4f9f-a06f-4405c52c06ab</chapterId>
 
 
 ### Monetarna politika Bitkoina
@@ -580,7 +580,7 @@ Nakon uspešnog izvršavanja ovog zadatka, rudari dobijaju nagradu u vidu izdava
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Ponovo ćemo razmotriti koncept Mining detaljnije u [Miner poglavlju](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+Ponovo ćemo razmotriti koncept Mining detaljnije u [Miner poglavlju](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/f2ce96f9-66d5-4286-9a18-9e1506b369b5).
 
 
 ### Garantovanje digitalne oskudice
@@ -652,13 +652,13 @@ Ukratko, Bitkoin, sa svojom decentralizovanom prirodom, programiranom oskudicom 
 # Bitkoin Novčanici
 
 
-<partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
+<partId>3b488c45-d286-4083-8824-ec259cc2a324</partId>
 
 
 ## Šta su Bitkoin novčanici?
 
 
-<chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
+<chapterId>149c6588-94ae-46b6-b073-9ffc18912397</chapterId>
 
 
 U odeljku 2, istražićemo skladištenje i sigurnost Bitkoina kroz korišćenje novčanika, kako bismo razumeli gde se nalaze ovi poznati bitkoini i kako komunicirati sa njima!
@@ -755,7 +755,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 ## Bitkoin Novčanici i sigurnost
 
 
-<chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
+<chapterId>40485240-351a-471c-b017-faebfb836470</chapterId>
 
 
 ### Postavljanje pravih pitanja pre početka
@@ -852,7 +852,7 @@ Imajući ovo na umu, sada možemo preći na sledeći deo gde opisujemo kako krei
 ## Podešavanje Novčanika
 
 
-<chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
+<chapterId>1bfd3d5d-a81b-4b7f-ad88-4bf41593606a</chapterId>
 
 
 Bezbednost vaših bitkoina je od presudnog značaja, i jednostavna greška može imati katastrofalne posledice. Zato moramo naučiti najbolje prakse koje treba usvojiti prilikom kreiranja novog Bitkoin novčanika.
@@ -916,7 +916,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 ## Prolazak testa vremena
 
 
-<chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
+<chapterId>7dd119da-9073-4e03-ab83-e45890616790</chapterId>
 
 
 Kao i svaki oblik bogatstva, vaši bitkoini moraju biti zaštićeni od gubitka, krađe i degradacije, posebno na duži rok. Zaštita vaših bitkoina zahteva određeno tehničko znanje i razumevanje povezanih rizika, što otvara put ka dve glavne strategije: graviranje vaših reči na čeličnu ploču i uspostavljanje plana nasledstva.
@@ -988,13 +988,13 @@ Sada kada smo pokrili osnove Bitkoin novčanika i najbolje prakse za njihovu za�
 # Tehnički aspekti Bitkoina.
 
 
-<partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
+<partId>8b110fdd-b51f-48a9-a966-33649e55c971</partId>
 
 
 ## Pokretanje Bitkoina
 
 
-<chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>
+<chapterId>76ab52b9-2c33-4242-9db1-64fb1fb92b4e</chapterId>
 
 
 ### Hajde da počnemo sa malo istorije.
@@ -1074,7 +1074,7 @@ Sada kada imamo neku pozadinu, hajde da pogledamo kako Bitkoin transakcija funkc
 ## Bitkoin Transakcije
 
 
-<chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
+<chapterId>be72afa9-8198-45a5-95a8-3c87f971fbb2</chapterId>
 
 
 Bitkoin transakcija je jednostavno transfer vlasništva nad bitkoinima kroz korišćenje Bitkoin adrese. Da bismo opisali ovaj proces, hajde da uvedemo dva protagonista: Alisa i Bob. Alisa želi da nabavi bitkoine, dok Bob već poseduje neke.
@@ -1161,7 +1161,7 @@ Hajde da detaljnije pogledamo kako funkcioniše Bitkoin čvor.
 ## Bitkoin Čvorovi
 
 
-<chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
+<chapterId>430fdc8d-d60c-4dde-a7a5-96916f40056e</chapterId>
 
 
 Čvorovi su osnovni element arhitekture Bitkoin mreže, jer obavljaju različite ključne funkcije:
@@ -1233,7 +1233,7 @@ Nakon ove pobede, čvorovi su aktivirali ažuriranje pod nazivom SegWit, otvaraj
 ## Rudari
 
 
-<chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
+<chapterId>f2ce96f9-66d5-4286-9a18-9e1506b369b5</chapterId>
 
 
 **Rudari osiguravaju mrežu i dodaju transakcije u blokove. Koriste električnu energiju putem ASIC mašina da reše Bitkoin Proof of Work(dokaz o radu).**
@@ -1353,7 +1353,7 @@ https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 ## Bitkoin i ekologija
 
 
-<chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
+<chapterId>68cc1d11-d355-479f-beb1-364ea0f48219</chapterId>
 
 
 U prethodnom delu smo razumeli da se bezbednost Bitkoin protokola oslanja na visoku potrošnju energije kako bi se proizveo javni registar (ledger) transakcija bez pouzdane treće strane. U mejnstrim medijima, ukupni energetski trošak se često poredi sa potrošnjom električne energije male zemlje. Ali da li ovo poređenje ima smisla? Da li je relevantno razumeti razloge iza takvih troškova?
@@ -1438,13 +1438,13 @@ Dakle, Bitkoin protokol je necenzurisan i nezaustavljiv monetarni sistem jer je 
 # Kako doći do bitkoin?
 
 
-<partId>517e1bb7-f032-51a0-930a-a91fe5148d3f</partId>
+<partId>a48118af-b3b8-4f00-bbda-c2c4ca0f788e</partId>
 
 
 ## Bitkoin Nikad Ne Spava!
 
 
-<chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
+<chapterId>648dbb03-969a-46ef-bdae-1463c06a4aaf</chapterId>
 
 
 Cena bitkoina često je karakterizirana značajnom volatilnošću. Njegova vrednost može znatno varirati u zavisnosti od promena na tržištu ili od faza rasta i pada, baš kao i bilo koje drugo finansijsko tržište.
@@ -1532,7 +1532,7 @@ Danas, Bitkoin nastavlja da opstaje i još više raste integracijom u tradiciona
 ## Dobijanje bitkoina radom
 
 
-<chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
+<chapterId>4bcac1ce-e4e1-4fc8-9548-5eb262688ea5</chapterId>
 
 
 ### Paralelna ekonomija se razvija
@@ -1597,7 +1597,7 @@ https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 ## Štednja u bitkoinu
 
 
-<chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
+<chapterId>11782e1e-3807-4669-8c4b-19c431669eba</chapterId>
 
 
 ### Upozorenje pre nego što počnete!
@@ -1743,7 +1743,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 ## Hiper-bitkoinizacija
 
 
-<chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>
+<chapterId>a8cf0971-defd-4bf8-934b-5e412448438e</chapterId>
 
 
 ### Divlja trka tek počinje!
@@ -1778,13 +1778,13 @@ Ako želite da proširite svoje znanje o Bitkoinu, ovo je pravo vreme: veliki br
 # Budućnost Bitkoina: Lightning mreža
 
 
-<partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
+<partId>297f74b5-3ba1-4f63-b41b-43256778bea3</partId>
 
 
 ## Kratak uvod u Lightning mrežu
 
 
-<chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
+<chapterId>ad635a0f-4f91-4cac-843b-b9d51eb0bc9e</chapterId>
 
 
 Sada kada imamo osnove Bitkoin protokola, predstavićemo mrežu plaćanja koja koristi Bitkoin protokol za omogućavanje munjevito brzih transakcija: Lightning Network!
@@ -1849,7 +1849,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 ## Upotrebe Lightning mreže
 
 
-<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+<chapterId>cd29874a-5ea2-4773-a6e4-e8d36b1bb4da</chapterId>
 
 
 Kao što smo upravo videli, Bitkoin protokol, iako revolucionaran, suočava se sa značajnim izazovima u pogledu skalabilnosti potrebne za obradu svih naših dnevnih transakcija. Da bi se rešili ovi problemi, predložena je Lightning mreža i od tada se razvila u nekoliko različitih implementacija, od kojih su sve interoperabilne:
@@ -1897,7 +1897,7 @@ Zaključno, Lightning mreža otvara mnoštvo uzbudljivih upotreba za korisnike B
 ## Crvena pilula ili plava pilula?
 
 
-<chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
+<chapterId>03d79262-a035-4a62-acca-f8ed9ae5a8a4</chapterId>
 
 
 Kao što je Morpheus rekao Neu: "Uzmeš plavu pilulu, priča se završava, probudiš se u svom krevetu i veruješ u šta god želiš da veruješ. Uzmeš crvenu pilulu, ostaješ u Zemlji čuda i pokazujem ti koliko duboko ide zečja rupa." Da li si spreman da istražiš zečju rupu Bitkoina? Budi oprezan, jer bi mogao ponovo otkriti svoju finansijsku slobodu!
@@ -2004,21 +2004,21 @@ Da li ste spremni da se pridružite?
 ## Recenzije i Ocene
 
 
-<chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
+<chapterId>d58144ad-33da-47a6-9030-61b649fe5550</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Završni ispit
 
 
-<chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
+<chapterId>cbf5ded3-69c8-485f-8528-28fc0e7ea299</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## Zaključak
 
 
-<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+<chapterId>8a17f1ba-3ba1-4864-896d-be4cc3d5844a</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
 

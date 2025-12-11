@@ -82,12 +82,12 @@ Bitcoin چیزی فراتر از یک ارز دیجیتال است، این یک
 
 # Bitcoin مقادیر مرکزی
 
-<partId>2d6c683b-54c8-5465-b2ca-4e96a6828834</partId>
+<partId>d4fe3545-ac65-4657-b94e-725fc3d72c9b</partId>
 
 
 ## غیرمتمرکز سازی
 
-<chapterId>9397c84b-0038-5d0e-88d5-11767ce8182d</chapterId>
+<chapterId>568fdd5a-2e8f-4ecd-8aca-da940406134a</chapterId>
 
 
 
@@ -297,7 +297,7 @@ Bitcoin خنثی است، که این یک نکته مثبت است و تنها 
 
 ## بی‌اعتمادی
 
-<chapterId>0506ba61-16a3-543c-95fa-3f3e2dd64121</chapterId>
+<chapterId>5ee5332a-0b2d-4102-b43f-a97d414469f8</chapterId>
 
 
 
@@ -448,7 +448,7 @@ Bitcoin به صورت غیرقابل اعتماد کار می‌کند، اما 
 
 ## حریم خصوصی
 
-<chapterId>1b960afe-0008-589b-b2f4-007d60d264c6</chapterId>
+<chapterId>a8551c2c-7e60-4e3d-bc2e-735716bf5d5f</chapterId>
 
 
 
@@ -667,7 +667,7 @@ https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522
 
 ## متناهی Supply
 
-<chapterId>af125ba2-ef98-5905-8895-41a538fe5ea5</chapterId>
+<chapterId>5200980a-120c-498d-b79e-2c40e7c18dcd</chapterId>
 
 
 
@@ -774,12 +774,12 @@ Supply محدود خواهد شد و این باید، حداقل در تئور�
 
 # Bitcoin حکمرانی
 
-<partId>411bf53f-af4b-50f1-b71b-e40fe3ff64b7</partId>
+<partId>20c2b99e-54af-452d-8442-b8f76317de64</partId>
 
 
 ## ارتقاء
 
-<chapterId>3ffa84d1-adfa-5fbc-9b13-384ea783fcdd</chapterId>
+<chapterId>c61b92be-cf45-4f4d-bdd6-8ea7bbed25b9</chapterId>
 
 
 
@@ -1020,7 +1020,7 @@ Bitcoin با گذشت زمان رشد کرده و تکامل می‌یابد. م
 
 ## تفکر خصمانه
 
-<chapterId>d4982f3d-4694-51cc-99be-28f54b03a2a2</chapterId>
+<chapterId>f321b742-580a-4d4f-81ab-7830c1c3dc6e</chapterId>
 
 
 ![](assets/fa/008.webp)
@@ -1143,7 +1143,7 @@ Bitcoin با گذشت زمان رشد کرده و تکامل می‌یابد. م
 
 ## متن‌باز
 
-<chapterId>427a160c-f893-5b2c-afba-7b24e71ba899</chapterId>
+<chapterId>8672f873-c7dc-4bc2-9f10-8882253ac96e</chapterId>
 
 
 
@@ -1431,7 +1431,7 @@ Bitcoin و کارشناس امنیتی جیمسون لوپ این موضوع ر�
 
 ## مقیاس‌بندی
 
-<chapterId>bb3f3924-202c-5cdd-b2e9-e0c1cab0e48e</chapterId>
+<chapterId>59a8bd2b-2ddf-49d3-ba96-adf696482581</chapterId>
 
 
 
@@ -1706,7 +1706,7 @@ Mining بدون اعتبارسنجی بیشتر تمرکززدایی Full node �
 
 ## وقتی اوضاع به هم می‌ریزد
 
-<chapterId>fe39c13c-310f-51fd-84ff-6b92dd01c9e7</chapterId>
+<chapterId>00130abf-a714-4cfb-b104-e416f27a4557</chapterId>
 
 
 
@@ -2139,7 +2139,7 @@ Bitcoin دارای اشکالاتی است. از افرادی که اشکالا�
 
 ## سؤالات بحث
 
-<chapterId>91462ca7-f09c-55da-a5b9-3e211de31da5</chapterId>
+<chapterId>9a9a2cc0-0fa6-405c-9b7a-348b8ab71a1f</chapterId>
 
 
 این سؤالات بحث فقط خلاصه‌ای از محتوای "Bitcoin توسعه فلسفه" نیستند، بلکه برای تشویق شما به تحقیق بیشتر طراحی شده‌اند، بنابراین حتماً به جستجو و کاوش بپردازید.
@@ -2252,7 +2252,7 @@ Bitcoin دارای اشکالاتی است. از افرادی که اشکالا�
 
 ## آزمون نهایی
 
-<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+<chapterId>c5474163-5282-4300-ac4b-cf9d7fed3618</chapterId>
 
 <isCourseExam>true</isCourseExam>
 

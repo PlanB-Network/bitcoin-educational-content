@@ -24,10 +24,10 @@ En esta página de descripción también mostraremos la imagen `thumbnail.webp` 
 +++
 
 # Esta es una Parte del curso
-<partId>97ccb669-12a0-5eed-83ac-c2f51839d998</partId>
+<partId>74ab6d88-cda7-4da1-9696-8b9b665395f7</partId>
 
 ## Este es un Capítulo del curso
-<chapterId>4dc58281-5179-507c-afde-8c9204cbd3fd</chapterId>
+<chapterId>7f2e6074-c9e4-46a1-a6d5-5999803f366a</chapterId>
 
 ### Esta es una Sección del curso
 
@@ -50,7 +50,7 @@ Aunque todos los formatos de imagen son válidos, preferimos por razones de efic
 
 
 ## Este es el 2do Capítulo
-<chapterId>3ff2a050-c311-55ce-a3c6-3cc450cad1ce</chapterId>
+<chapterId>d405bf07-cee3-4146-86ff-f58c2ccc4188</chapterId>
 
 Un capítulo no necesariamente contiene secciones (`###`) pero una parte debe contener al menos un capítulo.
 
@@ -61,7 +61,7 @@ Un truco interesante es incrustar videos de esta manera:
 ![Música increíble de tip_nz](https://www.youtube.com/watch?v=IO-tUpkygaI)
 
 ## UUIDs de Parte y Capítulo
-<chapterId>eac81877-db9b-5027-87e2-2b28b59459a0</chapterId>
+<chapterId>86a51774-40e6-4d74-b438-a85cb9e9a8df</chapterId>
 
 Para identificar mejor cada elemento del curso, hemos decidido agregar UUIDs para cada Capítulo y Parte. Aquí también hay disponible un script de python para ello, pero los revisores también podrían hacerlo.
 Los UUIDs son idénticos entre 2 idiomas del mismo contenido.

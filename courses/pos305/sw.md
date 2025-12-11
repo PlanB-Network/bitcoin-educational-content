@@ -15,7 +15,7 @@ Iliyoundwa na Alekos na Bas, na kurekebishwa na melontwist na asi0, kozi hii ina
 +++
 # Utangulizi
 
-<partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
+<partId>541d6444-caf8-4e5b-80c3-b97f4d883d57</partId>
 
 ## Muhtasari wa Kozi
 
@@ -41,7 +41,7 @@ Uko tayari kujifunza BTCPay Server na kukuza biashara yako? Twende kazi!
 
 ## Sifa kuu kwa Bitcoin ya Mwandishi na BTCPay Server
 
-<chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
+<chapterId>f0645534-c825-40fb-a190-e24358e8accc</chapterId>
 
 Wacha tuanze na Server ya BTPay ni nini na ilitoka wapi. Tunathamini uwazi na viwango fulani ili kuunda uaminifu katika nafasi ya Bitcoin.
 
@@ -81,7 +81,7 @@ Wakfu wa BTCPay Server, ulioruhusu Alekos na Bas kuandika kozi hii, uko Tokyo, J
 
 ## Utangulizi wa Bitcoin
 
-<chapterId>5c0bc234-c188-5b4a-94d5-adee87a120e2</chapterId>
+<chapterId>ba6af1e5-86f1-4139-a549-df2367d6319a</chapterId>
 
 ### Kuelewa Bitcoin kupitia mazoezi ya darasani
 
@@ -169,7 +169,7 @@ Wateja hununua bidhaa kutoka kwa duka na Bitcoin.
 
 ## Tathmini ya maarifa
 
-<chapterId>1461f064-933d-50ea-8935-324b68ec5d5f</chapterId>
+<chapterId>c8cec6af-1e57-4a0e-a86a-7dc35f5c2350</chapterId>
 
 ### Mjadala wa KA Darasani
 
@@ -191,11 +191,11 @@ Blockchain, Transaction, Double-Spend, Byzantine Generals’ Problem, Mining, Pr
 
 # Tunakuletea BTCPay Server
 
-<partId>9c8a2d0c-9ba1-5c39-874c-f9eaf1bba663</partId>
+<partId>8a8bbf80-1322-4ad0-b49c-9c18b969236d</partId>
 
 ## Kuelewa skrini ya kuingia ya BTCPay Server
 
-<chapterId>14aad54c-9bd8-54f2-9455-178b8ae63408</chapterId>
+<chapterId>2d35d204-1c04-418f-91eb-a7a547ddc210</chapterId>
 
 ### Kufanya kazi na BTCPay Server
 
@@ -263,7 +263,7 @@ Toa sababu kwa nini kutumia Server ya Onyesho ni wazo mbaya kwa madhumuni ya uza
 
 ## Kusimamia akaunti za mtumiaji
 
-<chapterId>b58ca6ee-b7fc-5e81-a6aa-c8ff212b4c55</chapterId>
+<chapterId>7f2dcbc7-ba0b-4515-bf6d-d23ab19c1831</chapterId>
 
 ### Usimamizi wa Akaunti kwenye BTCPay Server
 
@@ -349,7 +349,7 @@ Eleza jinsi 2FA inayotokana na programu, inavyosaidia kulinda akaunti yako
 
 ## Kuunda duka jipya
 
-<chapterId>463b3634-b49f-5512-a711-3b2e096fc2e0</chapterId>
+<chapterId>6e8d48b0-b9b6-4fbd-8961-5cde37109c0d</chapterId>
 
 ### Unda mchawi wa duka lako
 
@@ -407,11 +407,11 @@ Katika sehemu hii, umejifunza:
 
 # Utangulizi wa Kulinda Funguo za Bitcoin
 
-<partId>25da22d8-fd37-51c5-af2a-58b9f3b046b2</partId>
+<partId>dd0975de-76e6-4255-a3b2-e454009d1aa5</partId>
 
 ## Kuelewa Kizazi cha Funguo za Bitcoin
 
-<chapterId>d162735b-847b-578e-83b8-a044ab703ec5</chapterId>
+<chapterId>8a6164a5-aea6-4348-aa71-135d03de98bc</chapterId>
 
 ### Ni nini kinachohusika katika kutengeneza funguo za Bitcoin?
 
@@ -454,7 +454,7 @@ Eleza manufaa ya kutumia address mpya kwa kila muamala ikilinganishwa na kutumia
 
 ## Kulinda funguo na Hardware Wallet
 
-<chapterId>c54a6d61-5a43-5fdb-93ae-c6750de9c612</chapterId>
+<chapterId>94cf5f31-7292-4608-b10e-8e46b1ebd627</chapterId>
 
 ### Kuhifadhi Funguo za Bitcoin
 
@@ -492,7 +492,7 @@ Katika sehemu hii, umejifunza:
 
 ## Kwa kutumia funguo zako za Bitcoin
 
-<chapterId>bff488de-5052-56e6-b696-97e896f762ae</chapterId>
+<chapterId>ae5aafd5-28b7-4ef7-8ebc-3ac5f19769c7</chapterId>
 
 ### Server ya  Wallet Za BTCPay 
 
@@ -735,7 +735,7 @@ Eleza mbinu ya kutengeneza funguo na mpango wa kuzilinda, pamoja na maelewano/ha
 
 ## Lightning wa Server ya wallet ya BTCPay
 
-<chapterId>1bbece7e-0197-57e6-a93a-561cf384d946</chapterId>
+<chapterId>ca874f9a-4f97-44d5-9bf4-57c8b17d25bf</chapterId>
 
 Wakati msimamizi wa server anaweka mfano mpya wa BTCPay Server, anaweza kuweka utekelezaji wa Lightning Network, LND, Core Lightning, au Eclair; tazama Sehemu ya Kusanidi BTCPay Server kwa maagizo ya kina zaidi ya usakinishaji.
 
@@ -918,11 +918,11 @@ Eleza baadhi ya chaguo mbalimbali za kuunganisha  wallet la lightning kwenye duk
 
 # BTCPay Server kiolesura
 
-<partId>25e88b81-e1ab-515f-a035-09f2a3075556</partId>
+<partId>76b4a36d-9cf8-469d-a763-a75cc38c812a</partId>
 
 ## Muhtasari wa dashibodi
 
-<chapterId>410ff28b-a272-5c91-93e0-48d5b28c53ab</chapterId>
+<chapterId>8bd1c31e-a487-4c32-b3af-bcecc7117a80</chapterId>
 
 BTCPay Server ni kifurushi cha programu cha kawaida. Hata hivyo, kuna viwango ambavyo kila BTCPay Server itakuwa navyo na Msimamizi/watumiaji wataingiliana navyo. Kuanzia na Dashibodi. Sehemu kuu ya kuingilia kwa kila BTCPay Server baada ya kuingia. Dashibodi inatoa muhtasari wa jinsi duka lako linavyofanya kazi, salio la sasa la  Wallet na tx za mwisho katika siku 7 zilizopita. Kwa vile ni mwonekano wa kawaida, Programu-jalizi zinaweza kutumia mwonekano huu kwa manufaa yao na kuunda vigae vyao kwenye Dashibodi. Kwa kitabu hiki cha kozi, tutazungumza tu kuhusu programu jalizi/programu za kawaida na mitazamo yao katika BTCPay Server.
 
@@ -1008,7 +1008,7 @@ Orodhesha vigae vingi kutoka kwenye kumbukumbu uwezavyo kutoka kwenye Dashibodi.
 
 ## BTCPay Server - Mipangilio ya Hifadhi
 
-<chapterId>e8faef7b-278d-550e-a511-bc3a442daf64</chapterId>
+<chapterId>00ff7c8c-46f9-4d88-92cc-c63e4ff348f9</chapterId>
 
 Ndani ya programu ya BTCPay Server, tunajua aina 2 za mipangilio. Mipangilio mahususi ya Duka la BTCPay Server, kitufe cha mipangilio kinachopatikana katika upau wa menyu ya kushoto chini ya Dashibodi, na mipangilio ya BTCPay Server, inayopatikana chini ya upau wa menyu kulia juu ya Akaunti. Mipangilio mahususi ya BTCPay Server inaweza tu kutazamwa na wasimamizi wa Server.
 
@@ -1345,7 +1345,7 @@ Eleza baadhi ya chaguo unazoweza kuchagua katika Muonekano wa Malipo > Mipangili
 
 ## BTCPay Server - Mipangilio ya server
 
-<chapterId>1dd858a2-49ea-586b-9bc1-75a65f508df6</chapterId>
+<chapterId>07022d6d-594f-46d7-8363-c8c16a561f4f</chapterId>
 
 BTCPay Server ina mionekano miwili tofauti ya mipangilio. Moja imejitolea kwa mipangilio ya Hifadhi na nyingine kwa mipangilio ya Server. Mwisho unapatikana tu ikiwa wewe ni Msimamizi wa Server na si kwa wamiliki wa maduka. Wasimamizi wa server wanaweza kuongeza watumiaji, kuunda majukumu maalum, kusanidi server ya barua pepe, kuweka sera, kuendesha kazi za ukarabati, kuangalia huduma zote zilizoambatishwa kwenye BTCPay Server, kupakia faili kwenye server, au kuangalia Kumbukumbu.
 
@@ -1759,7 +1759,7 @@ Eleza baadhi ya vitendo ambavyo msimamizi anaweza kufanya mara kwa mara katika k
 
 ## BTCPay Server - Malipo
 
-<chapterId>e2b71ff9-3f4f-5e71-9771-8e03fbbef00f</chapterId>
+<chapterId>1f6899d4-85c1-41fe-8f23-4a7bec44e9c2</chapterId>
 
 Address ya ununuzi ni hati ambayo muuzaji hutoa kwa mnunuzi ili kukusanya malipo.
 
@@ -2010,7 +2010,7 @@ Je, malipo ya kuvuta yanapanukaje juu ya kile ambacho kinaweza kufanywa kwa On-C
 
 ## Programu-jalizi Chaguomsingi za BTCPay Server
 
-<chapterId>7d673dc4-bd5d-5411-819b-f135f1d86636</chapterId>
+<chapterId>2d994561-7f8d-4862-8b9f-cee7d81df6f2</chapterId>
 
 ### Programu-jalizi na Programu Chaguomsingi
 
@@ -2351,11 +2351,11 @@ Je, ni programu jalizi tatu zilizojengewa ndani ambazo huja kawaida na BTCPay Se
 
 # Inasanidi BTCPay Server
 
-<partId>ff38596c-7de3-5e5c-ba50-9b9edbbbb5eb</partId>
+<partId>c3a8bd83-0676-4388-87b2-325d67f43d9d</partId>
 
 ## Uelewa wa kimsingi wa kusakinisha BTCPay Server kwenye mazingira ya LunaNode
 
-<chapterId>d0a28514-ffcf-529b-9156-29141f0b060a</chapterId>
+<chapterId>f0f934af-eb3c-4d86-bd7b-3fee8fb7c10e</chapterId>
 
 ### Inasakinisha BTCPay Server kwenye Env Iliyopangishwa. (LunaNode)
 
@@ -2451,7 +2451,7 @@ Eleza baadhi ya tofauti kati ya kuendesha mfano wa BTCPay Server kwenye VPS dhid
 
 ## Kufunga BTCPay Server kwenye mazingira ya Voltage
 
-<chapterId>11c7d284-b4d2-5542-872c-df9bd9c1491b</chapterId>
+<chapterId>ef790587-4c73-4311-96f1-5a9219b9a7fd</chapterId>
 
 Utafahamu Voltage.cloud kama mtoa huduma wa upangishaji, pata maelezo kuhusu hatua za kwanza za kutumia Server yako ya BTCPay, na ujifunze jinsi ya kutumia Lightning Network. Baada ya kupitia hatua zote, unaweza kuendesha webshop au jukwaa la watu wengi kupokea Bitcoin!
 
@@ -2501,7 +2501,7 @@ Ni tofauti gani kuu kati ya usanidi wa Voltage na LunaNode?
 
 ## Kufunga BTCPay Server kwenye node ya Umbrel
 
-<chapterId>3298e292-6476-5fe0-836c-7fa021348799</chapterId>
+<chapterId>bdd94bfc-c8da-4c8b-8b0e-ed4f9a5dd42e</chapterId>
 
 Kufikia mwisho wa hatua hizi, unaweza kukubali malipo ya lightning kwenye duka lako la BTCPay kwenye mtandao wa ndani. Utaratibu huu pia utatumika ikiwa utaendesha node ya umbrel katika mkahawa wa s au biashara. Ikiwa ungependa kuunganisha duka hili kwenye tovuti ya umma, fuata zoezi la Kina ili kufichua node yako ya umbrel kwa umma.
 
@@ -2562,15 +2562,15 @@ Je, usanidi kwenye Umbrel unatofautiana vipi na chaguo mbili zilizotangulia zili
 
 # Hitimisho
 
-<partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
+<partId>5449bff6-f410-4f2a-a373-7b915bb6d726</partId>
 
 ## Ukaguzi na Ukadiriaji
 
-<chapterId>d90bb93d-b894-551e-9fd6-6855c739a904</chapterId>
+<chapterId>bf665be7-1be0-4d54-b8c6-64fbb40c9190</chapterId>
 
 <isCourseReview>true</isCourseReview>
 ## Hitimisho la Kozi
 
-<chapterId>c07ac2a5-f97e-5c57-8a80-4955b48128d4</chapterId>
+<chapterId>bbda2002-757d-4dad-8c8a-ff95cec77077</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

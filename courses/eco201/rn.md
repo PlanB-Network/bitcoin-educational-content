@@ -16,13 +16,13 @@ Iyi shure y'ibitekerezo yamaze ibinyejana vyinshi igira uruhare mu mpaka, kubera
 # Intangamarara
 
 
-<partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
+<partId>21613091-f43a-4a87-88d9-2d69038d41d2</partId>
 
 
 ## Incamake y'icigwa
 
 
-<chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
+<chapterId>43b56a2b-bbee-4faa-b52a-9b6c540df559</chapterId>
 
 
 Kaze mucigwa ca ECO201!
@@ -66,7 +66,7 @@ Nimuze tubirabire hamwe!
 ## Amahera, Ingurane, Amabanki matomato, n’Amabanki makurumakuru
 
 
-<chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
+<chapterId>84a09f98-8cd7-468f-9cc1-6c0add06ce12</chapterId>
 
 
 > "Ikibazo nyamukuru c'amafaranga asanzwe ni ukwizigira kwose gukenewe kugira ngo akore. Banki nkuru itegerezwa kwizigirwa kugira ngo ntiyigere igabanya amafaranga, ariko amateka y'amafaranga yuzuyemwo ukurenga kuri ukwo kwizigirana. Amabanki ategerezwa kwizigirwa kugira ngo afate amafaranga yacu kandi ayarungike biciye mu buryo bw'ubuhinga bwa none,yamara ayo mabanki arayatanga mu ngwati nyinshi z’ivy’ubutunzi. dutegerezw kubizigira ku bijanye n'ubuzima bwacu bw’ibanga,ko batareka abasuma b’umwidondoro(identity thieves) ngo badutware amafaranga ku makonti yacu.”
@@ -220,13 +220,13 @@ Mu gice(chapiter) kizoza, tuzokwihweza cane ibuye ry’imfuruka ry’ishure ryos
 # Ishingiro ry'Ivyiyumviro
 
 
-<partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
+<partId>6249c7e4-71bc-453b-8a09-ab579d340709</partId>
 
 
 ## Ivyiyumviro vy'agaciro
 
 
-<chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
+<chapterId>fb001732-6bf7-4935-b8ec-6c225dab1025</chapterId>
 
 
 > “Agaciro kariho gusa mu mutima canke mu vyiyumviro vy’umuntu”
@@ -350,7 +350,7 @@ Ibice bikurikira bizoba vyerekeye ukuntu amahera yaserutse nk’ikigo c’imiban
 ### Uguseruka kw'amahera nk'ikintu gikomeye mu kibano
 
 
-<chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
+<chapterId>469d591e-b407-4218-bccb-6a433f731cb3</chapterId>
 
 
 Naho abantu bafise inyungu imwe yo kunonosora no gutuma ibikorwa bigabanywa cane, haracariho ingorane zo guhuza ibikorwa zigabanya uko gukwiragira.
@@ -470,7 +470,7 @@ Mu kigabane gikurikira tuzokwihweza cane iciyumviro co guhitamwo umwanya no gusi
 ## uguhitamwo igihe, Inyungu, n'umutahe
 
 
-<chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
+<chapterId>e0a5c946-dd4c-4aa6-9b6e-aaacb23241ae</chapterId>
 
 
 ### uguhitamwo igihe
@@ -577,13 +577,13 @@ Ivyo ni vyo tuzobibona mu kigabane gikurikira kijanye n’Inyigisho y’Ubucuruz
 # Ivyiyumviro butunzi bwa Otirishi
 
 
-<partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
+<partId>851a6712-84ea-48d2-85f7-3354e1381a06</partId>
 
 
 ## Ivyiyumviro vy'Abanyaotirishi ku bijanye n'ingendo y'ubudandaji
 
 
-<chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
+<chapterId>17248205-835a-4284-ba94-0eb131916aa3</chapterId>
 
 
 > "Uko ukwiyongera kw’inguzanyo z’amabanki zishingiye ku mpapuro zidafise agaciro, ni ko urugero rw'ishoramari ribi mu bicuruzwa vy'ubutunzi rugenda ruragwira, kandi ni ko bikenerwa cane gusesa canke kuvana n'izo nzira zitari nziza. Iyo ukwaguka kw'inguzanyo guhagaze, gusubira inyuma, canke mbere kugabanuka cane, ishoramari ribi rikagwira"
@@ -695,7 +695,7 @@ Ivyo ni vyo bizokwigwa mu kigabane gikurikira kandi ca nyuma c’iri shure.
 ## Ukudashobora gukora ibiharuro vy’ubutunzi mu butunzi bwa gisosiyalisime
 
 
-<chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
+<chapterId>9b9e185f-5b0d-4850-813e-0c50e309a909</chapterId>
 
 
 > “Iyo ata giciro c’isoko gihari ku bintu bikenewe mu mahinguriro kuko bidahingurwa ngo bigurishwe canke bigurwe, ntibishoboka gukoresha ibiharuro vy’ubutunzi kugira hategurwe ibikorwa vyo muri kazoza canke kugira hamenyekane ico ibikorwa vyaherahejeje vyashitseko. Ubuyobozi bwa gisosiyalisime mu mahinguriro ntibushobora kumenya neza nimba ivyo butegura kandi bukarangura ari inzira ibereye kurusha izindi mu gushikira ivyipfuzo. Buzokora mu mwijima, ukoresheje imvugo. Ivyo bizovamwo akajagari n’ubukene kuri bose ata gukeka.” 
@@ -804,7 +804,7 @@ Umugenzo w’Abanyaotirishi urimwo uburyo bwo kwicisha bugufi ku bikorwa vy’um
 ## Uburyo bwa Otirishi
 
 
-<chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
+<chapterId>1fdf4c5d-0008-4f69-97e7-127fb3ef63e0</chapterId>
 
 
 Ishure ry’ubutunzi ryo muri Otirishiya ryitandukaniye n’ayandi mashure kubera uburyo bwaryo bwo kwigisha bushingiye ku vyiyumviro (axiomatic-deductive), butandukanye n’uburyo bwo kwigisha ivyiza bukoreshwa kenshi mu vy’imibano. Uburyo bw’abanyabwenge bushingiye ku mategeko ashizweho ashingiye ku makuru y’ivyashikiye abantu, bugakoresha uburyo busa n’ubw’ivyigwa vya fizike. Irahingura ivyiyumviro bivuye ku vyo umuntu abona, hanyuma bikemezwa canke bikahakanwa n’ivyageragejwe vy’igihe gito. Uburyo bwa siyansi bushingiye ku kugumya iciyumviro gisobanura neza amakuru no kubandanya kuyitohoza gushika habonetse iciyumviro gitomoye kuruta.
@@ -835,15 +835,15 @@ Uburyo ni ikintu gihambaye cane mu vy’ubutunzi no mu vy’imibano muri rusangi
 
 # aho igice gihereye
 
-<partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
+<partId>373760d2-4e6e-4a05-8081-6d02072457d7</partId>
 
 ## Iciyumviro cawe ni ikihe? n'amanota
 
-<chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
+<chapterId>2373a3ce-1c87-415a-8dd6-0437b4f71e79</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Ikibazo canyuma
-<chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
+<chapterId>1c584ca3-c738-4151-8a85-101a142fcbbc</chapterId>
 
 <isCourseExam>true</isCourseExam>
 

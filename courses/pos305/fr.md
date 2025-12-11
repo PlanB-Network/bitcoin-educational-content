@@ -16,7 +16,7 @@ Créé par Alekos et Bas, et adapté par melontwist et asi0, ce cours révèle c
 # Introduction
 
 
-<partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
+<partId>541d6444-caf8-4e5b-80c3-b97f4d883d57</partId>
 
 
 ## Aperçu du cours
@@ -57,7 +57,7 @@ Prêt à maîtriser le serveur BTCPay et à développer votre activité ? Allons
 ## Acclamation critique pour le serveur Bitcoin et BTCPay de l'auteur
 
 
-<chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
+<chapterId>f0645534-c825-40fb-a190-e24358e8accc</chapterId>
 
 
 Commençons par comprendre ce qu'est le serveur BTCPay et ses origines. Nous accordons de l'importance à la transparence et à certaines normes pour instaurer la confiance dans l'espace Bitcoin.
@@ -113,7 +113,7 @@ La Fondation BTCPay Server, qui a permis à Alekos et Bas de rédiger ce cours, 
 ## Introduction à Bitcoin
 
 
-<chapterId>5c0bc234-c188-5b4a-94d5-adee87a120e2</chapterId>
+<chapterId>ba6af1e5-86f1-4139-a549-df2367d6319a</chapterId>
 
 
 ### Comprendre Bitcoin grâce à un exercice en classe
@@ -217,7 +217,7 @@ Les clients achètent un produit dans le magasin avec Bitcoin.
 ## Évaluation des connaissances
 
 
-<chapterId>1461f064-933d-50ea-8935-324b68ec5d5f</chapterId>
+<chapterId>c8cec6af-1e57-4a0e-a86a-7dc35f5c2350</chapterId>
 
 
 ### KA Discussion en classe
@@ -248,13 +248,13 @@ Blockchain, transaction, double dépense, problème byzantin des généraux, Min
 # Présentation du serveur BTCPay
 
 
-<partId>9c8a2d0c-9ba1-5c39-874c-f9eaf1bba663</partId>
+<partId>8a8bbf80-1322-4ad0-b49c-9c18b969236d</partId>
 
 
 ## Comprendre l'écran de connexion de BTCPay Server
 
 
-<chapterId>14aad54c-9bd8-54f2-9455-178b8ae63408</chapterId>
+<chapterId>2d35d204-1c04-418f-91eb-a7a547ddc210</chapterId>
 
 
 ### Travailler avec le serveur BTCPay
@@ -355,7 +355,7 @@ Donnez les raisons pour lesquelles l'utilisation d'un serveur de démonstration 
 ## Gestion des comptes d'utilisateurs
 
 
-<chapterId>b58ca6ee-b7fc-5e81-a6aa-c8ff212b4c55</chapterId>
+<chapterId>7f2dcbc7-ba0b-4515-bf6d-d23ab19c1831</chapterId>
 
 
 ### Gestion des comptes sur le serveur de BTCPay
@@ -475,7 +475,7 @@ Décrivez comment le 2FA basé sur une application permet de sécuriser votre co
 ## Création d'un nouveau magasin
 
 
-<chapterId>463b3634-b49f-5512-a711-3b2e096fc2e0</chapterId>
+<chapterId>6e8d48b0-b9b6-4fbd-8961-5cde37109c0d</chapterId>
 
 
 ### Créez votre assistant de magasin
@@ -561,13 +561,13 @@ Dans cette section, vous avez appris
 # Introduction à la sécurisation des clés Bitcoin
 
 
-<partId>25da22d8-fd37-51c5-af2a-58b9f3b046b2</partId>
+<partId>dd0975de-76e6-4255-a3b2-e454009d1aa5</partId>
 
 
 ## Comprendre la génération des clés Bitcoin
 
 
-<chapterId>d162735b-847b-578e-83b8-a044ab703ec5</chapterId>
+<chapterId>8a6164a5-aea6-4348-aa71-135d03de98bc</chapterId>
 
 
 ### Qu'est-ce qui permet de générer les clés Bitcoin ?
@@ -640,7 +640,7 @@ Décrivez l'avantage de l'utilisation d'adresses fraîches pour chaque transacti
 ## Sécurisation des clés avec un Hardware Wallet
 
 
-<chapterId>c54a6d61-5a43-5fdb-93ae-c6750de9c612</chapterId>
+<chapterId>94cf5f31-7292-4608-b10e-8e46b1ebd627</chapterId>
 
 
 ### Stockage des clés Bitcoin
@@ -701,7 +701,7 @@ Dans cette section, vous avez appris
 ## Utilisation des touches de votre Bitcoin
 
 
-<chapterId>bff488de-5052-56e6-b696-97e896f762ae</chapterId>
+<chapterId>ae5aafd5-28b7-4ef7-8ebc-3ac5f19769c7</chapterId>
 
 
 ### Serveur BTCPay Wallet
@@ -1039,7 +1039,7 @@ Décrire une méthode pour générer des clés et un système pour les sécurise
 ## Serveur BTCPay Lightning Wallet
 
 
-<chapterId>1bbece7e-0197-57e6-a93a-561cf384d946</chapterId>
+<chapterId>ca874f9a-4f97-44d5-9bf4-57c8b17d25bf</chapterId>
 
 
 Lorsqu'un administrateur de serveur provisionne une nouvelle instance de BTCPay Server, il peut configurer une implémentation Lightning Network, telle que LND, Core Lightning, ou Eclair ; voir la partie Configuration de BTCPay Server pour des instructions d'installation plus détaillées.
@@ -1289,13 +1289,13 @@ Décrivez quelques-unes des différentes options permettant de connecter un Ligh
 # Serveur BTCPay Interface
 
 
-<partId>25e88b81-e1ab-515f-a035-09f2a3075556</partId>
+<partId>76b4a36d-9cf8-469d-a763-a75cc38c812a</partId>
 
 
 ## Aperçu du tableau de bord
 
 
-<chapterId>410ff28b-a272-5c91-93e0-48d5b28c53ab</chapterId>
+<chapterId>8bd1c31e-a487-4c32-b3af-bcecc7117a80</chapterId>
 
 
 BTCPay Server est un logiciel modulaire. Cependant, il existe des normes auxquelles chaque serveur BTCPay doit adhérer, et ces normes régiront l'interaction entre l'administrateur et les utilisateurs. En commençant par le tableau de bord. Le point d'entrée principal de chaque serveur BTCPay après la connexion. Le tableau de bord fournit une vue d'ensemble des performances de votre magasin, du solde actuel de la Wallet et des transactions des 7 derniers jours. Comme il s'agit d'une vue modulaire, les plugins peuvent utiliser cette vue à leur avantage et créer leurs propres tuiles sur le tableau de bord. Pour ce cours, nous ne discuterons que des plugins et applications standards, ainsi que de leurs vues respectives, dans BTCPay Server.
@@ -1419,7 +1419,7 @@ Listez autant de tuiles de mémoire que possible à partir du tableau de bord.
 ## Serveur BTCPay - Paramètres du magasin
 
 
-<chapterId>e8faef7b-278d-550e-a511-bc3a442daf64</chapterId>
+<chapterId>00ff7c8c-46f9-4d88-92cc-c63e4ff348f9</chapterId>
 
 
 Dans le logiciel de BTCPay Server, nous connaissons deux types de paramètres. Les paramètres spécifiques à la boutique de BTCPay Server, le bouton des paramètres se trouvant dans la barre de menu de gauche sous le tableau de bord, et les paramètres de BTCPay Server, se trouvant en bas de la barre de menu, juste au-dessus de Compte. Les paramètres spécifiques au serveur de BTCPay ne peuvent être consultés que par les administrateurs du serveur.
@@ -1874,7 +1874,7 @@ Décrivez certaines options que vous pourriez sélectionner dans Apparence de la
 ## BTCPay Server - Paramètres du serveur
 
 
-<chapterId>1dd858a2-49ea-586b-9bc1-75a65f508df6</chapterId>
+<chapterId>07022d6d-594f-46d7-8363-c8c16a561f4f</chapterId>
 
 
 BTCPay Server se compose de deux vues de paramétrage différentes. L'une est consacrée aux paramètres de la boutique et l'autre aux paramètres du serveur. Cette dernière n'est disponible que pour les administrateurs de serveur et non pour les propriétaires de boutiques. Les administrateurs du serveur peuvent ajouter des utilisateurs, créer des rôles personnalisés, configurer le serveur de messagerie, définir des politiques, exécuter des tâches de maintenance, vérifier tous les services liés à BTCPay Server, télécharger des fichiers vers le serveur ou vérifier les journaux.
@@ -2440,7 +2440,7 @@ Décrivez quelques actions qu'un administrateur peut effectuer régulièrement d
 ## Serveur BTCPay - Paiements
 
 
-<chapterId>e2b71ff9-3f4f-5e71-9771-8e03fbbef00f</chapterId>
+<chapterId>1f6899d4-85c1-41fe-8f23-4a7bec44e9c2</chapterId>
 
 
 La Invoice est un document que le vendeur remet à l'acheteur pour encaisser le paiement.
@@ -2786,7 +2786,7 @@ En quoi les paiements à flux tirés vont-ils au-delà de ce qui peut être fait
 ## Plugins par défaut du serveur BTCPay
 
 
-<chapterId>7d673dc4-bd5d-5411-819b-f135f1d86636</chapterId>
+<chapterId>2d994561-7f8d-4862-8b9f-cee7d81df6f2</chapterId>
 
 
 ### Plugins et applications par défaut
@@ -3273,13 +3273,13 @@ Quels sont les trois plugins intégrés qui sont livrés en standard avec BTCPay
 # Configuration du serveur BTCPay
 
 
-<partId>ff38596c-7de3-5e5c-ba50-9b9edbbbb5eb</partId>
+<partId>c3a8bd83-0676-4388-87b2-325d67f43d9d</partId>
 
 
 ## Compréhension de base de l'installation du serveur BTCPay sur un environnement LunaNode
 
 
-<chapterId>d0a28514-ffcf-529b-9156-29141f0b060a</chapterId>
+<chapterId>f0f934af-eb3c-4d86-bd7b-3fee8fb7c10e</chapterId>
 
 
 ### Installation du serveur BTCPay sur un environnement hébergé (LunaNode)
@@ -3418,7 +3418,7 @@ Décrivez quelques-unes des différences entre l'exécution d'une instance de BT
 ## Installation de BTCPay Server dans un environnement Voltage
 
 
-<chapterId>11c7d284-b4d2-5542-872c-df9bd9c1491b</chapterId>
+<chapterId>ef790587-4c73-4311-96f1-5a9219b9a7fd</chapterId>
 
 
 Vous vous familiariserez avec Voltage.cloud en tant que fournisseur d'hébergement, vous apprendrez les premières étapes de l'utilisation de votre serveur BTCPay et vous apprendrez à utiliser le Lightning Network. Après avoir parcouru toutes les étapes, vous pourrez gérer une boutique en ligne ou une plateforme de crowdfunding acceptant le Bitcoin !
@@ -3491,7 +3491,7 @@ Quelles sont les principales différences entre les installations Voltage et Lun
 ## Installer BTCPay Server sur un nœud Umbrel
 
 
-<chapterId>3298e292-6476-5fe0-836c-7fa021348799</chapterId>
+<chapterId>bdd94bfc-c8da-4c8b-8b0e-ed4f9a5dd42e</chapterId>
 
 
 A la fin de ces étapes, vous pouvez accepter des paiements Lightning dans votre boutique BTCPay sur votre réseau local. Ce processus s'appliquera également si vous gérez un nœud umbrel dans un restaurant ou une entreprise. Si vous souhaitez connecter cette boutique à un site web public, suivez l'exercice Avancé pour exposer votre nœud umbrel au public.
@@ -3580,20 +3580,20 @@ En quoi la configuration d'Umbrel diffère-t-elle des deux options d'hébergemen
 # Section finale
 
 
-<partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
+<partId>5449bff6-f410-4f2a-a373-7b915bb6d726</partId>
 
 
 
 
 ## Critiques et évaluations
 
-<chapterId>d90bb93d-b894-551e-9fd6-6855c739a904</chapterId>
+<chapterId>bf665be7-1be0-4d54-b8c6-64fbb40c9190</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Conclusion du cours
 
 
-<chapterId>c07ac2a5-f97e-5c57-8a80-4955b48128d4</chapterId>
+<chapterId>bbda2002-757d-4dad-8c8a-ff95cec77077</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

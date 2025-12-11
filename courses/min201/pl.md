@@ -31,13 +31,13 @@ Jeśli potrzebujesz pomocy z konfiguracją, grupa Telegram została stworzona dl
 # Wprowadzenie
 
 
-<partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
+<partId>264edfbf-0647-43c0-b202-5f82bfaba747</partId>
 
 
 ## Przegląd kursu
 
 
-<chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
+<chapterId>a1885374-d6b9-4d6d-9b90-44f27099e4ae</chapterId>
 
 
 Witamy w kursie MIN201: Wprowadzenie do Mining. Ajelex, Jim i Rogzy z przyjemnością poprowadzą Cię przez pierwsze kroki w tej branży. Mamy nadzieję, że spodoba ci się kurs i rozpoczniesz domową przygodę z Mining!
@@ -78,13 +78,13 @@ Gotowi na odkrycie świata Bitcoin Mining i podjęcie praktycznego wyzwania Atta
 # Wszystko, co musisz wiedzieć o Mining
 
 
-<partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
+<partId>80efb136-9e4e-40f2-98a2-f6721737fc81</partId>
 
 
 ## Wyjaśnienie Mining
 
 
-<chapterId>36a82de7-87ee-5e7a-b69e-48fc30030447</chapterId>
+<chapterId>3d083cf5-9bbd-4d2b-94d9-e12a82819395</chapterId>
 
 
 ### Wyjaśnienie Mining: analogia do puzzli
@@ -154,7 +154,7 @@ Podsumowując, branża Bitcoin Mining nadal się dostosowuje i rozwija, a gracze
 ## Przemysł Mining
 
 
-<chapterId>0896dfc1-c97e-5bec-9bf1-8c20b3388a2c</chapterId>
+<chapterId>75651629-94db-47e7-8735-a8ed75ae4e1d</chapterId>
 
 
 ### Pule Mining
@@ -233,7 +233,7 @@ Ogólny wniosek jest taki, że decentralizacja ma kluczowe znaczenie dla bezpiec
 ## Niuanse branży Mining
 
 
-<chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
+<chapterId>60d00d42-bd45-4afa-8612-939d714b1f6f</chapterId>
 
 
 ### Zasada Attakai
@@ -293,7 +293,7 @@ Spekuluje się na temat przyszłego wykorzystania przestrzeni blokowej, ale ogó
 ## Bitcoin Mining w protokole Bitcoin
 
 
-<chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
+<chapterId>51e7a8b1-e901-424e-bd63-51451b330da2</chapterId>
 
 
 Rola górników w sieci Bitcoin była przedmiotem intensywnej debaty podczas wojen o wielkość bloków. Chociaż górnicy są niezbędni dla bezpieczeństwa i funkcjonalności sieci, niekoniecznie posiadają ostateczną władzę w ekosystemie Bitcoin. Równowaga między górnikami, węzłami i użytkownikami końcowymi zapewnia integralność i dystrybucję sieci.
@@ -353,7 +353,7 @@ Podsumowując, górnicy wzmacniają sieć Bitcoin przed cenzurą, wykorzystując
 ## Cena Bitcoin i Hashrate, korelacja?
 
 
-<chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
+<chapterId>002750ad-c35e-48c3-8644-302467a384d3</chapterId>
 
 
 ### Hashrate, cena i rentowność
@@ -404,7 +404,7 @@ Inicjatywa Attakai podkreśla znaczenie wkładu w sieć, oferując jednocześnie
 ## Suwerenność i regulacja
 
 
-<chapterId>9d9a5908-2acc-501e-906b-a6fce9ecfebd</chapterId>
+<chapterId>ec30a758-5a03-43a1-9b75-e4bb6053a1be</chapterId>
 
 
 ### Suwerenność przed zyskiem?
@@ -452,13 +452,13 @@ Podsumowując, pomimo ryzyka regulacyjnego i możliwości wprowadzenia zakazu st
 # Strona główna Mining i ponowne wykorzystanie ciepła
 
 
-<partId>78d22d06-2c4a-573f-86bb-1027115dad3a</partId>
+<partId>c0fb1f33-6c44-48a7-83f5-b1c9cbc314b3</partId>
 
 
 ## Attakai - uczynienie domowego Mining możliwym i dostępnym!
 
 
-<chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
+<chapterId>64c27a67-c2f0-4456-9821-5c94ea623de5</chapterId>
 
 
 Attakai, co po japońsku oznacza "idealną temperaturę", to nazwa inicjatywy mającej na celu odkrycie Bitcoin Mining poprzez ponowne wykorzystanie ciepła, uruchomionej przez @ajelexBTC i @jimzap21 z Découvre Bitcoin.
@@ -531,7 +531,7 @@ Jest to doskonała okazja, aby uczyć się poprzez praktykę, a jednocześnie by
 ## Przewodnik zakupu używanego ASIC
 
 
-<chapterId>3b0b3bf0-859b-57f2-b92f-843ac70b7e68</chapterId>
+<chapterId>17e07e2e-9848-4fb0-be55-077ea783c670</chapterId>
 
 
 W tej sekcji omówimy najlepsze praktyki dotyczące zakupu używanego Bitmain Antminer S9, maszyny, na której oparty będzie ten samouczek dotyczący modernizacji chłodnicy. Niniejszy przewodnik dotyczy również innych modeli układów ASIC, ponieważ jest to ogólny przewodnik zakupu używanego sprzętu Mining.
@@ -623,7 +623,7 @@ Podsumowując ten przewodnik w jednym zdaniu: **"Nie ufaj, weryfikuj"**
 ## Przewodnik dotyczący zakupu modyfikacji sprzętowych dla S9
 
 
-<chapterId>fa5f5eca-bcbf-5a83-9b03-98ecbadbabd6</chapterId>
+<chapterId>67c86e8a-e7d8-4744-8eeb-03a17c09bfa2</chapterId>
 
 
 Właściciel Antminera S9 zapewne wie, jak głośny i nieporęczny potrafi być ten sprzęt. Możliwe jest jednak przekształcenie go w cichy i podłączony grzejnik, wykonując kilka prostych kroków. W tej sekcji przedstawimy niezbędny sprzęt do wykonania modyfikacji.
@@ -698,13 +698,13 @@ Lista sprzętu i linki
 # Attakai - Modyfikowanie oprogramowania Antminer S9
 
 
-<partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
+<partId>17871b9d-4c93-4ca4-a09f-c6dc8a1df1d1</partId>
 
 
 ## Konfiguracja Vonet WIFI/Ethernet Bridge
 
 
-<chapterId>3cf487a4-21ef-5b24-83d5-789b811f740f</chapterId>
+<chapterId>bf5b8552-8f0f-44aa-b742-600a657bdfbf</chapterId>
 
 
 Aby podłączyć ASIC przez WIFI, potrzebne będzie urządzenie zwane mostkiem. Urządzenie to umożliwia pobieranie sygnału WIFI z routera i przesyłanie go do innego urządzenia za pośrednictwem sieci Ethernet.
@@ -761,7 +761,7 @@ Po podłączeniu mostu, podłącz kabel Ethernet z mostu do ASIC, a następnie p
 ## Resetowanie urządzenia Antminer S9
 
 
-<chapterId>b518b6bd-9dae-5136-ae3c-1fafb1cb2592</chapterId>
+<chapterId>e83025fd-0261-4d4a-913a-dbfc05f7e51e</chapterId>
 
 
 Przed instalacją systemu BraiinOS+ może być konieczne przywrócenie ustawień fabrycznych telefonu S9.
@@ -777,7 +777,7 @@ Metoda ta może być stosowana od 2 do 10 minut po uruchomieniu Miner.
 ## Instalacja systemu BraiinsOS+ na urządzeniu Antminer S9
 
 
-<chapterId>38e8b1a8-8b1d-51ed-8b92-59d4ddb15184</chapterId>
+<chapterId>d2ea148c-37dd-4505-97e9-78ce2237b84a</chapterId>
 
 
 Oryginalne oprogramowanie zainstalowane przez Antminer na ich maszynach Mining ma ograniczoną funkcjonalność. Dlatego w tym przewodniku zainstalujemy inne oprogramowanie o nazwie BraiinsOS+. Jest to oprogramowanie innej firmy opracowane przez pierwszego Bitcoin Mining pool, które ma więcej funkcji i pozwala na przykład modyfikować moc maszyny.
@@ -831,7 +831,7 @@ Tutaj zobaczymy, jak łatwo zainstalować Braiins OS+ bezpośrednio w pamięci A
 ## Konfiguracja systemu BraiinsOS+
 
 
-<chapterId>36e432f2-85bc-52d0-a62a-009fc4c69338</chapterId>
+<chapterId>41f8ef76-c5b9-427f-8b22-1e3761057157</chapterId>
 
 
 Będziesz musiał połączyć się z ASIC przy użyciu lokalnego adresu IP Address urządzenia w sieci za pośrednictwem przeglądarki.
@@ -897,13 +897,13 @@ Na tej pierwszej stronie można obserwować wydajność urządzenia w czasie rze
 # Attakai - Modyfikacja wentylatora
 
 
-<partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
+<partId>a18012de-bf2e-4469-8b33-6bd9368cf27d</partId>
 
 
 ## Wymiana wentylatora zasilania Supply
 
 
-<chapterId>0c6befa7-f3ef-5bcf-ae8d-0ad5e5d41d70</chapterId>
+<chapterId>369aa394-0597-4578-96ef-01a45e9d86c6</chapterId>
 
 
 > OSTRZEŻENIE: Niezbędne jest wcześniejsze zainstalowanie systemu Braiins OS+ na Miner lub jakiegokolwiek innego oprogramowania, które może zmniejszyć wydajność urządzenia. Środek ten ma kluczowe znaczenie, ponieważ w celu zmniejszenia hałasu zainstalujemy wentylatory o mniejszej mocy, które mogą rozpraszać mniej ciepła.
@@ -1011,7 +1011,7 @@ Na koniec umieść pokrywę obudowy z powrotem na miejscu i przykręć 6 śrub p
 ## Wymiana wentylatorów głównych
 
 
-<chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
+<chapterId>46cd034a-1ffd-4459-9d66-a68e9b4bfeeb</chapterId>
 
 
 > OSTRZEŻENIE: Niezbędne jest wcześniejsze zainstalowanie systemu Braiins OS+ na Miner lub jakiegokolwiek innego oprogramowania, które może zmniejszyć wydajność urządzenia. Środek ten ma kluczowe znaczenie, ponieważ w celu zmniejszenia hałasu zainstalujemy wentylatory o mniejszej mocy, które będą rozpraszać mniej ciepła.
@@ -1091,13 +1091,13 @@ No i proszę, gratulacje! Właśnie wymieniłeś całą część mechaniczną Mi
 # Attakai - Konfiguracja
 
 
-<partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
+<partId>045a50df-20cd-423f-8f2f-dce686793ffb</partId>
 
 
 ## Łączenie Mining pool
 
 
-<chapterId>b57a6105-0a53-5fe9-bad1-d6d9daf97c0d</chapterId>
+<chapterId>db476c86-3dfe-4fcd-948a-083df8442395</chapterId>
 
 
 Można sobie wyobrazić Mining pool jako spółdzielnię rolniczą. Rolnicy łączą swoją produkcję, aby zmniejszyć zmienność Supply i popytu, a tym samym uzyskać bardziej stabilny dochód dla swojej działalności. Mining pool działa w ten sam sposób, przy czym współdzielonym zasobem są hashe. Rzeczywiście, odkrycie pojedynczego ważnego Hash pozwala na utworzenie bloku i wygranie coinbase lub nagrody, obecnie 6,25 BTC plus opłaty transakcyjne zawarte w bloku.
@@ -1150,7 +1150,7 @@ Możesz teraz wrócić do Braiins OS+ Interface, aby wprowadzić te dane uwierzy
 ## Optymalizacja wydajności urządzenia Antminer S9
 
 
-<chapterId>25380972-31c7-540d-80d8-17a06b171ca0</chapterId>
+<chapterId>e8dd98a2-86be-4cb1-a061-79f5c8129df6</chapterId>
 
 
 Zarówno overclocking, jak i autotuning obejmują regulację częstotliwości na płytach hashujących w celu poprawy wydajności ASIC. Różnica między nimi polega na złożoności tych ustawień częstotliwości.
@@ -1186,7 +1186,7 @@ Efektem końcowym jest wyższy wskaźnik Hash na wat energii elektrycznej, co oz
 ## Recenzje i oceny
 
 
-<chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
+<chapterId>9c4bf742-f774-4d82-bdef-0c5398be7759</chapterId>
 
 <isCourseReview>true</isCourseReview>
 

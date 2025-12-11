@@ -19,11 +19,11 @@ objectives:
 
 # はじめに
 
-<partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
+<partId>34ab5c9f-08b8-4324-a53e-582c63a2b1ea</partId>
 
 ## コース概要
 
-<chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
+<chapterId>a47e30ce-f437-404b-99e0-0c1cf1a78f37</chapterId>
 
 BTC101 コースへようこそ！
 
@@ -87,7 +87,7 @@ BTC101 コースへようこそ！
 
 ## ビットコイン前史
 
-<chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
+<chapterId>0824f3a8-502a-4321-bb0d-13ccba37f3fa</chapterId>
 
 ビットコイン」という言葉がデジタル通貨と金融変革の代名詞となる前に、その誕生の下地は一連のアイデア、イノベーション、社会運動によって築かれた。中でもサイファーパンク運動は、ビットコインの前史における重要な要素として際立っている。
 
@@ -145,11 +145,11 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 # お金
 
-<partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
+<partId>c7430a3c-6419-465e-b84d-d677e277f732</partId>
 
 ## 歴史の中のお金
 
-<chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
+<chapterId>84047ee5-9f48-4105-9849-8be318496304</chapterId>
 
 貨幣の進化は人類史の魅惑的な側面であり、絶えず進化する経済的ニーズに対応する文明の創意工夫を反映している。
 
@@ -210,7 +210,7 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 ## 受託通貨
 
-<chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
+<chapterId>8c6dbe02-c275-4568-bd1b-fc36b8d4796d</chapterId>
 
 > 「過去を思い出せない者は、それを繰り返す運命にある」ジョージ・サンタヤーナの言葉である。
 > 現在の通貨制度に関して言えば、この真理は健全に響く。
@@ -265,7 +265,7 @@ https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## ハイパーインフレ
 
-<chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
+<chapterId>3f99733a-7a40-42a8-870c-cc4947560bba</chapterId>
 
 ハイパーインフレは、不換紙幣に特有の通貨現象である。通貨に対する信用が完全に失われ、当局による通貨刷り込みによってインフレ率が急激に上昇することで成立する。その結果、個人によって蓄積された貯蓄は比較的短期間で散逸し、国は経済的、社会的、政治的に崩壊の危機に瀕する。
 
@@ -354,7 +354,7 @@ https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 ## 2100 万ビットコイン
 
-<chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
+<chapterId>e6172b08-5916-4f9f-a06f-4405c52c06ab</chapterId>
 
 ### ビットコインの金融政策
 
@@ -395,7 +395,7 @@ https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-マイニングの概念については、[マイナーの章](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf)で詳しく説明する。
+マイニングの概念については、[マイナーの章](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/f2ce96f9-66d5-4286-9a18-9e1506b369b5)で詳しく説明する。
 
 ### デジタルの希少性を保証する
 
@@ -443,11 +443,11 @@ https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 # ビットコイン財布
 
-<partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
+<partId>3b488c45-d286-4083-8824-ec259cc2a324</partId>
 
 ## ビットコイン・ウォレットとは？
 
-<chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
+<chapterId>149c6588-94ae-46b6-b073-9ffc18912397</chapterId>
 
 セクション 2 では、有名なビットコインがどこにあるのか、どのようにビットコインとやり取りするのかを理解するために、ウォレットを利用したビットコインの保管とセキュリティについて探っていく！
 
@@ -511,7 +511,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ## ビットコイン・ウォレットとセキュリティ
 
-<chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
+<chapterId>40485240-351a-471c-b017-faebfb836470</chapterId>
 
 ### 始める前に正しい質問をする
 
@@ -576,7 +576,7 @@ https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 ## ウォレットの設定
 
-<chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
+<chapterId>1bfd3d5d-a81b-4b7f-ad88-4bf41593606a</chapterId>
 
 ビットコインのセキュリティは極めて重要であり、単純なミスが悲惨な結果を招く可能性があります。そのため、新しいビットコインウォレットを作成する際に採用すべきベストプラクティスを学ぶ必要があります。
 
@@ -621,7 +621,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## 時の試練を乗り越える
 
-<chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
+<chapterId>7dd119da-9073-4e03-ab83-e45890616790</chapterId>
 
 他の富と同様に、あなたのビットコインも紛失、盗難、劣化から、特に長期にわたって保護されなければなりません。ビットコインを保護するには、技術的な知識と関連するリスクを理解することが必要であり、これには 2 つの主要な戦略があります。
 
@@ -669,11 +669,11 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 # ビットコインの技術的側面。
 
-<partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
+<partId>8b110fdd-b51f-48a9-a966-33649e55c971</partId>
 
 ## ビットコインの立ち上げ
 
-<chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>
+<chapterId>76ab52b9-2c33-4242-9db1-64fb1fb92b4e</chapterId>
 
 ### まず、歴史を少し振り返ってみよう。
 
@@ -727,7 +727,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## ビットコイン取引
 
-<chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
+<chapterId>be72afa9-8198-45a5-95a8-3c87f971fbb2</chapterId>
 
 ビットコイン取引とは、ビットコインアドレスを利用したビットコインの所有権移転のことである。このプロセスを説明するために、2 人の主人公を紹介しよう：アリスとボブである。アリスはビットコインを取得したいが、ボブはすでにビットコインを所有している。
 
@@ -785,7 +785,7 @@ Bob が自分の取引をビットコインネットワークに送信し、マ�
 
 ## ビットコインノード
 
-<chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
+<chapterId>430fdc8d-d60c-4dde-a7a5-96916f40056e</chapterId>
 
 ノードはさまざまな重要な機能を果たすため、ビットコインのネットワークアーキテクチャの基本的な要素です：
 
@@ -834,7 +834,7 @@ Bob が自分の取引をビットコインネットワークに送信し、マ�
 
 ## 鉱山労働者
 
-<chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
+<chapterId>f2ce96f9-66d5-4286-9a18-9e1506b369b5</chapterId>
 
 \*\*マイナーはネットワークを保護し、トランザクションをブロックに追加する。ビットコインのプルーフ・オブ・ワークを解決するために ASIC マシンを通して電力を使用する。
 
@@ -915,7 +915,7 @@ https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## ビットコインとエコロジー
 
-<chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
+<chapterId>68cc1d11-d355-479f-beb1-364ea0f48219</chapterId>
 
 前節では、ビットコインプロトコルのセキュリティが、信頼できる第三者なしに取引の公開台帳を作成するための高いエネルギー消費に依存していることを理解した。主流メディアでは、全体的なエネルギーコストはしばしば小国の電力使用量と比較される。しかし、この比較は意味があるのだろうか？このようなコストの背後にある理由を理解することは適切なのだろうか？
 
@@ -973,11 +973,11 @@ https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 # ビットコインはどうやって入手するのか？
 
-<partId>517e1bb7-f032-51a0-930a-a91fe5148d3f</partId>
+<partId>a48118af-b3b8-4f00-bbda-c2c4ca0f788e</partId>
 
 ## ビットコインは眠らない
 
-<chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
+<chapterId>648dbb03-969a-46ef-bdae-1463c06a4aaf</chapterId>
 
 ビットコインの価格はしばしば大きなボラティリティを特徴とする。その価値は、他の金融市場と同様に、市場の変動や強気・弱気の局面によって大きく変動する可能性がある。
 
@@ -1033,7 +1033,7 @@ btc/ドルのペアは短期的に変動するが、ビットコインは 2100 �
 
 ## 働いてビットコインを得る
 
-<chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
+<chapterId>4bcac1ce-e4e1-4fc8-9548-5eb262688ea5</chapterId>
 
 ### 並行経済が発展している
 
@@ -1250,7 +1250,7 @@ https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## ビットコインで貯蓄
 
-<chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
+<chapterId>11782e1e-3807-4669-8c4b-19c431669eba</chapterId>
 
 ### 始める前の警告だ！
 
@@ -1349,7 +1349,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## 超ビットコイン化
 
-<chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>
+<chapterId>a8cf0971-defd-4bf8-934b-5e412448438e</chapterId>
 
 ### 野生のレースは始まったばかりだ！
 
@@ -1373,11 +1373,11 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 # ビットコインの未来：ライトニング・ネットワーク
 
-<partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
+<partId>297f74b5-3ba1-4f63-b41b-43256778bea3</partId>
 
 ## ライトニング・ネットワークの簡単な紹介
 
-<chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
+<chapterId>ad635a0f-4f91-4cac-843b-b9d51eb0bc9e</chapterId>
 
 ビットコインプロトコルの基本がわかったところで、ビットコインプロトコルを利用してライトニングファストトランザクションを可能にする決済ネットワークを紹介する：ライトニングネットワーク
 
@@ -1421,7 +1421,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## ライトニング・ネットワークの使用例
 
-<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+<chapterId>cd29874a-5ea2-4773-a6e4-e8d36b1bb4da</chapterId>
 
 今見てきたように、ビットコインのプロトコルは革命的ではあるが、日常的な取引のすべてを処理するのに必要なスケーラビリティという点で大きな課題に直面している。これらの問題を解決するために、ライトニングネットワークが提案され、その後、いくつかの異なる実装に発展し、そのすべてが相互運用可能である：
 
@@ -1453,7 +1453,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 赤い薬か青い薬か？
 
-<chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
+<chapterId>03d79262-a035-4a62-acca-f8ed9ae5a8a4</chapterId>
 
 モーフィアスがネオに言ったように、「青いピルを飲めば、物語は終わり、ベッドで目覚め、信じたいことを信じる。赤いピルを飲めば、不思議の国にとどまり、ウサギの穴の深さを教えてやろう」。ビットコインのウサギの穴を探検する準備はできていますか？経済的自由を再発見するかもしれないので、気をつけて！
 
@@ -1526,19 +1526,19 @@ AI を例にとれば、これらのテクノロジーは、ビデオゲーム�
 
 ## レビュー＆評価
 
-<chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
+<chapterId>d58144ad-33da-47a6-9030-61b649fe5550</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## 最終試験
 
-<chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
+<chapterId>cbf5ded3-69c8-485f-8528-28fc0e7ea299</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## 結論
 
-<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+<chapterId>8a17f1ba-3ba1-4864-896d-be4cc3d5844a</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
 

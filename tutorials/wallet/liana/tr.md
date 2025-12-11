@@ -43,7 +43,7 @@ Bu işlem, aşağıdakiler de dahil olmak üzere çeşitli konfigürasyonları a
 
 
 
-- Kullanıcının ölümü halinde varislerin fonları geri almasını sağlayan bir veraset (veya miras) planı. Bu konuda daha fazla bilgi için BTC102 kursunun [bölüm 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) bölümünü okumanızı tavsiye ederiz.
+- Kullanıcının ölümü halinde varislerin fonları geri almasını sağlayan bir veraset (veya miras) planı. Bu konuda daha fazla bilgi için BTC102 kursunun [bölüm 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/dcec2c9c-f5d9-4d47-977d-d21c5bff05cb) bölümünü okumanızı tavsiye ederiz.
 - Kurtarma süresine sahip güçlendirilmiş bir yedekleme, kullanıcıya ilgili gizli ifadeyi saklamak zorunda kalmadan ve örneğin bir hırsızlık sırasında çalınması riskini almadan Wallet'sını kullanma imkanı verir.
 - Bitcoin ile başlayan insanlar için bir güvenlik ağı: kendi Wallet'lerini yönetecekler ve "vasileri" (örneğin bir akraba) belirli bir süre sonra fonlarını geri alma hakkını saklı tutacak.
 - Bir şirketin ortakları gibi bir veya daha fazla katılımcının ortadan kaybolmasıyla başa çıkmak için zaman içinde azaltılmış gereksinimlere sahip çok taraflı bir imza şeması (*Multisig*).

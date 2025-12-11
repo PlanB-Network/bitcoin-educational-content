@@ -15,11 +15,11 @@ Materiál je navržen pro studenty všech úrovní a vyvažuje intuitivní pocho
 +++
 # Úvod
 
-<partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
+<partId>abfa0d9a-736e-40f8-937a-490ef19bc481</partId>
 
 ## Přehled kurzu
 
-<chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+<chapterId>dc6c887e-00a6-4b7f-9d50-14cbdfd5e867</chapterId>
 Vítejte v kurzu CYP302!
 
 Tato kniha nabízí hluboký úvod do vědy a praxe kryptografie. Tam, kde je to možné, se zaměřuje spíše na koncepční než formální výklad látky.
@@ -88,11 +88,11 @@ Připraveni prozkoumat fascinující svět kryptografie? Jdeme na to!
 
 # Co je to kryptografie?
 
-<partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>
+<partId>dfa3633c-f97b-4650-8a2e-cb15a42ca557</partId>
 
 ## Šifry Beale
 
-<chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
+<chapterId>b97d116b-035b-4e92-890c-e377b48edb36</chapterId>
 
 Začněme naše pátrání v oblasti kryptografie jednou z nejpůvabnějších a nejzábavnějších epizod v její historii: epizodou Bealeových šifer. [1]
 
@@ -132,7 +132,7 @@ Po rozluštění druhá zpráva uvádí podrobný obsah pokladu (zlato, stříbr
 
 ## Moderní kryptografie
 
-<chapterId>d07d576f-8a4b-5890-b182-2e5763f550f4</chapterId>
+<chapterId>a53dab64-fcf9-48c1-b578-dc43d799f3de</chapterId>
 
 S kryptografií si většina z nás spojuje barvité příběhy, jako je ten o Bealeových šifrách. Moderní kryptografie se však od těchto typů historických příkladů liší nejméně ve čtyřech důležitých ohledech.
 
@@ -184,7 +184,7 @@ Dalším příkladem jsou **phishingové útoky**, které jsou v dnešní době 
 
 ## Otevřená komunikace
 
-<chapterId>cb23d0a6-ba9a-5dc6-a55a-258405ae4117</chapterId>
+<chapterId>87b637ca-3d20-42b5-b299-ecb084b60aec</chapterId>
 
 Moderní kryptografie je navržena tak, aby poskytovala bezpečnostní záruky v prostředí **otevřené komunikace**. Pokud je náš komunikační kanál tak dobře chráněn, že odposlouchávači nemají šanci manipulovat s našimi zprávami nebo je dokonce jen pozorovat, pak je kryptografie zbytečná. Většina našich komunikačních kanálů však takto dobře chráněna není.
 
@@ -204,11 +204,11 @@ Proto je myšlenka utajení komunikace prostřednictvím ochrany komunikačního
 
 # Matematické základy kryptografie 1
 
-<partId>1bf9f0aa-0f68-5493-83fb-2167238ff9de</partId>
+<partId>22c3967a-c64b-468c-8e68-3324fe552738</partId>
 
 ## Náhodné proměnné
 
-<chapterId>b623a7d0-3dff-5803-bd4e-8257ff73dd69</chapterId>
+<chapterId>c5fa2255-6041-400b-9072-217b73bf411e</chapterId>
 
 Kryptografie se opírá o matematiku. A pokud chcete kryptografii porozumět více než jen povrchně, musíte se s touto matematikou dobře vyrovnat.
 
@@ -413,7 +413,7 @@ Mohl bych se vás například zeptat, jaká je pravděpodobnost, že do roku 203
 
 ## Operace modulo
 
-<chapterId>709b34e5-b155-53d2-abbd-97d67e56db00</chapterId>
+<chapterId>a7e063f0-62dd-4c35-892a-55fa1b10aad8</chapterId>
 
 ### Modulo
 
@@ -501,7 +501,7 @@ $$
 
 ## Operace XOR
 
-<chapterId>22f185cc-c516-5b33-950b-0908f2f881fe</chapterId>
+<chapterId>941aaabd-0896-4eb2-843c-e1af055c87fc</chapterId>
 
 Všechna počítačová data se zpracovávají, ukládají a posílají po sítích na úrovni bitů. Veškerá kryptografická schémata, která se používají na počítačová data, pracují rovněž na úrovni bitů.
 
@@ -536,7 +536,7 @@ Operace XOR je ekvivalentní speciálnímu případu provedení operace modulo n
 
 ## Pseudonáhodnost
 
-<chapterId>20463fc5-3e92-581f-a1b7-3151279bd95e</chapterId>
+<chapterId>bd0c7d54-5392-490b-bdca-04dcbe7d83ff</chapterId>
 
 V naší diskusi o náhodných a rovnoměrných proměnných jsme rozlišovali mezi "náhodnými" a "rovnoměrnými" proměnnými. Toto rozlišení se v praxi při popisu náhodných veličin obvykle zachovává. V našem současném kontextu je však třeba od tohoto rozlišení upustit a slova "náhodný" a "rovnoměrný" používat jako synonyma. Proč, to vysvětlím na konci této části.
 
@@ -580,11 +580,11 @@ Důvod, proč jsme v naší diskusi upustili od rozlišování mezi "náhodným"
 
 # Matematické základy kryptografie 2
 
-<partId>d7245cc9-bb6d-5403-b3d5-9c703d9a2f81</partId>
+<partId>62963952-ae03-43f4-88d6-90aea95e5c5f</partId>
 
 ## Co je to teorie čísel?
 
-<chapterId>c0051c34-fd5d-539c-93e2-5c6dfd4c3355</chapterId>
+<chapterId>67e7dace-4c23-41a8-bdb3-c6c87d223899</chapterId>
 
 Tato kapitola se zabývá pokročilejším tématem matematických základů kryptografie: teorií čísel. Ačkoli je teorie čísel důležitá pro symetrickou kryptografii (například v šifře Rijndael), je obzvláště důležitá v prostředí kryptografie s veřejným klíčem.
 
@@ -604,7 +604,7 @@ Množiny z abstraktní algebry se mohou zabývat mnoha typy objektů, od transfo
 
 ## Skupiny
 
-<chapterId>3209b270-f9cd-5224-803e-0ed19fbf7826</chapterId>
+<chapterId>4353d3ff-6319-4985-a4b8-3b20111ecfff</chapterId>
 
 Základním pojmem v matematice je množina prvků. Množina se obvykle označuje znaky akuzativu, přičemž prvky se oddělují čárkami.
 
@@ -677,7 +677,7 @@ Transakce v bitcoinech obvykle zahrnují nějakým způsobem uzamčení výstup�
 
 ## Cyklické skupiny
 
-<chapterId>bfa5c714-7952-5fef-88b1-ca5b07edd886</chapterId>
+<chapterId>b5b552f6-cf7c-4ba8-bd9c-685bfc4aacad</chapterId>
 
 Hlavní rozdíl, který můžeme učinit, je mezi **konečnou** a **nekonečnou skupinou**. První má konečný počet prvků, zatímco druhá má nekonečný počet prvků. Počet prvků v každé konečné grupě se nazývá **pořadí grupy**. Veškerá praktická kryptografie, která zahrnuje použití grup, se opírá o konečné (číselně-teoretické) grupy.
 
@@ -766,7 +766,7 @@ Eulerův vzorec funkce Phi pro prvočíselnou faktorizaci $N$.
 
 ## Pole
 
-<chapterId>fad52d86-3a22-5c9f-979e-3bec9eaa008e</chapterId>
+<chapterId>7a8c9ab0-fc8f-43fa-8dd7-fd1839bcda81</chapterId>
 
 Základní algebraickou strukturou v abstraktní algebře je grupa, ale existuje jich mnohem více. Jedinou další algebraickou strukturou, kterou je třeba znát, je **pole**, konkrétně **konečné pole**. Tento typ algebraické struktury se často používá v kryptografii, například v Advanced Encryption Standard. Ten je hlavním symetrickým šifrovacím schématem, se kterým se v praxi setkáte.
 
@@ -917,7 +917,7 @@ Proč by měla být rozšiřující pole se základem 2 nad množinami polynomů
 
 ## Abstraktní algebra v praxi
 
-<chapterId>ed35b98d-18b4-5790-9911-1078e0f84f92</chapterId>
+<chapterId>9b8cd1fc-8a34-4e1b-ab4f-c634a763a20c</chapterId>
 
 Navzdory formálnímu jazyku a abstraktnosti diskuse by nemělo být příliš obtížné pochopit pojem skupiny. Je to prostě množina prvků spolu s binární operací, přičemž provedení této binární operace na těchto prvcích splňuje čtyři obecné podmínky. Abeliánská grupa má pouze další podmínku známou jako komutativita. Cyklická grupa je zase speciální druh abelovské grupy, a to taková, která má generátor. Pole je pouze složitější konstrukce ze základního pojmu grupy.
 
@@ -945,11 +945,11 @@ Další informace o moderní teorii čísel najdete v mnoha pokročilých diskus
 
 # Symetrická kryptografie
 
-<partId>ef768d0e-fe7b-510c-87d6-6febb3de1039</partId>
+<partId>b994593e-cb9b-4a2c-ae80-2dec3478e1a6</partId>
 
 ## Alice a Bob
 
-<chapterId>47345330-be2d-5faf-afd0-d289a8d21bf1</chapterId>
+<chapterId>9c901027-b83a-4954-99b4-9e4f0c1598b7</chapterId>
 
 Jedním ze dvou hlavních odvětví kryptografie je symetrická kryptografie. Zahrnuje šifrovací schémata i schémata zabývající se autentizací a integritou. Až do 70. let 20. století by veškerá kryptografie tvořena symetrickými šifrovacími schématy.
 
@@ -979,7 +979,7 @@ Následuje pět klíčových bodů, které je třeba mít na paměti u příklad
 
 ## Symetrická šifrovací schémata
 
-<chapterId>41bfdbe1-6d41-5272-98bb-81f24b2fd6af</chapterId>
+<chapterId>e2645185-bb06-41d2-9a80-81dd84108647</chapterId>
 
 Volně můžeme definovat **symetrické šifrovací schéma** jako jakékoli kryptografické schéma se třemi algoritmy:
 
@@ -1015,7 +1015,7 @@ Bob zašifruje zprávu $M$ v čase $T_0$ klíčem $K$ a získá šifrový text $
 
 ## Příklad: Posunovací šifra
 
-<chapterId>7b179ae8-8d15-5e80-a43f-22c970d87b5e</chapterId>
+<chapterId>63287a89-bda1-4395-ade6-cd8d8debe797</chapterId>
 
 V kapitole 2 jsme se setkali s posunovací šifrou, která je příkladem velmi jednoduchého symetrického šifrovacího schématu. Podívejme se na ni znovu zde.
 
@@ -1051,7 +1051,7 @@ Můžete se také setkat s termíny **encipher** nebo **decipher**. Tyto výrazy
 
 ## Útoky hrubou silou a Kerckhoffův princip
 
-<chapterId>2d73ef97-26c5-5d11-8815-0ddbe89c8003</chapterId>
+<chapterId>4a72d8d8-0186-4654-b5ba-f99a4e03fb59</chapterId>
 
 Posunovací šifra je velmi nejisté symetrické šifrovací schéma, alespoň v moderním světě. [1] Útočník se může jednoduše pokusit dešifrovat libovolný šifrový text všemi 26 možnými klíči a zjistit, který výsledek dává smysl. Tento typ útoku, při kterém útočník pouze cyklicky prochází klíče, aby zjistil, co funguje, je znám jako **útok hrubou silou** nebo **vyčerpávající hledání klíčů**.
 
@@ -1099,7 +1099,7 @@ I když se nebudeme zabývat všemi podrobnostmi různých pojetí kryptografick
 
 ## Proudové šifry
 
-<chapterId>479aa6f4-45c4-59ca-8616-8cf8e61fc871</chapterId>
+<chapterId>82a4d8c5-7fd7-4bbb-a97e-e7a2d7cc55a0</chapterId>
 
 Symetrická šifrovací schémata se standardně dělí na dva typy: **proudové šifry** a **blokové šifry**. Toto rozdělení je však poněkud problematické, protože lidé používají tyto termíny nejednotně. V několika následujících částech uvedu toto rozlišení způsobem, který považuji za nejlepší. Měli byste si však uvědomit, že mnoho lidí bude tyto pojmy používat poněkud jinak, než jsem je uvedl.
 
@@ -1187,7 +1187,7 @@ Podle mého názoru poskytuje širší definice podmínky (1) snazší způsob o
 
 ## Blokové šifry
 
-<chapterId>2df52d51-943d-5df7-9d49-333e4c5d97b7</chapterId>
+<chapterId>ffb7ba1c-eb20-43a8-a2f1-2b8a54a31044</chapterId>
 
 První způsob, jakým je **bloková šifra** běžně chápána, je něco primitivnějšího než proudová šifra: Jde o základní algoritmus, který pomocí klíče provádí transformaci řetězce vhodné délky se zachováním délky. Tento algoritmus lze použít pro vytváření šifrovacích schémat a možná i jiných typů kryptografických schémat.
 
@@ -1263,7 +1263,7 @@ Bloková šifra AES bude podrobně vysvětlena v *kapitole 5*.
 
 ## Vyjasnění nejasností
 
-<chapterId>121c1858-27e3-5862-b0ce-4ff2f70f9f0f</chapterId>
+<chapterId>61e393f2-6764-4214-a871-f7471cb8ea32</chapterId>
 
 Zmatek ohledně rozdílu mezi blokovými a proudovými šiframi vzniká proto, že někdy lidé chápou pojem bloková šifra jako označení pro *blokovou šifru s blokovým způsobem šifrování*.
 
@@ -1287,7 +1287,7 @@ Na základě této diskuse byste nyní měli pochopit *obrázek 8*. Poskytuje p�
 
 ## Kódy pro ověřování zpráv
 
-<chapterId>19fa7c00-db59-56a0-9654-5350a137939d</chapterId>
+<chapterId>626181b6-f80f-4160-b441-417a79b66ec6</chapterId>
 
 Šifrování se týká utajení. Kryptografie se však zabývá i širšími tématy, jako je integrita, autenticita a nepopiratelnost zpráv. Takzvané **autentizační kódy zpráv** (MAC) jsou kryptografická schémata se symetrickým klíčem, která podporují autenticitu a integritu komunikace.
 
@@ -1317,7 +1317,7 @@ I když jsem ve své diskusi rozlišoval mezi autenticitou a integritou zprávy,
 
 ## Ověřené šifrování
 
-<chapterId>33f2ec9b-9fb4-5c61-8fb4-50836270a144</chapterId>
+<chapterId>64c1aef9-0bf8-45c5-92ba-12161d907eac</chapterId>
 
 Obvykle je třeba zaručit utajení i autenticitu komunikace, a proto se šifrovací schémata a schémata MAC obvykle používají společně.
 
@@ -1361,7 +1361,7 @@ Existuje paleta hašovacích funkcí, které lze použít k vytvoření HMAC. Ne
 
 ## Zabezpečené komunikační relace
 
-<chapterId>c7f7dcd3-bbed-53ed-a43d-039da0f180c5</chapterId>
+<chapterId>16be8853-ef4e-432b-b724-f34e780f2abe</chapterId>
 
 Předpokládejme, že dvě strany jsou v komunikační relaci a posílají si několik zpráv tam a zpět.
 
@@ -1393,11 +1393,11 @@ Komunikace začíná tím, že Bob pošle Alici šifrovaný text $C_{0,B}$ se zn
 
 # RC4 a AES
 
-<partId>a48c4a7d-0a41-523f-a4ab-1305b4430324</partId>
+<partId>9948fc0a-59fe-46a4-b324-b12cde16e576</partId>
 
 ## Proudová šifra RC4
 
-<chapterId>5caec5bd-5a77-56c9-b5e6-1e86f0d294aa</chapterId>
+<chapterId>2f83a43a-16e5-4b4e-9d2f-4976f92eba15</chapterId>
 
 V této kapitole se budeme zabývat podrobnostmi šifrovacího schématu s moderní primitivní proudovou šifrou RC4 (neboli "Rivestovou šifrou 4") a moderní blokovou šifrou AES. Zatímco šifra RC4 upadla jako metoda šifrování v nemilost, AES je standardem moderního symetrického šifrování. Tyto dva příklady by měly poskytnout lepší představu o tom, jak symetrické šifrování funguje pod kapotou.
 
@@ -1510,7 +1510,7 @@ Důležité je, že proud klíčů vytvořený pomocí RC4 je třeba považovat 
 
 ## AES se 128bitovým klíčem
 
-<chapterId>0b30886f-e620-5b8d-807b-9d84685ca8ff</chapterId>
+<chapterId>593d6ae3-7887-40d5-b14b-98a580b9a254</chapterId>
 
 Jak bylo zmíněno v předchozí kapitole, Národní institut pro standardy a technologie (NIST) uspořádal v letech 1997 až 2000 soutěž o nový standard symetrického šifrování. Vítězem se stala šifra **Rijndael**. Název je slovní hříčkou se jmény belgických tvůrců, Vincenta Rijmena a Joana Daemena.
 
@@ -1679,11 +1679,11 @@ Důvodem operací, které stojí za šifrou Rijndael, je vysoký stupeň zmaten�
 
 # Asymetrická kryptografie
 
-<partId>868bd9dd-6e1c-5ea9-9ece-54affc13ba05</partId>
+<partId>20c55ed4-4e45-493a-8bfe-970f332d764c</partId>
 
 ## Problém distribuce a správy klíčů
 
-<chapterId>1bb651ba-689a-5a89-a7d3-0b9cc3b694f7</chapterId>
+<chapterId>4bbc8769-e00d-4d59-8365-c5f491b1217b</chapterId>
 
 Stejně jako v případě symetrické kryptografie lze asymetrická schémata použít k zajištění utajení i autentizace. Na rozdíl od nich však tato schémata nepoužívají jeden, ale dva klíče: soukromý a veřejný.
 
@@ -1728,7 +1728,7 @@ Co se stalo v 70. letech? Jak je možné, že můžeme okamžitě nakupovat onli
 
 ## Nové směry v kryptografii
 
-<chapterId>7a9dd9a3-496e-5f9d-93e0-b5028a7dd0f1</chapterId>
+<chapterId>e0f7950c-bb5a-437e-b27e-8d6878e15291</chapterId>
 
 V 70. letech 20. století upoutala pozornost skupiny amerických akademických kryptografů problematika distribuce a správy klíčů: Whitfield Diffie, Martin Hellman a Ralph Merkle. Tváří v tvář velké skepsi většiny svých kolegů se odhodlali navrhnout řešení.
 
@@ -1792,7 +1792,7 @@ Podle jejich vlastního vyjádření a vyjádření GCHQ to byl James Ellis, kdo
 
 ## Asymetrické šifrování a ověřování
 
-<chapterId>2f6f0f03-3c3d-5025-90f0-5211139bc0cc</chapterId>
+<chapterId>a36ea521-ecee-476d-ade9-57f09bed2469</chapterId>
 
 Přehled **asymetrického šifrování** pomocí Boba a Alice je uveden na *obrázku 1*.
 
@@ -1870,7 +1870,7 @@ Distribuce klíčů je nyní pro společnost Jim's Sporting Goods mnohem jednodu
 
 ## Funkce Hash
 
-<chapterId>ea8327ab-b0e3-5635-941c-4b51f396a648</chapterId>
+<chapterId>49d6c9a5-5f18-4ec4-8c83-e02fc60941ff</chapterId>
 
 Hašovací funkce jsou v kryptografii všudypřítomné. Nejsou ani symetrickými, ani asymetrickými schématy, ale patří do samostatné kryptografické kategorie.
 
@@ -1948,11 +1948,11 @@ Zatímco odolnost proti kolizím a skrývání jsou hlavními vlastnostmi, kter�
 
 # Kryptosystém RSA
 
-<partId>864dca42-2a8d-530f-bb94-2e1f68b3f411</partId>
+<partId>a8fb0a0b-747f-422a-a464-3c84979efa43</partId>
 
 ## Problém faktoringu
 
-<chapterId>a31a66e4-52ea-539c-9953-4769ad565d7e</chapterId>
+<chapterId>406b1681-f8bf-4a03-b555-c84ac4dee44a</chapterId>
 
 Zatímco symetrická kryptografie je pro většinu lidí obvykle poměrně intuitivní, u asymetrické kryptografie tomu tak není. Ačkoli vám pravděpodobně vyhovuje popis na vysoké úrovni, který jsme vám nabídli v předchozích částech, pravděpodobně vás zajímá, co přesně jsou jednosměrné funkce a jak přesně se používají při konstrukci asymetrických schémat.
 
@@ -2045,7 +2045,7 @@ $$ \frac{2^{1024}}{\ln(2^{1024})} - \frac{2^{1023}}{\ln(2^{1023})} $$
 
 ## Výsledky teorie čísel
 
-<chapterId>23cd2186-8d97-5709-a4a7-b984f1eb9999</chapterId>
+<chapterId>a5528852-d9cc-4f94-a15d-02f11081e026</chapterId>
 
 Problém faktoringu bohužel nelze přímo použít pro asymetrická kryptografická schémata. Můžeme však k tomuto účelu použít složitější, ale příbuzný problém: problém RSA.
 
@@ -2171,7 +2171,7 @@ Nyní máme k dispozici všechny výsledky teorie čísel potřebné k jasnému 
 
 ## Kryptosystém RSA
 
-<chapterId>0253c2f7-b8a4-5d0e-bd60-812ed6b6c7a9</chapterId>
+<chapterId>b230194d-5774-49fe-9d19-53e345453c34</chapterId>
 
 Nyní jsme připraveni uvést problém RSA. Předpokládejme, že vytvoříte sadu proměnných, která se skládá z $p$, $q$, $N$, $\phi(N)$, $e$, $d$ a $y$. Tuto množinu nazvěte $\Pi$. Vytvoříme ji takto:
 
@@ -2264,5 +2264,5 @@ Nicméně s přidáním trochu chytré složitosti lze problém RSA použít k v
 <isCourseExam>true</isCourseExam>
 
 ## Závěr
-<chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
+<chapterId>97ce180b-5092-45eb-a160-57fc52917567</chapterId>
 <isCourseConclusion>true</isCourseConclusion>

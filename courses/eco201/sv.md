@@ -16,13 +16,13 @@ Denna tankeskola har format debatter i århundraden, tack vare inflytelserika t�
 # Inledning
 
 
-<partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
+<partId>21613091-f43a-4a87-88d9-2d69038d41d2</partId>
 
 
 ## Kursöversikt
 
 
-<chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
+<chapterId>43b56a2b-bbee-4faa-b52a-9b6c540df559</chapterId>
 
 
 Välkommen till ECO201-kursen!
@@ -64,7 +64,7 @@ Och tänk om nyckeln till att förstå dagens ekonomi ligger i en teori som är 
 ## Pengar, krediter, banker och centralbanker
 
 
-<chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
+<chapterId>84a09f98-8cd7-468f-9cc1-6c0add06ce12</chapterId>
 
 
 > "Grundproblemet med konventionell valuta är allt det förtroende som krävs för att få den att fungera. Man måste lita på att centralbanken inte förfalskar valutan, men fiatvalutornas historia är full av brott mot det förtroendet. Bankerna måste vara betrodda att hålla våra pengar och överföra dem elektroniskt, men de lånar ut dem i vågor av kreditbubblor med knappt en bråkdel i reserv. Vi måste lita på dem när det gäller vår integritet, lita på att de inte låter identitetstjuvar tömma våra konton."
@@ -199,13 +199,13 @@ I det kommande kapitlet kommer vi att fördjupa oss i den grundläggande hörnst
 # Teoretiska grunder
 
 
-<partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
+<partId>6249c7e4-71bc-453b-8a09-ab579d340709</partId>
 
 
 ## Den subjektiva värdeteorin
 
 
-<chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
+<chapterId>fb001732-6bf7-4935-b8ec-6c225dab1025</chapterId>
 
 
 > "Värde existerar bara i det mänskliga medvetandet"
@@ -331,7 +331,7 @@ De följande kapitlen ägnas åt pengarnas framväxt som samhällsinstitution, k
 ## Uppkomsten av pengar som ett socialt fenomen
 
 
-<chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
+<chapterId>469d591e-b407-4218-bccb-6a433f731cb3</chapterId>
 
 
 Även om individer har ett gemensamt intresse av att specialisera sig och maximera arbetsfördelningen finns det fortfarande samordningsproblem som begränsar denna expansion.
@@ -453,7 +453,7 @@ I nästa kapitel ska vi fördjupa oss i begreppet tidspreferens och förklara de
 ## Tidspreferens, ränta och kapital
 
 
-<chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
+<chapterId>e0a5c946-dd4c-4aa6-9b6e-aaacb23241ae</chapterId>
 
 
 ### Tidspreferens
@@ -561,13 +561,13 @@ Detta är vad vi kommer att ta reda på i nästa kapitel som ägnas åt den öst
 # Österrikiska ekonomiska perspektiv
 
 
-<partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
+<partId>851a6712-84ea-48d2-85f7-3354e1381a06</partId>
 
 
 ## Den österrikiska teorin om konjunkturcykeln
 
 
-<chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
+<chapterId>17248205-835a-4284-ba94-0eb131916aa3</chapterId>
 
 
 > "Ju längre boomen av inflationsdrivande bankkrediter fortsätter, desto större blir omfattningen av felinvesteringar i kapitalvaror och desto större blir behovet av att avveckla dessa osunda investeringar. När kreditexpansionen stannar av, vänder eller till och med bromsar in betydligt avslöjas felinvesteringarna."
@@ -681,7 +681,7 @@ Detta kommer att vara ämnet för nästa och sista kapitel i denna kurs.
 ## Omöjligheten av ekonomisk kalkylering under socialismen
 
 
-<chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
+<chapterId>9b9e185f-5b0d-4850-813e-0c50e309a909</chapterId>
 
 
 > "Där det inte finns några marknadspriser för produktionsfaktorerna, eftersom de varken köps eller säljs, är det omöjligt att använda sig av kalkyler för att planera framtida åtgärder och för att fastställa resultatet av tidigare åtgärder. En socialistisk produktionsledning skulle helt enkelt inte veta om det den planerar och genomför är det lämpligaste medlet för att uppnå de eftersträvade målen eller inte. Den kommer så att säga att agera i mörkret. Den kommer att slösa bort de knappa produktionsfaktorerna, både materiella och mänskliga (arbetskraft). Kaos och fattigdom för alla kommer oundvikligen att bli resultatet."
@@ -791,7 +791,7 @@ Den österrikiska traditionen präglas av ett ödmjukt förhållningssätt till 
 ## Den österrikiska metodiken
 
 
-<chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
+<chapterId>1fdf4c5d-0008-4f69-97e7-127fb3ef63e0</chapterId>
 
 
 Den österrikiska ekonomiska skolan skiljer sig från andra skolor genom sin axiomatisk-deduktiva metodik, som skiljer sig från det positivistiska synsätt som ofta används inom samhällsvetenskaperna. Det positivistiska synsättet bygger på lagar som etableras utifrån empiriska data, med en metod som liknar den inom naturvetenskapen. Utifrån observationer formuleras hypoteser, som sedan bekräftas eller vederläggs genom tillfälliga experiment. Den vetenskapliga metoden innebär att man behåller den hypotes som bäst förklarar data och fortsätter att utforska den tills man hittar en mer exakt hypotes.
@@ -824,20 +824,20 @@ Metodik är en viktig aspekt inom nationalekonomi och samhällsvetenskap i allm�
 # Sista avsnittet
 
 
-<partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
+<partId>373760d2-4e6e-4a05-8081-6d02072457d7</partId>
 
 
 ## Recensioner & betyg
 
 
-<chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
+<chapterId>2373a3ce-1c87-415a-8dd6-0437b4f71e79</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Slutlig tentamen
 
 
-<chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
+<chapterId>1c584ca3-c738-4151-8a85-101a142fcbbc</chapterId>
 
 <isCourseExam>true</isCourseExam>
 

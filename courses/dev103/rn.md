@@ -28,12 +28,12 @@ Igihe amashure azoba arangiye, ukwiye kuba ushoboye kwandika porogarama zawe bwi
 +++
 # JavaScript y'ishimikiro
 
-<partId>a617327c-e5a2-52ca-9380-c63f44623dd4</partId>
+<partId>f05873c1-d927-41c7-a204-bb0c65a76980</partId>
 
 
 ## Gushinga
 
-<chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
+<chapterId>f23bda2d-c460-4823-9d63-f2ac4d782c1f</chapterId>
 
 
 Muri iki gice turaza gutegura imashini yacu kugira ngo yandike kandi ikore porogarama yacu ya mbere ya JavaScript.
@@ -189,7 +189,7 @@ Ibi bizocapura
 
 ## Ibihinduka n'ibitekerezo
 
-<chapterId>23050ab7-343b-5edf-9d37-e4e782e27ce0</chapterId>
+<chapterId>3eeeaba5-0eae-446f-9cbb-671d8ec89155</chapterId>
 
 
 Porogaramu akenshi zikora ibikorwa ku makuru.
@@ -473,7 +473,7 @@ Ushobora gukoresha ibivugwa kugira ngo wongereko utusobanuro dutoduto kuri kode 
 
 ## Ubwoko bw'ishimikiro: imibare, imirongo, ibiharuro
 
-<chapterId>cfdb04f6-21a8-5143-bbf9-7aaae04962f0</chapterId>
+<chapterId>1885cd1e-9477-40b3-846f-c6484a0741d1</chapterId>
 
 
 Mu rurimi rwa JavaScript, “ubwoko” burakubwira ubwoko bw’amakuru agaciro ari.
@@ -730,7 +730,7 @@ Booleans, kugereranya n'ibikoresho vy'ubwenge akenshi bihurizwa hamwe muri porog
 
 ## Imirongo, ubusa, itasobanuwe
 
-<chapterId>7bf18183-5eae-53ed-83d2-b04982145d81</chapterId>
+<chapterId>8047722f-5eee-46c3-b17f-c29b709930c3</chapterId>
 
 
 Muri iki gice, turaza kubona ubundi bwoko butatu busanzwe muri porogarama za JavaScript:
@@ -977,7 +977,7 @@ Rero `null` ni ngirakamaro iyo ushaka kuvuga, nk’akarorero, “Hazoba ikintu h
 
 ## Amabuye n'ugucungera uruja n'uruza
 
-<chapterId>be985168-2636-5b0d-a48f-ac1bbfbff8a7</chapterId>
+<chapterId>ae3ddb7d-b174-4328-ba45-e3629ea01063</chapterId>
 
 
 Kugeza ubu, twanditse cane cane imirongo y’amakode ikurikirana.
@@ -1507,7 +1507,7 @@ Ico cari akarorero gateye ubwoba cane ariko twizigiye ko catomoye (rimwe na rimw
 
 ## Gutanguza imikorere
 
-<chapterId>cc324715-09c2-5cf7-9e6f-47a6f16bc04d</chapterId>
+<chapterId>c73497b2-30c8-47c3-994c-01404924634e</chapterId>
 
 
 Uko porogarama zawe zikura, uzoshaka kenshi **gusubira gukoresha** ibice vya kode.
@@ -1747,7 +1747,7 @@ Ibi bizocapura `bitasobanuwe`. Agaciro k'igikorwa kitagarutse ikintu na kimwe ni
 
 ## Ibintu n'amashure
 
-<chapterId>26689f25-8212-5057-8c21-3a05eee0ac75</chapterId>
+<chapterId>820f0b78-7065-4929-84eb-6d569d75a9ce</chapterId>
 
 
 JavaScript akenshi yitwa ururimi rushingiye ku bintu.
@@ -2432,12 +2432,12 @@ Iyo mirongo yompi igarura `ukuri`. Ivyo ni kubera ko `Umuyobozi` ari umugwi muto
 
 # JavaScript yo hagati
 
-<partId>243f63ab-4f34-5c30-80cb-84ef46f6761d</partId>
+<partId>371fcc46-5c4f-4e9f-8e88-092927553fdc</partId>
 
 
 ## Gufata ikosa
 
-<chapterId>d0206bc5-d386-5e7f-9917-5803f392448c</chapterId>
+<chapterId>a34f710a-8955-4f58-a559-003706047512</chapterId>
 
 
 Uko wandika porogarama zikomeye cane za JavaScript, uzohura n'**amakosa**. Ivyo ni ibintu bitari vyitezwe aho hari ikintu kigenda nabi. Kumbure umuhinduzi ni `undefined` ariko ugerageza kuwukoresha, canke kode imwe imwe ironka ubwoko butari bwo bw'inyungu.
@@ -2590,7 +2590,7 @@ This will run no matter what.
 
 ## Kwirinda ibikoko
 
-<chapterId>db12d9f6-5806-514c-998e-0ae24805104e</chapterId>
+<chapterId>44624b0b-ca62-471b-9ff4-633ac4456031</chapterId>
 
 
 Iki gice kirerekana imitego imwe imwe isanzwe muri JavaScript, n’ingene woyirinda.
@@ -2688,7 +2688,7 @@ Uburyo bukomeye kandi burazimya ibintu bimwebimwe vya kera vya JavaScript, kandi
 
 ## Agaciro vs Ishingiro
 
-<chapterId>bb898425-dc2f-5e5c-864b-0cb7a4a9aea9</chapterId>
+<chapterId>7b38da5d-a2a8-4a92-bd16-4f9fb9bba36d</chapterId>
 
 
 JavaScript ifata ubwoko butandukanye bw'agaciro mu buryo butandukanye.
@@ -2852,7 +2852,7 @@ Ni vyiza kwibuka iyo ntandukaniro, kuko ahandi ho kode yacu yoshobora kwigenza m
 
 ## Gukorana n'imikorere
 
-<chapterId>e0d277a8-c642-5af7-9e53-dee27c811967</chapterId>
+<chapterId>5ef8fb79-0042-4185-8f54-0c2b6741cb11</chapterId>
 
 
 Waramaze kwiga ingene womenyesha no gukoresha ibikorwa muri JavaScript. Ariko JavaScript iraguha ibikoresho vyinshi vyo gukorana n’ibikorwa mu buryo bukomeye.
@@ -3120,7 +3120,7 @@ console.log(result) // 28
 
 ## Gukorana n'ibintu
 
-<chapterId>7842aada-f009-5518-b8e3-1104e166a035</chapterId>
+<chapterId>51719896-7c92-4730-b153-7d3f88680a73</chapterId>
 
 
 Muri iki gice, tuzokwiga ibikoresho bikomeye kandi biteye imbere gatoyi vyo gukorana n’ibintu muri JavaScript.
@@ -3247,7 +3247,7 @@ Rero naho bimeze nk’aho turiko turashiraho umuhinduzi woroshe, mu vy’ukuri t
 
 ## Urufunguzo n'agaciro
 
-<chapterId>01a397b8-c12a-5c39-82b3-6d9ebbb72a29</chapterId>
+<chapterId>03899213-ca26-4beb-b836-c70116a5cb29</chapterId>
 
 
 Igikoresho cose kiri mu kintu ca JavaScript gifise **urufunguzo** (naco citwa izina ry'igikoresho) n'**agaciro**.
@@ -3422,7 +3422,7 @@ Nk'uko ushobora kubibona, umutungo w'intango `izina` urazigama muri ubu buryo. I
 
 ## Ibintu vy'ingirakamaro
 
-<chapterId>516e74c8-2a11-545a-a4d1-c2cabb91a273</chapterId>
+<chapterId>d6ce15ed-f38f-44f0-bf38-05f54a263763</chapterId>
 
 
 JavaScript iduha ibintu vy’ingirakamaro vyubatswemwo bidufasha gukora ibintu nk’ugukosora n’ibikorwa vy’imibare.
@@ -3595,12 +3595,12 @@ console.log(Math.sqrt(16))    // 4
 
 # JavaScript iteye imbere
 
-<partId>72c30671-ca20-5617-92a5-d5ba7aa38c93</partId>
+<partId>4deca44e-5be7-4cc7-8e66-b6e72c5c5702</partId>
 
 
 ## Ibindi bitabo
 
-<chapterId>a9a70c6d-a343-5a46-a383-e288bc2700e3</chapterId>
+<chapterId>06bc3143-6d3b-4742-b3ec-3d493200f290</chapterId>
 
 
 JavaScript iduha ubwoko bumwe bumwe bw’amakoraniro budasanzwe burenze amabara n’ibintu bisanzwe. Ivyo birimwo `Ikarita` na `Igice`.
@@ -3768,7 +3768,7 @@ console.log(numberSet) // Set(5) { 1, 2, 3, 4, 5 }
 
 ## Abasubiramwo
 
-<chapterId>61d24e5e-b7e4-541a-8322-778f61f26a72</chapterId>
+<chapterId>cdf64150-bf1b-43ee-9243-eb1d12944f6b</chapterId>
 
 
 Ibintu vyinshi muri JavaScript ushobora gucako (nk'imirongo, imirongo, amakarata, imigwi) ni **ibisubirwamwo**: bishobora gutanga ibisubirwamwo ku birimwo.
@@ -4103,7 +4103,7 @@ Ibi bicapura:
 
 ## Guhuza n'uguhamagara
 
-<chapterId>f3fc76ca-b3ef-54eb-a06e-501007002054</chapterId>
+<chapterId>153d4631-4f09-4673-9663-a0655c84915d</chapterId>
 
 
 Gushika ubu, kode yacu yari **synchronous**: ikora umurongo umwe ku wundi, mu buryo bubereye. Ariko hari ibintu vyo mw’isi nyakuri bifata umwanya, kandi ntidushaka ko porogarama yose ihagarara mu gihe turindiriye.
@@ -4228,7 +4228,7 @@ Iyi ni Hard yo gusoma no gutera umuvurungano. Uwo muco witwa **callback hell**, 
 
 ## Guhuza n'Imihango
 
-<chapterId>30fddaca-729f-5c8d-bf86-8dfc7b3c9800</chapterId>
+<chapterId>f8635081-bd8a-468c-937a-378cba983be8</chapterId>
 
 
 `Isezerano` ni ikintu cubatswe muri JavaScript kigereranya agaciro **kazoba gateguwe muri kazoza**.
@@ -4560,7 +4560,7 @@ Buri `.then()` irindiriye intambwe imbere y'uko irangira. Turashobora rero kwuba
 
 ## Guhuza n'async/kurindira
 
-<chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
+<chapterId>ee195267-5761-4b57-b9c9-294c41753675</chapterId>
 
 
 Twarabonye ingene iminyororo ya `Promise` idufasha kwirinda umuriro w’iteka, ariko irashobora kuronka Hard ntoyi yo gusoma iyo hari intambwe nyinshi zirimwo.
@@ -4761,7 +4761,7 @@ Bisa n’iporogarama isanzwe y’intambwe ku yindi, ariko iracariko yigenza mu b
 
 ## Ibisubiramwo bitagikora
 
-<chapterId>438b037d-9931-56d7-9052-7b4470f3c75b</chapterId>
+<chapterId>0e054e0d-3c56-4a9c-92b8-3f89082951d3</chapterId>
 
 
 Waramaze kwiga ivyerekeye **iterators** n'ingene dushobora gukoresha `for...of` kugira ngo dukoreshe amabara n'ibindi bintu bishobora gusubirwamwo.
@@ -4940,7 +4940,7 @@ Ibi bigufasha kurema ibintu bishobora gusubirwamwo mu buryo butajanye n'igihe
 
 ## Assignment isukari y'inyuguti
 
-<chapterId>8b1ba7d8-ecfd-5470-b86e-73cb84ccc8b7</chapterId>
+<chapterId>05425043-b182-44f2-8409-210b07130f92</chapterId>
 
 
 "Syntax sugar" bisigura kwandika ikintu mu buryo bugufi canke bworoshe, utahinduye ico gikora. Ni uburyo bwiza gusa bwo kuvuga ivyo nyene.
@@ -5191,12 +5191,12 @@ Ivyo birafasha cane iyo uriko urahindura ibintu utahinduye ivy’umwimerere.
 
 # UrudodoJS
 
-<partId>42fe4d49-dace-5135-bb9e-b9d75034fb2a</partId>
+<partId>5b72ef93-69a6-4736-a375-6236861e2874</partId>
 
 
 ## Twashitse gute kuri Node .
 
-<chapterId>0da1d60c-06c9-54e6-a181-ae7dabf6e3b8</chapterId>
+<chapterId>d43b1e4c-cd96-4c75-8039-f76eb407a576</chapterId>
 
 
 Muri iki gice tuzokwiga gatoyi ku bijanye n’amateka yerekeye JavaScript na NodeJS.
@@ -5285,7 +5285,7 @@ Muri iki cigwa gushika ubu, twasuzumye ibiranga JavaScript biri muri browser no 
 
 ## Impamvu z'umurongo w'itegeko
 
-<chapterId>960d20f3-c424-5d51-a041-ef17d2e94b6d</chapterId>
+<chapterId>941e316c-7ab8-4fb0-8298-9a1c85b25b71</chapterId>
 
 
 NodeJS iratwemerera, mu bindi, kwubaka CLIs (Imirongo y’Itegeko).
@@ -5362,7 +5362,7 @@ Kugira uburenganzira bwo gushika ku mpamvu umukoresha ariko ararenga ni ngirakam
 
 ## Ivyigwa
 
-<chapterId>4e1651a5-65fd-50bc-b22a-40313d5659ca</chapterId>
+<chapterId>ace32a0c-8a10-4dfa-83e2-e06a8f674a24</chapterId>
 
 
 Igihe co gukoresha JavaScript nka NodeJS akenshi gifata dosiye yose ya JavaScript nk'igice gitandukanye.
@@ -5502,7 +5502,7 @@ Ibigabane bikurikira bizokwereka ingero ngirakamaro z’ingene zikoreshwa.
 
 ## Igikoresho ca fs
 
-<chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
+<chapterId>e59cdf25-2dc2-48d1-b5c1-3df89254ff4e</chapterId>
 
 
 Igikoresho ca `fs` (mu ncamake **uburyo bwa dosiye**) ni igice c'ububiko bw'ibitabo bwa NodeJS. Iragufasha gukorana n’amadosiye n’ububiko kuri mudasobwa yawe: ushobora gusoma amadosiye, kwandika amadosiye, kuyafuta, kuyahindura izina, n’ibindi.
@@ -5800,7 +5800,7 @@ main().catch(err => console.error(err))
 
 ## NPM
 
-<chapterId>a91d9a75-55cc-51a3-a48f-0c0be6fe6e72</chapterId>
+<chapterId>412cfd23-1869-491e-9d04-84b9c447b4df</chapterId>
 
 
 Iyo wanditse kode , uzokenera kenshi gukoresha kode yanditswe n’abandi bantu; nk’akarorero, amasomero kugira ngo agufashe gukorana n’amatariki, amabara, amaserveri canke hafi ikindi kintu cose.
@@ -6021,7 +6021,7 @@ Ariko ivyo nivyo ukwiye kwitwararika mu nyuma, umaze gutangura gusohora kode yaw
 
 ## Gukorana n'abandi muri NodeJS
 
-<chapterId>f2cabd8b-754b-5c97-8d6a-8412a9a184c7</chapterId>
+<chapterId>5915bd97-6bc8-446a-a1d8-ca3ce2f724be</chapterId>
 
 
 NodeJS ikoreshwa kenshi nk'ururimi rw'inyuma: ushobora guhindura inyandiko yawe ngo ibe server, kandi ukayikoresha mu gusaba izindi server.
@@ -6223,7 +6223,7 @@ Izo ni ingero z’ishimikiro cane. Kugira ngo wubake ama server ateye imbere, be
 
 ## Gutunganya amakuru: ububiko, ivyabaye, imigezi
 
-<chapterId>8c9623f0-a604-51a4-8fe4-871c849d3e3b</chapterId>
+<chapterId>6327b62d-3e2d-4a40-b8c3-78f2a21f3fda</chapterId>
 
 
 Muri iki gice tuzozana ahanini imigwi itatu y'ibintu:
@@ -6710,7 +6710,7 @@ Rero ukeneye gusa kwiganyira ku bijanye n'ugusubira inyuma iyo kubera imvo zimwe
 
 ## Iciyumviro ca nyuma
 
-<chapterId>139e2ab8-df67-525a-85f0-5a2fa5e478f2</chapterId>
+<chapterId>c09318b9-2d2f-4300-a32b-dff8dbdb9dbd</chapterId>
 
 
 Rero, nivyo, iyo wakurikiye ivyigwa, ubu ushobora kwandika porogarama zimwe zimwe zoroheje muri NodeJS.
@@ -6731,20 +6731,20 @@ Amahigwe masa!
 # Igice ca nyuma
 
 
-<partId>322624d8-6fbc-11f0-a67a-5b145f10afc1</partId>
+<partId>528a2f0c-e5cf-49e5-95c8-4866523a5bde</partId>
 
 
 ## Amasuzuma n'Ibipimo
 
 
-<chapterId>3e93ac86-6fbc-11f0-8bae-9b2ed7914843</chapterId>
+<chapterId>5c5cae08-1839-4b94-b89c-af40a0dc14a9</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Iciyumviro
 
 
-<chapterId>49b3b9b2-6fbc-11f0-9870-5f5adcd3a0eb</chapterId>
+<chapterId>627aebc9-879f-4539-8501-dd0a517dd4a0</chapterId>
 
 
 <isCourseConclusion>true</isCourseConclusion>

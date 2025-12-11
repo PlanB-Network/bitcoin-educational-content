@@ -22,11 +22,11 @@ Hvis du trenger hjelp med oppsettet ditt, har en Telegram-gruppe blitt opprettet
 
 # Introduksjon
 
-<partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
+<partId>264edfbf-0647-43c0-b202-5f82bfaba747</partId>
 
 ## Kursoversikt
 
-<chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
+<chapterId>a1885374-d6b9-4d6d-9b90-44f27099e4ae</chapterId>
 
 Velkommen til kurset MIN201: En introduksjon til mining. Ajelex, Jim & Rogzy er glade for å guide deg gjennom dine første steg i denne industrien. Vi håper du liker kurset og at du starter eventyret med hjemmemining!
 
@@ -52,11 +52,11 @@ Klar til å utforske Bitcoin-miningverdenen og ta på deg den praktiske utfordri
 
 # Alt du trenger å vite om Mining
 
-<partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
+<partId>80efb136-9e4e-40f2-98a2-f6721737fc81</partId>
 
 ## Forklaring av Mining
 
-<chapterId>36a82de7-87ee-5e7a-b69e-48fc30030447</chapterId>
+<chapterId>3d083cf5-9bbd-4d2b-94d9-e12a82819395</chapterId>
 
 ### Mining Forklart: Puslespillanalogien
 
@@ -97,7 +97,7 @@ Konklusjonen er at Bitcoin-gruveindustrien fortsetter å tilpasse seg og utvikle
 
 ## Gruveindustrien
 
-<chapterId>0896dfc1-c97e-5bec-9bf1-8c20b3388a2c</chapterId>
+<chapterId>75651629-94db-47e7-8735-a8ed75ae4e1d</chapterId>
 
 ### Gruvebassenger
 
@@ -148,7 +148,7 @@ Den generelle konklusjonen er at desentralisering er avgjørende for sikkerheten
 
 ## Nyanser av gruveindustrien
 
-<chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
+<chapterId>60d00d42-bd45-4afa-8612-939d714b1f6f</chapterId>
 
 ### Prinsippet om Attakai
 
@@ -185,7 +185,7 @@ Det spekuleres i fremtidig bruk av blokkplass, men det er generelt akseptert at 
 
 ## Bitcoin Mining i Bitcoin-protokollen
 
-<chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
+<chapterId>51e7a8b1-e901-424e-bd63-51451b330da2</chapterId>
 
 
 Rollen til gruvearbeidere i Bitcoin-nettverket har vært et emne for intens debatt under blokkstørrelseskrigene. Selv om de er essensielle for sikkerheten og funksjonaliteten til nettverket, holder ikke nødvendigvis gruvearbeiderne den ultimate makten i Bitcoin-økosystemet. Balansen mellom gruvearbeidere, noder og sluttbrukere sikrer integriteten og distribusjonen av nettverket.
@@ -225,7 +225,7 @@ For å oppsummere, minerne styrker Bitcoin-nettverket mot sensur ved å bruke el
 
 ## Bitcoin-pris og Hashrate, en korrelasjon?
 
-<chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
+<chapterId>002750ad-c35e-48c3-8644-302467a384d3</chapterId>
 
 
 ### Hashrate, pris og lønnsomhet
@@ -258,7 +258,7 @@ Attakai-initiativet fremhever viktigheten av å bidra til nettverket samtidig so
 
 ## Suverenitet og Regulering
 
-<chapterId>9d9a5908-2acc-501e-906b-a6fce9ecfebd</chapterId>
+<chapterId>ec30a758-5a03-43a1-9b75-e4bb6053a1be</chapterId>
 
 ### Suverenitet før profitt?
 
@@ -290,11 +290,11 @@ Konklusjonen er at til tross for den regulatoriske risikoen og muligheten for et
 
 # Hjemmegruvedrift og gjenbruk av varme
 
-<partId>78d22d06-2c4a-573f-86bb-1027115dad3a</partId>
+<partId>c0fb1f33-6c44-48a7-83f5-b1c9cbc314b3</partId>
 
 ## Attakai - gjør hjemmegruvedrift mulig og tilgjengelig!
 
-<chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
+<chapterId>64c27a67-c2f0-4456-9821-5c94ea623de5</chapterId>
 
 Attakai, som betyr "den ideelle temperaturen" på japansk, er navnet på initiativet rettet mot å oppdage bitcoin-gruvedrift gjennom gjenbruk av varme lansert av @ajelexBTC og @jimzap21 med Découvre Bitcoin.
 Denne ASIC-ombyggingsguiden vil tjene som grunnlag for å lære mer om gruvedrift, dens drift og den underliggende økonomien ved å demonstrere muligheten for å tilpasse en Bitcoin-gruvearbeider for bruk som radiatorer i hjem. Dette tilbyr mer komfort og besparelser, og lar deltakerne motta ikke-KYC BTC cashback på deres elektriske oppvarmingsregning.
@@ -339,7 +339,7 @@ Dette er en utmerket mulighet til å lære ved å praktisere samtidig som du bli
 
 ## Kjøpsguide for en Brukt ASIC
 
-<chapterId>3b0b3bf0-859b-57f2-b92f-843ac70b7e68</chapterId>
+<chapterId>17e07e2e-9848-4fb0-be55-077ea783c670</chapterId>
 
 I denne delen vil vi diskutere beste praksiser for å kjøpe en brukt Bitmain Antminer S9, maskinen som denne radiatormodifiseringstutorialen vil være basert på. Denne guiden gjelder også for andre modeller av ASICs ettersom det er en generell kjøpsguide for brukt miningmaskinvare.
 
@@ -393,7 +393,7 @@ For å oppsummere denne veiledningen i én setning: **"Ikke stol, verifiser."**
 
 ## Guide for kjøp av maskinvaremodifikasjoner for S9
 
-<chapterId>fa5f5eca-bcbf-5a83-9b03-98ecbadbabd6</chapterId>
+<chapterId>67c86e8a-e7d8-4744-8eeb-03a17c09bfa2</chapterId>
 
 Som eier av en Antminer S9, vet du sannsynligvis hvor høylytt og klumpete dette utstyret kan være. Det er imidlertid mulig å transformere det til en stille og tilkoblet varmeovn ved å følge noen enkle trinn. I denne seksjonen vil vi presentere det nødvendige utstyret for å gjøre modifikasjonene.
 
@@ -438,11 +438,11 @@ Liste over utstyr og lenker
 
 # Attakai - Modifisering av programvaren til en Antminer S9
 
-<partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
+<partId>17871b9d-4c93-4ca4-a09f-c6dc8a1df1d1</partId>
 
 ## Sette opp en Vonet WIFI/Ethernet-bro
 
-<chapterId>3cf487a4-21ef-5b24-83d5-789b811f740f</chapterId>
+<chapterId>bf5b8552-8f0f-44aa-b742-600a657bdfbf</chapterId>
 
 For å koble din ASIC via WIFI, trenger du en enhet kalt en bro. Denne enheten lar deg motta WIFI-signalet fra ruteren din og overføre det til en annen enhet via Ethernet.
 
@@ -480,7 +480,7 @@ Når broen er koblet til, koble Ethernet-kabelen fra broen til din ASIC, og dere
 
 ## Tilbakestille en Antminer S9
 
-<chapterId>b518b6bd-9dae-5136-ae3c-1fafb1cb2592</chapterId>
+<chapterId>e83025fd-0261-4d4a-913a-dbfc05f7e51e</chapterId>
 
 Før du installerer BraiinOS+, kan det være nødvendig å tilbakestille din S9 til fabrikkinnstillingene.
 Denne metoden kan anvendes mellom 2 minutter og 10 minutter etter at mineren er startet.
@@ -490,7 +490,7 @@ Denne metoden kan anvendes mellom 2 minutter og 10 minutter etter at mineren er 
 
 ## Installere BraiinsOS+ på en Antminer S9
 
-<chapterId>38e8b1a8-8b1d-51ed-8b92-59d4ddb15184</chapterId>
+<chapterId>d2ea148c-37dd-4505-97e9-78ce2237b84a</chapterId>
 Den opprinnelige programvaren installert av Antminer på deres gruvearbeidermaskiner er begrenset i funksjonalitet. Derfor vil vi i denne veiledningen installere en annen programvare kalt BraiinsOS+. Det er en tredjeparts programvare utviklet av det aller første Bitcoin gruvebassenget som har flere funksjoner og tillater, for eksempel, å endre maskinens kraft.
 
 Det er flere måter å installere Braiins OS+ på en ASIC. Du kan henvise til denne veiledningen så vel som den [offisielle Braiins-dokumentasjonen](https://academy.braiins.com/en/braiins-os/about/).
@@ -525,7 +525,7 @@ Her vil vi se hvordan man enkelt installerer Braiins OS+ direkte på minnet til 
 
 ## Konfigurer BraiinsOS+
 
-<chapterId>36e432f2-85bc-52d0-a62a-009fc4c69338</chapterId>
+<chapterId>41f8ef76-c5b9-427f-8b22-1e3761057157</chapterId>
 
 Du må koble til din ASIC ved hjelp av den lokale IP-adressen til enheten din på nettverket ditt gjennom en nettleser.
 
@@ -568,11 +568,11 @@ På denne første siden kan du observere maskinens sanntidsytelse.
 
 # Attakai - Modifikasjon av vifte
 
-<partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
+<partId>a18012de-bf2e-4469-8b33-6bd9368cf27d</partId>
 
 ## Bytt strømforsyningsviften
 
-<chapterId>0c6befa7-f3ef-5bcf-ae8d-0ad5e5d41d70</chapterId>
+<chapterId>369aa394-0597-4578-96ef-01a45e9d86c6</chapterId>
 
 > ADVARSEL: Det er essensielt å ha installert Braiins OS+ på din miner, eller annen programvare som kan redusere maskinens ytelse, på forhånd. Dette tiltaket er kritisk fordi for å redusere støy, vil vi installere mindre kraftige vifter som kan avlede mindre varme.
 
@@ -642,7 +642,7 @@ Til slutt, sett kabinettdekselet tilbake på plass og skru de 6 skruene på side
 
 ## Å erstatte hovedviftene
 
-<chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
+<chapterId>46cd034a-1ffd-4459-9d66-a68e9b4bfeeb</chapterId>
 
 > ADVARSEL: Det er avgjørende å ha installert Braiins OS+ på din miner, eller annen programvare som er i stand til å redusere ytelsen til maskinen din. Dette tiltaket er avgjørende fordi vi for å redusere støy vil installere mindre kraftige vifter, som vil spre mindre varme.
 
@@ -692,11 +692,11 @@ Og der har du det, gratulerer! Du har nettopp erstattet hele den mekaniske delen
 
 # Attakai - Konfigurasjon
 
-<partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
+<partId>045a50df-20cd-423f-8f2f-dce686793ffb</partId>
 
 ## Bli med i en miningpool
 
-<chapterId>b57a6105-0a53-5fe9-bad1-d6d9daf97c0d</chapterId>
+<chapterId>db476c86-3dfe-4fcd-948a-083df8442395</chapterId>
 
 Man kan tenke på en miningpool som et landbrukssamvirke. Bønder samler sin produksjon sammen for å redusere variansen i tilbud og etterspørsel og dermed oppnå mer stabil inntekt for sin drift. En miningpool fungerer på samme måte, med den delte ressursen værende hashes. Faktisk, oppdagelsen av en enkelt gyldig hash tillater skapelsen av en blokk og vinningen av coinbase eller belønningen, for øyeblikket 6.25 BTC pluss transaksjonsgebyrene inkludert i blokken.
 
@@ -728,7 +728,7 @@ Du kan nå gå tilbake til Braiins OS+-grensesnittet for å angi disse legitimas
 
 ## Optimalisering av Ytelsen til Din Antminer S9
 
-<chapterId>25380972-31c7-540d-80d8-17a06b171ca0</chapterId>
+<chapterId>e8dd98a2-86be-4cb1-a061-79f5c8129df6</chapterId>
 
 Både overklokking og autotuning involverer justering av frekvensene på hashing-bordene for å forbedre ytelsen til ASIC-en. Forskjellen mellom de to ligger i kompleksiteten av disse frekvensinnstillingene.
 Overklokking er en enkel justering som innebærer å øke frekvensen på hashing-kortene for å øke maskinens hash rate. Underklokking, derimot, innebærer å redusere klokkefrekvensen til en integrert krets under dens nominelle frekvens. Ved å redusere klokkefrekvensen til en ASIC gjennom underklokking, reduseres også varmen som genereres av maskinvaren. Dette tillater en reduksjon i hastigheten på viftene som kreves for å kjøle ned ASIC-en, ettersom de ikke må jobbe like hardt for å opprettholde en passende temperatur. Ved å redusere viftehastigheten, reduseres også støyen som genereres av ASIC-en. Dette kan være spesielt nyttig for brukere som bruker ASIC-er hjemme og ønsker å minimere støyforstyrrelser forårsaket av gruveutstyr.
@@ -750,7 +750,7 @@ Resultatet er en høyere hash rate per watt elektrisitet, noe som betyr større 
 
 ## Vurderinger & Karakterer
 
-<chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
+<chapterId>9c4bf742-f774-4d82-bdef-0c5398be7759</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Avsluttende eksamen

@@ -208,7 +208,7 @@ Når du er på RoninUI-hjemmesiden, vil du bli bedt om å starte oppsettet. For 
 
 ![lets start](assets/notext/25.webp)
 
-På dette stadiet presenterer RoninUI deg med ditt `root`-passord. Det er essensielt å holde dette sikkert. Du kan velge en fysisk sikkerhetskopi, på papir, eller lagre det i en [passordbehandler](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
+På dette stadiet presenterer RoninUI deg med ditt `root`-passord. Det er essensielt å holde dette sikkert. Du kan velge en fysisk sikkerhetskopi, på papir, eller lagre det i en [passordbehandler](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/fcdebe4d-e2ee-495a-b0e7-ae967250866c).
 
 ![root password](assets/notext/26.webp)
 

@@ -44,11 +44,11 @@ Kozi hii imefadhiliwa na TETHER
 +++
 # Utangulizi
 
-<partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
+<partId>952e9c3d-4e88-44f8-942b-0b0643fee52e</partId>
 
 ## Utangulizi
 
-<chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+<chapterId>3498530e-7910-4aa0-a2a9-63cca97c5d74</chapterId>
 
 ### Tunaishi katika ulimwengu ambao:
 
@@ -94,11 +94,11 @@ Tunafurahi kuungana nasi katika safari hii katika kina cha mfumo wetu wa fedha.
 
 # Bei ya Maendeleo - Kuangalia kwa Karibu Mfumo Wetu wa Kifedha
 
-<partId>25ed8242-1b5a-5b53-b833-824b0dd80bcc</partId>
+<partId>a318d7e4-cb95-4016-9e4f-c4019c902b95</partId>
 
 ## Utangulizi wa Pesa
 
-<chapterId>927ad49a-d8d6-5dd3-9250-cdcadcbf425e</chapterId>
+<chapterId>7ad6dcd5-339f-4d9e-a720-3d62e82408a9</chapterId>
 
 Pesa ni sehemu ya kuvutia na muhimu ya maisha yetu ya kila siku. Tunaitumia kila siku kununua mboga, kulipa bili na kufanya miamala mingi. Lakini pesa ni nini, kweli? Kwa msingi wake, pesa ni njia ya Ubadilishanaji, chombo kinachoturuhusu kufanya biashara ya bidhaa na huduma sisi kwa sisi. Ni dhana dhahania ambayo sote tunaichukulia kuwa ya kawaida, lakini ni ya msingi kwa mfumo wetu wa kiuchumi.
 
@@ -184,7 +184,7 @@ Kutoka kubadilishana hadi uvumbuzi wa sarafu na sarafu ya karatasi, fedha zimepi
 
 ## Uchunguzi wa Jinsi Tulivyofika Hapa
 
-<chapterId>4c8ebb36-a6d5-5637-93ca-9a4a222a1c58</chapterId>
+<chapterId>e9dc9f53-dcab-4469-a482-882e89dca77e</chapterId>
 
 Kuanzia siku za kubadilishana bidhaa hadi enzi ya kisasa ya sarafu za kidijitali, pesa zimepitia mageuzi ya kuvutia. Mababu zetu walitumia ganda, shanga na hata mifugo kama njia ya Ubadilishanaji. Leo, tuna Wallet (Pochi) pepe na malipo ya kielektroniki. Ni safari ya ajabu ambayo imeona marudio mengi, mabadiliko ya kibiashara, na marekebisho ili kukidhi mahitaji yanayobadilika kila wakati ya jamii.
 
@@ -332,7 +332,7 @@ Tunapoendelea na uchunguzi wetu wa ulimwengu wa pesa, ni muhimu kutambua mabadil
 
 ## Kuangalia Tulipo na Nini Tunachoweza Kutarajia Kusonga Mbele
 
-<chapterId>0c38e8fd-c973-57a5-a673-abec706f6054</chapterId>
+<chapterId>ce2d4ac3-d766-4d85-a796-0be14376702f</chapterId>
 
 Kama tulivyojadili katika sura iliyotangulia, kihistoria, pesa mara nyingi zimeungwa mkono na bidhaa kama dhahabu. Faida za hii haziwezi kuzingatiwa. Si tu kwamba uhusiano huu ulimaanisha kwamba thamani ya fedha kama hizo ilihusishwa moja kwa moja na thamani ya bidhaa, lakini pia ilimaanisha kwamba mtoaji wa sarafu, kwa kawaida serikali, alikuwa na ukomo wa kiasi gani cha fedha ambacho kingeweza kuchapisha kwani ingehitaji kupata dhahabu zaidi.
 
@@ -480,7 +480,7 @@ Tunaposonga mbele, tunakuhimiza ufikie teknolojia hii mpya kwa nia iliyo wazi na
 
 ## Mtihani
 
-<chapterId>f25c229f-2af0-5324-bc40-e90f7668985a</chapterId>
+<chapterId>0240a320-fb4d-4150-acf6-0cd9c7570761</chapterId>
 
 Kwa kuwa sasa umepitia Moduli ya "Bei ya Maendeleo" itabidi ujaribu maarifa yako mapya uliyopata ili kuhakikisha kuwa umeelewa sehemu za mwisho. Tutaanza na Maswali Wazi kadhaa kisha chemsha bongo ndogo.
 
@@ -496,11 +496,11 @@ Kwa kuwa sasa umepitia Moduli ya "Bei ya Maendeleo" itabidi ujaribu maarifa yako
 
 # Ukombozi wa Kifedha - Utangulizi wa Bitcoin
 
-<partId>c00843b2-bde3-57bb-ae2e-8ecad6631d71</partId>
+<partId>f66fdc60-a1a9-4a21-9242-d4f86af8c0e4</partId>
 
 ## Waanzilishi, Wavumbuzi na Misingi ya Bitcoin
 
-<chapterId>37d779ce-46b5-56d1-91d8-d04442236e35</chapterId>
+<chapterId>03010901-b8d8-4e77-9d04-b9112fbabf6c</chapterId>
 
 Karibu kwenye Moduli ya Pili, ambapo tutachunguza ulimwengu unaovutia wa Bitcoin. Kwa kuzingatia uelewa wetu wa historia ya pesa, moduli hii itashughulikia mada zifuatazo:
 
@@ -609,7 +609,7 @@ Ili kukomesha, bila kujali Satoshi Nakamoto ni nani, haikubaliki kuwa uvumbuzi w
 
 ## Bitcoin Inafanyaje Kazi? Utendaji wa Ndani wa Pesa Hii ya Kichawi ya Mtandao
 
-<chapterId>b0f736fc-ed4d-5887-b22e-d958db9144d1</chapterId>
+<chapterId>293a9dd7-fa9d-49e1-aaba-2fa1f6c7e580</chapterId>
 
 Bitcoin mara nyingi hujulikana kama pesa za kichawi za mtandao… na kwa sababu nzuri. Fikiria kuhusu hilo - ukiwa na Bitcoin, unaweza kutuma thamani kwa mtu yeyote, popote duniani, bila hitaji la mtu wa kati kama benki au serikali. Ni kama kuwa na udhibiti wa benki yako binafsi, uwezo wa kuhamisha fedha kuvuka mipaka kwa mibofyo michache tu ya kitufe.
 
@@ -695,7 +695,7 @@ Kila moja ya majukumu haya ni muhimu kwa utendakazi na mafanikio ya Bitcoin kama
 
 ## Ni nini hufanya Bitcoin kuwa tofauti na pesa za serikali?
 
-<chapterId>5ef55778-cbcf-5c7e-960d-a2fcdf1a4006</chapterId>
+<chapterId>8ec83124-7544-4c76-8411-01c3ea32c126</chapterId>
 
 Katika sehemu iliyotangulia, tuliangazia utendakazi wa kipekee wa Bitcoin unaoitofautisha na sarafu za jadi na jinsi Bitcoin inafikia beji inayotamaniwa ya kugatuliwa. Sasa, hebu tubadilishe mtazamo wetu na tuchunguze jinsi Bitcoin inavyotofautiana na pesa za serikali kulingana na sifa zinazofanya sarafu kuwa nzuri. Ni kwa kuchunguza sifa hizi muhimu pekee ndipo tunaweza kupata ufahamu wa kina wa kwa nini Bitcoin ni ya kipekee na katika ulimwengu wake pekee linapokuja suala la pesa.
 
@@ -805,7 +805,7 @@ Zaidi ya hayo, sifa hizi zilizounganishwa sio tu kwamba zinaweka Bitcoin kama ch
 
 ## Kuingiliana na Bitcoin
 
-<chapterId>050a95af-e9c2-5ec3-b9c8-55ec174d309c</chapterId>
+<chapterId>898af852-84f8-45b8-b3e9-2adf85bb8576</chapterId>
 
 Bitcoin imechukua mfumo wa fedha kwa kasi, na kuvutia hisia za nchi zinazoendelea, watu binafsi wenye ujuzi wa teknolojia na wawekezaji sawa. Hata hivyo, kutokana na ukuaji wake wa haraka, wengi wanashangaa jinsi mali hii ya kidijitali inavyoweza kushindana na mbinu za malipo za jadi kama vile Visa na Mastercard. Zaidi ya hayo, watu binafsi wana shauku kuhusu jinsi wanaweza kujihusisha kibinafsi na Bitcoin.
 
@@ -920,7 +920,7 @@ Faida kubwa ya Bitcoin ni kwamba inaturuhusu kuwa na ulinzi wa kibinafsi wa mali
 
 ## Mtihani
 
-<chapterId>1c7b8165-d67b-5f7c-a1cb-b83db58b77c7</chapterId>
+<chapterId>a51bed11-0894-49a4-878f-9f31d79d7f9e</chapterId>
 
 Kwa kuwa sasa umepitia Moduli ya "Mtihani wa Jinsi Tulivyofika Hapa" itabidi ujaribu maarifa yako mapya uliyopata ili kuhakikisha kuwa umeelewa sehemu za mwisho. Tutaanza na Maswali ya Wazi kadhaa kisha chemsha bongo ndogo.
 
@@ -938,11 +938,11 @@ Kwa kuwa sasa umepitia Moduli ya "Mtihani wa Jinsi Tulivyofika Hapa" itabidi uja
 
 # Utulivu Katikati ya Machafuko - Utangulizi wa Tether & Ulimwengu wa Stablecoins
 
-<partId>60b1f3c4-e161-53fe-84ca-88d8cd62aa75</partId>
+<partId>bc2fa7dd-b3a8-430a-8cba-97faae477137</partId>
 
 ## Utangulizi wa Tether & Ulimwengu wa Stablecoins
 
-<chapterId>427a72b5-8af7-503e-bc45-bb8b95483993</chapterId>
+<chapterId>65302477-a5c2-4555-b546-e4051066e1b1</chapterId>
 
 Kama ilivyojadiliwa hapo awali, pesa imekuwa sehemu muhimu ya ubinadamu kwa maelfu ya miaka. Imetusaidia kununua bidhaa na huduma, imetuwezesha kufanya biashara sisi kwa sisi, na imetusaidia kuhifadhi mali.
 
@@ -1009,7 +1009,7 @@ _**Dokezo la Upande:** Usijali ikiwa baadhi ya masharti haya hayana maana kabisa
 
 ## Historia ya Stablecoins
 
-<chapterId>174e2cab-ef14-5e14-99c8-8457b6fc5fee</chapterId>
+<chapterId>e6bb95e1-5ba1-40d0-8b4a-3e6c1d1dd0a3</chapterId>
 
 Stablecoins imekuwa mada maarufu katika ulimwengu wa sarafu-fiche, ikitoa njia mbadala isiyo na tete katika muda mfupi kwa fedha fiche kama vile Bitcoin. Kama ilivyofafanuliwa katika utangulizi wa sehemu hii, sarafu za sarafu ni mali ya kidijitali ambayo imewekwa kwenye mali dhabiti kama vile sarafu ya serikali au madini ya thamani, iliyoundwa ili kudumisha thamani thabiti. Kwa hivyo, hebu tuchunguze historia ya sarafu za sarafu na tuangalie kwa karibu baadhi ya sarafu za kwanza, ikiwa ni pamoja na Tether’s USDt, sarafu ya sarafu inayojulikana zaidi na inayotumika sana.
 
@@ -1037,7 +1037,7 @@ Kwa kumalizia, stablecoins zimekuja kwa muda mrefu tangu kuanzishwa kwao. Kuanzi
 
 ## Tabia ya Stablecoins
 
-<chapterId>21765df7-53fd-58af-9df6-7208027a0c3a</chapterId>
+<chapterId>36e0ab1f-a3fe-42c1-8400-55fb770d9bf3</chapterId>
 
 Kama inavyopaswa kuwa dhahiri kwa sasa, stablecoin ni aina ya tokeni ya dijiti iliyoundwa ili kudumisha thamani thabiti kulingana na pegged asset ya msingi. Vipengee hivi vinaweza kujumuisha sarafu ya serikali, madini ya thamani, bidhaa, au mchanganyiko wa hizi (k.m. kikapu cha sarafu za serikali).
 
@@ -1127,7 +1127,7 @@ Ingawa stablecoins mara nyingi huchukuliwa kuwa salama kutokana na asili yao "im
 
 ## Manufaa ya matoleo ya Tether's Stablecoin
 
-<chapterId>a6806b45-b92e-5791-8f5f-804098a522b2</chapterId>
+<chapterId>6a1aef8e-3fdf-426b-901c-6e1a26b6ad88</chapterId>
 
 Kutana na Adanna, mwanamke kijana anayeishi katika kijiji cha Kiafrika cha mashambani ambako Franc ya CFA, ambayo imepoteza kiwango cha kushangaza cha [99.5%](https://bitcoinmagazine.com/culture/Bitcoin-a-currency-of-decolonization) ya uwezo wake wa kununua katika kipindi cha miaka 70 iliyopita, ndiyo sarafu pekee inayopatikana—kufanya kuokoa kuwa jambo lisilowezekana.
 
@@ -1259,7 +1259,7 @@ Kwa ujumla, sarafu za sarafu, kama USDt na XAUt, zina uwezo wa kubadilisha maish
 
 ## Mtihani
 
-<chapterId>1294d874-6edb-5feb-b070-0ead1836bd0b</chapterId>
+<chapterId>7abbc2a0-f98d-40a9-80ae-1cc397027cdc</chapterId>
 
 Kwa kuwa sasa umepitia Moduli ya "Utulivu Katikati ya Machafuko" itabidi ujaribu maarifa yako mapya uliyopata ili kuhakikisha kuwa umeelewa sehemu za mwisho. Tutaanza na Maswali ya Wazi kadhaa kisha chemsha bongo ndogo.
 
@@ -1275,11 +1275,11 @@ Kwa kuwa sasa umepitia Moduli ya "Utulivu Katikati ya Machafuko" itabidi ujaribu
 
 # Kushinda Mashaka - Kutatua Dhana Potofu za Kawaida & Kesi za Matumizi Halisi za Ulimwenguni
 
-<partId>246a7dc0-a203-5b2e-ae13-9c8f08e6bfad</partId>
+<partId>5e3f28ec-ff90-4272-af00-724e0ced0765</partId>
 
 ## Dhana potofu
 
-<chapterId>4da9319d-6306-500f-adbb-5fa31c673cd2</chapterId>
+<chapterId>c48b4889-5972-4139-b928-b56fb88b28d5</chapterId>
 
 Bitcoin imezungukwa na msukumo, ukosoaji na imani potofu tangu kuzaliwa kwake mwaka wa 2009. Licha ya ukuaji wake wa umaarufu na kupitishwa, wengi bado wanaiona kama Bubble inayosubiri kupasuka. Pamoja na mistari hiyo hiyo, stablecoins zimevutia tahadhari sawa na wasiwasi. Wazo la sarafu inayoungwa mkono na mali thabiti linasikika kuwa la kuahidi, lakini watu wengi hawaelewi jinsi stablecoins inavyofanya kazi na athari zao zinazowezekana kwenye mfumo wa kifedha.
 
@@ -1621,7 +1621,7 @@ Hatimaye, mustakabali wa ufadhili uliogatuliwa hutegemea wale walio tayari kujit
 
 ## Roya Mahboob
 
-<chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
+<chapterId>e76ef439-44db-4cf4-b660-0ed33d913989</chapterId>
 
 Katika ulimwengu wa sasa wa utandawazi, upatikanaji wa huduma za kifedha ni sehemu muhimu ya ushiriki wa kiuchumi na uhuru. Pamoja na hayo, watu wengi sana bado hawajajumuishwa katika mfumo wa kawaida wa benki, huku wanawake mara nyingi wakibeba mzigo wa kutengwa huku. Kwa kushangaza, ingawa [robo moja] isiyo ya lazima(https://www.worldbank.org/en/publication/globalfindex) ya idadi ya watu duniani inasalia bila benki, katika nchi kama Saudi Arabia, [36.5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=Katika%20the%20last%20few%20years,63.5%25%20%2D%20% ya huduma za msingi za benki kwa wanawake%20ft) kuwazuia kushiriki kikamilifu katika uchumi na jamii ya nchi yao.
 
@@ -1673,7 +1673,7 @@ Kwa ujumla, Bitcoin imekuwa chombo chenye nguvu cha kuwezesha wanawake kifedha.
 
 ## Mercedes
 
-<chapterId>dfa10b75-19f6-578a-9d14-a0a541806076</chapterId>
+<chapterId>a897e855-f7a6-406c-a5b9-7cc6783e2ddd</chapterId>
 
 Mercedes alizaliwa Mexico mwaka wa 1949 katika hali duni, alipata ukosefu wa usawa unaoisumbua jamii yake tangu umri mdogo. Katika utoto wake wote, alikabiliwa na changamoto nyingi, ikiwa ni pamoja na ukandamizaji wa serikali wa harakati za wanafunzi na mapambano ya kipekee ya wanawake wanaoishi katika umaskini. Zaidi ya hayo, pengo kubwa kati ya matajiri na maskini, pamoja na upatikanaji mdogo wa elimu bora, ulinasa familia yake na wengine wengi katika umaskini. Akiwa amekatishwa tamaa na ukosefu huo wa haki, Mercedes aliingia kwenye Umaksi (Ukomunisti), akitetea mabadiliko ya kijamii na mageuzi ya kiuchumi.
 
@@ -1695,7 +1695,7 @@ Maisha ya Mercedes yamekuwa safari ya ajabu, na athari ya Bitcoin kwenye maisha 
 
 ## Hadithi za Stablecoin
 
-<chapterId>7b6d8d57-905d-5168-9be6-3df7c938de2a</chapterId>
+<chapterId>d22acc57-2b00-4a51-96b0-a350814f87d5</chapterId>
 
 Tunapokaribia mwisho wa kozi hii, tungependa kuwasilisha mkusanyiko wa hadithi za stablecoin zinazovutia. Ushuhuda huu unaonyesha uzoefu wa maisha halisi kutoka kwa watu binafsi, wamiliki wa biashara, na makampuni ambao wametumia nguvu za stablecoins kuinua maisha yao.
 
@@ -1809,7 +1809,7 @@ Tunatumahi kuwa umepata hadithi hizi za kusisimua. Hayo yamesemwa, inapaswa kuwa
 
 ## Mtihani
 
-<chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
+<chapterId>002220e4-069b-4367-b153-ca19029412de</chapterId>
 
 Sasa kwa kuwa umepitia Moduli ya "Kushinda Mashaka" itabidi ujaribu maarifa yako mapya uliyopata ili kuhakikisha kuwa umeelewa sehemu za mwisho. Tutaanza na Maswali ya Wazi kadhaa kisha chemsha bongo ndogo.
 
@@ -1825,7 +1825,7 @@ Sasa kwa kuwa umepitia Moduli ya "Kushinda Mashaka" itabidi ujaribu maarifa yako
 
 ## Maneno ya Kufunga
 
-<chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
+<chapterId>1896c6b1-77d7-45bb-a798-bcdd27deb18b</chapterId>
 
 Hongera kwa kufika mwisho wa kozi! Umetoka mbali sana. Katika safari hii yote, tumeingia katika layer (safu) mbalimbali za mada, zikiwemo:
 
@@ -1856,7 +1856,7 @@ Wakati Ujao Ni Mzuri!
 
 ## Ukaguzi na Ukadiriaji
 
-<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
+<chapterId>1ec641d0-0421-404b-88d3-bac725aca9dc</chapterId>
 
 <isCourseReview>true</isCourseReview>
 ## Hitimisho

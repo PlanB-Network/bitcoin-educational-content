@@ -37,11 +37,11 @@ Questo corso è stato sponsorizzato da TETHER
 
 # Introduzione
 
-<partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
+<partId>952e9c3d-4e88-44f8-942b-0b0643fee52e</partId>
 
 ## Panoramica del corso
 
-<chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+<chapterId>3498530e-7910-4aa0-a2a9-63cca97c5d74</chapterId>
 Benvenuto al corso ECO104!
 
 **Viviamo in un mondo dove:**
@@ -83,11 +83,11 @@ Siamo entusiasti di averti con noi in questo viaggio nelle profondità del nostr
 
 # Il Prezzo del Progresso - Uno Sguardo Approfondito al Nostro Sistema Finanziario
 
-<partId>25ed8242-1b5a-5b53-b833-824b0dd80bcc</partId>
+<partId>a318d7e4-cb95-4016-9e4f-c4019c902b95</partId>
 
 ## Un'introduzione al Denaro
 
-<chapterId>927ad49a-d8d6-5dd3-9250-cdcadcbf425e</chapterId>
+<chapterId>7ad6dcd5-339f-4d9e-a720-3d62e82408a9</chapterId>
 
 Il denaro è una parte affascinante ed essenziale della nostra vita quotidiana. Lo usiamo ogni giorno per comprare la spesa, pagare le bollette e fare innumerevoli transazioni. Ma cos'è realmente il denaro? Nel suo nucleo, il denaro è semplicemente un mezzo di scambio, uno strumento che ci permette di commerciare beni e servizi gli uni con gli altri. È un concetto astratto che diamo per scontato, eppure è fondamentale per il nostro sistema economico.
 Ma non tutto il denaro è creato allo stesso modo. Alcune forme di denaro sono migliori di altre, a seconda della loro capacità di fungere da riserva di valore, mezzo di scambio e unità di conto. L'oro, ad esempio, è stato molto apprezzato per migliaia di anni a causa della sua durabilità e scarsità. D'altra parte, il denaro cartaceo è prezioso solo quanto la fiducia che riponiamo nelle istituzioni che lo emettono.
@@ -166,7 +166,7 @@ Dal baratto all'invenzione delle monete e della valuta cartacea, il denaro ha su
 
 ## Un'esame di Come Siamo Arrivati Qui
 
-<chapterId>4c8ebb36-a6d5-5637-93ca-9a4a222a1c58</chapterId>
+<chapterId>e9dc9f53-dcab-4469-a482-882e89dca77e</chapterId>
 Dai tempi del baratto fino all'era moderna delle valute digitali, il denaro ha subito un'evoluzione affascinante. I nostri antenati utilizzavano conchiglie, perline e persino bestiame come mezzo di scambio. Oggi, disponiamo di portafogli virtuali e pagamenti senza contatto. È un viaggio notevole che ha visto innumerevoli iterazioni, compromessi e adattamenti per soddisfare le esigenze in continuo cambiamento della società.
 
 Ma come è evoluto il denaro che usiamo per diventare la parte indispensabile delle nostre vite che è oggi? In questa sezione, esploreremo l'evoluzione del denaro, dalle sue forme più antiche alle moderne valute digitali che utilizziamo oggi. Esamineremo ogni principale iterazione del denaro, guardando come hanno contribuito a plasmare la nostra società moderna.
@@ -299,7 +299,7 @@ Continuando la nostra esplorazione del mondo del denaro, è importante riconosce
 
 ## Uno sguardo a dove siamo e cosa possiamo aspettarci andando avanti
 
-<chapterId>0c38e8fd-c973-57a5-a673-abec706f6054</chapterId>
+<chapterId>ce2d4ac3-d766-4d85-a796-0be14376702f</chapterId>
 
 Come abbiamo discusso nel capitolo precedente, storicamente, il denaro è stato spesso supportato da una merce come l'oro. I benefici di ciò non possono essere sopravvalutati. Non solo questa connessione significava che il valore di tale denaro era direttamente legato al valore della merce, ma significava anche che l'emittente della valuta, tipicamente il governo, era limitato nella quantità di denaro che poteva stampare poiché avrebbe dovuto ottenere più oro.
 
@@ -434,7 +434,7 @@ Man mano che procediamo, vi incoraggiamo ad avvicinarvi a questa nuova tecnologi
 
 ## Esame
 
-<chapterId>f25c229f-2af0-5324-bc40-e90f7668985a</chapterId>
+<chapterId>0240a320-fb4d-4150-acf6-0cd9c7570761</chapterId>
 
 Ora che hai completato il Modulo "Il Prezzo del Progresso", dovrai testare la tua nuova conoscenza acquisita per assicurarti di aver compreso le ultime sezioni. Inizieremo con diverse Domande Aperte e poi un piccolo quiz.
 
@@ -446,11 +446,11 @@ Ora che hai completato il Modulo "Il Prezzo del Progresso", dovrai testare la tu
 
 # Liberazione Finanziaria - Un'introduzione a Bitcoin
 
-<partId>c00843b2-bde3-57bb-ae2e-8ecad6631d71</partId>
+<partId>f66fdc60-a1a9-4a21-9242-d4f86af8c0e4</partId>
 
 ## Pionieri, Innovatori e le Fondamenta di Bitcoin
 
-<chapterId>37d779ce-46b5-56d1-91d8-d04442236e35</chapterId>
+<chapterId>03010901-b8d8-4e77-9d04-b9112fbabf6c</chapterId>
 
 Benvenuto nel Modulo Due, dove esploreremo il mondo affascinante di Bitcoin. Basandoci sulla nostra comprensione della storia del denaro, questo modulo coprirà i seguenti argomenti:
 
@@ -553,7 +553,7 @@ Per concludere, indipendentemente da chi sia Satoshi Nakamoto, è innegabile che
 
 ## Come Funziona Bitcoin? Il Funzionamento Interno di Questa Magica Moneta Internet
 
-<chapterId>b0f736fc-ed4d-5887-b22e-d958db9144d1</chapterId>
+<chapterId>293a9dd7-fa9d-49e1-aaba-2fa1f6c7e580</chapterId>
 
 Bitcoin è spesso descritto come magica moneta internet... e per una buona ragione. Pensateci: con Bitcoin, potete inviare valore a chiunque, in qualsiasi parte del mondo, senza la necessità di un intermediario come una banca o un governo. È come avere il controllo della propria banca personale, il potere di trasferire fondi attraverso i confini con solo qualche clic.
 
@@ -633,7 +633,7 @@ Ciascuno di questi ruoli è essenziale per la funzionalità e il successo di Bit
 
 ## Cosa rende Bitcoin diverso dalla moneta fiat?
 
-<chapterId>5ef55778-cbcf-5c7e-960d-a2fcdf1a4006</chapterId>
+<chapterId>8ec83124-7544-4c76-8411-01c3ea32c126</chapterId>
 
 Nella sezione precedente, abbiamo esplorato la funzionalità unica di Bitcoin che lo distingue dalle valute tradizionali e come Bitcoin ottiene il prestigioso riconoscimento di essere decentralizzato. Ora, spostiamo la nostra attenzione ed esploriamo come Bitcoin si differenzia dalla moneta fiat in termini di caratteristiche che rendono grande una valuta. Solo esaminando queste caratteristiche chiave possiamo ottenere una comprensione più profonda del perché Bitcoin è unico e in un mondo a sé quando si tratta di denaro.
 
@@ -732,7 +732,7 @@ Inoltre, questi attributi combinati non solo posizionano Bitcoin come uno strume
 
 ## Interagire con Bitcoin
 
-<chapterId>050a95af-e9c2-5ec3-b9c8-55ec174d309c</chapterId>
+<chapterId>898af852-84f8-45b8-b3e9-2adf85bb8576</chapterId>
 
 Bitcoin ha preso d'assalto il sistema monetario, catturando l'attenzione di paesi in via di sviluppo, individui esperti di tecnologia e investitori allo stesso modo. Tuttavia, con la sua rapida crescita, molti si chiedono come questo asset digitale possa competere con metodi di pagamento tradizionali come Visa e Mastercard. Inoltre, gli individui sono curiosi di sapere come possono impegnarsi personalmente con Bitcoin.
 
@@ -835,7 +835,7 @@ Il più grande vantaggio di Bitcoin è che ci consente di avere l'autocustodia d
 
 ## Esame
 
-<chapterId>1c7b8165-d67b-5f7c-a1cb-b83db58b77c7</chapterId>
+<chapterId>a51bed11-0894-49a4-878f-9f31d79d7f9e</chapterId>
 
 Ora che hai completato il Modulo "Un'esame di come siamo arrivati qui", dovrai testare le tue nuove conoscenze per assicurarti di aver compreso le ultime sezioni. Inizieremo con diverse Domande Aperte e poi un piccolo quiz.
 
@@ -848,11 +848,11 @@ Ora che hai completato il Modulo "Un'esame di come siamo arrivati qui", dovrai t
 
 # Stabilità in mezzo al caos - Un'introduzione a Tether e al mondo delle Stablecoin
 
-<partId>60b1f3c4-e161-53fe-84ca-88d8cd62aa75</partId>
+<partId>bc2fa7dd-b3a8-430a-8cba-97faae477137</partId>
 
 ## Un'introduzione a Tether e al mondo delle Stablecoin
 
-<chapterId>427a72b5-8af7-503e-bc45-bb8b95483993</chapterId>
+<chapterId>65302477-a5c2-4555-b546-e4051066e1b1</chapterId>
 
 Come discusso in precedenza, il denaro è stato una parte essenziale dell'umanità per migliaia di anni. Ci ha aiutato ad acquistare beni e servizi, ci ha permesso di commerciare gli uni con gli altri e ci ha assistito nel conservare ricchezza.
 
@@ -916,7 +916,7 @@ _**Nota a margine:** Non preoccuparti se alcuni di questi termini non sono del t
 
 ## Storia delle Stablecoin
 
-<chapterId>174e2cab-ef14-5e14-99c8-8457b6fc5fee</chapterId>
+<chapterId>e6bb95e1-5ba1-40d0-8b4a-3e6c1d1dd0a3</chapterId>
 
 Le stablecoin sono diventate un argomento popolare nel mondo delle criptovalute, offrendo un'alternativa meno volatile a breve termine rispetto a criptovalute come Bitcoin. Come dettagliato nell'introduzione a questo modulo, le stablecoin sono asset digitali che sono ancorati a un bene stabile come la valuta fiat o i metalli preziosi, progettati per mantenere un valore stabile. Esploriamo quindi la storia delle stablecoin e diamo uno sguardo più da vicino ad alcune delle prime stablecoin, incluse USDt di Tether, la stablecoin più conosciuta e ampiamente utilizzata.
 
@@ -941,7 +941,7 @@ In conclusione, le stablecoin hanno fatto molta strada dalla loro nascita. Dai p
 
 ## Caratteristiche delle Stablecoin
 
-<chapterId>21765df7-53fd-58af-9df6-7208027a0c3a</chapterId>
+<chapterId>36e0ab1f-a3fe-42c1-8400-55fb770d9bf3</chapterId>
 
 Come dovrebbe essere evidente ormai, una stablecoin è un tipo di token digitale progettato per mantenere un valore stabile basato su un asset sottostante ancorato. Questi asset possono includere valuta fiat, metalli preziosi, materie prime o una combinazione di questi (ad esempio, un paniere di valute fiat).
 
@@ -1026,7 +1026,7 @@ Sebbene le stablecoin siano spesso considerate sicure a causa della loro natura 
 
 ## Vantaggi delle Offerte di Stablecoin di Tether
 
-<chapterId>a6806b45-b92e-5791-8f5f-804098a522b2</chapterId>
+<chapterId>6a1aef8e-3fdf-426b-901c-6e1a26b6ad88</chapterId>
 
 Incontriamo Adanna, una giovane donna che vive in un villaggio rurale africano dove il Franco CFA, che ha perso uno sbalorditivo [99,5%](https://bitcoinmagazine.com/culture/bitcoin-a-currency-of-decolonization) del suo potere d'acquisto negli ultimi 70 anni, è l'unica valuta disponibile—rendendo l'atto di risparmiare un'impossibilità.
 Adanna è sempre stata affascinata dall'idea di avere il controllo sul proprio denaro, ma fino a poco tempo fa questo è rimasto un sogno impossibile. La valuta che utilizza è gestita da individui che hanno dimostrato di non avere a cuore gli interessi del loro popolo, e la sua posizione rurale limita l'accesso ai servizi bancari. Di conseguenza, Adanna non ha altra scelta se non quella di affidarsi al denaro contante, rendendola vulnerabile a furti e perdite, oltre al deterioramento del potere d'acquisto.
@@ -1139,7 +1139,7 @@ Nel complesso, le stablecoin, come USDt e XAUt, hanno il potenziale per trasform
 
 ## Esame
 
-<chapterId>1294d874-6edb-5feb-b070-0ead1836bd0b</chapterId>
+<chapterId>7abbc2a0-f98d-40a9-80ae-1cc397027cdc</chapterId>
 
 Ora che hai completato il Modulo "Stabilità nel Caos", dovrai testare le tue nuove conoscenze per assicurarti di aver compreso le ultime sezioni. Inizieremo con diverse Domande Aperte e poi un piccolo quiz.
 
@@ -1151,11 +1151,11 @@ Ora che hai completato il Modulo "Stabilità nel Caos", dovrai testare le tue nu
 
 # Superare i Dubbi - Sfatare i Comuni Luoghi Comuni e Casi d'Uso Reali
 
-<partId>246a7dc0-a203-5b2e-ae13-9c8f08e6bfad</partId>
+<partId>5e3f28ec-ff90-4272-af00-724e0ced0765</partId>
 
 ## Luoghi Comuni
 
-<chapterId>4da9319d-6306-500f-adbb-5fa31c673cd2</chapterId>
+<chapterId>c48b4889-5972-4139-b928-b56fb88b28d5</chapterId>
 
 Bitcoin è stato circondato da resistenze, critiche e luoghi comuni sin dalla sua nascita nel 2009. Nonostante la sua crescita in popolarità e adozione, molti ancora lo considerano una bolla pronta a scoppiare. Lungo queste stesse linee, anche le stablecoin hanno attirato attenzioni e scetticismi simili. L'idea di una valuta supportata da un asset stabile suona promettente, ma molte persone fraintendono come funzionano le stablecoin e il loro potenziale impatto sul sistema finanziario.
 
@@ -1445,7 +1445,7 @@ In definitiva, il futuro della finanza decentralizzata è nelle mani di coloro c
 
 ## Roya Mahboob
 
-<chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
+<chapterId>e76ef439-44db-4cf4-b660-0ed33d913989</chapterId>
 
 Nel mondo globalizzato di oggi, l'accesso ai servizi finanziari è una componente critica della partecipazione economica e dell'indipendenza. Nonostante ciò, troppi individui sono ancora esclusi dal sistema bancario tradizionale, con le donne che spesso sopportano il peso di questa esclusione. Sorprendentemente, sebbene inutilmente un quarto della popolazione globale rimanga non bancarizzata, in paesi come l'Arabia Saudita, il 36,5% delle donne manca di accesso ai servizi bancari di base, impedendo loro di partecipare pienamente all'economia e alla società del proprio paese.
 
@@ -1492,7 +1492,7 @@ Nel complesso, Bitcoin è stato uno strumento potente per l'empowerment finanzia
 
 ## Mercedes
 
-<chapterId>dfa10b75-19f6-578a-9d14-a0a541806076</chapterId>
+<chapterId>a897e855-f7a6-406c-a5b9-7cc6783e2ddd</chapterId>
 
 Nata in Messico nel 1949 in condizioni di povertà, Mercedes ha sperimentato fin da giovane le nette disuguaglianze che affliggevano la sua società. Durante l'infanzia, ha affrontato numerose sfide, tra cui la repressione governativa dei movimenti studenteschi e le difficoltà uniche vissute dalle donne in condizioni di povertà. Inoltre, il vasto divario tra ricchi e poveri, combinato con un accesso limitato a un'istruzione di qualità, ha intrappolato la sua famiglia e innumerevoli altri nella povertà. Frustrata da queste ingiustizie, Mercedes si è avvicinata al marxismo (comunismo), sostenendo il cambiamento sociale e la riforma economica.
 
@@ -1514,7 +1514,7 @@ La vita di Mercedes è stata un incredibile viaggio, e l'impatto di Bitcoin sull
 
 ## Storie di Stablecoin
 
-<chapterId>7b6d8d57-905d-5168-9be6-3df7c938de2a</chapterId>
+<chapterId>d22acc57-2b00-4a51-96b0-a350814f87d5</chapterId>
 Mentre ci avviciniamo alla fine di questo corso, vorremmo presentare una raccolta di storie ispiratrici sui stablecoin. Queste testimonianze mostrano esperienze reali di individui, proprietari di aziende e società che hanno sfruttato il potere degli stablecoin per migliorare le loro vite.
 
 Negli esempi seguenti, ascolterete racconti in prima persona su come gli stablecoin hanno permesso a questo gruppo eterogeneo di persone di navigare con maggiore facilità ed efficienza le complessità del panorama finanziario moderno. Dalle transazioni internazionali senza intoppi e le opportunità di business ampliate, all'inclusività finanziaria migliorata e una riserva di valore più stabile, ogni storia evidenzia l'impatto degli stablecoin sui rispettivi percorsi.
@@ -1599,7 +1599,7 @@ Speriamo che abbiate trovato queste storie ispiratrici. Detto ciò, dovrebbe ess
 
 ## Esame
 
-<chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
+<chapterId>002220e4-069b-4367-b153-ca19029412de</chapterId>
 
 Ora che hai completato il Modulo "Superare i Dubbi", dovrai testare le tue nuove conoscenze per assicurarti di aver compreso le ultime sezioni. Inizieremo con diverse Domande Aperte e poi un piccolo quiz.
 
@@ -1611,7 +1611,7 @@ Ora che hai completato il Modulo "Superare i Dubbi", dovrai testare le tue nuove
 
 ## Osservazioni Finali
 
-<chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
+<chapterId>1896c6b1-77d7-45bb-a798-bcdd27deb18b</chapterId>
 
 Congratulazioni per essere arrivato alla fine del corso! Hai fatto molta strada. Lungo questo viaggio, abbiamo esplorato un'ampia gamma di argomenti, inclusi:
 
@@ -1640,7 +1640,7 @@ Il Futuro è Luminoso!
 
 ## Recensioni & Valutazioni
 
-<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
+<chapterId>1ec641d0-0421-404b-88d3-bac725aca9dc</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Conclusione

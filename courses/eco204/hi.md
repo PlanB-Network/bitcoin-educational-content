@@ -17,13 +17,13 @@ objectives:
 # परिचय
 
 
-<partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
+<partId>b2ba4969-7b91-45cf-b2ad-b5d2958f48b3</partId>
 
 
 ## पाठ्यक्रम अवलोकन
 
 
-<chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
+<chapterId>c9ff81cb-98ab-4724-b174-4dbfa3a25ea8</chapterId>
 
 
 ECO204 पाठ्यक्रम में आपका स्वागत है!
@@ -53,13 +53,13 @@ ECO204 पाठ्यक्रम में आपका स्वागत ह
 # मुद्रास्फीति क्या है?
 
 
-<partId>2b4f456c-3649-5cf9-b9b0-a5bffe92d962</partId>
+<partId>5902cccb-fd13-4088-8852-569bdf4528f4</partId>
 
 
 ## एक मौद्रिक घटना
 
 
-<chapterId>b2cbc915-c4ec-52b5-860c-0958f58c91e4</chapterId>
+<chapterId>1ac7d89a-7082-4466-8eb2-00f1e1b303a0</chapterId>
 
 
 ### मुद्रास्फीति की परिभाषाएँ
@@ -327,7 +327,7 @@ ECO204 पाठ्यक्रम में आपका स्वागत ह
 ## मुद्रास्फीति के प्रकार
 
 
-<chapterId>b438fe09-375e-5bb2-9196-7dd687b9f98c</chapterId>
+<chapterId>5d7b5350-7312-4a3f-9138-6c4c9cfdbe0d</chapterId>
 
 
 ### मुद्रास्फीति कोई बहुकारकीय घटना नहीं है
@@ -633,13 +633,13 @@ ECO204 पाठ्यक्रम में आपका स्वागत ह
 # अति मुद्रास्फीति क्या है?
 
 
-<partId>3f541663-1e2f-5410-8ee0-f61c5d009fa5</partId>
+<partId>5747f16f-4cc0-4358-8ae8-4411fc8f89ca</partId>
 
 
 ## अति मुद्रास्फीति की परिभाषाएँ
 
 
-<chapterId>d2a71a2e-5f36-58d9-993c-d431f4aa07fd</chapterId>
+<chapterId>5b8758ff-7b46-4c81-aafd-f8ee06fcef03</chapterId>
 
 
 ### अति मुद्रास्फीति की परिभाषाएँ
@@ -777,7 +777,7 @@ ECO204 पाठ्यक्रम में आपका स्वागत ह
 ## वाइमर बनाम ज़िम्बाब्वे समानताएँ
 
 
-<chapterId>11eef458-aab8-5c63-8523-264d0ba69f5d</chapterId>
+<chapterId>733924b4-7fd2-46ab-8f48-cbb86c5fd4d6</chapterId>
 
 
 ### दो युग, दो आपदाएँ
@@ -1035,7 +1035,7 @@ ECO204 पाठ्यक्रम में आपका स्वागत ह
 ## वाइमर बनाम ज़िम्बाब्वे: मतभेद और समकालीन समानताएँ
 
 
-<chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
+<chapterId>3b71f96b-6f11-40b5-b974-a27fe498fe3c</chapterId>
 
 
 इस अध्याय में, हम अतीत और वर्तमान की अतिमुद्रास्फीति अवधियों के बीच अंतर और समकालीन समानताओं का पता लगाएंगे, साथ ही आज के लिए प्रासंगिक तुलनाओं और उपाख्यानों का भी अध्ययन करेंगे।
@@ -1184,7 +1184,7 @@ ECO204 पाठ्यक्रम में आपका स्वागत ह
 ## लैटिन अमेरिका में पुनर्नामकरण
 
 
-<chapterId>918eafd7-409d-5205-ad52-a52e63b23a64</chapterId>
+<chapterId>6fee14c4-a59d-4f23-b6bd-24d8422a2cb4</chapterId>
 
 
 अब हम लैटिन अमेरिकी देशों में पुनर्नामकरण की विभिन्न अवधियों पर नजर डालेंगे।
@@ -1342,7 +1342,7 @@ ECO204 पाठ्यक्रम में आपका स्वागत ह
 ## अति मुद्रास्फीति पर कैसे काबू पाएं
 
 
-<chapterId>e3484a31-a851-5f92-8af5-00eddae67db1</chapterId>
+<chapterId>045d835e-4692-438a-a5c9-8889801bee6c</chapterId>
 
 
 ### मध्यम और उच्च मुद्रास्फीति को कैसे समाप्त करें
@@ -1418,7 +1418,7 @@ ECO204 पाठ्यक्रम में आपका स्वागत ह
 ## अति मुद्रास्फीति बैंकनोट संग्रह की प्रस्तुति
 
 
-<chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
+<chapterId>e166eb40-d92a-42a6-b4ca-64c3d3baa8d4</chapterId>
 
 [*Bitcoin Educational Toolkit* में स्कैन किए गए संग्रह की खोज करें (जो Plan ₿ Academy प्लेटफ़ॉर्म के *संसाधन* अनुभाग से भी सुलभ है।](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
@@ -1428,13 +1428,13 @@ ECO204 पाठ्यक्रम में आपका स्वागत ह
 # हम यहाँ कैसे आए?
 
 
-<partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>
+<partId>d32a419f-ace2-4b63-8be0-5727d6c6c3af</partId>
 
 
 ## मुद्रा और केंद्रीय बैंकों के दूसरे Layer का उदय
 
 
-<chapterId>0455ffe3-9d45-5a67-ac96-3f815dc507a1</chapterId>
+<chapterId>47b3add9-dc60-4a05-b380-d9166f8c1886</chapterId>
 
 
 प्रतिलिपि:
@@ -1527,7 +1527,7 @@ ECO204 पाठ्यक्रम में आपका स्वागत ह
 ## पुस्तकें और संसाधन
 
 
-<chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
+<chapterId>53dc2a2f-11af-4370-a137-274c4d861e5c</chapterId>
 
 
 अति मुद्रास्फीति एक दिलचस्प विषय है जिसका अध्ययन विभिन्न ऐतिहासिक घटनाओं के माध्यम से किया गया है। यदि आप इस विषय पर गहराई से विचार करना चाहते हैं, तो पढ़ने और अध्ययन करने के लिए यहां 10 आवश्यक संसाधनों की सूची दी गई है:
@@ -1578,14 +1578,14 @@ ECO204 पाठ्यक्रम में आपका स्वागत ह
 ## समीक्षाएं और रेटिंग
 
 
-<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<chapterId>3e37d04e-0239-454f-9701-9479bc08a5bc</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## अंतिम परीक्षा
 
 
-<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
+<chapterId>baf9e2af-d020-4188-84a1-c33e653d17ee</chapterId>
 
 <isCourseExam>true</isCourseExam>
 

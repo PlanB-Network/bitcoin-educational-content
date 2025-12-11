@@ -15,12 +15,12 @@ Materijal je dizajniran za učenike svih nivoa i balansira intuiciju sa dovoljno
 +++
 # Uvod
 
-<partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
+<partId>abfa0d9a-736e-40f8-937a-490ef19bc481</partId>
 
 
 ## Pregled kursa
 
-<chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+<chapterId>dc6c887e-00a6-4b7f-9d50-14cbdfd5e867</chapterId>
 
 Dobrodošli na kurs CYP302!
 
@@ -127,12 +127,12 @@ Spremni da istražimo fascinantan svet kriptografije? Krenimo!
 
 # Šta je Kriptografija?
 
-<partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>
+<partId>dfa3633c-f97b-4650-8a2e-cb15a42ca557</partId>
 
 
 ## Beale šifre
 
-<chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
+<chapterId>b97d116b-035b-4e92-890c-e377b48edb36</chapterId>
 
 
 Hajde da započnemo naše istraživanje u oblasti kriptografije jednim od šarmantnijih i zabavnijih epizoda u njenoj istoriji: onom o Beale šiframa. [1]
@@ -194,7 +194,7 @@ Nakon dešifrovanja, druga poruka pruža detaljan sadržaj blaga (zlato, srebro 
 
 ## Moderna kriptografija
 
-<chapterId>d07d576f-8a4b-5890-b182-2e5763f550f4</chapterId>
+<chapterId>a53dab64-fcf9-48c1-b578-dc43d799f3de</chapterId>
 
 
 Šarene priče poput one o Beale šiframa su ono što većina nas povezuje sa kriptografijom. Ipak, moderna kriptografija se u najmanje četiri važna aspekta razlikuje od ovih istorijskih primera.
@@ -271,7 +271,7 @@ Za još jedan primer, **phishing napadi** su čest problem u našem modernom dob
 
 ## Otvorene komunikacije
 
-<chapterId>cb23d0a6-ba9a-5dc6-a55a-258405ae4117</chapterId>
+<chapterId>87b637ca-3d20-42b5-b299-ecb084b60aec</chapterId>
 
 
 Moderna kriptografija je dizajnirana da pruži sigurnosne garancije u **otvorenom komunikacionom** okruženju. Ako je naš komunikacioni kanal toliko dobro zaštićen da prisluškivači nemaju šanse da manipulišu ili čak da samo posmatraju naše poruke, onda je kriptografija suvišna. Većina naših komunikacionih kanala, međutim, nije ovako dobro čuvana.
@@ -302,13 +302,13 @@ Stoga, ideja o čuvanju komunikacija u tajnosti zaštitom komunikacionog kanala 
 
 # Matematičke osnove kriptografije 1
 
-<partId>1bf9f0aa-0f68-5493-83fb-2167238ff9de</partId>
+<partId>22c3967a-c64b-468c-8e68-3324fe552738</partId>
 
 
 
 ## Nasumične promenljive
 
-<chapterId>b623a7d0-3dff-5803-bd4e-8257ff73dd69</chapterId>
+<chapterId>c5fa2255-6041-400b-9072-217b73bf411e</chapterId>
 
 
 Kriptografija se oslanja na matematiku. I ako želite da izgradite više od površnog razumevanja kriptografije, morate biti komforni sa tom matematikom.
@@ -602,7 +602,7 @@ Mogao bih, na primer, da vas pitam kolika je verovatnoća da će svinje leteti d
 
 ## Operacija modulo
 
-<chapterId>709b34e5-b155-53d2-abbd-97d67e56db00</chapterId>
+<chapterId>a7e063f0-62dd-4c35-892a-55fa1b10aad8</chapterId>
 
 
 ### Modulo
@@ -720,7 +720,7 @@ $$
 
 ## Operacija XOR
 
-<chapterId>22f185cc-c516-5b33-950b-0908f2f881fe</chapterId>
+<chapterId>941aaabd-0896-4eb2-843c-e1af055c87fc</chapterId>
 
 
 Svi računarski podaci se obrađuju, skladište i šalju preko mreža na nivou bitova. Bilo koje kriptografske šeme koje se primenjuju na računarske podatke takođe funkcionišu na nivou bitova.
@@ -767,7 +767,7 @@ XOR operacija je ekvivalentna posebnom slučaju izvođenja modulo operacije na s
 
 ## Pseudonasumičnost
 
-<chapterId>20463fc5-3e92-581f-a1b7-3151279bd95e</chapterId>
+<chapterId>bd0c7d54-5392-490b-bdca-04dcbe7d83ff</chapterId>
 
 
 U našoj diskusiji o slučajnim i uniformnim varijablama, napravili smo specifičnu razliku između "slučajnih" i "uniformnih". Ta razlika se obično zadržava  u praksi prilikom opisivanja slučajnih varijabli. Međutim, u našem trenutnom kontekstu, ova razlika treba biti zanemarena i "slučajno" i "uniformno" se koriste kao sinonimi. Objasniću zašto na kraju odeljka.
@@ -834,13 +834,13 @@ Razlog za ukidanje razlike između "nasumičan" i "uniforman" u našoj diskusiji
 
 # Matematičke Osnove Kriptografije 2
 
-<partId>d7245cc9-bb6d-5403-b3d5-9c703d9a2f81</partId>
+<partId>62963952-ae03-43f4-88d6-90aea95e5c5f</partId>
 
 
 
 ## Šta je teorija brojeva?
 
-<chapterId>c0051c34-fd5d-539c-93e2-5c6dfd4c3355</chapterId>
+<chapterId>67e7dace-4c23-41a8-bdb3-c6c87d223899</chapterId>
 
 
 Ovo poglavlje pokriva napredniju temu o matematičkim osnovama kriptografije: teoriju brojeva. Iako je teorija brojeva važna za simetričnu kriptografiju (kao što je u Rijndael šifri), posebno je važna u kontekstu kriptografije sa javnim ključem.
@@ -870,7 +870,7 @@ Skupovi iz apstraktne algebre mogu se baviti mnogim tipovima objekata, od transf
 
 ## Grupe
 
-<chapterId>3209b270-f9cd-5224-803e-0ed19fbf7826</chapterId>
+<chapterId>4353d3ff-6319-4985-a4b8-3b20111ecfff</chapterId>
 
 
 Osnovni koncept u matematici je koncept skupa elemenata. Skup se obično označava znakovima vitličastih zagrada sa elementima odvojenim zarezima.
@@ -973,7 +973,7 @@ Bitcoin transakcije obično uključuju zaključavanje izlaza na jedan ili više 
 
 ## Ciklične grupe
 
-<chapterId>bfa5c714-7952-5fef-88b1-ca5b07edd886</chapterId>
+<chapterId>b5b552f6-cf7c-4ba8-bd9c-685bfc4aacad</chapterId>
 
 
 Glavna razlika koju možemo povući je između **konačne** i **beskonačne grupe**. Prva ima konačan broj elemenata, dok druga ima beskonačan broj elemenata. Broj elemenata u bilo kojoj konačnoj grupi poznat je kao **red grupe**. Sva praktična kriptografija koja uključuje upotrebu grupa oslanja se na konačne (brojčano-teorijske) grupe.
@@ -1094,7 +1094,7 @@ Formula Eulero-ve Phi funkcije za prostu faktorizaciju $N$.
 
 ## Polja
 
-<chapterId>fad52d86-3a22-5c9f-979e-3bec9eaa008e</chapterId>
+<chapterId>7a8c9ab0-fc8f-43fa-8dd7-fd1839bcda81</chapterId>
 
 
 Grupa je osnovna algebarska struktura u apstraktnoj algebri, ali postoji mnogo više. Jedina druga algebarska struktura sa kojom treba da budete upoznati je struktura **polja**, posebno **konačnog polja**. Ova vrsta algebarske strukture se često koristi u kriptografiji, kao što je u Advanced Encryption Standard-u. Potonji je glavni simetrični sistem enkripcije (šifrovanja) sa kojim ćete se susresti u praksi.
@@ -1298,7 +1298,7 @@ Zašto bi proširena polja sa bazom 2 nad skupovima polinoma, kao u gornjem prim
 
 ## Apstraktna algebra u praksi
 
-<chapterId>ed35b98d-18b4-5790-9911-1078e0f84f92</chapterId>
+<chapterId>9b8cd1fc-8a34-4e1b-ab4f-c634a763a20c</chapterId>
 
 
 Uprkos formalnom jeziku i apstraktnosti diskusije, koncept grupe ne bi trebalo da bude previše težak za razumevanje. To je samo skup elemenata zajedno sa binarnom operacijom, gde izvršavanje te binarne operacije na tim elementima ispunjava četiri opšta uslova. Abelova grupa ima samo dodatni uslov poznat kao komutativnost. Ciklična grupa, zauzvrat, je posebna vrsta Abelove grupe, naime ona koja ima generator. Polje je samo složenija konstrukcija iz osnovnog pojma grupe.
@@ -1341,13 +1341,13 @@ Za dalju diskusiju o modernoj teoriji brojeva, možete se konsultovati sa mnogim
 
 # Simetrična kriptografija
 
-<partId>ef768d0e-fe7b-510c-87d6-6febb3de1039</partId>
+<partId>b994593e-cb9b-4a2c-ae80-2dec3478e1a6</partId>
 
 
 
 ## Alisa i Bob
 
-<chapterId>47345330-be2d-5faf-afd0-d289a8d21bf1</chapterId>
+<chapterId>9c901027-b83a-4954-99b4-9e4f0c1598b7</chapterId>
 
 
 Jedna od dve glavne grane kriptografije je simetrična kriptografija. Ona uključuje šeme šifrovanja, kao i šeme koje se bave autentifikacijom i integritetom. Do 1970-ih, cela kriptografija se sastojala od simetričnih šema šifrovanja.
@@ -1388,7 +1388,7 @@ Sledećih pet ključnih tačaka treba imati na umu kada su u pitanju primeri koj
 
 ## Simetrične šeme šifrovanja
 
-<chapterId>41bfdbe1-6d41-5272-98bb-81f24b2fd6af</chapterId>
+<chapterId>e2645185-bb06-41d2-9a80-81dd84108647</chapterId>
 
 
 Možemo slobodno definisati **simetričnu šemu šifrovanja** kao bilo koju kriptografsku šemu sa tri algoritma:
@@ -1444,7 +1444,7 @@ Bob šifruje poruku $M$ u trenutku $T_0$ sa ključem $K$ da bi proizveo šifrat 
 
 ## Primer: Šifriranje pomakom
 
-<chapterId>7b179ae8-8d15-5e80-a43f-22c970d87b5e</chapterId>
+<chapterId>63287a89-bda1-4395-ade6-cd8d8debe797</chapterId>
 
 
 U Poglavlju 2, susreli smo se sa šifrom pomaka, koja je primer veoma jednostavne simetrične šeme šifrovanja. Hajde da je ponovo pogledamo ovde.
@@ -1492,7 +1492,7 @@ Možda ćete naići i na termine **encipher** ili **decipher**. Ovi termini su s
 
 ## Napadi grubom silom i Kerckhoffov princip
 
-<chapterId>2d73ef97-26c5-5d11-8815-0ddbe89c8003</chapterId>
+<chapterId>4a72d8d8-0186-4654-b5ba-f99a4e03fb59</chapterId>
 
 
 Šifriranje pomakom je veoma nesigurna simetrična šema šifrovanja, barem u modernom svetu. [1] Napadač bi mogao jednostavno pokušati dešifrovanje bilo kog šifrovanog teksta sa svih 26 mogućih ključeva da vidi koji rezultat ima smisla. Ova vrsta napada, gde napadač samo prolazi kroz ključeve da vidi šta funkcioniše, poznata je kao **brute force napad** ili **napad grubom silom** ili **iscrpna pretraga ključeva**.
@@ -1563,7 +1563,7 @@ Iako nećemo ulaziti u sve detalje različitih pojmova kriptografske sigurnosti,
 
 ## Šifre toka (eng. stream cipher)
 
-<chapterId>479aa6f4-45c4-59ca-8616-8cf8e61fc871</chapterId>
+<chapterId>82a4d8c5-7fd7-4bbb-a97e-e7a2d7cc55a0</chapterId>
 
 
 Simetrične šeme šifrovanja standardno se dele na dva tipa: **šifre toka** i **blok šifre**. Ova razlika je donekle problematična, međutim, jer ljudi koriste ove termine na nedosledan način. U narednih nekoliko odeljaka, izložiću razliku na način za koji mislim da je najbolji. Trebalo bi da budete svesni, međutim, da će mnogi ljudi koristiti ove termine donekle drugačije nego što sam izložio.
@@ -1688,7 +1688,7 @@ Po mom mišljenju, šire definisanje uslova (1) pruža lakši način za organizo
 
 ## Blok šifre
 
-<chapterId>2df52d51-943d-5df7-9d49-333e4c5d97b7</chapterId>
+<chapterId>ffb7ba1c-eb20-43a8-a2f1-2b8a54a31044</chapterId>
 
 
 Prvi način na koji se **blok šifra** obično razume jeste kao nešto primitivnije od šifre toka: osnovni algoritam koji, uz pomoć ključa, vrši transformaciju niza odgovarajuće dužine, pri čemu se dužina niza ne menja. Ovaj algoritam se može koristiti za kreiranje šema enkripcije i možda drugih tipova kriptografskih šema.
@@ -1804,7 +1804,7 @@ AES blok šifra će biti detaljno objašnjena u *Poglavlju 5*.
 
 ## Razjašnjavanje zabune
 
-<chapterId>121c1858-27e3-5862-b0ce-4ff2f70f9f0f</chapterId>
+<chapterId>61e393f2-6764-4214-a871-f7471cb8ea32</chapterId>
 
 
 Zbrka oko razlike između blok šifara i šifara toka nastaje jer ponekad ljudi razumeju termin blok šifra kao da se odnosi specifično na *blok šifru sa blok režimom enkripcije*.
@@ -1840,7 +1840,7 @@ Iz ove diskusije, sada bi trebalo da razumete *Sliku 8*. Ona pruža pregled sime
 
 ## Kodovi za autentifikaciju poruka
 
-<chapterId>19fa7c00-db59-56a0-9654-5350a137939d</chapterId>
+<chapterId>626181b6-f80f-4160-b441-417a79b66ec6</chapterId>
 
 
 Šifrovanje se bavi tajnošću. Ali kriptografija se takođe bavi širim temama, kao što su integritet poruke, autentičnost i nemogućnost poricanja. Takozvani **kodovi za autentifikaciju poruka** (MACs) su simetrične kriptografske šeme koje podržavaju autentičnost i integritet u komunikacijama.
@@ -1884,7 +1884,7 @@ Iako sam napravio razliku između autentičnosti i integriteta poruke u svojoj d
 
 ## Autentifikovano šifrovanje
 
-<chapterId>33f2ec9b-9fb4-5c61-8fb4-50836270a144</chapterId>
+<chapterId>64c1aef9-0bf8-45c5-92ba-12161d907eac</chapterId>
 
 
 Tipično, želite da garantujete i tajnost i autentičnost u komunikaciji i, stoga, šeme šifrovanja i MAC šeme se obično koriste zajedno.
@@ -1952,7 +1952,7 @@ Postoji paleta heš funkcija koje se mogu koristiti za kreiranje HMAC-a. Najče�
 
 ## Sigurne komunikacione sesije
 
-<chapterId>c7f7dcd3-bbed-53ed-a43d-039da0f180c5</chapterId>
+<chapterId>16be8853-ef4e-432b-b724-f34e780f2abe</chapterId>
 
 
 Pretpostavimo da dve strane učestvuju u komunikacionoj sesiji, tako da šalju više poruka napred-nazad.
@@ -2003,7 +2003,7 @@ Sesija komunikacije počinje tako što Bob šalje šifrat $C_{0,B}$ Alisi sa ozn
 
 # RC4 i AES
 
-<partId>a48c4a7d-0a41-523f-a4ab-1305b4430324</partId>
+<partId>9948fc0a-59fe-46a4-b324-b12cde16e576</partId>
 
 
 
@@ -2011,7 +2011,7 @@ Sesija komunikacije počinje tako što Bob šalje šifrat $C_{0,B}$ Alisi sa ozn
 
 ## RC4 strim šifra
 
-<chapterId>5caec5bd-5a77-56c9-b5e6-1e86f0d294aa</chapterId>
+<chapterId>2f83a43a-16e5-4b4e-9d2f-4976f92eba15</chapterId>
 
 
 U ovom poglavlju ćemo diskutovati o detaljima šeme enkripcije sa savremenim osnovnim (kriptografskim) primitivom – tok šifra RC4, (ili "Rivest šifra 4"), i modernom blok šifrom, AES. Iako je RC4 šifra pala u nemilost kao metoda enkripcije, AES je standard za modernu simetričnu enkripciju. Ova dva primera bi trebalo da pruže bolju ideju o tome kako simetrična enkripcija funkcioniše ispod haube.
@@ -2161,7 +2161,7 @@ Važno je da se keystream proizveden sa RC4 tretira kao jednokratna šifra, tako
 
 ## AES sa 128-bitnim ključem
 
-<chapterId>0b30886f-e620-5b8d-807b-9d84685ca8ff</chapterId>
+<chapterId>593d6ae3-7887-40d5-b14b-98a580b9a254</chapterId>
 
 
 Kao što je pomenuto u prethodnom poglavlju, Nacionalni institut za standarde i tehnologiju (NIST) održao je takmičenje između 1997. i 2000. godine kako bi odredio novi standard za simetrično šifrovanje. **Rijndael šifra** se pokazala kao pobednička. Ime je igra reči na osnovu imena belgijskih tvoraca, Vincent Rijmen i Joan Daemen.
@@ -2374,13 +2374,13 @@ Razlog za operacije iza Rijndael šifre je što one proizvode visok stepen konfu
 
 # Asimetrična kriptografija
 
-<partId>868bd9dd-6e1c-5ea9-9ece-54affc13ba05</partId>
+<partId>20c55ed4-4e45-493a-8bfe-970f332d764c</partId>
 
 
 
 ## Problem distribucije i upravljanja ključevima
 
-<chapterId>1bb651ba-689a-5a89-a7d3-0b9cc3b694f7</chapterId>
+<chapterId>4bbc8769-e00d-4d59-8365-c5f491b1217b</chapterId>
 
 
 Kao i kod simetrične kriptografije, asimetrične šeme mogu se koristiti za obezbeđivanje tajnosti i autentifikacije. Međutim, za razliku od simetričnih, ove šeme koriste dva ključa umesto jednog: privatni i javni ključ.
@@ -2447,7 +2447,7 @@ Dakle, šta se desilo 1970-ih? Kako je moguće da možemo trenutno obavljati kup
 
 ## Novi pravci u kriptografiji
 
-<chapterId>7a9dd9a3-496e-5f9d-93e0-b5028a7dd0f1</chapterId>
+<chapterId>e0f7950c-bb5a-437e-b27e-8d6878e15291</chapterId>
 
 
 Do 1970-ih, problemi distribucije ključeva i upravljanja ključevima privukli su pažnju grupe američkih akademskih kriptografa: Whitfielda Diffie-ja, Martina Hellmana i Ralpha Merklea. Suočeni sa ozbiljnim skepticizmom većine svojih kolega, upustili su se u pronalaženje rešenja za to.
@@ -2545,7 +2545,7 @@ Prema njihovim sopstvenim izveštajima i izveštaju GCHQ-a, Džejms Elis je prvi
 
 ## Asimetrično šifrovanje i autentifikacija
 
-<chapterId>2f6f0f03-3c3d-5025-90f0-5211139bc0cc</chapterId>
+<chapterId>a36ea521-ecee-476d-ade9-57f09bed2469</chapterId>
 
 
 Pregled **asimetrične enkripcije** uz pomoć Boba i Alise dat je na *Slici 1*.
@@ -2665,7 +2665,7 @@ Distribucija ključeva sada je postala znatno jednostavnija za Jim’s Sporting 
 
 ## Heš funkcije
 
-<chapterId>ea8327ab-b0e3-5635-941c-4b51f396a648</chapterId>
+<chapterId>49d6c9a5-5f18-4ec4-8c83-e02fc60941ff</chapterId>
 
 
 Heš funkcije su sveprisutne u kriptografiji. One nisu ni simetrične ni asimetrične šeme, već spadaju u kriptografsku kategoriju za sebe.
@@ -2776,14 +2776,14 @@ Iako su otpornost na koliziju i skrivanje glavna svojstva koja se traže kod he�
 
 # RSA kriptosistem
 
-<partId>864dca42-2a8d-530f-bb94-2e1f68b3f411</partId>
+<partId>a8fb0a0b-747f-422a-a464-3c84979efa43</partId>
 
 
 
 
 ## Problem faktorisanja
 
-<chapterId>a31a66e4-52ea-539c-9953-4769ad565d7e</chapterId>
+<chapterId>406b1681-f8bf-4a03-b555-c84ac4dee44a</chapterId>
 
 
 Iako je simetrična kriptografija obično prilično intuitivna za većinu ljudi, to obično nije slučaj sa asimetričnom kriptografijom. Iako ste verovatno zadovoljni opisom na visokom nivou datim u prethodnim odeljcima, verovatno se pitate šta su tačno jednosmerne funkcije i kako se tačno koriste za konstruisanje asimetričnih šema.
@@ -2915,7 +2915,7 @@ $$ \frac{2^{1024}}{\LN(2^{1024})} - \frac{2^{1023}}{\LN(2^{1023})} $$
 
 ## Rezultati teorije brojeva
 
-<chapterId>23cd2186-8d97-5709-a4a7-b984f1eb9999</chapterId>
+<chapterId>a5528852-d9cc-4f94-a15d-02f11081e026</chapterId>
 
 
 Nažalost, problem faktorizacije ne može se direktno koristiti za asimetrične kriptografske šeme. Međutim, možemo koristiti složeniji, ali srodan problem u tu svrhu: RSA problem.
@@ -3103,7 +3103,7 @@ Sada imamo sve rezultate teorije brojeva potrebne da jasno formulišemo RSA prob
 
 ## RSA kriptosistem
 
-<chapterId>0253c2f7-b8a4-5d0e-bd60-812ed6b6c7a9</chapterId>
+<chapterId>b230194d-5774-49fe-9d19-53e345453c34</chapterId>
 
 
 Sada smo spremni da formulišemo RSA problem. Pretpostavimo da kreirate skup promenljivih koji se sastoji od $p$, $q$, $N$, $\phi(N)$, $e$, $d$, i $y$. Nazovite ovaj skup $\Pi$. Kreira se na sledeći način:
@@ -3238,6 +3238,6 @@ Ipak, dodavanjem malo pametne složenosti, RSA problem se može koristiti za kre
 
 ## Zaključak
 
-<chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
+<chapterId>97ce180b-5092-45eb-a160-57fc52917567</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

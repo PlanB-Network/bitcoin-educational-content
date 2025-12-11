@@ -35,13 +35,13 @@ objectives:
 # 소개
 
 
-<partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
+<partId>69253dd0-cac7-4c2d-9ad6-c0c3ccfae54e</partId>
 
 
 ## 코스 개요
 
 
-<chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
+<chapterId>72ea4d1a-4ae9-4fb3-a3ba-06b97108d430</chapterId>
 
 :::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
 
@@ -120,13 +120,13 @@ objectives:
 # 온라인 브라우징에 대해 알아야 할 모든 것
 
 
-<partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
+<partId>5950eef8-521d-48c0-b576-d12140254cf7</partId>
 
 
 ## 온라인 검색
 
 
-<chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
+<chapterId>fa07f1d8-2c4f-4c6b-a650-028b6a57f373</chapterId>
 
 :::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
 
@@ -188,7 +188,7 @@ https://planb.academy/tutorials/computer-security/communication/tor-browser-a847
 ## VPN 및 인터넷 연결
 
 
-<chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
+<chapterId>dc8072e2-b632-4f68-a2c6-f1d57bcef675</chapterId>
 
 :::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
 
@@ -240,13 +240,13 @@ https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5
 # 컴퓨터 사용 모범 사례
 
 
-<partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>
+<partId>b33d995e-8e58-4300-a41c-5ba658522fec</partId>
 
 
 ## 컴퓨터 사용
 
 
-<chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+<chapterId>138d2f90-de5c-4219-9020-fcd9177c0017</chapterId>
 
 :::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
@@ -319,7 +319,7 @@ Windows 10에서는 업데이트가 거의 지속적으로 이루어지므로 �
 ## 해킹 및 백업 관리: 데이터 보호
 
 
-<chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
+<chapterId>a26f8b7b-9845-4adc-bf9c-3750cd7d692c</chapterId>
 
 :::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
 
@@ -386,13 +386,13 @@ https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 # 솔루션 구현.
 
 
-<partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
+<partId>2e302675-8b3b-4a67-a4d8-f93ec1f30f8a</partId>
 
 
 ## 이메일 계정 관리
 
 
-<chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+<chapterId>b4f36408-c028-4027-ae43-6f20eaef9c01</chapterId>
 
 :::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
 
@@ -439,7 +439,7 @@ https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b0
 ## 비밀번호 관리자
 
 
-<chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+<chapterId>fcdebe4d-e2ee-495a-b0e7-ae967250866c</chapterId>
 
 :::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
@@ -514,7 +514,7 @@ https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb
 ## 2단계 인증
 
 
-<chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+<chapterId>1dc6b743-c924-41b1-9ff7-1c49957521d4</chapterId>
 
 :::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
@@ -590,13 +590,13 @@ https://planb.academy/tutorials/computer-security/authentication/security-key-61
 # 실무 섹션
 
 
-<partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
+<partId>34bd8613-7cae-43af-84a3-69e6f32d56a2</partId>
 
 
 ## 사서함 설정
 
 
-<chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
+<chapterId>2691865b-3a6b-4ef1-b2e7-b0214543cbb8</chapterId>
 
 
 이메일 계정을 보호하는 것은 온라인 활동을 보호하고 데이터를 보호하는 데 있어 매우 중요한 단계입니다. 이 튜토리얼에서는 통신의 종단 간 암호화를 제공하는 높은 수준의 보안으로 잘 알려진 ProtonMail 계정을 만들고 설정하는 방법을 단계별로 안내합니다. 초보자이든 숙련된 사용자이든 여기에 제시된 모범 사례는 이메일의 보안을 강화하는 동시에 ProtonMail의 고급 기능을 활용하는 데 도움이 될 것입니다:
@@ -607,7 +607,7 @@ https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b0
 ## 2FA로 보호
 
 
-<chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
+<chapterId>704df968-7c64-4f67-a90c-02f23969d308</chapterId>
 
 
 2단계 인증(2FA)은 온라인 계정을 보호하는 데 필수적인 요소가 되었습니다. 이 튜토리얼에서는 계정을 보호하기 위해 동적 6자리 코드를 생성하는 2단계 인증 앱 Authy를 설정하고 사용하는 방법을 알아보세요. Authy는 사용이 매우 간편하고 여러 디바이스에서 동기화됩니다. 지금 바로 Authy를 설치하고 구성하여 온라인 계정의 보안을 강화하는 방법을 알아보세요:
@@ -623,7 +623,7 @@ https://planb.academy/tutorials/computer-security/authentication/security-key-61
 ## 비밀번호 관리자 만들기
 
 
-<chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
+<chapterId>b8ac0984-b44d-4617-a25d-dba193741408</chapterId>
 
 
 비밀번호 관리는 디지털 시대의 과제입니다. 우리 모두는 보호해야 할 수많은 온라인 계정을 가지고 있습니다. 비밀번호 관리자는 각 계정에 대해 강력하고 고유한 비밀번호를 생성하고 저장하는 데 도움이 됩니다.
@@ -642,7 +642,7 @@ https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb
 ## 계정 보안
 
 
-<chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
+<chapterId>da53a2f8-a71a-405d-bb3f-45b794e3d489</chapterId>
 
 
 이 두 튜토리얼에서는 온라인 계정을 보호하는 방법을 안내하고, 매일 비밀번호를 관리할 때 보다 안전한 방법을 점진적으로 채택하는 방법을 설명합니다.
@@ -655,7 +655,7 @@ https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb
 ## 브라우저 및 VPN 변경
 
 
-<chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
+<chapterId>42a3ef5a-6819-417a-b09e-811c9032053e</chapterId>
 
 
 온라인 개인 정보를 보호하는 것도 보안을 보장하는 중요한 포인트입니다. 이를 위한 첫 번째 해결책으로 VPN을 사용할 수 있습니다.
@@ -676,7 +676,7 @@ https://planb.academy/tutorials/computer-security/communication/tor-browser-a847
 ## 백업 설정
 
 
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+<chapterId>f79061e6-6125-46dd-a935-0f10741e1b38</chapterId>
 
 
 파일을 보호하는 것도 중요한 포인트입니다. 이 튜토리얼에서는 프로톤 드라이브를 사용해 효과적인 백업 전략을 구현하는 방법을 보여드립니다. 이 안전한 클라우드 솔루션을 사용해 3-2-1 방식을 적용하는 방법을 알아보세요. 데이터 사본을 두 개의 다른 미디어에 세 개, 한 개는 오프사이트에 복사하는 방식입니다. 이렇게 하면 중요한 파일에 대한 접근성과 보안을 보장할 수 있습니다:
@@ -692,13 +692,13 @@ https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 # 더 알아보기
 
 
-<partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
+<partId>80c20a8c-ce97-45d2-8079-3ab461c2095d</partId>
 
 
 ## 사이버 보안 업계에서 일하는 방법
 
 
-<chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
+<chapterId>bd32a678-d693-479f-b90a-faaf95a71a53</chapterId>
 
 :::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
 
@@ -753,7 +753,7 @@ https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## 르노와의 인터뷰
 
 
-<chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+<chapterId>a85280cb-cf59-4b76-a8d8-446871cd85fa</chapterId>
 
 :::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
@@ -813,14 +813,14 @@ https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## 리뷰 및 평가
 
 
-<chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
+<chapterId>37e7d514-4dd7-4591-971e-04d6e3a4ae8f</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## 기말 시험
 
 
-<chapterId>a894b251-a85a-5fa4-bf2a-c2a876939b49</chapterId>
+<chapterId>14c6a56a-39d3-4bda-92aa-aa3b6eaa7353</chapterId>
 
 <isCourseExam>true</isCourseExam>
 

@@ -28,12 +28,12 @@ Aan het einde van de cursus moet je in staat zijn om je eigen programma's in Jav
 +++
 # Basis JavaScript
 
-<partId>a617327c-e5a2-52ca-9380-c63f44623dd4</partId>
+<partId>f05873c1-d927-41c7-a204-bb0c65a76980</partId>
 
 
 ## Setup
 
-<chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
+<chapterId>f23bda2d-c460-4823-9d63-f2ac4d782c1f</chapterId>
 
 
 
@@ -182,7 +182,7 @@ Hiermee wordt het volgende afgedrukt
 
 ## Variabelen en opmerkingen
 
-<chapterId>23050ab7-343b-5edf-9d37-e4e782e27ce0</chapterId>
+<chapterId>3eeeaba5-0eae-446f-9cbb-671d8ec89155</chapterId>
 
 
 Programma's voeren meestal bewerkingen uit op gegevens.
@@ -466,7 +466,7 @@ Je kunt commentaar gebruiken om kleine annotaties aan je code toe te voegen, zod
 
 ## Basistypen: getallen, tekenreeksen, booleans
 
-<chapterId>cfdb04f6-21a8-5143-bbf9-7aaae04962f0</chapterId>
+<chapterId>1885cd1e-9477-40b3-846f-c6484a0741d1</chapterId>
 
 
 In JavaScript vertelt een "type" je wat voor soort gegevens een waarde is.
@@ -723,7 +723,7 @@ Booleans, vergelijkings- en logische operatoren worden vaak gecombineerd in prog
 
 ## Rijen, nul, ongedefinieerd
 
-<chapterId>7bf18183-5eae-53ed-83d2-b04982145d81</chapterId>
+<chapterId>8047722f-5eee-46c3-b17f-c29b709930c3</chapterId>
 
 
 In dit gedeelte behandelen we nog drie typen die veel voorkomen in JavaScript-programma's:
@@ -970,7 +970,7 @@ Dus `null` is handig als je bijvoorbeeld wilt zeggen: "Er zou hier later iets mo
 
 ## Blokken en besturingsstroom
 
-<chapterId>be985168-2636-5b0d-a48f-ac1bbfbff8a7</chapterId>
+<chapterId>ae3ddb7d-b174-4328-ba45-e3629ea01063</chapterId>
 
 
 Tot nu toe hebben we vooral regels code geschreven die achter elkaar worden uitgevoerd.
@@ -1500,7 +1500,7 @@ Dit was een heel saai voorbeeld, maar hopelijk heeft het de (incidentele) behoef
 
 ## Functies introduceren
 
-<chapterId>cc324715-09c2-5cf7-9e6f-47a6f16bc04d</chapterId>
+<chapterId>c73497b2-30c8-47c3-994c-01404924634e</chapterId>
 
 
 Als je programma's groeien, zul je vaak stukken **code** willen hergebruiken.
@@ -1740,7 +1740,7 @@ Dit zal `undefined` afdrukken. De retourwaarde van een functie die niets terugga
 
 ## Objecten en klassen
 
-<chapterId>26689f25-8212-5057-8c21-3a05eee0ac75</chapterId>
+<chapterId>820f0b78-7065-4929-84eb-6d569d75a9ce</chapterId>
 
 
 JavaScript wordt vaak een objectgeoriënteerde taal genoemd.
@@ -2425,12 +2425,12 @@ Beide regels geven `true` terug. Dat komt omdat `Admin` een subklasse is van `Us
 
 # JavaScript voor gevorderden
 
-<partId>243f63ab-4f34-5c30-80cb-84ef46f6761d</partId>
+<partId>371fcc46-5c4f-4e9f-8e88-092927553fdc</partId>
 
 
 ## Foutafhandeling
 
-<chapterId>d0206bc5-d386-5e7f-9917-5803f392448c</chapterId>
+<chapterId>a34f710a-8955-4f58-a559-003706047512</chapterId>
 
 
 Naarmate je complexere JavaScript-programma's schrijft, zul je **errors** tegenkomen. Dit zijn onverwachte situaties waarin iets fout gaat. Misschien is een variabele `gedefinieerd` maar probeer je hem toch te gebruiken, of ontvangt een code het verkeerde type invoer.
@@ -2583,7 +2583,7 @@ This will run no matter what.
 
 ## Insecten vermijden
 
-<chapterId>db12d9f6-5806-514c-998e-0ae24805104e</chapterId>
+<chapterId>44624b0b-ca62-471b-9ff4-633ac4456031</chapterId>
 
 
 Dit hoofdstuk laat een aantal van de meest voorkomende valkuilen in JavaScript zien, en hoe je ze kunt vermijden.
@@ -2681,7 +2681,7 @@ De strikte modus schakelt ook enkele verouderde functies van JavaScript uit en m
 
 ## Waarde vs Referentie
 
-<chapterId>bb898425-dc2f-5e5c-864b-0cb7a4a9aea9</chapterId>
+<chapterId>7b38da5d-a2a8-4a92-bd16-4f9fb9bba36d</chapterId>
 
 
 JavaScript behandelt verschillende soorten waarden op verschillende manieren.
@@ -2845,7 +2845,7 @@ Het is belangrijk om dit onderscheid te onthouden, omdat onze code zich anders a
 
 ## Werken met functies
 
-<chapterId>e0d277a8-c642-5af7-9e53-dee27c811967</chapterId>
+<chapterId>5ef8fb79-0042-4185-8f54-0c2b6741cb11</chapterId>
 
 
 Je hebt al geleerd hoe je functies kunt declareren en gebruiken in JavaScript. Maar JavaScript geeft je meer hulpmiddelen om op krachtige manieren met functies te werken.
@@ -3113,7 +3113,7 @@ console.log(result) // 28
 
 ## Werken met objecten
 
-<chapterId>7842aada-f009-5518-b8e3-1104e166a035</chapterId>
+<chapterId>51719896-7c92-4730-b153-7d3f88680a73</chapterId>
 
 
 In dit hoofdstuk leren we een aantal krachtige en iets geavanceerdere gereedschappen voor het werken met objecten in JavaScript.
@@ -3240,7 +3240,7 @@ Dus ook al lijkt het alsof we gewoon een eenvoudige variabele instellen, we trig
 
 ## Sleutels en waarden
 
-<chapterId>01a397b8-c12a-5c39-82b3-6d9ebbb72a29</chapterId>
+<chapterId>03899213-ca26-4beb-b836-c70116a5cb29</chapterId>
 
 
 Elke eigenschap in een JavaScript-object heeft een **key** (ook wel een eigenschapsnaam genoemd) en een **value**.
@@ -3415,7 +3415,7 @@ Zoals je kunt zien, blijft de oorspronkelijke `naam` eigenschap op de een of and
 
 ## Objecten
 
-<chapterId>516e74c8-2a11-545a-a4d1-c2cabb91a273</chapterId>
+<chapterId>d6ce15ed-f38f-44f0-bf38-05f54a263763</chapterId>
 
 
 JavaScript geeft ons een aantal handige ingebouwde objecten die ons helpen om dingen te doen zoals debuggen en wiskundige bewerkingen.
@@ -3588,12 +3588,12 @@ console.log(Math.sqrt(16))    // 4
 
 # JavaScript voor gevorderden
 
-<partId>72c30671-ca20-5617-92a5-d5ba7aa38c93</partId>
+<partId>4deca44e-5be7-4cc7-8e66-b6e72c5c5702</partId>
 
 
 ## Andere collecties
 
-<chapterId>a9a70c6d-a343-5a46-a383-e288bc2700e3</chapterId>
+<chapterId>06bc3143-6d3b-4742-b3ec-3d493200f290</chapterId>
 
 
 JavaScript geeft ons een aantal speciale verzameltypes die verder gaan dan gewone arrays en objecten. Deze omvatten `Map` en `Set`.
@@ -3761,7 +3761,7 @@ De `Set` voorkomt duplicaten voor je.
 
 ## Iteratoren
 
-<chapterId>61d24e5e-b7e4-541a-8322-778f61f26a72</chapterId>
+<chapterId>cdf64150-bf1b-43ee-9243-eb1d12944f6b</chapterId>
 
 
 De meeste dingen in JavaScript waar je overheen kunt lussen (zoals arrays, strings, maps, sets) zijn **iterable**: ze kunnen iterators voor hun inhoud leveren.
@@ -4096,7 +4096,7 @@ Deze afdrukken:
 
 ## Concurrentie met callbacks
 
-<chapterId>f3fc76ca-b3ef-54eb-a06e-501007002054</chapterId>
+<chapterId>153d4631-4f09-4673-9663-a0655c84915d</chapterId>
 
 
 Tot nu toe was onze code **synchroon**: het werd regel voor regel uitgevoerd, in volgorde. Maar sommige dingen in de echte wereld kosten tijd en we willen niet dat het hele programma pauzeert terwijl het wacht.
@@ -4221,7 +4221,7 @@ Dit is Hard om te lezen en rommelig. Deze stijl wordt **callback hel** genoemd, 
 
 ## Concurrentie met beloften
 
-<chapterId>30fddaca-729f-5c8d-bf86-8dfc7b3c9800</chapterId>
+<chapterId>f8635081-bd8a-468c-937a-378cba983be8</chapterId>
 
 
 Een `belofte` is een ingebouwd JavaScript-object dat een waarde vertegenwoordigt die **in de toekomst** klaar zal zijn.
@@ -4553,7 +4553,7 @@ Elke `.then()` wacht tot de stap ervoor is voltooid. We kunnen dus een **keten v
 
 ## Concurrency met async/await
 
-<chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
+<chapterId>ee195267-5761-4b57-b9c9-294c41753675</chapterId>
 
 
 We hebben gezien hoe `Promise` ketens ons helpen om callback hel te vermijden, maar ze kunnen nog steeds een beetje Hard worden om te lezen als er veel stappen bij betrokken zijn.
@@ -4754,7 +4754,7 @@ Het ziet eruit als een normaal stap-voor-stap programma, maar het gedraagt zich 
 
 ## Async Iteratoren
 
-<chapterId>438b037d-9931-56d7-9052-7b4470f3c75b</chapterId>
+<chapterId>0e054e0d-3c56-4a9c-92b8-3f89082951d3</chapterId>
 
 
 Je hebt al geleerd over **iterators** en hoe we `for...of` kunnen gebruiken om over arrays en andere iterabele dingen te lussen.
@@ -4933,7 +4933,7 @@ Hiermee kun je objecten maken waar asynchroon overheen kan worden geïtereerd
 
 ## Assignment syntaxis suiker
 
-<chapterId>8b1ba7d8-ecfd-5470-b86e-73cb84ccc8b7</chapterId>
+<chapterId>05425043-b182-44f2-8409-210b07130f92</chapterId>
 
 
 "Syntax suiker" betekent iets op een kortere of makkelijkere manier schrijven, zonder te veranderen wat het doet. Het is gewoon een mooiere manier om hetzelfde te zeggen.
@@ -5184,12 +5184,12 @@ Dit is erg handig bij het bijwerken van objecten zonder het origineel te wijzige
 
 # NodeJS
 
-<partId>42fe4d49-dace-5135-bb9e-b9d75034fb2a</partId>
+<partId>5b72ef93-69a6-4736-a375-6236861e2874</partId>
 
 
 ## Hoe kwamen we bij Node
 
-<chapterId>0da1d60c-06c9-54e6-a181-ae7dabf6e3b8</chapterId>
+<chapterId>d43b1e4c-cd96-4c75-8039-f76eb407a576</chapterId>
 
 
 In dit hoofdstuk leren we wat historische context over JavaScript en NodeJS.
@@ -5278,7 +5278,7 @@ Tot nu toe hebben we in deze cursus de JavaScript-functies verkend die zowel in 
 
 ## Argumenten op de opdrachtregel
 
-<chapterId>960d20f3-c424-5d51-a041-ef17d2e94b6d</chapterId>
+<chapterId>941e316c-7ab8-4fb0-8298-9a1c85b25b71</chapterId>
 
 
 Met NodeJS kunnen we onder andere CLI's (Command Line Interfaces) bouwen.
@@ -5355,7 +5355,7 @@ Toegang hebben tot de argumenten die de gebruiker doorgeeft is fundamenteel voor
 
 ## Modules
 
-<chapterId>4e1651a5-65fd-50bc-b22a-40313d5659ca</chapterId>
+<chapterId>ace32a0c-8a10-4dfa-83e2-e06a8f674a24</chapterId>
 
 
 JavaScript runtimes zoals NodeJS behandelen elk JavaScript-bestand meestal als een aparte module.
@@ -5495,7 +5495,7 @@ De volgende hoofdstukken tonen je enkele nuttige voorbeelden van hun gebruik.
 
 ## De module fs
 
-<chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
+<chapterId>e59cdf25-2dc2-48d1-b5c1-3df89254ff4e</chapterId>
 
 
 De `fs` module (afkorting voor **file system**) maakt deel uit van de NodeJS standaardbibliotheek. Hiermee kun je werken met bestanden en mappen op je computer: je kunt bestanden lezen, schrijven, verwijderen, hernoemen en meer.
@@ -5793,7 +5793,7 @@ main().catch(err => console.error(err))
 
 ## NPM
 
-<chapterId>a91d9a75-55cc-51a3-a48f-0c0be6fe6e72</chapterId>
+<chapterId>412cfd23-1869-491e-9d04-84b9c447b4df</chapterId>
 
 
 Wanneer je code schrijft, zul je vaak code moeten gebruiken die door andere mensen is geschreven; bijvoorbeeld bibliotheken om je te helpen werken met datums, kleuren, servers of bijna alles.
@@ -6014,7 +6014,7 @@ Maar dit zijn dingen waar je je later zorgen over moet maken, zodra je je eigen 
 
 ## Netwerken in NodeJS
 
-<chapterId>f2cabd8b-754b-5c97-8d6a-8412a9a184c7</chapterId>
+<chapterId>5915bd97-6bc8-446a-a1d8-ca3ce2f724be</chapterId>
 
 
 NodeJS wordt vaak gebruikt als een taal voor backend: je kunt van je script een server maken en er ook verzoeken mee doen aan andere servers.
@@ -6216,7 +6216,7 @@ Dit zijn erg eenvoudige voorbeelden. Voor het bouwen van meer geavanceerde serve
 
 ## Gegevens verwerken: buffers, gebeurtenissen, streams
 
-<chapterId>8c9623f0-a604-51a4-8fe4-871c849d3e3b</chapterId>
+<chapterId>6327b62d-3e2d-4a40-b8c3-78f2a21f3fda</chapterId>
 
 
 In dit hoofdstuk introduceren we voornamelijk drie klassen van objecten:
@@ -6703,7 +6703,7 @@ Je hoeft je dus alleen zorgen te maken over tegendruk als je om de een of andere
 
 ## Eindnoot
 
-<chapterId>139e2ab8-df67-525a-85f0-5a2fa5e478f2</chapterId>
+<chapterId>c09318b9-2d2f-4300-a32b-dff8dbdb9dbd</chapterId>
 
 
 Zo, dat was het, als je de lessen hebt gevolgd, zou je nu enkele eenvoudige programma's in NodeJS moeten kunnen schrijven.
@@ -6724,20 +6724,20 @@ Veel succes!
 # Laatste deel
 
 
-<partId>322624d8-6fbc-11f0-a67a-5b145f10afc1</partId>
+<partId>528a2f0c-e5cf-49e5-95c8-4866523a5bde</partId>
 
 
 ## Beoordelingen
 
 
-<chapterId>3e93ac86-6fbc-11f0-8bae-9b2ed7914843</chapterId>
+<chapterId>5c5cae08-1839-4b94-b89c-af40a0dc14a9</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Conclusie
 
 
-<chapterId>49b3b9b2-6fbc-11f0-9870-5f5adcd3a0eb</chapterId>
+<chapterId>627aebc9-879f-4539-8501-dd0a517dd4a0</chapterId>
 
 
 <isCourseConclusion>true</isCourseConclusion>

@@ -28,12 +28,12 @@ Ved kursets slutt skal du kunne skrive dine egne programmer i JavaScript, bruke 
 +++
 # Grunnleggende JavaScript
 
-<partId>a617327c-e5a2-52ca-9380-c63f44623dd4</partId>
+<partId>f05873c1-d927-41c7-a204-bb0c65a76980</partId>
 
 
 ## Oppsett
 
-<chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
+<chapterId>f23bda2d-c460-4823-9d63-f2ac4d782c1f</chapterId>
 
 
 
@@ -182,7 +182,7 @@ Dette vil skrive ut
 
 ## Variabler og kommentarer
 
-<chapterId>23050ab7-343b-5edf-9d37-e4e782e27ce0</chapterId>
+<chapterId>3eeeaba5-0eae-446f-9cbb-671d8ec89155</chapterId>
 
 
 Programmer utfører vanligvis operasjoner på data.
@@ -466,7 +466,7 @@ Du kan bruke kommentarer til å legge til små merknader i koden din, slik at du
 
 ## Grunnleggende typer: tall, strenger, boolske tegn
 
-<chapterId>cfdb04f6-21a8-5143-bbf9-7aaae04962f0</chapterId>
+<chapterId>1885cd1e-9477-40b3-846f-c6484a0741d1</chapterId>
 
 
 I JavaScript forteller en "type" deg hva slags data en verdi er.
@@ -723,7 +723,7 @@ Boolske, sammenlignende og logiske operatorer kombineres ofte i programmer for �
 
 ## Matriser, null, udefinert
 
-<chapterId>7bf18183-5eae-53ed-83d2-b04982145d81</chapterId>
+<chapterId>8047722f-5eee-46c3-b17f-c29b709930c3</chapterId>
 
 
 I dette avsnittet tar vi for oss ytterligere tre typer som er svært vanlige i JavaScript-programmer:
@@ -970,7 +970,7 @@ Så `null` er nyttig når du for eksempel vil si: "Det skal være noe her senere
 
 ## Blokker og kontrollflyt
 
-<chapterId>be985168-2636-5b0d-a48f-ac1bbfbff8a7</chapterId>
+<chapterId>ae3ddb7d-b174-4328-ba45-e3629ea01063</chapterId>
 
 
 Så langt har vi for det meste skrevet kodelinjer som kjøres etter hverandre.
@@ -1500,7 +1500,7 @@ Dette var et veldig kjedelig eksempel, men forhåpentligvis har det tydeliggjort
 
 ## Introduksjon av funksjoner
 
-<chapterId>cc324715-09c2-5cf7-9e6f-47a6f16bc04d</chapterId>
+<chapterId>c73497b2-30c8-47c3-994c-01404924634e</chapterId>
 
 
 Etter hvert som programmene dine vokser, vil du ofte ønske å **gjenbruke** deler av koden.
@@ -1740,7 +1740,7 @@ Dette vil skrive ut `undefined`. Returverdien til en funksjon som ikke returnert
 
 ## Objekter og klasser
 
-<chapterId>26689f25-8212-5057-8c21-3a05eee0ac75</chapterId>
+<chapterId>820f0b78-7065-4929-84eb-6d569d75a9ce</chapterId>
 
 
 JavaScript kalles ofte et objektorientert språk.
@@ -2425,12 +2425,12 @@ Begge linjene returnerer `true`. Det er fordi `Admin` er en underklasse av `User
 
 # JavaScript på mellomnivå
 
-<partId>243f63ab-4f34-5c30-80cb-84ef46f6761d</partId>
+<partId>371fcc46-5c4f-4e9f-8e88-092927553fdc</partId>
 
 
 ## Feilhåndtering
 
-<chapterId>d0206bc5-d386-5e7f-9917-5803f392448c</chapterId>
+<chapterId>a34f710a-8955-4f58-a559-003706047512</chapterId>
 
 
 Etter hvert som du skriver mer komplekse JavaScript-programmer, vil du støte på **feil**. Dette er uventede situasjoner der noe går galt. Kanskje en variabel er "udefinert", men du prøver å bruke den, eller en kode mottar feil type input.
@@ -2583,7 +2583,7 @@ This will run no matter what.
 
 ## Unngå feil
 
-<chapterId>db12d9f6-5806-514c-998e-0ae24805104e</chapterId>
+<chapterId>44624b0b-ca62-471b-9ff4-633ac4456031</chapterId>
 
 
 Dette kapittelet viser noen av de vanligste fallgruvene i JavaScript, og hvordan du kan unngå dem.
@@ -2681,7 +2681,7 @@ Strict-modus deaktiverer også noen utdaterte funksjoner i JavaScript, og gjør 
 
 ## Verdi vs. referanse
 
-<chapterId>bb898425-dc2f-5e5c-864b-0cb7a4a9aea9</chapterId>
+<chapterId>7b38da5d-a2a8-4a92-bd16-4f9fb9bba36d</chapterId>
 
 
 JavaScript behandler ulike typer verdier på ulike måter.
@@ -2845,7 +2845,7 @@ Det er viktig å huske dette skillet, for ellers kan koden vår oppføre seg ann
 
 ## Arbeide med funksjoner
 
-<chapterId>e0d277a8-c642-5af7-9e53-dee27c811967</chapterId>
+<chapterId>5ef8fb79-0042-4185-8f54-0c2b6741cb11</chapterId>
 
 
 Du har allerede lært hvordan du deklarerer og bruker funksjoner i JavaScript. Men JavaScript gir deg flere verktøy for å jobbe med funksjoner på kraftfulle måter.
@@ -3113,7 +3113,7 @@ console.log(result) // 28
 
 ## Arbeide med objekter
 
-<chapterId>7842aada-f009-5518-b8e3-1104e166a035</chapterId>
+<chapterId>51719896-7c92-4730-b153-7d3f88680a73</chapterId>
 
 
 I dette kapittelet skal vi lære oss noen kraftige og litt mer avanserte verktøy for å jobbe med objekter i JavaScript.
@@ -3240,7 +3240,7 @@ Så selv om det føles som om vi bare setter en enkel variabel, utløser vi fakt
 
 ## Nøkler og verdier
 
-<chapterId>01a397b8-c12a-5c39-82b3-6d9ebbb72a29</chapterId>
+<chapterId>03899213-ca26-4beb-b836-c70116a5cb29</chapterId>
 
 
 Hver egenskap i et JavaScript-objekt har en **nøkkel** (også kalt et egenskapsnavn) og en **verdi**.
@@ -3415,7 +3415,7 @@ Som du kan se, bevares den opprinnelige egenskapen `name` på en eller annen må
 
 ## Utility-objekter
 
-<chapterId>516e74c8-2a11-545a-a4d1-c2cabb91a273</chapterId>
+<chapterId>d6ce15ed-f38f-44f0-bf38-05f54a263763</chapterId>
 
 
 JavaScript gir oss noen nyttige innebygde objekter som hjelper oss med ting som feilsøking og matematiske operasjoner.
@@ -3588,12 +3588,12 @@ console.log(Math.sqrt(16))    // 4
 
 # Avansert JavaScript
 
-<partId>72c30671-ca20-5617-92a5-d5ba7aa38c93</partId>
+<partId>4deca44e-5be7-4cc7-8e66-b6e72c5c5702</partId>
 
 
 ## Andre samlinger
 
-<chapterId>a9a70c6d-a343-5a46-a383-e288bc2700e3</chapterId>
+<chapterId>06bc3143-6d3b-4742-b3ec-3d493200f290</chapterId>
 
 
 JavaScript gir oss noen spesielle samlingstyper som går utover vanlige matriser og objekter. Disse inkluderer `Map` og `Set`.
@@ -3761,7 +3761,7 @@ Med `Set` unngår du duplikater for deg.
 
 ## Iteratorer
 
-<chapterId>61d24e5e-b7e4-541a-8322-778f61f26a72</chapterId>
+<chapterId>cdf64150-bf1b-43ee-9243-eb1d12944f6b</chapterId>
 
 
 De fleste ting i JavaScript som du kan loope over (som matriser, strenger, kart, sett), er **iterable**: De kan tilby iteratorer for innholdet.
@@ -4096,7 +4096,7 @@ Dette skriver ut:
 
 ## Samtidighet med tilbakekallinger
 
-<chapterId>f3fc76ca-b3ef-54eb-a06e-501007002054</chapterId>
+<chapterId>153d4631-4f09-4673-9663-a0655c84915d</chapterId>
 
 
 Frem til nå har koden vår vært **synkron**: den kjører én linje om gangen, i rekkefølge. Men noen ting i den virkelige verden tar tid, og vi vil ikke at hele programmet skal stå på pause mens vi venter.
@@ -4221,7 +4221,7 @@ Dette er Hard å lese og rotete. Denne stilen kalles **callback-helvete**, og de
 
 ## Samtidighet med løfter
 
-<chapterId>30fddaca-729f-5c8d-bf86-8dfc7b3c9800</chapterId>
+<chapterId>f8635081-bd8a-468c-937a-378cba983be8</chapterId>
 
 
 Et `Promise` er et innebygd JavaScript-objekt som representerer en verdi som vil **være klar i fremtiden**.
@@ -4553,7 +4553,7 @@ Hver `.then()` venter på at trinnet før det er ferdig. Slik kan vi bygge en **
 
 ## Samtidighet med async/await
 
-<chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
+<chapterId>ee195267-5761-4b57-b9c9-294c41753675</chapterId>
 
 
 Vi så hvordan `Promise`-kjeder hjelper oss med å unngå tilbakekallingshelvete, men de kan likevel bli litt Hard å lese når det er mange trinn involvert.
@@ -4754,7 +4754,7 @@ Det ser ut som et vanlig trinn-for-trinn-program, men det oppfører seg likevel 
 
 ## Asynkrone Iteratorer
 
-<chapterId>438b037d-9931-56d7-9052-7b4470f3c75b</chapterId>
+<chapterId>0e054e0d-3c56-4a9c-92b8-3f89082951d3</chapterId>
 
 
 Du har allerede lært om **iteratorer** og hvordan vi kan bruke `for...of` til å loope over matriser og andre iterable ting.
@@ -4933,7 +4933,7 @@ Dette gjør at du kan opprette objekter som kan itereres over asynkront
 
 ## Assignment syntaks sukker
 
-<chapterId>8b1ba7d8-ecfd-5470-b86e-73cb84ccc8b7</chapterId>
+<chapterId>05425043-b182-44f2-8409-210b07130f92</chapterId>
 
 
 "Syntaktisk sukker" betyr å skrive noe på en kortere eller enklere måte, uten å endre hva det gjør. Det er bare en finere måte å si det samme på.
@@ -5184,12 +5184,12 @@ Dette er svært nyttig når du skal oppdatere objekter uten å endre originalen.
 
 # NodeJS
 
-<partId>42fe4d49-dace-5135-bb9e-b9d75034fb2a</partId>
+<partId>5b72ef93-69a6-4736-a375-6236861e2874</partId>
 
 
 ## Hvordan kom vi til Node
 
-<chapterId>0da1d60c-06c9-54e6-a181-ae7dabf6e3b8</chapterId>
+<chapterId>d43b1e4c-cd96-4c75-8039-f76eb407a576</chapterId>
 
 
 I dette kapittelet skal vi lære litt om den historiske konteksten til JavaScript og NodeJS.
@@ -5278,7 +5278,7 @@ I dette kurset har vi så langt utforsket JavaScript-funksjonene som finnes båd
 
 ## Argumenter på kommandolinjen
 
-<chapterId>960d20f3-c424-5d51-a041-ef17d2e94b6d</chapterId>
+<chapterId>941e316c-7ab8-4fb0-8298-9a1c85b25b71</chapterId>
 
 
 NodeJS gir oss blant annet mulighet til å bygge CLI-er (Command Line Interfaces).
@@ -5355,7 +5355,7 @@ console.log(args)
 
 ## Moduler
 
-<chapterId>4e1651a5-65fd-50bc-b22a-40313d5659ca</chapterId>
+<chapterId>ace32a0c-8a10-4dfa-83e2-e06a8f674a24</chapterId>
 
 
 JavaScript-kjøretimer som NodeJS behandler vanligvis hver JavaScript-fil som en egen modul.
@@ -5495,7 +5495,7 @@ I de neste kapitlene får du noen nyttige eksempler på hvordan de kan brukes.
 
 ## Modulen "fs
 
-<chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
+<chapterId>e59cdf25-2dc2-48d1-b5c1-3df89254ff4e</chapterId>
 
 
 Modulen `fs` (forkortelse for **filsystem**) er en del av NodeJS' standardbibliotek. Den lar deg arbeide med filer og kataloger på datamaskinen din: du kan lese filer, skrive filer, slette dem, gi dem nytt navn og mye mer.
@@ -5793,7 +5793,7 @@ main().catch(err => console.error(err))
 
 ## NPM
 
-<chapterId>a91d9a75-55cc-51a3-a48f-0c0be6fe6e72</chapterId>
+<chapterId>412cfd23-1869-491e-9d04-84b9c447b4df</chapterId>
 
 
 Når du skriver kode, må du ofte bruke kode som er skrevet av andre, for eksempel biblioteker som hjelper deg med å arbeide med datoer, farger, servere eller nesten hva som helst annet.
@@ -6014,7 +6014,7 @@ Men dette er ting du bør bekymre deg for senere, når du begynner å publisere 
 
 ## Nettverk i NodeJS
 
-<chapterId>f2cabd8b-754b-5c97-8d6a-8412a9a184c7</chapterId>
+<chapterId>5915bd97-6bc8-446a-a1d8-ca3ce2f724be</chapterId>
 
 
 NodeJS brukes ofte som et språk for backend: Du kan gjøre skriptet ditt om til en server, og også bruke det til å sende forespørsler til andre servere.
@@ -6216,7 +6216,7 @@ Dette er svært grunnleggende eksempler. For å bygge mer avanserte servere vil 
 
 ## Behandling av data: buffere, hendelser, strømmer
 
-<chapterId>8c9623f0-a604-51a4-8fe4-871c849d3e3b</chapterId>
+<chapterId>6327b62d-3e2d-4a40-b8c3-78f2a21f3fda</chapterId>
 
 
 I dette kapittelet introduserer vi først og fremst tre klasser av objekter:
@@ -6703,7 +6703,7 @@ Du trenger altså bare å bekymre deg for mottrykk når du av en eller annen gru
 
 ## Sluttnote
 
-<chapterId>139e2ab8-df67-525a-85f0-5a2fa5e478f2</chapterId>
+<chapterId>c09318b9-2d2f-4300-a32b-dff8dbdb9dbd</chapterId>
 
 
 Hvis du har fulgt med på leksjonene, bør du nå være i stand til å skrive noen enkle programmer i NodeJS.
@@ -6724,20 +6724,20 @@ Lykke til!
 # Siste del
 
 
-<partId>322624d8-6fbc-11f0-a67a-5b145f10afc1</partId>
+<partId>528a2f0c-e5cf-49e5-95c8-4866523a5bde</partId>
 
 
 ## Anmeldelser og rangeringer
 
 
-<chapterId>3e93ac86-6fbc-11f0-8bae-9b2ed7914843</chapterId>
+<chapterId>5c5cae08-1839-4b94-b89c-af40a0dc14a9</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Konklusjon
 
 
-<chapterId>49b3b9b2-6fbc-11f0-9870-5f5adcd3a0eb</chapterId>
+<chapterId>627aebc9-879f-4539-8501-dd0a517dd4a0</chapterId>
 
 
 <isCourseConclusion>true</isCourseConclusion>

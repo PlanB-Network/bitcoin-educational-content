@@ -15,12 +15,12 @@ Ibikubiye mu gisomo byateguwe abiga ku rwego rwose kandi biringaniza ubwenge ham
 +++
 # Imenyekanisha
 
-<partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
+<partId>abfa0d9a-736e-40f8-937a-490ef19bc481</partId>
 
 
 ## Incamake y'amashure
 
-<chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+<chapterId>dc6c887e-00a6-4b7f-9d50-14cbdfd5e867</chapterId>
 
 Murakaze mu nyigisho ya CYP302!
 
@@ -127,12 +127,12 @@ Ni mwiteguye gutohoza isi iryoshe cane y’ubuhinga bwo gukingira amakuru? Reka 
 
 # Ivy’ugushiramwo amakuru ni iki?
 
-<partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>
+<partId>dfa3633c-f97b-4650-8a2e-cb15a42ca557</partId>
 
 
 ## Ivyanditswe vya Beale
 
-<chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
+<chapterId>b97d116b-035b-4e92-890c-e377b48edb36</chapterId>
 
 
 Reka dutangure itohoza ryacu ku bijanye n’ubuhinga bwo gukingira amakuru n’ikimwe mu bice biteye umunezero kandi biteye umunezero mu mateka yavyo: ivy’amabanga ya Beale. [1]
@@ -194,7 +194,7 @@ Inyuma y’ugusobanura, ubutumwa bwa kabiri buratanga ido n’ido ry’ibintu bi
 
 ## Ubuhinga bwa none
 
-<chapterId>d07d576f-8a4b-5890-b182-2e5763f550f4</chapterId>
+<chapterId>a53dab64-fcf9-48c1-b578-dc43d799f3de</chapterId>
 
 
 Inkuru z’amabara nk’izo mu binyamakuru vya Beale ni vyo benshi muri twebwe twifatanya n’ubuhinga bwo gukingira amakuru. Yamara, ubuhinga bwo gupfuka amakuru bwo muri iki gihe buratandukanye n’ubwo bwoko bw’ingero z’akahise n’imiburiburi mu buryo bune buhambaye.
@@ -271,7 +271,7 @@ Nk’akarorero, **ibitero vy’ubuhendanyi** ni ingorane isanzwe mu bihe vyacu v
 
 ## Gufungura guhanahana amakuru
 
-<chapterId>cb23d0a6-ba9a-5dc6-a55a-258405ae4117</chapterId>
+<chapterId>87b637ca-3d20-42b5-b299-ecb084b60aec</chapterId>
 
 
 Ivyuma vy’ubuhinga bwa none vy’ubuhinga bwa none vyagenewe gutanga umutekano mu bidukikije **vy’itumanaho ryuguruye**. Nimba umuhora wacu wo guhanahana amakuru urinzwe neza cane ku buryo abatwumviriza badashobora gukoresha canke mbere no kwihweza ubutumwa bwacu gusa, rero ubuhinga bwo gukingira amakuru burarengeye urugero. Ariko rero, inzira nyinshi dukoresha mu guhanahana amakuru ntizirindwa neza gutyo.
@@ -302,13 +302,13 @@ Ku bw’ivyo, iciyumviro co kugumiza ibanga ry’ivy’uguhanahana amakuru mu ku
 
 # Ishingiro ry'imibare ry'ubuhinga bwo gupfuka 1
 
-<partId>1bf9f0aa-0f68-5493-83fb-2167238ff9de</partId>
+<partId>22c3967a-c64b-468c-8e68-3324fe552738</partId>
 
 
 
 ## Ibihinduka bidasanzwe
 
-<chapterId>b623a7d0-3dff-5803-bd4e-8257ff73dd69</chapterId>
+<chapterId>c5fa2255-6041-400b-9072-217b73bf411e</chapterId>
 
 
 Ivy’ugushiramwo amakuru bishingiye ku biharuro. Kandi nimba ushaka kwubaka ibirenze ugutahura kw’inyuma kw’ivy’ubuhinga bwo gukingira amakuru, urakeneye kumenya neza iyo mibare.
@@ -603,7 +603,7 @@ Nk’akarorero, noshobora kubabaza ko ingurube zishobora kuguruka mu mwaka w’2
 
 ## Ibikorwa vya modulo
 
-<chapterId>709b34e5-b155-53d2-abbd-97d67e56db00</chapterId>
+<chapterId>a7e063f0-62dd-4c35-892a-55fa1b10aad8</chapterId>
 
 
 ### Module
@@ -721,7 +721,7 @@ $$
 
 ## Ibikorwa vya XOR
 
-<chapterId>22f185cc-c516-5b33-950b-0908f2f881fe</chapterId>
+<chapterId>941aaabd-0896-4eb2-843c-e1af055c87fc</chapterId>
 
 
 Amakuru yose yo muri mudasobwa aratunganirizwa, akabikwa, kandi akarungikwa ku nzira ku rugero rw’ibice. Ivyiyumviro vyose vy’ubuhinga bwo gukingira amakuru bikoreshwa ku makuru ya mudasobwa na vyo nyene bikora ku rugero rwa bit.
@@ -768,7 +768,7 @@ Igikorwa kijanye na XOR kingana n’ikibazo kidasanzwe co gukora igikorwa ca mod
 
 ## Ububeshi bw'imburakimazi
 
-<chapterId>20463fc5-3e92-581f-a1b7-3151279bd95e</chapterId>
+<chapterId>bd0c7d54-5392-490b-bdca-04dcbe7d83ff</chapterId>
 
 
 Mu kiganiro cacu ku bihinduka vy’imburakimazi n’ivy’imburakimazi, twashizeho itandukaniro ryihariye hagati y’“ihinduka ry’imburakimazi” n’“ihinduka ry’imburakimazi”. Ukwo gutandukanya gukomezwa mu bikorwa igihe umuntu adondora ibintu bihinduka ataco bimaze. Ariko rero, mu gihe cacu c’ubu, iyo ntandukaniro irakeneye gukurwaho maze “random” na “uniform” bikakoreshwa mu buryo bumwe. Nzobasigurira igituma mu mpera y’igice.
@@ -835,13 +835,13 @@ Imvo yo gukuraho itandukaniro hagati y’“imburakimazi” n’“imwe” mu ki
 
 # Ishingiro ry'imibare ry'ubuhinga bwo gupfuka 2
 
-<partId>d7245cc9-bb6d-5403-b3d5-9c703d9a2f81</partId>
+<partId>62963952-ae03-43f4-88d6-90aea95e5c5f</partId>
 
 
 
 ## Ivyiyumviro vy’imibare ni iki?
 
-<chapterId>c0051c34-fd5d-539c-93e2-5c6dfd4c3355</chapterId>
+<chapterId>67e7dace-4c23-41a8-bdb3-c6c87d223899</chapterId>
 
 
 Iki gice kivuga ku ciyumviro giteye imbere cane ku bijanye n’imishinge y’imibare y’ubuhinga bwo gukingira amakuru: inyigisho y’imibare. Naho inyigisho y'imibare ari ngirakamaro ku bijanye n'ubuhinga bwo gukingira amakuru (nk'uko biri muri Rijndael Cipher), irahambaye cane mu bijanye n'ubuhinga bwo gukingira amakuru y'urufunguzo rwa bose.
@@ -871,7 +871,7 @@ Ivyiyumviro biva mu buhinga bw'ibintu bishobora gukorana n'ubwoko bwinshi bw'ibi
 
 ## Amatsinda
 
-<chapterId>3209b270-f9cd-5224-803e-0ed19fbf7826</chapterId>
+<chapterId>4353d3ff-6319-4985-a4b8-3b20111ecfff</chapterId>
 
 
 Iciyumviro nyamukuru mu biharuro ni ic'umugwi wa Elements. Igitigiri gisanzwe kigaragazwa n’ibimenyetso vy’ugushima bifise Elements itandukanijwe n’ibimenyetso vy’ugushimira.
@@ -974,7 +974,7 @@ Ibikorwa muri Bitcoin mu bisanzwe birimwo gufunga ibisohoka ku rufunguzo rumwe c
 
 ## Imigwi y'ingendo
 
-<chapterId>bfa5c714-7952-5fef-88b1-ca5b07edd886</chapterId>
+<chapterId>b5b552f6-cf7c-4ba8-bd9c-685bfc4aacad</chapterId>
 
 
 Itandukaniro rinini dushobora gushiramwo ni hagati ya **umugwi utagira iherezo** n’umugwi **utagira iherezo**. Irya mbere rifise umubare utagira iherezo wa Elements, mu gihe irya kabiri rifise umubare utagira iherezo wa Elements. Umubare wa Elements mu mugwi uwo ari wo wose ufise impera uzwi nka **urutonde rw'umugwi**. Ivyiyumviro vyose vy’ubuhinga bwo gukingira amakuru birimwo gukoresha imigwi bishingiye ku migwi ifise impera (y’imibare-y’inyigisho).
@@ -1095,7 +1095,7 @@ Igishushanyo c'imikorere ya Euler Phi c'ugucapura kwa mbere kwa $N$.
 
 ## Imirima
 
-<chapterId>fad52d86-3a22-5c9f-979e-3bec9eaa008e</chapterId>
+<chapterId>7a8c9ab0-fc8f-43fa-8dd7-fd1839bcda81</chapterId>
 
 
 Itsinda ni umubumbe w’ishimikiro w’aligebra mu aligebra itaboneka, ariko hariho n’izindi nyinshi. Iyindi mibumbe y'aligebra ukeneye kumenya ni iyo **umurima**, cane cane iyo **umurima ufise impera**. Ubwo bwoko bw'imiterere y'aligebra burakoreshwa kenshi mu gupfuka amakuru, nk'uko biri mu rugero rwo gupfuka amakuru rwo mu rwego rwo hejuru. Ico ca nyuma ni co gikorwa nyamukuru co gushiramwo amakuru y’uburinganire uzohura na co mu bikorwa.
@@ -1299,7 +1299,7 @@ Ni kuki ivyicaro vy’ukwagura bifise urufatiro rwa 2 ku migwi y’ibiharuro vyi
 
 ## Aligebra idasanzwe mu bikorwa
 
-<chapterId>ed35b98d-18b4-5790-9911-1078e0f84f92</chapterId>
+<chapterId>9b8cd1fc-8a34-4e1b-ab4f-c634a763a20c</chapterId>
 
 
 Naho ururimi rusanzwe n’ikiganiro kidasanzwe, iciyumviro c’umugwi ntigikwiye kuba kigoye cane gutahura. Ni gusa umugwi wa Elements hamwe n’igikorwa c’ibice bibiri, aho ubushobozi bw’ico gikorwa c’ibice bibiri kuri izo Elements buhuye n’ibintu bine rusangi. Itsinda rya Abeli ​​rifise gusa ikintu c’inyongera kizwi nka commutativité. Itsinda ry’inzinguzingu na ryo nyene ni ubwoko budasanzwe bw’itsinda ry’Abeli, ni ukuvuga iryo rifise umuyagankuba. Umurima ni gusa inyubakwa igoye cane iva ku ciyumviro c’ishimikiro c’umugwi.
@@ -1342,13 +1342,13 @@ Kugira ngo uronke ibindi biganiro ku vyerekeye inyigisho y’imibare yo muri iki
 
 # Ububiko bw'ibanga buhuye
 
-<partId>ef768d0e-fe7b-510c-87d6-6febb3de1039</partId>
+<partId>b994593e-cb9b-4a2c-ae80-2dec3478e1a6</partId>
 
 
 
 ## Alice na Bob
 
-<chapterId>47345330-be2d-5faf-afd0-d289a8d21bf1</chapterId>
+<chapterId>9c901027-b83a-4954-99b4-9e4f0c1598b7</chapterId>
 
 
 Imwe mu mashami abiri akomeye y’ubuhinga bwo gukingira amakuru ni ubuhinga bwo gukingira amakuru buhuye. Harimwo imigambi yo gupfuka amakuru hamwe n’imigambi yerekeye ukumenya neza n’ubunyankamugayo. Gushika mu myaka ya 1970, ubuhinga bwo gupfuka amakuru bwose bwari kuba bugizwe n’imigambi y’ugupfuka amakuru ihuye.
@@ -1389,7 +1389,7 @@ Ibi bikurikira ni ingingo zitanu z’ingenzi zo kuguma mu muzirikanyi ku bijanye
 
 ## Imigambi y'ububiko buhuye
 
-<chapterId>41bfdbe1-6d41-5272-98bb-81f24b2fd6af</chapterId>
+<chapterId>e2645185-bb06-41d2-9a80-81dd84108647</chapterId>
 
 
 Turashobora gusobanura neza **umugambi wo gushiramwo amakuru ugereranijwe** nk'umugambi wose wo gushiramwo amakuru ufise ubuhinga butatu:
@@ -1445,7 +1445,7 @@ Bob ipfuka ubutumwa $M$ ku gihe $T_0$ n'urufunguzo $K$ kugira ngo ivemwo inyandi
 
 ## Akarorero: Igiharuro c'ihinduka
 
-<chapterId>7b179ae8-8d15-5e80-a43f-22c970d87b5e</chapterId>
+<chapterId>63287a89-bda1-4395-ade6-cd8d8debe797</chapterId>
 
 
 Mu kigabane ca 2, twahuye n’igiharuro c’ihinduka, kikaba ari akarorero k’umugambi woroshe cane wo gupfuka amakuru. Reka tuvyitegereze hano.
@@ -1493,7 +1493,7 @@ Ushobora kandi guhura n'amajambo **gusobanura** canke **gusobanura**. Aya majamb
 
 ## Ibitero vy’inkomezi z’agahomerabunwa n’ingingo ngenderwako ya Kerckhoff
 
-<chapterId>2d73ef97-26c5-5d11-8815-0ddbe89c8003</chapterId>
+<chapterId>4a72d8d8-0186-4654-b5ba-f99a4e03fb59</chapterId>
 
 
 Igiharuro c’ihinduka ni umugambi wo gukingira amakuru udatekanye cane, n’imiburiburi mw’isi ya none. [1] Umuntu atera yoshobora gusa kugerageza gukuraho inyandiko iyo ari yo yose y’ibanga afise imfunguruzo zose 26 zishoboka kugira ngo abone igisubizo gifise insiguro. Ubwo bwoko bw’igitero, aho uwutera aba ariko aragendagenda gusa mu mfunguruzo kugira ngo abone ico gikora, buzwi kw’izina rya **igitero c’inguvu z’agahomerabunwa** canke **ugushaka imfunguruzo zishitse**.
@@ -1565,7 +1565,7 @@ Naho tutazokwinjira mu ndondoro zose z’ivyiyumviro bitandukanye vy’umutekano
 
 ## Amajambo y'uruzi
 
-<chapterId>479aa6f4-45c4-59ca-8616-8cf8e61fc871</chapterId>
+<chapterId>82a4d8c5-7fd7-4bbb-a97e-e7a2d7cc55a0</chapterId>
 
 
 Ivyiyumviro vy'ugushiramwo amakuru bihuye bigabanywamwo ubwoko bubiri: **ibiharuro vy'uruzi** na **ibiharuro vy'amabuye**. Ariko rero, iyo ntandukaniro iratera ingorane, kuko abantu bakoresha ayo majambo mu buryo budahuye. Mu bice bikeyi bikurikira, nzoshiraho itandukaniro mu buryo mbona ko ari bwo bwiza. Ariko rero, urakwiye kumenya ko abantu benshi bazokoresha ayo majambo mu buryo butandukanye n’ubwo nashizeho.
@@ -1690,7 +1690,7 @@ Mu kubona kwanje, gusobanura ivyangombwa (1) mu buryo bwagutse cane bitanga ubur
 
 ## Ububiko bw'amabanga
 
-<chapterId>2df52d51-943d-5df7-9d49-333e4c5d97b7</chapterId>
+<chapterId>ffb7ba1c-eb20-43a8-a2f1-2b8a54a31044</chapterId>
 
 
 Uburyo bwa mbere **block cipher** itahurwa cane ni nk'ikintu c'intango kuruta cipher y'umugezi: Algorithme nyamukuru ikora ihinduka ry'uburebure ku murongo w'uburebure bukwiye ifashijwe n'urufunguzo. Iyi algorithme ishobora gukoreshwa mu guhingura imigambi yo gupfuka amakuru kumbure n’ubundi bwoko bw’imigambi yo gupfuka amakuru.
@@ -1806,7 +1806,7 @@ Igikoresho ca AES block cipher kizosigurwa mu buryo burambuye mu *Gice ca 5*.
 
 ## Gukuraho urujijo
 
-<chapterId>121c1858-27e3-5862-b0ce-4ff2f70f9f0f</chapterId>
+<chapterId>61e393f2-6764-4214-a871-f7471cb8ea32</chapterId>
 
 
 Ivyo bitera urujijo ku bijanye n’itandukaniro hagati y’ibiharuro vy’amabuye n’ibiharuro vy’uruzi bivyuka kubera ko rimwe na rimwe abantu bazotahura ijambo igiharuro c’amabuye nk’aho ryerekeza canecane kuri *ibiharuro vy’amabuye bifise uburyo bwo gupfuka*.
@@ -1842,7 +1842,7 @@ Muri iki kiganiro, ubu rero mukwiye gutahura *Igishushanyo ca 8*. Itanga icegera
 
 ## Ubutumwa bwo kwemeza kode
 
-<chapterId>19fa7c00-db59-56a0-9654-5350a137939d</chapterId>
+<chapterId>626181b6-f80f-4160-b441-417a79b66ec6</chapterId>
 
 
 Gushiramwo amakuru y’ibanga bifitaniye isano n’ibanga. Ariko kandi, ubuhinga bwo gupfuka amakuru bujanye n’insanganyamatsiko zagutse, nk’ubutungane bw’ubutumwa, ukuri n’ukutavyihakana. Ivyo vyitwa **amakode y’ukwemeza ubutumwa** (MACs) ni imigambi y’ubuhinga bwo gukingira amakuru y’urufunguzo rwo gushigikira ukuri n’ubunyankamugayo mu guhanahana amakuru.
@@ -1886,7 +1886,7 @@ Naho nashizeho itandukaniro hagati y’ukuri kw’ubutumwa n’ubunyankamugayo m
 
 ## Ububiko bwemejwe
 
-<chapterId>33f2ec9b-9fb4-5c61-8fb4-50836270a144</chapterId>
+<chapterId>64c1aef9-0bf8-45c5-92ba-12161d907eac</chapterId>
 
 
 Mu bisanzwe, woshima kwemeza ibanga n’ukuri mu guhanahana amakuru kandi, rero, imigambi yo gushiramwo amakuru n’imigambi ya MAC ikoreshwa hamwe.
@@ -1954,7 +1954,7 @@ Hariho paleti y’ibikorwa vya Hash bishobora gukoreshwa mu guhingura HMAC. Ikor
 
 ## Igihe co guhanahana amakuru gitekanye
 
-<chapterId>c7f7dcd3-bbed-53ed-a43d-039da0f180c5</chapterId>
+<chapterId>16be8853-ef4e-432b-b724-f34e780f2abe</chapterId>
 
 
 Twibaze ko abantu babiri bari mu kiganiro co kuvugana, rero bagarungika ubutumwa bwinshi basubira inyuma.
@@ -2005,7 +2005,7 @@ Igihe co guhanahana amakuru gitangura na Bob yohereza ubutumwa bw'ibanga $C_{0,B
 
 # RC4 na AES
 
-<partId>a48c4a7d-0a41-523f-a4ab-1305b4430324</partId>
+<partId>9948fc0a-59fe-46a4-b324-b12cde16e576</partId>
 
 
 
@@ -2013,7 +2013,7 @@ Igihe co guhanahana amakuru gitangura na Bob yohereza ubutumwa bw'ibanga $C_{0,B
 
 ## Igiharuro c'umugezi wa RC4
 
-<chapterId>5caec5bd-5a77-56c9-b5e6-1e86f0d294aa</chapterId>
+<chapterId>2f83a43a-16e5-4b4e-9d2f-4976f92eba15</chapterId>
 
 
 Muri iki Gice, tuzovuga ku ndondoro y'umugambi wo gupfuka amakuru ukoresheje uruzitiro rw'uruzi rwa kera rw'ubu, RC4 (canke "Rivest cipher 4"), n'uruzitiro rw'uruzi rwa kera rw'ubu, AES. Naho RC4 cipher yaguye mu ntambara nk’uburyo bwo gupfuka, AES ni yo nzira y’ugupfuka y’ubuhinga bwa none. Izo ngero zibiri zikwiye gutanga iciyumviro ciza c’ingene ubuhinga bwo gukingira amakuru bukora munsi y’igipfukisho.
@@ -2163,7 +2163,7 @@ Igihambaye ni uko umurongo w’urufunguzo ukoreshwa na RC4 ukwiye gufatwa nk’u
 
 ## AES ifise urufunguzo rw'ibice 128
 
-<chapterId>0b30886f-e620-5b8d-807b-9d84685ca8ff</chapterId>
+<chapterId>593d6ae3-7887-40d5-b14b-98a580b9a254</chapterId>
 
 
 Nk’uko twabibonye mu kigabane ca mbere, ikigo c’igihugu c’ubuhinga n’ubuhinga (NIST) caragize ihiganwa hagati y’umwaka wa 1997 n’uwa 2000 kugira ngo kimenye ingingo nshasha yo gushiramwo amakuru mu buryo buhuye. Igiharuro ca **Rijndael** ni co cahindutse igiharuro catsinze. Izina ni urukino rw’amajambo ku mazina y’abaremyi b’Ababirigi, Vincent Rijmen na Joan Daemen.
@@ -2377,13 +2377,13 @@ Iciyumviro c’ibikorwa biri inyuma y’ivyo bimenyetso vya Rijndael ni uko biza
 
 # Ububiko bw'ibanga budahuye
 
-<partId>868bd9dd-6e1c-5ea9-9ece-54affc13ba05</partId>
+<partId>20c55ed4-4e45-493a-8bfe-970f332d764c</partId>
 
 
 
 ## Ikibazo nyamukuru co gukwiragiza no kurongora
 
-<chapterId>1bb651ba-689a-5a89-a7d3-0b9cc3b694f7</chapterId>
+<chapterId>4bbc8769-e00d-4d59-8365-c5f491b1217b</chapterId>
 
 
 Nk’uko biri ku bijanye n’ubuhinga bwo gukingira amakuru, imigambi idahuye irashobora gukoreshwa kugira ngo habeho ibanga n’ukwemeza. Ariko rero, mu buryo butandukanye n’ubwo, izo migambi zikoresha urufunguzo rubiri aho gukoresha rumwe: urufunguzo rw’ibanga n’urw’abantu bose.
@@ -2450,7 +2450,7 @@ None, mu myaka ya 1970 vyagenze gute? Bishoboka gute ko dushobora guca tugura ib
 
 ## Amabwirizwa mashasha mu buhinga bwo gukingira amakuru
 
-<chapterId>7a9dd9a3-496e-5f9d-93e0-b5028a7dd0f1</chapterId>
+<chapterId>e0f7950c-bb5a-437e-b27e-8d6878e15291</chapterId>
 
 
 Mu myaka ya 1970, ingorane z’ingenzi zo gukwiragiza n’iz’uburongozi zari zafashe umutima w’umugwi w’abahinga mu vy’ubuhinga bw’amabanga y’Abanyamerika: Whitfield Diffie, Martin Hellman na Ralph Merkle. Kubera ko benshi mu bagenzi babo bariko barakekeranya cane, baragira ubwoba bwo kurondera umuti wo kubitorera umuti.
@@ -2548,7 +2548,7 @@ Dushingiye ku nkuru zabo bwite n’iza GCHQ, ni James Ellis yabanje gutegura ici
 
 ## Ububiko butaringaniye n'ukwemeza
 
-<chapterId>2f6f0f03-3c3d-5025-90f0-5211139bc0cc</chapterId>
+<chapterId>a36ea521-ecee-476d-ade9-57f09bed2469</chapterId>
 
 
 Incamake y'**ugushiramwo amakuru ataco akora** bifashijwe na Bob na Alice iraboneka mu *Igishushanyo 1*.
@@ -2668,7 +2668,7 @@ Ugutanga ivy’ingenzi ubu vyaciye vyoroshe cane ku bikoresho vya Jim’s Sporti
 
 ## Ibikorwa vya Hash
 
-<chapterId>ea8327ab-b0e3-5635-941c-4b51f396a648</chapterId>
+<chapterId>49d6c9a5-5f18-4ec4-8c83-e02fc60941ff</chapterId>
 
 
 Ibikorwa vya Hash biri hose mu vy’ubuhinga bwo gukingira amakuru. Si imigambi y’uburinganire canke y’uburinganire, ariko igwa mu rwego rw’ubuhinga bw’ibanga mu buryo bwayo bwite.
@@ -2779,14 +2779,14 @@ Naho ubushobozi bwo guhangana n’ugutomboka n’ukwihisha ari vyo bintu nyamuku
 
 # Ubuhinga bwa RSA
 
-<partId>864dca42-2a8d-530f-bb94-2e1f68b3f411</partId>
+<partId>a8fb0a0b-747f-422a-a464-3c84979efa43</partId>
 
 
 
 
 ## Ikibazo c'ugutanga
 
-<chapterId>a31a66e4-52ea-539c-9953-4769ad565d7e</chapterId>
+<chapterId>406b1681-f8bf-4a03-b555-c84ac4dee44a</chapterId>
 
 
 Naho ubuhinga bwo gukingira amakuru buringaniye busanzwe busanzwe ku bantu benshi, ivyo si ko biri ku buhinga bwo gukingira amakuru butaringaniye. Naho woba ushobora kuba uryohewe n’insobanuro yo ku rwego rwo hejuru yatanzwe mu bice vyabanje, ushobora kuba uriko uribaza neza na neza ibikorwa vy’inzira imwe n’ingene nyavyo bikoreshwa mu kwubaka imigambi idahuye.
@@ -2918,7 +2918,7 @@ $$ \frac{2^{1024}}{\LN(2^{1024})}
 
 ## Ibisubizo vy'imibare
 
-<chapterId>23cd2186-8d97-5709-a4a7-b984f1eb9999</chapterId>
+<chapterId>a5528852-d9cc-4f94-a15d-02f11081e026</chapterId>
 
 
 Ikibabaje, ingorane y’ugukorana n’ibindi ntishobora gukoreshwa ataco ihinduye ku migambi y’ubuhinga bwo gukora amakuru y’ibanga. Ariko rero, turashobora gukoresha ingorane ikomeye cane ariko ifitaniye isano n’ivyo: ingorane ya RSA.
@@ -3106,7 +3106,7 @@ Ubu turafise ibisubizo vyose vy’imibare bikenewe kugira ngo tuvuge neza ingora
 
 ## Ubuhinga bwa RSA
 
-<chapterId>0253c2f7-b8a4-5d0e-bd60-812ed6b6c7a9</chapterId>
+<chapterId>b230194d-5774-49fe-9d19-53e345453c34</chapterId>
 
 
 Ubu turiteguye kuvuga ingorane ya RSA. Twibaze ko urema umugwi w’ibihinduka birimwo $p$, $q$, $N$, $\phi(N)$, $e$, $d$, na $y$. Hamagara iyi nkuru $\Pi$. Iremwa gutya:
@@ -3241,6 +3241,6 @@ Naho biri ukwo, mu kwongerako ubukerebutsi bukeyi, ingorane ya RSA irashobora gu
 
 ## Iciyumviro
 
-<chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
+<chapterId>97ce180b-5092-45eb-a160-57fc52917567</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

@@ -27,7 +27,7 @@ Allpool olev skeem illustreerib kahe kulureaga portfelli toimimist:
 See toiming võimaldab seadistada erinevaid konfiguratsioone, sealhulgas :
 
 
-- Pärimis- (või pärimis-) plaan, mis võimaldab pärijatel kasutaja surma korral raha tagasi saada. Lisateavet selle teema kohta soovitame lugeda [4. osa] (https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) kursusest BTC102.
+- Pärimis- (või pärimis-) plaan, mis võimaldab pärijatel kasutaja surma korral raha tagasi saada. Lisateavet selle teema kohta soovitame lugeda [4. osa] (https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/dcec2c9c-f5d9-4d47-977d-d21c5bff05cb) kursusest BTC102.
 - Tugevdatud varukoopia koos taastamisajaga, mis annab kasutajale võimaluse kasutada oma rahakotti, ilma et ta peaks hoidma vastavat salajast lauset ja riskima selle vargusega, näiteks sissemurdmise ajal.
 - Turvavõrk inimestele, kes alustavad Bitcoiniga: nad haldavad oma rahakotti ise ja nende "eestkostja" (näiteks sugulane) jätab endale õiguse oma raha teatud aja möödudes tagasi saada.
 - Mitme osapoolega allkirjastamise skeem (*multisig*), mille nõuded vähenevad aja jooksul, et tulla toime ühe või mitme osaleja, näiteks ettevõtte partnerite kadumisega.

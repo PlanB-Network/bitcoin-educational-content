@@ -16,7 +16,7 @@ Ryakozwe na Alekos na Bas, kandi ryahinduwe na melontwist na asi0, iri somo rire
 # Imenyekanisha
 
 
-<partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
+<partId>541d6444-caf8-4e5b-80c3-b97f4d883d57</partId>
 
 
 ## Incamake y'amashure
@@ -57,7 +57,7 @@ Ni mwiteguye kumenya neza BTCPay Server no gukura ubucuruzi bwanyu? Reka tugende
 ## Ivyiza vy'umwanditsi Bitcoin na BTCPay Server
 
 
-<chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
+<chapterId>f0645534-c825-40fb-a190-e24358e8accc</chapterId>
 
 
 Reka dutangure dutahuye ico BTCPay Server ari co n’inkomoko yayo. Turaha agaciro uguseruka n’ingingo mfatirwako zimwe zimwe kugira ngo umuntu agire icizigiro mu kibanza ca Bitcoin.
@@ -113,7 +113,7 @@ Ishirahamwe ryitwa BTCPay Server Foundation, ryatumye Alekos na Bas bandika iryo
 ## Intangamarara ya Bitcoin
 
 
-<chapterId>5c0bc234-c188-5b4a-94d5-adee87a120e2</chapterId>
+<chapterId>ba6af1e5-86f1-4139-a549-df2367d6319a</chapterId>
 
 
 ### Gutahura Bitcoin biciye mu myimenyerezo yo mw'ishure
@@ -217,7 +217,7 @@ Abaguzi bagura ikintu mw’iduka bafise Bitcoin.
 ## Gusuzuma ubumenyi
 
 
-<chapterId>1461f064-933d-50ea-8935-324b68ec5d5f</chapterId>
+<chapterId>c8cec6af-1e57-4a0e-a86a-7dc35f5c2350</chapterId>
 
 
 ### KA Ikiganiro co mw'ishure
@@ -248,13 +248,13 @@ Blockchain, Ibikorwa, Gukoresha Kabiri, Ikibazo c’Abajenerali b’Abanyabizant
 # Kumenyesha Serveri ya BTCPay
 
 
-<partId>9c8a2d0c-9ba1-5c39-874c-f9eaf1bba663</partId>
+<partId>8a8bbf80-1322-4ad0-b49c-9c18b969236d</partId>
 
 
 ## Gutahura igicapo co kwinjira muri Serveri ya BTCPay
 
 
-<chapterId>14aad54c-9bd8-54f2-9455-178b8ae63408</chapterId>
+<chapterId>2d35d204-1c04-418f-91eb-a7a547ddc210</chapterId>
 
 
 ### Gukorana na Serveri ya BTCPay
@@ -355,7 +355,7 @@ Tanga impamvu zituma gukoresha Demo Server ari iciyumviro kibi ku ntumbero zo gu
 ## Gucungera konti y'ukoresha
 
 
-<chapterId>b58ca6ee-b7fc-5e81-a6aa-c8ff212b4c55</chapterId>
+<chapterId>7f2dcbc7-ba0b-4515-bf6d-d23ab19c1831</chapterId>
 
 
 ### Ubuyobozi bwa konti kuri Serveri ya BTCPay
@@ -475,7 +475,7 @@ Sigura ingene 2FA ishingiye kuri app ifasha gukingira konti yawe.
 ## Gukora ububiko bushasha
 
 
-<chapterId>463b3634-b49f-5512-a711-3b2e096fc2e0</chapterId>
+<chapterId>6e8d48b0-b9b6-4fbd-8961-5cde37109c0d</chapterId>
 
 
 ### Rema ububiko bwawe
@@ -561,13 +561,13 @@ Muri iki gice, mwarize:
 # Intangamarara yo gukingira imfunguruzo za Bitcoin
 
 
-<partId>25da22d8-fd37-51c5-af2a-58b9f3b046b2</partId>
+<partId>dd0975de-76e6-4255-a3b2-e454009d1aa5</partId>
 
 
 ## Gutahura Uruvyaro rw'Imfunguruzo za Bitcoin
 
 
-<chapterId>d162735b-847b-578e-83b8-a044ab703ec5</chapterId>
+<chapterId>8a6164a5-aea6-4348-aa71-135d03de98bc</chapterId>
 
 
 ### Ni igiki kijanye n’uguhingura imfunguruzo za Bitcoin?
@@ -640,7 +640,7 @@ Sigura akamaro ko gukoresha amaderesi mashasha ku bijanye n’ugucuruza kwose ug
 ## Gukingira imfunguruzo hakoreshejwe Hardware Wallet
 
 
-<chapterId>c54a6d61-5a43-5fdb-93ae-c6750de9c612</chapterId>
+<chapterId>94cf5f31-7292-4608-b10e-8e46b1ebd627</chapterId>
 
 
 ### Kubika imfunguruzo za Bitcoin
@@ -701,7 +701,7 @@ Muri iki gice, mwarize:
 ## Gukoresha imfunguruzo zawe za Bitcoin
 
 
-<chapterId>bff488de-5052-56e6-b696-97e896f762ae</chapterId>
+<chapterId>ae5aafd5-28b7-4ef7-8ebc-3ac5f19769c7</chapterId>
 
 
 ### Serveri ya BTCPay Wallet
@@ -1039,7 +1039,7 @@ Sigura uburyo bwo gutanga imfunguruzo n’umugambi wo kuzikingira, hamwe n’ivy
 ## BTCPay Serveri Umuravyo Wallet
 
 
-<chapterId>1bbece7e-0197-57e6-a93a-561cf384d946</chapterId>
+<chapterId>ca874f9a-4f97-44d5-9bf4-57c8b17d25bf</chapterId>
 
 
 Iyo umuyobozi wa server atanga urugero rushasha rwa Serveri ya BTCPay, barashobora gushinga ugushirwa mu ngiro kwa Lightning Network, nka LND, Core Lightning, canke Eclair; reba Igice co Gutunganya Serveri ya BTCPay kugira ngo ubone amabwirizwa arambuye yo gushiramwo.
@@ -1289,13 +1289,13 @@ Sigura zimwe mu nzira zitandukanye zo gufatanya Lightning Wallet n’iduka ryawe
 # Serveri ya BTCPay Interface
 
 
-<partId>25e88b81-e1ab-515f-a035-09f2a3075556</partId>
+<partId>76b4a36d-9cf8-469d-a763-a75cc38c812a</partId>
 
 
 ## Incamake y'urubaho
 
 
-<chapterId>410ff28b-a272-5c91-93e0-48d5b28c53ab</chapterId>
+<chapterId>8bd1c31e-a487-4c32-b3af-bcecc7117a80</chapterId>
 
 
 Server ya BTCPay ni porogaramu y’ibice. Ariko rero, hariho ingingo ngenderwako Server ya BTCPay yose itegerezwa kwubahiriza, kandi izo ngingo ngenderwako zizogenga imigenderanire hagati y’Umuyobozi n’abakoresha. Gutangura n’Ikigereranyo c’Ivyuma. Igihugu nyamukuru co kwinjiramwo ca Server ya BTCPay yose umaze kwinjira.Dashboard itanga icegeranyo c’ingene iduka ryawe rikora, amahera Wallet iriho ubu, n’ibikorwa vyakozwe mu misi 7 iheze. Kubera ko ari ukubona kw'ibice, Plugins zishobora gukoresha uku kubona ku nyungu zazo no kurema ama tiles yabo ku Dashboard. Kuri iki cigwa, tuzovuga gusa ku bikoresho bisanzwe n’ibikoresho, hamwe n’ivyo bibona, muri BTCPay Server yose.
@@ -1419,7 +1419,7 @@ Urutonde rw'ama tiles menshi mu bwenge nk'uko ushobora kuva ku Dashboard.
 ## Serveri ya BTCPay - Amagenamiterere y'ububiko
 
 
-<chapterId>e8faef7b-278d-550e-a511-bc3a442daf64</chapterId>
+<chapterId>00ff7c8c-46f9-4d88-92cc-c63e4ff348f9</chapterId>
 
 
 Muri porogarama ya BTCPay Server, turazi ubwoko bubiri bw’imiterere. Amategeko yihariye y’Iduka rya Serveri ya BTCPay, ubuto bw’amategeko buboneka mu murongo w’ibubamfu munsi y’Ikibanza c’Ibikoresho, n’amategeko ya BTCPay Server, uboneka hasi mu murongo w’ibitegekanijwe, hejuru cane ya Konti. Ivyagezwe vya Serveri ya BTCPay bishobora kurabwa gusa n'abarongozi ba Serveri.
@@ -1874,7 +1874,7 @@ Sigura amahitamwo amwamwe woshobora guhitamwo mu Kugaragara > Amategeko ya Invoi
 ## Serveri ya BTCPay - Amagenamiterere ya Serveri
 
 
-<chapterId>1dd858a2-49ea-586b-9bc1-75a65f508df6</chapterId>
+<chapterId>07022d6d-594f-46d7-8363-c8c16a561f4f</chapterId>
 
 
 BTCPay Server igizwe n’ibintu bibiri bitandukanye bigaragara. Imwe ni iyo gushinga imiterere y’Iduka, iyindi na yo ni iyo gushinga imiterere ya Server. Ivyo vya nyuma biboneka ku barongozi ba server gusa atari ku bafise ububiko. Abarongozi ba server barashobora kwongerako abakoresha, guhingura uruhara rw’abantu, gutunganya server ya imeyili, gushinga amategeko, gukora ibikorwa vyo kwitaho, gusuzuma ibikorwa vyose bifatanye na Server ya BTCPay, gushiramwo amadosiye kuri server, canke gusuzuma Inyandiko.
@@ -2440,7 +2440,7 @@ Sigura ibikorwa bimwebimwe umuyobozi yoshobora gukora mu buryo busanzwe mu gice 
 ## Serveri ya BTCPay - Ukwishyura
 
 
-<chapterId>e2b71ff9-3f4f-5e71-9771-8e03fbbef00f</chapterId>
+<chapterId>1f6899d4-85c1-41fe-8f23-4a7bec44e9c2</chapterId>
 
 
 Invoice ni inyandiko uwugurisha atanga umuguzi kugira ngo akureho amahera.
@@ -2786,7 +2786,7 @@ Ni gute amafaranga y’ugukwegakwega ashobora kwaguka ku vyo mu bisanzwe bishobo
 ## BTCPay Serveri mburabuzi
 
 
-<chapterId>7d673dc4-bd5d-5411-819b-f135f1d86636</chapterId>
+<chapterId>2d994561-7f8d-4862-8b9f-cee7d81df6f2</chapterId>
 
 
 ### Ibishirwamwo mburabuzi na porogaramu
@@ -3273,13 +3273,13 @@ Ni ibihe bikoresho bitatu vyubatswemwo biza bimenyerewe na BTCPay Server? Mu maj
 # Gutunganya Serveri ya BTCPay
 
 
-<partId>ff38596c-7de3-5e5c-ba50-9b9edbbbb5eb</partId>
+<partId>c3a8bd83-0676-4388-87b2-325d67f43d9d</partId>
 
 
 ## Gutahura kw'ishimikiro kwo gushiramwo Serveri ya BTCPay ku bidukikije vya LunaNode
 
 
-<chapterId>d0a28514-ffcf-529b-9156-29141f0b060a</chapterId>
+<chapterId>f0f934af-eb3c-4d86-bd7b-3fee8fb7c10e</chapterId>
 
 
 ### Gushiramwo Serveri ya BTCPay ku Env. (Ukwezi)
@@ -3418,7 +3418,7 @@ Sigura bimwe mu bitandukanye hagati yo gukoresha instance ya BTCPay Server kuri 
 ## Gushiramwo Server ya BTCPay ku bidukikije vy'umuriro
 
 
-<chapterId>11c7d284-b4d2-5542-872c-df9bd9c1491b</chapterId>
+<chapterId>ef790587-4c73-4311-96f1-5a9219b9a7fd</chapterId>
 
 
 Uzomenya Voltage.cloud nk'umutanga ubucuti, umenye intambwe za mbere zo gukoresha Server yawe ya BTCPay, kandi umenye ingene ukoresha Lightning Network. Tumaze guca mu ntambwe zose, urashobora gukoresha webshop canke urubuga rwa crowdfund rwemera Bitcoin!
@@ -3491,7 +3491,7 @@ Ni ibihe bintu nyamukuru bitandukanye hagati y’imiterere ya Voltage na LunaNod
 ## Gushiramwo Serveri ya BTCPay ku nzira y'umutaka
 
 
-<chapterId>3298e292-6476-5fe0-836c-7fa021348799</chapterId>
+<chapterId>bdd94bfc-c8da-4c8b-8b0e-ed4f9a5dd42e</chapterId>
 
 
 Iyo intambwe zirangiye, urashobora kwemera kwishura umuravyo ku bubiko bwawe bwa BTCPay ku rubuga rwawe rwo mu karere. Ivyo bizokora kandi iyo ukoresha umutaka mu restora canke mu bucuruzi. Niba ushaka gufatanya iri duka n’urubuga rwa bose, kurikiza umwimenyerezo w’Iterambere kugira ngo ugaragaze umutaka wawe ku bantu bose.
@@ -3580,20 +3580,20 @@ Ni gute setup kuri Umbrel itandukanye n’amahitamwo abiri ya hosted ya kera?
 # Igice ca nyuma
 
 
-<partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
+<partId>5449bff6-f410-4f2a-a373-7b915bb6d726</partId>
 
 
 
 
 ## Amasuzuma n'Ibipimo
 
-<chapterId>d90bb93d-b894-551e-9fd6-6855c739a904</chapterId>
+<chapterId>bf665be7-1be0-4d54-b8c6-64fbb40c9190</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Insozero y'amashure
 
 
-<chapterId>c07ac2a5-f97e-5c57-8a80-4955b48128d4</chapterId>
+<chapterId>bbda2002-757d-4dad-8c8a-ff95cec77077</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

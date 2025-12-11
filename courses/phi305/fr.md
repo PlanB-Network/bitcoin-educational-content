@@ -14,10 +14,10 @@ Découvrez comment les idées radicales du philosophe du XVIIe siècle Baruch de
 Apprenez des outils pratiques issus de l'éthique de Spinoza pour comprendre les fondements philosophiques de bitcoin et augmenter votre capacité d'action. Prêt à explorer deux des plus grands instruments d'émancipation humaine de l'histoire ?
 +++
 # Introduction 
-<partId>80b76189-afab-5295-a8d3-ba8f6fe7a5e8</partId>
+<partId>d76a6374-a016-4fb1-9f0b-4cd7301b29ff</partId>
 
 ## Introduction du cours
-<chapterId>99af4992-fd6c-5142-b168-d927b251574b</chapterId>
+<chapterId>6f03a6af-6f93-4e00-bef4-1f6b4c8d4b84</chapterId>
 
 :::video id=1def60bc-1d39-4e49-9b08-fd05b7a0d49b:::
 
@@ -74,7 +74,7 @@ Même si, vous le savez, les choses sont actuellement en train d’évoluer dans
 
 
 ## Présentation de Baruch de Spinoza
-<chapterId>f53a9cfd-326e-5b73-a766-3ef2f07c5a49</chapterId>
+<chapterId>4f21154c-5cc4-40ce-b31b-419b1556f599</chapterId>
 
 :::video id=5fac3ddc-c472-4c64-8186-46a8f317e389:::
 
@@ -127,10 +127,10 @@ Que ces moyens soient d’ordre philosophiques ou technologiques, comme l’est 
 
 
 # Les œuvres majeures, Éthique et politique
-<partId>d7d7e9a1-005b-519c-b587-137435e46344</partId>
+<partId>a5ada457-82d5-46c6-9190-5213a5b878e0</partId>
 
 ## L’Éthique et la recherche de la liberté
-<chapterId>4cc66e25-335c-591d-9b78-83e5664bbbbc</chapterId>
+<chapterId>706ff27d-9191-4bae-a9f7-723a7d322be1</chapterId>
 
 :::video id=065c5091-69e1-412f-acce-c763ec31d3b1:::
 
@@ -185,7 +185,7 @@ Ou l’art de faire de bons choix pour nous extraire des servitudes qui nous enf
 Autrement dit, « à lutter pour leur servitude comme s’ils luttaient pour leur liberté ».
 
 ## Le Traité Théologico-politique
-<chapterId>84b0187e-1050-5d44-a536-80554896e828</chapterId>
+<chapterId>90dd43b9-b249-4f8d-9525-70ac6d89822d</chapterId>
 
 :::video id=c1efc97e-1e96-4b37-894c-9a19794d6b52:::
 
@@ -240,10 +240,10 @@ Et s’il ne s’agissait bien sûr pas d’empêcher les tremblements de terre 
 C’est pourquoi le 18e siècle des Lumières, grâce à l’exercice de la raison, aux sciences et à la technologie, est le siècle du progrès. Autrement dit, le progrès vu comme outil de liberté.
 
 # La révolution spinoziste, les trois illusions
-<partId>f5d45c2b-28da-527a-ab20-dd255e9a9e0d</partId>
+<partId>8b594d48-8c78-449a-bbe6-9a657bafcb1b</partId>
 
 ## Une nouvelle définition de la Nature et de l’être humain
-<chapterId>3e6599e3-5b29-50a8-a67d-d0386da5d65d</chapterId>
+<chapterId>add34f14-7165-48ae-8a45-a4712f3c622d</chapterId>
 
 :::video id=b6d2c035-8848-4da6-9da9-be3b70be0f38:::
 
@@ -291,7 +291,7 @@ Autrement dit qu’ils seraient doués du libre arbitre, une croyance illusoire 
 
 
 ## L’illusion du Libre arbitre
-<chapterId>f147a914-cb64-5927-b305-26691930bca3</chapterId>
+<chapterId>e1a2f884-887a-4350-95e3-2dadd901757d</chapterId>
 
 :::video id=b59da795-ba19-4643-9672-36c9e7953a42:::
 
@@ -356,7 +356,7 @@ Mais la réalité est tout autre, et la confusion vient plutôt d’un problème
 Enfin, si la croyance au libre arbitre est une illusion dont il est extrêmement difficile de s’extraire, c’est qu’elle renvoie à une autre illusion qui l’alimente, l’illusion des causes finales que je vous propose d’étudier dans le prochain chapitre.
 
 ## L’illusion des causes finales
-<chapterId>da2a7fb1-f1e9-5b56-822d-c73770de749d</chapterId>
+<chapterId>d9755d46-9ed5-435f-b097-9e6ca2e435dc</chapterId>
 
 :::video id=a0127fe7-a4cb-4a1c-8af4-f11c40b4a3d7:::
 
@@ -410,7 +410,7 @@ Merci de votre attention et je vous retrouve dans le prochain chapitre.
 
 
 ## L’illusion théologique
-<chapterId>93554156-5e62-526d-9b71-49c47be916af</chapterId>
+<chapterId>da066e60-eb47-4b0d-b838-358619e7b9c2</chapterId>
 
 :::video id=9c490cc1-3d29-4ca7-9464-1a701bb91ba7:::
 
@@ -470,10 +470,10 @@ Pour Spinoza, un État démocratique qui permet la liberté de penser est donc l
 
 
 # De la théorie des affects à Bitcoin
-<partId>82e69d4f-a94f-5978-bcb8-8a7b4651bcca</partId>
+<partId>80d9e139-0107-4893-abdf-76d1eca1eb8e</partId>
 
 ## La question du mal chez Spinoza
-<chapterId>1ce64576-2688-5757-a119-57cc3a1076c0</chapterId>
+<chapterId>de8a4e24-c870-4c09-8731-0aaec2bdf1f9</chapterId>
 
 :::video id=9c490cc1-3d29-4ca7-9464-1a701bb91ba7:::
 
@@ -517,7 +517,7 @@ Merci de votre attention et je vous retrouve dans la prochaine vidéo.
 
 
 ## La théorie des affects
-<chapterId>3bb011ce-6f0c-51a6-b41f-25a3b5b7768e</chapterId>
+<chapterId>18458179-0fcc-4739-b3dd-5f1088003692</chapterId>
 
 :::video id=bb427cc6-e54d-4b44-bd6d-281ba421001a:::
 
@@ -578,7 +578,7 @@ Et c’est la raison pour laquelle on dit souvent du spinozisme qu’elle est «
 
 ## La liberté, l’école autrichienne d’économie et la philosophie des cypherpunks 
 
-<chapterId>b54f2532-460c-11f0-a248-93ff24ef1d57</chapterId>
+<chapterId>a75a29ff-3eda-4ace-a796-dec05e05f59a</chapterId>
 
 :::video id=5f49d5b4-e15f-475b-b40d-07464c08ca4d:::
 
@@ -631,21 +631,21 @@ C’est d’ailleurs le dernier parallèle que je ferai entre le spinozisme et B
 
 # Section finale
 
-<partId>70a5a3c8-6c88-11f0-8753-db07e26dcaf4</partId>
+<partId>ebce6325-bfbe-4f46-9180-a2e5c9614bbd</partId>
 
 ## Avis & Notes
 
-<chapterId>7945c38c-6c88-11f0-a73f-0f7cdf99f53f</chapterId>
+<chapterId>eb8dc0c6-0f1a-41a9-8ddf-8b997fc47746</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Examen final
 
-<chapterId>a557fd32-6c88-11f0-96ff-cfa532cf76a0</chapterId>
+<chapterId>de436c33-4d48-46cd-a986-da0a614af400</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Conclusion
 
-<chapterId>ae04ab38-6c88-11f0-a496-3be47119e6b6</chapterId>
+<chapterId>564ecfb1-a694-462c-ba0b-8cd026bc2762</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
 
 

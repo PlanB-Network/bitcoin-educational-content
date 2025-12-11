@@ -51,11 +51,11 @@ Siap untuk menemukan kembali akar Prancis dari liberalisme ekonomi? Mari kita mu
 
 # Para Pelopor
 
-<partId>91565b10-6010-53cb-a2f4-9c2306c7ef8c</partId>
+<partId>c77622e2-0e20-4de1-a55d-380a454185bc</partId>
 
 ## Latar Belakang Sejarah
 
-<chapterId>6a5fd101-6dfd-5d77-96c7-9e1aa4a19758</chapterId>
+<chapterId>eb7344f4-ec44-43ae-83e5-e764e22b7c11</chapterId>
 
 Pada awal abad ke-18, Prancis berada dalam kondisi yang mengkhawatirkan. Penduduk pedesaan hampir tidak menghasilkan cukup uang untuk bertahan hidup dan dikenai pajak yang tinggi.
 
@@ -117,7 +117,7 @@ Ini adalah empat prinsip yang memandu pemerintah Prancis selama beberapa dekade,
 
 ## Vauban
 
-<chapterId>ee9c1e0e-96cc-5026-a5e2-963d68122786</chapterId>
+<chapterId>6b77468d-b8e3-47d2-b304-c290eea1c7d9</chapterId>
 
 Saat ini, ketika tekanan pajak di negara kita terus meningkat dan mengancam untuk mencekik kekuatan ekonomi nasional, suara-suara yang mendukung perubahan pun bermunculan. Disadari atau tidak, seruan reformasi ini sering kali menggemakan karya para ekonom Prancis yang sejak abad ke-17 telah mengkritik sistem pajak negara ini sebagai sistem pajak yang kacau, lalim, dan berlebihan.
 
@@ -161,7 +161,7 @@ Sesaat sebelum kematiannya, ide Vauban diadopsi oleh para menteri Louis XIV. Nam
 
 ## Boisguilbert
 
-<chapterId>200149c6-b5fc-566e-ab0e-bafb1c3fed3c</chapterId>
+<chapterId>e5dd73e0-e48e-43e7-a9af-d651414cfc6b</chapterId>
 
 Hanya sedikit ekonom Prancis dari masa lalu yang menikmati pengakuan di tanah air mereka hari ini setara dengan kontribusi mereka, dan Boisguilbert tidak terkecuali.
 
@@ -199,7 +199,7 @@ Boisguilbert bahkan mengkritik "jiwa-jiwa baik", sebutannya, yaitu mereka yang b
 
 ## Cantillon
 
-<chapterId>bc206d41-6a64-5688-a489-40fcfa0e5397</chapterId>
+<chapterId>7a6654fe-874e-45ca-a98f-1f3d17c09f24</chapterId>
 
 Richard Cantillon, penulis "Essay on the Nature of Trade in General" (ditulis sekitar tahun 1730, diterbitkan tahun 1755), dianggap sebagai salah satu pelopor ilmu ekonomi modern. Dalam bukunya, History of Economic Thought, ekonom Murray Rothbard bahkan menyebut Cantillon sebagai pendiri ekonomi modern.
 
@@ -241,11 +241,11 @@ Dengan teori tentang dampak inflasi ini, Cantillon memberi kita jawaban untuk se
 
 # Para Pembaharu dan Pemikir di Awal Abad ke-18
 
-<partId>1f7b50d4-ce93-5db3-8396-43c1fa5419ff</partId>
+<partId>c4403d75-884e-4922-8be7-5121e2709d6a</partId>
 
 ## Kepala Biara Saint-Pierre
 
-<chapterId>13478fe2-4c12-593c-a410-54c2cfb7ef7f</chapterId>
+<chapterId>756469cd-d78c-49aa-926f-7c134e8aa4c6</chapterId>
 
 Dari semua penulis yang kita pilih untuk dimasukkan dalam jajaran pemikir laissez-faire Prancis abad ke-18, Kepala Biara Saint-Pierre tidak diragukan lagi adalah yang paling terabaikan.
 
@@ -285,7 +285,7 @@ Dia juga menekankan, sebelum Vincent de Gournay melakukannya, tentang nilai tena
 
 ## Marquis d'Argenson
 
-<chapterId>e9960ab4-72ec-5afd-8e97-bf89c83b62bc</chapterId>
+<chapterId>3f0c9654-a6f7-47db-8859-836c592127db</chapterId>
 
 Marquis d'Argenson adalah pendiri doktrin laissez-faire yang terlupakan.
 
@@ -331,7 +331,7 @@ Mengenai pertanyaan tentang perdagangan kebutuhan pokok (subsistence), d'Argenso
 
 ## Vincent de Gournay
 
-<chapterId>e8ae40dc-7450-552f-9ddc-9e02936cf425</chapterId>
+<chapterId>7446cc6a-9631-49ca-ac85-c477537b3a8d</chapterId>
 
 Vincent de Gournay adalah salah satu perwakilan awal laissez-faire di Prancis, dan salah satu pendukung awalnya di lingkaran administrasi publik dan intelektual. Karena alasan itu, ia layak mendapatkan pengakuan yang jauh lebih besar dalam sejarah pemikiran ekonomi daripada yang biasanya ia terima. Saya telah mencoba menyoroti kontribusinya dalam sebuah buku baru-baru ini.
 
@@ -373,7 +373,7 @@ Beberapa tahun kemudian, Turgot, yang kelak menjadi menteri di bawah Louis XVI, 
 
 ## Kelompok Gournay
 
-<chapterId>b86ba6bd-8f3a-5d8f-b098-4d0413f00deb</chapterId>
+<chapterId>6e2a0dbe-3afb-4071-b5f8-ab400da3e891</chapterId>
 
 Dalam sejarah awal ilmu ekonomi, kecenderungan sejarah adalah menyoroti mazhab pemikiran pertama, yaitu Fisiokrat, yang dipimpin oleh François Quesnay dan murid-muridnya. Namun, hampir satu dekade sebelum kemunculan mereka, ada kelompok lain, yang kurang formal tetapi sama pentingnya, yang berpusat di sekitar ekonom Vincent de Gournay.
 
@@ -422,7 +422,7 @@ Dan memang, pada tahun 1750-an, isu-isu ekonomi menjadi populer. Voltaire terken
 
 ## Mirabeau
 
-<chapterId>2d2f802b-e3b6-556f-9025-a1b1dc4409ca</chapterId>
+<chapterId>5a11f48f-03ee-4c58-876e-f1c49fbb377a</chapterId>
 
 Prancis memiliki dua tokoh terkenal bernama Mirabeau, ayah dan anak, tetapi sang putra lah yang benar-benar tercatat dalam sejarah. Sebagai orator revolusioner dan salah satu tokoh sentral dalam Revolusi Prancis, namanya tetap abadi.
 
@@ -475,7 +475,7 @@ Sepanjang hidupnya, Mirabeau tetap menjadi penulis yang tak kenal lelah. Ia menu
 
 ## Quesnay
 
-<chapterId>7a35f20b-5ea0-544d-b290-bcd9c6f7f11a</chapterId>
+<chapterId>6025f746-08fe-4406-8793-a0f5b9d64a45</chapterId>
 
 François Quesnay adalah salah satu ekonom Prancis yang paling terkenal.
 
@@ -528,11 +528,11 @@ Buku ini mengumpulkan kontribusi utama Quesnay. Di dalamnya dipaparkan cita-cita
 
 # Sekolah Fisiokratik
 
-<partId>27af82c1-ad82-5c3b-8ce9-c674b67bbf7c</partId>
+<partId>d8a123a2-c47e-4aa4-873b-1b5a75fe313b</partId>
 
 ## Sejarah Fisiokrat
 
-<chapterId>4236ff8b-b53a-59e7-92c0-f96f9afa1c00</chapterId>
+<chapterId>b039837d-d765-43fc-a3dd-e492d7caf4c3</chapterId>
 
 Fisiokrasi menjadi populer di Prancis, bahkan di seluruh Eropa, hanya selama kurang lebih satu dekade. Setelah periode perkembangan yang panjang, doktrin ini mulai menonjol pada pertengahan tahun 1760-an. Saat Turgot berkuasa pada tahun 1776, gerakan ini telah kehilangan popularitasnya, dan menteri tersebut menyembunyikan dukungannya terhadap mazhab Quesnay.
 
@@ -572,7 +572,7 @@ Fisiokrasi terus memberikan pengaruh hingga Revolusi. Di Prancis, pertama melalu
 
 ## Dasar-dasar doktrin Fisiokrat
 
-<chapterId>4dbe5436-0578-57c2-b054-03ed00aa091a</chapterId>
+<chapterId>57beea84-ff70-4757-b5f4-9f2d18deec18</chapterId>
 
 Istilah Fisiokrasi, yang berarti "pemerintahan secara alamiah," diciptakan oleh Dupont de Nemours dan digunakan sebagai judul untuk _Physiocracy_, kumpulan artikel oleh Quesnay yang diterbitkan pada tahun 1768.
 
@@ -641,7 +641,7 @@ Penentang keras perbudakan, kaum Fisiokrat juga adalah pecinta damai yang hebat.
 
 ## Pencapaian dan pengaruh Fisiokrat
 
-<chapterId>5b911105-796a-5e2e-a501-c7a364fc758e</chapterId>
+<chapterId>9ebd22fa-9f00-4148-871b-7e12874b18c0</chapterId>
 
 Seperti yang kita lihat dalam bab pertama dari tiga bab yang dikhususkan untuk Kaum Fisiokrat, para pengikut Quesnay sangat populer di Prancis selama kurang lebih satu dekade. Antusiasme terhadap ide-ide mereka terwujud baik pada masa mereka dan berlanjut hingga akhir abad ini. Di sini, kita akan melihat beberapa pencapaian mereka dan pengaruh yang mereka berikan pada penerus mereka di bidang pemikiran ekonomi.
 
@@ -687,7 +687,7 @@ Sayangnya, Quesnay meninggal dua tahun sebelum buku Smith diterbitkan, dan Smith
 
 ## Dupont de Nemours
 
-<chapterId>6d585e0f-93b8-5b0a-a0a8-7f6e4a5bc68e</chapterId>
+<chapterId>be6cf3ea-a927-4407-b232-98c703a3a4ed</chapterId>
 
 Di Amerika Serikat, kita akrab dengan perusahaan DuPont, juga dikenal sebagai "E.I. du Pont de Nemours and Company," sebuah perusahaan multinasional di bidang kimia dan biologi.
 
@@ -733,11 +733,11 @@ Meskipun hidupnya penuh peristiwa, di mana ia menerbitkan lusinan artikel, brosu
 
 # Pencerahan dan Ekonomi Politik
 
-<partId>d1c885ad-7cb1-5f81-816c-be312719d9f8</partId>
+<partId>c8a1fe43-bdb6-48d8-9542-4d086cdffab3</partId>
 
 ## Voltaire dan para filsuf
 
-<chapterId>16bcf7bf-dad4-5113-8c64-2800f04ff07b</chapterId>
+<chapterId>57749874-730e-452d-a53d-d3297eb81e9f</chapterId>
 
 Abad ke-18 di Prancis menyaksikan kemunculan ilmu ekonomi sebagai sebuah pengetahuan dan mazhab pemikiran ekonomi pertama: Fisiokrasi. Adam Smith menimba ilmu ekonomi selama periode ini, dan para ekonom Prancis diakui secara global sebagai pemimpin. Namun, abad ini lebih dikenang sebagai abad filosofi daripada ekonomi. Meskipun gerakan Fisiokratik selaras, dalam ambisinya, dengan filosofi Pencerahan, sikap para philosophes—terutama Diderot dan Voltaire—layak dicermati. Kita akan melihat bahwa para pemikir Pencerahan secara signifikan berkontribusi dalam menyebarkan gagasan laissez-faire di Prancis.
 
@@ -771,7 +771,7 @@ Pada akhirnya, hubungan para filsuf dengan pemikiran ekonomi adalah hal yang cam
 
 ## Turgot, Sang Ahli Teori
 
-<chapterId>a8cd8185-8351-556b-8011-3a0c313e8a9d</chapterId>
+<chapterId>e6b12aac-aa56-4932-8ca2-67efb9aa4d72</chapterId>
 
 Dalam bagian terkenal dari _History of Economic Thought_, ekonom Amerika Murray Rothbard memuji apa yang ia sebut sebagai "kecemerlangan" Turgot, menempatkannya sebagai ekonom terbesar abad ke-18, bersama dengan Cantillon.
 
@@ -826,7 +826,7 @@ Di sini kita menemukan pernyataan yang sangat jelas tentang doktrin laissez-fair
 
 ## Turgot, Sang Pembaharu
 
-<chapterId>9177429f-1679-51c4-bfd2-dd036d24a1cc</chapterId>
+<chapterId>32c45d6f-511e-48d4-980f-aca5f2ec8464</chapterId>
 
 Seperti yang kita ingat secara singkat di bab sebelumnya, Turgot adalah putra dari keluarga terkemuka yang memiliki reputasi baik dalam jajaran atas pegawai negeri sipil Prancis.
 
@@ -874,7 +874,7 @@ Pada akhirnya, parlemen dan kelas istimewa menang. Yang bisa dilakukan Raja hany
 
 ## Condillac
 
-<chapterId>0ba8dbb5-dcd5-5981-bf85-6c185e0bf192</chapterId>
+<chapterId>f3f1683a-4bcd-4b2a-b5d1-ec0e94c3b457</chapterId>
 
 Sama seperti Merkantilisme, yang merupakan manifestasi praktisnya yang paling jelas, sofisme Montaigne (Montaigne’s sophism) membutuhkan waktu lama untuk menghilang.
 
@@ -924,7 +924,7 @@ Oleh karena itu, ide-ide ini sepenuhnya menghancurkan kritik terhadap perdaganga
 
 ## Condorcet
 
-<chapterId>99e4aba6-da7f-5041-b02f-337158381515</chapterId>
+<chapterId>55fbdf44-8975-44af-b161-f36d69a49347</chapterId>
 
 Condorcet tidak diragukan lagi adalah filsuf yang paling berorientasi pada ekonomi pada masa Pencerahan.
 
@@ -956,7 +956,7 @@ Meskipun ia mencurahkan seluruh energinya untuk membela Turgot, Condorcet tidak 
 
 ## Akal sehat liberal di tengah Revolusi
 
-<chapterId>95e9a90d-e37a-58ff-b1ac-928b42e76ecf</chapterId>
+<chapterId>37ad7db0-ed45-44ba-8bef-d1fa323dbe8e</chapterId>
 
 Dupont de Nemours adalah murid termuda dari François Quesnay, yang pernah berkata tentangnya: "Kita harus menjaga anak muda ini, karena dia akan berbicara ketika kita sudah mati". Ketika Revolusi Prancis dimulai, hampir semua Fisiokrat besar, termasuk Marquis de Mirabeau, telah tiada; Mirabeau sendiri telah meninggal dunia pada tanggal 13 Juli 1789.
 
@@ -1008,7 +1008,7 @@ Namun sekali lagi, tidak ada yang mendengarkannya.
 
 ## Kesimpulan: Penyerahan Obor Estafet
 
-<chapterId>ada8082f-db96-5e52-954f-719b47998153</chapterId>
+<chapterId>691a1639-3e28-4401-bc29-6b17abcfc333</chapterId>
 
 Pemikiran ekonomi Prancis pada abad ke-18 sering kali dibayangi oleh para ekonom abad ke-19 yang lebih terkenal. Namun, ketika berbicara tentang pembelaan kebebasan, di abad ke-18 lah segalanya benar-benar dimulai. Ini adalah abad di mana prinsip laissez-faire, yang begitu revolusioner pada masanya, pertama kali diungkapkan dengan jelas oleh sejumlah pemikir, dari Boisguilbert hingga Dupont de Nemours.
 
@@ -1034,7 +1034,7 @@ Semua ide ini akan diambil oleh para ekonom abad ke-19. Beberapa, seperti Jean-B
 
 ## Biografi
 
-<chapterId>17cf2865-e53c-5f3b-a5c2-a43560efaf01</chapterId>
+<chapterId>9daf678b-2687-4a2f-a490-8826538c1b49</chapterId>
 
 **DAFTAR PUSTAKA SELEKTIF**
 
@@ -1078,22 +1078,22 @@ Di bawah ini, Anda akan menemukan pilihan lebih dari 30 tulisan:
 
 # Bagian akhir
 
-<partId>385bffab-aea1-5bcd-9569-62b3f30665b7</partId>
+<partId>aa809524-47cd-4945-92d0-2e674b98e2e2</partId>
 
 ## Ulasan & Peringkat
 
-<chapterId>a1e689d9-abd0-5dcb-ba56-a8d355d0a84f</chapterId>
+<chapterId>e13b6e40-2801-4e3c-8ed1-1c9144f47e27</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Ujian akhir
 
-<chapterId>bdb7fd98-33e7-11f0-9fe6-b785c859ffc5</chapterId>
+<chapterId>9da23eb9-a79c-4cf3-8b73-b64a9b3f45d1</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## Kesimpulan
 
-<chapterId>3b366ff6-03c8-5f6a-b4c0-ba8186e65d7e</chapterId>
+<chapterId>027ecdbb-a845-4232-be81-92e1b7101618</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

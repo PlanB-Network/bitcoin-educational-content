@@ -284,7 +284,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Wallet 홈 화면에서 "설정" 탭을 클릭한 다음 "Wallet 세부 정보"를 클릭하고 zPub([확장 공개 키](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602)를 복사합니다:
+- Wallet 홈 화면에서 "설정" 탭을 클릭한 다음 "Wallet 세부 정보"를 클릭하고 zPub([확장 공개 키](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/0488ec38-da31-46a1-b31e-04b5c05fb6e8)를 복사합니다:
 
 
 

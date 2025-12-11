@@ -44,11 +44,11 @@ Bitcoin 或穩定幣如何融入這一切？
 +++
 # 簡介
 
-<partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
+<partId>952e9c3d-4e88-44f8-942b-0b0643fee52e</partId>
 
 ## 簡介
 
-<chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+<chapterId>3498530e-7910-4aa0-a2a9-63cca97c5d74</chapterId>
 
 ### 我們生活在一個這樣的世界：
 
@@ -94,11 +94,11 @@ Bitcoin 或穩定幣如何融入這一切？
 
 # 進步的代價 - 瞭解我們的金融體系
 
-<partId>25ed8242-1b5a-5b53-b833-824b0dd80bcc</partId>
+<partId>a318d7e4-cb95-4016-9e4f-c4019c902b95</partId>
 
 ## 貨幣入門
 
-<chapterId>927ad49a-d8d6-5dd3-9250-cdcadcbf425e</chapterId>
+<chapterId>7ad6dcd5-339f-4d9e-a720-3d62e82408a9</chapterId>
 
 錢是我們日常生活中不可或缺的重要部分。我們每天都用它來購買雜貨、支付帳單以及進行無數的交易。但錢到底是什麼？就其核心而言，貨幣只是一種 Exchange 媒介，一種讓我們可以彼此交易商品和服務的工具。我們都認為這是理所當然的抽象概念，但它卻是我們經濟體系的根本。
 
@@ -184,7 +184,7 @@ Bitcoin 或穩定幣如何融入這一切？
 
 ## 檢視我們如何走到這一步
 
-<chapterId>4c8ebb36-a6d5-5637-93ca-9a4a222a1c58</chapterId>
+<chapterId>e9dc9f53-dcab-4469-a482-882e89dca77e</chapterId>
 
 從以物易物的時代到現代的數位貨幣時代，貨幣經歷了迷人的演變。我們的祖先使用貝殼、珠子，甚至牲畜作為 Exchange 的媒介。今天，我們有了虛擬錢包和非接觸式支付。這是一個非凡的旅程，經歷了無數次的迭代、取捨和適應，以滿足不斷變化的社會需求。
 
@@ -332,7 +332,7 @@ Bitcoin 真正獨特之處在於它是一種數位不記名工具，意即不需
 
 ## 我們的現況與未來展望
 
-<chapterId>0c38e8fd-c973-57a5-a673-abec706f6054</chapterId>
+<chapterId>ce2d4ac3-d766-4d85-a796-0be14376702f</chapterId>
 
 正如我們在前一章所討論的，從歷史上看，貨幣通常是由黃金這種商品來支持的。這樣做的好處再怎麼強調也不為過。這種聯繫不僅意味著這種貨幣的價值直接與商品的價值掛鈎，而且也意味著貨幣發行者（通常是政府）在印製貨幣的數量上受到限制，因為它必須獲得更多的黃金。
 
@@ -480,7 +480,7 @@ Bitcoin 真正獨特之處在於它是一種數位不記名工具，意即不需
 
 ## 考試
 
-<chapterId>f25c229f-2af0-5324-bc40-e90f7668985a</chapterId>
+<chapterId>0240a320-fb4d-4150-acf6-0cd9c7570761</chapterId>
 
 現在您已經完成了「進步的代價」單元，您必須測試一下您新獲得的知識，以確保您已經理解了最後幾節的內容。我們將從幾個開放式問題開始，然後進行一個小測驗。
 
@@ -496,11 +496,11 @@ Bitcoin 真正獨特之處在於它是一種數位不記名工具，意即不需
 
 # 金融解放 - Bitcoin 簡介
 
-<partId>c00843b2-bde3-57bb-ae2e-8ecad6631d71</partId>
+<partId>f66fdc60-a1a9-4a21-9242-d4f86af8c0e4</partId>
 
 ## 先驅、創新者與 Bitcoin 的基礎
 
-<chapterId>37d779ce-46b5-56d1-91d8-d04442236e35</chapterId>
+<chapterId>03010901-b8d8-4e77-9d04-b9112fbabf6c</chapterId>
 
 歡迎來到單元二，在這裡我們將探討迷人的 Bitcoin 世界。以我們對貨幣歷史的了解為基礎，本單元將涵蓋以下主題：
 
@@ -609,7 +609,7 @@ Satoshi Nakamoto 的神秘消失引發了各種關於他去向的猜測。有些
 
 ## Bitcoin 如何運作？神奇網路資金的內在運作原理
 
-<chapterId>b0f736fc-ed4d-5887-b22e-d958db9144d1</chapterId>
+<chapterId>293a9dd7-fa9d-49e1-aaba-2fa1f6c7e580</chapterId>
 
 Bitcoin 通常被稱為神奇的網路貨幣......這是有充分理由的。想想看，有了 Bitcoin，您就可以向世界上任何地方的任何人傳送價值，而不需要銀行或政府等中間人。就像擁有自己的私人銀行一樣，只需點擊幾下按鈕，就能跨境轉移資金。
 
@@ -695,7 +695,7 @@ _**Fun Fact:** 即使在 Bitcoin 交易確認之後，如果節點拒絕區塊�
 
 ## Bitcoin 與 Fiat 有何不同？
 
-<chapterId>5ef55778-cbcf-5c7e-960d-a2fcdf1a4006</chapterId>
+<chapterId>8ec83124-7544-4c76-8411-01c3ea32c126</chapterId>
 
 在上一節中，我們深入探討了 Bitcoin 有別於傳統貨幣的獨特功能，以及 Bitcoin 如何實現夢寐以求的去中心化徽章。現在，讓我們轉移焦點，探討 Bitcoin 與法定貨幣的不同之處，也就是讓貨幣成為偉大貨幣的特徵。只有檢視這些關鍵特徵，我們才能更深入地瞭解 Bitcoin 為何獨一無二，在貨幣領域中自成一派。
 
@@ -805,7 +805,7 @@ Bitcoin 作為價值儲存、Exchange 媒介和帳戶單位的獨特特性，使
 
 ## 與 Bitcoin 相互作用
 
-<chapterId>050a95af-e9c2-5ec3-b9c8-55ec174d309c</chapterId>
+<chapterId>898af852-84f8-45b8-b3e9-2adf85bb8576</chapterId>
 
 Bitcoin 在貨幣體系中掀起了一場風暴，吸引了發展中國家、精通技術的個人和投資者的注意。然而，隨著 Bitcoin 的快速成長，許多人想知道這種數位資產如何能與 Visa 和萬事達卡等傳統付款方式競爭。此外，個人也很好奇如何能親自參與 Bitcoin。
 
@@ -920,7 +920,7 @@ Bitcoin 最大的優勢在於，它讓我們可以對數位資產進行自我保
 
 ## 考試
 
-<chapterId>1c7b8165-d67b-5f7c-a1cb-b83db58b77c7</chapterId>
+<chapterId>a51bed11-0894-49a4-878f-9f31d79d7f9e</chapterId>
 
 現在，您已經完成了「檢視我們如何走到這一步」單元，您必須測試一下您新獲得的知識，以確保您已經理解了最後幾節的內容。我們將從幾個開放式問題開始，然後再做一個小測驗。
 
@@ -938,11 +938,11 @@ Bitcoin 最大的優勢在於，它讓我們可以對數位資產進行自我保
 
 # 混亂中的穩定 - Tether 與穩定幣世界簡介
 
-<partId>60b1f3c4-e161-53fe-84ca-88d8cd62aa75</partId>
+<partId>bc2fa7dd-b3a8-430a-8cba-97faae477137</partId>
 
 ## Tether 與穩定幣世界簡介
 
-<chapterId>427a72b5-8af7-503e-bc45-bb8b95483993</chapterId>
+<chapterId>65302477-a5c2-4555-b546-e4051066e1b1</chapterId>
 
 如前所述，數千年來，貨幣一直是人類生活中不可或缺的一部分。它幫助我們購買商品和服務，讓我們能夠彼此交易，並協助我們儲存財富。
 
@@ -1009,7 +1009,7 @@ Tether 是 「傳統金融體系的破壞者，也是傳統貨幣數位化的開
 
 ## 穩定幣的歷史
 
-<chapterId>174e2cab-ef14-5e14-99c8-8457b6fc5fee</chapterId>
+<chapterId>e6bb95e1-5ba1-40d0-8b4a-3e6c1d1dd0a3</chapterId>
 
 穩定幣已經成為加密貨幣界的熱門話題，在短期內為 Bitcoin 等加密貨幣提供了一種波動性較小的替代方案。正如本模組的介紹中所詳述的，穩定幣是與法幣或貴金屬等穩定資產掛鉤的數位資產，旨在維持穩定的價值。因此，讓我們探討一下穩定幣的歷史，仔細看看一些最早的穩定幣，包括 Tether 的 USDt，它是最知名和最廣泛使用的穩定幣。
 
@@ -1037,7 +1037,7 @@ Tether 一直否認此類指控。事實上，2017 年進行的獨立審計沒�
 
 ## 穩定幣的特徵
 
-<chapterId>21765df7-53fd-58af-9df6-7208027a0c3a</chapterId>
+<chapterId>36e0ab1f-a3fe-42c1-8400-55fb770d9bf3</chapterId>
 
 現在應該很明顯了，穩定幣是一種數位代幣，其設計目的是基於底層 pegged asset 來維持穩定的價值。這些資產可以包括法定貨幣、貴金屬、商品或這些資產的組合（例如一籃子法定貨幣）。
 
@@ -1127,7 +1127,7 @@ XAUt 值得一提的是，代幣持有者可以追蹤公司的黃金持有量，
 
 ## Tether 提供穩定幣的優勢
 
-<chapterId>a6806b45-b92e-5791-8f5f-804098a522b2</chapterId>
+<chapterId>6a1aef8e-3fdf-426b-901c-6e1a26b6ad88</chapterId>
 
 Adanna 是一位生活在非洲鄉村的年輕女性，那裡的非洲金融共同体法郎 (CFA Franc) 在過去 70 年來失去了驚人的 [99.5%](https://bitcoinmagazine.com/culture/Bitcoin-a-currency-of-decolonization) 購買力，是唯一可用的貨幣，使得儲蓄成為不可能的事。
 
@@ -1259,7 +1259,7 @@ Tether 的穩定幣產品提供了傳統法定貨幣無法比擬的可用性，�
 
 ## 考試
 
-<chapterId>1294d874-6edb-5feb-b070-0ead1836bd0b</chapterId>
+<chapterId>7abbc2a0-f98d-40a9-80ae-1cc397027cdc</chapterId>
 
 現在，您已經完成了「混亂中的穩定」單元，您必須測試一下您新獲得的知識，以確保您已經理解了最後幾節的內容。我們將從幾個開放式問題開始，然後進行一個小測驗。
 
@@ -1275,11 +1275,11 @@ Tether 的穩定幣產品提供了傳統法定貨幣無法比擬的可用性，�
 
 # 克服疑慮 - 揭露常見的錯誤觀念與實際使用案例
 
-<partId>246a7dc0-a203-5b2e-ae13-9c8f08e6bfad</partId>
+<partId>5e3f28ec-ff90-4272-af00-724e0ced0765</partId>
 
 ## 誤解
 
-<chapterId>4da9319d-6306-500f-adbb-5fa31c673cd2</chapterId>
+<chapterId>c48b4889-5972-4139-b928-b56fb88b28d5</chapterId>
 
 Bitcoin 自 2009 年誕生以來，一直備受推崇、批評和誤解。儘管其受歡迎程度與採用率不斷增加，許多人仍認為它是等待爆破的泡沫。同樣地，穩定幣也吸引了類似關注和懷疑。以穩定資產支持貨幣的想法聽起來很有前途，但許多人誤解了穩定幣的運作方式及其對金融體系的潛在影響。
 
@@ -1621,7 +1621,7 @@ _**Figure:** Flare [Gas](https://arstechnica.com/science/2022/09/oil-industry-fl
 
 ## Roya Mahboob
 
-<chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
+<chapterId>e76ef439-44db-4cf4-b660-0ed33d913989</chapterId>
 
 在當今全球化的世界中，獲得金融服務是經濟參與和獨立的重要組成部分。儘管如此，仍有太多的人被排除在傳統銀行體系之外，其中婦女往往首當其衝。令人震惊的是，尽管全球人口中不必要的 [四分之一](https://www.worldbank.org/en/publication/globalfindex)仍然没有银行服务，但在沙特阿拉伯等国家，[36.5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift. )的妇女无法获得基本的银行服务，使她们无法充分参与国家的经济和社会。
 
@@ -1673,7 +1673,7 @@ Roya Mahboob 使用 Bitcoin 的方式之一，是透過一項名為 Women's Anne
 
 ## 梅賽德斯
 
-<chapterId>dfa10b75-19f6-578a-9d14-a0a541806076</chapterId>
+<chapterId>a897e855-f7a6-406c-a5b9-7cc6783e2ddd</chapterId>
 
 Mercedes 於 1949 年出生在墨西哥的貧困環境中，從小就體驗到社會的不平等。在她的童年時期，她面臨了許多挑戰，包括政府對學生運動的鎮壓，以及貧困婦女所經歷的獨特掙扎。此外，貧富之間的巨大差距，加上接受優質教育的機會有限，使她的家庭和其他無數人陷入貧困。Mercedes 對這些不公平的現象感到沮喪，於是她趨向於馬克思主義 (共產主義)，提倡社會變革與經濟改革。
 
@@ -1695,7 +1695,7 @@ Mercedes 的人生是一段令人難以置信的旅程，而 Bitcoin 對她生�
 
 ## Stablecoin 故事
 
-<chapterId>7b6d8d57-905d-5168-9be6-3df7c938de2a</chapterId>
+<chapterId>d22acc57-2b00-4a51-96b0-a350814f87d5</chapterId>
 
 在本課程接近尾聲時，我們想呈現一系列鼓舞人心的穩定幣故事。這些見證展示了來自個人、企業主和公司的真實生活經驗，他們利用穩定幣的力量提升了自己的生活。
 
@@ -1809,7 +1809,7 @@ Heloisa Passos
 
 ## 考試
 
-<chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
+<chapterId>002220e4-069b-4367-b153-ca19029412de</chapterId>
 
 現在您已經完成了「過度疑慮」單元，您必須測試一下您新獲得的知識，以確保您已經理解了最後幾節的內容。我們會從幾個開放式問題開始，然後再做一個小測驗。
 
@@ -1825,7 +1825,7 @@ Heloisa Passos
 
 ## 閉幕詞
 
-<chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
+<chapterId>1896c6b1-77d7-45bb-a798-bcdd27deb18b</chapterId>
 
 恭喜您順利完成課程！您已經走了很長的路。在這段旅程中，我們深入探討了各式各樣的主題，包括
 
@@ -1856,7 +1856,7 @@ Tether 的穩定幣為面臨經濟挑戰、生活在專制政權下，或無法�
 
 ## 評論與評分
 
-<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
+<chapterId>1ec641d0-0421-404b-88d3-bac725aca9dc</chapterId>
 
 <isCourseReview>true</isCourseReview>
 ## 總結

@@ -59,13 +59,13 @@ Por último, veremos cómo se extendió el pensamiento económico liberal dentro
 # Los precursores
 
 
-<partId>91565b10-6010-53cb-a2f4-9c2306c7ef8c</partId>
+<partId>c77622e2-0e20-4de1-a55d-380a454185bc</partId>
 
 
 ## Antecedentes históricos
 
 
-<chapterId>6a5fd101-6dfd-5d77-96c7-9e1aa4a19758</chapterId>
+<chapterId>eb7344f4-ec44-43ae-83e5-e764e22b7c11</chapterId>
 
 
 En los albores del siglo XVIII, Francia se encontraba en una situación preocupante. Las poblaciones rurales apenas producían lo suficiente para sobrevivir y estaban sometidas a una fuerte presión fiscal.
@@ -145,7 +145,7 @@ Estos son los cuatro principios que guiaron al gobierno francés durante varias 
 ## Vauban
 
 
-<chapterId>ee9c1e0e-96cc-5026-a5e2-963d68122786</chapterId>
+<chapterId>6b77468d-b8e3-47d2-b304-c290eea1c7d9</chapterId>
 
 
 Hoy, mientras la presión fiscal en nuestro país sigue creciendo, amenazando con asfixiar las fuerzas económicas nacionales, se alzan voces a favor del cambio. Conscientemente o no, estos llamamientos a la reforma se hacen eco a menudo del trabajo de los economistas franceses que, desde el siglo XVII, han criticado el sistema fiscal de la nación por caótico, despótico, excesivo.
@@ -212,7 +212,7 @@ Poco antes de su muerte, la idea de Vauban fue adoptada por los ministros de Lui
 ## Boisguilbert
 
 
-<chapterId>200149c6-b5fc-566e-ab0e-bafb1c3fed3c</chapterId>
+<chapterId>e5dd73e0-e48e-43e7-a9af-d651414cfc6b</chapterId>
 
 
 Pocos economistas franceses del pasado gozan hoy de un reconocimiento en su patria a la altura de sus aportaciones, y Boisguilbert no es una excepción.
@@ -272,7 +272,7 @@ Boisguilbert llegó a criticar a las "*almas buenas*", como él las llamaba, aqu
 ## Cantillon
 
 
-<chapterId>bc206d41-6a64-5688-a489-40fcfa0e5397</chapterId>
+<chapterId>7a6654fe-874e-45ca-a98f-1f3d17c09f24</chapterId>
 
 
 Autor del "Ensayo sobre la naturaleza del comercio en general" (escrito hacia 1730 y publicado en 1755), Richard Cantillon está considerado uno de los pioneros de la ciencia económica moderna. En su Historia del pensamiento económico, el economista Murray Rothbard se refiere incluso a Cantillon como el fundador de la economía moderna.
@@ -335,13 +335,13 @@ Con esta teoría sobre los efectos de la inflación, Cantillon nos proporciona r
 # Reformadores y pensadores de principios del siglo XVIII
 
 
-<partId>1f7b50d4-ce93-5db3-8396-43c1fa5419ff</partId>
+<partId>c4403d75-884e-4922-8be7-5121e2709d6a</partId>
 
 
 ## El abad de Saint-Pierre
 
 
-<chapterId>13478fe2-4c12-593c-a410-54c2cfb7ef7f</chapterId>
+<chapterId>756469cd-d78c-49aa-926f-7c134e8aa4c6</chapterId>
 
 
 De todos los autores que hemos decidido incluir en el panteón de pensadores franceses del laissez-faire del siglo XVIII, el Abad de Saint-Pierre es sin duda el más olvidado.
@@ -407,7 +407,7 @@ También destacó, antes que Vincent de Gournay, el valor del trabajo y la impor
 ## El marqués de Argenson
 
 
-<chapterId>e9960ab4-72ec-5afd-8e97-bf89c83b62bc</chapterId>
+<chapterId>3f0c9654-a6f7-47db-8859-836c592127db</chapterId>
 
 
 El Marqués d'Argenson es un olvidado fundador de la doctrina del laissez-faire.
@@ -479,7 +479,7 @@ Sobre la cuestión del comercio de subsistencia, d'Argenson no tenía otra respu
 ## Vincent de Gournay
 
 
-<chapterId>e8ae40dc-7450-552f-9ddc-9e02936cf425</chapterId>
+<chapterId>7446cc6a-9631-49ca-ac85-c477537b3a8d</chapterId>
 
 
 Vincent de Gournay fue uno de los primeros representantes del laissez-faire en Francia y uno de sus primeros defensores en la administración pública y en los círculos intelectuales. Por ello, merece mucho más reconocimiento en la historia del pensamiento económico del que suele recibir. He intentado destacar sus aportaciones en un libro reciente.
@@ -548,7 +548,7 @@ Años más tarde, Turgot, futuro ministro de Luis XVI, escribió un Éloge (elog
 ## Círculo de Gournay
 
 
-<chapterId>b86ba6bd-8f3a-5d8f-b098-4d0413f00deb</chapterId>
+<chapterId>6e2a0dbe-3afb-4071-b5f8-ab400da3e891</chapterId>
 
 
 Cuando se habla de los inicios de la ciencia económica, la historia tiende a destacar una primera escuela de pensamiento: los fisiócratas, liderados por François Quesnay y sus discípulos. Sin embargo, casi una década antes de su auge, hubo otro grupo menos formal pero igualmente importante, centrado en torno al economista Vincent de Gournay.
@@ -626,7 +626,7 @@ Y, en efecto, en la década de 1750, las cuestiones económicas se pusieron de m
 ## Mirabeau
 
 
-<chapterId>2d2f802b-e3b6-556f-9025-a1b1dc4409ca</chapterId>
+<chapterId>5a11f48f-03ee-4c58-876e-f1c49fbb377a</chapterId>
 
 
 Francia ha conocido a dos hombres famosos llamados Mirabeau, un padre y un hijo, pero fue el hijo quien verdaderamente hizo historia. Tribuno revolucionario y una de las figuras centrales de los acontecimientos de la Revolución Francesa, siguió siendo famoso.
@@ -715,7 +715,7 @@ Durante toda su vida, Mirabeau fue un escritor incansable. Es autor de numerosas
 ## Quesnay
 
 
-<chapterId>7a35f20b-5ea0-544d-b290-bcd9c6f7f11a</chapterId>
+<chapterId>6025f746-08fe-4406-8793-a0f5b9d64a45</chapterId>
 
 
 François Quesnay es uno de los economistas franceses más famosos.
@@ -797,13 +797,13 @@ Este libro recogía las principales aportaciones de Quesnay. En él se expone el
 # La escuela fisiocrática
 
 
-<partId>27af82c1-ad82-5c3b-8ce9-c674b67bbf7c</partId>
+<partId>d8a123a2-c47e-4aa4-873b-1b5a75fe313b</partId>
 
 
 ## Historia de los fisiócratas
 
 
-<chapterId>4236ff8b-b53a-59e7-92c0-f96f9afa1c00</chapterId>
+<chapterId>b039837d-d765-43fc-a3dd-e492d7caf4c3</chapterId>
 
 
 La fisiocracia se puso de moda en Francia, e incluso en toda Europa, durante apenas una década. Tras un largo periodo de desarrollo, cobró protagonismo a mediados de la década de 1760. Cuando Turgot llegó al poder en 1776, el movimiento ya había perdido popularidad, y el ministro mantuvo casi oculto su apoyo a la escuela de Quesnay.
@@ -876,7 +876,7 @@ La fisiocracia seguiría ejerciendo su influencia hasta la Revolución. En Franc
 ## Los fundamentos de la doctrina de los fisiócratas
 
 
-<chapterId>4dbe5436-0578-57c2-b054-03ed00aa091a</chapterId>
+<chapterId>57beea84-ff70-4757-b5f4-9f2d18deec18</chapterId>
 
 El término fisiocracia, que significa "gobierno por la naturaleza", fue acuñado por Dupont de Nemours y utilizado como título de *Fisiocracia*, una colección de artículos de Quesnay publicada en 1768.
 
@@ -975,7 +975,7 @@ Férreos opositores a la esclavitud, los fisiócratas eran también grandes paci
 ## Logros e influencias de los fisiócratas
 
 
-<chapterId>5b911105-796a-5e2e-a501-c7a364fc758e</chapterId>
+<chapterId>9ebd22fa-9f00-4148-871b-7e12874b18c0</chapterId>
 
 
 Como vimos en el primero de los tres capítulos dedicados a los fisiócratas, los seguidores de Quesnay hicieron furor en Francia durante aproximadamente una década. Este entusiasmo por sus ideas se manifestó tanto en su época como hasta finales de siglo. Aquí examinaremos algunos de sus logros y la influencia que ejercieron sobre sus sucesores en el ámbito del pensamiento económico.
@@ -1054,7 +1054,7 @@ Lamentablemente, Quesnay murió dos años antes de que se publicara el libro de 
 ## Dupont de Nemours
 
 
-<chapterId>6d585e0f-93b8-5b0a-a0a8-7f6e4a5bc68e</chapterId>
+<chapterId>be6cf3ea-a927-4407-b232-98c703a3a4ed</chapterId>
 
 
 
@@ -1145,13 +1145,13 @@ A pesar de su agitada vida, en la que publicó decenas de artículos, folletos y
 # Ilustración y economía política
 
 
-<partId>d1c885ad-7cb1-5f81-816c-be312719d9f8</partId>
+<partId>c8a1fe43-bdb6-48d8-9542-4d086cdffab3</partId>
 
 
 ## Voltaire y los filósofos
 
 
-<chapterId>16bcf7bf-dad4-5113-8c64-2800f04ff07b</chapterId>
+<chapterId>57749874-730e-452d-a53d-d3297eb81e9f</chapterId>
 
 
 En el siglo XVIII surgió en Francia la economía como ciencia y la primera escuela de pensamiento económico: La fisiocracia. Adam Smith se formó en economía durante este periodo, y los economistas franceses fueron reconocidos mundialmente como líderes. Sin embargo, este siglo se recuerda más como el siglo de la filosofía que de la economía. Aunque el movimiento fisiocrático se alineaba, en sus ambiciones, con la filosofía de la Ilustración, las actitudes de los filósofos -especialmente Diderot y Voltaire- merecen un examen detenido. Veremos que los pensadores de la Ilustración contribuyeron significativamente a difundir la idea del laissez-faire en Francia.
@@ -1210,7 +1210,7 @@ Al final, la relación de los philosophes con el pensamiento económico es mixta
 ## Turgot, el teórico
 
 
-<chapterId>a8cd8185-8351-556b-8011-3a0c313e8a9d</chapterId>
+<chapterId>e6b12aac-aa56-4932-8ca2-67efb9aa4d72</chapterId>
 
 
 En un famoso pasaje de su *Historia del pensamiento económico*, el economista estadounidense Murray Rothbard alabó lo que llamó la "brillantez" de Turgot.
@@ -1307,7 +1307,7 @@ Aquí encontramos una declaración muy clara de la doctrina del laissez-faire, a
 ## Turgot, el reformador
 
 
-<chapterId>9177429f-1679-51c4-bfd2-dd036d24a1cc</chapterId>
+<chapterId>32c45d6f-511e-48d4-980f-aca5f2ec8464</chapterId>
 
 
 Como hemos recordado brevemente en el capítulo anterior, Turgot era hijo de una familia prominente que se había distinguido en los altos rangos de la función pública francesa.
@@ -1388,7 +1388,7 @@ Al final, los parlamentos y las clases privilegiadas se impusieron. Todo lo que 
 ## Condillac
 
 
-<chapterId>0ba8dbb5-dcd5-5981-bf85-6c185e0bf192</chapterId>
+<chapterId>f3f1683a-4bcd-4b2a-b5d1-ec0e94c3b457</chapterId>
 
 
 Al igual que el mercantilismo, que es su manifestación práctica más evidente, el sofisma de Montaigne tardó mucho tiempo en desaparecer.
@@ -1467,7 +1467,7 @@ Por tanto, destruyen por completo las críticas al libre comercio, ya que el pro
 ## Condorcet
 
 
-<chapterId>99e4aba6-da7f-5041-b02f-337158381515</chapterId>
+<chapterId>55fbdf44-8975-44af-b161-f36d69a49347</chapterId>
 
 
 Condorcet es sin duda el filósofo más economicista de la Ilustración.
@@ -1524,7 +1524,7 @@ Aunque dedicó toda su energía a defender a Turgot, Condorcet no se hacía ilus
 ## El sentido común liberal bajo la Revolución
 
 
-<chapterId>95e9a90d-e37a-58ff-b1ac-928b42e76ecf</chapterId>
+<chapterId>37ad7db0-ed45-44ba-8bef-d1fa323dbe8e</chapterId>
 
 
 Dupont de Nemours fue el discípulo más joven de François Quesnay, quien en una ocasión dijo de él: "Debemos cuidar a este joven, pues hablará cuando nosotros hayamos muerto". Cuando comenzó la Revolución Francesa, casi todos los grandes fisiócratas, incluido el marqués de Mirabeau, ya habían desaparecido; el propio Mirabeau había fallecido el 13 de julio de 1789.
@@ -1598,7 +1598,7 @@ Pero, una vez más, nadie le hizo caso.
 ## Conclusiones: Pasar la antorcha
 
 
-<chapterId>ada8082f-db96-5e52-954f-719b47998153</chapterId>
+<chapterId>691a1639-3e28-4401-bc29-6b17abcfc333</chapterId>
 
 
 El pensamiento económico francés del siglo XVIII suele quedar eclipsado por los economistas más famosos del siglo XIX. Sin embargo, cuando se trata de la defensa de la libertad, es en el siglo XVIII donde todo comienza verdaderamente. Es el siglo en el que el principio del laissez-faire, tan revolucionario en su época, fue expresado claramente por primera vez por varios pensadores, de Boisguilbert a Dupont de Nemours.
@@ -1652,7 +1652,7 @@ Todas estas ideas serían retomadas por los economistas del siglo XIX. Algunos, 
 ## Biografía
 
 
-<chapterId>17cf2865-e53c-5f3b-a5c2-a43560efaf01</chapterId>
+<chapterId>9daf678b-2687-4a2f-a490-8826538c1b49</chapterId>
 
 
 **BIBLIOGRAFÍA SELECTIVA**
@@ -1735,27 +1735,27 @@ A continuación encontrará una selección de más de treinta escritos:
 # Sección final
 
 
-<partId>385bffab-aea1-5bcd-9569-62b3f30665b7</partId>
+<partId>aa809524-47cd-4945-92d0-2e674b98e2e2</partId>
 
 
 ## Opiniones y valoraciones
 
 
-<chapterId>a1e689d9-abd0-5dcb-ba56-a8d355d0a84f</chapterId>
+<chapterId>e13b6e40-2801-4e3c-8ed1-1c9144f47e27</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Examen final
 
 
-<chapterId>bdb7fd98-33e7-11f0-9fe6-b785c859ffc5</chapterId>
+<chapterId>9da23eb9-a79c-4cf3-8b73-b64a9b3f45d1</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## Conclusión
 
 
-<chapterId>3b366ff6-03c8-5f6a-b4c0-ba8186e65d7e</chapterId>
+<chapterId>027ecdbb-a845-4232-be81-92e1b7101618</chapterId>
 
 
 <isCourseConclusion>true</isCourseConclusion>

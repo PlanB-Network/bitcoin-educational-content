@@ -31,13 +31,13 @@ Ako vam je potrebna pomoć oko postavljanja, kreirana je Telegram grupa za stude
 # Uvod
 
 
-<partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
+<partId>264edfbf-0647-43c0-b202-5f82bfaba747</partId>
 
 
 ## Pregled kursa
 
 
-<chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
+<chapterId>a1885374-d6b9-4d6d-9b90-44f27099e4ae</chapterId>
 
 
 Dobrodošli na kurs MIN201: Uvod u rudarenje. Ajelex, Jim & Rogzy su uzbuđeni da vas vode kroz vaše prve korake u ovoj industriji. Nadamo se da ćete uživati u kursu i krenuti u avanturu rudarenja kod kuće!
@@ -78,13 +78,13 @@ Spremni da otkrijete svet Bitcoin rudarenja i prihvatite praktični Attakai izaz
 # Sve što treba da znate o rudarenju
 
 
-<partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
+<partId>80efb136-9e4e-40f2-98a2-f6721737fc81</partId>
 
 
 ## Objašnjenje rudarenja
 
 
-<chapterId>36a82de7-87ee-5e7a-b69e-48fc30030447</chapterId>
+<chapterId>3d083cf5-9bbd-4d2b-94d9-e12a82819395</chapterId>
 
 
 ### Objašnjenje rudarenja: analogija sa slagalicom
@@ -154,7 +154,7 @@ Konačno, industrija Bitcoin rudarenja nastavlja da se prilagođava i razvija, i
 ## Industrija rudarenja
 
 
-<chapterId>0896dfc1-c97e-5bec-9bf1-8c20b3388a2c</chapterId>
+<chapterId>75651629-94db-47e7-8735-a8ed75ae4e1d</chapterId>
 
 
 ### Bazeni za rudarenje
@@ -233,7 +233,7 @@ Opšti zaključak je da je decentralizacija ključna za sigurnost i otpornost Bi
 ## Nijanse rudarske industrije
 
 
-<chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
+<chapterId>60d00d42-bd45-4afa-8612-939d714b1f6f</chapterId>
 
 
 ### Princip Attakai
@@ -291,7 +291,7 @@ Spekulacije okružuju buduću upotrebu prostora unutar blokova, ali se generalno
 ## Bitcoin rudarenje u Bitcoin protokolu
 
 
-<chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
+<chapterId>51e7a8b1-e901-424e-bd63-51451b330da2</chapterId>
 
 
 Uloga rudara u Bitcoin mreži bila je predmet intenzivne debate tokom "ratova" oko veličine blokova. Iako su ključni za sigurnost i funkcionalnost mreže, rudari ne poseduju nužno ultimativnu moć u Bitcoin ekosistemu. Ravnoteža između rudara, čvorova i krajnjih korisnika osigurava integritet i distribuciju mreže.
@@ -350,7 +350,7 @@ Da rezimiramo, rudari jačaju Bitcoin mrežu protiv cenzure koristeći električ
 ## Bitcoin cena i Hashrate, korelacija?
 
 
-<chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
+<chapterId>002750ad-c35e-48c3-8644-302467a384d3</chapterId>
 
 
 ### Hashrate, cena i profitabilnost
@@ -401,7 +401,7 @@ Inicijativa Attakai ističe važnost doprinosa mreži dok nudi rešenja za lakš
 ## Suverenitet i regulacija
 
 
-<chapterId>9d9a5908-2acc-501e-906b-a6fce9ecfebd</chapterId>
+<chapterId>ec30a758-5a03-43a1-9b75-e4bb6053a1be</chapterId>
 
 
 ### Suverenitet pre profita?
@@ -449,13 +449,13 @@ U zaključku, uprkos regulatornom riziku i mogućnosti zabrane rudarenja u Evrop
 # Rudarenje kod kuće i ponovna upotreba toplote
 
 
-<partId>78d22d06-2c4a-573f-86bb-1027115dad3a</partId>
+<partId>c0fb1f33-6c44-48a7-83f5-b1c9cbc314b3</partId>
 
 
 ## Attakai - Omogućavanje i dostupnost rudarenja kod kuće!
 
 
-<chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
+<chapterId>64c27a67-c2f0-4456-9821-5c94ea623de5</chapterId>
 
 
 Attakai, što znači "idealna temperatura" na japanskom, naziv je inicijative usmerene na otkrivanje Bitcoin rudarenja kroz ponovnu upotrebu toplote koju su pokrenuli @ajelexBTC i @jimzap21 sa Découvre Bitcoin.
@@ -527,7 +527,7 @@ Ovo je odlična prilika da učite kroz praksu dok ste nagrađeni za vaše učeš
 ## Vodič za kupovinu polovnog ASIC-a
 
 
-<chapterId>3b0b3bf0-859b-57f2-b92f-843ac70b7e68</chapterId>
+<chapterId>17e07e2e-9848-4fb0-be55-077ea783c670</chapterId>
 
 
 U ovom odeljku ćemo diskutovati o najboljim praksama za kupovinu polovnog Bitmain Antminer S9, mašine na kojoj će se zasnivati ovaj vodič za ugradnju radijatora. Ovaj vodič se takođe primenjuje na druge modele ASIC-a jer je to opšti vodič za kupovinu polovnog hardvera za rudarenje.
@@ -619,7 +619,7 @@ Da rezimiramo ovaj vodič u jednoj rečenici: **"Ne veruj, proveri."**
 ## Vodič za kupovinu hardverskih modifikacija za S9
 
 
-<chapterId>fa5f5eca-bcbf-5a83-9b03-98ecbadbabd6</chapterId>
+<chapterId>67c86e8a-e7d8-4744-8eeb-03a17c09bfa2</chapterId>
 
 
 Kao vlasnik Antminer S9, verovatno znate koliko ova oprema može biti bučna i glomazna. Međutim, moguće je transformisati je u tihi i povezani grejač prateći nekoliko jednostavnih koraka. U ovom delu ćemo predstaviti potrebnu opremu za izvršenje modifikacija.
@@ -694,13 +694,13 @@ Lista opreme i linkovi
 # Attakai - Modifikacija softvera Antminer S9
 
 
-<partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
+<partId>17871b9d-4c93-4ca4-a09f-c6dc8a1df1d1</partId>
 
 
 ## Postavljanje Vonet WIFI/Ethernet mosta
 
 
-<chapterId>3cf487a4-21ef-5b24-83d5-789b811f740f</chapterId>
+<chapterId>bf5b8552-8f0f-44aa-b742-600a657bdfbf</chapterId>
 
 
 Da biste povezali svoj ASIC putem WIFI-ja, biće vam potreban uređaj koji se zove most. Ovaj uređaj vam omogućava da preuzmete WIFI signal sa vašeg rutera i prenesete ga na drugi uređaj putem Ethernet-a.
@@ -757,7 +757,7 @@ Kada je most povezan, povežite Ethernet kabl od mosta do vašeg ASIC-a, a zatim
 ## Resetovanje Antminer S9
 
 
-<chapterId>b518b6bd-9dae-5136-ae3c-1fafb1cb2592</chapterId>
+<chapterId>e83025fd-0261-4d4a-913a-dbfc05f7e51e</chapterId>
 
 
 Pre nego što instalirate BraiinOS+, možda će biti potrebno da resetujete vaš S9 na fabrička podešavanja.
@@ -773,7 +773,7 @@ Ova metoda se može primeniti između 2 minuta i 10 minuta nakon pokretanja ure�
 ## Instaliranje BraiinsOS+ na Antminer S9
 
 
-<chapterId>38e8b1a8-8b1d-51ed-8b92-59d4ddb15184</chapterId>
+<chapterId>d2ea148c-37dd-4505-97e9-78ce2237b84a</chapterId>
 
 
 Originalni softver koji je instalirao Antminer na njihove mašine je ograničen u funkcionalnosti. Zato ćemo u ovom vodiču instalirati drugi softver pod nazivom BraiinsOS+. To je softver treće strane razvijen od strane prvog Bitcoin rudarskog bazena (eng. mining pool) koji ima više funkcija i omogućava, na primer, modifikaciju snage mašine.
@@ -827,7 +827,7 @@ Ovde ćemo videti kako lako instalirati Braiins OS+ direktno na memoriju vašeg 
 ## Konfigurišite BraiinsOS+
 
 
-<chapterId>36e432f2-85bc-52d0-a62a-009fc4c69338</chapterId>
+<chapterId>41f8ef76-c5b9-427f-8b22-1e3761057157</chapterId>
 
 
 Trebaće da se povežete sa svojim ASIC-om koristeći lokalnu IP adresi vašeg uređaja na vašoj mreži putem pregledača.
@@ -893,13 +893,13 @@ Na ovoj prvoj stranici možete posmatrati performanse vaše mašine u realnom vr
 # Attakai - modifikacija ventilatora
 
 
-<partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
+<partId>a18012de-bf2e-4469-8b33-6bd9368cf27d</partId>
 
 
 ## Zamenite napajanje od ventilatora
 
 
-<chapterId>0c6befa7-f3ef-5bcf-ae8d-0ad5e5d41d70</chapterId>
+<chapterId>369aa394-0597-4578-96ef-01a45e9d86c6</chapterId>
 
 
 > UPOZORENJE: Neophodno je prethodno instalirati Braiins OS+ na vaš uređaj, ili bilo koji drugi softver koji može smanjiti performanse vaše mašine. Ova mera je ključna jer ćemo, kako bismo smanjili buku, instalirati manje snažne ventilatore koji mogu raspršiti manje toplote.
@@ -1007,7 +1007,7 @@ Konačno, vratite poklopac kućišta na mesto i zavrnite 6 šrafova sa strane ka
 ## Zamena glavnih ventilatora
 
 
-<chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
+<chapterId>46cd034a-1ffd-4459-9d66-a68e9b4bfeeb</chapterId>
 
 
 > UPOZORENJE: Neophodno je prethodno instalirati Braiins OS+ na vaš uređaj, ili bilo koji drugi softver sposoban da smanji performanse vaše mašine. Ova mera je ključna jer ćemo, kako bismo smanjili buku, instalirati manje snažne ventilatore, koji će rasipati manje toplote.
@@ -1087,13 +1087,13 @@ I eto ga, čestitamo! Upravo ste zamenili ceo mehanički deo vašeg uređaja za 
 # Attakai - Konfiguracija
 
 
-<partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
+<partId>045a50df-20cd-423f-8f2f-dce686793ffb</partId>
 
 
 ## Pridruživanje rudarskom bazenu
 
 
-<chapterId>b57a6105-0a53-5fe9-bad1-d6d9daf97c0d</chapterId>
+<chapterId>db476c86-3dfe-4fcd-948a-083df8442395</chapterId>
 
 
 Možete zamisliti rudarski bazen kao poljoprivrednu zadrugu. Poljoprivrednici udružuju svoju proizvodnju kako bi smanjili razlike između ponude i potražnje, te tako ostvarili stabilniji prihod za svoje poslovanje. Rudarski bazeni funkcioniše na isti način, s tim što je zajednički resurs heš. Naime, otkriće jednog validnog Hasha omogućava kreiranje bloka i osvajanje coinbase-a ili nagrade, koja trenutno iznosi 6.25 BTC plus transakcione naknade uključene u blok.
@@ -1146,7 +1146,7 @@ Sada se možete vratiti na Braiins OS+ interfejs da unesete ove kredencijale. Po
 ## Optimizacija performansi vašeg Antminer S9
 
 
-<chapterId>25380972-31c7-540d-80d8-17a06b171ca0</chapterId>
+<chapterId>e8dd98a2-86be-4cb1-a061-79f5c8129df6</chapterId>
 
 
 I overklokovanje i automatsko podešavanje frekvencija uključuju prilagođavanje brzina na hash pločama radi poboljšanja performansi ASIC uređaja. Razlika između njih leži u složenosti ovih podešavanja frekvencija.
@@ -1182,7 +1182,7 @@ Krajnji rezultat je veća Hash stopa po vatu električne energije, što znači v
 ## Recenzije i Ocene
 
 
-<chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
+<chapterId>9c4bf742-f774-4d82-bdef-0c5398be7759</chapterId>
 
 <isCourseReview>true</isCourseReview>
 

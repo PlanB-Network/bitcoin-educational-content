@@ -24,10 +24,10 @@ Dans cette page de description, nous afficherons également l'image `thumbnail.w
 +++
 
 # Ceci est une partie du cours
-<partId>97ccb669-12a0-5eed-83ac-c2f51839d998</partId>
+<partId>74ab6d88-cda7-4da1-9696-8b9b665395f7</partId>
 
 ## Ceci est un chapitre du cours
-<chapterId>4dc58281-5179-507c-afde-8c9204cbd3fd</chapterId>
+<chapterId>7f2e6074-c9e4-46a1-a6d5-5999803f366a</chapterId>
 
 ### Ceci est une section du cours
 
@@ -50,7 +50,7 @@ Bien que tous les formats d'image soient valides, nous préférons, pour des rai
 
 
 ## Ceci est le 2ème chapitre
-<chapterId>3ff2a050-c311-55ce-a3c6-3cc450cad1ce</chapterId>
+<chapterId>d405bf07-cee3-4146-86ff-f58c2ccc4188</chapterId>
 
 Un chapitre ne contient pas nécessairement des sections (`###`) mais une partie doit contenir au moins un chapitre.
 
@@ -61,7 +61,7 @@ Une astuce intéressante est d'intégrer une vidéo comme celle-ci :
 ![Musique géniale de tip_nz](https://www.youtube.com/watch?v=IO-tUpkygaI)
 
 ## UUIDs de partie et de chapitre
-<chapterId>eac81877-db9b-5027-87e2-2b28b59459a0</chapterId>
+<chapterId>86a51774-40e6-4d74-b438-a85cb9e9a8df</chapterId>
 
 Pour mieux identifier chaque élément du cours, nous avons décidé d'ajouter des UUIDs pour chaque chapitre et partie. Là encore, un script python est disponible pour cela, mais les réviseurs pourraient le faire aussi.
 Les UUIDs sont identiques entre 2 langues du même contenu.

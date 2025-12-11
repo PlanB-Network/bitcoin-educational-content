@@ -19,11 +19,11 @@ Selle kursuse alustamiseks ei ole vaja eelnevaid teadmisi. BTC 101 on loodud kõ
 
 # Sissejuhatus
 
-<partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
+<partId>34ab5c9f-08b8-4324-a53e-582c63a2b1ea</partId>
 
 ## Kursuse ülevaade
 
-<chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
+<chapterId>a47e30ce-f437-404b-99e0-0c1cf1a78f37</chapterId>
 
 Tere tulemast BTC101 kursusele!
 
@@ -89,7 +89,7 @@ Kas olete valmis sukelduma Bitcoini põnevasse maailma ja mõistma kõiki selle 
 
 ## Bitcoini eelajalugu
 
-<chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
+<chapterId>0824f3a8-502a-4321-bb0d-13ccba37f3fa</chapterId>
 
 Enne kui termin "Bitcoin" muutus digitaalse valuuta ja finantsmuutuste sünonüümiks, panid selle loomisele aluse mitmed ideed, uuendused ja sotsiaalsed liikumised. Nende seas paistab Bitcoini eelajaloo võtmeelemendina süfertpunki liikumine silma.
 
@@ -147,11 +147,11 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 # Raha
 
-<partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
+<partId>c7430a3c-6419-465e-b84d-d677e277f732</partId>
 
 ## Raha läbi ajaloo
 
-<chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
+<chapterId>84047ee5-9f48-4105-9849-8be318496304</chapterId>
 
 Raha areng on inimkonna ajaloo põnev aspekt, mis peegeldab tsivilisatsioonide leidlikkust läbi aegade pidevalt arenevate majanduslike vajaduste rahuldamisel.
 
@@ -212,7 +212,7 @@ Teisest küljest pakub Bitcoin uusi võimalusi. Selle omadused, näiteks rangelt
 
 ## Usaldusvaluutad
 
-<chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
+<chapterId>8c6dbe02-c275-4568-bd1b-fc36b8d4796d</chapterId>
 
 > "Need, kes ei suuda mäletada minevikku, on määratud seda kordama," ütles George Santayana.
 > Tõde, mis kõlab hästi, kui tegemist on praeguse rahasüsteemiga.
@@ -267,7 +267,7 @@ https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Hüperinflatsioon
 
-<chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
+<chapterId>3f99733a-7a40-42a8-870c-cc4947560bba</chapterId>
 
 Hüperinflatsioon on fiat-valuutadele omane rahapoliitiline nähtus: seda iseloomustab usalduse täielik kadumine valuuta vastu ja inflatsiooni järsk kasv, mis on tingitud ametiasutuste poolt trükitud rahaprintimisest. Selle tulemusel võivad üksikisikute kogutud säästud suhteliselt lühikese aja jooksul hajuda, lükates riigi majandusliku, sotsiaalse ja poliitilise kokkuvarisemise äärele.
 
@@ -356,7 +356,7 @@ https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 ## 21 miljonit bitcoin'i
 
-<chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
+<chapterId>e6172b08-5916-4f9f-a06f-4405c52c06ab</chapterId>
 
 ### Bitcoini rahapoliitika
 
@@ -397,7 +397,7 @@ Pärast selle ülesande edukat täitmist saavad kaevandajad iga kümne minuti ta
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Me käsitleme kaevandamise mõistet üksikasjalikumalt [kaevandaja peatükis](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+Me käsitleme kaevandamise mõistet üksikasjalikumalt [kaevandaja peatükis](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/f2ce96f9-66d5-4286-9a18-9e1506b369b5).
 
 ### Digitaalse nappuse tagamine
 
@@ -445,11 +445,11 @@ Kokkuvõttes pakub Bitcoin oma detsentraliseeritud olemuse, programmeeritud napp
 
 # Bitcoin rahakotid
 
-<partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
+<partId>3b488c45-d286-4083-8824-ec259cc2a324</partId>
 
 ## Mis on Bitcoini rahakotid?
 
-<chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
+<chapterId>149c6588-94ae-46b6-b073-9ffc18912397</chapterId>
 
 2. osas uurime Bitcoini säilitamist ja turvalisust rahakotide abil, et mõista, kus need kuulsad bitcoinid asuvad ja kuidas nendega suhelda!
 
@@ -513,7 +513,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ## Bitcoin rahakotid ja turvalisus
 
-<chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
+<chapterId>40485240-351a-471c-b017-faebfb836470</chapterId>
 
 ### Enne alustamist õigete küsimuste esitamine
 
@@ -578,7 +578,7 @@ Seda silmas pidades võime nüüd edasi liikuda järgmise jaotise juurde, kus ki
 
 ## Rahakoti loomine
 
-<chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
+<chapterId>1bfd3d5d-a81b-4b7f-ad88-4bf41593606a</chapterId>
 
 Teie bitcoinide turvalisus on äärmiselt oluline ja lihtsal veal võivad olla katastroofilised tagajärjed. Seepärast tuleb õppida parimaid tavasid, mida uue Bitcoini rahakoti loomisel vastu võtta.
 
@@ -623,7 +623,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Aja testi läbimine
 
-<chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
+<chapterId>7dd119da-9073-4e03-ab83-e45890616790</chapterId>
 
 Nagu mis tahes liiki vara, tuleb ka teie bitcoinid kaitsta kadumise, varguse ja kahjustumise eest, eriti pikemas perspektiivis. Teie bitcoinide kaitsmine nõuab mõningaid tehnilisi teadmisi ja sellega seotud riskide mõistmist, mis avab tee kahele peamisele strateegiale: bitcoinide graveerimine terasplaadile ja pärandamiskava koostamine.
 
@@ -671,11 +671,11 @@ Nüüd, kui me oleme käsitlenud Bitcoini rahakotide põhitõdesid ja nende kait
 
 # Bitcoini tehnilised aspektid.
 
-<partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
+<partId>8b110fdd-b51f-48a9-a966-33649e55c971</partId>
 
 ## Bitcoini käivitamine
 
-<chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>
+<chapterId>76ab52b9-2c33-4242-9db1-64fb1fb92b4e</chapterId>
 
 ### Alustame pisut ajaloost.
 
@@ -729,7 +729,7 @@ Satoshi Nakamoto kirjutistest rohkem teada saamiseks soovitame lugeda Phil Champ
 
 ## Bitcoini tehingud
 
-<chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
+<chapterId>be72afa9-8198-45a5-95a8-3c87f971fbb2</chapterId>
 
 Bitcoini tehing on lihtsalt bitcoinide omandiõiguse üleandmine Bitcoini aadressi kasutamise kaudu. Selle protsessi kirjeldamiseks tutvustame kahte peategelast: Alice ja Bob. Alice soovib omandada bitcoin'e, samas kui Bob juba omab mõningaid bitcoin'e.
 
@@ -787,7 +787,7 @@ Vaatame lähemalt, kuidas Bitcoini sõlme töötab.
 
 ## Bitcoini sõlmed
 
-<chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
+<chapterId>430fdc8d-d60c-4dde-a7a5-96916f40056e</chapterId>
 
 Sõlmed on Bitcoini võrguarhitektuuri põhielement, kuna nad täidavad mitmeid olulisi funktsioone:
 
@@ -836,7 +836,7 @@ Pärast seda võitu aktiveerisid sõlmed uuenduse nimega SegWit, sillutades teed
 
 ## Kaevurid
 
-<chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
+<chapterId>f2ce96f9-66d5-4286-9a18-9e1506b369b5</chapterId>
 
 **Minerid kindlustavad võrgu ja lisavad tehinguid plokkidesse. Nad kasutavad elektrienergiat ASIC-masinate abil, et lahendada Bitcoini töötõendit **
 
@@ -917,7 +917,7 @@ https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## Bitcoin ja ökoloogia
 
-<chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
+<chapterId>68cc1d11-d355-479f-beb1-364ea0f48219</chapterId>
 
 Eelmises punktis saime aru, et Bitcoini protokolli turvalisus põhineb suurel energiatarbimisel, et toota avalikku tehingute pearaamatut ilma usaldusväärse kolmanda osapooleta. Peavoolumeedias võrreldakse üldist energiakulu sageli väikese riigi elektrienergia tarbimisega. Kuid kas see võrdlus on mõistlik? Kas on oluline mõista selliste kulude põhjuseid?
 
@@ -975,11 +975,11 @@ Seega on Bitcoini protokoll tsenseerimata ja peatamatu rahasüsteem, sest kõik 
 
 # Kuidas sa Bitcoini saad?
 
-<partId>517e1bb7-f032-51a0-930a-a91fe5148d3f</partId>
+<partId>a48118af-b3b8-4f00-bbda-c2c4ca0f788e</partId>
 
 ## Bitcoin ei maga kunagi!
 
-<chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
+<chapterId>648dbb03-969a-46ef-bdae-1463c06a4aaf</chapterId>
 
 Bitcoini hinda iseloomustab sageli märkimisväärne volatiilsus. Selle väärtus võib märkimisväärselt kõikuda sõltuvalt turuvariatsioonidest või tõusu- ja langusfaasidest, nagu ka igal teisel finantsturul.
 
@@ -1034,7 +1034,7 @@ Tänapäeval jätkab Bitcoin ellujäämist ja kasvamist veelgi enam, integreerud
 
 ## Bitcoins saamine töötades
 
-<chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
+<chapterId>4bcac1ce-e4e1-4fc8-9548-5eb262688ea5</chapterId>
 
 ### Paralleelmajandus areneb
 
@@ -1078,7 +1078,7 @@ https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Säästmine Bitcoiniga
 
-<chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
+<chapterId>11782e1e-3807-4669-8c4b-19c431669eba</chapterId>
 
 ### Hoiatus enne alustamist!
 
@@ -1177,7 +1177,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Hyper-bitcoinization
 
-<chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>
+<chapterId>a8cf0971-defd-4bf8-934b-5e412448438e</chapterId>
 
 ### Metsik võidujooks alles algab!
 
@@ -1201,11 +1201,11 @@ Kui soovite laiendada oma teadmisi Bitcoini kohta, on nüüd õige aeg: paljud a
 
 # Bitcoini tulevik: Lightning Network
 
-<partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
+<partId>297f74b5-3ba1-4f63-b41b-43256778bea3</partId>
 
 ## Lightning Networki lühitutvustus
 
-<chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
+<chapterId>ad635a0f-4f91-4cac-843b-b9d51eb0bc9e</chapterId>
 
 Nüüd, kui meil on olemas Bitcoini protokolli põhitõed, tutvustame maksevõrku, mis kasutab Bitcoini protokolli, et võimaldada välkkiireid tehinguid: Lightning Network!
 
@@ -1249,7 +1249,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## Lightning-võrgu kasutusjuhtumid
 
-<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+<chapterId>cd29874a-5ea2-4773-a6e4-e8d36b1bb4da</chapterId>
 
 Nagu äsja nägime, on Bitcoini protokoll küll revolutsiooniline, kuid kõigi meie igapäevaste tehingute käsitlemiseks vajaliku skaleeritavuse osas seisab ta silmitsi märkimisväärsete väljakutsetega. Nende probleemide lahendamiseks pakuti välja Lightning Network, millest on vahepeal välja kujunenud mitu erinevat rakendust, mis kõik on koostalitlusvõimelised:
 
@@ -1281,7 +1281,7 @@ Kokkuvõttes avab Lightning Network Bitcoini kasutajate jaoks palju põnevaid ka
 
 ## Punane või sinine pill?
 
-<chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
+<chapterId>03d79262-a035-4a62-acca-f8ed9ae5a8a4</chapterId>
 
 Nagu Morpheus ütles Neole: "Sa võtad sinise pilli, lugu lõpeb, sa ärkad oma voodis üles ja usud, mida iganes sa tahad uskuda. Võtad punase pilli, jääd Imedemaale ja ma näitan sulle, kui sügavale ulatub jänesekoobas." Kas olete valmis uurima Bitcoini küülikuauku? Olge ettevaatlik, sest võite oma finantsvabaduse uuesti avastada!
 
@@ -1354,19 +1354,19 @@ Kas olete valmis liituma?
 
 ## Arvamused ja hinnangud
 
-<chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
+<chapterId>d58144ad-33da-47a6-9030-61b649fe5550</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Lõpueksam
 
-<chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
+<chapterId>cbf5ded3-69c8-485f-8528-28fc0e7ea299</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## Kokkuvõte
 
-<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+<chapterId>8a17f1ba-3ba1-4864-896d-be4cc3d5844a</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
 

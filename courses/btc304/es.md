@@ -17,14 +17,14 @@ En BTC304, veremos por qué es importante la construcción de comunidades, explo
 # Introducción
 
 
-<partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
+<partId>c896831e-b8d8-4324-bcad-b289c88db81b</partId>
 
 
 
 ## Resumen del curso
 
 
-<chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
+<chapterId>42660201-57ae-4438-846a-80cd529087ca</chapterId>
 
 
 
@@ -144,7 +144,7 @@ La última sección se centra en la esencia de su proyecto: unir a los entusiast
 ## ¿Por qué crear una comunidad o meetup Bitcoin?
 
 
-<chapterId>893ea248-7d5a-5b8e-948c-7031497b1031</chapterId>
+<chapterId>ce63ff45-9c9e-4a77-a175-99906bb95208</chapterId>
 
 
 
@@ -241,7 +241,7 @@ Los encuentros Bitcoin pueden servir para muchas cosas:
 
 
 
-Trataremos en detalle muchas de estas posibilidades en la parte 6/8 de este curso, titulada "[Ejemplos de proyectos e iniciativas](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279)".
+Trataremos en detalle muchas de estas posibilidades en la parte 6/8 de este curso, titulada "[Ejemplos de proyectos e iniciativas](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab)".
 
 
 
@@ -252,7 +252,7 @@ Aunque cada comunidad es libre de formarse sus propias opiniones, lanzar proyect
 ## ¿Dónde debe crear su comunidad?
 
 
-<chapterId>72da5285-5395-592d-ab62-303a0aef3d6d</chapterId>
+<chapterId>0b6bd32a-15ff-4b09-870d-5a2f6ea0d774</chapterId>
 
 
 
@@ -309,7 +309,7 @@ Y, por supuesto, si una comunidad más antigua ha "evolucionado" en una direcci�
 ## ¿Qué objetivos deben guiar a su comunidad?
 
 
-<chapterId>0aae1aa8-93ec-544a-ad88-22d32c619595</chapterId>
+<chapterId>2b2f58e5-c2ab-4b85-af19-02d7ad2aa503</chapterId>
 
 
 
@@ -353,7 +353,7 @@ Tu primer evento será probablemente un meet-up. Su principal objetivo: reunir a
 
 
 
-Sin embargo, como veremos más adelante en [Ejemplos de proyectos e iniciativas](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **un encuentro puede construirse de muchas maneras, con muchos objetivos:**
+Sin embargo, como veremos más adelante en [Ejemplos de proyectos e iniciativas](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab), **un encuentro puede construirse de muchas maneras, con muchos objetivos:**
 
 
 
@@ -424,14 +424,14 @@ Por eso **este curso está diseñado para compartir valiosos recursos y consejos
 # Diseñar una identidad comunitaria Bitcoin
 
 
-<partId>da6673ad-bf49-5979-80a6-3f69cfb28046</partId>
+<partId>507dd86a-0214-4c18-ae0d-34702291fb74</partId>
 
 
 
 ## ¿Por qué y cómo crear su propia identidad?
 
 
-<chapterId>b48a18cc-afdf-5216-802c-32647b5cd8a3</chapterId>
+<chapterId>4475004b-19e7-4c0f-a799-fd2cb0baefad</chapterId>
 
 
 
@@ -532,7 +532,7 @@ Si te llega la inspiración, puedes ir más allá: crea un escudo, un lema o inc
 ## Crear un logotipo, un cartel y una pancarta
 
 
-<chapterId>3470a31f-0190-5e87-8af0-6a00e79267ef</chapterId>
+<chapterId>8b85ccb1-5474-474e-ae1b-c8cb69f060ad</chapterId>
 
 
 
@@ -763,14 +763,14 @@ El resultado es genial
 # Creación de canales de comunicación para su comunidad Bitcoin
 
 
-<partId>fc588298-6876-554c-bd57-55d182464878</partId>
+<partId>054892b5-21cb-43f8-a1c2-750d3175fa68</partId>
 
 
 
 ## ¿Qué canales de comunicación elegir?
 
 
-<chapterId>b4f4eef6-1035-5290-848a-2b7f9391c77a</chapterId>
+<chapterId>3c111ec9-2517-4b9a-bba4-68ac531e081f</chapterId>
 
 
 
@@ -831,7 +831,7 @@ A medida que tu comunidad crezca, puedes añadir más plataformas y delegar la m
 ## Crear y configurar un canal, grupo o supergrupo de Telegram
 
 
-<chapterId>d13714ce-8f08-53e9-bedd-b6a3aaac5dad</chapterId>
+<chapterId>7b87c24a-4820-4652-a3de-dc29cafea4d0</chapterId>
 
 
 
@@ -866,7 +866,7 @@ Para los tutoriales a continuación, originalmente utilizamos el APK "Telegram+"
 Si quieres crear un lugar en el que tus miembros puedan hablar entre ellos directamente, responderse, etc., entonces quizás quieras crear un grupo de Telegram, ¡y no un canal de Telegram!
 
 
-Vaya directamente a la siguiente sección, titulada [Crear un grupo de Telegram](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
+Vaya directamente a la siguiente sección, titulada [Crear un grupo de Telegram](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/7b87c24a-4820-4652-a3de-dc29cafea4d0).
 
 
 
@@ -997,7 +997,7 @@ Por lo tanto, ya no hay necesidad de descargar "Telegram+", a menos que quieras 
 ## Crear tu grupo o supergrupo de Telegram
 
 
-<chapterId>35e674b3-5924-50b0-98f1-83a56c9a186d</chapterId>
+<chapterId>a8c5bc2e-9a91-4da1-aae7-8a3684631dc8</chapterId>
 
 
 
@@ -1053,7 +1053,7 @@ No siempre es necesario, pero puede añadir un Layer adicional de protección.
 ## Cómo añadir un bot multifunción a tu grupo de Telegram
 
 
-<chapterId>c61f69cc-15ec-53f1-8c02-1cea55def09e</chapterId>
+<chapterId>80108eb0-6648-4fe9-b41f-586f03466805</chapterId>
 
 
 
@@ -1105,7 +1105,7 @@ Tutorial para añadir un bot multifunción a un grupo o supergrupo de Telegram:
 ## Crear un servidor Discord
 
 
-<chapterId>eef2a965-4c24-5f3a-8013-72cc7d315314</chapterId>
+<chapterId>9d3f69cb-a61c-40f2-abad-e4a4be6b96cb</chapterId>
 
 
 
@@ -1150,7 +1150,7 @@ Para ahorrarte tiempo, aquí tienes un tutorial sobre cómo añadir este bot mul
 ## Considerar canales de comunicación alternativos, privados y más seguros
 
 
-<chapterId>29d0aad6-0612-5dd0-bcef-7337eaf4fefc</chapterId>
+<chapterId>495024db-90fb-4aa9-984e-1dc2b2b90947</chapterId>
 
 
 
@@ -1178,14 +1178,14 @@ Y realmente, ¿qué podría estar más en línea con el espíritu de Bitcoin que
 # Lanza tus redes sociales
 
 
-<partId>8ebf8cd7-9248-543f-bc27-4ec4cc03f9cf</partId>
+<partId>f98a016c-d5b2-43b4-b8ee-ad6163d7e6c5</partId>
 
 
 
 ## La importancia de la visibilidad para hacer crecer su comunidad Bitcoin
 
 
-<chapterId>b20f12e4-c5de-5f02-80c7-b7fc6cadd3ac</chapterId>
+<chapterId>ecd581a7-17e6-4730-ac9f-859a782a957e</chapterId>
 
 
 
@@ -1219,7 +1219,7 @@ Dicho esto, ten en cuenta que **cuantos más canales de comunicación y redes so
 ## Crear un perfil de Twitter
 
 
-<chapterId>c8d73097-8eba-5530-918c-221002954110</chapterId>
+<chapterId>f5bfb587-1edf-46ce-9683-833b344627b1</chapterId>
 
 
 
@@ -1232,7 +1232,7 @@ Twitter es muy fácil de usar y, para mejorar tu privacidad, tendrás que ajusta
 1/ **la @ de Twitter**, que define tu identidad y facilita que te encuentren. Si el nombre de tu comunidad es "Bitcoin[CIUDAD]", lo apropiado es elegir "@Bitcoin[CIUDAD]";
 
 
-2/ **el logotipo y la pancarta** que hayas creado para tu comunidad o reunión (consulta la sección [Crear un logotipo, un cartel y una pancarta](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
+2/ **el logotipo y la pancarta** que hayas creado para tu comunidad o reunión (consulta la sección [Crear un logotipo, un cartel y una pancarta](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/8b85ccb1-5474-474e-ae1b-c8cb69f060ad));
 
 
 3/ **la descripción**, que le permite compartir información clave sobre su comunidad en unos cientos de caracteres. Por ejemplo:
@@ -1334,7 +1334,7 @@ Tutorial para crear una cuenta de Twitter:
 ## Cada vez más cerca de las reuniones vecinas
 
 
-<chapterId>12a21c3b-235a-5292-8209-67bf60f61e49</chapterId>
+<chapterId>5cd84243-f3b6-4874-99a7-a2e2185cc118</chapterId>
 
 
 
@@ -1377,7 +1377,7 @@ El objetivo es sencillo: recabar la opinión de todos, debatir la evolución de 
 ## Btcmap.org
 
 
-<chapterId>365f43d4-7b2c-5961-a184-157b8c1a0116</chapterId>
+<chapterId>8a628a6c-7daf-4382-9f13-a90b808fc908</chapterId>
 
 
 
@@ -1425,14 +1425,14 @@ Una vez que un pequeño grupo de bitcoiners se haya unido a ti, es hora de dar e
 # Organizar un encuentro Bitcoin
 
 
-<partId>c009d2a6-40ce-583b-bd24-fdfd1fea262e</partId>
+<partId>561335e4-a531-4e63-838f-56aa8ee04864</partId>
 
 
 
 ## ¿Por qué organizar reuniones periódicas con su comunidad?
 
 
-<chapterId>ed8e471c-3b99-57e2-a042-2d4e8a40b137</chapterId>
+<chapterId>acb31467-8192-45a8-afe1-e7bbdf1e32dd</chapterId>
 
 
 
@@ -1462,7 +1462,7 @@ Por eso es importante **empezar estableciendo objetivos alcanzables para tu reun
 ## El primer encuentro: ¿cuándo y por qué?
 
 
-<chapterId>f3f8a614-cfb4-5994-a2e8-d56e6f8e3347</chapterId>
+<chapterId>1db6a73c-4782-4ed6-872a-eb23851e027e</chapterId>
 
 
 
@@ -1547,7 +1547,7 @@ En el segundo caso, se podría dedicar un segundo evento mensual a un tema espec
 
 
 
-Ten en cuenta que **esto requiere más organización y más de tu tiempo**. Afortunadamente, en [parte 6/8 de este curso](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), encontrarás una serie de recursos reutilizables de código abierto que te ayudarán.
+Ten en cuenta que **esto requiere más organización y más de tu tiempo**. Afortunadamente, en [parte 6/8 de este curso](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab), encontrarás una serie de recursos reutilizables de código abierto que te ayudarán.
 
 
 En cualquier caso, todo depende del plan de acción a corto, medio y largo plazo que usted, o su comunidad, se marquen.
@@ -1557,7 +1557,7 @@ En cualquier caso, todo depende del plan de acción a corto, medio y largo plazo
 ## La búsqueda de una ubicación
 
 
-<chapterId>405d389e-6a32-5777-af8d-293380d2e8fd</chapterId>
+<chapterId>b19eed85-6f0a-4de8-a679-34807bb2ac3e</chapterId>
 
 
 
@@ -1603,7 +1603,7 @@ Más adelante, cuando tu grupo haya crecido, podrías incluso dedicar una tarde 
 ## Antes de la reunión
 
 
-<chapterId>c5218943-580d-5efc-89ed-6b5d728816d6</chapterId>
+<chapterId>2efeb301-7737-49bb-831b-f75f1a013ad7</chapterId>
 
 
 
@@ -1619,7 +1619,7 @@ Póngase en contacto con el lugar donde va a celebrar el acto y resérvelo para 
 
 
     - Comparta la fecha, hora y lugar en sus redes sociales y otros canales de comunicación. Incluya un enlace de inscripción si es necesario.
-    - Cree un elemento visual específico (póster de Canva, por ejemplo; véase la parte 2/8 "[Diseño de una identidad para su comunidad Bitcoin](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
+    - Cree un elemento visual específico (póster de Canva, por ejemplo; véase la parte 2/8 "[Diseño de una identidad para su comunidad Bitcoin](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/4475004b-19e7-4c0f-a799-fd2cb0baefad)").
     - Maximiza la visibilidad fijando el anuncio en Telegram y Twitter, y utilizando una mención "@todos" en Discord.
     - Publique anuncios de 7 a 10 días antes del acto para que los asistentes puedan planificarse.
 
@@ -1650,7 +1650,7 @@ Medidas adicionales para que su evento destaque:
 ## El día del encuentro
 
 
-<chapterId>cf60067b-591f-5fdf-9b9e-d442aad0e8f9</chapterId>
+<chapterId>7ba18449-1368-4ba7-8fe3-c9028afaa3e6</chapterId>
 
 
 
@@ -1689,7 +1689,7 @@ Por último, tómate algo y espera a que llegue la gente. Y recuerda: no te desa
 ## Después de la reunión
 
 
-<chapterId>3e881af9-9c09-5721-81ee-c5cda3b109c5</chapterId>
+<chapterId>2f238eab-3931-46a2-a429-5ae9562e4c5d</chapterId>
 
 
 
@@ -1711,7 +1711,7 @@ Tendrás unas semanas para desarrollar nuevas ideas, imágenes o proyectos que m
 ## La importancia de implicar y retener a los participantes
 
 
-<chapterId>f5355e35-4b07-527c-88a3-8535cba7592c</chapterId>
+<chapterId>a50e8782-fb08-4aba-a42b-3fa86b5c4ffb</chapterId>
 
 
 
@@ -1721,7 +1721,7 @@ Roma no se construyó en un día, y tu comunidad tampoco. El impulso en torno a 
 Para conseguirlo, hay algo esencial: **mantener el compromiso de los participantes**.
 
 
-Podría empezar con un pequeño grupo de bitcoiners apasionados, cuyo objetivo sea reunirse regularmente y hablar sobre la Bitcoin. Con el tiempo, en función de la disponibilidad y los intereses de cada uno, puedes **repartir ciertas tareas organizativas con el grupo**, o invitar a los **miembros principales a encargarse de proyectos específicos**. Éstos pueden ser propios de tu comunidad, de tus encuentros o de tu ciudad, o incluso inspirarse en las numerosas iniciativas propuestas en [la parte 6/8 de este curso](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Esto no sólo fomenta la Commitment de tus miembros principales, sino que también ayuda a que tu comunidad crezca y prospere.**
+Podría empezar con un pequeño grupo de bitcoiners apasionados, cuyo objetivo sea reunirse regularmente y hablar sobre la Bitcoin. Con el tiempo, en función de la disponibilidad y los intereses de cada uno, puedes **repartir ciertas tareas organizativas con el grupo**, o invitar a los **miembros principales a encargarse de proyectos específicos**. Éstos pueden ser propios de tu comunidad, de tus encuentros o de tu ciudad, o incluso inspirarse en las numerosas iniciativas propuestas en [la parte 6/8 de este curso](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab). **Esto no sólo fomenta la Commitment de tus miembros principales, sino que también ayuda a que tu comunidad crezca y prospere.**
 
 
 A medida que avancen los encuentros, aparecerán caras nuevas: personas que compraron BTC y/o altcoins en ciclos anteriores, entusiastas de la tecnología que quieran profundizar sus conocimientos o completos principiantes curiosos por este sistema de pago no censurable, descentralizado, transparente y justo que funciona sin condiciones y sin terceros de confianza.
@@ -1761,14 +1761,14 @@ En última instancia, eres tú quien decide hasta dónde debe llegar el concepto
 # Ejemplos de proyectos e iniciativas
 
 
-<partId>45b3bc40-1c31-583e-8411-2662e6efd765</partId>
+<partId>75b8d7e2-97ce-455b-abb5-8bfa2a47f777</partId>
 
 
 
 ## ¿Por qué ir más allá de beber cerveza?
 
 
-<chapterId>3213d87a-1998-5972-ab93-97a5769ba279</chapterId>
+<chapterId>05880102-07ac-413a-8433-8a6ab8fac2ab</chapterId>
 
 
 
@@ -1802,7 +1802,7 @@ La clave es simplemente ser consciente de ello.
 ## Organizar encuentros temáticos, con una progresión anual
 
 
-<chapterId>46afdbcc-a775-5c16-b20a-34956690d58f</chapterId>
+<chapterId>c69c52bd-3b64-4ebc-bcce-5c3c8bd1b6e5</chapterId>
 
 
 
@@ -1862,7 +1862,7 @@ Y mucho más, ¡su imaginación es el único límite!
 ## Crear actos paralelos y talleres
 
 
-<chapterId>9dbd651a-8712-5630-90b3-b9525dcc1385</chapterId>
+<chapterId>a6f89c65-1de3-40dc-ad55-f72e54c2f399</chapterId>
 
 
 
@@ -1889,7 +1889,7 @@ Sólo hay que tener cuidado de no sobrecargar el calendario. Demasiados actos en
 ## Crear pegatinas
 
 
-<chapterId>d605f3b3-130e-513d-85e6-06bc5ea13e99</chapterId>
+<chapterId>1d7f4a6f-99f1-4c82-a55d-23c6d8f7b226</chapterId>
 
 
 
@@ -1929,7 +1929,7 @@ En lugares privados como conciertos, bares o estadios, comprueba si ya hay pegat
 ## Crear una biblioteca
 
 
-<chapterId>acc94093-f8b3-51b8-9359-348e9e075d38</chapterId>
+<chapterId>a6db0905-19f7-475a-abdc-f4c5e85cd625</chapterId>
 
 
 
@@ -1985,7 +1985,7 @@ Si no, sugiérales que adquieran algunos libros de una lista preseleccionada. La
 ## Crear y distribuir folletos personalizados
 
 
-<chapterId>62ad5430-c698-51b3-89ac-090f31c88953</chapterId>
+<chapterId>50949d74-897a-4097-8bad-65245e5bb5e1</chapterId>
 
 
 
@@ -2064,7 +2064,7 @@ Aquí está [el folleto compartido entre los bitcoiners franceses](https://profe
 ## Realización de una proyección de vídeo
 
 
-<chapterId>892b248a-b837-5df6-aac9-4b3261ff0390</chapterId>
+<chapterId>b129d071-f69a-4d55-a043-cc74e4cf6331</chapterId>
 
 
 
@@ -2104,7 +2104,7 @@ El acto suscitó animados debates sobre la Bitcoin Mining, su consumo de energí
 ## Colocar carteles en su ciudad
 
 
-<chapterId>6565e8a0-d535-5be0-9764-273584c675bd</chapterId>
+<chapterId>89c658aa-414c-4a3b-a6c7-2aa99f937a70</chapterId>
 
 
 
@@ -2147,7 +2147,7 @@ Otra opción más DIY es hacer una plantilla con un trozo grande de cartón y ut
 ## Una tarjeta NFC personalizada
 
 
-<chapterId>8ad65d4e-a68a-59c2-a812-85f4907ed9f3</chapterId>
+<chapterId>6734ae15-2cbe-4baf-b784-bb0afdfd95ee</chapterId>
 
 
 
@@ -2175,7 +2175,7 @@ El precio unitario de estas tarjetas suele oscilar entre 2,50 y 5 euros, dependi
 ## Crear un sitio web
 
 
-<chapterId>9a2a1b9b-0633-544a-b331-c06187d23d7f</chapterId>
+<chapterId>60d6534d-569f-45b7-b9ad-49a2a4422550</chapterId>
 
 
 
@@ -2202,7 +2202,7 @@ WordPress también admite una amplia gama de plug-ins (algunos de pago, pero de 
 ## Crear un canal de vídeo (Youtube u Odyssee)
 
 
-<chapterId>076286db-1627-57ec-a410-c44b1666e1cd</chapterId>
+<chapterId>77fa4cd7-645b-4c1f-92c5-64075ed162fd</chapterId>
 
 
 
@@ -2222,7 +2222,7 @@ Las plataformas más populares son:
 - [**peertube**](https://joinpeertube.org/fr_FR), te permite alojar tu propia plataforma de vídeo, aunque es más compleja de configurar.
 
 
-Elijas la que elijas, diseña elementos visuales específicos de la plataforma para que tu canal resulte atractivo. Canva, mencionada en [parte 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) ofrece una categoría de "Miniaturas de YouTube" con diseños prediseñados y personalizables.
+Elijas la que elijas, diseña elementos visuales específicos de la plataforma para que tu canal resulte atractivo. Canva, mencionada en [parte 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/8b85ccb1-5474-474e-ae1b-c8cb69f060ad) ofrece una categoría de "Miniaturas de YouTube" con diseños prediseñados y personalizables.
 
 
 
@@ -2245,7 +2245,7 @@ Consejo: Si alguna vez se prohíbe o censura Bitcoin, guarda siempre una copia d
 ## Crear un podcast de audio
 
 
-<chapterId>12e96b45-1c33-5687-a753-80d0114d487a</chapterId>
+<chapterId>f9c6f5a8-7c0a-4dbb-8844-6d61c09e29f4</chapterId>
 
 
 
@@ -2285,7 +2285,7 @@ Consejo: Al igual que con los vídeos, guarda una copia de seguridad local de to
 ## Cree una insignia para sus eventos
 
 
-<chapterId>0cccef8d-a765-5844-8921-c40f0ce653e4</chapterId>
+<chapterId>aade4c0d-6faf-4b7c-914d-00aab248b544</chapterId>
 
 
 
@@ -2311,7 +2311,7 @@ Varias plantillas de insignias utilizadas por la asociación Bitcoin Lille está
 ## Planificación del traspaso en caso de fallecimiento
 
 
-<chapterId>c5febf18-235c-51bc-8fbb-9467dabe4cb0</chapterId>
+<chapterId>98ea62af-adae-4fb7-81a6-dc2054922dde</chapterId>
 
 
 
@@ -2341,7 +2341,7 @@ Se podría crear un grupo de trabajo específico para definir este proceso. La a
 ## Dar conferencias en escuelas y universidades
 
 
-<chapterId>65efdb44-e3d4-567c-aedf-972765753d73</chapterId>
+<chapterId>d94b6c84-5a34-4626-a21d-6b9051eef470</chapterId>
 
 
 
@@ -2404,7 +2404,7 @@ Aun así, merece la pena intentarlo, sobre todo con los sindicatos y asociacione
 ## Acercarse a las empresas
 
 
-<chapterId>b730462b-7928-5d28-a14f-9ceaa773d3d2</chapterId>
+<chapterId>3ac3d7ce-e61e-44c8-a238-2aef158da8a0</chapterId>
 
 
 
@@ -2494,7 +2494,7 @@ La prospección es un juego a largo plazo. Requiere paciencia, persistencia y es
 ## Póngase en contacto con la prensa y la radio locales
 
 
-<chapterId>435bfbc1-22dd-59bb-b737-a32ea995b238</chapterId>
+<chapterId>51c32266-ddc1-4ffd-bd05-ed8273ea1d93</chapterId>
 
 
 
@@ -2548,14 +2548,14 @@ Recuerda: todos los miembros de la comunidad Bitcoin han estado donde tú estás
 # Anticipar el futuro
 
 
-<partId>6ea07445-9369-54bc-9aa0-d260db026e0b</partId>
+<partId>55a392cc-961d-434c-b4b0-4614f5ac1da8</partId>
 
 
 
 ## Planificar el aumento de participantes
 
 
-<chapterId>8af722d4-3a9f-548c-9001-424f2142de12</chapterId>
+<chapterId>de70830d-0cde-4254-b160-734a98ce4eb8</chapterId>
 
 
 
@@ -2626,7 +2626,7 @@ En un mundo ideal, tendrías un **espacio lo suficientemente grande como para al
 ## Descentralizar la organización comunitaria
 
 
-<chapterId>bedfc110-e099-58f4-a5b7-fb50f3b19a49</chapterId>
+<chapterId>74e4aab7-c79e-4578-8179-0b857a961bb7</chapterId>
 
 
 
@@ -2666,7 +2666,7 @@ Utiliza **herramientas de comunicación cifradas o anónimas** para proteger la 
 ## ¿Y si la Bitcoin se convirtiera en el enemigo público nº 1?
 
 
-<chapterId>c739651f-cd13-51e0-a36e-85023749b15b</chapterId>
+<chapterId>30ca4745-f8b5-48a0-b902-8c270e2062ed</chapterId>
 
 
 
@@ -2697,14 +2697,14 @@ No necesitamos caer en el pensamiento conspirativo. Pero nada nos impide anticip
 # Reunir a los bitcoiners
 
 
-<partId>62bc2138-c0be-5d39-a341-594690863257</partId>
+<partId>e3eab6b3-f19d-42ec-9167-4aa6c7e92a28</partId>
 
 
 
 ## Plan de acción rápido para construir su comunidad Bitcoin
 
 
-<chapterId>1f463ec2-3f64-5641-8d60-e02a47c94f27</chapterId>
+<chapterId>9ad100ba-2b39-40ef-aec6-b2750fce4b76</chapterId>
 
 
 
@@ -2795,7 +2795,7 @@ Recuerda: **no estás solo, las comunidades existentes están aquí para apoyart
 ## Cuidarse
 
 
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+<chapterId>1cb1f900-b1a9-4908-8418-995f531da953</chapterId>
 
 
 
@@ -2834,7 +2834,7 @@ Solo, puedes explorar rápidamente uno de los muchos túneles de la madriguera d
 ## BTC302, Lo que viene
 
 
-<chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
+<chapterId>f58e4746-c50e-492b-a2d1-f555e2706d9d</chapterId>
 
 
 
@@ -2882,7 +2882,7 @@ Para ello, nos basaremos en las experiencias de comunidades que ya han creado su
 ## Opiniones y valoraciones
 
 
-<chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
+<chapterId>692dfb93-db32-4ca4-9b18-f4daa83756f4</chapterId>
 
 
 <isCourseReview>true</isCourseReview>

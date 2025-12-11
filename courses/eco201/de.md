@@ -15,11 +15,11 @@ Diese Denkschule prägt seit Jahrhunderten Debatten, dank einflussreicher Denker
 +++
 # Einführung
 
-<partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
+<partId>21613091-f43a-4a87-88d9-2d69038d41d2</partId>
 
 ## Kursübersicht
 
-<chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
+<chapterId>43b56a2b-bbee-4faa-b52a-9b6c540df559</chapterId>
 
 Willkommen zum Kurs ECO201!
 
@@ -46,7 +46,7 @@ Und was, wenn der Schlüssel zum Verständnis der heutigen Wirtschaft in einer T
 
 ## Geld, Kredit, Banken und Zentralbanken
 
-<chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
+<chapterId>84a09f98-8cd7-468f-9cc1-6c0add06ce12</chapterId>
 
 > "Das grundlegende Problem mit konventioneller Währung ist das Vertrauen, das erforderlich ist, um sie funktionieren zu lassen. Der Zentralbank muss vertraut werden, dass sie die Währung nicht entwertet, aber die Geschichte der Fiat-Währungen ist voller Vertrauensbrüche. Den Banken muss vertraut werden, dass sie unser Geld halten und elektronisch übertragen, aber sie verleihen es in Wellen von Kreditblasen mit kaum einem Bruchteil als Reserve. Wir müssen ihnen in Bezug auf unsere Privatsphäre vertrauen, ihnen vertrauen, dass sie Identitätsdieben nicht erlauben, unsere Konten zu leeren."
 >
@@ -135,11 +135,11 @@ Im nächsten Kapitel werden wir uns mit dem grundlegenden Eckpfeiler jeder wirts
 
 # Theoretische Grundlagen
 
-<partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
+<partId>6249c7e4-71bc-453b-8a09-ab579d340709</partId>
 
 ## Die subjektive Werttheorie
 
-<chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
+<chapterId>fb001732-6bf7-4935-b8ec-6c225dab1025</chapterId>
 
 > "Wert existiert nur im menschlichen Bewusstsein"
 >
@@ -221,7 +221,7 @@ Die folgenden Kapitel werden sich mit dem Entstehen von Geld als soziale Institu
 
 ## Das Entstehen von Geld als soziales Phänomen
 
-<chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
+<chapterId>469d591e-b407-4218-bccb-6a433f731cb3</chapterId>
 
 Obwohl Individuen ein gemeinsames Interesse an Spezialisierung und Maximierung der Arbeitsteilung haben, gibt es dennoch Koordinationsprobleme, die diese Expansion begrenzen.
 
@@ -300,7 +300,7 @@ Im nächsten Kapitel werden wir das Konzept der Zeitpräferenz genauer untersuch
 
 ## Zeitpräferenz, Zinsen und Kapital
 
-<chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
+<chapterId>e0a5c946-dd4c-4aa6-9b6e-aaacb23241ae</chapterId>
 
 ### Zeitpräferenz
 
@@ -371,11 +371,11 @@ Dies werden wir im nächsten Kapitel, das der österreichischen Theorie des Konj
 
 # Österreichische Wirtschaftsperspektiven
 
-<partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
+<partId>851a6712-84ea-48d2-85f7-3354e1381a06</partId>
 
 ## Die österreichische Theorie des Konjunkturzyklus
 
-<chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
+<chapterId>17248205-835a-4284-ba94-0eb131916aa3</chapterId>
 
 > "Je länger der Boom der inflationären Bankkredite anhält, desto größer ist der Umfang der Fehlinvestitionen in Sachkapital und desto größer ist die Notwendigkeit der Liquidation dieser unsoliden Investitionen. Wenn die Kreditausweitung stoppt, sich umkehrt oder sogar signifikant verlangsamt, werden die Fehlinvestitionen offenbart."
 >
@@ -445,7 +445,7 @@ Dies wird das Thema des nächsten und letzten Kapitels dieses Kurses sein.
 
 ## Die Unmöglichkeit der wirtschaftlichen Berechnung im Sozialismus
 
-<chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
+<chapterId>9b9e185f-5b0d-4850-813e-0c50e309a909</chapterId>
 
 > "Wo es keine Marktpreise für die Produktionsfaktoren gibt, weil sie weder gekauft noch verkauft werden, ist es unmöglich, bei der Planung zukünftiger Handlungen und bei der Bestimmung des Ergebnisses vergangener Handlungen auf Berechnungen zurückzugreifen. Eine sozialistische Produktionsführung würde einfach nicht wissen, ob das, was sie plant und ausführt, das geeignetste Mittel ist, um die angestrebten Ziele zu erreichen. Sie wird gewissermaßen im Dunkeln operieren. Sie wird die knappen Produktionsfaktoren, sowohl materiell als auch menschlich (Arbeit), verschwenden. Chaos und Armut für alle werden zwangsläufig die Folge sein."
 >
@@ -514,7 +514,7 @@ Die österreichische Tradition verkörpert einen bescheidenen Ansatz zum menschl
 
 ## Die österreichische Methodik
 
-<chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
+<chapterId>1fdf4c5d-0008-4f69-97e7-127fb3ef63e0</chapterId>
 
 Die österreichische Schule der Wirtschaft unterscheidet sich von anderen Schulen durch ihre axiomatisch-deduktive Methodik, die sich von dem positivistischen Ansatz unterscheidet, der in den Sozialwissenschaften häufig verwendet wird. Der positivistische Ansatz basiert auf Gesetzen, die aus empirischen Daten abgeleitet werden und eine ähnliche Methode wie die Naturwissenschaften verwenden. Er formuliert Hypothesen aus Beobachtungen, die dann durch vorübergehende Experimente bestätigt oder widerlegt werden. Die wissenschaftliche Methode besteht darin, die Hypothese beizubehalten, die die Daten am besten erklärt, und sie weiter zu erforschen, bis eine präzisere Hypothese gefunden wird.
 
@@ -534,16 +534,16 @@ Methodologie ist ein wesentlicher Aspekt in der Wirtschaft und den Sozialwissens
 
 # Abschließender Abschnitt
 
-<partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
+<partId>373760d2-4e6e-4a05-8081-6d02072457d7</partId>
 
 ## Bewertungen & Noten
 
-<chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
+<chapterId>2373a3ce-1c87-415a-8dd6-0437b4f71e79</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Abschlussprüfung
 
-<chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
+<chapterId>1c584ca3-c738-4151-8a85-101a142fcbbc</chapterId>
 <isCourseExam>true</isCourseExam>
 
 

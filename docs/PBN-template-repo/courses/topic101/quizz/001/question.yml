@@ -3,7 +3,7 @@
 # chapterId
 # Define to which course's chapter this question is related to
 # Use the chapterId that has been defined in the associated .md file
-chapterId: 4dc58281-5179-507c-afde-8c9204cbd3fd
+chapterId: 7f2e6074-c9e4-46a1-a6d5-5999803f366a
 
 # difficulty
 # Choose the difficulty of the question between easy, intermediate, hard, expert

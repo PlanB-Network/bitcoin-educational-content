@@ -16,7 +16,7 @@ Alekoksen ja Basin luoma ja melontwistin ja asi0:n mukauttama kurssi paljastaa, 
 # Johdanto
 
 
-<partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
+<partId>541d6444-caf8-4e5b-80c3-b97f4d883d57</partId>
 
 
 ## Kurssin yleiskatsaus
@@ -57,7 +57,7 @@ Oletko valmis hallitsemaan BTCPay Serveriä ja kasvattamaan liiketoimintaasi? Me
 ## Kriittistä suosiota tekijän Bitcoin- ja BTCPay-palvelimelle
 
 
-<chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
+<chapterId>f0645534-c825-40fb-a190-e24358e8accc</chapterId>
 
 
 Aloitetaan ymmärtämällä, mikä BTCPay Server on ja mistä se on peräisin. Arvostamme läpinäkyvyyttä ja tiettyjä standardeja luottamuksen muodostamiseksi Bitcoin-avaruudessa.
@@ -113,7 +113,7 @@ BTCPay Server Foundation, jonka ansiosta Alekos ja Bas saivat kirjoittaa tämän
 ## Johdanto Bitcoin:een
 
 
-<chapterId>5c0bc234-c188-5b4a-94d5-adee87a120e2</chapterId>
+<chapterId>ba6af1e5-86f1-4139-a549-df2367d6319a</chapterId>
 
 
 ### Bitcoin:n ymmärtäminen luokkahuoneharjoituksen avulla
@@ -217,7 +217,7 @@ Asiakkaat ostavat tuotteen kaupasta Bitcoin:llä.
 ## Tietojen arviointi
 
 
-<chapterId>1461f064-933d-50ea-8935-324b68ec5d5f</chapterId>
+<chapterId>c8cec6af-1e57-4a0e-a86a-7dc35f5c2350</chapterId>
 
 
 ### KA Luokkahuonekeskustelu
@@ -248,13 +248,13 @@ Blockchain, transaktio, tuplalaskutus, Bysantin kenraaliongelma, Mining, Proof o
 # BTCPay-palvelimen esittely
 
 
-<partId>9c8a2d0c-9ba1-5c39-874c-f9eaf1bba663</partId>
+<partId>8a8bbf80-1322-4ad0-b49c-9c18b969236d</partId>
 
 
 ## BTCPay Serverin kirjautumisnäytön ymmärtäminen
 
 
-<chapterId>14aad54c-9bd8-54f2-9455-178b8ae63408</chapterId>
+<chapterId>2d35d204-1c04-418f-91eb-a7a547ddc210</chapterId>
 
 
 ### Työskentely BTCPay-palvelimen kanssa
@@ -355,7 +355,7 @@ Anna syitä siihen, miksi demopalvelimen käyttö tuotantotarkoituksiin on huono
 ## Käyttäjätilien hallinta
 
 
-<chapterId>b58ca6ee-b7fc-5e81-a6aa-c8ff212b4c55</chapterId>
+<chapterId>7f2dcbc7-ba0b-4515-bf6d-d23ab19c1831</chapterId>
 
 
 ### Tilinhallinta BTCPay-palvelimella
@@ -475,7 +475,7 @@ Kuvaile, miten sovelluspohjainen 2FA auttaa turvaamaan tilisi.
 ## Uuden myymälän luominen
 
 
-<chapterId>463b3634-b49f-5512-a711-3b2e096fc2e0</chapterId>
+<chapterId>6e8d48b0-b9b6-4fbd-8961-5cde37109c0d</chapterId>
 
 
 ### Luo ohjattu myymälä
@@ -561,13 +561,13 @@ Tässä jaksossa opit:
 # Johdanto Bitcoin-avaimien suojaamiseen
 
 
-<partId>25da22d8-fd37-51c5-af2a-58b9f3b046b2</partId>
+<partId>dd0975de-76e6-4255-a3b2-e454009d1aa5</partId>
 
 
 ## Bitcoin-avainten tuottamisen ymmärtäminen
 
 
-<chapterId>d162735b-847b-578e-83b8-a044ab703ec5</chapterId>
+<chapterId>8a6164a5-aea6-4348-aa71-135d03de98bc</chapterId>
 
 
 ### Mitä Bitcoin-avainten tuottamiseen liittyy?
@@ -640,7 +640,7 @@ Kuvaile, mitä hyötyä uusien osoitteiden käyttämisestä kussakin tapahtumass
 ## Avainten varmistaminen Hardware Wallet:lla
 
 
-<chapterId>c54a6d61-5a43-5fdb-93ae-c6750de9c612</chapterId>
+<chapterId>94cf5f31-7292-4608-b10e-8e46b1ebd627</chapterId>
 
 
 ### Bitcoin-avainten tallentaminen
@@ -701,7 +701,7 @@ Tässä jaksossa opit:
 ## Bitcoin-näppäinten käyttäminen
 
 
-<chapterId>bff488de-5052-56e6-b696-97e896f762ae</chapterId>
+<chapterId>ae5aafd5-28b7-4ef7-8ebc-3ac5f19769c7</chapterId>
 
 
 ### BTCPay-palvelin Wallet
@@ -1039,7 +1039,7 @@ Kuvaile menetelmä avainten tuottamiseksi ja niiden suojausjärjestelmä sekä s
 ## BTCPay-palvelimen salama Wallet
 
 
-<chapterId>1bbece7e-0197-57e6-a93a-561cf384d946</chapterId>
+<chapterId>ca874f9a-4f97-44d5-9bf4-57c8b17d25bf</chapterId>
 
 
 Kun palvelimen ylläpitäjä perustaa uuden BTCPay Server -instanssin, hän voi määrittää Lightning Network-toteutuksen, kuten LND:n, Core Lightningin tai Eclairin; katso tarkemmat asennusohjeet kohdasta BTCPay Serverin konfigurointi.
@@ -1289,13 +1289,13 @@ Kuvaile joitakin eri vaihtoehtoja Lightning Wallet:n liittämiseksi myymälääs
 # BTCPay-palvelin Interface
 
 
-<partId>25e88b81-e1ab-515f-a035-09f2a3075556</partId>
+<partId>76b4a36d-9cf8-469d-a763-a75cc38c812a</partId>
 
 
 ## Yleiskatsaus kojelautaan
 
 
-<chapterId>410ff28b-a272-5c91-93e0-48d5b28c53ab</chapterId>
+<chapterId>8bd1c31e-a487-4c32-b3af-bcecc7117a80</chapterId>
 
 
 BTCPay Server on modulaarinen ohjelmistopaketti. On kuitenkin olemassa standardeja, joita jokaisen BTCPay Serverin on noudatettava, ja nämä standardit ohjaavat järjestelmänvalvojan ja käyttäjien välistä vuorovaikutusta. Aloitetaan kojelaudasta. Jokaisen BTCPay Server -palvelimen tärkein sisäänkirjautumiskohta kirjautumisen jälkeen. Dashboard tarjoaa yleiskatsauksen kauppasi suorituskyvystä, Wallet:n tämänhetkisestä saldosta ja viimeisten 7 päivän tapahtumista. Koska kyseessä on modulaarinen näkymä, liitännäisohjelmat voivat käyttää tätä näkymää hyödykseen ja luoda omia laatoituksiaan Dashboardiin. Tällä kurssilla käsittelemme vain vakiolisäosia ja -sovelluksia sekä niiden näkymiä koko BTCPay Serverissä.
@@ -1419,7 +1419,7 @@ Luettele muistista niin monta laattaa kuin mahdollista Dashboardista.
 ## BTCPay Server - Tallennusasetukset
 
 
-<chapterId>e8faef7b-278d-550e-a511-bc3a442daf64</chapterId>
+<chapterId>00ff7c8c-46f9-4d88-92cc-c63e4ff348f9</chapterId>
 
 
 BTCPay Server -ohjelmistossa on kahdenlaisia asetuksia. BTCPay Server -kauppakohtaiset asetukset, asetuspainike, joka löytyy vasemmasta valikkorivistä Dashboardin alapuolelta, ja BTCPay Server -asetukset, jotka löytyvät valikkorivin alareunasta, suoraan Accountin yläpuolelta. BTCPay Server -palvelinkohtaisia asetuksia voivat tarkastella vain palvelimen ylläpitäjät.
@@ -1874,7 +1874,7 @@ Kuvaile joitakin vaihtoehtoja, jotka voit valita kohdassa Kassan ulkoasu > Invoi
 ## BTCPay Server - Palvelimen asetukset
 
 
-<chapterId>1dd858a2-49ea-586b-9bc1-75a65f508df6</chapterId>
+<chapterId>07022d6d-594f-46d7-8363-c8c16a561f4f</chapterId>
 
 
 BTCPay Server koostuu kahdesta eri asetusnäkymästä. Toinen on omistettu Store-asetuksille ja toinen Server-asetuksille. Jälkimmäinen on vain palvelimen ylläpitäjien käytettävissä, ei myymälän omistajien. Palvelimen ylläpitäjät voivat lisätä käyttäjiä, luoda mukautettuja rooleja, määrittää sähköpostipalvelimen, asettaa käytäntöjä, suorittaa ylläpitotehtäviä, tarkistaa kaikki BTCPay Serveriin liitetyt palvelut, ladata tiedostoja palvelimelle tai tarkistaa lokit.
@@ -2440,7 +2440,7 @@ Kuvaile joitakin toimia, joita järjestelmänvalvoja voi tehdä rutiininomaisest
 ## BTCPay-palvelin - Maksut
 
 
-<chapterId>e2b71ff9-3f4f-5e71-9771-8e03fbbef00f</chapterId>
+<chapterId>1f6899d4-85c1-41fe-8f23-4a7bec44e9c2</chapterId>
 
 
 Invoice on asiakirja, jonka myyjä antaa ostajalle maksun perimiseksi.
@@ -2786,7 +2786,7 @@ Miten vetomaksut laajentavat sitä, mitä tyypillisesti voidaan tehdä On-Chain:
 ## BTCPay-palvelimen oletusliitännäiset
 
 
-<chapterId>7d673dc4-bd5d-5411-819b-f135f1d86636</chapterId>
+<chapterId>2d994561-7f8d-4862-8b9f-cee7d81df6f2</chapterId>
 
 
 ### Oletusliittimet ja -sovellukset
@@ -3273,13 +3273,13 @@ Mitkä ovat BTCPay Serverin kolme sisäänrakennettua lisäosaa? Kuvaile muutama
 # BTCPay-palvelimen määrittäminen
 
 
-<partId>ff38596c-7de3-5e5c-ba50-9b9edbbbb5eb</partId>
+<partId>c3a8bd83-0676-4388-87b2-325d67f43d9d</partId>
 
 
 ## Perusymmärrys BTCPay-palvelimen asentamisesta LunaNode-ympäristöön
 
 
-<chapterId>d0a28514-ffcf-529b-9156-29141f0b060a</chapterId>
+<chapterId>f0f934af-eb3c-4d86-bd7b-3fee8fb7c10e</chapterId>
 
 
 ### BTCPay-palvelimen asentaminen isännöidylle ympäristölle (LunaNode)
@@ -3418,7 +3418,7 @@ Kuvaile joitakin eroja BTCPay Server -palvelimen käyttämisen välillä VPS:ll�
 ## BTCPay Serverin asentaminen Voltage-ympäristöön
 
 
-<chapterId>11c7d284-b4d2-5542-872c-df9bd9c1491b</chapterId>
+<chapterId>ef790587-4c73-4311-96f1-5a9219b9a7fd</chapterId>
 
 
 Tutustut Voltage.cloudiin hosting-palveluntarjoajana, opit BTCPay-palvelimen käytön ensimmäiset vaiheet ja Lightning Network:n käytön. Kun olemme käyneet läpi kaikki vaiheet, voit ylläpitää verkkokauppaa tai joukkorahoitusalustaa, joka hyväksyy Bitcoin:n!
@@ -3491,7 +3491,7 @@ Mitkä ovat keskeiset erot Voltage- ja LunaNode-asetusten välillä?
 ## BTCPay-palvelimen asentaminen Umbrel-solmuun
 
 
-<chapterId>3298e292-6476-5fe0-836c-7fa021348799</chapterId>
+<chapterId>bdd94bfc-c8da-4c8b-8b0e-ed4f9a5dd42e</chapterId>
 
 
 Näiden vaiheiden päätteeksi voit hyväksyä salamamaksuja BTCPay-kauppaan paikallisessa verkossa. Tätä prosessia sovelletaan myös, jos ylläpidät sateenvarjosolmua ravintolassa tai yrityksessä. Jos haluat liittää tämän kaupan julkiseen verkkosivustoon, noudata harjoitusta Edistyneet, jotta voit paljastaa umbrel-solmusi yleisölle.
@@ -3580,20 +3580,20 @@ Miten Umbrelin asetukset eroavat kahdesta edellisestä isännöintivaihtoehdosta
 # Viimeinen jakso
 
 
-<partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
+<partId>5449bff6-f410-4f2a-a373-7b915bb6d726</partId>
 
 
 
 
 ## Arvostelut & arvostelut
 
-<chapterId>d90bb93d-b894-551e-9fd6-6855c739a904</chapterId>
+<chapterId>bf665be7-1be0-4d54-b8c6-64fbb40c9190</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Kurssin johtopäätökset
 
 
-<chapterId>c07ac2a5-f97e-5c57-8a80-4955b48128d4</chapterId>
+<chapterId>bbda2002-757d-4dad-8c8a-ff95cec77077</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

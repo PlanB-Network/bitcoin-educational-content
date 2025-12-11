@@ -59,13 +59,13 @@ Jste připraveni znovu objevit francouzské kořeny ekonomického liberalismu? P
 # Předchůdci
 
 
-<partId>91565b10-6010-53cb-a2f4-9c2306c7ef8c</partId>
+<partId>c77622e2-0e20-4de1-a55d-380a454185bc</partId>
 
 
 ## Historické pozadí
 
 
-<chapterId>6a5fd101-6dfd-5d77-96c7-9e1aa4a19758</chapterId>
+<chapterId>eb7344f4-ec44-43ae-83e5-e764e22b7c11</chapterId>
 
 
 Na počátku 18. století se Francie nacházela ve znepokojivém stavu. Venkovské obyvatelstvo sotva vydělávalo na živobytí a bylo zatíženo vysokými daněmi.
@@ -145,7 +145,7 @@ Těmito čtyřmi zásadami se řídila francouzská vláda po několik desetilet
 ## Vauban
 
 
-<chapterId>ee9c1e0e-96cc-5026-a5e2-963d68122786</chapterId>
+<chapterId>6b77468d-b8e3-47d2-b304-c290eea1c7d9</chapterId>
 
 
 Dnes, kdy daňový tlak v naší zemi stále roste a hrozí, že zadusí národní ekonomické síly, se ozývají hlasy pro změnu. Ať už vědomě, nebo ne, tato volání po reformě často odrážejí práci francouzských ekonomů, kteří již od 17. století kritizovali národní daňový systém jako chaotický, despotický a nadměrný.
@@ -212,7 +212,7 @@ Krátce před jeho smrtí přijali Vaubanovu myšlenku ministři Ludvíka XIV. V
 ## Boisguilbert
 
 
-<chapterId>200149c6-b5fc-566e-ab0e-bafb1c3fed3c</chapterId>
+<chapterId>e5dd73e0-e48e-43e7-a9af-d651414cfc6b</chapterId>
 
 
 Jen málo francouzských ekonomů minulosti se dnes ve své vlasti těší uznání, které odpovídá jejich přínosu, a Boisguilbert není výjimkou.
@@ -272,7 +272,7 @@ Boisguilbert dokonce kritizoval "dobré duše", jak je nazýval, ty, kteří to 
 ## Cantillon
 
 
-<chapterId>bc206d41-6a64-5688-a489-40fcfa0e5397</chapterId>
+<chapterId>7a6654fe-874e-45ca-a98f-1f3d17c09f24</chapterId>
 
 
 Richard Cantillon, autor "Esej o povaze obchodu obecně" (napsané kolem roku 1730, vydané v roce 1755), je považován za jednoho z průkopníků moderní ekonomické vědy. Ekonom Murray Rothbard ve svých Dějinách ekonomického myšlení dokonce označuje Cantillona za zakladatele moderní ekonomie.
@@ -335,13 +335,13 @@ Touto teorií o účincích inflace nám Cantillon poskytuje odpovědi na řadu 
 # Reformátoři a myslitelé počátku 18. století
 
 
-<partId>1f7b50d4-ce93-5db3-8396-43c1fa5419ff</partId>
+<partId>c4403d75-884e-4922-8be7-5121e2709d6a</partId>
 
 
 ## Opat ze Saint-Pierre
 
 
-<chapterId>13478fe2-4c12-593c-a410-54c2cfb7ef7f</chapterId>
+<chapterId>756469cd-d78c-49aa-926f-7c134e8aa4c6</chapterId>
 
 
 Ze všech autorů, které jsme se rozhodli zařadit do panteonu francouzských laissez-faire myslitelů 18. století, je opat ze Saint-Pierre bezpochyby nejvíce přehlíženým.
@@ -407,7 +407,7 @@ Dříve než Vincent de Gournay také zdůrazňoval hodnotu práce a důležitos
 ## Markýz d'Argenson
 
 
-<chapterId>e9960ab4-72ec-5afd-8e97-bf89c83b62bc</chapterId>
+<chapterId>3f0c9654-a6f7-47db-8859-836c592127db</chapterId>
 
 
 Markýz d'Argenson je zapomenutým zakladatelem doktríny laissez-faire.
@@ -479,7 +479,7 @@ Na otázku obchodu s obživou neměl d'Argenson jinou odpověď než svobodu. Ne
 ## Vincent de Gournay
 
 
-<chapterId>e8ae40dc-7450-552f-9ddc-9e02936cf425</chapterId>
+<chapterId>7446cc6a-9631-49ca-ac85-c477537b3a8d</chapterId>
 
 
 Vincent de Gournay byl jedním z prvních představitelů laissez-faire ve Francii a jedním z jeho prvních zastánců ve veřejné správě a intelektuálních kruzích. Z tohoto důvodu si v dějinách ekonomického myšlení zaslouží mnohem větší uznání, než se mu obvykle dostává. Jeho přínos jsem se pokusil vyzdvihnout v nedávno vydané knize.
@@ -548,7 +548,7 @@ O mnoho let později napsal Turgot, budoucí ministr Ludvíka XVI., po smrti sv�
 ## Kruh Gournay
 
 
-<chapterId>b86ba6bd-8f3a-5d8f-b098-4d0413f00deb</chapterId>
+<chapterId>6e2a0dbe-3afb-4071-b5f8-ab400da3e891</chapterId>
 
 
 Pokud jde o počátky ekonomické vědy, historie má tendenci zdůrazňovat první myšlenkovou školu: fyziokraty v čele s Françoisem Quesnayem a jeho žáky. Téměř deset let před jejich nástupem však existovala jiná, méně formální, ale stejně významná skupina soustředěná kolem ekonoma Vincenta de Gournay.
@@ -626,7 +626,7 @@ A skutečně, v 50. letech 19. století se ekonomické otázky staly módními. 
 ## Mirabeau
 
 
-<chapterId>2d2f802b-e3b6-556f-9025-a1b1dc4409ca</chapterId>
+<chapterId>5a11f48f-03ee-4c58-876e-f1c49fbb377a</chapterId>
 
 
 Francie zná dva slavné muže jménem Mirabeau, otce a syna, ale byl to syn, kdo se skutečně zapsal do dějin. Revoluční tribun a jedna z ústředních postav událostí Francouzské revoluce zůstal slavným.
@@ -715,7 +715,7 @@ Mirabeau zůstal po celý život neúnavným spisovatelem. Byl autorem mnoha eko
 ## Quesnay
 
 
-<chapterId>7a35f20b-5ea0-544d-b290-bcd9c6f7f11a</chapterId>
+<chapterId>6025f746-08fe-4406-8793-a0f5b9d64a45</chapterId>
 
 
 François Quesnay je jedním z nejznámějších francouzských ekonomů.
@@ -797,13 +797,13 @@ V této knize jsou shromážděny hlavní Quesnayovy příspěvky. Vyložil v n�
 # Fyziokratická škola
 
 
-<partId>27af82c1-ad82-5c3b-8ce9-c674b67bbf7c</partId>
+<partId>d8a123a2-c47e-4aa4-873b-1b5a75fe313b</partId>
 
 
 ## Dějiny fyziokratů
 
 
-<chapterId>4236ff8b-b53a-59e7-92c0-f96f9afa1c00</chapterId>
+<chapterId>b039837d-d765-43fc-a3dd-e492d7caf4c3</chapterId>
 
 
 Fyziokracie se stala ve Francii, a dokonce i v celé Evropě, módní sotva na deset let. Po dlouhém období vývoje se dostala do popředí v polovině 60. let 17. století. V době, kdy se v roce 1776 dostal k moci Turgot, již toto hnutí ztratilo na popularitě a ministr svou podporu Quesnayově škole většinou tajil.
@@ -876,7 +876,7 @@ Fyziokracie měla vliv až do revoluce. Ve Francii nejprve prostřednictvím Tur
 ## Základy učení fyziokratů
 
 
-<chapterId>4dbe5436-0578-57c2-b054-03ed00aa091a</chapterId>
+<chapterId>57beea84-ff70-4757-b5f4-9f2d18deec18</chapterId>
 
 Termín "fyziokracie", který znamená "vláda přírody", vymyslel Dupont de Nemours a použil ho jako název sbírky Quesnayových článků *Fyziokracie* vydané v roce 1768.
 
@@ -975,7 +975,7 @@ Fyziokraté byli zarytými odpůrci otroctví a zároveň velkými pacifisty. "N
 ## Úspěchy a vlivy fyziokratů
 
 
-<chapterId>5b911105-796a-5e2e-a501-c7a364fc758e</chapterId>
+<chapterId>9ebd22fa-9f00-4148-871b-7e12874b18c0</chapterId>
 
 
 Jak jsme viděli v první ze tří kapitol věnovaných fyziokratům, Quesnayovi stoupenci byli ve Francii po desetiletí na vzestupu. Nadšení pro jejich myšlenky se projevilo jak v jejich době, tak pokračovalo až do konce století. Zde se podíváme na některé jejich úspěchy a vliv, který měli na své následovníky v oblasti ekonomického myšlení.
@@ -1054,7 +1054,7 @@ Quesnay bohužel zemřel dva roky před vydáním Smithovy knihy a Smith věnov�
 ## Dupont de Nemours
 
 
-<chapterId>6d585e0f-93b8-5b0a-a0a8-7f6e4a5bc68e</chapterId>
+<chapterId>be6cf3ea-a927-4407-b232-98c703a3a4ed</chapterId>
 
 
 
@@ -1145,13 +1145,13 @@ Přes tento bohatý život, během něhož publikoval desítky článků, brožu
 # Osvícenství a politická ekonomie
 
 
-<partId>d1c885ad-7cb1-5f81-816c-be312719d9f8</partId>
+<partId>c8a1fe43-bdb6-48d8-9542-4d086cdffab3</partId>
 
 
 ## Voltaire a filozofové
 
 
-<chapterId>16bcf7bf-dad4-5113-8c64-2800f04ff07b</chapterId>
+<chapterId>57749874-730e-452d-a53d-d3297eb81e9f</chapterId>
 
 
 V 18. století vznikla ve Francii ekonomie jako věda a první škola ekonomického myšlení: Fyziokracie. Adam Smith se v tomto období vzdělával v ekonomii a francouzští ekonomové byli celosvětově uznáváni jako vůdčí osobnosti. Toto století je však připomínáno spíše jako století filozofie než ekonomie. Fyziokratické hnutí se sice svými ambicemi shodovalo s osvícenskou filozofií, ale postoje filozofů - zejména Diderota a Voltaira - si zaslouží bližší zkoumání. Uvidíme, že osvícenští myslitelé významně přispěli k šíření myšlenky laissez-faire ve Francii.
@@ -1210,7 +1210,7 @@ Vztah filosofů k ekonomickému myšlení je nakonec smíšený. Navzdory jejich
 ## Turgot, teoretik
 
 
-<chapterId>a8cd8185-8351-556b-8011-3a0c313e8a9d</chapterId>
+<chapterId>e6b12aac-aa56-4932-8ca2-67efb9aa4d72</chapterId>
 
 
 Americký ekonom Murray Rothbard v jedné slavné pasáži ze své knihy *Historie ekonomického myšlení* vyzdvihl Turgotovu "genialitu".
@@ -1307,7 +1307,7 @@ Zde nacházíme velmi jasné vyjádření doktríny laissez-faire a zároveň p�
 ## Turgot, reformátor
 
 
-<chapterId>9177429f-1679-51c4-bfd2-dd036d24a1cc</chapterId>
+<chapterId>32c45d6f-511e-48d4-980f-aca5f2ec8464</chapterId>
 
 
 Jak jsme si krátce připomněli v předchozí kapitole, Turgot pocházel z významné rodiny, která se prosadila ve vyšších kruzích francouzské státní správy.
@@ -1388,7 +1388,7 @@ Nakonec zvítězily parlamety a privilegované vrstvy. Král mohl jen soukromě 
 ## Condillac
 
 
-<chapterId>0ba8dbb5-dcd5-5981-bf85-6c185e0bf192</chapterId>
+<chapterId>f3f1683a-4bcd-4b2a-b5d1-ec0e94c3b457</chapterId>
 
 
 Stejně jako merkantilismus, který je jeho nejzřetelnějším praktickým projevem, i Montaignův sofismus dlouho zanikal.
@@ -1467,7 +1467,7 @@ Zcela tak vyvracejí kritiku volného obchodu, protože protekcionismus se jeví
 ## Condorcet
 
 
-<chapterId>99e4aba6-da7f-5041-b02f-337158381515</chapterId>
+<chapterId>55fbdf44-8975-44af-b161-f36d69a49347</chapterId>
 
 
 Condorcet je bezpochyby nejekonomičtěji smýšlejícím filozofem osvícenství.
@@ -1524,7 +1524,7 @@ Ačkoli věnoval veškerou svou energii obhajobě Turgota, Condorcet si nedělal
 ## Liberální zdravý rozum za revoluce
 
 
-<chapterId>95e9a90d-e37a-58ff-b1ac-928b42e76ecf</chapterId>
+<chapterId>37ad7db0-ed45-44ba-8bef-d1fa323dbe8e</chapterId>
 
 
 Dupont de Nemours byl nejmladším žákem Françoise Quesnaye, který o něm jednou řekl: "Musíme se o tohoto mladého muže postarat, protože bude mluvit, až my zemřeme." Když začala Francouzská revoluce, téměř všichni velcí fyziokraté včetně markýze de Mirabeau již nežili; sám Mirabeau zemřel 13. července 1789.
@@ -1598,7 +1598,7 @@ Ale opět ho nikdo neposlouchal.
 ## Závěr: Předávání pochodně
 
 
-<chapterId>ada8082f-db96-5e52-954f-719b47998153</chapterId>
+<chapterId>691a1639-3e28-4401-bc29-6b17abcfc333</chapterId>
 
 
 Francouzské ekonomické myšlení 18. století je často zastíněno slavnějšími ekonomy 19. století. Pokud však jde o obranu svobody, v 18. století vše skutečně začíná. Je to století, v němž byla zásada laissez-faire, ve své době tak revoluční, poprvé jasně vyjádřena řadou myslitelů od Boisguilberta po Duponta de Nemours.
@@ -1652,7 +1652,7 @@ Všechny tyto myšlenky převzali ekonomové 19. století. Někteří z nich, ja
 ## Životopis
 
 
-<chapterId>17cf2865-e53c-5f3b-a5c2-a43560efaf01</chapterId>
+<chapterId>9daf678b-2687-4a2f-a490-8826538c1b49</chapterId>
 
 
 **VÝBĚROVÁ BIBLIOGRAFIE**
@@ -1735,27 +1735,27 @@ Níže najdete výběr více než třiceti textů:
 # Závěrečná část
 
 
-<partId>385bffab-aea1-5bcd-9569-62b3f30665b7</partId>
+<partId>aa809524-47cd-4945-92d0-2e674b98e2e2</partId>
 
 
 ## Recenze a hodnocení
 
 
-<chapterId>a1e689d9-abd0-5dcb-ba56-a8d355d0a84f</chapterId>
+<chapterId>e13b6e40-2801-4e3c-8ed1-1c9144f47e27</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Závěrečná zkouška
 
 
-<chapterId>bdb7fd98-33e7-11f0-9fe6-b785c859ffc5</chapterId>
+<chapterId>9da23eb9-a79c-4cf3-8b73-b64a9b3f45d1</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## Závěr
 
 
-<chapterId>3b366ff6-03c8-5f6a-b4c0-ba8186e65d7e</chapterId>
+<chapterId>027ecdbb-a845-4232-be81-92e1b7101618</chapterId>
 
 
 <isCourseConclusion>true</isCourseConclusion>

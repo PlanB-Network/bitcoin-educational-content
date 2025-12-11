@@ -37,11 +37,11 @@ Kursus ini telah disponsori oleh TETHER
 
 # Pengantar
 
-<partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
+<partId>952e9c3d-4e88-44f8-942b-0b0643fee52e</partId>
 
 ## Ikhtisar Kursus
 
-<chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+<chapterId>3498530e-7910-4aa0-a2a9-63cca97c5d74</chapterId>
 Selamat datang di kursus ECO104!
 
 **Kita hidup di dunia di mana:**
@@ -83,11 +83,11 @@ Kami sangat senang memiliki Anda bergabung dengan kami dalam perjalanan ini ke k
 
 # Harga Kemajuan - Tinjauan Lebih Dekat pada Sistem Keuangan Kita
 
-<partId>25ed8242-1b5a-5b53-b833-824b0dd80bcc</partId>
+<partId>a318d7e4-cb95-4016-9e4f-c4019c902b95</partId>
 
 ## Pengenalan ke Uang
 
-<chapterId>927ad49a-d8d6-5dd3-9250-cdcadcbf425e</chapterId>
+<chapterId>7ad6dcd5-339f-4d9e-a720-3d62e82408a9</chapterId>
 Uang adalah bagian yang menarik dan esensial dari kehidupan sehari-hari kita. Kita menggunakannya setiap hari untuk membeli bahan makanan, membayar tagihan, dan melakukan transaksi tak terhitung jumlahnya. Tapi, sebenarnya apa itu uang? Pada intinya, uang hanyalah sebuah alat tukar, sebuah alat yang memungkinkan kita untuk berdagang barang dan jasa satu sama lain. Ini adalah konsep abstrak yang kita anggap remeh, namun fundamental bagi sistem ekonomi kita.
 Namun, tidak semua uang diciptakan sama. Beberapa bentuk uang lebih baik dari yang lain, tergantung pada kemampuannya untuk berfungsi sebagai penyimpan nilai, alat tukar, dan satuan akun. Emas, misalnya, telah sangat dihargai selama ribuan tahun karena ketahanan dan kelangkaannya. Di sisi lain, uang kertas hanya seberharga kepercayaan yang kita tempatkan pada institusi yang menerbitkannya.
 
@@ -166,7 +166,7 @@ Dari barter hingga penemuan koin dan mata uang kertas, uang telah mengalami sera
 
 ## Sebuah Pemeriksaan Bagaimana Kita Sampai di Sini
 
-<chapterId>4c8ebb36-a6d5-5637-93ca-9a4a222a1c58</chapterId>
+<chapterId>e9dc9f53-dcab-4469-a482-882e89dca77e</chapterId>
 
 Dari zaman barter barang hingga era modern mata uang digital, uang telah mengalami evolusi yang menarik. Leluhur kita menggunakan cangkang, manik-manik, dan bahkan ternak sebagai alat tukar. Saat ini, kita memiliki dompet virtual dan pembayaran tanpa kontak. Ini adalah perjalanan yang luar biasa yang telah melihat berbagai iterasi, kompromi, dan adaptasi untuk memenuhi kebutuhan masyarakat yang selalu berubah.
 
@@ -305,7 +305,7 @@ Saat kita melanjutkan eksplorasi dunia uang, penting untuk mengakui perubahan si
 
 ## Melihat di Mana Kita Berada dan Apa yang Dapat Kita Harapkan ke Depan
 
-<chapterId>0c38e8fd-c973-57a5-a673-abec706f6054</chapterId>
+<chapterId>ce2d4ac3-d766-4d85-a796-0be14376702f</chapterId>
 
 Seperti yang kita bahas di bab sebelumnya, secara historis, uang sering didukung oleh komoditas seperti emas. Manfaat dari hal ini tidak bisa dilebih-lebihkan. Tidak hanya koneksi ini berarti bahwa nilai uang tersebut secara langsung terikat pada nilai komoditas, tetapi juga berarti bahwa penerbit mata uang, biasanya pemerintah, dibatasi dalam berapa banyak uang yang bisa mereka cetak karena mereka harus mendapatkan lebih banyak emas.
 
@@ -441,7 +441,7 @@ Saat kita maju, kami mendorong Anda untuk mendekati teknologi baru ini dengan pi
 
 ## Ujian
 
-<chapterId>f25c229f-2af0-5324-bc40-e90f7668985a</chapterId>
+<chapterId>0240a320-fb4d-4150-acf6-0cd9c7570761</chapterId>
 
 Sekarang setelah Anda melewati Modul "Harga Kemajuan", Anda harus menguji pengetahuan baru yang Anda peroleh untuk memastikan bahwa Anda telah memahami bagian terakhir. Kami akan memulai dengan beberapa Pertanyaan Terbuka dan kemudian kuis kecil.
 
@@ -453,11 +453,11 @@ Sekarang setelah Anda melewati Modul "Harga Kemajuan", Anda harus menguji penget
 
 # Pembebasan Finansial - Pengenalan ke Bitcoin
 
-<partId>c00843b2-bde3-57bb-ae2e-8ecad6631d71</partId>
+<partId>f66fdc60-a1a9-4a21-9242-d4f86af8c0e4</partId>
 
 ## Pelopor, Inovator, & Dasar-dasar Bitcoin
 
-<chapterId>37d779ce-46b5-56d1-91d8-d04442236e35</chapterId>
+<chapterId>03010901-b8d8-4e77-9d04-b9112fbabf6c</chapterId>
 
 Selamat datang di Modul Dua, di mana kita akan menjelajahi dunia Bitcoin yang menarik. Berdasarkan pemahaman kita tentang sejarah uang, modul ini akan mencakup topik-topik berikut:
 
@@ -559,7 +559,7 @@ Untuk mengakhiri, terlepas dari siapa Satoshi Nakamoto, tidak dapat disangkal ba
 
 ## Bagaimana Cara Kerja Bitcoin? Mekanisme Internal dari Uang Internet Ajaib Ini
 
-<chapterId>b0f736fc-ed4d-5887-b22e-d958db9144d1</chapterId>
+<chapterId>293a9dd7-fa9d-49e1-aaba-2fa1f6c7e580</chapterId>
 
 Bitcoin sering disebut sebagai uang internet ajaib... dan dengan alasan yang baik. Pikirkan tentang ini – dengan Bitcoin, Anda dapat mengirim nilai ke siapa pun, di mana pun di dunia, tanpa perlu perantara seperti bank atau pemerintah. Ini seperti memiliki kontrol atas bank pribadi Anda sendiri, kekuatan untuk mentransfer dana lintas batas hanya dengan beberapa klik tombol.
 
@@ -639,7 +639,7 @@ Setiap peran ini penting untuk fungsionalitas dan kesuksesan Bitcoin sebagai mat
 
 ## Apa yang Membuat Bitcoin Berbeda dari Fiat?
 
-<chapterId>5ef55778-cbcf-5c7e-960d-a2fcdf1a4006</chapterId>
+<chapterId>8ec83124-7544-4c76-8411-01c3ea32c126</chapterId>
 
 Di bagian sebelumnya, kita telah menyelami fungsionalitas unik Bitcoin yang membedakannya dari mata uang tradisional dan bagaimana Bitcoin mencapai lencana yang didambakan sebagai desentralisasi. Sekarang, mari kita beralih fokus dan jelajahi bagaimana Bitcoin berbeda dari fiat dalam hal karakteristik yang membuat sebuah mata uang hebat. Hanya dengan memeriksa karakteristik kunci ini kita dapat memperoleh pemahaman yang lebih dalam tentang mengapa Bitcoin unik dan berada dalam dunia sendiri ketika datang ke uang.
 
@@ -738,7 +738,7 @@ Lebih lanjut, atribut gabungan ini tidak hanya menempatkan Bitcoin sebagai instr
 
 ## Berinteraksi Dengan Bitcoin
 
-<chapterId>050a95af-e9c2-5ec3-b9c8-55ec174d309c</chapterId>
+<chapterId>898af852-84f8-45b8-b3e9-2adf85bb8576</chapterId>
 
 Bitcoin telah menggemparkan sistem moneter, menarik perhatian negara berkembang, individu yang paham teknologi, dan investor. Namun, dengan pertumbuhan cepatnya, banyak yang bertanya-tanya bagaimana aset digital ini dapat bersaing dengan metode pembayaran tradisional seperti Visa dan Mastercard. Selain itu, individu penasaran tentang bagaimana mereka dapat secara pribadi terlibat dengan Bitcoin.
 
@@ -842,7 +842,7 @@ Keuntungan terbesar Bitcoin adalah memungkinkan kita untuk memiliki hak asuh sen
 
 ## Ujian
 
-<chapterId>1c7b8165-d67b-5f7c-a1cb-b83db58b77c7</chapterId>
+<chapterId>a51bed11-0894-49a4-878f-9f31d79d7f9e</chapterId>
 
 Sekarang setelah Anda melewati Modul "An Examination of How We Got Here", Anda harus menguji pengetahuan baru yang Anda peroleh untuk memastikan bahwa Anda telah memahami bagian terakhir. Kami akan memulai dengan beberapa Pertanyaan Terbuka dan kemudian kuis kecil.
 
@@ -855,11 +855,11 @@ Sekarang setelah Anda melewati Modul "An Examination of How We Got Here", Anda h
 
 # Stabilitas di Tengah Kekacauan - Pengenalan ke Tether & Dunia Stablecoin
 
-<partId>60b1f3c4-e161-53fe-84ca-88d8cd62aa75</partId>
+<partId>bc2fa7dd-b3a8-430a-8cba-97faae477137</partId>
 
 ## Pengantar tentang Tether & Dunia Stablecoin
 
-<chapterId>427a72b5-8af7-503e-bc45-bb8b95483993</chapterId>
+<chapterId>65302477-a5c2-4555-b546-e4051066e1b1</chapterId>
 
 Seperti yang telah dibahas sebelumnya, uang telah menjadi bagian penting dari umat manusia selama ribuan tahun. Uang telah membantu kita membeli barang dan jasa, memungkinkan kita untuk berdagang satu sama lain, dan membantu kita dalam menyimpan kekayaan.
 
@@ -924,7 +924,7 @@ _**Catatan Samping:** Jangan khawatir jika beberapa istilah ini tidak terlalu ma
 
 ## Sejarah Stablecoin
 
-<chapterId>174e2cab-ef14-5e14-99c8-8457b6fc5fee</chapterId>
+<chapterId>e6bb95e1-5ba1-40d0-8b4a-3e6c1d1dd0a3</chapterId>
 
 Stablecoin telah menjadi topik populer di dunia cryptocurrency, menawarkan alternatif yang kurang volatil dalam jangka pendek untuk cryptocurrency seperti Bitcoin. Seperti yang dijelaskan dalam pengantar modul ini, stablecoin adalah aset digital yang dikaitkan dengan aset stabil seperti mata uang fiat atau logam mulia, dirancang untuk mempertahankan nilai yang stabil. Mari kita, oleh karena itu, menjelajahi sejarah stablecoin dan melihat lebih dekat beberapa stablecoin pertama, termasuk USDt Tether, stablecoin yang paling terkenal dan banyak digunakan.
 
@@ -949,7 +949,7 @@ Kesimpulannya, stablecoin telah menempuh perjalanan panjang sejak awal peluncura
 
 ## Karakteristik Stablecoin
 
-<chapterId>21765df7-53fd-58af-9df6-7208027a0c3a</chapterId>
+<chapterId>36e0ab1f-a3fe-42c1-8400-55fb770d9bf3</chapterId>
 
 Seperti yang seharusnya sudah jelas sekarang, stablecoin adalah jenis token digital yang dirancang untuk mempertahankan nilai stabil berdasarkan aset yang dipegang. Aset-aset ini dapat mencakup mata uang fiat, logam mulia, komoditas, atau kombinasi dari ini (misalnya, keranjang mata uang fiat).
 
@@ -1035,7 +1035,7 @@ Meskipun stablecoin sering dianggap aman karena sifatnya yang "stabil", penting 
 
 ## Keuntungan dari Penawaran Stablecoin Tether
 
-<chapterId>a6806b45-b92e-5791-8f5f-804098a522b2</chapterId>
+<chapterId>6a1aef8e-3fdf-426b-901c-6e1a26b6ad88</chapterId>
 Bertemu dengan Adanna, seorang wanita muda yang tinggal di sebuah desa pedesaan di Afrika di mana Franc CFA, yang telah kehilangan kekuatan beli yang mengejutkan sebesar [99,5%](https://bitcoinmagazine.com/culture/bitcoin-a-currency-of-decolonization) selama 70 tahun terakhir, adalah satu-satunya mata uang yang tersedia—membuat menabung menjadi sebuah kemustahilan. Adanna selalu tertarik dengan ide untuk memiliki kontrol atas uangnya, namun itu tetap menjadi mimpi yang mustahil hingga baru-baru ini. Mata uang yang dia gunakan diawasi oleh individu-individu yang terbukti tidak memiliki kepentingan terbaik bagi rakyatnya, dan lokasi pedesaannya membatasi aksesnya ke layanan perbankan. Akibatnya, Adanna tidak punya pilihan selain mengandalkan uang tunai, membuatnya rentan terhadap pencurian dan kehilangan selain penurunan daya beli.
 
 Tapi itu semua akan berubah.
@@ -1147,7 +1147,7 @@ Secara keseluruhan, stablecoin, seperti USDt dan XAUt, memiliki potensi untuk me
 
 ## Ujian
 
-<chapterId>1294d874-6edb-5feb-b070-0ead1836bd0b</chapterId>
+<chapterId>7abbc2a0-f98d-40a9-80ae-1cc397027cdc</chapterId>
 
 Sekarang setelah Anda melewati Modul "Stabilitas di Tengah Kekacauan" Anda harus menguji pengetahuan baru yang Anda peroleh untuk memastikan bahwa Anda telah memahami bagian terakhir. Kami akan memulai dengan beberapa Pertanyaan Terbuka dan kemudian kuis kecil.
 
@@ -1159,11 +1159,11 @@ Sekarang setelah Anda melewati Modul "Stabilitas di Tengah Kekacauan" Anda harus
 
 # Mengatasi Keraguan - Membongkar Kesalahpahaman Umum & Kasus Penggunaan Dunia Nyata
 
-<partId>246a7dc0-a203-5b2e-ae13-9c8f08e6bfad</partId>
+<partId>5e3f28ec-ff90-4272-af00-724e0ced0765</partId>
 
 ## Kesalahpahaman
 
-<chapterId>4da9319d-6306-500f-adbb-5fa31c673cd2</chapterId>
+<chapterId>c48b4889-5972-4139-b928-b56fb88b28d5</chapterId>
 
 Bitcoin telah dikelilingi oleh penolakan, kritik, dan kesalahpahaman sejak kelahirannya pada tahun 2009. Meskipun popularitas dan adopsinya bertumbuh, banyak yang masih menganggapnya sebagai gelembung yang siap meledak. Sejalan dengan hal tersebut, stablecoin juga menarik perhatian dan skeptisisme serupa. Ide mata uang yang didukung oleh aset stabil terdengar menjanjikan, tetapi banyak orang salah paham tentang cara kerja stablecoin dan dampak potensialnya terhadap sistem keuangan.
 
@@ -1455,7 +1455,7 @@ Pada akhirnya, masa depan keuangan terdesentralisasi berada di tangan mereka yan
 
 ## Roya Mahboob
 
-<chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
+<chapterId>e76ef439-44db-4cf4-b660-0ed33d913989</chapterId>
 
 Di dunia globalisasi saat ini, akses ke layanan keuangan merupakan komponen kritis dari partisipasi ekonomi dan kemandirian. Meskipun demikian, terlalu banyak individu masih dikecualikan dari sistem perbankan tradisional, dengan perempuan seringkali menanggung beban eksklusi ini. Mengejutkan, meskipun [seperempat](https://www.worldbank.org/en/publication/globalfindex) populasi global masih tidak memiliki rekening bank, di negara-negara seperti Arab Saudi, [36,5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) perempuan tidak memiliki akses ke layanan perbankan dasar, mencegah mereka dari berpartisipasi penuh dalam ekonomi dan masyarakat negara mereka.
 
@@ -1501,7 +1501,7 @@ Secara keseluruhan, Bitcoin telah menjadi alat yang kuat untuk pemberdayaan fina
 
 ## Mercedes
 
-<chapterId>dfa10b75-19f6-578a-9d14-a0a541806076</chapterId>
+<chapterId>a897e855-f7a6-406c-a5b9-7cc6783e2ddd</chapterId>
 Lahir di Meksiko pada tahun 1949 dalam keadaan miskin, Mercedes mengalami ketidaksetaraan yang mencolok dalam masyarakatnya sejak usia dini. Sepanjang masa kecilnya, ia menghadapi berbagai tantangan, termasuk represi pemerintah terhadap gerakan mahasiswa dan perjuangan unik yang dialami oleh wanita yang hidup dalam kemiskinan. Selain itu, jurang besar antara kaya dan miskin, dikombinasikan dengan akses terbatas ke pendidikan berkualitas, menjebak keluarganya dan banyak orang lain dalam kemiskinan. Frustrasi oleh ketidakadilan ini, Mercedes tertarik pada Marxisme (Komunisme), menganjurkan perubahan sosial dan reformasi ekonomi.
 
 Meskipun memiliki keyakinan Marxisme yang kuat, Mercedes akhirnya mengakui batasan inheren dari sistem tradisional ini dalam hal distribusi kekuasaan dan kekayaan. Kesadaran ini mendorongnya untuk mencari alternatif lain, yang saat itulah ia menemukan Bitcoin dan potensinya untuk menantang sistem keuangan yang telah lama ia kritik. Termotivasi oleh prospek untuk mendorong pembebasan dan pemberdayaan finansial, Mercedes mengalihkan energinya untuk menganjurkan potensi transformatif Bitcoin.
@@ -1522,7 +1522,7 @@ Kehidupan Mercedes telah menjadi perjalanan yang luar biasa, dan dampak Bitcoin 
 
 ## Cerita Stablecoin
 
-<chapterId>7b6d8d57-905d-5168-9be6-3df7c938de2a</chapterId>
+<chapterId>d22acc57-2b00-4a51-96b0-a350814f87d5</chapterId>
 Saat kita mendekati akhir kursus ini, kami ingin menyajikan kumpulan cerita inspiratif tentang stablecoin. Kesaksian ini menampilkan pengalaman nyata dari individu, pemilik bisnis, dan perusahaan yang telah memanfaatkan kekuatan stablecoin untuk meningkatkan kehidupan mereka.
 
 Dalam contoh berikut, Anda akan mendengar langsung dari mereka tentang bagaimana stablecoin telah memberdayakan kelompok orang yang beragam ini untuk menavigasi kompleksitas lanskap keuangan modern dengan lebih mudah dan efisien. Mulai dari transaksi internasional yang lancar dan peluang bisnis yang diperluas hingga inklusivitas keuangan yang ditingkatkan dan penyimpanan nilai yang lebih stabil, setiap cerita menyoroti dampak dari stablecoin pada perjalanan mereka masing-masing.
@@ -1608,7 +1608,7 @@ Kami berharap Anda menemukan cerita-cerita ini menginspirasi. Dengan demikian, s
 
 ## Ujian
 
-<chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
+<chapterId>002220e4-069b-4367-b153-ca19029412de</chapterId>
 
 Sekarang setelah Anda melewati Modul "Mengatasi Keraguan", Anda harus menguji pengetahuan baru yang Anda peroleh untuk memastikan bahwa Anda telah memahami bagian terakhir. Kami akan memulai dengan beberapa Pertanyaan Terbuka dan kemudian kuis kecil.
 
@@ -1620,7 +1620,7 @@ Sekarang setelah Anda melewati Modul "Mengatasi Keraguan", Anda harus menguji pe
 
 ## Penutup
 
-<chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
+<chapterId>1896c6b1-77d7-45bb-a798-bcdd27deb18b</chapterId>
 
 Selamat karena telah mencapai akhir kursus! Anda telah menempuh perjalanan yang panjang. Sepanjang perjalanan ini, kami telah menyelami berbagai topik, termasuk:
 
@@ -1649,7 +1649,7 @@ Masa Depan Cerah!
 
 ## Ulasan & Penilaian
 
-<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
+<chapterId>1ec641d0-0421-404b-88d3-bac725aca9dc</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Kesimpulan

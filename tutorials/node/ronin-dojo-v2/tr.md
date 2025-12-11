@@ -333,7 +333,7 @@ RoninUI ana sayfasına girdiğinizde, kurulumu başlatmanız istenecektir. Bunu 
 ![lets start](assets/notext/25.webp)
 
 
-Bu aşamada RoninUI size `root` şifrenizi sunar. Bunu güvende tutmak çok önemlidir. Fiziksel bir yedekleme, kağıt üzerinde veya bir [şifre yöneticisi] (https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f) içinde kaydetmeyi tercih edebilirsiniz.
+Bu aşamada RoninUI size `root` şifrenizi sunar. Bunu güvende tutmak çok önemlidir. Fiziksel bir yedekleme, kağıt üzerinde veya bir [şifre yöneticisi] (https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/fcdebe4d-e2ee-495a-b0e7-ae967250866c) içinde kaydetmeyi tercih edebilirsiniz.
 
 
 ![root password](assets/notext/26.webp)

@@ -4287,13 +4287,13 @@ sp1qqvhjvsq2vz8zwrw372vuzle7472zup2ql3pz64yn5cpkw5ngv2n6jq4nl8cgm6zmu48yk3eq33ry
 
 ## Отзывы и рейтинги
 
-<chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
+<chapterId>74228ce0-a31e-4a64-a25b-61295986d765</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Итоговый экзамен
 
-<chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
+<chapterId>906fc0d4-414c-4a1e-85c4-d634c5865ff5</chapterId>
 
 <isCourseExam>true</isCourseExam>
 

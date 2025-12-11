@@ -16,7 +16,7 @@ Niềm tin rất mong manh, đặc biệt khi liên quan đến tiền bạc. Kh
 # Giới thiệu
 
 
-<partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
+<partId>541d6444-caf8-4e5b-80c3-b97f4d883d57</partId>
 
 
 ## Tổng quan về khóa học
@@ -57,7 +57,7 @@ Bạn đã sẵn sàng làm chủ BTCPay Server và phát triển doanh nghiệp
 ## Sự hoan nghênh của giới phê bình dành cho Bitcoin và Máy chủ BTCPay của Tác giả
 
 
-<chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
+<chapterId>f0645534-c825-40fb-a190-e24358e8accc</chapterId>
 
 
 Hãy bắt đầu bằng việc tìm hiểu BTCPay Server là gì và nguồn gốc của nó. Chúng tôi coi trọng tính minh bạch và các tiêu chuẩn nhất định để tạo dựng niềm tin trong không gian Bitcoin.
@@ -113,7 +113,7 @@ Quỹ BTCPay Server, nơi đã cho phép Alekos và Bas viết khóa học này,
 ## Giới thiệu về Bitcoin
 
 
-<chapterId>5c0bc234-c188-5b4a-94d5-adee87a120e2</chapterId>
+<chapterId>ba6af1e5-86f1-4139-a549-df2367d6319a</chapterId>
 
 
 ### Hiểu Bitcoin thông qua bài tập trên lớp
@@ -216,7 +216,7 @@ Khách hàng mua sản phẩm tại cửa hàng bằng Bitcoin.
 ## Đánh giá kiến thức
 
 
-<chapterId>1461f064-933d-50ea-8935-324b68ec5d5f</chapterId>
+<chapterId>c8cec6af-1e57-4a0e-a86a-7dc35f5c2350</chapterId>
 
 
 ### Thảo luận lớp học KA
@@ -247,13 +247,13 @@ Blockchain, Giao dịch, Chi tiêu gấp đôi, Bài toán của các vị tư�
 # Giới thiệu Máy chủ BTCPay
 
 
-<partId>9c8a2d0c-9ba1-5c39-874c-f9eaf1bba663</partId>
+<partId>8a8bbf80-1322-4ad0-b49c-9c18b969236d</partId>
 
 
 ## Hiểu về màn hình đăng nhập Máy chủ BTCPay
 
 
-<chapterId>14aad54c-9bd8-54f2-9455-178b8ae63408</chapterId>
+<chapterId>2d35d204-1c04-418f-91eb-a7a547ddc210</chapterId>
 
 
 ### Làm việc với Máy chủ BTCPay
@@ -354,7 +354,7 @@ Trong phần này, bạn đã học những nội dung sau:
 ## Quản lý tài khoản người dùng
 
 
-<chapterId>b58ca6ee-b7fc-5e81-a6aa-c8ff212b4c55</chapterId>
+<chapterId>7f2dcbc7-ba0b-4515-bf6d-d23ab19c1831</chapterId>
 
 
 ### Quản lý tài khoản trên máy chủ BTCPay
@@ -474,7 +474,7 @@ Mô tả cách 2FA dựa trên ứng dụng giúp bảo mật tài khoản của
 ## Tạo một cửa hàng mới
 
 
-<chapterId>463b3634-b49f-5512-a711-3b2e096fc2e0</chapterId>
+<chapterId>6e8d48b0-b9b6-4fbd-8961-5cde37109c0d</chapterId>
 
 
 ### Tạo trình hướng dẫn cửa hàng của bạn
@@ -560,13 +560,13 @@ Trong phần này, bạn đã học:
 # Giới thiệu về Bảo mật Khóa Bitcoin
 
 
-<partId>25da22d8-fd37-51c5-af2a-58b9f3b046b2</partId>
+<partId>dd0975de-76e6-4255-a3b2-e454009d1aa5</partId>
 
 
 ## Hiểu về thế hệ khóa Bitcoin
 
 
-<chapterId>d162735b-847b-578e-83b8-a044ab703ec5</chapterId>
+<chapterId>8a6164a5-aea6-4348-aa71-135d03de98bc</chapterId>
 
 
 ### Quá trình tạo khóa Bitcoin bao gồm những gì?
@@ -639,7 +639,7 @@ Mô tả lợi ích của việc sử dụng địa chỉ mới cho mỗi giao d
 ## Bảo mật chìa khóa bằng Hardware Wallet
 
 
-<chapterId>c54a6d61-5a43-5fdb-93ae-c6750de9c612</chapterId>
+<chapterId>94cf5f31-7292-4608-b10e-8e46b1ebd627</chapterId>
 
 
 ### Lưu trữ Khóa Bitcoin
@@ -700,7 +700,7 @@ Trong phần này, bạn đã học:
 ## Sử dụng phím Bitcoin của bạn
 
 
-<chapterId>bff488de-5052-56e6-b696-97e896f762ae</chapterId>
+<chapterId>ae5aafd5-28b7-4ef7-8ebc-3ac5f19769c7</chapterId>
 
 
 ### Máy chủ BTCPay Wallet
@@ -1037,7 +1037,7 @@ Mô tả phương pháp tạo khóa và sơ đồ bảo mật khóa, cùng với
 ## Máy chủ BTCPay Lightning Wallet
 
 
-<chapterId>1bbece7e-0197-57e6-a93a-561cf384d946</chapterId>
+<chapterId>ca874f9a-4f97-44d5-9bf4-57c8b17d25bf</chapterId>
 
 
 Khi quản trị viên máy chủ cung cấp phiên bản Máy chủ BTCPay mới, họ có thể thiết lập triển khai Lightning Network, chẳng hạn như LND, Core Lightning hoặc Eclair; xem Phần Cấu hình Máy chủ BTCPay để biết hướng dẫn cài đặt chi tiết hơn.
@@ -1287,13 +1287,13 @@ Mô tả một số tùy chọn khác nhau để kết nối Lightning Wallet v�
 # Máy chủ BTCPay Interface
 
 
-<partId>25e88b81-e1ab-515f-a035-09f2a3075556</partId>
+<partId>76b4a36d-9cf8-469d-a763-a75cc38c812a</partId>
 
 
 ## Tổng quan về bảng điều khiển
 
 
-<chapterId>410ff28b-a272-5c91-93e0-48d5b28c53ab</chapterId>
+<chapterId>8bd1c31e-a487-4c32-b3af-bcecc7117a80</chapterId>
 
 
 Máy chủ BTCPay là một gói phần mềm dạng mô-đun. Tuy nhiên, có những tiêu chuẩn mà mọi Máy chủ BTCPay phải tuân thủ, và những tiêu chuẩn này sẽ chi phối tương tác giữa Quản trị viên và người dùng. Bắt đầu với Bảng điều khiển. Đây là điểm truy cập chính của mọi Máy chủ BTCPay sau khi đăng nhập. Bảng điều khiển cung cấp tổng quan về hiệu suất của cửa hàng, số dư hiện tại của Wallet và các giao dịch trong 7 ngày qua. Vì đây là chế độ xem dạng mô-đun, các plugin có thể sử dụng chế độ xem này để tạo các ô riêng trên Bảng điều khiển. Trong khóa học này, chúng ta sẽ chỉ thảo luận về các plugin và ứng dụng tiêu chuẩn, cùng với chế độ xem tương ứng của chúng, trên toàn bộ Máy chủ BTCPay.
@@ -1417,7 +1417,7 @@ Liệt kê càng nhiều ô nhớ càng tốt từ Bảng điều khiển.
 ## Máy chủ BTCPay - Cài đặt cửa hàng
 
 
-<chapterId>e8faef7b-278d-550e-a511-bc3a442daf64</chapterId>
+<chapterId>00ff7c8c-46f9-4d88-92cc-c63e4ff348f9</chapterId>
 
 
 Trong phần mềm BTCPay Server, chúng tôi nhận thấy có hai loại cài đặt. Cài đặt dành riêng cho Cửa hàng của BTCPay Server, nút cài đặt nằm ở thanh menu bên trái bên dưới Bảng điều khiển, và cài đặt BTCPay Server, nằm ở cuối thanh menu, ngay phía trên Tài khoản. Chỉ quản trị viên Máy chủ mới có thể xem cài đặt dành riêng cho Máy chủ của BTCPay Server.
@@ -1872,7 +1872,7 @@ Mô tả một số tùy chọn bạn có thể chọn trong Giao diện thanh t
 ## Máy chủ BTCPay - Cài đặt máy chủ
 
 
-<chapterId>1dd858a2-49ea-586b-9bc1-75a65f508df6</chapterId>
+<chapterId>07022d6d-594f-46d7-8363-c8c16a561f4f</chapterId>
 
 
 Máy chủ BTCPay bao gồm hai chế độ xem cài đặt khác nhau. Một chế độ dành riêng cho cài đặt Cửa hàng, và chế độ còn lại dành cho cài đặt Máy chủ. Chế độ sau chỉ dành cho quản trị viên máy chủ chứ không dành cho chủ cửa hàng. Quản trị viên máy chủ có thể thêm người dùng, tạo vai trò tùy chỉnh, cấu hình máy chủ email, thiết lập chính sách, chạy tác vụ bảo trì, kiểm tra tất cả các dịch vụ được kết nối với Máy chủ BTCPay, tải tệp lên máy chủ hoặc kiểm tra Nhật ký.
@@ -2438,7 +2438,7 @@ Mô tả một số hành động mà người quản trị có thể thực hi�
 ## Máy chủ BTCPay - Thanh toán
 
 
-<chapterId>e2b71ff9-3f4f-5e71-9771-8e03fbbef00f</chapterId>
+<chapterId>1f6899d4-85c1-41fe-8f23-4a7bec44e9c2</chapterId>
 
 
 Invoice là tài liệu mà người bán cấp cho người mua để thu tiền.
@@ -2784,7 +2784,7 @@ Thanh toán kéo mở rộng những gì thường được thực hiện trong 
 ## Plugin mặc định của máy chủ BTCPay
 
 
-<chapterId>7d673dc4-bd5d-5411-819b-f135f1d86636</chapterId>
+<chapterId>2d994561-7f8d-4862-8b9f-cee7d81df6f2</chapterId>
 
 
 ### Plugin và ứng dụng mặc định
@@ -3271,13 +3271,13 @@ Ba plugin tích hợp sẵn có trong BTCPay Server là gì? Hãy mô tả ngắ
 # Cấu hình máy chủ BTCPay
 
 
-<partId>ff38596c-7de3-5e5c-ba50-9b9edbbbb5eb</partId>
+<partId>c3a8bd83-0676-4388-87b2-325d67f43d9d</partId>
 
 
 ## Hiểu biết cơ bản về việc cài đặt BTCPay Server trên môi trường LunaNode
 
 
-<chapterId>d0a28514-ffcf-529b-9156-29141f0b060a</chapterId>
+<chapterId>f0f934af-eb3c-4d86-bd7b-3fee8fb7c10e</chapterId>
 
 
 ### Cài đặt máy chủ BTCPay trên môi trường lưu trữ (LunaNode)
@@ -3416,7 +3416,7 @@ Mô tả một số điểm khác biệt giữa việc chạy phiên bản BTCPa
 ## Cài đặt BTCPay Server trên môi trường Voltage
 
 
-<chapterId>11c7d284-b4d2-5542-872c-df9bd9c1491b</chapterId>
+<chapterId>ef790587-4c73-4311-96f1-5a9219b9a7fd</chapterId>
 
 
 Bạn sẽ làm quen với Voltage.cloud với tư cách là nhà cung cấp dịch vụ lưu trữ, tìm hiểu những bước đầu tiên khi sử dụng Máy chủ BTCPay và cách sử dụng Lightning Network. Sau khi chúng ta thực hiện xong tất cả các bước, bạn có thể vận hành một cửa hàng trực tuyến hoặc nền tảng gây quỹ cộng đồng chấp nhận Bitcoin!
@@ -3489,7 +3489,7 @@ Một số khác biệt chính giữa thiết lập Voltage và LunaNode là gì
 ## Cài đặt Máy chủ BTCPay trên nút Umbrel
 
 
-<chapterId>3298e292-6476-5fe0-836c-7fa021348799</chapterId>
+<chapterId>bdd94bfc-c8da-4c8b-8b0e-ed4f9a5dd42e</chapterId>
 
 
 Sau khi hoàn tất các bước này, bạn có thể chấp nhận thanh toán Lightning cho cửa hàng BTCPay trên mạng cục bộ của mình. Quy trình này cũng áp dụng nếu bạn vận hành một nút mạng lưới (umbrel node) trong nhà hàng hoặc doanh nghiệp. Nếu bạn muốn kết nối cửa hàng này với một trang web công cộng, hãy làm theo bài tập Nâng cao để hiển thị nút mạng lưới của bạn cho công chúng.
@@ -3578,20 +3578,20 @@ Thiết lập trên Umbrel khác với hai tùy chọn lưu trữ trước đó 
 # Phần cuối
 
 
-<partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
+<partId>5449bff6-f410-4f2a-a373-7b915bb6d726</partId>
 
 
 
 
 ## Đánh giá & Xếp hạng
 
-<chapterId>d90bb93d-b894-551e-9fd6-6855c739a904</chapterId>
+<chapterId>bf665be7-1be0-4d54-b8c6-64fbb40c9190</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Kết luận khóa học
 
 
-<chapterId>c07ac2a5-f97e-5c57-8a80-4955b48128d4</chapterId>
+<chapterId>bbda2002-757d-4dad-8c8a-ff95cec77077</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

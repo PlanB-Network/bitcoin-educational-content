@@ -16,11 +16,11 @@ Trong suốt hành trình, bạn cũng sẽ khám phá cách các cá nhân và 
 +++
 # Giới thiệu
 
-<partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
+<partId>b2ba4969-7b91-45cf-b2ad-b5d2958f48b3</partId>
 
 ## Tổng quan về khóa học
 
-<chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
+<chapterId>c9ff81cb-98ab-4724-b174-4dbfa3a25ea8</chapterId>
 
 Chào mừng bạn đến với khóa học ECO204!
 
@@ -39,11 +39,11 @@ Phần này nhằm hiểu các cơ chế cấu trúc khiến siêu lạm phát t
 
 # Lạm phát là gì?
 
-<partId>2b4f456c-3649-5cf9-b9b0-a5bffe92d962</partId>
+<partId>5902cccb-fd13-4088-8852-569bdf4528f4</partId>
 
 ## Một hiện tượng tiền tệ
 
-<chapterId>b2cbc915-c4ec-52b5-860c-0958f58c91e4</chapterId>
+<chapterId>1ac7d89a-7082-4466-8eb2-00f1e1b303a0</chapterId>
 
 ### Định nghĩa về lạm phát
 
@@ -212,7 +212,7 @@ Kết luận, nghiên cứu về hiện tượng phá giá tiền tệ này đã
 
 ## Các loại lạm phát
 
-<chapterId>b438fe09-375e-5bb2-9196-7dd687b9f98c</chapterId>
+<chapterId>5d7b5350-7312-4a3f-9138-6c4c9cfdbe0d</chapterId>
 
 ### Lạm phát không phải là một hiện tượng đa yếu tố
 
@@ -394,11 +394,11 @@ Cảm ơn các bạn đã chú ý. Phần tiếp theo sẽ hoàn toàn dành ri�
 
 # Siêu lạm phát là gì?
 
-<partId>3f541663-1e2f-5410-8ee0-f61c5d009fa5</partId>
+<partId>5747f16f-4cc0-4358-8ae8-4411fc8f89ca</partId>
 
 ## Định nghĩa về siêu lạm phát
 
-<chapterId>d2a71a2e-5f36-58d9-993c-d431f4aa07fd</chapterId>
+<chapterId>5b8758ff-7b46-4c81-aafd-f8ee06fcef03</chapterId>
 
 ### Định nghĩa về siêu lạm phát
 
@@ -478,7 +478,7 @@ Cần lưu ý rằng một số giai đoạn lịch sử của siêu lạm phát
 
 ## So sánh giữa Weimar và Zimbabwe
 
-<chapterId>11eef458-aab8-5c63-8523-264d0ba69f5d</chapterId>
+<chapterId>733924b4-7fd2-46ab-8f48-cbb86c5fd4d6</chapterId>
 
 ### Hai kỷ nguyên, hai thảm họa
 
@@ -665,7 +665,7 @@ Zimbabwe: «Những phiếu này, chúng tôi hiện dùng để trả tiền th
 
 ## Weimar vs Zimbabwe: Những điểm khác biệt và thế giới song song hiện đại
 
-<chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
+<chapterId>3b71f96b-6f11-40b5-b974-a27fe498fe3c</chapterId>
 
 Trong chương này, chúng ta sẽ khám phá những điểm khác biệt và thế giới song song hiện đại giữa các giai đoạn siêu lạm phát trong quá khứ và hiện tại, với những giai thoại và so sánh liên quan cho ngày nay.
 
@@ -774,7 +774,7 @@ Ngày nay, trước sự suy giảm sức mạnh tiết kiệm, đầu tư đang
 
 ## Đổi tiền ở Mỹ Latinh
 
-<chapterId>918eafd7-409d-5205-ad52-a52e63b23a64</chapterId>
+<chapterId>6fee14c4-a59d-4f23-b6bd-24d8422a2cb4</chapterId>
 
 Bây giờ, chúng ta sẽ xem xét các đợt đổi tiền khác nhau ở các quốc gia Mỹ Latinh.
 
@@ -873,7 +873,7 @@ Kết luận, siêu lạm phát chỉ là một khía cạnh của các thách t
 
 ## Cách vượt qua siêu lạm phát
 
-<chapterId>e3484a31-a851-5f92-8af5-00eddae67db1</chapterId>
+<chapterId>045d835e-4692-438a-a5c9-8889801bee6c</chapterId>
 
 ### Cách chấm dứt lạm phát vừa phải và cao
 
@@ -922,18 +922,18 @@ Thông điệp chính ở đây là có nhiều chiến lược để vượt qu
 
 ## Triển lãm bộ sưu tập tiền giấy siêu lạm phát
 
-<chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
+<chapterId>e166eb40-d92a-42a6-b4ca-64c3d3baa8d4</chapterId>
 
 [Khám phá bộ sưu tập đã quét trong *Bitcoin Educational Toolkit* (cũng có thể truy cập từ phần *Tài nguyên* của nền tảng Plan ₿ Academy.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 ![hình ảnh](assets/vi/068.webp)
 # Chúng ta đã đến đây như thế nào?
 
-<partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>
+<partId>d32a419f-ace2-4b63-8be0-5727d6c6c3af</partId>
 
 ## Sự xuất hiện của tiền tệ lớp thứ hai và Ngân hàng trung ương
 
-<chapterId>0455ffe3-9d45-5a67-ac96-3f815dc507a1</chapterId>
+<chapterId>47b3add9-dc60-4a05-b380-d9166f8c1886</chapterId>
 
 Sự xuất hiện của tiền tệ lớp thứ hai và các ngân hàng trung ương đầu tiên là một chủ đề hấp dẫn. Chủ đề này được thảo luận rộng rãi trong cuốn sách "Layered Money" của Nick Battia. Tôi rất khuyến khích những ai quan tâm đến sự phát triển và phức tạp của hệ thống tiền tệ nên đọc. Mục tiêu của phần này là hiểu về nguồn gốc của việc tạo ra tiền và làm thế nào nó có thể dẫn đến siêu lạm phát.
 
@@ -991,7 +991,7 @@ Các ngân hàng trung ương đã phát triển để trở thành người cho
 
 ## Sách và Tài Nguyên
 
-<chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
+<chapterId>53dc2a2f-11af-4370-a137-274c4d861e5c</chapterId>
 
 Siêu lạm phát là một chủ đề thú vị đã được nghiên cứu qua các sự kiện lịch sử khác nhau. Nếu bạn muốn tìm hiểu sâu hơn về chủ đề này, đây là danh sách 10 nguồn tài nguyên cần đọc và nghiên cứu:
 
@@ -1019,12 +1019,12 @@ Siêu lạm phát là một chủ đề thú vị đã được nghiên cứu qu
 
 ## Nhận xét & Đánh giá
 
-<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<chapterId>3e37d04e-0239-454f-9701-9479bc08a5bc</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Bài kiểm tra cuối cùng
 
-<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
+<chapterId>baf9e2af-d020-4188-84a1-c33e653d17ee</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Kết luận

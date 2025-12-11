@@ -21,12 +21,12 @@ This captivating course will take you on an exploration of the fascinating evolu
 +++
 # Introduction
 
-<partId>59878a67-8a1d-5d6b-af41-5b847c14363c</partId>
+<partId>1aae9f56-c570-4118-9781-b81aa7678aba</partId>
 
 
 ## Introduction to the History of Money
 
-<chapterId>ca53597e-be9a-5261-a55f-11fac8504a68</chapterId>
+<chapterId>ca1c7cf4-c3c5-40b7-8a22-06f96069a870</chapterId>
 
 :::video id=08ff35ca-8a40-4286-abaf-71283faf6e78:::
 
@@ -85,12 +85,12 @@ Thank you and enjoy!
 
 # The emergence of exchanges
 
-<partId>da5e4981-9ea5-5208-beab-3b75c9043632</partId>
+<partId>d71fa28a-c2e7-43cc-a222-cf0e5cf28635</partId>
 
 
 ## From Australopithecus to Modern Man
 
-<chapterId>34a773aa-f2d3-5c26-8be4-f2cd79ed6fbc</chapterId>
+<chapterId>83bac8ad-3005-404e-bc78-282ad8c7ae64</chapterId>
 
 :::video id=4f333013-4b2a-42ab-8761-593fafc971ca:::
 
@@ -166,7 +166,7 @@ So, here is this historical overview to give us a perspective on the emergence o
 
 ## From Hunter-Gatherer to Farmer: The Dawn of Civilization
 
-<chapterId>ea950b6e-9eb7-553d-8f04-0eb042bb1f5a</chapterId>
+<chapterId>8eaca827-adf6-492e-95c4-84c076b5ff6a</chapterId>
 
 :::video id=4b49a376-f6f4-42a0-86fa-264997a079f0:::
 
@@ -215,7 +215,7 @@ Another theory is that the villages themselves created the problem solved by dom
 
 ## Neolithic trade
 
-<chapterId>8e495224-6d55-58f6-a9dc-ac2814281cfa</chapterId>
+<chapterId>f9ee1193-3131-4073-aa2c-6a3a09f90e10</chapterId>
 
 :::video id=d04245af-e416-48b1-8157-d569207a32c4:::
 
@@ -283,7 +283,7 @@ The Neolithic thus laid the foundations of the modern economy: specialization of
 
 ## The formation of the first cities and the emergence of writing
 
-<chapterId>d6b799c2-8bf1-11f0-9c54-1b9f4f4c7011</chapterId>
+<chapterId>2b2c0a0a-5d44-47ca-9c61-3131836b9d2b</chapterId>
 
 
 :::video id=3ca18105-9856-4ceb-925c-c9e9215af21b:::
@@ -355,7 +355,7 @@ This form of writing, which was both an economic management tool and a cultural 
 
 ## The role of Sumerian tablets
 
-<chapterId>a396e6c5-56cc-5410-9e6b-0274401c5425</chapterId>
+<chapterId>40afd5ef-4211-4c18-b675-c64629afcb09</chapterId>
 
 :::video id=a0729a35-01ec-4aa4-828f-d4ccc2eb168e:::
 
@@ -398,7 +398,7 @@ Thus, the Mesopotamian documents that have come down to us mainly reflect econom
 
 ## Elite control on Sumerian tablets
 
-<chapterId>c6d3df0e-b1e1-58dc-ab35-9f76bbc39393</chapterId>
+<chapterId>9d60b12a-3c22-4576-b214-515f483419c7</chapterId>
 
 :::video id=04a95fb8-a701-4a48-9ce8-0e9b6ba256fd:::
 
@@ -464,12 +464,12 @@ This seminal period also reveals the power issues inherent in any monetary innov
 
 # Economy and money in ancient civilizations
 
-<partId>a16bcf4c-8c3a-11f0-9e79-2bd363a484bd</partId>
+<partId>0bc58dbd-4810-4991-8d8b-2050f7b6f3f6</partId>
 
 
 ## The great civilizations of the Bronze Age
 
-<chapterId>fab9334c-7385-5d7c-ad40-7d152beb22a1</chapterId>
+<chapterId>c14f4e1b-c94d-45cd-a377-dcdbb6e74264</chapterId>
 
 :::video id=737e12e8-1033-4210-b1dd-b8a680f68b17:::
 
@@ -519,7 +519,7 @@ But there's no trace of these famous hanging gardens in Babylon. In Nineveh, on 
 
 ## Economic organization in Mesopotamia
 
-<chapterId>6afb6fc8-cbb7-56a5-8427-484b4b7d7477</chapterId>
+<chapterId>cabade12-f25b-49d6-b286-39baca82d9b1</chapterId>
 
 :::video id=aa6a2cbd-5916-4ae3-ad4f-65f0bd5643fa:::
 
@@ -599,7 +599,7 @@ In the next sections, we'll do the same for Egypt and China.
 
 ## Economic and monetary organization in ancient Egypt
 
-<chapterId>bffcc16c-7fbf-5992-a0fa-6a7726d7d287</chapterId>
+<chapterId>85ffceb7-15e9-47a6-9c0b-d1038303f738</chapterId>
 
 :::video id=40c1c4e5-b190-4bb6-b8a0-810c9ce7698b:::
 
@@ -703,7 +703,7 @@ The author suggests that from the earliest days of coinage, beyond simply certif
 
 ## Sign currency and economic and monetary organization in ancient China
 
-<chapterId>e08d3be9-423c-5cf3-a606-6ad54e2261af</chapterId>
+<chapterId>6d1f5abb-5c3e-43f9-a0d8-e31351931a1d</chapterId>
 
 :::video id=ae7e6367-1725-455e-bfe6-359be1f443e5:::
 
@@ -792,7 +792,7 @@ Thus, the Chinese experience is characterized by a profoundly fiduciary concepti
 
 ## Societal and economic organization in antiquity
 
-<chapterId>4023c3ce-7a47-5ac4-8f5f-c7ab699ab20f</chapterId>
+<chapterId>96939b3c-a366-4089-9432-12ed1510cd4e</chapterId>
 
 :::video id=2761efe4-21cf-4f06-9bda-c03f9ff39012:::
 
@@ -885,12 +885,12 @@ Analysis of these historical models reveals that money, beyond its exchange func
 
 # The birth of minted money
 
-<partId>232e365a-8c3b-11f0-b276-b3ab70d1a5a1</partId>
+<partId>8409c7e3-66d1-4fa9-815d-863cdaec2ad5</partId>
 
 
 ## The emergence of coins
 
-<chapterId>40ed3414-3066-57bd-bc1b-617ad0a354e0</chapterId>
+<chapterId>e864c93b-dbf7-40c9-842f-0127243bd3d0</chapterId>
 
 :::video id=1d6834c4-98a3-43fe-ba80-04be51b0486e:::
 
@@ -931,7 +931,7 @@ To illustrate this period in a visual form, here above is a coin from a region i
 
 ## Lydians and Persians
 
-<chapterId>eb802ab8-8ffd-5b25-907f-8944f120ed14</chapterId>
+<chapterId>f5622481-fc88-4f23-a13a-06bb42cdbd55</chapterId>
 
 :::video id=f151eb42-5ff3-4ca1-9af1-1ae2a5e051c0:::
 
@@ -993,7 +993,7 @@ A key point to remember from this section is that we're talking specifically abo
 
 ## Institutional intervention and the first coins
 
-<chapterId>3e1efd08-99e3-5a32-9908-3185fef0e640</chapterId>
+<chapterId>c92b2f5f-59c5-4791-be30-eb474e80f529</chapterId>
 
 
 :::video id=84847cf6-9e46-4a8c-9f35-25a27496cc4b:::
@@ -1048,7 +1048,7 @@ This manipulation, observable from the earliest Lydian coins, suggests that mone
 
 ## Parts manufacturing
 
-<chapterId>b205f4f2-c293-5308-b812-a998de9ad45e</chapterId>
+<chapterId>49f3c80e-7bea-4b4c-a19c-54dc44a75552</chapterId>
 
 
 :::video id=47c612ec-d97e-4498-b50e-7e66518bd56d:::
@@ -1081,13 +1081,13 @@ So this notion of pendulum striking helped with the clipping phenomenon. And it'
 
 # Different theories on the emergence of money
 
-<partId>72ac694f-9248-550d-90c1-91af3d234380</partId>
+<partId>f12df034-26da-4c51-acfa-308791d1d3c6</partId>
 
 
 
 ## Theories on the emergence of money and its various definitions
 
-<chapterId>7d699d4d-8c70-55b5-bf36-609f3fd90bcf</chapterId>
+<chapterId>369184c7-6f37-4e0b-906b-8faa549ff3d2</chapterId>
 
 :::video id=523c873f-501b-4954-b79f-7e74c0f685a5:::
 
@@ -1107,7 +1107,7 @@ So that's what we're going to do in this section. We're going to conduct a sort 
 
 ## The emergence of money for classical economists
 
-<chapterId>1d3776cd-0dfd-5297-af48-c6f41e257a7e</chapterId>
+<chapterId>aef378a4-d092-468a-86ee-3aa0b98ba3e0</chapterId>
 
 
 :::video id=873a16c1-17ac-448d-8941-df4feb7ab79d:::
@@ -1153,7 +1153,7 @@ In conclusion, I think we can say that coins necessarily emanate from authority,
 
 ## The myth of barter
 
-<chapterId>0fcd4964-ac36-5163-a8cf-1aacebc0d2c0</chapterId>
+<chapterId>9c35dacf-cb67-441c-808a-6f8b17aab939</chapterId>
 
 :::video id=0ede29ab-8acd-4d79-9282-bd5991b97076:::
 
@@ -1192,7 +1192,7 @@ So, as we saw earlier in the section on Egypt and even Mesopotamia and China, we
 
 ## The emergence of money through debt money
 
-<chapterId>4f508615-aa61-5d62-89d3-cecd02aeaa62</chapterId>
+<chapterId>46af4db6-fb7a-4a38-b7cd-aea2ab0eb37f</chapterId>
 
 
 :::video id=a23f547f-3906-4f4a-8f72-5d78c649d0c4:::
@@ -1229,7 +1229,7 @@ Owning a monetary token is not a "claim" on the community, but rather a hope tha
 
 ## The spontaneous emergence of money
 
-<chapterId>e3ef86b1-73b9-5140-a61e-2ab6a5b0b2d4</chapterId>
+<chapterId>6222fe61-2622-4b88-bce4-d4fd9ebd9a76</chapterId>
 
 :::video id=e543995f-d5e2-49d7-9133-e397b46e0833:::
 
@@ -1283,7 +1283,7 @@ The debate between spontaneous emergence and conscious institution remains open,
 
 ## The anthropological vision of the emergence of money
 
-<chapterId>ec48c5d8-47ed-530f-beb7-c44fd0b62880</chapterId>
+<chapterId>d7892a73-a23b-4a69-bcda-122eaf9faac8</chapterId>
 
 :::video id=8c1f8764-75af-4fb6-a98b-55de3b7da02e:::
 
@@ -1358,7 +1358,7 @@ Here, we realize that in the end, in our modern societies, the very purpose of e
 
 ## Register unification
 
-<chapterId>7664442a-91c1-5ce4-a8bd-53b7371a3e3d</chapterId>
+<chapterId>0d21c7c0-af6d-428f-a525-5567139bd4c7</chapterId>
 
 :::video id=473fc284-5375-4e1b-b0cd-6b51ba0cc3b8:::
 
@@ -1421,7 +1421,7 @@ On the one hand, nature manages the expansion of the money supply. So, if we tak
 
 ## Unification through the monetary premium
 
-<chapterId>093756e5-8908-55e5-bb76-376a3a3cc4d3</chapterId>
+<chapterId>62b265c7-83ff-40ce-8daf-82eba2983b9f</chapterId>
 
 :::video id=eabc342a-ecbd-46ca-a347-e914917e7c4f:::
 
@@ -1471,12 +1471,12 @@ The monetary premium is simply based on the confidence that someone will exchang
 
 # Different definitions of money
 
-<partId>77b7918a-8c3b-11f0-b688-6b2ab22378c9</partId>
+<partId>ea5771cb-1392-45e2-b17d-8f7c2286ba11</partId>
 
 
 ## Money vs currency vs monnaie vs argent vs devise
 
-<chapterId>bf8a6d21-df88-5d23-a0a5-e9a5c1300554</chapterId>
+<chapterId>ec3f37bb-0c57-4c50-97a5-9bb5625c5e16</chapterId>
 
 :::video id=d9c9e7df-9db3-4a9f-801e-10d3fc7dfc22:::
 
@@ -1516,7 +1516,7 @@ Often, people who haven't delved into these semantic problems, in translating th
 
 ## Saifedean Ammous's definition
 
-<chapterId>07c4ba50-168c-567a-8957-0b187ff75f97</chapterId>
+<chapterId>f0d9d91e-9d77-4681-a815-9d6df16c6a60</chapterId>
 
 :::video id=936d6d3b-6d45-468e-bc44-85fbce9b857a:::
 
@@ -1551,7 +1551,7 @@ To this, I think we should definitely add that the monetary good must be scarce 
 
 ## Means of payment and liberatory value
 
-<chapterId>5d424039-e342-56f7-9d8b-bba9551831a9</chapterId>
+<chapterId>8d6132bf-6ebc-4ec6-9ac8-8d3ad27bbf6c</chapterId>
 
 :::video id=af4c0765-8111-4cb7-891b-3ee54d6e7054:::
 
@@ -1591,7 +1591,7 @@ I think that in this discussion, we can see that the wergeld is one of the good 
 
 ## Debt money vs. commodity money
 
-<chapterId>4093677a-c8e8-5828-b994-15c01656186e</chapterId>
+<chapterId>20b25c0c-5f2a-46e3-8f54-75626b43c16b</chapterId>
 
 :::video id=f49cf5cc-288e-4daa-a1ff-b9de73506f4e:::
 
@@ -1695,7 +1695,7 @@ This paradox clearly shows the gap between these two monetary conceptions: for t
 
 ## Modern Monetary Theory
 
-<chapterId>8efc29af-3193-5d97-ad9f-e608b32924ff</chapterId>
+<chapterId>e23e8f1b-c710-449d-9907-25fc5991092d</chapterId>
 
 :::video id=f8127cb7-46a1-468c-bbb5-97bf0a8b8837:::
 
@@ -1757,11 +1757,11 @@ This theory also calls for a certain level of centralized planning of the econom
 
 # The fall and rebirth of money
 
-<partId>87a34ca9-782b-5ade-b51a-400f88ed7b0c</partId>
+<partId>d962954b-5387-4d55-8243-f9e3d3f1d8fc</partId>
 
 ## Greek coins
 
-<chapterId>7714195f-74ce-5f8c-be5f-59302d39fff4</chapterId>
+<chapterId>79de7fa8-1c20-4bc0-8baf-a73058f26913</chapterId>
 
 :::video id=8e5c3091-0910-471b-8d4b-0dc6e9afa656:::
 
@@ -1936,7 +1936,7 @@ Finally, despite their variety and regional fluctuations, Classical Greek and He
 
 ## The impact of currency in Greece
 
-<chapterId>3a5e6c7d-699c-5567-87cd-3374c49d55a9</chapterId>
+<chapterId>dd7286ca-183a-4da1-b3a2-742a4cc7f72b</chapterId>
 
 :::video id=0c79a59c-e179-4893-a414-1b8de0930eb9:::
 
@@ -1994,7 +1994,7 @@ These two systems show that the adoption of currency is closely linked to the po
 
 ## The Roman Republic
 
-<chapterId>0bc80983-33e1-5881-85bb-7c22f3144a9a</chapterId>
+<chapterId>081c5d32-6e64-4dfd-bdf2-5b81bf67f36a</chapterId>
 
 :::video id=dc05ca97-d29c-4679-bfeb-912c47d86ce2:::
 
@@ -2074,7 +2074,7 @@ Finally, while Rome dominated the Mediterranean world economically, it retained 
 
 ## The Roman Empire
 
-<chapterId>2dc44e50-112a-5abf-97ae-8e0a9ecda989</chapterId>
+<chapterId>40300472-fdba-47d0-9813-1db8ff7142bc</chapterId>
 
 :::video id=f8d6f3d6-9ee4-4504-888e-4f12b3f20489:::
 
@@ -2246,7 +2246,7 @@ To conclude, I'd like to share with you this quote from *A History of Money: Fro
 
 ## Links between monetary dilution and inflation: from causes to consequences
 
-<chapterId>38d5781c-e900-53f7-baa7-413655d71754</chapterId>
+<chapterId>47088da8-0fba-46c4-9110-21e0e6274eb8</chapterId>
 
 :::video id=3999256d-aafe-4502-9b72-dfa8491a2777:::
 
@@ -2310,7 +2310,7 @@ There is a clear link between Roman monetary dilution and inflation, the causes 
 
 ## The fall of the Roman Empire
 
-<chapterId>b6ec0914-227b-509c-8108-b09eec9bb904</chapterId>
+<chapterId>8421a704-18b6-4204-94f1-9917039bc86d</chapterId>
 
 :::video id=91d4fee5-59bb-4ab9-a90b-e1125c71decb:::
 
@@ -2373,7 +2373,7 @@ This transformation reveals the fragility of complex civilizations. The division
 
 ## The Dark Ages and the Middle Ages
 
-<chapterId>a5856873-6142-57be-8a73-1f9e3df83792</chapterId>
+<chapterId>12130b0a-fee2-46ed-bec1-0cc1d473f8a1</chapterId>
 
 :::video id=86b8da9b-3831-443d-b170-58c2bea3ad54:::
 
@@ -2445,7 +2445,7 @@ The moment the creation of debt is carried out by Parliament, the concept of sov
 
 ## The renaissance
 
-<chapterId>1d1dfb05-70b4-5b7b-9708-373c2182950d</chapterId>
+<chapterId>5e976656-787d-4ce1-abad-ae38bfba2b77</chapterId>
 
 :::video id=4977b4f3-c7b2-41a5-ad7b-a96a8cca4092:::
 
@@ -2515,12 +2515,12 @@ Finally, the financial Renaissance ushered in the transition to economic moderni
 
 # The seizure of money by the State
 
-<partId>17cfb1b4-5bc1-53e0-b035-05c7cf76be92</partId>
+<partId>fbce5ebc-8faf-4666-8240-4ef1d783288a</partId>
 
 
 ## The evolution of the world's reserve currencies
 
-<chapterId>d65cc352-e7ca-5f03-9b23-dd1fae5c0395</chapterId>
+<chapterId>4727209f-4384-42f4-bd40-5b5d4b957a47</chapterId>
 
 :::video id=82710062-8fff-426c-93af-923c08d82233:::
 
@@ -2668,7 +2668,7 @@ Preceding the famous sovereign was the guinea, which operated on the same princi
 
 ## The emergence of central banks
 
-<chapterId>15777771-1e28-55f7-a400-69868a47079b</chapterId>
+<chapterId>8872b29c-03fa-4e8f-9e53-719fb65dd72e</chapterId>
 
 
 :::video id=7661b7b5-e00f-48f3-b69a-6fb2eb5ebba4:::
@@ -2771,7 +2771,7 @@ And the most important fact here is that **we've gone from a debt that could dis
 
 ## The road to the fiat system
 
-<chapterId>27a98545-d350-56ee-a200-92468e6b9b33</chapterId>
+<chapterId>556e065d-3fd2-4f6e-b57e-bfa7dcad6e28</chapterId>
 
 :::video id=e27a753e-aeee-4307-a65c-9506aab380a1:::
 
@@ -2898,7 +2898,7 @@ Thank you for your attention.
 
 ## The history of money bubbles
 
-<chapterId>b6451c46-917d-11f0-97de-6bc5081765fa</chapterId>
+<chapterId>54b1616d-8d2c-4dbd-8808-a591086d4a20</chapterId>
 
 
 :::video id=5967d9a6-aae4-4b84-a283-71b1b735bca4:::
@@ -2965,7 +2965,7 @@ The history of finance is a never-ending cycle: print, speculate, collapse. Unti
 
 ## Money and violence
 
-<chapterId>9486fe64-854f-5e17-86b3-8873baca39a8</chapterId>
+<chapterId>ad2add8b-b5ea-4e3d-ac32-5f68b4489b24</chapterId>
 
 :::video id=bd6d0807-2d8f-4637-a0f5-1e990e5c0d0f:::
 
@@ -3017,7 +3017,7 @@ Thank you!
 
 ## The economic consequences of organized violence
 
-<chapterId>66bd4674-2159-5489-ad4b-ec5e3fb691af</chapterId>
+<chapterId>749030e1-b1fc-470d-aac3-5562b6a26a08</chapterId>
 
 :::video id=c8b063c6-aeb4-4a94-9027-b11d369e71a4:::
 
@@ -3083,7 +3083,7 @@ History teaches us that these transitions take generations. But Bitcoin's separa
 
 ## A very short history of finance
 
-<chapterId>1d37fff1-a091-5034-8e71-4af590b8ffce</chapterId>
+<chapterId>9910a61b-1198-487c-a21b-f252ac34f516</chapterId>
 
 :::video id=fdfabbc6-e4d8-463a-8522-19176f8fb460:::
 
@@ -3156,13 +3156,13 @@ We simply have to realize that this concept of the welfare state emanates from f
 
 # Final section
 
-<partId>9bada469-7ef0-511a-9eaa-f8eb66d5906f</partId>
+<partId>35c3bcb7-045c-4ffd-bc5c-0ceb9457eb0d</partId>
 
 
 
 ## Evaluate this course
 
-<chapterId>a9494e2b-8a4d-5811-8a7b-b4a91fb22778</chapterId>
+<chapterId>48aaf46a-1ed8-40ec-906f-fca0c518f9d9</chapterId>
 
 
 
@@ -3171,7 +3171,7 @@ We simply have to realize that this concept of the welfare state emanates from f
 
 ## Conclusion
 
-<chapterId>1094e793-b4c6-5782-aa4a-71cde00ce7c0</chapterId>
+<chapterId>69e95bb9-81f1-4dd8-a450-631eac706bf1</chapterId>
 
 
 

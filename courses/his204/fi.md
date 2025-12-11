@@ -59,13 +59,13 @@ Oletko valmis löytämään uudelleen talousliberalismin ranskalaiset juuret? Me
 # Edelläkävijät
 
 
-<partId>91565b10-6010-53cb-a2f4-9c2306c7ef8c</partId>
+<partId>c77622e2-0e20-4de1-a55d-380a454185bc</partId>
 
 
 ## Historiallinen tausta
 
 
-<chapterId>6a5fd101-6dfd-5d77-96c7-9e1aa4a19758</chapterId>
+<chapterId>eb7344f4-ec44-43ae-83e5-e764e22b7c11</chapterId>
 
 
 1700-luvun alussa Ranska oli huolestuttavassa tilassa. Maaseutuväestö tuotti hädin tuskin tarpeeksi selviytyäkseen, ja sitä verotettiin raskaasti.
@@ -145,7 +145,7 @@ Nämä neljä periaatetta ohjasivat Ranskan hallitusta useiden vuosikymmenten aj
 ## Vauban
 
 
-<chapterId>ee9c1e0e-96cc-5026-a5e2-963d68122786</chapterId>
+<chapterId>6b77468d-b8e3-47d2-b304-c290eea1c7d9</chapterId>
 
 
 Nyt, kun veropaine maassamme kasvaa edelleen ja uhkaa tukahduttaa kansantaloudelliset voimat, äänet muutoksen puolesta ovat nousemassa. Tietoisesti tai tiedostamatta nämä uudistuspyynnöt heijastavat usein ranskalaisten taloustieteilijöiden työtä, jotka 1600-luvulta lähtien ovat arvostelleet maan verojärjestelmää kaoottiseksi, mielivaltaiseksi ja liialliseksi.
@@ -212,7 +212,7 @@ Vähän ennen kuolemaansa Ludvig XIV:n ministerit hyväksyivät Vaubanin ajatuks
 ## Boisguilbert
 
 
-<chapterId>200149c6-b5fc-566e-ab0e-bafb1c3fed3c</chapterId>
+<chapterId>e5dd73e0-e48e-43e7-a9af-d651414cfc6b</chapterId>
 
 
 Vain harvat ranskalaiset taloustieteilijät nauttivat nykyään kotimaassaan tunnustusta, joka vastaa heidän panostaan, eikä Boisguilbert ole poikkeus.
@@ -272,7 +272,7 @@ Boisguilbert arvosteli jopa "*hyviä sieluja*", kuten hän heitä kutsui, niitä
 ## Cantillon
 
 
-<chapterId>bc206d41-6a64-5688-a489-40fcfa0e5397</chapterId>
+<chapterId>7a6654fe-874e-45ca-a98f-1f3d17c09f24</chapterId>
 
 
 Richard Cantillonia, joka on kirjoittanut teoksen "Essee kaupan luonteesta yleensä" (kirjoitettu noin vuonna 1730 ja julkaistu vuonna 1755), pidetään yhtenä modernin taloustieteen uranuurtajista. Taloustieteilijä Murray Rothbard mainitsee teoksessaan History of Economic Thought Cantillonia jopa modernin taloustieteen perustajana.
@@ -335,13 +335,13 @@ Tämän inflaation vaikutuksia koskevan teorian avulla Cantillon tarjoaa meille 
 # 1700-luvun alun uudistajat ja ajattelijat
 
 
-<partId>1f7b50d4-ce93-5db3-8396-43c1fa5419ff</partId>
+<partId>c4403d75-884e-4922-8be7-5121e2709d6a</partId>
 
 
 ## Saint-Pierren apotti
 
 
-<chapterId>13478fe2-4c12-593c-a410-54c2cfb7ef7f</chapterId>
+<chapterId>756469cd-d78c-49aa-926f-7c134e8aa4c6</chapterId>
 
 
 Kaikista kirjailijoista, jotka olemme valinneet 1700-luvun ranskalaisten laissez-faire-ajattelijoiden panteoniin, Saint-Pierren abbedissa on epäilemättä eniten unohdettu.
@@ -407,7 +407,7 @@ Hän korosti myös ennen Vincent de Gournayta työn arvoa ja sen houkuttelevuude
 ## Markiisi d'Argenson
 
 
-<chapterId>e9960ab4-72ec-5afd-8e97-bf89c83b62bc</chapterId>
+<chapterId>3f0c9654-a6f7-47db-8859-836c592127db</chapterId>
 
 
 Markiisi d'Argenson on unohdettu laissez-faire-opin perustaja.
@@ -479,7 +479,7 @@ Kysymykseen toimeentuloa koskevasta kaupasta d'Argensonilla ei ollut muuta vasta
 ## Vincent de Gournay
 
 
-<chapterId>e8ae40dc-7450-552f-9ddc-9e02936cf425</chapterId>
+<chapterId>7446cc6a-9631-49ca-ac85-c477537b3a8d</chapterId>
 
 
 Vincent de Gournay oli yksi laissez-fairen ensimmäisistä edustajista Ranskassa ja yksi sen varhaisimmista puolestapuhujista julkishallinnossa ja älymystöpiireissä. Tästä syystä hän ansaitsee paljon enemmän tunnustusta talousajattelun historiassa kuin hän yleensä saa. Olen yrittänyt tuoda esiin hänen panostaan tuoreessa kirjassani.
@@ -548,7 +548,7 @@ Vuosia myöhemmin Turgot, tuleva Ludvig XVI:n ministeri, kirjoitti Éloge (muist
 ## Gournayn piiri
 
 
-<chapterId>b86ba6bd-8f3a-5d8f-b098-4d0413f00deb</chapterId>
+<chapterId>6e2a0dbe-3afb-4071-b5f8-ab400da3e891</chapterId>
 
 
 Taloustieteen alkuaikoina historiassa on tapana nostaa esiin ensimmäinen koulukunta: fysiokraatit, joita johti François Quesnay ja hänen oppilaansa. Lähes vuosikymmen ennen heidän nousuaan oli kuitenkin olemassa toinen, vähemmän muodollinen mutta yhtä tärkeä ryhmä, joka keskittyi taloustieteilijä Vincent de Gournayn ympärille.
@@ -626,7 +626,7 @@ Taloudelliset kysymykset tulivatkin muotiin 1750-luvulla. Voltaire totesi tunnet
 ## Mirabeau
 
 
-<chapterId>2d2f802b-e3b6-556f-9025-a1b1dc4409ca</chapterId>
+<chapterId>5a11f48f-03ee-4c58-876e-f1c49fbb377a</chapterId>
 
 
 Ranska tuntee kaksi kuuluisaa Mirabeau-nimistä miestä, isän ja pojan, mutta poika oli se, joka todella teki historiaa. Hän oli vallankumouksellinen tribuuni ja yksi Ranskan vallankumouksen tapahtumien keskushahmoista.
@@ -715,7 +715,7 @@ Mirabeau pysyi koko elämänsä ajan väsymättömänä kirjailijana. Hän kirjo
 ## Quesnay
 
 
-<chapterId>7a35f20b-5ea0-544d-b290-bcd9c6f7f11a</chapterId>
+<chapterId>6025f746-08fe-4406-8793-a0f5b9d64a45</chapterId>
 
 
 François Quesnay on yksi kuuluisimmista ranskalaisista taloustieteilijöistä.
@@ -797,13 +797,13 @@ Tähän kirjaan on koottu Quesnayn tärkeimmät teokset. Siinä esiteltiin fysio
 # Fysiokraattinen koulukunta
 
 
-<partId>27af82c1-ad82-5c3b-8ce9-c674b67bbf7c</partId>
+<partId>d8a123a2-c47e-4aa4-873b-1b5a75fe313b</partId>
 
 
 ## Fysiokraattien historia
 
 
-<chapterId>4236ff8b-b53a-59e7-92c0-f96f9afa1c00</chapterId>
+<chapterId>b039837d-d765-43fc-a3dd-e492d7caf4c3</chapterId>
 
 
 Fysiokratia tuli muotiin Ranskassa ja jopa koko Euroopassa vain vajaan vuosikymmenen ajan. Pitkän kehitysvaiheen jälkeen se tuli tunnetuksi 1760-luvun puolivälissä. Turgot'n tullessa valtaan vuonna 1776 liike oli jo menettänyt suosiotaan, ja ministeri piti tukensa Quesnayn koulukunnalle enimmäkseen salassa.
@@ -876,7 +876,7 @@ Fysiokratia jatkoi vaikutusvaltaansa vallankumoukseen asti. Ranskassa ensin Turg
 ## Fysiokraattien opin perusteet
 
 
-<chapterId>4dbe5436-0578-57c2-b054-03ed00aa091a</chapterId>
+<chapterId>57beea84-ff70-4757-b5f4-9f2d18deec18</chapterId>
 
 Dupont de Nemours keksi termin fysiokratia, joka tarkoittaa "luonnosta johtuvaa hallintoa", ja sitä käytettiin Quesnayn vuonna 1768 julkaiseman artikkelikokoelman *Fysiokratia* otsikkona.
 
@@ -975,7 +975,7 @@ Fysiokraatit vastustivat kiivaasti orjuutta ja olivat myös suuria pasifisteja. 
 ## Fysiokraattien saavutukset ja vaikutukset
 
 
-<chapterId>5b911105-796a-5e2e-a501-c7a364fc758e</chapterId>
+<chapterId>9ebd22fa-9f00-4148-871b-7e12874b18c0</chapterId>
 
 
 Kuten fysiokraateille omistetuista kolmesta luvusta ensimmäisessä nähtiin, Quesnayn seuraajat olivat Ranskassa muotia noin vuosikymmenen ajan. Heidän ajatuksiinsa kohdistunut innostus muotoutui sekä heidän aikanaan että jatkui vuosisadan loppuun asti. Tässä tarkastelemme joitakin heidän saavutuksiaan ja sitä vaikutusta, jonka he harjoittivat seuraajiinsa taloudellisen ajattelun alalla.
@@ -1054,7 +1054,7 @@ Valitettavasti Quesnay kuoli kaksi vuotta ennen kuin Smithin kirja julkaistiin, 
 ## Dupont de Nemours
 
 
-<chapterId>6d585e0f-93b8-5b0a-a0a8-7f6e4a5bc68e</chapterId>
+<chapterId>be6cf3ea-a927-4407-b232-98c703a3a4ed</chapterId>
 
 
 
@@ -1145,13 +1145,13 @@ Huolimatta tästä vaiheikkaasta elämästä, jonka aikana hän julkaisi kymmeni
 # Valistus ja poliittinen talous
 
 
-<partId>d1c885ad-7cb1-5f81-816c-be312719d9f8</partId>
+<partId>c8a1fe43-bdb6-48d8-9542-4d086cdffab3</partId>
 
 
 ## Voltaire ja filosofit
 
 
-<chapterId>16bcf7bf-dad4-5113-8c64-2800f04ff07b</chapterId>
+<chapterId>57749874-730e-452d-a53d-d3297eb81e9f</chapterId>
 
 
 1700-luvulla Ranskassa syntyi taloustieteen tiede ja ensimmäinen taloustieteellinen koulukunta: Fysiokratia. Adam Smith kouluttautui taloustieteen alalla tänä aikana, ja ranskalaiset taloustieteilijät tunnustettiin maailmanlaajuisesti johtaviksi. Tämä vuosisata muistetaan kuitenkin enemmän filosofian kuin taloustieteen vuosisatana. Vaikka fysiokraattinen liike oli pyrkimyksiltään valistusfilosofian mukainen, filosofien - erityisesti Diderot'n ja Voltairen - asenteet ansaitsevat tarkan tarkastelun. Näemme, että valistusajattelijat edistivät merkittävästi laissez-faire-ajattelun leviämistä Ranskassa.
@@ -1210,7 +1210,7 @@ Loppujen lopuksi filosofien suhde taloudelliseen ajatteluun on ristiriitainen. H
 ## Turgot, teoreetikko
 
 
-<chapterId>a8cd8185-8351-556b-8011-3a0c313e8a9d</chapterId>
+<chapterId>e6b12aac-aa56-4932-8ca2-67efb9aa4d72</chapterId>
 
 
 Amerikkalainen taloustieteilijä Murray Rothbard ylistää kuuluisassa *History of Economic Thought* -teoksensa kohdassa Turgot'n "nerokkuutta".
@@ -1307,7 +1307,7 @@ Tässä esitetään hyvin selkeästi laissez-faire -oppi ja ennakoidaan Friedric
 ## Turgot, uudistaja
 
 
-<chapterId>9177429f-1679-51c4-bfd2-dd036d24a1cc</chapterId>
+<chapterId>32c45d6f-511e-48d4-980f-aca5f2ec8464</chapterId>
 
 
 Kuten edellisessä luvussa lyhyesti muistutettiin, Turgot oli poikanen maineikkaasta perheestä, joka oli kunnostautunut Ranskan virkamieskunnan ylemmissä riveissä.
@@ -1388,7 +1388,7 @@ Lopulta parlamentit ja etuoikeutetut luokat voittivat. Kuningas saattoi vain val
 ## Condillac
 
 
-<chapterId>0ba8dbb5-dcd5-5981-bf85-6c185e0bf192</chapterId>
+<chapterId>f3f1683a-4bcd-4b2a-b5d1-ec0e94c3b457</chapterId>
 
 
 Aivan kuten merkantilismi, joka on sen ilmeisin käytännön ilmenemismuoto, myös Montaignen sofismi katosi vasta pitkän ajan kuluttua.
@@ -1467,7 +1467,7 @@ Näin ollen ne kumoavat täysin vapaakauppaa koskevan kritiikin, sillä protekti
 ## Condorcet
 
 
-<chapterId>99e4aba6-da7f-5041-b02f-337158381515</chapterId>
+<chapterId>55fbdf44-8975-44af-b161-f36d69a49347</chapterId>
 
 
 Condorcet on epäilemättä valistusajan taloudellisesti ajattelevin filosofi.
@@ -1524,7 +1524,7 @@ Vaikka Condorcet käytti kaiken energiansa Turgot'n puolustamiseen, hänellä ei
 ## Liberaalinen maalaisjärki vallankumouksen aikana
 
 
-<chapterId>95e9a90d-e37a-58ff-b1ac-928b42e76ecf</chapterId>
+<chapterId>37ad7db0-ed45-44ba-8bef-d1fa323dbe8e</chapterId>
 
 
 Dupont de Nemours oli François Quesnayn nuorin oppilas, joka kerran sanoi hänestä: "Meidän on pidettävä huolta tästä nuoresta miehestä, sillä hän puhuu, kun me olemme kuolleet". Ranskan vallankumouksen alkaessa lähes kaikki suuret fysiokraatit, myös markiisi de Mirabeau, olivat jo poissa; Mirabeau itse oli kuollut 13. heinäkuuta 1789.
@@ -1598,7 +1598,7 @@ Mutta jälleen kerran kukaan ei kuunnellut häntä.
 ## Johtopäätökset: Soihdun siirtäminen
 
 
-<chapterId>ada8082f-db96-5e52-954f-719b47998153</chapterId>
+<chapterId>691a1639-3e28-4401-bc29-6b17abcfc333</chapterId>
 
 
 1700-luvun ranskalainen talousajattelu jää usein 1800-luvun kuuluisampien taloustieteilijöiden varjoon. Kuitenkin kun on kyse vapauden puolustamisesta, kaikki todella alkaa 1700-luvulta. Tällä vuosisadalla useat ajattelijat Boisguilbertista Dupont de Nemoursiin ilmaisivat ensimmäisen kerran selkeästi aikanaan niin vallankumouksellisen laissez-faire -periaatteen.
@@ -1652,7 +1652,7 @@ Kaikki nämä ajatukset otettiin käyttöön 1800-luvun taloustieteilijöissä. 
 ## Elämäkerta
 
 
-<chapterId>17cf2865-e53c-5f3b-a5c2-a43560efaf01</chapterId>
+<chapterId>9daf678b-2687-4a2f-a490-8826538c1b49</chapterId>
 
 
 **VALIKOIVA KIRJALLISUUSLUETTELO**
@@ -1735,27 +1735,27 @@ Alla on valikoima yli kolmekymmentä kirjoitusta:
 # Viimeinen osa
 
 
-<partId>385bffab-aea1-5bcd-9569-62b3f30665b7</partId>
+<partId>aa809524-47cd-4945-92d0-2e674b98e2e2</partId>
 
 
 ## Arvostelut & arvostelut
 
 
-<chapterId>a1e689d9-abd0-5dcb-ba56-a8d355d0a84f</chapterId>
+<chapterId>e13b6e40-2801-4e3c-8ed1-1c9144f47e27</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Loppukoe
 
 
-<chapterId>bdb7fd98-33e7-11f0-9fe6-b785c859ffc5</chapterId>
+<chapterId>9da23eb9-a79c-4cf3-8b73-b64a9b3f45d1</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## Päätelmä
 
 
-<chapterId>3b366ff6-03c8-5f6a-b4c0-ba8186e65d7e</chapterId>
+<chapterId>027ecdbb-a845-4232-be81-92e1b7101618</chapterId>
 
 
 <isCourseConclusion>true</isCourseConclusion>

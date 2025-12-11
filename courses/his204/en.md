@@ -43,11 +43,11 @@ Ready to rediscover the French roots of economic liberalism? Let's go!
 
 # The Forerunners
 
-<partId>91565b10-6010-53cb-a2f4-9c2306c7ef8c</partId>
+<partId>c77622e2-0e20-4de1-a55d-380a454185bc</partId>
 
 ## Historical Background
 
-<chapterId>6a5fd101-6dfd-5d77-96c7-9e1aa4a19758</chapterId>
+<chapterId>eb7344f4-ec44-43ae-83e5-e764e22b7c11</chapterId>
 
 At the dawn of the 18th century, France was in a worrying state. Rural populations were barely producing enough to survive and were heavily taxed.
 
@@ -103,7 +103,7 @@ These are the four principles that guided the French government for several deca
 
 ## Vauban
 
-<chapterId>ee9c1e0e-96cc-5026-a5e2-963d68122786</chapterId>
+<chapterId>6b77468d-b8e3-47d2-b304-c290eea1c7d9</chapterId>
 
 Today, as the tax pressure in our country continues to grow, threatening to suffocate national economic forces, voices are rising in favor of change. Whether consciously or not, these calls for reform often echo the work of French economists who, since the 17th century, have criticized the nation's tax system as chaotic, despotic, excessive.
 
@@ -150,7 +150,7 @@ Shortly before his death, Vauban's idea was adopted by Louis XIV's ministers. Ho
 
 ## Boisguilbert
 
-<chapterId>200149c6-b5fc-566e-ab0e-bafb1c3fed3c</chapterId>
+<chapterId>e5dd73e0-e48e-43e7-a9af-d651414cfc6b</chapterId>
 
 Few French economists from the past enjoy recognition in their homeland today that matches their contributions, and Boisguilbert is no exception.
 
@@ -191,7 +191,7 @@ Boisguilbert even criticized the "*good souls*", as he called them, those who me
 
 ## Cantillon
 
-<chapterId>bc206d41-6a64-5688-a489-40fcfa0e5397</chapterId>
+<chapterId>7a6654fe-874e-45ca-a98f-1f3d17c09f24</chapterId>
 
 Author of the "Essay on the Nature of Trade in General" (written around 1730, published in 1755), Richard Cantillon is regarded as one of the pioneers of modern economic science. In his History of Economic Thought, economist Murray Rothbard even refers to Cantillon as the founder of modern economics.
 
@@ -232,11 +232,11 @@ With this theory about the effects of inflation, Cantillon provides us with answ
 
 # Reformers and Thinkers of the Early 18th Century
 
-<partId>1f7b50d4-ce93-5db3-8396-43c1fa5419ff</partId>
+<partId>c4403d75-884e-4922-8be7-5121e2709d6a</partId>
 
 ## The Abbot of Saint-Pierre
 
-<chapterId>13478fe2-4c12-593c-a410-54c2cfb7ef7f</chapterId>
+<chapterId>756469cd-d78c-49aa-926f-7c134e8aa4c6</chapterId>
 
 Of all the authors we've chosen to include in the pantheon of 18th-century French laissez-faire thinkers, Abbot of Saint-Pierre is undoubtedly the most overlooked.
 
@@ -281,7 +281,7 @@ He also emphasized, before Vincent de Gournay did, the value of labor and the im
 
 ## The Marquis d'Argenson
 
-<chapterId>e9960ab4-72ec-5afd-8e97-bf89c83b62bc</chapterId>
+<chapterId>3f0c9654-a6f7-47db-8859-836c592127db</chapterId>
 
 The Marquis d'Argenson is a forgotten founder of the doctrine of laissez-faire.
 
@@ -331,7 +331,7 @@ On the question of trade in subsistence, d'Argenson had no other answer than fre
 
 ## Vincent de Gournay
 
-<chapterId>e8ae40dc-7450-552f-9ddc-9e02936cf425</chapterId>
+<chapterId>7446cc6a-9631-49ca-ac85-c477537b3a8d</chapterId>
 
 Vincent de Gournay was one of the first representatives of laissez-faire in France, and one of its earliest advocates in public administration and intellectual circles. For that reason, he deserves far more recognition in the history of economic thought than he usually receives. I've tried to highlight his contributions in a recent book.
 
@@ -377,7 +377,7 @@ Years later, Turgot, a future minister under Louis XVI, wrote an Éloge (eulogy)
 
 ## The Gournay Circle
 
-<chapterId>b86ba6bd-8f3a-5d8f-b098-4d0413f00deb</chapterId>
+<chapterId>6e2a0dbe-3afb-4071-b5f8-ab400da3e891</chapterId>
 
 When it comes to the early days of economic science, history tends to highlight a first school of thought: the Physiocrats, led by François Quesnay and his disciples. However, nearly a decade before their rise, there was another, less formal but equally important group centered around the economist Vincent de Gournay.
 
@@ -426,7 +426,7 @@ And indeed, in the 1750s, economic questions became fashionable. Voltaire famous
 
 ## Mirabeau
 
-<chapterId>2d2f802b-e3b6-556f-9025-a1b1dc4409ca</chapterId>
+<chapterId>5a11f48f-03ee-4c58-876e-f1c49fbb377a</chapterId>
 
 France has known two famous men named Mirabeau, a father and a son, but it was the son who truly made history. A revolutionary tribune and one of the central figures in the events of the French Revolution, he remained famous.
 
@@ -487,7 +487,7 @@ Throughout his life, Mirabeau remained a tireless writer. He authored numerous e
 
 ## Quesnay
 
-<chapterId>7a35f20b-5ea0-544d-b290-bcd9c6f7f11a</chapterId>
+<chapterId>6025f746-08fe-4406-8793-a0f5b9d64a45</chapterId>
 
 François Quesnay is one of the most famous French economists.
 
@@ -542,11 +542,11 @@ This book gathered Quesnay's main contributions. It laid out the economic ideal 
 
 # The Physiocratic School
 
-<partId>27af82c1-ad82-5c3b-8ce9-c674b67bbf7c</partId>
+<partId>d8a123a2-c47e-4aa4-873b-1b5a75fe313b</partId>
 
 ## History of the Physiocrats
 
-<chapterId>4236ff8b-b53a-59e7-92c0-f96f9afa1c00</chapterId>
+<chapterId>b039837d-d765-43fc-a3dd-e492d7caf4c3</chapterId>
 
 Physiocracy became fashionable in France, and even across Europe, for barely a decade. After a long period of development, it gained prominence in the mid-1760s. By the time Turgot came to power in 1776, the movement had already lost its popularity, and the minister kept his support for Quesnay's school mostly hidden.
 
@@ -596,7 +596,7 @@ Physiocracy would continue to exert influence up through the Revolution. In Fran
 
 ## The foundations of the Physiocrats' doctrine
 
-<chapterId>4dbe5436-0578-57c2-b054-03ed00aa091a</chapterId>
+<chapterId>57beea84-ff70-4757-b5f4-9f2d18deec18</chapterId>
 The term Physiocracy, meaning "government by nature", was coined by Dupont de Nemours and used as the title for *Physiocracy*, a collection of articles by Quesnay published in 1768.
 
 
@@ -666,7 +666,7 @@ Fierce opponents of slavery, the Physiocrats were also great pacifists. "Our for
 
 ## The Physiocrats' achievements and influences
 
-<chapterId>5b911105-796a-5e2e-a501-c7a364fc758e</chapterId>
+<chapterId>9ebd22fa-9f00-4148-871b-7e12874b18c0</chapterId>
 
 As we saw in the first of the three chapters devoted to the Physiocrats, Quesnay's followers were all the rage in France for about a decade. This enthusiasm for their ideas took shape both in their time and continued until the end of the century. Here, we will look at some of their achievements and the influence they exerted on their successors in the field of economic thought.
 
@@ -720,7 +720,7 @@ Sadly, Quesnay died two years before Smith's book was published, and Smith remov
 
 ## Dupont de Nemours
 
-<chapterId>6d585e0f-93b8-5b0a-a0a8-7f6e4a5bc68e</chapterId>
+<chapterId>be6cf3ea-a927-4407-b232-98c703a3a4ed</chapterId>
 
 
 
@@ -783,11 +783,11 @@ Despite this eventful life, during which he published dozens of articles, brochu
 
 # The Enlightenment and Political Economy
 
-<partId>d1c885ad-7cb1-5f81-816c-be312719d9f8</partId>
+<partId>c8a1fe43-bdb6-48d8-9542-4d086cdffab3</partId>
 
 ## Voltaire and the philosophers
 
-<chapterId>16bcf7bf-dad4-5113-8c64-2800f04ff07b</chapterId>
+<chapterId>57749874-730e-452d-a53d-d3297eb81e9f</chapterId>
 
 The 18th century in France saw the emergence of economics as a science and the first school of economic thought: Physiocracy. Adam Smith trained in economics during this period, and French economists were recognized globally as leaders. However, this century is remembered more as the century of philosophy than of economics. While the Physiocratic movement aligned, in its ambitions, with Enlightenment philosophy, the attitudes of the philosophes—especially Diderot and Voltaire—deserve close examination. We will see that the Enlightenment thinkers significantly contributed to spreading the idea of laissez-faire in France.
 
@@ -828,7 +828,7 @@ In the end, the philosophes' relationship with economic thought is mixed. Despit
 
 ## Turgot, The Theorist
 
-<chapterId>a8cd8185-8351-556b-8011-3a0c313e8a9d</chapterId>
+<chapterId>e6b12aac-aa56-4932-8ca2-67efb9aa4d72</chapterId>
 
 In a famous passage from his *History of Economic Thought*, American economist Murray Rothbard praised what he called the "brilliance" of Turgot.
 
@@ -898,7 +898,7 @@ Here we find a very clear statement of the doctrine of laissez-faire, as well as
 
 ## Turgot, the Reformer
 
-<chapterId>9177429f-1679-51c4-bfd2-dd036d24a1cc</chapterId>
+<chapterId>32c45d6f-511e-48d4-980f-aca5f2ec8464</chapterId>
 
 As we briefly recalled in the previous chapter, Turgot was the son of a prominent family that had distinguished itself in the upper ranks of the French civil service.
 
@@ -954,7 +954,7 @@ In the end, the parlements and the privileged classes won out. All the King coul
 
 ## Condillac
 
-<chapterId>0ba8dbb5-dcd5-5981-bf85-6c185e0bf192</chapterId>
+<chapterId>f3f1683a-4bcd-4b2a-b5d1-ec0e94c3b457</chapterId>
 
 Just like mercantilism, which is its most obvious practical manifestation, Montaigne's sophism took a long time to disappear.
 
@@ -1008,7 +1008,7 @@ They therefore entirely destroy criticisms of free trade, since protectionism ap
 
 ## Condorcet
 
-<chapterId>99e4aba6-da7f-5041-b02f-337158381515</chapterId>
+<chapterId>55fbdf44-8975-44af-b161-f36d69a49347</chapterId>
 
 Condorcet is undoubtedly the most economically minded philosopher of the Enlightenment.
 
@@ -1049,7 +1049,7 @@ Although he devoted all his energy to defending Turgot, Condorcet had no illusio
 
 ## Liberal common sense under the Revolution
 
-<chapterId>95e9a90d-e37a-58ff-b1ac-928b42e76ecf</chapterId>
+<chapterId>37ad7db0-ed45-44ba-8bef-d1fa323dbe8e</chapterId>
 
 Dupont de Nemours was the youngest disciple of François Quesnay, who once said of him: "We must take care of this young man, for he will speak when we are dead". When the French Revolution began, nearly all the great Physiocrats, including the Marquis de Mirabeau, were already gone; Mirabeau himself had passed away on July 13, 1789.
 Dupont de Nemours wrote the list of grievances for the bailiwick of Nemours.
@@ -1099,7 +1099,7 @@ But once again, no one listened to him.
 
 ## Conclusion: Passing the Torch
 
-<chapterId>ada8082f-db96-5e52-954f-719b47998153</chapterId>
+<chapterId>691a1639-3e28-4401-bc29-6b17abcfc333</chapterId>
 
 French economic thought in the 18th century is often overshadowed by the more famous economists of the 19th century. Yet, when it comes to the defense of liberty, it is in the 18th century that everything truly begins. This is the century in which the principle of laissez-faire, so revolutionary in its time, was first clearly expressed by a number of thinkers, from Boisguilbert to Dupont de Nemours.
 Certainly, figures like Jean-Baptiste Say, Frédéric Bastiat, Gustave de Molinari, and Yves Guyot left a lasting mark on the history of French economic thought. But if we study them in isolation, we miss something essential. These 19th-century thinkers didn't emerge from nowhere; they inherited and built upon the foundations laid by their 18th-century predecessors during the Enlightenment.
@@ -1136,7 +1136,7 @@ All of these ideas would be taken up by the economists of the 19th century. Some
 
 ## Biography
 
-<chapterId>17cf2865-e53c-5f3b-a5c2-a43560efaf01</chapterId>
+<chapterId>9daf678b-2687-4a2f-a490-8826538c1b49</chapterId>
 
 **SELECTIVE BIBLIOGRAPHY**
 
@@ -1180,20 +1180,20 @@ Here below, you'll find a selection of over thirty writings:
 
 # Final section
 
-<partId>385bffab-aea1-5bcd-9569-62b3f30665b7</partId>
+<partId>aa809524-47cd-4945-92d0-2e674b98e2e2</partId>
 
 ## Reviews & Ratings
 
-<chapterId>a1e689d9-abd0-5dcb-ba56-a8d355d0a84f</chapterId>
+<chapterId>e13b6e40-2801-4e3c-8ed1-1c9144f47e27</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Final Exam
 
-<chapterId>bdb7fd98-33e7-11f0-9fe6-b785c859ffc5</chapterId>
+<chapterId>9da23eb9-a79c-4cf3-8b73-b64a9b3f45d1</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Conclusion
 
-<chapterId>3b366ff6-03c8-5f6a-b4c0-ba8186e65d7e</chapterId>
+<chapterId>027ecdbb-a845-4232-be81-92e1b7101618</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

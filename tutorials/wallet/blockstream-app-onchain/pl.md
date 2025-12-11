@@ -284,7 +284,7 @@ Aby to zrobić, zapiszemy odniesienie, usuniemy Wallet, przywrócimy go za pomoc
 
 
 
-- Na ekranie głównym Wallet kliknij zakładkę "Ustawienia", a następnie "Szczegóły Wallet" i skopiuj zPub ([rozszerzony klucz publiczny](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602):
+- Na ekranie głównym Wallet kliknij zakładkę "Ustawienia", a następnie "Szczegóły Wallet" i skopiuj zPub ([rozszerzony klucz publiczny](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/0488ec38-da31-46a1-b31e-04b5c05fb6e8):
 
 
 

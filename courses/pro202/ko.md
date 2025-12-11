@@ -54,38 +54,38 @@ Plan ₿ Academy의 모든 과정과 마찬가지로, 마지막 섹션에는 여
 
 # Bitcoin을 위한 필수 수학 개념
 
-<partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>
+<partId>e545b7a7-b596-436e-86e9-d0ddceb72543</partId>
 
 
 ## Bitcoin 구현을 위한 수학
 
-<chapterId>e6eac2b0-6067-5a0b-9fcd-bbe46f4d7346</chapterId>
+<chapterId>790e5214-836b-40fe-bbd6-f4ccc920b778</chapterId>
 
 ![lecture](https://www.youtube.com/watch?v=OFHNu82g1mI)
 
 
 ## 타원 곡선 암호화
 
-<chapterId>fbbaf4e1-e292-5973-aae8-5d4ba593b9fb</chapterId>
+<chapterId>7d3d842e-ae88-472e-85ff-196d60655815</chapterId>
 
 ![lecture](https://www.youtube.com/watch?v=xOXdKuF3UFw)
 
 
 # Bitcoin 트랜잭션 내부 작업
 
-<partId>5da35ad0-6180-11f0-bd66-13724db9fbbd</partId>
+<partId>774c0e80-d316-414a-bd59-0bbd185d3b58</partId>
 
 
 ## Bitcoin 트랜잭션 구문 분석 및 ECDSA 서명
 
-<chapterId>fde364cd-d696-562f-847d-2ef4ffb29a95</chapterId>
+<chapterId>ae86fc27-2f27-4de9-b17c-351c00690144</chapterId>
 
 ![lecture](https://www.youtube.com/watch?v=dEArQBDgXgA)
 
 
 ## Bitcoin 스크립트 및 트랜잭션 유효성 검사
 
-<chapterId>40b20c16-c21e-5173-9e4f-52620f5840a3</chapterId>
+<chapterId>8f0d4381-2b36-4c66-8bee-1100b2dfd8ed</chapterId>
 
 ![lecture](https://www.youtube.com/watch?v=g1wd-qwbHM8)
 
@@ -93,33 +93,33 @@ Plan ₿ Academy의 모든 과정과 마찬가지로, 마지막 섹션에는 여
 ## 트랜잭션 구성 및 대금 지급 Hash
 
 
-<chapterId>860f50fc-0c9d-5767-a2d8-2934bf8181ba</chapterId>
+<chapterId>1a6ca3fa-a71f-4b7e-9337-7c84a0b3f928</chapterId>
 
 ![lecture](https://www.youtube.com/watch?v=j0VHdGsFy2o)
 
 
 # Bitcoin 네트워크 내부 연동
 
-<partId>c058ed10-33b0-58e3-8b81-08e1ebede253</partId>
+<partId>6af9d722-07da-487b-bf08-1b30bc3db3d4</partId>
 
 
 ## Bitcoin 블록 및 Proof of Work
 
-<chapterId>12d77b0d-7807-52b8-8d86-8e8570300e6d</chapterId>
+<chapterId>28a0f5d3-af1b-4093-be49-e3112e1d48a4</chapterId>
 
 ![lecture](https://www.youtube.com/watch?v=lJYSM1iLWQU)
 
 
 ## 네트워크 통신 및 머클 트리
 
-<chapterId>dc88b974-e09d-5ae5-ab0d-efc139fc7ffe</chapterId>
+<chapterId>dd8e23bc-ddd6-45a6-8d3a-16bc86ba49ac</chapterId>
 
 ![lecture](https://www.youtube.com/watch?v=Yq02tjpYmaQ)
 
 
 ## 고급 노드 통신 및 분리된 증인
 
-<chapterId>c7af1f3b-8a8f-5853-b547-3c178bc7f669</chapterId>
+<chapterId>8d70c283-4609-46a8-ad24-83b04a68529a</chapterId>
 
 ![lecture](https://www.youtube.com/watch?v=itce1zdUqjQ)
 
@@ -128,13 +128,13 @@ Plan ₿ Academy의 모든 과정과 마찬가지로, 마지막 섹션에는 여
 # 최종 섹션
 
 
-<partId>5d5d98dc-6c7b-11f0-83b5-eb1625573c9d</partId>
+<partId>f338e5f4-216e-4b38-bf56-8333e674c04c</partId>
 
 
 ## 리뷰 및 평가
 
 
-<chapterId>f551b514-6ba5-11f0-833e-b33af48c067b</chapterId>
+<chapterId>e149d14b-e99f-428a-a775-ed50cd0a6e9b</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
@@ -149,6 +149,6 @@ Plan ₿ Academy의 모든 과정과 마찬가지로, 마지막 섹션에는 여
 ## 결론
 
 
-<chapterId>7fdf0d2c-6c7c-11f0-9a86-d308a341f341</chapterId>
+<chapterId>247bcefb-b158-42a3-82f4-c58bcad4a47a</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

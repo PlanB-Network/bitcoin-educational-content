@@ -59,13 +59,13 @@ Slutligen ska vi se hur liberalt ekonomiskt tänkande spreds inom den bredare up
 # Föregångarna
 
 
-<partId>91565b10-6010-53cb-a2f4-9c2306c7ef8c</partId>
+<partId>c77622e2-0e20-4de1-a55d-380a454185bc</partId>
 
 
 ## Historisk bakgrund
 
 
-<chapterId>6a5fd101-6dfd-5d77-96c7-9e1aa4a19758</chapterId>
+<chapterId>eb7344f4-ec44-43ae-83e5-e764e22b7c11</chapterId>
 
 
 I början av 1700-talet befann sig Frankrike i ett bekymmersamt tillstånd. Landsbygdsbefolkningen producerade knappt tillräckligt för att överleva och var hårt beskattad.
@@ -145,7 +145,7 @@ Det är de fyra principer som vägledde den franska regeringen under flera decen
 ## Vauban
 
 
-<chapterId>ee9c1e0e-96cc-5026-a5e2-963d68122786</chapterId>
+<chapterId>6b77468d-b8e3-47d2-b304-c290eea1c7d9</chapterId>
 
 
 I dag, när skattetrycket i vårt land fortsätter att växa och hotar att kväva de nationella ekonomiska krafterna, höjs röster för förändring. Medvetet eller omedvetet är dessa reformkrav ofta ett eko av franska ekonomer som sedan 1600-talet har kritiserat landets skattesystem för att vara kaotiskt, despotiskt och överdrivet.
@@ -212,7 +212,7 @@ Strax före sin död antogs Vaubans idé av Ludvig XIV:s ministrar. Vauban hade 
 ## Boisguilbert
 
 
-<chapterId>200149c6-b5fc-566e-ab0e-bafb1c3fed3c</chapterId>
+<chapterId>e5dd73e0-e48e-43e7-a9af-d651414cfc6b</chapterId>
 
 
 Få franska ekonomer från det förflutna åtnjuter i dag ett erkännande i sitt hemland som motsvarar deras insatser, och Boisguilbert är inget undantag.
@@ -272,7 +272,7 @@ Boisguilbert kritiserade till och med de "*goda själarna*", som han kallade dem
 ## Cantillon
 
 
-<chapterId>bc206d41-6a64-5688-a489-40fcfa0e5397</chapterId>
+<chapterId>7a6654fe-874e-45ca-a98f-1f3d17c09f24</chapterId>
 
 
 Richard Cantillon, författare till "Essay on the Nature of Trade in General" (skriven omkring 1730, publicerad 1755), anses vara en av den moderna ekonomiska vetenskapens pionjärer. I sin History of Economic Thought hänvisar ekonomen Murray Rothbard till och med till Cantillon som den moderna ekonomins grundare.
@@ -335,13 +335,13 @@ Med denna teori om inflationens effekter ger Cantillon oss svar på ett antal av
 # Reformatorer och tänkare i början av 1700-talet
 
 
-<partId>1f7b50d4-ce93-5db3-8396-43c1fa5419ff</partId>
+<partId>c4403d75-884e-4922-8be7-5121e2709d6a</partId>
 
 
 ## Abboten av Saint-Pierre
 
 
-<chapterId>13478fe2-4c12-593c-a410-54c2cfb7ef7f</chapterId>
+<chapterId>756469cd-d78c-49aa-926f-7c134e8aa4c6</chapterId>
 
 
 Av alla de författare som vi har valt att ta med i pantheon av franska laissez-faire-tänkare från 1700-talet är abboten av Saint-Pierre utan tvekan den mest förbisedda.
@@ -407,7 +407,7 @@ Han betonade också, innan Vincent de Gournay gjorde det, värdet av arbete och 
 ## Marquis d'Argenson
 
 
-<chapterId>e9960ab4-72ec-5afd-8e97-bf89c83b62bc</chapterId>
+<chapterId>3f0c9654-a6f7-47db-8859-836c592127db</chapterId>
 
 
 Marquis d'Argenson är en bortglömd grundare av doktrinen om laissez-faire.
@@ -479,7 +479,7 @@ På frågan om handel i försörjning hade d'Argenson inget annat svar än frihe
 ## Vincent de Gournay
 
 
-<chapterId>e8ae40dc-7450-552f-9ddc-9e02936cf425</chapterId>
+<chapterId>7446cc6a-9631-49ca-ac85-c477537b3a8d</chapterId>
 
 
 Vincent de Gournay var en av de första företrädarna för laissez-faire i Frankrike och en av dess tidigaste förespråkare inom offentlig förvaltning och i intellektuella kretsar. Av den anledningen förtjänar han ett mycket större erkännande i det ekonomiska tänkandets historia än vad han vanligtvis får. Jag har försökt att lyfta fram hans bidrag i en nyutkommen bok.
@@ -548,7 +548,7 @@ Flera år senare skrev Turgot, en blivande minister under Ludvig XVI, en Éloge 
 ## Gournay-cirkeln
 
 
-<chapterId>b86ba6bd-8f3a-5d8f-b098-4d0413f00deb</chapterId>
+<chapterId>6e2a0dbe-3afb-4071-b5f8-ab400da3e891</chapterId>
 
 
 När det gäller den ekonomiska vetenskapens tidiga dagar tenderar historien att lyfta fram en första tankeskola: fysiokraterna, ledda av François Quesnay och hans lärjungar. Men nästan ett decennium före deras uppkomst fanns det en annan, mindre formell men lika viktig grupp centrerad kring ekonomen Vincent de Gournay.
@@ -626,7 +626,7 @@ Och under 1750-talet blev ekonomiska frågor verkligen på modet. Voltaire anmä
 ## Mirabeau
 
 
-<chapterId>2d2f802b-e3b6-556f-9025-a1b1dc4409ca</chapterId>
+<chapterId>5a11f48f-03ee-4c58-876e-f1c49fbb377a</chapterId>
 
 
 Frankrike har känt två berömda män vid namn Mirabeau, en far och en son, men det var sonen som verkligen skrev historia. Han var en revolutionär tribun och en av de centrala figurerna i händelserna under franska revolutionen, och han förblev berömd.
@@ -715,7 +715,7 @@ Under hela sitt liv förblev Mirabeau en outtröttlig författare. Han författa
 ## Quesnay
 
 
-<chapterId>7a35f20b-5ea0-544d-b290-bcd9c6f7f11a</chapterId>
+<chapterId>6025f746-08fe-4406-8793-a0f5b9d64a45</chapterId>
 
 
 François Quesnay är en av de mest kända franska ekonomerna.
@@ -797,13 +797,13 @@ I denna bok samlades Quesnays viktigaste bidrag. I boken beskrivs fysiokraternas
 # Den fysiokratiska skolan
 
 
-<partId>27af82c1-ad82-5c3b-8ce9-c674b67bbf7c</partId>
+<partId>d8a123a2-c47e-4aa4-873b-1b5a75fe313b</partId>
 
 
 ## Fysiokraternas historia
 
 
-<chapterId>4236ff8b-b53a-59e7-92c0-f96f9afa1c00</chapterId>
+<chapterId>b039837d-d765-43fc-a3dd-e492d7caf4c3</chapterId>
 
 
 Fysiokratin var på modet i Frankrike, och till och med i hela Europa, under knappt ett decennium. Efter en lång utvecklingsperiod fick den en framträdande roll i mitten av 1760-talet. När Turgot kom till makten 1776 hade rörelsen redan förlorat sin popularitet, och ministern höll sitt stöd för Quesnays skola mestadels dolt.
@@ -876,7 +876,7 @@ Fysiokratin skulle fortsätta att utöva inflytande ända fram till revolutionen
 ## Grunderna för fysiokraternas lära
 
 
-<chapterId>4dbe5436-0578-57c2-b054-03ed00aa091a</chapterId>
+<chapterId>57beea84-ff70-4757-b5f4-9f2d18deec18</chapterId>
 
 Begreppet fysiokrati, som betyder "naturstyre", myntades av Dupont de Nemours och användes som titel på *Physiocracy*, en samling artiklar av Quesnay som publicerades 1768.
 
@@ -975,7 +975,7 @@ Fysiokraterna var hårda motståndare till slaveriet, men också stora pacifiste
 ## Fysiokraternas prestationer och influenser
 
 
-<chapterId>5b911105-796a-5e2e-a501-c7a364fc758e</chapterId>
+<chapterId>9ebd22fa-9f00-4148-871b-7e12874b18c0</chapterId>
 
 
 Som vi såg i det första av de tre kapitlen om fysiokraterna, var Quesnays anhängare det stora modet i Frankrike under ungefär ett decennium. Denna entusiasm för deras idéer tog form både under deras tid och fortsatte fram till slutet av århundradet. Här kommer vi att titta på några av deras prestationer och det inflytande de utövade på sina efterträdare inom området ekonomiskt tänkande.
@@ -1054,7 +1054,7 @@ Tyvärr dog Quesnay två år innan Smiths bok publicerades, och Smith tog bort d
 ## Dupont de Nemours
 
 
-<chapterId>6d585e0f-93b8-5b0a-a0a8-7f6e4a5bc68e</chapterId>
+<chapterId>be6cf3ea-a927-4407-b232-98c703a3a4ed</chapterId>
 
 
 
@@ -1145,13 +1145,13 @@ Trots detta händelserika liv, under vilket han publicerade dussintals artiklar,
 # Upplysningen och den politiska ekonomin
 
 
-<partId>d1c885ad-7cb1-5f81-816c-be312719d9f8</partId>
+<partId>c8a1fe43-bdb6-48d8-9542-4d086cdffab3</partId>
 
 
 ## Voltaire och filosoferna
 
 
-<chapterId>16bcf7bf-dad4-5113-8c64-2800f04ff07b</chapterId>
+<chapterId>57749874-730e-452d-a53d-d3297eb81e9f</chapterId>
 
 
 Under 1700-talet i Frankrike uppstod ekonomi som vetenskap och den första ekonomiska tankeskolan: Fysiokratin. Adam Smith utbildade sig i ekonomi under denna period, och franska ekonomer erkändes globalt som ledare. Detta århundrade är dock mer ihågkommet som filosofins århundrade än som ekonomins. Även om den fysiokratiska rörelsen i sina ambitioner låg i linje med upplysningsfilosofin, förtjänar filosofernas attityder - särskilt Diderot och Voltaire - en närmare granskning. Vi kommer att se att upplysningstänkarna på ett betydande sätt bidrog till att sprida idén om laissez-faire i Frankrike.
@@ -1210,7 +1210,7 @@ I slutändan är filosofernas förhållande till det ekonomiska tänkandet bland
 ## Turgot, teoretikern
 
 
-<chapterId>a8cd8185-8351-556b-8011-3a0c313e8a9d</chapterId>
+<chapterId>e6b12aac-aa56-4932-8ca2-67efb9aa4d72</chapterId>
 
 
 I en berömd passage i sin bok *History of Economic Thought* hyllade den amerikanske ekonomen Murray Rothbard vad han kallade Turgots "briljans".
@@ -1307,7 +1307,7 @@ Här finner vi ett mycket tydligt uttalande av doktrinen om laissez-faire, likso
 ## Turgot, reformatorn
 
 
-<chapterId>9177429f-1679-51c4-bfd2-dd036d24a1cc</chapterId>
+<chapterId>32c45d6f-511e-48d4-980f-aca5f2ec8464</chapterId>
 
 
 Som vi kortfattat erinrade om i föregående kapitel var Turgot son till en framstående familj som hade utmärkt sig i den franska statsförvaltningens toppskikt.
@@ -1388,7 +1388,7 @@ Till slut vann parlamenten och de privilegierade klasserna. Allt kungen kunde g�
 ## Condillac
 
 
-<chapterId>0ba8dbb5-dcd5-5981-bf85-6c185e0bf192</chapterId>
+<chapterId>f3f1683a-4bcd-4b2a-b5d1-ec0e94c3b457</chapterId>
 
 
 Precis som merkantilismen, som är dess mest uppenbara praktiska manifestation, tog Montaignes sofism lång tid på sig att försvinna.
@@ -1467,7 +1467,7 @@ De tillintetgör därför helt kritiken mot frihandel, eftersom protektionism en
 ## Condorcet
 
 
-<chapterId>99e4aba6-da7f-5041-b02f-337158381515</chapterId>
+<chapterId>55fbdf44-8975-44af-b161-f36d69a49347</chapterId>
 
 
 Condorcet är utan tvekan den mest ekonomiskt sinnade filosofen under upplysningstiden.
@@ -1524,7 +1524,7 @@ Turgot, som uppskattade Condorcets lojala försvar av hans idéer, utnämnde hon
 ## Liberalt sunt förnuft under revolutionen
 
 
-<chapterId>95e9a90d-e37a-58ff-b1ac-928b42e76ecf</chapterId>
+<chapterId>37ad7db0-ed45-44ba-8bef-d1fa323dbe8e</chapterId>
 
 
 Dupont de Nemours var den yngste lärjungen till François Quesnay, som en gång sa om honom: "Vi måste ta hand om den här unge mannen, för han kommer att tala när vi är döda". När den franska revolutionen började var nästan alla de stora fysiokraterna, inklusive markis de Mirabeau, redan borta; Mirabeau själv hade gått bort den 13 juli 1789.
@@ -1598,7 +1598,7 @@ Men än en gång var det ingen som lyssnade på honom.
 ## Slutsats: Att lämna över stafettpinnen
 
 
-<chapterId>ada8082f-db96-5e52-954f-719b47998153</chapterId>
+<chapterId>691a1639-3e28-4401-bc29-6b17abcfc333</chapterId>
 
 
 Det franska ekonomiska tänkandet under 1700-talet hamnar ofta i skuggan av de mer kända ekonomerna från 1800-talet. Men när det gäller försvaret av friheten är det på 1700-talet som allting verkligen börjar. Det är det århundrade då principen om laissez-faire, som var så revolutionerande på sin tid, för första gången tydligt uttrycktes av ett antal tänkare, från Boisguilbert till Dupont de Nemours.
@@ -1652,7 +1652,7 @@ Alla dessa idéer skulle komma att tas upp av 1800-talets ekonomer. Vissa, som J
 ## Biografi
 
 
-<chapterId>17cf2865-e53c-5f3b-a5c2-a43560efaf01</chapterId>
+<chapterId>9daf678b-2687-4a2f-a490-8826538c1b49</chapterId>
 
 
 **SELEKTIV BIBLIOGRAFI**
@@ -1735,27 +1735,27 @@ Här nedan hittar du ett urval av över trettio skrifter:
 # Sista avsnittet
 
 
-<partId>385bffab-aea1-5bcd-9569-62b3f30665b7</partId>
+<partId>aa809524-47cd-4945-92d0-2e674b98e2e2</partId>
 
 
 ## Recensioner & betyg
 
 
-<chapterId>a1e689d9-abd0-5dcb-ba56-a8d355d0a84f</chapterId>
+<chapterId>e13b6e40-2801-4e3c-8ed1-1c9144f47e27</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Slutlig tentamen
 
 
-<chapterId>bdb7fd98-33e7-11f0-9fe6-b785c859ffc5</chapterId>
+<chapterId>9da23eb9-a79c-4cf3-8b73-b64a9b3f45d1</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## Slutsats
 
 
-<chapterId>3b366ff6-03c8-5f6a-b4c0-ba8186e65d7e</chapterId>
+<chapterId>027ecdbb-a845-4232-be81-92e1b7101618</chapterId>
 
 
 <isCourseConclusion>true</isCourseConclusion>

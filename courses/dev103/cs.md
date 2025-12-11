@@ -28,12 +28,12 @@ Na konci kurzu byste měli být schopni psát vlastní programy v jazyce JavaScr
 +++
 # Základy jazyka JavaScript
 
-<partId>a617327c-e5a2-52ca-9380-c63f44623dd4</partId>
+<partId>f05873c1-d927-41c7-a204-bb0c65a76980</partId>
 
 
 ## Nastavení
 
-<chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
+<chapterId>f23bda2d-c460-4823-9d63-f2ac4d782c1f</chapterId>
 
 
 
@@ -182,7 +182,7 @@ Tím se vytiskne
 
 ## Proměnné a poznámky
 
-<chapterId>23050ab7-343b-5edf-9d37-e4e782e27ce0</chapterId>
+<chapterId>3eeeaba5-0eae-446f-9cbb-671d8ec89155</chapterId>
 
 
 Programy obvykle provádějí operace s daty.
@@ -466,7 +466,7 @@ Pomocí komentářů můžete do kódu přidávat drobné poznámky, abyste si m
 
 ## Základní typy: čísla, řetězce, booleany
 
-<chapterId>cfdb04f6-21a8-5143-bbf9-7aaae04962f0</chapterId>
+<chapterId>1885cd1e-9477-40b3-846f-c6484a0741d1</chapterId>
 
 
 V JavaScriptu "typ" udává, o jaký druh dat se jedná.
@@ -723,7 +723,7 @@ V programech se často kombinují logické operátory, porovnávací operátory 
 
 ## Pole, null, undefined
 
-<chapterId>7bf18183-5eae-53ed-83d2-b04982145d81</chapterId>
+<chapterId>8047722f-5eee-46c3-b17f-c29b709930c3</chapterId>
 
 
 V této části se budeme zabývat dalšími třemi typy, které jsou v programech v jazyce JavaScript velmi časté:
@@ -970,7 +970,7 @@ Proto se `null` hodí, když chcete například říct: "Později by tu mělo n�
 
 ## Bloky a tok řízení
 
-<chapterId>be985168-2636-5b0d-a48f-ac1bbfbff8a7</chapterId>
+<chapterId>ae3ddb7d-b174-4328-ba45-e3629ea01063</chapterId>
 
 
 Dosud jsme většinou psali řádky kódu, které se spouštěly jeden po druhém.
@@ -1500,7 +1500,7 @@ Byl to velmi nudný příklad, ale snad objasnil (občasnou) potřebu štítků.
 
 ## Zavedení funkcí
 
-<chapterId>cc324715-09c2-5cf7-9e6f-47a6f16bc04d</chapterId>
+<chapterId>c73497b2-30c8-47c3-994c-01404924634e</chapterId>
 
 
 Jak se vaše programy rozrůstají, často budete chtít **používat** části kódu opakovaně.
@@ -1740,7 +1740,7 @@ Vypíše se `undefined`. Návratová hodnota funkce, která nic nevrátila, je `
 
 ## Objekty a třídy
 
-<chapterId>26689f25-8212-5057-8c21-3a05eee0ac75</chapterId>
+<chapterId>820f0b78-7065-4929-84eb-6d569d75a9ce</chapterId>
 
 
 JavaScript je často označován za objektově orientovaný jazyk.
@@ -2425,12 +2425,12 @@ Oba řádky vracejí hodnotu `true`. Je to proto, že `Admin` je podtřídou `U�
 
 # JavaScript pro mírně pokročilé
 
-<partId>243f63ab-4f34-5c30-80cb-84ef46f6761d</partId>
+<partId>371fcc46-5c4f-4e9f-8e88-092927553fdc</partId>
 
 
 ## Zpracování chyb
 
-<chapterId>d0206bc5-d386-5e7f-9917-5803f392448c</chapterId>
+<chapterId>a34f710a-8955-4f58-a559-003706047512</chapterId>
 
 
 Při psaní složitějších programů v jazyce JavaScript se budete setkávat s **chybami**. Jedná se o neočekávané situace, kdy se něco pokazí. Třeba je proměnná `nedefinovaná`, ale vy se ji pokusíte použít, nebo některý kód obdrží špatný typ vstupu.
@@ -2583,7 +2583,7 @@ This will run no matter what.
 
 ## Vyhýbání se chybám
 
-<chapterId>db12d9f6-5806-514c-998e-0ae24805104e</chapterId>
+<chapterId>44624b0b-ca62-471b-9ff4-633ac4456031</chapterId>
 
 
 V této kapitole se dozvíte o některých nejčastějších nástrahách jazyka JavaScript a o tom, jak se jim vyhnout.
@@ -2681,7 +2681,7 @@ Striktní režim také vypíná některé zastaralé funkce JavaScriptu a usnad�
 
 ## Hodnota vs. reference
 
-<chapterId>bb898425-dc2f-5e5c-864b-0cb7a4a9aea9</chapterId>
+<chapterId>7b38da5d-a2a8-4a92-bd16-4f9fb9bba36d</chapterId>
 
 
 JavaScript zachází s různými druhy hodnot různým způsobem.
@@ -2845,7 +2845,7 @@ Je důležité si tento rozdíl zapamatovat, protože jinak by se náš kód moh
 
 ## Práce s funkcemi
 
-<chapterId>e0d277a8-c642-5af7-9e53-dee27c811967</chapterId>
+<chapterId>5ef8fb79-0042-4185-8f54-0c2b6741cb11</chapterId>
 
 
 Již jste se naučili deklarovat a používat funkce v jazyce JavaScript. JavaScript vám však nabízí další nástroje, které vám umožní pracovat s funkcemi výkonnými způsoby.
@@ -3113,7 +3113,7 @@ console.log(result) // 28
 
 ## Práce s objekty
 
-<chapterId>7842aada-f009-5518-b8e3-1104e166a035</chapterId>
+<chapterId>51719896-7c92-4730-b153-7d3f88680a73</chapterId>
 
 
 V této kapitole se seznámíme s některými výkonnými a poněkud pokročilejšími nástroji pro práci s objekty v jazyce JavaScript.
@@ -3240,7 +3240,7 @@ I když se tedy zdá, že pouze nastavujeme jednoduchou proměnnou, ve skutečno
 
 ## Klíče a hodnoty
 
-<chapterId>01a397b8-c12a-5c39-82b3-6d9ebbb72a29</chapterId>
+<chapterId>03899213-ca26-4beb-b836-c70116a5cb29</chapterId>
 
 
 Každá vlastnost v objektu JavaScript má **klíč** (nazývaný také název vlastnosti) a **hodnotu**.
@@ -3415,7 +3415,7 @@ Jak vidíte, původní vlastnost `name` je tímto způsobem zachována. To můž
 
 ## Užitečné objekty
 
-<chapterId>516e74c8-2a11-545a-a4d1-c2cabb91a273</chapterId>
+<chapterId>d6ce15ed-f38f-44f0-bf38-05f54a263763</chapterId>
 
 
 JavaScript nám poskytuje několik užitečných vestavěných objektů, které nám pomáhají provádět například ladění a matematické operace.
@@ -3588,12 +3588,12 @@ console.log(Math.sqrt(16))    // 4
 
 # Pokročilý JavaScript
 
-<partId>72c30671-ca20-5617-92a5-d5ba7aa38c93</partId>
+<partId>4deca44e-5be7-4cc7-8e66-b6e72c5c5702</partId>
 
 
 ## Ostatní sbírky
 
-<chapterId>a9a70c6d-a343-5a46-a383-e288bc2700e3</chapterId>
+<chapterId>06bc3143-6d3b-4742-b3ec-3d493200f290</chapterId>
 
 
 JavaScript nám poskytuje některé speciální typy kolekcí, které přesahují rámec běžných polí a objektů. Patří mezi ně `Map` a `Set`.
@@ -3761,7 +3761,7 @@ Funkce `Set` se vyhne duplicitám.
 
 ## Iterátory
 
-<chapterId>61d24e5e-b7e4-541a-8322-778f61f26a72</chapterId>
+<chapterId>cdf64150-bf1b-43ee-9243-eb1d12944f6b</chapterId>
 
 
 Většina věcí v JavaScriptu, nad kterými lze pracovat ve smyčce (např. pole, řetězce, mapy, množiny), je **iterovatelná**: mohou poskytovat iterátory pro svůj obsah.
@@ -4096,7 +4096,7 @@ Tento tisk:
 
 ## Souběžnost pomocí zpětných volání
 
-<chapterId>f3fc76ca-b3ef-54eb-a06e-501007002054</chapterId>
+<chapterId>153d4631-4f09-4673-9663-a0655c84915d</chapterId>
 
 
 Až dosud byl náš kód **synchronní**: spouštěl se postupně po jednotlivých řádcích. Některé věci v reálném světě však vyžadují čas a my nechceme, aby se celý program při čekání zastavil.
@@ -4221,7 +4221,7 @@ Je to Hard na čtení a nepřehledné. Tomuto stylu se říká **peklo zpětnýc
 
 ## Současnost pomocí slibů
 
-<chapterId>30fddaca-729f-5c8d-bf86-8dfc7b3c9800</chapterId>
+<chapterId>f8635081-bd8a-468c-937a-378cba983be8</chapterId>
 
 
 `Promise` je vestavěný objekt jazyka JavaScript, který představuje hodnotu, která bude **připravena v budoucnu**.
@@ -4553,7 +4553,7 @@ Každý krok `.then()` čeká na dokončení kroku, který mu předchází. Mů�
 
 ## Souběh s async/await
 
-<chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
+<chapterId>ee195267-5761-4b57-b9c9-294c41753675</chapterId>
 
 
 Viděli jsme, jak nám řetězce `Promise` pomáhají vyhnout se peklu zpětných volání, ale i tak mohou být trochu obtížně čitelné, pokud je v nich zahrnuto mnoho kroků.
@@ -4754,7 +4754,7 @@ Vypadá to jako běžný postupný program, ale přesto se chová asynchronně.
 
 ## Asynchronní iterátory
 
-<chapterId>438b037d-9931-56d7-9052-7b4470f3c75b</chapterId>
+<chapterId>0e054e0d-3c56-4a9c-92b8-3f89082951d3</chapterId>
 
 
 Již jste se naučili o **iterátorech** a o tom, jak můžeme používat `for...of` k cyklování polí a dalších iterovatelných věcí.
@@ -4933,7 +4933,7 @@ To umožňuje vytvářet objekty, které lze iterovat asynchronně
 
 ## Syntaxe cukru Assignment
 
-<chapterId>8b1ba7d8-ecfd-5470-b86e-73cb84ccc8b7</chapterId>
+<chapterId>05425043-b182-44f2-8409-210b07130f92</chapterId>
 
 
 "Syntaktický cukr" znamená, že něco napíšete kratším nebo jednodušším způsobem, aniž byste změnili to, co to dělá. Je to jen hezčí způsob, jak říci stejnou věc.
@@ -5184,12 +5184,12 @@ To je velmi užitečné při aktualizaci objektů beze změny původního stavu.
 
 # NodeJS
 
-<partId>42fe4d49-dace-5135-bb9e-b9d75034fb2a</partId>
+<partId>5b72ef93-69a6-4736-a375-6236861e2874</partId>
 
 
 ## Jak jsme se dostali k uzlu
 
-<chapterId>0da1d60c-06c9-54e6-a181-ae7dabf6e3b8</chapterId>
+<chapterId>d43b1e4c-cd96-4c75-8039-f76eb407a576</chapterId>
 
 
 V této kapitole se dozvíme něco málo z historických souvislostí o JavaScriptu a NodeJS.
@@ -5278,7 +5278,7 @@ V tomto kurzu jsme se zatím zabývali funkcemi JavaScriptu, které jsou příto
 
 ## Argumenty příkazového řádku
 
-<chapterId>960d20f3-c424-5d51-a041-ef17d2e94b6d</chapterId>
+<chapterId>941e316c-7ab8-4fb0-8298-9a1c85b25b71</chapterId>
 
 
 NodeJS nám mimo jiné umožňuje vytvářet CLI (Command Line Interfaces).
@@ -5355,7 +5355,7 @@ Přístup k argumentům, které uživatel předává, je pro vývoj aplikací pr
 
 ## Moduly
 
-<chapterId>4e1651a5-65fd-50bc-b22a-40313d5659ca</chapterId>
+<chapterId>ace32a0c-8a10-4dfa-83e2-e06a8f674a24</chapterId>
 
 
 Běhové prostředí JavaScriptu, jako je NodeJS, obvykle považuje každý soubor JavaScriptu za samostatný modul.
@@ -5495,7 +5495,7 @@ V dalších kapitolách si ukážeme několik užitečných příkladů jejich p
 
 ## Modul fs
 
-<chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
+<chapterId>e59cdf25-2dc2-48d1-b5c1-3df89254ff4e</chapterId>
 
 
 Modul `fs` (zkratka pro **souborový systém**) je součástí standardní knihovny NodeJS. Umožňuje pracovat se soubory a adresáři v počítači: můžete soubory číst, zapisovat, mazat, přejmenovávat a další.
@@ -5793,7 +5793,7 @@ main().catch(err => console.error(err))
 
 ## NPM
 
-<chapterId>a91d9a75-55cc-51a3-a48f-0c0be6fe6e72</chapterId>
+<chapterId>412cfd23-1869-491e-9d04-84b9c447b4df</chapterId>
 
 
 Při psaní kódu budete často potřebovat použít kód napsaný jinými lidmi; například knihovny, které vám pomohou pracovat s daty, barvami, servery nebo téměř čímkoli jiným.
@@ -6014,7 +6014,7 @@ Těmito záležitostmi byste se však měli zabývat později, až začnete publ
 
 ## Síťování v NodeJS
 
-<chapterId>f2cabd8b-754b-5c97-8d6a-8412a9a184c7</chapterId>
+<chapterId>5915bd97-6bc8-446a-a1d8-ca3ce2f724be</chapterId>
 
 
 NodeJS se často používá jako jazyk pro backend: můžete svůj skript proměnit v server a také jej použít k zadávání požadavků jiným serverům.
@@ -6216,7 +6216,7 @@ Jedná se o velmi základní příklady. Pro stavbu pokročilejších serverů s
 
 ## Zpracování dat: vyrovnávací paměti, události, toky
 
-<chapterId>8c9623f0-a604-51a4-8fe4-871c849d3e3b</chapterId>
+<chapterId>6327b62d-3e2d-4a40-b8c3-78f2a21f3fda</chapterId>
 
 
 V této kapitole si představíme především tři třídy objektů:
@@ -6703,7 +6703,7 @@ Zpětného tlaku se tedy musíte obávat pouze tehdy, když z nějakého důvodu
 
 ## Závěrečná poznámka
 
-<chapterId>139e2ab8-df67-525a-85f0-5a2fa5e478f2</chapterId>
+<chapterId>c09318b9-2d2f-4300-a32b-dff8dbdb9dbd</chapterId>
 
 
 Tak, to je vše, pokud jste postupovali podle lekcí, měli byste být nyní schopni napsat několik jednoduchých programů v NodeJS.
@@ -6724,20 +6724,20 @@ Hodně štěstí!
 # Závěrečná část
 
 
-<partId>322624d8-6fbc-11f0-a67a-5b145f10afc1</partId>
+<partId>528a2f0c-e5cf-49e5-95c8-4866523a5bde</partId>
 
 
 ## Recenze a hodnocení
 
 
-<chapterId>3e93ac86-6fbc-11f0-8bae-9b2ed7914843</chapterId>
+<chapterId>5c5cae08-1839-4b94-b89c-af40a0dc14a9</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Závěr
 
 
-<chapterId>49b3b9b2-6fbc-11f0-9870-5f5adcd3a0eb</chapterId>
+<chapterId>627aebc9-879f-4539-8501-dd0a517dd4a0</chapterId>
 
 
 <isCourseConclusion>true</isCourseConclusion>

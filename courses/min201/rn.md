@@ -31,13 +31,13 @@ Niba ukeneye gufashwa mu gutegura, hariho umugwi wa Telegram w’abanyeshure, ka
 # Imenyekanisha
 
 
-<partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
+<partId>264edfbf-0647-43c0-b202-5f82bfaba747</partId>
 
 
 ## Incamake y'amashure
 
 
-<chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
+<chapterId>a1885374-d6b9-4d6d-9b90-44f27099e4ae</chapterId>
 
 
 Ikaze mu nyigisho ya MIN201: Intangamarara ya Mining. Ajelex, Jim & Rogzy baranezerewe no kukuyobora mu ntambwe zawe za mbere muri iyi nganda. Twizeye ko muzonezerwa n’ivyo vyigwa kandi muzotangura urugendo rwo muhira Mining!
@@ -78,13 +78,13 @@ Ni mwiteguye kuvumbura isi ya Bitcoin Mining no gufata ingorane ngirakamaro za A
 # Ivyo ukeneye kumenya vyose ku bijanye na Mining
 
 
-<partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
+<partId>80efb136-9e4e-40f2-98a2-f6721737fc81</partId>
 
 
 ## Insobanuro ya Mining
 
 
-<chapterId>36a82de7-87ee-5e7a-b69e-48fc30030447</chapterId>
+<chapterId>3d083cf5-9bbd-4d2b-94d9-e12a82819395</chapterId>
 
 
 ### Mining yasiguye: ikigereranyo c’uruzitiro
@@ -154,7 +154,7 @@ Mu gusozera, inganda ya Bitcoin Mining irabandanya kwimenyereza no gutera imbere
 ## Inganda ya Mining
 
 
-<chapterId>0896dfc1-c97e-5bec-9bf1-8c20b3388a2c</chapterId>
+<chapterId>75651629-94db-47e7-8735-a8ed75ae4e1d</chapterId>
 
 
 ### Mining ibidengeri
@@ -233,7 +233,7 @@ Umwanzuro rusangi ni uko kwegereza ubutegetsi abaturage ari ngirakamaro ku mutek
 ## Ivyiza vy'inganda ya Mining
 
 
-<chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
+<chapterId>60d00d42-bd45-4afa-8612-939d714b1f6f</chapterId>
 
 
 ### Ingingo ngenderwako ya Attakai .
@@ -293,7 +293,7 @@ Ivyiyumviro bikikuje ikoreshwa ry’ikibanza c’amabuye muri kazoza, ariko muri
 ## Bitcoin Mining mu masezerano ya Bitcoin
 
 
-<chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
+<chapterId>51e7a8b1-e901-424e-bd63-51451b330da2</chapterId>
 
 
 Uruhara rw’abacukuzi b’amabuye y’agaciro mu rubuga rwa Bitcoin rwabaye ikintu c’impaka nyinshi mu gihe c’intambara z’ubunini bw’amabuye. Naho ari ngirakamaro ku bijanye n’umutekano n’imikorere y’urubuga, abacukuzi ntibafise ububasha bwo hejuru mu bidukikije vya Bitcoin. Uburinganire hagati y’abacukuzi, ama node, n’abakoresha ba nyuma buratuma habaho ubutungane n’ugukwiragira kw’urubuga.
@@ -353,7 +353,7 @@ Mu gusubiramwo, abacukuzi barakomeza uruja n’uruza rwa Bitcoin ku bijanye n’
 ## Bitcoin Igiciro na Hashrate, ni isano?
 
 
-<chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
+<chapterId>002750ad-c35e-48c3-8644-302467a384d3</chapterId>
 
 
 ### Hashrate, igiciro, n’inyungu
@@ -404,7 +404,7 @@ Ico gikorwa ca Attakai kigaragaza akamaro ko gutanga umusanzu mu bijanye n’uru
 ## Ubusegaba n'amategeko
 
 
-<chapterId>9d9a5908-2acc-501e-906b-a6fce9ecfebd</chapterId>
+<chapterId>ec30a758-5a03-43a1-9b75-e4bb6053a1be</chapterId>
 
 
 ### Ubusegaba imbere y’inyungu?
@@ -452,13 +452,13 @@ Mu gusozera, naho hariho ingorane zijanye n’amategeko be n’ubushobozi bwo ku
 # Inzu Mining n'ubushuhe bwo gusubira gukoresha
 
 
-<partId>78d22d06-2c4a-573f-86bb-1027115dad3a</partId>
+<partId>c0fb1f33-6c44-48a7-83f5-b1c9cbc314b3</partId>
 
 
 ## Attakai - Gutuma Inzu Mining Ishoboka kandi Ishikira!
 
 
-<chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
+<chapterId>64c27a67-c2f0-4456-9821-5c94ea623de5</chapterId>
 
 
 Attakai, bisobanura "ubushuhe bwiza" mu kiyapani, ni izina ry'umugambi ugamije kuvumbura Bitcoin Mining biciye mu gusubira gukoresha ubushuhe bwatangujwe na @ajelexBTC na @jimzap21 na Découvre Bitcoin.
@@ -531,7 +531,7 @@ Iryo ni akaryo keza ko kwiga mu kwimenyereza mu gihe uriko urahezagirwa kubera u
 ## Inyigisho yo kugura ASIC yakoreshejwe
 
 
-<chapterId>3b0b3bf0-859b-57f2-b92f-843ac70b7e68</chapterId>
+<chapterId>17e07e2e-9848-4fb0-be55-077ea783c670</chapterId>
 
 
 Muri iki gice, tuzovuga ku buryo bwiza bwo kugura Bitmain Antminer S9 ikoreshwa, imashini iyi nyigisho yo gusubiramwo radiator izoshingirako. Iyi nkuru irakora no ku bindi bigereranyo vya ASIC kuko ari nkuru rusangi yo kugura ibikoresho vya Mining vyakoreshejwe.
@@ -623,7 +623,7 @@ Mu guca irya n'ino iyi nsiguro mu nteruro imwe: **"Ntukizere, suzuma."**
 ## Inyigisho yo kugura ibikoresho bihindurwa vya S9.
 
 
-<chapterId>fa5f5eca-bcbf-5a83-9b03-98ecbadbabd6</chapterId>
+<chapterId>67c86e8a-e7d8-4744-8eeb-03a17c09bfa2</chapterId>
 
 
 Nyir’indege yitwa Antminer S9, birashoboka ko uzi ingene ivyo bikoresho bishobora gutera ijwi rirenga kandi bikaba vyinshi. Ariko rero, birashoboka ko umuntu ayihindura igikoresho co gushushanya kicereje kandi gifatanye n’ibindi, akurikije intambwe nkeyi zoroshe. Muri iki gice, tuzoshikiriza ibikoresho bikenewe kugira ngo umuntu ashobore guhindura ivyo bintu.
@@ -698,13 +698,13 @@ Urutonde rw'ibikoresho n'amahuza
 # Attakai - Guhindura porogaramu y'ikinyabiziga S9.
 
 
-<partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
+<partId>17871b9d-4c93-4ca4-a09f-c6dc8a1df1d1</partId>
 
 
 ## Gushinga ikiraro ca WIFI/Ethernet ca Vonet
 
 
-<chapterId>3cf487a4-21ef-5b24-83d5-789b811f740f</chapterId>
+<chapterId>bf5b8552-8f0f-44aa-b742-600a657bdfbf</chapterId>
 
 
 Kugira ngo uhuze ASIC yawe ukoresheje WIFI, uzokenera igikoresho citwa bridge. Ico gikoresho kigufasha gukura ikimenyetso ca WIFI kuri router yawe ukagirungika ku kindi gikoresho biciye kuri Ethernet.
@@ -761,7 +761,7 @@ Ico kiraro kimaze gufatanya, ushire umugozi wa Ethernet uva ku kiraro kuri ASIC 
 ## Gusubiramwo umucukuzi w'ibimonyo S9.
 
 
-<chapterId>b518b6bd-9dae-5136-ae3c-1fafb1cb2592</chapterId>
+<chapterId>e83025fd-0261-4d4a-913a-dbfc05f7e51e</chapterId>
 
 
 Imbere yo gushiramwo BraiinOS+, bishobora kuba ngombwa ko usubiramwo S9 yawe ku mirongo yayo y’uruganda.
@@ -777,7 +777,7 @@ Iminota 2 inyuma yo gufungura Miner, usabwe gukanda buto ya "Reset" mu masegonda
 ## Gushiramwo BraiinsOS+ ku gikoresho co gucukura ibinyoma S9.
 
 
-<chapterId>38e8b1a8-8b1d-51ed-8b92-59d4ddb15184</chapterId>
+<chapterId>d2ea148c-37dd-4505-97e9-78ce2237b84a</chapterId>
 
 
 Porogarama y’intango yashizweho na Antminer ku mashini zabo Mining irafise aho igarukira mu bijanye n’imikorere. Ni co gituma muri iyi nkuru, tuzoshiramwo uwundi murongo witwa BraiinsOS+. Ni porogarama y’uwundi muntu yakozwe na Bitcoin Mining pool ya mbere cane ifise ibintu vyinshi kandi ishobora, nk’akarorero, guhindura ubushobozi bw’iyo mashini.
@@ -831,7 +831,7 @@ Aha, turabona ingene woshiramwo Braiins OS+ mu buryo bworoshe ataco uhinduye ku 
 ## Gutunganya BraiinsOS+
 
 
-<chapterId>36e432f2-85bc-52d0-a62a-009fc4c69338</chapterId>
+<chapterId>41f8ef76-c5b9-427f-8b22-1e3761057157</chapterId>
 
 
 Uzokenera kwifatanya na ASIC yawe ukoresheje IP yo mu karere Address y’igikoresho cawe kiri ku rubuga rwawe biciye ku mucukumbuzi.
@@ -897,13 +897,13 @@ Kuri iyi paji ya mbere, urashobora kwihweza ingene imashini yawe ikora mu gihe n
 # Attakai - Guhindura umufana
 
 
-<partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
+<partId>a18012de-bf2e-4469-8b33-6bd9368cf27d</partId>
 
 
 ## Subirizaho umuvuduko w'amashanyarazi Supply
 
 
-<chapterId>0c6befa7-f3ef-5bcf-ae8d-0ad5e5d41d70</chapterId>
+<chapterId>369aa394-0597-4578-96ef-01a45e9d86c6</chapterId>
 
 
 > IMBURIZO: Ni ngombwa ko uba warashizeho Braiins OS+ kuri Miner yawe, canke iyindi porogarama yose ishobora kugabanya ubushobozi bw’imashini yawe. Ico gipimo ni ikintu gihambaye cane kuko kugira ngo tugabanye urusaku, tuzoshiraho ama ventilateur atagira ubushobozi bwinshi ashobora gukuraho ubushuhe buke.
@@ -1011,7 +1011,7 @@ Ubwa nyuma, usubize igipfukisho c’ikibazo mu kibanza caco maze ushireko izo nk
 ## Gusubirira abafana bakuru
 
 
-<chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
+<chapterId>46cd034a-1ffd-4459-9d66-a68e9b4bfeeb</chapterId>
 
 
 > IMBURIZO: Ni ngombwa ko uba warashizeho Braiins OS+ kuri Miner yawe, canke uwundi murongo wose ushobora kugabanya ubushobozi bw’imashini yawe. Ico gipimo ni ikintu gihambaye cane kuko kugira ngo tugabanye urusaku, tuzoshiraho ama ventilateur atagira ubushobozi bwinshi, ivyo bikaba bizotuma ubushuhe buke bugenda.
@@ -1091,13 +1091,13 @@ Kandi aho niho ufise, urakoze! Ubu nyene warasubirije igice cose c'ubuhinga bwa 
 # Attakai - Itunganywa
 
 
-<partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
+<partId>045a50df-20cd-423f-8f2f-dce686793ffb</partId>
 
 
 ## Kwifatanya na Mining pool
 
 
-<chapterId>b57a6105-0a53-5fe9-bad1-d6d9daf97c0d</chapterId>
+<chapterId>db476c86-3dfe-4fcd-948a-083df8442395</chapterId>
 
 
 Umuntu arashobora kwiyumvira Mining pool nk’ishirahamwe ry’uburimyi. Abarimyi bafatanya umusaruro wabo kugira ngo bagabanye itandukaniro rya Supply n’ivyo basaba gutyo baronke inyungu idahinduka y’ibikorwa vyabo. Mining pool ikora muri ubwo buryo nyene, n’umutungo usangiwe ari hashes. Nkako, kuvumbura Hash imwe ifise akamaro bituma umuntu ashobora kurema igice c’ibarabara no gutsinda coinbase canke impembo, ubu ni 6.25 BTC hamwe n’amahera y’ugucuruza ari muri ico gice.
@@ -1150,7 +1150,7 @@ Ubu ushobora gusubira kuri Braiins OS+ Interface kugira ngo winjize ivyo bimenye
 ## Gutuma Antminer yawe S9 ikora neza.
 
 
-<chapterId>25380972-31c7-540d-80d8-17a06b171ca0</chapterId>
+<chapterId>e8dd98a2-86be-4cb1-a061-79f5c8129df6</chapterId>
 
 
 Ivyo bibiri, overclocking n’autotuning, birimwo guhindura incuro ku bipande vy’amajwi kugira ngo ASIC ikore neza. Itandukaniro hagati y’ivyo bibiri riri mu kuntu ivyo bimenyetso vy’incuro bikomeye.
@@ -1186,7 +1186,7 @@ Iherezo ry’ivyo ni igipimo kinini cane ca Hash ku watt y’umuyagankuba, ivyo 
 ## Amasuzuma n'Ibipimo
 
 
-<chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
+<chapterId>9c4bf742-f774-4d82-bdef-0c5398be7759</chapterId>
 
 <isCourseReview>true</isCourseReview>
 

@@ -17,11 +17,11 @@ objectives:
 +++
 # مقدمه
 
-<partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
+<partId>34ab5c9f-08b8-4324-a53e-582c63a2b1ea</partId>
 
 ## پرش به سمت ناشناخته
 
-<chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
+<chapterId>a47e30ce-f437-404b-99e0-0c1cf1a78f37</chapterId>
 
 ### به یک پارادایم جدید پولی و فناوری خوش آمدید.
 
@@ -89,7 +89,7 @@ objectives:
 
 ## پیشینه تاریخی بیت کوین
 
-<chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
+<chapterId>0824f3a8-502a-4321-bb0d-13ccba37f3fa</chapterId>
 
 قبل از اینکه عبارت "بیت کوین" مترادف با ارز دیجیتال و تحول مالی شود، زمینه ایجاد آن توسط مجموعه ای از ایده ها، نوآوری ها و جنبش های اجتماعی فراهم شد. در میان اینها، جنبش سایفرپانک به عنوان یک عنصر کلیدی در پیشینه تاریخ بیت کوین برجسته است.
 
@@ -149,11 +149,11 @@ objectives:
 https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 # پول
 
-<partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
+<partId>c7430a3c-6419-465e-b84d-d677e277f732</partId>
 
 ## پول در طول تاریخ
 
-<chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
+<chapterId>84047ee5-9f48-4105-9849-8be318496304</chapterId>
 
 تکامل پول یک جنبه جذاب از تاریخ انسان است که برخورداری از زیرکی تمدن‌ها در سراسر دوران‌ها را در برآوردن نیازهای اقتصادی در حال تکامل نشان می‌دهد.
 
@@ -218,7 +218,7 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 ## ارزهای اعتمادی
 
-<chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
+<chapterId>8c6dbe02-c275-4568-bd1b-fc36b8d4796d</chapterId>
 
 > "کسانی که نمی توانند گذشته را به یاد بیاورند، محکوم به تکرار آن هستند"  جورج سانتایانا.
 
@@ -275,7 +275,7 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 ## هایپرینفلیشن
 
-<chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
+<chapterId>3f99733a-7a40-42a8-870c-cc4947560bba</chapterId>
 
 هایپرینفلیشن یک پدیده پولی است که خاص ارزهای فیات است: این پدیده با از دست دادن کامل اعتماد به یک ارز و افزایش شدید تورم به دلیل چاپ پول توسط مقامات مشخص می شود. در نتیجه، پس اندازهای انباشته شده توسط افراد می تواند در یک دوره نسبتاً کوتاه زمان تبدیل به بخار شود، کشور را در لبه فروپاشی اقتصادی، اجتماعی و سیاسی قرار می دهد.
 
@@ -371,7 +371,7 @@ https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 ## 21 میلیون بیت کوین
 
-<chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
+<chapterId>e6172b08-5916-4f9f-a06f-4405c52c06ab</chapterId>
 
 ### سیاست پولی بیت کوین
 
@@ -413,7 +413,7 @@ https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 | 19            | 3,990,000   | 0.000095367431640625 BTC  | 20,999,959.946 BTC               |
 | 20            | 4,200,000   | 0.0000476837158203125 BTC | 20,999,979.973 BTC               |
 
-ما مفهوم استخراج را در جزئیات بیشتری در [فصل ماینر](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf) مرور خواهیم کرد.
+ما مفهوم استخراج را در جزئیات بیشتری در [فصل ماینر](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/f2ce96f9-66d5-4286-9a18-9e1506b369b5) مرور خواهیم کرد.
 
 ### ضمانت کمیابی دیجیتال
 
@@ -463,11 +463,11 @@ https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 # کیف پول بیت کوین
 
-<partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
+<partId>3b488c45-d286-4083-8824-ec259cc2a324</partId>
 
 ## کیف پول های بیت کوین چیستند؟
 
-<chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
+<chapterId>149c6588-94ae-46b6-b073-9ffc18912397</chapterId>
 
 در بخش 2، ما قصد داریم تا از طریق استفاده از کیف پول‌ها، ذخیره سازی و امنیت بیت کوین را بررسی کنیم، تا بفهمیم این بیت کوین‌های معروف کجا قرار دارند و چگونه با آنها تعامل داشته باشیم!
 
@@ -533,7 +533,7 @@ https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 ## کیف پول های بیت کوین و امنیت
 
-<chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
+<chapterId>40485240-351a-471c-b017-faebfb836470</chapterId>
 
 ### پرسیدن سوالات درست قبل از شروع
 
@@ -599,7 +599,7 @@ https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 ## راه اندازی کیف پول
 
-<chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
+<chapterId>1bfd3d5d-a81b-4b7f-ad88-4bf41593606a</chapterId>
 
 امنیت بیت کوین های شما اهمیت بسیار حیاتی دارد و یک اشتباه ساده می تواند عواقب وخیمی داشته باشد. به همین دلیل است که باید بهترین روش ها را برای ایجاد یک کیف پول بیت کوین جدید یاد بگیریم.
 
@@ -643,7 +643,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 ## گذر از آزمون زمان
 
-<chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
+<chapterId>7dd119da-9073-4e03-ab83-e45890616790</chapterId>
 
 مانند هر نوع دارایی، بیت کوین های شما باید در برابر از دست دادن، سرقت و تخریب، به خصوص در مدت زمان طولانی، محافظت شوند. حفاظت از بیت کوین های شما نیاز به دانش فنی و درک از خطرات مرتبط دارد، که راه را برای دو استراتژی اصلی باز می کند: حک کردن بیت کوین های شما بر روی یک صفحه فولادی و ایجاد یک برنامه میراث.
 
@@ -693,11 +693,11 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 # جنبه های فنی بیت کوین.
 
-<partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
+<partId>8b110fdd-b51f-48a9-a966-33649e55c971</partId>
 
 ## راه اندازی بیت کوین
 
-<chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>
+<chapterId>76ab52b9-2c33-4242-9db1-64fb1fb92b4e</chapterId>
 
 ### بیایید با کمی تاریخ شروع کنیم.
 
@@ -753,7 +753,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## معاملات بیت کوین
 
-<chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
+<chapterId>be72afa9-8198-45a5-95a8-3c87f971fbb2</chapterId>
 
 یک معامله بیت کوین به سادگی انتقال مالکیت بیت کوین‌ها از طریق استفاده از آدرس بیت کوین است. برای توصیف این فرآیند، بیایید دو نفر را معرفی کنیم: آلیس و باب. آلیس می‌خواهد بیت کوین بدست آورد، در حالی که باب از قبل مالکیت برخی را دارد.
 
@@ -811,7 +811,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## نودهای بیت کوین
 
-<chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
+<chapterId>430fdc8d-d60c-4dde-a7a5-96916f40056e</chapterId>
 
 گره‌ها عنصر اساسی در معماری شبکه بیت کوین هستند، زیرا آنها وظایف مختلف حیاتی را انجام می‌دهند:
 
@@ -859,7 +859,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## ماینر ها
 
-<chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
+<chapterId>f2ce96f9-66d5-4286-9a18-9e1506b369b5</chapterId>
 
 **ماینرها شبکه را امن می کنند و معاملات را به بلوک ها اضافه می کنند. آنها از طریق دستگاه های ASIC برق مصرف می کنند تا مسئله اثبات کار بیت کوین را حل کنند.**
 
@@ -939,7 +939,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 ## بیت کوین و اکولوژی
 
-<chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
+<chapterId>68cc1d11-d355-479f-beb1-364ea0f48219</chapterId>
 
 در بخش قبلی، متوجه شدیم که امنیت پروتکل بیت کوین بر مصرف بالای انرژی برای تولید دفترچه حساب عمومی معاملات بدون یک طرف سوم قابل اعتماد استناد دارد. در رسانه های عمومی، هزینه کل انرژی اغلب با مصرف برق یک کشور کوچک مقایسه می شود. اما آیا این مقایسه منطقی است؟ آیا برای درک دلایل پشت چنین هزینه هایی مرتبط است؟
 
@@ -997,11 +997,11 @@ https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 # چگونه بیت کوین تهیه می کنید؟
 
-<partId>517e1bb7-f032-51a0-930a-a91fe5148d3f</partId>
+<partId>a48118af-b3b8-4f00-bbda-c2c4ca0f788e</partId>
 
 ## بیتکوین هرگز نمی خوابد!
 
-<chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
+<chapterId>648dbb03-969a-46ef-bdae-1463c06a4aaf</chapterId>
 
 قیمت بیت کوین اغلب با نوسان قابل توجهی مشخص می‌شود. ارزش آن می‌تواند بسته به تغییرات بازار یا فازهای گاوی و خرسی، مانند هر بازار مالی دیگری، به شدت تغییر کند.
 
@@ -1059,7 +1059,7 @@ https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## کسب بیت کوین با کار کردن
 
-<chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
+<chapterId>4bcac1ce-e4e1-4fc8-9548-5eb262688ea5</chapterId>
 
 ### یک اقتصاد موازی در حال توسعه است
 
@@ -1098,7 +1098,7 @@ https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b0
 
 ## صرفه جویی با بیت کوین
 
-<chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
+<chapterId>11782e1e-3807-4669-8c4b-19c431669eba</chapterId>
 
 ### هشداری قبل از شروع!
 
@@ -1203,7 +1203,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## هایپر-بیتکوینیزیشن
 
-<chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>
+<chapterId>a8cf0971-defd-4bf8-934b-5e412448438e</chapterId>
 
 ### مسابقه خشن فقط در حال شروع است!
 
@@ -1226,11 +1226,11 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 > "من فکر می‌کنم که اینترنت در آینده یکی از نیروهای اصلی برای کاهش نقش دولت خواهد بود. تنها چیزی که اکنون وجود ندارد، اما به زودی توسعه خواهد یافت، یک e-cash قابل اعتماد است - روشی که در اینترنت می‌توانید وجوه را از A به B منتقل کنید بدون اینکه A ،B را بشناسد یا B ،A را بشناسد." - پیش‌بینی میلتون فریدمن در سال 1999
 # آینده بیت کوین: شبکه لایتنیگ
 
-<partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
+<partId>297f74b5-3ba1-4f63-b41b-43256778bea3</partId>
 
 ## مقدمه ای کوتاه درباره شبکه ی لایتنینگ
 
-<chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
+<chapterId>ad635a0f-4f91-4cac-843b-b9d51eb0bc9e</chapterId>
 
 حالا که ما اصول اولیه پروتکل بیت کوین را داریم، ما یک شبکه پرداخت را معرفی خواهیم کرد که از پروتکل بیت کوین برای فعال کردن معاملات فوق العاده سریع استفاده می کند: شبکه لایتنینگ!
 
@@ -1273,7 +1273,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 ## موارد استفاده از شبکه لایتنینگ
 
-<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+<chapterId>cd29874a-5ea2-4773-a6e4-e8d36b1bb4da</chapterId>
 
 همانطور که تازه دیدیم، پروتکل بیت کوین، با اینکه انقلابی است، با چالش های بزرگی در زمینه قابلیت مقیاس پذیری که برای رسیدگی به تمام معاملات روزانه ما نیاز است، روبرو است. برای حل این مشکلات، شبکه Lightning پیشنهاد شد و از آن زمان تاکنون به چندین پیاده سازی مختلف توسعه یافته است، همه آنها قابل تعامل هستند:
 
@@ -1306,7 +1306,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## قرص قرمز یا قرص آبی؟
 
-<chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
+<chapterId>03d79262-a035-4a62-acca-f8ed9ae5a8a4</chapterId>
 
 همانطور که مورفیوس به نئو گفت: "تو قرص آبی را می خوری، داستان تمام می شود، در تخت خود بیدار می شوی، و هر چه می خواهی باور می کنی. تو قرص قرمز را می خوری، در سرزمین عجایب می مانی، و من به تو نشان می دهم چقدر گودال خرگوش عمیق است." آیا آماده ای برای کاوش در گودال خرگوش بیت کوین؟ مراقب باش، چون ممکن است آزادی مالی خود را دوباره کشف کنی!
 
@@ -1383,19 +1383,19 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## نقد و امتیازات
 
-<chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
+<chapterId>d58144ad-33da-47a6-9030-61b649fe5550</chapterId>
 
 <isCourseReview>درست است</isCourseReview>
 
 ## امتحان نهایی
 
-<chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
+<chapterId>cbf5ded3-69c8-485f-8528-28fc0e7ea299</chapterId>
 
 <isCourseExam>صحیح</isCourseExam>
 
 ## نتیجه‌گیری
 
-<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+<chapterId>8a17f1ba-3ba1-4864-896d-be4cc3d5844a</chapterId>
 
 <isCourseConclusion>درست</isCourseConclusion>
 

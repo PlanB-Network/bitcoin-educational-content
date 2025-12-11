@@ -15,11 +15,11 @@ Materialet er designet for elever på alle nivåer og balanserer intuisjon med a
 +++
 # Innledning
 
-<partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
+<partId>abfa0d9a-736e-40f8-937a-490ef19bc481</partId>
 
 ## Kursoversikt
 
-<chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+<chapterId>dc6c887e-00a6-4b7f-9d50-14cbdfd5e867</chapterId>
 Velkommen til CYP302-kurset!
 
 Denne boken gir en grundig innføring i vitenskapen om og utøvelsen av kryptografi. Der det er mulig, fokuserer den på konseptuell snarere enn formell fremstilling av materialet.
@@ -88,11 +88,11 @@ Klar til å utforske den fascinerende verdenen av kryptografi? La oss gå!
 
 # Hva er kryptografi?
 
-<partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>
+<partId>dfa3633c-f97b-4650-8a2e-cb15a42ca557</partId>
 
 ## Beale-chiffrene
 
-<chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
+<chapterId>b97d116b-035b-4e92-890c-e377b48edb36</chapterId>
 
 La oss starte vår undersøkelse av kryptografien med en av de mer sjarmerende og underholdende episodene i dens historie: Beale-chiffrene. [1]
 
@@ -132,7 +132,7 @@ Etter dekryptering gir den andre meldingen en detaljert beskrivelse av skattens 
 
 ## Moderne kryptografi
 
-<chapterId>d07d576f-8a4b-5890-b182-2e5763f550f4</chapterId>
+<chapterId>a53dab64-fcf9-48c1-b578-dc43d799f3de</chapterId>
 
 Fargerike historier som den om Beale-chiffrene er det de fleste av oss forbinder med kryptografi. Moderne kryptografi skiller seg imidlertid fra denne typen historiske eksempler på minst fire viktige måter.
 
@@ -184,7 +184,7 @@ Et annet eksempel er **phishing-angrep**, som er et vanlig problem i vår modern
 
 ## Åpen kommunikasjon
 
-<chapterId>cb23d0a6-ba9a-5dc6-a55a-258405ae4117</chapterId>
+<chapterId>87b637ca-3d20-42b5-b299-ecb084b60aec</chapterId>
 
 Moderne kryptografi er utviklet for å gi sikkerhetsgarantier i et **åpent kommunikasjonsmiljø**. Hvis kommunikasjonskanalen vår er så godt beskyttet at avlyttere ikke har noen mulighet til å manipulere eller bare observere meldingene våre, er kryptografi overflødig. De fleste av våre kommunikasjonskanaler er imidlertid neppe så godt beskyttet.
 
@@ -204,11 +204,11 @@ Derfor er ideen om å holde kommunikasjonen hemmelig ved å beskytte kommunikasj
 
 # Kryptografiens matematiske grunnlag 1
 
-<partId>1bf9f0aa-0f68-5493-83fb-2167238ff9de</partId>
+<partId>22c3967a-c64b-468c-8e68-3324fe552738</partId>
 
 ## Tilfeldige variabler
 
-<chapterId>b623a7d0-3dff-5803-bd4e-8257ff73dd69</chapterId>
+<chapterId>c5fa2255-6041-400b-9072-217b73bf411e</chapterId>
 
 Kryptografi er avhengig av matematikk. Og hvis du ønsker å bygge opp mer enn en overfladisk forståelse av kryptografi, må du være komfortabel med denne matematikken.
 
@@ -413,7 +413,7 @@ Jeg kan for eksempel spørre deg om sannsynligheten for at griser kommer til å 
 
 ## Modulo-operasjonen
 
-<chapterId>709b34e5-b155-53d2-abbd-97d67e56db00</chapterId>
+<chapterId>a7e063f0-62dd-4c35-892a-55fa1b10aad8</chapterId>
 
 ### Modulo
 
@@ -501,7 +501,7 @@ $$
 
 ## XOR-operasjonen
 
-<chapterId>22f185cc-c516-5b33-950b-0908f2f881fe</chapterId>
+<chapterId>941aaabd-0896-4eb2-843c-e1af055c87fc</chapterId>
 
 Alle datamaskindata behandles, lagres og sendes over nettverk på bitnivå. Alle kryptografiske systemer som brukes på datamaskindata, opererer også på bitnivå.
 
@@ -536,7 +536,7 @@ En XOR-operasjon tilsvarer spesialtilfellet med å utføre en modulooperasjon p�
 
 ## Pseudotilfeldighet
 
-<chapterId>20463fc5-3e92-581f-a1b7-3151279bd95e</chapterId>
+<chapterId>bd0c7d54-5392-490b-bdca-04dcbe7d83ff</chapterId>
 
 I diskusjonen om tilfeldige og uniforme variabler skilte vi spesifikt mellom "tilfeldig" og "uniform". Dette skillet opprettholdes vanligvis i praksis når man beskriver tilfeldige variabler. I vår nåværende sammenheng er det imidlertid nødvendig å droppe dette skillet, og "tilfeldig" og "uniform" brukes synonymt. Jeg vil forklare hvorfor på slutten av avsnittet.
 
@@ -580,11 +580,11 @@ Grunnen til at vi har droppet skillet mellom "tilfeldig" og "uniform" i diskusjo
 
 # Matematisk grunnlag for kryptografi 2
 
-<partId>d7245cc9-bb6d-5403-b3d5-9c703d9a2f81</partId>
+<partId>62963952-ae03-43f4-88d6-90aea95e5c5f</partId>
 
 ## Hva er tallteori?
 
-<chapterId>c0051c34-fd5d-539c-93e2-5c6dfd4c3355</chapterId>
+<chapterId>67e7dace-4c23-41a8-bdb3-c6c87d223899</chapterId>
 
 Dette kapittelet tar for seg et mer avansert emne innen kryptografiens matematiske grunnlag: tallteori. Selv om tallteori er viktig for symmetrisk kryptografi (for eksempel i Rijndael-krypteringen), er den spesielt viktig i kryptografi med offentlig nøkkel.
 
@@ -604,7 +604,7 @@ Mengdene fra abstrakt algebra kan håndtere mange typer objekter, fra formbevare
 
 ## Grupper
 
-<chapterId>3209b270-f9cd-5224-803e-0ed19fbf7826</chapterId>
+<chapterId>4353d3ff-6319-4985-a4b8-3b20111ecfff</chapterId>
 
 Et grunnleggende begrep i matematikken er en mengde av elementer. En mengde betegnes vanligvis med akkolade-tegn med elementene atskilt med komma.
 
@@ -677,7 +677,7 @@ Transaksjoner i Bitcoin innebærer vanligvis at utdata låses til en eller flere
 
 ## Sykliske grupper
 
-<chapterId>bfa5c714-7952-5fef-88b1-ca5b07edd886</chapterId>
+<chapterId>b5b552f6-cf7c-4ba8-bd9c-685bfc4aacad</chapterId>
 
 Et viktig skille vi kan trekke, er mellom en **endelig** og en **uendelig gruppe**. Førstnevnte har et endelig antall elementer, mens sistnevnte har et uendelig antall elementer. Antallet elementer i en endelig gruppe kalles gruppens **orden**. All praktisk kryptografi som involverer bruk av grupper, baserer seg på endelige (tallteoretiske) grupper.
 
@@ -766,7 +766,7 @@ Eulers Phi-funksjonsformel for primfaktorisering av $N$.
 
 ## Felt
 
-<chapterId>fad52d86-3a22-5c9f-979e-3bec9eaa008e</chapterId>
+<chapterId>7a8c9ab0-fc8f-43fa-8dd7-fd1839bcda81</chapterId>
 
 En gruppe er den grunnleggende algebraiske strukturen i abstrakt algebra, men det finnes mange flere. Den eneste andre algebraiske strukturen du trenger å kjenne til, er et **felt**, nærmere bestemt et **endelig felt**. Denne typen algebraisk struktur brukes ofte i kryptografi, for eksempel i Advanced Encryption Standard. Sistnevnte er det viktigste symmetriske krypteringsskjemaet du vil støte på i praksis.
 
@@ -915,7 +915,7 @@ Hvorfor kan utvidelsesfelt med base 2 over polynomsett, som i eksempelet ovenfor
 
 ## Abstrakt algebra i praksis
 
-<chapterId>ed35b98d-18b4-5790-9911-1078e0f84f92</chapterId>
+<chapterId>9b8cd1fc-8a34-4e1b-ab4f-c634a763a20c</chapterId>
 
 Til tross for det formelle språket og den abstrakte diskusjonen, burde det ikke være så vanskelig å forstå gruppebegrepet. Det er bare en mengde elementer sammen med en binær operasjon, der utførelsen av den binære operasjonen på disse elementene oppfyller fire generelle betingelser. En abelsk gruppe har bare en ekstra betingelse som kalles kommutativitet. En syklisk gruppe er på sin side en spesiell type abelsk gruppe, nemlig en gruppe som har en generator. Et felt er bare en mer kompleks konstruksjon av det grunnleggende gruppebegrepet.
 
@@ -943,11 +943,11 @@ For videre diskusjon om moderne tallteori kan du konsultere mange avanserte disk
 
 # Symmetrisk kryptografi
 
-<partId>ef768d0e-fe7b-510c-87d6-6febb3de1039</partId>
+<partId>b994593e-cb9b-4a2c-ae80-2dec3478e1a6</partId>
 
 ## Alice og Bob
 
-<chapterId>47345330-be2d-5faf-afd0-d289a8d21bf1</chapterId>
+<chapterId>9c901027-b83a-4954-99b4-9e4f0c1598b7</chapterId>
 
 En av de to hovedgrenene innen kryptografi er symmetrisk kryptografi. Den omfatter både krypteringssystemer og systemer for autentisering og integritet. Frem til 1970-tallet besto all kryptografi av symmetriske krypteringsmetoder.
 
@@ -977,7 +977,7 @@ Her er fem viktige punkter du bør ha i bakhodet når det gjelder eksempler som 
 
 ## Symmetriske krypteringsordninger
 
-<chapterId>41bfdbe1-6d41-5272-98bb-81f24b2fd6af</chapterId>
+<chapterId>e2645185-bb06-41d2-9a80-81dd84108647</chapterId>
 
 Vi kan definere et **symmetrisk krypteringsopplegg** som et hvilket som helst kryptografisk opplegg med tre algoritmer:
 
@@ -1013,7 +1013,7 @@ Bob krypterer meldingen $M$ på tidspunkt $T_0$ med nøkkelen $K$ for å produse
 
 ## Et eksempel: Shift-krypteringen
 
-<chapterId>7b179ae8-8d15-5e80-a43f-22c970d87b5e</chapterId>
+<chapterId>63287a89-bda1-4395-ade6-cd8d8debe797</chapterId>
 
 I kapittel 2 så vi på shift-chifferet, som er et eksempel på et svært enkelt symmetrisk krypteringsskjema. La oss se på det igjen her.
 
@@ -1049,7 +1049,7 @@ Du kan også støte på begrepene **kryptere** eller **dekryptere**. Disse begre
 
 ## Brute force-angrep og Kerckhoffs prinsipp
 
-<chapterId>2d73ef97-26c5-5d11-8815-0ddbe89c8003</chapterId>
+<chapterId>4a72d8d8-0186-4654-b5ba-f99a4e03fb59</chapterId>
 
 Shift-kryptering er et svært usikkert symmetrisk krypteringsskjema, i hvert fall i den moderne verden. [1] En angriper kan bare forsøke å dekryptere en hvilken som helst krypteringstekst med alle 26 mulige nøkler for å se hvilket resultat som gir mening. Denne typen angrep, der angriperen bare går gjennom nøklene for å se hva som fungerer, kalles et **brute force-angrep** eller **uttømmende nøkkelsøk**.
 
@@ -1097,7 +1097,7 @@ Vi skal ikke gå inn på alle detaljene i de ulike begrepene om kryptografisk si
 
 ## Stream ciphers
 
-<chapterId>479aa6f4-45c4-59ca-8616-8cf8e61fc871</chapterId>
+<chapterId>82a4d8c5-7fd7-4bbb-a97e-e7a2d7cc55a0</chapterId>
 
 Symmetriske krypteringsmetoder deles vanligvis inn i to typer: **strømkryptering** og **blokkryptering**. Dette skillet er imidlertid noe problematisk, ettersom folk bruker disse begrepene på en inkonsekvent måte. I de neste avsnittene vil jeg gjøre rede for skillet på den måten jeg mener er best. Du bør imidlertid være klar over at mange vil bruke disse begrepene på en noe annen måte enn jeg gjør.
 
@@ -1185,7 +1185,7 @@ Jeg mener at en bredere definisjon av betingelse (1) gjør det enklere å organi
 
 ## Blokkchiffer
 
-<chapterId>2df52d51-943d-5df7-9d49-333e4c5d97b7</chapterId>
+<chapterId>ffb7ba1c-eb20-43a8-a2f1-2b8a54a31044</chapterId>
 
 Den første måten en **blokkchiffer** vanligvis forstås på, er som noe mer primitivt enn en streamchiffer: En kjernealgoritme som utfører en lengdebevarende transformasjon på en streng av en passende lengde ved hjelp av en nøkkel. Denne algoritmen kan brukes til å lage krypteringsskjemaer og kanskje også andre typer kryptografiske skjemaer.
 
@@ -1261,7 +1261,7 @@ AES-blokkchiffrering forklares i detalj i *Kapittel 5*.
 
 ## Rydd opp i forvirringen
 
-<chapterId>121c1858-27e3-5862-b0ce-4ff2f70f9f0f</chapterId>
+<chapterId>61e393f2-6764-4214-a871-f7471cb8ea32</chapterId>
 
 Forvirringen rundt skillet mellom blokkchiffre og streamchiffre oppstår fordi folk av og til forstår begrepet blokkchiffer som en *blokkchiffer med en blokkmodus for kryptering*.
 
@@ -1285,7 +1285,7 @@ Ut fra denne diskusjonen bør du nå forstå *Figur 8*. Den gir en oversikt over
 
 ## Autentiseringskoder for meldinger
 
-<chapterId>19fa7c00-db59-56a0-9654-5350a137939d</chapterId>
+<chapterId>626181b6-f80f-4160-b441-417a79b66ec6</chapterId>
 
 Kryptering handler om hemmeligholdelse. Men kryptografi handler også om bredere temaer, som meldingsintegritet, autentisitet og uavviselighet. Såkalte **message authentication codes** (MACs) er symmetriske kryptografiske systemer som støtter autentisitet og integritet i kommunikasjon.
 
@@ -1315,7 +1315,7 @@ Selv om jeg har skilt mellom autentisitet og integritet i min diskusjon, er det 
 
 ## Godkjent kryptering
 
-<chapterId>33f2ec9b-9fb4-5c61-8fb4-50836270a144</chapterId>
+<chapterId>64c1aef9-0bf8-45c5-92ba-12161d907eac</chapterId>
 
 Vanligvis ønsker man å garantere både hemmelighold og autentisitet i kommunikasjonen, og derfor brukes krypteringsordninger og MAC-ordninger vanligvis sammen.
 
@@ -1359,7 +1359,7 @@ Det finnes en rekke hashfunksjoner som kan brukes til å opprette en HMAC. Den m
 
 ## Sikre kommunikasjonsøkter
 
-<chapterId>c7f7dcd3-bbed-53ed-a43d-039da0f180c5</chapterId>
+<chapterId>16be8853-ef4e-432b-b724-f34e780f2abe</chapterId>
 
 Anta at to parter er i en kommunikasjonsøkt, slik at de sender flere meldinger frem og tilbake.
 
@@ -1391,11 +1391,11 @@ Kommunikasjonsøkten starter med at Bob sender en krypteringstekst $C_{0,B}$ til
 
 # RC4 og AES
 
-<partId>a48c4a7d-0a41-523f-a4ab-1305b4430324</partId>
+<partId>9948fc0a-59fe-46a4-b324-b12cde16e576</partId>
 
 ## RC4-strømkryptering
 
-<chapterId>5caec5bd-5a77-56c9-b5e6-1e86f0d294aa</chapterId>
+<chapterId>2f83a43a-16e5-4b4e-9d2f-4976f92eba15</chapterId>
 
 I dette kapittelet skal vi se nærmere på detaljene i et krypteringsopplegg med en moderne primitiv stream cipher, RC4 (eller "Rivest cipher 4"), og en moderne block cipher, AES. Mens RC4-krypteringen har falt i unåde som krypteringsmetode, er AES standarden for moderne symmetrisk kryptering. Disse to eksemplene bør gi et bedre inntrykk av hvordan symmetrisk kryptering fungerer under panseret.
 
@@ -1508,7 +1508,7 @@ Det er viktig å merke seg at nøkkelstrømmen som produseres med RC4, bør beha
 
 ## AES med en 128-biters nøkkel
 
-<chapterId>0b30886f-e620-5b8d-807b-9d84685ca8ff</chapterId>
+<chapterId>593d6ae3-7887-40d5-b14b-98a580b9a254</chapterId>
 
 Som nevnt i forrige kapittel, avholdt National Institute of Standards and Technology (NIST) en konkurranse mellom 1997 og 2000 for å finne en ny standard for symmetrisk kryptering. **Rijndael-krypteringen** viste seg å være det vinnende bidraget. Navnet er et ordspill på navnene til de belgiske skaperne, Vincent Rijmen og Joan Daemen.
 
@@ -1677,11 +1677,11 @@ Begrunnelsen for operasjonene bak Rijndael-krypteringen er at de gir både en h�
 
 # Asymmetrisk kryptografi
 
-<partId>868bd9dd-6e1c-5ea9-9ece-54affc13ba05</partId>
+<partId>20c55ed4-4e45-493a-8bfe-970f332d764c</partId>
 
 ## Problemet med nøkkeldistribusjon og -håndtering
 
-<chapterId>1bb651ba-689a-5a89-a7d3-0b9cc3b694f7</chapterId>
+<chapterId>4bbc8769-e00d-4d59-8365-c5f491b1217b</chapterId>
 
 I likhet med symmetrisk kryptografi kan asymmetriske systemer brukes til å sikre både hemmelighold og autentisering. Disse systemene bruker imidlertid to nøkler i stedet for én: en privat og en offentlig nøkkel.
 
@@ -1726,7 +1726,7 @@ Så hva skjedde på 1970-tallet? Hvordan er det mulig at vi umiddelbart kan hand
 
 ## Nye retninger innen kryptografi
 
-<chapterId>7a9dd9a3-496e-5f9d-93e0-b5028a7dd0f1</chapterId>
+<chapterId>e0f7950c-bb5a-437e-b27e-8d6878e15291</chapterId>
 
 På 1970-tallet hadde problemene med nøkkeldistribusjon og nøkkelhåndtering fanget oppmerksomheten til en gruppe amerikanske akademiske kryptografer: Whitfield Diffie, Martin Hellman og Ralph Merkle. Til tross for stor skepsis fra de fleste av sine fagfeller, dristet de seg til å finne en løsning på problemet.
 
@@ -1790,7 +1790,7 @@ Ifølge deres egne og GCHQs egne beretninger var det James Ellis som først utvi
 
 ## Asymmetrisk kryptering og autentisering
 
-<chapterId>2f6f0f03-3c3d-5025-90f0-5211139bc0cc</chapterId>
+<chapterId>a36ea521-ecee-476d-ade9-57f09bed2469</chapterId>
 
 En oversikt over **asymmetrisk kryptering** ved hjelp av Bob og Alice er vist i *Figur 1*.
 
@@ -1868,7 +1868,7 @@ Nøkkeldistribusjonen har nå blitt mye enklere for Jim's Sporting Goods. Det er
 
 ## Hash-funksjoner
 
-<chapterId>ea8327ab-b0e3-5635-941c-4b51f396a648</chapterId>
+<chapterId>49d6c9a5-5f18-4ec4-8c83-e02fc60941ff</chapterId>
 
 Hash-funksjoner er allestedsnærværende i kryptografi. De er verken symmetriske eller asymmetriske, men faller inn i en egen kryptografisk kategori.
 
@@ -1946,11 +1946,11 @@ Kollisjonsresistens og skjuling er de viktigste egenskapene som etterspørres ho
 
 # RSA-kryptosystemet
 
-<partId>864dca42-2a8d-530f-bb94-2e1f68b3f411</partId>
+<partId>a8fb0a0b-747f-422a-a464-3c84979efa43</partId>
 
 ## Faktoriseringsproblemet
 
-<chapterId>a31a66e4-52ea-539c-9953-4769ad565d7e</chapterId>
+<chapterId>406b1681-f8bf-4a03-b555-c84ac4dee44a</chapterId>
 
 Mens symmetrisk kryptografi vanligvis er ganske intuitivt for de fleste, er dette vanligvis ikke tilfellet med asymmetrisk kryptografi. Selv om du sannsynligvis er komfortabel med den generelle beskrivelsen som er gitt i de foregående avsnittene, lurer du sikkert på hva enveisfunksjoner egentlig er, og hvordan de brukes til å konstruere asymmetriske systemer.
 
@@ -2041,7 +2041,7 @@ Det samme gjelder for diskrete logaritmeproblemer. Derfor fungerer asymmetriske 
 
 ## Tallteoretiske resultater
 
-<chapterId>23cd2186-8d97-5709-a4a7-b984f1eb9999</chapterId>
+<chapterId>a5528852-d9cc-4f94-a15d-02f11081e026</chapterId>
 
 Dessverre kan ikke faktoriseringsproblemet brukes direkte til asymmetriske kryptografiske systemer. Vi kan imidlertid bruke et mer komplekst, men beslektet problem til dette formålet: RSA-problemet.
 
@@ -2168,7 +2168,7 @@ Vi har nå alle de tallteoretiske resultatene som trengs for å formulere RSA-pr
 
 ## RSA-kryptosystemet
 
-<chapterId>0253c2f7-b8a4-5d0e-bd60-812ed6b6c7a9</chapterId>
+<chapterId>b230194d-5774-49fe-9d19-53e345453c34</chapterId>
 
 Vi er nå klare til å formulere RSA-problemet. Anta at du oppretter et sett med variabler som består av $p$, $q$, $N$, $\phi(N)$, $e$, $d$ og $y$. Kall dette settet $\Pi$. Det opprettes på følgende måte:
 
@@ -2263,5 +2263,5 @@ Likevel kan RSA-problemet brukes til å lage et sikkert krypteringssystem med of
 
 ## Konklusjon
 
-<chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
+<chapterId>97ce180b-5092-45eb-a160-57fc52917567</chapterId>
 <isCourseConclusion>true</isCourseConclusion>

@@ -15,11 +15,11 @@ Trường phái tư tưởng này đã định hình các cuộc tranh luận tr
 +++
 # Giới thiệu
 
-<partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
+<partId>21613091-f43a-4a87-88d9-2d69038d41d2</partId>
 
 ## Tổng quan về khóa học
 
-<chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
+<chapterId>43b56a2b-bbee-4faa-b52a-9b6c540df559</chapterId>
 
 Chào mừng bạn đến với khóa học ECO201!
 
@@ -46,7 +46,7 @@ Nếu chìa khóa để hiểu nền kinh tế hiện tại nằm trong một l�
 
 ## Tiền tệ, Tín dụng, Ngân hàng, và Ngân hàng Trung ương
 
-<chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
+<chapterId>84a09f98-8cd7-468f-9cc1-6c0add06ce12</chapterId>
 
 > “Vấn đề cốt lõi với tiền tệ thông thường là tất cả sự tin tưởng mà nó đòi hỏi phải có để làm cho nó hoạt động. Ngân hàng trung ương phải được tin tưởng là không làm mất giá tiền tệ, nhưng lịch sử của các đồng tiền pháp định lại đầy rẫy những lần vi phạm niềm tin đó. Các ngân hàng phải được tin tưởng để giữ tiền cho chúng ta và di chuyển chúng trên không gian điện tử, nhưng họ lại cho vay nó trong các đợt bong bóng tín dụng với chỉ một phần dự trữ nhỏ. Chúng ta phải tin họ sẽ bảo vệ quyền riêng tư của mình, tin họ không để cho những kẻ trộm danh tính rút sạch tài khoản của chúng ta.”
 >
@@ -134,11 +134,11 @@ Trong chương tiếp theo, chúng ta sẽ đi sâu vào nền tảng cơ bản 
 
 # Nền tảng lý thuyết
 
-<partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
+<partId>6249c7e4-71bc-453b-8a09-ab579d340709</partId>
 
 ## Lý thuyết về tính chủ quan của giá trị
 
-<chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
+<chapterId>fb001732-6bf7-4935-b8ec-6c225dab1025</chapterId>
 
 > “Giá trị chỉ tồn tại trong ý thức của con người”
 >
@@ -219,7 +219,7 @@ Các chương tiếp theo sẽ được dành riêng cho sự xuất hiện củ
 
 ## Sự xuất hiện tiền tệ như một hiện tượng xã hội
 
-<chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
+<chapterId>469d591e-b407-4218-bccb-6a433f731cb3</chapterId>
 
 Mặc dù các cá nhân có lợi ích chung trong việc chuyên môn hóa và tối đa hóa phân công lao động, vẫn còn có những vấn đề về phối hợp hạn chế sự mở rộng này.
 
@@ -298,7 +298,7 @@ Trong chương tiếp theo, chúng ta sẽ đi sâu vào khái niệm về thị
 
 ## Thị hiếu theo thời gian, lãi suất và vốn
 
-<chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
+<chapterId>e0a5c946-dd4c-4aa6-9b6e-aaacb23241ae</chapterId>
 
 ### Thị hiếu theo thời gian - Time preference
 
@@ -365,11 +365,11 @@ Bây giờ, như đã được đề cập trong chương đầu tiên, lãi su�
 
 # Quan điểm kinh tế của trường phái kinh tế học Áo
 
-<partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
+<partId>851a6712-84ea-48d2-85f7-3354e1381a06</partId>
 
 ## Lý thuyết chu kỳ kinh tế của trường phái Áo
 
-<chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
+<chapterId>17248205-835a-4284-ba94-0eb131916aa3</chapterId>
 
 > “Bong bóng mở rộng tín dụng ngân hàng càng kéo dài, càng có nhiều khoản đầu tư không sinh lời vào các loại hàng hoá vốn, và nhu cầu phải thanh lý những khoản đầu tư sai lầm này càng cao. Khi sự mở rộng tín dụng dừng lại, đảo ngược, hoặc thậm chí giảm đáng kể, những khoản đầu tư không sinh lời sẽ bị phơi bày.”
 >
@@ -440,7 +440,7 @@ Hơn bất kỳ trường phái kinh tế học nào khác, trường phái Áo 
 
 ## Sự bất khả thi của tính toán kinh tế dưới chế độ chủ nghĩa xã hội
 
-<chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
+<chapterId>9b9e185f-5b0d-4850-813e-0c50e309a909</chapterId>
 
 > “Ở nơi không có giá thị trường cho các yếu tố sản xuất vì chúng không được mua hoặc bán, chúng ta không thể nào tính toán được để lập kế hoạch cho hành động trong tương lai và đánh giá kết quả của hành động trong quá khứ. Hoạt động quản lý sản xuất theo chủ nghĩa xã hội đơn giản sẽ không biết liệu những gì họ lập kế hoạch và thực hiện có phải là phương tiện phù hợp nhất để đạt được mục tiêu mình tìm kiếm hay không. Nó sẽ hoạt động trong bóng tối, có thể nói như vậy. Nó sẽ lãng phí các yếu tố sản xuất khan hiếm, cả vật chất lẫn con người (lao động). Hỗn loạn và nghèo đói cho tất cả sẽ không thể tránh khỏi”
 >
@@ -511,7 +511,7 @@ Trường phái kinh tế học Áo thể hiện một cách tiếp cận khiêm
 
 ## Phương pháp luận của trường phái kinh tế học Áo
 
-<chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
+<chapterId>1fdf4c5d-0008-4f69-97e7-127fb3ef63e0</chapterId>
 
 Trường phái kinh tế học Áo phân biệt bản thân với các trường phái khác bằng phương pháp luận tiên đề - suy luận, khác biệt so với phương pháp luận thực chứng thường được sử dụng trong các ngành khoa học xã hội. Phương pháp luận thực chứng dựa trên các quy luật được thiết lập từ dữ liệu thực nghiệm, theo phương pháp tương tự như trong khoa học tự nhiên. Nó xây dựng giả thuyết từ quan sát, sau đó được xác nhận hoặc bác bỏ bởi các thí nghiệm tạm thời. Phương pháp khoa học này sẽ giữ lại giả thuyết giải thích tốt nhất cho dữ liệu và tiếp tục khám phá nó cho đến khi tìm ra một giả thuyết chính xác hơn.
 
@@ -532,16 +532,16 @@ Phương pháp luận là một khía cạnh thiết yếu trong kinh tế học
 
 # Phần cuối
 
-<partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
+<partId>373760d2-4e6e-4a05-8081-6d02072457d7</partId>
 
 ## Nhận xét & Đánh giá
 
-<chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
+<chapterId>2373a3ce-1c87-415a-8dd6-0437b4f71e79</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Kỳ thi cuối cùng
 
-<chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
+<chapterId>1c584ca3-c738-4151-8a85-101a142fcbbc</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Kết luận

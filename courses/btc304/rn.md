@@ -17,14 +17,14 @@ Muri BTC304, tuzareba impamvu kubaka umuryango ari ingenzi, tukore ubushakashats
 # Imenyekanisha
 
 
-<partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
+<partId>c896831e-b8d8-4324-bcad-b289c88db81b</partId>
 
 
 
 ## Incamake y'amashure
 
 
-<chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
+<chapterId>42660201-57ae-4438-846a-80cd529087ca</chapterId>
 
 
 
@@ -144,7 +144,7 @@ Ni mwiteguye kwiga ingene mwokwubaka umuryango wa Bitcoin ukomeye kandi ufise ub
 ## Ni kuki wotangura umuryango canke meetup ya Bitcoin?
 
 
-<chapterId>893ea248-7d5a-5b8e-948c-7031497b1031</chapterId>
+<chapterId>ce63ff45-9c9e-4a77-a175-99906bb95208</chapterId>
 
 
 
@@ -241,7 +241,7 @@ Amakoraniro ya Bitcoin arashobora gukora vyinshi:
 
 
 
-Tuzovuga vyinshi muri ivyo bishoboka mu buryo burambuye mu gice ca 6/8 c'iri shure, citwa "[Ingero z'imigambi n' ingamba](1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
+Tuzovuga vyinshi muri ivyo bishoboka mu buryo burambuye mu gice ca 6/8 c'iri shure, citwa "[Ingero z'imigambi n' ingamba](1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab).
 
 
 
@@ -252,7 +252,7 @@ Naho umuryango wose ufise umwidegemvyo wo kwishingira ivyiyumviro vyawo, gutangu
 ## None ukwiye gushinga hehe umuryango wawe?
 
 
-<chapterId>72da5285-5395-592d-ab62-303a0aef3d6d</chapterId>
+<chapterId>0b6bd32a-15ff-4b09-870d-5a2f6ea0d774</chapterId>
 
 
 
@@ -309,7 +309,7 @@ Kandi n'ukuri, iyo umuryango w'abakuze "wateye imbere" mu nzira itagihuye n'agac
 ## Ni intumbero izihe zikwiye kuyobora abantu bo mu kibano canyu?
 
 
-<chapterId>0aae1aa8-93ec-544a-ad88-22d32c619595</chapterId>
+<chapterId>2b2f58e5-c2ab-4b85-af19-02d7ad2aa503</chapterId>
 
 
 
@@ -424,14 +424,14 @@ Ni co gituma **iri shure ryagenewe gusangira ubutunzi n'impanuro z'agaciro, gufa
 # Gutegura akaranga k'abanyagihugu Bitcoin
 
 
-<partId>da6673ad-bf49-5979-80a6-3f69cfb28046</partId>
+<partId>507dd86a-0214-4c18-ae0d-34702291fb74</partId>
 
 
 
 ## Ni kuki kandi woshobora gute kwiremera akaranga kawe?
 
 
-<chapterId>b48a18cc-afdf-5216-802c-32647b5cd8a3</chapterId>
+<chapterId>4475004b-19e7-4c0f-a799-fd2cb0baefad</chapterId>
 
 
 
@@ -532,7 +532,7 @@ Iyo inspiration ikubitse, urashobora kuyijana mbere n’imbere: guhingura ikimen
 ## Rema ikimenyetso, igicapo n'ibendera
 
 
-<chapterId>3470a31f-0190-5e87-8af0-6a00e79267ef</chapterId>
+<chapterId>8b85ccb1-5474-474e-ae1b-c8cb69f060ad</chapterId>
 
 
 
@@ -763,14 +763,14 @@ Ico ciyumviro kiraboneka ko ari ciza cane!
 # Gukora inzira zo guhanahana amakuru ku muryango wawe wa Bitcoin
 
 
-<partId>fc588298-6876-554c-bd57-55d182464878</partId>
+<partId>054892b5-21cb-43f8-a1c2-750d3175fa68</partId>
 
 
 
 ## Ni ubuhe buryo bwo guhanahana amakuru ukwiye guhitamwo?
 
 
-<chapterId>b4f4eef6-1035-5290-848a-2b7f9391c77a</chapterId>
+<chapterId>3c111ec9-2517-4b9a-bba4-68ac531e081f</chapterId>
 
 
 
@@ -831,7 +831,7 @@ Uko umuryango wawe ukura, urashobora kwongerako ibindi bibanza no guha ubugenzuz
 ## Rema kandi utunganye umurongo wa Telegram, itsinda canke itsinda rikomeye
 
 
-<chapterId>d13714ce-8f08-53e9-bedd-b6a3aaac5dad</chapterId>
+<chapterId>7b87c24a-4820-4652-a3de-dc29cafea4d0</chapterId>
 
 
 
@@ -866,7 +866,7 @@ Ku nyigisho zikurikira, mu ntango twakoresheje "Telegram+" APK, ishobora gutuma 
 Niba ushaka gukora ahantu abagize umuryango wawe bashobora kuvugana ataco baciyeko, bagasubizanya, n’ibindi, rero woshobora gukora groupe ya Telegram, atari umurongo wa Telegram!
 
 
-Genda rero mu gice gikurikira, citwa [Rema umugwi wa Telegaramu](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
+Genda rero mu gice gikurikira, citwa [Rema umugwi wa Telegaramu](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/7b87c24a-4820-4652-a3de-dc29cafea4d0).
 
 
 
@@ -997,7 +997,7 @@ Rero, ntaco bimaze gukuraho "Telegram+", kiretse ushaka gushika ku mirongo y'ubu
 ## Gutegura umugwi wawe wa Telegram canke umugwi munini
 
 
-<chapterId>35e674b3-5924-50b0-98f1-83a56c9a186d</chapterId>
+<chapterId>a8c5bc2e-9a91-4da1-aae7-8a3684631dc8</chapterId>
 
 
 
@@ -1053,7 +1053,7 @@ Ivyo ntivyama ari ngombwa ariko birashobora kwongerako Layer y’uburinzi.
 ## Kwongera Bot ikora vyinshi ku mugwi wawe wa telegaramu
 
 
-<chapterId>c61f69cc-15ec-53f1-8c02-1cea55def09e</chapterId>
+<chapterId>80108eb0-6648-4fe9-b41f-586f03466805</chapterId>
 
 
 
@@ -1105,7 +1105,7 @@ Inyigisho zo kwongera bot ikora vyinshi ku mugwi wa Telegram canke mu mugwi muni
 ## Rema umukozi wa Discord
 
 
-<chapterId>eef2a965-4c24-5f3a-8013-72cc7d315314</chapterId>
+<chapterId>9d3f69cb-a61c-40f2-abad-e4a4be6b96cb</chapterId>
 
 
 
@@ -1150,7 +1150,7 @@ Kugira ngo uzigame umwanya, ng'iyi inyigisho y'ingene wokwongerako iyi bot ikora
 ## Niwiyumvire ubundi buryo bwo guhanahana amakuru, bwigenga kandi butekanye
 
 
-<chapterId>29d0aad6-0612-5dd0-bcef-7337eaf4fefc</chapterId>
+<chapterId>495024db-90fb-4aa9-984e-1dc2b2b90947</chapterId>
 
 
 
@@ -1178,14 +1178,14 @@ Kandi vy’ukuri, ni igiki coba gihuye n’impwemu ya Bitcoin kuruta kuba umuntu
 # Gutanguza imbuga zawe zo guhanahana amakuru
 
 
-<partId>8ebf8cd7-9248-543f-bc27-4ec4cc03f9cf</partId>
+<partId>f98a016c-d5b2-43b4-b8ee-ad6163d7e6c5</partId>
 
 
 
 ## Akamaro ko kugaragara mu gukura umuryango wawe wa Bitcoin
 
 
-<chapterId>b20f12e4-c5de-5f02-80c7-b7fc6cadd3ac</chapterId>
+<chapterId>ecd581a7-17e6-4730-ac9f-859a782a957e</chapterId>
 
 
 
@@ -1219,7 +1219,7 @@ Ivyo bivuzwe, uzirikane ko **uko ukoresha imihora y’itumanaho n’imihora y’
 ## Rema umwirondoro wa Twitter
 
 
-<chapterId>c8d73097-8eba-5530-918c-221002954110</chapterId>
+<chapterId>f5bfb587-1edf-46ce-9683-833b344627b1</chapterId>
 
 
 
@@ -1232,7 +1232,7 @@ Twitter yoroshe cane gukoresha, kandi kugira ngo utere imbere mu buzima bwite bw
 1/ **ivyo @ Twitter**, bisobanura akaranga kawe kandi bikagufasha kuronka vyoroshe. Niba izina ry'abanyagihugu bawe ari "Bitcoin [UMUGWA]", birabereye guhitamwo "@Bitcoin[UMUGWA]";
 
 
-2/ **ikimenyetso n’ibendera** waremye umuryango wawe canke ihuriro ryawe (raba igice [Rema ikimenyetso, igicapo n’ ibendera](umugambi w'urubuga/amashure/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
+2/ **ikimenyetso n’ibendera** waremye umuryango wawe canke ihuriro ryawe (raba igice [Rema ikimenyetso, igicapo n’ ibendera](umugambi w'urubuga/amashure/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/8b85ccb1-5474-474e-ae1b-c8cb69f060ad));
 
 
 3/ **insobanuro**, igufasha gusangira amakuru y’ingenzi yerekeye umuryango wawe mu nyuguti amajana make. Nk'akarorero:
@@ -1334,7 +1334,7 @@ Inyigisho zo gukora konti ya Twitter:
 ## Kwegera amakoraniro y'ababanyi
 
 
-<chapterId>12a21c3b-235a-5292-8209-67bf60f61e49</chapterId>
+<chapterId>5cd84243-f3b6-4874-99a7-a2e2185cc118</chapterId>
 
 
 
@@ -1377,7 +1377,7 @@ Intumbero ni yoroshe: gukoranya inyishu za bose, kuganira ku kuntu imiryango iri
 ## Btcikarata.org
 
 
-<chapterId>365f43d4-7b2c-5961-a184-157b8c1a0116</chapterId>
+<chapterId>8a628a6c-7daf-4382-9f13-a90b808fc908</chapterId>
 
 
 
@@ -1425,14 +1425,14 @@ Igihe umugwi mutoyi w’aba bitcoiners umaze kwifatanya nawe, ni igihe c’intam
 # Gutegura inama ya Bitcoin
 
 
-<partId>c009d2a6-40ce-583b-bd24-fdfd1fea262e</partId>
+<partId>561335e4-a531-4e63-838f-56aa8ee04864</partId>
 
 
 
 ## Ni kuki wotanguza inama idasanzwe n’abanyagihugu bo mu kibano cawe?
 
 
-<chapterId>ed8e471c-3b99-57e2-a042-2d4e8a40b137</chapterId>
+<chapterId>acb31467-8192-45a8-afe1-e7bbdf1e32dd</chapterId>
 
 
 
@@ -1462,7 +1462,7 @@ Ni co gituma bihambaye **gutangura ushizeho intumbero zishoboka zo mu nama yawe*
 ## Ihuriro rya mbere: ryari, kandi kubera iki?
 
 
-<chapterId>f3f8a614-cfb4-5994-a2e8-d56e6f8e3347</chapterId>
+<chapterId>1db6a73c-4782-4ed6-872a-eb23851e027e</chapterId>
 
 
 
@@ -1557,7 +1557,7 @@ Uko biri kwose, vyose bivana n’umugambi w’ibikorwa w’igihe gito, hagati n�
 ## Ugushaka ahantu
 
 
-<chapterId>405d389e-6a32-5777-af8d-293380d2e8fd</chapterId>
+<chapterId>b19eed85-6f0a-4de8-a679-34807bb2ac3e</chapterId>
 
 
 
@@ -1603,7 +1603,7 @@ Mu nyuma, iyo umugwi wawe umaze gukura, woshobora mbere gufata umuhingamo wo gus
 ## Imbere y'uko bahura
 
 
-<chapterId>c5218943-580d-5efc-89ed-6b5d728816d6</chapterId>
+<chapterId>2efeb301-7737-49bb-831b-f75f1a013ad7</chapterId>
 
 
 
@@ -1619,7 +1619,7 @@ Baza aho uzokwakira uwo muhango maze uwubike ku mubare w’abantu ugereranywa.
 
 
     - Sangira itariki, isaha n’aho hantu ku mbuga zanyu zo gusangirirako amakuru no ku yindi mihora yo guhanahana amakuru. Nimushiremwo urubuga rwo kwiyandikisha nimba bikenewe.
-    - Rema ishusho yihariye (Igicapo ca Canva nk'akarorero, raba igice ca 2/8 "[Guhingura akaranga ka Bitcoin yawe umuryango] (https://umugambi.urubuga/amashure/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
+    - Rema ishusho yihariye (Igicapo ca Canva nk'akarorero, raba igice ca 2/8 "[Guhingura akaranga ka Bitcoin yawe umuryango] (https://umugambi.urubuga/amashure/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/4475004b-19e7-4c0f-a799-fd2cb0baefad)").
     - Gutuma itangazo rigaragara cane mu gushiramwo itangazo kuri Telegram na Twitter, no gukoresha "@everyone" kuri Discord.
     - Mushire amatangazo imisi 7 gushika kuri 10 imbere y’uko uwo muhango uba kugira ngo abazoba baje bashobore gutegura imbere y’igihe.
 
@@ -1650,7 +1650,7 @@ Intambwe z'inyongera zo gutuma umusi mukuru wawe ugaragara:
 ## Umusi w'ihuriro
 
 
-<chapterId>cf60067b-591f-5fdf-9b9e-d442aad0e8f9</chapterId>
+<chapterId>7ba18449-1368-4ba7-8fe3-c9028afaa3e6</chapterId>
 
 
 
@@ -1689,7 +1689,7 @@ Ubwa nyuma, fata ivyo kunywa maze urindire abantu gushika. Kandi wibuke: ntucike
 ## Inyuma y'ihuriro
 
 
-<chapterId>3e881af9-9c09-5721-81ee-c5cda3b109c5</chapterId>
+<chapterId>2f238eab-3931-46a2-a429-5ae9562e4c5d</chapterId>
 
 
 
@@ -1711,7 +1711,7 @@ Uzoheza ubone amayinga makeyi yo gutegura ivyiyumviro bishasha, amashusho canke 
 ## Akamaro ko gushiramwo no kugumiza abaje mu nama
 
 
-<chapterId>f5355e35-4b07-527c-88a3-8535cba7592c</chapterId>
+<chapterId>a50e8782-fb08-4aba-a42b-3fa86b5c4ffb</chapterId>
 
 
 
@@ -1721,7 +1721,7 @@ Roma ntiyubatswe mu musi umwe, kandi n’abanyagihugu banyu ntibazoba. Inguvu zi
 Kugira ivyo bishoboke, ikintu kimwe ni ngombwa: **gukomeza abaje mu nama**.
 
 
-Bishobora gutangura n’umugwi mutoyi w’abakunda cane bitcoiners, bafise intumbero yo guhura ubudasiba no kuvuga ivya Bitcoin. Uko igihe kigenda kirarenga, bivanye n'uko umuntu wese ariho n'ivyo akunda, urashobora **gusangira n'umugwi ibikorwa bimwebimwe vyo gutegura**, canke ugatumira **abanyamuryango b'ishimikiro kugira ngo baje mu migambi yihariye**. Ivyo bishobora kuba ari ivy’umwihariko mu kibano canyu, mu mahuriro yanyu canke mu gisagara canyu canke mbere bikaba bihumekewe n’imigambi myinshi yashikirijwe mu [gice ca 6/8 c’iki ivyigwa] (ivyigwa] (1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Ivyo ntibitera imbere gusa Commitment mu bagize umuryango wawe ariko kandi birafasha umuryango wawe gukura no gutera imbere.**.
+Bishobora gutangura n’umugwi mutoyi w’abakunda cane bitcoiners, bafise intumbero yo guhura ubudasiba no kuvuga ivya Bitcoin. Uko igihe kigenda kirarenga, bivanye n'uko umuntu wese ariho n'ivyo akunda, urashobora **gusangira n'umugwi ibikorwa bimwebimwe vyo gutegura**, canke ugatumira **abanyamuryango b'ishimikiro kugira ngo baje mu migambi yihariye**. Ivyo bishobora kuba ari ivy’umwihariko mu kibano canyu, mu mahuriro yanyu canke mu gisagara canyu canke mbere bikaba bihumekewe n’imigambi myinshi yashikirijwe mu [gice ca 6/8 c’iki ivyigwa] (ivyigwa] (1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab). **Ivyo ntibitera imbere gusa Commitment mu bagize umuryango wawe ariko kandi birafasha umuryango wawe gukura no gutera imbere.**.
 
 
 Uko meetups zawe zitera imbere, amaso mashasha azoboneka: abantu baguze BTC na/canke altcoins mu bihe vya kera, abakunda ubuhinga bashaka gukomeza gutahura, canke abatanguje buzuye bashaka kumenya ivy’iyi nzira yo kwishura idashobora gusuzumwa, yegerejwe, igaragara, kandi ibereye ikora ata n’imwe isabwa kandi ata n’umwe yizigira.
@@ -1761,14 +1761,14 @@ Mu mpera, ni wewe ushobora gufata ingingo y'aho "ugufungura no gushiramwo abantu
 # Ingero z'imigambi n'imigambi
 
 
-<partId>45b3bc40-1c31-583e-8411-2662e6efd765</partId>
+<partId>75b8d7e2-97ce-455b-abb5-8bfa2a47f777</partId>
 
 
 
 ## Ni kuki woja kure y’ukunywa inzoga gusa?
 
 
-<chapterId>3213d87a-1998-5972-ab93-97a5769ba279</chapterId>
+<chapterId>05880102-07ac-413a-8433-8a6ab8fac2ab</chapterId>
 
 
 
@@ -1802,7 +1802,7 @@ Urufunguruzo ni ukubimenya gusa.
 ## Gutegura amakoraniro afise insiguro, n’iterambere ry’umwaka
 
 
-<chapterId>46afdbcc-a775-5c16-b20a-34956690d58f</chapterId>
+<chapterId>c69c52bd-3b64-4ebc-bcce-5c3c8bd1b6e5</chapterId>
 
 
 
@@ -1862,7 +1862,7 @@ Kandi n’ibindi vyinshi, ivyiyumviro vyawe ni vyo vyonyene bifise aho bigarukir
 ## Rema ibirori vyo ku ruhande n'amahugurwa
 
 
-<chapterId>9dbd651a-8712-5630-90b3-b9525dcc1385</chapterId>
+<chapterId>a6f89c65-1de3-40dc-ad55-f72e54c2f399</chapterId>
 
 
 
@@ -1889,7 +1889,7 @@ Urabe gusa ko udakoresha cane ikirangamisi. Ibirori vyinshi cane mu kwezi kumwe 
 ## Rema ibimenyetso
 
 
-<chapterId>d605f3b3-130e-513d-85e6-06bc5ea13e99</chapterId>
+<chapterId>1d7f4a6f-99f1-4c82-a55d-23c6d8f7b226</chapterId>
 
 
 
@@ -1929,7 +1929,7 @@ Mu bibanza vy’abantu ku giti cabo nk’amakonseri, amabarabara canke ibibuga, 
 ## Rema ububiko bw'ibitabu
 
 
-<chapterId>acc94093-f8b3-51b8-9359-348e9e075d38</chapterId>
+<chapterId>a6db0905-19f7-475a-abdc-f4c5e85cd625</chapterId>
 
 
 
@@ -1985,7 +1985,7 @@ Nimba atari vyo, nubabwire ngo baronke ibitabu bikeyi mu rutonde rwabo rwatowe i
 ## Rema kandi utanga udupapuro twihariye
 
 
-<chapterId>62ad5430-c698-51b3-89ac-090f31c88953</chapterId>
+<chapterId>50949d74-897a-4097-8bad-65245e5bb5e1</chapterId>
 
 
 
@@ -2064,7 +2064,7 @@ Ehe [agatabu kashizwe mu masanduku y’ibitabu menshi cane mu gihugu cose. Igish
 ## Gukora amasanamu
 
 
-<chapterId>892b248a-b837-5df6-aac9-4b3261ff0390</chapterId>
+<chapterId>b129d071-f69a-4d55-a043-cc74e4cf6331</chapterId>
 
 
 
@@ -2104,7 +2104,7 @@ Ico kintu caratumye haba ibiganiro vyinshi ku bijanye na Bitcoin Mining, inguvu 
 ## Gushiraho amafoto mu gisagara canyu
 
 
-<chapterId>6565e8a0-d535-5be0-9764-273584c675bd</chapterId>
+<chapterId>89c658aa-414c-4a3b-a6c7-2aa99f937a70</chapterId>
 
 
 
@@ -2147,7 +2147,7 @@ Canke, uburyo bwo gukora ni ugukora igicapo c’ibara ry’agahama mu gipande ki
 ## Ikarata ya NFC yihariye
 
 
-<chapterId>8ad65d4e-a68a-59c2-a812-85f4907ed9f3</chapterId>
+<chapterId>6734ae15-2cbe-4baf-b784-bb0afdfd95ee</chapterId>
 
 
 
@@ -2175,7 +2175,7 @@ Igiciro c’ayo makarita mu bisanzwe kiva kuri 2,50€ gushika kuri 5€, bivany
 ## Rema urubuga
 
 
-<chapterId>9a2a1b9b-0633-544a-b331-c06187d23d7f</chapterId>
+<chapterId>60d6534d-569f-45b7-b9ad-49a2a4422550</chapterId>
 
 
 
@@ -2202,7 +2202,7 @@ WordPress kandi irashigikira ibikoresho vyinshi (bimwe bihembwa ariko bifise aka
 ## Rema umurongo w'amasanamu (Youtube canke Odyssee)
 
 
-<chapterId>076286db-1627-57ec-a410-c44b1666e1cd</chapterId>
+<chapterId>77fa4cd7-645b-4c1f-92c5-64075ed162fd</chapterId>
 
 
 
@@ -2245,7 +2245,7 @@ Impanuro: Nimba Bitcoin yigeze kubuzwa canke gusuzumwa, wama ubika amasanamu yaw
 ## Rema amajwi
 
 
-<chapterId>12e96b45-1c33-5687-a753-80d0114d487a</chapterId>
+<chapterId>f9c6f5a8-7c0a-4dbb-8844-6d61c09e29f4</chapterId>
 
 
 
@@ -2285,7 +2285,7 @@ Impanuro: Nk’uko biri ku mavidewo, nuzigame ububiko bwo mu karere kawe bw’am
 ## Rema ikimenyetso c'ibirori vyawe
 
 
-<chapterId>0cccef8d-a765-5844-8921-c40f0ce653e4</chapterId>
+<chapterId>aade4c0d-6faf-4b7c-914d-00aab248b544</chapterId>
 
 
 
@@ -2311,7 +2311,7 @@ Ivyitegererezo vyinshi vy’ibimenyetso bikoreshwa n’ishirahamwe Bitcoin Lille
 ## Gutegura ivyo gutanga iyo umuntu apfuye
 
 
-<chapterId>c5febf18-235c-51bc-8fbb-9467dabe4cb0</chapterId>
+<chapterId>98ea62af-adae-4fb7-81a6-dc2054922dde</chapterId>
 
 
 
@@ -2341,7 +2341,7 @@ Woshobora gushinga umugwi w’abakozi wiyemeje gusobanura iyo nzira. Ishirahamwe
 ## Gutanga inyigisho mu mashure no muri kaminuza
 
 
-<chapterId>65efdb44-e3d4-567c-aedf-972765753d73</chapterId>
+<chapterId>d94b6c84-5a34-4626-a21d-6b9051eef470</chapterId>
 
 
 
@@ -2404,7 +2404,7 @@ Naho ari ukwo, birabereye kugerageza cane cane amasendika n’amashirahamwe y’
 ## Kwegera ubucuruzi
 
 
-<chapterId>b730462b-7928-5d28-a14f-9ceaa773d3d2</chapterId>
+<chapterId>3ac3d7ce-e61e-44c8-a238-2aef158da8a0</chapterId>
 
 
 
@@ -2494,7 +2494,7 @@ Gukora ubukangurambaga ni umukino w’igihe kirekire. Bisaba ukwihangana, ukwita
 ## Baza ibinyamakuru vyo mu karere n'iradiyo
 
 
-<chapterId>435bfbc1-22dd-59bb-b737-a32ea995b238</chapterId>
+<chapterId>51c32266-ddc1-4ffd-bd05-ed8273ea1d93</chapterId>
 
 
 
@@ -2548,14 +2548,14 @@ Ibuka: umuryango wose wa Bitcoin wabaye aho uri ubu. Ntukekeranye kwigira ku vyo
 # Kwitega kazoza
 
 
-<partId>6ea07445-9369-54bc-9aa0-d260db026e0b</partId>
+<partId>55a392cc-961d-434c-b4b0-4614f5ac1da8</partId>
 
 
 
 ## Gutegura ukwiyongera kw'abazoja muri iyo nama
 
 
-<chapterId>8af722d4-3a9f-548c-9001-424f2142de12</chapterId>
+<chapterId>de70830d-0cde-4254-b160-734a98ce4eb8</chapterId>
 
 
 
@@ -2626,7 +2626,7 @@ Mu isi nziza, woba ufise **ikibanza kinini gihagije co kwakira abantu amajana n�
 ## Kwegeranya imiteguro y'abanyagihugu
 
 
-<chapterId>bedfc110-e099-58f4-a5b7-fb50f3b19a49</chapterId>
+<chapterId>74e4aab7-c79e-4578-8179-0b857a961bb7</chapterId>
 
 
 
@@ -2666,7 +2666,7 @@ Koresha **ibikoresho vyo guhanahana amakuru bifise amakuru canke bitazwi** kugir
 ## None iyo Bitcoin iba umwansi wa bose No 1?
 
 
-<chapterId>c739651f-cd13-51e0-a36e-85023749b15b</chapterId>
+<chapterId>30ca4745-f8b5-48a0-b902-8c270e2062ed</chapterId>
 
 
 
@@ -2697,14 +2697,14 @@ Ntidukwiye kugwa mu vyiyumviro vy’umugambi mubisha. Ariko ntaco kitubuza kwite
 # Kuzana aba bitcoins hamwe
 
 
-<partId>62bc2138-c0be-5d39-a341-594690863257</partId>
+<partId>e3eab6b3-f19d-42ec-9167-4aa6c7e92a28</partId>
 
 
 
 ## Gahunda y'ibikorwa vyihuse yo kwubaka umuryango wawe wa Bitcoin
 
 
-<chapterId>1f463ec2-3f64-5641-8d60-e02a47c94f27</chapterId>
+<chapterId>9ad100ba-2b39-40ef-aec6-b2750fce4b76</chapterId>
 
 
 
@@ -2795,7 +2795,7 @@ Ibuka: **nturi wenyene, imiryango iriho iri hano kugira igufashe**.
 ## Kwitwararika wewe nyene
 
 
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+<chapterId>1cb1f900-b1a9-4908-8418-995f531da953</chapterId>
 
 
 
@@ -2834,7 +2834,7 @@ Wenyene, urashobora kwihuta guca muri imwe mu nzira nyinshi ziri mu mwobo w’in
 ## BTC302, Ni igiki gikurikira
 
 
-<chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
+<chapterId>f58e4746-c50e-492b-a2d1-f555e2706d9d</chapterId>
 
 
 
@@ -2882,7 +2882,7 @@ Ku bw’ivyo, tuzokoresha ubumenyi bw’imiryango yamaze kwiremera ibirori vyayo
 ## Amasuzuma n'Ibipimo
 
 
-<chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
+<chapterId>692dfb93-db32-4ca4-9b18-f4daa83756f4</chapterId>
 
 
 <isCourseReview>true</isCourseReview>

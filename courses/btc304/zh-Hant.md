@@ -17,14 +17,14 @@ objectives:
 # 簡介
 
 
-<partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
+<partId>c896831e-b8d8-4324-bcad-b289c88db81b</partId>
 
 
 
 ## 課程總覽
 
 
-<chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
+<chapterId>42660201-57ae-4438-846a-80cd529087ca</chapterId>
 
 
 
@@ -144,7 +144,7 @@ objectives:
 ## 為什麼要成立 Bitcoin 社群或聚會？
 
 
-<chapterId>893ea248-7d5a-5b8e-948c-7031497b1031</chapterId>
+<chapterId>ce63ff45-9c9e-4a77-a175-99906bb95208</chapterId>
 
 
 
@@ -241,7 +241,7 @@ Bitcoin 聚會可以達到許多目的：
 
 
 
-我們會在本課程的第 6/8 部分，題為「[專案與計畫範例](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279)」，詳細介紹許多這些可能性。
+我們會在本課程的第 6/8 部分，題為「[專案與計畫範例](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab)」，詳細介紹許多這些可能性。
 
 
 
@@ -252,7 +252,7 @@ Bitcoin 聚會可以達到許多目的：
 ## 您應該在哪裡建立您的社群？
 
 
-<chapterId>72da5285-5395-592d-ab62-303a0aef3d6d</chapterId>
+<chapterId>0b6bd32a-15ff-4b09-870d-5a2f6ea0d774</chapterId>
 
 
 
@@ -309,7 +309,7 @@ Bitcoin 是分散式的，因此自然任何人都可以隨心所欲。
 ## 哪些目標應該引導您的社區？
 
 
-<chapterId>0aae1aa8-93ec-544a-ad88-22d32c619595</chapterId>
+<chapterId>2b2f58e5-c2ab-4b85-af19-02d7ad2aa503</chapterId>
 
 
 
@@ -353,7 +353,7 @@ Bitcoin 是分散式的，因此自然任何人都可以隨心所欲。
 
 
 
-不過，正如我們稍後在 [專案與計畫範例](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) 中會看到的，**聚會可以以許多方式建立，並有許多目標：**
+不過，正如我們稍後在 [專案與計畫範例](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab) 中會看到的，**聚會可以以許多方式建立，並有許多目標：**
 
 
 
@@ -424,14 +424,14 @@ Bitcoin 是分散式的，因此自然任何人都可以隨心所欲。
 # 設計社區認同 Bitcoin
 
 
-<partId>da6673ad-bf49-5979-80a6-3f69cfb28046</partId>
+<partId>507dd86a-0214-4c18-ae0d-34702291fb74</partId>
 
 
 
 ## 為什麼以及如何創造自己的身份？
 
 
-<chapterId>b48a18cc-afdf-5216-802c-32647b5cd8a3</chapterId>
+<chapterId>4475004b-19e7-4c0f-a799-fd2cb0baefad</chapterId>
 
 
 
@@ -532,7 +532,7 @@ Bitcoin 是分散式的，因此自然任何人都可以隨心所欲。
 ## 製作標誌、海報和橫幅
 
 
-<chapterId>3470a31f-0190-5e87-8af0-6a00e79267ef</chapterId>
+<chapterId>8b85ccb1-5474-474e-ae1b-c8cb69f060ad</chapterId>
 
 
 
@@ -763,14 +763,14 @@ Bitcoin 是分散式的，因此自然任何人都可以隨心所欲。
 # 為您的 Bitcoin 社群建立溝通管道
 
 
-<partId>fc588298-6876-554c-bd57-55d182464878</partId>
+<partId>054892b5-21cb-43f8-a1c2-750d3175fa68</partId>
 
 
 
 ## 您應該選擇哪些溝通管道？
 
 
-<chapterId>b4f4eef6-1035-5290-848a-2b7f9391c77a</chapterId>
+<chapterId>3c111ec9-2517-4b9a-bba4-68ac531e081f</chapterId>
 
 
 
@@ -831,7 +831,7 @@ Bitcoin 是分散式的，因此自然任何人都可以隨心所欲。
 ## 建立和設定 Telegram 頻道、群組或超級群組
 
 
-<chapterId>d13714ce-8f08-53e9-bedd-b6a3aaac5dad</chapterId>
+<chapterId>7b87c24a-4820-4652-a3de-dc29cafea4d0</chapterId>
 
 
 
@@ -866,7 +866,7 @@ Bitcoin 是分散式的，因此自然任何人都可以隨心所欲。
 如果您想要建立一個讓您的成員可以直接對話、互相回應等的地方，那麼您可能想要建立一個 Telegram 群組，而不是 Telegram 頻道！
 
 
-直接進入下一節，標題為【建立 Telegram 群組】(https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad)。
+直接進入下一節，標題為【建立 Telegram 群組】(https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/7b87c24a-4820-4652-a3de-dc29cafea4d0)。
 
 
 
@@ -997,7 +997,7 @@ Telegram 超級群組是什麼？
 ## 設定您的 Telegram 群組或超群組
 
 
-<chapterId>35e674b3-5924-50b0-98f1-83a56c9a186d</chapterId>
+<chapterId>a8c5bc2e-9a91-4da1-aae7-8a3684631dc8</chapterId>
 
 
 
@@ -1053,7 +1053,7 @@ Telegram 超級群組是什麼？
 ## 在您的 Telegram 群組中加入多功能 Bot
 
 
-<chapterId>c61f69cc-15ec-53f1-8c02-1cea55def09e</chapterId>
+<chapterId>80108eb0-6648-4fe9-b41f-586f03466805</chapterId>
 
 
 
@@ -1105,7 +1105,7 @@ Telegram 超級群組是什麼？
 ## 建立 Discord 伺服器
 
 
-<chapterId>eef2a965-4c24-5f3a-8013-72cc7d315314</chapterId>
+<chapterId>9d3f69cb-a61c-40f2-abad-e4a4be6b96cb</chapterId>
 
 
 
@@ -1150,7 +1150,7 @@ Telegram 超級群組是什麼？
 ## 考慮其他更私密、更安全的通訊管道
 
 
-<chapterId>29d0aad6-0612-5dd0-bcef-7337eaf4fefc</chapterId>
+<chapterId>495024db-90fb-4aa9-984e-1dc2b2b90947</chapterId>
 
 
 
@@ -1178,14 +1178,14 @@ Telegram 超級群組是什麼？
 # 啟動您的社交網路
 
 
-<partId>8ebf8cd7-9248-543f-bc27-4ec4cc03f9cf</partId>
+<partId>f98a016c-d5b2-43b4-b8ee-ad6163d7e6c5</partId>
 
 
 
 ## 知名度對 Bitcoin 社群成長的重要性
 
 
-<chapterId>b20f12e4-c5de-5f02-80c7-b7fc6cadd3ac</chapterId>
+<chapterId>ecd581a7-17e6-4730-ac9f-859a782a957e</chapterId>
 
 
 
@@ -1219,7 +1219,7 @@ Twitter (X) 幾乎已成為 Bitcoin 線上對話的代名詞。它並不完美�
 ## 建立 Twitter 個人資料
 
 
-<chapterId>c8d73097-8eba-5530-918c-221002954110</chapterId>
+<chapterId>f5bfb587-1edf-46ce-9683-833b344627b1</chapterId>
 
 
 
@@ -1232,7 +1232,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 1/ **的 @ Twitter**，它定義了您的身份，讓您容易被找到。如果您的社群名稱是 "Bitcoin [CITY]「，選擇」@Bitcoin[CITY]"就很適當；
 
 
-2/ **您為社群或聚會所建立的標誌和橫幅** (請參閱 [建立標誌、海報和橫幅](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) 一節)；
+2/ **您為社群或聚會所建立的標誌和橫幅** (請參閱 [建立標誌、海報和橫幅](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/8b85ccb1-5474-474e-ae1b-c8cb69f060ad) 一節)；
 
 
 3/ **描述**，可讓您用幾百個字分享您社群的關鍵資訊。例如
@@ -1334,7 +1334,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 ## 更接近鄰近的聚會
 
 
-<chapterId>12a21c3b-235a-5292-8209-67bf60f61e49</chapterId>
+<chapterId>5cd84243-f3b6-4874-99a7-a2e2185cc118</chapterId>
 
 
 
@@ -1377,7 +1377,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 ## Btcmap.org
 
 
-<chapterId>365f43d4-7b2c-5961-a184-157b8c1a0116</chapterId>
+<chapterId>8a628a6c-7daf-4382-9f13-a90b808fc908</chapterId>
 
 
 
@@ -1425,14 +1425,14 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 # 舉辦 Bitcoin 聚會
 
 
-<partId>c009d2a6-40ce-583b-bd24-fdfd1fea262e</partId>
+<partId>561335e4-a531-4e63-838f-56aa8ee04864</partId>
 
 
 
 ## 為什麼要與您的社群定期舉辦聚會？
 
 
-<chapterId>ed8e471c-3b99-57e2-a042-2d4e8a40b137</chapterId>
+<chapterId>acb31467-8192-45a8-afe1-e7bbdf1e32dd</chapterId>
 
 
 
@@ -1462,7 +1462,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 ## 第一次聚會：何時？
 
 
-<chapterId>f3f8a614-cfb4-5994-a2e8-d56e6f8e3347</chapterId>
+<chapterId>1db6a73c-4782-4ed6-872a-eb23851e027e</chapterId>
 
 
 
@@ -1547,7 +1547,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 
 
 
-請記住，**這需要更多的組織和時間**。幸運的是，在 [本課程第 6/8 部分](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) 中，您會找到一系列可重複使用的開放原始碼資源來提供協助。
+請記住，**這需要更多的組織和時間**。幸運的是，在 [本課程第 6/8 部分](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab) 中，您會找到一系列可重複使用的開放原始碼資源來提供協助。
 
 
 無論如何，這一切都取決於您或您的社區為自己設定的短期、中期和長期行動計劃。
@@ -1557,7 +1557,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 ## 尋找地點
 
 
-<chapterId>405d389e-6a32-5777-af8d-293380d2e8fd</chapterId>
+<chapterId>b19eed85-6f0a-4de8-a679-34807bb2ac3e</chapterId>
 
 
 
@@ -1603,7 +1603,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 ## 聚會前
 
 
-<chapterId>c5218943-580d-5efc-89ed-6b5d728816d6</chapterId>
+<chapterId>2efeb301-7737-49bb-831b-f75f1a013ad7</chapterId>
 
 
 
@@ -1619,7 +1619,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 
 
     - 在您的社交網路和其他溝通管道上分享日期、時間和地點。如有需要，請附上註冊連結。
-    - 建立專屬的視覺（例如 Canva 海報，請參閱第 2/8 部分「[為您的 Bitcoin 社群設計形象](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)」）。
+    - 建立專屬的視覺（例如 Canva 海報，請參閱第 2/8 部分「[為您的 Bitcoin 社群設計形象](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/4475004b-19e7-4c0f-a799-fd2cb0baefad)」）。
     - 在 Telegram 和 Twitter 上釘選公告，並在 Discord 上使用「@everyone」提點，以最大化能見度。
     - 在活動舉行前 7 到 10 天發佈公告，以便與會者提前計劃。
 
@@ -1650,7 +1650,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 ## 聚會當天
 
 
-<chapterId>cf60067b-591f-5fdf-9b9e-d442aad0e8f9</chapterId>
+<chapterId>7ba18449-1368-4ba7-8fe3-c9028afaa3e6</chapterId>
 
 
 
@@ -1689,7 +1689,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 ## 聚會結束後
 
 
-<chapterId>3e881af9-9c09-5721-81ee-c5cda3b109c5</chapterId>
+<chapterId>2f238eab-3931-46a2-a429-5ae9562e4c5d</chapterId>
 
 
 
@@ -1711,7 +1711,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 ## 讓參與者參與並留住參與者的重要性
 
 
-<chapterId>f5355e35-4b07-527c-88a3-8535cba7592c</chapterId>
+<chapterId>a50e8782-fb08-4aba-a42b-3fa86b5c4ffb</chapterId>
 
 
 
@@ -1721,7 +1721,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 要實現這一目標，有一件事是必不可少的： **保持參與者的參與**。
 
 
-一開始可能是一小群熱情的 bitcoiners，他們的目標是定期聚在一起討論 Bitcoin。隨著時間的推移，依據每個人的空閒時間和興趣，您可以**與團體分擔某些組織任務**，或邀請核心**成員負責特定專案**。這些計畫可以是您的社區、您的聚會或您的城市所特有的，甚至是受到 [本課程第 6/8 部分](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) 中提出的許多計畫所啟發。**這不僅能培養核心成員的 Commitment，也能幫助您的社群成長與茁壯。**
+一開始可能是一小群熱情的 bitcoiners，他們的目標是定期聚在一起討論 Bitcoin。隨著時間的推移，依據每個人的空閒時間和興趣，您可以**與團體分擔某些組織任務**，或邀請核心**成員負責特定專案**。這些計畫可以是您的社區、您的聚會或您的城市所特有的，甚至是受到 [本課程第 6/8 部分](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab) 中提出的許多計畫所啟發。**這不僅能培養核心成員的 Commitment，也能幫助您的社群成長與茁壯。**
 
 
 隨著您的聚會進展，新面孔也會出現：在前幾個週期買了 BTC 和/或替代貨幣的人、想要加深瞭解的技術愛好者，或是對這個無條件、無可信第三方運作的不可檢查、去中心化、透明且公平的支付系統感到好奇的完全初學者。
@@ -1761,14 +1761,14 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 # 專案與計畫範例
 
 
-<partId>45b3bc40-1c31-583e-8411-2662e6efd765</partId>
+<partId>75b8d7e2-97ce-455b-abb5-8bfa2a47f777</partId>
 
 
 
 ## 為何不只喝啤酒？
 
 
-<chapterId>3213d87a-1998-5972-ab93-97a5769ba279</chapterId>
+<chapterId>05880102-07ac-413a-8433-8a6ab8fac2ab</chapterId>
 
 
 
@@ -1802,7 +1802,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 ## 組織主題聚會，每年進行一次
 
 
-<chapterId>46afdbcc-a775-5c16-b20a-34956690d58f</chapterId>
+<chapterId>c69c52bd-3b64-4ebc-bcce-5c3c8bd1b6e5</chapterId>
 
 
 
@@ -1862,7 +1862,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 ## 創造會外活動和研討會
 
 
-<chapterId>9dbd651a-8712-5630-90b3-b9525dcc1385</chapterId>
+<chapterId>a6f89c65-1de3-40dc-ad55-f72e54c2f399</chapterId>
 
 
 
@@ -1889,7 +1889,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 ## 建立貼紙
 
 
-<chapterId>d605f3b3-130e-513d-85e6-06bc5ea13e99</chapterId>
+<chapterId>1d7f4a6f-99f1-4c82-a55d-23c6d8f7b226</chapterId>
 
 
 
@@ -1929,7 +1929,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 ## 建立圖書館
 
 
-<chapterId>acc94093-f8b3-51b8-9359-348e9e075d38</chapterId>
+<chapterId>a6db0905-19f7-475a-abdc-f4c5e85cd625</chapterId>
 
 
 
@@ -1985,7 +1985,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 ## 製作及分發個人化傳單
 
 
-<chapterId>62ad5430-c698-51b3-89ac-090f31c88953</chapterId>
+<chapterId>50949d74-897a-4097-8bad-65245e5bb5e1</chapterId>
 
 
 
@@ -2064,7 +2064,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 ## 製作視訊投影
 
 
-<chapterId>892b248a-b837-5df6-aac9-4b3261ff0390</chapterId>
+<chapterId>b129d071-f69a-4d55-a043-cc74e4cf6331</chapterId>
 
 
 
@@ -2104,7 +2104,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 ## 在您的城市張貼海報
 
 
-<chapterId>6565e8a0-d535-5be0-9764-273584c675bd</chapterId>
+<chapterId>89c658aa-414c-4a3b-a6c7-2aa99f937a70</chapterId>
 
 
 
@@ -2147,7 +2147,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 ## 個人化的 NFC 卡
 
 
-<chapterId>8ad65d4e-a68a-59c2-a812-85f4907ed9f3</chapterId>
+<chapterId>6734ae15-2cbe-4baf-b784-bb0afdfd95ee</chapterId>
 
 
 
@@ -2175,7 +2175,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 ## 建立網站
 
 
-<chapterId>9a2a1b9b-0633-544a-b331-c06187d23d7f</chapterId>
+<chapterId>60d6534d-569f-45b7-b9ad-49a2a4422550</chapterId>
 
 
 
@@ -2202,7 +2202,7 @@ WordPress 也支援各式各樣的外掛程式 (有些是付費的，但品質�
 ## 建立視訊頻道 (Youtube 或 Odyssee)
 
 
-<chapterId>076286db-1627-57ec-a410-c44b1666e1cd</chapterId>
+<chapterId>77fa4cd7-645b-4c1f-92c5-64075ed162fd</chapterId>
 
 
 
@@ -2222,7 +2222,7 @@ WordPress 也支援各式各樣的外掛程式 (有些是付費的，但品質�
 - [**peertube**] (https://joinpeertube.org/fr_FR)，可讓您主持自己的視訊平台，不過設定起來比較複雜。
 
 
-無論您選擇哪一種，都要設計特定平台的視覺效果，讓您的頻道更吸引人。在 [第 2/8 部分](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) 中提到的 Canva 提供「YouTube Thumbnail」類別，有預先製作、可自訂的設計。
+無論您選擇哪一種，都要設計特定平台的視覺效果，讓您的頻道更吸引人。在 [第 2/8 部分](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/8b85ccb1-5474-474e-ae1b-c8cb69f060ad) 中提到的 Canva 提供「YouTube Thumbnail」類別，有預先製作、可自訂的設計。
 
 
 
@@ -2245,7 +2245,7 @@ WordPress 也支援各式各樣的外掛程式 (有些是付費的，但品質�
 ## 建立語音 Podcast
 
 
-<chapterId>12e96b45-1c33-5687-a753-80d0114d487a</chapterId>
+<chapterId>f9c6f5a8-7c0a-4dbb-8844-6d61c09e29f4</chapterId>
 
 
 
@@ -2285,7 +2285,7 @@ WordPress 也支援各式各樣的外掛程式 (有些是付費的，但品質�
 ## 為您的活動建立徽章
 
 
-<chapterId>0cccef8d-a765-5844-8921-c40f0ce653e4</chapterId>
+<chapterId>aade4c0d-6faf-4b7c-914d-00aab248b544</chapterId>
 
 
 
@@ -2311,7 +2311,7 @@ Bitcoin Lille 協會使用的幾個徽章範本 [Canva 上有開放原始碼](ht
 ## 死亡時的交接規劃
 
 
-<chapterId>c5febf18-235c-51bc-8fbb-9467dabe4cb0</chapterId>
+<chapterId>98ea62af-adae-4fb7-81a6-dc2054922dde</chapterId>
 
 
 
@@ -2341,7 +2341,7 @@ Bitcoin Lille 協會使用的幾個徽章範本 [Canva 上有開放原始碼](ht
 ## 在學校和大學舉辦講座
 
 
-<chapterId>65efdb44-e3d4-567c-aedf-972765753d73</chapterId>
+<chapterId>d94b6c84-5a34-4626-a21d-6b9051eef470</chapterId>
 
 
 
@@ -2404,7 +2404,7 @@ Bitcoin Lille 協會使用的幾個徽章範本 [Canva 上有開放原始碼](ht
 ## 接觸企業
 
 
-<chapterId>b730462b-7928-5d28-a14f-9ceaa773d3d2</chapterId>
+<chapterId>3ac3d7ce-e61e-44c8-a238-2aef158da8a0</chapterId>
 
 
 
@@ -2494,7 +2494,7 @@ Bitcoin Lille 協會使用的幾個徽章範本 [Canva 上有開放原始碼](ht
 ## 聯絡當地媒體和電台
 
 
-<chapterId>435bfbc1-22dd-59bb-b737-a32ea995b238</chapterId>
+<chapterId>51c32266-ddc1-4ffd-bd05-ed8273ea1d93</chapterId>
 
 
 
@@ -2548,14 +2548,14 @@ Bitcoiners 經常將宣傳重點放在社交媒體和線上平台上，但這只
 # 預測未來
 
 
-<partId>6ea07445-9369-54bc-9aa0-d260db026e0b</partId>
+<partId>55a392cc-961d-434c-b4b0-4614f5ac1da8</partId>
 
 
 
 ## 為增加參與者進行規劃
 
 
-<chapterId>8af722d4-3a9f-548c-9001-424f2142de12</chapterId>
+<chapterId>de70830d-0cde-4254-b160-734a98ce4eb8</chapterId>
 
 
 
@@ -2626,7 +2626,7 @@ b) **避免只和比特币同行**。相反的，要注意**接觸新來的人**
 ## 分散社區組織
 
 
-<chapterId>bedfc110-e099-58f4-a5b7-fb50f3b19a49</chapterId>
+<chapterId>74e4aab7-c79e-4578-8179-0b857a961bb7</chapterId>
 
 
 
@@ -2666,7 +2666,7 @@ b) **避免只和比特币同行**。相反的，要注意**接觸新來的人**
 ## 如果 Bitcoin 成為頭號公敵呢？
 
 
-<chapterId>c739651f-cd13-51e0-a36e-85023749b15b</chapterId>
+<chapterId>30ca4745-f8b5-48a0-b902-8c270e2062ed</chapterId>
 
 
 
@@ -2697,14 +2697,14 @@ b) **避免只和比特币同行**。相反的，要注意**接觸新來的人**
 # 將比特幣玩家聚集在一起
 
 
-<partId>62bc2138-c0be-5d39-a341-594690863257</partId>
+<partId>e3eab6b3-f19d-42ec-9167-4aa6c7e92a28</partId>
 
 
 
 ## 建立 Bitcoin 社群的快速行動計畫
 
 
-<chapterId>1f463ec2-3f64-5641-8d60-e02a47c94f27</chapterId>
+<chapterId>9ad100ba-2b39-40ef-aec6-b2750fce4b76</chapterId>
 
 
 
@@ -2795,7 +2795,7 @@ Bitcoin 是一個巨大的兔子洞，觸及歷史、經濟、文學、數學、
 ## 照顧自己
 
 
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+<chapterId>1cb1f900-b1a9-4908-8418-995f531da953</chapterId>
 
 
 
@@ -2834,7 +2834,7 @@ Bitcoin 是一個巨大的兔子洞，觸及歷史、經濟、文學、數學、
 ## BTC302，下一步是什麼
 
 
-<chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
+<chapterId>f58e4746-c50e-492b-a2d1-f555e2706d9d</chapterId>
 
 
 
@@ -2882,7 +2882,7 @@ Bitcoin 是一個巨大的兔子洞，觸及歷史、經濟、文學、數學、
 ## 評論與評分
 
 
-<chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
+<chapterId>692dfb93-db32-4ca4-9b18-f4daa83756f4</chapterId>
 
 
 <isCourseReview>true</isCourseReview>

@@ -4287,13 +4287,13 @@ Siden denne funksjonen er ny, anbefaler vi at du utviser forsiktighet og unngår
 
 ## Anmeldelser og rangeringer
 
-<chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
+<chapterId>74228ce0-a31e-4a64-a25b-61295986d765</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Avsluttende eksamen
 
-<chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
+<chapterId>906fc0d4-414c-4a1e-85c4-d634c5865ff5</chapterId>
 
 <isCourseExam>true</isCourseExam>
 

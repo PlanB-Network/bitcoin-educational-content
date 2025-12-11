@@ -15,11 +15,11 @@ Nyenzo zimeundwa kwa wanafunzi wa viwango vyote na zinasawazisha ufahamu na kina
 +++
 # Utangulizi
 
-<partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
+<partId>abfa0d9a-736e-40f8-937a-490ef19bc481</partId>
 
 ## Maelezo mafupi
 
-<chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+<chapterId>dc6c887e-00a6-4b7f-9d50-14cbdfd5e867</chapterId>
 
 Maudhui haya ya kielimu yametokolezwa kutoka kitabu na repo [JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Ingawa mwandishi ametoa ruhusa ya matumizi yake ya kielimu, haki zote za mali ya kiakili zinabaki na muundaji wa awali.
 
@@ -82,11 +82,11 @@ Nukuu rasmi inahusu vigeu, vigeu vya nasibu, na seti.
 
 # Cryptography ni nini?
 
-<partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>
+<partId>dfa3633c-f97b-4650-8a2e-cb15a42ca557</partId>
 
 ## Sifa za Beale
 
-<chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
+<chapterId>b97d116b-035b-4e92-890c-e377b48edb36</chapterId>
 
 Wacha tuanze uchunguzi wetu katika uwanja wa cryptography na moja ya vipindi vya kupendeza na vya kuburudisha katika historia yake: ile ya maandishi ya Beale. [1]
 
@@ -126,7 +126,7 @@ Baada ya kusimbua, ujumbe wa pili unatoa maelezo ya kina ya hazina hiyo (dhahabu
 
 ## cryptography ya kisasa
 
-<chapterId>d07d576f-8a4b-5890-b182-2e5763f550f4</chapterId>
+<chapterId>a53dab64-fcf9-48c1-b578-dc43d799f3de</chapterId>
 
 Hadithi za kupendeza kama vile misimbo ya Beale ndizo ambazo wengi wetu tunahusisha na kriptografia. Hata hivyo, kriptografia ya kisasa inatofautiana kwa angalau njia nne muhimu kutoka kwa aina hizi za mifano ya kihistoria.
 
@@ -178,7 +178,7 @@ Kwa mfano mwingine, **mashambulizi ya hadaa** ni tatizo la kawaida katika enzi y
 
 ## Fungua mawasiliano
 
-<chapterId>cb23d0a6-ba9a-5dc6-a55a-258405ae4117</chapterId>
+<chapterId>87b637ca-3d20-42b5-b299-ecb084b60aec</chapterId>
 
 Usimbaji fiche wa kisasa umeundwa ili kutoa uhakikisho wa usalama katika **mazingira huria**. Ikiwa chaneli yetu ya mawasiliano imelindwa vyema hivi kwamba wasikilizaji hawana nafasi ya kudanganya au hata kutazama tu ujumbe wetu, basi kriptografia ni ya kupita kiasi. Njia zetu nyingi za mawasiliano, hata hivyo, hazina ulinzi wa kutosha hivi.
 
@@ -198,11 +198,11 @@ Kwa hivyo, wazo la kuweka mawasiliano siri kwa kulinda njia ya mawasiliano ni ma
 
 # Misingi ya Hisabati ya Crystalgraphy 1
 
-<partId>1bf9f0aa-0f68-5493-83fb-2167238ff9de</partId>
+<partId>22c3967a-c64b-468c-8e68-3324fe552738</partId>
 
 ## Vigezo bila mpangilio
 
-<chapterId>b623a7d0-3dff-5803-bd4e-8257ff73dd69</chapterId>
+<chapterId>c5fa2255-6041-400b-9072-217b73bf411e</chapterId>
 
 Cryptography inategemea hisabati. Na ikiwa unataka kujenga zaidi ya uelewa wa juu juu wa cryptography, unahitaji kuridhika na hisabati hiyo.
 
@@ -407,7 +407,7 @@ Kwa mfano, naweza kukuuliza uwezekano kwamba nguruwe wataruka ifikapo 2030, baad
 
 ## Operesheni ya moduli
 
-<chapterId>709b34e5-b155-53d2-abbd-97d67e56db00</chapterId>
+<chapterId>a7e063f0-62dd-4c35-892a-55fa1b10aad8</chapterId>
 
 ### Modulo
 
@@ -495,7 +495,7 @@ $$
 
 ## Operesheni ya XOR
 
-<chapterId>22f185cc-c516-5b33-950b-0908f2f881fe</chapterId>
+<chapterId>941aaabd-0896-4eb2-843c-e1af055c87fc</chapterId>
 
 Data yote ya kompyuta inachakatwa, kuhifadhiwa na kutumwa kwenye mitandao kwa kiwango cha biti. Miradi yoyote ya kriptografia ambayo inatumika kwa data ya kompyuta pia hufanya kazi katika kiwango kidogo.
 
@@ -530,7 +530,7 @@ Operesheni ya XOR ni sawa na kesi maalum ya kufanya operesheni ya modulo kwenye 
 
 ## Udanganyifu
 
-<chapterId>20463fc5-3e92-581f-a1b7-3151279bd95e</chapterId>
+<chapterId>bd0c7d54-5392-490b-bdca-04dcbe7d83ff</chapterId>
 
 Katika mjadala wetu wa vigezo vya nasibu na sare, tulichora tofauti maalum kati ya "nasibu" na "sare". Tofauti hiyo kwa kawaida hudumishwa katika mazoezi wakati wa kuelezea vigeu vya nasibu. Hata hivyo, katika muktadha wetu wa sasa, tofauti hii inahitaji kupunguzwa na "nasibu" na "sare" hutumiwa sawa. Nitaelezea kwa nini mwishoni mwa sehemu.
 
@@ -574,11 +574,11 @@ Sababu ya kuacha tofauti kati ya "nasibu" na "sare" katika mjadala wetu inapaswa
 
 # Misingi ya Hisabati ya Crystalgraphy 2
 
-<partId>d7245cc9-bb6d-5403-b3d5-9c703d9a2f81</partId>
+<partId>62963952-ae03-43f4-88d6-90aea95e5c5f</partId>
 
 ## Nadharia ya nambari ni nini?
 
-<chapterId>c0051c34-fd5d-539c-93e2-5c6dfd4c3355</chapterId>
+<chapterId>67e7dace-4c23-41a8-bdb3-c6c87d223899</chapterId>
 
 Sura hii inashughulikia mada ya juu zaidi juu ya misingi ya hisabati ya kriptografia: nadharia ya nambari. Ingawa nadharia ya nambari ni muhimu kwa kriptografia linganifu (kama vile Rijndael Cipher), ni muhimu sana katika mpangilio wa kriptografia ya ufunguo wa umma.
 
@@ -598,7 +598,7 @@ Seti kutoka aljebra dhahania zinaweza kushughulika na aina nyingi za vitu, kutok
 
 ## Vikundi
 
-<chapterId>3209b270-f9cd-5224-803e-0ed19fbf7826</chapterId>
+<chapterId>4353d3ff-6319-4985-a4b8-3b20111ecfff</chapterId>
 
 Dhana ya msingi katika hisabati ni ile ya seti ya Elements. Seti kawaida huonyeshwa kwa ishara za sifa na Elements ikitenganishwa na koma.
 
@@ -671,7 +671,7 @@ Shughuli katika Bitcoin kwa kawaida huhusisha kufunga matokeo kwa funguo moja au
 
 ## Vikundi vya baiskeli
 
-<chapterId>bfa5c714-7952-5fef-88b1-ca5b07edd886</chapterId>
+<chapterId>b5b552f6-cf7c-4ba8-bd9c-685bfc4aacad</chapterId>
 
 Tofauti kuu tunayoweza kuchora ni kati ya **kikomo** na **kikundi kisicho na kikomo**. Ya kwanza ina nambari ya mwisho ya Elements, wakati ya mwisho ina idadi isiyo na kipimo ya Elements. Nambari ya Elements katika kikundi chochote chenye kikomo inajulikana kama **mpangilio wa kikundi**. Fiche zote za kimatendo zinazohusisha matumizi ya vikundi hutegemea vikundi vyenye ukomo (nambari-kinadharia).
 
@@ -760,7 +760,7 @@ Fomula ya utendakazi ya Euler ya Phi ya uwekaji alama mkuu wa $N$.
 
 ## Viwanja
 
-<chapterId>fad52d86-3a22-5c9f-979e-3bec9eaa008e</chapterId>
+<chapterId>7a8c9ab0-fc8f-43fa-8dd7-fd1839bcda81</chapterId>
 
 Kundi ni muundo msingi wa aljebra katika aljebra abstract, lakini kuna mengi zaidi. Muundo mwingine pekee wa aljebra unaohitaji kuufahamu ni ule wa **uwanja**, haswa ule wa **uga wenye kikomo**. Aina hii ya muundo wa aljebra hutumiwa mara kwa mara katika usimbaji fiche, kama vile Kiwango cha Juu cha Usimbaji fiche. Mwisho ni mpango mkuu wa usimbuaji wa ulinganifu ambao utakutana nao katika mazoezi.
 
@@ -912,7 +912,7 @@ Kwa nini sehemu za upanuzi zilizo na msingi 2 juu ya seti za polynomia, kama ili
 
 ## Kikemikali algebra katika mazoezi
 
-<chapterId>ed35b98d-18b4-5790-9911-1078e0f84f92</chapterId>
+<chapterId>9b8cd1fc-8a34-4e1b-ab4f-c634a763a20c</chapterId>
 
 Licha ya lugha rasmi na mukhtasari wa majadiliano, dhana ya kikundi haipaswi kuwa ngumu kueleweka. Ni seti tu ya Elements pamoja na operesheni ya binary, ambapo utendaji wa operesheni hiyo ya binary kwenye Elements hizo hukutana na masharti manne ya jumla. Kikundi cha Abelian kina hali ya ziada tu inayojulikana kama mawasiliano. Kikundi cha mzunguko, kwa upande wake, ni aina maalum ya kikundi cha Abelian, ambacho kina jenereta. Sehemu ni muundo changamano zaidi kutoka kwa dhana ya msingi ya kikundi.
 
@@ -940,11 +940,11 @@ Kwa majadiliano zaidi juu ya nadharia ya kisasa ya nambari, unaweza kushauriana 
 
 # Ulinganifu wa Crystalgraphy
 
-<partId>ef768d0e-fe7b-510c-87d6-6febb3de1039</partId>
+<partId>b994593e-cb9b-4a2c-ae80-2dec3478e1a6</partId>
 
 ## Alice na Bob
 
-<chapterId>47345330-be2d-5faf-afd0-d289a8d21bf1</chapterId>
+<chapterId>9c901027-b83a-4954-99b4-9e4f0c1598b7</chapterId>
 
 Mojawapo ya matawi makuu mawili ya kriptografia ni kriptografia linganifu. Inajumuisha mipango ya usimbaji fiche pamoja na mipango inayohusika na uthibitishaji na uadilifu. Hadi miaka ya 1970, usimbaji fiche wote ungekuwa na mifumo linganifu ya usimbaji fiche.
 
@@ -974,7 +974,7 @@ Yafuatayo ni mambo matano muhimu ya kukumbuka kuhusu mifano inayowahusisha Alice
 
 ## Mipango ya usimbaji linganifu
 
-<chapterId>41bfdbe1-6d41-5272-98bb-81f24b2fd6af</chapterId>
+<chapterId>e2645185-bb06-41d2-9a80-81dd84108647</chapterId>
 
 Tunaweza kufafanua kwa urahisi **mpango wa usimbaji linganifu** kama mpango wowote wa kriptografia wenye algoriti tatu:
 
@@ -1010,7 +1010,7 @@ Bob husimba ujumbe kwa njia fiche $M$ kwa wakati mmoja $T_0$ kwa ufunguo $K$ ili
 
 ## Mfano: Sifa ya kuhama
 
-<chapterId>7b179ae8-8d15-5e80-a43f-22c970d87b5e</chapterId>
+<chapterId>63287a89-bda1-4395-ade6-cd8d8debe797</chapterId>
 
 Katika Sura ya 2, tulikumbana na shift cipher, ambayo ni mfano wa mpango rahisi sana wa usimbaji fiche linganifu. Hebu iangalie tena hapa.
 
@@ -1046,7 +1046,7 @@ Unaweza pia kukutana na masharti ya **kunakili** au **kufafanua**. Maneno haya n
 
 ## Mashambulizi ya nguvu ya kikatili na kanuni ya Kerckhoff
 
-<chapterId>2d73ef97-26c5-5d11-8815-0ddbe89c8003</chapterId>
+<chapterId>4a72d8d8-0186-4654-b5ba-f99a4e03fb59</chapterId>
 
 Shift cipher ni mpango usio salama sana wa usimbaji linganifu, angalau katika ulimwengu wa kisasa. [1] Mshambulizi anaweza kujaribu kusimbua maandishi yoyote ya siri kwa kutumia vitufe vyote 26 vinavyowezekana ili kuona ni matokeo gani yanayoeleweka. Aina hii ya shambulio, ambapo mshambuliaji anaendesha baiskeli tu kupitia funguo ili kuona kinachofanya kazi, inajulikana kama **shambulio la nguvu** au **utafutaji wa ufunguo kamili**.
 
@@ -1094,7 +1094,7 @@ Ingawa hatutachunguza maelezo yote ya dhana mbalimbali za usalama wa kriptografi
 
 ## Tiririsha misimbo
 
-<chapterId>479aa6f4-45c4-59ca-8616-8cf8e61fc871</chapterId>
+<chapterId>82a4d8c5-7fd7-4bbb-a97e-e7a2d7cc55a0</chapterId>
 
 Miradi ya usimbaji fiche linganifu imegawanywa kwa kawaida katika aina mbili: **ciphers mkondo** na **block ciphers**. Tofauti hii kwa kiasi fulani inasumbua, hata hivyo, kwani watu hutumia maneno haya kwa njia isiyolingana. Katika sehemu chache zijazo, nitaweka tofauti katika njia ninayofikiria ni bora zaidi. Unapaswa kufahamu, hata hivyo, kwamba watu wengi watatumia maneno haya kwa kiasi fulani tofauti na nilivyoweka.
 
@@ -1182,7 +1182,7 @@ Kwa maoni yangu, kufafanua hali (1) kwa upana zaidi hutoa njia rahisi ya kupanga
 
 ## Zuia misimbo
 
-<chapterId>2df52d51-943d-5df7-9d49-333e4c5d97b7</chapterId>
+<chapterId>ffb7ba1c-eb20-43a8-a2f1-2b8a54a31044</chapterId>
 
 Njia ya kwanza ambayo **block cipher** inaeleweka kwa kawaida ni kama kitu cha awali zaidi kuliko cipher mtiririko: Kanuni ya msingi ambayo hufanya mabadiliko ya kuhifadhi urefu kwenye mfuatano wa urefu unaofaa kwa usaidizi wa ufunguo. Algorithm hii inaweza kutumika kuunda mifumo ya usimbaji fiche na labda aina zingine za mifumo ya kriptografia.
 
@@ -1258,7 +1258,7 @@ Sifa ya block ya AES itaelezwa kwa kina katika *Sura ya 5*.
 
 ## Kuondoa mkanganyiko
 
-<chapterId>121c1858-27e3-5862-b0ce-4ff2f70f9f0f</chapterId>
+<chapterId>61e393f2-6764-4214-a871-f7471cb8ea32</chapterId>
 
 Mkanganyiko kuhusu tofauti kati ya herufi block na cipher mtiririko hutokea kwa sababu wakati mwingine watu wataelewa neno block cipher kama likirejelea haswa *block cipher yenye njia ya block ya usimbaji fiche*.
 
@@ -1282,7 +1282,7 @@ Kutokana na mjadala huu, sasa unapaswa kuelewa *Kielelezo 8*. Inatoa muhtasari w
 
 ## Misimbo ya uthibitishaji wa ujumbe
 
-<chapterId>19fa7c00-db59-56a0-9654-5350a137939d</chapterId>
+<chapterId>626181b6-f80f-4160-b441-417a79b66ec6</chapterId>
 
 Usimbaji fiche unahusika na usiri. Lakini cryptography pia inahusika na mada pana, kama vile uadilifu wa ujumbe, uhalisi, na kutokataa. Inayoitwa **misimbo ya uthibitishaji wa ujumbe** (MACs) ni miundo muhimu ya kriptografia linganifu ambayo inasaidia uhalali na uadilifu katika mawasiliano.
 
@@ -1312,7 +1312,7 @@ Ingawa nimetoa tofauti kati ya uhalisi wa ujumbe na uadilifu katika mjadala wang
 
 ## Usimbaji fiche ulioidhinishwa
 
-<chapterId>33f2ec9b-9fb4-5c61-8fb4-50836270a144</chapterId>
+<chapterId>64c1aef9-0bf8-45c5-92ba-12161d907eac</chapterId>
 
 Kwa kawaida, ungetaka kuhakikisha usiri na uhalisi katika mawasiliano na, kwa hivyo, mipango ya usimbaji fiche na mifumo ya MAC kwa kawaida hutumiwa pamoja.
 
@@ -1356,7 +1356,7 @@ Kuna palette ya kazi za Hash ambazo zinaweza kutumika kuunda HMAC. Chaguo za kuk
 
 ## Salama vikao vya mawasiliano
 
-<chapterId>c7f7dcd3-bbed-53ed-a43d-039da0f180c5</chapterId>
+<chapterId>16be8853-ef4e-432b-b724-f34e780f2abe</chapterId>
 
 Tuseme kwamba pande mbili ziko kwenye kikao cha mawasiliano, kwa hivyo wanatuma ujumbe mwingi huku na huko.
 
@@ -1388,11 +1388,11 @@ Kipindi cha mawasiliano huanza kwa Bob kutuma maandishi ya siri $C_{0,B}$ kwa Al
 
 # RC4 na AES
 
-<partId>a48c4a7d-0a41-523f-a4ab-1305b4430324</partId>
+<partId>9948fc0a-59fe-46a4-b324-b12cde16e576</partId>
 
 ## Msimbo wa mkondo wa RC4
 
-<chapterId>5caec5bd-5a77-56c9-b5e6-1e86f0d294aa</chapterId>
+<chapterId>2f83a43a-16e5-4b4e-9d2f-4976f92eba15</chapterId>
 
 Katika Sura hii, tutajadili maelezo ya mpango wa usimbaji fiche kwa kutumia msimbo wa kisasa wa mkondo wa primitive, RC4 (au "Rivest cipher 4"), na msimbo wa kisasa wa kuzuia, AES. Ingawa RC4 cipher imeacha kutumika kama njia ya usimbaji fiche, AES ndiyo kiwango cha usimbaji fiche wa kisasa wa ulinganifu. Mifano hii miwili inapaswa kutoa wazo bora la jinsi usimbaji fiche wa ulinganifu unavyofanya kazi chini ya kofia.
 
@@ -1520,7 +1520,7 @@ Muhimu, mkondo wa ufunguo unaozalishwa na RC4 unapaswa kushughulikiwa kama pedi 
 
 ## AES yenye ufunguo wa 128-bit
 
-<chapterId>0b30886f-e620-5b8d-807b-9d84685ca8ff</chapterId>
+<chapterId>593d6ae3-7887-40d5-b14b-98a580b9a254</chapterId>
 
 Kama ilivyotajwa katika sura iliyotangulia, Taasisi ya Kitaifa ya Viwango na Teknolojia (NIST) ilifanya shindano kati ya 1997 na 2000 ili kubainisha kiwango kipya cha usimbaji fiche linganifu. **Rijndael cipher** imekuwa ingizo la ushindi. Jina ni mchezo wa maneno kwenye majina ya waundaji wa Ubelgiji, Vincent Rijmen na Joan Daemen.
 
@@ -1712,11 +1712,11 @@ Sababu ya utendakazi nyuma ya misimbo ya Rijndael ni kwamba hutoa kiwango cha ju
 
 # Asymmetric Cryptography
 
-<partId>868bd9dd-6e1c-5ea9-9ece-54affc13ba05</partId>
+<partId>20c55ed4-4e45-493a-8bfe-970f332d764c</partId>
 
 ## Tatizo kuu la usambazaji na usimamizi
 
-<chapterId>1bb651ba-689a-5a89-a7d3-0b9cc3b694f7</chapterId>
+<chapterId>4bbc8769-e00d-4d59-8365-c5f491b1217b</chapterId>
 
 Kama ilivyo kwa kriptografia linganifu, mifumo isiyolinganishwa inaweza kutumika ili kuhakikisha usiri na uthibitishaji. Kwa kulinganisha, hata hivyo, mipango hii hutumia funguo mbili badala ya moja: ufunguo wa kibinafsi na wa umma.
 
@@ -1761,7 +1761,7 @@ Kwa hivyo, nini kilitokea katika miaka ya 1970? Je, inawezekana vipi kwamba tuna
 
 ## Maelekezo mapya katika kriptografia
 
-<chapterId>7a9dd9a3-496e-5f9d-93e0-b5028a7dd0f1</chapterId>
+<chapterId>e0f7950c-bb5a-437e-b27e-8d6878e15291</chapterId>
 
 Kufikia miaka ya 1970, matatizo muhimu ya usambazaji na usimamizi yalikuwa yamechukua usikivu wa kikundi cha waandishi wa habari wa kitaaluma wa Marekani: Whitfield Diffie, Martin Hellman, na Ralph Merkle. Wakiwa na mashaka makali kutoka kwa wenzao walio wengi, walijitosa kutafuta suluhu la jambo hilo.
 
@@ -1824,7 +1824,7 @@ Kulingana na akaunti zao wenyewe na ile ya GCHQ, ni James Ellis ambaye alibuni k
 
 ## Usimbaji fiche usio na usawa na uthibitishaji
 
-<chapterId>2f6f0f03-3c3d-5025-90f0-5211139bc0cc</chapterId>
+<chapterId>a36ea521-ecee-476d-ade9-57f09bed2469</chapterId>
 
 Muhtasari wa **usimbaji fiche usiolinganishwa** kwa usaidizi wa Bob na Alice umetolewa katika *Mchoro 1*.
 
@@ -1902,7 +1902,7 @@ Usambazaji muhimu sasa umekuwa rahisi zaidi kwa Bidhaa za Michezo za Jim. Sio Ha
 
 ## Kazi za Hash
 
-<chapterId>ea8327ab-b0e3-5635-941c-4b51f396a648</chapterId>
+<chapterId>49d6c9a5-5f18-4ec4-8c83-e02fc60941ff</chapterId>
 
 Vitendaji vya Hash vinapatikana kila mahali katika usimbaji fiche. Sio mipango ya ulinganifu au ulinganifu, lakini huanguka katika kategoria ya kriptografia kwa njia yao wenyewe.
 
@@ -1980,11 +1980,11 @@ Ingawa upinzani wa mgongano na kujificha ni sifa kuu zinazotafutwa za vitendaji 
 
 # Mfumo wa siri wa RSA
 
-<partId>864dca42-2a8d-530f-bb94-2e1f68b3f411</partId>
+<partId>a8fb0a0b-747f-422a-a464-3c84979efa43</partId>
 
 ## Tatizo la uainishaji
 
-<chapterId>a31a66e4-52ea-539c-9953-4769ad565d7e</chapterId>
+<chapterId>406b1681-f8bf-4a03-b555-c84ac4dee44a</chapterId>
 
 Ingawa usimbaji fiche linganifu kwa kawaida huwa angavu kwa watu wengi, kwa kawaida sivyo ilivyo kwa usimbaji fiche usiolinganishwa. Ingawa una uwezekano wa kustareheshwa na maelezo ya kiwango cha juu yanayotolewa katika sehemu zilizopita, pengine unashangaa ni nini hasa utendaji wa njia moja na jinsi hasa hutumika kuunda miundo linganifu.
 
@@ -2077,7 +2077,7 @@ $$ \frac{2^{1024}}{\LN(2^{1024})} - \frac{2^{1023}}{\LN(2^{1023})} $$
 
 ## Idadi ya matokeo ya kinadharia
 
-<chapterId>23cd2186-8d97-5709-a4a7-b984f1eb9999</chapterId>
+<chapterId>a5528852-d9cc-4f94-a15d-02f11081e026</chapterId>
 
 Kwa bahati mbaya, tatizo la uainishaji haliwezi kutumika moja kwa moja kwa mifumo ya kriptografia isiyolinganishwa. Hata hivyo, tunaweza kutumia tatizo ngumu zaidi lakini linalohusiana na athari hii: tatizo la RSA.
 
@@ -2203,7 +2203,7 @@ Sasa tuna matokeo yote ya kinadharia yanayohitajika ili kueleza tatizo la RSA kw
 
 ## Mfumo wa siri wa RSA
 
-<chapterId>0253c2f7-b8a4-5d0e-bd60-812ed6b6c7a9</chapterId>
+<chapterId>b230194d-5774-49fe-9d19-53e345453c34</chapterId>
 
 Sasa tuko tayari kueleza tatizo la RSA. Tuseme umeunda seti ya vigeu vinavyojumuisha $p$, $q$, $N$, $\phi(N)$, $e$, $d$, na $y$. Piga seti hii $\Pi$. Imeundwa kama ifuatavyo:
 
@@ -2298,6 +2298,6 @@ Hata hivyo, kwa kuongeza uchangamano wa werevu, tatizo la RSA linaweza kutumiwa 
 <isCourseExam>true</isCourseExam>
 ## Hitimisho
 
-<chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
+<chapterId>97ce180b-5092-45eb-a160-57fc52917567</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

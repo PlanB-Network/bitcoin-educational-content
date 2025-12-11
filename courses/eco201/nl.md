@@ -16,13 +16,13 @@ Deze denkrichting heeft eeuwenlang debatten gevormd, dankzij invloedrijke denker
 # Inleiding
 
 
-<partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
+<partId>21613091-f43a-4a87-88d9-2d69038d41d2</partId>
 
 
 ## Cursus Overzicht
 
 
-<chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
+<chapterId>43b56a2b-bbee-4faa-b52a-9b6c540df559</chapterId>
 
 
 Welkom bij de cursus ECO201!
@@ -64,7 +64,7 @@ En wat als de sleutel tot het begrijpen van de huidige economie in een eeuwenoud
 ## Geld, krediet, banken en centrale banken
 
 
-<chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
+<chapterId>84a09f98-8cd7-468f-9cc1-6c0add06ce12</chapterId>
 
 
 > "Het kernprobleem van conventionele valuta is het vertrouwen dat nodig is om het te laten werken. De centrale bank moet vertrouwd worden om de munt niet te devalueren, maar de geschiedenis van de fiatvaluta staat bol van de schendingen van dat vertrouwen. Banken moeten erop kunnen vertrouwen dat ze ons geld bewaren en het elektronisch overmaken, maar ze lenen het uit in golven van kredietbellen met nauwelijks een fractie in reserve. We moeten ze vertrouwen met onze privacy, erop vertrouwen dat ze onze rekeningen niet laten leeghalen door identiteitsdieven."
@@ -199,13 +199,13 @@ In het volgende hoofdstuk verdiepen we ons in de hoeksteen van elke economische 
 # Theoretische grondslagen
 
 
-<partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
+<partId>6249c7e4-71bc-453b-8a09-ab579d340709</partId>
 
 
 ## De subjectieve waardetheorie
 
 
-<chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
+<chapterId>fb001732-6bf7-4935-b8ec-6c225dab1025</chapterId>
 
 
 > "Waarde bestaat alleen binnen het menselijk bewustzijn"
@@ -331,7 +331,7 @@ De volgende hoofdstukken zijn gewijd aan het ontstaan van geld als sociale inste
 ## De opkomst van geld als sociaal fenomeen
 
 
-<chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
+<chapterId>469d591e-b407-4218-bccb-6a433f731cb3</chapterId>
 
 
 Hoewel individuen een gemeenschappelijk belang hebben bij specialisatie en het maximaliseren van de arbeidsverdeling, zijn er nog steeds coördinatieproblemen die deze uitbreiding beperken.
@@ -453,7 +453,7 @@ In het volgende hoofdstuk verdiepen we ons in het concept van tijdvoorkeur en le
 ## Tijdspreferentie, rente en kapitaal
 
 
-<chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
+<chapterId>e0a5c946-dd4c-4aa6-9b6e-aaacb23241ae</chapterId>
 
 
 ### Tijd voorkeur
@@ -561,13 +561,13 @@ Dit zullen we ontdekken in het volgende hoofdstuk over de Oostenrijkse theorie v
 # Oostenrijkse economische perspectieven
 
 
-<partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
+<partId>851a6712-84ea-48d2-85f7-3354e1381a06</partId>
 
 
 ## De Oostenrijkse theorie van de conjunctuurcyclus
 
 
-<chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
+<chapterId>17248205-835a-4284-ba94-0eb131916aa3</chapterId>
 
 
 > "Hoe langer de hausse van inflatoir bankkrediet aanhoudt, hoe groter de omvang van de desinvesteringen in kapitaalgoederen en hoe groter de behoefte aan liquidatie van deze ondeugdelijke investeringen. Wanneer de kredietexpansie stopt, omkeert of zelfs aanzienlijk vertraagt, komen de desinvesteringen aan het licht"
@@ -681,7 +681,7 @@ Dit is het onderwerp van het volgende en laatste hoofdstuk van deze cursus.
 ## De onmogelijkheid van economisch rekenen onder het socialisme
 
 
-<chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
+<chapterId>9b9e185f-5b0d-4850-813e-0c50e309a909</chapterId>
 
 
 > "Als er geen marktprijzen zijn voor de productiefactoren omdat ze noch gekocht noch verkocht worden, is het onmogelijk om berekeningen te gebruiken bij het plannen van toekomstige acties en bij het bepalen van het resultaat van acties in het verleden. Een socialistische productieleiding zou eenvoudigweg niet weten of wat ze plant en uitvoert al dan niet de meest geschikte middelen zijn om de beoogde doelen te bereiken. Het zal als het ware in het duister tasten. Het zal de schaarse productiefactoren verspillen, zowel materiële als menselijke (arbeid). Chaos en armoede voor iedereen zullen onvermijdelijk het gevolg zijn"
@@ -791,7 +791,7 @@ De Oostenrijkse traditie belichaamt een nederige benadering van menselijk handel
 ## De Oostenrijkse methode
 
 
-<chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
+<chapterId>1fdf4c5d-0008-4f69-97e7-127fb3ef63e0</chapterId>
 
 
 De Oostenrijkse economische school onderscheidt zich van andere scholen door haar axiomatisch-deductieve methodologie, die verschilt van de positivistische benadering die vaak gebruikt wordt in sociale wetenschappen. De positivistische benadering is gebaseerd op wetten die zijn vastgesteld op basis van empirische gegevens, waarbij een methode wordt gebruikt die lijkt op die van de natuurwetenschappen. Er worden hypotheses geformuleerd op basis van waarnemingen, die vervolgens worden bevestigd of weerlegd door tijdelijke experimenten. De wetenschappelijke methode bestaat uit het vasthouden van de hypothese die de gegevens het beste verklaart en deze verder te onderzoeken totdat een preciezere hypothese is gevonden.
@@ -824,20 +824,20 @@ Methodologie is een essentieel aspect in de economie en in sociale wetenschappen
 # Laatste Sectie
 
 
-<partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
+<partId>373760d2-4e6e-4a05-8081-6d02072457d7</partId>
 
 
 ## Beoordelingen
 
 
-<chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
+<chapterId>2373a3ce-1c87-415a-8dd6-0437b4f71e79</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Eindexamen
 
 
-<chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
+<chapterId>1c584ca3-c738-4151-8a85-101a142fcbbc</chapterId>
 
 <isCourseExam>true</isCourseExam>
 

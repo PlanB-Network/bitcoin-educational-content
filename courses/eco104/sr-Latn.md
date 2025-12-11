@@ -56,13 +56,13 @@ Ovaj kurs je sponzorisao TETHER
 # Uvod
 
 
-<partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
+<partId>952e9c3d-4e88-44f8-942b-0b0643fee52e</partId>
 
 
 ## Pregled kursa
 
 
-<chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+<chapterId>3498530e-7910-4aa0-a2a9-63cca97c5d74</chapterId>
 
 Dobrodošli na kurs ECO104!
 
@@ -129,13 +129,13 @@ Radujemo se što ćete nam se pridružiti na ovom putovanju u dubine našeg mone
 # Cena napretka - Bliži pogled na naš finansijski sistem
 
 
-<partId>25ed8242-1b5a-5b53-b833-824b0dd80bcc</partId>
+<partId>a318d7e4-cb95-4016-9e4f-c4019c902b95</partId>
 
 
 ## Uvod u novac
 
 
-<chapterId>927ad49a-d8d6-5dd3-9250-cdcadcbf425e</chapterId>
+<chapterId>7ad6dcd5-339f-4d9e-a720-3d62e82408a9</chapterId>
 
 
 Novac je fascinantan i suštinski deo naših svakodnevnih života. Koristimo ga svakodnevno za kupovinu namirnica, plaćanje računa i obavljanje bezbrojnih transakcija. Ali šta je zapravo novac? U svojoj suštini, novac je jednostavno sredstvo Exchange, alat koji nam omogućava da razmenjujemo robu i usluge jedni s drugima. To je apstraktan koncept koji svi uzimamo zdravo za gotovo, a ipak je osnovni deo našeg ekonomskog sistema.
@@ -261,7 +261,7 @@ Od trampanja do izuma novčića i papirnog novca, novac je prošao kroz niz tran
 ## Ispitivanje kako smo stigli ovde
 
 
-<chapterId>4c8ebb36-a6d5-5637-93ca-9a4a222a1c58</chapterId>
+<chapterId>e9dc9f53-dcab-4469-a482-882e89dca77e</chapterId>
 
 
 Od dana trampanja robe do modernog doba digitalnih valuta, novac je prošao kroz fascinantnu evoluciju. Naši preci su koristili školjke, perle, pa čak i stoku kao sredstvo Exchange. Danas imamo virtuelne novčanike i beskontaktna plaćanja. To je izvanredno putovanje koje je doživelo bezbroj iteracija, kompromisa i prilagođavanja kako bi se zadovoljile stalno promenljive potrebe društva.
@@ -478,7 +478,7 @@ Kako nastavljamo naše istraživanje sveta novca, važno je priznati značajne p
 ## Pogled na to gde smo i šta možemo očekivati u budućnosti
 
 
-<chapterId>0c38e8fd-c973-57a5-a673-abec706f6054</chapterId>
+<chapterId>ce2d4ac3-d766-4d85-a796-0be14376702f</chapterId>
 
 
 Kao što smo diskutovali u prethodnom poglavlju, istorijski gledano, novac je često bio podržan robom poput zlata. Prednosti ovoga ne mogu se preceniti. Ne samo da je ova veza značila da je vrednost takvog novca direktno vezana za vrednost robe, već je takođe značila da je izdavalac valute, obično vlada, bio ograničen u tome koliko novca može štampati jer bi morao da pribavi više zlata.
@@ -689,7 +689,7 @@ Kako napredujemo, ohrabrujemo vas da pristupite ovoj novoj tehnologiji sa otvore
 ## Ispit
 
 
-<chapterId>f25c229f-2af0-5324-bc40-e90f7668985a</chapterId>
+<chapterId>0240a320-fb4d-4150-acf6-0cd9c7570761</chapterId>
 
 
 Sada kada ste prošli kroz Modul "Cena napretka", moraćete da testirate svoje novo stečeno znanje kako biste bili sigurni da ste razumeli poslednje delove. Počećemo sa nekoliko pitanja otvorenog tipa, a zatim mali kviz.
@@ -709,13 +709,13 @@ Sada kada ste prošli kroz Modul "Cena napretka", moraćete da testirate svoje n
 # Finansijsko Oslobođenje - Uvod u Bitcoin
 
 
-<partId>c00843b2-bde3-57bb-ae2e-8ecad6631d71</partId>
+<partId>f66fdc60-a1a9-4a21-9242-d4f86af8c0e4</partId>
 
 
 ## Pioniri, Inovatori, & Temelji Bitcoin
 
 
-<chapterId>37d779ce-46b5-56d1-91d8-d04442236e35</chapterId>
+<chapterId>03010901-b8d8-4e77-9d04-b9112fbabf6c</chapterId>
 
 
 Dobrodošli u Modul Dva, gde ćemo istražiti fascinantni svet Bitcoin. Nadovezujući se na naše razumevanje istorije novca, ovaj modul će pokriti sledeće teme:
@@ -870,7 +870,7 @@ Na kraju, bez obzira na to ko je Satoshi Nakamoto, neosporno je da je izum Bitco
 ## Kako Bitcoin funkcioniše? Unutrašnji mehanizmi ovog magičnog internet novca
 
 
-<chapterId>b0f736fc-ed4d-5887-b22e-d958db9144d1</chapterId>
+<chapterId>293a9dd7-fa9d-49e1-aaba-2fa1f6c7e580</chapterId>
 
 
 Bitcoin se često naziva magičnim internet novcem… i to s dobrim razlogom. Razmislite o tome – sa Bitcoin možete poslati vrednost bilo kome, bilo gde u svetu, bez potrebe za posrednikom kao što je banka ili vlada. To je kao da imate kontrolu nad sopstvenom ličnom bankom, moć da prenesete sredstva preko granica sa samo nekoliko klikova na dugme.
@@ -995,7 +995,7 @@ Svaka od ovih uloga je ključna za funkcionalnost i uspeh Bitcoin kao digitalne 
 ## Šta Bitcoin Čini Drugačijim Od Fiata?
 
 
-<chapterId>5ef55778-cbcf-5c7e-960d-a2fcdf1a4006</chapterId>
+<chapterId>8ec83124-7544-4c76-8411-01c3ea32c126</chapterId>
 
 
 U prethodnom delu, istražili smo jedinstvenu funkcionalnost Bitcoin koja ga izdvaja od tradicionalnih valuta i kako Bitcoin postiže željenu oznaku decentralizacije. Sada, hajde da preusmerimo naš fokus i istražimo kako se Bitcoin razlikuje od fiat valuta u smislu karakteristika koje čine valutu odličnom. Samo ispitivanjem ovih ključnih karakteristika možemo steći dublje razumevanje zašto je Bitcoin jedinstven i zašto je u svom svetu kada je reč o novcu.
@@ -1153,7 +1153,7 @@ Jedinstvene karakteristike Bitcoin kao sredstva čuvanja vrednosti, sredstva Exc
 ## Interakcija sa Bitcoin
 
 
-<chapterId>050a95af-e9c2-5ec3-b9c8-55ec174d309c</chapterId>
+<chapterId>898af852-84f8-45b8-b3e9-2adf85bb8576</chapterId>
 
 
 Bitcoin je osvojio monetarni sistem, privlačeći pažnju zemalja u razvoju, tehnološki osviještenih pojedinaca i investitora. Međutim, uz njegov brzi rast, mnogi se pitaju kako ovaj digitalni aset može konkurisati tradicionalnim metodama plaćanja kao što su Visa i Mastercard. Takođe, pojedinci su znatiželjni kako se lično mogu uključiti u Bitcoin.
@@ -1316,7 +1316,7 @@ Najveća prednost Bitcoin je što nam omogućava da imamo samostalno starateljst
 ## Ispit
 
 
-<chapterId>1c7b8165-d67b-5f7c-a1cb-b83db58b77c7</chapterId>
+<chapterId>a51bed11-0894-49a4-878f-9f31d79d7f9e</chapterId>
 
 
 Sada kada ste prošli kroz Modul "Ispitivanje kako smo stigli ovde", moraćete da testirate svoje novo stečeno znanje kako biste bili sigurni da ste razumeli poslednje delove. Počećemo sa nekoliko pitanja otvorenog tipa, a zatim mali kviz.
@@ -1338,13 +1338,13 @@ Sada kada ste prošli kroz Modul "Ispitivanje kako smo stigli ovde", moraćete d
 # Stabilnost usred haosa - Uvod u Tether i svet stabilnih kovanica
 
 
-<partId>60b1f3c4-e161-53fe-84ca-88d8cd62aa75</partId>
+<partId>bc2fa7dd-b3a8-430a-8cba-97faae477137</partId>
 
 
 ## Uvod u Tether i svet stabilnih kovanica
 
 
-<chapterId>427a72b5-8af7-503e-bc45-bb8b95483993</chapterId>
+<chapterId>65302477-a5c2-4555-b546-e4051066e1b1</chapterId>
 
 
 Kao što je ranije diskutovano, novac je bio suštinski deo čovečanstva hiljadama godina. Pomogao nam je da kupujemo robu i usluge, omogućio nam je trgovinu jedni s drugima i pomogao nam je u čuvanju bogatstva.
@@ -1443,7 +1443,7 @@ _**Napomena:** Ne brinite ako neki od ovih pojmova ne budu imali smisla. Istraž
 ## Istorija stabilnih kovanica
 
 
-<chapterId>174e2cab-ef14-5e14-99c8-8457b6fc5fee</chapterId>
+<chapterId>e6bb95e1-5ba1-40d0-8b4a-3e6c1d1dd0a3</chapterId>
 
 
 Stablecoini su postali popularna tema u svetu kriptovaluta, nudeći manje volatilnu alternativu na kratki rok u poređenju sa kriptovalutama kao što je Bitcoin. Kao što je detaljno opisano u uvodu ovog modula, stablecoini su digitalna sredstva koja su vezana za stabilnu imovinu poput fiat valute ili plemenitih metala, dizajnirana da održavaju stabilnu vrednost. Stoga, hajde da istražimo istoriju stablecoina i pobliže pogledamo neke od prvih stablecoina, uključujući Tetherov USDt, najpoznatiji i najčešće korišćen stablecoin.
@@ -1485,7 +1485,7 @@ U zaključku, stablecoini su prešli dug put od svog nastanka. Od ranih dana bit
 ## Karakteristike stabilnih kovanica
 
 
-<chapterId>21765df7-53fd-58af-9df6-7208027a0c3a</chapterId>
+<chapterId>36e0ab1f-a3fe-42c1-8400-55fb770d9bf3</chapterId>
 
 
 Kao što bi do sada trebalo da bude očigledno, stabilni novčić je vrsta digitalnog tokena dizajniranog da održava stabilnu vrednost zasnovanu na osnovnom pegged asset. Ova sredstva mogu uključivati fiat valutu, plemenite metale, robe ili kombinaciju ovih (npr. korpa fiat valuta).
@@ -1619,7 +1619,7 @@ Iako se stabilni novčići često smatraju sigurnima zbog svoje „stabilne“ p
 ## Prednosti Tetherovih Stablecoin Ponuda
 
 
-<chapterId>a6806b45-b92e-5791-8f5f-804098a522b2</chapterId>
+<chapterId>6a1aef8e-3fdf-426b-901c-6e1a26b6ad88</chapterId>
 
 
 Upoznajte Adannu, mladu ženu koja živi u ruralnom afričkom selu gde je CFA franak, koji je izgubio zapanjujućih [99,5%](https://bitcoinmagazine.com/culture/Bitcoin-a-currency-of-decolonization) svoje kupovne moći u poslednjih 70 godina, jedina dostupna valuta— čineći štednju nemogućom.
@@ -1810,7 +1810,7 @@ Sveukupno, stabilni novčići, kao što su USDt i XAUt, imaju potencijal da tran
 ## Ispit
 
 
-<chapterId>1294d874-6edb-5feb-b070-0ead1836bd0b</chapterId>
+<chapterId>7abbc2a0-f98d-40a9-80ae-1cc397027cdc</chapterId>
 
 
 Sada kada ste prošli kroz Modul "Stabilnost usred haosa", moraćete da testirate svoje novo stečeno znanje kako biste bili sigurni da ste razumeli poslednje delove. Počećemo sa nekoliko pitanja otvorenog tipa, a zatim mali kviz.
@@ -1830,13 +1830,13 @@ Sada kada ste prošli kroz Modul "Stabilnost usred haosa", moraćete da testirat
 # Prevazilaženje Sumnji - Razbijanje Uobičajenih Zabluda i Primeri iz Stvarnog Sveta
 
 
-<partId>246a7dc0-a203-5b2e-ae13-9c8f08e6bfad</partId>
+<partId>5e3f28ec-ff90-4272-af00-724e0ced0765</partId>
 
 
 ## Zablude
 
 
-<chapterId>4da9319d-6306-500f-adbb-5fa31c673cd2</chapterId>
+<chapterId>c48b4889-5972-4139-b928-b56fb88b28d5</chapterId>
 
 
 Bitcoin je bio okružen otporom, kritikama i zabludama od svog nastanka 2009. godine. Uprkos rastu popularnosti i usvajanja, mnogi ga i dalje smatraju balonom koji samo što nije pukao. U istom kontekstu, stabilni novčići su privukli sličnu pažnju i skepticizam. Ideja valute podržane stabilnom imovinom zvuči obećavajuće, ali mnogi ljudi pogrešno razumeju kako stabilni novčići funkcionišu i njihov potencijalni uticaj na finansijski sistem.
@@ -2315,7 +2315,7 @@ U konačnici, budućnost decentralizovanih finansija počiva na onima koji su sp
 ## Roya Mahboob
 
 
-<chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
+<chapterId>e76ef439-44db-4cf4-b660-0ed33d913989</chapterId>
 
 
 U današnjem globalizovanom svetu, pristup finansijskim uslugama je ključna komponenta ekonomske participacije i nezavisnosti. Uprkos tome, previše pojedinaca je i dalje isključeno iz tradicionalnog bankarskog sistema, pri čemu žene često snose najveći teret ovog isključenja. Šokantno je da, iako nepotrebno [jedna četvrtina](https://www.worldbank.org/en/publication/globalfindex) globalne populacije ostaje bez bankovnih usluga, u zemljama poput Saudijske Arabije, [36,5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) žena nema pristup osnovnim bankarskim uslugama, što ih sprečava da u potpunosti učestvuju u ekonomiji i društvu svoje zemlje.
@@ -2389,7 +2389,7 @@ Sve u svemu, Bitcoin je bio moćan alat za finansijsko osnaživanje žena.
 ## Mercedes
 
 
-<chapterId>dfa10b75-19f6-578a-9d14-a0a541806076</chapterId>
+<chapterId>a897e855-f7a6-406c-a5b9-7cc6783e2ddd</chapterId>
 
 
 Rođena u Meksiku 1949. godine u siromašnim okolnostima, Mercedes je od ranog detinjstva iskusila oštre nejednakosti koje su mučile njeno društvo. Tokom detinjstva suočavala se s brojnim izazovima, uključujući represiju vlade nad studentskim pokretima i jedinstvene borbe koje su iskusile žene koje žive u siromaštvu. Štaviše, ogroman jaz između bogatih i siromašnih, u kombinaciji s ograničenim pristupom kvalitetnom obrazovanju, zarobio je njenu porodicu i bezbroj drugih u siromaštvu. Frustrirana ovim nepravdama, Mercedes se okrenula marksizmu (komunizmu), zalažući se za društvene promene i ekonomsku reformu.
@@ -2422,7 +2422,7 @@ Ispunjena nadom i uzbuđenjem, Mercedes vidi potencijal da Bitcoin promeni svet 
 ## Stablecoin Priče
 
 
-<chapterId>7b6d8d57-905d-5168-9be6-3df7c938de2a</chapterId>
+<chapterId>d22acc57-2b00-4a51-96b0-a350814f87d5</chapterId>
 
 
 Kako se približavamo kraju ovog kursa, želeli bismo da predstavimo kolekciju inspirativnih priča o stabilnim kriptovalutama. Ova svedočanstva prikazuju stvarna iskustva pojedinaca, vlasnika preduzeća i kompanija koji su iskoristili moć stabilnih kriptovaluta da unaprede svoje živote.
@@ -2568,7 +2568,7 @@ Nadamo se da su vam ove priče bile inspirativne. Uz to, trebalo bi biti jasno d
 ## Ispit
 
 
-<chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
+<chapterId>002220e4-069b-4367-b153-ca19029412de</chapterId>
 
 
 Sada kada ste prošli kroz Modul "Prevazilaženje sumnji", moraćete da testirate svoje novo stečeno znanje kako biste bili sigurni da ste razumeli poslednje delove. Počećemo sa nekoliko pitanja otvorenog tipa, a zatim mali kviz.
@@ -2588,7 +2588,7 @@ Sada kada ste prošli kroz Modul "Prevazilaženje sumnji", moraćete da testirat
 ## Završne Napomene
 
 
-<chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
+<chapterId>1896c6b1-77d7-45bb-a798-bcdd27deb18b</chapterId>
 
 
 Čestitamo na dolasku do kraja kursa! Prešli ste dug put. Tokom ovog putovanja, istražili smo širok spektar tema, uključujući:
@@ -2632,7 +2632,7 @@ Budućnost je svetla!
 ## Recenzije i ocene
 
 
-<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
+<chapterId>1ec641d0-0421-404b-88d3-bac725aca9dc</chapterId>
 
 <isCourseReview>true</isCourseReview>
 

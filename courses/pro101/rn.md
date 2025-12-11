@@ -16,13 +16,13 @@ Yafashwe mu gihe cya bootcamp ya CUBO+ 2023 muri El Salvador, iri somo rihuza ib
 # Intangamarara n'amashure yo kwitegura
 
 
-<partId>43a835de-c4e7-542b-9d1a-c92f049e88e6</partId>
+<partId>a0735e65-5525-4751-849d-76b068c72508</partId>
 
 
 ## Intangamarara y'amashure ya CUBO+
 
 
-<chapterId>dcf2d37e-b32a-5eb8-aaa3-41ac92475ba9</chapterId>
+<chapterId>8e022990-a252-4048-9cd1-497ca557aa51</chapterId>
 
 
 :::video id=9b6aa5cf-245e-4a66-b3b8-c4860ab51e90:::
@@ -51,7 +51,7 @@ Mu gihe cose c’amashure, abazoja muri iyo nyigisho bazokoresha ibikoresho nyam
 ## Kubera iki Bitcoin
 
 
-<chapterId>89a0aa8b-90bd-58b2-82b3-bc5e1f82eaeb</chapterId>
+<chapterId>a00d028e-f799-494b-a833-b70f96a910f0</chapterId>
 
 
 ### Igituma Salvador ikeneye Bitcoin
@@ -213,7 +213,7 @@ Murakoze kwifatanya n’ibi bintu!
 ## Uko Bitcoin
 
 
-<chapterId>d800970a-0d8e-5557-810a-7aef845d4a34</chapterId>
+<chapterId>f0d8bb12-5bfd-4a66-9c90-aba2eed9a7cd</chapterId>
 
 
 ### Igikoresho ca Bitcoin
@@ -299,7 +299,7 @@ Ivyo Bitcoin ikora be n’ingene iguma itera imbere vyerekana ubuhinga bwayo bus
 ## Gukuraho Bitcoin
 
 
-<chapterId>171ec71d-3028-5820-9b4f-36682113fc81</chapterId>
+<chapterId>bd22db6a-204c-4759-b473-cbdea4f2da88</chapterId>
 
 
 ### Gukuraho Bitcoin
@@ -379,7 +379,7 @@ Gutahura ukuri kw’inguvu za Bitcoin, ibiranga ubuzima bwite, n’uruhara rwayo
 ## Kwiruka Bitcoin
 
 
-<chapterId>5f638ec9-a6c1-5716-b27f-d837ab896eb1</chapterId>
+<chapterId>943df85e-fa23-43da-895d-bb399d113392</chapterId>
 
 <Id y'umwigisha>e7e63d59-ea19-4960-9446-61bd4dcc98f0</Id y'umwigisha>
 
@@ -949,7 +949,7 @@ Ivyo nivyo bisozera inyigisho yacu ku bijanye n'umutekano n'ugutegura ibikoresho
 ## Kunoza Bitcoin
 
 
-<chapterId>4fdd032f-2b05-5f24-a094-297d64f939de</chapterId>
+<chapterId>5d5ff2f5-b137-4713-9e2e-3e1ea694b9de</chapterId>
 
 
 ### Ibibazo vyuguruye mu bidukikije vya Bitcoin
@@ -1074,13 +1074,13 @@ Mu gusozera, gukomeza gutorera umuti izo ngorane zifunguye no gukora ibintu bish
 # Bitcoin Ivy'ishimikiro
 
 
-<partId>6c0a3691-3ce4-5309-8ad7-e16e4b63c734</partId>
+<partId>873d1bd6-0b6b-47d9-9151-c400ef7e407b</partId>
 
 
 ## Ivyiyumviro vy'umutekano muri Bitcoin
 
 
-<chapterId>0b97af0c-015a-54e3-a7f0-0f62ceb96c07</chapterId>
+<chapterId>7f25cba9-2b18-4e03-adbe-aeb7cc785ed0</chapterId>
 
 <Id y'umwigisha>7dfc5865-a0f6-4c3b-9b05-83e0d807ac59</Id y'umwigisha>
 
@@ -1177,7 +1177,7 @@ Mu gusozera, gutahura no gushiramwo ingingo ngenderwako z’umutekano n’ukwizi
 ## Porogaramu y'ubuntu kandi yuguruye (FLOSS) muri Bitcoin
 
 
-<chapterId>2c59d609-f1ef-53f4-9575-df62e4d066e9</chapterId>
+<chapterId>83cfadcd-c487-4d39-a667-03bc2b2e8fcc</chapterId>
 
 <Id y'umwigisha>7dfc5865-a0f6-4c3b-9b05-83e0d807ac59</Id y'umwigisha>
 
@@ -1247,7 +1247,7 @@ Mu gusozera, ubutunzi bwa porogarama zifunguye burongorwa n’intererano z’aba
 ## Ugushiramwo amakuru mu Bitcoin
 
 
-<chapterId>71867dd2-912c-55ad-b59c-9dbca8a39469</chapterId>
+<chapterId>252fa552-e5c4-4f4f-afe6-b91e199c2eb6</chapterId>
 
 <Id y'umwigisha>6cfd206c-53b8-47a0-bbf4-44fd84e6ee1d</Id y'umwigisha>
 
@@ -1338,7 +1338,7 @@ Mu kumenya neza ivyo vyiyumviro no kwubahiriza ingendo nziza, uzoba ufise ibikor
 ## Icitegererezo c'ubutegetsi bwa Bitcoin
 
 
-<chapterId>a30ec3e7-b290-5145-a9a9-042224ab20d2</chapterId>
+<chapterId>d92d6fc3-a499-46ff-b77f-411711812ada</chapterId>
 
 <Id y'umwigisha>7dfc5865-a0f6-4c3b-9b05-83e0d807ac59</Id y'umwigisha>
 
@@ -1432,7 +1432,7 @@ Mu gusozera, kazoza ka Bitcoin n’ihinduka ryayo bigenwa n’ubushake rusangi b
 ## Bitcoin Mining Ivy'ingenzi
 
 
-<chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
+<chapterId>02c2b42b-d58d-4f1c-9451-aef7574996a8</chapterId>
 
 <Id y'umwigisha>e320ccda-be59-492b-a81b-243d9acb592f</Id y'umwigisha>
 
@@ -1606,13 +1606,13 @@ Mu gusozera, isi ya Bitcoin Mining ni ikintu gikomeye, gifise imice myinshi gisa
 # Layer Ivyiyumviro bimwe
 
 
-<partId>5300855f-e5e4-5bca-9afe-2397f7c76260</partId>
+<partId>5d4fbb4c-76aa-41f1-8548-535b3f1c7d57</partId>
 
 
 ## Ibice vy'urudodo muri Bitcoin
 
 
-<chapterId>75ea1d88-ee6f-5f98-af90-e4758c55e606</chapterId>
+<chapterId>f7edc328-3d87-40cf-b26c-2e543d0942eb</chapterId>
 
 <Id y'umwigisha>6cfd206c-53b8-47a0-bbf4-44fd84e6ee1d</Id y'umwigisha>
 
@@ -1764,7 +1764,7 @@ Gukoresha urudodo rwa Bitcoin ni uburyo bukomeye bwo kugira uruhara mu rubuga rw
 ## Imiterere y'amakuru ya Bitcoin
 
 
-<chapterId>5ed314b1-8293-567d-bf03-730e8c9c774b</chapterId>
+<chapterId>8f5d933c-3d81-4c56-89c1-ffeb15f6488d</chapterId>
 
 <Id y'umwigisha>e7e63d59-ea19-4960-9446-61bd4dcc98f0</Id y'umwigisha>
 
@@ -2137,7 +2137,7 @@ Mu gusozera, gusesangura amabuye ya Bitcoin n’ibikorwa vyo muri Rust birimwo g
 ## Bitcoin Incamake ya porogaramu n'Ishirwa mu ngiro rya Node
 
 
-<chapterId>96d64781-fc27-5209-88d8-2acf00d05ea8</chapterId>
+<chapterId>fbec7b62-9f6c-478f-910c-76429a06b6d7</chapterId>
 
 <Id y'umwigisha>0b05838c-24af-43ff-93be-896c907e0bc1</Id y'umwigisha>
 
@@ -2512,13 +2512,13 @@ Mu gutahura ivyo bihimba, kuva ku nzira za Bitcoin n’amasakoshi gushika ku gik
 # Lightning Network
 
 
-<partId>d7ac2ad7-a4b3-564f-8a8d-cfec5297b3a5</partId>
+<partId>bb06e65d-df7a-4647-be17-1e6d5559a4dc</partId>
 
 
 ## Amateka y'imihora yo kwishura
 
 
-<chapterId>a0b11c6e-c0ff-5e65-b809-b2ab9a2fc37b</chapterId>
+<chapterId>f3e44c49-820d-4498-b12d-c7e3b569a39c</chapterId>
 
 <Id y'umwigisha>880c7fa7-8d4c-4c9b-81b4-bc61ed256516</Id y'umwigisha>
 
@@ -2579,7 +2579,7 @@ Mu gusozera, gutahura ivy’amateka n’ingorane za Bitcoin, n’imiti mishasha 
 ## Amateka y'inzira y'ubumara
 
 
-<chapterId>28be7b31-e6b2-5eea-a5ed-62ce0a154b6e</chapterId>
+<chapterId>fdd20afa-ab7b-4bce-9a29-f2885a282183</chapterId>
 
 <Id y'umwigisha>880c7fa7-8d4c-4c9b-81b4-bc61ed256516</Id y'umwigisha>
 
@@ -2667,7 +2667,7 @@ Mu ncamake, gukoresha neza node bituma habaho ukwishurwa kw’atome, kandi Light
 ## Bolt Isubiramwo
 
 
-<chapterId>ba4b09ae-81de-53f2-8c15-316f037aaea9</chapterId>
+<chapterId>7ecb002e-619e-4904-9017-b63aeec79c28</chapterId>
 
 
 :::video id=f0d17fe4-d793-4b90-924e-b551db501fbb:::
@@ -2849,7 +2849,7 @@ Mu gusozera, gutahura akamaro ka kabiri ka Layer, ibisobanuro vya Lightning Netw
 ## Abaguzi bakuru ba LN
 
 
-<chapterId>a2ad8db4-aea2-5231-927c-616c53db31bf</chapterId>
+<chapterId>a9bbd640-a461-4e14-9814-7559fb2b6f16</chapterId>
 
 
 :::video id=90240cb6-a942-4015-b0c2-b721c48309ec:::
@@ -3051,13 +3051,13 @@ Mu gusozera, gutahura imice itandukanye y’abaguzi ba Lightning Network, itandu
 # Ingorane za LN
 
 
-<partId>ca58c9d7-ba7e-5392-8488-6a21a9850e6a</partId>
+<partId>613ebb58-9a53-4676-a110-2a07a86fd9a5</partId>
 
 
 ## Ingorane ngirakamaro ku LN
 
 
-<chapterId>014c7c40-aef7-58ac-b51f-33784463f482</chapterId>
+<chapterId>ea7cd1fc-125d-4a08-8236-164fb933fd83</chapterId>
 
 
 **(iyo video izoboneka vuba)**
@@ -3215,7 +3215,7 @@ Mu gutorera umuti izo ngorane, Lightning Network izobandanya gukura, ibe umuti u
 ## LN Ugutera imbere muri kazoza
 
 
-<chapterId>c06763dd-bb26-5fec-8ac4-3e446e9517cd</chapterId>
+<chapterId>ca6432bc-4a38-49cf-9dbe-8e58fda1eee6</chapterId>
 
 <Id y'umwigisha>880c7fa7-8d4c-4c9b-81b4-bc61ed256516</Id y'umwigisha>
 
@@ -3307,7 +3307,7 @@ Mu gutahura no gushima ivyo bintu, turashobora kwemera iterambere ry’imice myi
 ## Amasezerano ari hejuru ya LN
 
 
-<chapterId>f4d147bb-f146-5b36-a994-b9b70da83744</chapterId>
+<chapterId>149d9082-7f29-4c69-aa68-41185c999a75</chapterId>
 
 <Id y'umwigisha>e7e63d59-ea19-4960-9446-61bd4dcc98f0</Id y'umwigisha>
 
@@ -3423,7 +3423,7 @@ Ukwagura no gushiramwo amafaranga y'umuravyo biciye mu mirongo ngenderwako itand
 ## Gutahura isoko ry'ubufatanye
 
 
-<chapterId>f109f64f-9b73-5fbf-8870-5d34d5b69df8</chapterId>
+<chapterId>fa11993c-9267-40ec-8a6f-28bace3fcc08</chapterId>
 
 <Id y'umwigisha>6cfd206c-53b8-47a0-bbf4-44fd84e6ee1d</Id y'umwigisha>
 

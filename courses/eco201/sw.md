@@ -15,11 +15,11 @@ Shule hii ya mawazo imeshika majadiliano kwa karne nyingi, kutokana na wafikiri 
 +++
 # Utangulizi wa ECON
 
-<partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
+<partId>21613091-f43a-4a87-88d9-2d69038d41d2</partId>
 
 ## Muhtasari wa Kozi
 
-<chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
+<chapterId>43b56a2b-bbee-4faa-b52a-9b6c540df559</chapterId>
 
 Karibu kwenye kozi ya ECO201!.
 
@@ -42,7 +42,7 @@ Ikiwa uko tayari kuanza tukio hili, ninakualika ubofye video ifuatayo na uanze n
 
 ## Pesa, Mikopo, Benki na Benki Kuu
 
-<chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
+<chapterId>84a09f98-8cd7-468f-9cc1-6c0add06ce12</chapterId>
 
 > "Tatizo kuu la sarafu ya kawaida ni uaminifu wote unaohitajika ili kuifanya ifanye kazi. Benki kuu lazima iaminike kutodunisha sarafu, lakini historia ya sarafu ya fiat imejaa ukiukaji wa uaminifu huo. Benki lazima ziaminike kushikilia pesa zetu na kuzihamisha kwa njia ya kielektroniki, lakini wanazikopesha kwa wimbi la mapovu ya mkopo kwa sehemu ndogo, na sio kuwapa dhamana na si kuwapa dhamana yetu. kuondoa hesabu zetu."
 >
@@ -132,11 +132,11 @@ Katika sura inayokuja, tutazama katika msingi wa shule yoyote ya kiuchumi ya maw
 
 # Misingi ya Kinadharia
 
-<partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
+<partId>6249c7e4-71bc-453b-8a09-ab579d340709</partId>
 
 ## Nadharia ya Kidhamira ya Thamani
 
-<chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
+<chapterId>fb001732-6bf7-4935-b8ec-6c225dab1025</chapterId>
 
 > "Thamani ipo tu ndani ya ufahamu wa mwanadamu"
 >
@@ -220,7 +220,7 @@ Sura zifuatazo zitajitolea kwa kuibuka kwa pesa kama taasisi ya kijamii, nadhari
 
 ## Kuibuka kwa Pesa kama Jambo la Kijamii
 
-<chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
+<chapterId>469d591e-b407-4218-bccb-6a433f731cb3</chapterId>
 
 Ingawa watu binafsi wana nia ya pamoja katika utaalam na kuongeza mgawanyiko wa wafanyikazi, bado kuna shida za uratibu ambazo huzuia upanuzi huu.
 
@@ -307,7 +307,7 @@ Katika sura inayofuata tutaangazia dhana ya upendeleo wa wakati na kueleza mtaza
 
 ## Upendeleo wa Wakati, Riba, na Mtaji
 
-<chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
+<chapterId>e0a5c946-dd4c-4aa6-9b6e-aaacb23241ae</chapterId>
 
 ### Upendeleo wa Wakati
 
@@ -379,11 +379,11 @@ Haya ndiyo tutakayopata katika sura inayofuata inayohusu Nadharia ya Austria ya 
 
 # Mitazamo ya Kiuchumi ya Austria
 
-<partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
+<partId>851a6712-84ea-48d2-85f7-3354e1381a06</partId>
 
 ## Nadharia ya Austria ya Mzunguko wa Biashara
 
-<chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
+<chapterId>17248205-835a-4284-ba94-0eb131916aa3</chapterId>
 
 > "Kadiri ukuaji wa mikopo ya benki ya mfumuko wa bei unavyoendelea, ndivyo wigo wa uwekezaji mbovu katika bidhaa za mtaji unavyoongezeka, na ndivyo hitaji kubwa la kukomesha uwekezaji huu usio na tija. Wakati upanuzi wa mikopo unaposimama, kugeuka, au hata kupungua kwa kiasi kikubwa, uwekezaji mbaya hufichuliwa."
 >
@@ -459,7 +459,7 @@ Hili litakuwa somo la sura inayofuata na ya mwisho ya kozi hii.
 
 ## Kutowezekana kwa Mahesabu ya Kiuchumi chini ya Ujamaa
 
-<chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
+<chapterId>9b9e185f-5b0d-4850-813e-0c50e309a909</chapterId>
 
 > "Pale ambapo hakuna bei za soko kwa sababu za uzalishaji kwa sababu hazinunuliwi wala kuuzwa, haiwezekani kuhesabu katika kupanga hatua za siku zijazo na katika kuamua matokeo ya hatua za zamani. Usimamizi wa ujamaa wa uzalishaji haungejua kama unapanga au kutekeleza ndio njia sahihi zaidi ya kufikia malengo yanayotafutwa. Itafanya kazi gizani, kama ilivyokuwa. Uzalishaji wa kovu na kovu za binadamu). umaskini kwa wote utatokea bila kuepukika”
 >
@@ -532,7 +532,7 @@ Tamaduni za Austria zinajumuisha mkabala wa unyenyekevu wa hatua ya binadamu, ik
 
 ## Mbinu ya Austria
 
-<chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
+<chapterId>1fdf4c5d-0008-4f69-97e7-127fb3ef63e0</chapterId>
 
 Shule ya Uchumi ya Austria inajitofautisha na shule zingine kwa mbinu yake ya kutoa axiomatic, ambayo inatofautiana na mbinu chanya inayotumiwa mara nyingi katika sayansi ya kijamii. Mtazamo wa chanya unatokana na sheria zilizoanzishwa kutoka kwa data ya majaribio, ikichukua mbinu sawa na ile ya sayansi ya mwili. Huunda dhahania kutoka kwa uchunguzi, ambao huthibitishwa au kukanushwa na majaribio ya muda. Mbinu ya kisayansi inajumuisha kubakiza dhahania inayofafanua data vizuri zaidi na kuendelea kuichunguza hadi nadharia sahihi zaidi ipatikane.
 
@@ -554,16 +554,16 @@ Methodolojia ni kipengele muhimu katika uchumi na katika sayansi ya kijamii kwa 
 
 # Hitimisho
 
-<partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
+<partId>373760d2-4e6e-4a05-8081-6d02072457d7</partId>
 
 ## Ukaguzi na Ukadiriaji
 
-<chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
+<chapterId>2373a3ce-1c87-415a-8dd6-0437b4f71e79</chapterId>
 
 <isCourseReview>true</isCourseReview>
 ## Mtihani wa Mwisho
 
-<chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
+<chapterId>1c584ca3-c738-4151-8a85-101a142fcbbc</chapterId>
 
 <isCourseExam>true</isCourseExam>
 ## Hitimisho

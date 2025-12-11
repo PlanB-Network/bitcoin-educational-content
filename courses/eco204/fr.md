@@ -16,11 +16,11 @@ En chemin, vous découvrirez également comment les individus et les communauté
 +++
 # Introduction
 
-<partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
+<partId>b2ba4969-7b91-45cf-b2ad-b5d2958f48b3</partId>
 
 ## Aperçu du cours
 
-<chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
+<chapterId>c9ff81cb-98ab-4724-b174-4dbfa3a25ea8</chapterId>
 
 Bienvenu dans le cours ECO204 !
 
@@ -39,11 +39,11 @@ Et si l’histoire monétaire était en train de se répéter sous nos yeux ? À
 
 # Qu’est-ce que l’inflation ?
 
-<partId>2b4f456c-3649-5cf9-b9b0-a5bffe92d962</partId>
+<partId>5902cccb-fd13-4088-8852-569bdf4528f4</partId>
 
 ## Un phénomène monétaire
 
-<chapterId>b2cbc915-c4ec-52b5-860c-0958f58c91e4</chapterId>
+<chapterId>1ac7d89a-7082-4466-8eb2-00f1e1b303a0</chapterId>
 
 :::video id=fa515063-aa34-4344-b771-40e11e923b86:::
 
@@ -219,7 +219,7 @@ En concluant, cette étude sur la dévaluation monétaire ouvre la porte à une 
 
 ## Les types d’inflation
 
-<chapterId>b438fe09-375e-5bb2-9196-7dd687b9f98c</chapterId>
+<chapterId>5d7b5350-7312-4a3f-9138-6c4c9cfdbe0d</chapterId>
 
 :::video id=4b56a607-32fe-4dac-a33b-e9e70a68f996:::
 
@@ -415,11 +415,11 @@ Merci pour votre attention la prochaine session sera entièrement dédiée à d�
 
 # Qu’est-ce que l’hyperinflation ?
 
-<partId>3f541663-1e2f-5410-8ee0-f61c5d009fa5</partId>
+<partId>5747f16f-4cc0-4358-8ae8-4411fc8f89ca</partId>
 
 ## Les définitions de l'hyperinflation
 
-<chapterId>d2a71a2e-5f36-58d9-993c-d431f4aa07fd</chapterId>
+<chapterId>5b8758ff-7b46-4c81-aafd-f8ee06fcef03</chapterId>
 
 :::video id=2db43590-2ae2-4363-89c5-c76d6e654532:::
 
@@ -505,7 +505,7 @@ Il est à noter que certaines périodes historiques d'inflation élevée ne figu
 
 ## Weimar vs Zimbabwe similitudes
 
-<chapterId>11eef458-aab8-5c63-8523-264d0ba69f5d</chapterId>
+<chapterId>733924b4-7fd2-46ab-8f48-cbb86c5fd4d6</chapterId>
 
 :::video id=530b2211-cff0-4980-9808-d5b268a88433:::
 
@@ -695,7 +695,7 @@ C'est ce qui complète cette vidéo au sujet des similitudes des expériences v�
 
 ## Weimar vs Zimbabwe différences et parallèle contemporains
 
-<chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
+<chapterId>3b71f96b-6f11-40b5-b974-a27fe498fe3c</chapterId>
 
 :::video id=980a4de1-f8bb-4a27-a6dc-ba7a796853b8:::
 
@@ -808,7 +808,7 @@ Aujourd'hui, face à la baisse du pouvoir d'épargne, l'investissement prend le 
 
 ## Les redénominations en Amérique Latine
 
-<chapterId>918eafd7-409d-5205-ad52-a52e63b23a64</chapterId>
+<chapterId>6fee14c4-a59d-4f23-b6bd-24d8422a2cb4</chapterId>
 
 :::video id=c915edce-6182-4888-a901-3d5e21ddcb93:::
 
@@ -923,7 +923,7 @@ En conclusion, l'hyperinflation n'est qu'un aspect des défis économiques. La h
 
 ## Comment sortir de l’hyperinflation
 
-<chapterId>e3484a31-a851-5f92-8af5-00eddae67db1</chapterId>
+<chapterId>045d835e-4692-438a-a5c9-8889801bee6c</chapterId>
 
 :::video id=35b37f5a-6a46-431e-baec-6cd4e0346796:::
 
@@ -977,7 +977,7 @@ L'essentiel à retenir est que pour sortir de l'hyperinflation, il existe plusie
 
 ## Présentation de la collection de billets d’hyperinflation
 
-<chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
+<chapterId>e166eb40-d92a-42a6-b4ca-64c3d3baa8d4</chapterId>
 
 :::video id=796a8bde-4860-47fd-970e-48e49cfbd87d:::
 
@@ -987,11 +987,11 @@ L'essentiel à retenir est que pour sortir de l'hyperinflation, il existe plusie
 
 # Comment en sommes nous arrivés là ?
 
-<partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>
+<partId>d32a419f-ace2-4b63-8be0-5727d6c6c3af</partId>
 
 ## L’émergence de la deuxième couche de la monnaie et des banques centrales
 
-<chapterId>0455ffe3-9d45-5a67-ac96-3f815dc507a1</chapterId>
+<chapterId>47b3add9-dc60-4a05-b380-d9166f8c1886</chapterId>
 
 :::video id=24db2334-666e-43a2-9124-4cfb92a9a39f:::
 
@@ -1056,7 +1056,7 @@ Les banques centrales ont évolué pour devenir des prêteurs de dernier recours
 
 ## Livres et ressources
 
-<chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
+<chapterId>53dc2a2f-11af-4370-a137-274c4d861e5c</chapterId>
 
 L'hyperinflation est un sujet fascinant qui a été étudié à travers divers événements historiques. Si vous souhaitez approfondir ce sujet, voici une liste de 10 ressources essentielles à lire et à étudier :
 
@@ -1084,12 +1084,12 @@ L'hyperinflation est un sujet fascinant qui a été étudié à travers divers �
 
 ## Avis & Notes
 
-<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<chapterId>3e37d04e-0239-454f-9701-9479bc08a5bc</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Examen final
 
-<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
+<chapterId>baf9e2af-d020-4188-84a1-c33e653d17ee</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Conclusion

@@ -15,11 +15,11 @@ objectives:
 +++
 # 經濟學簡介
 
-<partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
+<partId>21613091-f43a-4a87-88d9-2d69038d41d2</partId>
 
 ## 簡介
 
-<chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
+<chapterId>43b56a2b-bbee-4faa-b52a-9b6c540df559</chapterId>
 
 大家好，歡迎來到 Econ 201：奧地利經濟學簡介。
 
@@ -39,7 +39,7 @@ objectives:
 
 ## 貨幣、信貸、銀行和中央銀行
 
-<chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
+<chapterId>84a09f98-8cd7-468f-9cc1-6c0add06ce12</chapterId>
 
 > "傳統貨幣的根本問題在於它需要信任才能運作。我們必須信任中央銀行不會貶值貨幣，但法定貨幣的歷史充滿了背信棄義。我們必須信任銀行會持有我們的錢並透過電子方式轉移，但他們卻在一波波的信貸泡沫中把錢借出去，而且幾乎沒有任何儲備。"我們必須相信他們會保護我們的隱私，相信他們不會讓身份盜賊掏空我們的帳戶。
 >
@@ -129,11 +129,11 @@ ZIRP 的另一個意外後果是鼓勵政府大灑金錢。由於政府不需負
 
 # 理論基礎
 
-<partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
+<partId>6249c7e4-71bc-453b-8a09-ab579d340709</partId>
 
 ## 主觀價值觀
 
-<chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
+<chapterId>fb001732-6bf7-4935-b8ec-6c225dab1025</chapterId>
 
 > "價值只存在於人類意識中
 >
@@ -217,7 +217,7 @@ ZIRP 的另一個意外後果是鼓勵政府大灑金錢。由於政府不需負
 
 ## 貨幣作為一種社會現象的出現
 
-<chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
+<chapterId>469d591e-b407-4218-bccb-6a433f731cb3</chapterId>
 
 儘管個人對於專業化和最大化分工有著共同的興趣，但仍有一些協調問題限制了這種擴展。
 
@@ -304,7 +304,7 @@ ZIRP 的另一個意外後果是鼓勵政府大灑金錢。由於政府不需負
 
 ## 時間偏好、利息和資本
 
-<chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
+<chapterId>e0a5c946-dd4c-4aa6-9b6e-aaacb23241ae</chapterId>
 
 ### 時間偏好
 
@@ -376,11 +376,11 @@ Eugen von Böhm-Bawerk (1851-1914)
 
 # 奧地利經濟觀點
 
-<partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
+<partId>851a6712-84ea-48d2-85f7-3354e1381a06</partId>
 
 ## 奧地利商業週期理論
 
-<chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
+<chapterId>17248205-835a-4284-ba94-0eb131916aa3</chapterId>
 
 > "通貨膨脹的銀行信貸膨脹持續的時間越長，資本貨物的不良投資範圍就越大，清算這些不健全投資的需求也就越大。當信貸擴張停止、逆轉，甚至顯著減緩時，不良投資就會顯現出來"。
 >
@@ -456,7 +456,7 @@ Ludwig Von Mises 是 Böhm-Bawerk 最有成就的學生，也可說是 20 世紀
 
 ## 社會主義下經濟計算的不可能性
 
-<chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
+<chapterId>9b9e185f-5b0d-4850-813e-0c50e309a909</chapterId>
 
 > "在生產要素沒有市場價格（因為它們既不買也不賣）的情況下，在計劃未來的行動和確定過去行動的結果時，不可能求助于計算。社會主義的生產管理根本不知道它所規劃和執行的，是否是達成目標的最適當方法。它會在黑暗中運作。它會浪費稀少的物質和人力（勞動力）生產要素。結果必然是混亂與貧窮。
 >
@@ -529,7 +529,7 @@ Ludwig Von Mises 是 Böhm-Bawerk 最有成就的學生，也可說是 20 世紀
 
 ## 奧地利方法論
 
-<chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
+<chapterId>1fdf4c5d-0008-4f69-97e7-127fb3ef63e0</chapterId>
 
 奧地利經濟學派與其他學派的區別在於其公理演繹的方法，有別於社會科學常用的實證主義方法。實證主義方法以經驗數據建立的定律為基礎，採用類似物理科學的方法。它從觀察中提出假設，然後透過臨時實驗加以證實或反駁。科學方法包括保留最能解釋資料的假設，並繼續探索，直到找到更精確的假設為止。
 
@@ -551,16 +551,16 @@ Ludwig Von Mises 是 Böhm-Bawerk 最有成就的學生，也可說是 20 世紀
 
 # 總結
 
-<partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
+<partId>373760d2-4e6e-4a05-8081-6d02072457d7</partId>
 
 ## 評論與評分
 
-<chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
+<chapterId>2373a3ce-1c87-415a-8dd6-0437b4f71e79</chapterId>
 
 <isCourseReview>true</isCourseReview>
 ## 期末考試
 
-<chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
+<chapterId>1c584ca3-c738-4151-8a85-101a142fcbbc</chapterId>
 
 <isCourseExam>true</isCourseExam>
 ## 總結

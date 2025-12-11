@@ -285,7 +285,7 @@ Best practices include maintaining a curated federation serving specific needs r
 The combination of CLI and API access provides operational flexibility - CLI commands for manual administration and testing, API integration for automated workflows and applications. Understanding both approaches ensures choosing the most appropriate method for each universe management task while maintaining consistent operational practices across your taproot asset infrastructure.
 
 # First Mints and Transactions
-<partId>c4d0776e-870b-11f0-86c9-8fee09142fba</partId>
+<partId>229cf4ec-95dc-40c6-98c7-20a4e1c2fb68</partId>
 
 ## Mint from the CLI
 <chapterId>f5b9c3e7-8d2a-4f7e-9b6c-3a8d5e2c1f76</chapterId>
@@ -534,7 +534,7 @@ The verification process serves multiple purposes: providing a clear audit trail
 
 
 # Diving deeper into Taproot Assets 
-<partId>863d9c88-870c-11f0-a2de-430d32152c27</partId>
+<partId>fa5e1e23-7d60-4d31-9d65-87ee022e81e3</partId>
 
 ## Update Tapd
 <chapterId>a5b8f9c3-6d7e-4a2b-8c9f-2e3d7b1a5f54</chapterId>
@@ -587,7 +587,7 @@ Before performing any update, ensure current backups of critical data, including
 The update process for TAPD nodes varies significantly depending on installation method, but following proper procedures ensures smooth transitions to newer versions while preserving valuable node data and configurations. Regular updates keep your node secure, performant, and compatible with the evolving Lightning Network ecosystem.
 
 ## Building a Node from Scratch
-<chapterId>992d8650-87f2-11f0-aace-9be7f0fb0b83</chapterId>
+<chapterId>3f2acfdd-e287-43a0-990b-eeba3dccbab1</chapterId>
 
 :::video id=9b884ff3-fca1-4488-bdd9-bb1d27ed5af4:::
 
@@ -677,14 +677,14 @@ The RFQ system's flexibility in supporting both individual asset IDs and group k
 
 
 # Final Section
-<partId>9469342a-870c-11f0-88da-ff4cff486fe3</partId>
+<partId>08af7d11-32dc-475e-8dbf-e4b71e6bd604</partId>
 
 ## Evaluate this course
-<chapterId>20570fc0-87e9-11f0-bdd0-cff9e0b16538</chapterId>
+<chapterId>9e67d161-2572-4456-bd09-e4d95e961651</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Conclusion
-<chapterId>43393838-870d-11f0-b490-cb9bbebd87d5</chapterId>
+<chapterId>2c1e5310-978b-4b21-901b-7ddb4252bf72</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
 
 

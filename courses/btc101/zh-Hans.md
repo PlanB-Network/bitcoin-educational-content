@@ -19,11 +19,11 @@ objectives:
 
 # 导言
 
-<partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
+<partId>34ab5c9f-08b8-4324-a53e-582c63a2b1ea</partId>
 
 ## 课程概述
 
-<chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
+<chapterId>a47e30ce-f437-404b-99e0-0c1cf1a78f37</chapterId>
 
 欢迎来到 BTC101 课程！
 
@@ -87,7 +87,7 @@ objectives:
 
 ## 比特币的前史
 
-<chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
+<chapterId>0824f3a8-502a-4321-bb0d-13ccba37f3fa</chapterId>
 
 在 "比特币 "成为数字货币和金融变革的代名词之前，一系列思想、创新和社会运动为比特币的诞生奠定了基础。其中，cypherpunk 运动是比特币史前史上的一个关键因素。
 
@@ -145,11 +145,11 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 # 金钱
 
-<partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
+<partId>c7430a3c-6419-465e-b84d-d677e277f732</partId>
 
 ## 历史上的货币
 
-<chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
+<chapterId>84047ee5-9f48-4105-9849-8be318496304</chapterId>
 
 货币的演变是人类历史中一个引人入胜的方面，它反映了古往今来的文明在满足不断发展的经济需求方面的聪明才智。
 
@@ -210,7 +210,7 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 ## 信托货币
 
-<chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
+<chapterId>8c6dbe02-c275-4568-bd1b-fc36b8d4796d</chapterId>
 
 > 乔治-桑塔亚那说："不能记住过去的人注定要重复过去"。
 > 在谈到当前的货币体系时，这一真理引起了强烈共鸣。
@@ -265,7 +265,7 @@ https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## 恶性通货膨胀
 
-<chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
+<chapterId>3f99733a-7a40-42a8-870c-cc4947560bba</chapterId>
 
 恶性通货膨胀是法定货币特有的一种货币现象：它的特征是人们对货币完全失去信心，当局印钞导致通货膨胀急剧上升。因此，个人积累的储蓄会在相对较短的时间内消耗殆尽，将国家推向经济、社会和政治崩溃的边缘。
 
@@ -354,7 +354,7 @@ https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 ## 2100 万比特币
 
-<chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
+<chapterId>e6172b08-5916-4f9f-a06f-4405c52c06ab</chapterId>
 
 ### 比特币的货币政策
 
@@ -395,7 +395,7 @@ https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-我们将在[矿工篇](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf)中更详细地重温采矿的概念。
+我们将在[矿工篇](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/f2ce96f9-66d5-4286-9a18-9e1506b369b5)中更详细地重温采矿的概念。
 
 ### 保证数字稀缺性
 
@@ -443,11 +443,11 @@ https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 # 比特币钱包
 
-<partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
+<partId>3b488c45-d286-4083-8824-ec259cc2a324</partId>
 
 ## 什么是比特币钱包？
 
-<chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
+<chapterId>149c6588-94ae-46b6-b073-9ffc18912397</chapterId>
 
 在第 2 节中，我们将通过使用钱包来探索比特币的存储和安全性，从而了解这些著名的比特币的位置以及如何与它们互动！
 
@@ -511,7 +511,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ## 比特币钱包与安全
 
-<chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
+<chapterId>40485240-351a-471c-b017-faebfb836470</chapterId>
 
 ### 在开始之前提出正确的问题
 
@@ -576,7 +576,7 @@ https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 ## 设置钱包
 
-<chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
+<chapterId>1bfd3d5d-a81b-4b7f-ad88-4bf41593606a</chapterId>
 
 比特币的安全至关重要，一个简单的错误就可能带来灾难性的后果。因此，我们需要了解创建新比特币钱包时应采取的最佳做法。
 
@@ -621,7 +621,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## 通过时间的考验
 
-<chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
+<chapterId>7dd119da-9073-4e03-ab83-e45890616790</chapterId>
 
 与任何形式的财富一样，你的比特币必须受到保护，以防丢失、被盗和贬值，尤其是长期的丢失、被盗和贬值。保护比特币需要一些技术知识和对相关风险的了解，这就为两种主要策略开辟了道路：将比特币刻在钢板上和制定继承计划。
 
@@ -669,11 +669,11 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 # 比特币的技术层面。
 
-<partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
+<partId>8b110fdd-b51f-48a9-a966-33649e55c971</partId>
 
 ## 推出比特币
 
-<chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>
+<chapterId>76ab52b9-2c33-4242-9db1-64fb1fb92b4e</chapterId>
 
 ### 让我们先回顾一下历史。
 
@@ -727,7 +727,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## 比特币交易
 
-<chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
+<chapterId>be72afa9-8198-45a5-95a8-3c87f971fbb2</chapterId>
 
 比特币交易就是通过使用比特币地址来转移比特币的所有权。为了描述这个过程，让我们来介绍两个主角：爱丽丝和鲍勃。爱丽丝希望获得比特币，而鲍勃已经拥有一些比特币。
 
@@ -785,7 +785,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## 比特币节点
 
-<chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
+<chapterId>430fdc8d-d60c-4dde-a7a5-96916f40056e</chapterId>
 
 节点是比特币网络架构的基本要素，因为它们执行着各种重要功能：
 
@@ -834,7 +834,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## 矿工
 
-<chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
+<chapterId>f2ce96f9-66d5-4286-9a18-9e1506b369b5</chapterId>
 
 **矿工确保网络安全，并将交易添加到区块中。他们通过 ASIC 机器使用电力来解决比特币工作证明**。
 
@@ -915,7 +915,7 @@ https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## 比特币与生态学
 
-<chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
+<chapterId>68cc1d11-d355-479f-beb1-364ea0f48219</chapterId>
 
 在上一节中，我们了解到比特币协议的安全性依赖于高能耗，以便在没有可信第三方的情况下生成公共交易账本。在主流媒体中，比特币的总体能源成本常常被比作一个小国的用电量。但这种比较有意义吗？了解这些成本背后的原因有意义吗？
 
@@ -973,11 +973,11 @@ https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 # 如何获取比特币？
 
-<partId>517e1bb7-f032-51a0-930a-a91fe5148d3f</partId>
+<partId>a48118af-b3b8-4f00-bbda-c2c4ca0f788e</partId>
 
 ## 比特币永不眠
 
-<chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
+<chapterId>648dbb03-969a-46ef-bdae-1463c06a4aaf</chapterId>
 
 比特币的价格通常具有大幅波动的特点。就像其他金融市场一样，比特币的价值会随着市场变化或牛市和熊市阶段而大幅波动。
 
@@ -1033,7 +1033,7 @@ https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## 通过工作获取比特币
 
-<chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
+<chapterId>4bcac1ce-e4e1-4fc8-9548-5eb262688ea5</chapterId>
 
 ### 平行经济正在发展
 
@@ -1077,7 +1077,7 @@ https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 用比特币储蓄
 
-<chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
+<chapterId>11782e1e-3807-4669-8c4b-19c431669eba</chapterId>
 
 ### 在开始之前有一个警告！
 
@@ -1176,7 +1176,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## 超级比特币化
 
-<chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>
+<chapterId>a8cf0971-defd-4bf8-934b-5e412448438e</chapterId>
 
 ### 狂野的竞赛才刚刚开始！
 
@@ -1200,11 +1200,11 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 # 比特币的未来：闪电网络
 
-<partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
+<partId>297f74b5-3ba1-4f63-b41b-43256778bea3</partId>
 
 ## 闪电网络简介
 
-<chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
+<chapterId>ad635a0f-4f91-4cac-843b-b9d51eb0bc9e</chapterId>
 
 现在，我们已经掌握了比特币协议的基础知识，下面我们将介绍一个使用比特币协议实现闪电般快速交易的支付网络：闪电网络！
 
@@ -1248,7 +1248,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 闪电网络使用案例
 
-<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+<chapterId>cd29874a-5ea2-4773-a6e4-e8d36b1bb4da</chapterId>
 
 正如我们刚才所看到的，比特币协议虽然具有革命性，但在处理所有日常交易所需的可扩展性方面却面临着巨大挑战。为了解决这些问题，我们提出了闪电网络（Lightning Network），并在此后发展成了几种不同的实现方式，所有这些方式都具有互操作性：
 
@@ -1280,7 +1280,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 红色药丸还是蓝色药丸？
 
-<chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
+<chapterId>03d79262-a035-4a62-acca-f8ed9ae5a8a4</chapterId>
 
 就像莫斐斯对尼奥说的那样："你吃了蓝色药丸，故事就结束了，你从床上醒来，你想相信什么就相信什么。"你吃了红色药丸，你就会呆在仙境里，我会告诉你兔子洞有多深"。你准备好探索比特币的兔子洞了吗？小心点，你可能会重新发现自己的财务自由！
 
@@ -1353,19 +1353,19 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 评论与评级
 
-<chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
+<chapterId>d58144ad-33da-47a6-9030-61b649fe5550</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## 期末考试
 
-<chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
+<chapterId>cbf5ded3-69c8-485f-8528-28fc0e7ea299</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## 结论
 
-<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+<chapterId>8a17f1ba-3ba1-4864-896d-be4cc3d5844a</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
 

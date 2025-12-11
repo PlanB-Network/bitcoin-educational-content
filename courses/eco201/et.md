@@ -15,11 +15,11 @@ See mõttekool on kujundanud arutelusid juba sajandeid, tänu mõjukatele mõtle
 +++
 # Sissejuhatus
 
-<partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
+<partId>21613091-f43a-4a87-88d9-2d69038d41d2</partId>
 
 ## Kursuse ülevaade
 
-<chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
+<chapterId>43b56a2b-bbee-4faa-b52a-9b6c540df559</chapterId>
 
 Tere tulemast kursusele ECO201!
 
@@ -47,7 +47,7 @@ Mis siis, kui tänapäeva majanduse mõistmise võti peitub sajanditevanuses teo
 
 ## Raha, Krediit, Pangad ja Keskpankad
 
-<chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
+<chapterId>84a09f98-8cd7-468f-9cc1-6c0add06ce12</chapterId>
 
 > “Konventsionaalse valuuta põhiprobleem on kogu usaldus, mis on vajalik selle toimimiseks. Keskpanka tuleb usaldada, et ta ei devalveeri valuutat, kuid fiat-valuutade ajalugu on täis selle usalduse rikkumisi. Panku tuleb usaldada, et nad hoiavad meie raha ja kannavad seda elektrooniliselt üle, kuid nad laenavad seda välja krediitmullide lainetes, hoides reservis vaid murdosa. Me peame neid usaldama oma privaatsusega, usaldama, et nad ei lase identiteedivargustel meie kontosid tühjendada.”
 >
@@ -133,11 +133,11 @@ Järgmises peatükis süveneme mis tahes majanduskoolkonna alustalasse: väärtu
 
 # Teoreetilised Alused
 
-<partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
+<partId>6249c7e4-71bc-453b-8a09-ab579d340709</partId>
 
 ## Subjektiivne Väärtusteooria
 
-<chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
+<chapterId>fb001732-6bf7-4935-b8ec-6c225dab1025</chapterId>
 
 > “Väärtus eksisteerib ainult inimteadvuses”
 >
@@ -216,7 +216,7 @@ Järgnevad peatükid on pühendatud raha tekkimisele kui sotsiaalsele nähtusele
 
 ## Raha tekkimine kui sotsiaalne nähtus
 
-<chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
+<chapterId>469d591e-b407-4218-bccb-6a433f731cb3</chapterId>
 
 Kuigi inimestel on ühine huvi spetsialiseerumise ja tööjaotuse maksimeerimise vastu, on siiski koordineerimisprobleeme, mis piiravad selle laienemist.
 
@@ -296,7 +296,7 @@ Järgmises peatükis süveneme ajaeelistuse kontseptsiooni ja selgitame Austria 
 
 ## Ajaeelistus, Intress ja Kapital
 
-<chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
+<chapterId>e0a5c946-dd4c-4aa6-9b6e-aaacb23241ae</chapterId>
 
 ### Ajaeelistus
 
@@ -363,11 +363,11 @@ Seda uurime järgmises peatükis, mis on pühendatud Austria äritsükli teooria
 
 # Austria Majandusperspektiivid
 
-<partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
+<partId>851a6712-84ea-48d2-85f7-3354e1381a06</partId>
 
 ## Austria Äritsükli Teooria
 
-<chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
+<chapterId>17248205-835a-4284-ba94-0eb131916aa3</chapterId>
 
 > "Mida kauem inflatsioonilise pangakrediidi buum kestab, seda suurem on kapitalikaupade valeinvesteeringute ulatus ja seda suurem on vajadus nende ebatervete investeeringute likvideerimise järele. Kui krediidi laienemine peatub, pöördub või isegi oluliselt aeglustub, paljastuvad valeinvesteeringud"
 >
@@ -436,7 +436,7 @@ See saab olema järgmise ja viimase peatüki teema sellel kursusel.
 
 ## Majandusarvestuse võimatus sotsialismi tingimustes
 
-<chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
+<chapterId>9b9e185f-5b0d-4850-813e-0c50e309a909</chapterId>
 
 > “Kus tootmisteguritele ei ole turuhindu, sest neid ei osteta ega müüda, on võimatu kasutada arvestust tuleviku tegevuse planeerimisel ja mineviku tegevuse tulemuste määramisel. Sotsialistlik tootmise juhtimine lihtsalt ei tea, kas see, mida ta kavandab ja teostab, on kõige sobivam vahend taotletud eesmärkide saavutamiseks. See toimib pimeduses, nii-öelda. See raiskab nii materiaalseid kui ka inimlikke (tööjõu) tootmistegureid. Kaos ja vaesus kõigile on vältimatud”
 >
@@ -505,7 +505,7 @@ Austria traditsioon kehastab tagasihoidlikku lähenemist inimtegevusele, tõmmat
 
 ## Austria Metodoloogia
 
-<chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
+<chapterId>1fdf4c5d-0008-4f69-97e7-127fb3ef63e0</chapterId>
 
 Austria majanduskool eristub teistest koolkondadest oma aksiomaatilis-deduktiivse metodoloogiaga, mis erineb sageli sotsiaalteadustes kasutatavast positivistlikust lähenemisest. Positivistlik lähenemine põhineb empiirilistest andmetest tuletatud seadustel, kasutades meetodit, mis on sarnane füüsikateaduste omaga. See formuleerib hüpoteese vaatlustest, mida seejärel kinnitatakse või lükatakse ümber ajutiste eksperimentidega. Teaduslik meetod seisneb hüpoteesi säilitamises, mis kõige paremini selgitab andmeid ja jätkab selle uurimist, kuni leitakse täpsem hüpotees.
 
@@ -525,16 +525,16 @@ Metoodika on majandusteaduses ja üldiselt sotsiaalteadustes oluline aspekt. See
 
 # Lõpusektsioon
 
-<partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
+<partId>373760d2-4e6e-4a05-8081-6d02072457d7</partId>
 
 ## Hinnangud & Reitingud
 
-<chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
+<chapterId>2373a3ce-1c87-415a-8dd6-0437b4f71e79</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Lõpueksam
 
-<chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
+<chapterId>1c584ca3-c738-4151-8a85-101a142fcbbc</chapterId>
 <isCourseExam>true</isCourseExam>
 
 

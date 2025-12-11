@@ -19,11 +19,11 @@ Không cần kiến thức trước để bắt đầu khóa học này. BTC 101
 +++
 # Phần giới thiệu
 
-<partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
+<partId>34ab5c9f-08b8-4324-a53e-582c63a2b1ea</partId>
 
 ## Nhảy vào vùng vô định
 
-<chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
+<chapterId>a47e30ce-f437-404b-99e0-0c1cf1a78f37</chapterId>
 
 Chào mừng bạn đến với khóa học BTC101!
 
@@ -97,7 +97,7 @@ Bạn đã sẵn sàng để khám phá thế giới hấp dẫn của Bitcoin v
 
 
 
-<chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
+<chapterId>0824f3a8-502a-4321-bb0d-13ccba37f3fa</chapterId>
 
 Sẵn sàng khám phá thế giới hấp dẫn của Bitcoin và hiểu rõ mọi cơ chế của nó chưa? Đi thôi!
 
@@ -160,11 +160,11 @@ Nếu bạn muốn khám phá lịch sử Bitcoin sâu và chi tiết hơn, chú
 https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 # Tiền
 
-<partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
+<partId>c7430a3c-6419-465e-b84d-d677e277f732</partId>
 
 ## Tiền trong suốt lịch sử
 
-<chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
+<chapterId>84047ee5-9f48-4105-9849-8be318496304</chapterId>
 
 Sự tiến hóa của tiền tệ là một khía cạnh hấp dẫn của lịch sử loài người, phản ánh sự khéo léo của các nền văn minh qua nhiều thời đại trong việc đáp ứng nhu cầu không ngừng thay đổi của kinh tế .
 
@@ -229,7 +229,7 @@ Mặt khác, Bitcoin mang đến những khả năng mới. Các đặc tính c�
 
 ## tiền tệ ủy thác
 
-<chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
+<chapterId>8c6dbe02-c275-4568-bd1b-fc36b8d4796d</chapterId>
 
 > "Những ai không thể nhớ lại quá khứ thì phải chịu trách nhiệm khi lặp lại quá khứ đó" - George Santayana.
 Sự thật có sức tiếng vang cảnh tỉnh sâu sắc khi nói đến hệ thống tiền tệ hiện tại.
@@ -283,7 +283,7 @@ Chúng ta có thể kết thúc chương này bằng một trích dẫn từ  F.
 https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 ## Siêu lạm phát
 
-<chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
+<chapterId>3f99733a-7a40-42a8-870c-cc4947560bba</chapterId>
 
 Siêu lạm phát là một hiện tượng kinh tế đặc trưng của tiền pháp định: nó được đặc trưng bởi sự mất niềm tin hoàn toàn vào một loại tiền tệ và sự gia tăng mạnh mẽ của lạm phát do việc in tiền của chính quyền. Kết quả là, tiền tiết kiệm của các cá nhân có thể tiêu tan trong một khoảng thời gian tương đối ngắn, đẩy đất nước đến bờ vực sụp đổ về kinh tế, xã hội và chính trị.
 
@@ -379,7 +379,7 @@ Trên thực tế và trong dài hạn, một loại tiền tệ phụ thuộc v
 https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 ## 21 triệu bitcoin
 
-<chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
+<chapterId>e6172b08-5916-4f9f-a06f-4405c52c06ab</chapterId>
 
 ### Chính sách tiền tệ của Bitcoin
 
@@ -420,7 +420,7 @@ Sau khi hoàn thành nhiệm vụ này thành công, người khai thác (thợ 
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Chúng ta sẽ xem xét lại khái niệm khai thác chi tiết hơn trong [chương về khai thác](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+Chúng ta sẽ xem xét lại khái niệm khai thác chi tiết hơn trong [chương về khai thác](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/f2ce96f9-66d5-4286-9a18-9e1506b369b5).
 
 ### Đảm bảo sự khan hiếm kỹ thuật số
 
@@ -470,11 +470,11 @@ Tóm lại, Bitcoin, với bản chất phi tập trung, tính khan hiếm đư�
 
 # Ví Bitcoin
 
-<partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
+<partId>3b488c45-d286-4083-8824-ec259cc2a324</partId>
 
 ## Ví Bitcoin là gì?
 
-<chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
+<chapterId>149c6588-94ae-46b6-b073-9ffc18912397</chapterId>
 
 Trong chương 2, chúng ta sẽ tìm hiểu cách lưu trữ và bảo vệ Bitcoin của mình bằng việc sử dụng ví, qua đó hiểu được cách tương tác với những đồng bitcoin nổi tiếng này và chúng nằm ở đâu!
 
@@ -541,7 +541,7 @@ Nếu trong quá trình học của mình, bạn muốn tìm hiểu thêm về c
 https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 ## Ví Bitcoin và Bảo mật
 
-<chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
+<chapterId>40485240-351a-471c-b017-faebfb836470</chapterId>
 
 ### Đặt câu hỏi đúng trước khi bắt đầu
 
@@ -607,7 +607,7 @@ Với vấn đề an ninh được đề cập, chúng ta có thể chuyển san
 
 ## Thiết lập Ví
 
-<chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
+<chapterId>1bfd3d5d-a81b-4b7f-ad88-4bf41593606a</chapterId>
 
 Tính bảo mật của bitcoin của bạn có tầm quan trọng sống còn và một sai lầm nhỏ có thể gây ra hậu quả thảm khốc. Đó là lý do tại sao chúng ta cần tìm hiểu các biện pháp thực thi tốt nhất để áp dụng khi tạo ví Bitcoin mới.
 
@@ -651,7 +651,7 @@ Nếu sau đó bạn muốn khám phá từng bước cách thiết lập ví c�
 https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 ## Vượt qua thử thách của thời gian
 
-<chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
+<chapterId>7dd119da-9073-4e03-ab83-e45890616790</chapterId>
 
 Cũng giống như bất kỳ hình thức tài sản khác, bitcoin của bạn phải được bảo vệ khỏi mất mát, trộm cắp và suy thoái, đặc biệt là trong thời gian dài. Việc bảo vệ bitcoin của bạn đòi hỏi một số kiến thức kỹ thuật và hiểu biết về các rủi ro liên đới, mở ra hai chiến lược chính: khắc bitcoin của bạn trên một tấm thép và thiết lập kế hoạch thừa kế.
 
@@ -701,11 +701,11 @@ Chúng ta đã tìm hiểu những điều cơ bản về ví Bitcoin và các b
 
 # Các khía cạnh kỹ thuật của Bitcoin.
 
-<partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
+<partId>8b110fdd-b51f-48a9-a966-33649e55c971</partId>
 
 ## Sự ra đời của Bitcoin
 
-<chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>
+<chapterId>76ab52b9-2c33-4242-9db1-64fb1fb92b4e</chapterId>
 
 ### Hãy bắt đầu với một chút lịch sử.
 
@@ -759,7 +759,7 @@ Chúng ta đã có một số thông tin cơ bản, hãy cùng xem xét cách th
 
 ## Giao dịch Bitcoin
 
-<chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
+<chapterId>be72afa9-8198-45a5-95a8-3c87f971fbb2</chapterId>
 
 Giao dịch Bitcoin đơn giản chỉ là việc chuyển giao quyền sở hữu bitcoin bằng cách sử dụng địa chỉ Bitcoin. Để mô tả quá trình này, chúng ta hãy giới thiệu hai nhân vật chính: Alice và Bob. Alice muốn mua bitcoin, trong khi Bob đã sở hữu một số.
 
@@ -817,7 +817,7 @@ Hãy cùng xem xét kỹ hơn cách hoạt động của một máy chủ Bitcoi
 
 ## Các máy chủ Bitcoin
 
-<chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
+<chapterId>430fdc8d-d60c-4dde-a7a5-96916f40056e</chapterId>
 
 Các máy chủ là thành phần cơ bản của kiến trúc của mạng Bitcoin vì chúng thực hiện nhiều chức năng quan trọng:
 
@@ -867,7 +867,7 @@ Sau chiến thắng này, các máy chủ đã kích hoạt bản cập nhật c
 
 ## Người khai thác (thợ đào)
 
-<chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
+<chapterId>f2ce96f9-66d5-4286-9a18-9e1506b369b5</chapterId>
 
 **Thợ đào bảo mật mạng lưới và thêm giao dịch vào các khối. Họ sử dụng điện thông qua máy ASIC để giải quyết bằng chứng công việc của Bitcoin.**
 
@@ -948,7 +948,7 @@ Nếu bạn muốn tìm hiểu sâu hơn về chủ đề cụ thể về khai t
 https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 ## Bitcoin và Sinh thái
 
-<chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
+<chapterId>68cc1d11-d355-479f-beb1-364ea0f48219</chapterId>
 
 Trong phần trước, chúng ta đã hiểu rằng tính bảo mật của giao thức Bitcoin phụ thuộc vào mức tiêu thụ năng lượng cao để tạo ra sổ cái công khai về các giao dịch mà không cần bên thứ ba đáng tin cậy. Trong các phương tiện truyền thông truyền thống, tổng chi phí năng lượng thường được so sánh với mức sử dụng điện của một quốc gia nhỏ. Nhưng liệu sự so sánh này có hợp lý không? Có liên quan gì đến việc hiểu lý do đằng sau những chi phí như vậy không?
 
@@ -1006,11 +1006,11 @@ Do đó, giao thức Bitcoin là một hệ thống tiền tệ không thể ki�
 
 # Làm thế nào để có được Bitcoin?
 
-<partId>517e1bb7-f032-51a0-930a-a91fe5148d3f</partId>
+<partId>a48118af-b3b8-4f00-bbda-c2c4ca0f788e</partId>
 
 ## Bitcoin không bao giờ ngủ!
 
-<chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
+<chapterId>648dbb03-969a-46ef-bdae-1463c06a4aaf</chapterId>
 
 Giá Bitcoin thường được đặc trưng bởi sự biến động đáng kể. Giá trị của nó có thể dao động đáng kể tùy thuộc vào biến động của thị trường hoặc giai đoạn tăng giá và giảm giá, giống như bất kỳ thị trường tài chính hiện hành khác.
 
@@ -1069,7 +1069,7 @@ Ngày nay, Bitcoin tiếp tục tồn tại và phát triển hơn nữa bằng 
 
 ## Nhận Bitcoin bằng cách làm việc
 
-<chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
+<chapterId>4bcac1ce-e4e1-4fc8-9548-5eb262688ea5</chapterId>
 
 ### Một nền kinh tế song song đang phát triển
 
@@ -1115,7 +1115,7 @@ https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Tiết kiệm với Bitcoin
 
-<chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
+<chapterId>11782e1e-3807-4669-8c4b-19c431669eba</chapterId>
 
 ### Cảnh báo trước khi bắt đầu!
 
@@ -1223,7 +1223,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Siêu bitcoin hóa
 
-<chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>
+<chapterId>a8cf0971-defd-4bf8-934b-5e412448438e</chapterId>
 
 ### Cuộc đua khốc liệt chỉ mới bắt đầu!
 
@@ -1246,11 +1246,11 @@ Nếu bạn muốn mở rộng kiến thức về Bitcoin, đây là thời đi�
 > "Tôi nghĩ rằng Internet sẽ là một trong những lực lượng chính làm giảm vai trò của chính phủ. Một điều còn thiếu, nhưng sẽ sớm được phát triển, là tiền điện tử đáng tin cậy - một phương pháp mà trên Internet, bạn có thể chuyển tiền từ A sang B mà A không biết B hoặc B không biết A." - Dự đoán của Milton Friedman năm 1999
 # Tương lai của Bitcoin: Mạng lưới Lightning
 
-<partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
+<partId>297f74b5-3ba1-4f63-b41b-43256778bea3</partId>
 
 ## Giới thiệu vắn tắt về mạng tia chớp (Lightning)
 
-<chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
+<chapterId>ad635a0f-4f91-4cac-843b-b9d51eb0bc9e</chapterId>
 
 Chúng ta đã có những kiến thức cơ bản về giao thức Bitcoin, chúng tôi sẽ giới thiệu một mạng lưới thanh toán sử dụng giao thức Bitcoin để cho phép các giao dịch cực nhanh: mạng Lightning!
 
@@ -1293,7 +1293,7 @@ Nếu bạn muốn tìm hiểu sâu hơn về phần giới thiệu này và hi�
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 ## Các trường hợp sử dụng mạng Lightning
 
-<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+<chapterId>cd29874a-5ea2-4773-a6e4-e8d36b1bb4da</chapterId>
 
 Như chúng ta đã thấy, giao thức Bitcoin, mặc dù mang tính cách mạng, nhưng phải đối mặt với những thách thức đáng kể về khả năng mở rộng quy mô cần thiết để xử lý tất cả các giao dịch hàng ngày. Để giải quyết những vấn đề này, mạng tia chớp (Lightning) đã được đề xuất phát triển và được triển khai thành một số cách thức khác nhau, nhưng tất cả các cách thức này đều có thể tương tác lẫn nhau:
 
@@ -1326,7 +1326,7 @@ Tóm lại, mạng tia chớp (Lightning) mở ra vô số trường hợp sử 
 
 ## Viên thuốc đỏ hay viên thuốc xanh?
 
-<chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
+<chapterId>03d79262-a035-4a62-acca-f8ed9ae5a8a4</chapterId>
 
 Như Morpheus đã nói với Neo: "Bạn uống viên thuốc màu xanh, câu chuyện kết thúc, bạn thức dậy trên giường và tin bất cứ điều gì bạn muốn tin. Bạn uống viên thuốc màu đỏ, bạn ở lại Xứ sở thần tiên, và tôi sẽ cho bạn thấy hang thỏ sâu đến mức nào". Bạn đã sẵn sàng khám phá hang thỏ của Bitcoin chưa? Hãy cẩn thận, vì bạn có thể sẽ tìm lại sự tự do tài chính của mình!
 
@@ -1404,17 +1404,17 @@ Bạn đã sẵn sàng tham gia chưa?
 
 ## Đánh giá & Xếp hạng
 
-<chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
+<chapterId>d58144ad-33da-47a6-9030-61b649fe5550</chapterId>
 
 <isCourseReview>true</isCourseReview>
 ## Bài thi cuối kỳ
 
-<chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
+<chapterId>cbf5ded3-69c8-485f-8528-28fc0e7ea299</chapterId>
 
 <isCourseExam>true</isCourseExam>
 ## Phần kết luận
 
-<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+<chapterId>8a17f1ba-3ba1-4864-896d-be4cc3d5844a</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
 

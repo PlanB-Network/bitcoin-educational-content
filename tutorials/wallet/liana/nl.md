@@ -43,7 +43,7 @@ Met deze handeling kunt u verschillende configuraties instellen, waaronder :
 
 
 
-- Een successieplan, dat de erfgenamen in staat stelt om geld terug te krijgen als de gebruiker overlijdt. Voor meer informatie over dit onderwerp raden we aan [deel 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) van de BTC102-cursus te lezen.
+- Een successieplan, dat de erfgenamen in staat stelt om geld terug te krijgen als de gebruiker overlijdt. Voor meer informatie over dit onderwerp raden we aan [deel 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/dcec2c9c-f5d9-4d47-977d-d21c5bff05cb) van de BTC102-cursus te lezen.
 - Een versterkte back-up met een hersteltijd, zodat de gebruiker zijn Wallet kan gebruiken zonder de bijbehorende geheime zin te hoeven bewaren en het risico te lopen dat deze wordt gestolen, bijvoorbeeld tijdens een inbraak.
 - Een vangnet voor mensen die beginnen met Bitcoin: ze beheren hun eigen Wallet, en hun "voogd" (een familielid, bijvoorbeeld) behoudt zich het recht voor om hun fondsen na een bepaalde periode terug te vorderen.
 - Een meerpartijen handtekeningschema (*Multisig*) met verminderde eisen in de tijd, om het verdwijnen van een of meer van de deelnemers op te vangen, zoals de partners van een bedrijf.

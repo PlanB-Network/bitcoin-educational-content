@@ -27,7 +27,7 @@ Diagram di bawah ini mengilustrasikan pengoperasian portofolio dengan dua jalur 
 Operasi ini memungkinkan Anda untuk mengatur berbagai konfigurasi, termasuk :
 
 
-- Rencana suksesi (atau warisan), yang memungkinkan ahli waris untuk mendapatkan kembali dana jika pengguna meninggal dunia. Untuk informasi lebih lanjut mengenai hal ini, kami sarankan untuk membaca [bagian 4] (https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) dari kursus BTC102.
+- Rencana suksesi (atau warisan), yang memungkinkan ahli waris untuk mendapatkan kembali dana jika pengguna meninggal dunia. Untuk informasi lebih lanjut mengenai hal ini, kami sarankan untuk membaca [bagian 4] (https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/dcec2c9c-f5d9-4d47-977d-d21c5bff05cb) dari kursus BTC102.
 - Cadangan yang diperkuat dengan waktu pemulihan, memberikan pengguna kemungkinan untuk menggunakan dompetnya tanpa harus menyimpan frasa rahasia yang sesuai dan berisiko dicuri, selama pencurian misalnya.
 - Jaring pengaman untuk orang-orang yang baru memulai dengan Bitcoin: mereka akan mengelola dompet mereka sendiri, dan "wali" mereka (kerabat, misalnya) akan memiliki hak untuk mendapatkan kembali dana mereka setelah jangka waktu tertentu.
 - Skema tanda tangan multi-pihak (*multisig*) dengan persyaratan yang berkurang dari waktu ke waktu, untuk mengatasi hilangnya satu atau lebih peserta, seperti mitra perusahaan.

@@ -211,7 +211,7 @@ Una volta sulla homepage di RoninUI, ti verrà chiesto di iniziare la configuraz
 
 ![Iniziamo](assets/notext/25.webp)
 
-A questo punto, RoninUI ti presenta la tua password `root`. È essenziale tenerla al sicuro. Puoi optare per un backup fisico, su carta, o salvarla in un [gestore di password](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
+A questo punto, RoninUI ti presenta la tua password `root`. È essenziale tenerla al sicuro. Puoi optare per un backup fisico, su carta, o salvarla in un [gestore di password](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/fcdebe4d-e2ee-495a-b0e7-ae967250866c).
 
 ![password root](assets/notext/26.webp)
 

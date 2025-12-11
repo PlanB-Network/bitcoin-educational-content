@@ -210,7 +210,7 @@ Một khi bạn đến trang chủ RoninUI, bạn sẽ được yêu cầu bắt
 
 ![lets start](assets/notext/25.webp)
 
-Tại giai đoạn này, RoninUI sẽ cung cấp cho bạn mật khẩu gốc `root password`. Điều cần thiết là phải giữ nó an toàn. Bạn có thể chọn sao lưu vật lý, trên giấy, hoặc lưu nó trong một [trình quản lý mật khẩu](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
+Tại giai đoạn này, RoninUI sẽ cung cấp cho bạn mật khẩu gốc `root password`. Điều cần thiết là phải giữ nó an toàn. Bạn có thể chọn sao lưu vật lý, trên giấy, hoặc lưu nó trong một [trình quản lý mật khẩu](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/fcdebe4d-e2ee-495a-b0e7-ae967250866c).
 
 ![root password](assets/notext/26.webp)
 

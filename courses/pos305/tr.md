@@ -16,7 +16,7 @@ Alekos ve Bas tarafından oluşturulmuş ve melontwist ile asi0 tarafından uyar
 # Giriş
 
 
-<partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
+<partId>541d6444-caf8-4e5b-80c3-b97f4d883d57</partId>
 
 
 ## Kursa Genel Bakış
@@ -57,7 +57,7 @@ BTCPay Server'da ustalaşmaya ve işinizi büyütmeye hazır mısınız? Hadi ba
 ## Yazarın Bitcoin ve BTCPay Sunucusu için eleştirel beğeni
 
 
-<chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
+<chapterId>f0645534-c825-40fb-a190-e24358e8accc</chapterId>
 
 
 BTCPay Server'ın ne olduğunu ve kökenlerini anlayarak başlayalım. Bitcoin alanında güven oluşturmak için şeffaflığa ve belirli standartlara değer veriyoruz.
@@ -113,7 +113,7 @@ Alekos ve Bas'ın bu dersi yazmasına olanak sağlayan BTCPay Sunucu Vakfı Toky
 ## Bitcoin'e Giriş
 
 
-<chapterId>5c0bc234-c188-5b4a-94d5-adee87a120e2</chapterId>
+<chapterId>ba6af1e5-86f1-4139-a549-df2367d6319a</chapterId>
 
 
 ### Bitcoin'ün sınıf alıştırması yoluyla anlaşılması
@@ -217,7 +217,7 @@ Müşteriler mağazadan Bitcoin ile bir ürün satın alır.
 ## Bilgi değerlendirmesi
 
 
-<chapterId>1461f064-933d-50ea-8935-324b68ec5d5f</chapterId>
+<chapterId>c8cec6af-1e57-4a0e-a86a-7dc35f5c2350</chapterId>
 
 
 ### KA Sınıf tartışması
@@ -248,13 +248,13 @@ Blockchain, İşlem, Çift Harcama, Bizans Generalleri Problemi, Mining, Proof o
 # BTCPay Sunucusu ile tanışın
 
 
-<partId>9c8a2d0c-9ba1-5c39-874c-f9eaf1bba663</partId>
+<partId>8a8bbf80-1322-4ad0-b49c-9c18b969236d</partId>
 
 
 ## BTCPay Sunucu giriş ekranını anlama
 
 
-<chapterId>14aad54c-9bd8-54f2-9455-178b8ae63408</chapterId>
+<chapterId>2d35d204-1c04-418f-91eb-a7a547ddc210</chapterId>
 
 
 ### BTCPay Sunucusu ile Çalışma
@@ -355,7 +355,7 @@ Demo Sunucu kullanmanın üretim amaçları için neden kötü bir fikir olduğu
 ## Kullanıcı hesaplarını yönetme
 
 
-<chapterId>b58ca6ee-b7fc-5e81-a6aa-c8ff212b4c55</chapterId>
+<chapterId>7f2dcbc7-ba0b-4515-bf6d-d23ab19c1831</chapterId>
 
 
 ### BTCPay Sunucusunda Hesap Yönetimi
@@ -475,7 +475,7 @@ Uygulama tabanlı 2FA'nın hesabınızın güvenliğini sağlamaya nasıl yardı
 ## Yeni bir mağaza oluşturma
 
 
-<chapterId>463b3634-b49f-5512-a711-3b2e096fc2e0</chapterId>
+<chapterId>6e8d48b0-b9b6-4fbd-8961-5cde37109c0d</chapterId>
 
 
 ### Mağaza sihirbazınızı oluşturun
@@ -561,13 +561,13 @@ Bu bölümde şunları öğrendiniz:
 # Bitcoin Anahtarlarının Güvenliğini Sağlamaya Giriş
 
 
-<partId>25da22d8-fd37-51c5-af2a-58b9f3b046b2</partId>
+<partId>dd0975de-76e6-4255-a3b2-e454009d1aa5</partId>
 
 
 ## Bitcoin Anahtar Üretimini Anlama
 
 
-<chapterId>d162735b-847b-578e-83b8-a044ab703ec5</chapterId>
+<chapterId>8a6164a5-aea6-4348-aa71-135d03de98bc</chapterId>
 
 
 ### Bitcoin anahtarlarının oluşturulmasında neler yer alır?
@@ -640,7 +640,7 @@ Address'in yeniden kullanımı veya açık anahtar yöntemlerine kıyasla her i�
 ## Hardware Wallet ile anahtarların güvenliğini sağlama
 
 
-<chapterId>c54a6d61-5a43-5fdb-93ae-c6750de9c612</chapterId>
+<chapterId>94cf5f31-7292-4608-b10e-8e46b1ebd627</chapterId>
 
 
 ### Bitcoin Anahtarlarının Saklanması
@@ -701,7 +701,7 @@ Bu bölümde şunları öğrendiniz:
 ## Bitcoin tuşlarınızı kullanma
 
 
-<chapterId>bff488de-5052-56e6-b696-97e896f762ae</chapterId>
+<chapterId>ae5aafd5-28b7-4ef7-8ebc-3ac5f19769c7</chapterId>
 
 
 ### BTCPay Sunucusu Wallet
@@ -1039,7 +1039,7 @@ Anahtar üretmek için bir yöntem ve bunları güvence altına almak için bir 
 ## BTCPay Sunucu Yıldırım Wallet
 
 
-<chapterId>1bbece7e-0197-57e6-a93a-561cf384d946</chapterId>
+<chapterId>ca874f9a-4f97-44d5-9bf4-57c8b17d25bf</chapterId>
 
 
 Bir sunucu yöneticisi yeni bir BTCPay Server örneği hazırladığında, LND, Core Lightning veya Eclair gibi bir Lightning Network uygulaması kurabilir; daha ayrıntılı kurulum talimatları için BTCPay Server'ın Yapılandırılması bölümüne bakın.
@@ -1289,13 +1289,13 @@ Lightning Wallet'yi mağazanıza bağlamak için çeşitli seçeneklerden bazıl
 # BTCPay Sunucusu Interface
 
 
-<partId>25e88b81-e1ab-515f-a035-09f2a3075556</partId>
+<partId>76b4a36d-9cf8-469d-a763-a75cc38c812a</partId>
 
 
 ## Gösterge tablosuna genel bakış
 
 
-<chapterId>410ff28b-a272-5c91-93e0-48d5b28c53ab</chapterId>
+<chapterId>8bd1c31e-a487-4c32-b3af-bcecc7117a80</chapterId>
 
 
 BTCPay Server modüler bir yazılım paketidir. Bununla birlikte, her BTCPay Sunucusunun uyması gereken standartlar vardır ve bu standartlar Yönetici ile kullanıcılar arasındaki etkileşimi yönetecektir. Gösterge Tablosu ile başlamak. Giriş yaptıktan sonra her BTCPay Sunucusunun ana giriş noktası. Gösterge Tablosu, mağazanızın performansına, Wallet'ün mevcut bakiyesine ve son 7 gündeki işlemlere genel bir bakış sağlar. Modüler bir görünüm olduğundan, Eklentiler bu görünümü kendi yararları için kullanabilir ve Gösterge Tablosunda kendi kutucuklarını oluşturabilir. Bu kursta, BTCPay Server'da yalnızca standart eklentileri ve uygulamaları, ilgili görünümleriyle birlikte ele alacağız.
@@ -1419,7 +1419,7 @@ Gösterge Tablosundan hafızanızdan listeleyebildiğiniz kadar çok kutucuğu l
 ## BTCPay Sunucusu - Mağaza ayarları
 
 
-<chapterId>e8faef7b-278d-550e-a511-bc3a442daf64</chapterId>
+<chapterId>00ff7c8c-46f9-4d88-92cc-c63e4ff348f9</chapterId>
 
 
 BTCPay Server yazılımı içinde iki tür ayar olduğunu biliyoruz. BTCPay Server Mağazasına özel ayarlar, Gösterge Tablosunun altındaki sol menü çubuğunda bulunan ayarlar düğmesi ve menü çubuğunun altında, Hesabın hemen üstünde bulunan BTCPay Server ayarları. BTCPay Server Sunucusuna özel ayarlar yalnızca Sunucu yöneticileri tarafından görüntülenebilir.
@@ -1874,7 +1874,7 @@ Mağaza Ayarları ile Sunucu Ayarları arasındaki fark nedir?
 ## BTCPay Sunucusu - Sunucu ayarları
 
 
-<chapterId>1dd858a2-49ea-586b-9bc1-75a65f508df6</chapterId>
+<chapterId>07022d6d-594f-46d7-8363-c8c16a561f4f</chapterId>
 
 
 BTCPay Server iki farklı ayar görünümünden oluşur. Biri Mağaza ayarlarına, diğeri ise Sunucu ayarlarına ayrılmıştır. İkincisi yalnızca sunucu yöneticileri tarafından kullanılabilir, mağaza sahipleri tarafından kullanılamaz. Sunucu yöneticileri kullanıcı ekleyebilir, özel roller oluşturabilir, e-posta sunucusunu yapılandırabilir, politikalar belirleyebilir, bakım görevlerini çalıştırabilir, BTCPay Server'a bağlı tüm hizmetleri kontrol edebilir, sunucuya dosya yükleyebilir veya Günlükleri kontrol edebilir.
@@ -2440,7 +2440,7 @@ Bir yöneticinin Bakım sekmesinde rutin olarak yapabileceği bazı eylemleri a�
 ## BTCPay Sunucusu - Ödemeler
 
 
-<chapterId>e2b71ff9-3f4f-5e71-9771-8e03fbbef00f</chapterId>
+<chapterId>1f6899d4-85c1-41fe-8f23-4a7bec44e9c2</chapterId>
 
 
 Invoice, satıcının ödemeyi tahsil etmek için alıcıya verdiği bir belgedir.
@@ -2786,7 +2786,7 @@ Faturalar ve ödeme talepleri arasındaki bazı farklar nelerdir ve ikincisini k
 ## BTCPay Sunucu Varsayılan Eklentileri
 
 
-<chapterId>7d673dc4-bd5d-5411-819b-f135f1d86636</chapterId>
+<chapterId>2d994561-7f8d-4862-8b9f-cee7d81df6f2</chapterId>
 
 
 ### Varsayılan Eklentiler ve Uygulamalar
@@ -3273,13 +3273,13 @@ BTCPay Server ile standart olarak gelen üç yerleşik eklenti nedir? Birkaç ke
 # BTCPay Sunucusunu Yapılandırma
 
 
-<partId>ff38596c-7de3-5e5c-ba50-9b9edbbbb5eb</partId>
+<partId>c3a8bd83-0676-4388-87b2-325d67f43d9d</partId>
 
 
 ## LunaNode ortamına BTCPay Server kurulumu hakkında temel bilgi
 
 
-<chapterId>d0a28514-ffcf-529b-9156-29141f0b060a</chapterId>
+<chapterId>f0f934af-eb3c-4d86-bd7b-3fee8fb7c10e</chapterId>
 
 
 ### BTCPay Sunucusunu Barındırılan Env. üzerine Kurma (LunaNode)
@@ -3418,7 +3418,7 @@ BTCPay Server'ın bir örneğini VPS üzerinde çalıştırmak ile barındırıl
 ## BTCPay Sunucusunu bir Voltaj ortamına yükleme
 
 
-<chapterId>11c7d284-b4d2-5542-872c-df9bd9c1491b</chapterId>
+<chapterId>ef790587-4c73-4311-96f1-5a9219b9a7fd</chapterId>
 
 
 Hosting sağlayıcısı olarak Voltage.cloud'u tanıyacak, BTCPay Sunucunuzu kullanmanın ilk adımlarını öğrenecek ve Lightning Network'i nasıl kullanacağınızı öğreneceksiniz. Tüm adımları geçtikten sonra, Bitcoin kabul eden bir web mağazası veya kitle fonlaması platformu çalıştırabilirsiniz!
@@ -3491,7 +3491,7 @@ Voltage ve LunaNode kurulumları arasındaki bazı temel farklar nelerdir?
 ## BTCPay Sunucusunu bir Umbrel düğümüne yükleme
 
 
-<chapterId>3298e292-6476-5fe0-836c-7fa021348799</chapterId>
+<chapterId>bdd94bfc-c8da-4c8b-8b0e-ed4f9a5dd42e</chapterId>
 
 
 Bu adımların sonunda, yerel ağınızdaki BTCPay mağazanıza yıldırım ödemelerini kabul edebilirsiniz. Bu işlem, bir restoran veya işletmede bir umbrel düğümü çalıştırıyorsanız da geçerli olacaktır. Bu mağazayı herkese açık bir web sitesine bağlamak istiyorsanız, umbrel düğümünüzü herkese açık hale getirmek için Gelişmiş alıştırmayı izleyin.
@@ -3580,20 +3580,20 @@ Umbrel'deki kurulumun önceki iki barındırma seçeneğinden farkı nedir?
 # Son Bölüm
 
 
-<partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
+<partId>5449bff6-f410-4f2a-a373-7b915bb6d726</partId>
 
 
 
 
 ## Yorumlar & Derecelendirmeler
 
-<chapterId>d90bb93d-b894-551e-9fd6-6855c739a904</chapterId>
+<chapterId>bf665be7-1be0-4d54-b8c6-64fbb40c9190</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Kurs Sonucu
 
 
-<chapterId>c07ac2a5-f97e-5c57-8a80-4955b48128d4</chapterId>
+<chapterId>bbda2002-757d-4dad-8c8a-ff95cec77077</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

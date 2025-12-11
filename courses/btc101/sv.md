@@ -18,11 +18,11 @@ Ingen förkunskap krävs för att börja denna kurs. BTC 101 har utformats för 
 +++
 # Introduktion
 
-<partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
+<partId>34ab5c9f-08b8-4324-a53e-582c63a2b1ea</partId>
 
 ## Kursöversikt
 
-<chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
+<chapterId>a47e30ce-f437-404b-99e0-0c1cf1a78f37</chapterId>
 
 Välkommen till BTC101-kursen!
 
@@ -93,7 +93,7 @@ Redo att dyka ner i den fascinerande världen av Bitcoin och förstå alla dess 
 
 ## Bitcoins förhistoria
 
-<chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
+<chapterId>0824f3a8-502a-4321-bb0d-13ccba37f3fa</chapterId>
 
 Innan termen "Bitcoin" blev synonymt med digital valuta och finansiell omvandling lades grunden för dess skapande av en rad idéer, innovationer och sociala rörelser. Bland dessa framstår cypherpunk-rörelsen som ett nyckelelement i Bitcoins förhistoria.
 
@@ -153,11 +153,11 @@ Om du vill utforska Bitcoins historia mer i detalj rekommenderar vi starkt vår 
 https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 # Pengar
 
-<partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
+<partId>c7430a3c-6419-465e-b84d-d677e277f732</partId>
 
 ## Pengar genom historien
 
-<chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
+<chapterId>84047ee5-9f48-4105-9849-8be318496304</chapterId>
 
 Pengarnas utveckling är en fascinerande aspekt av mänsklighetens historia som speglar den uppfinningsrikedom som civilisationer genom tiderna har visat när det gäller att tillgodose ständigt nya ekonomiska behov.
 
@@ -222,7 +222,7 @@ Valutorna utvecklas än idag och anpassar sina former för att möta olika anvä
 
 ## Fiduciära valutor
 
-<chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
+<chapterId>8c6dbe02-c275-4568-bd1b-fc36b8d4796d</chapterId>
 
 > "De som inte kan minnas det förflutna är dömda att upprepa det", sa George Santayana.
 En sanning som stämmer väl när det gäller det nuvarande monetära systemet.
@@ -276,7 +276,7 @@ För att lära dig mer om ekonomiska felaktigheter och frihet inbjuder vi dig at
 https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 ## Hyperinflation
 
-<chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
+<chapterId>3f99733a-7a40-42a8-870c-cc4947560bba</chapterId>
 
 Hyperinflation är ett monetärt fenomen som är specifikt för fiatvalutor: det kännetecknas av en fullständig förlust av förtroendet för en valuta och en drastisk ökning av inflation på grund av myndigheternas penningskapande. Som ett resultat kan de besparingar som ackumulerats av individer försvinna på en relativt kort tidsperiod, vilket driver landet på gränsen till ekonomisk, social och politisk kollaps.
 
@@ -372,7 +372,7 @@ För att fördjupa dig i ämnet hyperinflation rekommenderar vi David St-Onges E
 https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 ## 21 miljoner bitcoins
 
-<chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
+<chapterId>e6172b08-5916-4f9f-a06f-4405c52c06ab</chapterId>
 
 ### Bitcoins penningpolitik
 
@@ -413,7 +413,7 @@ Efter att framgångsrikt ha utfört denna uppgift belönas miners med skapandet 
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Vi kommer att återkomma till begreppet mining i mer detalj i [miner-kapitlet] (https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+Vi kommer att återkomma till begreppet mining i mer detalj i [miner-kapitlet] (https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/f2ce96f9-66d5-4286-9a18-9e1506b369b5).
 
 ### Garantera digital knapphet
 
@@ -463,11 +463,11 @@ Sammanfattningsvis erbjuder Bitcoin, med sin decentraliserade natur, programmera
 
 # Bitcoin-plånböcker
 
-<partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
+<partId>3b488c45-d286-4083-8824-ec259cc2a324</partId>
 
 ## Vad är Bitcoin-plånböcker?
 
-<chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
+<chapterId>149c6588-94ae-46b6-b073-9ffc18912397</chapterId>
 
 I avsnitt 2 kommer vi att utforska Bitcoins förvaring och säkerhet genom användning av digitala plånböcker, för att förstå var dessa berömda bitcoins finns och hur man interagerar med dem!
 
@@ -533,7 +533,7 @@ Om du under din resa ner i kaninhålet vill lära dig mer om hur man bygger en B
 https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 ## Bitcoin-plånböcker och säkerhet
 
-<chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
+<chapterId>40485240-351a-471c-b017-faebfb836470</chapterId>
 
 ### Ställ rätt frågor innan du börjar
 
@@ -599,7 +599,7 @@ Med detta i åtanke kan vi nu gå vidare till nästa avsnitt där vi beskriver h
 
 ## Konfigurera en plånbok
 
-<chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
+<chapterId>1bfd3d5d-a81b-4b7f-ad88-4bf41593606a</chapterId>
 
 Säkerheten för dina bitcoins har avgörande betydelse, och ett enkelt misstag kan få katastrofala konsekvenser. Det är därför vi måste lära oss de bästa metoderna att använda när vi skapar en ny Bitcoin-plånbok.
 
@@ -643,7 +643,7 @@ Om du sedan vill upptäcka, steg för steg, hur du ställer in din egen plånbok
 https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 ## Att klara tidens test
 
-<chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
+<chapterId>7dd119da-9073-4e03-ab83-e45890616790</chapterId>
 
 Som alla former av rikedom måste dina bitcoins skyddas mot förlust, stöld och förfall, särskilt på lång sikt. För att skydda dina bitcoins krävs viss teknisk kunskap och en förståelse för de risker som är förknippade med dem, vilket öppnar vägen för två huvudstrategier: att gravera dina bitcoins på en stålplatta och att upprätta en arvsplan.
 
@@ -693,11 +693,11 @@ Nu när vi har gått igenom grunderna inom Bitcoin-plånböcker och de bästa me
 
 # De tekniska aspekterna av Bitcoin.
 
-<partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
+<partId>8b110fdd-b51f-48a9-a966-33649e55c971</partId>
 
 ## Lansering av Bitcoin
 
-<chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>
+<chapterId>76ab52b9-2c33-4242-9db1-64fb1fb92b4e</chapterId>
 
 ### Låt oss börja med lite historia.
 
@@ -748,7 +748,7 @@ Nu när vi har lite bakgrund ska vi undersöka hur en Bitcoin-transaktion funger
 
 ## Bitcoin-transaktioner
 
-<chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
+<chapterId>be72afa9-8198-45a5-95a8-3c87f971fbb2</chapterId>
 
 En Bitcoin-transaktion är helt enkelt en överföring av äganderätten till bitcoins genom användning av en Bitcoin-adress. För att beskriva denna process, låt oss introducera två huvudpersoner: Alice och Bob. Alice vill skaffa sig bitcoins, medan Bob redan äger några.
 
@@ -806,7 +806,7 @@ Låt oss ta en närmare titt på hur en Bitcoin-nod fungerar.
 
 ## Bitcoin-noder
 
-<chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
+<chapterId>430fdc8d-d60c-4dde-a7a5-96916f40056e</chapterId>
 
 Noder är en grundläggande del av Bitcoins nätverksarkitektur, eftersom de utför olika viktiga funktioner:
 
@@ -856,7 +856,7 @@ Efter denna seger aktiverade noderna en uppdatering kallad SegWit, vilket banade
 
 ## Miners
 
-<chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
+<chapterId>f2ce96f9-66d5-4286-9a18-9e1506b369b5</chapterId>
 
 **Miners säkrar nätverket och lägger till transaktioner i blocken. De använder elektricitet genom ASIC-maskiner för att lösa Bitcoins proof of work.**
 
@@ -937,7 +937,7 @@ Om du vill fördjupa dig i det specifika ämnet Bitcoin-mining kan du konsultera
 https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 ## Bitcoin och ekologi
 
-<chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
+<chapterId>68cc1d11-d355-479f-beb1-364ea0f48219</chapterId>
 
 I föregående avsnitt förstod vi att säkerheten i Bitcoin-protokollet bygger på hög energiförbrukning för att skapa ett offentligt register med transaktioner utan en betrodd tredje part. I mainstream media jämförs ofta den totala energikostnaden med elanvändningen i ett litet land. Men är denna jämförelse rimlig? Är det relevant att förstå orsakerna bakom sådana kostnader?
 
@@ -995,11 +995,11 @@ Bitcoin-protokollet är således ett ocensurerbart och ostoppbart monetärt syst
 
 # Hur får du tag på Bitcoin?
 
-<partId>517e1bb7-f032-51a0-930a-a91fe5148d3f</partId>
+<partId>a48118af-b3b8-4f00-bbda-c2c4ca0f788e</partId>
 
 ## Bitcoin sover aldrig!
 
-<chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
+<chapterId>648dbb03-969a-46ef-bdae-1463c06a4aaf</chapterId>
 
 Priset på Bitcoin kännetecknas ofta av betydande volatilitet. Dess värde kan fluktuera avsevärt beroende på marknadsvariationer eller på uppgångs- och nedgångsfaser, precis som på alla andra finansmarknader.
 
@@ -1057,7 +1057,7 @@ Idag fortsätter Bitcoin att överleva och växa ännu mer genom att integreras 
 
 ## Skaffa Bitcoins genom att arbeta
 
-<chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
+<chapterId>4bcac1ce-e4e1-4fc8-9548-5eb262688ea5</chapterId>
 
 ### En parallell ekonomi håller på att utvecklas
 
@@ -1098,7 +1098,7 @@ https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b0
 
 ## Spara med Bitcoin
 
-<chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
+<chapterId>11782e1e-3807-4669-8c4b-19c431669eba</chapterId>
 
 ### En varning innan vi sätter igång!
 
@@ -1204,7 +1204,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Hyper-bitcoinisering
 
-<chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>
+<chapterId>a8cf0971-defd-4bf8-934b-5e412448438e</chapterId>
 
 ### Den vilda kapplöpningen har bara börjat!
 
@@ -1227,11 +1227,11 @@ Om du vill bredda din kunskap om Bitcoin är det här rätt tid: ett stort antal
 > "Jag tror att Internet kommer att bli en av de stora krafterna för att minska statens roll. Det enda som saknas, men som snart kommer att utvecklas, är en tillförlitlig e-cash - en metod där man på Internet kan överföra pengar från A till B utan att A känner till B eller B känner till A." - Milton Friedmans förutsägelse 1999
 # Bitcoins framtid: Lightning Network
 
-<partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
+<partId>297f74b5-3ba1-4f63-b41b-43256778bea3</partId>
 
 ## En kort introduktion till Lightning Network
 
-<chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
+<chapterId>ad635a0f-4f91-4cac-843b-b9d51eb0bc9e</chapterId>
 
 Nu när vi har kunskap om grunderna i Bitcoin-protokollet kommer vi att presentera ett betalningsnätverk som använder Bitcoin-protokollet för att möjliggöra blixtsnabba transaktioner: Lightning Network!
 
@@ -1274,7 +1274,7 @@ Om du vill gå längre än den här introduktionen och förstå hur Lightning Ne
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 ## Användning av Lightning Network
 
-<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+<chapterId>cd29874a-5ea2-4773-a6e4-e8d36b1bb4da</chapterId>
 
 Som vi just har sett står Bitcoin-protokollet, även om det är revolutionerande, inför betydande utmaningar när det gäller den skalbarhet som krävs för att hantera alla våra dagliga transaktioner. För att lösa dessa problem föreslogs Lightning Network, som sedan dess har utvecklats till flera olika implementeringar, som alla är kompatibla:
 
@@ -1307,7 +1307,7 @@ Sammanfattningsvis öppnar Lightning Network upp för en mängd spännande anvä
 
 ## Red pill eller blue pill?
 
-<chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
+<chapterId>03d79262-a035-4a62-acca-f8ed9ae5a8a4</chapterId>
 
 Som Morpheus sa till Neo: "Om du tar det blå pillret slutar historien, du vaknar i din säng och du tror vad du vill. Om du tar det röda pillret stannar du kvar i Underlandet och jag visar dig hur djupt kaninhålet går." Är du redo att utforska kaninhålet i Bitcoin? Var försiktig, eftersom du kanske återupptäcker din ekonomiska frihet!
 
@@ -1384,19 +1384,19 @@ Satoshi skapade Bitcoin 2008 för att föreslå en förändring av det finansiel
 
 ## Recensioner & betyg
 
-<chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
+<chapterId>d58144ad-33da-47a6-9030-61b649fe5550</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Slutlig tentamen
 
-<chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
+<chapterId>cbf5ded3-69c8-485f-8528-28fc0e7ea299</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## Slutsats
 
-<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+<chapterId>8a17f1ba-3ba1-4864-896d-be4cc3d5844a</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
 

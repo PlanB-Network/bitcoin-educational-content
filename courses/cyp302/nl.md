@@ -15,12 +15,12 @@ Het materiaal is ontworpen voor leerlingen van alle niveaus en biedt een evenwic
 +++
 # Inleiding
 
-<partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
+<partId>abfa0d9a-736e-40f8-937a-490ef19bc481</partId>
 
 
 ## Cursusoverzicht
 
-<chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+<chapterId>dc6c887e-00a6-4b7f-9d50-14cbdfd5e867</chapterId>
 
 Welkom bij de CYP302 cursus!
 
@@ -127,12 +127,12 @@ Klaar om de fascinerende wereld van cryptografie te verkennen? Laten we gaan!
 
 # Wat is cryptografie?
 
-<partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>
+<partId>dfa3633c-f97b-4650-8a2e-cb15a42ca557</partId>
 
 
 ## De Beale-sleutels
 
-<chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
+<chapterId>b97d116b-035b-4e92-890c-e377b48edb36</chapterId>
 
 
 Laten we ons onderzoek op het gebied van cryptografie beginnen met een van de charmantere en vermakelijkere episodes uit de geschiedenis: dat van de Beale cijfers. [1]
@@ -194,7 +194,7 @@ Na ontcijfering geeft het tweede bericht de gedetailleerde inhoud van de schat (
 
 ## Moderne cryptografie
 
-<chapterId>d07d576f-8a4b-5890-b182-2e5763f550f4</chapterId>
+<chapterId>a53dab64-fcf9-48c1-b578-dc43d799f3de</chapterId>
 
 
 Kleurrijke verhalen zoals dat van de Beale cijfers associëren de meesten van ons met cryptografie. Toch verschilt moderne cryptografie op minstens vier belangrijke manieren van dit soort historische voorbeelden.
@@ -271,7 +271,7 @@ Een ander voorbeeld: **phishing-aanvallen** zijn een veelvoorkomend probleem in 
 
 ## Open communicatie
 
-<chapterId>cb23d0a6-ba9a-5dc6-a55a-258405ae4117</chapterId>
+<chapterId>87b637ca-3d20-42b5-b299-ecb084b60aec</chapterId>
 
 
 Moderne cryptografie is ontworpen om veiligheidswaarborgen te bieden in een **open communicatie** omgeving. Als ons communicatiekanaal zo goed beveiligd is dat afluisteraars geen kans hebben om onze berichten te manipuleren of zelfs maar te observeren, dan is cryptografie overbodig. De meeste van onze communicatiekanalen zijn echter niet zo goed beveiligd.
@@ -302,13 +302,13 @@ Daarom is het idee om communicatie geheim te houden door het communicatiekanaal 
 
 # Wiskundige grondslagen van cryptografie 1
 
-<partId>1bf9f0aa-0f68-5493-83fb-2167238ff9de</partId>
+<partId>22c3967a-c64b-468c-8e68-3324fe552738</partId>
 
 
 
 ## Willekeurige variabelen
 
-<chapterId>b623a7d0-3dff-5803-bd4e-8257ff73dd69</chapterId>
+<chapterId>c5fa2255-6041-400b-9072-217b73bf411e</chapterId>
 
 
 Cryptografie is gebaseerd op wiskunde. En als je meer dan een oppervlakkig begrip van cryptografie wilt opbouwen, moet je vertrouwd zijn met die wiskunde.
@@ -603,7 +603,7 @@ Ik zou je bijvoorbeeld kunnen vragen naar de waarschijnlijkheid dat varkens zull
 
 ## De modulo-bewerking
 
-<chapterId>709b34e5-b155-53d2-abbd-97d67e56db00</chapterId>
+<chapterId>a7e063f0-62dd-4c35-892a-55fa1b10aad8</chapterId>
 
 
 ### Modulo
@@ -721,7 +721,7 @@ $$
 
 ## De XOR-bewerking
 
-<chapterId>22f185cc-c516-5b33-950b-0908f2f881fe</chapterId>
+<chapterId>941aaabd-0896-4eb2-843c-e1af055c87fc</chapterId>
 
 
 Alle computergegevens worden verwerkt, opgeslagen en verzonden over netwerken op bitniveau. Alle cryptografische schema's die worden toegepast op computergegevens werken ook op bit-niveau.
@@ -768,7 +768,7 @@ Een XOR-bewerking is gelijkwaardig aan het speciale geval van het uitvoeren van 
 
 ## Pseudorandomheid
 
-<chapterId>20463fc5-3e92-581f-a1b7-3151279bd95e</chapterId>
+<chapterId>bd0c7d54-5392-490b-bdca-04dcbe7d83ff</chapterId>
 
 
 In onze bespreking van willekeurige en uniforme variabelen hebben we een specifiek onderscheid gemaakt tussen "willekeurig" en "uniform". Dat onderscheid wordt in de praktijk meestal gehandhaafd bij het beschrijven van willekeurige variabelen. In onze huidige context moet dit onderscheid echter worden weggelaten en worden "random" en "uniform" synoniem gebruikt. Ik zal aan het eind van dit hoofdstuk uitleggen waarom.
@@ -835,13 +835,13 @@ De reden voor het weglaten van het onderscheid tussen "random" en "uniform" in o
 
 # Wiskundige grondslagen van cryptografie 2
 
-<partId>d7245cc9-bb6d-5403-b3d5-9c703d9a2f81</partId>
+<partId>62963952-ae03-43f4-88d6-90aea95e5c5f</partId>
 
 
 
 ## Wat is getaltheorie?
 
-<chapterId>c0051c34-fd5d-539c-93e2-5c6dfd4c3355</chapterId>
+<chapterId>67e7dace-4c23-41a8-bdb3-c6c87d223899</chapterId>
 
 
 Dit hoofdstuk behandelt een meer geavanceerd onderwerp over de wiskundige grondslagen van cryptografie: getaltheorie. Hoewel getaltheorie belangrijk is voor symmetrische cryptografie (zoals in het Rijndael Cijfer), is het vooral belangrijk in de publieke sleutel cryptografische omgeving.
@@ -871,7 +871,7 @@ De verzamelingen uit de abstracte algebra kunnen vele soorten objecten behandele
 
 ## Groepen
 
-<chapterId>3209b270-f9cd-5224-803e-0ed19fbf7826</chapterId>
+<chapterId>4353d3ff-6319-4985-a4b8-3b20111ecfff</chapterId>
 
 
 Een basisconcept in de wiskunde is dat van een verzameling Elements. Een verzameling wordt meestal aangeduid met accoladetekens met de Elements gescheiden door komma's.
@@ -974,7 +974,7 @@ Transacties in Bitcoin houden meestal in dat uitgangen op een of andere manier w
 
 ## Cyclische groepen
 
-<chapterId>bfa5c714-7952-5fef-88b1-ca5b07edd886</chapterId>
+<chapterId>b5b552f6-cf7c-4ba8-bd9c-685bfc4aacad</chapterId>
 
 
 Een belangrijk onderscheid dat we kunnen maken is tussen een **oneindige** en een **oneindige groep**. De eerste groep heeft een eindig aantal Elements, terwijl de laatste groep een oneindig aantal Elements heeft. Het aantal Elements in een eindige groep staat bekend als de **orde van de groep**. Alle praktische cryptografie waarbij groepen gebruikt worden, is gebaseerd op eindige (getaltheoretische) groepen.
@@ -1095,7 +1095,7 @@ De Phi-functieformule van Euler voor de priemfactorisatie van $N$.
 
 ## Velden
 
-<chapterId>fad52d86-3a22-5c9f-979e-3bec9eaa008e</chapterId>
+<chapterId>7a8c9ab0-fc8f-43fa-8dd7-fd1839bcda81</chapterId>
 
 
 Een groep is de basis algebraïsche structuur in abstracte algebra, maar er zijn er veel meer. De enige andere algebraïsche structuur die je moet kennen is die van een **veld**, meer bepaald die van een **eindig veld**. Dit type algebraïsche structuur wordt vaak gebruikt in cryptografie, zoals in de Advanced Encryption Standard. Dit laatste is het belangrijkste symmetrische encryptieschema dat je in de praktijk zult tegenkomen.
@@ -1299,7 +1299,7 @@ Waarom zouden uitbreidingsvelden met basis 2 over verzamelingen van veeltermen, 
 
 ## Abstracte algebra in de praktijk
 
-<chapterId>ed35b98d-18b4-5790-9911-1078e0f84f92</chapterId>
+<chapterId>9b8cd1fc-8a34-4e1b-ab4f-c634a763a20c</chapterId>
 
 
 Ondanks het formele taalgebruik en de abstractheid van de discussie, moet het concept van een groep niet al te moeilijk te begrijpen zijn. Het is gewoon een verzameling Elements samen met een binaire operatie, waarbij de uitvoering van die binaire operatie op die Elements voldoet aan vier algemene voorwaarden. Een Abeliaanse groep heeft alleen een extra voorwaarde die commutativiteit heet. Een cyclische groep is weer een speciaal soort Abeliaanse groep, namelijk een groep die een generator heeft. Een veld is slechts een complexere constructie van het basisbegrip groep.
@@ -1342,13 +1342,13 @@ Voor verdere discussie over moderne getaltheorie kun je veel geavanceerde discus
 
 # Symmetrische cryptografie
 
-<partId>ef768d0e-fe7b-510c-87d6-6febb3de1039</partId>
+<partId>b994593e-cb9b-4a2c-ae80-2dec3478e1a6</partId>
 
 
 
 ## Alice en Bob
 
-<chapterId>47345330-be2d-5faf-afd0-d289a8d21bf1</chapterId>
+<chapterId>9c901027-b83a-4954-99b4-9e4f0c1598b7</chapterId>
 
 
 Een van de twee hoofdtakken van cryptografie is symmetrische cryptografie. Het omvat zowel versleutelingsschema's als schema's die te maken hebben met authenticatie en integriteit. Tot de jaren 1970 bestond alle cryptografie uit symmetrische encryptiesystemen.
@@ -1389,7 +1389,7 @@ Hieronder volgen vijf belangrijke punten om in gedachten te houden over voorbeel
 
 ## Symmetrische coderingssystemen
 
-<chapterId>41bfdbe1-6d41-5272-98bb-81f24b2fd6af</chapterId>
+<chapterId>e2645185-bb06-41d2-9a80-81dd84108647</chapterId>
 
 
 We kunnen een **symmetrisch encryptieschema** losjes definiëren als elk cryptografisch schema met drie algoritmen:
@@ -1445,7 +1445,7 @@ Bob versleutelt het bericht $M$ op tijdstip $T_0$ met de sleutel $K$ om de cijfe
 
 ## Een voorbeeld: Het verschuivingscijfer
 
-<chapterId>7b179ae8-8d15-5e80-a43f-22c970d87b5e</chapterId>
+<chapterId>63287a89-bda1-4395-ade6-cd8d8debe797</chapterId>
 
 
 In Hoofdstuk 2 kwamen we het shift cijfer tegen, wat een voorbeeld is van een zeer eenvoudig symmetrisch versleutelingsschema. Laten we het hier nog eens bekijken.
@@ -1493,7 +1493,7 @@ Je kunt ook de termen **ontcijferen** en **ontcijferen** tegenkomen. Deze termen
 
 ## Brute kracht aanvallen en het principe van Kerckhoff
 
-<chapterId>2d73ef97-26c5-5d11-8815-0ddbe89c8003</chapterId>
+<chapterId>4a72d8d8-0186-4654-b5ba-f99a4e03fb59</chapterId>
 
 
 Het shift cijfer is een zeer onveilig symmetrisch versleutelingsschema, tenminste in de moderne wereld. [1] Een aanvaller kan elke cijfertekst proberen te ontcijferen met alle 26 mogelijke sleutels om te zien welk resultaat zinvol is. Dit type aanval, waarbij de aanvaller gewoon door de sleutels loopt om te zien wat werkt, staat bekend als een **brute force aanval** of **exhaustive key search**.
@@ -1565,7 +1565,7 @@ Hoewel we niet in alle details van de verschillende begrippen van cryptografisch
 
 ## Streamcijfers
 
-<chapterId>479aa6f4-45c4-59ca-8616-8cf8e61fc871</chapterId>
+<chapterId>82a4d8c5-7fd7-4bbb-a97e-e7a2d7cc55a0</chapterId>
 
 
 Symmetrische versleutelingsschema's zijn standaard onderverdeeld in twee types: **stroomcijfers** en **blokcijfers**. Dit onderscheid is echter wat lastig, omdat mensen deze termen op een inconsistente manier gebruiken. In de volgende secties zal ik het onderscheid uiteenzetten op de manier die mij het beste lijkt. Je moet je er echter van bewust zijn dat veel mensen deze termen op een iets andere manier zullen gebruiken dan ik heb uiteengezet.
@@ -1690,7 +1690,7 @@ Naar mijn mening biedt een bredere definitie van voorwaarde (1) een eenvoudigere
 
 ## Blokcijfers
 
-<chapterId>2df52d51-943d-5df7-9d49-333e4c5d97b7</chapterId>
+<chapterId>ffb7ba1c-eb20-43a8-a2f1-2b8a54a31044</chapterId>
 
 
 De eerste manier waarop een **blokcijfer** gewoonlijk wordt begrepen is als iets primitievers dan een streamcijfer: Een kernalgoritme dat een lengtebehoudende transformatie uitvoert op een string van een geschikte lengte met behulp van een sleutel. Dit algoritme kan worden gebruikt voor het maken van versleutelingsschema's en misschien andere soorten cryptografische schema's.
@@ -1806,7 +1806,7 @@ Het AES blokcijfer wordt in detail uitgelegd in *Hoofdstuk 5*.
 
 ## De verwarring ophelderen
 
-<chapterId>121c1858-27e3-5862-b0ce-4ff2f70f9f0f</chapterId>
+<chapterId>61e393f2-6764-4214-a871-f7471cb8ea32</chapterId>
 
 
 De verwarring over het onderscheid tussen blokcijfers en streamcijfers ontstaat omdat mensen soms de term blokcijfer opvatten als een specifieke verwijzing naar een *blokcijfer met een blokmodus van encryptie*.
@@ -1842,7 +1842,7 @@ Na deze discussie zou je nu *Figuur 8* moeten begrijpen. Het geeft een overzicht
 
 ## Codes voor berichtverificatie
 
-<chapterId>19fa7c00-db59-56a0-9654-5350a137939d</chapterId>
+<chapterId>626181b6-f80f-4160-b441-417a79b66ec6</chapterId>
 
 
 Encryptie houdt zich bezig met geheimhouding. Maar cryptografie houdt zich ook bezig met bredere thema's, zoals berichtintegriteit, authenticiteit en onweerlegbaarheid. Zogenaamde **berichtauthenticatiecodes** (MAC's) zijn symmetrische cryptografische sleutelschema's die authenticiteit en integriteit in communicatie ondersteunen.
@@ -1886,7 +1886,7 @@ Hoewel ik in mijn discussie een onderscheid heb gemaakt tussen authenticiteit en
 
 ## Geverifieerde encryptie
 
-<chapterId>33f2ec9b-9fb4-5c61-8fb4-50836270a144</chapterId>
+<chapterId>64c1aef9-0bf8-45c5-92ba-12161d907eac</chapterId>
 
 
 Normaal gesproken wil je zowel geheimhouding als authenticiteit garanderen in communicatie en daarom worden versleutelingsschema's en MAC-schema's meestal samen gebruikt.
@@ -1954,7 +1954,7 @@ Er is een palet aan Hash functies die gebruikt kunnen worden om een HMAC te make
 
 ## Beveiligde communicatiesessies
 
-<chapterId>c7f7dcd3-bbed-53ed-a43d-039da0f180c5</chapterId>
+<chapterId>16be8853-ef4e-432b-b724-f34e780f2abe</chapterId>
 
 
 Stel dat twee partijen in een communicatiesessie zitten en dus meerdere berichten heen en weer sturen.
@@ -2005,7 +2005,7 @@ De communicatiesessie begint met Bob die een cijfertekst $C_{0,B}$ naar Alice st
 
 # RC4 en AES
 
-<partId>a48c4a7d-0a41-523f-a4ab-1305b4430324</partId>
+<partId>9948fc0a-59fe-46a4-b324-b12cde16e576</partId>
 
 
 
@@ -2013,7 +2013,7 @@ De communicatiesessie begint met Bob die een cijfertekst $C_{0,B}$ naar Alice st
 
 ## Het RC4-stroomcijfer
 
-<chapterId>5caec5bd-5a77-56c9-b5e6-1e86f0d294aa</chapterId>
+<chapterId>2f83a43a-16e5-4b4e-9d2f-4976f92eba15</chapterId>
 
 
 In dit hoofdstuk bespreken we de details van een encryptieschema met een modern primitief streamcijfer, RC4 (of "Rivest cipher 4"), en een modern blokcijfer, AES. Terwijl het RC4 cijfer in onbruik is geraakt als versleutelingsmethode, is AES de standaard voor moderne symmetrische versleuteling. Deze twee voorbeelden geven een beter idee van hoe symmetrische encryptie onder de motorkap werkt.
@@ -2163,7 +2163,7 @@ Belangrijk is dat de keystream die geproduceerd wordt met RC4 behandeld moet wor
 
 ## AES met een 128-bits sleutel
 
-<chapterId>0b30886f-e620-5b8d-807b-9d84685ca8ff</chapterId>
+<chapterId>593d6ae3-7887-40d5-b14b-98a580b9a254</chapterId>
 
 
 Zoals vermeld in het vorige hoofdstuk, hield het National Institute of Standards and Technology (NIST) tussen 1997 en 2000 een wedstrijd om een nieuwe symmetrische encryptiestandaard te bepalen. Het **Rijndael cijfer** bleek de winnende inzending te zijn. De naam is een woordspeling op de namen van de Belgische makers, Vincent Rijmen en Joan Daemen.
@@ -2377,13 +2377,13 @@ De redenering achter de operaties achter het Rijndael cijfer is dat ze zowel een
 
 # Asymmetrische cryptografie
 
-<partId>868bd9dd-6e1c-5ea9-9ece-54affc13ba05</partId>
+<partId>20c55ed4-4e45-493a-8bfe-970f332d764c</partId>
 
 
 
 ## Het distributie- en beheerprobleem van sleutels
 
-<chapterId>1bb651ba-689a-5a89-a7d3-0b9cc3b694f7</chapterId>
+<chapterId>4bbc8769-e00d-4d59-8365-c5f491b1217b</chapterId>
 
 
 Net als bij symmetrische cryptografie kunnen asymmetrische schema's worden gebruikt om zowel geheimhouding als authenticatie te garanderen. Deze schema's gebruiken echter twee sleutels in plaats van één: een private en een publieke sleutel.
@@ -2450,7 +2450,7 @@ Wat gebeurde er in de jaren 1970? Hoe is het mogelijk dat we direct online aanko
 
 ## Nieuwe richtingen in cryptografie
 
-<chapterId>7a9dd9a3-496e-5f9d-93e0-b5028a7dd0f1</chapterId>
+<chapterId>e0f7950c-bb5a-437e-b27e-8d6878e15291</chapterId>
 
 
 Tegen de jaren 1970 hadden de problemen van sleuteldistributie en sleutelbeheer de aandacht getrokken van een groep Amerikaanse academische cryptografen: Whitfield Diffie, Martin Hellman en Ralph Merkle. Ondanks de ernstige scepsis van de meerderheid van hun collega's, waagden ze het om er een oplossing voor te bedenken.
@@ -2548,7 +2548,7 @@ Volgens hun eigen verklaringen en die van GCHQ was het James Ellis die in 1969 a
 
 ## Asymmetrische encryptie en authenticatie
 
-<chapterId>2f6f0f03-3c3d-5025-90f0-5211139bc0cc</chapterId>
+<chapterId>a36ea521-ecee-476d-ade9-57f09bed2469</chapterId>
 
 
 Een overzicht van **asymmetrische encryptie** met behulp van Bob en Alice wordt gegeven in *Figuur 1*.
@@ -2668,7 +2668,7 @@ De distributie van sleutels is nu veel eenvoudiger geworden voor Jim's Sporting 
 
 ## Hash functies
 
-<chapterId>ea8327ab-b0e3-5635-941c-4b51f396a648</chapterId>
+<chapterId>49d6c9a5-5f18-4ec4-8c83-e02fc60941ff</chapterId>
 
 
 Hash functies zijn alomtegenwoordig in cryptografie. Ze zijn geen symmetrische of asymmetrische schema's, maar vallen in een cryptografische categorie op zichzelf.
@@ -2779,14 +2779,14 @@ Hoewel botsingsbestendigheid en verbergen de belangrijkste eigenschappen zijn di
 
 # Het RSA cryptosysteem
 
-<partId>864dca42-2a8d-530f-bb94-2e1f68b3f411</partId>
+<partId>a8fb0a0b-747f-422a-a464-3c84979efa43</partId>
 
 
 
 
 ## Het factorprobleem
 
-<chapterId>a31a66e4-52ea-539c-9953-4769ad565d7e</chapterId>
+<chapterId>406b1681-f8bf-4a03-b555-c84ac4dee44a</chapterId>
 
 
 Terwijl symmetrische cryptografie meestal vrij intuïtief is voor de meeste mensen, is dit meestal niet het geval met asymmetrische cryptografie. Hoewel je waarschijnlijk vertrouwd bent met de beschrijving op hoog niveau uit de vorige secties, vraag je je waarschijnlijk af wat eenrichtingsfuncties precies zijn en hoe ze precies gebruikt worden om asymmetrische schema's te construeren.
@@ -2918,7 +2918,7 @@ $$ \frac{2^{1024}}{\LN(2^{1024})} - \frac{2^{1023}}{\LN(2^{1023})} $$
 
 ## Getaltheoretische resultaten
 
-<chapterId>23cd2186-8d97-5709-a4a7-b984f1eb9999</chapterId>
+<chapterId>a5528852-d9cc-4f94-a15d-02f11081e026</chapterId>
 
 
 Helaas kan het factorprobleem niet direct gebruikt worden voor asymmetrische cryptografische schema's. We kunnen hiervoor echter wel een complexer maar gerelateerd probleem gebruiken: het RSA probleem.
@@ -3106,7 +3106,7 @@ We hebben nu alle getaltheoretische resultaten die nodig zijn om het RSA problee
 
 ## Het RSA cryptosysteem
 
-<chapterId>0253c2f7-b8a4-5d0e-bd60-812ed6b6c7a9</chapterId>
+<chapterId>b230194d-5774-49fe-9d19-53e345453c34</chapterId>
 
 
 We zijn nu klaar om het RSA probleem op te lossen. Stel dat je een verzameling variabelen maakt bestaande uit $p$, $q$, $N$, $\phi(N)$, $e$, $d$ en $y$. Noem deze verzameling $Pi$. Deze wordt als volgt gemaakt:
@@ -3241,6 +3241,6 @@ Desalniettemin kan het RSA probleem met een beetje slimme complexiteit gebruikt 
 
 ## Conclusie
 
-<chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
+<chapterId>97ce180b-5092-45eb-a160-57fc52917567</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

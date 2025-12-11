@@ -37,11 +37,11 @@ Tento kurz byl sponzorován společností TETHER
 
 # Úvod
 
-<partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
+<partId>952e9c3d-4e88-44f8-942b-0b0643fee52e</partId>
 
 ## Přehled kurzu
 
-<chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+<chapterId>3498530e-7910-4aa0-a2a9-63cca97c5d74</chapterId>
 Vítejte v kurzu ECO104!
 
 **Žijeme ve světě, kde:**
@@ -83,11 +83,11 @@ Těšíme se, že se k nám připojíte na této cestě do hlubin našeho peně�
 
 # Cena pokroku - Podrobnější pohled na náš finanční systém
 
-<partId>25ed8242-1b5a-5b53-b833-824b0dd80bcc</partId>
+<partId>a318d7e4-cb95-4016-9e4f-c4019c902b95</partId>
 
 ## Úvod do peněz
 
-<chapterId>927ad49a-d8d6-5dd3-9250-cdcadcbf425e</chapterId>
+<chapterId>7ad6dcd5-339f-4d9e-a720-3d62e82408a9</chapterId>
 Peníze jsou fascinující a nezbytnou součástí našeho každodenního života. Denně je používáme k nákupu potravin, placení účtů a provádění nesčetných transakcí. Ale co vlastně peníze jsou? Ve své podstatě jsou peníze prostředkem směny, nástrojem, který nám umožňuje obchodovat zboží a služby mezi sebou. Je to abstraktní koncept, na který jsme všichni zvyklí, přesto je základním kamenem našeho ekonomického systému.
 Ale ne všechny peníze jsou stejně hodnotné. Některé formy peněz jsou lepší než jiné, v závislosti na jejich schopnosti sloužit jako uchovatel hodnoty, prostředek směny a jednotka účtu. Zlato, například, je vysoce ceněno tisíce let kvůli své trvanlivosti a vzácnosti. Na druhou stranu, papírové peníze jsou cenné pouze na základě důvěry, kterou vkládáme do institucí, které je vydávají.
 
@@ -165,7 +165,7 @@ Od barteru přes vynález mincí a papírových peněz prošly peníze řadou tr
 
 ## Zkoumání, jak jsme se sem dostali
 
-<chapterId>4c8ebb36-a6d5-5637-93ca-9a4a222a1c58</chapterId>
+<chapterId>e9dc9f53-dcab-4469-a482-882e89dca77e</chapterId>
 
 Od dob výměny zboží až po moderní éru digitálních měn prošly peníze fascinujícím vývojem. Naši předkové používali jako prostředek výměny mušle, korálky a dokonce i dobytek. Dnes máme virtuální peněženky a bezkontaktní platby. Je to pozoruhodná cesta, která zahrnovala nesčetné iterace, kompromisy a adaptace, aby vyhověla neustále se měnícím potřebám společnosti.
 
@@ -302,7 +302,7 @@ Jak pokračujeme v našem průzkumu světa peněz, je důležité uznat významn
 
 ## Pohled na to, kde jsme a co můžeme očekávat do budoucna
 
-<chapterId>0c38e8fd-c973-57a5-a673-abec706f6054</chapterId>
+<chapterId>ce2d4ac3-d766-4d85-a796-0be14376702f</chapterId>
 
 Jak jsme diskutovali v předchozí kapitole, historicky byly peníze často kryty komoditou jako zlato. Výhody toho nelze přeceňovat. Nejenže to znamenalo, že hodnota takových peněz byla přímo vázána na hodnotu komodity, ale také to znamenalo, že vydavatel měny, typicky vláda, byl omezen v tom, kolik peněz mohl tisknout, protože by musel získat více zlata.
 
@@ -437,7 +437,7 @@ Jak se budeme posouvat vpřed, vyzýváme vás, abyste přistupovali k této nov
 
 ## Zkouška
 
-<chapterId>f25c229f-2af0-5324-bc40-e90f7668985a</chapterId>
+<chapterId>0240a320-fb4d-4150-acf6-0cd9c7570761</chapterId>
 
 Nyní, když jste prošli modulem "Cena pokroku", budete muset otestovat své nově získané znalosti, abyste se ujistili, že jste pochopili poslední sekce. Začneme několika otevřenými otázkami a poté malým kvízem.
 
@@ -449,11 +449,11 @@ Nyní, když jste prošli modulem "Cena pokroku", budete muset otestovat své no
 
 # Finanční osvobození - Úvod do Bitcoinu
 
-<partId>c00843b2-bde3-57bb-ae2e-8ecad6631d71</partId>
+<partId>f66fdc60-a1a9-4a21-9242-d4f86af8c0e4</partId>
 
 ## Průkopníci, inovátoři a základy Bitcoinu
 
-<chapterId>37d779ce-46b5-56d1-91d8-d04442236e35</chapterId>
+<chapterId>03010901-b8d8-4e77-9d04-b9112fbabf6c</chapterId>
 
 Vítejte v modulu dva, kde prozkoumáme fascinující svět Bitcoinu. Na základě našeho porozumění historii peněz tento modul pokryje následující témata:
 
@@ -555,7 +555,7 @@ Na závěr, bez ohledu na to, kdo je Satoshi Nakamoto, je nesporné, že vynále
 
 ## Jak funguje Bitcoin? Vnitřní fungování této magické internetové peněžní
 
-<chapterId>b0f736fc-ed4d-5887-b22e-d958db9144d1</chapterId>
+<chapterId>293a9dd7-fa9d-49e1-aaba-2fa1f6c7e580</chapterId>
 
 Bitcoin je často označován jako magické internetové peníze... a z dobrého důvodu. Pomyslete na to – s Bitcoinem můžete poslat hodnotu komukoli, kdekoli na světě, bez potřeby prostředníka, jako je banka nebo vláda. Je to, jako byste měli kontrolu nad vlastní osobní bankou, schopnost převádět prostředky přes hranice jen několika kliknutími.
 
@@ -635,7 +635,7 @@ Každá z těchto rolí je nezbytná pro funkčnost a úspěch Bitcoinu jako dig
 
 ## Co dělá Bitcoin odlišným od fiat měn?
 
-<chapterId>5ef55778-cbcf-5c7e-960d-a2fcdf1a4006</chapterId>
+<chapterId>8ec83124-7544-4c76-8411-01c3ea32c126</chapterId>
 
 V předchozí sekci jsme se zabývali jedinečnou funkcionalitou Bitcoinu, která jej odlišuje od tradičních měn a jak Bitcoin dosahuje prestižního označení decentralizovanosti. Nyní se zaměřme na to, jak se Bitcoin liší od fiat měn z hlediska charakteristik, které činí měnu skvělou. Pouze zkoumáním těchto klíčových charakteristik můžeme lépe pochopit, proč je Bitcoin jedinečný a stojí vlastní kategorii, pokud jde o peníze.
 
@@ -734,7 +734,7 @@ Kromě toho tyto kombinované atributy nejenže umisťují Bitcoin jako mocný n
 
 ## Interakce s Bitcoinem
 
-<chapterId>050a95af-e9c2-5ec3-b9c8-55ec174d309c</chapterId>
+<chapterId>898af852-84f8-45b8-b3e9-2adf85bb8576</chapterId>
 
 Bitcoin způsobil bouři v monetárním systému, zaujal pozornost rozvojových zemí, technicky zdatných jedinců a investorů stejně. Avšak s jeho rychlým růstem se mnozí ptají, jak může tento digitální aktivum konkurovat tradičním platebním metodám jako Visa a Mastercard. Kromě toho mají jednotlivci zájem o to, jak se mohou osobně zapojit do Bitcoinu.
 
@@ -836,7 +836,7 @@ Největší výhodou Bitcoinu je, že nám umožňuje mít vlastní správu digi
 
 ## Zkouška
 
-<chapterId>1c7b8165-d67b-5f7c-a1cb-b83db58b77c7</chapterId>
+<chapterId>a51bed11-0894-49a4-878f-9f31d79d7f9e</chapterId>
 
 Nyní, když jste prošli modulem "An Examination of How We Got Here", budete muset otestovat své nově získané znalosti, abyste se ujistili, že jste pochopili poslední sekce. Začneme několika otevřenými otázkami a poté malým kvízem.
 
@@ -849,11 +849,11 @@ Nyní, když jste prošli modulem "An Examination of How We Got Here", budete mu
 
 # Stabilita uprostřed chaosu - Úvod do Tetheru a světa stablecoinů
 
-<partId>60b1f3c4-e161-53fe-84ca-88d8cd62aa75</partId>
+<partId>bc2fa7dd-b3a8-430a-8cba-97faae477137</partId>
 
 ## Úvod do Tetheru a světa stablecoinů
 
-<chapterId>427a72b5-8af7-503e-bc45-bb8b95483993</chapterId>
+<chapterId>65302477-a5c2-4555-b546-e4051066e1b1</chapterId>
 
 Jak bylo dříve diskutováno, peníze byly po tisíce let zásadní součástí lidstva. Pomohly nám kupovat zboží a služby, umožnily nám obchodovat mezi sebou a pomohly nám uchovávat bohatství.
 
@@ -917,7 +917,7 @@ _**Poznámka:** Nebojte se, pokud některé z těchto termínů nejsou úplně j
 
 ## Historie Stablecoinů
 
-<chapterId>174e2cab-ef14-5e14-99c8-8457b6fc5fee</chapterId>
+<chapterId>e6bb95e1-5ba1-40d0-8b4a-3e6c1d1dd0a3</chapterId>
 
 Stablecoiny se staly populárním tématem ve světě kryptoměn, nabízejí méně volatilní alternativu v krátkodobém horizontu kryptoměnám jako Bitcoin. Jak je podrobně popsáno v úvodu tohoto modulu, stablecoiny jsou digitální aktiva, která jsou vázána na stabilní aktivum jako fiat měna nebo drahé kovy, navržená tak, aby si udržovala stabilní hodnotu. Pojďme se tedy podívat na historii stablecoinů a podrobněji se zaměřit na některé z prvních stablecoinů, včetně Tetherova USDt, nejznámějšího a nejširše používaného stablecoinu.
 
@@ -942,7 +942,7 @@ Závěrem, stablecoiny ušly dlouhou cestu od svého vzniku. Od raných dnů bit
 
 ## Charakteristiky Stablecoinů
 
-<chapterId>21765df7-53fd-58af-9df6-7208027a0c3a</chapterId>
+<chapterId>36e0ab1f-a3fe-42c1-8400-55fb770d9bf3</chapterId>
 
 Jak by mělo být nyní zřejmé, stablecoin je typ digitálního tokenu navržený tak, aby udržoval stabilní hodnotu na základě podkladového aktiva, na které je vázán. Tato aktiva mohou zahrnovat fiat měnu, drahé kovy, komodity nebo kombinaci těchto (např. koš fiat měn).
 
@@ -1029,7 +1029,7 @@ I když jsou stablecoiny často považovány za bezpečné díky jejich „stabi
 
 ## Výhody nabídky stablecoinů od Tetheru
 
-<chapterId>a6806b45-b92e-5791-8f5f-804098a522b2</chapterId>
+<chapterId>6a1aef8e-3fdf-426b-901c-6e1a26b6ad88</chapterId>
 Seznamte se s Adannou, mladou ženou žijící ve venkovské africké vesnici, kde je jedinou dostupnou měnou CFA frank, který za posledních 70 let ztratil ohromujících [99,5%](https://bitcoinmagazine.com/culture/bitcoin-a-currency-of-decolonization) své kupní síly, což činí spoření nemožným.
 Adanna vždycky toužila mít kontrolu nad svými penězi, ale až dosud to zůstávalo nedosažitelným snem. Měna, kterou používá, je pod kontrolou jednotlivců, kteří prokázali, že nemají zájem o nejlepší prospěch svého lidu, a její venkovská poloha omezuje její přístup k bankovním službám. Adanna tak nemá jinou možnost, než spoléhat na fyzické peníze, což ji vystavuje riziku krádeže a ztráty, kromě znehodnocování kupní síly.
 
@@ -1143,7 +1143,7 @@ Celkově mají stablecoiny, jako jsou USDt a XAUt, potenciál transformovat živ
 
 ## Zkouška
 
-<chapterId>1294d874-6edb-5feb-b070-0ead1836bd0b</chapterId>
+<chapterId>7abbc2a0-f98d-40a9-80ae-1cc397027cdc</chapterId>
 
 Nyní, když jste prošli modulem "Stabilita uprostřed chaosu", budete muset otestovat své nově získané znalosti, abyste se ujistili, že jste pochopili poslední sekce. Začneme několika otevřenými otázkami a poté malým kvízem.
 
@@ -1155,11 +1155,11 @@ Nyní, když jste prošli modulem "Stabilita uprostřed chaosu", budete muset ot
 
 # Překonání pochyb - Vyvracení běžných omylů a případové studie z reálného světa
 
-<partId>246a7dc0-a203-5b2e-ae13-9c8f08e6bfad</partId>
+<partId>5e3f28ec-ff90-4272-af00-724e0ced0765</partId>
 
 ## Omyly
 
-<chapterId>4da9319d-6306-500f-adbb-5fa31c673cd2</chapterId>
+<chapterId>c48b4889-5972-4139-b928-b56fb88b28d5</chapterId>
 
 Bitcoin byl od svého vzniku v roce 2009 obklopen odmítáním, kritikou a omyly. Přestože jeho popularita a přijetí rostou, mnoho lidí ho stále považuje za bublinu, která má prasknout. Podobně na sebe stablecoiny strhly pozornost a skepticismus. Myšlenka měny kryté stabilním aktivem zní slibně, ale mnoho lidí nerozumí, jak stablecoiny fungují a jaký mohou mít dopad na finanční systém.
 
@@ -1452,7 +1452,7 @@ Nakonec, budoucnost decentralizovaných financí spočívá v těch, kteří jso
 
 ## Roya Mahboob
 
-<chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
+<chapterId>e76ef439-44db-4cf4-b660-0ed33d913989</chapterId>
 
 V dnešním globalizovaném světě je přístup k finančním službám klíčovým prvkem ekonomické účasti a nezávislosti. Přesto je stále příliš mnoho jedinců vyloučeno z tradičního bankovního systému, přičemž ženy často nesou největší břemeno této vyloučenosti. Překvapivě, ačkoliv je zbytečně [jedna čtvrtina](https://www.worldbank.org/en/publication/globalfindex) světové populace bez bankovního účtu, v zemích jako Saúdská Arábie [36,5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) žen nemá přístup k základním bankovním službám, což jim brání plně se podílet na ekonomice a společnosti své země.
 
@@ -1497,7 +1497,7 @@ Celkově Bitcoin byl silným nástrojem pro finanční posílení žen.
 
 ## Mercedes
 
-<chapterId>dfa10b75-19f6-578a-9d14-a0a541806076</chapterId>
+<chapterId>a897e855-f7a6-406c-a5b9-7cc6783e2ddd</chapterId>
 Narozená v Mexiku v roce 1949 v chudých poměrech zažívala Mercedes od útlého věku ostré nerovnosti, které sužovaly její společnost. Během svého dětství čelila mnoha výzvám, včetně vládního potlačování studentských hnutí a specifických problémů, které zažívaly ženy žijící v chudobě. Navíc obrovská propast mezi bohatými a chudými, spolu s omezeným přístupem ke kvalitnímu vzdělání, uvěznila její rodinu a nespočet dalších v chudobě. Frustrace z těchto nespravedlností vedla Mercedes k přitáhnutí k marxismu (komunismu), kde propagovala sociální změny a ekonomickou reformu.
 
 Přestože měla silné marxistické přesvědčení, nakonec Mercedes přiznala vrozená omezení těchto tradičních systémů, pokud jde o rozdělení moci a bohatství. Toto uvědomění ji přimělo hledat jinde, což byl moment, kdy narazila na Bitcoin a jeho potenciál vyzvat právě ty finanční systémy, které dlouho kritizovala. Motivována vyhlídkou na podporu finančního osvobození a zmocnění, Mercedes směřovala svou energii k propagaci transformačního potenciálu Bitcoinu.
@@ -1518,7 +1518,7 @@ Plná naděje a vzrušení, Mercedes vidí potenciál Bitcoinu změnit svět k l
 
 ## Příběhy Stablecoinů
 
-<chapterId>7b6d8d57-905d-5168-9be6-3df7c938de2a</chapterId>
+<chapterId>d22acc57-2b00-4a51-96b0-a350814f87d5</chapterId>
 Jak se blížíme ke konci tohoto kurzu, rádi bychom představili sbírku inspirativních příběhů o stablecoinech. Tyto svědectví ukazují skutečné zkušenosti jednotlivců, majitelů podniků a společností, kteří využili sílu stablecoinů k zlepšení svých životů.
 
 V následujících příkladech uslyšíte přímé zkušenosti o tom, jak stablecoiny umožnily této rozmanité skupině lidí lépe navigovat složitostmi moderního finančního prostředí s větší lehkostí a efektivitou. Od bezproblémových mezinárodních transakcí a rozšířených obchodních příležitostí po zvýšenou finanční inkluzivitu a stabilnější uchování hodnoty, každý příběh zdůrazňuje dopad stablecoinů na jejich cesty.
@@ -1603,7 +1603,7 @@ Doufáme, že jste našli tyto příběhy inspirující. To řečeno, mělo by b
 
 ## Zkouška
 
-<chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
+<chapterId>002220e4-069b-4367-b153-ca19029412de</chapterId>
 
 Nyní, když jste prošli modulem "Překonávání pochyb", budete muset otestovat své nově získané znalosti, abyste se ujistili, že jste pochopili poslední sekce. Začneme několika otevřenými otázkami a poté malým kvízem.
 
@@ -1615,7 +1615,7 @@ Nyní, když jste prošli modulem "Překonávání pochyb", budete muset otestov
 
 ## Závěrečné poznámky
 
-<chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
+<chapterId>1896c6b1-77d7-45bb-a798-bcdd27deb18b</chapterId>
 
 Gratulujeme, že jste došli až na konec kurzu! Ušli jste dlouhou cestu. Během této cesty jsme se zabývali širokou škálou témat, včetně:
 
@@ -1644,7 +1644,7 @@ Budoucnost je světlá!
 
 ## Recenze & Hodnocení
 
-<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
+<chapterId>1ec641d0-0421-404b-88d3-bac725aca9dc</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Závěr

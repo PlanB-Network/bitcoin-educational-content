@@ -17,13 +17,13 @@ Lungo il percorso, scoprirai anche come individui e comunità hanno navigato que
 # Introduzione
 
 
-<partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
+<partId>b2ba4969-7b91-45cf-b2ad-b5d2958f48b3</partId>
 
 
 ## Panoramica del corso
 
 
-<chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
+<chapterId>c9ff81cb-98ab-4724-b174-4dbfa3a25ea8</chapterId>
 
 
 Benvenuti al corso ECO204!
@@ -53,13 +53,13 @@ E se la storia monetaria si ripetesse sotto i nostri occhi? Giudicate voi nei ca
 # Che cos'è l'inflazione?
 
 
-<partId>2b4f456c-3649-5cf9-b9b0-a5bffe92d962</partId>
+<partId>5902cccb-fd13-4088-8852-569bdf4528f4</partId>
 
 
 ## Un fenomeno monetario
 
 
-<chapterId>b2cbc915-c4ec-52b5-860c-0958f58c91e4</chapterId>
+<chapterId>1ac7d89a-7082-4466-8eb2-00f1e1b303a0</chapterId>
 
 
 ### Definizioni di inflazione
@@ -327,7 +327,7 @@ In conclusione, questo studio sulla svalutazione monetaria fornisce una comprens
 ## Tipi di inflazione
 
 
-<chapterId>b438fe09-375e-5bb2-9196-7dd687b9f98c</chapterId>
+<chapterId>5d7b5350-7312-4a3f-9138-6c4c9cfdbe0d</chapterId>
 
 
 ### L'inflazione non è un fenomeno multifattoriale
@@ -633,13 +633,13 @@ Grazie per l'attenzione. La prossima sessione sarà interamente dedicata alla de
 # Che cos'è l'iperinflazione?
 
 
-<partId>3f541663-1e2f-5410-8ee0-f61c5d009fa5</partId>
+<partId>5747f16f-4cc0-4358-8ae8-4411fc8f89ca</partId>
 
 
 ## Definizioni di iperinflazione
 
 
-<chapterId>d2a71a2e-5f36-58d9-993c-d431f4aa07fd</chapterId>
+<chapterId>5b8758ff-7b46-4c81-aafd-f8ee06fcef03</chapterId>
 
 
 ### Definizioni di iperinflazione
@@ -777,7 +777,7 @@ Vale la pena notare che alcuni periodi storici di alta inflazione non sono inclu
 ## Analogie tra Weimar e lo Zimbabwe
 
 
-<chapterId>11eef458-aab8-5c63-8523-264d0ba69f5d</chapterId>
+<chapterId>733924b4-7fd2-46ab-8f48-cbb86c5fd4d6</chapterId>
 
 
 ### Due epoche, due catastrofi
@@ -1035,7 +1035,7 @@ Si conclude così questo video sulle analogie tra le esperienze vissute durante 
 ## Weimar e Zimbabwe: Differenze e parallelismi contemporanei
 
 
-<chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
+<chapterId>3b71f96b-6f11-40b5-b974-a27fe498fe3c</chapterId>
 
 
 In questo capitolo esploreremo le differenze e i parallelismi contemporanei tra i periodi di iperinflazione del passato e quelli attuali, con aneddoti e paragoni rilevanti per i giorni nostri.
@@ -1184,7 +1184,7 @@ Oggi, con il calo del potere di risparmio, gli investimenti hanno preso il loro 
 ## Ridenominazioni in America Latina
 
 
-<chapterId>918eafd7-409d-5205-ad52-a52e63b23a64</chapterId>
+<chapterId>6fee14c4-a59d-4f23-b6bd-24d8422a2cb4</chapterId>
 
 
 Analizzeremo ora i diversi periodi di ridenominazione nei Paesi dell'America Latina.
@@ -1342,7 +1342,7 @@ In conclusione, l'iperinflazione è solo un aspetto delle sfide economiche. L'in
 ## Come superare l'iperinflazione
 
 
-<chapterId>e3484a31-a851-5f92-8af5-00eddae67db1</chapterId>
+<chapterId>045d835e-4692-438a-a5c9-8889801bee6c</chapterId>
 
 
 ### Come porre fine all'inflazione moderata e alta
@@ -1418,7 +1418,7 @@ La chiave di lettura è che esistono diverse strategie per superare l'iperinflaz
 ## Presentazione della collezione di banconote dell'iperinflazione
 
 
-<chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
+<chapterId>e166eb40-d92a-42a6-b4ca-64c3d3baa8d4</chapterId>
 
 [Scopri la collezione digitalizzata nel *Bitcoin Educational Toolkit* (accessibile anche dalla sezione *Risorse* della piattaforma Plan ₿ Academy.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
@@ -1429,13 +1429,13 @@ La chiave di lettura è che esistono diverse strategie per superare l'iperinflaz
 # Come siamo arrivati qui?
 
 
-<partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>
+<partId>d32a419f-ace2-4b63-8be0-5727d6c6c3af</partId>
 
 
 ## L'emergere del secondo Layer della moneta e delle banche centrali
 
 
-<chapterId>0455ffe3-9d45-5a67-ac96-3f815dc507a1</chapterId>
+<chapterId>47b3add9-dc60-4a05-b380-d9166f8c1886</chapterId>
 
 
 Trascrizione:
@@ -1528,7 +1528,7 @@ Le banche centrali si sono trasformate in prestatori di ultima istanza, sospende
 ## Libri e risorse
 
 
-<chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
+<chapterId>53dc2a2f-11af-4370-a137-274c4d861e5c</chapterId>
 
 
 L'iperinflazione è un argomento affascinante che è stato studiato attraverso vari eventi storici. Se desiderate approfondire questo argomento, ecco un elenco di 10 risorse essenziali da leggere e studiare:
@@ -1579,14 +1579,14 @@ L'iperinflazione è un argomento affascinante che è stato studiato attraverso v
 ## Recensioni e valutazioni
 
 
-<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<chapterId>3e37d04e-0239-454f-9701-9479bc08a5bc</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Esame finale
 
 
-<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
+<chapterId>baf9e2af-d020-4188-84a1-c33e653d17ee</chapterId>
 
 <isCourseExam>true</isCourseExam>
 

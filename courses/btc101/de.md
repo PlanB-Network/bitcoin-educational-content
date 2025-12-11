@@ -19,11 +19,11 @@ Es sind keine Vorkenntnisse erforderlich, um diesen Kurs zu beginnen. BTC 101 wu
 
 # Einführung
 
-<partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
+<partId>34ab5c9f-08b8-4324-a53e-582c63a2b1ea</partId>
 
 ## Kursüberblick
 
-<chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
+<chapterId>a47e30ce-f437-404b-99e0-0c1cf1a78f37</chapterId>
 
 Willkommen im Kurs BTC101!
 
@@ -87,7 +87,7 @@ Bereit, in die faszinierende Welt von Bitcoin einzutauchen und all seine Mechani
 
 ## Die Vorgeschichte von Bitcoin
 
-<chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
+<chapterId>0824f3a8-502a-4321-bb0d-13ccba37f3fa</chapterId>
 
 Bevor der Begriff "Bitcoin" zum Synonym für digitale Währung und Finanztransformation wurde, wurde der Grundstein für seine Entstehung durch eine Reihe von Ideen, Innovationen und sozialen Bewegungen gelegt. Unter ihnen sticht die Cypherpunk-Bewegung als Schlüsselelement in der Vorgeschichte von Bitcoin hervor.
 
@@ -145,11 +145,11 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 # Geld
 
-<partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
+<partId>c7430a3c-6419-465e-b84d-d677e277f732</partId>
 
 ## Geld im Laufe der Geschichte
 
-<chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
+<chapterId>84047ee5-9f48-4105-9849-8be318496304</chapterId>
 
 Die Entwicklung des Geldes ist ein faszinierender Aspekt der menschlichen Geschichte, der den Erfindungsreichtum der Zivilisationen im Laufe der Zeit bei der Erfüllung der sich ständig verändernden wirtschaftlichen Bedürfnisse widerspiegelt.
 
@@ -210,7 +210,7 @@ Andererseits bietet der Bitcoin neue Möglichkeiten. Seine Eigenschaften, wie da
 
 ## Fiat-Währungen
 
-<chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
+<chapterId>8c6dbe02-c275-4568-bd1b-fc36b8d4796d</chapterId>
 
 > "Diejenigen, die sich nicht an die Vergangenheit erinnern können, sind dazu verdammt, sie zu wiederholen", sagte George Santayana.
 > Eine Wahrheit, die in Bezug auf das derzeitige Währungssystem überzeugend nachhallt.
@@ -267,7 +267,7 @@ https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Hyperinflation
 
-<chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
+<chapterId>3f99733a-7a40-42a8-870c-cc4947560bba</chapterId>
 
 Hyperinflation ist ein monetäres Phänomen, das spezifisch für Fiat-Währungen ist: Sie ist gekennzeichnet durch einen vollständigen Vertrauensverlust in eine Währung und einen drastischen Anstieg der Inflation aufgrund des Gelddruckens durch die Behörden. Infolgedessen können sich die Ersparnisse der Bürger in relativ kurzer Zeit auflösen und das Land an den Rand des wirtschaftlichen, sozialen und politischen Zusammenbruchs treiben.
 
@@ -354,7 +354,7 @@ https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 ## 21 Millionen Bitcoins
 
-<chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
+<chapterId>e6172b08-5916-4f9f-a06f-4405c52c06ab</chapterId>
 
 ### Die Geldpolitik von Bitcoin
 
@@ -395,7 +395,7 @@ Nach erfolgreicher Durchführung dieser Aufgabe werden die Miner alle zehn Minut
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Wir werden das Konzept des Minings im [Mining Kapitel](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf) näher erläutern.
+Wir werden das Konzept des Minings im [Mining Kapitel](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/f2ce96f9-66d5-4286-9a18-9e1506b369b5) näher erläutern.
 
 ### Gewährleistung der digitalen Knappheit
 
@@ -445,11 +445,11 @@ Zusammenfassend lässt sich sagen, dass Bitcoin mit seiner dezentralen Natur, se
 
 # Bitcoin-Wallets
 
-<partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
+<partId>3b488c45-d286-4083-8824-ec259cc2a324</partId>
 
 ## Was sind Bitcoin-Wallets?
 
-<chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
+<chapterId>149c6588-94ae-46b6-b073-9ffc18912397</chapterId>
 
 In Abschnitt 2 werden wir die Speicherung und Sicherheit von Bitcoin durch die Verwendung von Wallets untersuchen, um zu verstehen, wo sich diese berühmten Bitcoins befinden und wie man mit ihnen umgeht!
 
@@ -513,7 +513,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ## Bitcoin-Wallets und Sicherheit
 
-<chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
+<chapterId>40485240-351a-471c-b017-faebfb836470</chapterId>
 
 ### Vor dem Start die richtigen Fragen stellen
 
@@ -577,7 +577,7 @@ Mit diesem Wissen können wir nun zum nächsten Abschnitt übergehen, in dem wir
 
 ## Einrichten einer Wallet
 
-<chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
+<chapterId>1bfd3d5d-a81b-4b7f-ad88-4bf41593606a</chapterId>
 
 Die Sicherheit deiner Bitcoins ist von entscheidender Bedeutung, und ein einfacher Fehler kann katastrophale Folgen haben. Deshalb müssen wir lernen, wie man am besten vorgeht, wenn man eine neue Bitcoin-Wallet erstellt.
 
@@ -622,7 +622,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Bitcoins sicher Verwahren
 
-<chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
+<chapterId>7dd119da-9073-4e03-ab83-e45890616790</chapterId>
 
 Wie jede Form von Reichtum müssen auch deine Bitcoins vor Verlust, Diebstahl und Verfall geschützt werden, insbesondere auf lange Sicht. Der Schutz deiner Bitcoins erfordert einige technische Kenntnisse und ein Verständnis der damit verbundenen Risiken, was den Weg für zwei Hauptstrategien eröffnet: die Gravur Ihrer Bitcoins auf einer Stahlplatte und die Erstellung eines Erbschaftsplans.
 
@@ -670,11 +670,11 @@ Nachdem wir nun die Grundlagen von Bitcoin-Wallets und die besten Praktiken für
 
 # Die technischen Aspekte von Bitcoin.
 
-<partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
+<partId>8b110fdd-b51f-48a9-a966-33649e55c971</partId>
 
 ## Der Start von Bitcoin
 
-<chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>
+<chapterId>76ab52b9-2c33-4242-9db1-64fb1fb92b4e</chapterId>
 
 ### Beginnen wir mit einer kleinen Geschichte.
 
@@ -727,7 +727,7 @@ Nachdem wir nun etwas Hintergrundwissen haben, wollen wir nun untersuchen, wie e
 
 ## Bitcoin-Transaktionen
 
-<chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
+<chapterId>be72afa9-8198-45a5-95a8-3c87f971fbb2</chapterId>
 
 Eine Bitcoin-Transaktion ist einfach eine Übertragung des Eigentums an Bitcoins durch die Verwendung einer Bitcoin-Adresse. Um diesen Prozess zu beschreiben, stellen wir zwei Protagonisten vor: Alice und Bob. Alice möchte Bitcoins erwerben, während Bob bereits einige besitzt.
 
@@ -785,7 +785,7 @@ Schauen wir uns genauer an, wie eine Bitcoin-Node funktioniert.
 
 ## Bitcoin-Nodes
 
-<chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
+<chapterId>430fdc8d-d60c-4dde-a7a5-96916f40056e</chapterId>
 
 Nodes sind ein grundlegendes Element der Bitcoin-Netzwerkarchitektur, da sie verschiedene wichtige Funktionen erfüllen:
 
@@ -834,7 +834,7 @@ Nach diesem Sieg aktivierten die Nodes ein Update namens SegWit und ebneten dami
 
 ## Miner
 
-<chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
+<chapterId>f2ce96f9-66d5-4286-9a18-9e1506b369b5</chapterId>
 
 **Miner sichern das Netzwerk und fügen Transaktionen zu den Blöcken hinzu. Sie verwenden Elektrizität durch ASIC-Maschinen, um den Bitcoin-Arbeitsnachweis (proof-of-wokr) zu lösen.**
 
@@ -915,7 +915,7 @@ https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## Bitcoin und Ökologie
 
-<chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
+<chapterId>68cc1d11-d355-479f-beb1-364ea0f48219</chapterId>
 
 Im vorigen Abschnitt haben wir verstanden, dass die Sicherheit des Bitcoin-Protokolls auf einem hohen Energieverbrauch beruht, um ein öffentliches Hauptbuch der Transaktionen ohne eine vertrauenswürdige dritte Partei zu erstellen. In den Mainstream-Medien werden die Gesamtenergiekosten oft mit dem Stromverbrauch eines kleinen Landes verglichen. Aber ist dieser Vergleich sinnvoll? Ist es wichtig, die Gründe für derartige Kosten zu verstehen?
 
@@ -973,11 +973,11 @@ Somit ist das Bitcoin-Protokoll ein unzensierbares und unaufhaltsames Geldsystem
 
 # Wie kommt man an Bitcoin heran?
 
-<partId>517e1bb7-f032-51a0-930a-a91fe5148d3f</partId>
+<partId>a48118af-b3b8-4f00-bbda-c2c4ca0f788e</partId>
 
 ## Bitcoin schläft nie!
 
-<chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
+<chapterId>648dbb03-969a-46ef-bdae-1463c06a4aaf</chapterId>
 
 Der Preis von Bitcoin ist oft durch eine erhebliche Volatilität gekennzeichnet. Sein Wert kann je nach Marktschwankungen oder Bullen- und Bären-Phasen erheblich schwanken, genau wie jeder andere Finanzmarkt.
 
@@ -1033,7 +1033,7 @@ Heute überlebt der Bitcoin und wächst weiter, indem er mehr und mehr in den tr
 
 ## Bitcoins durch Arbeit verdienen
 
-<chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
+<chapterId>4bcac1ce-e4e1-4fc8-9548-5eb262688ea5</chapterId>
 
 ### Es entwickelt sich eine Parallelwirtschaft
 
@@ -1077,7 +1077,7 @@ https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Sparen mit Bitcoin
 
-<chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
+<chapterId>11782e1e-3807-4669-8c4b-19c431669eba</chapterId>
 
 ### Eine Warnung, bevor wir anfangen!
 
@@ -1176,7 +1176,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Hyper-Bitcoinisierung
 
-<chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>
+<chapterId>a8cf0971-defd-4bf8-934b-5e412448438e</chapterId>
 
 ### Das wilde Rennen hat gerade erst begonnen!
 
@@ -1200,11 +1200,11 @@ Wenn du dein Wissen über Bitcoin erweitern möchtest, ist dies der richtige Zei
 
 # Die Zukunft von Bitcoin: Das Lightning-Netzwek
 
-<partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
+<partId>297f74b5-3ba1-4f63-b41b-43256778bea3</partId>
 
 ## Eine kurze Einführung in das Lightning-Netzwerk
 
-<chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
+<chapterId>ad635a0f-4f91-4cac-843b-b9d51eb0bc9e</chapterId>
 
 Nachdem wir nun die Grundlagen des Bitcoin-Protokolls kennen, werden wir ein Zahlungsnetzwerk vorstellen, das das Bitcoin-Protokoll nutzt, um blitzschnelle Transaktionen zu ermöglichen: Lightning-Netzwerk!
 
@@ -1248,7 +1248,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## Lightning-Netzwerk Anwendungsfälle
 
-<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+<chapterId>cd29874a-5ea2-4773-a6e4-e8d36b1bb4da</chapterId>
 
 Wie wir soeben gesehen haben, steht das Bitcoin-Protokoll, obwohl es revolutionär ist, vor erheblichen Herausforderungen in Bezug auf die Skalierbarkeit, die für die Abwicklung all unserer täglichen Transaktionen erforderlich ist. Um diese Probleme zu lösen, wurde das Lightning-Netzwerk vorgeschlagen und hat sich seitdem zu mehreren verschiedenen Implementierungen entwickelt, die alle miteinander kompatibel sind:
 
@@ -1280,7 +1280,7 @@ Abschließend lässt sich sagen, dass das Lightning-Netzwerk eine Vielzahl von s
 
 ## Rote Pille oder blaue Pille?
 
-<chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
+<chapterId>03d79262-a035-4a62-acca-f8ed9ae5a8a4</chapterId>
 
 Wie Morpheus zu Neo sagte: "Nimmst die blaue Pille, endet die Geschichte, du wachst in deinem Bett auf und glaubst, was immer du glauben willst. Nimmst du die rote Pille, bleibst du im Wunderland, und ich zeige dir, wie tief der Kaninchenbau ist." Bist du bereit, den Kaninchenbau von Bitcoin zu erkunden? Sei vorsichtig, denn du könntest deine finanzielle Freiheit wiederentdecken!
 
@@ -1348,19 +1348,19 @@ Bist du bereit mitzumachen?
 
 ## Rezensionen und Bewertungen
 
-<chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
+<chapterId>d58144ad-33da-47a6-9030-61b649fe5550</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Abschlussprüfung
 
-<chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
+<chapterId>cbf5ded3-69c8-485f-8528-28fc0e7ea299</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## Schlussfolgerung
 
-<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+<chapterId>8a17f1ba-3ba1-4864-896d-be4cc3d5844a</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
 

@@ -16,7 +16,7 @@ Alekos와 Bas가 만들고 melontwist와 asi0가 각색한 이 과정은 개인�
 # 소개
 
 
-<partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
+<partId>541d6444-caf8-4e5b-80c3-b97f4d883d57</partId>
 
 
 ## 코스 개요
@@ -57,7 +57,7 @@ BTCPay 서버를 마스터하고 비즈니스를 성장시킬 준비가 되셨�
 ## 저자의 Bitcoin 및 BTCPay 서버에 대한 비평가들의 찬사
 
 
-<chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
+<chapterId>f0645534-c825-40fb-a190-e24358e8accc</chapterId>
 
 
 BTCPay 서버가 무엇이며 그 기원을 이해하는 것부터 시작하겠습니다. 저희는 Bitcoin 공간에서 신뢰를 형성하기 위해 투명성과 특정 표준을 중요하게 생각합니다.
@@ -113,7 +113,7 @@ BTCPay 서버 과정을 통해 수강생은 Bitcoin의 기술적, 비기술적 �
 ## Bitcoin 소개
 
 
-<chapterId>5c0bc234-c188-5b4a-94d5-adee87a120e2</chapterId>
+<chapterId>ba6af1e5-86f1-4139-a549-df2367d6319a</chapterId>
 
 
 ### 강의실 실습을 통한 Bitcoin 이해
@@ -217,7 +217,7 @@ BTCPay 서버 과정을 통해 수강생은 Bitcoin의 기술적, 비기술적 �
 ## 지식 평가
 
 
-<chapterId>1461f064-933d-50ea-8935-324b68ec5d5f</chapterId>
+<chapterId>c8cec6af-1e57-4a0e-a86a-7dc35f5c2350</chapterId>
 
 
 ### KA 강의실 토론
@@ -248,13 +248,13 @@ Blockchain, 트랜잭션, 이중 지출, 비잔틴 장군의 문제, Mining, Pro
 # BTCPay 서버 소개
 
 
-<partId>9c8a2d0c-9ba1-5c39-874c-f9eaf1bba663</partId>
+<partId>8a8bbf80-1322-4ad0-b49c-9c18b969236d</partId>
 
 
 ## BTCPay 서버 로그인 화면 이해
 
 
-<chapterId>14aad54c-9bd8-54f2-9455-178b8ae63408</chapterId>
+<chapterId>2d35d204-1c04-418f-91eb-a7a547ddc210</chapterId>
 
 
 ### BTCPay 서버로 작업하기
@@ -355,7 +355,7 @@ https://Mainnet.demo.btcpayserver.org/login.
 ## 사용자 계정 관리
 
 
-<chapterId>b58ca6ee-b7fc-5e81-a6aa-c8ff212b4c55</chapterId>
+<chapterId>7f2dcbc7-ba0b-4515-bf6d-d23ab19c1831</chapterId>
 
 
 ### BTCPay 서버에서 계정 관리
@@ -475,7 +475,7 @@ BTCPay 서버는 2FA를 활성화하는 두 가지 방법, 즉 앱 기반 2FA(Au
 ## 새 스토어 생성
 
 
-<chapterId>463b3634-b49f-5512-a711-3b2e096fc2e0</chapterId>
+<chapterId>6e8d48b0-b9b6-4fbd-8961-5cde37109c0d</chapterId>
 
 
 ### 스토어 생성 마법사
@@ -561,13 +561,13 @@ BTCPay 서버 계정은 스토어 개수에 제한 없이 생성할 수 있습�
 # Bitcoin 키 보안 소개
 
 
-<partId>25da22d8-fd37-51c5-af2a-58b9f3b046b2</partId>
+<partId>dd0975de-76e6-4255-a3b2-e454009d1aa5</partId>
 
 
 ## Bitcoin 키 생성에 대한 이해
 
 
-<chapterId>d162735b-847b-578e-83b8-a044ab703ec5</chapterId>
+<chapterId>8a6164a5-aea6-4348-aa71-135d03de98bc</chapterId>
 
 
 ### Bitcoin 키 생성에는 어떤 것이 포함되나요?
@@ -640,7 +640,7 @@ Address은 "해싱 알고리즘"을 통해 공개 키에서 파생됩니다 그�
 ## Hardware Wallet으로 키 보안
 
 
-<chapterId>c54a6d61-5a43-5fdb-93ae-c6750de9c612</chapterId>
+<chapterId>94cf5f31-7292-4608-b10e-8e46b1ebd627</chapterId>
 
 
 ### Bitcoin 키 저장
@@ -701,7 +701,7 @@ Hot 지갑은 모바일, 웹 또는 데스크톱 소프트웨어를 통해 Bitco
 ## Bitcoin 키 사용
 
 
-<chapterId>bff488de-5052-56e6-b696-97e896f762ae</chapterId>
+<chapterId>ae5aafd5-28b7-4ef7-8ebc-3ac5f19769c7</chapterId>
 
 
 ### BTCPay 서버 Wallet
@@ -1039,7 +1039,7 @@ Hot Wallet를 사용할 때는 관리자 외에 다른 사람에게 SSH 키나 �
 ## BTCPay 서버 라이트닝 Wallet
 
 
-<chapterId>1bbece7e-0197-57e6-a93a-561cf384d946</chapterId>
+<chapterId>ca874f9a-4f97-44d5-9bf4-57c8b17d25bf</chapterId>
 
 
 서버 관리자가 새 BTCPay 서버 인스턴스를 프로비저닝하는 경우 LND, Core Lightning 또는 Eclair와 같은 Lightning Network 구현을 설정할 수 있으며, 자세한 설치 지침은 BTCPay 서버 구성하기 부분을 참조하세요.
@@ -1289,13 +1289,13 @@ Lightning Wallet를 스토어에 연결하기 위한 다양한 옵션에 대해 
 # BTCPay 서버 Interface
 
 
-<partId>25e88b81-e1ab-515f-a035-09f2a3075556</partId>
+<partId>76b4a36d-9cf8-469d-a763-a75cc38c812a</partId>
 
 
 ## 대시보드 개요
 
 
-<chapterId>410ff28b-a272-5c91-93e0-48d5b28c53ab</chapterId>
+<chapterId>8bd1c31e-a487-4c32-b3af-bcecc7117a80</chapterId>
 
 
 BTCPay 서버는 모듈식 소프트웨어 패키지입니다. 그러나 모든 BTCPay 서버가 준수해야 하는 표준이 있으며, 이러한 표준은 관리자와 사용자 간의 상호 작용을 관리합니다. 대시보드부터 시작하겠습니다. 대시보드는 로그인 후 모든 BTCPay 서버의 주요 진입 지점입니다. 대시보드에서는 스토어 실적, Wallet의 현재 잔액, 지난 7일간의 거래에 대한 개요를 확인할 수 있습니다. 모듈식 보기이므로 플러그인은 이 보기를 활용하여 대시보드에 타일을 만들 수 있습니다. 이 강좌에서는 표준 플러그인 및 앱과 해당 뷰에 대해서만 BTCPay 서버 전반에 걸쳐 설명하겠습니다.
@@ -1419,7 +1419,7 @@ POS 타일과 크라우드펀딩 타일에는 약간의 차이가 있습니다. 
 ## BTCPay 서버 - 스토어 설정
 
 
-<chapterId>e8faef7b-278d-550e-a511-bc3a442daf64</chapterId>
+<chapterId>00ff7c8c-46f9-4d88-92cc-c63e4ff348f9</chapterId>
 
 
 BTCPay 서버 소프트웨어에는 두 가지 유형의 설정이 있습니다. 대시보드 아래 왼쪽 메뉴 표시줄에 있는 설정 버튼인 BTCPay 서버 스토어별 설정과 메뉴 표시줄 하단, 계정 바로 위에 있는 BTCPay 서버 설정이 있습니다. BTCPay 서버 서버별 설정은 서버 관리자만 볼 수 있습니다.
@@ -1874,7 +1874,7 @@ BTCPay 서버를 사용하면 코드에서 양식을 작성할 수도 있습니�
 ## BTCPay 서버 - 서버 설정
 
 
-<chapterId>1dd858a2-49ea-586b-9bc1-75a65f508df6</chapterId>
+<chapterId>07022d6d-594f-46d7-8363-c8c16a561f4f</chapterId>
 
 
 BTCPay 서버는 두 가지 설정 보기로 구성됩니다. 하나는 스토어 설정 전용이고 다른 하나는 서버 설정 전용입니다. 후자는 서버 관리자만 사용할 수 있으며 스토어 소유자는 사용할 수 없습니다. 서버 관리자는 사용자 추가, 사용자 지정 역할 생성, 이메일 서버 구성, 정책 설정, 유지 관리 작업 실행, BTCPay 서버에 연결된 모든 서비스 확인, 서버에 파일 업로드, 로그 확인 등의 작업을 수행할 수 있습니다.
@@ -2440,7 +2440,7 @@ BTCPay 서버는 로컬 파일 시스템을 갖추고 있어 스토어(제품) �
 ## BTCPay 서버 - 결제
 
 
-<chapterId>e2b71ff9-3f4f-5e71-9771-8e03fbbef00f</chapterId>
+<chapterId>1f6899d4-85c1-41fe-8f23-4a7bec44e9c2</chapterId>
 
 
 Invoice는 판매자가 대금을 수령하기 위해 구매자에게 발행하는 문서입니다.
@@ -2786,7 +2786,7 @@ BTCPay 서버는 발신자와 수신자 모두에게 전체 API를 제공하며,
 ## BTCPay 서버 기본 플러그인
 
 
-<chapterId>7d673dc4-bd5d-5411-819b-f135f1d86636</chapterId>
+<chapterId>2d994561-7f8d-4862-8b9f-cee7d81df6f2</chapterId>
 
 
 ### 기본 플러그인 및 앱
@@ -3273,13 +3273,13 @@ BTCPay 서버에 기본으로 제공되는 세 가지 내장 플러그인은 무
 # BTCPay 서버 구성
 
 
-<partId>ff38596c-7de3-5e5c-ba50-9b9edbbbb5eb</partId>
+<partId>c3a8bd83-0676-4388-87b2-325d67f43d9d</partId>
 
 
 ## 루나노드 환경에 BTCPay 서버 설치에 대한 기본 이해
 
 
-<chapterId>d0a28514-ffcf-529b-9156-29141f0b060a</chapterId>
+<chapterId>f0f934af-eb3c-4d86-bd7b-3fee8fb7c10e</chapterId>
 
 
 ### 호스팅 환경(LunaNode)에 BTCPay 서버 설치하기
@@ -3418,7 +3418,7 @@ VPS에서 BTCPay 서버 인스턴스를 실행하는 것과 호스팅 인스턴�
 ## 전압 환경에 BTCPay 서버 설치하기
 
 
-<chapterId>11c7d284-b4d2-5542-872c-df9bd9c1491b</chapterId>
+<chapterId>ef790587-4c73-4311-96f1-5a9219b9a7fd</chapterId>
 
 
 호스팅 제공업체인 Voltage.cloud에 익숙해지고, BTCPay 서버를 사용하는 첫 단계에 대해 배우고, Lightning Network을 사용하는 방법을 배우게 됩니다. 모든 단계를 마친 후에는 Bitcoin를 받는 웹숍이나 크라우드펀딩 플랫폼을 운영할 수 있습니다!
@@ -3491,7 +3491,7 @@ https://docs.btcpayserver.org.
 ## 엄브렐 노드에 BTCPay 서버 설치하기
 
 
-<chapterId>3298e292-6476-5fe0-836c-7fa021348799</chapterId>
+<chapterId>bdd94bfc-c8da-4c8b-8b0e-ed4f9a5dd42e</chapterId>
 
 
 이 단계가 끝나면 로컬 네트워크의 BTCPay 스토어에서 라이트닝 결제를 수락할 수 있습니다. 이 프로세스는 레스토랑이나 비즈니스에서 엄브렐 노드를 운영하는 경우에도 적용됩니다. 이 스토어를 공개 웹사이트에 연결하려면 고급 연습을 따라 엄브렐 노드를 대중에게 노출하세요.
@@ -3580,20 +3580,20 @@ BTCPay 서버를 클릭하여 앱 세부 정보를 확인합니다. BTCPay 서�
 # 최종 섹션
 
 
-<partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
+<partId>5449bff6-f410-4f2a-a373-7b915bb6d726</partId>
 
 
 
 
 ## 리뷰 및 평가
 
-<chapterId>d90bb93d-b894-551e-9fd6-6855c739a904</chapterId>
+<chapterId>bf665be7-1be0-4d54-b8c6-64fbb40c9190</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## 과정 결론
 
 
-<chapterId>c07ac2a5-f97e-5c57-8a80-4955b48128d4</chapterId>
+<chapterId>bbda2002-757d-4dad-8c8a-ff95cec77077</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

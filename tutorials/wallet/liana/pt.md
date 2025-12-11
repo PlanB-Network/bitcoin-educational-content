@@ -27,7 +27,7 @@ O diagrama abaixo ilustra o funcionamento de uma carteira com duas trajectórias
 Esta operação permite-lhe definir várias configurações, incluindo :
 
 
-- Um plano de sucessão (ou herança), que permite aos herdeiros recuperar os fundos em caso de morte do utilizador. Para mais informações sobre este assunto, recomendamos a leitura da [parte 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) do curso BTC102.
+- Um plano de sucessão (ou herança), que permite aos herdeiros recuperar os fundos em caso de morte do utilizador. Para mais informações sobre este assunto, recomendamos a leitura da [parte 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/dcec2c9c-f5d9-4d47-977d-d21c5bff05cb) do curso BTC102.
 - Uma cópia de segurança reforçada com um tempo de recuperação, dando ao utilizador a possibilidade de utilizar a sua carteira sem ter de guardar a frase secreta correspondente e correr o risco de a ver roubada, por exemplo, durante um assalto.
 - Uma rede de segurança para as pessoas que se iniciam na utilização da Bitcoin: gerem a sua própria carteira e o seu "tutor" (um familiar, por exemplo) reserva-se o direito de recuperar os seus fundos após um determinado período.
 - Um sistema de assinatura multipartidário (*multisig*) com requisitos reduzidos ao longo do tempo, para fazer face ao desaparecimento de um ou mais participantes, como os sócios de uma empresa.

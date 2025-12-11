@@ -17,14 +17,14 @@ BTC304에서는 커뮤니티 구축이 왜 중요한지 살펴보고, 강력한 
 # 소개
 
 
-<partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
+<partId>c896831e-b8d8-4324-bcad-b289c88db81b</partId>
 
 
 
 ## 코스 개요
 
 
-<chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
+<chapterId>42660201-57ae-4438-846a-80cd529087ca</chapterId>
 
 
 
@@ -144,7 +144,7 @@ Bitcoin은 아직 초기 단계에 있지만, 여러분도 이미 알고 계시�
 ## Bitcoin 커뮤니티 또는 밋업을 시작하는 이유는 무엇인가요?
 
 
-<chapterId>893ea248-7d5a-5b8e-948c-7031497b1031</chapterId>
+<chapterId>ce63ff45-9c9e-4a77-a175-99906bb95208</chapterId>
 
 
 
@@ -241,7 +241,7 @@ Bitcoin 모임은 다양한 용도로 활용될 수 있습니다:
 
 
 
-이 과정의 6/8부 '[프로젝트 및 이니셔티브의 예](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279)에서 이러한 가능성에 대해 자세히 다룰 예정입니다.
+이 과정의 6/8부 '[프로젝트 및 이니셔티브의 예](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab)에서 이러한 가능성에 대해 자세히 다룰 예정입니다.
 
 
 
@@ -252,7 +252,7 @@ Bitcoin 모임은 다양한 용도로 활용될 수 있습니다:
 ## 커뮤니티는 어디에 만들어야 하나요?
 
 
-<chapterId>72da5285-5395-592d-ab62-303a0aef3d6d</chapterId>
+<chapterId>0b6bd32a-15ff-4b09-870d-5a2f6ea0d774</chapterId>
 
 
 
@@ -309,7 +309,7 @@ Bitcoin는 탈중앙화되어 있으므로 누구나 원하는 대로 자유롭�
 ## 커뮤니티를 이끌어야 하는 목표는 무엇인가요?
 
 
-<chapterId>0aae1aa8-93ec-544a-ad88-22d32c619595</chapterId>
+<chapterId>2b2f58e5-c2ab-4b85-af19-02d7ad2aa503</chapterId>
 
 
 
@@ -353,7 +353,7 @@ Bitcoin에 대한 지식을 공유하고 사람들에게 교육하는 것이 목
 
 
 
-하지만 나중에 [프로젝트 및 이니셔티브의 예](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279)에서 살펴보겠지만 **모임은 여러 가지 목적을 가지고 다양한 방식으로 구성할 수 있습니다**
+하지만 나중에 [프로젝트 및 이니셔티브의 예](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab)에서 살펴보겠지만 **모임은 여러 가지 목적을 가지고 다양한 방식으로 구성할 수 있습니다**
 
 
 
@@ -424,14 +424,14 @@ Bitcoin에 대한 지식을 공유하고 사람들에게 교육하는 것이 목
 # 커뮤니티 아이덴티티 디자인하기 Bitcoin
 
 
-<partId>da6673ad-bf49-5979-80a6-3f69cfb28046</partId>
+<partId>507dd86a-0214-4c18-ae0d-34702291fb74</partId>
 
 
 
 ## 나만의 아이덴티티를 만드는 이유와 방법은 무엇인가요?
 
 
-<chapterId>b48a18cc-afdf-5216-802c-32647b5cd8a3</chapterId>
+<chapterId>4475004b-19e7-4c0f-a799-fd2cb0baefad</chapterId>
 
 
 
@@ -532,7 +532,7 @@ Bitcoin에 대한 지식을 공유하고 사람들에게 교육하는 것이 목
 ## 로고, 포스터 및 배너 만들기
 
 
-<chapterId>3470a31f-0190-5e87-8af0-6a00e79267ef</chapterId>
+<chapterId>8b85ccb1-5474-474e-ae1b-c8cb69f060ad</chapterId>
 
 
 
@@ -763,14 +763,14 @@ Canva는 로고, 포스터, 배너, 전단지를 제작할 수 있는 다양한 
 # Bitcoin 커뮤니티를 위한 커뮤니케이션 채널 만들기
 
 
-<partId>fc588298-6876-554c-bd57-55d182464878</partId>
+<partId>054892b5-21cb-43f8-a1c2-750d3175fa68</partId>
 
 
 
 ## 어떤 커뮤니케이션 채널을 선택해야 하나요?
 
 
-<chapterId>b4f4eef6-1035-5290-848a-2b7f9391c77a</chapterId>
+<chapterId>3c111ec9-2517-4b9a-bba4-68ac531e081f</chapterId>
 
 
 
@@ -831,7 +831,7 @@ Matrix, Keet, Signal, Facebook, Instagram, LinkedIn과 같은 다른 플랫폼�
 ## 텔레그램 채널, 그룹 또는 슈퍼그룹 생성 및 구성하기
 
 
-<chapterId>d13714ce-8f08-53e9-bedd-b6a3aaac5dad</chapterId>
+<chapterId>7b87c24a-4820-4652-a3de-dc29cafea4d0</chapterId>
 
 
 
@@ -866,7 +866,7 @@ Matrix, Keet, Signal, Facebook, Instagram, LinkedIn과 같은 다른 플랫폼�
 회원들이 서로 직접 대화하고, 서로에게 답글을 달 수 있는 공간을 만들고 싶다면, 텔레그램 채널이 아닌 텔레그램 그룹을 만드는 것이 좋습니다!
 
 
-다음 섹션인 [텔레그램 그룹 만들기](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad)로 바로 이동합니다.
+다음 섹션인 [텔레그램 그룹 만들기](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/7b87c24a-4820-4652-a3de-dc29cafea4d0)로 바로 이동합니다.
 
 
 
@@ -997,7 +997,7 @@ Matrix, Keet, Signal, Facebook, Instagram, LinkedIn과 같은 다른 플랫폼�
 ## 텔레그램 그룹 또는 슈퍼그룹 설정하기
 
 
-<chapterId>35e674b3-5924-50b0-98f1-83a56c9a186d</chapterId>
+<chapterId>a8c5bc2e-9a91-4da1-aae7-8a3684631dc8</chapterId>
 
 
 
@@ -1053,7 +1053,7 @@ Matrix, Keet, Signal, Facebook, Instagram, LinkedIn과 같은 다른 플랫폼�
 ## 텔레그램 그룹에 다기능 봇 추가하기
 
 
-<chapterId>c61f69cc-15ec-53f1-8c02-1cea55def09e</chapterId>
+<chapterId>80108eb0-6648-4fe9-b41f-586f03466805</chapterId>
 
 
 
@@ -1105,7 +1105,7 @@ Matrix, Keet, Signal, Facebook, Instagram, LinkedIn과 같은 다른 플랫폼�
 ## Discord 서버 만들기
 
 
-<chapterId>eef2a965-4c24-5f3a-8013-72cc7d315314</chapterId>
+<chapterId>9d3f69cb-a61c-40f2-abad-e4a4be6b96cb</chapterId>
 
 
 
@@ -1150,7 +1150,7 @@ Matrix, Keet, Signal, Facebook, Instagram, LinkedIn과 같은 다른 플랫폼�
 ## 보다 안전한 대체 비공개 커뮤니케이션 채널 고려하기
 
 
-<chapterId>29d0aad6-0612-5dd0-bcef-7337eaf4fefc</chapterId>
+<chapterId>495024db-90fb-4aa9-984e-1dc2b2b90947</chapterId>
 
 
 
@@ -1178,14 +1178,14 @@ NOSTR 소셜 네트워크와 마찬가지로, 프라이버시 보호는 물론, 
 # 소셜 네트워크 시작
 
 
-<partId>8ebf8cd7-9248-543f-bc27-4ec4cc03f9cf</partId>
+<partId>f98a016c-d5b2-43b4-b8ee-ad6163d7e6c5</partId>
 
 
 
 ## Bitcoin 커뮤니티 성장을 위한 가시성의 중요성
 
 
-<chapterId>b20f12e4-c5de-5f02-80c7-b7fc6cadd3ac</chapterId>
+<chapterId>ecd581a7-17e6-4730-ac9f-859a782a957e</chapterId>
 
 
 
@@ -1219,7 +1219,7 @@ NOSTR 소셜 네트워크와 마찬가지로, 프라이버시 보호는 물론, 
 ## 트위터 프로필 만들기
 
 
-<chapterId>c8d73097-8eba-5530-918c-221002954110</chapterId>
+<chapterId>f5bfb587-1edf-46ce-9683-833b344627b1</chapterId>
 
 
 
@@ -1232,7 +1232,7 @@ NOSTR 소셜 네트워크와 마찬가지로, 프라이버시 보호는 물론, 
 1/ **@ 트위터**는 내 신원을 정의하고 나를 쉽게 찾을 수 있게 해 줍니다. 커뮤니티 이름이 "Bitcoin [CITY]"인 경우 "@Bitcoin[CITY]"를 선택하는 것이 적절합니다;
 
 
-2/ 커뮤니티 또는 모임을 위해 만든 로고와 배너 (**[로고, 포스터 및 배너 만들기](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) 섹션 참조**);
+2/ 커뮤니티 또는 모임을 위해 만든 로고와 배너 (**[로고, 포스터 및 배너 만들기](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/8b85ccb1-5474-474e-ae1b-c8cb69f060ad) 섹션 참조**);
 
 
 3/ **설명**을 통해 커뮤니티에 대한 주요 정보를 몇 백 자로 공유할 수 있습니다. 예를 들어
@@ -1334,7 +1334,7 @@ NOSTR 소셜 네트워크와 마찬가지로, 프라이버시 보호는 물론, 
 ## 이웃 모임에 더 가까이 다가가기
 
 
-<chapterId>12a21c3b-235a-5292-8209-67bf60f61e49</chapterId>
+<chapterId>5cd84243-f3b6-4874-99a7-a2e2185cc118</chapterId>
 
 
 
@@ -1377,7 +1377,7 @@ NOSTR 소셜 네트워크와 마찬가지로, 프라이버시 보호는 물론, 
 ## Btcmap.org
 
 
-<chapterId>365f43d4-7b2c-5961-a184-157b8c1a0116</chapterId>
+<chapterId>8a628a6c-7daf-4382-9f13-a90b808fc908</chapterId>
 
 
 
@@ -1425,14 +1425,14 @@ NOSTR 소셜 네트워크와 마찬가지로, 프라이버시 보호는 물론, 
 # Bitcoin 밋업 개최
 
 
-<partId>c009d2a6-40ce-583b-bd24-fdfd1fea262e</partId>
+<partId>561335e4-a531-4e63-838f-56aa8ee04864</partId>
 
 
 
 ## 커뮤니티와 정기적인 밋업을 시작하는 이유는 무엇인가요?
 
 
-<chapterId>ed8e471c-3b99-57e2-a042-2d4e8a40b137</chapterId>
+<chapterId>acb31467-8192-45a8-afe1-e7bbdf1e32dd</chapterId>
 
 
 
@@ -1462,7 +1462,7 @@ NOSTR 소셜 네트워크와 마찬가지로, 프라이버시 보호는 물론, 
 ## 첫 만남: 언제, 그리고 왜?
 
 
-<chapterId>f3f8a614-cfb4-5994-a2e8-d56e6f8e3347</chapterId>
+<chapterId>1db6a73c-4782-4ed6-872a-eb23851e027e</chapterId>
 
 
 
@@ -1547,7 +1547,7 @@ NOSTR 소셜 네트워크와 마찬가지로, 프라이버시 보호는 물론, 
 
 
 
-이 작업에는 더 많은 정리와 시간이 필요하다는 점을 명심하세요. 다행히도 [이 강좌의 6/8부](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279)에서 재사용 가능한 다양한 오픈 소스 리소스를 찾아볼 수 있습니다.
+이 작업에는 더 많은 정리와 시간이 필요하다는 점을 명심하세요. 다행히도 [이 강좌의 6/8부](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab)에서 재사용 가능한 다양한 오픈 소스 리소스를 찾아볼 수 있습니다.
 
 
 어떤 경우든 여러분 또는 여러분의 커뮤니티가 스스로 설정한 단기, 중기, 장기 실행 계획에 따라 달라집니다.
@@ -1557,7 +1557,7 @@ NOSTR 소셜 네트워크와 마찬가지로, 프라이버시 보호는 물론, 
 ## 위치 검색
 
 
-<chapterId>405d389e-6a32-5777-af8d-293380d2e8fd</chapterId>
+<chapterId>b19eed85-6f0a-4de8-a679-34807bb2ac3e</chapterId>
 
 
 
@@ -1603,7 +1603,7 @@ NOSTR 소셜 네트워크와 마찬가지로, 프라이버시 보호는 물론, 
 ## 밋업 전
 
 
-<chapterId>c5218943-580d-5efc-89ed-6b5d728816d6</chapterId>
+<chapterId>2efeb301-7737-49bb-831b-f75f1a013ad7</chapterId>
 
 
 
@@ -1619,7 +1619,7 @@ NOSTR 소셜 네트워크와 마찬가지로, 프라이버시 보호는 물론, 
 
 
     - 소셜 네트워크 및 기타 커뮤니케이션 채널에서 날짜, 시간 및 위치를 공유합니다. 필요한 경우 등록 링크를 포함하세요.
-    - 전용 시각 자료 만들기(예: 캔버스 포스터, 2/8부 '[Bitcoin 커뮤니티의 아이덴티티 디자인하기](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)' 참조).
+    - 전용 시각 자료 만들기(예: 캔버스 포스터, 2/8부 '[Bitcoin 커뮤니티의 아이덴티티 디자인하기](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/4475004b-19e7-4c0f-a799-fd2cb0baefad)' 참조).
     - 텔레그램과 트위터에 공지를 고정하고, 디스코드에서 "@모두" 멘션을 사용하여 가시성을 극대화하세요.
     - 참석자들이 미리 계획을 세울 수 있도록 행사 7~10일 전에 공지사항을 게시합니다.
 
@@ -1650,7 +1650,7 @@ NOSTR 소셜 네트워크와 마찬가지로, 프라이버시 보호는 물론, 
 ## 밋업 당일
 
 
-<chapterId>cf60067b-591f-5fdf-9b9e-d442aad0e8f9</chapterId>
+<chapterId>7ba18449-1368-4ba7-8fe3-c9028afaa3e6</chapterId>
 
 
 
@@ -1689,7 +1689,7 @@ NOSTR 소셜 네트워크와 마찬가지로, 프라이버시 보호는 물론, 
 ## 밋업 후
 
 
-<chapterId>3e881af9-9c09-5721-81ee-c5cda3b109c5</chapterId>
+<chapterId>2f238eab-3931-46a2-a429-5ae9562e4c5d</chapterId>
 
 
 
@@ -1711,7 +1711,7 @@ NOSTR 소셜 네트워크와 마찬가지로, 프라이버시 보호는 물론, 
 ## 참가자 참여 및 유지의 중요성
 
 
-<chapterId>f5355e35-4b07-527c-88a3-8535cba7592c</chapterId>
+<chapterId>a50e8782-fb08-4aba-a42b-3fa86b5c4ffb</chapterId>
 
 
 
@@ -1721,7 +1721,7 @@ NOSTR 소셜 네트워크와 마찬가지로, 프라이버시 보호는 물론, 
 이를 실현하기 위해서는 한 가지가 필수적입니다: **바로 참가자의 참여를 유지하는 것**입니다.
 
 
-열정적인 비트코인 사용자들이 정기적으로 모여 Bitcoin에 대해 이야기하는 것을 목표로 하는 소규모 그룹으로 시작할 수 있습니다. 시간이 지나면서 각자의 가용성과 관심사에 따라 특정 조직 작업을 그룹과 **공유**하거나 핵심 **구성원을 초대하여 특정 프로젝트를 진행**할 수 있습니다. 이러한 프로젝트는 커뮤니티, 모임 또는 도시에 고유한 것이거나 [이 과정의 6/8부](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279)에서 제안한 여러 이니셔티브에서 영감을 얻은 것일 수도 있습니다. **이는 핵심 멤버로부터 Commitment을 육성할 뿐만 아니라 커뮤니티의 성장과 번영에도 도움이 됩니다**.
+열정적인 비트코인 사용자들이 정기적으로 모여 Bitcoin에 대해 이야기하는 것을 목표로 하는 소규모 그룹으로 시작할 수 있습니다. 시간이 지나면서 각자의 가용성과 관심사에 따라 특정 조직 작업을 그룹과 **공유**하거나 핵심 **구성원을 초대하여 특정 프로젝트를 진행**할 수 있습니다. 이러한 프로젝트는 커뮤니티, 모임 또는 도시에 고유한 것이거나 [이 과정의 6/8부](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab)에서 제안한 여러 이니셔티브에서 영감을 얻은 것일 수도 있습니다. **이는 핵심 멤버로부터 Commitment을 육성할 뿐만 아니라 커뮤니티의 성장과 번영에도 도움이 됩니다**.
 
 
 밋업이 진행됨에 따라 이전 주기에 비트코인 및/또는 알트코인을 구매했던 사람, 더 깊이 이해하고 싶은 기술 애호가, 조건 없이 신뢰할 수 있는 제3자 없이 작동하는 이 검열 없는 탈중앙화, 투명하고 공정한 결제 시스템에 대해 궁금해하는 초보자 등 새로운 얼굴들이 등장할 것입니다.
@@ -1761,14 +1761,14 @@ NOSTR 소셜 네트워크와 마찬가지로, 프라이버시 보호는 물론, 
 # 프로젝트 및 이니셔티브의 예
 
 
-<partId>45b3bc40-1c31-583e-8411-2662e6efd765</partId>
+<partId>75b8d7e2-97ce-455b-abb5-8bfa2a47f777</partId>
 
 
 
 ## 맥주를 마시는 것에서 더 나아가야 하는 이유는 무엇일까요?
 
 
-<chapterId>3213d87a-1998-5972-ab93-97a5769ba279</chapterId>
+<chapterId>05880102-07ac-413a-8433-8a6ab8fac2ab</chapterId>
 
 
 
@@ -1802,7 +1802,7 @@ Bitcoin 모임을 주최하면 새로운 사람들을 만나게 됩니다. 사�
 ## 연간 진행 상황에 따라 테마별 모임을 조직하세요
 
 
-<chapterId>46afdbcc-a775-5c16-b20a-34956690d58f</chapterId>
+<chapterId>c69c52bd-3b64-4ebc-bcce-5c3c8bd1b6e5</chapterId>
 
 
 
@@ -1862,7 +1862,7 @@ Bitcoin 모임을 주최하면 새로운 사람들을 만나게 됩니다. 사�
 ## 사이드 이벤트 및 워크샵 만들기
 
 
-<chapterId>9dbd651a-8712-5630-90b3-b9525dcc1385</chapterId>
+<chapterId>a6f89c65-1de3-40dc-ad55-f72e54c2f399</chapterId>
 
 
 
@@ -1889,7 +1889,7 @@ Bitcoin 모임을 주최하면 새로운 사람들을 만나게 됩니다. 사�
 ## 스티커 만들기
 
 
-<chapterId>d605f3b3-130e-513d-85e6-06bc5ea13e99</chapterId>
+<chapterId>1d7f4a6f-99f1-4c82-a55d-23c6d8f7b226</chapterId>
 
 
 
@@ -1929,7 +1929,7 @@ Bitcoin 모임을 주최하면 새로운 사람들을 만나게 됩니다. 사�
 ## 라이브러리 만들기
 
 
-<chapterId>acc94093-f8b3-51b8-9359-348e9e075d38</chapterId>
+<chapterId>a6db0905-19f7-475a-abdc-f4c5e85cd625</chapterId>
 
 
 
@@ -1985,7 +1985,7 @@ Bitcoin 모임을 주최하면 새로운 사람들을 만나게 됩니다. 사�
 ## 맞춤형 전단지 제작 및 배포
 
 
-<chapterId>62ad5430-c698-51b3-89ac-090f31c88953</chapterId>
+<chapterId>50949d74-897a-4097-8bad-65245e5bb5e1</chapterId>
 
 
 
@@ -2064,7 +2064,7 @@ Bitcoin 백서는 상징적인 의미가 있지만, 처음 접하는 사람들�
 ## 비디오 프로젝션 제작
 
 
-<chapterId>892b248a-b837-5df6-aac9-4b3261ff0390</chapterId>
+<chapterId>b129d071-f69a-4d55-a043-cc74e4cf6331</chapterId>
 
 
 
@@ -2104,7 +2104,7 @@ Bitcoin 백서는 상징적인 의미가 있지만, 처음 접하는 사람들�
 ## 도시에 포스터 게시하기
 
 
-<chapterId>6565e8a0-d535-5be0-9764-273584c675bd</chapterId>
+<chapterId>89c658aa-414c-4a3b-a6c7-2aa99f937a70</chapterId>
 
 
 
@@ -2147,7 +2147,7 @@ Bitcoin 백서는 상징적인 의미가 있지만, 처음 접하는 사람들�
 ## 개인화된 NFC 카드
 
 
-<chapterId>8ad65d4e-a68a-59c2-a812-85f4907ed9f3</chapterId>
+<chapterId>6734ae15-2cbe-4baf-b784-bb0afdfd95ee</chapterId>
 
 
 
@@ -2175,7 +2175,7 @@ Bitcoin 백서는 상징적인 의미가 있지만, 처음 접하는 사람들�
 ## 웹사이트 만들기
 
 
-<chapterId>9a2a1b9b-0633-544a-b331-c06187d23d7f</chapterId>
+<chapterId>60d6534d-569f-45b7-b9ad-49a2a4422550</chapterId>
 
 
 
@@ -2202,7 +2202,7 @@ Bitcoin 백서는 상징적인 의미가 있지만, 처음 접하는 사람들�
 ## 동영상 채널 만들기(유튜브 또는 Odyssee)
 
 
-<chapterId>076286db-1627-57ec-a410-c44b1666e1cd</chapterId>
+<chapterId>77fa4cd7-645b-4c1f-92c5-64075ed162fd</chapterId>
 
 
 
@@ -2222,7 +2222,7 @@ Bitcoin 백서는 상징적인 의미가 있지만, 처음 접하는 사람들�
 - [**피어튜브**](https://joinpeertube.org/fr_FR)를 사용하면 설정이 더 복잡하지만 자체 동영상 플랫폼을 호스팅할 수 있습니다.
 
 
-어떤 것을 선택하든 플랫폼별 비주얼을 디자인하여 채널을 매력적으로 만드세요. 2/8편](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef)에서 소개한 Canva는 미리 만들어진 사용자 지정 가능한 디자인이 있는 'YouTube 썸네일' 카테고리를 제공합니다.
+어떤 것을 선택하든 플랫폼별 비주얼을 디자인하여 채널을 매력적으로 만드세요. 2/8편](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/8b85ccb1-5474-474e-ae1b-c8cb69f060ad)에서 소개한 Canva는 미리 만들어진 사용자 지정 가능한 디자인이 있는 'YouTube 썸네일' 카테고리를 제공합니다.
 
 
 
@@ -2245,7 +2245,7 @@ Bitcoin 백서는 상징적인 의미가 있지만, 처음 접하는 사람들�
 ## 오디오 팟캐스트 만들기
 
 
-<chapterId>12e96b45-1c33-5687-a753-80d0114d487a</chapterId>
+<chapterId>f9c6f5a8-7c0a-4dbb-8844-6d61c09e29f4</chapterId>
 
 
 
@@ -2285,7 +2285,7 @@ Bitcoin 백서는 상징적인 의미가 있지만, 처음 접하는 사람들�
 ## 이벤트용 배지 만들기
 
 
-<chapterId>0cccef8d-a765-5844-8921-c40f0ce653e4</chapterId>
+<chapterId>aade4c0d-6faf-4b7c-914d-00aab248b544</chapterId>
 
 
 
@@ -2311,7 +2311,7 @@ Bitcoin 릴 협회에서 사용하는 여러 배지 템플릿은 [캔바에서 �
 ## 사망 시 인수인계 계획
 
 
-<chapterId>c5febf18-235c-51bc-8fbb-9467dabe4cb0</chapterId>
+<chapterId>98ea62af-adae-4fb7-81a6-dc2054922dde</chapterId>
 
 
 
@@ -2341,7 +2341,7 @@ A표준 프로토콜이 있으면 회원이든 게스트든 누구든 이 상황
 ## 학교 및 대학에서 강의하기
 
 
-<chapterId>65efdb44-e3d4-567c-aedf-972765753d73</chapterId>
+<chapterId>d94b6c84-5a34-4626-a21d-6b9051eef470</chapterId>
 
 
 
@@ -2404,7 +2404,7 @@ A표준 프로토콜이 있으면 회원이든 게스트든 누구든 이 상황
 ## 비즈니스 접근 방식
 
 
-<chapterId>b730462b-7928-5d28-a14f-9ceaa773d3d2</chapterId>
+<chapterId>3ac3d7ce-e61e-44c8-a238-2aef158da8a0</chapterId>
 
 
 
@@ -2494,7 +2494,7 @@ Bitcoin 친화적인 비즈니스가 몇 개 생기면, 판매자 전용 텔레�
 ## 지역 언론 및 라디오에 문의
 
 
-<chapterId>435bfbc1-22dd-59bb-b737-a32ea995b238</chapterId>
+<chapterId>51c32266-ddc1-4ffd-bd05-ed8273ea1d93</chapterId>
 
 
 
@@ -2548,14 +2548,14 @@ Bitcoin 친화적인 비즈니스가 몇 개 생기면, 판매자 전용 텔레�
 # 미래 예측
 
 
-<partId>6ea07445-9369-54bc-9aa0-d260db026e0b</partId>
+<partId>55a392cc-961d-434c-b4b0-4614f5ac1da8</partId>
 
 
 
 ## 참가자 증가에 대비한 계획
 
 
-<chapterId>8af722d4-3a9f-548c-9001-424f2142de12</chapterId>
+<chapterId>de70830d-0cde-4254-b160-734a98ce4eb8</chapterId>
 
 
 
@@ -2626,7 +2626,7 @@ b) **동료 비트코인 사용자들과만 어울리지 마세요**. 대신, �
 ## 커뮤니티 조직 탈중앙화
 
 
-<chapterId>bedfc110-e099-58f4-a5b7-fb50f3b19a49</chapterId>
+<chapterId>74e4aab7-c79e-4578-8179-0b857a961bb7</chapterId>
 
 
 
@@ -2666,7 +2666,7 @@ b) **동료 비트코인 사용자들과만 어울리지 마세요**. 대신, �
 ## Bitcoin이 공공의 적 1호라면 어떻게 될까요?
 
 
-<chapterId>c739651f-cd13-51e0-a36e-85023749b15b</chapterId>
+<chapterId>30ca4745-f8b5-48a0-b902-8c270e2062ed</chapterId>
 
 
 
@@ -2697,14 +2697,14 @@ b) **동료 비트코인 사용자들과만 어울리지 마세요**. 대신, �
 # 비트코인 사용자들을 하나로 모으기
 
 
-<partId>62bc2138-c0be-5d39-a341-594690863257</partId>
+<partId>e3eab6b3-f19d-42ec-9167-4aa6c7e92a28</partId>
 
 
 
 ## Bitcoin 커뮤니티 구축을 위한 빠른 실행 계획
 
 
-<chapterId>1f463ec2-3f64-5641-8d60-e02a47c94f27</chapterId>
+<chapterId>9ad100ba-2b39-40ef-aec6-b2750fce4b76</chapterId>
 
 
 
@@ -2795,7 +2795,7 @@ Bitcoin은 역사, 경제, 문학, 수학, 컴퓨터 과학, 암호학을 아우
 ## 자기 관리하기
 
 
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+<chapterId>1cb1f900-b1a9-4908-8418-995f531da953</chapterId>
 
 
 
@@ -2834,7 +2834,7 @@ Bitcoin의 토끼굴에 빠지면 인생에 대한 관점이 달라집니다.
 ## BTC302, 다음 단계
 
 
-<chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
+<chapterId>f58e4746-c50e-492b-a2d1-f555e2706d9d</chapterId>
 
 
 
@@ -2882,7 +2882,7 @@ Bitcoin의 토끼굴에 빠지면 인생에 대한 관점이 달라집니다.
 ## 리뷰 및 평가
 
 
-<chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
+<chapterId>692dfb93-db32-4ca4-9b18-f4daa83756f4</chapterId>
 
 
 <isCourseReview>true</isCourseReview>

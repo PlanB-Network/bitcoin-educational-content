@@ -508,7 +508,7 @@ The final setup script wraps both Bitcoin Core and LITD in `systemd` service fil
 
 ## Final Exam
 
-<chapterId>2a19c10e-ced6-11f0-8ab2-cf79e817a351</chapterId>
+<chapterId>528f8b83-1536-4d1a-89d2-e7cecf3c8d61</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Conclusion

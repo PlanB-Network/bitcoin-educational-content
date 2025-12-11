@@ -284,7 +284,7 @@ Untuk melakukan ini, kita akan menuliskan referensi, menghapus Wallet, mengembal
 
 
 
-- Pada layar beranda Wallet, klik pada tab "Pengaturan", lalu pada "Detail Wallet", dan salin zPub ([kunci publik yang diperluas](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602):
+- Pada layar beranda Wallet, klik pada tab "Pengaturan", lalu pada "Detail Wallet", dan salin zPub ([kunci publik yang diperluas](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/0488ec38-da31-46a1-b31e-04b5c05fb6e8):
 
 
 

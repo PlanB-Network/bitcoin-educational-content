@@ -37,11 +37,11 @@ Selle kursuse on sponsoreerinud TETHER
 
 # Sissejuhatus
 
-<partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
+<partId>952e9c3d-4e88-44f8-942b-0b0643fee52e</partId>
 
 ## Kursuse ülevaade
 
-<chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+<chapterId>3498530e-7910-4aa0-a2a9-63cca97c5d74</chapterId>
 Tere tulemast kursusele ECO104!
 
 **Elame maailmas, kus:**
@@ -83,11 +83,11 @@ Oleme põnevil, et liitute meiega sellel teekonnal meie rahandussüsteemi sügav
 
 # Edu hind - Lähem pilk meie finantssüsteemile
 
-<partId>25ed8242-1b5a-5b53-b833-824b0dd80bcc</partId>
+<partId>a318d7e4-cb95-4016-9e4f-c4019c902b95</partId>
 
 ## Sissejuhatus rahasse
 
-<chapterId>927ad49a-d8d6-5dd3-9250-cdcadcbf425e</chapterId>
+<chapterId>7ad6dcd5-339f-4d9e-a720-3d62e82408a9</chapterId>
 Raha on põnev ja meie igapäevaelus hädavajalik osa. Me kasutame seda iga päev toiduainete ostmiseks, arvete tasumiseks ja lugematute tehingute tegemiseks. Kuid mis on raha tegelikult? Oma olemuselt on raha lihtsalt vahetusvahend, tööriist, mis võimaldab meil kaupu ja teenuseid omavahel vahetada. See on abstraktne kontseptsioon, mida me kõik peame iseenesestmõistetavaks, kuid mis on meie majandussüsteemi jaoks fundamentaalne.
 
 Kuid kõik rahad ei ole loodud võrdsena. Mõned raha vormid on teistest paremad, sõltuvalt nende võimest toimida väärtuse säilitajana, vahetusvahendina ja arvestusühikuna. Kuld näiteks on tuhandeid aastaid olnud kõrgelt hinnatud oma vastupidavuse ja harulduse tõttu. Teisest küljest on paberraha väärtus ainult nii suur, kui suur on usaldus väljaandvate institutsioonide vastu.
@@ -167,7 +167,7 @@ Alates kaupade vahetamisest kuni müntide ja paberraha leiutamiseni on raha läb
 
 ## Uurimine selle kohta, kuidas me siia jõudsime
 
-<chapterId>4c8ebb36-a6d5-5637-93ca-9a4a222a1c58</chapterId>
+<chapterId>e9dc9f53-dcab-4469-a482-882e89dca77e</chapterId>
 
 Alates kaupade vahetamise päevadest kuni digitaalsete valuutade kaasaegse ajastuni on raha läbinud põneva evolutsiooni. Meie esivanemad kasutasid vahetusvahendina koorikuid, helmeid ja isegi kariloomi. Tänapäeval on meil virtuaalsed rahakotid ja kontaktivabad maksed. See on märkimisväärne teekond, mis on näinud lugematuid iteratsioone, kompromisse ja kohandusi, et rahuldada ühiskonna pidevalt muutuvaid vajadusi.
 
@@ -305,7 +305,7 @@ Jätkates raha maailma uurimist, on oluline tunnistada olulisi muutusi, mis on a
 
 ## Pilguheit sellele, kus me oleme ja mida võime edaspidi oodata
 
-<chapterId>0c38e8fd-c973-57a5-a673-abec706f6054</chapterId>
+<chapterId>ce2d4ac3-d766-4d85-a796-0be14376702f</chapterId>
 
 Nagu eelmises peatükis arutasime, on ajalooliselt raha tihti olnud seotud mingi kaubaga, nagu kuld. Selle eeliseid ei saa üle hinnata. Mitte ainult ei tähendanud see seos, et sellise raha väärtus oli otseselt seotud kauba väärtusega, vaid see tähendas ka, et valuuta väljaandja, tavaliselt valitsus, oli piiratud selles, kui palju raha ta sai trükkida, kuna tal oleks vaja hankida rohkem kulda.
 
@@ -440,7 +440,7 @@ Liikudes edasi, julgustame teid lähenema sellele uuele tehnoloogiale avatud mee
 
 ## Eksam
 
-<chapterId>f25c229f-2af0-5324-bc40-e90f7668985a</chapterId>
+<chapterId>0240a320-fb4d-4150-acf6-0cd9c7570761</chapterId>
 
 Nüüd, kui olete läbinud mooduli "Edu hind", peate testima oma äsja omandatud teadmisi, et veenduda, kas olete viimased jaotised mõistnud. Alustame mitmetest avatud küsimustest ja seejärel väikesest viktoriinist.
 
@@ -452,11 +452,11 @@ Nüüd, kui olete läbinud mooduli "Edu hind", peate testima oma äsja omandatud
 
 # Finantsiline Vabadus - Sissejuhatus Bitcoini
 
-<partId>c00843b2-bde3-57bb-ae2e-8ecad6631d71</partId>
+<partId>f66fdc60-a1a9-4a21-9242-d4f86af8c0e4</partId>
 
 ## Pioneers, Innovators, & the Foundations of Bitcoin
 
-<chapterId>37d779ce-46b5-56d1-91d8-d04442236e35</chapterId>
+<chapterId>03010901-b8d8-4e77-9d04-b9112fbabf6c</chapterId>
 
 Tere tulemast moodulisse Kaks, kus me uurime Bitcoini põnevat maailma. Ehitades meie arusaamale raha ajaloost, käsitleb see moodul järgmisi teemasid:
 
@@ -558,7 +558,7 @@ Lõpetuseks, olenemata sellest, kes on Satoshi Nakamoto, on vaieldamatu, et Bitc
 
 ## Kuidas Bitcoin töötab? Selle maagilise internetiraha sisemine toimimine
 
-<chapterId>b0f736fc-ed4d-5887-b22e-d958db9144d1</chapterId>
+<chapterId>293a9dd7-fa9d-49e1-aaba-2fa1f6c7e580</chapterId>
 
 Bitcoin'i nimetatakse sageli maagiliseks internetirahaks... ja põhjusega. Mõelge sellele – Bitcoin'iga saate saata väärtust kellelegi, kus iganes maailmas, ilma vahendajate nagu pank või valitsus vajaduseta. See on nagu omada kontrolli oma isikliku panga üle, võimet üle kanda vahendeid üle piiride vaid mõne hiireklõpsuga.
 
@@ -638,7 +638,7 @@ Iga neist rollidest on oluline Bitcoin'i funktsionaalsuse ja edukuse jaoks digit
 
 ## Mis teeb Bitcoin'i erinevaks Fiat'ist?
 
-<chapterId>5ef55778-cbcf-5c7e-960d-a2fcdf1a4006</chapterId>
+<chapterId>8ec83124-7544-4c76-8411-01c3ea32c126</chapterId>
 
 Eelmises jaotises uurisime Bitcoin'i ainulaadset funktsionaalsust, mis eristab seda traditsioonilistest valuutadest ja kuidas Bitcoin saavutab ihaldatud märgi olemisest detsentraliseeritud. Nüüd pöörame oma tähelepanu ja uurime, kuidas Bitcoin erineb fiat'ist omaduste osas, mis teevad valuuta suurepäraseks. Ainult nende võtmeomaduste uurimisega saame sügavama arusaama, miks Bitcoin on unikaalne ja omaette maailmas, kui tegemist on rahaga.
 
@@ -737,7 +737,7 @@ Lisaks mitte ainult ei positsioneeri need ühendatud atribuudid Bitcoini kui võ
 
 ## Suhtlemine Bitcoiniga
 
-<chapterId>050a95af-e9c2-5ec3-b9c8-55ec174d309c</chapterId>
+<chapterId>898af852-84f8-45b8-b3e9-2adf85bb8576</chapterId>
 
 Bitcoin on võtnud rahandussüsteemi tormiga, köites arengumaade, tehnikahuviliste ja investorite tähelepanu. Kuid selle kiire kasvu tõttu imestavad paljud, kuidas see digitaalne vara saab konkureerida traditsiooniliste makseviisidega nagu Visa ja Mastercard. Lisaks on inimesed uudishimulikud, kuidas nad saavad isiklikult Bitcoiniga suhelda.
 
@@ -841,7 +841,7 @@ Bitcoin'i suurim eelis on see, et see võimaldab meil omada digitaalset vara ise
 
 ## Eksam
 
-<chapterId>1c7b8165-d67b-5f7c-a1cb-b83db58b77c7</chapterId>
+<chapterId>a51bed11-0894-49a4-878f-9f31d79d7f9e</chapterId>
 
 Nüüd, kui olete läbinud mooduli "An Examination of How We Got Here", peate testima oma äsja omandatud teadmisi, et veenduda, et olete viimased jaotised mõistnud. Alustame mitmetest avatud küsimustest ja seejärel väikesest viktoriinist.
 
@@ -854,11 +854,11 @@ Nüüd, kui olete läbinud mooduli "An Examination of How We Got Here", peate te
 
 # Stabiilsus Kaose Keskel - Sissejuhatus Tetherisse & Stablecoinide Maailma
 
-<partId>60b1f3c4-e161-53fe-84ca-88d8cd62aa75</partId>
+<partId>bc2fa7dd-b3a8-430a-8cba-97faae477137</partId>
 
 ## Tetheri ja stabiilsete müntide maailma tutvustus
 
-<chapterId>427a72b5-8af7-503e-bc45-bb8b95483993</chapterId>
+<chapterId>65302477-a5c2-4555-b546-e4051066e1b1</chapterId>
 
 Nagu varem arutatud, on raha olnud inimkonna jaoks tuhandeid aastaid hädavajalik osa. See on aidanud meil osta kaupu ja teenuseid, võimaldanud meil üksteisega kaubelda ning aidanud meil rikkust säilitada.
 
@@ -922,7 +922,7 @@ _**Kõrvalmärkus:** Ärge muretsege, kui mõned neist terminitest ei tundu pär
 
 ## Stabiilraha ajalugu
 
-<chapterId>174e2cab-ef14-5e14-99c8-8457b6fc5fee</chapterId>
+<chapterId>e6bb95e1-5ba1-40d0-8b4a-3e6c1d1dd0a3</chapterId>
 
 Stabiilrahad on muutunud populaarseks teemaks krüptoraha maailmas, pakkudes lühiajaliselt vähem volatiilset alternatiivi krüptorahadele nagu Bitcoin. Nagu sissejuhatuses sellesse moodulisse üksikasjalikult kirjeldatud, on stabiilrahad digitaalsed varad, mis on seotud stabiilse varaga nagu fiat-valuuta või väärismetallid, eesmärgiga säilitada stabiilne väärtus. Vaatleme seega stabiilraha ajalugu ja heidame lähema pilgu mõnele esimesele stabiilrahale, sealhulgas Tetheri USDt-le, kõige tuntumale ja laialdasemalt kasutatavale stabiilrahale.
 
@@ -948,7 +948,7 @@ Kokkuvõttes on stabiilmündid alates nende loomisest kaugele jõudnud. Varajast
 
 ## Stabiilmüntide omadused
 
-<chapterId>21765df7-53fd-58af-9df6-7208027a0c3a</chapterId>
+<chapterId>36e0ab1f-a3fe-42c1-8400-55fb770d9bf3</chapterId>
 
 Nagu nüüdseks peaks ilmne olema, on stabiilmünt digitaalne token, mis on loodud säilitama stabiilset väärtust, mis põhineb aluseks oleva vara, nagu fiat-valuuta, väärismetallid, kaubad või nende kombinatsioon (nt fiat-valuutade korv), külge seotud väärtusel.
 
@@ -1035,7 +1035,7 @@ Kuigi stablecoin'e peetakse sageli ohutuks nende "stabiilse" olemuse tõttu, on 
 
 ## Tetheri Stablecoin'i Pakkumiste Eelised
 
-<chapterId>a6806b45-b92e-5791-8f5f-804098a522b2</chapterId>
+<chapterId>6a1aef8e-3fdf-426b-901c-6e1a26b6ad88</chapterId>
 Kohtuge Adannaga, noore naisega, kes elab Aafrika maapiirkonnas, kus CFA frank, mis on viimase 70 aasta jooksul kaotanud hämmastavad [99,5%](https://bitcoinmagazine.com/culture/bitcoin-a-currency-of-decolonization) oma ostujõust, on ainus saadaolev valuuta - muutes säästmise võimatuks.
 Adannat on alati paelunud mõte omada kontrolli oma raha üle, kuid see on jäänud võimatuks unistuseks kuni hiljutiseni. Valuuta, mida ta kasutab, on isikute kontrolli all, kes on näidanud, et neil ei ole oma rahva parimaid huvisid südames, ja tema maapiirkonna asukoht piirab tema juurdepääsu pangateenustele. Seetõttu ei jää Adannal muud üle, kui toetuda füüsilisele sularahale, jättes ta haavatavaks varguste ja kaotuse suhtes lisaks ostujõu vähenemisele.
 
@@ -1150,7 +1150,7 @@ Kokkuvõttes võivad stabiilvaluutad, nagu USDt ja XAUt, muuta miljardite inimes
 
 ## Eksam
 
-<chapterId>1294d874-6edb-5feb-b070-0ead1836bd0b</chapterId>
+<chapterId>7abbc2a0-f98d-40a9-80ae-1cc397027cdc</chapterId>
 
 Nüüd, kui olete läbinud mooduli "Stabiilsus kaose keskel", peate testima oma äsja omandatud teadmisi, et veenduda, et olete viimased jaotised mõistnud. Alustame mitmetest avatud küsimustest ja seejärel väikesest viktoriinist.
 
@@ -1162,11 +1162,11 @@ Nüüd, kui olete läbinud mooduli "Stabiilsus kaose keskel", peate testima oma 
 
 # Kahtluste ületamine - Levinud väärarusaamade kummutamine ja reaalsed kasutusjuhtumid
 
-<partId>246a7dc0-a203-5b2e-ae13-9c8f08e6bfad</partId>
+<partId>5e3f28ec-ff90-4272-af00-724e0ced0765</partId>
 
 ## Väärarusaamad
 
-<chapterId>4da9319d-6306-500f-adbb-5fa31c673cd2</chapterId>
+<chapterId>c48b4889-5972-4139-b928-b56fb88b28d5</chapterId>
 
 Bitcoin on alates selle loomisest 2009. aastal olnud vastuolude, kriitika ja väärarusaamade keskmes. Hoolimata selle populaarsuse kasvust ja omaksvõtust, peavad paljud seda lõhkemist ootavaks mulliks. Sarnaselt on stabiilvaluutad meelitanud ligi sarnast tähelepanu ja skepsist. Stabiilse varaga tagatud valuuta idee tundub paljutõotav, kuid paljud inimesed ei mõista, kuidas stabiilvaluutad töötavad ja milline võib olla nende mõju finantssüsteemile.
 
@@ -1456,7 +1456,7 @@ Lõppkokkuvõttes kuulub detsentraliseeritud finantside tulevik neile, kes on va
 
 ## Roya Mahboob
 
-<chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
+<chapterId>e76ef439-44db-4cf4-b660-0ed33d913989</chapterId>
 
 Tänapäeva globaliseerunud maailmas on juurdepääs finantsteenustele kriitiline majandusliku osalemise ja sõltumatuse komponent. Hoolimata sellest on endiselt liiga paljud inimesed traditsioonilisest pangandussüsteemist välja jäetud, naistel lasub sageli selle väljajätmise suurim koorem. Ehmatavalt, kuigi tarbetult jääb [veerand](https://www.worldbank.org/en/publication/globalfindex) maailma elanikkonnast pangandusteenusteta, on riikides nagu Saudi Araabia [36,5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) naistest ilma põhilistele pangateenustele juurdepääsuta, takistades neil täielikult osalemast oma riigi majanduses ja ühiskonnas.
 
@@ -1516,7 +1516,7 @@ Mercedese järjekindel pühendumus vaesuses elavate inimeste erilistele raskuste
 Täis lootust ja elevust näeb Mercedes Bitcoini potentsiaali maailma paremaks muutmiseks, eeldusel, et see on kirglike, pühendunud inimeste kätes. Naistega selle muutuse eesotsas usub ta, et pole piire sellele, mida nad koos saavutada võivad.
 
 Mercedese elu on olnud uskumatu teekond ja Bitcoini mõju tema elule on tõeliselt märkimisväärne. Tema lugu on lootuse majakas Bitcoini võimele tuua kaasa tähendusrikas muutus ja võimestada inimesi igast eluvaldkonnast. Finantsvõrdsuse eestkõnelejana kasutab ta oma ulatuslikke teadmisi ja reisikogemusi, et harida ja tõsta esile neid, kes on traditsiooniliste finantssüsteemide poolt marginaliseeritud. Tema jätkuvad jõupingutused näitavad, kuidas ühe inimese kirg ja otsusekindlus võivad inspireerida positiivset muutust kogukondades üle maailma.
-<chapterId>7b6d8d57-905d-5168-9be6-3df7c938de2a</chapterId>
+<chapterId>d22acc57-2b00-4a51-96b0-a350814f87d5</chapterId>
 Kuna me läheneme selle kursuse lõpule, soovime esitleda kogumikku inspireerivaid stablecoinide lugusid. Need tunnistused näitavad reaalseid kogemusi üksikisikutelt, ettevõtjatelt ja ettevõtetelt, kes on kasutanud stablecoinide jõudu, et tõsta oma elukvaliteeti.
 
 Järgnevates näidetes kuulete esmakäe lugusid sellest, kuidas stablecoinid on võimaldanud sellel mitmekesisel inimeste grupil navigeerida kaasaegse finantsmaastiku keerukustes suurema kerguse ja efektiivsusega. Alates probleemideta rahvusvahelistest tehingutest ja laienenud äri võimalustest kuni suurenenud finantsilise kaasatuseni ja stabiilsema väärtuse hoidmiseni, iga lugu rõhutab stablecoinide mõju nende vastavatele teekondadele.
@@ -1601,7 +1601,7 @@ Loodame, et leidsite need lood inspireerivad. Öeldu põhjal peaks olema selge, 
 
 ## Eksam
 
-<chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
+<chapterId>002220e4-069b-4367-b153-ca19029412de</chapterId>
 
 Nüüd, kui olete läbinud mooduli "Kahtluste ületamine", peate testima oma äsja omandatud teadmisi, et veenduda, kas olete viimased jaotised mõistnud. Alustame mitmest avatud küsimusest ja seejärel väikesest viktoriinist.
 
@@ -1613,7 +1613,7 @@ Nüüd, kui olete läbinud mooduli "Kahtluste ületamine", peate testima oma äs
 
 ## Lõppsõnad
 
-<chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
+<chapterId>1896c6b1-77d7-45bb-a798-bcdd27deb18b</chapterId>
 
 Palju õnne kursuse lõpetamise puhul! Olete kaugele jõudnud. Selle teekonna jooksul oleme süvenenud laiasse valikusse teemadesse, sealhulgas:
 
@@ -1642,7 +1642,7 @@ Tulevik on Helge!
 
 ## Hinnangud & Reitingud
 
-<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
+<chapterId>1ec641d0-0421-404b-88d3-bac725aca9dc</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Kokkuvõte

@@ -59,13 +59,13 @@ Bạn đã sẵn sàng khám phá lại nguồn gốc chủ nghĩa tự do kinh 
 # Những Người Tiên Phong
 
 
-<partId>91565b10-6010-53cb-a2f4-9c2306c7ef8c</partId>
+<partId>c77622e2-0e20-4de1-a55d-380a454185bc</partId>
 
 
 ## Bối cảnh lịch sử
 
 
-<chapterId>6a5fd101-6dfd-5d77-96c7-9e1aa4a19758</chapterId>
+<chapterId>eb7344f4-ec44-43ae-83e5-e764e22b7c11</chapterId>
 
 
 Vào đầu thế kỷ 18, nước Pháp đang trong tình trạng đáng lo ngại. Dân số nông thôn hầu như không sản xuất đủ để tồn tại và phải chịu thuế nặng nề.
@@ -145,7 +145,7 @@ Hệ quả của ý tưởng này là ưu tiên xuất khẩu bằng mọi giá,
 ## Vauban
 
 
-<chapterId>ee9c1e0e-96cc-5026-a5e2-963d68122786</chapterId>
+<chapterId>6b77468d-b8e3-47d2-b304-c290eea1c7d9</chapterId>
 
 
 Ngày nay, khi áp lực thuế ở đất nước chúng ta tiếp tục gia tăng, đe dọa bóp nghẹt các lực lượng kinh tế quốc gia, tiếng nói ủng hộ sự thay đổi đang nổi lên. Có ý thức hay không, những lời kêu gọi cải cách này thường phản ánh công trình của các nhà kinh tế học người Pháp, những người đã chỉ trích hệ thống thuế của quốc gia này là hỗn loạn, chuyên chế, quá mức kể từ thế kỷ 17.
@@ -212,7 +212,7 @@ Ngay trước khi qua đời, ý tưởng của Vauban đã được các bộ t
 ## Boisguilbert
 
 
-<chapterId>200149c6-b5fc-566e-ab0e-bafb1c3fed3c</chapterId>
+<chapterId>e5dd73e0-e48e-43e7-a9af-d651414cfc6b</chapterId>
 
 
 Rất ít nhà kinh tế học người Pháp trong quá khứ được công nhận xứng đáng tại quê nhà ngày nay, và Boisguilbert cũng không ngoại lệ.
@@ -272,7 +272,7 @@ Boisguilbert thậm chí còn chỉ trích "*những tâm hồn tốt bụng*", 
 ## Cantillon
 
 
-<chapterId>bc206d41-6a64-5688-a489-40fcfa0e5397</chapterId>
+<chapterId>7a6654fe-874e-45ca-a98f-1f3d17c09f24</chapterId>
 
 
 Tác giả của "Bài luận về bản chất của thương mại nói chung" (viết vào khoảng năm 1730, xuất bản năm 1755), Richard Cantillon được coi là một trong những người tiên phong của khoa học kinh tế hiện đại. Trong cuốn Lịch sử tư tưởng kinh tế, nhà kinh tế học Murray Rothbard thậm chí còn coi Cantillon là người sáng lập ra kinh tế học hiện đại.
@@ -335,13 +335,13 @@ Với lý thuyết này về tác động của lạm phát, Cantillon cung cấ
 # Những nhà cải cách và tư tưởng của đầu thế kỷ 18
 
 
-<partId>1f7b50d4-ce93-5db3-8396-43c1fa5419ff</partId>
+<partId>c4403d75-884e-4922-8be7-5121e2709d6a</partId>
 
 
 ## Viện phụ của Saint-Pierre
 
 
-<chapterId>13478fe2-4c12-593c-a410-54c2cfb7ef7f</chapterId>
+<chapterId>756469cd-d78c-49aa-926f-7c134e8aa4c6</chapterId>
 
 
 Trong số tất cả các tác giả mà chúng tôi chọn đưa vào nhóm các nhà tư tưởng tự do kinh tế của Pháp thế kỷ 18, Viện phụ Saint-Pierre chắc chắn là người bị bỏ qua nhiều nhất.
@@ -407,7 +407,7 @@ Tuy nhiên, Viện phụ của Saint-Pierre đã đưa ra một số quan sát c
 ## Hầu tước d'Argenson
 
 
-<chapterId>e9960ab4-72ec-5afd-8e97-bf89c83b62bc</chapterId>
+<chapterId>3f0c9654-a6f7-47db-8859-836c592127db</chapterId>
 
 
 Hầu tước d'Argenson là người sáng lập học thuyết tự do kinh doanh bị lãng quên.
@@ -479,7 +479,7 @@ Về vấn đề buôn bán lương thực, d'Argenson không có câu trả l�
 ## Vincent de Gournay
 
 
-<chapterId>e8ae40dc-7450-552f-9ddc-9e02936cf425</chapterId>
+<chapterId>7446cc6a-9631-49ca-ac85-c477537b3a8d</chapterId>
 
 
 Vincent de Gournay là một trong những đại diện đầu tiên của chủ nghĩa tự do kinh tế tại Pháp, và là một trong những người ủng hộ sớm nhất của chủ nghĩa này trong giới hành chính công và trí thức. Vì lý do đó, ông xứng đáng được công nhận nhiều hơn trong lịch sử tư tưởng kinh tế so với những gì ông thường nhận được. Tôi đã cố gắng nêu bật những đóng góp của ông trong một cuốn sách gần đây.
@@ -548,7 +548,7 @@ Nhiều năm sau, Turgot, một bộ trưởng tương lai dưới thời Louis 
 ## Vòng tròn Gournay
 
 
-<chapterId>b86ba6bd-8f3a-5d8f-b098-4d0413f00deb</chapterId>
+<chapterId>6e2a0dbe-3afb-4071-b5f8-ab400da3e891</chapterId>
 
 
 Khi nói đến những ngày đầu của khoa học kinh tế, lịch sử có xu hướng làm nổi bật một trường phái tư tưởng đầu tiên: Những người theo chủ nghĩa trọng nông, do François Quesnay và các môn đồ của ông lãnh đạo. Tuy nhiên, gần một thập kỷ trước khi họ nổi lên, có một nhóm khác, ít chính thức hơn nhưng cũng quan trọng không kém tập trung vào nhà kinh tế học Vincent de Gournay.
@@ -626,7 +626,7 @@ Và thực sự, vào những năm 1750, các vấn đề kinh tế đã trở n
 ## Mirabeau
 
 
-<chapterId>2d2f802b-e3b6-556f-9025-a1b1dc4409ca</chapterId>
+<chapterId>5a11f48f-03ee-4c58-876e-f1c49fbb377a</chapterId>
 
 
 Nước Pháp đã biết đến hai người đàn ông nổi tiếng tên là Mirabeau, một người cha và một người con trai, nhưng người con trai mới thực sự làm nên lịch sử. Là một diễn giả cách mạng và là một trong những nhân vật trung tâm trong các sự kiện của Cách mạng Pháp, ông vẫn nổi tiếng.
@@ -715,7 +715,7 @@ Trong suốt cuộc đời mình, Mirabeau vẫn là một nhà văn không bi�
 ## Quesnay
 
 
-<chapterId>7a35f20b-5ea0-544d-b290-bcd9c6f7f11a</chapterId>
+<chapterId>6025f746-08fe-4406-8793-a0f5b9d64a45</chapterId>
 
 
 François Quesnay là một trong những nhà kinh tế học nổi tiếng nhất người Pháp.
@@ -797,13 +797,13 @@ Cuốn sách này tập hợp những đóng góp chính của Quesnay. Nó nêu
 # Trường phái trọng nông
 
 
-<partId>27af82c1-ad82-5c3b-8ce9-c674b67bbf7c</partId>
+<partId>d8a123a2-c47e-4aa4-873b-1b5a75fe313b</partId>
 
 
 ## Lịch sử của những người theo chủ nghĩa trọng nông
 
 
-<chapterId>4236ff8b-b53a-59e7-92c0-f96f9afa1c00</chapterId>
+<chapterId>b039837d-d765-43fc-a3dd-e492d7caf4c3</chapterId>
 
 
 Chủ nghĩa trọng nông trở nên thịnh hành ở Pháp, và thậm chí trên khắp châu Âu, trong chưa đầy một thập kỷ. Sau một thời gian dài phát triển, nó đã trở nên nổi bật vào giữa những năm 1760. Vào thời điểm Turgot lên nắm quyền vào năm 1776, phong trào này đã mất đi sự ủng hộ của mình, và vị mục sư này vẫn giữ sự ủng hộ của mình đối với trường phái Quesnay hầu như là ẩn giấu.
@@ -876,7 +876,7 @@ Chế độ trọng nông sẽ tiếp tục gây ảnh hưởng cho đến tận
 ## Nền tảng của học thuyết trọng nông
 
 
-<chapterId>4dbe5436-0578-57c2-b054-03ed00aa091a</chapterId>
+<chapterId>57beea84-ff70-4757-b5f4-9f2d18deec18</chapterId>
 
 Thuật ngữ Physiocracy, có nghĩa là "chính quyền theo bản chất", được Dupont de Nemours đặt ra và dùng làm tiêu đề cho *Physiocracy*, một tập hợp các bài viết của Quesnay xuất bản năm 1768.
 
@@ -975,7 +975,7 @@ Những người phản đối chế độ nô lệ quyết liệt, những ngư
 ## Những thành tựu và ảnh hưởng của chủ nghĩa trọng nông
 
 
-<chapterId>5b911105-796a-5e2e-a501-c7a364fc758e</chapterId>
+<chapterId>9ebd22fa-9f00-4148-871b-7e12874b18c0</chapterId>
 
 
 Như chúng ta đã thấy trong chương đầu tiên trong ba chương dành riêng cho những người theo chủ nghĩa trọng nông, những người theo Quesnay đã trở thành cơn sốt ở Pháp trong khoảng một thập kỷ. Sự nhiệt tình này đối với các ý tưởng của họ đã hình thành trong thời đại của họ và tiếp tục cho đến cuối thế kỷ. Ở đây, chúng ta sẽ xem xét một số thành tựu của họ và ảnh hưởng mà họ đã tác động lên những người kế nhiệm họ trong lĩnh vực tư tưởng kinh tế.
@@ -1054,7 +1054,7 @@ Những người theo chủ nghĩa trọng nông cũng có ảnh hưởng lớn 
 ## Dupont de Nemours
 
 
-<chapterId>6d585e0f-93b8-5b0a-a0a8-7f6e4a5bc68e</chapterId>
+<chapterId>be6cf3ea-a927-4407-b232-98c703a3a4ed</chapterId>
 
 
 
@@ -1145,13 +1145,13 @@ Mặc dù cuộc sống đầy biến cố này, trong đó ông đã xuất b�
 # Khai sáng và kinh tế chính trị
 
 
-<partId>d1c885ad-7cb1-5f81-816c-be312719d9f8</partId>
+<partId>c8a1fe43-bdb6-48d8-9542-4d086cdffab3</partId>
 
 
 ## Voltaire và các nhà triết học
 
 
-<chapterId>16bcf7bf-dad4-5113-8c64-2800f04ff07b</chapterId>
+<chapterId>57749874-730e-452d-a53d-d3297eb81e9f</chapterId>
 
 
 Thế kỷ 18 ở Pháp chứng kiến sự xuất hiện của kinh tế học như một khoa học và trường phái tư tưởng kinh tế đầu tiên: Trọng nông. Adam Smith được đào tạo về kinh tế trong giai đoạn này, và các nhà kinh tế học người Pháp được công nhận trên toàn cầu là những nhà lãnh đạo. Tuy nhiên, thế kỷ này được nhớ đến nhiều hơn là thế kỷ của triết học hơn là kinh tế học. Trong khi phong trào Trọng nông liên kết, trong tham vọng của mình, với triết học Khai sáng, thái độ của các triết gia—đặc biệt là Diderot và Voltaire—đáng được xem xét kỹ lưỡng. Chúng ta sẽ thấy rằng các nhà tư tưởng Khai sáng đã đóng góp đáng kể vào việc truyền bá ý tưởng về tự do kinh doanh ở Pháp.
@@ -1210,7 +1210,7 @@ Cuối cùng, mối quan hệ của các nhà triết học với tư tưởng k
 ## Turgot, Nhà lý thuyết
 
 
-<chapterId>a8cd8185-8351-556b-8011-3a0c313e8a9d</chapterId>
+<chapterId>e6b12aac-aa56-4932-8ca2-67efb9aa4d72</chapterId>
 
 
 Trong một đoạn văn nổi tiếng trích từ *Lịch sử tư tưởng kinh tế*, nhà kinh tế học người Mỹ Murray Rothbard đã ca ngợi cái mà ông gọi là "sự xuất sắc" của Turgot.
@@ -1307,7 +1307,7 @@ Một bản tóm tắt đáng chú ý về học thuyết tự do kinh doanh c�
 ## Turgot, nhà cải cách
 
 
-<chapterId>9177429f-1679-51c4-bfd2-dd036d24a1cc</chapterId>
+<chapterId>32c45d6f-511e-48d4-980f-aca5f2ec8464</chapterId>
 
 
 Như chúng ta đã tóm tắt trong chương trước, Turgot là con trai của một gia đình danh giá và đã chứng tỏ mình ở cấp cao trong cơ quan công quyền Pháp.
@@ -1388,7 +1388,7 @@ Cuối cùng, các parlements và các tầng lớp đặc quyền đã chiến 
 ## Condillac
 
 
-<chapterId>0ba8dbb5-dcd5-5981-bf85-6c185e0bf192</chapterId>
+<chapterId>f3f1683a-4bcd-4b2a-b5d1-ec0e94c3b457</chapterId>
 
 
 Giống như chủ nghĩa trọng thương, biểu hiện thực tế rõ ràng nhất của nó, chủ nghĩa ngụy biện của Montaigne phải mất một thời gian dài mới biến mất.
@@ -1467,7 +1467,7 @@ Do đó, họ hoàn toàn phá hủy những lời chỉ trích về thương m�
 ## Condorcet
 
 
-<chapterId>99e4aba6-da7f-5041-b02f-337158381515</chapterId>
+<chapterId>55fbdf44-8975-44af-b161-f36d69a49347</chapterId>
 
 
 Condorcet chắc chắn là triết gia có tư duy kinh tế nhất của thời kỳ Khai sáng.
@@ -1524,7 +1524,7 @@ Mặc dù đã dành toàn bộ năng lượng của mình để bảo vệ Turg
 ## Ý thức chung tự do dưới thời Cách mạng
 
 
-<chapterId>95e9a90d-e37a-58ff-b1ac-928b42e76ecf</chapterId>
+<chapterId>37ad7db0-ed45-44ba-8bef-d1fa323dbe8e</chapterId>
 
 
 Dupont de Nemours là đệ tử trẻ tuổi nhất của François Quesnay, người đã từng nói về ông: "Chúng ta phải chăm sóc chàng trai trẻ này, vì anh ta sẽ lên tiếng khi chúng ta chết". Khi Cách mạng Pháp bắt đầu, hầu như tất cả những người theo chủ nghĩa trọng nông vĩ đại, bao gồm cả Hầu tước de Mirabeau, đã ra đi; bản thân Mirabeau đã qua đời vào ngày 13 tháng 7 năm 1789.
@@ -1598,7 +1598,7 @@ Nhưng một lần nữa, không ai lắng nghe ông.
 ## Kết luận: Truyền ngọn đuốc
 
 
-<chapterId>ada8082f-db96-5e52-954f-719b47998153</chapterId>
+<chapterId>691a1639-3e28-4401-bc29-6b17abcfc333</chapterId>
 
 
 Tư tưởng kinh tế của Pháp vào thế kỷ 18 thường bị lu mờ bởi các nhà kinh tế nổi tiếng hơn của thế kỷ 19. Tuy nhiên, khi nói đến việc bảo vệ tự do, thì mọi thứ thực sự bắt đầu vào thế kỷ 18. Đây là thế kỷ mà nguyên tắc laissez-faire, mang tính cách mạng vào thời điểm đó, lần đầu tiên được một số nhà tư tưởng, từ Boisguilbert đến Dupont de Nemours, thể hiện rõ ràng.
@@ -1652,7 +1652,7 @@ Tất cả những ý tưởng này sẽ được các nhà kinh tế học củ
 ## Tiểu sử
 
 
-<chapterId>17cf2865-e53c-5f3b-a5c2-a43560efaf01</chapterId>
+<chapterId>9daf678b-2687-4a2f-a490-8826538c1b49</chapterId>
 
 
 **TÀI LIỆU THAM KHẢO CÓ CHỌN LỌC**
@@ -1735,27 +1735,27 @@ Dưới đây, bạn sẽ tìm thấy hơn ba mươi bài viết được chọn
 # Phần cuối
 
 
-<partId>385bffab-aea1-5bcd-9569-62b3f30665b7</partId>
+<partId>aa809524-47cd-4945-92d0-2e674b98e2e2</partId>
 
 
 ## Đánh giá & Xếp hạng
 
 
-<chapterId>a1e689d9-abd0-5dcb-ba56-a8d355d0a84f</chapterId>
+<chapterId>e13b6e40-2801-4e3c-8ed1-1c9144f47e27</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Bài thi cuối kỳ
 
 
-<chapterId>bdb7fd98-33e7-11f0-9fe6-b785c859ffc5</chapterId>
+<chapterId>9da23eb9-a79c-4cf3-8b73-b64a9b3f45d1</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## Phần kết luận
 
 
-<chapterId>3b366ff6-03c8-5f6a-b4c0-ba8186e65d7e</chapterId>
+<chapterId>027ecdbb-a845-4232-be81-92e1b7101618</chapterId>
 
 
 <isCourseConclusion>true</isCourseConclusion>

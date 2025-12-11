@@ -22,11 +22,11 @@ Mit klarer Pädagogik, über 60 erläuternden Diagrammen und konkreten Beispiele
 
 # Einführung
 
-<partId>32960669-d13a-592f-a053-37f70b997cbf</partId>
+<partId>acc4d627-15c4-41d8-b1a2-6649b97fec60</partId>
 
 ## Kurseinführung
 
-<chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
+<chapterId>ec7f1eb4-28c4-4647-8aa7-41fef89e1626</chapterId>
 
 :::video id=8028e727-cd5d-4593-a946-a89bfa26f617:::
 
@@ -86,11 +86,11 @@ Diese Tabelle bietet Ihnen eine Übersetzung der wichtigsten verwendeten englisc
 
 # Hash-Funktionen
 
-<partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>
+<partId>8b5d82a2-75c7-4a86-9a7c-724df9de402f</partId>
 
 ## Einführung in Hash-Funktionen
 
-<chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
+<chapterId>05c887f9-38b2-40c9-b18c-4ccda1e4303e</chapterId>
 
 :::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
@@ -204,7 +204,7 @@ Sie kennen nun die wesentlichen Grundlagen über Hash-Funktionen für das Folgen
 
 ## Die Funktionsweise von SHA256
 
-<chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
+<chapterId>62e8c972-b448-448a-8aab-374c2c3197fd</chapterId>
 
 :::video id=2e4a42df-4b49-47ff-b6bc-9bcaa53bc82f:::
 
@@ -596,7 +596,7 @@ Dies erhöht die Sicherheit gegen potenzielle Angriffe, die mit der Merkle-Damg�
 Jetzt, da wir uns im Detail mit der Funktionsweise von Hash-Funktionen, insbesondere SHA256, das in Bitcoin umfangreich verwendet wird, beschäftigt haben, werden wir uns spezifischer auf die kryptografischen Ableitungsalgorithmen konzentrieren, die auf Anwendungsebene verwendet werden, insbesondere für die Ableitung der Schlüssel für Ihre Wallet.
 
 ## Die für die Ableitung verwendeten Algorithmen
-<chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
+<chapterId>d7223963-fdec-4e32-936d-a8f68347aba5</chapterId>
 
 :::video id=a5cf4eb3-e53f-4bff-aee4-de0ca6aab3b6:::
 
@@ -687,10 +687,10 @@ Schematisch kann PBKDF2 wie folgt dargestellt werden:
 In diesem Kapitel haben wir die HMAC-SHA512- und PBKDF2-Funktionen erkundet, die Hashing-Funktionen verwenden, um die Integrität und Sicherheit von Schlüsselableitungen im Bitcoin-Protokoll zu gewährleisten. Im nächsten Teil werden wir uns mit digitalen Signaturen befassen, einer weiteren kryptografischen Methode, die in Bitcoin weit verbreitet ist.
 
 # Digitale Signaturen
-<partId>76b58a00-0c18-54b9-870d-6b7e34029db8</partId>
+<partId>c2dbfd18-3b52-4316-99b6-6801887b6e10</partId>
 
 ## Digitale Signaturen und elliptische Kurven
-<chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
+<chapterId>91ba5739-03e8-42e6-88bd-95a2fcc8e337</chapterId>
 
 :::video id=6d307c93-8c79-42e2-ac95-cfcb2a58889f:::
 
@@ -791,7 +791,7 @@ Wenn Sie mehr über die mathematischen Grundlagen der modernen Kryptographie erf
 https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Berechnung des öffentlichen Schlüssels aus dem privaten Schlüssel
-<chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
+<chapterId>96be82bb-276b-483d-9818-b3f848dc09db</chapterId>
 
 :::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
 
@@ -922,7 +922,7 @@ Natürlich wäre es in diesem vereinfachten Beispiel mit $k = 4$ möglich, $k$ d
 
 ## Signieren mit dem privaten Schlüssel
 
-<chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
+<chapterId>606cb2bf-8861-4043-914e-7b3e19eb9b57</chapterId>
 
 :::video id=fe3acbf4-a9d4-4c7d-82cc-79de24bf8aec:::
 
@@ -1205,11 +1205,11 @@ Im nächsten Teil schlage ich vor, zu entdecken, wie die mnemonische Phrase, die
 
 # Die mnemonische Phrase
 
-<partId>4070af16-c8a2-58b5-9871-a22c86c07458</partId>
+<partId>eead93d7-8042-4c2e-921a-0e9dd8ff39d7</partId>
 
 ## Entwicklung von Bitcoin-Wallets
 
-<chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
+<chapterId>a941683e-d153-4639-8344-050eeadc3301</chapterId>
 
 :::video id=024fb46f-aece-414f-818b-4762e77953b9:::
 
@@ -1253,7 +1253,7 @@ In den kommenden Kapiteln werden wir die internen Arbeitsweisen von HD-Wallets e
 
 ## Entropie und Zufallszahl
 
-<chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
+<chapterId>20cd295a-c65e-460e-b9bb-a0fb2afc1fbe</chapterId>
 
 :::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
 
@@ -1282,7 +1282,7 @@ Im nächsten Kapitel werden wir sehen, wie wir von einer Zufallszahl zu einer mn
 
 ## Die mnemonische Phrase
 
-<chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
+<chapterId>c7f06af4-741b-443f-a6dd-815e9d31a740</chapterId>
 
 :::video id=6218472e-b965-484f-b56b-e363f65d2827:::
 
@@ -1383,7 +1383,7 @@ https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-
 
 Bevor wir mit der Ableitung des Wallets aus dieser Mnemonic-Phrase fortfahren, werde ich Ihnen im folgenden Kapitel die BIP39-Passphrase vorstellen, da sie eine Rolle im Ableitungsprozess spielt und sie sich auf derselben Ebene wie die Mnemonic-Phrase befindet.
 ## Die Passphrase
-<chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
+<chapterId>26e2bbe9-6060-4d03-bbe4-1d65bc8aa6ee</chapterId>
 
 :::video id=59f8a63e-56af-4937-a1d1-3314b3934048:::
 
@@ -1415,10 +1415,10 @@ Es ist ebenfalls wichtig, diese Passphrase ordnungsgemäß zu speichern, genauso
 Im folgenden Abschnitt werden wir entdecken, wie diese beiden Elemente an der Basis Ihrer Wallet – die mnemonische Phrase und die Passphrase – verwendet werden, um die Schlüsselpaare abzuleiten, die in dem *scriptPubKey* verwendet werden, um Ihre UTXOs zu sperren.
 
 # Erstellung von Bitcoin-Wallets
-<partId>9c25e767-7eae-50b8-8c5f-679d8fc83bab</partId>
+<partId>31aafe61-c913-4697-bbde-aaa4710e04b7</partId>
 
 ## Erstellung des Seeds und des Master-Schlüssels
-<chapterId>63093760-2010-5691-8d0e-9a04732ae557</chapterId>
+<chapterId>8588b35c-f4cd-41d4-a054-6058b7237ab2</chapterId>
 
 :::video id=60e3ade6-501b-4e1e-a85e-59257ef12900:::
 
@@ -1495,7 +1495,7 @@ Der Master-Chain-Code führt andererseits eine zusätzliche Quelle der Entropie 
 Bevor wir mit der Ableitung des HD-Wallets mit den folgenden Elementen fortfahren, möchte ich im nächsten Kapitel erweiterte Schlüssel vorstellen, die oft mit dem Master-Schlüssel verwechselt werden. Wir werden sehen, wie sie konstruiert sind und welche Rolle sie im Bitcoin-Wallet spielen.
 
 ## Erweiterte Schlüssel
-<chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
+<chapterId>0488ec38-da31-46a1-b31e-04b5c05fb6e8</chapterId>
 
 :::video id=bbca9cca-62a0-4b4e-93d5-3757dc100123:::
 
@@ -1611,7 +1611,7 @@ Die Prüfsumme entspricht den ersten 4 Bytes des Hashes (doppelter SHA256) von a
 In diesem Kapitel haben wir entdeckt, dass es zwei verschiedene Arten von Kinderschlüsseln gibt. Wir haben auch gelernt, dass die Ableitung dieser Kinderschlüssel einen Schlüssel (entweder privat oder öffentlich) und seinen Chain-Code erfordert. Im nächsten Kapitel werden wir die Natur dieser verschiedenen Arten von Schlüsseln im Detail untersuchen und wie sie aus ihrem Elternschlüssel und Chain-Code abgeleitet werden können.
 
 ## Ableitung von Kinderschlüsselpaaren
-<chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
+<chapterId>4d554d95-2ed7-41b3-857c-17370afdaa4c</chapterId>
 
 :::video id=80387fa0-bee8-4aac-9eac-93e90e55a1cb:::
 
@@ -1808,7 +1808,7 @@ $$
 Zusammengefasst haben Sie bisher gelernt, die grundlegenden Elemente des HD-Wallets zu erstellen: die mnemonische Phrase, den Seed und dann den Master-Schlüssel und den Master-Chain-Code. Sie haben auch entdeckt, wie man in diesem Kapitel Kind-Schlüsselpaare ableitet. Im nächsten Kapitel werden wir erforschen, wie diese Ableitungen in Bitcoin-Wallets organisiert sind und welche Struktur zu befolgen ist, um konkret die Empfangsadressen sowie die Schlüsselpaare, die im *scriptPubKey* und *scriptSig* verwendet werden, zu erhalten.
 
 ## Wallet-Struktur und Ableitungspfade
-<chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
+<chapterId>270ffa12-457c-488d-890f-7ff724146787</chapterId>
 
 :::video id=9fff62bf-9203-46f1-bb4d-4f5a9d5875f8:::
 
@@ -2372,19 +2372,19 @@ Und damit haben wir das Ende dieses CYP201-Kurses erreicht. Wenn Sie diesen Kurs
 
 # Abschluss
 
-<partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
+<partId>dff7bbe2-abed-4b48-9fec-95fc22992491</partId>
 
 ## Bewertungen & Noten
 
-<chapterId>0cd71541-a7fd-53db-b66a-8611b6a28b04</chapterId>
+<chapterId>30fd1645-8a70-47a9-a345-d4c09e4fb4a4</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Abschlussprüfung
 
-<chapterId>a53ea27d-0f84-56cd-b37c-a66210a4b31d</chapterId>
+<chapterId>58d2c623-2de6-47d3-a720-05967032b5ec</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Fazit
 
-<chapterId>d291428b-3cfa-5394-930e-4b514be82d5a</chapterId>
+<chapterId>7e954ffd-0e3e-4040-ac7e-45a079f5d202</chapterId>
 <isCourseConclusion>true</isCourseConclusion>

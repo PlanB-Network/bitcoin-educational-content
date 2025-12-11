@@ -284,7 +284,7 @@ Trước khi gửi tiền cho Address liên quan đến câu seed này, bạn ph
 
 
 
-- Trên màn hình chính của Wallet, nhấp vào tab "Cài đặt", sau đó nhấp vào "Chi tiết Wallet" và sao chép zPub ([khóa công khai mở rộng](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602):
+- Trên màn hình chính của Wallet, nhấp vào tab "Cài đặt", sau đó nhấp vào "Chi tiết Wallet" và sao chép zPub ([khóa công khai mở rộng](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/0488ec38-da31-46a1-b31e-04b5c05fb6e8):
 
 
 

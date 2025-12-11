@@ -15,11 +15,11 @@ Aliran pemikiran ini telah membentuk perdebatan selama berabad-abad, berkat pemi
 +++
 # Pendahuluan
 
-<partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
+<partId>21613091-f43a-4a87-88d9-2d69038d41d2</partId>
 
 ## Gambaran Umum Kursus
 
-<chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
+<chapterId>43b56a2b-bbee-4faa-b52a-9b6c540df559</chapterId>
 
 Selamat datang di kursus ECO201!
 
@@ -46,7 +46,7 @@ Dan bagaimana jika kunci untuk memahami ekonomi saat ini terletak pada teori yan
 
 ## Uang, Kredit, Bank, dan Bank Sentral
 
-<chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
+<chapterId>84a09f98-8cd7-468f-9cc1-6c0add06ce12</chapterId>
 
 > “Masalah utama dengan mata uang konvensional adalah semua kepercayaan yang diperlukan untuk membuatnya berfungsi. Bank sentral harus dipercaya untuk tidak menurunkan nilai mata uang, tetapi sejarah mata uang fiat penuh dengan pelanggaran terhadap kepercayaan tersebut. Bank harus dipercaya untuk menyimpan uang kita dan mentransfernya secara elektronik, tetapi mereka meminjamkannya dalam gelombang gelembung kredit dengan hanya sebagian kecil dalam cadangan. Kita harus mempercayai mereka dengan privasi kita, mempercayai mereka untuk tidak membiarkan pencuri identitas menguras rekening kita.”
 >
@@ -132,11 +132,11 @@ Dalam bab mendatang, kami akan menggali batu penjuru dari setiap aliran pemikira
 
 # Dasar Teoretis
 
-<partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
+<partId>6249c7e4-71bc-453b-8a09-ab579d340709</partId>
 
 ## Teori Nilai Subjektif
 
-<chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
+<chapterId>fb001732-6bf7-4935-b8ec-6c225dab1025</chapterId>
 
 > “Nilai hanya ada dalam kesadaran manusia”
 >
@@ -216,7 +216,7 @@ Bab-bab berikutnya akan didedikasikan untuk munculnya uang sebagai institusi sos
 
 ## Munculnya Uang sebagai Fenomena Sosial
 
-<chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
+<chapterId>469d591e-b407-4218-bccb-6a433f731cb3</chapterId>
 
 Sementara individu memiliki kepentingan bersama dalam spesialisasi dan memaksimalkan pembagian kerja, masih ada masalah koordinasi yang membatasi ekspansi ini.
 
@@ -296,7 +296,7 @@ Pada bab selanjutnya kita akan menggali konsep preferensi waktu dan menjelaskan 
 
 ## Preferensi Waktu, Bunga, dan Modal
 
-<chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
+<chapterId>e0a5c946-dd4c-4aa6-9b6e-aaacb23241ae</chapterId>
 
 ### Preferensi Waktu
 
@@ -365,11 +365,11 @@ Ini adalah apa yang akan kita temukan di bab berikutnya yang didedikasikan untuk
 
 # Perspektif Ekonomi Austria
 
-<partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
+<partId>851a6712-84ea-48d2-85f7-3354e1381a06</partId>
 
 ## Teori Siklus Bisnis Austria
 
-<chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
+<chapterId>17248205-835a-4284-ba94-0eb131916aa3</chapterId>
 
 > “Semakin lama ledakan kredit bank inflasioner berlanjut, semakin besar lingkup malinvestasi dalam barang modal, dan semakin besar kebutuhan untuk melikuidasi investasi yang tidak sehat ini. Ketika ekspansi kredit berhenti, berbalik, atau bahkan melambat secara signifikan, malinvestasi tersebut terungkap”
 >
@@ -439,7 +439,7 @@ Ini akan menjadi subjek dari bab terakhir dan terakhir dari kursus ini.
 
 ## Ketidakmungkinan Perhitungan Ekonomi di bawah Sosialisme
 
-<chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
+<chapterId>9b9e185f-5b0d-4850-813e-0c50e309a909</chapterId>
 
 > “Di mana tidak ada harga pasar untuk faktor-faktor produksi karena mereka tidak dibeli atau dijual, mustahil untuk menggunakan perhitungan dalam merencanakan tindakan masa depan dan dalam menentukan hasil dari tindakan masa lalu. Manajemen sosialis dari produksi hanya tidak akan tahu apakah apa yang direncanakan dan dilaksanakan adalah cara yang paling tepat untuk mencapai tujuan yang dicari. Ini akan beroperasi dalam kegelapan, seolah-olah. Ini akan menyia-nyiakan faktor-faktor produksi yang langka baik material maupun manusia (tenaga kerja). Kekacauan dan kemiskinan untuk semua akan tak terhindarkan terjadi”
 >
@@ -510,7 +510,7 @@ Tradisi Austria mencerminkan pendekatan yang rendah hati terhadap tindakan manus
 
 ## Metodologi Austria
 
-<chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
+<chapterId>1fdf4c5d-0008-4f69-97e7-127fb3ef63e0</chapterId>
 
 Sekolah ekonomi Austria membedakan dirinya dari sekolah lain dengan metodologi aksiomatik-deduktifnya, yang berbeda dari pendekatan positivis yang sering digunakan dalam ilmu sosial. Pendekatan positivis didasarkan pada hukum yang ditetapkan dari data empiris, mengadopsi metode serupa dengan ilmu fisika. Ini merumuskan hipotesis dari observasi, yang kemudian dikonfirmasi atau dibantah oleh eksperimen sementara. Metode ilmiah terdiri dari mempertahankan hipotesis yang paling baik menjelaskan data dan terus menjelajahinya sampai hipotesis yang lebih tepat ditemukan.
 
@@ -531,16 +531,16 @@ Metodologi adalah aspek penting dalam ekonomi dan dalam ilmu sosial pada umumnya
 
 # Bagian Akhir
 
-<partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
+<partId>373760d2-4e6e-4a05-8081-6d02072457d7</partId>
 
 ## Ulasan & Penilaian
 
-<chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
+<chapterId>2373a3ce-1c87-415a-8dd6-0437b4f71e79</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Ujian Akhir
 
-<chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
+<chapterId>1c584ca3-c738-4151-8a85-101a142fcbbc</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Kesimpulan

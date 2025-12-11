@@ -15,11 +15,11 @@ Tato škola myšlení formuje debaty již po staletí, díky vlivným myslitelů
 +++
 # Introduction
 
-<partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
+<partId>21613091-f43a-4a87-88d9-2d69038d41d2</partId>
 
 ## Přehled kurzu
 
-<chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
+<chapterId>43b56a2b-bbee-4faa-b52a-9b6c540df559</chapterId>
 
 Vítejte ve školení ECO201!
 
@@ -47,7 +47,7 @@ A co když klíčem k pochopení současné ekonomiky je teorie stará několik 
 
 ## Peníze, úvěry, banky a centrální banky
 
-<chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
+<chapterId>84a09f98-8cd7-468f-9cc1-6c0add06ce12</chapterId>
 
 > „Základní problém s konvenční měnou spočívá ve veškeré důvěře, která je potřebná k jejímu fungování. Centrální bance musíme věřit, že nebude devalvovat měnu, ale historie fiat měn je plná porušení této důvěry. Bankám musíme věřit, že budou držet naše peníze a převádět je elektronicky, ale půjčují je ve vlnách úvěrových bublin sotva s částkou v rezervě. Musíme jim věřit s naším soukromím, věřit, že nedovolí, aby nám zloději identity vyprázdnili účty.“
 >
@@ -133,11 +133,11 @@ V nadcházející kapitole se ponoříme do základního kamene jakékoli ekonom
 
 # Teoretické základy
 
-<partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
+<partId>6249c7e4-71bc-453b-8a09-ab579d340709</partId>
 
 ## Subjektivní teorie hodnoty
 
-<chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
+<chapterId>fb001732-6bf7-4935-b8ec-6c225dab1025</chapterId>
 
 > “Hodnota existuje pouze v lidském vědomí”
 >
@@ -216,7 +216,7 @@ Následující kapitoly budou věnovány vzniku peněz jako sociálního jevu, t
 
 ## Vznik peněz jako sociálního jevu
 
-<chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
+<chapterId>469d591e-b407-4218-bccb-6a433f731cb3</chapterId>
 
 I když jednotlivci mají společný zájem na specializaci a maximalizaci dělby práce, stále existují koordinační problémy, které tuto expanzi omezují.
 
@@ -295,7 +295,7 @@ V další kapitole se budeme zabývat konceptem časové preference a vysvětlí
 
 ## Časová preference, úrok a kapitál
 
-<chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
+<chapterId>e0a5c946-dd4c-4aa6-9b6e-aaacb23241ae</chapterId>
 
 ### Časová preference
 
@@ -362,11 +362,11 @@ To zjistíme v další kapitole věnované Rakouské teorii hospodářského cyk
 
 # Rakouské ekonomické perspektivy
 
-<partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
+<partId>851a6712-84ea-48d2-85f7-3354e1381a06</partId>
 
 ## Rakouská teorie hospodářského cyklu
 
-<chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
+<chapterId>17248205-835a-4284-ba94-0eb131916aa3</chapterId>
 
 > „Čím déle trvá boom inflačního bankovního úvěru, tím větší je rozsah špatných investic do kapitálového zboží a tím větší je potřeba likvidace těchto nezdravých investic. Když se expanze úvěru zastaví, obrátí nebo dokonce výrazně zpomalí, špatné investice se projeví“
 >
@@ -437,7 +437,7 @@ To bude předmětem další a poslední kapitoly tohoto kurzu.
 
 ## Nemožnost ekonomického výpočtu v socialismu
 
-<chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
+<chapterId>9b9e185f-5b0d-4850-813e-0c50e309a909</chapterId>
 
 > "Tam, kde neexistují tržní ceny pro výrobní faktory, protože nejsou kupovány ani prodávány, je nemožné uchýlit se k výpočtu při plánování budoucích akcí a při určování výsledku minulých akcí. Socialistické řízení produkce jednoduše nebude vědět, zda to, co plánuje a provádí, je nejvhodnějším prostředkem k dosažení hledaných cílů. Bude operovat ve tmě, takříkajíc. Rozhází vzácné výrobní faktory, jak materiální, tak lidské (práci). Chaos a chudoba pro všechny nevyhnutelně vyplynou."
 >
@@ -506,7 +506,7 @@ Rakouská tradice ztělesňuje skromný přístup k lidské činnosti, vyvozuje 
 
 ## Rakouská metodologie
 
-<chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
+<chapterId>1fdf4c5d-0008-4f69-97e7-127fb3ef63e0</chapterId>
 
 Rakouská škola ekonomie se od ostatních škol liší svou axiomatiko-deduktivní metodologií, která se liší od pozitivistického přístupu často používaného ve společenských vědách. Pozitivistický přístup je založen na zákonech stanovených z empirických dat, přijímá metodu podobnou té, která se používá ve fyzikálních vědách. Formuluje hypotézy z pozorování, které jsou poté potvrzeny nebo vyvráceny dočasnými experimenty. Vědecká metoda spočívá v udržení hypotézy, která nejlépe vysvětluje data, a pokračování v jejím zkoumání, dokud není nalezena přesnější hypotéza.
 
@@ -526,16 +526,16 @@ Metodologie je zásadním aspektem v ekonomii a obecně ve společenských věd�
 
 # Sekce finále
 
-<partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
+<partId>373760d2-4e6e-4a05-8081-6d02072457d7</partId>
 
 ## Recenze & Hodnocení
 
-<chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
+<chapterId>2373a3ce-1c87-415a-8dd6-0437b4f71e79</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Závěrečná zkouška
 
-<chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
+<chapterId>1c584ca3-c738-4151-8a85-101a142fcbbc</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Závěr

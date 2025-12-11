@@ -15,11 +15,11 @@ Tài liệu được thiết kế cho người học ở mọi cấp độ và c
 +++
 # Giới thiệu
 
-<partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
+<partId>abfa0d9a-736e-40f8-937a-490ef19bc481</partId>
 
 ## Tổng quan về khóa học
 
-<chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+<chapterId>dc6c887e-00a6-4b7f-9d50-14cbdfd5e867</chapterId>
 Chào mừng bạn đến với khóa học CYP302!
 
 Cuốn sách này cung cấp phần giới thiệu sâu về khoa học và thực hành mật mã. Nếu có thể, cuốn sách tập trung vào khái niệm hơn là trình bày chính thức về tài liệu.
@@ -88,11 +88,11 @@ Sẵn sàng khám phá thế giới hấp dẫn của mật mã học chưa? Đi
 
 # Mật mã học là gì?
 
-<partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>
+<partId>dfa3633c-f97b-4650-8a2e-cb15a42ca557</partId>
 
 ## Mật mã Beale
 
-<chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
+<chapterId>b97d116b-035b-4e92-890c-e377b48edb36</chapterId>
 
 Chúng ta hãy bắt đầu cuộc điều tra của chúng ta về lĩnh vực mật mã với một trong những giai đoạn hấp dẫn và thú vị nhất trong lịch sử của nó: đó là về mật mã Beale. [1]
 
@@ -132,7 +132,7 @@ Sau khi giải mã, thông điệp thứ hai cung cấp nội dung chi tiết c�
 
 ## Mật mã hiện đại
 
-<chapterId>d07d576f-8a4b-5890-b182-2e5763f550f4</chapterId>
+<chapterId>a53dab64-fcf9-48c1-b578-dc43d799f3de</chapterId>
 
 Những câu chuyện đầy màu sắc như câu chuyện về mật mã Beale là những gì hầu hết chúng ta liên tưởng đến mật mã. Tuy nhiên, mật mã hiện đại khác biệt ít nhất ở bốn điểm quan trọng so với các ví dụ lịch sử này.
 
@@ -184,7 +184,7 @@ Một ví dụ khác, **các cuộc tấn công lừa đảo** là một vấn �
 
 ## Giao tiếp mở
 
-<chapterId>cb23d0a6-ba9a-5dc6-a55a-258405ae4117</chapterId>
+<chapterId>87b637ca-3d20-42b5-b299-ecb084b60aec</chapterId>
 
 Mật mã học hiện đại được thiết kế để cung cấp sự đảm bảo an ninh trong môi trường **giao tiếp mở**. Nếu kênh giao tiếp của chúng ta được bảo vệ tốt đến mức những kẻ nghe lén không có cơ hội thao túng hoặc thậm chí chỉ quan sát tin nhắn của chúng ta, thì mật mã học là thừa thãi. Tuy nhiên, hầu hết các kênh giao tiếp của chúng ta khó có thể được bảo vệ tốt như vậy.
 
@@ -204,11 +204,11 @@ Do đó, ý tưởng giữ bí mật thông tin liên lạc bằng cách bảo v
 
 # Cơ sở toán học của mật mã 1
 
-<partId>1bf9f0aa-0f68-5493-83fb-2167238ff9de</partId>
+<partId>22c3967a-c64b-468c-8e68-3324fe552738</partId>
 
 ## Biến ngẫu nhiên
 
-<chapterId>b623a7d0-3dff-5803-bd4e-8257ff73dd69</chapterId>
+<chapterId>c5fa2255-6041-400b-9072-217b73bf411e</chapterId>
 
 Mật mã học dựa trên toán học. Và nếu bạn muốn xây dựng nhiều hơn sự hiểu biết hời hợt về mật mã học, bạn cần phải thoải mái với toán học đó.
 
@@ -415,7 +415,7 @@ Ví dụ, tôi có thể hỏi bạn về xác suất lợn sẽ bay vào năm 2
 
 ## Phép toán modulo
 
-<chapterId>709b34e5-b155-53d2-abbd-97d67e56db00</chapterId>
+<chapterId>a7e063f0-62dd-4c35-892a-55fa1b10aad8</chapterId>
 
 ### Mô-đun
 
@@ -503,7 +503,7 @@ $$
 
 ## Phép toán XOR
 
-<chapterId>22f185cc-c516-5b33-950b-0908f2f881fe</chapterId>
+<chapterId>941aaabd-0896-4eb2-843c-e1af055c87fc</chapterId>
 
 Tất cả dữ liệu máy tính được xử lý, lưu trữ và gửi qua mạng ở cấp độ bit. Bất kỳ chương trình mã hóa nào được áp dụng cho dữ liệu máy tính cũng hoạt động ở cấp độ bit.
 
@@ -538,7 +538,7 @@ Một phép toán XOR tương đương với trường hợp đặc biệt thự
 
 ## Sự ngẫu nhiên giả
 
-<chapterId>20463fc5-3e92-581f-a1b7-3151279bd95e</chapterId>
+<chapterId>bd0c7d54-5392-490b-bdca-04dcbe7d83ff</chapterId>
 
 Trong cuộc thảo luận của chúng tôi về các biến ngẫu nhiên và đồng nhất, chúng tôi đã đưa ra một sự phân biệt cụ thể giữa "ngẫu nhiên" và "đồng nhất". Sự phân biệt đó thường được duy trì trong thực tế khi mô tả các biến ngẫu nhiên. Tuy nhiên, trong bối cảnh hiện tại của chúng tôi, sự phân biệt này cần phải được loại bỏ và "ngẫu nhiên" và "đồng nhất" được sử dụng đồng nghĩa. Tôi sẽ giải thích lý do tại sao ở cuối phần này.
 
@@ -582,11 +582,11 @@ Lý do để loại bỏ sự phân biệt giữa “ngẫu nhiên” và “đ�
 
 # Cơ sở toán học của mật mã 2
 
-<partId>d7245cc9-bb6d-5403-b3d5-9c703d9a2f81</partId>
+<partId>62963952-ae03-43f4-88d6-90aea95e5c5f</partId>
 
 ## Lý thuyết số là gì?
 
-<chapterId>c0051c34-fd5d-539c-93e2-5c6dfd4c3355</chapterId>
+<chapterId>67e7dace-4c23-41a8-bdb3-c6c87d223899</chapterId>
 
 Chương này đề cập đến một chủ đề nâng cao hơn về nền tảng toán học của mật mã: lý thuyết số. Mặc dù lý thuyết số rất quan trọng đối với mật mã đối xứng (như trong Rijndael Cipher), nhưng nó đặc biệt quan trọng trong bối cảnh mật mã khóa công khai.
 
@@ -606,7 +606,7 @@ Các tập hợp từ đại số trừu tượng có thể xử lý nhiều lo�
 
 ## Nhóm
 
-<chapterId>3209b270-f9cd-5224-803e-0ed19fbf7826</chapterId>
+<chapterId>4353d3ff-6319-4985-a4b8-3b20111ecfff</chapterId>
 
 Một khái niệm cơ bản trong toán học là về một tập hợp các phần tử. Một tập hợp thường được biểu thị bằng các dấu phẩy với các phần tử được phân tách bằng dấu phẩy.
 
@@ -679,7 +679,7 @@ Giao dịch trong Bitcoin thường liên quan đến việc khóa đầu ra và
 
 ## Nhóm tuần hoàn
 
-<chapterId>bfa5c714-7952-5fef-88b1-ca5b07edd886</chapterId>
+<chapterId>b5b552f6-cf7c-4ba8-bd9c-685bfc4aacad</chapterId>
 
 Một sự phân biệt chính mà chúng ta có thể rút ra là giữa **nhóm hữu hạn** và **nhóm vô hạn**. Nhóm trước có số lượng phần tử hữu hạn, trong khi nhóm sau có số lượng phần tử vô hạn. Số lượng phần tử trong bất kỳ nhóm hữu hạn nào được gọi là **cấp của nhóm**. Tất cả các mật mã thực tế liên quan đến việc sử dụng các nhóm đều dựa trên các nhóm hữu hạn (lý thuyết số).
 
@@ -768,7 +768,7 @@ Công thức hàm Euler Phi để phân tích thừa số nguyên tố của $N$
 
 ## Các cánh đồng
 
-<chapterId>fad52d86-3a22-5c9f-979e-3bec9eaa008e</chapterId>
+<chapterId>7a8c9ab0-fc8f-43fa-8dd7-fd1839bcda81</chapterId>
 
 Nhóm là cấu trúc đại số cơ bản trong đại số trừu tượng, nhưng còn nhiều cấu trúc khác nữa. Cấu trúc đại số duy nhất khác mà bạn cần phải quen thuộc là cấu trúc của **trường**, cụ thể là cấu trúc của **trường hữu hạn**. Kiểu cấu trúc đại số này thường được sử dụng trong mật mã học, chẳng hạn như trong Tiêu chuẩn mã hóa nâng cao. Sau này là lược đồ mã hóa đối xứng chính mà bạn sẽ gặp trong thực tế.
 
@@ -919,7 +919,7 @@ Tại sao các trường mở rộng với cơ số 2 trên các tập hợp đa
 
 ## Đại số trừu tượng trong thực tế
 
-<chapterId>ed35b98d-18b4-5790-9911-1078e0f84f92</chapterId>
+<chapterId>9b8cd1fc-8a34-4e1b-ab4f-c634a763a20c</chapterId>
 
 Bất chấp ngôn ngữ chính thức và tính trừu tượng của cuộc thảo luận, khái niệm về nhóm không quá khó để nắm bắt. Nó chỉ là một tập hợp các phần tử cùng với một phép toán nhị phân, trong đó hiệu suất của phép toán nhị phân đó trên các phần tử đó đáp ứng bốn điều kiện chung. Một nhóm Abelian chỉ có một điều kiện bổ sung được gọi là tính giao hoán. Một nhóm cyclic, đến lượt nó, là một loại nhóm Abelian đặc biệt, cụ thể là nhóm có một bộ tạo. Một trường chỉ đơn thuần là một cấu trúc phức tạp hơn từ khái niệm nhóm cơ bản.
 
@@ -947,11 +947,11 @@ Quan trọng nhất, bạn sẽ thấy tầm quan trọng của các nhóm và t
 
 # Mật mã đối xứng
 
-<partId>ef768d0e-fe7b-510c-87d6-6febb3de1039</partId>
+<partId>b994593e-cb9b-4a2c-ae80-2dec3478e1a6</partId>
 
 ## Alice và Bob
 
-<chapterId>47345330-be2d-5faf-afd0-d289a8d21bf1</chapterId>
+<chapterId>9c901027-b83a-4954-99b4-9e4f0c1598b7</chapterId>
 
 Một trong hai nhánh chính của mật mã là mật mã đối xứng. Nó bao gồm các lược đồ mã hóa cũng như các lược đồ liên quan đến xác thực và toàn vẹn. Cho đến những năm 1970, tất cả mật mã đều bao gồm các lược đồ mã hóa đối xứng.
 
@@ -981,7 +981,7 @@ Sau đây là năm điểm chính cần ghi nhớ về các ví dụ liên quan 
 
 ## Các chương trình mã hóa đối xứng
 
-<chapterId>41bfdbe1-6d41-5272-98bb-81f24b2fd6af</chapterId>
+<chapterId>e2645185-bb06-41d2-9a80-81dd84108647</chapterId>
 
 Chúng ta có thể định nghĩa một cách rộng rãi **sơ đồ mã hóa đối xứng** là bất kỳ sơ đồ mật mã nào có ba thuật toán:
 
@@ -1017,7 +1017,7 @@ Bob mã hóa thông điệp $M$ tại thời điểm $T_0$ bằng khóa $K$ đ�
 
 ## Một ví dụ: Mã dịch chuyển
 
-<chapterId>7b179ae8-8d15-5e80-a43f-22c970d87b5e</chapterId>
+<chapterId>63287a89-bda1-4395-ade6-cd8d8debe797</chapterId>
 
 Trong Chương 2, chúng ta đã gặp mã hóa dịch chuyển, đây là một ví dụ về một lược đồ mã hóa đối xứng rất đơn giản. Chúng ta hãy xem lại nó ở đây.
 
@@ -1053,7 +1053,7 @@ Bạn cũng có thể bắt gặp các thuật ngữ **mã hóa** hoặc **giả
 
 ## Tấn công bằng vũ lực và nguyên tắc của Kerckhoff
 
-<chapterId>2d73ef97-26c5-5d11-8815-0ddbe89c8003</chapterId>
+<chapterId>4a72d8d8-0186-4654-b5ba-f99a4e03fb59</chapterId>
 
 Mã hóa dịch chuyển là một lược đồ mã hóa đối xứng rất không an toàn, ít nhất là trong thế giới hiện đại. [1] Kẻ tấn công có thể chỉ cần cố gắng giải mã bất kỳ văn bản mã hóa nào với tất cả 26 khóa có thể để xem kết quả nào có ý nghĩa. Kiểu tấn công này, trong đó kẻ tấn công chỉ cần lặp lại các khóa để xem khóa nào hiệu quả, được gọi là **tấn công vũ phu** hoặc **tìm kiếm khóa cạn kiệt**.
 
@@ -1101,7 +1101,7 @@ Mặc dù chúng tôi sẽ không đi sâu vào tất cả các chi tiết của
 
 ## Mã hóa luồng
 
-<chapterId>479aa6f4-45c4-59ca-8616-8cf8e61fc871</chapterId>
+<chapterId>82a4d8c5-7fd7-4bbb-a97e-e7a2d7cc55a0</chapterId>
 
 Các lược đồ mã hóa đối xứng thường được chia thành hai loại: **mã hóa luồng** và **mã hóa khối**. Tuy nhiên, sự phân biệt này có phần gây khó khăn vì mọi người sử dụng các thuật ngữ này theo cách không nhất quán. Trong một vài phần tiếp theo, tôi sẽ trình bày sự phân biệt theo cách mà tôi cho là tốt nhất. Tuy nhiên, bạn nên biết rằng nhiều người sẽ sử dụng các thuật ngữ này theo cách hơi khác so với cách tôi trình bày.
 
@@ -1189,7 +1189,7 @@ Theo quan điểm của tôi, việc xác định điều kiện (1) một cách
 
 ## Khối mã hóa
 
-<chapterId>2df52d51-943d-5df7-9d49-333e4c5d97b7</chapterId>
+<chapterId>ffb7ba1c-eb20-43a8-a2f1-2b8a54a31044</chapterId>
 
 Cách đầu tiên mà **mã hóa khối** thường được hiểu là một thứ gì đó nguyên thủy hơn mã hóa luồng: Một thuật toán cốt lõi thực hiện phép biến đổi bảo toàn độ dài trên một chuỗi có độ dài phù hợp với sự trợ giúp của khóa. Thuật toán này có thể được sử dụng để tạo ra các lược đồ mã hóa và có lẽ là các loại lược đồ mật mã khác.
 
@@ -1265,7 +1265,7 @@ Mã hóa khối AES sẽ được giải thích chi tiết trong *Chương 5*.
 
 ## Làm rõ sự nhầm lẫn
 
-<chapterId>121c1858-27e3-5862-b0ce-4ff2f70f9f0f</chapterId>
+<chapterId>61e393f2-6764-4214-a871-f7471cb8ea32</chapterId>
 
 Sự nhầm lẫn về sự khác biệt giữa mã khối và mã luồng phát sinh vì đôi khi mọi người sẽ hiểu thuật ngữ mã khối là ám chỉ cụ thể đến *mã khối có chế độ mã hóa khối*.
 
@@ -1289,7 +1289,7 @@ Từ thảo luận này, bây giờ bạn sẽ hiểu *Hình 8*. Nó cung cấp 
 
 ## Mã xác thực tin nhắn
 
-<chapterId>19fa7c00-db59-56a0-9654-5350a137939d</chapterId>
+<chapterId>626181b6-f80f-4160-b441-417a79b66ec6</chapterId>
 
 Mã hóa liên quan đến tính bí mật. Nhưng mật mã cũng liên quan đến các chủ đề rộng hơn, chẳng hạn như tính toàn vẹn của thông điệp, tính xác thực và tính không thể chối cãi. Cái gọi là **mã xác thực thông điệp** (MAC) là các lược đồ mật mã khóa đối xứng hỗ trợ tính xác thực và tính toàn vẹn trong giao tiếp.
 
@@ -1319,7 +1319,7 @@ Trong khi tôi đã phân biệt giữa tính xác thực và tính toàn vẹn 
 
 ## Mã hóa được xác thực
 
-<chapterId>33f2ec9b-9fb4-5c61-8fb4-50836270a144</chapterId>
+<chapterId>64c1aef9-0bf8-45c5-92ba-12161d907eac</chapterId>
 
 Thông thường, bạn sẽ muốn đảm bảo cả tính bảo mật và tính xác thực trong giao tiếp và do đó, các lược đồ mã hóa và lược đồ MAC thường được sử dụng cùng nhau.
 
@@ -1363,7 +1363,7 @@ Có một bảng các hàm băm có thể được sử dụng để tạo HMAC.
 
 ## Phiên giao tiếp an toàn
 
-<chapterId>c7f7dcd3-bbed-53ed-a43d-039da0f180c5</chapterId>
+<chapterId>16be8853-ef4e-432b-b724-f34e780f2abe</chapterId>
 
 Giả sử hai bên đang trong một phiên giao tiếp và họ gửi nhiều tin nhắn qua lại.
 
@@ -1395,11 +1395,11 @@ Phiên giao tiếp bắt đầu bằng việc Bob gửi một bản mã $C_{0,B}
 
 # RC4 và AES
 
-<partId>a48c4a7d-0a41-523f-a4ab-1305b4430324</partId>
+<partId>9948fc0a-59fe-46a4-b324-b12cde16e576</partId>
 
 ## Mã hóa luồng RC4
 
-<chapterId>5caec5bd-5a77-56c9-b5e6-1e86f0d294aa</chapterId>
+<chapterId>2f83a43a-16e5-4b4e-9d2f-4976f92eba15</chapterId>
 
 Trong Chương này, chúng ta sẽ thảo luận chi tiết về một lược đồ mã hóa với một mã hóa luồng nguyên thủy hiện đại, RC4 (hay "Mã hóa Rivest 4"), và một mã hóa khối hiện đại, AES. Trong khi mã hóa RC4 đã không còn được ưa chuộng như một phương pháp mã hóa, AES là tiêu chuẩn cho mã hóa đối xứng hiện đại. Hai ví dụ này sẽ cung cấp một ý tưởng tốt hơn về cách mã hóa đối xứng hoạt động bên trong.
 
@@ -1512,7 +1512,7 @@ Ngược lại, **mã hóa luồng không đồng bộ** có luồng khóa đư�
 
 ## AES với khóa 128-bit
 
-<chapterId>0b30886f-e620-5b8d-807b-9d84685ca8ff</chapterId>
+<chapterId>593d6ae3-7887-40d5-b14b-98a580b9a254</chapterId>
 
 Như đã đề cập trong chương trước, Viện Tiêu chuẩn và Công nghệ Quốc gia (NIST) đã tổ chức một cuộc thi từ năm 1997 đến năm 2000 để xác định một tiêu chuẩn mã hóa đối xứng mới. **Mật mã Rijndael** đã trở thành bài dự thi chiến thắng. Tên này là một cách chơi chữ dựa trên tên của những người sáng tạo ra nó là Vincent Rijmen và Joan Daemen người Bỉ.
 
@@ -1681,11 +1681,11 @@ Lý do cho các hoạt động đằng sau mã Rijndael là chúng tạo ra cả
 
 # Mật mã bất đối xứng
 
-<partId>868bd9dd-6e1c-5ea9-9ece-54affc13ba05</partId>
+<partId>20c55ed4-4e45-493a-8bfe-970f332d764c</partId>
 
 ## Vấn đề phân phối và quản lý chính
 
-<chapterId>1bb651ba-689a-5a89-a7d3-0b9cc3b694f7</chapterId>
+<chapterId>4bbc8769-e00d-4d59-8365-c5f491b1217b</chapterId>
 
 Giống như mật mã đối xứng, các lược đồ bất đối xứng có thể được sử dụng để đảm bảo cả tính bí mật và xác thực. Tuy nhiên, ngược lại, các lược đồ này sử dụng hai khóa thay vì một: khóa riêng và khóa công khai.
 
@@ -1730,7 +1730,7 @@ Vậy, điều gì đã xảy ra vào những năm 1970? Làm sao chúng ta có 
 
 ## Hướng đi mới trong mật mã học
 
-<chapterId>7a9dd9a3-496e-5f9d-93e0-b5028a7dd0f1</chapterId>
+<chapterId>e0f7950c-bb5a-437e-b27e-8d6878e15291</chapterId>
 
 Đến những năm 1970, các vấn đề về phân phối khóa và quản lý khóa đã thu hút sự chú ý của một nhóm các nhà mật mã học thuật người Mỹ: Whitfield Diffie, Martin Hellman và Ralph Merkle. Trước sự hoài nghi nghiêm trọng từ phần lớn các đồng nghiệp, họ đã mạo hiểm đưa ra giải pháp cho vấn đề này.
 
@@ -1794,7 +1794,7 @@ Theo lời kể của họ và GCHQ, James Ellis là người đầu tiên đưa
 
 ## Mã hóa và xác thực không đối xứng
 
-<chapterId>2f6f0f03-3c3d-5025-90f0-5211139bc0cc</chapterId>
+<chapterId>a36ea521-ecee-476d-ade9-57f09bed2469</chapterId>
 
 Tổng quan về **mã hóa bất đối xứng** với sự trợ giúp của Bob và Alice được cung cấp trong *Hình 1*.
 
@@ -1872,7 +1872,7 @@ Phân phối khóa hiện đã trở nên đơn giản hơn rất nhiều đối
 
 ## Hàm băm
 
-<chapterId>ea8327ab-b0e3-5635-941c-4b51f396a648</chapterId>
+<chapterId>49d6c9a5-5f18-4ec4-8c83-e02fc60941ff</chapterId>
 
 Hàm băm có mặt ở khắp mọi nơi trong mật mã học. Chúng không phải là lược đồ đối xứng hay bất đối xứng, nhưng lại thuộc về một phạm trù mật mã riêng.
 
@@ -1950,11 +1950,11 @@ Trong khi khả năng chống va chạm và ẩn là những tính chất chính
 
 # Hệ thống mật mã RSA
 
-<partId>864dca42-2a8d-530f-bb94-2e1f68b3f411</partId>
+<partId>a8fb0a0b-747f-422a-a464-3c84979efa43</partId>
 
 ## Vấn đề phân tích thành nhân tử
 
-<chapterId>a31a66e4-52ea-539c-9953-4769ad565d7e</chapterId>
+<chapterId>406b1681-f8bf-4a03-b555-c84ac4dee44a</chapterId>
 
 Trong khi mật mã đối xứng thường khá trực quan đối với hầu hết mọi người, thì mật mã bất đối xứng thường không như vậy. Mặc dù bạn có thể thoải mái với mô tả cấp cao được cung cấp trong các phần trước, bạn có thể tự hỏi chính xác hàm một chiều là gì và chúng được sử dụng chính xác như thế nào để xây dựng các lược đồ bất đối xứng.
 
@@ -2046,7 +2046,7 @@ $$ \frac{2^{1024}}{\ln(2^{1024})} - \frac{2^{1023}}{\ln(2^{1023})} $$
 
 ## Kết quả lý thuyết số
 
-<chapterId>23cd2186-8d97-5709-a4a7-b984f1eb9999</chapterId>
+<chapterId>a5528852-d9cc-4f94-a15d-02f11081e026</chapterId>
 
 Thật không may, bài toán phân tích không thể được sử dụng trực tiếp cho các lược đồ mật mã bất đối xứng. Tuy nhiên, chúng ta có thể sử dụng một bài toán phức tạp hơn nhưng có liên quan đến vấn đề này: bài toán RSA.
 
@@ -2174,7 +2174,7 @@ Bây giờ chúng ta đã có tất cả các kết quả lý thuyết số cầ
 
 ## Hệ thống mật mã RSA
 
-<chapterId>0253c2f7-b8a4-5d0e-bd60-812ed6b6c7a9</chapterId>
+<chapterId>b230194d-5774-49fe-9d19-53e345453c34</chapterId>
 
 Bây giờ chúng ta đã sẵn sàng để nêu vấn đề RSA. Giả sử bạn tạo một tập hợp các biến bao gồm $p$, $q$, $N$, $\phi(N)$, $e$, $d$ và $y$. Gọi tập hợp này là $\Pi$. Nó được tạo như sau:
 
@@ -2270,6 +2270,6 @@ Tuy nhiên, với việc thêm một chút phức tạp thông minh, bài toán 
 
 ## Phần kết luận
 
-<chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
+<chapterId>97ce180b-5092-45eb-a160-57fc52917567</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

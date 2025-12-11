@@ -16,10 +16,10 @@ En particulier, la période qui va du printemps 2011 à l'été 2012 est caract�
 +++
 
 # Introduction
-<partId>a4a46ce3-6430-5ac7-bc4d-ab1e68e94390</partId>
+<partId>eacacd5d-dd62-4fe4-aa2c-be2433475c7d</partId>
 
 ## Aperçu du cours
-<chapterId>ce630c81-dd1d-59a0-afea-8e6d3313e8ad</chapterId>
+<chapterId>333c4b02-2ca3-4d42-aade-badbcb131749</chapterId>
 
 Ce cours vise à raconter la première partie de la deuxième phase de l'histoire de Bitcoin (2011–2014). Celle-ci fait suite à la première phase (2008–2011) dite de « preuve de concept » (original: "proof of concept"), caractérisée par la présence de Satoshi et par une relative discrétion du projet. Et elle précède la troisième phase (2014–2018), marquée en particulier par la guerre des blocs (*blocksize war*), le conflit interne qui a déchiré la communauté pendant plusieurs années. Nous essaierons de retranscrire ce qui fait l'originalité de cette période et en quoi elle constitue une étape nécessaire dans la construction de Bitcoin.
 
@@ -99,10 +99,10 @@ Enfin, nous avons fait usage d'un certain nombre d'archives et de contenus dispo
 Un grand merci à Loïc Morel pour sa relecture attentive !
 
 # La grande bulle de 2011
-<partId>eb634403-627b-5b21-a0b7-11a4ca8aa2d1</partId>
+<partId>1caf025d-e78a-4f72-8020-f7ecaf71c44a</partId>
 
 ## Silk Road, l'Amazon de la drogue
-<chapterId>23e6297e-75b3-5c7f-bc29-ce1f6c1b56a4</chapterId>
+<chapterId>23a3c85f-7eae-4c4c-b8b9-c7a28995dffc</chapterId>
 
 La question de la relation entre la cryptomonnaie et l'autorité s'est posée assez rapidement dans l'histoire de Bitcoin. En décembre 2010, Satoshi Nakamoto s'est retiré des devants de la scène à cause de la publication de l'article de PC World, qui invitait WikiLeaks à utiliser Bitcoin. Comme pour confirmer son intuition, cet article a attiré une attention gigantesque sur Bitcoin, dont le prix est passé de 0,20 $ à 32 $ en quelques mois. Satoshi a continué d'échanger en privé avec ses plus proches collaborateurs et a définitivement disparu au cours du printemps 2011. Assez symboliquement, le dernier message de Gavin Andresen, le développeur qui avait pris les rênes du projet, informait le créateur de Bitcoin qu'il avait été contacté par In-Q-Tel, un fonds d'investissement géré par la CIA. La boite de Pandore était bel et bien ouverte.
 
@@ -257,7 +257,7 @@ L'émergence de Silk Road a été un élément essentiel dans la construction de
 Ainsi, un peu plus d'un an après la vente des pizzas de Laszlo, Silk Road est devenu l'incarnation du commerce exercé avec Bitcoin. Toutefois, cette utilisation était dans le même temps concurrencée par un autre type d'activité : la spéculation. Et celle-ci battait son plein sur Mt. Gox, la principale plateforme de change de l'écosystème, qui était alors gérée par le Français Mark Karpelès.
 
 ## La reprise de Mt. Gox
-<chapterId>451293d5-d691-5c36-91dd-4ee5e6dcc9e3</chapterId>
+<chapterId>a1ae9101-1e69-4e5d-b261-62b7dfeadebb</chapterId>
 
 La période qui a débuté au printemps 2011 est caractérisée par le développement de l'activité de change entre le bitcoin et les monnaies classiques, comme le dollar et l'euro. Ce type de services jouait en effet un rôle essentiel dans l'économie de Bitcoin, cette dernière étant trop petite pour fonctionner en boucle fermée. Les mineurs avaient besoin de vendre leurs récompenses pour payer leurs factures d'électricité. Les commerçants, dont faisaient partie les vendeurs de Silk Road, devaient récupérer des dollars pour rembourser leurs fournisseurs. Leurs clients, qui ne disposaient généralement pas de bitcoin, avaient besoin de s'en procurer au préalable. Il existait aussi une forte demande spéculative, venant des gens qui considéraient la cryptomonnaie comme un investissement.
 
@@ -436,7 +436,7 @@ En 2011, Mt. Gox constituait ainsi le point central de l'économie de Bitcoin. �
 Toutefois, cette croissance fulgurante cachait une grande fragilité. La plateforme Mt. Gox a subi plusieurs piratages durant cette période, ce qui fait qu'elle a accumulé les pertes au fil des mois : plus d'une centaine de milliers de bitcoins manquaient à l'appel à la fin de l'été. Cela présageait une chute abrupte. Mais Mt. Gox allait d'abord devenir une plateforme énorme en l'espace de deux ans et demi.
 
 ## Bitcoin et l'activisme politique
-<chapterId>5545c513-74de-57e8-929e-a75406ed5829</chapterId>
+<chapterId>8e20a4a2-350f-41d1-a5c1-81a391f1e9ac</chapterId>
 
 Bitcoin est un objet éminemment politique en ce qu'il constitue un outil de libération et qu'il permet de faire des choses hors du cadre légal. C'est pourquoi il a tout naturellement attiré les individus motivés idéologiquement, qui ont souvent été ses partisans les plus passionnés. De plus, son essor a été favorisé par le grand scepticisme et la colère vis-à-vis du système bancaire, qui découlaient de la crise financière de 2008 : les activistes voyaient dans la cryptomonnaie une alternative aux institutions financières qu'ils jugeaient corrompues.
 
@@ -573,7 +573,7 @@ L'idéologie politique a constitué un élément essentiel de la construction de
 Pourtant, cet aspect idéologique était en opposition avec une force autrement plus attractive : celle de l'intérêt financier. Une tension s'est ainsi construite au cours des années entre les deux aspects, qui s'est manifestée par un changement du discours à partir de 2013 et par une hausse phénoménale du taux de change. Mais avant cela, il fallait mettre au point les outils qui permettraient aux acteurs financiers de venir s'investir dans l'écosystème. Et ce développement allait intervenir en grande partie durant le premier réel « marché baissier » de l'histoire de Bitcoin.
 
 ## Le premier marché baissier
-<chapterId>e1a056ad-b7da-5bf0-ac17-0243d7bea605</chapterId>
+<chapterId>512ca7e1-8248-4ff8-9692-466f0bb172b8</chapterId>
 
 En juin 2011, l'engouement spéculatif a été stoppé net par le piratage de Mt. Gox, qui a mis la plateforme hors ligne pendant une semaine. Puis, le fiasco lié à la fermeture de MyBitcoin à la fin du mois de juillet a finalement déclenché le dégonflement de la bulle et conduit au premier réel marché baissier du bitcoin. Dans les jours qui ont suivi, le prix est descendu en flèche jusqu'à 6 $. Il a fini par tomber à 2 $ en novembre.
 
@@ -726,10 +726,10 @@ Malgré la baisse de moral, la période a été propice à la construction. C'es
 De plus, ce progrès économique s'est accompagné d'un développement technique soutenu par les programmeurs. Outre l'évolution du logiciel principal (sujet que nous traiterons plus loin), la période a ainsi été marquée par l'amélioration de l'utilisation de Bitcoin due au développement des portefeuilles. C'est l'objet du prochain chapitre.
 
 # Le développement technique
-<partId>8786cbbb-dbe9-51de-86ca-b835ba2529c5</partId>
+<partId>2308cacf-46b4-45b4-965b-ae11ce31a57c</partId>
 
 ## L'amélioration de l'utilisation de Bitcoin
-<chapterId>e73d02f8-c1cb-562b-ac80-8a6a672599fd</chapterId>
+<chapterId>e66b2951-427d-42c1-8ebc-047c578111f6</chapterId>
 
 La période du Far West de la finance a été une période d'élargissement de Bitcoin à un public plus large, qui s'y connaissait moins en informatique et qui ne voulait pas faire fonctionner un programme lourd sur un ordinateur fixe. C'est pourquoi elle a été le moment de l'amélioration de l'expérience de l'utilisateur, qui s'est manifestée par l'apparition des portefeuilles légers et par la multiplication des manières de conserver des bitcoins.
 
@@ -977,7 +977,7 @@ En outre, la période a été marquée par le développement des portefeuilles d
 Cependant, les portefeuilles n'étaient pas le seul domaine qui a connu des avancées significatives ; c'était aussi le cas des coopératives de minage. Ces dernières ont en effet essaimé au cours de l'année 2011, alors que la difficulté de minage s'intensifiait, menant à la généralisation de ce mode de minage. Dans le prochain chapitre, nous nous concentrerons sur cet aspect central de cette partie de l'histoire de Bitcoin.
 
 ## L'essor des coopératives de minage
-<chapterId>7bd97db9-1c72-53f1-800f-6cee80f57908</chapterId>
+<chapterId>8250f8b6-b1a1-4968-8e72-c13d7b0e13ca</chapterId>
 
 L'époque du Far West américain se caractérise par la ruée vers l'or, c'est-à-dire la grande migration d'aventuriers espérant faire fortune qui avait succédé à la découverte de gisements aurifères en Californie en 1848, et il s'avère que Bitcoin a connu un phénomène similaire entre 2010 et 2013. Bitcoin a été associé au métal précieux dès l'origine, l'extraction des nouveaux bitcoins s'appelait le minage, et les outils logiciels et matériels étaient désignés sous le nom de mineurs, une appellation qui s'est étendue aux acteurs en charge d'ajouter les blocs de la chaine. Il est donc naturel que l'activité minière des débuts ait été sujette à une sorte de « ruée vers l'or numérique » (original: "digital gold rush"), en attirant des individus passionnés qui, par leur intérêt pécuniaire, ont contribué à la rendre plus efficace au cours du temps.
 
@@ -1116,7 +1116,7 @@ Cette évolution finale, [prévue](https://www.metzdowd.com/pipermail/cryptograp
 Cependant, cette histoire mérite qu'on s'y attarde un peu plus, ce qui sera fait au sein de notre prochain cours consacré à l'essor de Bitcoin. Revenons à présent à la fin de l'année 2011, pour nous intéresser à la grande controverse qui a marqué le développement du protocole à l'époque : la bataille pour Pay to Script Hash.
 
 ## La bataille pour Pay to Script Hash
-<chapterId>6f6fba00-f9a5-59c7-b780-602127b85fd6</chapterId>
+<chapterId>bf00c5c2-451b-4cf5-9bef-72355f003df2</chapterId>
 
 Après le départ de Satoshi Nakamoto, le développement du logiciel a été pris en charge par la communauté, qui a dû se coordonner sous la supervision de Gavin Andresen. Il était en particulier question d'améliorer la programmabilité de Bitcoin, celle-ci ayant été temporairement restreinte par l'instauration de règles de relai sur le réseau.
 
@@ -1333,10 +1333,10 @@ Cette « bataille » a démontré que le développement de Bitcoin n'était pa
 De plus, le débat sur l'évolution du protocole n'était pas la seule conséquence du caractère ouvert et libre de Bitcoin. Ce caractère permettait aussi de mettre en œuvre des versions plus ou moins différentes de Bitcoin, en reprenant le code ou le concept, qu'on appellerait vite des « cryptomonnaies alternatives ». Ces cryptomonnaies alternatives, qui ont participé à leur manière à la construction de Bitcoin, feront l'objet du prochain chapitre.
 
 # Les excès de l'utilisation
-<partId>78390511-d8aa-5cfd-8587-af328aa1e204</partId>
+<partId>1f2693f2-7c0d-4efb-90ae-ecc11c7881ae</partId>
 
 ## L'apparition des cryptomonnaies alternatives
-<chapterId>514a854c-9316-547a-aece-adad371af369</chapterId>
+<chapterId>c5cfdad8-6196-484c-8161-4cff6e0753ea</chapterId>
 
 La période de construction de Bitcoin entre 2011 et 2012 a coïncidé avec la première vague de création de cryptomonnaies alternatives, qui a débuté avec le lancement de Namecoin en avril 2011 et s'est poursuivie tout au long de l'année. La découverte de Satoshi Nakamoto a en effet ouvert la voie à toutes les innovations, bonnes comme mauvaises, qui se sont incarnées dans des projets parallèles, qui ont rapidement pris le nom d'*altcoins*. Comme l'[écrivait](https://web.archive.org/web/20130722051950/https://github.com/ppcoin/ppcoin/wiki/History-of-cryptocurrency) Sunny King, le concepteur de PPCoin, en mars 2013 :
 
@@ -1477,7 +1477,7 @@ Cette première vague des cryptomonnaies alternatives a posé les bases pour ce 
 L'apparition des premières cryptomonnaies alternatives a donc été marquée par la démesure et l'avidité, dans la droite ligne de la période du Far West de la finance. Mais ce n'a pas du tout été le seul excès rendu possible par l'utilisation libre de Bitcoin. Le premier semestre de l'année 2012, en particulier, a été le théâtre de nombreuses activités généralement jugées immorales ou déclarées illégales, comme le trafic de drogue avec Silk Road (dont la part de marché atteignait alors un pic), le jeu d'argent avec SatoshiDICE et le vol avec les piratages de Bitcoinica. Les trois chapitres qui suivent seront consacrés à ces excès, ainsi qu'aux activités de commerce plus « convenables » qui se sont développées en parallèle.
 
 ## Le commerce, licite et illicite
-<chapterId>7e41ce76-c69f-5ef0-9a7c-c6bdf34a87cc</chapterId>
+<chapterId>236fb268-8150-4cd7-806f-bf7b9b158b5b</chapterId>
 
 Après l'éclatement de la grande bulle de 2011 et la stabilisation du cours, la première moitié de l'année 2012 a été assez plate du point de vue de la spéculation. Néanmoins, elle a été salutaire pour l'activité économique réelle, la communauté d'alors essayant de pousser l'utilisation de Bitcoin comme moyen de paiement, but affiché du livre blanc.
 
@@ -1660,7 +1660,7 @@ Cet évènement a ainsi ouvert la voie à une acceptation plus large, ce qui a n
 Malgré cette évolution progressive, la période reste liée au Far West et s'illustre aussi par le grand succès du jeu d'argent en cryptomonnaie et par les premières expériences des travailleuses du sexe avec Bitcoin. Le court chapitre qui suit est consacré à ce rôle de « monnaie du vice » pris par Bitcoin à partir de là.
 
 ## La monnaie du vice : jeu d'argent et travail du sexe
-<chapterId>4355fe11-f6d7-5b8b-bbf0-838af9de25b2</chapterId>
+<chapterId>431cab7b-8fcd-4982-af60-32c92a516806</chapterId>
 
 Bitcoin est une monnaie ne nécessitant pas d'autorisation. C'est ce qui explique pourquoi il a nécessairement été utilisé dans des pratiques considérées comme des vices, qui sont souvent moralement réprouvées, voire légalement interdites. Il y avait évidemment la consommation de drogue induite par la place de marché Silk Road, dont nous avons déjà parlé abondamment dans ce cours. Mais ce n'était pas la seule activité de ce type : le jeu d'argent et le travail du sexe ont aussi connu une sorte de synergie avec Bitcoin.
 
@@ -1761,7 +1761,7 @@ Bitcoin a ainsi constitué une monnaie du vice. Outre le trafic de drogue, il s'
 Mais cette nouvelle forme de monnaie n'était pas seulement adaptée au vice : elle était également la monnaie idéale pour le crime sur Internet. Un certain nombre de piratages et de vols de bitcoins se sont produits en 2012. Nous découvrirons cet aspect dans le prochain chapitre, qui conclut notre cours sur le Far West de la finance.
 
 ## La monnaie du crime : piratages et escroqueries
-<chapterId>bd76cd10-1887-5f41-974a-2d419cf67b08</chapterId>
+<chapterId>e3ea2d5d-affe-4381-a173-0b7b9c7e5ff5</chapterId>
 
 En raison de sa résistance à la censure et de son relatif anonymat, Bitcoin se prête bien aux activités criminelles. Cet aspect peut être considéré comme regrettable, mais est indissociable de l'idéal d'indépendance et de liberté porté par la cryptomonnaie. C'est pourquoi Bitcoin a très vite été associé à des affaires sordides qui ont fait couler beaucoup d'encre dans la presse généraliste.
 

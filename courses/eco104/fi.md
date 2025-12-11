@@ -37,11 +37,11 @@ Tämän kurssin on sponsoroinut TETHER
 
 # Johdanto
 
-<partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
+<partId>952e9c3d-4e88-44f8-942b-0b0643fee52e</partId>
 
 ## Kurssin yleiskatsaus
 
-<chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+<chapterId>3498530e-7910-4aa0-a2a9-63cca97c5d74</chapterId>
 Tervetuloa ECO104-kurssille!
 
 **Elämme maailmassa, jossa:**
@@ -83,11 +83,11 @@ Olemme innoissamme saadessamme sinut mukaan tälle matkalle rahoitusjärjestelm�
 
 # Edistyksen hinta - Lähempi katsaus rahoitusjärjestelmäämme
 
-<partId>25ed8242-1b5a-5b53-b833-824b0dd80bcc</partId>
+<partId>a318d7e4-cb95-4016-9e4f-c4019c902b95</partId>
 
 ## Johdatus rahaan
 
-<chapterId>927ad49a-d8d6-5dd3-9250-cdcadcbf425e</chapterId>
+<chapterId>7ad6dcd5-339f-4d9e-a720-3d62e82408a9</chapterId>
 
 Raha on kiehtova ja olennainen osa jokapäiväistä elämäämme. Käytämme sitä päivittäin ostamaan ruokaa, maksamaan laskuja ja suorittamaan lukemattomia transaktioita. Mutta mikä raha oikeastaan on? Perimmiltään raha on vain vaihdon väline, työkalu, joka mahdollistaa tavaroiden ja palveluiden vaihtamisen keskenämme. Se on abstrakti käsite, jonka otamme itsestäänselvyytenä, mutta se on perustavanlaatuinen talousjärjestelmällemme.
 
@@ -167,7 +167,7 @@ Vaihdannasta kolikoiden ja paperirahan keksimiseen raha on kokenut sarjan muutok
 
 ## Tutkimus siitä, miten tähän on tultu
 
-<chapterId>4c8ebb36-a6d5-5637-93ca-9a4a222a1c58</chapterId>
+<chapterId>e9dc9f53-dcab-4469-a482-882e89dca77e</chapterId>
 
 Vaihdantataloudesta digitaalisten valuuttojen nykyaikaan raha on kokenut kiehtovan evoluution. Esivanhempamme käyttivät vaihdon välineinä simpukoita, helmiä ja jopa karjaa. Nykyään meillä on virtuaaliset lompakot ja lähimaksut. Se on huomattava matka, joka on nähnyt lukemattomia iteraatioita, kompromisseja ja sopeutumisia vastaamaan yhteiskunnan jatkuvasti muuttuvia tarpeita.
 
@@ -307,7 +307,7 @@ Kun jatkamme rahan maailman tutkimista, on tärkeää tunnustaa fiat-valuuttojen
 
 ## Katsaus siihen, missä olemme ja mitä voimme odottaa tulevaisuudessa
 
-<chapterId>0c38e8fd-c973-57a5-a673-abec706f6054</chapterId>
+<chapterId>ce2d4ac3-d766-4d85-a796-0be14376702f</chapterId>
 
 Kuten edellisessä luvussa keskustelimme, historiallisesti raha on usein ollut tuettu jollakin hyödykkeellä, kuten kullalla. Tämän edut ovat ylitsepääsemättömiä. Ei ainoastaan tämä yhteys tarkoittanut, että tällaisen rahan arvo oli suoraan sidoksissa hyödykkeen arvoon, mutta se myös tarkoitti, että valuutan liikkeeseenlaskija, tyypillisesti hallitus, oli rajoitettu siinä, kuinka paljon rahaa se voisi painaa, koska sen olisi hankittava lisää kultaa.
 
@@ -441,7 +441,7 @@ Edetessämme rohkaisemme teitä lähestymään tätä uutta teknologiaa avoimin 
 
 ## Tentti
 
-<chapterId>f25c229f-2af0-5324-bc40-e90f7668985a</chapterId>
+<chapterId>0240a320-fb4d-4150-acf6-0cd9c7570761</chapterId>
 
 Nyt kun olet käynyt läpi moduulin "Edistyksen hinta", sinun tulee testata uutta tietämystäsi varmistaaksesi, että olet ymmärtänyt viimeiset osiot. Aloittakaamme usealla avoimella kysymyksellä ja sitten pienellä tietovisalla.
 
@@ -453,11 +453,11 @@ Nyt kun olet käynyt läpi moduulin "Edistyksen hinta", sinun tulee testata uutt
 
 # Taloudellinen Vapautuminen - Johdatus Bitcoiniin
 
-<partId>c00843b2-bde3-57bb-ae2e-8ecad6631d71</partId>
+<partId>f66fdc60-a1a9-4a21-9242-d4f86af8c0e4</partId>
 
 ## Edelläkävijät, Innovaattorit & Bitcoinin Perusteet
 
-<chapterId>37d779ce-46b5-56d1-91d8-d04442236e35</chapterId>
+<chapterId>03010901-b8d8-4e77-9d04-b9112fbabf6c</chapterId>
 
 Tervetuloa Moduuliin Kaksi, jossa tutkimme Bitcoinin kiehtovaa maailmaa. Rakentaen ymmärryksemme rahan historiasta, tämä moduuli käsittelee seuraavia aiheita:
 
@@ -559,7 +559,7 @@ Lopuksi, riippumatta siitä, kuka Satoshi Nakamoto on, on kiistatonta, että Bit
 
 ## Miten Bitcoin toimii? Tämän taianomaisen internet-rahan sisäinen toiminta
 
-<chapterId>b0f736fc-ed4d-5887-b22e-d958db9144d1</chapterId>
+<chapterId>293a9dd7-fa9d-49e1-aaba-2fa1f6c7e580</chapterId>
 
 Bitcoinia kutsutaan usein taianomaiseksi internet-raha... ja syystä. Ajattele – Bitcoinin avulla voit lähettää arvoa kenelle tahansa, missä päin maailmaa tahansa, ilman välikäsiä kuten pankkia tai hallitusta. Se on kuin oman henkilökohtaisen pankin hallinta, voima siirtää varoja rajat yli vain muutamalla hiiren klikkauksella.
 
@@ -639,7 +639,7 @@ Jokainen näistä rooleista on olennainen Bitcoinin toiminnallisuudelle ja menes
 
 ## Mikä tekee Bitcoinista erilaisen kuin fiat?
 
-<chapterId>5ef55778-cbcf-5c7e-960d-a2fcdf1a4006</chapterId>
+<chapterId>8ec83124-7544-4c76-8411-01c3ea32c126</chapterId>
 
 Edellisessä osiossa syvennyimme Bitcoinin ainutlaatuiseen toiminnallisuuteen, joka erottaa sen perinteisistä valuutoista ja miten Bitcoin saavuttaa himoitun aseman hajautettuna. Nyt siirrämme fokuksen ja tutkimme, miten Bitcoin eroaa fiatista niiden ominaisuuksien suhteen, jotka tekevät valuutasta suuren. Vain tutkimalla näitä keskeisiä ominaisuuksia voimme ymmärtää syvemmin, miksi Bitcoin on ainutlaatuinen ja omassa maailmassaan, kun puhutaan rahasta.
 
@@ -738,7 +738,7 @@ Lisäksi nämä yhdistetyt attribuutit eivät ainoastaan asemoi Bitcoinia tehokk
 
 ## Vuorovaikutus Bitcoinin kanssa
 
-<chapterId>050a95af-e9c2-5ec3-b9c8-55ec174d309c</chapterId>
+<chapterId>898af852-84f8-45b8-b3e9-2adf85bb8576</chapterId>
 
 Bitcoin on ottanut rahajärjestelmän myrskyn lailla, herättäen kehittyvien maiden, teknologiasta innostuneiden yksilöiden ja sijoittajien huomion. Sen nopean kasvun myötä monet ihmettelevät, kuinka tämä digitaalinen omaisuuserä voi kilpailla perinteisten maksutapojen, kuten Visan ja Mastercardin kanssa. Lisäksi yksilöt ovat uteliaita siitä, kuinka he voivat henkilökohtaisesti olla vuorovaikutuksessa Bitcoinin kanssa.
 
@@ -842,7 +842,7 @@ Bitcoinin suurin etu on, että se mahdollistaa itsehallinnan digitaalisesta omai
 
 ## Tentti
 
-<chapterId>1c7b8165-d67b-5f7c-a1cb-b83db58b77c7</chapterId>
+<chapterId>a51bed11-0894-49a4-878f-9f31d79d7f9e</chapterId>
 
 Nyt kun olet käynyt läpi moduulin "Tutkimus siitä, miten tähän päädyttiin", sinun on testattava uudelleen hankittua tietämystäsi varmistaaksesi, että olet ymmärtänyt viimeiset osiot. Aloittakaamme useilla avoimilla kysymyksillä ja sitten pienellä tietovisalla.
 
@@ -855,11 +855,11 @@ Nyt kun olet käynyt läpi moduulin "Tutkimus siitä, miten tähän päädyttiin
 
 # Vakaus kaaoksen keskellä - Johdatus Tetheriin & stablecoinien maailmaan
 
-<partId>60b1f3c4-e161-53fe-84ca-88d8cd62aa75</partId>
+<partId>bc2fa7dd-b3a8-430a-8cba-97faae477137</partId>
 
 ## Johdanto Tetheriin ja stablecoinien maailmaan
 
-<chapterId>427a72b5-8af7-503e-bc45-bb8b95483993</chapterId>
+<chapterId>65302477-a5c2-4555-b546-e4051066e1b1</chapterId>
 
 Kuten aiemmin on käsitelty, raha on ollut olennainen osa ihmiskuntaa tuhansien vuosien ajan. Se on auttanut meitä ostamaan tavaroita ja palveluita, mahdollistanut kaupankäynnin keskenämme ja auttanut meitä säilyttämään varallisuutta.
 
@@ -924,7 +924,7 @@ _**Sivuhuomautus:** Älä huolestu, jos jotkut näistä termeistä eivät aivan 
 
 ## Stablecoinien historia
 
-<chapterId>174e2cab-ef14-5e14-99c8-8457b6fc5fee</chapterId>
+<chapterId>e6bb95e1-5ba1-40d0-8b4a-3e6c1d1dd0a3</chapterId>
 
 Stablecoinit ovat tulleet suosituksi aiheeksi kryptovaluuttamaailmassa, tarjoten lyhyellä aikavälillä vähemmän volatiilin vaihtoehdon kryptovaluutoille, kuten Bitcoinille. Kuten tämän moduulin johdannossa yksityiskohtaisesti kerrottiin, stablecoinit ovat digitaalisia varoja, jotka on sidottu vakaisiin varoihin, kuten fiat-valuuttaan tai jalometalleihin, ja suunniteltu säilyttämään vakaa arvo. Tutkitaan siis stablecoinien historiaa ja katsotaan tarkemmin joitakin ensimmäisiä stablecoineja, mukaan lukien Tetherin USDt, tunnetuin ja laajimmin käytetty stablecoin.
 
@@ -948,7 +948,7 @@ Yhteenvetona voidaan todeta, että stablecoinit ovat tulleet pitkän matkan peru
 
 ## Stablecoinien ominaisuudet
 
-<chapterId>21765df7-53fd-58af-9df6-7208027a0c3a</chapterId>
+<chapterId>36e0ab1f-a3fe-42c1-8400-55fb770d9bf3</chapterId>
 
 Kuten nyt pitäisi olla ilmeistä, stablecoin on digitaalisen tokenin tyyppi, joka on suunniteltu ylläpitämään vakaata arvoa perustuen alustavaan sidottuun omaisuuteen. Nämä omaisuuserät voivat sisältää fiat-valuutan, jalometallit, hyödykkeet tai näiden yhdistelmän (esim. kori fiat-valuuttoja).
 
@@ -1035,7 +1035,7 @@ Vaikka stablecoineja pidetään usein turvallisina niiden "vakaan" luonteen vuok
 
 ## Tetherin Stablecoin-tarjonnan edut
 
-<chapterId>a6806b45-b92e-5791-8f5f-804098a522b2</chapterId>
+<chapterId>6a1aef8e-3fdf-426b-901c-6e1a26b6ad88</chapterId>
 Tapaa Adanna, nuori nainen, joka asuu maaseutukylässä Afrikassa, missä CFA-frangi, joka on menettänyt hämmästyttävät [99,5%](https://bitcoinmagazine.com/culture/bitcoin-a-currency-of-decolonization) ostovoimastaan viimeisen 70 vuoden aikana, on ainoa saatavilla oleva valuutta — mikä tekee säästämisestä mahdottomuuden.
 Adannaa on aina kiehtonut ajatus hallita omaa rahaansa, mutta se on pysynyt mahdottomana unelmana viime aikoihin asti. Valuuttaa, jota hän käyttää, valvovat henkilöt, jotka ovat osoittaneet, etteivät he ole kansansa parhaan edun mukaisia, ja hänen maaseutusijaintinsa rajoittaa pääsyä pankkipalveluihin. Tämän seurauksena Adannalla ei ole muuta vaihtoehtoa kuin luottaa käteiseen rahaan, mikä jättää hänet alttiiksi varkauksille ja tappioille lisäksi ostovoiman heikkenemiselle.
 
@@ -1149,7 +1149,7 @@ Kaiken kaikkiaan stablecoin-valuutat, kuten USDt ja XAUt, voivat muuttaa miljard
 
 ## Tentti
 
-<chapterId>1294d874-6edb-5feb-b070-0ead1836bd0b</chapterId>
+<chapterId>7abbc2a0-f98d-40a9-80ae-1cc397027cdc</chapterId>
 
 Nyt kun olet käynyt läpi moduulin "Vakautta kaaoksen keskellä", sinun on testattava uusia tietojasi varmistaaksesi, että olet ymmärtänyt viimeiset osiot. Aloittakaamme useilla avoimilla kysymyksillä ja sitten pienellä tietovisalla.
 
@@ -1161,11 +1161,11 @@ Nyt kun olet käynyt läpi moduulin "Vakautta kaaoksen keskellä", sinun on test
 
 # Epäilyjen voittaminen - Yleisten väärinkäsitysten kumoaminen & Todelliset käyttötapaukset
 
-<partId>246a7dc0-a203-5b2e-ae13-9c8f08e6bfad</partId>
+<partId>5e3f28ec-ff90-4272-af00-724e0ced0765</partId>
 
 ## Väärinkäsitykset
 
-<chapterId>4da9319d-6306-500f-adbb-5fa31c673cd2</chapterId>
+<chapterId>c48b4889-5972-4139-b928-b56fb88b28d5</chapterId>
 
 Bitcoin on kohdannut vastustusta, kritiikkiä ja väärinkäsityksiä syntymästään lähtien vuonna 2009. Huolimatta sen suosion kasvusta ja omaksumisesta, monet pitävät sitä edelleen puhkeamista odottavana kuplana. Samalla tavalla stablecoin-valuutat ovat houkutelleet samankaltaista huomiota ja skeptisismiä. Valuutan idea, joka on tuettu vakaalla omaisuudella, kuulostaa lupaavalta, mutta monet ihmiset ymmärtävät väärin, miten stablecoinit toimivat ja niiden potentiaalisen vaikutuksen rahoitusjärjestelmään.
 
@@ -1447,7 +1447,7 @@ Lopulta hajautetun rahoituksen tulevaisuus on niiden käsissä, jotka ovat valmi
 
 ## Roya Mahboob
 
-<chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
+<chapterId>e76ef439-44db-4cf4-b660-0ed33d913989</chapterId>
 
 Nykyisessä globalisoituneessa maailmassa pääsy rahoituspalveluihin on kriittinen osa taloudellista osallistumista ja itsenäisyyttä. Huolimatta tästä, aivan liian moni ihminen on edelleen suljettu perinteisen pankkijärjestelmän ulkopuolelle, ja naiset kantavat usein tämän sulkeutumisen suurimman taakan. Järkyttävää kyllä, vaikka tarpeettomasti [neljännes](https://www.worldbank.org/en/publication/globalfindex) maailman väestöstä on edelleen ilman pankkipalveluita, maissa kuten Saudi-Arabiassa [36,5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) naisista ei ole pääsyä peruspankkipalveluihin, mikä estää heitä osallistumasta täysipainoisesti maansa talouteen ja yhteiskuntaan.
 
@@ -1493,7 +1493,7 @@ Kaiken kaikkiaan Bitcoin on ollut voimakas työkalu naisten taloudellisessa voim
 
 ## Mercedes
 
-<chapterId>dfa10b75-19f6-578a-9d14-a0a541806076</chapterId>
+<chapterId>a897e855-f7a6-406c-a5b9-7cc6783e2ddd</chapterId>
 
 Syntyneenä Meksikossa vuonna 1949 köyhissä olosuhteissa, Mercedes koki yhteiskuntansa syvät eriarvoisuudet jo nuoresta iästä lähtien. Lapsuutensa aikana hän kohtasi lukuisia haasteita, mukaan lukien hallituksen opiskelijaliikkeiden sorto ja naisille köyhyydessä eläessä ominaiset erityiset vaikeudet. Lisäksi suuri kuilu rikkaiden ja köyhien välillä, yhdistettynä rajalliseen pääsyyn laadukkaaseen koulutukseen, jätti hänen perheensä ja lukemattomat muut köyhyyteen. Nämä epäoikeudenmukaisuudet turhauttivat Mercedesiä, joka kääntyi marxilaisuuden (kommunismin) puoleen ajamaan sosiaalista muutosta ja taloudellista uudistusta.
 
@@ -1515,7 +1515,7 @@ Mercedesin elämä on ollut uskomaton matka, ja Bitcoinin vaikutus hänen eläm�
 
 ## Stablecoin Stories
 
-<chapterId>7b6d8d57-905d-5168-9be6-3df7c938de2a</chapterId>
+<chapterId>d22acc57-2b00-4a51-96b0-a350814f87d5</chapterId>
 
 Kun lähestymme tämän kurssin loppua, haluaisimme esitellä kokoelman inspiroivia stablecoin-tarinoita. Nämä todistukset esittelevät todellisia kokemuksia yksilöiltä, yritysten omistajilta ja yrityksiltä, jotka ovat hyödyntäneet stablecoineja parantaakseen elämäänsä.
 
@@ -1601,7 +1601,7 @@ Toivomme, että olet löytänyt nämä tarinat inspiroiviksi. Sanottakoon, että
 
 ## Tentti
 
-<chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
+<chapterId>002220e4-069b-4367-b153-ca19029412de</chapterId>
 
 Nyt kun olet käynyt läpi moduulin "Epäilyjen voittaminen", sinun on testattava uudelleen hankittua tietämystäsi varmistaaksesi, että olet ymmärtänyt viimeiset osiot. Aloittakaamme useilla avoimilla kysymyksillä ja sitten pienellä tietovisalla.
 
@@ -1613,7 +1613,7 @@ Nyt kun olet käynyt läpi moduulin "Epäilyjen voittaminen", sinun on testattav
 
 ## Loppuhuomautukset
 
-<chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
+<chapterId>1896c6b1-77d7-45bb-a798-bcdd27deb18b</chapterId>
 
 Onnittelut kurssin loppuun saattamisesta! Olet tullut pitkän matkan. Tällä matkalla olemme syventyneet laajaan aiheiden kirjoon, mukaan lukien:
 
@@ -1642,7 +1642,7 @@ Tulevaisuus on valoisa!
 
 ## Arviot & Arvosanat
 
-<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
+<chapterId>1ec641d0-0421-404b-88d3-bac725aca9dc</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Yhteenveto

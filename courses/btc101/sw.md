@@ -19,11 +19,11 @@ Hakuna ujuzi wa awali unaohitajika kuanza kozi hii. BTC 101 imeundwa ili iweze k
 +++
 # Utangulizi
 
-<partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
+<partId>34ab5c9f-08b8-4324-a53e-582c63a2b1ea</partId>
 
 ## Muhtasari wa kozi
 
-<chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
+<chapterId>a47e30ce-f437-404b-99e0-0c1cf1a78f37</chapterId>
 
 ### Karibu kwenye kozi ya BTC101!
 
@@ -91,7 +91,7 @@ Je, uko tayari kuingia katika ulimwengu wa kuvutia wa Bitcoin na kuelewa kazi za
 
 ## Historia ya awali ya Bitcoin
 
-<chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
+<chapterId>0824f3a8-502a-4321-bb0d-13ccba37f3fa</chapterId>
 
 Kabla ya neno "Bitcoin" kuwa sawa na sarafu ya kidijitali na mabadiliko ya kifedha, msingi wa kuundwa kwake uliwekwa na mfululizo wa mawazo, uvumbuzi, na harakati za kijamii. Miongoni mwa haya, harakati ya Cypherpunk inasimama kama kipengele muhimu katika historia ya awali ya Bitcoin.
 
@@ -151,11 +151,11 @@ Iwapo ungependa kuchunguza historia ya Bitcoin kwa maelezo zaidi, tunapendekeza 
 https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 # Pesa
 
-<partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
+<partId>c7430a3c-6419-465e-b84d-d677e277f732</partId>
 
 ## Pesa Katika Historia
 
-<chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
+<chapterId>84047ee5-9f48-4105-9849-8be318496304</chapterId>
 
 Mageuzi ya pesa ni kipengele cha kuvutia cha historia ya binadamu ambacho huakisi werevu na ustaarabu katika enzi zote katika kukidhi mahitaji ya kiuchumi yanayoendelea kubadilika.
 
@@ -220,7 +220,7 @@ Kwa upande mwingine, Bitcoin inatoa uwezekano mpya. Sifa zake, kama vile usambaz
 
 ## Sarafu za imani (fiduciary currencies)
 
-<chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
+<chapterId>8c6dbe02-c275-4568-bd1b-fc36b8d4796d</chapterId>
 
 > "Wale ambao hawawezi kukumbuka yaliyopita wanahukumiwa kurudia" alisema George Santayana.
 
@@ -276,7 +276,7 @@ Ili kujifunza zaidi kuhusu hitilafu za kiuchumi na uhuru, tunakualika ugundue ko
 https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 ## Mfumuko wa bei
 
-<chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
+<chapterId>3f99733a-7a40-42a8-870c-cc4947560bba</chapterId>
 
 Mfumuko wa bei ni hali ya kifedha ambayo ni mahususi kwa sarafu za fedha: inachangiwa na kupoteza kabisa imani katika sarafu na ongezeko kubwa la mfumuko wa bei kutokana na uchapishaji wa fedha na mamlaka. Kwa sababu hiyo, akiba inayokusanywa na watu binafsi inaweza kupotea kwa muda mfupi, na kusukuma nchi kwenye ukingo wa kuporomoka kwa uchumi, kijamii na kisiasa.
 
@@ -372,7 +372,7 @@ Ili kuzama zaidi katika somo la mfumuko wa bei, tunapendekeza kozi ya ECO 204 ya
 https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 ## bitcoins milioni 21
 
-<chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
+<chapterId>e6172b08-5916-4f9f-a06f-4405c52c06ab</chapterId>
 
 ### Sera ya fedha ya Bitcoin
 
@@ -463,11 +463,11 @@ Kwa muhtasari, Bitcoin, pamoja na hali yake ya ugatuzi, uhaba uliopangwa, na uwa
 
 # Pochi za Bitcoin
 
-<partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
+<partId>3b488c45-d286-4083-8824-ec259cc2a324</partId>
 
 ## Pochi za Bitcoin ni nini?
 
-<chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
+<chapterId>149c6588-94ae-46b6-b073-9ffc18912397</chapterId>
 
 Katika sehemu ya 2, tutachunguza uhifadhi na usalama wa Bitcoin kupitia matumizi ya pochi, ili kuelewa wapi bitcoins hizi maarufu ziko na jinsi ya kuingiliana nao!
 
@@ -534,7 +534,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ## Pochi za Bitcoin na Usalama
 
-<chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
+<chapterId>40485240-351a-471c-b017-faebfb836470</chapterId>
 
 ### Kuuliza maswali sahihi kabla ya kuanza
 
@@ -600,7 +600,7 @@ Kwa kuzingatia hili, sasa tunaweza kuhamia sehemu inayofuata ambapo tunaelezea j
 
 ## Kuanzisha Wallet
 
-<chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
+<chapterId>1bfd3d5d-a81b-4b7f-ad88-4bf41593606a</chapterId>
 
 Usalama wa bitcoins zako una umuhimu sana, na kosa rahisi linaweza kuwa na matokeo mabaya. Ndiyo maana tunahitaji kujifunza mbinu bora za kutumia wakati wa kuunda Bitcoin Wallet mpya.
 
@@ -644,7 +644,7 @@ Ikiwa ungependa kugundua, hatua kwa hatua, jinsi ya kusanidi pochi yako mwenyewe
 https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 ## Kupita Mtihani wa Muda
 
-<chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
+<chapterId>7dd119da-9073-4e03-ab83-e45890616790</chapterId>
 
 Kama aina yoyote ya utajiri, bitcoins zako lazima zilindwe dhidi ya hasara, wizi na uharibifu, hasa kwa muda mrefu. Kulinda bitcoins zako kunahitaji ujuzi fulani wa kiufundi na uelewa wa hatari inayohusiana, ambayo hufungua njia kwa mikakati miwili kuu: kuchora bitcoins zako kwenye sahani ya chuma na kuanzisha mpango wa urithi.
 
@@ -694,11 +694,11 @@ Kwa kuwa sasa tumeshughulikia misingi ya wallets za Bitcoin na mbinu bora zaidi 
 
 # Vipengele vya Kiufundi vya Bitcoin.
 
-<partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
+<partId>8b110fdd-b51f-48a9-a966-33649e55c971</partId>
 
 ## Kuzindua Bitcoin
 
-<chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>
+<chapterId>76ab52b9-2c33-4242-9db1-64fb1fb92b4e</chapterId>
 
 ### Wacha tuanze na historia kidogo.
 
@@ -752,7 +752,7 @@ Sasa kwa kuwa tuna usuli fulani, hebu tuchunguze jinsi muamala wa Bitcoin unavyo
 
 ## Miamala ya Bitcoin
 
-<chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
+<chapterId>be72afa9-8198-45a5-95a8-3c87f971fbb2</chapterId>
 
 Shughuli ya Bitcoin ni uhamisho tu wa umiliki wa bitcoins kupitia matumizi ya Bitcoin Address. Ili kuelezea mchakato huu, hebu tutambulishe wahusika wakuu wawili: Alice na Bob. Alice anataka kupata bitcoins, wakati Bob tayari anamiliki baadhi.
 
@@ -810,7 +810,7 @@ Hebu tuchunguze kwa undani jinsi nodi za Bitcoin zinavyofanya kazi.
 
 ## Nodi za Bitcoin
 
-<chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
+<chapterId>430fdc8d-d60c-4dde-a7a5-96916f40056e</chapterId>
 
 Nodi ni kipengele cha msingi cha usanifu wa mtandao wa Bitcoin, kwani hufanya kazi mbalimbali ambazo ni muhimu:
 
@@ -860,7 +860,7 @@ Kufuatia ushindi huu, nodi zilianzisha sasisho linaloitwa SegWit, na kutengeneza
 
 ## Wachimbaji madini
 
-<chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
+<chapterId>f2ce96f9-66d5-4286-9a18-9e1506b369b5</chapterId>
 
 **Wachimbaji hulinda mtandao na kuongeza miamala kwenye bloku. Wanatumia umeme kupitia mashine za ASIC kutatua Bitcoin Proof of Work.**
 
@@ -941,7 +941,7 @@ Iwapo ungependa kutafakari kwa kina mada mahususi ya uchimbaji wa Bitcoin, unawe
 https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 ## Bitcoin na Ikolojia
 
-<chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
+<chapterId>68cc1d11-d355-479f-beb1-364ea0f48219</chapterId>
 
 Katika sehemu iliyotangulia, tulielewa kuwa usalama wa itifaki ya Bitcoin unategemea matumizi ya juu ya nishati ili kuzalisha Ledger ya umma ya miamala bila mtu wa tatu anayeaminika. Katika vyombo vya habari vya kawaida, gharama ya jumla ya nishati mara nyingi hulinganishwa na matumizi ya umeme ya nchi ndogo. Lakini je, ulinganisho huu una maana? Je, unafaa kuelewa sababu za gharama hizo?
 
@@ -999,11 +999,11 @@ Kwa hivyo, itifaki ya Bitcoin ni mfumo wa fedha usiozuilika na usiozuiliwa kwa s
 
 # Je, unawezaje kupata Bitcoin?
 
-<partId>517e1bb7-f032-51a0-930a-a91fe5148d3f</partId>
+<partId>a48118af-b3b8-4f00-bbda-c2c4ca0f788e</partId>
 
 ## Bitcoin Hailali Kamwe!
 
-<chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
+<chapterId>648dbb03-969a-46ef-bdae-1463c06a4aaf</chapterId>
 
 Bei ya Bitcoin mara nyingi ina sifa ya tete kubwa. Thamani yake inaweza kubadilika kwa kiasi kikubwa kulingana na tofauti za soko au awamu za kukuza na kushuka, kama vile soko lingine lolote la kifedha.
 
@@ -1061,7 +1061,7 @@ Leo, Bitcoin inaendelea kudumu na kukua zaidi kwa kuunganishwa zaidi na zaidi ka
 
 ## Kupata Bitcoins kwa Kufanya Kazi
 
-<chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
+<chapterId>4bcac1ce-e4e1-4fc8-9548-5eb262688ea5</chapterId>
 
 ### Uchumi sambamba unaendelea
 
@@ -1102,7 +1102,7 @@ https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b0
 
 ## Kuokoa kwa Bitcoin
 
-<chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
+<chapterId>11782e1e-3807-4669-8c4b-19c431669eba</chapterId>
 
 ### Onyo kabla ya kuanza!
 
@@ -1209,7 +1209,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Hyper-bitcoinization
 
-<chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>
+<chapterId>a8cf0971-defd-4bf8-934b-5e412448438e</chapterId>
 
 ### Mbio za porini ndio zimeanza!
 
@@ -1232,11 +1232,11 @@ Iwapo ungependa kupanua ujuzi wako kuhusu Bitcoin, huu ndio wakati muafaka: idad
 > "Nadhani mtandao utakuwa mojawapo ya nguvu kuu za kupunguza jukumu la serikali. Kitu kimoja ambacho kinakosekana, lakini ambacho kitatengenezwa hivi karibuni, ni e-cash ya kuaminika - njia ambayo kwenye mtandao unaweza kuhamisha fedha kutoka A hadi B bila A kujua B au B kujua A." - Utabiri wa Milton Friedman mnamo 1999
 # Mustakabali wa Bitcoin: Lightning Network
 
-<partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
+<partId>297f74b5-3ba1-4f63-b41b-43256778bea3</partId>
 
 ## Utangulizi mfupi wa Lightning Network
 
-<chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
+<chapterId>ad635a0f-4f91-4cac-843b-b9d51eb0bc9e</chapterId>
 
 Kwa kuwa sasa tuna misingi ya itifaki ya Bitcoin, tutaanzisha mtandao wa malipo unaotumia itifaki ya Bitcoin ili kuwezesha shughuli za haraka za umeme: Lightning Network!
 
@@ -1279,7 +1279,7 @@ Ikiwa ungependa kwenda zaidi ya utangulizi huu na kuelewa utendakazi wote wa Lig
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 ## Kesi za Matumizi ya Lightning Network
 
-<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+<chapterId>cd29874a-5ea2-4773-a6e4-e8d36b1bb4da</chapterId>
 
 Kama ambavyo tumeona hivi punde, itifaki ya Bitcoin, ingawa ni ya kimapinduzi, inakabiliwa na changamoto kubwa katika suala la hatari linalohitajika kushughulikia shughuli zetu zote za kila siku. Ili kutatua matatizo haya, Lightning Network ilipendekezwa na tangu wakati huo imeendelezwa katika utekelezaji kadhaa tofauti, ambao wote unashirikiana:
 
@@ -1311,7 +1311,7 @@ Kwa kumalizia, Lightning Network inafungua matukio mengi ya kusisimua ya matumiz
 
 ## Kidonge Nyekundu au Kidonge cha Bluu?
 
-<chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
+<chapterId>03d79262-a035-4a62-acca-f8ed9ae5a8a4</chapterId>
 
 Kama Morpheus alivyomwambia Neo: "Unachukua kidonge cha bluu, hadithi inaisha, unaamka kitandani mwako, na unaamini chochote unachotaka kuamini. Unachukua kidonge chekundu, unakaa Wonderland, na ninakuonyesha jinsi shimo la sungura linavyoenda." Je, Uko tayari kuchunguza undani wa Bitcoin? Kuwa mwangalifu, kwani unaweza kugundua tena uhuru wako wa kifedha!
 
@@ -1388,17 +1388,17 @@ Je, uko tayari kujiunga?
 
 ## Ukaguzi na Ukadiriaji
 
-<chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
+<chapterId>d58144ad-33da-47a6-9030-61b649fe5550</chapterId>
 
 <isCourseReview>true</isCourseReview>
 ## Mtihani wa Mwisho
 
-<chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
+<chapterId>cbf5ded3-69c8-485f-8528-28fc0e7ea299</chapterId>
 
 <isCourseExam>true</isCourseExam>
 ## Hitimisho
 
-<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+<chapterId>8a17f1ba-3ba1-4864-896d-be4cc3d5844a</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
 

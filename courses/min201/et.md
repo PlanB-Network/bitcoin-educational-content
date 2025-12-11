@@ -22,11 +22,11 @@ Kui vajate oma seadistusega abi, on õpilastele loodud Telegrami grupp ja kõik 
 
 # Sissejuhatus
 
-<partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
+<partId>264edfbf-0647-43c0-b202-5f82bfaba747</partId>
 
 ## Kursuse ülevaade
 
-<chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
+<chapterId>a1885374-d6b9-4d6d-9b90-44f27099e4ae</chapterId>
 
 Tere tulemast kursusele MIN201: Sissejuhatus kaevandamisse. Ajelex, Jim & Rogzy on rõõmsad, et saavad teid juhendada teie esimestel sammudel selles valdkonnas. Loodame, et naudite kursust ja asute home mining seiklusele!
 
@@ -52,11 +52,11 @@ Kas olete valmis avastama Bitcoini kaevandamise maailma ja läbima praktilise At
 
 # Kõik, mida pead teadma kaevandamisest
 
-<partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
+<partId>80efb136-9e4e-40f2-98a2-f6721737fc81</partId>
 
 ## Kaevandamise selgitus
 
-<chapterId>36a82de7-87ee-5e7a-b69e-48fc30030447</chapterId>
+<chapterId>3d083cf5-9bbd-4d2b-94d9-e12a82819395</chapterId>
 
 ### Kaevandamine Selgitatud: Mõistatuse Analoogia
 
@@ -99,7 +99,7 @@ Kokkuvõttes jätkab Bitcoin'i kaevandamise tööstus kohanemist ja arengut ning
 
 ## Kaevandustööstus
 
-<chapterId>0896dfc1-c97e-5bec-9bf1-8c20b3388a2c</chapterId>
+<chapterId>75651629-94db-47e7-8735-a8ed75ae4e1d</chapterId>
 
 ### Kaevandusbasseinid
 
@@ -150,7 +150,7 @@ Selle tsentraliseerimise vastu võitlemiseks arutatakse erinevaid strateegiaid:
 
 ## Kaevandustööstuse nüansid
 
-<chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
+<chapterId>60d00d42-bd45-4afa-8612-939d714b1f6f</chapterId>
 
 ### Attakai põhimõte
 
@@ -190,7 +190,7 @@ Spekulatsioonid ümbritsevad ploki ruumi tulevast kasutust, kuid üldiselt aktse
 
 ## Bitcoin Mining in the Bitcoin Protocol
 
-<chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
+<chapterId>51e7a8b1-e901-424e-bd63-51451b330da2</chapterId>
 
 Kaevurite roll Bitcoin'i võrgus on olnud intensiivse arutelu objektiks plokkide suuruse sõdade ajal. Kuigi nad on võrgu turvalisuse ja funktsionaalsuse jaoks hädavajalikud, ei oma kaevurid Bitcoin'i ökosüsteemis tingimata lõplikku võimu. Tasakaal kaevurite, sõlmede ja lõppkasutajate vahel tagab võrgu terviklikkuse ja jaotuse.
 
@@ -230,7 +230,7 @@ Kokkuvõtteks, kaevurid tugevdavad Bitcoini võrgustikku tsensuuri vastu, kasuta
 
 ## Bitcoini hind ja hashrate, korrelatsioon?
 
-<chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
+<chapterId>002750ad-c35e-48c3-8644-302467a384d3</chapterId>
 
 
 ### Hashrate, hind ja kasumlikkus
@@ -260,7 +260,7 @@ Küsimus on sügav ja hõlmab mitmeid Bitcoini kaevandamise dimensioone. Tasakaa
 
 ## Suveräänsus ja Regulatsioon
 
-<chapterId>9d9a5908-2acc-501e-906b-a6fce9ecfebd</chapterId>
+<chapterId>ec30a758-5a03-43a1-9b75-e4bb6053a1be</chapterId>
 
 ### Kas suveräänsus enne kasumit?
 
@@ -291,11 +291,11 @@ Järelduseks, hoolimata regulatiivsest riskist ja kaevandamiskeelu võimalusest 
 
 # Kodukaevandamine ja soojuse taaskasutus
 
-<partId>78d22d06-2c4a-573f-86bb-1027115dad3a</partId>
+<partId>c0fb1f33-6c44-48a7-83f5-b1c9cbc314b3</partId>
 
 ## Attakai - muudab kodukaevandamise võimalikuks ja kättesaadavaks!
 
-<chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
+<chapterId>64c27a67-c2f0-4456-9821-5c94ea623de5</chapterId>
 
 Attakai, mis jaapani keeles tähendab "ideaalset temperatuuri", on algatuse nimi, mille eesmärk on avastada bitcoini kaevandamist soojuse taaskasutuse kaudu, mille käivitasid @ajelexBTC ja @jimzap21 koos Découvre Bitcoiniga.
 See ASIC-i ümberehitusjuhend toimib alusena kaevandamise, selle toimimise ja aluseks oleva majanduse kohta rohkem teada saamiseks, demonstreerides bitcoini kaevuri kohandamise võimalust kodudes radiaatoritena kasutamiseks. See pakub rohkem mugavust ja säästu, võimaldades osalejatel saada oma elektriküttearvelt mitte-KYC BTC tagasimakseid.
@@ -342,7 +342,7 @@ See on suurepärane võimalus õppida praktiseerides, samal ajal osalemise eest 
 
 ## Kasutatud ASIC-i ostujuhend
 
-<chapterId>3b0b3bf0-859b-57f2-b92f-843ac70b7e68</chapterId>
+<chapterId>17e07e2e-9848-4fb0-be55-077ea783c670</chapterId>
 
 Selless jaotises arutame parimaid tavasid kasutatud Bitmain Antminer S9 ostmiseks, mis on masin, millele see radiaatori ümberehitamise õpetus põhineb. See juhend kehtib ka teiste ASIC-mudelite kohta, kuna see on üldine ostujuhend kasutatud kaevandamishardware'i jaoks.
 
@@ -397,7 +397,7 @@ Selle juhendi kokkuvõtteks ühe lausega: **"Ära usalda, kontrolli."**
 
 ## Juhend S9 riistvara modifikatsioonide ostmiseks
 
-<chapterId>fa5f5eca-bcbf-5a83-9b03-98ecbadbabd6</chapterId>
+<chapterId>67c86e8a-e7d8-4744-8eeb-03a17c09bfa2</chapterId>
 
 Antminer S9 omanikuna teate tõenäoliselt, kui vali ja kohmakas see seade olla võib. Siiski on võimalik muuta see vaikseks ja ühendatuks küttekehaks, järgides mõnda lihtsat sammu. Selles jaotises tutvustame vajalikku varustust modifikatsioonide tegemiseks.
 
@@ -440,11 +440,11 @@ Seadmete ja linkide loetelu
 
 # Attakai - Antminer S9 tarkvara muutmine
 
-<partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
+<partId>17871b9d-4c93-4ca4-a09f-c6dc8a1df1d1</partId>
 
 ## Voneti WIFI/Ethernet silla seadistamine
 
-<chapterId>3cf487a4-21ef-5b24-83d5-789b811f740f</chapterId>
+<chapterId>bf5b8552-8f0f-44aa-b742-600a657bdfbf</chapterId>
 
 ASIC-i ühendamiseks WIFI kaudu on vaja seadet, mida nimetatakse sillaks. See seade võimaldab teil võtta WIFI signaali teie ruuterist ja edastada seda teisele seadmele Etherneti kaudu.
 
@@ -481,7 +481,7 @@ Kui sild on ühendatud, ühendage Etherneti kaabel sillast oma ASIC-seadmesse ja
 
 ## Antminer S9 lähtestamine
 
-<chapterId>b518b6bd-9dae-5136-ae3c-1fafb1cb2592</chapterId>
+<chapterId>e83025fd-0261-4d4a-913a-dbfc05f7e51e</chapterId>
 
 Enne BraiinOS+ paigaldamist võib olla vajalik teie S9 lähtestamine tehase seadistustele.
 See meetod on rakendatav 2 kuni 10 minutit pärast kaevuri käivitamist.
@@ -491,7 +491,7 @@ See meetod on rakendatav 2 kuni 10 minutit pärast kaevuri käivitamist.
 
 ## BraiinsOS+ paigaldamine Antminer S9-le
 
-<chapterId>38e8b1a8-8b1d-51ed-8b92-59d4ddb15184</chapterId>
+<chapterId>d2ea148c-37dd-4505-97e9-78ce2237b84a</chapterId>
 
 Antminer'i poolt nende kaevandusmasinatele paigaldatud algne tarkvara on piiratud funktsionaalsusega. Seetõttu paigaldame selles juhendis teise tarkvara nimega BraiinsOS+. See on kolmanda osapoole tarkvara, mille on välja töötanud esimene Bitcoin'i kaevandusbassein, millel on rohkem funktsioone ja mis võimaldab näiteks muuta masina võimsust.
 
@@ -527,7 +527,7 @@ Siin näeme, kuidas lihtsalt paigaldada Braiins OS+ otse teie Antminer'i mälu k
 
 ## BraiinsOS+ seadistamine
 
-<chapterId>36e432f2-85bc-52d0-a62a-009fc4c69338</chapterId>
+<chapterId>41f8ef76-c5b9-427f-8b22-1e3761057157</chapterId>
 
 Teil on vaja ühenduda oma ASIC-seadmega kasutades seadme kohalikku IP-aadressi teie võrgus läbi brauseri.
 
@@ -571,11 +571,11 @@ Sellel esimesel lehel saate jälgida oma masina reaalajas toimivust.
 
 # Attakai - Ventilaatori Modifikatsioon
 
-<partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
+<partId>a18012de-bf2e-4469-8b33-6bd9368cf27d</partId>
 
 ## Toiteallika ventilaatori asendamine
 
-<chapterId>0c6befa7-f3ef-5bcf-ae8d-0ad5e5d41d70</chapterId>
+<chapterId>369aa394-0597-4578-96ef-01a45e9d86c6</chapterId>
 
 > HOIATUS: On hädavajalik, et enne seda oleks Braiins OS+ või mõni muu tarkvara, mis võib vähendada masina jõudlust, teie kaevurisse eelnevalt paigaldatud. See meede on kriitilise tähtsusega, kuna müra vähendamiseks paigaldame vähem võimsaid ventilaatoreid, mis suudavad vähem soojust hajutada.
 
@@ -645,7 +645,7 @@ Lõpuks asetage korpuse kaas tagasi ja keerake külgedel 6 kruvi, et kõik paiga
 
 ## Peamiste Ventilaatorite Asendamine
 
-<chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
+<chapterId>46cd034a-1ffd-4459-9d66-a68e9b4bfeeb</chapterId>
 
 > HOIATUS: On hädavajalik, et enne jätkamist oleks teie kaevurisse juba paigaldatud Braiins OS+ või mõni muu tarkvara, mis on võimeline vähendama teie masina jõudlust. See meede on kriitiline, kuna müra vähendamiseks paigaldame vähem võimsaid ventilaatoreid, mis hajutavad vähem soojust.
 
@@ -696,11 +696,11 @@ Ja ongi valmis, palju õnne! Olete just asendanud oma kaevuri kogu mehaanilise o
 
 # Attakai - Konfiguratsioon
 
-<partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
+<partId>045a50df-20cd-423f-8f2f-dce686793ffb</partId>
 
 ## Liitumine kaevandusbasseiniga
 
-<chapterId>b57a6105-0a53-5fe9-bad1-d6d9daf97c0d</chapterId>
+<chapterId>db476c86-3dfe-4fcd-948a-083df8442395</chapterId>
 Kaevandusbasseini võib ette kujutada kui põllumajandusühistut. Põllumehed panevad oma toodangu kokku, et vähendada pakkumise ja nõudluse varieeruvust ning seeläbi saada oma tegevusele stabiilsemat tulu. Kaevandusbassein toimib samal viisil, jagatud ressursiks on siin aga räsid (hashes). Tõepoolest, ühe kehtiva räsi leidmine võimaldab luua ploki ja võita coinbase'i ehk preemia, mis praegu on 6.25 BTC pluss plokis sisalduvad tehingutasud.
 
 Kui kaevandate üksi, saate preemiat ainult siis, kui leiate ploki. Konkureerides kõigi teiste kaevuritega planeedil, oleks teil selle loterii võitmiseks väga väike võimalus ja te peaksite ikkagi maksma oma kaevuri kasutamisega seotud tasud ilma edu garantiita. Kaevandusbasseinid lahendavad selle probleemi, ühendades mitme (tuhande) kaevuri arvutusvõimsuse ja jagades preemiaid vastavalt osaluse protsendile basseini räsimäärast (hashrate), kui plokk leitakse. Oma võimaluste visualiseerimiseks üksi ploki kaevandamisel võite kasutada seda tööriista. Sisestades teabe Antminer S9 kohta, näeme, et ploki loomiseks vajaliku räsi leidmise võimalus on iga ploki kohta 1 24,777,849-st või 1 172,068-st päevas. Keskeltläbi (püsiva räsimäära ja raskusega) kuluks ploki leidmiseks 471 aastat.
@@ -732,7 +732,7 @@ Nüüd saate naasta Braiins OS+ liidesesse, et sisestada need andmed. Paroolivä
 
 ## Oma Antminer S9 jõudluse optimeerimine
 
-<chapterId>25380972-31c7-540d-80d8-17a06b171ca0</chapterId>
+<chapterId>e8dd98a2-86be-4cb1-a061-79f5c8129df6</chapterId>
 
 Nii ülekiirendamine kui ka autotuunimine hõlmavad räsilaudade sageduste reguleerimist, et parandada ASICi jõudlust. Erinevus nende kahe vahel seisneb nende sagedusseadete keerukuses.
 
@@ -755,7 +755,7 @@ Lõpptulemuseks on suurem hashimiskiirus vati kohta, mis tähendab kaevuritele s
 
 ## Hinnangud & Reitingud
 
-<chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
+<chapterId>9c4bf742-f774-4d82-bdef-0c5398be7759</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Lõpueksam

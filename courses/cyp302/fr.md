@@ -15,11 +15,11 @@ Le matériel est conçu pour les apprenants de tous niveaux et équilibre l'intu
 +++
 # Introduction
 
-<partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
+<partId>abfa0d9a-736e-40f8-937a-490ef19bc481</partId>
 
 ## Aperçu du cours
 
-<chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+<chapterId>dc6c887e-00a6-4b7f-9d50-14cbdfd5e867</chapterId>
 Bienvenue dans le cours CYP302 !
 
 Ce livre propose une introduction approfondie à la science et à la pratique de la cryptographie. Dans la mesure du possible, il se concentre sur l'exposition conceptuelle plutôt que formelle de la matière.
@@ -88,10 +88,10 @@ Prêt à explorer l'univers fascinant de la cryptographie ? C'est parti !
 
 # Qu'est-ce que la cryptographie ?
 
-<partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>
+<partId>dfa3633c-f97b-4650-8a2e-cb15a42ca557</partId>
 
 ## Les chiffres de Beale
-<chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
+<chapterId>b97d116b-035b-4e92-890c-e377b48edb36</chapterId>
 
 Commençons notre exploration du domaine de la cryptographie par l'un des épisodes les plus charmants et divertissants de son histoire : celui des chiffres de Beale. [1]
 
@@ -130,7 +130,7 @@ Après déchiffrement, le second message fournit le contenu détaillé du tréso
 
 
 ## Cryptographie moderne
-<chapterId>d07d576f-8a4b-5890-b182-2e5763f550f4</chapterId>
+<chapterId>a53dab64-fcf9-48c1-b578-dc43d799f3de</chapterId>
 
 Les histoires pittoresques comme celle des chiffres de Beale sont ce à quoi la plupart d'entre nous associent la cryptographie. Cependant, la cryptographie moderne diffère d'au moins quatre manières importantes de ces exemples historiques.
 
@@ -180,7 +180,7 @@ Autre exemple, les **attaques par hameçonnage (phishing)** sont un problème co
 
 
 ## Communications ouvertes
-<chapterId>cb23d0a6-ba9a-5dc6-a55a-258405ae4117</chapterId>
+<chapterId>87b637ca-3d20-42b5-b299-ecb084b60aec</chapterId>
 
 La cryptographie moderne est conçue pour fournir des garanties de sécurité dans un environnement de **communications ouvertes**. Si notre canal de communication est si bien protégé que les espions n'ont aucune chance de manipuler ou même d'observer nos messages, alors la cryptographie est superflue. Cependant, la plupart de nos canaux de communication sont loin d'être aussi bien protégés.
 
@@ -200,10 +200,10 @@ Ainsi, l'idée de garder les communications secrètes en protégeant le canal de
 [7] Voir, par exemple, Olga Khazan, “The creepy, long-standing practice of undersea cable tapping”, *The Atlantic*, 16 juillet 2013 (disponible sur [The Atlantic](https://www.theatlantic.com/international/archive/2013/07/the-creepy-long-standing-practice-of-undersea-cable-tapping/277855/)).
 
 # Fondements Mathématiques de la Cryptographie 1
-<partId>1bf9f0aa-0f68-5493-83fb-2167238ff9de</partId>
+<partId>22c3967a-c64b-468c-8e68-3324fe552738</partId>
 
 ## Variables aléatoires
-<chapterId>b623a7d0-3dff-5803-bd4e-8257ff73dd69</chapterId>
+<chapterId>c5fa2255-6041-400b-9072-217b73bf411e</chapterId>
 
 La cryptographie repose sur les mathématiques. Et si vous souhaitez acquérir une compréhension approfondie de la cryptographie, vous devez être à l'aise avec ces mathématiques.
 
@@ -406,7 +406,7 @@ Je pourrais, par exemple, vous demander quelle est la probabilité que les cocho
 
 
 ## L'opération modulo
-<chapterId>709b34e5-b155-53d2-abbd-97d67e56db00</chapterId>
+<chapterId>a7e063f0-62dd-4c35-892a-55fa1b10aad8</chapterId>
 
 ### Modulo
 
@@ -489,7 +489,7 @@ $$
 
 
 ## L'opération XOR
-<chapterId>22f185cc-c516-5b33-950b-0908f2f881fe</chapterId>
+<chapterId>941aaabd-0896-4eb2-843c-e1af055c87fc</chapterId>
 
 Toutes les données informatiques sont traitées, stockées et transmises sur les réseaux au niveau des bits. Tous les schémas cryptographiques appliqués aux données informatiques fonctionnent également au niveau des bits.
 
@@ -521,7 +521,7 @@ $(1 + 1) \mod 2 = 1 \oplus 1 = 0$
 
 
 ## Pseudoaléatoire
-<chapterId>20463fc5-3e92-581f-a1b7-3151279bd95e</chapterId>
+<chapterId>bd0c7d54-5392-490b-bdca-04dcbe7d83ff</chapterId>
 
 Dans notre discussion sur les variables aléatoires et uniformes, nous avons établi une distinction spécifique entre « aléatoire » et « uniforme ». Cette distinction est généralement maintenue en pratique lorsqu’on décrit des variables aléatoires. Cependant, dans notre contexte actuel, cette distinction doit être abandonnée et les termes « aléatoire » et « uniforme » sont utilisés de manière synonyme. Je vais expliquer pourquoi à la fin de cette section.
 
@@ -568,10 +568,10 @@ La raison de l’abandon de la distinction entre « aléatoire » et « uniforme
 
 # Fondements mathématiques de la cryptographie 2
 
-<partId>d7245cc9-bb6d-5403-b3d5-9c703d9a2f81</partId>
+<partId>62963952-ae03-43f4-88d6-90aea95e5c5f</partId>
 
 ## Qu'est-ce que la théorie des nombres ?
-<chapterId>c0051c34-fd5d-539c-93e2-5c6dfd4c3355</chapterId>
+<chapterId>67e7dace-4c23-41a8-bdb3-c6c87d223899</chapterId>
 
 Ce chapitre traite d'un sujet plus avancé sur les fondements mathématiques de la cryptographie : la théorie des nombres. Bien que la théorie des nombres soit importante pour la cryptographie symétrique (comme dans le chiffrement Rijndael), elle joue un rôle particulièrement essentiel dans le cadre de la cryptographie à clé publique.
 
@@ -591,7 +591,7 @@ Les ensembles étudiés en algèbre abstraite peuvent traiter de nombreux types 
 
 
 ## Groupes
-<chapterId>3209b270-f9cd-5224-803e-0ed19fbf7826</chapterId>
+<chapterId>4353d3ff-6319-4985-a4b8-3b20111ecfff</chapterId>
 
 Un concept fondamental en mathématiques est celui d'un ensemble d’éléments. Un ensemble est généralement noté par des accolades avec les éléments séparés par des virgules.
 
@@ -656,7 +656,7 @@ $$
 Les transactions en Bitcoin consistent généralement à verrouiller des sorties (outputs) sur une ou plusieurs clés publiques d'une certaine manière. La valeur de ces transactions peut alors être déverrouillée en créant des signatures numériques avec les clés privées correspondantes.
 
 ## Groupes cycliques
-<chapterId>bfa5c714-7952-5fef-88b1-ca5b07edd886</chapterId>
+<chapterId>b5b552f6-cf7c-4ba8-bd9c-685bfc4aacad</chapterId>
 
 Une distinction majeure que l'on peut établir est celle entre un **groupe fini** et un **groupe infini**. Le premier possède un nombre fini d’éléments, tandis que le second en possède un nombre infini. Le nombre d’éléments dans tout groupe fini est appelé **ordre du groupe**. Toute cryptographie pratique utilisant des groupes repose sur des groupes finis (issus de la théorie des nombres).
 
@@ -744,7 +744,7 @@ $$
 Formule de la fonction Phi d’Euler pour la factorisation en nombres premiers de $N$.
 
 ## Corps
-<chapterId>fad52d86-3a22-5c9f-979e-3bec9eaa008e</chapterId>
+<chapterId>7a8c9ab0-fc8f-43fa-8dd7-fd1839bcda81</chapterId>
 
 Un groupe est la structure algébrique de base en algèbre abstraite, mais il en existe beaucoup d’autres. La seule autre structure algébrique dont vous devez être familier est celle d’un **corps**, en particulier celle d’un **corps fini**. Ce type de structure algébrique est fréquemment utilisé en cryptographie, par exemple dans l’algorithme **Advanced Encryption Standard (AES)**, qui est le principal schéma de chiffrement symétrique utilisé en pratique.
 
@@ -874,7 +874,7 @@ Pourquoi les corps d’extension en base $2$ sur des ensembles de polynômes, co
 [2] Les corps d’extension peuvent être très contre-intuitifs. Au lieu d’avoir des éléments constitués d’entiers, ils sont composés d’ensembles de polynômes. De plus, toutes les opérations sont effectuées modulo un polynôme irréductible.
 
 ## Algèbre abstraite en pratique
-<chapterId>ed35b98d-18b4-5790-9911-1078e0f84f92</chapterId>
+<chapterId>9b8cd1fc-8a34-4e1b-ab4f-c634a763a20c</chapterId>
 
 Bien que le langage formel et l’abstraction de la discussion puissent sembler complexes, le concept de groupe ne devrait pas être trop difficile à comprendre. Il s'agit simplement d'un ensemble d’éléments accompagné d’une opération binaire, où l’application de cette opération sur ces éléments respecte quatre conditions générales. Un groupe abélien possède simplement une condition supplémentaire appelée commutativité. Un groupe cyclique, quant à lui, est un type particulier de groupe abélien, à savoir celui qui possède un générateur. Un corps est simplement une construction plus complexe issue de la notion fondamentale de groupe.
 
@@ -903,10 +903,10 @@ Pour aller plus loin sur la théorie moderne des nombres, vous pouvez consulter 
 
 # Cryptographie symétrique
 
-<partId>ef768d0e-fe7b-510c-87d6-6febb3de1039</partId>
+<partId>b994593e-cb9b-4a2c-ae80-2dec3478e1a6</partId>
 
 ## Alice et Bob
-<chapterId>47345330-be2d-5faf-afd0-d289a8d21bf1</chapterId>
+<chapterId>9c901027-b83a-4954-99b4-9e4f0c1598b7</chapterId>
 
 L'une des deux principales branches de la cryptographie est la **cryptographie symétrique**. Elle comprend les schémas de chiffrement ainsi que les schémas relatifs à l’authentification et à l’intégrité. Jusqu’aux années 1970, toute la cryptographie se limitait aux schémas de chiffrement symétrique.
 
@@ -931,7 +931,7 @@ Voici cinq points clés à garder à l’esprit concernant les exemples impliqua
 5. Les exemples se concentrent généralement sur la communication électronique, mais ils peuvent également être appliqués aux formes traditionnelles de communication comme les lettres.
 
 ## Schémas de chiffrement symétrique
-<chapterId>41bfdbe1-6d41-5272-98bb-81f24b2fd6af</chapterId>
+<chapterId>e2645185-bb06-41d2-9a80-81dd84108647</chapterId>
 
 On peut définir grossièrement un **schéma de chiffrement symétrique** comme tout schéma cryptographique composé de trois algorithmes :
 
@@ -966,7 +966,7 @@ Bob chiffre le message $M$ à un moment donné $T_0$ avec la clé $K$ pour produ
 
 
 ## Un exemple : Le chiffre de décalage
-<chapterId>7b179ae8-8d15-5e80-a43f-22c970d87b5e</chapterId>
+<chapterId>63287a89-bda1-4395-ade6-cd8d8debe797</chapterId>
 
 Dans le **Chapitre 2**, nous avons rencontré le **chiffre de décalage**, qui est un exemple très simple de schéma de chiffrement symétrique. Examinons-le à nouveau ici.
 
@@ -1001,7 +1001,7 @@ Vous pourriez également rencontrer les termes **chiffrer** ou **déchiffrer**.
 
 
 ## Attaques par force brute et principe de Kerckhoffs
-<chapterId>2d73ef97-26c5-5d11-8815-0ddbe89c8003</chapterId>
+<chapterId>4a72d8d8-0186-4654-b5ba-f99a4e03fb59</chapterId>
 
 Le **chiffre de décalage** est un schéma de chiffrement symétrique très peu sécurisé, du moins dans le monde moderne. [1] Un attaquant pourrait simplement tenter de déchiffrer n'importe quel texte chiffré en testant les **26 clés possibles** pour voir laquelle produit un résultat cohérent. Ce type d’attaque, où l’attaquant teste toutes les clés possibles jusqu’à trouver la bonne, est appelé une **attaque par force brute** ou **recherche exhaustive de clés**.
 
@@ -1047,7 +1047,7 @@ Bien que nous n'entrions pas dans tous les détails des différentes notions de 
 [3] **Eric Raymond**, « The Cathedral and the Bazaar », article présenté au Linux Kongress, Würzburg, Allemagne (27 mai 1997). Il existe plusieurs versions ultérieures disponibles ainsi qu'un livre. Les citations sont extraites de la page 30 du livre : **Eric Raymond**, _The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary_, édition révisée (2001), O’Reilly : Sebastopol, CA.
 
 ## Chiffrements par flot
-<chapterId>479aa6f4-45c4-59ca-8616-8cf8e61fc871</chapterId>
+<chapterId>82a4d8c5-7fd7-4bbb-a97e-e7a2d7cc55a0</chapterId>
 
 Les schémas de chiffrement symétrique sont couramment subdivisés en deux types : **les chiffrements par flot** et **les chiffrements par bloc**. Cependant, cette distinction peut poser problème, car ces termes sont parfois utilisés de manière incohérente. Dans les prochaines sections, je présenterai cette distinction de la manière qui me semble la plus appropriée. Il est néanmoins important de noter que de nombreuses personnes peuvent employer ces termes différemment.
 
@@ -1131,7 +1131,7 @@ De mon point de vue, définir la condition (1) de manière plus large permet de 
 
 
 ## Chiffrements par bloc
-<chapterId>2df52d51-943d-5df7-9d49-333e4c5d97b7</chapterId>
+<chapterId>ffb7ba1c-eb20-43a8-a2f1-2b8a54a31044</chapterId>
 
 La première manière de comprendre un **chiffrement par bloc** est de le considérer comme quelque chose de plus élémentaire qu’un chiffre par flot : un algorithme de base qui réalise une transformation préservant la longueur d’une chaîne de caractères de longueur appropriée, à l’aide d’une clé. Cet algorithme peut être utilisé pour créer des schémas de chiffrement ou peut-être d’autres types de schémas cryptographiques.
 
@@ -1206,7 +1206,7 @@ Le chiffre par bloc **AES** sera expliqué en détail dans le **Chapitre 5**.
 [6] Voir **NSA**, "Commercial National Security Algorithm Suite", [https://apps.nsa.gov/iaarchive/programs/iad-initiatives/cnsa-suite.cfm](https://apps.nsa.gov/iaarchive/programs/iad-initiatives/cnsa-suite.cfm).
 
 ## Dissiper la confusion
-<chapterId>121c1858-27e3-5862-b0ce-4ff2f70f9f0f</chapterId>
+<chapterId>61e393f2-6764-4214-a871-f7471cb8ea32</chapterId>
 
 La confusion concernant la distinction entre les **chiffrements par bloc** et les **chiffrements par flot** provient du fait que certaines personnes comprennent parfois le terme **chiffrement par bloc** comme faisant spécifiquement référence à un **chiffrement par bloc utilisant un mode de chiffrement par bloc**.
 
@@ -1230,7 +1230,7 @@ Grâce à cette discussion, vous devriez maintenant comprendre la **Figure 8**. 
 
 
 ## Codes d’authentification de message (MAC)
-<chapterId>19fa7c00-db59-56a0-9654-5350a137939d</chapterId>
+<chapterId>626181b6-f80f-4160-b441-417a79b66ec6</chapterId>
 
 Le chiffrement concerne la confidentialité. Mais la cryptographie traite également de thèmes plus larges, tels que **l’intégrité des messages**, **l’authenticité** et la **non-répudiation**. Les **codes d’authentification de message (MAC)** sont des schémas cryptographiques symétriques qui soutiennent l’authenticité et l’intégrité dans les communications.
 
@@ -1259,7 +1259,7 @@ Bien que j’aie distingué **l’authenticité des messages** et **l’intégri
 
 
 ## Chiffrement authentifié
-<chapterId>33f2ec9b-9fb4-5c61-8fb4-50836270a144</chapterId>
+<chapterId>64c1aef9-0bf8-45c5-92ba-12161d907eac</chapterId>
 
 En général, vous souhaitez garantir à la fois la **confidentialité** et l’**authenticité** dans une communication, c’est pourquoi les **schémas de chiffrement** et les **schémas de MAC** sont souvent utilisés ensemble.
 
@@ -1304,7 +1304,7 @@ Il existe un ensemble de fonctions de hachage qui peuvent être utilisées pour 
 [8] Techniquement, la définition des attaques par texte chiffré choisi est différente de celle de la notion de non-malléabilité. Cependant, il est possible de montrer que ces deux notions de sécurité sont équivalentes.
 
 ## Sessions de communication sécurisées
-<chapterId>c7f7dcd3-bbed-53ed-a43d-039da0f180c5</chapterId>
+<chapterId>16be8853-ef4e-432b-b724-f34e780f2abe</chapterId>
 
 Supposons que deux parties soient engagées dans une session de communication où elles échangent plusieurs messages successivement.
 
@@ -1333,10 +1333,10 @@ La session de communication commence par Bob qui envoie un texte chiffré $C_{0,
 ![Figure 12 : Une session de communication sécurisée](assets/en/016.webp "Figure 12 : Une session de communication sécurisée")
 
 # RC4 et AES
-<partId>a48c4a7d-0a41-523f-a4ab-1305b4430324</partId>
+<partId>9948fc0a-59fe-46a4-b324-b12cde16e576</partId>
 
 ## Le chiffrement par flot RC4
-<chapterId>5caec5bd-5a77-56c9-b5e6-1e86f0d294aa</chapterId>
+<chapterId>2f83a43a-16e5-4b4e-9d2f-4976f92eba15</chapterId>
 
 Dans ce chapitre, nous allons examiner en détail un schéma de chiffrement utilisant un chiffrement par flot primitif moderne, RC4 (ou "Rivest Cipher 4"), ainsi qu'un chiffrement par bloc moderne, AES. Bien que le chiffrement RC4 soit aujourd'hui considéré comme peu sûr pour le chiffrement, AES est la norme actuelle pour le chiffrement symétrique moderne. Ces deux exemples permettront de mieux comprendre le fonctionnement interne du chiffrement symétrique.
 
@@ -1441,7 +1441,7 @@ Il est important de noter que le keystream produit avec RC4 doit être traité c
 
 
 ## AES avec une clé de 128 bits
-<chapterId>0b30886f-e620-5b8d-807b-9d84685ca8ff</chapterId>
+<chapterId>593d6ae3-7887-40d5-b14b-98a580b9a254</chapterId>
 
 Comme mentionné dans le chapitre précédent, le National Institute of Standards and Technology (NIST) a organisé un concours entre 1997 et 2000 pour déterminer une nouvelle norme de chiffrement symétrique. Le **chiffre de Rijndael** s'est avéré être l'entrée gagnante. Son nom est un jeu de mots basé sur les noms de ses créateurs belges, Vincent Rijmen et Joan Daemen.
 
@@ -1605,10 +1605,10 @@ La logique des opérations derrière le chiffrement Rijndael est qu'elles produi
 
 
 # Cryptographie asymétrique
-<partId>868bd9dd-6e1c-5ea9-9ece-54affc13ba05</partId>
+<partId>20c55ed4-4e45-493a-8bfe-970f332d764c</partId>
 
 ## Le problème de la distribution et de la gestion des clés
-<chapterId>1bb651ba-689a-5a89-a7d3-0b9cc3b694f7</chapterId>
+<chapterId>4bbc8769-e00d-4d59-8365-c5f491b1217b</chapterId>
 
 Comme pour la cryptographie symétrique, les schémas asymétriques peuvent être utilisés pour garantir à la fois la confidentialité et l’authentification. Cependant, contrairement aux schémas symétriques, ceux-ci utilisent deux clés au lieu d’une : une clé privée et une clé publique.
 
@@ -1652,7 +1652,7 @@ Alors, que s’est-il passé dans les années 1970 ? Comment est-il possible que
 
 
 ## Nouvelles directions en cryptographie
-<chapterId>7a9dd9a3-496e-5f9d-93e0-b5028a7dd0f1</chapterId>
+<chapterId>e0f7950c-bb5a-437e-b27e-8d6878e15291</chapterId>
 
 Dans les années 1970, les problèmes de distribution et de gestion des clés ont attiré l'attention d'un groupe de cryptographes académiques américains : Whitfield Diffie, Martin Hellman et Ralph Merkle. Malgré un scepticisme sévère de la part de la majorité de leurs pairs, ils ont entrepris de trouver une solution à ces problèmes.
 
@@ -1715,7 +1715,7 @@ Selon leurs propres témoignages et celui du GCHQ, c'est James Ellis qui aurait 
 [4] Un bon historique de ces découvertes est fourni par Simon Singh, _The Code Book_, Fourth Estate (Londres, 1999), Chapitre 6.
 
 ## Chiffrement et authentification asymétriques
-<chapterId>2f6f0f03-3c3d-5025-90f0-5211139bc0cc</chapterId>
+<chapterId>a36ea521-ecee-476d-ade9-57f09bed2469</chapterId>
 
 Un aperçu de la **cryptographie asymétrique** avec l'aide de Bob et Alice est présenté dans *Figure 1*.
 
@@ -1795,7 +1795,7 @@ La distribution des clés est désormais considérablement simplifiée pour Jim�
 
 ## Fonctions de hachage
 
-<chapterId>ea8327ab-b0e3-5635-941c-4b51f396a648</chapterId>
+<chapterId>49d6c9a5-5f18-4ec4-8c83-e02fc60941ff</chapterId>
 
 Les fonctions de hachage sont omniprésentes en cryptographie. Elles ne relèvent ni de la cryptographie symétrique ni de la cryptographie asymétrique, mais appartiennent à une catégorie cryptographique qui leur est propre.
 
@@ -1864,10 +1864,10 @@ Bien que la résistance aux collisions et le masquage soient les principales pro
 
 # Le système cryptographique RSA
 
-<partId>864dca42-2a8d-530f-bb94-2e1f68b3f411</partId>
+<partId>a8fb0a0b-747f-422a-a464-3c84979efa43</partId>
 
 ## Le problème de la factorisation
-<chapterId>a31a66e4-52ea-539c-9953-4769ad565d7e</chapterId>
+<chapterId>406b1681-f8bf-4a03-b555-c84ac4dee44a</chapterId>
 
 Bien que la cryptographie symétrique soit généralement assez intuitive pour la plupart des gens, ce n'est généralement pas le cas de la cryptographie asymétrique. Bien que vous soyez probablement à l'aise avec la description générale présentée dans les sections précédentes, vous vous demandez probablement ce que sont précisément les fonctions à sens unique et comment elles sont utilisées pour construire des systèmes asymétriques.
 
@@ -1958,7 +1958,7 @@ $$ \frac{2^{1024}}{\ln(2^{1024})} - \frac{2^{1023}}{\ln(2^{1023})} $$
 
 
 ## Résultats en théorie des nombres
-<chapterId>23cd2186-8d97-5709-a4a7-b984f1eb9999</chapterId>
+<chapterId>a5528852-d9cc-4f94-a15d-02f11081e026</chapterId>
 
 Malheureusement, le problème de la factorisation ne peut pas être utilisé directement pour les systèmes cryptographiques asymétriques. Cependant, nous pouvons utiliser un problème plus complexe mais lié : le problème RSA.
 
@@ -2080,7 +2080,7 @@ Nous pouvons utiliser ce résultat pour formuler une assertion concernant notre 
 Nous disposons maintenant de tous les résultats issus de la théorie des nombres nécessaires pour énoncer clairement le problème RSA.
 
 ## Le système cryptographique RSA
-<chapterId>0253c2f7-b8a4-5d0e-bd60-812ed6b6c7a9</chapterId>
+<chapterId>b230194d-5774-49fe-9d19-53e345453c34</chapterId>
 
 Nous sommes maintenant prêts à énoncer le problème RSA. Supposons que vous créez un ensemble de variables composé de $p$, $q$, $N$, $\phi(N)$, $e$, $d$, et $y$. Appelons cet ensemble $\Pi$. Il est créé comme suit :
 
@@ -2168,7 +2168,7 @@ Cependant, en ajoutant une certaine complexité astucieuse, le problème RSA peu
 <isCourseExam>true</isCourseExam>
 
 ## Conclusion
-<chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
+<chapterId>97ce180b-5092-45eb-a160-57fc52917567</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
 
 

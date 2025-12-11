@@ -16,13 +16,13 @@ objectives:
 # 소개
 
 
-<partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
+<partId>21613091-f43a-4a87-88d9-2d69038d41d2</partId>
 
 
 ## 코스 개요
 
 
-<chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
+<chapterId>43b56a2b-bbee-4faa-b52a-9b6c540df559</chapterId>
 
 
 ECO201 과정에 오신 것을 환영합니다!
@@ -64,7 +64,7 @@ ECO201 과정에 오신 것을 환영합니다!
 ## 화폐, 신용, 은행 및 중앙은행
 
 
-<chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
+<chapterId>84a09f98-8cd7-468f-9cc1-6c0add06ce12</chapterId>
 
 
 > "기존 통화의 근본적인 문제는 통화가 작동하는 데 필요한 모든 신뢰입니다. 중앙은행이 화폐 가치를 떨어뜨리지 않을 것이라는 신뢰가 있어야 하지만, 법정화폐의 역사는 이러한 신뢰의 위반으로 가득 차 있습니다. 은행은 우리의 돈을 보관하고 전자적으로 이체할 수 있도록 신뢰받아야 하지만, 신용 거품에 휩싸여 준비금이 거의 없는 상태에서 돈을 빌려주고 있습니다. 우리는 은행을 믿고 개인정보를 맡겨야 하며, 신원 도둑이 우리 계좌를 훔치지 못하도록 은행을 신뢰해야 합니다."
@@ -199,13 +199,13 @@ ZIRP의 또 다른 의도하지 않은 결과는 정부가 광범위한 지출�
 # 이론적 토대
 
 
-<partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
+<partId>6249c7e4-71bc-453b-8a09-ab579d340709</partId>
 
 
 ## 주관적 가치 이론
 
 
-<chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
+<chapterId>fb001732-6bf7-4935-b8ec-6c225dab1025</chapterId>
 
 
 > "가치는 인간의 의식 속에만 존재한다"
@@ -331,7 +331,7 @@ ZIRP의 또 다른 의도하지 않은 결과는 정부가 광범위한 지출�
 ## 사회 현상으로서의 화폐의 출현
 
 
-<chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
+<chapterId>469d591e-b407-4218-bccb-6a433f731cb3</chapterId>
 
 
 개인은 전문화와 분업의 극대화에 대한 공통된 관심을 가지고 있지만, 이러한 확장을 제한하는 조정 문제가 여전히 존재합니다.
@@ -453,7 +453,7 @@ Alice와 Bob 사이의 직접 Exchange(물물교환)에서는 둘 다 같은 시
 ## 시간 선호도, 이자 및 자본
 
 
-<chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
+<chapterId>e0a5c946-dd4c-4aa6-9b6e-aaacb23241ae</chapterId>
 
 
 ### 시간 기본 설정
@@ -561,13 +561,13 @@ Alice와 Bob 사이의 직접 Exchange(물물교환)에서는 둘 다 같은 시
 # 오스트리아 경제 관점
 
 
-<partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
+<partId>851a6712-84ea-48d2-85f7-3354e1381a06</partId>
 
 
 ## 오스트리아식 비즈니스 사이클 이론
 
 
-<chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
+<chapterId>17248205-835a-4284-ba94-0eb131916aa3</chapterId>
 
 
 > "은행 신용의 인플레이션 붐이 오래 지속될수록 자본재에 대한 잘못된 투자의 범위가 커지고 이러한 불건전 투자에 대한 청산의 필요성이 커집니다. 신용 팽창이 멈추거나 반전되거나 심지어 현저히 둔화되면 잘못된 투자가 드러납니다."
@@ -681,7 +681,7 @@ Alice와 Bob 사이의 직접 Exchange(물물교환)에서는 둘 다 같은 시
 ## 사회주의 하에서 경제 계산의 불가능성
 
 
-<chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
+<chapterId>9b9e185f-5b0d-4850-813e-0c50e309a909</chapterId>
 
 
 > "생산 요소가 사고 팔리지 않아 시장 가격이 없는 경우, 미래의 행동을 계획하고 과거 행동의 결과를 결정할 때 계산에 의존하는 것은 불가능합니다. 사회주의적 생산 관리는 자신이 계획하고 실행하는 것이 추구하는 목적을 달성하는 데 가장 적절한 수단인지 여부를 알 수 없습니다. 그야말로 어둠 속에서 운영될 것입니다. 희소한 생산 요소인 물적, 인적(노동력)을 낭비하게 될 것입니다. 모두에게 혼란과 빈곤이 불가피하게 초래될 것입니다."
@@ -791,7 +791,7 @@ Alice와 Bob 사이의 직접 Exchange(물물교환)에서는 둘 다 같은 시
 ## 오스트리아 방법론
 
 
-<chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
+<chapterId>1fdf4c5d-0008-4f69-97e7-127fb3ef63e0</chapterId>
 
 
 오스트리아 경제학파는 사회과학에서 흔히 사용되는 실증주의적 접근법과는 다른 공리주의적 연역적 방법론으로 다른 학파와 차별화됩니다. 실증주의 접근법은 경험적 데이터에서 확립된 법칙을 기반으로 하며, 물리학과 유사한 방법을 채택합니다. 관찰을 통해 가설을 세우고, 이를 임시 실험을 통해 확인하거나 반박합니다. 과학적 방법은 데이터를 가장 잘 설명하는 가설을 유지하고 더 정확한 가설이 발견될 때까지 계속 탐구하는 것으로 구성됩니다.
@@ -824,20 +824,20 @@ Alice와 Bob 사이의 직접 Exchange(물물교환)에서는 둘 다 같은 시
 # 최종 섹션
 
 
-<partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
+<partId>373760d2-4e6e-4a05-8081-6d02072457d7</partId>
 
 
 ## 리뷰 및 평가
 
 
-<chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
+<chapterId>2373a3ce-1c87-415a-8dd6-0437b4f71e79</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## 기말 시험
 
 
-<chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
+<chapterId>1c584ca3-c738-4151-8a85-101a142fcbbc</chapterId>
 
 <isCourseExam>true</isCourseExam>
 

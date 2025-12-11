@@ -16,12 +16,12 @@ In BTC304, we’ll look at why community building matters, explore tools for cre
 +++
 # Introduction
 
-<partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
+<partId>c896831e-b8d8-4324-bcad-b289c88db81b</partId>
 
 
 ## Course overview
 
-<chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
+<chapterId>42660201-57ae-4438-846a-80cd529087ca</chapterId>
 
 
 Welcome to BTC302!
@@ -107,7 +107,7 @@ Ready to learn how to build a strong, vibrant Bitcoin community? Let's dive in!
 
 ## Why start a Bitcoin community or meetup?
 
-<chapterId>893ea248-7d5a-5b8e-948c-7031497b1031</chapterId>
+<chapterId>ce63ff45-9c9e-4a77-a175-99906bb95208</chapterId>
 
 
 ### What's the difference between a community and a meet-up?
@@ -175,7 +175,7 @@ Bitcoin meetups can serve many purposes:
 *Hosting conferences or workshops on specific topics*
 
 
-We'll cover many of these possibilities in detail in part 6/8 of this course, entitled "[Examples of projects and initiatives](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
+We'll cover many of these possibilities in detail in part 6/8 of this course, entitled "[Examples of projects and initiatives](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab).
 
 
 While every community is free to form its own opinions, launch projects, and experiment in its own way, meetups are proving increasingly **essential to Bitcoin's development and to the growth of bitcoiners**. **Organizing them does require time and effort**, which is why this course shares the combined experience of [around sixty Bitcoin communities in France and Belgium](https://btcmap.org/communities/map#2/5.24949/0.20000) **to help you build and grow your own community and meetups as smoothly as possible**.
@@ -183,7 +183,7 @@ While every community is free to form its own opinions, launch projects, and exp
 
 ## Where should you create your community?
 
-<chapterId>72da5285-5395-592d-ab62-303a0aef3d6d</chapterId>
+<chapterId>0b6bd32a-15ff-4b09-870d-5a2f6ea0d774</chapterId>
 
 
 The first question to ask is: where should your community be based?
@@ -222,7 +222,7 @@ And of course, if an older community has "evolved" in a direction that no longer
 
 ## What objectives should guide your community?
 
-<chapterId>0aae1aa8-93ec-544a-ad88-22d32c619595</chapterId>
+<chapterId>2b2f58e5-c2ab-4b85-af19-02d7ad2aa503</chapterId>
 
 
 Once you've identified the city (or geographic area) for your community, it's time to **define what you want to achieve**.
@@ -254,7 +254,7 @@ This is why **setting concrete goals and projects is essential**.
 Your first event will likely be a meet-up. Its main purpose: to bring together bitcoiners in your area.
 
 
-However, as we'll see later in [Examples of projects and initiatives](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **a meet-up can be built in many ways, with many objectives:**
+However, as we'll see later in [Examples of projects and initiatives](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab), **a meet-up can be built in many ways, with many objectives:**
 
 * Combine networking with an educational presentation on a Bitcoin concept;
 * Host a professional demonstration of Bitcoin solutions;
@@ -304,12 +304,12 @@ That's why **this course is designed  to share valuable resources and tips, help
 
 # Designing a community identity Bitcoin
 
-<partId>da6673ad-bf49-5979-80a6-3f69cfb28046</partId>
+<partId>507dd86a-0214-4c18-ae0d-34702291fb74</partId>
 
 
 ## Why and how can you create your own identity?
 
-<chapterId>b48a18cc-afdf-5216-802c-32647b5cd8a3</chapterId>
+<chapterId>4475004b-19e7-4c0f-a799-fd2cb0baefad</chapterId>
 
 
 At this stage, we assume that:
@@ -378,7 +378,7 @@ If inspiration strikes, you can take it even further: create a crest, a motto, o
 
 ## Create a logo, poster and banner
 
-<chapterId>3470a31f-0190-5e87-8af0-6a00e79267ef</chapterId>
+<chapterId>8b85ccb1-5474-474e-ae1b-c8cb69f060ad</chapterId>
 
 
 ### Using Canva
@@ -536,12 +536,12 @@ The result looks really cool!
 
 # Creating communication channels for your Bitcoin community
 
-<partId>fc588298-6876-554c-bd57-55d182464878</partId>
+<partId>054892b5-21cb-43f8-a1c2-750d3175fa68</partId>
 
 
 ## Which communication channels should you choose?
 
-<chapterId>b4f4eef6-1035-5290-848a-2b7f9391c77a</chapterId>
+<chapterId>3c111ec9-2517-4b9a-bba4-68ac531e081f</chapterId>
 
 
 As mentioned above, a community's communication channels can differ according to motivations and habits.
@@ -580,7 +580,7 @@ As your community grows, you can add more platforms and delegate moderation to t
 
 ## Create and configure a Telegram channel, group or supergroup
 
-<chapterId>d13714ce-8f08-53e9-bedd-b6a3aaac5dad</chapterId>
+<chapterId>7b87c24a-4820-4652-a3de-dc29cafea4d0</chapterId>
 
 
 Before creating your community's communication space on Telegram, it's important to know the difference between:
@@ -605,7 +605,7 @@ For the tutorials below, we originally used the "Telegram+" APK, which allows fo
 
 If you want to create a place where your members can talk to each other directly, respond to each other, etc., then you might want to create a Telegram group, and not a Telegram channel!
 
-Go directly to the next section, entitled [Create a Telegram group](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
+Go directly to the next section, entitled [Create a Telegram group](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/7b87c24a-4820-4652-a3de-dc29cafea4d0).
 
 
 Indeed, **a Telegram channel is more like a one-way broadcast tool for admins**. Members cannot freely chat, they can only react with emojis (or leave comments in separate threads, which fragments conversations).
@@ -699,7 +699,7 @@ So, there's no need to download "Telegram+" anymore, unless you want access to m
 
 ## Setting up your Telegram group or supergroup
 
-<chapterId>35e674b3-5924-50b0-98f1-83a56c9a186d</chapterId>
+<chapterId>a8c5bc2e-9a91-4da1-aae7-8a3684631dc8</chapterId>
 
 
 Now that your Telegram group (or supergroup) is up and running, it's time to **configure permissions and set up moderation**.
@@ -739,7 +739,7 @@ This isn't always necessary but can add an extra layer of protection.
 
 ## Adding a Multi-Function Bot to Your Telegram Group
 
-<chapterId>c61f69cc-15ec-53f1-8c02-1cea55def09e</chapterId>
+<chapterId>80108eb0-6648-4fe9-b41f-586f03466805</chapterId>
 
 
 **Another option for configuring and securing your Telegram group or supergroup is to add a multi-function bot**. This allows you to significantly expand your group's features and moderation capabilities.
@@ -779,7 +779,7 @@ Tutorial for adding a multi-function bot to a Telegram group or supergroup:
 
 ## Create a Discord server
 
-<chapterId>eef2a965-4c24-5f3a-8013-72cc7d315314</chapterId>
+<chapterId>9d3f69cb-a61c-40f2-abad-e4a4be6b96cb</chapterId>
 
 
 When your Telegram group grows too large, transforming it into a Telegram supergroup can help organize discussions.
@@ -810,7 +810,7 @@ To save you time, here's a tutorial on how to add this multi-function bot to a T
 
 ## Consider alternative, private and more secure communication channels
 
-<chapterId>29d0aad6-0612-5dd0-bcef-7337eaf4fefc</chapterId>
+<chapterId>495024db-90fb-4aa9-984e-1dc2b2b90947</chapterId>
 
 
 As discussed earlier, Twitter and Telegram are the most widely used communication tools for Bitcoin communities in Europe (if not worldwide).
@@ -829,12 +829,12 @@ And really, what could be more in line with the spirit of Bitcoin than being  ce
 
 # Launch your social networks
 
-<partId>8ebf8cd7-9248-543f-bc27-4ec4cc03f9cf</partId>
+<partId>f98a016c-d5b2-43b4-b8ee-ad6163d7e6c5</partId>
 
 
 ## The importance of visibility for growing your Bitcoin community
 
-<chapterId>b20f12e4-c5de-5f02-80c7-b7fc6cadd3ac</chapterId>
+<chapterId>ecd581a7-17e6-4730-ac9f-859a782a957e</chapterId>
 
 
 So, your community is up and running. You've set up your Telegram or Matrix space... but for now, you're the only one there. **Time to let people know you exist!**
@@ -858,7 +858,7 @@ That said, keep in mind that **the more communication channels and social networ
 
 ## Create a Twitter profile
 
-<chapterId>c8d73097-8eba-5530-918c-221002954110</chapterId>
+<chapterId>f5bfb587-1edf-46ce-9683-833b344627b1</chapterId>
 
 
 Twitter is very easy to use, and to improve your privacy, you'll need to adjust a few settings.
@@ -867,7 +867,7 @@ Twitter is very easy to use, and to improve your privacy, you'll need to adjust 
 
 1/ **the @ Twitter**, which defines your identity and makes you easy to find. If your community's name is "Bitcoin [CITY]", it's appropriate to choose "@Bitcoin[CITY]";
 
-2/ **the logo and banner** you've created for your community or meet-up (see section [Create a logo, poster and banner](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
+2/ **the logo and banner** you've created for your community or meet-up (see section [Create a logo, poster and banner](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/8b85ccb1-5474-474e-ae1b-c8cb69f060ad));
 
 3/ **the description**, which allows you to share key information about your community in a few hundred characters. For example:
 
@@ -942,7 +942,7 @@ Tutorial for creating a Twitter account:
 
 ## Getting closer to neighboring meetups
 
-<chapterId>12a21c3b-235a-5292-8209-67bf60f61e49</chapterId>
+<chapterId>5cd84243-f3b6-4874-99a7-a2e2185cc118</chapterId>
 
 
 Now that your communication channels and social networks are set up and reflect your community's visual identity, it's time to start following the right people.
@@ -972,7 +972,7 @@ The goal is simple: gather everyone's feedback, discuss how the communities are 
 
 ## Btcmap.org
 
-<chapterId>365f43d4-7b2c-5961-a184-157b8c1a0116</chapterId>
+<chapterId>8a628a6c-7daf-4382-9f13-a90b808fc908</chapterId>
 
 
 At this stage, your community is already up and running. All that's left is to welcome more interested people and help it grow.
@@ -1005,12 +1005,12 @@ Once a small group of bitcoiners has joined you, it's time for the next step: or
 
 # Organize a Bitcoin meet-up
 
-<partId>c009d2a6-40ce-583b-bd24-fdfd1fea262e</partId>
+<partId>561335e4-a531-4e63-838f-56aa8ee04864</partId>
 
 
 ## Why launch a regular meetup with your community?
 
-<chapterId>ed8e471c-3b99-57e2-a042-2d4e8a40b137</chapterId>
+<chapterId>acb31467-8192-45a8-afe1-e7bbdf1e32dd</chapterId>
 
 
 Now that your community's social networks and communication channels have been launched, it’s time to make your presence felt on these platforms. Encourage new members to introduce themselves and gradually join the conversation.
@@ -1031,7 +1031,7 @@ That's why it's important to **start by setting achievable goals for your meetup
 
 ## The first meet-up: when, and why?
 
-<chapterId>f3f8a614-cfb4-5994-a2e8-d56e6f8e3347</chapterId>
+<chapterId>1db6a73c-4782-4ed6-872a-eb23851e027e</chapterId>
 
 
 You can launch a meet-up just a few weeks after creating your community.
@@ -1089,14 +1089,14 @@ In the second case, a second monthly event could be dedicated to a specific them
 ![image](assets/en/031.webp)
 
 
-Bear in mind that **this requires more organization and more of your time**. Fortunately, in [part 6/8 of this course](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), you'll find a range of reusable open-source resources to help.
+Bear in mind that **this requires more organization and more of your time**. Fortunately, in [part 6/8 of this course](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab), you'll find a range of reusable open-source resources to help.
 
 In any case, it all depends on the short-, medium- and long-term action plan you, or your community, set for yourselves.
 
 
 ## The search for a location
 
-<chapterId>405d389e-6a32-5777-af8d-293380d2e8fd</chapterId>
+<chapterId>b19eed85-6f0a-4de8-a679-34807bb2ac3e</chapterId>
 
 
 Finding a venue for your events is often no easy task. On top of that, it's essential that this venue be **located in your community's city**.
@@ -1125,7 +1125,7 @@ Later, once your group has grown, you could even take an afternoon to visit seve
 
 ## Before the meet-up
 
-<chapterId>c5218943-580d-5efc-89ed-6b5d728816d6</chapterId>
+<chapterId>2efeb301-7737-49bb-831b-f75f1a013ad7</chapterId>
 
 
 Planning to organize a meet-up in the coming weeks? 
@@ -1134,7 +1134,7 @@ Here's a checklist to help you prepare:
 Contact the location where you'll host the event and reserve it for the estimated number of attendees.
 2/ **Announce the event**:
     - Share the date, time, and location on your social networks and other communication channels. Include a registration link if needed.
-    - Create a dedicated visual (Canva poster for example, see part 2/8 "[Designing an identity for your Bitcoin community](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
+    - Create a dedicated visual (Canva poster for example, see part 2/8 "[Designing an identity for your Bitcoin community](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/4475004b-19e7-4c0f-a799-fd2cb0baefad)").
     - Maximize visibility by pinning the announcement on Telegram and Twitter, and using an "@everyone" mention on Discord.
     - Post announcements 7 to 10 days before the event so attendees can plan ahead.
 
@@ -1155,7 +1155,7 @@ Extra steps to make your event stand out:
 
 ## The day of the meet-up
 
-<chapterId>cf60067b-591f-5fdf-9b9e-d442aad0e8f9</chapterId>
+<chapterId>7ba18449-1368-4ba7-8fe3-c9028afaa3e6</chapterId>
 
 
 The big day is here! One or two hours before the event starts, send a reminder through your community's communication channels. Reconfirm the start time and let participants know how to recognize you, for example, by mentioning that you'll be wearing a Bitcoin T-shirt and cap.
@@ -1181,7 +1181,7 @@ Finally, grab a drink and wait for people to arrive. And remember: don't be disc
 
 ## After the meet-up
 
-<chapterId>3e881af9-9c09-5721-81ee-c5cda3b109c5</chapterId>
+<chapterId>2f238eab-3931-46a2-a429-5ae9562e4c5d</chapterId>
 
 
 When the meetup ends, it's cleanup time for the venue staff. Before you leave, offer to lend a hand to the waiters or managers. This could be as simple as gathering all the glasses onto one table or, if you're near the bar, returning them before you go.
@@ -1196,14 +1196,14 @@ You'll then have a few weeks to develop fresh ideas, visuals, or projects to mak
 
 ## The importance of involving and retaining participants
 
-<chapterId>f5355e35-4b07-527c-88a3-8535cba7592c</chapterId>
+<chapterId>a50e8782-fb08-4aba-a42b-3fa86b5c4ffb</chapterId>
 
 
 Rome wasn't built in a day, and neither will your community be. Momentum around Bitcoin comes from holding regular meetups and events.
 
 To make that happen, one thing is essential: **keep participants engaged**.
 
-It might start with a small group of passionate bitcoiners, whose aim is to get together regularly and talk about Bitcoin. Over time, depending on each person's availability and interests, you can **share certain organizational tasks with the group**, or invite core **members to take on specific projects**. These can be unique to your community, your meet-ups or your city or even inspired by the many initiatives proposed in [part 6/8 of this course](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **This not only fosters commitment from your core members but also helps your community grow and thrive.**.
+It might start with a small group of passionate bitcoiners, whose aim is to get together regularly and talk about Bitcoin. Over time, depending on each person's availability and interests, you can **share certain organizational tasks with the group**, or invite core **members to take on specific projects**. These can be unique to your community, your meet-ups or your city or even inspired by the many initiatives proposed in [part 6/8 of this course](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab). **This not only fosters commitment from your core members but also helps your community grow and thrive.**.
 
 As your meetups progress, new faces will appear: people who bought BTC and/or altcoins in previous cycles, tech enthusiasts wanting to deepen their understanding, or complete beginners curious about this uncensorable, decentralized, transparent, and fair payment system that works without conditions and without trusted third parties.
 
@@ -1230,12 +1230,12 @@ Ultimately, it's up to you to decide how far "open and inclusive" should go. Jus
 
 # Examples of projects and initiatives
 
-<partId>45b3bc40-1c31-583e-8411-2662e6efd765</partId>
+<partId>75b8d7e2-97ce-455b-abb5-8bfa2a47f777</partId>
 
 
 ## Why go further than just drinking beer?
 
-<chapterId>3213d87a-1998-5972-ab93-97a5769ba279</chapterId>
+<chapterId>05880102-07ac-413a-8433-8a6ab8fac2ab</chapterId>
 
 
 As the blocks roll on, your community will evolve. New faces will join, others will drift away but the guiding principle should remain the same: develope the Bitcoin ecosystem and strengthen the bonds between members.
@@ -1258,7 +1258,7 @@ The key is simply to be aware of it.
 
 ## Organize themed meet-ups, with an annual progression
 
-<chapterId>46afdbcc-a775-5c16-b20a-34956690d58f</chapterId>
+<chapterId>c69c52bd-3b64-4ebc-bcce-5c3c8bd1b6e5</chapterId>
 
 
 Once you've built up a core group of around ten people, you can start adding presentations to each event. These can follow a theme announced in advance or be completely independent from one another.
@@ -1303,7 +1303,7 @@ And much more, your imagination is the only limit!
 
 ## Create side-events and workshops
 
-<chapterId>9dbd651a-8712-5630-90b3-b9525dcc1385</chapterId>
+<chapterId>a6f89c65-1de3-40dc-ad55-f72e54c2f399</chapterId>
 
 
 Depending on your availability and the level of involvement in your community, you can plan additional events throughout the year, such as:
@@ -1323,7 +1323,7 @@ Just be careful not to overload the calendar. Too many events in a single month 
 
 ## Create stickers
 
-<chapterId>d605f3b3-130e-513d-85e6-06bc5ea13e99</chapterId>
+<chapterId>1d7f4a6f-99f1-4c82-a55d-23c6d8f7b226</chapterId>
 
 
 Stickers are a fun way to promote both Bitcoin and your community while reinforcing your identity.
@@ -1351,7 +1351,7 @@ In private venues like concerts, bars, or stadiums, check if stickers are alread
 
 ## Create a library
 
-<chapterId>acc94093-f8b3-51b8-9359-348e9e075d38</chapterId>
+<chapterId>a6db0905-19f7-475a-abdc-f4c5e85cd625</chapterId>
 
 
 Another project you can easily set up is **creating a library at your meet-ups**.
@@ -1389,7 +1389,7 @@ If not, suggest that they acquire a few books from a pre-selected list. The [pub
 
 ## Create and distribute personalized flyers
 
-<chapterId>62ad5430-c698-51b3-89ac-090f31c88953</chapterId>
+<chapterId>50949d74-897a-4097-8bad-65245e5bb5e1</chapterId>
 
 
 Designing and writing flyers takes time, but it's worth it, they give you a tangible resource to hand out when talking about Bitcoin, which is always appreciated.
@@ -1443,7 +1443,7 @@ Here's [the booklet shared among French bitcoiners](https://profedustream.substa
 
 ## Producing a video projection
 
-<chapterId>892b248a-b837-5df6-aac9-4b3261ff0390</chapterId>
+<chapterId>b129d071-f69a-4d55-a043-cc74e4cf6331</chapterId>
 
 
 Almost every bitcoiner has probably seen [Rémi Forte](https://twitter.com/forteremi)'s fascinating mid-series "Le mystère Satoshi, aux origines du Bitcoin" (The Satoshi Mystery: The Origins of Bitcoin).
@@ -1471,7 +1471,7 @@ The event sparked lively discussions about Bitcoin mining, its energy consumptio
 
 ## Putting up posters in your city
 
-<chapterId>6565e8a0-d535-5be0-9764-273584c675bd</chapterId>
+<chapterId>89c658aa-414c-4a3b-a6c7-2aa99f937a70</chapterId>
 
 
 In several European countries (including Germany, Spain, and France) bitcoiners have taken the initiative to put up posters around their cities.
@@ -1501,7 +1501,7 @@ Alternatively, a more DIY option is to make a stencil from a large piece of card
 
 ## A personalized NFC card
 
-<chapterId>8ad65d4e-a68a-59c2-a812-85f4907ed9f3</chapterId>
+<chapterId>6734ae15-2cbe-4baf-b784-bb0afdfd95ee</chapterId>
 
 
 Another original project idea is to create personalized NFC cards for Lightning payments (compatible with the BoltCard standard). For this, Swiss Bitcoin Pay is a great partner.
@@ -1521,7 +1521,7 @@ The unit price for these cards typically ranges from 2.50€ to 5€, depending 
 
 ## Create a website
 
-<chapterId>9a2a1b9b-0633-544a-b331-c06187d23d7f</chapterId>
+<chapterId>60d6534d-569f-45b7-b9ad-49a2a4422550</chapterId>
 
 
 At a certain stage in your community's growth, it can be valuable to have a website that serves as a showcase for your group, meetups, events, and educational content.
@@ -1540,7 +1540,7 @@ WordPress also supports a wide range of plug-ins (some paid but high quality) th
 
 ## Create a video channel (Youtube or Odyssee)
 
-<chapterId>076286db-1627-57ec-a410-c44b1666e1cd</chapterId>
+<chapterId>77fa4cd7-645b-4c1f-92c5-64075ed162fd</chapterId>
 
 
 Some members of your community might want to create multimedia content, such as tutorial videos.
@@ -1553,7 +1553,7 @@ Popular platforms include:
 - [**Odyssee**](https://odysee.com/), less popular but decentralized through peer-to-peer technology.
 - [**peertube**](https://joinpeertube.org/fr_FR), lets you host your own video platform, though it's more complex to set up.
 
-Whichever you choose, design platform-specific visuals to make your channel appealing. Canva, mentioned in [part 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) offers a "YouTube Thumbnail" category with pre-made, customizable designs.
+Whichever you choose, design platform-specific visuals to make your channel appealing. Canva, mentioned in [part 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/8b85ccb1-5474-474e-ae1b-c8cb69f060ad) offers a "YouTube Thumbnail" category with pre-made, customizable designs.
 
 
 ![image](assets/en/051.webp)
@@ -1569,7 +1569,7 @@ Tip: If Bitcoin is ever banned or censored, always keep a local backup of your v
 
 ## Create an audio podcast
 
-<chapterId>12e96b45-1c33-5687-a753-80d0114d487a</chapterId>
+<chapterId>f9c6f5a8-7c0a-4dbb-8844-6d61c09e29f4</chapterId>
 
 
 An audio podcast is another great way to share ideas. Like video channels, it takes time to build an audience.
@@ -1597,7 +1597,7 @@ Tip: Just as with videos, keep a local backup of all podcasts in case of future 
 
 ## Create a badge for your events
 
-<chapterId>0cccef8d-a765-5844-8921-c40f0ce653e4</chapterId>
+<chapterId>aade4c0d-6faf-4b7c-914d-00aab248b544</chapterId>
 
 
 At your meet-ups and events, a little incentive can be introduced: event badges. The idea is to **create a badge that can only be obtained at that specific event**. This concept exists on other blockchains under the name of "POAP" ("Proof Of Attendance Protocol"). However, there is currently no free way of implementing this on Bitcoin.
@@ -1615,7 +1615,7 @@ Several badge templates used by the Bitcoin Lille association are [available in 
 
 ## Planning for handover in the event of death
 
-<chapterId>c5febf18-235c-51bc-8fbb-9467dabe4cb0</chapterId>
+<chapterId>98ea62af-adae-4fb7-81a6-dc2054922dde</chapterId>
 
 
 On a completely different note, let's address a sensitive topic: the passing of a member of your Bitcoin community.
@@ -1635,7 +1635,7 @@ You could form a dedicated working group to define this process. The Bitcoin Lil
 
 ## Give lectures at schools and universities
 
-<chapterId>65efdb44-e3d4-567c-aedf-972765753d73</chapterId>
+<chapterId>d94b6c84-5a34-4626-a21d-6b9051eef470</chapterId>
 
 
 The list of projects described above is, of course, not exhaustive. In general, these are more likely to be internal projects for their community or meetups, which can be fairly easily implemented as they develop.
@@ -1679,7 +1679,7 @@ Still, it's worth trying, especially with student unions and associations. AAnd 
 
 ## Approaching businesses
 
-<chapterId>b730462b-7928-5d28-a14f-9ceaa773d3d2</chapterId>
+<chapterId>3ac3d7ce-e61e-44c8-a238-2aef158da8a0</chapterId>
 
 
 Getting a business to accept Bitcoin is, for many bitcoiners, a bit like unlocking a rare achievement in your Pokédex.
@@ -1740,7 +1740,7 @@ Canvassing is a long-term play. It requires patience, persistence, and strategy.
 
 ## Contact the local press and radio
 
-<chapterId>435bfbc1-22dd-59bb-b737-a32ea995b238</chapterId>
+<chapterId>51c32266-ddc1-4ffd-bd05-ed8273ea1d93</chapterId>
 
 
 Bitcoiners often focus on social media and online platforms for outreach, but that's only part of the picture. Local press and radio can be powerful allies.
@@ -1775,12 +1775,12 @@ Remember: every Bitcoin community has been where you are now. Don't hesitate to 
 
 # Anticipating the future
 
-<partId>6ea07445-9369-54bc-9aa0-d260db026e0b</partId>
+<partId>55a392cc-961d-434c-b4b0-4614f5ac1da8</partId>
 
 
 ## Planning for an Increase in Participants
 
-<chapterId>8af722d4-3a9f-548c-9001-424f2142de12</chapterId>
+<chapterId>de70830d-0cde-4254-b160-734a98ce4eb8</chapterId>
 
 
 When Bitcoin entered its fourth era at block 840,000, more and more people began to recognize it as a technological, financial, and social revolution.
@@ -1827,7 +1827,7 @@ In an ideal world, you'd have a **space big enough to host several dozen people*
 
 ## Decentralizing community organization
 
-<chapterId>bedfc110-e099-58f4-a5b7-fb50f3b19a49</chapterId>
+<chapterId>74e4aab7-c79e-4578-8179-0b857a961bb7</chapterId>
 
 
 Imagine this: you've been running your Bitcoin meet-up for years, and one day you decide to quit that job, maybe to raise llamas in Peru or chase perfect waves in El Salvador. What happens to your community when you leave?
@@ -1853,7 +1853,7 @@ Use **encrypted or anonymous communication tools** to protect your members' priv
 
 ## What if Bitcoin became public enemy No. 1?
 
-<chapterId>c739651f-cd13-51e0-a36e-85023749b15b</chapterId>
+<chapterId>30ca4745-f8b5-48a0-b902-8c270e2062ed</chapterId>
 
 
 On April 5, 1933, Franklin Roosevelt, the 32nd President of the United States of America, signed **Executive Order 6102**, making it illegal for private individuals to own gold coins, bullion, or certificates anywhere in the country.
@@ -1875,12 +1875,12 @@ We don't need to fall into conspiracy thinking. But there's nothing stopping us 
 
 # Bringing bitcoiners together
 
-<partId>62bc2138-c0be-5d39-a341-594690863257</partId>
+<partId>e3eab6b3-f19d-42ec-9167-4aa6c7e92a28</partId>
 
 
 ## A Quick Action Plan to Build Your Bitcoin Community
 
-<chapterId>1f463ec2-3f64-5641-8d60-e02a47c94f27</chapterId>
+<chapterId>9ad100ba-2b39-40ef-aec6-b2750fce4b76</chapterId>
 
 
 Satoshi Nakamoto created a revolutionary tool that is already changing our world. But it's up to us, the bitcoiners, to decide how we shape the future.
@@ -1937,7 +1937,7 @@ Remember: **you're not alone, existing communities are here to support you**.
 
 ## Taking care of yourself
 
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+<chapterId>1cb1f900-b1a9-4908-8418-995f531da953</chapterId>
 
 
 When you fall down the Bitcoin rabbit hole, your perspective on life changes.
@@ -1964,7 +1964,7 @@ Alone, you can quickly explore one of the many tunnels in the Bitcoin rabbit hol
 
 ## BTC302, What's Next
 
-<chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
+<chapterId>f58e4746-c50e-492b-a2d1-f555e2706d9d</chapterId>
 
 
 In this BTC302 course, we've gone into detail on how to set up a community or meet-up, as well as how to launch a variety of projects.
@@ -1994,7 +1994,7 @@ For this, we'll draw on the experiences of communities that have already created
 
 ## Reviews & Ratings
 
-<chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
+<chapterId>692dfb93-db32-4ca4-9b18-f4daa83756f4</chapterId>
 
 <isCourseReview>true</isCourseReview>
 

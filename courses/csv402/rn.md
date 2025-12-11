@@ -26,13 +26,13 @@ Iryo shure rishingiye ku nama y’ubuzima yateguwe na Fulgur’Ventures kandi yi
 # Imenyekanisha
 
 
-<partId>c6f7a70f-d894-595f-8c0a-b54759778839</partId>
+<partId>0778c02d-0af7-4439-93db-7d512cc762de</partId>
 
 
 ## Ivyigwa vyerekanwa
 
 
-<chapterId>cf2f087b-6c6b-5037-8f98-94fc9f1d7f46</chapterId>
+<chapterId>2ca2078b-c7e7-4899-9556-be3851d1d54f</chapterId>
 
 
 Muraho mwese, kandi murakaze muri aya mahugurwa yerekeye RGB, ubuhinga bwa Smart contract bwemejwe n'abaguzi bukoreshwa kuri Bitcoin na Lightning Network. Intunganyo y’iyi nyigisho igenewe gutuma umuntu ashobora gutohoza bimwe bigera kure iyo nkuru igoye. Ehe ingene amashure atunganijwe:
@@ -102,13 +102,13 @@ Ni mwiteguye kwisuka mw’isi igoye kandi iryoshe cane ya RGB? Reka tugende!
 # RGB mu vyiyumviro
 
 
-<partId>80e797ee-3f33-599f-ab82-e82eeee08219</partId>
+<partId>bbf87050-8658-43b6-9dea-6b88d08990c9</partId>
 
 
 ## Intangamarara y'ivyiyumviro vy'ubuhinga bwa none
 
 
-<chapterId>f52f8af5-5d7c-588b-b56d-99b97176204b</chapterId>
+<chapterId>4c2565cd-b50e-4fb0-acf1-7a5bf4da8338</chapterId>
 
 
 :::id ya videwo = f27338bc-4210-4a2e-9b27-30278ed3282c::
@@ -614,7 +614,7 @@ Imbere yo kwisuka mu bintu vy’ubuhinga vy’igice ca kabiri, ntutinye gusubira
 ## Ivyo Commitment Layer
 
 
-<chapterId>cc2fe85a-9cc7-5b8c-a00a-c0a867241061</chapterId>
+<chapterId>1c1d7436-def5-4ff6-b04c-abf12c29dd9f</chapterId>
 
 
 :::id y'amasanamu = 73dea2d-c243-479d-a3dc-12d7db8eef70:::
@@ -1445,7 +1445,7 @@ Mu gice gikurikira, turaza kuraba igice ca off-chain gusa ca RGB, ni ukuvuga ubu
 ## Intangamarara y'amasezerano y'ubwenge n'ibihugu vyayo
 
 
-<chapterId>04a9569f-3563-5382-bf53-0c7069343ba0</chapterId>
+<chapterId>8534d6ed-41bf-45ee-ab66-2ccc3be13b2f</chapterId>
 
 
 :::id y'amasanamu y'amasanamu:::
@@ -1580,7 +1580,7 @@ Mu gice gikurikira, tuzoja mu buryo burambuye ku bijanye n'ukuntu izo ***intara*
 ## RGB Ibikorwa vya Contract
 
 
-<chapterId>78c44e88-50c4-5ec4-befe-456c1a9f080b</chapterId>
+<chapterId>87b592d3-fa3f-4dbd-87cf-6c8d71390919</chapterId>
 
 
 :::id ya videwo=1caec34d-f214-425b-a1a4-0a40ae7d3e0e:::
@@ -2735,13 +2735,13 @@ Witness Transaction ni igikorwa ca Bitcoin gifunga Single-Use Seal gikikuje ubut
 # Porogaramu kuri RGB
 
 
-<partId>148a7436-d079-56d9-be08-aaa4c14c6b3a</partId>
+<partId>94148e65-2452-4df5-addc-8847c672d605</partId>
 
 
 ## Gushira mu ngiro amasezerano ya RGB
 
 
-<chapterId>8333ea5f-51c7-5dd5-b1d7-47d491e58e51</chapterId>
+<chapterId>3a32041b-7031-4a11-8f5b-e0f9fcf9094c</chapterId>
 
 
 :::id ya videwo=97d81b85-5a82-40a5-b111-7d96be5afd0f:::
@@ -3642,7 +3642,7 @@ Mu gice gikurikira, turaza kuraba ingene uguhererekanya amafaranga Contract guko
 ## Contract kwimurira
 
 
-<chapterId>f043a307-d420-5752-b0d7-ebfd845802c0</chapterId>
+<chapterId>6063b31a-09ba-48a6-98fc-79551257471b</chapterId>
 
 
 :::id ya videwo=75eb5a8d-1910-4155-b5e3-81204c9a8901:::
@@ -4062,7 +4062,7 @@ None ko twabonye Elements nyamukuru ya porogarama ya RGB, nzobajana mu kigabane 
 ## Gutegura amasezerano y'ubwenge
 
 
-<chapterId>0e0a645c-0049-588d-8965-b8c536590cc9</chapterId>
+<chapterId>8f85e86e-2c4f-4a31-8754-74abf332faa8</chapterId>
 
 
 :::id ya videwo=a3ad6dcd-90b8-4272-9dfc-76c85c859167::
@@ -4472,7 +4472,7 @@ Mu gice gikurikira, tuzokwihweza neza ingene RGB yoshirwa muri Lightning Network
 ## RGB kuri Lightning Network
 
 
-<chapterId>0962980a-8f94-5d0f-9cd0-43d7f884a01d</chapterId>
+<chapterId>993d86fc-ed90-4c10-b5c0-92e7087f47ed</chapterId>
 
 
 :::id ya videwo=be25a165-6e23-488c-91d8-3dcfccc6eca1:::
@@ -4698,13 +4698,13 @@ Ibidukikije bifitaniye isano n’iterambere ry’ivy’ubuhinga ry’inkomoko yu
 # Inyubakwa kuri RGB
 
 
-<partId>3b4b0d66-0c1b-505a-b5ca-4b2e57dd73c2</partId>
+<partId>1f9a3446-5f28-43c6-83da-f7b726883179</partId>
 
 
 ## DIBA n'umugambi wa Bitmask
 
 
-<chapterId>dc92a5e8-ed93-5a3f-bcd0-d433932842f4</chapterId>
+<chapterId>e5dc7001-c07a-4eb8-8c85-cc0cc68e62a8</chapterId>
 
 
 :::id ya videwo=2ec9a181-a8b0-4da2-b7b5-9dfaaeb10ba:::
@@ -4802,7 +4802,7 @@ Ivyo vyose vyerekana ingene ubuhinga bwa RGB bushobora gukoreshwa no gushikira a
 ## Ibikorwa vya Bitfinex kuri RGB
 
 
-<chapterId>d4d80e07-5eac-5b29-a93a-123180e97047</chapterId>
+<chapterId>cc202976-e48c-4eec-88e8-033cc3b51229</chapterId>
 
 
 :::id ya videwo=04555813-516f-4eea-9767-7082c2ea6f01:::
@@ -4968,7 +4968,7 @@ Mu gice gikurikira, tuzokwihweza neza ingene twotanguza urudodo rwa RGB Lightnin
 ## RLN - RGB Umuravyo
 
 
-<chapterId>ecaabe32-20ba-5f8c-8ca1-a3f095792958</chapterId>
+<chapterId>176ed844-0914-41cd-8b5f-c015390a02e1</chapterId>
 
 
 :::id y'amasanamu y'amasanamu y'amasanamu.
@@ -5467,13 +5467,13 @@ Amahirwe yuguruwe n’iyi nzira y’uguhuza LN-RGB ni menshi cane: stablecoins k
 # Igice ca nyuma
 
 
-<partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
+<partId>c8c467b8-c082-4577-8408-8461c246de5c</partId>
 
 
 ## Amasuzuma n'Ibipimo
 
 
-<chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
+<chapterId>ba86d65e-c1f6-4a73-9c9e-30f8e968c373</chapterId>
 
 
 <isCourseReview>true</isCourseReview>
@@ -5481,7 +5481,7 @@ Amahirwe yuguruwe n’iyi nzira y’uguhuza LN-RGB ni menshi cane: stablecoins k
 ## Iciyumviro
 
 
-<chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
+<chapterId>04739518-8c6a-4da7-9501-9a508d42fbed</chapterId>
 
 
 <isCourseConclusion>true</isCourseConclusion>

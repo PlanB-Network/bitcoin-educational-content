@@ -38,9 +38,9 @@ Enfin, nous verrons comment la pensée économique libérale se diffuse au sein 
 Prêt à redécouvrir les racines françaises du libéralisme économique ? Allons-y !
 
 # Les Précurseurs
-<partId>91565b10-6010-53cb-a2f4-9c2306c7ef8c</partId>
+<partId>c77622e2-0e20-4de1-a55d-380a454185bc</partId>
 ## Contexte historique
-<chapterId>6a5fd101-6dfd-5d77-96c7-9e1aa4a19758</chapterId>
+<chapterId>eb7344f4-ec44-43ae-83e5-e764e22b7c11</chapterId>
 
 :::video id=71603b6d-b9f2-418d-b11e-f5e553041794:::
 
@@ -94,7 +94,7 @@ Tels sont donc les quatre principes que le pouvoir suit depuis plusieurs décenn
 
 
 ## Vauban
-<chapterId>ee9c1e0e-96cc-5026-a5e2-963d68122786</chapterId>
+<chapterId>6b77468d-b8e3-47d2-b304-c290eea1c7d9</chapterId>
 
 :::video id=5b518afb-42c2-4323-a795-3c381a63c249:::
 
@@ -139,7 +139,7 @@ Dans son projet de Dîme royale, le seul de ses mémoires qui fut imprimé de so
 Peu avant sa mort, son idée fut suivie par les ministres de Louis XIV. Seulement, Vauban réclamait que l’impôt proportionnel soit instauré pour remplacer la totalité ou la quasi-totalité de la fiscalité existante. À la place, comme on fait souvent, on mit en place son impôt, mais on conserva tous les autres.
 
 ## Boisguilbert
-<chapterId>200149c6-b5fc-566e-ab0e-bafb1c3fed3c</chapterId>
+<chapterId>e5dd73e0-e48e-43e7-a9af-d651414cfc6b</chapterId>
 
 :::video id=9b0f86a6-5114-41e3-9fd5-1b63c525958b:::
 
@@ -177,7 +177,7 @@ Ce dernier passage est crucial. Boisguilbert est le premier à réclamer distinc
 Boisguilbert en veut aux "bonnes âmes", comme il dit, qui souhaitent le bonheur du peuple mais s’y prennent tout de travers. Ils souhtaient le bas prix du pain pour le peuple, mais ce bas prix forcé empêche les cultivateurs de vivre de leur travail, il les ruine, les chasse de leurs terres et les précipite dans la misère. C’est en effet, on le sait bien, de bonnes intentions qu’est pavé l’enfer.
 
 ## Cantillon 
-<chapterId>bc206d41-6a64-5688-a489-40fcfa0e5397</chapterId>
+<chapterId>7a6654fe-874e-45ca-a98f-1f3d17c09f24</chapterId>
 
 :::video id=a231a300-6392-4137-836a-ee80a659a795:::
 
@@ -217,9 +217,9 @@ Parmi ces cinq grandes idées de son Essai, la plus importante est certainement 
 
 
 # Les Réformateurs et Penseurs du Début 18e Siècle
-<partId>1f7b50d4-ce93-5db3-8396-43c1fa5419ff</partId>
+<partId>c4403d75-884e-4922-8be7-5121e2709d6a</partId>
 ## L’abbé de Saint-Pierre
-<chapterId>13478fe2-4c12-593c-a410-54c2cfb7ef7f</chapterId>
+<chapterId>756469cd-d78c-49aa-926f-7c134e8aa4c6</chapterId>
 
 :::video id=8d4e110f-ea4b-450b-b702-3acf86d6362c:::
 
@@ -265,7 +265,7 @@ Avant Condillac, dont c’est l’un des principaux mérites, il a énoncé cett
 Il a aussi mis l’accent, avant Vincent de Gournay, sur les vertus du travail et sur la nécessité de le laisser attractif. "Tout travail est pénible, dit l’abbé de Saint-Pierre, et lorsque l'homme voit que son travail ne lui rapporte pas ou ne lui rapporte pas suffisamment, il demeure oisif et ne se donne pas de peines inutiles." Ce même propos sera repris par le marquis d’Argenson, par Vincent de Gournay et par les physiocrates pour s’opposer aux règlements tatillons et au système corporatif. Les corporations et les règlements, dirent-ils, découragent le travailleur, lui causent des peines inutiles, et le poussent finalement dans l’oisiveté, qu’il finit par trouver préférable à une activité productive exercée dans ces conditions.
 
 ## Le Marquis d’Argenson
-<chapterId>e9960ab4-72ec-5afd-8e97-bf89c83b62bc</chapterId>
+<chapterId>3f0c9654-a6f7-47db-8859-836c592127db</chapterId>
 
 :::video id=c29c1507-6990-411d-8446-ffaf52d97378:::
 
@@ -309,7 +309,7 @@ Les règlements sur l’industrie, d’abord, obtenaient tout son ressentiment, 
 Sur la question du commerce des subsistances, d’Argenson n’avait pas d’autre réponse que la liberté. Les disettes de froment venaient selon lui du monopole et des précautions abusives que prenait le gouvernement. Il suffisait qu’on laisse faire, et il n’arriverait jamais de disette de blé dans un pays où les ports seront ouverts ; les étrangers, attiré comme tous les autres hommes par l’appât du gain, nous fourniraient le nécessaire et emporteraient notre surplus. "Laissez libre, disait-il, et tout ira bien."
 
 ## Vincent de Gournay
-<chapterId>e8ae40dc-7450-552f-9ddc-9e02936cf425</chapterId>
+<chapterId>7446cc6a-9631-49ca-ac85-c477537b3a8d</chapterId>
 
 :::video id=2495d360-62de-466e-9991-f53cd2fcb5dc:::
 
@@ -352,7 +352,7 @@ Sur ces différents points, Gournay a participé au débat d’idées au milieu 
 Plus tard, le futur ministre de Louis XVI composa un Eloge de Gournay en l’honneur de son ami défunt. Et si Turgot ne se rangea jamais complètement à la physiocratie de François Quesnay, c’est qu’il conservait un attachement invincible à son premier maître, Vincent de Gournay.
 
 ## Le groupe de Gournay
-<chapterId>b86ba6bd-8f3a-5d8f-b098-4d0413f00deb</chapterId>
+<chapterId>6e2a0dbe-3afb-4071-b5f8-ab400da3e891</chapterId>
 
 :::video id=a76e841e-40d6-463b-b542-4bd2da5aa3d6:::
 
@@ -397,7 +397,7 @@ Il s’agit d’un court roman dans lequel le personnage principal, Chinki, aban
 Le cercle de Gournay est donc à l’origine d’une intense activité de publication. Si cet apport majeur a été oublié par les historiens de la pensée économique, il était très clair dans l’esprit des contemporains. Les physiocrates, qui structurent leur école dans la décennie 1760, présenteront le groupe de Gournay comme des précurseurs directs. En 1767, l’économiste Jacques Accarias de Serionne sera encore plus clair dans son éloge. Il écrit : "Un petit nombre de français, également philosophes et citoyens, commencèrent il y a quelques années à imiter les écrivains anglais. Ils traduisirent d’abord leurs modèles, et les ont bientôt surpassés en beaucoup de choses. Ils ont employés tous les agréments, toutes les richesses de la littérature, à traiter des choses utiles ; ils ont fait naître et répandu le goût des sciences les plus nécessaires à la prospérité de l’État." Et en effet, dans la décennie 1750, les questions économiques sont devenues à la mode. On connaît le mot de Voltaire, selon lequel vers 1750 les Français ont abandonné les romans pour discuter de la liberté du commerce des blés. C’est aussi ce qu’observait le Mercure de France. On lit dans un numéro de 1758, quelques mois avant la mort de Gournay : "L’économie politique est aujourd’hui la science à la mode. Les livres qui traitent de l’Agriculture, de la population, de l’industrie, du commerce et des finances, sont dans les mains d’une infinité de personnes qui, naguère, ne feuilletaient que des romans." On ne pouvait donner meilleur hommage à Gournay et à l’activité de son cercle d’économistes.
 
 ## Mirabeau
-<chapterId>2d2f802b-e3b6-556f-9025-a1b1dc4409ca</chapterId>
+<chapterId>5a11f48f-03ee-4c58-876e-f1c49fbb377a</chapterId>
 
 :::video id=d766951b-1537-4f5c-8fa2-0c1972a92ffe:::
 
@@ -463,7 +463,7 @@ C’est aussi chez Mirabeau que, tous les mardis, se réuniront les Physiocrates
 Tout au long de sa vie, Mirabeau est resté un écrivain infatigable. Il est l’auteur de nombreux travaux économiques défendant la doctrine de Quesnay. Cependant, vers la fin de sa vie il perdit en influence. Son style devint encore pire, au point que son propre frère lui écrira ne plus comprendre sa prose. Ses idées, devenues pleinement libérales, font face à la réaction socialiste ou proto-communiste d’auteurs comme Mably voire Rousseau. Il a du mal à se faire lire et à se faire éditer. Il meurt dans une certaine indifférence en 1789, la veille de la prise de la Bastille.  
 
 ## Quesnay
-<chapterId>7a35f20b-5ea0-544d-b290-bcd9c6f7f11a</chapterId>
+<chapterId>6025f746-08fe-4406-8793-a0f5b9d64a45</chapterId>
 
 :::video id=473c8501-aac6-4a81-af1e-e97a1a657507:::
 
@@ -518,10 +518,10 @@ Ce livre reprend les principales contributions de Quesnay. On y retrouve exposé
 
 
 # L'École Physiocratique
-<partId>27af82c1-ad82-5c3b-8ce9-c674b67bbf7c</partId>
+<partId>d8a123a2-c47e-4aa4-873b-1b5a75fe313b</partId>
 
 ## L'Histoire des Physiocrates
-<chapterId>4236ff8b-b53a-59e7-92c0-f96f9afa1c00</chapterId>
+<chapterId>b039837d-d765-43fc-a3dd-e492d7caf4c3</chapterId>
 
 :::video id=5c781329-dc54-4d17-aa83-09197ee00a5b:::
 
@@ -570,7 +570,7 @@ Leur journal ne paraît plus régulièrement. C’est la fin de la période acti
 La Physiocratie continuera cependant à avoir une influence jusque sous la Révolution. En France d’abord, par l’intermédiaire de Turgot, compagnon de route plus que disciple, mais aussi par son représentant, Dupont de Nemours, dont nous étudierons plus tard la vie et les œuvres. Mais aussi partout en Europe, où la doctrine physiocrate a été reçue avec enthousiasme. En Allemagne, par le margrave de Bade, et en Italie, par Léopold de Toscane, les théories physiocratiques ont même inspiré des réformes économiques en faveur de la propriété privée et de la liberté. 
 
 ## Les fondements de doctrine des Physiocrates
-<chapterId>4dbe5436-0578-57c2-b054-03ed00aa091a</chapterId>
+<chapterId>57beea84-ff70-4757-b5f4-9f2d18deec18</chapterId>
 
 :::video id=cbe4ff5e-2746-4554-88e4-c80438d97659:::
 
@@ -635,7 +635,7 @@ Bénéfique par nature, le commerce doit être entièrement et parfaitement libr
 Adversaires virulents de l’esclavagisme, les Physiocrates ont aussi été de grands pacifistes. "Notre politique étrangère s’appelle paix" disait simplement Mirabeau. Et en 1790, à l’Assemblé constituante, Dupont de Nemours suivra encore cette fibre pacifiste quand il proposera un projet de loi interdisant les guerres offensives. 
 
 ## Les réalisations et influences des Physiocrates
-<chapterId>5b911105-796a-5e2e-a501-c7a364fc758e</chapterId>
+<chapterId>9ebd22fa-9f00-4148-871b-7e12874b18c0</chapterId>
 
 :::video id=24ce4c7c-e174-4834-805c-2520e983b979:::
 
@@ -686,7 +686,7 @@ Enfin, les Physiocrates ont exercé une grande influence dans l’histoire de la
 Le chef de file des Physiocrates décéda deux ans avant la parution du livre et Smith retira cette dédicace en tête de son livre. Après avoir rectifié leur idée sur la productivité de la terre, les économistes classiques ont retiré beaucoup de la physiocratie, notamment les arguments pour la liberté du commerce.
 
 ## Dupont de Nemours
-<chapterId>6d585e0f-93b8-5b0a-a0a8-7f6e4a5bc68e</chapterId>
+<chapterId>be6cf3ea-a927-4407-b232-98c703a3a4ed</chapterId>
 
 :::video id=56b02818-93e9-48e0-8996-dbcd3d138718:::
 
@@ -740,10 +740,10 @@ Malgré cette vie bien remplie, pendant laquelle il publia des dizaines et des d
 
 
 # Les Lumières et L'Économie Politique
-<partId>d1c885ad-7cb1-5f81-816c-be312719d9f8</partId>
+<partId>c8a1fe43-bdb6-48d8-9542-4d086cdffab3</partId>
 
 ## Voltaire et les philosophes
-<chapterId>16bcf7bf-dad4-5113-8c64-2800f04ff07b</chapterId>
+<chapterId>57749874-730e-452d-a53d-d3297eb81e9f</chapterId>
 
 :::video id=4201409b-36b1-4586-9605-d8b82ee03ee3:::
 
@@ -780,7 +780,7 @@ Voltaire connut un parcours similaire, à cause de l’absence de solidité dans
 Finalement, le bilan de l’activité des philosophes est contrasté. À côté de leurs éloges et de leurs critiques des idées des économistes libéraux, ils auront participé à leur faire une place dans le débat intellectuel du siècle des Lumières. À ce titre, ils ont, en partie volontairement, en partie involontairement, servi au développement de l’idée de laissez-faire jusqu’à la Révolution.
 
 ## Turgot, Le Théoricien
-<chapterId>a8cd8185-8351-556b-8011-3a0c313e8a9d</chapterId>
+<chapterId>e6b12aac-aa56-4932-8ca2-67efb9aa4d72</chapterId>
 
 :::video id=79aa9047-ed34-4eb7-b5e8-789a93537205:::
 
@@ -838,7 +838,7 @@ On trouve là un énoncé très clair de la doctrine du laissez-faire ainsi qu�
 ![image](assets/fr/078.webp)
 
 ## Turgot, le Réformateur
-<chapterId>9177429f-1679-51c4-bfd2-dd036d24a1cc</chapterId>
+<chapterId>32c45d6f-511e-48d4-980f-aca5f2ec8464</chapterId>
 
 :::video id=24892fba-8796-4e36-8862-93c6c9570da6:::
 
@@ -892,7 +892,7 @@ Depuis lors, on soutient, non toujours sans validité, que la France est un pays
 Finalement les parlements et les privilégiés l’emportèrent et le Roi n’eut qu’à se lamenter et à dire en privé : "Je le vois bien, il n’y a que M. Turgot et moi qui aimions le peuple."
 
 ## Condillac
-<chapterId>0ba8dbb5-dcd5-5981-bf85-6c185e0bf192</chapterId>
+<chapterId>f3f1683a-4bcd-4b2a-b5d1-ec0e94c3b457</chapterId>
 
 :::video id=c932d879-2fda-499d-bafc-2f834e018016:::
 
@@ -947,7 +947,7 @@ Ces idées de Condillac sont fondamentales. Elles permettent de comprendre pourq
 Elles détruisent donc entièrement les critiques au libre-échange, puisque le protectionnisme n’apparaît plus que comme un mécanisme qui empêche les populations de se faire mutuellement du bien. Laissez-faire, c’est aussi la conclusion de l’œuvre de Condillac. Laissez-faire les hommes, car si la puissance publique protège la liberté et la propriété, les hommes s’enrichissent toujours les uns les autres en échangeant ensemble.
 
 ## Condorcet
-<chapterId>99e4aba6-da7f-5041-b02f-337158381515</chapterId>
+<chapterId>55fbdf44-8975-44af-b161-f36d69a49347</chapterId>
 
 :::video id=c91a9f8e-5690-4224-90b0-a2c50591d1b9:::
 
@@ -980,7 +980,7 @@ Sensible à l’affection que Condorcet manifestait à son égard en défendant 
 Bien qu’il employât toute son énergie à défendre Turgot, Condorcet n’avait aucune illusion sur l’issue de son passage au ministère. Turgot disait à la fin de sa vie qu’il vivait avec le regret, écrit-il un jour dans une lettre, "de n’avoir pu faire à ma nation et à l’humanité un bien que je croyais très facile." Condorcet, plus réaliste, pointait du doigt les adversaires que Turgot ne manquerait pas d’avoir : les favoris du roi, les parlements, le clergé, la noblesse, les corporations, etc. Ces gens là attendaient d’être flattés, non d’être réformés. Condorcet disait à Turgot : "Vous n’êtes point du tout charlatan et c’est un défaut, vu ce qu’on est à Paris." Et il vit parfaitement juste puisqu’en 1776, deux ans à peine après son arrivée, Turgot quittait déjà le Contrôle général des finances.
 
 ## Le bon-sens libéral sous la Révolution
-<chapterId>95e9a90d-e37a-58ff-b1ac-928b42e76ecf</chapterId>
+<chapterId>37ad7db0-ed45-44ba-8bef-d1fa323dbe8e</chapterId>
 
 :::video id=5e2e68a8-9fe7-4aeb-8ade-248ae4153523:::
 
@@ -1032,7 +1032,7 @@ Dupont de Nemours, toujours aussi fermement opposé à l’idée d’une banque 
 Il ne fut pas davantage écouté. 
 
 ## Conclusion : passage de témoin
-<chapterId>ada8082f-db96-5e52-954f-719b47998153</chapterId>
+<chapterId>691a1639-3e28-4401-bc29-6b17abcfc333</chapterId>
 
 :::video id=ec832ad6-d258-4c02-809e-a0b8c615beed:::
 
@@ -1067,7 +1067,7 @@ Condillac affirme que l’échange est toujours mutuellement avantageux et qu’
 Toutes ces idées seront reprises par les économistes du XIXe siècle. Certains, comme Jean-Baptiste Say, donneront à ces conceptions une expression scientifique, dans un Traité d’économie politique rigoureux. D’autres, à l’inverse, chercheront à populariser ces maximes fondamentales en investissant le domaine du conte, du roman et des petites histoires amusantes, comme le fera avec talent Frédéric Bastiat.
 
 ## Biographie 
-<chapterId>17cf2865-e53c-5f3b-a5c2-a43560efaf01</chapterId>
+<chapterId>9daf678b-2687-4a2f-a490-8826538c1b49</chapterId>
 
 BIBLIOGRAPHIE SELECTIVE
 Vous avez ici à disposition une sélection de plus d'une trentraine d'écrits: 
@@ -1110,20 +1110,20 @@ Eli Heckscher, Mercantilism, 2 vols. London: Allen and Unwin. 1935
 
 
 # Section finale
-<partId>385bffab-aea1-5bcd-9569-62b3f30665b7</partId>
+<partId>aa809524-47cd-4945-92d0-2e674b98e2e2</partId>
 
 ## Avis & Notes
-<chapterId>a1e689d9-abd0-5dcb-ba56-a8d355d0a84f</chapterId>
+<chapterId>e13b6e40-2801-4e3c-8ed1-1c9144f47e27</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Examen final
 
-<chapterId>bdb7fd98-33e7-11f0-9fe6-b785c859ffc5</chapterId>
+<chapterId>9da23eb9-a79c-4cf3-8b73-b64a9b3f45d1</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## Conclusion
-<chapterId>3b366ff6-03c8-5f6a-b4c0-ba8186e65d7e</chapterId>
+<chapterId>027ecdbb-a845-4232-be81-92e1b7101618</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

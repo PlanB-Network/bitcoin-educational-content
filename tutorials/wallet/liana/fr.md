@@ -26,7 +26,7 @@ Le schéma ci-dessous illustre le fonctionnement d'un portefeuille doté de deux
 
 Ce fonctionnement permet de mettre en place diverses configurations, dont notamment :
 
-- Un plan de succession (ou d'héritage), permettant aux héritiers de récupérer les fonds dans le cas du décès de l'utilisateur. Si vous voulez avoir plus d'informations sur le sujet, nous vous conseillons de lire la [partie 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) du cours BTC102.
+- Un plan de succession (ou d'héritage), permettant aux héritiers de récupérer les fonds dans le cas du décès de l'utilisateur. Si vous voulez avoir plus d'informations sur le sujet, nous vous conseillons de lire la [partie 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/dcec2c9c-f5d9-4d47-977d-d21c5bff05cb) du cours BTC102.
 
 - Une sauvegarde renforcée avec un délai de récupération, donnant à l'utilisateur la possibilité de se servir de son portefeuille sans avoir à garder la phrase secrète correspondante et risquer de se la faire voler, lors d'un cambriolage par exemple.
 

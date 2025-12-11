@@ -82,12 +82,12 @@ Att navigera i det komplexa styrningslandskapet i Bitcoin kräver mer än teknis
 
 # Bitcoin Centrala värden
 
-<partId>2d6c683b-54c8-5465-b2ca-4e96a6828834</partId>
+<partId>d4fe3545-ac65-4657-b94e-725fc3d72c9b</partId>
 
 
 ## Decentralisering
 
-<chapterId>9397c84b-0038-5d0e-88d5-11767ce8182d</chapterId>
+<chapterId>568fdd5a-2e8f-4ecd-8aca-da940406134a</chapterId>
 
 
 
@@ -297,7 +297,7 @@ Decentraliserade system kan vara svåra att förstå sig på, men det finns viss
 
 ## Otillförlitlighet
 
-<chapterId>0506ba61-16a3-543c-95fa-3f3e2dd64121</chapterId>
+<chapterId>5ee5332a-0b2d-4102-b43f-a97d414469f8</chapterId>
 
 
 
@@ -448,7 +448,7 @@ Utan tillitslöshet kan vi inte ha decentralisering, eftersom tillit oundviklige
 
 ## Integritet
 
-<chapterId>1b960afe-0008-589b-b2f4-007d60d264c6</chapterId>
+<chapterId>a8551c2c-7e60-4e3d-bc2e-735716bf5d5f</chapterId>
 
 
 
@@ -667,7 +667,7 @@ För att få anständig integritet i Bitcoin måste du vidta aktiva åtgärder, 
 
 ## Finita Supply
 
-<chapterId>af125ba2-ef98-5905-8895-41a538fe5ea5</chapterId>
+<chapterId>5200980a-120c-498d-b79e-2c40e7c18dcd</chapterId>
 
 
 
@@ -774,12 +774,12 @@ Huruvida Bitcoin Supply kommer att växa förbi 21 miljoner kan vi inte säga id
 
 # Bitcoin Regering
 
-<partId>411bf53f-af4b-50f1-b71b-e40fe3ff64b7</partId>
+<partId>20c2b99e-54af-452d-8442-b8f76317de64</partId>
 
 
 ## Uppgradering
 
-<chapterId>3ffa84d1-adfa-5fbc-9b13-384ea783fcdd</chapterId>
+<chapterId>c61b92be-cf45-4f4d-bdd6-8ea7bbed25b9</chapterId>
 
 
 
@@ -1020,7 +1020,7 @@ För att hålla Bitcoin i harmoni har Soft-forks visat sig vara vägen framåt, 
 
 ## Motstridigt tänkande
 
-<chapterId>d4982f3d-4694-51cc-99be-28f54b03a2a2</chapterId>
+<chapterId>f321b742-580a-4d4f-81ab-7830c1c3dc6e</chapterId>
 
 
 ![](assets/sv/008.webp)
@@ -1143,7 +1143,7 @@ För att hålla Bitcoin säkert måste du känna till dess fiender och deras inc
 
 ## Öppen källkod
 
-<chapterId>427a160c-f893-5b2c-afba-7b24e71ba899</chapterId>
+<chapterId>8672f873-c7dc-4bc2-9f10-8882253ac96e</chapterId>
 
 
 
@@ -1431,7 +1431,7 @@ Utvecklingsprocessen kring Bitcoin är radikalt öppen, vilket kan få Bitcoin a
 
 ## Skalning
 
-<chapterId>bb3f3924-202c-5cdd-b2e9-e0c1cab0e48e</chapterId>
+<chapterId>59a8bd2b-2ddf-49d3-ba96-adf696482581</chapterId>
 
 
 
@@ -1706,7 +1706,7 @@ Vi vet idag att Bitcoin inte skalar bra vertikalt ("köp större hårdvara") ell
 
 ## När skiten träffar fläkten
 
-<chapterId>fe39c13c-310f-51fd-84ff-6b92dd01c9e7</chapterId>
+<chapterId>00130abf-a714-4cfb-b104-e416f27a4557</chapterId>
 
 
 
@@ -2139,7 +2139,7 @@ Vi har tittat på några av de allvarligare problemen som har dykt upp genom år
 
 ## Diskussionsfrågor
 
-<chapterId>91462ca7-f09c-55da-a5b9-3e211de31da5</chapterId>
+<chapterId>9a9a2cc0-0fa6-405c-9b7a-348b8ab71a1f</chapterId>
 
 
 Dessa diskussionsfrågor är inte bara en sammanfattning av innehållet i "Bitcoin utvecklingsfilosofi", de är menade att uppmuntra dig att forska vidare så se till att gå ut och utforska.
@@ -2252,7 +2252,7 @@ Du kan testa din förståelse genom att skriva en [mini-essä](https://www.youtu
 
 ## Slutprov
 
-<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+<chapterId>c5474163-5282-4300-ac4b-cf9d7fed3618</chapterId>
 
 <isCourseExam>true</isCourseExam>
 

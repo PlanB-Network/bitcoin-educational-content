@@ -15,11 +15,11 @@ El material está diseñado para estudiantes de todos los niveles y equilibra la
 +++
 # Introducción
 
-<partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
+<partId>abfa0d9a-736e-40f8-937a-490ef19bc481</partId>
 
 ## Descripción del curso
 
-<chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+<chapterId>dc6c887e-00a6-4b7f-9d50-14cbdfd5e867</chapterId>
 ¡Bienvenido al curso CYP302!
 
 Este libro ofrece una introducción en profundidad a la ciencia y la práctica de la criptografía. En la medida de lo posible, se centra en la exposición conceptual, más que formal, del material.
@@ -88,11 +88,11 @@ La notación formal se refiere principalmente a variables, variables aleatorias 
 
 # ¿Qué es la criptografía?
 
-<partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>
+<partId>dfa3633c-f97b-4650-8a2e-cb15a42ca557</partId>
 
 ## Las cifras de Beale
 
-<chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
+<chapterId>b97d116b-035b-4e92-890c-e377b48edb36</chapterId>
 
 Comencemos nuestra indagación en el campo de la criptografía con uno de los episodios más entrañables y divertidos de su historia: el de los cifrados Beale. [1]
 
@@ -132,7 +132,7 @@ Una vez descifrado, el segundo mensaje proporciona el contenido detallado del te
 
 ## Criptografía moderna
 
-<chapterId>d07d576f-8a4b-5890-b182-2e5763f550f4</chapterId>
+<chapterId>a53dab64-fcf9-48c1-b578-dc43d799f3de</chapterId>
 
 Historias pintorescas como la de los cifradores Beale son las que la mayoría de nosotros asociamos con la criptografía. Sin embargo, la criptografía moderna difiere al menos en cuatro aspectos importantes de este tipo de ejemplos históricos.
 
@@ -184,7 +184,7 @@ Para ser exactos, las aplicaciones importantes de los esquemas criptográficos h
 
 ## Comunicaciones abiertas
 
-<chapterId>cb23d0a6-ba9a-5dc6-a55a-258405ae4117</chapterId>
+<chapterId>87b637ca-3d20-42b5-b299-ecb084b60aec</chapterId>
 
 La criptografía moderna está diseñada para ofrecer garantías de seguridad en un entorno de **comunicaciones abiertas**. Si nuestro canal de comunicación está tan bien protegido que los fisgones no tienen ninguna posibilidad de manipular o simplemente observar nuestros mensajes, entonces la criptografía es superflua. Sin embargo, la mayoría de nuestros canales de comunicación no están tan bien protegidos.
 
@@ -204,11 +204,11 @@ De ahí que la idea de mantener en secreto las comunicaciones protegiendo el can
 
 # Fundamentos matemáticos de la criptografía 1
 
-<partId>1bf9f0aa-0f68-5493-83fb-2167238ff9de</partId>
+<partId>22c3967a-c64b-468c-8e68-3324fe552738</partId>
 
 ## Variables aleatorias
 
-<chapterId>b623a7d0-3dff-5803-bd4e-8257ff73dd69</chapterId>
+<chapterId>c5fa2255-6041-400b-9072-217b73bf411e</chapterId>
 
 La criptografía se basa en las matemáticas. Y si quieres construir algo más que una comprensión superficial de la criptografía, necesitas sentirte cómodo con esas matemáticas.
 
@@ -413,7 +413,7 @@ Yo podría, por ejemplo, preguntarle la probabilidad de que los cerdos vuelen en
 
 ## La operación módulo
 
-<chapterId>709b34e5-b155-53d2-abbd-97d67e56db00</chapterId>
+<chapterId>a7e063f0-62dd-4c35-892a-55fa1b10aad8</chapterId>
 
 ### Módulo
 
@@ -501,7 +501,7 @@ $$
 
 ## La operación XOR
 
-<chapterId>22f185cc-c516-5b33-950b-0908f2f881fe</chapterId>
+<chapterId>941aaabd-0896-4eb2-843c-e1af055c87fc</chapterId>
 
 Todos los datos informáticos se procesan, almacenan y envían a través de redes a nivel de bits. Todos los esquemas criptográficos que se aplican a los datos informáticos funcionan también a nivel de bits.
 
@@ -536,7 +536,7 @@ Una operación XOR es equivalente al caso especial de realizar una operación m�
 
 ## Pseudoaleatoriedad
 
-<chapterId>20463fc5-3e92-581f-a1b7-3151279bd95e</chapterId>
+<chapterId>bd0c7d54-5392-490b-bdca-04dcbe7d83ff</chapterId>
 
 En nuestra discusión sobre variables aleatorias y uniformes, establecimos una distinción específica entre "aleatoria" y "uniforme". Esta distinción suele mantenerse en la práctica cuando se describen variables aleatorias. Sin embargo, en nuestro contexto actual, es necesario eliminar esta distinción y utilizar "aleatoria" y "uniforme" como sinónimos. Al final de esta sección explicaré por qué.
 
@@ -581,11 +581,11 @@ Ahora también debería quedar clara la razón por la que dejamos de distinguir 
 
 # Fundamentos matemáticos de la criptografía 2
 
-<partId>d7245cc9-bb6d-5403-b3d5-9c703d9a2f81</partId>
+<partId>62963952-ae03-43f4-88d6-90aea95e5c5f</partId>
 
 ## ¿Qué es la teoría de números?
 
-<chapterId>c0051c34-fd5d-539c-93e2-5c6dfd4c3355</chapterId>
+<chapterId>67e7dace-4c23-41a8-bdb3-c6c87d223899</chapterId>
 
 Este capítulo trata un tema más avanzado de los fundamentos matemáticos de la criptografía: la teoría de números. Aunque la teoría de números es importante para la criptografía simétrica (como en el Cifrado Rijndael), es particularmente importante en el entorno criptográfico de clave pública.
 
@@ -605,7 +605,7 @@ Los conjuntos del álgebra abstracta pueden tratar muchos tipos de objetos, desd
 
 ## Grupos
 
-<chapterId>3209b270-f9cd-5224-803e-0ed19fbf7826</chapterId>
+<chapterId>4353d3ff-6319-4985-a4b8-3b20111ecfff</chapterId>
 
 Un concepto básico en matemáticas es el de conjunto de elementos. Un conjunto suele denotarse mediante signos de acolación con los elementos separados por comas.
 
@@ -679,7 +679,7 @@ Las transacciones en Bitcoin normalmente implican bloquear las salidas a una o m
 
 ## Grupos cíclicos
 
-<chapterId>bfa5c714-7952-5fef-88b1-ca5b07edd886</chapterId>
+<chapterId>b5b552f6-cf7c-4ba8-bd9c-685bfc4aacad</chapterId>
 
 Podemos distinguir entre un **grupo finito** y un **grupo infinito**. El primero tiene un número finito de elementos, mientras que el segundo tiene un número infinito. El número de elementos de cualquier grupo finito se conoce como **orden del grupo**. Toda la criptografía práctica que implica el uso de grupos se basa en grupos finitos (teóricos numéricos).
 
@@ -768,7 +768,7 @@ Fórmula de la función Phi de Euler para la factorización en primos de $N$.
 
 ## Campos
 
-<chapterId>fad52d86-3a22-5c9f-979e-3bec9eaa008e</chapterId>
+<chapterId>7a8c9ab0-fc8f-43fa-8dd7-fd1839bcda81</chapterId>
 
 Un grupo es la estructura algebraica básica del álgebra abstracta, pero hay muchas más. La única otra estructura algebraica con la que debes estar familiarizado es la de un **campo**, concretamente la de un **campo finito**. Este tipo de estructura algebraica se utiliza con frecuencia en criptografía, como en el Advanced Encryption Standard. Este último es el principal esquema de cifrado simétrico que encontrarás en la práctica.
 
@@ -919,7 +919,7 @@ Para resumir la multiplicación de $x^2 + 1$ y $x^2 + x$: Al multiplicar esos do
 
 ## El álgebra abstracta en la práctica
 
-<chapterId>ed35b98d-18b4-5790-9911-1078e0f84f92</chapterId>
+<chapterId>9b8cd1fc-8a34-4e1b-ab4f-c634a763a20c</chapterId>
 
 A pesar del lenguaje formal y lo abstracto de la discusión, el concepto de grupo no debería ser demasiado difícil de entender. No es más que un conjunto de elementos junto con una operación binaria, donde la realización de esa operación binaria sobre esos elementos cumple cuatro condiciones generales. Un grupo abeliano sólo tiene una condición adicional conocida como conmutatividad. Un grupo cíclico, a su vez, es un tipo especial de grupo abeliano, es decir, uno que tiene un generador. Un campo no es más que una construcción más compleja a partir de la noción básica de grupo.
 
@@ -947,11 +947,11 @@ Para profundizar en la teoría moderna de números, puede consultar muchos debat
 
 # Criptografía simétrica
 
-<partId>ef768d0e-fe7b-510c-87d6-6febb3de1039</partId>
+<partId>b994593e-cb9b-4a2c-ae80-2dec3478e1a6</partId>
 
 ## Alice y Bob
 
-<chapterId>47345330-be2d-5faf-afd0-d289a8d21bf1</chapterId>
+<chapterId>9c901027-b83a-4954-99b4-9e4f0c1598b7</chapterId>
 
 Una de las dos ramas principales de la criptografía es la criptografía simétrica. Incluye tanto los esquemas de cifrado como los de autenticación e integridad. Hasta los años 70, toda la criptografía consistía en esquemas de cifrado simétrico.
 
@@ -981,7 +981,7 @@ A continuación se presentan cinco puntos clave a tener en cuenta sobre los ejem
 
 ## Esquemas de cifrado simétrico
 
-<chapterId>41bfdbe1-6d41-5272-98bb-81f24b2fd6af</chapterId>
+<chapterId>e2645185-bb06-41d2-9a80-81dd84108647</chapterId>
 
 Podemos definir un **esquema de cifrado simétrico** como cualquier esquema criptográfico con tres algoritmos:
 
@@ -1017,7 +1017,7 @@ Bob cifra el mensaje $M$ en el tiempo $T_0$ con la clave $K$ para producir el te
 
 ## Un ejemplo: El cifrado por turnos
 
-<chapterId>7b179ae8-8d15-5e80-a43f-22c970d87b5e</chapterId>
+<chapterId>63287a89-bda1-4395-ade6-cd8d8debe797</chapterId>
 
 En el capítulo 2 vimos el cifrado por turnos, que es un ejemplo de esquema de cifrado simétrico muy sencillo. Veámoslo de nuevo aquí.
 
@@ -1053,7 +1053,7 @@ Puede que también te encuentres con los términos **encriptar** o **descifrar**
 
 ## Ataques de fuerza bruta y principio de Kerckhoff
 
-<chapterId>2d73ef97-26c5-5d11-8815-0ddbe89c8003</chapterId>
+<chapterId>4a72d8d8-0186-4654-b5ba-f99a4e03fb59</chapterId>
 
 El cifrado por turnos es un esquema de cifrado simétrico muy inseguro, al menos en el mundo moderno. [1] Un atacante podría intentar descifrar cualquier texto cifrado con las 26 claves posibles para ver qué resultado tiene sentido. Este tipo de ataque, en el que el atacante simplemente recorre las claves para ver cuál funciona, se conoce como **ataque de fuerza bruta** o **búsqueda exhaustiva de claves**.
 
@@ -1101,7 +1101,7 @@ Aunque no profundizaremos en todos los detalles de las distintas nociones de seg
 
 ## Cifrado de flujos
 
-<chapterId>479aa6f4-45c4-59ca-8616-8cf8e61fc871</chapterId>
+<chapterId>82a4d8c5-7fd7-4bbb-a97e-e7a2d7cc55a0</chapterId>
 
 Los sistemas de cifrado simétrico se dividen normalmente en dos tipos: **cifradores de flujo** y **cifradores de bloque**. Sin embargo, esta distinción es algo problemática, ya que la gente utiliza estos términos de forma incoherente. En las próximas secciones expondré la distinción de la forma que considero más adecuada. Sin embargo, debes tener en cuenta que mucha gente utilizará estos términos de forma algo diferente a la que yo expongo.
 
@@ -1189,7 +1189,7 @@ En mi opinión, una definición más amplia de la condición (1) facilita la org
 
 ## Cifrado por bloques
 
-<chapterId>2df52d51-943d-5df7-9d49-333e4c5d97b7</chapterId>
+<chapterId>ffb7ba1c-eb20-43a8-a2f1-2b8a54a31044</chapterId>
 
 La primera forma en que se entiende comúnmente un **cifrado de bloques** es como algo más primitivo que un cifrado de flujo: Un algoritmo central que realiza una transformación que preserva la longitud en una cadena de una longitud adecuada con la ayuda de una clave. Este algoritmo puede utilizarse para crear esquemas de cifrado y quizás otros tipos de esquemas criptográficos.
 
@@ -1265,7 +1265,7 @@ El cifrado por bloques AES se explicará en detalle en el *Capítulo 5*.
 
 ## Aclarar la confusión
 
-<chapterId>121c1858-27e3-5862-b0ce-4ff2f70f9f0f</chapterId>
+<chapterId>61e393f2-6764-4214-a871-f7471cb8ea32</chapterId>
 
 La confusión sobre la distinción entre cifrado por bloques y cifrado por flujos se debe a que a veces la gente entiende que el término cifrado por bloques se refiere específicamente a un *cifrado por bloques con un modo de cifrado por bloques*.
 
@@ -1289,7 +1289,7 @@ A partir de esta discusión, ahora deberías entender la *Figura 8*. Proporciona
 
 ## Códigos de autenticación de mensajes
 
-<chapterId>19fa7c00-db59-56a0-9654-5350a137939d</chapterId>
+<chapterId>626181b6-f80f-4160-b441-417a79b66ec6</chapterId>
 
 El cifrado tiene que ver con el secreto. Pero la criptografía también se ocupa de temas más amplios, como la integridad de los mensajes, la autenticidad y el no repudio. Los llamados **códigos de autenticación de mensajes** (MAC) son esquemas criptográficos de clave simétrica que soportan la autenticidad y la integridad en las comunicaciones.
 
@@ -1319,7 +1319,7 @@ Aunque he distinguido entre autenticidad e integridad de los mensajes, también 
 
 ## Cifrado autenticado
 
-<chapterId>33f2ec9b-9fb4-5c61-8fb4-50836270a144</chapterId>
+<chapterId>64c1aef9-0bf8-45c5-92ba-12161d907eac</chapterId>
 
 Normalmente, se desea garantizar tanto el secreto como la autenticidad en la comunicación y, por ello, los esquemas de cifrado y los esquemas MAC suelen utilizarse conjuntamente.
 
@@ -1363,7 +1363,7 @@ Existe una paleta de funciones hash que pueden utilizarse para crear un HMAC. La
 
 ## Sesiones de comunicación seguras
 
-<chapterId>c7f7dcd3-bbed-53ed-a43d-039da0f180c5</chapterId>
+<chapterId>16be8853-ef4e-432b-b724-f34e780f2abe</chapterId>
 
 Supongamos que dos partes están en una sesión de comunicación, por lo que envían múltiples mensajes de ida y vuelta.
 
@@ -1395,11 +1395,11 @@ La sesión de comunicación comienza con Bob enviando un texto cifrado $C_{0,B}$
 
 # RC4 y AES
 
-<partId>a48c4a7d-0a41-523f-a4ab-1305b4430324</partId>
+<partId>9948fc0a-59fe-46a4-b324-b12cde16e576</partId>
 
 ## Cifrado de flujo RC4
 
-<chapterId>5caec5bd-5a77-56c9-b5e6-1e86f0d294aa</chapterId>
+<chapterId>2f83a43a-16e5-4b4e-9d2f-4976f92eba15</chapterId>
 
 En este capítulo, discutiremos los detalles de un esquema de cifrado con un moderno cifrado de flujo primitivo, RC4 (o "Rivest cipher 4"), y un moderno cifrado de bloque, AES. Mientras que el cifrado RC4 ha caído en desgracia como método de cifrado, AES es el estándar para el cifrado simétrico moderno. Estos dos ejemplos te darán una mejor idea de cómo funciona el cifrado simétrico.
 
@@ -1510,7 +1510,7 @@ Es importante destacar que el flujo de claves producido con RC4 debe tratarse co
 
 ## AES con una clave de 128 bits
 
-<chapterId>0b30886f-e620-5b8d-807b-9d84685ca8ff</chapterId>
+<chapterId>593d6ae3-7887-40d5-b14b-98a580b9a254</chapterId>
 
 Como se mencionó en el capítulo anterior, el Instituto Nacional de Estándares y Tecnología (NIST) convocó un concurso entre 1997 y 2000 para determinar un nuevo estándar de cifrado simétrico. El **cifrado Rijndael** resultó ser la propuesta ganadora. El nombre es un juego de palabras con los nombres de los creadores belgas, Vincent Rijmen y Joan Daemen.
 
@@ -1678,11 +1678,11 @@ El razonamiento para las operaciones detrás del cifrado Rijndael es que produce
 
 # Criptografía asimétrica
 
-<partId>868bd9dd-6e1c-5ea9-9ece-54affc13ba05</partId>
+<partId>20c55ed4-4e45-493a-8bfe-970f332d764c</partId>
 
 ## El problema de la distribución y gestión de claves
 
-<chapterId>1bb651ba-689a-5a89-a7d3-0b9cc3b694f7</chapterId>
+<chapterId>4bbc8769-e00d-4d59-8365-c5f491b1217b</chapterId>
 
 Al igual que la criptografía simétrica, los esquemas asimétricos pueden utilizarse para garantizar tanto el secreto como la autenticación. Sin embargo, estos esquemas emplean dos claves en lugar de una: una privada y otra pública.
 
@@ -1727,7 +1727,7 @@ Si estos problemas no se hubieran resuelto en la década de 1970, probablemente 
 
 ## Nuevas orientaciones en criptografía
 
-<chapterId>7a9dd9a3-496e-5f9d-93e0-b5028a7dd0f1</chapterId>
+<chapterId>e0f7950c-bb5a-437e-b27e-8d6878e15291</chapterId>
 
 En los años 70, los problemas de distribución y gestión de claves habían captado la atención de un grupo de criptógrafos académicos estadounidenses: Whitfield Diffie, Martin Hellman y Ralph Merkle. Ante el gran escepticismo de la mayoría de sus colegas, se aventuraron a idear una solución.
 
@@ -1791,7 +1791,7 @@ Según sus propios relatos y los del GCHQ, fue James Ellis quien ideó por prime
 
 ## Cifrado asimétrico y autenticación
 
-<chapterId>2f6f0f03-3c3d-5025-90f0-5211139bc0cc</chapterId>
+<chapterId>a36ea521-ecee-476d-ade9-57f09bed2469</chapterId>
 
 En la *Figura 1* se ofrece una visión general del **cifrado asimétrico** con la ayuda de Bob y Alice.
 
@@ -1869,7 +1869,7 @@ La distribución de llaves se ha simplificado enormemente para Jim's Sporting Go
 
 ## Funciones hash
 
-<chapterId>ea8327ab-b0e3-5635-941c-4b51f396a648</chapterId>
+<chapterId>49d6c9a5-5f18-4ec4-8c83-e02fc60941ff</chapterId>
 
 Las funciones hash son omnipresentes en criptografía. No son esquemas simétricos ni asimétricos, sino que constituyen una categoría criptográfica por derecho propio.
 
@@ -1947,11 +1947,11 @@ Aunque la resistencia a las colisiones y la ocultación son las principales prop
 
 # El criptosistema RSA
 
-<partId>864dca42-2a8d-530f-bb94-2e1f68b3f411</partId>
+<partId>a8fb0a0b-747f-422a-a464-3c84979efa43</partId>
 
 ## El problema de la factorización
 
-<chapterId>a31a66e4-52ea-539c-9953-4769ad565d7e</chapterId>
+<chapterId>406b1681-f8bf-4a03-b555-c84ac4dee44a</chapterId>
 
 Mientras que la criptografía simétrica suele ser bastante intuitiva para la mayoría de la gente, no ocurre lo mismo con la criptografía asimétrica. Aunque probablemente te sientas cómodo con la descripción de alto nivel ofrecida en las secciones anteriores, probablemente te preguntes qué son exactamente las funciones unidireccionales y cómo se utilizan exactamente para construir esquemas asimétricos.
 
@@ -2044,7 +2044,7 @@ $$ \frac{2^{1024}}{\ln(2^{1024})} - \frac{2^{1023}}{\ln(2^{1023})} $$
 
 ## Resultados de la teoría de números
 
-<chapterId>23cd2186-8d97-5709-a4a7-b984f1eb9999</chapterId>
+<chapterId>a5528852-d9cc-4f94-a15d-02f11081e026</chapterId>
 
 Por desgracia, el problema de la factorización no puede utilizarse directamente para esquemas criptográficos asimétricos. Sin embargo, podemos utilizar para ello un problema más complejo pero relacionado: el problema RSA.
 
@@ -2171,7 +2171,7 @@ Ahora tenemos todos los resultados de teoría de números necesarios para plante
 
 ## El criptosistema RSA
 
-<chapterId>0253c2f7-b8a4-5d0e-bd60-812ed6b6c7a9</chapterId>
+<chapterId>b230194d-5774-49fe-9d19-53e345453c34</chapterId>
 
 Ahora estamos listos para plantear el problema RSA. Supongamos que creamos un conjunto de variables formado por $p$, $q$, $N$, $\phi(N)$, $e$, $d$ e $y$. Llamemos a este conjunto $\Pi$. Se crea de la siguiente manera:
 
@@ -2263,5 +2263,5 @@ No obstante, añadiendo un poco de complejidad inteligente, el problema RSA pued
 <isCourseExam>true</isCourseExam>
 
 ## Conclusión
-<chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
+<chapterId>97ce180b-5092-45eb-a160-57fc52917567</chapterId>
 <isCourseConclusion>true</isCourseConclusion>

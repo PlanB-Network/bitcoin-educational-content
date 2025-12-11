@@ -1040,7 +1040,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 - **अपना पुनर्प्राप्ति वाक्यांश सुरक्षित करें**:
  - ट्यूटोरियल: [अपना Mnemonic वाक्यांश सहेजें](https://planb.academy/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
- - पाठ्यक्रम [ला वाक्यांश निमोनिक](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)
+ - पाठ्यक्रम [ला वाक्यांश निमोनिक](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/c7f06af4-741b-443f-a6dd-815e9d31a740)
 
 
 

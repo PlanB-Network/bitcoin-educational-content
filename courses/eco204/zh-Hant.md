@@ -17,13 +17,13 @@ objectives:
 # 簡介
 
 
-<partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
+<partId>b2ba4969-7b91-45cf-b2ad-b5d2958f48b3</partId>
 
 
 ## 課程總覽
 
 
-<chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
+<chapterId>c9ff81cb-98ab-4724-b174-4dbfa3a25ea8</chapterId>
 
 
 歡迎來到 ECO204 課程！
@@ -53,13 +53,13 @@ objectives:
 # 什麼是通貨膨脹？
 
 
-<partId>2b4f456c-3649-5cf9-b9b0-a5bffe92d962</partId>
+<partId>5902cccb-fd13-4088-8852-569bdf4528f4</partId>
 
 
 ## 貨幣現象
 
 
-<chapterId>b2cbc915-c4ec-52b5-860c-0958f58c91e4</chapterId>
+<chapterId>1ac7d89a-7082-4466-8eb2-00f1e1b303a0</chapterId>
 
 
 ### 通貨膨脹的定義
@@ -327,7 +327,7 @@ Maravedis 的案例說明了一個國家如何選擇性地貶值當地貨幣以�
 ## 通貨膨脹的類型
 
 
-<chapterId>b438fe09-375e-5bb2-9196-7dd687b9f98c</chapterId>
+<chapterId>5d7b5350-7312-4a3f-9138-6c4c9cfdbe0d</chapterId>
 
 
 ### 通貨膨脹並非多因素現象
@@ -633,13 +633,13 @@ Bernholz 的分類突顯了從溫和通貨膨脹到惡性通貨膨脹的危險�
 # 什麼是惡性通貨膨脹？
 
 
-<partId>3f541663-1e2f-5410-8ee0-f61c5d009fa5</partId>
+<partId>5747f16f-4cc0-4358-8ae8-4411fc8f89ca</partId>
 
 
 ## 惡性通貨膨脹的定義
 
 
-<chapterId>d2a71a2e-5f36-58d9-993c-d431f4aa07fd</chapterId>
+<chapterId>5b8758ff-7b46-4c81-aafd-f8ee06fcef03</chapterId>
 
 
 ### 惡性通貨膨脹的定義
@@ -777,7 +777,7 @@ Bernholz 指出，有一些高通脹事件與惡性通貨膨脹事件具有相�
 ## 魏瑪與津巴布韋的相似性
 
 
-<chapterId>11eef458-aab8-5c63-8523-264d0ba69f5d</chapterId>
+<chapterId>733924b4-7fd2-46ab-8f48-cbb86c5fd4d6</chapterId>
 
 
 ### 兩個時代，兩場災難
@@ -1035,7 +1035,7 @@ Weimar: "Barter was already a customary form of Exchange; but now, goods such as
 ## 魏瑪 vs 津巴布韋：差異與當代相似性
 
 
-<chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
+<chapterId>3b71f96b-6f11-40b5-b974-a27fe498fe3c</chapterId>
 
 
 在本章中，我們將探討過去與現在的惡性通貨膨脹時期的差異與當代的相似性，並提供現今的軼事與相關比較。
@@ -1184,7 +1184,7 @@ Weimar: "Barter was already a customary form of Exchange; but now, goods such as
 ## 拉丁美洲的重新命名
 
 
-<chapterId>918eafd7-409d-5205-ad52-a52e63b23a64</chapterId>
+<chapterId>6fee14c4-a59d-4f23-b6bd-24d8422a2cb4</chapterId>
 
 
 現在我們來看看拉丁美洲國家不同時期的幣值重訂。
@@ -1342,7 +1342,7 @@ Weimar: "Barter was already a customary form of Exchange; but now, goods such as
 ## 如何克服惡性通貨膨脹
 
 
-<chapterId>e3484a31-a851-5f92-8af5-00eddae67db1</chapterId>
+<chapterId>045d835e-4692-438a-a5c9-8889801bee6c</chapterId>
 
 
 ### 如何結束溫和與高通脹
@@ -1418,7 +1418,7 @@ Bernholz 提出的一個有趣的觀點是，貨幣改革的成功不僅取決�
 ## 超級通貨膨脹鈔票收藏介紹
 
 
-<chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
+<chapterId>e166eb40-d92a-42a6-b4ca-64c3d3baa8d4</chapterId>
 
 [在 *Bitcoin Educational Toolkit* 中探索掃描的收藏（也可以從 Plan ₿ Academy 平台的 *資源* 區域存取。](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
@@ -1428,13 +1428,13 @@ Bernholz 提出的一個有趣的觀點是，貨幣改革的成功不僅取決�
 # 我們是怎麼來到這裡的？
 
 
-<partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>
+<partId>d32a419f-ace2-4b63-8be0-5727d6c6c3af</partId>
 
 
 ## 貨幣與中央銀行的第二個 Layer 的出現
 
 
-<chapterId>0455ffe3-9d45-5a67-ac96-3f815dc507a1</chapterId>
+<chapterId>47b3add9-dc60-4a05-b380-d9166f8c1886</chapterId>
 
 
 謄本：
@@ -1527,7 +1527,7 @@ Antwerp Stock Exchange 標誌著紙幣演變過程中的一個重要里程碑。
 ## 書籍與資源
 
 
-<chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
+<chapterId>53dc2a2f-11af-4370-a137-274c4d861e5c</chapterId>
 
 
 惡性通貨膨脹是一個引人入勝的主題，我們已透過各種歷史事件對其進行了研究。如果您想深入研究這個主題，這裡列出了 10 項必讀和研究的資源：
@@ -1578,14 +1578,14 @@ Antwerp Stock Exchange 標誌著紙幣演變過程中的一個重要里程碑。
 ## 評論與評分
 
 
-<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<chapterId>3e37d04e-0239-454f-9701-9479bc08a5bc</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## 期末考試
 
 
-<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
+<chapterId>baf9e2af-d020-4188-84a1-c33e653d17ee</chapterId>
 
 <isCourseExam>true</isCourseExam>
 

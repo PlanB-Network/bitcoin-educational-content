@@ -17,14 +17,14 @@ I BTC304 kommer vi att titta på varför gemenskapsbyggande är viktigt, utforsk
 # Inledning
 
 
-<partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
+<partId>c896831e-b8d8-4324-bcad-b289c88db81b</partId>
 
 
 
 ## Kursöversikt
 
 
-<chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
+<chapterId>42660201-57ae-4438-846a-80cd529087ca</chapterId>
 
 
 
@@ -144,7 +144,7 @@ Det sista avsnittet handlar om kärnan i ditt projekt: att förena Bitcoin-entus
 ## Varför starta ett Bitcoin-community eller en mötesplats?
 
 
-<chapterId>893ea248-7d5a-5b8e-948c-7031497b1031</chapterId>
+<chapterId>ce63ff45-9c9e-4a77-a175-99906bb95208</chapterId>
 
 
 
@@ -241,7 +241,7 @@ Bitcoin-möten kan tjäna många syften:
 
 
 
-Vi kommer att gå igenom många av dessa möjligheter i detalj i del 6/8 av den här kursen, med titeln "[Exempel på projekt och initiativ] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
+Vi kommer att gå igenom många av dessa möjligheter i detalj i del 6/8 av den här kursen, med titeln "[Exempel på projekt och initiativ] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab).
 
 
 
@@ -252,7 +252,7 @@ Vi kommer att gå igenom många av dessa möjligheter i detalj i del 6/8 av den 
 ## Var ska du skapa din community?
 
 
-<chapterId>72da5285-5395-592d-ab62-303a0aef3d6d</chapterId>
+<chapterId>0b6bd32a-15ff-4b09-870d-5a2f6ea0d774</chapterId>
 
 
 
@@ -309,7 +309,7 @@ Och om en äldre community har "utvecklats" i en riktning som inte längre stäm
 ## Vilka mål ska vägleda ditt samhälle?
 
 
-<chapterId>0aae1aa8-93ec-544a-ad88-22d32c619595</chapterId>
+<chapterId>2b2f58e5-c2ab-4b85-af19-02d7ad2aa503</chapterId>
 
 
 
@@ -353,7 +353,7 @@ Ditt första evenemang kommer troligen att vara en meet-up. Dess huvudsyfte är 
 
 
 
-Men som vi kommer att se senare i [Exempel på projekt och initiativ] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **kan en träff byggas upp på många sätt, med många mål:**
+Men som vi kommer att se senare i [Exempel på projekt och initiativ] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab), **kan en träff byggas upp på många sätt, med många mål:**
 
 
 
@@ -424,14 +424,14 @@ Det är därför **den här kursen är utformad för att dela värdefulla resurs
 # Utforma en samhällsidentitet Bitcoin
 
 
-<partId>da6673ad-bf49-5979-80a6-3f69cfb28046</partId>
+<partId>507dd86a-0214-4c18-ae0d-34702291fb74</partId>
 
 
 
 ## Varför och hur kan du skapa din egen identitet?
 
 
-<chapterId>b48a18cc-afdf-5216-802c-32647b5cd8a3</chapterId>
+<chapterId>4475004b-19e7-4c0f-a799-fd2cb0baefad</chapterId>
 
 
 
@@ -532,7 +532,7 @@ Om du blir inspirerad kan du ta det ännu längre: skapa ett vapen, ett motto el
 ## Skapa en logotyp, affisch och banner
 
 
-<chapterId>3470a31f-0190-5e87-8af0-6a00e79267ef</chapterId>
+<chapterId>8b85ccb1-5474-474e-ae1b-c8cb69f060ad</chapterId>
 
 
 
@@ -763,14 +763,14 @@ Resultatet ser riktigt häftigt ut!
 # Skapa kommunikationskanaler för din Bitcoin-grupp
 
 
-<partId>fc588298-6876-554c-bd57-55d182464878</partId>
+<partId>054892b5-21cb-43f8-a1c2-750d3175fa68</partId>
 
 
 
 ## Vilka kommunikationskanaler ska du välja?
 
 
-<chapterId>b4f4eef6-1035-5290-848a-2b7f9391c77a</chapterId>
+<chapterId>3c111ec9-2517-4b9a-bba4-68ac531e081f</chapterId>
 
 
 
@@ -831,7 +831,7 @@ I takt med att din community växer kan du lägga till fler plattformar och dele
 ## Skapa och konfigurera en Telegram-kanal, -grupp eller -supergrupp
 
 
-<chapterId>d13714ce-8f08-53e9-bedd-b6a3aaac5dad</chapterId>
+<chapterId>7b87c24a-4820-4652-a3de-dc29cafea4d0</chapterId>
 
 
 
@@ -866,7 +866,7 @@ För handledningarna nedan använde vi ursprungligen "Telegram +" APK, vilket m�
 Om du vill skapa en plats där dina medlemmar kan prata direkt med varandra, svara på varandra osv. bör du kanske skapa en Telegram-grupp och inte en Telegram-kanal!
 
 
-Gå direkt till nästa avsnitt med rubriken [Skapa en Telegramgrupp] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
+Gå direkt till nästa avsnitt med rubriken [Skapa en Telegramgrupp] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/7b87c24a-4820-4652-a3de-dc29cafea4d0).
 
 
 
@@ -997,7 +997,7 @@ Så det finns inget behov av att ladda ner "Telegram +" längre, såvida du inte
 ## Skapa din Telegram-grupp eller supergrupp
 
 
-<chapterId>35e674b3-5924-50b0-98f1-83a56c9a186d</chapterId>
+<chapterId>a8c5bc2e-9a91-4da1-aae7-8a3684631dc8</chapterId>
 
 
 
@@ -1053,7 +1053,7 @@ Det är inte alltid nödvändigt, men kan ge ett extra Layer-skydd.
 ## Lägga till en multifunktionsbot till din Telegram-grupp
 
 
-<chapterId>c61f69cc-15ec-53f1-8c02-1cea55def09e</chapterId>
+<chapterId>80108eb0-6648-4fe9-b41f-586f03466805</chapterId>
 
 
 
@@ -1105,7 +1105,7 @@ Handledning för att lägga till en multifunktionsbot till en Telegram-grupp ell
 ## Skapa en Discord-server
 
 
-<chapterId>eef2a965-4c24-5f3a-8013-72cc7d315314</chapterId>
+<chapterId>9d3f69cb-a61c-40f2-abad-e4a4be6b96cb</chapterId>
 
 
 
@@ -1150,7 +1150,7 @@ För att spara tid, här är en handledning om hur du lägger till den här mult
 ## Överväg alternativa, privata och säkrare kommunikationskanaler
 
 
-<chapterId>29d0aad6-0612-5dd0-bcef-7337eaf4fefc</chapterId>
+<chapterId>495024db-90fb-4aa9-984e-1dc2b2b90947</chapterId>
 
 
 
@@ -1178,14 +1178,14 @@ Och vad kan egentligen vara mer i linje med andan i Bitcoin än att vara censurr
 # Starta dina sociala nätverk
 
 
-<partId>8ebf8cd7-9248-543f-bc27-4ec4cc03f9cf</partId>
+<partId>f98a016c-d5b2-43b4-b8ee-ad6163d7e6c5</partId>
 
 
 
 ## Vikten av synlighet för att få din Bitcoin-community att växa
 
 
-<chapterId>b20f12e4-c5de-5f02-80c7-b7fc6cadd3ac</chapterId>
+<chapterId>ecd581a7-17e6-4730-ac9f-859a782a957e</chapterId>
 
 
 
@@ -1219,7 +1219,7 @@ Med det sagt, kom ihåg att **ju fler kommunikationskanaler och sociala nätverk
 ## Skapa en Twitter-profil
 
 
-<chapterId>c8d73097-8eba-5530-918c-221002954110</chapterId>
+<chapterId>f5bfb587-1edf-46ce-9683-833b344627b1</chapterId>
 
 
 
@@ -1232,7 +1232,7 @@ Twitter är mycket lätt att använda, och för att förbättra din integritet b
 1/ ** @ Twitter**, som definierar din identitet och gör dig lätt att hitta. Om din kommuns namn är "Bitcoin [CITY]" är det lämpligt att välja "@Bitcoin[CITY]";
 
 
-2/ **den logotyp och banner** som du har skapat för din community eller mötesplats (se avsnitt [Skapa en logotyp, affisch och banner] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
+2/ **den logotyp och banner** som du har skapat för din community eller mötesplats (se avsnitt [Skapa en logotyp, affisch och banner] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/8b85ccb1-5474-474e-ae1b-c8cb69f060ad));
 
 
 3/ **beskrivningen**, som gör att du kan dela viktig information om ditt samhälle med några hundra tecken. Till exempel
@@ -1334,7 +1334,7 @@ Handledning för att skapa ett Twitter-konto:
 ## Närmare till närliggande mötesplatser
 
 
-<chapterId>12a21c3b-235a-5292-8209-67bf60f61e49</chapterId>
+<chapterId>5cd84243-f3b6-4874-99a7-a2e2185cc118</chapterId>
 
 
 
@@ -1377,7 +1377,7 @@ Målet är enkelt: samla in allas feedback, diskutera hur communityerna utveckla
 ## Btcmap.org
 
 
-<chapterId>365f43d4-7b2c-5961-a184-157b8c1a0116</chapterId>
+<chapterId>8a628a6c-7daf-4382-9f13-a90b808fc908</chapterId>
 
 
 
@@ -1425,14 +1425,14 @@ När en liten grupp bitcoiners har anslutit sig till dig är det dags för näst
 # Organisera en Bitcoin-träff
 
 
-<partId>c009d2a6-40ce-583b-bd24-fdfd1fea262e</partId>
+<partId>561335e4-a531-4e63-838f-56aa8ee04864</partId>
 
 
 
 ## Varför starta ett regelbundet möte med din community?
 
 
-<chapterId>ed8e471c-3b99-57e2-a042-2d4e8a40b137</chapterId>
+<chapterId>acb31467-8192-45a8-afe1-e7bbdf1e32dd</chapterId>
 
 
 
@@ -1462,7 +1462,7 @@ Det är därför det är viktigt att **börja med att sätta upp uppnåeliga må
 ## Den första träffen: när och varför?
 
 
-<chapterId>f3f8a614-cfb4-5994-a2e8-d56e6f8e3347</chapterId>
+<chapterId>1db6a73c-4782-4ed6-872a-eb23851e027e</chapterId>
 
 
 
@@ -1547,7 +1547,7 @@ I det andra fallet kan ett andra månatligt evenemang ägnas åt ett specifikt t
 
 
 
-Tänk på att **detta kräver mer organisation och mer av din tid**. Lyckligtvis hittar du i [del 6/8 av den här kursen] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) en rad återanvändbara resurser med öppen källkod som kan hjälpa dig.
+Tänk på att **detta kräver mer organisation och mer av din tid**. Lyckligtvis hittar du i [del 6/8 av den här kursen] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab) en rad återanvändbara resurser med öppen källkod som kan hjälpa dig.
 
 
 I vilket fall som helst beror allt på den handlingsplan på kort, medellång och lång sikt som du eller ditt samhälle har fastställt för er själva.
@@ -1557,7 +1557,7 @@ I vilket fall som helst beror allt på den handlingsplan på kort, medellång oc
 ## Sökandet efter en plats
 
 
-<chapterId>405d389e-6a32-5777-af8d-293380d2e8fd</chapterId>
+<chapterId>b19eed85-6f0a-4de8-a679-34807bb2ac3e</chapterId>
 
 
 
@@ -1603,7 +1603,7 @@ Senare, när gruppen har vuxit, kan du till och med ta en eftermiddag för att b
 ## Före mötet
 
 
-<chapterId>c5218943-580d-5efc-89ed-6b5d728816d6</chapterId>
+<chapterId>2efeb301-7737-49bb-831b-f75f1a013ad7</chapterId>
 
 
 
@@ -1619,7 +1619,7 @@ Kontakta den plats där du ska hålla evenemanget och boka den för det beräkna
 
 
     - Dela datum, tid och plats på dina sociala nätverk och andra kommunikationskanaler. Inkludera en registreringslänk om det behövs.
-    - Skapa en särskild visuell del (till exempel en Canva-poster, se del 2/8 "[Designa en identitet för din Bitcoin-grupp] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
+    - Skapa en särskild visuell del (till exempel en Canva-poster, se del 2/8 "[Designa en identitet för din Bitcoin-grupp] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/4475004b-19e7-4c0f-a799-fd2cb0baefad)").
     - Maximera synligheten genom att fästa tillkännagivandet på Telegram och Twitter och använda ett "@everyone"-omnämnande på Discord.
     - Skicka ut meddelanden 7 till 10 dagar före evenemanget så att deltagarna kan planera i förväg.
 
@@ -1650,7 +1650,7 @@ Extra åtgärder för att få ditt evenemang att sticka ut:
 ## Dagen för mötet
 
 
-<chapterId>cf60067b-591f-5fdf-9b9e-d442aad0e8f9</chapterId>
+<chapterId>7ba18449-1368-4ba7-8fe3-c9028afaa3e6</chapterId>
 
 
 
@@ -1689,7 +1689,7 @@ Slutligen kan du ta en drink och vänta på att folk ska komma. Och kom ihåg: b
 ## Efter mötet
 
 
-<chapterId>3e881af9-9c09-5721-81ee-c5cda3b109c5</chapterId>
+<chapterId>2f238eab-3931-46a2-a429-5ae9562e4c5d</chapterId>
 
 
 
@@ -1711,7 +1711,7 @@ Du har sedan några veckor på dig att utveckla nya idéer, bilder eller projekt
 ## Vikten av att involvera och behålla deltagare
 
 
-<chapterId>f5355e35-4b07-527c-88a3-8535cba7592c</chapterId>
+<chapterId>a50e8782-fb08-4aba-a42b-3fa86b5c4ffb</chapterId>
 
 
 
@@ -1721,7 +1721,7 @@ Rom byggdes inte på en dag, och det kommer inte heller ditt samhälle att göra
 För att få det att hända är en sak avgörande: **hålla deltagarna engagerade**.
 
 
-Det kan börja med en liten grupp passionerade bitcoinare, vars mål är att träffas regelbundet och prata om Bitcoin. Med tiden, beroende på varje persons tillgänglighet och intressen, kan du **dela vissa organisatoriska uppgifter med gruppen**, eller bjuda in kärnmedlemmar **att ta sig an specifika projekt**. Dessa kan vara unika för din gemenskap, dina möten eller din stad eller till och med inspirerade av de många initiativ som föreslås i [del 6/8 av denna kurs] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Detta främjar inte bara Commitment från dina kärnmedlemmar utan hjälper också din gemenskap att växa och frodas.**
+Det kan börja med en liten grupp passionerade bitcoinare, vars mål är att träffas regelbundet och prata om Bitcoin. Med tiden, beroende på varje persons tillgänglighet och intressen, kan du **dela vissa organisatoriska uppgifter med gruppen**, eller bjuda in kärnmedlemmar **att ta sig an specifika projekt**. Dessa kan vara unika för din gemenskap, dina möten eller din stad eller till och med inspirerade av de många initiativ som föreslås i [del 6/8 av denna kurs] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab). **Detta främjar inte bara Commitment från dina kärnmedlemmar utan hjälper också din gemenskap att växa och frodas.**
 
 
 Allteftersom dina möten fortskrider kommer nya ansikten att dyka upp: människor som köpte BTC och/eller altcoins i tidigare cykler, teknikentusiaster som vill fördjupa sin förståelse eller nybörjare som är nyfikna på detta ocensurerbara, decentraliserade, transparenta och rättvisa betalningssystem som fungerar utan villkor och utan betrodda tredje parter.
@@ -1761,14 +1761,14 @@ I slutändan är det upp till dig att bestämma hur långt "öppet och inkludera
 # Exempel på projekt och initiativ
 
 
-<partId>45b3bc40-1c31-583e-8411-2662e6efd765</partId>
+<partId>75b8d7e2-97ce-455b-abb5-8bfa2a47f777</partId>
 
 
 
 ## Varför gå längre än att bara dricka öl?
 
 
-<chapterId>3213d87a-1998-5972-ab93-97a5769ba279</chapterId>
+<chapterId>05880102-07ac-413a-8433-8a6ab8fac2ab</chapterId>
 
 
 
@@ -1802,7 +1802,7 @@ Nyckeln är helt enkelt att vara medveten om det.
 ## Organisera tematräffar, med en årlig progression
 
 
-<chapterId>46afdbcc-a775-5c16-b20a-34956690d58f</chapterId>
+<chapterId>c69c52bd-3b64-4ebc-bcce-5c3c8bd1b6e5</chapterId>
 
 
 
@@ -1862,7 +1862,7 @@ Och mycket mer, det är bara fantasin som sätter gränser!
 ## Skapa sidoevenemang och workshops
 
 
-<chapterId>9dbd651a-8712-5630-90b3-b9525dcc1385</chapterId>
+<chapterId>a6f89c65-1de3-40dc-ad55-f72e54c2f399</chapterId>
 
 
 
@@ -1889,7 +1889,7 @@ Var bara försiktig så att du inte överbelastar kalendern. För många evenema
 ## Skapa klistermärken
 
 
-<chapterId>d605f3b3-130e-513d-85e6-06bc5ea13e99</chapterId>
+<chapterId>1d7f4a6f-99f1-4c82-a55d-23c6d8f7b226</chapterId>
 
 
 
@@ -1929,7 +1929,7 @@ På privata platser som konserter, barer eller arenor ska du kontrollera om det 
 ## Skapa ett bibliotek
 
 
-<chapterId>acc94093-f8b3-51b8-9359-348e9e075d38</chapterId>
+<chapterId>a6db0905-19f7-475a-abdc-f4c5e85cd625</chapterId>
 
 
 
@@ -1985,7 +1985,7 @@ Om inte, föreslå att de skaffar några böcker från en lista som valts ut i f
 ## Skapa och distribuera personliga flygblad
 
 
-<chapterId>62ad5430-c698-51b3-89ac-090f31c88953</chapterId>
+<chapterId>50949d74-897a-4097-8bad-65245e5bb5e1</chapterId>
 
 
 
@@ -2064,7 +2064,7 @@ Här är [broschyren som delas mellan franska bitcoinare](https://profedustream.
 ## Framställning av en videoprojektion
 
 
-<chapterId>892b248a-b837-5df6-aac9-4b3261ff0390</chapterId>
+<chapterId>b129d071-f69a-4d55-a043-cc74e4cf6331</chapterId>
 
 
 
@@ -2104,7 +2104,7 @@ Evenemanget gav upphov till livliga diskussioner om Bitcoin Mining, dess energif
 ## Sätta upp affischer i din stad
 
 
-<chapterId>6565e8a0-d535-5be0-9764-273584c675bd</chapterId>
+<chapterId>89c658aa-414c-4a3b-a6c7-2aa99f937a70</chapterId>
 
 
 
@@ -2147,7 +2147,7 @@ Ett annat alternativ är att göra en stencil av en stor bit kartong och använd
 ## Ett personligt NFC-kort
 
 
-<chapterId>8ad65d4e-a68a-59c2-a812-85f4907ed9f3</chapterId>
+<chapterId>6734ae15-2cbe-4baf-b784-bb0afdfd95ee</chapterId>
 
 
 
@@ -2175,7 +2175,7 @@ Enhetspriset för dessa kort varierar normalt mellan 2,50 euro och 5 euro, beroe
 ## Skapa en webbplats
 
 
-<chapterId>9a2a1b9b-0633-544a-b331-c06187d23d7f</chapterId>
+<chapterId>60d6534d-569f-45b7-b9ad-49a2a4422550</chapterId>
 
 
 
@@ -2202,7 +2202,7 @@ WordPress stöder också ett brett utbud av plug-ins (vissa betalda men av hög 
 ## Skapa en videokanal (Youtube eller Odyssee)
 
 
-<chapterId>076286db-1627-57ec-a410-c44b1666e1cd</chapterId>
+<chapterId>77fa4cd7-645b-4c1f-92c5-64075ed162fd</chapterId>
 
 
 
@@ -2222,7 +2222,7 @@ Populära plattformar inkluderar:
 - [**peertube**] (https://joinpeertube.org/fr_FR), låter dig vara värd för din egen videoplattform, men det är mer komplicerat att ställa in.
 
 
-Oavsett vad du väljer, utforma plattformsspecifika bilder för att göra din kanal tilltalande. Canva, som nämns i [del 2/8] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) erbjuder en "YouTube Thumbnail" -kategori med färdiga, anpassningsbara mönster.
+Oavsett vad du väljer, utforma plattformsspecifika bilder för att göra din kanal tilltalande. Canva, som nämns i [del 2/8] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/8b85ccb1-5474-474e-ae1b-c8cb69f060ad) erbjuder en "YouTube Thumbnail" -kategori med färdiga, anpassningsbara mönster.
 
 
 
@@ -2245,7 +2245,7 @@ Tips: Om Bitcoin någonsin förbjuds eller censureras ska du alltid spara en lok
 ## Skapa en ljudpodcast
 
 
-<chapterId>12e96b45-1c33-5687-a753-80d0114d487a</chapterId>
+<chapterId>f9c6f5a8-7c0a-4dbb-8844-6d61c09e29f4</chapterId>
 
 
 
@@ -2285,7 +2285,7 @@ Tips: Precis som med videor bör du spara en lokal säkerhetskopia av alla podca
 ## Skapa en badge för dina evenemang
 
 
-<chapterId>0cccef8d-a765-5844-8921-c40f0ce653e4</chapterId>
+<chapterId>aade4c0d-6faf-4b7c-914d-00aab248b544</chapterId>
 
 
 
@@ -2311,7 +2311,7 @@ Flera badge-mallar som används av Bitcoin Lille-föreningen är [tillgängliga 
 ## Planering för överlämning i händelse av dödsfall
 
 
-<chapterId>c5febf18-235c-51bc-8fbb-9467dabe4cb0</chapterId>
+<chapterId>98ea62af-adae-4fb7-81a6-dc2054922dde</chapterId>
 
 
 
@@ -2341,7 +2341,7 @@ Du kan bilda en särskild arbetsgrupp för att definiera denna process. Bitcoin 
 ## Föreläsningar på skolor och universitet
 
 
-<chapterId>65efdb44-e3d4-567c-aedf-972765753d73</chapterId>
+<chapterId>d94b6c84-5a34-4626-a21d-6b9051eef470</chapterId>
 
 
 
@@ -2404,7 +2404,7 @@ Men det är ändå värt att försöka, särskilt med studentkårer och förenin
 ## Närmande företag
 
 
-<chapterId>b730462b-7928-5d28-a14f-9ceaa773d3d2</chapterId>
+<chapterId>3ac3d7ce-e61e-44c8-a238-2aef158da8a0</chapterId>
 
 
 
@@ -2494,7 +2494,7 @@ Canvassing är ett långsiktigt arbete. Det kräver tålamod, uthållighet och s
 ## Kontakta lokal press och radio
 
 
-<chapterId>435bfbc1-22dd-59bb-b737-a32ea995b238</chapterId>
+<chapterId>51c32266-ddc1-4ffd-bd05-ed8273ea1d93</chapterId>
 
 
 
@@ -2548,14 +2548,14 @@ Kom ihåg: varje Bitcoin-community har varit där du är nu. Tveka inte att lär
 # Att förutse framtiden
 
 
-<partId>6ea07445-9369-54bc-9aa0-d260db026e0b</partId>
+<partId>55a392cc-961d-434c-b4b0-4614f5ac1da8</partId>
 
 
 
 ## Planering för ett ökat antal deltagare
 
 
-<chapterId>8af722d4-3a9f-548c-9001-424f2142de12</chapterId>
+<chapterId>de70830d-0cde-4254-b160-734a98ce4eb8</chapterId>
 
 
 
@@ -2626,7 +2626,7 @@ I en idealisk värld skulle du ha ett **utrymme stort nog att hysa flera dussin 
 ## Decentralisering av samhällsorganisation
 
 
-<chapterId>bedfc110-e099-58f4-a5b7-fb50f3b19a49</chapterId>
+<chapterId>74e4aab7-c79e-4578-8179-0b857a961bb7</chapterId>
 
 
 
@@ -2666,7 +2666,7 @@ Använd **krypterade eller anonyma kommunikationsverktyg** för att skydda dina 
 ## Tänk om Bitcoin blev samhällets fiende nr 1?
 
 
-<chapterId>c739651f-cd13-51e0-a36e-85023749b15b</chapterId>
+<chapterId>30ca4745-f8b5-48a0-b902-8c270e2062ed</chapterId>
 
 
 
@@ -2697,14 +2697,14 @@ Vi behöver inte falla in i konspirationstänkande. Men det finns inget som hind
 # För samman bitcoiners
 
 
-<partId>62bc2138-c0be-5d39-a341-594690863257</partId>
+<partId>e3eab6b3-f19d-42ec-9167-4aa6c7e92a28</partId>
 
 
 
 ## En snabb handlingsplan för att bygga upp din Bitcoin-community
 
 
-<chapterId>1f463ec2-3f64-5641-8d60-e02a47c94f27</chapterId>
+<chapterId>9ad100ba-2b39-40ef-aec6-b2750fce4b76</chapterId>
 
 
 
@@ -2795,7 +2795,7 @@ Kom ihåg att **Du är inte ensam, befintliga grupper finns här för att stött
 ## Ta hand om dig själv
 
 
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+<chapterId>1cb1f900-b1a9-4908-8418-995f531da953</chapterId>
 
 
 
@@ -2834,7 +2834,7 @@ Ensam kan du snabbt utforska en av de många tunnlarna i Bitcoin-kaninhålet. Me
 ## BTC302, Vad händer härnäst?
 
 
-<chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
+<chapterId>f58e4746-c50e-492b-a2d1-f555e2706d9d</chapterId>
 
 
 
@@ -2882,7 +2882,7 @@ För detta ändamål kommer vi att dra nytta av erfarenheterna från grupper som
 ## Recensioner & betyg
 
 
-<chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
+<chapterId>692dfb93-db32-4ca4-9b18-f4daa83756f4</chapterId>
 
 
 <isCourseReview>true</isCourseReview>

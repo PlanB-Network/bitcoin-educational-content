@@ -15,7 +15,7 @@ objectives:
 +++
 # 簡介
 
-<partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
+<partId>541d6444-caf8-4e5b-80c3-b97f4d883d57</partId>
 
 ## 課程概覽
 
@@ -41,7 +41,7 @@ objectives:
 
 ## 作者的 Bitcoin 和 BTCPay 伺服器廣受好評
 
-<chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
+<chapterId>f0645534-c825-40fb-a190-e24358e8accc</chapterId>
 
 讓我們從BTCPay伺服器是什麼和它的來源開始。我們重視透明度和一定的標準，以便在 Bitcoin 空間形成信任。
 
@@ -81,7 +81,7 @@ FOSS 是 Free & Open-Source Software 的縮寫。前者指的是允許任何人�
 
 ## Bitcoin 簡介
 
-<chapterId>5c0bc234-c188-5b4a-94d5-adee87a120e2</chapterId>
+<chapterId>ba6af1e5-86f1-4139-a549-df2367d6319a</chapterId>
 
 ### 透過課堂練習了解 Bitcoin
 
@@ -169,7 +169,7 @@ FOSS 是 Free & Open-Source Software 的縮寫。前者指的是允許任何人�
 
 ## 知識評估
 
-<chapterId>1461f064-933d-50ea-8935-324b68ec5d5f</chapterId>
+<chapterId>c8cec6af-1e57-4a0e-a86a-7dc35f5c2350</chapterId>
 
 ### KA 課堂討論
 
@@ -191,11 +191,11 @@ Blockchain、交易、雙重支出、拜占庭將軍問題、Mining、Proof of W
 
 # BTCPay伺服器介紹
 
-<partId>9c8a2d0c-9ba1-5c39-874c-f9eaf1bba663</partId>
+<partId>8a8bbf80-1322-4ad0-b49c-9c18b969236d</partId>
 
 ## 瞭解 BTCPay 伺服器登入畫面
 
-<chapterId>14aad54c-9bd8-54f2-9455-178b8ae63408</chapterId>
+<chapterId>2d35d204-1c04-418f-91eb-a7a547ddc210</chapterId>
 
 ### 使用 BTCPay 伺服器
 
@@ -263,7 +263,7 @@ https://Mainnet.demo.btcpayserver.org/login。
 
 ## 管理使用者帳戶
 
-<chapterId>b58ca6ee-b7fc-5e81-a6aa-c8ff212b4c55</chapterId>
+<chapterId>7f2dcbc7-ba0b-4515-bf6d-d23ab19c1831</chapterId>
 
 ### BTCPay 伺服器上的帳戶管理
 
@@ -349,7 +349,7 @@ BTCPay 伺服器允許兩種方式啟用 2FA，基於應用程式的 2FA（Authy
 
 ## 建立新商店
 
-<chapterId>463b3634-b49f-5512-a711-3b2e096fc2e0</chapterId>
+<chapterId>6e8d48b0-b9b6-4fbd-8961-5cde37109c0d</chapterId>
 
 ### 建立商店精靈
 
@@ -407,11 +407,11 @@ BTCPay 伺服器帳戶可以建立無限數量的商店。每個商店都是一�
 
 # 保護 Bitcoin 金鑰簡介
 
-<partId>25da22d8-fd37-51c5-af2a-58b9f3b046b2</partId>
+<partId>dd0975de-76e6-4255-a3b2-e454009d1aa5</partId>
 
 ## 瞭解 Bitcoin 金鑰的產生
 
-<chapterId>d162735b-847b-578e-83b8-a044ab703ec5</chapterId>
+<chapterId>8a6164a5-aea6-4348-aa71-135d03de98bc</chapterId>
 
 ### 產生 Bitcoin 金鑰涉及什麼？
 
@@ -454,7 +454,7 @@ Address 通過 「散列演算法 」從公開金鑰獲得。但是，大多數�
 
 ## 使用 Hardware Wallet 保護金鑰
 
-<chapterId>c54a6d61-5a43-5fdb-93ae-c6750de9c612</chapterId>
+<chapterId>94cf5f31-7292-4608-b10e-8e46b1ebd627</chapterId>
 
 ### 儲存 Bitcoin 金鑰
 
@@ -492,7 +492,7 @@ Hot 電子錢包是透過行動、網路或桌上型軟體與 Bitcoin 進行互�
 
 ## 使用您的 Bitcoin 按鍵
 
-<chapterId>bff488de-5052-56e6-b696-97e896f762ae</chapterId>
+<chapterId>ae5aafd5-28b7-4ef7-8ebc-3ac5f19769c7</chapterId>
 
 ### BTCPay 伺服器 Wallet
 
@@ -742,7 +742,7 @@ BTCPay伺服器在產生新的Wallet時提供的第二個選擇是通過創建�
 
 ## BTCPay 伺服器 Lightning Wallet
 
-<chapterId>1bbece7e-0197-57e6-a93a-561cf384d946</chapterId>
+<chapterId>ca874f9a-4f97-44d5-9bf4-57c8b17d25bf</chapterId>
 
 當伺服器管理員配置一個新的BTCPay伺服器實例時，他可以設置Lightning Network實現、LND、Core Lightning或Eclair；更詳細的安裝說明請參閱配置BTCPay伺服器部分。
 
@@ -925,11 +925,11 @@ BTCPay伺服器需要連接資訊；之前製作的（或託管解決方案）�
 
 # BTCPay 伺服器 Interface
 
-<partId>25e88b81-e1ab-515f-a035-09f2a3075556</partId>
+<partId>76b4a36d-9cf8-469d-a763-a75cc38c812a</partId>
 
 ## 儀表板概觀
 
-<chapterId>410ff28b-a272-5c91-93e0-48d5b28c53ab</chapterId>
+<chapterId>8bd1c31e-a487-4c32-b3af-bcecc7117a80</chapterId>
 
 BTCPay Server是一個模組化的軟體套件。然而，每台BTCPay伺服器都會有一些標準，管理員/用戶會與之互動。從儀表板開始。每個BTCPay服務器在登錄後的主要入口。儀表板提供了您的商店的表現，Wallet的當前餘額，以及在過去7天的最後tx的概述。由於這是一個模組化的檢視，外掛程式可以利用這個檢視，並在儀表板上建立自己的磁磚。在本課程中，我們將只討論 BTCPay 伺服器中的標準外掛程式/應用程式及其各自的檢視。
 
@@ -1015,7 +1015,7 @@ Wallet Balance 磁磚提供 Wallet 資金和績效的快速概覽。它可以用
 
 ## BTCPay 伺服器 - 商店設定
 
-<chapterId>e8faef7b-278d-550e-a511-bc3a442daf64</chapterId>
+<chapterId>00ff7c8c-46f9-4d88-92cc-c63e4ff348f9</chapterId>
 
 在BTCPay伺服器軟體中，我們知道有兩種類型的設定。BTCPay服務器商店特定設置，可在儀表板下方左側菜單欄中找到設置按鈕；BTCPay服務器設置，可在賬戶上方菜單欄底部找到。BTCPay伺服器的伺服器特定設置只能由伺服器管理員查看。
 
@@ -1368,7 +1368,7 @@ BTCPay Server 也允許您在程式碼中建立表單。尤其是 JSON。店主�
 
 ## BTCPay 伺服器 - 伺服器設定
 
-<chapterId>1dd858a2-49ea-586b-9bc1-75a65f508df6</chapterId>
+<chapterId>07022d6d-594f-46d7-8363-c8c16a561f4f</chapterId>
 
 BTCPay 伺服器包含兩個不同的設定檢視。一個是專門的商店設置，另一個是伺服器設置。後者只有當您是伺服器管理員時才能使用，而非商店所有者。伺服器管理員可以新增使用者、建立自訂角色、設定電子郵件伺服器、設定政策、執行維護任務、檢查 BTCPay 伺服器的所有附加服務、上傳檔案至伺服器或檢查日誌。
 
@@ -1797,7 +1797,7 @@ BTCPay伺服器擁有本地檔案系統，可直接上載商店（產品）資�
 
 ## BTCPay 伺服器 - 付款
 
-<chapterId>e2b71ff9-3f4f-5e71-9771-8e03fbbef00f</chapterId>
+<chapterId>1f6899d4-85c1-41fe-8f23-4a7bec44e9c2</chapterId>
 
 Invoice 是賣方向買方發出的收款文件。
 
@@ -2062,7 +2062,7 @@ BTCPay伺服器提供了一個完整的API給發送者和接收者，該API在�
 
 ## BTCPay 伺服器預設外掛程式
 
-<chapterId>7d673dc4-bd5d-5411-819b-f135f1d86636</chapterId>
+<chapterId>2d994561-7f8d-4862-8b9f-cee7d81df6f2</chapterId>
 
 ### 預設外掛程式與應用程式
 
@@ -2403,11 +2403,11 @@ BTCPay Server 標配的三個內置插件是什麼？請用幾個字描述每種
 
 # 設定 BTCPay 伺服器
 
-<partId>ff38596c-7de3-5e5c-ba50-9b9edbbbb5eb</partId>
+<partId>c3a8bd83-0676-4388-87b2-325d67f43d9d</partId>
 
 ## 在 LunaNode 環境中安裝 BTCPay 伺服器的基本瞭解
 
-<chapterId>d0a28514-ffcf-529b-9156-29141f0b060a</chapterId>
+<chapterId>f0f934af-eb3c-4d86-bd7b-3fee8fb7c10e</chapterId>
 
 ### 在託管環境中安裝 BTCPay 伺服器 (LunaNode)
 
@@ -2503,7 +2503,7 @@ LunaNode 提供多種虛擬機 (VM) 計劃。這些在價格範圍和伺服器�
 
 ## 在電壓環境下安裝 BTCPay 伺服器
 
-<chapterId>11c7d284-b4d2-5542-872c-df9bd9c1491b</chapterId>
+<chapterId>ef790587-4c73-4311-96f1-5a9219b9a7fd</chapterId>
 
 您將熟習 Voltage.cloud 作為主機提供商，了解使用 BTCPay 伺服器的第一步，並學習如何使用 Lightning Network。在我們完成所有步驟後，您就可以運行一個接受 Bitcoin 的網路商店或集資平台！
 
@@ -2553,7 +2553,7 @@ Voltage 和 LunaNode 設定之間有哪些主要差異？
 
 ## 在 Umbrel 節點上安裝 BTCPay 伺服器
 
-<chapterId>3298e292-6476-5fe0-836c-7fa021348799</chapterId>
+<chapterId>bdd94bfc-c8da-4c8b-8b0e-ed4f9a5dd42e</chapterId>
 
 這些步驟結束後，您就可以在您的本地網絡上接受閃電付款到您的 BTCPay 商店。如果您在餐廳或企業中運行一個 umbrel 節點，這個過程也同樣適用。如果您想將此商店連接到公共網站，請按照進階練習，將您的 umbrel 節點公開。
 
@@ -2614,15 +2614,15 @@ Umbrel 上的設定與前兩個託管選項有何不同？
 
 # 總結
 
-<partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
+<partId>5449bff6-f410-4f2a-a373-7b915bb6d726</partId>
 
 ## 評論與評分
 
-<chapterId>d90bb93d-b894-551e-9fd6-6855c739a904</chapterId>
+<chapterId>bf665be7-1be0-4d54-b8c6-64fbb40c9190</chapterId>
 
 <isCourseReview>true</isCourseReview>
 ## 課程總結
 
-<chapterId>c07ac2a5-f97e-5c57-8a80-4955b48128d4</chapterId>
+<chapterId>bbda2002-757d-4dad-8c8a-ff95cec77077</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

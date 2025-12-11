@@ -15,11 +15,11 @@ This school of thought has shaped debates for centuries, thanks to influential t
 +++
 # Introduction
 
-<partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
+<partId>21613091-f43a-4a87-88d9-2d69038d41d2</partId>
 
 ## Course Overview
 
-<chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
+<chapterId>43b56a2b-bbee-4faa-b52a-9b6c540df559</chapterId>
 
 Welcome to the ECO201 course!
 
@@ -46,7 +46,7 @@ And what if the key to understanding today's economy lies in a theory several ce
 
 ## Money, Credit, Banks, and Central Banks
 
-<chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
+<chapterId>84a09f98-8cd7-468f-9cc1-6c0add06ce12</chapterId>
 
 > “The root problem with conventional currency is all the trust that’s required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust. Banks must be trusted to hold our money and transfer it electronically, but they lend it out in waves of credit bubbles with barely a fraction in reserve. We have to trust them with our privacy, trust them not to let identity thieves drain our accounts.”
 >
@@ -139,11 +139,11 @@ In the upcoming chapter, we will delve into the foundational cornerstone of any 
 
 # Theoretical Foundations
 
-<partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
+<partId>6249c7e4-71bc-453b-8a09-ab579d340709</partId>
 
 ## The Subjective Theory of Value
 
-<chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
+<chapterId>fb001732-6bf7-4935-b8ec-6c225dab1025</chapterId>
 
 > “Value only exists within human consciousness”
 >
@@ -229,7 +229,7 @@ The following chapters will be dedicated to the emergence of money as a social i
 
 ## The Emergence of Money as a Social Phenomenon
 
-<chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
+<chapterId>469d591e-b407-4218-bccb-6a433f731cb3</chapterId>
 
 While individuals have a common interest in specialization and maximizing the division of labor, there are still coordination problems that limit this expansion.
 
@@ -312,7 +312,7 @@ In the next chapter we will delve into the concept of time preference and explai
 
 ## Time Preference, Interest, and Capital
 
-<chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
+<chapterId>e0a5c946-dd4c-4aa6-9b6e-aaacb23241ae</chapterId>
 
 ### Time Preference
 
@@ -384,11 +384,11 @@ This is what we will find out in the next chapter dedicated to the Austrian Theo
 
 # Austrian Economic Perspectives
 
-<partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
+<partId>851a6712-84ea-48d2-85f7-3354e1381a06</partId>
 
 ## The Austrian Theory of the Business Cycle
 
-<chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
+<chapterId>17248205-835a-4284-ba94-0eb131916aa3</chapterId>
 
 > “The longer the boom of inflationary bank credit continues, the greater the scope of malinvestments in capital goods, and the greater the need for liquidation of these unsound investments. When the credit expansion stops, reverses, or even significantly slows down, the malinvestments are revealed”
 >
@@ -465,7 +465,7 @@ This will be the subject of the next and last chapter of this course.
 
 ## The Impossibility of Economic Calculation under Socialism
 
-<chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
+<chapterId>9b9e185f-5b0d-4850-813e-0c50e309a909</chapterId>
 
 > “Where there are no market prices for the factors of production because they are neither bought nor sold, it is impossible to resort to calculation in planning future action and in determining the result of past action. A socialist management of production would simply not know whether or not what it plans and executes is the most appropriate means to attain the ends sought. It will operate in the dark, as it were. It will squander the scarce factors of production both material and human (labour). Chaos and poverty for all will unavoidably result”
 >
@@ -541,7 +541,7 @@ The Austrian tradition embodies a humble approach to human action, drawing profo
 
 ## The Austrian Methodology
 
-<chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
+<chapterId>1fdf4c5d-0008-4f69-97e7-127fb3ef63e0</chapterId>
 
 The Austrian school of economics distinguishes itself from other schools by its axiomatic-deductive methodology, which differs from the positivist approach often used in social sciences. The positivist approach is based on laws established from empirical data, adopting a method similar to that of physical sciences. It formulates hypotheses from observations, which are then confirmed or refuted by temporary experiments. The scientific method consists of retaining the hypothesis that best explains the data and continuing to explore it until a more precise hypothesis is found.
 
@@ -563,16 +563,16 @@ Methodology is an essential aspect in economics and in social sciences in genera
 
 # Final Section
 
-<partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
+<partId>373760d2-4e6e-4a05-8081-6d02072457d7</partId>
 
 ## Reviews & Ratings
 
-<chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
+<chapterId>2373a3ce-1c87-415a-8dd6-0437b4f71e79</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Final Exam
 
-<chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
+<chapterId>1c584ca3-c738-4151-8a85-101a142fcbbc</chapterId>
 <isCourseExam>true</isCourseExam>
 
 

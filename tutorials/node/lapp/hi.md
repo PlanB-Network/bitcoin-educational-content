@@ -30,7 +30,7 @@ LND नोड को डाउनलोड करने और सेट अप 
 - हमारे फ्रंटएंड के लिए पग टेम्पलेट्स + बूटस्ट्रैप
 
 
-https://planb.academy/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
+https://planb.academy/courses/16996fc9-c025-467a-9373-fa45d721ad34
 
 ## ऑपरेटिंग सिस्टम
 

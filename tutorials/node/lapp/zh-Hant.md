@@ -30,7 +30,7 @@ NodeJs 可從其官方網站下載
 - 為我們的前端提供 Pug 模板 + bootstrap
 
 
-https://planb.academy/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
+https://planb.academy/courses/16996fc9-c025-467a-9373-fa45d721ad34
 
 ## 作業系統
 

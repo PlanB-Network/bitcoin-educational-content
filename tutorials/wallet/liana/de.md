@@ -27,7 +27,7 @@ Das nachstehende Diagramm veranschaulicht die Funktionsweise eines Portfolios mi
 Mit diesem Vorgang können Sie verschiedene Konfigurationen einrichten, darunter :
 
 
-- Ein Nachfolgeplan (oder Erbschaftsplan), der es den Erben ermöglicht, im Falle des Todes des Nutzers Gelder zurückzuerhalten. Für weitere Informationen zu diesem Thema empfehlen wir die Lektüre von [Teil 4] (https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) des Kurses BTC102.
+- Ein Nachfolgeplan (oder Erbschaftsplan), der es den Erben ermöglicht, im Falle des Todes des Nutzers Gelder zurückzuerhalten. Für weitere Informationen zu diesem Thema empfehlen wir die Lektüre von [Teil 4] (https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/dcec2c9c-f5d9-4d47-977d-d21c5bff05cb) des Kurses BTC102.
 - Ein verstärktes Backup mit Wiederherstellungszeit, das dem Nutzer die Möglichkeit gibt, sein Portemonnaie zu benutzen, ohne dass er die entsprechende geheime Phrase aufbewahren und riskieren muss, dass sie gestohlen wird, z. B. bei einem Einbruch.
 - Ein Sicherheitsnetz für Menschen, die mit Bitcoin anfangen: Sie verwalten ihre eigene Wallet, und ihr "Vormund" (z. B. ein Verwandter) behält sich das Recht vor, ihre Gelder nach einer bestimmten Zeit zurückzuholen.
 - Ein Mehrparteien-Signatursystem (*multisig*) mit reduzierten Anforderungen im Laufe der Zeit, um das Verschwinden eines oder mehrerer Teilnehmer, z. B. der Partner eines Unternehmens, zu bewältigen.

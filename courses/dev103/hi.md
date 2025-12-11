@@ -28,12 +28,12 @@ objectives:
 +++
 # मूल जावास्क्रिप्ट
 
-<partId>a617327c-e5a2-52ca-9380-c63f44623dd4</partId>
+<partId>f05873c1-d927-41c7-a204-bb0c65a76980</partId>
 
 
 ## स्थापित करना
 
-<chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
+<chapterId>f23bda2d-c460-4823-9d63-f2ac4d782c1f</chapterId>
 
 
 
@@ -182,7 +182,7 @@ console.log(16, 8, 1993)
 
 ## चर और टिप्पणियाँ
 
-<chapterId>23050ab7-343b-5edf-9d37-e4e782e27ce0</chapterId>
+<chapterId>3eeeaba5-0eae-446f-9cbb-671d8ec89155</chapterId>
 
 
 प्रोग्राम आमतौर पर डेटा पर ऑपरेशन निष्पादित करते हैं।
@@ -466,7 +466,7 @@ console.log(y)
 
 ## मूल प्रकार: संख्याएँ, स्ट्रिंग्स, बूलियन
 
-<chapterId>cfdb04f6-21a8-5143-bbf9-7aaae04962f0</chapterId>
+<chapterId>1885cd1e-9477-40b3-846f-c6484a0741d1</chapterId>
 
 
 जावास्क्रिप्ट में, एक "प्रकार" आपको बताता है कि कोई मान किस प्रकार का डेटा है।
@@ -723,7 +723,7 @@ console.log(theyAreDifferent)  // true
 
 ## सारणी, शून्य, अपरिभाषित
 
-<chapterId>7bf18183-5eae-53ed-83d2-b04982145d81</chapterId>
+<chapterId>8047722f-5eee-46c3-b17f-c29b709930c3</chapterId>
 
 
 इस अनुभाग में, हम तीन और प्रकारों को कवर करेंगे जो जावास्क्रिप्ट प्रोग्रामों में बहुत आम हैं:
@@ -970,7 +970,7 @@ Alice
 
 ## ब्लॉक और नियंत्रण प्रवाह
 
-<chapterId>be985168-2636-5b0d-a48f-ac1bbfbff8a7</chapterId>
+<chapterId>ae3ddb7d-b174-4328-ba45-e3629ea01063</chapterId>
 
 
 अब तक, हमने अधिकतर कोड की ऐसी पंक्तियाँ लिखी हैं जो एक के बाद एक चलती हैं।
@@ -1500,7 +1500,7 @@ console.log(totalDaysInOneYear)  // Print the total number of days in the year (
 
 ## कार्यों का परिचय
 
-<chapterId>cc324715-09c2-5cf7-9e6f-47a6f16bc04d</chapterId>
+<chapterId>c73497b2-30c8-47c3-994c-01404924634e</chapterId>
 
 
 जैसे-जैसे आपके प्रोग्राम विकसित होते हैं, आप अक्सर कोड के टुकड़ों का पुनः उपयोग करना चाहेंगे।
@@ -1740,7 +1740,7 @@ console.log(x)
 
 ## ऑब्जेक्ट और क्लासेस
 
-<chapterId>26689f25-8212-5057-8c21-3a05eee0ac75</chapterId>
+<chapterId>820f0b78-7065-4929-84eb-6d569d75a9ce</chapterId>
 
 
 जावास्क्रिप्ट को अक्सर ऑब्जेक्ट-ओरिएंटेड भाषा कहा जाता है।
@@ -2425,12 +2425,12 @@ console.log(ourAdmin instanceof User)    // true
 
 # मध्यवर्ती जावास्क्रिप्ट
 
-<partId>243f63ab-4f34-5c30-80cb-84ef46f6761d</partId>
+<partId>371fcc46-5c4f-4e9f-8e88-092927553fdc</partId>
 
 
 ## त्रुटि प्रबंधन
 
-<chapterId>d0206bc5-d386-5e7f-9917-5803f392448c</chapterId>
+<chapterId>a34f710a-8955-4f58-a559-003706047512</chapterId>
 
 
 जैसे-जैसे आप ज़्यादा जटिल JavaScript प्रोग्राम लिखते हैं, आपको **त्रुटियाँ** मिलेंगी। ये अप्रत्याशित स्थितियाँ होती हैं जहाँ कुछ गड़बड़ हो जाती है। हो सकता है कि कोई वेरिएबल `अपरिभाषित` हो, लेकिन आप उसका इस्तेमाल करने की कोशिश करते हैं, या किसी कोड को गलत प्रकार का इनपुट मिलता है।
@@ -2583,7 +2583,7 @@ This will run no matter what.
 
 ## कीड़ों से बचना
 
-<chapterId>db12d9f6-5806-514c-998e-0ae24805104e</chapterId>
+<chapterId>44624b0b-ca62-471b-9ff4-633ac4456031</chapterId>
 
 
 यह अध्याय जावास्क्रिप्ट में कुछ सबसे आम कमियों को दर्शाता है, तथा उनसे बचने के तरीके भी बताता है।
@@ -2681,7 +2681,7 @@ name = "Alice" // ReferenceError: name is not defined
 
 ## मूल्य बनाम संदर्भ
 
-<chapterId>bb898425-dc2f-5e5c-864b-0cb7a4a9aea9</chapterId>
+<chapterId>7b38da5d-a2a8-4a92-bd16-4f9fb9bba36d</chapterId>
 
 
 जावास्क्रिप्ट विभिन्न प्रकार के मानों को अलग-अलग तरीकों से व्यवहार करता है।
@@ -2845,7 +2845,7 @@ console.log(person.name) // Charlie
 
 ## कार्यों के साथ कार्य करना
 
-<chapterId>e0d277a8-c642-5af7-9e53-dee27c811967</chapterId>
+<chapterId>5ef8fb79-0042-4185-8f54-0c2b6741cb11</chapterId>
 
 
 आप पहले ही सीख चुके हैं कि जावास्क्रिप्ट में फ़ंक्शन कैसे घोषित और उपयोग किए जाते हैं। लेकिन जावास्क्रिप्ट आपको फ़ंक्शन के साथ प्रभावशाली तरीके से काम करने के लिए और भी टूल देता है।
@@ -3113,7 +3113,7 @@ console.log(result) // 28
 
 ## वस्तुओं के साथ कार्य करना
 
-<chapterId>7842aada-f009-5518-b8e3-1104e166a035</chapterId>
+<chapterId>51719896-7c92-4730-b153-7d3f88680a73</chapterId>
 
 
 इस अध्याय में, हम जावास्क्रिप्ट में ऑब्जेक्ट्स के साथ काम करने के लिए कुछ शक्तिशाली और थोड़े अधिक उन्नत टूल सीखेंगे।
@@ -3240,7 +3240,7 @@ console.log(user.lastName)  // Smith
 
 ## कुंजियाँ और मान
 
-<chapterId>01a397b8-c12a-5c39-82b3-6d9ebbb72a29</chapterId>
+<chapterId>03899213-ca26-4beb-b836-c70116a5cb29</chapterId>
 
 
 जावास्क्रिप्ट ऑब्जेक्ट में प्रत्येक प्रॉपर्टी की एक कुंजी (जिसे प्रॉपर्टी नाम भी कहा जाता है) और एक मान होता है।
@@ -3415,7 +3415,7 @@ console.log(obj) // { name: 'Jimmy', [Symbol(name)]: 'John' }
 
 ## उपयोगिता वस्तुएँ
 
-<chapterId>516e74c8-2a11-545a-a4d1-c2cabb91a273</chapterId>
+<chapterId>d6ce15ed-f38f-44f0-bf38-05f54a263763</chapterId>
 
 
 जावास्क्रिप्ट हमें कुछ उपयोगी अंतर्निहित ऑब्जेक्ट्स प्रदान करता है जो हमें डिबगिंग और गणितीय कार्यों जैसे कार्यों में मदद करते हैं।
@@ -3588,12 +3588,12 @@ console.log(Math.sqrt(16))    // 4
 
 # उन्नत जावास्क्रिप्ट
 
-<partId>72c30671-ca20-5617-92a5-d5ba7aa38c93</partId>
+<partId>4deca44e-5be7-4cc7-8e66-b6e72c5c5702</partId>
 
 
 ## अन्य संग्रह
 
-<chapterId>a9a70c6d-a343-5a46-a383-e288bc2700e3</chapterId>
+<chapterId>06bc3143-6d3b-4742-b3ec-3d493200f290</chapterId>
 
 
 जावास्क्रिप्ट हमें कुछ विशेष संग्रह प्रकार प्रदान करता है जो नियमित ऐरे और ऑब्जेक्ट से आगे जाते हैं। इनमें `मैप` और `सेट` शामिल हैं।
@@ -3761,7 +3761,7 @@ console.log(numberSet) // Set(5) { 1, 2, 3, 4, 5 }
 
 ## पुनरावर्तक
 
-<chapterId>61d24e5e-b7e4-541a-8322-778f61f26a72</chapterId>
+<chapterId>cdf64150-bf1b-43ee-9243-eb1d12944f6b</chapterId>
 
 
 जावास्क्रिप्ट में अधिकांश चीजें जिन पर आप लूप कर सकते हैं (जैसे कि ऐरे, स्ट्रिंग्स, मैप्स, सेट) पुनरावृत्तीय हैं: वे अपनी सामग्री के लिए पुनरावृत्तक प्रदान कर सकते हैं।
@@ -4096,7 +4096,7 @@ console.log(num)
 
 ## कॉलबैक के साथ समवर्तीता
 
-<chapterId>f3fc76ca-b3ef-54eb-a06e-501007002054</chapterId>
+<chapterId>153d4631-4f09-4673-9663-a0655c84915d</chapterId>
 
 
 अब तक, हमारा कोड **सिंक्रोनस** रहा है: यह एक बार में एक पंक्ति, क्रम से चलता है। लेकिन वास्तविक दुनिया में कुछ चीज़ें समय लेती हैं, और हम नहीं चाहते कि पूरा प्रोग्राम प्रतीक्षा करते हुए रुक जाए।
@@ -4221,7 +4221,7 @@ console.log("Final result:", total)
 
 ## वादों के साथ समवर्तीता
 
-<chapterId>30fddaca-729f-5c8d-bf86-8dfc7b3c9800</chapterId>
+<chapterId>f8635081-bd8a-468c-937a-378cba983be8</chapterId>
 
 
 `वादा` एक अंतर्निहित जावास्क्रिप्ट ऑब्जेक्ट है जो एक ऐसे मान का प्रतिनिधित्व करता है जो **भविष्य में तैयार होगा**।
@@ -4553,7 +4553,7 @@ Final result after all steps: 10
 
 ## async/await के साथ समवर्तीता
 
-<chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
+<chapterId>ee195267-5761-4b57-b9c9-294c41753675</chapterId>
 
 
 हमने देखा कि किस प्रकार `Promise` श्रृंखलाएं हमें कॉलबैक नरक से बचने में मदद करती हैं, लेकिन जब इसमें कई चरण शामिल होते हैं, तब भी उन्हें पढ़ने के लिए थोड़ा Hard की आवश्यकता हो सकती है।
@@ -4754,7 +4754,7 @@ Final result: 10
 
 ## एसिंक्रोनस इटरेटर्स
 
-<chapterId>438b037d-9931-56d7-9052-7b4470f3c75b</chapterId>
+<chapterId>0e054e0d-3c56-4a9c-92b8-3f89082951d3</chapterId>
 
 
 आप पहले ही **इटरेटर्स** के बारे में जान चुके हैं और यह भी कि हम `for...of` का उपयोग ऐरे और अन्य पुनरावृत्तीय चीजों पर लूप करने के लिए कैसे कर सकते हैं।
@@ -4933,7 +4933,7 @@ run()
 
 ## Assignment सिंटैक्स शुगर
 
-<chapterId>8b1ba7d8-ecfd-5470-b86e-73cb84ccc8b7</chapterId>
+<chapterId>05425043-b182-44f2-8409-210b07130f92</chapterId>
 
 
 "सिंटेक्स शुगर" का मतलब है किसी चीज़ को उसके मूल रूप में बदलाव किए बिना, उसे छोटा या आसान तरीके से लिखना। यह बस वही बात कहने का एक बेहतर तरीका है।
@@ -5184,12 +5184,12 @@ console.log(updated) // { name: "Alice", age: 31 }
 
 # नोडजेएस
 
-<partId>42fe4d49-dace-5135-bb9e-b9d75034fb2a</partId>
+<partId>5b72ef93-69a6-4736-a375-6236861e2874</partId>
 
 
 ## हम नोड तक कैसे पहुंचे?
 
-<chapterId>0da1d60c-06c9-54e6-a181-ae7dabf6e3b8</chapterId>
+<chapterId>d43b1e4c-cd96-4c75-8039-f76eb407a576</chapterId>
 
 
 इस अध्याय में हम जावास्क्रिप्ट और नोडजेएस के बारे में थोड़ा ऐतिहासिक संदर्भ जानेंगे।
@@ -5278,7 +5278,7 @@ console.log(updated) // { name: "Alice", age: 31 }
 
 ## कमांड लाइन तर्क
 
-<chapterId>960d20f3-c424-5d51-a041-ef17d2e94b6d</chapterId>
+<chapterId>941e316c-7ab8-4fb0-8298-9a1c85b25b71</chapterId>
 
 
 NodeJS हमें अन्य चीजों के अलावा CLIs (कमांड लाइन इंटरफेस) बनाने की अनुमति देता है।
@@ -5355,7 +5355,7 @@ console.log(args)
 
 ## मॉड्यूल
 
-<chapterId>4e1651a5-65fd-50bc-b22a-40313d5659ca</chapterId>
+<chapterId>ace32a0c-8a10-4dfa-83e2-e06a8f674a24</chapterId>
 
 
 NodeJS जैसे जावास्क्रिप्ट रनटाइम आमतौर पर प्रत्येक जावास्क्रिप्ट फ़ाइल को एक अलग मॉड्यूल के रूप में मानते हैं।
@@ -5495,7 +5495,7 @@ console.log(os.platform())
 
 ## fs मॉड्यूल
 
-<chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
+<chapterId>e59cdf25-2dc2-48d1-b5c1-3df89254ff4e</chapterId>
 
 
 `fs` मॉड्यूल (**फ़ाइल सिस्टम** का संक्षिप्त रूप) NodeJS मानक लाइब्रेरी का हिस्सा है। यह आपको अपने कंप्यूटर पर फ़ाइलों और निर्देशिकाओं के साथ काम करने की सुविधा देता है: आप फ़ाइलें पढ़ सकते हैं, लिख सकते हैं, उन्हें हटा सकते हैं, उनका नाम बदल सकते हैं, और भी बहुत कुछ कर सकते हैं।
@@ -5793,7 +5793,7 @@ main().catch(err => console.error(err))
 
 ## NPM
 
-<chapterId>a91d9a75-55cc-51a3-a48f-0c0be6fe6e72</chapterId>
+<chapterId>412cfd23-1869-491e-9d04-84b9c447b4df</chapterId>
 
 
 जब आप कोड लिखते हैं, तो आपको अक्सर अन्य लोगों द्वारा लिखे गए कोड का उपयोग करने की आवश्यकता होगी; उदाहरण के लिए, तारीखों, रंगों, सर्वरों या लगभग किसी भी अन्य चीज़ के साथ काम करने में आपकी मदद करने के लिए लाइब्रेरीज़।
@@ -6014,7 +6014,7 @@ pico.green("This text is green!")
 
 ## NodeJS में नेटवर्किंग
 
-<chapterId>f2cabd8b-754b-5c97-8d6a-8412a9a184c7</chapterId>
+<chapterId>5915bd97-6bc8-446a-a1d8-ca3ce2f724be</chapterId>
 
 
 नोडजेएस का उपयोग अक्सर बैकएंड के लिए एक भाषा के रूप में किया जाता है: आप अपनी स्क्रिप्ट को सर्वर में बदल सकते हैं, और इसका उपयोग अन्य सर्वरों से अनुरोध करने के लिए भी कर सकते हैं।
@@ -6216,7 +6216,7 @@ res.end("Not Found")
 
 ## डेटा प्रसंस्करण: बफ़र्स, ईवेंट, स्ट्रीम
 
-<chapterId>8c9623f0-a604-51a4-8fe4-871c849d3e3b</chapterId>
+<chapterId>6327b62d-3e2d-4a40-b8c3-78f2a21f3fda</chapterId>
 
 
 इस अध्याय में हम मुख्यतः तीन प्रकार की वस्तुओं का परिचय देंगे:
@@ -6703,7 +6703,7 @@ writable.on("drain",                // the writable stream emits a "drain" event
 
 ## अंतिम नोट
 
-<chapterId>139e2ab8-df67-525a-85f0-5a2fa5e478f2</chapterId>
+<chapterId>c09318b9-2d2f-4300-a32b-dff8dbdb9dbd</chapterId>
 
 
 तो, बस इतना ही, यदि आपने पाठों का अनुसरण किया है, तो अब आप NodeJS में कुछ सरल प्रोग्राम लिखने में सक्षम हो जाएंगे।
@@ -6724,20 +6724,20 @@ writable.on("drain",                // the writable stream emits a "drain" event
 # अंतिम खंड
 
 
-<partId>322624d8-6fbc-11f0-a67a-5b145f10afc1</partId>
+<partId>528a2f0c-e5cf-49e5-95c8-4866523a5bde</partId>
 
 
 ## समीक्षाएं और रेटिंग
 
 
-<chapterId>3e93ac86-6fbc-11f0-8bae-9b2ed7914843</chapterId>
+<chapterId>5c5cae08-1839-4b94-b89c-af40a0dc14a9</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## निष्कर्ष
 
 
-<chapterId>49b3b9b2-6fbc-11f0-9870-5f5adcd3a0eb</chapterId>
+<chapterId>627aebc9-879f-4539-8501-dd0a517dd4a0</chapterId>
 
 
 <isCourseConclusion>true</isCourseConclusion>

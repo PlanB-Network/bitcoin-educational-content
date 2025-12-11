@@ -40,7 +40,7 @@ Ta operacja umożliwia ustawienie różnych konfiguracji, w tym :
 
 
 
-- Plan sukcesji (lub dziedziczenia), umożliwiający spadkobiercom odzyskanie środków w przypadku śmierci użytkownika. Aby uzyskać więcej informacji na ten temat, zalecamy przeczytanie [części 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) kursu BTC102.
+- Plan sukcesji (lub dziedziczenia), umożliwiający spadkobiercom odzyskanie środków w przypadku śmierci użytkownika. Aby uzyskać więcej informacji na ten temat, zalecamy przeczytanie [części 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/dcec2c9c-f5d9-4d47-977d-d21c5bff05cb) kursu BTC102.
 - Wzmocniona kopia zapasowa z czasem odzyskiwania, dająca użytkownikowi możliwość korzystania z Wallet bez konieczności przechowywania odpowiedniej tajnej frazy i ryzyka kradzieży, na przykład podczas włamania.
 - Siatka bezpieczeństwa dla osób rozpoczynających z Bitcoin: będą zarządzać własnym Wallet, a ich "opiekun" (na przykład krewny) zastrzeże sobie prawo do odzyskania środków po określonym czasie.
 - Schemat podpisu wielostronnego (*Multisig*) ze zmniejszonymi wymaganiami w czasie, aby poradzić sobie ze zniknięciem jednego lub więcej uczestników, takich jak partnerzy firmy.

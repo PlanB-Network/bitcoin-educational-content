@@ -59,13 +59,13 @@ Spremni da ponovo otkrijete francuske korene ekonomskog liberalizma? Krenimo!
 # Preteče
 
 
-<partId>91565b10-6010-53cb-a2f4-9c2306c7ef8c</partId>
+<partId>c77622e2-0e20-4de1-a55d-380a454185bc</partId>
 
 
 ## Istorijska pozadina
 
 
-<chapterId>6a5fd101-6dfd-5d77-96c7-9e1aa4a19758</chapterId>
+<chapterId>eb7344f4-ec44-43ae-83e5-e764e22b7c11</chapterId>
 
 
 Na praskozorju 18. veka, Francuska je bila u zabrinjavajućem stanju. Ruralno stanovništvo je jedva proizvodilo dovoljno za preživljavanje i bilo je teško oporezovano.
@@ -145,7 +145,7 @@ Ovo su četiri principa koja su vodila francusku vladu nekoliko decenija, dok je
 ## Vauban
 
 
-<chapterId>ee9c1e0e-96cc-5026-a5e2-963d68122786</chapterId>
+<chapterId>6b77468d-b8e3-47d2-b304-c290eea1c7d9</chapterId>
 
 
 Danas, kako poreski pritisak u našoj zemlji nastavlja da raste, preteći da uguši nacionalne ekonomske snage, glasovi se dižu u korist promene. Bilo svesno ili ne, ovi pozivi za reformu često odjekuju rad francuskih ekonomista koji su, još od 17. veka, kritikovali poreski sistem nacije kao haotičan, despotski, prekomeran.
@@ -212,7 +212,7 @@ Nedugo pre svoje smrti, Vaubanovu ideju su usvojili ministri Luja XIV. Međutim,
 ## Boisguilbert
 
 
-<chapterId>200149c6-b5fc-566e-ab0e-bafb1c3fed3c</chapterId>
+<chapterId>e5dd73e0-e48e-43e7-a9af-d651414cfc6b</chapterId>
 
 
 Nekoliko francuskih ekonomista iz prošlosti danas uživa priznanje u svojoj domovini koje odgovara njihovim doprinosima, a Boisguilbert nije izuzetak.
@@ -272,7 +272,7 @@ Boisguilbert je čak kritikovao "*dobre duše*", kako ih je nazivao, one koji su
 ## Cantillon
 
 
-<chapterId>bc206d41-6a64-5688-a489-40fcfa0e5397</chapterId>
+<chapterId>7a6654fe-874e-45ca-a98f-1f3d17c09f24</chapterId>
 
 
 Autor "Eseja o prirodi trgovine uopšte" (napisan oko 1730, objavljen 1755), Richard Cantillon se smatra jednim od pionira moderne ekonomske nauke. U svojoj Istoriji ekonomske misli, ekonomista Murray Rothbard čak naziva Cantillona osnivačem moderne ekonomije.
@@ -335,13 +335,13 @@ Ovom teorijom o efektima inflacije, Cantillon nam pruža odgovore na brojne savr
 # Reformatori i mislioci ranog 18. veka
 
 
-<partId>1f7b50d4-ce93-5db3-8396-43c1fa5419ff</partId>
+<partId>c4403d75-884e-4922-8be7-5121e2709d6a</partId>
 
 
 ## Opat Saint-Pierrea
 
 
-<chapterId>13478fe2-4c12-593c-a410-54c2cfb7ef7f</chapterId>
+<chapterId>756469cd-d78c-49aa-926f-7c134e8aa4c6</chapterId>
 
 
 Od svih autora koje smo odabrali da uključimo u panteon francuskih mislilaca laissez-faire iz 18. veka, opat Saint-Pierre je nesumnjivo najviše zanemaren.
@@ -407,7 +407,7 @@ Takođe je naglasio, pre Vincent de Gournaya, vrednost rada i važnost održavan
 ## Markiz d'Aržanson
 
 
-<chapterId>e9960ab4-72ec-5afd-8e97-bf89c83b62bc</chapterId>
+<chapterId>3f0c9654-a6f7-47db-8859-836c592127db</chapterId>
 
 
 Markiz d'Arženson je zaboravljeni osnivač doktrine laissez-faire.
@@ -479,7 +479,7 @@ Na pitanje trgovine u pogledu egzistencije, d'Argenson nije imao drugi odgovor o
 ## Vincent de Gournay
 
 
-<chapterId>e8ae40dc-7450-552f-9ddc-9e02936cf425</chapterId>
+<chapterId>7446cc6a-9631-49ca-ac85-c477537b3a8d</chapterId>
 
 
 Vincent de Gournay je bio jedan od prvih predstavnika laissez-faire u Francuskoj i jedan od njegovih najranijih zagovornika u javnoj upravi i intelektualnim krugovima. Iz tog razloga zaslužuje mnogo više priznanja u istoriji ekonomske misli nego što obično dobija. Pokušao sam da istaknem njegove doprinose u nedavnoj knjizi.
@@ -548,7 +548,7 @@ Godinama kasnije, Turgot, budući ministar pod Lujem XVI, napisao je Éloge (pos
 ## Gournay Circle
 
 
-<chapterId>b86ba6bd-8f3a-5d8f-b098-4d0413f00deb</chapterId>
+<chapterId>6e2a0dbe-3afb-4071-b5f8-ab400da3e891</chapterId>
 
 
 Kada je reč o ranim danima ekonomske nauke, istorija obično ističe prvu školu mišljenja: fiziokrate, predvođene Fransoa Keneom i njegovim učenicima. Međutim, skoro deceniju pre njihovog uspona, postojala je druga, manje formalna, ali podjednako važna grupa okupljena oko ekonomiste Vensana de Gurnea.
@@ -626,7 +626,7 @@ I zaista, tokom 1750-ih, ekonomska pitanja postala su moderna. Volter je slavno 
 ## Mirabeau
 
 
-<chapterId>2d2f802b-e3b6-556f-9025-a1b1dc4409ca</chapterId>
+<chapterId>5a11f48f-03ee-4c58-876e-f1c49fbb377a</chapterId>
 
 
 Francuska je poznala dva poznata čoveka po imenu Mirabeau, oca i sina, ali je sin taj koji je zaista ušao u istoriju. Kao revolucionarni tribun i jedna od centralnih figura događaja Francuske revolucije, ostao je poznat.
@@ -715,7 +715,7 @@ Tokom svog života, Mirabeau je ostao neumoran pisac. Autor je brojnih ekonomski
 ## Kene
 
 
-<chapterId>7a35f20b-5ea0-544d-b290-bcd9c6f7f11a</chapterId>
+<chapterId>6025f746-08fe-4406-8793-a0f5b9d64a45</chapterId>
 
 
 François Quesnay je jedan od najpoznatijih francuskih ekonomista.
@@ -797,13 +797,13 @@ Ova knjiga je sakupila glavne Quesnayjeve doprinose. Izložila je ekonomski idea
 # Fiziokratska škola
 
 
-<partId>27af82c1-ad82-5c3b-8ce9-c674b67bbf7c</partId>
+<partId>d8a123a2-c47e-4aa4-873b-1b5a75fe313b</partId>
 
 
 ## Istorija fiziokrata
 
 
-<chapterId>4236ff8b-b53a-59e7-92c0-f96f9afa1c00</chapterId>
+<chapterId>b039837d-d765-43fc-a3dd-e492d7caf4c3</chapterId>
 
 
 Fiziokratija je postala moderna u Francuskoj, pa čak i širom Evrope, jedva na deceniju. Nakon dugog perioda razvoja, stekla je istaknutost sredinom 1760-ih. Do trenutka kada je Turgot došao na vlast 1776. godine, pokret je već izgubio svoju popularnost, a ministar je uglavnom skrivao svoju podršku Keneovoj školi.
@@ -876,7 +876,7 @@ Fiziokratija bi nastavila da vrši uticaj sve do Revolucije. U Francuskoj, prvo 
 ## Osnove doktrine fiziokrata
 
 
-<chapterId>4dbe5436-0578-57c2-b054-03ed00aa091a</chapterId>
+<chapterId>57beea84-ff70-4757-b5f4-9f2d18deec18</chapterId>
 
 Termin Fiziokratija, što znači "vladavina prirode", skovao je Dupont de Nemours i koristio kao naslov za *Fiziokratija*, zbirku članaka koje je Quesnay objavio 1768. godine.
 
@@ -975,7 +975,7 @@ Korisna po prirodi, trgovina mora biti potpuno i savršeno slobodna. Jedan od nj
 ## Dostignuća i uticaji fiziokrata
 
 
-<chapterId>5b911105-796a-5e2e-a501-c7a364fc758e</chapterId>
+<chapterId>9ebd22fa-9f00-4148-871b-7e12874b18c0</chapterId>
 
 
 Kao što smo videli u prvom od tri poglavlja posvećena fiziokratama, Keneovi sledbenici su bili veoma popularni u Francuskoj otprilike deceniju. Ovo oduševljenje njihovim idejama oblikovalo se kako u njihovo vreme, tako i nastavilo do kraja veka. Ovde ćemo pogledati neka od njihovih dostignuća i uticaj koji su imali na svoje naslednike u oblasti ekonomske misli.
@@ -1054,7 +1054,7 @@ Nažalost, Quesnay je umro dve godine pre nego što je Smithova knjiga objavljen
 ## Dupont de Nemours
 
 
-<chapterId>6d585e0f-93b8-5b0a-a0a8-7f6e4a5bc68e</chapterId>
+<chapterId>be6cf3ea-a927-4407-b232-98c703a3a4ed</chapterId>
 
 
 
@@ -1145,13 +1145,13 @@ Uprkos ovom burnom životu, tokom kojeg je objavio desetine članaka, brošura i
 # Prosvetiteljstvo i politička ekonomija
 
 
-<partId>d1c885ad-7cb1-5f81-816c-be312719d9f8</partId>
+<partId>c8a1fe43-bdb6-48d8-9542-4d086cdffab3</partId>
 
 
 ## Voltaire i filozofi
 
 
-<chapterId>16bcf7bf-dad4-5113-8c64-2800f04ff07b</chapterId>
+<chapterId>57749874-730e-452d-a53d-d3297eb81e9f</chapterId>
 
 
 U 18. veku u Francuskoj došlo je do pojave ekonomije kao nauke i prve škole ekonomske misli: fiziokratije. Adam Smit se školovao u ekonomiji tokom ovog perioda, a francuski ekonomisti su bili priznati globalno kao lideri. Međutim, ovaj vek se više pamti kao vek filozofije nego ekonomije. Iako je fiziokratski pokret bio usklađen, u svojim ambicijama, sa filozofijom prosvetiteljstva, stavovi filozofa—posebno Didroa i Voltera—zaslužuju pažljivo ispitivanje. Videćemo da su prosvetiteljski mislioci značajno doprineli širenju ideje laissez-faire u Francuskoj.
@@ -1210,7 +1210,7 @@ Na kraju, odnos filozofa prema ekonomskoj misli je mešovit. Uprkos njihovim poh
 ## Turgot, The Theorist
 
 
-<chapterId>a8cd8185-8351-556b-8011-3a0c313e8a9d</chapterId>
+<chapterId>e6b12aac-aa56-4932-8ca2-67efb9aa4d72</chapterId>
 
 
 U poznatom odlomku iz svoje *History of Economic Thought*, američki ekonomista Murray Rothbard pohvalio je ono što je nazvao "briljantnošću" Turgota.
@@ -1307,7 +1307,7 @@ Ovde nalazimo veoma jasno izlaganje doktrine laissez-faire, kao i nagoveštaj an
 ## Turgot, reformator
 
 
-<chapterId>9177429f-1679-51c4-bfd2-dd036d24a1cc</chapterId>
+<chapterId>32c45d6f-511e-48d4-980f-aca5f2ec8464</chapterId>
 
 
 Kao što smo ukratko pomenuli u prethodnom poglavlju, Turgot je bio sin ugledne porodice koja se istakla u višim redovima francuske državne službe.
@@ -1388,7 +1388,7 @@ Na kraju su parlaments i privilegovane klase pobedile. Sve što je Kralj mogao d
 ## Kondijak
 
 
-<chapterId>0ba8dbb5-dcd5-5981-bf85-6c185e0bf192</chapterId>
+<chapterId>f3f1683a-4bcd-4b2a-b5d1-ec0e94c3b457</chapterId>
 
 
 Baš kao merkantilizam, koji je njegova najočiglednija praktična manifestacija, Montenjov sofizam je dugo vremena nestajao.
@@ -1467,7 +1467,7 @@ Stoga u potpunosti uništavaju kritike slobodne trgovine, jer se protekcionizam 
 ## Kondorse
 
 
-<chapterId>99e4aba6-da7f-5041-b02f-337158381515</chapterId>
+<chapterId>55fbdf44-8975-44af-b161-f36d69a49347</chapterId>
 
 
 Condorcet je nesumnjivo ekonomski najusmereniji filozof prosvetiteljstva.
@@ -1524,7 +1524,7 @@ Iako je posvetio svu svoju energiju odbrani Turgota, Kondorse nije imao iluzija 
 ## Liberalni zdrav razum pod Revolucijom
 
 
-<chapterId>95e9a90d-e37a-58ff-b1ac-928b42e76ecf</chapterId>
+<chapterId>37ad7db0-ed45-44ba-8bef-d1fa323dbe8e</chapterId>
 
 
 Dupont de Nemours je bio najmlađi učenik Françoisa Quesnaya, koji je jednom rekao za njega: "Moramo se pobrinuti za ovog mladića, jer će on govoriti kada mi budemo mrtvi". Kada je počela Francuska revolucija, gotovo svi veliki fiziokrati, uključujući markiza de Mirabeaua, već su bili otišli; sam Mirabeau je preminuo 13. jula 1789.
@@ -1598,7 +1598,7 @@ Ali još jednom, niko ga nije slušao.
 ## Zaključak: Predaja Baklje
 
 
-<chapterId>ada8082f-db96-5e52-954f-719b47998153</chapterId>
+<chapterId>691a1639-3e28-4401-bc29-6b17abcfc333</chapterId>
 
 
 Francuska ekonomska misao u 18. veku često je zasenjena poznatijim ekonomistima 19. veka. Ipak, kada je reč o odbrani slobode, sve zapravo počinje u 18. veku. Ovo je vek u kojem je princip laissez-faire, tako revolucionaran za svoje vreme, prvi put jasno izražen od strane brojnih mislilaca, od Boisguilberta do Duponta de Nemoursa.
@@ -1652,7 +1652,7 @@ Sve ove ideje preuzeli bi ekonomisti 19. veka. Neki, poput Žan-Batista Seja, da
 ## Biografija
 
 
-<chapterId>17cf2865-e53c-5f3b-a5c2-a43560efaf01</chapterId>
+<chapterId>9daf678b-2687-4a2f-a490-8826538c1b49</chapterId>
 
 
 **SELEKTIVNA BIBLIOGRAFIJA**
@@ -1735,27 +1735,27 @@ Ovde ispod, naći ćete izbor od preko trideset spisa:
 # Završni deo
 
 
-<partId>385bffab-aea1-5bcd-9569-62b3f30665b7</partId>
+<partId>aa809524-47cd-4945-92d0-2e674b98e2e2</partId>
 
 
 ## Recenzije i ocene
 
 
-<chapterId>a1e689d9-abd0-5dcb-ba56-a8d355d0a84f</chapterId>
+<chapterId>e13b6e40-2801-4e3c-8ed1-1c9144f47e27</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Završni ispit
 
 
-<chapterId>bdb7fd98-33e7-11f0-9fe6-b785c859ffc5</chapterId>
+<chapterId>9da23eb9-a79c-4cf3-8b73-b64a9b3f45d1</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## Zaključak
 
 
-<chapterId>3b366ff6-03c8-5f6a-b4c0-ba8186e65d7e</chapterId>
+<chapterId>027ecdbb-a845-4232-be81-92e1b7101618</chapterId>
 
 
 <isCourseConclusion>true</isCourseConclusion>

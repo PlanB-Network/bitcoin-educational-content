@@ -56,10 +56,10 @@ As with every course on Plan ₿ Academy, the final section includes an evaluati
 
 
 # Essential Mathematical Concepts for Bitcoin
-<partId>2d7c7fe9-9a40-544c-92bc-d9222169ae08</partId>
+<partId>e545b7a7-b596-436e-86e9-d0ddceb72543</partId>
 
 ## Mathematics for Bitcoin Implementation
-<chapterId>e6eac2b0-6067-5a0b-9fcd-bbe46f4d7346</chapterId>
+<chapterId>790e5214-836b-40fe-bbd6-f4ccc920b778</chapterId>
 
 ![lecture](https://www.youtube.com/watch?v=OFHNu82g1mI)
 
@@ -90,7 +90,7 @@ Doubling a point uses a tangent line instead of a secant line, with slope derive
 Finite fields provide deterministic, invertible arithmetic; elliptic curves provide a nonlinear structure where computing k·P is easy but reversing it is computationally infeasible. Combining both yields the foundation for Bitcoin’s public/private keys, ECDSA signatures, and transaction security. Understanding these fundamentals prepares students to implement keys, transactions, and signatures directly—without abstractions or external tools.
 
 ## Elliptic Curve Cryptography
-<chapterId>fbbaf4e1-e292-5973-aae8-5d4ba593b9fb</chapterId>
+<chapterId>7d3d842e-ae88-472e-85ff-196d60655815</chapterId>
 
 ![lecture](https://www.youtube.com/watch?v=xOXdKuF3UFw)
 
@@ -123,10 +123,10 @@ A private key is a random scalar s; the public key is P = sG. Because solving th
 Bitcoin addresses are hashes of public keys, not the raw keys themselves. To generate an address, serialize the public key in SEC format, compute hash160 (SHA‑256 then RIPEMD‑160), prepend the network prefix (0x00 for mainnet, 0x6F for testnet), compute a checksum using double SHA‑256, append the first four checksum bytes, and encode the result using Base58. This encoding removes ambiguous characters and includes the checksum to prevent transcription errors. The multi‑step pipeline hides the public key until a spend occurs, adds network identification, and ensures human‑readable, error‑resistant addresses.
 
 # Bitcoin Transaction Innerworkings
-<partId>5da35ad0-6180-11f0-bd66-13724db9fbbd</partId>
+<partId>774c0e80-d316-414a-bd59-0bbd185d3b58</partId>
 
 ## Bitcoin Transaction Parsing and ECDSA Signatures
-<chapterId>fde364cd-d696-562f-847d-2ef4ffb29a95</chapterId>
+<chapterId>ae86fc27-2f27-4de9-b17c-351c00690144</chapterId>
 
 ![lecture](https://www.youtube.com/watch?v=dEArQBDgXgA)
 
@@ -186,7 +186,7 @@ fee = sum(inputs) – sum(outputs).
 Any unassigned value becomes the fee, making correct change output construction essential. Before SegWit, signatures allowed malleability—modifying S to N-S produced a new valid transaction with a different ID. Bitcoin now enforces a low‑S rule, and SegWit isolates signatures from the txid calculation, making IDs stable and enabling second‑layer protocols like Lightning.
 
 ## Bitcoin Script and Transaction Validation
-<chapterId>40b20c16-c21e-5173-9e4f-52620f5840a3</chapterId>
+<chapterId>8f0d4381-2b36-4c66-8bee-1100b2dfd8ed</chapterId>
 
 ![lecture](https://www.youtube.com/watch?v=g1wd-qwbHM8)
 
@@ -223,7 +223,7 @@ The practical lesson is that real-world contracts almost always include signatur
 
 ## Transaction Construction and Pay-to-Script Hash
 
-<chapterId>860f50fc-0c9d-5767-a2d8-2934bf8181ba</chapterId>
+<chapterId>1a6ca3fa-a71f-4b7e-9337-7c84a0b3f928</chapterId>
 
 ![lecture](https://www.youtube.com/watch?v=j0VHdGsFy2o)
 
@@ -257,10 +257,10 @@ Losing a redeem script means losing funds: spending requires both the private ke
 P2SH improves privacy by hiding spending conditions until the first spend, but once the redeem script appears on-chain, it becomes permanently visible. Despite this, the benefits of reduced size, backward compatibility, and flexible contract support made P2SH a major milestone, influencing later upgrades such as SegWit and Taproot.
 
 # Bitcoin Network Innerworkings
-<partId>c058ed10-33b0-58e3-8b81-08e1ebede253</partId>
+<partId>6af9d722-07da-487b-bf08-1b30bc3db3d4</partId>
 
 ## Bitcoin Blocks and Proof of Work
-<chapterId>12d77b0d-7807-52b8-8d86-8e8570300e6d</chapterId>
+<chapterId>28a0f5d3-af1b-4093-be49-e3112e1d48a4</chapterId>
 
 ![lecture](https://www.youtube.com/watch?v=lJYSM1iLWQU)
 
@@ -296,7 +296,7 @@ Every 2016 blocks, Bitcoin adjusts difficulty to target ~10‑minute block inter
 The subsidy at height h is computed as: subsidy = 5_000_000_000 >> (h // 210_000). This yields the halving schedule that converges toward a total supply of ~21 million BTC. Summing the geometric series (50 + 25 + 12.5 + …) × 210,000 explains the cap. Miners may claim less than the allowed subsidy but never more, or the block becomes invalid. As subsidies shrink over successive halvings, transaction fees become an increasingly important component of miner revenue and long‑term network security.
 
 ## Network Communication and Merkle Trees
-<chapterId>dc88b974-e09d-5ae5-ab0d-efc139fc7ffe</chapterId>
+<chapterId>dd8e23bc-ddd6-45a6-8d3a-16bc86ba49ac</chapterId>
 
 ![lecture](https://www.youtube.com/watch?v=Yq02tjpYmaQ)
 
@@ -330,7 +330,7 @@ Full verification of received blocks requires two checks:
 Only if both conditions succeed does a node accept the block, reflecting Bitcoin’s “don’t trust, verify” principle.
 
 ## Advanced Node Communication and Segregated Witness
-<chapterId>c7af1f3b-8a8f-5853-b547-3c178bc7f669</chapterId>
+<chapterId>8d70c283-4609-46a8-ad24-83b04a68529a</chapterId>
 
 ![lecture](https://www.youtube.com/watch?v=itce1zdUqjQ)
 
@@ -403,11 +403,11 @@ Together with trustless network interaction, these tools form the backbone of mo
 
 # Final Section
 
-<partId>5d5d98dc-6c7b-11f0-83b5-eb1625573c9d</partId>
+<partId>f338e5f4-216e-4b38-bf56-8333e674c04c</partId>
 
 ## Reviews & Ratings
 
-<chapterId>f551b514-6ba5-11f0-833e-b33af48c067b</chapterId>
+<chapterId>e149d14b-e99f-428a-a775-ed50cd0a6e9b</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Final Exam
@@ -420,6 +420,6 @@ Together with trustless network interaction, these tools form the backbone of mo
 ## Conclusion
 
 
-<chapterId>7fdf0d2c-6c7c-11f0-9a86-d308a341f341</chapterId>
+<chapterId>247bcefb-b158-42a3-82f4-c58bcad4a47a</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

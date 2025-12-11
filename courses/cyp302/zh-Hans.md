@@ -15,11 +15,11 @@ objectives:
 +++
 # 导言
 
-<partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
+<partId>abfa0d9a-736e-40f8-937a-490ef19bc481</partId>
 
 ## 课程概述
 
-<chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+<chapterId>dc6c887e-00a6-4b7f-9d50-14cbdfd5e867</chapterId>
 欢迎来到 CYP302 课程！
 
 本书深入浅出地介绍了密码学的科学与实践。在可能的情况下，它侧重于概念性而非形式性的材料阐述。
@@ -87,11 +87,11 @@ objectives:
 
 # 什么是密码学？
 
-<partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>
+<partId>dfa3633c-f97b-4650-8a2e-cb15a42ca557</partId>
 
 ## 比厄密码
 
-<chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
+<chapterId>b97d116b-035b-4e92-890c-e377b48edb36</chapterId>
 
 让我们从密码学历史上最迷人、最有趣的事件之一：比厄密码开始，探究密码学领域。[1]
 
@@ -131,7 +131,7 @@ objectives:
 
 ## 现代密码学
 
-<chapterId>d07d576f-8a4b-5890-b182-2e5763f550f4</chapterId>
+<chapterId>a53dab64-fcf9-48c1-b578-dc43d799f3de</chapterId>
 
 像比厄密码这样丰富多彩的故事是我们大多数人对密码学的印象。然而，现代密码学至少在四个重要方面不同于这些历史典范。
 
@@ -183,7 +183,7 @@ objectives:
 
 ## 开放式通信
 
-<chapterId>cb23d0a6-ba9a-5dc6-a55a-258405ae4117</chapterId>
+<chapterId>87b637ca-3d20-42b5-b299-ecb084b60aec</chapterId>
 
 现代密码学旨在为**开放的通信**环境提供安全保证。如果我们的通信渠道保护得非常好，窃听者没有机会篡改甚至只是观察我们的信息，那么密码学就是多余的。然而，我们的大多数通信渠道都很难得到如此周密的保护。
 
@@ -203,11 +203,11 @@ objectives:
 
 # 密码学数学基础 1
 
-<partId>1bf9f0aa-0f68-5493-83fb-2167238ff9de</partId>
+<partId>22c3967a-c64b-468c-8e68-3324fe552738</partId>
 
 ## 随机变量
 
-<chapterId>b623a7d0-3dff-5803-bd4e-8257ff73dd69</chapterId>
+<chapterId>c5fa2255-6041-400b-9072-217b73bf411e</chapterId>
 
 密码学依赖于数学。如果你想对密码学有更深入的了解，你就必须对数学运用自如。
 
@@ -412,7 +412,7 @@ $$
 
 ## 模运算
 
-<chapterId>709b34e5-b155-53d2-abbd-97d67e56db00</chapterId>
+<chapterId>a7e063f0-62dd-4c35-892a-55fa1b10aad8</chapterId>
 
 ### 模数
 
@@ -499,7 +499,7 @@ $$
 
 ## XOR 运算
 
-<chapterId>22f185cc-c516-5b33-950b-0908f2f881fe</chapterId>
+<chapterId>941aaabd-0896-4eb2-843c-e1af055c87fc</chapterId>
 
 所有计算机数据都是以比特为单位在网络上处理、存储和发送的。任何应用于计算机数据的加密方案也都是在比特级上运行的。
 
@@ -534,7 +534,7 @@ $$
 
 ## 伪随机性
 
-<chapterId>20463fc5-3e92-581f-a1b7-3151279bd95e</chapterId>
+<chapterId>bd0c7d54-5392-490b-bdca-04dcbe7d83ff</chapterId>
 
 在讨论随机变量和均匀变量时，我们对 "随机 "和 "均匀 "作了具体区分。在描述随机变量时，这种区分通常会保留下来。不过，在我们目前的语境中，这种区分需要取消，"随机 "和 "均匀 "可以作为同义词使用。我将在本节末尾解释原因。
 
@@ -578,11 +578,11 @@ $$
 
 # 密码学数学基础 2
 
-<partId>d7245cc9-bb6d-5403-b3d5-9c703d9a2f81</partId>
+<partId>62963952-ae03-43f4-88d6-90aea95e5c5f</partId>
 
 ## 什么是数论？
 
-<chapterId>c0051c34-fd5d-539c-93e2-5c6dfd4c3355</chapterId>
+<chapterId>67e7dace-4c23-41a8-bdb3-c6c87d223899</chapterId>
 
 本章介绍密码学数学基础的高级课题：数论。虽然数论对对称密码学（如 Rijndael 密码）很重要，但在公钥密码学中尤为重要。
 
@@ -602,7 +602,7 @@ ___
 
 ## 组别
 
-<chapterId>3209b270-f9cd-5224-803e-0ed19fbf7826</chapterId>
+<chapterId>4353d3ff-6319-4985-a4b8-3b20111ecfff</chapterId>
 
 数学中的一个基本概念是元素集合。集合通常用符号表示，元素之间用逗号隔开。
 
@@ -675,7 +675,7 @@ $$
 
 ## 环状群
 
-<chapterId>bfa5c714-7952-5fef-88b1-ca5b07edd886</chapterId>
+<chapterId>b5b552f6-cf7c-4ba8-bd9c-685bfc4aacad</chapterId>
 
 我们可以将**有限群**和**无限群**加以区分。前者的元素数目是有限的，而后者的元素数目是无限的。有限群中元素的数量称为群的**阶**。所有涉及使用群的实用密码学都依赖于有限（数论）群。
 
@@ -763,7 +763,7 @@ $$
 
 ## 字段
 
-<chapterId>fad52d86-3a22-5c9f-979e-3bec9eaa008e</chapterId>
+<chapterId>7a8c9ab0-fc8f-43fa-8dd7-fd1839bcda81</chapterId>
 
 群是抽象代数中的基本代数结构，但还有更多的代数结构。你唯一需要熟悉的代数结构是**场**，特别是**无穷场**。这种代数结构经常用于密码学，例如高级加密标准。后者是你在实践中会遇到的主要对称加密方案。
 
@@ -906,7 +906,7 @@ $$
 
 ## 抽象代数实践
 
-<chapterId>ed35b98d-18b4-5790-9911-1078e0f84f92</chapterId>
+<chapterId>9b8cd1fc-8a34-4e1b-ab4f-c634a763a20c</chapterId>
 
 尽管讨论的语言很正式，也很抽象，但组群的概念应该不难理解。它只是一组元素和一个二元运算，对这些元素进行二元运算需要满足四个一般条件。无差别群只是多了一个称为交换性的条件。而循环群则是一种特殊的阿贝尔群，即有一个生成器的群。场只是基本群概念的一种更复杂的构造。
 
@@ -934,11 +934,11 @@ $$
 
 # 对称加密
 
-<partId>ef768d0e-fe7b-510c-87d6-6febb3de1039</partId>
+<partId>b994593e-cb9b-4a2c-ae80-2dec3478e1a6</partId>
 
 ## 爱丽丝和鲍勃
 
-<chapterId>47345330-be2d-5faf-afd0-d289a8d21bf1</chapterId>
+<chapterId>9c901027-b83a-4954-99b4-9e4f0c1598b7</chapterId>
 
 对称密码学是密码学的两大分支之一。它包括加密方案以及与身份验证和完整性有关的方案。在 20 世纪 70 年代之前，所有密码学都由对称加密方案组成。
 
@@ -968,7 +968,7 @@ ___
 
 ## 对称加密方案
 
-<chapterId>41bfdbe1-6d41-5272-98bb-81f24b2fd6af</chapterId>
+<chapterId>e2645185-bb06-41d2-9a80-81dd84108647</chapterId>
 
 我们可以将**对称加密方案**宽泛地定义为任何包含三种算法的加密方案：
 
@@ -1004,7 +1004,7 @@ ___
 
 ## 举个例子移位密码
 
-<chapterId>7b179ae8-8d15-5e80-a43f-22c970d87b5e</chapterId>
+<chapterId>63287a89-bda1-4395-ade6-cd8d8debe797</chapterId>
 
 在第 2 章中，我们介绍了移位密码，它是一种非常简单的对称加密方案。让我们在这里再看一遍。
 
@@ -1040,7 +1040,7 @@ ___
 
 ## 蛮力攻击和 Kerckhoff 原理
 
-<chapterId>2d73ef97-26c5-5d11-8815-0ddbe89c8003</chapterId>
+<chapterId>4a72d8d8-0186-4654-b5ba-f99a4e03fb59</chapterId>
 
 至少在现代世界，移位密码是一种非常不安全的对称加密方案。[1] 攻击者可以尝试用所有 26 个可能的密钥对任何密文进行解密，看看哪个结果有意义。这种攻击方式被称为**蛮力攻击**或**穷举密钥搜索**。
 
@@ -1087,7 +1087,7 @@ ___
 
 ## 流密码
 
-<chapterId>479aa6f4-45c4-59ca-8616-8cf8e61fc871</chapterId>
+<chapterId>82a4d8c5-7fd7-4bbb-a97e-e7a2d7cc55a0</chapterId>
 
 对称加密方案按标准可细分为两种类型： **流密码**和**块密码**。不过，这种区分有点麻烦，因为人们使用这些术语的方式并不一致。在接下来的几节中，我将以我认为最合适的方式阐述这种区别。不过，你应该意识到，许多人使用这些术语的方式与我所阐述的有些不同。
 
@@ -1174,7 +1174,7 @@ ___
 
 ## 块密码
 
-<chapterId>2df52d51-943d-5df7-9d49-333e4c5d97b7</chapterId>
+<chapterId>ffb7ba1c-eb20-43a8-a2f1-2b8a54a31044</chapterId>
 
 **块密码**通常被理解为比流密码更原始的密码：它是一种核心算法，借助密钥对具有适当长度的字符串进行保长变换。这种算法可用于创建加密方案，也可用于创建其他类型的加密方案。
 
@@ -1250,7 +1250,7 @@ Rijndael 密码可以在不同的密钥长度和区块大小规格以及不同�
 
 ## 消除混淆
 
-<chapterId>121c1858-27e3-5862-b0ce-4ff2f70f9f0f</chapterId>
+<chapterId>61e393f2-6764-4214-a871-f7471cb8ea32</chapterId>
 
 之所以会混淆块密码和流密码的区别，是因为有时人们会把块密码理解为专门指具有块加密模式的*块密码*。
 
@@ -1274,7 +1274,7 @@ Rijndael 密码可以在不同的密钥长度和区块大小规格以及不同�
 
 ## 信息验证码
 
-<chapterId>19fa7c00-db59-56a0-9654-5350a137939d</chapterId>
+<chapterId>626181b6-f80f-4160-b441-417a79b66ec6</chapterId>
 
 加密与保密有关。但密码学还涉及更广泛的主题，如信息完整性、真实性和不可否认性。所谓的**信息验证码**（MAC）是一种对称密钥加密方案，支持通信的真实性和完整性。
 
@@ -1304,7 +1304,7 @@ MAC 可保证信息确实是由鲍勃创建的。这种真实性自动意味着�
 
 ## 认证加密
 
-<chapterId>33f2ec9b-9fb4-5c61-8fb4-50836270a144</chapterId>
+<chapterId>64c1aef9-0bf8-45c5-92ba-12161d907eac</chapterId>
 
 通常情况下，您希望同时保证通信的保密性和真实性，因此加密方案和 MAC 方案通常会一起使用。
 
@@ -1348,7 +1348,7 @@ MAC 可保证信息确实是由鲍勃创建的。这种真实性自动意味着�
 
 ## 安全通信会话
 
-<chapterId>c7f7dcd3-bbed-53ed-a43d-039da0f180c5</chapterId>
+<chapterId>16be8853-ef4e-432b-b724-f34e780f2abe</chapterId>
 
 假设双方正在进行通信会话，因此他们来回发送多条信息。
 
@@ -1380,11 +1380,11 @@ MAC 可保证信息确实是由鲍勃创建的。这种真实性自动意味着�
 
 # RC4 和 AES
 
-<partId>a48c4a7d-0a41-523f-a4ab-1305b4430324</partId>
+<partId>9948fc0a-59fe-46a4-b324-b12cde16e576</partId>
 
 ## RC4 流密码
 
-<chapterId>5caec5bd-5a77-56c9-b5e6-1e86f0d294aa</chapterId>
+<chapterId>2f83a43a-16e5-4b4e-9d2f-4976f92eba15</chapterId>
 
 在本章中，我们将讨论使用现代原始流密码 RC4（或 "Rivest cipher 4"）和现代块密码 AES 的加密方案的细节。RC4 作为一种加密方法已不受欢迎，而 AES 则是现代对称加密的标准。通过这两个例子，我们可以更好地了解对称加密的工作原理。
 
@@ -1497,7 +1497,7 @@ for 循环从 $i = 0$ 开始。根据我们上面的伪代码，**j** 的新值�
 
 ## 128 位密钥的 AES
 
-<chapterId>0b30886f-e620-5b8d-807b-9d84685ca8ff</chapterId>
+<chapterId>593d6ae3-7887-40d5-b14b-98a580b9a254</chapterId>
 
 如前一章所述，美国国家标准与技术研究院（NIST）在 1997 年至 2000 年期间举行了一次竞赛，以确定新的对称加密标准。最终，**Rijndael 密码**胜出。这个名字是比利时创造者文森特-瑞门（Vincent Rijmen）和琼-戴门（Joan Daemen）名字的文字游戏。
 
@@ -1666,11 +1666,11 @@ Rijndael 密码背后的操作原理是，这些操作会产生高度混淆和�
 
 # 非对称密码学
 
-<partId>868bd9dd-6e1c-5ea9-9ece-54affc13ba05</partId>
+<partId>20c55ed4-4e45-493a-8bfe-970f332d764c</partId>
 
 ## 密钥分配和管理问题
 
-<chapterId>1bb651ba-689a-5a89-a7d3-0b9cc3b694f7</chapterId>
+<chapterId>4bbc8769-e00d-4d59-8365-c5f491b1217b</chapterId>
 
 与对称加密技术一样，非对称方案也可用于确保保密和身份验证。不过，相比之下，这些方案采用的是两个密钥而不是一个：一个私人密钥和一个公共密钥。
 
@@ -1715,7 +1715,7 @@ Jim's Sporting Goods 是一家在线体育用品零售商，在北美拥有数�
 
 ## 密码学的新方向
 
-<chapterId>7a9dd9a3-496e-5f9d-93e0-b5028a7dd0f1</chapterId>
+<chapterId>e0f7950c-bb5a-437e-b27e-8d6878e15291</chapterId>
 
 到 20 世纪 70 年代，密钥分配和密钥管理问题引起了一群美国学术密码学家的关注：惠特菲尔德-迪菲（Whitfield Diffie）、马丁-赫尔曼（Martin Hellman）和拉尔夫-默克尔（Ralph Merkle）。面对大多数同行的强烈质疑，他们大胆地提出了解决方案。
 
@@ -1779,7 +1779,7 @@ Diffie 和 Helmann 在 1976 年的论文中提出的解决密钥分发和管理�
 
 ## 非对称加密和验证
 
-<chapterId>2f6f0f03-3c3d-5025-90f0-5211139bc0cc</chapterId>
+<chapterId>a36ea521-ecee-476d-ade9-57f09bed2469</chapterId>
 
 图 1**提供了在鲍勃和爱丽丝的帮助下非对称加密的概况**。
 
@@ -1857,7 +1857,7 @@ Diffie 和 Helmann 在 1976 年的论文中提出的解决密钥分发和管理�
 
 ## 哈希函数
 
-<chapterId>ea8327ab-b0e3-5635-941c-4b51f396a648</chapterId>
+<chapterId>49d6c9a5-5f18-4ec4-8c83-e02fc60941ff</chapterId>
 
 哈希函数在密码学中无处不在。它们既不是对称方案，也不是非对称方案，而是属于密码学的一个独立类别。
 
@@ -1935,11 +1935,11 @@ Diffie 和 Helmann 在 1976 年的论文中提出的解决密钥分发和管理�
 
 # RSA 密码系统
 
-<partId>864dca42-2a8d-530f-bb94-2e1f68b3f411</partId>
+<partId>a8fb0a0b-747f-422a-a464-3c84979efa43</partId>
 
 ## 因式分解问题
 
-<chapterId>a31a66e4-52ea-539c-9953-4769ad565d7e</chapterId>
+<chapterId>406b1681-f8bf-4a03-b555-c84ac4dee44a</chapterId>
 
 对大多数人来说，对称密码学通常相当直观，但非对称密码学通常并非如此。虽然你可能已经熟悉了前面章节中的高层次描述，但你可能还想知道单向函数到底是什么，以及它们是如何用于构建非对称方案的。
 
@@ -2029,7 +2029,7 @@ $$ \frac{2^{1024}}{\ln(2^{1024})} - \frac{2^{1023}}{\ln(2^{1023})} $$
 
 ## 数论成果
 
-<chapterId>23cd2186-8d97-5709-a4a7-b984f1eb9999</chapterId>
+<chapterId>a5528852-d9cc-4f94-a15d-02f11081e026</chapterId>
 
 遗憾的是，因式分解问题不能直接用于非对称加密方案。不过，我们可以利用一个更复杂但与此相关的问题：RSA 问题。
 
@@ -2153,7 +2153,7 @@ $a$ 的逆数不一定存在以 $N$ 为模数的还原。例如，假设 $a = 2$
 
 ## RSA 密码系统
 
-<chapterId>0253c2f7-b8a4-5d0e-bd60-812ed6b6c7a9</chapterId>
+<chapterId>b230194d-5774-49fe-9d19-53e345453c34</chapterId>
 
 现在，我们准备陈述 RSA 问题。假设你创建了一组变量，包括 $p$、$q$、$N$、$\phi(N)$、$e$、$d$ 和 $y$。称这个集合为 $\Pi$。其创建过程如下：
 
@@ -2246,5 +2246,5 @@ $$ y^d \mod N = x^{e \cdot d}\mod N = x^{e \cdot d \mod \phi(N)} \mod N = x^{1 \
 <isCourseExam>true</isCourseExam>
 
 ## 结论
-<chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
+<chapterId>97ce180b-5092-45eb-a160-57fc52917567</chapterId>
 <isCourseConclusion>true</isCourseConclusion>

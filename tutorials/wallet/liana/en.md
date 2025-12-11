@@ -29,7 +29,7 @@ The diagram below illustrates the operation of a wallet with two spending paths:
 This operation allows you to set up various configurations, including :
 
 
-- A succession (or inheritance) plan, enabling heirs to recover funds in the event of the user's death. For more information on this subject, we recommend reading [part 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) of the BTC102 course.
+- A succession (or inheritance) plan, enabling heirs to recover funds in the event of the user's death. For more information on this subject, we recommend reading [part 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/dcec2c9c-f5d9-4d47-977d-d21c5bff05cb) of the BTC102 course.
 - A reinforced backup with a recovery time, giving the user the possibility of using his wallet without having to keep the corresponding secret phrase and risk having it stolen, during a burglary for example.
 - A safety net for people starting out with Bitcoin: they will manage their own wallet, and their "guardian" (a relative, for example) will reserve the right to recover their funds after a given period.
 - A multi-party signature scheme (*multisig*) with reduced requirements over time, to cope with the disappearance of one or more of the participants, such as a company's partners.

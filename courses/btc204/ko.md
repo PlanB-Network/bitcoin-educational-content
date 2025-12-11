@@ -6105,7 +6105,7 @@ BIP47과 마찬가지로, 정적 Address $B$와 $B$에서 파생된 결제 Addre
 ## 리뷰 및 평가
 
 
-<chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
+<chapterId>74228ce0-a31e-4a64-a25b-61295986d765</chapterId>
 
 
 <isCourseReview>true</isCourseReview>
@@ -6113,7 +6113,7 @@ BIP47과 마찬가지로, 정적 Address $B$와 $B$에서 파생된 결제 Addre
 ## 최종 시험
 
 
-<chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
+<chapterId>906fc0d4-414c-4a1e-85c4-d634c5865ff5</chapterId>
 
 
 <isCourseExam>true</isCourseExam>

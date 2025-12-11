@@ -15,11 +15,11 @@ Denne tankegangen har formet debatter i århundrer, takket være innflytelsesrik
 +++
 # Introduksjon
 
-<partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
+<partId>21613091-f43a-4a87-88d9-2d69038d41d2</partId>
 
 ## Kursoversikt
 
-<chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
+<chapterId>43b56a2b-bbee-4faa-b52a-9b6c540df559</chapterId>
 
 Velkommen til kurset ECO201!
 
@@ -46,7 +46,7 @@ Og hva om nøkkelen til å forstå dagens økonomi ligger i en teori som er fler
 
 ## Penger, Kreditt, Banker og Sentralbanker
 
-<chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
+<chapterId>84a09f98-8cd7-468f-9cc1-6c0add06ce12</chapterId>
 
 > “Det grunnleggende problemet med konvensjonell valuta er all tilliten som kreves for å få det til å fungere. Sentralbanken må stoles på for ikke å devaluere valutaen, men historien om fiat-valutaer er full av brudd på den tilliten. Banker må stoles på for å holde på pengene våre og overføre dem elektronisk, men de låner dem ut i bølger av kredittbobler med knapt en brøkdel i reserve. Vi må stole på dem med vårt privatliv, stole på at de ikke lar identitetstyver tømme kontoene våre.”
 >
@@ -132,11 +132,11 @@ I det kommende kapittelet vil vi dykke ned i grunnsteinen i enhver økonomisk sk
 
 # Teoretiske Grunnlag
 
-<partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
+<partId>6249c7e4-71bc-453b-8a09-ab579d340709</partId>
 
 ## Den Subjektive Verditeorien
 
-<chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
+<chapterId>fb001732-6bf7-4935-b8ec-6c225dab1025</chapterId>
 
 > “Verdi eksisterer kun innen menneskelig bevissthet”
 >
@@ -216,7 +216,7 @@ De følgende kapitlene vil være dedikert til fremveksten av penger som en sosia
 
 ## Fremveksten av Penger som et Sosialt Fenomen
 
-<chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
+<chapterId>469d591e-b407-4218-bccb-6a433f731cb3</chapterId>
 
 Selv om individer har en felles interesse i spesialisering og maksimering av arbeidsdelingen, er det fortsatt koordineringsproblemer som begrenser denne utvidelsen.
 
@@ -295,7 +295,7 @@ I neste kapittel vil vi fordype oss i konseptet med tidspreferanse og forklare d
 
 ## Tidspreferanse, Renter og Kapital
 
-<chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
+<chapterId>e0a5c946-dd4c-4aa6-9b6e-aaacb23241ae</chapterId>
 
 ### Tidspreferanse
 
@@ -362,11 +362,11 @@ Dette er hva vi vil finne ut i neste kapittel dedikert til den østerrikske teor
 
 # Østerrikske økonomiske perspektiver
 
-<partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
+<partId>851a6712-84ea-48d2-85f7-3354e1381a06</partId>
 
 ## Den østerrikske teorien om forretningsyklusen
 
-<chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
+<chapterId>17248205-835a-4284-ba94-0eb131916aa3</chapterId>
 
 > “Jo lenger boomen av inflatorisk bankkreditt fortsetter, desto større er omfanget av feilinvesteringer i kapitalvarer, og desto større er behovet for likvidasjon av disse usunne investeringene. Når kredittutvidelsen stopper, reverseres, eller selv betydelig bremser ned, blir feilinvesteringene avslørt”
 >
@@ -436,7 +436,7 @@ Dette vil være temaet for det neste og siste kapittelet i dette kurset.
 
 ## Umuligheten av Økonomisk Kalkulasjon under Sosialisme
 
-<chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
+<chapterId>9b9e185f-5b0d-4850-813e-0c50e309a909</chapterId>
 
 > “Der det ikke finnes markedspriser for produksjonsfaktorene fordi de verken kjøpes eller selges, er det umulig å ty til kalkulasjon i planlegging av fremtidig handling og i å bestemme resultatet av tidligere handling. En sosialistisk ledelse av produksjonen ville ganske enkelt ikke vite om det den planlegger og utfører er de mest passende midlene for å oppnå de søkte målene. Den vil operere i mørket, så å si. Den vil sløse bort de knappe produksjonsfaktorene, både materielle og menneskelige (arbeidskraft). Kaos og fattigdom for alle vil uunngåelig være resultatet”
 >
@@ -506,7 +506,7 @@ Den østerrikske tradisjonen legemliggjør en ydmyk tilnærming til menneskelig 
 
 ## Den østerrikske metodologien
 
-<chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
+<chapterId>1fdf4c5d-0008-4f69-97e7-127fb3ef63e0</chapterId>
 
 Den østerrikske skolen innen økonomi skiller seg fra andre skoler ved sin aksiomatisk-deduktive metodologi, som avviker fra den positivistiske tilnærmingen ofte brukt i samfunnsvitenskapene. Den positivistiske tilnærmingen er basert på lover etablert fra empiriske data, og tar i bruk en metode lik den som brukes i fysiske vitenskaper. Den formulerer hypoteser fra observasjoner, som deretter bekreftes eller avkreftes av midlertidige eksperimenter. Den vitenskapelige metoden består av å beholde hypotesen som best forklarer dataene og fortsette å utforske den til en mer presis hypotese blir funnet.
 
@@ -526,16 +526,16 @@ Metodologi er et essensielt aspekt i økonomi og i samfunnsvitenskapene generelt
 
 # Siste seksjon
 
-<partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
+<partId>373760d2-4e6e-4a05-8081-6d02072457d7</partId>
 
 ## Vurderinger & Karakterer
 
-<chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
+<chapterId>2373a3ce-1c87-415a-8dd6-0437b4f71e79</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Avsluttende eksamen
 
-<chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
+<chapterId>1c584ca3-c738-4151-8a85-101a142fcbbc</chapterId>
 <isCourseExam>true</isCourseExam>
 
 

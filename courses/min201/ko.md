@@ -31,13 +31,13 @@ objectives:
 # 소개
 
 
-<partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
+<partId>264edfbf-0647-43c0-b202-5f82bfaba747</partId>
 
 
 ## 코스 개요
 
 
-<chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
+<chapterId>a1885374-d6b9-4d6d-9b90-44f27099e4ae</chapterId>
 
 
 MIN201 과정에 오신 것을 환영합니다: Mining 소개. 이 업계에 첫발을 내딛는 여러분을 안내해 드리게 되어 기쁩니다. 이 과정을 즐겁게 수강하시고 Mining의 모험을 시작하시기 바랍니다!
@@ -78,13 +78,13 @@ Bitcoin Mining의 세계를 발견하고 아타카이의 실질적인 도전에 
 # Mining에 대해 알아야 할 모든 것
 
 
-<partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
+<partId>80efb136-9e4e-40f2-98a2-f6721737fc81</partId>
 
 
 ## Mining에 대한 설명
 
 
-<chapterId>36a82de7-87ee-5e7a-b69e-48fc30030447</chapterId>
+<chapterId>3d083cf5-9bbd-4d2b-94d9-e12a82819395</chapterId>
 
 
 ### Mining 설명: 퍼즐 비유
@@ -154,7 +154,7 @@ Mining 분야의 끊임없는 기술 발전에 직면하여 전문가들은 전�
 ## Mining 산업
 
 
-<chapterId>0896dfc1-c97e-5bec-9bf1-8c20b3388a2c</chapterId>
+<chapterId>75651629-94db-47e7-8735-a8ed75ae4e1d</chapterId>
 
 
 ### Mining 풀
@@ -233,7 +233,7 @@ Mining 중앙화는 주요 과제로 다뤄지고 있습니다. 파운드리와 
 ## Mining 산업의 뉘앙스
 
 
-<chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
+<chapterId>60d00d42-bd45-4afa-8612-939d714b1f6f</chapterId>
 
 
 ### 아타카이의 원칙
@@ -293,7 +293,7 @@ Lightning Network의 예상 성장과 그에 따른 채널 개설 및 폐쇄의 
 ## Bitcoin 프로토콜의 Bitcoin Mining
 
 
-<chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
+<chapterId>51e7a8b1-e901-424e-bd63-51451b330da2</chapterId>
 
 
 Bitcoin 네트워크에서 마이너의 역할은 블록 크기 전쟁 동안 격렬한 논쟁의 대상이 되어 왔습니다. 네트워크의 보안과 기능에 필수적이지만, 채굴자가 반드시 Bitcoin 생태계에서 궁극적인 권한을 가지고 있는 것은 아닙니다. 채굴자, 노드, 최종 사용자 간의 균형이 네트워크의 무결성과 분배를 보장합니다.
@@ -353,7 +353,7 @@ Proof of Work(작업증명)는 현실 세계와 Bitcoin 네트워크 사이의 �
 ## Bitcoin 가격과 Hashrate, 상관관계는?
 
 
-<chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
+<chapterId>002750ad-c35e-48c3-8644-302467a384d3</chapterId>
 
 
 ### Hashrate, 가격 및 수익성
@@ -404,7 +404,7 @@ Attakai 이니셔티브는 네트워크에 대한 기여의 중요성을 강조�
 ## 주권 및 규제
 
 
-<chapterId>9d9a5908-2acc-501e-906b-a6fce9ecfebd</chapterId>
+<chapterId>ec30a758-5a03-43a1-9b75-e4bb6053a1be</chapterId>
 
 
 ### 이익보다 주권을 먼저 생각하시나요?
@@ -452,13 +452,13 @@ Mining을 통한 부의 창출이라는 중요한 문제를 해결하기 위해�
 # 홈 Mining 및 열 재사용
 
 
-<partId>78d22d06-2c4a-573f-86bb-1027115dad3a</partId>
+<partId>c0fb1f33-6c44-48a7-83f5-b1c9cbc314b3</partId>
 
 
 ## Attakai - 홈 Mining를 실현하고 접근성을 높입니다!
 
 
-<chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
+<chapterId>64c27a67-c2f0-4456-9821-5c94ea623de5</chapterId>
 
 
 일본어로 '이상적인 온도'를 뜻하는 아타카이는 @ajelexBTC와 @jimzap21이 Découvre Bitcoin과 함께 시작한 열 재사용을 통한 Bitcoin Mining 발굴을 목표로 하는 이니셔티브의 이름입니다.
@@ -531,7 +531,7 @@ KYC가 필요 없는 사토시로 참여에 대한 보상을 받으면서 연습
 ## 중고 ASIC 구매 가이드
 
 
-<chapterId>3b0b3bf0-859b-57f2-b92f-843ac70b7e68</chapterId>
+<chapterId>17e07e2e-9848-4fb0-be55-077ea783c670</chapterId>
 
 
 이 섹션에서는 이 라디에이터 개조 튜토리얼의 기반이 되는 머신인 중고 비트메인 앤트마이너 S9을 구매하는 모범 사례에 대해 설명합니다. 이 가이드는 중고 Mining 하드웨어에 대한 일반적인 구매 가이드이므로 다른 모델의 ASIC에도 적용됩니다.
@@ -623,7 +623,7 @@ Antminer S9는 다음과 같은 부품으로 구성되어 있습니다:
 ## S9용 하드웨어 수정 구매 가이드
 
 
-<chapterId>fa5f5eca-bcbf-5a83-9b03-98ecbadbabd6</chapterId>
+<chapterId>67c86e8a-e7d8-4744-8eeb-03a17c09bfa2</chapterId>
 
 
 Antminer S9의 소유자라면 이 장비의 시끄럽고 부피가 크다는 사실을 알고 있을 것입니다. 그러나 몇 가지 간단한 단계에 따라 조용하고 연결된 히터로 변환할 수 있습니다. 이 섹션에서는 수정에 필요한 장비에 대해 간략하게 설명합니다.
@@ -698,13 +698,13 @@ Antminer S9의 소유자라면 이 장비의 시끄럽고 부피가 크다는 �
 # Attakai - Antminer S9의 소프트웨어 수정하기
 
 
-<partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
+<partId>17871b9d-4c93-4ca4-a09f-c6dc8a1df1d1</partId>
 
 
 ## Vonet 와이파이/이더넷 브리지 설정하기
 
 
-<chapterId>3cf487a4-21ef-5b24-83d5-789b811f740f</chapterId>
+<chapterId>bf5b8552-8f0f-44aa-b742-600a657bdfbf</chapterId>
 
 
 와이파이를 통해 ASIC을 연결하려면 브리지라는 장치가 필요합니다. 이 장치를 사용하면 라우터에서 WIFI 신호를 검색하여 이더넷을 통해 다른 장치로 전송할 수 있습니다.
@@ -761,7 +761,7 @@ Miner을 연결할 와이파이 네트워크를 선택한 후 다음을 클릭�
 ## Antminer S9 재설정하기
 
 
-<chapterId>b518b6bd-9dae-5136-ae3c-1fafb1cb2592</chapterId>
+<chapterId>e83025fd-0261-4d4a-913a-dbfc05f7e51e</chapterId>
 
 
 BraiinOS+를 설치하기 전에 S9을 공장 설정으로 초기화해야 할 수 있습니다.
@@ -777,7 +777,7 @@ gW-281을 켠 후 2분 후에 '재설정' 버튼을 5초간 누른 다음 손을
 ## 앤트마이너 S9에 BraiinsOS+ 설치하기
 
 
-<chapterId>38e8b1a8-8b1d-51ed-8b92-59d4ddb15184</chapterId>
+<chapterId>d2ea148c-37dd-4505-97e9-78ce2237b84a</chapterId>
 
 
 Antminer의 Mining 머신에 설치된 원래 소프트웨어는 기능이 제한되어 있습니다. 그렇기 때문에이 가이드에서는 BraiinsOS +라는 다른 소프트웨어를 설치합니다. 이것은 첫 번째 Bitcoin Mining pool에서 개발한 타사 소프트웨어로, 더 많은 기능을 제공하고 예를 들어 기계의 전원을 수정할 수 있습니다.
@@ -831,7 +831,7 @@ ASIC에 Braiins OS+를 설치하는 방법에는 여러 가지가 있습니다. 
 ## BraiinsOS+ 구성
 
 
-<chapterId>36e432f2-85bc-52d0-a62a-009fc4c69338</chapterId>
+<chapterId>41f8ef76-c5b9-427f-8b22-1e3761057157</chapterId>
 
 
 브라우저를 통해 네트워크에 있는 기기의 로컬 IP Address를 사용하여 ASIC에 연결해야 합니다.
@@ -897,13 +897,13 @@ BOS 툴박스 도구를 사용하거나 라우터의 웹 페이지에 직접 액
 # Attakai - 팬 수정
 
 
-<partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
+<partId>a18012de-bf2e-4469-8b33-6bd9368cf27d</partId>
 
 
 ## 전원 Supply 팬 교체
 
 
-<chapterId>0c6befa7-f3ef-5bcf-ae8d-0ad5e5d41d70</chapterId>
+<chapterId>369aa394-0597-4578-96ef-01a45e9d86c6</chapterId>
 
 
 **경고: Miner에 이전에 Braiins OS+를 설치했거나 컴퓨터의 성능을 저하시킬 수 있는 기타 소프트웨어를 설치한 적이 있어야 합니다. 소음을 줄이기 위해 열을 덜 발산할 수 있는 저출력 팬을 설치하기 때문에 이 조치는 매우 중요합니다.**
@@ -1014,7 +1014,7 @@ BOS 툴박스 도구를 사용하거나 라우터의 웹 페이지에 직접 액
 ## 메인 팬 교체하기
 
 
-<chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
+<chapterId>46cd034a-1ffd-4459-9d66-a68e9b4bfeeb</chapterId>
 
 
 **경고: Miner에 이전에 Braiins OS+를 설치했거나 기기 성능을 저하시킬 수 있는 기타 소프트웨어를 설치한 적이 있어야 합니다. 이 조치는 소음을 줄이기 위해 열을 덜 발산하는 덜 강력한 팬을 설치하기 때문에 매우 중요합니다.**
@@ -1096,13 +1096,13 @@ BOS 툴박스 도구를 사용하거나 라우터의 웹 페이지에 직접 액
 # Attakai - 구성
 
 
-<partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
+<partId>045a50df-20cd-423f-8f2f-dce686793ffb</partId>
 
 
 ## Mining pool에 가입하기
 
 
-<chapterId>b57a6105-0a53-5fe9-bad1-d6d9daf97c0d</chapterId>
+<chapterId>db476c86-3dfe-4fcd-948a-083df8442395</chapterId>
 
 
 Mining pool을 농업 협동조합으로 상상할 수 있습니다. 농부들은 생산량을 함께 모아 Supply와 수요 사이의 편차를 줄임으로써 보다 안정적인 수입을 얻을 수 있습니다. Mining pool도 비슷한 방식으로 운영되며, 공유 자원은 해시입니다. 실제로 하나의 유효한 Hash을 발견하면 블록을 생성하고 코인베이스 보상(현재 6.25 BTC와 블록에 포함된 거래 수수료)을 받을 수 있습니다.
@@ -1155,7 +1155,7 @@ Braiins OS+에서 풀을 구성하려면 원하는 풀 중 하나에서 계정�
 ## Antminer S9의 성능 최적화하기
 
 
-<chapterId>25380972-31c7-540d-80d8-17a06b171ca0</chapterId>
+<chapterId>e8dd98a2-86be-4cb1-a061-79f5c8129df6</chapterId>
 
 
 오버클러킹과 오토튜닝 모두 ASIC의 성능을 향상시키기 위해 해싱 보드의 주파수를 조정하는 작업을 포함합니다. 이 둘의 차이점은 이러한 주파수 설정의 복잡성에 있습니다.
@@ -1191,7 +1191,7 @@ Braiins OS+는 오버클럭, ASIC의 언더클럭, 오토튜닝을 지원합니�
 ## 리뷰 및 평가
 
 
-<chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
+<chapterId>9c4bf742-f774-4d82-bdef-0c5398be7759</chapterId>
 
 <isCourseReview>true</isCourseReview>
 

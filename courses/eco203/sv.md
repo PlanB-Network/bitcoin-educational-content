@@ -31,7 +31,7 @@ Följ med Damien Theillier i denna berikande utforskning av Frédéric Bastiats 
 # Inledning
 
 
-<partId>e4a0cf13-2fc5-5ced-a528-ace3f9029f22</partId>
+<partId>658f6477-8617-4d40-a3de-cf189a310dbd</partId>
 
 
 ## Kursöversikt
@@ -78,7 +78,7 @@ Som avslutning på kursen kommer vi att fördjupa oss i Bastiats huvudverk "*The
 ## Bastiat: Ett underskattat geni
 
 
-<chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
+<chapterId>004adae5-9b07-4214-89b3-8c46fe151391</chapterId>
 
 :::video id=0f388c57-8767-49a7-942c-01af703598b3:::
 
@@ -141,7 +141,7 @@ I den här kursen kommer vi tillsammans att resa genom Frédéric Bastiats tanka
 ## Livet och den historiska kontexten
 
 
-<chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
+<chapterId>c2cbce98-3a03-4af9-aee3-60f2e70b7698</chapterId>
 
 :::video id=29e42254-63d4-4a23-94a7-284e70f20515:::
 
@@ -213,13 +213,13 @@ Han avled i Rom 1850 i tuberkulos. Han är begravd i Saint Louis des Français-k
 # Påverkan
 
 
-<partId>4d312b17-5740-5d33-8309-015e2b59b6dd</partId>
+<partId>c6e301dd-e0b8-407f-a78c-a3e40178b15b</partId>
 
 
 ## Adam Smith och Jean-Baptiste Say
 
 
-<chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
+<chapterId>53b2a81d-2461-4c28-9d2b-4db6ac878654</chapterId>
 
 :::video id=db69aa73-75a9-44af-a77b-eceb3bc185f3:::
 
@@ -304,7 +304,7 @@ Producenter använder sig av övertalning, förhandling och Contract, medan plun
 ## Antoine Destutt de Tracy
 
 
-<chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
+<chapterId>b9761f9e-4967-41f7-8cc7-32a94adaab18</chapterId>
 
 :::video id=727e10b7-9255-4f63-8b57-be59d2501f23:::
 
@@ -374,7 +374,7 @@ Sammanfattningsvis hade ideologerna en djupgående intuition, nämligen att prod
 ## Charles Comte och Charles Dunoyer
 
 
-<chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
+<chapterId>edc9daa2-390e-4cf9-9e43-ffeda18b3fbb</chapterId>
 
 :::video id=6f8e4713-5b9e-49bb-85b1-e9e8a44cd75e:::
 
@@ -453,7 +453,7 @@ Deras idéer, som var djupt innovativa, skulle för alltid prägla Frédéric Ba
 ## Cobden och förbundet
 
 
-<chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
+<chapterId>1568bd5c-3eb1-411b-8f48-c819459af5e5</chapterId>
 
 :::video id=633e542a-7217-4e63-bb6f-4a716fde3023:::
 
@@ -542,13 +542,13 @@ Frågan om frihandel är fortfarande aktuell. I skolornas geografiböcker hävda
 # Motståndarna
 
 
-<partId>f902ed30-269e-5e44-a76d-8efd1a4e4085</partId>
+<partId>d9447874-71dd-438e-9280-029d98f98b27</partId>
 
 
 ## Rousseau
 
 
-<chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
+<chapterId>2d03b95a-d732-4d0f-abb4-7c3094bc27de</chapterId>
 
 :::video id=499239ae-df43-489e-8d1f-bf3ea01e4e6b:::
 
@@ -620,7 +620,7 @@ Enligt Bastiat existerar samhälle, människor och egendomar före lagar, och ha
 ## Klassisk utbildning
 
 
-<chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
+<chapterId>8064c969-d3ff-47ff-8bdd-5e976260e1c3</chapterId>
 
 :::video id=4b24a6e8-969f-4058-a409-8942913fca4b:::
 
@@ -683,7 +683,7 @@ Men, som Bastiat påminner oss om, monopol utesluter framsteg.
 ## Protektionism och socialism
 
 
-<chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
+<chapterId>26589745-247f-4827-881e-6cdd2fa4f222</chapterId>
 
 :::video id=4ef9f07f-aeb1-4626-b9ee-91060fd75803:::
 
@@ -782,7 +782,7 @@ Sammanfattningsvis har protektionister och socialister en gemensam punkt, enligt
 ## Proudhon
 
 
-<chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
+<chapterId>4fb547fe-bbf1-4046-b708-063bf5b7a4db</chapterId>
 
 :::video id=6ede1de0-b034-4c48-845d-a2c415de6af2:::
 
@@ -861,13 +861,13 @@ Sammanfattningsvis kan sägas att både Proudhon och Bastiat insåg vikten av ka
 # Ekonomiska sofismer
 
 
-<partId>59686d1d-58c6-59a8-9fc4-74a10d24cdbe</partId>
+<partId>10878575-fcec-40e4-8faf-1d68eb32a3be</partId>
 
 
 ## Vad som syns och vad som inte syns
 
 
-<chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
+<chapterId>9d1ac982-d34c-4d84-8af0-e1a3657db062</chapterId>
 
 :::video id=aff28a5b-3cf4-414b-9a6a-b70ffb1bf20c:::
 
@@ -928,7 +928,7 @@ Den stora lärdomen av denna serie texter är att statliga ingripanden har perve
 ## Framställning från ljusmakarna
 
 
-<chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
+<chapterId>73bf013f-07d8-475f-82ab-3d1bac805f0a</chapterId>
 
 :::video id=b1856cde-9156-4a16-99fa-a0e45edcc905:::
 
@@ -1007,7 +1007,7 @@ Sann rikedom, enligt Bastiat, är därför den uppsättning användbara saker so
 ## Plundring genom beskattning
 
 
-<chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
+<chapterId>308ecf8a-9038-438f-bcb2-02747ecd4ffe</chapterId>
 
 :::video id=a5fe6417-cd81-4c72-a7c7-59aabf9e1547:::
 
@@ -1096,7 +1096,7 @@ Och hon sa detta samtidigt som hon vände sig till socialister.
 ## De två moraliteterna
 
 
-<chapterId>c518e449-f638-553c-9a49-15da48023d41</chapterId>
+<chapterId>57eae8c3-1df4-4e6d-ac0e-1e45fbb0e8ab</chapterId>
 
 :::video id=e2037025-a4db-4980-91e7-a04da99514de:::
 
@@ -1172,13 +1172,13 @@ En sak är säker, det är inte politiken som kan ändra sakernas gång och gör
 # Ekonomisk harmoni
 
 
-<partId>db04dfa4-a53e-5d3e-a307-a68ebc36dc4f</partId>
+<partId>05059f25-dd95-46b4-af68-3dafebc69c05</partId>
 
 
 ## Marknadens mirakel
 
 
-<chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
+<chapterId>ec96f7be-f345-4c12-beb5-9e6132b58afd</chapterId>
 
 :::video id=ed6dc15c-b5e9-465c-9966-16c6737c0a68:::
 
@@ -1256,7 +1256,7 @@ Ekonomisk planering, som gör anspråk på att vara bättre än marknaden, leder
 ## Frihet och ansvar är nyckeln till det sociala problemet
 
 
-<chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
+<chapterId>902dbc46-d634-4f63-ab87-d16704cd3ea6</chapterId>
 
 :::video id=a7e94133-d79a-47cf-b098-d1b15741235e:::
 
@@ -1351,7 +1351,7 @@ Kollektiva val är med andra ord inte ansvarsfulla val eftersom de å ena sidan 
 ## Kraften i ansvarstagande
 
 
-<chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
+<chapterId>02a3b76c-2dcd-4a48-a1cf-4e6efa073e6b</chapterId>
 
 :::video id=0b2bc259-52c5-46c9-a904-254746d6972f:::
 
@@ -1430,7 +1430,7 @@ Det måste klargöras att denna utveckling av framsteg genom ansvar inte på nå
 ## Sann och falsk solidaritet
 
 
-<chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
+<chapterId>ad4aad2a-e9b5-4eac-8ffe-c9ac8dc7a9ab</chapterId>
 
 :::video id=28c7b1d0-e32f-48dc-95ee-8459667b42ab:::
 
@@ -1518,13 +1518,13 @@ Lagen kan tvinga en människa att vara rättvis, men den kan inte tvinga henne a
 # Lagen
 
 
-<partId>653cbe58-60e1-5401-8f91-4d9843ac6045</partId>
+<partId>8b15d335-b904-4729-8121-70acff711ef7</partId>
 
 
 ## Rätten till egendom
 
 
-<chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
+<chapterId>baf287be-d880-433e-8721-95faced14722</chapterId>
 
 :::video id=823bbc82-dfe6-4ed4-bb36-e5557dc5341a:::
 
@@ -1598,7 +1598,7 @@ Här ansluter sig Bastiat till arvet från fysiokraterna, och därutöver till C
 ## Juridisk plundring: En förvrängning av lagen
 
 
-<chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
+<chapterId>bac44171-c5bd-48f4-a5ef-3ffcd795f739</chapterId>
 
 :::video id=24b1ca72-c52a-4ff3-b6db-01e3807c5d8e:::
 
@@ -1677,7 +1677,7 @@ Ett sekel efter Frédéric Bastiats död är den juridiska plundringen tydlig i 
 ## Lagens och statens roll
 
 
-<chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
+<chapterId>8974dfbf-028d-4b87-956f-968dbc12b569</chapterId>
 
 :::video id=43c0db1d-1063-45d7-bce3-4d9d18382a2d:::
 
@@ -1752,7 +1752,7 @@ Skrev Frédéric Bastiat i en kort pamflett med titeln Staten.
 ## Arvet efter Frédéric Bastiat
 
 
-<chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
+<chapterId>699d9094-30ee-4bef-8eec-01b64aef23a1</chapterId>
 
 :::video id=de892e2c-14a5-45cc-848f-ec934eaba615:::
 
@@ -1807,13 +1807,13 @@ I huvudsak tog Reagan från Bastiat flera viktiga Elements i en liberal syn på 
 # Sista avsnittet
 
 
-<partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
+<partId>d9b0cc51-6cb2-4573-bea3-c327acbeaa55</partId>
 
 
 ## Recensioner & betyg
 
 
-<chapterId>db20170d-ceb6-56cd-b4e5-c690942f8b29</chapterId>
+<chapterId>5abe5a6b-d25d-426e-822c-8d66dce8d19a</chapterId>
 
 <isCourseReview>true</isCourseReview>
 

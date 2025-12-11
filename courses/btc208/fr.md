@@ -23,11 +23,11 @@ Ouvert à toute personne curieuse de découvrir les dimensions monétaires, tech
 
 # Information
 
-<partId>b0755bba-ceda-11f0-ab33-bbd33506828c</partId>
+<partId>a118e2c4-9552-4d2a-bd0b-45526e2934b7</partId>
 
 ## Logistique du séminaire
 
-<chapterId>cd83b2ce-ceda-11f0-94c2-afaf530f5b22</chapterId>
+<chapterId>bacf45bb-d325-4be3-8f8d-17b462eca1e8</chapterId>
 
 Merci de vous joindre à notre séminaire ! 
 

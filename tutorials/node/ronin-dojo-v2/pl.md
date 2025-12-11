@@ -333,7 +333,7 @@ Po wejściu na stronę główną RoninUI zostaniesz poproszony o rozpoczęcie in
 ![lets start](assets/notext/25.webp)
 
 
-Na tym etapie RoninUI przedstawia hasło `root`. Ważne jest, aby zachować je w bezpiecznym miejscu. Możesz zdecydować się na fizyczną kopię zapasową na papierze lub zapisać ją w [menedżerze haseł](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
+Na tym etapie RoninUI przedstawia hasło `root`. Ważne jest, aby zachować je w bezpiecznym miejscu. Możesz zdecydować się na fizyczną kopię zapasową na papierze lub zapisać ją w [menedżerze haseł](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/fcdebe4d-e2ee-495a-b0e7-ae967250866c).
 
 
 ![root password](assets/notext/26.webp)

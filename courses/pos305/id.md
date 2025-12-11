@@ -16,7 +16,7 @@ Dibuat oleh Alekos dan Bas, dan diadaptasi oleh melontwist dan asi0, kursus ini 
 # Pendahuluan
 
 
-<partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
+<partId>541d6444-caf8-4e5b-80c3-b97f4d883d57</partId>
 
 
 ## Ikhtisar Kursus
@@ -57,7 +57,7 @@ Siap menguasai BTCPay Server dan mengembangkan bisnis Anda? Mari kita mulai!
 ## Pujian kritis untuk Bitcoin dan Server BTCPay milik Penulis
 
 
-<chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
+<chapterId>f0645534-c825-40fb-a190-e24358e8accc</chapterId>
 
 
 Mari kita mulai dengan memahami apa itu BTCPay Server dan asal-usulnya. Kami menghargai transparansi dan standar tertentu untuk membentuk kepercayaan dalam ruang Bitcoin.
@@ -113,7 +113,7 @@ BTCPay Server Foundation, yang memungkinkan Alekos dan Bas menulis kursus ini, b
 ## Pengantar ke Bitcoin
 
 
-<chapterId>5c0bc234-c188-5b4a-94d5-adee87a120e2</chapterId>
+<chapterId>ba6af1e5-86f1-4139-a549-df2367d6319a</chapterId>
 
 
 ### Memahami Bitcoin melalui latihan di kelas
@@ -217,7 +217,7 @@ Pelanggan membeli produk dari toko dengan Bitcoin.
 ## Penilaian pengetahuan
 
 
-<chapterId>1461f064-933d-50ea-8935-324b68ec5d5f</chapterId>
+<chapterId>c8cec6af-1e57-4a0e-a86a-7dc35f5c2350</chapterId>
 
 
 ### Diskusi kelas KA
@@ -248,13 +248,13 @@ Blockchain, Transaksi, Pengeluaran Ganda, Masalah Jenderal Bizantium, Mining, Pr
 # Memperkenalkan Server BTCPay
 
 
-<partId>9c8a2d0c-9ba1-5c39-874c-f9eaf1bba663</partId>
+<partId>8a8bbf80-1322-4ad0-b49c-9c18b969236d</partId>
 
 
 ## Memahami layar login Server BTCPay
 
 
-<chapterId>14aad54c-9bd8-54f2-9455-178b8ae63408</chapterId>
+<chapterId>2d35d204-1c04-418f-91eb-a7a547ddc210</chapterId>
 
 
 ### Bekerja dengan Server BTCPay
@@ -355,7 +355,7 @@ Berikan alasan mengapa menggunakan Server Demo adalah ide yang buruk untuk tujua
 ## Mengelola akun pengguna
 
 
-<chapterId>b58ca6ee-b7fc-5e81-a6aa-c8ff212b4c55</chapterId>
+<chapterId>7f2dcbc7-ba0b-4515-bf6d-d23ab19c1831</chapterId>
 
 
 ### Manajemen Akun di Server BTCPay
@@ -475,7 +475,7 @@ Jelaskan bagaimana 2FA berbasis aplikasi membantu mengamankan akun Anda.
 ## Membuat toko baru
 
 
-<chapterId>463b3634-b49f-5512-a711-3b2e096fc2e0</chapterId>
+<chapterId>6e8d48b0-b9b6-4fbd-8961-5cde37109c0d</chapterId>
 
 
 ### Buat wizard toko Anda
@@ -561,13 +561,13 @@ Di bagian ini, Anda sudah belajar:
 # Pengantar untuk Mengamankan Kunci Bitcoin
 
 
-<partId>25da22d8-fd37-51c5-af2a-58b9f3b046b2</partId>
+<partId>dd0975de-76e6-4255-a3b2-e454009d1aa5</partId>
 
 
 ## Memahami Pembuatan Kunci Bitcoin
 
 
-<chapterId>d162735b-847b-578e-83b8-a044ab703ec5</chapterId>
+<chapterId>8a6164a5-aea6-4348-aa71-135d03de98bc</chapterId>
 
 
 ### Apa saja yang terlibat dalam pembuatan kunci Bitcoin?
@@ -640,7 +640,7 @@ Jelaskan manfaat menggunakan alamat baru untuk setiap transaksi dibandingkan den
 ## Mengamankan kunci dengan Hardware Wallet
 
 
-<chapterId>c54a6d61-5a43-5fdb-93ae-c6750de9c612</chapterId>
+<chapterId>94cf5f31-7292-4608-b10e-8e46b1ebd627</chapterId>
 
 
 ### Menyimpan Kunci Bitcoin
@@ -701,7 +701,7 @@ Di bagian ini, Anda sudah belajar:
 ## Menggunakan tombol Bitcoin Anda
 
 
-<chapterId>bff488de-5052-56e6-b696-97e896f762ae</chapterId>
+<chapterId>ae5aafd5-28b7-4ef7-8ebc-3ac5f19769c7</chapterId>
 
 
 ### Server BTCPay Wallet
@@ -1039,7 +1039,7 @@ Jelaskan metode untuk menghasilkan kunci dan skema untuk mengamankannya, bersama
 ## Server BTCPay Lightning Wallet
 
 
-<chapterId>1bbece7e-0197-57e6-a93a-561cf384d946</chapterId>
+<chapterId>ca874f9a-4f97-44d5-9bf4-57c8b17d25bf</chapterId>
 
 
 Ketika administrator server menyediakan instance BTCPay Server baru, mereka dapat menyiapkan implementasi Lightning Network, seperti LND, Core Lightning, atau Eclair; lihat Bagian Mengkonfigurasi BTCPay Server untuk petunjuk pemasangan yang lebih terperinci.
@@ -1289,13 +1289,13 @@ Jelaskan beberapa opsi yang tersedia untuk menghubungkan Lightning Wallet ke tok
 # Server BTCPay Interface
 
 
-<partId>25e88b81-e1ab-515f-a035-09f2a3075556</partId>
+<partId>76b4a36d-9cf8-469d-a763-a75cc38c812a</partId>
 
 
 ## Ikhtisar dasbor
 
 
-<chapterId>410ff28b-a272-5c91-93e0-48d5b28c53ab</chapterId>
+<chapterId>8bd1c31e-a487-4c32-b3af-bcecc7117a80</chapterId>
 
 
 BTCPay Server adalah paket perangkat lunak modular. Namun, ada standar yang harus dipatuhi oleh setiap BTCPay Server, dan standar ini akan mengatur interaksi antara Administrator dan pengguna. Dimulai dengan Dasbor. Titik masuk utama dari setiap Server BTCPay setelah masuk. Dasbor memberikan gambaran umum tentang kinerja toko Anda, saldo Wallet saat ini, dan transaksi dari 7 hari terakhir. Karena ini adalah tampilan modular, Plugin dapat menggunakan tampilan ini untuk keuntungan mereka dan membuat ubin mereka di Dasbor. Untuk kursus ini, kami hanya akan membahas plugin dan aplikasi standar, bersama dengan tampilan masing-masing, di seluruh BTCPay Server.
@@ -1419,7 +1419,7 @@ Daftarkan sebanyak mungkin ubin dari memori dari Dasbor.
 ## Server BTCPay - Pengaturan penyimpanan
 
 
-<chapterId>e8faef7b-278d-550e-a511-bc3a442daf64</chapterId>
+<chapterId>00ff7c8c-46f9-4d88-92cc-c63e4ff348f9</chapterId>
 
 
 Di dalam perangkat lunak BTCPay Server, kami mengenal dua jenis pengaturan. Pengaturan khusus BTCPay Server Store, tombol pengaturan yang terdapat pada bilah menu sebelah kiri di bawah Dasbor, dan pengaturan BTCPay Server, yang terdapat pada bagian bawah bilah menu, tepat di atas Akun. Pengaturan khusus Server BTCPay Server hanya dapat dilihat oleh administrator Server.
@@ -1874,7 +1874,7 @@ Jelaskan beberapa opsi yang mungkin Anda pilih di Tampilan Checkout > Pengaturan
 ## Server BTCPay - Pengaturan server
 
 
-<chapterId>1dd858a2-49ea-586b-9bc1-75a65f508df6</chapterId>
+<chapterId>07022d6d-594f-46d7-8363-c8c16a561f4f</chapterId>
 
 
 Server BTCPay terdiri dari dua tampilan pengaturan yang berbeda. Satu didedikasikan untuk pengaturan Toko, dan yang lainnya untuk pengaturan Server. Yang terakhir ini hanya tersedia untuk administrator server dan bukan untuk pemilik toko. Administrator server dapat menambahkan pengguna, membuat peran khusus, mengonfigurasi server email, mengatur kebijakan, menjalankan tugas pemeliharaan, memeriksa semua layanan yang dilampirkan ke BTCPay Server, mengunggah file ke server, atau memeriksa Log.
@@ -2440,7 +2440,7 @@ Jelaskan beberapa tindakan yang mungkin dilakukan secara rutin oleh administrato
 ## Server BTCPay - Pembayaran
 
 
-<chapterId>e2b71ff9-3f4f-5e71-9771-8e03fbbef00f</chapterId>
+<chapterId>1f6899d4-85c1-41fe-8f23-4a7bec44e9c2</chapterId>
 
 
 Invoice adalah dokumen yang diterbitkan penjual kepada pembeli untuk menagih pembayaran.
@@ -2786,7 +2786,7 @@ Bagaimana pembayaran tarik memperluas apa yang biasanya dapat dilakukan On-Chain
 ## Plugin Default Server BTCPay
 
 
-<chapterId>7d673dc4-bd5d-5411-819b-f135f1d86636</chapterId>
+<chapterId>2d994561-7f8d-4862-8b9f-cee7d81df6f2</chapterId>
 
 
 ### Plugin dan Aplikasi Default
@@ -3273,13 +3273,13 @@ Apa saja tiga plugin bawaan yang menjadi standar pada BTCPay Server? Dalam beber
 # Mengkonfigurasi Server BTCPay
 
 
-<partId>ff38596c-7de3-5e5c-ba50-9b9edbbbb5eb</partId>
+<partId>c3a8bd83-0676-4388-87b2-325d67f43d9d</partId>
 
 
 ## Pemahaman dasar tentang menginstal BTCPay Server di lingkungan LunaNode
 
 
-<chapterId>d0a28514-ffcf-529b-9156-29141f0b060a</chapterId>
+<chapterId>f0f934af-eb3c-4d86-bd7b-3fee8fb7c10e</chapterId>
 
 
 ### Menginstal Server BTCPay di Hosted Env (LunaNode)
@@ -3418,7 +3418,7 @@ Jelaskan beberapa perbedaan antara menjalankan instance BTCPay Server di VPS vs.
 ## Menginstal Server BTCPay di lingkungan Tegangan
 
 
-<chapterId>11c7d284-b4d2-5542-872c-df9bd9c1491b</chapterId>
+<chapterId>ef790587-4c73-4311-96f1-5a9219b9a7fd</chapterId>
 
 
 Anda akan mengenal Voltage.cloud sebagai penyedia hosting, mempelajari langkah-langkah pertama dalam menggunakan BTCPay Server, dan mempelajari cara menggunakan Lightning Network. Setelah kita melewati semua langkah, Anda dapat menjalankan webshop atau platform crowdfunding yang menerima Bitcoin!
@@ -3491,7 +3491,7 @@ Apa saja perbedaan utama antara pengaturan Voltage dan LunaNode?
 ## Menginstal Server BTCPay pada node Umbrel
 
 
-<chapterId>3298e292-6476-5fe0-836c-7fa021348799</chapterId>
+<chapterId>bdd94bfc-c8da-4c8b-8b0e-ed4f9a5dd42e</chapterId>
 
 
 Pada akhir langkah-langkah ini, Anda dapat menerima pembayaran kilat ke toko BTCPay di jaringan lokal Anda. Proses ini juga akan berlaku jika Anda menjalankan umbrel node di restoran atau bisnis. Jika Anda ingin menghubungkan toko ini ke situs web publik, ikuti latihan lanjutan untuk mengekspos umbrel node Anda ke publik.
@@ -3580,20 +3580,20 @@ Apa perbedaan penyiapan pada Umbrel dengan dua opsi hosting sebelumnya?
 # Bagian Akhir
 
 
-<partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
+<partId>5449bff6-f410-4f2a-a373-7b915bb6d726</partId>
 
 
 
 
 ## Ulasan & Peringkat
 
-<chapterId>d90bb93d-b894-551e-9fd6-6855c739a904</chapterId>
+<chapterId>bf665be7-1be0-4d54-b8c6-64fbb40c9190</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Kesimpulan Kursus
 
 
-<chapterId>c07ac2a5-f97e-5c57-8a80-4955b48128d4</chapterId>
+<chapterId>bbda2002-757d-4dad-8c8a-ff95cec77077</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

@@ -36,7 +36,7 @@ Il diagramma seguente illustra il funzionamento di un wallet con due percorsi di
 Questa operazione consente di impostare varie configurazioni, tra cui:
 
 
-- Un piano di successione (o eredità) che consente agli eredi di recuperare i fondi in caso di morte dell'utente. Per maggiori informazioni su questo argomento, si consiglia la lettura della [parte 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) del corso BTC102.
+- Un piano di successione (o eredità) che consente agli eredi di recuperare i fondi in caso di morte dell'utente. Per maggiori informazioni su questo argomento, si consiglia la lettura della [parte 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/dcec2c9c-f5d9-4d47-977d-d21c5bff05cb) del corso BTC102.
 - Un backup rinforzato con un tempo di ripristino, che offre all'utente la possibilità di utilizzare il proprio wallet senza dover conservare la frase segreta corrispondente e rischiare di vederselo rubare, ad esempio durante un furto.
 - Una rete di sicurezza per le persone che iniziano a utilizzare Bitcoin: esse gestiranno il proprio wallet e il loro "tutore" (un parente, ad esempio) si riserverà il diritto di recuperare i loro fondi dopo un determinato periodo.
 - Uno schema di firma multiparte (_multisig_) con requisiti ridotti nel tempo, per far fronte alla scomparsa di uno o più partecipanti, come ad esempio i soci di un'azienda.

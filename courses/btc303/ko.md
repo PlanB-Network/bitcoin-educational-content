@@ -82,12 +82,12 @@ Bitcoin 여정의 다음 단계로 나아갈 준비가 되셨나요? 시작하�
 
 # Bitcoin 핵심 가치
 
-<partId>2d6c683b-54c8-5465-b2ca-4e96a6828834</partId>
+<partId>d4fe3545-ac65-4657-b94e-725fc3d72c9b</partId>
 
 
 ## 탈중앙화
 
-<chapterId>9397c84b-0038-5d0e-88d5-11767ce8182d</chapterId>
+<chapterId>568fdd5a-2e8f-4ecd-8aca-da940406134a</chapterId>
 
 
 
@@ -297,7 +297,7 @@ Bitcoin의 탈중앙화된 특성 덕분에 개발자, 사용자, 채굴자에�
 
 ## 무신뢰성
 
-<chapterId>0506ba61-16a3-543c-95fa-3f3e2dd64121</chapterId>
+<chapterId>5ee5332a-0b2d-4102-b43f-a97d414469f8</chapterId>
 
 
 
@@ -448,7 +448,7 @@ Bitcoin 프로토콜은 사용자가 제3자를 신뢰하지 않고도 상호 �
 
 ## 개인 정보 보호
 
-<chapterId>1b960afe-0008-589b-b2f4-007d60d264c6</chapterId>
+<chapterId>a8551c2c-7e60-4e3d-bc2e-735716bf5d5f</chapterId>
 
 
 
@@ -667,7 +667,7 @@ Bitcoin에서 적절한 프라이버시를 확보하려면 적극적인 조치�
 
 ## 유한 Supply
 
-<chapterId>af125ba2-ef98-5905-8895-41a538fe5ea5</chapterId>
+<chapterId>5200980a-120c-498d-b79e-2c40e7c18dcd</chapterId>
 
 
 
@@ -774,12 +774,12 @@ Bitcoin Supply이 2,100만 명을 넘어설지 여부는 현재로서는 말할 
 
 # Bitcoin 거버넌스
 
-<partId>411bf53f-af4b-50f1-b71b-e40fe3ff64b7</partId>
+<partId>20c2b99e-54af-452d-8442-b8f76317de64</partId>
 
 
 ## 업그레이드
 
-<chapterId>3ffa84d1-adfa-5fbc-9b13-384ea783fcdd</chapterId>
+<chapterId>c61b92be-cf45-4f4d-bdd6-8ea7bbed25b9</chapterId>
 
 
 
@@ -1020,7 +1020,7 @@ Bitcoin를 조화롭게 유지하기 위해 Soft 포크가 앞으로 나아갈 �
 
 ## 적대적 사고
 
-<chapterId>d4982f3d-4694-51cc-99be-28f54b03a2a2</chapterId>
+<chapterId>f321b742-580a-4d4f-81ab-7830c1c3dc6e</chapterId>
 
 
 ![](assets/ko/008.webp)
@@ -1143,7 +1143,7 @@ Bitcoin을 안전하게 지키려면 적과 그들의 동기를 알아야 합니
 
 ## 오픈 소스
 
-<chapterId>427a160c-f893-5b2c-afba-7b24e71ba899</chapterId>
+<chapterId>8672f873-c7dc-4bc2-9f10-8882253ac96e</chapterId>
 
 
 
@@ -1431,7 +1431,7 @@ Bitcoin의 개발 프로세스는 근본적으로 개방되어 있어 Bitcoin이
 
 ## 스케일링
 
-<chapterId>bb3f3924-202c-5cdd-b2e9-e0c1cab0e48e</chapterId>
+<chapterId>59a8bd2b-2ddf-49d3-ba96-adf696482581</chapterId>
 
 
 
@@ -1706,7 +1706,7 @@ Bitcoin 소프트웨어의 내부 확장 외에도 사용자가 내부 확장에
 
 ## 일이 터졌을 때
 
-<chapterId>fe39c13c-310f-51fd-84ff-6b92dd01c9e7</chapterId>
+<chapterId>00130abf-a714-4cfb-b104-e416f27a4557</chapterId>
 
 
 
@@ -2139,7 +2139,7 @@ Bitcoin에 버그가 있습니다. 버그를 발견한 사람은 버그를 공�
 
 ## 토론 질문
 
-<chapterId>91462ca7-f09c-55da-a5b9-3e211de31da5</chapterId>
+<chapterId>9a9a2cc0-0fa6-405c-9b7a-348b8ab71a1f</chapterId>
 
 
 이 토론 질문은 'Bitcoin 개발 철학'의 내용을 요약한 것이 아니라 추가 연구를 독려하기 위한 것이므로 직접 나가서 살펴보시기 바랍니다.
@@ -2252,7 +2252,7 @@ Bitcoin에 버그가 있습니다. 버그를 발견한 사람은 버그를 공�
 
 ## 기말시험
 
-<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+<chapterId>c5474163-5282-4300-ac4b-cf9d7fed3618</chapterId>
 
 
 <isCourseExam>true</isCourseExam>

@@ -28,12 +28,12 @@ JavaScript는 최신 브라우저의 스크립팅 언어이므로 기본적으�
 +++
 # 기본 자바스크립트
 
-<partId>a617327c-e5a2-52ca-9380-c63f44623dd4</partId>
+<partId>f05873c1-d927-41c7-a204-bb0c65a76980</partId>
 
 
 ## 설정
 
-<chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
+<chapterId>f23bda2d-c460-4823-9d63-f2ac4d782c1f</chapterId>
 
 
 이 섹션에서는 첫 번째 자바스크립트 프로그램을 작성하고 실행하도록 컴퓨터를 설정해 보겠습니다.
@@ -189,7 +189,7 @@ console.log(16, 8, 1993)
 
 ## 변수 및 댓글
 
-<chapterId>23050ab7-343b-5edf-9d37-e4e782e27ce0</chapterId>
+<chapterId>3eeeaba5-0eae-446f-9cbb-671d8ec89155</chapterId>
 
 
 프로그램은 일반적으로 데이터에 대한 연산을 실행합니다.
@@ -473,7 +473,7 @@ console.log(y)
 
 ## 기본 유형: 숫자, 문자열, 부울
 
-<chapterId>cfdb04f6-21a8-5143-bbf9-7aaae04962f0</chapterId>
+<chapterId>1885cd1e-9477-40b3-846f-c6484a0741d1</chapterId>
 
 
 자바스크립트에서 '타입'은 값이 어떤 종류의 데이터인지 알려줍니다.
@@ -730,7 +730,7 @@ console.log(theyAreDifferent)  // true
 
 ## 배열, 널, 정의되지 않음
 
-<chapterId>7bf18183-5eae-53ed-83d2-b04982145d81</chapterId>
+<chapterId>8047722f-5eee-46c3-b17f-c29b709930c3</chapterId>
 
 
 이 섹션에서는 자바스크립트 프로그램에서 매우 일반적인 세 가지 유형을 더 다뤄보겠습니다:
@@ -977,7 +977,7 @@ Alice
 
 ## 블록 및 제어 흐름
 
-<chapterId>be985168-2636-5b0d-a48f-ac1bbfbff8a7</chapterId>
+<chapterId>ae3ddb7d-b174-4328-ba45-e3629ea01063</chapterId>
 
 
 지금까지는 대부분 차례로 실행되는 코드 줄을 작성했습니다.
@@ -1507,7 +1507,7 @@ console.log(totalDaysInOneYear)  // Print the total number of days in the year (
 
 ## 기능 소개
 
-<chapterId>cc324715-09c2-5cf7-9e6f-47a6f16bc04d</chapterId>
+<chapterId>c73497b2-30c8-47c3-994c-01404924634e</chapterId>
 
 
 프로그램이 성장함에 따라 코드 조각을 **재사용**하고 싶을 때가 많습니다.
@@ -1747,7 +1747,7 @@ console.log(x)
 
 ## 객체 및 클래스
 
-<chapterId>26689f25-8212-5057-8c21-3a05eee0ac75</chapterId>
+<chapterId>820f0b78-7065-4929-84eb-6d569d75a9ce</chapterId>
 
 
 자바스크립트는 흔히 객체 지향 언어라고 불립니다.
@@ -2432,12 +2432,12 @@ console.log(ourAdmin instanceof User)    // true
 
 # 중급 자바스크립트
 
-<partId>243f63ab-4f34-5c30-80cb-84ef46f6761d</partId>
+<partId>371fcc46-5c4f-4e9f-8e88-092927553fdc</partId>
 
 
 ## 오류 처리
 
-<chapterId>d0206bc5-d386-5e7f-9917-5803f392448c</chapterId>
+<chapterId>a34f710a-8955-4f58-a559-003706047512</chapterId>
 
 
 복잡한 자바스크립트 프로그램을 작성하다 보면 **오류**가 발생하게 됩니다. 이는 무언가 잘못되는 예기치 않은 상황입니다. 변수가 '정의되지 않은' 상태인데 이를 사용하려고 하거나 일부 코드가 잘못된 유형의 입력을 수신할 수 있습니다.
@@ -2590,7 +2590,7 @@ This will run no matter what.
 
 ## 버그 방지
 
-<chapterId>db12d9f6-5806-514c-998e-0ae24805104e</chapterId>
+<chapterId>44624b0b-ca62-471b-9ff4-633ac4456031</chapterId>
 
 
 이 장에서는 자바스크립트에서 가장 흔한 함정 몇 가지와 이를 피하는 방법을 설명합니다.
@@ -2688,7 +2688,7 @@ name = "Alice" // ReferenceError: name is not defined
 
 ## 가치 대 참조
 
-<chapterId>bb898425-dc2f-5e5c-864b-0cb7a4a9aea9</chapterId>
+<chapterId>7b38da5d-a2a8-4a92-bd16-4f9fb9bba36d</chapterId>
 
 
 자바스크립트는 다양한 종류의 값을 다양한 방식으로 처리합니다.
@@ -2852,7 +2852,7 @@ console.log(person.name) // Charlie
 
 ## 함수 작업
 
-<chapterId>e0d277a8-c642-5af7-9e53-dee27c811967</chapterId>
+<chapterId>5ef8fb79-0042-4185-8f54-0c2b6741cb11</chapterId>
 
 
 이미 자바스크립트에서 함수를 선언하고 사용하는 방법을 배웠습니다. 하지만 자바스크립트는 강력한 방식으로 함수를 사용할 수 있는 더 많은 도구를 제공합니다.
@@ -3120,7 +3120,7 @@ console.log(result) // 28
 
 ## 개체 작업
 
-<chapterId>7842aada-f009-5518-b8e3-1104e166a035</chapterId>
+<chapterId>51719896-7c92-4730-b153-7d3f88680a73</chapterId>
 
 
 이 장에서는 자바스크립트에서 객체 작업을 위한 강력하고 조금 더 고급스러운 도구에 대해 알아보겠습니다.
@@ -3247,7 +3247,7 @@ User.fullName = "John Smith"`를 수행하면 `set` 메서드가 실행되고 `f
 
 ## 키 및 값
 
-<chapterId>01a397b8-c12a-5c39-82b3-6d9ebbb72a29</chapterId>
+<chapterId>03899213-ca26-4beb-b836-c70116a5cb29</chapterId>
 
 
 자바스크립트 객체의 모든 프로퍼티에는 **키**(프로퍼티 이름이라고도 함)와 **값**이 있습니다.
@@ -3422,7 +3422,7 @@ console.log(obj) // { name: 'Jimmy', [Symbol(name)]: 'John' }
 
 ## 유틸리티 개체
 
-<chapterId>516e74c8-2a11-545a-a4d1-c2cabb91a273</chapterId>
+<chapterId>d6ce15ed-f38f-44f0-bf38-05f54a263763</chapterId>
 
 
 자바스크립트는 디버깅 및 수학 연산과 같은 작업을 수행하는 데 도움이 되는 몇 가지 유용한 내장 객체를 제공합니다.
@@ -3595,12 +3595,12 @@ console.log(Math.sqrt(16))    // 4
 
 # 고급 자바스크립트
 
-<partId>72c30671-ca20-5617-92a5-d5ba7aa38c93</partId>
+<partId>4deca44e-5be7-4cc7-8e66-b6e72c5c5702</partId>
 
 
 ## 기타 컬렉션
 
-<chapterId>a9a70c6d-a343-5a46-a383-e288bc2700e3</chapterId>
+<chapterId>06bc3143-6d3b-4742-b3ec-3d493200f290</chapterId>
 
 
 자바스크립트는 일반 배열과 객체를 뛰어넘는 몇 가지 특별한 컬렉션 유형을 제공합니다. 여기에는 `Map`과 `Set`이 포함됩니다.
@@ -3768,7 +3768,7 @@ console.log(numberSet) // Set(5) { 1, 2, 3, 4, 5 }
 
 ## 이터레이터
 
-<chapterId>61d24e5e-b7e4-541a-8322-778f61f26a72</chapterId>
+<chapterId>cdf64150-bf1b-43ee-9243-eb1d12944f6b</chapterId>
 
 
 배열, 문자열, 맵, 집합 등 자바스크립트에서 반복할 수 있는 대부분의 객체는 **이터러블**로, 해당 내용에 대한 반복자를 제공할 수 있습니다.
@@ -4103,7 +4103,7 @@ console.log(num)
 
 ## 콜백을 사용한 동시성
 
-<chapterId>f3fc76ca-b3ef-54eb-a06e-501007002054</chapterId>
+<chapterId>153d4631-4f09-4673-9663-a0655c84915d</chapterId>
 
 
 지금까지의 코드는 한 번에 한 줄씩 순서대로 실행되는 **동기식** 코드였습니다. 하지만 현실에서는 시간이 걸리는 일도 있고, 기다리는 동안 프로그램 전체가 멈추는 것도 원하지 않습니다.
@@ -4228,7 +4228,7 @@ console.log("Final result:", total)
 
 ## 약속을 통한 동시성
 
-<chapterId>30fddaca-729f-5c8d-bf86-8dfc7b3c9800</chapterId>
+<chapterId>f8635081-bd8a-468c-937a-378cba983be8</chapterId>
 
 
 '약속'은 **향후에 준비될** 값을 나타내는 내장 자바스크립트 객체입니다.
@@ -4560,7 +4560,7 @@ Final result after all steps: 10
 
 ## 동기화/대기를 사용한 동시성
 
-<chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
+<chapterId>ee195267-5761-4b57-b9c9-294c41753675</chapterId>
 
 
 '약속' 체인이 콜백 지옥을 피하는 데 어떻게 도움이 되는지 살펴봤지만, 단계가 많을 때는 여전히 약간의 Hard가 발생할 수 있습니다.
@@ -4761,7 +4761,7 @@ Final result: 10
 
 ## 비동기 이터레이터
 
-<chapterId>438b037d-9931-56d7-9052-7b4470f3c75b</chapterId>
+<chapterId>0e054e0d-3c56-4a9c-92b8-3f89082951d3</chapterId>
 
 
 이미 **이터레이터**와 배열 및 기타 이터러블 객체를 반복하기 위해 `for...of`를 사용하는 방법에 대해 배웠습니다.
@@ -4940,7 +4940,7 @@ run()
 
 ## Assignment 구문 설탕
 
-<chapterId>8b1ba7d8-ecfd-5470-b86e-73cb84ccc8b7</chapterId>
+<chapterId>05425043-b182-44f2-8409-210b07130f92</chapterId>
 
 
 "구문 설탕"이란 어떤 내용을 변경하지 않고 더 짧거나 쉬운 방식으로 작성하는 것을 의미합니다. 같은 말을 더 멋지게 표현한 것입니다.
@@ -5191,12 +5191,12 @@ console.log(updated) // { name: "Alice", age: 31 }
 
 # NodeJS
 
-<partId>42fe4d49-dace-5135-bb9e-b9d75034fb2a</partId>
+<partId>5b72ef93-69a6-4736-a375-6236861e2874</partId>
 
 
 ## 노드에 도달한 방법
 
-<chapterId>0da1d60c-06c9-54e6-a181-ae7dabf6e3b8</chapterId>
+<chapterId>d43b1e4c-cd96-4c75-8039-f76eb407a576</chapterId>
 
 
 이 장에서는 JavaScript와 NodeJS에 대한 역사적 배경에 대해 알아볼 것입니다.
@@ -5285,7 +5285,7 @@ console.log(updated) // { name: "Alice", age: 31 }
 
 ## 명령줄 인수
 
-<chapterId>960d20f3-c424-5d51-a041-ef17d2e94b6d</chapterId>
+<chapterId>941e316c-7ab8-4fb0-8298-9a1c85b25b71</chapterId>
 
 
 NodeJS를 사용하면 무엇보다도 CLI(명령줄 인터페이스)를 구축할 수 있습니다.
@@ -5362,7 +5362,7 @@ console.log(args)
 
 ## 모듈
 
-<chapterId>4e1651a5-65fd-50bc-b22a-40313d5659ca</chapterId>
+<chapterId>ace32a0c-8a10-4dfa-83e2-e06a8f674a24</chapterId>
 
 
 NodeJS와 같은 자바스크립트 런타임은 일반적으로 각 자바스크립트 파일을 별도의 모듈로 취급합니다.
@@ -5502,7 +5502,7 @@ console.log(os.platform())
 
 ## F 모듈
 
-<chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
+<chapterId>e59cdf25-2dc2-48d1-b5c1-3df89254ff4e</chapterId>
 
 
 F` 모듈(**파일 시스템**의 줄임말)은 NodeJS 표준 라이브러리의 일부입니다. 이를 통해 컴퓨터의 파일 및 디렉터리로 파일 읽기, 파일 쓰기, 삭제, 이름 바꾸기 등의 작업을 할 수 있습니다.
@@ -5800,7 +5800,7 @@ main().catch(err => console.error(err))
 
 ## NPM
 
-<chapterId>a91d9a75-55cc-51a3-a48f-0c0be6fe6e72</chapterId>
+<chapterId>412cfd23-1869-491e-9d04-84b9c447b4df</chapterId>
 
 
 코드를 작성할 때 다른 사람이 작성한 코드, 예를 들어 날짜, 색상, 서버 또는 거의 모든 작업을 도와주는 라이브러리를 사용해야 하는 경우가 많습니다.
@@ -6021,7 +6021,7 @@ package-lock.json`은 모든 것을 매우 특정한 버전으로 잠가 다른 
 
 ## NodeJS의 네트워킹
 
-<chapterId>f2cabd8b-754b-5c97-8d6a-8412a9a184c7</chapterId>
+<chapterId>5915bd97-6bc8-446a-a1d8-ca3ce2f724be</chapterId>
 
 
 스크립트를 서버로 전환하고 다른 서버에 요청하는 데도 사용할 수 있는 백엔드 언어로 NodeJS가 자주 사용됩니다.
@@ -6223,7 +6223,7 @@ res.end("Not Found")
 
 ## 데이터 처리: 버퍼, 이벤트, 스트림
 
-<chapterId>8c9623f0-a604-51a4-8fe4-871c849d3e3b</chapterId>
+<chapterId>6327b62d-3e2d-4a40-b8c3-78f2a21f3fda</chapterId>
 
 
 이 장에서는 주로 세 가지 클래스의 오브젝트를 소개합니다:
@@ -6710,7 +6710,7 @@ writable.on("drain",                // the writable stream emits a "drain" event
 
 ## 최종 참고 사항
 
-<chapterId>139e2ab8-df67-525a-85f0-5a2fa5e478f2</chapterId>
+<chapterId>c09318b9-2d2f-4300-a32b-dff8dbdb9dbd</chapterId>
 
 
 지금까지 수업을 잘 따라가셨다면 이제 NodeJS로 간단한 프로그램을 작성할 수 있을 것입니다.
@@ -6731,20 +6731,20 @@ writable.on("drain",                // the writable stream emits a "drain" event
 # 마지막 섹션
 
 
-<partId>322624d8-6fbc-11f0-a67a-5b145f10afc1</partId>
+<partId>528a2f0c-e5cf-49e5-95c8-4866523a5bde</partId>
 
 
 ## 리뷰 및 평가
 
 
-<chapterId>3e93ac86-6fbc-11f0-8bae-9b2ed7914843</chapterId>
+<chapterId>5c5cae08-1839-4b94-b89c-af40a0dc14a9</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## 결론
 
 
-<chapterId>49b3b9b2-6fbc-11f0-9870-5f5adcd3a0eb</chapterId>
+<chapterId>627aebc9-879f-4539-8501-dd0a517dd4a0</chapterId>
 
 
 <isCourseConclusion>true</isCourseConclusion>

@@ -27,7 +27,7 @@ Diagrammet nedenfor illustrerer hvordan en portefølje med to utgiftsbaner funge
 Denne operasjonen lar deg sette opp ulike konfigurasjoner, inkludert :
 
 
-- En arveplan som gjør det mulig for arvingene å få tilbake midler i tilfelle brukerens død. For mer informasjon om dette emnet anbefaler vi at du leser [del 4] (https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) i BTC102-kurset.
+- En arveplan som gjør det mulig for arvingene å få tilbake midler i tilfelle brukerens død. For mer informasjon om dette emnet anbefaler vi at du leser [del 4] (https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/dcec2c9c-f5d9-4d47-977d-d21c5bff05cb) i BTC102-kurset.
 - En forsterket sikkerhetskopi med gjenopprettingstid, noe som gir brukeren mulighet til å bruke lommeboken uten å måtte oppbevare den tilhørende hemmelige frasen og risikere at den blir stjålet, for eksempel under et innbrudd.
 - Et sikkerhetsnett for folk som begynner med Bitcoin: De vil administrere sin egen lommebok, og deres "verge" (for eksempel en slektning) vil forbeholde seg retten til å få tilbake pengene deres etter en gitt periode.
 - En flerpartssignaturordning (*multisig*) med reduserte krav over tid, for å håndtere at en eller flere av deltakerne forsvinner, for eksempel et selskaps partnere.

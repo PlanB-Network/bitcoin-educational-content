@@ -56,13 +56,13 @@ Bu kurs TETHER tarafından desteklenmektedir
 # Giriş
 
 
-<partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
+<partId>952e9c3d-4e88-44f8-942b-0b0643fee52e</partId>
 
 
 ## Kursa genel bakış
 
 
-<chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+<chapterId>3498530e-7910-4aa0-a2a9-63cca97c5d74</chapterId>
 
 ECO104 kursuna hoş geldiniz!
 
@@ -129,13 +129,13 @@ Para sistemimizin derinliklerine doğru çıktığımız bu yolculukta bize kat�
 # İlerlemenin Bedeli - Finansal Sistemimize Daha Yakından Bir Bakış
 
 
-<partId>25ed8242-1b5a-5b53-b833-824b0dd80bcc</partId>
+<partId>a318d7e4-cb95-4016-9e4f-c4019c902b95</partId>
 
 
 ## Paraya Giriş
 
 
-<chapterId>927ad49a-d8d6-5dd3-9250-cdcadcbf425e</chapterId>
+<chapterId>7ad6dcd5-339f-4d9e-a720-3d62e82408a9</chapterId>
 
 
 Para günlük hayatımızın büyüleyici ve vazgeçilmez bir parçasıdır. Her gün market alışverişi yapmak, fatura ödemek ve sayısız işlem yapmak için kullanırız. Peki ama para gerçekten nedir? Özünde para basitçe bir Exchange aracı, birbirimizle mal ve hizmet ticareti yapmamızı sağlayan bir araçtır. Hepimizin hafife aldığı soyut bir kavramdır, ancak ekonomik sistemimiz için temeldir.
@@ -261,7 +261,7 @@ Takastan madeni ve kağıt paranın icadına kadar para, toplumun sürekli deği
 ## Buraya Nasıl Geldiğimizin İncelenmesi
 
 
-<chapterId>4c8ebb36-a6d5-5637-93ca-9a4a222a1c58</chapterId>
+<chapterId>e9dc9f53-dcab-4469-a482-882e89dca77e</chapterId>
 
 
 Malların takas edildiği günlerden modern dijital para birimleri çağına kadar para büyüleyici bir evrim geçirmiştir. Atalarımız Exchange aracı olarak deniz kabukları, boncuklar ve hatta çiftlik hayvanları kullandı. Bugün ise sanal cüzdanlarımız ve temassız ödemelerimiz var. Bu, toplumun sürekli değişen ihtiyaçlarını karşılamak için sayısız yinelemeye, değiş tokuşa ve uyarlamaya sahne olan olağanüstü bir yolculuk.
@@ -478,7 +478,7 @@ Para dünyasını keşfetmeye devam ederken, itibari para birimlerinin yükseli�
 ## Nerede Olduğumuza ve İleride Neler Bekleyebileceğimize Bir Bakış
 
 
-<chapterId>0c38e8fd-c973-57a5-a673-abec706f6054</chapterId>
+<chapterId>ce2d4ac3-d766-4d85-a796-0be14376702f</chapterId>
 
 
 Bir önceki bölümde tartıştığımız gibi, tarihsel olarak para genellikle altın gibi bir emtia ile desteklenmiştir. Bunun faydaları abartılamaz. Bu bağlantı sadece paranın değerinin doğrudan emtianın değerine bağlı olduğu anlamına gelmekle kalmıyor, aynı zamanda para basan kuruluşun, tipik olarak hükümetin, daha fazla altın elde etmek zorunda kalacağı için ne kadar para basabileceğinin sınırlı olduğu anlamına da geliyordu.
@@ -689,7 +689,7 @@ Neyse ki, kullanabileceğimiz seçenekler var. Bitcoin'nin ortaya çıkmasıyla 
 ## Sınav
 
 
-<chapterId>f25c229f-2af0-5324-bc40-e90f7668985a</chapterId>
+<chapterId>0240a320-fb4d-4150-acf6-0cd9c7570761</chapterId>
 
 
 "İlerlemenin Bedeli" modülünü tamamladığınıza göre, son bölümleri anladığınızdan emin olmak için yeni edindiğiniz bilgileri test etmeniz gerekecek. Birkaç Açık Uçlu Soru ve ardından küçük bir sınavla başlayacağız.
@@ -709,13 +709,13 @@ Neyse ki, kullanabileceğimiz seçenekler var. Bitcoin'nin ortaya çıkmasıyla 
 # Finansal Özgürleşme - Bitcoin'e Giriş
 
 
-<partId>c00843b2-bde3-57bb-ae2e-8ecad6631d71</partId>
+<partId>f66fdc60-a1a9-4a21-9242-d4f86af8c0e4</partId>
 
 
 ## Öncüler, Yenilikçiler ve Bitcoin'nın Temelleri
 
 
-<chapterId>37d779ce-46b5-56d1-91d8-d04442236e35</chapterId>
+<chapterId>03010901-b8d8-4e77-9d04-b9112fbabf6c</chapterId>
 
 
 Bitcoin'nin büyüleyici dünyasını keşfedeceğimiz Modül İki'ye hoş geldiniz. Paranın tarihine ilişkin anlayışımızı temel alan bu modülde aşağıdaki konular ele alınacaktır:
@@ -870,7 +870,7 @@ Son olarak, Satoshi Nakamoto'nun kim olduğundan bağımsız olarak, Bitcoin'un 
 ## Bitcoin Nasıl Çalışır? Bu Büyülü İnternet Parasının İç İşleyişi
 
 
-<chapterId>b0f736fc-ed4d-5887-b22e-d958db9144d1</chapterId>
+<chapterId>293a9dd7-fa9d-49e1-aaba-2fa1f6c7e580</chapterId>
 
 
 Bitcoin genellikle sihirli internet parası olarak adlandırılır... ve bunun iyi bir nedeni vardır. Bir düşünün - Bitcoin ile banka veya hükümet gibi bir aracıya ihtiyaç duymadan dünyanın herhangi bir yerindeki herhangi birine değer gönderebilirsiniz. Bu, kendi kişisel bankanızın kontrolüne sahip olmak, sadece birkaç düğmeye tıklayarak sınırlar ötesine para transfer etme gücüne sahip olmak gibi bir şey.
@@ -995,7 +995,7 @@ Bu rollerin her biri, Bitcoin'in dijital bir para birimi olarak işlevselliği v
 ## Bitcoin'i Fiat'tan Farklı Kılan Nedir?
 
 
-<chapterId>5ef55778-cbcf-5c7e-960d-a2fcdf1a4006</chapterId>
+<chapterId>8ec83124-7544-4c76-8411-01c3ea32c126</chapterId>
 
 
 Bir önceki bölümde, Bitcoin'nin onu geleneksel para birimlerinden ayıran benzersiz işlevselliğini ve Bitcoin'nin merkezi olmama rozetini nasıl elde ettiğini inceledik. Şimdi, odağımızı değiştirelim ve Bitcoin'nin bir para birimini harika yapan özellikler açısından fiattan nasıl farklı olduğunu keşfedelim. Yalnızca bu temel özellikleri inceleyerek Bitcoin'nin neden benzersiz ve para söz konusu olduğunda kendi dünyasında olduğunu daha iyi anlayabiliriz.
@@ -1153,7 +1153,7 @@ Ayrıca, bu birleşik özellikler Bitcoin'ü yalnızca uzun vadede servet depola
 ## Bitcoin ile Etkileşim
 
 
-<chapterId>050a95af-e9c2-5ec3-b9c8-55ec174d309c</chapterId>
+<chapterId>898af852-84f8-45b8-b3e9-2adf85bb8576</chapterId>
 
 
 Bitcoin, gelişmekte olan ülkelerin, teknoloji meraklısı bireylerin ve yatırımcıların dikkatini çekerek parasal sistemi kasıp kavurdu. Ancak, hızlı büyümesiyle birlikte, birçok kişi bu dijital varlığın Visa ve Mastercard gibi geleneksel ödeme yöntemleriyle nasıl rekabet edebileceğini merak ediyor. Ayrıca, bireyler Bitcoin ile kişisel olarak nasıl etkileşime geçebileceklerini merak ediyor.
@@ -1316,7 +1316,7 @@ Bitcoin'ün en büyük avantajı, daha önce hiç mümkün olmayan bir dijital v
 ## Sınav
 
 
-<chapterId>1c7b8165-d67b-5f7c-a1cb-b83db58b77c7</chapterId>
+<chapterId>a51bed11-0894-49a4-878f-9f31d79d7f9e</chapterId>
 
 
 "Buraya Nasıl Geldiğimizin İncelenmesi" modülünü tamamladığınıza göre, son bölümleri anladığınızdan emin olmak için yeni edindiğiniz bilgileri test etmeniz gerekecek. Birkaç Açık Uçlu Soru ve ardından küçük bir sınavla başlayacağız.
@@ -1338,13 +1338,13 @@ Bitcoin'ün en büyük avantajı, daha önce hiç mümkün olmayan bir dijital v
 # Kaosun Ortasında İstikrar - Tether ve Stablecoin Dünyasına Giriş
 
 
-<partId>60b1f3c4-e161-53fe-84ca-88d8cd62aa75</partId>
+<partId>bc2fa7dd-b3a8-430a-8cba-97faae477137</partId>
 
 
 ## Tether ve Stablecoin Dünyasına Giriş
 
 
-<chapterId>427a72b5-8af7-503e-bc45-bb8b95483993</chapterId>
+<chapterId>65302477-a5c2-4555-b546-e4051066e1b1</chapterId>
 
 
 Daha önce de belirtildiği üzere, para binlerce yıldır insanlığın vazgeçilmez bir parçası olmuştur. Mal ve hizmet satın almamıza yardımcı olmuş, birbirimizle ticaret yapmamızı sağlamış ve servet depolamamıza yardımcı olmuştur.
@@ -1443,7 +1443,7 @@ _**Yan Not:** Bu terimlerden bazıları tam olarak anlam ifade etmiyorsa endişe
 ## Stablecoinlerin Tarihçesi
 
 
-<chapterId>174e2cab-ef14-5e14-99c8-8457b6fc5fee</chapterId>
+<chapterId>e6bb95e1-5ba1-40d0-8b4a-3e6c1d1dd0a3</chapterId>
 
 
 Stablecoinler, Bitcoin gibi kripto paralara kısa vadede daha az değişken bir alternatif sunarak kripto para dünyasında popüler bir konu haline gelmiştir. Bu modülün giriş bölümünde ayrıntılı olarak açıklandığı üzere sabit coinler, itibari para birimi veya değerli metaller gibi istikrarlı bir varlığa sabitlenen ve istikrarlı bir değeri korumak için tasarlanmış dijital varlıklardır. Bu nedenle, stabilcoinlerin tarihini inceleyelim ve en iyi bilinen ve yaygın olarak kullanılan stabilcoin olan Tether'in USDt'si de dahil olmak üzere ilk stabilcoinlerden bazılarına daha yakından bakalım.
@@ -1485,7 +1485,7 @@ Sonuç olarak, stabilcoinler başlangıcından bu yana uzun bir yol kat etmişti
 ## Stablecoinlerin Özellikleri
 
 
-<chapterId>21765df7-53fd-58af-9df6-7208027a0c3a</chapterId>
+<chapterId>36e0ab1f-a3fe-42c1-8400-55fb770d9bf3</chapterId>
 
 
 Şimdiye kadar açıkça görülmesi gerektiği gibi, bir stablecoin, temel bir pegged asset'ye dayalı olarak istikrarlı bir değeri korumak için tasarlanmış bir dijital token türüdür. Bu varlıklar fiat para birimi, değerli metaller, emtialar veya bunların bir kombinasyonunu (örneğin fiat para birimlerinden oluşan bir sepet) içerebilir.
@@ -1619,7 +1619,7 @@ Sabit coinler "istikrarlı" yapıları nedeniyle genellikle güvenli kabul edils
 ## Tether'in Stablecoin Tekliflerinin Avantajları
 
 
-<chapterId>a6806b45-b92e-5791-8f5f-804098a522b2</chapterId>
+<chapterId>6a1aef8e-3fdf-426b-901c-6e1a26b6ad88</chapterId>
 
 
 Son 70 yılda satın alma gücünün şaşırtıcı bir şekilde [%99,5] (https://bitcoinmagazine.com/culture/Bitcoin-a-currency-of-decolonization) kaybeden CFA Frangı'nın mevcut tek para birimi olduğu kırsal bir Afrika köyünde yaşayan genç bir kadın olan Adanna ile tanışın - tasarruf etmeyi imkansız hale getiriyor.
@@ -1810,7 +1810,7 @@ Genel olarak, USDt ve XAUt gibi sabit coinler, kapsayıcı ve çok ihtiyaç duyu
 ## Sınav
 
 
-<chapterId>1294d874-6edb-5feb-b070-0ead1836bd0b</chapterId>
+<chapterId>7abbc2a0-f98d-40a9-80ae-1cc397027cdc</chapterId>
 
 
 "Kaosun Ortasında İstikrar" modülünü tamamladığınıza göre, son bölümleri anladığınızdan emin olmak için yeni edindiğiniz bilgileri test etmeniz gerekecek. Birkaç Açık Uçlu Soru ve ardından küçük bir sınavla başlayacağız.
@@ -1830,13 +1830,13 @@ Genel olarak, USDt ve XAUt gibi sabit coinler, kapsayıcı ve çok ihtiyaç duyu
 # Şüphelerin Üstesinden Gelmek - Yaygın Yanlış Kanıların Çürütülmesi ve Gerçek Dünyadan Kullanım Örnekleri
 
 
-<partId>246a7dc0-a203-5b2e-ae13-9c8f08e6bfad</partId>
+<partId>5e3f28ec-ff90-4272-af00-724e0ced0765</partId>
 
 
 ## Yanlış Anlamalar
 
 
-<chapterId>4da9319d-6306-500f-adbb-5fa31c673cd2</chapterId>
+<chapterId>c48b4889-5972-4139-b928-b56fb88b28d5</chapterId>
 
 
 Bitcoin, 2009'daki doğumundan bu yana geri itme, eleştiri ve yanlış anlamalarla çevrilidir. Popülaritesinin ve benimsenmesinin artmasına rağmen, birçok kişi hala onu patlamayı bekleyen bir balon olarak görmektedir. Aynı doğrultuda, sabit coinler de benzer bir ilgi ve şüphecilikle karşılaşmıştır. İstikrarlı bir varlık tarafından desteklenen bir para birimi fikri kulağa umut verici geliyor, ancak birçok kişi sabit coinlerin nasıl çalıştığını ve finansal sistem üzerindeki potansiyel etkilerini yanlış anlıyor.
@@ -2315,7 +2315,7 @@ Nihayetinde, merkezi olmayan finansın geleceği, geleneksel sınırların ötes
 ## Roya Mahboob
 
 
-<chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
+<chapterId>e76ef439-44db-4cf4-b660-0ed33d913989</chapterId>
 
 
 Günümüzün küreselleşen dünyasında finansal hizmetlere erişim, ekonomik katılım ve bağımsızlığın kritik bir bileşenidir. Buna rağmen, çok sayıda birey hala geleneksel bankacılık sisteminden dışlanmakta ve bu dışlanmanın yükünü genellikle kadınlar çekmektedir. Şok edici bir şekilde, küresel nüfusun gereksiz yere [dörtte biri](https://www.worldbank.org/en/publication/globalfindex) bankasız kalmasına rağmen, Suudi Arabistan gibi ülkelerde kadınların [%36,5](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.)'i temel bankacılık hizmetlerine erişimden yoksundur ve bu da onların ülkelerinin ekonomisine ve toplumuna tam olarak katılmalarını engellemektedir.
@@ -2389,7 +2389,7 @@ Genel olarak, Bitcoin kadınların finansal açıdan güçlendirilmesi için gü
 ## Mercedes
 
 
-<chapterId>dfa10b75-19f6-578a-9d14-a0a541806076</chapterId>
+<chapterId>a897e855-f7a6-406c-a5b9-7cc6783e2ddd</chapterId>
 
 
 1949'da Meksika'da yoksul bir ailenin çocuğu olarak dünyaya gelen Mercedes, yaşadığı toplumu saran eşitsizlikleri küçük yaşlardan itibaren tecrübe etti. Çocukluğu boyunca, öğrenci hareketlerinin hükümet tarafından bastırılması ve yoksulluk içinde yaşayan kadınların yaşadığı benzersiz mücadeleler de dahil olmak üzere çok sayıda zorlukla karşılaştı. Dahası, zenginler ve yoksullar arasındaki büyük uçurum, kaliteli eğitime sınırlı erişimle birleştiğinde, ailesini ve sayısız diğerlerini yoksulluğa hapsetti. Bu adaletsizlikler karşısında hayal kırıklığına uğrayan Mercedes, Marksizme (Komünizm) yöneldi, sosyal değişim ve ekonomik reformu savundu.
@@ -2422,7 +2422,7 @@ Mercedes'in hayatı inanılmaz bir yolculuktu ve Bitcoin'in hayatı üzerindeki 
 ## Stablecoin Hikayeleri
 
 
-<chapterId>7b6d8d57-905d-5168-9be6-3df7c938de2a</chapterId>
+<chapterId>d22acc57-2b00-4a51-96b0-a350814f87d5</chapterId>
 
 
 Bu kursun sonuna yaklaşırken, ilham verici stablecoin hikayelerinden oluşan bir koleksiyon sunmak istiyoruz. Bu referanslar, yaşamlarını yükseltmek için sabit coinlerin gücünden yararlanan bireylerin, işletme sahiplerinin ve şirketlerin gerçek yaşam deneyimlerini sergiliyor.
@@ -2568,7 +2568,7 @@ Bu hikayeleri ilham verici bulduğunuzu umuyoruz. Bununla birlikte, USDt gibi sa
 ## Sınav
 
 
-<chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
+<chapterId>002220e4-069b-4367-b153-ca19029412de</chapterId>
 
 
 "Şüpheleri Aşmak" modülünü tamamladığınıza göre, son bölümleri anladığınızdan emin olmak için yeni edindiğiniz bilgileri test etmeniz gerekecek. Birkaç Açık Uçlu Soru ve ardından küçük bir sınavla başlayacağız.
@@ -2588,7 +2588,7 @@ Bu hikayeleri ilham verici bulduğunuzu umuyoruz. Bununla birlikte, USDt gibi sa
 ## Kapanış Konuşması
 
 
-<chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
+<chapterId>1896c6b1-77d7-45bb-a798-bcdd27deb18b</chapterId>
 
 
 Kursun sonuna kadar geldiğiniz için tebrikler! Uzun bir yol kat ettiniz. Bu yolculuk boyunca, aşağıdakiler de dahil olmak üzere çok çeşitli konuları inceledik:
@@ -2632,7 +2632,7 @@ Gelecek Parlak!
 ## Yorumlar & Derecelendirmeler
 
 
-<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
+<chapterId>1ec641d0-0421-404b-88d3-bac725aca9dc</chapterId>
 
 <isCourseReview>true</isCourseReview>
 

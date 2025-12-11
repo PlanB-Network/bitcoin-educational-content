@@ -28,12 +28,12 @@ JavaScript 是世界上最流行的编程语言：它是现代浏览器的脚本
 +++
 # 基础 JavaScript
 
-<partId>a617327c-e5a2-52ca-9380-c63f44623dd4</partId>
+<partId>f05873c1-d927-41c7-a204-bb0c65a76980</partId>
 
 
 ## 设置
 
-<chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
+<chapterId>f23bda2d-c460-4823-9d63-f2ac4d782c1f</chapterId>
 
 
 
@@ -182,7 +182,7 @@ console.log(16, 8, 1993)
 
 ## 变量和注释
 
-<chapterId>23050ab7-343b-5edf-9d37-e4e782e27ce0</chapterId>
+<chapterId>3eeeaba5-0eae-446f-9cbb-671d8ec89155</chapterId>
 
 
 程序通常对数据执行操作。
@@ -466,7 +466,7 @@ console.log(y)
 
 ## 基本类型：数字、字符串、布尔型
 
-<chapterId>cfdb04f6-21a8-5143-bbf9-7aaae04962f0</chapterId>
+<chapterId>1885cd1e-9477-40b3-846f-c6484a0741d1</chapterId>
 
 
 在 JavaScript 中，"类型 "会告诉你一个值是什么类型的数据。
@@ -723,7 +723,7 @@ Javascript 还用 `>=` 表示 "更大或相等"，用 `<=` 表示 "更小或相�
 
 ## 数组、空、未定义
 
-<chapterId>7bf18183-5eae-53ed-83d2-b04982145d81</chapterId>
+<chapterId>8047722f-5eee-46c3-b17f-c29b709930c3</chapterId>
 
 
 在本节中，我们将介绍另外三种在 JavaScript 程序中非常常见的类型：
@@ -970,7 +970,7 @@ Alice
 
 ## 块和控制流
 
-<chapterId>be985168-2636-5b0d-a48f-ac1bbfbff8a7</chapterId>
+<chapterId>ae3ddb7d-b174-4328-ba45-e3629ea01063</chapterId>
 
 
 到目前为止，我们编写的大部分代码都是一行接一行地运行。
@@ -1500,7 +1500,7 @@ console.log(totalDaysInOneYear)  // Print the total number of days in the year (
 
 ## 功能介绍
 
-<chapterId>cc324715-09c2-5cf7-9e6f-47a6f16bc04d</chapterId>
+<chapterId>c73497b2-30c8-47c3-994c-01404924634e</chapterId>
 
 
 随着程序的发展，您经常需要**重复使用**段代码。
@@ -1740,7 +1740,7 @@ console.log(x)
 
 ## 对象和类别
 
-<chapterId>26689f25-8212-5057-8c21-3a05eee0ac75</chapterId>
+<chapterId>820f0b78-7065-4929-84eb-6d569d75a9ce</chapterId>
 
 
 JavaScript 通常被称为面向对象语言。
@@ -2425,12 +2425,12 @@ console.log(ourAdmin instanceof User)    // true
 
 # 中级 JavaScript
 
-<partId>243f63ab-4f34-5c30-80cb-84ef46f6761d</partId>
+<partId>371fcc46-5c4f-4e9f-8e88-092927553fdc</partId>
 
 
 ## 错误处理
 
-<chapterId>d0206bc5-d386-5e7f-9917-5803f392448c</chapterId>
+<chapterId>a34f710a-8955-4f58-a559-003706047512</chapterId>
 
 
 当你编写更复杂的 JavaScript 程序时，你会遇到**错误**。这些是出错的意外情况。也许某个变量是 "未定义 "的，但你却试图使用它，或者某些代码接收到了错误的输入类型。
@@ -2583,7 +2583,7 @@ This will run no matter what.
 
 ## 避免虫子
 
-<chapterId>db12d9f6-5806-514c-998e-0ae24805104e</chapterId>
+<chapterId>44624b0b-ca62-471b-9ff4-633ac4456031</chapterId>
 
 
 本章将介绍 JavaScript 中一些最常见的陷阱，以及如何避免这些陷阱。
@@ -2681,7 +2681,7 @@ name = "Alice" // ReferenceError: name is not defined
 
 ## 价值与参考
 
-<chapterId>bb898425-dc2f-5e5c-864b-0cb7a4a9aea9</chapterId>
+<chapterId>7b38da5d-a2a8-4a92-bd16-4f9fb9bba36d</chapterId>
 
 
 JavaScript 对不同类型的值有不同的处理方式。
@@ -2845,7 +2845,7 @@ console.log(person.name) // Charlie
 
 ## 使用函数
 
-<chapterId>e0d277a8-c642-5af7-9e53-dee27c811967</chapterId>
+<chapterId>5ef8fb79-0042-4185-8f54-0c2b6741cb11</chapterId>
 
 
 您已经学习了如何在 JavaScript 中声明和使用函数。但是，JavaScript 还为您提供了更多工具，让您能以强大的方式使用函数。
@@ -3113,7 +3113,7 @@ console.log(result) // 28
 
 ## 使用对象
 
-<chapterId>7842aada-f009-5518-b8e3-1104e166a035</chapterId>
+<chapterId>51719896-7c92-4730-b153-7d3f88680a73</chapterId>
 
 
 在本章中，我们将学习一些功能强大且稍显高级的工具，用于在 JavaScript 中处理对象。
@@ -3240,7 +3240,7 @@ console.log(user.lastName)  // Smith
 
 ## 关键和价值
 
-<chapterId>01a397b8-c12a-5c39-82b3-6d9ebbb72a29</chapterId>
+<chapterId>03899213-ca26-4beb-b836-c70116a5cb29</chapterId>
 
 
 JavaScript 对象中的每个属性都有一个**键**（也称为属性名）和一个**值**。
@@ -3415,7 +3415,7 @@ console.log(obj) // { name: 'Jimmy', [Symbol(name)]: 'John' }
 
 ## 实用工具
 
-<chapterId>516e74c8-2a11-545a-a4d1-c2cabb91a273</chapterId>
+<chapterId>d6ce15ed-f38f-44f0-bf38-05f54a263763</chapterId>
 
 
 JavaScript 提供了一些有用的内置对象，可以帮助我们完成调试和数学运算等工作。
@@ -3588,12 +3588,12 @@ console.log(Math.sqrt(16))    // 4
 
 # 高级 JavaScript
 
-<partId>72c30671-ca20-5617-92a5-d5ba7aa38c93</partId>
+<partId>4deca44e-5be7-4cc7-8e66-b6e72c5c5702</partId>
 
 
 ## 其他收藏
 
-<chapterId>a9a70c6d-a343-5a46-a383-e288bc2700e3</chapterId>
+<chapterId>06bc3143-6d3b-4742-b3ec-3d493200f290</chapterId>
 
 
 JavaScript 提供了一些超出普通数组和对象的特殊集合类型。其中包括 `Map` 和 `Set`。
@@ -3761,7 +3761,7 @@ console.log(numberSet) // Set(5) { 1, 2, 3, 4, 5 }
 
 ## 迭代器
 
-<chapterId>61d24e5e-b7e4-541a-8322-778f61f26a72</chapterId>
+<chapterId>cdf64150-bf1b-43ee-9243-eb1d12944f6b</chapterId>
 
 
 JavaScript 中大多数可以循环的东西（如数组、字符串、映射、集合）都是**可迭代的**：它们可以为其内容提供迭代器。
@@ -4096,7 +4096,7 @@ console.log(num)
 
 ## 回调的并发性
 
-<chapterId>f3fc76ca-b3ef-54eb-a06e-501007002054</chapterId>
+<chapterId>153d4631-4f09-4673-9663-a0655c84915d</chapterId>
 
 
 到目前为止，我们的代码都是**同步**：按顺序一行一行地运行。但现实世界中有些事情需要时间，我们不希望整个程序在等待时暂停。
@@ -4221,7 +4221,7 @@ console.log("Final result:", total)
 
 ## 承诺并发
 
-<chapterId>30fddaca-729f-5c8d-bf86-8dfc7b3c9800</chapterId>
+<chapterId>f8635081-bd8a-468c-937a-378cba983be8</chapterId>
 
 
 Promise 是一个内置的 JavaScript 对象，它代表一个将在未来**准备好的值**。
@@ -4553,7 +4553,7 @@ Final result after all steps: 10
 
 ## 使用 "async"/"await "的并发性
 
-<chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
+<chapterId>ee195267-5761-4b57-b9c9-294c41753675</chapterId>
 
 
 我们看到了 `Promise` 链是如何帮助我们避免回调地狱的，但当涉及许多步骤时，读起来还是会有些费劲。
@@ -4754,7 +4754,7 @@ Final result: 10
 
 ## 异步迭代器
 
-<chapterId>438b037d-9931-56d7-9052-7b4470f3c75b</chapterId>
+<chapterId>0e054e0d-3c56-4a9c-92b8-3f89082951d3</chapterId>
 
 
 我们已经了解了 **iterators** 以及如何使用 `for...of` 来循环数组和其他可迭代的东西。
@@ -4933,7 +4933,7 @@ run()
 
 ## Assignment 语法糖
 
-<chapterId>8b1ba7d8-ecfd-5470-b86e-73cb84ccc8b7</chapterId>
+<chapterId>05425043-b182-44f2-8409-210b07130f92</chapterId>
 
 
 "语法糖 "指的是在不改变其功能的前提下，以更简短或更容易的方式编写某些内容。它只是用一种更好的方式来表达同样的意思。
@@ -5184,12 +5184,12 @@ console.log(updated) // { name: "Alice", age: 31 }
 
 # NodeJS
 
-<partId>42fe4d49-dace-5135-bb9e-b9d75034fb2a</partId>
+<partId>5b72ef93-69a6-4736-a375-6236861e2874</partId>
 
 
 ## 我们如何进入节点
 
-<chapterId>0da1d60c-06c9-54e6-a181-ae7dabf6e3b8</chapterId>
+<chapterId>d43b1e4c-cd96-4c75-8039-f76eb407a576</chapterId>
 
 
 在本章中，我们将了解一些有关 JavaScript 和 NodeJS 的历史背景。
@@ -5278,7 +5278,7 @@ JavaScript 无法访问计算机上的文件系统和其他本地资源（至少
 
 ## 命令行参数
 
-<chapterId>960d20f3-c424-5d51-a041-ef17d2e94b6d</chapterId>
+<chapterId>941e316c-7ab8-4fb0-8298-9a1c85b25b71</chapterId>
 
 
 NodeJS 除其他功能外，还允许我们构建 CLI（命令行接口）。
@@ -5355,7 +5355,7 @@ console.log(args)
 
 ## 模块
 
-<chapterId>4e1651a5-65fd-50bc-b22a-40313d5659ca</chapterId>
+<chapterId>ace32a0c-8a10-4dfa-83e2-e06a8f674a24</chapterId>
 
 
 JavaScript 运行时（如 NodeJS）通常将每个 JavaScript 文件视为一个单独的模块。
@@ -5495,7 +5495,7 @@ console.log(os.platform())
 
 ## fs "模块
 
-<chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
+<chapterId>e59cdf25-2dc2-48d1-b5c1-3df89254ff4e</chapterId>
 
 
 fs "模块（**文件系统**的缩写）是 NodeJS 标准库的一部分。它允许您处理计算机上的文件和目录：您可以读取文件、写入文件、删除文件、重命名文件等。
@@ -5793,7 +5793,7 @@ main().catch(err => console.error(err))
 
 ## NPM
 
-<chapterId>a91d9a75-55cc-51a3-a48f-0c0be6fe6e72</chapterId>
+<chapterId>412cfd23-1869-491e-9d04-84b9c447b4df</chapterId>
 
 
 在编写代码时，您经常需要使用其他人编写的代码，例如，帮助您处理日期、颜色、服务器或几乎任何其他内容的库。
@@ -6014,7 +6014,7 @@ package-lock.json "会将所有内容锁定为一个非常特定的版本，以�
 
 ## NodeJS 中的联网
 
-<chapterId>f2cabd8b-754b-5c97-8d6a-8412a9a184c7</chapterId>
+<chapterId>5915bd97-6bc8-446a-a1d8-ca3ce2f724be</chapterId>
 
 
 NodeJS 通常用作后台语言：您可以将脚本变成服务器，也可以用它向其他服务器发出请求。
@@ -6216,7 +6216,7 @@ res.end("Not Found")
 
 ## 处理数据：缓冲区、事件、数据流
 
-<chapterId>8c9623f0-a604-51a4-8fe4-871c849d3e3b</chapterId>
+<chapterId>6327b62d-3e2d-4a40-b8c3-78f2a21f3fda</chapterId>
 
 
 在本章中，我们将主要介绍三类对象：
@@ -6703,7 +6703,7 @@ writable.on("drain",                // the writable stream emits a "drain" event
 
 ## 最后说明
 
-<chapterId>139e2ab8-df67-525a-85f0-5a2fa5e478f2</chapterId>
+<chapterId>c09318b9-2d2f-4300-a32b-dff8dbdb9dbd</chapterId>
 
 
 就这样，如果你跟上了课程，现在应该能用 NodeJS 编写一些简单的程序了。
@@ -6724,20 +6724,20 @@ writable.on("drain",                // the writable stream emits a "drain" event
 # 最后一节
 
 
-<partId>322624d8-6fbc-11f0-a67a-5b145f10afc1</partId>
+<partId>528a2f0c-e5cf-49e5-95c8-4866523a5bde</partId>
 
 
 ## 评论与评级
 
 
-<chapterId>3e93ac86-6fbc-11f0-8bae-9b2ed7914843</chapterId>
+<chapterId>5c5cae08-1839-4b94-b89c-af40a0dc14a9</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## 结论
 
 
-<chapterId>49b3b9b2-6fbc-11f0-9870-5f5adcd3a0eb</chapterId>
+<chapterId>627aebc9-879f-4539-8501-dd0a517dd4a0</chapterId>
 
 
 <isCourseConclusion>true</isCourseConclusion>

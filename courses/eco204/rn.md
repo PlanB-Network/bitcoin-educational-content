@@ -17,13 +17,13 @@ Mu nzira, uzovumbura kandi uko abantu n'imitwaro byanyuze muri ibyo bihe bigoye.
 # Imenyekanisha
 
 
-<partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
+<partId>b2ba4969-7b91-45cf-b2ad-b5d2958f48b3</partId>
 
 
 ## Incamake y'amashure
 
 
-<chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
+<chapterId>c9ff81cb-98ab-4724-b174-4dbfa3a25ea8</chapterId>
 
 
 Murakaze mu mahugurwa ya ECO204!
@@ -53,13 +53,13 @@ Bimeze gute iyo amateka y’amahera asubiramwo imbere y’amaso yacu? Ube umucam
 # Inyungu y’ibiciro ni iki?
 
 
-<partId>2b4f456c-3649-5cf9-b9b0-a5bffe92d962</partId>
+<partId>5902cccb-fd13-4088-8852-569bdf4528f4</partId>
 
 
 ## Ikintu c'amahera
 
 
-<chapterId>b2cbc915-c4ec-52b5-860c-0958f58c91e4</chapterId>
+<chapterId>1ac7d89a-7082-4466-8eb2-00f1e1b303a0</chapterId>
 
 
 ### Insobanuro z'ugutera imbere kw'ibiciro
@@ -327,7 +327,7 @@ Mu gusozera, iki cigwa ku bijanye n’ugucika intege kw’agaciro k’amahera ki
 ## Ubwoko bw'uguduga kw'ibiciro
 
 
-<chapterId>b438fe09-375e-5bb2-9196-7dd687b9f98c</chapterId>
+<chapterId>5d7b5350-7312-4a3f-9138-6c4c9cfdbe0d</chapterId>
 
 
 ### Inflation si ikintu giterwa n'ibintu vyinshi
@@ -633,13 +633,13 @@ Murakoze cane ku kwitwararika. Ikiganiro gikurikira kizoba kijanye n’ugusobanu
 # Inyungu nyinshi cane ni iki?
 
 
-<partId>3f541663-1e2f-5410-8ee0-f61c5d009fa5</partId>
+<partId>5747f16f-4cc0-4358-8ae8-4411fc8f89ca</partId>
 
 
 ## Insobanuro z'ugutera imbere kw'ibiciro
 
 
-<chapterId>d2a71a2e-5f36-58d9-993c-d431f4aa07fd</chapterId>
+<chapterId>5b8758ff-7b46-4c81-aafd-f8ee06fcef03</chapterId>
 
 
 ### Insobanuro z'ugutera imbere kw'ibiciro
@@ -777,7 +777,7 @@ Birabereye kumenya ko ibihe bimwebimwe vy’amateka vy’ugutera imbere kw’ibi
 ## Weimar na Zimbabwe bisa
 
 
-<chapterId>11eef458-aab8-5c63-8523-264d0ba69f5d</chapterId>
+<chapterId>733924b4-7fd2-46ab-8f48-cbb86c5fd4d6</chapterId>
 
 
 ### Ibihe bibiri, ivyago bibiri
@@ -1035,7 +1035,7 @@ Ivyo ni vyo bisozera iyi videwo ku bijanye n’ivyo vyabaye bisa mu bihe vy’ug
 ## Weimar na Zimbabwe: Ubutandukane n'ivyo muri iki gihe
 
 
-<chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
+<chapterId>3b71f96b-6f11-40b5-b974-a27fe498fe3c</chapterId>
 
 
 Muri iki gice, tuzokwihweza itandukaniro n’ibihuye n’ivyo muri iki gihe hagati y’ibihe vya kera n’ivyo ubu vy’ugutera imbere kw’ibiciro, dukoresheje inkuru z’ivya kera n’ibigereranyo bibereye vy’uyu musi.
@@ -1184,7 +1184,7 @@ Ubu, kubera ububasha bwo kuzigama buriko buragabanuka, ishoramari ryarafashe iki
 ## Ishengero rishasha muri Amerika Latini
 
 
-<chapterId>918eafd7-409d-5205-ad52-a52e63b23a64</chapterId>
+<chapterId>6fee14c4-a59d-4f23-b6bd-24d8422a2cb4</chapterId>
 
 
 Ubu rero turaza kuraba ibihe bitandukanye vy’uguhindura idini mu bihugu vya Amerika Latini.
@@ -1342,7 +1342,7 @@ Mu gusozera, ugutera imbere kw’ibiciro ni umuce umwe gusa w’ingorane z’ubu
 ## Uko wotsinda ugutakaza agaciro kw'ibiciro
 
 
-<chapterId>e3484a31-a851-5f92-8af5-00eddae67db1</chapterId>
+<chapterId>045d835e-4692-438a-a5c9-8889801bee6c</chapterId>
 
 
 ### Uko twohagarika inflation iringaniye n'iyirengeye
@@ -1418,7 +1418,7 @@ Iciyumviro nyamukuru ni uko hariho ingamba nyinshi zo gutsinda ugutera imbere kw
 ## Gushikiriza amafaranga y'amahera y'inflation
 
 
-<chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
+<chapterId>e166eb40-d92a-42a6-b4ca-64c3d3baa8d4</chapterId>
 
 
 [Tora ivyo bitabo vyakozwe mu gitabu ca *Bitcoin Educational Toolkit* (navyo ushobora kubironka mu gice ca *Ibikoresho* co muri Plan ₿ Academy urubuga.] (urubuga rwa penpot.umugambi 4-4f081b21defb&igice=imigenderanire&urutonde=0&sangira-id=7154756b-3ebd-8040-8004-6475c2af5889&imigenderanire-uburyo=kwerekana-ku-gukanda)
@@ -1429,13 +1429,13 @@ Iciyumviro nyamukuru ni uko hariho ingamba nyinshi zo gutsinda ugutera imbere kw
 # None twashitse gute ngaha?
 
 
-<partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>
+<partId>d32a419f-ace2-4b63-8be0-5727d6c6c3af</partId>
 
 
 ## Guseruka kwa Layer ya kabiri y'amahera n'amabanki nkuru
 
 
-<chapterId>0455ffe3-9d45-5a67-ac96-3f815dc507a1</chapterId>
+<chapterId>47b3add9-dc60-4a05-b380-d9166f8c1886</chapterId>
 
 
 Ivyanditswe:
@@ -1528,7 +1528,7 @@ Amabanki akomeye yarateye imbere gushika aho aba abaguzi ba nyuma, bahagarika ug
 ## Ibitabo n'ibikoresho
 
 
-<chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
+<chapterId>53dc2a2f-11af-4370-a137-274c4d861e5c</chapterId>
 
 
 Hyperinflation ni ikintu giteye umunezero cane cigishijwe biciye ku bintu bitandukanye vyabaye mu mateka. Niba wipfuza kwihweza cane iyo nkuru, ng’uru urutonde rw’ibintu 10 vy’ingenzi wosoma no kwiga:
@@ -1579,14 +1579,14 @@ Hyperinflation ni ikintu giteye umunezero cane cigishijwe biciye ku bintu bitand
 ## Amasuzuma n'Ibipimo
 
 
-<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<chapterId>3e37d04e-0239-454f-9701-9479bc08a5bc</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Ikibazo canyuma
 
 
-<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
+<chapterId>baf9e2af-d020-4188-84a1-c33e653d17ee</chapterId>
 
 <isCourseExam>true</isCourseExam>
 

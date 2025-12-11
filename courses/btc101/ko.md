@@ -25,13 +25,13 @@ objectives:
 # 소개
 
 
-<partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
+<partId>34ab5c9f-08b8-4324-a53e-582c63a2b1ea</partId>
 
 
 ## 코스 개요
 
 
-<chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
+<chapterId>a47e30ce-f437-404b-99e0-0c1cf1a78f37</chapterId>
 
 
 BTC101 과정에 오신 것을 환영합니다!
@@ -125,7 +125,7 @@ Bitcoin의 매혹적인 세계로 뛰어들어 그 내부의 모든 작동 원�
 ## Bitcoin의 선사 시대
 
 
-<chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
+<chapterId>0824f3a8-502a-4321-bb0d-13ccba37f3fa</chapterId>
 
 
 "Bitcoin"이라는 용어가 디지털 화폐 및 금융 혁신의 대명사가 되기 전에는 일련의 아이디어, 혁신, 사회 운동이 그 탄생의 토대를 마련했습니다. 그중에서도 Cypherpunk 운동은 Bitcoin의 탄생에 있어 핵심적인 요소로 꼽힙니다.
@@ -210,13 +210,13 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 # 돈
 
 
-<partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
+<partId>c7430a3c-6419-465e-b84d-d677e277f732</partId>
 
 
 ## 역사 속의 화폐
 
 
-<chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
+<chapterId>84047ee5-9f48-4105-9849-8be318496304</chapterId>
 
 
 화폐의 진화는 끊임없이 진화하는 경제적 필요를 충족하기 위한 여러 시대의 문명의 독창성을 반영하는 인류 역사의 매혹적인 측면입니다.
@@ -308,7 +308,7 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 ## 신탁 통화
 
 
-<chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
+<chapterId>8c6dbe02-c275-4568-bd1b-fc36b8d4796d</chapterId>
 
 
 > 조지 산타야나는 "과거를 기억하지 못하는 사람은 과거를 반복할 수밖에 없다"고 말했습니다.
@@ -389,7 +389,7 @@ https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 ## 하이퍼인플레이션
 
 
-<chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
+<chapterId>3f99733a-7a40-42a8-870c-cc4947560bba</chapterId>
 
 
 하이퍼인플레이션은 화폐에 대한 신뢰가 완전히 상실되고 당국의 화폐 인쇄로 인해 인플레이션이 급격히 증가하는 통화 현상으로, 법정 화폐에만 국한된 현상입니다. 그 결과 개인이 축적한 저축이 비교적 단기간에 소멸되어 국가가 경제적, 사회적, 정치적 붕괴의 위기에 처할 수 있습니다.
@@ -526,7 +526,7 @@ https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 ## 2100만 비트코인
 
 
-<chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
+<chapterId>e6172b08-5916-4f9f-a06f-4405c52c06ab</chapterId>
 
 
 ### Bitcoin의 통화 정책
@@ -576,7 +576,7 @@ Bitcoin은 **2100만 개**의 사전 정의된 최대 수량을 가진 탈중앙
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Mining의 개념은 [Miner 챕터](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf)에서 더 자세히 살펴보겠습니다.
+Mining의 개념은 [Miner 챕터](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/f2ce96f9-66d5-4286-9a18-9e1506b369b5)에서 더 자세히 살펴보겠습니다.
 
 
 ### 디지털 희소성 보장
@@ -647,13 +647,13 @@ Bitcoin는 설계상 발행을 제한하여 건전한 통화 관리를 보장하
 # Bitcoin 지갑
 
 
-<partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
+<partId>3b488c45-d286-4083-8824-ec259cc2a324</partId>
 
 
 ## Bitcoin 지갑이란 무엇인가요?
 
 
-<chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
+<chapterId>149c6588-94ae-46b6-b073-9ffc18912397</chapterId>
 
 
 섹션 2에서는 이 유명한 비트코인의 위치와 상호 작용하는 방법을 이해하기 위해 지갑을 사용하여 Bitcoin의 저장 및 보안을 살펴볼 것입니다!
@@ -750,7 +750,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 ## Bitcoin 지갑 및 보안
 
 
-<chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
+<chapterId>40485240-351a-471c-b017-faebfb836470</chapterId>
 
 
 ### 시작하기 전에 올바른 질문하기
@@ -847,7 +847,7 @@ https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 ## Wallet 설정
 
 
-<chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
+<chapterId>1bfd3d5d-a81b-4b7f-ad88-4bf41593606a</chapterId>
 
 
 비트코인의 보안은 매우 중요하며, 단순한 실수로도 재앙적인 결과를 초래할 수 있습니다. 그렇기 때문에 새로운 Bitcoin Wallet을 만들 때 채택해야 할 모범 사례를 배워야 합니다.
@@ -911,7 +911,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 ## 시간의 시험을 통과하다
 
 
-<chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
+<chapterId>7dd119da-9073-4e03-ab83-e45890616790</chapterId>
 
 
 다른 형태의 재산과 마찬가지로 비트코인은 특히 장기간에 걸쳐 분실, 도난, 성능 저하로부터 보호해야 합니다. 비트코인을 안전하게 보호하려면 약간의 기술적 지식과 관련 위험에 대한 이해가 필요하며, 이를 위해서는 비트코인을 철판에 새기는 것과 상속 계획을 수립하는 두 가지 주요 전략이 있습니다.
@@ -983,13 +983,13 @@ Bitcoin의 세계에서 금융 주권은 개인의 책임과 밀접하게 연관
 # Bitcoin의 기술적 측면.
 
 
-<partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
+<partId>8b110fdd-b51f-48a9-a966-33649e55c971</partId>
 
 
 ## Bitcoin 출시
 
 
-<chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>
+<chapterId>76ab52b9-2c33-4242-9db1-64fb1fb92b4e</chapterId>
 
 
 ### 약간의 역사부터 시작하겠습니다.
@@ -1069,7 +1069,7 @@ Satoshi 나카모토의 저술에 대해 자세히 알아보시려면 필 샴페
 ## Bitcoin 거래
 
 
-<chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
+<chapterId>be72afa9-8198-45a5-95a8-3c87f971fbb2</chapterId>
 
 
 Bitcoin 트랜잭션은 단순히 Bitcoin Address를 사용하여 비트코인의 Ownership을 전송하는 것입니다. 이 과정을 설명하기 위해 두 가지 주인공을 소개하겠습니다: Alice와 Bob입니다. Alice는 비트코인을 획득하고자 하고, Bob는 이미 비트코인을 소유하고 있습니다.
@@ -1156,7 +1156,7 @@ Bitcoin 노드가 어떻게 작동하는지 자세히 살펴보겠습니다.
 ## Bitcoin 노드
 
 
-<chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
+<chapterId>430fdc8d-d60c-4dde-a7a5-96916f40056e</chapterId>
 
 
 노드는 여러 가지 중요한 기능을 수행하므로 Bitcoin 네트워크 아키텍처의 기본 요소입니다:
@@ -1228,7 +1228,7 @@ Bitcoin 노드가 어떻게 작동하는지 자세히 살펴보겠습니다.
 ## 광부
 
 
-<chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
+<chapterId>f2ce96f9-66d5-4286-9a18-9e1506b369b5</chapterId>
 
 
 **마이너는 네트워크를 보호하고 블록에 트랜잭션을 추가합니다. 채굴자는 ASIC 머신을 통해 전기를 사용하여 Bitcoin Proof of Work.**를 해결합니다
@@ -1348,7 +1348,7 @@ https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 ## Bitcoin 및 생태학
 
 
-<chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
+<chapterId>68cc1d11-d355-479f-beb1-364ea0f48219</chapterId>
 
 
 이전 섹션에서는 Bitcoin 프로토콜의 보안이 신뢰할 수 있는 제3자 없이 공개 Ledger의 거래를 생성하기 위해 높은 에너지 소비에 의존한다는 점을 이해했습니다. 주류 미디어에서는 전체 에너지 비용을 종종 작은 국가의 전력 사용량과 비교합니다. 하지만 이 비교가 의미가 있을까요? 이러한 비용의 원인을 이해하는 것이 의미가 있을까요?
@@ -1433,13 +1433,13 @@ Bitcoin은 혁명적인 발명품으로서 경제적 억압이나 독재 정권 
 # Bitcoin은 어떻게 구할 수 있나요?
 
 
-<partId>517e1bb7-f032-51a0-930a-a91fe5148d3f</partId>
+<partId>a48118af-b3b8-4f00-bbda-c2c4ca0f788e</partId>
 
 
 ## Bitcoin은 잠들지 않습니다!
 
 
-<chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
+<chapterId>648dbb03-969a-46ef-bdae-1463c06a4aaf</chapterId>
 
 
 Bitcoin의 가격은 종종 상당한 변동성이 특징입니다. 다른 금융 시장과 마찬가지로 시장 변동이나 강세 및 약세 국면에 따라 가치가 크게 변동될 수 있습니다.
@@ -1527,7 +1527,7 @@ Bitcoin의 초기 사용자들은 주로 테크노필, 사이퍼펑크, 자유�
 ## 일을 통해 비트코인 획득하기
 
 
-<chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
+<chapterId>4bcac1ce-e4e1-4fc8-9548-5eb262688ea5</chapterId>
 
 
 ### 병렬 경제가 발전하고 있습니다
@@ -1593,7 +1593,7 @@ https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 ## Bitcoin로 저장
 
 
-<chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
+<chapterId>11782e1e-3807-4669-8c4b-19c431669eba</chapterId>
 
 
 ### 시작하기 전에 경고!
@@ -1739,7 +1739,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 ## 하이퍼비트코인화
 
 
-<chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>
+<chapterId>a8cf0971-defd-4bf8-934b-5e412448438e</chapterId>
 
 
 ### 거친 레이스는 이제 막 시작되었습니다!
@@ -1774,13 +1774,13 @@ Bitcoin의 등장으로 기업, 대학, 규제 기관, 개인은 이 새로운 �
 # Bitcoin의 미래: Lightning Network
 
 
-<partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
+<partId>297f74b5-3ba1-4f63-b41b-43256778bea3</partId>
 
 
 ## Lightning Network에 대한 간략한 소개
 
 
-<chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
+<chapterId>ad635a0f-4f91-4cac-843b-b9d51eb0bc9e</chapterId>
 
 
 이제 Bitcoin 프로토콜의 기본을 알아봤으니, Bitcoin 프로토콜을 사용해 초고속 거래를 가능하게 하는 결제 네트워크인 Lightning Network을 소개해드리겠습니다!
@@ -1845,7 +1845,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 ## Lightning Network 사용 사례
 
 
-<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+<chapterId>cd29874a-5ea2-4773-a6e4-e8d36b1bb4da</chapterId>
 
 
 방금 살펴본 바와 같이 Bitcoin 프로토콜은 혁신적이지만 모든 일상적인 트랜잭션을 처리하는 데 필요한 확장성 측면에서 상당한 문제에 직면해 있습니다. 이러한 문제를 해결하기 위해 Lightning Network이 제안되었고 이후 여러 가지 구현으로 발전해 왔으며, 모두 상호 운용이 가능합니다:
@@ -1893,7 +1893,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 ## 빨간 알약 또는 파란 알약?
 
 
-<chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
+<chapterId>03d79262-a035-4a62-acca-f8ed9ae5a8a4</chapterId>
 
 
 모피어스가 네오에게 말했듯이 "파란 약을 먹으면 이야기는 끝나고 침대에서 일어나서 믿고 싶은 대로 믿으면 돼요. 빨간 알약을 먹으면 원더랜드에 머물게 되고, 토끼굴이 얼마나 깊은지 보여줄게요." Bitcoin의 토끼굴을 탐험할 준비가 되셨나요? 재정적 자유를 재발견할 수도 있으니 조심하세요!
@@ -2000,21 +2000,21 @@ Satoshi은 2008년에 화폐 재설계를 통한 금융 시스템의 변화를 �
 ## 리뷰 및 평가
 
 
-<chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
+<chapterId>d58144ad-33da-47a6-9030-61b649fe5550</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## 기말 시험
 
 
-<chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
+<chapterId>cbf5ded3-69c8-485f-8528-28fc0e7ea299</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## 결론
 
 
-<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+<chapterId>8a17f1ba-3ba1-4864-896d-be4cc3d5844a</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
 

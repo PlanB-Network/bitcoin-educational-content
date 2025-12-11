@@ -22,11 +22,11 @@ Pokud potřebujete pomoc se svým nastavením, pro studenty byla vytvořena skup
 
 # Úvod
 
-<partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
+<partId>264edfbf-0647-43c0-b202-5f82bfaba747</partId>
 
 ## Přehled kurzu
 
-<chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
+<chapterId>a1885374-d6b9-4d6d-9b90-44f27099e4ae</chapterId>
 
 Vítejte v kurzu MIN201: Úvod do těžby. Ajelex, Jim & Rogzy vás rádi provedou vašimi prvními kroky v tomto odvětví. Doufáme, že si kurz užijete a že se vydáte na dobrodružství s home miningem!
 
@@ -52,11 +52,11 @@ Tak co, jste připraveni objevit svět těžby Bitcoinu a zvládnout praktický 
 
 # Vše, co potřebujete vědět o těžbě
 
-<partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
+<partId>80efb136-9e4e-40f2-98a2-f6721737fc81</partId>
 
 ## Vysvětlení těžby
 
-<chapterId>36a82de7-87ee-5e7a-b69e-48fc30030447</chapterId>
+<chapterId>3d083cf5-9bbd-4d2b-94d9-e12a82819395</chapterId>
 
 ### Vysvětlení těžby: Analogie s puzzle
 
@@ -99,7 +99,7 @@ Závěrem, průmysl těžby Bitcoinu pokračuje v adaptaci a rozvoji, a hráči 
 
 ## Těžební průmysl
 
-<chapterId>0896dfc1-c97e-5bec-9bf1-8c20b3388a2c</chapterId>
+<chapterId>75651629-94db-47e7-8735-a8ed75ae4e1d</chapterId>
 
 ### Těžební pooly
 
@@ -150,7 +150,7 @@ Obecný závěr je, že decentralizace je klíčová pro bezpečnost a odolnost 
 
 ## Nuance těžebního průmyslu
 
-<chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
+<chapterId>60d00d42-bd45-4afa-8612-939d714b1f6f</chapterId>
 
 ### Princip Attakai
 
@@ -189,7 +189,7 @@ Spekulace obklopují budoucí využití prostoru v blocích, ale obecně je při
 
 ## Těžba Bitcoinu v protokolu Bitcoinu
 
-<chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
+<chapterId>51e7a8b1-e901-424e-bd63-51451b330da2</chapterId>
 
 Role těžařů v síti Bitcoin byla předmětem intenzivní debaty během tzv. "válek o velikost bloku". Ačkoliv jsou pro bezpečnost a funkčnost sítě nezbytní, těžaři nutně nevlastní konečnou moc v ekosystému Bitcoinu. Rovnováha mezi těžaři, uzly a koncovými uživateli zajišťuje integritu a distribuci sítě.
 
@@ -229,7 +229,7 @@ Shrnutí, těžaři posilují síť Bitcoin proti cenzuře používáním elektr
 
 ## Cena Bitcoinu a Hashrate, korelace?
 
-<chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
+<chapterId>002750ad-c35e-48c3-8644-302467a384d3</chapterId>
 
 
 ### Hashrate, cena a ziskovost
@@ -260,7 +260,7 @@ Otázka je hluboká a zahrnuje několik dimenzí těžby Bitcoinu. Rovnováha me
 
 ## Suverenita a regulace
 
-<chapterId>9d9a5908-2acc-501e-906b-a6fce9ecfebd</chapterId>
+<chapterId>ec30a758-5a03-43a1-9b75-e4bb6053a1be</chapterId>
 
 ### Suverenita před ziskem?
 
@@ -292,11 +292,11 @@ Závěrem, navzdory regulačnímu riziku a možnosti zákazu těžby v Evropě, 
 
 # Domácí těžba a opětovné využití tepla
 
-<partId>78d22d06-2c4a-573f-86bb-1027115dad3a</partId>
+<partId>c0fb1f33-6c44-48a7-83f5-b1c9cbc314b3</partId>
 
 ## Attakai - umožňuje domácí těžbu a dělá ji přístupnou!
 
-<chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
+<chapterId>64c27a67-c2f0-4456-9821-5c94ea623de5</chapterId>
 
 Attakai, což v japonštině znamená "ideální teplota", je název iniciativy zaměřené na objevování těžby bitcoinů prostřednictvím opětovného využití tepla, kterou spustili @ajelexBTC a @jimzap21 s Découvre Bitcoin.
 Tento průvodce úpravou ASIC poslouží jako základ pro další poznání o těžbě, jejím fungování a podkladové ekonomice tím, že ukáže možnost přizpůsobení těžaře bitcoinů pro použití jako radiátory v domácnostech. To nabízí větší pohodlí a úspory, umožňuje účastníkům dostávat ne-KYC BTC cashback na jejich účet za elektrické vytápění.
@@ -342,7 +342,7 @@ Toto je vynikající příležitost naučit se praxí, zatímco za vaši účast
 
 ## Nákupní průvodce pro použitý ASIC
 
-<chapterId>3b0b3bf0-859b-57f2-b92f-843ac70b7e68</chapterId>
+<chapterId>17e07e2e-9848-4fb0-be55-077ea783c670</chapterId>
 
 V této části probereme nejlepší postupy pro nákup použitého Bitmain Antminer S9, stroje, na kterém bude založen tento návod na retrofitování radiátoru. Tento průvodce se vztahuje i na další modely ASIC, jelikož jde o obecný nákupní průvodce pro použité těžební hardware.
 
@@ -397,7 +397,7 @@ Shrnutí tohoto průvodce jednou větou: **"Nevěř, ověř."**
 
 ## Průvodce nákupem hardwarových úprav pro S9
 
-<chapterId>fa5f5eca-bcbf-5a83-9b03-98ecbadbabd6</chapterId>
+<chapterId>67c86e8a-e7d8-4744-8eeb-03a17c09bfa2</chapterId>
 
 Jako majitel Antmineru S9 pravděpodobně víte, jak hlučné a objemné toto zařízení může být. Je však možné jej přeměnit na tichý a připojený ohřívač, pokud budete postupovat podle několika jednoduchých kroků. V této části představíme potřebné vybavení pro provedení úprav.
 
@@ -440,11 +440,11 @@ Seznam vybavení a odkazů
 
 # Attakai - Úprava softwaru Antmineru S9
 
-<partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
+<partId>17871b9d-4c93-4ca4-a09f-c6dc8a1df1d1</partId>
 
 ## Nastavení mostu WIFI/Ethernet od Vonet
 
-<chapterId>3cf487a4-21ef-5b24-83d5-789b811f740f</chapterId>
+<chapterId>bf5b8552-8f0f-44aa-b742-600a657bdfbf</chapterId>
 
 Pro připojení vašeho ASIC přes WIFI budete potřebovat zařízení nazývané most. Toto zařízení umožňuje přijímat WIFI signál z vašeho routeru a přenášet ho na jiné zařízení prostřednictvím Ethernetu.
 
@@ -481,7 +481,7 @@ Jakmile je most připojen, připojte Ethernetový kabel z mostu do vašeho ASIC 
 
 ## Resetování Antmineru S9
 
-<chapterId>b518b6bd-9dae-5136-ae3c-1fafb1cb2592</chapterId>
+<chapterId>e83025fd-0261-4d4a-913a-dbfc05f7e51e</chapterId>
 
 Před instalací BraiinOS+ může být nutné resetovat váš S9 na tovární nastavení.
 Tato metoda může být použita mezi 2 a 10 minutami po spuštění mineru.
@@ -491,7 +491,7 @@ Tato metoda může být použita mezi 2 a 10 minutami po spuštění mineru.
 
 ## Instalace BraiinsOS+ na Antminer S9
 
-<chapterId>38e8b1a8-8b1d-51ed-8b92-59d4ddb15184</chapterId>
+<chapterId>d2ea148c-37dd-4505-97e9-78ce2237b84a</chapterId>
 
 Původní software instalovaný společností Antminer na jejich těžebních strojích je omezen ve funkcionalitě. Proto v tomto průvodci nainstalujeme jiný software nazvaný BraiinsOS+. Jedná se o software třetí strany vyvinutý prvním Bitcoin mining poolem, který má více funkcí a umožňuje například modifikaci výkonu stroje.
 
@@ -527,7 +527,7 @@ Zde uvidíme, jak snadno nainstalovat Braiins OS+ přímo na paměť vašeho Ant
 
 ## Konfigurace BraiinsOS+
 
-<chapterId>36e432f2-85bc-52d0-a62a-009fc4c69338</chapterId>
+<chapterId>41f8ef76-c5b9-427f-8b22-1e3761057157</chapterId>
 
 Budete potřebovat připojit se k vašemu ASIC pomocí lokální IP adresy vašeho zařízení ve vaší síti prostřednictvím prohlížeče.
 
@@ -571,11 +571,11 @@ Na této první stránce můžete sledovat skutečný výkon vašeho stroje.
 
 # Attakai - Úprava ventilátoru
 
-<partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
+<partId>a18012de-bf2e-4469-8b33-6bd9368cf27d</partId>
 
 ## Výměna ventilátoru zdroje
 
-<chapterId>0c6befa7-f3ef-5bcf-ae8d-0ad5e5d41d70</chapterId>
+<chapterId>369aa394-0597-4578-96ef-01a45e9d86c6</chapterId>
 
 > VAROVÁNÍ: Je nezbytné mít předtím nainstalovaný Braiins OS+ na vašem těžaři, nebo jakýkoliv jiný software, který může snížit výkon vašeho stroje. Toto opatření je klíčové, protože za účelem snížení hluku nainstalujeme méně výkonné ventilátory, které mohou rozptýlit méně tepla.
 
@@ -645,7 +645,7 @@ Nakonec vraťte na místo kryt skříně a přišroubujte 6 šroubů na stranác
 
 ## Výměna hlavních ventilátorů
 
-<chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
+<chapterId>46cd034a-1ffd-4459-9d66-a68e9b4bfeeb</chapterId>
 
 > VAROVÁNÍ: Je nezbytné mít předem nainstalovaný Braiins OS+ na vašem těžebním zařízení, nebo jakýkoliv jiný software schopný snížit výkon vašeho stroje. Toto opatření je klíčové, protože za účelem snížení hluku nainstalujeme méně výkonné ventilátory, které budou rozptylovat méně tepla.
 
@@ -696,11 +696,11 @@ A máte to, gratulujeme! Právě jste vyměnili celou mechanickou část vašeho
 
 # Attakai - Konfigurace
 
-<partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
+<partId>045a50df-20cd-423f-8f2f-dce686793ffb</partId>
 
 ## Připojení k těžebnímu poolu
 
-<chapterId>b57a6105-0a53-5fe9-bad1-d6d9daf97c0d</chapterId>
+<chapterId>db476c86-3dfe-4fcd-948a-083df8442395</chapterId>
 Můžete si představit těžební pool jako družstvo farmářů. Farmáři spojují svou produkci dohromady, aby snížili variabilitu nabídky a poptávky a tím získali stabilnější příjem pro svůj provoz. Těžební pool funguje stejným způsobem, přičemž sdíleným zdrojem jsou hashe. Skutečně, objevení jediného platného hashe umožňuje vytvoření bloku a získání coinbase odměny, aktuálně 6.25 BTC plus transakční poplatky zahrnuté v bloku.
 Pokud těžíte sami, budete odměněni pouze tehdy, když najdete blok. V konkurenci proti všem ostatním těžařům na planetě byste měli velmi malou šanci vyhrát tuto loterii a stále byste museli platit poplatky spojené s používáním vašeho těžaře bez jakékoli záruky úspěchu. Těžební pooly řeší tento problém spojením výpočetního výkonu několika (tisíců) těžařů a sdílením jejich odměn na základě procentuální účasti na hashrate poolu, když je blok nalezen. Pro vizualizaci vašich šancí na samostatné těžení bloku můžete použít tento nástroj. Zadáním informací pro Antminer S9 vidíme, že šance na nalezení hashe, který umožňuje vytvoření bloku, jsou 1 z 24,777,849 pro každý blok nebo 1 z 172,068 za den. V průměru (s konstantním hashrate a obtížností) by to trvalo 471 let, než byste našli blok.
 
@@ -730,7 +730,7 @@ Nyní se můžete vrátit do rozhraní Braiins OS+ a zadat tyto přihlašovací 
 
 ## Optimalizace výkonu vašeho Antmineru S9
 
-<chapterId>25380972-31c7-540d-80d8-17a06b171ca0</chapterId>
+<chapterId>e8dd98a2-86be-4cb1-a061-79f5c8129df6</chapterId>
 
 Jak overclocking, tak autotuning zahrnují úpravu frekvencí na hashovacích deskách za účelem zlepšení výkonu ASIC. Rozdíl mezi nimi spočívá ve složitosti nastavení těchto frekvencí.
 
@@ -752,7 +752,7 @@ Výsledkem je vyšší hash rate na watt elektrické energie, což znamená vět
 
 ## Recenze & Hodnocení
 
-<chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
+<chapterId>9c4bf742-f774-4d82-bdef-0c5398be7759</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Závěrečná zkouška

@@ -40,7 +40,7 @@ Ova operacija vam omogućava da postavite različite konfiguracije, uključujuć
 
 
 
-- Plan sukcesije (ili nasleđa), koji omogućava naslednicima da povrate sredstva u slučaju smrti korisnika. Za više informacija o ovoj temi, preporučujemo čitanje [dela 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) kursa BTC102.
+- Plan sukcesije (ili nasleđa), koji omogućava naslednicima da povrate sredstva u slučaju smrti korisnika. Za više informacija o ovoj temi, preporučujemo čitanje [dela 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/dcec2c9c-f5d9-4d47-977d-d21c5bff05cb) kursa BTC102.
 - Ojačana rezervna kopija sa vremenom oporavka, koja korisniku daje mogućnost korišćenja njegovog Wallet bez potrebe da čuva odgovarajuću tajnu frazu i rizikuje da bude ukradena, na primer tokom provale.
 - Sigurnosna mreža za ljude koji počinju sa Bitcoin: oni će upravljati svojim Wallet, a njihov "čuvar" (na primer, rođak) će zadržati pravo da povrati njihova sredstva nakon određenog perioda.
 - Šema sa više potpisa (*Multisig*) sa smanjenim zahtevima tokom vremena, kako bi se izborila sa nestankom jednog ili više učesnika, kao što su partneri kompanije.

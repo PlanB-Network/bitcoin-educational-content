@@ -284,7 +284,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- На началния екран на Wallet щракнете върху раздела "Settings" (Настройки), след това върху "Wallet Details" (Подробности за Wallet) и копирайте zPub ([extended public key](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602):
+- На началния екран на Wallet щракнете върху раздела "Settings" (Настройки), след това върху "Wallet Details" (Подробности за Wallet) и копирайте zPub ([extended public key](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/0488ec38-da31-46a1-b31e-04b5c05fb6e8):
 
 
 

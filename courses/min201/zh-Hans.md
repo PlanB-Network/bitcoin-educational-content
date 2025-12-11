@@ -22,11 +22,11 @@ objectives:
 
 # 引言
 
-<partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
+<partId>264edfbf-0647-43c0-b202-5f82bfaba747</partId>
 
 ## 课程概览
 
-<chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
+<chapterId>a1885374-d6b9-4d6d-9b90-44f27099e4ae</chapterId>
 
 欢迎来到 MIN201 课程：挖矿入门。Ajelex、Jim 和 Rogzy 很高兴能够引导您迈出在这一行业中的第一步。我们希望您能喜欢这门课程，并开启家庭挖矿的冒险！
 
@@ -52,11 +52,11 @@ objectives:
 
 # 关于挖矿您需要知道的一切
 
-<partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
+<partId>80efb136-9e4e-40f2-98a2-f6721737fc81</partId>
 
 ## 挖矿的解释
 
-<chapterId>36a82de7-87ee-5e7a-b69e-48fc30030447</chapterId>
+<chapterId>3d083cf5-9bbd-4d2b-94d9-e12a82819395</chapterId>
 
 ### 挖矿解释：拼图比喻
 
@@ -100,7 +100,7 @@ ASIC是与CPU芯片相当的芯片，然而，它们被开发用于以尽可能�
 
 ## 挖矿行业
 
-<chapterId>0896dfc1-c97e-5bec-9bf1-8c20b3388a2c</chapterId>
+<chapterId>75651629-94db-47e7-8735-a8ed75ae4e1d</chapterId>
 
 ### 矿池
 
@@ -150,7 +150,7 @@ ASIC是与CPU芯片相当的芯片，然而，它们被开发用于以尽可能�
 
 ## 挖矿行业的细微差别
 
-<chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
+<chapterId>60d00d42-bd45-4afa-8612-939d714b1f6f</chapterId>
 
 ### Attakai的原理
 
@@ -190,7 +190,7 @@ Attakai 项目源于两个朋友在家中进行的一次比特币挖矿实验，
 
 ## 比特币协议中的比特币挖矿
 
-<chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
+<chapterId>51e7a8b1-e901-424e-bd63-51451b330da2</chapterId>
 
 在比特币网络中，矿工的角色仍然是区块大小战争期间激烈辩论的主题。尽管矿工对网络的安全和功能至关重要，但他们并不一定拥有比特币生态系统中的最终权力。矿工、节点和终端用户之间的平衡确保了网络的完整性和分布。
 
@@ -231,7 +231,7 @@ Attakai 项目源于两个朋友在家中进行的一次比特币挖矿实验，
 
 ## 比特币价格与哈希率，有关联吗？
 
-<chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
+<chapterId>002750ad-c35e-48c3-8644-302467a384d3</chapterId>
 
 
 ### 哈希率、价格和盈利能力
@@ -264,7 +264,7 @@ Attakai 项目源于两个朋友在家中进行的一次比特币挖矿实验，
 
 ## 主权与监管
 
-<chapterId>9d9a5908-2acc-501e-906b-a6fce9ecfebd</chapterId>
+<chapterId>ec30a758-5a03-43a1-9b75-e4bb6053a1be</chapterId>
 
 ### 主权优于利益？
 
@@ -298,11 +298,11 @@ Attakai 项目源于两个朋友在家中进行的一次比特币挖矿实验，
 
 # 家庭挖矿与热量回收
 
-<partId>78d22d06-2c4a-573f-86bb-1027115dad3a</partId>
+<partId>c0fb1f33-6c44-48a7-83f5-b1c9cbc314b3</partId>
 
 ## Attakai - 使在家挖矿成为可能且易于做到的事情！
 
-<chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
+<chapterId>64c27a67-c2f0-4456-9821-5c94ea623de5</chapterId>
 
 Attakai，日语中意为“理想的温度”，是由@ajelexBTC和@jimzap21与Découvre Bitcoin共同发起的旨在通过热量回收发现比特币挖矿的倡议的名称。
 这份ASIC改装指南将作为了解更多关于挖矿、其运作方式及其背后经济的基础，通过展示将比特币矿机适配为家用暖气片的可能性。这为参与者提供了更多的舒适度和节省，使他们能够在电暖费上获得非KYC的BTC现金回馈。
@@ -353,7 +353,7 @@ Attakai，日语中意为“理想的温度”，是由@ajelexBTC和@jimzap21与
 
 ## 二手ASIC购买指南
 
-<chapterId>3b0b3bf0-859b-57f2-b92f-843ac70b7e68</chapterId>
+<chapterId>17e07e2e-9848-4fb0-be55-077ea783c670</chapterId>
 
 在这个部分中，我们将讨论购买二手比特大陆蚂蚁矿机S9的最佳方法，本教程的散热改造将基于此机型。这份指南也适用于其他型号的ASIC，因为它是一个关于购买二手挖矿硬件的通用指南。
 
@@ -408,7 +408,7 @@ Antminer S9矿机由以下部件组成：
 
 ## 购买S9硬件改造指南
 
-<chapterId>fa5f5eca-bcbf-5a83-9b03-98ecbadbabd6</chapterId>
+<chapterId>67c86e8a-e7d8-4744-8eeb-03a17c09bfa2</chapterId>
 
 作为Antminer S9的拥有者，您可能知道这款设备有多么吵闹和笨重。然而，通过遵循一些简单的步骤，您可以将其改成一个静音且连接的加热器。在本节中，我们将介绍进行改造所需的设备。
 
@@ -453,11 +453,11 @@ Antminer S9的原装风扇太吵，无法将您的Antminer用作加热器。解�
 
 # Attakai - 改造Antminer S9矿机的软件
 
-<partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
+<partId>17871b9d-4c93-4ca4-a09f-c6dc8a1df1d1</partId>
 
 ## 设置Vonet WIFI/以太网桥
 
-<chapterId>3cf487a4-21ef-5b24-83d5-789b811f740f</chapterId>
+<chapterId>bf5b8552-8f0f-44aa-b742-600a657bdfbf</chapterId>
 
 为了通过WIFI连接您的ASIC，您将需要一种被称为桥的设备。这种设备允许您从路由器接收WIFI信号，并通过以太网传输给另一台设备。
 
@@ -494,7 +494,7 @@ Antminer S9的原装风扇太吵，无法将您的Antminer用作加热器。解�
 
 ## 重置Antminer S9矿机
 
-<chapterId>b518b6bd-9dae-5136-ae3c-1fafb1cb2592</chapterId>
+<chapterId>e83025fd-0261-4d4a-913a-dbfc05f7e51e</chapterId>
 
 在安装BraiinOS+之前，您可能需要将S9重置到出厂设置。
 这个方法可以在启动矿机后2分钟到10分钟内应用。
@@ -504,7 +504,7 @@ Antminer S9的原装风扇太吵，无法将您的Antminer用作加热器。解�
 
 ## 在Antminer S9矿机上安装BraiinsOS+
 
-<chapterId>38e8b1a8-8b1d-51ed-8b92-59d4ddb15184</chapterId>
+<chapterId>d2ea148c-37dd-4505-97e9-78ce2237b84a</chapterId>
 
 Antminer S9矿机原装安装的软件功能有限。因此，在本指南中，我们将安装另一款名为BraiinsOS+的软件。这是由第一个比特币矿池开发的第三方软件，具有更多功能，例如，允许改进机器的功率。
 
@@ -541,7 +541,7 @@ Antminer S9矿机原装安装的软件功能有限。因此，在本指南中，
 
 ## 配置BraiinsOS+
 
-<chapterId>36e432f2-85bc-52d0-a62a-009fc4c69338</chapterId>
+<chapterId>41f8ef76-c5b9-427f-8b22-1e3761057157</chapterId>
 
 您需要通过浏览器使用您网络上设备的本地IP地址连接到您的ASIC。
 
@@ -585,11 +585,11 @@ Antminer S9矿机原装安装的软件功能有限。因此，在本指南中，
 
 # Attakai - 风扇改装
 
-<partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
+<partId>a18012de-bf2e-4469-8b33-6bd9368cf27d</partId>
 
 ## 更换电源风扇
 
-<chapterId>0c6befa7-f3ef-5bcf-ae8d-0ad5e5d41d70</chapterId>
+<chapterId>369aa394-0597-4578-96ef-01a45e9d86c6</chapterId>
 
 > 警告：在更换风扇以降低噪音之前，必须先在您的矿机上安装Braiins OS+或任何其他可降低机器性能的软件。这一措施至关重要，因为我们将安装功率较小的风扇，这些风扇散热能力较弱。
 
@@ -660,7 +660,7 @@ Antminer S9矿机原装安装的软件功能有限。因此，在本指南中，
 
 ## 更换主要风扇
 
-<chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
+<chapterId>46cd034a-1ffd-4459-9d66-a68e9b4bfeeb</chapterId>
 
 
 > 警告：在开始之前，确保您的矿机已经安装了Braiins OS+或其他能够降低机器性能的软件。这一措施至关重要，因为为了降低噪音，我们将安装功率较低的风扇，这将会散发较少的热量。
@@ -715,11 +715,11 @@ Antminer S9矿机原装安装的软件功能有限。因此，在本指南中，
 
 # Attakai - 配置
 
-<partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
+<partId>045a50df-20cd-423f-8f2f-dce686793ffb</partId>
 
 ## 加入矿池
 
-<chapterId>b57a6105-0a53-5fe9-bad1-d6d9daf97c0d</chapterId>
+<chapterId>db476c86-3dfe-4fcd-948a-083df8442395</chapterId>
 我们可以将矿池视为一个农业合作社。矿工将他们的生产力集中起来，以减少供需的波动，从而为他们的运营获得更稳定的收入。矿池的运作方式相同，共享的资源是哈希值。实际上，发现一个有效的哈希值允许创建一个区块并赢得coinbase或奖励，目前为6.25个BTC加上区块中包含的交易费用。
 
 如果您一个人挖矿，只有在您找到一个区块时才会获得奖励。与地球上所有其他矿工竞争，您赢得这场彩票的机会非常小，而且您还必须支付使用矿机的费用，而谁都无法保证您是否会成功。矿池通过汇集数千名矿工的计算能力并在找到区块时根据参与矿池哈希率的百分比分享奖励来解决这个问题。为了了解一个人挖掘一个区块的机会，您可以使用这个工具。通过输入Antminer S9的信息，我们可以看到，每个区块创建一个区块的机会是1/24,777,849，或每天1/172,068。平均而言（以恒定的哈希率和难度计算），找到一个区块需要471年。
@@ -750,7 +750,7 @@ Antminer S9矿机原装安装的软件功能有限。因此，在本指南中，
 
 ## 优化您的Antminer S9矿机的性能
 
-<chapterId>25380972-31c7-540d-80d8-17a06b171ca0</chapterId>
+<chapterId>e8dd98a2-86be-4cb1-a061-79f5c8129df6</chapterId>
 
 超频和自动调频都涉及调整散热板上的频率以提高ASIC的性能。两者之间的区别在于这些频率设置的复杂性。
 
@@ -773,7 +773,7 @@ Braiins OS+支持ASIC的超频、降频和自动调频。它允许用户灵活�
 
 ## 评价 & 评分
 
-<chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
+<chapterId>9c4bf742-f774-4d82-bdef-0c5398be7759</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## 期末考试

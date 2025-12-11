@@ -23,12 +23,12 @@ Ready to discover why freedom is not only a moral ideal, but also the most effec
 
 # Foundations of freedom
 
-<partId>466452a9-508e-5bae-bc6a-9213814cf1e5</partId>
+<partId>b59226dc-b68d-4666-a1b3-7db3b6eadd4b</partId>
 
 
 ## The human facts behind freedom and property
 
-<chapterId>8eb03d97-ff42-51a1-bd42-9271d3213ac4</chapterId>
+<chapterId>ef824298-5132-4eed-a751-1cec93a8e6c4</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=md-rDzJX0Ws)
@@ -71,7 +71,7 @@ Finally, sensations are a fundamentally individual phenomenon. You can't hunger 
 
 ## Freedom of expression, freedom of the press and free education
 
-<chapterId>e19775a3-6b1d-50ed-ba6b-979f93a78b4b</chapterId>
+<chapterId>11dd8136-d00d-4978-893c-4cc9a553e64e</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=w9DUtXbOYEg)
@@ -115,7 +115,7 @@ French history illustrates the consequences of the absence of this freedom. Desp
 
 ## Property and freedom of work
 
-<chapterId>9b71cfae-425c-5255-a0f2-7a5b6805e284</chapterId>
+<chapterId>430e1dc9-225e-475e-b21a-d22ba58f6689</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=Vjm91Lve_SA)
@@ -180,7 +180,7 @@ Taken together, these observations do not constitute an abstract theory, but a r
 
 ## Non-aggression, respect for property and peace
 
-<chapterId>e8519889-1178-521e-9de7-b32f6177d92b</chapterId>
+<chapterId>8d0eb9b5-c5fb-4e35-89ae-6c72e7dae649</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=Wlc3WLYFjXo)
@@ -231,7 +231,7 @@ The question of marriage illustrates these principles: the choice of spouse must
 
 ## The factual contradictions of constraint systems
 
-<chapterId>c13f7395-6734-5c64-b86c-af7922ffbcb0</chapterId>
+<chapterId>64e0ee39-db8a-4219-9832-4ed94e23e80e</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=8Ib5M-6Rr8M)
@@ -284,12 +284,12 @@ Finally, the abolition of interest on money and the regulation of profits are at
 
 # History of freedom
 
-<partId>367e5e75-44e1-5fab-803f-744cf5ddc85c</partId>
+<partId>f223be5c-d6cd-41e2-87a8-b0d1607d25f7</partId>
 
 
 ## Prehistoric man and primitive communism
 
-<chapterId>ed3a71e6-6e1b-504a-8c53-fe21b891ad27</chapterId>
+<chapterId>9e671ce7-6086-42e7-bacb-2709854bb3ee</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=eS_LZr9iKto)
@@ -341,7 +341,7 @@ Historical analysis shows that freedom is not a lost natural state to be regaine
 
 ## The ancient raison d'être of slavery, serfdom and political authority
 
-<chapterId>29fc841c-eb21-522d-818c-9b50c6558396</chapterId>
+<chapterId>31806e5f-03d2-4d9f-8bc4-407dc9c75ada</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=v7blehzJCr8)
@@ -385,7 +385,7 @@ Examination of the historical reasons for unfreedom reveals a fundamental trend:
 
 ## Emancipating technical and intellectual progress
 
-<chapterId>a9cf7eb2-4639-5b8a-8fd6-2ad0a9e7cff2</chapterId>
+<chapterId>edc62296-4244-4d1e-9502-5ca0f781446f</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=X4Htu6xM4Qk)
@@ -430,7 +430,7 @@ Examination of the different stages of development reveals a deep correlation be
 
 ## History at a glance
 
-<chapterId>3fffa63c-58bb-5c97-a2f5-fec90c05f182</chapterId>
+<chapterId>fad009b9-c6be-4cf6-97c5-117ab53e1d05</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=Uzns3FT688k)
@@ -474,7 +474,7 @@ Revolutions have significant drawbacks: they generate a lot of violence and tend
 
 ## The new circumstances of the 21st century
 
-<chapterId>a1c0c590-d0f6-5a18-a949-67f7a568ca6d</chapterId>
+<chapterId>6ea97434-da49-4993-8d08-97626925ca41</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=0q_m3KIoq-U)
@@ -509,12 +509,12 @@ This reflection leads to an essential conclusion: today's circumstances are mate
 
 # How freedom works
 
-<partId>d8b75eca-d6c5-535c-a659-2a0320783baf</partId>
+<partId>14436c13-218f-4778-a3e0-f4e4ddb31e9b</partId>
 
 
 ## The ability to govern oneself
 
-<chapterId>aeca263f-cce0-5025-829e-4480b73394a6</chapterId>
+<chapterId>efd223ca-b1d6-45dd-92ac-d2ba263ef815</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=aEoerhy6ERU)
@@ -560,7 +560,7 @@ Having established these preconditions, it is now possible to examine the factua
 
 ## Production and contracts
 
-<chapterId>0cb003fe-58ac-5fa5-89b1-97e558fc98ac</chapterId>
+<chapterId>a0f69950-33fc-47ae-bb1c-14da45dcf752</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=xcaV6Kb21O0)
@@ -602,7 +602,7 @@ From this analysis stems a fundamental conclusion: increasing trade between the 
 
 ## The role of profits and prices
 
-<chapterId>549e00c3-eece-5401-be62-b82c774af893</chapterId>
+<chapterId>1890d85a-c139-4fcd-bd2a-af5fe92fe5d1</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=qrE5GJWNwGE)
@@ -646,7 +646,7 @@ The decisive advantage of economic freedom is that production is never too early
 
 ## Self-interest, innovation and progress
 
-<chapterId>958075af-fb8f-50d9-9bf5-4d9882e03072</chapterId>
+<chapterId>5f1d2fae-6f69-4c34-8ab3-a5cbe177b451</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=tfH8FapqqsE)
@@ -691,7 +691,7 @@ In a free society, self-interest leads to innovation and progress. In a system o
 
 ## Harmony of interests and peace
 
-<chapterId>370f4e98-021b-5c81-a109-3b57b689905f</chapterId>
+<chapterId>a37df62e-6b2b-4ca7-b5d2-1bf226a35cdd</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=hS1_Nkd_H9M)
@@ -733,7 +733,7 @@ The transition to a peaceful society is a long learning process. Human societies
 
 ## The different varieties of unfreedom
 
-<chapterId>747ec342-bccd-5203-a198-c6e75505801b</chapterId>
+<chapterId>078be270-8592-44dd-b060-6367408ca744</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=DzE_iGRP5Z0)
@@ -777,7 +777,7 @@ Systems of unfreedom are characterized precisely by inequality: some individuals
 
 ## Replacing contract with policy
 
-<chapterId>061e5c30-cb50-5205-8a1b-e41b7d1d234a</chapterId>
+<chapterId>c170c71b-a60d-4cb1-8420-d1af4e7ee6ab</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=LDMCs9wCTQc)
@@ -822,7 +822,7 @@ Conversely, relationships based on political power function in a truncated way. 
 
 ## Power through taxation and monetary manipulation
 
-<chapterId>ca113581-6969-58b4-a9f8-996ab409be25</chapterId>
+<chapterId>c653512f-2954-45ba-83a7-2a0eb28f20b3</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=mfvPE1fO3-E)
@@ -876,7 +876,7 @@ The doctrine of liberty opposes this logic with the principle of individual and 
 
 ## The different variants of protectionism
 
-<chapterId>3c1cf3d1-e2f5-5a95-9671-bf82b4de4a4e</chapterId>
+<chapterId>c607c47a-0ae5-4ee6-9e67-b752131f9bda</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=VT3w2BjiD8E)
@@ -921,7 +921,7 @@ These authors identified labor protectionism as the future dominant form of prot
 
 ## The eternal failure of unfreedom
 
-<chapterId>e4b15871-df1d-5d98-a395-16e24e7258d5</chapterId>
+<chapterId>fb46f644-5831-4758-bfe1-135e2346d16d</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=MRcLZ1SpAo8)
@@ -968,12 +968,12 @@ This intellectual and factual history of the failure of unfreedom is a fundament
 
 # Sophisms of unfreedom
 
-<partId>de66dc14-7dc0-52c5-aedf-5efe4820b9c1</partId>
+<partId>5b983e7c-969d-4ec1-bf36-b9cd0c5c3487</partId>
 
 
 ## Intellectual sophistry: false definitions of freedom
 
-<chapterId>9bd81fd4-20ed-5305-845a-d081811946ee</chapterId>
+<chapterId>ee55e30e-5616-41e4-960a-4a031387f9cf</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=asOEZJRQuOw)
@@ -1006,7 +1006,7 @@ A crucial distinction is between negative and positive freedom. Negative liberty
 
 ## The democratic fallacy: guardianship of guardians
 
-<chapterId>96869664-df6e-5f47-92ad-ac93c88e4f55</chapterId>
+<chapterId>4b523f63-8234-46a4-9a99-947a052763b7</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=mkzE0SfSl1Q)
@@ -1047,7 +1047,7 @@ Faced with these dangers, liberal thought, notably that of Benjamin Constant, de
 
 ## The economic fallacy: work as a goal, not a means
 
-<chapterId>ffec06b3-1fea-51c8-9bdc-d36efcfd82df</chapterId>
+<chapterId>d1f2791f-3973-4c22-be7f-ced70b84bce9</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=K1e39vtOoCc)
@@ -1092,7 +1092,7 @@ Economic fallacies, however, are only one category among many. The intellectual 
 
 ## The social fallacy: social classes and capitalist exploitation
 
-<chapterId>a154cdd1-5cc7-56c0-839b-a898305cdf30</chapterId>
+<chapterId>966332da-a76c-425d-8fed-83f9853486fe</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=zJhhcxwXpRI)
@@ -1136,7 +1136,7 @@ Nevertheless, liberal writers have a strong sensitivity towards poverty and the 
 
 ## The international fallacy: national property before private property
 
-<chapterId>e4cc0069-d2b8-5c33-8dc3-ccc2655afe68</chapterId>
+<chapterId>f1752cce-eeae-4fa1-84f7-ed38e400c30d</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=GtxJlUa_H08)
@@ -1181,12 +1181,12 @@ This analysis also enables us to understand how unfreedom systems undermine indi
 
 # Philosophy of liberalism
 
-<partId>67ec4570-8d65-5d03-8ce3-12caa4a132ea</partId>
+<partId>937f8baa-cb3b-4014-9c80-1bfbe000eab6</partId>
 
 
 ## Freedom of contract and employment
 
-<chapterId>085d5756-4ffe-5e2e-8b41-9a94102c97d3</chapterId>
+<chapterId>0fddb677-6eff-4d1f-82c5-96973abc4c6d</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=ary4UJhwRl8)
@@ -1234,7 +1234,7 @@ Courcelle-Seneuil simply asserted the French Revolution's ideas on freedom of la
 
 ## Reduced state powers
 
-<chapterId>abb3498a-0232-5a58-aea0-52730b75ee84</chapterId>
+<chapterId>f4adfac5-9c2e-4d00-b8a2-034f4a55e0ef</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=c8Wi5jkSEu8)
@@ -1280,7 +1280,7 @@ The current reality reveals a paradoxical and saddening situation. Education and
 
 ## The liberal alternative to the welfare state
 
-<chapterId>8be24b04-53da-5d80-8e76-3b6f3530723f</chapterId>
+<chapterId>906ae4d5-ff32-4887-b26e-516a45bd7d36</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=cEzFGSnYfnk)
@@ -1328,7 +1328,7 @@ Molinari and the vast majority of French liberals of his time viewed immigration
 
 ## Individual autonomy and collective self-defence
 
-<chapterId>1811a240-b5c8-5c34-906a-a5a030ca847f</chapterId>
+<chapterId>6b3535bc-f8cf-4cda-a017-e15d96b845d0</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=b8PojgZ0TQo)
@@ -1373,7 +1373,7 @@ Such a state of international law, which would recognize freedom of action while
 
 ## Freedom rooted in human facts
 
-<chapterId>fa1ae25f-bdcf-50db-9a12-d880ff568875</chapterId>
+<chapterId>1f34d9e1-a8a1-4991-bfa7-41bad040222c</chapterId>
 
 
 ![video](https://www.youtube.com/watch?v=OfqTuJvo3MQ)
@@ -1416,26 +1416,26 @@ The example of agitation for the abolition of the Corn Laws in nineteenth-centur
 # Final section
 
 
-<partId>7955883a-ce99-11f0-90a5-fb346d61dc16</partId>
+<partId>33daf777-4eb3-45f3-8d9d-3aa8f7012faf</partId>
 
 
 ## Reviews & Ratings
 
 
-<chapterId>8058b634-ce99-11f0-958c-fbaed1cbe973</chapterId>
+<chapterId>e433af17-f251-4206-9e49-d51ab4880516</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Final examination
 
 
-<chapterId>867d105a-ce99-11f0-81ae-03ab890b34e2</chapterId>
+<chapterId>866f6501-8dd3-46b8-94f1-5bf505ab4604</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## Conclusion
 
 
-<chapterId>8a843872-ce99-11f0-89f2-d3569420a90c</chapterId>
+<chapterId>8e52e57e-a0b1-439f-b6ca-9f34c75edc31</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

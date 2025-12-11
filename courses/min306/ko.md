@@ -84,12 +84,12 @@ Plan ₿ Academy의 모든 과정과 마찬가지로, 마지막 섹션에는 지
 
 # Bitaxe 이해
 
-<partId>ba1cb4ea-6a77-54fd-916c-57285c8c2418</partId>
+<partId>6b266525-d384-402f-bec3-ac295deabc2e</partId>
 
 
 ## 역사
 
-<chapterId>73d928e5-72f0-5c17-a7a6-8b6ece7f9a30</chapterId>
+<chapterId>fdb1080f-7843-4c20-8a4d-971829384638</chapterId>
 
 :::video id=67d2529a-b7cb-4804-b02c-e56c12c9e66e:::
 
@@ -146,7 +146,7 @@ Bitaxe를 개발하려면 상당한 기술적 장애물을 극복해야 했는�
 
 ## 비택스란 무엇인가요?
 
-<chapterId>6a56af56-35ce-51af-999b-4bc7305e6464</chapterId>
+<chapterId>bd2be7ab-90c1-40fe-b538-30617675b647</chapterId>
 
 :::video id=12b26c7a-74b1-4ea9-afc0-e3ef90cf5837:::
 
@@ -213,7 +213,7 @@ Bitaxe 플랫폼은 커뮤니티 피드백과 생산 최적화를 통해 지속�
 
 ## 자세한 내용은 어디에서 확인할 수 있나요?
 
-<chapterId>706f2fff-fa1c-5d8e-b14c-ece6e42c016f</chapterId>
+<chapterId>3c73f43d-8066-41ab-a566-cf92d9b9615d</chapterId>
 
 :::video id=90088397-3a16-485f-bbd2-89cdbb844e4a:::
 
@@ -290,12 +290,12 @@ Bitaxe 합법 리셀러 목록은 신뢰할 수 있는 공급업체를 식별하
 
 # 소프트웨어 및 운영
 
-<partId>04b302a9-42ba-5ad4-834c-6979950c2948</partId>
+<partId>d87beb45-632b-4998-8879-ecdb68a2f002</partId>
 
 
 ## AxeOS란 무엇인가요?
 
-<chapterId>a0cdf10d-e007-58e2-a17b-b588fd393b5e</chapterId>
+<chapterId>34fe2998-b83c-4222-b141-622c7d9133f2</chapterId>
 
 :::video id=de7bcbf2-f9ac-4057-ad40-29dc223b4798:::
 
@@ -368,12 +368,12 @@ AxeOS에는 문제 해결 및 최적화를 위한 진단 정보를 제공하면�
 
 # 커뮤니티 및 협업
 
-<partId>eed1ce48-6752-5744-91f7-91e4e20ff6b2</partId>
+<partId>1f7f9a5a-2597-4f2d-a345-21b70ddfa68b</partId>
 
 
 ## 오픈소스 기여 개요
 
-<chapterId>715d026e-cebc-536e-a34e-728f5653b999</chapterId>
+<chapterId>701888fc-8c6c-4053-bd29-20cd622d8d9b</chapterId>
 
 :::video id=7298ba19-28d2-4a7c-ac0b-44ad0c4770cf:::
 
@@ -439,7 +439,7 @@ GitHub 생태계는 단순한 파일 공유를 넘어선 오픈소스 협업을 
 
 ## 오픈소스 기여 실습
 
-<chapterId>84d033f5-7182-584f-b1a5-697172bc7a1c</chapterId>
+<chapterId>eb2bad4f-f340-42f7-b7d2-56eeb98c9c7f</chapterId>
 
 :::video id=7d318fd0-6f0b-422a-9f30-2c470b56951d:::
 
@@ -503,7 +503,7 @@ fork과 원본 리포지토리 사이의 관계는 변경을 시작할 때 특�
 
 ## 퍼블릭 풀이란 무엇인가요?
 
-<chapterId>b461bf94-4a90-5bb8-ba3f-976d5d57be0d</chapterId>
+<chapterId>4b0ba04d-84d9-4cad-a79c-cc3194a30378</chapterId>
 
 
 :::video id=d4652496-1ed4-4415-8048-0b6871b9ed51:::
@@ -552,7 +552,7 @@ fork과 원본 리포지토리 사이의 관계는 변경을 시작할 때 특�
 
 ## 엄브렐에 퍼블릭 풀을 설치하는 방법
 
-<chapterId>7f6d0307-7715-5581-89ea-f13cf8754f9a</chapterId>
+<chapterId>a9a6a2d0-5d95-45a2-8a00-abdd21a70be6</chapterId>
 
 
 :::video id=3a4fe0a9-bbf5-458a-8ec1-52c3b83afd87:::
@@ -601,12 +601,12 @@ Umbrel 플랫폼을 통해 공용 풀 소프트웨어를 설치하면 최신 Bit
 
 # 하드웨어 조립 및 문제 해결
 
-<partId>f6987088-5ba4-52e2-b2d0-aa122080940c</partId>
+<partId>f6cd2cf7-108c-4887-95cc-ac210cac4503</partId>
 
 
 ## 어떤 도구를 사용해야 하나요?
 
-<chapterId>733935b5-0171-5a22-838c-e192df6f7ccf</chapterId>
+<chapterId>efe5bbe9-2f26-43a1-8979-9fd81f6c768a</chapterId>
 
 
 :::video id=bddd0e47-7b43-4685-ba2e-bf3a8ff653c9:::
@@ -665,7 +665,7 @@ SMD 납땜 설정의 핵심은 표면 실장 작업에 필요한 제어된 열�
 
 ## 납땜 문제 해결
 
-<chapterId>96663744-b4f7-5154-930f-a68ba7954603</chapterId>
+<chapterId>d22c10a6-d4f5-47bc-83ce-2154660902cf</chapterId>
 
 
 :::video id=9286c0dc-acd6-44d9-b34e-59cfb2da9748:::
@@ -724,7 +724,7 @@ ASIC 칩은 핀 구조가 복잡하고 기계적 스트레스에 민감하기 �
 
 ## AxeOS를 사용하여 Bitaxe를 디버깅하는 방법
 
-<chapterId>603f5c0d-4b7c-51e1-9bad-318a8b8e9db7</chapterId>
+<chapterId>bb72be28-9dc1-4bef-a14a-95152e9da2aa</chapterId>
 
 :::video id=d23d748b-510e-4748-9617-b875da757031:::
 
@@ -772,7 +772,7 @@ U9 벅 컨버터에 문제가 있는 것으로 보이는 경우, 물리적 검�
 
 ## USB를 사용하여 디버깅하는 방법은 무엇인가요?
 
-<chapterId>f3182763-e1ef-5460-8bc0-f2ea53e3a410</chapterId>
+<chapterId>e63b1e03-a13a-4033-b69f-d13987882b4d</chapterId>
 
 
 :::video id=fe1b4b48-5f8a-4fd7-9417-ca03a36bce9f:::
@@ -831,12 +831,12 @@ Bitaxe 장치와의 통신 설정은 USB 케이블을 연결하고 개발 환경
 
 # 고급 사용자 지정
 
-<partId>8d333102-ecb5-5f05-bfb5-03a27b2d0d70</partId>
+<partId>26474d8d-0f8c-40a0-b051-4425a3d74e65</partId>
 
 
 ## PCB 수정
 
-<chapterId>ca08d2a4-2b34-575b-aecc-7482a03c190e</chapterId>
+<chapterId>e8561533-7cd8-4ee0-b19c-7ba2132ca8e5</chapterId>
 
 
 :::video id=30fb0010-f560-4e96-a05b-c21dc172746e:::
@@ -888,7 +888,7 @@ KiCad의 포괄적인 설계 규칙 검사 및 검증 도구는 수정 사항이
 
 ## 팩토리 파일을 만드는 방법은 무엇인가요?
 
-<chapterId>e9da631c-e6d1-50c1-bb59-bc8455c29d3e</chapterId>
+<chapterId>35409a55-5247-4523-800f-4b1ed3cbb7ad</chapterId>
 
 
 :::video id=07f980bf-6052-4ed4-bf7b-75e8aba585df:::
@@ -952,7 +952,7 @@ ESP-Miner 프로젝트에는 기본 펌웨어 빌드 프로세스를 시작하�
 
 ## 비택스 웹 플래셔는 어떻게 사용하나요?
 
-<chapterId>8c3e2d4c-c038-53ec-93cb-cc30a29e4394</chapterId>
+<chapterId>8eec7693-3dcc-4a64-a2c2-6157f17ded09</chapterId>
 
 
 :::video id=291757b9-f459-48f6-8766-56387f907859:::
@@ -1007,7 +1007,7 @@ Bitaxe 웹 인스톨러는 특정 사용 사례와 디바이스 구성에 맞게
 
 ## PCB를 만들고 주문하는 방법은 무엇인가요?
 
-<chapterId>566f5e06-9ec9-55c0-84f6-101d6ca4c2ff</chapterId>
+<chapterId>261e34b7-938e-4d0c-852e-4490d7dc86c9</chapterId>
 
 
 :::video id=9a56ad84-d9cf-4f85-ab98-301fb3101228:::
@@ -1065,12 +1065,12 @@ PCB 제조 환경에는 몇 가지 평판이 좋은 옵션이 있으며, JLCPCB�
 
 # 성능 최적화
 
-<partId>87b8790f-b7a9-5286-a7f8-328176ef7cb5</partId>
+<partId>c8465595-314a-42c4-b940-6263bf4c7bf7</partId>
 
 
 ## 비택스 벤치마킹
 
-<chapterId>7259a4b1-93c1-5956-87d3-baaee58115af</chapterId>
+<chapterId>c6ddaa84-6d67-411c-984d-d604bd111072</chapterId>
 
 
 :::video id=2491a783-9750-4ea5-a40c-1d1d611784d5:::
@@ -1119,7 +1119,7 @@ Bitaxe Hashrate 벤치마크 도구를 구현하려면 로컬 컴퓨터에서 �
 
 ## 비택스 오버클럭
 
-<chapterId>6b48c0c6-51c3-51a3-b317-850a374ae61e</chapterId>
+<chapterId>af0e8e9a-3915-4cca-8c8d-d87b85c08534</chapterId>
 
 
 :::video id=46c7a442-cd72-477c-8c91-b2c489ada1e6:::
@@ -1168,17 +1168,17 @@ Bitaxe 장치를 오버클럭하려면 하드웨어 제한과 냉각 요구 사�
 
 # 최종 섹션
 
-<partId>33367393-17a7-58d4-8359-79fffc6221fb</partId>
+<partId>18da936a-40cb-4362-a5f9-6d8c42599bc2</partId>
 
 
 ## 이 과정 평가하기
 
-<chapterId>785f8b92-c8a6-5a65-aa39-e9753a7edf51</chapterId>
+<chapterId>24b12120-e16d-405c-802e-4260bd1dbb00</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## 결론
 
-<chapterId>758baee6-2404-56fb-b534-6a39e441ae29</chapterId>
+<chapterId>96cf7269-ef00-4a55-96ae-e30ff0639311</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

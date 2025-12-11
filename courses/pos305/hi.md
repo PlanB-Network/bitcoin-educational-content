@@ -15,7 +15,7 @@ Alekos और Bas द्वारा बनाया गया, और melontwis
 +++
 # परिचय
 
-<partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
+<partId>541d6444-caf8-4e5b-80c3-b97f4d883d57</partId>
 
 
 ## कोर्स अवलोकन
@@ -45,7 +45,7 @@ POS 305 कोर्स में आपका स्वागत है जो 
 
 ## लेखक के Bitcoin और BTCPay सर्वर की प्रशंसा
 
-<chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
+<chapterId>f0645534-c825-40fb-a190-e24358e8accc</chapterId>
 
 चलो, सबसे पहले यह समझते हैं कि BTCPay Server क्या है और इसकी शुरुआत कहाँ से हुई। Bitcoin के क्षेत्र में विश्वास बनाने के लिए हम पारदर्शिता और कुछ मानकों को महत्व देते हैं।
 
@@ -89,7 +89,7 @@ BTCPay सर्वर फाउंडेशन, जिसने अलेको
 
 ## जीडब्ल्यू-6 का परिचय
 
-<chapterId>5c0bc234-c188-5b4a-94d5-adee87a120e2</chapterId>
+<chapterId>ba6af1e5-86f1-4139-a549-df2367d6319a</chapterId>
 
 ### Bitcoin को क्लासरूम एक्सरसाइज के जरिए समझना
 
@@ -179,7 +179,7 @@ BTCPay सर्वर फाउंडेशन, जिसने अलेको
 
 ## ज्ञान मूल्यांकन
 
-<chapterId>1461f064-933d-50ea-8935-324b68ec5d5f</chapterId>
+<chapterId>c8cec6af-1e57-4a0e-a86a-7dc35f5c2350</chapterId>
 
 ### केए क्लासरूम चर्चा
 
@@ -214,11 +214,11 @@ BTCPay सर्वर फाउंडेशन, जिसने अलेको
 
 # BTCPay Server का परिचय
 
-<partId>9c8a2d0c-9ba1-5c39-874c-f9eaf1bba663</partId>
+<partId>8a8bbf80-1322-4ad0-b49c-9c18b969236d</partId>
 
 ## BTCPay सर्वर के लॉगिन स्क्रीन को समझना
 
-<chapterId>14aad54c-9bd8-54f2-9455-178b8ae63408</chapterId>
+<chapterId>2d35d204-1c04-418f-91eb-a7a547ddc210</chapterId>
 
 ### BTCPay सर्वर के साथ काम करना
 
@@ -302,7 +302,7 @@ https://Mainnet.demo.btcpayserver.org/login
 
 ## यूज़र अकाउंट मैनेज करना
 
-<chapterId>b58ca6ee-b7fc-5e81-a6aa-c8ff212b4c55</chapterId>
+<chapterId>7f2dcbc7-ba0b-4515-bf6d-d23ab19c1831</chapterId>
 
 ### BTCPay सर्वर पर अकाउंट मैनेजमेंट
 
@@ -421,7 +421,7 @@ BTCPay Server दो तरीकों से 2FA को सक्षम कर
 
 ## नया स्टोर बनाना
 
-<chapterId>463b3634-b49f-5512-a711-3b2e096fc2e0</chapterId>
+<chapterId>6e8d48b0-b9b6-4fbd-8961-5cde37109c0d</chapterId>
 
 ### अपना स्टोर विज़ार्ड बनाएँ
 
@@ -481,11 +481,11 @@ BTCPay Server के अकाउंट से आप असीमित स्�
 
 # Bitcoin चाबियों को सुरक्षित करने का परिचय
 
-<partId>25da22d8-fd37-51c5-af2a-58b9f3b046b2</partId>
+<partId>dd0975de-76e6-4255-a3b2-e454009d1aa5</partId>
 
 ## Bitcoin कुंजी जनरेशन को समझना
 
-<chapterId>d162735b-847b-578e-83b8-a044ab703ec5</chapterId>
+<chapterId>8a6164a5-aea6-4348-aa71-135d03de98bc</chapterId>
 
 ### Bitcoin कीज़ जनरेट करने में क्या शामिल होता है?
 
@@ -535,7 +535,7 @@ BTCPay Server ने generate को नए Address में बनाया �
 
 ## Hardware Wallet के साथ चाबियों को सुरक्षित करना
 
-<chapterId>c54a6d61-5a43-5fdb-93ae-c6750de9c612</chapterId>
+<chapterId>94cf5f31-7292-4608-b10e-8e46b1ebd627</chapterId>
 
 ### Bitcoin की चाबियाँ स्टोर करना
 
@@ -578,7 +578,7 @@ Bitcoin कीज़ को Cold स्टोरेज में स्टोर
 
 ## अपने Bitcoin कीज़ का इस्तेमाल करके
 
-<chapterId>bff488de-5052-56e6-b696-97e896f762ae</chapterId>
+<chapterId>ae5aafd5-28b7-4ef7-8ebc-3ac5f19769c7</chapterId>
 
 ### बीटीसीपे सर्वर जीडब्ल्यू-130
 
@@ -887,7 +887,7 @@ Hot Wallet का इस्तेमाल करते समय अपने S
 
 ## BTCPay सर्वर लाइटनिंग Wallet
 
-<chapterId>1bbece7e-0197-57e6-a93a-561cf384d946</chapterId>
+<chapterId>ca874f9a-4f97-44d5-9bf4-57c8b17d25bf</chapterId>
 
 जब एक सर्वर एडमिनिस्ट्रेटर नया BTCPay Server इंस्टेंस प्रोविजन करता है, तो वह Lightning Network इम्प्लीमेंटेशन, LND, Core Lightning, या Eclair सेट अप कर सकता है; इंस्टॉलेशन इंस्ट्रक्शन्स के लिए "Part Configuring BTCPay Server" देखें।
 
@@ -1078,11 +1078,11 @@ Alby अकाउंट बनाने के बाद, अपने BTCPay Se
 
 # बीटीसीपे सर्वर जीडब्ल्यू-309
 
-<partId>25e88b81-e1ab-515f-a035-09f2a3075556</partId>
+<partId>76b4a36d-9cf8-469d-a763-a75cc38c812a</partId>
 
 ## डैशबोर्ड ओवरव्यू
 
-<chapterId>410ff28b-a272-5c91-93e0-48d5b28c53ab</chapterId>
+<chapterId>8bd1c31e-a487-4c32-b3af-bcecc7117a80</chapterId>
 
 BTCPay Server एक मॉड्यूलर सॉफ्टवेयर पैकेज है। हालांकि, कुछ मानक ऐसे हैं जो हर BTCPay Server में होंगे और एडमिनिस्ट्रेटर/यूज़र्स इनके साथ इंटरैक्ट करेंगे। डैशबोर्ड से शुरू करते हैं। लॉगिन के बाद हर BTCPay Server का मुख्य एंट्री पॉइंट। डैशबोर्ड आपको आपके स्टोर का परफॉर्मेंस, Wallet का करंट बैलेंस और पिछले 7 दिनों के आखिरी tx का ओवरव्यू देता है। चूंकि यह एक मॉड्यूलर व्यू है, प्लगइन्स इस व्यू का फायदा उठाकर डैशबोर्ड पर अपने टाइल्स बना सकते हैं। इस कोर्स बुक में, हम सिर्फ स्टैंडर्ड प्लगइन्स/ऐप्स और BTCPay Server में उनके संबंधित व्यूज़ के बारे में बात करेंगे।
 
@@ -1191,7 +1191,7 @@ BTCPay सर्वर कुछ स्टैंडर्ड प्लगइन�
 
 ## BTCPay सर्वर - स्टोर सेटिंग्स
 
-<chapterId>e8faef7b-278d-550e-a511-bc3a442daf64</chapterId>
+<chapterId>00ff7c8c-46f9-4d88-92cc-c63e4ff348f9</chapterId>
 
 BTCPay Server सॉफ़्टवेयर के अंदर, हमें 2 प्रकार की सेटिंग्स के बारे में पता है। BTCPay Server की स्टोर-विशिष्ट सेटिंग्स, जो डैशबोर्ड के नीचे बाईं मेनू बार में मिलती हैं, और BTCPay Server सेटिंग्स, जो मेनू बार के सबसे नीचे अकाउंट के ठीक ऊपर मिलती हैं। BTCPay Server की सर्वर-विशिष्ट सेटिंग्स केवल सर्वर एडमिनिस्ट्रेटर्स द्वारा ही देखी जा सकती हैं।
 
@@ -1566,7 +1566,7 @@ BTCPay Server आपको कोड में फॉर्म बनाने �
 
 ## BTCPay सर्वर - सर्वर सेटिंग्स
 
-<chapterId>1dd858a2-49ea-586b-9bc1-75a65f508df6</chapterId>
+<chapterId>07022d6d-594f-46d7-8363-c8c16a561f4f</chapterId>
 
 BTCPay Server में दो अलग-अलग सेटिंग्स व्यू होते हैं। एक स्टोर सेटिंग्स के लिए होता है और दूसरा सर्वर सेटिंग्स के लिए। सर्वर सेटिंग्स सिर्फ सर्वर एडमिनिस्ट्रेटर के लिए उपलब्ध होता है, स्टोर मालिकों के लिए नहीं। सर्वर एडमिनिस्ट्रेटर यूजर्स को जोड़ सकते हैं, कस्टम रोल बना सकते हैं, ईमेल सर्वर कॉन्फ़िगर कर सकते हैं, पॉलिसी सेट कर सकते हैं, मेंटेनेंस टास्क चला सकते हैं, BTCPay Server से जुड़ी सभी सेवाओं को चेक कर सकते हैं, सर्वर पर फाइल्स अपलोड कर सकते हैं या लॉग्स चेक कर सकते हैं।
 
@@ -2086,7 +2086,7 @@ BTCPay Server के पास एक लोकल फाइल सिस्ट�
 
 ## बीटीसीपे सर्वर - भुगतान
 
-<chapterId>e2b71ff9-3f4f-5e71-9771-8e03fbbef00f</chapterId>
+<chapterId>1f6899d4-85c1-41fe-8f23-4a7bec44e9c2</chapterId>
 
 Invoice एक दस्तावेज़ है जो विक्रेता खरीदार से भुगतान वसूलने के लिए जारी करता है।
 
@@ -2366,7 +2366,7 @@ BTCPay Server आपको sender और receiver दोनों के लि�
 
 ## बीटीसीपे सर्वर के डिफॉल्ट प्लगइन्स
 
-<chapterId>7d673dc4-bd5d-5411-819b-f135f1d86636</chapterId>
+<chapterId>2d994561-7f8d-4862-8b9f-cee7d81df6f2</chapterId>
 
 ### डिफ़ॉल्ट प्लगइन्स और ऐप्स
 
@@ -2711,11 +2711,11 @@ BTCPay Server के साथ आने वाले तीन बिल्ट-
 
 # BTCPay Server को कॉन्फ़िगर करना
 
-<partId>ff38596c-7de3-5e5c-ba50-9b9edbbbb5eb</partId>
+<partId>c3a8bd83-0676-4388-87b2-325d67f43d9d</partId>
 
 ## लूना नोड पर बीटीसीपे सर्वर इंस्टॉल करने की बेसिक समझ
 
-<chapterId>d0a28514-ffcf-529b-9156-29141f0b060a</chapterId>
+<chapterId>f0f934af-eb3c-4d86-bd7b-3fee8fb7c10e</chapterId>
 
 ### होस्टेड एनवायरनमेंट (LunaNode) पर BTCPay सर्वर इंस्टॉल करना
 
@@ -2836,7 +2836,7 @@ BTCPay Server को VPS पर चलाने और होस्टेड इ
 
 ## वोल्टेज एनवायरनमेंट पर BTCPay सर्वर इंस्टॉल करना
 
-<chapterId>11c7d284-b4d2-5542-872c-df9bd9c1491b</chapterId>
+<chapterId>ef790587-4c73-4311-96f1-5a9219b9a7fd</chapterId>
 
 आप Voltage.cloud को होस्टिंग प्रोवाइडर के रूप में जानेंगे, अपने BTCPay सर्वर का उपयोग करने के पहले चरणों के बारे में सीखेंगे, और Lightning Network का उपयोग करना सीखेंगे। जब हम सभी चरणों से गुजर चुके होंगे, तो आप Bitcoin को स्वीकार करते हुए एक वेबशॉप या क्राउडफंड प्लेटफॉर्म चला सकेंगे!
 
@@ -2912,7 +2912,7 @@ https://docs.btcpayserver.org.
 
 ## उम्ब्रेल नोड पर BTCPay सर्वर इंस्टॉल करना
 
-<chapterId>3298e292-6476-5fe0-836c-7fa021348799</chapterId>
+<chapterId>bdd94bfc-c8da-4c8b-8b0e-ed4f9a5dd42e</chapterId>
 
 इन स्टेप्स को पूरा करने के बाद, आप अपने लोकल नेटवर्क पर अपने BTCPay स्टोर पर लाइटनिंग पेमेंट्स स्वीकार कर सकते हैं। यह प्रक्रिया रेस्टोरेंट या बिज़नेस में उम्ब्रेल नोड चलाने पर भी लागू होगी। अगर आप इस स्टोर को पब्लिक वेबसाइट से कनेक्ट करना चाहते हैं, तो अपने उम्ब्रेल नोड को पब्लिक में एक्सपोज़ करने के लिए एडवांस्ड एक्सरसाइज़ फॉलो करें।
 
@@ -3002,15 +3002,15 @@ Umbrel का सेटअप पहले वाले दो होस्ट�
 
 # निष्कर्ष
 
-<partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
+<partId>5449bff6-f410-4f2a-a373-7b915bb6d726</partId>
 
 ## समीक्षाएँ और रेटिंग्स
 
-<chapterId>d90bb93d-b894-551e-9fd6-6855c739a904</chapterId>
+<chapterId>bf665be7-1be0-4d54-b8c6-64fbb40c9190</chapterId>
 
 <isCourseReview>true</isCourseReview>
 ## कोर्स समापन
 
-<chapterId>c07ac2a5-f97e-5c57-8a80-4955b48128d4</chapterId>
+<chapterId>bbda2002-757d-4dad-8c8a-ff95cec77077</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

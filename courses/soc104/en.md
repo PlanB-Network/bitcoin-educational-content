@@ -1426,7 +1426,7 @@ Finally, Bitcoin is not a classic political project, in the sense of a state or 
 ## Final examination
 
 
-<chapterId>230ddc56-ceb8-11f0-bf47-6f8dd2541da1</chapterId>
+<chapterId>102fc7b2-d618-4272-b58a-0fc2969fbe53</chapterId>
 
 
 <isCourseExam>true</isCourseExam>

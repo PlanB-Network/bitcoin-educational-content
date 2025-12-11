@@ -17,14 +17,14 @@ BTC304では、コミュニティ構築がなぜ重要なのかを見ていき�
 # はじめに
 
 
-<partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
+<partId>c896831e-b8d8-4324-bcad-b289c88db81b</partId>
 
 
 
 ## コース概要
 
 
-<chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
+<chapterId>42660201-57ae-4438-846a-80cd529087ca</chapterId>
 
 
 
@@ -144,7 +144,7 @@ Bitcoinはまだ初期段階にあるが、この現実は、おそらく皆さ�
 ## なぜBitcoinのコミュニティやミートアップを始めるのか？
 
 
-<chapterId>893ea248-7d5a-5b8e-948c-7031497b1031</chapterId>
+<chapterId>ce63ff45-9c9e-4a77-a175-99906bb95208</chapterId>
 
 
 
@@ -241,7 +241,7 @@ Bitcoinのミートアップは多くの目的を果たすことができる：
 
 
 
-これらの可能性の多くについては、本コースのパート6/8「【プロジェクトとイニシアチブの例】(https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279)」で詳しく取り上げる。
+これらの可能性の多くについては、本コースのパート6/8「【プロジェクトとイニシアチブの例】(https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab)」で詳しく取り上げる。
 
 
 
@@ -252,7 +252,7 @@ Bitcoinのミートアップは多くの目的を果たすことができる：
 ## コミュニティはどこに作るべきか？
 
 
-<chapterId>72da5285-5395-592d-ab62-303a0aef3d6d</chapterId>
+<chapterId>0b6bd32a-15ff-4b09-870d-5a2f6ea0d774</chapterId>
 
 
 
@@ -309,7 +309,7 @@ Bitcoinは非中央集権的なので、当然、誰でも自由に好きなよ�
 ## どのような目標が地域社会を導くべきか？
 
 
-<chapterId>0aae1aa8-93ec-544a-ad88-22d32c619595</chapterId>
+<chapterId>2b2f58e5-c2ab-4b85-af19-02d7ad2aa503</chapterId>
 
 
 
@@ -353,7 +353,7 @@ Bitcoinは非中央集権的なので、当然、誰でも自由に好きなよ�
 
 
 
-しかし、後の【プロジェクトや取り組みの例】(https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279)で紹介するように、**ミートアップは様々な方法で、様々な目的を持って構築することができる**。
+しかし、後の【プロジェクトや取り組みの例】(https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab)で紹介するように、**ミートアップは様々な方法で、様々な目的を持って構築することができる**。
 
 
 
@@ -424,14 +424,14 @@ Bitcoinは非中央集権的なので、当然、誰でも自由に好きなよ�
 # コミュニティ・アイデンティティのデザイン Bitcoin
 
 
-<partId>da6673ad-bf49-5979-80a6-3f69cfb28046</partId>
+<partId>507dd86a-0214-4c18-ae0d-34702291fb74</partId>
 
 
 
 ## なぜ、そしてどのようにして自分のアイデンティティを作り出せるのか？
 
 
-<chapterId>b48a18cc-afdf-5216-802c-32647b5cd8a3</chapterId>
+<chapterId>4475004b-19e7-4c0f-a799-fd2cb0baefad</chapterId>
 
 
 
@@ -532,7 +532,7 @@ Bitcoinは非中央集権的なので、当然、誰でも自由に好きなよ�
 ## ロゴ、ポスター、バナーの作成
 
 
-<chapterId>3470a31f-0190-5e87-8af0-6a00e79267ef</chapterId>
+<chapterId>8b85ccb1-5474-474e-ae1b-c8cb69f060ad</chapterId>
 
 
 
@@ -763,14 +763,14 @@ Bitcoinロンドン」ミートアップの未来的なロゴをデザインし�
 # Bitcoinコミュニティのコミュニケーション・チャンネルを作る
 
 
-<partId>fc588298-6876-554c-bd57-55d182464878</partId>
+<partId>054892b5-21cb-43f8-a1c2-750d3175fa68</partId>
 
 
 
 ## どのコミュニケーション・チャンネルを選ぶべきか？
 
 
-<chapterId>b4f4eef6-1035-5290-848a-2b7f9391c77a</chapterId>
+<chapterId>3c111ec9-2517-4b9a-bba4-68ac531e081f</chapterId>
 
 
 
@@ -831,7 +831,7 @@ Matrix、Keet、Signal、Facebook、Instagram、LinkedInといった他のプラ
 ## Telegramチャンネル、グループ、スーパーグループの作成と設定
 
 
-<chapterId>d13714ce-8f08-53e9-bedd-b6a3aaac5dad</chapterId>
+<chapterId>7b87c24a-4820-4652-a3de-dc29cafea4d0</chapterId>
 
 
 
@@ -866,7 +866,7 @@ Telegramでコミュニティのコミュニケーションスペースを作る
 メンバー同士が直接話したり、返信したりできる場所を作りたいのであれば、Telegramチャンネルではなく、Telegramグループを作った方がいいかもしれません！
 
 
-そのまま次のセクション、[Create a Telegram group](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad)に進みます。
+そのまま次のセクション、[Create a Telegram group](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/7b87c24a-4820-4652-a3de-dc29cafea4d0)に進みます。
 
 
 
@@ -997,7 +997,7 @@ Telegramグループを作成し、その設定に進み、「トピック」ボ
 ## Telegramグループまたはスーパーグループを設定する
 
 
-<chapterId>35e674b3-5924-50b0-98f1-83a56c9a186d</chapterId>
+<chapterId>a8c5bc2e-9a91-4da1-aae7-8a3684631dc8</chapterId>
 
 
 
@@ -1053,7 +1053,7 @@ Telegramグループまたはスーパーグループを作成する際に、**�
 ## Telegramグループに多機能ボットを追加する
 
 
-<chapterId>c61f69cc-15ec-53f1-8c02-1cea55def09e</chapterId>
+<chapterId>80108eb0-6648-4fe9-b41f-586f03466805</chapterId>
 
 
 
@@ -1105,7 +1105,7 @@ Telegramグループまたはスーパーグループに多機能ボットを追
 ## Discordサーバーを作成する
 
 
-<chapterId>eef2a965-4c24-5f3a-8013-72cc7d315314</chapterId>
+<chapterId>9d3f69cb-a61c-40f2-abad-e4a4be6b96cb</chapterId>
 
 
 
@@ -1150,7 +1150,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 ## より安全でプライベートな通信手段を検討する
 
 
-<chapterId>29d0aad6-0612-5dd0-bcef-7337eaf4fefc</chapterId>
+<chapterId>495024db-90fb-4aa9-984e-1dc2b2b90947</chapterId>
 
 
 
@@ -1178,14 +1178,14 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 # ソーシャルネットワークを立ち上げる
 
 
-<partId>8ebf8cd7-9248-543f-bc27-4ec4cc03f9cf</partId>
+<partId>f98a016c-d5b2-43b4-b8ee-ad6163d7e6c5</partId>
 
 
 
 ## Bitcoinコミュニティを成長させるための知名度の重要性
 
 
-<chapterId>b20f12e4-c5de-5f02-80c7-b7fc6cadd3ac</chapterId>
+<chapterId>ecd581a7-17e6-4730-ac9f-859a782a957e</chapterId>
 
 
 
@@ -1219,7 +1219,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 ## ツイッターのプロフィールを作成する
 
 
-<chapterId>c8d73097-8eba-5530-918c-221002954110</chapterId>
+<chapterId>f5bfb587-1edf-46ce-9683-833b344627b1</chapterId>
 
 
 
@@ -1232,7 +1232,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 1/ **ツイッターの@**は、あなたのアイデンティティを定義し、あなたを見つけやすくします。あなたのコミュニティの名前が「Bitcoin[CITY]」なら、「@Bitcoin[CITY]」を選ぶのが適切です；
 
 
-2/ **あなたのコミュニティやミートアップのために作成したロゴとバナー**（[ロゴ、ポスター、バナーを作成する](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef)のセクションを参照）；
+2/ **あなたのコミュニティやミートアップのために作成したロゴとバナー**（[ロゴ、ポスター、バナーを作成する](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/8b85ccb1-5474-474e-ae1b-c8cb69f060ad)のセクションを参照）；
 
 
 3/ **説明**では、あなたのコミュニティに関する重要な情報を数百文字で共有することができます。例えば
@@ -1334,7 +1334,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 ## 近隣のミートアップとの距離を縮める
 
 
-<chapterId>12a21c3b-235a-5292-8209-67bf60f61e49</chapterId>
+<chapterId>5cd84243-f3b6-4874-99a7-a2e2185cc118</chapterId>
 
 
 
@@ -1377,7 +1377,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 ## Btcmap.org
 
 
-<chapterId>365f43d4-7b2c-5961-a184-157b8c1a0116</chapterId>
+<chapterId>8a628a6c-7daf-4382-9f13-a90b808fc908</chapterId>
 
 
 
@@ -1425,14 +1425,14 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 # Bitcoinミートアップの開催
 
 
-<partId>c009d2a6-40ce-583b-bd24-fdfd1fea262e</partId>
+<partId>561335e4-a531-4e63-838f-56aa8ee04864</partId>
 
 
 
 ## なぜコミュニティとの定期的なミートアップを立ち上げるのか？
 
 
-<chapterId>ed8e471c-3b99-57e2-a042-2d4e8a40b137</chapterId>
+<chapterId>acb31467-8192-45a8-afe1-e7bbdf1e32dd</chapterId>
 
 
 
@@ -1462,7 +1462,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 ## 最初のミーティング：いつ、なぜ？
 
 
-<chapterId>f3f8a614-cfb4-5994-a2e8-d56e6f8e3347</chapterId>
+<chapterId>1db6a73c-4782-4ed6-872a-eb23851e027e</chapterId>
 
 
 
@@ -1547,7 +1547,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 
 
 
-これには、** より多くの組織と、より多くのあなたの時間** が必要であることを心に留めておいてください。幸いなことに、[このコースのパート6/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279)では、再利用可能なオープンソースのリソースが紹介されています。
+これには、** より多くの組織と、より多くのあなたの時間** が必要であることを心に留めておいてください。幸いなことに、[このコースのパート6/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab)では、再利用可能なオープンソースのリソースが紹介されています。
 
 
 いずれにせよ、すべてはあなた自身、あるいはあなたの地域社会が設定した短期、中期、長期の行動計画にかかっている。
@@ -1557,7 +1557,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 ## 場所探し
 
 
-<chapterId>405d389e-6a32-5777-af8d-293380d2e8fd</chapterId>
+<chapterId>b19eed85-6f0a-4de8-a679-34807bb2ac3e</chapterId>
 
 
 
@@ -1603,7 +1603,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 ## ミートアップの前に
 
 
-<chapterId>c5218943-580d-5efc-89ed-6b5d728816d6</chapterId>
+<chapterId>2efeb301-7737-49bb-831b-f75f1a013ad7</chapterId>
 
 
 
@@ -1619,7 +1619,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 
 
     - 日時と場所をソーシャルネットワークやその他のコミュニケーションチャンネルで共有する。必要であれば、登録リンクも掲載しましょう。
-    - 専用のビジュアルを作成する（例えばCanvaのポスター、パート2/8「【Bitcoinコミュニティのアイデンティティをデザインする】(https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)」を参照）。
+    - 専用のビジュアルを作成する（例えばCanvaのポスター、パート2/8「【Bitcoinコミュニティのアイデンティティをデザインする】(https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/4475004b-19e7-4c0f-a799-fd2cb0baefad)」を参照）。
     - TelegramとTwitterで告知をピン留めし、Discordで"@everyone "を使って言及することで、知名度を最大化する。
     - イベントの7～10日前に告知を行い、参加者が前もって計画を立てられるようにする。
 
@@ -1650,7 +1650,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 ## ミートアップ当日
 
 
-<chapterId>cf60067b-591f-5fdf-9b9e-d442aad0e8f9</chapterId>
+<chapterId>7ba18449-1368-4ba7-8fe3-c9028afaa3e6</chapterId>
 
 
 
@@ -1689,7 +1689,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 ## ミートアップを終えて
 
 
-<chapterId>3e881af9-9c09-5721-81ee-c5cda3b109c5</chapterId>
+<chapterId>2f238eab-3931-46a2-a429-5ae9562e4c5d</chapterId>
 
 
 
@@ -1711,7 +1711,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 ## 参加者の参加と維持の重要性
 
 
-<chapterId>f5355e35-4b07-527c-88a3-8535cba7592c</chapterId>
+<chapterId>a50e8782-fb08-4aba-a42b-3fa86b5c4ffb</chapterId>
 
 
 
@@ -1721,7 +1721,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 そのためには、あることが不可欠だ： **それは、参加者を惹きつけておくこと**である。
 
 
-熱狂的なビットコイナーからなる少人数のグループで、定期的に集まって Bitcoin について語り合うことが目的です。時間が経つにつれて、各人の都合や興味に応じて、特定の組織的な仕事をグループで分担**したり、特定のプロジェクト**を担うコアメンバー**を招待したりすることができます。これらのプロジェクトは、あなたのコミュニティ、あなたのミートアップ、あなたの都市に特有なものであってもよいし、[このコースのパート6/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279)で提案されている多くのイニシアチブに触発されたものであってもよい。 **これはコアメンバーのCommitmentを育てるだけでなく、コミュニティの成長と繁栄にも役立ちます。
+熱狂的なビットコイナーからなる少人数のグループで、定期的に集まって Bitcoin について語り合うことが目的です。時間が経つにつれて、各人の都合や興味に応じて、特定の組織的な仕事をグループで分担**したり、特定のプロジェクト**を担うコアメンバー**を招待したりすることができます。これらのプロジェクトは、あなたのコミュニティ、あなたのミートアップ、あなたの都市に特有なものであってもよいし、[このコースのパート6/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab)で提案されている多くのイニシアチブに触発されたものであってもよい。 **これはコアメンバーのCommitmentを育てるだけでなく、コミュニティの成長と繁栄にも役立ちます。
 
 
 以前のサイクルでBTCやアルトコインを購入した人、理解を深めたい技術愛好家、あるいは、この無条件で信頼できる第三者なしに機能する、補償不可能で分散化された透明で公正な決済システムに興味を持つ全くの初心者など、ミートアップが進むにつれて新しい顔ぶれが現れるだろう。
@@ -1761,14 +1761,14 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 # プロジェクトとイニシアチブの例
 
 
-<partId>45b3bc40-1c31-583e-8411-2662e6efd765</partId>
+<partId>75b8d7e2-97ce-455b-abb5-8bfa2a47f777</partId>
 
 
 
 ## なぜビールを飲むだけでなく、さらに踏み込むのか？
 
 
-<chapterId>3213d87a-1998-5972-ab93-97a5769ba279</chapterId>
+<chapterId>05880102-07ac-413a-8433-8a6ab8fac2ab</chapterId>
 
 
 
@@ -1802,7 +1802,7 @@ Bitcoinを開催すると、新しい出会いがある。社交的な交流は�
 ## 年間を通じたテーマ別ミーティングを開催する。
 
 
-<chapterId>46afdbcc-a775-5c16-b20a-34956690d58f</chapterId>
+<chapterId>c69c52bd-3b64-4ebc-bcce-5c3c8bd1b6e5</chapterId>
 
 
 
@@ -1862,7 +1862,7 @@ Bitcoinティーチング・ツールボックス](https://planb.academy/fr/reso
 ## サイドイベントやワークショップを開催
 
 
-<chapterId>9dbd651a-8712-5630-90b3-b9525dcc1385</chapterId>
+<chapterId>a6f89c65-1de3-40dc-ad55-f72e54c2f399</chapterId>
 
 
 
@@ -1889,7 +1889,7 @@ Bitcoinティーチング・ツールボックス](https://planb.academy/fr/reso
 ## ステッカーの作成
 
 
-<chapterId>d605f3b3-130e-513d-85e6-06bc5ea13e99</chapterId>
+<chapterId>1d7f4a6f-99f1-4c82-a55d-23c6d8f7b226</chapterId>
 
 
 
@@ -1929,7 +1929,7 @@ Bitcoinティーチング・ツールボックス](https://planb.academy/fr/reso
 ## ライブラリーを作る
 
 
-<chapterId>acc94093-f8b3-51b8-9359-348e9e075d38</chapterId>
+<chapterId>a6db0905-19f7-475a-abdc-f4c5e85cd625</chapterId>
 
 
 
@@ -1985,7 +1985,7 @@ Bitcoinティーチング・ツールボックス](https://planb.academy/fr/reso
 ## パーソナライズされたチラシの作成と配布
 
 
-<chapterId>62ad5430-c698-51b3-89ac-090f31c88953</chapterId>
+<chapterId>50949d74-897a-4097-8bad-65245e5bb5e1</chapterId>
 
 
 
@@ -2064,7 +2064,7 @@ Bitcoinの白書を残すことは象徴的ではあるが、初めての人に�
 ## ビデオプロジェクションの制作
 
 
-<chapterId>892b248a-b837-5df6-aac9-4b3261ff0390</chapterId>
+<chapterId>b129d071-f69a-4d55-a043-cc74e4cf6331</chapterId>
 
 
 
@@ -2104,7 +2104,7 @@ Bitcoinの白書を残すことは象徴的ではあるが、初めての人に�
 ## あなたの街にポスターを貼る
 
 
-<chapterId>6565e8a0-d535-5be0-9764-273584c675bd</chapterId>
+<chapterId>89c658aa-414c-4a3b-a6c7-2aa99f937a70</chapterId>
 
 
 
@@ -2147,7 +2147,7 @@ Bitcoinの白書を残すことは象徴的ではあるが、初めての人に�
 ## パーソナライズされたNFCカード
 
 
-<chapterId>8ad65d4e-a68a-59c2-a812-85f4907ed9f3</chapterId>
+<chapterId>6734ae15-2cbe-4baf-b784-bb0afdfd95ee</chapterId>
 
 
 
@@ -2175,7 +2175,7 @@ Bitcoinの白書を残すことは象徴的ではあるが、初めての人に�
 ## ウェブサイトの作成
 
 
-<chapterId>9a2a1b9b-0633-544a-b331-c06187d23d7f</chapterId>
+<chapterId>60d6534d-569f-45b7-b9ad-49a2a4422550</chapterId>
 
 
 
@@ -2202,7 +2202,7 @@ WordPressはまた、コーディングのスキルを必要とせずにサイ�
 ## ビデオチャンネルを作る（YoutubeまたはOdyssee）
 
 
-<chapterId>076286db-1627-57ec-a410-c44b1666e1cd</chapterId>
+<chapterId>77fa4cd7-645b-4c1f-92c5-64075ed162fd</chapterId>
 
 
 
@@ -2222,7 +2222,7 @@ WordPressはまた、コーディングのスキルを必要とせずにサイ�
 - [**peertube**](https://joinpeertube.org/fr_FR)では、独自のビデオプラットフォームをホストすることができるが、セットアップはより複雑だ。
 
 
-どちらを選ぶにしても、あなたのチャンネルを魅力的にするために、プラットフォーム特有のビジュアルをデザインしましょう。パート2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef)で紹介したCanvaは、カスタマイズ可能な既成のデザインを備えた "YouTube Thumbnail "カテゴリを提供しています。
+どちらを選ぶにしても、あなたのチャンネルを魅力的にするために、プラットフォーム特有のビジュアルをデザインしましょう。パート2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/8b85ccb1-5474-474e-ae1b-c8cb69f060ad)で紹介したCanvaは、カスタマイズ可能な既成のデザインを備えた "YouTube Thumbnail "カテゴリを提供しています。
 
 
 
@@ -2245,7 +2245,7 @@ WordPressはまた、コーディングのスキルを必要とせずにサイ�
 ## オーディオ・ポッドキャストを作成する
 
 
-<chapterId>12e96b45-1c33-5687-a753-80d0114d487a</chapterId>
+<chapterId>f9c6f5a8-7c0a-4dbb-8844-6d61c09e29f4</chapterId>
 
 
 
@@ -2285,7 +2285,7 @@ Audacityを使ったポッドキャスト作成の要点を網羅した10分の�
 ## イベント用バッジの作成
 
 
-<chapterId>0cccef8d-a765-5844-8921-c40f0ce653e4</chapterId>
+<chapterId>aade4c0d-6faf-4b7c-914d-00aab248b544</chapterId>
 
 
 
@@ -2311,7 +2311,7 @@ Bitcoinリール協会が使用しているバッジのテンプレートは、[
 ## 死亡時の引継ぎ計画
 
 
-<chapterId>c5febf18-235c-51bc-8fbb-9467dabe4cb0</chapterId>
+<chapterId>98ea62af-adae-4fb7-81a6-dc2054922dde</chapterId>
 
 
 
@@ -2341,7 +2341,7 @@ Addressのデリケートな話題、Bitcoinのコミュニティのメンバー
 ## 学校や大学で講義を行う
 
 
-<chapterId>65efdb44-e3d4-567c-aedf-972765753d73</chapterId>
+<chapterId>d94b6c84-5a34-4626-a21d-6b9051eef470</chapterId>
 
 
 
@@ -2404,7 +2404,7 @@ Addressのデリケートな話題、Bitcoinのコミュニティのメンバー
 ## 企業へのアプローチ
 
 
-<chapterId>b730462b-7928-5d28-a14f-9ceaa773d3d2</chapterId>
+<chapterId>3ac3d7ce-e61e-44c8-a238-2aef158da8a0</chapterId>
 
 
 
@@ -2494,7 +2494,7 @@ Bitcoinにふさわしい企業がいくつか決まったら、加盟店専用�
 ## 地元紙やラジオに連絡
 
 
-<chapterId>435bfbc1-22dd-59bb-b737-a32ea995b238</chapterId>
+<chapterId>51c32266-ddc1-4ffd-bd05-ed8273ea1d93</chapterId>
 
 
 
@@ -2548,14 +2548,14 @@ Bitcoinにふさわしい企業がいくつか決まったら、加盟店専用�
 # 未来を予測する
 
 
-<partId>6ea07445-9369-54bc-9aa0-d260db026e0b</partId>
+<partId>55a392cc-961d-434c-b4b0-4614f5ac1da8</partId>
 
 
 
 ## 参加者増加のための計画
 
 
-<chapterId>8af722d4-3a9f-548c-9001-424f2142de12</chapterId>
+<chapterId>de70830d-0cde-4254-b160-734a98ce4eb8</chapterId>
 
 
 
@@ -2626,7 +2626,7 @@ b) **ビットコイン仲間**とだけ固まるのは避ける。その代わ�
 ## コミュニティ組織の分散化
 
 
-<chapterId>bedfc110-e099-58f4-a5b7-fb50f3b19a49</chapterId>
+<chapterId>74e4aab7-c79e-4578-8179-0b857a961bb7</chapterId>
 
 
 
@@ -2666,7 +2666,7 @@ framasoft suite](https://framasoft.org/fr/)のような**フリーでオープ�
 ## Bitcoinが公共の敵No.1になったとしたら？
 
 
-<chapterId>c739651f-cd13-51e0-a36e-85023749b15b</chapterId>
+<chapterId>30ca4745-f8b5-48a0-b902-8c270e2062ed</chapterId>
 
 
 
@@ -2697,14 +2697,14 @@ framasoft suite](https://framasoft.org/fr/)のような**フリーでオープ�
 # ビットコイナーを結びつける
 
 
-<partId>62bc2138-c0be-5d39-a341-594690863257</partId>
+<partId>e3eab6b3-f19d-42ec-9167-4aa6c7e92a28</partId>
 
 
 
 ## Bitcoinコミュニティ構築のための迅速な行動計画
 
 
-<chapterId>1f463ec2-3f64-5641-8d60-e02a47c94f27</chapterId>
+<chapterId>9ad100ba-2b39-40ef-aec6-b2750fce4b76</chapterId>
 
 
 
@@ -2795,7 +2795,7 @@ Bitcoinは、歴史、経済学、文学、数学、コンピューター科学�
 ## 自分を大切にする
 
 
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+<chapterId>1cb1f900-b1a9-4908-8418-995f531da953</chapterId>
 
 
 
@@ -2834,7 +2834,7 @@ Bitcoinのウサギの穴に落ちると、人生観が変わる。
 ## BTC302, 次の記事
 
 
-<chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
+<chapterId>f58e4746-c50e-492b-a2d1-f555e2706d9d</chapterId>
 
 
 
@@ -2882,7 +2882,7 @@ Bitcoinのウサギの穴に落ちると、人生観が変わる。
 ## レビュー＆評価
 
 
-<chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
+<chapterId>692dfb93-db32-4ca4-9b18-f4daa83756f4</chapterId>
 
 
 <isCourseReview>true</isCourseReview>

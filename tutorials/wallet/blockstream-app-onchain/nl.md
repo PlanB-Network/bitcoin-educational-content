@@ -284,7 +284,7 @@ Om dit te doen, schrijven we een referentie op, verwijderen de Wallet, herstelle
 
 
 
-- Klik op het beginscherm van de Wallet op het tabblad 'Instellingen', vervolgens op 'Wallet Details' en kopieer de zPub ([extended public key](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602):
+- Klik op het beginscherm van de Wallet op het tabblad 'Instellingen', vervolgens op 'Wallet Details' en kopieer de zPub ([extended public key](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/0488ec38-da31-46a1-b31e-04b5c05fb6e8):
 
 
 

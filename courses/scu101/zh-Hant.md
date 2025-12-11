@@ -27,11 +27,11 @@ Théo；貢獻
 +++
 # 簡介
 
-<partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
+<partId>69253dd0-cac7-4c2d-9ad6-c0c3ccfae54e</partId>
 
 ## 課程簡介
 
-<chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
+<chapterId>72ea4d1a-4ae9-4fb3-a3ba-06b97108d430</chapterId>
 
 :::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
 
@@ -89,11 +89,11 @@ Théo；貢獻
 
 # 線上瀏覽的一切須知
 
-<partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
+<partId>5950eef8-521d-48c0-b576-d12140254cf7</partId>
 
 ## 線上瀏覽
 
-<chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
+<chapterId>fa07f1d8-2c4f-4c6b-a650-028b6a57f373</chapterId>
 
 :::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
 
@@ -141,7 +141,7 @@ https://planb.academy/tutorials/computer-security/communication/tor-browser-a847
 
 ## VPN 和網際網路連線
 
-<chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
+<chapterId>dc8072e2-b632-4f68-a2c6-f1d57bcef675</chapterId>
 
 :::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
 
@@ -180,11 +180,11 @@ https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5
 
 # 使用電腦的最佳做法
 
-<partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>
+<partId>b33d995e-8e58-4300-a41c-5ba658522fec</partId>
 
 ## 電腦使用
 
-<chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+<chapterId>138d2f90-de5c-4219-9020-fcd9177c0017</chapterId>
 
 :::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
@@ -238,7 +238,7 @@ https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5
 
 ## 駭客入侵與備份管理：保護您的資料
 
-<chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
+<chapterId>a26f8b7b-9845-4adc-bf9c-3750cd7d692c</chapterId>
 
 :::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
 
@@ -285,11 +285,11 @@ https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 # 實施解決方案。
 
-<partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
+<partId>2e302675-8b3b-4a67-a4d8-f93ec1f30f8a</partId>
 
 ## 管理電子郵件帳戶
 
-<chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+<chapterId>b4f36408-c028-4027-ae43-6f20eaef9c01</chapterId>
 
 :::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
 
@@ -325,7 +325,7 @@ https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b0
 
 ## 密碼管理員
 
-<chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+<chapterId>fcdebe4d-e2ee-495a-b0e7-ae967250866c</chapterId>
 
 :::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
@@ -376,7 +376,7 @@ https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb
 
 ## 雙因素驗證
 
-<chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+<chapterId>1dc6b743-c924-41b1-9ff7-1c49957521d4</chapterId>
 
 :::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
@@ -431,11 +431,11 @@ https://planb.academy/tutorials/computer-security/authentication/security-key-61
 
 # 實用部分
 
-<partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
+<partId>34bd8613-7cae-43af-84a3-69e6f32d56a2</partId>
 
 ## 設定信箱
 
-<chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
+<chapterId>2691865b-3a6b-4ef1-b2e7-b0214543cbb8</chapterId>
 
 保護您的電子郵件帳號是保障您的線上活動和個人資料安全的重要一步。本教程將逐步引導您建立和設定 ProtonMail 帳戶，ProtonMail 是一家以高度安全著稱的供應商，為您的通訊提供端對端加密。無論您是新手還是經驗豐富的用戶，這裡介紹的最佳做法將幫助您加強電子郵件的安全性，同時利用 ProtonMail 的先進功能：
 
@@ -443,7 +443,7 @@ https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b0
 
 ## 在 2FA 中確保安全
 
-<chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
+<chapterId>704df968-7c64-4f67-a90c-02f23969d308</chapterId>
 
 雙因素驗證 (2FA) 已經成為保護線上帳戶安全的必要條件。在本教程中，您將學習如何設定和使用 2FA 應用程式 Authy，它會產生動態 6 位數碼以保護您的帳戶。Authy 非常易於使用，並可在多部裝置間同步。瞭解如何安裝和設定 Authy，從而立即加強您線上帳戶的安全性：
 
@@ -455,7 +455,7 @@ https://planb.academy/tutorials/computer-security/authentication/security-key-61
 
 ## 建立密碼管理器
 
-<chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
+<chapterId>b8ac0984-b44d-4617-a25d-dba193741408</chapterId>
 
 密碼管理是數位時代的一大挑戰。我們都有許多線上帳號需要保護。密碼管理器可幫助您為每個帳戶建立並儲存強大且獨一無二的密碼。
 
@@ -469,7 +469,7 @@ https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb
 
 ## 保護您的帳戶
 
-<chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
+<chapterId>da53a2f8-a71a-405d-bb3f-45b794e3d489</chapterId>
 
 在這兩套教學中，我也會引導您保護線上帳號的安全，並解釋如何逐漸採用更安全的方式來管理您的日常密碼。
 
@@ -479,7 +479,7 @@ https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb
 
 ## 變更瀏覽器和 VPN
 
-<chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
+<chapterId>42a3ef5a-6819-417a-b09e-811c9032053e</chapterId>
 
 保護您的線上隱私也是確保安全的關鍵。使用 VPN 可作為達成此項目標的第一個解決方案。
 
@@ -495,7 +495,7 @@ https://planb.academy/tutorials/computer-security/communication/tor-browser-a847
 
 ## 備份設定
 
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+<chapterId>f79061e6-6125-46dd-a935-0f10741e1b38</chapterId>
 
 保護您的個人檔案也是非常重要的一點。本教程將教您如何使用 Proton Drive 實施有效的備份策略。了解如何使用此安全雲端解決方案來應用 3-2-1 方法：在兩種不同媒體上備份三份資料，並在異地備份一份。這可確保您敏感檔案的可存取性與安全性：
 
@@ -507,11 +507,11 @@ https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 # 更進一步
 
-<partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
+<partId>80c20a8c-ce97-45d2-8079-3ab461c2095d</partId>
 
 ## 如何在網路安全產業工作
 
-<chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
+<chapterId>bd32a678-d693-479f-b90a-faaf95a71a53</chapterId>
 
 :::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
 
@@ -552,7 +552,7 @@ https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 ## 專訪 Renaud
 
-<chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+<chapterId>a85280cb-cf59-4b76-a8d8-446871cd85fa</chapterId>
 
 :::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
@@ -594,12 +594,12 @@ Passkiz 是另一種可行且安全的密碼管理選擇。然而，一個主要
 
 ## 評論與評分
 
-<chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
+<chapterId>37e7d514-4dd7-4591-971e-04d6e3a4ae8f</chapterId>
 
 <isCourseReview>true</isCourseReview>
 ## 期末考試
 
-<chapterId>a894b251-a85a-5fa4-bf2a-c2a876939b49</chapterId>
+<chapterId>14c6a56a-39d3-4bda-92aa-aa3b6eaa7353</chapterId>
 
 <isCourseExam>true</isCourseExam>
 ## 總結

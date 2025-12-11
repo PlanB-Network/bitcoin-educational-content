@@ -56,13 +56,13 @@ Denna kurs har sponsrats av TETHER
 # Inledning
 
 
-<partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
+<partId>952e9c3d-4e88-44f8-942b-0b0643fee52e</partId>
 
 
 ## Kursöversikt
 
 
-<chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+<chapterId>3498530e-7910-4aa0-a2a9-63cca97c5d74</chapterId>
 
 Välkommen till ECO104-kursen!
 
@@ -129,13 +129,13 @@ Vi är glada över att ha dig med på denna resa in i djupet av vårt monetära 
 # Framstegets pris - En närmare titt på vårt finansiella system
 
 
-<partId>25ed8242-1b5a-5b53-b833-824b0dd80bcc</partId>
+<partId>a318d7e4-cb95-4016-9e4f-c4019c902b95</partId>
 
 
 ## En introduktion till pengar
 
 
-<chapterId>927ad49a-d8d6-5dd3-9250-cdcadcbf425e</chapterId>
+<chapterId>7ad6dcd5-339f-4d9e-a720-3d62e82408a9</chapterId>
 
 
 Pengar är en fascinerande och viktig del av vårt dagliga liv. Vi använder dem dagligen för att handla mat, betala räkningar och göra otaliga transaktioner. Men vad är pengar egentligen? I grund och botten är pengar helt enkelt ett medium för Exchange, ett verktyg som gör att vi kan byta varor och tjänster med varandra. Det är ett abstrakt begrepp som vi alla tar för givet, men som ändå är grundläggande för vårt ekonomiska system.
@@ -261,7 +261,7 @@ Från byteshandel till uppfinningen av mynt och pappersvaluta har pengar genomg�
 ## En undersökning av hur vi hamnade här
 
 
-<chapterId>4c8ebb36-a6d5-5637-93ca-9a4a222a1c58</chapterId>
+<chapterId>e9dc9f53-dcab-4469-a482-882e89dca77e</chapterId>
 
 
 Pengar har genomgått en fascinerande utveckling, från byteshandelns dagar till den moderna eran med digitala valutor. Våra förfäder använde snäckor, pärlor och till och med boskap som betalningsmedel för Exchange. Idag har vi virtuella plånböcker och kontaktlösa betalningar. Det är en anmärkningsvärd resa som har sett otaliga iterationer, avvägningar och anpassningar för att möta samhällets ständigt föränderliga behov.
@@ -478,7 +478,7 @@ När vi fortsätter vår utforskning av pengarnas värld är det viktigt att erk
 ## En titt på var vi befinner oss och vad vi kan förvänta oss framöver
 
 
-<chapterId>0c38e8fd-c973-57a5-a673-abec706f6054</chapterId>
+<chapterId>ce2d4ac3-d766-4d85-a796-0be14376702f</chapterId>
 
 
 Som vi diskuterade i föregående kapitel har pengar historiskt sett ofta backats upp av en råvara som guld. Fördelarna med detta kan inte överskattas. Det innebar inte bara att pengarnas värde var direkt knutet till råvarans värde, utan också att valutautgivaren, vanligtvis staten, var begränsad i hur mycket pengar den kunde trycka eftersom den var tvungen att skaffa mer guld.
@@ -689,7 +689,7 @@ När vi nu går vidare uppmuntrar vi er att närma er denna nya teknik med ett �
 ## Examen
 
 
-<chapterId>f25c229f-2af0-5324-bc40-e90f7668985a</chapterId>
+<chapterId>0240a320-fb4d-4150-acf6-0cd9c7570761</chapterId>
 
 
 Nu när du har gått igenom modulen "Framstegets pris" måste du testa dina nyvunna kunskaper för att försäkra dig om att du har förstått de sista avsnitten. Vi börjar med några öppna frågor och sedan en liten frågesport.
@@ -709,13 +709,13 @@ Nu när du har gått igenom modulen "Framstegets pris" måste du testa dina nyvu
 # Finansiell befrielse - En introduktion till Bitcoin
 
 
-<partId>c00843b2-bde3-57bb-ae2e-8ecad6631d71</partId>
+<partId>f66fdc60-a1a9-4a21-9242-d4f86af8c0e4</partId>
 
 
 ## Pionjärer, innovatörer och grunderna för Bitcoin
 
 
-<chapterId>37d779ce-46b5-56d1-91d8-d04442236e35</chapterId>
+<chapterId>03010901-b8d8-4e77-9d04-b9112fbabf6c</chapterId>
 
 
 Välkommen till modul två, där vi ska utforska den fascinerande världen av Bitcoin. Med utgångspunkt i vår förståelse av pengarnas historia kommer den här modulen att behandla följande ämnen:
@@ -870,7 +870,7 @@ Avslutningsvis, oavsett vem Satoshi Nakamoto är, är det obestridligt att uppfi
 ## Hur fungerar Bitcoin? De inre funktionerna i dessa magiska internetpengar
 
 
-<chapterId>b0f736fc-ed4d-5887-b22e-d958db9144d1</chapterId>
+<chapterId>293a9dd7-fa9d-49e1-aaba-2fa1f6c7e580</chapterId>
 
 
 Bitcoin kallas ofta för magiska internetpengar ... och det av en god anledning. Tänk på det - med Bitcoin kan du skicka värde till vem som helst, var som helst i världen, utan behov av en mellanhand som en bank eller regering. Det är som att ha kontroll över din egen personliga bank, makten att överföra pengar över gränser med bara några få klick på en knapp.
@@ -995,7 +995,7 @@ Var och en av dessa roller är avgörande för Bitcoin:s funktionalitet och fram
 ## Vad gör Bitcoin annorlunda än Fiat?
 
 
-<chapterId>5ef55778-cbcf-5c7e-960d-a2fcdf1a4006</chapterId>
+<chapterId>8ec83124-7544-4c76-8411-01c3ea32c126</chapterId>
 
 
 I det föregående avsnittet fördjupade vi oss i Bitcoin:s unika funktionalitet som skiljer den från traditionella valutor och hur Bitcoin uppnår den eftertraktade utmärkelsen att vara decentraliserad. Låt oss nu skifta fokus och utforska hur Bitcoin skiljer sig från fiat när det gäller de egenskaper som gör en valuta fantastisk. Endast genom att undersöka dessa nyckelegenskaper kan vi få en djupare förståelse för varför Bitcoin är unik och i en egen värld när det gäller pengar.
@@ -1153,7 +1153,7 @@ Dessutom positionerar dessa kombinerade attribut inte bara Bitcoin som ett kraft
 ## Interagerar med Bitcoin
 
 
-<chapterId>050a95af-e9c2-5ec3-b9c8-55ec174d309c</chapterId>
+<chapterId>898af852-84f8-45b8-b3e9-2adf85bb8576</chapterId>
 
 
 Bitcoin har tagit det monetära systemet med storm och fångat uppmärksamheten hos både utvecklingsländer, tekniskt kunniga individer och investerare. Men med sin snabba tillväxt undrar många hur denna digitala tillgång kan konkurrera med traditionella betalningsmetoder som Visa och Mastercard. Dessutom är individer nyfikna på hur de personligen kan engagera sig med Bitcoin.
@@ -1316,7 +1316,7 @@ Bitcoin:s största fördel är att den gör det möjligt för oss att ha egen v�
 ## Examen
 
 
-<chapterId>1c7b8165-d67b-5f7c-a1cb-b83db58b77c7</chapterId>
+<chapterId>a51bed11-0894-49a4-878f-9f31d79d7f9e</chapterId>
 
 
 Nu när du har gått igenom modulen "En undersökning av hur vi hamnade här" måste du testa dina nyvunna kunskaper för att försäkra dig om att du har förstått de sista avsnitten. Vi börjar med några öppna frågor och sedan ett litet frågeformulär.
@@ -1338,13 +1338,13 @@ Nu när du har gått igenom modulen "En undersökning av hur vi hamnade här" m�
 # Stabilitet mitt i kaoset - En introduktion till Tether och världen av stabila mynt
 
 
-<partId>60b1f3c4-e161-53fe-84ca-88d8cd62aa75</partId>
+<partId>bc2fa7dd-b3a8-430a-8cba-97faae477137</partId>
 
 
 ## En introduktion till Tether och världen av stabila mynt
 
 
-<chapterId>427a72b5-8af7-503e-bc45-bb8b95483993</chapterId>
+<chapterId>65302477-a5c2-4555-b546-e4051066e1b1</chapterId>
 
 
 Som tidigare nämnts har pengar varit en viktig del av mänsklighetens liv i tusentals år. De har hjälpt oss att köpa varor och tjänster, gjort det möjligt för oss att handla med varandra och hjälpt oss att lagra förmögenhet.
@@ -1443,7 +1443,7 @@ oroa dig inte om några av de här termerna inte är helt begripliga. Vi kommer 
 ## Historia om stabila mynt
 
 
-<chapterId>174e2cab-ef14-5e14-99c8-8457b6fc5fee</chapterId>
+<chapterId>e6bb95e1-5ba1-40d0-8b4a-3e6c1d1dd0a3</chapterId>
 
 
 Stablecoins har blivit ett populärt ämne i kryptovalutavärlden och erbjuder ett mindre volatilt alternativ på kort sikt till kryptovalutor som Bitcoin. Som beskrivet i introduktionen till denna modul är stablecoins digitala tillgångar som är kopplade till en stabil tillgång som fiatvaluta eller ädelmetaller, utformade för att upprätthålla ett stabilt värde. Låt oss därför utforska stablecoins historia och titta närmare på några av de första stablecoins, inklusive Tethers USDt, den mest välkända och mest använda stablecoin.
@@ -1485,7 +1485,7 @@ Sammanfattningsvis har stablecoins kommit en lång väg sedan starten. Från de 
 ## Kännetecken för stabila mynt
 
 
-<chapterId>21765df7-53fd-58af-9df6-7208027a0c3a</chapterId>
+<chapterId>36e0ab1f-a3fe-42c1-8400-55fb770d9bf3</chapterId>
 
 
 Som borde vara uppenbart vid det här laget är en stablecoin en typ av digital token som är utformad för att upprätthålla ett stabilt värde baserat på en underliggande pegged asset. Dessa tillgångar kan inkludera fiatvaluta, ädelmetaller, råvaror eller en kombination av dessa (t.ex. en korg av fiatvalutor).
@@ -1619,7 +1619,7 @@ Sammanfattningsvis erbjuder stablecoins en bro mellan den traditionella världen
 ## Fördelar med Tether's Stablecoin-erbjudanden
 
 
-<chapterId>a6806b45-b92e-5791-8f5f-804098a522b2</chapterId>
+<chapterId>6a1aef8e-3fdf-426b-901c-6e1a26b6ad88</chapterId>
 
 
 Möt Adanna, en ung kvinna som bor i en afrikansk by på landsbygden där CFA-francen, som har förlorat hisnande [99,5%](https://bitcoinmagazine.com/culture/Bitcoin-a-currency-of-decolonization) av sin köpkraft under de senaste 70 åren, är den enda tillgängliga valutan - vilket gör det omöjligt att spara.
@@ -1810,7 +1810,7 @@ Sammantaget har stablecoins, som USDt och XAUt, potential att förändra livet f
 ## Examen
 
 
-<chapterId>1294d874-6edb-5feb-b070-0ead1836bd0b</chapterId>
+<chapterId>7abbc2a0-f98d-40a9-80ae-1cc397027cdc</chapterId>
 
 
 Nu när du har gått igenom modulen "Stabilitet mitt i kaos" måste du testa dina nyvunna kunskaper för att försäkra dig om att du har förstått de sista avsnitten. Vi börjar med några öppna frågor och sedan en liten frågesport.
@@ -1830,13 +1830,13 @@ Nu när du har gått igenom modulen "Stabilitet mitt i kaos" måste du testa din
 # Övervinna tvivel - Avslöja vanliga missuppfattningar och användningsfall i verkliga världen
 
 
-<partId>246a7dc0-a203-5b2e-ae13-9c8f08e6bfad</partId>
+<partId>5e3f28ec-ff90-4272-af00-724e0ced0765</partId>
 
 
 ## Missuppfattningar
 
 
-<chapterId>4da9319d-6306-500f-adbb-5fa31c673cd2</chapterId>
+<chapterId>c48b4889-5972-4139-b928-b56fb88b28d5</chapterId>
 
 
 Bitcoin har omgetts av mothugg, kritik och missuppfattningar sedan den föddes 2009. Trots dess växande popularitet och användning anser många fortfarande att det är en bubbla som väntar på att spricka. På samma sätt har stablecoins väckt liknande uppmärksamhet och skepticism. Idén om en valuta som backas upp av en stabil tillgång låter lovande, men många missförstår hur stablecoins fungerar och deras potentiella påverkan på det finansiella systemet.
@@ -2315,7 +2315,7 @@ I slutändan ligger framtiden för decentraliserad finansiering hos dem som är 
 ## Roya Mahboob
 
 
-<chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
+<chapterId>e76ef439-44db-4cf4-b660-0ed33d913989</chapterId>
 
 
 I dagens globaliserade värld är tillgång till finansiella tjänster en kritisk komponent för ekonomiskt deltagande och oberoende. Trots detta är alltför många människor fortfarande utestängda från det traditionella banksystemet, och det är ofta kvinnor som drabbas hårdast av denna utestängning. Det är chockerande att trots att en onödig [en fjärdedel] (https://www.worldbank.org/en/publication/globalfindex) av världens befolkning saknar tillgång till banktjänster, saknar [36,5%] (https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) av kvinnorna i länder som Saudiarabien tillgång till grundläggande banktjänster, vilket hindrar dem från att fullt ut delta i landets ekonomi och samhälle.
@@ -2389,7 +2389,7 @@ Sammantaget har Bitcoin varit ett kraftfullt verktyg för att stärka kvinnors e
 ## Mercedes
 
 
-<chapterId>dfa10b75-19f6-578a-9d14-a0a541806076</chapterId>
+<chapterId>a897e855-f7a6-406c-a5b9-7cc6783e2ddd</chapterId>
 
 
 Mercedes föddes i Mexiko 1949 under fattiga förhållanden och fick tidigt uppleva de stora orättvisor som präglade samhället. Under hela sin barndom ställdes hon inför många utmaningar, bland annat regeringens förtryck av studentrörelser och den unika kamp som kvinnor som lever i fattigdom måste utkämpa. Den stora klyftan mellan rika och fattiga, i kombination med begränsad tillgång till utbildning av hög kvalitet, gjorde dessutom att hennes familj och otaliga andra fastnade i fattigdom. Frustrerad över dessa orättvisor sökte sig Mercedes till marxismen (kommunismen) och förespråkade sociala förändringar och ekonomiska reformer.
@@ -2422,7 +2422,7 @@ Mercedes liv har varit en otrolig resa, och Bitcoin:s inverkan på hennes liv ä
 ## Stablecoin berättelser
 
 
-<chapterId>7b6d8d57-905d-5168-9be6-3df7c938de2a</chapterId>
+<chapterId>d22acc57-2b00-4a51-96b0-a350814f87d5</chapterId>
 
 
 När vi närmar oss slutet av den här kursen vill vi presentera en samling inspirerande stablecoin-berättelser. Dessa vittnesmål visar upp verkliga erfarenheter från individer, företagare och företag som har utnyttjat kraften i stablecoins för att lyfta sina liv.
@@ -2568,7 +2568,7 @@ Vi hoppas att du har funnit dessa berättelser inspirerande. Med detta sagt bör
 ## Examen
 
 
-<chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
+<chapterId>002220e4-069b-4367-b153-ca19029412de</chapterId>
 
 
 Nu när du har gått igenom modulen "Att övervinna tvivel" måste du testa dina nyvunna kunskaper för att försäkra dig om att du har förstått de sista avsnitten. Vi börjar med några öppna frågor och sedan en liten frågesport.
@@ -2588,7 +2588,7 @@ Nu när du har gått igenom modulen "Att övervinna tvivel" måste du testa dina
 ## Avslutande kommentarer
 
 
-<chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
+<chapterId>1896c6b1-77d7-45bb-a798-bcdd27deb18b</chapterId>
 
 
 Gratulerar till att du har kommit till slutet av kursen! Du har kommit en lång väg. Under den här resan har vi fördjupat oss i ett brett spektrum av ämnen, inklusive:
@@ -2632,7 +2632,7 @@ Framtiden är ljus!
 ## Recensioner & betyg
 
 
-<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
+<chapterId>1ec641d0-0421-404b-88d3-bac725aca9dc</chapterId>
 
 <isCourseReview>true</isCourseReview>
 

@@ -27,7 +27,7 @@ El diagrama siguiente ilustra el funcionamiento de una cartera con dos vías de 
 Esta operación permite establecer varias configuraciones, entre ellas :
 
 
-- Un plan de sucesión (o herencia), que permite a los herederos recuperar los fondos en caso de fallecimiento del usuario. Para más información sobre este tema, recomendamos la lectura de la [parte 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) del curso BTC102.
+- Un plan de sucesión (o herencia), que permite a los herederos recuperar los fondos en caso de fallecimiento del usuario. Para más información sobre este tema, recomendamos la lectura de la [parte 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/dcec2c9c-f5d9-4d47-977d-d21c5bff05cb) del curso BTC102.
 - Una copia de seguridad reforzada con un tiempo de recuperación, dando al usuario la posibilidad de utilizar su monedero sin tener que guardar la frase secreta correspondiente y arriesgarse a que se la roben, durante un robo por ejemplo.
 - Una red de seguridad para las personas que se inician en Bitcoin: gestionarán su propio monedero, y su "tutor" (un familiar, por ejemplo) se reservará el derecho a recuperar sus fondos tras un periodo determinado.
 - Un esquema de firma multiparte (*multisig*) con requisitos reducidos en el tiempo, para hacer frente a la desaparición de uno o más de los participantes, como los socios de una empresa.

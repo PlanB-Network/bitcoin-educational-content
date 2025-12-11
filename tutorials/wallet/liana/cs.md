@@ -27,7 +27,7 @@ Níže uvedený diagram znázorňuje fungování portfolia se dvěma výdajovým
 Tato operace umožňuje nastavit různé konfigurace, včetně :
 
 
-- Dědický plán, který umožňuje dědicům získat zpět finanční prostředky v případě úmrtí uživatele. Další informace k tomuto tématu doporučujeme přečíst v [části 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) kurzu BTC102.
+- Dědický plán, který umožňuje dědicům získat zpět finanční prostředky v případě úmrtí uživatele. Další informace k tomuto tématu doporučujeme přečíst v [části 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/dcec2c9c-f5d9-4d47-977d-d21c5bff05cb) kurzu BTC102.
 - Posílená záloha s dobou obnovy, která uživateli dává možnost používat peněženku, aniž by musel uchovávat příslušnou tajnou frázi a riskovat její odcizení, například při vloupání.
 - Bezpečnostní síť pro lidi, kteří s bitcoiny začínají: budou spravovat svou vlastní peněženku a jejich "opatrovník" (například příbuzný) si vyhradí právo získat jejich prostředky po určité době zpět.
 - Podpisové schéma pro více účastníků (*multisig*) se sníženými požadavky v čase, aby bylo možné se vypořádat se zánikem jednoho nebo více účastníků, například partnerů společnosti.

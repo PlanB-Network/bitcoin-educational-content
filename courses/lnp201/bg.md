@@ -75,13 +75,13 @@ Lightning Network не се ограничава до отделни канал�
 # Основите
 
 
-<partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>
+<partId>c4db4d33-823f-4aad-b5ee-77a9a85447eb</partId>
 
 
 ## Разбиране на Lightning Network
 
 
-<chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
+<chapterId>0760bdb2-5907-4dc1-8fc1-ebe7f05149d4</chapterId>
 
 
 :::video id=4315a277-12fe-4946-bb49-a807e60c09a7:::
@@ -164,7 +164,7 @@ Lightning Network е мрежа от платежни канали, изград
 ## Bitcoin, адреси, UTXO и транзакции
 
 
-<chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
+<chapterId>24cfbaa4-a8fb-4b76-b755-490b1c61af77</chapterId>
 
 
 :::video id=75323eef-ea03-45ac-9a6e-46d73ca255de:::
@@ -256,13 +256,13 @@ UTXOs не могат да бъдат разделяни. Всеки път, к�
 # Отваряне и затваряне на канали
 
 
-<partId>900b5b6b-ccd0-5b2f-9424-4b191d0e935d</partId>
+<partId>22976fdf-b923-42f1-bfb4-d84fc763e88c</partId>
 
 
 ## Отваряне на канала
 
 
-<chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
+<chapterId>7b137f2e-af9c-4bc9-8ffe-777ff7bc7eed</chapterId>
 
 
 :::video id=6098fee1-735e-4d8d-9f57-0faf5fef6d76:::
@@ -363,7 +363,7 @@ UTXOs не могат да бъдат разделяни. Всеки път, к�
 ## Commitment Transaction
 
 
-<chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
+<chapterId>05a128ec-a6df-43b4-a3fe-9f1efab57fbd</chapterId>
 
 
 :::video id=c17454f3-14c5-47a0-8c9c-42ee12932bd3:::
@@ -451,7 +451,7 @@ UTXOs не могат да бъдат разделяни. Всеки път, к�
 ## Ключ за отмяна
 
 
-<chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
+<chapterId>be1ec347-83fa-404d-af47-7f352c629aa5</chapterId>
 
 :::video id=1d850f23-eff1-4725-b284-ce12456a2c26:::
 В тази глава ще навлезем по-дълбоко в начина на работа на транзакциите в Lightning Network, като обсъдим механизмите за защита от измами, гарантиращи, че всяка страна спазва правилата в канала.
@@ -570,7 +570,7 @@ UTXOs не могат да бъдат разделяни. Всеки път, к�
 ## Затваряне на канала
 
 
-<chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
+<chapterId>84258cba-f143-47fd-ae8c-a589cc28cedf</chapterId>
 
 
 :::video id=4d8ad4e6-32ff-46d3-bd17-343929aa863b:::
@@ -697,13 +697,13 @@ UTXOs не могат да бъдат разделяни. Всеки път, к�
 # Мрежа за ликвидност
 
 
-<partId>a873f1cb-751f-5f4a-9ed7-25092bfdef11</partId>
+<partId>b4305510-2b99-4c35-9cbf-738bfdc89d8d</partId>
 
 
 ## Lightning Network
 
 
-<chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
+<chapterId>4b4f4111-398e-491f-8a75-1be65b4c9719</chapterId>
 
 
 :::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
@@ -886,7 +886,7 @@ $$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \a
 ## HTLC - Заключено време на хеширане Contract
 
 
-<chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
+<chapterId>96e7f2b1-8f53-4848-9d2d-f3d4b1c39e0e</chapterId>
 
 
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
@@ -1066,7 +1066,7 @@ HTLC позволяват маршрутизирането на светкави
 ## Намиране на пътя
 
 
-<chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
+<chapterId>673e3d66-ade1-4321-8388-a940e661b66a</chapterId>
 
 
 :::video id=e5baa834-111d-46f5-a28b-3538bed2bbb0:::
@@ -1191,13 +1191,13 @@ Alice решава да изпробва първия си маршрут (`Alic
 # Инструментите на Lightning Network
 
 
-<partId>74d6c334-ec5d-55d9-8598-f05694703bf6</partId>
+<partId>e28a697b-74ff-4a09-bd83-41a02b992517</partId>
 
 
 ## Invoice, LNURL и Keysend
 
 
-<chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
+<chapterId>eadaa33c-0da9-4031-ab9f-e119226a1652</chapterId>
 
 :::video id=309c3412-506e-4189-ad46-5e5088c55008:::
 
@@ -1361,7 +1361,7 @@ LNURL е протокол за комуникация, който определ
 ## Управление на ликвидността
 
 
-<chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
+<chapterId>56d28137-25fc-4164-b54f-95ef445ae187</chapterId>
 
 
 :::video id=96096aef-e4ce-4c44-a022-57e27082232a:::
@@ -1467,14 +1467,14 @@ LNURL е протокол за комуникация, който определ
 # Продължете напред
 
 
-<partId>6bbf107d-a224-5916-9f0c-2b4d30dd0b17</partId>
+<partId>a0323bbb-7f6a-4020-8aa9-5290ac76156c</partId>
 
 
 ## Резюме на курса
 
 
 
-<chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
+<chapterId>80b02339-681e-4c6d-8008-0dc8e1a1c5b5</chapterId>
 
 
 :::video id=5f4f4344-ef27-4765-8f09-8262e6833bde:::
@@ -1572,20 +1572,20 @@ LNURL е протокол за комуникация, който определ
 ## Отзиви и оценки
 
 
-<chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
+<chapterId>174d014a-8f5b-4285-b70b-802dd00028b9</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Финален изпит
 
 
-<chapterId>7ed33400-aef7-5f3e-bfb1-7867e445d708</chapterId>
+<chapterId>51117a58-542c-4146-bf95-c19f88860120</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## Заключение
 
 
-<chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
+<chapterId>da9ed31b-b8c0-45de-b2a8-2bb5a74dd812</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

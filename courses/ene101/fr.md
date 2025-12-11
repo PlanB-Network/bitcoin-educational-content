@@ -18,11 +18,11 @@ Ouvert à toute personne curieuse de découvrir les fondements scientifiques et 
 
 # Bitcoin et énergie
 
-<partId>93512beb-977a-56f3-b5b0-e42bd6af2481</partId>
+<partId>db50bcb9-6d75-49b8-9f9e-f301053381f1</partId>
 
 ## Introduction
 
-<chapterId>768d6809-d81f-5cd0-ab0e-1a2ac3637256</chapterId>
+<chapterId>fcf7a91a-bb18-47be-996e-edc3ba09ef4d</chapterId>
 
 Merci de vous joindre à notre séminaire **Les Fondements thermodynamiques de Bitcoin** !
 
@@ -42,7 +42,7 @@ Voici tout ce que vous devez savoir pour participer :
 
 ## Énergie, valeur et rareté
 
-<chapterId>48a0f282-3e62-5acb-8519-f175a9e29acc</chapterId>
+<chapterId>b949d054-d806-41a6-a061-067c0edf6a96</chapterId>
 
 <releasePlace>Paris, France</releasePlace>
 <isOnline>false</isOnline>
@@ -58,7 +58,7 @@ Ce module explore les liens fondamentaux entre l'énergie et la valeur monétair
 
 ## Entropie, données et informations
 
-<chapterId>0bbef905-0438-54b7-b590-1041c8fe2db3</chapterId>
+<chapterId>ef9284ae-8d00-4a9c-908c-e4917248c517</chapterId>
 
 <releasePlace>Paris, France</releasePlace>
 <isOnline>false</isOnline>
@@ -74,11 +74,11 @@ L'entropie, mesure du désordre dans un système, est au cœur de la sécurité 
 
 # Les propriétés de Bitcoin
 
-<partId>404f9302-34d4-5023-9d26-5d7ad069d83a</partId>
+<partId>75af9598-6783-4646-be36-0ae4f4c5c471</partId>
 
 ## Proof of Work vs Proof of Stake
 
-<chapterId>2b3e3285-876d-5382-8f32-b9f1216641cc</chapterId>
+<chapterId>229980dd-50d7-40cb-b11c-807d26979eaa</chapterId>
 
 <releasePlace>Paris, France</releasePlace>
 <isOnline>false</isOnline>
@@ -94,7 +94,7 @@ Ce module compare les deux principaux mécanismes de consensus : le Proof of Wor
 
 ## Décentralisation
 
-<chapterId>55f6ec48-8dad-5677-9ff6-1309c263a468</chapterId>
+<chapterId>2fc2698b-6531-4b8c-a89d-e98114077013</chapterId>
 
 <releasePlace>Paris, France</releasePlace>
 <isOnline>false</isOnline>
@@ -110,7 +110,7 @@ La décentralisation est le contre-pouvoir à la surveillance de masse dans la t
 
 ## Confidentialité
 
-<chapterId>c42756b9-787a-5f37-92fa-4b713fb0119f</chapterId>
+<chapterId>50146ffc-bf3e-4d56-9a00-ad9a93343b66</chapterId>
 
 <releasePlace>Paris, France</releasePlace>
 <isOnline>false</isOnline>
@@ -126,11 +126,11 @@ La confidentialité est essentielle dans un monde numérique où les données pe
 
 # Bitcoin et la concurrence
 
-<partId>ead88722-7c66-5151-aa52-ccb051a80d37</partId>
+<partId>78335cd3-a8ad-45d3-84ce-1a421e54f53c</partId>
 
 ## Systèmes fiduciaires et préférence temporelle
 
-<chapterId>74c97d84-0991-5053-b6a7-eff8872a45a0</chapterId>
+<chapterId>44737e5a-1379-410b-8588-b33d07ddc5a1</chapterId>
 
 <releasePlace>Paris, France</releasePlace>
 <isOnline>false</isOnline>
@@ -146,7 +146,7 @@ Ce module explore les limites des systèmes monétaires fiduciaires basés sur l
 
 ## Argent et systèmes de paiement
 
-<chapterId>432ecc10-d13a-59a0-a967-2e10c7be45b6</chapterId>
+<chapterId>0aa689bd-cbcd-4325-b3ec-7ece7a25b1f2</chapterId>
 
 <releasePlace>Paris, France</releasePlace>
 <isOnline>false</isOnline>
@@ -162,7 +162,7 @@ Distinguer l'argent (réserve de valeur) des systèmes de paiement (moyen d'éch
 
 ## Dénationalisation de la monnaie
 
-<chapterId>eeb32130-24f4-5d4a-bf78-ece0d4ddb2ac</chapterId>
+<chapterId>f4888d13-d536-449d-930e-8d9a427cbef7</chapterId>
 
 <releasePlace>Paris, France</releasePlace>
 <isOnline>false</isOnline>
@@ -177,7 +177,7 @@ Friedrich Hayek, économiste de l'école autrichienne, préconisait la concurren
 
 ## Bitcoin vs Altcoins
 
-<chapterId>3860b6d4-4161-5c55-bf31-927f3f556967</chapterId>
+<chapterId>a7ac52b3-fa7a-4d19-910d-c3ec1f3a8d9f</chapterId>
 
 <releasePlace>Paris, France</releasePlace>
 <isOnline>false</isOnline>
@@ -193,16 +193,16 @@ Le marché des cryptomonnaies compte des milliers d'altcoins. Ce module analyse 
 
 # Conclusion
 
-<partId>41c3e3a3-9f0e-53d3-9b24-6e3887184424</partId>
+<partId>95b30595-1256-4108-866c-dba1576965bd</partId>
 
 ## Avis et évaluations
 
-<chapterId>d36e562c-67da-5d42-9943-c3d9dcd0eab2</chapterId>
+<chapterId>99115911-75b6-49c8-8311-d73c16fc8a71</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Conclusion
 
-<chapterId>b7d3fe62-9d6f-5d93-a831-47b18d5af038</chapterId>
+<chapterId>9d44fb86-ff2c-4247-bf4d-e2a68a69071f</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

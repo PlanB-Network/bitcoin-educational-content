@@ -49,11 +49,11 @@ Ready to embark on this unique philosophical journey on the quest for freedom? L
 
 # Freedom or Power
 
-<partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
+<partId>eb73b29a-4ff8-41b9-a9fb-14144dddf777</partId>
 
 ## There are only two political philosophies
 
-<chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
+<chapterId>a18f06f4-e271-4f16-8492-3a2be6b27eb4</chapterId>
 
 :::video id=d21788a4-3b99-48b7-ac1a-24d5913af893:::
 
@@ -115,7 +115,7 @@ From this perspective, the legislator's mission is to organize, modify, or even 
 
 ## Frédéric Bastiat: production versus spoliation
 
-<chapterId>5a8a3452-9970-51a0-a5ea-f367b63137bc</chapterId>
+<chapterId>ba6961fd-d59c-4d92-b362-2193a4a83be6</chapterId>
 
 :::video id=a18fd72d-34fd-41e5-a7db-770abdde79fa:::
 
@@ -175,7 +175,7 @@ A few days before he died in Rome in 1850, Bastiat confided to his friend Prospe
 
 ## Lord Acton: Freedom is the Engine of History
 
-<chapterId>de971d92-4e26-5870-a961-18dfa06497cf</chapterId>
+<chapterId>f238eb34-ccfd-4f6e-94ab-1a8e546da2f8</chapterId>
 
 :::video id=72ae49f1-30b8-4d9c-ba2c-32f157954c88:::
 
@@ -220,7 +220,7 @@ This thesis is also found in a monumental work dating from 1983: _Law and Revolu
 
 ## Marx: History as Class Struggle
 
-<chapterId>438100e6-a385-55c6-b2c5-ad192c564757</chapterId>
+<chapterId>662b6aaf-aec3-4385-8846-ff11ad612699</chapterId>
 
 :::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
 
@@ -289,7 +289,7 @@ In conclusion to this chapter, Europe's economic and cultural takeoff was not du
 
 ## Murray Rothbard: State versus Society
 
-<chapterId>5a0020ca-2bbd-5e09-8389-d57c57542cb2</chapterId>
+<chapterId>5dfd7a7d-8b1f-4f54-8923-12ae97fd5fed</chapterId>
 
 :::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
 
@@ -344,11 +344,11 @@ And he adds:
 
 # The origins of freedom: Antiquity
 
-<partId>d7a9d251-6d44-5f2f-9cc5-88796c84f61b</partId>
+<partId>6b87bb71-9a47-4f08-874c-64164b1cc007</partId>
 
 ## The invention of critical rationality by the Greeks
 
-<chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
+<chapterId>248bacf3-d14b-49fb-b5fc-e6fb31fbb9dd</chapterId>
 
 :::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
 
@@ -443,7 +443,7 @@ The only means we have to approach the truth are criticism and discussion. From 
 
 ## The invention of law by the Romans
 
-<chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
+<chapterId>e671bb17-afc1-4dd4-82a9-33899fc009e6</chapterId>
 
 :::video id=ad8c92c1-5960-4607-b277-ce5e61e80b36:::
 
@@ -548,7 +548,7 @@ Asserting that law cannot be reduced to merely the statutes enacted by the legis
 
 ## The Fall of Rome
 
-<chapterId>1b0f3de8-696a-5dbc-bb5e-e03ddafb4ebf</chapterId>
+<chapterId>9bf1f923-0758-4e8b-9743-570bdc6c263e</chapterId>
 
 :::video id=65ae0d54-7319-4913-b69a-5f5c842e40fa:::
 
@@ -620,11 +620,11 @@ And he adds:
 
 # The origins of freedom: the Middle Ages
 
-<partId>f47bd5fc-c4a7-5d3b-b102-7b948bb43268</partId>
+<partId>bf426f6e-c73c-4477-a10f-ac09eadc101a</partId>
 
 ## The affirmation of human freedom
 
-<chapterId>96ca5622-f8e4-58ef-b358-7f7d25543104</chapterId>
+<chapterId>f0ae8276-7d47-42f7-80db-fbe25c744971</chapterId>
 
 :::video id=c0dd7eb3-cacb-4614-9650-088436a352a8:::
 
@@ -679,7 +679,7 @@ According to Saint Thomas:
 
 ## Reason and faith: an open competition
 
-<chapterId>ca379c2e-57cb-541d-8ddb-4b925032a779</chapterId>
+<chapterId>23e2ec5c-02f0-4f42-90ec-4a2e4a9e80d6</chapterId>
 
 :::video id=49baeb92-3504-45a0-8e51-fab8ddceb1f2:::
 
@@ -719,7 +719,7 @@ From then on, religious rationalism would definitively prevail over mysticism.
 
 ## Religion and Politics: The Birth of the Sovereign State
 
-<chapterId>a925ea80-9f66-5f0b-8ab0-f428ae5c12dc</chapterId>
+<chapterId>fb3b1f24-9ff4-4e01-b82c-2396611bd11b</chapterId>
 
 :::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
 
@@ -758,7 +758,7 @@ The Church's theocratic temptation also clashes with the theory of "divine right
 
 ## Biblical Ethics: The Sacred Value of the Individual
 
-<chapterId>7a27494d-8481-52ea-a551-e430bdb5315f</chapterId>
+<chapterId>b2f4b6e7-1100-419a-a895-2439b276ca98</chapterId>
 
 :::video id=3d55d74e-195e-48f7-86ef-b4ceeb4ba77e:::
 
@@ -795,7 +795,7 @@ The idea of humanity progresses. It effectively came to be considered that there
 
 ## The First Sketches of Capitalism
 
-<chapterId>236bdeeb-7bd3-536a-9df1-8791800bf31e</chapterId>
+<chapterId>3470d8a8-f65a-43f1-92bd-ad8c12934596</chapterId>
 
 :::video id=ad63fa9b-569b-460d-b221-5391a4e576d2:::
 
@@ -861,11 +861,11 @@ Moreover, if two different currencies benefit from legal tender, agents will hoa
 
 # The Rise of Freedom: From the Renaissance to the Enlightenment
 
-<partId>58793f94-f217-530a-a877-b5b6df70a5fe</partId>
+<partId>09abb6da-5b83-4f5f-a4c4-2b0d2d4a096c</partId>
 
 ## Plea for Religious Tolerance
 
-<chapterId>c4c9a729-4a0f-5814-8e32-9aff4d373018</chapterId>
+<chapterId>98e27daa-423b-463c-beb8-12e2518fb86c</chapterId>
 
 :::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
 
@@ -923,7 +923,7 @@ In other words, being tolerant does not mean being hostile to religion. It means
 
 ## Plea for Economic Freedom
 
-<chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
+<chapterId>b2f72175-3269-42fc-b7d5-df6ac068462a</chapterId>
 
 :::video id=bede59ca-934d-4120-b023-1b7d1d112ad7:::
 
@@ -988,7 +988,7 @@ In short, if everyone can freely pursue their private interest in respect of nat
 
 ## A Key Year for the Free World: 1776
 
-<chapterId>c1ba85f8-e8d1-5794-b198-8c683efb0d9b</chapterId>
+<chapterId>6aa1cd9d-0c44-4c46-b84a-901e92240052</chapterId>
 
 :::video id=433b758e-648f-4e13-8aba-3ac7d302f8b4:::
 
@@ -1091,7 +1091,7 @@ The concept of spontaneous order became a key idea in the work of Friedrich Haye
 
 ## The Age of Revolutions
 
-<chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
+<chapterId>f97511d7-3e8f-4548-81e8-72ea1c6afa76</chapterId>
 
 :::video id=acf98b8e-b8df-45d5-86d7-f48a05c19995:::
 
@@ -1184,11 +1184,11 @@ This is, moreover, the meaning of the remark by Friedrich Hayek in his book _The
 
 # Apogee and Decline: From the 19th to the 20th Century
 
-<partId>39810d57-19e3-5166-8f2e-40b763154148</partId>
+<partId>03c5d5ab-2ef2-4df9-ab8b-c1c704cd9f63</partId>
 
 ## The Liberty of the Moderns
 
-<chapterId>e575f4c1-7144-591b-ab98-d976ec4102fb</chapterId>
+<chapterId>9c4f6ce2-44a3-40bf-90fc-da784b11bd10</chapterId>
 
 :::video id=1356c0eb-806d-4914-8885-0eada01d9580:::
 
@@ -1242,7 +1242,7 @@ In other words, in a free society, it is necessary to establish a strict boundar
 
 ## Strengths and Weaknesses of Democracy
 
-<chapterId>753e065d-dbee-5d61-aa56-b1c074c95499</chapterId>
+<chapterId>5dd4c01a-b23f-4b22-89fa-3af8c3d4620b</chapterId>
 
 :::video id=81dba30f-446b-4baa-9dc6-39aa297f741c:::
 
@@ -1320,7 +1320,7 @@ Take a look at the globe. Which are the happiest, most moral, and most peaceful 
 
 ## The Marxist Critique of Capitalism
 
-<chapterId>16c82521-7c51-5d84-b660-0b358447e3bd</chapterId>
+<chapterId>8709122b-a005-4a10-aa57-74d53ea5cdc1</chapterId>
 
 :::video id=4c62c361-923f-47f0-be3f-3798bbc37e57:::
 
@@ -1351,7 +1351,7 @@ Political revolution is, therefore, an illusion, according to him, as long as it
 
 ## The Austrian Critique of Marxism
 
-<chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
+<chapterId>cf2d77fa-badd-4acf-bc30-f272d625f0b5</chapterId>
 
 :::video id=0c740114-faff-400a-9359-d4b81766f246:::
 
@@ -1412,7 +1412,7 @@ As early as 1922, in his book _Socialism,_ Ludwig von Mises demonstrated that so
 
 ## The Road to Serfdom
 
-<chapterId>3f92f346-3062-5f76-8c54-3a9075e2b030</chapterId>
+<chapterId>ad0d1e04-1523-4a6c-8197-4c6979928006</chapterId>
 
 :::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
 
@@ -1453,11 +1453,11 @@ In conclusion, Hayek calls on his contemporaries to turn their backs on the "mad
 
 # The Rise of the Welfare State in the 20th Century
 
-<partId>49e581cb-3dca-5f10-ac34-5b4cbd3d7c36</partId>
+<partId>2b26980a-100e-4e07-98a0-cfc0bcdb59ed</partId>
 
 ## The Triumph of Keynes
 
-<chapterId>f40fc495-bcf7-5b7a-95ad-3a3ccba3e3ba</chapterId>
+<chapterId>88d12167-51cf-44b1-8e94-f70f39befa54</chapterId>
 
 :::video id=563102d8-ee0c-4c8d-b592-dabb8a395403:::
 
@@ -1520,7 +1520,7 @@ No religion has spread across the world as quickly as that of employment. Driven
 
 ## Abandoning the Gold Standard
 
-<chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
+<chapterId>9a541f71-554c-4673-a234-5f09a4b23aa7</chapterId>
 
 :::video id=99ab9658-dbc6-4f7e-87b6-a43debfd1969:::
 
@@ -1585,7 +1585,7 @@ Hayek believed that a free market of private currencies would lead to greater mo
 
 ## Conclusion: the power of ideas
 
-<chapterId>50676155-c071-5bee-a14e-0c251f0375da</chapterId>
+<chapterId>3f7f307e-6eb8-43fe-9dbb-d023d5fe25ac</chapterId>
 The crisis we are going through is a crisis of civilization, that is, an intellectual crisis with moral, political, and economic consequences.
 
 ![image](assets/en/102.webp)

@@ -15,12 +15,12 @@ Materiał jest zaprojektowany dla uczących się na wszystkich poziomach i równ
 +++
 # Wprowadzenie
 
-<partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
+<partId>abfa0d9a-736e-40f8-937a-490ef19bc481</partId>
 
 
 ## Przegląd kursu
 
-<chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+<chapterId>dc6c887e-00a6-4b7f-9d50-14cbdfd5e867</chapterId>
 
 Witamy na kursie CYP302!
 
@@ -127,12 +127,12 @@ Gotowy na poznanie fascynującego świata kryptografii? Do dzieła!
 
 # Czym jest kryptografia?
 
-<partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>
+<partId>dfa3633c-f97b-4650-8a2e-cb15a42ca557</partId>
 
 
 ## Szyfry Beale'a
 
-<chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
+<chapterId>b97d116b-035b-4e92-890c-e377b48edb36</chapterId>
 
 
 Zacznijmy nasze badanie dziedziny kryptografii od jednego z bardziej uroczych i zabawnych epizodów w jej historii: szyfrów Beale'a. [1]
@@ -194,7 +194,7 @@ Po odszyfrowaniu druga wiadomość zawiera szczegółową zawartość skarbu (z�
 
 ## Nowoczesna kryptografia
 
-<chapterId>d07d576f-8a4b-5890-b182-2e5763f550f4</chapterId>
+<chapterId>a53dab64-fcf9-48c1-b578-dc43d799f3de</chapterId>
 
 
 Barwne historie, takie jak ta o szyfrach Beale'a, są tym, co większość z nas kojarzy z kryptografią. Jednak współczesna kryptografia różni się od tego typu historycznych przykładów na co najmniej cztery ważne sposoby.
@@ -271,7 +271,7 @@ Innym przykładem są **ataki phishingowe**, które są powszechnym problemem w 
 
 ## Otwarta komunikacja
 
-<chapterId>cb23d0a6-ba9a-5dc6-a55a-258405ae4117</chapterId>
+<chapterId>87b637ca-3d20-42b5-b299-ecb084b60aec</chapterId>
 
 
 Nowoczesna kryptografia została zaprojektowana w celu zapewnienia bezpieczeństwa w **otwartym środowisku komunikacyjnym**. Jeśli nasz kanał komunikacyjny jest tak dobrze chroniony, że podsłuchujący nie mają szans na manipulowanie lub nawet tylko obserwowanie naszych wiadomości, wówczas kryptografia jest zbędna. Większość naszych kanałów komunikacyjnych nie jest jednak tak dobrze strzeżona.
@@ -302,13 +302,13 @@ Dlatego też idea utrzymywania komunikacji w tajemnicy poprzez ochronę kanału 
 
 # Matematyczne podstawy kryptografii 1
 
-<partId>1bf9f0aa-0f68-5493-83fb-2167238ff9de</partId>
+<partId>22c3967a-c64b-468c-8e68-3324fe552738</partId>
 
 
 
 ## Zmienne losowe
 
-<chapterId>b623a7d0-3dff-5803-bd4e-8257ff73dd69</chapterId>
+<chapterId>c5fa2255-6041-400b-9072-217b73bf411e</chapterId>
 
 
 Kryptografia opiera się na matematyce. A jeśli chcesz zbudować coś więcej niż powierzchowne zrozumienie kryptografii, musisz czuć się komfortowo z tą matematyką.
@@ -603,7 +603,7 @@ Mógłbym, na przykład, zapytać cię o prawdopodobieństwo, że świnie będą
 
 ## Operacja modulo
 
-<chapterId>709b34e5-b155-53d2-abbd-97d67e56db00</chapterId>
+<chapterId>a7e063f0-62dd-4c35-892a-55fa1b10aad8</chapterId>
 
 
 ### Modulo
@@ -721,7 +721,7 @@ i tak dalej. Jednokrotne próbkowanie jednolitej zmiennej $K$ w celu uzyskania o
 
 ## Operacja XOR
 
-<chapterId>22f185cc-c516-5b33-950b-0908f2f881fe</chapterId>
+<chapterId>941aaabd-0896-4eb2-843c-e1af055c87fc</chapterId>
 
 
 Wszystkie dane komputerowe są przetwarzane, przechowywane i przesyłane przez sieci na poziomie bitów. Wszelkie schematy kryptograficzne stosowane do danych komputerowych również działają na poziomie bitów.
@@ -768,7 +768,7 @@ Operacja XOR jest równoważna specjalnemu przypadkowi wykonywania operacji modu
 
 ## Pseudolosowość
 
-<chapterId>20463fc5-3e92-581f-a1b7-3151279bd95e</chapterId>
+<chapterId>bd0c7d54-5392-490b-bdca-04dcbe7d83ff</chapterId>
 
 
 W naszej dyskusji na temat zmiennych losowych i jednorodnych dokonaliśmy konkretnego rozróżnienia między "losowymi" i "jednorodnymi". Rozróżnienie to jest zwykle utrzymywane w praktyce przy opisywaniu zmiennych losowych. Jednak w naszym obecnym kontekście rozróżnienie to należy porzucić, a "losowy" i "jednolity" są używane jako synonimy. Wyjaśnię dlaczego na końcu tej sekcji.
@@ -835,13 +835,13 @@ Powód porzucenia rozróżnienia między "losowym" i "jednolitym" w naszej dysku
 
 # Matematyczne podstawy kryptografii 2
 
-<partId>d7245cc9-bb6d-5403-b3d5-9c703d9a2f81</partId>
+<partId>62963952-ae03-43f4-88d6-90aea95e5c5f</partId>
 
 
 
 ## Czym jest teoria liczb?
 
-<chapterId>c0051c34-fd5d-539c-93e2-5c6dfd4c3355</chapterId>
+<chapterId>67e7dace-4c23-41a8-bdb3-c6c87d223899</chapterId>
 
 
 Niniejszy rozdział obejmuje bardziej zaawansowany temat matematycznych podstaw kryptografii: teorię liczb. Chociaż teoria liczb jest ważna dla kryptografii symetrycznej (takiej jak szyfr Rijndael), jest ona szczególnie istotna w kryptografii klucza publicznego.
@@ -871,7 +871,7 @@ Zbiory z algebry abstrakcyjnej mogą dotyczyć wielu rodzajów obiektów, od prz
 
 ## Grupy
 
-<chapterId>3209b270-f9cd-5224-803e-0ed19fbf7826</chapterId>
+<chapterId>4353d3ff-6319-4985-a4b8-3b20111ecfff</chapterId>
 
 
 Podstawowym pojęciem w matematyce jest zbiór Elements. Zbiór jest zwykle oznaczany znakami wyróżnienia z Elements oddzielonymi przecinkami.
@@ -974,7 +974,7 @@ Transakcje w Bitcoin zazwyczaj obejmują blokowanie danych wyjściowych do jedne
 
 ## Grupy cykliczne
 
-<chapterId>bfa5c714-7952-5fef-88b1-ca5b07edd886</chapterId>
+<chapterId>b5b552f6-cf7c-4ba8-bd9c-685bfc4aacad</chapterId>
 
 
 Głównym rozróżnieniem, które możemy narysować, jest rozróżnienie między **nieskończoną** i **nieskończoną grupą**. Pierwsza z nich ma skończoną liczbę Elements, podczas gdy druga ma nieskończoną liczbę Elements. Liczba Elements w dowolnej skończonej grupie jest znana jako **porządek grupy**. Cała praktyczna kryptografia, która wymaga użycia grup, opiera się na grupach skończonych (liczbowo-teoretycznych).
@@ -1095,7 +1095,7 @@ Wzór na funkcję Phi Eulera dla pierwszej faktoryzacji $N$.
 
 ## Pola
 
-<chapterId>fad52d86-3a22-5c9f-979e-3bec9eaa008e</chapterId>
+<chapterId>7a8c9ab0-fc8f-43fa-8dd7-fd1839bcda81</chapterId>
 
 
 Grupa jest podstawową strukturą algebraiczną w algebrze abstrakcyjnej, ale istnieje wiele innych. Jedyną inną strukturą algebraiczną, którą należy znać, jest **pole**, a konkretnie **pole nieskończone**. Ten typ struktury algebraicznej jest często wykorzystywany w kryptografii, na przykład w Advanced Encryption Standard. Ten ostatni jest głównym schematem szyfrowania symetrycznego, z którym spotkasz się w praktyce.
@@ -1299,7 +1299,7 @@ Dlaczego pola rozszerzeń o podstawie 2 nad zbiorami wielomianów, jak w powyżs
 
 ## Algebra abstrakcyjna w praktyce
 
-<chapterId>ed35b98d-18b4-5790-9911-1078e0f84f92</chapterId>
+<chapterId>9b8cd1fc-8a34-4e1b-ab4f-c634a763a20c</chapterId>
 
 
 Pomimo formalnego języka i abstrakcyjności dyskusji, pojęcie grupy nie powinno być zbyt trudne do zrozumienia. Jest to po prostu zbiór Elements wraz z operacją binarną, gdzie wykonanie tej operacji binarnej na tych Elements spełnia cztery ogólne warunki. Grupa abelowa ma tylko dodatkowy warunek znany jako przemienność. Z kolei grupa cykliczna jest szczególnym rodzajem grupy abelowej, a mianowicie taką, która ma generator. Pole jest jedynie bardziej złożoną konstrukcją z podstawowego pojęcia grupy.
@@ -1342,13 +1342,13 @@ W celu dalszej dyskusji na temat współczesnej teorii liczb można zapoznać si
 
 # Kryptografia symetryczna
 
-<partId>ef768d0e-fe7b-510c-87d6-6febb3de1039</partId>
+<partId>b994593e-cb9b-4a2c-ae80-2dec3478e1a6</partId>
 
 
 
 ## Alice i Bob
 
-<chapterId>47345330-be2d-5faf-afd0-d289a8d21bf1</chapterId>
+<chapterId>9c901027-b83a-4954-99b4-9e4f0c1598b7</chapterId>
 
 
 Jedną z dwóch głównych gałęzi kryptografii jest kryptografia symetryczna. Obejmuje ona schematy szyfrowania, a także schematy związane z uwierzytelnianiem i integralnością. Do lat 70. ubiegłego wieku cała kryptografia składała się z symetrycznych schematów szyfrowania.
@@ -1389,7 +1389,7 @@ Poniżej znajduje się pięć kluczowych punktów, o których należy pamiętać
 
 ## Symetryczne schematy szyfrowania
 
-<chapterId>41bfdbe1-6d41-5272-98bb-81f24b2fd6af</chapterId>
+<chapterId>e2645185-bb06-41d2-9a80-81dd84108647</chapterId>
 
 
 Możemy luźno zdefiniować **symetryczny schemat szyfrowania** jako dowolny schemat kryptograficzny z trzema algorytmami:
@@ -1445,7 +1445,7 @@ Bob szyfruje wiadomość $M$ w czasie $T_0$ kluczem $K$ w celu uzyskania szyfrog
 
 ## Przykład: Szyfr przesunięcia
 
-<chapterId>7b179ae8-8d15-5e80-a43f-22c970d87b5e</chapterId>
+<chapterId>63287a89-bda1-4395-ade6-cd8d8debe797</chapterId>
 
 
 W rozdziale 2 spotkaliśmy się z szyfrem przestawieniowym, który jest przykładem bardzo prostego schematu szyfrowania symetrycznego. Przyjrzyjmy się mu jeszcze raz.
@@ -1493,7 +1493,7 @@ Możesz również natknąć się na terminy **szyfrować** lub **odszyfrowywać*
 
 ## Ataki siłowe i zasada Kerckhoffa
 
-<chapterId>2d73ef97-26c5-5d11-8815-0ddbe89c8003</chapterId>
+<chapterId>4a72d8d8-0186-4654-b5ba-f99a4e03fb59</chapterId>
 
 
 Szyfr przestawieniowy jest bardzo niepewnym schematem szyfrowania symetrycznego, przynajmniej we współczesnym świecie[1]. [Atakujący może po prostu spróbować odszyfrować dowolny szyfrogram za pomocą wszystkich 26 możliwych kluczy, aby zobaczyć, który wynik ma sens. Ten rodzaj ataku, w którym atakujący po prostu przechodzi przez klucze, aby zobaczyć, co działa, jest znany jako **brute force attack** lub **exhaustive key search**.
@@ -1565,7 +1565,7 @@ Chociaż nie będziemy zagłębiać się we wszystkie szczegóły różnych poj�
 
 ## Szyfry strumieniowe
 
-<chapterId>479aa6f4-45c4-59ca-8616-8cf8e61fc871</chapterId>
+<chapterId>82a4d8c5-7fd7-4bbb-a97e-e7a2d7cc55a0</chapterId>
 
 
 Schematy szyfrowania symetrycznego są standardowo podzielone na dwa typy: **szyfry strumieniowe** i **szyfry blokowe**. To rozróżnienie jest jednak nieco kłopotliwe, ponieważ ludzie używają tych terminów w niespójny sposób. W następnych kilku sekcjach przedstawię to rozróżnienie w sposób, który uważam za najlepszy. Należy jednak pamiętać, że wiele osób będzie używać tych terminów nieco inaczej niż ja.
@@ -1690,7 +1690,7 @@ Moim zdaniem szersze zdefiniowanie warunku (1) zapewnia łatwiejszy sposób orga
 
 ## Szyfry blokowe
 
-<chapterId>2df52d51-943d-5df7-9d49-333e4c5d97b7</chapterId>
+<chapterId>ffb7ba1c-eb20-43a8-a2f1-2b8a54a31044</chapterId>
 
 
 Pierwszy sposób, w jaki **szyfr blokowy** jest powszechnie rozumiany, to coś bardziej prymitywnego niż szyfr strumieniowy: Podstawowy algorytm, który wykonuje transformację z zachowaniem długości na ciągu o odpowiedniej długości za pomocą klucza. Algorytm ten może być używany do tworzenia schematów szyfrowania i być może innych rodzajów schematów kryptograficznych.
@@ -1806,7 +1806,7 @@ Szyfr blokowy AES zostanie szczegółowo wyjaśniony w *Rozdziale 5*.
 
 ## Wyjaśnienie nieporozumień
 
-<chapterId>121c1858-27e3-5862-b0ce-4ff2f70f9f0f</chapterId>
+<chapterId>61e393f2-6764-4214-a871-f7471cb8ea32</chapterId>
 
 
 Zamieszanie związane z rozróżnieniem między szyframi blokowymi a szyframi strumieniowymi wynika z tego, że czasami ludzie rozumieją termin szyfr blokowy jako odnoszący się konkretnie do *szyfru blokowego z blokowym trybem szyfrowania*.
@@ -1842,7 +1842,7 @@ Z tej dyskusji powinieneś teraz zrozumieć *Rysunek 8*. Przedstawia on przeglą
 
 ## Kody uwierzytelniania wiadomości
 
-<chapterId>19fa7c00-db59-56a0-9654-5350a137939d</chapterId>
+<chapterId>626181b6-f80f-4160-b441-417a79b66ec6</chapterId>
 
 
 Szyfrowanie dotyczy tajności. Ale kryptografia zajmuje się również szerszymi zagadnieniami, takimi jak integralność wiadomości, autentyczność i niezaprzeczalność. Tak zwane **kody uwierzytelniania wiadomości** (MAC) to schematy kryptograficzne z kluczem symetrycznym, które wspierają autentyczność i integralność w komunikacji.
@@ -1886,7 +1886,7 @@ Chociaż w mojej dyskusji dokonałem rozróżnienia między autentycznością a 
 
 ## Uwierzytelnione szyfrowanie
 
-<chapterId>33f2ec9b-9fb4-5c61-8fb4-50836270a144</chapterId>
+<chapterId>64c1aef9-0bf8-45c5-92ba-12161d907eac</chapterId>
 
 
 Zazwyczaj chce się zagwarantować zarówno tajność, jak i autentyczność komunikacji, a zatem schematy szyfrowania i schematy MAC są zwykle używane razem.
@@ -1954,7 +1954,7 @@ Istnieje paleta funkcji Hash, których można użyć do utworzenia HMAC. Najczę
 
 ## Bezpieczne sesje komunikacyjne
 
-<chapterId>c7f7dcd3-bbed-53ed-a43d-039da0f180c5</chapterId>
+<chapterId>16be8853-ef4e-432b-b724-f34e780f2abe</chapterId>
 
 
 Załóżmy, że dwie strony są w sesji komunikacyjnej, więc wysyłają wiele wiadomości tam i z powrotem.
@@ -2005,7 +2005,7 @@ Sesja komunikacyjna rozpoczyna się od wysłania przez Boba szyfrogramu $C_{0,B}
 
 # RC4 i AES
 
-<partId>a48c4a7d-0a41-523f-a4ab-1305b4430324</partId>
+<partId>9948fc0a-59fe-46a4-b324-b12cde16e576</partId>
 
 
 
@@ -2013,7 +2013,7 @@ Sesja komunikacyjna rozpoczyna się od wysłania przez Boba szyfrogramu $C_{0,B}
 
 ## Szyfr strumieniowy RC4
 
-<chapterId>5caec5bd-5a77-56c9-b5e6-1e86f0d294aa</chapterId>
+<chapterId>2f83a43a-16e5-4b4e-9d2f-4976f92eba15</chapterId>
 
 
 W tym rozdziale omówimy szczegóły schematu szyfrowania z nowoczesnym prymitywnym szyfrem strumieniowym RC4 (lub "szyfrem Rivesta 4") i nowoczesnym szyfrem blokowym AES. Podczas gdy szyfr RC4 popadł w niełaskę jako metoda szyfrowania, AES jest standardem nowoczesnego szyfrowania symetrycznego. Te dwa przykłady powinny dać lepsze wyobrażenie o tym, jak działa szyfrowanie symetryczne pod maską.
@@ -2163,7 +2163,7 @@ Co ważne, strumień klucza wytworzony za pomocą RC4 powinien być traktowany j
 
 ## AES z kluczem 128-bitowym
 
-<chapterId>0b30886f-e620-5b8d-807b-9d84685ca8ff</chapterId>
+<chapterId>593d6ae3-7887-40d5-b14b-98a580b9a254</chapterId>
 
 
 Jak wspomniano w poprzednim rozdziale, Narodowy Instytut Standardów i Technologii (NIST) przeprowadził konkurs w latach 1997-2000 w celu określenia nowego standardu szyfrowania symetrycznego. Zwycięzcą okazał się **szyfr Rijndael**. Nazwa jest grą słów od nazwisk belgijskich twórców, Vincenta Rijmena i Joana Daemena.
@@ -2377,13 +2377,13 @@ Uzasadnieniem dla operacji stojących za szyfrem Rijndael jest to, że powodują
 
 # Kryptografia asymetryczna
 
-<partId>868bd9dd-6e1c-5ea9-9ece-54affc13ba05</partId>
+<partId>20c55ed4-4e45-493a-8bfe-970f332d764c</partId>
 
 
 
 ## Problem dystrybucji kluczy i zarządzania nimi
 
-<chapterId>1bb651ba-689a-5a89-a7d3-0b9cc3b694f7</chapterId>
+<chapterId>4bbc8769-e00d-4d59-8365-c5f491b1217b</chapterId>
 
 
 Podobnie jak w przypadku kryptografii symetrycznej, schematy asymetryczne mogą być wykorzystywane do zapewnienia zarówno tajności, jak i uwierzytelniania. Jednak w przeciwieństwie do nich, schematy te wykorzystują dwa klucze zamiast jednego: klucz prywatny i klucz publiczny.
@@ -2450,7 +2450,7 @@ Co więc wydarzyło się w latach siedemdziesiątych? Jak to możliwe, że może
 
 ## Nowe kierunki w kryptografii
 
-<chapterId>7a9dd9a3-496e-5f9d-93e0-b5028a7dd0f1</chapterId>
+<chapterId>e0f7950c-bb5a-437e-b27e-8d6878e15291</chapterId>
 
 
 W latach 70. problemy dystrybucji kluczy i zarządzania kluczami przyciągnęły uwagę grupy amerykańskich kryptografów akademickich: Whitfield Diffie, Martin Hellman i Ralph Merkle. W obliczu poważnego sceptycyzmu ze strony większości swoich kolegów, odważyli się oni opracować rozwiązanie tego problemu.
@@ -2548,7 +2548,7 @@ Według ich własnych relacji i relacji GCHQ, to James Ellis jako pierwszy oprac
 
 ## Asymetryczne szyfrowanie i uwierzytelnianie
 
-<chapterId>2f6f0f03-3c3d-5025-90f0-5211139bc0cc</chapterId>
+<chapterId>a36ea521-ecee-476d-ade9-57f09bed2469</chapterId>
 
 
 Przegląd **szyfrowania asymetrycznego** z pomocą Boba i Alicji przedstawiono na *Rysunku 1*.
@@ -2668,7 +2668,7 @@ Dystrybucja kluczy stała się teraz znacznie prostsza dla Jim's Sporting Goods.
 
 ## Funkcje Hash
 
-<chapterId>ea8327ab-b0e3-5635-941c-4b51f396a648</chapterId>
+<chapterId>49d6c9a5-5f18-4ec4-8c83-e02fc60941ff</chapterId>
 
 
 Funkcje Hash są wszechobecne w kryptografii. Nie są one ani schematami symetrycznymi, ani asymetrycznymi, ale same w sobie należą do kategorii kryptograficznej.
@@ -2779,14 +2779,14 @@ Podczas gdy odporność na kolizje i ukrywanie są głównymi właściwościami 
 
 # Kryptosystem RSA
 
-<partId>864dca42-2a8d-530f-bb94-2e1f68b3f411</partId>
+<partId>a8fb0a0b-747f-422a-a464-3c84979efa43</partId>
 
 
 
 
 ## Problem z faktoringiem
 
-<chapterId>a31a66e4-52ea-539c-9953-4769ad565d7e</chapterId>
+<chapterId>406b1681-f8bf-4a03-b555-c84ac4dee44a</chapterId>
 
 
 Podczas gdy kryptografia symetryczna jest zwykle dość intuicyjna dla większości ludzi, zwykle nie jest tak w przypadku kryptografii asymetrycznej. Mimo, że prawdopodobnie nie masz problemu z wysokopoziomowym opisem przedstawionym w poprzednich sekcjach, prawdopodobnie zastanawiasz się, czym dokładnie są funkcje jednokierunkowe i jak dokładnie są one wykorzystywane do konstruowania schematów asymetrycznych.
@@ -2918,7 +2918,7 @@ to samo dotyczy problemów logarytmu dyskretnego [3]. Dlatego też konstrukcje a
 
 ## Wyniki teorii liczb
 
-<chapterId>23cd2186-8d97-5709-a4a7-b984f1eb9999</chapterId>
+<chapterId>a5528852-d9cc-4f94-a15d-02f11081e026</chapterId>
 
 
 Niestety, problem faktoryzacji nie może być bezpośrednio wykorzystany w asymetrycznych schematach kryptograficznych. Możemy jednak wykorzystać w tym celu bardziej złożony, ale pokrewny problem: problem RSA.
@@ -3106,7 +3106,7 @@ Mamy teraz wszystkie wyniki teorii liczb potrzebne do jasnego określenia proble
 
 ## Kryptosystem RSA
 
-<chapterId>0253c2f7-b8a4-5d0e-bd60-812ed6b6c7a9</chapterId>
+<chapterId>b230194d-5774-49fe-9d19-53e345453c34</chapterId>
 
 
 Jesteśmy teraz gotowi do sformułowania problemu RSA. Załóżmy, że tworzymy zbiór zmiennych składający się z $p$, $q$, $N$, $\phi(N)$, $e$, $d$ i $y$. Nazwij ten zbiór $\Pi$. Jest on tworzony w następujący sposób:
@@ -3241,6 +3241,6 @@ Niemniej jednak, dodając nieco sprytnej złożoności, problem RSA można wykor
 
 ## Wnioski
 
-<chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
+<chapterId>97ce180b-5092-45eb-a160-57fc52917567</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

@@ -72,11 +72,11 @@ Spremni da otkrijete tehničke mehanizme Lightning Network-a? Hajde da zaronimo!
 
 # Osnove
 
-<partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>
+<partId>c4db4d33-823f-4aad-b5ee-77a9a85447eb</partId>
 
 ## Razumevanje Lajtning Mreže
 
-<chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
+<chapterId>0760bdb2-5907-4dc1-8fc1-ebe7f05149d4</chapterId>
 
 ![video en](https://youtu.be/QDQ8NG0l3hk)
 
@@ -135,7 +135,7 @@ Ovo je kraj prvog poglavlja, gde smo postavili temelje za Lajtning mrežu. U nar
 
 ## Bitkojn, Adrese, UTXO, i Transakcije
 
-<chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
+<chapterId>24cfbaa4-a8fb-4b76-b755-490b1c61af77</chapterId>
 
 ![video en](https://youtu.be/U9l5IVriCss)
 
@@ -200,11 +200,11 @@ Ovo poglavlje o Bitkojnu omogućilo nam je da pregledamo neke osnovne pojmove za
 
 # Otvaranje i zatvaranje kanala
 
-<partId>900b5b6b-ccd0-5b2f-9424-4b191d0e935d</partId>
+<partId>22976fdf-b923-42f1-bfb4-d84fc763e88c</partId>
 
 ## Otvaranje kanala
 
-<chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
+<chapterId>7b137f2e-af9c-4bc9-8ffe-777ff7bc7eed</chapterId>
 
 ![video en](https://youtu.be/Ty80WuN5X-g)
 
@@ -276,7 +276,7 @@ U narednom poglavlju, bavićemo se tehničkim funkcionisanjem Lajtning transakci
 
 ## Obavezujuće transakcije
 
-<chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
+<chapterId>05a128ec-a6df-43b4-a3fe-9f1efab57fbd</chapterId>
 
 ![video en](https://youtu.be/dzPMGiR_JSE)
 
@@ -339,7 +339,7 @@ Međutim, ovaj sistem ima potencijalnu manu, koju ćemo adresirati u narednom po
 
 ## Ključ opoziva
 
-<chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
+<chapterId>be1ec347-83fa-404d-af47-7f352c629aa5</chapterId>
 
 ![video en](https://youtu.be/veCs39uVFUk)
 
@@ -426,7 +426,7 @@ U ovom trenutku obuke, sada znate kako se otvaraju Lajtning kanali i kako funkci
 
 ## Zatvaranje kanala
 
-<chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
+<chapterId>84258cba-f143-47fd-ae8c-a589cc28cedf</chapterId>
 
 ![video en](https://youtu.be/zmAa2fj_V7w)
 
@@ -516,11 +516,11 @@ U narednim poglavljima, istražićemo Lajtning mrežu iz šire perspektive, foku
 
 # Mreža Likvidnosti
 
-<partId>a873f1cb-751f-5f4a-9ed7-25092bfdef11</partId>
+<partId>b4305510-2b99-4c35-9cbf-738bfdc89d8d</partId>
 
 ## Lajtning mreža
 
-<chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
+<chapterId>4b4f4111-398e-491f-8a75-1be65b4c9719</chapterId>
 
 ![video en](https://youtu.be/44oBdNdXtEQ)
 
@@ -656,7 +656,7 @@ U ovom poglavlju smo istražili usmeravanje plaćanja na Lajtning mreži. Ali po
 
 ## HTLC – Hashed Time Locked Contract (hešovan vremenski zaključan ugovor)
 
-<chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
+<chapterId>96e7f2b1-8f53-4848-9d2d-f3d4b1c39e0e</chapterId>
 
 ![video en](https://youtu.be/jI4nM297aHA)
 
@@ -785,7 +785,7 @@ U narednom poglavlju, otkrićemo kako čvor koji kreira Lajtning transakciju pro
 
 ## Pronalaženje Vašeg Puta
 
-<chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
+<chapterId>673e3d66-ade1-4321-8388-a940e661b66a</chapterId>
 
 ![video en](https://youtu.be/CqetCElRjUQ)
 
@@ -877,11 +877,11 @@ U narednom poglavlju, posebno ćemo proučiti funkcionisanje faktura, pored neki
 
 # Alati Lajtning mreže
 
-<partId>74d6c334-ec5d-55d9-8598-f05694703bf6</partId>
+<partId>e28a697b-74ff-4a09-bd83-41a02b992517</partId>
 
 ## Faktura, LNURL, and Keysend
 
-<chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
+<chapterId>eadaa33c-0da9-4031-ab9f-e119226a1652</chapterId>
 
 ![video en](https://youtu.be/XANzf1Qqp9I)
 
@@ -1004,7 +1004,7 @@ U sledećem poglavlju, videćemo kako operater čvora može upravljati likvidno�
 
 ## Upravljanje Vašom Likvidnošću
 
-<chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
+<chapterId>56d28137-25fc-4164-b54f-95ef445ae187</chapterId>
 
 ![video en](https://youtu.be/MIbej28La7Y)
 
@@ -1077,11 +1077,11 @@ U narednom poglavlju, predlažem da pregledamo najvažnije koncepte ove obuke.
 
 # Idi Dalje
 
-<partId>6bbf107d-a224-5916-9f0c-2b4d30dd0b17</partId>
+<partId>a0323bbb-7f6a-4020-8aa9-5290ac76156c</partId>
 
 ## Zaključak obuke
 
-<chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
+<chapterId>80b02339-681e-4c6d-8008-0dc8e1a1c5b5</chapterId>
 
 ![video en](https://youtu.be/coaskEGRjiU)
 
@@ -1150,16 +1150,16 @@ Videli smo da je upravljanje likvidnošću izazov na Lajtning mreži kako bi se 
 
 ## Recenzije i Ocene
 
-<chapterId>38814c99-eb7b-5772-af49-4386ee2ce9b0</chapterId>
+<chapterId>174d014a-8f5b-4285-b70b-802dd00028b9</chapterId>
 
 <isCourseReview>true</isCourseReview>
 ## Završni ispit
 
-<chapterId>7ed33400-aef7-5f3e-bfb1-7867e445d708</chapterId>
+<chapterId>51117a58-542c-4146-bf95-c19f88860120</chapterId>
 
 <isCourseExam>true</isCourseExam>
 ## Zaključak
 
-<chapterId>afc0d72b-4fbc-5893-90b2-e27fb519ad02</chapterId>
+<chapterId>da9ed31b-b8c0-45de-b2a8-2bb5a74dd812</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

@@ -20,11 +20,11 @@ Tidak diperlukan pengetahuan sebelumnya untuk memulai kursus ini. BTC 101 diranc
 
 # Pendahuluan
 
-<partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
+<partId>34ab5c9f-08b8-4324-a53e-582c63a2b1ea</partId>
 
 ## Ikhtisar Kursus
 
-<chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
+<chapterId>a47e30ce-f437-404b-99e0-0c1cf1a78f37</chapterId>
 
 Selamat datang di kursus BTC101!
 
@@ -88,7 +88,7 @@ Siap menyelami dunia Bitcoin yang menakjubkan dan memahami semua mekanismenya? A
 
 ## Prasejarah Bitcoin
 
-<chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
+<chapterId>0824f3a8-502a-4321-bb0d-13ccba37f3fa</chapterId>
 
 Sebelum istilah "Bitcoin" menjadi identik dengan mata uang digital dan transformasi keuangan, dasar penciptaannya diletakkan oleh serangkaian ide, inovasi, dan gerakan sosial. Di antaranya, gerakan cypherpunk menonjol sebagai elemen kunci dalam prasejarah Bitcoin.
 
@@ -146,11 +146,11 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 # Uang
 
-<partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
+<partId>c7430a3c-6419-465e-b84d-d677e277f732</partId>
 
 ## Uang Sepanjang Sejarah
 
-<chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
+<chapterId>84047ee5-9f48-4105-9849-8be318496304</chapterId>
 
 Evolusi uang adalah aspek menarik dari sejarah manusia yang mencerminkan kecerdikan peradaban sepanjang zaman dalam memenuhi kebutuhan ekonomi yang terus berkembang.
 
@@ -211,7 +211,7 @@ Di sisi lain, Bitcoin menghadirkan berbagai kemungkinan baru. Sifat-sifatnya, se
 
 ## Mata uang fidusia/fiat
 
-<chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
+<chapterId>8c6dbe02-c275-4568-bd1b-fc36b8d4796d</chapterId>
 
 > "Mereka yang tidak dapat mengingat masa lalu dikutuk untuk mengulanginya" kata George Santayana.
 > Sebuah kebenaran yang beresonansi dengan baik dalam hal sistem moneter saat ini.
@@ -267,7 +267,7 @@ https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Hiperinflasi
 
-<chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
+<chapterId>3f99733a-7a40-42a8-870c-cc4947560bba</chapterId>
 
 Hiperinflasi adalah fenomena moneter yang khusus terjadi pada mata uang fiat: fenomena ini ditandai dengan hilangnya kepercayaan terhadap mata uang dan peningkatan inflasi secara drastis karena pencetakan uang oleh pihak berwenang. Akibatnya, tabungan yang dikumpulkan oleh individu dapat lenyap dalam waktu yang relatif singkat, mendorong negara ke ambang kehancuran ekonomi, sosial, dan politik.
 
@@ -356,7 +356,7 @@ https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 ## 21 juta bitcoin
 
-<chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
+<chapterId>e6172b08-5916-4f9f-a06f-4405c52c06ab</chapterId>
 
 ### Kebijakan moneter Bitcoin
 
@@ -397,7 +397,7 @@ Setelah berhasil melakukan tugas ini, para penambang akan mendapatkan imbalan be
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Kami akan meninjau kembali konsep penambangan secara lebih rinci dalam [bab penambang](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+Kami akan meninjau kembali konsep penambangan secara lebih rinci dalam [bab penambang](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/f2ce96f9-66d5-4286-9a18-9e1506b369b5).
 
 ### Menjamin kelangkaan digital
 
@@ -445,11 +445,11 @@ Singkatnya, Bitcoin, dengan sifatnya yang terdesentralisasi, kelangkaan yang ter
 
 # Dompet Bitcoin
 
-<partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
+<partId>3b488c45-d286-4083-8824-ec259cc2a324</partId>
 
 ## Apa yang dimaksud dengan dompet Bitcoin?
 
-<chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
+<chapterId>149c6588-94ae-46b6-b073-9ffc18912397</chapterId>
 
 Pada bagian 2, kita akan menjelajahi penyimpanan dan keamanan Bitcoin melalui penggunaan dompet, untuk memahami di mana letak bitcoin yang terkenal ini dan bagaimana cara berinteraksi dengannya!
 
@@ -513,7 +513,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ## Dompet dan Keamanan Bitcoin
 
-<chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
+<chapterId>40485240-351a-471c-b017-faebfb836470</chapterId>
 
 ### Mengajukan pertanyaan yang tepat sebelum memulai
 
@@ -578,7 +578,7 @@ Dengan mengingat hal ini, sekarang kita dapat beralih ke bagian selanjutnya di m
 
 ## Menyiapkan Dompet
 
-<chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
+<chapterId>1bfd3d5d-a81b-4b7f-ad88-4bf41593606a</chapterId>
 
 Keamanan bitcoin Anda sangatlah penting, dan kesalahan kecil saja bisa berakibat fatal. Itulah mengapa kita perlu mempelajari praktik-praktik terbaik untuk diterapkan saat membuat dompet Bitcoin baru.
 
@@ -623,7 +623,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Melewati Ujian Waktu
 
-<chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
+<chapterId>7dd119da-9073-4e03-ab83-e45890616790</chapterId>
 
 Seperti halnya bentuk kekayaan lainnya, bitcoin Anda harus dilindungi dari kehilangan, pencurian, dan penurunan nilai, terutama dalam jangka panjang. Melindungi bitcoin Anda membutuhkan pengetahuan teknis dan pemahaman tentang risiko yang terkait, yang membuka jalan menuju dua strategi utama: mengukir bitcoin Anda di atas pelat baja dan membuat rencana warisan.
 
@@ -671,11 +671,11 @@ Sekarang kita telah membahas dasar-dasar dompet Bitcoin dan praktik terbaik untu
 
 # Aspek Teknis Bitcoin.
 
-<partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
+<partId>8b110fdd-b51f-48a9-a966-33649e55c971</partId>
 
 ## Meluncurkan Bitcoin
 
-<chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>
+<chapterId>76ab52b9-2c33-4242-9db1-64fb1fb92b4e</chapterId>
 
 ### Mari kita mulai dengan sedikit sejarah.
 
@@ -729,7 +729,7 @@ Untuk mempelajari lebih lanjut tentang tulisan-tulisan Satoshi Nakamoto, kami sa
 
 ## Transaksi Bitcoin
 
-<chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
+<chapterId>be72afa9-8198-45a5-95a8-3c87f971fbb2</chapterId>
 
 Transaksi Bitcoin adalah sebuah transfer kepemilikan bitcoin melalui penggunaan alamat Bitcoin. Untuk menggambarkan proses ini, mari kita perkenalkan dua tokoh utama: Alice dan Bob. Alice ingin mendapatkan bitcoin, sedangkan Bob sudah memiliki beberapa bitcoin.
 
@@ -787,7 +787,7 @@ Mari kita lihat lebih dekat bagaimana cara kerja node Bitcoin.
 
 ## Simpul Bitcoin
 
-<chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
+<chapterId>430fdc8d-d60c-4dde-a7a5-96916f40056e</chapterId>
 
 Node adalah elemen fundamental dalam arsitektur jaringan Bitcoin, karena node menjalankan berbagai fungsi penting:
 
@@ -836,7 +836,7 @@ Setelah kemenangan ini, node-node tersebut mengaktifkan pembaruan yang disebut S
 
 ## Penambang
 
-<chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
+<chapterId>f2ce96f9-66d5-4286-9a18-9e1506b369b5</chapterId>
 
 **Penambang mengamankan jaringan dan menambahkan transaksi ke dalam blok. Mereka menggunakan listrik melalui mesin ASIC untuk menyelesaikan (proof of work)bukti kerja Bitcoin.**
 
@@ -917,7 +917,7 @@ https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## Bitcoin dan Ekologi
 
-<chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
+<chapterId>68cc1d11-d355-479f-beb1-364ea0f48219</chapterId>
 
 Pada bagian sebelumnya, kita telah memahami bahwa keamanan protokol Bitcoin bergantung pada konsumsi energi yang tinggi untuk menghasilkan sebuah buku besar transaksi tanpa pihak ketiga yang terpercaya. Di media mainstream, biaya energi secara keseluruhan sering kali dibandingkan dengan penggunaan listrik di sebuah negara kecil. Tetapi apakah perbandingan ini masuk akal? Apakah relevan untuk memahami alasan di balik biaya tersebut?
 
@@ -975,11 +975,11 @@ Dengan demikian, protokol Bitcoin merupakan sistem moneter yang tidak dapat dise
 
 # Bagaimana Anda Mendapatkan Bitcoin?
 
-<partId>517e1bb7-f032-51a0-930a-a91fe5148d3f</partId>
+<partId>a48118af-b3b8-4f00-bbda-c2c4ca0f788e</partId>
 
 ## Bitcoin Tidak Pernah Tidur!
 
-<chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
+<chapterId>648dbb03-969a-46ef-bdae-1463c06a4aaf</chapterId>
 
 Harga Bitcoin sering kali ditandai dengan volatilitas yang signifikan. Nilainya dapat berfluktuasi secara signifikan tergantung pada variasi pasar atau pada fase bullish dan bearish, seperti halnya pasar keuangan lainnya.
 
@@ -1034,7 +1034,7 @@ Saat ini, Bitcoin terus bertahan dan semakin berkembang dengan semakin diintegra
 
 ## Mendapatkan Bitcoin dengan Bekerja
 
-<chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
+<chapterId>4bcac1ce-e4e1-4fc8-9548-5eb262688ea5</chapterId>
 
 ### Ekonomi paralel sedang berkembang
 
@@ -1078,7 +1078,7 @@ https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Menabung dengan Bitcoin
 
-<chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
+<chapterId>11782e1e-3807-4669-8c4b-19c431669eba</chapterId>
 
 ### Peringatan sebelum memulai!
 
@@ -1178,7 +1178,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Hiper-koinisasi
 
-<chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>
+<chapterId>a8cf0971-defd-4bf8-934b-5e412448438e</chapterId>
 
 ### Perlombaan liar baru saja dimulai!
 
@@ -1202,11 +1202,11 @@ Jika Anda ingin memperluas pengetahuan Anda mengenai Bitcoin, inilah saat yang t
 
 # Masa Depan Bitcoin: Lightning Network
 
-<partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
+<partId>297f74b5-3ba1-4f63-b41b-43256778bea3</partId>
 
 ## Pengantar Singkat ke Lightning Network
 
-<chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
+<chapterId>ad635a0f-4f91-4cac-843b-b9d51eb0bc9e</chapterId>
 
 Setelah kita mengetahui dasar-dasar protokol Bitcoin, kami akan memperkenalkan jaringan pembayaran yang menggunakan protokol Bitcoin untuk memungkinkan transaksi secepat kilat: Lightning Network!
 
@@ -1250,7 +1250,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## Kasus Penggunaan Jaringan Lightning
 
-<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+<chapterId>cd29874a-5ea2-4773-a6e4-e8d36b1bb4da</chapterId>
 
 Seperti yang baru saja kita lihat, protokol Bitcoin, meskipun revolusioner, menghadapi tantangan yang signifikan dalam hal skalabilitas yang dibutuhkan untuk menangani semua transaksi harian kita. Untuk mengatasi masalah ini, Lightning Network diusulkan dan sejak saat itu berkembang menjadi beberapa implementasi yang berbeda, yang semuanya dapat dioperasikan:
 
@@ -1282,7 +1282,7 @@ Kesimpulannya, Lightning Network membuka banyak kasus penggunaan yang menarik ba
 
 ## Pil Merah atau Pil Biru?
 
-<chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
+<chapterId>03d79262-a035-4a62-acca-f8ed9ae5a8a4</chapterId>
 
 Seperti yang dikatakan Morpheus kepada Neo: "Kamu meminum pil biru, ceritanya berakhir, kamu terbangun di tempat tidurmu, dan kamu percaya apa pun yang ingin kamu percayai. Anda meminum pil merah, Anda akan tetap berada di Wonderland, dan saya akan menunjukkan kepada Anda seberapa dalam lubang kelinci itu." Apakah Anda siap untuk menjelajahi lubang kelinci Bitcoin? Berhati-hatilah, karena Anda mungkin akan menemukan kembali kebebasan finansial Anda!
 
@@ -1355,19 +1355,19 @@ Apakah Anda siap untuk bergabung?
 
 ## Ulasan & Peringkat
 
-<chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
+<chapterId>d58144ad-33da-47a6-9030-61b649fe5550</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Ujian Akhir
 
-<chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
+<chapterId>cbf5ded3-69c8-485f-8528-28fc0e7ea299</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## Kesimpulan
 
-<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+<chapterId>8a17f1ba-3ba1-4864-896d-be4cc3d5844a</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
 

@@ -82,12 +82,12 @@ Jste připraveni udělat další krok na cestě ke Bitcoin? Začněme!
 
 # Bitcoin Centrální hodnoty
 
-<partId>2d6c683b-54c8-5465-b2ca-4e96a6828834</partId>
+<partId>d4fe3545-ac65-4657-b94e-725fc3d72c9b</partId>
 
 
 ## Decentralizace
 
-<chapterId>9397c84b-0038-5d0e-88d5-11767ce8182d</chapterId>
+<chapterId>568fdd5a-2e8f-4ecd-8aca-da940406134a</chapterId>
 
 
 
@@ -297,7 +297,7 @@ Decentralizované systémy mohou být pro člověka obtížně uchopitelné, ale
 
 ## Nedůvěřivost
 
-<chapterId>0506ba61-16a3-543c-95fa-3f3e2dd64121</chapterId>
+<chapterId>5ee5332a-0b2d-4102-b43f-a97d414469f8</chapterId>
 
 
 
@@ -448,7 +448,7 @@ Bez nedůvěryhodnosti nemůžeme mít decentralizaci, protože důvěra nevyhnu
 
 ## Ochrana osobních údajů
 
-<chapterId>1b960afe-0008-589b-b2f4-007d60d264c6</chapterId>
+<chapterId>a8551c2c-7e60-4e3d-bc2e-735716bf5d5f</chapterId>
 
 
 
@@ -667,7 +667,7 @@ Chcete-li získat slušné soukromí v systému Bitcoin, musíte přijmout aktiv
 
 ## Konečný Supply
 
-<chapterId>af125ba2-ef98-5905-8895-41a538fe5ea5</chapterId>
+<chapterId>5200980a-120c-498d-b79e-2c40e7c18dcd</chapterId>
 
 
 
@@ -774,12 +774,12 @@ Zda Bitcoin Supply vzroste nad 21 milionů, dnes nedokážeme říci, a to pravd
 
 # Bitcoin Gouvernance
 
-<partId>411bf53f-af4b-50f1-b71b-e40fe3ff64b7</partId>
+<partId>20c2b99e-54af-452d-8442-b8f76317de64</partId>
 
 
 ## Upgrade
 
-<chapterId>3ffa84d1-adfa-5fbc-9b13-384ea783fcdd</chapterId>
+<chapterId>c61b92be-cf45-4f4d-bdd6-8ea7bbed25b9</chapterId>
 
 
 
@@ -1020,7 +1020,7 @@ Ukázalo se, že pro udržení harmonie Bitcoin jsou vidlice Soft cestou vpřed,
 
 ## Kontradiktorní myšlení
 
-<chapterId>d4982f3d-4694-51cc-99be-28f54b03a2a2</chapterId>
+<chapterId>f321b742-580a-4d4f-81ab-7830c1c3dc6e</chapterId>
 
 
 ![](assets/cs/008.webp)
@@ -1143,7 +1143,7 @@ Chcete-li udržet Bitcoin v bezpečí, musíte znát jeho nepřátele a jejich p
 
 ## Otevřený zdrojový kód
 
-<chapterId>427a160c-f893-5b2c-afba-7b24e71ba899</chapterId>
+<chapterId>8672f873-c7dc-4bc2-9f10-8882253ac96e</chapterId>
 
 
 
@@ -1431,7 +1431,7 @@ Vývojový proces kolem Bitcoin je radikálně otevřený, což může působit 
 
 ## Měřítko
 
-<chapterId>bb3f3924-202c-5cdd-b2e9-e0c1cab0e48e</chapterId>
+<chapterId>59a8bd2b-2ddf-49d3-ba96-adf696482581</chapterId>
 
 
 
@@ -1706,7 +1706,7 @@ Dnes víme, že Bitcoin nelze dobře škálovat vertikálně ("kupte větší ha
 
 ## Když se něco posere
 
-<chapterId>fe39c13c-310f-51fd-84ff-6b92dd01c9e7</chapterId>
+<chapterId>00130abf-a714-4cfb-b104-e416f27a4557</chapterId>
 
 
 
@@ -2139,7 +2139,7 @@ Podívali jsme se na některé závažnější problémy, které se v průběhu 
 
 ## Otázky k diskusi
 
-<chapterId>91462ca7-f09c-55da-a5b9-3e211de31da5</chapterId>
+<chapterId>9a9a2cc0-0fa6-405c-9b7a-348b8ab71a1f</chapterId>
 
 
 Tyto otázky k diskusi nejsou jen shrnutím obsahu knihy "Bitcoin development philosophy", ale mají vás povzbudit k dalšímu výzkumu, takže se určitě vydejte na průzkum.
@@ -2252,7 +2252,7 @@ Hloubku svých znalostí si můžete ověřit napsáním [mini eseje](https://ww
 
 ## Závěrečná zkouška
 
-<chapterId>b2b498c0-a787-11f0-bd09-e3fc5cfa90af</chapterId>
+<chapterId>c5474163-5282-4300-ac4b-cf9d7fed3618</chapterId>
 
 
 <isCourseExam>true</isCourseExam>

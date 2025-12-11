@@ -186,7 +186,7 @@ Setelah berada di halaman utama RoninUI, Anda akan diminta untuk memulai pengatu
 
 ![lets start](assets/notext/25.webp)
 
-Pada tahap ini, RoninUI menampilkan kata sandi `root` Anda. Sangat penting untuk menjaganya dengan aman. Anda dapat memilih untuk membuat cadangan fisik, di atas kertas, atau menyimpannya dalam [pengelola kata sandi](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
+Pada tahap ini, RoninUI menampilkan kata sandi `root` Anda. Sangat penting untuk menjaganya dengan aman. Anda dapat memilih untuk membuat cadangan fisik, di atas kertas, atau menyimpannya dalam [pengelola kata sandi](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/fcdebe4d-e2ee-495a-b0e7-ae967250866c).
 
 ![root password](assets/notext/26.webp)
 

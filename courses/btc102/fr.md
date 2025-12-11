@@ -23,11 +23,11 @@ Structuré de façon à vous laisser pleinement maître de votre apprentissage, 
 
 # Introduction
 
-<partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
+<partId>bbfad60b-0c46-4bbc-96dc-e5b6a5fdbc9f</partId>
 
 ## Aperçu du cours
 
-<chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
+<chapterId>b5425425-5ac4-4361-810b-6a48315f9b43</chapterId>
 
 :::video id=58e578ef-bb3c-423d-8431-0c16db8e5f29:::
 
@@ -73,7 +73,7 @@ Prêt à débuter votre parcours dans le monde de Bitcoin ? Allons-y !
 
 ## Arnaques et fraudes financières
 
-<chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
+<chapterId>a0c8fcd6-bc8e-4309-a711-bdb6db2f9228</chapterId>
 
 :::video id=9f3a7b2e-2c4d-4c1e-8b1f-3a2c1d4e5f6a:::
 
@@ -214,7 +214,7 @@ Se prémunir contre les arnaques est une première étape importante pour la pro
 
 ## Sécurité en ligne
 
-<chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
+<chapterId>36cca6db-6610-4dc4-a70a-586f3d2e84d0</chapterId>
 
 :::video id=2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
 
@@ -340,7 +340,7 @@ Dans le prochain chapitre, je vais vous donner quelques conseils supplémentaire
 
 ## Conseils pour novice
 
-<chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
+<chapterId>256121b5-2864-4041-94d4-cbc1645fbbee</chapterId>
 
 :::video id=7e9f3b2c-4d1a-4c5e-8b0d-3a2c1d4e5f6b:::
 
@@ -494,11 +494,11 @@ En appliquant ces préceptes, vous pourrez aborder l’investissement de manièr
 
 # Comprendre dans quoi on se lance
 
-<partId>a42355a3-9dd8-57ed-b590-32a333fe09ea</partId>
+<partId>d03c2149-96a7-489c-889a-d3bbca233795</partId>
 
 ## Bitcoin en 5 minutes
 
-<chapterId>ae122ad9-9b4d-5229-9038-e1b99d5cfc83</chapterId>
+<chapterId>7930ae58-ebc0-44fa-937e-baf612aee68b</chapterId>
 
 :::video id=3c2d1e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f:::
 
@@ -637,7 +637,7 @@ Après cette introduction sur Bitcoin (certes un peu plus longue que 5 minutes�
 
 ## Pourquoi Bitcoin est important ?
 
-<chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
+<chapterId>8cb32b65-d8b0-45b6-9017-c7d0cb4407a0</chapterId>
 
 :::video id=5f6e7d8c-9b0a-1c2d-3e4f-5a6b7c8d9e0f:::
 
@@ -760,7 +760,7 @@ Maintenant que nous avons étudié l'importance de l'invention de Satoshi Nakamo
 
 ## Comprendre l'industrie de Bitcoin
 
-<chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
+<chapterId>3b1504f1-f078-4e71-aa6a-80b8b1e795e1</chapterId>
 
 :::video id=8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d:::
 
@@ -985,7 +985,7 @@ https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86
 
 ## L'architecture en couches de Bitcoin
 
-<chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
+<chapterId>3e12ff30-23da-4a44-b529-0ddcb3abf348</chapterId>
 
 :::video id=6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e:::
 
@@ -1095,11 +1095,11 @@ Dans la prochaine section du cours, nous passerons à la pratique pour définir 
 
 # Mise en place de votre plan
 
-<partId>3801faf6-7915-56fa-baf5-ee63ad03b7cf</partId>
+<partId>6d9efafd-fafc-4c96-9f65-5807ee729bcb</partId>
 
 ## Choisir son profil
 
-<chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
+<chapterId>bb5826d7-5311-4e5f-b4ba-4d64e3820ba0</chapterId>
 
 :::video id=1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
 
@@ -1383,7 +1383,7 @@ Dans les prochains chapitres, nous étudierons en détail chaque profil afin que
 
 ## Le Hodler : investir sur le long terme
 
-<chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
+<chapterId>13173a73-9e10-4361-a3d2-bff288b6e5fa</chapterId>
 
 :::video id=3f4e5d6c-7b8a-9c0d-1e2f-3a4b5c6d7e8f:::
 
@@ -1503,7 +1503,7 @@ Le hodling reste une stratégie simple, efficace et accessible à tous les inves
 
 ## Le Stacker : accumuler des satoshis
 
-<chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
+<chapterId>841a72d0-e260-45ea-af2c-6e7274e4775e</chapterId>
 
 :::video id=4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b:::
 
@@ -1657,7 +1657,7 @@ En résumé, la stratégie du stacking convient à ceux qui souhaitent accumuler
 
 ## L'Utilisateur : adopter Bitcoin au quotidien
 
-<chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
+<chapterId>0acbf209-d995-4c26-b2a0-84a1e03cf112</chapterId>
 
 :::video id=5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c:::
 
@@ -1851,7 +1851,7 @@ Dans le chapitre suivant, nous allons étudier le dernier profil type de bitcoin
 
 ## Le Paranoïaque : protéger sa vie privée
 
-<chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
+<chapterId>7e82cb62-57b3-475a-8ec1-8352c7cb4d20</chapterId>
 
 :::video id=6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d:::
 
@@ -2071,7 +2071,7 @@ Dans la prochaine section du cours, nous allons aborder un sujet souvent néglig
 
 ## Création d'un plan d'héritage
 
-<chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
+<chapterId>dcec2c9c-f5d9-4d47-977d-d21c5bff05cb</chapterId>
 
 :::video id=7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e:::
 
@@ -2301,7 +2301,7 @@ Merci beaucoup à [Pamela Morgan](https://x.com/pamelawjd) pour son travail et s
 
 ## Félicitations ! Vous faites partie des 0,1 % les mieux préparés
 
-<chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
+<chapterId>d501852f-cf0f-4ad9-9fcb-f71cba9fc06c</chapterId>
 
 :::video id=8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f:::
 
@@ -2405,17 +2405,17 @@ Bonne continuation dans votre aventure avec Bitcoin !
 
 ## Avis & Notes
 
-<chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
+<chapterId>24f7791a-332a-4c71-80e9-9175b4ef4393</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Examen final
 
-<chapterId>f3ff8089-8f89-56a8-be8c-b60296b4d91f</chapterId>
+<chapterId>c585966c-bad7-40ea-bae3-db7dcd36e911</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Conclusion
 
-<chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
+<chapterId>65f40e5b-21bd-4b37-a133-bc858620093c</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
 
 

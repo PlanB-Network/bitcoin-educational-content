@@ -15,11 +15,11 @@ Cette école de pensée a façonné les débats pendant des siècles, grâce à 
 +++
 # Introduction
 
-<partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
+<partId>21613091-f43a-4a87-88d9-2d69038d41d2</partId>
 
 ## Aperçu du cours
 
-<chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
+<chapterId>43b56a2b-bbee-4faa-b52a-9b6c540df559</chapterId>
 
 Bienvenue dans la formation ECO201 !
 
@@ -46,7 +46,7 @@ Et si la clé pour comprendre l'économie actuelle résidait dans une théorie v
 
 ## L'argent, le crédit, les banques et les banques centrales
 
-<chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
+<chapterId>84a09f98-8cd7-468f-9cc1-6c0add06ce12</chapterId>
 
 :::video id=d29b87ef-78fe-451d-afb4-be3b57096afb:::
 
@@ -137,11 +137,11 @@ Dans le prochain chapitre, nous nous pencherons sur la pierre angulaire fondamen
 
 # Fondements théoriques
 
-<partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
+<partId>6249c7e4-71bc-453b-8a09-ab579d340709</partId>
 
 ## La théorie subjective de la valeur
 
-<chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
+<chapterId>fb001732-6bf7-4935-b8ec-6c225dab1025</chapterId>
 
 > "La valeur n'existe que dans la conscience humaine"
 >
@@ -226,7 +226,7 @@ Les chapitres suivants seront consacrés à l'émergence de l'argent en tant que
 
 ## L'émergence de l'argent en tant que phénomène social
 
-<chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
+<chapterId>469d591e-b407-4218-bccb-6a433f731cb3</chapterId>
 
 :::video id=914b78a2-3b88-43cb-8acb-93cd76e90d26:::
 
@@ -310,7 +310,7 @@ Dans le prochain chapitre, nous approfondirons le concept de préférence tempor
 
 ## Préférence Temporelle, Intérêt et Capital
 
-<chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
+<chapterId>e0a5c946-dd4c-4aa6-9b6e-aaacb23241ae</chapterId>
 
 ### Préférence Temporelle
 
@@ -380,11 +380,11 @@ C'est ce que nous découvrirons dans le prochain chapitre consacré à la théor
 
 # Perspectives économiques autrichiennes
 
-<partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
+<partId>851a6712-84ea-48d2-85f7-3354e1381a06</partId>
 
 ## La théorie autrichienne du cycle économique
 
-<chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
+<chapterId>17248205-835a-4284-ba94-0eb131916aa3</chapterId>
 
 :::video id=40e2807d-4418-4a24-898e-ece159654bda:::
 
@@ -461,7 +461,7 @@ Cela sera le sujet du prochain et dernier chapitre de ce cours.
 
 ## L'impossibilité du calcul économique sous le socialisme
 
-<chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
+<chapterId>9b9e185f-5b0d-4850-813e-0c50e309a909</chapterId>
 
 :::video id=d891caed-0ffa-4f0c-a32b-940e207a20bc:::
 
@@ -532,7 +532,7 @@ La tradition autrichienne incarne une approche humble de l'action humaine, tiran
 
 ## La Méthodologie Autrichienne
 
-<chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
+<chapterId>1fdf4c5d-0008-4f69-97e7-127fb3ef63e0</chapterId>
 
 :::video id=bd52d8e9-b8ca-4451-bf20-8fb210a3e7a5:::
 
@@ -555,16 +555,16 @@ La méthodologie est un aspect essentiel en économie et en sciences sociales en
 
 # Section finale
 
-<partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
+<partId>373760d2-4e6e-4a05-8081-6d02072457d7</partId>
 
 ## Avis & Notes
 
-<chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
+<chapterId>2373a3ce-1c87-415a-8dd6-0437b4f71e79</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Examen final
 
-<chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
+<chapterId>1c584ca3-c738-4151-8a85-101a142fcbbc</chapterId>
 <isCourseExam>true</isCourseExam>
 
 

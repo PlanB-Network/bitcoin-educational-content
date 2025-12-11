@@ -84,12 +84,12 @@ objectives:
 
 # Понимание Bitaxe
 
-<partId>ba1cb4ea-6a77-54fd-916c-57285c8c2418</partId>
+<partId>6b266525-d384-402f-bec3-ac295deabc2e</partId>
 
 
 ## История
 
-<chapterId>73d928e5-72f0-5c17-a7a6-8b6ece7f9a30</chapterId>
+<chapterId>fdb1080f-7843-4c20-8a4d-971829384638</chapterId>
 
 :::video id=67d2529a-b7cb-4804-b02c-e56c12c9e66e:::
 
@@ -146,7 +146,7 @@ objectives:
 
 ## Что такое "Битакс"?
 
-<chapterId>6a56af56-35ce-51af-999b-4bc7305e6464</chapterId>
+<chapterId>bd2be7ab-90c1-40fe-b538-30617675b647</chapterId>
 
 :::video id=12b26c7a-74b1-4ea9-afc0-e3ef90cf5837:::
 
@@ -213,7 +213,7 @@ Bitaxe Ultra представляет собой эволюцию платфор
 
 ## Где я могу узнать больше?
 
-<chapterId>706f2fff-fa1c-5d8e-b14c-ece6e42c016f</chapterId>
+<chapterId>3c73f43d-8066-41ab-a566-cf92d9b9615d</chapterId>
 
 :::video id=90088397-3a16-485f-bbd2-89cdbb844e4a:::
 
@@ -290,12 +290,12 @@ Bitaxe Ultra представляет собой эволюцию платфор
 
 # Программное обеспечение и операции
 
-<partId>04b302a9-42ba-5ad4-834c-6979950c2948</partId>
+<partId>d87beb45-632b-4998-8879-ecdb68a2f002</partId>
 
 
 ## Что такое AxeOS?
 
-<chapterId>a0cdf10d-e007-58e2-a17b-b588fd393b5e</chapterId>
+<chapterId>34fe2998-b83c-4222-b141-622c7d9133f2</chapterId>
 
 :::video id=de7bcbf2-f9ac-4057-ad40-29dc223b4798:::
 
@@ -368,12 +368,12 @@ AxeOS включает в себя сложные функции обслужи�
 
 # Сообщество и сотрудничество
 
-<partId>eed1ce48-6752-5744-91f7-91e4e20ff6b2</partId>
+<partId>1f7f9a5a-2597-4f2d-a345-21b70ddfa68b</partId>
 
 
 ## Обзор вкладов с открытым исходным кодом
 
-<chapterId>715d026e-cebc-536e-a34e-728f5653b999</chapterId>
+<chapterId>701888fc-8c6c-4053-bd29-20cd622d8d9b</chapterId>
 
 :::video id=7298ba19-28d2-4a7c-ac0b-44ad0c4770cf:::
 
@@ -439,7 +439,7 @@ Pull request - это механизм, с помощью которого вн�
 
 ## Практическая работа с открытым исходным кодом
 
-<chapterId>84d033f5-7182-584f-b1a5-697172bc7a1c</chapterId>
+<chapterId>eb2bad4f-f340-42f7-b7d2-56eeb98c9c7f</chapterId>
 
 :::video id=7d318fd0-6f0b-422a-9f30-2c470b56951d:::
 
@@ -503,7 +503,7 @@ Pull request - это механизм, с помощью которого вн�
 
 ## Что такое Public-Pool?
 
-<chapterId>b461bf94-4a90-5bb8-ba3f-976d5d57be0d</chapterId>
+<chapterId>4b0ba04d-84d9-4cad-a79c-cc3194a30378</chapterId>
 
 
 :::video id=d4652496-1ed4-4415-8048-0b6871b9ed51:::
@@ -552,7 +552,7 @@ Public Pool включает в себя несколько инновацион
 
 ## Как установить Public-Pool на Umbrel
 
-<chapterId>7f6d0307-7715-5581-89ea-f13cf8754f9a</chapterId>
+<chapterId>a9a6a2d0-5d95-45a2-8a00-abdd21a70be6</chapterId>
 
 
 :::video id=3a4fe0a9-bbf5-458a-8ec1-52c3b83afd87:::
@@ -601,12 +601,12 @@ Umbrel представляет собой комплексную платфор
 
 # Сборка оборудования и устранение неполадок
 
-<partId>f6987088-5ba4-52e2-b2d0-aa122080940c</partId>
+<partId>f6cd2cf7-108c-4887-95cc-ac210cac4503</partId>
 
 
 ## Какие инструменты использовать?
 
-<chapterId>733935b5-0171-5a22-838c-e192df6f7ccf</chapterId>
+<chapterId>efe5bbe9-2f26-43a1-8979-9fd81f6c768a</chapterId>
 
 
 :::video id=bddd0e47-7b43-4685-ba2e-bf3a8ff653c9:::
@@ -665,7 +665,7 @@ Umbrel представляет собой комплексную платфор
 
 ## Устранение проблем с пайкой
 
-<chapterId>96663744-b4f7-5154-930f-a68ba7954603</chapterId>
+<chapterId>d22c10a6-d4f5-47bc-83ce-2154660902cf</chapterId>
 
 
 :::video id=9286c0dc-acd6-44d9-b34e-59cfb2da9748:::
@@ -724,7 +724,7 @@ Umbrel представляет собой комплексную платфор
 
 ## Как отладить Bitaxe с помощью AxeOS
 
-<chapterId>603f5c0d-4b7c-51e1-9bad-318a8b8e9db7</chapterId>
+<chapterId>bb72be28-9dc1-4bef-a14a-95152e9da2aa</chapterId>
 
 :::video id=d23d748b-510e-4748-9617-b875da757031:::
 
@@ -772,7 +772,7 @@ Umbrel представляет собой комплексную платфор
 
 ## Как отлаживать с помощью USB?
 
-<chapterId>f3182763-e1ef-5460-8bc0-f2ea53e3a410</chapterId>
+<chapterId>e63b1e03-a13a-4033-b69f-d13987882b4d</chapterId>
 
 
 :::video id=fe1b4b48-5f8a-4fd7-9417-ca03a36bce9f:::
@@ -831,12 +831,12 @@ Umbrel представляет собой комплексную платфор
 
 # Расширенная настройка
 
-<partId>8d333102-ecb5-5f05-bfb5-03a27b2d0d70</partId>
+<partId>26474d8d-0f8c-40a0-b051-4425a3d74e65</partId>
 
 
 ## Модификация печатной платы
 
-<chapterId>ca08d2a4-2b34-575b-aecc-7482a03c190e</chapterId>
+<chapterId>e8561533-7cd8-4ee0-b19c-7ba2132ca8e5</chapterId>
 
 
 :::video id=30fb0010-f560-4e96-a05b-c21dc172746e:::
@@ -888,7 +888,7 @@ KiCad - один из самых мощных инструментов с отк
 
 ## Как создать фабричный файл?
 
-<chapterId>e9da631c-e6d1-50c1-bb59-bc8455c29d3e</chapterId>
+<chapterId>35409a55-5247-4523-800f-4b1ed3cbb7ad</chapterId>
 
 
 :::video id=07f980bf-6052-4ed4-bf7b-75e8aba585df:::
@@ -952,7 +952,7 @@ KiCad - один из самых мощных инструментов с отк
 
 ## Как использовать Bitaxe Web Flasher?
 
-<chapterId>8c3e2d4c-c038-53ec-93cb-cc30a29e4394</chapterId>
+<chapterId>8eec7693-3dcc-4a64-a2c2-6157f17ded09</chapterId>
 
 
 :::video id=291757b9-f459-48f6-8766-56387f907859:::
@@ -1007,7 +1007,7 @@ KiCad - один из самых мощных инструментов с отк
 
 ## Как создать и заказать печатную плату?
 
-<chapterId>566f5e06-9ec9-55c0-84f6-101d6ca4c2ff</chapterId>
+<chapterId>261e34b7-938e-4d0c-852e-4490d7dc86c9</chapterId>
 
 
 :::video id=9a56ad84-d9cf-4f85-ab98-301fb3101228:::
@@ -1065,12 +1065,12 @@ KiCad - один из самых мощных инструментов с отк
 
 # Оптимизация производительности
 
-<partId>87b8790f-b7a9-5286-a7f8-328176ef7cb5</partId>
+<partId>c8465595-314a-42c4-b940-6263bf4c7bf7</partId>
 
 
 ## Бенчмарк вашего Bitaxe
 
-<chapterId>7259a4b1-93c1-5956-87d3-baaee58115af</chapterId>
+<chapterId>c6ddaa84-6d67-411c-984d-d604bd111072</chapterId>
 
 
 :::video id=2491a783-9750-4ea5-a40c-1d1d611784d5:::
@@ -1119,7 +1119,7 @@ KiCad - один из самых мощных инструментов с отк
 
 ## Разгон Bitaxe
 
-<chapterId>6b48c0c6-51c3-51a3-b317-850a374ae61e</chapterId>
+<chapterId>af0e8e9a-3915-4cca-8c8d-d87b85c08534</chapterId>
 
 
 :::video id=46c7a442-cd72-477c-8c91-b2c489ada1e6:::
@@ -1168,17 +1168,17 @@ KiCad - один из самых мощных инструментов с отк
 
 # Заключительный раздел
 
-<partId>33367393-17a7-58d4-8359-79fffc6221fb</partId>
+<partId>18da936a-40cb-4362-a5f9-6d8c42599bc2</partId>
 
 
 ## Оцените этот курс
 
-<chapterId>785f8b92-c8a6-5a65-aa39-e9753a7edf51</chapterId>
+<chapterId>24b12120-e16d-405c-802e-4260bd1dbb00</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Заключение
 
-<chapterId>758baee6-2404-56fb-b534-6a39e441ae29</chapterId>
+<chapterId>96cf7269-ef00-4a55-96ae-e30ff0639311</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

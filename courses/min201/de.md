@@ -22,11 +22,11 @@ Wenn Sie Hilfe bei Ihrem Vorhaben benötigen, wurde ein Telegram für die Studie
 
 # Einführung
 
-<partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
+<partId>264edfbf-0647-43c0-b202-5f82bfaba747</partId>
 
 ## Kursübersicht
 
-<chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
+<chapterId>a1885374-d6b9-4d6d-9b90-44f27099e4ae</chapterId>
 
 Willkommen zum Kurs MIN201: Eine Einführung ins Mining. Ajelex, Jim & Rogzy freuen sich darauf, Sie bei Ihren ersten Schritten in dieser Branche zu begleiten. Wir hoffen, dass Ihnen der Kurs gefällt und Sie das Abenteuer des Home-Minings beginnen!
 
@@ -52,11 +52,11 @@ Bereit, die Welt des Bitcoin-Minings zu entdecken und die praktische Herausforde
 
 # Alles über das Mining wissen
 
-<partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
+<partId>80efb136-9e4e-40f2-98a2-f6721737fc81</partId>
 
 ## Erklärung des Minings
 
-<chapterId>36a82de7-87ee-5e7a-b69e-48fc30030447</chapterId>
+<chapterId>3d083cf5-9bbd-4d2b-94d9-e12a82819395</chapterId>
 
 
 ### Mining erklärt: Die Puzzle-Analogie
@@ -100,7 +100,7 @@ Zusammenfassend lässt sich sagen, dass sich die Bitcoin-Mining-Industrie weiter
 
 ## Die Bitcoin-Mining-Industrie
 
-<chapterId>0896dfc1-c97e-5bec-9bf1-8c20b3388a2c</chapterId>
+<chapterId>75651629-94db-47e7-8735-a8ed75ae4e1d</chapterId>
 
 
 ### Mining-Pools
@@ -151,7 +151,7 @@ Die allgemeine Schlussfolgerung ist, dass die Dezentralisierung für die Sicherh
 
 ## Die Nuancen der Mining-Industrie
 
-<chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
+<chapterId>60d00d42-bd45-4afa-8612-939d714b1f6f</chapterId>
 
 
 ### Das Prinzip von Attakai
@@ -188,7 +188,7 @@ Die Spekulation um die zukünftige Nutzung des Blockraums ist weit verbreitet, d
 
 ## Das Mining im Bitcoin-Protokoll
 
-<chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
+<chapterId>51e7a8b1-e901-424e-bd63-51451b330da2</chapterId>
 
 
 Die Rolle der Miner im Bitcoin-Netzwerk war ein intensiv diskutiertes Thema während des Blockkriegs. Obwohl sie für die Sicherheit und Funktionalität des Netzwerks unerlässlich sind, halten die Miner nicht notwendigerweise die ultimative Macht im Bitcoin-Ökosystem. Das Gleichgewicht zwischen den Minern, den Knoten und den Endbenutzern gewährleistet die Integrität und Verteilung des Netzwerks.
@@ -227,7 +227,7 @@ Zusammenfassend stärken die Miner das Bitcoin-Netzwerk gegen Zensur, indem sie 
 
 ## Bitcoin-Preis und Hashrate, eine Korrelation?
 
-<chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
+<chapterId>002750ad-c35e-48c3-8644-302467a384d3</chapterId>
 
 ### Hashrate, Preis und Rentabilität
 
@@ -259,7 +259,7 @@ Die Initiative Attakai hebt die Bedeutung des Beitrags zum Netzwerk hervor und b
 
 ## Souveränität und Regulierung
 
-<chapterId>9d9a5908-2acc-501e-906b-a6fce9ecfebd</chapterId>
+<chapterId>ec30a758-5a03-43a1-9b75-e4bb6053a1be</chapterId>
 
 ### Souveränität vor Profit?
 
@@ -291,11 +291,11 @@ Zusammenfassend lässt sich sagen, dass trotz des regulatorischen Risikos und de
 
 # Home-Mining und Wärmerückgewinnung
 
-<partId>78d22d06-2c4a-573f-86bb-1027115dad3a</partId>
+<partId>c0fb1f33-6c44-48a7-83f5-b1c9cbc314b3</partId>
 
 ## Attakai - Home-Mining ermöglicht und zugänglich gemacht!
 
-<chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
+<chapterId>64c27a67-c2f0-4456-9821-5c94ea623de5</chapterId>
 
 Attakai, was auf Japanisch "ideale Temperatur" bedeutet, ist der Name der Initiative, die das Bitcoin-Mining durch Wärmerückgewinnung entdecken möchte, ins Leben gerufen von @ajelexBTC und @jimzap21 mit Découvre Bitcoin.
 Dieser Leitfaden zur Umrüstung eines ASIC dient als Grundlage, um mehr über das Mining, seine Funktionsweise und die zugrunde liegende Wirtschaft zu erfahren, indem gezeigt wird, wie ein Bitcoin-Miner als Heizkörper in Wohnungen verwendet werden kann. Dies bietet mehr Komfort und Einsparungen und ermöglicht es den Teilnehmern, BTC-Cashback auf ihrer Stromrechnung ohne KYC zu erhalten.
@@ -342,7 +342,7 @@ Dies ist eine ausgezeichnete Gelegenheit, durch praktisches Lernen zu lernen und
 
 ## Leitfaden zum Kauf eines gebrauchten ASIC
 
-<chapterId>3b0b3bf0-859b-57f2-b92f-843ac70b7e68</chapterId>
+<chapterId>17e07e2e-9848-4fb0-be55-077ea783c670</chapterId>
 
 In diesem Abschnitt werden wir bewährte Praktiken für den Kauf eines gebrauchten Bitmain Antminer S9 behandeln, der die Grundlage für dieses Retrofitting-Tutorial als Heizkörper bildet. Dieser Leitfaden gilt auch für andere ASIC-Modelle, da es sich um einen allgemeinen Leitfaden für den Kauf gebrauchter Mining-Hardware handelt.
 
@@ -399,7 +399,7 @@ Um diesen Leitfaden in einem Satz zusammenzufassen: **"Vertraue nicht, überprü
 
 ## Anleitung zum Kauf von Hardwarekomponenten für die Modifikation des S9
 
-<chapterId>fa5f5eca-bcbf-5a83-9b03-98ecbadbabd6</chapterId>
+<chapterId>67c86e8a-e7d8-4744-8eeb-03a17c09bfa2</chapterId>
 
 Besitzer eines Antminer S9 wissen wahrscheinlich, wie laut und sperrig dieses Gerät sein kann. Es ist jedoch möglich, es mit einigen einfachen Schritten in eine leise und vernetzte Heizung umzuwandeln. In diesem Abschnitt stellen wir Ihnen die erforderliche Ausrüstung für die Modifikationen vor.
 
@@ -444,11 +444,11 @@ Liste des Materials und Links
 
 # Attakai - Änderung der Software eines Antminer S9
 
-<partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
+<partId>17871b9d-4c93-4ca4-a09f-c6dc8a1df1d1</partId>
 
 ## Einrichten einer Vonet WLAN/Ethernet-Bridge
 
-<chapterId>3cf487a4-21ef-5b24-83d5-789b811f740f</chapterId>
+<chapterId>bf5b8552-8f0f-44aa-b742-600a657bdfbf</chapterId>
 
 Um Ihren ASIC über WLAN zu verbinden, benötigen Sie ein Gerät namens Bridge, das das WLAN-Signal Ihres Routers empfängt und an ein anderes Gerät über Ethernet weiterleitet.
 
@@ -487,7 +487,7 @@ Sobald die Bridge verbunden ist, schließen Sie das Ethernet-Kabel der Bridge an
 
 ## Zurücksetzen eines Antminer S9
 
-<chapterId>b518b6bd-9dae-5136-ae3c-1fafb1cb2592</chapterId>
+<chapterId>e83025fd-0261-4d4a-913a-dbfc05f7e51e</chapterId>
 
 Vor der Installation von BraiinOS+ kann es erforderlich sein, Ihren S9 auf die Werkseinstellungen zurückzusetzen.
 Diese Methode kann zwischen 2 Minuten und 10 Minuten nach dem Start des Miners angewendet werden.
@@ -497,7 +497,7 @@ Diese Methode kann zwischen 2 Minuten und 10 Minuten nach dem Start des Miners a
 
 ## BraiinsOS+ auf einem Antminer S9 installieren
 
-<chapterId>38e8b1a8-8b1d-51ed-8b92-59d4ddb15184</chapterId>
+<chapterId>d2ea148c-37dd-4505-97e9-78ce2237b84a</chapterId>
 
 Die von Antminer auf ihren Mining-Maschinen installierte Originalsoftware ist funktional eingeschränkt. Aus diesem Grund werden wir in dieser Anleitung eine andere Software namens BraiinsOS+ installieren. Es handelt sich um eine Drittanbieter-Software, die von dem ersten Bitcoin-Mining-Pool entwickelt wurde und mehr Funktionen bietet, z. B. die Möglichkeit, die Leistung der Maschine zu ändern.
 
@@ -533,7 +533,7 @@ Hier zeigen wir Ihnen, wie Sie Braiins OS+ einfach direkt auf den Speicher Ihres
 
 ## BraiinsOS+ konfigurieren
 
-<chapterId>36e432f2-85bc-52d0-a62a-009fc4c69338</chapterId>
+<chapterId>41f8ef76-c5b9-427f-8b22-1e3761057157</chapterId>
 
 Sie müssen sich über einen Browser mit der lokalen IP-Adresse Ihres ASIC-Geräts in Ihrem Netzwerk verbinden.
 
@@ -577,11 +577,11 @@ Auf dieser ersten Seite können Sie die Leistung Ihrer Maschine in Echtzeit übe
 
 # Attakai - Lüftermodifikation
 
-<partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
+<partId>a18012de-bf2e-4469-8b33-6bd9368cf27d</partId>
 
 ## Austausch des Netzteil-Lüfters
 
-<chapterId>0c6befa7-f3ef-5bcf-ae8d-0ad5e5d41d70</chapterId>
+<chapterId>369aa394-0597-4578-96ef-01a45e9d86c6</chapterId>
 
 > ACHTUNG: Es ist unerlässlich, zuvor Braiins OS+ auf Ihrem Miner oder einer anderen Software installiert zu haben, die die Leistung Ihres Geräts reduzieren kann. Diese Maßnahme ist entscheidend, da wir leistungsschwächere Lüfter installieren werden, die weniger Wärme abführen können, um den Lärm zu reduzieren.
 
@@ -653,7 +653,7 @@ Setzen Sie schließlich die Gehäuseabdeckung wieder ein und schrauben Sie die 6
 
 ## Ersetzen der Hauptlüfter
 
-<chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
+<chapterId>46cd034a-1ffd-4459-9d66-a68e9b4bfeeb</chapterId>
 
 > ACHTUNG: Es ist unerlässlich, dass Sie zuvor Braiins OS+ oder eine andere Software auf Ihrem Miner installiert haben, die die Leistung Ihres Geräts reduzieren kann. Diese Maßnahme ist entscheidend, da wir leisere Lüfter installieren werden, die weniger Wärme abführen können.
 
@@ -706,11 +706,11 @@ Und voilà, Bravo! Sie haben die gesamte mechanische Komponente Ihres Miners aus
 
 # Attakai - Konfiguration
 
-<partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
+<partId>045a50df-20cd-423f-8f2f-dce686793ffb</partId>
 
 ## Beitritt zu einem Mining-Pool
 
-<chapterId>b57a6105-0a53-5fe9-bad1-d6d9daf97c0d</chapterId>
+<chapterId>db476c86-3dfe-4fcd-948a-083df8442395</chapterId>
 
 Man kann sich einen Mining-Pool wie eine landwirtschaftliche Genossenschaft vorstellen. Die Landwirte bringen ihre Produktion zusammen, um die Varianz von Angebot und Nachfrage zu reduzieren und so stabilere Einnahmen für ihren Betrieb zu erzielen. Ein Mining-Pool funktioniert auf die gleiche Weise, wobei die gemeinsam genutzte Ressource Hashes sind. Die Entdeckung eines einzigen gültigen Hashes ermöglicht die Erstellung eines Blocks und den Gewinn der Coinbase oder Belohnung, die derzeit 6,25 BTC plus die Transaktionsgebühren im Block beträgt.
 
@@ -743,7 +743,7 @@ Sie können nun zur Benutzeroberfläche von Braiins OS+ zurückkehren und diese 
 
 ## Optimieren Sie die Leistung Ihres Antminer S9
 
-<chapterId>25380972-31c7-540d-80d8-17a06b171ca0</chapterId>
+<chapterId>e8dd98a2-86be-4cb1-a061-79f5c8129df6</chapterId>
 
 Das Übertakten und das Auto-Tuning beinhalten beide das Anpassen der Frequenzen auf den Hash-Boards, um die Leistung des ASICs zu verbessern. Der Unterschied zwischen den beiden liegt in der Komplexität dieser Frequenzeinstellungen.
 
@@ -767,7 +767,7 @@ Das Endergebnis ist eine höhere Hash-Rate pro Watt Stromverbrauch, was bedeutet
 
 ## Bewertungen & Noten
 
-<chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
+<chapterId>9c4bf742-f774-4d82-bdef-0c5398be7759</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Abschlussprüfung

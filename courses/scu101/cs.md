@@ -24,11 +24,11 @@ Théo; příspěvek
 
 # Úvod
 
-<partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
+<partId>69253dd0-cac7-4c2d-9ad6-c0c3ccfae54e</partId>
 
 ## Přehled kurzu
 
-<chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
+<chapterId>72ea4d1a-4ae9-4fb3-a3ba-06b97108d430</chapterId>
 
 :::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
 
@@ -82,11 +82,11 @@ Připraveni posílit své digitální zabezpečení a převzít kontrolu nad sv�
 
 # Vše, co potřebujete vědět o prohlížení internetu
 
-<partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
+<partId>5950eef8-521d-48c0-b576-d12140254cf7</partId>
 
 ## Prohlížení internetu
 
-<chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
+<chapterId>fa07f1d8-2c4f-4c6b-a650-028b6a57f373</chapterId>
 
 :::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
 
@@ -134,7 +134,7 @@ https://planb.academy/tutorials/computer-security/communication/tor-browser-a847
 
 ## VPN a internetové připojení
 
-<chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
+<chapterId>dc8072e2-b632-4f68-a2c6-f1d57bcef675</chapterId>
 
 :::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
 
@@ -172,11 +172,11 @@ Shrnutí, použití VPN může výrazně zlepšit online bezpečnost, jak pro fi
 
 # Nejlepší postupy pro používání počítače
 
-<partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>
+<partId>b33d995e-8e58-4300-a41c-5ba658522fec</partId>
 
 ## Používání počítače
 
-<chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
+<chapterId>138d2f90-de5c-4219-9020-fcd9177c0017</chapterId>
 
 :::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
@@ -227,7 +227,7 @@ Na závěr je nezbytné vybrat si operační systém, který vyhovuje vašim pot
 
 ## Hacking & Správa záloh: Ochrana vašich dat
 
-<chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
+<chapterId>a26f8b7b-9845-4adc-bf9c-3750cd7d692c</chapterId>
 
 :::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
 
@@ -273,11 +273,11 @@ https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 # Implementace řešení.
 
-<partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
+<partId>2e302675-8b3b-4a67-a4d8-f93ec1f30f8a</partId>
 
 ## Správa emailových účtů
 
-<chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+<chapterId>b4f36408-c028-4027-ae43-6f20eaef9c01</chapterId>
 
 :::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
 
@@ -312,7 +312,7 @@ https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b0
 
 ## Správce hesel
 
-<chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+<chapterId>fcdebe4d-e2ee-495a-b0e7-ae967250866c</chapterId>
 
 :::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
@@ -362,7 +362,7 @@ https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb
 
 ## Dvoufaktorové ověření
 
-<chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+<chapterId>1dc6b743-c924-41b1-9ff7-1c49957521d4</chapterId>
 
 :::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
@@ -412,11 +412,11 @@ https://planb.academy/tutorials/computer-security/authentication/security-key-61
 
 # Praktická sekce
 
-<partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
+<partId>34bd8613-7cae-43af-84a3-69e6f32d56a2</partId>
 
 ## Nastavení poštovní schránky
 
-<chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
+<chapterId>2691865b-3a6b-4ef1-b2e7-b0214543cbb8</chapterId>
 
 Chrání své e-mailové schránky je důležitým krokem k zabezpečení online aktivit a ochraně osobních údajů. Tento návod vás krok za krokem provede vytvořením a nastavením účtu ProtonMail, poskytovatele známého pro svou vysokou úroveň bezpečnosti, který nabízí end-to-end šifrování vašich komunikací. Ať už jste začátečník nebo zkušený uživatel, zde navrhované osvědčené postupy vám pomohou posílit zabezpečení vaší pošty a zároveň využít pokročilé funkce ProtonMail:
 
@@ -424,7 +424,7 @@ https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b0
 
 ## Zabezpečení pomocí 2FA
 
-<chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
+<chapterId>704df968-7c64-4f67-a90c-02f23969d308</chapterId>
 
 Dvoufaktorová autentizace (2FA) se stala nezbytnou pro zabezpečení vašich online účtů. V tomto tutoriálu se naučíte, jak nastavit a používat aplikaci 2FA Authy, která generuje dynamické 6místné kódy pro ochranu vašich účtů. Authy je velmi snadné používat a synchronizuje se na více zařízeních. Objevte, jak nainstalovat a nastavit Authy a tím posilte zabezpečení svých online účtů již nyní:
 
@@ -436,7 +436,7 @@ https://planb.academy/tutorials/computer-security/authentication/security-key-61
 
 ## Vytvoření správce hesel
 
-<chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
+<chapterId>b8ac0984-b44d-4617-a25d-dba193741408</chapterId>
 
 Správa hesel je výzvou v digitálním věku. Všichni máme mnoho online účtů, které je třeba zabezpečit. Správce hesel vám pomůže vytvářet a ukládat silná a jedinečná hesla pro každý účet.
 
@@ -450,7 +450,7 @@ https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb
 
 ## Zabezpečení vašich účtů
 
-<chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
+<chapterId>da53a2f8-a71a-405d-bb3f-45b794e3d489</chapterId>
 
 V těchto dvou tutoriálech vás také provedu zabezpečením vašich online účtů a vysvětlím, jak postupně přijímat bezpečnější postupy pro každodenní správu vašich hesel.
 
@@ -460,7 +460,7 @@ https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb
 
 ## Změna prohlížeče & VPN
 
-<chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
+<chapterId>42a3ef5a-6819-417a-b09e-811c9032053e</chapterId>
 
 Ochrana vašeho online soukromí je také klíčovým bodem pro zajištění vaší bezpečnosti. Použití VPN může být prvním krokem k jeho dosažení.
 
@@ -476,7 +476,7 @@ https://planb.academy/tutorials/computer-security/communication/tor-browser-a847
 
 ## Nastavení zálohování
 
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+<chapterId>f79061e6-6125-46dd-a935-0f10741e1b38</chapterId>
 
 Chránit vaše osobní soubory je také klíčovým bodem. Tento tutoriál vám ukazuje, jak zavést efektivní zálohovací strategii díky Proton Drive. Objevte, jak používat toto zabezpečené cloudové řešení k aplikaci metody 3-2-1: tři kopie vašich dat na dvou různých médiích, z nichž jedna kopie je mimo místo. Tím zajistíte přístupnost a bezpečnost vašich citlivých souborů:
 
@@ -488,11 +488,11 @@ https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 # Jít dále
 
-<partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
+<partId>80c20a8c-ce97-45d2-8079-3ab461c2095d</partId>
 
 ## Jak pracovat v oblasti kybernetické bezpečnosti
 
-<chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
+<chapterId>bd32a678-d693-479f-b90a-faaf95a71a53</chapterId>
 
 :::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
 
@@ -532,7 +532,7 @@ Ovládnutím těchto dovedností a nástrojů budete dobře vybaveni pro úspě�
 
 ## Rozhovor s Renaudem
 
-<chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+<chapterId>a85280cb-cf59-4b76-a8d8-446871cd85fa</chapterId>
 
 :::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
@@ -569,12 +569,12 @@ It is also worth mentioning the system called "Lightning authentication", generu
 
 ## Recenze & Hodnocení
 
-<chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
+<chapterId>37e7d514-4dd7-4591-971e-04d6e3a4ae8f</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Závěrečná zkouška
 
-<chapterId>a894b251-a85a-5fa4-bf2a-c2a876939b49</chapterId>
+<chapterId>14c6a56a-39d3-4bda-92aa-aa3b6eaa7353</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Závěr

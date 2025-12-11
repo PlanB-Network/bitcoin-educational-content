@@ -26,14 +26,14 @@ Bu büyüleyici kurs sizi ilk uygarlıklardan günümüzdeki para sistemimize ka
 # Giriş
 
 
-<partId>59878a67-8a1d-5d6b-af41-5b847c14363c</partId>
+<partId>1aae9f56-c570-4118-9781-b81aa7678aba</partId>
 
 
 
 ## Para Tarihine Giriş
 
 
-<chapterId>ca53597e-be9a-5261-a55f-11fac8504a68</chapterId>
+<chapterId>ca1c7cf4-c3c5-40b7-8a22-06f96069a870</chapterId>
 
 
 :::video id=08ff35ca-8a40-4286-abaf-71283faf6e78:::
@@ -111,14 +111,14 @@ Teşekkürler ve iyi eğlenceler!
 # Borsaların ortaya çıkışı
 
 
-<partId>da5e4981-9ea5-5208-beab-3b75c9043632</partId>
+<partId>d71fa28a-c2e7-43cc-a222-cf0e5cf28635</partId>
 
 
 
 ## Australopithecus'tan Modern İnsana
 
 
-<chapterId>34a773aa-f2d3-5c26-8be4-f2cd79ed6fbc</chapterId>
+<chapterId>83bac8ad-3005-404e-bc78-282ad8c7ae64</chapterId>
 
 
 :::video id=4f333013-4b2a-42ab-8761-593fafc971ca:::
@@ -211,7 +211,7 @@ Australopithecus'tan modern insana kadar insan evrimine genel bir bakış, Neoli
 ## Avcı-Toplayıcıdan Çiftçiye: Uygarlığın Şafağı
 
 
-<chapterId>ea950b6e-9eb7-553d-8f04-0eb042bb1f5a</chapterId>
+<chapterId>8eaca827-adf6-492e-95c4-84c076b5ff6a</chapterId>
 
 
 :::video id=4b49a376-f6f4-42a0-86fa-264997a079f0:::
@@ -276,7 +276,7 @@ Bir başka teori de evcilleştirme ile çözülen sorunu köylerin kendilerinin 
 ## Neolitik ticaret
 
 
-<chapterId>8e495224-6d55-58f6-a9dc-ac2814281cfa</chapterId>
+<chapterId>f9ee1193-3131-4073-aa2c-6a3a09f90e10</chapterId>
 
 
 :::video id=d04245af-e416-48b1-8157-d569207a32c4:::
@@ -367,7 +367,7 @@ Neolitik dönem böylece modern ekonominin temellerini atmıştır: emeğin uzma
 ## İlk şehirlerin oluşumu ve yazının ortaya çıkışı
 
 
-<chapterId>d6b799c2-8bf1-11f0-9c54-1b9f4f4c7011</chapterId>
+<chapterId>2b2c0a0a-5d44-47ca-9c61-3131836b9d2b</chapterId>
 
 
 
@@ -466,7 +466,7 @@ Hem ekonomik bir yönetim aracı hem de kültürel bir vektör olan bu yazı bi�
 ## Sümer tabletlerinin rolü
 
 
-<chapterId>a396e6c5-56cc-5410-9e6b-0274401c5425</chapterId>
+<chapterId>40afd5ef-4211-4c18-b675-c64629afcb09</chapterId>
 
 
 :::video id=a0729a35-01ec-4aa4-828f-d4ccc2eb168e:::
@@ -524,7 +524,7 @@ Bu nedenle, bize ulaşan Mezopotamya belgeleri esas olarak ekonomik alışveriş
 ## Sümer tabletlerinde elit kontrolü
 
 
-<chapterId>c6d3df0e-b1e1-58dc-ab35-9f76bbc39393</chapterId>
+<chapterId>9d60b12a-3c22-4576-b214-515f483419c7</chapterId>
 
 
 :::video id=04a95fb8-a701-4a48-9ce8-0e9b6ba256fd:::
@@ -612,14 +612,14 @@ Bu ufuk açıcı dönem aynı zamanda herhangi bir parasal yeniliğin doğasınd
 # Eski uygarlıklarda ekonomi ve para
 
 
-<partId>a16bcf4c-8c3a-11f0-9e79-2bd363a484bd</partId>
+<partId>0bc58dbd-4810-4991-8d8b-2050f7b6f3f6</partId>
 
 
 
 ## Tunç Çağı'nın büyük uygarlıkları
 
 
-<chapterId>fab9334c-7385-5d7c-ad40-7d152beb22a1</chapterId>
+<chapterId>c14f4e1b-c94d-45cd-a377-dcdbb6e74264</chapterId>
 
 
 :::video id=737e12e8-1033-4210-b1dd-b8a680f68b17:::
@@ -685,7 +685,7 @@ Ancak Babil'de bu ünlü asma bahçelerden hiçbir iz yoktur. Ninova'da ise birk
 ## Mezopotamya'da ekonomik örgütlenme
 
 
-<chapterId>6afb6fc8-cbb7-56a5-8427-484b4b7d7477</chapterId>
+<chapterId>cabade12-f25b-49d6-b286-39baca82d9b1</chapterId>
 
 
 :::video id=aa6a2cbd-5916-4ae3-ad4f-65f0bd5643fa:::
@@ -792,7 +792,7 @@ Sonraki bölümlerde aynı şeyi Mısır ve Çin için yapacağız.
 ## Eski Mısır'da ekonomik ve parasal örgütlenme
 
 
-<chapterId>bffcc16c-7fbf-5992-a0fa-6a7726d7d287</chapterId>
+<chapterId>85ffceb7-15e9-47a6-9c0b-d1038303f738</chapterId>
 
 
 :::video id=40c1c4e5-b190-4bb6-b8a0-810c9ce7698b:::
@@ -929,7 +929,7 @@ Yazar, sikke basımının ilk günlerinden itibaren, sadece ağırlığı belgel
 ## Antik Çin'de işaret parası ve ekonomik ve parasal organizasyon
 
 
-<chapterId>e08d3be9-423c-5cf3-a606-6ad54e2261af</chapterId>
+<chapterId>6d1f5abb-5c3e-43f9-a0d8-e31351931a1d</chapterId>
 
 
 :::video id=ae7e6367-1725-455e-bfe6-359be1f443e5:::
@@ -1049,7 +1049,7 @@ Dolayısıyla Çin deneyimi, son derece güvene dayalı bir para anlayışı, pa
 ## Antik çağda toplumsal ve ekonomik örgütlenme
 
 
-<chapterId>4023c3ce-7a47-5ac4-8f5f-c7ab699ab20f</chapterId>
+<chapterId>96939b3c-a366-4089-9432-12ed1510cd4e</chapterId>
 
 
 :::video id=2761efe4-21cf-4f06-9bda-c03f9ff39012:::
@@ -1173,14 +1173,14 @@ Bu tarihsel modellerin analizi, paranın mübadele işlevinin ötesinde, medeniy
 # Basılı paranın doğuşu
 
 
-<partId>232e365a-8c3b-11f0-b276-b3ab70d1a5a1</partId>
+<partId>8409c7e3-66d1-4fa9-815d-863cdaec2ad5</partId>
 
 
 
 ## Madeni paraların ortaya çıkışı
 
 
-<chapterId>40ed3414-3066-57bd-bc1b-617ad0a354e0</chapterId>
+<chapterId>e864c93b-dbf7-40c9-842f-0127243bd3d0</chapterId>
 
 
 :::video id=1d6834c4-98a3-43fe-ba80-04be51b0486e:::
@@ -1233,7 +1233,7 @@ Bu dönemi görsel bir biçimde anlatmak için, yukarıda Hindistan'da, Hint yar
 ## Lidyalılar ve Persler
 
 
-<chapterId>eb802ab8-8ffd-5b25-907f-8944f120ed14</chapterId>
+<chapterId>f5622481-fc88-4f23-a13a-06bb42cdbd55</chapterId>
 
 
 :::video id=f151eb42-5ff3-4ca1-9af1-1ae2a5e051c0:::
@@ -1317,7 +1317,7 @@ Bu bölümde hatırlanması gereken kilit nokta, genel olarak paradan değil, ö
 ## Kurumsal müdahale ve ilk madeni paralar
 
 
-<chapterId>3e1efd08-99e3-5a32-9908-3185fef0e640</chapterId>
+<chapterId>c92b2f5f-59c5-4791-be30-eb474e80f529</chapterId>
 
 
 
@@ -1390,7 +1390,7 @@ En eski Lidya sikkelerinden itibaren gözlemlenebilen bu manipülasyon, parasal 
 ## Parça imalatı
 
 
-<chapterId>b205f4f2-c293-5308-b812-a998de9ad45e</chapterId>
+<chapterId>49f3c80e-7bea-4b4c-a19c-54dc44a75552</chapterId>
 
 
 
@@ -1436,7 +1436,7 @@ Yani bu sarkaç vuruşu kavramı kırpma fenomenine yardımcı oldu. Ve bu tekno
 # Paranın ortaya çıkışına ilişkin farklı teoriler
 
 
-<partId>72ac694f-9248-550d-90c1-91af3d234380</partId>
+<partId>f12df034-26da-4c51-acfa-308791d1d3c6</partId>
 
 
 
@@ -1444,7 +1444,7 @@ Yani bu sarkaç vuruşu kavramı kırpma fenomenine yardımcı oldu. Ve bu tekno
 ## Paranın ortaya çıkışına ilişkin teoriler ve çeşitli tanımları
 
 
-<chapterId>7d699d4d-8c70-55b5-bf36-609f3fd90bcf</chapterId>
+<chapterId>369184c7-6f37-4e0b-906b-8faa549ff3d2</chapterId>
 
 
 :::video id=523c873f-501b-4954-b79f-7e74c0f685a5:::
@@ -1470,7 +1470,7 @@ Bu bölümde yapacağımız şey de bu. Paranın ortaya çıkışına ilişkin f
 ## Klasik ekonomistler için paranın ortaya çıkışı
 
 
-<chapterId>1d3776cd-0dfd-5297-af48-c6f41e257a7e</chapterId>
+<chapterId>aef378a4-d092-468a-86ee-3aa0b98ba3e0</chapterId>
 
 
 
@@ -1531,7 +1531,7 @@ Sonuç olarak, madeni paraların mutlaka otoriteden kaynaklandığını söyleye
 ## Takas efsanesi
 
 
-<chapterId>0fcd4964-ac36-5163-a8cf-1aacebc0d2c0</chapterId>
+<chapterId>9c35dacf-cb67-441c-808a-6f8b17aab939</chapterId>
 
 
 :::video id=0ede29ab-8acd-4d79-9282-bd5991b97076:::
@@ -1581,7 +1581,7 @@ Dolayısıyla, daha önce Mısır ve hatta Mezopotamya ve Çin ile ilgili bölü
 ## Borç para yoluyla paranın ortaya çıkışı
 
 
-<chapterId>4f508615-aa61-5d62-89d3-cecd02aeaa62</chapterId>
+<chapterId>46af4db6-fb7a-4a38-b7cd-aea2ab0eb37f</chapterId>
 
 
 
@@ -1630,7 +1630,7 @@ Parasal bir token'e sahip olmak, topluluk üzerinde bir "hak iddia etmek" değil
 ## Paranın kendiliğinden ortaya çıkışı
 
 
-<chapterId>e3ef86b1-73b9-5140-a61e-2ab6a5b0b2d4</chapterId>
+<chapterId>6222fe61-2622-4b88-bce4-d4fd9ebd9a76</chapterId>
 
 
 :::video id=e543995f-d5e2-49d7-9133-e397b46e0833:::
@@ -1702,7 +1702,7 @@ Kendiliğinden ortaya çıkış ile bilinçli kurum arasındaki tartışma, tari
 ## Paranın ortaya çıkışına dair antropolojik görüş
 
 
-<chapterId>ec48c5d8-47ed-530f-beb7-c44fd0b62880</chapterId>
+<chapterId>d7892a73-a23b-4a69-bcda-122eaf9faac8</chapterId>
 
 
 :::video id=8c1f8764-75af-4fb6-a98b-55de3b7da02e:::
@@ -1802,7 +1802,7 @@ Burada, sonuçta modern toplumlarımızda ekonomik mübadelenin amacının paray
 ## Kayıt birleştirme
 
 
-<chapterId>7664442a-91c1-5ce4-a8bd-53b7371a3e3d</chapterId>
+<chapterId>0d21c7c0-af6d-428f-a525-5567139bd4c7</chapterId>
 
 
 :::video id=473fc284-5375-4e1b-b0cd-6b51ba0cc3b8:::
@@ -1885,7 +1885,7 @@ Bir yandan doğa para arzının genişlemesini yönetiyor. Yani, altını ele al
 ## Parasal prim yoluyla birleşme
 
 
-<chapterId>093756e5-8908-55e5-bb76-376a3a3cc4d3</chapterId>
+<chapterId>62b265c7-83ff-40ce-8daf-82eba2983b9f</chapterId>
 
 
 :::video id=eabc342a-ecbd-46ca-a347-e914917e7c4f:::
@@ -1952,14 +1952,14 @@ Parasal prim, birisinin bu parayı daha sonra benzer bir fiyatla takas edeceğin
 # Paranın farklı tanımları
 
 
-<partId>77b7918a-8c3b-11f0-b688-6b2ab22378c9</partId>
+<partId>ea5771cb-1392-45e2-b17d-8f7c2286ba11</partId>
 
 
 
 ## Para vs para birimi vs monnaie vs argent vs devise
 
 
-<chapterId>bf8a6d21-df88-5d23-a0a5-e9a5c1300554</chapterId>
+<chapterId>ec3f37bb-0c57-4c50-97a5-9bb5625c5e16</chapterId>
 
 
 :::video id=d9c9e7df-9db3-4a9f-801e-10d3fc7dfc22:::
@@ -2012,7 +2012,7 @@ Bir para birimi (devise) mutlaka başka bir ülkenin para birimidir, aksi takdir
 ## Saifedean Ammous'un tanımı
 
 
-<chapterId>07c4ba50-168c-567a-8957-0b187ff75f97</chapterId>
+<chapterId>f0d9d91e-9d77-4681-a815-9d6df16c6a60</chapterId>
 
 
 :::video id=936d6d3b-6d45-468e-bc44-85fbce9b857a:::
@@ -2058,7 +2058,7 @@ Buna, parasal primin varlığını sürdürebilmesi için parasal malın yeterin
 ## Ödeme araçları ve özgürleştirici değer
 
 
-<chapterId>5d424039-e342-56f7-9d8b-bba9551831a9</chapterId>
+<chapterId>8d6132bf-6ebc-4ec6-9ac8-8d3ad27bbf6c</chapterId>
 
 
 :::video id=af4c0765-8111-4cb7-891b-3ee54d6e7054:::
@@ -2110,7 +2110,7 @@ Bu tartışmada, wergeld'in bir ödemeyi tanımlamak için iyi örneklerden biri
 ## Borç paraya karşı emtia para
 
 
-<chapterId>4093677a-c8e8-5828-b994-15c01656186e</chapterId>
+<chapterId>20b25c0c-5f2a-46e3-8f54-75626b43c16b</chapterId>
 
 
 :::video id=f49cf5cc-288e-4daa-a1ff-b9de73506f4e:::
@@ -2248,7 +2248,7 @@ Bu paradoks, bu iki para anlayışı arasındaki uçurumu açıkça göstermekte
 ## Modern Para Teorisi
 
 
-<chapterId>8efc29af-3193-5d97-ad9f-e608b32924ff</chapterId>
+<chapterId>e23e8f1b-c710-449d-9907-25fc5991092d</chapterId>
 
 
 :::video id=f8127cb7-46a1-468c-bbb5-97bf0a8b8837:::
@@ -2338,13 +2338,13 @@ Bu teori aynı zamanda, özellikle reel kaynaklar (işçiler, hammaddeler, endü
 # Paranın düşüşü ve yeniden doğuşu
 
 
-<partId>87a34ca9-782b-5ade-b51a-400f88ed7b0c</partId>
+<partId>d962954b-5387-4d55-8243-f9e3d3f1d8fc</partId>
 
 
 ## Yunan sikkeleri
 
 
-<chapterId>7714195f-74ce-5f8c-be5f-59302d39fff4</chapterId>
+<chapterId>79de7fa8-1c20-4bc0-8baf-a73058f26913</chapterId>
 
 
 :::video id=8e5c3091-0910-471b-8d4b-0dc6e9afa656:::
@@ -2582,7 +2582,7 @@ Son olarak, çeşitliliklerine ve bölgesel dalgalanmalarına rağmen, Klasik Yu
 ## Yunanistan'da para biriminin etkisi
 
 
-<chapterId>3a5e6c7d-699c-5567-87cd-3374c49d55a9</chapterId>
+<chapterId>dd7286ca-183a-4da1-b3a2-742a4cc7f72b</chapterId>
 
 
 :::video id=0c79a59c-e179-4893-a414-1b8de0930eb9:::
@@ -2659,7 +2659,7 @@ Bu iki sistem, para biriminin benimsenmesinin seçilen siyasi ve ekonomik modell
 ## Roma Cumhuriyeti
 
 
-<chapterId>0bc80983-33e1-5881-85bb-7c22f3144a9a</chapterId>
+<chapterId>081c5d32-6e64-4dfd-bdf2-5b81bf67f36a</chapterId>
 
 
 :::video id=dc05ca97-d29c-4679-bfeb-912c47d86ce2:::
@@ -2763,7 +2763,7 @@ Son olarak, Roma ekonomik olarak Akdeniz dünyasına hükmederken, ödeme araçl
 ## Roma İmparatorluğu
 
 
-<chapterId>2dc44e50-112a-5abf-97ae-8e0a9ecda989</chapterId>
+<chapterId>40300472-fdba-47d0-9813-1db8ff7142bc</chapterId>
 
 
 :::video id=f8d6f3d6-9ee4-4504-888e-4f12b3f20489:::
@@ -2998,7 +2998,7 @@ Sonuç olarak, sizlerle *Paranın Tarihi* kitabından şu alıntıyı paylaşmak
 ## Parasal seyrelme ve enflasyon arasındaki bağlantılar: nedenlerden sonuçlara
 
 
-<chapterId>38d5781c-e900-53f7-baa7-413655d71754</chapterId>
+<chapterId>47088da8-0fba-46c4-9110-21e0e6274eb8</chapterId>
 
 
 :::video id=3999256d-aafe-4502-9b72-dfa8491a2777:::
@@ -3084,7 +3084,7 @@ Roma'daki parasal genişleme ile enflasyon arasında açık bir bağlantı vard�
 ## Roma İmparatorluğu'nun çöküşü
 
 
-<chapterId>b6ec0914-227b-509c-8108-b09eec9bb904</chapterId>
+<chapterId>8421a704-18b6-4204-94f1-9917039bc86d</chapterId>
 
 
 :::video id=91d4fee5-59bb-4ab9-a90b-e1125c71decb:::
@@ -3168,7 +3168,7 @@ Bu dönüşüm, karmaşık uygarlıkların kırılganlığını ortaya koymaktad
 ## Karanlık Çağlar ve Orta Çağ
 
 
-<chapterId>a5856873-6142-57be-8a73-1f9e3df83792</chapterId>
+<chapterId>12130b0a-fee2-46ed-bec1-0cc1d473f8a1</chapterId>
 
 
 :::video id=86b8da9b-3831-443d-b170-58c2bea3ad54:::
@@ -3264,7 +3264,7 @@ Borcun yaratılması Parlamento tarafından gerçekleştirildiği anda, zaman i�
 ## Rönesans
 
 
-<chapterId>1d1dfb05-70b4-5b7b-9708-373c2182950d</chapterId>
+<chapterId>5e976656-787d-4ce1-abad-ae38bfba2b77</chapterId>
 
 
 :::video id=4977b4f3-c7b2-41a5-ad7b-a96a8cca4092:::
@@ -3359,14 +3359,14 @@ Son olarak, finansal Rönesans, bankacılık, kredi ve finansal piyasaların gel
 # Devlet tarafından paraya el konulması
 
 
-<partId>17cfb1b4-5bc1-53e0-b035-05c7cf76be92</partId>
+<partId>fbce5ebc-8faf-4666-8240-4ef1d783288a</partId>
 
 
 
 ## Dünyanın rezerv para birimlerinin evrimi
 
 
-<chapterId>d65cc352-e7ca-5f03-9b23-dd1fae5c0395</chapterId>
+<chapterId>4727209f-4384-42f4-bd40-5b5d4b957a47</chapterId>
 
 
 :::video id=82710062-8fff-426c-93af-923c08d82233:::
@@ -3572,7 +3572,7 @@ Hükümdarlık bir para birimiydi - başlangıçta bir pound değerinde bir alt�
 ## Merkez bankalarının ortaya çıkışı
 
 
-<chapterId>15777771-1e28-55f7-a400-69868a47079b</chapterId>
+<chapterId>8872b29c-03fa-4e8f-9e53-719fb65dd72e</chapterId>
 
 
 
@@ -3709,7 +3709,7 @@ Ve buradaki en önemli gerçek, **egemenin iflasıyla ortadan kalkabilecek bir b
 ## Fiat sistemine giden yol
 
 
-<chapterId>27a98545-d350-56ee-a200-92468e6b9b33</chapterId>
+<chapterId>556e065d-3fd2-4f6e-b57e-bfa7dcad6e28</chapterId>
 
 
 :::video id=e27a753e-aeee-4307-a65c-9506aab380a1:::
@@ -3885,7 +3885,7 @@ Fiat dünyasına ilişkin bu bölümü sonlandırırken, enflasyon gibi az önce
 ## Para balonlarının tarihi
 
 
-<chapterId>b6451c46-917d-11f0-97de-6bc5081765fa</chapterId>
+<chapterId>54b1616d-8d2c-4dbd-8808-a591086d4a20</chapterId>
 
 
 
@@ -3973,7 +3973,7 @@ Finans tarihi hiç bitmeyen bir döngüdür: bas, spekülasyon yap, çök. Bir s
 ## Para ve şiddet
 
 
-<chapterId>9486fe64-854f-5e17-86b3-8873baca39a8</chapterId>
+<chapterId>ad2add8b-b5ea-4e3d-ac32-5f68b4489b24</chapterId>
 
 
 :::video id=bd6d0807-2d8f-4637-a0f5-1e990e5c0d0f:::
@@ -4043,7 +4043,7 @@ Teşekkür ederim!
 ## Organize şiddetin ekonomik sonuçları
 
 
-<chapterId>66bd4674-2159-5489-ad4b-ec5e3fb691af</chapterId>
+<chapterId>749030e1-b1fc-470d-aac3-5562b6a26a08</chapterId>
 
 
 :::video id=c8b063c6-aeb4-4a94-9027-b11d369e71a4:::
@@ -4131,7 +4131,7 @@ Tarih bize bu geçişlerin nesiller aldığını öğretiyor. Ancak Bitcoin'in p
 ## Finansın çok kısa bir tarihi
 
 
-<chapterId>1d37fff1-a091-5034-8e71-4af590b8ffce</chapterId>
+<chapterId>9910a61b-1198-487c-a21b-f252ac34f516</chapterId>
 
 
 :::video id=fdfabbc6-e4d8-463a-8522-19176f8fb460:::
@@ -4229,7 +4229,7 @@ Basitçe, bu refah devleti kavramının finanstan kaynaklandığını fark etmem
 # Son bölüm
 
 
-<partId>9bada469-7ef0-511a-9eaa-f8eb66d5906f</partId>
+<partId>35c3bcb7-045c-4ffd-bc5c-0ceb9457eb0d</partId>
 
 
 
@@ -4237,7 +4237,7 @@ Basitçe, bu refah devleti kavramının finanstan kaynaklandığını fark etmem
 ## Bu kursu değerlendirin
 
 
-<chapterId>a9494e2b-8a4d-5811-8a7b-b4a91fb22778</chapterId>
+<chapterId>48aaf46a-1ed8-40ec-906f-fca0c518f9d9</chapterId>
 
 
 
@@ -4248,7 +4248,7 @@ Basitçe, bu refah devleti kavramının finanstan kaynaklandığını fark etmem
 ## Sonuç
 
 
-<chapterId>1094e793-b4c6-5782-aa4a-71cde00ce7c0</chapterId>
+<chapterId>69e95bb9-81f1-4dd8-a450-631eac706bf1</chapterId>
 
 
 

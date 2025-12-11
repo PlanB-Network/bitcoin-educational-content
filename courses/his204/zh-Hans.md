@@ -59,13 +59,13 @@ objectives:
 # 先行者
 
 
-<partId>91565b10-6010-53cb-a2f4-9c2306c7ef8c</partId>
+<partId>c77622e2-0e20-4de1-a55d-380a454185bc</partId>
 
 
 ## 历史背景
 
 
-<chapterId>6a5fd101-6dfd-5d77-96c7-9e1aa4a19758</chapterId>
+<chapterId>eb7344f4-ec44-43ae-83e5-e764e22b7c11</chapterId>
 
 
 18 世纪初，法国的状况令人担忧。农村人口的生产仅能维持生存，而且赋税沉重。
@@ -145,7 +145,7 @@ objectives:
 ## 沃班
 
 
-<chapterId>ee9c1e0e-96cc-5026-a5e2-963d68122786</chapterId>
+<chapterId>6b77468d-b8e3-47d2-b304-c290eea1c7d9</chapterId>
 
 
 如今，我国的税收压力不断增大，有可能窒息国家经济力量，因此，支持改革的呼声日益高涨。无论有意无意，这些改革呼声往往与法国经济学家的研究成果不谋而合，他们自 17 世纪以来就一直批评法国的税收制度混乱、专制、过度。
@@ -212,7 +212,7 @@ objectives:
 ## 布瓦吉贝尔
 
 
-<chapterId>200149c6-b5fc-566e-ab0e-bafb1c3fed3c</chapterId>
+<chapterId>e5dd73e0-e48e-43e7-a9af-d651414cfc6b</chapterId>
 
 
 如今，很少有法国经济学家能在自己的祖国获得与其贡献相匹配的认可，博伊斯吉贝尔也不例外。
@@ -272,7 +272,7 @@ objectives:
 ## 康泰隆
 
 
-<chapterId>bc206d41-6a64-5688-a489-40fcfa0e5397</chapterId>
+<chapterId>7a6654fe-874e-45ca-a98f-1f3d17c09f24</chapterId>
 
 
 理查德-康泰隆是《论一般贸易的性质》（约写于 1730 年，1755 年出版）的作者，被视为现代经济科学的先驱之一。经济学家默里-罗斯巴德（Murray Rothbard）在其《经济思想史》中甚至将康蒂雍称为现代经济学的创始人。
@@ -335,13 +335,13 @@ objectives:
 # 18 世纪早期的改革家和思想家
 
 
-<partId>1f7b50d4-ce93-5db3-8396-43c1fa5419ff</partId>
+<partId>c4403d75-884e-4922-8be7-5121e2709d6a</partId>
 
 
 ## 圣皮埃尔修道院院长
 
 
-<chapterId>13478fe2-4c12-593c-a410-54c2cfb7ef7f</chapterId>
+<chapterId>756469cd-d78c-49aa-926f-7c134e8aa4c6</chapterId>
 
 
 在我们选择纳入 18 世纪法国自由放任思想家万神殿的所有作家中，圣皮埃尔方丈无疑是最容易被忽视的一位。
@@ -407,7 +407,7 @@ objectives:
 ## 阿根森侯爵
 
 
-<chapterId>e9960ab4-72ec-5afd-8e97-bf89c83b62bc</chapterId>
+<chapterId>3f0c9654-a6f7-47db-8859-836c592127db</chapterId>
 
 
 阿根森侯爵是一位被人遗忘的自由放任主义创始人。
@@ -479,7 +479,7 @@ objectives:
 ## 文森特-德古尔内
 
 
-<chapterId>e8ae40dc-7450-552f-9ddc-9e02936cf425</chapterId>
+<chapterId>7446cc6a-9631-49ca-ac85-c477537b3a8d</chapterId>
 
 
 文森特-德-古尔奈是自由放任主义在法国的首批代表人物之一，也是自由放任主义在公共管理和知识界最早的倡导者之一。因此，在经济思想史上，他应该得到比通常更多的认可。我在最近的一本书中试图强调他的贡献。
@@ -548,7 +548,7 @@ objectives:
 ## 古尔内圆环
 
 
-<chapterId>b86ba6bd-8f3a-5d8f-b098-4d0413f00deb</chapterId>
+<chapterId>6e2a0dbe-3afb-4071-b5f8-ab400da3e891</chapterId>
 
 
 说到早期的经济科学，历史往往会强调第一个思想流派：以弗朗索瓦-魁奈及其弟子为首的重农学派。然而，在他们崛起的近十年前，以经济学家文森特-德-古尔奈（Vincent de Gournay）为中心，出现了另一个不那么正式但同样重要的团体。
@@ -626,7 +626,7 @@ objectives:
 ## 米拉波
 
 
-<chapterId>2d2f802b-e3b6-556f-9025-a1b1dc4409ca</chapterId>
+<chapterId>5a11f48f-03ee-4c58-876e-f1c49fbb377a</chapterId>
 
 
 法国有两位名叫米拉波的名人，一父一子，但真正创造历史的是儿子。作为革命护民官和法国大革命事件中的核心人物之一，他一直声名显赫。
@@ -715,7 +715,7 @@ L'Ami des Hommes》最初的构想是对康蒂雍的《随笔》进行简单的�
 ## 魁奈
 
 
-<chapterId>7a35f20b-5ea0-544d-b290-bcd9c6f7f11a</chapterId>
+<chapterId>6025f746-08fe-4406-8793-a0f5b9d64a45</chapterId>
 
 
 弗朗索瓦-魁奈是法国最著名的经济学家之一。
@@ -797,13 +797,13 @@ L'Ami des Hommes》最初的构想是对康蒂雍的《随笔》进行简单的�
 # 物理学家学派
 
 
-<partId>27af82c1-ad82-5c3b-8ce9-c674b67bbf7c</partId>
+<partId>d8a123a2-c47e-4aa4-873b-1b5a75fe313b</partId>
 
 
 ## 物理学家的历史
 
 
-<chapterId>4236ff8b-b53a-59e7-92c0-f96f9afa1c00</chapterId>
+<chapterId>b039837d-d765-43fc-a3dd-e492d7caf4c3</chapterId>
 
 
 唯物主义在法国乃至整个欧洲流行起来不过十年时间。经过漫长的发展，它在 17 世纪 60 年代中期开始崭露头角。1776 年，杜尔哥上台执政时，这一运动已经风光不再，而这位大臣对魁奈学派的支持也基本隐藏了起来。
@@ -876,7 +876,7 @@ L'Ami des Hommes》最初的构想是对康蒂雍的《随笔》进行简单的�
 ## 物理学家学说的基础
 
 
-<chapterId>4dbe5436-0578-57c2-b054-03ed00aa091a</chapterId>
+<chapterId>57beea84-ff70-4757-b5f4-9f2d18deec18</chapterId>
 
 Physiocracy 一词由杜邦-德-内穆尔（Dupont de Nemours）创造，意为 "自然而然的政府"，魁奈于 1768 年出版了一本文章合集《*Physiocracy*》，并以此为书名。
 
@@ -975,7 +975,7 @@ Physiocracy 一词由杜邦-德-内穆尔（Dupont de Nemours）创造，意为 
 ## 物理学家的成就和影响
 
 
-<chapterId>5b911105-796a-5e2e-a501-c7a364fc758e</chapterId>
+<chapterId>9ebd22fa-9f00-4148-871b-7e12874b18c0</chapterId>
 
 
 正如我们在介绍物理学家的三章中的第一章所看到的，魁奈的追随者在法国风靡了大约十年。对他们思想的热情在他们那个时代就已形成，并一直持续到本世纪末。在此，我们将探讨他们的一些成就，以及他们在经济思想领域对后继者的影响。
@@ -1054,7 +1054,7 @@ Physiocracy 一词由杜邦-德-内穆尔（Dupont de Nemours）创造，意为 
 ## 杜邦公司
 
 
-<chapterId>6d585e0f-93b8-5b0a-a0a8-7f6e4a5bc68e</chapterId>
+<chapterId>be6cf3ea-a927-4407-b232-98c703a3a4ed</chapterId>
 
 
 
@@ -1145,13 +1145,13 @@ Physiocracy 一词由杜邦-德-内穆尔（Dupont de Nemours）创造，意为 
 # 启蒙运动与政治经济学
 
 
-<partId>d1c885ad-7cb1-5f81-816c-be312719d9f8</partId>
+<partId>c8a1fe43-bdb6-48d8-9542-4d086cdffab3</partId>
 
 
 ## 伏尔泰与哲学家
 
 
-<chapterId>16bcf7bf-dad4-5113-8c64-2800f04ff07b</chapterId>
+<chapterId>57749874-730e-452d-a53d-d3297eb81e9f</chapterId>
 
 
 在 18 世纪的法国，经济学成为一门科学，并出现了第一个经济思想流派：生理经济学派。亚当-斯密在这一时期接受了经济学培训，法国经济学家被全球公认为领袖人物。然而，与其说这个世纪是经济学的世纪，不如说它是哲学的世纪。虽然物理学家运动在其抱负上与启蒙哲学一致，但哲学家们的态度--尤其是狄德罗和伏尔泰--值得仔细研究。我们将看到，启蒙思想家为自由放任思想在法国的传播做出了重大贡献。
@@ -1210,7 +1210,7 @@ Physiocracy 一词由杜邦-德-内穆尔（Dupont de Nemours）创造，意为 
 ## 理论家杜尔哥
 
 
-<chapterId>a8cd8185-8351-556b-8011-3a0c313e8a9d</chapterId>
+<chapterId>e6b12aac-aa56-4932-8ca2-67efb9aa4d72</chapterId>
 
 
 美国经济学家默里-罗斯巴德（Murray Rothbard）在他的《经济思想史》（*History of Economic Thought*）中有一段名言，称赞涂尔干 "才华横溢"。
@@ -1307,7 +1307,7 @@ Physiocracy 一词由杜邦-德-内穆尔（Dupont de Nemours）创造，意为 
 ## 改革家杜尔哥
 
 
-<chapterId>9177429f-1679-51c4-bfd2-dd036d24a1cc</chapterId>
+<chapterId>32c45d6f-511e-48d4-980f-aca5f2ec8464</chapterId>
 
 
 正如我们在前一章中简要回顾过的，杜尔哥出身于一个显赫的家族，这个家族在法国上层公务员系统中表现出色。
@@ -1388,7 +1388,7 @@ Physiocracy 一词由杜邦-德-内穆尔（Dupont de Nemours）创造，意为 
 ## 康迪亚克
 
 
-<chapterId>0ba8dbb5-dcd5-5981-bf85-6c185e0bf192</chapterId>
+<chapterId>f3f1683a-4bcd-4b2a-b5d1-ec0e94c3b457</chapterId>
 
 
 正如重商主义最明显的现实表现一样，蒙田的诡辩术也需要很长的时间才能消失。
@@ -1467,7 +1467,7 @@ Physiocracy 一词由杜邦-德-内穆尔（Dupont de Nemours）创造，意为 
 ## 孔多塞
 
 
-<chapterId>99e4aba6-da7f-5041-b02f-337158381515</chapterId>
+<chapterId>55fbdf44-8975-44af-b161-f36d69a49347</chapterId>
 
 
 孔多塞无疑是启蒙运动中最具经济头脑的哲学家。
@@ -1524,7 +1524,7 @@ Physiocracy 一词由杜邦-德-内穆尔（Dupont de Nemours）创造，意为 
 ## 大革命时期的自由常识
 
 
-<chapterId>95e9a90d-e37a-58ff-b1ac-928b42e76ecf</chapterId>
+<chapterId>37ad7db0-ed45-44ba-8bef-d1fa323dbe8e</chapterId>
 
 
 杜邦-德-内穆尔是弗朗索瓦-魁奈最年轻的弟子，魁奈曾这样评价他：魁奈曾对他说："我们必须照顾好这个年轻人，因为我们死后他还会说话"。法国大革命开始时，包括米拉波侯爵在内的几乎所有伟大的自然科学家都已去世；米拉波本人也于 1789 年 7 月 13 日去世。
@@ -1598,7 +1598,7 @@ Physiocracy 一词由杜邦-德-内穆尔（Dupont de Nemours）创造，意为 
 ## 结束语薪火相传
 
 
-<chapterId>ada8082f-db96-5e52-954f-719b47998153</chapterId>
+<chapterId>691a1639-3e28-4401-bc29-6b17abcfc333</chapterId>
 
 
 18 世纪的法国经济思想往往被 19 世纪更著名的经济学家所掩盖。然而，就捍卫自由而言，一切真正开始于 18 世纪。在这个世纪，从博伊斯吉贝尔到杜邦-德-内穆尔等多位思想家首次明确提出了自由放任原则，这一原则在当时具有革命性意义。
@@ -1652,7 +1652,7 @@ Physiocracy 一词由杜邦-德-内穆尔（Dupont de Nemours）创造，意为 
 ## 简历
 
 
-<chapterId>17cf2865-e53c-5f3b-a5c2-a43560efaf01</chapterId>
+<chapterId>9daf678b-2687-4a2f-a490-8826538c1b49</chapterId>
 
 
 **选择性书目**
@@ -1735,27 +1735,27 @@ Physiocracy 一词由杜邦-德-内穆尔（Dupont de Nemours）创造，意为 
 # 最后一节
 
 
-<partId>385bffab-aea1-5bcd-9569-62b3f30665b7</partId>
+<partId>aa809524-47cd-4945-92d0-2e674b98e2e2</partId>
 
 
 ## 评论与评级
 
 
-<chapterId>a1e689d9-abd0-5dcb-ba56-a8d355d0a84f</chapterId>
+<chapterId>e13b6e40-2801-4e3c-8ed1-1c9144f47e27</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## 期末考试
 
 
-<chapterId>bdb7fd98-33e7-11f0-9fe6-b785c859ffc5</chapterId>
+<chapterId>9da23eb9-a79c-4cf3-8b73-b64a9b3f45d1</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## 结论
 
 
-<chapterId>3b366ff6-03c8-5f6a-b4c0-ba8186e65d7e</chapterId>
+<chapterId>027ecdbb-a845-4232-be81-92e1b7101618</chapterId>
 
 
 <isCourseConclusion>true</isCourseConclusion>

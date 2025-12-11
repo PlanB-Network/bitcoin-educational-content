@@ -59,13 +59,13 @@ Sind Sie bereit, die französischen Wurzeln des Wirtschaftsliberalismus wiederzu
 # Die Vorläufer
 
 
-<partId>91565b10-6010-53cb-a2f4-9c2306c7ef8c</partId>
+<partId>c77622e2-0e20-4de1-a55d-380a454185bc</partId>
 
 
 ## Historischer Hintergrund
 
 
-<chapterId>6a5fd101-6dfd-5d77-96c7-9e1aa4a19758</chapterId>
+<chapterId>eb7344f4-ec44-43ae-83e5-e764e22b7c11</chapterId>
 
 
 Zu Beginn des 18. Jahrhunderts befand sich Frankreich in einem besorgniserregenden Zustand. Die Landbevölkerung produzierte kaum genug zum Überleben und wurde stark besteuert.
@@ -145,7 +145,7 @@ Dies sind die vier Grundsätze, die die französische Regierung mehrere Jahrzehn
 ## Vauban
 
 
-<chapterId>ee9c1e0e-96cc-5026-a5e2-963d68122786</chapterId>
+<chapterId>6b77468d-b8e3-47d2-b304-c290eea1c7d9</chapterId>
 
 
 Heute, da der Steuerdruck in unserem Land weiter zunimmt und die nationalen Wirtschaftskräfte zu ersticken droht, werden Stimmen laut, die eine Veränderung fordern. Ob bewusst oder unbewusst, diese Rufe nach Reformen erinnern oft an die Arbeit französischer Ökonomen, die seit dem 17. Jahrhundert das Steuersystem des Landes als chaotisch, despotisch und überzogen kritisiert haben.
@@ -212,7 +212,7 @@ Kurz vor seinem Tod wurde die Idee Vaubans von den Ministern Ludwigs XIV. übern
 ## Boisguilbert
 
 
-<chapterId>200149c6-b5fc-566e-ab0e-bafb1c3fed3c</chapterId>
+<chapterId>e5dd73e0-e48e-43e7-a9af-d651414cfc6b</chapterId>
 
 
 Nur wenige französische Wirtschaftswissenschaftler der Vergangenheit genießen heute in ihrem Heimatland die Anerkennung, die ihren Leistungen entspricht, und Boisguilbert ist keine Ausnahme.
@@ -272,7 +272,7 @@ Boisguilbert kritisiert sogar die "*guten Seelen*", wie er sie nennt, die es gut
 ## Cantillon
 
 
-<chapterId>bc206d41-6a64-5688-a489-40fcfa0e5397</chapterId>
+<chapterId>7a6654fe-874e-45ca-a98f-1f3d17c09f24</chapterId>
 
 
 Richard Cantillon, Autor des "Essay on the Nature of Trade in General" (geschrieben um 1730, veröffentlicht 1755), gilt als einer der Pioniere der modernen Wirtschaftswissenschaft. Der Wirtschaftswissenschaftler Murray Rothbard bezeichnet Cantillon in seiner History of Economic Thought sogar als Begründer der modernen Wirtschaftswissenschaften.
@@ -335,13 +335,13 @@ Mit dieser Theorie über die Auswirkungen der Inflation gibt uns Cantillon Antwo
 # Reformer und Denker des frühen 18. Jahrhunderts
 
 
-<partId>1f7b50d4-ce93-5db3-8396-43c1fa5419ff</partId>
+<partId>c4403d75-884e-4922-8be7-5121e2709d6a</partId>
 
 
 ## Der Abt von Saint-Pierre
 
 
-<chapterId>13478fe2-4c12-593c-a410-54c2cfb7ef7f</chapterId>
+<chapterId>756469cd-d78c-49aa-926f-7c134e8aa4c6</chapterId>
 
 
 Von allen Autoren, die wir in das Pantheon der französischen Laissez-faire-Denker des 18. Jahrhunderts aufnehmen wollen, ist der Abt von Saint-Pierre zweifellos der am meisten übersehene.
@@ -407,7 +407,7 @@ Noch vor Vinzenz de Gournay betonte er den Wert der Arbeit und wie wichtig es is
 ## Der Marquis d'Argenson
 
 
-<chapterId>e9960ab4-72ec-5afd-8e97-bf89c83b62bc</chapterId>
+<chapterId>3f0c9654-a6f7-47db-8859-836c592127db</chapterId>
 
 
 Der Marquis d'Argenson ist ein vergessener Begründer der Doktrin des Laissez-faire.
@@ -479,7 +479,7 @@ Auf die Frage des Handels mit Lebensmitteln hatte d'Argenson keine andere Antwor
 ## Vinzenz von Gournay
 
 
-<chapterId>e8ae40dc-7450-552f-9ddc-9e02936cf425</chapterId>
+<chapterId>7446cc6a-9631-49ca-ac85-c477537b3a8d</chapterId>
 
 
 Vincent de Gournay war einer der ersten Vertreter des Laissez-faire in Frankreich und einer seiner frühesten Fürsprecher in der öffentlichen Verwaltung und in intellektuellen Kreisen. Aus diesem Grund verdient er in der Geschichte des wirtschaftlichen Denkens weit mehr Anerkennung, als ihm normalerweise zuteil wird. Ich habe versucht, seine Beiträge in einem kürzlich erschienenen Buch hervorzuheben.
@@ -548,7 +548,7 @@ Jahre später schrieb Turgot, ein zukünftiger Minister unter Ludwig XVI., nach 
 ## Der Gournay-Kreis
 
 
-<chapterId>b86ba6bd-8f3a-5d8f-b098-4d0413f00deb</chapterId>
+<chapterId>6e2a0dbe-3afb-4071-b5f8-ab400da3e891</chapterId>
 
 
 Wenn es um die Anfänge der Wirtschaftswissenschaft geht, tendiert die Geschichte dazu, eine erste Denkschule hervorzuheben: die Physiokraten, angeführt von François Quesnay und seinen Jüngern. Fast ein Jahrzehnt vor ihrem Aufstieg gab es jedoch eine andere, weniger formelle, aber ebenso wichtige Gruppe um den Ökonomen Vincent de Gournay.
@@ -626,7 +626,7 @@ Und in der Tat wurden in den 1750er Jahren wirtschaftliche Fragen zum Modethema.
 ## Mirabeau
 
 
-<chapterId>2d2f802b-e3b6-556f-9025-a1b1dc4409ca</chapterId>
+<chapterId>5a11f48f-03ee-4c58-876e-f1c49fbb377a</chapterId>
 
 
 Frankreich hat zwei berühmte Männer namens Mirabeau gekannt, einen Vater und einen Sohn, aber es war der Sohn, der wirklich Geschichte schrieb. Als Revolutionstribun und eine der zentralen Figuren in den Ereignissen der Französischen Revolution blieb er berühmt.
@@ -715,7 +715,7 @@ Zeit seines Lebens blieb Mirabeau ein unermüdlicher Schriftsteller. Er verfasst
 ## Quesnay
 
 
-<chapterId>7a35f20b-5ea0-544d-b290-bcd9c6f7f11a</chapterId>
+<chapterId>6025f746-08fe-4406-8793-a0f5b9d64a45</chapterId>
 
 
 François Quesnay ist einer der berühmtesten französischen Wirtschaftswissenschaftler.
@@ -797,13 +797,13 @@ In diesem Buch sind die wichtigsten Beiträge von Quesnay zusammengefasst. Darin
 # Die physiokratische Schule
 
 
-<partId>27af82c1-ad82-5c3b-8ce9-c674b67bbf7c</partId>
+<partId>d8a123a2-c47e-4aa4-873b-1b5a75fe313b</partId>
 
 
 ## Geschichte der Physiokraten
 
 
-<chapterId>4236ff8b-b53a-59e7-92c0-f96f9afa1c00</chapterId>
+<chapterId>b039837d-d765-43fc-a3dd-e492d7caf4c3</chapterId>
 
 
 Die Physiokratie kam in Frankreich und sogar in ganz Europa für knapp ein Jahrzehnt in Mode. Nach einer langen Entwicklungsphase erlangte sie Mitte der 1760er Jahre an Bedeutung. Als Turgot 1776 an die Macht kam, hatte die Bewegung bereits an Popularität verloren, und der Minister hielt seine Unterstützung für Quesnays Schule weitgehend geheim.
@@ -876,7 +876,7 @@ Die Physiokratie sollte bis zur Revolution weiterhin Einfluss ausüben. In Frank
 ## Die Grundlagen der Lehre der Physiokraten
 
 
-<chapterId>4dbe5436-0578-57c2-b054-03ed00aa091a</chapterId>
+<chapterId>57beea84-ff70-4757-b5f4-9f2d18deec18</chapterId>
 
 Der Begriff Physiokratie, der soviel wie "Regierung durch die Natur" bedeutet, wurde von Dupont de Nemours geprägt und als Titel für *Physiocracy* verwendet, eine Sammlung von Artikeln von Quesnay, die 1768 veröffentlicht wurde.
 
@@ -975,7 +975,7 @@ Die Physiokraten waren nicht nur erbitterte Gegner der Sklaverei, sondern auch g
 ## Die Errungenschaften und Einflüsse der Physiokraten
 
 
-<chapterId>5b911105-796a-5e2e-a501-c7a364fc758e</chapterId>
+<chapterId>9ebd22fa-9f00-4148-871b-7e12874b18c0</chapterId>
 
 
 Wie wir im ersten der drei den Physiokraten gewidmeten Kapitel gesehen haben, waren die Anhänger von Quesnay in Frankreich etwa ein Jahrzehnt lang in aller Munde. Diese Begeisterung für ihre Ideen nahm schon zu ihrer Zeit Gestalt an und hielt bis zum Ende des Jahrhunderts an. Im Folgenden werden wir einige ihrer Errungenschaften und den Einfluss, den sie auf ihre Nachfolger im Bereich des wirtschaftlichen Denkens ausübten, untersuchen.
@@ -1054,7 +1054,7 @@ Leider starb Quesnay zwei Jahre vor der Veröffentlichung von Smiths Buch, und S
 ## Dupont de Nemours
 
 
-<chapterId>6d585e0f-93b8-5b0a-a0a8-7f6e4a5bc68e</chapterId>
+<chapterId>be6cf3ea-a927-4407-b232-98c703a3a4ed</chapterId>
 
 
 
@@ -1145,13 +1145,13 @@ Trotz dieses ereignisreichen Lebens, in dem er Dutzende von Artikeln, Broschüre
 # Die Aufklärung und die politische Ökonomie
 
 
-<partId>d1c885ad-7cb1-5f81-816c-be312719d9f8</partId>
+<partId>c8a1fe43-bdb6-48d8-9542-4d086cdffab3</partId>
 
 
 ## Voltaire und die Philosophen
 
 
-<chapterId>16bcf7bf-dad4-5113-8c64-2800f04ff07b</chapterId>
+<chapterId>57749874-730e-452d-a53d-d3297eb81e9f</chapterId>
 
 
 Im 18. Jahrhundert entstand in Frankreich die Ökonomie als Wissenschaft und die erste Schule des wirtschaftlichen Denkens: Die Physiokratie. Adam Smith wurde in dieser Zeit in Wirtschaftswissenschaften ausgebildet, und französische Wirtschaftswissenschaftler wurden weltweit als führend anerkannt. Allerdings gilt dieses Jahrhundert eher als das Jahrhundert der Philosophie als der Ökonomie. Während die physiokratische Bewegung in ihren Zielen mit der Philosophie der Aufklärung übereinstimmte, verdienen die Haltungen der Philosophen - insbesondere von Diderot und Voltaire - eine genauere Untersuchung. Wir werden sehen, dass die Aufklärer wesentlich zur Verbreitung der Idee des Laissez-faire in Frankreich beigetragen haben.
@@ -1210,7 +1210,7 @@ Letztendlich ist das Verhältnis der Philosophen zum wirtschaftlichen Denken zwi
 ## Turgot, der Theoretiker
 
 
-<chapterId>a8cd8185-8351-556b-8011-3a0c313e8a9d</chapterId>
+<chapterId>e6b12aac-aa56-4932-8ca2-67efb9aa4d72</chapterId>
 
 
 In einer berühmten Passage aus seiner *History of Economic Thought* lobte der amerikanische Wirtschaftswissenschaftler Murray Rothbard die, wie er es nannte, "Brillanz" von Turgot.
@@ -1307,7 +1307,7 @@ Hier finden wir eine sehr klare Aussage zur Doktrin des Laissez-faire sowie eine
 ## Turgot, der Reformator
 
 
-<chapterId>9177429f-1679-51c4-bfd2-dd036d24a1cc</chapterId>
+<chapterId>32c45d6f-511e-48d4-980f-aca5f2ec8464</chapterId>
 
 
 Wie wir im vorigen Kapitel kurz in Erinnerung gerufen haben, war Turgot der Sohn einer prominenten Familie, die sich in den oberen Rängen des französischen Staatsdienstes ausgezeichnet hatte.
@@ -1388,7 +1388,7 @@ Am Ende setzten sich die parlements und die privilegierten Klassen durch. Der K�
 ## Condillac
 
 
-<chapterId>0ba8dbb5-dcd5-5981-bf85-6c185e0bf192</chapterId>
+<chapterId>f3f1683a-4bcd-4b2a-b5d1-ec0e94c3b457</chapterId>
 
 
 Ebenso wie der Merkantilismus, der seine offensichtlichste praktische Ausprägung ist, hat auch Montaignes Sophismus lange gebraucht, um zu verschwinden.
@@ -1467,7 +1467,7 @@ Sie entkräften somit die Kritik am Freihandel vollständig, da der Protektionis
 ## Condorcet
 
 
-<chapterId>99e4aba6-da7f-5041-b02f-337158381515</chapterId>
+<chapterId>55fbdf44-8975-44af-b161-f36d69a49347</chapterId>
 
 
 Condorcet ist zweifelsohne der ökonomischste Philosoph der Aufklärung.
@@ -1524,7 +1524,7 @@ Obwohl er seine ganze Energie darauf verwendete, Turgot zu verteidigen, machte s
 ## Liberaler Menschenverstand in der Revolution
 
 
-<chapterId>95e9a90d-e37a-58ff-b1ac-928b42e76ecf</chapterId>
+<chapterId>37ad7db0-ed45-44ba-8bef-d1fa323dbe8e</chapterId>
 
 
 Dupont de Nemours war der jüngste Schüler von François Quesnay, der einmal über ihn sagte: "Wir müssen uns um diesen jungen Mann kümmern, denn er wird noch sprechen, wenn wir schon tot sind". Als die Französische Revolution begann, waren fast alle großen Physiokraten, darunter auch der Marquis de Mirabeau, bereits tot; Mirabeau selbst war am 13. Juli 1789 verstorben.
@@ -1598,7 +1598,7 @@ Aber wieder einmal hörte niemand auf ihn.
 ## Schlussfolgerung: Die Weitergabe der Fackel
 
 
-<chapterId>ada8082f-db96-5e52-954f-719b47998153</chapterId>
+<chapterId>691a1639-3e28-4401-bc29-6b17abcfc333</chapterId>
 
 
 Das französische Wirtschaftsdenken des 18. Jahrhunderts steht oft im Schatten der berühmteren Ökonomen des 19. Jahrhunderts. Doch wenn es um die Verteidigung der Freiheit geht, beginnt alles im 18. In diesem Jahrhundert wurde das zu seiner Zeit so revolutionäre Prinzip des Laissez-faire zum ersten Mal von einer Reihe von Denkern, von Boisguilbert bis Dupont de Nemours, klar formuliert.
@@ -1652,7 +1652,7 @@ All diese Ideen wurden von den Ökonomen des 19. Jahrhunderts aufgegriffen. Jahr
 ## Biografie
 
 
-<chapterId>17cf2865-e53c-5f3b-a5c2-a43560efaf01</chapterId>
+<chapterId>9daf678b-2687-4a2f-a490-8826538c1b49</chapterId>
 
 
 **AUSWAHLBIBLIOGRAPHIE**
@@ -1735,27 +1735,27 @@ Im Folgenden finden Sie eine Auswahl von über dreißig Schriften:
 # Letzter Abschnitt
 
 
-<partId>385bffab-aea1-5bcd-9569-62b3f30665b7</partId>
+<partId>aa809524-47cd-4945-92d0-2e674b98e2e2</partId>
 
 
 ## Rezensionen und Bewertungen
 
 
-<chapterId>a1e689d9-abd0-5dcb-ba56-a8d355d0a84f</chapterId>
+<chapterId>e13b6e40-2801-4e3c-8ed1-1c9144f47e27</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Abschlussprüfung
 
 
-<chapterId>bdb7fd98-33e7-11f0-9fe6-b785c859ffc5</chapterId>
+<chapterId>9da23eb9-a79c-4cf3-8b73-b64a9b3f45d1</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## Schlussfolgerung
 
 
-<chapterId>3b366ff6-03c8-5f6a-b4c0-ba8186e65d7e</chapterId>
+<chapterId>027ecdbb-a845-4232-be81-92e1b7101618</chapterId>
 
 
 <isCourseConclusion>true</isCourseConclusion>

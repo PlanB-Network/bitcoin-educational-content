@@ -59,13 +59,13 @@ Ekonomik liberalizmin Fransız köklerini yeniden keşfetmeye hazır mısınız?
 # Öncüler
 
 
-<partId>91565b10-6010-53cb-a2f4-9c2306c7ef8c</partId>
+<partId>c77622e2-0e20-4de1-a55d-380a454185bc</partId>
 
 
 ## Tarihsel Arka Plan
 
 
-<chapterId>6a5fd101-6dfd-5d77-96c7-9e1aa4a19758</chapterId>
+<chapterId>eb7344f4-ec44-43ae-83e5-e764e22b7c11</chapterId>
 
 
 18'inci yüzyılın şafağında Fransa endişe verici bir durumdaydı. Kırsal nüfus hayatta kalmak için zar zor üretim yapıyordu ve ağır vergilendiriliyordu.
@@ -145,7 +145,7 @@ Bunlar, ülke 18. yüzyıla girerken Fransız hükümetine birkaç on yıl boyun
 ## Vauban
 
 
-<chapterId>ee9c1e0e-96cc-5026-a5e2-963d68122786</chapterId>
+<chapterId>6b77468d-b8e3-47d2-b304-c290eea1c7d9</chapterId>
 
 
 Bugün, ülkemizdeki vergi baskısı artmaya ve ulusal ekonomik güçleri boğma tehdidi oluşturmaya devam ederken, değişimden yana sesler yükseliyor. Bilinçli olsun ya da olmasın, bu reform çağrıları genellikle 17. yüzyıldan bu yana ülkenin vergi sistemini kaotik, despotik ve aşırı olarak eleştiren Fransız ekonomistlerin çalışmalarını yansıtıyor.
@@ -212,7 +212,7 @@ Vauban, yaşamı boyunca basılan tek ekonomik eseri olan The Royal Tithe'de aç
 ## Boisguilbert
 
 
-<chapterId>200149c6-b5fc-566e-ab0e-bafb1c3fed3c</chapterId>
+<chapterId>e5dd73e0-e48e-43e7-a9af-d651414cfc6b</chapterId>
 
 
 Geçmişte yaşamış çok az Fransız ekonomist bugün anavatanlarında katkılarına denk bir tanınırlığa sahiptir ve Boisguilbert de bir istisna değildir.
@@ -272,7 +272,7 @@ Boisguilbert, kendi deyimiyle "*iyi ruhluları*", iyi niyetli ama büyük zarar 
 ## Cantillon
 
 
-<chapterId>bc206d41-6a64-5688-a489-40fcfa0e5397</chapterId>
+<chapterId>7a6654fe-874e-45ca-a98f-1f3d17c09f24</chapterId>
 
 
 "Genel Olarak Ticaretin Doğası Üzerine Deneme "nin (yaklaşık 1730'da yazılmış, 1755'te yayınlanmıştır) yazarı Richard Cantillon, modern ekonomi biliminin öncülerinden biri olarak kabul edilir. Hatta iktisatçı Murray Rothbard, İktisadi Düşünce Tarihi adlı eserinde Cantillon'dan modern iktisadın kurucusu olarak bahsetmektedir.
@@ -335,13 +335,13 @@ Enflasyonun etkilerine ilişkin bu teorisiyle Cantillon bize bir dizi çağdaş 
 # Erken 18. Yüzyıl Reformcuları ve Düşünürleri
 
 
-<partId>1f7b50d4-ce93-5db3-8396-43c1fa5419ff</partId>
+<partId>c4403d75-884e-4922-8be7-5121e2709d6a</partId>
 
 
 ## Saint-Pierre Başrahibi
 
 
-<chapterId>13478fe2-4c12-593c-a410-54c2cfb7ef7f</chapterId>
+<chapterId>756469cd-d78c-49aa-926f-7c134e8aa4c6</chapterId>
 
 
 Saint-Pierre'li Abbot, 18. yüzyıl Fransız laissez-faire düşünürleri panteonuna dahil etmek üzere seçtiğimiz tüm yazarlar arasında şüphesiz en çok gözden kaçanıdır.
@@ -407,7 +407,7 @@ Vincent de Gournay'den önce o da emeğin değerini ve onu çekici kılmanın ö
 ## Marki d'Argenson
 
 
-<chapterId>e9960ab4-72ec-5afd-8e97-bf89c83b62bc</chapterId>
+<chapterId>3f0c9654-a6f7-47db-8859-836c592127db</chapterId>
 
 
 Marquis d'Argenson, laissez-faire doktrininin unutulmuş bir kurucusudur.
@@ -479,7 +479,7 @@ Geçimlik ticaret konusunda d'Argenson'un özgürlükten başka bir cevabı yokt
 ## Vincent de Gournay
 
 
-<chapterId>e8ae40dc-7450-552f-9ddc-9e02936cf425</chapterId>
+<chapterId>7446cc6a-9631-49ca-ac85-c477537b3a8d</chapterId>
 
 
 Vincent de Gournay, Fransa'da laissez-faire'in ilk temsilcilerinden ve kamu yönetimi ile entelektüel çevrelerdeki en eski savunucularından biriydi. Bu nedenle, iktisadi düşünce tarihinde genellikle hak ettiğinden çok daha fazla tanınmayı hak ediyor. Yakın tarihli bir kitabımda onun katkılarını vurgulamaya çalıştım.
@@ -548,7 +548,7 @@ Yıllar sonra, 16. Louis'nin müstakbel bakanı Turgot, arkadaşının ölümün
 ## The Gournay Circle
 
 
-<chapterId>b86ba6bd-8f3a-5d8f-b098-4d0413f00deb</chapterId>
+<chapterId>6e2a0dbe-3afb-4071-b5f8-ab400da3e891</chapterId>
 
 
 Ekonomi biliminin ilk günleri söz konusu olduğunda, tarih ilk düşünce okulunu vurgulama eğilimindedir: François Quesnay ve öğrencilerinin önderliğindeki Fizyokratlar. Ancak, onların yükselişinden yaklaşık on yıl önce, ekonomist Vincent de Gournay'ın etrafında toplanan daha az resmi ama aynı derecede önemli bir grup daha vardı.
@@ -626,7 +626,7 @@ Gerçekten de 1750'lerde ekonomik meseleler moda haline gelmişti. Voltaire, 175
 ## Mirabeau
 
 
-<chapterId>2d2f802b-e3b6-556f-9025-a1b1dc4409ca</chapterId>
+<chapterId>5a11f48f-03ee-4c58-876e-f1c49fbb377a</chapterId>
 
 
 Fransa, biri baba diğeri oğul olmak üzere Mirabeau adında iki ünlü adam tanımıştır, ancak gerçekten tarihe geçen oğul olmuştur. Devrimci bir tribün ve Fransız Devrimi olaylarının merkezi figürlerinden biri olarak ününü sürdürdü.
@@ -715,7 +715,7 @@ Mirabeau hayatı boyunca yorulmak bilmeyen bir yazar olarak kaldı. Quesnay'in d
 ## Quesnay
 
 
-<chapterId>7a35f20b-5ea0-544d-b290-bcd9c6f7f11a</chapterId>
+<chapterId>6025f746-08fe-4406-8793-a0f5b9d64a45</chapterId>
 
 
 François Quesnay en ünlü Fransız ekonomistlerden biridir.
@@ -797,13 +797,13 @@ Bu kitap Quesnay'in ana katkılarını bir araya getirmiştir. Fizyokratların l
 # Fizyokratik Okul
 
 
-<partId>27af82c1-ad82-5c3b-8ce9-c674b67bbf7c</partId>
+<partId>d8a123a2-c47e-4aa4-873b-1b5a75fe313b</partId>
 
 
 ## Fizyokratların Tarihi
 
 
-<chapterId>4236ff8b-b53a-59e7-92c0-f96f9afa1c00</chapterId>
+<chapterId>b039837d-d765-43fc-a3dd-e492d7caf4c3</chapterId>
 
 
 Fizyokrasi Fransa'da ve hatta tüm Avrupa'da ancak on yıl boyunca moda oldu. Uzun bir gelişme döneminden sonra, 1760'ların ortalarında önem kazandı. Turgot 1776'da iktidara geldiğinde, hareket popülaritesini çoktan kaybetmişti ve bakan Quesnay'in okuluna verdiği desteği çoğunlukla gizli tuttu.
@@ -876,7 +876,7 @@ Fizyokrasi Devrim'e kadar etkisini sürdürecektir. İlk olarak Fransa'da, bir �
 ## Fizyokratların doktrininin temelleri
 
 
-<chapterId>4dbe5436-0578-57c2-b054-03ed00aa091a</chapterId>
+<chapterId>57beea84-ff70-4757-b5f4-9f2d18deec18</chapterId>
 
 "Doğaya göre yönetim" anlamına gelen Fizyokrasi terimi Dupont de Nemours tarafından icat edilmiş ve Quesnay'in 1768'de yayınlanan makalelerinin bir derlemesi olan *Fizyokrasi* için başlık olarak kullanılmıştır.
 
@@ -975,7 +975,7 @@ Köleliğin şiddetli karşıtları olan Fizyokratlar aynı zamanda büyük bar�
 ## Fizyokratların başarıları ve etkileri
 
 
-<chapterId>5b911105-796a-5e2e-a501-c7a364fc758e</chapterId>
+<chapterId>9ebd22fa-9f00-4148-871b-7e12874b18c0</chapterId>
 
 
 Fizyokratlara ayrılan üç bölümün ilkinde gördüğümüz gibi, Quesnay'in takipçileri yaklaşık on yıl boyunca Fransa'da çok popülerdi. Fikirlerine yönelik bu coşku hem kendi dönemlerinde şekillenmiş hem de yüzyılın sonuna kadar devam etmiştir. Burada, onların bazı başarılarına ve iktisadi düşünce alanında halefleri üzerinde yarattıkları etkiye bakacağız.
@@ -1054,7 +1054,7 @@ Ne yazık ki Quesnay, Smith'in kitabı yayınlanmadan iki yıl önce öldü ve S
 ## Dupont de Nemours
 
 
-<chapterId>6d585e0f-93b8-5b0a-a0a8-7f6e4a5bc68e</chapterId>
+<chapterId>be6cf3ea-a927-4407-b232-98c703a3a4ed</chapterId>
 
 
 
@@ -1145,13 +1145,13 @@ Düzinelerce makale, broşür ve kitap yayınladığı bu hareketli hayatına ra
 # Aydınlanma ve Ekonomi Politik
 
 
-<partId>d1c885ad-7cb1-5f81-816c-be312719d9f8</partId>
+<partId>c8a1fe43-bdb6-48d8-9542-4d086cdffab3</partId>
 
 
 ## Voltaire ve filozoflar
 
 
-<chapterId>16bcf7bf-dad4-5113-8c64-2800f04ff07b</chapterId>
+<chapterId>57749874-730e-452d-a53d-d3297eb81e9f</chapterId>
 
 
 Fransa'da 18. yüzyıl, ekonominin bir bilim olarak ortaya çıkışına ve ilk ekonomik düşünce okuluna tanıklık etmiştir: Fizyokrasi. Adam Smith bu dönemde ekonomi eğitimi almış ve Fransız ekonomistler dünya çapında lider olarak tanınmıştır. Ancak bu yüzyıl, ekonomiden çok felsefenin yüzyılı olarak hatırlanmaktadır. Fizyokratik hareket, amaçları bakımından Aydınlanma felsefesiyle aynı çizgide olsa da, filozofların -özellikle de Diderot ve Voltaire'in- tutumları yakından incelenmeyi hak etmektedir. Aydınlanma düşünürlerinin Fransa'da laissez-faire fikrinin yayılmasına önemli ölçüde katkıda bulunduklarını göreceğiz.
@@ -1210,7 +1210,7 @@ Sonuç olarak, filozofların iktisadi düşünceyle ilişkisi karışıktır. Li
 ## Turgot, Teorisyen
 
 
-<chapterId>a8cd8185-8351-556b-8011-3a0c313e8a9d</chapterId>
+<chapterId>e6b12aac-aa56-4932-8ca2-67efb9aa4d72</chapterId>
 
 
 Amerikalı iktisatçı Murray Rothbard, *İktisadi Düşünceler Tarihi* adlı eserinden ünlü bir pasajda Turgot'nun "dehası" olarak adlandırdığı şeyi övmüştür.
@@ -1307,7 +1307,7 @@ Burada laissez-faire doktrininin çok açık bir ifadesini ve Friedrich Hayek'in
 ## Turgot, Reformcu
 
 
-<chapterId>9177429f-1679-51c4-bfd2-dd036d24a1cc</chapterId>
+<chapterId>32c45d6f-511e-48d4-980f-aca5f2ec8464</chapterId>
 
 
 Bir önceki bölümde kısaca hatırladığımız gibi Turgot, Fransız kamu hizmetinin üst kademelerinde kendini göstermiş seçkin bir ailenin oğluydu.
@@ -1388,7 +1388,7 @@ Sonunda, parlamentolar ve ayrıcalıklı sınıflar kazandı. Kral'ın tek yapab
 ## Condillac
 
 
-<chapterId>0ba8dbb5-dcd5-5981-bf85-6c185e0bf192</chapterId>
+<chapterId>f3f1683a-4bcd-4b2a-b5d1-ec0e94c3b457</chapterId>
 
 
 Tıpkı en belirgin pratik tezahürü olan merkantilizm gibi, Montaigne'in sofizminin de ortadan kalkması uzun zaman aldı.
@@ -1467,7 +1467,7 @@ Bu nedenle serbest ticarete yönelik eleştirileri tamamen ortadan kaldırırlar
 ## Condorcet
 
 
-<chapterId>99e4aba6-da7f-5041-b02f-337158381515</chapterId>
+<chapterId>55fbdf44-8975-44af-b161-f36d69a49347</chapterId>
 
 
 Condorcet kuşkusuz Aydınlanma döneminin en ekonomik düşünen filozofudur.
@@ -1524,7 +1524,7 @@ Tüm enerjisini Turgot'yu savunmaya adamış olsa da Condorcet'nin arkadaşını
 ## Devrim döneminde liberal sağduyu
 
 
-<chapterId>95e9a90d-e37a-58ff-b1ac-928b42e76ecf</chapterId>
+<chapterId>37ad7db0-ed45-44ba-8bef-d1fa323dbe8e</chapterId>
 
 
 Dupont de Nemours, bir zamanlar kendisi hakkında şöyle diyen François Quesnay'in en genç öğrencisiydi: "Bu genç adama dikkat etmeliyiz, çünkü biz öldüğümüzde o konuşacak". Fransız Devrimi başladığında, Marquis de Mirabeau da dahil olmak üzere neredeyse tüm büyük Fizyokratlar çoktan ölmüştü; Mirabeau'nun kendisi de 13 Temmuz 1789'da vefat etmişti.
@@ -1598,7 +1598,7 @@ Ancak bir kez daha kimse onu dinlemedi.
 ## Sonuç: Meşaleyi Devretmek
 
 
-<chapterId>ada8082f-db96-5e52-954f-719b47998153</chapterId>
+<chapterId>691a1639-3e28-4401-bc29-6b17abcfc333</chapterId>
 
 
 18'inci yüzyıldaki Fransız ekonomik düşüncesi genellikle 19'uncu yüzyılın daha ünlü ekonomistleri tarafından gölgede bırakılır. Oysa söz konusu özgürlüğün savunulması olduğunda, her şey 18. yüzyılda başlar. Bu yüzyıl, zamanında devrim niteliğinde olan laissez-faire ilkesinin Boisguilbert'ten Dupont de Nemours'a kadar bir dizi düşünür tarafından ilk kez açıkça ifade edildiği yüzyıldır.
@@ -1652,7 +1652,7 @@ Tüm bu fikirler 19. yüzyılın ekonomistleri tarafından ele alınacaktı. Jea
 ## Biyografi
 
 
-<chapterId>17cf2865-e53c-5f3b-a5c2-a43560efaf01</chapterId>
+<chapterId>9daf678b-2687-4a2f-a490-8826538c1b49</chapterId>
 
 
 **SEÇİCİ KAYNAKÇA**
@@ -1735,27 +1735,27 @@ Aşağıda otuzdan fazla yazıdan oluşan bir seçki bulacaksınız:
 # Son bölüm
 
 
-<partId>385bffab-aea1-5bcd-9569-62b3f30665b7</partId>
+<partId>aa809524-47cd-4945-92d0-2e674b98e2e2</partId>
 
 
 ## Yorumlar & Derecelendirmeler
 
 
-<chapterId>a1e689d9-abd0-5dcb-ba56-a8d355d0a84f</chapterId>
+<chapterId>e13b6e40-2801-4e3c-8ed1-1c9144f47e27</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Final Sınavı
 
 
-<chapterId>bdb7fd98-33e7-11f0-9fe6-b785c859ffc5</chapterId>
+<chapterId>9da23eb9-a79c-4cf3-8b73-b64a9b3f45d1</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## Sonuç
 
 
-<chapterId>3b366ff6-03c8-5f6a-b4c0-ba8186e65d7e</chapterId>
+<chapterId>027ecdbb-a845-4232-be81-92e1b7101618</chapterId>
 
 
 <isCourseConclusion>true</isCourseConclusion>

@@ -24,11 +24,11 @@ In this description page we will also displayed the `thumbnail.webp` image prese
 
 # This is a Part of the course
 
-<partId>97ccb669-12a0-5eed-83ac-c2f51839d998</partId>
+<partId>74ab6d88-cda7-4da1-9696-8b9b665395f7</partId>
 
 ## This is a Chapter of the course
 
-<chapterId>4dc58281-5179-507c-afde-8c9204cbd3fd</chapterId>
+<chapterId>7f2e6074-c9e4-46a1-a6d5-5999803f366a</chapterId>
 
 ### This is a Section of the course
 
@@ -52,7 +52,7 @@ Although every image format is valid, we prefer for storage efficiency reason to
 
 ## This is 2nd Chapter
 
-<chapterId>3ff2a050-c311-55ce-a3c6-3cc450cad1ce</chapterId>
+<chapterId>d405bf07-cee3-4146-86ff-f58c2ccc4188</chapterId>
 
 A chapter doesn't necessarily contains sections (`###`) but a part must contains at least one chapter.
 
@@ -64,7 +64,7 @@ A cool trick is to embed video like this :
 
 ## Part and Chapter UUIDs
 
-<chapterId>eac81877-db9b-5027-87e2-2b28b59459a0</chapterId>
+<chapterId>86a51774-40e6-4d74-b438-a85cb9e9a8df</chapterId>
 
 To better identify each element of the course, we have decided to add UUIDs for each Chapter and Part. Here again there's a python script available for it, but reviewers could do it too.
 The UUIDs are the identical between 2 languages of the same content.

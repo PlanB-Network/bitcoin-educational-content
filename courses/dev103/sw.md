@@ -28,12 +28,12 @@ Kufikia mwisho wa kozi, unapaswa kuwa na uwezo wa kuandika programu zako mwenyew
 +++
 # JavaScript ya Msingi
 
-<partId>a617327c-e5a2-52ca-9380-c63f44623dd4</partId>
+<partId>f05873c1-d927-41c7-a204-bb0c65a76980</partId>
 
 
 ## Sanidi
 
-<chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
+<chapterId>f23bda2d-c460-4823-9d63-f2ac4d782c1f</chapterId>
 
 
 
@@ -182,7 +182,7 @@ Hii itachapisha
 
 ## Vigezo na maoni
 
-<chapterId>23050ab7-343b-5edf-9d37-e4e782e27ce0</chapterId>
+<chapterId>3eeeaba5-0eae-446f-9cbb-671d8ec89155</chapterId>
 
 
 Programu kawaida hutekeleza shughuli kwenye data.
@@ -466,7 +466,7 @@ Unaweza kutumia maoni kuongeza vidokezo vidogo kwenye msimbo wako, ili uweze kuk
 
 ## Aina za msingi: nambari, kamba, booleans
 
-<chapterId>cfdb04f6-21a8-5143-bbf9-7aaae04962f0</chapterId>
+<chapterId>1885cd1e-9477-40b3-846f-c6484a0741d1</chapterId>
 
 
 Katika JavaScript, "aina" inakuambia thamani ni ya aina gani.
@@ -723,7 +723,7 @@ Vipuli, ulinganishaji na waendeshaji kimantiki mara nyingi hujumuishwa katika pr
 
 ## Safu, null, haijafafanuliwa
 
-<chapterId>7bf18183-5eae-53ed-83d2-b04982145d81</chapterId>
+<chapterId>8047722f-5eee-46c3-b17f-c29b709930c3</chapterId>
 
 
 Katika sehemu hii, tutashughulikia aina tatu zaidi ambazo ni za kawaida sana katika programu za JavaScript:
@@ -970,7 +970,7 @@ Kwa hivyo `null` ni muhimu unapotaka kusema, kwa mfano, "Lazima kuwe na kitu hap
 
 ## Vizuizi na mtiririko wa udhibiti
 
-<chapterId>be985168-2636-5b0d-a48f-ac1bbfbff8a7</chapterId>
+<chapterId>ae3ddb7d-b174-4328-ba45-e3629ea01063</chapterId>
 
 
 Kufikia sasa, tumeandika zaidi mistari ya msimbo inayoendesha moja baada ya nyingine.
@@ -1500,7 +1500,7 @@ Huu ulikuwa mfano wa kuchosha sana lakini kwa matumaini ulifafanua hitaji (la ma
 
 ## Kuanzisha vipengele
 
-<chapterId>cc324715-09c2-5cf7-9e6f-47a6f16bc04d</chapterId>
+<chapterId>c73497b2-30c8-47c3-994c-01404924634e</chapterId>
 
 
 Kadiri programu zako zinavyokua, mara nyingi utataka **kutumia tena** vipande vya msimbo.
@@ -1740,7 +1740,7 @@ Hii itachapisha `undefined`. Thamani ya kurejesha ya chaguo za kukokotoa ambayo 
 
 ## Vitu na madarasa
 
-<chapterId>26689f25-8212-5057-8c21-3a05eee0ac75</chapterId>
+<chapterId>820f0b78-7065-4929-84eb-6d569d75a9ce</chapterId>
 
 
 JavaScript mara nyingi huitwa lugha inayolenga kitu.
@@ -2425,12 +2425,12 @@ Mistari yote miwili inarudisha `kweli`. Hiyo ni kwa sababu `Admin` ni daraja ndo
 
 # JavaScript ya kati
 
-<partId>243f63ab-4f34-5c30-80cb-84ef46f6761d</partId>
+<partId>371fcc46-5c4f-4e9f-8e88-092927553fdc</partId>
 
 
 ## Kushughulikia Hitilafu
 
-<chapterId>d0206bc5-d386-5e7f-9917-5803f392448c</chapterId>
+<chapterId>a34f710a-8955-4f58-a559-003706047512</chapterId>
 
 
 Unapoandika programu ngumu zaidi za JavaScript, utakutana na **makosa**. Hizi ni hali zisizotarajiwa ambapo kitu kitaenda vibaya. Labda kigezo `hakijafafanuliwa` lakini unajaribu kukitumia, au msimbo fulani hupokea aina isiyo sahihi ya ingizo.
@@ -2583,7 +2583,7 @@ This will run no matter what.
 
 ## Kuepuka Mdudu
 
-<chapterId>db12d9f6-5806-514c-998e-0ae24805104e</chapterId>
+<chapterId>44624b0b-ca62-471b-9ff4-633ac4456031</chapterId>
 
 
 Sura hii inaonyesha baadhi ya mitego ya kawaida katika JavaScript, na jinsi ya kuziepuka.
@@ -2681,7 +2681,7 @@ Hali kali pia huzima baadhi ya vipengele vilivyopitwa na wakati vya JavaScript, 
 
 ## Thamani dhidi ya Marejeleo
 
-<chapterId>bb898425-dc2f-5e5c-864b-0cb7a4a9aea9</chapterId>
+<chapterId>7b38da5d-a2a8-4a92-bd16-4f9fb9bba36d</chapterId>
 
 
 JavaScript hushughulikia aina tofauti za maadili kwa njia tofauti.
@@ -2845,7 +2845,7 @@ Ni muhimu kukumbuka tofauti hii, kwa sababu vinginevyo nambari yetu inaweza kuwa
 
 ## Kufanya kazi na Kazi
 
-<chapterId>e0d277a8-c642-5af7-9e53-dee27c811967</chapterId>
+<chapterId>5ef8fb79-0042-4185-8f54-0c2b6741cb11</chapterId>
 
 
 Tayari umejifunza jinsi ya kutangaza na kutumia vipengele katika JavaScript. Lakini JavaScript hukupa zana zaidi za kufanya kazi na vitendaji kwa njia zenye nguvu.
@@ -3113,7 +3113,7 @@ console.log(result) // 28
 
 ## Kufanya kazi na vitu
 
-<chapterId>7842aada-f009-5518-b8e3-1104e166a035</chapterId>
+<chapterId>51719896-7c92-4730-b153-7d3f88680a73</chapterId>
 
 
 Katika sura hii, tutajifunza zana zenye nguvu na za juu zaidi za kufanya kazi na vitu katika JavaScript.
@@ -3240,7 +3240,7 @@ Kwa hivyo ingawa inahisi kama tunaweka kitofautishi rahisi, kwa kweli tunaanzish
 
 ## Vifunguo na Maadili
 
-<chapterId>01a397b8-c12a-5c39-82b3-6d9ebbb72a29</chapterId>
+<chapterId>03899213-ca26-4beb-b836-c70116a5cb29</chapterId>
 
 
 Kila mali katika kitu cha JavaScript ina **ufunguo** (pia huitwa jina la mali) na **thamani**.
@@ -3415,7 +3415,7 @@ Kama unavyoona, mali asili ya `jina` imehifadhiwa kwa njia hii. Hii inaweza kuwa
 
 ## Vitu vya Huduma
 
-<chapterId>516e74c8-2a11-545a-a4d1-c2cabb91a273</chapterId>
+<chapterId>d6ce15ed-f38f-44f0-bf38-05f54a263763</chapterId>
 
 
 JavaScript hutupatia baadhi ya vitu muhimu vilivyojengewa ndani ambavyo hutusaidia kufanya mambo kama vile utatuzi na uendeshaji wa hesabu.
@@ -3588,12 +3588,12 @@ console.log(Math.sqrt(16))    // 4
 
 # JavaScript ya hali ya juu
 
-<partId>72c30671-ca20-5617-92a5-d5ba7aa38c93</partId>
+<partId>4deca44e-5be7-4cc7-8e66-b6e72c5c5702</partId>
 
 
 ## Makusanyo mengine
 
-<chapterId>a9a70c6d-a343-5a46-a383-e288bc2700e3</chapterId>
+<chapterId>06bc3143-6d3b-4742-b3ec-3d493200f290</chapterId>
 
 
 JavaScript inatupa baadhi ya aina maalum za mkusanyiko ambazo huenda zaidi ya safu na vitu vya kawaida. Hizi ni pamoja na `Ramani` na `Weka`.
@@ -3761,7 +3761,7 @@ console.log(numberSet) // Set(5) { 1, 2, 3, 4, 5 }
 
 ## Warudiaji
 
-<chapterId>61d24e5e-b7e4-541a-8322-778f61f26a72</chapterId>
+<chapterId>cdf64150-bf1b-43ee-9243-eb1d12944f6b</chapterId>
 
 
 Vitu vingi katika JavaScript ambavyo unaweza kuvifunga (kama vile safu, mifuatano, ramani, seti) ni **vinavyoweza kueleweka**: vinaweza kutoa viambatanisho kwa yaliyomo.
@@ -4096,7 +4096,7 @@ Hii inachapisha:
 
 ## Sambamba na kupiga simu
 
-<chapterId>f3fc76ca-b3ef-54eb-a06e-501007002054</chapterId>
+<chapterId>153d4631-4f09-4673-9663-a0655c84915d</chapterId>
 
 
 Hadi sasa, msimbo wetu umekuwa **sawazisha**: inaendesha mstari mmoja kwa wakati mmoja, kwa mpangilio. Lakini baadhi ya mambo katika ulimwengu wa kweli huchukua muda, na hatutaki programu nzima kusitisha wakati wa kusubiri.
@@ -4221,7 +4221,7 @@ Hii ni Hard kusoma na fujo. Mtindo huu unaitwa **callback hell**, na ndio hasa `
 
 ## Sambamba na Ahadi
 
-<chapterId>30fddaca-729f-5c8d-bf86-8dfc7b3c9800</chapterId>
+<chapterId>f8635081-bd8a-468c-937a-378cba983be8</chapterId>
 
 
 `Ahadi` ni kitu cha JavaScript kilichojengewa ndani ambacho kinawakilisha thamani ambayo ** itakuwa tayari katika siku zijazo**.
@@ -4553,7 +4553,7 @@ Kila `.basi()` husubiri hatua kabla ya kumaliza. Ili tuweze kujenga **msururu wa
 
 ## Sambamba na async/ await
 
-<chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
+<chapterId>ee195267-5761-4b57-b9c9-294c41753675</chapterId>
 
 
 Tuliona jinsi minyororo ya `Promise` inavyotusaidia kuepuka kuzimu ya kurudi nyuma, lakini bado wanaweza kupata Hard kidogo ya kusoma wakati kuna hatua nyingi zinazohusika.
@@ -4754,7 +4754,7 @@ Inaonekana kama mpango wa hatua kwa hatua wa kawaida, lakini bado unafanya kazi 
 
 ## Async Iterators
 
-<chapterId>438b037d-9931-56d7-9052-7b4470f3c75b</chapterId>
+<chapterId>0e054e0d-3c56-4a9c-92b8-3f89082951d3</chapterId>
 
 
 Tayari umejifunza kuhusu **virudishi** na jinsi tunavyoweza kutumia `kwa...ya` kuzunguka safu na vitu vingine vinavyoweza kutekelezeka.
@@ -4933,7 +4933,7 @@ Hii hukuruhusu kuunda vitu ambavyo vinaweza kurudiwa kwa usawa
 
 ## Assignment sukari ya syntax
 
-<chapterId>8b1ba7d8-ecfd-5470-b86e-73cb84ccc8b7</chapterId>
+<chapterId>05425043-b182-44f2-8409-210b07130f92</chapterId>
 
 
 "Sukari ya sintaksia" inamaanisha kuandika kitu kwa njia fupi au rahisi, bila kubadilisha kile kinachofanya. Ni njia nzuri zaidi ya kusema kitu sawa.
@@ -5184,12 +5184,12 @@ Hii ni muhimu sana wakati wa kusasisha vitu bila kubadilisha asili.
 
 # NodeJS
 
-<partId>42fe4d49-dace-5135-bb9e-b9d75034fb2a</partId>
+<partId>5b72ef93-69a6-4736-a375-6236861e2874</partId>
 
 
 ## Tulifikaje kwenye Node
 
-<chapterId>0da1d60c-06c9-54e6-a181-ae7dabf6e3b8</chapterId>
+<chapterId>d43b1e4c-cd96-4c75-8039-f76eb407a576</chapterId>
 
 
 Katika sura hii tutajifunza muktadha mdogo wa kihistoria kuhusu JavaScript na NodeJS.
@@ -5278,7 +5278,7 @@ Katika kozi hii hadi sasa, tumechunguza vipengele vya JavaScript ambavyo vipo kw
 
 ## Hoja za mstari wa amri
 
-<chapterId>960d20f3-c424-5d51-a041-ef17d2e94b6d</chapterId>
+<chapterId>941e316c-7ab8-4fb0-8298-9a1c85b25b71</chapterId>
 
 
 NodeJS inaturuhusu, kati ya mambo mengine, kujenga CLIs (Violesura vya Mstari wa Amri).
@@ -5355,7 +5355,7 @@ Kuwa na idhini ya kufikia hoja ambazo mtumiaji anapitisha ni jambo la msingi kat
 
 ## Moduli
 
-<chapterId>4e1651a5-65fd-50bc-b22a-40313d5659ca</chapterId>
+<chapterId>ace32a0c-8a10-4dfa-83e2-e06a8f674a24</chapterId>
 
 
 Nyakati za utekelezaji za JavaScript kama NodeJS kawaida huchukulia kila faili ya JavaScript kama moduli tofauti.
@@ -5495,7 +5495,7 @@ Sura zinazofuata zitakuonyesha baadhi ya mifano muhimu ya matumizi yao.
 
 ## Moduli ya fs
 
-<chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
+<chapterId>e59cdf25-2dc2-48d1-b5c1-3df89254ff4e</chapterId>
 
 
 Moduli ya `fs` (fupi kwa **mfumo wa faili**) ni sehemu ya maktaba ya kawaida ya NodeJS. Inakuruhusu kufanya kazi na faili na saraka kwenye kompyuta yako: unaweza kusoma faili, kuandika faili, kuzifuta, kuzibadilisha, na zaidi.
@@ -5793,7 +5793,7 @@ main().catch(err => console.error(err))
 
 ## NPM
 
-<chapterId>a91d9a75-55cc-51a3-a48f-0c0be6fe6e72</chapterId>
+<chapterId>412cfd23-1869-491e-9d04-84b9c447b4df</chapterId>
 
 
 Unapoandika msimbo , mara nyingi utahitaji kutumia msimbo ulioandikwa na watu wengine; kwa mfano, maktaba za kukusaidia kufanya kazi na tarehe, rangi, seva, au karibu kitu kingine chochote.
@@ -6014,7 +6014,7 @@ Lakini haya ni mambo unapaswa kuwa na wasiwasi kuhusu baadaye, mara tu unapoanza
 
 ## Mtandao katika NodeJS
 
-<chapterId>f2cabd8b-754b-5c97-8d6a-8412a9a184c7</chapterId>
+<chapterId>5915bd97-6bc8-446a-a1d8-ca3ce2f724be</chapterId>
 
 
 NodeJS hutumiwa mara nyingi kama lugha ya nyuma: unaweza kubadilisha hati yako kuwa seva, na pia kuitumia kufanya maombi kwa seva zingine.
@@ -6216,7 +6216,7 @@ Hii ni mifano ya msingi sana. Ili kuunda seva za hali ya juu zaidi, watengenezaj
 
 ## Inachakata data: bafa, matukio, mitiririko
 
-<chapterId>8c9623f0-a604-51a4-8fe4-871c849d3e3b</chapterId>
+<chapterId>6327b62d-3e2d-4a40-b8c3-78f2a21f3fda</chapterId>
 
 
 Katika sura hii, tutaanzisha aina tatu za vitu:
@@ -6703,7 +6703,7 @@ Kwa hivyo unahitaji tu kuwa na wasiwasi kuhusu shinikizo la nyuma wakati kwa sab
 
 ## Ujumbe wa mwisho
 
-<chapterId>139e2ab8-df67-525a-85f0-5a2fa5e478f2</chapterId>
+<chapterId>c09318b9-2d2f-4300-a32b-dff8dbdb9dbd</chapterId>
 
 
 Kwa hivyo, ndivyo ilivyo, ikiwa ulifuata pamoja na masomo, unapaswa kuwa na uwezo wa kuandika programu rahisi katika NodeJS.
@@ -6724,20 +6724,20 @@ Bahati nzuri!
 # Sehemu ya mwisho
 
 
-<partId>322624d8-6fbc-11f0-a67a-5b145f10afc1</partId>
+<partId>528a2f0c-e5cf-49e5-95c8-4866523a5bde</partId>
 
 
 ## Ukaguzi na Ukadiriaji
 
 
-<chapterId>3e93ac86-6fbc-11f0-8bae-9b2ed7914843</chapterId>
+<chapterId>5c5cae08-1839-4b94-b89c-af40a0dc14a9</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Hitimisho
 
 
-<chapterId>49b3b9b2-6fbc-11f0-9870-5f5adcd3a0eb</chapterId>
+<chapterId>627aebc9-879f-4539-8501-dd0a517dd4a0</chapterId>
 
 
 <isCourseConclusion>true</isCourseConclusion>

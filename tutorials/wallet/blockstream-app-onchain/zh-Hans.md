@@ -284,7 +284,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 在 Wallet 主屏幕上，点击 "设置 "选项卡，然后点击 "Wallet 详细信息"，复制 zPub（[扩展公开密钥](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602)）：
+- 在 Wallet 主屏幕上，点击 "设置 "选项卡，然后点击 "Wallet 详细信息"，复制 zPub（[扩展公开密钥](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/0488ec38-da31-46a1-b31e-04b5c05fb6e8)）：
 
 
 

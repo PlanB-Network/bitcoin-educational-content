@@ -45,9 +45,9 @@ If a title does not have a UUID, the script will add one:
 
 ```markdown
 # Part 1 - Introduction
-<partId>123e4567-e89b-12d3-a456-426614174000</partId>
+<partId>c355aca5-40e7-4e31-920e-a79184bfa025</partId>
 ## Chapter 1 - Overview
-<chapterId>123e4567-e89b-12d3-a456-426614174001</chapterId>
+<chapterId>7042aec5-f372-4450-ac72-d6342fbf71ea</chapterId>
 ```
 
 ### 2. `plan.py`
@@ -81,8 +81,8 @@ The generated `plan.txt` will look like this:
 
 ```txt
 Part 0 - Protect your privacy in Bitcoin
-Part 1 - Introduction (123e4567-e89b-12d3-a456-426614174000)
-    Chapter 1 - Overview (123e4567-e89b-12d3-a456-426614174001)
+Part 1 - Introduction (c355aca5-40e7-4e31-920e-a79184bfa025)
+    Chapter 1 - Overview (7042aec5-f372-4450-ac72-d6342fbf71ea)
 ```
 
 ### 3. `quizz.py`

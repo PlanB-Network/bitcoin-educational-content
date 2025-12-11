@@ -15,11 +15,11 @@ Il materiale è progettato per studenti di tutti i livelli e bilancia l'intuizio
 +++
 # Introduzione
 
-<partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
+<partId>abfa0d9a-736e-40f8-937a-490ef19bc481</partId>
 
 ## Panoramica del corso
 
-<chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+<chapterId>dc6c887e-00a6-4b7f-9d50-14cbdfd5e867</chapterId>
 Benvenuto al corso CYP302!
 
 Questo libro offre un'introduzione approfondita alla scienza e alla pratica della crittografia. Dove possibile, si concentra sull'esposizione concettuale piuttosto che formale del materiale.
@@ -88,11 +88,11 @@ Pronto a esplorare l'affascinante universo della crittografia? Andiamo!
 
 # Che cos'è la crittografia?
 
-<partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>
+<partId>dfa3633c-f97b-4650-8a2e-cb15a42ca557</partId>
 
 ## I cifrari di Beale
 
-<chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
+<chapterId>b97d116b-035b-4e92-890c-e377b48edb36</chapterId>
 
 Iniziamo la nostra indagine sul campo della crittografia con uno degli episodi più affascinanti e divertenti della sua storia: quello dei cifrari di Beale. [1]
 
@@ -132,7 +132,7 @@ Dopo la decrittazione, il secondo messaggio fornisce il contenuto dettagliato de
 
 ## Crittografia moderna
 
-<chapterId>d07d576f-8a4b-5890-b182-2e5763f550f4</chapterId>
+<chapterId>a53dab64-fcf9-48c1-b578-dc43d799f3de</chapterId>
 
 Storie colorate come quella dei cifrari di Beale sono ciò che la maggior parte di noi associa alla crittografia. Tuttavia, la crittografia moderna si differenzia per almeno quattro aspetti importanti da questi esempi storici.
 
@@ -184,7 +184,7 @@ Per fare un altro esempio, gli attacchi di **phishing** sono un problema comune 
 
 ## Comunicazioni aperte
 
-<chapterId>cb23d0a6-ba9a-5dc6-a55a-258405ae4117</chapterId>
+<chapterId>87b637ca-3d20-42b5-b299-ecb084b60aec</chapterId>
 
 La crittografia moderna è stata progettata per fornire garanzie di sicurezza in un ambiente di **comunicazioni aperte**. Se il nostro canale di comunicazione è così ben protetto che chi origlia non ha alcuna possibilità di manipolare o anche solo osservare i nostri messaggi, allora la crittografia è superflua. La maggior parte dei nostri canali di comunicazione, tuttavia, non sono così ben protetti.
 
@@ -204,11 +204,11 @@ Pertanto, l'idea di mantenere segrete le comunicazioni proteggendo il canale di 
 
 # Fondamenti matematici della crittografia 1
 
-<partId>1bf9f0aa-0f68-5493-83fb-2167238ff9de</partId>
+<partId>22c3967a-c64b-468c-8e68-3324fe552738</partId>
 
 ## Variabili casuali
 
-<chapterId>b623a7d0-3dff-5803-bd4e-8257ff73dd69</chapterId>
+<chapterId>c5fa2255-6041-400b-9072-217b73bf411e</chapterId>
 
 La crittografia si basa sulla matematica. E se si vuole ottenere una comprensione più che superficiale della crittografia, è necessario essere a proprio agio con la matematica.
 
@@ -413,7 +413,7 @@ Potrei, per esempio, chiedervi la probabilità che i maiali volino entro il 2030
 
 ## L'operazione modulo
 
-<chapterId>709b34e5-b155-53d2-abbd-97d67e56db00</chapterId>
+<chapterId>a7e063f0-62dd-4c35-892a-55fa1b10aad8</chapterId>
 
 ### Modulo
 
@@ -501,7 +501,7 @@ $$
 
 ## L'operazione XOR
 
-<chapterId>22f185cc-c516-5b33-950b-0908f2f881fe</chapterId>
+<chapterId>941aaabd-0896-4eb2-843c-e1af055c87fc</chapterId>
 
 Tutti i dati informatici vengono elaborati, memorizzati e inviati attraverso le reti a livello di bit. Anche gli schemi crittografici applicati ai dati informatici operano a livello di bit.
 
@@ -536,7 +536,7 @@ Un'operazione XOR è equivalente al caso speciale di eseguire un'operazione modu
 
 ## Pseudorandomia
 
-<chapterId>20463fc5-3e92-581f-a1b7-3151279bd95e</chapterId>
+<chapterId>bd0c7d54-5392-490b-bdca-04dcbe7d83ff</chapterId>
 
 Nella nostra discussione sulle variabili casuali e uniformi, abbiamo fatto una distinzione specifica tra "casuale" e "uniforme". Questa distinzione viene tipicamente mantenuta nella pratica quando si descrivono variabili casuali. Tuttavia, nel nostro contesto attuale, questa distinzione deve essere abbandonata e "casuale" e "uniforme" sono usati come sinonimi. Ne spiegherò il motivo alla fine della sezione.
 
@@ -580,11 +580,11 @@ Ora dovrebbe essere chiaro anche il motivo per cui abbiamo abbandonato la distin
 
 # Fondamenti matematici della crittografia 2
 
-<partId>d7245cc9-bb6d-5403-b3d5-9c703d9a2f81</partId>
+<partId>62963952-ae03-43f4-88d6-90aea95e5c5f</partId>
 
 ## Che cos'è la teoria dei numeri?
 
-<chapterId>c0051c34-fd5d-539c-93e2-5c6dfd4c3355</chapterId>
+<chapterId>67e7dace-4c23-41a8-bdb3-c6c87d223899</chapterId>
 
 Questo capitolo tratta un argomento più avanzato delle basi matematiche della crittografia: la teoria dei numeri. Sebbene la teoria dei numeri sia importante per la crittografia simmetrica (come nel Cifrario Rijndael), è particolarmente importante nell'ambito della crittografia a chiave pubblica.
 
@@ -604,7 +604,7 @@ Gli insiemi dell'algebra astratta possono trattare molti tipi di oggetti, dalle 
 
 ## Gruppi
 
-<chapterId>3209b270-f9cd-5224-803e-0ed19fbf7826</chapterId>
+<chapterId>4353d3ff-6319-4985-a4b8-3b20111ecfff</chapterId>
 
 Un concetto fondamentale in matematica è quello di insieme di elementi. Un insieme è solitamente indicato da segni di riconoscimento con gli elementi separati da virgole.
 
@@ -676,7 +676,7 @@ Le transazioni in Bitcoin comportano tipicamente il blocco degli output a una o 
 
 ## Gruppi ciclici
 
-<chapterId>bfa5c714-7952-5fef-88b1-ca5b07edd886</chapterId>
+<chapterId>b5b552f6-cf7c-4ba8-bd9c-685bfc4aacad</chapterId>
 
 Una distinzione importante che possiamo fare è tra un **gruppo finito** e un **gruppo infinito**. Il primo ha un numero finito di elementi, mentre il secondo ha un numero infinito di elementi. Il numero di elementi di un gruppo finito è noto come **ordine del gruppo**. Tutta la crittografia pratica che implica l'uso di gruppi si basa su gruppi finiti (numerici).
 
@@ -763,7 +763,7 @@ Formula della funzione Phi di Eulero per la fattorizzazione dei primi di $N$.
 
 ## Campi
 
-<chapterId>fad52d86-3a22-5c9f-979e-3bec9eaa008e</chapterId>
+<chapterId>7a8c9ab0-fc8f-43fa-8dd7-fd1839bcda81</chapterId>
 
 Un gruppo è la struttura algebrica di base dell'algebra astratta, ma ne esistono molte altre. L'unica altra struttura algebrica con cui è necessario avere familiarità è quella di un **campo**, in particolare di un **campo finito**. Questo tipo di struttura algebrica è spesso utilizzata in crittografia, come ad esempio nell'Advanced Encryption Standard. Quest'ultimo è il principale schema di crittografia simmetrica che si incontra nella pratica.
 
@@ -913,7 +913,7 @@ Perché i campi di estensione con base 2 su insiemi di polinomi, come nell'esemp
 
 ## Algebra astratta in pratica
 
-<chapterId>ed35b98d-18b4-5790-9911-1078e0f84f92</chapterId>
+<chapterId>9b8cd1fc-8a34-4e1b-ab4f-c634a763a20c</chapterId>
 
 Nonostante il linguaggio formale e l'astrattezza della discussione, il concetto di gruppo non dovrebbe essere troppo difficile da afferrare. Si tratta semplicemente di un insieme di elementi insieme a un'operazione binaria, dove l'esecuzione di tale operazione binaria su tali elementi soddisfa quattro condizioni generali. Un gruppo abeliano ha solo una condizione in più, nota come commutatività. Un gruppo ciclico, a sua volta, è un tipo speciale di gruppo abeliano, cioè quello che ha un generatore. Un campo è semplicemente un costrutto più complesso della nozione di gruppo di base.
 
@@ -941,11 +941,11 @@ Per approfondire la teoria moderna dei numeri, è possibile consultare molte dis
 
 # Crittografia simmetrica
 
-<partId>ef768d0e-fe7b-510c-87d6-6febb3de1039</partId>
+<partId>b994593e-cb9b-4a2c-ae80-2dec3478e1a6</partId>
 
 ## Alice e Bob
 
-<chapterId>47345330-be2d-5faf-afd0-d289a8d21bf1</chapterId>
+<chapterId>9c901027-b83a-4954-99b4-9e4f0c1598b7</chapterId>
 
 Uno dei due rami principali della crittografia è la crittografia simmetrica. Essa comprende schemi di crittografia e schemi di autenticazione e integrità. Fino agli anni '70, tutta la crittografia consisteva in schemi di crittografia simmetrica.
 
@@ -975,7 +975,7 @@ Di seguito sono riportati cinque punti chiave da tenere a mente sugli esempi che
 
 ## Schemi di crittografia simmetrica
 
-<chapterId>41bfdbe1-6d41-5272-98bb-81f24b2fd6af</chapterId>
+<chapterId>e2645185-bb06-41d2-9a80-81dd84108647</chapterId>
 
 Possiamo definire in modo approssimativo uno schema di **crittografia simmetrica** come qualsiasi schema crittografico con tre algoritmi:
 
@@ -1011,7 +1011,7 @@ Bob cripta il messaggio $M$ al tempo $T_0$ con la chiave $K$ per produrre il tes
 
 ## Un esempio: Il cifrario a turni
 
-<chapterId>7b179ae8-8d15-5e80-a43f-22c970d87b5e</chapterId>
+<chapterId>63287a89-bda1-4395-ade6-cd8d8debe797</chapterId>
 
 Nel Capitolo 2 abbiamo incontrato il cifrario a turni, che è un esempio di schema di crittografia simmetrica molto semplice. Riportiamolo qui di seguito.
 
@@ -1047,7 +1047,7 @@ Potreste anche imbattervi nei termini **enciclare** o **decifrare**. Questi term
 
 ## Attacchi di forza bruta e principio di Kerckhoff
 
-<chapterId>2d73ef97-26c5-5d11-8815-0ddbe89c8003</chapterId>
+<chapterId>4a72d8d8-0186-4654-b5ba-f99a4e03fb59</chapterId>
 
 Il cifrario a turni è uno schema di crittografia simmetrica molto insicuro, almeno nel mondo moderno. [1] Un aggressore potrebbe semplicemente tentare di decifrare qualsiasi testo cifrato con tutte le 26 chiavi possibili per vedere quale risultato ha senso. Questo tipo di attacco, in cui l'attaccante si limita a scorrere le chiavi per vedere quale funziona, è noto come **attacco di forza** o **ricerca esaustiva di chiavi**.
 
@@ -1094,7 +1094,7 @@ Anche se non ci addentreremo in tutti i dettagli delle varie nozioni di sicurezz
 
 ## Cifrari di flusso
 
-<chapterId>479aa6f4-45c4-59ca-8616-8cf8e61fc871</chapterId>
+<chapterId>82a4d8c5-7fd7-4bbb-a97e-e7a2d7cc55a0</chapterId>
 
 Gli schemi di crittografia simmetrica si suddividono in due tipi: **cifrari a flusso** e **cifrari a blocco**. Questa distinzione, tuttavia, è alquanto problematica, in quanto le persone utilizzano questi termini in modo incoerente. Nelle prossime sezioni esporrò la distinzione nel modo che ritengo migliore. È bene sapere, tuttavia, che molte persone useranno questi termini in modo diverso da come li ho descritti.
 
@@ -1182,7 +1182,7 @@ A mio avviso, definire la condizione (1) in modo più ampio offre un modo più s
 
 ## Cifrari a blocchi
 
-<chapterId>2df52d51-943d-5df7-9d49-333e4c5d97b7</chapterId>
+<chapterId>ffb7ba1c-eb20-43a8-a2f1-2b8a54a31044</chapterId>
 
 Il primo modo in cui un **cifrario a blocchi** viene comunemente inteso è come qualcosa di più primitivo di un cifrario a flusso: Un algoritmo di base che esegue una trasformazione che preserva la lunghezza su una stringa di lunghezza adeguata con l'aiuto di una chiave. Questo algoritmo può essere utilizzato per creare schemi di crittografia e forse altri tipi di schemi crittografici.
 
@@ -1258,7 +1258,7 @@ Il cifrario a blocchi AES sarà spiegato in dettaglio nel *capitolo 5*.
 
 ## Chiarire la confusione
 
-<chapterId>121c1858-27e3-5862-b0ce-4ff2f70f9f0f</chapterId>
+<chapterId>61e393f2-6764-4214-a871-f7471cb8ea32</chapterId>
 
 La confusione sulla distinzione tra cifrari a blocchi e cifrari a flusso nasce dal fatto che a volte si intende il termine cifrario a blocchi come se si riferisse specificamente a un *cifrario a blocchi con una modalità di crittografia a blocchi*.
 
@@ -1282,7 +1282,7 @@ Da questa discussione si dovrebbe comprendere la *Figura 8*. Essa fornisce una p
 
 ## Codici di autenticazione dei messaggi
 
-<chapterId>19fa7c00-db59-56a0-9654-5350a137939d</chapterId>
+<chapterId>626181b6-f80f-4160-b441-417a79b66ec6</chapterId>
 
 La crittografia si occupa della segretezza. Ma la crittografia si occupa anche di temi più ampi, come l'integrità dei messaggi, l'autenticità e il non ripudio. I cosiddetti **codici di autenticazione dei messaggi** (MAC) sono schemi crittografici a chiave simmetrica che supportano l'autenticità e l'integrità delle comunicazioni.
 
@@ -1312,7 +1312,7 @@ Sebbene nella mia trattazione abbia fatto una distinzione tra autenticità e int
 
 ## Crittografia autenticata
 
-<chapterId>33f2ec9b-9fb4-5c61-8fb4-50836270a144</chapterId>
+<chapterId>64c1aef9-0bf8-45c5-92ba-12161d907eac</chapterId>
 
 In genere, si desidera garantire sia la segretezza che l'autenticità della comunicazione e, pertanto, gli schemi di crittografia e gli schemi MAC sono tipicamente utilizzati insieme.
 
@@ -1356,7 +1356,7 @@ Esiste una serie di funzioni hash che possono essere utilizzate per creare un HM
 
 ## Sessioni di comunicazione sicure
 
-<chapterId>c7f7dcd3-bbed-53ed-a43d-039da0f180c5</chapterId>
+<chapterId>16be8853-ef4e-432b-b724-f34e780f2abe</chapterId>
 
 Supponiamo che due parti siano in una sessione di comunicazione e che inviino più messaggi avanti e indietro.
 
@@ -1388,11 +1388,11 @@ La sessione di comunicazione inizia con l'invio da parte di Bob di un testo cifr
 
 # RC4 e AES
 
-<partId>a48c4a7d-0a41-523f-a4ab-1305b4430324</partId>
+<partId>9948fc0a-59fe-46a4-b324-b12cde16e576</partId>
 
 ## Il cifrario a flusso RC4
 
-<chapterId>5caec5bd-5a77-56c9-b5e6-1e86f0d294aa</chapterId>
+<chapterId>2f83a43a-16e5-4b4e-9d2f-4976f92eba15</chapterId>
 
 In questo capitolo discuteremo i dettagli di uno schema di crittografia con un moderno cifrario a flusso primitivo, RC4 (o "cifrario Rivest 4"), e un moderno cifrario a blocchi, AES. Mentre il cifrario RC4 è caduto in disgrazia come metodo di crittografia, AES è lo standard per la moderna crittografia simmetrica. Questi due esempi dovrebbero dare un'idea più precisa del funzionamento della crittografia simmetrica.
 
@@ -1502,7 +1502,7 @@ Al contrario, un **cifrario a flusso asincrono** ha un flusso di chiavi che vien
 
 ## AES con chiave a 128 bit
 
-<chapterId>0b30886f-e620-5b8d-807b-9d84685ca8ff</chapterId>
+<chapterId>593d6ae3-7887-40d5-b14b-98a580b9a254</chapterId>
 
 Come accennato nel capitolo precedente, tra il 1997 e il 2000 il National Institute of Standards and Technology (NIST) ha indetto un concorso per determinare un nuovo standard di crittografia simmetrica. Il cifrario **Rijndael** risultò essere il vincitore. Il nome è un gioco di parole con i nomi dei creatori belgi, Vincent Rijmen e Joan Daemen.
 
@@ -1668,11 +1668,11 @@ Il motivo delle operazioni alla base del cifrario Rijndael è che producono un a
 
 # Crittografia asimmetrica
 
-<partId>868bd9dd-6e1c-5ea9-9ece-54affc13ba05</partId>
+<partId>20c55ed4-4e45-493a-8bfe-970f332d764c</partId>
 
 ## Il problema della distribuzione e della gestione delle chiavi
 
-<chapterId>1bb651ba-689a-5a89-a7d3-0b9cc3b694f7</chapterId>
+<chapterId>4bbc8769-e00d-4d59-8365-c5f491b1217b</chapterId>
 
 Come per la crittografia simmetrica, gli schemi asimmetrici possono essere utilizzati per garantire sia la segretezza che l'autenticazione. Tuttavia, questi schemi utilizzano due chiavi anziché una: una chiave privata e una pubblica.
 
@@ -1717,7 +1717,7 @@ Cosa è successo negli anni '70? Com'è possibile che possiamo fare istantaneame
 
 ## Nuove direzioni della crittografia
 
-<chapterId>7a9dd9a3-496e-5f9d-93e0-b5028a7dd0f1</chapterId>
+<chapterId>e0f7950c-bb5a-437e-b27e-8d6878e15291</chapterId>
 
 Negli anni '70, i problemi di distribuzione e gestione delle chiavi avevano attirato l'attenzione di un gruppo di crittografi accademici americani: Whitfield Diffie, Martin Hellman e Ralph Merkle. Di fronte al forte scetticismo della maggior parte dei loro colleghi, si cimentarono nell'ideazione di una soluzione.
 
@@ -1781,7 +1781,7 @@ Secondo i loro stessi racconti e quelli del GCHQ, fu James Ellis a ideare per pr
 
 ## Crittografia e autenticazione asimmetrica
 
-<chapterId>2f6f0f03-3c3d-5025-90f0-5211139bc0cc</chapterId>
+<chapterId>a36ea521-ecee-476d-ade9-57f09bed2469</chapterId>
 
 Una panoramica della **crittografia asimmetrica** con l'aiuto di Bob e Alice è riportata nella *Figura 1*.
 
@@ -1859,7 +1859,7 @@ La distribuzione delle chiavi è diventata molto più semplice per Jim's Sportin
 
 ## Funzioni di hash
 
-<chapterId>ea8327ab-b0e3-5635-941c-4b51f396a648</chapterId>
+<chapterId>49d6c9a5-5f18-4ec4-8c83-e02fc60941ff</chapterId>
 
 Le funzioni di hash sono onnipresenti in crittografia. Non sono schemi simmetrici o asimmetrici, ma rientrano in una categoria crittografica a sé stante.
 
@@ -1937,11 +1937,11 @@ Sebbene la resistenza alle collisioni e l'occultamento siano le principali propr
 
 # Il crittosistema RSA
 
-<partId>864dca42-2a8d-530f-bb94-2e1f68b3f411</partId>
+<partId>a8fb0a0b-747f-422a-a464-3c84979efa43</partId>
 
 ## Il problema della fattorizzazione
 
-<chapterId>a31a66e4-52ea-539c-9953-4769ad565d7e</chapterId>
+<chapterId>406b1681-f8bf-4a03-b555-c84ac4dee44a</chapterId>
 
 Mentre la crittografia simmetrica è di solito abbastanza intuitiva per la maggior parte delle persone, non è così per la crittografia asimmetrica. Anche se probabilmente vi sentite a vostro agio con la descrizione di alto livello offerta nelle sezioni precedenti, vi starete chiedendo cosa siano esattamente le funzioni unidirezionali e come vengano utilizzate per costruire schemi asimmetrici.
 
@@ -2035,7 +2035,7 @@ $$ \frac{2^{1024}}{\ln(2^{1024})} - \frac{2^{1023}}{\ln(2^{1023})} $$
 
 ## Risultati della teoria dei numeri
 
-<chapterId>23cd2186-8d97-5709-a4a7-b984f1eb9999</chapterId>
+<chapterId>a5528852-d9cc-4f94-a15d-02f11081e026</chapterId>
 
 Purtroppo, il problema della fattorizzazione non può essere utilizzato direttamente per gli schemi crittografici asimmetrici. Tuttavia, possiamo utilizzare a questo scopo un problema più complesso ma correlato: il problema RSA.
 
@@ -2162,7 +2162,7 @@ Ora disponiamo di tutti i risultati di teoria dei numeri necessari per enunciare
 
 ## Il crittosistema RSA
 
-<chapterId>0253c2f7-b8a4-5d0e-bd60-812ed6b6c7a9</chapterId>
+<chapterId>b230194d-5774-49fe-9d19-53e345453c34</chapterId>
 
 Siamo ora pronti per enunciare il problema RSA. Si supponga di creare un insieme di variabili composto da $p$, $q$, $N$, $\phi(N)$, $e$, $d$ e $y$. Chiamiamo questo insieme $Pi$. Viene creato come segue:
 
@@ -2256,5 +2256,5 @@ Tuttavia, aggiungendo un po' di complessità intelligente, il problema RSA può 
 <isCourseExam>true</isCourseExam>
 
 ## Conclusione
-<chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
+<chapterId>97ce180b-5092-45eb-a160-57fc52917567</chapterId>
 <isCourseConclusion>true</isCourseConclusion>

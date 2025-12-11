@@ -15,11 +15,11 @@ Das Material ist für Lernende aller Niveaus konzipiert und balanciert Intuition
 +++
 # Einführung
 
-<partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
+<partId>abfa0d9a-736e-40f8-937a-490ef19bc481</partId>
 
 ## Kursübersicht
 
-<chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+<chapterId>dc6c887e-00a6-4b7f-9d50-14cbdfd5e867</chapterId>
 Willkommen im Kurs CYP302!
 
 Dieses Buch bietet eine tiefgehende Einführung in die Wissenschaft und Praxis der Kryptographie. Wo immer möglich, konzentriert es sich auf die konzeptionelle und nicht auf die formale Darstellung des Materials.
@@ -88,11 +88,11 @@ Bereit, die faszinierende Welt der Kryptographie zu erkunden? Los geht's!
 
 # Was ist Kryptographie?
 
-<partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>
+<partId>dfa3633c-f97b-4650-8a2e-cb15a42ca557</partId>
 
 ## Die Beale-Chiffren
 
-<chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
+<chapterId>b97d116b-035b-4e92-890c-e377b48edb36</chapterId>
 
 Beginnen wir unsere Untersuchung auf dem Gebiet der Kryptographie mit einer der charmantesten und unterhaltsamsten Episoden ihrer Geschichte: der Beale-Chiffre. [1]
 
@@ -132,7 +132,7 @@ Nach der Entschlüsselung liefert die zweite Nachricht den genauen Inhalt des Sc
 
 ## Moderne Kryptographie
 
-<chapterId>d07d576f-8a4b-5890-b182-2e5763f550f4</chapterId>
+<chapterId>a53dab64-fcf9-48c1-b578-dc43d799f3de</chapterId>
 
 Bunte Geschichten wie die der Beale-Chiffren sind das, was die meisten von uns mit Kryptografie verbinden. Die moderne Kryptografie unterscheidet sich jedoch in mindestens vier wichtigen Punkten von diesen historischen Beispielen.
 
@@ -184,7 +184,7 @@ Ein weiteres Beispiel: **Phishing-Angriffe** sind ein häufiges Problem in unser
 
 ## Offene Kommunikation
 
-<chapterId>cb23d0a6-ba9a-5dc6-a55a-258405ae4117</chapterId>
+<chapterId>87b637ca-3d20-42b5-b299-ecb084b60aec</chapterId>
 
 Die moderne Kryptografie ist so konzipiert, dass sie in einer **offenen Kommunikationsumgebung** Sicherheit bietet. Wenn unser Kommunikationskanal so gut geschützt ist, dass Lauscher keine Chance haben, unsere Nachrichten zu manipulieren oder auch nur zu beobachten, dann ist Kryptographie überflüssig. Die meisten unserer Kommunikationskanäle sind jedoch kaum so gut bewacht.
 
@@ -204,11 +204,11 @@ Daher ist die Idee, Kommunikation durch den Schutz des Kommunikationskanals gehe
 
 # Mathematische Grundlagen der Kryptographie 1
 
-<partId>1bf9f0aa-0f68-5493-83fb-2167238ff9de</partId>
+<partId>22c3967a-c64b-468c-8e68-3324fe552738</partId>
 
 ## Zufallsvariablen
 
-<chapterId>b623a7d0-3dff-5803-bd4e-8257ff73dd69</chapterId>
+<chapterId>c5fa2255-6041-400b-9072-217b73bf411e</chapterId>
 
 Kryptografie beruht auf Mathematik. Und wenn Sie mehr als nur ein oberflächliches Verständnis der Kryptografie entwickeln wollen, müssen Sie mit dieser Mathematik vertraut sein.
 
@@ -413,7 +413,7 @@ Ich könnte Sie zum Beispiel fragen, wie wahrscheinlich es ist, dass Schweine bi
 
 ## Die Modulo-Operation
 
-<chapterId>709b34e5-b155-53d2-abbd-97d67e56db00</chapterId>
+<chapterId>a7e063f0-62dd-4c35-892a-55fa1b10aad8</chapterId>
 
 ### Modulo
 
@@ -501,7 +501,7 @@ $$
 
 ## Die XOR-Operation
 
-<chapterId>22f185cc-c516-5b33-950b-0908f2f881fe</chapterId>
+<chapterId>941aaabd-0896-4eb2-843c-e1af055c87fc</chapterId>
 
 Alle Computerdaten werden auf Bitebene verarbeitet, gespeichert und über Netze gesendet. Alle kryptografischen Verfahren, die auf Computerdaten angewendet werden, arbeiten ebenfalls auf Bitebene.
 
@@ -536,7 +536,7 @@ Eine XOR-Verknüpfung ist äquivalent zum Spezialfall der Durchführung einer Mo
 
 ## Pseudozufälligkeit
 
-<chapterId>20463fc5-3e92-581f-a1b7-3151279bd95e</chapterId>
+<chapterId>bd0c7d54-5392-490b-bdca-04dcbe7d83ff</chapterId>
 
 In unserer Diskussion über Zufalls- und Gleichheitsvariablen haben wir eine spezifische Unterscheidung zwischen "zufällig" und "gleichmäßig" getroffen. Diese Unterscheidung wird in der Praxis bei der Beschreibung von Zufallsvariablen in der Regel beibehalten. In unserem aktuellen Kontext muss diese Unterscheidung jedoch fallen gelassen werden, und "zufällig" und "gleichförmig" werden synonym verwendet. Warum, werde ich am Ende des Abschnitts erläutern.
 
@@ -580,11 +580,11 @@ Der Grund für den Wegfall der Unterscheidung zwischen "zufällig" und "gleichf�
 
 # Mathematische Grundlagen der Kryptographie 2
 
-<partId>d7245cc9-bb6d-5403-b3d5-9c703d9a2f81</partId>
+<partId>62963952-ae03-43f4-88d6-90aea95e5c5f</partId>
 
 ## Was ist Zahlentheorie?
 
-<chapterId>c0051c34-fd5d-539c-93e2-5c6dfd4c3355</chapterId>
+<chapterId>67e7dace-4c23-41a8-bdb3-c6c87d223899</chapterId>
 
 Dieses Kapitel behandelt ein fortgeschritteneres Thema der mathematischen Grundlagen der Kryptographie: die Zahlentheorie. Die Zahlentheorie ist zwar für die symmetrische Kryptographie wichtig (z. B. für die Rijndael-Chiffre), aber besonders wichtig ist sie für die Kryptographie mit öffentlichem Schlüssel.
 
@@ -604,7 +604,7 @@ Die Mengen der abstrakten Algebra können mit vielen Arten von Objekten umgehen,
 
 ## Gruppen
 
-<chapterId>3209b270-f9cd-5224-803e-0ed19fbf7826</chapterId>
+<chapterId>4353d3ff-6319-4985-a4b8-3b20111ecfff</chapterId>
 
 Ein grundlegendes Konzept in der Mathematik ist das einer Menge von Elementen. Eine Menge wird in der Regel durch Akkoladenzeichen bezeichnet, wobei die Elemente durch Kommata getrennt sind.
 
@@ -677,7 +677,7 @@ Bei Bitcoin-Transaktionen werden die Ausgaben in der Regel auf irgendeine Weise 
 
 ## Zyklische Gruppen
 
-<chapterId>bfa5c714-7952-5fef-88b1-ca5b07edd886</chapterId>
+<chapterId>b5b552f6-cf7c-4ba8-bd9c-685bfc4aacad</chapterId>
 
 Eine wichtige Unterscheidung, die wir treffen können, ist die zwischen einer **endlichen** und einer **unendlichen Gruppe**. Erstere hat eine endliche Anzahl von Elementen, während letztere eine unendliche Anzahl von Elementen hat. Die Anzahl der Elemente in jeder endlichen Gruppe wird als **Ordnung der Gruppe** bezeichnet. Die gesamte praktische Kryptografie, bei der Gruppen verwendet werden, beruht auf endlichen (zahlentheoretischen) Gruppen.
 
@@ -766,7 +766,7 @@ Eulers Phi-Funktionsformel für die Primfaktorzerlegung von $N$.
 
 ## Felder
 
-<chapterId>fad52d86-3a22-5c9f-979e-3bec9eaa008e</chapterId>
+<chapterId>7a8c9ab0-fc8f-43fa-8dd7-fd1839bcda81</chapterId>
 
 Eine Gruppe ist die grundlegende algebraische Struktur in der abstrakten Algebra, aber es gibt noch viele weitere. Die einzige andere algebraische Struktur, mit der Sie vertraut sein müssen, ist die eines **Feldes**, insbesondere die eines **unendlichen Feldes**. Diese Art von algebraischer Struktur wird häufig in der Kryptographie verwendet, z. B. im Advanced Encryption Standard. Letzterer ist das wichtigste symmetrische Verschlüsselungsverfahren, dem Sie in der Praxis begegnen werden.
 
@@ -917,7 +917,7 @@ Warum sollten Erweiterungsfelder zur Basis 2 über Mengen von Polynomen, wie im 
 
 ## Abstrakte Algebra in der Praxis
 
-<chapterId>ed35b98d-18b4-5790-9911-1078e0f84f92</chapterId>
+<chapterId>9b8cd1fc-8a34-4e1b-ab4f-c634a763a20c</chapterId>
 
 Trotz der formalen Sprache und der Abstraktheit der Diskussion sollte das Konzept einer Gruppe nicht allzu schwer zu begreifen sein. Es ist einfach eine Menge von Elementen zusammen mit einer binären Operation, wobei die Durchführung dieser binären Operation auf diesen Elementen vier allgemeine Bedingungen erfüllt. Eine abelsche Gruppe hat lediglich eine zusätzliche Bedingung, die Kommutativität. Eine zyklische Gruppe wiederum ist eine spezielle Art von abelscher Gruppe, nämlich eine, die einen Generator hat. Ein Feld ist lediglich ein komplexeres Konstrukt aus dem Grundbegriff der Gruppe.
 
@@ -945,11 +945,11 @@ Für weitere Diskussionen über die moderne Zahlentheorie können Sie viele fort
 
 # Symmetrische Kryptographie
 
-<partId>ef768d0e-fe7b-510c-87d6-6febb3de1039</partId>
+<partId>b994593e-cb9b-4a2c-ae80-2dec3478e1a6</partId>
 
 ## Alice und Bob
 
-<chapterId>47345330-be2d-5faf-afd0-d289a8d21bf1</chapterId>
+<chapterId>9c901027-b83a-4954-99b4-9e4f0c1598b7</chapterId>
 
 Einer der beiden Hauptzweige der Kryptographie ist die symmetrische Kryptographie. Sie umfasst sowohl Verschlüsselungsverfahren als auch Verfahren zur Authentifizierung und Integrität. Bis in die 1970er Jahre bestand die gesamte Kryptografie aus symmetrischen Verschlüsselungsverfahren.
 
@@ -979,7 +979,7 @@ Nachfolgend finden Sie fünf wichtige Punkte, die Sie bei Beispielen mit Alice u
 
 ## Symmetrische Verschlüsselungsverfahren
 
-<chapterId>41bfdbe1-6d41-5272-98bb-81f24b2fd6af</chapterId>
+<chapterId>e2645185-bb06-41d2-9a80-81dd84108647</chapterId>
 
 Wir können ein **symmetrisches Verschlüsselungsverfahren** grob als jedes kryptografische Verfahren mit drei Algorithmen definieren:
 
@@ -1015,7 +1015,7 @@ Bob verschlüsselt die Nachricht $M$ zum Zeitpunkt $T_0$ mit dem Schlüssel $K$,
 
 ## Ein Beispiel: Die Shift-Chiffre
 
-<chapterId>7b179ae8-8d15-5e80-a43f-22c970d87b5e</chapterId>
+<chapterId>63287a89-bda1-4395-ade6-cd8d8debe797</chapterId>
 
 In Kapitel 2 haben wir die Shift-Chiffre kennengelernt, die ein Beispiel für ein sehr einfaches symmetrisches Verschlüsselungsverfahren ist. Schauen wir sie uns hier noch einmal an.
 
@@ -1051,7 +1051,7 @@ Vielleicht stoßen Sie auch auf die Begriffe **verschlüsseln** oder **entschlü
 
 ## Brute-Force-Angriffe und das Kerckhoffsche Prinzip
 
-<chapterId>2d73ef97-26c5-5d11-8815-0ddbe89c8003</chapterId>
+<chapterId>4a72d8d8-0186-4654-b5ba-f99a4e03fb59</chapterId>
 
 Die Shift-Chiffre ist ein sehr unsicheres symmetrisches Verschlüsselungsverfahren, zumindest in der modernen Welt. [1] Ein Angreifer könnte einfach versuchen, jeden beliebigen Chiffretext mit allen 26 möglichen Schlüsseln zu entschlüsseln, um zu sehen, welches Ergebnis sinnvoll ist. Diese Art von Angriff, bei dem der Angreifer einfach alle Schlüssel durchprobiert, um zu sehen, was funktioniert, ist als **Brute-Force-Angriff** oder **exhaustive Schlüsselsuche** bekannt.
 
@@ -1099,7 +1099,7 @@ Wir werden hier nicht auf alle Einzelheiten der verschiedenen kryptografischen S
 
 ## Stromchiffren
 
-<chapterId>479aa6f4-45c4-59ca-8616-8cf8e61fc871</chapterId>
+<chapterId>82a4d8c5-7fd7-4bbb-a97e-e7a2d7cc55a0</chapterId>
 
 Symmetrische Verschlüsselungsverfahren werden standardmäßig in zwei Arten unterteilt: **Stromchiffren** und **Blockchiffren**. Diese Unterscheidung ist jedoch nicht ganz unproblematisch, da die Leute diese Begriffe nicht einheitlich verwenden. In den nächsten Abschnitten werde ich die Unterscheidung so darlegen, wie ich es für richtig halte. Sie sollten sich jedoch darüber im Klaren sein, dass viele Leute diese Begriffe etwas anders verwenden werden, als ich es darlege.
 
@@ -1187,7 +1187,7 @@ Meiner Meinung nach bietet die Definition von Bedingung (1) eine einfachere Mög
 
 ## Blockchiffren
 
-<chapterId>2df52d51-943d-5df7-9d49-333e4c5d97b7</chapterId>
+<chapterId>ffb7ba1c-eb20-43a8-a2f1-2b8a54a31044</chapterId>
 
 Eine **Blockchiffre** wird im Allgemeinen zunächst als etwas Primitiveres als eine Stromchiffre verstanden: Ein Kernalgorithmus, der mit Hilfe eines Schlüssels eine längenerhaltende Transformation an einer Zeichenkette geeigneter Länge durchführt. Dieser Algorithmus kann für die Erstellung von Verschlüsselungsschemata und vielleicht auch für andere Arten von kryptografischen Schemata verwendet werden.
 
@@ -1263,7 +1263,7 @@ Die AES-Blockchiffre wird in *Kapitel 5* ausführlich erklärt.
 
 ## Klärung der Verwirrung
 
-<chapterId>121c1858-27e3-5862-b0ce-4ff2f70f9f0f</chapterId>
+<chapterId>61e393f2-6764-4214-a871-f7471cb8ea32</chapterId>
 
 Die Verwirrung über die Unterscheidung zwischen Blockchiffren und Stromchiffren rührt daher, dass der Begriff Blockchiffre manchmal so verstanden wird, dass er sich speziell auf eine *Blockchiffre mit einem Blockmodus der Verschlüsselung* bezieht.
 
@@ -1287,7 +1287,7 @@ Nach dieser Diskussion sollten Sie jetzt *Abbildung 8* verstehen. Sie gibt einen
 
 ## Authentifizierungscodes für Nachrichten
 
-<chapterId>19fa7c00-db59-56a0-9654-5350a137939d</chapterId>
+<chapterId>626181b6-f80f-4160-b441-417a79b66ec6</chapterId>
 
 Bei der Verschlüsselung geht es um die Geheimhaltung. Die Kryptografie befasst sich aber auch mit allgemeineren Themen wie der Integrität, Authentizität und Nichtabstreitbarkeit von Nachrichten. Sogenannte **Message Authentication Codes** (MACs) sind kryptografische Verfahren mit symmetrischem Schlüssel, die Authentizität und Integrität in der Kommunikation unterstützen.
 
@@ -1317,7 +1317,7 @@ Obwohl ich in meinen Ausführungen zwischen der Authentizität und der Integrit�
 
 ## Authentifizierte Verschlüsselung
 
-<chapterId>33f2ec9b-9fb4-5c61-8fb4-50836270a144</chapterId>
+<chapterId>64c1aef9-0bf8-45c5-92ba-12161d907eac</chapterId>
 
 Normalerweise möchte man bei der Kommunikation sowohl die Geheimhaltung als auch die Authentizität gewährleisten, weshalb Verschlüsselungs- und MAC-Schemata in der Regel gemeinsam verwendet werden.
 
@@ -1361,7 +1361,7 @@ Es gibt eine Reihe von Hash-Funktionen, die zur Erstellung eines HMAC verwendet 
 
 ## Sichere Kommunikationssitzungen
 
-<chapterId>c7f7dcd3-bbed-53ed-a43d-039da0f180c5</chapterId>
+<chapterId>16be8853-ef4e-432b-b724-f34e780f2abe</chapterId>
 
 Angenommen, zwei Parteien befinden sich in einer Kommunikationssitzung und senden mehrere Nachrichten hin und her.
 
@@ -1393,11 +1393,11 @@ Die Kommunikationssitzung beginnt damit, dass Bob einen Chiffretext $C_{0,B}$ an
 
 # RC4 und AES
 
-<partId>a48c4a7d-0a41-523f-a4ab-1305b4430324</partId>
+<partId>9948fc0a-59fe-46a4-b324-b12cde16e576</partId>
 
 ## Die RC4-Stromchiffre
 
-<chapterId>5caec5bd-5a77-56c9-b5e6-1e86f0d294aa</chapterId>
+<chapterId>2f83a43a-16e5-4b4e-9d2f-4976f92eba15</chapterId>
 
 In diesem Kapitel werden wir die Details eines Verschlüsselungsschemas mit einer modernen primitiven Stromchiffre, RC4 (oder "Rivest-Chiffre 4"), und einer modernen Blockchiffre, AES, besprechen. Während die RC4-Chiffre als Verschlüsselungsmethode in Ungnade gefallen ist, ist AES der Standard für moderne symmetrische Verschlüsselung. Diese beiden Beispiele sollen eine bessere Vorstellung davon vermitteln, wie die symmetrische Verschlüsselung unter der Haube funktioniert.
 
@@ -1509,7 +1509,7 @@ Wichtig ist, dass der mit RC4 erzeugte Schlüsseldatenstrom als einmaliges Pad b
 
 ## AES mit einem 128-Bit-Schlüssel
 
-<chapterId>0b30886f-e620-5b8d-807b-9d84685ca8ff</chapterId>
+<chapterId>593d6ae3-7887-40d5-b14b-98a580b9a254</chapterId>
 
 Wie im vorigen Kapitel erwähnt, veranstaltete das National Institute of Standards and Technology (NIST) zwischen 1997 und 2000 einen Wettbewerb zur Festlegung eines neuen symmetrischen Verschlüsselungsstandards. Die **Rijndael-Chiffre** ging dabei als Sieger hervor. Der Name ist ein Wortspiel mit den Namen der belgischen Erfinder, Vincent Rijmen und Joan Daemen.
 
@@ -1678,11 +1678,11 @@ Der Grund für die Operationen hinter der Rijndael-Chiffre ist, dass sie sowohl 
 
 # Asymmetrische Kryptographie
 
-<partId>868bd9dd-6e1c-5ea9-9ece-54affc13ba05</partId>
+<partId>20c55ed4-4e45-493a-8bfe-970f332d764c</partId>
 
 ## Das Problem der Schlüsselverteilung und -verwaltung
 
-<chapterId>1bb651ba-689a-5a89-a7d3-0b9cc3b694f7</chapterId>
+<chapterId>4bbc8769-e00d-4d59-8365-c5f491b1217b</chapterId>
 
 Wie bei der symmetrischen Kryptografie können auch asymmetrische Verfahren verwendet werden, um sowohl Geheimhaltung als auch Authentifizierung zu gewährleisten. Im Gegensatz dazu werden bei diesen Verfahren jedoch nicht nur ein, sondern zwei Schlüssel verwendet: ein privater und ein öffentlicher Schlüssel.
 
@@ -1727,7 +1727,7 @@ Was geschah also in den 1970er Jahren? Wie ist es möglich, dass wir sofort onli
 
 ## Neue Wege in der Kryptographie
 
-<chapterId>7a9dd9a3-496e-5f9d-93e0-b5028a7dd0f1</chapterId>
+<chapterId>e0f7950c-bb5a-437e-b27e-8d6878e15291</chapterId>
 
 In den 1970er Jahren hatten die Probleme der Schlüsselverteilung und -verwaltung die Aufmerksamkeit einer Gruppe amerikanischer akademischer Kryptographen geweckt: Whitfield Diffie, Martin Hellman und Ralph Merkle. Angesichts der großen Skepsis der meisten ihrer Kollegen wagten sie es, eine Lösung zu entwickeln.
 
@@ -1791,7 +1791,7 @@ Nach eigenen Angaben und denen des GCHQ war es James Ellis, der 1969 als Erster 
 
 ## Asymmetrische Verschlüsselung und Authentifizierung
 
-<chapterId>2f6f0f03-3c3d-5025-90f0-5211139bc0cc</chapterId>
+<chapterId>a36ea521-ecee-476d-ade9-57f09bed2469</chapterId>
 
 Einen Überblick über die **asymmetrische Verschlüsselung** mit Hilfe von Bob und Alice gibt *Abbildung 1*.
 
@@ -1869,7 +1869,7 @@ Die Schlüsselverteilung ist für Jim's Sporting Goods nun wesentlich einfacher 
 
 ## Hash-Funktionen
 
-<chapterId>ea8327ab-b0e3-5635-941c-4b51f396a648</chapterId>
+<chapterId>49d6c9a5-5f18-4ec4-8c83-e02fc60941ff</chapterId>
 
 Hash-Funktionen sind in der Kryptographie allgegenwärtig. Sie gehören weder zu den symmetrischen noch zu den asymmetrischen Verfahren, sondern sind eine eigenständige kryptografische Kategorie.
 
@@ -1947,11 +1947,11 @@ Während Kollisionssicherheit und Verbergen die wichtigsten Eigenschaften sind, 
 
 # Das RSA-Kryptosystem
 
-<partId>864dca42-2a8d-530f-bb94-2e1f68b3f411</partId>
+<partId>a8fb0a0b-747f-422a-a464-3c84979efa43</partId>
 
 ## Das Factoring-Problem
 
-<chapterId>a31a66e4-52ea-539c-9953-4769ad565d7e</chapterId>
+<chapterId>406b1681-f8bf-4a03-b555-c84ac4dee44a</chapterId>
 
 Während die symmetrische Kryptographie für die meisten Menschen ziemlich intuitiv ist, ist dies bei der asymmetrischen Kryptographie in der Regel nicht der Fall. Obwohl Sie wahrscheinlich mit der allgemeinen Beschreibung in den vorangegangenen Abschnitten vertraut sind, fragen Sie sich wahrscheinlich, was genau Einwegfunktionen sind und wie genau sie verwendet werden, um asymmetrische Verfahren zu konstruieren.
 
@@ -2044,7 +2044,7 @@ $$ \frac{2^{1024}}{\ln(2^{1024})} - \frac{2^{1023}}{\ln(2^{1023})} $$
 
 ## Zahlentheoretische Ergebnisse
 
-<chapterId>23cd2186-8d97-5709-a4a7-b984f1eb9999</chapterId>
+<chapterId>a5528852-d9cc-4f94-a15d-02f11081e026</chapterId>
 
 Leider kann das Faktorisierungsproblem nicht direkt für asymmetrische kryptografische Verfahren verwendet werden. Wir können jedoch ein komplexeres, aber verwandtes Problem für diesen Zweck verwenden: das RSA-Problem.
 
@@ -2171,7 +2171,7 @@ Wir haben nun alle zahlentheoretischen Ergebnisse, die wir brauchen, um das RSA-
 
 ## Das RSA-Kryptosystem
 
-<chapterId>0253c2f7-b8a4-5d0e-bd60-812ed6b6c7a9</chapterId>
+<chapterId>b230194d-5774-49fe-9d19-53e345453c34</chapterId>
 
 Wir sind nun bereit, das RSA-Problem zu formulieren. Nehmen wir an, Sie erstellen eine Menge von Variablen, bestehend aus $p$, $q$, $N$, $\phi(N)$, $e$, $d$ und $y$. Nennen Sie diese Menge $\Pi$. Sie wird wie folgt gebildet:
 
@@ -2264,5 +2264,5 @@ Dennoch kann das RSA-Problem mit ein wenig cleverer Komplexität verwendet werde
 <isCourseExam>true</isCourseExam>
 
 ## Schlussfolgerung
-<chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
+<chapterId>97ce180b-5092-45eb-a160-57fc52917567</chapterId>
 <isCourseConclusion>true</isCourseConclusion>

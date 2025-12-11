@@ -19,11 +19,11 @@ K zahájení tohoto kurzu nejsou vyžadovány žádné předchozí znalosti. BTC
 
 # Úvod
 
-<partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
+<partId>34ab5c9f-08b8-4324-a53e-582c63a2b1ea</partId>
 
 ## Přehled kurzu
 
-<chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
+<chapterId>a47e30ce-f437-404b-99e0-0c1cf1a78f37</chapterId>
 
 Vítejte v kurzu BTC101!
 
@@ -87,7 +87,7 @@ Jste připraveni ponořit se do fascinujícího světa Bitcoinu a pochopit všec
 
 ## Prehistorie bitcoinu
 
-<chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
+<chapterId>0824f3a8-502a-4321-bb0d-13ccba37f3fa</chapterId>
 
 Než se pojem "bitcoin" stal synonymem pro digitální měnu a finanční transformaci, základy pro jeho vznik položila řada myšlenek, inovací a sociálních hnutí. Mezi nimi vyniká jako klíčový prvek prehistorie Bitcoinu hnutí cypherpunk.
 
@@ -145,11 +145,11 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 # Peníze
 
-<partId>e913df1a-4cbd-5380-ba67-ca2a0414f671</partId>
+<partId>c7430a3c-6419-465e-b84d-d677e277f732</partId>
 
 ## Peníze v historii
 
-<chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
+<chapterId>84047ee5-9f48-4105-9849-8be318496304</chapterId>
 
 Vývoj peněz je fascinujícím aspektem lidských dějin, který odráží vynalézavost civilizací v průběhu věků při uspokojování neustále se vyvíjejících ekonomických potřeb.
 
@@ -210,7 +210,7 @@ Na druhou stranu bitcoin představuje nové možnosti. Jeho vlastnosti, jako je 
 
 ## Fiduciární měny
 
-<chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
+<chapterId>8c6dbe02-c275-4568-bd1b-fc36b8d4796d</chapterId>
 
 > "Kdo si nepamatuje minulost, je odsouzen ji opakovat," řekl George Santayana.
 > Pravda, která v souvislosti se současným měnovým systémem rezonuje.
@@ -265,7 +265,7 @@ https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Hyperinflace
 
-<chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
+<chapterId>3f99733a-7a40-42a8-870c-cc4947560bba</chapterId>
 
 Hyperinflace je měnový jev, který je specifický pro fiat měny: vyznačuje se naprostou ztrátou důvěry v měnu a drastickým nárůstem inflace v důsledku tisku peněz ze strany úřadů. V důsledku toho se mohou úspory nashromážděné jednotlivci v relativně krátké době rozplynout a země se ocitne na pokraji hospodářského, sociálního a politického kolapsu.
 
@@ -354,7 +354,7 @@ https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 ## 21 milionů bitcoinů
 
-<chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
+<chapterId>e6172b08-5916-4f9f-a06f-4405c52c06ab</chapterId>
 
 ### Měnová politika Bitcoinu
 
@@ -395,7 +395,7 @@ Po úspěšném splnění tohoto úkolu jsou těžaři odměněni vydáním nov�
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Ke konceptu těžby se podrobněji vrátíme v kapitole [miner](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+Ke konceptu těžby se podrobněji vrátíme v kapitole [miner](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/f2ce96f9-66d5-4286-9a18-9e1506b369b5).
 
 ### Zajištění digitálního nedostatku
 
@@ -443,11 +443,11 @@ Souhrnně lze říci, že Bitcoin díky své decentralizované povaze, naprogram
 
 # Bitcoinové peněženky 
 
-<partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
+<partId>3b488c45-d286-4083-8824-ec259cc2a324</partId>
 
 ## Co jsou bitcoinové peněženky?
 
-<chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
+<chapterId>149c6588-94ae-46b6-b073-9ffc18912397</chapterId>
 
 V části 2 se budeme zabývat ukládáním a zabezpečením bitcoinů pomocí peněženek, abychom pochopili, kde se tyto slavné bitcoiny nacházejí a jak s nimi pracovat!
 
@@ -511,7 +511,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ## Bitcoinové peněženky a zabezpečení
 
-<chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
+<chapterId>40485240-351a-471c-b017-faebfb836470</chapterId>
 
 ### Kladení správných otázek než začnete
 
@@ -576,7 +576,7 @@ S tímto vědomím můžeme přejít k další části, kde popíšeme, jak vytv
 
 ## Nastavení peněženky
 
-<chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
+<chapterId>1bfd3d5d-a81b-4b7f-ad88-4bf41593606a</chapterId>
 
 Bezpečnost vašich bitcoinů má zásadní význam a jednoduchá chyba může mít katastrofální následky. Proto se musíme naučit osvědčené postupy, které je třeba přijmout při vytváření nové bitcoinové peněženky.
 
@@ -621,7 +621,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Projít zkouškou času
 
-<chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
+<chapterId>7dd119da-9073-4e03-ab83-e45890616790</chapterId>
 
 Stejně jako jakýkoli jiný majetek musí být i vaše bitcoiny chráněny před ztrátou, krádeží a znehodnocením, zejména v dlouhodobém horizontu. Ochrana vašich bitcoinů vyžaduje určité technické znalosti a pochopení souvisejících rizik, což otevírá cestu ke dvěma hlavním strategiím: vyrytí vašich bitcoinů na ocelovou desku a vytvoření dědického plánu.
 
@@ -669,11 +669,11 @@ Nyní, když jsme se seznámili se základy bitcoinových peněženek a nejlepš
 
 # Technické aspekty bitcoinu.
 
-<partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
+<partId>8b110fdd-b51f-48a9-a966-33649e55c971</partId>
 
 ## Spuštění Bitcoinu
 
-<chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>
+<chapterId>76ab52b9-2c33-4242-9db1-64fb1fb92b4e</chapterId>
 
 ### Začněme trochou historie.
 
@@ -727,7 +727,7 @@ Chcete-li se o Satoshi Nakamotovi dozvědět více, doporučujeme přečíst si 
 
 ## Transakce s bitcoiny
 
-<chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
+<chapterId>be72afa9-8198-45a5-95a8-3c87f971fbb2</chapterId>
 
 Bitcoinová transakce je jednoduše převod vlastnictví bitcoinů pomocí bitcoinové adresy. Abychom mohli tento proces popsat, představíme si dva hlavní protagonisty: Alici a Boba. Alice si přeje získat bitcoiny, zatímco Bob již nějaké vlastní.
 
@@ -785,7 +785,7 @@ Podívejme se blíže na to, jak uzel Bitcoin funguje.
 
 ## Bitcoinové zly
 
-<chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
+<chapterId>430fdc8d-d60c-4dde-a7a5-96916f40056e</chapterId>
 
 Uzly jsou základním prvkem architektury sítě Bitcoin, protože plní různé klíčové funkce:
 
@@ -834,7 +834,7 @@ Po tomto vítězství uzly aktivovaly aktualizaci nazvanou SegWit, čímž přip
 
 ## Těžaři
 
-<chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
+<chapterId>f2ce96f9-66d5-4286-9a18-9e1506b369b5</chapterId>
 
 **Těžaři zabezpečují síť a přidávají transakce do bloků. K řešení bitcoinových důkazů práce používají elektřinu prostřednictvím strojů ASIC**
 
@@ -915,7 +915,7 @@ https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## Bitcoin a ekologie
 
-<chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
+<chapterId>68cc1d11-d355-479f-beb1-364ea0f48219</chapterId>
 
 V předchozí části jsme pochopili, že bezpečnost protokolu Bitcoin závisí na vysoké spotřebě energie pro vytvoření veřejné knihy transakcí bez důvěryhodné třetí strany. V mainstreamových médiích se celkové náklady na energii často přirovnávají ke spotřebě elektřiny v malé zemi. Má však toto srovnání smysl? Je relevantní pochopit důvody, které za takovými náklady stojí?
 
@@ -973,11 +973,11 @@ Protokol Bitcoin je tedy necenzurovatelný a nezastavitelný peněžní systém,
 
 # Jak získáte Bitcoin?
 
-<partId>517e1bb7-f032-51a0-930a-a91fe5148d3f</partId>
+<partId>a48118af-b3b8-4f00-bbda-c2c4ca0f788e</partId>
 
 ## Bitcoin nikdy nespí!
 
-<chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
+<chapterId>648dbb03-969a-46ef-bdae-1463c06a4aaf</chapterId>
 
 Cena bitcoinu se často vyznačuje značnou volatilitou. Jeho hodnota může výrazně kolísat v závislosti na výkyvech trhu nebo na býčích a medvědích fázích, stejně jako je tomu na jakémkoli jiném finančním trhu.
 
@@ -1033,7 +1033,7 @@ V současné době bitcoin stále přežívá a ještě více roste díky tomu, 
 
 ## Získání bitcoinů prací
 
-<chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
+<chapterId>4bcac1ce-e4e1-4fc8-9548-5eb262688ea5</chapterId>
 
 ### Vzniká paralelní ekonomika
 
@@ -1077,7 +1077,7 @@ https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Spoření s Bitcoinem
 
-<chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
+<chapterId>11782e1e-3807-4669-8c4b-19c431669eba</chapterId>
 
 ### Varování před začátkem!
 
@@ -1176,7 +1176,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Hyperbitcoinizace
 
-<chapterId>b7275d31-3b60-5fb7-b9f5-030097010553</chapterId>
+<chapterId>a8cf0971-defd-4bf8-934b-5e412448438e</chapterId>
 
 ### Divoký závod právě začíná!
 
@@ -1200,11 +1200,11 @@ Pokud si chcete rozšířit své znalosti o bitcoinu, je ten správný čas: řa
 
 # Budoucnost bitcoinu: Lightning Network
 
-<partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
+<partId>297f74b5-3ba1-4f63-b41b-43256778bea3</partId>
 
 ## Stručný úvod do sítě Lightning
 
-<chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
+<chapterId>ad635a0f-4f91-4cac-843b-b9d51eb0bc9e</chapterId>
 
 Nyní, když jsme se seznámili se základy protokolu Bitcoin, si představíme platební síť, která využívá protokol Bitcoin k umožnění bleskurychlých transakcí: Lightning Network!
 
@@ -1248,7 +1248,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## Případy použití sítě Lightning
 
-<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+<chapterId>cd29874a-5ea2-4773-a6e4-e8d36b1bb4da</chapterId>
 
 Jak jsme právě viděli, protokol Bitcoinu, ačkoli je revoluční, čelí značným výzvám, pokud jde o škálovatelnost potřebnou pro zpracování všech našich každodenních transakcí. K vyřešení těchto problémů byla navržena síť Lightning Network, která se od té doby vyvinula do několika různých implementací, z nichž všechny jsou interoperabilní:
 
@@ -1280,7 +1280,7 @@ Závěrem lze říci, že Lightning Network otevírá uživatelům bitcoinu řad
 
 ## Červená nebo modrá pilulka?
 
-<chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
+<chapterId>03d79262-a035-4a62-acca-f8ed9ae5a8a4</chapterId>
 
 Jak řekl Morfeus Neovi: "Vezmeš si modrou pilulku, příběh skončí, probudíš se ve své posteli a uvěříš tomu, čemu chceš věřit. Když si vezmeš červenou pilulku, zůstaneš v Říši divů a já ti ukážu, jak hluboko sahá králičí nora." Jste připraveni prozkoumat králičí noru Bitcoinu? Buďte opatrní, protože byste mohli znovu objevit svou finanční svobodu!
 
@@ -1353,19 +1353,19 @@ Jste připraveni se připojit?
 
 ## Recenze a hodnocení
 
-<chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
+<chapterId>d58144ad-33da-47a6-9030-61b649fe5550</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Závěrečná zkouška
 
-<chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
+<chapterId>cbf5ded3-69c8-485f-8528-28fc0e7ea299</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## Závěr
 
-<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
+<chapterId>8a17f1ba-3ba1-4864-896d-be4cc3d5844a</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
 

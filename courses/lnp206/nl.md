@@ -20,11 +20,11 @@ By the end of this course, you'll have built a working Lightning application, un
 
 # Theory
 
-<partId>3bc171b7-b4b8-5a68-83f7-52388d96118e</partId>
+<partId>f2198ca5-280c-40e4-b9c1-96661afe1571</partId>
 
 ## Introduction
 
-<chapterId>c21db68f-f299-5714-badf-bba132f0d2c4</chapterId>
+<chapterId>0f5aecdd-c120-498c-91e4-4fe938b61d83</chapterId>
 
 Thank you for joining our Breez Nodeless SDK Course!
 
@@ -45,7 +45,7 @@ Here's everything you need to know to participate:
 
 ## A Brief Introduction to Breez
 
-<chapterId>b0b0f76b-e074-5ca8-8e99-21e7d9c78823</chapterId>
+<chapterId>e2d137b0-d623-4321-b5a0-909ff03aec48</chapterId>
 
 <releasePlace>Lugano, Switzerland</releasePlace>
 <isOnline>false</isOnline>
@@ -69,7 +69,7 @@ Understanding Breez's mission, products, and ecosystem.
 
 ## Practical Overview of Nodeless SDK
 
-<chapterId>a449bfd9-3f8c-5cf9-9bf5-6f2ee2ed6f49</chapterId>
+<chapterId>4961d575-d428-4c46-88af-efcb0b80881f</chapterId>
 
 <releasePlace>Lugano, Switzerland</releasePlace>
 <isOnline>false</isOnline>
@@ -96,11 +96,11 @@ We'll walk through a complete example application, examining each method in cont
 
 # Game & Hands-on
 
-<partId>7ff5cd12-f85e-5229-a7e8-0e33b9a5b3ee</partId>
+<partId>5bbfeb2d-4c75-4aab-a34f-86ee75651dc8</partId>
 
 ## Git and Environment Setup
 
-<chapterId>cccfc2f4-52dd-5ae9-85a5-db1cf3c87605</chapterId>
+<chapterId>cce6eec9-9b36-4c54-b3d9-e04a6d4560b1</chapterId>
 
 <releasePlace>Lugano, Switzerland</releasePlace>
 <isOnline>false</isOnline>
@@ -124,7 +124,7 @@ Setting up the interactive lesson material.
 
 ## Overview of "Bitcoin Wars"
 
-<chapterId>d6b6813d-18eb-503a-ab63-fb8796727de3</chapterId>
+<chapterId>4090666c-7b81-4562-a069-e9e20775515e</chapterId>
 
 <releasePlace>Lugano, Switzerland</releasePlace>
 <isOnline>false</isOnline>
@@ -150,7 +150,7 @@ Bitcoin Wars is a gamified learning experience that demonstrates Lightning payme
 
 ## Challenge Yourself
 
-<chapterId>0b2625de-b81a-5feb-8bac-d90c49a98be6</chapterId>
+<chapterId>0e5393fe-5587-432b-87bb-2ebc6b4a8d1c</chapterId>
 
 <releasePlace>Lugano, Switzerland</releasePlace>
 <isOnline>false</isOnline>
@@ -177,7 +177,7 @@ This is where the learning happens. You'll work through the challenges at your o
 
 ## Solution Showcase
 
-<chapterId>3b2a503c-1af7-54ed-b930-c956c0182794</chapterId>
+<chapterId>03915eae-58ca-4655-9a9e-ca8731018788</chapterId>
 
 <releasePlace>Lugano, Switzerland</releasePlace>
 <isOnline>false</isOnline>
@@ -202,7 +202,7 @@ Review of the complete solution and discussion.
 
 ## Community and Resources
 
-<chapterId>21107f3d-c9dd-5592-b366-a787b12e124f</chapterId>
+<chapterId>4befc735-9512-4abc-8de3-79ebad07a7a7</chapterId>
 
 <releasePlace>Lugano, Switzerland</releasePlace>
 <isOnline>false</isOnline>
@@ -227,16 +227,16 @@ How to stay updated and contribute to the Breez ecosystem.
 
 # Conclusion
 
-<partId>bc0445e0-27d2-568d-9fdc-e304259a39db</partId>
+<partId>0c6f2264-93fc-4877-860f-020a71ca4adf</partId>
 
 ## Reviews and Ratings
 
-<chapterId>60d9f76c-afa7-5c89-b70d-64175f37e8e7</chapterId>
+<chapterId>ab729e8c-3639-4034-afbc-02d709db36d0</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Conclusion
 
-<chapterId>49f9b52d-eb0e-54f8-9b8d-849a033ede10</chapterId>
+<chapterId>cfde9375-c915-413b-8cc3-8a6fbc6b4f10</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

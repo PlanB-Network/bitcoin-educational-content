@@ -56,13 +56,13 @@ Deze cursus is gesponsord door TETHER
 # Inleiding
 
 
-<partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
+<partId>952e9c3d-4e88-44f8-942b-0b0643fee52e</partId>
 
 
 ## Cursusoverzicht
 
 
-<chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+<chapterId>3498530e-7910-4aa0-a2a9-63cca97c5d74</chapterId>
 
 Welkom bij de ECO104 cursus!
 
@@ -129,13 +129,13 @@ We zijn erg blij dat je met ons mee gaat op deze reis naar de diepten van ons mo
 # De prijs van vooruitgang - Een nadere blik op ons financiële systeem
 
 
-<partId>25ed8242-1b5a-5b53-b833-824b0dd80bcc</partId>
+<partId>a318d7e4-cb95-4016-9e4f-c4019c902b95</partId>
 
 
 ## Een inleiding tot geld
 
 
-<chapterId>927ad49a-d8d6-5dd3-9250-cdcadcbf425e</chapterId>
+<chapterId>7ad6dcd5-339f-4d9e-a720-3d62e82408a9</chapterId>
 
 
 Geld is een fascinerend en essentieel onderdeel van ons dagelijks leven. We gebruiken het dagelijks om boodschappen te doen, rekeningen te betalen en talloze transacties te doen. Maar wat is geld eigenlijk? In de kern is geld gewoon een Exchange medium, een instrument waarmee we goederen en diensten met elkaar kunnen verhandelen. Het is een abstract concept dat we allemaal vanzelfsprekend vinden, maar het is fundamenteel voor ons economisch systeem.
@@ -261,7 +261,7 @@ Van ruilhandel tot de uitvinding van munten en papiergeld, geld heeft een reeks 
 ## Een onderzoek naar hoe we hier zijn gekomen
 
 
-<chapterId>4c8ebb36-a6d5-5637-93ca-9a4a222a1c58</chapterId>
+<chapterId>e9dc9f53-dcab-4469-a482-882e89dca77e</chapterId>
 
 
 Van de tijd van ruilgoederen tot het moderne tijdperk van digitale munteenheden heeft geld een fascinerende evolutie doorgemaakt. Onze voorouders gebruikten schelpen, kralen en zelfs vee als ruilmiddel. Tegenwoordig hebben we virtuele portemonnees en contactloze betalingen. Het is een opmerkelijke reis die ontelbare iteraties, afwegingen en aanpassingen heeft gekend om te voldoen aan de steeds veranderende behoeften van de maatschappij.
@@ -478,7 +478,7 @@ Als we verder gaan met onze verkenning van de wereld van het geld, is het belang
 ## Een blik op waar we staan en wat we kunnen verwachten
 
 
-<chapterId>0c38e8fd-c973-57a5-a673-abec706f6054</chapterId>
+<chapterId>ce2d4ac3-d766-4d85-a796-0be14376702f</chapterId>
 
 
 Zoals we in het vorige hoofdstuk hebben besproken, werd geld historisch gezien vaak gedekt door een grondstof zoals goud. De voordelen hiervan kunnen niet worden overschat. Niet alleen betekende dit verband dat de waarde van dergelijk geld direct gekoppeld was aan de waarde van de grondstof, maar het betekende ook dat de uitgever van het geld, meestal de overheid, beperkt werd in de hoeveelheid geld die hij kon drukken, omdat hij dan meer goud moest verkrijgen.
@@ -689,7 +689,7 @@ We moedigen je aan om deze nieuwe technologie met een open geest en een kritisch
 ## Examen
 
 
-<chapterId>f25c229f-2af0-5324-bc40-e90f7668985a</chapterId>
+<chapterId>0240a320-fb4d-4150-acf6-0cd9c7570761</chapterId>
 
 
 Nu je de module "De prijs van vooruitgang" hebt doorgenomen, moet je je nieuw verworven kennis testen om er zeker van te zijn dat je de laatste hoofdstukken hebt begrepen. We beginnen met een aantal open vragen en daarna een kleine quiz.
@@ -709,13 +709,13 @@ Nu je de module "De prijs van vooruitgang" hebt doorgenomen, moet je je nieuw ve
 # Financiële bevrijding - Een inleiding tot Bitcoin
 
 
-<partId>c00843b2-bde3-57bb-ae2e-8ecad6631d71</partId>
+<partId>f66fdc60-a1a9-4a21-9242-d4f86af8c0e4</partId>
 
 
 ## Pioniers, vernieuwers en de fundamenten van Bitcoin
 
 
-<chapterId>37d779ce-46b5-56d1-91d8-d04442236e35</chapterId>
+<chapterId>03010901-b8d8-4e77-9d04-b9112fbabf6c</chapterId>
 
 
 Welkom bij module twee, waarin we de fascinerende wereld van Bitcoin verkennen. Voortbouwend op ons begrip van de geschiedenis van geld, zal deze module de volgende onderwerpen behandelen:
@@ -870,7 +870,7 @@ Tot slot, ongeacht wie Satoshi Nakamoto is, valt niet te ontkennen dat de uitvin
 ## Hoe werkt Bitcoin? De innerlijke werking van dit magische internetgeld
 
 
-<chapterId>b0f736fc-ed4d-5887-b22e-d958db9144d1</chapterId>
+<chapterId>293a9dd7-fa9d-49e1-aaba-2fa1f6c7e580</chapterId>
 
 
 Bitcoin wordt vaak magisch internetgeld genoemd... en met een goede reden. Denk er eens over na - met Bitcoin kun je waarde versturen naar iedereen, overal ter wereld, zonder tussenkomst van een bank of overheid. Het is alsof je de controle hebt over je eigen persoonlijke bank, de macht om geld over te maken over grenzen heen met slechts een paar klikken op een knop.
@@ -995,7 +995,7 @@ Elk van deze rollen is essentieel voor de functionaliteit en het succes van Bitc
 ## Wat maakt Bitcoin anders dan Fiat?
 
 
-<chapterId>5ef55778-cbcf-5c7e-960d-a2fcdf1a4006</chapterId>
+<chapterId>8ec83124-7544-4c76-8411-01c3ea32c126</chapterId>
 
 
 In het vorige deel zijn we ingegaan op de unieke functionaliteit van Bitcoin, waardoor het zich onderscheidt van traditionele valuta, en hoe Bitcoin de felbegeerde badge van gedecentraliseerdheid heeft verworven. Laten we nu onze focus verleggen en onderzoeken hoe Bitcoin verschilt van fiat in termen van de kenmerken die een valuta groot maken. Alleen door deze hoofdkenmerken te onderzoeken, kunnen we beter begrijpen waarom Bitcoin uniek is en een wereld op zich als het om geld gaat.
@@ -1153,7 +1153,7 @@ Bovendien positioneren deze gecombineerde eigenschappen Bitcoin niet alleen als 
 ## Interactie met Bitcoin
 
 
-<chapterId>050a95af-e9c2-5ec3-b9c8-55ec174d309c</chapterId>
+<chapterId>898af852-84f8-45b8-b3e9-2adf85bb8576</chapterId>
 
 
 Bitcoin heeft het monetaire systeem stormenderhand veroverd en de aandacht getrokken van zowel ontwikkelingslanden, technisch onderlegde individuen als investeerders. Door de snelle groei vragen velen zich echter af hoe dit digitale goed kan concurreren met traditionele betaalmethoden zoals Visa en Mastercard. Bovendien zijn individuen nieuwsgierig naar hoe ze zich persoonlijk kunnen inzetten voor Bitcoin.
@@ -1316,7 +1316,7 @@ Het grootste voordeel van Bitcoin is dat het ons in staat stelt zelf de bewaring
 ## Examen
 
 
-<chapterId>1c7b8165-d67b-5f7c-a1cb-b83db58b77c7</chapterId>
+<chapterId>a51bed11-0894-49a4-878f-9f31d79d7f9e</chapterId>
 
 
 Nu je de module "Een onderzoek naar hoe we hier zijn gekomen" hebt doorlopen, moet je je nieuw verworven kennis testen om er zeker van te zijn dat je de laatste delen hebt begrepen. We beginnen met een aantal open vragen en daarna een kleine quiz.
@@ -1338,13 +1338,13 @@ Nu je de module "Een onderzoek naar hoe we hier zijn gekomen" hebt doorlopen, mo
 # Stabiliteit te midden van chaos - Een introductie tot Tether en de wereld van stabiele munten
 
 
-<partId>60b1f3c4-e161-53fe-84ca-88d8cd62aa75</partId>
+<partId>bc2fa7dd-b3a8-430a-8cba-97faae477137</partId>
 
 
 ## Een inleiding tot Tether & de wereld van stabiele munten
 
 
-<chapterId>427a72b5-8af7-503e-bc45-bb8b95483993</chapterId>
+<chapterId>65302477-a5c2-4555-b546-e4051066e1b1</chapterId>
 
 
 Zoals eerder besproken is geld al duizenden jaren een essentieel onderdeel van de mensheid. Het hielp ons goederen en diensten te kopen, stelde ons in staat met elkaar te handelen en hielp ons rijkdom op te slaan.
@@ -1443,7 +1443,7 @@ maak je geen zorgen als sommige van deze termen niet helemaal duidelijk zijn. We
 ## Geschiedenis van Stablecoins
 
 
-<chapterId>174e2cab-ef14-5e14-99c8-8457b6fc5fee</chapterId>
+<chapterId>e6bb95e1-5ba1-40d0-8b4a-3e6c1d1dd0a3</chapterId>
 
 
 Stablecoins zijn een populair onderwerp geworden in de cryptocurrency wereld, omdat ze op korte termijn een minder volatiel alternatief bieden voor cryptocurrencies zoals Bitcoin. Zoals beschreven in de inleiding van deze module, zijn stablecoins digitale activa die gekoppeld zijn aan een stabiel activum zoals fiatvaluta of edelmetalen, ontworpen om een stabiele waarde te behouden. Laten we daarom de geschiedenis van stablecoins verkennen en enkele van de eerste stablecoins nader bekijken, waaronder USDt van Tether, de bekendste en meest gebruikte stablecoin.
@@ -1485,7 +1485,7 @@ Kortom, stablecoins hebben een lange weg afgelegd sinds hun ontstaan. Van de beg
 ## Kenmerken van Stablecoins
 
 
-<chapterId>21765df7-53fd-58af-9df6-7208027a0c3a</chapterId>
+<chapterId>36e0ab1f-a3fe-42c1-8400-55fb770d9bf3</chapterId>
 
 
 Zoals inmiddels duidelijk zou moeten zijn, is een stablecoin een type digitale token ontworpen om een stabiele waarde te behouden op basis van een onderliggende pegged asset. Deze activa kunnen fiatvaluta, edelmetalen, grondstoffen of een combinatie hiervan zijn (bijvoorbeeld een mandje fiatvaluta's). Deze activa kunnen bestaan uit fiatvaluta, edelmetalen, grondstoffen of een combinatie hiervan (bijvoorbeeld een mandje fiatvaluta's).
@@ -1619,7 +1619,7 @@ Hoewel stablecoins vaak als veilig worden beschouwd vanwege hun "stabiele" aard,
 ## Voordelen van Tether's Stablecoin-aanbod
 
 
-<chapterId>a6806b45-b92e-5791-8f5f-804098a522b2</chapterId>
+<chapterId>6a1aef8e-3fdf-426b-901c-6e1a26b6ad88</chapterId>
 
 
 Ontmoet Adanna, een jonge vrouw die in een Afrikaans plattelandsdorp woont waar de CFA-frank, die de afgelopen 70 jaar maar liefst [99,5%](https://bitcoinmagazine.com/culture/Bitcoin-a-currency-of-decolonization) van zijn koopkracht heeft verloren, de enige beschikbare valuta is, waardoor sparen onmogelijk is.
@@ -1810,7 +1810,7 @@ In het algemeen hebben stablecoins, zoals USDt en XAUt, het potentieel om het le
 ## Examen
 
 
-<chapterId>1294d874-6edb-5feb-b070-0ead1836bd0b</chapterId>
+<chapterId>7abbc2a0-f98d-40a9-80ae-1cc397027cdc</chapterId>
 
 
 Nu je de module "Stabiliteit in chaos" hebt doorgenomen, moet je je nieuw verworven kennis testen om er zeker van te zijn dat je de laatste secties hebt begrepen. We beginnen met een aantal open vragen en daarna een kleine quiz.
@@ -1830,13 +1830,13 @@ Nu je de module "Stabiliteit in chaos" hebt doorgenomen, moet je je nieuw verwor
 # Twijfels overwinnen - Veelvoorkomende misvattingen en praktijkvoorbeelden ontkrachten
 
 
-<partId>246a7dc0-a203-5b2e-ae13-9c8f08e6bfad</partId>
+<partId>5e3f28ec-ff90-4272-af00-724e0ced0765</partId>
 
 
 ## Misvattingen
 
 
-<chapterId>4da9319d-6306-500f-adbb-5fa31c673cd2</chapterId>
+<chapterId>c48b4889-5972-4139-b928-b56fb88b28d5</chapterId>
 
 
 Bitcoin is sinds de geboorte in 2009 omgeven door tegenwerking, kritiek en misvattingen. Ondanks de groei in populariteit en adoptie, beschouwen velen het nog steeds als een zeepbel die op knappen staat. In dezelfde lijn hebben stablecoins vergelijkbare aandacht en scepsis gekregen. Het idee van een valuta die wordt ondersteund door stabiele activa klinkt veelbelovend, maar veel mensen begrijpen niet hoe stablecoins werken en wat hun potentiële impact is op het financiële systeem.
@@ -2315,7 +2315,7 @@ Uiteindelijk ligt de toekomst van gedecentraliseerde financiering bij diegenen d
 ## Roya Mahboob
 
 
-<chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
+<chapterId>e76ef439-44db-4cf4-b660-0ed33d913989</chapterId>
 
 
 In de geglobaliseerde wereld van vandaag is toegang tot financiële diensten een cruciaal onderdeel van economische participatie en onafhankelijkheid. Desondanks zijn nog veel te veel mensen uitgesloten van het traditionele banksysteem, waarbij vrouwen vaak de dupe zijn. Het is schokkend dat, hoewel een onnodige [een kwart](https://www.worldbank.org/en/publication/globalfindex) van de wereldbevolking niet over een bank beschikt, in landen als Saoedi-Arabië [36,5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) van de vrouwen geen toegang heeft tot basisbankdiensten, waardoor ze niet volledig kunnen deelnemen aan de economie en maatschappij van hun land.
@@ -2389,7 +2389,7 @@ In het algemeen is Bitcoin een krachtig instrument geweest voor de financiële z
 ## Mercedes
 
 
-<chapterId>dfa10b75-19f6-578a-9d14-a0a541806076</chapterId>
+<chapterId>a897e855-f7a6-406c-a5b9-7cc6783e2ddd</chapterId>
 
 
 Mercedes werd in 1949 in Mexico geboren in verarmde omstandigheden en ervoer al op jonge leeftijd de schrille ongelijkheid die haar samenleving teisterde. Tijdens haar jeugd werd ze geconfronteerd met talloze uitdagingen, zoals de onderdrukking van studentenbewegingen door de overheid en de unieke strijd die vrouwen in armoede moeten leveren. Bovendien hield de enorme kloof tussen arm en rijk, in combinatie met de beperkte toegang tot kwaliteitsonderwijs, haar familie en talloze anderen gevangen in armoede. Gefrustreerd door deze onrechtvaardigheden richtte Mercedes zich op het marxisme (communisme) en pleitte ze voor sociale verandering en economische hervormingen.
@@ -2422,7 +2422,7 @@ Mercedes' leven is een ongelooflijke reis geweest en de impact van Bitcoin op ha
 ## Stablecoin Verhalen
 
 
-<chapterId>7b6d8d57-905d-5168-9be6-3df7c938de2a</chapterId>
+<chapterId>d22acc57-2b00-4a51-96b0-a350814f87d5</chapterId>
 
 
 Nu we het einde van deze cursus naderen, willen we graag een verzameling inspirerende stablecoin verhalen presenteren. Deze getuigenissen tonen ervaringen uit het echte leven van personen, bedrijfseigenaren en bedrijven die de kracht van stablecoins hebben gebruikt om hun leven te verbeteren.
@@ -2568,7 +2568,7 @@ We hopen dat u deze verhalen inspirerend vond. Dit gezegd zijnde, zou het duidel
 ## Examen
 
 
-<chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
+<chapterId>002220e4-069b-4367-b153-ca19029412de</chapterId>
 
 
 Nu je de module "Twijfels overwinnen" hebt doorgenomen, zul je je nieuw verworven kennis moeten testen om er zeker van te zijn dat je de laatste secties hebt begrepen. We beginnen met een aantal open vragen en daarna een kleine quiz.
@@ -2588,7 +2588,7 @@ Nu je de module "Twijfels overwinnen" hebt doorgenomen, zul je je nieuw verworve
 ## Slotopmerkingen
 
 
-<chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
+<chapterId>1896c6b1-77d7-45bb-a798-bcdd27deb18b</chapterId>
 
 
 Gefeliciteerd dat je het einde van de cursus hebt gehaald! Je hebt een lange weg afgelegd. Tijdens deze reis hebben we ons verdiept in een breed scala aan onderwerpen, waaronder:
@@ -2632,7 +2632,7 @@ De toekomst is zonnig!
 ## Beoordelingen
 
 
-<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
+<chapterId>1ec641d0-0421-404b-88d3-bac725aca9dc</chapterId>
 
 <isCourseReview>true</isCourseReview>
 

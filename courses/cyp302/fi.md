@@ -15,11 +15,11 @@ Materiaali on suunniteltu kaiken tasoisille oppijoille ja tasapainottaa intuitio
 +++
 # Johdanto
 
-<partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
+<partId>abfa0d9a-736e-40f8-937a-490ef19bc481</partId>
 
 ## Kurssin yleiskatsaus
 
-<chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+<chapterId>dc6c887e-00a6-4b7f-9d50-14cbdfd5e867</chapterId>
 Tervetuloa CYP302-kurssille!
 
 Tämä kirja tarjoaa syvällisen johdatuksen salakirjoituksen tieteeseen ja käytäntöön. Siinä keskitytään mahdollisuuksien mukaan pikemminkin käsitteelliseen kuin muodolliseen esittelyyn.
@@ -88,11 +88,11 @@ Oletko valmis tutkimaan kryptografian kiehtovaa maailmaa? Lähdetään liikkeell
 
 # Mitä on kryptografia?
 
-<partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>
+<partId>dfa3633c-f97b-4650-8a2e-cb15a42ca557</partId>
 
 ## Bealen salakirjoitukset
 
-<chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
+<chapterId>b97d116b-035b-4e92-890c-e377b48edb36</chapterId>
 
 Aloitetaan kryptografian alan tutkiminen yhdellä sen historian viehättävimmistä ja viihdyttävimmistä jaksoista: Bealen salakirjoitukset. [1]
 
@@ -132,7 +132,7 @@ Toisessa viestissä kerrotaan salauksen purkamisen jälkeen aarteen yksityiskoht
 
 ## Nykyaikainen salaus
 
-<chapterId>d07d576f-8a4b-5890-b182-2e5763f550f4</chapterId>
+<chapterId>a53dab64-fcf9-48c1-b578-dc43d799f3de</chapterId>
 
 Useimmat meistä yhdistävät kryptografiaan värikkäitä tarinoita, kuten Bealen salakirjoituksen. Nykyaikainen salakirjoitus eroaa kuitenkin ainakin neljällä tärkeällä tavalla tällaisista historiallisista esimerkeistä.
 
@@ -184,7 +184,7 @@ Toisena esimerkkinä mainittakoon **phishing-hyökkäykset**, jotka ovat yleinen
 
 ## Avoin viestintä
 
-<chapterId>cb23d0a6-ba9a-5dc6-a55a-258405ae4117</chapterId>
+<chapterId>87b637ca-3d20-42b5-b299-ecb084b60aec</chapterId>
 
 Nykyaikainen salakirjoitus on suunniteltu tarjoamaan turvatakeet **avoimessa viestintäympäristössä**. Jos viestintäkanavamme on niin hyvin suojattu, että salakuuntelijoilla ei ole mitään mahdollisuuksia manipuloida tai edes vain tarkkailla viestejämme, salaus on tarpeeton. Suurin osa viestintäkanavistamme on kuitenkin tuskin näin hyvin suojattuja.
 
@@ -204,11 +204,11 @@ Näin ollen ajatus viestinnän pitämisestä salassa suojaamalla viestintäkanav
 
 # Salakirjoituksen matemaattiset perusteet 1
 
-<partId>1bf9f0aa-0f68-5493-83fb-2167238ff9de</partId>
+<partId>22c3967a-c64b-468c-8e68-3324fe552738</partId>
 
 ## Satunnaismuuttujat
 
-<chapterId>b623a7d0-3dff-5803-bd4e-8257ff73dd69</chapterId>
+<chapterId>c5fa2255-6041-400b-9072-217b73bf411e</chapterId>
 
 Salaus perustuu matematiikkaan. Jos haluat ymmärtää salakirjoitusta muutenkin kuin pintapuolisesti, sinun on hallittava matematiikka.
 
@@ -413,7 +413,7 @@ Voisin esimerkiksi kysyä, mikä on todennäköisyys sille, että siat lentävä
 
 ## Modulo-operaatio
 
-<chapterId>709b34e5-b155-53d2-abbd-97d67e56db00</chapterId>
+<chapterId>a7e063f0-62dd-4c35-892a-55fa1b10aad8</chapterId>
 
 ### Modulo
 
@@ -501,7 +501,7 @@ $$
 
 ## XOR-operaatio
 
-<chapterId>22f185cc-c516-5b33-950b-0908f2f881fe</chapterId>
+<chapterId>941aaabd-0896-4eb2-843c-e1af055c87fc</chapterId>
 
 Kaikki tietokonedata käsitellään, tallennetaan ja lähetetään verkoissa bittien tasolla. Kaikki tietokonedataan sovellettavat salausjärjestelmät toimivat myös bittitasolla.
 
@@ -536,7 +536,7 @@ XOR-operaatio vastaa erikoistapausta, jossa bittien yhteenlasku suoritetaan modu
 
 ## Pseudosatunnaisuus
 
-<chapterId>20463fc5-3e92-581f-a1b7-3151279bd95e</chapterId>
+<chapterId>bd0c7d54-5392-490b-bdca-04dcbe7d83ff</chapterId>
 
 Satunnaisia ja yhtenäisiä muuttujia käsitellessämme erotimme toisistaan "satunnaiset" ja "yhtenäiset" muuttujat. Tämä ero säilytetään yleensä käytännössä satunnaismuuttujia kuvattaessa. Nykyisessä asiayhteydessämme tästä erottelusta on kuitenkin luovuttava ja "satunnainen" ja "yhtenäinen" käytetään synonyymeinä. Selitän miksi tämän jakson lopussa.
 
@@ -580,11 +580,11 @@ Syy siihen, miksi "satunnaisen" ja "yhdenmukaisen" välinen ero on poistettu kes
 
 # Kryptografian matemaattiset perusteet 2
 
-<partId>d7245cc9-bb6d-5403-b3d5-9c703d9a2f81</partId>
+<partId>62963952-ae03-43f4-88d6-90aea95e5c5f</partId>
 
 ## Mitä on numeroteoria?
 
-<chapterId>c0051c34-fd5d-539c-93e2-5c6dfd4c3355</chapterId>
+<chapterId>67e7dace-4c23-41a8-bdb3-c6c87d223899</chapterId>
 
 Tässä luvussa käsitellään kryptografian matemaattisia perusteita koskevaa edistyneempää aihetta: lukuteoriaa. Vaikka numeroteoria on tärkeää symmetrisessä kryptografiassa (kuten Rijndael-salauksessa), se on erityisen tärkeää julkisen avaimen kryptografiassa.
 
@@ -604,7 +604,7 @@ Abstraktin algebran joukot voivat käsitellä monenlaisia objekteja tasasivuisen
 
 ## Ryhmät
 
-<chapterId>3209b270-f9cd-5224-803e-0ed19fbf7826</chapterId>
+<chapterId>4353d3ff-6319-4985-a4b8-3b20111ecfff</chapterId>
 
 Matematiikan peruskäsite on elementtien joukko. Joukko merkitään yleensä aksenttimerkillä, jossa elementit on erotettu toisistaan pilkuilla.
 
@@ -676,7 +676,7 @@ Bitcoinissa tapahtuviin transaktioihin liittyy yleensä ulostulojen lukitseminen
 
 ## Sykliset ryhmät
 
-<chapterId>bfa5c714-7952-5fef-88b1-ca5b07edd886</chapterId>
+<chapterId>b5b552f6-cf7c-4ba8-bd9c-685bfc4aacad</chapterId>
 
 Tärkein ero, jonka voimme tehdä, on **äärellisen** ja **äärettömän ryhmän** välillä. Edellisellä on äärellinen määrä alkioita, kun taas jälkimmäisellä on ääretön määrä alkioita. Minkä tahansa äärellisen ryhmän alkioiden lukumäärä tunnetaan nimellä **ryhmän järjestys**. Kaikki käytännön kryptografia, jossa käytetään ryhmiä, perustuu äärellisiin (lukuteoreettisiin) ryhmiin.
 
@@ -764,7 +764,7 @@ Eulerin Phi-funktion kaava $N$:n alkulukujen kertolaskuille.
 
 ## Kentät
 
-<chapterId>fad52d86-3a22-5c9f-979e-3bec9eaa008e</chapterId>
+<chapterId>7a8c9ab0-fc8f-43fa-8dd7-fd1839bcda81</chapterId>
 
 Ryhmä on abstraktin algebran algebrallinen perusrakenne, mutta niitä on paljon muitakin. Ainoa muu algebrallinen rakenne, joka sinun on tunnettava, on **kentän** rakenne, erityisesti **finiittisen kentän** rakenne. Tämäntyyppistä algebrallista rakennetta käytetään usein kryptografiassa, kuten Advanced Encryption Standardissa. Jälkimmäinen on tärkein symmetrinen salausjärjestelmä, johon törmäät käytännössä.
 
@@ -915,7 +915,7 @@ Miksi polynomijoukkojen laajennuskentät, joiden perusta on 2, kuten yllä oleva
 
 ## Abstrakti algebra käytännössä
 
-<chapterId>ed35b98d-18b4-5790-9911-1078e0f84f92</chapterId>
+<chapterId>9b8cd1fc-8a34-4e1b-ab4f-c634a763a20c</chapterId>
 
 Huolimatta keskustelun muodollisesta kielestä ja abstraktisuudesta ryhmän käsitteen ei pitäisi olla liian vaikea ymmärtää. Se on vain joukko elementtejä yhdessä binäärioperaation kanssa, jolloin binäärioperaation suorittaminen näille elementeille täyttää neljä yleistä ehtoa. Abeliaanisella ryhmällä on vain ylimääräinen ehto, jota kutsutaan kommutatiivisuudeksi. Syklinen ryhmä on puolestaan abelilainen ryhmä, jolla on generaattori. Kenttä on vain monimutkaisempi konstruktio perusryhmän käsitteestä.
 
@@ -943,11 +943,11 @@ Jos haluat lisää keskustelua modernista numeroteoriasta, voit tutustua moniin 
 
 # Symmetrinen salaus
 
-<partId>ef768d0e-fe7b-510c-87d6-6febb3de1039</partId>
+<partId>b994593e-cb9b-4a2c-ae80-2dec3478e1a6</partId>
 
 ## Alice ja Bob
 
-<chapterId>47345330-be2d-5faf-afd0-d289a8d21bf1</chapterId>
+<chapterId>9c901027-b83a-4954-99b4-9e4f0c1598b7</chapterId>
 
 Yksi kryptografian kahdesta päähaarasta on symmetrinen kryptografia. Siihen kuuluvat salausjärjestelmät sekä todennukseen ja eheyteen liittyvät järjestelmät. 1970-luvulle asti kaikki salakirjoitus koostui symmetrisistä salausjärjestelmistä.
 
@@ -977,7 +977,7 @@ Seuraavassa on viisi keskeistä seikkaa, jotka on hyvä pitää mielessä krypto
 
 ## Symmetriset salausmenetelmät
 
-<chapterId>41bfdbe1-6d41-5272-98bb-81f24b2fd6af</chapterId>
+<chapterId>e2645185-bb06-41d2-9a80-81dd84108647</chapterId>
 
 Voimme vapaasti määritellä **symmetrisen salausjärjestelmän** kryptografiseksi järjestelmäksi, jossa on kolme algoritmia:
 
@@ -1013,7 +1013,7 @@ Bob salaa viestin $M$ ajanhetkellä $T_0$ avaimella $K$ tuottaakseen salaustekst
 
 ## Esimerkki: Siirtymäsalaus
 
-<chapterId>7b179ae8-8d15-5e80-a43f-22c970d87b5e</chapterId>
+<chapterId>63287a89-bda1-4395-ade6-cd8d8debe797</chapterId>
 
 Luvussa 2 tutustuimme siirtosalaukseen, joka on esimerkki hyvin yksinkertaisesta symmetrisestä salausjärjestelmästä. Tarkastellaan sitä tässä uudelleen.
 
@@ -1049,7 +1049,7 @@ Saatat törmätä myös termeihin **avain** tai **murtautua**. Nämä termit ova
 
 ## Brute force -hyökkäykset ja Kerckhoffin periaate
 
-<chapterId>2d73ef97-26c5-5d11-8815-0ddbe89c8003</chapterId>
+<chapterId>4a72d8d8-0186-4654-b5ba-f99a4e03fb59</chapterId>
 
 Siirtymäsalaus on hyvin epävarma symmetrinen salausjärjestelmä, ainakin nykymaailmassa. [1] Hyökkääjä voisi vain yrittää purkaa minkä tahansa salaustekstin salauksen kaikilla 26 mahdollisella avaimella nähdäkseen, mikä tulos on järkevä. Tällaista hyökkäystä, jossa hyökkääjä vain käy läpi avaimia nähdäkseen, mikä toimii, kutsutaan **brute force -hyökkäykseksi** tai **exhaustive key search**.
 
@@ -1097,7 +1097,7 @@ Vaikka emme aio syventyä kaikkiin yksityiskohtiin kryptografisen tietoturvan er
 
 ## Virtaussalakirjoitukset
 
-<chapterId>479aa6f4-45c4-59ca-8616-8cf8e61fc871</chapterId>
+<chapterId>82a4d8c5-7fd7-4bbb-a97e-e7a2d7cc55a0</chapterId>
 
 Symmetriset salausjärjestelmät jaetaan tavallisesti kahteen tyyppiin: **virtasalakirjoitukset** ja **lohkosalakirjoitukset**. Tämä jaottelu on kuitenkin hieman hankala, koska ihmiset käyttävät näitä termejä epäjohdonmukaisesti. Seuraavissa kappaleissa esittelen eron parhaaksi katsomallani tavalla. Kannattaa kuitenkin olla tietoinen siitä, että monet ihmiset käyttävät näitä termejä hieman eri tavalla kuin minä esitän.
 
@@ -1185,7 +1185,7 @@ Mielestäni ehdon (1) laajempi määrittely tarjoaa helpomman tavan järjestää
 
 ## Lohkosalakirjoitukset
 
-<chapterId>2df52d51-943d-5df7-9d49-333e4c5d97b7</chapterId>
+<chapterId>ffb7ba1c-eb20-43a8-a2f1-2b8a54a31044</chapterId>
 
 Ensimmäinen tapa, jolla **lohkosalaus** yleisesti ymmärretään, on se, että se on alkeellisempi kuin virtasalaus: Keskeinen algoritmi, joka suorittaa pituuden säilyttävän muunnoksen sopivan pituiselle merkkijonolle avaimen avulla. Tätä algoritmia voidaan käyttää salausmenetelmien ja ehkä myös muunlaisten salausmenetelmien luomiseen.
 
@@ -1261,7 +1261,7 @@ AES-lohkosalaus selitetään yksityiskohtaisesti *luvussa 5*.
 
 ## Sekaannuksen selvittäminen
 
-<chapterId>121c1858-27e3-5862-b0ce-4ff2f70f9f0f</chapterId>
+<chapterId>61e393f2-6764-4214-a871-f7471cb8ea32</chapterId>
 
 Lohkosalakirjoitusten ja virtasalakirjoitusten erottaminen toisistaan aiheuttaa sekaannusta, koska joskus ihmiset ymmärtävät termin lohkosalakirjoitus viittaavan nimenomaan *lohkosalakirjoitukseen, jossa on lohkosalakirjoitustapa*.
 
@@ -1285,7 +1285,7 @@ Tämän keskustelun perusteella sinun pitäisi nyt ymmärtää *Luku 8*. Se anta
 
 ## Viestin todennuskoodit
 
-<chapterId>19fa7c00-db59-56a0-9654-5350a137939d</chapterId>
+<chapterId>626181b6-f80f-4160-b441-417a79b66ec6</chapterId>
 
 Salaus koskee salassapitoa. Kryptografia käsittelee kuitenkin myös laajempia aiheita, kuten viestin eheyttä, aitoutta ja kiistämättömyyttä. Niin sanotut **viestien todentamiskoodit** (MAC) ovat symmetrisen avaimen salausjärjestelmiä, jotka tukevat viestinnän aitoutta ja eheyttä.
 
@@ -1315,7 +1315,7 @@ Vaikka olen tehnyt keskustelussani eron viestin aitouden ja eheyden välille, n�
 
 ## Todennettu salaus
 
-<chapterId>33f2ec9b-9fb4-5c61-8fb4-50836270a144</chapterId>
+<chapterId>64c1aef9-0bf8-45c5-92ba-12161d907eac</chapterId>
 
 Tyypillisesti viestinnässä halutaan taata sekä salassapito että aitous, ja siksi salaus- ja MAC-järjestelmiä käytetään yleensä yhdessä.
 
@@ -1359,7 +1359,7 @@ HMAC:n luomiseen voidaan käyttää useita erilaisia hash-funktioita. Yleisimmin
 
 ## Turvalliset viestintäistunnot
 
-<chapterId>c7f7dcd3-bbed-53ed-a43d-039da0f180c5</chapterId>
+<chapterId>16be8853-ef4e-432b-b724-f34e780f2abe</chapterId>
 
 Oletetaan, että kaksi osapuolta on viestintäistunnossa ja lähettää useita viestejä edestakaisin.
 
@@ -1391,11 +1391,11 @@ Tietoliikenneistunto alkaa siten, että Bob lähettää salatun tekstin $C_{0,B}
 
 # RC4 ja AES
 
-<partId>a48c4a7d-0a41-523f-a4ab-1305b4430324</partId>
+<partId>9948fc0a-59fe-46a4-b324-b12cde16e576</partId>
 
 ## RC4-virtasalaus
 
-<chapterId>5caec5bd-5a77-56c9-b5e6-1e86f0d294aa</chapterId>
+<chapterId>2f83a43a-16e5-4b4e-9d2f-4976f92eba15</chapterId>
 
 Tässä luvussa käsitellään salausjärjestelmän yksityiskohtia, jossa käytetään nykyaikaista primitiivistä virtasalausmenetelmää, RC4:ää (tai "Rivest cipher 4"), ja nykyaikaista lohkosalausmenetelmää, AES:ää. Vaikka RC4-salaus on joutunut huonoon valoon salausmenetelmänä, AES on nykyaikaisen symmetrisen salauksen standardi. Näiden kahden esimerkin pitäisi antaa parempi käsitys siitä, miten symmetrinen salaus toimii konepellin alla.
 
@@ -1508,7 +1508,7 @@ Tärkeää on, että RC4:llä tuotettua avainvirtaa on pidettävä kertakäyttö
 
 ## AES 128-bittisellä avaimella
 
-<chapterId>0b30886f-e620-5b8d-807b-9d84685ca8ff</chapterId>
+<chapterId>593d6ae3-7887-40d5-b14b-98a580b9a254</chapterId>
 
 Kuten edellisessä luvussa mainittiin, National Institute of Standards and Technology (NIST) järjesti vuosina 1997-2000 kilpailun uuden symmetrisen salausstandardin määrittämiseksi. Voittajaksi selviytyi **Rijndael-salakirjoitus**. Nimi on sanaleikki belgialaisten tekijöiden Vincent Rijmenin ja Joan Daemenin nimistä.
 
@@ -1677,11 +1677,11 @@ Rijndael-salauksen taustalla olevat operaatiot perustuvat siihen, että ne tuott
 
 # Epäsymmetrinen salaus
 
-<partId>868bd9dd-6e1c-5ea9-9ece-54affc13ba05</partId>
+<partId>20c55ed4-4e45-493a-8bfe-970f332d764c</partId>
 
 ## Avainten jakelu- ja hallintaongelma
 
-<chapterId>1bb651ba-689a-5a89-a7d3-0b9cc3b694f7</chapterId>
+<chapterId>4bbc8769-e00d-4d59-8365-c5f491b1217b</chapterId>
 
 Kuten symmetrisessä salauksessa, myös epäsymmetrisillä järjestelmillä voidaan varmistaa sekä salassapito että todentaminen. Sen sijaan näissä järjestelmissä käytetään yhden sijaan kahta avainta: yksityistä ja julkista avainta.
 
@@ -1726,7 +1726,7 @@ Mitä tapahtui 1970-luvulla? Miten on mahdollista, että voimme tehdä ostoksia 
 
 ## Kryptografian uudet suuntaukset
 
-<chapterId>7a9dd9a3-496e-5f9d-93e0-b5028a7dd0f1</chapterId>
+<chapterId>e0f7950c-bb5a-437e-b27e-8d6878e15291</chapterId>
 
 1970-luvulle tultaessa avainten jakeluun ja hallintaan liittyvät ongelmat olivat kiinnittäneet amerikkalaisten akateemisten salauskirjailijoiden ryhmän huomion: Whitfield Diffie, Martin Hellman ja Ralph Merkle. Vaikka suurin osa heidän kollegoistaan suhtautui asiaan erittäin epäilevästi, he uskaltautuivat kehittämään ratkaisun.
 
@@ -1790,7 +1790,7 @@ Heidän ja GCHQ:n omien kertomusten mukaan James Ellis kehitti ensimmäisenä ju
 
 ## Epäsymmetrinen salaus ja todentaminen
 
-<chapterId>2f6f0f03-3c3d-5025-90f0-5211139bc0cc</chapterId>
+<chapterId>a36ea521-ecee-476d-ade9-57f09bed2469</chapterId>
 
 *Kuvassa 1* esitetään yleiskatsaus **symmetriseen salaukseen** Bobin ja Alicen avulla.
 
@@ -1868,7 +1868,7 @@ Avainten jakelusta on nyt tullut huomattavasti yksinkertaisempaa Jim's Sporting 
 
 ## Hash-funktiot
 
-<chapterId>ea8327ab-b0e3-5635-941c-4b51f396a648</chapterId>
+<chapterId>49d6c9a5-5f18-4ec4-8c83-e02fc60941ff</chapterId>
 
 Hash-funktiot ovat kaikkialla läsnä kryptografiassa. Ne eivät ole symmetrisiä eivätkä epäsymmetrisiä järjestelmiä, vaan kuuluvat omaan kryptografiseen luokkaansa.
 
@@ -1946,11 +1946,11 @@ Vaikka törmäyskestävyys ja piilottaminen ovat tärkeimmät ominaisuudet, joit
 
 # RSA-salausjärjestelmä
 
-<partId>864dca42-2a8d-530f-bb94-2e1f68b3f411</partId>
+<partId>a8fb0a0b-747f-422a-a464-3c84979efa43</partId>
 
 ## Faktorointiongelma
 
-<chapterId>a31a66e4-52ea-539c-9953-4769ad565d7e</chapterId>
+<chapterId>406b1681-f8bf-4a03-b555-c84ac4dee44a</chapterId>
 
 Vaikka symmetrinen salaus on useimmille ihmisille yleensä melko intuitiivista, epäsymmetrinen salaus ei yleensä ole sitä. Vaikka olet todennäköisesti tyytyväinen edellisissä kappaleissa annettuun korkean tason kuvaukseen, ihmettelet luultavasti, mitä yksisuuntaiset funktiot tarkalleen ottaen ovat ja miten niitä tarkalleen ottaen käytetään epäsymmetristen järjestelmien rakentamiseen.
 
@@ -2043,7 +2043,7 @@ $$ \frac{2^{1024}}{\ln(2^{1024})} - \frac{2^{1023}}{\ln(2^{1023})} $$
 
 ## Lukuteoreettiset tulokset
 
-<chapterId>23cd2186-8d97-5709-a4a7-b984f1eb9999</chapterId>
+<chapterId>a5528852-d9cc-4f94-a15d-02f11081e026</chapterId>
 
 Valitettavasti faktorointiongelmaa ei voida käyttää suoraan epäsymmetrisiin salausjärjestelmiin. Voimme kuitenkin käyttää tähän tarkoitukseen monimutkaisempaa mutta siihen liittyvää ongelmaa: RSA-ongelmaa.
 
@@ -2170,7 +2170,7 @@ Meillä on nyt kaikki tarvittavat lukuteoreettiset tulokset RSA-ongelman selvitt
 
 ## RSA-salausjärjestelmä
 
-<chapterId>0253c2f7-b8a4-5d0e-bd60-812ed6b6c7a9</chapterId>
+<chapterId>b230194d-5774-49fe-9d19-53e345453c34</chapterId>
 
 Olemme nyt valmiita esittämään RSA-ongelman. Oletetaan, että luodaan muuttujajoukko, joka koostuu seuraavista muuttujista: $p$, $q$, $N$, $\phi(N)$, $e$, $d$ ja $y$. Kutsutaan tätä joukkoa nimellä $\Pi$. Se luodaan seuraavasti:
 
@@ -2263,5 +2263,5 @@ RSA-ongelmaa voidaan kuitenkin käyttää sekä turvallisen julkisen avaimen sal
 <isCourseExam>true</isCourseExam>
 
 ## Johtopäätös
-<chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
+<chapterId>97ce180b-5092-45eb-a160-57fc52917567</chapterId>
 <isCourseConclusion>true</isCourseConclusion>

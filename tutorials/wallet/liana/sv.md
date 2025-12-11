@@ -43,7 +43,7 @@ Med denna funktion kan du ställa in olika konfigurationer, inklusive :
 
 
 
-- En successionsplan (eller arvsplan) som gör det möjligt för arvingar att återfå medel om användaren skulle avlida. För mer information om detta ämne rekommenderar vi att du läser [del 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) i BTC102-kursen.
+- En successionsplan (eller arvsplan) som gör det möjligt för arvingar att återfå medel om användaren skulle avlida. För mer information om detta ämne rekommenderar vi att du läser [del 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/dcec2c9c-f5d9-4d47-977d-d21c5bff05cb) i BTC102-kursen.
 - En förstärkt backup med återställningstid, vilket ger användaren möjlighet att använda sin Wallet utan att behöva behålla motsvarande hemliga fras och riskera att den blir stulen, till exempel vid ett inbrott.
 - Ett skyddsnät för personer som börjar med Bitcoin: de kommer att hantera sina egna Wallet, och deras "förmyndare" (till exempel en släkting) kommer att förbehålla sig rätten att återfå sina medel efter en viss period.
 - Ett flerpartssignaturprogram (*Multisig*) med reducerade krav över tiden för att klara av att en eller flera av deltagarna försvinner, t.ex. ett företags delägare.

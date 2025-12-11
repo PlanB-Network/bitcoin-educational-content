@@ -333,7 +333,7 @@ RoninDojo 提供了在 [RockPro64](https://ronindojo.io/en/download) 上自動�
 ![lets start](assets/notext/25.webp)
 
 
-在此階段，RoninUI 向您提供您的 `root` 密碼。必須妥善保管。您可以選擇在紙張上進行實體備份，或將其保存在 [密碼管理器](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f)。
+在此階段，RoninUI 向您提供您的 `root` 密碼。必須妥善保管。您可以選擇在紙張上進行實體備份，或將其保存在 [密碼管理器](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/fcdebe4d-e2ee-495a-b0e7-ae967250866c)。
 
 
 ![root password](assets/notext/26.webp)

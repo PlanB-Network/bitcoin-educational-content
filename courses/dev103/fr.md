@@ -28,12 +28,12 @@ Ce cours est conçu pour les personnes qui sont complètement novices en program
 +++
 # JavaScript de base
 
-<partId>a617327c-e5a2-52ca-9380-c63f44623dd4</partId>
+<partId>f05873c1-d927-41c7-a204-bb0c65a76980</partId>
 
 
 ## Mise en place
 
-<chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
+<chapterId>f23bda2d-c460-4823-9d63-f2ac4d782c1f</chapterId>
 
 
 
@@ -182,7 +182,7 @@ Ceci affichera
 
 ## Variables et commentaires
 
-<chapterId>23050ab7-343b-5edf-9d37-e4e782e27ce0</chapterId>
+<chapterId>3eeeaba5-0eae-446f-9cbb-671d8ec89155</chapterId>
 
 
 Les programmes exécutent généralement des opérations sur des données.
@@ -466,7 +466,7 @@ Vous pouvez utiliser les commentaires pour ajouter de petites annotations à vot
 
 ## Types de base : nombres, chaînes de caractères, booléens
 
-<chapterId>cfdb04f6-21a8-5143-bbf9-7aaae04962f0</chapterId>
+<chapterId>1885cd1e-9477-40b3-846f-c6484a0741d1</chapterId>
 
 
 En JavaScript, un "type" indique le type de données d'une valeur.
@@ -723,7 +723,7 @@ Les booléens, les opérateurs de comparaison et les opérateurs logiques sont s
 
 ## Tableaux, null, undefined
 
-<chapterId>7bf18183-5eae-53ed-83d2-b04982145d81</chapterId>
+<chapterId>8047722f-5eee-46c3-b17f-c29b709930c3</chapterId>
 
 
 Dans cette section, nous aborderons trois autres types très courants dans les programmes JavaScript :
@@ -970,7 +970,7 @@ Ainsi, `null` est utile lorsque vous voulez dire, par exemple, "Il devrait y avo
 
 ## Blocs et flux de contrôle
 
-<chapterId>be985168-2636-5b0d-a48f-ac1bbfbff8a7</chapterId>
+<chapterId>ae3ddb7d-b174-4328-ba45-e3629ea01063</chapterId>
 
 
 Jusqu'à présent, nous avons surtout écrit des lignes de code qui s'exécutent l'une après l'autre.
@@ -1502,7 +1502,7 @@ Cet exemple était très ennuyeux, mais j'espère qu'il a permis de clarifier le
 
 ## Présentation des fonctions
 
-<chapterId>cc324715-09c2-5cf7-9e6f-47a6f16bc04d</chapterId>
+<chapterId>c73497b2-30c8-47c3-994c-01404924634e</chapterId>
 
 
 Au fur et à mesure que vos programmes se développent, vous voudrez souvent **réutiliser** des morceaux de code.
@@ -1742,7 +1742,7 @@ Cela imprimera `undefined`. La valeur de retour d'une fonction qui n'a rien reto
 
 ## Objets et classes
 
-<chapterId>26689f25-8212-5057-8c21-3a05eee0ac75</chapterId>
+<chapterId>820f0b78-7065-4929-84eb-6d569d75a9ce</chapterId>
 
 
 JavaScript est souvent considéré comme un langage orienté objet.
@@ -2427,12 +2427,12 @@ Les deux lignes renvoient `true`. C'est parce que `Admin` est une sous-classe de
 
 # JavaScript intermédiaire
 
-<partId>243f63ab-4f34-5c30-80cb-84ef46f6761d</partId>
+<partId>371fcc46-5c4f-4e9f-8e88-092927553fdc</partId>
 
 
 ## Gestion des erreurs
 
-<chapterId>d0206bc5-d386-5e7f-9917-5803f392448c</chapterId>
+<chapterId>a34f710a-8955-4f58-a559-003706047512</chapterId>
 
 
 Au fur et à mesure que vous écrivez des programmes JavaScript plus complexes, vous rencontrerez des **erreurs**. Il s'agit de situations inattendues où quelque chose ne va pas. Peut-être qu'une variable est "indéfinie" mais que vous essayez de l'utiliser, ou qu'un code reçoit le mauvais type d'entrée.
@@ -2585,7 +2585,7 @@ This will run no matter what.
 
 ## Éviter les bugs
 
-<chapterId>db12d9f6-5806-514c-998e-0ae24805104e</chapterId>
+<chapterId>44624b0b-ca62-471b-9ff4-633ac4456031</chapterId>
 
 
 Ce chapitre présente quelques-uns des pièges les plus courants en JavaScript et explique comment les éviter.
@@ -2683,7 +2683,7 @@ Le mode strict désactive également certaines fonctionnalités obsolètes de Ja
 
 ## Valeur et référence
 
-<chapterId>bb898425-dc2f-5e5c-864b-0cb7a4a9aea9</chapterId>
+<chapterId>7b38da5d-a2a8-4a92-bd16-4f9fb9bba36d</chapterId>
 
 
 JavaScript traite les différents types de valeurs de différentes manières.
@@ -2847,7 +2847,7 @@ Il est important de se souvenir de cette distinction, car sinon notre code pourr
 
 ## Travailler avec des fonctions
 
-<chapterId>e0d277a8-c642-5af7-9e53-dee27c811967</chapterId>
+<chapterId>5ef8fb79-0042-4185-8f54-0c2b6741cb11</chapterId>
 
 
 Vous avez déjà appris à déclarer et à utiliser des fonctions en JavaScript. Mais JavaScript permet d'utiliser les fonctions de manière encore plus efficace.
@@ -3115,7 +3115,7 @@ console.log(result) // 28
 
 ## Travailler avec des objets
 
-<chapterId>7842aada-f009-5518-b8e3-1104e166a035</chapterId>
+<chapterId>51719896-7c92-4730-b153-7d3f88680a73</chapterId>
 
 
 Dans ce chapitre, nous allons découvrir quelques outils puissants et légèrement plus avancés pour travailler avec des objets en JavaScript.
@@ -3242,7 +3242,7 @@ Ainsi, même si nous avons l'impression de définir une simple variable, nous d�
 
 ## Clés et valeurs
 
-<chapterId>01a397b8-c12a-5c39-82b3-6d9ebbb72a29</chapterId>
+<chapterId>03899213-ca26-4beb-b836-c70116a5cb29</chapterId>
 
 
 Chaque propriété d'un objet JavaScript possède une **clé** (également appelée nom de la propriété) et une **valeur**.
@@ -3417,7 +3417,7 @@ Comme vous pouvez le voir, la propriété originale `name` est préservée de ce
 
 ## Objets utilitaires
 
-<chapterId>516e74c8-2a11-545a-a4d1-c2cabb91a273</chapterId>
+<chapterId>d6ce15ed-f38f-44f0-bf38-05f54a263763</chapterId>
 
 
 JavaScript fournis quelques objets intégrés au langage (**builtin objects**) utiles qui nous aident pour différentes choses comme le débogage ou les opérations mathématiques.
@@ -3590,12 +3590,12 @@ console.log(Math.sqrt(16))    // 4
 
 # JavaScript avancé
 
-<partId>72c30671-ca20-5617-92a5-d5ba7aa38c93</partId>
+<partId>4deca44e-5be7-4cc7-8e66-b6e72c5c5702</partId>
 
 
 ## Autres collections
 
-<chapterId>a9a70c6d-a343-5a46-a383-e288bc2700e3</chapterId>
+<chapterId>06bc3143-6d3b-4742-b3ec-3d493200f290</chapterId>
 
 
 JavaScript met à disposition des types de collection spéciaux qui vont au-delà des tableaux et des objets ordinaires. Il s'agit de `Map` (une table de hachage) et de `Set` (un ensemble). Ce sont deux structures de données classique en informatique.
@@ -3763,7 +3763,7 @@ Le `Set` évite les doublons.
 
 ## Itérateurs
 
-<chapterId>61d24e5e-b7e4-541a-8322-778f61f26a72</chapterId>
+<chapterId>cdf64150-bf1b-43ee-9243-eb1d12944f6b</chapterId>
 
 
 La plupart des éléments en JavaScript sur lesquels vous pouvez effectuer une boucle (comme les tableaux, les chaînes, les cartes, les ensembles) sont **itérables** : ils peuvent fournir des itérateurs pour leur contenu.
@@ -4098,7 +4098,7 @@ Ceci affiche :
 
 ## Concurrence avec les fonctions de rappels (**callbacks**)
 
-<chapterId>f3fc76ca-b3ef-54eb-a06e-501007002054</chapterId>
+<chapterId>153d4631-4f09-4673-9663-a0655c84915d</chapterId>
 
 
 Jusqu'à présent, notre code était **synchrone** : il s'exécutait une ligne à la fois, dans l'ordre. Mais certaines choses dans le monde réel prennent du temps, et nous ne voulons pas que le programme entier se mette en pause si ce n'est pas nécessaire.
@@ -4223,7 +4223,7 @@ C'est difficile à lire et désordonné. Ce style est appelé **callback hell** 
 
 ## Concurrence avec des promesses (**Promises**)
 
-<chapterId>30fddaca-729f-5c8d-bf86-8dfc7b3c9800</chapterId>
+<chapterId>f8635081-bd8a-468c-937a-378cba983be8</chapterId>
 
 
 Une `Promise` est un objet JavaScript intégré au langage représentant une valeur qui sera **prête dans le futur**.
@@ -4555,7 +4555,7 @@ Chaque `.then()` attend que l'étape précédente se termine. Nous pouvons donc 
 
 ## Concurrence avec async/await
 
-<chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
+<chapterId>ee195267-5761-4b57-b9c9-294c41753675</chapterId>
 
 
 Nous avons vu comment le chainage de `Promise` nous aide à éviter l'enfer du callback, mais elles peuvent rester un peu difficile à lire quand il y a beaucoup d'étapes.
@@ -4756,7 +4756,7 @@ Ce code ressemble à un programme séquentiel tout à fait classique, mais il es
 
 ## Itérateurs asynchrones
 
-<chapterId>438b037d-9931-56d7-9052-7b4470f3c75b</chapterId>
+<chapterId>0e054e0d-3c56-4a9c-92b8-3f89082951d3</chapterId>
 
 
 Vous avez déjà vu ce que sont les **itérateurs** et comment nous pouvons utiliser `for...of` pour boucler sur des tableaux et d'autres éléments itérables.
@@ -4934,7 +4934,7 @@ Cela vous permet de créer des objets qui peuvent être parcourus de manière as
 
 ## Sucre syntaxique pour l'affectation
 
-<chapterId>8b1ba7d8-ecfd-5470-b86e-73cb84ccc8b7</chapterId>
+<chapterId>05425043-b182-44f2-8409-210b07130f92</chapterId>
 
 
 Un "sucre syntaxique" consiste en l'écriture de quelque chose d'une manière plus courte ou plus facile, sans changer ce qu'il fait. Il s'agit simplement d'une manière plus agréable de dire la même chose.
@@ -5185,12 +5185,12 @@ Cette fonction est très utile pour mettre à jour des objets sans modifier l'or
 
 # NodeJS
 
-<partId>42fe4d49-dace-5135-bb9e-b9d75034fb2a</partId>
+<partId>5b72ef93-69a6-4736-a375-6236861e2874</partId>
 
 
 ## Comment en sommes-nous arrivés à Node ?
 
-<chapterId>0da1d60c-06c9-54e6-a181-ae7dabf6e3b8</chapterId>
+<chapterId>d43b1e4c-cd96-4c75-8039-f76eb407a576</chapterId>
 
 
 Dans ce chapitre, nous allons en apprendre un peu plus sur l'histoire de JavaScript et NodeJS.
@@ -5279,7 +5279,7 @@ Dans ce cours, nous avons exploré les fonctionnalités JavaScript présentes à
 
 ## Arguments de la ligne de commande
 
-<chapterId>960d20f3-c424-5d51-a041-ef17d2e94b6d</chapterId>
+<chapterId>941e316c-7ab8-4fb0-8298-9a1c85b25b71</chapterId>
 
 
 NodeJS nous permet, entre autres, de construire des CLIs (Command Line Interfaces).
@@ -5356,7 +5356,7 @@ Il est essentiel d'avoir accès aux arguments que l'utilisateur transmet pour d�
 
 ## Modules
 
-<chapterId>4e1651a5-65fd-50bc-b22a-40313d5659ca</chapterId>
+<chapterId>ace32a0c-8a10-4dfa-83e2-e06a8f674a24</chapterId>
 
 
 Les moteurs d'exécution JavaScript tels que NodeJS traitent généralement chaque fichier JavaScript comme un module distinct.
@@ -5496,7 +5496,7 @@ Les chapitres suivants vous donneront quelques exemples utiles.
 
 ## Le module fs
 
-<chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
+<chapterId>e59cdf25-2dc2-48d1-b5c1-3df89254ff4e</chapterId>
 
 
 Le module `fs` (abréviation de **file system**) fait partie de la bibliothèque standard de NodeJS. Il vous permet de travailler avec des fichiers et des répertoires sur votre ordinateur : vous pouvez lire des fichiers, écrire des fichiers, les supprimer, les renommer, et plus encore.
@@ -5794,7 +5794,7 @@ main().catch(err => console.error(err))
 
 ## NPM
 
-<chapterId>a91d9a75-55cc-51a3-a48f-0c0be6fe6e72</chapterId>
+<chapterId>412cfd23-1869-491e-9d04-84b9c447b4df</chapterId>
 
 
 Lorsque vous écrivez du code, vous devez souvent utiliser du code écrit par d'autres personnes ; par exemple, des bibliothèques pour vous aider à travailler avec des dates, des couleurs, des serveurs ou presque n'importe quoi d'autre.
@@ -6015,7 +6015,7 @@ Mais ce sont des choses dont vous devrez vous préoccuper plus tard, lorsque vou
 
 ## La mise en réseau dans NodeJS
 
-<chapterId>f2cabd8b-754b-5c97-8d6a-8412a9a184c7</chapterId>
+<chapterId>5915bd97-6bc8-446a-a1d8-ca3ce2f724be</chapterId>
 
 
 NodeJS est souvent utilisé comme langage pour le backend : vous pouvez transformer votre script en serveur et l'utiliser pour envoyer des requêtes à d'autres serveurs.
@@ -6217,7 +6217,7 @@ Il s'agit d'exemples très basiques. Pour construire des serveurs plus avancés,
 
 ## Traitement des données : tampons, événements, flux
 
-<chapterId>8c9623f0-a604-51a4-8fe4-871c849d3e3b</chapterId>
+<chapterId>6327b62d-3e2d-4a40-b8c3-78f2a21f3fda</chapterId>
 
 
 Dans ce chapitre, nous présenterons principalement trois classes d'objets :
@@ -6706,7 +6706,7 @@ Vous n'avez donc à vous soucier de la contre-pression que lorsque, pour une rai
 
 ## Note finale
 
-<chapterId>139e2ab8-df67-525a-85f0-5a2fa5e478f2</chapterId>
+<chapterId>c09318b9-2d2f-4300-a32b-dff8dbdb9dbd</chapterId>
 
 
 Voilà, si vous avez suivi les leçons, vous devriez maintenant être capable d'écrire quelques programmes simples en NodeJS.
@@ -6727,20 +6727,20 @@ Bonne chance !
 # Section finale
 
 
-<partId>322624d8-6fbc-11f0-a67a-5b145f10afc1</partId>
+<partId>528a2f0c-e5cf-49e5-95c8-4866523a5bde</partId>
 
 
 ## Critiques et évaluations
 
 
-<chapterId>3e93ac86-6fbc-11f0-8bae-9b2ed7914843</chapterId>
+<chapterId>5c5cae08-1839-4b94-b89c-af40a0dc14a9</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Conclusion
 
 
-<chapterId>49b3b9b2-6fbc-11f0-9870-5f5adcd3a0eb</chapterId>
+<chapterId>627aebc9-879f-4539-8501-dd0a517dd4a0</chapterId>
 
 
 <isCourseConclusion>true</isCourseConclusion>

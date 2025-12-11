@@ -16,7 +16,7 @@ Alekose ja Basi loodud ning melontwisti ja asi0 kohandatud kursus paljastab, kui
 # Sissejuhatus
 
 
-<partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
+<partId>541d6444-caf8-4e5b-80c3-b97f4d883d57</partId>
 
 
 ## Kursuse ülevaade
@@ -57,7 +57,7 @@ Kas olete valmis BTCPay Serverit omandama ja oma äri kasvatama? Alustame!
 ## Autorite Bitcoin ja BTCPay Server'i kriitiline tunnustamine
 
 
-<chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
+<chapterId>f0645534-c825-40fb-a190-e24358e8accc</chapterId>
 
 
 Alustame sellest, mis on BTCPay Server ja selle päritolu. Me väärtustame läbipaistvust ja teatud standardeid, et kujundada usaldust Bitcoin ruumis.
@@ -113,7 +113,7 @@ BTCPay Server Foundation, mis võimaldas Alekosel ja Basil selle kursuse kirjuta
 ## Sissejuhatus Bitcoin-sse
 
 
-<chapterId>5c0bc234-c188-5b4a-94d5-adee87a120e2</chapterId>
+<chapterId>ba6af1e5-86f1-4139-a549-df2367d6319a</chapterId>
 
 
 ### Bitcoin mõistmine klassiharjutuse kaudu
@@ -217,7 +217,7 @@ Kliendid ostavad poest toote Bitcoin-ga.
 ## Teadmiste hindamine
 
 
-<chapterId>1461f064-933d-50ea-8935-324b68ec5d5f</chapterId>
+<chapterId>c8cec6af-1e57-4a0e-a86a-7dc35f5c2350</chapterId>
 
 
 ### KA Klassiruumi arutelu
@@ -248,13 +248,13 @@ Blockchain, tehing, topeltkulu, Bütsantsi kindlusprobleem, Mining, Proof of Wor
 # BTCPay serveri tutvustamine
 
 
-<partId>9c8a2d0c-9ba1-5c39-874c-f9eaf1bba663</partId>
+<partId>8a8bbf80-1322-4ad0-b49c-9c18b969236d</partId>
 
 
 ## BTCPay serveri sisselogimisekraani mõistmine
 
 
-<chapterId>14aad54c-9bd8-54f2-9455-178b8ae63408</chapterId>
+<chapterId>2d35d204-1c04-418f-91eb-a7a547ddc210</chapterId>
 
 
 ### Töötamine BTCPay Serveriga
@@ -355,7 +355,7 @@ Põhjendage, miks demo-serveri kasutamine on halb mõte tootmise jaoks.
 ## Kasutajakonto(de) haldamine
 
 
-<chapterId>b58ca6ee-b7fc-5e81-a6aa-c8ff212b4c55</chapterId>
+<chapterId>7f2dcbc7-ba0b-4515-bf6d-d23ab19c1831</chapterId>
 
 
 ### Konto haldamine BTCPay serveris
@@ -475,7 +475,7 @@ Kirjeldage, kuidas rakenduspõhine 2FA aitab teie kontot kaitsta.
 ## Uue poe loomine
 
 
-<chapterId>463b3634-b49f-5512-a711-3b2e096fc2e0</chapterId>
+<chapterId>6e8d48b0-b9b6-4fbd-8961-5cde37109c0d</chapterId>
 
 
 ### Loo oma poe võlur
@@ -561,13 +561,13 @@ Selles osas õppisite:
 # Bitcoin võtmete turvamise sissejuhatus
 
 
-<partId>25da22d8-fd37-51c5-af2a-58b9f3b046b2</partId>
+<partId>dd0975de-76e6-4255-a3b2-e454009d1aa5</partId>
 
 
 ## Bitcoin võtmete genereerimise mõistmine
 
 
-<chapterId>d162735b-847b-578e-83b8-a044ab703ec5</chapterId>
+<chapterId>8a6164a5-aea6-4348-aa71-135d03de98bc</chapterId>
 
 
 ### Mis on seotud Bitcoin võtmete genereerimisega?
@@ -640,7 +640,7 @@ Kirjeldage iga tehingu puhul uute aadresside kasutamise eeliseid võrreldes Addr
 ## Võtmete kindlustamine Hardware Wallet abil
 
 
-<chapterId>c54a6d61-5a43-5fdb-93ae-c6750de9c612</chapterId>
+<chapterId>94cf5f31-7292-4608-b10e-8e46b1ebd627</chapterId>
 
 
 ### Bitcoin võtmete säilitamine
@@ -701,7 +701,7 @@ Selles osas õppisite:
 ## Bitcoin võtmete kasutamine
 
 
-<chapterId>bff488de-5052-56e6-b696-97e896f762ae</chapterId>
+<chapterId>ae5aafd5-28b7-4ef7-8ebc-3ac5f19769c7</chapterId>
 
 
 ### BTCPay server Wallet
@@ -1039,7 +1039,7 @@ Kirjeldage võtmete genereerimise meetodit ja nende kaitsmise skeemi koos turvas
 ## BTCPay Server Lightning Wallet
 
 
-<chapterId>1bbece7e-0197-57e6-a93a-561cf384d946</chapterId>
+<chapterId>ca874f9a-4f97-44d5-9bf4-57c8b17d25bf</chapterId>
 
 
 Kui serveriadministraator loob uue BTCPay Serveri instantsi, võib ta seadistada Lightning Network rakendamise, näiteks LND, Core Lightning või Eclair; üksikasjalikumaid paigaldusjuhiseid leiate osast BTCPay Serveri konfigureerimine.
@@ -1289,13 +1289,13 @@ Kirjeldage mõningaid erinevaid võimalusi Lightning Wallet ühendamiseks teie k
 # BTCPay server Interface
 
 
-<partId>25e88b81-e1ab-515f-a035-09f2a3075556</partId>
+<partId>76b4a36d-9cf8-469d-a763-a75cc38c812a</partId>
 
 
 ## Ülevaade armatuurlauast
 
 
-<chapterId>410ff28b-a272-5c91-93e0-48d5b28c53ab</chapterId>
+<chapterId>8bd1c31e-a487-4c32-b3af-bcecc7117a80</chapterId>
 
 
 BTCPay Server on modulaarne tarkvarapakett. Siiski on olemas standardid, mida iga BTCPay Server peab järgima ning need standardid reguleerivad administraatori ja kasutajate vahelist suhtlust. Alustades armatuurlauast. Iga BTCPay Serveri peamine sisenemispunkt pärast sisselogimist. Dashboard annab ülevaate teie poe tulemuslikkusest, Wallet praegusest saldost ja viimase 7 päeva tehingutest. Kuna tegemist on modulaarse vaatega, võivad pluginad seda vaadet enda kasuks kasutada ja luua oma plaadid Dashboardile. Sellel kursusel arutame kogu BTCPay Serveris ainult standardseid pluginaid ja rakendusi koos nende vastavate vaadetega.
@@ -1419,7 +1419,7 @@ Loetlege armatuurlaual nii palju plaate mälust kui võimalik.
 ## BTCPay Server - poe seaded
 
 
-<chapterId>e8faef7b-278d-550e-a511-bc3a442daf64</chapterId>
+<chapterId>00ff7c8c-46f9-4d88-92cc-c63e4ff348f9</chapterId>
 
 
 BTCPay Serveri tarkvaras on teada kahte tüüpi seadeid. BTCPay Serveri poespetsiifilised seaded, seadete nupp, mis asub vasakul menüüriba all Dashboardi all, ja BTCPay Serveri seaded, mis asub menüüriba allosas, otse konto kohal. BTCPay Serveri serveri spetsiifilisi seadeid saavad vaadata ainult serveri administraatorid.
@@ -1874,7 +1874,7 @@ Kirjeldage mõningaid valikuid, mida võiksite valida jaotises Kassade välimus 
 ## BTCPay Server - Serveri seaded
 
 
-<chapterId>1dd858a2-49ea-586b-9bc1-75a65f508df6</chapterId>
+<chapterId>07022d6d-594f-46d7-8363-c8c16a561f4f</chapterId>
 
 
 BTCPay Server koosneb kahest erinevast seadistuse vaatest. Üks on pühendatud poe seadetele ja teine serveri seadetele. Viimane on kättesaadav ainult serveri administraatoritele, mitte poe omanikele. Serveri administraatorid saavad lisada kasutajaid, luua kohandatud rolle, konfigureerida e-posti serverit, määrata poliitikaid, käivitada hooldusülesandeid, kontrollida kõiki BTCPay Serveriga seotud teenuseid, laadida serverisse faile või kontrollida logisid.
@@ -2440,7 +2440,7 @@ Kirjeldage mõningaid tegevusi, mida administraator võib tavapäraselt teha vah
 ## BTCPay Server - Maksed
 
 
-<chapterId>e2b71ff9-3f4f-5e71-9771-8e03fbbef00f</chapterId>
+<chapterId>1f6899d4-85c1-41fe-8f23-4a7bec44e9c2</chapterId>
 
 
 Invoice on dokument, mille müüja väljastab ostjale makse kogumiseks.
@@ -2786,7 +2786,7 @@ Kuidas laiendavad tõmbemaksed seda, mida tavaliselt saab teha On-Chain? Kirjeld
 ## BTCPay serveri vaikimisi pluginad
 
 
-<chapterId>7d673dc4-bd5d-5411-819b-f135f1d86636</chapterId>
+<chapterId>2d994561-7f8d-4862-8b9f-cee7d81df6f2</chapterId>
 
 
 ### Vaikimisi pistikprogrammid ja rakendused
@@ -3273,13 +3273,13 @@ Millised on kolm sisseehitatud pluginat, mis kuuluvad BTCPay Serveri standardvar
 # BTCPay serveri konfigureerimine
 
 
-<partId>ff38596c-7de3-5e5c-ba50-9b9edbbbb5eb</partId>
+<partId>c3a8bd83-0676-4388-87b2-325d67f43d9d</partId>
 
 
 ## BTCPay Serveri paigaldamise põhitõed LunaNode'i keskkonnas
 
 
-<chapterId>d0a28514-ffcf-529b-9156-29141f0b060a</chapterId>
+<chapterId>f0f934af-eb3c-4d86-bd7b-3fee8fb7c10e</chapterId>
 
 
 ### BTCPay serveri paigaldamine hostitud keskkonda (LunaNode)
@@ -3418,7 +3418,7 @@ Kirjeldage mõningaid erinevusi BTCPay Serveri instantsi käitamise vahel VPS-is
 ## BTCPay Serveri paigaldamine Voltage keskkonda
 
 
-<chapterId>11c7d284-b4d2-5542-872c-df9bd9c1491b</chapterId>
+<chapterId>ef790587-4c73-4311-96f1-5a9219b9a7fd</chapterId>
 
 
 Sa tutvud Voltage.cloud'iga kui hostinguteenuse pakkujaga, tutvud BTCPay serveri kasutamise esimeste sammudega ja õpid kasutama Lightning Network. Kui oleme kõik sammud läbi käinud, saate käivitada Bitcoin vastuvõtva veebipoe või ühisrahastusplatvormi!
@@ -3491,7 +3491,7 @@ Millised on peamised erinevused Voltage'i ja LunaNode'i seadistuste vahel?
 ## BTCPay serveri paigaldamine Umbreli sõlme
 
 
-<chapterId>3298e292-6476-5fe0-836c-7fa021348799</chapterId>
+<chapterId>bdd94bfc-c8da-4c8b-8b0e-ed4f9a5dd42e</chapterId>
 
 
 Nende sammude lõpus saate oma BTCPay poes välkmakseid vastu võtta oma kohalikus võrgus. See protsess kehtib ka siis, kui te haldate vihmavarju sõlme restoranis või ettevõttes. Kui soovite selle poe ühendada avaliku veebisaidiga, järgige edasijõudnute harjutust, et oma umbrel-sõlme avalikkusele eksponeerida.
@@ -3580,20 +3580,20 @@ Mille poolest erineb Umbreli seadistus kahest eelmisest hostitud valikust?
 # Lõplik osa
 
 
-<partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
+<partId>5449bff6-f410-4f2a-a373-7b915bb6d726</partId>
 
 
 
 
 ## Arvamused ja hinnangud
 
-<chapterId>d90bb93d-b894-551e-9fd6-6855c739a904</chapterId>
+<chapterId>bf665be7-1be0-4d54-b8c6-64fbb40c9190</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
 ## Kursuse kokkuvõte
 
 
-<chapterId>c07ac2a5-f97e-5c57-8a80-4955b48128d4</chapterId>
+<chapterId>bbda2002-757d-4dad-8c8a-ff95cec77077</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>

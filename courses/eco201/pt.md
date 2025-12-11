@@ -15,11 +15,11 @@ Esta escola de pensamento moldou debates durante séculos, graças a pensadores 
 +++
 # Introdução
 
-<partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
+<partId>21613091-f43a-4a87-88d9-2d69038d41d2</partId>
 
 ## Visão Geral do Curso
 
-<chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
+<chapterId>43b56a2b-bbee-4faa-b52a-9b6c540df559</chapterId>
 
 Bem-vindo ao curso ECO201!
 
@@ -46,7 +46,7 @@ E se a chave para entender a economia atual estiver em uma teoria de vários sé
 
 ## Dinheiro, Crédito, Bancos e Bancos Centrais
 
-<chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
+<chapterId>84a09f98-8cd7-468f-9cc1-6c0add06ce12</chapterId>
 
 > "O problema fundamental com a moeda convencional é toda a confiança necessária para fazê-la funcionar. O banco central deve ser confiável para não desvalorizar a moeda, mas a história das moedas fiduciárias está cheia de violações dessa confiança. Os bancos devem ser confiáveis para guardar nosso dinheiro e transferi-lo eletronicamente, mas eles emprestam em ondas de bolhas de crédito com apenas uma fração em reserva. Temos que confiar neles com nossa privacidade, confiar neles para não deixar ladrões de identidade esvaziarem nossas contas."
 >
@@ -134,11 +134,11 @@ No próximo capítulo, aprofundaremos a pedra fundamental de qualquer escola de 
 
 # Fundamentos Teóricos
 
-<partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
+<partId>6249c7e4-71bc-453b-8a09-ab579d340709</partId>
 
 ## A Teoria Subjetiva do Valor
 
-<chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
+<chapterId>fb001732-6bf7-4935-b8ec-6c225dab1025</chapterId>
 
 > "O valor só existe dentro da consciência humana"
 >
@@ -218,7 +218,7 @@ Os próximos capítulos serão dedicados ao surgimento do dinheiro como um fenô
 
 ## O Surgimento do Dinheiro como um Fenômeno Social
 
-<chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
+<chapterId>469d591e-b407-4218-bccb-6a433f731cb3</chapterId>
 
 Embora os indivíduos tenham um interesse comum na especialização e na maximização da divisão do trabalho, ainda existem problemas de coordenação que limitam essa expansão.
 
@@ -298,7 +298,7 @@ No próximo capítulo, aprofundaremos o conceito de preferência temporal e expl
 
 ## Preferência Temporal, Juros e Capital
 
-<chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
+<chapterId>e0a5c946-dd4c-4aa6-9b6e-aaacb23241ae</chapterId>
 
 ### Preferência Temporal
 
@@ -368,11 +368,11 @@ Isso é o que descobriremos no próximo capítulo dedicado à Teoria Austríaca 
 
 # Perspectivas Econômicas Austríacas
 
-<partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
+<partId>851a6712-84ea-48d2-85f7-3354e1381a06</partId>
 
 ## A Teoria Austríaca do Ciclo Econômico
 
-<chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
+<chapterId>17248205-835a-4284-ba94-0eb131916aa3</chapterId>
 
 > "Quanto mais tempo durar o boom do crédito bancário inflacionário, maior será o escopo de investimentos malfeitos em bens de capital e maior será a necessidade de liquidação desses investimentos insustentáveis. Quando a expansão do crédito para, se reverte ou até mesmo desacelera significativamente, os investimentos malfeitos são revelados"
 >
@@ -447,7 +447,7 @@ Este será o assunto do próximo e último capítulo deste curso.
 
 ## A Impossibilidade do Cálculo Econômico sob o Socialismo
 
-<chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
+<chapterId>9b9e185f-5b0d-4850-813e-0c50e309a909</chapterId>
 
 > "Onde não há preços de mercado para os fatores de produção porque eles não são comprados nem vendidos, é impossível recorrer ao cálculo no planejamento de ações futuras e na determinação do resultado de ações passadas. Uma gestão socialista da produção simplesmente não saberia se o que planeja e executa é o meio mais apropriado para atingir os fins desejados. Ela operará no escuro, por assim dizer. Ela desperdiçará os escassos fatores de produção, tanto materiais quanto humanos (trabalho). O caos e a pobreza para todos inevitavelmente resultarão"
 >
@@ -516,7 +516,7 @@ A tradição austríaca incorpora uma abordagem humilde para a ação humana, ti
 
 ## A Metodologia Austríaca
 
-<chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
+<chapterId>1fdf4c5d-0008-4f69-97e7-127fb3ef63e0</chapterId>
 
 A escola austríaca de economia se distingue das outras escolas por sua metodologia axiomático-dedutiva, que difere da abordagem positivista frequentemente usada nas ciências sociais. A abordagem positivista é baseada em leis estabelecidas a partir de dados empíricos, adotando um método semelhante ao das ciências físicas. Ela formula hipóteses a partir de observações, que são então confirmadas ou refutadas por experimentos temporários. O método científico consiste em reter a hipótese que melhor explica os dados e continuar a explorá-la até que uma hipótese mais precisa seja encontrada.
 
@@ -538,16 +538,16 @@ A metodologia é um aspecto essencial na economia e nas ciências sociais em ger
 
 # Seção final
 
-<partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
+<partId>373760d2-4e6e-4a05-8081-6d02072457d7</partId>
 
 ## Avaliações & Notas
 
-<chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
+<chapterId>2373a3ce-1c87-415a-8dd6-0437b4f71e79</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Exame Final
 
-<chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
+<chapterId>1c584ca3-c738-4151-8a85-101a142fcbbc</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Conclusão

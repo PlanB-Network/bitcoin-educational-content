@@ -17,14 +17,14 @@ Trong BTC304, chúng ta sẽ xem xét tại sao việc xây dựng cộng đồn
 # Giới thiệu
 
 
-<partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
+<partId>c896831e-b8d8-4324-bcad-b289c88db81b</partId>
 
 
 
 ## Tổng quan về khóa học
 
 
-<chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
+<chapterId>42660201-57ae-4438-846a-80cd529087ca</chapterId>
 
 
 
@@ -144,7 +144,7 @@ Bạn đã sẵn sàng tìm hiểu cách xây dựng một cộng đồng Bitcoi
 ## Tại sao nên thành lập cộng đồng hoặc buổi gặp mặt Bitcoin?
 
 
-<chapterId>893ea248-7d5a-5b8e-948c-7031497b1031</chapterId>
+<chapterId>ce63ff45-9c9e-4a77-a175-99906bb95208</chapterId>
 
 
 
@@ -241,7 +241,7 @@ Các cuộc gặp gỡ Bitcoin có thể phục vụ nhiều mục đích:
 
 
 
-Chúng tôi sẽ đề cập chi tiết đến nhiều khả năng này trong phần 6/8 của khóa học này, có tiêu đề "[Ví dụ về các dự án và sáng kiến](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
+Chúng tôi sẽ đề cập chi tiết đến nhiều khả năng này trong phần 6/8 của khóa học này, có tiêu đề "[Ví dụ về các dự án và sáng kiến](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab).
 
 
 
@@ -252,7 +252,7 @@ Mặc dù mỗi cộng đồng đều được tự do hình thành quan điểm
 ## Bạn nên tạo cộng đồng của mình ở đâu?
 
 
-<chapterId>72da5285-5395-592d-ab62-303a0aef3d6d</chapterId>
+<chapterId>0b6bd32a-15ff-4b09-870d-5a2f6ea0d774</chapterId>
 
 
 
@@ -309,7 +309,7 @@ Và tất nhiên, nếu một cộng đồng cũ đã "tiến hóa" theo hướn
 ## Cộng đồng của bạn nên hướng tới mục tiêu nào?
 
 
-<chapterId>0aae1aa8-93ec-544a-ad88-22d32c619595</chapterId>
+<chapterId>2b2f58e5-c2ab-4b85-af19-02d7ad2aa503</chapterId>
 
 
 
@@ -353,7 +353,7 @@ Sự kiện đầu tiên của bạn có thể sẽ là một buổi gặp mặt
 
 
 
-Tuy nhiên, như chúng ta sẽ thấy sau trong [Ví dụ về các dự án và sáng kiến](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **một buổi gặp mặt có thể được tổ chức theo nhiều cách, với nhiều mục tiêu:**
+Tuy nhiên, như chúng ta sẽ thấy sau trong [Ví dụ về các dự án và sáng kiến](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab), **một buổi gặp mặt có thể được tổ chức theo nhiều cách, với nhiều mục tiêu:**
 
 
 
@@ -424,14 +424,14 @@ Việc xây dựng một cộng đồng không phải là chuyện một sớm m
 # Thiết kế bản sắc cộng đồng Bitcoin
 
 
-<partId>da6673ad-bf49-5979-80a6-3f69cfb28046</partId>
+<partId>507dd86a-0214-4c18-ae0d-34702291fb74</partId>
 
 
 
 ## Tại sao và làm thế nào bạn có thể tạo ra bản sắc riêng của mình?
 
 
-<chapterId>b48a18cc-afdf-5216-802c-32647b5cd8a3</chapterId>
+<chapterId>4475004b-19e7-4c0f-a799-fd2cb0baefad</chapterId>
 
 
 
@@ -532,7 +532,7 @@ Nếu có cảm hứng, bạn có thể tiến xa hơn nữa: tạo huy hiệu, 
 ## Tạo logo, poster và banner
 
 
-<chapterId>3470a31f-0190-5e87-8af0-6a00e79267ef</chapterId>
+<chapterId>8b85ccb1-5474-474e-ae1b-c8cb69f060ad</chapterId>
 
 
 
@@ -763,14 +763,14 @@ Kết quả trông thật tuyệt vời!
 # Tạo kênh truyền thông cho cộng đồng Bitcoin của bạn
 
 
-<partId>fc588298-6876-554c-bd57-55d182464878</partId>
+<partId>054892b5-21cb-43f8-a1c2-750d3175fa68</partId>
 
 
 
 ## Bạn nên chọn kênh truyền thông nào?
 
 
-<chapterId>b4f4eef6-1035-5290-848a-2b7f9391c77a</chapterId>
+<chapterId>3c111ec9-2517-4b9a-bba4-68ac531e081f</chapterId>
 
 
 
@@ -831,7 +831,7 @@ Khi cộng đồng của bạn phát triển, bạn có thể thêm nhiều nề
 ## Tạo và cấu hình kênh, nhóm hoặc siêu nhóm Telegram
 
 
-<chapterId>d13714ce-8f08-53e9-bedd-b6a3aaac5dad</chapterId>
+<chapterId>7b87c24a-4820-4652-a3de-dc29cafea4d0</chapterId>
 
 
 
@@ -866,7 +866,7 @@ Trong các hướng dẫn dưới đây, ban đầu chúng tôi sử dụng APK 
 Nếu bạn muốn tạo một nơi mà các thành viên có thể trò chuyện trực tiếp với nhau, phản hồi cho nhau, v.v., thì bạn có thể muốn tạo một nhóm Telegram chứ không phải một kênh Telegram!
 
 
-Đi thẳng đến phần tiếp theo có tiêu đề [Tạo nhóm Telegram](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
+Đi thẳng đến phần tiếp theo có tiêu đề [Tạo nhóm Telegram](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/7b87c24a-4820-4652-a3de-dc29cafea4d0).
 
 
 
@@ -997,7 +997,7 @@ Vì vậy, không cần phải tải xuống "Telegram+" nữa, trừ khi bạn 
 ## Thiết lập nhóm Telegram hoặc siêu nhóm của bạn
 
 
-<chapterId>35e674b3-5924-50b0-98f1-83a56c9a186d</chapterId>
+<chapterId>a8c5bc2e-9a91-4da1-aae7-8a3684631dc8</chapterId>
 
 
 
@@ -1053,7 +1053,7 @@ Trong phần Quản trị viên, bạn cũng có thể bật tính năng "Chốn
 ## Thêm Bot đa chức năng vào nhóm Telegram của bạn
 
 
-<chapterId>c61f69cc-15ec-53f1-8c02-1cea55def09e</chapterId>
+<chapterId>80108eb0-6648-4fe9-b41f-586f03466805</chapterId>
 
 
 
@@ -1105,7 +1105,7 @@ Hướng dẫn thêm bot đa chức năng vào nhóm hoặc siêu nhóm Telegram
 ## Tạo máy chủ Discord
 
 
-<chapterId>eef2a965-4c24-5f3a-8013-72cc7d315314</chapterId>
+<chapterId>9d3f69cb-a61c-40f2-abad-e4a4be6b96cb</chapterId>
 
 
 
@@ -1150,7 +1150,7 @@ Tuy nhiên, hãy nhớ rằng việc cài đặt không hề dễ dàng. Bạn s
 ## Hãy cân nhắc các kênh liên lạc thay thế, riêng tư và an toàn hơn
 
 
-<chapterId>29d0aad6-0612-5dd0-bcef-7337eaf4fefc</chapterId>
+<chapterId>495024db-90fb-4aa9-984e-1dc2b2b90947</chapterId>
 
 
 
@@ -1178,14 +1178,14 @@ Và thực sự, điều gì có thể phù hợp hơn với tinh thần của B
 # Khởi chạy mạng xã hội của bạn
 
 
-<partId>8ebf8cd7-9248-543f-bc27-4ec4cc03f9cf</partId>
+<partId>f98a016c-d5b2-43b4-b8ee-ad6163d7e6c5</partId>
 
 
 
 ## Tầm quan trọng của khả năng hiển thị để phát triển cộng đồng Bitcoin của bạn
 
 
-<chapterId>b20f12e4-c5de-5f02-80c7-b7fc6cadd3ac</chapterId>
+<chapterId>ecd581a7-17e6-4730-ac9f-859a782a957e</chapterId>
 
 
 
@@ -1219,7 +1219,7 @@ Tuy nhiên, hãy nhớ rằng **càng quản lý nhiều kênh truyền thông v
 ## Tạo hồ sơ Twitter
 
 
-<chapterId>c8d73097-8eba-5530-918c-221002954110</chapterId>
+<chapterId>f5bfb587-1edf-46ce-9683-833b344627b1</chapterId>
 
 
 
@@ -1232,7 +1232,7 @@ Twitter rất dễ sử dụng và để cải thiện quyền riêng tư, bạn
 1/ **tài khoản @Twitter**, giúp định nghĩa danh tính của bạn và giúp bạn dễ dàng được tìm thấy. Nếu tên cộng đồng của bạn là "Bitcoin [THÀNH PHỐ]", hãy chọn "@Bitcoin[THÀNH PHỐ]";
 
 
-2/ **logo và biểu ngữ** bạn đã tạo cho cộng đồng hoặc buổi gặp mặt của mình (xem phần [Tạo logo, áp phích và biểu ngữ](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
+2/ **logo và biểu ngữ** bạn đã tạo cho cộng đồng hoặc buổi gặp mặt của mình (xem phần [Tạo logo, áp phích và biểu ngữ](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/8b85ccb1-5474-474e-ae1b-c8cb69f060ad));
 
 
 3/ **phần mô tả**, cho phép bạn chia sẻ thông tin chính về cộng đồng của mình trong vài trăm ký tự. Ví dụ:
@@ -1334,7 +1334,7 @@ Hướng dẫn tạo tài khoản Twitter:
 ## Đến gần hơn với các cuộc gặp gỡ lân cận
 
 
-<chapterId>12a21c3b-235a-5292-8209-67bf60f61e49</chapterId>
+<chapterId>5cd84243-f3b6-4874-99a7-a2e2185cc118</chapterId>
 
 
 
@@ -1377,7 +1377,7 @@ Mục tiêu rất đơn giản: thu thập phản hồi của mọi người, th
 ## Btcmap.org
 
 
-<chapterId>365f43d4-7b2c-5961-a184-157b8c1a0116</chapterId>
+<chapterId>8a628a6c-7daf-4382-9f13-a90b808fc908</chapterId>
 
 
 
@@ -1425,14 +1425,14 @@ Khi một nhóm nhỏ người dùng bitcoin tham gia cùng bạn, đã đến l
 # Tổ chức buổi gặp mặt Bitcoin
 
 
-<partId>c009d2a6-40ce-583b-bd24-fdfd1fea262e</partId>
+<partId>561335e4-a531-4e63-838f-56aa8ee04864</partId>
 
 
 
 ## Tại sao nên tổ chức buổi gặp mặt thường xuyên với cộng đồng của bạn?
 
 
-<chapterId>ed8e471c-3b99-57e2-a042-2d4e8a40b137</chapterId>
+<chapterId>acb31467-8192-45a8-afe1-e7bbdf1e32dd</chapterId>
 
 
 
@@ -1462,7 +1462,7 @@ Tất nhiên, mục tiêu phát triển cộng đồng của bạn càng lớn t
 ## Buổi gặp mặt đầu tiên: khi nào và tại sao?
 
 
-<chapterId>f3f8a614-cfb4-5994-a2e8-d56e6f8e3347</chapterId>
+<chapterId>1db6a73c-4782-4ed6-872a-eb23851e027e</chapterId>
 
 
 
@@ -1547,7 +1547,7 @@ Trong trường hợp thứ hai, sự kiện hàng tháng thứ hai có thể d�
 
 
 
-Xin lưu ý rằng **việc này đòi hỏi sự tổ chức và thời gian của bạn nhiều hơn**. May mắn thay, trong [phần 6/8 của khóa học này](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), bạn sẽ tìm thấy một loạt các tài nguyên mã nguồn mở có thể tái sử dụng để hỗ trợ.
+Xin lưu ý rằng **việc này đòi hỏi sự tổ chức và thời gian của bạn nhiều hơn**. May mắn thay, trong [phần 6/8 của khóa học này](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab), bạn sẽ tìm thấy một loạt các tài nguyên mã nguồn mở có thể tái sử dụng để hỗ trợ.
 
 
 Trong mọi trường hợp, tất cả đều phụ thuộc vào kế hoạch hành động ngắn hạn, trung hạn và dài hạn mà bạn hoặc cộng đồng của bạn đặt ra cho chính mình.
@@ -1557,7 +1557,7 @@ Trong mọi trường hợp, tất cả đều phụ thuộc vào kế hoạch h
 ## Việc tìm kiếm một vị trí
 
 
-<chapterId>405d389e-6a32-5777-af8d-293380d2e8fd</chapterId>
+<chapterId>b19eed85-6f0a-4de8-a679-34807bb2ac3e</chapterId>
 
 
 
@@ -1603,7 +1603,7 @@ Sau đó, khi nhóm của bạn đã phát triển, bạn thậm chí có thể 
 ## Trước buổi gặp mặt
 
 
-<chapterId>c5218943-580d-5efc-89ed-6b5d728816d6</chapterId>
+<chapterId>2efeb301-7737-49bb-831b-f75f1a013ad7</chapterId>
 
 
 
@@ -1619,7 +1619,7 @@ Liên hệ với địa điểm bạn sẽ tổ chức sự kiện và đặt ch
 
 
     - Chia sẻ ngày, giờ và địa điểm trên mạng xã hội và các kênh truyền thông khác. Đính kèm liên kết đăng ký nếu cần.
-    - Tạo hình ảnh chuyên dụng (ví dụ như áp phích Canva, xem phần 2/8 "[Thiết kế nhận diện cho cộng đồng Bitcoin của bạn](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
+    - Tạo hình ảnh chuyên dụng (ví dụ như áp phích Canva, xem phần 2/8 "[Thiết kế nhận diện cho cộng đồng Bitcoin của bạn](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/4475004b-19e7-4c0f-a799-fd2cb0baefad)").
     - Tối đa hóa khả năng hiển thị bằng cách ghim thông báo trên Telegram và Twitter và sử dụng tính năng đề cập "@everyone" trên Discord.
     - Đăng thông báo từ 7 đến 10 ngày trước sự kiện để người tham dự có thể lên kế hoạch trước.
 
@@ -1650,7 +1650,7 @@ Các bước bổ sung để làm cho sự kiện của bạn nổi bật:
 ## Ngày gặp mặt
 
 
-<chapterId>cf60067b-591f-5fdf-9b9e-d442aad0e8f9</chapterId>
+<chapterId>7ba18449-1368-4ba7-8fe3-c9028afaa3e6</chapterId>
 
 
 
@@ -1689,7 +1689,7 @@ Cuối cùng, hãy gọi một ly đồ uống và chờ mọi người đến. 
 ## Sau buổi gặp mặt
 
 
-<chapterId>3e881af9-9c09-5721-81ee-c5cda3b109c5</chapterId>
+<chapterId>2f238eab-3931-46a2-a429-5ae9562e4c5d</chapterId>
 
 
 
@@ -1711,7 +1711,7 @@ Sau đó, bạn sẽ có vài tuần để phát triển những ý tưởng, h�
 ## Tầm quan trọng của việc thu hút và giữ chân người tham gia
 
 
-<chapterId>f5355e35-4b07-527c-88a3-8535cba7592c</chapterId>
+<chapterId>a50e8782-fb08-4aba-a42b-3fa86b5c4ffb</chapterId>
 
 
 
@@ -1721,7 +1721,7 @@ Thành Rome không phải xây dựng trong một ngày, và cộng đồng củ
 Để làm được điều đó, có một điều cần thiết: **giữ cho người tham gia luôn tích cực**.
 
 
-Nó có thể bắt đầu với một nhóm nhỏ những người đam mê bitcoin, với mục tiêu là thường xuyên gặp gỡ và thảo luận về Bitcoin. Theo thời gian, tùy thuộc vào khả năng và sở thích của mỗi người, bạn có thể **chia sẻ một số nhiệm vụ tổ chức với nhóm** hoặc mời các thành viên cốt cán **thực hiện các dự án cụ thể**. Những dự án này có thể mang tính độc đáo đối với cộng đồng, buổi gặp mặt hoặc thành phố của bạn, hoặc thậm chí được truyền cảm hứng từ nhiều sáng kiến được đề xuất trong [phần 6/8 của khóa học này](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Điều này không chỉ thúc đẩy Commitment từ các thành viên cốt cán của bạn mà còn giúp cộng đồng của bạn phát triển và thịnh vượng.**.
+Nó có thể bắt đầu với một nhóm nhỏ những người đam mê bitcoin, với mục tiêu là thường xuyên gặp gỡ và thảo luận về Bitcoin. Theo thời gian, tùy thuộc vào khả năng và sở thích của mỗi người, bạn có thể **chia sẻ một số nhiệm vụ tổ chức với nhóm** hoặc mời các thành viên cốt cán **thực hiện các dự án cụ thể**. Những dự án này có thể mang tính độc đáo đối với cộng đồng, buổi gặp mặt hoặc thành phố của bạn, hoặc thậm chí được truyền cảm hứng từ nhiều sáng kiến được đề xuất trong [phần 6/8 của khóa học này](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/05880102-07ac-413a-8433-8a6ab8fac2ab). **Điều này không chỉ thúc đẩy Commitment từ các thành viên cốt cán của bạn mà còn giúp cộng đồng của bạn phát triển và thịnh vượng.**.
 
 
 Khi buổi gặp mặt của bạn diễn ra, những gương mặt mới sẽ xuất hiện: những người đã mua BTC và/hoặc altcoin trong các chu kỳ trước, những người đam mê công nghệ muốn đào sâu hiểu biết hoặc những người mới bắt đầu tò mò về hệ thống thanh toán không thể kiểm duyệt, phi tập trung, minh bạch và công bằng này, hoạt động mà không cần điều kiện và không có bên thứ ba đáng tin cậy.
@@ -1761,14 +1761,14 @@ Cuối cùng, chính bạn là người quyết định mức độ "mở và ba
 # Ví dụ về các dự án và sáng kiến
 
 
-<partId>45b3bc40-1c31-583e-8411-2662e6efd765</partId>
+<partId>75b8d7e2-97ce-455b-abb5-8bfa2a47f777</partId>
 
 
 
 ## Tại sao phải đi xa hơn là chỉ uống bia?
 
 
-<chapterId>3213d87a-1998-5972-ab93-97a5769ba279</chapterId>
+<chapterId>05880102-07ac-413a-8433-8a6ab8fac2ab</chapterId>
 
 
 
@@ -1802,7 +1802,7 @@ Mỗi người đều có sở thích, niềm tin và tính cách riêng. Vấn 
 ## Tổ chức các buổi gặp mặt theo chủ đề, với sự tiến triển hàng năm
 
 
-<chapterId>46afdbcc-a775-5c16-b20a-34956690d58f</chapterId>
+<chapterId>c69c52bd-3b64-4ebc-bcce-5c3c8bd1b6e5</chapterId>
 
 
 
@@ -1862,7 +1862,7 @@ Và hơn thế nữa, trí tưởng tượng của bạn chính là giới hạn
 ## Tạo các sự kiện phụ và hội thảo
 
 
-<chapterId>9dbd651a-8712-5630-90b3-b9525dcc1385</chapterId>
+<chapterId>a6f89c65-1de3-40dc-ad55-f72e54c2f399</chapterId>
 
 
 
@@ -1889,7 +1889,7 @@ Chỉ cần cẩn thận đừng để lịch trình bị quá tải. Quá nhi�
 ## Tạo nhãn dán
 
 
-<chapterId>d605f3b3-130e-513d-85e6-06bc5ea13e99</chapterId>
+<chapterId>1d7f4a6f-99f1-4c82-a55d-23c6d8f7b226</chapterId>
 
 
 
@@ -1929,7 +1929,7 @@ Tại các địa điểm riêng tư như hòa nhạc, quán bar hoặc sân v�
 ## Tạo thư viện
 
 
-<chapterId>acc94093-f8b3-51b8-9359-348e9e075d38</chapterId>
+<chapterId>a6db0905-19f7-475a-abdc-f4c5e85cd625</chapterId>
 
 
 
@@ -1985,7 +1985,7 @@ Nếu không, hãy gợi ý họ mua một vài cuốn sách từ danh sách đ�
 ## Tạo và phân phối tờ rơi được cá nhân hóa
 
 
-<chapterId>62ad5430-c698-51b3-89ac-090f31c88953</chapterId>
+<chapterId>50949d74-897a-4097-8bad-65245e5bb5e1</chapterId>
 
 
 
@@ -2064,7 +2064,7 @@ Mặc dù việc để lại sách trắng Bitcoin mang tính biểu tượng, n
 ## Sản xuất một bản chiếu video
 
 
-<chapterId>892b248a-b837-5df6-aac9-4b3261ff0390</chapterId>
+<chapterId>b129d071-f69a-4d55-a043-cc74e4cf6331</chapterId>
 
 
 
@@ -2104,7 +2104,7 @@ Sự kiện này đã khơi mào những cuộc thảo luận sôi nổi về Bi
 ## Dán áp phích trong thành phố của bạn
 
 
-<chapterId>6565e8a0-d535-5be0-9764-273584c675bd</chapterId>
+<chapterId>89c658aa-414c-4a3b-a6c7-2aa99f937a70</chapterId>
 
 
 
@@ -2147,7 +2147,7 @@ Ngoài ra, một lựa chọn tự làm khác là tạo một bản in từ mộ
 ## Thẻ NFC được cá nhân hóa
 
 
-<chapterId>8ad65d4e-a68a-59c2-a812-85f4907ed9f3</chapterId>
+<chapterId>6734ae15-2cbe-4baf-b784-bb0afdfd95ee</chapterId>
 
 
 
@@ -2175,7 +2175,7 @@ Giá đơn vị cho những tấm thiệp này thường dao động từ 2,50�
 ## Tạo một trang web
 
 
-<chapterId>9a2a1b9b-0633-544a-b331-c06187d23d7f</chapterId>
+<chapterId>60d6534d-569f-45b7-b9ad-49a2a4422550</chapterId>
 
 
 
@@ -2202,7 +2202,7 @@ WordPress cũng hỗ trợ nhiều plugin (một số plugin trả phí nhưng c
 ## Tạo kênh video (Youtube hoặc Odyssee)
 
 
-<chapterId>076286db-1627-57ec-a410-c44b1666e1cd</chapterId>
+<chapterId>77fa4cd7-645b-4c1f-92c5-64075ed162fd</chapterId>
 
 
 
@@ -2222,7 +2222,7 @@ Các nền tảng phổ biến bao gồm:
 - [**peertube**](https://joinpeertube.org/fr_FR) cho phép bạn lưu trữ nền tảng video của riêng mình, mặc dù việc thiết lập phức tạp hơn.
 
 
-Dù bạn chọn nền tảng nào, hãy thiết kế hình ảnh phù hợp với từng nền tảng để kênh của bạn trở nên hấp dẫn. Canva, được đề cập trong [phần 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) cung cấp danh mục "Hình thu nhỏ YouTube" với các thiết kế có sẵn và có thể tùy chỉnh.
+Dù bạn chọn nền tảng nào, hãy thiết kế hình ảnh phù hợp với từng nền tảng để kênh của bạn trở nên hấp dẫn. Canva, được đề cập trong [phần 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/8b85ccb1-5474-474e-ae1b-c8cb69f060ad) cung cấp danh mục "Hình thu nhỏ YouTube" với các thiết kế có sẵn và có thể tùy chỉnh.
 
 
 
@@ -2245,7 +2245,7 @@ Mẹo: Nếu Bitcoin bị cấm hoặc kiểm duyệt, hãy luôn sao lưu video
 ## Tạo podcast âm thanh
 
 
-<chapterId>12e96b45-1c33-5687-a753-80d0114d487a</chapterId>
+<chapterId>f9c6f5a8-7c0a-4dbb-8844-6d61c09e29f4</chapterId>
 
 
 
@@ -2285,7 +2285,7 @@ Mẹo: Cũng giống như với video, hãy sao lưu tất cả podcast tại ch
 ## Tạo huy hiệu cho sự kiện của bạn
 
 
-<chapterId>0cccef8d-a765-5844-8921-c40f0ce653e4</chapterId>
+<chapterId>aade4c0d-6faf-4b7c-914d-00aab248b544</chapterId>
 
 
 
@@ -2311,7 +2311,7 @@ Một số mẫu huy hiệu được hiệp hội Bitcoin Lille sử dụng [có
 ## Lập kế hoạch bàn giao trong trường hợp tử vong
 
 
-<chapterId>c5febf18-235c-51bc-8fbb-9467dabe4cb0</chapterId>
+<chapterId>98ea62af-adae-4fb7-81a6-dc2054922dde</chapterId>
 
 
 
@@ -2341,7 +2341,7 @@ Bạn có thể thành lập một nhóm làm việc chuyên trách để xác �
 ## Giảng bài tại các trường học và trường đại học
 
 
-<chapterId>65efdb44-e3d4-567c-aedf-972765753d73</chapterId>
+<chapterId>d94b6c84-5a34-4626-a21d-6b9051eef470</chapterId>
 
 
 
@@ -2404,7 +2404,7 @@ Tuy nhiên, vẫn đáng thử, đặc biệt là với các hội và hiệp h�
 ## Tiếp cận doanh nghiệp
 
 
-<chapterId>b730462b-7928-5d28-a14f-9ceaa773d3d2</chapterId>
+<chapterId>3ac3d7ce-e61e-44c8-a238-2aef158da8a0</chapterId>
 
 
 
@@ -2494,7 +2494,7 @@ Vận động là một chiến lược dài hạn. Nó đòi hỏi sự kiên n
 ## Liên hệ với báo chí và đài phát thanh địa phương
 
 
-<chapterId>435bfbc1-22dd-59bb-b737-a32ea995b238</chapterId>
+<chapterId>51c32266-ddc1-4ffd-bd05-ed8273ea1d93</chapterId>
 
 
 
@@ -2548,14 +2548,14 @@ Hãy nhớ rằng: mọi cộng đồng Bitcoin đều đã từng ở vị trí
 # Dự đoán tương lai
 
 
-<partId>6ea07445-9369-54bc-9aa0-d260db026e0b</partId>
+<partId>55a392cc-961d-434c-b4b0-4614f5ac1da8</partId>
 
 
 
 ## Lập kế hoạch tăng số lượng người tham gia
 
 
-<chapterId>8af722d4-3a9f-548c-9001-424f2142de12</chapterId>
+<chapterId>de70830d-0cde-4254-b160-734a98ce4eb8</chapterId>
 
 
 
@@ -2626,7 +2626,7 @@ Trong một thế giới lý tưởng, bạn sẽ có một **không gian đủ 
 ## Phân cấp tổ chức cộng đồng
 
 
-<chapterId>bedfc110-e099-58f4-a5b7-fb50f3b19a49</chapterId>
+<chapterId>74e4aab7-c79e-4578-8179-0b857a961bb7</chapterId>
 
 
 
@@ -2666,7 +2666,7 @@ Sử dụng **các công cụ truyền thông được mã hóa hoặc ẩn danh
 ## Sẽ thế nào nếu Bitcoin trở thành kẻ thù số 1 của công chúng?
 
 
-<chapterId>c739651f-cd13-51e0-a36e-85023749b15b</chapterId>
+<chapterId>30ca4745-f8b5-48a0-b902-8c270e2062ed</chapterId>
 
 
 
@@ -2697,14 +2697,14 @@ Chúng ta không cần phải sa đà vào thuyết âm mưu. Nhưng không gì 
 # Kết nối những người dùng bitcoin
 
 
-<partId>62bc2138-c0be-5d39-a341-594690863257</partId>
+<partId>e3eab6b3-f19d-42ec-9167-4aa6c7e92a28</partId>
 
 
 
 ## Kế hoạch hành động nhanh chóng để xây dựng cộng đồng Bitcoin của bạn
 
 
-<chapterId>1f463ec2-3f64-5641-8d60-e02a47c94f27</chapterId>
+<chapterId>9ad100ba-2b39-40ef-aec6-b2750fce4b76</chapterId>
 
 
 
@@ -2795,7 +2795,7 @@ Hãy nhớ: **bạn không đơn độc, cộng đồng hiện tại luôn ở �
 ## Chăm sóc bản thân
 
 
-<chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
+<chapterId>1cb1f900-b1a9-4908-8418-995f531da953</chapterId>
 
 
 
@@ -2834,7 +2834,7 @@ Một mình, bạn có thể nhanh chóng khám phá một trong nhiều đườ
 ## BTC302, Tiếp theo là gì
 
 
-<chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
+<chapterId>f58e4746-c50e-492b-a2d1-f555e2706d9d</chapterId>
 
 
 
@@ -2882,7 +2882,7 @@ Phiên tiếp theo có thể khám phá các chủ đề nâng cao như:
 ## Đánh giá & Xếp hạng
 
 
-<chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
+<chapterId>692dfb93-db32-4ca4-9b18-f4daa83756f4</chapterId>
 
 
 <isCourseReview>true</isCourseReview>

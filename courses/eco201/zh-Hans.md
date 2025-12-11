@@ -15,11 +15,11 @@ objectives:
 +++
 # ECON课程简介
 
-<partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
+<partId>21613091-f43a-4a87-88d9-2d69038d41d2</partId>
 
 ## 课程概览
 
-<chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
+<chapterId>43b56a2b-bbee-4faa-b52a-9b6c540df559</chapterId>
 
 欢迎参加ECO201课程！
 
@@ -46,7 +46,7 @@ objectives:
 
 ## 货币、信贷、银行和中央银行
 
-<chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
+<chapterId>84a09f98-8cd7-468f-9cc1-6c0add06ce12</chapterId>
 
 > “传统货币的根本问题在于它的运作需要极大的信任。我们必须信任中央银行不会贬值货币，但是法定货币的历史充满了对这种信任的背叛。我们必须信任银行保管我们的钱并通过电子方式转账，但是他们在几乎没有多少储备的情况下，通过信贷泡沫借出资金。我们必须信任他们保护我们的隐私，信任他们不会让身份盗贼清空我们的账户。”
 >
@@ -139,11 +139,11 @@ ZIRP的另一个意外后果是，它刺激政府进行大规模支出。由于�
 
 # 理论基础
 
-<partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
+<partId>6249c7e4-71bc-453b-8a09-ab579d340709</partId>
 
 ## 主观价值理论
 
-<chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
+<chapterId>fb001732-6bf7-4935-b8ec-6c225dab1025</chapterId>
 
 > “价值只存在于人类意识之中”
 >
@@ -224,7 +224,7 @@ ZIRP的另一个意外后果是，它刺激政府进行大规模支出。由于�
 
 ## 货币作为社会现象的出现
 
-<chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
+<chapterId>469d591e-b407-4218-bccb-6a433f731cb3</chapterId>
 
 虽然每个人在专业化和最大化劳动分工方面有共同的利益，但仍然存在协调问题，限制了这种扩张。
 
@@ -303,7 +303,7 @@ ZIRP的另一个意外后果是，它刺激政府进行大规模支出。由于�
 
 ## 时间偏好、利息和资本
 
-<chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
+<chapterId>e0a5c946-dd4c-4aa6-9b6e-aaacb23241ae</chapterId>
 
 ### 时间偏好
 
@@ -371,11 +371,11 @@ ZIRP的另一个意外后果是，它刺激政府进行大规模支出。由于�
 
 # 奥地利经济观点
 
-<partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
+<partId>851a6712-84ea-48d2-85f7-3354e1381a06</partId>
 
 ## 奥地利商业周期理论
 
-<chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
+<chapterId>17248205-835a-4284-ba94-0eb131916aa3</chapterId>
 
 > “通货膨胀性银行信贷的繁荣持续时间越长，资本货物中的错误投资范围就越广，清算这些不健全投资的需求就越大。当信贷扩张停止、逆转或甚至显著放缓时，这些错误投资就会被揭露”
 >
@@ -449,7 +449,7 @@ ZIRP的另一个意外后果是，它刺激政府进行大规模支出。由于�
 
 ## 社会主义下经济计算的不可能性
 
-<chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
+<chapterId>9b9e185f-5b0d-4850-813e-0c50e309a909</chapterId>
 
 > “在生产要素没有市场价格的地方，因为它们既不被买卖，规划未来行动和确定过去行动的结果就不可能凭借计算。社会主义的生产管理根本不知道它计划和执行的是否达到所追求目标的最合适的手段。它将在黑暗中操作，和以前一样。它将浪费稀缺的生产要素，无论是物质还是人力（劳动）。不可避免地，所有人将陷入混乱和贫困。”
 >
@@ -520,7 +520,7 @@ ZIRP的另一个意外后果是，它刺激政府进行大规模支出。由于�
 
 ## 奥地利方法论
 
-<chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
+<chapterId>1fdf4c5d-0008-4f69-97e7-127fb3ef63e0</chapterId>
 
 奥地利经济学派与其他学派的区别在于其公理演绎方法论，这与社会科学中常用的实证主义方法不同。实证主义方法基于从经验数据中建立的法则，采用类似于物理科学的方法。它从观察中形成假设，然后通过临时实验来确认或反驳这些假设。科学方法包括保留最能解释数据的假设，并继续探索它，直到找到更精确的假设。
 
@@ -541,16 +541,16 @@ ZIRP的另一个意外后果是，它刺激政府进行大规模支出。由于�
 
 # 最终部分
 
-<partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
+<partId>373760d2-4e6e-4a05-8081-6d02072457d7</partId>
 
 ## 评价 & 评分
 
-<chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
+<chapterId>2373a3ce-1c87-415a-8dd6-0437b4f71e79</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## 期末考试
 
-<chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
+<chapterId>1c584ca3-c738-4151-8a85-101a142fcbbc</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## 结论

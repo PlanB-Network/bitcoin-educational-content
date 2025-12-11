@@ -6,13 +6,17 @@ links:
   website: https://coin.space/
   twitter: https://x.com/CoinAppWallet
   Github: https://github.com/CoinSpace/
-  youtube:
-  nostr:
+
 
 tags:
   - software
   - user-friendly
   - onchain
+
+contributor_names:
+  - Dolorozo
+
+# Proofreading metadata
 
 original_language: en
 proofreading:
@@ -23,5 +27,4 @@ proofreading:
       - Dolorozo
     reward: 0
 
-contributor_names:
-  - Dolorozo
+

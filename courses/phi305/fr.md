@@ -68,7 +68,7 @@ Grâce à la théorie des affects développés à la façon des géomètres, _«
 
 Nous comprendrons alors que parmi les nombreux points communs entre les concepts spinozistes et cet outil de liberté inventé par Satoshi Nakamoto, le premier est que, dans les deux cas, si nous sommes curieux, de bonne volonté et que nous faisons, comme on le disait à cette époque, preuve « d’entendement », alors nous ne pourrons pas ne pas y adhérer. Et que si nous n’y adhérions pas, ce qui serait bien sûr notre droit le plus absolu puisqu’il est fondamental de respecter la liberté de croire, ou de ne pas croire, c’est que nous serions déterminés à ne pas pouvoir, ou à ne pas vouloir, ce qui revient au même. 
 
-Et c’est ainsi que nous pouvons comprendre qu’un fondamentaliste religieux ne pourra par exemple jamais accepter, ni entendre la moindre pensée copernicienne comme le spinozisme, tout comme un banquier central ne pourra, lui, que très difficilement accepter le  Bitcoin.
+Et c’est ainsi que nous pouvons comprendre qu’un fondamentaliste religieux ne pourra par exemple jamais accepter, ni entendre la moindre pensée copernicienne comme le spinozisme, tout comme un banquier central ne pourra, lui, que très difficilement accepter Bitcoin.
 
 Même si, vous le savez, les choses sont actuellement en train d’évoluer dans le bon sens.
 

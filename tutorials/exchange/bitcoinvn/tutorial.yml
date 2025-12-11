@@ -1,7 +1,5 @@
 id: 64adb8a6-a0f8-41e7-a534-bac2eae07346
 
-# Characteristic of tutorial
-
 project_id: 2d295a5a-899d-4b78-b8da-df05f71b52e3
 
 level: beginner
@@ -17,6 +15,8 @@ tags:
   - user-friendly
 
 credit_link: https://bitcoinvn.io/
+
+license: CC-BY-SA-V4
 
 original_language: en
 proofreading:

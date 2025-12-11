@@ -117,7 +117,7 @@ Une richesse qui n’est toutefois pas liée à une ressource naturelle, ni à l
 
 En outre, la Hollande de cette époque fut aussi un lieu de progrès technologiques majeurs par exemple dans le domaine de la mécanique et de l’optique. Les lunettes d’astronomie utilisées par Galilée pour lever les yeux vers le ciel et découvrir l’univers étaient effectivement considérées pour l’époque comme une technologie de pointe comme le sont aujourd’hui les nouvelles technologies liées à l’informatique, à l’IA et, bien sûr, à la crypto. 
 
-Et comme Spinoza a lui-même exercé le métier de polisseur de lunettes d’astronomie, ce qui est amusant pour quelqu’un, dit-on, qui voyait tout de travers, nous pouvons imaginer qu’il aurait certainement soutenu un outil de liberté comme le Bitcoin.
+Et comme Spinoza a lui-même exercé le métier de polisseur de lunettes d’astronomie, ce qui est amusant pour quelqu’un, dit-on, qui voyait tout de travers, nous pouvons imaginer qu’il aurait certainement soutenu un outil de liberté comme Bitcoin.
 
 Autrement dit, ce sont bien toutes ces valeurs de liberté et de progrès véhiculées par le spinozisme qui s’opposent à un monde où le fondamentalisme religieux, les théories du complot, la superstition et surtout l’ignorance sont une triste réalité.
 

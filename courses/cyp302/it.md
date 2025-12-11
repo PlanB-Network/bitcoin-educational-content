@@ -477,11 +477,11 @@ Supponiamo che tu abbia selezionato uniformemente una chiave con valore $17$. La
 L'intera codifica della parola "DOG" con un valore chiave di 17 è la seguente:
 
 
-- Messaggio = DOG = D,O,G = 3,15,6
+**Messaggio = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 Tutti sono in grado di capire intuitivamente come funziona il cifrario a turni e probabilmente lo usano da soli. Per progredire nella conoscenza della crittografia, tuttavia, è importante iniziare a prendere confidenza con la formalizzazione, poiché gli schemi diventeranno molto più difficili. Ecco perché i passaggi del cifrario a turni sono stati formalizzati.
 

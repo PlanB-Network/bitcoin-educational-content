@@ -472,11 +472,11 @@ Suponha que selecionou uniformemente uma chave cujo valor é $17$. A letra “O�
 
 A encriptação completa da palavra "DOG" com um valor de chave de 17 é a seguinte:
 
-- Mensagem = DOG = D,O,G = 3,15,6
+**Mensagem = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 Toda a gente consegue compreender intuitivamente como funciona a cifra de deslocamento e, provavelmente, utilizá-la. No entanto, para avançar os seus conhecimentos de criptografia, é importante começar a sentir-se mais confortável com a formalização, pois os esquemas tornar-se-ão muito mais difíceis. Por isso, os passos da cifra de deslocamento foram formalizados.
 

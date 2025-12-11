@@ -465,11 +465,11 @@ Supposons que vous ayez sélectionné uniformément une clé de valeur $17$. La 
 
 Le chiffrement complet du mot « DOG » avec une clé de valeur $17$ est le suivant :
 
-**Message = DOG = D, O, G = 3, 15, 6**
+**Message = DOG = D,O,G = 3,14,6**
 $c_0 = [(3 + 17) \mod 26] = 20 = U$
-$c_1 = [(15 + 17) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 $c_2 = [(6 + 17) \mod 26] = 23 = X$
-*c = UGX*
+*c = UFX*
 
 Tout le monde peut comprendre intuitivement comment fonctionne le chiffre de décalage et probablement l'utiliser lui-même. Cependant, pour progresser en cryptographie, il est important de commencer à se familiariser avec la formalisation, car les schémas deviendront beaucoup plus complexes. C'est pourquoi les étapes du chiffre de décalage ont été formalisées.
 

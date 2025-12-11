@@ -477,11 +477,11 @@ Oletetaan, että valitsit tasaisesti avaimen, jonka arvo on $17$. Kirjain ”O�
 Koko sanan "DOG" salaus, jonka avainarvo on 17, on seuraava:
 
 
-- Viesti = DOG = D,O,G = 3,15,6
+**Viesti = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 Kaikki ymmärtävät intuitiivisesti, miten shift-salaus toimii, ja todennäköisesti käyttävät sitä itse. Kryptografian tuntemuksen syventämiseksi on kuitenkin tärkeää, että alat oppia tuntemaan paremmin formalisointia, sillä skeemoista tulee paljon vaikeampia. Siksi siirtosalauksen vaiheet formalisoitiin.
 

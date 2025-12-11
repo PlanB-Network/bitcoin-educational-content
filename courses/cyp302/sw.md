@@ -471,11 +471,11 @@ Tuchukulie kwamba ulichagua ufunguo kwa usawa wenye thamani ya $17$. Herufi “O
 Usimbuaji wote wa neno "MBWA" na thamani kuu ya 17 ni kama ifuatavyo.
 
 
-- Ujumbe = MBWA = D,O,G = 3,15,6
+**Ujumbe = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 Kila mtu anaweza kuelewa kwa njia angavu jinsi kiashiria cha shift kinavyofanya kazi na pengine kuitumia wenyewe. Ili kuendeleza ujuzi wako wa cryptography, hata hivyo, ni muhimu kuanza kuwa na urahisi zaidi na urasimishaji, kwani mipango itakuwa ngumu zaidi. Kwa hivyo, kwa nini hatua za msimbo wa mabadiliko zilirasimishwa.
 

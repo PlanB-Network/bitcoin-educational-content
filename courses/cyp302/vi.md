@@ -479,11 +479,11 @@ Giả sử bạn chọn ngẫu nhiên một khóa có giá trị $17$. Chữ “
 Toàn bộ mã hóa của từ “DOG” với giá trị khóa là 17 như sau:
 
 
-- Tin nhắn = DOG = D,O,G = 3,15,6
+**Thông điệp = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 Mọi người đều có thể hiểu trực quan cách thức hoạt động của mã hóa dịch chuyển và có thể tự sử dụng. Tuy nhiên, để nâng cao kiến thức về mật mã, điều quan trọng là phải bắt đầu trở nên thoải mái hơn với việc chính thức hóa, vì các lược đồ sẽ trở nên khó khăn hơn nhiều. Do đó, tại sao các bước cho mã hóa dịch chuyển được chính thức hóa.
 

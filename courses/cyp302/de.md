@@ -477,11 +477,11 @@ Angenommen, Sie haben einen Schlüssel mit dem Wert $17$ gleichverteilt ausgewä
 Die gesamte Verschlüsselung des Wortes "DOG" mit einem Schlüsselwert von 17 sieht wie folgt aus:
 
 
-- Nachricht = DOG = D,O,G = 3,15,6
+**Nachricht = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 Jeder kann intuitiv verstehen, wie die Shift-Chiffre funktioniert, und sie wahrscheinlich auch selbst anwenden. Für das Vorankommen in der Kryptographie ist es jedoch wichtig, sich mit der Formalisierung vertraut zu machen, da die Schemata dann viel schwieriger werden. Aus diesem Grund wurden die Schritte für die Shift-Chiffre formalisiert.
 

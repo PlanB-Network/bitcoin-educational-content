@@ -688,11 +688,11 @@ Ijambo “IMBWA” ryose rifise agaciro k’urufunguzo rwa 17 ni iri:
 
 
 
-- Ubutumwa = IMBWA = D,O,G = 3,15,6.
+**Ubutumwa = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \uburyo 26] = [(20) \uburyo 26] = 20 = U$
-- $c_1 = [(15 + 17) \uburyo 26] = [(32) \uburyo 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \uburyo 26] = [(23) \uburyo 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 
 Umuntu wese arashobora gutahura neza ingene shift cipher ikora kandi kumbure akayikoresha we nyene. Ariko rero, kugira ngo utere imbere mu bumenyi bwawe mu vy’ubuhinga bwo gukingira amakuru, birahambaye ko utangura kumenya neza ivy’ugushiramwo amakuru mu buryo butegekanijwe, kuko imigambi izorushiriza kugorana. Ni co gituma intambwe z’uguhindura cipher zari zategekanijwe.

@@ -477,11 +477,11 @@ Předpokládejme, že jste rovnoměrně zvolili klíč o hodnotě $17$. Písmeno
 Celé šifrování slova "DOG" s hodnotou klíče 17 je následující:
 
 
-- Zpráva = DOG = D,O,G = 3,15,6
+**Zpráva = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 Každý intuitivně chápe, jak šifra shift funguje, a pravděpodobně ji sám používá. Pro prohloubení znalostí kryptografie je však důležité začít se lépe orientovat ve formalizaci, protože schémata budou mnohem složitější. Proto byly kroky pro posunovací šifru formalizovány.
 

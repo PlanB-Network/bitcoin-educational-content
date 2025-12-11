@@ -477,11 +477,11 @@ Anta at du jevnt valgte en nøkkel med verdien $17$. Bokstaven “O” tilsvarer
 Hele krypteringen av ordet "DOG" med nøkkelverdien 17 er som følger:
 
 
-- Melding = DOG = D,O,G = 3,15,6
+**Melding = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 Alle kan intuitivt forstå hvordan shift-chifferet fungerer og sannsynligvis bruke det selv. For å utvikle kunnskapen din om kryptografi er det imidlertid viktig å begynne å bli mer komfortabel med formalisering, ettersom skjemaene vil bli mye vanskeligere. Derfor ble trinnene for skiftchifferet formalisert.
 

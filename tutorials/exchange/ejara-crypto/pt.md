@@ -1,5 +1,5 @@
 ---
-name: Criptografia Ejara
+name: Ejara Crypto
 description: Armazenar, comprar e vender bitcoins a partir de 1000 francos CFA na África francófona
 ---
 

@@ -239,7 +239,7 @@ Sa thèse centrale est que « la liberté est établie par le conflit des pouvoi
 >
 > (Lord Acton)
 
-En d’autres termes, la liberté c’est le droit pour les individus suivre leur propre conscience et ce n’est pas à l’État de dicter à l’homme sa conduite sur le plan philosophique, moral et religieux.
+En d’autres termes, la liberté, c’est le droit pour les individus de suivre leur propre conscience et ce n’est pas à l’État de dicter à l’homme sa conduite sur le plan philosophique, moral et religieux.
 
 Friedrich Hayek avait initialement envisagé de nommer la Société du Mont Pèlerin : « Acton-Tocqueville Society », en hommage à ces deux penseurs qu'il admirait profondément : Lord Acton et Alexis de Tocqueville. C'est finalement le nom du lieu où s'est tenue la première réunion de la Société, le Mont Pèlerin en Suisse, qui a été retenu.
 
@@ -249,7 +249,9 @@ Mais l'idée selon laquelle la liberté en Europe est née des luttes intestines
 
 Ainsi Voltaire, dans ses [_Lettres philosophiques_](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6), attribue la liberté anglaise aux conflits entre les rois et les nobles qui ont empêché toute concentration excessive du pouvoir. Et il note :
 
-> S’il n’y avait en Angleterre qu’une religion, son despotisme serait à craindre ; s’il n’y en avait que deux, elles se couperaient la gorge ; mais il y en a trente, et elles vivent en paix et heureuses. ([Sur les presbytériens](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6))
+> S’il n’y avait en Angleterre qu’une religion, son despotisme serait à craindre ; s’il n’y en avait que deux, elles se couperaient la gorge ; mais il y en a trente, et elles vivent en paix et heureuses.
+>
+> ([Sur les presbytériens](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6))
 
 ![image](assets/fr/012.webp)
 
@@ -268,7 +270,7 @@ Une autre vision de l’histoire existe néanmoins. Elle a connu un certain succ
 
 ![image](assets/fr/013.webp)
 
-Elle explique l’extraordinaire croissance de l’Europe principalement par le progrès des techniques combiné avec l’ « accumulation primitive » du capital, issue de l’impérialisme, de l’esclavage, du commerce triangulaire, de l’expropriation des petits paysans et de l’exploitation de la classe ouvrière. La conclusion apparaît clairement. Cette croissance européenne exceptionnelle se serait réalisée au détriment de millions et de millions d’esclaves et d’opprimés.
+Elle explique l’extraordinaire croissance de l’Europe principalement par le progrès des techniques combiné avec l’« accumulation primitive » du capital, issue de l’impérialisme, de l’esclavage, du commerce triangulaire, de l’expropriation des petits paysans et de l’exploitation de la classe ouvrière. La conclusion apparaît clairement. Cette croissance européenne exceptionnelle se serait réalisée au détriment de millions et de millions d’esclaves et d’opprimés.
 
 Dans un premier temps Marx a raison sur un point : l’histoire est l’histoire de la lutte des classes et de l’exploitation. La citation est connue, c’est la première phrase du premier chapitre du [_Manifeste du parti communiste_](https://fr.wikisource.org/wiki/Manifeste_du_parti_communiste/Andler) : « Toute l’histoire de la société humaine jusqu’à ce jour est l’histoire de luttes de classes. » Marx, lui-même, a reconnu qu'il avait emprunté sa théorie de la lutte des classes à des auteurs antérieurs :
 
@@ -280,11 +282,11 @@ Mais il se trompe sur un point fondamental concernant la classe ouvrière : ce n
 
 Selon Marx, l’exploitation est un processus qui consiste à extraire une partie de la valeur créée par le travailleur sans le payer, ce qui permet aux capitalistes de réaliser un profit. En d’autres termes, l’exploitation serait un mécanisme qui permettrait aux capitalistes de s’enrichir en volant le travail des prolétaires.
 
-Cette analyse reflète une compréhension erronée de la plus-value et du caractère coopératif et dynamique de la vie économique. En effet, le profit que perçoit l'entrepreneur est la rémunération du risque qu'il prend et l’ouvrier ou l’employé n’est pas un esclave. Dans une situation de concurrence, il peut accepter ou refuser un contrat avec son employeur. Il fait un choix qui reflète un calcul de coût d’opportunité.
+Cette analyse reflète une compréhension erronée de la plus-value et du caractère coopératif et dynamique de la vie économique. En effet, le profit que perçoit l'entrepreneur est la rémunération du risque qu'il prend, et l’ouvrier ou l’employé n’est pas un esclave. Dans une situation de concurrence, il peut accepter ou refuser un contrat avec son employeur. Il fait un choix qui reflète un calcul de coût d’opportunité.
 
 ### La révolution industrielle en question
 
-En fait, l’analyse marxiste déforme la réalité historique de la révolution industrielle. Ludwig von Mises a clarifié cette question dans son traité d’économie [_L’Action humaine_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (voir en particulier le chapitre intitulé [Interprétation populaire de la révolution industrielle](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) ainsi que dans une série de conférences publiées sous le titre : [_Politique économique. Réflexions pour aujourd'hui et pour demain_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (A lire également, La mentalité anticapitaliste [ici](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) et [ici](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+En fait, l’analyse marxiste déforme la réalité historique de la révolution industrielle. Ludwig von Mises a clarifié cette question dans son traité d’économie [_L’Action humaine_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (voir en particulier le chapitre intitulé "[Interprétation populaire de la révolution industrielle](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2))", ainsi que dans une série de conférences publiées sous le titre : [_Politique économique. Réflexions pour aujourd'hui et pour demain_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (À lire également, *La mentalité anticapitaliste* [ici](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) et [ici](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 
 ![image](assets/fr/014.webp)
 
@@ -298,7 +300,7 @@ Mises ajoute que l’amélioration de la condition humaine a donc été permise 
 
 > Le changement radical de situation qui a conféré aux masses occidentales le présent niveau de vie (un haut niveau de vie en vérité, comparé à ce qu'il était aux temps précapitalistes, et à ce qu'il est en Russie soviétique) fut l'effet de l'accumulation de capital grâce à l'épargne et d'un investissement avisé par des entrepreneurs qui voyaient loin. Aucune amélioration technologique n'aurait été réalisable si le supplément de capitaux matériels requis pour l'utilisation pratique des nouvelles inventions n'avait été préalablement rendu réalisable par l'épargne.
 
-Sur l’historiographie marxiste, nous pouvons aussi nous référer à Friedrich Hayek dans _Capitalism and the Historians_ (University of Chicago Press, 1954) et son chapitre intitulé « History and Politics ». Selon Hayek, ce n’est pas l’industrialisation qui a rendu les travailleurs misérables, comme l’affirme la légende noire du capitalisme propagée par le marxisme. Il note :
+Sur l’historiographie marxiste, nous pouvons aussi nous référer à Friedrich Hayek dans _Capitalism and the Historians_ (University of Chicago Press, 1954) et à son chapitre intitulé « History and Politics ». Selon Hayek, ce n’est pas l’industrialisation qui a rendu les travailleurs misérables, comme l’affirme la légende noire du capitalisme propagée par le marxisme. Il note :
 
 > La véritable histoire de la connexion entre le capitalisme et la montée du prolétariat est presque à l’opposé de ce que ces théories de l’expropriation des masses suggèrent.
 
@@ -312,7 +314,7 @@ Ce nouvel accès au revenu leur a permis de se nourrir et de se loger, même dan
 
 C’est ainsi, remarque Hayek, que « la souffrance économique devint à la fois plus visible et sembla moins justifiée, parce que la richesse générale était en train d’augmenter plus vite que jamais auparavant. »
 
-Par conséquent l’ouvrier n’était pas exploité, même si les salaires étaient bas, du fait de l’abondance de la main d’œuvre, fuyant les campagnes.
+Par conséquent l’ouvrier n’était pas exploité, même si les salaires étaient bas, du fait de l’abondance de la main-d’œuvre fuyant les campagnes.
 
 En réalité, l'exploitation n'a de sens que comme une agression contre la propriété privée. En ce sens, l’exploitation est toujours le fait de l’État. Car l’État est la seule institution qui obtient ses revenus par la coercition, c’est-à-dire par la force. Donc la véritable exploitation, comme nous l’avons vu avec Bastiat, c’est celle des classes productives par la classe des fonctionnaires de l’État. Il faudrait donc plutôt dire que l’histoire de toute société jusqu'à nos jours n’est que l'histoire de la lutte entre les pillards et les classes productives.
 
@@ -320,7 +322,7 @@ En réalité, l'exploitation n'a de sens que comme une agression contre la propr
 
 Dans un second temps, une analyse historique plus nuancée que celle de Marx permet de contester cette idée d’une Europe prédatrice, qui ne devrait sa réussite qu’à l’impérialisme et à l’esclavage.
 
-En s’intéressant à l’histoire économique comparée, certains historiens contemporains ont recherché les origines du développement de l’Europe dans ce qui la distinguait des autres grandes civilisations, en particulier celles de la Chine, de l’Inde et l’Islam. Ces caractéristiques ont été explorées par [David Landes](https://www.eyrolles.com/Entreprise/Livre/richesse-et-pauvrete-des-nations-9782226110381/), [Jean Baechler](https://academiesciencesmoralesetpolitiques.fr/publications/publications-de-lacademie/jean-baechler/), [François Crouzet](https://www.cairn.info/revue-entreprises-et-histoire-2010-4-page-219.htm), et [Douglass North](https://www.iedm.org/fr/65134-douglass-north-l-un-des-economistes-les-plus-originaux/). Ces chercheurs ont essayé de comprendre ce qu’on appelle le « miracle européen ». Ils ont focalisé leur attention sur le fait que l'Europe était une mosaïque de juridictions divisées et concurrentes, où, après la chute de Rome, aucun pouvoir politique central n'était capable d'imposer sa volonté.
+En s’intéressant à l’histoire économique comparée, certains historiens contemporains ont recherché les origines du développement de l’Europe dans ce qui la distinguait des autres grandes civilisations, en particulier celles de la Chine, de l’Inde et l’Islam. Ces caractéristiques ont été explorées par [David Landes](https://www.eyrolles.com/Entreprise/Livre/richesse-et-pauvrete-des-nations-9782226110381/), [Jean Baechler](https://academiesciencesmoralesetpolitiques.fr/publications/publications-de-lacademie/jean-baechler/), [François Crouzet](https://www.cairn.info/revue-entreprises-et-histoire-2010-4-page-219.htm) et [Douglass North](https://www.iedm.org/fr/65134-douglass-north-l-un-des-economistes-les-plus-originaux/). Ces chercheurs ont essayé de comprendre ce qu’on appelle le « miracle européen ». Ils ont focalisé leur attention sur le fait que l'Europe était une mosaïque de juridictions divisées et concurrentes, où, après la chute de Rome, aucun pouvoir politique central n'était capable d'imposer sa volonté.
 
 Comme le dit Jean Baechler, membre de l’Académie des sciences morales et politiques, dans _Les Origines du capitalisme_ (1971) :
 
@@ -328,11 +330,11 @@ Comme le dit Jean Baechler, membre de l’Académie des sciences morales et poli
 
 > La première condition pour la maximisation de l'efficacité économique est la libération de la société civile à l'égard de l'État (...) L'expansion du capitalisme doit son origine et sa raison d'être à l'anarchie politique.
 
-Autrement, dit, le grand « non-événement » qui a dominé le destin de l'Europe fut l'absence d'un empire hégémonique, comme celui qui a dominé la Chine.
+Autrement dit, le grand « non-événement » qui a dominé le destin de l'Europe fut l'absence d'un empire hégémonique, comme celui qui a dominé la Chine.
 
-C'est cette Europe radicalement décentralisée qui a produit les parlements, les diètes et les États-Généraux. Elle a engendré les chartes comme la célèbre Magna Carta des Anglais, mais elle a aussi produit les villes libres d'Italie du Nord et des Flandres : Venise, Florence, Gênes Amsterdam, Gand et Bruges. Enfin elle a développé le concept de droit naturel, ainsi que le principe selon lequel même le Prince n'est pas au-dessus de la loi, une doctrine enracinée dans les universités médiévales de Bologne, d'Oxford et de Paris, jusqu’à Vienne et Cracovie.
+C'est cette Europe radicalement décentralisée qui a produit les parlements, les diètes et les États-Généraux. Elle a engendré les chartes comme la célèbre Magna Carta des Anglais, mais elle a aussi produit les villes libres d'Italie du Nord et des Flandres : Venise, Florence, Gênes, Amsterdam, Gand et Bruges. Enfin, elle a développé le concept de droit naturel, ainsi que le principe selon lequel même le Prince n'est pas au-dessus de la loi, une doctrine enracinée dans les universités médiévales de Bologne, d'Oxford et de Paris, jusqu’à Vienne et Cracovie.
 
-En conclusion de ce chapitre, l’Europe ne doit pas son décollage économique et culturel à la conquête et à l’exploitation du reste du monde. Elle a dominé le monde grâce à ses progrès économiques. Ce que l’on a appelé l’« impérialisme » est la conséquence et non la cause du progrès économique de l’Europe. Mais pour revenir à Lord Acton, ce qui distingue plus encore la civilisation occidentale de toutes les autres, c'est son affirmation de la valeur de l'individu. En ce sens, la liberté de conscience, notamment en matière religieuse a constitué un pilier fondamental de cette civilisation. Nous y reviendrons dans la section suivante.
+En conclusion de ce chapitre, l’Europe ne doit pas son décollage économique et culturel à la conquête et à l’exploitation du reste du monde. Elle a dominé le monde grâce à ses progrès économiques. Ce que l’on a appelé l’« impérialisme » est la conséquence et non la cause du progrès économique de l’Europe. Mais pour revenir à Lord Acton, ce qui distingue plus encore la civilisation occidentale de toutes les autres, c'est son affirmation de la valeur de l'individu. En ce sens, la liberté de conscience, notamment en matière religieuse, a constitué un pilier fondamental de cette civilisation. Nous y reviendrons dans la section suivante.
 
 ## Murray Rothbard : État versus société
 
@@ -341,25 +343,25 @@ En conclusion de ce chapitre, l’Europe ne doit pas son décollage économique 
 :::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
 
 
-Dans le dernier chapitre de _Anatomy of the State_ (traduit en français _L’anatomie de l’Etat_, aux édition Résurgence), Murray Rothbard propose une théorie de l’histoire. Ce chapitre très court est intitulé : L’histoire, course entre pouvoir étatique et pouvoir social. Selon Rothbard, l'histoire peut être comprise comme un conflit permanent entre deux principes fondamentaux :
+Dans le dernier chapitre de _Anatomy of the State_ (traduit en français _L’Anatomie de l’État_, aux éditions Résurgence), Murray Rothbard propose une théorie de l’histoire. Ce chapitre très court est intitulé : *L’histoire, course entre pouvoir étatique et pouvoir social*. Selon Rothbard, l'histoire peut être comprise comme un conflit permanent entre deux principes fondamentaux :
 
 ![image](assets/fr/017.webp)
 
-- La coopération pacifique et la production qui représentent l'échange volontaire et la création de richesse par le travail et l'innovation.
-- L'exploitation et la prédation coercitives qui sont incarnées par la domination de l'État, qui s'approprie les fruits du travail des individus par la force.
+- **La coopération pacifique et la production** qui représentent l'échange volontaire et la création de richesse par le travail et l'innovation.
+- **L'exploitation et la prédation coercitives** qui sont incarnées par la domination de l'État, qui s'approprie les fruits du travail des individus par la force.
 
 Se référant à Albert J. Nock, Rothbard utilise les termes « pouvoir social » et « pouvoir d'État » pour désigner ces deux forces opposées :
 
-- Le pouvoir social : émerge de la coopération et de l'ingéniosité des individus libres, menant au progrès économique et à la prospérité. C’est un pouvoir sur la nature, la capacité créatrice de l'homme à transformer la nature en ressources et en connaissances, pour le bien collectif de la société.
-- Le pouvoir d'État : s'impose par la contrainte et la violence, cherchant à contrôler et à exploiter la société pour son propre bénéfice. C’est un pouvoir exercé sur l’homme. Il consiste à « drainer les fruits de la société au profit de dirigeants non productifs (en fait anti-productifs) ».
+- **Le pouvoir social** : émerge de la coopération et de l'ingéniosité des individus libres, menant au progrès économique et à la prospérité. C’est un pouvoir sur la nature, la capacité créatrice de l'homme à transformer la nature en ressources et en connaissances, pour le bien collectif de la société.
+- **Le pouvoir d'État** : s'impose par la contrainte et la violence, cherchant à contrôler et à exploiter la société pour son propre bénéfice. C’est un pouvoir exercé sur l’homme. Il consiste à « drainer les fruits de la société au profit de dirigeants non productifs (en fait anti-productifs) ».
 
 ### L'État comme parasite
 
-Rothbard considère l'État comme un parasite qui vit aux dépens de la société productive. Il s'empare de « postes de commandement » stratégiques pour s'approprier la richesse et le pouvoir. Monopole de la force, de la justice, de l’éducation, des infrastructures. Et il ajoute « Dans l’économie moderne, la monnaie est le poste de commandement essentiel ».
+Rothbard considère l'État comme un parasite qui vit aux dépens de la société productive. Il s'empare de « postes de commandement » stratégiques pour s'approprier la richesse et le pouvoir. Monopole de la force, de la justice, de l’éducation, des infrastructures. Et il ajoute : « Dans l’économie moderne, la monnaie est le poste de commandement essentiel ».
 
-Pour Rothbard, le principe de liberté doit s’appliquer également à la monnaie. Si nous sommes en faveur de la liberté dans les autres secteurs, si nous voulons protéger la propriété et la personne contre l’intrusion de l’État, notre tâche la plus urgente doit être d’explorer la possibilité d’un marché libre de la monnaie. (Voir sur ce point son essai : _Etat, qu’as-tu fait de notre monnaie ?_ Traduction Stéphane Couvreur pour l’Institut Coppet, 2011).
+Pour Rothbard, le principe de liberté doit s’appliquer également à la monnaie. Si nous sommes en faveur de la liberté dans les autres secteurs, si nous voulons protéger la propriété et la personne contre l’intrusion de l’État, notre tâche la plus urgente doit être d’explorer la possibilité d’un marché libre de la monnaie. (Voir sur ce point son essai : _État, qu’as-tu fait de notre monnaie ?_, traduction Stéphane Couvreur pour l’Institut Coppet, 2011).
 
-### L’échec des tentatives de limiter l’Etat
+### L’échec des tentatives de limiter l’État
 
 Rothbard met en garde contre l'idée que les constitutions écrites, à elles seules, pourraient garantir la liberté et la limitation du pouvoir :
 
@@ -367,20 +369,20 @@ Rothbard met en garde contre l'idée que les constitutions écrites, à elles se
 
 Une constitution écrite a certainement de nombreux avantages, mais c’est une grave erreur de supposer qu’elle serait suffisante. En effet, le parti majoritaire, fort de son pouvoir, peut adopter une interprétation extensive pour augmenter son pouvoir. Sans mécanismes concrets pour faire respecter les droits, et face à un parti dominant déterminé à étendre son pouvoir, les constitutions risquent de devenir des outils inefficaces, trompeurs.
 
-### Le XXe siècle : un siècle de recul
+### Le XXᵉ siècle : un siècle de recul
 
 ![image](assets/fr/018.webp)
 
 Selon Rothbard, l'histoire n'est pas un processus linéaire, mais plutôt une oscillation entre l'avancée du pouvoir social et le regain de contrôle par l'État :
 
-- Périodes de liberté : lorsque le pouvoir social s'épanouit, la liberté, la paix et la prospérité augmentent.
-- Périodes de domination étatique: lorsque l’'État reprend le dessus, entraînant l'oppression, la guerre et la régression.
+- **Périodes de liberté** : lorsque le pouvoir social s'épanouit, la liberté, la paix et la prospérité augmentent.
+- **Périodes de domination étatique** : lorsque l'État reprend le dessus, entraînant l'oppression, la guerre et la régression.
 
-Du XVIIe siècle au XIXe siècle, dans de nombreux pays occidentaux, il y eut des périodes d’accélération du pouvoir social et une augmentation corollaire de liberté, de paix, et de bien-être matériel, Mais Rothbard rappelle que le XXe siècle a été marqué par une résurgence du pouvoir d'État, avec des conséquences néfastes : augmentation de l'esclavage, de la guerre et de la destruction. :
+Du XVIIᵉ siècle au XIXᵉ siècle, dans de nombreux pays occidentaux, il y eut des périodes d’accélération du pouvoir social et une augmentation corollaire de liberté, de paix, et de bien-être matériel. Mais Rothbard rappelle que le XXᵉ siècle a été marqué par une résurgence du pouvoir d'État, avec des conséquences néfastes : augmentation de l'esclavage, de la guerre et de la destruction. 
 
 > Durant ce siècle, la race humaine fait face, une fois encore, au règne virulent de l’État ; l’État désormais armé du pouvoir créateur de l’homme, confisqué et perverti à ses propres fins.
 
-Qu’est-ce qu’une société libre finalement ? C’est une société sans monopole. Dans son ouvrage de philosophie politique, _Ethique de la liberté_ (1982), Rothbard répond : « une société dans laquelle il n’existe aucune possibilité légale d’agression coercitive contre la personne ou la propriété d’un individu. ». C’est pourquoi, selon lui, la philosophie politique, qui doit définir les principes d’une société juste, se réduit à une et une seule question : « Qui est légitimement propriétaire de quoi ? »
+Qu’est-ce qu’une société libre finalement ? C’est une société sans monopole. Dans son ouvrage de philosophie politique, _L'Éthique de la liberté_ (1982), Rothbard répond : « une société dans laquelle il n’existe aucune possibilité légale d’agression coercitive contre la personne ou la propriété d’un individu ». C’est pourquoi, selon lui, la philosophie politique, qui doit définir les principes d’une société juste, se réduit à une et une seule question : « Qui est légitimement propriétaire de quoi ? »
 
 ![image](assets/fr/019.webp)
 
@@ -388,9 +390,9 @@ Pour Rothbard, l'ordre social peut régner s’il est le produit de la général
 
 Et il ajoute :
 
-> On a maintenant tâté de toutes les variantes de l’étatisme et elles ont toutes échoué. Partout dans le monde occidental au début du 20ème siècle les chefs d’entreprise, les politiciens et intellectuels s’étaient mis à appeler de leurs vœux un “nouveau” système d’économie mixte, de domination étatique, à la place du laissez-faire relatif du siècle précédent. De nouvelles panacées, attrayantes à première vue, comme le socialisme, l’Etat corporatiste, l’Etat-Providence-Gendarme du monde, etc. ont été essayées et toutes ont manifestement échoué. Les argumentaires en faveur du socialisme et de la planification étatique apparaissent maintenant comme des plaidoyers pour un système vieilli, épuisé et raté. Que reste-t-il à essayer sinon la liberté ?
+> On a maintenant tâté de toutes les variantes de l’étatisme et elles ont toutes échoué. Partout dans le monde occidental au début du 20ème siècle les chefs d’entreprise, les politiciens et intellectuels s’étaient mis à appeler de leurs vœux un “nouveau” système d’économie mixte, de domination étatique, à la place du laissez-faire relatif du siècle précédent. De nouvelles panacées, attrayantes à première vue, comme le socialisme, l’État corporatiste, l’État-Providence-Gendarme du monde, etc. ont été essayées et toutes ont manifestement échoué. Les argumentaires en faveur du socialisme et de la planification étatique apparaissent maintenant comme des plaidoyers pour un système vieilli, épuisé et raté. Que reste-t-il à essayer sinon la liberté ?
 >
-> (_Ethique de la liberté_)
+> (_L'Éthique de la liberté_)
 
 # Les origines de la liberté : l’Antiquité
 

@@ -54,7 +54,7 @@ Copy and paste your receiving BTC wallet address, or scan the QR code in the add
 
 ### Step 5: Proceed to Your Payment of Choice
 
-Click the big yellow Swap button to proceed to a payment page with BitcoinVN’s bank details accompanied with a QR code (for local finance apps like Momo/VNPAY), and the exact VND amount. Transfer the exact amount from your Vietnamese bank account/app within the time limit otherwise, the deal will expire and you have to restart from step 3.
+Click the big yellow Swap button to proceed to a payment page with BitcoinVN’s bank details accompanied with a QR code (for local finance apps like Momo and VNPAY), and the exact VND amount. Transfer the exact amount from your Vietnamese bank account/app within the time limit otherwise, the deal will expire and you have to restart from step 3.
 
 ### Step 6: Verify Your Payment & Receive Asset
 

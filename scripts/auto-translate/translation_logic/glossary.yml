@@ -83,6 +83,8 @@ non_translatable:
   - Coinbase Transaction
   - "COINS/"
   - Cold
+  - Cold Wallet
+  - COLD WALLET
   - "COOKIE (.COOKIE)"
   - Commitment
   - Commitment Transaction
@@ -138,12 +140,12 @@ non_translatable:
   - Green
   - Hal Finney
   - Halving
-  - Hard
   - Hard Fork
   - Hardware Wallet
   - Hash
   - HASHCASH
   - HashCash
+  - Hasher
   - Hashrate
   - HODL
   - Hot

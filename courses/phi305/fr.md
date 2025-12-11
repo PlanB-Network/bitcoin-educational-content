@@ -368,7 +368,7 @@ Mais pour Spinoza (1632-1677), l’homme n’est pas « un empire dans un empir
 
 ![image](./assets/fr/3.3.1.webp)
 
-Et comme la Nature, dit encore Spinoza, n’a aucune fin prescrite d’un point de vue moral et que les hommes ont tendance à prendre leur imagination pour de l’entendement, ils projettent sur elle une grille de lecture de ce qui leur est utile. Au point, alors, de donner une signification aux choses qui ne découlent que de la manière dont ils les apprécient et les rapportent à eux-mêmes.
+Et comme la Nature, dit encore Spinoza, n’a aucune fin prescrite d’un point de vue moral et que les hommes ont tendance à prendre leur imagination pour de l’entendement, ils projettent sur elle une grille de lecture de ce qui leur est utile. Au point, alors, de donner une signification aux choses qui ne découle que de la manière dont ils les apprécient et les rapportent à eux-mêmes.
 
 C‘est-à-dire en fonction de leurs désirs, de leurs espoirs et de leurs craintes. 
 

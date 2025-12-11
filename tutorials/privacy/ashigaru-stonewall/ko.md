@@ -1,5 +1,5 @@
 ---
-name: 아시가루 - 스톤월
+name: Ashigaru - Stonewall
 description: 아시가루에서 스톤월 트랜잭션의 이해와 사용
 ---
 ![cover stonewall](assets/cover.webp)

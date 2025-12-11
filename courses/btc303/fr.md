@@ -905,7 +905,6 @@ Dans les prochaines sections, nous nous pencherons sur d'autres aspects intéres
 ### Maintenance des logiciels
 
 
-
 Le code source de Bitcoin Core est maintenu dans un dépôt Git hébergé sur [GitHub](https://github.com/Bitcoin/Bitcoin). N'importe qui peut cloner ce même dépôt sans demander aucune permission, puis l'inspecter, le construire ou y apporter des modifications localement. Cela signifie qu'il existe plusieurs milliers de copies du référentiel réparties dans le monde entier. Ce sont toutes des copies du même dépôt, alors qu'est-ce qui rend ce dépôt GitHub Bitcoin Core si spécial ? Techniquement, il n'est pas spécial du tout, mais socialement, il est devenu le point central du développement de Bitcoin.
 
 
@@ -925,7 +924,7 @@ Il explique ensuite comment le logiciel de Bitcoin Core est maintenu et protég�
 Le développeur de Bitcoin Core, Eric Lombrozo, parle plus en détail du processus de développement dans son [Medium post](https://medium.com/@elombrozo/the-Bitcoin-core-merge-process-74687a09d81d) intitulé "The Bitcoin Core Merge Process" (Le processus de fusion de Bitcoin Core) :
 
 
-> N'importe qui peut Fork le dépôt de la base de code et faire des changements arbitraires à leur propre dépôt. Il peut construire un client à partir de son propre dépôt et l'exécuter à la place s'il le souhaite. Il peut également créer des versions binaires pour que d'autres personnes les exécutent.
+> N'importe qui peut fork le dépôt de la base de code et faire des changements arbitraires à leur propre dépôt. Il peut construire un client à partir de son propre dépôt et l'exécuter à la place s'il le souhaite. Il peut également créer des versions binaires pour que d'autres personnes les exécutent.
 >
 
 > Si quelqu'un veut fusionner un changement qu'il a fait dans son propre dépôt dans Bitcoin Core, il peut soumettre une demande d'extraction. Une fois la demande soumise, n'importe qui peut examiner les changements et les commenter, qu'il ait ou non accès à Bitcoin Core lui-même.
@@ -937,8 +936,6 @@ Lombrozo parle également du processus qui entoure les changements de consensus,
 
 
 ### Développement sans autorisation
-
-
 
 Nous avons établi que n'importe qui peut écrire du code pour Bitcoin Core sans demander de permission, mais pas nécessairement le faire fusionner dans le dépôt Git principal. Ceci affecte toute modification, depuis le changement des couleurs de l'interface de l'utilisateur graphique, jusqu'à la façon dont les messages pair-à-pair sont formatés, et même les règles de consensus, c'est-à-dire l'ensemble des règles qui définissent une Blockchain valide.
 
@@ -960,8 +957,6 @@ Il est courant que des systèmes tels que ceux énumérés ci-dessus soient eux-
 
 
 ### Développement du pseudonyme
-
-
 
 Le fait de ne pas avoir à demander l'autorisation de développer le logiciel Bitcoin offre une option intéressante et importante : vous pouvez écrire et publier du code, dans Bitcoin Core ou dans tout autre projet open source, sans révéler votre identité.
 
@@ -988,7 +983,6 @@ L'utilisation d'un pseudonyme vous permet en effet de parler plus librement sans
 
 Le pseudonyme le plus connu de Bitcoin est sans doute Satoshi Nakamoto. Les raisons pour lesquelles il a choisi ce pseudonyme ne sont pas claires, mais avec le recul, il s'agit probablement d'une bonne décision pour de multiples raisons :
 
-
 - Comme de nombreuses personnes pensent que Nakamoto possède beaucoup de Bitcoin, il est impératif pour sa sécurité financière et personnelle de ne pas dévoiler son identité.
 - Son identité étant inconnue, il n'est pas possible de poursuivre qui que ce soit, ce qui cause beaucoup de difficultés à diverses autorités gouvernementales.
 - Il n'y a pas de personne autoritaire sur laquelle s'appuyer, ce qui rend le Bitcoin plus méritocratique et plus résistante au chantage.
@@ -998,7 +992,6 @@ Notez que ces points ne s'appliquent pas seulement à Satoshi Nakamoto, mais à 
 
 
 ### Cryptographie de sélection
-
 
 Les développeurs open source utilisent souvent des bibliothèques open source développées par d'autres personnes. Il s'agit là d'un élément naturel et formidable de tout écosystème sain. Mais les logiciels Bitcoin traitent de l'argent réel et, à la lumière de cela, les développeurs doivent être très prudents lorsqu'ils choisissent les bibliothèques tierces dont ils doivent dépendre.
 
@@ -1032,13 +1025,9 @@ En raison des problèmes mentionnés ci-dessus par Maxwell, Bitcoin Core fait de
 
 ### Révision
 
-
-
 Cette section est nommée "Révision", plutôt que "Révision du code", parce que la sécurité de Bitcoin repose fortement sur une révision à plusieurs niveaux, et pas seulement au niveau du code source. De plus, différentes idées nécessitent une révision à différents niveaux : un changement de règle consensuelle nécessiterait une révision plus profonde à plusieurs niveaux par rapport à un changement de schéma de couleur ou une correction de coquille.
 
-
 Sur le chemin de l'adoption finale, une idée passe généralement par plusieurs phases de discussion et d'examen. Certaines de ces phases sont énumérées ci-dessous :
-
 
 
 - Une idée est postée sur la liste de diffusion Bitcoin-dev
@@ -1061,18 +1050,18 @@ L'un des réviseurs de code les plus prolifiques sur Bitcoin Core est Jon Atack.
 
 > Une bonne approche consiste à ne pas se préoccuper de soi, mais plutôt de se demander "Comment puis-je servir au mieux ?"
 
-Il souligne le fait que la révision est un facteur réellement limitant dans Bitcoin Core. Beaucoup de bonnes idées restent bloquées dans les limbes où aucune révision n'a lieu, en attente. Notez que la révision n'est pas seulement bénéfique pour Bitcoin, mais aussi un excellent moyen d'apprendre sur le logiciel tout en lui apportant de la valeur, en même temps. La règle empirique d'Atack est d'examiner 5 à 15 RP avant de faire le vôtre. Encore une fois, vous devez vous concentrer sur la façon de servir au mieux la communauté, et non sur la façon de faire fusionner votre propre code. En outre, il insiste sur l'importance d'effectuer la relecture au bon niveau : est-ce le moment de se pencher sur les points faibles et les coquilles, ou le développeur a-t-il besoin d'une relecture plus orientée sur les concepts ? Jon Attack ajoute :
+Il souligne le fait que la révision est un facteur réellement limitant dans Bitcoin Core. Beaucoup de bonnes idées restent bloquées dans les limbes où aucune révision n'a lieu, en attente. Notez que la révision n'est pas seulement bénéfique pour Bitcoin, mais aussi un excellent moyen d'apprendre sur le logiciel tout en lui apportant de la valeur en même temps. La règle empirique d'Atack est d'examiner 5 à 15 RP avant de faire le vôtre. Encore une fois, vous devez vous concentrer sur la façon de servir au mieux la communauté, et non sur la façon de faire fusionner votre propre code. En outre, il insiste sur l'importance d'effectuer la relecture au bon niveau : est-ce le moment de se pencher sur les points faibles et les coquilles, ou le développeur a-t-il besoin d'une relecture plus orientée sur les concepts ? Jon Attack ajoute :
 
 
 > Une première question utile au début d'un examen peut être : "Qu'est-ce qui est le plus nécessaire ici en ce moment ?" Répondre à cette question requiert de l'expérience et un contexte accumulé, mais c'est une question utile pour décider de la manière dont vous pouvez apporter le plus de valeur ajoutée en un minimum de temps.
 
-La seconde moitié du billet consiste en des conseils techniques pratiques utiles sur la manière de procéder à l'examen, et fournit des liens vers des documents importants pour une lecture plus approfondie.
+La seconde moitié du billet consiste en des conseils techniques pratiques utiles sur la manière de procéder à l'examen et fournit des liens vers des documents importants pour une lecture plus approfondie.
 
 
 Gloria Zhao, développeuse Bitcoin Core et examinatrice de code, a écrit [un article](https://github.com/glozow/Bitcoin-notes/blob/master/review-checklist.md) contenant les questions qu'elle se pose habituellement lors d'un examen. Elle indique également ce qu'elle considère comme une bonne évaluation :
 
 
-> Personnellement, je pense qu'une bonne évaluation est une évaluation dans laquelle je me suis posé un grand nombre de questions précises sur le PR et où j'ai été satisfait des réponses à ces questions. [...] Naturellement, je commence par des questions conceptuelles, puis des questions relatives à l'approche et enfin des questions relatives à la mise en œuvre. En général, je pense personnellement qu'il est inutile de laisser des commentaires relatifs à la syntaxe du C++ sur un projet de PR, et je me sentirais mal à l'aise de revenir à "est-ce que cela a du sens" après que l'auteur a répondu à plus de 20 de mes suggestions sur l'organisation du code.
+> Personnellement, je pense qu'une bonne évaluation est une évaluation dans laquelle je me suis posé un grand nombre de questions précises sur le PR et où j'ai été satisfait des réponses à ces questions. [...] Naturellement, je commence par des questions conceptuelles, puis des questions relatives à l'approche et enfin des questions relatives à la mise en œuvre. En général, je pense qu'il est inutile de laisser des commentaires relatifs à la syntaxe du C++ sur un projet de PR, et je me sentirais mal à l'aise de revenir à "est-ce que cela a du sens" après que l'auteur a répondu à plus de 20 de mes suggestions sur l'organisation du code.
 
 
 Son idée qu'un bon examen doit se concentrer sur ce qui est le plus nécessaire à un moment donné s'aligne bien sur les conseils de Jon Atack. Elle propose une liste de questions que vous pouvez vous poser à différents niveaux du processus de révision, mais insiste sur le fait que cette liste n'est en aucun cas exhaustive ni ne constitue une recette pure et simple. La liste est illustrée par des exemples concrets tirés de GitHub.
@@ -1080,17 +1069,12 @@ Son idée qu'un bon examen doit se concentrer sur ce qui est le plus nécessaire
 
 ### Financement
 
+De nombreuses personnes travaillent au développement de Bitcoin open source, que ce soit pour Bitcoin Core ou pour d'autres projets. Beaucoup le font pendant leur temps libre sans aucune compensation, mais certains développeurs sont également payés pour le faire.
 
-
-De nombreuses personnes travaillent au développement de Bitcoin Open Source, que ce soit pour Bitcoin Core ou pour d'autres projets. Beaucoup le font pendant leur temps libre sans aucune compensation, mais certains développeurs sont également payés pour le faire.
-
-
-Les entreprises, les individus et les organisations qui ont un intérêt dans le succès continu de Bitcoin peuvent donner des fonds aux développeurs, soit directement, soit par l'intermédiaire d'organisations qui à leur tour distribuent les fonds aux développeurs individuels. Il existe également un certain nombre d'entreprises axées sur Bitcoin qui embauchent des développeurs qualifiés pour leur permettre de travailler à plein temps sur Bitcoin.
+Les entreprises, les individus et les organisations qui ont un intérêt dans le succès continu de Bitcoin peuvent donner des fonds aux développeurs, soit directement, soit par l'intermédiaire d'organisations, qui à leur tour distribuent les fonds aux développeurs individuels. Il existe également un certain nombre d'entreprises axées sur Bitcoin qui embauchent des développeurs qualifiés pour leur permettre de travailler à plein temps sur Bitcoin.
 
 
 ### Choc culturel
-
-
 
 Les gens ont parfois l'impression que les développeurs de Bitcoin se livrent à des querelles intestines et à des débats passionnés sans fin, et qu'ils sont incapables de prendre des décisions.
 
@@ -1101,12 +1085,12 @@ Par exemple, le mécanisme de déploiement du Taproot a fait l'objet de longues 
 Le débat a semblé durer une éternité, et il était vraiment difficile de voir un consensus se former à ce sujet dans un avenir proche. Les gens se sont donc sentis frustrés et le débat s'est intensifié. Gregory Maxwell (en tant qu'utilisateur nullc) s'est inquiété [sur Reddit](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3) que les longues discussions rendent la mise à jour moins sûre :
 
 
-> À ce stade, une attente supplémentaire n'apporte pas plus d'examen et de certitude. Au contraire, un délai supplémentaire sape l'inertie et augmente potentiellement le risque, car les gens commencent à oublier des détails, à retarder le travail sur l'utilisation en aval (comme la prise en charge du Wallet) et à ne pas investir autant d'efforts de révision supplémentaires qu'ils le feraient s'ils avaient confiance dans le délai d'activation.
+> À ce stade, une attente supplémentaire n'apporte pas plus d'examen et de certitude. Au contraire, un délai supplémentaire sape l'inertie et augmente potentiellement le risque, car les gens commencent à oublier des détails, à retarder le travail sur l'utilisation en aval (comme la prise en charge du wallet) et à ne pas investir autant d'efforts de révision supplémentaires qu'ils le feraient s'ils avaient confiance dans le délai d'activation.
 
-Finalement, ce différend a été résolu grâce à une nouvelle proposition de David Harding et Russel O'Connor appelée Speedy Trial, qui impliquait une période de signalisation comparativement plus courte pour les mineurs afin de verrouiller l'activation du Taproot, ou échouer rapidement. S'ils l'activent pendant cette période, le Taproot sera déployé environ 6 mois plus tard.
+Finalement, ce différend a été résolu grâce à une nouvelle proposition de David Harding et Russel O'Connor appelée Speedy Trial, qui impliquait une période de signalisation comparativement plus courte pour les mineurs afin de verrouiller l'activation du Taproot, ou d'échouer rapidement. S'ils l'activent pendant cette période, le Taproot sera déployé environ six mois plus tard.
 
 
-Quelqu'un qui n'est pas habitué au processus de développement de Bitcoin penserait probablement que ces débats houleux ont l'air terriblement mauvais, voire toxiques. Il y a au moins deux facteurs qui les rendent mauvais, aux yeux de certaines personnes :
+Quelqu'un qui n'est pas habitué au processus de développement de Bitcoin penserait probablement que ces débats houleux ont l'air terriblement mauvais, voire toxiques. Il y a au moins deux facteurs qui les rendent mauvais aux yeux de certaines personnes :
 
 
 

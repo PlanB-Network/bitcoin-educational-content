@@ -809,19 +809,19 @@ Ariko rero, ico gikorwa nticari gihagije, kandi vyasavye ko Satoshi ashikama aka
 Tumaze gusuzuma ingene Bitcoin yahinguwe kandi itanguzwa na Satoshi Nakamoto, reka tuje ku kuntu yashikirijwe ku mugaragaro. Inyuma y’aho ishiriwe ahabona mu ntango z’umwaka w’2009, yaratanguye gukora. Naho ari ukwo, hariho uturongo dukeyi two gutanga umuriro (Satoshi yaragize mining nyinshi cane ama block yari ahari), kandi ibikorwa vyasa nkaho bidahari (ibikorwa vy'uguhanahana 32 vy’ukuri vyabaye muri Mukakaro). Uwo mugambi wari ufise gusa urubuga rw’ishimikiro n’urubuga rwa SourceForge rwo kuronkerako porogarama. Vyongeye, uguhanahana amakuru ku bijanye na Bitcoin kwari gushingiye gusa ku rutonde rw’abarungika ubutumwa rwa Metzdowd Cryptography, hakurikijwe n’abantu amajana makeyi bakunda cane ubuhinga bwo guhisha amakuru.
 
 
-Ingorane rero y’ico kiringo yari iyo  ime Bitcoin kugira ngo ikwegere abantu benshi cane bashobora gutanga umusanzu ku ntumbero mu buryo bumwe canke ubundi. Ni co gituma Satoshi yashize imbere gutegura neza urubuga no gukorana n’abantu batandukanye. Yashaka ko ivyo yavumbuye bimenyekana kw’isi yose.
+Ingorane rero y’ico kiringo yari iyo kumenyekanisha Bitcoin kugira ngo ironke abantu benshi bashobora guterera agacumu k'ubumwe kw'iterambere ryayo mu buryo bumwe canke ubundi. Ni co gituma Satoshi yashize imbere gutegura neza urubuga no gukorana n’abantu batandukanye. Yashaka ko iciyumviro ciwe kimenyekana kw’isi yose.
 
 
-Muri iki gice, turaza gusuzuma amategeko y’imico kama yavuye mu bikorwa vya Satoshi vyo gutangaza amakuru, nk’ukuntu atizigira ubuhinga bwa banki n’igipimo c’amamiliyoni 21. Turazovuga kandi ku biganiro Satoshi yagiranye n’abamugaya kugira ngo arwanire ivyo yahinguye. Mu gusozera, turaza kuvuga ku mfashanyo yaronse ku bandi, cane cane imfashanyo y’ingenzi ya Martti Malmi, umugabo wiwe wa mbere w’iburyo.
+Muri iki gice, turaza gusuzuma amategeko y’imico yavuye mu bikorwa vya Satoshi vyo gutangaza amakuru kwiwe, nk’ukuntu atizera ubuhinga bwa banki n'umurongo ntarenrwa wiwe w’imiliyoni 21. Turazovuga kandi ku biganiro Satoshi yagiranye n’abamunegura kugira ngo arwanire iciyumviro ciwe. Mu gusozera, turaza kuvuga ku mfashanyo yaronse, cane cane imfashanyo nyamukuru ya Martti Malmi, ukuboko kw'iburyo kwiwe kwambere.
 
 
-### Igipande ca Genesis
+### Block ya Genesis
 
 
-Ivyo vyatangujwe muri Mukakaro 2009 vyatumye Satoshi Nakamoto ashobora gushinga amategeko adahinduka y’ivyo bikoresho. Nk’uko yari [kwandika] (https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) mu nyuma, kamere ya Bitcoin ni uko, “igihe verisiyo 0.1 yasohotse,” igikorwa cayo c’ishimikiro cari “gishizwe mu mabuye kugira ngo ibintu vyose bibeho,” vyagutse. (*umwimerere: "igihe verisiyo 0.1 yasohoka, umugambi nyamukuru warashizwe mw'ibuye mu buzima bwayo bwose"*) Cane cane, Elements zibiri z'ishimikiro zifise akamaro kanini mu vy'umuco: ibirimwo mu gice ca Genesis n'urugero rw'ibice miliyoni 21.
+Ivyo vyatangujwe muri Mukakaro 2009 vyatumye Satoshi Nakamoto ashobora gushinga amategeko adahinduka y’iyo sisitemu. Nk’uko [azovyandika] (https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) mu nyuma, kamere ya Bitcoin ni uko, “igihe verisiyo 0.1 yasohotse,” igikorwa cayo c’ishimikiro cari “cibagigwe mu minsi yose gisigaje kubaho,” Bitume biba karahara muruganda ntibacura iterambere ry'iyo sisiteeme. (*original: "igihe verisiyo 0.1 yasohoka, umugambi nyamukuru hama ukibagigwe mu minsi yose gisigaje kubaho,”"*) Cane cane, ibice bibiri vy'ishimikiro bifise akamaro kanini mu vy'umuco: ibirimwo mu gice ca Genesis n'urugero rw'ibice miliyoni 21.
 
 
-Igipande ca Genesis ni co gipande c’ishimikiro ca Bitcoin Blockchain, aho kigomba gukura. Ni co gituma rero, bishirwa mu nzira ikomeye muri porogarama. Imbere y’uko Satoshi itanguzwa, yubatse uruja n’uruza rwa mbere mu gukora Proof of Work isabwa no kuyishirako ikidodo c’isaha ku wa 3 Nzero 2009, isaha 18:15:05 UTC. Muri iyo block (kandi cane cane mu bijanye n’ugutanga impembo), yanditse ubutumwa bukurikira:
+Block ya Genesis ni co gipande c’ishimikiro ca Bitcoin Blockchain, aho kigomba gukura. Ni co gituma rero, bishirwa mu nzira ikomeye muri porogarama. Imbere y’uko Satoshi itanguzwa, yubatse uruja n’uruza rwa mbere mu gukora Proof of Work isabwa no kuyishirako ikidodo c’isaha ku wa 3 Nzero 2009, isaha 18:15:05 UTC. Muri iyo block (kandi cane cane mu bijanye n’ugutanga impembo), yanditse ubutumwa bukurikira:
 
 
 ```

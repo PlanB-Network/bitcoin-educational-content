@@ -1,5 +1,5 @@
 ---
-name: Luna
+name: Moon
 description: Pagate in bitcoin ovunque siano accettate le carte bancarie Visa.
 ---
 

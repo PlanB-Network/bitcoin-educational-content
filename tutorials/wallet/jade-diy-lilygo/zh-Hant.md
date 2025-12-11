@@ -1,5 +1,5 @@
 ---
-name: 翡翠 DIY
+name: Jade DIY
 description: 將 15 美元的開發板變成功能完整的 Bitcoin 硬體 wallet
 ---
 

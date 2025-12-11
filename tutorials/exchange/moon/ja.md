@@ -1,5 +1,5 @@
 ---
-name: 月
+name: Moon
 description: Visaバンクカードが使えるところならどこでもビットコインで支払える。
 ---
 

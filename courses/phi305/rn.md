@@ -37,7 +37,7 @@ Muri iki cigwa, ndanezerewe no gushikiriza filozofiya ya Baruch de Spinoza (1632
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/rn/001.webp)
 
 
 Igishushanyo ca Spinoza
@@ -72,7 +72,7 @@ Mbere na mbere, nzobamenyesha Spinoza, ingeso ziwe, imibano yiwe, idini n’imir
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/rn/002.webp)
 
 
 Igishushanyo ca Spinoza
@@ -95,7 +95,7 @@ Turaza kuraba kandi ibitabu bibiri bihambaye vya Spinoza, dutangura n’Inyifato
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/rn/003.webp)
 
 
 
@@ -103,7 +103,7 @@ Hanyuma turabe igitabu Traité théologico-Politique, casohowe mu gihe yari akir
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/rn/004.webp)
 
 
 
@@ -115,7 +115,7 @@ Kubera inyigisho y’ingaruka zateguwe mu buryo bw’abahinga mu vy’ubuhinga b
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/rn/005.webp)
 
 
 
@@ -153,7 +153,7 @@ Ku bijanye n’ukwizera kw’Abayuda, yari umunyamuryango w’umuryango w’Abas
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/rn/006.webp)
 
 
 
@@ -161,7 +161,6 @@ Nkako, kuva akiri muto, yerekanye impwemu yo kunegura cane idini ryashinzwe, na 
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -173,7 +172,7 @@ Umuragwa, nk’abantu bo mu gihe ciwe Descartes (1596-1650), Pascal (1632-1662) 
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/rn/007.webp)
 
 
 
@@ -193,10 +192,10 @@ Kandi iyo nzira ni yo ihuza Spinoza na filozofiya y’Umuco, yaba iyo mu Budagi,
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/rn/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/rn/009.webp)
 
 
 
@@ -212,7 +211,7 @@ Ariko rero, ubutunzi ntibuboshe ku butunzi bw’ibidukikije, ku gukoresha no gus
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/rn/010.webp)
 
 
 
@@ -261,7 +260,6 @@ Muri iki gice, ndasaba ko ubu twosubira ku gitabu gihambaye ca Spinoza, citwa Et
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -273,7 +271,7 @@ Inyifato runtu ni igitabu canditswe mu kilatini mu buryo bw’abahinga mu vy’u
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/rn/011.webp)
 
 
 
@@ -285,7 +283,7 @@ Nashaka kwerekana ko iyo ufunguye igitabu c’Inyifato runtu, ari vyiza gutangur
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/rn/012.webp)
 
 
 
@@ -317,7 +315,7 @@ Ica mbere, iyo amahirwe atabaho kuri Spinoza, ni kubera ko ari ikintu cabaye tut
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/rn/013.webp)
 
 
 
@@ -337,7 +335,7 @@ Nk’uko Gilles Deleuze (1925-1995), umwigisha rurangiranwa w’ivy’ubuhinga b
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/rn/014.webp)
 
 
 
@@ -375,7 +373,7 @@ Iryo ni ryo Traité théologique-politique, canke TTP, ryasohowe ata wuzina mu 1
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/rn/015.webp)
 
 
 
@@ -386,7 +384,7 @@ Nk’uko twabibonye, ​​iciyumviro ca Spinoza ku Mana ni co kiganiro c’igic
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/rn/016.webp)
 
 
 
@@ -398,7 +396,7 @@ Uko ni ko Spinoza atwereka ko Imana, mu kubona kwiwe, atari ikiremwa gifise ishu
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/rn/017.webp)
 
 
 
@@ -435,7 +433,7 @@ Umutingito w’agahomerabunwa wabereye i Lisbonne ku wa 1 Munyonyo 1755, waragar
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/rn/018.webp)
 
 
 
@@ -447,7 +445,7 @@ Ikiganiro casubiye kuvyura ikibazo cabajijwe n’umunyabwenge w’Umudagi akaba 
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/rn/019.webp)
 
 
 
@@ -455,7 +453,7 @@ Uretse kure cane gutuka ukuboko kw'Imana, Jean-Jacques Rousseau (1712-1778) yand
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/rn/020.webp)
 
 
 
@@ -502,10 +500,9 @@ Nk'uko Nicolas Copernic (1473-1543) yashizeho ko isi atari yo hagati y'isi, na C
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/rn/021.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -517,7 +514,7 @@ Imbere yiwe, filozofiya y’Abagiriki ya kera yasavye iyerekwa ry’ibiriho vyos
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/rn/022.webp)
 
 
 
@@ -529,10 +526,9 @@ Ariko rero, n’ubuhinga bushasha bwa fizike bwa Copernic (1473-1543) mu kinjana
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/rn/023.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -540,7 +536,7 @@ Ariko kugira ngo dutahure neza ubuspinozi, turakeneye kandi kurimbura ivyabaye k
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/rn/024.webp)
 
 
 
@@ -548,7 +544,7 @@ Naho hariho ingorane n’ibihano vya Giordano Bruno (1548-1600) na Galileo, Desc
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/rn/025.webp)
 
 
 
@@ -594,7 +590,7 @@ Nk’uko twamaze kubibona, Spinoza (1632-1677) azwi cane mu kubona ko umwidegemv
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/rn/026.webp)
 
 
 
@@ -618,7 +614,7 @@ Mu bijanye n’ingendo y’ubuzima bwiwe, kubera ko ata rindi tegeko yari gukuri
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/rn/027.webp)
 
 
 
@@ -634,7 +630,7 @@ Ico ni co ciyumviro c’ugushinga intahe gushitse, aho ashingira intahe mu gitab
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/rn/028.webp)
 
 
 
@@ -662,7 +658,7 @@ Ubwo buryo bwo gufata umwidegemvyo nk’ubushobozi bwo gukora ni bwo dushobora g
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/rn/029.webp)
 
 
 
@@ -687,10 +683,9 @@ Ubwa nyuma, birabereye kuvuga ko naho umuhari w'abaharanira umwidegemvyo turiko 
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/rn/030.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -723,7 +718,7 @@ Ariko kuri Spinoza (1632-1677), umuntu si «ubwami buri mu bwami», ni ukuvuga k
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/rn/031.webp)
 
 
 
@@ -747,7 +742,7 @@ Kandi ni co gituma indwara nshasha nka SIDA mu myaka ya 90 canke covid mu 2020 z
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/rn/032.webp)
 
 
 
@@ -763,7 +758,7 @@ Kandi ivyo ni vyo nyene umuhinga mu vy’ibidukikije w’Umufaransa yitwa Jean-B
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/rn/033.webp)
 
 
 
@@ -771,7 +766,7 @@ Ariko nk’uko Spinoza abivuga, «ukwihenda kw’abantu ntiguhera ng’aho», ka
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/rn/034.webp)
 
 
 
@@ -787,7 +782,7 @@ Ariko rero, iyo nsobanuro y’ugutera imbere kw’ibiciro ituma twibagira ko, na
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/rn/035.webp)
 
 
 
@@ -825,7 +820,7 @@ Muri iki gice ca nyuma ku bijanye n’iyerekwa rishasha rya Copernic ry’ivyiyu
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/rn/036.webp)
 
 
 
@@ -849,7 +844,7 @@ Mu yandi majambo, umusaza w’ubwana bweruye yihishije inyuma y’igicu, avugwa 
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/rn/037.webp)
 
 
 
@@ -861,7 +856,7 @@ Ariko naho twirata mu kwizera ko turi hejuru y'Ibiremwa, no kwiyumvira ko dushob
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/rn/038.webp)
 
 
 
@@ -881,7 +876,7 @@ Mu yandi majambo, "abazwi nabi" nk'uko Voltaire (1694-1778) abivuga, uwo ukwemer
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/rn/039.webp)
 
 
 
@@ -893,7 +888,7 @@ Ivyo ni vyo abamuco b’Abadagi, Abongereza n’Abafaransa baburanira kuva mu ki
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/rn/040.webp)
 
 
 
@@ -901,7 +896,7 @@ Kandi ivyo ni vyo Spinoza yongera kwerekana mu gitabu ciwe citwa Traité politiq
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/rn/041.webp)
 
 
 
@@ -963,7 +958,7 @@ Abanyabwenge ba kera bemera ko ikibi kitariho mu kameremere, kandi Socrate (470-
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/rn/042.webp)
 
 
 
@@ -971,7 +966,7 @@ Ariko umugenzo w’abahinga, cane cane uwa Augustin mweranda (354-430), ukiriko 
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/rn/043.webp)
 
 
 
@@ -988,7 +983,7 @@ Ego ni ko, nk’uko mushobora kubibona, ico ciyumviro kiratabururwa na Spinoza, 
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/rn/044.webp)
 
 
 
@@ -1011,7 +1006,7 @@ Ni co gituma umunyapolitike Gilles Deleuze (1925-1995) asigura ko inyifato runtu
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/rn/045.webp)
 
 
 
@@ -1053,7 +1048,7 @@ Atera imbere urutonde rwiwe mu gice ca gatatu c’Inyifato runtu. Ni "inyigisho 
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/rn/046.webp)
 
 
 
@@ -1077,7 +1072,7 @@ Ivyo ni vyo Spinoza avuga mu gitabu ciwe c'inyifato runtu, igihe atangazwa n'uko
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/rn/047.webp)
 
 
 
@@ -1093,7 +1088,7 @@ Ivyo ni ukuri cane cane, mu nzira, mu bijanye n’amahera y’amahera.
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/rn/048.webp)
 
 
 
@@ -1113,7 +1108,7 @@ Ico ni co kigereranyo c’umuravyo. Kuko iyo umuravyo uteye ukica abantu ataco b
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/rn/049.webp)
 
 
 
@@ -1133,7 +1128,7 @@ Ivyo ni vyo vy’ubukerebutsi bw’Inyifato runtu. Spinoza atwereka ko bishoboka
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/rn/050.webp)
 
 
 
@@ -1173,14 +1168,13 @@ Mu mpera, ukwo gusobanukirwa neza bisigura kutaba mu buzima bw’ubusa bwavuzwe 
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 
 Ivyo ni vyo nyene filozofiya y’ubwenge y’Umuco yari ivuga, cane cane Immanuel Kant (1724-1804), uwo umuntu yizeye wenyene, arongowe n’ubwenge, ashobora kwiyumvira we ubwiwe, akamenya, mu vy’inyifato runtu, ico ari co “ukuri” canke “ciza”, n’ico ari co gitera ubumara.
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/rn/051.webp)
 
 
 
@@ -1191,7 +1185,7 @@ Ni umurongo w’ivyiyumviro utuma habaho isano n’ishure ry’ubutunzi ry’i O
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/rn/052.webp)
 
 
 
@@ -1199,7 +1193,7 @@ Menger na Mises bashizeho nk’akarorero ko ubumenyi bwose butegerezwa kwubakwa 
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/rn/053.webp)
 
 
 
@@ -1220,7 +1214,7 @@ Nk'umunya Spinoziste, Hayek asigura muri video ko "kubera ko ubwo bubasha butash
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/rn/054.webp)
 
 
 
@@ -1228,7 +1222,7 @@ Izo ni zo mpamvu za politike n’ubutunzi zashizwe imbere n’abahinga mu vy’u
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/rn/055.webp)
 
 
 
@@ -1236,7 +1230,7 @@ Cane cane igihe yandika umutwe w’ikinyamakuru Times wo ku wa 3 Nzero 2009 mu g
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/rn/056.webp)
 
 
 

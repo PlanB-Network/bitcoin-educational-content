@@ -1,5 +1,5 @@
 ---
-name: Mond
+name: Moon
 description: Bezahlen Sie mit Bitcoins überall dort, wo Visa-Bankkarten akzeptiert werden.
 ---
 

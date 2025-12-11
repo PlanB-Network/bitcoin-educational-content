@@ -1,5 +1,5 @@
 ---
-name: COLDCARD - Su-potpisivanje
+name: COLDCARD - Co-Sign
 description: Otkrijte funkciju Co-Sign i koristite je na vašem COLDCARD-u
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: 足軽 - 石垣
+name: Ashigaru - Stonewall
 description: 足軽における石垣取引の理解と利用
 ---
 ![cover stonewall](assets/cover.webp)

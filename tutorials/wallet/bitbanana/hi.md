@@ -1,5 +1,5 @@
 ---
-name: बिटबनाना
+name: BitBanana
 description: आपके लाइटनिंग नोड के लिए मोबाइल प्रबंधक
 ---
 

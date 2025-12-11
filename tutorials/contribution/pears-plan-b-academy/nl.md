@@ -1,5 +1,5 @@
 ---
-name: Plan ₿ Academie - Peren App
+name: Plan ₿ Academy - Pears App
 description: Hoe installeer en gebruik je de applicatie Plan ₿ Academy op Pears?
 ---
 

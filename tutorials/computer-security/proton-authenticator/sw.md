@@ -1,5 +1,5 @@
 ---
-name: Proton-authenticator
+name: Proton Authenticator
 description: Ninawezaje kutumia Proton authenticator ili kulinda akaunti zangu na 2FA?
 ---
 ![cover](assets/cover.webp)

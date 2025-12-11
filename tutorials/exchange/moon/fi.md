@@ -1,5 +1,5 @@
 ---
-name: Kuu
+name: Moon
 description: Maksa bitcoineilla kaikkialla, missä Visa-pankkikortit hyväksytään.
 ---
 

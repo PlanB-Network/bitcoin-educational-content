@@ -1,5 +1,5 @@
 ---
-name: Ashigaru Terminali
+name: Ashigaru Terminal
 description: Coinjoins yapmak için masaüstünde Ashigaru kullanın
 ---
 

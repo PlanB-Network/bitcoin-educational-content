@@ -1,5 +1,5 @@
 ---
-name: Bulan
+name: Moon
 description: Bayar dengan bitcoin di mana pun kartu bank Visa diterima.
 ---
 

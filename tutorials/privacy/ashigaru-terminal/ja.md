@@ -1,5 +1,5 @@
 ---
-name: 足軽ターミナル
+name: Ashigaru Terminal
 description: デスクトップで足軽を使ってコインジョイントを作る
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Kook Wallet
+name: Cake Wallet
 description: Tutorial Cake Wallet ja vaiksete maksete kohta
 ---
 

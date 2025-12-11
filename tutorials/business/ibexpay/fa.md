@@ -1,5 +1,5 @@
 ---
-name: ایبکس‌پی
+name: IbexPay
 description: پرداخت‌ها را به بیت‌کوین بپذیرید و آن‌ها را به ارز محلی تبدیل کنید.
 ---
 ![cover](assets/cover.webp)

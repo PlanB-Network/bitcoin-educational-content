@@ -1,5 +1,5 @@
 ---
-name: Isoko ryo guhinduranya
+name: SwapMarket
 description: Bitcoin n'umuravyo guhindura ibikorwa
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Desktop Spectre
+name: Specter Desktop
 description: Kelola portofolio Bitcoin multi-tanda tangan Anda dalam kedaulatan total dengan node Anda sendiri
 ---
 

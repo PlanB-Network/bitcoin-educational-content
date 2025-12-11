@@ -1,5 +1,5 @@
 ---
-name: Angry-ip-scanner
+name: Angry IP Scanner
 description: Njia rahisi ya kuchanganua mtandao wako
 ---
 ![cover](assets/cover.webp)

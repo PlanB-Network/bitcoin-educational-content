@@ -1,5 +1,5 @@
 ---
-name: COLDCARD - Ishara-Mwenza
+name: COLDCARD - Co-Sign
 description: Gundua kipengele cha Co-Sign na ukitumie kwenye COLDCARD yako
 ---
 

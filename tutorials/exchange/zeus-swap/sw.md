@@ -1,5 +1,5 @@
 ---
-name: Kubadilisha Zeus
+name: Zeus Swap
 description: Huduma isiyo ya ulezi ya Exchange kati ya bitcoins za On-Chain na Lightning Network
 ---
 

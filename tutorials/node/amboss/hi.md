@@ -1,5 +1,5 @@
 ---
-name: एम्बॉस
+name: Amboss
 description: Lightning Network का अन्वेषण और विश्लेषण करें
 ---
 

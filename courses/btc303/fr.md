@@ -610,43 +610,41 @@ Aaron van Wirdum décrit ce chemin sinueux dans son article du magazine Bitcoin 
 Entre autres choses, il cite le courriel de Shaolinfry à la liste de diffusion Bitcoin-dev. À cette occasion, Shaolinfry [s'est prononcé contre les Soft Forks activés par la puissance de hashage](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html), en énumérant un certain nombre de problèmes qu'ils posent :
 
 
-> Tout d'abord, il faut faire confiance à la puissance de hashage pour qu'elle soit validée après l'activation.  Dans le cas du BIP66 Soft Fork, 95 % du Hashrate signalait qu'elle était prête, mais en réalité, environ la moitié ne validait pas les règles mises à jour et exploitait par erreur un bloc non valide.
+> Tout d'abord, il faut faire confiance à la puissance de hashage pour qu'elle soit validée après l'activation.  Dans le cas du BIP66 Soft Fork, 95 % du hashrate signalait qu'elle était prête, mais en réalité, environ la moitié ne validait pas les règles mises à jour et exploitait par erreur un bloc non valide.
 >
 
-> Deuxièmement, le signalement des mineurs comporte un droit de veto naturel qui permet à un petit pourcentage de Hashrate d'empêcher l'activation du nœud de la mise à jour pour tout le monde. Jusqu'à présent, les forks Soft ont profité du paysage relativement centralisé de Mining où il y a relativement peu de pools Mining qui construisent des blocs valides ; au fur et à mesure que nous nous dirigeons vers une plus grande décentralisation de Hashrate, il est probable que nous souffrirons de plus en plus de " l'inertie des mises à jour " qui mettra son veto à la plupart des mises à jour.
+> Deuxièmement, le signalement des mineurs comporte un droit de veto naturel qui permet à un petit pourcentage de hashrate d'empêcher l'activation du nœud de la mise à jour pour tout le monde. Jusqu'à présent, les forks soft ont profité du paysage relativement centralisé de mining où il y a relativement peu de pools mining qui construisent des blocs valides ; au fur et à mesure que nous nous dirigeons vers une plus grande décentralisation de Hashrate, il est probable que nous souffrirons de plus en plus de " l'inertie des mises à jour " qui mettra son veto à la plupart des mises à jour.
 
-Shaolinfry a également attiré l'attention sur une mauvaise interprétation courante du signalement des mineurs : les gens pensaient généralement qu'il s'agissait d'un moyen par lequel les mineurs pouvaient décider des mises à jour du protocole, plutôt que d'une action qui aidait à coordonner les mises à jour. En raison de ce malentendu, les mineurs ont pu se sentir obligés de proclamer publiquement leur opinion sur un certain Soft Fork, comme si cela donnait du poids à la proposition.
+Shaolinfry a également attiré l'attention sur une mauvaise interprétation courante du signalement des mineurs : les gens pensaient généralement qu'il s'agissait d'un moyen par lequel les mineurs pouvaient décider des mises à jour du protocole, plutôt que d'une action qui aidait à coordonner les mises à jour. En raison de ce malentendu, les mineurs ont pu se sentir obligés de proclamer publiquement leur opinion sur un certain soft fork, comme si cela donnait du poids à la proposition.
 
 
 La proposition de l'UASF consiste, en résumé, en une date butoir à laquelle les nœuds commencent à appliquer de nouvelles règles spécifiques. De cette façon, les mineurs n'ont pas besoin de faire un effort collectif pour coordonner la mise à jour, mais *peuvent* déclencher l'activation avant la date butoir si suffisamment de blocs signalent leur soutien :
 
 
-> Ma suggestion est d'avoir le meilleur des deux mondes. Étant donné qu'un Soft Fork activé par l'utilisateur nécessite un délai relativement long avant l'activation, nous pouvons le combiner avec le BIP9 pour offrir l'option d'une activation plus rapide coordonnée par la puissance de hashage ou d'une activation par date butoir, selon ce qui est le plus tôt.
+> Ma suggestion est d'avoir le meilleur des deux mondes. Étant donné qu'un soft fork activé par l'utilisateur nécessite un délai relativement long avant l'activation, nous pouvons le combiner avec le BIP9 pour offrir l'option d'une activation plus rapide coordonnée par la puissance de hashage ou d'une activation par date butoir, selon ce qui intervient le plus tôt.
 > Dans les deux cas, nous pouvons exploiter les systèmes d'alerte du BIP9. La modification est relativement simple : il s'agit d'ajouter un paramètre de temps d'activation qui fera passer l'état BIP9 à LOCKED_IN avant la fin du délai de déploiement du BIP9.
 
 Cette idée a suscité beaucoup d'intérêt, mais n'a pas semblé faire l'unanimité, ce qui a fait craindre une rupture potentielle de la chaîne. L'article d'Aaron van Wirdum explique comment ce problème a finalement été résolu grâce à [BIP91](https://github.com/Bitcoin/bips/blob/master/bip-0091.mediawiki), dont l'auteur est James Hilliard :
 
 
-> Hilliard a proposé une solution un peu complexe mais intelligente qui rendrait tout compatible : L'activation séparée des témoins, telle que proposée par l'équipe de développement de Bitcoin Core, le BIP148 UASF et le mécanisme d'activation de l'Accord de New York. Son BIP91 pourrait permettre à Bitcoin de rester entièr, au moins jusqu'à l'activation de SegWit.
+> Hilliard a proposé une solution un peu complexe mais intelligente qui rendrait tout compatible : L'activation séparée des témoins, telle que proposée par l'équipe de développement de Bitcoin Core, le BIP148 UASF et le mécanisme d'activation de l'Accord de New York. Son BIP91 pourrait permettre à Bitcoin de rester entier, au moins jusqu'à l'activation de SegWit.
 
 Le BIP a dû prendre en considération d'autres facteurs de complication (par exemple, l'accord dit "de New York"). Nous vous encourageons à lire l'article de Van Wirdum dans son intégralité pour découvrir les nombreux détails intéressants de cette histoire.
 
 
 #### Discussion post-SegWit
 
-
 Après le déploiement de SegWit, une discussion sur les mécanismes de déploiement a émergé. Comme l'ont noté Eric Lombrozo dans [son exposé à la conférence Breaking Bitcoin](https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) et Shaolinfry, un Soft Fork activé par les mineurs n'est pas le mécanisme de mise à niveau idéal :
 
 
-> À un moment donné, nous voudrons probablement ajouter d'autres fonctionnalités au protocole Bitcoin. C'est une grande question philosophique que nous nous posons. Faisons-nous un UASF pour le prochain ? Pourquoi pas une approche hybride ? L'activation par mineurs en tant que telle a été exclue. Nous n'utiliserons plus le bip9.
+> À un moment donné, nous voudrons probablement ajouter d'autres fonctionnalités au protocole Bitcoin. C'est une grande question philosophique que nous nous posons: Faisons-nous un UASF pour le prochain ? Pourquoi pas une approche hybride ? L'activation par mineurs en tant que telle a été exclue. Nous n'utiliserons plus le BIP9.
 
 En janvier 2020, Matt Corallo [a envoyé un courriel](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2020-January/017547.html) à la liste de diffusion Bitcoin-dev qui a lancé une discussion sur les futurs mécanismes de déploiement Soft Fork. Il a énuméré cinq objectifs qu'il jugeait essentiels dans une mise à niveau. David Harding [les résume dans un bulletin d'information d'Optech sur le Bitcoin](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) comme suit :
 
 
-> La possibilité d'interrompre le processus en cas d'objection sérieuse aux modifications des règles consensuelles proposées . L'allocation d'un délai suffisant après la publication du logiciel mis à jour pour s'assurer que la plupart des nœuds économiques sont mis à niveau pour appliquer ces règles . L'espoir que le taux de Hash du réseau sera à peu près le même avant et après le changement, ainsi que pendant toute transition . La prévention, dans la mesure du possible, de la création de blocs qui ne sont pas valides en vertu des nouvelles règles, ce qui pourrait entraîner de fausses confirmations dans les nœuds non mis à niveau et les clients SPV . L'assurance que les mécanismes d'annulation ne peuvent pas être utilisés à mauvais escient par des "griefers" ou des partisans pour empêcher une mise à jour largement souhaitée et sans problème connu
+> La possibilité d'interrompre le processus en cas d'objection sérieuse aux modifications des règles consensuelles proposées . L'allocation d'un délai suffisant après la publication du logiciel mis à jour pour s'assurer que la plupart des nœuds économiques sont mis à niveau pour appliquer ces règles . L'espoir que le taux de hash du réseau sera à peu près le même avant et après le changement, ainsi que pendant toute transition . La prévention, dans la mesure du possible, de la création de blocs qui ne sont pas valides en vertu des nouvelles règles, ce qui pourrait entraîner de fausses confirmations dans les nœuds non mis à niveau et les clients SPV . L'assurance que les mécanismes d'annulation ne peuvent pas être utilisés à mauvais escient par des "griefers" ou des partisans pour empêcher une mise à jour largement souhaitée et sans problème connu
 
-Ce que Corallo propose est une combinaison d'un Soft Fork activé par mineur et d'un Soft Fork activé par l'utilisateur :
-
+Ce que Corallo propose est une combinaison d'un soft fork activé par mineur et d'un soft fork activé par l'utilisateur :
 
 > Ainsi, pour être un peu plus concret, je pense qu'une méthode d'activation qui créerait un bon précédent et prendrait en compte de manière appropriée les objectifs susmentionnés serait la suivante :
 >
@@ -662,24 +660,20 @@ Ce que Corallo propose est une combinaison d'un Soft Fork activé par mineur et 
 
 #### Mise à jour Taproot - Procès accéléré
 
-
-
 Lorsque Taproot a été prêt à être déployé en octobre 2020, c'est-à-dire lorsque tous les détails techniques relatifs aux règles de consensus ont été mis en œuvre et ont été largement approuvés par la communauté, les discussions sur la manière de le déployer ont commencé à s'intensifier. Jusqu'alors, ces discussions étaient restées assez discrètes.
 
 
 De nombreuses propositions de mécanismes d'activation ont commencé à circuler, et David Harding [résumé sur le wiki Bitcoin] (https://en.Bitcoin.it/wiki/Taproot_activation_proposals). Dans son article, il explique certaines propriétés du BIP8 qui, à l'époque, avaient fait l'objet de modifications récentes visant à le rendre plus flexible.
 
 
-> Au moment de la rédaction du présent document, [BIP8](https://github.com/Bitcoin/bips/blob/master/bip-0008.mediawiki) a été rédigé sur la base des enseignements tirés en 2017. Un changement notable suite aux BIP 9+148 est que l'activation forcée est désormais basée sur la hauteur du bloc plutôt que sur le temps médian passé ; un second changement notable est que l'activation forcée est un paramètre booléen choisi lorsque les paramètres d'activation d'un Soft Fork sont définis soit pour le déploiement initial, soit mis à jour lors d'un déploiement ultérieur.
+> Au moment de la rédaction du présent document, [BIP8](https://github.com/Bitcoin/bips/blob/master/bip-0008.mediawiki) a été rédigé sur la base des enseignements tirés en 2017. Un changement notable suite aux BIP 9+148 est que l'activation forcée est désormais basée sur la hauteur du bloc plutôt que sur le temps médian passé ; un second changement notable est que l'activation forcée est un paramètre booléen choisi lorsque les paramètres d'activation d'un soft fork sont définis soit pour le déploiement initial, soit mis à jour lors d'un déploiement ultérieur.
 
 Le BIP8 sans activation forcée est très similaire aux bits de la version [BIP9](https://github.com/Bitcoin/bips/blob/master/bip-0009.mediawiki) avec délai d'attente et retard, la seule différence significative étant l'utilisation par le BIP8 des hauteurs de blocs par rapport à l'utilisation par le BIP9 du temps médian écoulé. Ce paramètre permet à la tentative d'échouer (mais elle peut être réessayée plus tard).
 
 
-Le BIP8 avec activation forcée se termine par une période de signalisation obligatoire au cours de laquelle tous les blocs produits conformément à ses règles doivent signaler qu'ils sont prêts pour le Soft Fork d'une manière qui déclenchera l'activation dans un déploiement antérieur du même Soft Fork avec une activation non obligatoire. En d'autres termes, si la version x du nœud est publiée sans activation forcée et que, plus tard, la version y est publiée et oblige les mineurs à commencer à signaler qu'ils sont prêts dans le même délai, les deux versions commenceront à appliquer les nouvelles règles de consensus en même temps.
-
+Le BIP8 avec activation forcée se termine par une période de signalisation obligatoire au cours de laquelle tous les blocs produits conformément à ses règles doivent signaler qu'ils sont prêts pour le Soft Fork d'une manière qui déclenchera l'activation dans un déploiement antérieur du même soft fork avec une activation non obligatoire. En d'autres termes, si la version x du nœud est publiée sans activation forcée et que, plus tard, la version y est publiée et oblige les mineurs à commencer à signaler qu'ils sont prêts dans le même délai, les deux versions commenceront à appliquer les nouvelles règles de consensus en même temps.
 
 Cette flexibilité de la proposition révisée du BIP8 permet d'exprimer d'autres idées en termes de ce à quoi elles ressembleraient en utilisant le BIP8. Cela permet de disposer d'un facteur commun à utiliser pour classer de nombreuses propositions différentes.
-
 
 À partir de là, les discussions sont devenues très animées, notamment sur la question de savoir si `lockinontimeout` devait être `true` (comme dans un Soft Fork activé par l'utilisateur, appelé "BIP8 avec activation forcée" par Harding) ou `false` (comme dans un Soft Fork activé par mineurs, appelé "BIP8 sans activation forcée" par Harding).
 
@@ -716,58 +710,49 @@ Ce mécanisme de déploiement a été affiné pendant deux mois, puis publié da
 
 #### Mécanismes de déploiement futurs
 
-
 Etant donné les problèmes rencontrés avec les récents forks Soft, SegWit et Taproot, il n'est pas évident de savoir comment la prochaine mise à jour sera déployée. Speedy Trial a été utilisé pour déployer Taproot, mais il a été utilisé pour combler le fossé entre les foules de l'UASF et de la MASF, et non parce qu'il s'est imposé comme le mécanisme de déploiement le plus connu.
 
 
 ### Risques
 
-
-Lors de l'activation d'un Fork, qu'il s'agisse d'un Hard ou d'ue Soft, d'un activé par mineurs ou d'un activé par l'utilisateur, il existe un risque de rupture durable de la chaîne. Une scission qui dure plus de quelques blocs peut causer de graves dommages au sentiment autour du Bitcoin ainsi qu'à son prix. Mais surtout, il en résulterait une grande confusion sur ce qu'est Bitcoin. Bitcoin est-il cette chaîne ou cette chaîne ?
-
-
-Le risque d'un Soft Fork activé par l'utilisateur est que les nouvelles règles soient activées même si la majorité de la puissance de hashage ne les soutient pas. Ce scénario entraînerait une rupture durable de la chaîne, qui persisterait jusqu'à ce que la majorité de la puissance de hashage adopte les nouvelles règles. Il pourrait être particulièrement difficile d'inciter les mineurs à passer à la nouvelle chaîne s'ils ont déjà extrait des blocs après la scission sur l'ancienne chaîne, car en changeant de branche, ils abandonneraient les récompenses de leurs propres blocs. Toutefois, il convient de mentionner un épisode remarquable : en mars 2013, une scission de longue durée s'est produite en raison d'un Hard Fork involontaire et, contrairement à cette incitation, deux grands pools de minage ont pris la décision d'abandonner leur branche de la scission afin de rétablir le consensus.
+Lors de l'activation d'un fork, qu'il s'agisse d'un hard ou d'une soft, d'un activé par mineurs ou d'un activé par l'utilisateur, il existe un risque de rupture durable de la chaîne. Une scission qui dure plus de quelques blocs peut causer de graves dommages au sentiment autour du Bitcoin ainsi qu'à son prix. Mais surtout, il en résulterait une grande confusion sur ce qu'est Bitcoin. Bitcoin est-il cette chaîne ou cette chaîne ?
 
 
-D'autre part, le risque d'un Soft Fork activé par mineurs est dû au fait que les mineurs peuvent émettre de faux signaux, ce qui signifie que la part réelle de la puissance de hashage qui soutient le changement pourrait être plus petite qu'il n'y paraît. Si le soutien réel ne représente pas une majorité de la puissance de hashage, nous assisterons probablement à une scission en chaîne durable similaire à celle décrite dans le paragraphe précédent. Ce problème, ou du moins un problème similaire, s'est déjà produit dans la réalité lorsque le BIP66 a été déployé, mais il a été résolu en l'espace de 6 blocs environ.
+Le risque d'un soft fork activé par l'utilisateur est que les nouvelles règles soient activées même si la majorité de la puissance de hashage ne les soutient pas. Ce scénario entraînerait une rupture durable de la chaîne, qui persisterait jusqu'à ce que la majorité de la puissance de hashage adopte les nouvelles règles. Il pourrait être particulièrement difficile d'inciter les mineurs à passer à la nouvelle chaîne s'ils ont déjà extrait des blocs après la scission sur l'ancienne chaîne, car en changeant de branche, ils abandonneraient les récompenses de leurs propres blocs. Toutefois, il convient de mentionner un épisode remarquable : en mars 2013, une scission de longue durée s'est produite en raison d'un hard fork involontaire et, contrairement à cette incitation, deux grands pools de minage ont pris la décision d'abandonner leur branche de la scission afin de rétablir le consensus.
+
+
+D'autre part, le risque d'un soft fork activé par mineurs est dû au fait que les mineurs peuvent émettre de faux signaux, ce qui signifie que la part réelle de la puissance de hashage qui soutient le changement pourrait être plus petite qu'il n'y paraît. Si le soutien réel ne représente pas une majorité de la puissance de hashage, nous assisterons probablement à une scission en chaîne durable similaire à celle décrite dans le paragraphe précédent. Ce problème, ou du moins un problème similaire, s'est déjà produit dans la réalité lorsque le BIP66 a été déployé, mais il a été résolu en l'espace d'environ 6 blocs .
 
 
 #### Coûts d'une scission
 
 
-
-Jimmy Song [a parlé des coûts associés aux fourches Hard](https://btctranscripts.com/breaking-Bitcoin/2017/socialized-costs-of-Hard-forks/) lors du Breaking Bitcoin à Paris, mais une grande partie de ce qu'il a dit s'applique également à une rupture de chaîne due à un Soft Fork défaillant. Il a parlé des *externalités négatives* et les a définies comme le prix que quelqu'un d'autre doit payer pour vos propres actions :
+Jimmy Song [a parlé des coûts associés aux fourches Hard](https://btctranscripts.com/breaking-Bitcoin/2017/socialized-costs-of-Hard-forks/) lors du Breaking Bitcoin à Paris, mais une grande partie de ce qu'il a dit s'applique également à une rupture de chaîne due à un soft fork défaillant. Il a parlé des *externalités négatives* et les a définies comme le prix que quelqu'un d'autre doit payer pour vos propres actions :
 
 
 > L'exemple classique d'une externalité négative est celui d'une usine. Il s'agit peut-être d'une raffinerie de pétrole qui produit un bien qui est bon pour l'économie, mais qui produit également quelque chose qui constitue une externalité négative, comme la pollution. Ce n'est pas seulement quelque chose que tout le monde doit payer, nettoyer ou subir. Mais il y a aussi des effets de deuxième et troisième ordre, comme l'augmentation de la circulation vers l'usine en raison de l'augmentation du nombre de travailleurs qui doivent s'y rendre. Il se peut aussi que vous mettiez en danger la faune et la flore des environs. Ce n'est pas tout le monde qui doit payer pour les externalités négatives, il peut s'agir de personnes spécifiques, comme les personnes qui utilisaient auparavant cette route ou les animaux qui se trouvaient à proximité de l'usine, et qui paient également pour le coût de l'usine.
 
-Dans le contexte de Bitcoin, il illustre les externalités négatives en utilisant Bitcoin Cash (bcash), qui est un Hard Fork de Bitcoin crée peu avant cette conférence en 2017. Il classe les externalités négatives d'un Hard Fork en coûts ponctuels et en coûts permanents.
-
+Dans le contexte de Bitcoin, il illustre les externalités négatives en utilisant Bitcoin Cash (Bcash), qui est un hard fork de Bitcoin créé peu avant cette conférence en 2017. Il classe les externalités négatives d'un hard fork en coûts ponctuels et en coûts permanents.
 
 Parmi les nombreux exemples de coûts non récurrents, il cite ceux encourus par les plateformes d'échanges :
 
-
-> Nous avons donc un certain nombre de plateformes d'échanges et ils ont dû faire face à de nombreux coûts ponctuels. La première chose qui s'est produite, c'est que les dépôts et les retraits ont dû être interrompus pendant un jour ou deux pour ces plateformes d'échanges parce qu'elles ne savaient pas ce qui allait se passer. Nombre de ces plateformes d'échanges ont dû puiser dans les Cold storage parce que leurs utilisateurs demandaient du bcash. Cela fait partie de leurs obligations fiduciaires. Il faut également auditer le nouveau logiciel. C'est quelque chose que nous avons dû faire chez itbit. Nous voulons dépenser de l'argent liquide, comment faire ? Nous devons télécharger electron cash ? Y a-t-il des logiciels malveillants ? Nous devons procéder à un audit. Nous avons eu environ 10 jours pour déterminer si c'était bon ou pas. Ensuite, il faut décider si l'on va se contenter d'autoriser un retrait unique ou si l'on va inscrire cette nouvelle pièce sur la liste Il n'est pas facile pour une plateforme d'échange d'inscrire une nouvelle pièce, il y a toutes sortes de nouvelles procédures pour le stockage, la signature, les dépôts et les retraits du Cold storage. On peut aussi se contenter d'un événement ponctuel où l'on donne la monnaie à un moment donné et où l'on n'y pense plus. Mais cela pose aussi des problèmes. Enfin, quelle que soit la façon dont vous procédez, retrait ou inscription, vous aurez besoin d'une nouvelle infrastructure pour travailler avec ce token, même s'il s'agit d'un retrait unique. Vous avez besoin d'un moyen de donner ces jetons à vos utilisateurs. Encore une fois, le préavis est court. C'est ça ? Pas le temps de faire ça, il faut faire vite.
+> Nous avons donc un certain nombre de plateformes d'échanges et elles ont dû faire face à de nombreux coûts ponctuels. La première chose qui s'est produite, c'est que les dépôts et les retraits ont dû être interrompus pendant un jour ou deux pour ces plateformes d'échanges parce qu'elles ne savaient pas ce qui allait se passer. Nombre de ces plateformes d'échanges ont dû puiser dans les cold storage parce que leurs utilisateurs demandaient du Bcash. Cela fait partie de leurs obligations fiduciaires. Il faut également auditer le nouveau logiciel. C'est quelque chose que nous avons dû faire chez itBit. Nous voulons dépenser de l'argent liquide, comment faire ? Nous devons télécharger Electron Cash ? Y a-t-il des logiciels malveillants ? Nous devons procéder à un audit. Nous avons eu environ 10 jours pour déterminer si c'était bon ou pas. Ensuite, il faut décider si l'on va se contenter d'autoriser un retrait unique ou si l'on va inscrire cette nouvelle pièce sur la liste. Il n'est pas facile pour une plateforme d'échange d'inscrire une nouvelle pièce, il y a toutes sortes de nouvelles procédures pour le stockage, la signature, les dépôts et les retraits du cold storage. On peut aussi se contenter d'un événement ponctuel où l'on donne la monnaie à un moment donné et où l'on n'y pense plus. Mais cela pose aussi des problèmes. Enfin, quelle que soit la façon dont vous procédez, retrait ou inscription, vous aurez besoin d'une nouvelle infrastructure pour travailler avec ce token, même s'il s'agit d'un retrait unique. Vous avez besoin d'un moyen de donner ces jetons à vos utilisateurs. Encore une fois, le préavis est court. C'est ça ? Pas le temps de faire ça, il faut faire vite.
 
 Il énumère également les coûts ponctuels supportés par les commerçants, les processeurs de paiement, les portefeuilles, les mineurs et les utilisateurs, ainsi que certains coûts permanents, tels que la perte de confidentialité et le risque accru de refonte.
-
 
 En effet, lorsqu'une scission se produit et que la chaîne qui applique les règles les plus générales devient plus forte que la chaîne qui applique les règles les plus strictes, une réorganisation se produit. Cela aura un impact sévère sur toutes les transactions effectuées dans la branche effacée. C'est pourquoi il est très important d'essayer d'éviter les scissions de chaînes à tout moment.
 
 
 ### Conclusion sur la mise à niveau
 
-
 Bitcoin grandit et évolue avec le temps. Différents mécanismes de mise à niveau ont été utilisés au fil des ans et la courbe d'apprentissage est raide. Des méthodes de plus en plus sophistiquées et robustes sont inventées au fur et à mesure que nous en apprenons davantage sur la façon dont le réseau réagit.
 
-
-Pour préserver l'harmonie de Bitcoin, les Soft forks se sont avérées être la voie à suivre, mais la grande question n'a pas encore trouvé de réponse : comment déployer en toute sécurité les fourches Soft sans provoquer de discorde ?
+Pour préserver l'harmonie de Bitcoin, les soft forks se sont avérées être la voie à suivre, mais la grande question n'a pas encore trouvé de réponse : comment déployer en toute sécurité les fourches Soft sans provoquer de discorde ?
 
 
 ## Pensée contradictoire
 
 <chapterId>d4982f3d-4694-51cc-99be-28f54b03a2a2</chapterId>
-
 
 ![](assets/fr/008.webp)
 
@@ -808,19 +793,15 @@ Nous avons donc un système qui semble fonctionner dans la pratique, mais dont n
 
 ### Pas seulement pour les experts Bitcoin
 
-
-
 L'importance de la pensée contradictoire s'étend également aux utilisateurs quotidiens de Bitcoin dans une certaine mesure, et pas seulement aux développeurs et experts hardcore de Bitcoin. Ragnar Lifthasir mentionne dans un [tweetstorm](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) comment les récits simplistes autour de Bitcoin - par exemple, "juste HODL" - peuvent être dégradants pour Bitcoin lui-même, et conclut en disant
 
 
-> Pour rendre Bitcoin et nous-mêmes plus forts, nous devons penser comme les ingénieurs logiciels qui contribuent à Bitcoin. Ils procèdent à une évaluation par les pairs, cherchant impitoyablement les failles. Lors de leurs événements techniques, ils parlent de toutes les façons dont une proposition peut échouer. Ils pensent de manière contradictoire. Ils sont conservateurs
+> Pour rendre Bitcoin et nous-mêmes plus forts, nous devons penser comme les ingénieurs logiciels qui contribuent à Bitcoin. Ils procèdent à une évaluation par les pairs, cherchant impitoyablement les failles. Lors de leurs événements techniques, ils parlent de toutes les façons dont une proposition peut échouer. Ils pensent de manière contradictoire. Ils sont conservateurs.
 
-Il qualifie ces récits simplistes de monomanies. Par cette définition, il veut dire qu'en se concentrant sur une seule chose, par exemple, "juste HODL", on risque de négliger des choses sans doute plus importantes, comme de garder son Bitcoin en sécurité ou de faire de son mieux pour utiliser Bitcoin d'une manière qui soit conforme à la Trustless.
+Il qualifie ces récits simplistes de monomanies. Par cette définition, il veut dire qu'en se concentrant sur une seule chose, par exemple, "juste HODL", on risque de négliger des choses sans doute plus importantes, comme de garder son Bitcoin en sécurité ou de faire de son mieux pour utiliser Bitcoin d'une manière qui soit conforme au Trustless.
 
 
 ### Menaces
-
-
 
 Il y a beaucoup de faiblesses connues dans Bitcoin, et beaucoup d'entre elles sont activement exploitées. Pour s'en rendre compte, il suffit de consulter la [page des faiblesses](https://en.Bitcoin.it/wiki/Weaknesses) sur le wiki Bitcoin. Il y est fait mention d'une grande variété de problèmes, tels que le vol de Wallet et les attaques par déni de service :
 
@@ -843,11 +824,10 @@ Les exemples ci-dessus sont des menaces réelles auxquelles il faut faire face.
 
 
 
-
 Pour mieux comprendre l'esprit de l'adversaire, il peut être utile d'avoir un aperçu de son mode de fonctionnement. Un organisme gouvernemental américain appelé Office of Strategic Services, qui opérait pendant la Seconde Guerre mondiale et dont l'un des objectifs était de mener des activités d'espionnage, de sabotage et de propagande, a publié un [manuel](https://www.gutenberg.org/ebooks/26184) à l'intention de son personnel sur la manière de saboter correctement l'ennemi. Intitulé "Simple Sabotage Field Manual", il contient des conseils concrets pour infiltrer l'ennemi et lui rendre la vie impossible. Les astuces vont de l'incendie d'entrepôts à l'usure des forets, dans le but de réduire l'efficacité de l'ennemi.
 
 
-Par exemple, une section traite de la manière dont un infiltré peut perturber les organisations. Il n'est pas difficile de voir comment de telles tactiques pourraient être utilisées pour cibler le processus de développement Bitcoin, auquel tout le monde peut participer. Un attaquant dévoué peut continuer à bloquer les progrès par des préoccupations interminables sur des questions non pertinentes, des marchandages sur des formulations précises et des tentatives de réitérer des discussions qui ont déjà été abordées de manière exhaustive. L'attaquant peut également engager une armée de trolls pour multiplier sa propre efficacité ; c'est ce que l'on appelle une attaque par Sybille sociale. Grâce à cette attaque, il peut faire croire que la résistance à un changement proposé est plus forte qu'elle ne l'est en réalité.
+Par exemple, une section traite de la manière dont un infiltré peut perturber les organisations. Il n'est pas difficile de voir comment de telles tactiques pourraient être utilisées pour cibler le processus de développement de Bitcoin, auquel tout le monde peut participer. Un attaquant dévoué peut continuer à bloquer les progrès par des préoccupations interminables sur des questions non pertinentes, des marchandages sur des formulations précises et des tentatives de réitérer des discussions qui ont déjà été abordées de manière exhaustive. L'attaquant peut également engager une armée de trolls pour multiplier sa propre efficacité ; c'est ce que l'on appelle une attaque par Sybille sociale. Grâce à cette attaque, il peut faire croire que la résistance à un changement proposé est plus forte qu'elle ne l'est en réalité.
 
 
 Cela montre qu'un État déterminé peut faire et fera tout ce qui est en son pouvoir pour détruire l'ennemi, y compris le briser de l'intérieur. Étant donné que Bitcoin est une forme de monnaie qui entre en concurrence avec les monnaies fiduciaires établies, il y a de fortes chances que les États considèrent Bitcoin comme un ennemi.
@@ -873,12 +853,9 @@ Cela signifie que pour travailler sur Bitcoin, vous devez accepter l'axiome de l
 
 ### Conclusion sur la pensée contradictoire
 
-
-
 Un système décentralisé ne peut avoir de responsabilité en dehors du système lui-même, c'est pourquoi Bitcoin doit prévenir les comportements malveillants de manière plus rigoureuse que les systèmes traditionnels. La pensée adverse est impérative dans un tel système.
 
-
-Pour assurer la sécurité de Bitcoin, il faut connaître ses ennemis et leurs motivations. La plupart des menaces semblent se résumer aux États-nations, qui disposent d'un énorme pouvoir économique, grâce à la fiscalité et à l'impression monétaire. Ils ne renonceront probablement pas facilement à leurs privilèges en matière d'impression monétaire.
+Pour assurer la sécurité de Bitcoin, il faut connaître ses ennemis et leurs motivations. La plupart des menaces semblent se résumer aux États-nations, qui disposent d'un énorme pouvoir économique  grâce à la fiscalité et à l'impression monétaire. Ils ne renonceront probablement pas facilement à leurs privilèges en matière d'impression monétaire.
 
 
 ## Source ouverte

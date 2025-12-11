@@ -1,6 +1,6 @@
 ---
 name: Ledger Nano S Plus
-description: Configuration et utilisation de la Ledger Nano S Plus
+description: Configuration et utilisation du Ledger Nano S Plus
 ---
 ![cover](assets/cover.webp)
 
@@ -14,41 +14,41 @@ Les hardware wallets s’utilisent en combinaison avec un logiciel de gestion de
 
 Les hardware wallets offrent une double protection pour l'utilisateur : d'une part, ils sécurisent vos bitcoins contre les attaques à distance en gardant les clés privées hors ligne, et d'autre part, ils offrent généralement une meilleure résistance physique face aux tentatives d'extraction des clés. Et c'est justement sur ces 2 critères de sécurité que l'on peut juger et classer les différents modèles existants sur le marché.
 
-Dans ce tutoriel, je vous propose de découvrir une de ces solutions : la **Ledger Nano S Plus**.
+Dans ce tutoriel, je vous propose de découvrir une de ces solutions : le **Ledger Nano S Plus**.
 
 ![NANO S PLUS LEDGER](assets/notext/01.webp)
 
-## Présentation de la Ledger Nano S Plus
+## Présentation du Ledger Nano S Plus
 
-La Ledger Nano S Plus est un hardware wallet produit par l’entreprise française Ledger, commercialisé au tarif de 79 €.
+Le Ledger Nano S Plus est un hardware wallet produit par l’entreprise française Ledger, commercialisé au tarif de 79 €.
 
 ![NANO S PLUS LEDGER](assets/notext/02.webp)
 
 La Nano S Plus est équipée d’une puce certifiée CC EAL6+ ("*secure element*"), ce qui vous offre une protection avancée contre les attaques physiques contre le hardware. L'écran et les boutons sont directement contrôlés par cette puce. Un point de critique souvent soulevé est que le code de cette puce n'est pas open-source, ce qui impose une certaine confiance dans l’intégrité de ce composant. Néanmoins, cet élément est audité par des experts indépendants.
 
-En termes d’usage, la Ledger Nano S Plus fonctionne uniquement en connexion filaire USB-C.
+En termes d’usage, le Ledger Nano S Plus fonctionne uniquement en connexion filaire USB-C.
 
 Ledger se distingue de ses concurrents par son adoption toujours très rapide des nouvelles fonctionnalités de Bitcoin, comme Taproot ou Miniscript par exemple, ce qui est très appréciable.
 
-Après l'avoir testée, je trouve que la Ledger Nano S Plus est un excellent hardware wallet d'entrée de gamme. Elle offre un haut niveau de sécurité pour un prix raisonnable. Son principal inconvénient par rapport à d'autres dispositifs de la même gamme de prix est le fait que le code de son micrologiciel ne soit pas open-source. Aussi, l'écran de la Nano S Plus est relativement petit comparé à d'autres modèles plus onéreux, tels que le Ledger Flex ou le Coldcard Q1. Néanmoins, son interface est très bien conçue : malgré ses deux boutons et son petit écran, elle reste facile à utiliser, y compris pour des fonctionnalités avancées telles que la passphrase BIP39. La Ledger Nano S Plus ne dispose pas de batterie, de connexion Air-gap, de caméra ni de port pour micro SD, mais c'est tout à fait normal pour cette gamme de prix.
+Après l'avoir testée, je trouve que le Ledger Nano S Plus est un excellent hardware wallet d'entrée de gamme. Elle offre un haut niveau de sécurité pour un prix raisonnable. Son principal inconvénient par rapport à d'autres dispositifs de la même gamme de prix est le fait que le code de son micrologiciel ne soit pas open-source. Aussi, l'écran de la Nano S Plus est relativement petit comparé à d'autres modèles plus onéreux, tels que le Ledger Flex ou le Coldcard Q1. Néanmoins, son interface est très bien conçue : malgré ses deux boutons et son petit écran, elle reste facile à utiliser, y compris pour des fonctionnalités avancées telles que la passphrase BIP39. Le Ledger Nano S Plus ne dispose pas de batterie, de connexion Air-gap, de caméra ni de port pour micro SD, mais c'est tout à fait normal pour cette gamme de prix.
 
-À mon avis, la Ledger Nano S Plus est une bonne option pour sécuriser votre portefeuille Bitcoin, et convient aussi bien aux débutants qu'aux utilisateurs intermédiaires. Cependant, dans cette gamme de prix, je préfère personnellement la Trezor Safe 3, qui offre à peu près les mêmes options. L'avantage de la Trezor réside selon moi dans la gestion de son élément sécurisé : la phrase mnémonique et les clés sont gérées exclusivement par du code open-source, mais bénéficient tout de même de la protection de la puce. L'inconvénient de Trezor est qu'ils sont parfois très lents dans l'implémentation des nouvelles fonctionnalités contrairement à Ledger.
+À mon avis, le Ledger Nano S Plus est une bonne option pour sécuriser votre portefeuille Bitcoin, et convient aussi bien aux débutants qu'aux utilisateurs intermédiaires. Cependant, dans cette gamme de prix, je préfère personnellement la Trezor Safe 3, qui offre à peu près les mêmes options. L'avantage de la Trezor réside selon moi dans la gestion de son élément sécurisé : la phrase mnémonique et les clés sont gérées exclusivement par du code open-source, mais bénéficient tout de même de la protection de la puce. L'inconvénient de Trezor est qu'ils sont parfois très lents dans l'implémentation des nouvelles fonctionnalités contrairement à Ledger.
 
-## Comment acheter une Ledger Nano S Plus ?
+## Comment acheter un Ledger Nano S Plus ?
 
-La Ledger Nano S Plus est disponible à la vente [sur le site officiel](https://shop.ledger.com/products/ledger-nano-s-plus). Pour l'acheter dans une boutique physique, vous pouvez également retrouver [la liste des revendeurs certifiés](https://www.ledger.com/reseller) sur le site de Ledger.
+Le Ledger Nano S Plus est disponible à la vente [sur le site officiel](https://shop.ledger.com/products/ledger-nano-s-plus). Pour l'acheter dans une boutique physique, vous pouvez également retrouver [la liste des revendeurs certifiés](https://www.ledger.com/reseller) sur le site de Ledger.
 
 ## Prérequis
 
 Une fois votre Ledger Nano reçue, la première étape consiste à examiner l'emballage pour s'assurer qu'il n'a pas été ouvert. S'il est endommagé, cela pourrait indiquer que le hardware wallet a été compromis et qu'il pourrait ne pas être authentique.
 
 À l'ouverture, vous devriez trouver les éléments suivants dans la boîte : 
-- La Ledger Nano S Plus ;
+- Le Ledger Nano S Plus ;
 - Un câble USB-C vers USB-A ;
 - Une notice d'utilisation ;
 - Des cartons pour inscrire votre phrase mnémonique.
 
-Pour ce tutoriel, vous aurez besoin de 2 logiciels : Ledger Live pour initialiser la Ledger, et Sparrow Wallet pour gérer votre portefeuille Bitcoin. Téléchargez [Ledger Live](https://www.ledger.com/ledger-live) et [Sparrow Wallet](https://sparrowwallet.com/download/) depuis leurs sites officiels.
+Pour ce tutoriel, vous aurez besoin de 2 logiciels : Ledger Live pour initialiser le Ledger, et Sparrow Wallet pour gérer votre portefeuille Bitcoin. Téléchargez [Ledger Live](https://www.ledger.com/ledger-live) et [Sparrow Wallet](https://sparrowwallet.com/download/) depuis leurs sites officiels.
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
 
@@ -56,7 +56,7 @@ Pour ces deux logiciels, je vous recommande fortement de vérifier à la fois le
 
 https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
-## Comment initialiser une Ledger Nano ?
+## Comment initialiser un Ledger Nano ?
 
 Branchez votre Nano à votre ordinateur sur lequel Ledger Live et Sparrow Wallet sont installés. Pour naviguer sur votre Ledger, utilisez le bouton de gauche pour aller à gauche et celui de droite pour aller à droite. Pour sélectionner ou confirmer une option, appuyez simultanément sur les deux boutons.
 
@@ -94,7 +94,7 @@ Vous pouvez parcourir ces instructions et passer les pages en cliquant sur le bo
 
 ![NANO S PLUS LEDGER](assets/notext/10.webp)
 
-La Ledger va créer votre phrase mnémonique en utilisant son générateur de nombres aléatoires. Assurez-vous de ne pas être observé durant cette opération. Notez les mots fournis par la Ledger sur le support physique de votre choix. Selon votre stratégie de sécurisation, vous pouvez envisager de réaliser plusieurs copies physiques complètes de la phrase (mais surtout, ne la divisez pas). Il est important de conserver les mots numérotés et dans l'ordre séquentiel.
+Le Ledger va créer votre phrase mnémonique en utilisant son générateur de nombres aléatoires. Assurez-vous de ne pas être observé durant cette opération. Notez les mots fournis par le Ledger sur le support physique de votre choix. Selon votre stratégie de sécurisation, vous pouvez envisager de réaliser plusieurs copies physiques complètes de la phrase (mais surtout, ne la divisez pas). Il est important de conserver les mots numérotés et dans l'ordre séquentiel.
 
 ***Évidemment, vous ne devez jamais partager ces mots sur internet, contrairement à ce que je fais dans ce tutoriel. Ce portefeuille en exemple sera utilisé uniquement sur le Testnet et sera supprimé à l'issue du tutoriel.***
 
@@ -112,7 +112,7 @@ Cliquez sur le deux boutons "*Confirm your Recovery phrase*", puis sélectionnez
 
 ![NANO S PLUS LEDGER](assets/notext/14.webp)
 
-Si la phrase que vous confirmez correspond exactement à celle que la Ledger vous a fournie à l'étape précédente, vous pourrez poursuivre. Si ce n'est pas le cas, cela indique que votre sauvegarde physique de la phrase mnémonique est incorrecte et que vous devez recommencer le processus.
+Si la phrase que vous confirmez correspond exactement à celle que le Ledger vous a fournie à l'étape précédente, vous pourrez poursuivre. Si ce n'est pas le cas, cela indique que votre sauvegarde physique de la phrase mnémonique est incorrecte et que vous devez recommencer le processus.
 
 ![NANO S PLUS LEDGER](assets/notext/15.webp)
 
@@ -258,7 +258,7 @@ Pour en savoir plus sur comment effectuer un test de récupération, je vous con
 
 https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
-## Comment recevoir des bitcoins avec la Ledger Nano ?
+## Comment recevoir des bitcoins avec le Ledger Nano ?
 
 Cliquez sur l'onglet "*Receive*".
 
@@ -294,9 +294,9 @@ Vous pouvez ensuite utiliser cette adresse pour recevoir des bitcoins.
 
 ![NANO S PLUS LEDGER](assets/notext/50.webp)
 
-## Comment envoyer des bitcoins avec la Ledger Nano ?
+## Comment envoyer des bitcoins avec le Ledger Nano ?
 
-Maintenant que vous avez reçu vos premiers sats sur votre portefeuille sécurisé avec la Nano S Plus, vous pouvez également les dépenser ! Connectez votre Ledger à votre ordinateur, déverrouillez-la, lancez Sparrow Wallet, puis allez dans l'onglet "*Send*" pour construire une nouvelle transaction.
+Maintenant que vous avez reçu vos premiers sats sur votre portefeuille sécurisé avec le Nano S Plus, vous pouvez également les dépenser ! Connectez votre Ledger à votre ordinateur, déverrouillez-la, lancez Sparrow Wallet, puis allez dans l'onglet "*Send*" pour construire une nouvelle transaction.
 
 ![NANO S PLUS LEDGER](assets/notext/51.webp)
 
@@ -352,11 +352,11 @@ Vous pouvez la retrouver dans l'onglet "*Transactions*" de Sparrow Wallet.
 
 ![NANO S PLUS LEDGER](assets/notext/64.webp)
 
-Félicitations, vous êtes maintenant au point sur l'utilisation de base de la Ledger Nano S Plus avec Sparrow Wallet ! Dans un prochain tutoriel, nous verrons comment utiliser la Ledger avec Liana pour tirer parti de Miniscript.
+Félicitations, vous êtes maintenant au point sur l'utilisation de base du Ledger Nano S Plus avec Sparrow Wallet ! Dans un prochain tutoriel, nous verrons comment utiliser le Ledger avec Liana pour tirer parti de Miniscript.
 
 Si vous avez trouvé ce tutoriel utile, je vous serais reconnaissant de laisser un pouce vert ci-dessous. N'hésitez pas à partager cet article sur vos réseaux sociaux. Merci beaucoup !
 
-Je vous conseille également de découvrir cet autre tutoriel complet sur la Ledger Flex :
+Je vous conseille également de découvrir cet autre tutoriel complet sur le Ledger Flex :
 
 https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 

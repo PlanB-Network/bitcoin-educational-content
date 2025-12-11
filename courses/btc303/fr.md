@@ -27,7 +27,7 @@ De nombreuses personnes sont impliquées dans le projet Bitcoin ; comme certaine
 
 ### Qui a écrit cela ?
 
-Ce cours est adapté du livre éponyme dont l’auteur principal est Kalle Rosenbaum. Linnéa Rosenbaum y a contribué en tant que coautrice.
+CCe cours est adapté du livre éponyme, dont l'auteur principal est Kalle Rosenbaum. Linnéa Rosenbaum y a contribué en tant que co-auteure.
 
 Ce livre a été commandé et financé par [Chaincode Labs](https://learning.chaincode.com/), un centre de développement qui organise des programmes éducatifs à l'intention des développeurs désireux de se familiariser avec le développement de Bitcoin.
 
@@ -53,8 +53,8 @@ Tout au long de ce cours, vous comprendrez mieux les valeurs et les stratégies 
 
 ### Les valeurs centrales du Bitcoin
 
-Qu’est-ce qui rend Bitcoin unique ?
-Cette section dévoile les valeurs fondamentales au cœur de sa conception. Vous y découvrirez la décentralisation, pierre angulaire qui empêche toute entité de contrôler le réseau ; la confiance minimisée, qui élimine la dépendance aux tiers ; la confidentialité, essentielle à la fois pour la liberté individuelle et l’intégrité du système ; ainsi que l’offre limitée, garantie codée de rareté qui façonne l’identité économique de Bitcoin.
+Qu'est-ce qui rend Bitcoin unique ? 
+Cette section révèle les valeurs fondamentales qui sont au cœur de la conception de Bitcoin. Vous découvrirez la décentralisation, la pierre angulaire qui garantit qu'aucune entité ne contrôle le réseau ; l'absence de confiance, la clé qui élimine la dépendance à l'égard des tiers ; la confidentialité, essentielle à la fois à la liberté individuelle et à l'intégrité du système ; et l'offre limitée, la garantie codée de la rareté qui façonne l'identité économique du Bitcoin. La maîtrise de ces concepts vous permettra d'appréhender pleinement les forces et les faiblesses de Bitcoin.
 
 Comprendre ces principes vous permettra de saisir pleinement les forces et les limites du protocole.
 
@@ -97,9 +97,9 @@ La décentralisation des mineurs dans Bitcoin signifie que "l'ordre des transact
 
 Si Bitcoin était centralisé, il serait vulnérable à ceux qui voudraient le censurer, comme les gouvernements. Il connaîtrait le même sort que les précédentes tentatives de création de monnaie numérique. Dans l'introduction d'un [document](https://www.blockstream.com/sidechains.pdf) intitulé "Enabling Blockchain Innovations with Pegged Sidechains", les auteurs expliquent que les premières versions de monnaies numériques n'étaient pas adaptées pour un environnement contradictoire (voir également le chapitre sur la pensée contradictoire dans la partie suivante).
 
-David Chaum a introduit la monnaie numérique comme sujet de recherche en 1983, dans un modèle reposant sur un serveur central chargé d’empêcher la double dépense. Pour réduire le risque d’atteinte à la vie privée inhérent à cette entité de confiance, et pour préserver la fongibilité, Chaum a proposé le mécanisme de signature aveugle. Celui-ci permettait au serveur de signer des « pièces » sans pouvoir relier les signatures aux utilisateurs, tout en conservant la capacité d’empêcher les doubles dépenses.
+David Chaum a présenté la monnaie numérique comme un sujet de recherche en 1983, dans un contexte où un serveur central est chargé d'empêcher la double dépense. Afin d'atténuer le risque de violation de la vie privée par cette partie centrale de confiance et d'assurer la fongibilité, Chaum a introduit la signature aveugle, qu'il a utilisée pour fournir un moyen cryptographique d'empêcher la liaison des signatures du serveur central (qui représentent des pièces de monnaie), tout en permettant au serveur central d'empêcher les doubles dépenses. 
 
-Cependant, la dépendance à un serveur central est devenue le talon d’Achille de la monnaie numérique [Gri99]. Même si l’on peut réduire ce point de défaillance unique en remplaçant la signature du serveur par une signature de seuil impliquant plusieurs signataires, l’auditabilité exige que ces signataires soient distincts et identifiables. Le système reste donc vulnérable : chacun de ces signataires peut tomber en panne ou être mis hors service un par un.
+La nécessité d'un serveur central est devenue le talon d'Achille de l'argent liquide numérique [Gri99]. Bien qu'il soit possible de répartir ce point de défaillance unique en remplaçant la signature du serveur central par une signature de seuil de plusieurs signataires, il est important pour l'auditabilité que les signataires soient distincts et identifiables. Le système reste donc vulnérable aux pannes, puisque chaque signataire peut tomber en panne ou être mis en panne un par un.
 
 Il est clairement apparu que l'utilisation d'un serveur central pour ordonner les transactions n'était pas une option viable en raison du risque élevé de censure. Même si l'on remplaçait le serveur central par une fédération d'un ensemble fixe de n serveurs, dont au moins m doivent approuver une commande, des difficultés subsisteraient. Le problème se déplacerait en effet vers une situation où les utilisateurs devraient se mettre d'accord sur cet ensemble de n serveurs ainsi que sur la manière de remplacer les serveurs malveillants par de bons serveurs sans dépendre d'une autorité centrale.
 

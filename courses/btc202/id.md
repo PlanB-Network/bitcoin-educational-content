@@ -1319,309 +1319,164 @@ Terakhir, ada aplikasi **_Nostr Wallet Connect_** di Umbrel, yang memungkinkan p
 
 Akhirnya, ada aplikasi ***Nostr Wallet Connect*** di Umbrel, yang memungkinkan pembayaran Lightning asli di dalam Nostr. Secara konkret, Anda dapat menghubungkan node Lightning Anda di masa depan ke klien Nostr Anda untuk mengirimkan mikro-pembayaran, disebut "*zaps*", guna memberi penghargaan pada konten atau berinteraksi secara termonetisasi tanpa melalui layanan pihak ketiga. Pembayaran ini dikirim langsung dari node pribadi Anda melalui saluran Anda.
 
-
-
 Untuk mengetahui cara menggunakan semua aplikasi ini, saya sarankan Anda membaca tutorial lengkap ini:
-
-
 
 https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
 
 ### Server BTCPay
 
+BTCPay Server adalah pemroses pembayaran open-source gratis yang memungkinkan Anda untuk menerima pembayaran melalui Bitcoin dan Lightning Network tanpa perantara, sambil mempertahankan self-custody.
 
-
-BTCPay Server adalah prosesor pembayaran sumber terbuka gratis yang memungkinkan Anda menerima pembayaran melalui Bitcoin dan Lightning Network tanpa perantara, sambil tetap menyimpan dana sendiri.
-
-
-
-Arsitektur BTCPay Server didasarkan pada node Bitcoin dan, untuk Lightning, pada implementasi yang kompatibel (LND, Core Lightning...), menjadikannya satu-satunya solusi PoS yang sepenuhnya non-kustodian. Ini juga merupakan perangkat lunak yang paling komprehensif untuk pelacakan dan akuntansi.
-
-
+Arsitektur BTCPay Server didasarkan pada Node Bitcoin dan, untuk Lightning, pada implementasi yang kompatibel (LND, Core Lightning...), menjadikannya salah satu dari sedikit solusi PoS (Point of Sale) yang sepenuhnya non-custodial (nirkustodial). Ini juga merupakan perangkat lunak yang paling komprehensif untuk pelacakan dan akuntansi.
 
 ![Image](assets/fr/091.webp)
 
-
-
-Jika Anda memiliki bisnis dan ingin menerima pembayaran Bitcoin secara langsung melalui node Umbrel Anda, aplikasi BTCPay Server sangat ideal untuk Anda. Untuk mengetahui lebih lanjut tentang hal ini, saya sarankan Anda membaca sumber-sumber berikut:
-
-
-
-
+Jika Anda memiliki bisnis dan ingin menerima pembayaran bitcoin secara langsung melalui node Umbrel Anda, aplikasi BTCPay Server sangat ideal untuk Anda. Untuk mengetahui lebih lanjut tentang subjek ini, saya merekomendasikan Anda memperhatikan dengan sumber-sumbber berikut:
 
 - Kursus BIZ 101 tentang penggunaan Bitcoin dalam bisnis Anda:
 
-
-
 https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
-
-
 
 - Kursus POS 305 tentang penggunaan BTCPay Server:
 
-
-
 https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
-
-
 
 - Tutorial Server BTCPay:
 
-
-
 https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
-
 
 # Konsep lanjutan dan praktik terbaik
 
-
 <partId>fc77a62a-8d9f-4144-9080-3057b04db2c6</partId>
-
-
 
 ## Merawat node Umbrel Anda
 
-
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
 
+Untuk mengawali bagian akhir ini, dan sebelum beralih ke teori yang lebih lanjut, saya ingin mengulas praktik terbaik dan tindakan nyata yang dapat Anda lakukan setelah node Umbrel Anda dipasang, disinkronkan, dan dikonfigurasi dengan benar dalam bab singkat ini. Bagaimana cara Anda memeliharanya setiap hari?
 
+### Menjaga Kesehatan Peralatan (Hardware)
 
-Untuk memulai bagian terakhir ini, dan sebelum beralih ke teori yang lebih lanjut, saya ingin membahas praktik terbaik dan tindakan nyata yang dapat Anda lakukan setelah node Umbrel Anda terinstal, tersinkronisasi, dan terkonfigurasi dengan benar dalam bab singkat ini. Bagaimana Anda memeliharanya setiap hari?
+Node yang andal dimulai dengan hardware yang stabil. Pastikan mesin yang menampung node Anda memiliki ventilasi baik, bebas debu, dan dipasang di lingkungan kering, jauh dari sumber panas dan kelembapan. Hindari menjejalkannya ke ruang terbatas dan pilih lokasi yang berventilasi baik.
 
+Pada Raspberry Pi dan mini-PC, debu pada akhirnya akan menyumbat heatsink, meningkatkan suhu dan menyebabkan throttling (pembatasan penggunaan sumber daya secara otomatis), yang pada gilirannya akan menurunkan efisiensi node Anda. Itulah mengapa saya menyarankan untuk membersihkan saluran udara dan kipas secara berkala, idealnya setiap beberapa bulan sekali.
 
+Pastikan Anda menggunakan power supply berkualitas tinggi, karena tegangan yang tidak stabil dapat menyebabkan kerusakan sistem dan bahkan menimbulkan bahaya kebakaran. Idealnya, Anda harus menggunakan power supply asli yang disediakan oleh produsen mesin Anda. Waspadai juga panas berlebih karena efek panas berlebih pada kabel ekstensi (power strips): selalu patuhi daya maksimum yang diizinkan dan jangan pernah menyambungkan beberapa kabel ekstensi secara bertingkat (in cascade).
 
-### Menjaga peralatan tetap sehat
+Saya juga merekomendasikan untuk berinvestasi pada UPS (Uninterruptible Power Supply). Ini melindungi node Anda dari pemadaman mendadak, memungkinkan Umbrel untuk mematikan sistem dengan aman (cleanly shut down) jika terjadi pemadaman, dan memastikan kelangsungan operasi selama pemadaman mikro atau kegagalan jangka pendek.
 
+Di sisi penyimpanan, perhatikan perkembangannya: jika disk mendekati titik penuhnya, pertimbangkan untuk mengosongkan ruang (copot pemasangan aplikasi yang tidak digunakan, sesuaikan pengaturan indexer) atau migrasi ke SSD yang lebih besar. Kekurangan dari full node Bitcoin adalah persyaratan penyimpanannya meningkat terus-menerus, karena blok baru dibuat setiap 10 menit dan blok lama tidak dapat dihapus (kecuali node dipangkas/ pruned). Oleh karena itu, saya menyarankan Anda untuk merencanakan kapasitas yang cukup besar saat membeli hardware Anda (minimum 2 TB).
 
+### Pembaruan (Update)
 
-Node yang andal dimulai dengan perangkat keras yang stabil. Pastikan mesin yang menjadi tempat node Anda memiliki ventilasi yang baik, bebas Dust, dan dipasang di lingkungan yang kering, jauh dari sumber panas dan kelembapan. Hindari menjejalkannya ke dalam ruang terbatas dan pilihlah lokasi yang berventilasi baik.
+Pembaruan node penting karena tiga alasan utama: pertama, keamanan (patch kerentanan, keamanan jaringan, dan perlindungan DoS); kedua, kompatibilitas (perubahan kebijakan relai, perubahan format, dan peningkatan protokol); dan ketiga, keandalan dan kinerja (perbaikan bug, konsumsi sumber daya, dan peningkatan lainnya). Jadi, periksa secara berkala bahwa UmbrelOS dan aplikasi Anda sudah diperbarui:
 
-
-
-Pada Raspberry Pi dan mini-PC, Dust pada akhirnya akan menyumbat heatsink, meningkatkan suhu dan menyebabkan throttling (pembatasan penggunaan sumber daya secara sukarela), yang pada gilirannya akan menurunkan efisiensi node Anda. Itulah mengapa saya menyarankan untuk membersihkan saluran udara dan kipas secara berkala, idealnya setiap beberapa bulan sekali.
-
-
-
-Pastikan Anda menggunakan Supply daya berkualitas tinggi, karena tegangan yang tidak stabil dapat menyebabkan kerusakan sistem dan bahkan menimbulkan bahaya kebakaran. Idealnya, Anda harus menggunakan Supply daya asli yang disediakan oleh produsen mesin Anda. Waspadai juga panas berlebih akibat efek Joule pada soket ekstensi: selalu patuhi daya maksimum yang diizinkan dan jangan pernah menyambungkan beberapa soket ekstensi secara bertingkat.
-
-
-
-Saya juga menyarankan untuk berinvestasi dalam UPS. Hal ini melindungi node Anda dari pemadaman mendadak, memungkinkan Umbrel untuk mati dengan bersih jika terjadi pemadaman, dan memastikan kontinuitas operasi selama pemadaman mikro atau kegagalan jangka pendek.
-
-
-
-Di sisi penyimpanan, perhatikan perkembangannya: jika disk mendekati titik jenuh, pertimbangkan untuk mengosongkan ruang (hapus instalan aplikasi yang tidak terpakai, sesuaikan pengaturan pengindeks) atau migrasi ke SSD yang lebih besar. Kerugian dari node Bitcoin yang penuh adalah kebutuhan penyimpanannya terus meningkat, karena blok baru dibuat setiap 10 menit dan blok lama tidak dapat dihapus (kecuali jika node tersebut adalah pruned). Oleh karena itu, saya menyarankan Anda untuk merencanakan kapasitas yang cukup besar saat membeli perangkat keras Anda (minimal 2 TB).
-
-
-
-### Memperbarui
-
-
-
-Pembaruan node penting untuk tiga alasan utama: pertama, keamanan (patch kerentanan, pengerasan jaringan, dan perlindungan DoS); kedua, kompatibilitas (perubahan kebijakan relai, perubahan format, dan peningkatan protokol); dan ketiga, keandalan dan kinerja (perbaikan bug, konsumsi sumber daya, dan peningkatan lainnya). Jadi, periksa secara berkala apakah UmbrelOS dan aplikasi Anda sudah diperbarui:
-
-
-
-
-
-- Untuk memperbarui sistem: Buka menu pengaturan, lalu klik tombol "*Periksa Pembaruan*" di samping parameter "*UmbrelOS*".
-
-
+- Untuk memperbarui sistem: Buka menu pengaturan, lalu klik tombol _"Check for Update"_ di sebelah parameter "_UmbrelOS_".
 
 ![Image](assets/fr/042.webp)
 
-
-
-
-
 - Untuk memperbarui aplikasi: Buka App Store. Jika ada aplikasi Anda yang perlu diperbarui, tombol dengan gelembung merah akan muncul di sudut kanan atas Interface. Cukup klik tombol tersebut, lalu perbarui setiap aplikasi.
 
+Lakukan operasi ini secara teratur untuk menjaga sistem operasi dan aplikasi Anda tetap mutakhir.
 
+### Cadangan (backups)
 
-Lakukan operasi ini secara teratur untuk menjaga agar sistem operasi dan aplikasi Anda tetap mutakhir.
+Jika Anda hanya menggunakan Node Bitcoin Anda untuk memvalidasi dan mendistribusikan transaksi Anda, tetapi wallet Anda dikelola di luar Umbrel (misalnya, dengan Hardware Wallet dan wallet Sparrow), tidak ada yang perlu di-backup secara langsung di Umbrel. Dalam kasus ini, cadangan penting tetaplah frasa pemulihan (recovery phrase) dan Descriptor dari wallet eksternal Anda, dan ini berlaku apakah Anda menggunakan node Anda sendiri atau tidak. Jadi, tidak ada yang berubah dari konfigurasi Anda sebelumnya.
 
+Di sisi lain, tergantung pada aplikasi tambahan yang Anda gunakan di Umbrel, cadangan lebih lanjut mungkin diperlukan. Ini terutama berlaku jika Anda mengoperasikan Node Lightning di Umbrel. Dalam hal ini, sangat penting untuk mencadangkan seed yang diberikan saat Anda memasang Node Lightning Anda. Selain seed, Anda memerlukan ***Static Channel Backup (SCB)*** memungkinkan Anda memulihkan dana Anda dengan menutup channel secara paksa.  Jika salah satu dari seed atau SCB tidak ada, maka tidak mungkin untuk memulihkan node Lightning.
 
+Umbrel juga menawarkan opsi untuk secara otomatis dan dinamis mencadangkan SCB ini di server mereka, melalui Tor, untuk memastikan bahwa file yang terbaru selalu tersedia. Dalam kasus ini, hanya seed yang diperlukan untuk memulihkan node.
 
-### Cadangan
+Kami akan membahas kembali aspek-aspek ini secara rinci di kursus LNP202 berikutnya.
 
+### Keamanan operasional sehari-hari
 
+Dalam hal keamanan, gunakan kata sandi yang panjang, unik, dan acak untuk Interface Umbrel, dan ingatlah untuk mengaktifkan otentikasi dua faktor (2FA). Untuk aplikasi yang menawarkan perlindungan kata sandi dan 2FA, selalu aktifkan keduanya dan ubah kata sandi default.
 
-Jika Anda hanya menggunakan node Bitcoin untuk memvalidasi dan mendistribusikan transaksi Anda, tetapi dompet Anda dikelola di luar Umbrel (misalnya, dengan Hardware Wallet dan Sparrow wallet), tidak ada yang perlu dicadangkan langsung ke Umbrel. Dalam kasus ini, cadangan penting tetap menggunakan frasa pemulihan dan Descriptor dari Wallet eksternal Anda, dan ini berlaku baik Anda menggunakan node Anda sendiri atau tidak. Jadi tidak ada yang berubah dari konfigurasi Anda sebelumnya.
-
-
-
-Di sisi lain, tergantung pada aplikasi tambahan yang Anda gunakan di Umbrel, pencadangan lebih lanjut mungkin diperlukan. Hal ini terutama terjadi jika Anda mengoperasikan node Lightning pada Umbrel. Dalam kasus ini, sangat penting untuk mencadangkan seed yang disertakan saat Anda memasang node Lightning. Selain seed, Anda memerlukan ***Static Channel Backup (SCB)*** yang mutakhir untuk dapat memulihkan node Lightning Anda jika terjadi masalah. SCB memungkinkan Anda untuk memulihkan dana Anda dengan menutup saluran secara paksa. Jika salah satu dari seed atau SCB tidak ada, maka tidak mungkin untuk memulihkan node Lightning.
-
-
-
-Umbrel juga menawarkan opsi untuk mencadangkan SCB ini secara otomatis dan dinamis di server mereka, melalui Tor, untuk memastikan bahwa file terbaru selalu tersedia. Dalam hal ini, hanya seed yang diperlukan untuk memulihkan node.
-
-
-
-Kita akan meninjau kembali aspek-aspek ini secara rinci dalam kursus LNP202 berikutnya.
-
-
-
-### Keselamatan operasional sehari-hari
-
-
-
-Dari segi keamanan, gunakan kata sandi yang panjang, unik, dan acak untuk Interface Umbrel, dan ingatlah untuk mengaktifkan otentikasi dua faktor (2FA). Untuk aplikasi yang menawarkan perlindungan kata sandi dan 2FA, selalu aktifkan keduanya dan ubah kata sandi default.
-
-
-
-Jangan pernah membuka dasbor ke Internet tanpa menggunakan gateway yang aman (seperti VPN, Tor, atau akses lokal saja). Batasi jumlah aplikasi yang Anda instal, dan hapus aplikasi yang tidak Anda perlukan secara teratur, untuk mengurangi permukaan serangan.
-
-
+Jangan pernah mengekspos dashboard ke Internet tanpa menggunakan gateway yang aman (seperti VPN, Tor, atau akses lokal saja). Batasi jumlah aplikasi yang Anda pasang, dan hapus secara teratur aplikasi yang tidak lagi Anda butuhkan, untuk mengurangi celah serangan.
 
 Untuk memperdalam pengetahuan Anda tentang keamanan komputer secara umum, saya sangat menyarankan Anda untuk melihat kursus gratis ini:
-
-
 
 https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Diagnosis dan bantuan mandiri
 
+Jika terjadi bug pada Umbrel Anda, pertama-tama buat bundel diagnostik melalui bagian pemecahan masalah (troubleshooting) UmbrelOS atau aplikasi yang bersangkutan, lalu restart aplikasi dengan aman (cleanly restart). Jika perlu, coba juga reboot sistem secara keseluruhan.
 
+Jika masalah berlanjut, saya sarankan Anda [bergabung dengan komunitas pengguna Umbrel di Discord mereka](https://discord.gg/efNtFzqtdx). Mulailah dengan melakukan pencarian untuk menentukan apakah ada orang lain yang pernah mengalami kesulitan yang sama dan menemukan solusinya. Jika tidak, Anda dapat memposting pesan di channel `general-support`. Anda juga dapat menggunakan [forum Umbrel](https://community.umbrel.com/).
 
-Jika terjadi bug pada Umbrel Anda, pertama-tama generate bundel diagnostik melalui bagian pemecahan masalah UmbrelOS atau aplikasi yang bersangkutan, kemudian restart aplikasi dengan bersih. Jika perlu, cobalah juga untuk melakukan boot ulang sistem secara keseluruhan.
+Area-area ini akan memungkinkan Anda tidak hanya untuk mengikuti pengumuman keamanan dan pembaruan, tetapi juga untuk mengajukan pertanyaan dan, pada akhirnya, untuk membantu pengguna lain. Seringkali dalam pertukaran inilah praktik terbaik ditemukan.
 
-
-
-Jika masalah terus berlanjut, saya sarankan Anda [bergabunglah dengan komunitas pengguna Umbrel di Discord mereka](https://discord.gg/efNtFzqtdx). Mulailah dengan melakukan pencarian untuk menentukan apakah ada orang yang mengalami kesulitan yang sama dan menemukan solusinya. Jika belum, Anda bisa mengirim pesan di saluran `dukungan umum`. Anda juga bisa menggunakan [forum Umbrel](https://community.umbrel.com/).
-
-
-
-Area-area ini memungkinkan Anda tidak hanya untuk mengikuti pengumuman dan pembaruan keamanan, tetapi juga untuk mengajukan pertanyaan dan, pada akhirnya, membantu pengguna lain. Sering kali di dalam bursa inilah praktik-praktik terbaik ditemukan.
-
-
-
-Dengan kebiasaan sederhana ini, node Umbrel Anda akan tetap stabil, aman, dan berguna, baik untuk Anda maupun jaringan Bitcoin.
-
-
-
+Dengan kebiasaan sederhana ini, node Umbrel Anda akan tetap stabil, aman, dan berfungsi, baik untuk Anda maupun untuk jaringan Bitcoin.
 
 ## Memahami IBD dan proses penemuan teman sebaya
 
-
 <chapterId>175ac9d1-ea23-45d9-9918-d3e7352435cd</chapterId>
 
-
-
-Node Bitcoin Anda dimulai tanpa mengetahui riwayat transaksi sebelumnya. Awalnya, ini hanyalah sebuah komputer yang menjalankan perangkat lunak (Bitcoin core atau sejenisnya). Untuk menjadi node Bitcoin yang tersinkronisasi dan beroperasi penuh, node ini harus merekonstruksi keadaan Ledger secara lokal dengan memeriksa semua blok yang diterbitkan sejak blok Genesis (blok 0, yang diterbitkan oleh Satoshi Nakamoto pada tanggal 3 Januari 2009). Langkah ini disebut **IBD (_Initial Block Download_)**.
-
-
+Node Bitcoin Anda dimulai tanpa mengetahui tentang riwayat transaksi sebelumnya. Awalnya, itu hanya komputer yang menjalankan perangkat lunak (Bitcoin Core atau yang serupa). Untuk menjadi Node Bitcoin yang tersinkronisasi dan beroperasi penuh, ia harus merekonstruksi keadaan buku besar secara lokal dengan memeriksa semua blok yang dipublikasikan sejak Genesis block (blok 0, yang dipublikasikan oleh Satoshi Nakamoto pada 3 Januari 2009). Langkah ini disebut **IBD (_Initial Block Download_)**.
 
 IBD terdiri dari mengunduh dan memverifikasi setiap blok dan transaksi satu per satu, dengan menerapkan aturan konsensus, untuk membangun versinya sendiri dari Blockchain. Tujuannya bukan hanya untuk mengambil salinan data yang belum diverifikasi, tetapi untuk sampai pada kesimpulan yang sama sepenuhnya secara independen, sebagai mayoritas yang jujur dari jaringan.
 
-
+IBD terdiri dari pengunduhan dan verifikasi setiap blok dan transaksi secara individual, menerapkan aturan konsensus, untuk membangun versinya sendiri dari Blockchain. Tujuannya bukan sekadar mengambil salinan data yang tidak terverifikasi, tetapi untuk mencapai kesimpulan yang sama secara sepenuhnya independen, seperti mayoritas yang jujur dari jaringan.
 
 ![Image](assets/fr/092.webp)
 
-
-
-### Pencapaian IBD
+### Tahapan IBD
 
 
 
 Sinkronisasi dimulai dengan langkah _**headers-first**_. Node Anda meminta urutan header blok dari beberapa rekan dan, untuk masing-masing, memverifikasi Proof of Work, penyesuaian kesulitan, sintaksis, serta Timestamp dan aturan nomor versi. Singkatnya, ini memastikan bahwa setiap header yang diterima sesuai dengan aturan konsensus.
 
-
-
 ![Image](assets/fr/093.webp)
 
-
-
-Sebagai pengingat, blok Bitcoin terdiri dari header 80-byte dan daftar transaksi. Sidik jari blok diperoleh dengan menerapkan SHA-256 Hash ganda pada header ini, yang berisi 6 bidang:
-
-
-
+Sebagai pengingat, blok Bitcoin terdiri dari header 80-byte dan daftar transaksi. Sidik jari blok diperoleh dengan menerapkan Hash SHA-256 ganda pada header ini, yang berisi 6 kolom:
 
 - versi
 - Hash dari blok sebelumnya
-- Merkle Root transaksi
+- Merkle root of transactions
 - Timestamp (lebih besar dari waktu rata-rata 11 blok sebelumnya)
 - target kesulitan
 - Nonce
 
-
-
 ![Image](assets/fr/094.webp)
 
-
-
-Transaksi dilakukan pada sebuah Merkle Tree. Ini merupakan struktur yang meringkas sekumpulan besar data (dalam hal ini, semua transaksi dalam blok) dengan menggabungkan hash mereka secara progresif dua per dua ke satu "root", sehingga membuktikan bahwa sebuah elemen adalah bagian dari kumpulan tersebut (dan mendeteksi modifikasi apa pun). Dengan cara ini, setiap modifikasi pada transaksi juga memodifikasi root dari Merkle Tree dan oleh karena itu sidik jari header blok. SegWit telah memperkenalkan Commitment tambahan yang terpisah untuk cookie (tanda tangan), yang ditempatkan di dalam basis koin.
-
-
+Transaksi dikomit ke Merkle tree. Ini adalah struktur yang merangkum sejumlah besar data (dalam hal ini, semua transaksi dalam blok) dengan menggabungkan hash-nya secara progresif dua per dua hingga ke "root" tunggal, sehingga membuktikan bahwa suatu elemen termasuk dalam set (dan mendeteksi modifikasi apa pun). Dengan cara ini, modifikasi apa pun pada transaksi juga memodifikasi root Merkle tree dan oleh karena itu sidik jari header blok. SegWit telah memperkenalkan komitmen tambahan terpisah untuk cookies (signature), ditempatkan di coinbase.
 
 ![Image](assets/fr/095.webp)
 
+Langkah _**headers-first**_ ini memungkinkan node untuk mengidentifikasi cabang dengan work terbanyak (terlepas dari jumlah bloknya), yaitu cabang tempat Node Bitcoin bersinkronisasi. Setelah cabang ini diidentifikasi, node mengunduh konten blok secara paralel dari beberapa koneksi, kemudian memvalidasi setiap transaksi: format, validitas script (kecuali `assumevalid=1`), jumlah, dan tidak adanya double spending. Dengan setiap pemeriksaan yang berhasil, status koin yang belum terpakai (unspent coins) saat ini (UTXO set) diperbaruidalam database `chainstate/`: output yang terpakai dihapus, sementara output valid yang baru ditambahkan.
 
+Mempool, di sisi lain, hanya mulai berperan ketika mendekati ujung rantai (tip of the chain): selama node tetap tertinggal, ia tidak memiliki transaksi yang tertunda untuk disimpan.
 
-Langkah _**headers-first**_ ini memungkinkan node untuk mengidentifikasi cabang yang paling banyak bekerja (terlepas dari jumlah bloknya), yang merupakan cabang tempat node Bitcoin melakukan sinkronisasi. Setelah cabang ini diidentifikasi, node akan mengunduh isi blok secara paralel dari beberapa koneksi, kemudian memvalidasi setiap transaksi: format, validitas skrip (kecuali `assumevalid=1`), jumlah, dan tidak adanya pengeluaran ganda. Dengan setiap pemeriksaan yang berhasil, status koin yang tidak terpakai (set UTXO) saat ini diperbarui dalam database `chainstate/`: output yang terpakai akan dihapus, sementara output baru yang valid akan ditambahkan.
-
-
-
-Mempool, di sisi lain, hanya berperan ketika mendekati ujung rantai: selama node tetap terlambat, tidak ada transaksi yang tertunda untuk disimpan.
-
-
-
-Setelah IBD selesai, node memasuki fase normalnya: node memvalidasi blok baru saat diterbitkan, mempertahankan Mempool dengan transaksi yang tertunda sesuai dengan aturan relai, merelay transaksi dan blok, dan mengelola reorganisasi rantai.
-
-
+Setelah IBD selesai, node memasuki fase normalnya: ia memvalidasi blok baru saat dipublikasikan, mempertahankan Mempool-nya dengan transaksi yang tertunda sesuai dengan aturan relai, merelai transaksi dan blok, dan mengelola reorganisasi chain apa pun.
 
 ### AsumsikanValid
 
+Bitcoin Core menggabungkan mekanisme yang dirancang untuk mengurangi waktu yang dibutuhkan sebelum node beroperasi penuh, sambil mempertahankan esensi dari prinsip verifikasi otonom: AssumeValid.
 
+Parameter `assumevalid` didasarkan pada blok referensi masa lalu, yang hash-nya diintegrasikan ke dalam setiap versi perangkat lunak. Selama IBD, jika node Anda menemukan bahwa blok ini memang berada di cabang dengan work terbanyak, ia dapat mengabaikan verifikasi script untuk semua transaksi sebelum titik ini.
 
-Bitcoin core menggabungkan mekanisme yang dirancang untuk mengurangi waktu yang dibutuhkan sebelum sebuah node beroperasi penuh, dengan tetap mempertahankan esensi dari prinsip verifikasi otonom: AsumsikanValid.
+Semua aturan lain (struktur blok, proof of work, batas ukuran, jumlah transaksi, UTXO, dll.) tetap diverifikasi sepenuhnya. Hanya perhitungan script sebelum blok referensi ini yang diabaikan. Keuntungan kinerja signifikan pada IBD, karena verifikasi signature menyumbang sebagian besar dari beban CPU. Di luar blok referensi ini, verifikasi kembali ke keadaan normalnya.
 
-
-
-Parameter `assumevalid` didasarkan pada blok referensi sebelumnya, yaitu Hash yang diintegrasikan ke dalam setiap versi perangkat lunak. Selama IBD, jika node Anda menemukan bahwa blok ini memang berada di cabang yang paling banyak bekerja, node tersebut dapat mengabaikan verifikasi skrip untuk semua transaksi sebelum titik ini.
-
-
-
-Semua aturan lainnya (struktur blok, Proof of Work, batas ukuran, jumlah transaksi, UTXO, dll.) tetap diverifikasi sepenuhnya. Hanya perhitungan skrip sebelum blok referensi ini yang diabaikan. Peningkatan kinerja sangat signifikan pada IBD, karena verifikasi tanda tangan menyumbang sebagian besar beban CPU. Di luar blok referensi ini, verifikasi kembali ke kondisi normal.
-
-
-
-Anda dapat memaksa validasi penuh semua skrip dengan menonaktifkan mekanisme ini, dengan biaya IBD yang lebih lama, menggunakan parameter `assumevalid=0` di file `Bitcoin.conf`.
-
-
+Anda dapat memaksa validasi penuh semua script dengan menonaktifkan mekanisme ini, dengan biaya IBD yang jauh lebih lama, menggunakan parameter `assumevalid=0` di file `Bitcoin.conf`.
 
 ### AsumsikanUTXO
 
+`assumeutxo` adalah parameter lain yang ada, tetapi tidak seperti `assumevalid`, parameter ini tidak diaktifkan secara default. Mekanisme ini memungkinkan perangkat lunak untuk memuat snapshot dari UTXO set, bersama dengan metadata-nya, dan mempertimbangkannya secara sementara sebagai keadaan referensi, setelah memverifikasi bahwa header memang mengarah ke Blockchain dengan work terbanyak.
 
-
-`assumeutxo` adalah parameter lain yang ada, tetapi tidak seperti `assumevalid`, parameter ini tidak diaktifkan secara default. Mekanisme ini memungkinkan perangkat lunak untuk memuat snapshot dari set UTXO, bersama dengan metadata, dan untuk sementara menganggapnya sebagai status referensi, setelah memverifikasi bahwa header memang mengarah ke Blockchain yang paling banyak bekerja.
-
-
-
-Dengan demikian, node dengan cepat menjadi operasional untuk penggunaan umum (RPC, menghubungkan dompet, dll.), sambil secara bersamaan meluncurkan rekonstruksi lengkap dan terverifikasi dari set UTXO-nya sendiri di latar belakang. Setelah tahap ini selesai, snapshot awal digantikan oleh kondisi yang direkonstruksi secara lokal. Pendekatan ini memisahkan penyediaan node yang cepat dari verifikasi penuh, tanpa mengorbankan yang terakhir.
-
-
+Dengan demikian, node menjadi beroperasi dengan cepat untuk penggunaan umum (RPC, menghubungkan wallet, dll.), sementara secara bersamaan meluncurkan rekonstruksi lengkap dan terverifikasi dari UTXO set-nya sendiri di latar belakang. Setelah tahap ini selesai, snapshot awal diganti dengan keadaan yang direkonstruksi secara lokal. Pendekatan ini memisahkan penyediaan node yang cepat dari verifikasi penuh, tanpa mengorbankan yang terakhir.
 
 ### Penemuan rekan: Bagaimana node Anda menemukan jaringan Bitcoin?
 
-
-
-Ketika sebuah node memulai untuk pertama kalinya, node tersebut belum mengenal rekan-rekannya. Namun, ia harus menemukan node Bitcoin lain di Internet untuk meminta header, kemudian blok, untuk menyelesaikan IBD-nya. Untuk memulai koneksi ini, Bitcoin core mengikuti logika prioritas.
-
-
+Ketika node dimulai untuk pertama kalinya, ia belum mengenal peer mana pun. Namun, ia harus menemukan Node Bitcoin lain di Internet untuk meminta header, kemudian blok, untuk menyelesaikan IBD-nya. Untuk memulai koneksi ini, Bitcoin Core mengikuti logika yang diprioritaskan.
 
 ![Image](assets/fr/096.webp)
 
-
-
-Ketika node dinyalakan kembali setelah digunakan, Core pertama-tama mencoba menyambungkan kembali ke peers yang terdaftar sebelum dimatikan, informasi disimpan dalam file `anchors.dat`. Kemudian, ia berkonsultasi dengan buku IP Address **`peers.dat`**, yang menyimpan daftar peers yang ditemui sebelumnya, untuk menyambungkan kembali ke mereka. Ini hanyalah file lokal, diperbarui dan disimpan oleh Core. Di sisi lain, untuk node baru yang baru saja diluncurkan, kedua file ini kosong, karena belum pernah berkomunikasi dengan node Bitcoin lainnya.
-
-
+Ketika node di-restart setelah pernah digunakan, Core pertama-tama mencoba untuk terhubung kembali ke peers keluar yang terdaftar sebelum pemutusan, informasi yang disimpan dalam file `anchors.dat`. Kemudian, ia melihat buku alamat IP-nya **`peers.dat`**, yang menyimpan daftar peers yang ditemui sebelumnya, untuk terhubung kembali dengan mereka. Ini hanyalah file lokal, yang diperbarui dan disimpan oleh Core. Namun, untuk node baru yang baru saja diluncurkan, kedua file ini kosong, karena ia belum pernah berkomunikasi dengan Node Bitcoin lain.
 
 Dalam kasus ini, perangkat lunak menanyakan _**DNS seeds**_. Ini adalah [server yang dikelola oleh pengembang ekosistem yang diakui] (https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), yang mengembalikan daftar alamat IP dari node yang diduga aktif. Alamat-alamat ini memungkinkan node baru untuk memulai koneksi pertamanya dan meminta data yang diperlukan dari IBD. Berikut ini adalah daftar *benih DNS* yang aktif hingga saat ini (Agustus 2025):
 
-
-
+Dalam kasus node baru, perangkat lunak menanyakan _**DNS seeds**_. Ini adalah [server yang dikelola oleh pengembang ekosistem yang diakui](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), yang mengembalikan daftar alamat IP dari node yang dianggap aktif. Alamat-alamat ini memungkinkan node baru untuk memulai koneksi pertamanya dan meminta data yang diperlukan dari IBD. Berikut adalah daftar DNS seeds yang aktif hingga saat ini (Agustus 2025):
 
 - Pieter Wuille: `seed.Bitcoin.sipa.be.`
 - Matt Corallo: `dnsseed.bluematt.me.`
@@ -1633,35 +1488,19 @@ Dalam kasus ini, perangkat lunak menanyakan _**DNS seeds**_. Ini adalah [server 
 - Jason Maurice: `seed.Bitcoin.wiz.biz.`
 - Ava Chow: `seed.Mainnet.achownodes.xyz.`
 
-
-
-Pada sebagian besar kasus, langkah *DNS seeds* sudah cukup untuk membuat koneksi pertama dengan node lain. Jika, secara luar biasa, server ini gagal merespons dalam waktu 60 detik, node akan beralih ke metode lain: [daftar statis lebih dari 1.000 alamat] (https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) dari _seed node_ dibangun ke dalam kode Bitcoin core dan diperbarui secara teratur. Jika dua metode pertama untuk mendapatkan alamat IP gagal, solusi terakhir ini akan membuat koneksi awal, yang kemudian node dapat meminta alamat IP baru.
-
-
+Dalam sebagian besar kasus, langkah _DNS seeds_ cukup untuk membangun koneksi pertama dengan node lain. Jika, secara luar biasa, server ini gagal merespons dalam 60 detik, node beralih ke metode lain: [daftar statis lebih dari 1.000 alamat](https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) _seed nodes_ dibangun ke dalam kode Bitcoin Core dan diperbarui secara teratur. Jika dua metode pertama untuk mendapatkan alamat IP gagal, solusi terakhir ini membangun koneksi awal, yang kemudian node dapat meminta alamat IP baru.
 
 ![Image](assets/fr/097.webp)
 
-
-
-Sebagai upaya terakhir, Anda dapat secara manual Supply alamat IP melalui file `peers.dat` untuk memaksa koneksi tertentu.
-
-
+Sebagai upaya terakhir, Anda dapat secara manual menyediakan alamat IP melalui file `peers.dat` untuk memaksa koneksi tertentu.
 
 Setelah di-bootstrap, manajer internal Address mendiversifikasi sumber-sumber (jaringan otonom yang terpisah, clearnet, dan Tor, serta berbagai area geografis) untuk mengurangi risiko isolasi topologi. Node membuat koneksi keluar ini (koneksi yang dipilihnya sendiri, dan karena itu lebih aman).
 
-
-
-Jika node Anda mendengarkan pada port terbuka (secara default, 8333), maka node tersebut akan menerima koneksi yang masuk. Hal ini memperkuat ketahanan jaringan secara keseluruhan dengan menyediakan titik kontak untuk node baru, tanpa memberikan manfaat khusus pada IBD Anda. Jika node Anda berjalan pada Tor, logikanya tetap sama, tetapi alamat yang digunakan adalah layanan `.onion`.
-
-
-
+Jika node Anda berkomunikasi di port terbuka (secara default, 8333), ia menerima koneksi masuk. Ini memperkuat ketahanan keseluruhan jaringan dengan menyediakan titik kontak untuk node baru, tanpa membawa manfaat tertentu untuk IBD Anda sendiri. Jika node Anda berjalan di Tor, logikanya tetap sama, tetapi alamat yang digunakan adalah layanan `.onion`.
 
 ## Anatomi node Bitcoin Anda
 
-
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
-
-
 
 Ketika node Anda telah menyelesaikan sinkronisasi awal, node akan menyimpan beberapa set data pelengkap secara lokal, sehingga memungkinkannya untuk memvalidasi blok dan transaksi, melayani rekan-rekan jaringan, dan memulai ulang dengan cepat sambil mempertahankan statusnya. 3 batu bata utama sangat penting pada sebuah node:
 

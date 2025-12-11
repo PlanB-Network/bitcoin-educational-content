@@ -123,23 +123,23 @@ Murakoze kandi kumwihwezo!
 
 :::video id=4f333013-4b2a-42ab-8761-593fafc971ca:::
 
-### Kubera iki gutangura mu gihe c'amabuye mashasha
+### Kubera iki gutangurira mu gihe ca Néolithique 
 
 
 
-Ni kuki wosubira gushika mu gihe c’amabuye y’agaciro kugira ngo tuvuge ivy’amahera? Inyishu ni yoroshe: ntidushobora gutahura neza ukuntu amahera yaserutse tutaravye kandi ukuntu amateka ubwayo yaserutse. Kugira ngo dutahure igituma uburyo bwa mbere bwo gukoresha amahera bwabayeho, turakeneye gutahura icatumye imigwi y’abahigi b’abanyamahanga n’abakoranirizi b’ibintu bigendagenda.
+Ni kuki wosubira gushika mu gihe ca Néolithique  kugira ngo tuvuge ivy’amahera? Inyishu iroroshe: ntidushobora gutahura neza ukuntu amahera yabayeho tutaravye kandi ukuntu imibereho ubwayo imeze. Kugira ngo dutahure igituma uburyo bwa mbere bwo gukoresha amahera bwabayeho, turakeneye gutahura icatumye imigwi yabantu bakera babeshwaho nuruhigi bashoboye kuguma bakaba ahantu hamwe.
 
 
 
-Umuryango udafise ugucapura kw’ibikorwa, udafise ubuhinga bwihariye, aho umuntu wese afise inshingano yo gutanga ivyo akeneye, gusa nta mahera akeneye. Na vyo nyene, umuryango w’abarimyi ukora uburimyi bwo kwibeshaho gusa, aho umuntu wese yihimira, nturashobora kwumva ko ukeneye umuhuza w’uguhanahana amakuru kw’isi yose.
+Umuryango udafise urugabanganywe rw’ibikorwa, atashimikiro, aho umuntu wese afise inshingano yo kwikorerw ivyo akeneye,bisigurako ata mahera akenera. Na vyo nyene, umuryango w’abarimyi ukora uburimyi bwo kwibeshaho gusa, aho umuntu wese arima kugiti ciwe, nturashobora kwumva ko ukeneye umuhuza w’uguhanahana amakuru kw’isi yose.
 
 
 
-### Kwicara n'ingaruka zavyo
+### akuba ahantu hamwe na hamwe n'ingaruka zavyo
 
 
 
-Ni co gituma mbona ko bishimishije gutangura ubushakashatsi bwacu mu gihe c’amabuye y’agaciro. Turabona ingene kwicara buhoro buhoro kwatumye habaho imihana, hanyuma ibisagara, amaherezo hakaba amateka akomeye. Ukwo kwicara n’uguhingura ibifungurwa vy’amasaranganya ni vyo vyatumye ubuhinga bwo gukora bushoboka, bikaba vyatumye haba ubutaka bwiza bwari buhambaye mu guseruka no gutera imbere kw’ivyiyumviro vya mbere vy’amahera.
+Ni co gituma mbona ko bishimishije gutangura ubushakashatsi bwacu mu gihe c’amabuye y’agaciro. Turabona ingene kubana hamwe kwabantu buhoro buhoro kwatumye habaho imihana, hanyuma ibisagara, amaherezo hakaba ibihugu bikoma komeye. Ukwo kuba hamwe n’uguhingura ibifungurwa vy’amasaranganya ni vyo vyatumye ubuhinga bwo gukora bushoboka, bikaba vyatumye haba ubutaka bwiza bwari buhambaye mu guseruka no gutera imbere kw’ivyiyumviro vya mbere vy’amahera.
 
 
 
@@ -147,7 +147,7 @@ Nk’uko nyene imigenderanire y’abantu ituma habaho ururimi, turashobora kubon
 
 
 
-### Urutonde rw'ibihe vy'ubwihindurize bw'umuntu
+### Urutonde rw'ibihe vy'iterambere ry'abantu
 
 
 
@@ -172,35 +172,35 @@ Incamake y’iterambere ry’umuntu kuva mu gihe ca Australopithecus gushika mu 
 
 
 
-- Haciye imyaka miliyoni 3** - Kuboneka kw'igikoko citwa *Australopithecus*.
+- Haciye imyaka miliyoni 3** - Kuboneka kw'*Australopithecus*.
 - Haciye imyaka miliyoni 2** - Abanyagihugu batangura kuva muri Afirika.
 - Haciye imyaka miliyoni 1,6** - Abanyagihugu bashika mu Buraya bwo mu bumanuko no muri Aziya.
-- Haciye imyaka miliyoni 1** - Ikimenyamenya ca mbere c’uguteka mu rugo n’umuriro (amagufa n’ibisigarira vy’ibimera vyashaje mu mwobo wa Wonderwerk, muri Afirika y’Epfo).
+- Haciye imyaka miliyoni 1** - Ibimenyetso vya mbere vy’uguteka mu rugo n’umuriro (amagufa n’ibisigarira vy’ibimera vyashaje mu mwobo wa Wonderwerk, muri Afirika y’Epfo).
 - Nk’imyaka 400.000 imbere ya Kristu** - Abanya Neanderthal baba mu Buraya no muri Aziya.
-- Nk’imyaka 300.000 imbere ya Kristu** - Kugaragara kw’umuntu w’umunyabwenge*.
+- Nk’imyaka 300.000 imbere ya Kristu** - Kugaragara kwa Homo sapiens*.
 - Haciye imyaka 80.000** - *Homo sapiens* itangura kwimukira mu mihingo yose y'isi.
 - Haciye imyaka 73.000** - Amasenga ya Blombos muri Afirika y’Epfo (ubuhinga bwa kera cane buzwi).
-- Haciye imyaka 50.000** - *Umuntu w'umunyabwenge* yashitse i Buraya.
-- Haciye imyaka 30.000** - Ibishushanyo vyo mu mwonga bivuye mu mwobo wa Chauvet mu Bufaransa.
+- Haciye imyaka 50.000** - *Homo sapiens* yashitse i Buraya.
+- Haciye imyaka 30.000** - Ibishushanyo vyo mu mwonga bivuye mwi senga rya Chauvet mu Bufaransa.
 - Haciye imyaka 15.000** - Ibishushanyo vyo mu mwobo wa Lascaux mu Bufaransa no mu bitandara vyo muri Australiya.
 - Nk’umwaka wa 9000 imbere ya Kristu** - Ugutunga sayiri mu gice c’ukwezi c’uburumbuke.
 - Nk’umwaka wa 9000 imbere ya Kristu** - Uguhinga ibigori muri Mexique.
 - Nk’umwaka wa 8000 imbere ya Kristu** - Ugutunga impene n’intama mu gice c’ukwezi c’uburumbuke.
 - Nko mu mwaka w’7250 imbere ya Kristu** - Ain Ghazal (Yorodani) ihishura umuhana w’abantu amajana makeyi.
 - Nk’umwaka w’7000 imbere ya Kristu** - Çatalhöyük (Turikiya) ifise abantu bashika 8.000.
-- Nko mu mwaka w’6500 imbere ya Kristu** - Ubuzima bwo kwicara butanguye mu Bugiriki.
-- Haciye imyaka 6000** - Intango y’ugufumbira uruzi muri Misiri na Mezopotamiya.
+- Nko mu mwaka w’6500 imbere ya Kristu** - Ubuzima bwo kubana hamwe butanguye mu Bugiriki.
+- Haciye imyaka 6000** - Intango y’ukuvomeza uruzi muri Misiri na Mezopotamiya.
 - Nk'umwaka wa 5000 imbere ya Kristu** - Kugaragara kw'ihuriro ry'uburimyi "bashiki batatu" (ibigori, ibitoke, ibitoke).
 - Nk’umwaka wa 4000 imbere ya Kristu** - Ugutunga ingamiya muri Aziya yo hagati. (Umuryango w’ingamiya wavukiye muri Amerika y’Uburaruko mu gihe c’i Eocene, ubu hakaba haciye imyaka imiliyoni 45. Izo ngamiya zari guca zija muri Aziya ziciye mu nzira y’ubutaka bukeyi bwahuza iyo migabane ibiri ico gihe mu Kiyaga ca Bering. Ikindi gice c’uwo muryango cari kuja muri Amerika y’Epfo, aho abakomoka kuri zo bakiri n’ubu, al: l viñaspacas, l).
-- Nko mu myaka ya 3500-3000 imbere ya Kristu** - Abanyabotai batangura gutunga no kuvyara amafarasi.
-- Nk’intango y’Ikinjana c’Umuringa** - Abasumeri bari bamaze guhingura uruziga n’ubwato bugendera ku mazi, maze barategura imibare, ubuhinga bwo kumenya inyenyeri, n’uburyo bwa mbere bwo kwandika.
+- Nko mu myaka ya 3500-3000 imbere ya Kristu** - Abanya botai batangura gutunga  amafarasi.
+- Nk’intango y’Ikinjana c’Umuringa** - Aba Sumériens bari bamaze guhingura uruziga n’ubwato bugendera ku mazi, maze bavumbura ibiharuro, astronomie, n’uburyo bwa mbere bwo kwandika.
 - Nko mu mwaka w’2800 imbere ya Kristu** - Uruk, igihe cari ku rwego rwo hejuru, cari gifise abantu bashika 80.000.
 - 2600-2200 BC** - Ibimenyetso vya mbere vy’iterambere ry’ibisagara mw’isi y’Abagiriki. Ukwagura ibiterwa vyo mu kiyaga Mediterane (ingano, imizabibu, imyelayo).
 - 2560 BC** - Ubwubatsi bwa Piramide nini ya Giza.
 - Nk’umwaka wa 1500 imbere ya Kristu** - Ubuhinga bwa Minoan.
 - Nk’umwaka wa 1300 imbere ya Kristu** - Ubuhinga bwa Micene.
-- Nko mu mwaka w’1250 gushika mu mwaka w’1150 imbere ya Kristu** - Gusenyuka kw’imico kama y’Ikinjana c’Umuringa.
-- Ikinyejana ca mbere inyuma ya Kristu** - Ababerber bo muri Afirika y’Uburaruko baratunga ingamiya.
+- Nko mu mwaka w’1250 gushika mu mwaka w’1150 imbere ya Kristu** - Gusenyuka kw’imico yo mugihe ca âge du Bronze.
+- Ikinyejana ca mbere inyuma ya Kristu** - Berbères bo muri Afirika y’Uburaruko batangura gutunga ingamiya.
 
 
 

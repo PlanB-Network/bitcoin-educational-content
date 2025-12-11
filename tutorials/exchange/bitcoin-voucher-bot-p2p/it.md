@@ -1,11 +1,11 @@
 ---
 name: BitcoinVoucherBot P2P
-description: Come Acquistare e vendere Bitcoin P2P con BitcoinVoucherBot (Nuova Estensione)
+description: Come Acquistare e vendere Bitcoin P2P con BitcoinVoucherBot
 ---
 
 ![image](assets/cover.webp)
 
-Sentiamo ancora parlare di BitcoinVoucherBot, un bot Telegram nato per acquistare Bitcoin senza [KYC](https://planb.academy/resources/glossary/kyc-know-your-customer), offrendo quindi un livello di anonimato ridotto. Purtroppo a partire da Novembre 2025 il BitcoinVoucherBot non è più disponibile come servizio privo di KYC.
+Sentiamo ancora parlare di BitcoinVoucherBot, un bot Telegram nato per acquistare Bitcoin senza [KYC](https://planb.academy/resources/glossary/kyc-know-your-customer) tramite bonifico bancario SEPA. Purtroppo a partire da Novembre 2025 il BitcoinVoucherBot nella sua forma centralizzata non è più disponibile come servizio senza KYC.
 
 In questa guida vedremo come funziona la nuova implementazione che permette di acquistare e vendere Bitcoin direttamente sul nuovo marketplace P2P (Peer-To-Peer), quindi no KYC. Per contrastare le nuove restrizioni che sempre più spesso minacciano la libertà digitale e la privacy, gli sviluppatori hanno creato questa estensione, dando agli utenti la possibilità di comprare e vendere Bitcoin con un elevato grado di anonimato tramite il P2P (Peer-To-Peer). Vediamo insieme come funziona questo nuovo metodo di scambio.
 

@@ -1,5 +1,5 @@
 ---
-name: Амбосс
+name: Amboss
 description: Исследуйте и анализируйте Lightning Network
 ---
 

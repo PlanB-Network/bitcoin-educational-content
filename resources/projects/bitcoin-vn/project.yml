@@ -1,14 +1,12 @@
 id: 2d295a5a-899d-4b78-b8da-df05f71b52e3
-name: BitcoinVN.io
-category: exchange
-address_city_country: Ho Chi Minh City, Vietnam
-address_line_2:
-address_line_3:
-language:
-  - en
+
+name: BitcoinVN
+
 links:
   website: https://bitcoinvn.io/
-  X (Twitter): https://x.com/Bitcoin_Vietnam
+  twitter: https://x.com/Bitcoin_Vietnam
+
+category: exchange
 
 original_language: en
 proofreading:
@@ -18,9 +16,12 @@ proofreading:
     contributor_names: 
       - Anh-La
     reward: 0
+
 tags:
   - software
   - wallets
   - business
+  - investment
+
 contributor_names:
   - Anh-La

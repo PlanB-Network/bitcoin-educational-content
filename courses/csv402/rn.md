@@ -401,63 +401,60 @@ Mu ngiro, iyo rino hanahanwa rya Bitcoin ryemewe, ivyagateganyo iba "ifunga" ama
 ### Single-Use Seal: amamuko n'uko ikora
 
 
-Igihe wemera umutungo nk’amahera, hariho ivyemezo bibiri bihambaye:
+Mugihe wemera umutungo nk'amafaranga, hariho ivyiyemezo bibiri bikomeyecane:
 
 
 
-
-- Ubunyakuri bw’ikintu caronse;
-- Ubudasa bw’ikintu caronse, kugira ngo ntihagire amahera akoreshwa incuro zibiri.
-
-
-Ku bintu vy’umubiri, nk’agapapuro k’amahera, kubaho kw’umubiri birahagije kugira ngo umuntu yerekane ko ataco yasubiyemwo. Ariko rero, mw’isi y’ubuhinga bwa none, aho ivy’ubutunzi ari amakuru gusa, iyo nzira yo kugenzura irarushiriza kugorana, kuko amakuru ashobora kwiyongera bitagoranye no kwisubiriza.
+- Uvyerekana ukuri kubintu vyaronkejwe;
+- Ukwisa kw'ibintu vyaronkejwe, kugira twirinde ukuriha incuro zibiri.
 
 
-Nk’uko twabibonye mbere, uguhishurirwa kw’uwarungitse amateka y’ihinduka rya Leta biradushoboza kumenya neza ko RGB token ari iy’ukuri. Mu kuronka uburenganzira bwo kubona amafaranga yose yagurishijwe kuva igihe Genesis yagurishijwe, turashobora kwemeza ko token ari iy’ukuri. Iryo hame risa n’irya Bitcoin, aho amateka y’ibiceri ashobora gusubirwamwo gushika ku Coinbase Transaction y’intango kugira ngo umuntu asuzume ko ari ukuri. Ariko rero, bitandukanye na Bitcoin, iyo nkuru y’ihinduka rya Leta muri RGB ni iy’ibanga kandi igumye ku ruhande rw’umukiriya.
+Kumitungu ifadika, nk'impapuro z'amahera yomuri banki, ukuhaba birakwiriye kugira vyemeze ko bitasubiwemwo incuro zibiri. nubwo biri uko muri inosi y'ubuhinga bwa none aho usanga imitungo  irikubuhinga ngurukana bumenyi gusa, kuno gusuzuma kuragoye, kuko amakuru yokubuhinga bwa none ashobora kugwizwa canke gusubigwamwo vyoroshe.
+
+Nkuko twabionye kare, ugushirwa ahabona kwa kahise n'uwurungika w'ihindagurika biradufasha kumenya ukuri kwa token za RGB. mukugira uruhusha rw'ugushika kw'ihanahanwa ryo kuva kuy'inkomoko, dushobora kwemezako token ari izukuri. rino hama rirasa narirya rya, aho kahise k'ibingorongoro gashoborwa kurabwa kose kuva kw'ihanahanwa ry'ikingorongoro c'ibanzekugira hasuzumwe ukuri kwavyo. Naho biruko, aho bitandukaniye na Bitcoin, kano kahise k'ihinduka rya Leta muri RGB ni iy’ibanga kandi igumye ku ruhande rw’umugizi.
 
 
-Kugira ngo twirinde Double-spending y'ibimenyetso vya RGB, dukoresha uburyo bwitwa "**Single-Use Seal**". Uwo murongo utuma token yose, iyo imaze gukoreshwa, idashobora gusubira gukoreshwa mu buryo bw’ubuhendanyi ubugira kabiri.
+Kugira twirinde ukuriha incuro zibiri ama token ya RGB, dukoresha ubuhinga bwitwa "**Single-Use Seal(Serire ikoreshwa rimwe)**". Buno buhinga burihweza neza ko token yariyo yose, iyo ikoreshejwe rimwe, idashobora gusubira gukoreshwa biciye mukinywabi incuro yakabiri.
 
 
-Ibimenyetso bikoreshwa rimwe ni ibimenyetso vya kera vy’ubuhinga bwa cryptography, vyashikirijwe mu 2016 na Peter Todd, bisa n’iciyumviro c’ibimenyetso vy’umubiri: iyo Seal imaze gushirwa ku kintu, biraba bidashoboka ko umuntu ayifungura canke ayihindura ataco amenagura Seal.
-
+Single-use Seals(Serire ikoreshwa rimwe) n'uduce tuvuye mubuhinga bw'ukunyegeza inyandiko (cryptographic), bwashikirijwe muri 2016  na Peter Todd,  bisa n’iciyumviro ca serire zikoreshwa mubuzima bisanzwe: iyo serire yugaye konteneri, ntibiba bigikunda kuyugurura canke kuyihindura kiretse iyo uhisemwo kuyikata.
 
 ![RGB-Bitcoin](assets/en/018.webp)
 
 
-Ubwo buryo, buhinduwe mu isi y’ubuhinga bwa none, buratuma bishoboka kwemeza ko urutonde rw’ibintu rwabaye vy’ukuri, kandi ko rudashobora guhindurwa a posteriori. Ivyuma bikoreshwa rimwe rero birarenga ivyiyumviro vyoroshe vya `Hash + Timestamp`, vyongerako iciyumviro c'uko Seal ishobora gupfungwa **rimwe gusa**.
+Buno buryo, nibwo twisunga kw'isi ya none, bigatuma bishoboka kwemezako urukwirikirane rw'ibikorwa rwahabaye vyukuri,hanyuma bigatuma vyerekana ko bitazosubira kuba ubukwirikira. serire ikoreshwa rimwe irarengeye ukwiyumvira birenze `Hash + Timestamp`, vyongerako iciyumviro c'uko serire ishobora kwugarwa **rimwe gusa**.
 
 
 ![RGB-Bitcoin](assets/en/017.webp)
 
 
-Kugira ngo Ibimenyetso vy’Ikoreshwa Rimwe bikore, ukeneye uburyo bwo kwemeza ko igitabu kiriho canke kitariho, kandi kigoye (niba bidashoboka) kubesha iyo amakuru amaze gukwiragizwa. **Blockchain** (nka Bitcoin) irashobora kwuzuza uwo murimo, nk’uko ikinyamakuru c’impapuro gishobora gusohoka mu bantu bose, nk’akarorero. Iciyumviro ni iki:
+Kugira ngo serire yugarwa rimwe gusa ikore, urakenera ukwemeza kugereranye kwashizwe ahabona gushobora kwemeza ukubaho canke ukutabaho kw'ibija ahabona, hama bigoye(nimba bidashoboka) kubesha iyo amakuru amaze gukwiragizwa. **Blockchain** (nka Bitcoin) irashobora gukora kano kazi, nkakurya kw'urupapuro kumakuru yo kumpapuro abikora mugukwiragira, nk'akarorero, iciyumviro ninkibi bikwirikira:
 
 
 
 
-- Turashaka kwemeza ko Commitment kanaka iri ku butumwa `h(m)` yasohowe ku bantu bumviriza ata guhishura ibirimwo ubutumwa `m`;
-- Turashaka kwemeza ko ata bundi butumwa `h(m')` buhiganwa Commitment bwasohowe mu kibanza ca `h(m)`;
-- Turashaka kandi kuba dushoboye kugenzura ko ubutumwa `m` buriho imbere y'itariki kanaka.
+- Turashaka kwemeza ukwiyemeza kubutumwa bumwebumwe `h(m)` buba bwashizwe ahabona butiriwe burashira ahabona ivyanditswe mubutumwa `m`;
+- Turashaka kwemeza ko ata bundi butumwa buri guhiganwa `h(m')` ubutumwa bw'ukwiyemeza bwashizwe ahabona mukibanza ca `h(m)`;
+- Turashaka kandi gusuzuma ubwo butumwa `m` bubaho imbere y'itariki runaka.
 
 
-Blockchain irashobora gukora neza muri uwo murimo: igihe igikorwa co gucuruza kigizwe mu gice, urubuga rwose ruragira ikimenyamenya kimwe kidashobora kwihenda c’ukubaho kwarwo n’ibirimwo (n’imiburiburi mu gice, kuko _ukwiyemeza_ gushobora guhisha ido n’ido mu gihe kwemeza ko ubutumwa ari ubw’ukuri).
+Blockchain irashobora gukora neza muri uwo murimo: igihe ihanahanwa yashizwe mugice, urubuga rwose ruragira ikimenyamenya kimwe kidashobora gukoreshwa mumanyanga c’ukubaho kwarwo n’ibirimwo (n’imiburiburi mu gice, kuko _ukwiyemeza_ gushobora guhisha ido n’ido mu gihe kwemeza ko ubutumwa ari ubw’ukuri).
 
 
-Single-Use Seal rero ishobora kubonwa nk’isezerano ry’ugutangaza ubutumwa (butaramenyekana muri iki gihe) rimwe gusa, mu buryo bushobora kugenzurwa n’ababishaka bose.
+Serire ikoreshwa rimwe (Single-Use Seal) rero ishobora kubonwa nk’isezerano ry’ugutangaza ubutumwa (butaramenyekana muri iki gihe) rimwe kandi rimwe gusa, mu buryo bushobora gusuzumwa n’ababishaka bose.
 
 
-Udakunze _imihigo_ yoroshe (Hash) canke ibimenyetso vy'igihe, vyemeza itariki y'ukubaho, Single-Use Seal itanga ikimenyamenya c'inyongera c'uko **ata yindi Commitment** ishobora kubana: ntushobora gufunga Seal imwe incuro zibiri, canke ngo ugerageze gusubira kuyisubirira.
+Aho bitandukaniye n'ukwiyemeza bisanzwe (Hash) canke ibimenyetso vy'igihe, vyemeza itariki y'ukubaho, Serire ikoreshwa rimwe itanga ikimenyamenya c'inyongera c'uko **atakundi kwiyemezwa kuhari** ishobora kubana: ntushobora kwugara serire imwe incuro zibiri, winjire canke uhindure ubutumwa bwugawe na serire.
 
 
-Igereranyo rikurikira rifasha gutahura iyo ngingo ngenderwako:
+igereranywa rikwirikira rifasha gutahura ingingo ngenderwako:
 
 
 
 
-- **Commitment (Hash)**: Ukoresheje igikorwa ca Hash, ushobora kwiyemeza gutanga amakuru (umubare) mu gutangaza Hash yayo. Amakuru aguma ari ibanga gushika uhishuye ishusho y'imbere, ariko ushobora kwemeza ko wari uzi imbere y'igihe;
-- **Timestamp (Blockchain)**: Mu kwinjiza iyi Hash muri Blockchain, turagaragaza kandi ko twayimenye mu gihe nyaco (ico co kuyishira mu gice);
-- **Single-Use Seal**: Kubera ibimenyetso bikoreshwa rimwe, turatera intambwe imwe imbere mu gutuma Commitment iba iyidasanzwe. Ukoresheje Hash imwe, urashobora gukora amasezerano menshi avuguruzanya mu buryo bumwe (ingorane y'umuganga amenyesha umuryango ngo "*Ni umuhungu*" na "*Ni umukobwa*" mu gitabu ciwe bwite). Single-Use Seal irakuraho ivyo bishoboka mu gufatanya Commitment n'ikimenyamenya c'isohorwa, nka Bitcoin Blockchain, kugira ngo gukoresha UTXO bishireko ikidodo ata gukeka Commitment. Iyo UTXO nyene imaze gukoreshwa, ntishobora gusubira gukoreshwa kugira ngo isubirire Commitment.
+- **Cryptographic commitment (Hash)**: Hamwe nigikoresho ca Hash, ushobora kwiyemeza gutanga amakuru (Igiharuro) mu gushira ahabona Hash yayo. Amakuru aguma ari ibanga gushika ushize hanze isanamu y'imbere , ariko ushobora kwemeza ko wari uyizi imbere y'igihe;
+- **Timestamp (Blockchain)**: Mu kwinjiza iyi Hash muri Blockchain, turemeza yuko kandi twari tuyizi mugihe runaka (ico co kuyishira mu gice);
+- **Single-Use Seal**: Hamwe na serire ikora rimwe gusa, dutera intambwe imbere mugukora ukwiyemeza rimwe. Ukoresheje Hash imwe, urashobora gukora amasezerano menshi avuguruzanya mu buryo bubangabanganywe (ingorane y'umuganga amenyesha umuryango ngo "*Ni umuhungu*" kandi ari "*Ni umukobwa*" mu gitabu ciwe bwite). Single-Use Seal (Serire ikora rimwe gusa) irakuraho ivyo bishoboka mu gufatanya kwiyemeza n'ikimenyamenya c'isohorwa, nka Bitcoin Blockchain, kugira ngo gukoresha UTXO bishireko ikidodo ata gukeka Commitment. Iyo UTXO nyene imaze gukoreshwa, ntishobora gusubira gukoreshwa kugira ngo isubirire Commitment.
 
 
 |                                                                                  | Simple commitment (digest/hash) | Timestamps | Single-use seals |
@@ -466,43 +463,42 @@ Igereranyo rikurikira rifasha gutahura iyo ngingo ngenderwako:
 | Proof of the commitment date / existence of the message before a certain date  | Impossible                      | Possible   | Possible         |
 | Proof that no alternative commitment can exist                                 | Impossible                      | Impossible | Possible         |
 
-Ibimenyetso bikoreshwa rimwe bikora mu ntambwe zitatu nyamukuru:
+Serire ikoreshwa rimwe ikora kuntambwe zitatu nyamukuru:
+
+**Indangurakintu ya serire:**
 
 
-**Igitabu-213:**
 
 
-
-
-- Alice isobanura imbere y’igihe amategeko agenga gusohora Seal (igihe ubutumwa buzosohorwa, aho buzosohorwa be n’ingene buzosohorwa);
-- Bob yemera canke yemera ivyo bintu.
+- Alice Asigura imbere y'igihe amategeko yogushira ahabona serire(Ryari, hehe hamwe n'uko ubutumwa buza gushirwa ahabona ) ;
+- Bob aremera canke agashigikira zino ngingo. 
 
 
 ![RGB-Bitcoin](assets/en/021.webp)
 
 
-**Seal Gusozera:**
+**Ukwugara serire:**
 
 
 
 
-- Mu gihe c'urugendo, Alice ifunga Seal mu gutangaza ubutumwa nyabwo (kenshi mu buryo bw'_ukwiyemeza_, nk'akarorero Hash);
-- Iratanga kandi **icabona** (ikimenyamenya c’ubuhinga bwa none) kigaragaza ko Seal yugarijwe kandi ko idashobora gusubirwamwo.
+- Mu gihe irigukora, Alice afunga serire mu gutangaza ubutumwa buri kugihe (kenshi na kenshi mu buryo bw'ukwiyemeza, akarorero Hash);
+- Iratanga kandi **icabona** (ikimenyamenya c’ubuhinga bw'ukunyegeza inyandiko(cryptographic)) cerekana ko serire yugawe idashobora gusubirwamwo.
 
 
 ![RGB-Bitcoin](assets/en/019.webp)
 
 
-**Igenzura rya Seal:**
+**Ugusuzuma serire:**
 
 
 
 
-- Iyo Seal imaze gupfungwa, Bob ntashobora kugifungura: ashobora gusa kugenzura ko yapfungiwe;
-- Bob akorakoranya Seal, **icabona** n’ubutumwa (canke Commitment yiwe) kugira ngo amenye neza ko vyose bihuye kandi ko ata bimenyetso bihiganwa canke amaverisiyo atandukanye.
+- Iyo serire yugawe, Bob ntashobora gusubira kuyugurura: ico ashobora gukora nikuraba ko yugawe;
+- Bob ashirahamwe ama serire, **icabona** hamwe n'ubutumwa (Hamwe nukwiyemeza) kugira ngo tumenye neza yuko vyose bihuye kandi ko ata maserire ariko arahiganwa afise imbonakazoza zitandukanye.
 
 
-Ivyo bishobora gusobanurwamwo muri make gutya:
+Ivyo bishobora gusobanurwamwo muri make kuno gukwirikira:
 
 
 ```txt
@@ -515,45 +511,45 @@ bool <- Verify(seal, witness, message)
 ```
 
 
-Ariko rero, Client-side Validation iratera intambwe imwe imbere: iyo insobanuro ya Seal ubwayo iguma hanze ya Blockchain, birashoboka (mu vyiyumviro) ko umuntu ashobora guhakana ukubaho canke uburenganzira bw’iyo Seal iriko iravugwa. Kugira ngo iyo ngorane ishobore gutorwa, hakoreshwa uruhererekane rw’Ibimenyetso Bikoreshwa Rimwe Bifatanya:
+Ariko rero, Client-side Validation(Uruhande rw'ukwemeza rw'umuguzi) ruratera intambwe imwe imbere: nimba insiguro ya serire ubwayo iguma hanze ya Blockchain, birashoboka (mumajambo) ko umuntu ashobora guhakana ukubaho canke uburenganzira bw’iyo Serire iriko irakoreshwa. Kugira ngo iyo ngorane ishobore gutorerwwa inyishu, hakoreshwa uruhererekane rw’Ibimenyetso Bikoreshwa Rimwe Bifatanya:
 
 
 
 
-- Seal yose yugarijwe irimwo insobanuro y’iyi Seal ikurikira;
-- Twandika ivyo bifunga (n’ivyo _vyemeye_) muri Blockchain (mu gucuruza Bitcoin);
-- Gutyo, ukugerageza kwose kwo guhindura Seal ya kera kwoba kuvuguruza amateka ashizwe muri Bitcoin.
+- Buri Serire yose irimwo insiguro y'ama Serire akwirikira;
+- Turandika kuno kwugarwa (hamwe nivyo yiyemeje_) muri Blockchain (mu gucuruza Bitcoin);
+- Gutyo, buri kugerageza guhindura serire yaherukiweko ishobora gutuma habaho kahise ka Bitcoin zikoreshwa muri Bitcoin.
 
 
-Ivyo ni vyo nyene ubuhinga bwa RGB bukora:
-
-
-
-
-- Ubutumwa bwasohowe ni _imihigo_ ku makuru yemejwe n'umukiriya;
-- Igitero ca Seal Definition gifatanye n’igitero ca Bitcoin UTXO;
-- Seal irafunga iyo iyo UTXO ikoreshejwe canke iyo umusaruro mushasha ushizwe kuri iyo Commitment nyene;
-- Uruhererekane rw'ibikorwa rukoresha izo UTXO rujanye n'ikimenyamenya c'isohorwa: ihinduka ryose canke ihinduka ry'ubutegetsi kuri RGB rero rishingiye kuri Bitcoin.
-
-
-Mu guca irya n’ino:
+Ibi ni vyo nyene ubuhinga bwa RGB bukora:
 
 
 
 
-- _Insobanuro y'ikidodo_ ni UTXO ushaka Seal Commitment izoza;
-- _Ugufunga ikidodo_ kubaho iyo ukoresheje iyi UTXO, ukarema igikorwa kirimwo Commitment;
-- _Icabona_ ni igikorwa ubwaco, kigaragaza ko mwafunze Seal n’ivyo birimwo;
-- Ntushobora kwemeza ko Seal itapfungiwe (ntushobora kwemera neza ko UTXO itaramaze gukoreshwa canke itazokoreshwa mu gice utarabona), ariko ushobora kwemeza ko vy’ukuri yapfungiwe.
+- Ubutumwa bwashizwe ahabona n'ukwiyemeza kw'amakuru kuruhande rw'umuguzi;
+- Insiguro y'iserire ifatanywe na UTXO;
+- Iserire yugarwa mugihe ino UTXO ikoreshejwe canke iyo umusaruro mushasha ushizwe kuri iyo Commitment nyene;
+- Ihanahanwa ry'urukwirikirane ru=itanga ano ma UTXO rujanye n'icemezo c'isohorwa: ihinduka ryose canke ihinduka ry'ubutegetsi kuri RGB rero rishingiye kuri Bitcoin.
 
 
-Ubwo bwihariye burahambaye kuri Client-side Validation: iyo wemeje State Transition, urasuzuma ko ihuye na UTXO yihariye, itakoreshejwe mbere mu Commitment iriko irahiganwa. Ivyo ni vyo vyemeza ko ata gukoresha amahera kabiri mu masezerano y’ubwenge ya off-chain.
+Mu ncamake:
+
+
+
+
+- _Insiguro y'iserire ni UTXO ushaka iserire ya commitment izoza;
+- _Serire yugara_ kubaho iyo ukoresheje iyi UTXO, ukarema igikorwa kirimwo Commitment;
+- _Icabona_ nihanahanwa ubwayo, igaragaza yuko wugaye iserire nizi nyandiko;
+- Ntushobora kwemeza yuko Serire itigeze yugarwa (ntushobora kwizera neza yuko UTXO itaramaze gukoreshwa canke itazokoreshwa mu gice utarabona), ariko ushobora kwemeza ko vy’ukuri yamaze kwugarwa.
+
+
+Ukwsa birahamaye cane kuruhande rw'ukwemeza kw'umuguzi (Client-side Validation): iyo wemeje State Transition, urasuzuma ko ihuye na UTXO yihariye, itakoreshejwe mbere mu Commitment iriko irahiganwa. Ivyo ni vyo vyemeza ko ata gukoresha amahera kabiri mu masezerano y’ubwenge ya off-chain.
 
 
 ### Ivyemezo vyinshi n'imizi
 
 
-RGB Smart contract ishobora gukenera gukoresha ibimenyetso vyinshi vy’ikoreshwa rimwe (UTXO nyinshi) icarimwe. Ikindi, igikorwa kimwe ca Bitcoin gishobora kwerekeza ku masezerano atandukanye, umwe wese akagira ikidodo kuri State Transition yayo. Ivyo bisaba uburyo **multi-Commitment** bwo kwemeza, mu buryo butegekanijwe kandi budasanzwe, ko ata n’imwe mu migambi iriho mu buryo bubiri. Aha niho iciyumviro ca **Anchor** kija muri RGB: uburyo budasanzwe buhuza ibikorwa vya Bitcoin n'isezerano rimwe canke menshi ry'umukiriya (ihinduka rya Leta), rimwe ryose rishobora kuba ari irya Contract itandukanye. Tuzokwihweza neza ico ciyumviro mu kigabane gikurikira.
+Smart contract RGB ishobora gukenera gukoresha ibimenyetso vyinshi vy’ikoreshwa rimwe (UTXO nyinshi) icarimwe. Ikindi, igikorwa kimwe ca Bitcoin gishobora kwerekeza ku masezerano atandukanye, umwe wese akagira ikidodo kuri State Transition yayo. Ivyo bisaba uburyo **multi-Commitment** bwo kwemeza, mu buryo butegekanijwe kandi budasanzwe, ko ata n’imwe mu migambi iriho mu buryo bubiri. Aha niho iciyumviro ca **Anchor** kija muri RGB: uburyo budasanzwe buhuza ibikorwa vya Bitcoin n'isezerano rimwe canke menshi ry'umukiriya (ihinduka rya Leta), rimwe ryose rishobora kuba ari irya Contract itandukanye. Tuzokwihweza neza ico ciyumviro mu kigabane gikurikira.
 
 
 ![RGB-Bitcoin](assets/en/023.webp)

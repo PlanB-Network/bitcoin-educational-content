@@ -1,5 +1,5 @@
 ---
-name: Seedkeeper - مدیر رمز عبور
+name: Seedkeeper - مدیر گذرواژه
 description: چگونه رمزهای عبور خود را با کارت هوشمند Seedkeeper ذخیره کنید؟
 ---
 

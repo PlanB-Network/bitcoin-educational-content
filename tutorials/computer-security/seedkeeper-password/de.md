@@ -1,5 +1,5 @@
 ---
-name: Seedkeeper - Passwort-Manager
+name: Seedkeeper - Passwortmanager
 description: Wie können Sie Ihre Passwörter mit der Seedkeeper Smartcard speichern?
 ---
 

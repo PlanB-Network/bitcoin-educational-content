@@ -1,5 +1,5 @@
 ---
-name: Seedkeeper - Gestor de palavras-passe
+name: Seedkeeper - Gerenciador de Senhas
 description: Como guardar as suas palavras-passe com o cartão inteligente Seedkeeper?
 ---
 

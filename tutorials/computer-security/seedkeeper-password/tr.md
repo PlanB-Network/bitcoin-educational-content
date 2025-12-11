@@ -1,5 +1,5 @@
 ---
-name: Seedkeeper - Şifre Yöneticisi
+name: Seedkeeper - Parola Yöneticisi
 description: Seedkeeper akıllı kart ile şifrelerinizi nasıl kaydedersiniz?
 ---
 

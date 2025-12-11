@@ -1,5 +1,5 @@
 ---
-name: یشم DIY
+name: Jade DIY
 description: تبدیل یک برد توسعه $15 به یک سخت‌افزار Bitcoin کاملاً کاربردی wallet
 ---
 

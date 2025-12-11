@@ -13,8 +13,6 @@ objectives:
 
 # Plongée dans la philosophie du développement Bitcoin
 
-
-
 La philosophie de développement du Bitcoin est un cours destiné aux développeurs Bitcoin qui comprennent déjà les bases des concepts et processus tels que le Proof-of-Work, la construction de blocs et le cycle de vie des transactions, et qui souhaitent passer à un niveau supérieur en acquérant une compréhension plus approfondie des compromis et de la philosophie de conception du Bitcoin.
 
 Il devrait aider les nouveaux développeurs à assimiler les principales leçons tirées de plus d'une décennie de développement du Bitcoin et de débat public, tout en leur fournissant un contexte utile pour évaluer les nouvelles idées (les bonnes comme les mauvaises).
@@ -22,9 +20,7 @@ Il devrait aider les nouveaux développeurs à assimiler les principales leçons
 
 ### À quoi s'attendre ?
 
-
 Comme indiqué ci-dessus, il s'agit d'un guide pratique destiné aux développeurs Bitcoin. Cependant, Bitcoin est un sujet vaste et complexe et nous ne pourrions pas en couvrir tous les aspects ici. Avec ce cours, nous espérons discuter des caractéristiques nécessaires pour démarrer votre activité de développement et vous permettre de l'explorer davantage par vous-même.
-
 
 De nombreuses personnes sont impliquées dans le projet Bitcoin ; comme certaines d'entre elles ont des opinions opposées, vous pouvez trouver ici des ressources qui expriment des idées contradictoires. Cependant, nous nous efforçons toujours de rester dans le domaine des faits, où les opinions n'ont pas d'importance.
 
@@ -57,12 +53,12 @@ Tout au long de ce cours, vous comprendrez mieux les valeurs et les stratégies 
 
 ### Les valeurs centrales du Bitcoin
 
-Qu'est-ce qui rend Bitcoin unique ? 
+Qu’est-ce qui rend Bitcoin unique ?
 Cette section dévoile les valeurs fondamentales au cœur de sa conception. Vous y découvrirez la décentralisation, pierre angulaire qui empêche toute entité de contrôler le réseau ; la confiance minimisée, qui élimine la dépendance aux tiers ; la confidentialité, essentielle à la fois pour la liberté individuelle et l’intégrité du système ; ainsi que l’offre limitée, garantie codée de rareté qui façonne l’identité économique de Bitcoin.
 
 Comprendre ces principes vous permettra de saisir pleinement les forces et les limites du protocole.
 
-### Bitcoin Gouvernance
+### Bitcoin Gouvernanceet 
 
 Naviguer dans le paysage complexe de la gouvernance du Bitcoin exige plus qu'une expertise technique, il faut comprendre l'approche unique du Bitcoin en matière de consensus et de prise de décision. Dans cette section, vous découvrirez les mécanismes et les philosophies qui sous-tendent les processus critiques tels que les mises à jour du protocole, la nécessité de la pensée contradictoire, la force de la collaboration open-source, les défis permanents de la mise à l'échelle et les stratégies nuancées requises lorsque les choses tournent mal. Fort de ces connaissances, vous serez prêt non seulement à participer, mais aussi à façonner l'avenir de Bitcoin de manière efficace et responsable.
 
@@ -103,7 +99,7 @@ Si Bitcoin était centralisé, il serait vulnérable à ceux qui voudraient le c
 
 David Chaum a introduit la monnaie numérique comme sujet de recherche en 1983, dans un modèle reposant sur un serveur central chargé d’empêcher la double dépense. Pour réduire le risque d’atteinte à la vie privée inhérent à cette entité de confiance, et pour préserver la fongibilité, Chaum a proposé le mécanisme de signature aveugle. Celui-ci permettait au serveur de signer des « pièces » sans pouvoir relier les signatures aux utilisateurs, tout en conservant la capacité d’empêcher les doubles dépenses.
 
-La nécessité d'un serveur central est devenue le talon d'Achille de l'argent liquide numérique [Gri99]. Même si l’on peut réduire ce point de défaillance unique en remplaçant la signature du serveur par une signature de seuil impliquant plusieurs signataires, l’auditabilité exige que ces signataires soient distincts et identifiables.Le système reste donc vulnérable aux pannes, puisque chaque signataire peut tomber en panne, ou être mis en panne, un par un.
+Cependant, la dépendance à un serveur central est devenue le talon d’Achille de la monnaie numérique [Gri99]. Même si l’on peut réduire ce point de défaillance unique en remplaçant la signature du serveur par une signature de seuil impliquant plusieurs signataires, l’auditabilité exige que ces signataires soient distincts et identifiables. Le système reste donc vulnérable : chacun de ces signataires peut tomber en panne ou être mis hors service un par un.
 
 Il est clairement apparu que l'utilisation d'un serveur central pour ordonner les transactions n'était pas une option viable en raison du risque élevé de censure. Même si l'on remplaçait le serveur central par une fédération d'un ensemble fixe de n serveurs, dont au moins m doivent approuver une commande, des difficultés subsisteraient. Le problème se déplacerait en effet vers une situation où les utilisateurs devraient se mettre d'accord sur cet ensemble de n serveurs ainsi que sur la manière de remplacer les serveurs malveillants par de bons serveurs sans dépendre d'une autorité centrale.
 
@@ -128,7 +124,7 @@ Pourtant, personne ne l'explique mieux que [Gregory Maxwell sur Reddit](https://
 
 Un système décentralisé comme Bitcoin utilise une élection publique. Mais on ne peut pas se contenter d'un vote des "gens" dans un système décentralisé, car il faudrait alors qu'une partie centralisée autorise les gens à voter. Bitcoin utilise plutôt un vote de puissance informatique, car il est possible de vérifier la puissance informatique sans l'aide d'un système centralisé tiers. La publication explique comment le réseau décentralisé Bitcoin peut parvenir à un accord sur l'ordre des transactions grâce à l'utilisation de la preuve de travail.
 
-Il conclut en affirmant que l’attaque des 51 % n’est pas le plus grand sujet d’inquiétude ; le véritable danger réside plutôt dans le fait que beaucoup ne se préoccupent pas ou ne comprennent pas les propriétés de décentralisation de Bitcoin: 
+Il conclut en affirmant que l’attaque des 51 % n’est pas le plus grand sujet d’inquiétude ; le véritable danger réside plutôt dans le fait que beaucoup ne se préoccupent pas ou ne comprennent pas les propriétés de décentralisation de Bitcoin:
 > Le risque le plus important pour Bitcoin est que le public qui l'utilise ne comprenne pas, ne se préoccupe pas et ne protège pas les propriétés de décentralisation qui lui confèrent sa valeur par rapport aux alternatives centralisées.
 
 La conclusion est importante. Si les gens ne protègent pas la décentralisation de Bitcoin, qui est une approximation de sa résistance à la censure, Bitcoin pourrait être victime de pouvoirs centralisateurs, jusqu'à ce qu'il soit tellement centralisé que la censure devienne une réalité. Dans ce cas, la plupart, sinon la totalité, de sa proposition de valeur disparaît. Ceci nous amène à la section suivante sur la décentralisation des noeuds complets.
@@ -140,7 +136,7 @@ Dans les paragraphes ci-dessus, nous avons surtout parlé de la décentralisatio
 
 L'importance de la décentralisation des noeuds complets est liée à l'absence de confiance. Supposons qu'un utilisateur cesse d'exploiter son propre noeud complet en raison, par exemple, d'une augmentation prohibitive du coût d'exploitation. Dans ce cas, il doit interagir avec le réseau Bitcoin d'une autre manière, éventuellement en utilisant des portefeuilles web ou des portefeuilles légers, ce qui nécessite un certain niveau de confiance dans les fournisseurs de ces services.
 
-L'utilisateur passe de l'application directe des règles de consensus du réseau à la confiance en quelqu'un d'autre. Supposons maintenant que la plupart des utilisateurs délèguent l'application du consensus à une entité de confiance. Dans ce cas, le réseau peut rapidement tomber dans la spirale de la centralisation et les règles du réseau peuvent être modifiées par des acteurs malveillants conspirateurs.
+L’utilisateur cesse d’appliquer directement les règles de consensus du réseau et se met à faire confiance à une tierce partie.Supposons maintenant que la majorité des utilisateurs délèguent l’application du consensus à une entité de confiance. Dans ce cas, le réseau peut rapidement entrer dans une spirale de centralisation, et les règles du protocole pourraient alors être modifiées par des acteurs malveillants agissant de concert.
 
 Dans [un article du Bitcoin Magazine](https://bitcoinmagazine.com/technical/decentralist-perspective-Bitcoin-might-need-small-blocks-1442090446), Aaron van Wirdum interroge les développeurs de Bitcoin sur leur point de vue concernant la décentralisation et les risques liés à l'augmentation de la taille maximale des blocs de Bitcoin. Cette discussion a été un sujet chaud pendant la période 2014-2017, lorsque de nombreuses personnes se sont opposées à l'augmentation de la limite de la taille des blocs pour permettre un plus grand débit de transactions.
 
@@ -148,17 +144,14 @@ Un argument de poids contre l'augmentation de la taille des blocs est qu'elle au
 
 Pieter Wuille est cité dans l'article, où il explique les risques de la centralisation des noeuds complets :
 
-> Si de nombreuses entreprises gèrent une noeud complet, cela signifie qu'elles doivent toutes être convaincues de mettre en œuvre un ensemble de règles différent. En d'autres termes, la décentralisation de la validation des blocs est ce qui donne du poids aux règles de consensus.
-> Mais si le nombre de noeuds complets tombe très bas, par exemple parce que tout le monde utilise les mêmes portefeuilles web, exchanges et SPV ou portefeuilles mobiles, la réglementation pourrait devenir réalité. Et si les autorités peuvent réglementer les règles de consensus, cela signifie qu'elles peuvent changer tout ce qui fait de Bitcoin Bitcoin. Même la limite de 21 millions de Bitcoin.
+> Si de nombreuses entreprises gèrent un nœud complet, cela signifie qu'elles doivent toutes être convaincues de mettre en œuvre un ensemble de règles différent. En d'autres termes, la décentralisation de la validation des blocs est ce qui donne du poids aux règles de consensus.
+> Mais si le nombre de nœuds complets tombe très bas, par exemple parce que tout le monde utilise les mêmes portefeuilles web, exchanges et SPV ou portefeuilles mobiles, la réglementation pourrait devenir réalité. Et si les autorités peuvent réglementer les règles de consensus, cela signifie qu'elles peuvent changer tout ce qui fait de Bitcoin ce qu'il est. Même la limite de 21 millions de bitcoins.
 
 Nous y voilà. Les utilisateurs de Bitcoin devraient gérer leurs propres nœuds complets afin de dissuader les régulateurs et les grandes entreprises d'essayer de changer les règles du consensus.
 
-
 ### Neutralité
 
-Bitcoin est neutre, ou sans permission, comme on aime à l'appeler. Cela signifie que Bitcoin ne se soucie pas de qui vous êtes ni de l'usage que vous en faites.
-
-Bitcoin est neutre, ce qui est une bonne chose, et c'est la seule façon dont il peut fonctionner. S'il était contrôlé par une organisation, il ne serait qu'un autre type d'objet virtuel et ne m'intéresserait pas du tout
+Bitcoin est neutre, ou sans permission, comme on aime à l'appeler. Cela signifie que Bitcoin ne se soucie pas de qui vous êtes ni de l'usage que vous en faites. Cette neutralité est une bonne chose, et c’est la seule façon pour Bitcoin de fonctionner. S’il était contrôlé par une organisation, il ne serait qu’un autre objet virtuel parmi d’autres, et ne m’intéresserait pas du tout.
 
 Tant que vous respectez les règles, vous êtes libre de l'utiliser comme bon vous semble, sans demander la permission à qui que ce soit. Cela inclut *le miner*, *effectuer une transaction* avec, et *construire des protocoles et des services* au-dessus de Bitcoin :
 - Si le *minage* était un processus soumis à autorisation, il faudrait qu'une autorité centrale sélectionne les personnes autorisées à miner. Cela conduirait très probablement les mineurs à devoir signer des contrats légaux dans lesquels ils accepteraient de censurer les transactions en fonction des caprices de l'autorité centrale, ce qui va à l'encontre de l'objectif premier du minage.
@@ -187,10 +180,10 @@ L'un des aspects convaincants du Bitcoin est qu'il est facile de comprendre que 
 
 La façon dont Bitcoin fonctionne grâce à la décentralisation ressemble à l'extraordinaire intelligence collective que l'on trouve chez de nombreuses espèces dans la nature. L'informaticienne Radhika Nagpal parle dans un [Ted talk](https://www.ted.com/talks/radhika_nagpal_what_intelligent_machines_can_learn_from_a_school_of_fish) du comportement collectif des bancs de poissons et de la manière dont les scientifiques tentent de l'imiter à l'aide de robots.
 
-> Deuxièmement, et c'est ce que je trouve toujours le plus remarquable, nous savons qu'il n'y a pas de chef pour superviser ce banc de poissons. Au contraire, cet incroyable comportement collectif émerge purement des interactions d'un poisson avec un autre.
+> Deuxièmement, et c'est ce que je trouve toujours le plus remarquable, nous savons qu'il n'y a pas de chef pour superviser ce banc de poissons. Au contraire, cet incroyable comportement collectif émerge uniquement des interactions d'un poisson avec un autre.
 > D'une manière ou d'une autre, il existe des interactions ou des règles d'engagement entre les poissons voisins qui font que tout se passe bien.
 
-Elle souligne que de nombreux systèmes, qu'ils soient naturels ou artificiels, peuvent fonctionner sans chef et le font, et qu'ils sont puissants et résistants. Chaque individu n'interagit qu'avec son environnement immédiat, mais ensemble, ils forment quelque chose de formidable.
+Elle souligne que de nombreux systèmes, qu'ils soient naturels ou artificiels, peuvent fonctionner sans chef et qu'ils le font tout en restant puissants et résistants. Chaque individu n'interagit qu'avec son environnement immédiat, mais ensemble, ils forment quelque chose de formidable.
 
 ![](assets/fr/002.webp)
 
@@ -199,9 +192,7 @@ Quelle que soit votre opinion sur le Bitcoin, sa nature décentralisée le rend 
 
 ### Conclusion sur la décentralisation
 
-Nous faisons la distinction entre la décentralisation des noeuds complets et la décentralisation du minage. La décentralisation du minage est un moyen de résister à la censure, tandis que la décentralisation des noeuds complets est ce qui empêche les règles consensuelles du réseau d'être modifiées sans un large soutien de la part des utilisateurs.
-
-La nature décentralisée du Bitcoin permet une neutralité vis-à-vis des développeurs, des utilisateurs et des mineurs. Tout le monde est libre de participer sans demander la permission.
+Nous faisons la distinction entre la décentralisation des noeuds complets et la décentralisation du minage. La décentralisation du minage est un moyen de résister à la censure, tandis que la décentralisation des noeuds complets est ce qui empêche les règles consensuelles du réseau d'être modifiées sans un large soutien de la part des utilisateurs. La nature décentralisée du Bitcoin permet une neutralité vis-à-vis des développeurs, des utilisateurs et des mineurs. Tout le monde est libre de participer sans demander la permission.
 Les systèmes décentralisés peuvent être difficiles à comprendre, mais il existe des modèles mentaux qui peuvent aider, par exemple la langue anglaise ou les bancs de poissons.
 
 
@@ -221,11 +212,12 @@ Les gens disent souvent des choses comme "Bitcoin est génial parce que c'est Tr
 
 Qu'entend-on par Trustless ? Pieter Wuille explique ce terme très répandu sur [Stack Exchange](https://Bitcoin.stackexchange.com/a/45674/69518) :
 
-> La confiance dont nous parlons dans "Trustless" est un terme technique abstrait. Un système distribué est appelé Trustless lorsqu'il ne nécessite aucune partie de confiance pour fonctionner correctement.
+> La confiance dont nous parlons dans "Trustless" est un terme technique abstrait. Un système distribué est appelé trustless lorsqu'il ne nécessite aucune partie de confiance pour fonctionner correctement.
 
-En bref, le terme *Trustless* fait référence à une propriété du protocole Bitcoin qui lui permet de fonctionner logiquement sans "aucune partie de confiance". Cela diffère de la confiance que vous devez inévitablement accorder au logiciel ou au matériel que vous utilisez. Ce dernier aspect de la confiance sera abordé plus loin dans ce chapitre.
+En bref, le terme trustless fait référence à une propriété du protocole Bitcoin qui lui permet de fonctionner logiquement sans "aucune partie de confiance". Cela diffère de la confiance que vous devez inévitablement accorder au logiciel ou au matériel que vous utilisez. Ce dernier aspect sera abordé plus loin dans ce chapitre.
 
-Dans les systèmes centralisés, nous nous appuyons sur la réputation d'un acteur central pour nous assurer qu'il veillera à la sécurité ou qu'il fera marche arrière en cas de problème, ainsi que sur le système juridique pour sanctionner toute violation. Ces exigences de confiance sont problématiques dans les systèmes décentralisés pseudonymes, il n'y a pas de possibilité de recours et il ne peut donc pas y avoir de confiance. Dans l'introduction du [livre blanc Bitcoin](https://Bitcoin.org/bitcoin.pdf), Satoshi Nakamoto décrit ce problème :
+Dans les systèmes centralisés, nous nous appuyons sur la réputation d'un acteur central pour nous assurer qu'il veillera à la sécurité ou qu'il fera marche arrière en cas de problème, ainsi que sur le système juridique pour sanctionner toute violation. Ces exigences de confiance posent problème dans les systèmes décentralisés pseudonymes : il n'y a pas de possibilité de recours, et il ne peut donc pas y avoir de confiance.
+Dans l'introduction du [livre blanc Bitcoin](https://Bitcoin.org/bitcoin.pdf), Satoshi Nakamoto décrit ce problème :
 
 > Le commerce sur Internet en est venu à reposer presque exclusivement sur les institutions financières agissant comme tiers de confiance afin de traiter les paiements électroniques.
 > Alors que le système fonctionne suffisamment bien pour la plupart des transactions, il souffre de faiblesses inhérentes au modèle de confiance. Les transactions totalement irréversibles ne sont pas réellement possibles, car les institutions financières ne peuvent pas éviter les conflits de médiation. La coût de la médiation augmente les coûts de transaction, en limitant le montant minimum de la transaction et coupant ainsi la possibilité de transactions courantes à petit montant. De plus, il y a un coût plus important dans la perte de la capacité à faire des paiements irréversibles pour les services irréversibles.
@@ -238,24 +230,27 @@ Pour utiliser Bitcoin de manière Trustless, vous devez faire fonctionner un nœ
 
 David Harding a rédigé [un article sur le site web Bitcoin.org](https://Bitcoin.org/en/Bitcoin-core/features/validation) expliquant comment la gestion d'un noeud complet, ou l'utilisation sans confiance de Bitcoin, vous aide réellement :
 
-> Bitcoin ne fonctionne que lorsque les gens acceptent des bitcoins en échange contre d'autres choses de valeur. En d'autres termes, ce sont les personnes qui acceptent des bitcoins qui lui donnent de la valeur et qui décident du fonctionnement du Bitcoin.
+> La confiance dont nous parlons dans "Trustless" est un terme technique abstrait. Un système distribué est appelé trustless lorsqu'il ne nécessite aucune partie de confiance pour fonctionner correctement.
+
+En bref, le terme trustless fait référence à une propriété du protocole Bitcoin qui lui permet de fonctionner logiquement sans "aucune partie de confiance". Cela diffère de la confiance que vous devez inévitablement accorder au logiciel ou au matériel que vous utilisez. Ce dernier aspect sera abordé plus loin dans ce chapitre.
+
+Dans les systèmes centralisés, nous nous appuyons sur la réputation d'un acteur central pour nous assurer qu'il veillera à la sécurité ou qu'il fera marche arrière en cas de problème, ainsi que sur le système juridique pour sanctionner toute violation. Ces exigences de confiance posent problème dans les systèmes décentralisés pseudonymes : il n'y a pas de possibilité de recours, et il ne peut donc pas y avoir de confiance.
 >
 
 > Lorsque vous acceptez des bitcoins, vous avez le pouvoir d'appliquer les règles de Bitcoin, telles que l'interdiction de confisquer les bitcoins d'une personne sans avoir accès aux clés privées de cette personne.
 >
 
-> Malheureusement, de nombreux utilisateurs externalisent leur pouvoir. Cela laisse la décentralisation de Bitcoin dans un état affaibli où une poignée de mineurs peut s'entendre avec une poignée de banques et de services gratuits pour changer les règles de Bitcoin pour tous les utilisateurs non vérificateurs qui ont externalisé leur pouvoir.
+> Malheureusement, de nombreux utilisateurs externalisent leur pouvoir. Cela laisse la décentralisation de Bitcoin affaiblie, au point où une poignée de mineurs pourrait s'entendre avec quelques banques et services centralisés pour changer les règles de Bitcoin au détriment des utilisateurs non vérificateurs ayant externalisé leur pouvoir.
 >
-
 > Contrairement à d'autres portefeuilles, Bitcoin Core applique les règles, ainsi, si les mineurs et les banques changent les règles pour leurs utilisateurs qui ne vérifient pas, ces utilisateurs ne pourront pas payer les utilisateurs de Bitcoin Core qui ont une validation complète, comme vous.
 
 Il affirme que l'utilisation d'un noeud complet vous aidera à vérifier tous les aspects de la Blockchain sans faire confiance à personne d'autre, afin de garantir que les pièces que vous recevez des autres sont authentiques. C'est très bien mais il y a une chose importante qu'un noeud complet ne peut pas faire : elle ne peut pas empêcher la double dépense par la réécriture de la chaîne :
 
-> Notez que bien que tous les programmes, y compris le Bitcoin Core, sont vulnérables aux réécritures de chaîne, le Bitcoin fournit un mécanisme de défense : plus vos transactions ont de confirmations, plus vous êtes en sécurité. Il n'y a pas de meilleure défense décentralisée connue que celle-là.
+> Notez que, bien que tous les programmes, y compris Bitcoin Core, soient vulnérables aux réécritures de chaîne, Bitcoin fournit un mécanisme de défense : plus vos transactions ont de confirmations, plus vous êtes en sécurité. Il n'y a pas de meilleure défense décentralisée connue que celle-ci.
 
 Quel que soit le degré d'avancement de votre logiciel, vous devez toujours être certain que les blocs contenant vos pièces ne seront pas réécrits. Toutefois, comme le souligne Harding, vous pouvez attendre un certain nombre de confirmations, après quoi vous considérez que la probabilité d'une réécriture de la chaîne est suffisamment faible pour être acceptable.
 
-Les incitations à utiliser Bitcoin d'une manière Trustless s'alignent sur le besoin de décentralisation des noeuds complets du système. Plus il y a de personnes qui utilisent leurs propres nœuds complets, plus la décentralisation des noeuds complets est importante, et donc plus Bitcoin est résistant aux modifications malveillantes du protocole. Malheureusement, comme nous l'avons expliqué dans la section sur la décentralisation des noeuds complets, les utilisateurs optent souvent pour des services de confiance en raison de l'inévitable compromis entre l'absence de confiance et la commodité.
+Les incitations à utiliser Bitcoin d'une manière trustless s'alignent sur le besoin de décentralisation des nœuds complets du système. Plus il y a de personnes qui utilisent leurs propres nœuds complets, plus la décentralisation est importante, et donc plus Bitcoin est résistant aux modifications malveillantes du protocole. Malheureusement, comme nous l'avons expliqué dans la section sur la décentralisation des nœuds complets, les utilisateurs optent souvent pour des services de confiance en raison de l'inévitable compromis entre absence de confiance et commodité.
 
 L'absence de confiance de Bitcoin est absolument impérative du point de vue du système. En 2018, Matt Corallo a [parlé de l'absence de confiance](https://btctranscripts.com/baltic-honeybadger/2018/trustlessness-scalability-and-directions-in-security-models/) lors de la conférence Baltic Honeybadger à Riga.
 
@@ -275,13 +270,15 @@ Bitcoin fonctionne de manière Trustless mais vous devez toujours faire confianc
 
 Donc, en plus d'utiliser un noeud complet, vous devez également vous assurer que vous utilisez ce que vous avez l'intention d'utiliser. L'utilisateur de Reddit brianddk [a écrit un article](https://www.reddit.com/r/Bitcoin/comments/smj1ep/bitcoin_v220_and_guix_stronger_defense_against/) sur les différents niveaux de confiance que vous pouvez choisir lors de la vérification de votre logiciel. Dans la section "Trusting the builders", il parle des constructions reproductibles :
 
-> Les versions reproductibles sont un moyen de concevoir un logiciel de façon à ce que de nombreux développeurs de la communauté puissent chacun construire le logiciel et s'assurer que l'installateur final construit est identique à ce que les autres développeurs produisent. Dans le cas d'un projet très public et reproductible comme Bitcoin, il n'est pas nécessaire de faire entièrement confiance à un seul développeur. De nombreux développeurs peuvent tous effectuer la construction et attester qu'ils ont produit le même fichier que celui signé numériquement par le développeur d'origine.
+> Les versions reproductibles sont un moyen de concevoir un logiciel de façon à ce que de nombreux développeurs de la communauté puissent chacun construire le logiciel et s'assurer que l'installateur final est identique à ce que produisent les autres développeurs. Dans le cas d'un projet très public et reproductible comme Bitcoin, il n'est pas nécessaire de faire entièrement confiance à un seul développeur. De nombreux développeurs peuvent effectuer la construction et attester qu'ils ont produit le même fichier que celui signé numériquement par le développeur d'origine.
 
 L'article définit cinq niveaux de confiance : confiance dans le site, dans les constructeurs, dans le compilateur, dans le noyau et dans le matériel.
 
 Pour approfondir le sujet des constructions reproductibles, Carl Dong [a fait une présentation sur Guix](https://btctranscripts.com/breaking-Bitcoin/2019/Bitcoin-build-system/) expliquant pourquoi faire confiance au système d'exploitation, aux bibliothèques et aux compilateurs peut être problématique, et comment résoudre ce problème avec un système appelé Guix, qui est utilisé par le Bitcoin Core aujourd'hui.
 
-> Que peut-on faire face au risque que notre chaîne d’outils inclue des binaires considérés comme fiables, mais qui pourraient être malveillants de façon reproductible ? Nous devons être plus que reproductibles. Nous devons être amorçables. Nous ne pouvons pas avoir autant d'outils binaires que nous devons télécharger et auxquels nous devons faire confiance à partir de serveurs externes contrôlés par d'autres organisations.
+> Que peut-on faire face au risque que notre chaîne d’outils inclue des binaires considérés comme fiables, mais qui pourraient être malveillants de manière reproductible ?
+
+ Nous devons être plus que reproductibles : nous devons être amorçables. Nous ne pouvons pas dépendre d'autant d'outils binaires que nous devons télécharger et auxquels nous devons faire confiance depuis des serveurs externes contrôlés par d'autres organisations.
 >
 
 > Nous devrions savoir comment ces outils sont construits et comment nous pouvons les reconstruire, de préférence à partir d'un ensemble beaucoup plus restreint de binaires de confiance. Nous devons réduire autant que possible notre ensemble de binaires de confiance et disposer d'un chemin facilement vérifiable entre ces chaînes d'outils et ce que nous utilisons pour construire Bitcoin. Cela nous permet de maximiser la vérification et de minimiser la confiance.
@@ -294,9 +291,9 @@ Il existe un mantra auquel souscrivent de nombreux bitcoiners et qui résume bie
 
 Cela fait référence à la phrase "[trust, but verify](https://en.wikipedia.org/wiki/Trust,_but_verify)" que l'ancien président américain Ronald Reagan a utilisée dans le contexte du désarmement nucléaire. les [Bitcoiners](https://twitter.com/Truthcoin/status/1491415722123153408?s=20&t=ZyROxZxlBppdRpuuzsiF5w) l'ont inversée pour souligner le rejet de la confiance et l'importance d'exécuter un noeud complet.
 
-Il appartient aux utilisateurs de décider dans quelle mesure ils souhaitent vérifier le logiciel qu'ils utilisent et les données Blockchain qu'ils reçoivent. Comme pour beaucoup d'autres choses dans le Bitcoin, il y a un compromis entre la commodité et la confiance. Il est presque toujours plus pratique d'utiliser un Wallet dont on a la garde que d'exécuter le Bitcoin Core sur son propre matériel. Cependant, comme le logiciel Bitcoin mûrit et que les interfaces utilisateur s'améliorent, il devrait, avec le temps, mieux supporter les utilisateurs désireux de travailler sans confiance. En outre, au fur et à mesure que les utilisateurs acquièrent des connaissances, ils devraient être en mesure d'éliminer progressivement la confiance de l'équation.
+Il appartient aux utilisateurs de décider dans quelle mesure ils souhaitent vérifier le logiciel qu'ils utilisent et les données blockchain qu'ils reçoivent. Comme pour beaucoup d'autres aspects de Bitcoin, il existe un compromis entre commodité et confiance. Il est presque toujours plus pratique d'utiliser un wallet dont on a la garde que d'exécuter Bitcoin Core sur son propre matériel. Cependant, à mesure que le logiciel Bitcoin mûrit et que les interfaces utilisateur s'améliorent, il devrait, avec le temps, mieux prendre en charge les utilisateurs désireux de travailler sans confiance. En outre, au fur et à mesure que les utilisateurs acquièrent des connaissances, ils devraient être en mesure d'éliminer progressivement la confiance de l'équation.
 
-Certains utilisateurs pensent de manière contradictoire et vérifient la plupart des aspects du logiciel qu'ils utilisent. En conséquence, ils réduisent le besoin de confiance au strict minimum, puisqu'ils ne doivent faire confiance qu'à leur matériel informatique et à leur système d'exploitation. Ce faisant, ils aident également les personnes qui ne vérifient pas leur matériel de manière aussi approfondie en faisant entendre leur voix en public pour les avertir de tout problème qu'ils pourraient trouver. Un bon exemple de cela est un [événement survenu en 2018](https://bitcoincore.org/en/2018/09/20/notice/), lorsque quelqu'un a découvert un bug qui permettait aux mineurs de dépenser une sortie deux fois dans la même transaction :
+Certains utilisateurs adoptent une approche plus stricte et vérifient la plupart des aspects du logiciel qu'ils utilisent. En conséquence, ils réduisent le besoin de confiance au strict minimum, puisqu'ils ne doivent faire confiance qu'à leur matériel informatique et à leur système d'exploitation. Ce faisant, ils aident également les personnes qui ne vérifient pas leur matériel aussi rigoureusement, en faisant entendre leur voix publiquement pour les avertir de tout problème qu'ils pourraient découvrir. Un bon exemple de cela est un [événement survenu en 2018](https://bitcoincore.org/en/2018/09/20/notice/), lorsque quelqu'un a découvert un bug qui permettait aux mineurs de dépenser une sortie deux fois dans la même transaction :
 
 > CVE-2018-17144, dont un correctif a été publié le 18 septembre dans les versions 0.16.3 et 0.17.0rc4 de Bitcoin Core, comprend à la fois un composant de déni de service et une vulnérabilité critique d'inflation. Il a été initialement signalé à plusieurs développeurs travaillant sur Bitcoin Core, ainsi que sur des projets supportant d'autres crypto-monnaies, y compris ABC et Unlimited le 17 septembre comme un bug de déni de service uniquement, mais nous avons rapidement déterminé que le problème était également une vulnérabilité d'inflation avec la même cause et le même correctif.
 
@@ -316,7 +313,7 @@ Le protocole Bitcoin est Trustless parce qu'il permet aux utilisateurs d'interag
 
 ![](assets/fr/004.webp)
 
-Ce chapitre traite de la manière de garder pour soi ses informations financières privées. Il explique ce qu'est la vie privée dans le contexte de Bitcoin, pourquoi elle est importante et ce que signifie le fait que Bitcoin soit pseudonyme. Il examine également la manière dont les données privées peuvent fuir, tant en On-Chain qu'en off-chain.
+Ce chapitre traite de la manière de garder ses informations financières privées. Il explique ce qu'est la vie privée dans le contexte de Bitcoin, pourquoi elle est importante et ce que signifie le fait que Bitcoin soit pseudonyme. Il examine également comment les données privées peuvent fuir, tant on-chain qu'off-chain.
 
 Il aborde ensuite le fait que les bitcoins doivent être fongibles, c'est-à-dire interchangeables avec d'autres bitcoins, et explique comment la fongibilité et la protection de la vie privée vont de pair. Enfin, le chapitre présente quelques mesures que vous pouvez prendre pour améliorer votre vie privée et celle des autres.
 
@@ -349,9 +346,7 @@ Nous avons mentionné plus haut que Bitcoin est pseudonyme et que les pseudonyme
 
 Andrew Poelstra [explique dans un billet Bitcoin Stack Exchange](https://Bitcoin.stackexchange.com/a/29473/69518) à quoi ressemblerait l'anonymat dans les transactions :
 
-> L'anonymat total, c'est-à-dire le fait que lorsque vous dépensez de l'argent, il n'y a aucune trace de son origine ou de sa destination, est théoriquement possible en utilisant la technique cryptographique des preuves à connaissance nulle.
-
-La différence semble être que dans une forme pseudonyme de monnaie, il est possible de retracer les paiements entre les pseudonymes, alors que dans une forme anonyme de monnaie, ce n'est pas le cas. Étant donné que les paiements effectués dans le cadre de Bitcoin sont traçables entre les pseudonymes, il ne s'agit pas d'un système anonyme.
+> L'anonymat total c’est‑à‑dire le fait que, lorsque vous dépensez de l’argent, il n’y ait aucune trace de son origine ou de sa destination est théoriquement possible grâce à la technique cryptographique des preuves à connaissance nulle.La différence semble être que dans une forme pseudonyme de monnaie, il est possible de retracer les paiements entre les pseudonymes, alors que dans une forme anonyme de monnaie, ce n'est pas le cas. Étant donné que les paiements effectués dans le cadre de Bitcoin sont traçables entre les pseudonymes, il ne s'agit pas d'un système anonyme.
 
 Nous avons également dit que les pseudonymes étaient des clés publiques, mais il s'agit en fait d'adresses dérivées de clés publiques. Pourquoi utilisons-nous des adresses comme pseudonymes et pas autre chose, par exemple des noms descriptifs, comme "watchme1984" ? Cette question a été [bien expliquée](https://Bitcoin.stackexchange.com/a/25175/69518) par l'utilisateur Tim S., également sur Bitcoin Stack Exchange :
 
@@ -379,7 +374,7 @@ Il en ressort que la protection de la vie privée dans Bitcoin n'est pas parfait
 
 Un autre aspect important de la protection de la vie privée est que les mesures que vous prenez pour protéger votre propre vie privée affectent également les autres utilisateurs. Si vous négligez votre propre vie privée, d'autres personnes risquent également de voir leur vie privée réduite. Gregory Maxwell l'explique très clairement dans le cadre de la discussion Bitcoin Talk [dont le lien figure ci-dessus](https://bitcointalk.org/index.php?topic=334316.msg3589252#msg3589252), et conclut par un exemple :
 
-> Cela fonctionne également dans la pratique... Un hacker éthique sur IRC s'amusait à craquer des brainwallets et a trouvé une phrase avec ~250 BTC à l'intérieur.  Nous avons pu identifier le propriétaire rien qu'avec l'adresse, parce qu'il avait été payé par un service Bitcoin qui réutilisait les adresses, et il a réussi à les convaincre de lui donner les coordonnées de l'utilisateur. Il a réussi à joindre l'utilisateur par téléphone, qui était choqué et confus, mais reconnaissant de ne pas avoir perdu son argent.  C'est une fin heureuse. (Ce n'est pas le seul exemple, loin de là, mais c'est l'un des plus amusants).
+> Cela fonctionne également dans la pratique : un hacker éthique sur IRC s'amusait à craquer des brainwallets et a trouvé une phrase contenant environ 250 BTC.Nous avons pu identifier le propriétaire rien qu'avec l'adresse, parce qu'il avait été payé par un service Bitcoin qui réutilisait les adresses, et il a réussi à les convaincre de lui donner les coordonnées de l'utilisateur. Il a réussi à joindre l'utilisateur par téléphone, qui était choqué et confus, mais reconnaissant de ne pas avoir perdu son argent.  C'est une fin heureuse. (Ce n'est pas le seul exemple, loin de là, mais c'est l'un des plus amusants).
 
 Dans ce cas, tout s'est bien passé grâce à un hacker à l'esprit philanthropique, mais ne comptez pas sur lui la prochaine fois.
 
@@ -389,9 +384,11 @@ Si la Blockchain s'avère être une source notoire de fuites de données privée
 
 Parmi une pléthore d'attaques, Belcher mentionne la possibilité pour quelqu'un d'espionner votre connexion internet, par exemple votre fournisseur d'accès :
 
-> Si l'adversaire voit sortir de votre nœud une transaction ou un bloc qui n'y est pas entré auparavant, il peut savoir avec une quasi-certitude que la transaction a été effectuée par vous ou que le bloc a été miné par vous. Comme il s'agit de connexions internet, l'adversaire sera en mesure de relier l'adresse IP aux informations découvertes sur Bitcoin.
+> Si un adversaire voit sortir de votre nœud une transaction ou un bloc qui n’y est pas entré auparavant, il peut savoir avec une quasi‑certitude que la transaction a été effectuée par vous ou que le bloc a été miné par vous. Comme il s’agit de connexions internet, l’adversaire pourra relier votre adresse IP aux informations qu’il a découvertes sur Bitcoin.
 
-Toutefois, ce sont les plateformes d'échange qui présentent les fuites les plus évidentes en matière de protection de la vie privée. En raison des lois, généralement appelées KYC (Know Your Customer) et AML (Anti-Money Laundering), en vigueur dans les juridictions où elles opèrent, les plateformes d'échange et les entreprises associées doivent souvent collecter des données personnelles sur leurs utilisateurs, constituant ainsi de grandes bases de données sur les utilisateurs et les bitcoins qu'ils possèdent. Ces bases de données constituent de vraies cibles pour les gouvernements et les criminels malveillants qui sont toujours à la recherche de nouvelles victimes. Il existe de véritables marchés pour ce type de données, où les pirates informatiques vendent des données au plus offrant.
+Toutefois, ce sont les plateformes d’échange qui présentent les fuites les plus évidentes en matière de protection de la vie privée. En raison des lois généralement appelées KYC (Know Your Customer) et AML (Anti‑Money Laundering) dans les juridictions où elles opèrent, les plateformes d’échange et les entreprises associées doivent souvent collecter des données personnelles sur leurs utilisateurs, constituant ainsi de vastes bases de données reliant identités réelles et avoirs en bitcoins.
+
+Ces bases de données sont de véritables cibles pour les gouvernements comme pour des criminels malveillants, toujours à la recherche de nouvelles victimes. Il existe même des marchés où ce type de données est vendu par des hackers au plus offrant.
 
 Pour ne rien arranger, les entreprises qui gèrent ces bases de données ont souvent peu d'expérience en matière de protection des données financières ; en fait, beaucoup d'entre elles sont de jeunes start-ups, et nous savons pertinemment que plusieurs fuites ont déjà eu lieu. En voici quelques exemples
 
@@ -402,19 +399,19 @@ Encore une fois, la protection des données contre ce large éventail d'attaques
 
 ### Fongibilité
 
-La fongibilité, dans le contexte des monnaies, signifie qu'une pièce est interchangeable avec toute autre pièce de la même monnaie. Ce drôle de mot a été brièvement évoqué plus haut dans le chapitre.
+La fongibilité, dans le contexte des monnaies, signifie qu’une pièce est interchangeable avec toute autre pièce de la même monnaie. Ce terme, un peu particulier, a été brièvement évoqué plus haut dans le chapitre.
 
 Dans l'article dont il est question ici, Gregory Maxwell [déclare](https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908) :
 
-> La confidentialité financière est un élément essentiel de la fongibilité dans Bitcoin : si vous pouvez distinguer de manière significative une pièce d'une autre, alors leur fongibilité est faible. Si notre fongibilité est trop faible dans la pratique, alors nous ne pouvons pas être décentralisés : si quelqu'un d'important annonce une liste de pièces volées dont il n'acceptera pas les pièces dérivées, vous devez soigneusement vérifier les pièces que vous acceptez par rapport à cette liste et renvoyer celles qui échouent.  Tout le monde est obligé de vérifier les listes noires émises par diverses autorités car dans ce monde, nous n'aimerions pas nous retrouver avec de mauvaises pièces. Cela ajoute des frictions et des coûts de transaction et rend Bitcoin moins valable en tant que monnaie.
+> La confidentialité financière est un élément essentiel de la fongibilité dans Bitcoin : si vous pouvez distinguer de manière significative une pièce d'une autre, alors leur fongibilité est faible. Si notre fongibilité est trop faible dans la pratique, nous ne pouvons pas être véritablement décentralisés : si quelqu’un d’influent publie une liste de pièces volées dont il n’acceptera pas les dérivées, vous devez soigneusement vérifier les pièces que vous acceptez par rapport à cette liste et rejeter celles qui échouent. Tout le monde est ainsi obligé de consulter les listes noires émises par diverses autorités, car dans ce monde, personne ne veut se retrouver avec de mauvaises pièces. Cela ajoute des frictions et des coûts de transaction, rendant Bitcoin moins utile en tant que monnaie.
 
-Il parle ici des dangers liés à l'absence de fongibilité. Supposons que vous ayez une UTXO. L'histoire de cette UTXO peut normalement être retracée sur plusieurs sauts, en s'étendant sur des multitudes de sorties précédentes. Si l'une de ces sorties a été impliquée dans une activité illégale, indésirable ou suspecte, certains destinataires potentiels de votre pièce pourraient la rejeter. Si vous pensez que vos bénéficiaires vérifieront vos pièces par rapport à un service centralisé de liste blanche ou noire, vous commencerez peut-être à vérifier les pièces que vous recevez également, par mesure de sécurité. Il en résulte qu'une mauvaise fongibilité renforcera une fongibilité encore plus mauvaise.
+Il s'agit ici des dangers liés à l'absence de fongibilité. Supposons que vous possédiez une UTXO. L’histoire de cette UTXO peut normalement être retracée sur plusieurs sauts, en s’étendant sur de nombreuses sorties précédentes. Si l’une de ces sorties a été impliquée dans une activité illégale, indésirable ou suspecte, certains destinataires potentiels de votre pièce pourraient la rejeter. Si vous pensez que vos bénéficiaires vérifieront vos pièces via un service centralisé de liste blanche ou noire, vous commencerez peut-être à vérifier vous-même les pièces que vous recevez, par mesure de sécurité. Il en résulte qu’une mauvaise fongibilité renforce une fongibilité encore plus mauvaise.
 
 Adam Back et Matt Corallo [ont fait une présentation sur la fongibilité](https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/) à Scaling Bitcoin à Milan en 2016. Ils réfléchissaient dans le même sens :
 
-> La fongibilité est nécessaire au fonctionnement de Bitcoin. Si vous recevez des pièces et que vous ne pouvez pas les dépenser, vous commencez à douter de la possibilité de les dépenser. S'il y a des doutes sur les pièces que vous recevez, les gens vont aller voir les services d'altération et vérifier si "ces pièces sont bénies" et ils vont refuser d'échanger. Cela fait passer Bitcoin d'un système décentralisé sans permission à un système centralisé avec permission où vous avez une "reconnaissance de dette" de la part des fournisseurs de listes noires.
+> La fongibilité est nécessaire au fonctionnement de Bitcoin. Si vous recevez des pièces et que vous ne pouvez pas les dépenser, vous commencez à douter de votre capacité à les utiliser. S'il y a des doutes sur les pièces que vous recevez, les gens se tourneront vers des services d’altération pour vérifier si "ces pièces sont bénies" et refuseront de les échanger. Cela transforme Bitcoin, d’un système décentralisé sans permission, en un système centralisé avec permission, où vous dépendez de la "reconnaissance de dette" des fournisseurs de listes noires.
 
-Il semble que la protection de la vie privée et la fongibilité aillent de pair. La fongibilité diminuera si le respect de la vie privée est faible, par exemple parce que les pièces provenant de personnes non désirées peuvent être mises sur liste noire. De la même manière, la vie privée sera affaiblie si la fongibilité est faible : s'il existe une liste noire, vous devrez demander aux fournisseurs de la liste noire quelles pièces accepter, révélant ainsi éventuellement votre adresse IP, votre adresse électronique et d'autres informations sensibles. Ces deux caractéristiques sont si étroitement liées qu'il est impossible de parler de l'une ou l'autre d'entre elles de manière isolée.
+Il semble que protection de la vie privée et fongibilité aillent de pair. La fongibilité diminue si le respect de la vie privée est faible, par exemple lorsque des pièces provenant de personnes indésirables sont mises sur liste noire. De même, la vie privée est affaiblie si la fongibilité est faible : s'il existe une liste noire, vous devrez demander aux fournisseurs quelles pièces accepter, révélant ainsi éventuellement votre adresse IP, votre adresse électronique et d’autres informations sensibles. Ces deux caractéristiques sont si étroitement liées qu’il est impossible de discuter de l’une sans considérer l’autre.
 
 ### Mesures de protection de la vie privée
 
@@ -474,7 +471,7 @@ Commençons par examiner ce que les règles de consensus actuelles disent à pro
 
 > Si vous additionnez tous ces chiffres, vous obtenez 20999999.9769 BTC.
 
-Mais pour un certain nombre de raisons, telles que les premiers problèmes liés aux transactions Coinbase, les mineurs qui réclament involontairement moins que ce qui est autorisé, et la perte de clés privées, cette limite supérieure ne sera jamais atteinte. Wuille conclut :
+Mais pour plusieurs raisons comme les premiers problèmes liés aux transactions Coinbase, les mineurs réclamant involontairement moins que ce qui leur est dû, ou la perte de clés privéescette limite supérieure ne sera jamais atteinte. Wuille conclut :
 
 > Il nous reste donc 20999817.31308491 BTC (en tenant compte de tout ce qui a été fait jusqu'au bloc 528333)
 

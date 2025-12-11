@@ -1,0 +1,8 @@
+question: In the DER encoding format for ECDSA signatures, what is the typical size increase from the raw signature data to the final encoded signature?
+answer: From 64 bytes to approximately 71-72 bytes due to DER formatting overhead
+wrong_answers:
+  - From 32 bytes to approximately 64 bytes due to R and S component encoding
+  - From 64 bytes to exactly 128 bytes due to double encoding of signature components
+  - From 71 bytes to approximately 64 bytes due to compression of the sequence markers
+explanation: |
+  DER encoding adds structural overhead to ECDSA signatures through sequence markers (0x30), length bytes, and component prefixes (0x02). The raw ECDSA signature consists of two 32-byte values (R and S) totaling 64 bytes, but DER formatting expands this to approximately 71-72 bytes. This inefficiency was one reason Bitcoin later adopted Schnorr signatures in Taproot, which use fixed 64-byte signatures without encoding overhead.

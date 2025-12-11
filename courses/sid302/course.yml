@@ -19,7 +19,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - 2raj2raj
-    reward: 1.13
+    reward: 6.21
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -149,6 +149,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 4.43
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 16.54
 tags:
   - sidechains
   - technical-analysis

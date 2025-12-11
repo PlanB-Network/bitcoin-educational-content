@@ -6,3 +6,4 @@ wrong_answers:
   - Trustless and trusted systems must operate independently and cannot be layered on top of each other
 explanation: |
   Matt Corallo's key insight is that Bitcoin's trustless base layer enables flexibility in system design. A trustless foundation like Bitcoin's protocol allows developers to create trusted services (like custodial wallets) on higher layers while preserving the underlying security guarantees. However, the reverse is impossible - you cannot create truly trustless systems if the foundation itself requires trust, as any trustless properties would be undermined by the trusted base layer's vulnerabilities.
+reviewed: false

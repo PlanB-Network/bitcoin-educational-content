@@ -6,3 +6,4 @@ wrong_answers:
   - Chi phí bảo mật chuyển từ việc các nhà phát triển phải trả thông qua việc bảo trì mã sang việc người dùng phải trả thông qua việc tham gia mạng lưới
 explanation: |
   Chương này giải thích rõ ràng rằng hiện nay, người nắm giữ trả phí bảo mật cho Bitcoin thông qua lạm phát tiền tệ (tiền mới được tạo ra thông qua trợ cấp khối), nhưng trong tương lai, khi trợ cấp khối tiến gần đến mức 0, người dùng sẽ trả phí bảo mật thông qua phí giao dịch. Điều này thể hiện một sự thay đổi kinh tế cơ bản về việc ai là người chịu chi phí duy trì an ninh mạng, chuyển từ mô hình tạo tiền mới để tài trợ cho mining sang mô hình mà phí giao dịch phải tạo ra động lực đủ lớn để thợ đào bảo mật mạng lưới.
+reviewed: false

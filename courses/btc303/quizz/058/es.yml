@@ -6,3 +6,4 @@ wrong_answers:
   - El código ofuscado debe estar disponible a través de una descarga independiente con costes de reproducción
 explanation: |
   La definición de código abierto establece explícitamente que "no se permite el código fuente deliberadamente ofuscado" Se trata de un requisito fundamental, ya que la ofuscación impide el escrutinio, la modificación y la comprensión del código, lo que va en contra de los objetivos centrales del software de código abierto. El código fuente debe estar en "la forma preferida en la que un programador modificaría el programa", lo que hace que la ofuscación sea incompatible con los principios del código abierto, independientemente de la documentación o los métodos de distribución.
+reviewed: false

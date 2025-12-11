@@ -6,4 +6,4 @@ wrong_answers:
   - CoinSwap
 explanation: |
   Usługa Loop Out firmy Lightning Labs umożliwia transfer środków z kanału Lightning do łańcucha bloków, optymalizując w ten sposób pojemność odbiorczą podczas pobierania bitcoinów w głównym łańcuchu.
-reviewed: false
+reviewed: true

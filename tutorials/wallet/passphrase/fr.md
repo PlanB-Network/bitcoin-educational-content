@@ -64,4 +64,4 @@ https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa0
 
 Sur un SeedSigner avec un Seedkeeper :
 
-https://planb.academy/tutorials/wallet/backup/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579

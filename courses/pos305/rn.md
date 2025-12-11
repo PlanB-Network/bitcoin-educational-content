@@ -2082,7 +2082,7 @@ Abarongozi ba server barashobora gufungura ibindi kugira ngo babone.
 #### LND (IRUHUKO)
 
 
-BTCPay igaragaza igikorwa ca LND’s REST kugira ngo abantu bakoreshe hanze; uzosanga amakuru y’ihuriro hano; ama wallets ahuye n’ivyo biri aha. Mu bikoresho bihuye n’ivyo bikoresho harimwo Joule, Alby na ZeusLN. BTCPay Server itanga kode ya QR yo guhuza, ishobora gucapurwa no gukoreshwa muri Wallet ihuye.
+BTCPay igaragaza igikorwa ca LND’s REST kugira ngo abantu bakoreshe hanze; uzosanga amakuru y’ihuriro [hano]((https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay); ama wallets ahuye n’ivyo biri [aha](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server). Mu bikoresho bihuye n’ivyo bikoresho harimwo Joule, Alby na ZeusLN. BTCPay Server itanga kode ya QR yo guhuza, ishobora gucapurwa no gukoreshwa muri Wallet ihuye.
 
 
 

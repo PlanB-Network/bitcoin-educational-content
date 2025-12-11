@@ -6,3 +6,4 @@ wrong_answers:
   - Grotere blokken creëren meer transactieconflicten tussen concurrerende blokken, waardoor het moeilijker is om te bepalen welk blok moet worden geaccepteerd
 explanation: |
   Het juiste antwoord identificeert het kernmechanisme achter oudbakken blokken. Wanneer blokken groter zijn, hebben ze meer bandbreedte nodig om te transporteren tussen nodes en meer tijd om te valideren. Tijdens deze verlengde propagatieperiode kunnen meerdere miners concurrerende blokken vinden op dezelfde hoogte omdat ze het laatste blok nog niet hebben ontvangen. Dit creëert een race condition waarbij uiteindelijk slechts één blok kan worden geaccepteerd, waardoor de anderen muf worden. De verkeerde antwoorden verwarren dit propagatieprobleem met mining moeilijkheidsgraad, consensusmechanismen of transactieconflicten, die los staan van het timingprobleem dat muffe blokken veroorzaakt.
+reviewed: false

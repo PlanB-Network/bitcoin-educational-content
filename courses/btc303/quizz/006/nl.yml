@@ -6,3 +6,4 @@ wrong_answers:
   - Ze hebben geen goede mechanismen voor gebruikersauthenticatie geïmplementeerd
 explanation: |
   De eerste digitale munteenheden faalden omdat ze afhankelijk waren van centrale servers voor het verwerken en valideren van transacties. Zoals uitgelegd in het hoofdstuk werd deze centralisatie hun "achilleshiel" omdat overheden of andere tegenstanders deze centrale punten gemakkelijk konden censureren, controleren of uitschakelen. Zelfs pogingen om meerdere servers in een federatie te gebruiken, maakten het systeem nog steeds kwetsbaar omdat elke server "één voor één kon falen of laten falen" Bitcoin loste dit op door de noodzaak voor een centrale autoriteit te elimineren via het gedecentraliseerde proof-of-work systeem.
+reviewed: false

@@ -1,0 +1,8 @@
+question: A Lightning routing node operator notices that all their channels have 90% local balance and 10% remote balance, making them unable to receive payments - what strategic approach should they implement to restore optimal bidirectional routing capability?
+answer: Execute Loop Out operations to convert local Lightning balance to on-chain Bitcoin, creating inbound liquidity capacity
+wrong_answers:
+  - Execute Loop In operations to push more on-chain Bitcoin into channels, increasing the local balance further
+  - Close and reopen all channels with 50/50 balance splits to immediately restore bidirectional payment capability
+  - Implement Auto Loop at channel level with high confirmation targets to slowly drain remote balances over time
+explanation: |
+  When channels have high local balance (90%), the node can send but cannot receive payments. Loop Out is specifically designed to solve this by sending Lightning funds to the Loop server, which returns on-chain Bitcoin, effectively 'emptying' the local side to create inbound liquidity. Loop In would worsen the problem by adding more local balance. Closing/reopening channels is costly and time-consuming. Auto Loop with high confirmation targets doesn't address the fundamental direction of rebalancing needed.

@@ -1,4 +1,4 @@
-question: Ni shirika gani linalodhibiti ugawaji wa awali wa vitalu vya IPv6 Address duniani kote?
+question: Ni shirika gani linalodhibiti ugawaji wa awali wa block ya IPv6 Address duniani kote?
 answer: IANA
 wrong_answers:
   - NIST
@@ -6,4 +6,4 @@ wrong_answers:
   - ARIN
 explanation: |
   IANA iko juu ya daraja la ugawaji, ikikabidhi vizuizi vya IPv6 kwa Rejesta tano za Kikanda za Mtandao (RIRs).
-reviewed: false
+reviewed: true

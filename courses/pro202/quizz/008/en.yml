@@ -1,0 +1,8 @@
+question: What is the mathematical foundation that makes the discrete logarithm problem computationally infeasible in elliptic curve cryptography?
+answer: The unpredictable distribution of points when generating a cyclic group through repeated point addition
+wrong_answers:
+  - The symmetry property of elliptic curves that reflects points across the x-axis
+  - The modular arithmetic operations performed in finite fields instead of real numbers
+  - The large prime number used as the field characteristic in the curve equation
+explanation: |
+  The discrete logarithm problem's difficulty stems from the unpredictable, nonlinear distribution of points when generating a cyclic group (G, 2G, 3G, ..., nG). Even though points are generated sequentially, they appear scattered and random, making it computationally infeasible to determine the scalar s from point P = sG. While symmetry, modular arithmetic, and large primes are important properties of elliptic curves, they don't directly create the one-way function that enables secure public key cryptography.

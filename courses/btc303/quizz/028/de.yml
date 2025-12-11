@@ -6,3 +6,4 @@ wrong_answers:
   - Die Miner werden mining ganz einstellen, weil die Transaktionsgebühren allein die Stromkosten nicht decken können
 explanation: |
   Fee Sniping tritt auf, wenn Miner versuchen, frühere Blöcke, die Transaktionen mit hohen Gebühren enthielten, erneut zu schürfen, anstatt die Kette ehrlich zu verlängern. Dies wird wirtschaftlich sinnvoll, wenn die Gebühren in einem früheren Block die Gebühren im aktuellen Mempool deutlich übersteigen. Die Erfolgswahrscheinlichkeit ist zwar geringer als bei ehrlichen mining, aber die potenzielle Belohnung kann viel höher sein. Dieses Verhalten ist besonders besorgniserregend, weil es einen Kaskadeneffekt auslösen kann, bei dem sich mehr Miner auf unehrliche Praktiken einlassen und letztlich das Sicherheitsmodell von Bitcoin bedrohen, wenn die Blocksubventionen zurückgehen.
+reviewed: false

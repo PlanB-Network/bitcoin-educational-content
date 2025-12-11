@@ -6,3 +6,4 @@ wrong_answers:
   - Podem ser exigidas taxas administrativas, mas apenas para redistribuições comerciais
 explanation: |
   A definição de software de código aberto afirma explicitamente em "Redistribuição livre" que "A licença não deve exigir royalties ou outras taxas para tal venda" Isto significa que o software de código aberto deve ser livremente redistribuível sem taxas ou royalties obrigatórios. As outras opções sugerem incorretamente que são permitidos vários tipos de taxas, o que violaria o princípio fundamental da redistribuição livre que define o software de fonte aberta.
+reviewed: false

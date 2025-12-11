@@ -6,3 +6,4 @@ wrong_answers:
   - Un alto saldo en cadena
 explanation: |
   Para recibir pagos, un vendedor necesita tener liquidez entrante, lo que significa que los fondos deben estar disponibles en el lado opuesto del canal para que puedan aceptar pagos.
+reviewed: true

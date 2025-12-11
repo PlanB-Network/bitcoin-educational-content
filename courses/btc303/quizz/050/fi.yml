@@ -6,3 +6,4 @@ wrong_answers:
   - "Sosiaalisen suunnittelun hyökkäys; se on tehoton, koska Bitcoin:n kehittäjät käyttävät muodollisia todentamismenetelmiä manipuloinnin estämiseksi"
 explanation: |
   Sybil-hyökkäys tapahtuu, kun yksi taho hallitsee useita solmuja ja naamioituu moneksi erilliseksi tahoksi. Tämä hyökkäys on kuitenkin tehoton Bitcoin:ää vastaan, koska verkko ei perustu solmujen laskentaan tai demokraattiseen äänestykseen verkon osallistujien kesken. Sen sijaan Bitcoin käyttää proof-of-work-konsensusta, jossa laskentateho (hashpower) määrittää verkon päätökset, ei solmujen lukumäärä. Tämän vuoksi hyökkääjän on mahdotonta saada vaikutusvaltaa yksinkertaisesti käyttämällä monia solmuja ilman vastaavia laskentaresursseja.
+reviewed: false

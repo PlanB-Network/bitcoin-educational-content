@@ -6,4 +6,4 @@ wrong_answers:
   - Samba
 explanation: |
   BIND (Berkeley Internet Name Domain) ni utekelezaji wa marejeleo ya chanzo huria unaotumiwa na seva nyingi za DNS duniani kote.
-reviewed: false
+reviewed: true

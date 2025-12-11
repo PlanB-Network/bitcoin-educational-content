@@ -6,3 +6,4 @@ wrong_answers:
   - Ativação imediata do fork rígido sem dar aos utilizadores tempo suficiente para actualizarem o software do seu nó
 explanation: |
   De acordo com a análise de Eric Lombrozo, a abordagem problemática do Satoshi foi disfarçar uma mudança que quebrava o consenso em um commit com uma descrição enganosa que mencionava apenas 'reverted makefile.unix wx-config version 0.3.6' sem qualquer indicação das mudanças que quebravam. Esta prática de esconder modificações críticas de consenso em commits de aparência inócua seria considerada inaceitável pelos padrões de hoje, onde transparência e comunicação clara sobre mudanças de consenso são princípios fundamentais do desenvolvimento do Bitcoin.
+reviewed: false

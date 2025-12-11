@@ -6,4 +6,4 @@ wrong_answers:
   - 192.168.0.0/16
 explanation: |
   Masafa 127.0.0.0/8 hutumiwa kwa urejeshaji wa ndani. Ombi lolote kwa masafa haya hukaa ndani ya mashine inayotoka.
-reviewed: false
+reviewed: true

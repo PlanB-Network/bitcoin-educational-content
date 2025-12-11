@@ -6,3 +6,4 @@ wrong_answers:
   - L'obligation pour les clients de fournir des documents d'identification personnelle excessifs
 explanation: |
   Selon Satoshi Nakamoto dans le livre blanc Bitcoin, les systèmes financiers traditionnels souffrent d'une faiblesse fondamentale : les transactions totalement irréversibles ne sont pas possibles parce que les institutions financières doivent arbitrer les conflits. Cela crée une cascade de problèmes : augmentation des coûts de transaction en raison de la médiation, élimination des petites transactions occasionnelles et propagation des exigences de confiance dans l'ensemble du système. Les autres options, bien que potentiellement pertinentes pour les systèmes financiers, ne constituent pas le problème central auquel s'attaque spécifiquement la conception sans confiance du Bitcoin. L'innovation de Bitcoin consiste à permettre le règlement final sans exiger qu'un tiers de confiance annule les transactions.
+reviewed: false

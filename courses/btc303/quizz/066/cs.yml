@@ -6,3 +6,4 @@ wrong_answers:
   - Hrozí riziko útoků typu double-spend, protože nemohou ověřit, zda jsou příchozí transakce legitimní
 explanation: |
   Když těžaři praktikují bezvalidační mining, zkontrolují pouze proof-of-work v záhlaví bloku a okamžitě nad ním spustí mining, přičemž paralelně stahují a validují celý blok. Kritické riziko spočívá v tom, že mohou stavět na neplatném bloku, což znamená, že jejich výpočetní úsilí je promarněno na větvi blockchainu, která bude po objevení neplatného bloku odmítnuta. To podkopává bezpečnost sítě, protože část výkonu mining nepřispívá k nejsilnějšímu platnému řetězci, což je základní bezpečnostní mechanismus Bitcoin.
+reviewed: false

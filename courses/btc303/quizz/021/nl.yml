@@ -6,3 +6,4 @@ wrong_answers:
   - Transactie-ID's op de blockchain
 explanation: |
   Bitcoin gebruikt adressen afgeleid van publieke sleutels als pseudoniemen in plaats van willekeurige gebruikersnamen of andere identificatoren. Deze ontwerpkeuze dient meerdere belangrijke doelen: het elimineert de noodzaak om pseudoniemen vooraf te registreren op de blockchain, vermindert de stimulans voor hergebruik van hetzelfde pseudoniem, vermijdt onnodige blockchain bloat en maakt het veel moeilijker voor kwaadwillende actoren om zich voor te doen als anderen. Het gebruik van beschrijvende gebruikersnamen zou een registratiesysteem vereisen en kwetsbaarheden in de beveiliging creëren, terwijl privésleutels geheim moeten blijven en transactie-ID's een ander doel dienen in het systeem.
+reviewed: false

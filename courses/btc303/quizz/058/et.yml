@@ -6,3 +6,4 @@ wrong_answers:
   - Varjutatud kood tuleb teha kättesaadavaks eraldi allalaadimise kaudu, mille reprodutseerimine on kulukas
 explanation: |
   Avatud lähtekoodi definitsioonis on selgesõnaliselt öeldud, et "tahtlikult varjatud lähtekood ei ole lubatud" See on põhinõue, sest hägustamine takistab koodi sisulist kontrollimist, muutmist ja mõistmist, mis on vastuolus avatud lähtekoodiga tarkvara põhieesmärkidega. Lähtekood peab olema "eelistatud kujul, milles programmeerija muudaks programmi", mistõttu on varjamine vastuolus avatud lähtekoodi põhimõtetega, sõltumata dokumentatsioonist või levitamismeetoditest.
+reviewed: false

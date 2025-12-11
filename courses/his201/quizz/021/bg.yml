@@ -1,0 +1,9 @@
+question: През коя година Satoshi Накамото започва работа по Bitcoin?
+answer: 2007
+wrong_answers:
+  - 2008
+  - 2009
+  - 2010
+explanation: |
+  Той го споменава многократно в своите трудове. (https: //bitcointalk.org/index.php?topic=13.msg46#msg46)
+reviewed: true

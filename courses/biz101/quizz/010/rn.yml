@@ -1,9 +1,9 @@
-question: Ni gute Lightning Network ifasha kugabanya amafaranga y’ibikorwa vya Bitcoin?
-answer: Mu gukora ibikorwa vyinshi off-chain no gutangaza ibikorwa vy'ugutanga amafaranga gusa kuri Blockchain nyamukuru.
+question: Ni gute Lightning Network ifasha kugabanya amafaranga y’ibikorwa vy'irungika vya Bitcoin?
+answer: Mu gukora ibikorwa vyinshi off-chain no gutangaza ibikorwa vy'ivyirungika ry'amafaranga gusa kuri Blockchain nyamukuru.
 wrong_answers:
   - Mu gukuraho ivyemezo vyose vy’ubuhinga bwa none mu kwishura.
   - Mu gushiramwo ubugenzuzi mu kibanza kimwe kinini co kwishura.
   - Mu gusaba abacuruzi kwishura imbere y’igihe amafaranga yose y’uruja n’uruza.
 explanation: |
   Kubera ko amafaranga y'umuravyo aba off-chain, ni intara za nyuma gusa zishirwa kuri Bitcoin Blockchain. Ivyo bigabanya uguhagarara kw’abantu, gutyo bikagabanya amahera mu kwirinda gukora amafaranga menshi y’ama On-Chain.
-reviewed: false
+reviewed:  true

@@ -67,6 +67,11 @@ tags:
 # its use is to mention the original source at both the beginning and at the end of the tutorial
 credit_link: https://link_to_the_original_tuto.com
 
+# license field, choose between CC-BY-SA-V4, MIT
+# (DEFAULT) CC-BY-SA-V4: is also quite permissive but includes a share-alike clause
+# MIT: allows for almost unrestricted use → only for imported content and docs with such license policy
+license: CC-BY-SA-V4
+
 # Proofreading metadata
 # Only the original author needs to add this data related to initial proofreading
 # Any further data will be automatically added after each proofreading

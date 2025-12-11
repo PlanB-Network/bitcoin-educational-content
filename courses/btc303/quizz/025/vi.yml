@@ -6,3 +6,4 @@ wrong_answers:
   - Thông qua các bài đăng trên mạng xã hội và thông báo giao dịch công khai
 explanation: |
   Theo nội dung chương, dữ liệu cá nhân có thể bị rò rỉ theo hai cách chính: on-chain và off-chain. Rò rỉ trên chuỗi xảy ra thông qua việc phân tích blockchain công khai, trong đó các mô hình giao dịch, việc tái sử dụng địa chỉ và việc phân cụm có thể tiết lộ thông tin tài chính. Rò rỉ ngoài chuỗi xảy ra khi các tác nhân độc hại chặn các giao tiếp internet hoặc thông qua các phương tiện không phải blockchain khác. Mặc dù các câu trả lời sai đề cập đến những lo ngại thực sự về bảo mật trong hệ sinh thái Bitcoin, nhưng chúng không đại diện cho phân loại cơ bản về cách thức rò rỉ quyền riêng tư xảy ra như đã nêu trong tài liệu.
+reviewed: false

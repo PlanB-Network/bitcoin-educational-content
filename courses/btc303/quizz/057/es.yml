@@ -6,3 +6,4 @@ wrong_answers:
   - Las reglas de consenso validan y autorizan automáticamente cualquier nuevo protocolo creado sobre Bitcoin a través del proceso de verificación de la cadena de bloques
 explanation: |
   El desarrollo sin permisos es la respuesta correcta porque es el principio fundamental que permite a cualquiera construir sobre Bitcoin sin pedir permiso. Las respuestas erróneas son incorrectas porque: las licencias de código abierto no requieren aprobación automática o integración en el núcleo de Bitcoin; la licencia MIT concede amplios permisos sin requerir la aprobación de los desarrolladores; y las reglas de consenso validan transacciones y bloques, no protocolos de alto nivel construidos sobre Bitcoin.
+reviewed: false

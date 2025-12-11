@@ -6,3 +6,4 @@ wrong_answers:
   - Birden fazla wallet adresi kullanılarak sağlanan anonimlik
 explanation: |
   Blockchain gizliliği, özellikle blok zincirinde işlem yaparak ifşa ettiğiniz bilgileri ifade eder ve gönderdiğiniz ve aldığınız tüm işlemler için geçerlidir. Bu, wallet şifrelemesinden (saklanan anahtarları korur), internet bağlantısı güvenliğinden (off-chain gizliliğidir) veya birden fazla adresin anonimlik sağladığı yanılgısından farklıdır. Zincir içi gizlilik sızıntıları, kullanıcıların finansal faaliyetleri hakkındaki kalıpları ortaya çıkarmak için işlemlerin birbirine bağlanabildiği adres yeniden kullanımı ve kümeleme yoluyla meydana gelir.
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Cuando los fondos disponibles se agotan
 explanation: |
   Las transacciones de compromiso se construyen y firman para cada cambio en la asignación, pero solo se publican eventualmente en la blockchain en el evento de cierre del canal.
-reviewed: false
+reviewed: true

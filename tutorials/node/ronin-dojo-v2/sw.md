@@ -543,7 +543,7 @@ Baada ya kutekeleza sanjari na Whirlpool, ni muhimu kutathmini kwa usahihi kiwan
 Ili kuimarisha uelewa wako na taratibu za hesabu za anonsets hizi, napendekeza kusoma makala: REMIX - Whirlpool, ambayo inaelezea utendaji wa fahirisi hizi.
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

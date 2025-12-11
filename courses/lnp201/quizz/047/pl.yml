@@ -6,4 +6,4 @@ wrong_answers:
   - Automatyczne obliczanie opłat transakcyjnych
 explanation: |
   LNURL to protokół komunikacyjny zaprojektowany w celu uproszczenia interakcji, takich jak wypłaty i płatności, między węzłami a aplikacjami Lightning.
-reviewed: false
+reviewed: true

@@ -1,9 +1,9 @@
-question: Ni ubuhe buryo bwo kuronka bushobora gukoreshwa n’umunyamideri w’umunyamigwi?
-answer: Idolari-Igiciro ca mwayeni
+question: Ni ubuhe buryo bwo kuronka bushobora gukoreshwa n’uwubika vy'iminsi myinshi w’umunyamigwi?
+answer: Gushora amafaranga buhoro buhoro buri gihe
 wrong_answers:
   - Ubucuruzi bwa algorithme
   - Ubukemurampaka
-  - Gutera
+  - Kwinjirira
 explanation: |
-  Dollar-Cost Averaging iremesha ugugura kwa Bitcoin kwa misi yose kugira ngo ushiremwo igiciro c’ugugura gisanzwe mu gihe. Uwo hodler yoshobora gufatanya ivyo n’ugugura rimwe na rimwe amahera menshi.
+  Gushora amafaranga buhoro buhoro buri gihe iremesha ugugura kwa Bitcoin kwa misi yose kugira ngo ushiremwo igiciro c’ugugura gisanzwe mu gihe. Uwo abika yoshobora gufatanya ivyo n’ugugura rimwe na rimwe amahera menshi.
 reviewed: false

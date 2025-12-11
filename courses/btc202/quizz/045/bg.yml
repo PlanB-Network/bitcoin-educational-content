@@ -1,0 +1,9 @@
+question: Какви стъпки трябва да се извършат, преди да се инсталира UmbrelOS?
+answer: Създаване на зареждащ USB ключ с изображението
+wrong_answers:
+  - Компилиране на изходния код на Bitcoin core
+  - Форматиране на Blockchain
+  - Създаване на акаунт в umbrel.com
+explanation: |
+  Инсталацията започва с подготовка на зареждащ USB ключ с UmbrelOS чрез Balena Etcher.
+reviewed: true

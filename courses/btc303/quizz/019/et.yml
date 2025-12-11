@@ -6,3 +6,4 @@ wrong_answers:
   - "Pseudonüümsed süsteemid varjavad tehingusummasid, samas kui anonüümsed süsteemid varjavad ainult saatja identiteeti"
 explanation: |
   Bitcoin on pseudonüümne, mitte anonüümne, sest kõik aadresside (pseudonüümide) vahelised tehingud on plokiahelas jälgitavad. Tõeliselt anonüümses süsteemis ei oleks jälgitav, kust raha pärineb või kuhu see läheb, mida saaks teoreetiliselt saavutada nullteadmistega tõendite abil. Bitcoin läbipaistvus võimaldab aga igaühel jälgida bitcoinide liikumist eri aadresside vahel, mistõttu on see pigem pseudonüümne kui anonüümne. Bitcoin pseudonüümid on aadressid, mis on tuletatud avalikest võtmetest, mitte suvalised kasutajanimed või tegelikud identiteedid.
+reviewed: false

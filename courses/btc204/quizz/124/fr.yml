@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Le transport P2P V2 peut être modifié avec l'option v2transport= dans le fichier de configuration d'un nœud Core.
 
-reviewed: false
+reviewed: true 

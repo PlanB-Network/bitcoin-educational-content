@@ -34,7 +34,7 @@ https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 В этом руководстве мы проведем экскурсию по этой платформе, которая является незаменимым ресурсом для пользователей Lightning Network, тех, кто хочет подключить свой узел для расширения сети и т.д.
 
@@ -304,4 +304,4 @@ Amboss предлагает ряд инструментов, которые по
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

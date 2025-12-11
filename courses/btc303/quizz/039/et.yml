@@ -6,3 +6,4 @@ wrong_answers:
   - Soft fork muudatused muutuvad püsivaks ja neid ei saa enam muuta, kui kaevurid on need aktiveerinud
 explanation: |
   Shaolinfry tuvastas, et kaevurite signalisatsioon loob loomuliku vetosüsteemi, kus isegi väike protsent hashrate võib takistada uuenduste aktiveerimist kogu võrgu jaoks. See "uuendamise inertsus" muutub veelgi problemaatilisemaks, kui mining muutub detsentraliseeritumaks, mis võib blokeerida kasulikke protokolliparandusi. Teised võimalused moonutavad seda, kuidas pehmed kahvlid töötavad - kaevurid ei saa ühepoolselt aktiveerimist tagasi pöörata, majandussõlmed säilitavad valideerimisvõime ja pehmeid kahvleid saab teoreetiliselt muuta hilisemate uuenduste kaudu.
+reviewed: false

@@ -1,8 +1,9 @@
 question: ¿Cuáles son los dos principales problemas de privacidad de blockchain que Satoshi Nakamoto identificó en el libro blanco Bitcoin?
-answer: Address reutilización y agrupación de direcciones
+answer: Reutilización de direcciones y agrupación de direcciones
 wrong_answers:
   - Comisiones de transacción y retrasos en la confirmación
-  - Doble gasto y colisiones hash
-  - Congestión de la red y centralización de mining
+  - double-spending y colisiones hash
+  - Congestión de la red y centralización minera
 explanation: |
   En la sección 7 del whitepaper de Bitcoin, Satoshi Nakamoto identificó la reutilización de direcciones y la agrupación de direcciones como los principales problemas de privacidad de blockchain. La reutilización Address se produce cuando la misma dirección se utiliza varias veces, lo que facilita vincular las transacciones al mismo usuario. La agrupación Address se refiere a la capacidad de determinar que diferentes direcciones pertenecen al mismo propietario, en particular a través de transacciones de múltiples entradas que revelan que todas las entradas fueron controladas por la misma persona. Las demás opciones son retos técnicos u operativos de Bitcoin, pero no son las cuestiones de privacidad que trata específicamente Satoshi en el libro blanco.
+reviewed: false

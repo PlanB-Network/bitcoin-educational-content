@@ -6,3 +6,4 @@ wrong_answers:
   - Přetížení sítě a centralizace mining
 explanation: |
   V části 7 dokumentu Bitcoin whitepaper Satoshi Nakamoto označil za hlavní problémy s ochranou soukromí v blockchainu opakované použití adres a shlukování adres. K opakovanému použití adresy Address dochází, když je stejná adresa použita vícekrát, což usnadňuje propojení transakcí se stejným uživatelem. Address clustering se týká možnosti určit, že různé adresy patří stejnému vlastníkovi, zejména prostřednictvím transakcí s více vstupy, které odhalí, že všechny vstupy byly ovládány stejnou osobou. Ostatní možnosti jsou technickými nebo provozními problémy v Bitcoin, ale nejsou otázkami ochrany soukromí, o nichž se v bílé knize konkrétně hovoří v Satoshi.
+reviewed: false

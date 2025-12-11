@@ -1,5 +1,5 @@
 ---
-name: 計劃 ₿ 學院 - Pears App
+name: Plan ₿ Academy - Pears App
 description: 如何在 Pears 上安裝和使用 Plan ₿ Academy 應用程式？
 ---
 

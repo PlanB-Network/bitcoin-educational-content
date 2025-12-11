@@ -26,9 +26,11 @@ No prior Rust or Bitcoin development is strictly required, though familiarity wi
 
 **Introduction**
 
-Welcome to this advanced programming course on SDKs. In this training, you will learn the basics of Rust, then focus on BTC & Rust, and finish with some practical exercises using SDKs.
+Welcome to this beginner-friendly programming course on SDKs. In this training, you will learn the basics of Rust, then focus on Rust applied to Bitcoin programming, and finish with some use-cases using SDKs.
 
-This training will be available only in English for now and was part of a live seminar organized last October in Tuscany by Fulgure Venture. The program of the LIVE event can be found below, and this training will focus on the first week only. The second half was targeted at RGB and can be found in the RGB course.
+The videos of the training will be available only in English for now and was part of a live seminar organized last October in Tuscany by Fulgure Venture. This training will focus on the first week only. The second half was targeted at RGB and can be found in the RGB course.
+
+https://planb.academy/en/courses/rgb-programming-3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 This training gives you the opportunity to develop your programming skills on the Lightning Network using Rust and various SDKs. It is designed for developers with a solid programming background who want to dive into Lightning Network-specific development. You’ll learn the basics of Rust, why it’s suitable for Bitcoin development, and then move on to hands-on implementation using specialized SDKs.
 
@@ -57,7 +59,7 @@ When beginning your journey with Rust, the first step involves setting up a prop
 
 Rustup serves as more than just an installer—it functions as a comprehensive management tool for your Rust development environment. With Rustup, you can easily install additional compilation targets for different platforms, such as ARM64 for Android development or other architectures you might need to support. The tool also handles Rust updates seamlessly, which is particularly valuable given that Rust releases a new stable version approximately every six weeks. When you need to update to the latest release, a simple `rustup update` command handles everything automatically.
 
-However, it's important to understand the security implications of using Rustup, especially if you plan to work in security-sensitive environments like Bitcoin development. The installation process involves downloading and executing a script directly from the internet, which presents potential security risks since there are no cryptographic signatures or integrity checks built into this process. While Rustup is perfectly acceptable for development and learning purposes, production environments or security-critical applications should consider using more trusted installation methods, such as installing Rust through your Linux distribution's package manager, which typically includes proper signature verification and integrity checks.
+When installing Rustup, it's worth understanding the security model involved. The installation process downloads and executes a script from the official Rust website over HTTPS, which provides transport-layer cryptographic security. Packages downloaded by Rustup and Cargo come from trusted sources (crates.io and official Rust infrastructure) and benefit from HTTPS encryption. While this approach is secure for most development scenarios, some organizations with strict security policies may prefer installing Rust through their Linux distribution's package manager, which provides an additional layer of trust through the distribution's own package signing infrastructure. For learning and general development purposes, Rustup is a well-established and widely trusted tool in the Rust ecosystem.
 
 For most development scenarios, you can install Rustup by running the installation script provided on the official Rust website. The installer will prompt you to choose between different toolchain options, with the stable toolchain being the recommended choice for most users. The installation occurs in your home directory, requiring no administrator privileges, and sets up all necessary environment variables for immediate use.
 

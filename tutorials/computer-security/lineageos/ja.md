@@ -1,5 +1,5 @@
 ---
-name: リネージュOS
+name: LineageOS
 description: 無料のスマートフォン用アンドロイドOS
 ---
 

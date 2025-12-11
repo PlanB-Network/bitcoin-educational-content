@@ -1,5 +1,5 @@
 ---
-name: Umugenzuzi w'umugezi
+name: Blockstream Explorer
 description: Gutohoza igice nyamukuru ca Bitcoin na Liquid Network.
 ---
 

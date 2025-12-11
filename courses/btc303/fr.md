@@ -1301,18 +1301,14 @@ La consolidation des sorties consiste à profiter des périodes de faible demand
 
 Consolidation des sorties : Faites fondre vos pièces en une seule lorsque les frais sont peu élevés afin d'économiser des frais par la suite.
 
-Il n'est peut-être pas évident de comprendre comment la consolidation des sorties contribue à la scalabilité vers l'intérieur. Après tout, la quantité totale des données de la Blockchain est même légèrement augmentée avec cette méthode. Néanmoins, l'ensemble UTXO, c'est-à-dire la base de données qui permet de savoir qui possède quelles pièces, diminue car vous dépensez plus d'UTXO que vous n'en créez. Cela allège le fardeau des nœuds complets qui doivent maintenir leurs ensembles UTXO.
+Il n'est peut-être pas évident de comprendre comment la consolidation des sorties contribue à la scalabilité vers l'intérieur. Après tout, la quantité totale des données de la Blockchain est même légèrement augmentée avec cette méthode. Néanmoins, l'ensemble UTXO, c'est-à-dire la base de données qui permet de savoir qui possède quelles pièces, diminue, car vous dépensez plus d'UTXO que vous n'en créez. Cela allège le fardeau des nœuds complets qui doivent maintenir leurs ensembles UTXO.
 
-
-Malheureusement, ces deux techniques de gestion *UTXO* peuvent être néfastes pour votre vie privée ou celle de vos bénéficiaires. Dans le cas de la mise en lots, chaque bénéficiaire saura que toutes les sorties mises en lots proviennent de vous et sont destinées à d'autres bénéficiaires (à l'exception, éventuellement, de la modification). Dans le cas de la consolidation de la UTXO, vous révélerez que les sorties que vous consolidez appartiennent au même Wallet. Il se peut donc que vous deviez faire un compromis entre la rentabilité et le respect de la vie privée.
+Malheureusement, ces deux techniques de gestion *UTXO* peuvent être néfastes pour votre vie privée ou celle de vos bénéficiaires. Dans le cas de la mise en lots, chaque bénéficiaire saura que toutes les sorties mises en lots proviennent de vous et sont destinées à d'autres bénéficiaires (à l'exception, éventuellement, de la modification). Dans le cas de la consolidation des UTXO, vous révélerez que les sorties que vous consolidez appartiennent au même Wallet. Il se peut donc que vous deviez faire un compromis entre la rentabilité et le respect de la vie privée.
 
 
 #### La scalabilité en couches
 
-
-
 L'approche la plus efficace de la scalabilité est probablement la superposition. L'idée générale de la superposition est qu'un protocole peut régler les paiements entre les utilisateurs sans ajouter de transactions à la Blockchain.
-
 
 Un protocole à plusieurs niveaux commence par l'accord de deux personnes ou plus sur une transaction de départ qui est placée sur la Blockchain, comme illustré dans la figure ci-dessous.
 
@@ -1320,35 +1316,29 @@ Un protocole à plusieurs niveaux commence par l'accord de deux personnes ou plu
 ![](assets/fr/017.webp)
 
 
-
 La manière dont cette transaction de démarrage est créée varie d'un protocole à l'autre, mais un thème commun est que les participants créent une transaction de démarrage non signée et un certain nombre de transactions de punition pré-signées, qui dépensent la sortie de la transaction de démarrage de diverses manières. Par la suite, la transaction de départ est entièrement signée et publiée sur la Blockchain, et les transactions de punition peuvent être entièrement signées et publiées pour punir une partie qui s'est mal comportée. Cela incite les participants à tenir leurs promesses afin que le protocole puisse fonctionner de manière Trustless.
-
 
 Une fois que la transaction de départ est sur la Blockchain, le protocole peut faire ce qu'il est censé faire. Par exemple, il peut effectuer des paiements ultra-rapides entre les participants, mettre en œuvre des techniques d'amélioration de la confidentialité ou utiliser des scripts plus avancés qui ne seraient pas pris en charge par la Blockchain Bitcoin.
 
 
-Nous ne détaillerons pas le fonctionnement des protocoles spécifiques, mais comme vous pouvez le voir dans la figure précédente, la Blockchain est rarement utilisé pendant le cycle de vie du protocole. Toute l'action juteuse se déroule *hors chaîne*. Nous avons vu comment cela peut être une victoire pour la vie privée si c'est bien fait, mais cela peut aussi être un avantage pour l'évolutivité.
+Nous ne détaillerons pas le fonctionnement des protocoles spécifiques, mais comme vous pouvez le voir dans la figure précédente, la Blockchain est rarement utilisée pendant le cycle de vie du protocole. Toute l'action juteuse se déroule *hors chaîne*. Nous avons vu comment cela peut être une victoire pour la vie privée si c'est bien fait, mais cela peut aussi être un avantage pour l'évolutivité.
 
 
 Dans un [post Reddit](https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/) intitulé "Un voyage sur la lune nécessite une fusée à plusieurs étages, sinon l'équation de la fusée vous mangera le déjeuner... entasser tout le monde dans une voiture de clown dans un trébuchet et espérer le succès est à proscrire", Gregory Maxwell explique pourquoi la superposition est notre meilleure chance de faire évoluer Bitcoin de plusieurs ordres de grandeur.
 
-
 Il commence par souligner qu'il est faux de considérer Visa ou Mastercard comme les principaux concurrents de Bitcoin et que l'augmentation de la taille maximale des blocs est une mauvaise approche pour faire face à cette concurrence. Il explique ensuite comment faire une réelle différence en utilisant des couches :
 
-
-> Cela signifie-t-il que le Bitcoin ne peut pas être une technologie de paiement gagnante ? Non. Mais pour atteindre le niveau de capacité requis pour répondre aux besoins du monde en matière de paiements, nous devons travailler plus intelligemment.
+> Cela signifie-t-il que le Bitcoin ne peut pas être une technologie de paiement gagnante? Non. Mais pour atteindre le niveau de capacité requis pour répondre aux besoins du monde en matière de paiements, nous devons travailler plus intelligemment.
 >
 
-> Dès le début, Bitcoin a été conçu pour incorporer des couches de manière sécurisée grâce à sa capacité de contrats intelligents (Quoi, vous pensez que cela a été mis là juste pour que les gens puissent faire de la philosophie sur des "DAO" sans signification ?) En fait, nous utiliserons le système Bitcoin comme un juge robotique très accessible et parfaitement digne de confiance, et nous mènerons la plupart de nos affaires en dehors de la salle d'audience, mais nous ferons des transactions de telle sorte que si quelque chose tourne mal, nous aurons toutes les preuves et tous les accords établis, de sorte que nous pourrons être sûrs que le tribunal robotique fera ce qu'il faut pour régler le problème. (Aparté geek : si cela vous semble impossible, lisez cet ancien article sur la transparence des transactions)
+> Dès le début, Bitcoin a été conçu pour incorporer des couches de manière sécurisée grâce à sa capacité de contrats intelligents (Quoi, vous pensez que cela a été mis là juste pour que les gens puissent faire de la philosophie sur des "DAO" sans signification?) En fait, nous utiliserons le système Bitcoin comme un juge robotique très accessible et parfaitement digne de confiance, et nous mènerons la plupart de nos affaires en dehors de la salle d'audience, mais nous ferons des transactions de telle sorte que si quelque chose tourne mal, nous aurons toutes les preuves et tous les accords établis, de sorte que nous pourrons être sûrs que le tribunal robotique fera ce qu'il faut pour régler le problème. (Aparté geek: si cela vous semble impossible, lisez cet ancien article sur la transparence des transactions)
 >
 
 > Cela est possible précisément en raison des propriétés fondamentales de Bitcoin. Un système de base censurable ou réversible se prête mal à la construction de couches supérieures performantes pour le traitement des transactions… et si l’actif sous-jacent n’est pas sain, il n’y a guère d’intérêt à l’utiliser pour des transactions.
 
 L'analogie avec le juge illustre bien le fonctionnement de la stratification : ce juge doit être incorruptible et ne jamais changer d'avis, sinon les couches construites au-dessus de la couche de base de Bitcoin ne fonctionneront pas de manière fiable.
 
-
 Il poursuit en évoquant les services centralisés. Il n'y a généralement aucun problème à faire confiance à un serveur central doté de quantités triviales de Bitcoin pour accomplir les tâches : il s'agit également d'une scalabilité en couches.
-
 
 De nombreuses années se sont écoulées depuis que Maxwell a écrit l'article ci-dessus, et ses propos sont toujours d'actualité. Le succès du Lightning Network prouve que la superposition est en effet un moyen d'accroître l'utilité de Bitcoin.
 
@@ -1356,10 +1346,7 @@ De nombreuses années se sont écoulées depuis que Maxwell a écrit l'article c
 
 ### Conclusion sur la scalabilité
 
-
-
 Nous avons discuté des différentes façons de faire évoluer Bitcoin, d'augmenter la capacité d'utilisation de Bitcoin. La scalabilité a été une préoccupation de Bitcoin depuis ses tout premiers jours.
-
 
 Nous savons aujourd'hui que Bitcoin ne s'adapte pas bien verticalement ("acheter du matériel plus grand") ou horizontalement ("ne vérifier que certaines parties des données"), mais plutôt vers l'intérieur ("faire plus avec moins") et en couches ("construire des protocoles au-dessus de Bitcoin").
 
@@ -1369,32 +1356,25 @@ Nous savons aujourd'hui que Bitcoin ne s'adapte pas bien verticalement ("acheter
 <chapterId>fe39c13c-310f-51fd-84ff-6b92dd01c9e7</chapterId>
 
 
-
 ![](assets/fr/018.webp)
 
-Bitcoin est construit par des personnes. Ce sont eux qui écrivent le logiciel, et ce sont eux qui l'exécutent. Lorsqu'une faille de sécurité ou un bogue grave est découvert, y a-t-il vraiment une distinction entre les deux ?, ce sont toujours des personnes, en chair et en os, qui les découvrent. Ce chapitre examine ce que les gens font, devraient faire et ne devraient pas faire quand tout dérape. La première section explique le terme "divulgation responsable", qui fait référence à la façon dont une personne qui découvre une vulnérabilité peut agir de manière responsable pour aider à minimiser les dommages causés par cette vulnérabilité. Le reste du chapitre vous emmène à la découverte de quelques-unes des vulnérabilités les plus graves découvertes au fil des ans, et de la manière dont elles ont été traitées par les développeurs, les mineurs et les utilisateurs. Les choses n'étaient pas aussi rigoureuses dans la petite enfance de Bitcoin qu'elles le sont aujourd'hui.
+Bitcoin est construit par des personnes. Ce sont eux qui écrivent le logiciel, et ce sont eux qui l'exécutent. Lorsqu'une faille de sécurité ou un bogue grave est découvert, y a-t-il vraiment une distinction entre les deux ?
+Ce sont toujours des personnes, en chair et en os, qui les découvrent. Ce chapitre examine ce que les gens font, devraient faire et ne devraient pas faire quand tout dérape. La première section explique le terme "divulgation responsable", qui fait référence à la façon dont une personne qui découvre une vulnérabilité peut agir de manière responsable pour aider à minimiser les dommages causés par cette vulnérabilité. Le reste du chapitre vous emmène à la découverte de quelques-unes des vulnérabilités les plus graves découvertes au fil des ans, et de la manière dont elles ont été traitées par les développeurs, les mineurs et les utilisateurs. Les choses n'étaient pas aussi rigoureuses dans la petite enfance de Bitcoin qu'elles le sont aujourd'hui.
 
 
 ### Divulgation responsable
 
-
-
 Imaginez que vous découvriez un bogue dans Bitcoin Core, un bogue qui permet à n'importe qui d'arrêter à distance un nœud Bitcoin Core en utilisant des messages réseau spécialement conçus. Imaginez également que vous n'êtes pas malveillant et que vous aimeriez que ce problème ne soit pas exploité. Que feriez-vous ? Si vous restez silencieux, quelqu'un d'autre découvrira probablement le problème, et vous ne pouvez pas être sûr que cette personne ne sera pas malveillante.
-
 
 Lorsqu'un problème de sécurité est découvert, la personne qui le découvre doit recourir à la _divulgation responsable_, un terme souvent utilisé par les développeurs de Bitcoin. Ce terme est [expliqué sur Wikipedia](https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure) :
 
 
 > Les développeurs de matériel et de logiciels ont souvent besoin de temps et de ressources pour réparer leurs erreurs. Souvent, ce sont des pirates éthiques qui trouvent ces vulnérabilités. Les pirates informatiques et les spécialistes de la sécurité informatique estiment qu'il est de leur responsabilité sociale de sensibiliser le public aux vulnérabilités. Le fait de cacher les problèmes pourrait créer un sentiment de fausse sécurité. Pour éviter cela, les parties concernées se coordonnent et négocient un délai raisonnable pour réparer la vulnérabilité. En fonction de l'impact potentiel de la vulnérabilité, du temps nécessaire à la mise au point et à l'application d'un correctif d'urgence ou d'une solution de contournement et d'autres facteurs, ce délai peut varier de quelques jours à plusieurs mois.
 
-
 Cela signifie que si vous trouvez un problème de sécurité, vous devez le signaler à l'équipe responsable du système. Mais qu'est-ce que cela signifie dans le contexte de Bitcoin ? Personne ne contrôle Bitcoin, mais il y a actuellement un point central pour le développement de Bitcoin, à savoir le [Bitcoin Core Github repository](https://github.com/Bitcoin/Bitcoin). Les mainteneurs de ce dépôt sont responsables du code qu'il contient, mais ils ne sont pas responsables du système dans son ensemble, personne ne l'est. Néanmoins, la meilleure pratique générale est d'envoyer un courriel à security@bitcoincore.org.
 
 
-Dans un [fil de discussion](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html) intitulé "Responsible disclosure of bugs" datant de 2017, Anthony Towns a tenté de résumer ce qu'il percevait comme étant les meilleures pratiques actuelles. Il avait recueilli des informations auprès de plusieurs sources et de différentes personnes pour éclairer son point de vue sur le sujet.
-
-
-
+Dans un [fil de discussion](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html) intitulé "Responsible disclosure of bugs" datant de 2017, Anthony Towns a tenté de résumer ce qu'il percevait comme étant les meilleures pratiques actuelles. Il avait recueilli des informations auprès de plusieurs sources et de différentes personnes pour éclairer son point de vue sur le sujet:
 
 - Les vulnérabilités doivent être signalées via l'adresse suivante : security@bitcoincore.org.
 - Un problème critique (qui peut être exploité immédiatement ou qui l'est déjà et qui cause un préjudice important) sera traité de la manière suivante :
@@ -1421,7 +1401,6 @@ Le fil de discussion qui a conduit à ce courriel portait sur la question de sav
 
 Un [post](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014977.html) de Gregory Maxwell, dans lequel il affirme que les failles de sécurité peuvent être plus graves qu'il n'y paraît, a également conduit à l'envoi de l'e-mail de M. Town ci-dessus :
 
-
 > J'ai vu à plusieurs reprises un problème difficile à exploiter se révéler trivial lorsque l'on trouve la bonne astuce, ou un problème de déni de service mineur se révéler bien plus grave.
 >
 
@@ -1432,13 +1411,10 @@ Un [post](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September
 
 Ainsi, même si une vulnérabilité semble difficile à exploiter, il est préférable de supposer qu'elle est facilement exploitable et que vous n'avez pas encore trouvé comment.
 
-
-Il mentionne également qu'"il est quelque peu erroné d'appeler ce fil de discussion un sujet relatif à la divulgation, ce fil de discussion ne concerne pas la divulgation. La divulgation consiste à informer le vendeur.  Ce fil traite de la publication et cela a des implications très différentes. La publication est le moment où l'on est sûr d'avoir informé les attaquants potentiels". Cette dernière observation concernant la distinction entre divulgation et publication est importante. La partie facile est la divulgation responsable ; la partie difficile est la publication raisonnable.
+Il mentionne également qu'"il est quelque peu erroné d'appeler ce fil de discussion un sujet relatif à la divulgation; ce fil de discussion ne concerne pas la divulgation. La divulgation consiste à informer le vendeur.  Ce fil traite de la publication et cela a des implications très différentes. La publication est le moment où l'on est sûr d'avoir informé les attaquants potentiels". Cette dernière observation concernant la distinction entre divulgation et publication est importante. La partie facile est la divulgation responsable ; la partie difficile est la publication raisonnable.
 
 
 ### L'enfance traumatisante de Bitcoin
-
-
 
 Bitcoin a débuté comme un projet individuel (c'est du moins ce que suggère le pseudonyme de son créateur), et Bitcoin n'avait au départ que peu ou pas de valeur. Les vulnérabilités et les corrections de bogues n'étaient donc pas gérées de manière aussi rigoureuse qu'aujourd'hui.
 
@@ -1447,8 +1423,6 @@ Le wiki Bitcoin contient une [liste des vulnérabilités et expositions communes
 
 
 #### 2010-07-28 : Dépenser les pièces de n'importe qui (CVE-2010-5141)
-
-
 
 Le 28 juillet 2010, un pseudonyme du nom d'ArtForz a découvert un bug dans la version 0.3.4 qui permettait à n'importe qui de prendre les pièces de n'importe qui d'autre. ArtForz l'a signalé de manière responsable à Satoshi Nakamoto et à un autre développeur de Bitcoin, Gavin Andresen.
 

@@ -1502,8 +1502,6 @@ Le message de Satoshi décrivait également une optimisation des performances po
 
 À l'époque, il n'y avait pas autant d'utilisateurs qu'aujourd'hui, et la valeur de Bitcoin était proche de zéro. Si cette réponse au bug avait lieu aujourd'hui, elle serait considérée comme un vrai fiasco pour plusieurs raisons :
 
-
-
 - Satoshi a fait une version binaire de la 0.3.5 contenant le correctif. Aucun correctif ou code n'a été fourni, peut-être dans le but d'obscurcir le problème.
 - 0.3.5 [n'a même pas fonctionné](https://bitcointalk.org/index.php?topic=626.msg6455#msg6455).
 - Le correctif de la 0.3.6 était en fait un Hard Fork.
@@ -1513,7 +1511,6 @@ Un autre point discutable est de savoir s'il est bon ou mauvais que les utilisat
 
 
 #### 2010-08-15 Débordement de la sortie combinée (CVE-2010-5139)
-
 
 
 À la mi-août 2010, l'utilisateur du forum Bitcointalk jgarzik, alias Jeff Garzik, [découvert que](https://bitcointalk.org/index.php?topic=822.msg9474#msg9474) une certaine transaction à la hauteur du bloc 74638 avait deux sorties d'une valeur anormalement élevée :
@@ -1540,9 +1537,7 @@ Un autre point discutable est de savoir s'il est bon ou mauvais que les utilisat
 
 Il y avait vraisemblablement un bogue qui faisait que la somme des sorties de deux int64 (et non uint64, comme Garzik l'a supposé) débordait pour atteindre une valeur négative de -0,00997538 BTC. Quelle que soit la somme des entrées, la "somme" des sorties serait plus petite, ce qui rendrait cette transaction acceptable selon le code de l'époque.
 
-
 Dans ce cas, le bogue avait été divulgué et publié par le biais d'un exploit réel. Malheureusement, environ 2 x 92 milliards de Bitcoin ont été créés, ce qui a fortement dilué l'offre monétaire d'environ 3,7 millions de pièces qui existait à l'époque.
-
 
 Dans un fil de discussion connexe, [Satoshi a posté](https://bitcointalk.org/index.php?topic=823.msg9531#msg9531) qu'il apprécierait que les gens arrêtent de miner (ou *generating*, comme ils l'appelaient à l'époque) :
 
@@ -1552,7 +1547,7 @@ Dans un fil de discussion connexe, [Satoshi a posté](https://bitcointalk.org/in
 
 > Un premier patch sera dans le SVN rev 132.  Il n'est pas encore téléchargé.  Je pousse d'abord d'autres changements divers, puis je mettrai en ligne le correctif pour ceci.
 
-Son plan consistait à créer un Soft Fork pour invalider les transactions comme celle dont il est question ici, invalidant ainsi les blocs (en particulier le bloc 74638) qui contenaient de telles transactions. Moins d'une heure plus tard, il a déposé un [patch dans la révision 132](https://sourceforge.net/p/Bitcoin/code/132/) du dépôt Subversion et [posté sur le forum](https://bitcointalk.org/index.php?topic=823.msg9548#msg9548) décrivant ce qu'il pensait que les utilisateurs devaient faire :
+Son plan consistait à créer un soft fork pour invalider les transactions comme celle dont il est question ici, invalidant ainsi les blocs (en particulier le bloc 74638) qui contenaient de telles transactions. Moins d'une heure plus tard, il a déposé un [patch dans la révision 132](https://sourceforge.net/p/Bitcoin/code/132/) du dépôt Subversion et [posté sur le forum](https://bitcointalk.org/index.php?topic=823.msg9548#msg9548) décrivant ce qu'il pensait que les utilisateurs devaient faire :
 
 
 > Le correctif est téléchargé dans le SVN rev 132 !
@@ -1581,24 +1576,20 @@ Une fois de plus, les gens ont semblé être d'accord, et l'inversion du bloc in
 
 Comparé au problème de la OP_RETURN, ce problème a été traité d'une manière un peu plus propre :
 
-
 - Pas de version binaire du correctif
 - Le logiciel publié a fonctionné comme prévu
 - Non Hard Fork
 
-
-Il a également été demandé aux utilisateurs d'arrêter le miange pendant cette période. Nous pouvons débattre de la question de savoir si c'est une bonne idée ou non, mais imaginez que vous êtes un mineur et que vous êtes convaincu que tous les blocs situés au-dessus du mauvais bloc seront finalement effacés lors d'une profonde réorganisation : pourquoi gaspilleriez-vous des ressources à miner des blocs condamnés ?
+Il a également été demandé aux utilisateurs d'arrêter le minage pendant cette période. Nous pouvons débattre de la question de savoir si c'est une bonne idée ou non, mais imaginez que vous êtes un mineur et que vous êtes convaincu que tous les blocs situés au-dessus du mauvais bloc seront finalement effacés lors d'une profonde réorganisation : pourquoi gaspilleriez-vous des ressources à miner des blocs condamnés ?
 
 
 Vous pourriez également penser qu'il est un peu louche de faire ce que suggère Nakamoto et de télécharger la Blockchain, y compris l'ensemble UTXO, à partir du disque dur d'un inconnu. Si c'est le cas, vous avez raison : c'est louche. Mais, compte tenu des circonstances, cette réaction d'urgence était judicieuse.
 
 
-Il existe une différence importante entre ce cas et le cas précédent OP_RETURN : ce problème a été exploité dans la nature, et la correction a donc pu être faite plus simplement. Dans le cas de OP_RETURN, il a fallu obscurcir la correction et faire des déclarations publiques qui ne révélaient pas directement la nature du problème.
+Il existe une différence importante entre ce cas et le cas précédent d'OP_RETURN : ce problème a été exploité dans la nature, et la correction a donc pu être faite plus simplement. Dans le cas de OP_RETURN, il a fallu obscurcir la correction et faire des déclarations publiques qui ne révélaient pas directement la nature du problème.
 
 
 #### 2013-03-11 Problème de verrouillage de la base de données 0.7.2 - 0.8.0 (CVE-2013-3220)
-
-
 
 Un problème très intéressant et très instructif est apparu en mars 2013. Il est apparu que la Blockchain s'était divisé (bien que le mot "Fork" soit utilisé dans la citation ci-dessous) après le bloc 225429. Les détails de cet incident ont été [rapportés dans le BIP50](https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki). Le résumé dit :
 
@@ -1608,7 +1599,7 @@ Un problème très intéressant et très instructif est apparu en mars 2013. Il 
 
 > Afin de rétablir une chaîne canonique le plus rapidement possible, BTCGuild et Slush ont rétrogradé leurs nœuds Bitcoin 0.8 en 0.7 afin que leurs pools rejettent également le bloc le plus important. Cela a placé la majorité de la puissance de hachage sur la chaîne sans le bloc plus grand, ce qui a finalement conduit les nœuds 0.8 à se réorganiser vers la chaîne pré-0.8.
 
-L'action rapide des pools de minage BTCGuild et Slush a été impérative dans cette situation d'urgence. Ils ont été capables de faire basculer la majorité de la puissance du Hash vers la branche pré-0.8 du split, et ainsi aider à restaurer le consensus. Cela a donné aux développeurs le temps de trouver une solution durable.
+L'action rapide des pools de minage BTCGuild et Slush a été impérative dans cette situation d'urgence. Ils ont été capables de faire basculer la majorité de la puissance du hachage vers la branche pré-0.8 du split, et ainsi aider à restaurer le consensus. Cela a donné aux développeurs le temps de trouver une solution durable.
 
 
 Ce qui est également très intéressant dans ce problème, c'est que la version 0.7.2 était incompatible avec elle-même, comme c'était le cas pour les versions précédentes. Ceci est expliqué dans la [section Cause première du BIP50](https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki#root-cause) :
@@ -1617,21 +1608,18 @@ Ce qui est également très intéressant dans ce problème, c'est que la version
 > Avec une configuration de verrous BDB insuffisamment élevée, cela était devenu implicitement une règle de consensus du réseau déterminant la validité des blocs (bien qu’il s’agisse d’une règle incohérente et non sécurisée, puisque l’utilisation des verrous pouvait varier d’un nœud à l’autre).
 
 
-En bref, le problème est que le nombre de verrous de base de données dont le logiciel Bitcoin Core a besoin pour vérifier un bloc n'est pas déterministe. Un nœud peut avoir besoin de X verrous tandis qu'un autre nœud peut avoir besoin de X+1 verrous. Les nœuds ont également une limite sur le nombre de verrous que Bitcoin peut prendre. Si le nombre de verrous nécessaires dépasse la limite, le bloc sera considéré comme invalide. Ainsi, si X+1 dépasse la limite mais pas X, les deux nœuds diviseront la Blockchain et ne seront pas d'accord sur la branche qui est valide.
+En bref, le problème est que le nombre de verrous de base de données dont le logiciel Bitcoin Core a besoin pour vérifier un bloc n'est pas déterministe. Un nœud peut avoir besoin de X verrous, tandis qu'un autre nœud peut avoir besoin de X+1 verrous. Les nœuds ont également une limite sur le nombre de verrous que Bitcoin peut prendre. Si le nombre de verrous nécessaires dépasse la limite, le bloc sera considéré comme invalide. Ainsi, si X+1 dépasse la limite mais pas X, les deux nœuds diviseront la Blockchain et ne seront pas d'accord sur la branche qui est valide.
 
 
 La solution retenue, outre les mesures immédiates prises par les deux pools pour rétablir le consensus, a été la suivante
 
-
-
 - limiter les blocs en termes de taille et de verrous nécessaires sur la version 0.8.1
 - corriger les anciennes versions (0.7.2 et quelques autres plus anciennes) avec les mêmes nouvelles règles, et augmenter la limite globale de verrouillage.
-
 
 À l'exception de l'augmentation de la limite de verrouillage global mentionnée au deuxième point, ces règles ont été mises en œuvre temporairement pour une durée prédéterminée. Il était prévu de supprimer ces limites une fois que la plupart des nœuds auraient été mis à niveau.
 
 
-Cette Soft Fork a considérablement réduit le risque d'échec du consensus et, quelques mois plus tard, le 15 mai, les règles temporaires ont été désactivées de concert sur l'ensemble du réseau. Il convient de noter que cette désactivation était en fait un Hard Fork, mais qu'elle n'était pas litigieuse. En outre, elle a été publiée en même temps que le Soft Fork précédent, de sorte que les personnes utilisant le logiciel qui a été Soft-fork savaient parfaitement qu'un Hard Fork suivrait. Par conséquent, la grande majorité des nœuds sont restés dans le consensus lorsque le Hard Fork a été activé. Malheureusement, quelques nœuds qui n'ont pas été mis à jour ont été perdus dans le processus.
+Cette soft fork a considérablement réduit le risque d'échec du consensus et, quelques mois plus tard, le 15 mai, les règles temporaires ont été désactivées de concert sur l'ensemble du réseau. Il convient de noter que cette désactivation était en fait un hard fork, mais qu'elle n'était pas litigieuse. En outre, elle a été publiée en même temps que le soft fork précédent, de sorte que les personnes utilisant le logiciel qui a été Soft-fork savaient parfaitement qu'un hard fork suivrait. Par conséquent, la grande majorité des nœuds sont restés dans le consensus lorsque le hard fork a été activé. Malheureusement, quelques nœuds qui n'ont pas été mis à jour ont été perdus dans le processus.
 
 
 On peut se demander si cela serait possible aujourd'hui. Le paysage du minage est plus complexe aujourd'hui et, en fonction de la puissance de Hash de chaque côté de la scission, il pourrait être difficile de déployer assez rapidement un correctif tel que celui du BIP50. Il serait probablement difficile de convaincre les mineurs de la "mauvaise" branche de renoncer à leurs récompenses de bloc.
@@ -1639,11 +1627,7 @@ On peut se demander si cela serait possible aujourd'hui. Le paysage du minage es
 
 #### BIP66
 
-
-
 Le BIP66 est intéressant parce qu'il souligne l'importance de :
-
-
 
 - bonne sélection cryptographie
 - divulgation responsable
@@ -1658,8 +1642,6 @@ Le BIP a été activé le 4 juillet 2015. Toutefois, si ce qui précède est vra
 
 
 ##### La vulnérabilité
-
-
 
 La divulgation complète de cette question a été publiée le 28 juillet 2015 par Pieter Wuille dans un article de
 
@@ -1693,10 +1675,7 @@ Chronologie des événements entourant le BIP66. Les éléments en noir ont ét�
 
 ##### Avant la découverte
 
-
-
 Sans que personne ne soit au courant de ce problème, il aurait pu être résolu par le BIP62, qui était une proposition visant à réduire les possibilités de malléabilité des transactions. Parmi les changements proposés dans le BIP62 figurait le renforcement des règles de consensus pour l'encodage des signatures, ou "encodage DER strict". Pieter Wuille a proposé quelques modifications au BIP en juillet 2014, qui auraient permis de résoudre le problème :
-
 
 > 2014-Jul-18 : Afin que les règles d'encodage de signature de Bitcoin ne dépendent pas de l'analyseur spécifique d'OpenSSL, j'ai modifié la proposition BIP62 pour que son exigence stricte de signatures DER s'applique également aux transactions de la version 1. À l'époque, plus aucune signature non DER n'était extraite des blocs, de sorte que l'on a supposé que cela n'aurait aucun impact. Voir https://github.com/Bitcoin/bips/pull/90 et http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html. Inconnu à l'époque, mais s'il avait été déployé, il aurait permis de résoudre la vulnérabilité.
 
@@ -1704,8 +1683,6 @@ En raison de l'ampleur de ce BIP, qui couvrait bien plus que le simple "codage D
 
 
 ##### Après la découverte
-
-
 
 OpenSSL a publié de nouvelles versions de son logiciel avec des correctifs qui, s'ils avaient été utilisés dans Bitcoin depuis le début, auraient résolu le problème. Cependant, l'utilisation de toute nouvelle version d'OpenSSL uniquement dans une nouvelle version de Bitcoin Core ne ferait qu'empirer les choses. Gregory Maxwell explique cela dans un autre [email thread](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-January/007097.html) en janvier 2015 :
 

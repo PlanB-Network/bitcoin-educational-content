@@ -40,7 +40,7 @@ Nous pourrons ainsi faire le lien entre cette philosophie pratique tournée vers
 
 Et notamment dans son aspect philosophique qui nous fait précisément réfléchir à la notion de liberté, la liberté de penser, de s’exprimer, le respect de la vie privée et, évidemment pour ce qui nous concerne, la liberté d’échanger.
 
-Dans un premier temps, je vais donc vous présenter qui est Spinoza, le personnage, ses milieux social, religieux et familial et quel était le contexte historique des Provinces-Unies où il vivait.
+Dans un premier temps, je vais donc vous présenter qui est Spinoza, le personnage, son milieu social, religieux et familial et quel était le contexte historique des Provinces-Unies où il vivait.
 
 ![image](./assets/fr/1.1.2.webp)
 Portrait de Spinoza

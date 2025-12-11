@@ -1,5 +1,5 @@
 ---
-name: LNbits 伺服器
+name: LNbits Server
 description: 在 Ubuntu VPS 與 Phoenixd 或 Umbrel 上安裝與設定自行託管的 LNbits 伺服器
 ---
 

@@ -518,16 +518,13 @@ Si les mineurs commencent à pratiquer le sniping, cela incitera d'autres mineur
 
 Ainsi, étant donné que le consensus sur la quantité finie demeure, la subvention des blocs - grâce à [BIP42](https://github.com/Bitcoin/bips/blob/master/bip-0042.mediawiki) qui a corrigé un bug d'inflation à très long terme - atteindra zéro aux alentours de l'année 2140. Les frais de transaction seront-ils alors suffisants pour sécuriser le réseau ?
 
-
 Il est impossible de le dire, mais nous savons certaines choses :
 
-
 - Un siècle est une période *longue* du point de vue de Bitcoin. S'il existe toujours, il aura probablement énormément évolué.
-- Si une majorité économique écrasante juge nécessaire de changer les règles et d'introduire, par exemple, une inflation monétaire annuelle perpétuelle de 0,1 % ou 1 %, la Supply de la Bitcoin ne sera plus finie.
+- Si une majorité économique écrasante juge nécessaire de changer les règles et d'introduire, par exemple, une inflation monétaire annuelle perpétuelle de 0,1 % ou 1 %, la Supply de Bitcoin ne sera plus finie.
 - Avec une subvention de bloc nulle et une Mempool vide ou presque vide, la situation peut devenir précaire en raison des pressions exercées sur les tarifs.
 
-
-Étant donné que la transition vers une récompense de bloc uniquement basée sur les frais de transactions est si lointaine, il serait peut-être sage de ne pas tirer de conclusions hâtives et d'essayer de résoudre les problèmes potentiels pendant que nous le pouvons. Par exemple, Peter Todd pense qu'il existe un risque réel que le budget de sécurité du Bitcoin ne soit pas suffisant à l'avenir, et plaide donc en faveur d'une légère inflation perpétuelle dans la Bitcoin. Cependant, il pense également que ce n'est pas une bonne idée de discuter d'un tel problème à l'heure actuelle, comme [il l'a dit sur le podcast What Bitcoin Did](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin) :
+Étant donné que la transition vers une récompense de bloc uniquement basée sur les frais de transactions est si lointaine, il serait peut-être sage de ne pas tirer de conclusions hâtives et d'essayer de résoudre les problèmes potentiels pendant que nous le pouvons. Par exemple, Peter Todd pense qu'il existe un risque réel que le budget de sécurité du Bitcoin ne soit pas suffisant à l'avenir, et plaide donc en faveur d'une légère inflation perpétuelle dans Bitcoin. Cependant, il pense également que ce n'est pas une bonne idée de discuter d'un tel problème à l'heure actuelle, comme [il l'a dit sur le podcast What Bitcoin Did](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin) :
 
 
 > Mais c'est un risque qui se situe dans 10 ou 20 ans. C'est très long. Et d'ici là, qui peut bien savoir quels sont les risques ?
@@ -536,8 +533,6 @@ Nous pourrions peut-être considérer Bitcoin comme quelque chose d'organique. I
 
 
 ### Conclusion sur la quantité finie
-
-
 
 Nous ne pouvons pas dire aujourd'hui si la quantité de Bitcoin dépassera les 21 millions, et ce n'est probablement pas si mal. Il est crucial, mais pas urgent, de veiller à ce que le budget de la sécurité reste suffisamment élevé. Reprenons cette discussion dans 10 à 50 ans, lorsque nous en saurons plus. Si c'est toujours d'actualité.
 
@@ -552,9 +547,7 @@ Nous ne pouvons pas dire aujourd'hui si la quantité de Bitcoin dépassera les 2
 <chapterId>3ffa84d1-adfa-5fbc-9b13-384ea783fcdd</chapterId>
 
 
-
 ![](assets/fr/007.webp)
-
 
 Il peut être extrêmement difficile de mettre à jour Bitcoin en toute sécurité. Certains changements prennent plusieurs années à se mettre en place. Dans ce chapitre, nous abordons le vocabulaire commun relatif à la mise à jour de Bitcoin et explorons quelques exemples de mises à jour historiques de son protocole, ainsi que les enseignements que nous en avons tirés. Enfin, nous aborderons la question du fractionnement des chaînes, ainsi que les risques et les coûts qui y sont liés.
 
@@ -575,16 +568,11 @@ Ce chapitre traite de la manière dont Bitcoin peut être mis à niveau sans pro
 
 ### Vocabulaire
 
-
-
 Selon Wikipédia, la [compatibilité future](https://en.wikipedia.org/wiki/Forward_compatibility) désigne la situation dans laquelle un ancien logiciel peut traiter des données créées par des logiciels plus récents, en ignorant les parties qu'il ne comprend pas :
-
 
 Une norme assure la compatibilité future si un produit conforme aux versions antérieures peut traiter "gracieusement" des données conçues pour des versions ultérieures de la norme, en ignorant les nouvelles parties qu'il ne comprend pas.
 
-
 À l'inverse, la [rétrocompatibilité](https://en.wikipedia.org/wiki/Backward_compatibility) désigne le fait que les données d'un ancien logiciel sont utilisables avec des logiciels plus récents. On dit d'une modification qu'elle est pleinement compatible si elle est à la fois compatible dans le futur et rétrocompatible.
-
 
 Une modification des règles de consensus de Bitcoin est dite *Soft Fork* si elle est entièrement compatible. C'est la façon la plus courante de mettre à jour Bitcoin, pour un certain nombre de raisons que nous aborderons plus loin dans ce chapitre. Si une modification des règles de consensus Bitcoin est rétrocompatible mais pas avec l'avenir, elle est appelée *Hard Fork*.
 
@@ -593,8 +581,6 @@ Pour un aperçu technique des forks Soft et Hard, veuillez lire le [chapitre 11 
 
 
 ### Améliorations historiques
-
-
 
 Un bloc Bitcoin n'est plus le même aujourd'hui qu'au moment de la création du bloc Genesis. Plusieurs améliorations ont été apportées au fil des ans. En 2018, Eric Lombrozo [s'est exprimé lors de la conférence Breaking Bitcoin](https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) sur les différents mécanismes de mise à jour de Bitcoin, soulignant à quel point ils ont évolué au fil du temps. Il a même expliqué comment Satoshi Nakamoto a une fois mis à niveau Bitcoin par le biais d'un Hard Fork :
 
@@ -612,8 +598,6 @@ M. Lombrozo donne également un aperçu de l'évolution des mécanismes de mise 
 
 
 #### Mise à jour du SegWit
-
-
 
 Alors que toutes les mises à jour précédant SegWit avaient été plus ou moins indolores, celle-ci était différente. Lorsque le code d'activation de SegWit a été publié, en octobre 2016, les utilisateurs de Bitcoin semblaient la soutenir massivement, mais pour une raison quelconque, les mineurs n'ont pas signalé leur soutien à cette mise à niveau, ce qui a bloqué l'activation sans qu'aucune solution ne soit en vue.
 

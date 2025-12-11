@@ -36,7 +36,7 @@ En effet, cette philosophie nous permet non seulement de nous interroger sur le 
 
 Quand la vie nous sourit et que nous estimerions, par exemple, ne pas avoir à nous poser de questions en considérant avec un orgueil vu comme illusoire et servile que notre bonheur, ou que notre réussite, ne viendrait que de notre talent, de notre travail ou de nos choix prétendus libres. Bref, de notre seule et libre volonté opposée au déterminisme auquel nous sommes soumis.
 
-Nous pourrons ainsi faire le lien entre cette philosophie pratique tournée vers la liberté ou, comme le dit Spinoza, « vers les moyens pour y parvenir » et le nouveau monde technologique qui nous intéresse ici; la crypto en général et  le Bitcoin en particulier. 
+Nous pourrons ainsi faire le lien entre cette philosophie pratique tournée vers la liberté ou, comme le dit Spinoza, « vers les moyens pour y parvenir » et le nouveau monde technologique qui nous intéresse ici; la crypto en général et Bitcoin en particulier. 
 
 Et notamment dans son aspect philosophique qui nous fait précisément réfléchir à la notion de liberté, la liberté de penser, de s’exprimer, le respect de la vie privée et, évidemment pour ce qui nous concerne, la liberté d’échanger.
 

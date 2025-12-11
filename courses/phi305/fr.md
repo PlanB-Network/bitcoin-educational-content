@@ -123,7 +123,7 @@ Autrement dit, ce sont bien toutes ces valeurs de liberté et de progrès véhic
 
 Un monde, pourtant, dans lequel tous les moyens sont utiles pour nous en sortir, pour nous extraire des servitudes qui nous enferment et être libre en acceptant le monde tel qu’il est, pas tel que nous voudrions qu’il soit.
 
-Que ces moyens soient d’ordre philosophiques ou technologiques, comme l’est donc, cet outil de liberté qu’est le Bitcoin. Et c'est d'ailleurs ce que nous allons voir par la suite. Un outil pour que nous puissions, nous individus mais aussi les États, nous extraire des servitudes et notamment monétaires.
+Que ces moyens soient d’ordre philosophiques ou technologiques, comme l’est donc, cet outil de liberté qu’est Bitcoin. Et c'est d'ailleurs ce que nous allons voir par la suite. Un outil pour que nous puissions, nous individus mais aussi les États, nous extraire des servitudes et notamment monétaires.
 
 
 # Les œuvres majeures, Éthique et politique

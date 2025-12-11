@@ -1,5 +1,5 @@
 ---
-name: COLDCARD - совместная подпись
+name: COLDCARD - Co-Sign
 description: Откройте для себя функцию Co-Sign и используйте ее на своей COLDCARD
 ---
 

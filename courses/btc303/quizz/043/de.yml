@@ -1,0 +1,9 @@
+question: Was betont das Konzept der Bitcoin-Harmonie, wie es durch die Analogie von David Harding beschrieben wird, in erster Linie über die Funktionsweise des Netzes?
+answer: Tausende von vollständigen Knotenpunkten überprüfen unabhängig voneinander Transaktionen, um eine harmonische Einigung zu erzielen, ohne dass Vertrauen zwischen den Betreibern erforderlich ist
+wrong_answers:
+  - Mining-Pools müssen ihre Bemühungen koordinieren, um das gleiche Lied zu singen und Blöcke in synchronisierter Harmonie zu produzieren
+  - Bitcoin-Entwickler müssen einen einstimmigen Konsens erzielen, bevor sie Protokolländerungen oder -erweiterungen umsetzen
+  - Alle Bitcoin-Nutzer müssen der Gültigkeit von Transaktionen durch ein demokratisches Abstimmungsverfahren zustimmen, um die Stabilität des Netzes zu gewährleisten
+explanation: |
+  David Hardings Harmonie-Analogie unterstreicht, dass die Stärke von Bitcoin von Tausenden unabhängiger vollständiger Knoten ausgeht, von denen jeder für sich arbeitet, um Transaktionen zu verifizieren, wodurch eine harmonische Übereinstimmung über den Zustand des Ledgers geschaffen wird, ohne dass ein Knotenbetreiber anderen vertrauen muss. Dies wird mit einem Chor verglichen, in dem jedes Mitglied unabhängig singt, aber gemeinsam eine schöne Harmonie erzeugt. Die falschen Antworten interpretieren dieses Konzept falsch, indem sie Koordinationsanforderungen zwischen Minern, Entwicklern oder Nutzern suggerieren, was dem grundlegenden Prinzip der unabhängigen Verifizierung widerspricht, das Bitcoin vertrauenslos und dezentralisiert macht.
+reviewed: false

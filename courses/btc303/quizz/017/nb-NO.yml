@@ -1,0 +1,9 @@
+question: Hva er den største ulempen med betrodde finansielle systemer som Bitcoins tillitsløse design tar sikte på å løse?
+answer: Manglende mulighet til å foreta helt irreversible transaksjoner på grunn av krav om tvisteløsning
+wrong_answers:
+  - Det høye energiforbruket som kreves for å behandle elektroniske betalinger gjennom bankene
+  - Det begrensede antallet transaksjoner som kan behandles per sekund av finansinstitusjoner
+  - Kravet om at kundene må fremlegge for mange personlige identifikasjonsdokumenter
+explanation: |
+  Ifølge Satoshi Nakamoto i Bitcoin-hvitboken lider tradisjonelle finanssystemer av den grunnleggende svakheten at fullstendig ikke-reversible transaksjoner ikke er mulig fordi finansinstitusjoner må megle i tvister. Dette skaper en kaskade av problemer: økte transaksjonskostnader på grunn av mekling, eliminering av små tilfeldige transaksjoner og spredning av tillitskrav i hele systemet. Selv om de andre alternativene kan være relevante for finanssystemer, er de ikke kjerneproblemet som Bitcoins tillitsløse design spesifikt tar for seg. Bitcoins innovasjon muliggjør endelig oppgjør uten at det kreves en betrodd tredjepart for å reversere transaksjoner.
+reviewed: false

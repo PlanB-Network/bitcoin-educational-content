@@ -1,0 +1,9 @@
+question: Ni nini hufanya mifumo ya mtandaoni kama Bitcoin kuwa tofauti kabisa na mifumo ya kimwili inapokuja kwa vitisho kutoka kwa wapinzani?
+answer: Mifumo ya mtandao inakabiliwa na wapinzani wasiojulikana na wasiojulikana ambao wanaweza kutumia udhaifu wowote bila kuonekana au kukamatwa.
+wrong_answers:
+  - Mifumo ya mtandaoni ina algoriti changamano zaidi ya kriptografia ambayo ni vigumu kuchanganua kwa udhaifu wa kiusalama
+  - Mifumo ya kimwili inaweza kulindwa na utekelezaji wa sheria wakati mifumo ya mtandaoni inategemea tu uthibitisho wa hisabati.
+  - Mifumo ya mtandaoni huchakata shughuli kwa haraka ili kurahisisha kwa wapinzani kuzindua mashambulizi yaliyoratibiwa
+explanation: |
+  Tofauti kuu iliyoangaziwa na Andrew Poelstra ni kwamba mifumo ya kimwili inaweza kutegemea utekelezaji wa sheria na kuonekana kwa wapinzani kuzuia mashambulizi, hata kukubali hatari fulani kama majengo kuchomwa moto. Hata hivyo, mifumo ya mtandaoni kama vile Bitcoin hufanya kazi katika mazingira ambapo wapinzani wanaweza kutenda kwa njia isiyojulikana au bila kujulikana, kuunganishwa kutoka popote, na kutumia udhaifu bila kutambuliwa au kukamatwa. Tofauti hii ya kimsingi ina maana kwamba udhaifu wote unaojulikana katika Bitcoin lazima ushughulikiwe, kwani bila shaka watatumiwa na wapinzani wasioonekana ambao hawakabiliwi na matokeo ya ulimwengu halisi.
+reviewed: false

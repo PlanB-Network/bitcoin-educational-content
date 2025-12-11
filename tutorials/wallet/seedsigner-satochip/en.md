@@ -183,7 +183,7 @@ Once the applet has been successfully installed, you can proceed to step 4.
 ### 5.1. Generate seed
 
 
-Now that you've got all your hardware and software working properly, you can proceed to create your Bitcoin portfolio. To do this, plug in your SeedSigner, then generate your seed as with a conventional SeedSigner, either by rolling the dice or by taking a photo:
+Now that you've got all your hardware and software working properly, you can proceed to create your Bitcoin wallet. To do this, plug in your SeedSigner, then generate your seed as with a conventional SeedSigner, either by rolling the dice or by taking a photo:
 
 
 - Go to the `Tools > Camera / Dice Rolls` menu;
@@ -205,7 +205,7 @@ https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92
 Once the seed has been generated, this is the only time it resides in the SeedSigner's RAM. In my case, I want to save it on a [Seedkeeper](https://satochip.io/product/seedkeeper/), another Satochip product designed to store secrets. I'll use this device as a last resort, in case of loss of my Satochip.
 
 
-The backup strategy chosen here depends on your preferences, but it's imperative to have at least one copy of your mnemonic phrase, either on physical media (paper or metal) or, as here, in a Seedkeeper. You can also multiply the number of backups as required. For more information on portfolio backup strategies, I suggest you read this tutorial :
+The backup strategy chosen here depends on your preferences, but it's imperative to have at least one copy of your mnemonic phrase, either on physical media (paper or metal) or, as here, in a Seedkeeper. You can also multiply the number of backups as required. For more information on wallet backup strategies, I suggest you read this tutorial :
 
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
@@ -245,7 +245,7 @@ The Seedkeeper PIN code should be as long and random as possible, to prevent bru
 ### 5.3. Save seed on the Satochip
 
 
-Now that your portfolio has been generated, saved and verified, we'll transfer it to the Satochip. To do this, make sure the seed is loaded into the SeedSigner's RAM. Then go to `Tools > Smartcard Tools > Satochip Functions`.
+Now that your wallet has been generated, saved and verified, we'll transfer it to the Satochip. To do this, make sure the seed is loaded into the SeedSigner's RAM. Then go to `Tools > Smartcard Tools > Satochip Functions`.
 
 
 ![Image](assets/fr/21.webp)
@@ -278,7 +278,7 @@ Remember to save this PIN as soon as it is created, either in a secure password 
 ![Image](assets/fr/25.webp)
 
 
-The SeedSigner then asks you which seed to import into the Satochip. Select the one whose fingerprint matches the portfolio you've just created.
+The SeedSigner then asks you which seed to import into the Satochip. Select the one whose fingerprint matches the wallet you've just created.
 
 
 ![Image](assets/fr/26.webp)
@@ -301,7 +301,7 @@ https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1
 ## 6. Import wallet into Sparrow
 
 
-Now that your portfolio is up and running, we'll import its public information (the "*keystore*") into Sparrow Wallet or another portfolio management software. This software will be used to create, distribute and track your transactions. However, it won't be able to sign them, as only the Satochip (and any backups) hold the private keys needed for this operation.
+Now that your wallet is up and running, we'll import its public information (the "*keystore*") into Sparrow Wallet or another wallet management software. This software will be used to create, distribute and track your transactions. However, it won't be able to sign them, as only the Satochip (and any backups) hold the private keys needed for this operation.
 
 
 ### 6.1 Preparing the SeedSigner and Satochip
@@ -322,7 +322,7 @@ Then click on `Export Xpub`.
 ![Image](assets/fr/29.webp)
 
 
-Select the portfolio type. In our case, it's a single portfolio: select `Single Sig`.
+Select the wallet type. In our case, it's a single wallet: select `Single Sig`.
 
 
 ![Image](assets/fr/30.webp)
@@ -334,7 +334,7 @@ Next comes the choice of scripting standard. Choose the latest: `Native SegWit`.
 ![Image](assets/fr/31.webp)
 
 
-Finally, select the `Coordinator`, i.e. the portfolio management software you wish to use. Here, we'll be using Sparrow Wallet.
+Finally, select the `Coordinator`, i.e. the wallet management software you wish to use. Here, we'll be using Sparrow Wallet.
 
 
 ![Image](assets/fr/32.webp)
@@ -361,10 +361,10 @@ Finally, click on `Export Xpub` if you are satisfied with the information displa
 ![Image](assets/fr/35.webp)
 
 
-The SeedSigner then generates your xpub in the form of a dynamic QR code, containing all the data you need to manage your portfolio in Sparrow Wallet. You can adjust the brightness of the screen using the joystick to make scanning the QR code easier.
+The SeedSigner then generates your xpub in the form of a dynamic QR code, containing all the data you need to manage your wallet in Sparrow Wallet. You can adjust the brightness of the screen using the joystick to make scanning the QR code easier.
 
 
-### 6.2 Importing a new portfolio into Sparrow Wallet
+### 6.2 Importing a new wallet into Sparrow Wallet
 
 
 Make sure that the Sparrow Wallet software is installed on your computer. If you don't know how to download it, check its authenticity and install it correctly, see our full tutorial on the subject :
@@ -384,7 +384,7 @@ Scroll down to `SeedSigner`, then select `Scan...`. Your webcam will be activate
 ![Image](assets/fr/37.webp)
 
 
-Assign a name to your portfolio, then click on `Create Wallet`. Sparrow will then ask you to set a password to lock local access to this wallet. Choose a strong password: it protects your data in Sparrow (public keys, addresses, labels and transaction history). However, this password is not required to restore the wallet in the future: only your mnemonic phrase (and possibly your passphrase) will be.
+Assign a name to your wallet, then click on `Create Wallet`. Sparrow will then ask you to set a password to lock local access to this wallet. Choose a strong password: it protects your data in Sparrow (public keys, addresses, labels and transaction history). However, this password is not required to restore the wallet in the future: only your mnemonic phrase (and possibly your passphrase) will be.
 
 
 I recommend that you save this password in a password manager, to avoid losing it.
@@ -492,7 +492,7 @@ If the scanned address matches the one derived from your seed, the SeedSigner wi
 ![Image](assets/fr/47.webp)
 
 
-You can then be sure that the address belongs to your portfolio.
+You can then be sure that the address belongs to your wallet.
 
 
 #### 7.1.3 Receipt of funds
@@ -663,13 +663,13 @@ Insert your Satochip in the smart card reader connected to the computer, then cl
 Finally, enter your smartcard PIN to unlock it. You'll then be able to access your wallet, create transactions and sign them directly using the connected Satochip.
 
 
-### 8.2. Retrieve your portfolio with SeedSigner
+### 8.2. Retrieve your wallet with SeedSigner
 
 
 The other, more delicate scenario is when you lose access to your Satochip containing the seed: whether it's broken, lost, stolen, or you've forgotten its PIN code. If your Satochip has been stolen or mislaid, we strongly recommend that, once access to your funds has been restored, you immediately transfer your bitcoins to a brand new wallet, generated with a different seed. This ensures that a potential attacker can never gain access to your satss.
 
 
-To regain access to your portfolio and move your funds, simply load your seed into SeedSigner. Depending on the backup media you used, you have several options:
+To regain access to your wallet and move your funds, simply load your seed into SeedSigner. Depending on the backup media you used, you have several options:
 
 
 
@@ -698,7 +698,7 @@ Once the seed has been loaded into the SeedSigner, whichever method you use, you
 
 https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
 
-Now you know how to use Satochip to manage your Bitcoin portfolio securely in combination with SeedSigner.
+Now you know how to use Satochip to manage your Bitcoin wallet securely in combination with SeedSigner.
 
 
 If this setup has convinced you, don't hesitate to support the projects that make it possible:

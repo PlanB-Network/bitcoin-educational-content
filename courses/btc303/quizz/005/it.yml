@@ -1,0 +1,9 @@
+question: A cosa si riferisce in particolare la decentralizzazione dei minatori in Bitcoin?
+answer: L'ordinamento delle transazioni viene eseguito collettivamente da un insieme dinamico di minatori piuttosto che da una singola entità
+wrong_answers:
+  - La convalida dei blocchi è distribuita su più autorità fidate invece che su un server centrale
+  - Le ricompense del mining sono equamente distribuite tra tutti i partecipanti alla rete Bitcoin
+  - L'hardware del mining è prodotto da diverse aziende per evitare la monopolizzazione delle apparecchiature
+explanation: |
+  La decentralizzazione Miner significa specificamente che l'ordine delle transazioni non è controllato da una singola entità o da un gruppo fisso, ma piuttosto da un collettivo di minatori che possono liberamente aderire o lasciare. Ciò è diverso dalla convalida dei blocchi (che riguarda la decentralizzazione full node), dalla distribuzione delle ricompense o dalla produzione di hardware. La natura dinamica del collettivo mining - dove chiunque può partecipare senza autorizzazione - è ciò che rende il Bitcoin resistente alla censura e impedisce a una singola parte di controllare quali transazioni vengono incluse nei blocchi.
+reviewed: false

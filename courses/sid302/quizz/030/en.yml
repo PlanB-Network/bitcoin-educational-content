@@ -1,0 +1,8 @@
+question: What is the primary purpose of the ECDH key exchange mechanism in Liquid's Confidential Transactions architecture?
+answer: To enable senders to encrypt asset amounts and types using the receiver's blinding public key while generating verifiable range proofs
+wrong_answers:
+  - To establish secure communication channels between AMP servers and wallet clients during transaction authorization processes
+  - To create shared secrets for multisignature descriptor registration between wallets and the AMP server infrastructure
+  - To generate cryptographic signatures that prove asset ownership without revealing the underlying private key information
+explanation: |
+  ECDH (Elliptic Curve Diffie-Hellman) key exchange in Liquid's Confidential Transactions specifically enables privacy-preserving asset transfers by allowing senders to encrypt transaction output values using the receiver's blinding public key. This creates a shared secret that only the receiver can decrypt with their private blinding key, while simultaneously generating range proofs that allow network validators to verify transaction validity without seeing the actual amounts. The other options incorrectly describe ECDH as serving communication security, descriptor registration, or ownership proof functions, which are handled by different cryptographic mechanisms in the Liquid ecosystem.

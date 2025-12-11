@@ -15,7 +15,6 @@ I denne opplæringen skal vi ta en titt på Blue Wallet, en enkel, men svært ef
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 
@@ -122,7 +121,7 @@ Du kan derfor velge den transaksjonsavgiftsratioen som passer deg hvis du ønske
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 

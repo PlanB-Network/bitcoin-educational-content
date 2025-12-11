@@ -1,0 +1,9 @@
+question: Koja osnovna karakteristika razlikuje definiciju Bitcoin skaliranja u knjizi od uobičajenih alternativnih definicija korišćenih u Bitcoin prostoru?
+answer: Izričito zahteva održavanje otpornosti na cenzuru kao ograničenje uz povećanje kapaciteta korišćenja
+wrong_answers:
+  - Fokusira se isključivo na povećanje propusnosti blockchain transakcija, a ne na poboljšanja efikasnosti.
+  - Ona daje prednost razvoju slojevite arhitekture u odnosu na bilo kakve izmene osnovnog blockchain protokola.
+  - Naglašava smanjenje računarskih zahteva za čvorove umesto proširenja kapaciteta mreže
+explanation: |
+  Knjiga definiše skaliranje kao 'povećanje kapaciteta korišćenja Bitcoin bez ugrožavanja njegove otpornosti na cenzuru,' što eksplicitno uključuje ograničenje otpornosti na cenzuru. Ovo ga razlikuje od drugih definicija koje se fokusiraju isključivo na povećanje kapaciteta transakcija, poboljšanja efikasnosti ili slojevite sisteme bez razmatranja očuvanja osnovnih svojstava Bitcoin. Zahtev otpornosti na cenzuru osigurava da rešenja za skaliranje ne potkopavaju osnovnu vrednost Bitcoin kao sistema bez poverenja, decentralizovanog sistema koji ne može biti kontrolisan od strane bilo kojeg pojedinačnog entiteta.
+reviewed: false

@@ -1,10 +1,10 @@
-question: Czym jest Lightning Network?
-answer: Natychmiastowa sieć płatności Bitcoin oparta na Bitcoin Blockchain.
+question: Czym jest sieć Lightning?
+answer: Natychmiastową siecią płatności Bitcoin opartą na łańcuchu bloków Bitcoina.
 wrong_answers:
-  - Oddzielna sieć Blockchain od Bitcoin Blockchain.
-  - Sieć górników Bitcoin.
-  - Sieć giełd Bitcoin.
+  - Oddzielną siecią niezależną od łańcucha bloków Bitcoina.
+  - Siecią górników Bitcoina.
+  - Siecią giełd Bitcoina.
 explanation: |
-  Lightning Network to sieć płatności natychmiastowych Bitcoin
-  która jest oparta na Bitcoin Blockchain.
+  Sieć Lightning to sieć płatności natychmiastowych Bitcoin,
+  która jest oparta na łańcuchu bloków Bitcoina.
 reviewed: true

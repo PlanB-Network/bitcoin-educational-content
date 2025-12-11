@@ -1,0 +1,9 @@
+question: Quale sarà l'anno approssimativo in cui la sovvenzione in blocco del Bitcoin raggiungerà lo zero secondo il PIF42?
+answer: 2140
+wrong_answers:
+  - 2100
+  - 2064
+  - 2160
+explanation: |
+  Secondo il capitolo, il BIP42 ha risolto un bug di inflazione a lunghissimo termine e garantisce che la sovvenzione dei blocchi raggiungerà lo zero intorno all'anno 2140. A questo punto il Bitcoin passerà da un sistema di ricompense basato su sovvenzioni a un sistema puramente a pagamento, cambiando radicalmente il modo in cui i costi della sicurezza della rete vengono coperti, passando dai titolari che pagano attraverso l'inflazione agli spendaccioni che pagano attraverso le commissioni di transazione.
+reviewed: false

@@ -24,11 +24,11 @@ Resultatet är **Debifi**, en plattform som positionerar sig som ett modernt alt
 
 
 
-Debifi är en icke-förvaltande Bitcoin-stödd utlåningsplattform, vilket innebär att du behåller kontrollen över dina privata nycklar. Det gör det möjligt för användare att låsa upp likviditet i Exchange för sina låsta bitcoins som säkerhet. Till skillnad från traditionella banklån använder Debifi ett spärrsystem med flera signaturer (3 av 4) och accepterar inte inteckning av säkerheter, vilket garanterar större säkerhet och transparens.
+Debifi är en icke-förvarad Bitcoin-stödd utlåningsplattform, vilket innebär att du behåller kontrollen över dina privata nycklar. Det gör det möjligt för användare att låsa upp likviditet i utbyte mot sina låsta bitcoins som säkerhet. Till skillnad från traditionella banklån använder Debifi ett spärrsystem med flera signaturer (3 av 4) och accepterar inte omhypotek av säkerheter, vilket garanterar större säkerhet och transparens.
 
 
 
-I praktiken innebär detta att varken Debifi eller en enskild långivare kan spendera dina BTC utan överenskommelse med tre parter (du, långivaren och en betrodd tredje part). Detta gör systemet säkrare: om du lånar på Debifi behåller du Ownership av dina Bitcoin tills lånet har återbetalats i sin helhet.
+I praktiken innebär detta att varken Debifi eller en enskild långivare kan spendera dina BTC utan överenskommelse mellan tre parter (du, långivaren och en betrodd tredje part). Detta gör systemet säkrare: om du lånar på Debifi behåller du äganderätten till dina Bitcoin tills lånet har återbetalats i sin helhet.
 
 
 
@@ -36,22 +36,21 @@ I praktiken innebär detta att varken Debifi eller en enskild långivare kan spe
 
 
 
-Med Debifi är det lån mot säkerhet, Blockchain-säkerhet (multisignatur, 2FA), ett urval av stablecoins / vätskor, sekretess och total Bitcoin-kontroll. Debifi "låter dig behålla dina pengar" (dina nycklar, dina mynt), samtidigt som du erbjuder konkurrenskraftiga räntor och global tillgång till BTC-stödda lån.
+Med Debifi får du Bitcoin-backade lån som är överkollateraliserade och säkrade on-chain. Dina medel förblir säkra med plånböcker med flera signaturer, 2FA och total kontroll över dina Bitcoin - du håller dina nycklar, du håller dina mynt. Låna i en rad olika stablecoins eller fiat-alternativ, till konkurrenskraftiga räntor och global likviditet.
 
 
 
 Här är en snabb jämförelse mellan ett Debifi-lån och ett traditionellt banklån:
 
 
-
-| Caractéristiques       | Prêt via Debifi                                                       | Prêt bancaire traditionnel                                                 |
-| ---------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Accessibilité          | ✔️ Ouvert à tout détenteur de Bitcoin (même sans historique bancaire) | ❌ Souvent réservé aux clients avec garanties physiques et dossiers solides |
-| Vitesse d’obtention    | ✔️ Liquide en quelques minutes/heures                                 | ❌ Processus long (jours ou semaines)                                       |
-| Garanties exigées      | ✔️ Collatéral en Bitcoin uniquement                                   | ❌ Garanties physiques (maisons, terrains, revenus stables)                 |
-| Contrôle de l’actif    | ✔️ Vous conservez l’exposition au Bitcoin et son potentiel de hausse  | ❌ Vous n’avez aucun lien entre le prêt et vos actifs financiers            |
-| Souplesse géographique | ✔️ Disponible partout (sans contrainte géographique bancaire)         | ❌ Limité à la juridiction de la banque                                     |
-| Risque principal       | ❌ Risque de liquidation si le prix du BTC chute trop                  | ❌ Risque de saisie de biens ou impact négatif sur la cote de crédit        |
+| Characteristics        | Loan via Debifi                                                        | Traditional Bank Loan                                                       |
+| ---------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Accessibility          | ✔️ Open to any Bitcoin holder (even without banking history)           | ❌ Often limited to clients with physical collateral and strong records      |
+| Speed of approval      | ✔️ Funds available within minutes or hours                             | ❌ Lengthy process (days or weeks)                                           |
+| Required guarantees    | ✔️ Bitcoin used as the sole collateral                                 | ❌ Physical guarantees (property, land, stable income)                       |
+| Asset control          | ✔️ You keep exposure to Bitcoin and its upside potential               | ❌ No connection between the loan and your financial assets                  |
+| Geographic flexibility | ✔️ Available everywhere (no banking jurisdiction constraints)          | ❌ Restricted to the bank’s jurisdiction                                     |
+| Main risk              | ❌ Liquidation risk if BTC price drops too sharply                      | ❌ Risk of asset seizure or negative impact on credit score                  |
 
 Innan jag visar dig steg för steg hur du lånar på Debifi är det några saker som jag tycker att du behöver veta.
 
@@ -76,19 +75,19 @@ Innan jag visar dig steg för steg hur du lånar på Debifi är det några saker
 
 
 
-- Multisig escrow (3/4)**-systemet är en säker insättningsmekanism där en låntagares bitcoins placeras i en Address med flera signaturer. Specifikt har fyra (4) parter vardera en nyckel (låntagare, långivare, Debifi, oberoende tredje part). För att flytta medel krävs minst 3 av 4 signaturer.
+- Multisig escrow (3/4)**-systemet är en säker insättningsmekanism där en låntagares bitcoins placeras i en adress med flera signaturer. Specifikt har fyra (4) parter vardera en nyckel (låntagare, långivare, Debifi, oberoende tredje part). För att flytta medel krävs minst 3 av 4 signaturer.
 
 
 
 
 
-- En stablecoin** är en kryptovaluta vars värde är kopplat till en stabil tillgång (t.ex. US-dollar), vilket undviker volatiliteten i Bitcoin. Till exempel är 1 USDC alltid värd ~ $ 1, eftersom den backas upp av fiatreserver.
+- En stablecoin** är en kryptovaluta vars värde är kopplat till en stabil tillgång (t.ex. US-dollar), vilket undviker volatiliteten i Bitcoin. Till exempel är 1 USDC alltid värd ~$1, eftersom den backas upp av fiat-reserver.
 
 
 
 
 
-- Belåningsgraden (LTV)** för ett lån avgör hur mycket kontanter du kan låna som säkerhet för din Bitcoin. LTV-kvot = Lånebelopp / Säkerhetsbelopp * 100. Till exempel innebär en LTV på 50 % att värdet på lånet är lika med 50 % av värdet på den deponerade Bitcoin.
+- Belåningsgraden (LTV)** för ett lån avgör hur mycket kontanter du kan låna som säkerhet för din Bitcoin. LTV-kvot = Lånebelopp / Säkerhetsbelopp * 100. Till exempel innebär en LTV på 50 % att värdet på lånet är lika med 50 % av värdet på den deponerade Bitcoin:an.
 
 
 
@@ -118,17 +117,11 @@ Innan du kan låna från Debifi, vänligen se till att du har följande saker:
 
 
 
-- Bitcoin Wallet: där du har din BTC (helst inte förvarad, t.ex. Hardware Wallet eller en betrodd mobil Wallet). Det är från denna Wallet som du skickar Bitcoin-säkerheten till Debifi och tar emot pengarna.
+- Bitcoin wallet: där du har din BTC (helst inte förvarad, t.ex. Hardware Wallet eller en betrodd mobil wallet). Det är från denna wallet som du skickar Bitcoin-säkerheten till Debifi och får tillbaka säkerheten.
 
 
 
-
-
-- Stablecoins eller fiat: Debifi lånar ut i stablecoins och vissa fiatvalutor. De viktigaste stablecoins som används är USDT och USDC.
-
-
-
-Du kan använda Aqua, en Bitcoin och Liquid Wallet som också stöder USDT stablecoin-hantering i olika nätverk. Eller COLDCARD (Mk4 eller Q), för närvarande den enda hårdvara som stöds av Debifi.
+Du kan använda Aqua, en Bitcoin och Liquid wallet som också stöder USDT stablecoin-hantering i olika nätverk. Eller COLDCARD (Mk4 eller Q), för närvarande den enda hårdvara som stöds av Debifi.
 
 
 
@@ -148,7 +141,7 @@ https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 
 
 
-- Applikation för tvåfaktorsautentisering: Debifi kräver en Authenticator-kod för varje viktig åtgärd. Det är en extra Layer av säkerhet. I den här handledningen kommer vi att använda Google Authenticator. Alternativt kan du använda andra som du tycker passar.
+- Applikation för tvåfaktorsautentisering: Debifi kräver en Authenticator-kod för varje viktig åtgärd. Det är ett extra lager av säkerhet. I den här handledningen använder vi Google Authenticator. Alternativt kan du använda andra som du tycker passar.
 
 
 
@@ -158,7 +151,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-- Debifis webbplats och mobilapplikation: Debifi är både en webbplats och en mobilapplikation, och de två fungerar i tandem. Mobilappen blir en Wallet, som lagrar din privata nyckel och hanterar signeringen av kontrakt. Dessutom måste du använda webbplatsen för att ingå avtal (en stor Interface ger dig en allmän överblick över låneavtal och deras detaljer).
+- Debifis webbplats och mobilapplikation: Debifi är både en webbplats och en mobilapplikation, och de två fungerar i tandem. Mobilappen blir en wallet, som lagrar din privata nyckel och hanterar undertecknandet av kontrakt. Dessutom måste du använda webbplatsen för att ingå avtal (en stor Interface ger dig en allmän överblick över låneavtal och deras detaljer).
 
 
 
@@ -200,7 +193,7 @@ När du är inne i programmet klickar du på menyn **Settings**.
 
 
 
-Klicka sedan på **Login or create account** för att skapa ett konto med din e-post Address.
+Klicka sedan på **Logga in eller skapa konto** för att skapa ett konto med din e-postadress.
 
 
 
@@ -360,7 +353,7 @@ Bitcoin-lånetrancherna är i allmänhet tre (3) till antalet:
 
 
 
-- Konservativ (20% - 40% LTV), vilket motsvarar ett lågrisklån, är idealiskt för att maximera säkerheten mot Bitcoin-prisvolatilitet;
+- Konservativ (30% - 40% LTV), vilket motsvarar ett lågrisklån, är idealiskt för att maximera säkerheten mot Bitcoin-prisvolatilitet;
 
 
 
@@ -372,7 +365,7 @@ Bitcoin-lånetrancherna är i allmänhet tre (3) till antalet:
 
 
 
-- Aggressive (70% - 85% LTV), som erbjuder större likviditet, men medför en mycket hög risk för likvidation under marknadsnedgångar. Aktiv övervakning av Bitcoin-marknadsförhållandena är ett måste när man väljer denna tranche.
+- Aggressive (70% LTV), som erbjuder större likviditet, men medför en mycket hög risk för likvidation under marknadsnedgångar. Aktiv övervakning av Bitcoin marknadsförhållanden är ett måste vid val av denna tranche.
 
 
 
@@ -388,7 +381,7 @@ Räntesättningen beror i allmänhet på din valda belåningsgrad, låneperioden
 
 
 
-Återbetalningsplanerna för lån är ofta flexibla och skräddarsydda efter användarens behov. Betalningar kan göras när som helst så länge som kraven på säkerhet är uppfyllda. Lånebetalningar är i allmänhet ränta under lånets löptid och kapitalbelopp som förfaller vid förfallodagen.
+Återbetalningsscheman är flexibla och utformade för att tillgodose låntagarens behov. Lån kan återbetalas helt eller delvis när som helst utan extra avgifter, förutsatt att kraven på säkerhet fortfarande är uppfyllda. Under hela lånets löptid betalas räntan periodiskt, medan kapitalbeloppet regleras vid förfallodagen.
 
 
 
@@ -396,7 +389,16 @@ Räntesättningen beror i allmänhet på din valda belåningsgrad, låneperioden
 
 
 
-Eftersom priset på Bitcoin är volatilt innehåller ett ansvarsfullt lån specifika policyer för marginalsäkerhet i avtalet. Denna policy gör att låntagaren kan underrättas om att antingen ställa ytterligare säkerhet eller återbetala en del av lånet.
+Med tanke på Bitcoin:s volatilitet innehåller lånen en tydligt definierad policy för marginalsäkerhet. En margin call inträffar när belåningsgraden stiger på grund av en nedgång i säkerhetens värde. Debifi meddelar låntagaren via e-post och via appen, så att de kan lägga till säkerheter eller återbetala en del av lånet.
+
+
+75% LTV - Första varning
+
+80% LTV - Andra varning
+
+85% LTV - Slutlig varning
+
+90% LTV - Säkerheten realiseras
 
 
 
@@ -433,7 +435,7 @@ Du kan se :
 6. Det exakta belopp du behöver måste anges (detta belopp måste ligga inom intervallet, se 2);
 
 
-7. Den Ethereum USDC Address som ska användas för att ta emot pengarna måste anges.
+7. Den Ethereum USDC-adress som ska användas för att ta emot pengarna måste anges.
 
 
 
@@ -453,7 +455,7 @@ Gå tillbaka till mobilapplikationen för ''**Provide public key**''.
 
 
 
-Tryck på '' **Provide public key** '' och välj sedan källan till den publika nyckeln. Långivaren kommer också att behöva Supply en publik nyckel.
+Tryck på '' **Provide public key** '' och välj sedan källan till den publika nyckeln. Långivaren kommer också att behöva tillhandahålla en publik nyckel.
 
 
 
@@ -473,7 +475,7 @@ Tryck på '' **Provide public key** '' och välj sedan källan till den publika 
 
 
 
-Nästa steg är att underteckna Contract. Fortfarande i mobilapplikationen trycker du på '' **Signera Contract** ''
+Nästa steg är att underteckna kontraktet. Fortfarande i mobilapplikationen trycker du på '' **Signera Contract** ''
 
 
 
@@ -485,7 +487,7 @@ Nästa steg är att underteckna Contract. Fortfarande i mobilapplikationen tryck
 
 
 
-När du är klar med att signera Contract skapar Debifi automatiskt en unik multisignatur Bitcoin Address (escrow 3-sur-4) för din Contract. Så länge dina bitcoins finns i escrow kan de inte användas någon annanstans.
+När du är klar med att underteckna kontraktet skapar Debifi automatiskt en unik Bitcoin-adress med flera signaturer (escrow 3-sur-4) för ditt kontrakt. Så länge dina bitcoins finns i spärren kan de inte användas någon annanstans.
 
 
 
@@ -493,7 +495,7 @@ När du är klar med att signera Contract skapar Debifi automatiskt en unik mult
 
 
 
-Det sista steget är att deponera din Bitcoin-säkerhet i spärrsystemet med flera signaturer. Debifi visar dig sedan escrow Address (B) och mängden BTC (A) som ska skickas som (säkerhet + provision).
+Det sista steget är att deponera din Bitcoin-säkerhet i spärrsystemet med flera signaturer. Debifi visar dig escrow-adressen (B) och mängden BTC (A) som ska skickas som (säkerhet + provision).
 
 
 
@@ -509,7 +511,7 @@ Du kommer också att få detta meddelande i din mobilapplikation.
 
 
 
-Så snart din insättning har bekräftats kommer långivaren att betala lånebeloppet till den mottagande Address som du har angett, vilket slutför transaktionen och ger dig tillgång till de medel du behöver.
+Så snart din insättning har bekräftats kommer långivaren att betala lånebeloppet till den mottagningsadress du har angett, vilket slutför transaktionen och ger dig tillgång till de medel du behöver.
 
 
 
@@ -517,7 +519,7 @@ Du kommer då att få ett meddelande från Debifi där du ombeds att betala lån
 
 
 
-I verkligheten, när Contract har skapats, dras låneavgifterna automatiskt från den säkerhet som låntagaren har deponerat i den multisignerade deponeringen Address.
+I själva verket dras låneavgifterna automatiskt av från den säkerhet som låntagaren har deponerat i depåadressen med flera signaturer när avtalet har skapats.
 
 
 
@@ -529,7 +531,7 @@ Allt du behöver göra är att underteckna en transaktion som gör det möjligt 
 
 
 
-De tillämpliga utlåningsavgifterna är 1,5-2%, beroende på löptiden för Contract. Plattformen tar endast ut provisioner i Bitcoin.
+De tillämpliga utlåningsavgifterna är 1,5-2%, beroende på avtalets löptid. Plattformen tar endast ut provisioner i Bitcoin.
 
 
 
@@ -537,29 +539,27 @@ De tillämpliga utlåningsavgifterna är 1,5-2%, beroende på löptiden för Con
 
 
 
-När lånet är på gång kan du med Debifi övervaka ditt Contract i realtid. I Interface kommer du att se :
-
-
+När lånet är aktivt kan du med Debifi följa ditt kontrakt i realtid. I gränssnittet hittar du:
 
 
 
 - Det lånade beloppet och återstående löptid.
-- Aktuellt LTV-förhållande (lån till värde): LTV ökar om priset på BTC sjunker (eftersom din säkerhet är mindre värd). En varningströskel (i allmänhet 90%) ställs in. Om din LTV överstiger detta tröskelvärde finns det en risk för tvångslikvidation. Debifi kommer då att ge dig 24 timmar att reagera.
-
-
-
-Låntagarna kommer att informeras om prissänkningen. Denna information kommer också att finnas tillgänglig på Contract:s sammanfattningssida. För att återställa den ursprungliga belåningsgraden för ett lån måste låntagaren :
+- Den aktuella LTV-kvoten (Loan-to-Value), som stiger när priset på BTC sjunker och värdet på din säkerhet sjunker.
 
 
 
 
+Låntagarna meddelas när säkerhetsvärdet sjunker och denna information visas också på kontraktets sammanfattningssida. För att återställa den ursprungliga belåningsgraden måste låntagaren antingen:
 
-- eller deponera en extra garanti ;
+
+
+- deponera ytterligare säkerhet;
 - återbetala hela eller delar av skulden.
 
 
 
-I händelse av en ökning av priset på säkerheten behåller låntagaren eventuella kapitalvinster på säkerheten. Han är endast skyldig lånebeloppet, som är förutbestämt och oberoende av Bitcoin-priset.
+
+Vid en eventuell prisökning på säkerheten behåller låntagaren eventuella kapitalvinster på säkerheten. Han är endast skyldig lånebeloppet, som är förutbestämt och oberoende av Bitcoin-priset.
 
 
 
@@ -577,21 +577,21 @@ I Debifi :
 
 
 
-- Gå till din Contract och klicka på **Gör en återbetalning**. Ange det totala beloppet som ska betalas (kapital + ränta).
+- Gå till ditt avtal och klicka på **Gör en återbetalning**. Ange det totala beloppet som ska betalas (kapital + ränta).
 
 
 
 
 
-- Skicka stablecoins från din Wallet till långivarens Address som anges och återgå för att bekräfta återbetalningen på plattformen genom att kopiera **ID** för återbetalningstransaktionen till den dedikerade fliken. Detta gör det enklare för Debifi att utföra sina kontroller.
+- Skicka stablecoins från din wallet till långivarens angivna adress och återgå till att bekräfta återbetalningen på plattformen genom att kopiera **ID** för återbetalningstransaktionen till den dedikerade fliken. Detta gör det lättare för Debifi att utföra sina kontroller.
 
 
 
-När betalningen har bekräftats av långivaren (och av dig) kommer Debifi att be dig att göra en **återbetalning**. Din Bitcoin-säkerhet frigörs och du kan återföra den från spärren till din egen portfölj.  Glöm inte att samla in alla dina Bitcoins.
+När betalningen har bekräftats av långivaren (och av dig) kommer Debifi att be dig att göra en **återbetalning**. Din Bitcoin-säkerhet frigörs och du kan returnera den från spärren till din egen wallet.  Glöm inte att samla in alla dina Bitcoins.
 
 
 
-Så snart du får dina bitcoins ändras lånet Contract till **Contract slutfört**.
+Så snart du får dina bitcoins ändras låneavtalet till **Contract slutfört**.
 
 
 
@@ -604,7 +604,7 @@ Gratulerar, gratulerar! Du har slutfört processen.
 
 
 
-Oavsett dina mål eller motiv - finansiering av ett projekt, förvärv av egendom, köp av bitcoins osv. - var extremt försiktig innan du tar ett lån som backas upp av Bitcoin. - var extremt försiktig innan du tar ett lån som backas upp av Bitcoin. Ta dig tid att överväga ditt beslut noggrant, eftersom Bitcoin fortfarande är en volatil tillgång. **En kraftig nedgång i dess pris kan leda till tvångslikvidation av dina bitcoins**.
+Oavsett dina mål eller motiv - att finansiera ett projekt, förvärva egendom, köpa bitcoins etc. - bör du iaktta stor försiktighet innan du tar ett lån med Bitcoin som säkerhet. Ta dig tid att noggrant utvärdera ditt beslut, eftersom Bitcoin fortfarande är en volatil tillgång. **En kraftig nedgång i dess pris kan leda till tvångslikvidation av dina bitcoins
 
 
 
@@ -612,7 +612,7 @@ Oavsett dina mål eller motiv - finansiering av ett projekt, förvärv av egendo
 
 
 
-Kontrollera dina nycklar. Förvara din BTC i en säker Wallet (helst hårdvara eller en ansedd Wallet). Ange inte en PIN-kod som är relaterad till ett viktigt datum i ditt liv och dela aldrig din återställningsfras. På Debifi anger du generate din privata nyckel i applikationen - Debifi vet inte om det.
+Kontrollera dina nycklar. Förvara din BTC i en säker wallet (helst hårdvara eller en ansedd wallet). Ange inte en PIN-kod som är relaterad till ett viktigt datum i ditt liv och dela aldrig din återställningsfras. På Debifi generate du din privata nyckel i applikationen - Debifi vet inte om det.
 
 
 
@@ -620,7 +620,7 @@ Börja smått om möjligt. För ditt första lån, testa ett blygsamt belopp fö
 
 
 
-Använd endast Debifis officiella webbplats för att hålla dig uppdaterad med Debifi-nyheter och undvik okända länkar eller phishing-länkar.  Uppdatera applikationen, skydda din smartphone med en PIN-kod och välj en kompatibel Hardware Wallet.
+Använd endast den officiella Debifi-webbplatsen för att hålla dig uppdaterad med Debifi-nyheter och undvik okända länkar eller phishing-länkar.  Uppdatera applikationen, skydda din smartphone med en PIN-kod och välj en kompatibel Hardware Wallet.
 
 
 

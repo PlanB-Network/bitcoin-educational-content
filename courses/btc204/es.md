@@ -349,7 +349,7 @@ Así que también tenemos que ser capaces de hacer frente al análisis de blockc
 
 ¿Qué mejor manera de contrarrestar el análisis de blockchain que conocer los métodos utilizados en él? Si quieres saber cómo mejorar tu privacidad en Bitcoin, necesitas entender estos métodos. Esto te dará una mejor comprensión de técnicas como coinjoin o payjoin (técnicas que veremos en las partes finales del curso), y reducirá los errores que puedas cometer.
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
@@ -1891,7 +1891,6 @@ Actualmente, Whirlpool es la única implementación coinjoin que aplica rigurosa
 :::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
 
 
-*En 2024, estamos siendo testigos de grandes cambios en las herramientas disponibles para los usuarios que deseen hacer coinjoins en Bitcoin. Nos encontramos en un punto de inflexión, y el mercado de coinjoins está sufriendo una importante reestructuración. Este capítulo se actualizará con el tiempo*
 
 Por el momento existen principalmente 3 implementaciones diferentes de coinjoin en Bitcoin:
 
@@ -1899,6 +1898,10 @@ Por el momento existen principalmente 3 implementaciones diferentes de coinjoin 
 - Whirlpool;
 - Wabisabi;
 - JoinMarket.
+
+Además de estas tres implementaciones históricas, recientemente ha surgido una nueva: Joinstr. No la trataré en este capítulo, pero pueden encontrar toda la información correspondiente en este tutorial dedicado:
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
 
 Cada una de estas implementaciones pretende romper el historial de UTXOs mediante transacciones coinjoin. Sin embargo, sus mecanismos varían considerablemente. Por lo tanto, es esencial entender cómo funciona cada uno, para que puedas elegir la opción que mejor se adapte a tus necesidades.
 
@@ -1921,6 +1924,8 @@ Sin embargo, la barrera técnica sigue siendo un obstáculo importante. En el ec
 A pesar de su innovador modelo de enlace P2P para coinjoiners, JoinMarket presenta algunas desventajas significativas, sobre todo en términos de estructura transaccional. A diferencia de otras implementaciones como Whirlpool, JoinMarket no garantiza una igualdad perfecta entre las salidas, y es posible trazar vínculos deterministas entre entradas y salidas. Además, no dispone de herramientas para impedir que las piezas ya mezcladas vuelvan a mezclarse, lo que podría comprometer la confidencialidad buscada por los usuarios.
 
 Por último, aunque el concepto de JoinMarket es interesante, sobre todo para los interesados en un mercado de liquidez dinámico, sus deficiencias estructurales y su complejidad técnica lo hacen, en mi opinión, menos interesante tanto para los principiantes como para los expertos que buscan una aplicación de coinjoin.
+
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
 
 ### Wabisabi
 
@@ -1966,6 +1971,10 @@ Más allá de las cuestiones técnicas, la decisión de zkSNACKs, la empresa det
 Aún más preocupante es el principio de filtrado, que contrasta radicalmente con la filosofía de Bitcoin de ofrecer un sistema financiero abierto y sin censura. Aunque pueda parecer justificado querer excluir actividades delictivas, este filtrado también podría afectar a individuos cuyas acciones, aunque clasificadas como ilegales en determinados contextos, podrían ser moralmente justificables o socialmente beneficiosas. El ejemplo de Edward Snowden ilustra perfectamente esta dicotomía: considerado un criminal por algunos gobiernos por sus revelaciones, es visto por otros como un denunciante que actuó en interés público. Esta complejidad subraya el peligro potencial del filtrado que, aunque bienintencionado, puede acabar socavando los derechos y la seguridad de los usuarios legítimos. También podría haber mencionado a los activistas y periodistas perseguidos por ciertos regímenes autoritarios.
 
 Como ya habrás deducido, mi preferencia es definitivamente por el modelo Whirlpool para coinjoins en Bitcoin. Este sistema destaca por su rigor y ofrece garantías superiores de confidencialidad. También es el único que ofrece una mezcla considerada perfecta en un contexto matemático. En mi opinión, este modelo representa el futuro de los coinjoins en Bitcoin. Le invito a profundizar en este modelo en el próximo capítulo.
+
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
 
 ## Cómo funciona Whirlpool
 
@@ -2168,7 +2177,7 @@ Tampoco es aconsejable transferir tus UTXOs postmix a un monedero usando scripts
 
 Como con cualquier transacción Bitcoin, también es importante no reutilizar la dirección de recepción. Cada nueva transacción debe recibirse en una nueva dirección en blanco.
 
-La solución más sencilla y segura es dejar tus UTXOs mezclados en reposo en su cuenta **postmix**, dejando que se remezclen y sólo tocándolos para gastar. Los monederos Samurai y Sparrow cuentan con protecciones adicionales contra todos estos riesgos de análisis de cadena. Estas protecciones te ayudan a evitar cometer errores.
+La solución más simple y más segura consiste en dejar sus UTXOs mezclados en reposo en su cuenta **postmix**, permitiendo que se sigan remezclando y tocándolos solo al gastarlos. Las billeteras Samourai (y ahora Ashigaru) y Sparrow cuentan con protecciones adicionales contra todos estos riesgos relacionados con el análisis de cadena. Estas protecciones le permiten evitar cometer errores.
 
 ### ¿Cómo se gestionan los intercambios tóxicos?
 
@@ -2181,24 +2190,27 @@ He aquí algunas estrategias para utilizarlos:
 - Marcarlos como "no gastables": **Otro enfoque es dejar de usarlos, marcarlos como "no gastables" en su cuenta dedicada, y simplemente hodl. Así se asegura de no gastarlos accidentalmente. Si el valor del bitcoin sube, pueden surgir nuevos pools más adecuados para tus UTXOs tóxicos;**
 - **Hacer donaciones:** Considera hacer donaciones, por modestas que sean, a los desarrolladores que trabajan en Bitcoin y software relacionado. También puedes donar a asociaciones que acepten BTC. Si gestionar tus UTXO tóxicos te parece demasiado complicado, puedes simplemente deshacerte de ellos y hacer una donación;
 - **Comprar tarjetas regalo:** Plataformas como [Bitrefill](https://www.bitrefill.com/) permiten canjear bitcoins por tarjetas regalo que pueden utilizarse en diversos comercios. Esta puede ser una forma de deshacerte de tus UTXO tóxicos sin perder el valor asociado;
-- Consolidarlos en Monero: **Samourai Wallet** ofrece un servicio de intercambio atómico entre BTC y XMR. Esto es ideal para gestionar UTXOs tóxicos consolidándolos en Monero, sin comprometer su confidencialidad a través de CIOH, antes de enviarlos de vuelta a Bitcoin. Sin embargo, esta opción puede ser costosa en términos de tasas de minería y prima debido a las restricciones de liquidez;
+- **Consolidarlas a través de Monero:** Samourai Wallet ofrecía anteriormente un servicio de intercambio atómico entre BTC y XMR, lamentablemente indisponible desde su arresto. Este método permitía tratar UTXOs tóxicos consolidándolos en Monero sin comprometer su confidencialidad mediante la CIOH, antes de enviarlos nuevamente a Bitcoin. Si reaparece un servicio equivalente, podría ser una opción interesante. No obstante, recuerde que este método puede resultar costoso, tanto por las comisiones de minería como por la prima asociada a las limitaciones de liquidez durante la conversión inversa hacia bitcoins.
 - Enviarlos a la Lightning Network: Transferir estos UTXO a la Lightning Network para beneficiarse de tarifas de transacción reducidas puede ser una opción atractiva. Sin embargo, este método puede revelar cierta información en función de cómo utilices Lightning, por lo que debe utilizarse con precaución.
 
 ### ¿Cómo se utiliza Whirlpool?
 
-Tras la detención de los fundadores de Samourai Wallet y la incautación de sus servidores el 24 de abril de 2024, la herramienta Remolino ya no funciona, ni siquiera para aquellos que tienen su propio Dojo. Anteriormente, estaba disponible en Samourai Wallet y Sparrow Wallet.
+Tras la detención de los fundadores de Samourai Wallet y la incautación de sus servidores el 24 de abril de 2024, la herramienta Whirlpool ya no está disponible en Samourai Wallet y Sparrow Wallet.
 
 ![BTC204](assets/es/155.webp)
 
-No obstante, sigue siendo posible que esta herramienta se reactive en las próximas semanas, en función del resultado de las pruebas, o que se relance de otra forma. En cualquier caso, no creo que el mercado de coinjoin de Bitcoin se quede sin oferta durante mucho tiempo, ya que la demanda está ahí. Además, como el modelo de Whirlpool es el más avanzado en términos de confidencialidad, seguramente será el modelo elegido para otras implementaciones en el futuro.
 
-Seguimos de cerca este caso y la evolución de las herramientas asociadas. Le aseguramos que actualizaremos este curso de formación a medida que dispongamos de nueva información.
+
+A partir de ahora, Whirlpool vuelve a estar accesible en la aplicación móvil Ashigaru, un fork de Samourai Wallet, gracias al software Ashigaru Terminal.
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
+El núcleo del funcionamiento de Whirlpool permanece sin cambios, pero aun así existen algunas diferencias con respecto a su uso en Samourai: en 2025, en Ashigaru, solo hay dos pools disponibles, de `0.25 BTC` y `0.025 BTC`, con tarifas de entrada respectivas de `0.0125 BTC` y `0.00125 BTC`.
 
 En el próximo capítulo, descubriremos qué son los "anonsets", cómo se calculan estos indicadores y cómo pueden ayudarnos a estimar la eficiencia de los ciclos coinjoin.
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 
@@ -2536,7 +2548,7 @@ Lamentablemente, tras la detención de los fundadores de Samourai, estas herrami
 
 Ahora que hemos cubierto los coinjoins en detalle, veremos las otras técnicas de privacidad disponibles en Bitcoin en la sección final de nuestro curso. Veremos los payjoins, tipos específicos de transacciones pseudo-coinjoin, protocolos de direcciones estáticas, así como medidas para reforzar la confidencialidad no a nivel de las transacciones en sí, sino a nivel de la red de nodos.
 
-https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # Comprender los retos de otras técnicas avanzadas de confidencialidad
 
@@ -2622,7 +2634,10 @@ Entre los programas de software más conocidos que admiten payjoin se incluyen S
 
 ![BTC204](assets/es/177.webp)
 
-La implementación más avanzada de payjoin era sólo Stowaway en Samourai Wallet. Sin embargo, desde el arresto de los fundadores del software, esta herramienta es ahora sólo parcialmente funcional. La ventaja de Stowaway es que es un protocolo completo y fácil de usar, que soporta tanto la recepción como el envío de payjoins. Las transacciones parcialmente firmadas pueden intercambiarse manualmente escaneando varios códigos QR, o automáticamente por Tor a través de Soroban. Esta última opción de comunicación está actualmente fuera de servicio.
+
+La implementación de payjoin más avanzada es sin duda Stowaway, inventada por los desarrolladores de Samourai Wallet. Desde la detención de los fundadores del software, esta herramienta solo funciona parcialmente en Samourai. Pero ha sido relanzada en la aplicación Ashigaru.
+
+La ventaja de Stowaway es que es un protocolo completo y muy fácil de usar, que admite tanto la recepción como el envío de payjoins. Las transacciones parcialmente firmadas pueden intercambiarse manualmente mediante el escaneo de varios códigos QR o automáticamente por Tor a través de Soroban.
 
 ![BTC204](assets/es/178.webp)
 
@@ -2632,7 +2647,7 @@ Una solución sería utilizar estructuras de transacción que introduzcan ambig�
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Pago mini-coinjoin
 
@@ -2745,19 +2760,20 @@ La lógica debería ser la siguiente cuando se desea utilizar una herramienta de
 
 ### ¿Cómo se utilizan las transacciones Stonewall y Stonewall x2?
 
-Las transacciones Stonewall y Stonewall x2 están disponibles tanto en la aplicación Samourai Wallet como en el software Sparrow Wallet.
+Las transacciones Stonewall están disponibles en Sparrow Wallet y también en Ashigaru, mientras que las Stonewall x2 solo son compatibles con Ashigaru por el momento.
 
 ![BTC204](assets/es/189.webp)
 
-Sin embargo, al igual que con los payjoins, tras la detención de los fundadores de Samourai, las transacciones Stonewall x2 ahora sólo funcionan mediante el intercambio manual de PSBT entre las partes implicadas. Lamentablemente, el intercambio automático a través de Soroban ya no está disponible.
 
 También es posible realizar este tipo de transacción manualmente desde cualquier software de monedero Bitcoin.
 
 En el próximo capítulo, veremos otra técnica de confidencialidad relativamente desconocida, pero muy útil como complemento de lo que ya hemos estudiado.
 
-https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/sparrow-stonewall-6fcfd679-7038-4ee2-8bf7-de76a72f9392
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Los rebotes
 
@@ -2812,14 +2828,14 @@ El caso de uso más común para el rebote se produce cuando es necesario ocultar
 
 Este método es eficaz no sólo para las coinjoins, sino también para cualquier otra marca que pueda comprometer la fungibilidad de una pieza.
 
-La idea de este método de rebote surgió originalmente de los equipos de Samourai Wallet, que lo integraron en su aplicación para automatizar el proceso. El servicio no es gratuito en Samourai, ya que un rebote implica una tasa de servicio de 100.000 sats, más los costes de minería. Por tanto, se recomienda su uso para transferencias de importes significativos.
+La idea de este método de rebote proviene originalmente de los equipos de Samourai Wallet, que lo habían integrado en su aplicación para automatizar su funcionamiento. El servicio era de pago en Samourai, ya que un rebote implicaba un coste fijo de 100 000 sats por las tarifas del servicio, a los que se añadían las comisiones de minería. Lo mismo ocurre hoy en Ashigaru. Por ello, su uso se recomienda más bien para transferencias de grandes cantidades.
 
 ![BTC204](assets/es/196.webp)
 
-La aplicación Samurai ofrece dos variantes de rebote:
+La aplicación Ashigaru ofrece dos variantes de ricochet (las mismas que teníamos antes en Samourai):
 
 
-- Rebote reforzado, o "entrega escalonada", que ofrece la ventaja de repartir el coste del servicio Samurai entre las cinco transacciones sucesivas. Esta opción también garantiza que cada transacción se emita en un momento distinto y se registre en un bloque diferente, imitando al máximo el comportamiento de un cambio de propietario. Aunque más lento, este método es preferible para los que no tienen prisa, ya que maximiza la eficacia del rebote reforzando su resistencia al análisis en cadena;
+- El ricochet reforzado, o "entrega escalonada", ofrece la ventaja de distribuir las comisiones del servicio Ashigaru a lo largo de cinco transacciones sucesivas. Esta opción también garantiza que cada transacción se difunda en un momento distinto y se registre en un bloque diferente, lo que permite imitar lo más fielmente posible el comportamiento de un cambio de propietario. Aunque más lento, este método es preferible para quienes no tienen prisa, ya que maximiza la eficacia del ricochet al reforzar su resistencia frente al análisis de cadena;
 
 ![BTC204](assets/es/197.webp)
 
@@ -2832,7 +2848,7 @@ Rebotear significa simplemente enviarse bitcoins a uno mismo. Es perfectamente p
 
 En el próximo capítulo, examinaremos distintas técnicas de transferencia secreta de la propiedad. Estos métodos difieren radicalmente de los que hemos examinado hasta ahora, tanto en su funcionamiento como en sus resultados.
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Transferencias secretas de propiedad
 
@@ -3072,7 +3088,7 @@ El objetivo de BIP47 es permitir recibir un gran número de pagos sin reutilizar
 
 Así, un usuario puede compartir su código de pago con total libertad, ya sea en las redes sociales o en su sitio web, sin riesgo de perder la confidencialidad, a diferencia de lo que ocurre con una dirección de destinatario o una clave pública convencionales.
 
-Para realizar una transacción, ambas partes necesitan un monedero Bitcoin con una implementación de BIP47, como PayNym en Samurai Wallet o Sparrow Wallet. El uso conjunto de sus códigos de pago crea un canal secreto entre ellos. Para establecer este canal de forma efectiva, el emisor debe llevar a cabo una transacción específica en la blockchain de Bitcoin, conocida como "transacción de notificación" (más sobre esto más adelante).
+Para realizar una transacción, ambas partes deben disponer de una cartera de Bitcoin con una implementación de BIP47, como PayNym en Ashigaru o Sparrow Wallet. El uso conjunto de sus códigos de pago crea un canal secreto entre ellos. Para establecer este canal de manera eficaz, el emisor debe efectuar una transacción específica en la cadena de bloques de Bitcoin, conocida como “transacción de notificación” (le daré los detalles más adelante).
 
 La combinación de los códigos de pago de los dos usuarios genera secretos compartidos, que a su vez crean un gran número de direcciones de recepción Bitcoin únicas (exactamente 2^32, es decir, unos 4.000 millones). De este modo, los pagos realizados a través de BIP47 no se dirigen realmente al código de pago en sí, sino a direcciones de recepción clásicas derivadas de los códigos de pago de los usuarios implicados.
 
@@ -3094,7 +3110,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 Este código también puede codificarse como código QR, para facilitar la comunicación, igual que una dirección de recepción convencional.
 
-En cuanto a los PayNym Bots, los robots que a veces se ven en Twitter, son representaciones visuales del código de pago, creadas por Samourai Wallet. Se generan mediante una función hash, lo que les confiere un carácter casi único. Adoptan la forma de una pequeña cadena de caracteres que comienza por `+` :
+En cuanto a los PayNym Bots, esos robots que a veces se ven en X (Twitter), son representaciones visuales del código de pago creadas por Samourai Wallet. Con Ashigaru ahora son ligeramente diferentes, pero el principio sigue siendo el mismo. Se generan mediante una función de hash, lo que les confiere una cuasi unicidad. Se presentan en forma de una pequeña cadena de caracteres que comienza con `+` :
 
 ```plaintext
 +throbbingpond8B1

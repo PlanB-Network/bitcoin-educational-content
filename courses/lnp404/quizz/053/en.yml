@@ -1,0 +1,8 @@
+question: What critical sequence must be followed during LITD installation to ensure proper dependency resolution and service integration?
+answer: Server preparation with dedicated user and SSH hardening, then Bitcoin Core installation, followed by LITD deployment with systemd service configuration
+wrong_answers:
+  - LITD binary compilation first, then Bitcoin Core source build, followed by wallet initialization and auto-unlock password configuration
+  - Bitcoin Core archival sync completion, then Go/Node.js dependency installation, followed by Loop and Pool marketplace registration
+  - Systemd service creation and enablement first, then unified lit.conf configuration, followed by Bitcoin Core and LITD simultaneous deployment
+explanation: |
+  The installation must follow three sequential stages: server preparation (creating dedicated user, SSH hardening), Bitcoin Core setup (backend foundation), then LITD deployment with systemd integration. This sequence ensures security hardening occurs first, the Bitcoin backend is established before Lightning components, and proper service management is configured last. The wrong answers either reverse critical dependencies, mix deployment steps with post-installation operations, or attempt simultaneous installation of interdependent components.

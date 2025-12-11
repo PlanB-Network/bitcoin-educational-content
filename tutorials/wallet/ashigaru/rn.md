@@ -84,7 +84,7 @@ Kugira umenye vyinshi ku vyerekeye Dojo no kumenya ingene woyishiramwo, ndagutum
 
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 Nimba vy’ukuri udashobora kwikorera Dojo yawe, urashobora gusanga abantu bashaka gusangira inkuru yabo ku buntu kuri [dojobay.pw](https://www.dojobay.pw/mainnet/). Ivyo bishobora kuba umuti w’igihe gito, ariko mu gihe kirekire, ndagusavye gukoresha Dojo yawe bwite kugira ngo ushobore kwizera ubusegaba bwawe n’ibanga ryawe.
 
@@ -579,3 +579,4 @@ Igihe igikorwa co kumenyesha kimaze kwemezwa, urashobora kohereza intererano zaw
 
 
 Ubu urazi gukoresha ibintu nyamukuru vyo muri porogarama ya Ashigaru. Mu nyigisho zizoza, turaza kuraba ingene twovyungukirako mu gukoresha amafaranga, hamwe na Whirlpool, ugushirwa mu ngiro kwa coinjoin kwarazwe na Samurai Wallet.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

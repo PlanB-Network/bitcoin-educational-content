@@ -11,7 +11,7 @@ Katika miduara isiyo ya kiufundi, chapa kama vile `Odroid`, `Raspberry Pi`, `Ora
 
 
 
-Hizi ni kompyuta zinazozalishwa katika aina mbalimbali za mifano. Wanapendelea ugawaji wa Linux, mara nyingi hubadilishwa ili kufanya kazi vizuri kwenye mashine hizi zisizo na nguvu.
+Hizi ni kompyuta zinazozalishwa katika aina mbalimbali za mifano. Zinapendelea ugawaji wa Linux na mara nyingi hubadilishwa ili ziweze kufanya kazi vizuri kwenye mashine zenye rasilimali ndogo.
 
 
 
@@ -28,9 +28,9 @@ Hii sio "rudufu ya kawaida" ya Debian kwa bodi ndogo za aina ya Raspberry. DietP
 
 
 
-- Imeboreshwa kwa kasi na wepesi**: [ulinganisho na usambazaji mwingine wa Debian kwa SBC](https://dietpi.com/blog/?p=888), DietPi ni nyepesi katika kila kitu. Picha ya DietPi ISO ina uzani wa chini ya GB 1, kwa ndogo zaidi kati ya zile zinazotolewa kwa mifano ya zamani ya Raspberry au Orange PI (kwa mfano). Mahitaji ya rasilimali za RAM na CPU ni ya chini sana, ili daima hupata bora kutoka kwa bodi, hata za zamani.
-- Mitambo otomatiki na visakinishi vilivyojengewa ndani**: Mkusanyiko wa amri maalum husaidia watumiaji kufuatilia rasilimali za mfumo na vile vile kufanyia kazi kiotomatiki kusakinisha na kuzindua programu, kusasisha matoleo, kuweka nakala rudufu na kuangalia kumbukumbu zote.
-- Jumuiya imara, yenye mwelekeo wa majaribio**: [mafunzo](https://dietpi.com/forum/c/community-tutorials/8) na miradi kutoka kwa jumuiya ya DietPi, ni bora kwa kupata msukumo wa programu unayoweza kusakinisha kwa mbofyo mmoja, shukrani kwa DietPi.
+- **Imeboreshwa kwa kasi na wepesi**: [ulinganisho na usambazaji mwingine wa Debian kwa SBC](https://dietpi.com/blog/?p=888), DietPi ni nyepesi katika kila kitu. Picha ya DietPi ISO ina uzani wa chini ya GB 1, kwa ndogo zaidi kati ya zile zinazotolewa kwa mifano ya zamani ya Raspberry au Orange PI (kwa mfano). Mahitaji ya rasilimali za RAM na CPU ni ya chini sana, ili daima hupata bora kutoka kwa bodi, hata za zamani.
+- **Mitambo otomatiki na visakinishi vilivyojengewa ndani**: Mkusanyiko wa amri maalum husaidia watumiaji kufuatilia rasilimali za mfumo na vile vile kufanyia kazi kiotomatiki kusakinisha na kuzindua programu, kusasisha matoleo, kuweka nakala rudufu na kuangalia kumbukumbu zote.
+- **Jumuiya imara, yenye mwelekeo wa majaribio**: [mafunzo](https://dietpi.com/forum/c/community-tutorials/8) na miradi kutoka kwa jumuiya ya DietPi, ni bora kwa kupata msukumo wa programu unayoweza kusakinisha kwa mbofyo mmoja, shukrani kwa DietPi.
 
 
 
@@ -41,11 +41,11 @@ Hii sio "rudufu ya kawaida" ya Debian kwa bodi ndogo za aina ya Raspberry. DietP
 ## Otomatiki kwa upangishaji wa kibinafsi
 
 
-Je, ungependa kufanya majaribio na seva yako mwenyewe ili kuendesha masuluhisho ya hali ya juu ya mtandao, au zana za kuboresha utaalamu wako wa Bitcoin? DietPi inaweza kuwa suluhisho ambalo umekuwa ukitafuta. Ingawa watu wengi wanajua jinsi ya kudhibiti miundombinu yao wenyewe na kuendesha seva zilizosanidiwa na kulindwa kikamilifu, DietPi ni hatua inayofaa kwa wale wanaotaka kuanza kutoka mwanzo.
+Je, ungependa kufanya majaribio na server yako mwenyewe ili kuendesha masuluhisho ya hali ya juu ya mtandao, au zana za kuboresha utaalamu wako wa Bitcoin? DietPi inaweza kuwa suluhisho ambalo umekuwa ukitafuta. Ingawa watu wengi wanajua jinsi ya kudhibiti miundombinu yao wenyewe na kuendesha seva zilizosanidiwa na kulindwa kikamilifu, DietPi ni hatua inayofaa kwa wale wanaotaka kuanza kutoka mwanzo.
 
 
 
-Badala ya kufanya mwenyewe kazi zote ngumu ambazo kazi kama hiyo inahitaji, DietPi hukuruhusu kuziunda kwa `mchawi` na safu yake ya amri. Hapa unaweza kujaribu na wingu yako binafsi, udhibiti wa kifaa _smart home_, hifadhi rudufu za kiotomatiki na crontab, pamoja na suluhu za kina zaidi.
+Badala ya kufanya mwenyewe kazi zote ngumu ambazo kazi kama hiyo inahitaji, DietPi hukuruhusu kuziunda kwa `wizard` na safu yake ya amri. Hapa unaweza kujaribu na wingu yako binafsi, udhibiti wa kifaa _smart home_, hifadhi rudufu za kiotomatiki na crontab, pamoja na suluhu za kina zaidi.
 
 
 
@@ -81,7 +81,7 @@ Utatua kwenye ukurasa ambao una `picha ya kisakinishi`, `sha256` na `Saini`.
 
 
 
-Andaa saraka katika `nyumbani` ya kompyuta yako ya kila siku, ili uweze kupakua faili zinazohitajika, na `wget`.
+Andaa saraka katika `home` ya kompyuta yako ya kila siku, ili uweze kupakua faili zinazohitajika, na `wget`.
 
 
 
@@ -129,7 +129,7 @@ Ikiwa pia umepata matokeo ya `Sahihi nzuri` na kidhibiti sawa cha Hash kwa amri 
 
 
 
-Hamisha kiendeshi cha flash kwenye kifaa ambacho kitakuwa mwenyeji wa DietPi na uanze usakinishaji wa mfumo wa uendeshaji wa chokaa Green. Katika zoezi hili tunatumia mteja mwembamba aliye na GB 16 ya RAM, SSD ya GB 128 kwa mfumo wa uendeshaji, na diski ya data ya TB 1 ya pili. Ufungaji ulichukua chini ya dakika 30, lakini ikiwa utatumia Raspberry, kwa mfano, rasilimali inaweza kuwa ndogo na kuchukua muda mrefu. Utaonyeshwa maendeleo wakati wa usakinishaji.
+Hamisha flash drive kwenye kifaa ambacho kitakuwa mwenyeji wa DietPi na uanze usakinishaji wa mfumo wa uendeshaji wa chokaa Green. Katika zoezi hili tunatumia mteja mwembamba aliye na GB 16 ya RAM, SSD ya GB 128 kwa mfumo wa uendeshaji, na diski ya data ya TB 1 ya pili. Ufungaji ulichukua chini ya dakika 30, lakini ikiwa utatumia Raspberry, kwa mfano, rasilimali inaweza kuwa ndogo na kuchukua muda mrefu. Utaonyeshwa maendeleo wakati wa usakinishaji.
 
 
 
@@ -169,7 +169,7 @@ Baada ya kukamilika kwa usakinishaji na kuwasha upya baadae, DietPi inaonekana k
 
 
 
-Sahau programu nyingi unazotumia kwenye usambazaji wako wa Linux-DietPi imeboreshwa sana, umeacha chache. Kimsingi itabidi usakinishe amri nyingi kwa mikono, lakini ikiwa unajaribu tu, pinga majaribu na ujaribu kuweka otomatiki za DietPi chini ya majaribio.
+Sahau programu nyingi unazotumia kwenye usambazaji wako wa Linux—DietPi imeboreshwa sana, na imeacha programu chache tu. Kimsingi, itakubidi kusakinisha amri nyingi kwa mikono, lakini ikiwa unajaribu tu, pinga majaribu na ujaribu kuweka otomatiki za DietPi chini ya majaribio.
 
 
 
@@ -200,7 +200,7 @@ Kwenye skrini ya terminal, utapata mfululizo wa amri ulioorodheshwa uliotanguliw
 
 
 
-Kuhifadhi nakala rudufu ya seva ni utaratibu ambao msimamizi wa mfumo anapaswa kutarajia kutoka kwa uanzishaji wa kwanza.
+Kuhifadhi nakala rudufu ya seva ni utaratibu ambao msimamizi wa mfumo anapaswa kuutekeleza tangu uanzishaji wa kwanza.
 
 
 

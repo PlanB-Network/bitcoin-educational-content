@@ -1,0 +1,9 @@
+question: Sự khác biệt kỹ thuật chính giữa kho lưu trữ GitHub của Bitcoin Core và hàng nghìn bản sao khác của cùng kho lưu trữ này được phân phối trên toàn cầu là gì?
+answer: Không có sự khác biệt về mặt kỹ thuật; nó đóng vai trò là điểm tập trung xã hội cho sự thuận tiện phát triển
+wrong_answers:
+  - Kho lưu trữ GitHub chứa các chữ ký mật mã xác thực nó là phiên bản chính thức
+  - Kho lưu trữ GitHub có các đặc quyền cam kết đặc biệt ngăn chặn các sửa đổi trái phép đối với cơ sở mã
+  - Kho lưu trữ GitHub duy trì một khóa chính xác thực tất cả các bản sao kho lưu trữ khác trên toàn thế giới
+explanation: |
+  Theo phân tích của Jameson Lopp được trích dẫn trong chương này, kho lưu trữ GitHub của Bitcoin Core về mặt kỹ thuật giống hệt với tất cả các bản sao khác. Tầm quan trọng của nó hoàn toàn mang tính xã hội - nó đã trở thành trọng tâm cho việc điều phối phát triển. Kho lưu trữ này mang tính tiện lợi hơn là thẩm quyền kỹ thuật, và nếu nó biến mất, một trọng tâm mới sẽ tự nhiên xuất hiện. Điều này chứng minh tính phi tập trung của Bitcoin, nơi không một kho lưu trữ nào có ưu thế kỹ thuật so với các kho lưu trữ khác.
+reviewed: false

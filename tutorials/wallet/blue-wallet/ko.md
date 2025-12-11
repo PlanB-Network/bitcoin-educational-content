@@ -15,7 +15,6 @@ Bitcoin의 사용 편의성에 회의적인 사람들에게는 Bitcoin를 시작
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 
@@ -122,7 +121,7 @@ Blue Wallet을 사용하면 Bitcoin 발송물의 매개변수를 원하는 대�
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 

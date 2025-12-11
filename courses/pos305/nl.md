@@ -1,31 +1,18 @@
 ---
-name: Bitcoin en BTC-betaalserver
-goal: Installeer BTC Pay Server voor uw bedrijf
-objectives: 
-
-  - Begrijp wat btcpayserver is.
-  - BTC Pay Server zelf hosten en configureren.
-  - Gebruik btcpayserver in je dagelijkse activiteiten.
-
+name: BTC Pay Server onder de knie krijgen
+goal: Een BTC Pay Server-instantie configureren voor een lokaal bedrijf
+objectives:
+- Begrijp de basisprincipes van de rol van BTCPay Server bij betalingsverwerking
+- Beheers de interne werking van het BTCPay Server-configuratieproces
+- Implementeer BTCPay Server in cloud- en node-gebaseerde omgevingen
+- Word een BTC Pay Server-operator
 ---
+# Reis naar financiële soevereiniteit
 
-# Bitcoin en BTCPay-server
+Vertrouwen is fragiel, vooral als het om geld gaat. Deze introductiecursus begeleidt je door BTCPay Server, een krachtige tool waarmee je Bitcoin-betalingen kunt accepteren zonder afhankelijk te zijn van derden. Je leert de basisprincipes van het worden van een BTCPay Server-operator
 
-
-Dit is een inleidende cursus over BTCPay Server Operator, geschreven door Alekos en Bas, die werd aangepast voor het Plan ₿ Course Format door melontwist en asi0.
-
-
-EEN ONVOLTOOID VERHAAL
-
-
-"Dit zijn leugens, mijn vertrouwen in jou is gebroken, ik zal je overbodig maken".
-
-
-Geproduceerd door BTCPay Server Foundation
-
-
+Gemaakt door Alekos en Bas, en aangepast door melontwist en asi0, onthult deze cursus hoe individuen en bedrijven alternatieven bouwen voor traditionele betalingssystemen. Of je nu nieuwsgierig bent naar Bitcoin of klaar bent om betalingsinfrastructuren voor bedrijven te beheren, je zult praktische vaardigheden ontdekken die de status quo uitdagen. Klaar om te ontdekken hoe financiële onafhankelijkheid er werkelijk uitziet?
 +++
-
 # Inleiding
 
 
@@ -2082,7 +2069,6 @@ BTCPay stelt de GRPC-service van LND open voor gebruik van buitenaf; u vindt ver
 Serverbeheerders kunnen meer details bekijken.
 
 
-
 - Gegevens gastheer
 - Gebruik van SSL
 - Macaroon
@@ -2095,7 +2081,7 @@ Serverbeheerders kunnen meer details bekijken.
 #### LND (REST)
 
 
-BTCPay stelt LND's REST service bloot voor externe consumptie; u vindt de verbindingsinformatie hier; compatibele wallets zijn hier opgesomd. Onder de compatibele wallets zijn Joule, Alby en ZeusLN. BTCPay Server biedt een QR-code voor verbinding, die kan worden gescand en toegepast in een compatibele Wallet.
+BTCPay stelt LND's REST service bloot voor externe consumptie; u vindt de verbindingsinformatie [hier](https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay); compatibele wallets zijn [hier](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server) opgesomd. Onder de compatibele wallets zijn Joule, Alby en ZeusLN. BTCPay Server biedt een QR-code voor verbinding, die kan worden gescand en toegepast in een compatibele Wallet.
 
 
 

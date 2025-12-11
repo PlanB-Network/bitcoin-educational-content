@@ -6,4 +6,4 @@ wrong_answers:
   - Desinstalar virus
 explanation: |
   Estas aplicaciones actúan como cortafuegos locales, permitiendo bloquear o autorizar el tráfico saliente aplicación por aplicación.
-reviewed: false
+reviewed: true

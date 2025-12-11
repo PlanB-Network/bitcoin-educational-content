@@ -1,0 +1,9 @@
+question: Ni iyihe mpamvu nyamukuru ituma ibibazo vy’ibikorwa muri Bitcoin bishobora gukoreshwa mu guhingura ibice vy’urubuga nk’uko abahinga mu vy’umutekano babivuga?
+answer: Ibikoko bishobora gukoreshwa mu buryo bubereye kugira ngo bitandukanye abacukuzi b’amabuye y’agaciro n’abaguzi b’amabuye y’agaciro n’ibindi bice vy’urubuga, bikaba bishoboza ibitero vy’amahera abiri .
+wrong_answers:
+  - Ibibazo vy'imikorere ahanini bigira ingaruka ku bihe vyo kwemeza ubucuruzi, bituma urubuga rudashobora kwizigirwa ku bacuruzi n'abakoresha
+  - Ibikoko bikora neza bifata ibikoresho vyinshi vy'ubuhinga bwa none, bikaba bihatira ama node gufunga no kugabanya ukwiyongera kw'urubuga
+  - Ibibazo vy'ibikorwa bituma ubwonko buva mu bwenge bushobora gusenyuka, bikajana ku kudashikama kw'urubuga rw'igihe gito no kugabanya igipimo ca hash
+explanation: |
+  Gregory Maxwell yaburiye cane cane ko ibibazo vy’ibikorwa, iyo bikoreshejwe mu buryo bw’ubuhinga, bishobora gukoreshwa mu gucapura urubuga mu buryo bw’ingene - nk’akarorero, gutandukanya ‘umucukuzi A n’umuhinduzi B’ mu gice kimwe mu gihe abandi bose baja mu kindi, bikaba bituma habaho ibitero vy’amahera abiri. Ivyo vyerekana igituma ibibazo bisa n’ibitobito bikwiye gufatwa nk’ibishobora kuba bikomeye cane, kuko bishobora gukoreshwa mu buryo buteye imbere butaboneka ubwo nyene.
+reviewed: false

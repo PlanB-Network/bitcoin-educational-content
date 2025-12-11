@@ -1,0 +1,9 @@
+question: Hvilket problem med tradisjonelle finanssystemer identifiserer Satoshi Nakamoto i introduksjonen til Bitcoin-hvitboken?
+answer: Finansinstitusjonene kan ikke unngå å mekle i tvister, noe som umuliggjør helt irreversible transaksjoner
+wrong_answers:
+  - Bankene tar for høye gebyrer som gjør alle elektroniske transaksjoner ulønnsomme for forbrukerne
+  - Kredittkortselskapene nekter å behandle betalinger for digitale varer og tjenester på nettet
+  - Statlige reguleringer hindrer finansinstitusjoner i å operere på tvers av landegrensene
+explanation: |
+  Satoshi identifiserer spesifikt at finansinstitusjoner som fungerer som betrodde tredjeparter, ikke kan unngå å mekle i tvister, noe som forhindrer fullstendig ikke-reversible transaksjoner. Dette skaper iboende svakheter i den tillitsbaserte modellen, øker kostnadene ved mekling og tvinger selgerne til å være på vakt overfor kundene. De andre alternativene beskriver ulike problemer som ikke nevnes i Satoshis analyse av tradisjonelle betalingssystemer.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was ist nach der Open-Source-Definition die wichtigste Anforderung in Bezug auf die Gebühren bei der Weitergabe von Open-Source-Software als Teil einer Gesamt-Softwareverteilung?
+answer: Die Lizenz darf keine Lizenzgebühr oder sonstige Gebühr für einen solchen Verkauf verlangen
+wrong_answers:
+  - Zur Deckung der Entwicklungskosten muss ein angemessener Reproduktionspreis erhoben werden
+  - Lizenzgebühren sind zulässig, dürfen aber 5 % des Vertriebspreises nicht überschreiten
+  - Es können Verwaltungsgebühren verlangt werden, jedoch nur für die kommerzielle Weiterverbreitung
+explanation: |
+  In der Open-Source-Definition heißt es unter Freie Weitergabe ausdrücklich: Die Lizenz darf keine Lizenzgebühr oder sonstige Gebühr für den Verkauf verlangen Das bedeutet, dass Open-Source-Software frei weitergegeben werden darf, ohne dass Gebühren oder Lizenzgebühren erhoben werden. Die anderen Optionen suggerieren fälschlicherweise, dass verschiedene Arten von Gebühren zulässig sind, was gegen das grundlegende Prinzip der freien Weitergabe verstoßen würde, das Open-Source-Software definiert.
+reviewed: false

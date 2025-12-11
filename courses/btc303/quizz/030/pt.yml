@@ -1,0 +1,9 @@
+question: De acordo com a perspetiva de Satoshi Nakamoto, que efeito têm as bitcoins perdidas nas restantes moedas em circulação?
+answer: Fazem com que as moedas de todos os outros valham um pouco mais como uma doação a todos
+wrong_answers:
+  - Reduzem a segurança da rede ao diminuir o valor total disponível para as recompensas mining
+  - Criam uma pressão deflacionista que desestabiliza o sistema monetário ao longo do tempo
+  - Devem ser substituídos através de mining adicionais para manter o nível de abastecimento pretendido
+explanation: |
+  Satoshi Nakamoto explicou que as moedas perdidas funcionam como uma doação a todos os outros detentores de bitcoin, tornando as suas moedas mais valiosas devido à redução da oferta efectiva. Este é um efeito deflacionário positivo, não uma força desestabilizadora. As moedas perdidas não afectam as recompensas do mining, uma vez que estas provêm de moedas recém-cunhadas e de taxas de transação, e não da oferta existente. O protocolo Bitcoin não substitui as moedas perdidas - elas permanecem permanentemente fora de circulação, o que na verdade beneficia os detentores restantes através do aumento da escassez.
+reviewed: false

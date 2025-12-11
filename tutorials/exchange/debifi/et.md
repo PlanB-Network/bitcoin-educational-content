@@ -24,11 +24,11 @@ Tulemuseks on **Debifi**, platvorm, mis positsioneerib end kaasaegse alternatiiv
 
 
 
-Debifi on Bitcoin-ga tagatud laenuplatvorm, mis tähendab, et teil säilib kontroll oma isiklike võtmete üle. See võimaldab kasutajatel vabastada Exchange likviidsust oma lukustatud bitcoinide eest tagatisena. Erinevalt traditsioonilistest pangalaenudest kasutab Debifi mitme allkirja tagamise süsteemi (3-st 4) ja ei aktsepteeri tagatise pantimist, tagades suurema turvalisuse ja läbipaistvuse.
+Debifi on Bitcoin tagatud laenuplatvorm, mis tähendab, et teil säilib kontroll oma isiklike võtmete üle. See võimaldab kasutajatel vabastada likviidsust oma lukustatud bitcoinide eest tagatisena. Erinevalt traditsioonilistest pangalaenudest kasutab Debifi mitme allkirja tagatisvara süsteemi (3-st 4) ja ei aktsepteeri tagatise taasväärtpandamist, tagades suurema turvalisuse ja läbipaistvuse.
 
 
 
-Praktikas tähendab see, et ei Debifi ega üksikud laenuandjad ei saa teie BTC-d kulutada ilma kolme osapoole (teie, laenuandja ja usaldusväärne kolmas isik) nõusolekuta. See muudab süsteemi turvalisemaks: kui te võtate Debifi kaudu laenu, jääb teile Ownership teie Bitcoin-st, kuni laen on täielikult tagasi makstud.
+Praktikas tähendab see, et ei Debifi ega üksikud laenuandjad ei saa teie BTC-d kulutada ilma kolme osapoole (teie, laenuandja ja usaldusväärne kolmas isik) nõusolekuta. See muudab süsteemi turvalisemaks: kui te laenate Debifi kaudu, jääb teie Bitcoin teie omandisse, kuni laen on täielikult tagasi makstud.
 
 
 
@@ -36,22 +36,21 @@ Praktikas tähendab see, et ei Debifi ega üksikud laenuandjad ei saa teie BTC-d
 
 
 
-Debifi puhul on tegemist tagatud laenudega, Blockchain turvalisusega (mitme allkirjaga, 2FA), stabiilse mündi/vedeliku valikuga, konfidentsiaalsusega ja täieliku Bitcoin kontrolliga. Debifi "laseb teil hoida oma raha" (teie võtmed, teie mündid), pakkudes samal ajal konkurentsivõimelisi intressimäärasid ja ülemaailmset juurdepääsu BTC tagatud laenudele.
+Debifi abil saate Bitcoin-ga tagatud laene, mis on üle tagatud ja tagatud on-chain-ga. Teie vahendid on turvalised tänu mitme allkirjaga rahakottidele, 2FA-le ja täielikule kontrollile Bitcoin üle - teie käes on võtmed, teie hoiate mündid. Laenu saate võtta mitmesuguste stabiilse mündi või fiat-valikutega, konkurentsivõimeliste intressimäärade ja ülemaailmse likviidsusega.
 
 
 
 Siin on kiire võrdlus Debifi laenu ja traditsioonilise pangalaenu vahel:
 
 
-
-| Caractéristiques       | Prêt via Debifi                                                       | Prêt bancaire traditionnel                                                 |
-| ---------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Accessibilité          | ✔️ Ouvert à tout détenteur de Bitcoin (même sans historique bancaire) | ❌ Souvent réservé aux clients avec garanties physiques et dossiers solides |
-| Vitesse d’obtention    | ✔️ Liquide en quelques minutes/heures                                 | ❌ Processus long (jours ou semaines)                                       |
-| Garanties exigées      | ✔️ Collatéral en Bitcoin uniquement                                   | ❌ Garanties physiques (maisons, terrains, revenus stables)                 |
-| Contrôle de l’actif    | ✔️ Vous conservez l’exposition au Bitcoin et son potentiel de hausse  | ❌ Vous n’avez aucun lien entre le prêt et vos actifs financiers            |
-| Souplesse géographique | ✔️ Disponible partout (sans contrainte géographique bancaire)         | ❌ Limité à la juridiction de la banque                                     |
-| Risque principal       | ❌ Risque de liquidation si le prix du BTC chute trop                  | ❌ Risque de saisie de biens ou impact négatif sur la cote de crédit        |
+| Characteristics        | Loan via Debifi                                                        | Traditional Bank Loan                                                       |
+| ---------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Accessibility          | ✔️ Open to any Bitcoin holder (even without banking history)           | ❌ Often limited to clients with physical collateral and strong records      |
+| Speed of approval      | ✔️ Funds available within minutes or hours                             | ❌ Lengthy process (days or weeks)                                           |
+| Required guarantees    | ✔️ Bitcoin used as the sole collateral                                 | ❌ Physical guarantees (property, land, stable income)                       |
+| Asset control          | ✔️ You keep exposure to Bitcoin and its upside potential               | ❌ No connection between the loan and your financial assets                  |
+| Geographic flexibility | ✔️ Available everywhere (no banking jurisdiction constraints)          | ❌ Restricted to the bank’s jurisdiction                                     |
+| Main risk              | ❌ Liquidation risk if BTC price drops too sharply                      | ❌ Risk of asset seizure or negative impact on credit score                  |
 
 Enne kui ma näitan teile samm-sammult, kuidas laenata Debifis, on mõned punktid, mida peate minu arvates teadma.
 
@@ -76,7 +75,7 @@ Enne kui ma näitan teile samm-sammult, kuidas laenata Debifis, on mõned punkti
 
 
 
-- Multisig Escrow (3/4)** süsteem on turvaline hoiustamismehhanism, mille puhul laenuvõtja bitcoinid paigutatakse mitme allkirjaga Address-süsteemi. Konkreetselt on neljal (4) osapoolel (laenuvõtja, laenuandja, Debifi, sõltumatu kolmas osapool) igaühel oma võti. Raha liikumiseks on vaja vähemalt 3 allkirja neljast.
+- Multisig Escrow (3/4)** süsteem on turvaline hoiustamismehhanism, mille puhul laenuvõtja bitcoinid paigutatakse mitme allkirjaga aadressile. Konkreetselt on neli (4) osapoolt, kellest igaühel on oma võti (laenuvõtja, laenuandja, Debifi, sõltumatu kolmas osapool). Raha liikumiseks on vaja vähemalt 3 allkirja neljast.
 
 
 
@@ -118,17 +117,11 @@ Enne kui saate Debifist laenutada, veenduge, et teil on olemas järgmised esemed
 
 
 
-- Bitcoin Wallet: kus te hoiate oma BTC-d (ideaaljuhul mittehooldusasutus, nt Hardware Wallet või usaldusväärne mobiilne Wallet). Sellest Wallet-st saadate Bitcoin tagatise Debifile ja saate raha kätte.
+- Bitcoin wallet: kus te hoiate oma BTC-d (ideaaljuhul mittehooldusasutus, nt Hardware Wallet või usaldusväärne mobiilne wallet). Sellest wallet-st saadate Bitcoin tagatise Debifile ja saate tagatise tagasi.
 
 
 
-
-
-- Stablecoins või fiat: Debifi laenab stabiilseid münte ja mõningaid fiat-valuutasid. Peamised kasutatavad stabiilsed mündid on USDT ja USDC.
-
-
-
-Võite kasutada Aqua, Bitcoin ja Liquid Wallet, mis toetab ka USDT stabiilse mündi haldamist erinevates võrkudes. Või COLDCARD (Mk4 või Q), mis on praegu ainus Debifi poolt toetatud riistvara.
+Võite kasutada Aqua, Bitcoin ja Liquid wallet, mis toetab ka USDT stabiilse mündi haldamist erinevates võrkudes. Või COLDCARD (Mk4 või Q), mis on praegu ainus Debifi poolt toetatud riistvara.
 
 
 
@@ -148,7 +141,7 @@ https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 
 
 
-- Kahefaktorilise autentimise rakendus: Debifi nõuab autentimiskoodi iga olulise toimingu jaoks. See on täiendav Layer turvalisus. Selles õpetuses kasutame Google Authenticatorit. Alternatiivina võite kasutada ka teisi, mida peate sobivaks.
+- Kahefaktorilise autentimise rakendus: Debifi nõuab autentimiskoodi iga olulise toimingu jaoks. See on täiendav turvakiht. Selles õpetuses kasutame Google Authenticatorit. Alternatiivina võite kasutada ka teisi, mida peate sobivaks.
 
 
 
@@ -158,7 +151,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-- Debifi veebisait ja mobiilirakendus: Debifi on nii veebisait kui ka mobiilirakendus ja need kaks töötavad koos. Mobiilirakendusest saab Wallet, mis salvestab teie isiklikku võtit ja haldab lepingute allkirjastamist. Lisaks peate lepingute sõlmimiseks kasutama veebisaiti (suur Interface annab teile üldise ülevaate laenulepingutest ja nende üksikasjadest).
+- Debifi veebisait ja mobiilirakendus: Debifi on nii veebisait kui ka mobiilirakendus ja need kaks töötavad koos. Mobiilirakendusest saab wallet, mis salvestab teie isiklikku võtit ja haldab lepingute allkirjastamist. Lisaks peate lepingute sõlmimiseks kasutama veebisaiti (suur Interface annab teile üldise ülevaate laenulepingutest ja nende üksikasjadest).
 
 
 
@@ -200,7 +193,7 @@ Kui olete rakenduses, klõpsake menüüs **Settings**.
 
 
 
-Seejärel klõpsake **Login või create account**, et luua konto oma e-posti Address abil.
+Seejärel klõpsake **Login või create account**, et luua konto oma e-posti aadressiga.
 
 
 
@@ -360,7 +353,7 @@ Bitcoin laenuosasid on tavaliselt kolm (3):
 
 
 
-- Konservatiivne (20% - 40% LTV), mis vastab madala riskiga laenule, on ideaalne, et maksimeerida kindlust Bitcoin hinnakõikumiste vastu;
+- Konservatiivne (30% - 40% LTV), mis vastab madala riskiga laenule, on ideaalne, et maksimeerida kindlust Bitcoin hinnakõikumiste vastu;
 
 
 
@@ -372,7 +365,7 @@ Bitcoin laenuosasid on tavaliselt kolm (3):
 
 
 
-- Agressiivne (70% - 85% LTV), mis pakub suuremat likviidsust, kuid millega kaasneb väga suur likvideerimise risk turutõrgete ajal. Bitcoin turutingimuste aktiivne jälgimine on selle osa valimisel hädavajalik.
+- Agressiivne (70% LTV), mis pakub suuremat likviidsust, kuid millega kaasneb väga suur likvideerimise risk turutõrgete ajal. Bitcoin turutingimuste aktiivne jälgimine on selle osa valimisel hädavajalik.
 
 
 
@@ -388,7 +381,7 @@ Intressimäära määramine sõltub üldiselt teie valitud LTV-st, laenuperioodi
 
 
 
-Laenude tagasimaksegraafikud on sageli paindlikud ja kohandatud kasutaja vajadustele. Makseid saab teha igal ajal, kui tagatise nõuded on täidetud. Laenumakseid tehakse üldjuhul laenu kehtivusaja jooksul intressi eest ja põhisumma makstakse lõpptähtajal.
+Tagasimaksegraafikud on paindlikud ja kavandatud laenuvõtja vajadustele vastavaks. Laenu saab täielikult või osaliselt tagasi maksta igal ajal ilma lisatasudeta, tingimusel et tagatise nõuded on jätkuvalt täidetud. Kogu laenuperioodi jooksul makstakse intressi tavaliselt perioodiliselt, samas kui põhisumma tasutakse lõpptähtajal.
 
 
 
@@ -396,7 +389,16 @@ Laenude tagasimaksegraafikud on sageli paindlikud ja kohandatud kasutaja vajadus
 
 
 
-Kuna Bitcoin hind on volatiilne, sisaldab vastutustundlik laen lepingus konkreetseid marginaalinõudeid. See poliitika võimaldab teavitada laenuvõtjat kas täiendava tagatise andmisest või osa laenu tagasimaksmisest.
+Arvestades Bitcoin volatiilsust, sisaldavad laenud selgelt määratletud tagatisnõude poliitikat. Tagatisnõue tekib siis, kui tagatise väärtuse vähenemise tõttu tõuseb laenusumma. Debifi teavitab laenuvõtjat e-posti teel ja rakenduse kaudu, võimaldades tal lisada tagatist või maksta osa laenust tagasi.
+
+
+75% LTV - esimene hoiatus
+
+80% LTV - teine hoiatus
+
+85% LTV - lõplik hoiatus
+
+90% LTV - tagatis on likvideeritud
 
 
 
@@ -433,7 +435,7 @@ Saate näha :
 6. Tuleb sisestada täpne summa, mida vajate (see summa peab jääma vahemikku, vt 2);
 
 
-7. Tuleb sisestada Ethereum USDC Address, mida kasutatakse raha saamiseks.
+7. Tuleb sisestada Ethereumi USDC-aadress, mida kasutatakse raha saamiseks.
 
 
 
@@ -453,7 +455,7 @@ Pöörduge tagasi mobiilirakendusse ''**Provide public key**''.
 
 
 
-Vajutage nuppu '' **Provide public key** '', seejärel valige avaliku võtme allikas. Laenuandja peab ka Supply avaliku võtme.
+Vajutage '' **Provide public key** '', seejärel valige avaliku võtme allikas. Laenuandja peab samuti esitama avaliku võtme.
 
 
 
@@ -473,7 +475,7 @@ Vajutage nuppu '' **Provide public key** '', seejärel valige avaliku võtme all
 
 
 
-Järgmine samm on Contract allkirjastamine. Vajutage endiselt mobiilirakenduses '' **Sign Contract** ''
+Järgmine samm on lepingu allkirjastamine. Ikka veel mobiilirakenduses, vajutage '' **Sign Contract** ''
 
 
 
@@ -485,7 +487,7 @@ Järgmine samm on Contract allkirjastamine. Vajutage endiselt mobiilirakenduses 
 
 
 
-Kui te lõpetate Contract allkirjastamise, loob Debifi automaatselt teie Contract jaoks unikaalse mitme allkirjaga Bitcoin Address (Escrow 3-sur-4). Niikaua, kuni teie bitcoinid on Escrow's, ei saa neid mujal kasutada.
+Kui olete lepingu allkirjastamise lõpetanud, loob Debifi automaatselt teie lepingu jaoks unikaalse mitme allkirjaga Bitcoin aadressi (escrow 3-sur-4). Niikaua kui teie bitcoinid on escrow's, ei saa neid mujal kasutada.
 
 
 
@@ -493,7 +495,7 @@ Kui te lõpetate Contract allkirjastamise, loob Debifi automaatselt teie Contrac
 
 
 
-Viimane samm on teie Bitcoin tagatise hoiustamine mitme allkirja tagatisvarasüsteemis. Seejärel näitab Debifi teile eskroo Address (B) ja BTC (A) koguse, mis tuleb saata (tagatis + komisjonitasu).
+Viimane samm on teie Bitcoin tagatise hoiustamine mitme allkirja tagatisvarasüsteemis. Debifi näitab teile eskroo aadressi (B) ja BTC koguse (A), mis tuleb saata (tagatis + komisjonitasu).
 
 
 
@@ -509,7 +511,7 @@ Selle teate saate ka oma mobiilirakendusse.
 
 
 
-Niipea, kui teie hoius on kinnitatud, maksab laenuandja laenusumma teie poolt märgitud vastuvõtvale Address-le, millega tehing on lõpule viidud ja saate juurdepääsu vajaminevatele rahalistele vahenditele.
+Niipea, kui teie hoius on kinnitatud, maksab laenuandja laenusumma teie poolt märgitud vastuvõtuaadressile, millega tehing on lõpule viidud ja te saate juurdepääsu vajalikele rahalistele vahenditele.
 
 
 
@@ -517,7 +519,7 @@ Seejärel saate Debifilt teate, milles palutakse teil tasuda laenutasud või kom
 
 
 
-Tegelikkuses, kui Contract on loodud, arvatakse laenutasud automaatselt maha laenuvõtja poolt mitme allkirja allakirjutamistehingus Address hoiustatud tagatisest.
+Tegelikkuses, kui leping on loodud, arvatakse laenutasud automaatselt maha laenuvõtja poolt mitme allkirjaga deponeeritud tagatisest.
 
 
 
@@ -529,7 +531,7 @@ Kõik, mida peate tegema, on allkirjastada tehing, mis võimaldab Debifil oma ko
 
 
 
-Kohaldatavad laenutasud on 1,5-2%, sõltuvalt Contract tähtajast. Platvorm võtab vahendustasu ainult Bitcoin puhul.
+Kohaldatavad laenutasud on 1,5-2%, sõltuvalt lepingu tähtajast. Platvorm võtab vahendustasu ainult Bitcoin-s.
 
 
 
@@ -537,25 +539,23 @@ Kohaldatavad laenutasud on 1,5-2%, sõltuvalt Contract tähtajast. Platvorm võt
 
 
 
-Kui laen on käimas, võimaldab Debifi teil jälgida oma Contract-i reaalajas. Interface, näete :
-
-
+Kui laen on aktiivne, võimaldab Debifi teil jälgida oma lepingut reaalajas. Kasutajaliidesest leiate:
 
 
 
 - Laenusumma ja järelejäänud tähtaeg.
-- Praegune LTV (laenu ja väärtuse suhe): LTV suureneb, kui BTC hind langeb (kuna teie tagatise väärtus väheneb). Kehtestatakse hoiatuskünnis (tavaliselt 90%). Kui teie LTV ületab seda künnist, on oht, et teid sunniviisiliselt likvideeritakse. Debifi annab teile siis 24 tundi aega reageerimiseks.
-
-
-
-Laenuvõtjaid teavitatakse hinnaalandusest. See teave on kättesaadav ka Contract kokkuvõtte lehel. Laenu algse laenusuhte taastamiseks peab laenuvõtja :
+- Praegune LTV (Loan-to-Value) suhe, mis tõuseb, kui BTC hind langeb ja teie tagatise väärtus langeb.
 
 
 
 
+Laenuvõtjaid teavitatakse tagatise väärtuse vähenemisest ja see teave kuvatakse ka lepingu kokkuvõtte lehel. Esialgse laenu ja väärtuse suhte taastamiseks peab laenuvõtja kas:
 
-- või anda lisatagatis ;
+
+
+- hoiustada täiendavat tagatist;
 - maksta tagasi kogu võlg või osa sellest.
+
 
 
 
@@ -577,21 +577,21 @@ Debifi :
 
 
 
-- Mine oma Contract ja klõpsa **Taasta tagasimakse**. Sisestage tasumisele kuuluv kogusumma (põhisumma + intressid).
+- Mine oma lepingusse ja klõpsa **Taasta tagasimakse**. Sisestage tasumisele kuuluv kogusumma (põhisumma + intressid).
 
 
 
 
 
-- Saatke stabiilseid münte oma Wallet-st laenuandja Address-sse, mis on märgitud, ja naaske platvormil tagasimakse kinnitamiseks, kopeerides tagasimaksetehingu **ID** spetsiaalsele vahekaardile. See lihtsustab Debifi kontrollimist.
+- Saatke stablecoins oma wallet-st laenuandja märgitud aadressile ja naaske, et kinnitada tagasimakset platvormil, kopeerides tagasimaksetehingu **ID** selleks ettenähtud vahekaardile. See lihtsustab Debifi kontrollimist.
 
 
 
-Kui laenuandja (ja teie) on makse kinnitanud, palub Debifi teil seejärel **tagastada**. Teie Bitcoin tagatis vabastatakse ja te saate selle eskrotirahast tagasi oma portfelli.  Ärge unustage koguda kõik oma Bitcoins.
+Kui laenuandja (ja teie) on makse kinnitanud, palub Debifi teil seejärel **tagastada**. Teie Bitcoin tagatis vabastatakse ja te saate selle tagastada deposiidist oma wallet.  Ärge unustage koguda kõik oma Bitcoins.
 
 
 
-Niipea, kui saate bitcoinid, muutub laen Contract kujul **Contract lõpetatud**.
+Niipea, kui saate bitcoinid kätte, muutub laenuleping **Contract lõpetatud**.
 
 
 
@@ -604,7 +604,7 @@ Palju õnne! Te olete protsessi lõpule viinud.
 
 
 
-Mis iganes on teie eesmärgid või motiivid - projekti rahastamine, kinnisvara omandamine, bitcoinide ostmine jne. - olge äärmiselt ettevaatlik, enne kui võtate laenu, mille tagatiseks on Bitcoin. - olge äärmiselt ettevaatlik, enne kui võtate laenu, mille tagatiseks on Bitcoin. Võtke aega, et oma otsust hoolikalt kaaluda, sest Bitcoin on endiselt ebastabiilne vara. **Hinna järsk langus võib kaasa tuua teie bitcoinide sunniviisilise likvideerimise**.
+Mis iganes on teie eesmärk või motivatsioon - projekti rahastamine, kinnisvara soetamine, bitcoinide ostmine jne - olge väga ettevaatlik, enne kui võtate laenu, mille tagatiseks on Bitcoin. Võtke aega oma otsuse hoolikaks hindamiseks, sest Bitcoin on endiselt ebastabiilne vara. **Hinna järsk langus võib kaasa tuua teie bitcoinide sunnitud likvideerimise.**
 
 
 
@@ -612,7 +612,7 @@ Jälgige oma laenu ja tagatise (LTV) suhet. Seadistage võimalusel hoiatused (BT
 
 
 
-Kontrollige oma võtmeid. Hoidke oma BTC-d turvalises Wallet (ideaalis riistvara või usaldusväärne Wallet). Ärge määrake PIN-koodi, mis on seotud teie elu olulise kuupäevaga, ja ärge kunagi jagage oma taastamislauset. Debifis generate oma isikliku võtme rakenduses - Debifi ei tea seda.
+Kontrollige oma võtmeid. Hoidke oma BTC-d turvalises wallet-s (ideaalis riistvara või usaldusväärne wallet). Ärge määrake PIN-koodi, mis on seotud teie elu olulise kuupäevaga, ja ärge kunagi jagage oma taastamislauset. Debifis generate oma isikliku võtme rakenduses - Debifi ei tea seda.
 
 
 

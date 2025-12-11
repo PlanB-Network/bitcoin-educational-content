@@ -1,8 +1,8 @@
-question: How does the Breeze SDK's Lightning Service Provider (LSP) integration solve the liquidity management problem for receiving payments?
+question: How does the Breez SDK's Lightning Service Provider (LSP) integration solve the liquidity management problem for receiving payments?
 answer: LSPs automatically open new Lightning channels with inbound liquidity at the moment a payment arrives, using just-in-time channel creation
 wrong_answers:
   - LSPs pre-fund all user channels with maximum liquidity capacity and periodically rebalance funds across the network topology
   - LSPs maintain a shared liquidity pool that temporarily loans funds to users during payment reception before settlement occurs
   - LSPs route payments through multiple intermediate channels to find existing liquidity paths without creating new channel relationships
 explanation: |
-  The Breeze SDK implements 'just-in-time' channels where LSPs automatically open new Lightning channels precisely when a user needs to receive a payment but lacks sufficient inbound liquidity. This happens seamlessly without user intervention, solving Lightning's fundamental liquidity constraint where funds can only flow in directions where channel capacity exists. The other options describe different approaches that don't match the SDK's actual implementation of dynamic channel creation.
+  The Breez SDK implements 'just-in-time' channels where LSPs automatically open new Lightning channels precisely when a user needs to receive a payment but lacks sufficient inbound liquidity. This happens seamlessly without user intervention, solving Lightning's fundamental liquidity constraint where funds can only flow in directions where channel capacity exists. The other options describe different approaches that don't match the SDK's actual implementation of dynamic channel creation.

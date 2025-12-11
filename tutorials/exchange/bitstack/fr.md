@@ -19,7 +19,7 @@ Les frais appliqués par Bitstack sur les transactions varient en fonction du vo
 - 250 000 € - 500 000 € : 0,59 %
 - Plus de 500 000 € : 0,49 %
 
-Toutes les autres opérations sur la plateforme sont gratuites, y compris les retraits de bitcoins (avec un minimum de retrait fixé à 100 000 sats). Ainsi, contrairement à d'autres plateformes d'échange, retirer par exemple 0.01 BTC de l'application pour le transférer en self-custody ne générerait aucuns frais de service ou de minage, ce qui vous permettrait de recevoir effectivement 0.01 BTC sur votre adresse de réception.
+Toutes les autres opérations sur la plateforme sont gratuites, y compris les retraits de bitcoins (avec un minimum de retrait fixé à 100 000 sats). Ainsi, contrairement à d'autres plateformes d'échange, retirer par exemple 0.01 BTC de l'application pour le transférer en self-custody ne générerait aucun frais de service ou de minage, ce qui vous permettrait de recevoir effectivement 0.01 BTC sur votre adresse de réception.
 
 ## Télécharger l'application
 
@@ -47,7 +47,7 @@ Choisissez un mot de passe fort pour sécuriser l'accès à votre compte, puis c
 
 ![Image](assets/fr/06.webp)
 
-Pour une gestion sécurisée de vos mots de passe au quotidien, l'utilisation d'un gestionnaire de mots de passe est vivement recommandée. Sur Plan ₿ Academy, vous trouverez plusieurs tutoriels sur les meilleures solutions existantes, comme par exemple Bitwarden :
+Pour une gestion sécurisée de vos mots de passe au quotidien, l'utilisation d'un gestionnaire de mots de passe est vivement recommandée. Sur Plan ₿ Academy, vous trouverez plusieurs tutoriels sur les meilleures solutions existantes, comme Bitwarden :
 
 https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 

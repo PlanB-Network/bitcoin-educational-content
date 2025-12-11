@@ -1,0 +1,9 @@
+question: Zgodnie z obliczeniami Pietera Wuille'a, jaka jest maksymalna teoretyczna ilość Bitcoin, która kiedykolwiek będzie istnieć po wydobyciu wszystkich monet?
+answer: 20 999 999,9769 BTC
+wrong_answers:
+  - dokładnie 21 000 000,0000 BTC
+  - 20 999 817,3131 BTC
+  - 20 500 000,0000 BTC w przybliżeniu
+explanation: |
+  Pieter Wuille obliczył, że teoretyczna maksymalna podaż wynosi 20 999 999,9769 BTC, czyli nieco mniej niż powszechnie cytowane 21 milionów. Wynika to ze specyficznego harmonogramu przepoławiania i zaokrąglania w kodzie Bitcoin. Liczba 21 milionów jest zaokrąglonym przybliżeniem. Liczba 20 999 817,3131 reprezentuje rzeczywistą podaż w obiegu po uwzględnieniu utraconych monet i błędów mining do określonego bloku, a nie teoretyczne maksimum.
+reviewed: false

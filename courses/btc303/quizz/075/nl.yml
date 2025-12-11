@@ -1,0 +1,9 @@
+question: Volgens Gregory Maxwells visie op de beoordeling van de ernst van kwetsbaarheden, welke benadering moeten ontwikkelaars kiezen bij het evalueren van de potentiële impact van ontdekte beveiligingsproblemen?
+answer: Behandel kwetsbaarheden als ernstiger dan op dit moment bekend is en ga ervan uit dat ze gemakkelijk te misbruiken zijn, zelfs als ze moeilijk te misbruiken lijken
+wrong_answers:
+  - Richt u alleen op de direct waarneembare gevolgen en categoriseer kwetsbaarheden op basis van hun huidige bekende exploitatiemethoden
+  - Prioriteit geven aan kwetsbaarheden op basis van hun technische complexiteit en fixes uitstellen voor problemen die theoretisch moeilijk uit te buiten lijken
+  - Elke kwetsbaarheid afzonderlijk evalueren zonder rekening te houden met de combinatie van meerdere kleine problemen die tot grote beveiligingsrisico's kunnen leiden
+explanation: |
+  Maxwell stelt dat ontwikkelaars kwetsbaarheden ernstiger moeten behandelen dan ze lijken, omdat moeilijk uit te buiten problemen triviaal kunnen worden met de juiste techniek en ogenschijnlijk kleine problemen kunnen escaleren tot ernstige bedreigingen. Hij benadrukt dat eenvoudige prestatiebugs bewapend kunnen worden om het netwerk te partitioneren en double-spending aanvallen mogelijk te maken. Deze conservatieve benadering erkent dat ontwikkelaars in eerste instantie misschien niet het volledige exploitatiepotentieel van een kwetsbaarheid begrijpen, waardoor het verstandig is om uit te gaan van het ergste scenario in plaats van de dreiging te onderschatten.
+reviewed: false

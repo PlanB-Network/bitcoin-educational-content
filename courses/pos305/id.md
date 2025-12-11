@@ -1,31 +1,18 @@
 ---
-name: Bitcoin dan Server Pembayaran BTC
-goal: Instal BTC Pay Server untuk bisnis Anda
-objectives: 
-
-  - Memahami apa itu btcpayserver.
-  - Menginangi sendiri dan mengonfigurasi BTC Pay Server.
-  - Gunakan btcpayserver dalam bisnis harian Anda.
-
+name: Menguasai BTC Pay Server
+goal: Mengonfigurasi instance BTC Pay Server untuk bisnis lokal
+objectives:
+- Memahami dasar-dasar peran BTCPay Server dalam pemrosesan pembayaran
+- Menguasai cara kerja internal proses konfigurasi BTCPay Server
+- Men-deploy BTCPay Server di lingkungan cloud dan berbasis node
+- Menjadi operator BTC Pay Server
 ---
+# Perjalanan Menuju Kedaulatan Finansial
 
-# Bitcoin dan Server BTCPay
+Kepercayaan itu rapuh, terutama dalam hal uang. Kursus pengantar ini memandu Anda melalui BTCPay Server, alat yang kuat yang memungkinkan Anda menerima pembayaran Bitcoin tanpa bergantung pada pihak ketiga. Anda akan mempelajari dasar-dasar menjadi operator BTCPay Server
 
-
-Ini adalah kursus pengantar tentang Operator Server BTCPay, yang ditulis oleh Alekos dan Bas, yang diadaptasi untuk Format Kursus Plan ₿ oleh melontwist dan asi0.
-
-
-CERITA YANG BELUM SELESAI
-
-
-"Ini Bohong, Kepercayaanku Padamu Hancur, Aku Akan Membuatmu Usang".
-
-
-Diproduksi oleh BTCPay Server Foundation
-
-
+Dibuat oleh Alekos dan Bas, dan diadaptasi oleh melontwist dan asi0, kursus ini mengungkapkan bagaimana individu dan bisnis membangun alternatif untuk sistem pembayaran tradisional. Baik Anda penasaran tentang Bitcoin atau siap menjalankan infrastruktur pembayaran untuk bisnis, Anda akan menemukan keterampilan praktis yang menantang status quo. Siap untuk menjelajahi seperti apa sebenarnya kemandirian finansial?
 +++
-
 # Pendahuluan
 
 
@@ -2092,10 +2079,10 @@ Administrator server dapat membuka detail lebih lanjut untuk melihat.
 - Rangkaian Cipher SSL GRPC (GRPC_SSL_CIPHER_SUITES)
 
 
-#### LND (SISA)
+#### LND (REST)
 
 
-BTCPay mengekspos layanan REST LND untuk konsumsi luar; Anda dapat menemukan informasi koneksi di sini; dompet yang kompatibel terdaftar di sini. Di antara dompet yang kompatibel adalah Joule, Alby, dan ZeusLN. BTCPay Server menyediakan kode QR untuk koneksi, yang dapat dipindai dan diterapkan di Wallet yang kompatibel.
+BTCPay mengekspos layanan REST LND untuk konsumsi luar; Anda dapat menemukan informasi koneksi di [sini](https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay); dompet yang kompatibel terdaftar di [sini](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server). Di antara dompet yang kompatibel adalah Joule, Alby, dan ZeusLN. BTCPay Server menyediakan kode QR untuk koneksi, yang dapat dipindai dan diterapkan di Wallet yang kompatibel.
 
 
 

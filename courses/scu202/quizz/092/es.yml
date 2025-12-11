@@ -6,4 +6,4 @@ wrong_answers:
   - Concentrador USB
 explanation: |
   El módem router conecta la red del ISP a tu red local y gestiona la asignación de direcciones IP locales.
-reviewed: false
+reviewed: true

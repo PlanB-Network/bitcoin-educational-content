@@ -6,4 +6,4 @@ wrong_answers:
   - Seuls les gouvernements ont accès aux détails des transactions.
 explanation: |
   Dans le cas de Bitcoin, puisque le flux d'information ne peut pas être cassé entre les transactions et le domaine public, le modèle de confidentialité repose sur la séparation entre l'identité de l'utilisateur et les transactions.
-reviewed: false
+reviewed: true 

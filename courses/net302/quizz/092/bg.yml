@@ -1,0 +1,9 @@
+question: Къде обикновено се конфигурират DNS сървърите в системата Linux?
+answer: /etc/resolv.conf
+wrong_answers:
+  - /etc/hostname
+  - /etc/network/interfaces
+  - /etc/hosts.allow
+explanation: |
+  Файлът /etc/resolv.conf задава DNS сървърите и домейните за търсене за разрешаване на имена.
+reviewed: false

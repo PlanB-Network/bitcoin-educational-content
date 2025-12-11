@@ -1,0 +1,9 @@
+question: Zašto je praktično nemoguće formalno dokazati sigurnost Bitcoin, uprkos tome što efikasno funkcioniše u praksi?
+answer: Složenost i nejasna priroda sistema čine formalne sigurnosne dokaze neizvodljivim, za razliku od jednostavnijih protokola sa jasnim pretpostavkama.
+wrong_answers:
+  - Programeri Bitcoin namerno izbegavaju formalne dokaze kako bi održali fleksibilnost i omogućili buduće izmene protokola.
+  - Problem diskretnog logaritma i kriptografske pretpostavke su previše napredni za trenutne matematičke tehnike dokazivanja
+  - Formalni sigurnosni dokazi bi otkrili ranjivosti protivnicima, pa ih glavni programeri drže poverljivim.
+explanation: |
+  Kao što Jameson Lopp objašnjava, Bitcoin je izgrađen bez formalno definisane specifikacije ili bezbednosnog modela zbog svoje inherentne složenosti i nejasne prirode. Za razliku od jednostavnijih sistema kao što su protokoli potpisivanja koji imaju jasno definisane bezbednosne pretpostavke, Bitcoin uključuje više međusobno povezanih komponenti uključujući kriptografiju, ekonomiju, teoriju igara i ljudsko ponašanje. Ova složenost onemogućava kreiranje formalnih matematičkih dokaza o bezbednosti, iako sistem pokazuje praktičnu bezbednost kroz rad u stvarnom svetu.
+reviewed: false

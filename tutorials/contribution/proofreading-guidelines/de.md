@@ -1,15 +1,15 @@
 ---
 name: Richtlinien für das Korrekturlesen
-description: Was sind die wichtigen Faktoren, die beim Korrekturlesen auf Plan ₿ Academy beachtet werden müssen?
+description: Was sind die wichtigen Faktoren, die beim Korrekturlesen an der Plan ₿ Academy beachtet werden müssen?
 ---
 
 ![github](assets/cover.webp)
 
 
-Willkommen zu diesem Tutorial über die **Richtlinien für das Korrekturlesen von Inhalten auf Plan ₿ Academy**. Wir freuen uns, dass Sie unsere Mission teilen, Bitcoin-Materialien in so viele Sprachen wie möglich zu übersetzen, um den Menschen zu helfen, ein Bewusstsein dafür zu entwickeln, wie es funktioniert und wie es in ihrem täglichen Leben genutzt werden kann.
+Willkommen zu diesem Tutorial über die **Richtlinien für das Korrekturlesen von Inhalten der Plan ₿ Academy**. Wir freuen uns, dass Sie unsere Mission teilen, Bitcoin-Materialien in so viele Sprachen wie möglich zu übersetzen, um den Menschen zu helfen, ein Bewusstsein dafür zu entwickeln, wie es funktioniert und wie es in ihrem täglichen Leben genutzt werden kann.
 
 
-Zunächst einmal haben Sie durch Ihre Mitarbeit am Plan ₿ Academy [public repository](https://github.com/PlanB-Network/Bitcoin-educational-content) die Möglichkeit, Tutorials zu schreiben, den vorhandenen Inhalt zu korrigieren oder sogar die Aufnahme einer neuen Sprache in die Plattform vorzuschlagen. Um mehr zu erfahren, treten Sie zunächst unserer [Telegram-Gruppe](https://t.me/PlanBNetwork_ContentBuilder) bei und stellen Sie sich und die Sprachen, die Sie sprechen, kurz vor.
+Zunächst einmal haben Sie durch Ihre Mitarbeit an der Plan ₿ Academy [öffentliches Repository] (https://github.com/PlanB-Network/bitcoin-educational-content) die Möglichkeit, Tutorials zu schreiben, die vorhandenen Inhalte zu korrigieren oder sogar die Aufnahme einer neuen Sprache in die Plattform vorzuschlagen. Um mehr zu erfahren, treten Sie zunächst unserer [Telegram-Gruppe](https://t.me/PlanBNetwork_ContentBuilder) bei und schreiben Sie eine kurze Präsentation über sich und die Sprachen, die Sie sprechen.
 
 
 Das vorliegende Tutorial ist denjenigen gewidmet, die Inhalte Korrektur lesen wollen. Die meisten von ihnen wissen nicht viel über [Github] (https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) oder die [Markdown-Sprache] (https://www.markdownguide.org/basic-syntax/), die wir innerhalb des Repositorys verwenden, daher ist es wichtig, einige Einblicke in die Schlüsselfaktoren dieser Aufgabe zu geben.
@@ -18,7 +18,7 @@ Das vorliegende Tutorial ist denjenigen gewidmet, die Inhalte Korrektur lesen wo
 Nachfolgend habe ich die häufigsten Probleme zusammengestellt, auf die Korrekturleser stoßen. Fühlen Sie sich frei, weitere Vorschläge zu machen, denn das kann anderen helfen, sich zu verbessern.
 
 
-Bevor Sie in die Einzelheiten eintauchen, sollten Sie zunächst dieses Tutorial über die praktischen Maßnahmen auf Github lesen, indem Sie das Plan ₿ Academy-Repository forken, Änderungen committen und PRs senden:
+Bevor Sie in die Einzelheiten eintauchen, sollten Sie als Erstes dieses Tutorial über die praktischen Maßnahmen auf Github lesen, indem Sie das Repository von Plan ₿ Academy forken, Änderungen committen und PRs senden:
 
 
 https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
@@ -38,13 +38,13 @@ Denken Sie immer daran, dass Übersetzung/Korrekturlesen BILDUNG ist!
 
 Unser gemeinsames Ziel ist es, so viele Menschen wie möglich über Bitcoin aufzuklären, daher ist es von grundlegender Bedeutung, dass das Material, das sie lesen, glatt und klar ist.
 
-In diesem Sinne sind alle, die an Plan ₿ Academy mitarbeiten, Pädagogen!
+In diesem Sinne sind alle Mitwirkenden der Plan ₿ Academy Pädagogen!
 
 
-## Die ersten Schritte vor dem Korrekturlesen auf Plan ₿ Academy
+## Die ersten Schritte vor dem Korrekturlesen an der Plan ₿ Academy
 
 
-Bevor Sie mit einer neuen Korrekturleseaufgabe beginnen, kündigen Sie sie in der [Telegram-Gruppe] (https://t.me/PlanBNetwork_ContentBuilder) an oder informieren Sie Ihren Plan ₿ Academy-Koordinator, der eine spezielle [Ausgabe] (https://github.com/orgs/Plan ₿ Academy/projects/3) eröffnet. Wenn Sie den Link zur Ausgabe erhalten, geben Sie einfach an, dass Sie mit dem Korrekturlesen des betreffenden Inhalts beginnen.
+Bevor Sie mit einer neuen Korrekturleseaufgabe beginnen, kündigen Sie sie in der [Telegram-Gruppe] (https://t.me/PlanBNetwork_ContentBuilder) an oder informieren Sie Ihren Plan ₿ Academy-Koordinator, der eine spezielle [Ausgabe] (https://github.com/orgs/PlanB-Network/projects/3) eröffnet. Wenn Sie den Link zum Thema erhalten, kommentieren Sie einfach, dass Sie mit dem Korrekturlesen dieses Inhalts beginnen**.
 
 
 Dieses System hilft dem Koordinator, den Fortschritt innerhalb des Repos zu verfolgen, und ermöglicht es, dass der Inhalt vom Korrekturleser "beansprucht" wird, um doppelte Arbeit durch jemand anderen zu verhindern.
@@ -52,7 +52,7 @@ Dieses System hilft dem Koordinator, den Fortschritt innerhalb des Repos zu verf
 In der Ausgabe selbst finden Sie die Links, die Sie zu den zu prüfenden Inhalten weiterleiten. Sie können einfach auf diese Links klicken oder, noch besser, Sie können zu Ihrem eigenen forked repo zurückkehren und direkt von dort aus arbeiten. Schauen wir uns an, wie Sie das machen können!
 
 
-Zuallererst sollten Sie **STETS daran denken, Ihr Projektarchiv auf dem "dev"-Zweig** zu SYNCen. Auf diese Weise wird der Inhalt immer aktualisiert, bevor Sie irgendeine Art von Aufgabe beginnen, und Sie werden keine Konflikte zwischen altem und neuem Material erzeugen. Stellen Sie sicher, dass Sie auf "Fork synchronisieren" und "Zweig aktualisieren" klicken.
+Zuallererst sollten Sie **STETS daran denken, Ihr Projektarchiv auf dem "dev"-Zweig** zu SYNCen. Auf diese Weise wird der Inhalt immer aktualisiert, bevor Sie irgendeine Art von Aufgabe starten, und Sie werden keine Konflikte zwischen altem und neuem Material erzeugen. Stellen Sie sicher, dass Sie auf "fork synchronisieren" und "Zweig aktualisieren" klicken.
 
 
 
@@ -68,7 +68,7 @@ Nach erfolgreicher Synchronisierung können Sie direkt auf den gewünschten Inha
 
 
 
-Auf dieser neuen Seite finden Sie alle Zweige, die Sie bereits geöffnet haben, unter dem Titel "Ihre Zweige". Dieser Abschnitt ist sehr nützlich, da Sie hier leicht feststellen können, wo Sie einen Inhalt geändert haben. Wenn Sie einen neuen Zweig eröffnen möchten, klicken Sie auf "Neuer Zweig" in der oberen rechten Ecke der Seite.
+Auf dieser neuen Seite finden Sie alle Zweige, die Sie bereits geöffnet haben, unter dem Titel "Ihre Zweige". Dieser Abschnitt ist sehr nützlich, da Sie hier leicht herausfinden können, wo Sie einen Inhalt geändert haben. Wenn Sie einen neuen Zweig eröffnen möchten, klicken Sie auf "Neuer Zweig" in der oberen rechten Ecke der Seite.
 
 
 
@@ -76,7 +76,7 @@ Auf dieser neuen Seite finden Sie alle Zweige, die Sie bereits geöffnet haben, 
 
 
 
-Dann erscheint ein Pop-up-Fenster, in das Sie den Namen der neuen Zweigstelle eingeben müssen. In diesem Fall habe ich mich für den Namen "BTC101-FR" entschieden. Auf diese Weise werde ich mich immer daran erinnern, dass dieser spezielle Zweig für das Korrekturlesen des Kurses BTC101 auf Französisch verwendet werden muss, und **ich werde ihn für keine andere Aufgabe verwenden**.
+Dann erscheint ein Pop-up-Fenster, in das Sie den Namen der neuen Zweigstelle eingeben müssen. In diesem Fall habe ich mich für den Namen "BTC101-FR" entschieden. Auf diese Weise werde ich mich immer daran erinnern, dass diese spezielle Verzweigung für das Korrekturlesen des Kurses BTC101 in Französisch verwendet werden muss und **ich werde sie für keine andere Aufgabe verwenden**.
 
 
 Ich schlage vor, dass Sie dasselbe tun: Stellen Sie sicher, dass Sie jedes Mal einen neuen Zweig eröffnen, wenn Sie eine neue Aufgabe beginnen müssen.
@@ -103,15 +103,15 @@ Sie können den Text also gerne anpassen und Sätze ändern, wenn es nötig ist.
 LLM-Tools können einige Wörter, die mit Bitcoin zusammenhängen, wörtlich übersetzen, wie Lightning Network. Das ist besonders dann der Fall, wenn es sich um sehr technische Wörter handelt. In solchen Fällen ist es ratsam, das englische Originalwort in der Zielsprache beizubehalten, um eine bessere Verständlichkeit zu erreichen, es sei denn, Ihre Sprachregeln zwingen Sie dazu, jedes einzelne Wort zu übersetzen.
 
 
-In diesem zweiten Fall sollten Sie **immer recherchieren, ob jemand anderes in Ihrer Bitcoin-Gemeinschaft dieses Wort bereits übersetzt hat** und es nun allgemein verwendet wird.
+In diesem zweiten Fall **recherchieren Sie immer, ob jemand anderes in Ihrer Bitcoin-Gemeinschaft dieses Wort bereits übersetzt hat** und es nun allgemein verwendet wird.
 
 
 
-- Eine Lösung könnte sein, **auf [BitcoinWiki](https://en.Bitcoin.it/wiki/Main_Page)** in Ihrer Zielsprache zu überprüfen, ob das Wort übersetzt wurde oder nicht. Ist das nicht der Fall, behalten Sie das Wort auf Englisch.
+- Eine Lösung könnte sein, **auf [BitcoinWiki](https://en.bitcoin.it/wiki/Main_Page)** in Ihrer Zielsprache zu überprüfen, ob das Wort übersetzt wurde oder nicht. Ist das nicht der Fall, behalten Sie das Wort auf Englisch.
 
 
 
-- In jedem Fall würde ich raten, **das EN-Wort trotzdem** einzufügen und die entsprechende Bedeutung in der Zielsprache in runden Klammern hinzuzufügen, nach dem Schema EN (LANG) oder umgekehrt. Beispiel. Address (indirizzo), oder indirizzo (Address).
+- In jedem Fall würde ich raten, **das EN-Wort trotzdem** einzufügen und die entsprechende Bedeutung in der Zielsprache in runden Klammern hinzuzufügen, nach dem Schema EN (LANG) oder umgekehrt. Beispiel. Address (indirizzo), oder indirizzo (Adresse).
 
 
 
@@ -138,7 +138,7 @@ Der Inhalt des Repositorys ist voll von Hyperlinks wie diesen hier. Da Sie nun w
 
 
 
-- Eine weitere Sache, die mit der Wortwiedergabe zusammenhängt, ist die folgende. Wenn Sie "Plan ₿ Academy" im Text finden, **belassen Sie es in dieser ursprünglichen Form**. Übersetzen Sie nicht das Wort "Plan" oder das Wort "Netzwerk". Verwenden Sie außerdem NICHT den Artikel "Der", wenn Sie Plan ₿ Academy vorstellen: **betrachten Sie es als eine Marke**.
+- Eine weitere Sache, die mit der Wortwiedergabe zusammenhängt, ist die folgende. Wenn Sie im Text "Plan ₿ Akademie" finden, **belassen Sie es in dieser ursprünglichen Form**. Übersetzen Sie nicht das Wort "Plan" oder das Wort "Netzwerk". Verwenden Sie außerdem NICHT den Artikel "Die", wenn Sie die Plan ₿ Akademie vorstellen: **betrachten Sie sie als eine Marke**.
 
 
 
@@ -148,17 +148,17 @@ Der Inhalt des Repositorys ist voll von Hyperlinks wie diesen hier. Da Sie nun w
 Eine letzte Anmerkung zu diesem Absatz: Wie bereits erwähnt, verwenden wir KI-Tools, um Inhalte zu übersetzen, und bitten dann die Mitwirkenden um ihr Eingreifen, um sicherzustellen, dass alles flüssig und gut korrigiert ist.
 
 
-Wenn Sie den Großteil des Textes mit Hilfe von KI korrigieren, werden wir das sicher bemerken, da wir mit den typischen Satzstrukturen vertraut sind, die KI erzeugt. Wenn wir feststellen, dass Sie sich beim Korrekturlesen ausschließlich auf die KI verlassen haben, ohne wesentliche Änderungen vorzunehmen, kann sich die endgültige Belohnung in Sats um die Hälfte verringern!
+Wenn Sie den größten Teil des Textes mit Hilfe von KI korrigieren, werden wir das sicher bemerken, denn wir sind mit den typischen Satzstrukturen vertraut, die KI erzeugt. Wenn wir feststellen, dass Sie sich beim Korrekturlesen ausschließlich auf die KI verlassen haben, ohne wesentliche Änderungen vorzunehmen, kann sich die endgültige Belohnung in sats um die Hälfte verringern!
 
 
 
 ## Die Struktur der Kopfzeilen
 
 
-In der Sprache Markdown beginnen Überschriften (und Absatztitel) alle mit dem Hash-Zeichen ``#``. Die Anzahl der Hash-Zeichen entspricht der Ebene der Überschrift. Eine Überschrift der Ebene drei hat zum Beispiel drei Zahlenzeichen vor dem Text (z. B. `### Meine Überschrift`).
+In der Sprache Markdown beginnen Überschriften (und Absatztitel) alle mit dem Rautenzeichen ``#``. Die Anzahl der Rautenzeichen entspricht der Ebene der Überschrift. Eine Überschrift der Ebene drei hat zum Beispiel drei Zahlenzeichen vor dem Text (z. B. "## Meine Überschrift").
 
 
-In Kursen werden die wichtigsten Teile mit einem einzigen Hash-Zeichen eingeleitet, während die Unterteile zwei bis vier Hash-Zeichen haben können. In Tutorien verwenden wir normalerweise nur Überschriften mit zwei Hash-Zeichen.
+In Kursen werden die wichtigsten Teile mit einem einzigen Rautezeichen eingeleitet, während die Unterteile zwei bis vier Rautezeichen haben können. In Tutorien verwenden wir normalerweise nur Kopfzeilen mit zwei Rautenzeichen.
 
 
 
@@ -166,13 +166,13 @@ In Kursen werden die wichtigsten Teile mit einem einzigen Hash-Zeichen eingeleit
 
 
 
-Achten Sie darauf, dass Sie **niemals die Hash-Zeichen** vor einem Titel löschen, da Sie sonst Probleme mit der Struktur des Textes bekommen.
+Achten Sie darauf, dass Sie **niemals Rautenzeichen** vor einem Titel löschen, da Sie sonst Probleme mit der Struktur des Textes bekommen.
 
 
 Gleichzeitig **verändern** Sie nicht den Teil der Kapitel-ID, den Sie im obigen Bild sehen können, ``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>`` oder die Video-Referenzen wie ``:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::``.
 
 
-Wenn wir ``#`` vor einem Titel einfügen, wird dieser in der Kursvorschau automatisch fett. Vermeiden Sie es also, die Titel während der Korrektur fett zu machen.
+Wenn wir ``#`` vor einem Titel einfügen, wird dieser in der Kursvorschau automatisch fett. Vermeiden Sie es also, die Titel während der Korrektur fett zu machen**.
 
 
 Nebenbei bemerkt: In der EN-Version von Kursen beginnen **Titel, die mit einem oder zwei ``#`` eingeleitet werden, alle Wörter in Großbuchstaben**, während Titel, die mit drei oder vier ``#`` beginnen, normalerweise nicht dieser Regel folgen. Stellen Sie nach Möglichkeit sicher, dass die Titel in Ihrer Zielsprache dieser Struktur folgen.
@@ -182,7 +182,7 @@ Nebenbei bemerkt: In der EN-Version von Kursen beginnen **Titel, die mit einem o
 ## Der erste Abschnitt der Kurse
 
 
-Am Anfang jedes Inhalts finden Sie die folgenden statischen Wörter in Kleinbuchstaben: "Name", "Beschreibung", "Ziele". Sie werden von der Website verwendet, um den Inhalt selbst zu dekodieren, und werden **immer in EN** belassen. Übersetzen Sie sie daher NICHT, da der Inhalt sonst zu Synchronisationsproblemen führt. Achten Sie darauf, dass Sie nur den Teil nach dem Doppelpunkt Korrektur lesen, der automatisch von der KI übersetzt wird.
+Am Anfang eines jeden Inhalts finden Sie die folgenden statischen Wörter in Kleinbuchstaben: "Name", "Beschreibung", "Ziele". Sie werden von der Website verwendet, um den Inhalt selbst zu dekodieren, und werden **immer in EN** belassen. Übersetzen Sie sie daher NICHT, da der Inhalt sonst zu Synchronisationsproblemen führt. Achten Sie darauf, dass Sie nur den Teil nach dem Doppelpunkt Korrektur lesen, der automatisch von der KI übersetzt wird.
 
 
 
@@ -197,6 +197,43 @@ Behalten Sie in diesem ersten Abschnitt das ursprüngliche Format bei. Fügen Si
 ![REVIEW](assets/en/8.webp)
 
 
+## Wie man mit Kursbildern umgeht
+
+
+Auf unserer Website finden Sie jetzt für fast jeden Kurs übersetzte Bilder!
+
+
+Überprüfen Sie beim Korrekturlesen immer, ob alle Bilder vorhanden sind und korrekt angezeigt werden. Wenn Sie in der "Codeansicht" die Zeile "![IMAGE](assets/de/001.webp)" finden, bedeutet dies, dass dort ein Bild angezeigt wird.
+
+
+Achten Sie darauf, dass Sie immer eine neue Zeile zwischen dem Bildcode und dem Text einfügen. Ein Beispiel unten:
+
+
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
+
+
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
+
+
+
+Denken Sie außerdem daran, den Inhalt jedes Bildes zu lesen. Wenn Sie Probleme mit der Übersetzung des Textes in den Bildern bemerken, informieren Sie Ihren Koordinator und Sie erhalten die Möglichkeit, die Bilder ebenfalls zu korrigieren!
+
+
+Sie können sich das Bild im Abschnitt "Preview" auf Github (oder auf unserer Website, in einem anderen Tab öffnen) ansehen. Kehren Sie dann zum Korrekturlesen in den Abschnitt "Code" daneben zurück.
+
+
+![REVIEW](assets/en/9.webp)
+
 
 ## Empfehlungen zum Format
 
@@ -205,11 +242,11 @@ Nachfolgend finden Sie einige Beispiele für Formatierungsfragen, auf die Sie be
 
 
 
-- Achten Sie auf merkwürdige Satzzeichen wie "*" oder "*", die eine falsche Darstellung des fetten Symbols darstellen könnten. In der Abbildung unten sehen Sie, dass die Sternchen nur rechts vom Wort stehen, was seltsam aussieht.
+- Achten Sie auf merkwürdige Satzzeichen wie "*" oder "*", die möglicherweise eine falsche Wiedergabe des fettgedruckten Symbols darstellen. In der Abbildung unten sehen Sie, dass die Sternchen nur rechts vom Wort stehen, was seltsam aussieht.
 
 
 
-![REVIEW](assets/en/9.webp)
+![REVIEW](assets/en/10.webp)
 
 
 
@@ -217,7 +254,7 @@ Nachfolgend finden Sie einige Beispiele für Formatierungsfragen, auf die Sie be
 
 
 
-![REVIEW](assets/en/10.webp)
+![REVIEW](assets/en/11.webp)
 
 
 
@@ -232,28 +269,69 @@ Nachfolgend finden Sie einige Beispiele für Formatierungsfragen, auf die Sie be
 
 
 
-![REVIEW](assets/en/11.webp)
+![REVIEW](assets/en/12.webp)
+
+
+
+
+## Korrekturlesen von Tutorials
+
+
+Wenn Sie sich für das Korrekturlesen von Tutorials entscheiden, eröffnet der Koordinator ein spezielles Thema für den **gesamten Tutorial-Bereich**. Wenn Sie Ihre Aufgabe beendet haben, können Sie Ihren Fortschritt dokumentieren, indem Sie in der Ausgabe einen Kommentar mit einer Liste der überprüften Tutorials abgeben: Auf diese Weise schaffen Sie ein klares Nachverfolgungssystem für zukünftige Referenzen, was wichtig ist, da jeden Monat neue Inhalte hinzugefügt werden. Ein Beispiel für diesen Ansatz finden Sie [hier] (https://github.com/PlanB-Network/bitcoin-educational-content/issues/3023#issuecomment-3364923190).
+
+
+![REVIEW](assets/en/13.webp)
+
+
+Da monatlich neue Anleitungen hinzugefügt werden, kann Ihr Zweig während des Korrekturlesens veraltet sein. Einige Korrekturleser haben dieses Problem gelöst, indem sie genau den Zweig synchronisiert haben, in dem sie arbeiten: **Bitte tun Sie das NIEMALS! Wenn Sie das tun, riskieren Sie den Verlust aller Fortschritte, die Sie bis zu diesem Zeitpunkt gemacht haben!**
+
+
+Stattdessen sollten Sie zuerst das Korrekturlesen der Tutorials in Ihrem aktuellen fork beenden. Dann **synchronisieren Sie `dev`**, und erstellen Sie einen neuen Zweig, in dem Sie sich auf das Korrekturlesen der neu hinzugefügten Tutorials konzentrieren (nur die, die in Ihrem vorherigen Zweig fehlen).
+
+
+Bei Tutorials besteht die Möglichkeit, dass **Bilder nicht übersetzt werden**. Da die meisten Tutorials **ursprünglich auf Französisch oder Englisch** geschrieben sind, werden Sie wahrscheinlich Bilder finden, die Befehle oder Anweisungen in der Originalsprache enthalten. Nehmen wir ein Beispiel aus dem Tutorial über Sparrow auf Niederländisch, indem wir sowohl den Text als auch das zugehörige Bild melden.
+
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Publieke server_".
+```
+
+
+![REVIEW](assets/en/14.webp)
+
+
+Wie Sie sehen können, verweist das Bild eindeutig auf `Public Server`, auf Englisch, während im Text der Ausdruck `_Publieke server_` erwähnt wird. In diesem Fall gibt es ein Kohärenzproblem, weil der Leser widersprüchliche Informationen findet, wenn er das Bild mit dem Text vergleicht.
+
+
+Um dieses Problem zu lösen, können Sie den Befehl so einfügen, wie er auf dem Bild erscheint (Englisch oder Französisch), gefolgt von der Übersetzung in Ihrer Sprache in Klammern, wie unten gezeigt:
+
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Public Server_" (Publieke server).
+```
+
+
 
 ## Korrekturlesen von Quiz
 
 
-Wussten Sie, dass Sie auch die Quizfragen in jedem Kurs Korrektur lesen können? Wenn Sie z. B. die Quizfragen für BTC101 in IT Korrektur lesen möchten, können Sie eine eigene Verzweigung öffnen und diesem Pfad folgen: "Kurse" -> "BTC101" -> "Quiz". Dort finden Sie alle Ordner, die den einzelnen Fragen gewidmet sind, zusammen mit der entsprechenden Sprachdatei im _yml_-Format.
+Wussten Sie, dass Sie auch die Quizfragen in jedem Kurs Korrektur lesen können? Wenn Sie z. B. die Quizfragen für BTC101 in IT Korrektur lesen möchten, können Sie eine spezielle Verzweigung öffnen und diesem Pfad folgen: "Kurse" -> "BTC101" -> "Quiz". Dort finden Sie alle Ordner, die den einzelnen Fragen gewidmet sind, zusammen mit der entsprechenden Sprachdatei im _yml_-Format.
 
 
 Vergewissern Sie sich auch hier, dass Sie sich in einer eigens zu diesem Zweck eröffneten Zweigstelle befinden, und informieren Sie immer den Koordinator.
 
 
-Eine wichtige Sache, die Sie beim Korrekturlesen dieser Art von _yml_-Datei beachten sollten, ist, dass Sie keine Doppelpunkte ``:`` innerhalb des Textes einfügen. Tatsächlich wird der Doppelpunkt **nur** verwendet, um Schlüssel-Wert-Paare wie "wrong_answers" vom Rest zu trennen. Ein Beispiel sehen Sie in der folgenden Abbildung:
+Eine wichtige Sache, die Sie beim Korrekturlesen dieser Art von _yml_-Datei beachten sollten, ist das Vermeiden von Doppelpunkten ``:`` oder Anführungszeichen innerhalb des Textes. Tatsächlich wird der Doppelpunkt **nur** verwendet, um Schlüssel-Wert-Paare wie "wrong_answers" vom Rest zu trennen. Ein Beispiel sehen Sie in der folgenden Abbildung:
 
 
-![REVIEW](assets/en/12.webp)
+![REVIEW](assets/en/15.webp)
 
 
-Nachdem Sie die Frage geprüft haben, ändern Sie den Status "geprüft" von "falsch" auf "wahr", wie in der Abbildung unten gezeigt. Achten Sie darauf, dass diese Statuswörter in Englisch bleiben, unabhängig davon, in welcher Sprache Sie arbeiten!
+Nachdem Sie die Frage geprüft haben, ändern Sie den Status "geprüft" von "falsch" auf "wahr", wie in der Abbildung unten gezeigt. Achten Sie darauf, **diese Statuswörter in Englisch** zu halten, unabhängig von der Sprache, in der Sie arbeiten!
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/16.webp)
 
 
 Wenn die Statuszeile "reviewed:true" fehlt, stellen Sie sicher, dass Sie sie am Ende des Quiz **hinzufügen**.
@@ -273,7 +351,8 @@ Wenn der Titel auf Englisch bleibt, können Sie den Satz an Ihre Sprache anpasse
 Achten Sie außerdem darauf, Titel in GROSSBUCHSTABEN zu schreiben.
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/17.webp)
+
 
 
 ## Der Titel und die Beschreibung Ihrer PR
@@ -289,7 +368,7 @@ Wenn Sie Ihre PR senden, wäre es toll, wenn Sie sie in diesem Format benennen w
 
 Außerdem können Sie in den **Kommentarteil des PR** "schließt" + die Nummer der Ausgabe, die der Koordinator Ihnen zu Beginn der Korrekturleseaufgabe übermittelt hat, mit vorangestelltem ``#`` schreiben.
 
-Wenn Sie zum Beispiel gerade eine PR mit der Korrektur von cyp201 + Quiz geschickt haben, können Sie schreiben "schließt [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+Wenn Sie zum Beispiel gerade eine PR mit der Korrektur von cyp201 + Quiz geschickt haben, können Sie schreiben "schließt [#2934](https://github.com/PlanB-Network/bitcoin-educational-content/issues/2934)".
 
 
 Auf diese Weise werden der PR und das Problem miteinander verbunden, und jeder, der das öffentliche Github-Repository liest, kann leicht Informationen finden.
@@ -304,49 +383,31 @@ Auf diese Weise werden der PR und das Problem miteinander verbunden, und jeder, 
 
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/18.webp)
 
 
 
 Wenn Sie die Funktion "Alles ersetzen" verwenden, ist es wichtig, die Ergebnisse zu überprüfen, um sicherzustellen, dass die Links nicht ebenfalls geändert wurden. Wenn Sie beispielsweise das Wort "Bitcoin" in "Bitkoin" ändern möchten (was in einigen Sprachen notwendig sein kann), können Sie mit der Funktion "Alles ersetzen" alle Instanzen im Text effizient aktualisieren. Beachten Sie jedoch, dass dieses Tool auch alle Links ändert, die dieses Wort enthalten, was zu Umleitungsproblemen führen kann.
 
 
-Im folgenden Beispiel hat der Korrektor die obige Funktion verwendet, um "Satoshi" durch "Satoshi(Sats)" zu ersetzen, und außerdem den Link zu einem Tutorial geändert, das das Wort selbst enthält. Dies hatte zur Folge, dass der Link ungültig wurde.
+Im folgenden Beispiel hat der Korrektor die obige Funktion verwendet, um "satoshi" durch "satoshi(sats)" zu ersetzen, und außerdem den Link zu einem Tutorial geändert, das das Wort selbst enthält. Dies hatte zur Folge, dass der Link ungültig wurde.
 
 
 Überprüfen Sie immer alle Hyperlinks im Text, um sicherzustellen, dass sie korrekt sind.
 
 
 
-![REVIEW](assets/en/16.webp)
+![REVIEW](assets/en/19.webp)
 
 
 
 
-- Wenn der Autor einen Link einfügt, der auf einen Plan ₿ Academy-Kurs oder ein Lernprogramm verweist (**nicht** in Klammern), erstellt die Website automatisch eine "Karte" mit dem entsprechenden Miniaturbild. Achten Sie daher immer darauf, dass Sie **eine neue Zeile zwischen dem Text und dem Link selbst** einfügen, da sonst der folgende Fehler auf der Website auftreten kann.
+- Wenn der Autor einen Link einfügt, der auf einen Kurs oder ein Tutorial der Plan ₿ Academy verweist (**nicht** in Klammern), erstellt die Website automatisch eine "Karte" mit der entsprechenden Miniaturansicht. Achten Sie daher immer darauf, dass Sie **eine neue Zeile zwischen dem Text und dem Link selbst** einfügen, da sonst der folgende Fehler auf der Website auftreten kann.
 
 
 
-![REVIEW](assets/en/17.webp)
+![REVIEW](assets/en/20.webp)
 
-
-Dasselbe gilt für "Bildcodes" wie diesen ``[BILD](asset/fr/001.webp)``: Achten Sie darauf, dass Sie immer eine neue Zeile zwischen dem Bildcode und dem Text einfügen. Ein Beispiel unten:
-
-
-```
-WRONG CONFIGURATION:
-- to start translating, click on the button `Translate`: ![language](assets/08.webp)
-To save, click on `save`!
-
-
-RIGHT CONFIGURATION:
-
-- to start translating, click on the button `Translate`:
-
-![language](assets/08.webp)
-
-To save, click on `save`!
-```
 
 
 ## Schlussfolgerung
@@ -355,10 +416,10 @@ To save, click on `save`!
 Zusammenfassend lässt sich sagen, dass Sie Ihre Fähigkeiten bei der Überprüfung von Inhalten verbessern können, wenn Sie die häufigsten Fehler von Korrekturlesern kennen. Es ist leicht, Dinge wie Kontext oder Konsistenz zu übersehen, und diese Fehler zu erkennen, kann einen großen Unterschied machen.
 
 
-Denken Sie immer daran, dass ein Anfänger diese Kurse und Tutorien lesen könnte, und es liegt in unserer Verantwortung, dafür zu sorgen, dass er alles versteht. Als Korrekturleser sind Sie ein Pädagoge!
+Denken Sie immer daran, dass ein Anfänger diese Kurse und Tutorien lesen könnte, und es liegt in unserer Verantwortung, sicherzustellen, dass er alles versteht. **Als Korrekturleser sind Sie ein Erzieher!
 
 
-Jetzt können Sie mit dem Korrekturlesen von Kursen, Tutorials, Quizzen und Glossaren beginnen. Bleiben Sie dran und beginnen Sie auch mit der Überprüfung von Bildern und Videotranskripten ;)
+Jetzt können Sie mit dem Korrekturlesen von Kursen, Tutorials, Quizzen und Glossaren beginnen. Bleiben Sie dran, um auch Videotranskripte zu prüfen!
 
 
 Vielen Dank für die Lektüre dieses Tutorials und viel Spaß beim Korrekturlesen!

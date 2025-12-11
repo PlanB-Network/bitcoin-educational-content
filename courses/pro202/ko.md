@@ -138,6 +138,13 @@ Plan ₿ Academy의 모든 과정과 마찬가지로, 마지막 섹션에는 여
 
 <isCourseReview>true</isCourseReview>
 
+## Final Exam
+
+<chapterId>91db243d-8479-4636-afa8-dd189b0d4c5e</chapterId>
+
+
+<isCourseExam>true</isCourseExam>
+
 
 ## 결론
 

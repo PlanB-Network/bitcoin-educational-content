@@ -1,9 +1,9 @@
-question: 哪种 Umbrel 应用程序可让您使用高级 Interface 管理您的 Lightning 节点？
-answer: 乘风破浪
+question: 哪种 Umbrel 应用程序可让您使用高级的页面来呢管理您的闪电节点？
+answer: Ride The Lightning
 wrong_answers:
   - BTCPay Lightning
-  - Nostr 继电器
-  - 比特馈送
+  - Nostr Relay
+  - Bitfeed
 explanation: |
-  Ride The Lightning 和 ThunderHub 提供完整的基于网络的 Interface，用于管理 Lightning 节点。
+  Ride The Lightning 和 ThunderHub 提供完整的基于网络的页面，用于管理闪电节点。
 reviewed: true

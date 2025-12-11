@@ -59,10 +59,11 @@ proofreading:
     contributor_names:
     reward: 71.47
   - language: id
-    last_contribution_date:
+    last_contribution_date: 2025-11-05
     urgency: 1
     contributor_names:
-    reward: 51.08
+      - AgoesRichie
+    reward: 25.54
   - language: it
     last_contribution_date:
     urgency: 1
@@ -149,6 +150,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 61.28
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 40.89
 videos:
   - id: 71603b6d-b9f2-418d-b11e-f5e553041794
     youtube:

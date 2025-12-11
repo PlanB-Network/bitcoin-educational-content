@@ -1,13 +1,10 @@
 question: Czym jest platforma DCA?
-answer: Usługa, która umożliwia użytkownikom inwestowanie stałej kwoty pieniędzy w aktywa w regularnych odstępach czasu.
+answer: Usługa, która umożliwia użytkownikom inwestowanie w aktywa stałej kwoty pieniędzy w regularnych odstępach czasu.
 wrong_answers:
-  - Rodzaj kryptowaluty Exchange, która pozwala jedynie na handel Bitcoin.
+  - Rodzaj kryptowaluty, która pozwala jedynie na handel bitcoinem.
   - Usługa finansowa, która zapewnia inwestorom pożyczki na handel z depozytem zabezpieczającym.
   - Narzędzie programowe, które śledzi ceny akcji w czasie rzeczywistym bez żadnych funkcji inwestycyjnych.
 explanation: |
-  Platforma DCA odnosi się do platformy, która ułatwia
-  Dollar-Cost Averaging (DCA), strategię inwestycyjną, w której
-  osoba fizyczna inwestuje stałą kwotę pieniędzy w
-  aktywa w regularnych odstępach czasu, niezależnie od ceny aktywa
-  niezależnie od ceny aktywów.
+  Platforma DCA to platforma, która ułatwia strategię inwestycyjną o nazwie Dollar-Cost Averaging (DCA), w której
+  osoba fizyczna inwestuje stałą kwotę pieniędzy w regularnych odstępach czasu niezależnie od ceny aktywa.
 reviewed: true

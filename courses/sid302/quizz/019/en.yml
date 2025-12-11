@@ -1,0 +1,8 @@
+question: What distinguishes regulated assets from unregulated assets in Liquid's native asset system?
+answer: Regulated assets require a second signature from an authorization server before they can be moved, enabling KYC/AML compliance
+wrong_answers:
+  - Regulated assets use smart contracts while unregulated assets use simple RPC calls for issuance
+  - Regulated assets are backed by Bitcoin reserves while unregulated assets exist only on the sidechain
+  - Regulated assets require functionary approval for creation while unregulated assets can be issued permissionlessly
+explanation: |
+  In Liquid's architecture, both regulated and unregulated assets can be issued permissionlessly using simple RPC calls without smart contracts. The key difference is in their movement: regulated assets utilize Blockstream's Asset Management Platform (AMP) to enforce compliance by requiring an additional authorization signature before transfers, while unregulated assets can move freely without such restrictions.

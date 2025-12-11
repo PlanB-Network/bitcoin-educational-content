@@ -5,5 +5,5 @@ wrong_answers:
   - 节点自动抑制成本
   - 网络阻止交易
 explanation: |
-  一旦超过渗滤阈值，交易几乎会瞬间传播到整个 Bitcoin 网络。
+  一旦超过渗滤阈值，交易几乎会瞬间传播到整个比特币网络。
 reviewed: true

@@ -1,0 +1,9 @@
+question: Wat onderscheidt volgens het hoofdstuk een zachte fork van een harde fork in Bitcoin consensusregelwijzigingen?
+answer: Een zachte fork is volledig compatibel (zowel voorwaarts als achterwaarts compatibel), terwijl een harde fork alleen achterwaarts compatibel is
+wrong_answers:
+  - Voor een zachte fork is activering met mijnwerkersignalen nodig, terwijl voor een harde fork activering met vlaggetjesdag nodig is
+  - Een zachte fork verandert bestaande opcodes terwijl een harde fork alleen nieuwe opcodes toevoegt zoals OP_NOP1-OP_NOP10
+  - Een zachte fork kan in het geheim in commits geïmplementeerd worden, terwijl een harde fork een publieke aankondiging vereist
+explanation: |
+  Het hoofdstuk geeft een duidelijke definitie van compatibiliteitstypes: voorwaartse compatibiliteit stelt oude software in staat om nieuwe gegevens te verwerken door onbekende delen te negeren, terwijl achterwaartse compatibiliteit nieuwe software in staat stelt om oude gegevens te verwerken. Een zachte fork behoudt beide soorten compatibiliteit, waardoor het volledig compatibel is. Een harde fork handhaaft alleen achterwaartse compatibiliteit, wat betekent dat nieuwe software oude gegevens kan verwerken, maar oude software kan geen nieuwe gegevens van het opgewaardeerde systeem verwerken. Dit onderscheid is cruciaal voor het begrijpen van Bitcoin upgrade mechanismen en waarom zachte vorken de voorkeur hebben voor het behouden van netwerkharmonie.
+reviewed: false

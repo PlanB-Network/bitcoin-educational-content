@@ -6,3 +6,4 @@ wrong_answers:
   - "It reveals that the GitHub platform has technical limitations for handling Bitcoin's codebase"
 explanation: |
   According to the chapter content, pull requests take a long time to be merged primarily due to a lack of review, which stems from insufficient reviewers rather than maintainer obstruction or technical issues. The review process is crucial for Bitcoin's security, as it ensures code quality and prevents malicious changes. This bottleneck exists because reviewing complex cryptographic code requires expertise and time, making qualified reviewers a scarce resource in the development process.
+reviewed: false

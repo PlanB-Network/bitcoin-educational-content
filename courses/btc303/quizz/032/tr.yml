@@ -1,0 +1,9 @@
+question: Bitcoin'ın tedarik limitinin herhangi bir merkezi otoriteye güven gerektirmeden uygulanmasını sağlayan mekanizma nedir?
+answer: Geçersiz coinbase işlemlerine sahip blokları otomatik olarak reddeden doğrulama kodunu çalıştıran tam düğümler
+wrong_answers:
+  - Herhangi bir tedarik değişikliği için çoğunluğun onayını gerektiren dağıtılmış bir mutabakat algoritması
+  - Fazla madeni para yaratılmasını matematiksel olarak engelleyen kriptografik proof-of-work
+  - Demokratik bir süreç aracılığıyla işlem geçerliliğini oylayan ağ doğrulayıcıları
+explanation: |
+  Bitcoin'nin arz limiti, her bloğun coinbase işlemini mutabakat kurallarına göre kontrol etmek için doğrulama kodunu çalıştıran tam düğümler aracılığıyla uygulanır. Bazı düğümler kötü niyetli olsa ve geçersiz blokları aşırı ödüllerle kabul etse bile, dürüst düğümler bunları görmezden gelecek ve geçerli zincire devam edecektir. Bu, herhangi bir kişiye ya da otoriteye güvenmenizin gerekmediği, yalnızca kurallara uyulduğunu doğrulayan bir kod çalıştırmanız gereken ve ağı arz şişirme girişimlerine karşı kolektif olarak güvenli hale getiren güvene dayalı olmayan bir sistem yaratır.
+reviewed: false

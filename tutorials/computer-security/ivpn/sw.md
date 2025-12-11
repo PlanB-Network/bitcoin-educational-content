@@ -1,6 +1,6 @@
 ---
 name: IVPN
-description: Kuanzisha VPN iliyolipiwa na bitcoins
+description: Kuanzisha VPN iliyolipiwa na bitcoin
 ---
 ![cover](assets/cover.webp)
 
@@ -8,11 +8,11 @@ description: Kuanzisha VPN iliyolipiwa na bitcoins
 VPN ("*Virtual Private Network*") ni huduma inayoanzisha muunganisho salama na uliosimbwa kwa njia fiche kati ya simu au kompyuta yako na seva ya mbali inayodhibitiwa na mtoa huduma wa VPN.
 
 
-Kitaalam, unapounganisha kwa VPN, trafiki yako ya mtandao inaelekezwa kwingine kupitia handaki iliyosimbwa kwa seva ya VPN. Mchakato huu hufanya iwe vigumu kwa wahusika wengine, kama vile Watoa Huduma za Mtandao (ISPs) au watendaji hasidi, kuingilia au kusoma data yako. Seva ya VPN basi hufanya kama mpatanishi anayeunganisha kwa huduma unayotaka kutumia kwa niaba yako. Inaweka IP mpya Address kwa muunganisho wako, ambayo husaidia kuficha IP yako halisi ya Address kutoka kwa tovuti unazotembelea. Hata hivyo, kinyume na yale ambayo baadhi ya matangazo ya mtandaoni yanaweza kupendekeza, kutumia VPN hakukuruhusu kuvinjari mtandao bila kujulikana, kwani inahitaji aina ya uaminifu katika mtoa huduma wa VPN ambaye anaweza kuona trafiki yako yote.
+Kitaalam, unapounganisha kwa VPN, trafiki yako ya mtandao inaelekezwa kwingine kupitia handaki iliyosimbwa kwa server ya VPN. Mchakato huu hufanya iwe vigumu kwa wahusika wengine, kama vile Internet Service Providers (ISPs) au watendaji hasidi, kuingilia au kusoma data yako. Seva ya VPN basi hufanya kama mpatanishi anayeunganisha kwa huduma unayotaka kutumia kwa niaba yako. Inaweka IP Address mpya kwa muunganisho wako, ambayo husaidia kuficha IP Address yako halisi  kutoka kwa tovuti unazotembelea. Hata hivyo, kinyume na yale ambayo baadhi ya matangazo ya mtandaoni yanaweza kupendekeza, kutumia VPN hakukuruhusu kuvinjari mtandao bila kujulikana, kwani inahitaji aina ya uaminifu katika mtoa huduma wa VPN ambaye anaweza kuona trafiki yako yote.
 
 ![IVPN](assets/fr/01.webp)
 
-Faida za kutumia VPN ni nyingi. Kwanza, huhifadhi ufaragha wa shughuli zako za mtandaoni kutoka kwa Watoa Huduma za Intaneti au serikali, mradi tu mtoa huduma wa VPN hatashiriki maelezo yako. Pili, inalinda data yako, haswa wakati umeunganishwa kwa mitandao ya umma ya Wi-Fi, ambayo inaweza kuathiriwa na mashambulio ya MITM (man-in-the-katikati). Tatu, kwa kuficha IP yako Address, VPN hukuruhusu kupita vikwazo vya kijiografia na udhibiti, ili kufikia maudhui ambayo yasingepatikana au kuzuiwa katika eneo lako.
+Faida za kutumia VPN ni nyingi. Kwanza, huhifadhi ufaragha wa shughuli zako za mtandaoni kutoka kwa Watoa Huduma za Intaneti au serikali, mradi tu mtoa huduma wa VPN hatashiriki maelezo yako. Pili, inalinda data yako, haswa wakati umeunganishwa kwa mitandao ya umma ya Wi-Fi, ambayo inaweza kuathiriwa na mashambulio ya MITM (man-in-the-man-in-the-middle). Tatu, kwa kuficha IP Address yako, VPN hukuruhusu kupita vikwazo vya kijiografia na udhibiti, ili kufikia maudhui ambayo yasingepatikana au kuzuiwa katika eneo lako.
 
 
 Kama unavyoona, VPN huhamisha hatari ya uchunguzi wa trafiki kwa mtoaji wa VPN. Kwa hiyo, wakati wa kuchagua mtoa huduma wako wa VPN, ni muhimu kuzingatia data ya kibinafsi inayohitajika kwa usajili. Mtoa huduma akiomba maelezo kama vile nambari yako ya simu, barua pepe Address, maelezo ya kadi ya benki, au mbaya zaidi, Address yako ya posta, hatari ya kuhusisha utambulisho wako na trafiki yako huongezeka. Katika tukio la maelewano ya mtoa huduma au kunaswa kisheria, itakuwa rahisi kuhusisha trafiki yako na data yako ya kibinafsi. Kwa hivyo, inashauriwa kuchagua mtoa huduma ambaye hahitaji data yoyote ya kibinafsi na anayekubali malipo yasiyojulikana, kama vile bitcoins.
@@ -26,21 +26,21 @@ Katika somo hili, ninawasilisha suluhisho rahisi, la ufanisi na la bei ya VPN am
 
 IVPN ni huduma ya VPN iliyoundwa mahsusi kwa watumiaji wanaotafuta aina ya faragha. Tofauti na watoa huduma maarufu wa VPN ambao mara nyingi hutangazwa kwenye YouTube, IPP inajitokeza kwa uwazi wake, usalama na heshima ya faragha.
 
-Sera ya faragha ya IPP ni kali: hakuna maelezo ya kibinafsi yanayohitajika wakati wa kujisajili. Unaweza kufungua akaunti bila kutoa barua pepe Address, jina, au nambari ya simu. Kwa malipo, sio lazima kuweka maelezo ya kadi ya mkopo, kwani IVPN inakubali malipo katika bitcoins (onchain na umeme). Zaidi ya hayo, IPP inadai kutoweka kumbukumbu za shughuli, ambayo ina maana kwamba, kwa nadharia, trafiki yako ya mtandao haijarekodiwa na kampuni.
+Sera ya faragha ya IPP ni kali: hakuna maelezo ya kibinafsi yanayohitajika wakati wa kujisajili. Unaweza kufungua akaunti bila kutoa anwani ya barua pepe, jina, au nambari ya simu. Kwa malipo, si lazima utoe maelezo ya kadi ya mkopo, kwani IVPN inakubali malipo kwa bitcoin (onchain na Lightning). Zaidi ya hayo, IPP inadai kutoweka kumbukumbu za shughuli, ambayo ina maana kwamba, kwa nadharia, trafiki yako ya mtandao haijarekodiwa na kampuni.
 
 IVPN pia ni [chanzo huria](https://github.com/ivpn), kuhusu programu yake, programu-tumizi, na hata tovuti yao, inayomruhusu mtu yeyote kuthibitisha na kukagua misimbo yake. Pia hupitia ukaguzi huru wa usalama kila mwaka, ambao matokeo yake huchapishwa kwenye tovuti yao.
 
 
-IPP hutumia seva zinazojipangisha pekee, na hivyo kuondoa hatari zinazohusiana na kutumia huduma za wingu za watu wengine, kama vile AWS, Google Cloud, au Microsoft Azure.
+IPP hutumia server zinazojipangisha pekee, na hivyo kuondoa hatari zinazohusiana na kutumia huduma za cloud za watu wengine, kama vile AWS, Google Cloud, au Microsoft Azure.
 
 
-Huduma hutoa vipengele vingi vya juu, kama vile multi-hop, ambayo hupitisha trafiki kupitia seva nyingi zilizo katika maeneo tofauti ili kuboresha kutokujulikana. IVPN pia inaunganisha kifuatiliaji na kizuizi cha matangazo, na inatoa chaguo la kuchagua kutoka kwa itifaki tofauti za VPN.
+Huduma hutoa vipengele vingi vya juu, kama vile multi-hop, ambayo hupitisha trafiki kupitia server nyingi zilizo katika maeneo tofauti ili kuboresha kutokujulikana. IVPN pia inaunganisha kifuatiliaji na kizuizi cha matangazo, na inatoa chaguo la kuchagua kutoka kwa itifaki tofauti za VPN.
 
 
 Kwa kawaida, ubora huu wa huduma unakuja kwa gharama, lakini bei ya kutosha mara nyingi ni kiashiria cha ubora na uaminifu. Inaweza kuashiria kuwa kampuni ina mtindo wa biashara bila hitaji la kuuza data ya kibinafsi. IVPN kisha hutoa aina 2 za mipango: Mpango wa Kawaida, unaoruhusu kuunganisha hadi vifaa 2, na mpango wa Pro, ambao unaruhusu hadi miunganisho 7 na inajumuisha itifaki ya "*Multi-hop*" ambayo huelekeza trafiki yako kupitia seva nyingi.
 
 
-Tofauti na watoa huduma wa kawaida wa VPN, IPP hufanya kazi kwa mtindo wa kununua muda wa kufikia huduma, badala ya kwa usajili unaorudiwa. Unalipa kwa bitcoins mara moja kwa muda uliochaguliwa. Kwa mfano, ukinunua mwaka mmoja wa kufikia, unaweza kutumia huduma kwa kipindi hicho, baada ya hapo utahitaji kurudi kwenye tovuti ya IPP ili kununua muda zaidi wa kufikia.
+Tofauti na watoa huduma wa kawaida wa VPN, IPP hufanya kazi kwa mtindo wa kununua muda wa kufikia huduma, badala ya kwa usajili unaorudiwa. Unalipa kwa bitcoin mara moja kwa muda uliochaguliwa. Kwa mfano, ukinunua mwaka mmoja wa kufikia, unaweza kutumia huduma kwa kipindi hicho, baada ya hapo utahitaji kurudi kwenye tovuti ya IPP ili kununua muda zaidi wa kufikia.
 
 
 [Viwango vya IPP](https://www.ivpn.net/en/pricing/) vinaendelea kulingana na muda wa ufikiaji ulionunuliwa. Hizi ndizo bei za mpango wa Kawaida:
@@ -100,7 +100,7 @@ Chagua mpango unaofaa zaidi mahitaji yako. Kwa somo hili, tutachagua mpango wa K
 
 ![IVPN](assets/notext/08.webp)
 
-IPP itafungua akaunti yako. Huna haja ya kutoa data yoyote ya kibinafsi. Ni kitambulisho cha akaunti yako pekee kitakachokuruhusu kuingia. Inafanya kazi kama ufunguo wa ufikiaji. Ihifadhi mahali salama kama vile kidhibiti chako cha nenosiri, kwa mfano. Unaweza pia kufanya nakala ya karatasi.
+IPP itafungua akaunti yako. Huna haja ya kutoa data yoyote ya kibinafsi. Kitambulisho cha akaunti yako pekee ndicho kitakachokuruhusu kuingia. Inafanya kazi kama ufunguo wa ufikiaji. Ihifadhi mahali salama, kama vile kidhibiti chako cha nenosiri, kwa mfano. Unaweza pia kufanya nakala ya karatasi.
 
 ![IVPN](assets/notext/09.webp)
 
@@ -112,11 +112,11 @@ Kisha chagua njia yako ya kulipa. Kwa upande wangu, nitafanya malipo kupitia Lig
 
 ![IVPN](assets/notext/11.webp)
 
-Hakikisha kuwa kila kitu kiko kama unavyopenda kisha ubofye kitufe cha "*Lipa kwa Umeme*".
+Hakikisha kuwa kila kitu kiko kama unavyopenda kisha ubofye kitufe cha "*Lipa kwa Lightning*".
 
 ![IVPN](assets/notext/12.webp)
 
-Umeme Invoice itawasilishwa kwako kwenye Seva yao ya BTCPay. Changanua msimbo wa QR na Umeme Wallet yako na uendelee na malipo.
+Lightning Invoice itawasilishwa kwako kwenye Servrr yao ya BTCPay. Changanua msimbo wa QR na lightning Wallet yako na uendelee na malipo.
 
 ![IVPN](assets/notext/13.webp) Once the invoice is paid, click on the "*Return to IVPN*" button.
 
@@ -134,7 +134,7 @@ Na ubandike kwenye programu uliyopakua hapo awali.
 
 ![IVPN](assets/notext/17.webp)
 
-Kisha bonyeza kitufe cha "*Ingia*".
+Kisha bonyeza kitufe cha "*enter*".
 
 ![IVPN](assets/notext/18.webp)
 
@@ -157,7 +157,7 @@ Pia una chaguo la kusitisha VPN yako kwa muda maalum.
 
 ![IVPN](assets/notext/22.webp)
 
-Kwa kubofya seva ya sasa, unaweza kuchagua seva nyingine kutoka kwa zile zinazopatikana.
+Kwa kubofya server ya sasa, unaweza kuchagua server nyingine kutoka kwa zile zinazopatikana.
 
 ![IVPN](assets/notext/23.webp)
 
@@ -169,7 +169,7 @@ Ili kufikia mipangilio ya ziada, bofya kwenye ikoni ya mipangilio.
 
 ![IVPN](assets/notext/25.webp)
 
-Katika kichupo cha "*Akaunti*", utapata mipangilio inayohusiana na akaunti yako.
+Katika kichupo cha "*account*", utapata mipangilio inayohusiana na akaunti yako.
 
 ![IVPN](assets/notext/26.webp)
 
@@ -197,7 +197,7 @@ Katika menyu ya "*AntiTracker*", chagua wasifu wa kuzuia wa kifuatiliaji chako. 
 
 ![IVPN](assets/notext/32.webp)
 
-Na hapo unayo, sasa umeandaliwa kufurahiya kikamilifu IVPN. Ikiwa pia ungependa kuimarisha usalama wa akaunti zako za mtandaoni kwa kutumia kidhibiti cha nenosiri cha ndani, ninakualika uangalie mafunzo yetu kuhusu KeePass, suluhu la bila malipo na la chanzo huria:
+Na hapo unayo, sasa umeandaliwa kufurahia kikamilifu IVPN. Ikiwa ungependa pia kuimarisha usalama wa akaunti zako za mtandaoni kwa kutumia kidhibiti cha nenosiri cha ndani, ninakualika uangalie mafunzo yetu kuhusu KeePass, suluhisho la bure na la chanzo huria:
 
 
 https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246

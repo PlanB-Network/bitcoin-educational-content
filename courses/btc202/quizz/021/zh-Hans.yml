@@ -1,4 +1,4 @@
-question: 是什么因素决定了节点对共识规则的影响？
+question: 什么因素决定了节点对共识规则的影响？
 answer: 其经济份量
 wrong_answers:
   - 其外发连接数

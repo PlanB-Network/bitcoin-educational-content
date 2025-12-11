@@ -91,7 +91,7 @@ http://umbrel.local:3003
 
 https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
-## Configuring your Bitcoin portfolio
+## Configuring your Bitcoin wallet
 
 
 To accept payments, you need to configure a Bitcoin wallet. BTCPay Server displays configuration options in the dashboard.
@@ -103,11 +103,11 @@ To accept payments, you need to configure a Bitcoin wallet. BTCPay Server displa
 To configure wallet Bitcoin, go to "Wallets" > "Bitcoin".
 
 
-You have two options: create a new portfolio directly in BTCPay, or import an existing portfolio. For importing, several methods are available:
+You have two options: create a new wallet directly in BTCPay, or import an existing wallet. For importing, several methods are available:
 
 
 - Connect hardware wallet** (recommended): Import your public keys via the Vault application
-- Import wallet file** (recommended): Upload an exported file from your portfolio
+- Import wallet file** (recommended): Upload an exported file from your wallet
 - Enter extended public key**: Enter your XPub/YPub/ZPub manually
 - Scan wallet QR code** : Scan a QR code from BlueWallet, Cobo Vault, Passport or Specter DIY
 - Enter wallet seed** (not recommended) : Enter your 12- or 24-word recovery phrase

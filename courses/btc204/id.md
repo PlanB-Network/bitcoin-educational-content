@@ -347,7 +347,7 @@ Jadi, kita juga harus mampu mengatasi analisis blockchain dalam penggunaan Bitco
 
 Apa cara yang lebih baik untuk melawan analisis blockchain selain mempelajari metode yang digunakan di dalamnya? Jika Anda ingin tahu cara meningkatkan privasi Anda di Bitcoin, Anda perlu memahami metode-metode ini. Ini akan memberi Anda pemahaman yang lebih baik tentang teknik-teknik seperti coinjoin atau payjoin (teknik yang akan kita bahas di bagian akhir kursus ini), dan mengurangi kesalahan yang mungkin Anda buat.
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
@@ -1889,7 +1889,6 @@ Saat ini, Whirlpool merupakan satu-satunya implementasi coinjoin yang menerapkan
 :::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
 
 
-*Pada tahun 2024, kita akan menyaksikan perubahan besar pada alat yang tersedia untuk pengguna yang ingin membuat coinjoin di Bitcoin. Saat ini kita sedang berada di titik balik, dan pasar coinjoin sedang mengalami restrukturisasi besar-besaran. Bab ini pasti akan diperbarui seiring berjalannya waktu.*
 
 Untuk saat ini, ada 3 implementasi coinjoin yang berbeda pada Bitcoin:
 
@@ -1897,6 +1896,10 @@ Untuk saat ini, ada 3 implementasi coinjoin yang berbeda pada Bitcoin:
 - Pusaran air;
 - Wabisabi;
 - JoinMarket.
+
+Selain tiga implementasi historis ini, baru-baru ini muncul satu yang baru: Joinstr. Saya tidak akan membahasnya dalam bab ini, tetapi Anda dapat menemukan semua informasi terkait dalam tutorial khusus ini:
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
 
 Setiap implementasi ini bertujuan untuk memecahkan sejarah UTXO melalui transaksi coinjoin. Akan tetapi, mekanismenya sangat bervariasi. Oleh karena itu, penting untuk memahami cara kerja masing-masing, sehingga Anda dapat memilih opsi yang paling sesuai dengan kebutuhan Anda.
 
@@ -1919,6 +1922,8 @@ Namun, hambatan teknis tetap menjadi kendala utama. Dalam ekosistem coinjoin, di
 Terlepas dari model penghubung P2P yang inovatif untuk coinjoiners, JoinMarket memiliki beberapa kelemahan yang signifikan, terutama dalam hal struktur transaksional. Tidak seperti implementasi lain seperti Whirlpool, JoinMarket tidak menjamin kesetaraan yang sempurna antara output, dan memungkinkan untuk melacak hubungan deterministik antara input dan output. Selain itu, ia tidak memiliki alat untuk mencegah bagian-bagian yang sudah tercampur agar tidak tercampur lagi, yang dapat membahayakan kerahasiaan yang diinginkan oleh pengguna.
 
 Akhirnya, meskipun konsep JoinMarket menarik, terutama bagi mereka yang tertarik dengan pasar likuiditas yang dinamis, kelemahan struktural dan kerumitan teknisnya membuatnya, menurut pendapat saya, kurang menarik bagi para pemula dan ahli yang mencari implementasi coinjoin.
+
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
 
 ### Wabisabi
 
@@ -1964,6 +1969,10 @@ Di luar masalah teknis, keputusan zkSNACKs, perusahaan di balik Wasabi, untuk me
 Yang lebih mengkhawatirkan lagi adalah prinsip penyaringan, yang sangat kontras dengan filosofi Bitcoin yang menawarkan sistem keuangan yang terbuka dan tidak disensor. Meskipun mungkin terlihat dibenarkan untuk mengecualikan aktivitas kriminal, penyaringan ini juga dapat mempengaruhi individu yang tindakannya, meskipun diklasifikasikan sebagai ilegal dalam konteks tertentu, dapat dibenarkan secara moral atau bermanfaat secara sosial. Contoh Edward Snowden dengan sempurna menggambarkan dikotomi ini: dianggap sebagai penjahat oleh beberapa pemerintah karena pengungkapannya, dia dilihat oleh pemerintah lain sebagai whistleblower yang bertindak untuk kepentingan publik. Kerumitan ini menggarisbawahi potensi bahaya penyaringan yang, meskipun bertujuan baik, pada akhirnya dapat merusak hak dan keamanan pengguna yang sah. Saya juga bisa saja menyebutkan aktivis dan jurnalis yang dianiaya di bawah rezim otoriter tertentu.
 
 Seperti yang sudah Anda ketahui sekarang, preferensi saya adalah model Whirlpool untuk coinjoin di Bitcoin. Sistem ini menonjol karena ketelitiannya dan menawarkan jaminan kerahasiaan yang unggul. Sistem ini juga merupakan satu-satunya yang menawarkan campuran yang dianggap sempurna dalam konteks matematika. Menurut saya, model ini mewakili masa depan coinjoin di Bitcoin. Saya mengundang Anda untuk menjelajahi model ini secara lebih mendalam di bab selanjutnya.
+
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
 
 ## Cara kerja Whirlpool
 
@@ -2166,7 +2175,7 @@ Juga tidak disarankan untuk mentransfer UTXO postmix Anda ke dompet menggunakan 
 
 Seperti halnya transaksi Bitcoin lainnya, penting juga untuk tidak menggunakan kembali alamat penerima. Setiap transaksi baru harus diterima di alamat baru yang kosong.
 
-Solusi paling sederhana dan paling aman adalah dengan membiarkan UTXO campuran Anda tetap berada di akun **postmix** mereka, membiarkannya bercampur dan hanya menyentuhnya untuk dibelanjakan. Dompet Samurai dan Sparrow memiliki fitur perlindungan tambahan terhadap semua risiko analisis rantai ini. Perlindungan ini membantu Anda menghindari kesalahan.
+Solusi paling sederhana dan paling aman adalah membiarkan UTXO Anda yang telah tercampur tetap berada di akun **postmix**, membiarkannya terus tercampur ulang, dan menyentuhnya hanya ketika hendak membelanjakannya. Dompet Samourai (dan kini Ashigaru) serta Sparrow memiliki perlindungan tambahan terhadap semua risiko terkait analisis rantai. Perlindungan ini membantu Anda menghindari kesalahan.
 
 ### Bagaimana cara Anda mengelola bursa beracun?
 
@@ -2179,24 +2188,27 @@ Berikut adalah beberapa strategi untuk menggunakannya:
 - Tandai sebagai "tidak dapat dibelanjakan": **Pendekatan lain adalah berhenti menggunakannya, tandai sebagai "tidak dapat dibelanjakan" di akun khusus, dan hodl. Hal ini memastikan bahwa Anda tidak akan membelanjakannya secara tidak sengaja. Jika nilai bitcoin naik, pool baru yang lebih cocok untuk UTXO beracun Anda mungkin akan muncul;**
 - **Berikan donasi:** Pertimbangkan untuk memberikan donasi, betapapun kecilnya, kepada para pengembang yang mengerjakan Bitcoin dan perangkat lunak terkait. Anda juga dapat menyumbang ke asosiasi yang menerima BTC. Jika mengelola UTXO beracun Anda tampak terlalu rumit, Anda bisa langsung menyingkirkannya dan memberikan donasi;
 - Beli kartu hadiah: Platform seperti [Bitrefill](https://www.bitrefill.com/) memungkinkan Anda untuk menukar bitcoin dengan kartu hadiah yang dapat digunakan di berbagai pedagang. Ini bisa menjadi cara untuk berpisah dengan UTXO beracun Anda tanpa kehilangan nilai yang terkait;
-- Gabungkan mereka di Monero: Dompet Samourai menawarkan layanan pertukaran atom antara BTC dan XMR. Ini sangat ideal untuk mengelola UTXO beracun dengan mengkonsolidasikannya di Monero, tanpa mengorbankan kerahasiaan Anda melalui CIOH, sebelum mengirimnya kembali ke Bitcoin. Namun, opsi ini bisa jadi mahal dalam hal biaya penambangan dan premium karena kendala likuiditas;
+- **Mengonsolidasikannya melalui Monero:** Samourai Wallet dahulu menawarkan layanan pertukaran atom antara BTC dan XMR, namun kini tidak lagi tersedia sejak penangkapan mereka. Pendekatan ini memungkinkan penanganan UTXO beracun dengan mengonsolidasikannya di Monero tanpa mengorbankan privasi Anda melalui CIOH, sebelum mengirimkannya kembali ke Bitcoin. Jika layanan serupa muncul kembali, ini dapat menjadi pilihan menarik. Namun perlu diingat bahwa metode ini dapat menjadi mahal, baik karena biaya penambangan maupun premi akibat keterbatasan likuiditas saat konversi balik ke bitcoin.
 - **Kirim ke Lightning Network:** Mentransfer UTXO ini ke Lightning Network untuk mendapatkan keuntungan dari pengurangan biaya transaksi dapat menjadi opsi yang menarik. Namun, metode ini dapat mengungkapkan informasi tertentu tergantung pada cara Anda menggunakan Lightning, dan oleh karena itu harus digunakan dengan hati-hati.
 
 ### Bagaimana cara menggunakan Whirlpool?
 
-Setelah penangkapan pendiri Samourai Wallet dan penyitaan server mereka pada tanggal 24 April 2024, alat Whirlpool tidak lagi berfungsi, bahkan bagi mereka yang memiliki Dojo sendiri. Sebelumnya, alat ini tersedia di Samourai Wallet dan Sparrow Wallet.
+Setelah penangkapan para pendiri Samourai Wallet dan penyitaan server mereka pada 24 April 2024, alat Whirlpool tidak lagi tersedia di Samourai Wallet dan Sparrow Wallet.
 
 ![BTC204](assets/id/155.webp)
 
-Namun, masih ada kemungkinan bahwa alat ini akan diaktifkan kembali dalam beberapa minggu mendatang, tergantung pada hasil uji coba, atau diluncurkan kembali dengan cara yang berbeda. Bagaimanapun, saya rasa pasar coinjoin Bitcoin tidak akan kekurangan pasokan untuk waktu yang lama, karena permintaan tetap ada. Terlebih lagi, karena model Whirlpool adalah yang paling canggih dalam hal kerahasiaan, model ini pasti akan menjadi model pilihan untuk implementasi lain di masa depan.
 
-Kami terus memantau kasus ini dan perkembangan alat yang terkait. Yakinlah bahwa kami akan memperbarui kursus pelatihan ini saat informasi baru tersedia.
+
+Sekarang, Whirlpool kembali dapat diakses pada aplikasi seluler Ashigaru, sebuah fork dari Samourai Wallet, berkat perangkat lunak Ashigaru Terminal.
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
+Inti cara kerja Whirlpool tetap tidak berubah, namun tetap ada beberapa perbedaan dibandingkan penggunaannya di Samourai: pada tahun 2025, di Ashigaru, hanya dua pool yang tersedia, masing-masing bernilai `0.25 BTC` dan `0.025 BTC`, dengan biaya masuk masing-masing `0.0125 BTC` dan `0.00125 BTC`.
 
 Di bab berikutnya, kita akan mengetahui apa itu "anonset", bagaimana indikator ini dihitung, dan bagaimana indikator ini dapat membantu kita memperkirakan efisiensi siklus coinjoin.
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 
@@ -2534,7 +2546,7 @@ Sayangnya, setelah para pendiri Samourai ditangkap, alat-alat ini tidak lagi ber
 
 Setelah kita membahas coinjoins secara mendetail, kita akan melihat teknik privasi lain yang tersedia di Bitcoin di bagian akhir kursus ini. Kita akan melihat payjoin, jenis transaksi pseudo-coinjoin tertentu, protokol alamat statis, serta langkah-langkah untuk memperkuat kerahasiaan tidak pada tingkat transaksi itu sendiri, tetapi pada tingkat jaringan node.
 
-https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # Memahami tantangan teknik kerahasiaan tingkat lanjut lainnya
 
@@ -2620,7 +2632,10 @@ Program perangkat lunak terkenal yang mendukung payjoin termasuk Sparrow Wallet,
 
 ![BTC204](assets/id/177.webp)
 
-Implementasi payjoin yang paling canggih hanyalah Stowaway di Samourai Wallet. Namun, sejak penangkapan para pendiri perangkat lunak ini, alat ini sekarang hanya berfungsi sebagian. Keuntungan dari Stowaway adalah protokolnya yang komprehensif dan mudah digunakan, yang mendukung penerimaan dan pengiriman payjoin. Transaksi yang ditandatangani sebagian dapat ditukar secara manual dengan memindai beberapa kode QR, atau secara otomatis dengan Tor melalui Soroban. Opsi komunikasi yang terakhir saat ini tidak tersedia.
+
+Implementasi payjoin yang paling maju tentu saja Stowaway yang diciptakan oleh para pengembang Samourai Wallet. Sejak penangkapan para pendiri perangkat lunak tersebut, alat ini hanya berfungsi sebagian di Samourai. Namun, alat ini telah diaktifkan kembali di aplikasi Ashigaru.
+
+Keunggulan Stowaway adalah bahwa ini merupakan protokol lengkap dan sangat mudah digunakan, yang mendukung penerimaan maupun pengiriman payjoin. Transaksi yang ditandatangani sebagian dapat dipertukarkan secara manual melalui pemindaian beberapa kode QR atau secara otomatis melalui Tor menggunakan Soroban.
 
 ![BTC204](assets/id/178.webp)
 
@@ -2630,7 +2645,7 @@ Salah satu solusinya adalah dengan menggunakan struktur transaksi yang memperken
 
 
 
-https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Pembayaran dengan koin mini
 
@@ -2743,19 +2758,20 @@ Logikanya harus seperti berikut ketika Anda ingin menggunakan alat kerahasiaan u
 
 ### Bagaimana cara menggunakan transaksi Stonewall dan Stonewall x2?
 
-Transaksi Stonewall dan Stonewall x2 tersedia di aplikasi Samourai Wallet dan perangkat lunak Sparrow Wallet.
+Transaksi Stonewall tersedia di Sparrow Wallet maupun di Ashigaru, sedangkan Stonewall x2 untuk saat ini hanya didukung oleh Ashigaru.
 
 ![BTC204](assets/id/189.webp)
 
-Namun, seperti halnya payjoin, setelah penangkapan para pendiri Samourai, transaksi Stonewall x2 sekarang hanya berfungsi dengan menukarkan PSBT secara manual antara pihak-pihak yang bersangkutan. Sayangnya, pertukaran otomatis melalui Soroban tidak lagi tersedia.
 
 Anda juga dapat melakukan jenis transaksi ini secara manual dari perangkat lunak dompet Bitcoin apa pun.
 
 Dalam bab berikutnya, kita akan melihat teknik kerahasiaan lain yang relatif tidak dikenal, tetapi sangat berguna sebagai pelengkap dari apa yang telah kita pelajari.
 
-https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/sparrow-stonewall-6fcfd679-7038-4ee2-8bf7-de76a72f9392
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Memantul
 
@@ -2810,14 +2826,14 @@ Kasus penggunaan yang paling umum untuk ricochet terjadi ketika diperlukan untuk
 
 Metode ini efektif tidak hanya untuk coinjoin, tetapi juga untuk tanda lain yang dapat mengganggu kompatibilitas bagian.
 
-Ide untuk metode ricochet ini awalnya berasal dari tim Samourai Wallet, yang mengintegrasikannya ke dalam aplikasi mereka untuk mengotomatiskan prosesnya. Layanan ini tidak gratis di Samourai, karena ricochet melibatkan biaya layanan sebesar 100.000 sat, ditambah biaya penambangan. Oleh karena itu, penggunaannya direkomendasikan untuk transfer dalam jumlah yang signifikan.
+Gagasan mengenai metode ricochet ini berasal dari tim Samourai Wallet, yang telah mengintegrasikannya ke dalam aplikasi mereka untuk mengotomatiskan operasinya. Layanan ini berbayar di Samourai, karena setiap ricochet menimbulkan biaya tetap sebesar 100.000 sats untuk biaya layanan, ditambah biaya penambangan. Hal yang sama berlaku saat ini di Ashigaru. Karena itu, penggunaannya lebih dianjurkan untuk transfer dengan nominal besar.
 
 ![BTC204](assets/id/196.webp)
 
-Aplikasi Samurai menawarkan dua varian pantulan:
+Aplikasi Ashigaru menawarkan dua varian ricochet (sama seperti yang sebelumnya ada di Samourai):
 
 
-- Diperkuat memantul, atau "pengiriman terhuyung-huyung", yang menawarkan keuntungan menyebarkan biaya layanan Samurai ke dalam lima transaksi yang berurutan. Opsi ini juga memastikan bahwa setiap transaksi disiarkan pada waktu yang berbeda dan dicatat dalam blok yang berbeda, meniru semirip mungkin perilaku perubahan pemilik. Meskipun lebih lambat, metode ini lebih disukai bagi mereka yang tidak terburu-buru, karena memaksimalkan efisiensi ricochet dengan memperkuat ketahanannya terhadap analisis rantai;
+- Ricochet yang diperkuat, atau "pengiriman bertahap", menawarkan keuntungan dengan membagi biaya layanan Ashigaru ke dalam lima transaksi berturut-turut. Opsi ini juga memastikan bahwa setiap transaksi disiarkan pada waktu yang berbeda dan dicatat dalam blok yang berbeda, sehingga dapat meniru perilaku perubahan kepemilikan secara sedekat mungkin. Meskipun lebih lambat, metode ini lebih disukai bagi mereka yang tidak terburu-buru, karena memaksimalkan efektivitas ricochet dengan memperkuat ketahanannya terhadap analisis rantai;
 
 ![BTC204](assets/id/197.webp)
 
@@ -2830,7 +2846,7 @@ Memantulkan berarti mengirimkan bitcoin ke diri Anda sendiri. Sangat mungkin unt
 
 Pada bab berikutnya, kita akan melihat berbagai teknik untuk transfer kepemilikan secara rahasia. Metode-metode ini berbeda secara radikal dari yang telah kita bahas sejauh ini, baik dari segi operasi maupun hasil.
 
-https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Pengalihan kepemilikan secara rahasia
 
@@ -3070,7 +3086,7 @@ Tujuan dari BIP47 adalah untuk memungkinkan menerima pembayaran dalam jumlah bes
 
 Oleh karena itu, seorang pengguna dapat membagikan kode pembayarannya dengan bebas, baik di jejaring sosial atau di situs webnya, tanpa risiko kehilangan kerahasiaan, tidak seperti dengan alamat penerima konvensional atau kunci publik.
 
-Untuk melakukan transaksi, kedua belah pihak membutuhkan dompet Bitcoin dengan implementasi BIP47, seperti PayNym di Samurai Wallet atau Sparrow Wallet. Penggunaan bersama kode pembayaran mereka menciptakan saluran rahasia di antara mereka. Untuk membuat saluran ini secara efektif, penerbit harus melakukan transaksi tertentu pada blockchain Bitcoin, yang dikenal sebagai "transaksi notifikasi" (lebih lanjut tentang ini nanti).
+Untuk melakukan sebuah transaksi, kedua pihak harus memiliki dompet Bitcoin dengan implementasi BIP47, seperti PayNym di Ashigaru atau Sparrow Wallet. Penggunaan bersama kode pembayaran mereka menciptakan saluran rahasia di antara keduanya. Untuk membangun saluran ini secara efektif, pengirim harus melakukan transaksi tertentu pada blockchain Bitcoin, yang dikenal sebagai "transaksi pemberitahuan" (saya akan memberikan rinciannya nanti).
 
 Penggabungan kode pembayaran dari dua pengguna menghasilkan rahasia bersama, yang pada gilirannya akan menghasilkan sejumlah besar alamat penerima Bitcoin yang unik (tepatnya 2^32, atau sekitar 4 miliar). Dengan cara ini, pembayaran yang dilakukan melalui BIP47 tidak benar-benar ditujukan kepada kode pembayaran itu sendiri, melainkan kepada alamat penerimaan klasik yang berasal dari kode pembayaran para pengguna yang terlibat.
 
@@ -3092,7 +3108,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 Kode ini juga dapat dikodekan sebagai kode QR, untuk memudahkan komunikasi, seperti halnya alamat penerimaan konvensional.
 
-Sedangkan untuk PayNym Bots, robot yang kadang-kadang terlihat di Twitter, ini adalah representasi visual dari kode pembayaran, yang dibuat oleh Samourai Wallet. Mereka dibuat menggunakan fungsi hash, sehingga hampir tidak ada keunikannya. Bentuknya berupa serangkaian karakter kecil yang dimulai dengan `+`:
+Terkait PayNym Bot, yaitu bot yang kadang terlihat di X (Twitter), bot tersebut merupakan representasi visual dari kode pembayaran yang dibuat oleh Samourai Wallet. Kini dengan Ashigaru, tampilannya sedikit berbeda, namun prinsipnya tetap sama. Bot tersebut dihasilkan melalui fungsi hashing, yang memberinya sifat hampir unik. Mereka muncul sebagai sebuah rangkaian karakter kecil yang diawali dengan `+` :
 
 ```plaintext
 +throbbingpond8B1

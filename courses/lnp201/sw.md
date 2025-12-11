@@ -1,13 +1,12 @@
 ---
-name: Utangulizi wa Kinadharia kwa Lightning Network
+name: Nadharia ya Lightning Network
 goal: Gundua Lightning Network kutoka kwa mtazamo wa kiufundi
-objectives: 
-  - Kuelewa uendeshaji wa njia za mtandao.
-  - Jifahamishe na masharti HTLC, LNURL, na UTXO.
-  - Kusasisha usimamizi wa ukwasi na ada za LNN.
-  - Tambua Lightning Network kama mtandao.
-  - Kuelewa matumizi ya kinadharia ya Lightning Network.
-
+objectives:
+- Kuelewa uendeshaji wa njia za mtandao.
+- Jifahamishe na masharti HTLC, LNURL, na UTXO.
+- Kusasisha usimamizi wa ukwasi na ada za LNN.
+- Tambua Lightning Network kama mtandao.
+- Kuelewa matumizi ya kinadharia ya Lightning Network.
 ---
 # Safari ya Bitcoin ya Pili ya safu
 

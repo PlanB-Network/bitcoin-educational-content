@@ -27,6 +27,8 @@ Katika somo hili la kwanza, nitakupeleka kupitia usakinishaji na uendeshaji wa A
 
 
 
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
+
 ## 1. Weka Ashigaru Terminal
 
 
@@ -286,7 +288,7 @@ Katika somo hili, tutachagua njia ya pili. Hata hivyo, ikiwa ungependelea kuunda
 
 
 
-Tafadhali pia kumbuka kuwa Ashigaru Terminal haikuruhusu kutumia bitcoins zako moja kwa moja. Unaweza kusawazisha wallet ile ile kwenye Kituo cha Ashigaru na kwenye programu ya Ashigaru (ambayo nitafanya katika mafunzo haya), au utumie chaguo la `Changanya kwa` (ambalo tutaangalia katika mafunzo yanayofuata) kutuma pesa zako kiotomatiki kwa maunzi ya wallet baada ya idadi fulani ya mizunguko ya mchanganyiko.
+Pia kumbuka kuwa Ashigaru Terminal hairuhusu kutumia bitcoins zako moja kwa moja. Unaweza kusawazisha pochi ile ile kwenye Ashigaru Terminal na programu ya Ashigaru (ambayo nitafanya katika mafunzo haya), au kwenye Sparrow Wallet.
 
 
 
@@ -324,7 +326,6 @@ Kisha chagua aina ya kwingineko `Hot Wallet`.
 
 
 
-*Kumbuka*: chaguo la `Kutazama pekee` hukuruhusu kuhifadhi `xpub` ya maunzi ya wallet ili utumie kipengele cha `Changanya kwa` baadaye. Hata hivyo, aina hii ya wallet ni wazi haiwezi kushiriki katika coinjoins. Tutarudi kwa kipengele hiki kwa undani katika mafunzo yanayofuata.
 
 
 
@@ -447,4 +448,5 @@ Operesheni basi inafanana na ile ya Sparrow, kwa kuwa Kituo cha Ashigaru ni fork
 
 
 
-Sasa unajua jinsi ya kufunga na kutumia Ashigaru Terminal. Katika somo linalofuata, tutaangalia jinsi ya kuunda viungio sanjari na programu hii, na jinsi ya kudhibiti usuli katika "*Postmix*", ama kupitia programu ya Ashigaru, au kutumia chaguo la `Changanya kwa`.
+Sasa unajua jinsi ya kusakinisha na kutumia Ashigaru Terminal. Katika mafunzo yajayo, tutaona jinsi ya kufanya coinjoin kwa programu hii na jinsi ya kusimamia fedha katika "*Postmix*".
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef

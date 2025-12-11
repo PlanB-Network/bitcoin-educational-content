@@ -323,7 +323,7 @@ RoninDojo 提供了一个用于在 [RockPro64](https://ronindojo.io/en/download)
 
 在使用Whirlpool进行coinjoins之后，准确评估你的混合UTXOs所达到的隐私级别是有用的。为此，你可以使用Python工具*Whirlpool Stat Tool*。这个工具允许你测量你的UTXOs的前瞻性和回顾性分数，同时分析它们在池中的扩散率。
 
-为了深入理解这些匿名集的计算机制，我推荐阅读文章：[REMIX - WHIRLPOOL](https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)，它详细介绍了这些指标的功能。
+为了深入理解这些匿名集的计算机制，我推荐阅读文章：[REMIX - WHIRLPOOL](https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)，它详细介绍了这些指标的功能。
 
 要访问WST工具，请转到RoninCLI。为此，在你的个人电脑上打开一个终端，并使用以下命令与你的节点建立SSH连接：
 `SSH ronindojo@[IP]`

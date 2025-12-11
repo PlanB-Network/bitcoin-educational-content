@@ -84,7 +84,7 @@ Ili kujua zaidi kuhusu Dojo na kujifunza jinsi ya kuisakinisha, ninakualika ufua
 
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 Iwapo huwezi kumudu kuendesha Dojo yako mwenyewe, unaweza kupata watu walio tayari kushiriki mfano wao bila malipo kwenye [dojobay.pw](https://www.dojobay.pw/mainnet/). Hili linaweza kuwa suluhu la muda, lakini baada ya muda mrefu, ninapendekeza utumie Dojo yako ili kuhakikisha uhuru na usiri wako.
 
@@ -579,3 +579,4 @@ Baada ya shughuli ya arifa kuthibitishwa, unaweza kutuma michango yako kwa mradi
 
 
 Sasa unajua jinsi ya kutumia vipengele vya msingi vya programu ya Ashigaru. Katika mafunzo yajayo, tutaangalia jinsi ya kunufaika na miamala ya juu ya matumizi, pamoja na Whirlpool, utekelezaji sanjari uliorithiwa kutoka kwa Samurai Wallet.
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

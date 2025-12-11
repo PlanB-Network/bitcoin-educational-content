@@ -24,11 +24,11 @@ El resultado es **Debifi**, una plataforma que se posiciona como una alternativa
 
 
 
-Debifi es una plataforma de préstamo sin custodia respaldada por Bitcoin, lo que significa que usted conserva el control de sus claves privadas. Permite a los usuarios desbloquear liquidez en Exchange por sus bitcoins bloqueados como garantía. A diferencia de los préstamos bancarios tradicionales, Debifi utiliza un sistema de custodia multi-firma (3 de 4) y no acepta hipotecas colaterales, garantizando una mayor seguridad y transparencia.
+Debifi es una plataforma de préstamo sin custodia respaldada por Bitcoin, lo que significa que conservas el control de tus claves privadas. Permite a los usuarios desbloquear liquidez a cambio de sus bitcoins bloqueados como garantía. A diferencia de los préstamos bancarios tradicionales, Debifi utiliza un sistema de custodia multi-firma (3 de 4) y no acepta la rehipotecación de garantías, lo que garantiza una mayor seguridad y transparencia.
 
 
 
-En la práctica, esto significa que ni Debifi ni un prestamista individual pueden gastar su BTC sin el acuerdo de tres partes (usted, el prestamista y un tercero de confianza). Esto hace que el sistema sea más seguro: si pides un préstamo en Debifi, conservas Ownership de tus Bitcoin hasta que el préstamo se haya devuelto en su totalidad.
+En la práctica, esto significa que ni Debifi ni un prestamista individual pueden gastar su BTC sin el acuerdo de tres partes (usted, el prestamista y un tercero de confianza). Esto hace que el sistema sea más seguro: si pides prestado en Debifi, conservas la propiedad de tu Bitcoin hasta que el préstamo haya sido devuelto en su totalidad.
 
 
 
@@ -36,22 +36,21 @@ En la práctica, esto significa que ni Debifi ni un prestamista individual puede
 
 
 
-Con Debifi, se trata de préstamos colateralizados, seguridad Blockchain (multifirma, 2FA), una selección de stablecoins/líquidos, confidencialidad y control total Bitcoin. Debifi "le permite mantener su dinero" (sus claves, sus monedas), al tiempo que ofrece tasas competitivas y acceso global a préstamos respaldados por BTC.
+Con Debifi, obtienes préstamos respaldados por Bitcoin que están sobrecolateralizados y garantizados on-chain. Sus fondos permanecen seguros con billeteras multifirma, 2FA y control total sobre su Bitcoin - usted mantiene sus llaves, usted mantiene sus monedas. Pida prestado en una gama de stablecoins u opciones fiat, a tipos competitivos, y liquidez global.
 
 
 
 He aquí una rápida comparación entre un préstamo Debifi y un préstamo bancario tradicional:
 
 
-
-| Caractéristiques       | Prêt via Debifi                                                       | Prêt bancaire traditionnel                                                 |
-| ---------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Accessibilité          | ✔️ Ouvert à tout détenteur de Bitcoin (même sans historique bancaire) | ❌ Souvent réservé aux clients avec garanties physiques et dossiers solides |
-| Vitesse d’obtention    | ✔️ Liquide en quelques minutes/heures                                 | ❌ Processus long (jours ou semaines)                                       |
-| Garanties exigées      | ✔️ Collatéral en Bitcoin uniquement                                   | ❌ Garanties physiques (maisons, terrains, revenus stables)                 |
-| Contrôle de l’actif    | ✔️ Vous conservez l’exposition au Bitcoin et son potentiel de hausse  | ❌ Vous n’avez aucun lien entre le prêt et vos actifs financiers            |
-| Souplesse géographique | ✔️ Disponible partout (sans contrainte géographique bancaire)         | ❌ Limité à la juridiction de la banque                                     |
-| Risque principal       | ❌ Risque de liquidation si le prix du BTC chute trop                  | ❌ Risque de saisie de biens ou impact négatif sur la cote de crédit        |
+| Characteristics        | Loan via Debifi                                                        | Traditional Bank Loan                                                       |
+| ---------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Accessibility          | ✔️ Open to any Bitcoin holder (even without banking history)           | ❌ Often limited to clients with physical collateral and strong records      |
+| Speed of approval      | ✔️ Funds available within minutes or hours                             | ❌ Lengthy process (days or weeks)                                           |
+| Required guarantees    | ✔️ Bitcoin used as the sole collateral                                 | ❌ Physical guarantees (property, land, stable income)                       |
+| Asset control          | ✔️ You keep exposure to Bitcoin and its upside potential               | ❌ No connection between the loan and your financial assets                  |
+| Geographic flexibility | ✔️ Available everywhere (no banking jurisdiction constraints)          | ❌ Restricted to the bank’s jurisdiction                                     |
+| Main risk              | ❌ Liquidation risk if BTC price drops too sharply                      | ❌ Risk of asset seizure or negative impact on credit score                  |
 
 Antes de mostrarte paso a paso cómo pedir un préstamo en Debifi, hay algunos puntos que creo que debes saber.
 
@@ -76,13 +75,13 @@ Antes de mostrarte paso a paso cómo pedir un préstamo en Debifi, hay algunos p
 
 
 
-- El sistema Multisig escrow (3/4)** es un mecanismo de depósito seguro en el que los bitcoins de un prestatario se colocan en un Address multifirma. En concreto, cuatro (4) partes poseen cada una una clave (prestatario, prestamista, Debifi, tercero independiente). Para mover los fondos, se requieren al menos 3 de las 4 firmas.
+- El sistema Multisig escrow (3/4)** es un mecanismo de depósito seguro en el que los bitcoins de un prestatario se colocan en una dirección multifirma. En concreto, cuatro (4) partes poseen cada una una clave (prestatario, prestamista, Debifi, tercero independiente). Para mover los fondos, se requieren al menos 3 de las 4 firmas.
 
 
 
 
 
-- Una stablecoin** es una criptomoneda cuyo valor está vinculado a un activo estable (por ejemplo, el dólar estadounidense), lo que evita la volatilidad del Bitcoin. Por ejemplo, 1 USDC siempre vale ~$1, ya que está respaldada por reservas fiduciarias.
+- Una stablecoin** es una criptomoneda cuyo valor está vinculado a un activo estable (por ejemplo, el dólar estadounidense), lo que evita la volatilidad del Bitcoin. Por ejemplo, 1 USDC siempre vale ~1 USD. Por ejemplo, 1 USDC siempre vale ~$1, ya que está respaldada por reservas fiduciarias.
 
 
 
@@ -118,17 +117,11 @@ Antes de pedir prestado a Debifi, asegúrese de que dispone de los siguientes el
 
 
 
-- Bitcoin Wallet: donde guardas tu BTC (idealmente no custodiado, por ejemplo Hardware Wallet o un Wallet móvil de confianza). Es desde esta Wallet desde donde enviarás la garantía Bitcoin a Debifi y recibirás los fondos.
+- Bitcoin wallet: donde guardas tu BTC (idealmente no custodiado, por ejemplo Hardware Wallet o un wallet móvil de confianza). Es desde esta wallet desde donde enviarás la garantía Bitcoin a Debifi y recibirás la garantía de vuelta.
 
 
 
-
-
-- Stablecoins o fiat: Debifi presta en stablecoins y algunas monedas fiat. Las principales stablecoins utilizadas son USDT y USDC.
-
-
-
-Puede utilizar Aqua, una Bitcoin y Liquid Wallet que también soporta la gestión de stablecoin USDT en varias redes. O COLDCARD (Mk4 o Q), actualmente el único hardware soportado por Debifi.
+Puede utilizar Aqua, una Bitcoin y Liquid wallet que también soporta la gestión de stablecoin USDT en varias redes. O COLDCARD (Mk4 o Q), actualmente el único hardware soportado por Debifi.
 
 
 
@@ -148,7 +141,7 @@ https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 
 
 
-- Aplicación de autenticación de dos factores: Debifi requiere un código Authenticator para cada acción importante. Es un Layer extra de seguridad. En este tutorial, vamos a utilizar Google Authenticator. Alternativamente, puede utilizar otros como mejor le parezca.
+- Aplicación de autenticación de dos factores: Debifi requiere un código Authenticator para cada acción importante. Es una capa extra de seguridad. En este tutorial, usaremos Google Authenticator. Alternativamente, puede utilizar otros como mejor le parezca.
 
 
 
@@ -158,7 +151,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-- Sitio web y aplicación móvil de Debifi: Debifi es a la vez un sitio web y una aplicación móvil, y ambos funcionan en tándem. La aplicación móvil se convierte en una Wallet, que almacena tu clave privada y gestiona la firma de los contratos. Además, tienes que utilizar el sitio web para comprometer contratos (una Interface grande te da una visión general de los contratos de préstamo y sus detalles).
+- Sitio web y aplicación móvil de Debifi: Debifi es a la vez un sitio web y una aplicación móvil, y ambos funcionan en tándem. La aplicación móvil se convierte en una wallet, que almacena tu clave privada y gestiona la firma de los contratos. Además, necesitas utilizar el sitio web para comprometer contratos (una Interface grande te da una visión general de los contratos de préstamo y sus detalles).
 
 
 
@@ -200,7 +193,7 @@ Una vez en la aplicación, haz clic en el menú **Configuración**.
 
 
 
-A continuación, haga clic en **Iniciar sesión o crear cuenta** para crear una cuenta con su correo electrónico Address.
+A continuación, haga clic en **Iniciar sesión o crear cuenta** para crear una cuenta con su dirección de correo electrónico.
 
 
 
@@ -354,13 +347,13 @@ Debifi se basa en condiciones de préstamo transparentes y flexibles para satisf
 #### Relación préstamo-valor (LTV)
 
 
-Los tramos de préstamos de Bitcoin suelen ser tres (3):
+Los tramos de préstamos Bitcoin suelen ser tres (3):
 
 
 
 
 
-- Conservador (20% - 40% LTV), que corresponde a un préstamo de bajo riesgo, es ideal para maximizar la seguridad frente a la volatilidad de los precios del Bitcoin;
+- Conservador (30% - 40% LTV), que corresponde a un préstamo de bajo riesgo, es ideal para maximizar la seguridad frente a la volatilidad de los precios del Bitcoin;
 
 
 
@@ -372,7 +365,7 @@ Los tramos de préstamos de Bitcoin suelen ser tres (3):
 
 
 
-- Agresivo (70% - 85% LTV), que ofrece mayor liquidez, pero conlleva un riesgo muy elevado de liquidación durante las fases bajistas del mercado. La supervisión activa de las condiciones del mercado Bitcoin es imprescindible a la hora de elegir este tramo.
+- Agresivo (70% LTV), que ofrece mayor liquidez, pero conlleva un riesgo muy elevado de liquidación durante las fases bajistas del mercado. Para elegir este tramo es imprescindible un seguimiento activo de las condiciones del mercado Bitcoin.
 
 
 
@@ -388,7 +381,7 @@ La fijación de los tipos depende generalmente de la LTV elegida, la duración d
 
 
 
-Los plazos de amortización de los préstamos suelen ser flexibles y se adaptan a las necesidades del usuario. Los pagos pueden efectuarse en cualquier momento siempre que se cumplan los requisitos de la garantía. Los pagos de los préstamos suelen consistir en intereses durante la duración del préstamo, y el principal vence al vencimiento.
+Los plazos de amortización son flexibles y están diseñados para adaptarse a las necesidades del prestatario. Los préstamos pueden reembolsarse total o parcialmente en cualquier momento sin comisiones adicionales, siempre que se cumplan los requisitos de garantía. Durante la vigencia del préstamo, los intereses suelen pagarse periódicamente, mientras que el principal se liquida al vencimiento.
 
 
 
@@ -396,7 +389,16 @@ Los plazos de amortización de los préstamos suelen ser flexibles y se adaptan 
 
 
 
-Dado que el precio del Bitcoin es volátil, un préstamo responsable incluye en el acuerdo políticas específicas de ajuste de márgenes. Esta política permite avisar al prestatario para que aporte garantías adicionales o reembolse una parte del préstamo.
+Dada la volatilidad de Bitcoin, los préstamos incluyen una política de ajuste de márgenes claramente definida. Un ajuste de márgenes se produce cuando el LTV aumenta debido a una disminución del valor de la garantía. Debifi notifica al prestatario por correo electrónico y a través de la aplicación, permitiéndole añadir garantías o reembolsar parte del préstamo.
+
+
+75% LTV - Primera alerta
+
+80% LTV - Segunda alerta
+
+85% LTV - Alerta final
+
+90% LTV - Se liquida la garantía
 
 
 
@@ -433,7 +435,7 @@ Puede ver :
 6. Debe introducir el importe exacto que necesita (este importe debe estar dentro de la banda, véase 2);
 
 
-7. Debe introducirse el Ethereum USDC Address que se utilizará para recibir los fondos.
+7. Debe introducirse la dirección Ethereum USDC que se utilizará para recibir los fondos.
 
 
 
@@ -453,7 +455,7 @@ Volver a la aplicación móvil para ''**Proporcionar clave pública**''.
 
 
 
-Pulse '' **Proporcionar clave pública** '', a continuación, elija la fuente de la clave pública. El prestamista también tendrá que Supply una clave pública.
+Pulse '' **Proporcionar clave pública** '', a continuación elija la fuente de la clave pública. El prestamista también tendrá que proporcionar una clave pública.
 
 
 
@@ -473,7 +475,7 @@ Pulse '' **Proporcionar clave pública** '', a continuación, elija la fuente de
 
 
 
-El siguiente paso es firmar la Contract. Todavía en la aplicación móvil, pulse '' **Firmar Contract** ''
+El siguiente paso es firmar el contrato. Todavía en la aplicación móvil, pulsa '' **Firmar Contract** ''
 
 
 
@@ -485,7 +487,7 @@ El siguiente paso es firmar la Contract. Todavía en la aplicación móvil, puls
 
 
 
-Cuando termines de firmar la Contract, Debifi creará automáticamente una Bitcoin Address (escrow 3-sur-4) única multifirma para tu Contract. Mientras tus bitcoins estén en la plica, no podrán utilizarse en ningún otro sitio.
+Cuando terminas de firmar el contrato, Debifi crea automáticamente una dirección Bitcoin multifirma única (escrow 3-sur-4) para tu contrato. Mientras tus bitcoins estén en la plica, no podrán utilizarse en ningún otro sitio.
 
 
 
@@ -493,7 +495,7 @@ Cuando termines de firmar la Contract, Debifi creará automáticamente una Bitco
 
 
 
-El último paso es depositar su garantía Bitcoin en el sistema de fideicomiso multi-firma. Debifi le muestra entonces el Address en custodia (B) y la cantidad de BTC (A) a enviar como (garantía + comisión).
+El último paso consiste en depositar su garantía Bitcoin en el sistema de custodia multi-firma. Debifi le muestra la dirección del depósito en garantía (B) y la cantidad de BTC (A) que debe enviar como (garantía + comisión).
 
 
 
@@ -509,7 +511,7 @@ También recibirá esta notificación en su aplicación móvil.
 
 
 
-En cuanto se confirme su depósito, el prestamista abonará el importe del préstamo al Address receptor que usted haya indicado, finalizando así la transacción y dándole acceso a los fondos que necesita.
+En cuanto se confirme su ingreso, el prestamista abonará el importe del préstamo a la dirección de recepción que usted haya indicado, finalizando así la transacción y dándole acceso a los fondos que necesita.
 
 
 
@@ -517,7 +519,7 @@ A continuación, recibirá una notificación de Debifi, solicitándole que abone
 
 
 
-En realidad, una vez creada la Contract, las comisiones del préstamo se deducen automáticamente de la garantía depositada por el prestatario en la Address de plica.
+En realidad, una vez creado el contrato, las comisiones del préstamo se deducen automáticamente de la garantía depositada por el prestatario en la dirección de la plica.
 
 
 
@@ -529,7 +531,7 @@ Todo lo que tiene que hacer es firmar una transacción que permitirá a Debifi d
 
 
 
-Las comisiones de préstamo aplicables son del 1,5-2%, en función del plazo de la Contract. La plataforma cobra comisiones solo en Bitcoin.
+Las comisiones de préstamo aplicables son del 1,5-2%, en función de la duración del contrato. La plataforma cobra comisiones solo en Bitcoin.
 
 
 
@@ -537,25 +539,23 @@ Las comisiones de préstamo aplicables son del 1,5-2%, en función del plazo de 
 
 
 
-Una vez que el préstamo está en marcha, Debifi le permite supervisar su Contract en tiempo real. En Interface, verá :
-
-
+Una vez que el préstamo está activo, Debifi le permite seguir su contrato en tiempo real. En la interfaz, encontrará:
 
 
 
 - El importe prestado y el plazo restante.
-- Relación LTV (Loan-to-Value) actual: El LTV aumenta si el precio del BTC baja (ya que tu garantía vale menos). Se establece un umbral de alerta (generalmente el 90%). Si su LTV supera este umbral, existe el riesgo de liquidación forzosa. Debifi le dará 24 horas para reaccionar.
-
-
-
-Se informará a los prestatarios de la reducción del precio. Esta información también estará disponible en la página de resumen de Contract. Para restablecer la relación préstamo-valor original de un préstamo, el prestatario debe :
+- El ratio LTV (Loan-to-Value) actual, que aumenta cuando el precio del BTC baja y el valor de su garantía disminuye.
 
 
 
 
+Los prestatarios reciben una notificación cuando disminuye el valor de la garantía, y esta información también se muestra en la página de resumen del contrato. Para restablecer la relación préstamo-valor original, el prestatario debe:
 
-- o depositar una garantía adicional ;
+
+
+- depositar garantías adicionales;
 - reembolsar total o parcialmente la deuda.
+
 
 
 
@@ -577,21 +577,21 @@ En Debifi :
 
 
 
-- Vaya a su Contract y haga clic en **Hacer un reembolso**. Introduzca el importe total adeudado (principal + intereses).
+- Vaya a su contrato y haga clic en **Hacer un reembolso**. Introduce el importe total adeudado (principal + intereses).
 
 
 
 
 
-- Envíe los stablecoins de su Wallet al Address del prestamista indicado, y vuelva a confirmar el reembolso en la plataforma copiando el **ID** de la transacción de reembolso en la pestaña dedicada. Esto facilita las comprobaciones de Debifi.
+- Envíe los stablecoins de su wallet a la dirección del prestamista indicada, y vuelva a confirmar el reembolso en la plataforma copiando el **ID** de la transacción de reembolso en la pestaña dedicada. Esto facilita las comprobaciones de Debifi.
 
 
 
-Una vez confirmado el pago por el prestamista (y por usted), Debifi le solicitará el **reembolso**. Tu garantía Bitcoin se libera y puedes devolverla desde la plica a tu propia cartera.  No olvides recoger todos tus Bitcoins.
+Una vez confirmado el pago por el prestamista (y por usted), Debifi le solicitará entonces el **reembolso**. Tu garantía Bitcoin se libera y puedes devolverla desde la plica a tu propia wallet.  No olvides recoger todos tus Bitcoins.
 
 
 
-En cuanto reciba sus bitcoins, el préstamo Contract cambiará a **Contract completado**.
+En cuanto reciba sus bitcoins, el contrato de préstamo cambiará a **Contract completado**.
 
 
 
@@ -604,15 +604,15 @@ Enhorabuena Has finalizado el proceso.
 
 
 
-Sean cuales sean sus objetivos o motivaciones -financiar un proyecto, adquirir una propiedad, comprar bitcoins, etc. - sea extremadamente prudente antes de suscribir un préstamo respaldado por Bitcoin. - sea extremadamente prudente antes de suscribir un préstamo respaldado por Bitcoin. Tómese su tiempo para considerar cuidadosamente su decisión, ya que el Bitcoin sigue siendo un activo volátil. **Una caída brusca de su precio podría provocar la liquidación forzosa de sus bitcoins**.
+Sean cuales sean sus objetivos o motivaciones -financiar un proyecto, adquirir una propiedad, comprar bitcoins, etc.-, actúe con mucha cautela antes de pedir un préstamo respaldado por Bitcoin. Tómese su tiempo para evaluar cuidadosamente su decisión, ya que el Bitcoin sigue siendo un activo volátil. **Una caída brusca de su precio podría provocar la liquidación forzosa de tus bitcoins.**
 
 
 
-Controla tu relación préstamo-garantía (LTV). Establece alertas (precio del BTC, LTV) si es posible. No dejes que tu ratio se acerque al 90%. En caso de duda, aumente la garantía o reembolse anticipadamente.
+Controle su relación préstamo-garantía (LTV). Establece alertas (precio del BTC, LTV) si es posible. No dejes que tu ratio se acerque al 90%. En caso de duda, aumente la garantía o reembolse anticipadamente.
 
 
 
-Controla tus claves. Guarda tu BTC en una Wallet segura (lo ideal es que sea hardware o una Wallet de confianza). No establezcas un código PIN relacionado con una fecha importante de tu vida y nunca compartas tu frase de recuperación. En Debifi, tú generate tu clave privada en la aplicación - Debifi no la conoce.
+Controla tus claves. Guarda tu BTC en un wallet seguro (lo ideal es que sea hardware o un wallet de confianza). No establezcas un código PIN relacionado con una fecha importante de tu vida y nunca compartas tu frase de recuperación. En Debifi, tú generate tu clave privada en la aplicación - Debifi no la conoce.
 
 
 
@@ -620,7 +620,7 @@ Si es posible, empiece con poco. Para su primer préstamo, pruebe una cantidad m
 
 
 
-Utiliza sólo el sitio web oficial de Debifi para estar al día de las novedades de Debifi, y evita los enlaces desconocidos o de suplantación de identidad.  Actualiza la aplicación, protege tu smartphone con un código PIN y elige una Hardware Wallet compatible.
+Utiliza sólo el sitio web oficial de Debifi para estar al día de las novedades de Debifi, y evita los enlaces desconocidos o de suplantación de identidad.  Actualiza la aplicación, protege tu smartphone con un código PIN y elige un Hardware Wallet compatible.
 
 
 
@@ -636,7 +636,7 @@ Ahora ya sabe cómo utilizar la plataforma Debifi para obtener un préstamo.
 
 
 
-Te recomiendo que sigas este curso, que profundiza en la Bitcoin, las Stablecoins y su contribución a la soberanía.
+Te recomiendo que sigas este curso, que profundiza en el Bitcoin, las Stablecoins y su contribución a la soberanía.
 
 
 

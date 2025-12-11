@@ -84,7 +84,7 @@ Dojo 可讓您的 Ashigaru 應用程式查詢區塊鏈資訊、檢視您的地�
 
 
 
-https://planb.network/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
+https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
 如果您真的無法負擔運行自己的 Dojo，您可以在 [dojobay.pw](https://www.dojobay.pw/mainnet/) 找到願意免費分享實例的人。這可能是暫時的解決方案，但長遠來說，我建議您使用自己的 Dojo，以保證您的主權和機密性。
 
@@ -579,3 +579,4 @@ https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 
 
 您現在已經知道如何使用 Ashigaru 應用程式的基本功能。在未來的教學中，我們將介紹如何利用進階的消費交易，以及 Whirlpool，即繼承自 Samurai Wallet 的硬幣接合實作。
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add

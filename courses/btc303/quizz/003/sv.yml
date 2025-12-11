@@ -1,0 +1,9 @@
+question: Vilket problem löste Bitcoin som tidigare digitala valutor misslyckats med att ta itu med?
+answer: double-spending-problemet på ett decentraliserat sätt
+wrong_answers:
+  - Krypteringsproblemet i peer-to-peer-nätverk
+  - Lagringsproblemet för digitala transaktioner
+  - Hastighetsproblemet vid betalningar online
+explanation: |
+  Bitcoin:s genombrott var att lösa double-spending-problemet utan att kräva en central myndighet. double-spending-problemet är utmaningen att förhindra att någon spenderar samma digitala mynt två gånger. Tidigare digitala valutor misslyckades eftersom de förlitade sig på centrala servrar eller betrodda myndigheter, vilket gjorde dem sårbara för censur och single points of failure. Bitcoin löste detta genom sin peer-to-peer distribuerade tidsstämpelserver som använder proof-of-work, vilket gör att nätverket kan komma överens om transaktionsordning utan någon central kontroll.
+reviewed: false

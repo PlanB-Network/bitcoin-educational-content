@@ -6,4 +6,4 @@ wrong_answers:
   - Eliminar archivos temporales
 explanation: |
   Algunas actualizaciones del sistema operativo, como las del kernel o las de las bibliotecas críticas, sólo surten efecto después de reiniciar la máquina.
-reviewed: false
+reviewed: true

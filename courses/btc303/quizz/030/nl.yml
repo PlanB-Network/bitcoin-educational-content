@@ -1,0 +1,9 @@
+question: Welk effect hebben verloren bitcoins volgens Satoshi Nakamoto's perspectief op de resterende munten in omloop?
+answer: Ze maken de munten van alle anderen iets meer waard als donatie aan iedereen
+wrong_answers:
+  - Ze verminderen de netwerkveiligheid door de totale waarde die beschikbaar is voor mining beloningen te verlagen
+  - Ze creëren deflatoire druk die het monetaire systeem na verloop van tijd destabiliseert
+  - Ze moeten worden vervangen door extra mining om het beoogde leveringsniveau te handhaven
+explanation: |
+  Satoshi Nakamoto legde uit dat verloren munten functioneren als een donatie aan alle andere bitcoinhouders door hun munten waardevoller te maken door de verminderde effectieve voorraad. Dit is een positief deflatoir effect, geen destabiliserende kracht. Verloren munten hebben geen invloed op de mining beloningen, omdat die afkomstig zijn van nieuw geslagen munten en transactiekosten, niet van de bestaande voorraad. Het protocol van Bitcoin vervangt verloren munten niet - ze blijven permanent uit omloop, wat de resterende houders juist ten goede komt door de toegenomen schaarste.
+reviewed: false

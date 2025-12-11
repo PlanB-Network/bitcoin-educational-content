@@ -1,0 +1,9 @@
+question: Was ist der Hauptgrund dafür, dass Leistungsfehler in Bitcoin nach Ansicht von Sicherheitsexperten potenziell als Waffe eingesetzt werden können, um Netzwerkpartitionen zu schaffen?
+answer: Performance-Bugs können strategisch eingesetzt werden, um bestimmte Miner und Börsen vom Rest des Netzwerks zu trennen und so Double-Spend-Angriffe zu ermöglichen
+wrong_answers:
+  - Leistungsmängel betreffen in erster Linie die Bestätigungszeiten von Transaktionen und machen das Netzwerk für Händler und Nutzer unzuverlässig
+  - Leistungsfehler verbrauchen übermäßig viele Rechenressourcen, zwingen die Knoten zum Abschalten und verringern die Dezentralisierung des Netzwerks
+  - Leistungsfehler verursachen Speicherlecks, die schließlich zum Absturz von Knoten führen, was eine vorübergehende Instabilität des Netzwerks und eine verringerte Hash-Rate zur Folge hat
+explanation: |
+  Gregory Maxwell warnte insbesondere davor, dass Leistungsfehler, wenn sie geschickt eingesetzt werden, dazu genutzt werden können, das Netzwerk strategisch aufzuteilen - zum Beispiel, indem "Miner A und Exchange B" in eine Partition eingeteilt werden, während alle anderen in eine andere gehen, was die Voraussetzungen für Double-Spend-Angriffe schafft. Dies verdeutlicht, warum scheinbar geringfügige Probleme als potenziell schwerwiegend behandelt werden sollten, da sie auf raffinierte Art und Weise als Waffe eingesetzt werden können, die nicht sofort offensichtlich ist.
+reviewed: false

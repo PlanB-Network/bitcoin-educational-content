@@ -680,18 +680,18 @@ Hajde prvo da je definišemo. Pretpostavimo rečnik *D* koji izjednačava sva sl
 Operator modulo u šifri pomaka osigurava da se slova rotiraju, tako da su sva šifrovana slova definisana. Da bismo ilustrovali, razmotrimo primenu šifre pomaka na reč „DOG“.
 
 
-Pretpostavimo da ste ravnomerno odabrali ključ da ima vrednost 17. Slovo „O“ odgovara broju 15. Bez modulo operacije, zbir ovog broja iz otvorenog teksta sa ključem bi iznosio broj šifrovanog teksta 32. Međutim, taj broj šifrovanog teksta ne može biti pretvoren u slovo šifrovanog teksta, jer engleska abeceda ima samo 26 slova. Modulo operacija osigurava da broj šifrovanog teksta zapravo bude 6 (rezultat $32 \mod 26$), što odgovara slovu šifrovanog teksta „G“.
+Pretpostavimo da ste jednako verovatno izabrali ključ sa vrednošću $17$. Slovo „O” odgovara $14$. Bez modulo operacije, sabiranjem ovog broja otvorenog teksta i ključa dobio bi se broj šifrovanog teksta $31$. Međutim, taj broj se ne može pretvoriti u šifrano slovo, jer engleski alfabet ima samo $26$ slova. Modulo operacija obezbeđuje da broj šifrovanog teksta zapravo bude $5$ (rezultat $31 \mod 26$), što odgovara šifrovanom slovu „F”.
 
 
 Celaokupna enkripcija reči „DOG“ sa vrednošću ključa 17 je sledeća:
 
 
 
-- Poruka = PAS = P,A,S = 3,15,6
+**Poruka = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 
 Svi mogu intuitivno razumeti kako šifriranje pomakom funkcioniše i verovatno ga sami koriste. Međutim, za unapređenje vašeg znanja o kriptografiji, važno je da počnete da se osećate prijatnije sa formalizacijom, jer će šeme postati mnogo teže. Zato su koraci za šifriranje pomakom formalizovani.

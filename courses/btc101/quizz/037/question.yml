@@ -86,10 +86,11 @@ proofreading:
     contributor_names:
     reward: 0.22
   - language: pl
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 0.19
+      - MisinhaP
+    reward: 0.1
   - language: sr-Latn
     last_contribution_date: '2025-08-19'
     urgency: 1
@@ -142,7 +143,8 @@ proofreading:
     contributor_names:
     reward: 0.24
   - language: bg
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 0.19
+      - dnabg
+    reward: 0.1

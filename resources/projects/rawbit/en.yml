@@ -1,0 +1,4 @@
+description: |
+  rawBit is a visual, node-based editor for constructing and
+  understanding Bitcoin transactions. Connect inputs, keys, and scripts on a
+  canvas to build raw transactions visually.

@@ -103,7 +103,7 @@ La nécessité d'un serveur central est devenue le talon d'Achille de l'argent l
 
 Il est clairement apparu que l'utilisation d'un serveur central pour ordonner les transactions n'était pas une option viable en raison du risque élevé de censure. Même si l'on remplaçait le serveur central par une fédération d'un ensemble fixe de n serveurs, dont au moins m doivent approuver une commande, des difficultés subsisteraient. Le problème se déplacerait en effet vers une situation où les utilisateurs devraient se mettre d'accord sur cet ensemble de n serveurs ainsi que sur la manière de remplacer les serveurs malveillants par de bons serveurs sans dépendre d'une autorité centrale.
 
-Imaginons ce qui pourrait se produire si Bitcoin était censurable. Un censeur pourrait exiger que les utilisateurs s’identifient, déclarent l’origine de leurs fonds ou expliquent ce qu’ils achètent avant d’autoriser leurs transactions à être inscrites dans la blockchain.
+Imaginons ce qui pourrait se passer si Bitcoin était censurable. Le censeur pourrait obliger les utilisateurs à s'identifier, à déclarer d'où vient leur argent ou ce qu'ils achètent avant d'autoriser leurs transactions à entrer dans la Blockchain.
 
 De plus, l'absence de résistance à la censure permettrait au censeur de contraindre les utilisateurs à adopter de nouvelles règles du système. Par exemple, il pourrait imposer un changement qui lui permettrait de gonfler la masse monétaire, s'enrichissant ainsi lui-même. Dans ce cas, un utilisateur vérifiant les blocs aurait trois options pour gérer les nouvelles règles :
 - Adopter : accepter les modifications et les intégrer dans leur noeud complet.
@@ -124,7 +124,8 @@ Pourtant, personne ne l'explique mieux que [Gregory Maxwell sur Reddit](https://
 
 Un système décentralisé comme Bitcoin utilise une élection publique. Mais on ne peut pas se contenter d'un vote des "gens" dans un système décentralisé, car il faudrait alors qu'une partie centralisée autorise les gens à voter. Bitcoin utilise plutôt un vote de puissance informatique, car il est possible de vérifier la puissance informatique sans l'aide d'un système centralisé tiers. La publication explique comment le réseau décentralisé Bitcoin peut parvenir à un accord sur l'ordre des transactions grâce à l'utilisation de la preuve de travail.
 
-Il conclut en affirmant que l’attaque des 51 % n’est pas le plus grand sujet d’inquiétude ; le véritable danger réside plutôt dans le fait que beaucoup ne se préoccupent pas ou ne comprennent pas les propriétés de décentralisation de Bitcoin:
+Il conclut en disant que l'attaque des 51% n'est pas particulièrement inquiétante, comparée au fait que les gens ne se soucient pas des propriétés de décentralisation de Bitcoin ou ne les comprennent pas.
+
 > Le risque le plus important pour Bitcoin est que le public qui l'utilise ne comprenne pas, ne se préoccupe pas et ne protège pas les propriétés de décentralisation qui lui confèrent sa valeur par rapport aux alternatives centralisées.
 
 La conclusion est importante. Si les gens ne protègent pas la décentralisation de Bitcoin, qui est une approximation de sa résistance à la censure, Bitcoin pourrait être victime de pouvoirs centralisateurs, jusqu'à ce qu'il soit tellement centralisé que la censure devienne une réalité. Dans ce cas, la plupart, sinon la totalité, de sa proposition de valeur disparaît. Ceci nous amène à la section suivante sur la décentralisation des noeuds complets.
@@ -136,7 +137,7 @@ Dans les paragraphes ci-dessus, nous avons surtout parlé de la décentralisatio
 
 L'importance de la décentralisation des noeuds complets est liée à l'absence de confiance. Supposons qu'un utilisateur cesse d'exploiter son propre noeud complet en raison, par exemple, d'une augmentation prohibitive du coût d'exploitation. Dans ce cas, il doit interagir avec le réseau Bitcoin d'une autre manière, éventuellement en utilisant des portefeuilles web ou des portefeuilles légers, ce qui nécessite un certain niveau de confiance dans les fournisseurs de ces services.
 
-L’utilisateur cesse d’appliquer directement les règles de consensus du réseau et se met à faire confiance à une tierce partie.Supposons maintenant que la majorité des utilisateurs délèguent l’application du consensus à une entité de confiance. Dans ce cas, le réseau peut rapidement entrer dans une spirale de centralisation, et les règles du protocole pourraient alors être modifiées par des acteurs malveillants agissant de concert.
+L'utilisateur passe de l'application directe des règles de consensus du réseau à la confiance en quelqu'un d'autre.Supposons maintenant que la plupart des utilisateurs délèguent l'application du consensus à une entité de confiance. Dans ce cas, le réseau peut rapidement tomber dans la spirale de la centralisation et les règles du réseau peuvent être modifiées par des acteurs malveillants conspirateurs.
 
 Dans [un article du Bitcoin Magazine](https://bitcoinmagazine.com/technical/decentralist-perspective-Bitcoin-might-need-small-blocks-1442090446), Aaron van Wirdum interroge les développeurs de Bitcoin sur leur point de vue concernant la décentralisation et les risques liés à l'augmentation de la taille maximale des blocs de Bitcoin. Cette discussion a été un sujet chaud pendant la période 2014-2017, lorsque de nombreuses personnes se sont opposées à l'augmentation de la limite de la taille des blocs pour permettre un plus grand débit de transactions.
 
@@ -144,9 +145,9 @@ Un argument de poids contre l'augmentation de la taille des blocs est qu'elle au
 
 Pieter Wuille est cité dans l'article, où il explique les risques de la centralisation des noeuds complets :
 
-> Si de nombreuses entreprises gèrent un nœud complet, cela signifie qu'elles doivent toutes être convaincues de mettre en œuvre un ensemble de règles différent. En d'autres termes, la décentralisation de la validation des blocs est ce qui donne du poids aux règles de consensus.
-> Mais si le nombre de nœuds complets tombe très bas, par exemple parce que tout le monde utilise les mêmes portefeuilles web, exchanges et SPV ou portefeuilles mobiles, la réglementation pourrait devenir réalité. Et si les autorités peuvent réglementer les règles de consensus, cela signifie qu'elles peuvent changer tout ce qui fait de Bitcoin ce qu'il est. Même la limite de 21 millions de bitcoins.
-
+> Si de nombreuses entreprises gèrent une noeud complet, cela signifie qu'elles doivent toutes être convaincues de mettre en œuvre un ensemble de règles différent. En d'autres termes, la décentralisation de la validation des blocs est ce qui donne du poids aux règles de consensus.
+> Mais si le nombre de noeuds complets tombe très bas, par exemple parce que tout le monde utilise les mêmes portefeuilles web, exchanges et SPV ou portefeuilles mobiles, la réglementation pourrait devenir réalité. Et si les autorités peuvent réglementer les règles de consensus, cela signifie qu'elles peuvent changer tout ce qui fait de Bitcoin Bitcoin. Même la limite de 21 millions de Bitcoin.
+> 
 Nous y voilà. Les utilisateurs de Bitcoin devraient gérer leurs propres nœuds complets afin de dissuader les régulateurs et les grandes entreprises d'essayer de changer les règles du consensus.
 
 ### Neutralité
@@ -180,10 +181,10 @@ L'un des aspects convaincants du Bitcoin est qu'il est facile de comprendre que 
 
 La façon dont Bitcoin fonctionne grâce à la décentralisation ressemble à l'extraordinaire intelligence collective que l'on trouve chez de nombreuses espèces dans la nature. L'informaticienne Radhika Nagpal parle dans un [Ted talk](https://www.ted.com/talks/radhika_nagpal_what_intelligent_machines_can_learn_from_a_school_of_fish) du comportement collectif des bancs de poissons et de la manière dont les scientifiques tentent de l'imiter à l'aide de robots.
 
-> Deuxièmement, et c'est ce que je trouve toujours le plus remarquable, nous savons qu'il n'y a pas de chef pour superviser ce banc de poissons. Au contraire, cet incroyable comportement collectif émerge uniquement des interactions d'un poisson avec un autre.
+> Deuxièmement, et c'est ce que je trouve toujours le plus remarquable, nous savons qu'il n'y a pas de chef pour superviser ce banc de poissons. Au contraire, cet incroyable comportement collectif émerge purement des interactions d'un poisson avec un autre.
 > D'une manière ou d'une autre, il existe des interactions ou des règles d'engagement entre les poissons voisins qui font que tout se passe bien.
 
-Elle souligne que de nombreux systèmes, qu'ils soient naturels ou artificiels, peuvent fonctionner sans chef et qu'ils le font tout en restant puissants et résistants. Chaque individu n'interagit qu'avec son environnement immédiat, mais ensemble, ils forment quelque chose de formidable.
+Elle souligne que de nombreux systèmes, qu'ils soient naturels ou artificiels, peuvent fonctionner sans chef et le font, et qu'ils sont puissants et résistants. Chaque individu n'interagit qu'avec son environnement immédiat, mais ensemble, ils forment quelque chose de formidable.
 
 ![](assets/fr/002.webp)
 
@@ -230,11 +231,11 @@ Pour utiliser Bitcoin de manière Trustless, vous devez faire fonctionner un nœ
 
 David Harding a rédigé [un article sur le site web Bitcoin.org](https://Bitcoin.org/en/Bitcoin-core/features/validation) expliquant comment la gestion d'un noeud complet, ou l'utilisation sans confiance de Bitcoin, vous aide réellement :
 
-> La confiance dont nous parlons dans "Trustless" est un terme technique abstrait. Un système distribué est appelé trustless lorsqu'il ne nécessite aucune partie de confiance pour fonctionner correctement.
+> La confiance dont nous parlons dans "Trustless" est un terme technique abstrait. Un système distribué est appelé Trustless lorsqu'il ne nécessite aucune partie de confiance pour fonctionner correctement.
 
-En bref, le terme trustless fait référence à une propriété du protocole Bitcoin qui lui permet de fonctionner logiquement sans "aucune partie de confiance". Cela diffère de la confiance que vous devez inévitablement accorder au logiciel ou au matériel que vous utilisez. Ce dernier aspect sera abordé plus loin dans ce chapitre.
+En bref, le terme *Trustless* fait référence à une propriété du protocole Bitcoin qui lui permet de fonctionner logiquement sans "aucune partie de confiance". Cela diffère de la confiance que vous devez inévitablement accorder au logiciel ou au matériel que vous utilisez. Ce dernier aspect de la confiance sera abordé plus loin dans ce chapitre. 
 
-Dans les systèmes centralisés, nous nous appuyons sur la réputation d'un acteur central pour nous assurer qu'il veillera à la sécurité ou qu'il fera marche arrière en cas de problème, ainsi que sur le système juridique pour sanctionner toute violation. Ces exigences de confiance posent problème dans les systèmes décentralisés pseudonymes : il n'y a pas de possibilité de recours, et il ne peut donc pas y avoir de confiance.
+Dans les systèmes centralisés, nous nous appuyons sur la réputation d'un acteur central pour nous assurer qu'il veillera à la sécurité ou qu'il fera marche arrière en cas de problème, ainsi que sur le système juridique pour sanctionner toute violation. Ces exigences de confiance sont problématiques dans les systèmes décentralisés pseudonymes, il n'y a pas de possibilité de recours et il ne peut donc pas y avoir de confiance
 >
 
 > Lorsque vous acceptez des bitcoins, vous avez le pouvoir d'appliquer les règles de Bitcoin, telles que l'interdiction de confisquer les bitcoins d'une personne sans avoir accès aux clés privées de cette personne.

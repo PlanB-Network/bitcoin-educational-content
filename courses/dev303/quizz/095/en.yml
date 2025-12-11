@@ -1,8 +1,0 @@
-question: What is the fundamental architectural principle that makes a simple guessing game particularly effective for demonstrating professional Bitcoin and Lightning Development Kit (BDK/LDK) command-line tool patterns?
-answer: The game's straightforward mechanics allow focus on essential CLI patterns like help systems, parameter handling, and interactive feedback that mirror BDK/LDK tool interfaces
-wrong_answers:
-  - "The game's random number generation directly parallels the cryptographic randomness requirements found in Bitcoin private key generation and Lightning channel establishment"
-  - "The game's iterative guessing process demonstrates the proof-of-work consensus mechanism used in Bitcoin mining and the challenge-response patterns in Lightning payments"
-  - "The game's numerical range validation teaches the same input sanitization techniques required for handling Bitcoin addresses and Lightning invoice parsing"
-explanation: |
-  The correct answer identifies that the game's simple mechanics serve as a foundation for learning CLI design patterns common in blockchain development tools. The interface design philosophy explicitly reflects patterns found in professional BDK/LDK tools, where command-line interfaces serve as both testing environments and practical utilities. The wrong answers incorrectly focus on specific technical parallels between game mechanics and blockchain cryptography, consensus, or validation, rather than understanding that the educational value lies in learning general CLI development patterns that are transferable to blockchain tool development.

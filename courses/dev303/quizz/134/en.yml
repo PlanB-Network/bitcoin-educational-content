@@ -1,8 +1,0 @@
-question: What specific technical constraint of mobile environments made the team reject using a full Bitcoin node for blockchain synchronization in their Lightning wallet implementation?
-answer: Bandwidth and storage limitations of mobile devices made full node synchronization unsuitable for mobile applications
-wrong_answers:
-  - Security vulnerabilities in full Bitcoin nodes made them incompatible with Lightning channel state management requirements
-  - Full Bitcoin nodes lack the necessary APIs for Lightning channel monitoring and transaction confirmation tracking
-  - Mobile operating systems restrict full node operations due to background processing limitations and app store policies
-explanation: |
-  The content explicitly states that using a full Bitcoin node for synchronization was 'unsuitable for mobile applications due to bandwidth and storage limitations.' Mobile devices have constrained resources compared to servers, making it impractical to download and store the entire blockchain. The other options are incorrect because full nodes are actually secure and reliable, they do provide necessary APIs for blockchain monitoring, and while mobile OS restrictions exist, the primary constraint mentioned was resource limitations rather than OS-level restrictions.

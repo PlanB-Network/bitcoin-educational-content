@@ -1,8 +1,0 @@
-question: What critical architectural difference makes blockchain synchronization more complex for mobile Lightning wallets using LDK compared to traditional Bitcoin wallets?
-answer: LDK provides only interfaces for synchronization that developers must implement, rather than complete synchronization functionality
-wrong_answers:
-  - LDK requires a full Bitcoin node for synchronization while traditional wallets can use SPV clients
-  - LDK synchronizes with multiple blockchains simultaneously while Bitcoin wallets only need one blockchain
-  - LDK uses proof-of-stake consensus verification while Bitcoin wallets use proof-of-work verification
-explanation: |
-  LDK's modular design means it provides interfaces that developers must implement according to their specific requirements, rather than offering complete synchronization functionality. Traditional Bitcoin wallets typically have built-in synchronization mechanisms, but LDK requires developers to implement transaction-based synchronization interfaces where LDK specifies needed transactions and the wallet provides confirmation status. This creates additional complexity as developers must handle blockchain reorganizations and maintain accurate channel states, which the Lipa team discovered required significant development time and testing.

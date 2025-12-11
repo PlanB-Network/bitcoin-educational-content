@@ -1,8 +1,0 @@
-question: What is the primary technical justification for requiring approximately 1,000 lines of code across various projects to achieve Rust proficiency, as demonstrated through the number guessing game approach?
-answer: Complex language concepts require practical application across multiple contexts to develop muscle memory and pattern recognition for real-world problem solving
-wrong_answers:
-  - "Rust's compiler requires extensive code volume to properly optimize performance and memory safety features in production applications"
-  - The Rust standard library contains approximately 1,000 core functions that must be practiced individually to achieve language mastery
-  - "Cargo's dependency management system becomes fully functional only after processing at least 1,000 lines of user-written code"
-explanation: |
-  The 1,000-line threshold reflects the pedagogical reality that programming language mastery requires extensive hands-on practice across diverse scenarios. Unlike compiler optimization requirements, standard library memorization, or tooling limitations, this volume ensures developers encounter various language patterns, error scenarios, and problem-solving contexts. The guessing game exemplifies this by combining syntax, error handling, user input, and CLI development—multiple skills that collectively build the pattern recognition and muscle memory essential for professional Rust development.

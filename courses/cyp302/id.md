@@ -472,7 +472,7 @@ Pertama-tama mari kita definisikan. Misalkan sebuah kamus *D* yang menyamakan se
 
 Operator modulo pada shift cipher memastikan bahwa huruf-huruf membungkus, sehingga semua huruf ciphertext didefinisikan. Sebagai ilustrasi, pertimbangkan penerapan shift cipher pada kata "DOG".
 
-Misalkan Anda memilih kunci secara seragam untuk memiliki nilai 17. Huruf "O" setara dengan 15. Tanpa operasi modulo, penambahan angka plainteks ini dengan kunci akan menghasilkan angka cipherteks 32. Akan tetapi, angka cipherteks tersebut tidak dapat diubah menjadi huruf cipherteks, karena alfabet bahasa Inggris hanya memiliki 26 huruf. Operasi modulo memastikan bahwa angka ciphertext sebenarnya adalah 6 (hasil dari $32 \mod 26$), yang sama dengan huruf ciphertext "G".
+Misalkan Anda memilih sebuah kunci secara seragam dengan nilai $17$. Huruf “O” setara dengan $14$. Tanpa operasi modulo, penjumlahan angka plaintext ini dengan kunci akan menghasilkan angka ciphertext $31$. Namun, angka ciphertext tersebut tidak dapat diubah menjadi huruf ciphertext karena alfabet bahasa Inggris hanya memiliki $26$ huruf. Operasi modulo memastikan bahwa angka ciphertext sebenarnya adalah $5$ (hasil dari $31 \mod 26$), yang setara dengan huruf ciphertext “F”.
 
 Keseluruhan enkripsi kata "DOG" dengan nilai kunci 17 adalah sebagai berikut:
 

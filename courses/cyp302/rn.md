@@ -681,7 +681,7 @@ Reka tubanze tubisigure. Twibaze ko inkoranyamagambo *D* ingana inyuguti zose z�
 Igikoresho ca modulo mu gipfukisho c'ihinduka kiratuma amajambo azunguruka, kugira ngo amajambo yose y'igipfukisho asobanurwe. Kugira ngo tubone akarorero, rimbura ukuntu ijambo “IMBWA” rikoreshwa.
 
 
-Twibaze ko wahisemwo urufunguzo mu buryo bumwe kugira ngo rugire agaciro ka 17. Urudome “O” rungana na 15. Hatariho igikorwa ca modulo, kwongerako uwo mubare w’inyandiko rusangi n’urufunguzo vyoba ari umubare w’inyandiko y’ibanga 32. Ariko rero, uwo mubare w’inyandiko y’ibanga ntushobora guhindurwa urudome rw’ibanga nk’uko albet2 gusa. Igikorwa kijanye n’igikorwa ca modulo kigaragaza ko umubare w’inyandiko y’ibanga ari 6 mu vy’ukuri (igisubizo ca $32 \mod 26$), kingana n’urudome rw’inyandiko y’ibanga “G”.
+Dufate ko wahisemo igufunguzo rifise agaciro ka $17$. Inyuguti “O” ingana na $14$. Ni hatabayeho igikorwa ca modulo, guteranya ino n’umubare w’inyandiko isanzwe n’igufunguzo vyotanga umubare w’inyandiko ibishe $31$. Ariko uwo mubare ntiwoshobora guhinduka inyuguti ibishe, kuko inyuguti z’icongereza ari $26$ gusa. Igikorwa ca modulo kiratanga ko umubare w’inyandiko ibishe ari $5$ (ingaruka za $31 \mod 26$), bingana n’inyuguti ibishe “F”.
 
 
 Ijambo “IMBWA” ryose rifise agaciro k’urufunguzo rwa 17 ni iri:

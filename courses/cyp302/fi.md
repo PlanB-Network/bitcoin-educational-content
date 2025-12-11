@@ -472,7 +472,7 @@ Määritellään se ensin. Oletetaan sanakirja *D*, joka rinnastaa kaikki englan
 
 Siirtymäsalakirjoituksen modulo-operaattori varmistaa, että kirjaimet kiertyvät ympäri, joten kaikki salatekstin kirjaimet ovat määriteltyjä. Esimerkkinä mainittakoon, että shift-salausmenetelmää sovelletaan sanaan "DOG".
 
-Oletetaan, että valitsit yhdenmukaisesti avaimen, jonka arvo on 17. Kirjain "O" vastaa arvoa 15. Ilman modulo-operaatiota tämän selvätekstiluvun ja avaimen yhteenlasku antaisi salatekstiluvuksi 32. Tätä salatekstilukua ei kuitenkaan voida muuttaa salatekstin kirjaimeksi, koska englantilaisissa aakkosissa on vain 26 kirjainta. Modulo-operaatio varmistaa, että salatekstin luku on itse asiassa 6 (tulos $32 \mod 26$), mikä vastaa salatekstin kirjainta "G".
+Oletetaan, että valitsit tasaisesti avaimen, jonka arvo on $17$. Kirjain ”O” vastaa arvoa $14$. Ilman modulo-operaatiota tämän selkotekstin luvun ja avaimen yhteenlasku olisi antanut salatekstiksi luvun $31$. Tätä lukua ei kuitenkaan voida muuntaa salatekstikirjaimeksi, koska englannin aakkosissa on vain $26$ kirjainta. Modulo-operaatio varmistaa, että salatekstin luku on itse asiassa $5$ (tulos $31 \mod 26$), mikä vastaa salakirjainta ”F”.
 
 Koko sanan "DOG" salaus, jonka avainarvo on 17, on seuraava:
 

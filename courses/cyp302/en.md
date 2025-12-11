@@ -477,13 +477,13 @@ Let's first define it. Suppose a dictionary *D* that equates all the letters of 
 
 The modulo operator in the shift cipher ensures that letters wrap around, so that all ciphertext letters are defined. To illustrate, consider the application of the shift cipher on the word “DOG”.
 
-Suppose that you uniformly selected a key to have the value of 17. The letter “O” equates to 15. Without the modulo operation, the addition of this plaintext number with the key would amount to a ciphertext number of 32. However, that ciphertext number cannot be turned into a ciphertext letter, as the English alphabet only has 26 letters. The modulo operation ensures that the ciphertext number is actually 6 (the result of $32 \mod 26$), which equates to the ciphertext letter “G”.
+Suppose that you uniformly selected a key to have the value of $17$. The letter “O” equates to $14$. Without the modulo operation, the addition of this plaintext number with the key would amount to a ciphertext number of $31$. However, that ciphertext number cannot be turned into a ciphertext letter, as the English alphabet only has $26$ letters. The modulo operation ensures that the ciphertext number is actually $5$ (the result of $31 \mod 26$), which equates to the ciphertext letter “F”.
 
 The entire encryption of the word “DOG” with a key value of 17 is as follows:
 
 **Message = DOG = D,O,G = 3,14,6**
 $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 6 = F$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
 *c = UFX*
 

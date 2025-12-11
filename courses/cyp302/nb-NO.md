@@ -472,7 +472,7 @@ La oss først definere den. Anta at vi har en ordbok *D* som sidestiller alle bo
 
 Modulooperatoren i skiftchiffreringen sørger for at bokstavene brytes rundt, slik at alle bokstavene i chifferteksten blir definert. For å illustrere dette kan vi se på anvendelsen av shift-chiffer på ordet "DOG".
 
-Anta at du har valgt en nøkkel med verdien 17. Bokstaven "O" tilsvarer 15. Uten modulo-operasjonen ville addisjonen av dette klarteksttallet og nøkkelen gitt et chifferteksttall på 32. Dette chifferteksttallet kan imidlertid ikke gjøres om til en chifferbokstav, ettersom det engelske alfabetet bare har 26 bokstaver. Modulo-operasjonen sikrer at chifferteksttallet faktisk er 6 (resultatet av $32 \mod 26$), noe som tilsvarer chiffertekstbokstaven "G".
+Anta at du jevnt valgte en nøkkel med verdien $17$. Bokstaven “O” tilsvarer $14$. Uten modulo-operasjonen ville addisjonen av dette klarteksttallet og nøkkelen gitt et chifferteksttall på $31$. Dette tallet kan imidlertid ikke omgjøres til en chifferbokstav, ettersom det engelske alfabetet bare har $26$ bokstaver. Modulo-operasjonen sikrer at chifferteksttallet faktisk er $5$ (resultatet av $31 \mod 26$), som tilsvarer chifferbokstaven “F”.
 
 Hele krypteringen av ordet "DOG" med nøkkelverdien 17 er som følger:
 

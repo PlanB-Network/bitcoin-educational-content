@@ -472,7 +472,7 @@ Definámoslo primero. Supongamos un diccionario *D* que equipara todas las letra
 
 El operador módulo del cifrado por turnos garantiza que las letras se envuelvan, de modo que todas las letras del texto cifrado queden definidas. Para ilustrarlo, consideremos la aplicación del cifrado por turnos a la palabra "DOG".
 
-Supongamos que ha seleccionado uniformemente una tecla para que tenga el valor 17. La letra "O" equivale a 15. Sin la operación de módulo, la suma de este número de texto plano con la clave daría como resultado un número de texto cifrado de 32. Sin embargo, ese número de texto cifrado no puede convertirse en una letra de texto cifrado, ya que el alfabeto inglés sólo tiene 26 letras. La operación de módulo garantiza que el número del texto cifrado sea en realidad 6 (el resultado de $32 \mod 26$), lo que equivale a la letra "G" del texto cifrado.
+Supongamos que seleccionó uniformemente una clave con valor $17$. La letra “O” equivale a $14$. Sin la operación módulo, la suma de este número del texto plano con la clave daría un número de texto cifrado de $31$. Sin embargo, ese número no puede convertirse en una letra cifrada, ya que el alfabeto inglés solo tiene $26$ letras. La operación módulo garantiza que el número de texto cifrado sea en realidad $5$ (el resultado de $31 \mod 26$), lo cual equivale a la letra cifrada “F”.
 
 El cifrado completo de la palabra "DOG" con un valor de clave de 17 es el siguiente:
 

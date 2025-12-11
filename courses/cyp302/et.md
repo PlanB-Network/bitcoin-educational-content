@@ -472,7 +472,7 @@ Määratleme selle kõigepealt. Oletame, et on olemas sõnastik *D*, mis võrdsu
 
 Nihkešifreeringu modulo-operaator tagab, et tähed on ümberpööratud, nii et kõik salakirjatähised on määratletud. Illustreerimiseks vaadelge nihkešifri rakendamist sõnale "DOG".
 
-Oletame, et valisite ühtlaselt ühe võtme väärtuseks 17. Täht "O" vastab 15-le. Ilma modulo-operatsioonita annaks selle lihtkirjanumbri ja võtme liitmine salakirjanumbrile 32. Seda salatekstinumbrit ei saa aga muuta salatekstitäheks, sest inglise tähestikus on ainult 26 tähte. Modulooperatsioon tagab, et salatekstinumber on tegelikult 6 (tulemus $32 \mod 26$), mis vastab salatekstitähtedele "G".
+Oletame, et valisite ühtlaselt võtme väärtusega $17$. Täht „O“ vastab väärtusele $14$. Ilma moodulitehteta annaks selle selgetekstinumbri ja võtme liitmine šifreeritud numbri $31$. Seda arvu ei saa aga teisendada šifreeritud täheks, sest inglise tähestikus on vaid $26$ tähte. Moodulitehe tagab, et šifreeritud arv on tegelikult $5$ (tulem $31 \mod 26$), mis vastab šifreeritud tähele „F”.
 
 Kogu sõna "DOG" krüpteerimine võtme väärtusega 17 on järgmine:
 

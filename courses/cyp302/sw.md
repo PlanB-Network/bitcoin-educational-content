@@ -466,7 +466,7 @@ Hebu kwanza tufafanue. Tuseme kamusi *D* inayosawazisha herufi zote za alfabeti 
 
 Opereta wa modulo katika shifti ya kisifa huhakikisha kwamba herufi zinazunguka, ili herufi zote za maandishi ya siri zifafanuliwe. Kwa mfano, fikiria matumizi ya neno "MBWA" la kuhama.
 
-Tuseme kwamba umechagua ufunguo kwa usawa kuwa na thamani ya 17. Herufi "O" ni sawa na 15. Bila utendakazi wa modulo, kuongezwa kwa nambari hii ya barua pepe na ufunguo kunaweza kuwa nambari ya maandishi ya siri 32. Hata hivyo, nambari hiyo ya maandishi ya siri haiwezi kugeuzwa kuwa herufi ya ciphertext, kwa kuwa alfabeti ya Kiingereza ina herufi 26 pekee. Uendeshaji wa modulo huhakikisha kwamba nambari ya maandishi ya siri ni 6 (matokeo ya $32 \mod 26$), ambayo ni sawa na herufi ya maandishi ya siri "G".
+Tuchukulie kwamba ulichagua ufunguo kwa usawa wenye thamani ya $17$. Herufi “O” ni sawa na $14$. Bila operesheni ya modulo, kujumlisha nambari hii ya maandishi wazi na ufunguo kungeleta nambari ya maandishi fiche ya $31$. Hata hivyo, nambari hiyo haiwezi kubadilishwa kuwa herufi fiche, kwa kuwa alfabeti ya Kiingereza ina herufi $26$ pekee. Operesheni ya modulo inahakikisha kwamba nambari fiche ni $5$ (matokeo ya $31 \mod 26$), ambayo ni sawa na herufi fiche “F”.
 
 Usimbuaji wote wa neno "MBWA" na thamani kuu ya 17 ni kama ifuatavyo.
 

@@ -461,7 +461,7 @@ Définissons-le d'abord. Supposons un dictionnaire *D* qui associe toutes les le
 
 L'opérateur modulo dans le chiffre de décalage garantit que les lettres bouclent, de sorte que toutes les lettres du texte chiffré soient définies. Pour illustrer, considérons l'application du chiffre de décalage sur le mot « DOG ».
 
-Supposons que vous ayez sélectionné uniformément une clé ayant la valeur de $17$. La lettre « O » correspond à $15$. Sans l'opération modulo, l’addition de ce nombre de texte en clair avec la clé donnerait un nombre chiffré égal à $32$. Cependant, ce nombre ne peut pas être converti en une lettre chiffrée, puisque l'alphabet anglais ne comporte que $26$ lettres. L'opération modulo garantit que le nombre chiffré est en réalité $6$ (le résultat de $32 \mod 26$), ce qui correspond à la lettre chiffrée « G ».
+Supposons que vous ayez sélectionné uniformément une clé de valeur $17$. La lettre « O » correspond à $14$. Sans l’opération de modulo, l’addition de ce nombre en clair avec la clé donnerait un nombre chiffré égal à $31$. Toutefois, ce nombre ne peut être converti en lettre chiffrée, car l’alphabet anglais ne compte que $26$ lettres. L’opération de modulo garantit que le nombre chiffré est en réalité $5$ (le résultat de $31 \mod 26$), ce qui correspond à la lettre chiffrée « F ».
 
 Le chiffrement complet du mot « DOG » avec une clé de valeur $17$ est le suivant :
 

@@ -1,0 +1,9 @@
+question: 發佈舊的通道狀態會讓 Lightning 節點面臨什麼風險？
+answer: 處罰
+wrong_answers:
+  - 警告
+  - 額外的挖礦費用
+  - 暫時凍結
+explanation: |
+  該協議設有具威懾力的懲罰，使另一方能夠取回全部資金。
+reviewed: false

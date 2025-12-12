@@ -1,0 +1,9 @@
+question: Hvilken risiko løper en Lightning-node som publiserer en gammel kanaltilstand?
+answer: En straff
+wrong_answers:
+  - En advarsel
+  - Ekstra gruvegebyrer
+  - En midlertidig frysing
+explanation: |
+  Protokollen fastsetter en avskrekkende straff som gjør det mulig for den andre parten å hente tilbake alle midlene.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 发布旧的通道状态会让 Lightning 节点面临什么风险？
+answer: 处罚
+wrong_answers:
+  - 警告
+  - 额外的挖矿费用
+  - 临时冻结
+explanation: |
+  该协议设定了具有威慑力的惩罚，使另一方能够追回全部资金。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Millise riski võtab Lightningi sõlm, kui ta avaldab kanali vana oleku?
+answer: Karistus
+wrong_answers:
+  - Hoiatus
+  - Täiendavad kaevandamistasud
+  - Ajutine külmutamine
+explanation: |
+  Protokoll näeb ette heidutava karistuse, mis võimaldab teisel poolel kogu raha tagasi saada.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jakie ryzyko ponosi węzeł Lightning publikujący stary stan kanału?
+answer: Kara
+wrong_answers:
+  - Ostrzeżenie
+  - Dodatkowe opłaty górnicze
+  - Tymczasowe zamrożenie
+explanation: |
+  Protokół przewiduje odstraszającą karę, która pozwala drugiej stronie odzyskać całość środków.
+reviewed: false

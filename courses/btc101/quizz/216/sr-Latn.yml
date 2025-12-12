@@ -1,0 +1,9 @@
+question: Koji rizik preuzima Lightning čvor koji objavi staro stanje kanala?
+answer: Kaznu
+wrong_answers:
+  - Upozorenje
+  - Dodatne rudarske naknade
+  - Privremeno zamrzavanje
+explanation: |
+  Protokol predviđa odvraćajuću kaznu koja omogućava drugoj strani da povrati sva sredstva.
+reviewed: false

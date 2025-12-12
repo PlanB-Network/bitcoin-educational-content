@@ -1,0 +1,9 @@
+question: Que risque un noeud Lightning publiant un ancien état du canal ?
+answer: Une pénalité
+wrong_answers:
+  - Un avertissement
+  - Des frais de minage supplémentaires
+  - Un gel temporaire
+explanation: |
+  Le protocole prévoit une pénalité dissuasive permettant à l’autre partie de récupérer l’intégralité des fonds.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 古いチャネル状態を公開した場合、Lightning ノードはどのようなリスクを負いますか？
+answer: ペナルティ
+wrong_answers:
+  - 警告
+  - 追加のマイニング手数料
+  - 一時的な凍結
+explanation: |
+  プロトコルは抑止的なペナルティを定めており、相手方が資金の全額を回収できるようにします。
+reviewed: false

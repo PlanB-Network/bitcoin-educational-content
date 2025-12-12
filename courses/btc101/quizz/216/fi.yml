@@ -1,0 +1,9 @@
+question: Minkä riskin Lightning-solmu ottaa julkaistessaan kanavan vanhan tilan?
+answer: Rangaistus
+wrong_answers:
+  - Varoitus
+  - Lisäkaivosmaksut
+  - Väliaikainen jäädytys
+explanation: |
+  Protokolla määrää pelotteenomaisen rangaistuksen, joka mahdollistaa toisen osapuolen kaikkien varojen takaisinperinnän.
+reviewed: false

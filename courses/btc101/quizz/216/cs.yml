@@ -1,0 +1,9 @@
+question: Jaké riziko podstupuje Lightning uzel, který zveřejní starý stav kanálu?
+answer: Penále
+wrong_answers:
+  - Varování
+  - Dodatečné těžební poplatky
+  - Dočasné zmrazení
+explanation: |
+  Protokol stanoví odrazující sankci, která umožňuje druhé straně získat zpět veškeré prostředky.
+reviewed: false

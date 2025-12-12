@@ -1,0 +1,9 @@
+question: Que risco corre um nó Lightning ao publicar um estado antigo do canal?
+answer: Uma penalização
+wrong_answers:
+  - Um aviso
+  - Taxas de mineração adicionais
+  - Um congelamento temporário
+explanation: |
+  O protocolo prevê uma penalização dissuasora que permite à outra parte recuperar a totalidade dos fundos.
+reviewed: false

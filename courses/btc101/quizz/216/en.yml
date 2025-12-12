@@ -1,0 +1,9 @@
+question: What does a Lightning node risk by publishing an old channel state?
+answer: A penalty
+wrong_answers:
+  - A warning
+  - Additional mining fees
+  - A temporary freeze
+explanation: |
+  The protocol provides for a deterrent penalty allowing the other party to recover all of the funds.
+reviewed: false

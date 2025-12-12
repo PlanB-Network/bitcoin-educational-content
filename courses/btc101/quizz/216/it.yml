@@ -1,0 +1,9 @@
+question: Quale rischio corre un nodo Lightning che pubblica uno stato precedente del canale?
+answer: Una penalità
+wrong_answers:
+  - Un avvertimento
+  - Commissioni di mining aggiuntive
+  - Un congelamento temporaneo
+explanation: |
+  Il protocollo prevede una penalità dissuasiva che consente all’altra parte di recuperare l’intera somma dei fondi.
+reviewed: false

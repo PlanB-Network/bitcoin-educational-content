@@ -1,0 +1,9 @@
+question: Một nút Lightning sẽ đối mặt với rủi ro gì khi công bố trạng thái kênh cũ?
+answer: Một hình phạt
+wrong_answers:
+  - Một cảnh báo
+  - Phí khai thác bổ sung
+  - Đóng băng tạm thời
+explanation: |
+  Giao thức quy định một hình phạt mang tính răn đe, cho phép bên kia thu hồi toàn bộ số tiền.
+reviewed: false

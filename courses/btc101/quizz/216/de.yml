@@ -1,0 +1,9 @@
+question: Welches Risiko geht ein Lightning-Knoten ein, der einen alten Kanalzustand veröffentlicht?
+answer: Eine Strafe
+wrong_answers:
+  - Eine Verwarnung
+  - Zusätzliche Mining-Gebühren
+  - Eine vorübergehende Sperre
+explanation: |
+  Das Protokoll sieht eine abschreckende Strafe vor, die es der anderen Partei ermöglicht, sämtliche Mittel zurückzuerlangen.
+reviewed: false

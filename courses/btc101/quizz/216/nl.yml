@@ -1,0 +1,9 @@
+question: Welk risico loopt een Lightning-node die een oude kanaaltoestand publiceert?
+answer: Een straf
+wrong_answers:
+  - Een waarschuwing
+  - Extra miningkosten
+  - Een tijdelijke bevriezing
+explanation: |
+  Het protocol voorziet in een afschrikkende straf waarmee de andere partij alle middelen kan terugvorderen.
+reviewed: false

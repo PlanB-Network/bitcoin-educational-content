@@ -1,0 +1,9 @@
+question: Risiko apa yang dihadapi node Lightning jika mempublikasikan status kanal lama?
+answer: Penalti
+wrong_answers:
+  - Peringatan
+  - Biaya penambangan tambahan
+  - Pembekuan sementara
+explanation: |
+  Protokol menetapkan penalti yang bersifat pencegah, sehingga pihak lain dapat memulihkan seluruh dana.
+reviewed: false

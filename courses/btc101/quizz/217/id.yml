@@ -1,0 +1,9 @@
+question: Apa tujuan utama Lightning Network?
+answer: Memungkinkan pembayaran offchain yang cepat dan berbiaya rendah
+wrong_answers:
+  - Meningkatkan ukuran blok pada blockchain Bitcoin
+  - Menggantikan blockchain Bitcoin secara bertahap dengan sistem yang lebih efisien
+  - Membuat ladang penambangan menjadi sangat kaya
+explanation: |
+  Lightning Network bertujuan memungkinkan pembayaran bitcoin yang hampir instan dengan biaya rendah, tanpa membebani blockchain utama.
+reviewed: false

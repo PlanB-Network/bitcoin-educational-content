@@ -1,0 +1,9 @@
+question: Vad är huvudsyftet med Lightning Network?
+answer: Att möjliggöra offchain-betalningar som är snabba och billiga
+wrong_answers:
+  - Att öka blockstorleken i Bitcoin-blockkedjan
+  - Att gradvis ersätta Bitcoin-blockkedjan med ett mer effektivt system
+  - Att göra gruvfarmar mycket rika
+explanation: |
+  Lightning Network syftar till att möjliggöra nästan omedelbara bitcoin-betalningar med låga avgifter utan att belasta huvudblockkedjan.
+reviewed: false

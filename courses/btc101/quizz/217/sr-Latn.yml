@@ -1,0 +1,9 @@
+question: Koji je glavni cilj Lightning Networka?
+answer: Omogućavanje offchain plaćanja koja su brza i jeftina
+wrong_answers:
+  - Povećanje veličine blokova Bitcoin blokčejna
+  - Postepena zamena Bitcoin blokčejna efikasnijim sistemom
+  - Učiniti rudarske farme veoma bogatim
+explanation: |
+  Lightning Network ima za cilj da omogući gotovo trenutna plaćanja u bitkoinima uz niske naknade, bez opterećivanja glavnog blokčejna.
+reviewed: false

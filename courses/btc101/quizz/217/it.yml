@@ -1,0 +1,9 @@
+question: Qual è l’obiettivo principale del Lightning Network?
+answer: Consentire pagamenti offchain, rapidi e a basso costo
+wrong_answers:
+  - Aumentare la dimensione dei blocchi della blockchain di Bitcoin
+  - Sostituire progressivamente la blockchain di Bitcoin con un sistema più efficiente
+  - Rendere molto ricche le mining farm
+explanation: |
+  Il Lightning Network mira a consentire pagamenti in bitcoin quasi istantanei, con commissioni ridotte, senza sovraccaricare la blockchain principale.
+reviewed: false

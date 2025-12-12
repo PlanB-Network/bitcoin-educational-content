@@ -1,0 +1,9 @@
+question: Mis on Lightning Networki peamine eesmärk?
+answer: Võimaldada offchain-makseid, mis on kiired ja odavad
+wrong_answers:
+  - Suurendada Bitcoini plokiahela plokkide suurust
+  - Asendada Bitcoini plokiahel järk-järgult tõhusama süsteemiga
+  - Teha kaevandusfarmid väga rikkaks
+explanation: |
+  Lightning Networki eesmärk on võimaldada peaaegu koheseid bitcoini makseid madalate tasudega, koormamata põhivõrku.
+reviewed: false

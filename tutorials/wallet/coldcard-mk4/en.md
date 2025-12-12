@@ -258,7 +258,7 @@ Alternatively, you can add a `Add If Wrong` action that will be triggered after 
 2. Input your PIN.
 3. Go to `Settings` > Select `Login Settings` > Select `Trick PINs` > Select `Add If Wrong`.
 4. Mk4 will display a message regarding this setting. Navigate down as you read through the explanation, then press `✓` to proceed.
-5. Input the number of wrong attempts required to trigger the action. Note: The maximum attempt count is `12`. This is because Mk4 is designed such that when the incorrect PIN is entered `13` times, the device will brick itself, making it unusable permanently. Press `✓` to continue.
+5. Input the number of wrong attempts required to trigger the action. Note: The maximum attempt count is `12`. This is because Mk4 is designed such that when the incorrect PIN is entered `13` times, the device will brick itself, making it unusable permanently. After you input the number, press `✓` to continue.
 6. Navigate up or down to select the action. The actions available are as follows:
    - `Wipe, Stop`: The seedphrase is erased and the device shows “Seed is wiped, Stop.”
    - `Wipe & Reboot`: The seedphrase is erased and the device restarts without any message.

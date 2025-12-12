@@ -231,10 +231,7 @@ A Trick PIN is an alternative PIN code distinct from the one you use to set up y
 5. Input your trick PIN prefix (must be 2 to 6 characters long) and write it down.
 6. Mk4 will now display two new anti-phishing words, write them down, then press `✓` to proceed.
 7. Input your trick PIN suffix (or rest of PIN, must be 2 to 6 characters long) and write it down.
-8. Reenter your new PIN prefix.
-9. Check whether the anti-phishing words match the one you wrote in Step 8.
-10. Reenter your new PIN suffix (or rest of PIN).
-11. Navigate down or up to select the action you want to pair with the trick PIN you just created. The list of actions are:
+8. Navigate down or up to select the action you want to pair with the trick PIN you just created. The list of actions are:
     - `Brick Self`, when selected, your Mk4's chips will be destroyed after the PIN is entered, making your Mk4 to be unusable permanently.
     - `Wipe Seed`, you can choose between the following actions:
       - `Wipe & Reboot`: The seed is wiped and Coldcard will reboot after the PIN is entered.
@@ -250,8 +247,8 @@ A Trick PIN is an alternative PIN code distinct from the one you use to set up y
     - `Delta Mode`, This advanced feature is meant for experienced users and is designed to protect against serious threats, such as coercion by someone with insider knowledge. When Delta Mode is activated, the COLDCARD appears to open the real wallet, allowing the attacker to browse and confirm that it looks genuine. However, it secretly blocks all transaction signing, so no bitcoin can be sent. It also disables access to the seed phrase, and any attempt to view it will erase it completely. To make the fake wallet look more convincing, the Trick PIN used for Delta Mode must start with the same numbers as the real PIN (so it shows the same anti-phishing words) but end differently.
     - `Policy Unlock`, when selected, Single Signer Spending Policy (SSSP) will be disable after the trick PIN is entered.
     - `Policy Unlock & Wipe`, when selected, it pretends to disable SSSP but it will wipe the seedphrase in the process.
-12. After you have selected the action you want to pair with the trick PIN, confirm your choice by pressing `✓`. Your trick PIN is successfully configured.
-13. In the `Settings` > `Login Settings` > `Trick PINs`, you can see the list of trick PINs you have created and the actions paired with it. You can choose to reconfigure the trick PINs and the actions paired with it. You can also hide or delete it by selecting the PIN then select `Hide Trick` or `Delete Trick`. 
+9. After you have selected the action you want to pair with the trick PIN, confirm your choice by pressing `✓`. Your trick PIN is successfully configured.
+10. In the `Settings` > `Login Settings` > `Trick PINs`, you can see the list of trick PINs you have created and the actions paired with it. You can choose to reconfigure the trick PINs and the actions paired with it. You can also hide or delete it by selecting the PIN then select `Hide Trick` or `Delete Trick`. 
 
 ### Trick PINs - Add If Wrong
 

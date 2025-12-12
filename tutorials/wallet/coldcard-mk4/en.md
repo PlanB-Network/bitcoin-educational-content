@@ -169,7 +169,7 @@ Unlike receiving bitcoins, spending the bitcoins associated with your Coldcard r
 16. Ensure the master key fingerprint is the same with the one on your Sparrow Wallet. You can check this on Sparrow Wallet's `Settings` tab on the left side of the interface. Then, press `✓` on your Mk4 to proceed. This will take you to the main menu.
 17. On Mk4's main menu, select `Ready to Sign`. The screen will display an `OKAY TO SEND?` message. Ensure the amount of the bitcoins you want to send and the receiving address are all correct. Press `✓` to confirm or `✕` to cancel.
 18. If there are multiple PSBT files to choose from, Mk4 will display `Choose PSBT file to be signed` message. Press `✓` to continue. Then, select the PSBT file you want to sign by navigating down or up. Perform Step 17 on that transaction.
-19. Mk4 will now display the `PSBT Signed` along with the name of the file of the signed PSBT. Press `✓` to continue.
+19. Mk4 will now display the `PSBT Signed` message along with the name of the file of the signed PSBT. Press `✓` to continue.
 20. Remove the MicroSD card from the Coldcard and insert it into the device where Sparrow Wallet is installed.
 21. On Sparrow Wallet, click `Load Transaction`.
 22. Select the file with the same name as the one created on Step 19.

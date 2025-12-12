@@ -1,0 +1,9 @@
+question: Welk mechanisme maakt Lightning-betalingen atomair?
+answer: HTLC
+wrong_answers:
+  - Multisignature
+  - Proof of Work
+  - SegWit
+explanation: |
+  HTLC’s koppelen de betaling aan het onthullen van een geheim en garanderen volledig succes of mislukking zonder verlies.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo butuma amahera ya Lightning aba atomique?
+answer: HTLC
+wrong_answers:
+  - Multisignature
+  - Proof of Work
+  - SegWit
+explanation: |
+  HTLC zishingira ukwishyura ku kugaragazwa kw'ibanga, bigatuma habaho gutsinda kwose canke gutsindwa ata gihombo.
+reviewed: false

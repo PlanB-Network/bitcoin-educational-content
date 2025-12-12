@@ -1,0 +1,9 @@
+question: Cơ chế nào khiến các khoản thanh toán Lightning mang tính nguyên tử?
+answer: HTLC
+wrong_answers:
+  - Multisignature
+  - Proof of Work
+  - SegWit
+explanation: |
+  HTLC ràng buộc thanh toán với việc tiết lộ một bí mật, bảo đảm thành công hoàn toàn hoặc thất bại mà không tổn thất.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quel mécanisme rend les paiements Lightning atomiques ?
+answer: HTLC
+wrong_answers:
+  - Multisignature
+  - Proof of Work
+  - SegWit
+explanation: |
+  Les HTLC conditionnent le paiement à la révélation d’un secret, garantissant succès total ou échec sans perte.
+reviewed: false

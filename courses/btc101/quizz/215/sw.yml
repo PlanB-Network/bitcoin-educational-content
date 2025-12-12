@@ -1,0 +1,9 @@
+question: Ni utaratibu gani unaofanya malipo ya Lightning kuwa atomiki?
+answer: HTLC
+wrong_answers:
+  - Multisignature
+  - Proof of Work
+  - SegWit
+explanation: |
+  HTLC hufanya malipo yategemee kufichuliwa kwa siri, na hivyo kuhakikisha mafanikio kamili au kushindwa bila hasara.
+reviewed: false

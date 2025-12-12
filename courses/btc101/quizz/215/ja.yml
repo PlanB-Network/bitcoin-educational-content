@@ -1,0 +1,9 @@
+question: Lightning の支払いをアトミックにする仕組みはどれですか？
+answer: HTLC
+wrong_answers:
+  - マルチシグ
+  - Proof of Work
+  - SegWit
+explanation: |
+  HTLC は支払いを秘密の開示に条件付けることで、損失なく完全な成功または失敗を保証します。
+reviewed: false

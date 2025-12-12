@@ -1,0 +1,9 @@
+question: Mekanisme apa yang membuat pembayaran Lightning bersifat atomik?
+answer: HTLC
+wrong_answers:
+  - Multisignature
+  - Proof of Work
+  - SegWit
+explanation: |
+  HTLC mengondisikan pembayaran pada pengungkapan sebuah rahasia, sehingga menjamin keberhasilan penuh atau kegagalan tanpa kerugian.
+reviewed: false

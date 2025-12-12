@@ -1,0 +1,9 @@
+question: Vilken mekanism gör Lightning-betalningar atomiska?
+answer: HTLC
+wrong_answers:
+  - Multisignatur
+  - Proof of Work
+  - SegWit
+explanation: |
+  HTLC villkorar betalningen med avslöjandet av en hemlighet och garanterar fullständig framgång eller misslyckande utan förlust.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaki mechanizm sprawia, że płatności Lightning są atomowe?
+answer: HTLC
+wrong_answers:
+  - Multisignature
+  - Proof of Work
+  - SegWit
+explanation: |
+  HTLC uzależniają płatność od ujawnienia sekretu, gwarantując pełny sukces lub niepowodzenie bez strat.
+reviewed: false

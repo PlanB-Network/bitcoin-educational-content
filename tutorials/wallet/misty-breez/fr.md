@@ -95,10 +95,10 @@ Pour les plus expérimentés, vous avez également un menu **Préférences > Dé
 - Le Tip Liquid, qui permet d'envoyer de petits montants de L-BTC.
 - Le Tip Bitcoin, qui permet d'envoyer de petits montants de bitcoin.
 
-Vous avez également la possibilité d'effectuer certaines actions telles que la synchronisation avec le réseau Liquid, la sauvegarde de vos clés, le partage votre journal d'activité et le choix de rescanner le réseau Liquid.
+Vous avez également la possibilité d'effectuer certaines actions telles que la synchronisation avec le réseau Liquid, la sauvegarde de vos clés, le partage de votre journal d'activité et le choix de rescanner le réseau Liquid.
 
 ![dev-mode](assets/fr/09.webp)
-Félicitations ! Vous avez désormais une bonne compréhension du portefeuille Misty Breez et de son apport dans les transactions inter réseaux Bitcoin. Si vous avez trouvé ce tutoriel utile, nous vous prions de nous laisser nous un pouce vert. Cela nous fera amplement plaisir.
+Félicitations ! Vous avez désormais une bonne compréhension du portefeuille Misty Breez et de son apport dans les transactions inter réseaux Bitcoin. Si vous avez trouvé ce tutoriel utile, nous vous prions de nous laisser un pouce vert. Cela nous fera amplement plaisir.
 
 Pour aller plus loin, je vous recommande également de découvrir notre tutoriel sur le portefeuille Aqua, qui fonctionne de manière similaire à Misty Breez :
 

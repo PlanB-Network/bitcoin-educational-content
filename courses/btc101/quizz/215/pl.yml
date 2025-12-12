@@ -1,8 +1,0 @@
-question: Na czym polega problem skalowalności Bitcoina?
-answer: Wyzwanie związane z wdrożeniem systemu monetarnego zdolnego do zapewnienia coraz większej liczby transakcji na sekundę w miarę jego powszechniejszego przyjmowania.
-wrong_answers:
-  - Trudność wydobycia nowych bitcoinów o rosnącej wartości w czasie.
-  - Zmienność ceny bitcoina, która rośnie po każdym halvingu.
-  - Brak regulacji Bitcoina, który sprawi, że transakcje będą nielegalne.
-explanation: >-
-reviewed: true

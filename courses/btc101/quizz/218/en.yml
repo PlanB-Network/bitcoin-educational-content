@@ -1,0 +1,9 @@
+question: Why can a Lightning channel be unusable in one direction?
+answer: Not enough liquidity
+wrong_answers:
+  - Block too recent
+  - Expired HTLC
+  - Unsynchronized node
+explanation: |
+  Even with large capacity, a channel only allows a payment if sufficient liquidity is on the correct side.
+reviewed: false

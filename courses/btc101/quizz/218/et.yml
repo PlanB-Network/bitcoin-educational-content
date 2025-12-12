@@ -1,0 +1,9 @@
+question: Miks võib Lightningi kanal olla ühes suunas kasutamatu?
+answer: Ebapiisav likviidsus
+wrong_answers:
+  - Liiga hiljutine plokk
+  - Aegunud HTLC
+  - Sünkroonimata sõlm
+explanation: |
+  Isegi suure mahutavuse korral võimaldab kanal makset ainult siis, kui piisav likviidsus on õigel poolel.
+reviewed: false

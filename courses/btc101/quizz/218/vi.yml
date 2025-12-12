@@ -1,0 +1,9 @@
+question: Tại sao một kênh Lightning có thể không sử dụng được theo một chiều?
+answer: Không đủ thanh khoản
+wrong_answers:
+  - Khối quá mới
+  - HTLC đã hết hạn
+  - Nút chưa đồng bộ
+explanation: |
+  Ngay cả với dung lượng lớn, một kênh chỉ cho phép thanh toán nếu có đủ thanh khoản ở phía phù hợp.
+reviewed: false

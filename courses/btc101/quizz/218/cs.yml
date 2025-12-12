@@ -1,0 +1,9 @@
+question: Proč může být Lightning kanál v jednom směru nepoužitelný?
+answer: Nedostatečná likvidita
+wrong_answers:
+  - Příliš nový blok
+  - Vypršený HTLC
+  - Nesynchronizovaný uzel
+explanation: |
+  I při velké kapacitě umožňuje kanál platbu pouze tehdy, pokud je na správné straně dostatečná likvidita.
+reviewed: false

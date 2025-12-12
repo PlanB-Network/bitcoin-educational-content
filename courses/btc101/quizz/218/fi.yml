@@ -1,0 +1,9 @@
+question: Miksi Lightning-kanava voi olla käyttökelvoton yhteen suuntaan?
+answer: Riittämätön likviditeetti
+wrong_answers:
+  - Liian uusi lohko
+  - Vanhentunut HTLC
+  - Synkronoimaton solmu
+explanation: |
+  Vaikka kapasiteetti olisi suuri, kanava mahdollistaa maksun vain, jos oikealla puolella on riittävästi likviditeettiä.
+reviewed: false

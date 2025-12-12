@@ -1,0 +1,9 @@
+question: Dlaczego kanał Lightning może być nieużyteczny w jednym kierunku?
+answer: Niewystarczająca płynność
+wrong_answers:
+  - Zbyt nowy blok
+  - Wygasły HTLC
+  - Niezsynchronizowany węzeł
+explanation: |
+  Nawet przy dużej pojemności kanał umożliwia płatność tylko wtedy, gdy po właściwej stronie znajduje się wystarczająca płynność.
+reviewed: false

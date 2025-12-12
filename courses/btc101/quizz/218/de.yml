@@ -1,0 +1,9 @@
+question: Warum kann ein Lightning-Kanal in eine Richtung unbrauchbar sein?
+answer: Nicht genügend Liquidität
+wrong_answers:
+  - Zu neuer Block
+  - Abgelaufener HTLC
+  - Nicht synchronisierter Knoten
+explanation: |
+  Selbst bei großer Kapazität ermöglicht ein Kanal eine Zahlung nur, wenn sich auf der richtigen Seite genügend Liquidität befindet.
+reviewed: false

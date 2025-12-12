@@ -1,0 +1,9 @@
+question: Mengapa saluran Lightning bisa tidak dapat digunakan dalam satu arah?
+answer: Likuiditas tidak mencukupi
+wrong_answers:
+  - Blok terlalu baru
+  - HTLC kedaluwarsa
+  - Node tidak tersinkronisasi
+explanation: |
+  Bahkan dengan kapasitas besar, saluran hanya memungkinkan pembayaran jika likuiditas yang cukup berada di sisi yang benar.
+reviewed: false

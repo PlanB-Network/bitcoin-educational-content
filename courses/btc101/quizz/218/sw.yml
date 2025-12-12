@@ -1,0 +1,9 @@
+question: Kwa nini kituo cha Lightning kinaweza kutotumika katika mwelekeo mmoja?
+answer: Ukosefu wa ukwasi wa kutosha
+wrong_answers:
+  - Bloku mpya sana
+  - HTLC iliyoisha muda wake
+  - Nodi isiyosawazishwa
+explanation: |
+  Hata kwa uwezo mkubwa, kituo huruhusu malipo tu ikiwa kuna ukwasi wa kutosha upande sahihi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: なぜ Lightning チャネルは一方向で使用できないことがあるのですか？
+answer: 流動性が不足している
+wrong_answers:
+  - 新しすぎるブロック
+  - 期限切れの HTLC
+  - 同期されていないノード
+explanation: |
+  容量が大きくても、適切な側に十分な流動性がある場合にのみ、チャネルは支払いを可能にします。
+reviewed: false

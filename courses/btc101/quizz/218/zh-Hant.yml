@@ -1,0 +1,9 @@
+question: 為什麼 Lightning 通道在某一個方向上可能無法使用？
+answer: 流動性不足
+wrong_answers:
+  - 區塊過新
+  - HTLC 已過期
+  - 節點未同步
+explanation: |
+  即使容量很大，通道也只有在正確一側具備足夠流動性時才能進行支付。
+reviewed: false

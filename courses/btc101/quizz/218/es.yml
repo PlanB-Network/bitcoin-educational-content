@@ -1,0 +1,9 @@
+question: ¿Por qué un canal Lightning puede ser inutilizable en una dirección?
+answer: Falta de liquidez
+wrong_answers:
+  - Bloque demasiado reciente
+  - HTLC expirado
+  - Nodo no sincronizado
+explanation: |
+  Incluso con una gran capacidad, un canal solo permite un pago si hay suficiente liquidez del lado correcto.
+reviewed: false

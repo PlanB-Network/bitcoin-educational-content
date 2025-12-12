@@ -1,0 +1,9 @@
+question: Zašto Lightning kanal može biti neupotrebljiv u jednom smeru?
+answer: Nedovoljna likvidnost
+wrong_answers:
+  - Previše nov blok
+  - Istekao HTLC
+  - Nesinhronizovan čvor
+explanation: |
+  Čak i sa velikim kapacitetom, kanal omogućava plaćanje samo ako se dovoljno likvidnosti nalazi na pravoj strani.
+reviewed: false

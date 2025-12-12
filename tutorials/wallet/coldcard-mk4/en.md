@@ -32,15 +32,29 @@ If there are no problems with the packaging, you may open the bag. The Mk4 will 
 
 ![02](assets/en/02.png)
 
-6. Select `Choose PIN Code`.
-7. Navigate down as you read the instructions to proceed to the next step.
-8. On the Mk4, create and enter the PIN prefix (must be 2 to 6 characters long) and write it down, then press `✓` to continue.
-9. Write down the two words displayed at the screen. These are the anti-phishing words. Press `✓` to continue.
-10. Create and enter the PIN suffix (or rest of PIN, must be 2 to 6 characters long) and write it down. Press `✓` to continue.
-11. Reenter your PIN prefix. Press `✓` to continue.
-12. Check whether the anti-phishing words are the same with the one you wrote on step 8. Press `✓` to continue.
-13. Reenter your PIN suffix (or rest of PIN). Press `✓` to continue.
-14. Your Mk4's PIN and anti-phishing words are now successfully created and stored by the device.
+5. Select `Choose PIN Code`.
+6. Navigate down as you read the instructions to proceed to the next step.
+
+![03](assets/en/03.png)
+
+7. On the Mk4, create and enter the PIN prefix (must be 2 to 6 characters long) and write it down, then press `✓` to continue.
+8. Write down the two words displayed at the screen. These are the anti-phishing words. Press `✓` to continue.
+
+![04](assets/en/04.png)
+
+9. Create and enter the PIN suffix (or rest of PIN, must be 2 to 6 characters long) and write it down. Press `✓` to continue.
+10. Reenter your PIN prefix. Press `✓` to continue.
+
+![05](assets/en/05.png)
+
+11. Check whether the anti-phishing words are the same with the one you wrote on step 8. Press `✓` to continue.
+12. Reenter your PIN suffix (or rest of PIN). Press `✓` to continue.
+
+![06](assets/en/06.png)
+
+13. Your Mk4's PIN and anti-phishing words are now successfully created and stored by the device.
+
+![07](assets/en/07.png)
 
 Note that Mk4 will always ask you to input your PIN each time you switch your device on. Without this PIN, you are not able to access your Coldcard Mk4. So make sure that you create sufficient backup for the PIN and anti-phishing words.
 

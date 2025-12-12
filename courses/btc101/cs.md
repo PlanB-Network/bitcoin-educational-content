@@ -1198,85 +1198,198 @@ Pokud si chcete rozšířit své znalosti o bitcoinu, je ten správný čas: řa
 
 > "Myslím, že internet bude jednou z hlavních sil, které sníží roli vlády. Jediné, co zatím chybí, ale co bude brzy vyvinuto, je spolehlivá elektronická hotovost - metoda, pomocí níž lze na internetu převést finanční prostředky z A do B, aniž by A věděl o B nebo B o A." - Předpověď Miltona Friedmana z roku 1999
 
-# Budoucnost bitcoinu: Lightning Network
+# Budoucnost Bitcoinu
 
 <partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 
-## Stručný úvod do sítě Lightning
+## Lightning Network: rychlé platby v bitcoinech s nízkými poplatky
 
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
-Nyní, když jsme se seznámili se základy protokolu Bitcoin, si představíme platební síť, která využívá protokol Bitcoin k umožnění bleskurychlých transakcí: Lightning Network!
+Nyní, když již znáte základy protokolu Bitcoin, představíme hlavní platební síť postavenou nad Bitcoinem: Lightning Network (často zkracovanou jako "LN"). Jejím cílem je jednoduchý: umožnit platby v BTC s téměř okamžitou finalitou, bez zahlcení blockchainu a s obvykle velmi nízkými poplatky.
 
-Uvědomte si, že následující informace jsou pouze obecným popisem, takže pokud je chcete pochopit podrobněji, doporučujeme vám podívat se na náš kurz LNP201.
+### Blockchain nemůže dělat všechno
 
-### Stručně řečeno
-
-Lightning Network je revoluční technologie, která zásadně změnila naše vnímání Bitcoinu, protože řeší problém škálovatelnosti Bitcoinu.
-
-Pro úplné pochopení Lightning Network je zásadní pochopit, jak se Bitcoin vyvíjí a rozvíjí v infrastrukturních vrstvách: první vrstvou je blockchain a druhou Lightning Network.
-
-![image](assets/cs/080.webp)
-
-### Blockchain nemůže růst donekonečna
-
-Síť Lightning Network byla schválena a implementována v roce 2017 s cílem vyřešit problém škálovatelnosti Bitcoinu, protože umožňuje okamžité a levné transakce s bitcoinem.
-
-Problém škálovatelnosti se týká výzvy implementovat peněžní systém schopný poskytovat stále větší počet transakcí za sekundu, aby bylo možné čelit rostoucímu přijetí. Tento problém souvisí s trilematem blockchainu. Představte si trojúhelník, jehož vrcholy jsou decentralizace, bezpečnost a škálovatelnost.
+Bitcoinový blockchain je navržen tak, aby byl ověřitelný co největším počtem účastníků, bez povolení a bez nutnosti důvěry. Tento požadavek však přináší strukturální omezení: blockchain nemůže zpracovávat neomezené množství transakcí, protože bloky musí zůstat rozumně velké z hlediska stahování, ukládání a ověřování nezávislými uzly, aniž by bylo nutné investovat do příliš drahého hardwaru. Tento kompromis je často shrnován tzv. trilematem: decentralizace, bezpečnost a škálovatelnost. Systém založený na blockchainu nemůže maximalizovat všechny tři vlastnosti současně. Bitcoin upřednostňuje decentralizaci a bezpečnost, což přirozeně omezuje možnou propustnost onchain transakcí.
 
 ![image](assets/cs/081.webp)
 
-Podle ní může protokol založený na blockchainu splňovat pouze dvě z těchto tří vlastností. V rámci protokolu Bitcoin se vývojáři rozhodli upřednostnit decentralizaci a bezpečnost. Na jedné straně velikost bloku 1 MB a doba mezi dvěma bloky (v průměru 10 minut) umožňují provozovat bitcoinový uzel s nižšími náklady, což podporuje decentralizaci. Na druhou stranu vytváření bloků pomocí metody proof of work činí podvody v rámci protokolu extrémně nákladnými, zatímco usnadňuje ověřování síťovými uzly a podporuje bezpečnost. Tato volba však znamená omezení průměrného počtu transakcí v bloku, což zhruba odpovídá několika transakcím za sekundu. Toto číslo je ve srovnání s výpočetní kapacitou platebních procesorů, jako je VISA (1700/s), směšné, ale tento limit je nezbytný, aby bylo možné provádět transakce s Bitcoinem způsobem odolným vůči cenzuře a bez důvěry. Nicméně ti, kdo na Bitcoinu vyvíjejí, o tomto problému přemýšlejí od samého počátku.
+U Bitcoinu učinili vývojáři vědomá rozhodnutí právě s tímto cílem. Na jedné straně omezená velikost bloků na 1 MB a průměrný čas 10 minut mezi jednotlivými bloky umožňují provozovat Bitcoinový uzel s nízkými náklady, což podporuje decentralizaci sítě. Na druhé straně tvorba bloků pomocí důkazu prací činí jakýkoli pokus o podvod extrémně nákladným, zároveň usnadňuje ověřování uzly a posiluje celkovou bezpečnost protokolu.
 
-### Lightning jako vrchní vrstva
+Tato rozhodnutí však znamenají i významné omezení: počet transakcí, které lze zahrnout do každého bloku, je omezený. Odpovídá to pouze několika transakcím za sekundu. Toto číslo je zanedbatelné ve srovnání s kapacitou centralizovaných platebních systémů, jako je VISA (která má teoretickou maximální kapacitu přibližně 65 000 transakcí za sekundu), ale toto omezení je cenou za umožnění transakcí bez cenzury a bez důvěryhodné třetí strany.
 
-Po letech úvah a několika pokusech vznikl protokol Lightning. Pomocí určitého počtu specifikací tento protokol konstruuje peer-to-peer platební síť s využitím bezpečnosti a programovatelnosti transakčního protokolu Bitcoinu. Lightning Network funguje jako síť platebních kanálů, která umožňuje okamžité transakce s nízkými poplatky pro odesílatele, a dokonce vytváří směnné trasy mezi jednotlivci, kteří nemají přímé propojení kanálů.
+V praxi to znamená dvě velmi důležité věci pro každodenní používání Bitcoinu:
+* když poptávka po blokovém prostoru roste, mohou onchain poplatky výrazně vzrůst;
+* onchain platby vyžadují potvrzení, což není vždy vhodné pro běžné nákupy.
 
-![image](assets/cs/082.webp)
+Lightning Network je právě odpovědí na tyto problémy. Myšlenka Lightning zapadá do vrstveného přístupu: Bitcoin zůstává základní vrstvou (vrstvou konečného vypořádání, robustní a velmi bezpečnou), zatímco Lightning slouží jako rychlá platební vrstva nad ní.
 
-Tradiční služby převodu peněz, jako jsou Western Union, centrální banky, Visa a Mastercard, by mohly zaniknout, pokud nepřijmou technologii Lightning Network, která je efektivnější a nákladově výhodnější než současné platební systémy. Síť Lightning Network totiž umožňuje téměř neomezené transakce mezi dvěma rovnocennými partnery, kteří sdílejí kanál, přičemž náklady na energii spojené s transakcí vznikají pouze při oznámení o vytvoření kanálu, nikoliv při každé jednotlivé transakci.
+![image](assets/cs/080.webp)
+
+### Platební kanály ukotvené v Bitcoinu
+
+Lightning je založen na obousměrných platebních kanálech. Kanál je technický vztah mezi dvěma účastníky, který jim umožňuje vyměňovat satoshi offchain, tedy bez zapisování každé platby do blockchainu.
+
+Z pohledu Bitcoinu (onchain) znamená otevření kanálu uzamčení prostředků ve speciální transakci. Lze si to představit jako úschovu: prostředky jsou zablokovány tak, že je lze znovu rozdělit pouze při platném uzavření kanálu.
+
+Z pohledu Lightning se tentýž mechanismus stává kanálem, ve kterém mohou obě strany aktualizovat stav rozdělení satoshi libovolně často, téměř okamžitě a bez nutnosti zapisovat každou platbu do hlavního blockchainu.
+
+Mechanismus tedy funguje následovně:
+* otevření a uzavření Lightning kanálu jsou Bitcoin transakce (a tedy publikované onchain);
+* platby mezi otevřením a uzavřením jsou offchain aktualizace, které nejsou viditelné na hlavním blockchainu.
 
 ![image](assets/cs/083.webp)
 
-Transakce jsou zabezpečeny prostřednictvím kryptografie a nepřímo prostřednictvím energie spotřebované těžaři bitcoinu. Lze je provádět okamžitě, bez geografických omezení a s extrémně nízkými poplatky (často nižšími než 0,5 %).
+Díky tomu mohou dvě osoby, které sdílejí Lightning kanál, provést velmi velké množství plateb, aniž by pokaždé vytvářely onchain transakci. Opět se zde uplatňuje logika škálovatelnosti: blockchain je vyhrazen pro vzácné a důležité operace (otevření a uzavření kanálu, tedy konečné vypořádání) a ostatní drobné mezikroky se přesouvají do efektivnější vrstvy.
 
-Lightning Network je slibný pokus o zavedení efektivního platebního systému pro nákup a prodej v bitcoinech. K dispozici je již řada peněženek Lightning, které můžete objevit v naší výukové sekci nebo prostřednictvím našich kurzů Lightning Network.
+### Síť propojených kanálů
 
-Pokud chcete jít nad rámec tohoto úvodu a porozumět celému fungování sítě Lightning, doporučujeme absolvovat tento vynikající kurz od Fanise Michalakise:
+Lightning není pouze soubor izolovaných kanálů. Je to síť: tisíce uzlů jsou propojeny kanály a tvoří graf spojení.
 
-https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+![image](assets/cs/082.webp)
 
-## Případy použití sítě Lightning
+Díky této síti můžete zaplatit příjemci, i když s ním nemáte přímý kanál, za předpokladu, že existuje cesta kanálů umožňující směrování platby. Ta pak prochází přes několik zprostředkujících uzlů, skok za skokem.
 
-<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+Zde se objevuje důležitý pojem Lightningu: likvidita. Kapacita kanálu odpovídá celkovému objemu prostředků uzamčených v tomto kanálu a likvidita odpovídá rozdělení těchto prostředků mezi obě strany kanálu, a tedy směru, kterým mohou satoshi proudit. Jinými slovy, kanál může mít velkou kapacitu, ale může být v určitém směru nepoužitelný, pokud se likvidita nachází na „špatné“ straně. Úspěch plateb tedy závisí nejen na existenci cesty, ale také na dostupné likviditě po celé této cestě.
 
-Jak jsme právě viděli, protokol Bitcoinu, ačkoli je revoluční, čelí značným výzvám, pokud jde o škálovatelnost potřebnou pro zpracování všech našich každodenních transakcí. K vyřešení těchto problémů byla navržena síť Lightning Network, která se od té doby vyvinula do několika různých implementací, z nichž všechny jsou interoperabilní:
+### Směrování platby bez důvěry v prostředníky
 
-- Core-lightning od společnosti Blockstream
-- Eclair od společnosti Acinq
-- LND úderem blesku
+Lightning byl navržen tak, aby umožňoval platby přes prostředníky bez nutnosti jim důvěřovat. K tomu protokol využívá chytré kontrakty nazývané HTLC (*Hashed Time-Locked Contracts*). Aniž bychom zabíhali do všech detailů, zapamatujte si obecný mechanismus:
+* platba je podmíněna odhalením tajemství (předobrazu);
+* pokud konečný příjemce toto tajemství odhalí, obdrží prostředky a prostředníci si mohou postupně vyzvednout to, co jim náleží;
+* pokud platba selže, časové limity vyprší a každý získá zpět své prostředky.
 
-Cílem této sítě peer-to-peer je usnadnit mikrotransakce (s velmi nízkou hodnotou), které by jinak byly nepraktické kvůli vysokým poplatkům a dlouhým dobám potvrzení v blockchainu Bitcoinu.
+Tento mechanismus poskytuje zásadní vlastnost: platba je atomická. Buď proběhne celá, nebo selže bez mezilehlých ztrát.
 
-### Jaké jsou případy použití sítě?
+Lightning navíc obsahuje sankční mechanismus: pokud se jeden z účastníků pokusí podvádět zveřejněním starého stavu kanálu (který již neodpovídá realitě), druhý jej může potrestat a získat všechny prostředky. Toto pravidlo silně motivuje k poctivému chování, i v nepřátelském prostředí.
 
-Tato technologie otevírá dveře široké škále potenciálních aplikací Bitcoinu, které byly dříve nedostupné kvůli nezbytným omezením pro zajištění bezpečnosti a decentralizace Bitcoinu. Mezi těmito případy každodenního použití můžeme zmínit okamžité účtování ve fyzickém i online obchodě, streamování peněz pro platby v reálném čase a mikroplatby pro tvůrce obsahu. Umožněním sítě téměř okamžitých, bezpečných a nízkonákladových transakcí (v průměru méně než 0,5 %) lze realizovat mnoho dříve nepředstavitelných obchodních modelů. To je možné díky tomu, že Lightning Network funguje pomocí satoshů (sats), nejmenší jednotky bitcoinu.
+### Lightning uzel, Lightning peněženka: co to znamená
 
-![image](assets/cs/084.webp)
+U onchain Bitcoinu je peněženka software, který spravuje klíče a vytváří transakce. U Lightningu je situace nejednoznačnější, protože skutečné nekustodiální použití se opírá o Lightning uzel (i když je tento uzel skryt za jednoduchým rozhraním).
 
-Zvláště zajímavý příklad toho, jak lze Lightning Network využít k transformaci stávajících obchodních modelů, nabízí videoherní průmysl. Koncept "kůže ve hře" je myšlenka, která si v této souvislosti nedávno získala popularitu. V podstatě jde o finanční podíl na výsledku hry. Síť Lightning Network totiž umožňuje hráčům vsadit při hraní her velmi malé částky, například několik satošů (asi zlomek eurocentu), a vytvořit tak sázku, která stimuluje konkurenci a zároveň výrazně zvyšuje náklady na používání botů.
+V praxi existují dvě hlavní kategorie aplikací pro používání Lightningu:
+* Kustodiální služby: aplikace vám zobrazuje zůstatek, ale prostředky jsou kontrolovány poskytovatelem. Váš zůstatek je účetní položkou v jejich systému, podobně jako na burze;
+* Nekustodiální řešení: skutečně ovládáte klíče a schopnost získat své prostředky zpět. Může jít o aplikaci, která obsahuje uzel s minimální správou pro zjednodušení uživatelského prostředí (například Phoenix, Zeus…), nebo o plnohodnotný Lightning uzel, který spravujete zcela sami.
+
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+
+Dnes existují také self-custodial peněženky schopné nepřímo podporovat Lightning platby pomocí atomických swapů, které se spouštějí na vyžádání pro každou příchozí nebo odchozí platbu (například Bull Bitcoin Wallet, Aqua…). Tyto peněženky obvykle využívají sidechain Liquid jako vrstvu vypořádání (v další kapitole si vysvětlíme, o co jde).
+
+https://planb.academy/tutorials/wallet/mobile/bull-bitcoin-2c72127c-a228-4f50-b833-c6183d56aaf6
+
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+
+### Konkrétní případy použití: co Lightning konečně umožňuje
+
+Lightning otevírá škálu použití, která byla dříve s onchain Bitcoinem sama o sobě nepraktická nebo dokonce nemožná.
+
+- **Každodenní platby (online i fyzické)**
+
+Pro platby u pokladny nebo online nákupy umožňuje Lightning téměř okamžitou finalitu s obvykle nízkými poplatky. To činí bitcoin použitelným i pro malé částky, a to i tehdy, když je hlavní blockchain přetížený.
+
+- **Mikroplatby a streaming money**
+
+Možnost posílat velmi malé částky otevírá nové ekonomické modely: odměňování podle použití, platby za minutu, opakované dary, spropitné… To je myšlenka „streaming money“: platit podle skutečné spotřeby obsahu nebo služby, nikoli formou paušálního předplatného.
+
+- **Tvůrci obsahu, podcasty a dary**
+
+Lightning se často používá pro mikro-dary nebo odměňovací mechanismy. Aplikace jako Fountain nebo Rumble tuto logiku dobře ilustrují: platba se stává granulární a přirozenou součástí zážitku, místo aby šlo o těžkopádný a ojedinělý akt. Tuto logiku jsme integrovali i do Plan ₿ Academy, protože můžete snadno posílat malé dary svým oblíbeným lektorům jako poděkování.
+
+- **Hry a digitální ekonomiky**
+
+Videohry a digitální prostředí se přirozeně hodí pro mikrotransakce: malé sázky, odměny, virtuální předměty… Zavedení minimální finanční motivace může také zvýšit náklady na spam a některé zneužití (boty), přičemž zůstává dostupné.
 
 ![image](assets/cs/085.webp)
 
-Budoucnost mikrotransakcí s bitcoinem vypadá díky inovacím, jako je Lightning Network, slibně. Vzhledem k tomu, že se tyto technologie dále vyvíjejí a zrají, můžeme očekávat, že se v blízké budoucnosti objeví nové a zajímavé aplikace.
+### Hlavní implementace Lightningu
 
-![image](assets/cs/086.webp)
+Stejně jako u Bitcoinu je Lightning protokol, nikoli jediný software. Existuje několik implementací, které zůstávají interoperabilní díky společným specifikacím (BOLT):
+* LND (Lightning Labs);
+* Core Lightning (Blockstream);
+* Éclair (ACINQ);
+* LDK (Spiral/Block);
+* atd.
 
-Dalším příkladem může být "streamování peněz": prostřednictvím sítě Lightning Network můžeme každou minutu provádět mikrotransakce (potenciálně bez důvěryhodné třetí strany), což otevírá prostor pro experimentování s ekonomickými modely, kdy spotřebitelé platí za obsah na základě jeho skutečné spotřeby. Dokonce je možné tento systém využít i pro pronájem zboží. V takovém systému se peníze automaticky rozdělují na základě předem stanoveného procenta mezi různé přispěvatele na službu nebo produkt. To by mohlo způsobit revoluci v uvažování o platebních modelech: namísto měsíčního předplatného za službu by uživatelé mohli platit za minutu nebo dokonce za sekundu za čas, který stráví používáním služby. Takový ekonomický model by mohl mít hluboké důsledky pro tvůrce obsahu, kteří by byli motivováni vytvářet kvalitní obsah, aby si udrželi pozornost uživatelů.
+### Lightning jako součást vývoje Bitcoinu
 
-![image](assets/cs/087.webp)
+Lightning nenahrazuje Bitcoin blockchain, ale doplňuje jej. Blockchain zůstává konečnou vypořádací vrstvou, pomalou, ale velmi robustní. Lightning je rychlá platební vrstva určená pro časté použití a malé částky.
 
-Závěrem lze říci, že Lightning Network otevírá uživatelům bitcoinu řadu zajímavých možností využití. Výsledné ekonomické modely a obchodní příležitosti jsou četné a rozmanité a my vám doporučujeme, abyste se o tom přesvědčili sami vyzkoušením aplikace podcast [Fountain](https://www.fountain.fm/), která vám umožní získat odměnu v podobě několika satů za poslech vašich oblíbených podcastů!
+V roce 2025 je Lightning přístupnější než v počátcích díky peněženkám a službám, které skrývají část složitosti. Stále však zachovává kompromisy: likviditu, onchain náklady na kanály a někdy volby mezi jednoduchostí, suverenitou a soukromím.
+
+Pokud chcete Lightningu porozumět do hloubky (kanály, likvidita, směrování, řízení rizik), doporučuji kompletní teoretický kurz LNP 201 od Fanise Michalakise:
+
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
+A pokud se chcete pustit do provozování vlastního Lightning uzlu, nabízíme také praktický kurz LNP 202, který je tomuto tématu přímo věnován:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+
+## Za hranicemi Lightningu: další protokoly pro rozvoj Bitcoinu
+
+<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+
+Jak jsme viděli v předchozích kapitolách, Bitcoin byl navržen jako mimořádně robustní základní vrstva: veřejný registr, jednoduchý, bezpečný, ale přirozeně omezený z hlediska rychlosti, programovatelnosti a propustnosti plateb. Namísto snahy přinutit tuto vrstvu dělat všechno (jak je tomu například u Etherea) ekosystém Bitcoinu postupně přijal vrstvený přístup: blockchain slouží jako základ (konečné vypořádání), zatímco vyšší vrstvy přidávají nové vlastnosti, jako jsou rychlejší platby, větší soukromí nebo emise aktiv (stablecoiny, tokenizované cenné papíry…).
+
+Bitcoin se nevyvíjí pouze úpravami svého základního protokolu. Vyvíjí se také budováním nad ním, prostřednictvím řešení, která volí různé kompromisy podle sledovaného cíle. Některá se zaměřují na škálovatelnost plateb, jiná na programovatelnost (v širším smyslu) a emisi aktiv, a další se snaží obojí kombinovat.
+
+V této kapitole představujeme čtyři důležité protokoly, které nabízejí nové možnosti nad Bitcoinem: sidechains (zejména Liquid), Ark, RGB a Taproot Assets.
+
+### Sidechains: paralelní blockchainy propojené s Bitcoinem
+
+Sidechain je blockchain odlišný od Bitcoinu, navržený tak, aby fungoval paralelně, s vlastními pravidly a vlastním konsenzuálním mechanismem. Je propojen s Bitcoinem prostřednictvím mechanismu obousměrného ukotvení (*2WP*), který v praxi umožňuje používat bitcoiny na sidechainu v reprezentativní podobě (často bitcoin uzamčený na Bitcoinu a znovu vytvořený na sidechainu) a poté se vrátit zpět na hlavní řetězec.
+
+Hlavním přínosem sidechainu je nabídka funkcí, které je obtížné získat přímo na Bitcoinu: rychlejší transakce, funkce pro aktiva, zvýšené soukromí nebo větší flexibilita vývoje. Na oplátku však sidechain vždy činí kompromisy oproti Bitcoinu, zejména v oblasti modelu důvěry nebo decentralizace.
+
+Nejznámějším sidechainem na Bitcoinu je pravděpodobně **Liquid**, vyvinutý společností Blockstream. Je navržen především pro urychlení určitých použití: rychlé převody mezi platformami, častější vypořádání a emisi aktiv (stablecoiny, cenné papíry…) se zvýšeným soukromím. Na Liquidu se používané bitcoiny nazývají L-BTC: jsou navrženy tak, aby byly navázány v poměru 1:1 na BTC prostřednictvím mechanismu obousměrného ukotvení.
+
+![image](assets/cs/088.webp)
+
+Zásadní rozdíl oproti Bitcoinu spočívá v modelu bezpečnosti a decentralizace: Liquid se neopírá o Bitcoinův důkaz prací, ale o federaci operátorů (identifikovanou skupinu), která zajišťuje tvorbu bloků a fungování mostů mezi BTC a L-BTC.
+
+https://planb.academy/courses/d3ca6943-b22c-4e50-b62d-9431460525bc
+
+### Ark: sdílení UTXO pro snížení nákladů a zlepšení uživatelské zkušenosti
+
+Ark označuje rodinu návrhů a implementací zaměřených na zlepšení škálovatelnosti Bitcoinu tím, že sdružují mnoho uživatelských operací do omezeného počtu Bitcoin transakcí. Myšlenka je poměrně jednoduchá: místo vytváření jedné onchain transakce na uživatele se vytvoří jedna onchain transakce představující balík, a práva jednotlivých účastníků se následně vyvíjejí převážně offchain, dokud nedojde k finálnímu vypořádání na Bitcoinu.
+
+Tato myšlenka protokolu druhé vrstvy byla představena Burakem v květnu 2023. Stejně jako Lightning Network je Ark systémem budovaným nad hlavním Bitcoinovým řetězcem. Umožnil by provádět platby v bitcoinech mimo řetězec rychle, anonymně a s nízkými poplatky. Ve srovnání s Lightningem Ark nevyžaduje příchozí likviditu pro přijímání plateb, což výrazně zlepšuje uživatelskou zkušenost. Navíc poskytuje úroveň soukromí blízkou coinjoin transakcím. Ark by také mohl být neinteraktivní, pokud by byly do Bitcoinu přidány covenants.
+
+Burak často kritizuje schopnost Lightningu škálovat kvůli jeho závislosti na hlavním řetězci a naznačuje, že Ark by teoreticky mohl integrovat celou světovou populaci v režimu self-custody. I když lze Ark vnímat jako konkurenční protokol k Lightning Network, ve skutečnosti mohou oba koexistovat a dokonce se doplňovat.
+
+Ark zůstává velmi aktivní, ale stále mladou oblastí: cíl je slibný (drasticky snížit onchain stopu na uživatele), je však třeba mít na paměti, že jde o složitější architekturu s odlišnými předpoklady a riziky než u Bitcoinu a Lightningu.
+
+### RGB: kontrakty a aktiva s validací na straně klienta
+
+RGB je systém chytrých kontraktů a aktiv na Bitcoinu, který přijímá radikálně odlišný přístup než univerzální blockchainy. Jeho hlavní myšlenkou je validace na straně klienta: namísto publikování kompletního stavu kontraktu na globálním blockchainu si účastníci uchovávají a lokálně ověřují pouze historie, které se jich týkají, zatímco Bitcoin blockchain slouží pouze k ukotvení kryptografických závazků a k zabránění dvojímu utracení.
+
+Jinými slovy:
+* Bitcoin blockchain hraje roli minimálního arbitra a časového razítka;
+* detailní data (pravidla kontraktu, stavy, přechody) cirkulují offchain mezi zúčastněnými stranami;
+* ověřování probíhá lokálně, což zlepšuje škálovatelnost a může zvýšit soukromí, protože neexistuje globální registr všech RGB aktivit viditelný pro všechny.
+
+![image](assets/cs/089.webp)
+
+RGB může sloužit jako základ pro emisi a správu široké škály aktiv: tokenů (včetně stablecoinů), NFT nebo digitálních cenných papírů, případně pro budování složitějších kontraktních logik, aniž by zatěžoval základní vrstvu.
+
+Nevýhodou je správa dat: pokud musíte validovat na straně klienta, musíte také správně uchovávat a zálohovat důkazy o svých právech.
+
+RGB je protokol vyvíjený již mnoho let. Pokrok je postupný, ale dnes již existují konkrétní aplikace, které RGB využívají. Pro hlubší pochopení nabízíme na Plan ₿ Academy expertní kurz, který podrobně vysvětluje fungování tohoto protokolu:
+
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+
+### Taproot Assets: emise aktiv na Bitcoinu a jejich přesun přes Lightning
+
+Taproot Assets (dříve "Taro") je protokol vyvíjený společností Lightning Labs, jehož cílem je umožnit emisi aktiv na Bitcoinu s možností jejich následného převodu prostřednictvím Lightning Network pro rychlé a levné transakce.
+
+Tento prvek je často zmiňován v souvislosti s narativem „programovatelných peněz“ na Bitcoinu: nikoli proto, že by se Bitcoin stal globálním počítačem, ale proto, že lze nad bitcoinovým základem vrstvit finanční nástroje (aktiva) a následně je efektivně přesouvat pomocí Lightningu.
+
+### Bitcoin sílí tím, že umožňuje inovace ve vyšších vrstvách
+
+Dnes nejvěrnější obraz bitcoinového ekosystému není ani obraz zcela neměnného protokolu, ani obraz superblockchainu, který by dělal všechno, jako je tomu u Etherea. Jde spíše o záměrně konzervativní základ obklopený vrstvami a protokoly, které experimentují a umožňují inovace s minimálním rizikem.
+
 
 ## Červená nebo modrá pilulka?
 

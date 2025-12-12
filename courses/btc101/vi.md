@@ -1244,85 +1244,201 @@ Cuối cùng, chúng tôi mời bạn suy ngẫm về cuộc cách mạng tiền
 Nếu bạn muốn mở rộng kiến thức về Bitcoin, đây là thời điểm thích hợp: rất nhiều tác giả, nhà tư tưởng và nhà viết tiểu luận đã tạo ra nội dung giáo dục về Bitcoin. Trong vài năm qua, chúng tôi đã liệt kê và phân loại các tác phẩm này để cung cấp [thư viện tài nguyên](https://planb.academy/resources) cho những người tò mò nhất trong số các bạn. Trong phần đó, bạn sẽ tìm thấy các podcast, trang web, bài viết, hướng dẫn, sách và nội dung khác hay nhất.
 
 > "Tôi nghĩ rằng Internet sẽ là một trong những lực lượng chính làm giảm vai trò của chính phủ. Một điều còn thiếu, nhưng sẽ sớm được phát triển, là tiền điện tử đáng tin cậy - một phương pháp mà trên Internet, bạn có thể chuyển tiền từ A sang B mà A không biết B hoặc B không biết A." - Dự đoán của Milton Friedman năm 1999
-# Tương lai của Bitcoin: Mạng lưới Lightning
+
+
+# Tương lai của Bitcoin
 
 <partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 
-## Giới thiệu vắn tắt về mạng tia chớp (Lightning)
+## Mạng Lightning: thanh toán bằng bitcoin nhanh chóng với phí thấp
 
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
-Chúng ta đã có những kiến thức cơ bản về giao thức Bitcoin, chúng tôi sẽ giới thiệu một mạng lưới thanh toán sử dụng giao thức Bitcoin để cho phép các giao dịch cực nhanh: mạng Lightning!
+Giờ đây khi bạn đã nắm được các nền tảng cơ bản của giao thức Bitcoin, chúng ta sẽ giới thiệu mạng lưới thanh toán chính được xây dựng bên trên Bitcoin: Lightning Network (thường được viết tắt là "LN"). Mục tiêu của nó rất đơn giản: cho phép thực hiện các khoản thanh toán bằng BTC với tính chung cuộc gần như tức thì, không làm quá tải blockchain, và với mức phí nhìn chung rất thấp.
 
-Xin lưu ý rằng những thông tin sau đây chỉ là mô tả chung, vì vậy, nếu bạn muốn hiểu sâu hơn, chúng tôi mời bạn tham khảo khóa học LNP201 của chúng tôi.
+### Blockchain không thể làm mọi thứ
 
-### Tóm lại
-
-mạng tia chớp (Lightning) là công nghệ mang tính cách mạng đã thay đổi sâu sắc nhận thức của chúng ta về Bitcoin vì nó giải quyết được vấn đề về khả năng mở rộng của Bitcoin.
-
-Để nắm bắt đầy đủ về mạng Lightning, điều quan trọng là phải hiểu cách Bitcoin phát triển và tiến hóa trong các lớp hạ tầng cơ sở: lớp đầu tiên là chuỗi khối (Blockchain) và lớp thứ hai là mạng tia chớp (Lightning).
-
-![image](assets/vi/080.webp)
-
-### Một chuỗi khối dữ liệu (Blockchain) không thể phát triển đến vô cực
-
-mạng tia chớp (Lightning)đã được xác thực và triển khai vào năm 2017 để giải quyết vấn đề về khả năng mở rộng của Bitcoin vì nó cho phép giao dịch Bitcoin tức thời với chi phí thấp.
-
-Khả năng mở rộng là một thách thức trong việc triển khai một hệ thống tiền tệ có khả năng không ngừng cung cấp số lượng giao dịch ngày càng tăng trong mỗi giây để đáp ứng cho việc triển khai mở rộng số lượng người dùng. Vấn đề này liên quan đến nghịch lý tam giác của công nghệ chuỗi khối (Blockchain). Hãy tưởng tượng một hình tam giác với các đỉnh là đại diện cho các tính năng phi tập trung, bảo mật và khả năng mở rộng.
+Blockchain Bitcoin được thiết kế để có thể được xác minh bởi càng nhiều người càng tốt, không cần cấp phép và không cần tin cậy. Yêu cầu này kéo theo những giới hạn mang tính cấu trúc: blockchain không thể xử lý số lượng giao dịch không giới hạn, bởi các khối phải có kích thước hợp lý để các nút độc lập có thể tải xuống, lưu trữ và xác minh, mà không cần đầu tư vào phần cứng quá đắt đỏ. Đây chính là sự đánh đổi thường được tóm gọn trong “bộ ba bất khả thi”: phi tập trung, bảo mật và khả năng mở rộng. Một hệ thống dựa trên blockchain không thể tối đa hóa đồng thời cả ba đặc tính này. Bitcoin ưu tiên tính phi tập trung và bảo mật, điều này tự nhiên giới hạn thông lượng các giao dịch onchain có thể thực hiện.
 
 ![image](assets/vi/081.webp)
 
-Một giao thức dựa trên công nghệ chuỗi khối (Blockchain) chỉ có thể đáp ứng được hai trong ba tính năng này. Trong Bitcoin, các nhà phát triển giao thức đã đưa ra những lựa chọn ưu tiên tính phi tập trung và bảo mật. Một mặt, kích thước khối 1MB và thời gian giữa hai khối (trung bình là 10 phút) cho phép chạy một máy chủ Bitcoin với chi phí thấp hơn, ưu tiên tính phi tập trung. Mặt khác, việc tạo ra các khối thông qua Proof-of-Work khiến gian lận trong giao thức cực kỳ tốn kém, đồng thời tạo điều kiện thuận lợi cho việc xác minh của các máy chủ mạng và ưu tiên tính bảo mật. Tuy nhiên, những lựa chọn này áp đặt giới hạn về số lượng giao dịch trung bình trong một khối, tương ứng với một vài giao dịch mỗi giây. Con số này thật là trò đùa khi so sánh với khả năng tính toán của các bộ xử lý thanh toán như VISA (1700/giây), nhưng giới hạn này là cần thiết để giao dịch với Bitcoin theo cách tự do và không cần tin tưởng. Tuy nhiên, những người phát triển công nghệ Bitcoin đã nghĩ về vấn đề này ngay từ đầu.
+Trên Bitcoin, các nhà phát triển đã đưa ra những lựa chọn có chủ đích để ưu tiên các đặc tính này. Một mặt, kích thước khối bị giới hạn ở mức 1 MB và thời gian trung bình 10 phút giữa hai khối cho phép vận hành một nút Bitcoin với chi phí thấp, qua đó thúc đẩy tính phi tập trung của mạng lưới. Mặt khác, việc sản xuất khối dựa trên bằng chứng công việc khiến mọi nỗ lực gian lận trở nên cực kỳ tốn kém, đồng thời giúp các nút dễ dàng xác minh và tăng cường mức độ bảo mật tổng thể của giao thức.
 
-### Công nghệ tia chớp (Lightning) như một lớp trên cùng
+Tuy nhiên, những lựa chọn này cũng kéo theo một ràng buộc quan trọng: số lượng giao dịch có thể được đưa vào mỗi khối là có hạn. Điều này tương ứng với chỉ vài giao dịch mỗi giây. Con số này rất nhỏ nếu so với năng lực của các hệ thống thanh toán tập trung như VISA (với năng lực tối đa lý thuyết khoảng 65.000 giao dịch mỗi giây), nhưng sự giới hạn này chính là cái giá phải trả để cho phép các giao dịch không bị kiểm duyệt và không cần bên thứ ba đáng tin cậy.
 
-Sau nhiều năm cân nhắc và nhiều lần thử nghiệm, giao thức Lightning đã ra đời. Sử dụng một số kỹ thuật nhất định, giao thức này phát triển mạng lưới thanh toán hàng ngang bằng cách tận dụng tính bảo mật và khả năng lập trình trong giao dịch của giao thức Bitcoin. Mạng tia chớp (Lightning) hoạt động như một mạng lưới của các kênh thanh toán, cho phép giao dịch tức thời với mức phí giao dịch thấp cho người gửi và thậm chí còn tạo ra các đường truyền trao đổi giữa những cá nhân không có kênh trực tiếp kết nối.
+Cụ thể, điều này có hai hệ quả rất quan trọng đối với việc sử dụng Bitcoin hằng ngày:
+* khi nhu cầu về không gian khối tăng lên, phí giao dịch onchain có thể tăng rất cao;
+* các khoản thanh toán onchain cần có xác nhận, điều này không phải lúc nào cũng phù hợp cho các giao dịch mua sắm thường ngày.
 
-![image](assets/vi/082.webp)
+Lightning Network chính là câu trả lời cho những vấn đề này. Ý tưởng của Lightning nằm trong cách tiếp cận theo tầng: Bitcoin vẫn là tầng cơ sở (tầng thanh toán cuối cùng, vững chắc và rất an toàn), trong khi Lightning đóng vai trò là tầng thanh toán nhanh ở phía trên.
 
-Các dịch vụ chuyển tiền truyền thống như Western Union, ngân hàng trung ương, Visa và Mastercard có thể biến mất nếu họ không áp dụng công nghệ mạng tia chớp (Lightning), công nghệ này hiệu quả và tiết kiệm chi phí hơn các hệ thống thanh toán hiện tại. Trên thực tế, mạng tia chớp (Lightning) cho phép số giao dịch gần như không giới hạn giữa hai bên có chung một kênh giao dịch, và chỉ phát sinh chi phí năng lượng liên quan đến giao dịch để thông báo về việc tạo kênh, thay vì cho từng giao dịch riêng lẻ.
+![image](assets/vi/080.webp)
+
+### Các kênh thanh toán được neo vào Bitcoin
+
+Lightning dựa trên các kênh thanh toán hai chiều. Một kênh là một mối quan hệ kỹ thuật giữa hai bên tham gia, cho phép họ trao đổi sats theo hình thức offchain, tức là không cần ghi từng khoản thanh toán lên blockchain.
+
+Từ góc nhìn của Bitcoin (onchain), việc mở một kênh tương đương với việc khóa các khoản tiền trong một giao dịch đặc biệt. Có thể xem đây như một hình thức ký quỹ: các khoản tiền được khóa sao cho chỉ một việc đóng kênh hợp lệ mới có thể phân phối lại chúng.
+
+Từ góc nhìn của Lightning, chính cơ chế này trở thành một kênh trong đó hai bên có thể cập nhật trạng thái phân bổ sats bao nhiêu lần tùy ý, gần như tức thì, và không cần ghi từng khoản thanh toán lên blockchain chính.
+
+Do đó, cơ chế hoạt động như sau:
+* việc mở và đóng một kênh Lightning là các giao dịch Bitcoin (vì vậy được công bố onchain);
+* các khoản thanh toán giữa thời điểm mở và đóng kênh là các cập nhật offchain, không xuất hiện trên blockchain chính.
 
 ![image](assets/vi/083.webp)
 
-Giao dịch được bảo mật trực tiếp thông qua mã hóa và gián tiếp thông qua năng lượng mà thợ đào sử dụng trên Bitcoin. Các giao dịch có thể được thực hiện ngay tức thì, không giới hạn về mặt địa lý, với mức phí cực thấp (thường dưới 0,5%).
+Nhờ vậy, hai người chia sẻ một kênh Lightning có thể thực hiện một số lượng rất lớn các khoản thanh toán mà không cần tạo một giao dịch onchain mỗi lần. Ở đây ta thấy rõ logic về khả năng mở rộng: blockchain được dành cho những thao tác hiếm và quan trọng (mở và đóng kênh, tức là thanh toán cuối cùng), còn các khoản thanh toán nhỏ, trung gian được chuyển sang một tầng hiệu quả hơn.
 
-Tóm lại, mạng tia chớp (Lightning) là một giải pháp đầy hứa hẹn để triển khai một hệ thống thanh toán hiệu quả trong việc mua bán bằng Bitcoin. Đã có rất nhiều ví Lightning có sẵn, bạn có thể khám phá trong phần hướng dẫn hoặc qua các khóa học mạng tia chớp (Lightning) của chúng tôi.
+### Một mạng lưới các kênh được kết nối với nhau
 
-Nếu bạn muốn tìm hiểu sâu hơn về phần giới thiệu này và hiểu rõ hơn về cách thức hoạt động của mạng tia chớp (Lightning), chúng tôi khuyên bạn nên tham gia khóa học tuyệt vời này của Fanis Michalakis về chủ đề này:
+Lightning không chỉ là tập hợp các kênh riêng lẻ. Đó là một mạng lưới: hàng nghìn nút được kết nối với nhau thông qua các kênh, tạo thành một đồ thị kết nối.
 
-https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
-## Các trường hợp sử dụng mạng Lightning
+![image](assets/vi/082.webp)
 
-<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+Nhờ mạng lưới này, bạn có thể thanh toán cho một người nhận ngay cả khi bạn không có kênh trực tiếp với họ, miễn là tồn tại một đường đi các kênh cho phép chuyển khoản thanh toán. Khoản thanh toán sau đó sẽ đi qua nhiều nút trung gian, từng bước một.
 
-Như chúng ta đã thấy, giao thức Bitcoin, mặc dù mang tính cách mạng, nhưng phải đối mặt với những thách thức đáng kể về khả năng mở rộng quy mô cần thiết để xử lý tất cả các giao dịch hàng ngày. Để giải quyết những vấn đề này, mạng tia chớp (Lightning) đã được đề xuất phát triển và được triển khai thành một số cách thức khác nhau, nhưng tất cả các cách thức này đều có thể tương tác lẫn nhau:
+Tại đây xuất hiện một khái niệm quan trọng của Lightning: tính thanh khoản. Dung lượng của một kênh tương ứng với tổng số tiền bị khóa trong kênh đó, còn thanh khoản tương ứng với sự phân bổ số tiền này giữa hai phía của kênh, tức là hướng mà các sats có thể lưu chuyển. Nói cách khác, một kênh có thể có dung lượng lớn nhưng lại không sử dụng được theo một hướng nhất định nếu thanh khoản nằm sai phía. Do đó, việc thanh toán thành công phụ thuộc không chỉ vào sự tồn tại của một đường đi, mà còn vào thanh khoản sẵn có trên toàn bộ đường đi đó.
 
+### Định tuyến một khoản thanh toán mà không cần tin cậy các bên trung gian
 
-- Core-lightning của Blockstream
-- Eclair của Acinq
-- LND của Lightning strike
+Lightning được thiết kế để cho phép thanh toán thông qua các bên trung gian mà không cần phải tin cậy họ. Để làm điều này, giao thức sử dụng các hợp đồng thông minh gọi là HTLC (*Hashed Time-Locked Contracts*). Không đi vào mọi chi tiết, có thể ghi nhớ cơ chế chung như sau:
+* khoản thanh toán được điều kiện hóa bởi việc tiết lộ một bí mật (một preimage);
+* nếu người nhận cuối cùng tiết lộ bí mật này, họ sẽ nhận được tiền, và các bên trung gian sau đó cũng có thể thu hồi phần của mình;
+* nếu thanh toán thất bại, các mốc thời gian hết hạn và mỗi bên thu hồi lại tiền của mình.
 
-Mạng ngang hàng này nhằm mục đích tạo điều kiện thuận lợi cho các giao dịch nhỏ (có giá trị rất thấp) vốn không thực tế do phí cao và thời gian xác nhận lâu trên chuỗi khối Bitcoin.
+Cách vận hành này mang lại một thuộc tính cốt lõi: khoản thanh toán có tính nguyên tử. Hoặc là nó hoàn tất toàn bộ, hoặc là nó thất bại mà không gây ra tổn thất trung gian.
 
-### Các trường hợp sử dụng mạng Lightning là gì?
+Cuối cùng, Lightning tích hợp một cơ chế phạt: nếu một trong các bên tham gia cố gắng gian lận bằng cách công bố một trạng thái kênh cũ (không còn phản ánh thực tế), bên kia có thể trừng phạt và thu hồi toàn bộ số tiền. Quy tắc này tạo động lực rất mạnh để các bên giữ sự trung thực, ngay cả trong môi trường đối kháng.
 
-Công nghệ này mở ra cánh cửa cho nhiều ứng dụng tiềm năng cho Bitcoin mà trước đây nằm ngoài tầm với vì những hạn chế cần thiết để đảm bảo tính bảo mật và phi tập trung của Bitcoin. Trong số những trường hợp sử dụng trong giao dịch hàng ngày, chúng ta có thể đề cập đến việc thanh toán tức thời trong giao dịch thương mại truyền thống lẫn trực tuyến, chuyển tiền trực tuyến để thanh toán theo thời gian thực và quyên góp giá trị nhỏ cho người sáng tạo nội dung. Việc cho phép thúc đẩy một mạng lưới các giao dịch gần như tức thời, an toàn và chi phí thấp (trung bình dưới 0,5%), có thể hiện thực hóa nhiều mô hình kinh doanh trước đây không thể tưởng tượng được. Điều này trở nên khả thi vì mạng tia chớp (Lightning) hoạt động với đơn vị satoshi (sats), là đơn vị nhỏ nhất của Bitcoin.
+### Nút Lightning, ví Lightning: điều đó có nghĩa là gì
 
-![image](assets/vi/084.webp)
+Trong Bitcoin onchain, một ví là phần mềm quản lý khóa và xây dựng các giao dịch. Trên Lightning, tình hình mơ hồ hơn, bởi việc sử dụng thực sự không giám hộ (non-custodial) dựa trên một nút Lightning (ngay cả khi nút này được ẩn sau một giao diện đơn giản).
 
-Ngành công nghiệp trò chơi điện tử online cho một ví dụ đặc biệt thú vị về cách Mạng lưới Lightning có thể được sử dụng để chuyển đổi các mô hình kinh doanh hiện có. Khái niệm "có miếng" là một ý tưởng gần đây đã trở nên phổ biến trong bối cảnh này. Về cơ bản, nó liên quan đến việc có cổ phần tài chính trong kết quả của một trò chơi. Trên thực tế, Mạng lưới Lightning cho phép người chơi đặt cược một số tiền rất nhỏ khi chơi trò chơi, chẳng hạn như một vài satoshi (khoảng một phần nhỏ của một xu euro) để lập một cổ phần kích thích sự cạnh tranh trong khi đó đồng thời làm tăng đáng kể chi phí sử dụng bots.
+Trong thực tế, có hai nhóm ứng dụng lớn để sử dụng Lightning:
+* Các dịch vụ giám hộ: ứng dụng hiển thị cho bạn một số dư, nhưng tiền được kiểm soát bởi một nhà cung cấp dịch vụ. Số dư của bạn chỉ là một bút toán kế toán trong hệ thống của họ, giống như trên một sàn giao dịch;
+* Các giải pháp không giám hộ: bạn thực sự kiểm soát các khóa và khả năng thu hồi tiền của mình. Điều này có thể là một ứng dụng tích hợp một nút với mức độ quản lý tối thiểu, giúp đơn giản hóa trải nghiệm người dùng (ví dụ Phoenix, Zeus...), hoặc là một nút Lightning thực sự mà bạn tự quản lý hoàn toàn.
+
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+
+Ngày nay cũng tồn tại các ví self-custodial có khả năng hỗ trợ thanh toán Lightning theo cách gián tiếp, dựa trên các hoán đổi nguyên tử được kích hoạt theo yêu cầu cho mỗi khoản thanh toán vào hoặc ra (ví dụ Bull Bitcoin Wallet, Aqua…). Các ví này thường sử dụng sidechain Liquid làm tầng thanh toán (chúng ta sẽ xem điều này có nghĩa là gì trong chương tiếp theo).
+
+https://planb.academy/tutorials/wallet/mobile/bull-bitcoin-2c72127c-a228-4f50-b833-c6183d56aaf6
+
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+
+### Các trường hợp sử dụng cụ thể: những gì Lightning cuối cùng đã làm được
+
+Lightning mở khóa một loạt các cách sử dụng mà trước đây rất bất tiện, thậm chí không thể thực hiện chỉ với Bitcoin onchain.
+
+- **Thanh toán hằng ngày (trực tuyến và trực tiếp)**
+
+Đối với một khoản thanh toán tại quầy hoặc một giao dịch mua sắm trực tuyến, Lightning cho phép đạt được tính chung cuộc gần như tức thì, với mức phí thường thấp. Điều này khiến bitcoin có thể được sử dụng cho các khoản tiền nhỏ, kể cả khi blockchain chính đang quá tải.
+
+- **Thanh toán vi mô và streaming money**
+
+Khả năng gửi những khoản tiền cực nhỏ mở ra các mô hình kinh tế mới: trả tiền theo mức sử dụng, trả tiền theo phút, quyên góp định kỳ, tiền tip... Đây chính là ý tưởng của “streaming money”: thanh toán theo mức tiêu thụ thực tế của một nội dung hay dịch vụ, thay vì trả theo gói đăng ký cố định.
+
+- **Nhà sáng tạo nội dung, podcast và quyên góp**
+
+Lightning thường được dùng cho các khoản quyên góp vi mô hoặc các cơ chế thưởng. Những ứng dụng như Fountain hoặc Rumble minh họa rõ logic này: việc thanh toán trở nên chi tiết và gắn liền tự nhiên với trải nghiệm, thay vì là một hành động nặng nề và hiếm hoi. Chúng tôi cũng đã tích hợp logic này trên Plan ₿ Academy, nơi bạn có thể dễ dàng gửi những khoản quyên góp nhỏ cho các giảng viên yêu thích của mình để bày tỏ sự cảm ơn.
+
+- **Trò chơi và các nền kinh tế số**
+
+Trò chơi điện tử và các môi trường số rất phù hợp với các giao dịch vi mô: cược nhỏ, phần thưởng, vật phẩm ảo... Việc đưa vào một yếu tố tiền tệ nhỏ cũng có thể làm tăng chi phí của spam và một số hình thức lạm dụng (bot), trong khi vẫn giữ được khả năng tiếp cận.
 
 ![image](assets/vi/085.webp)
 
-Tóm lại, tương lai của các giao dịch nhỏ với Bitcoin có vẻ đầy hứa hẹn nhờ những cải tiến như mạng tia chớp (Lightning). Khi các công nghệ này tiếp tục phát triển và trưởng thành, chúng ta có thể mong đợi thấy các ứng dụng mới và thú vị xuất hiện trong tương lai gần.
+### Các triển khai chính của Lightning
 
-![image](assets/vi/086.webp)
+Cũng giống như Bitcoin, Lightning là một giao thức chứ không phải một phần mềm duy nhất. Nhiều triển khai cùng tồn tại và vẫn có thể tương tác với nhau nhờ các đặc tả chung (BOLT):
+* LND (Lightning Labs);
+* Core Lightning (Blockstream);
+* Éclair (ACINQ);
+* LDK (Spiral/Block);
+* v.v.
 
-Một ví dụ khác có thể là "money streaming": thông qua mạng tia chớp (Lightning), chúng ta có thể thực hiện các giao dịch nhỏ mỗi phút (có khả năng không cần bên thứ ba đáng tin cậy), mở ra cánh cửa để thử nghiệm các mô hình kinh tế trong đó người tiêu dùng trả tiền cho nội dung dựa trên mức tiêu thụ thực tế của họ. Thậm chí có thể sử dụng hệ thống này để cho thuê hàng hóa. Trong một hệ thống như vậy, tiền được tự động chia, dựa trên tỷ lệ phần trăm được xác định trước, giữa những người đóng góp khác nhau cho một dịch vụ hoặc sản phẩm. Điều này có thể cách mạng hóa cách chúng ta nghĩ về các mô hình thanh toán: thay vì trả phí đăng ký hàng tháng cho một dịch vụ, người sử dụng có thể bị tính phí theo phút hoặc thậm chí theo giây cho thời gian họ sử dụng dịch vụ. Một mô hình kinh tế như vậy có thể có ý nghĩa sâu sắc đối với những người sáng tạo nội dung, những người sẽ được khuyến khích tạo ra nội dung chất lượng để giữ sự chú ý của người sử dụng.
+### Lightning nằm trong tiến trình phát triển của Bitcoin
 
-![image](assets/vi/087.webp)
+Lightning không thay thế blockchain Bitcoin mà bổ sung cho nó. Blockchain vẫn là tầng thanh toán cuối cùng, chậm nhưng cực kỳ vững chắc. Lightning là tầng thanh toán nhanh, được thiết kế cho các trường hợp sử dụng thường xuyên và các khoản tiền nhỏ.
 
-Tóm lại, mạng tia chớp (Lightning) mở ra vô số trường hợp sử dụng thú vị cho người sử dụng Bitcoin. Các mô hình kinh tế và cơ hội kinh doanh kết quả rất nhiều và đa dạng, và chúng tôi khuyến khích bạn tự mình kiểm tra bằng cách dùng thử ứng dụng podcast [Fountain](https://www.fountain.fm/), cho phép bạn được thưởng một vài sats khi nghe podcast yêu thích của mình!
+Vào năm 2025, Lightning dễ tiếp cận hơn so với những ngày đầu, nhờ các ví và dịch vụ che giấu một phần sự phức tạp. Tuy nhiên, nó vẫn tồn tại những đánh đổi: thanh khoản, chi phí onchain của các kênh, và đôi khi là sự lựa chọn giữa tính đơn giản, chủ quyền và quyền riêng tư.
+
+Nếu bạn muốn hiểu Lightning một cách sâu sắc (kênh, thanh khoản, định tuyến, quản lý rủi ro), tôi khuyên bạn nên theo học khóa lý thuyết đầy đủ LNP 201 của Fanis Michalakis:
+
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
+Và nếu bạn muốn bắt đầu hành trình vận hành nút Lightning của riêng mình, chúng tôi cũng có khóa học thực hành LNP 202, được dành riêng cho chủ đề này:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+
+## Vượt ra ngoài Lightning: các giao thức khác để mở rộng Bitcoin
+
+<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+
+Như đã thấy trong các chương trước, Bitcoin được thiết kế như một tầng cơ sở cực kỳ vững chắc: một sổ cái công khai, đơn giản, an toàn, nhưng tự nhiên bị giới hạn về tốc độ, khả năng lập trình và thông lượng thanh toán. Thay vì ép tầng này phải làm mọi thứ (như cách tiếp cận trên Ethereum chẳng hạn), hệ sinh thái Bitcoin dần dần áp dụng một cách tiếp cận theo tầng: blockchain đóng vai trò nền móng (thanh toán cuối cùng), trong khi các tầng phía trên bổ sung những đặc tính mới như thanh toán nhanh hơn, quyền riêng tư cao hơn, hay phát hành tài sản (stablecoin, chứng khoán được token hóa...).
+
+Bitcoin không chỉ phát triển bằng cách thay đổi giao thức cơ sở của mình. Nó còn phát triển bằng cách xây dựng bên trên, với những giải pháp đưa ra các đánh đổi khác nhau tùy theo mục tiêu. Một số tập trung vào khả năng mở rộng thanh toán, số khác vào khả năng lập trình (theo nghĩa rộng) và phát hành tài sản, và một số khác cố gắng kết hợp cả hai.
+
+Trong chương này, chúng tôi giới thiệu bốn giao thức quan trọng, mỗi giao thức mang lại những khả năng mới trên Bitcoin: sidechain (đặc biệt là Liquid), Ark, RGB và Taproot Assets.
+
+### Sidechain: các blockchain song song được kết nối với Bitcoin
+
+Một sidechain là một blockchain tách biệt với Bitcoin, được thiết kế để hoạt động song song, với các quy tắc và cơ chế đồng thuận riêng. Nó được kết nối với Bitcoin thông qua một cơ chế neo hai chiều (*2WP*), cho phép trên thực tế sử dụng bitcoin trên sidechain dưới dạng đại diện (thường là bitcoin bị khóa trên Bitcoin và được tái tạo trên sidechain), rồi sau đó quay trở lại chuỗi chính.
+
+Lợi ích của sidechain là cung cấp những chức năng khó đạt được trực tiếp trên Bitcoin: giao dịch nhanh hơn, chức năng tài sản, quyền riêng tư được tăng cường, hoặc sự linh hoạt cao hơn trong phát triển. Đổi lại, sidechain luôn phải chấp nhận những đánh đổi so với Bitcoin, đặc biệt là về mô hình tin cậy hoặc mức độ phi tập trung.
+
+Sidechain nổi tiếng nhất trên Bitcoin có lẽ là **Liquid**, được phát triển bởi Blockstream. Liquid được thiết kế đặc biệt để tăng tốc một số trường hợp sử dụng: chuyển khoản nhanh giữa các nền tảng, thanh toán thường xuyên hơn, và phát hành tài sản (stablecoin, chứng khoán...), đi kèm với quyền riêng tư được nâng cao. Trên Liquid, các bitcoin được sử dụng có tên là L-BTC: chúng được thiết kế để gắn với BTC theo tỷ lệ 1:1 thông qua cơ chế neo hai chiều.
+
+![image](assets/vi/088.webp)
+
+Sự khác biệt lớn so với Bitcoin nằm ở mô hình bảo mật và phi tập trung: Liquid không dựa trên bằng chứng công việc của Bitcoin, mà dựa trên một liên minh các nhà vận hành (một nhóm xác định) chịu trách nhiệm sản xuất khối và vận hành các cầu nối giữa BTC và L-BTC.
+
+https://planb.academy/courses/d3ca6943-b22c-4e50-b62d-9431460525bc
+
+### Ark: chia sẻ UTXO để giảm chi phí và cải thiện trải nghiệm
+
+Ark chỉ một tập hợp các đề xuất và triển khai nhằm cải thiện khả năng mở rộng của Bitcoin bằng cách gom nhiều thao tác của người dùng vào một số lượng nhỏ các giao dịch Bitcoin. Ý tưởng khá đơn giản: thay vì tạo một giao dịch onchain cho mỗi người dùng, ta tạo một giao dịch onchain đại diện cho một lô, rồi chủ yếu cập nhật quyền của từng người ngoài chuỗi cho đến khi muốn thanh toán dứt điểm trên Bitcoin.
+
+Ý tưởng giao thức tầng hai này được Burak công bố vào tháng 5 năm 2023. Giống như Lightning Network, Ark là một hệ thống triển khai bên trên chuỗi chính của Bitcoin. Nó cho phép thực hiện các khoản thanh toán bitcoin ngoài chuỗi một cách nhanh chóng, ẩn danh và với chi phí thấp. So với Lightning, Ark không yêu cầu phải có thanh khoản vào để nhận thanh toán, điều này cải thiện đáng kể trải nghiệm người dùng. Ngoài ra, nó còn cung cấp mức độ riêng tư tiệm cận với các giao dịch coinjoin. Ark cũng có thể không tương tác nếu các covenant được thêm vào Bitcoin.
+
+Burak thường chỉ trích khả năng mở rộng của Lightning do sự phụ thuộc của nó vào chuỗi chính và cho rằng Ark về mặt lý thuyết có thể tích hợp toàn bộ dân số thế giới trong mô hình self-custody. Dù Ark có thể được xem là một giao thức cạnh tranh với Lightning Network, trên thực tế hai giao thức này có thể cùng tồn tại và thậm chí bổ trợ cho nhau.
+
+Ark vẫn là một lĩnh vực rất năng động nhưng còn non trẻ: mục tiêu của nó rất hứa hẹn (giảm mạnh dấu chân onchain trên mỗi người dùng), nhưng cần lưu ý rằng đây là một kiến trúc phức tạp hơn, với những giả định và rủi ro khác so với Bitcoin và Lightning.
+
+### RGB: hợp đồng và tài sản với xác minh phía khách hàng
+
+RGB là một hệ thống hợp đồng thông minh và tài sản trên Bitcoin, áp dụng một cách tiếp cận hoàn toàn khác so với các blockchain đa năng. Ý tưởng trung tâm của nó là xác minh phía khách hàng: thay vì công bố toàn bộ trạng thái của một hợp đồng lên một blockchain toàn cầu, các bên tham gia lưu trữ và xác minh cục bộ những lịch sử liên quan đến họ, trong khi blockchain Bitcoin chỉ đóng vai trò neo các cam kết mật mã và ngăn chặn chi tiêu gấp đôi.
+
+Nói cách khác:
+* blockchain Bitcoin đóng vai trò nền tảng đóng dấu thời gian và trọng tài tối thiểu;
+* các dữ liệu chi tiết (quy tắc hợp đồng, trạng thái, chuyển tiếp) lưu thông ngoài chuỗi giữa các bên liên quan;
+* việc xác minh được thực hiện cục bộ, giúp cải thiện khả năng mở rộng và có thể nâng cao quyền riêng tư, vì không tồn tại một sổ cái toàn cầu ghi lại mọi hoạt động RGB cho tất cả mọi người thấy.
+
+![image](assets/vi/089.webp)
+
+RGB có thể làm nền tảng để phát hành và quản lý rất nhiều loại tài sản: token (bao gồm stablecoin), NFT hoặc chứng khoán số, thậm chí xây dựng các logic hợp đồng phức tạp hơn, tất cả mà không làm nặng thêm tầng cơ sở.
+
+Mặt trái của vấn đề là quản lý dữ liệu: nếu bạn xác minh phía khách hàng, bạn cũng phải lưu trữ và sao lưu đúng cách những dữ liệu chứng minh quyền lợi của mình.
+
+RGB là một giao thức đã được phát triển trong nhiều năm. Những tiến bộ diễn ra dần dần, nhưng hiện nay đã có các ứng dụng cụ thể tận dụng RGB. Để đi sâu hơn, Plan ₿ Academy cung cấp một khóa học cấp độ chuyên gia trình bày chi tiết cách thức hoạt động của giao thức này:
+
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+
+### Taproot Assets: phát hành tài sản trên Bitcoin và di chuyển chúng lên Lightning
+
+Taproot Assets (trước đây gọi là "Taro") là một giao thức do Lightning Labs phát triển, nhằm cho phép phát hành tài sản trên Bitcoin, với khả năng sau đó chuyển các tài sản này qua mạng Lightning để trao đổi nhanh chóng và với chi phí thấp.
+
+Đây là một thành phần thường được nhắc đến trong câu chuyện về “programmable money” trên Bitcoin: không phải vì Bitcoin trở thành một máy tính toàn cầu, mà vì có thể chồng các công cụ tài chính (tài sản) lên nền tảng Bitcoin, rồi cho chúng lưu thông hiệu quả thông qua Lightning.
+
+### Bitcoin trở nên mạnh mẽ hơn khi để các tầng phía trên đổi mới
+
+Ngày nay, hình ảnh trung thực nhất của hệ sinh thái Bitcoin không phải là một giao thức bất biến, cũng không phải là một siêu blockchain làm mọi thứ như Ethereum. Thay vào đó, đó là một nền tảng có chủ đích bảo thủ, được bao quanh bởi các tầng và giao thức thử nghiệm và cho phép đổi mới với mức độ rủi ro tối thiểu.
+
+
 
 ## Viên thuốc đỏ hay viên thuốc xanh?
 

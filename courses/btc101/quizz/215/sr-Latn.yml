@@ -1,8 +1,9 @@
-question: Koji je problem skalabilnosti Bitkoina?
-answer: Izazov implementacije monetarnog sistema sposobnog da obezbedi sve veći broj transakcija po sekundi kako se usvaja.
+question: Koji mehanizam čini Lightning plaćanja atomskim?
+answer: HTLC
 wrong_answers:
-  - Težina rudarenja novih Bitkoina sa sve većom vrednošću tokom vremena.
-  - Volatilnost cene Bitkoina koja će se povećati nakon svakog Halving-a.
-  - Nedostatak regulative za Bitkoin što će učiniti transakcije ilegalnim.
-explanation: >-
-reviewed: true
+  - Multisignature
+  - Proof of Work
+  - SegWit
+explanation: |
+  HTLC uslovljavaju plaćanje otkrivanjem tajne, garantujući potpuni uspeh ili neuspeh bez gubitka.
+reviewed: false

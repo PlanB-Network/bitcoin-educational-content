@@ -1,9 +1,9 @@
-question: Wann wurde das Lightning Network erstmals validiert und implementiert?
-answer: 2017
+question: Warum kann ein Lightning-Kanal in eine Richtung unbrauchbar sein?
+answer: Nicht genügend Liquidität
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
+  - Zu neuer Block
+  - Abgelaufener HTLC
+  - Nicht synchronisierter Knoten
 explanation: |
-  Das Lightning Network wurde erstmals im Jahr 2017 validiert und implementiert.
-reviewed: true
+  Selbst bei großer Kapazität ermöglicht ein Kanal eine Zahlung nur, wenn sich auf der richtigen Seite genügend Liquidität befindet.
+reviewed: false

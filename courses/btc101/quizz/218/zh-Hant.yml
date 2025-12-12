@@ -1,10 +1,9 @@
-question: Lightning Network 是何時首次驗證和實施的？
-answer: 2017
+question: 為什麼 Lightning 通道在某一個方向上可能無法使用？
+answer: 流動性不足
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
+  - 區塊過新
+  - HTLC 已過期
+  - 節點未同步
 explanation: |
-  Lightning Network 於 2017 年首次驗證並實施
-  於 2017 年。
-reviewed: true
+  即使容量很大，通道也只有在正確一側具備足夠流動性時才能進行支付。
+reviewed: false

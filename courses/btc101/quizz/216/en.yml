@@ -1,11 +1,9 @@
-question: What is the blockchain trilemma?
-answer: A protocol based on a blockchain can only satisfy two out of the criteria of decentralization, security, and scalability.
+question: What does a Lightning node risk by publishing an old channel state?
+answer: A penalty
 wrong_answers:
-  - A protocol based on a blockchain can only satisfy one out of the criteria of decentralization, security, and scalability.
-  - A protocol based on a blockchain can satisfy all of the criteria of decentralization, security, and scalability.
-  - A protocol based on a blockchain cannot satisfy any of the criteria of decentralization, security, and scalability.
+  - A warning
+  - Additional mining fees
+  - A temporary freeze
 explanation: |
-  The blockchain trilemma refers to the challenge that a
-  protocol based on a blockchain can only satisfy two criteria out of
-  decentralization, security, and scalability.
-reviewed: true
+  The protocol provides for a deterrent penalty allowing the other party to recover all of the funds.
+reviewed: false

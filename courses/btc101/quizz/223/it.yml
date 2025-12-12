@@ -1,10 +1,9 @@
-question: Cosa è possibile effettuare con Lightning Network?
-answer: Transazioni tra individui che non dispongono di un canale di pagamento diretto tra loro.
+question: Come si chiamano i bitcoin utilizzati su Liquid?
+answer: L-BTC
 wrong_answers:
-  - Creare connessioni con canali di pagamento diretti e solo con scambi centralizzati.
-  - Creare connessioni al canale di pagamento che richiedono molteplici conferme per qualsiasi transazione.
-  - Stabilire connessioni con canali di pagamento diretti e limitate solo a grandi transazioni.
+  - W-BTC
+  - S-BTC
+  - T-BTC
 explanation: |
-  Lightning Network rende possibile effettuare transazioni
-  tra individui che non dispongono di canale di pagamento diretto.
-reviewed: vero
+  Su Liquid, i bitcoin sono rappresentati da L-BTC collegati 1 a 1 con BTC.
+reviewed: false

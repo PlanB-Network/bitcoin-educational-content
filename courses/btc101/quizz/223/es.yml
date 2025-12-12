@@ -1,10 +1,9 @@
-question: ¿Qué hace posible la Red Lightning?
-answer: Realizar transacciones entre individuos que no tienen una conexión directa de canal.
+question: ¿Cómo se llaman los bitcoins utilizados en Liquid?
+answer: L-BTC
 wrong_answers:
-  - Crear conexiones de canal directas solo con intercambios centralizados.
-  - Crear conexiones de canal que requieren múltiples confirmaciones para cualquier transacción.
-  - Establecer conexiones de canal directas que están limitadas solo a transacciones grandes.
+  - W-BTC
+  - S-BTC
+  - T-BTC
 explanation: |
-  La Red Lightning hace posible realizar transacciones entre
-  individuos que no tienen una conexión directa de canal.
-reviewed: true
+  En Liquid, los bitcoins están representados por L-BTC vinculados 1 a 1 con BTC.
+reviewed: false

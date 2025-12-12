@@ -1,8 +1,0 @@
-question: Lightning Network bağlamında para akışı kavramı nedir?
-answer: Sürekli, gerçek zamanlı mikro ödemeler yapmak.
-wrong_answers:
-  - Bitcoin'in bir ATM kullanılarak fiziksel bir yerde nakde dönüştürülmesi.
-  - Bitcoin için ses veya video içeriği akışı.
-  - Gerçek zamanlı olarak gerçekleşen Mining işlemleri aracılığıyla yeni bitcoinler yaratılması.
-explanation: >-
-reviewed: true

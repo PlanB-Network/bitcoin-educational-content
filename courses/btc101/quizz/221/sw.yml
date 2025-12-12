@@ -1,8 +1,9 @@
-question: Ada za miamala kwenye Lightning Network ni ndogo sana, mara nyingi chini ya...?
-answer: 0.5%.
+question: Ni faida gani Ark inatoa ikilinganishwa na Lightning kwa kupokea malipo?
+answer: Hakuna haja ya ukwasi wa kuingia
 wrong_answers:
-  - 1%.
-  - 2%.
-  - 3%.
-explanation: >-
-reviewed: true
+  - Uthibitisho wa papo hapo wa malipo
+  - Hakuna ada za miamala
+  - Hakuna haja ya kuwa na pochi
+explanation: |
+  Ark huruhusu kupokea malipo bila kuwa na ukwasi wa kuingia mapema.
+reviewed: false

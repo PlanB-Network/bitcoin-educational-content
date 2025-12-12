@@ -1,8 +1,9 @@
-question: Lightning Network의 거래 수수료는 매우 낮으며, 종종...?
-answer: 0.5%.
+question: 수신 측면에서 Ark가 Lightning에 비해 제공하는 장점은 무엇입니까?
+answer: 인바운드 유동성이 필요 없음
 wrong_answers:
-  - 1%.
-  - 2%.
-  - 3%.
-explanation: >-
-reviewed: true
+  - 즉각적인 결제 확정성
+  - 거래 수수료 없음
+  - 지갑이 필요 없음
+explanation: |
+  Ark는 사전에 인바운드 유동성을 보유하지 않아도 결제를 받을 수 있게 합니다.
+reviewed: false

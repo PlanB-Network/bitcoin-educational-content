@@ -174,6 +174,7 @@ Unlike receiving bitcoins, spending the bitcoins associated with your Coldcard r
 21. On Sparrow Wallet, click `Load Transaction`.
 22. Select the file with the same name as the one created on Step 19.
 23. Click `Broadcast Transaction`.
+24. Your transaction has been broadcast and it is being processed. You can go to the `Transactions` tab to view the confirmation status of your transaction.
 
 ## Firmware Upgrade
 

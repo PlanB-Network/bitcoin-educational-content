@@ -7,25 +7,26 @@ description: Come si può utilizzare Aegis Authenticator per proteggere gli acco
 
 Oggi l'autenticazione a due fattori (2FA) è essenziale per proteggere gli account online. Oltre alla password, aggiunge un secondo fattore (spesso un codice a 6 cifre) che scade dopo 30 secondi, rendendo il tutto molto più difficile per gli hacker. L'utilizzo di un'applicazione dedicata TOTP (*Time-based One-Time Password*) è più sicuro degli SMS, che possono essere dirottati da attacchi di SIM swapping.
 
-Tuttavia, non tutte le applicazioni di autenticazione sono uguali. Molte soluzioni proprietarie (Google Authenticator, Authy, ecc.) hanno dei problemi: sono proprietarie e closed-source (impossibile verificarne la sicurezza), a volte integrano tracker pubblicitari, non offrono un back-up crittografato dei codici e possono persino impedire l'esportazione degli account per bloccarvi nel loro ecosistema.
+Tuttavia, non tutte le applicazioni di autenticazione sono uguali. Molte soluzioni proprietarie (Google Authenticator, Authy, ecc.) hanno dei problemi: sono proprietarie e closed-source (impossibile verificarne la sicurezza), a volte integrano tracker pubblicitari, non offrono un back-up crittografato dei codici e possono persino impedire l'esportazione degli account per bloccarti nel loro ecosistema.
 
-Aegis Authenticator, invece, si presenta come un'alternativa gratuita ed etica a queste applicazioni. Aegis è un'applicazione free, sicura e open-source per la gestione dei token di verifica in due passaggi su Android. Il suo sviluppo si concentra su caratteristiche essenziali che altre applicazioni non offrono, tra cui una robusta crittografia dei dati locali e la possibilità di effettuare backup sicuri. Nel complesso, Aegis offre una soluzione di doppia autenticazione locale e verificabile, ideale per chi desidera mantenere il controllo totale sui propri codici 2FA.
+Aegis Authenticator, invece, si presenta come un'alternativa gratuita ed etica a queste applicazioni. Aegis è un'applicazione gratuita, sicura e open-source per la gestione dei token di verifica in due passaggi su Android. Il suo sviluppo si concentra su caratteristiche essenziali che altre applicazioni non offrono, tra cui una robusta crittografia dei dati locali e la possibilità di effettuare backup sicuri. Nel complesso, Aegis offre una soluzione di doppia autenticazione locale e verificabile, ideale per chi desidera mantenere il controllo totale sui propri codici 2FA.
 
 ## Presentazione di Aegis Authenticator
 
-Aegis Authenticator è un'applicazione 2FA open-source per Android, rilasciata sotto licenza GPL v3. Si distingue per la sua filosofia di "privacy by design": l'applicazione funziona interamente offline e non richiede la connessione a un servizio remoto. Di conseguenza, i token rimangono memorizzati localmente sul dispositivo, in una cassaforte sicura di cui solo voi possedete la chiave.
+Aegis Authenticator è un'applicazione 2FA open-source per Android, rilasciata sotto licenza GPL v3. Si distingue per la sua filosofia di "privacy by design": l'applicazione funziona interamente offline e non richiede la connessione a un servizio remoto. Di conseguenza, i token rimangono memorizzati localmente sul dispositivo, in una cassaforte sicura di cui solo tu possiedi la chiave.
 
 ### Caratteristiche principali
 
-**Cassaforte criptata:** tutti i codici OTP sono memorizzati in un caveau crittografato AES-256 (modalità GCM), protetto da una password principale definita dall'utente. È possibile sbloccare questo caveau tramite password o dati biometrici (impronte digitali, riconoscimento facciale) per una maggiore comodità. In assenza di una password, i dati non sarebbero criptati, pertanto si consiglia vivamente di impostarne una.
+**Cassaforte criptata**: tutti i codici OTP sono memorizzati in un caveau crittografato AES-256 (modalità GCM), protetto da una password principale definita dall'utente. È possibile sbloccare questo caveau tramite password o dati biometrici (impronte digitali, riconoscimento facciale) per una maggiore comodità. In assenza di una password, i dati non sarebbero criptati, pertanto si consiglia vivamente di impostarne una.
 
-**Organizzazione avanzata:** Aegis mantiene ben organizzati i vostri numerosi account 2FA. È possibile ordinare le voci in ordine alfabetico o nell'ordine desiderato, raggrupparle per categoria (ad es. personale, lavoro, sociale) per facilitarne il recupero e assegnare a ciascuna voce un'icona personalizzata. È inclusa una barra di ricerca per trovare immediatamente un servizio o un account in base al nome.
+**Organizzazione avanzata**: Aegis mantiene ben organizzati i tuoi numerosi account 2FA. È possibile ordinare le voci in ordine alfabetico o nell'ordine desiderato, raggrupparle per categoria (ad es. personale, lavoro, sociale) per facilitarne il recupero e assegnare a ciascuna voce un'icona personalizzata. È inclusa una barra di ricerca per trovare immediatamente un servizio o un account in base al nome.
 
-**Backup locali criptati:** per non perdere mai l'accesso ai vostri account, Aegis offre backup automatici della vostra cassaforte. Questi sono criptati (tramite una password) e possono essere salvati in una posizione a scelta (memoria interna, cartella cloud, ecc...). L'applicazione può anche esportare manualmente il database degli account, in formato crittografato o non crittografato, a seconda delle esigenze. L'importazione di account da altre applicazioni 2FA è altrettanto semplice (Aegis supporta l'importazione da Authy, Google Authenticator, FreeOTP, andOTP, ecc...).
+**Backup locali criptati**: per non perdere mai l'accesso ai tuoi account, Aegis offre backup automatici della tua cassaforte. Questi sono criptati (tramite una password) e possono essere salvati in una posizione a scelta (memoria interna, cartella cloud, ecc...). L'applicazione può anche esportare manualmente il database degli account, in formato crittografato o non crittografato, a seconda delle esigenze. L'importazione di account da altre applicazioni 2FA è altrettanto semplice (Aegis supporta l'importazione da Authy, Google Authenticator, FreeOTP, andOTP, ecc...).
 
-**Sicurezza e privacy:** l'applicazione è completamente offline per impostazione predefinita. Non richiede permessi di rete, il che significa che non trasmette dati all'esterno, e non dispone di tracker pubblicitari o moduli di analisi comportamentale. Aegis non visualizza annunci pubblicitari e non richiede un account utente: appena installato, è subito operativo senza registrazione. Poiché il suo codice sorgente è pubblico su GitHub, la comunità può verificarlo liberamente, garantendo l'assenza di funzionalità dannose o nascoste.
+**Sicurezza e privacy**: l'applicazione è completamente offline per impostazione predefinita. Non richiede permessi di rete, il che significa che non trasmette dati all'esterno, e non dispone di tracker pubblicitari o moduli di analisi comportamentale. Aegis non visualizza annunci pubblicitari e non richiede un account utente: appena installato, è subito operativo senza registrazione. Poiché il suo codice sorgente è pubblico su GitHub, la community può verificarlo liberamente, garantendo l'assenza di funzionalità dannose o nascoste.
 
-**Interfaccia moderna:** Aegis adotta un design pulito, Material Design, con supporto di temi scuri (inclusa una modalità AMOLED) e persino una vista opzionale a griglia per visualizzare i codici. L'interfaccia è ordinata, senza fronzoli, e impedisce la cattura dello schermo dei codici come misura di sicurezza.**
+**Interfaccia moderna**: Aegis adotta un design pulito, Material Design, con supporto di temi scuri (inclusa una modalità AMOLED) e persino una vista opzionale a griglia per visualizzare i codici. L'interfaccia è ordinata, senza fronzoli, e impedisce la cattura dello schermo dei codici come misura di sicurezza.
+
 
 ## Installazione
 
@@ -33,42 +34,41 @@ Poiché Aegis Authenticator è open source, i suoi sviluppatori favoriscono cana
 
 ### Via F-Droid (consigliato)
 
-Il modo più sicuro e semplice è attraverso F-Droid, il negozio alternativo gratuito. Se F-Droid non è ancora installato sul vostro telefono, iniziate a scaricarlo dal sito ufficiale [F-Droid.org](https://f-droid.org). Poi :
-
-- Aprite F-Droid e assicuratevi di aver aggiornato i repository per ottenere l'elenco più recente di applicazioni;
-- Cercare "Aegis Authenticator" in F-Droid. Dovrebbe apparire l'applicazione ufficiale (pubblicato da: Beem Development);
-- Avviare l'installazione premendo "Installa". Poiché Aegis è una delle applicazioni verificate da F-Droid, potrete beneficiare di un download affidabile e sicuro.
+Il modo più sicuro e semplice è attraverso F-Droid, lo store alternativo gratuito. Se F-Droid non è ancora installato sul tuo telefono, inizia a scaricarlo dal sito ufficiale [F-Droid.org](https://f-droid.org). Poi :
+- Apri F-Droid e assicurati di aver aggiornato i repository per ottenere l'elenco più recente di applicazioni
+- Cerca "Aegis Authenticator" in F-Droid. Dovrebbe apparire l'applicazione ufficiale (pubblicato da: Beem Development)
+- Avvia l'installazione premendo "Installa". Poiché Aegis è una delle applicazioni verificate da F-Droid, puoi beneficiare di un download affidabile e sicuro
 
 L'installazione tramite F-Droid offre il vantaggio di ricevere automaticamente gli aggiornamenti dell'applicazione non appena vengono rilasciati. Inoltre, F-Droid garantisce che l'applicazione sia priva di componenti proprietari indesiderati.
 
 ### Via GitHub (APK firmato)
 
-Se preferite installare l'applicazione senza passare per uno store, potete scaricare l'APK ufficiale direttamente dalla pagina GitHub del progetto. Sul repository di Aegis ([github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis)), andate alla sezione Releases, dove sono pubblicate le versioni stabili.
+Se preferisci installare l'applicazione senza passare per uno store, puoi scaricare l'APK ufficiale direttamente dalla pagina GitHub del progetto. Sul repository di Aegis ([github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis)), andate alla sezione Releases, dove sono pubblicate le versioni stabili.
 
-- Scarica l'ultima versione APK;
-- Prima di installare l'APK, assicurarsi di aver autorizzato l'installazione di applicazioni da fonti sconosciute sul dispositivo (nelle impostazioni di Android);
-- L'APK fornito su GitHub è firmato dallo sviluppatore con la stessa chiave di F-Droid.
+- Scarica l'ultima versione APK
+- Prima di installare l'APK, assicurati di aver autorizzato l'installazione di applicazioni da fonti sconosciute sul dispositivo (nelle impostazioni di Android)
+- L'APK fornito su GitHub è firmato dallo sviluppatore con la stessa chiave di F-Droid
 
-Dopo l'installazione manuale, l'applicazione funzionerà in modo identico. Si noti che gli aggiornamenti non saranno automatici: sarà necessario controllare periodicamente GitHub per le nuove versioni.
+Dopo l'installazione manuale, l'applicazione funzionerà in modo identico. Nota che gli aggiornamenti non saranno automatici: sarà necessario controllare periodicamente GitHub per le nuove versioni.
 
 ### Google Play Store vs F-Droid
 
 Aegis Authenticator è disponibile sia su Google Play Store che su F-Droid, offrendo la possibilità di scegliere il metodo di installazione:
 
-**Google Play Store:**
+**Google Play Store**:
 
-- ✅ Aggiornamenti automatici integrati nel sistema Android;
-- ✅ Installazione semplice e familiare;
-- ✅ Stesso APK firmato come su altri canali.
+- ✅ Aggiornamenti automatici integrati nel sistema Android
+- ✅ Installazione semplice e familiare
+- ✅ Stesso APK firmato come su altri canali
 
-**F-Droid (consigliato) :**
+**F-Droid (consigliato)**:
 
-- ✅ Negozio gratuito e open source;
-- ✅ Distribuzione riproducibile e verificabile;
-- ✅ Non è richiesto il servizio Google;
-- ✅ Rispetto per la filosofia del software libero.
+- ✅ Store gratuito e open source
+- ✅ Distribuzione riproducibile e verificabile
+- ✅ Non è richiesto il servizio Google
+- ✅ Rispetto per la filosofia del software libero
 
-La scelta tra queste due opzioni dipende dalle vostre preferenze riguardo all'ecosistema Google. Se preferite la semplicità, il Play Store è l'ideale. Se si desidera un approccio più rispettoso della privacy, indipendente dai servizi di Google, F-Droid è la scelta migliore.
+La scelta tra queste due opzioni dipende dalle tue preferenze riguardo all'ecosistema Google. Se preferisci la semplicità, il Play Store è l'ideale. Se desideri un approccio più rispettoso della privacy, indipendente dai servizi di Google, F-Droid è la scelta migliore.
 
 ## Prima configurazione
 
@@ -80,13 +80,13 @@ Quando Aegis viene lanciato per la prima volta, viene proposta una procedura di 
 
 ### Impostare una master password
 
-Aegis chiederà innanzitutto di scegliere una password principale. Questa password verrà utilizzata per criptare tutti i token di autenticazione memorizzati nel vault. Si consiglia vivamente di impostare una password forte e unica che solo voi conoscerete.
+Aegis chiederà innanzitutto di scegliere una password principale. Questa password verrà utilizzata per criptare tutti i token di autenticazione memorizzati nel vault. Si consiglia vivamente di impostare una password forte e unica che solo tu conoscerai.
 
-**⚠️ Attenzione:** non dimenticate questa password: se la perdete, i codici 2FA criptati diventeranno inaccessibili (non c'è una backdoor). Aegis chiederà di inserire la password due volte per conferma.
+**⚠️ Attenzione**: non dimenticare questa password: se la perdi, i codici 2FA criptati diventeranno inaccessibili (non c'è una backdoor). Aegis chiederà di inserire la password due volte per conferma.
 
 ### Abilitazione dello sblocco biometrico (opzionale)
 
-Se il vostro dispositivo Android è dotato di un lettore di impronte digitali o di un altro sensore biometrico, Aegis vi chiederà di attivare lo sblocco biometrico. Questa opzione è facoltativa ma molto pratica: consente di sbloccare rapidamente l'applicazione con l'impronta digitale o il volto, anziché digitare ogni volta la password.
+Se il tuo dispositivo Android è dotato di un lettore di impronte digitali o di un altro sensore biometrico, Aegis ti chiederà di attivare lo sblocco biometrico. Questa opzione è facoltativa ma molto pratica: consente di sbloccare rapidamente l'applicazione con l'impronta digitale o il volto, anziché digitare ogni volta la password.
 
 Si noti che la biometria è una comodità aggiuntiva: la password principale è comunque richiesta se la biometria viene modificata o il dispositivo viene riavviato.
 
@@ -100,13 +100,13 @@ Una volta entrati nell'applicazione (l'interfaccia principale è inizialmente vu
 
 Il menu delle impostazioni di Aegis raggruppa diverse sezioni importanti:
 
-- **Aspetto**: personalizzazione del tema (chiaro, scuro, AMOLED), della lingua e di altre impostazioni visive;
-- **Comportamento**: configurare il comportamento dell'applicazione quando interagisce con l'elenco di voci;
-- **Pacchetti di icone**: gestione e importazione di pacchetti di icone per personalizzare l'aspetto dei vostri account;
-- **Sicurezza**: impostazioni per la crittografia, lo sblocco biometrico, il blocco automatico e altri parametri di sicurezza;
-- **Backup**: configurare i backup automatici in una posizione a scelta;
-- **Importazione ed esportazione**: importazione di backup da altre applicazioni di autenticazione ed esportazione manuale del caveau Aegis;
-- **Registro di controllo**: registro dettagliato di tutti gli eventi significativi dell'applicazione.
+- **Aspetto**: personalizzazione del tema (chiaro, scuro, AMOLED), della lingua e di altre impostazioni visive
+- **Comportamento**: configurare il comportamento dell'applicazione quando interagisce con l'elenco di voci
+- **Pacchetti di icone**: gestione e importazione di pacchetti di icone per personalizzare l'aspetto dei vostri account
+- **Sicurezza**: impostazioni per la crittografia, lo sblocco biometrico, il blocco automatico e altri parametri di sicurezza
+- **Backup**: configurare i backup automatici in una posizione a scelta
+- **Importazione ed esportazione**: importazione di backup da altre applicazioni di autenticazione ed esportazione manuale del caveau Aegis
+- **Registro di controllo**: registro dettagliato di tutti gli eventi significativi dell'applicazione
 
 Questa chiara organizzazione consente di configurare Aegis in base alle proprie preferenze ed esigenze di sicurezza.
 
@@ -117,10 +117,9 @@ Dopo aver configurato Aegis, passiamo all'elemento fondamentale: aggiungere gli 
 ### I tre metodi di aggiunta disponibili
 
 Dalla schermata principale dell'interfaccia di Aegis, premi il pulsante **+** in basso a destra per accedere alle opzioni. Sono disponibili tre opzioni:
-
-- **Scansione del codice QR**: scansiona direttamente il codice QR visualizzato dal servizio web;
-- **Scansione immagine**: scansiona un codice QR da un'immagine salvata sul dispositivo;
-- **Inserimento manuale**: inserire manualmente le informazioni dell'account 2FA.
+- **Scansione del codice QR**: scansiona direttamente il codice QR visualizzato dal servizio web
+- **Scansione immagine**: scansiona un codice QR da un'immagine salvata sul dispositivo
+- **Inserimento manuale**: inserire manualmente le informazioni dell'account 2FA
 
 ### Esempio pratico: configurazione di Bitwarden
 
@@ -137,10 +136,10 @@ Facciamo un esempio concreto di attivazione della 2FA su Bitwarden per illustrar
 
 *Processo completo per l'aggiunta di un account: Codice QR visualizzato dal servizio, chiave segreta visibile e codice di verifica inserito*
 
-- **Eseguire la scansione del codice QR**: si apre una finestra popup con il codice QR e la chiave segreta;
-- In **Aegis**: utilizza "Scansione del codice QR" per acquisire automaticamente le informazioni;
-- **Verifica**: inserisci il codice a 6 cifre generato da Aegis nel campo "Codice di verifica";
-- **Attivazione**: fai clic su "Attiva" per finalizzare l'attivazione.
+- **Eseguire la scansione del codice QR**: si apre una finestra popup con il codice QR e la chiave segreta
+- In **Aegis**: utilizza "Scansione del codice QR" per acquisire automaticamente le informazioni
+- **Verifica**: inserisci il codice a 6 cifre generato da Aegis nel campo "Codice di verifica"
+- **Attivazione**: fai clic su "Attiva" per finalizzare l'attivazione
 
 ### Aggiungere manualmente i dettagli
 
@@ -150,12 +149,12 @@ Se preferisci o non puoi scansionare il codice QR, utilizza l'opzione "Inserisci
 
 *Processo di aggiunta di un nuovo account 2FA: interfaccia vuota, aggiunta di opzioni, modulo di inserimento manuale e account aggiunto con successo*
 
-- **Nome**: nome del servizio (es. Bitwarden, GitHub...);
-- **Emittente**: l'emittente (spesso identico al nome);
-- **Gruppo**: opzionale, per organizzare gli account per categoria;
-- **Nota**: osservazioni personali su questo account;
-- **Segreto**: la chiave segreta fornita dal servizio (mascherata per impostazione predefinita);
-- **Avanzato**: parametri avanzati (algoritmo, periodo, numero di cifre).
+- **Nome**: nome del servizio (es. Bitwarden, GitHub...)
+- **Emittente**: l'emittente (spesso identico al nome)
+- **Gruppo**: opzionale, per organizzare gli account per categoria
+- **Nota**: osservazioni personali su questo account
+- **Segreto**: la chiave segreta fornita dal servizio (mascherata per impostazione predefinita)
+- **Avanzato**: parametri avanzati (algoritmo, periodo, numero di cifre)
 
 Una volta aggiunto, l'account appare nell'elenco con il suo codice attuale e un indicatore di tempo che mostra il tempo rimanente prima del rinnovo.
 
@@ -167,10 +166,10 @@ Aegis è compatibile con tutti i servizi che utilizzano gli standard TOTP e HOTP
 
 Una volta aggiunti diversi account, si apprezzeranno gli strumenti organizzativi di Aegis:
 
-- **Ordinamento personalizzato**: per impostazione predefinita, gli account sono elencati in ordine alfabetico, ma è possibile modificare l'ordine manualmente;
-- **Gruppi e categorie**: create gruppi per separare i vostri account personali da quelli aziendali, oppure raggruppateli per tipo di servizio (banca, e-mail, social network, ecc...);
-- **Icone personalizzate**: Aegis cerca di assegnare automaticamente un'icona appropriata se disponibile, altrimenti è possibile scegliere tra molte icone generiche o importare un'immagine;
-- **Ricerca rapida**: la barra di ricerca in alto consente di digitare poche lettere per filtrare immediatamente le voci corrispondenti.
+- **Ordinamento personalizzato**: per impostazione predefinita, gli account sono elencati in ordine alfabetico, ma è possibile modificare l'ordine manualmente
+- **Gruppi e categorie**: crea gruppi per separare i tuoi account personali da quelli aziendali, oppure raggruppali per tipo di servizio (banca, e-mail, social network, ecc...)
+- **Icone personalizzate**: Aegis cerca di assegnare automaticamente un'icona appropriata se disponibile, altrimenti è possibile scegliere tra molte icone generiche o importare un'immagine
+- **Ricerca rapida**: la barra di ricerca in alto consente di digitare poche lettere per filtrare immediatamente le voci corrispondenti
 
 Toccando una voce, il codice OTP viene visualizzato a grandezza naturale (se era nascosto) ed è possibile copiarlo negli appunti con una pressione prolungata, utile per incollarlo nell'applicazione a cui ci si vuole collegare.
 
@@ -220,15 +219,15 @@ Aegis offre diverse strategie di backup per soddisfare le diverse esigenze di si
 
 ### Buone pratiche di sicurezza
 
-- Mantieni diverse versioni di **backup** per prevenire la corruzione
-- Testa regolarmente **i vostri backup tentando un ripristino**
-- Conserva separatamente i codici di recupero forniti dal servizio di assistenza
-- La password principale **è sempre necessaria anche con i backup nel cloud**
-- **Proteggere la password principale**: utilizzare una password unica e forte memorizzata in un gestore di password
-- Mantieni la tua applicazione **aggiornata** con le ultime patch di sicurezza
-- Attiva il **blocco automatico** nelle impostazioni per proteggere l'accesso all'applicazione
-- Disattiva gli **screenshot** (opzione predefinita) per evitare che i codici vengano intercettati
-- Usa la biometria con parsimonia: preferisci le password per gli accessi critici
+- **Mantieni diverse versioni di backup** per prevenire la corruzione
+- **Testa regolarmente** i tuoi backup tentando un ripristino
+- **Conserva separatamente** i codici di recupero forniti dal servizio di assistenza
+- **La password principale è sempre necessaria** anche con i backup nel cloud
+- **Proteggi la password principale**: utilizza una password unica e forte memorizzata in un gestore di password
+- **Mantieni la tua applicazione aggiornata** con le ultime patch di sicurezza
+- **Attiva il blocco automatico** nelle impostazioni per proteggere l'accesso all'applicazione
+- **Disattiva gli screenshot** (opzione predefinita) per evitare che i codici vengano intercettati
+- **Usa la biometria con parsimonia**: preferisci le password per gli accessi critici
 
 ## Confronto con altre applicazioni
 

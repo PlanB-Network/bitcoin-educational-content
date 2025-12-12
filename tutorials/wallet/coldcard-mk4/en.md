@@ -395,3 +395,8 @@ Alternatively, you can add a `Add If Wrong` action that will be triggered after 
 7. You will be brought back to the `Settings > Login Settings > Trick PINs` directory. Under the `Trick PINs:`, you will find the list of trick pins along with `WRONG PIN` action. You can also hide or delete it by selecting the PIN then select `Hide Trick` or `Delete Trick`. 
 
 ![48](assets/en/48.png)
+
+
+## Closing Remarks
+
+This tutorial has provided the guide of how to set up, conduct Bitcoin transactions with Mk4 and use some advanced features of Mk4. If you wish to explore other functionalities, you can check the documentation on Coinkite's website [here](https://coldcard.com/docs/). I hope you find this tutorial beneficial when you are using Coldcard Mk4. 

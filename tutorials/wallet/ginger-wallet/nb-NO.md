@@ -1,5 +1,5 @@
 ---
-name: Ingefær Wallet
+name: Ginger Wallet
 description: Bitcoin wallet-programvare med åpen kildekode, fork fra Wasabi Wallet, integrering av Coinjoins
 ---
 ![cover](assets/cover.webp)

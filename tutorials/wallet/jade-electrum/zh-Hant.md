@@ -1,5 +1,5 @@
 ---
-name: 玉 - Electrum
+name: Jade - Electrum
 description: 如何在 Electrum (桌上型電腦) 上使用您的 Jade 或 Jade Plus
 ---
 

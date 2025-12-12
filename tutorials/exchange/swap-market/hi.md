@@ -1,5 +1,5 @@
 ---
-name: स्वैपमार्केट
+name: SwapMarket
 description: Bitcoin और लाइटनिंग स्वैप सेवा एग्रीगेटर
 ---
 

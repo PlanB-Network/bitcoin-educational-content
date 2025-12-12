@@ -1,5 +1,5 @@
 ---
-name: Мостро
+name: Mostro
 description: Платформа обмена Bitcoin P2P без KYC через Lightning и Nostr
 ---
 

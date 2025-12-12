@@ -1,5 +1,5 @@
 ---
-name: Birnen
+name: Pears
 description: Wie kann ich Anwendungen auf Pears installieren und nutzen?
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Umusinyi w'imbuto
+name: SeedSigner
 description: DIY, nta gihugu, bishoboka kandi vyuzuye umuyaga-gapped wallet hardware
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: کوینوس
+name: Coinos
 description: یک برنامه وب ساده برای ارسال، دریافت و پذیرش پرداخت‌های بیت‌کوین.
 ---
 ![cover](assets/cover.webp)

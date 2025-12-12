@@ -1,5 +1,5 @@
 ---
-name: ماچانکورا
+name: Machankura
 description: از Bitcoin بر روی هر گوشی، بدون اینترنت استفاده کنید.
 ---
 

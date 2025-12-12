@@ -1,5 +1,5 @@
 ---
-name: Igitangaza DIY
+name: Specter DIY
 description: Ubuyobozi bwo gutegura Spectre DIY
 ---
 

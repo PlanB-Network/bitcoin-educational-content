@@ -1,5 +1,5 @@
 ---
-name: Kue Wallet
+name: Cake Wallet
 description: Tutorial tentang Cake Wallet dan Pembayaran Diam
 ---
 

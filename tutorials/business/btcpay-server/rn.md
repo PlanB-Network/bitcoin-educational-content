@@ -1,5 +1,5 @@
 ---
-name: Serveri ya BTCPay
+name: BTCPay Server
 description: Kwemera amahera ya BTC ata bahuza
 ---
 

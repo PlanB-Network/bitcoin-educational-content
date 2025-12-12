@@ -1,5 +1,5 @@
 ---
-name: COLDCARD - Mitunterzeichnung
+name: COLDCARD - Co-Sign
 description: Entdecken Sie die Co-Sign-Funktion und nutzen Sie sie auf Ihrer COLDCARD
 ---
 

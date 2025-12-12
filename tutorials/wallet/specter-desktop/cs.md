@@ -1,5 +1,5 @@
 ---
-name: Spectre Desktop
+name: Specter Desktop
 description: Spravujte svá portfolia Bitcoin s více podpisy zcela suverénně pomocí vlastního uzlu
 ---
 

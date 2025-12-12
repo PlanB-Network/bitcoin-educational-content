@@ -1,5 +1,5 @@
 ---
-name: Имбирь Wallet
+name: Ginger Wallet
 description: Программное обеспечение Bitcoin wallet с открытым исходным кодом, fork из Wasabi Wallet, интеграция Coinjoins
 ---
 ![cover](assets/cover.webp)

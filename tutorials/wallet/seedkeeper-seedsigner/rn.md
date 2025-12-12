@@ -1,5 +1,5 @@
 ---
-name: Umucungezi w'imbuto x Umusinyi w'imbuto
+name: Seedkeeper x SeedSigner
 description: Nokoresha gute Umucungezi w'Imbuto n'Umucungezi wanje w'Imbuto?
 ---
 

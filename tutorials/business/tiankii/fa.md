@@ -1,5 +1,5 @@
 ---
-name: تینکیی
+name: Tiankii
 description: مجموعه ابزارهای Lightning برای خرده‌فروشان و مصرف‌کنندگان
 ---
 

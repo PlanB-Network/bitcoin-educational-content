@@ -1,5 +1,5 @@
 ---
-name: دبیفی
+name: Debifi
 description: وام غیر حضانتی تضمین شده توسط Bitcoin دریافت کنید.
 ---
 

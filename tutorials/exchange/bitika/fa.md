@@ -1,5 +1,5 @@
 ---
-name: بیتیکا
+name: Bitika
 description: خرید بیت‌کوین از طریق M-Pesa در سه مرحله آسان
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: 道場
+name: Dojo
 description: プライバシーと自律性のためのオープンソースBitcoinノード
 ---
 

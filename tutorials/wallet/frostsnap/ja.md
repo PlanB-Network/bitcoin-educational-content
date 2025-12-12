@@ -1,5 +1,5 @@
 ---
-name: フロストスナップ
+name: Frostsnap
 description: FROSTプロトコルを使用した高度なマルチシグネチャ・セキュリティ・システム
 ---
 

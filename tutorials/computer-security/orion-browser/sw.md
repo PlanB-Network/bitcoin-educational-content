@@ -1,5 +1,5 @@
 ---
-name: orion-browser
+name: Orion Browser
 description: Jinsi ya kutumia Orion Browser kulinda faragha yako kwenye Mac na iPhone?
 ---
 

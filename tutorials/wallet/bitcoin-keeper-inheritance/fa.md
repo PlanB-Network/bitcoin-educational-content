@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - برنامه ارثیه
+name: Bitcoin Keeper - برنامه ارث
 description: راه‌اندازی و استفاده از Bitcoin Keeper Wallet با Tapsigners برای ایجاد یک برنامه ارثیه
 ---
 

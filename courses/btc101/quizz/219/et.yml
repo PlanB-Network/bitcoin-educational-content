@@ -1,0 +1,9 @@
+question: Milline lähenemine struktureerib selles peatükis kirjeldatud Bitcoini arengut?
+answer: Kihtidena toimuv areng
+wrong_answers:
+  - Monoliitne plokiahel
+  - Natiivne sharding
+  - Üldistatud onchain-täitmine
+explanation: |
+  Bitcoin säilitab lihtsa ja vastupidava baasikihi, samal ajal kui kõrgema taseme protokollid lisavad spetsiifilisi funktsioone.
+reviewed: false

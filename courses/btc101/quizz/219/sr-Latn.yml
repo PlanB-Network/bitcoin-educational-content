@@ -1,0 +1,9 @@
+question: Koji pristup strukturiše evoluciju Bitcoina opisanu u ovom poglavlju?
+answer: Evolucija u slojevima
+wrong_answers:
+  - Monolitni blokčejn
+  - Nativni šarding
+  - Generalizovano onchain izvršavanje
+explanation: |
+  Bitcoin zadržava jednostavan i robustan osnovni sloj, dok viši protokoli dodaju specifične funkcionalnosti.
+reviewed: false

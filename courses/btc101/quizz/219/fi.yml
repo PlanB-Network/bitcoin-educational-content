@@ -1,0 +1,9 @@
+question: Mikä lähestymistapa jäsentää tässä luvussa kuvatun Bitcoinin kehityksen?
+answer: Kerroksittainen kehitys
+wrong_answers:
+  - Monoliittinen lohkoketju
+  - Natiivi sharding
+  - Yleistetty onchain-suoritus
+explanation: |
+  Bitcoin säilyttää yksinkertaisen ja vankan peruskerroksen, kun taas ylemmän tason protokollat lisäävät erityisiä toimintoja.
+reviewed: false

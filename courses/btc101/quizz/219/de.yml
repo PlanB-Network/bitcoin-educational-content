@@ -1,0 +1,9 @@
+question: Welcher Ansatz strukturiert die in diesem Kapitel beschriebene Entwicklung von Bitcoin?
+answer: Entwicklung in Schichten
+wrong_answers:
+  - Monolithische Blockchain
+  - Natives Sharding
+  - Verallgemeinerte Onchain-Ausführung
+explanation: |
+  Bitcoin behält eine einfache und robuste Basisschicht bei, während übergeordnete Protokolle spezifische Funktionen hinzufügen.
+reviewed: false

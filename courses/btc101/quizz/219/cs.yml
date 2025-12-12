@@ -1,0 +1,9 @@
+question: Jaký přístup strukturuje vývoj Bitcoinu popsaný v této kapitole?
+answer: Vývoj ve vrstvách
+wrong_answers:
+  - Monolitický blockchain
+  - Nativní sharding
+  - Zobecněné onchain provádění
+explanation: |
+  Bitcoin si zachovává jednoduchou a robustní základní vrstvu, zatímco nadřazené protokoly přidávají specifické funkce.
+reviewed: false

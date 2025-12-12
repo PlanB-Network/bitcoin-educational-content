@@ -1,0 +1,9 @@
+question: Cách tiếp cận nào cấu trúc sự tiến hóa của Bitcoin được mô tả trong chương này?
+answer: Tiến hóa theo lớp
+wrong_answers:
+  - Blockchain đơn khối
+  - Sharding gốc
+  - Thực thi onchain tổng quát
+explanation: |
+  Bitcoin giữ một lớp cơ sở đơn giản và vững chắc, trong khi các giao thức cấp cao hơn bổ sung các chức năng cụ thể.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni mbinu gani inayounda mabadiliko ya Bitcoin yaliyoelezewa katika sura hii?
+answer: Mageuzi ya tabaka
+wrong_answers:
+  - Blockchain monolitiki
+  - Sharding asilia
+  - Utekelezaji wa onchain uliopanuliwa
+explanation: |
+  Bitcoin hudumisha tabaka la msingi lililo rahisi na thabiti, huku itifaki za juu zikiongeza utendaji maalum.
+reviewed: false

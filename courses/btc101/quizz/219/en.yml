@@ -1,0 +1,9 @@
+question: Which approach structures the evolution of Bitcoin described in this chapter?
+answer: Layered evolution
+wrong_answers:
+  - Monolithic blockchain
+  - Native sharding
+  - Generalized onchain execution
+explanation: |
+  Bitcoin retains a simple and robust base layer, while higher-level protocols add specific functionalities.
+reviewed: false

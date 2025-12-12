@@ -1,0 +1,9 @@
+question: Quelle approche structure l’évolution de Bitcoin décrite dans ce chapitre ?
+answer: Évolution en surcouches
+wrong_answers:
+  - Blockchain monolithique
+  - Sharding natif
+  - Exécution onchain généralisée
+explanation: |
+  Bitcoin conserve une couche de base simple et robuste, tandis que des protocoles supérieurs ajoutent des fonctionnalités spécifiques.
+reviewed: false

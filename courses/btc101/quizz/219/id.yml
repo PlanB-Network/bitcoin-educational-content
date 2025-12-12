@@ -1,0 +1,9 @@
+question: Pendekatan apa yang menyusun evolusi Bitcoin yang dijelaskan dalam bab ini?
+answer: Evolusi berlapis
+wrong_answers:
+  - Blockchain monolitik
+  - Sharding native
+  - Eksekusi onchain yang digeneralisasi
+explanation: |
+  Bitcoin mempertahankan lapisan dasar yang sederhana dan tangguh, sementara protokol tingkat atas menambahkan fungsionalitas tertentu.
+reviewed: false

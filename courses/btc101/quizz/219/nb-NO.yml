@@ -1,0 +1,9 @@
+question: Hvilken tilnærming strukturerer utviklingen av Bitcoin som beskrives i dette kapittelet?
+answer: Lagvis utvikling
+wrong_answers:
+  - Monolittisk blokkjede
+  - Naturlig sharding
+  - Generalisert onchain-kjøring
+explanation: |
+  Bitcoin beholder et enkelt og robust basislag, mens overliggende protokoller legger til spesifikke funksjoner.
+reviewed: false

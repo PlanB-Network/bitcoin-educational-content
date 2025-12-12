@@ -1,0 +1,9 @@
+question: Quale approccio struttura l’evoluzione di Bitcoin descritta in questo capitolo?
+answer: Evoluzione a strati
+wrong_answers:
+  - Blockchain monolitica
+  - Sharding nativo
+  - Esecuzione onchain generalizzata
+explanation: |
+  Bitcoin conserva uno strato di base semplice e robusto, mentre i protocolli superiori aggiungono funzionalità specifiche.
+reviewed: false

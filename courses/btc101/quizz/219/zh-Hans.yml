@@ -1,0 +1,9 @@
+question: 本章所描述的比特币演进采用了哪种结构化方法？
+answer: 分层演进
+wrong_answers:
+  - 单体区块链
+  - 原生分片
+  - 通用链上执行
+explanation: |
+  比特币保留了简单而稳健的基础层，而更高层的协议则添加特定功能。
+reviewed: false

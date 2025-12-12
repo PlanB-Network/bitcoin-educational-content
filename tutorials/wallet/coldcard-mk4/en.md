@@ -153,7 +153,7 @@ Unlike receiving bitcoins, spending the bitcoins associated with your Coldcard r
 
 1. Insert the MicroSD card into the device where your Sparrow Wallet is installed.
 2. Open Sparrow Wallet.
-3. Select `Open Wallet` > Choose the wallet file to which you want to receive bitcoin > Enter the password associated with that wallet.
+3. Select `Open Wallet` > Choose the wallet file you want to use to send bitcoins with > Enter the password associated with that wallet.
 4. On Sparrow's interface, click on the `Send` tab on the left side of the interface.
 5. On the `Pay to` tab, enter the address you want to send the bitcoins to.
 6. Add a label for the transaction.

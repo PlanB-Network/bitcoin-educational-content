@@ -21,7 +21,7 @@ You will receive your Mk4 in a tamper-evident bag. Please ensure that the bag ha
 
 The keypad consists of 10 numeric buttons, an OK (`✓`) button, and a cancel (`✕`) button. Some numeric buttons can also be used for navigation: `5` to navigate up (`^`), `7` to navigate left (`<`), `8` to navigate down `˅`, and `9` to navigate right (`>`).
 
-![01](assets/en/01.png)
+![01](assets/en/01.webp)
 
 If there are no problems with the packaging, you may open the bag. The Mk4 will come with a wallet backup card that can be used to store information regarding the device's PIN, anti-phishing words, and seedphrase. Follow the following steps for the initialization: 
 
@@ -30,31 +30,31 @@ If there are no problems with the packaging, you may open the bag. The Mk4 will 
 3. Once the device is powered up for the first time, the screen will display a message regarding Coldcard's Terms of Sale and Use. Navigate down, then press `✓` to continue.
 4. Next, a 12-digit number will be displayed on the screen. Check this number against the one on the tamper-evident bag to ensure the device has not been tampered with. If the numbers do not match, contact Coinkite support immediately before proceeding. Otherwise, press `✓` to continue.
 
-![02](assets/en/02.png)
+![02](assets/en/02.webp)
 
 5. Select `Choose PIN Code`.
 6. Navigate down as you read the instructions to proceed to the next step.
 
-![03](assets/en/03.png)
+![03](assets/en/03.webp)
 
 7. On the Mk4, create and enter the PIN prefix (must be 2 to 6 characters long) and write it down, then press `✓` to continue.
 8. Write down the two words displayed at the screen. These are the anti-phishing words. Press `✓` to continue.
 
-![04](assets/en/04.png)
+![04](assets/en/04.webp)
 
 9. Create and enter the PIN suffix (or rest of PIN, must be 2 to 6 characters long) and write it down. Press `✓` to continue.
 10. Reenter your PIN prefix. Press `✓` to continue.
 
-![05](assets/en/05.png)
+![05](assets/en/05.webp)
 
 11. Check whether the anti-phishing words are the same with the one you wrote on step 8. Press `✓` to continue.
 12. Reenter your PIN suffix (or rest of PIN). Press `✓` to continue.
 
-![06](assets/en/06.png)
+![06](assets/en/06.webp)
 
 13. Your Mk4's PIN and anti-phishing words are now successfully created and stored by the device.
 
-![07](assets/en/07.png)
+![07](assets/en/07.webp)
 
 Note that Mk4 will always ask you to input your PIN each time you switch your device on. Without this PIN, you are not able to access your Coldcard Mk4. So make sure that you create sufficient backup for the PIN and anti-phishing words.
 
@@ -71,18 +71,18 @@ To create a new wallet, simply do the following steps.
 
 1. Select `New Wallet` (or `New Seed Words`) > Select `12 Word` or `24 Word (default)` depending on your preference.
 
-![08](assets/en/08.png)
+![08](assets/en/08.webp)
 
 2. The device will generate 12 or 24 words as your seedphrase based on your choice. Navigate down as you carefully write down each word in the correct order. Then, press `✓` to continue. 
 3. The device will ask you to verify your seedphrase by asking the in a random order (for example, `Word 1 is?`, then `Word 5 is?`, then `Word 12 is?`, and so on) and there will be three word choices for each question. Refer to the note from Step 2 and choose the words correctly (by pressing `1`, `2` or `3`, whichever corresponds to the correct word) to complete the wallet creation.
 
-![09](assets/en/09.png)
+![09](assets/en/09.webp)
 
 4. Mk4 will then ask whether you want to Enable NFC/Tap or not. For now, select `✕` for this option. This can be changed in the settings in the future.
 5. Finally, Mk4 will also if you want to disable the USB Port. For now, select `✓` for this option. This can be changed in the settings in the future.
 6. The screen will now display the main menu with `Ready to Sign` at the top. This marks the completion of the wallet creation process.
 
-![10](assets/en/10.png)
+![10](assets/en/10.webp)
 
 ### Creating a new wallet with dice roll
 
@@ -91,18 +91,18 @@ Alternatively, you can also choose to generate the new seedphrase with entropy. 
 1. Select `New Wallet` (or `New Seed Words`) > Select `12 Word Dice Roll` or `24 Word Dice Roll` depending on your preference.
 2. You will be asked to enter the results of your dice rolls. Each dice roll adds randomness to the wallet creation process, ensuring that your seedphrase is generated in a fully secure and unpredictable way. The minimum number of rolls are 50 for 12-word seedphrase and 99 for 24-word seedphrase. Press `✓` after you have input at least 99 dice roll values.
 
-![11](assets/en/11.png)
+![11](assets/en/11.webp)
 
 3. The device will generate 12 or 24 words as your seedphrase based on your choice. Navigate down as you carefully write down each word in the correct order. Then, press `✓` to continue. 
 4. The device will ask you to verify your seedphrase by asking the in a random order (for example, `Word 1 is?`, then `Word 5 is?`, then `Word 12 is?`, and so on) and there will be three word choices for each question. Refer to the note from Step 3 and choose the words correctly (by pressing `1`, `2` or `3`, whichever corresponds to the correct word) to complete the wallet creation.
 
-![12](assets/en/12.png)
+![12](assets/en/12.webp)
 
 5. Mk4 will then ask whether you want to Enable NFC/Tap or not. For now, select `✕` for this option. This can be changed in the settings in the future.
 6. Finally, Mk4 will also if you want to disable the USB Port. For now, select `✓` for this option. This can be changed in the settings in the future.
 7. The screen will now display the main menu with `Ready to Sign` at the top. This marks the completion of the wallet creation process.
 
-![13](assets/en/13.png)
+![13](assets/en/13.webp)
 
 ### Importing a wallet
 
@@ -111,18 +111,18 @@ The final option is for you to import a wallet. You can do this if you want to r
 1. Select `Import Existing`.
 2. Select `24 Words`, `18 Words` or `12 Words`, depending on your seedphrase's word count.
 
-![14](assets/en/14.png)
+![14](assets/en/14.webp)
 
 3. Coldcard Mk4 will then ask you what each word is in consecutive order. For each word, navigate down or up until you find the write prefix for each word. The device will narrow down the possibilities until you can find the correct word. Do this for the rest of the other words.
 4. For the final word, Coldcard Mk4 will display only a limited amount of possible words. If there are no matches, you may have input the words incorrectly. Otherwise, select the word that matches the one on your seedphrase.
 
-![15](assets/en/15.png)
+![15](assets/en/15.webp)
 
 5. Mk4 will then ask whether you want to Enable NFC/Tap or not. For now, select `✕` for this option. This can be changed in the settings in the future.
 6. Finally, Mk4 will also if you want to disable the USB Port. For now, select `✓` for this option. This can be changed in the settings in the future.
 7. The screen will now display the main menu with `Ready to Sign` at the top. This marks the completion of the wallet creation process.
 
-![16](assets/en/16.png)
+![16](assets/en/16.webp)
 
 Do note that the seedphrase is the only access to recover your wallet. Create a backup of your seedphrase and store it in a secure place. **Not your keys, not your coins**, whoever has your seedphrase has access to your bitcoins!
 
@@ -134,7 +134,7 @@ One of the best practices in Bitcoin is to use a passphrase. The passphrase acts
 2. Navigate down to read the description about passphrase, then press `✓` to proceed.
 3. Select `Edit Phrase`.
 
-![17](assets/en/17.png)
+![17](assets/en/17.webp)
 
 4. Input your passphrase:
    - Press `1` (letters), `2` (numbers) or `3` (symbols) to select the character type.
@@ -151,13 +151,13 @@ One of the best practices in Bitcoin is to use a passphrase. The passphrase acts
 7. Press `APPLY` to access the wallet with the passphrase you have just set.
 8. Mk4 will then display a 8-character long master key fingerprint. This can be regarded as the "ID" of the wallet. Write down this fingerprint and press `✓` to proceed.
 
-![18](assets/en/18.png)
+![18](assets/en/18.webp)
 
 9. Now, the wallet will display the main menu of the wallet with the passphrase that you have input.
 10. It's important to note that a wallet will not tell you that you have input the incorrect passphrase, because each passphrase corresponds to each own wallet with a unique identity (master key fingerprint). Therefore, it’s a good practice to re-enter the same passphrase and check whether it produces the same wallet fingerprint, ensuring that you’ve entered it correctly. To do that, perform Steps 11 to 14.
 11. On the main menu, select `Restore Master`, then press `✓`. You are now back in the main menu of the wallet with the blank passphrase.
 
-![19](assets/en/19.png)
+![19](assets/en/19.webp)
 
 12. Go to `Passphrase` again, then press `✓` to proceed.
 13. Reinput the passphrase that you have written down on Step 6, then press `APPLY`.
@@ -174,34 +174,34 @@ In this tutorial, we will use Sparrow Wallet as the interface. The procedure to 
 2. Perform the "Setting up your passphrase" steps on the wallet with the passphrase that you want to export. If you want to export the wallet with the blank passphrase, you can skip this step.
 3. Go to `Advanced/Tools` > Choose `Export Wallet` > Select `Generic JSON` > Scroll down as you read the instructions, then press `✓`.
 
-![20](assets/en/20.png)
+![20](assets/en/20.webp)
 
 4. Mk4 now has created a file with a `.json` format in the MicroSD card.
 
-![21](assets/en/21.png)
+![21](assets/en/21.webp)
 
 5. Remove the MicroSD card from the Coldcard and insert it into the device where Sparrow Wallet is installed.
 6. Open Sparrow Wallet.
 7. Click `File` > `New Wallet` > Input the name for the wallet > Click `Create Wallet`
 
-![22](assets/en/22.png)
+![22](assets/en/22.webp)
 
 8. Select the `Script Type`.
 9. On the Keystore section, select `Airgapped Hardware Wallet`.
 10. Look for Coldcard and click `Import File...`.
 11. Select the file that was created in Step 4 (the one with the `.json` format).
 
-![23](assets/en/23.png)
+![23](assets/en/23.webp)
 
 12. On the Mk4, return to the main menu and navigate to `Advanced/Tools` > `View Identity`. Ensure that the fingerprint displayed on the Mk4's screen matches the one on Sparrow Wallet (the Master fingerprint on the Keystore section)
 13. Click the `Apply` button on the bottom right corner.
 
-![24](assets/en/24.png)
+![24](assets/en/24.webp)
 
 14. Optionally, you can also add a password for the exported wallet. This password is required each time you open the Sparrow Wallet application to access the wallet. If you forget the password in the future, you can simply repeat Steps 1-13 and choose a new password.
 15. The wallet is now successfully exported and ready to be used.
 
-![25](assets/en/25.png)
+![25](assets/en/25.webp)
 
 ## Receiving bitcoin
 
@@ -212,12 +212,12 @@ Next, we’ll learn how to receive Bitcoin using the Mk4. This process is quite 
 3. On Sparrow's interface, click on the `Receive` tab on the left side of the interface.
 4. An address along with a QR code will appear at the top. You can copy and paste the address or scan the QR code using the wallet you’ll use to send bitcoin to Sparrow Wallet. Optionally, you can type in a label for the bitcoin you receive.
 
-![26](assets/en/26.png)
+![26](assets/en/26.webp)
 
 5. After you send the bitcoins, on Sparrow's interface, click on the `Transactions` tab on the left side of the interface. You’ll see a new entry at the top of the transaction history, which corresponds to the transaction you just made.
 6. You can also navigate on the `UTXOs` tab on the left side of the interface to see the bitcoin you just received.
 
-![27](assets/en/27.png)
+![27](assets/en/27.webp)
 
 ## Sending bitcoin
 
@@ -228,7 +228,7 @@ Unlike receiving bitcoins, spending the bitcoins associated with your Coldcard r
 3. Select `Open Wallet` > Choose the wallet file you want to use to send bitcoins with > Enter the password associated with that wallet.
 4. On Sparrow's interface, click on the `Send` tab on the left side of the interface.
 
-![28](assets/en/28.png)
+![28](assets/en/28.webp)
 
 5. On the `Pay to` tab, enter the address you want to send the bitcoins to.
 6. Add a label for the transaction.
@@ -238,7 +238,7 @@ Unlike receiving bitcoins, spending the bitcoins associated with your Coldcard r
 10. You will be brought into a new transaction tab whose name is the label you input on Step 6. Click `Finalize Transaction for Signing`.
 11. Click `Save Transaction` and save the transaction in the MicroSD card. Rename the file if necessary. This step will save the transaction as a PSBT file.
 
-![29](assets/en/29.png)
+![29](assets/en/29.webp)
 
 12. Remove the MicroSD card and insert it into your Coldcard Mk4.
 13. Turn on your Mk4 by connecting it to a power source.
@@ -248,22 +248,22 @@ Unlike receiving bitcoins, spending the bitcoins associated with your Coldcard r
 17. On Mk4's main menu, select `Ready to Sign`. The screen will display an `OKAY TO SEND?` message. Ensure the amount of the bitcoins you want to send and the receiving address are all correct. Press `✓` to confirm or `✕` to cancel.
 18. If there are multiple PSBT files to choose from, Mk4 will display `Choose PSBT file to be signed` message. Press `✓` to continue. Then, select the PSBT file you want to sign by navigating down or up. Perform Step 17 on that transaction.
 
-![30](assets/en/30.png)
+![30](assets/en/30.webp)
 
 19. Mk4 will now display the `PSBT Signed` message along with the name of the file of the signed PSBT. Press `✓` to continue.
 20. Remove the MicroSD card from the Coldcard and insert it into the device where Sparrow Wallet is installed.
 21. On Sparrow Wallet, click `Load Transaction`.
 
-![31](assets/en/31.png)
+![31](assets/en/31.webp)
 
 22. Select the file with the same name as the one created on Step 19.
 23. Click `Broadcast Transaction`.
 
-![32](assets/en/32.png)
+![32](assets/en/32.webp)
 
 24. Your transaction has been broadcast and it is being processed. You can go to the `Transactions` tab to view the confirmation status of your transaction.
 
-![33](assets/en/33.png)
+![33](assets/en/33.webp)
 
 ## Firmware Upgrade
 
@@ -274,8 +274,8 @@ Coldcard Mk4's firmware can always be upgraded to a newer version. To check whet
 2. Input your PIN.
 3. Go to `Advanced/Tools` > Select `Upgrade Firmware` > Select `Show Version`. Check the version displayed on Mk4's screen against the one on [Coinkite's website](https://coldcard.com/downloads). If the version is different, you are able to upgrade the firmware into the newer version.
 
-![34](assets/en/34.png)
-![35](assets/en/35.png)
+![34](assets/en/34.webp)
+![35](assets/en/35.webp)
 
 ### Upgrading your Firmware
 
@@ -284,20 +284,20 @@ If you want to upgrade the firmware to the latest version, do the following step
 1. Insert the MicroSD card into your laptop/PC.
 2. Go to [Coinkite's website](https://coldcard.com/downloads) and download the latest firmware to your MicroSD card (The red button right of the Mk4 image with the version number on it). You can also download other versions by clicking on `All Files on Mk4` and exploring the version you want to download. The downloaded file will be in `.dfu` format.
 
-![36](assets/en/36.png)
-![37](assets/en/37.png)
+![36](assets/en/36.webp)
+![37](assets/en/37.webp)
 
 3. Remove the MicroSD card and insert it into your Mk4.
 4. Turn on your Mk4 by connecting it to a power source.
 5. Input your PIN.
 6. Go to `Advanced/Tools` > Select `Upgrade Firmware` > Select `From MicroSD` > Scroll down as you read the instructions then press `✓`.
 
-![38](assets/en/38.png)
+![38](assets/en/38.webp)
 
 7. Select the `.dfu` file that you downloaded in Step 2.
 8. Coldcard Mk4 will display an `Install this new firmware?` message. Scroll down as you read the instructions then press `✓`.
 
-![39](assets/en/39.png)
+![39](assets/en/39.webp)
 
 9. Wait for the Mk4 to finish installing the new firmware. Do not disconnect the power source during the installation.
 10. Upon completion, Mk4 will restart itself. You may enter your PIN and perform the "Checking your Firmware Version" steps to check whether the firmware has been upgraded or not.
@@ -314,20 +314,20 @@ If you want to change your login PIN, simply perform the following steps:
 4. Go to `Settings` > Select `Login Settings` > Select `Change Main PIN`
 5. Navigate down as you read the message, then press `✓` to proceed.
 
-![40](assets/en/40.png)
+![40](assets/en/40.webp)
 
 6. Input your old PIN.
 7. Input your new PIN prefix (must be 2 to 6 characters long) and write it down.
 8. Mk4 will now display two new anti-phishing words, write them down, then press `✓` to proceed.
 9. Input your new PIN suffix (or rest of PIN, must be 2 to 6 characters long) and write it down.
 
-![41](assets/en/41.png)
+![41](assets/en/41.webp)
 
 10. Reenter your new PIN prefix.
 11. Check whether the anti-phishing words match the one you wrote in Step 8.
 12. Reenter your new PIN suffix (or rest of PIN).
 
-![42](assets/en/42.png)
+![42](assets/en/42.webp)
 
 13. Your PIN has successfully been changed.
 
@@ -340,13 +340,13 @@ A Trick PIN is an alternative PIN code distinct from the one you use to set up y
 3. Input your PIN.
 4. Go to `Settings` > Select `Login Settings` > Select `Trick PINs` > Select `Add New Trick`.
 
-![43](assets/en/43.png)
+![43](assets/en/43.webp)
 
 5. Input your trick PIN prefix (must be 2 to 6 characters long) and write it down.
 6. Mk4 will now display two new anti-phishing words, write them down, then press `✓` to proceed.
 7. Input your trick PIN suffix (or rest of PIN, must be 2 to 6 characters long) and write it down.
 
-![44](assets/en/44.png)
+![44](assets/en/44.webp)
 
 8. Navigate down or up to select the action you want to pair with the trick PIN you just created. The list of actions are:
     - `Brick Self`, when selected, your Mk4's chips will be destroyed after the PIN is entered, making your Mk4 to be unusable permanently.
@@ -367,7 +367,7 @@ A Trick PIN is an alternative PIN code distinct from the one you use to set up y
 9. After you have selected the action you want to pair with the trick PIN, confirm your choice by pressing `✓`. Your trick PIN is successfully configured.
 10. In the `Settings` > `Login Settings` > `Trick PINs`, you can see the list of trick PINs you have created and the actions paired with it. You can choose to reconfigure the trick PINs and the actions paired with it. You can also hide or delete it by selecting the PIN then select `Hide Trick` or `Delete Trick`. 
 
-![45](assets/en/45.png)
+![45](assets/en/45.webp)
 
 ### Trick PINs - Add If Wrong
 
@@ -377,7 +377,7 @@ Alternatively, you can add a `Add If Wrong` action that will be triggered after 
 2. Input your PIN.
 3. Go to `Settings` > Select `Login Settings` > Select `Trick PINs` > Select `Add If Wrong`.
 
-![46](assets/en/46.png)
+![46](assets/en/46.webp)
 
 4. Mk4 will display a message regarding this setting. Navigate down as you read through the explanation, then press `✓` to proceed.
 5. Input the number of wrong attempts required to trigger the action. Note: The maximum attempt count is `12`. This is because Mk4 is designed such that when the incorrect PIN is entered `13` times, the device will brick itself, making it unusable permanently. After you input the number, press `✓` to continue.
@@ -390,11 +390,11 @@ Alternatively, you can add a `Add If Wrong` action that will be triggered after 
    - `Just Reboot`: The device simply restarts and nothing else changes.
    Choose the action you want to apply and press `✓` to proceed
 
-![47](assets/en/47.png)
+![47](assets/en/47.webp)
 
 7. You will be brought back to the `Settings > Login Settings > Trick PINs` directory. Under the `Trick PINs:`, you will find the list of trick pins along with `WRONG PIN` action. You can also hide or delete it by selecting the PIN then select `Hide Trick` or `Delete Trick`. 
 
-![48](assets/en/48.png)
+![48](assets/en/48.webp)
 
 
 ## Closing Remarks

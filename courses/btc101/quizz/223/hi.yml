@@ -1,0 +1,9 @@
+question: Liquid पर उपयोग किए जाने वाले बिटकॉइन क्या कहलाते हैं?
+answer: L-BTC
+wrong_answers:
+  - W-BTC
+  - S-BTC
+  - T-BTC
+explanation: |
+  Liquid पर बिटकॉइन को L-BTC के रूप में दर्शाया जाता है, जो BTC से 1:1 अनुपात में जुड़े होते हैं।
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hva kalles bitcoinene som brukes på Liquid?
+answer: L-BTC
+wrong_answers:
+  - W-BTC
+  - S-BTC
+  - T-BTC
+explanation: |
+  På Liquid er bitcoin representert som L-BTC, bundet 1 til 1 til BTC.
+reviewed: false

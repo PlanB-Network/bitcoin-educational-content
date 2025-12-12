@@ -1,0 +1,9 @@
+question: Các bitcoin được sử dụng trên Liquid được gọi là gì?
+answer: L-BTC
+wrong_answers:
+  - W-BTC
+  - S-BTC
+  - T-BTC
+explanation: |
+  Trên Liquid, bitcoin được biểu diễn dưới dạng L-BTC, được neo theo tỷ lệ 1 đổi 1 với BTC.
+reviewed: false

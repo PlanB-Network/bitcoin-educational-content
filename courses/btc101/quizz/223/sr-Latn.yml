@@ -1,0 +1,9 @@
+question: Kako se zovu bitkoini koji se koriste na Liquidu?
+answer: L-BTC
+wrong_answers:
+  - W-BTC
+  - S-BTC
+  - T-BTC
+explanation: |
+  Na Liquidu su bitkoini predstavljeni kao L-BTC, vezani 1 prema 1 za BTC.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kuidas nimetatakse Liquidis kasutatavaid bitcoine?
+answer: L-BTC
+wrong_answers:
+  - W-BTC
+  - S-BTC
+  - T-BTC
+explanation: |
+  Liquidis on bitcoinid esindatud L-BTC-dena, mis on 1:1 seotud BTC-ga.
+reviewed: false

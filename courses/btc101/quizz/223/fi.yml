@@ -1,0 +1,9 @@
+question: Millä nimellä Liquidissa käytettäviä bitcoineja kutsutaan?
+answer: L-BTC
+wrong_answers:
+  - W-BTC
+  - S-BTC
+  - T-BTC
+explanation: |
+  Liquidissa bitcoinit esitetään L-BTC:nä, jotka on sidottu 1:1 suhteessa BTC:hen.
+reviewed: false

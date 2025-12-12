@@ -1,0 +1,9 @@
+question: Bitcoin zinazotumika kwenye Liquid zinaitwaje?
+answer: L-BTC
+wrong_answers:
+  - W-BTC
+  - S-BTC
+  - T-BTC
+explanation: |
+  Kwenye Liquid, bitcoin zinawakilishwa na L-BTC zilizounganishwa kwa uwiano wa 1 kwa 1 na BTC.
+reviewed: false

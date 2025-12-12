@@ -1,0 +1,9 @@
+question: Как называются биткоины, используемые в Liquid?
+answer: L-BTC
+wrong_answers:
+  - W-BTC
+  - S-BTC
+  - T-BTC
+explanation: |
+  В Liquid биткоины представлены в виде L-BTC, привязанных к BTC в соотношении 1 к 1.
+reviewed: false

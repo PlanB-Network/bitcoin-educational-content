@@ -1,0 +1,9 @@
+question: ¿Cómo se llaman los bitcoins utilizados en Liquid?
+answer: L-BTC
+wrong_answers:
+  - W-BTC
+  - S-BTC
+  - T-BTC
+explanation: |
+  En Liquid, los bitcoins están representados por L-BTC vinculados 1 a 1 con BTC.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Liquidで使用されるビットコインは何と呼ばれますか？
+answer: L-BTC
+wrong_answers:
+  - W-BTC
+  - S-BTC
+  - T-BTC
+explanation: |
+  Liquidでは、ビットコインはBTCと1対1で連動するL-BTCとして表現されます。
+reviewed: false

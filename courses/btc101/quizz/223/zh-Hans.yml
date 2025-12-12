@@ -1,0 +1,9 @@
+question: 在 Liquid 上使用的比特币叫什么？
+answer: L-BTC
+wrong_answers:
+  - W-BTC
+  - S-BTC
+  - T-BTC
+explanation: |
+  在 Liquid 上，比特币以 L-BTC 的形式表示，并与 BTC 以 1 比 1 锚定。
+reviewed: false

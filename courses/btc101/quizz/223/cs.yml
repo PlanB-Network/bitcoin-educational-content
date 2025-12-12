@@ -1,0 +1,9 @@
+question: Jak se nazývají bitcoiny používané na Liquid?
+answer: L-BTC
+wrong_answers:
+  - W-BTC
+  - S-BTC
+  - T-BTC
+explanation: |
+  Na Liquid jsou bitcoiny reprezentovány jako L-BTC, navázané v poměru 1 ku 1 na BTC.
+reviewed: false

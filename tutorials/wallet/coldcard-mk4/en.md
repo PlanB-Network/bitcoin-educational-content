@@ -196,7 +196,7 @@ If you want to upgrade the firmware to the latest version, do the following step
 5. Input your PIN.
 6. Go to `Advanced/Tools` > Select `Upgrade Firmware` > Select `From MicroSD` > Scroll down as you read the instructions then press `✓`.
 7. Select the `.dfu` file that you downloaded in Step 2.
-8. Coldcard Mk4 will display a `Install this new firmware?` message. Scroll down as you read the instructions then press `✓`.
+8. Coldcard Mk4 will display an `Install this new firmware?` message. Scroll down as you read the instructions then press `✓`.
 9. Wait for the Mk4 to finish installing the new firmware. Do not disconnect the power source during the installation.
 10. Upon completion, Mk4 will restart itself. You may enter your PIN and perform the "Checking your Firmware Version" steps to check whether the firmware has been upgraded or not.
 

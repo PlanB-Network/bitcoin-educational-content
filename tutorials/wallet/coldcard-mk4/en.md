@@ -184,7 +184,7 @@ In this tutorial, we will use Sparrow Wallet as the interface. The procedure to 
 6. Open Sparrow Wallet.
 7. Click `File` > `New Wallet` > Input the name for the wallet > Click `Create Wallet`
 
-![21](assets/en/21.png)
+![22](assets/en/22.png)
 
 8. Select the `Script Type`.
 9. On the Keystore section, select `Airgapped Hardware Wallet`.

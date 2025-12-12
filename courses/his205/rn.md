@@ -208,7 +208,7 @@ Rero, ng’iyi iyi nsiguro y’amateka kugira ngo iduhe iciyumviro ku bijanye n�
 
 
 
-## Kuva ku Muhigi-Umukoranirizi gushika ku Murimyi: Umuseke w'Ubutekerezi
+## Kuva mugihe cabahigi gushika ku Murimyi: Umuseke w'Ubutekerezi
 
 
 <chapterId>ea950b6e-9eb7-553d-8f04-0eb042bb1f5a</chapterId>
@@ -216,23 +216,23 @@ Rero, ng’iyi iyi nsiguro y’amateka kugira ngo iduhe iciyumviro ku bijanye n�
 
 :::video id=4b49a376-f6f4-42a0-86fa-264997a079f0:::
 
-### Guhindukira mu buhinzi no kwicara .
+### Guhindukira uva kubahigi bakera uja kubantu bari hamwe.
 
 
 
-Muri iki gice, turaza kuvuga ku bijanye n’uguhinduka kuva mu guhigira no gukorakoranya ibintu, tukaja mu buhinzi bwo kwibeshaho, ubuhinga n’ubudandaji. Narumvise ko ari ngirakamaro gusigura iyo mpinduka y’ubuzima bwo kwicara n’uburimyi, kugira ngo ntahure ingene ibisagara vya mbere vyubatswe, ivyo bikaba vyatumye amaherezo habaho irema n’uguseruka kw’uburyo bumwe bumwe bw’amahera mu bihe vya kera.
+Muri iki gice, turaza kuvuga ku bijanye n’uguhinduka kuva kubuhigi, tukaja mu kurima kugira abantu babebeho, ubuhinga n’ubudandaji. Narumvise ko ari ngirakamaro gusigura iyo mpinduka y’ubuzima bwo kuguma hamwe n’uburimyi, kugira ngo ntahure ingene ibisagara vya mbere vyubatswe, ivyo bikaba vyatumye amaherezo habaho irema n’uguseruka kw’uburyo bumwe bumwe bw’amahera mu bihe vya kera.
 
 
 
-Iki gice ni igice c’inyigisho iri ku rubuga rwa The Great Courses yitwa Mezopotamiya ya kera, Ubuzima mu nzira y’ubuhinga, yatanzwe na Porofeseri Amanda Podany wo muri Kaminuza ya Leta ya California, i Ponoma.
+Iki gice ni igice c’inyigisho iri ku rubuga rwa The Great Courses yitwa mucongereza Ancient Mesopotamia,Life in the Cradle of Civilization, yatanzwe na Porofeseri Amanda Podany wo muri Kaminuza ya Leta ya California, i Ponoma.
 
 
 
-### Ibintu bitari vyo vyo kwemera uburimyi
+### Ibintu bitemerwa igihe uburimyi bwatangura
 
 
 
-Ubuhinzi bwa kera bwabonetse ubu hakaba haciye nk’imyaka 10.500 mu Buseruko bwa hafi, hafi y’uburaruko bushira uburengero bwa Siriya no mu bumanuko bwa Turukiya. Muri iki gihe, imigwi y’abahigi n’abakoranirizi bo muri iki gihe ntiyihutira gufata uburimyi, kandi birashoboka ko ari ko vyari vyifashe mu kiringo c’Ivya kera.
+Ubuhinzi bwa kera bwabonetse ubu hakaba haciye nk’imyaka 10.500 mu Buseruko bwisi, hafi y’uburaruko bushira uburengero bwa Siriya no mu bumanuko bwa Turukiya. Muri iki gihe, imigwi y’abahigi n’abakoranirizi bo mugihe gishasha ntiyihutira gufata uburimyi, kandi birashoboka ko ari ko vyari vyifashe mu kiringo ca Néolithique.
 
 
 
@@ -252,7 +252,7 @@ Ivyigwa vyerekeye amagufa vyerekana kandi ko abarimyi ba mbere bari batoyi kandi
 
 
 
-Abakurikiza ivy'ukurya vya "keto" bazovyemera: kurya umukate mwinshi birashoboka ko atari vyiza nk'ukurya inyama.
+Abakurikiza ivy'ukurya vya "keto" bazovyemera: kurya umukate cane birashoboka ko atari vyiza kuruta kurya inyama.
 
 
 

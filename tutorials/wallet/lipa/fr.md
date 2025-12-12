@@ -49,7 +49,7 @@ L'application présente ensuite ses principales fonctionnalités à travers une 
 
 - **Contrôle des données analytiques** : La transparence et la confidentialité étant primordiales, les utilisateurs peuvent consulter les types de données collectées et choisir leurs préférences de partage.
 
-- **Envoi via numéro de téléphone** : Plus besoin d'adresses complexes - sélectionnez simplement un contact, entrez le montant, et envoyez des bitcoins directement vers leur numéro de téléphone.
+- **Envoi via numéro de téléphone** : Plus besoin d'adresses complexes, sélectionnez simplement un contact, entrez le montant, et envoyez des bitcoins directement vers leur numéro de téléphone.
 
 L'application bénéficie également d'améliorations continues en termes de stabilité, de sécurité et de fiabilité pour garantir une expérience utilisateur optimale.
 
@@ -118,7 +118,7 @@ Après l'écran de chargement, vous allez retrouver la référence qu'il faudra 
 
 ![Sélection du montant](assets/fr/09.webp)
 
-Enfin vous n'avez plus qu'à utiliser votre banque pour effectuer le virement du montant désiré, paramétrer le transfert en indiquant le RIB précédemment récupéré ainsi que d'indiquer la référence au moment de la transaction pour que Lipa puisse associer ce mouvement bancaire à votre wallet Lipa.
+Enfin vous n'avez plus qu'à utiliser votre banque pour effectuer le virement du montant désiré, paramétrer le transfert en indiquant le RIB précédemment récupéré ainsi qu'indiquer la référence au moment de la transaction pour que Lipa puisse associer ce mouvement bancaire à votre wallet Lipa.
 
 ![Confirmation d'achat](assets/fr/10.webp)
 

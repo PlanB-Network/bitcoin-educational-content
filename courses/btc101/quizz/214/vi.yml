@@ -1,0 +1,9 @@
+question: Trong các thao tác Lightning sau, thao tác nào được ghi nhận onchain?
+answer: Mở kênh
+wrong_answers:
+  - Thanh toán trung gian
+  - Cập nhật trạng thái
+  - Định tuyến nhiều chặng
+explanation: |
+  Chỉ việc mở và đóng một kênh Lightning mới tương ứng với các giao dịch Bitcoin được công bố trên blockchain.
+reviewed: false

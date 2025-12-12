@@ -1,0 +1,9 @@
+question: Která z těchto operací na Lightning je zaznamenána onchain?
+answer: Otevření kanálu
+wrong_answers:
+  - Zprostředkovaná platba
+  - Aktualizace stavu
+  - Směrování s více skoky
+explanation: |
+  Pouze otevření a uzavření Lightning kanálu odpovídají bitcoinovým transakcím zveřejněným na blockchainu.
+reviewed: false

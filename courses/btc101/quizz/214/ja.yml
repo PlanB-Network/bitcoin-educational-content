@@ -1,0 +1,9 @@
+question: 次のうち、Lightningのどの操作がオンチェーンに記録されますか？
+answer: チャネルの開設
+wrong_answers:
+  - 中間支払い
+  - 状態の更新
+  - マルチホップルーティング
+explanation: |
+  Lightningチャネルの開設と閉鎖のみが、ブロックチェーン上に公開されるビットコイン取引に該当します。
+reviewed: false

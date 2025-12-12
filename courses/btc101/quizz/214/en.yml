@@ -1,0 +1,9 @@
+question: Which of these Lightning operations is recorded onchain?
+answer: Channel opening
+wrong_answers:
+  - Intermediate payment
+  - State update
+  - Multi-hop routing
+explanation: |
+  Only the opening and closing of a Lightning channel correspond to Bitcoin transactions published on the blockchain.
+reviewed: false

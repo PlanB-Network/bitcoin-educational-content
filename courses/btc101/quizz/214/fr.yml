@@ -1,0 +1,9 @@
+question: Laquelle de ces opérations sur Lightning est enregistrée onchain ?
+answer: Ouverture de canal
+wrong_answers:
+  - Paiement intermédiaire
+  - Mise à jour d’état
+  - Routage multi-sauts
+explanation: |
+  Seules l’ouverture et la fermeture d’un canal Lightning correspondent à des transactions Bitcoin publiées sur la blockchain.
+reviewed: false

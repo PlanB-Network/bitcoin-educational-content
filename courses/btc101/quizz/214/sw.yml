@@ -1,0 +1,9 @@
+question: Ni lipi kati ya operesheni hizi za Lightning linalorekodiwa onchain?
+answer: Kufungua kituo
+wrong_answers:
+  - Malipo ya kati
+  - Usasishaji wa hali
+  - Uelekezaji wa hatua nyingi
+explanation: |
+  Ni kufungua na kufunga kituo cha Lightning pekee ndiko kunalingana na miamala ya Bitcoin inayochapishwa kwenye blockchain.
+reviewed: false

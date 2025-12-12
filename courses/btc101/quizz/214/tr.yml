@@ -1,0 +1,9 @@
+question: Lightning üzerindeki bu işlemlerden hangisi onchain olarak kaydedilir?
+answer: Kanal açılışı
+wrong_answers:
+  - Ara ödeme
+  - Durum güncellemesi
+  - Çok atlamalı yönlendirme
+explanation: |
+  Yalnızca bir Lightning kanalının açılması ve kapatılması, blokzincirde yayımlanan Bitcoin işlemlerine karşılık gelir.
+reviewed: false

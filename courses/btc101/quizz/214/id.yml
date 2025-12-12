@@ -1,0 +1,9 @@
+question: Operasi Lightning mana dari berikut ini yang dicatat onchain?
+answer: Pembukaan kanal
+wrong_answers:
+  - Pembayaran perantara
+  - Pembaruan status
+  - Perutean multi-hop
+explanation: |
+  Hanya pembukaan dan penutupan kanal Lightning yang sesuai dengan transaksi Bitcoin yang dipublikasikan di blockchain.
+reviewed: false

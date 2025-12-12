@@ -1,0 +1,9 @@
+question: Milline neist Lightningi toimingutest salvestatakse onchain?
+answer: Kanali avamine
+wrong_answers:
+  - Vahepealne makse
+  - Oleku värskendamine
+  - Mitme hüppega marsruutimine
+explanation: |
+  Ainult Lightningi kanali avamine ja sulgemine vastavad Bitcoini tehingutele, mis avaldatakse plokiahelas.
+reviewed: false

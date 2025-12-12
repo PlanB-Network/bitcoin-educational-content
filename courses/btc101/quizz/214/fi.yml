@@ -1,0 +1,9 @@
+question: Mikä näistä Lightning-toiminnoista kirjataan onchain?
+answer: Kanavan avaaminen
+wrong_answers:
+  - Välimaksu
+  - Tilan päivitys
+  - Monihyppyreititys
+explanation: |
+  Vain Lightning-kanavan avaaminen ja sulkeminen vastaavat Bitcoin-siirtoja, jotka julkaistaan lohkoketjussa.
+reviewed: false

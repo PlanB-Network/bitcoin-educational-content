@@ -1,0 +1,9 @@
+question: 以下哪一項 Lightning 操作會被記錄在鏈上？
+answer: 通道開啟
+wrong_answers:
+  - 中間支付
+  - 狀態更新
+  - 多跳路由
+explanation: |
+  只有 Lightning 通道的開啟與關閉才對應於發佈在區塊鏈上的比特幣交易。
+reviewed: false

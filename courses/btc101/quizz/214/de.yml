@@ -1,0 +1,9 @@
+question: Welche dieser Lightning-Operationen wird onchain erfasst?
+answer: Kanalöffnung
+wrong_answers:
+  - Zwischenzahlung
+  - Statusaktualisierung
+  - Mehrsprung-Routing
+explanation: |
+  Nur die Öffnung und die Schließung eines Lightning-Kanals entsprechen Bitcoin-Transaktionen, die auf der Blockchain veröffentlicht werden.
+reviewed: false

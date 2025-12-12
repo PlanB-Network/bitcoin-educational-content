@@ -1,0 +1,9 @@
+question: Koja od ovih Lightning operacija se beleži onchain?
+answer: Otvaranje kanala
+wrong_answers:
+  - Posredničko plaćanje
+  - Ažuriranje stanja
+  - Rutiranje sa više skokova
+explanation: |
+  Samo otvaranje i zatvaranje Lightning kanala odgovaraju Bitcoin transakcijama objavljenim na blokčejnu.
+reviewed: false

@@ -28,16 +28,19 @@ If there are no problems with the packaging, you may open the bag. The Mk4 will 
 1. Prepare a piece of paper and a pen.
 2. Connect the Mk4 to a power source (USB-C cable) and insert the MicroSD card. 
 3. Once the device is powered up for the first time, the screen will display a message regarding Coldcard's Terms of Sale and Use. Navigate down, then press `✓` to continue.
-4. Next, a 12-digit number will be displayed on the screen. Check this number against the one on the tamper-evident bag to ensure the device has not been tampered with. If the numbers do not match, contact Coinkite support immediately before proceeding. Otherwise, press `✓` to continue. 
-5. Select `Choose PIN Code`.
-6. Navigate down as you read the instructions to proceed to the next step.
-7. On the Mk4, create and enter the PIN prefix (must be 2 to 6 characters long) and write it down, then press `✓` to continue.
-8. Write down the two words displayed at the screen. These are the anti-phishing words. Press `✓` to continue.
-9. Create and enter the PIN suffix (or rest of PIN, must be 2 to 6 characters long) and write it down. Press `✓` to continue.
-10. Reenter your PIN prefix. Press `✓` to continue.
-11. Check whether the anti-phishing words are the same with the one you wrote on step 8. Press `✓` to continue.
-12. Reenter your PIN suffix (or rest of PIN). Press `✓` to continue.
-13. Your Mk4's PIN and anti-phishing words are now successfully created and stored by the device.
+4. Next, a 12-digit number will be displayed on the screen. Check this number against the one on the tamper-evident bag to ensure the device has not been tampered with. If the numbers do not match, contact Coinkite support immediately before proceeding. Otherwise, press `✓` to continue.
+
+![02](assets/en/02.png)
+
+6. Select `Choose PIN Code`.
+7. Navigate down as you read the instructions to proceed to the next step.
+8. On the Mk4, create and enter the PIN prefix (must be 2 to 6 characters long) and write it down, then press `✓` to continue.
+9. Write down the two words displayed at the screen. These are the anti-phishing words. Press `✓` to continue.
+10. Create and enter the PIN suffix (or rest of PIN, must be 2 to 6 characters long) and write it down. Press `✓` to continue.
+11. Reenter your PIN prefix. Press `✓` to continue.
+12. Check whether the anti-phishing words are the same with the one you wrote on step 8. Press `✓` to continue.
+13. Reenter your PIN suffix (or rest of PIN). Press `✓` to continue.
+14. Your Mk4's PIN and anti-phishing words are now successfully created and stored by the device.
 
 Note that Mk4 will always ask you to input your PIN each time you switch your device on. Without this PIN, you are not able to access your Coldcard Mk4. So make sure that you create sufficient backup for the PIN and anti-phishing words.
 

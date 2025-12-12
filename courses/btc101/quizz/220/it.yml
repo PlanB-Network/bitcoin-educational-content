@@ -1,0 +1,9 @@
+question: Quale meccanismo collega una sidechain a Bitcoin?
+answer: Ancoraggio bidirezionale
+wrong_answers:
+  - Canale di pagamento
+  - Proof of Stake
+  - Sharding
+explanation: |
+  Il meccanismo di two-way peg consente di bloccare i BTC su Bitcoin e rappresentarli sulla sidechain.
+reviewed: false

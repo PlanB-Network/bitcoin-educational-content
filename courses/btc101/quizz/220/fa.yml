@@ -1,0 +1,9 @@
+question: کدام سازوکار یک سایدچین را به بیت‌کوین متصل می‌کند؟
+answer: اتصال دوطرفه
+wrong_answers:
+  - کانال پرداخت
+  - Proof of Stake
+  - شاردینگ
+explanation: |
+  سازوکار two-way peg امکان قفل‌کردن BTC در بیت‌کوین و نمایش آن‌ها در سایدچین را فراهم می‌کند.
+reviewed: false

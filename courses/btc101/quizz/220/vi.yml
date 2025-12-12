@@ -1,0 +1,9 @@
+question: Cơ chế nào liên kết một sidechain với Bitcoin?
+answer: Neo hai chiều
+wrong_answers:
+  - Kênh thanh toán
+  - Proof of Stake
+  - Sharding
+explanation: |
+  Cơ chế two-way peg cho phép khóa BTC trên Bitcoin và biểu diễn chúng trên sidechain.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quel mécanisme relie une sidechain à Bitcoin ?
+answer: Ancrage bilatéral
+wrong_answers:
+  - Canal de paiement
+  - Proof of Stake
+  - Sharding
+explanation: |
+  Le mécanisme de two-way peg permet de verrouiller des BTC sur Bitcoin et de les représenter sur la sidechain.
+reviewed: false

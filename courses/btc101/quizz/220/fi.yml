@@ -1,0 +1,9 @@
+question: Mikä mekanismi yhdistää sidechainin Bitcoiniin?
+answer: Kaksisuuntainen ankkurointi
+wrong_answers:
+  - Maksukanava
+  - Proof of Stake
+  - Sharding
+explanation: |
+  Two-way peg -mekanismi mahdollistaa BTC:n lukitsemisen Bitcoiniin ja niiden esittämisen sidechainissa.
+reviewed: false

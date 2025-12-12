@@ -1,0 +1,9 @@
+question: Vilken fördel erbjuder Ark jämfört med Lightning för mottagning av betalningar?
+answer: Ingen behov av inkommande likviditet
+wrong_answers:
+  - Omedelbar betalningsfinalitet
+  - Inga transaktionsavgifter
+  - Inget behov av en plånbok
+explanation: |
+  Ark gör det möjligt att ta emot betalningar utan att i förväg ha inkommande likviditet.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaki mechanizm łączy sidechain z Bitcoinem?
+answer: Dwukierunkowe zakotwiczenie
+wrong_answers:
+  - Kanał płatności
+  - Proof of Stake
+  - Sharding
+explanation: |
+  Mechanizm two-way peg pozwala zablokować BTC w Bitcoinie i reprezentować je na sidechainie.
+reviewed: false

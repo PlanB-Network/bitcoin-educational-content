@@ -1,0 +1,9 @@
+question: कौन-सा तंत्र एक साइडचेन को Bitcoin से जोड़ता है?
+answer: द्विदिश एंकरिंग
+wrong_answers:
+  - भुगतान चैनल
+  - Proof of Stake
+  - शार्डिंग
+explanation: |
+  two-way peg तंत्र Bitcoin पर BTC को लॉक करने और उन्हें साइडचेन पर दर्शाने की अनुमति देता है।
+reviewed: false

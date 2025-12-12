@@ -1,0 +1,9 @@
+question: 哪种机制将侧链与比特币连接起来？
+answer: 双向锚定
+wrong_answers:
+  - 支付通道
+  - Proof of Stake
+  - 分片
+explanation: |
+  two-way peg 机制允许将 BTC 锁定在比特币上，并在侧链上进行表示。
+reviewed: false

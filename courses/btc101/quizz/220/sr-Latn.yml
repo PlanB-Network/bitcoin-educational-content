@@ -1,0 +1,9 @@
+question: Koji mehanizam povezuje sidechain sa Bitcoinom?
+answer: Dvosmerno sidrenje
+wrong_answers:
+  - Platni kanal
+  - Proof of Stake
+  - Sharding
+explanation: |
+  Mehanizam two-way peg omogućava zaključavanje BTC-a na Bitcoinu i njihovo predstavljanje na sidechainu.
+reviewed: false

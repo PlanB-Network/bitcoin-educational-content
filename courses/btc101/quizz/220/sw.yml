@@ -1,0 +1,9 @@
+question: Ni utaratibu gani unaounganisha sidechain na Bitcoin?
+answer: Nanga ya pande mbili
+wrong_answers:
+  - Njia ya malipo
+  - Proof of Stake
+  - Sharding
+explanation: |
+  Utaratibu wa two-way peg huruhusu kufunga BTC kwenye Bitcoin na kuziwakilisha kwenye sidechain.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 哪種機制將側鏈與比特幣連結起來？
+answer: 雙向錨定
+wrong_answers:
+  - 支付通道
+  - Proof of Stake
+  - 分片
+explanation: |
+  two-way peg 機制允許將 BTC 鎖定在比特幣上，並在側鏈上進行表示。
+reviewed: false

@@ -1,0 +1,9 @@
+question: サイドチェーンをBitcoinに接続する仕組みはどれですか？
+answer: 双方向ペッグ
+wrong_answers:
+  - 支払いチャネル
+  - Proof of Stake
+  - シャーディング
+explanation: |
+  two-way peg の仕組みにより、BTCをBitcoin上でロックし、サイドチェーン上で表現できます。
+reviewed: false

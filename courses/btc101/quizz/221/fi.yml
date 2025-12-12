@@ -1,0 +1,9 @@
+question: Minkä edun Ark tarjoaa Lightningiin verrattuna maksujen vastaanottamisessa?
+answer: Sisääntulevaa likviditeettiä ei tarvita
+wrong_answers:
+  - Maksun välitön lopullisuus
+  - Ei transaktiomaksuja
+  - Lompakkoa ei tarvita
+explanation: |
+  Ark mahdollistaa maksujen vastaanottamisen ilman etukäteen saatavilla olevaa sisääntulevaa likviditeettiä.
+reviewed: false

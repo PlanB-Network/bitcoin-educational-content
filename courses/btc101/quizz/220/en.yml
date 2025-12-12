@@ -1,0 +1,9 @@
+question: Which mechanism links a sidechain to Bitcoin?
+answer: Two-way peg
+wrong_answers:
+  - Payment channel
+  - Proof of Stake
+  - Sharding
+explanation: |
+  The two-way peg mechanism allows BTC to be locked on Bitcoin and represented on the sidechain.
+reviewed: false

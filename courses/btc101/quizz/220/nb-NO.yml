@@ -1,0 +1,9 @@
+question: Hvilken mekanisme knytter en sidechain til Bitcoin?
+answer: Toveis forankring
+wrong_answers:
+  - Betalingskanal
+  - Proof of Stake
+  - Sharding
+explanation: |
+  Two-way peg-mekanismen gjør det mulig å låse BTC på Bitcoin og representere dem på sidechainen.
+reviewed: false

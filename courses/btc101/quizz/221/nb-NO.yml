@@ -1,0 +1,9 @@
+question: Hvilken fordel tilbyr Ark sammenlignet med Lightning for mottak?
+answer: Ingen behov for innkommende likviditet
+wrong_answers:
+  - Umiddelbar betalingsfinalitet
+  - Ingen transaksjonsgebyrer
+  - Ingen behov for å ha en lommebok
+explanation: |
+  Ark gjør det mulig å motta betalinger uten å ha innkommende likviditet på forhånd.
+reviewed: false

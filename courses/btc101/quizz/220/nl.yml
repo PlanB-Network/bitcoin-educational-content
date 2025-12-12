@@ -1,0 +1,9 @@
+question: Welk mechanisme verbindt een sidechain met Bitcoin?
+answer: Tweezijdige verankering
+wrong_answers:
+  - Betalingskanaal
+  - Proof of Stake
+  - Sharding
+explanation: |
+  Het two-way peg-mechanisme maakt het mogelijk om BTC op Bitcoin te vergrendelen en ze op de sidechain te representeren.
+reviewed: false

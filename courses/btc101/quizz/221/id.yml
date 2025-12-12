@@ -1,0 +1,9 @@
+question: Keunggulan apa yang ditawarkan Ark dibandingkan Lightning untuk penerimaan pembayaran?
+answer: Tidak memerlukan likuiditas masuk
+wrong_answers:
+  - Finalitas pembayaran instan
+  - Tidak ada biaya transaksi
+  - Tidak perlu memiliki dompet
+explanation: |
+  Ark memungkinkan menerima pembayaran tanpa harus memiliki likuiditas masuk terlebih dahulu.
+reviewed: false

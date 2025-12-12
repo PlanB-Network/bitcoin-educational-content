@@ -1,0 +1,9 @@
+question: Ödeme alma açısından Ark, Lightning’e kıyasla hangi avantajı sunar?
+answer: Gelen likiditeye ihtiyaç olmaması
+wrong_answers:
+  - Ödemenin anında kesinleşmesi
+  - İşlem ücretlerinin olmaması
+  - Cüzdana ihtiyaç duyulmaması
+explanation: |
+  Ark, önceden gelen likiditeye sahip olmadan ödeme alınmasına olanak tanır.
+reviewed: false

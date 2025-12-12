@@ -1,0 +1,9 @@
+question: Quale vantaggio offre Ark rispetto a Lightning per la ricezione dei pagamenti?
+answer: Nessuna necessità di liquidità in entrata
+wrong_answers:
+  - Finalità immediata del pagamento
+  - Assenza di commissioni di transazione
+  - Nessun bisogno di avere un wallet
+explanation: |
+  Ark consente di ricevere pagamenti senza disporre in anticipo di liquidità in entrata.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaký mechanismus propojuje sidechain s Bitcoinem?
+answer: Obousměrné ukotvení
+wrong_answers:
+  - Platební kanál
+  - Proof of Stake
+  - Sharding
+explanation: |
+  Mechanismus two-way peg umožňuje uzamknout BTC v Bitcoinu a reprezentovat je na sidechainu.
+reviewed: false

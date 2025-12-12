@@ -1,0 +1,9 @@
+question: Millist eelist pakub Ark Lightningi ees maksete vastuvõtmisel?
+answer: Sisenevat likviidsust ei ole vaja
+wrong_answers:
+  - Makse kohene lõplikkus
+  - Tehingutasude puudumine
+  - Rahakotti pole vaja
+explanation: |
+  Ark võimaldab makseid vastu võtta ilma eelneva siseneva likviidsuseta.
+reviewed: false

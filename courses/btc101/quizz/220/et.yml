@@ -1,0 +1,9 @@
+question: Milline mehhanism ühendab sidechain’i Bitcoiniga?
+answer: Kahepoolne ankurdamine
+wrong_answers:
+  - Maksekanal
+  - Proof of Stake
+  - Sharding
+explanation: |
+  Two-way peg mehhanism võimaldab BTC-d Bitcoinis lukustada ja neid sidechain’is esitada.
+reviewed: false

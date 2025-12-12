@@ -1,0 +1,9 @@
+question: Mekanisme apa yang menghubungkan sebuah sidechain ke Bitcoin?
+answer: Penjangkaran dua arah
+wrong_answers:
+  - Saluran pembayaran
+  - Proof of Stake
+  - Sharding
+explanation: |
+  Mekanisme two-way peg memungkinkan BTC dikunci di Bitcoin dan direpresentasikan di sidechain.
+reviewed: false

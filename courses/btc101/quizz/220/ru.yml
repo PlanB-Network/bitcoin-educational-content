@@ -1,0 +1,9 @@
+question: Какой механизм связывает сайдчейн с Биткойном?
+answer: Двусторонняя привязка
+wrong_answers:
+  - Платёжный канал
+  - Proof of Stake
+  - Шардинг
+explanation: |
+  Механизм two-way peg позволяет заблокировать BTC в сети Bitcoin и представить их на сайдчейне.
+reviewed: false

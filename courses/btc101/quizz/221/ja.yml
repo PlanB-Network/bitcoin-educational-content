@@ -1,0 +1,9 @@
+question: 受け取りにおいて、Ark は Lightning と比べてどのような利点がありますか？
+answer: インバウンド流動性が不要
+wrong_answers:
+  - 支払いの即時確定
+  - 取引手数料が不要
+  - ウォレットが不要
+explanation: |
+  Ark は、事前にインバウンドの流動性を用意せずに支払いを受け取ることを可能にします。
+reviewed: false

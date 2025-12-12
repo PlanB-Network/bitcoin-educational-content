@@ -1,0 +1,9 @@
+question: Apa prinsip utama RGB?
+answer: Validasi sisi klien
+wrong_answers:
+  - Eksekusi global di blockchain
+  - Konsensus terfederasi
+  - Proof-of-Work
+explanation: |
+  RGB bergantung pada validasi lokal atas status, dengan blockchain hanya berfungsi sebagai jangkar kriptografis dan perlindungan terhadap pengeluaran ganda.
+reviewed: false

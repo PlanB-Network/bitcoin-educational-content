@@ -1,0 +1,9 @@
+question: Mis on RGB keskne põhimõte?
+answer: Kliendipoolne valideerimine
+wrong_answers:
+  - Globaalne täitmine plokiahelas
+  - Föderatiivne konsensus
+  - Proof-of-Work
+explanation: |
+  RGB tugineb olekute lokaalsele valideerimisele, kusjuures plokiahel toimib üksnes krüptograafilise ankru ja topeltkulutamise vastase kaitsena.
+reviewed: false

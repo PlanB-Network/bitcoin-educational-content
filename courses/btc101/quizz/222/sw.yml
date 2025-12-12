@@ -1,0 +1,9 @@
+question: Ni kanuni ipi kuu ya RGB?
+answer: Uthibitishaji upande wa mteja
+wrong_answers:
+  - Utekelezaji wa kimataifa kwenye blockchain
+  - Makubaliano ya shirikisho
+  - Proof-of-Work
+explanation: |
+  RGB inategemea uthibitishaji wa hali za ndani, huku blockchain ikitumika tu kama nanga ya kriptografia na ulinzi dhidi ya matumizi mara mbili.
+reviewed: false

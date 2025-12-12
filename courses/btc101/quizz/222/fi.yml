@@ -1,0 +1,9 @@
+question: Mikä on RGB:n keskeinen periaate?
+answer: Asiakaspuolen validointi
+wrong_answers:
+  - Globaali suoritus lohkoketjussa
+  - Federatiivinen konsensus
+  - Proof-of-Work
+explanation: |
+  RGB perustuu tilojen paikalliseen validointiin, ja lohkoketju toimii vain kryptografisena ankkurina ja suojana kaksinkertaista kulutusta vastaan.
+reviewed: false

@@ -1,0 +1,9 @@
+question: RGB’nin merkezi ilkesi nedir?
+answer: İstemci tarafı doğrulama
+wrong_answers:
+  - Blokzincir üzerinde küresel yürütme
+  - Federatif uzlaşma
+  - Proof-of-Work
+explanation: |
+  RGB, durumların yerel doğrulanmasına dayanır; blokzincir yalnızca kriptografik bir çapa ve çift harcamaya karşı koruma olarak hizmet eder.
+reviewed: false

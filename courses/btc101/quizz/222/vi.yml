@@ -1,0 +1,9 @@
+question: Nguyên tắc trung tâm của RGB là gì?
+answer: Xác thực phía máy khách
+wrong_answers:
+  - Thực thi toàn cục trên blockchain
+  - Đồng thuận liên bang
+  - Proof-of-Work
+explanation: |
+  RGB dựa trên việc xác thực cục bộ các trạng thái, trong đó blockchain chỉ đóng vai trò là mỏ neo mật mã và bảo vệ chống lại việc chi tiêu hai lần.
+reviewed: false

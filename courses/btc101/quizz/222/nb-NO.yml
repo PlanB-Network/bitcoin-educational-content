@@ -1,0 +1,9 @@
+question: Hva er det sentrale prinsippet i RGB?
+answer: Klientside-validering
+wrong_answers:
+  - Global kjøring på blokkjeden
+  - Føderert konsensus
+  - Proof-of-Work
+explanation: |
+  RGB er basert på lokal validering av tilstander, der blokkjeden kun fungerer som et kryptografisk anker og beskyttelse mot dobbeltbruk.
+reviewed: false

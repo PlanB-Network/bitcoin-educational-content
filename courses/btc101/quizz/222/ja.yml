@@ -1,0 +1,9 @@
+question: RGBの中核となる原則は何ですか？
+answer: クライアント側検証
+wrong_answers:
+  - ブロックチェーン上でのグローバル実行
+  - フェデレーテッド・コンセンサス
+  - Proof-of-Work
+explanation: |
+  RGBは状態のローカル検証に基づいており、ブロックチェーンは暗号学的なアンカーおよび二重支出に対する保護としてのみ機能します。
+reviewed: false

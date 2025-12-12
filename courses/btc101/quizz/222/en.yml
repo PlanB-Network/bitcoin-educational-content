@@ -1,0 +1,9 @@
+question: What is the central principle of RGB?
+answer: Client-side validation
+wrong_answers:
+  - Global execution on the blockchain
+  - Federated consensus
+  - Proof-of-Work
+explanation: |
+  RGB relies on local validation of states, with the blockchain serving only as a cryptographic anchor and protection against double spending.
+reviewed: false

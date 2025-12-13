@@ -1,6 +1,6 @@
 ---
 name: Coldcard Mk4
-description: A guide to setting up and using Coldcard Mk4
+description: A guide to set up and use a Coldcard Mk4 with Sparrow Wallet
 ---
 
 ![cover-mk4](assets/cover.webp)
@@ -15,7 +15,7 @@ Coldcard Mk4 is a Bitcoin-only hardware wallet manufactured by Coinkite. This de
 
 ## Initial Setup: PIN and Anti-Phishing Words
 
-To get started, the Coldcard Mk4 can be purchased directly from [Coinkite's website](https://store.coinkite.com/store). Buyers can also choose to pay using fiat currency or Bitcoin. In addition, you will also need a MicroSD card (4GB is sufficient) and a power source that can be connected via USB-C cable (the Coldcard Mk4 only has a USB-C power input port). Note that since the Mk4 does not have a built-in battery, it must be connected to the power source at all times while being used.
+To get started, the Coldcard Mk4 can be purchased directly from [Coinkite's website](https://store.coinkite.com/store). Buyers can also choose to pay using fiat currency or Bitcoin. In addition, you will also need a MicroSD card (4 GB is sufficient) and a power source that can be connected via USB-C cable (the Coldcard Mk4 only has a USB-C power input port). Note that since the Mk4 does not have a built-in battery, it must be connected to the power source at all times while being used.
 
 You will receive your Mk4 in a tamper-evident bag. Please ensure that the bag has not been compromised. If you spot something that may be a problem such as damage or tear on the bag, you can inform Coinkite by sending an email to support@coinkite.com. In addition, you can also find a 12-digit number on the tamper-evident bag, which we will refer to as the Mk4's bag number. This bag number will be used later to verify that the device has not been tampered with during shipping and that it comes directly from Coinkite. 
 
@@ -275,6 +275,7 @@ Coldcard Mk4's firmware can always be upgraded to a newer version. To check whet
 3. Go to `Advanced/Tools` > Select `Upgrade Firmware` > Select `Show Version`. Check the version displayed on Mk4's screen against the one on [Coinkite's website](https://coldcard.com/downloads). If the version is different, you are able to upgrade the firmware into the newer version.
 
 ![34](assets/en/34.webp)
+
 ![35](assets/en/35.webp)
 
 ### Upgrading your Firmware
@@ -285,6 +286,7 @@ If you want to upgrade the firmware to the latest version, do the following step
 2. Go to [Coinkite's website](https://coldcard.com/downloads) and download the latest firmware to your MicroSD card (The red button right of the Mk4 image with the version number on it). You can also download other versions by clicking on `All Files on Mk4` and exploring the version you want to download. The downloaded file will be in `.dfu` format.
 
 ![36](assets/en/36.webp)
+
 ![37](assets/en/37.webp)
 
 3. Remove the MicroSD card and insert it into your Mk4.

@@ -572,7 +572,7 @@ Pour appliquer ces critères, vous aurez besoin d’outils qui donnent de la vis
 
 https://planb.academy/tutorials/node/lightning-network/amboss-37044cad-0f85-41eb-af18-491384af1017
 
-Ici, je vous propose toutefois d’utiliser l’outil Lightning Terminal de Lightning Labs, qui fournit un classement (certes basé sur des critères en partie subjectifs) des nœuds Lightning jugés les plus pertinents pour ouvrir un canal.
+Ici, je vous propose toutefois d’utiliser [l’outil Lightning Terminal de Lightning Labs](https://terminal.lightning.engineering/), qui fournit un classement (certes basé sur des critères en partie subjectifs) des nœuds Lightning jugés les plus pertinents pour ouvrir un canal.
 
 030
 

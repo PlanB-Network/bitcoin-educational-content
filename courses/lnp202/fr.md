@@ -492,16 +492,33 @@ Maintenant que nous disposons d’un service de watchtower altruiste, voyons com
 
 ### Configurer une watchtower
 
+Depuis l’application `Lightning Node`, cliquez sur les trois points en haut à droite de l’interface, puis sélectionnez `Advanced Settings`.
 
+025
 
+Rendez-vous ensuite dans le menu `Watchtower`.
 
+026
 
+Activez l’option `Watchtower Client`, puis cliquez sur le bouton `SAVE AND RESTART NODE`. Patientez le temps que LND redémarre.
 
+027
 
+Une fois le redémarrage terminé, retournez dans le même menu et renseignez l’identifiant de la watchtower altruiste de votre choix dans le champ prévu à cet effet. Cliquez ensuite sur le bouton `ADD` pour confirmer. Vous pouvez également ajuster le paramètre `Watchtower Client Sweep Fee Rate` : il s’agit du taux de frais que vous êtes prêt à payer pour une éventuelle transaction de justice diffusée par la watchtower. Inutile de choisir un taux excessivement élevé, mais évitez aussi un taux trop bas, au risque que la transaction de justice ne soit pas confirmée à temps.
+
+Redémarrez votre nœud à l’aide du bouton `SAVE AND RESTART NODE` afin d’appliquer ces modifications.
+
+028
+
+Si vous revenez dans ce même menu, vous pourrez constater que votre nœud Lightning est désormais protégé par la watchtower que vous venez d’ajouter.
+
+029
+
+Une watchtower altruiste est généralement suffisante, surtout si vous ne placez pas de montants trop importants sur votre nœud Lightning et si vous avez une bonne gestion de votre nœud (ne pas le laisser off trop longtemps). Pour renforcer encore votre sécurité, vous pouvez également en ajouter plusieurs en répétant ce même processus.
 
 ## Ouvrir son premier canal Lightning
 
-Si vous êtes arrivé jusqu’ici, vous savez déjà qu’un nœud Lightning sans canal est un peu comme un wallet vide : il existe, mais il ne sert à rien. Pour pouvoir envoyer ou recevoir des paiements, votre nœud doit être relié à au moins un autre nœud du réseau Lightning via un canal. Par la suite, il sera fortement recommandé d’ouvrir plusieurs canaux, pour des raisons de résilience, de confidentialité et d’efficacité de routage. Nous verrons également dans les chapitres suivants comment gérer vos liquidités, optimiser votre topologie de canaux et utiliser des outils plus avancés que l’interface de base de LND sur Umbrel.
+Si vous êtes arrivé jusqu’ici, vous savez déjà qu’un nœud Lightning sans canal est un peu comme un wallet vide : il existe, mais il ne sert à rien. Pour pouvoir envoyer ou recevoir des paiements, votre nœud doit être relié à au moins un autre nœud du réseau Lightning via un canal. Par la suite, il sera fortement recommandé d’ouvrir plusieurs canaux, pour des raisons de résilience et d’efficacité de routage. Nous verrons également dans les chapitres suivants comment gérer vos liquidités, optimiser votre topologie de canaux et utiliser des outils plus avancés que l’interface de base de LND sur Umbrel.
 
 Mais dans ce chapitre d’introduction, l’objectif est simplement de comprendre comment choisir un bon pair Lightning, où trouver l’information nécessaire pour sélectionner ses pairs, et enfin comment ouvrir son premier canal via l'interface de base de LND.
 
@@ -524,15 +541,13 @@ Un nœud bien connecté augmente vos chances de trouver une route efficace vers 
 
 #### 2. La capitalisation et la capacité des canaux
 
-Un bon pair est aussi un nœud suffisamment capitalisé. Cela se voit à travers la capacité totale de ses canaux (la somme des sats engagés sur l’ensemble de ses canaux) et la capacité moyenne de ses canaux (il vaut souvent mieux avoir seulement quelques canaux bien capitalisés que beaucoup de petits canaux vides).
+Un bon pair est aussi un nœud suffisamment capitalisé. Cela se voit à travers la capacité totale de ses canaux (la somme des sats engagés sur l’ensemble de ses canaux) et la capacité moyenne de ses canaux (il vaut souvent mieux avoir seulement quelques canaux bien capitalisés que beaucoup de petits canaux).
 
-Un nœud avec une capacité ridicule, ou dont tous les canaux sont minuscules, aura du mal à router des paiements un peu volumineux, ce qui se traduira par des échecs de routage.
+Un nœud avec une capacité ridicule, ou dont tous les canaux sont minuscules, ne pourra pas router des paiements avec de gros montants, ce qui se traduira par des échecs de routage pour vous.
 
 #### 3. Les politiques de frais
 
-Chaque nœud fixe ses propres frais de routage (`base fee` et `fee rate`). Un bon pair ne pratique pas de frais exorbitants sur des canaux stratégiques.
-
-Pour un premier canal il est préférable de privilégier un nœud avec des frais plutôt modérés, afin de ne pas handicaper vos propres paiements.
+Chaque nœud fixe ses propres frais de routage (`base fee` et `fee rate`). Un bon pair ne pratique pas de frais exorbitants sur des canaux stratégiques. Pour un premier canal il est préférable de privilégier un nœud avec des frais plutôt modérés, afin de ne pas handicaper vos propres paiements.
 
 Rappelez-vous que vos propres frais de routage influencent aussi la perception que les autres auront de vous comme pair : un nœud qui change sans cesse ses frais ou qui impose des coûts absurdes est rarement apprécié.
 
@@ -542,9 +557,9 @@ La stabilité d’un pair est un critère très important. Un bon nœud affiche 
 
 Des canaux anciens et encore actifs sont un bon signal : ils suggèrent que la relation est profitable pour le pair, que le nœud sait gérer son capital et qu’il ne ferme pas n’importe quand, ce qui vous évite de payer sans cesse des frais onchain de fermeture et de réouverture.
 
-À l’inverse, un pair souvent hors ligne ou qui ferme rapidement ses canaux peut être source de problèmes pour vous.
+À l’inverse, un pair souvent hors ligne ou qui ferme rapidement ses canaux peut être source de problèmes pour vous et de frais supplémentaire pour l'ouverture de nouveaux canaux.
 
-Même avec ces critères, vous ne ferez pas des choix parfaits du premier coup. C’est normal : la qualité réelle d’un pair se révèle à l’usage. Il est donc important de :
+Même avec ces critères, vous ne ferez pas des choix parfaits du premier coup. C’est normal : la qualité réelle d’un pair se révèle surtout à l’usage. Il est donc important de :
 * surveiller l’activité de vos canaux (volumes routés, succès/échecs de paiements, disponibilité...) ;
 * fermer les canaux qui ne servent à rien ou dont le pair est trop souvent hors ligne ;
 * réallouer votre capital vers de meilleurs pairs au fil du temps.
@@ -553,17 +568,38 @@ L’idée n’est pas d’ouvrir et fermer des canaux tous les jours (ce qui ser
 
 ### Comment trouver un pair ?
 
-Pour appliquer ces critères, vous aurez besoin d’outils qui donnent de la visibilité sur le réseau Lightning. Il existe plusieurs explorateurs et services qui permettent de faire cela. Personnellement j'utilise Amboss.
+Pour appliquer ces critères, vous aurez besoin d’outils qui donnent de la visibilité sur le réseau Lightning. Il existe plusieurs explorateurs et services qui permettent de faire cela. Parmi les explorateurs Lightning les plus connus, il y a [1ML](https://1ml.com/) et [Amboss](https://amboss.space/).
 
-TUTO
+https://planb.academy/tutorials/node/lightning-network/amboss-37044cad-0f85-41eb-af18-491384af1017
 
-Une fois que vous avez identifié un nœud intéressant, vous pouvez récupérer sa clé publique (pubkey) et, si besoin, son adresse (Tor ou clearnet) pour l’utiliser dans votre interface de gestion de nœud (Umbrel, ThunderHub, ligne de commande, etc.).
+Ici, je vous propose toutefois d’utiliser l’outil Lightning Terminal de Lightning Labs, qui fournit un classement (certes basé sur des critères en partie subjectifs) des nœuds Lightning jugés les plus pertinents pour ouvrir un canal.
 
+030
 
+Le problème avec les très gros nœuds Lightning que l’on retrouve en tête de ce classement est que la plupart n’acceptent pas l’ouverture de canaux en dessous de montants très élevés. Beaucoup appliquent également des politiques strictes de gestion des pairs, ce qui peut conduire à la fermeture de votre canal. Par ailleurs, ces nœuds n’ont généralement aucun besoin de liquidité entrante au vu de leur nombre de connexions.
+
+Je vous conseille donc plutôt de descendre dans ce classement afin de trouver un nœud bien connecté, fiable et suffisamment central dans le graphe du réseau, sans être excessivement gros. Par exemple, j’ai ici identifié le nœud Lightning du site stacker.news, qui est très bien connecté, dispose de capacités importantes et occupe une position centrale dans le graphe du réseau.
+
+031
+
+Une autre approche intéressante consiste à ouvrir un canal vers un nœud ayant besoin de liquidité entrante, comme un commerçant que vous connaissez, une association ou une communauté. Cette stratégie présente trois avantages :
+- L’entité choisie ayant besoin de liquidité entrante, elle sera logiquement moins incitée à fermer votre canal sans raison ;
+- Son activité économique augmente les chances de routage sur ce canal, et donc de percevoir quelques frais ;
+- Vous rendez service à l’écosystème et contribuez utilement à d’autres bitcoiners.
+
+Une fois un nœud pertinent identifié, vous pouvez récupérer son Node ID. Celui-ci correspond simplement à la concaténation de la clé publique du nœud, d'un `@` de séparation, de son adresse IP ou Tor, ainsi que du port utilisé. Cet identifiant est facilement accessible depuis le profil du nœud sur n’importe quel explorateur Lightning.
 
 ### Ouvrir son premier canal via LND
 
+Maintenant que nous avons identifié le nœud avec lequel ouvrir notre premier canal, il nous faut disposer de sats à y bloquer. Pour cela, vous devez alimenter le portefeuille Bitcoin onchain associé à votre LND.
 
+Depuis l’interface principale de LND, repérez votre `Bitcoin Wallet`, puis cliquez sur le bouton `Deposit`. Une adresse de réception onchain est alors générée : envoyez-y des sats. Le montant à transférer dépend de la capacité que vous souhaitez allouer à votre premier canal, mais gardez en tête qu’il faut envoyer légèrement plus que la capacité visée. Par exemple, si vous souhaitez ouvrir un canal de 500 000 sats, n’envoyez pas exactement 500 000 sats, mais un montant supérieur.
+
+032
+
+Une fois la transaction de dépôt diffusée, elle apparaît dans l’interface. Attendez qu’elle soit confirmée avant de procéder à l’ouverture du canal.
+
+033
 
 
 

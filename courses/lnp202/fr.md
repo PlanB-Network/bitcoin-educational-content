@@ -597,29 +597,45 @@ Depuis l’interface principale de LND, repérez votre `Bitcoin Wallet`, puis cl
 
 032
 
-Une fois la transaction de dépôt diffusée, elle apparaît dans l’interface. Attendez qu’elle soit confirmée avant de procéder à l’ouverture du canal.
+Une fois la transaction diffusée, elle apparaît dans l’interface. Attendez qu’elle soit confirmée avant de procéder à l’ouverture du canal. Vous verrez une flèche vert à côté de celle-ci lorsque ce sera le cas.
 
 033
 
+Descendez sur l'interface principale, puis cliquez sur `+ OPEN CHANNEL`.
 
+034
 
+Renseignez le `Node ID` du nœud avec lequel vous souhaitez ouvrir un canal, indiquez le montant que vous voulez y bloquer, puis ajustez les frais de la transaction d’ouverture en fonction de l’état du marché des frais onchain. Évidemment, assurez-vous de disposer, au préalable, d’un solde suffisant dans votre portefeuille onchain LND.
 
+Une fois tous les paramètres complétés, cliquez sur le bouton `OPEN CHANNEL`.
 
+035
 
+Patientez ensuite le temps que la transaction d’ouverture soit confirmée onchain. Votre premier canal sera alors officiellement opérationnel : félicitations !
 
+On peut constater que, pour le moment, la liquidité du canal est à 100 % de mon côté : c’est normal, puisque c’est moi qui ai ouvert le canal. Au fil des paiements et du routage, cette répartition va évoluer, mais la capacité totale du canal restera toujours identique.
 
+036
 
+Maintenant que vous disposez d’un canal, vous pouvez effectuer vos premiers paiements sur Lightning, à condition que le nœud choisi soit correctement connecté au réseau. Nous verrons bien sûr, dans les chapitres suivants, comment mettre en place une méthode plus pratique pour payer des invoices Lightning depuis votre mobile. Mais pour l’instant, essayons d’effectuer un premier paiement directement depuis LND sur Umbrel.
 
+Pour cela, dans la section `Lightning Wallet`, cliquez sur le bouton `SEND`, puis collez l’invoice à régler.
 
+037
 
+Le montant de l’invoice s’affiche. Validez le paiement en cliquant sur le bouton `SEND`.
 
+038
 
+Si une route valide est trouvée, votre premier paiement Lightning devrait aboutir.
 
-## Fermer un canal Lightning
+039
 
+Si l’on observe ensuite la répartition des liquidités dans le canal, on voit que mon pair dispose désormais de 5 002 sats de son côté. Cela correspond aux 5 000 sats du paiement que je viens d’effectuer et qu’il a routé vers le nœud du destinataire. Les 2 sats supplémentaires représentent les frais de routage que j’ai payés, puisque le destinataire a bien reçu exactement 5 000 sats.
 
+040
 
-
+Pour améliorer la fiabilité de nos paiements, il sera évidemment nécessaire d’ouvrir d’autres canaux. En fonction de nos objectifs, nous devrons également trouver un moyen de disposer de liquidité entrante afin de pouvoir recevoir des paiements sur Lightning. Ce sera précisément le sujet de la prochaine partie.
 
 
 
@@ -627,10 +643,21 @@ Une fois la transaction de dépôt diffusée, elle apparaît dans l’interface.
 
 
 
+## Définir son profil d'opérateur de nœud
+
+
+- Le consommateur
+- Le commerçant
+- Le routeur
+
+
 ## Utiliser un gestionnaire de nœud Lightning
 
 (ThunderHub / RTL) + Alby Hub ?
 
+
+
+### Fermer un canal
 
 
 

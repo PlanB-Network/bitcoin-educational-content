@@ -1,5 +1,5 @@
 ---
-name: 种子签约者
+name: SeedSigner
 description: DIY 无状态、经济实惠、完全空气封接的 wallet 硬件
 ---
 

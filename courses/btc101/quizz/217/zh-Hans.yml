@@ -1,8 +1,9 @@
-question: 闪电网络允许什么？
-answer: 即时、低成本的比特币交易。
+question: Lightning Network 的主要目标是什么？
+answer: 实现快速、低成本的链下支付
 wrong_answers:
-  - 即时、高成本的比特币交易。
-  - 延迟、低成本的比特币交易。
-  - 延迟、高成本的比特币交易。
-explanation:
-  闪电网络允许即时、低成本的比特币交易，从而解决了比特币的可扩展性问题。
+  - 增加比特币区块链的区块大小
+  - 逐步用更高效的系统取代比特币区块链
+  - 让矿场变得非常富有
+explanation: |
+  Lightning Network 旨在在不增加主区块链负担的情况下，实现手续费低、几乎即时的比特币支付。
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: DietaPi
+name: DietPi
 description: Sistema operativo leve optimizado para máquinas com baixo desempenho. Com uma preferência por auto-hospedagem
 ---
 

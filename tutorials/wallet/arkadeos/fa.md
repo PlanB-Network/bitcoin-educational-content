@@ -1,5 +1,5 @@
 ---
-name: آرکیدOS
+name: ArkadeOS
 description: راهنمای کامل پورتفولیو Arkade و پروتکل Ark
 ---
 

@@ -1,11 +1,9 @@
-question: Was ist das Skalierbarkeitsproblem von Bitcoin?
-answer: Die Herausforderung, ein monetäres System zu implementieren, das in der Lage ist, eine stetig steigende Anzahl von Transaktionen pro Sekunde bereitzustellen, je mehr es angenommen wird.
+question: Welcher Mechanismus macht Lightning-Zahlungen atomar?
+answer: HTLC
 wrong_answers:
-  - Die Schwierigkeit, neue Bitcoins mit einem im Laufe der Zeit steigenden Wert zu minen.
-  - Die Volatilität des Bitcoin-Preises, die nach jeder Halbierung zunehmen wird.
-  - Der Mangel an Regulierung für Bitcoin, der Transaktionen illegal machen wird.
-explanation: >-
-  Das Skalierbarkeitsproblem bezieht sich auf die Herausforderung, ein monetäres
-  System zu implementieren, das in der Lage ist, eine stetig steigende Anzahl von Transaktionen pro Sekunde
-  bereitzustellen, je mehr es angenommen wird.
-reviewed: true
+  - Multisignatur
+  - Proof of Work
+  - SegWit
+explanation: |
+  HTLC knüpfen die Zahlung an die Offenlegung eines Geheimnisses und garantieren vollständigen Erfolg oder Misserfolg ohne Verlust.
+reviewed: false

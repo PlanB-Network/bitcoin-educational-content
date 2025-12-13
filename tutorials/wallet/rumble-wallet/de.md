@@ -1,5 +1,5 @@
 ---
-name: Rumpeln Wallet
+name: Rumble Wallet
 description: Schließen Sie sich den Urhebern an, die die Redefreiheit durch finanzielle Freiheit verteidigen.
 ---
 

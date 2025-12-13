@@ -1,5 +1,5 @@
 ---
-name: जेड DIY
+name: Jade DIY
 description: $15 के डेव बोर्ड को पूर्णतः कार्यात्मक Bitcoin हार्डवेयर wallet में बदलें
 ---
 

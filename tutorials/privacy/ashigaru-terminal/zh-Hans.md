@@ -1,5 +1,5 @@
 ---
-name: 芦原终点站
+name: Ashigaru Terminal
 description: 在桌面上使用 Ashigaru 进行硬币接合
 ---
 

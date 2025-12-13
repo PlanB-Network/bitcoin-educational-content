@@ -1,8 +1,0 @@
-question: Mis on üks võimalikest mõjudest, mida Lightning Network kasutajatele kaasa võib tuua?
-answer: Nad maksaksid ainult selle eest, mida nad tarbivad
-wrong_answers:
-  - Nad peaksid sisu eest rohkem maksma
-  - Nad peaksid maksma kuutasu
-  - Nad peaksid sisu eest ette maksma
-explanation: >
-  Lightning Network'i abil maksaksid kasutajad ainult selle eest, mida nad tarbivad, seega kaotades ettemaksuga tellimustasud.

@@ -1,5 +1,5 @@
 ---
-name: アルカディオス
+name: ArkadeOS
 description: ArkadeポートフォリオとArk Protocolの完全ガイド
 ---
 

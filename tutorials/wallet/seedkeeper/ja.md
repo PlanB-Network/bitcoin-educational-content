@@ -1,5 +1,5 @@
 ---
-name: シードキーパー
+name: Seedkeeper
 description: wallet、BitcoinをSeedkeeperスマートカードでバックアップするには？
 ---
 

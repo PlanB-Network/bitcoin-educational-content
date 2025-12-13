@@ -1,5 +1,5 @@
 ---
-name: बिटफीड
+name: Bitfeed
 description: मुख्य Bitcoin प्रोटोकॉल श्रृंखला का अन्वेषण करें.
 ---
 

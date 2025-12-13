@@ -1,10 +1,9 @@
-question: Che tipo di rete crea Lightning Network?
-answer: Una rete di canali di pagamento.
+question: Quale approccio struttura l’evoluzione di Bitcoin descritta in questo capitolo?
+answer: Evoluzione a strati
 wrong_answers:
-  - Una rete di nodi di mining.
-  - Una rete di nodi blockchain.
-  - Una rete di scambi di criptovalute.
-explanation: >-
-  Lightning Network funziona come una rete di canali di pagamento, consentendo
-  transazioni istantanee con commissioni basse per il mittente.
-reviewed: vero
+  - Blockchain monolitica
+  - Sharding nativo
+  - Esecuzione onchain generalizzata
+explanation: |
+  Bitcoin conserva uno strato di base semplice e robusto, mentre i protocolli superiori aggiungono funzionalità specifiche.
+reviewed: false

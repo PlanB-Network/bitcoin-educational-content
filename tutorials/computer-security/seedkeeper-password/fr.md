@@ -1,5 +1,5 @@
 ---
-name: Seedkeeper - Password Manager
+name: Seedkeeper - Gestionnaire de mots de passe
 description: Comment sauvegarder vos mots de passe avec la carte à puce Seedkeeper ?
 ---
 

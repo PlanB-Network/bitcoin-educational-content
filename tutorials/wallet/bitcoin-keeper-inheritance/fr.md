@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - Plan de succession
+name: Bitcoin Keeper - Plan d’héritage
 description: Mettre en place et utiliser le Bitcoin Keeper Wallet avec les Tapsigners pour créer un plan d'héritage
 ---
 

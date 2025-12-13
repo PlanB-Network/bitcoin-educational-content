@@ -1,5 +1,5 @@
 ---
-name: Ejara crypto
+name: Ejara Crypto
 description: Bitcoins opslaan, kopen en verkopen vanaf 1000 CFA frank in Franstalig Afrika
 ---
 

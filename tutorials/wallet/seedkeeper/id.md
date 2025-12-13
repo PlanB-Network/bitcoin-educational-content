@@ -1,5 +1,5 @@
 ---
-name: Penangkar benih
+name: Seedkeeper
 description: Bagaimana cara mencadangkan wallet Bitcoin saya dengan kartu pintar Seedkeeper?
 ---
 

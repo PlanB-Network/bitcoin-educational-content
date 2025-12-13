@@ -1,5 +1,5 @@
 ---
-name: Esploratore Blockstream
+name: Blockstream Explorer
 description: Esplorare lo strato principale di Bitcoin e Liquid Network
 ---
 

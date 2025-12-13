@@ -1,5 +1,5 @@
 ---
-name: सातोचिप x सीडसाइनर
+name: Satochip x SeedSigner
 description: अपने सीडसाइनर के साथ सैटोचिप का उपयोग कैसे करें?
 ---
 

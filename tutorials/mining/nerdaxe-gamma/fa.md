@@ -1,5 +1,5 @@
 ---
-name: نردآکس گاما
+name: NerdAxe Gamma
 description: راهنمای پیکربندی NerdAxe Gamma
 ---
 

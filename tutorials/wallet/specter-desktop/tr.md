@@ -1,5 +1,5 @@
 ---
-name: Spectre Masaüstü
+name: Specter Desktop
 description: Çoklu imzalı Bitcoin portföylerinizi kendi düğümünüzle tam egemenlik içinde yönetin
 ---
 

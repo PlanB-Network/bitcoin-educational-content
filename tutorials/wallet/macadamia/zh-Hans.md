@@ -1,5 +1,5 @@
 ---
-name: 澳洲坚果 Wallet
+name: Macadamia Wallet
 description: 用于匿名即时 BTC 支付的 Cashu 移动 wallet
 ---
 

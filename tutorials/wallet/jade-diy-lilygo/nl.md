@@ -1,5 +1,5 @@
 ---
-name: Jade doe-het-zelf
+name: Jade DIY
 description: Verander een dev board van $15 in een volledig functionele Bitcoin hardware wallet
 ---
 

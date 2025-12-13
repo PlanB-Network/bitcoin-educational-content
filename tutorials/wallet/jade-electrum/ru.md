@@ -1,5 +1,5 @@
 ---
-name: Нефрит - Electrum
+name: Jade - Electrum
 description: Как использовать Jade или Jade Plus с Electrum (настольный компьютер)
 ---
 

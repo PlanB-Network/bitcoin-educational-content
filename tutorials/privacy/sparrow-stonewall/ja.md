@@ -1,5 +1,5 @@
 ---
-name: Sparrow Wallet - ストーンウォール
+name: Sparrow Wallet - Stonewall
 description: Sparrowにおけるストーンウォール・トランザクションの理解と使用
 ---
 

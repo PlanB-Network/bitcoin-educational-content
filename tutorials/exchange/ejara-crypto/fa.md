@@ -1,5 +1,5 @@
 ---
-name: Ejara کریپتو
+name: Ejara Crypto
 description: ذخیره، خرید و فروش بیت‌کوین از 1000 فرانک CFA در آفریقای فرانسوی‌زبان
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Ngọc bích - Electrum
+name: Jade - Electrum
 description: Cách sử dụng Jade hoặc Jade Plus với Electrum (máy tính để bàn)
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: मचानकुरा
+name: Machankura
 description: किसी भी फोन पर, बिना इंटरनेट के Bitcoin का उपयोग करें।
 ---
 

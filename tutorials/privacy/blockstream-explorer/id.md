@@ -1,5 +1,5 @@
 ---
-name: Penjelajah Blockstream
+name: Blockstream Explorer
 description: Jelajahi lapisan utama Bitcoin dan Liquid Network
 ---
 
@@ -225,4 +225,4 @@ Anda sekarang siap untuk memanfaatkan potensi penuh Blockstream Explorer untuk m
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

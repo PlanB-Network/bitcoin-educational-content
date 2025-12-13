@@ -1,5 +1,5 @@
 ---
-name: COLDCARD - コサイン
+name: COLDCARD - Co-Sign
 description: Co-Sign機能を発見し、COLDCARDでご利用ください。
 ---
 

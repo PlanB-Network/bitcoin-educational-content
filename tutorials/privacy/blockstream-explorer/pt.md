@@ -1,5 +1,5 @@
 ---
-name: Explorador Blockstream
+name: Blockstream Explorer
 description: Explorar a camada principal do Bitcoin e do Liquid Network
 ---
 
@@ -225,4 +225,4 @@ Agora você está pronto para explorar todo o potencial do Blockstream Explorer 
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

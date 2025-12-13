@@ -1,0 +1,8 @@
+question: When configuring LITD's unified configuration file, how must standard LND parameters be modified to ensure proper routing to the correct internal sub-server?
+answer: Standard LND parameters must be prefixed with 'lnd.' (e.g., 'alias=MyNode' becomes 'lnd.alias=MyNode')
+wrong_answers:
+  - "Standard LND parameters must be suffixed with '.lnd' (e.g., 'alias=MyNode' becomes 'alias.lnd=MyNode')"
+  - "Standard LND parameters must be wrapped in brackets (e.g., 'alias=MyNode' becomes '[lnd]alias=MyNode')"
+  - "Standard LND parameters must be prefixed with 'litd.' (e.g., 'alias=MyNode' becomes 'litd.alias=MyNode')"
+explanation: |
+  LITD uses a unified configuration file in the .lit directory that requires the 'lnd.' prefix for standard LND parameters. This prefix-based syntax allows the daemon to correctly route configurations to the appropriate internal sub-server among the bundled components (LND, Loop, Pool, Faraday, Taproot Assets). Without this prefix, the configuration would not be properly parsed and routed to the LND component within the unified system.

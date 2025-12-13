@@ -6,3 +6,4 @@ wrong_answers:
   - Walidatory sieciowe, które głosują nad ważnością transakcji w procesie demokratycznym
 explanation: |
   Limit podaży Bitcoin jest egzekwowany przez pełne węzły, które uruchamiają kod weryfikacyjny w celu sprawdzenia transakcji coinbase każdego bloku pod kątem reguł konsensusu. Nawet jeśli niektóre węzły okażą się złośliwe i zaakceptują nieprawidłowe bloki z nadmiernymi nagrodami, uczciwe węzły po prostu je zignorują i będą kontynuować prawidłowy łańcuch. Tworzy to system bez zaufania, w którym nie trzeba ufać żadnej osobie ani organowi - wystarczy uruchomić kod, który weryfikuje przestrzeganie zasad, dzięki czemu sieć jest wspólnie zabezpieczona przed próbami inflacji podaży.
+reviewed: false

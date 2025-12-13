@@ -6,3 +6,4 @@ wrong_answers:
   - Tính ẩn danh được cung cấp bằng cách sử dụng nhiều địa chỉ wallet
 explanation: |
   Quyền riêng tư Blockchain đề cập cụ thể đến thông tin bạn tiết lộ khi giao dịch trên blockchain, áp dụng cho tất cả các giao dịch bạn gửi và nhận. Điều này khác với mã hóa wallet (bảo vệ khóa được lưu trữ), bảo mật kết nối internet (là quyền riêng tư off-chain), hoặc quan niệm sai lầm rằng nhiều địa chỉ cung cấp tính ẩn danh. Rò rỉ quyền riêng tư trên chuỗi xảy ra thông qua việc tái sử dụng và phân cụm địa chỉ, trong đó các giao dịch có thể được liên kết với nhau để tiết lộ các mô hình về hoạt động tài chính của người dùng.
+reviewed: false

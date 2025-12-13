@@ -6,3 +6,4 @@ wrong_answers:
   - Üçüncü taraf hizmetleri, normal ihraç programının ötesinde yeni bitcoinler yaratma becerisi kazanıyor
 explanation: |
   Kullanıcılar kendi tam düğümlerini çalıştırmadıklarında, Bitcoin'in kurallarını uygulama yetkilerini başkalarına devretmiş olurlar. Bu durum Bitcoin'in merkeziyetsizliğini zayıflatır çünkü işlemleri ve blokları doğrulayan daha az sayıda bağımsız taraf vardır. David Harding'in açıkladığı gibi, bu durum az sayıda madenci ve hizmet sağlayıcının doğrulama yapmayan kullanıcılar için Bitcoin'in kurallarını potansiyel olarak değiştirebileceği bir durum yaratırken, bu kullanıcılar bu kural değişikliklerini reddeden tam doğrulama düğümlerini çalıştıran kişilerle işlem yapamayacaktır.
+reviewed: false

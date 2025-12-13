@@ -6,3 +6,4 @@ wrong_answers:
   - Taloussolmut hylkäsivät päivityksen, koska ne olivat huolissaan lisääntyneistä transaktiomaksuista
 explanation: |
   Segwit-päivitys oli ainutlaatuinen, koska se kohtasi koordinointiongelman, jossa Bitcoin:n käyttäjät tukivat sitä ylivoimaisesti, mutta kaivostyöläiset kieltäytyivät antamasta tukea päivitykselle. Tämä loi pattitilanteen, jossa päivitys ei voinut aktivoitua normaalin louhijoiden aktivoiman pehmeän fork-mekanismin kautta. Aiemmat päivitykset olivat olleet suhteellisen kivuttomia, koska niillä oli sekä käyttäjien että kaivostyöläisten tuki. Tämä tilanne johti siihen, että ehdotettiin User Activated Soft Forks (UASF) -järjestelmää vaihtoehtoiseksi aktivointimekanismiksi, joka ei ollut riippuvainen kaivosmiesten signaloinnista, mikä korosti jännitteitä eri sidosryhmien välillä Bitcoin-ekosysteemissä.
+reviewed: false

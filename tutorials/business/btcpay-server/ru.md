@@ -1,5 +1,5 @@
 ---
-name: Сервер BTCPay
+name: BTCPay Server
 description: Прием платежей BTC без посредников
 ---
 

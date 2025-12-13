@@ -6,3 +6,4 @@ wrong_answers:
   - Formale Sicherheitsnachweise würden Angreifern Schwachstellen offenbaren, weshalb sie von den Kernentwicklern geheim gehalten werden
 explanation: |
   Wie Jameson Lopp erklärt, wurde Bitcoin aufgrund seiner inhärenten Komplexität und nebulösen Natur ohne eine formal definierte Spezifikation oder ein Sicherheitsmodell entwickelt. Im Gegensatz zu einfacheren Systemen wie Unterschriftsprotokollen, die eindeutige Sicherheitsannahmen haben, beinhaltet Bitcoin mehrere interagierende Komponenten, einschließlich Kryptographie, Wirtschaft, Spieltheorie und menschliches Verhalten. Diese Komplexität macht es unmöglich, formale mathematische Sicherheitsnachweise zu erbringen, auch wenn das System durch den realen Betrieb praktische Sicherheit demonstriert.
+reviewed: false

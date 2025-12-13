@@ -1,5 +1,5 @@
 ---
-name: COLDCARD - 联合签名
+name: COLDCARD - Co-Sign
 description: 了解联合签名功能并在 COLDCARD 上使用该功能
 ---
 

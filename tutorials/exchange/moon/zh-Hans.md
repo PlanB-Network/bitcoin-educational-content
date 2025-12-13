@@ -1,5 +1,5 @@
 ---
-name: 月亮
+name: Moon
 description: 在接受 Visa 银行卡的地方使用比特币支付。
 ---
 
@@ -177,7 +177,7 @@ Moon 带来了一项重大创新：使用比特币和其他加密货币为这些
 
 
 
-https://planb.academy/courses/the-world-of-bitcoin-mining-7750d9da-417a-4377-8e35-85c377168477
+https://planb.academy/courses/7750d9da-417a-4377-8e35-85c377168477
 
 ![buycourse](assets/fr/13.webp)
 

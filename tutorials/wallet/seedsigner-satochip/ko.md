@@ -1,5 +1,5 @@
 ---
-name: 사토칩 x 시드서명기
+name: Satochip x SeedSigner
 description: 시드서명과 함께 사토칩을 사용하는 방법은 무엇인가요?
 ---
 

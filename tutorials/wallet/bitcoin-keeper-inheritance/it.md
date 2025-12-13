@@ -1,5 +1,5 @@
 ---
-name: Custode Bitcoin - Piano di Eredità
+name: Bitcoin Keeper - Piano di eredità
 description: Impostare e utilizzare il Bitcoin Keeper Wallet con i Tapsigner per creare un piano di eredità
 ---
 

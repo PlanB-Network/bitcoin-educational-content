@@ -6,4 +6,4 @@ wrong_answers:
   - Pide a los nodos intermediarios que aumenten su liquidez
 explanation: |
   Cuando una ruta falla, el nodo emisor prueba otras rutas alternativas hasta encontrar un camino funcional o hasta que se agoten todas las opciones.
-reviewed: false
+reviewed: true

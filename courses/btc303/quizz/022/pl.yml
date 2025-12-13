@@ -6,3 +6,4 @@ wrong_answers:
   - Przeciążenie sieci i centralizacja mining
 explanation: |
   W sekcji 7 białej księgi Bitcoin, Satoshi Nakamoto zidentyfikował ponowne użycie adresu i klastrowanie adresów jako główne problemy związane z prywatnością blockchaina. Ponowne użycie adresu Address ma miejsce, gdy ten sam adres jest używany wielokrotnie, co ułatwia powiązanie transakcji z tym samym użytkownikiem. Klastrowanie Address odnosi się do możliwości ustalenia, że różne adresy należą do tego samego właściciela, w szczególności poprzez transakcje z wieloma wejściami, które ujawniają, że wszystkie wejścia były kontrolowane przez tę samą osobę. Pozostałe opcje stanowią wyzwania techniczne lub operacyjne w Bitcoin, ale nie są kwestiami prywatności szczegółowo omówionymi w Satoshi w białej księdze.
+reviewed: false

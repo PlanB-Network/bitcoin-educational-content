@@ -6,3 +6,4 @@ wrong_answers:
   - "Revela que la plataforma GitHub tiene limitaciones técnicas para manejar la base de código de Bitcoin"
 explanation: |
   Según el contenido del capítulo, los pull requests tardan mucho en fusionarse debido principalmente a la falta de revisión, que se debe a la insuficiencia de revisores más que a la obstrucción de los mantenedores o a problemas técnicos. El proceso de revisión es crucial para la seguridad de Bitcoin, ya que garantiza la calidad del código y evita cambios malintencionados. Este cuello de botella existe porque la revisión de código criptográfico complejo requiere experiencia y tiempo, por lo que los revisores cualificados son un recurso escaso en el proceso de desarrollo.
+reviewed: false

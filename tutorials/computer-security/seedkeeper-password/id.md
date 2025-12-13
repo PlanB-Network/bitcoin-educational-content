@@ -1,5 +1,5 @@
 ---
-name: Penyimpanan Benih - Pengelola Kata Sandi
+name: Seedkeeper - Pengelola Kata Sandi
 description: Bagaimana cara menyimpan kata sandi Anda dengan kartu pintar Seedkeeper?
 ---
 

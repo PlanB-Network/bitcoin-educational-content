@@ -6,3 +6,4 @@ wrong_answers:
   - Biaya transaksi secara otomatis disesuaikan untuk mencegah serangan ekonomi dari otoritas terpusat
 explanation: |
   Bitcoin mencapai ketahanan terhadap sensor melalui desentralisasi penambang, di mana pemesanan transaksi dilakukan secara kolektif oleh semua penambang yang memilih untuk berpartisipasi. Hal ini menciptakan sebuah sistem yang dinamis di mana setiap orang dapat bergabung atau keluar dari proses mining dengan bebas, menghilangkan satu titik kontrol yang dapat ditekan untuk menyensor transaksi. Jawaban yang salah menggambarkan fitur teknis, pihak yang dipercaya, atau mekanisme ekonomi yang tidak membahas masalah inti dari kontrol terdesentralisasi atas pemrosesan transaksi.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Les preuves formelles de sécurité révéleraient les vulnérabilités aux adversaires, c'est pourquoi elles sont gardées secrètes par les développeurs principaux
 explanation: |
   Comme l'explique Jameson Lopp, Bitcoin a été construit sans spécification formellement définie ni modèle de sécurité en raison de sa complexité inhérente et de sa nature nébuleuse. Contrairement aux systèmes plus simples, tels que les protocoles de signature, qui reposent sur des hypothèses de sécurité clairement définies, Bitcoin implique de multiples composants en interaction, notamment la cryptographie, l'économie, la théorie des jeux et le comportement humain. Cette complexité rend impossible la création de preuves mathématiques formelles de la sécurité, même si le système démontre une sécurité pratique grâce à son fonctionnement dans le monde réel.
+reviewed: false

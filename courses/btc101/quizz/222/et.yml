@@ -1,9 +1,9 @@
-question: Kuidas on Lightning Network'i tehingud turvatud?
-answer: Krüptograafia ja kaudselt Bitcoin'i kaevurite poolt tarbitud energia abil.
+question: Mis on RGB keskne põhimõte?
+answer: Kliendipoolne valideerimine
 wrong_answers:
-  - Ainult privaatvõtmete kasutamise kaudu.
-  - Ainult avalike võtmete kasutamise kaudu.
-  - Ainult nii privaat- kui ka avalike võtmete kasutamise kaudu.
-explanation: >-
-  Lightning Network'i tehingud on turvatud krüptograafia ja kaudselt Bitcoin'i kaevurite poolt tarbitud energia abil.
+  - Globaalne täitmine plokiahelas
+  - Föderatiivne konsensus
+  - Proof-of-Work
+explanation: |
+  RGB tugineb olekute lokaalsele valideerimisele, kusjuures plokiahel toimib üksnes krüptograafilise ankru ja topeltkulutamise vastase kaitsena.
 reviewed: false

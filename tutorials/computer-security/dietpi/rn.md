@@ -1,5 +1,5 @@
 ---
-name: Ivyo kurya
+name: DietPi
 description: Ubuhinga bwo gukoresha bworoshe bwatunganijwe neza ku mashini zidakora neza. N'uguhitamwo kwiyakira
 ---
 

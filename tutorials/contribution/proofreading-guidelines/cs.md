@@ -1,15 +1,15 @@
 ---
 name: Pokyny pro korektury
-description: Jaké důležité faktory je třeba mít na paměti při korektuře Plan ₿ Academy?
+description: Jaké důležité faktory je třeba mít na paměti při korektuře na Akademii Plan ₿?
 ---
 
 ![github](assets/cover.webp)
 
 
-Vítejte v tomto návodu o **pokynech, kterými je třeba se řídit při korekturách obsahu v systému Plan ₿ Academy**. Jsme rádi, že sdílíte naše poslání překládat materiály Bitcoin do co největšího počtu jazyků, abychom lidem pomohli získat povědomí o tom, jak funguje a jak jej lze využít v každodenním životě.
+Vítejte v tomto návodu o **pokynech, kterými je třeba se řídit při korekturách obsahu v Akademii Plan ₿**. Jsme rádi, že sdílíte naše poslání překládat materiály Bitcoin do co největšího počtu jazyků, abychom lidem pomohli získat povědomí o tom, jak funguje a jak ji lze využít v každodenním životě.
 
 
-Přispívání do Plan ₿ Academy [veřejné úložiště](https://github.com/PlanB-Network/Bitcoin-educational-content) vám především dává možnost psát výukové programy, opravovat stávající obsah nebo dokonce navrhnout přidání nového jazyka do platformy. Chcete-li se dozvědět více, připojte se nejprve k naší [Telegramové skupině](https://t.me/PlanBNetwork_ContentBuilder) a napište krátkou prezentaci o sobě a jazycích, které ovládáte.
+Přispívání do Plan ₿ Academy [veřejné úložiště](https://github.com/PlanB-Network/bitcoin-educational-content) vám především dává možnost psát výukové programy, opravovat stávající obsah nebo dokonce navrhnout přidání nového jazyka do platformy. Chcete-li se dozvědět více, připojte se nejprve k naší [Telegramové skupině](https://t.me/PlanBNetwork_ContentBuilder) a napište krátkou prezentaci o sobě a jazycích, které ovládáte.
 
 
 Tento návod je určen přispěvatelům, kteří chtějí provádět korektury obsahu. Většina z nich toho o [Githubu](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) ani o [jazyku Markdown](https://www.markdownguide.org/basic-syntax/), který v úložišti používáme, moc neví, a proto je důležité podělit se s nimi o několik informací o klíčových faktorech, které jsou s tímto úkolem spojeny.
@@ -38,13 +38,13 @@ Vždy mějte na paměti, že překlad/korektura je VZDĚLÁVÁNÍ!
 
 Naším společným cílem je totiž vzdělávat co nejvíce lidí v oblasti Bitcoin, a proto je zásadní, aby materiály, které čtou, byly plynulé a srozumitelné.
 
-V tomto smyslu jsou všichni přispěvatelé na Plan ₿ Academy pedagogové!
+V tomto smyslu jsou všichni přispěvatelé na Akademii Plan ₿ pedagogové!
 
 
-## První kroky před korekturou na Plan ₿ Academy
+## První kroky před korekturou na Akademii Plan ₿
 
 
-Před zahájením nového korektorského úkolu jej oznamte ve skupině [Telegram](https://t.me/PlanBNetwork_ContentBuilder) nebo informujte svého koordinátora Plan ₿ Academy, který otevře zvláštní [issue](https://github.com/orgs/Plan ₿ Academy/projects/3). Jakmile obdržíte odkaz na vydání, jednoduše **komentujte, že začínáte** s úkolem korektury daného obsahu.
+Před zahájením nového korektorského úkolu jej oznamte ve skupině [Telegram](https://t.me/PlanBNetwork_ContentBuilder) nebo informujte svého koordinátora Akademie Plán ₿, který otevře speciální [issue](https://github.com/orgs/PlanB-Network/projects/3). Jakmile obdržíte odkaz na vydání, jednoduše **komentujte, že začínáte** s úkolem korektury daného obsahu.
 
 
 Tento systém pomáhá koordinátorovi sledovat průběh práce v repozitáři a umožňuje korektorovi "nárokovat" obsah, čímž se zabrání duplicitnímu úsilí někoho jiného.
@@ -52,7 +52,7 @@ Tento systém pomáhá koordinátorovi sledovat průběh práce v repozitáři a
 V samotném vydání najdete odkazy, které vás přesměrují na obsah ke kontrole. Můžete na ně jednoduše kliknout, nebo ještě lépe, můžete se vrátit do vlastního forknutého repozitáře a pracovat přímo odtud. Pojďme se podívat, jak to můžete udělat!
 
 
-Především **VŽDY nezapomeňte na SYNCHRONIZACI repozitáře ve větvi "dev "**. Tímto způsobem bude obsah vždy aktualizován před zahájením jakéhokoli typu úlohy a nebudete vytvářet konflikty mezi starým a novým materiálem. Nezapomeňte kliknout na "Synchronizovat Fork" a "Aktualizovat větev".
+Především **VŽDY nezapomeňte na SYNCHRONIZACI repozitáře ve větvi "dev "**. Tímto způsobem bude obsah vždy aktualizován před zahájením jakéhokoli typu úlohy a nebudete vytvářet konflikty mezi starým a novým materiálem. Nezapomeňte kliknout na "Synchronizovat fork" a "Aktualizovat větev".
 
 
 
@@ -100,18 +100,18 @@ Při korekturách obsahu je důležité **vždy zkontrolovat původní anglickou
 V případě potřeby můžete text upravit a změnit věty. Naším cílem je zvýšit plynulost, ale vždy se držet původního významu. V případě pochybností, jak zacházet s konkrétním slovem, se určitě zeptejte koordinátora překladu.
 
 
-Nástroje LLM mohou některá slova související s Bitcoin překládat doslovně, například Lightning Network. Je to zejména v případě, kdy se jedná o velmi odborná slova. V takových případech je vhodné pro lepší srozumitelnost zachovat původní anglické slovo v cílovém jazyce, pokud vám vaše jazyková pravidla neukládají překládat každé slovo.
+Nástroje LLM mohou některá slova související s Bitcoin překládat doslovně, stejně jako Lightning Network. Je to zejména v případě, kdy se jedná o velmi odborná slova. V takových případech je vhodné pro lepší srozumitelnost zachovat původní anglické slovo v cílovém jazyce, pokud vám vaše jazyková pravidla neukládají překládat každé slovo.
 
 
 V tomto druhém případě si **vždy vyhledejte, zda dané slovo** již nepřeložil někdo jiný z vaší komunity Bitcoin a zda se nyní široce používá.
 
 
 
-- Jedním z řešení by mohlo být **zkontrolovat na [BitcoinWiki](https://en.Bitcoin.it/wiki/Main_Page)** v cílovém jazyce, zda bylo slovo přeloženo, nebo ne. Pokud není, ponecháte slovo v angličtině.
+- Jedním z řešení by mohlo být **zkontrolovat na [BitcoinWiki](https://en.bitcoin.it/wiki/Main_Page)** v cílovém jazyce, zda bylo slovo přeloženo, nebo ne. Pokud není, ponecháte slovo v angličtině.
 
 
 
-- V každém případě bych doporučoval **vložit EN slovo nicméně** a přidat odpovídající význam v cílovém jazyce do kulaté závorky podle schématu EN (LANG) nebo naopak. Např. Address (indirizzo) nebo indirizzo (Address).
+- V každém případě bych doporučoval **vložit EN slovo nicméně** a přidat odpovídající význam v cílovém jazyce do kulaté závorky podle schématu EN (LANG) nebo naopak. Např. Address (indirizzo) nebo indirizzo (adresa).
 
 
 
@@ -138,7 +138,7 @@ Obsah úložiště je plný hypertextových odkazů, jako jsou tyto výše uvede
 
 
 
-- S vykreslováním slov souvisí také následující. Pokud v textu najdete slovo "Plan ₿ Academy", **ponechte ho v tomto původním tvaru**. Nepřekládejte slovo "plan" ani slovo "network". Kromě toho při uvádění názvu Plan ₿ Academy NEPOUŽÍVEJTE člen "The": **považujte ji za značku**.
+- S vykreslováním slov souvisí také následující. Pokud v textu najdete "Plan ₿ Academy", **ponechte jej v tomto původním tvaru**. Nepřekládejte slovo "plan" ani slovo "network". Kromě toho při uvádění názvu Plan ₿ Academy NEPOUŽÍVEJTE člen "The": **považujte ji za značku**.
 
 
 
@@ -148,17 +148,17 @@ Obsah úložiště je plný hypertextových odkazů, jako jsou tyto výše uvede
 Poslední poznámka k tomuto odstavci: jak jsme uvedli výše, k překladu obsahu používáme nástroje umělé inteligence a poté žádáme přispěvatele o zásah, abychom se ujistili, že je vše plynulé a dobře zkontrolované.
 
 
-Pokud ke korektuře většiny textu použijete umělou inteligenci, určitě si toho všimneme, protože známe typické struktury vět, které umělá inteligence generuje. Pokud zjistíme, že jste se při korekturách spoléhali pouze na UI, aniž byste použili výrazné změny, může být výsledná odměna v Sats snížena na polovinu!
+Pokud ke korektuře většiny textu použijete umělou inteligenci, určitě si toho všimneme, protože známe typické struktury vět, které umělá inteligence generuje. Pokud zjistíme, že jste se při korekturách spoléhali pouze na UI, aniž byste použili výrazné změny, může být výsledná odměna v sats snížena na polovinu!
 
 
 
 ## Struktura záhlaví
 
 
-V jazyce markdown začínají všechny nadpisy (a názvy odstavců) znakem Hash ``#``. Počet znaků Hash odpovídá úrovni nadpisu. Například nadpis třetí úrovně má před textem tři číselné znaky (např. `#### Můj nadpis`).
+V jazyce markdown začínají všechny nadpisy (a názvy odstavců) znakem hash ``#``. Počet znaků hash odpovídá úrovni nadpisu. Například nadpis třetí úrovně má před textem tři číselné znaky (např. `#### Můj nadpis`).
 
 
-V kurzech jsou nejdůležitější části představeny jedním znakem Hash, zatímco dílčí části mohou mít dva až čtyři znaky Hash. Ve výukových kurzech obvykle používáme pouze záhlaví se dvěma znaky Hash.
+V kurzech jsou nejdůležitější části představeny jedním hash znakem, zatímco dílčí části mohou mít dva až čtyři hash znaky. Ve výukových kurzech obvykle používáme pouze záhlaví se dvěma hash znaky.
 
 
 
@@ -166,13 +166,13 @@ V kurzech jsou nejdůležitější části představeny jedním znakem Hash, zat
 
 
 
-Dbejte na to, abyste před nadpisem NIKDY neodstraňovali znaky **Hash**, jinak způsobíte problémy se strukturou textu.
+Dbejte na to, abyste před nadpisem NIKDY neodstraňovali znaky hash**, jinak způsobíte problémy se strukturou textu.
 
 
 Zároveň **nezměňte** část chapterID, kterou vidíte na obrázku výše, ``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>`` nebo odkazy na video, jako ``:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::``.
 
 
-Když před nadpis vložíme ``#``, v náhledu kurzu se automaticky zvýrazní tučným písmem, takže **se vyhněte tomu, aby byly nadpisy při opravách tučné**.
+Když před název vložíme ``#``, v náhledu kurzu se automaticky zvýrazní tučným písmem, takže **se vyhněte tomu, aby byly názvy při opravách tučné**.
 
 
 Poznámka na okraj: v EN verzi kurzů mají **názvy uvozené jedním nebo dvěma ``#`` všechna slova začínající velkými písmeny**, zatímco názvy začínající třemi nebo čtyřmi ``#`` toto pravidlo obvykle nedodržují. Pokud je to možné, ujistěte se, že názvy v cílovém jazyce dodržují tuto strukturu.
@@ -197,6 +197,43 @@ V téže úvodní části zachovejte stávající formát. Na začátek textu ni
 ![REVIEW](assets/en/8.webp)
 
 
+## Jak se vypořádat s obrázky z kurzů
+
+
+Na našich webových stránkách jsou nyní k dispozici přeložené obrázky pro téměř každý kurz!
+
+
+Při korektuře vždy zkontrolujte, zda jsou všechny obrázky přítomny a správně zobrazeny. Pokud v `zobrazení kódu` najdete takovýto řádek `![IMAGE](assets/en/001.webp)`, znamená to, že se zde zobrazí obrázek.
+
+
+Mezi kód obrázku a text vždy přidejte nový řádek. Příklad níže:
+
+
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
+
+
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
+
+
+
+Kromě toho si nezapomeňte přečíst obsah každého obrázku. Pokud si všimnete jakýchkoli problémů s překladem textu uvnitř obrázků, informujte o tom koordinátora a dostanete možnost provést korekturu i vy!
+
+
+Obrázek si můžete prohlédnout v sekci `Preview` na Githubu (nebo na našich webových stránkách, otevřete v jiné záložce). Poté se vraťte do vedlejší sekce `kód` a proveďte korekturu.
+
+
+![REVIEW](assets/en/9.webp)
+
 
 ## Doporučení pro formát
 
@@ -205,11 +242,11 @@ Níže najdete několik příkladů formátových problémů, na které je třeb
 
 
 
-- Věnujte pozornost podivným interpunkčním znaménkům, jako je `**` nebo `**`, která mohou představovat špatné vykreslení tučného symbolu. Na obrázku níže vidíte, že hvězdičky jsou pouze v pravé části slova, což vypadá divně.
+- Věnujte pozornost podivným interpunkčním znaménkům, jako je `\*\*`` nebo ``**``, která mohou představovat špatné vykreslení tučného symbolu. Na obrázku níže vidíte, že hvězdičky jsou pouze v pravé části slova, což vypadá divně.
 
 
 
-![REVIEW](assets/en/9.webp)
+![REVIEW](assets/en/10.webp)
 
 
 
@@ -217,7 +254,7 @@ Proto vždy zkontrolujte originální anglický text, abyste zjistili, zda tam m
 
 
 
-![REVIEW](assets/en/10.webp)
+![REVIEW](assets/en/11.webp)
 
 
 
@@ -232,7 +269,47 @@ Ujistěte se, že jste zkontrolovali původní jazykový soubor (často EN nebo 
 
 
 
-![REVIEW](assets/en/11.webp)
+![REVIEW](assets/en/12.webp)
+
+
+
+
+## Korektury výukových programů
+
+
+Pokud se rozhodnete provést korekturu výukových materiálů, koordinátor otevře zvláštní otázku pro **celou sekci výukových materiálů**. Po dokončení úkolu můžete svůj postup zdokumentovat komentářem v čísle se seznamem zkontrolovaných tutoriálů: vytvoříte si tak přehledný systém sledování pro budoucí použití, což je důležité, protože každý měsíc přibývá nový obsah. Příklad tohoto přístupu si můžete prohlédnout [zde](https://github.com/PlanB-Network/bitcoin-educational-content/issues/3023#issuecomment-3364923190).
+
+
+![REVIEW](assets/en/13.webp)
+
+
+Vzhledem k tomu, že nové výukové programy jsou přidávány každý měsíc, může se stát, že vaše pobočka bude během korektur zastaralá. Někteří korektoři k tomuto problému přistupují tak, že synchronizují přesně tu větev, ve které pracují: **Nikdy to prosím nedělejte! Pokud to uděláte, riskujete, že ztratíte veškerý pokrok, kterého jste do té doby dosáhli!**
+
+
+Místo toho byste měli nejprve dokončit korektury výukových programů v aktuálním fork. Poté **synchronizujte `dev`** a vytvořte novou větev, ve které se zaměříte na korektury nově přidaných výukových materiálů (pouze těch, které v předchozí větvi chybí).
+
+
+V tutoriálech je možné, že **obrázky nebudou přeloženy**. Vzhledem k tomu, že většina výukových programů je **původně napsána ve francouzštině nebo angličtině**, pravděpodobně najdete obrázky, které obsahují příkazy nebo pokyny v původním jazyce. Uveďme si příklad z výukového programu Sparrow v nizozemštině, a to tak, že uvedeme text i související obrázek.
+
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Publieke server_".
+```
+
+
+![REVIEW](assets/en/14.webp)
+
+
+Jak vidíte, obrázek jasně ukazuje na `Veřejný server`, v angličtině, zatímco v textu je uveden výraz `_Publieke server_`. V tomto případě je problém s koherencí, protože čtenář při konfrontaci obrázku s textem nachází protichůdné informace.
+
+
+Tuto záležitost vyřešíte tak, že vložíte příkaz tak, jak je zobrazen na obrázku (anglicky nebo francouzsky), a do závorek vložíte překlad do vašeho jazyka , jak je uvedeno níže:
+
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Public Server_" (Publieke server).
+```
+
 
 
 ## Korektury kvízů
@@ -244,17 +321,17 @@ Věděli jste, že můžete také opravovat kvízové otázky v každém kurzu? 
 Opět se ujistěte, že se nacházíte ve vyhrazené pobočce, kterou jste otevřeli speciálně pro tento účel, a vždy informujte koordinátora.
 
 
-Důležitou věcí, kterou je třeba mít na paměti při korektuře tohoto typu souboru _yml_, je vyhnout se přidávání dvojteček ``:`` uvnitř textu. Dvojtečka se ve skutečnosti **používá** pouze k oddělení dvojic klíč-hodnota, jako je "wrong_answers", od ostatních. Příklad můžete vidět na obrázku níže:
+Při korektuře tohoto typu souboru _yml_ je důležité mít na paměti, abyste se vyhnuli přidávání dvojteček ``:`` nebo uvozovek uvnitř textu. Dvojtečka se ve skutečnosti **používá** pouze k oddělení dvojic klíč-hodnota, jako je "wrong_answers", od ostatních. Příklad můžete vidět na obrázku níže:
 
 
-![REVIEW](assets/en/12.webp)
+![REVIEW](assets/en/15.webp)
 
 
-Po přezkoumání otázky se ujistěte, že jste změnili stav "přezkoumáno" z "false" na "true", jak je znázorněno na obrázku níže. Ujistěte se, že tato slova o stavu jsou v angličtině, ať už pracujete v jakémkoli jazyce!
+Po přezkoumání otázky se ujistěte, že jste změnili stav "přezkoumáno" z "false" na "true", jak je znázorněno na obrázku níže. Ujistěte se, že **zachováváte tyto stavy v angličtině**, bez ohledu na to, v jakém jazyce pracujete!
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/16.webp)
 
 
 Pokud chybí stavový řádek "reviewed:true", nezapomeňte jej **přidat na konec kvízu**.
@@ -274,13 +351,14 @@ Pokud je název ponechán v angličtině, můžete větu přizpůsobit svému ja
 Kromě toho dbejte na to, abyste názvy psali VELKÝMI PÍSMENY.
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/17.webp)
 
 
-## Název a popis vaší PR
+
+## Název a popis vašeho PR
 
 
-Při odesílání PR by bylo úžasné, kdybyste jej pojmenovali v tomto formátu: [KOREKTURA] NÁZEV OBSAHU - JAZYK:
+Při odesílání PR by bylo úžasné, kdybyste ji pojmenovali v tomto formátu: [KOREKTURA] NÁZEV OBSAHU - JAZYK:
 
 
 ```
@@ -290,7 +368,7 @@ Při odesílání PR by bylo úžasné, kdybyste jej pojmenovali v tomto formát
 
 Kromě toho můžete do části **komentáře k PR** napsat "uzavírá" + číslo problému, které vám koordinátor poslal při zahájení korektury, před které napíšete ``#``.
 
-Pokud jste například právě odeslali PR s korekturou cyp201 + kvízy, můžete napsat "uzavírá [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+Pokud jste například právě odeslali PR s korekturou cyp201 + kvízy, můžete napsat "uzavírá [#2934](https://github.com/PlanB-Network/bitcoin-educational-content/issues/2934)".
 
 
 Tímto způsobem budou PR a problém propojeny a kdokoli bude číst veřejný repozitář Github, může snadno najít informace.
@@ -305,49 +383,31 @@ Tímto způsobem budou PR a problém propojeny a kdokoli bude číst veřejný r
 
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/18.webp)
 
 
 
 Při použití funkce "nahradit vše" je důležité překontrolovat výsledky, abyste se ujistili, že odkazy nebyly také změněny. Chcete-li například změnit slovo "Bitcoin" na "Bitkoin" (což může být v některých jazycích nezbytné), můžete pomocí funkce "nahradit vše" efektivně aktualizovat všechny výskyty v textu. Mějte však na paměti, že tento nástroj změní také všechny odkazy obsahující toto slovo, což může vést k problémům s přesměrováním.
 
 
-V níže uvedeném příkladu korektor použil výše uvedenou funkci k nahrazení slova "Satoshi" slovem "Satoshi(Sats)" a také změnil odkaz na výukový program obsahující samotné slovo. V důsledku toho se odkaz stal neplatným.
+V níže uvedeném příkladu korektor použil výše uvedenou funkci k nahrazení slova "satoshi" slovem "satoshi(sats)" a také změnil odkaz na výukový program obsahující samotné slovo. V důsledku toho se odkaz stal neplatným.
 
 
-Vždy dvakrát zkontrolujte všechny hypertextové odkazy v textu a ujistěte se, že jsou správné.
-
-
-
-![REVIEW](assets/en/16.webp)
+Vždy překontrolujte všechny hypertextové odkazy v textu a ujistěte se, že jsou správné.
 
 
 
-
-- V návaznosti na téma, pokud autor vloží odkaz odkazující na kurz nebo výukový program Plan ₿ Academy (**ne** v závorce), webová stránka automaticky vytvoří "kartu" zobrazující související miniaturu. V důsledku toho vždy dbejte na to, abyste mezi text a samotný odkaz **vložili nový řádek**, jinak se na webu může objevit následující chyba.
-
+![REVIEW](assets/en/19.webp)
 
 
-![REVIEW](assets/en/17.webp)
 
 
-Totéž se děje s "kódy obrázků", jako je tento ``[IMAGE](asset/fr/001.webp)``: mezi kód obrázku a text vždy přidejte nový řádek. Příklad níže:
+- V návaznosti na téma, pokud autor vloží odkaz odkazující na kurz nebo výukový kurz Plan ₿ Academy (**ne** v závorce), webová stránka automaticky vytvoří "kartu" zobrazující související miniaturu. V důsledku toho vždy dbejte na to, abyste mezi text a samotný odkaz **vložili nový řádek**, jinak se může na webu zobrazit následující chyba.
 
 
-```
-WRONG CONFIGURATION:
-- to start translating, click on the button `Translate`: ![language](assets/08.webp)
-To save, click on `save`!
 
+![REVIEW](assets/en/20.webp)
 
-RIGHT CONFIGURATION:
-
-- to start translating, click on the button `Translate`:
-
-![language](assets/08.webp)
-
-To save, click on `save`!
-```
 
 
 ## Závěr
@@ -356,10 +416,10 @@ To save, click on `save`!
 Pokud to shrneme, znalost běžných chyb korektorů vám může pomoci zlepšit vaše dovednosti při kontrole obsahu. Je snadné přehlédnout takové věci, jako je kontext nebo konzistence, a zachycení těchto chyb může mít velký význam.
 
 
-Vždy mějte na paměti, že tyto kurzy a výukové programy může číst i začátečník, takže je naší povinností zajistit, aby jim plně porozuměl. Jako korektor jste pedagogem!
+Vždy mějte na paměti, že tyto kurzy a výukové programy může číst i začátečník, takže je naší povinností zajistit, aby jim plně porozuměl. **Jako korektor jste pedagogem!**
 
 
-Nyní jste připraveni začít s korekturami kurzů, výukových programů, kvízů a slovníčků. Zůstaňte naladěni a začněte také kontrolovat obrázky a přepisy videí ;)
+Nyní jste připraveni začít s korekturami kurzů, výukových programů, kvízů a slovníčků. Zůstaňte naladěni, abyste mohli začít kontrolovat také přepisy videí!
 
 
 Děkujeme, že jste si přečetli tento návod, a přejeme vám příjemnou cestu za korekturami!

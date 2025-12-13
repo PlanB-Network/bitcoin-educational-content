@@ -1,5 +1,0 @@
----
-term: INDEXEN/TXINDEX/
----
-
-Bestanden in Bitcoin core die bedoeld zijn om alle transacties in Blockchain te indexeren. Deze indexering maakt het mogelijk om snel gedetailleerde informatie over een transactie op te zoeken aan de hand van de identificatie (txid), zonder de hele Blockchain te hoeven doorlopen. Het aanmaken van deze indexeringsbestanden is een optie die niet standaard is ingeschakeld in Bitcoin core. Als deze optie niet is ingeschakeld, zal je node alleen transacties indexeren die geassocieerd zijn met wallets die aan je node zijn gekoppeld. Om het indexeren van alle transacties in te schakelen, moet je de parameter `-txindex=1` in het `Bitcoin.conf` bestand instellen. Deze optie is vooral nuttig voor toepassingen en diensten die vaak de transactiegeschiedenis van Bitcoin doorzoeken.

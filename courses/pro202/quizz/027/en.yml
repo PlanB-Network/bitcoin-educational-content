@@ -1,0 +1,8 @@
+question: What happens to the stack after executing OP_CHECKSIG when signature verification succeeds?
+answer: The value 1 is pushed onto the stack
+wrong_answers:
+  - The signature and public key remain on the stack
+  - The stack is cleared and reset to empty
+  - The public key hash is pushed onto the stack
+explanation: |
+  OP_CHECKSIG is a stack-transforming opcode that consumes a signature and public key from the stack, verifies the signature against the transaction's sighash, and pushes either 1 (for valid) or 0 (for invalid) onto the stack. The original signature and public key are removed during this process. The stack is not cleared entirely, and no hash values are pushed - only the boolean result of the verification operation.

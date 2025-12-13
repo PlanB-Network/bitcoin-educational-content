@@ -6,4 +6,4 @@ wrong_answers:
   - Bob automatycznie otrzymuje środki w kanale
 explanation: |
   Bez podpisu Boba na transakcji wypłaty, Alicja nie może zapewnić sobie odzyskania swoich środków w przypadku wystąpienia problemu, co stwarza ryzyko ustraty środków.
-reviewed: false
+reviewed: true

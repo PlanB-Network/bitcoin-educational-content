@@ -1,5 +1,5 @@
 ---
-name: カシューミー
+name: Cashu.me
 description: Cashu.meによるecashの使用ガイド
 ---
 

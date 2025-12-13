@@ -1,8 +1,9 @@
-question: 闪电网络上的交易费用通常低于多少？
-answer: 0.5%
+question: 在接收支付方面，Ark 相比 Lightning 有什么优势？
+answer: 不需要入站流动性
 wrong_answers:
-  - 1%
-  - 2%
-  - 3%
-explanation: >-
-  闪电网络上的交易费用极低，通常低于0.5%。
+  - 支付立即终结
+  - 没有交易费用
+  - 不需要钱包
+explanation: |
+  Ark 允许在无需预先具备入站流动性的情况下接收支付。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - "Het onthult dat het GitHub platform technische beperkingen heeft voor het omgaan met Bitcoin's codebase"
 explanation: |
   Volgens de inhoud van het hoofdstuk duurt het lang voordat pull requests worden samengevoegd, voornamelijk door een gebrek aan review, wat voortkomt uit onvoldoende reviewers in plaats van tegenwerking van maintainers of technische problemen. Het reviewproces is cruciaal voor de veiligheid van Bitcoin, omdat het de kwaliteit van de code waarborgt en kwaadaardige wijzigingen voorkomt. Dit knelpunt bestaat omdat het reviewen van complexe cryptografische code expertise en tijd vereist, waardoor gekwalificeerde reviewers een schaars goed zijn in het ontwikkelproces.
+reviewed: false

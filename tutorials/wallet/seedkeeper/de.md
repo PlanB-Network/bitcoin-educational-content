@@ -1,5 +1,5 @@
 ---
-name: Saatguthüter
+name: Seedkeeper
 description: Wie erstelle ich eine Sicherungskopie meines wallet Bitcoin mit der Seedkeeper-Chipkarte?
 ---
 

@@ -6,3 +6,4 @@ wrong_answers:
   - Afgeleide werken moeten het originele Bitcoin Core logo bevatten en mogen niet hernoemd of gerebrand worden
 explanation: |
   De MIT-licentie vereist dat afgeleide werken worden verspreid onder dezelfde licentievoorwaarden als de originele software, zodat het open source-karakter behouden blijft. Dit verbiedt geen commerciële verkoop (fout antwoord 1), vereist geen toestemming van ontwikkelaars (fout antwoord 2) en verplicht niet tot het behouden van de originele branding (fout antwoord 3). De licentie stelt specifiek dat aanpassingen en afgeleide werken onder dezelfde voorwaarden moeten worden toegestaan, waardoor het toestemmingsvrije ontwikkelingsmodel dat innovatie zoals Lightning Network en sidechains mogelijk maakt, behouden blijft.
+reviewed: false

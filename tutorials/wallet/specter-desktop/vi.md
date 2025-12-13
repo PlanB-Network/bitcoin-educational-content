@@ -1,5 +1,5 @@
 ---
-name: Máy tính để bàn Spectre
+name: Specter Desktop
 description: Quản lý danh mục đầu tư Bitcoin đa chữ ký của bạn trong quyền tự chủ hoàn toàn với nút riêng của bạn
 ---
 

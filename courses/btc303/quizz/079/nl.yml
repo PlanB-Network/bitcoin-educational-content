@@ -6,3 +6,4 @@ wrong_answers:
   - Om juridische aansprakelijkheidsproblemen te voorkomen die zouden kunnen ontstaan door voortijdige bekendmaking aan projecten van derden
 explanation: |
   De timingstrategie weerspiegelt een beveiliging-eerst aanpak waarbij het netwerk van Bitcoin beschermd moet worden voordat anderen geholpen worden. Als altcoins gelijktijdig zouden worden ingelicht, zouden aanvallers altcoin-implementaties kunnen bestuderen of misbruiken om de kwetsbaarheid te begrijpen en vervolgens mogelijk Bitcoin-knooppunten aanvallen die nog niet hebben geüpgraded. De sequentiële aanpak zorgt voor een wijdverspreide bescherming van Bitcoin voordat de hulp wordt uitgebreid naar andere netwerken, waardoor de kans op uitbuiting van de kwetsbaarheid in het hele ecosysteem wordt geminimaliseerd.
+reviewed: false

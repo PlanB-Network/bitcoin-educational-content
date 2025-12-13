@@ -6,4 +6,4 @@ wrong_answers:
   - netstat -s
 explanation: |
   onyesho la njia ya ip huorodhesha njia zinazojulikana kwa kernel na njia zinazochukuliwa na pakiti za IP.
-reviewed: false
+reviewed: true

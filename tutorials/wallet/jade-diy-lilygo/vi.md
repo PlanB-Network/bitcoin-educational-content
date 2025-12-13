@@ -1,5 +1,5 @@
 ---
-name: Ngọc bích tự làm
+name: Jade DIY
 description: Biến một bo mạch phát triển giá 15 đô la thành phần cứng Bitcoin wallet có đầy đủ chức năng
 ---
 

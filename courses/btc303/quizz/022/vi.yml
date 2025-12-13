@@ -6,3 +6,4 @@ wrong_answers:
   - Tắc nghẽn mạng và tập trung mining
 explanation: |
   Trong phần 7 của sách trắng Bitcoin, Satoshi Nakamoto đã xác định việc tái sử dụng địa chỉ và phân cụm địa chỉ là những vấn đề chính về quyền riêng tư của blockchain. Việc tái sử dụng Address xảy ra khi cùng một địa chỉ được sử dụng nhiều lần, giúp dễ dàng liên kết các giao dịch với cùng một người dùng. Phân cụm Address đề cập đến khả năng xác định rằng các địa chỉ khác nhau thuộc về cùng một chủ sở hữu, đặc biệt thông qua các giao dịch nhiều đầu vào, cho thấy tất cả các đầu vào đều do cùng một người kiểm soát. Các lựa chọn khác là những thách thức về mặt kỹ thuật hoặc vận hành trong Bitcoin nhưng không phải là các vấn đề về quyền riêng tư được Satoshi thảo luận cụ thể trong sách trắng.
+reviewed: false

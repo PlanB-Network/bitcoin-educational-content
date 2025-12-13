@@ -6,3 +6,4 @@ wrong_answers:
   - Trustless và các hệ thống đáng tin cậy phải hoạt động độc lập và không thể chồng lên nhau
 explanation: |
   Nhận định quan trọng của Matt Corallo là lớp cơ sở không cần tin cậy của Bitcoin mang lại sự linh hoạt trong thiết kế hệ thống. Một nền tảng không cần tin cậy như giao thức của Bitcoin cho phép các nhà phát triển tạo ra các dịch vụ đáng tin cậy (như ví lưu ký) trên các lớp cao hơn trong khi vẫn duy trì các đảm bảo bảo mật cơ bản. Tuy nhiên, điều ngược lại là không thể - bạn không thể tạo ra các hệ thống thực sự không cần tin cậy nếu bản thân nền tảng yêu cầu sự tin cậy, vì bất kỳ thuộc tính không cần tin cậy nào cũng sẽ bị phá hoại bởi các lỗ hổng của lớp cơ sở đáng tin cậy.
+reviewed: false

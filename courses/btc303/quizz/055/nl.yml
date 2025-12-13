@@ -6,3 +6,4 @@ wrong_answers:
   - Het is wettelijk beschermd door de MIT Licentie als de enige gezaghebbende bron van Bitcoin code
 explanation: |
   Zoals Jameson Lopp uitlegt, is Bitcoin Core's GitHub repository technisch identiek aan duizenden andere kopieën wereldwijd, maar is het sociaal geaccepteerde middelpunt geworden voor ontwikkelingscoördinatie. Het heeft geen speciale technische eigenschappen, cryptografische authenticatiemechanismen of wettelijke beschermingen die het superieur maken. De MIT Licentie zorgt er eigenlijk voor dat iedereen de code vrij kan kopiëren en herdistribueren. Als dit archief zou verdwijnen, zou de gemeenschap gewoon ergens anders een nieuw centrum oprichten, wat aantoont dat het belang ervan eerder een sociale conventie is dan een technische noodzaak.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Sidechain එකක් Bitcoin සමඟ සම්බන්ධ කරන යාන්ත්‍රණය කුමක්ද?
+answer: දෙදిశාගත ඇන්කර කිරීම
+wrong_answers:
+  - ගෙවීම් නාලිකාව
+  - Proof of Stake
+  - Sharding
+explanation: |
+  two-way peg යාන්ත්‍රණය Bitcoin මත BTC අගුළු දමා ඒවා sidechain මත නිරූපණය කිරීමට ඉඩ සලසයි.
+reviewed: false

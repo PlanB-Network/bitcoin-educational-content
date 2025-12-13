@@ -1,5 +1,5 @@
 ---
-name: Seva ya BTCPay - Mwavuli
+name: BTCPay Server - Umbrel
 description: Kusakinisha na kutumia Seva ya BTPay kwenye Umbrel ili kukubali Bitcoin na Umeme
 ---
 

@@ -6,3 +6,4 @@ wrong_answers:
   - De versleutelde code moet beschikbaar worden gesteld via een aparte download met reproductiekosten
 explanation: |
   De definitie van open bron stelt expliciet dat "opzettelijk verduisterde broncode niet is toegestaan" Dit is een fundamentele vereiste omdat verduistering zinvol onderzoek, wijziging en begrip van de code verhindert, wat de kerndoelen van openbronsoftware tenietdoet. De broncode moet "de voorkeursvorm hebben waarin een programmeur het programma zou wijzigen", waardoor verduistering onverenigbaar is met de principes van open source, ongeacht de documentatie- of distributiemethoden.
+reviewed: false

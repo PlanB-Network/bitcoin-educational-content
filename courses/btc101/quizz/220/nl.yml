@@ -1,11 +1,9 @@
-question: Wat zou er kunnen gebeuren met traditionele geldtransferdiensten zoals Western Union, centrale banken, Visa en Mastercard als ze Lightning Network niet aannemen?
-answer: Ze kunnen verdwijnen.
+question: Welk mechanisme verbindt een sidechain met Bitcoin?
+answer: Tweezijdige verankering
 wrong_answers:
-  - Ze kunnen populairder worden.
-  - Ze zouden veiliger kunnen worden.
-  - Ze zouden meer gedecentraliseerd kunnen worden.
+  - Betalingskanaal
+  - Proof of Stake
+  - Sharding
 explanation: |
-  Traditionele geldtransferdiensten zoals Western Union,
-  centrale banken, Visa en Mastercard zouden kunnen verdwijnen als ze
-  de Lightning Network technologie niet overnemen.
-reviewed: true
+  Het two-way peg-mechanisme maakt het mogelijk om BTC op Bitcoin te vergrendelen en ze op de sidechain te representeren.
+reviewed: false

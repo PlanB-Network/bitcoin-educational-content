@@ -6,3 +6,4 @@ wrong_answers:
   - Devono essere sostituiti con altri mining per mantenere il livello di fornitura previsto
 explanation: |
   Satoshi Nakamoto ha spiegato che le monete perse funzionano come una donazione a tutti gli altri possessori di bitcoin, rendendo le loro monete più preziose a causa della riduzione dell'offerta effettiva. Si tratta di un effetto deflazionistico positivo, non di una forza destabilizzante. Le monete perse non influiscono sulle ricompense del mining, poiché queste provengono dalle monete di nuovo conio e dalle commissioni di transazione, non dall'offerta esistente. Il protocollo del Bitcoin non sostituisce le monete perdute - esse rimangono permanentemente fuori dalla circolazione, il che in realtà avvantaggia i detentori rimanenti attraverso una maggiore scarsità.
+reviewed: false

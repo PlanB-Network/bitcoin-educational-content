@@ -2082,7 +2082,7 @@ BTCPay открывает сервис GRPC LND для внешнего потр
 #### LND (REST)
 
 
-BTCPay открывает REST-сервис LND для внешнего использования; информацию о подключении вы найдете здесь; список совместимых кошельков приведен здесь. Среди совместимых кошельков - Joule, Alby и ZeusLN. BTCPay Server предоставляет QR-код для подключения, который можно отсканировать и применить в совместимом Wallet.
+BTCPay открывает REST-сервис LND для внешнего использования; информацию о подключении вы найдете [здесь]((https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay); список совместимых кошельков приведен [здесь](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server). Среди совместимых кошельков - Joule, Alby и ZeusLN. BTCPay Server предоставляет QR-код для подключения, который можно отсканировать и применить в совместимом Wallet.
 
 
 

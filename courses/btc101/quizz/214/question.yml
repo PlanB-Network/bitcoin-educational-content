@@ -1,143 +1,16 @@
-id: b56e8707-19bc-46ee-8321-d352732080b0
+id: 778f77f0-10e2-4775-8631-a85b5ce40136
 chapterId: b403f1e4-f1ff-572b-a242-9b58cb3736d0
-difficulty: easy
+difficulty: intermediate
 duration: 15
-author: DecouvreBitcoin
-original_language: en
+author: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+original_language: fr
+
+# Proofreading metadata
+
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.19
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.17
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributor_names:
-      - Asi0Flammeus
-    reward: 0.08
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.17
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.19
   - language: fr
-    last_contribution_date: '2025-11-05'
+    last_contribution_date: 2025-12-12
     urgency: 1
     contributor_names:
-      - ProfScofield21
-      - nrak10
-    reward: 0.04
-  - language: it
-    last_contribution_date: '2025-08-18'
-    urgency: 1
-    contributor_names:
-      - f205sats
-    reward: 0.08
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.24
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.17
-  - language: vi
-    last_contribution_date: '2025-11-05'
-    urgency: 1
-    contributor_names:
-      - Anh-La
-    reward: 0.12
-  - language: et
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.19
-  - language: id
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.21
-  - language: nb-NO
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.19
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.19
-  - language: zh-Hans
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.21
-  - language: pl
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.19
-  - language: hi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.26
-  - language: sr-Latn
-    last_contribution_date: '2025-08-19'
-    urgency: 1
-    contributor_names:
-      - sanja993
-    reward: 0.1
-  - language: sw
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.19
-  - language: zh-Hant
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.21
-  - language: fa
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.19
-  - language: sv
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.17
-  - language: nl
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.19
-  - language: tr
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.21
-  - language: ko
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.21
-  - language: rn
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.24
+      - LoicPandul
+    reward: 0

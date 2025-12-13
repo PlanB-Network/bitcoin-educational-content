@@ -1,5 +1,5 @@
 ---
-name: Suunnitelma ₿ Akatemia - Päärynät-sovellus
+name: Plan ₿ Academy - Pears App
 description: Miten Plan ₿ Academy -sovellus asennetaan ja käytetään Pearsissä?
 ---
 

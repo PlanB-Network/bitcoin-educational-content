@@ -1,5 +1,5 @@
 ---
-name: Ingefära Wallet
+name: Ginger Wallet
 description: Öppen källkod, självförsvar Bitcoin wallet programvara, fork från Wasabi Wallet, integrering av Coinjoins
 ---
 ![cover](assets/cover.webp)

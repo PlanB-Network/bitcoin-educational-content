@@ -6,3 +6,4 @@ wrong_answers:
   - Non hanno implementato meccanismi di autenticazione degli utenti adeguati
 explanation: |
   Le prime valute digitali sono fallite perché dipendevano da server centrali per l'elaborazione e la convalida delle transazioni. Come spiegato nel capitolo, questa centralizzazione è diventata il loro "tallone d'Achille" perché i governi o altri avversari potevano facilmente censurare, controllare o spegnere questi punti centrali di fallimento. Anche i tentativi di utilizzare più server in una federazione lasciavano il sistema vulnerabile, poiché ogni server poteva "fallire, o essere fatto fallire, uno alla volta" Il Bitcoin ha risolto questo problema eliminando la necessità di un'autorità centrale grazie al sistema decentralizzato proof-of-work.
+reviewed: false

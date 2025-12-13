@@ -1,8 +1,9 @@
-question: Kakvu mrežu kreira Lightning mreža?
-answer: Mreža platnih kanala.
+question: Koji pristup strukturiše evoluciju Bitcoina opisanu u ovom poglavlju?
+answer: Evolucija u slojevima
 wrong_answers:
-  - Mreža rudarskih čvorova.
-  - Mreža Blockchain čvorova.
-  - Mreža kriptovalutnih berzi.
-explanation: >-
-reviewed: true
+  - Monolitni blokčejn
+  - Nativni šarding
+  - Generalizovano onchain izvršavanje
+explanation: |
+  Bitcoin zadržava jednostavan i robustan osnovni sloj, dok viši protokoli dodaju specifične funkcionalnosti.
+reviewed: false

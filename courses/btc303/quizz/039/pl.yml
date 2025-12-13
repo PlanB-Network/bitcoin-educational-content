@@ -6,3 +6,4 @@ wrong_answers:
   - Zmiany Soft fork stają się trwałe i nie mogą być modyfikowane po ich aktywacji przez górników
 explanation: |
   Shaolinfry zidentyfikował, że sygnalizacja górnicza tworzy naturalny system weta, w którym nawet niewielki procent hashrate może uniemożliwić aktywację aktualizacji dla całej sieci. Ta "bezwładność aktualizacji" staje się bardziej problematyczna, gdy mining staje się bardziej zdecentralizowany, potencjalnie blokując korzystne ulepszenia protokołu. Pozostałe opcje błędnie przedstawiają sposób działania soft forków - górnicy nie mogą jednostronnie odwrócić aktywacji, węzły ekonomiczne zachowują uprawnienia do walidacji, a soft forki mogą być teoretycznie modyfikowane poprzez kolejne aktualizacje.
+reviewed: false

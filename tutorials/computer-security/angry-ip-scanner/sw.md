@@ -22,7 +22,7 @@ ___
 
 
 
-Je, unachanganuaje mtandao wa Windows kwa mashine zilizounganishwa haraka na kwa urahisi? Jibu ni Hasira IP Scanner. Mradi huu wa programu huria hukuwezesha kuchanganua mtandao kwa urahisi, kwa kutumia mchoro wa Interface ambao ni rahisi kutumia.
+Je, unachanganuaje mtandao wa Windows kwa mashine zilizounganishwa haraka na kwa urahisi? Jibu ni angry-ip-scanner. Mradi huu wa programu huria hukuwezesha kuchanganua mtandao kwa urahisi, kwa kutumia mchoro wa Interface ambao ni rahisi kutumia.
 
 
 
@@ -34,7 +34,7 @@ Hapa, tutaitumia kwenye **Windows 11**, lakini inawezekana kabisa kuitumia kweny
 
 
 
-Kina maelezo kidogo kuliko Nmap, **Kichanganuzi cha IP** chenye hasira bado kinavutia kwa uchanganuzi wa haraka na wa kimsingi wa mtandao, lakini pia kwa sababu kinaweza kufikiwa na kila mtu. **Itatambua seva pangishi zilizounganishwa kwenye mtandao** na kutambua **majina ya wapangishaji** na **njia zilizo wazi**.
+Kina maelezo kidogo kuliko Nmap, **scanner ya IP** yenye hasira bado kinavutia kwa uchanganuzi wa haraka na wa kimsingi wa mtandao, lakini pia kwa sababu kinaweza kufikiwa na kila mtu. **Itatambua seva pangishi zilizounganishwa kwenye mtandao** na kutambua **majina ya wapangishaji** na **njia zilizo wazi**.
 
 
 
@@ -44,7 +44,7 @@ Ikiwa unataka kwenda zaidi, angalia mafunzo kwenye Nmap:
 
 https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
-## II. Anza na Kichunguzi cha IP cha Hasira
+## II. Anza na Angry IP Scanner
 
 
 
@@ -52,7 +52,7 @@ https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6d
 
 
 
-Unaweza kupakua toleo la hivi punde la Kichunguzi cha IP cha Hasira kutoka kwa tovuti rasmi ya programu au kutoka kwa GitHub. Tutatumia chaguo la mwisho. Bofya kwenye kiungo kilicho hapa chini na upakue toleo la EXE: "** ipscan-3.9.1-setup.exe**".
+Unaweza kupakua toleo la hivi punde la Angry IP Scanner kutoka kwa tovuti rasmi ya programu au kutoka kwa GitHub. Tutatumia chaguo la mwisho. Bofya kwenye kiungo kilicho hapa chini na upakue toleo la EXE: "** ipscan-3.9.1-setup.exe**".
 
 
 
@@ -84,7 +84,7 @@ Katika uzinduzi wa kwanza, chukua muda kusoma maagizo katika dirisha la "**Anza*
 
 
 
-- **Mlisho**: moduli inayohusika na kutoa orodha za anwani za IP zitakazochanganuliwa, kutoka kwa anuwai ya IP isiyo ya kawaida au faili iliyo na orodha ya anwani za IP.
+- **Feed**: moduli inayohusika na kutoa orodha za IP addresses zitakazochanganuliwa, kutoka kwa anuwai ya IP isiyo ya kawaida au faili iliyo na orodha ya IP addresses.
 - **Fetcher**: seti ya moduli za kurejesha taarifa kuhusu wapangishaji kwenye mtandao. Kuna, kwa mfano, wachukuaji wa kugundua anwani za MAC, skanisho la bandari, kugundua majina ya seva pangishi au kutuma maombi ya HTTP.
 
 
@@ -93,7 +93,7 @@ Katika uzinduzi wa kwanza, chukua muda kusoma maagizo katika dirisha la "**Anza*
 
 
 
-Ili kuchanganua subnet ya IP, ingiza tu **anza IP Address** na **mwisho IP Address** katika sehemu ya "**IP**" (vinginevyo, badilisha aina iliyo upande wa kulia). Kisha bonyeza kitufe cha "** Anza **".
+Ili kuchanganua subnet ya IP, ingiza tu **start IP Address** na **end IP Address** katika sehemu ya "**IP**" (vinginevyo, badilisha aina iliyo upande wa kulia). Kisha bonyeza kitufe cha "** Anza **".
 
 
 
@@ -101,7 +101,7 @@ Ili kuchanganua subnet ya IP, ingiza tu **anza IP Address** na **mwisho IP Addre
 
 
 
-Sekunde chache baadaye, matokeo yataonekana kwenye programu ya Interface. **Kwa kila IP Address katika safu iliyochanganuliwa, utaona kama Kichunguzi cha IP cha Hasira kimegundua mwenyeji au la.** Muhtasari pia utaonekana kwenye skrini, ukionyesha idadi ya seva pangishi zinazotumika (katika kesi hii 6) na idadi ya seva pangishi zilizo na milango iliyo wazi.
+Sekunde chache baadaye, matokeo yataonekana kwenye Interface ya programu. **Kwa kila IP Address katika safu iliyochanganuliwa, utaona kama Angry IP Scanner imegundua host au la**. Muhtasari pia utaonekana kwenye skrini, ukionyesha idadi ya hosts zinazotumika (katika kesi hii 6) na idadi ya hosts zilizo na ports zilizo wazi.
 
 
 
@@ -121,11 +121,11 @@ Hapa, tunaweza kuona kuwepo kwa seva pangishi inayoitwa "**OPNsense.local.domain
 
 
 
-Kwa chaguomsingi, **Kichunguzi cha IP chenye hasira** kitachanganua milango 3: **80** (HTTP), **443** (HTTPS) na **8080**. Unaweza kuongeza milango zaidi ili kuchanganuliwa kutoka kwa mapendeleo ya programu. Bofya kwenye menyu ya "**Zana**", kisha kwenye kichupo cha "**Bandari**".
+Kwa chaguo-msingi, **Angry IP Scanner** itachanganua ports 3: **80** (HTTP), **443** (HTTPS) na **8080**. Unaweza kuongeza ports zaidi kupitia mapendeleo ya programu. Bofya kwenye menyu ya **"Tools"**, kisha kwenye kichupo cha **"Ports"**.
 
 
 
-Hapa, unaweza kurekebisha orodha ya bandari kupitia chaguo la "**Uteuzi wa bandari **". Unaweza **kuonyesha nambari maalum za mlango zikitenganishwa na koma, au safu za mlango**. Mfano hapa chini unaongeza bandari mbili: **445** (SMB) na **389** (LDAP). Ili kuchanganua bandari kutoka 1 hadi 1000, ingiza "**1-1000**". Haijabainishwa ikiwa ukaguzi wa mlango unafanywa katika TCP, UDP au zote mbili.
+Hapa, unaweza kurekebisha orodha ya bandari kupitia chaguo la "**Uteuzi wa port **". Unaweza **kuonyesha nambari maalum za mlango zikitenganishwa na koma, au safu za mlango**. Mfano hapa chini unaongeza bandari mbili: **445** (SMB) na **389** (LDAP). Ili kuchanganua bandari kutoka 1 hadi 1000, ingiza "**1-1000**". Haijabainishwa ikiwa ukaguzi wa mlango unafanywa katika TCP, UDP au zote mbili.
 
 
 
@@ -145,7 +145,7 @@ Ukichanganua tena, kuna uwezekano wa kupata taarifa mpya. Katika mfano ulio hapa
 
 
 
-Iwapo ungependa kuendeleza uchanganuzi zaidi, bofya kwenye menyu ya "**Zana**", kisha ubofye "**Vichochezi**". Hii inaongeza "uwezo" kwenye tambazo. Chagua tu kichota na uisogeze upande wa kushoto ili kuiwasha. Hii itaongeza safu wima ya ziada kwenye matokeo ya tambazo.
+Iwapo ungependa kuendeleza uchanganuzi zaidi, bofya kwenye menyu ya "**tools**", kisha ubofye "**plugins**". Hii inaongeza "uwezo" kwenye tambazo. Chagua tu kichota na uisogeze upande wa kushoto ili kuiwasha. Hii itaongeza safu wima ya ziada kwenye matokeo ya tambazo.
 
 
 
@@ -182,3 +182,5 @@ Ikiwa ungependa kutumia **Nmap** na Interface ya mchoro, unaweza kutumia **progr
 
 
 https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+
+

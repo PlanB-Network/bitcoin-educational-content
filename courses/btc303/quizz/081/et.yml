@@ -6,3 +6,4 @@ wrong_answers:
   - Jõudlusvead tekitavad mälulekkeid, mis lõpuks kukutavad sõlmed, põhjustades ajutist võrgu ebastabiilsust ja vähendades hash-kiirust
 explanation: |
   Gregory Maxwell hoiatas konkreetselt, et oskuslikult rakendades saab tulemuslikkuse vigu kasutada võrgu strateegiliseks jaotamiseks - näiteks eraldades "kaevandaja A ja vahetuse B" ühte ossa, samal ajal kui kõik teised lähevad teise, luues tingimused topeltkulutuste rünnakuteks. See näitab, miks näiliselt väiksemaid probleeme tuleks käsitleda potentsiaalselt tõsiste probleemidena, kuna neid saab kasutada relvana keerukal viisil, mis ei ole kohe ilmne.
+reviewed: false

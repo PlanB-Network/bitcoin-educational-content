@@ -1,5 +1,5 @@
 ---
-name: Månen
+name: Moon
 description: Betal med bitcoins overalt der Visa-bankkort aksepteres.
 ---
 
@@ -177,7 +177,7 @@ Med dette virtuelle kortet kan du betale for produkter og tjenester på nettet p
 
 
 
-https://planb.academy/courses/the-world-of-bitcoin-mining-7750d9da-417a-4377-8e35-85c377168477
+https://planb.academy/courses/7750d9da-417a-4377-8e35-85c377168477
 
 ![buycourse](assets/fr/13.webp)
 

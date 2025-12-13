@@ -1,5 +1,5 @@
 ---
-name: Guardião das sementes
+name: Seedkeeper
 description: Como é que faço uma cópia de segurança do meu wallet Bitcoin com o cartão inteligente Seedkeeper?
 ---
 

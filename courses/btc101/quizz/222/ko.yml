@@ -1,8 +1,9 @@
-question: Lightning Network의 트랜잭션은 어떻게 보호되나요?
-answer: 암호화를 통해, 그리고 Bitcoin에서 채굴자가 소비하는 에너지를 통해 간접적으로.
+question: RGB의 핵심 원칙은 무엇입니까?
+answer: 클라이언트 측 검증
 wrong_answers:
-  - 개인 키만 사용해야 합니다.
-  - 공개 키만 사용해야 합니다.
-  - 개인 키와 공개 키를 모두 사용해야 합니다.
-explanation: >-
-reviewed: true
+  - 블록체인에서의 전역 실행
+  - 연합 합의
+  - Proof-of-Work
+explanation: |
+  RGB는 상태의 로컬 검증에 기반하며, 블록체인은 암호학적 앵커와 이중 지불 방지 수단으로만 사용됩니다.
+reviewed: false

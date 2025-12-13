@@ -6,3 +6,4 @@ wrong_answers:
   - Hastighetsproblemet ved nettbetalinger
 explanation: |
   Bitcoins gjennombrudd var å løse double-spending-problemet uten å kreve en sentral myndighet. double-spending-problemet er utfordringen med å forhindre at noen bruker den samme digitale mynten to ganger. Tidligere digitale valutaer mislyktes fordi de var avhengige av sentrale servere eller betrodde autoriteter, noe som gjorde dem sårbare for sensur og single points of failure. Bitcoin løste dette ved hjelp av en peer-to-peer-distribuert tidsstempelserver som bruker proof-of-work, slik at nettverket kan bli enige om transaksjonsrekkefølgen uten noen sentral kontroll.
+reviewed: false

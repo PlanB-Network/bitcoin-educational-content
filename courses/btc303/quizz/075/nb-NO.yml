@@ -6,3 +6,4 @@ wrong_answers:
   - Evaluerer hver sårbarhet isolert, uten å ta hensyn til hvordan flere mindre problemer kan kombineres for å skape større sikkerhetsrisikoer
 explanation: |
   Maxwell mener at utviklere bør behandle sårbarheter som mer alvorlige enn de ser ut til, fordi problemer som er vanskelige å utnytte, kan bli trivielle med riktig teknikk, og tilsynelatende mindre problemer kan eskalere til alvorlige trusler. Han understreker at enkle ytelsesfeil kan brukes som våpen for å partisjonere nettverket og muliggjøre double-spending-angrep. Denne konservative tilnærmingen erkjenner at utviklere i utgangspunktet kanskje ikke forstår det fulle utnyttelsespotensialet til en sårbarhet, noe som gjør det klokt å anta det verst tenkelige scenarioet i stedet for å undervurdere trusselen.
+reviewed: false

@@ -1,10 +1,9 @@
-question: Mida võimaldab Lightning Network?
-answer: Tehingute sooritamine isikute vahel, kellel ei ole otsest kanaliühendust.
+question: Kuidas nimetatakse Liquidis kasutatavaid bitcoine?
+answer: L-BTC
 wrong_answers:
-  - Tehingute sooritamine ainult isikute vahel, kellel on otsest kanaliühendust.
-  - Tehingute sooritamine isikute vahel, kellel on otsest kanaliühendust ja kolmas osapool.
-  - Tehingute sooritamine isikute vahel, kellel on otsest kanaliühendust ja mitu kolmandat osapoolt.
+  - W-BTC
+  - S-BTC
+  - T-BTC
 explanation: |
-  Lightning Network võimaldab sooritada tehinguid isikute vahel,
-  kellel ei ole otsest kanaliühendust.
+  Liquidis on bitcoinid esindatud L-BTC-dena, mis on 1:1 seotud BTC-ga.
 reviewed: false

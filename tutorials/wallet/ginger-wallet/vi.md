@@ -1,5 +1,5 @@
 ---
-name: Gừng Wallet
+name: Ginger Wallet
 description: Phần mềm Bitcoin wallet tự quản, mã nguồn mở, fork từ Wasabi Wallet, tích hợp Coinjoins
 ---
 ![cover](assets/cover.webp)

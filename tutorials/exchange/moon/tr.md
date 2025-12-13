@@ -1,5 +1,5 @@
 ---
-name: Ay
+name: Moon
 description: Visa banka kartlarının kabul edildiği her yerde bitcoin ile ödeme yapın.
 ---
 
@@ -177,7 +177,7 @@ Bu sanal kartla, herhangi bir geleneksel Visa kartıyla yaptığınız gibi çev
 
 
 
-https://planb.academy/courses/the-world-of-bitcoin-mining-7750d9da-417a-4377-8e35-85c377168477
+https://planb.academy/courses/7750d9da-417a-4377-8e35-85c377168477
 
 ![buycourse](assets/fr/13.webp)
 

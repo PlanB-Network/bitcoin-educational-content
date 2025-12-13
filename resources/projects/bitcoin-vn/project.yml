@@ -1,0 +1,27 @@
+id: 2d295a5a-899d-4b78-b8da-df05f71b52e3
+
+name: BitcoinVN
+
+links:
+  website: https://bitcoinvn.io/
+  twitter: https://x.com/Bitcoin_Vietnam
+
+category: exchange
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-07-02
+    urgency: 1
+    contributor_names: 
+      - Anh-La
+    reward: 0
+
+tags:
+  - software
+  - wallets
+  - business
+  - investment
+
+contributor_names:
+  - Anh-La

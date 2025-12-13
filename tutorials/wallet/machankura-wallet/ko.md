@@ -1,5 +1,5 @@
 ---
-name: 마찬쿠라
+name: Machankura
 description: 인터넷이 없는 모든 휴대폰에서 Bitcoin을 사용하세요.
 ---
 

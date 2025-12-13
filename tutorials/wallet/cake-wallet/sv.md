@@ -1,5 +1,5 @@
 ---
-name: Tårta Wallet
+name: Cake Wallet
 description: Handledning om Cake Wallet och Silent Payments
 ---
 

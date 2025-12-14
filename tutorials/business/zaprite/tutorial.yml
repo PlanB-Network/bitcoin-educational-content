@@ -6,9 +6,9 @@ level: beginner
 
 category: point-of-sale
 
-# Professor
-# Insert the UUID of the person that authored this tutorial
-professor_id: uuid_of_the_professor_author_of_tutorial
+professor_id: b9a20511-ceed-41b9-a1ec-ded4f4332a5d
+
+license: CC-BY-SA-V4
 
 tags:
   - business
@@ -18,7 +18,7 @@ tags:
 original_language: en
 proofreading:
   - language: en
-    last_contribution_date: 2025-07-12
+    last_contribution_date: 2025-12-12
     urgency: 1
     contributor_names:
       - mrjones91

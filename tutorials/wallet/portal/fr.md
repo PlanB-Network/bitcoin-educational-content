@@ -6,7 +6,7 @@ description: Configurer et utiliser le hardware wallet Portal de TwentyTwo-Devic
 
 Le Portal est un hardware wallet Bitcoin conçu par TwentyTwo Devices, une entreprise spécialisée dans la création de hardware wallet open-source pour les bitcoiners. Fondée par Alekos Filini, créateur du projet Magical Bitcoin ([dorénavant nommé BDK](https://github.com/bitcoindevkit)) et ayant travaillé pour Blockstream et BHB Network, TwentyTwo Devices souhaite mettre l’accent sur l’autonomie, la simplicité et la sécurité des utilisateurs.
 
-Portal se distingue des autres hardware wallets sur le marché par son intégration native aux smartphones. Il fonctionne sans câble, ni batterie. Il utilise la technologie NFC pour s’alimenter et communiquer avec n’importe le portefeuille mobile compatible. Son design intrigant est pensé pour une utilisation ergonomique. La partie ronde vient se placer à l'arrière du smartphone pour laisser dépasser un écran permettant de vérifier les détails de vos transactions avant de les signer avec le bouton dédié.
+Portal se distingue des autres hardware wallets sur le marché par son intégration native aux smartphones. Il fonctionne sans câble, ni batterie. Il utilise la technologie NFC pour s’alimenter et communiquer avec n’importe quel portefeuille mobile compatible. Son design intrigant est pensé pour une utilisation ergonomique. La partie ronde vient se placer à l'arrière du smartphone pour laisser dépasser un écran permettant de vérifier les détails de vos transactions avant de les signer avec le bouton dédié.
 
 ![Image](assets/fr/01.webp)
 

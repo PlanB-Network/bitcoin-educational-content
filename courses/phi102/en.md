@@ -1396,7 +1396,7 @@ The third part of the course explored the concrete mechanisms by which freedom p
 In contrast, the study of unfreedom in its various historical and theoretical forms shows that it is not equally rooted in fact. From complete communism to more moderate forms such as excessive taxation or over-regulation, unfreedom breaks the fundamental human bonds of individuality and will. It substitutes guardianship for personal choice, and replaces the contract with politics, with its defective and costly functioning. Authors such as Paul Leroy-Beaulieu in the nineteenth century, and even the physiocrats, had perfectly anticipated this failure, particularly during the great debate on free trade in grain that shook French and European society from the second half of the eighteenth century onwards.
 
 
-### The fallacies of unfreedom and their     
+### The fallacies of unfreedom and their refutation
 
 
 To maintain itself despite its repeated failures, unfreedom must take on theoretically erroneous forms that can be described as sophisms. These distorted representations of reality enable the public to retain confidence in systems which, if properly analyzed, collapse as soon as they are seriously examined. The international fallacy, which establishes an artificial distinction between national and private property, is a perfect illustration of this tendency. Other economic, political and democratic sophisms, such as that of guardianship of guardians, reveal aberrations of the mind that support a system with no real foundation and perfectly predictable failures.

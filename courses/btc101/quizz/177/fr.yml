@@ -1,10 +1,10 @@
-question: Quel a été un événement marquant dans le monde des cryptomonnaies en 2017 ?
-answer: Le lancement de milliers d'Offres Initiales de Pièces (ICO).
+question: Quelle est l'une des raisons pour lesquelles le Bitcoin n'est pas une bulle qui va disparaître ?
+answer: Parce que c'est une monnaie qui est réellement utilisée partout dans le monde.
 wrong_answers:
-  - L'interdiction du Bitcoin.
-  - La création du Bitcoin.
-  - La disparition de toutes les cryptomonnaies.
+  - Parce qu'elle n'est réellement utilisée nulle part.
+  - Parce qu'elle est contrôlée par une autorité centrale.
+  - Parce qu'elle est facile à contrefaire.
 explanation: >-
-  L'année 2017 a été marquée par une bulle spéculative significative dans le
-  monde des cryptomonnaies, notamment avec le lancement de milliers d'Offres Initiales de Pièces (ICO).
+  Le Bitcoin n'est pas une bulle qui va disparaître mais une monnaie qui est réellement
+  utilisée partout dans le monde.
 reviewed: true

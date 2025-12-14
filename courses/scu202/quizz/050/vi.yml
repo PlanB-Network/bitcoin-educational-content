@@ -1,0 +1,9 @@
+question: Tại sao siêu dữ liệu tệp kỹ thuật số lại gây nguy cơ cho quyền riêng tư?
+answer: Họ có thể tiết lộ thông tin nhạy cảm
+wrong_answers:
+  - Chúng làm chậm quá trình mở phần mềm diệt vi-rút trên một số hệ thống
+  - Họ ngăn chặn việc chia sẻ tập tin qua email
+  - Họ có thể lưu trữ phần mềm tống tiền
+explanation: |
+  Siêu dữ liệu có thể chứa thông tin bí mật không hiển thị khi tệp được mở, chẳng hạn như tọa độ GPS, tên tác giả, mã định danh hoặc lịch sử sửa đổi, có thể bị khai thác mà bạn không hề hay biết.
+reviewed: false

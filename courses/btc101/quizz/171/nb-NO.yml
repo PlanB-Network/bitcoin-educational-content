@@ -1,11 +1,9 @@
-question: Hvordan sikrer Bitcoin-protokollen sin usensurerbarhet og ustoppbarhet?
-answer: Hver komponent av protokollen er distribuert geografisk over hele verden
+question: Hva er den generelle trenden for Bitcoin på grunn av dens begrensede mengde og halveringsprosessen?
+answer: En generell oppadgående trend.
 wrong_answers:
-  - Den bruker et desentralisert nettverk av noder
-  - Den bruker en kompleks algoritme for å validere transaksjoner
-  - Den bruker et høyt nivå av kryptering
+  - En generell nedadgående trend.
+  - Ingen trend i det hele tatt.
+  - En trend som svinger vilt uten noe gjenkjennelig mønster.
 explanation: >-
-  Bitcoin-protokollen sikrer sin usensurerbarhet og ustoppbarhet fordi
-  hver komponent av protokollen er distribuert geografisk over hele verden. For
-  eksempel finnes det omtrent 40 000 Bitcoin-noder på alle kontinenter.
+  Bitcoin, på grunn av sin begrensede mengde på 21 millioner bitcoins og sin halveringsprosess (halvering av pengekreasjonen hvert 4. år i gjennomsnitt), følger en generell oppadgående trend.
 reviewed: false

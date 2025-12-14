@@ -1,0 +1,9 @@
+question: Vilken metod används i RGB för att definiera en Single-Use Seal?
+answer: En specifik utpunkt
+wrong_answers:
+  - En specifik publik nyckel
+  - A specifik Bitcoin Address
+  - En kombination av flera UTXO
+explanation: |
+  RGB definierar en Single-Use Seal som en specifik utpunkt, som sedan kan stängas genom utgifterna för denna utpunkt (txid + utgångsnummer).
+reviewed: false

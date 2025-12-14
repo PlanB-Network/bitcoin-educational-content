@@ -1,0 +1,9 @@
+question: Hur kan parterna säkerställa att meddelandena i en säker session kommer i rätt ordning?
+answer: Genom att använda sekvensnummer i varje meddelande
+wrong_answers:
+  - Genom att utbyta nycklar för varje meddelande
+  - Genom att lägga till fördröjningar mellan meddelanden
+  - Genom att kryptera meddelanden med en annan algoritm
+explanation: |
+  Sekvensnummer säkerställer att meddelanden tas emot i rätt ordning och förhindrar att de omordnas.
+reviewed: false

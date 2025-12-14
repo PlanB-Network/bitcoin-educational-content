@@ -1,0 +1,9 @@
+question: Hva er Telegrams viktigste begrensning når det gjelder konfidensialitet i meldinger?
+answer: Kun hemmelige utvekslinger er ende-til-ende-kryptert som standard
+wrong_answers:
+  - Den pålegger en anonym registreringsavgift
+  - Det garanterer ikke ektheten til mottatte filer
+  - Ingen åpen kildekode-klient tilgjengelig
+explanation: |
+  Som standard lagres Telegram-meldinger på selskapets servere, og det er bare hemmelige chatter som har ende-til-ende-kryptering.
+reviewed: false

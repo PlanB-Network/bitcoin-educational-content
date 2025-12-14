@@ -1,0 +1,9 @@
+question: Как се казваше блогът на Джон Матонис, който отразяваше цифровите валути (включително Bitcoin от март 2010 г.)?
+answer: Паричното бъдеще
+wrong_answers:
+  - Класически икономически изследвания
+  - Връщане на пари в брой
+  - Институтът Накамото
+explanation: |
+  След като разменя имейли с Satoshi, той публикува [първата си статия за Bitcoin](https: //themonetaryfuture.blogspot.com/2010/03/bitcoin-peer-to-peer-electronic-cash.html) на 13 март 2010 г.
+reviewed: true

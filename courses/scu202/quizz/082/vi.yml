@@ -1,0 +1,9 @@
+question: Ứng dụng nào cung cấp kiến trúc phi tập trung hoàn toàn mà không có máy chủ trung tâm để định tuyến tin nhắn?
+answer: Keet
+wrong_answers:
+  - Điện tín
+  - Tín hiệu
+  - Threema
+explanation: |
+  Keet hoạt động dựa trên mô hình ngang hàng trong đó mọi thông tin liên lạc được truyền trực tiếp giữa người dùng mà không cần máy chủ trung tâm, đảm bảo tính bảo mật và khả năng phục hồi cao.
+reviewed: false

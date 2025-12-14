@@ -1,0 +1,9 @@
+question: DNS sunucuları için referans olarak yaygın olarak kullanılan açık kaynaklı yazılım hangisidir?
+answer: BIND
+wrong_answers:
+  - Apaçi
+  - Kalamar
+  - Samba
+explanation: |
+  BIND (Berkeley Internet Name Domain), dünya çapındaki DNS sunucularının çoğunluğu tarafından kullanılan açık kaynak referans uygulamasıdır.
+reviewed: false

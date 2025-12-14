@@ -1,0 +1,9 @@
+question: IPv6 रिवर्स रिज़ॉल्यूशन के लिए PTR रिकॉर्ड किस DNS ज़ोन में रखे जाते हैं?
+answer: ip6.arpa
+wrong_answers:
+  - in-addr.arpa
+  - ipv6.arpa
+  - रेव.अर्पा
+explanation: |
+  ip6.arpa ज़ोन विशेष रूप से IPv6 पतों के रिवर्स रिज़ॉल्यूशन के लिए समर्पित है, जबकि in-addr.arpa का उपयोग IPv4 के लिए किया जाता है।
+reviewed: false

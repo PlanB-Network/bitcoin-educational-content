@@ -5,4 +5,5 @@ wrong_answers:
   - Sono utilizzabili solo in certe transazioni specifiche
   - Rappresentano piccole quantità fisse di bitcoin
 explanation: |
-  Come una banconota, un UTXO deve essere speso interamente in una transazione, e qualsiasi eccesso viene restituito al mittente come resto.
+  Come una banconota, un UTXO deve essere speso interamente in una transazione e l'importo in eccesso viene restituito al mittente come resto.
+reviewed: true

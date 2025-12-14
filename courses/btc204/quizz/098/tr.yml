@@ -1,0 +1,10 @@
+question: İleri anonimlik neyi ölçer?
+answer: Geçmişten günümüze bir analize karşı mahremiyetin direnci.
+wrong_answers:
+  - Mahremiyetin bugünden geçmişe bir analize karşı direnci.
+  - Gelecekten bugüne bir analize karşı mahremiyetin direnci.
+  - Gelecekten geçmişe bir analize karşı mahremiyetin direnci.
+explanation: |
+  İleriye dönük anonimlik, bir Coin'ın gizliliğinin geçmişten bugüne yapılan bir analize (girdiden çıktıya) karşı direncini ölçer.
+  
+reviewed: false

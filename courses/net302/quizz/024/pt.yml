@@ -1,0 +1,9 @@
+question: Qual é o principal papel do protocolo TCP no modelo TCP/IP?
+answer: Garantir uma transferência de dados fiável e ordenada
+wrong_answers:
+  - Encriptar as comunicações de rede
+  - Atribuir endereços IP a máquinas
+  - Fragmentar datagramas a nível físico
+explanation: |
+  O TCP assegura uma transmissão de dados fiável, verificando a integridade, mantendo a ordem e tratando da recuperação em caso de perda.
+reviewed: false

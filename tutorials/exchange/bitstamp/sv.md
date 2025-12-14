@@ -1,5 +1,5 @@
 ---
-name: Bitstämpel
+name: Bitstamp
 
 description: Hur man använder Bitstamp
 ---

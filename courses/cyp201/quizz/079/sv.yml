@@ -1,0 +1,8 @@
+question: Vilken är den huvudsakliga funktionen för output script descriptors?
+answer: För att fullständigt beskriva ett utdataskript och tillhandahålla den information som behövs för att återställa en Wallet
+wrong_answers:
+  - Automatiskt generate multisignaturadresser
+  - Ersätt Mnemonic-frasen i Wallet-backuper
+  - Förenkla beräkningen av digitala signaturer
+explanation: |
+  Deskriptorer innehåller all information som behövs för att spåra ett visst skript, inklusive härledningsvägen och de nycklar som används, men inte återställningsfrasen.

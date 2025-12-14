@@ -1,0 +1,9 @@
+question: Ni iciyumviro nyamukuru ikihe kiri mu nkuru y’ugusahura nk’uko Bastiat abivuga?
+answer: Inkuru ni urugamba rudahera hagati y'umwidegemvyo n'agahahazo .
+wrong_answers:
+  - Inkuru ni uruziga rw'iterambere n'ugusenyuka kw'ubutekerezi
+  - Inkuru igenwa n'ibintu vy'ubutunzi .
+  - Inkuru ni inkuru y'akameremere k'umuntu kadahinduka .
+explanation: |
+  Nk’uko Bastiat abivuga, iciyumviro nyamukuru c’inkuru y’ugusahura kiri mu ntambara ibandanya hagati y’umwidegemvyo w’umuntu ku giti ciwe n’inguvu z’agahahazo, aho uburenganzira bwa bamwebamwe akenshi buronswa kubera uburenganzira n’umwidegemvyo w’abandi.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Quale notazione viene utilizzata per indicare la dimensione del prefisso in un indirizzo IPv6?
+answer: CIDR
+wrong_answers:
+  - Netmask decimale punteggiata
+  - Esadecimale separato da due punti
+  - ICANN
+explanation: |
+  La notazione CIDR specifica il numero di bit del prefisso fisso dopo una barra, proprio come in IPv4.
+reviewed: false

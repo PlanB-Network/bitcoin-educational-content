@@ -1,0 +1,9 @@
+question: TCP 網段中的「ACK」標記有何用途？
+answer: 確認收到片段
+wrong_answers:
+  - 若要啟動連線關閉
+  - 加密交換的資料流
+  - 要識別使用的服務連接埠
+explanation: |
+  設定時，ACK 標誌確認已成功接收一個區段，並指定下一個預期序列號。
+reviewed: false

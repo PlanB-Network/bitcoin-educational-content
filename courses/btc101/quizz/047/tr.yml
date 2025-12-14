@@ -1,0 +1,10 @@
+question: Hiperenflasyon olgusunun ikinci aşaması nedir?
+answer: Para birimi çöküşü ve fiyat artışı.
+wrong_answers:
+  - Güven Kaybı.
+  - Para basmanın kısır döngüsü.
+  - Yeni bir para birimi ortaya çıkıyor.
+explanation: |
+  Hiperenflasyonun ikinci aşaması para biriminin çöküşüdür &
+  güven Kaybı Aşamasından hemen sonra fiyat artışı.
+reviewed: true

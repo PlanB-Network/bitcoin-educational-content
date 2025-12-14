@@ -1,0 +1,9 @@
+question: Koja je podrazumevana veličina Mempool u Bitcoin core?
+answer: 300 MB
+wrong_answers:
+  - 256 MB
+  - 512 MB
+  - 1024 MB
+explanation: |
+  Podrazumevano, Bitcoin core ograničava Mempool na 300 MB. Preko toga, izbacuje manje profitabilne transakcije.
+reviewed: true

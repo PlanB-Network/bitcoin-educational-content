@@ -1,0 +1,9 @@
+question: Vilket system utmärker sig för sin öppna källkod och samhällsbaserade modell?
+answer: GNU/Linux
+wrong_answers:
+  - Fönster
+  - macOS
+  - Chrome OS
+explanation: |
+  GNU/Linux är fritt och utvecklas av en världsomspännande gemenskap, vilket garanterar öppenhet, säkerhet och flexibilitet för användaren.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quelle composante d’Android reste totalement open source et auditable par la communauté ?
+answer: L’AOSP
+wrong_answers:
+  - Les Google Mobile Services
+  - Le Play Store
+  - L'iOSP
+explanation: |
+  Seule la base AOSP d’Android est libre. Les Google Mobile Services, très utilisés, sont propriétaires et non auditables.
+reviewed: false

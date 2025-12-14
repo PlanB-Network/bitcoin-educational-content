@@ -1,0 +1,9 @@
+question: Bastiat ve Proudhon'un kapitalizmin geleceğine ilişkin vizyonları arasındaki temel fark nedir?
+answer: Diğer cevapların hepsi.
+wrong_answers:
+  - Bastiat kapitalizmin eşitsizlikleri azaltma yeteneği konusunda iyimserken, Proudhon kötümserdir.
+  - Bastiat sermayenin bir özgürleşme faktörü olduğuna inanırken, Proudhon onu bir baskı aracı olarak görmektedir.
+  - Bastiat özel mülkiyeti savunurken, Proudhon kolektif Ownership'ı desteklemektedir.
+explanation: |
+  Bastiat'nın kapitalizm görüşü, Proudhon'un kötümser ve kolektivist görüşlerinin aksine, eşitsizlikleri azaltma konusundaki iyimserliği, özel mülkiyete verdiği değer ve sermayeyi bir özgürleşme faktörü olarak algılamasıyla ayırt edilir.
+reviewed: false

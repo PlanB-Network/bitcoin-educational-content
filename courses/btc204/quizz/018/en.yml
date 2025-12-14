@@ -5,5 +5,5 @@ wrong_answers:
   - Internal transaction heuristics.
   - External transaction heuristics.
 explanation: |
-  The heuristics used in chain analysis can be grouped into three categories; transaction patterns (or transaction models), internal transaction heuristics, and external transaction heuristics.
-reviewed: false
+  The heuristics used in chain analysis can be grouped into three categories, which are transaction patterns (or transaction models), internal transaction heuristics, and external transaction heuristics.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Byl Immanuel Kant?
+answer: Německý osvícenský filozof.
+wrong_answers:
+  - Anglický filozof a Newtonův žák
+  - Filozof 17. století.
+  - Křesťanský filozof.
+explanation: |
+  Immanuel Kant (1724-1804) byl německý osvícenský filozof. Rozvinul kritickou filozofii, která zásadně ovlivnila moderní myšlení, zejména jeho "Kritikou čistého rozumu".
+reviewed: false

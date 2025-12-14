@@ -1,0 +1,9 @@
+question: Tại sao bạn nên luôn kiểm tra tính toàn vẹn và xác thực của phần mềm tải xuống từ Internet?
+answer: Để tránh cài đặt phần mềm độc hại
+wrong_answers:
+  - Để cải thiện hiệu suất hệ thống
+  - Để tiết kiệm băng thông
+  - Để tăng tốc độ cài đặt
+explanation: |
+  Xác minh tính toàn vẹn và tính xác thực giúp ngăn chặn việc cài đặt phần mềm bị hỏng, bị nhiễm hoặc không hợp pháp.
+reviewed: false

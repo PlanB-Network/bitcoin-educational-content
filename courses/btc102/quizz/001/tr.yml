@@ -1,0 +1,9 @@
+question: Kripto sektöründe bir kimlik avı girişimini tespit etmek için ne yapmalısınız?
+answer: Gönderenin kimliğini kontrol edin.
+wrong_answers:
+  - Yalnızca e-postada yer alan bağlantılara tıklayın
+  - Gerçekliği onaylamak için özel anahtarlarınızı paylaşın
+  - E-postalarda yalnızca logolara ve görsellere güvenin
+explanation: |
+  Her zaman doğru kişiyle etkileşimde olduğunuzdan emin olmalı ve e-postalarda verilen bağlantıları asla kullanmamalısınız. Bunun yerine, tarayıcınızın yer imlerini kullanarak doğrudan siteye manuel olarak gidin.
+reviewed: false

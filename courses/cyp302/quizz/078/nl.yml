@@ -1,0 +1,9 @@
+question: Wat betekent een brute force aanval?
+answer: Alle mogelijke toetsen uitproberen tot de juiste is gevonden
+wrong_answers:
+  - De tekst veranderen om hem onbegrijpelijk te maken
+  - Een openbare sleutel gebruiken om het bericht te decoderen
+  - De computer met Hard slaan om hem te dwingen de geheime sleutel op te geven
+explanation: |
+  Bij een brute force aanval worden systematisch alle mogelijke sleutels getest om een versleuteld bericht te ontsleutelen.
+reviewed: false

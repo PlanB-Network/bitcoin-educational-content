@@ -1,0 +1,9 @@
+question: What fundamental information must a NAT gateway record for each network flow?
+answer: The mapping between internal IP and public IP
+wrong_answers:
+  - Type of network cable used
+  - The mapping between IP address and DNS server
+  - Type of network protocol used
+explanation: |
+  NAT relies on a translation table to maintain correspondence that keeps track of the mapping between internal and public addresses to ensure packets are routed correctly.
+reviewed: false

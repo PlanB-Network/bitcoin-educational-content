@@ -4,7 +4,7 @@ description: Instalace vašeho Bitcoinového uzlu RoninDojo v2 na Raspberry Pi
 ---
 ![obal RoninDojo v2](assets/cover.webp)
 
-***VAROVÁNÍ:** Po zatčení zakladatelů peněženky Samourai a zabavení jejich serverů dne 24. dubna jsou některé funkce RoninDojo, jako je Whirlpool, již nefunkční. Je však možné, že tyto nástroje budou v nadcházejících týdnech obnoveny nebo znovu spuštěny jiným způsobem. Navíc, protože kód RoninDojo byl hostován na GitLabu Samourai, který byl také zabaven, v současné době není možné kód vzdáleně stáhnout. Týmy RoninDojo pravděpodobně pracují na znovu publikování kódu.*
+**VAROVÁNÍ:** Po zatčení zakladatelů peněženky Samourai a zabavení jejich serverů dne 24. dubna jsou některé funkce RoninDojo, jako je Whirlpool, již nefunkční. Je však možné, že tyto nástroje budou v nadcházejících týdnech obnoveny nebo znovu spuštěny jiným způsobem. Navíc, protože kód RoninDojo byl hostován na GitLabu Samourai, který byl také zabaven, v současné době není možné kód vzdáleně stáhnout. Týmy RoninDojo pravděpodobně pracují na znovu publikování kódu.*
 
 _Pozorně sledujeme vývoj této kauzy i vývoj s ní spojených nástrojů. Ujistěte se, že tento návod aktualizujeme, jakmile budou k dispozici nové informace._
 
@@ -16,7 +16,7 @@ _Tento návod je poskytován pouze pro vzdělávací a informační účely. Nep
 
 V předchozím návodu jsme již vysvětlili postup instalace a používání RoninDojo v1. Během posledního roku však týmy RoninDojo spustily verzi 2 své implementace, což představovalo významný obrat v architektuře softwaru. Skutečně se odvrátili od distribuce Linux Manjaro ve prospěch Debianu. V důsledku toho již nenabízejí předkonfigurovaný obraz pro automatickou instalaci na Raspberry Pi. Existuje však stále metoda, jak pokračovat v ruční instalaci. Toho jsem využil pro svůj vlastní uzel a od té doby RoninDojo v2 na mém Raspberry Pi 4 funguje báječně. Proto nabízím nový návod, jak ručně nainstalovat RoninDojo v2 na Raspberry Pi.
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 
 
@@ -209,7 +209,7 @@ Po přechodu na domovskou stránku RoninUI budete vyzváni k zahájení nastaven
 
 ![lets start](assets/notext/25.webp)
 
-V této fázi vám RoninUI představí vaše heslo `root`. Je zásadní jej bezpečně uložit. Můžete si vybrat fyzickou zálohu, na papíře, nebo uložení v [správci hesel](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
+V této fázi vám RoninUI představí vaše heslo `root`. Je zásadní jej bezpečně uložit. Můžete si vybrat fyzickou zálohu, na papíře, nebo uložení v [správci hesel](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 ![root password](assets/notext/26.webp)
 
@@ -243,7 +243,7 @@ Gratulujeme! Váš RoninDojo v2 uzel je nyní nakonfigurován a připraven k pou
 
 **Pokud migrujete ze starého RoninDojo v1 uzlu** na tuto novou verzi s tímto návodem a zachováváte stejný SSD, váš uzel by měl automaticky detekovat a znovu použít existující data na disku, čímž vám ušetří nutnost provádět IBD znovu. V tomto případě budete muset pouze počkat, až se váš uzel resynchronizuje s nejnovějšími bloky.
 
-### Krok 8: "veth* oprava"
+### Krok 8: "veth oprava"
 Pokud narazíte na chybu s vaším RoninDojo v2 na Raspberry Pi, kde po bezproblémové instalaci váš uzel náhle není přes SSH dosažitelný, ale po jednoduchém restartu se obnoví, pak musíte postupovat podle tohoto kroku 8. Tuto běžnou chybu lze snadno opravit řešením vyvinutým komunitou: "_veth oprava_". Tato drobná korekce trvale řeší náhlá odpojení. Zde je návod, jak ji aplikovat.
 
 Otevřete nový terminál na vašem osobním počítači a navážte SSH spojení s vaším uzlem pomocí následujícího příkazu:
@@ -253,7 +253,7 @@ Pokud například IP adresa vašeho uzlu je `192.168.1.40`, příslušný přík
 `SSH ronindojo@192.168.1.40`
 
 Budete vyzváni k zadání uživatelského hesla. Zadejte jej a stiskněte `enter` pro potvrzení. Poté získáte přístup k rozhraní RoninCLI. Použijte šipky na klávesnici k navigaci k možnosti `Exit RoninDojo` a stiskněte `enter` pro její výběr.
-V tomto okamžiku jste v terminálu vašeho uzlu s výzvou příkazu podobnou: `ronindojo@RoninDojo:~ $`. Pro aplikaci opravy veth* napište následující příkaz a stiskněte `enter`: `sudo nano /etc/dhcpcd.conf`
+V tomto okamžiku jste v terminálu vašeho uzlu s výzvou příkazu podobnou: `ronindojo@RoninDojo:~ $`. Pro aplikaci opravy **veth** napište následující příkaz a stiskněte `enter`: `sudo nano /etc/dhcpcd.conf`
 
 Potvrďte znovu své heslo a stiskněte `enter`.
 
@@ -320,7 +320,7 @@ Podrobný tutoriál je připravován, aby vás krok za krokem provedl procesem c
 
 Pro hlubší pochopení coinjoin a jeho použití na Bitcoinu, vás také zvu, abyste si přečetli tento další článek: Understanding and using coinjoin on Bitcoin, kde detailně popisuji vše, co potřebujete vědět o této technice.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### Používání nástroje Whirlpool Stat Tool (WST)
 
@@ -328,7 +328,7 @@ Po provedení coinjoinů s Whirlpool je užitečné přesně zhodnotit dosaženo
 
 Pro prohloubení vašeho porozumění výpočetním mechanismům těchto anonymních setů doporučuji přečíst článek: REMIX - WHIRLPOOL, který detailně popisuje fungování těchto indexů.
 
-https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 
@@ -506,3 +506,4 @@ To je vše! Děkuji, že jste sledovali tento tutoriál až do konce. Pokud se v
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/představujeme-boltzmann-85930984a159](https://medium.com/@laurentmt/představujeme-boltzmann-85930984a159)
 - [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+

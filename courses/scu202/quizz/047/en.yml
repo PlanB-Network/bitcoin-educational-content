@@ -1,0 +1,9 @@
+question: What free, cross-platform software can be used to create an encrypted container file that can be mounted like a virtual disk?
+answer: VeraCrypt
+wrong_answers:
+  - KeePassXC
+  - Syncthing
+  - WinRAR
+explanation: |
+  VeraCrypt lets you create encrypted containers that can be accessed as virtual disks on all major OSes.
+reviewed: false

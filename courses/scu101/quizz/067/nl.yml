@@ -1,0 +1,13 @@
+question: Wat is het grootste probleem met de Single Sign-On (SSO) die wordt aangeboden door internetgiganten?
+answer: Het levert problemen op in termen van beschikbaarheid en risico's op censuur.
+wrong_answers:
+  - Het is moeilijk te gebruiken.
+  - Het vereist veel opslagruimte.
+  - Het is niet compatibel met alle websites.
+explanation: |
+  De Single Sign-On (SSO) die door internetgiganten wordt aangeboden, levert
+  problemen op het gebied van beschikbaarheid en risico's van censuur.
+  Dit komt omdat als de SSO provider een storing heeft
+  of besluit een gebruiker te blokkeren, kan de gebruiker de toegang verliezen tot
+  alle diensten die die SSO gebruiken voor authenticatie.
+reviewed: true

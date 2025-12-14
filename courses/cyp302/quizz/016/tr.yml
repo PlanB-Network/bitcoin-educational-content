@@ -1,0 +1,9 @@
+question: Tekdüze bir değişkenin özelliği nedir?
+answer: Tüm olası değerlerin gerçekleşme olasılığı eşittir
+wrong_answers:
+  - Değerler asimetrik bir dağılım izler
+  - Her bir değerin olasılığı deneye bağlıdır
+  - Sadece iki değer eşit olasılıklarla ortaya çıkabilir
+explanation: |
+  Tekdüze bir değişken, tüm olası değerlerin eşit gerçekleşme olasılığına sahip olduğu rastgele bir değişkendir.
+reviewed: false

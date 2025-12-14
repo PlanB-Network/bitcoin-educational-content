@@ -1,10 +1,9 @@
-question: Apa yang disarankan teks tentang kecepatan belajar tentang Bitcoin?
-answer: Ini rumit untuk memahami semuanya sekaligus, jadi luangkan waktu Anda
+question: Mekanisme apa yang menghubungkan sebuah sidechain ke Bitcoin?
+answer: Penjangkaran dua arah
 wrong_answers:
-  - Mudah untuk mempelajari semuanya sekaligus
-  - Mustahil untuk mempelajari segala sesuatu tentang Bitcoin
-  - Tidak perlu mempelajari segala sesuatu tentang Bitcoin
-explanation: >-
-  Teks menyarankan bahwa ada begitu banyak hal untuk dijelajahi dengan Bitcoin sehingga
-  rumit untuk memahami semuanya sekaligus, jadi seseorang harus meluangkan waktu mereka.
+  - Saluran pembayaran
+  - Proof of Stake
+  - Sharding
+explanation: |
+  Mekanisme two-way peg memungkinkan BTC dikunci di Bitcoin dan direpresentasikan di sidechain.
 reviewed: false

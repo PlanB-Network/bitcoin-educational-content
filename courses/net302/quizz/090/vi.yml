@@ -1,0 +1,9 @@
+question: Khi nào tùy chọn -u trong lsof được sử dụng?
+answer: Để lọc theo người dùng
+wrong_answers:
+  - Để buộc phân giải DNS
+  - Để hiển thị các cổng mở
+  - Để chỉ định máy chủ DNS
+explanation: |
+  Tùy chọn -u trong lsof hạn chế đầu ra đối với các tệp được mở bởi một người dùng hoặc UID cụ thể.
+reviewed: false

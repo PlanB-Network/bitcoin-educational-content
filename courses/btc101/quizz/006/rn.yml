@@ -1,0 +1,10 @@
+question: None Manifesto ya Cypherpunk ni iki?
+answer: Icanditswe canditswe na Eric Hughes cemeza ko ubuzima bwite ari uburenganzira bw’ishimikiro.
+wrong_answers:
+  - Igitabo canditswe na Julian Assange kivuga ku bijanye n’akazoza k’ubuhinga bwa none.
+  - Inyandiko ivuga ingingo ngenderwako za Bitcoin.
+  - Itangazo ryanditswe na David Chaum ku bijanye n’akamaro k’amahera y’ubuhinga bwa none.
+explanation: |
+  Ikete rya Cypherpunk ryanditswe na Eric Hughes mu 1993
+  kandi yemeza ko ubuzima bwite ari uburenganzira bw’ishimikiro.
+reviewed: true

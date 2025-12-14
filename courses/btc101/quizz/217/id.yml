@@ -1,8 +1,9 @@
-question: Bidang apa saja yang menimbulkan pertanyaan terkait Bitcoin?
-answer: Kriptografi, teori permainan, ekonomi dan kebijakan moneter, ilmu komputer, filsafat, energi, hukum, dan regulasi
+question: Apa tujuan utama Lightning Network?
+answer: Memungkinkan pembayaran offchain yang cepat dan berbiaya rendah
 wrong_answers:
-  - Hanya ilmu komputer dan ekonomi
-  - Hanya kriptografi dan teori permainan
-  - Hanya filsafat dan energi
-explanation: >-
-  Bitcoin adalah objek multidisiplin yang menimbulkan pertanyaan terkait berbagai bidang, termasuk kriptografi, teori permainan, ekonomi dan kebijakan moneter, ilmu komputer, filsafat, energi, hukum, dan regulasi.
+  - Meningkatkan ukuran blok pada blockchain Bitcoin
+  - Menggantikan blockchain Bitcoin secara bertahap dengan sistem yang lebih efisien
+  - Membuat ladang penambangan menjadi sangat kaya
+explanation: |
+  Lightning Network bertujuan memungkinkan pembayaran bitcoin yang hampir instan dengan biaya rendah, tanpa membebani blockchain utama.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Lệnh nào hiển thị trạng thái chi tiết của tất cả các giao diện mạng trong Linux?
+answer: hiển thị địa chỉ ip
+wrong_answers:
+  - ifup -a
+  - netstat -i
+  - hiển thị tuyến đường ip
+explanation: |
+  Lệnh "ip addr show" liệt kê tất cả các giao diện mạng, cùng với trạng thái, địa chỉ và các tham số liên quan.
+reviewed: false

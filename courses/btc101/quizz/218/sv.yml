@@ -1,0 +1,9 @@
+question: Varför kan en Lightning-kanal vara oanvändbar i en riktning?
+answer: Otillräcklig likviditet
+wrong_answers:
+  - För nytt block
+  - Utgånget HTLC
+  - Osynkroniserad nod
+explanation: |
+  Även med stor kapacitet tillåter en kanal endast en betalning om tillräcklig likviditet finns på rätt sida.
+reviewed: false

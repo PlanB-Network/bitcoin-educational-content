@@ -1,0 +1,12 @@
+question: Vad är en giltig Hash i samband med block Mining i Bitcoin-nätverket?
+answer: Ett unikt fingeravtryck som är kopplat till blocket och består av 256 tecken.
+wrong_answers:
+  - En unik kod som används för att få tillgång till blocket.
+  - Ett unikt lösenord som krävs för att bryta blocket.
+  - En unik identifierare för den Miner som utvann blocket.
+explanation: |
+  I samband med block Mining i Bitcoin-nätet är en
+  giltig Hash ett unikt fingeravtryck som är associerat med
+  blocket, som består av 256 tecken. Giltigheten för denna
+  Hash beror på Bitcoin-nätverkets svårighetsgrad.
+reviewed: true

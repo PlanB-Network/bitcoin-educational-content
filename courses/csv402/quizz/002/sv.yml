@@ -1,0 +1,9 @@
+question: I CAP-trilemmat, vad är avvägningen mellan validering på kundsidan och tillgänglighet?
+answer: Varje deltagare måste behålla relevanta data lokalt
+wrong_answers:
+  - Data är offentliga och replikeras automatiskt globalt
+  - Konsistens offras för tillgänglighet
+  - Tillståndsövergångar publiceras alltid på Lightning
+explanation: |
+  I Client-side Validation garanteras inte global tillgänglighet, eftersom deltagarna måste hantera sina egna data.
+reviewed: false

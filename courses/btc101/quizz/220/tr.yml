@@ -1,0 +1,9 @@
+question: Bir sidechain’i Bitcoin’e bağlayan mekanizma hangisidir?
+answer: Çift yönlü sabitleme
+wrong_answers:
+  - Ödeme kanalı
+  - Proof of Stake
+  - Sharding
+explanation: |
+  Two-way peg mekanizması, BTC’nin Bitcoin üzerinde kilitlenmesini ve sidechain üzerinde temsil edilmesini sağlar.
+reviewed: false

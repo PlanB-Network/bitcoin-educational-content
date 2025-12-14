@@ -1,0 +1,9 @@
+question: Mikä on Shelter-sovellus Androidille?
+answer: Luo eristetty profiili osiokäyttöä varten
+wrong_answers:
+  - Salaa automaattisesti kaikki puhelimen tiedot
+  - Estä ei-toivotut puhelut
+  - Sovellusten asentaminen Play-kaupan ulkopuolella
+explanation: |
+  Suojan avulla voit käyttää työprofiilitoimintoa sovellusten ja tietojen erottamiseen erilliseen tilaan.
+reviewed: false

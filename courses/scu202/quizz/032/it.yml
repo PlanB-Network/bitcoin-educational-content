@@ -1,0 +1,9 @@
+question: Quale regola di cybersecurity raccomanda di limitare i diritti di ciascun utente o software allo stretto necessario?
+answer: Il principio del minor privilegio
+wrong_answers:
+  - Doppia autenticazione
+  - La politica delle password forti
+  - Backup regolare
+explanation: |
+  Il principio del minor privilegio significa concedere solo i diritti necessari per ogni compito, riducendo così il rischio di compromissione.
+reviewed: false

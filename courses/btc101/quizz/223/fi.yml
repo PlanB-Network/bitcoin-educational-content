@@ -1,11 +1,9 @@
-question: Mikä on lohkoketjun trilemma?
-answer: Protokolla, joka perustuu lohkoketjuun, voi täyttää vain kaksi kriteeriä kolmesta; hajautus, turvallisuus ja skaalautuvuus.
+question: Millä nimellä Liquidissa käytettäviä bitcoineja kutsutaan?
+answer: L-BTC
 wrong_answers:
-  - Protokolla, joka perustuu lohkoketjuun, voi täyttää vain yhden kriteerin kolmesta: hajautus, turvallisuus ja skaalautuvuus.
-  - Protokolla, joka perustuu lohkoketjuun, voi täyttää kaikki kriteerit: hajautus, turvallisuus ja skaalautuvuus.
-  - Protokolla, joka perustuu lohkoketjuun, ei voi täyttää mitään kriteereistä: hajautus, turvallisuus ja skaalautuvuus.
+  - W-BTC
+  - S-BTC
+  - T-BTC
 explanation: |
-  Lohkoketjun trilemma viittaa haasteeseen, jonka mukaan
-  protokolla, joka perustuu lohkoketjuun, voi täyttää vain kaksi kriteeriä
-  kolmesta: hajautus, turvallisuus ja skaalautuvuus.
-reviewed: true
+  Liquidissa bitcoinit esitetään L-BTC:nä, jotka on sidottu 1:1 suhteessa BTC:hen.
+reviewed: false

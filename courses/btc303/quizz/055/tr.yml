@@ -1,0 +1,9 @@
+question: Bitcoin Core'un GitHub deposunun, aynı deponun dünya çapındaki diğer binlerce kopyasına kıyasla özel kabul edilmesinin temel nedeni nedir?
+answer: Herhangi bir teknik üstünlükten dolayı değil, Bitcoin gelişimi için sosyal olarak tanınan bir odak noktası olarak hizmet vermektedir
+wrong_answers:
+  - Resmi Bitcoin Core sürümlerini ve güncellemelerini doğrulayan kriptografik anahtarlar içerir
+  - Diğer depo kopyalarının çoğaltamayacağı özel teknik özelliklere ve izinlere sahiptir
+  - Bitcoin kodunun tek yetkili kaynağı olarak MIT Lisansı tarafından yasal olarak korunmaktadır
+explanation: |
+  Jameson Lopp'un açıkladığı gibi, Bitcoin Core'un GitHub deposu teknik olarak dünya çapındaki diğer binlerce kopyayla aynıdır, ancak geliştirme koordinasyonu için sosyal olarak kabul edilen odak noktası haline gelmiştir. Kendisini üstün kılan özel teknik özellikleri, kriptografik kimlik doğrulama mekanizmaları ya da yasal korumaları yok. MIT Lisansı aslında herkesin kodu özgürce kopyalayabilmesini ve yeniden dağıtabilmesini sağlar. Eğer bu depo ortadan kalkarsa, topluluk basitçe başka bir yerde yeni bir odak noktası oluşturacak ve öneminin teknik gereklilikten ziyade tamamen sosyal bir gelenek olduğunu gösterecektir.
+reviewed: false

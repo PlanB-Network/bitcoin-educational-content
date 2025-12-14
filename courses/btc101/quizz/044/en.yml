@@ -1,12 +1,10 @@
-question: What is the potential outcome of a sudden depreciation or a loss of confidence in a fiduciary currency?
-answer: Hyperinflation.
+question: What is the impact of 2% inflation on purchasing power over 5 years?
+answer: You lose 10% of your purchasing power.
 wrong_answers:
-  - Deflation.
-  - A stable economy.
-  - An increase in the value of the currency.
+  - You lose 2% of your purchasing power.
+  - You lose 5% of your purchasing power.
+  - You lose 20% of your purchasing power.
 explanation: |
-  A sudden devaluation or a loss of confidence in a fiduciary
-  currency can lead to hyperinflation. This is a situation
-  where the prices of goods and services increase at an
-  extremely high rate, often leading to economic instability.
+  With 2% inflation, you lose 2% of your purchasing power
+  annually, which amounts to 10% over 5 years.
 reviewed: true

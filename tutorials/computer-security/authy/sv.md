@@ -91,7 +91,7 @@ För att lägga till en ny enhet upprepar du helt enkelt installationsprocessen 
 För att ställa in en 2FA-autentiseringskod via en app som Authy på ett konto måste kontot stödja den här funktionen. Numera erbjuder majoriteten av onlinetjänsterna detta 2FA-alternativ, men det är inte alltid fallet. Låt oss ta exemplet med Proton-postkontot som jag presenterade i en annan handledning:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ![AUTHY 2FA](assets/notext/13.webp)
 
@@ -99,7 +99,7 @@ Du hittar vanligtvis detta 2FA-alternativ i inställningarna för ditt konto, of
 
 ![AUTHY 2FA](assets/notext/14.webp)
 
-När du aktiverar det här alternativet på ditt Proton-mailkonto visas en QR-kod för dig. Du måste sedan skanna denna QR-kod med din Authy-app.
+När du aktiverar det här alternativet på ditt Proton-mailkonto får du en QR-kod. Du måste sedan skanna denna QR-kod med din Authy-app.
 
 ![AUTHY 2FA](assets/notext/15.webp)
 

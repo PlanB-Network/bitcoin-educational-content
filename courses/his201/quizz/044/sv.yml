@@ -1,0 +1,9 @@
+question: Vem kom på idén att sätta upp ett testnätverk för att undvika att skada Bitcoin:s huvudnätverk?
+answer: Gavin Andresen
+wrong_answers:
+  - Satoshi Nakamoto
+  - Martti Malmi
+  - Laszlo Hanyecz
+explanation: |
+  Han [nämnde](https: //bitcointalk.org/index.php?topic=240.msg2104#msg2104) denna idé på forumet den 9 juni, och Satoshi godkändes. Han [skapade](https; //bitcointalk.org/index.php?topic=363.msg3018#msg3018) Testnet den 15 juli.
+reviewed: true

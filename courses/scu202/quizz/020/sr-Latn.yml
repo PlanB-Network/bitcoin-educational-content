@@ -1,0 +1,9 @@
+question: Koje od ovih desktop okruženja se posebno preporučuje za starije ili manje moćne mašine?
+answer: LXQt
+wrong_answers:
+  - GNOME
+  - Cimetna
+  - KDE Plasma
+explanation: |
+  LXQt, kao i Xfce, troši malo resursa i dizajniran je da efikasno radi na hardveru niskih performansi.
+reviewed: false

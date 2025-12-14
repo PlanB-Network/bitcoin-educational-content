@@ -1,0 +1,9 @@
+question: Vad innebär XOR-operationen när den tillämpas mellan två bitar?
+answer: Den returnerar 1 om bitarna är olika, annars returnerar den 0
+wrong_answers:
+  - Den returnerar 1 endast om båda bitarna är 1
+  - Den adderar bitarna och returnerar summan
+  - Den returnerar alltid 0 oavsett resultat
+explanation: |
+  XOR-operationen (eller exklusivt eller) ger 1 om de två bitarna är olika (0 och 1 eller 1 och 0) och 0 om de är lika.
+reviewed: false

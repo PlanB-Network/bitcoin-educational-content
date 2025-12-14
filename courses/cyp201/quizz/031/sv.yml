@@ -1,0 +1,9 @@
+question: Vilken är den modifierare som kan kombineras med de grundläggande sighash-flaggorna?
+answer: SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SUCKASH_NOOUTPUT
+  - SIGHASH_ALLA DELTAGARE
+  - SUCKASH_NONSTANDARD
+explanation: |
+  SIGHASH_ANYONECANPAY ändrar sighash-flaggorna så att de bara täcker en enda inmatning medan resten är modifierbara.
+reviewed: false

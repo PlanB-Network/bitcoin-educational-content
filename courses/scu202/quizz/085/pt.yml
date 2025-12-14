@@ -1,0 +1,9 @@
+question: Que aplicação de fonte aberta é recomendada para a digitalização de produtos alimentares com uma base de dados colaborativa?
+answer: OpenFoodFacts
+wrong_answers:
+  - Yuka
+  - Nutri-Score
+  - Foodvisor
+explanation: |
+  O OpenFoodFacts é um projeto gratuito, baseado na comunidade e transparente quanto aos seus dados, ao passo que o Yuka se baseia num modelo opaco e de fonte não aberta.
+reviewed: false

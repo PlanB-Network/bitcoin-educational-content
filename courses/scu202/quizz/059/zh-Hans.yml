@@ -1,0 +1,9 @@
+question: 是谁发明了万维网并开发了第一个网络浏览器？
+answer: 蒂姆-伯纳斯-李
+wrong_answers:
+  - 马克-安德烈森
+  - 吉姆-克拉克
+  - 布兰登-艾奇
+explanation: |
+  蒂姆-伯纳斯-李（Tim Berners-Lee）是万维网的发明者，他于 1990 年开发了第一个浏览器 WorldWideWeb（即现在的 Nexus）。
+reviewed: false

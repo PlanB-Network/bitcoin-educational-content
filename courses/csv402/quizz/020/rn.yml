@@ -1,0 +1,9 @@
+question: Ni ikihe kintu nyamukuru gituma Bob ironka umutungo mu gihe ca State Transition muri RGB?
+answer: Seal Definition nshasha yerekana UTXO ya Bob.
+wrong_answers:
+  - Igikorwa kigenzura ataco kivuga ku UTXO.
+  - Itangazo ry’abantu bose rya Alice.
+  - Umukono w’incuro zibiri usangiwe na Alice na Bob.
+explanation: |
+  Seal Definition ihuza iyo ntunga mu buryo bw’ubuhinga bwa crypto na UTXO ya Bob, kugira ngo imenye neza ko ari we ayifise.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Canonical đã phát triển định dạng gói nào để cô lập các ứng dụng và các phụ thuộc của chúng?
+answer: Chụp nhanh
+wrong_answers:
+  - AppImage
+  - Vận chuyển
+  - vòng quay mỗi phút
+explanation: |
+  Định dạng Snap, do Canonical phát triển, cho phép cài đặt phần mềm độc lập, tách biệt khỏi hệ thống và được cập nhật độc lập.
+reviewed: false

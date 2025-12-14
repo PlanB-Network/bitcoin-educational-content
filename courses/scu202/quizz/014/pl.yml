@@ -1,0 +1,9 @@
+question: Kim byli dwaj główni twórcy Uniksa?
+answer: Ken Thompson i Dennis Ritchie
+wrong_answers:
+  - Richard Stallman i Linus Torvalds
+  - Andrew S. Tanenbaum i Larry Ewing
+  - Steve Jobs i Bill Gates
+explanation: |
+  Unix został opracowany przez Kena Thompsona i Dennisa Ritchiego w AT&T Bell Labs na przełomie lat 60. i 70. ubiegłego wieku.
+reviewed: false

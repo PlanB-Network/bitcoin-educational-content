@@ -1,0 +1,9 @@
+question: Om vi i en enkel betalningstransaktion observerar att en utgång har ett runt belopp, vilken sannolik tolkning kan vi då dra av det?
+answer: Den runda utgången är inte längre i inmatningsanvändarens besittning.
+wrong_answers:
+  - Den runda utgången är avsedd för transaktionsavgifter.
+  - Den runda utgången tillhör fortfarande den inmatade användaren.
+  - Den runda utgången är en reserv Address.
+explanation: |
+  När man står inför ett enkelt betalningsmönster (1 inmatning och 2 utmatningar), om en av utmatningarna spenderar ett runt belopp, representerar det betalningen. Den lämnar därmed den inmatande användarens besittning.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vad är huvudsyftet med en hodler?
+answer: Att hålla sina bitcoins på lång sikt
+wrong_answers:
+  - Att spekulera på kort sikt
+  - Att göra frekventa Bitcoin-transaktioner
+  - För att maximera sekretessen för deras Bitcoin-transaktioner
+explanation: |
+  En hodler strävar efter att behålla sina bitcoins i många år för att dra nytta av tillgångens förmodade tillväxt.
+reviewed: false

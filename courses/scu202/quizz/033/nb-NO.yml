@@ -1,0 +1,9 @@
+question: Hvilken mekanisme må aktiveres i UEFI for å forhindre kjøring av usignert kode ved oppstart?
+answer: Sikker oppstart
+wrong_answers:
+  - Rask oppstart
+  - Rask oppstart
+  - Trusted Platform Module (TPM)
+explanation: |
+  Secure Boot sikrer at bare autentisert programvare kan starte systemet, noe som begrenser risikoen for infeksjon av bootkit/rootkit.
+reviewed: false

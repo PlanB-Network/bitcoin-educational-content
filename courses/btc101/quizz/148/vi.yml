@@ -1,9 +1,9 @@
-question: Kết quả của cuộc chiến block vào năm 2017 là gì?
-answer: Người dùng và các nút đã từ chối thay đổi đề xuất nhằm tăng kích thước block, và đã kích hoạt một bản cập nhật gọi là SegWit.
+question: Giao dịch coinbase là gì?
+answer: Giao dịch đầu tiên của khối bao gồm phần thưởng của người đào.
 wrong_answers:
-  - Người dùng và các nút đã chấp nhận thay đổi đề xuất nhằm tăng kích thước block, và đã kích hoạt một bản cập nhật gọi là SegWit.
-  - Người dùng và các nút đã từ chối thay đổi đề xuất nhằm tăng kích thước block, và không kích hoạt bất kỳ bản cập nhật nào.
-  - Người dùng và các nút đã chấp nhận thay đổi đề xuất nhằm tăng kích thước block, và không kích hoạt bất kỳ bản cập nhật nào.
+  - Một giao dịch được thực hiện trên sàn giao dịch Coinbase.
+  - Giao dịch thứ hai của khối bao gồm phí cao nhất.
+  - Một giao dịch được thực hiện bởi người đào sau khi anh ta nhận được phần thưởng.
 explanation: >-
-  Trong cuộc chiến block vào năm 2017, người dùng và các nút đã giành chiến thắng bằng cách từ chối thay đổi đề xuất nhằm tăng kích thước block, và đã kích hoạt một bản cập nhật gọi là SegWit.
+  Giao dịch coinbase luôn là giao dịch đầu tiên của một khối. Nó bao gồm phần thưởng của người đào cho việc thực hiện công việc của người xác thực.
 reviewed: true

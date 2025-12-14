@@ -1,0 +1,19 @@
+id: bd7ea53e-10d8-4a1d-a59c-a234e37cac76
+name: BitDevs Uyo
+category: education
+links:
+  twitter: https://x.com/BitDevsUyo
+original_language: en
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-05-22
+    urgency: 1
+    contributor_names:
+        - AlphonseMehounme
+    reward: 0.15
+tags:
+  - development
+  - software
+  - case-studies
+contributor_names:
+  - AlphonseMehounme

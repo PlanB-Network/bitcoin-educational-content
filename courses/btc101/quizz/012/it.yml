@@ -1,12 +1,12 @@
-question: Chi sono i cypherpunks?
-answer: Un gruppo di persone che ha iniziato a interrogarsi profondamente sul ruolo della privacy e della libertà nell'era digitale.
+question: Quali sono le tre funzioni canoniche del denaro?
+answer: Riserva di valore, Mezzo di scambio, Unità di conto.
 wrong_answers:
-  - Un gruppo di hacker che ha rubato informazioni ai governi.
-  - Un gruppo di persone che ha inventato Bitcoin e altre criptovalute.
-  - Un gruppo di persone che si opponeva all'uso della tecnologia.
+  - Riserva di valore, Mezzo di scambio, Mezzo di produzione.
+  - Riserva di valore, Mezzo di produzione, Unità di conto.
+  - Mezzo di scambio, Mezzo di produzione, Unità di conto.
 explanation: |
-  I cypherpunks sono un gruppo di individui che credevano
-  che la crittografia potesse servire come strumento per proteggere
-  i diritti individuali contro l'interferenza dei governi
-  e delle grandi corporazioni.
+  Secondo Aristotele, il denaro svolge tre funzioni: è
+  una riserva di valore, un mezzo di scambio e un'unità di
+  conto. La funzione di mezzo di scambio è oggi
+  ampiamente riconosciuta come la principale, prima delle altre due.
 reviewed: true

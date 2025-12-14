@@ -1,5 +1,5 @@
 ---
-name: Ledger U2F & FIDO2
+name: "Ledger U2F & FIDO2"
 description: Paranna verkkoturvallisuuttasi Ledger:n avulla
 ---
 ![cover](assets/cover.webp)
@@ -162,7 +162,7 @@ Suosittelen, että säilytät tätä koodia eri paikassa kuin pääsalasanaasi, 
 
 
 
-Tämä lähestymistapa tarjoaa kaksi varmuuskopiointitasoa, jos Ledger 2FA-todennuksen menetys tapahtuu: ensimmäinen varmuuskopio, jossa käytetään Mnemonic-lause kaikkien tilien osalta, ja toinen tilikohtainen varmuuskopio, jossa käytetään hätäkoodeja. On kuitenkin tärkeää, että **ei sekoiteta Mnemonic:n roolia hätäkoodin rooliin** :
+Tämä lähestymistapa tarjoaa kaksi varmuuskopiointitasoa, jos Ledger 2FA-todennuksen menetys tapahtuu: ensimmäinen varmuuskopio, jossa käytetään Mnemonic-lause kaikkien tilien osalta, ja toinen tilikohtainen varmuuskopio, jossa käytetään hätäkoodeja. On kuitenkin tärkeää, että **ei sekoiteta Mnemonic:n roolia hätäkoodin rooliin**:
 
 
 
@@ -180,4 +180,4 @@ Suosittelen myös tätä toista opetusohjelmaa, jossa tarkastelemme toista ratka
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

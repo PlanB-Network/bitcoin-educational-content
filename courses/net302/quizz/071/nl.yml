@@ -1,0 +1,9 @@
+question: Welke notatie wordt gebruikt om de prefixgrootte in een IPv6 Address aan te geven?
+answer: CIDR
+wrong_answers:
+  - Gestippeld decimaal netmask
+  - Hexadecimaal gescheiden door dubbele punten
+  - ICANN
+explanation: |
+  De CIDR-notatie specificeert het aantal vaste prefixbits na een schuine streep, net als in IPv4.
+reviewed: false

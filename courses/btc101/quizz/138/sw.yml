@@ -1,8 +1,11 @@
-question: Ni nini kazi ya msingi ya nodi katika mtandao wa Bitcoin?
-answer: Kudumisha nakala ya Bitcoin Blockchain, kuthibitisha shughuli, kupeleka habari kwa nodes nyingine, na kutekeleza sheria za itifaki ya Bitcoin.
+question: Vita vya kuzuia vilihusu nini mnamo 2017?
+answer: Mzozo kuhusu kama kuongeza ukubwa wa kizuizi ili kupanua uwezo wa muamala.
 wrong_answers:
-  - Kudumisha nakala ya Bitcoin Blockchain, kuthibitisha shughuli, kupeleka taarifa kwa serikali, na kubadilisha sheria za itifaki ya Bitcoin.
-  - Kudumisha nakala ya Bitcoin Blockchain pekee.
-  - Kusambaza habari tu kwa nodi zingine.
-explanation: >-
+  - Mzozo kuhusu kupunguza ukubwa wa block ili kupunguza uwezo wa muamala.
+  - Mgogoro kuhusu kama kuongeza Block reward ili kutoa motisha kwa wachimbaji.
+  - Mgogoro kuhusu kupunguza Block reward ili kuwakatisha tamaa wachimbaji.
+explanation: |
+  Vita vya kuzuia mnamo 2017 vilikuwa mzozo kuhusu ikiwa itafanyika
+  rekebisha Bitcoin kwa kuongeza ukubwa wa block ili kupanua
+  uwezo wa muamala.
 reviewed: true

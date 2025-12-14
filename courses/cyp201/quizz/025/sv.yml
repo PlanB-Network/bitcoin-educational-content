@@ -1,0 +1,9 @@
+question: Vilken egenskap hos Schnorr gör det möjligt att kombinera flera publika nycklar till en?
+answer: Aggregering av nycklar
+wrong_answers:
+  - Batchverifiering
+  - Formbarhet
+  - Komprimering av signatur
+explanation: |
+  Schnorr gör det möjligt att sammanföra flera publika nycklar till en enda nyckel.
+reviewed: false

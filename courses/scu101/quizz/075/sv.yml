@@ -1,0 +1,9 @@
+question: Vilka egenskaper kännetecknar ett bra lösenord?
+answer: Lång, komplex och unik.
+wrong_answers:
+  - Kort, enkelt och lätt att komma ihåg.
+  - Baserat på personlig information.
+  - Identisk för alla konton.
+explanation: |
+  Ett bra lösenord ska vara tillräckligt långt, komplext och ska inte återanvändas.
+reviewed: true

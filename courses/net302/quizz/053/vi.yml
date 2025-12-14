@@ -1,0 +1,9 @@
+question: Chế độ NAT nào cho phép hàng chục thiết bị chia sẻ một địa chỉ IP công cộng Address bằng cách sửa đổi các cổng?
+answer: PAT
+wrong_answers:
+  - NAT tĩnh
+  - NAT động
+  - Định tuyến tĩnh
+explanation: |
+  PAT, còn được gọi là quá tải NAT hoặc ngụy trang IP, thay đổi số cổng để phân biệt các phiên, cho phép nhiều thiết bị sử dụng cùng một Address công cộng.
+reviewed: false

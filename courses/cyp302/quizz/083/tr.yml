@@ -1,0 +1,9 @@
+question: Sahte rastgele akış şifreleri uygulamada neden tek seferlik pedlerden daha yaygın olarak kullanılmaktadır?
+answer: Daha uzun bir anahtar akışı oluştururken daha kısa bir anahtarın kullanılmasına izin verirler
+wrong_answers:
+  - Gizli bir anahtar gerektirmezler
+  - Simetrik ve asimetrik şifrelemenin bir kombinasyonunu kullanırlar
+  - Anahtar güncellemelerine ihtiyaç duymazlar
+explanation: |
+  Sözde rastgele akış şifreleri daha pratiktir çünkü kısa bir anahtarın daha uzun bir anahtar akışına genişletilmesine izin vererek mesajın kendisi kadar uzun bir anahtar saklama ihtiyacını ortadan kaldırır.
+reviewed: false

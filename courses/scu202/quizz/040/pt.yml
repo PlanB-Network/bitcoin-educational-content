@@ -1,0 +1,9 @@
+question: Que ferramenta gratuita, disponível em todos os sistemas, pode ser utilizada para verificar a assinatura de um ficheiro e a sua correspondência com uma chave pública?
+answer: GnuPG
+wrong_answers:
+  - VeraCrypt
+  - OpenSSH
+  - 7-Zip
+explanation: |
+  O GnuPG (gpg) é a ferramenta de referência para a verificação de assinaturas digitais e gestão de chaves públicas.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Değerli metal temelli bir para sistemine dönüşü savunanların temel amacı nedir?
+answer: Merkez bankalarının gücünü sınırlamak için
+wrong_answers:
+  - Enflasyonu artırın
+  - Uluslararası ticareti teşvik etmek
+  - Finansal piyasaları kontrol edin
+explanation: |
+  Değerli bir metale dayalı bir sistemi savunanlar, somut bir rezerv olmadan para yaratma kabiliyetini kısıtlayarak merkez bankalarının gücünü sınırlamayı ve böylece enflasyon ve parasal manipülasyon risklerini azaltmayı amaçlamaktadır.
+reviewed: true

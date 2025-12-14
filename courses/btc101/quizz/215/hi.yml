@@ -1,0 +1,9 @@
+question: कौन-सा तंत्र Lightning भुगतानों को परमाणु बनाता है?
+answer: HTLC
+wrong_answers:
+  - मल्टीसिग्नेचर
+  - Proof of Work
+  - SegWit
+explanation: |
+  HTLC भुगतान को एक रहस्य के प्रकटीकरण से जोड़ते हैं, जिससे बिना हानि के पूर्ण सफलता या विफलता सुनिश्चित होती है।
+reviewed: false

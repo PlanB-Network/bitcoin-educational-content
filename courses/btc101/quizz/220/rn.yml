@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo buhuza sidechain na Bitcoin?
+answer: Gufatanya mu mpande zombi
+wrong_answers:
+  - Umuyoboro wo kwishyura
+  - Proof of Stake
+  - Sharding
+explanation: |
+  Uburyo bwa two-way peg butuma BTC zifungwa kuri Bitcoin maze zigaserukira kuri sidechain.
+reviewed: false

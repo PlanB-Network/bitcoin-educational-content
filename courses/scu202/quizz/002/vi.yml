@@ -1,0 +1,9 @@
+question: Ưu điểm chính của VPN là gì?
+answer: Mã hóa lưu lượng truy cập Internet
+wrong_answers:
+  - Tăng tốc kết nối Internet của bạn
+  - Tăng dung lượng lưu trữ
+  - Phần mềm diệt virus tích hợp
+explanation: |
+  VPN tạo ra một đường hầm an toàn và mã hóa các trao đổi giữa thiết bị của bạn và máy chủ trung gian, do đó tăng cường tính bảo mật.
+reviewed: false

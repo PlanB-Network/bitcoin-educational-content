@@ -1,0 +1,9 @@
+question: 在 Hash 文件或软件清单上验证 PGP 签名有什么好处？
+answer: 它保证文件来自官方来源
+wrong_answers:
+  - 保证软件安装无错误
+  - 确保程序自动更新
+  - 它保证文件是完整的，没有被修改过
+explanation: |
+  PGP 签名使用开发者的公开密钥进行验证，可确保经过验证的文件来自原始来源。
+reviewed: false

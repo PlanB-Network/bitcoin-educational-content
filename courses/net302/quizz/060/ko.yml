@@ -1,0 +1,9 @@
+question: IPv4에서 127.0.0.1에 해당하는 IPv6 루프백 Address이란 무엇인가요?
+answer: "::1"
+wrong_answers:
+  - "::0"
+  - "fe80::1"
+  - "fd00::1"
+explanation: |
+  "::1/128" Address은 내부 머신 테스트에 사용되는 루프백 Address입니다.
+reviewed: false

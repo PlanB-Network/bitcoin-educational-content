@@ -1,0 +1,8 @@
+question: What is the default port that Lightning Terminal uses for its HTTPS web interface?
+answer: 8443
+wrong_answers:
+  - 8080
+  - 9735
+  - 10009
+explanation: |
+  Lightning Terminal uses port 8443 as the default HTTPS port for its web interface, as specified in the lit.conf configuration with 'httpslisten=0.0.0.0:8443'. Port 8080 is commonly used for HTTP web servers, port 9735 is the standard Lightning Network port for peer connections, and port 10009 is typically used for LND's gRPC interface. The 8443 port provides secure HTTPS access to Terminal's management interface where users can interact with Loop, Pool, Faraday, and other integrated services.

@@ -1,0 +1,9 @@
+question: Kto napisał manifest Cypherpunk?
+answer: Eric Hughes.
+wrong_answers:
+  - Timothy May.
+  - Satoshi Nakamoto.
+  - Milton Friedman.
+explanation: |
+  Eric Hughes jest autorem Manifestu Cypherpunk (1993). Ten przełomowy tekst broni wykorzystania kryptografii do ochrony prywatności w erze cyfrowej.
+reviewed: false

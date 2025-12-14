@@ -1,0 +1,9 @@
+question: Secondo la teoria della percolazione, cosa garantisce il superamento della soglia critica?
+answer: Propagazione delle transazioni in tutta la rete
+wrong_answers:
+  - Creazione immediata di un nuovo blocco
+  - Soppressione automatica dei costi da parte dei nodi
+  - Blocco di una transazione da parte della rete
+explanation: |
+  Una volta superata la soglia di percolazione, una transazione si propaga quasi istantaneamente in tutta la rete Bitcoin.
+reviewed: true

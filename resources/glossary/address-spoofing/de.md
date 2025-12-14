@@ -14,4 +14,4 @@ Eine andere Methode, dem Opfer die falschen Address vorzusetzen, ist die Verwend
 Um sich gegen diese verschiedenen Angriffsmethoden zu schützen, ist es wichtig, mehrere Zeichen der Address, insbesondere ihre Prüfsumme (am Ende), auf dem Bildschirm des Signiergeräts zu überprüfen, bevor die Transaktion signiert wird.
 
 
-> *Dieser Angriff wird manchmal auch als Address-Vergiftung bezeichnet
+> *Dieser Angriff wird manchmal auch als Address-Vergiftung bezeichnet*

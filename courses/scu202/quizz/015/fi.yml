@@ -1,0 +1,9 @@
+question: Mikä on rolling release -jakelun tärkein etu?
+answer: Käytä uusinta ohjelmistoa
+wrong_answers:
+  - Parempi yhteensopivuus Windowsin kanssa
+  - Ympäristö ilman Interface-grafiikkaa
+  - Pakollinen myyntituki
+explanation: |
+  Jatkuvat julkaisut integroivat jatkuvat ohjelmistopäivitykset, mikä varmistaa, että uusimmat versiot ovat jatkuvasti saatavilla.
+reviewed: false

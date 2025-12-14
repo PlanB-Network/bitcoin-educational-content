@@ -1,0 +1,9 @@
+question: RLN पर, कौन सा कमांड रिपॉजिटरी को क्लोन करने के बाद "RGB-lightning-node" बाइनरी को स्थापित करता है?
+answer: "कार्गो इंस्टॉल --लॉक्ड --डिबग --पथ."
+wrong_answers:
+  - "कार्गो बिल्ड --रिलीज़ --पथ."
+  - "कार्गो रन --लॉक्ड --पथ."
+  - "कार्गो तैनाती --डिबग --पथ."
+explanation: |
+  "cargo install --locked --debug --path ." कमांड "RGB-lightning-node" बाइनरी को संकलित और स्थापित करता है।
+reviewed: false

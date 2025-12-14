@@ -1,0 +1,9 @@
+question: Was ist die größte Einschränkung von Telegram, wenn es um die Vertraulichkeit von Nachrichten geht?
+answer: Nur der Austausch von Geheimnissen wird standardmäßig Ende-zu-Ende verschlüsselt
+wrong_answers:
+  - Sie erhebt eine anonyme Registrierungsgebühr
+  - Sie garantiert nicht die Authentizität der empfangenen Dateien
+  - Kein Open-Source-Client verfügbar
+explanation: |
+  Standardmäßig werden Telegram-Nachrichten auf Unternehmensservern gespeichert, wobei nur geheime Chats von einer Ende-zu-Ende-Verschlüsselung profitieren.
+reviewed: false

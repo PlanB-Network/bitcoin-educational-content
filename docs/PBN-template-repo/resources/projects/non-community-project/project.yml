@@ -23,14 +23,14 @@ original_language: en
 proofreading:
   - language: en
     last_contribution_date: YYYY-MM-DD
-    urgency: # leave as empty
+    urgency: 1 # default value
     contributor_names:
       - author_github_username #insert your github username
-    reward: # leave as empty
+    reward: 0 # default value
 
 # Tags
 # Choose from the list the associated tags to this content
-# The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
+# The list of tags is composed of 51 items that can be found here (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)
 tags:
   - easy-explain
   - development
@@ -40,3 +40,8 @@ tags:
 # They are identified by their Github usernames
 contributor_names:
   - author1_github_username #insert your github username
+
+# license field, choose between CC-BY-SA-V4, MIT
+# (DEFAULT) CC-BY-SA-V4: is also quite permissive but includes a share-alike clause
+# MIT: allows for almost unrestricted use → only for imported content and docs with such license policy
+license: CC-BY-SA-V4

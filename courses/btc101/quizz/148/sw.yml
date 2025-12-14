@@ -1,8 +1,8 @@
-question: Ni nini matokeo ya vita vya kuzuia mnamo 2017?
-answer: Watumiaji na nodi walikataa mabadiliko yaliyopendekezwa ili kuongeza ukubwa wa kizuizi, na kuamilisha sasisho linaloitwa SegWit.
+question: Coinbase Transaction ni nini?
+answer: Muamala wa kwanza wa kizuizi unaojumuisha malipo ya Miner.
 wrong_answers:
-  - Watumiaji na nodi walikubali mabadiliko yaliyopendekezwa ili kuongeza ukubwa wa kizuizi, na kuamilisha sasisho linaloitwa SegWit.
-  - Watumiaji na nodi walikataa mabadiliko yaliyopendekezwa ili kuongeza ukubwa wa kuzuia, na hawakuwasha sasisho zozote.
-  - Watumiaji na nodi walikubali mabadiliko yaliyopendekezwa ili kuongeza ukubwa wa kuzuia, na hawakuwasha masasisho yoyote.
+  - Shughuli iliyofanywa kwenye Exchange Coinbase.
+  - Muamala wa pili wa kizuizi unaojumuisha ada za juu zaidi.
+  - Shughuli iliyofanywa na Miner baada ya kupokea tuzo.
 explanation: >-
 reviewed: true

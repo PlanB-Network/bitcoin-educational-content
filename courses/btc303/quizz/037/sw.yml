@@ -1,0 +1,9 @@
+question: Ni suala gani la msingi ambalo lilifanya uboreshaji wa Segwit kuwa tofauti na uboreshaji wa awali wa Bitcoin?
+answer: Wachimbaji hawakuonyesha usaidizi licha ya usaidizi mwingi wa watumiaji, hivyo kusimamisha mchakato wa kuwezesha
+wrong_answers:
+  - Uboreshaji ulihitaji fork ngumu badala ya njia ya kawaida ya utekelezaji ya fork laini
+  - Hitilafu za kiufundi katika msimbo wa Segwit zilizuia uwekaji salama hadi zilipotatuliwa
+  - Nodi za kiuchumi zilikataa uboreshaji huo kwa sababu ya wasiwasi kuhusu kuongezeka kwa ada za ununuzi
+explanation: |
+  Uboreshaji wa Segwit ulikuwa wa kipekee kwa sababu ulikabiliwa na tatizo la uratibu ambapo kulikuwa na usaidizi mkubwa kati ya watumiaji wa Bitcoin, lakini wachimbaji walikataa kuashiria msaada kwa ajili ya kuboresha. Hili lilizua hali ya mkwamo ambapo uboreshaji haukuweza kuwezesha kupitia utaratibu wa kawaida wa fork uliowashwa na wachimbaji. Maboresho ya hapo awali hayakuwa na uchungu kwa sababu yalikuwa na usaidizi wa watumiaji na wachimbaji. Hali hii ilisababisha pendekezo la User Activated Soft Forks (UASF) kama njia mbadala ya kuwezesha ambayo haikutegemea utoaji wa ishara kwa wachimbaji, ikionyesha mvutano kati ya washikadau tofauti katika mfumo ikolojia wa Bitcoin.
+reviewed: false

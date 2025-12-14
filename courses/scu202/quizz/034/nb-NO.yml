@@ -1,0 +1,9 @@
+question: Hva er det første du bør gjøre for å sikre tilgangen til datamaskinen din?
+answer: Angi et sterkt passord for økten
+wrong_answers:
+  - Installere et antivirusprogram
+  - Konfigurere UFW-brannmuren
+  - Aktiver diskkryptering
+explanation: |
+  Øktpassordet er den første sikkerhetsbarrieren for å hindre uautorisert tilgang til maskinen, før eventuelle andre tiltak.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Zorunlu dayanışma nasıl sahte bir dayanışmadır?
+answer: Çünkü gönüllü olmayan bir şekilde bağışta bulunmaya yol açar
+wrong_answers:
+  - Çünkü her zaman demokratik olarak karar verilmez
+  - Çünkü çok fazla yönetim gerektiriyor
+  - Uygulanması zor olduğu için
+explanation: |
+  Bastiat'ya göre zorla dayanışma, gönüllü rıza olmaksızın vermeyi dayattığı için gerçek anlamda ahlaki olamaz.

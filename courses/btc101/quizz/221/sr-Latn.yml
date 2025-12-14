@@ -1,11 +1,9 @@
-question: Šta je Lightning Network?
-answer: Mreža plaćanja koja koristi Bitcoin protokol za omogućavanje munjevito brzih transakcija.
+question: Koju prednost Ark nudi u odnosu na Lightning za prijem plaćanja?
+answer: Nema potrebe za dolaznom likvidnošću
 wrong_answers:
-  - Nova vrsta kriptovalute.
-  - Nova Blockchain tehnologija koja će u budućnosti zameniti Bitcoin.
-  - Metoda za Mining Bitcoin.
+  - Trenutna konačnost plaćanja
+  - Nema transakcionih naknada
+  - Nije potrebno imati novčanik
 explanation: |
-  Lightning Network je mreža za plaćanje koja koristi
-  Bitcoin protokol za omogućavanje brzih transakcija. To nije
-  posebna kriptovaluta, niti metoda za Mining Bitcoin.
-reviewed: true
+  Ark omogućava prijem plaćanja bez prethodnog posedovanja dolazne likvidnosti.
+reviewed: false

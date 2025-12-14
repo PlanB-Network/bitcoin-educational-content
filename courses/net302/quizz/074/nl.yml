@@ -1,0 +1,9 @@
+question: Welke organisatie beheert de initiële toewijzing van IPv6 Address blokken wereldwijd?
+answer: IANA
+wrong_answers:
+  - NIST
+  - RIPE NCC
+  - ARIN
+explanation: |
+  IANA staat bovenaan de toewijzingshiërarchie en delegeert IPv6-blokken aan de vijf Regional Internet Registries (RIR's).
+reviewed: false

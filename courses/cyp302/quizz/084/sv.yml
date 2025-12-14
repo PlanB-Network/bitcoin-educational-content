@@ -1,0 +1,9 @@
+question: Vilken är den största praktiska begränsningen med engångsdynan?
+answer: Nyckeln måste vara lika lång som meddelandet och får aldrig återanvändas
+wrong_answers:
+  - Nyckeln måste bytas ut varje dag
+  - Nyckeln måste vara tre gånger längre än meddelandet
+  - Nyckeln måste nödvändigtvis lagras på en fransk Minitel
+explanation: |
+  Nyckeln i en one-time pad måste vara lika lång som meddelandet och får aldrig återanvändas, vilket avsevärt försvårar dess användning i praktiska sammanhang. Om man kan överföra data som är lika långa som meddelandet på ett säkert sätt är det nämligen mer logiskt att direkt överföra meddelandet i stället för nyckeln.
+reviewed: false

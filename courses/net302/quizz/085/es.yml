@@ -1,0 +1,9 @@
+question: ¿Qué comando se puede utilizar para comprobar a través de qué Interface y pasarela se enrutaría un paquete a 8.8.8.8?
+answer: ip route get 8.8.8.8
+wrong_answers:
+  - ss route -tulnp 8.8.8.8
+  - ping -i 8.8.8.8
+  - netstat -r 8.8.8.8
+explanation: |
+  ip route get <Address> muestra la ruta exacta que tomaría un paquete para llegar a un destino específico.
+reviewed: false

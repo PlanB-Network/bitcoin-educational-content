@@ -1,0 +1,9 @@
+question: 0 XOR 1 işleminin sonucu nedir?
+answer: 1
+wrong_answers:
+  - 0
+  - 2
+  - -1
+explanation: |
+  XOR ile 0 XOR 1, bitler farklı olduğu için 1 sonucunu verir.
+reviewed: false

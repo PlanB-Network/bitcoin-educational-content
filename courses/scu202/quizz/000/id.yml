@@ -1,0 +1,9 @@
+question: Jenis perangkat lunak apa yang direkomendasikan untuk unduhan transparan?
+answer: Perangkat lunak gratis
+wrong_answers:
+  - Perangkat lunak berpemilik
+  - Perangkat lunak dalam versi beta
+  - Perangkat lunak dengan iklan terintegrasi
+explanation: |
+  Perangkat lunak sumber terbuka direkomendasikan karena kodenya dapat diaudit oleh komunitas, sehingga meningkatkan keamanan dan transparansi.
+reviewed: false

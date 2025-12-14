@@ -1,0 +1,10 @@
+question: Koordinatörün bir CoinJoin'daki giriş ve çıkışları birbirine bağlamasını önlemek için hangi kriptografik yöntem kullanılır?
+answer: Chaum kör imzaları.
+wrong_answers:
+  - Schnorr imzaları.
+  - P2SH adresleri.
+  - P2TR adresleri.
+explanation: |
+  Chaumian coinjoins olarak adlandırılan bu yöntemde Tor kullanımı ve David Chaum'un kör imzaları birleştirilerek koordinatörün hangi çıktının hangi kullanıcıya ait olduğunu bilmemesi sağlanır.
+  
+reviewed: false

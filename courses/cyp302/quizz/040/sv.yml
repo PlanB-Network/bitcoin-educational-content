@@ -1,0 +1,9 @@
+question: Vilket grundläggande villkor måste en mängd S med en binär operation uppfylla för att vara en grupp?
+answer: Villkoret för stängning
+wrong_answers:
+  - Villkoret för kommutativitet
+  - Symmetrivillkoret
+  - Villkoret om distributivitet
+explanation: |
+  En mängd S med en binär operation måste uppfylla flera villkor för att bilda en grupp, och det första är stängningsvillkoret: operationen mellan två Elements i S måste ge ett element i S.
+reviewed: false

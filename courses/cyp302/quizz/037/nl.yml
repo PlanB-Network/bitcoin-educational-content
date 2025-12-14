@@ -1,0 +1,9 @@
+question: Wat is een algebraïsche structuur in abstracte algebra?
+answer: Een verzameling van Elements met een of meer operaties die voldoen aan bepaalde axioma's
+wrong_answers:
+  - Een verzameling priemgetallen georganiseerd in rijen volgens bepaalde axioma's
+  - Een reeks algoritmen voor het oplossen van lineaire vergelijkingen
+  - Een groep willekeurige geometrische transformaties gerangschikt volgens bepaalde axioma's
+explanation: |
+  Een algebraïsche structuur is een verzameling van gedefinieerde Elements met een of meer bewerkingen, zoals optellen of vermenigvuldigen, volgens bepaalde axioma's, en is essentieel voor het structureren van concepten in de getaltheorie.
+reviewed: false

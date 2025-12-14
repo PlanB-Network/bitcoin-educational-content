@@ -1,5 +1,5 @@
 ---
-name: Bitvarden
+name: Bitwarden
 description: Hur ställer man in en lösenordshanterare?
 ---
 ![cover](assets/cover.webp)
@@ -11,7 +11,7 @@ I den digitala tidsåldern måste vi hantera en mängd onlinekonton som täcker 
 För att autentisera oss på vart och ett av dessa konton använder vi en identifierare, ofta en e-post Address, tillsammans med ett lösenord. Eftersom det är omöjligt att komma ihåg ett stort antal unika lösenord kan det vara frestande att återanvända samma lösenord eller ändra en gemensam bas något för att lättare komma ihåg det. Dessa metoder äventyrar dock allvarligt säkerheten för dina konton.
 
 
-Den första principen för lösenord är att inte återanvända dem. Varje onlinekonto bör skyddas av ett unikt lösenord som är helt skilt från de andra. Det här är viktigt eftersom du inte vill att en angripare ska ha tillgång till alla dina konton om han eller hon lyckas komma över ett av dina lösenord. Genom att ha ett unikt lösenord för varje konto isolerar du potentiella attacker och begränsar deras omfattning. Om du t.ex. använder samma lösenord för en videospelplattform och för din e-post, och det lösenordet avslöjas via en nätfiskesida som är relaterad till spelplattformen, kan angriparen enkelt komma åt din e-post och ta kontroll över alla dina andra onlinekonton.
+Den första principen för lösenord är att inte återanvända dem. Varje onlinekonto bör skyddas av ett unikt lösenord som är helt skilt från de andra. Det här är viktigt eftersom du inte vill att en angripare ska ha tillgång till alla dina konton om han eller hon lyckas komma över ett av dina lösenord. Genom att ha ett unikt lösenord för varje konto isoleras potentiella attacker och deras räckvidd begränsas. Om du till exempel använder samma lösenord för en videospelplattform och för din e-post, och det lösenordet avslöjas via en nätfiskesida som är relaterad till spelplattformen, kan angriparen enkelt komma åt din e-post och ta kontroll över alla dina andra onlinekonton.
 
 
 Den andra viktiga principen är lösenordets styrka. Ett lösenord anses vara starkt om det är svårt att brute force, det vill säga att gissa genom försök och misstag. Det innebär att dina lösenord måste vara så slumpmässiga som möjligt, långa och innehålla en mängd olika tecken (små och stora bokstäver, siffror och symboler).
@@ -24,7 +24,7 @@ En lösenordshanterare genererar och lagrar starka lösenord på ett säkert sä
 
 I den här handledningen kommer vi att utforska hur man ställer in och använder en lösenordshanterare för att förbättra din online-säkerhet. Jag kommer att presentera dig för Bitwarden, och i en annan handledning kommer vi att titta på en annan lösning som heter KeePass.
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Varning: En lösenordshanterare är bra för att lagra lösenord, men **du ska aldrig lagra din Bitcoin Wallet:s Mnemonic-fras i den!** Kom ihåg att en Mnemonic-fras uteslutande ska sparas i ett fysiskt format, som en bit papper eller metall.
 
@@ -117,9 +117,9 @@ Först och främst rekommenderar jag starkt att du ställer in tvåfaktorsautent
 Om du är osäker på hur du ställer in och använder dessa 2FA-enheter rekommenderar jag att du följer dessa två andra handledningar:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Detta gör du genom att gå till fliken "*Säkerhet*" i menyn "*Inställningar*".
 
@@ -177,7 +177,7 @@ I det formulär som öppnas börjar du med att bestämma vilken typ av objekt so
 
 ![BITWARDEN](assets/notext/26.webp)
 
-I fältet "*Name*" anger du ett beskrivande namn för dina inloggningsuppgifter. Detta gör det lättare att söka efter och organisera dina lösenord, särskilt om du har ett stort antal. Om du till exempel vill spara dina inloggningsuppgifter för PlanB Network-webbplatsen kan du namnge det här objektet på ett sätt som gör att du omedelbart känner igen det under dina framtida sökningar.
+I fältet "*Name*" anger du ett beskrivande namn för dina inloggningsuppgifter. Detta gör det lättare att söka efter och organisera dina lösenord, särskilt om du har ett stort antal. Om du till exempel vill spara dina inloggningsuppgifter för Plan ₿ Academy-webbplatsen kan du namnge det här objektet på ett sätt som gör att du omedelbart känner igen det under dina framtida sökningar.
 
 ![BITWARDEN](assets/notext/27.webp)
 
@@ -235,7 +235,7 @@ Din mapp visas nu i din manager.
 
 ![BITWARDEN](assets/notext/41.webp)
 
-Du kan tilldela en mapp till en identifierare när du skapar den, som vi gjorde tidigare, eller genom att ändra en befintlig identifierare. Om jag till exempel klickar på min identifierare för PlanB Network kan jag sedan välja att klassificera den i mappen "*Bitcoin*".
+Du kan tilldela en mapp till en identifierare när du skapar den, som vi gjorde tidigare, eller genom att ändra en befintlig identifierare. Om jag till exempel klickar på min identifierare för Plan ₿ Academy kan jag sedan välja att klassificera den i mappen "*Bitcoin*".
 
 ![BITWARDEN](assets/notext/42.webp)
 
@@ -313,7 +313,7 @@ Om jag väljer den här identifieraren fyller Bitwarden i inloggningsfälten åt
 
 ![BITWARDEN](assets/notext/53.webp)
 
-Tillägget är också utformat för att upptäcka skapandet av nya konton. Till exempel, när du skapar ett nytt konto på PlanB Network, föreslår Bitwarden automatiskt att du sparar den nya identifieraren.
+Tillägget är också utformat för att upptäcka skapandet av nya konton. Till exempel, när du skapar ett nytt konto på Plan ₿ Academy, föreslår Bitwarden automatiskt att du sparar den nya identifieraren.
 
 ![BITWARDEN](assets/notext/54.webp)
 
@@ -332,7 +332,7 @@ Sedan fyller tillägget automatiskt i våra inloggningsuppgifter i lämpliga fä
 ## Hur använder man Bitwardens programvara?
 
 
-För att installera Bitwardens skrivbordsprogramvara, börja med att gå till [nedladdningssidan] (https://bitwarden.com/download/#downloads-desktop). Välj och ladda ner den version som motsvarar ditt operativsystem.
+För att installera skrivbordsprogrammet Bitwarden börjar du med att gå till [nedladdningssidan] (https://bitwarden.com/download/#downloads-desktop). Välj och ladda ner den version som motsvarar ditt operativsystem.
 
 ![BITWARDEN](assets/notext/58.webp)
 
@@ -368,7 +368,7 @@ För att öka säkerheten i din applikation rekommenderar jag att du går in i i
 För att säkerställa att du aldrig förlorar tillgång till dina lösenord, även i händelse av att du förlorar ditt huvudlösenord eller en katastrof som påverkar Bitwardens servrar, rekommenderar jag dig att regelbundet utföra en krypterad säkerhetskopia av din chef på ett externt medium.
 
 
-Tanken är att kryptera alla dina Bitwarden-uppgifter med ett lösenord som skiljer sig från ditt huvudlösenord och att spara den krypterade säkerhetskopian på ett USB-minne eller en Hard-enhet som du till exempel har hemma hos dig. Du kan sedan förvara en fysisk kopia av dekrypteringslösenordet på en annan plats än där säkerhetskopieringsmediet förvaras. Du kan t.ex. förvara USB-minnet hemma och överlåta den fysiska kopian av krypteringslösenordet till en betrodd vän.
+Tanken är att kryptera alla dina Bitwarden-uppgifter med ett lösenord som skiljer sig från ditt huvudlösenord och att spara den krypterade säkerhetskopian på ett USB-minne eller en Hard-enhet som du till exempel förvarar hemma. Du kan sedan förvara en fysisk kopia av dekrypteringslösenordet på en annan plats än där säkerhetskopieringsmediet förvaras. Du kan t.ex. förvara USB-minnet hemma och överlåta den fysiska kopian av krypteringslösenordet till en betrodd vän.
 
 
 Den här metoden säkerställer att även om ditt backupmedium blir stulet kommer dina data att förbli otillgängliga utan dekrypteringslösenordet. På samma sätt kommer din vän inte att kunna komma åt dina data utan att ha det fysiska mediet.

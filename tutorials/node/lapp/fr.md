@@ -1,9 +1,11 @@
 ---
-name: LAPP bitcoin
-description: Tutorial pour développer votre première LApp
+name: Lightning App
+description: Tutoriel pour développer votre première application Lightning (LAPP)
 ---
 
-Apprenez à coder votre première application Lightning
+![cover](assets/cover.webp)
+
+## Apprenez à coder votre première application lightning
 
 Exigences:
 
@@ -18,6 +20,8 @@ Pour construire notre application Lightning, nous utiliserons les technologies s
 
 - Express pour notre serveur web
 - Modèles Pug + bootstrap pour notre frontend
+
+https://planb.academy/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## Système d'exploitation
 
@@ -77,7 +81,7 @@ L'application générée a la structure de répertoires suivante:
 
 Téléchargez Polar, installez-le et créez un réseau avec 2 nœuds LND (Alice et Bob) et 1 bitcoind, une fois que nous voyons dans l'application le graphique montrant nos nœuds, cliquez sur le bouton "Commencer" et attendez quelques secondes jusqu'à ce que l'indicateur de chaque nœud passe au vert.
 
-Pour pouvoir envoyer des paiements en Lightning, il est nécessaire que les nœuds soient interconnectés par des canaux, créer des canaux avec Polar est très simple, il suffit de cliquer avec la souris sur l'une des oreilles du nœud Alice et de la faire glisser jusqu'à l'une des oreilles du nœud Bob, une fenêtre modale intitulée "Ouvrir un nouveau canal" doit immédiatement apparaître, laissez les valeurs par défaut et appuyez sur le bouton "Ouvrir le canal", répétez maintenant l'action mais cette fois de Bob vers Alice, de cette manière les deux nœuds peuvent envoyer et recevoir de l'argent.
+Pour pouvoir envoyer des paiements en Lightning, il est nécessaire que les nœuds soient interconnectés par des canaux. Avec Polar, la création de canaux est très simple, il suffit de cliquer avec la souris sur l'une des oreilles du nœud Alice et de la faire glisser jusqu'à l'une des oreilles du nœud Bob, une fenêtre modale intitulée "Ouvrir un nouveau canal" doit immédiatement apparaître, laissez les valeurs par défaut et appuyez sur le bouton "Ouvrir le canal", répétez ensuite la même l'action mais cette fois de Bob vers Alice, de cette manière les deux nœuds peuvent envoyer et recevoir de l'argent.
 
 ## Nodemon
 
@@ -118,9 +122,9 @@ LND_CERT_BASE64=''
 LND_MACAROON_BASE64=''
 ```
 
-Revenons à Polar, sélectionnons Bob, le nœud auquel nous voulons nous connecter, allons dans l'onglet "Connecter", copions le contenu de Host GRPC et le plaçons dans la variable LND_GRPC_HOST, dans la partie inférieure de l'onglet connecter, sélectionnons base64 et copions le contenu de TLS Cert et le plaçons dans la variable LND_CERT_BASE64, puis faisons de même avec le macaroon admin dans LND_MACAROON_BASE64.
+Revenons à Polar, sélectionnons Bob, le nœud auquel nous voulons nous connecter. Dans l'onglet "Connecter", copiez le contenu de Host GRPC et plaçez-le dans la variable LND_GRPC_HOST, dans la partie inférieure de l'onglet connecter, choisissez base64 et copiez le contenu de TLS Cert et placez-le dans la variable LND_CERT_BASE64, Enfin, faites la même chose avec le macaroon admin dans LND_MACAROON_BASE64.
 
-Maintenant, ajoutons cette ligne au fichier app.js situé à la racine du répertoire de travail, nous devons la copier à la première ligne du fichier.
+Maintenant, ajoutez cette ligne au fichier app.js situé à la racine du répertoire de travail, vous devez la copier à la première ligne du fichier.
 
 ```
 require('dotenv').config();

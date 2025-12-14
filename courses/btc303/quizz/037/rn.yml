@@ -1,0 +1,9 @@
+question: Ni ikihe kibazo ca mbere catumye Segwit upgrade itandukanye n’iyi Bitcoin ya kera?
+answer: Abacukuzi ntibagaragaje ko bashigikiye naho abakoresha bariko barashigikirwa cane, bihagarika igikorwa co gukora
+wrong_answers:
+  - Ivyo guhindura vyasaba fork ikomeye aho gukoresha uburyo busanzwe bwo gushirwa mu ngiro fork yoroshe .
+  - Ibikomere vy'ubuhinga biri muri kode ya Segwit vyabujije gukoresha neza gushika bitowe umuti
+  - Ivyicaro vy'ubutunzi vyaranse kuvugururwa kubera amaganya ku bijanye n'amafaranga y'ugucuruza yongerewe
+explanation: |
+  Iryo vugurura rya Segwit ryari ridasanzwe kuko ryari rifise ingorane yo guhuza ibikorwa aho hariho ugushigikirwa gukomeye cane mu bakoresha Bitcoin, ariko abacukuzi banse gutanga ikimenyetso c’uko bashigikiye iryo vugurura. Ivyo vyatumye haba ikintu gihagaze aho iyo nzira yo guhindura idashobora gukora biciye ku buryo busanzwe bukoreshwa n’abacukuzi b’amabuye y’agaciro fork. Ivyo guhindura mbere vyari bifise ububabare buke kuko vyari bifise ubufasha bw’abakoresha n’ubw’abacukuzi. Ivyo vyatumye habaho iciyumviro co gukoresha User Activated Soft Forks (UASF) nk’uburyo bundi bwo gukoresha butashingiye ku bimenyetso vy’abacukuzi, bikaba vyerekana uguhuzagurika hagati y’abafatanyabikorwa batandukanye mu bidukikije vya Bitcoin.
+reviewed: false

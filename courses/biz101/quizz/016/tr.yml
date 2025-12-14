@@ -1,0 +1,9 @@
+question: Borca dayalı paradan yapay olarak yaratılan sermayenin Avusturya tarzı sermayeden farkı nedir?
+answer: Avusturya tarzı sermaye gerçek tasarruf ve fedakarlıktan kaynaklanırken, borca dayalı sermaye krediden anında yaratılır ve ekonomik sinyalleri çarpıtabilir.
+wrong_answers:
+  - Avusturya tarzı sermaye, ihtiyaç duyulduğunda daha fazla para basılarak üretilir.
+  - Borca dayalı sermaye asla geri ödeme gerektirmez ve gerçek tasarruflara eşdeğerdir.
+  - Hiçbir fark yoktur; her iki sermaye biçimi de doğası ve etkisi bakımından aynıdır.
+explanation: |
+  Avusturya sermayesi, vazgeçilen gerçek tüketimden ve dikkatli yatırımdan ortaya çıkar. Krediler yoluyla kolayca yaratılan borca dayalı sermaye, gerçek tasarrufları veya tüketici tercihlerini yansıtmadığı için girişimcileri yanıltabilir ve verimsiz yatırımlara yol açabilir.
+reviewed: false

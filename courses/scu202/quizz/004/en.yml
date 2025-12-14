@@ -1,0 +1,9 @@
+question: What kind of computer attack uses fraudulent messages to extract information?
+answer: Phishing
+wrong_answers:
+  - Ransomware
+  - DDoS
+  - SQL injection
+explanation: |
+  Phishing uses deceptive emails or messages to entice people to divulge confidential information or install malware.
+reviewed: false

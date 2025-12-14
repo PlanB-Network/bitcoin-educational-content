@@ -1,0 +1,11 @@
+question: Wat is de rol van een notaris in de context van Bitcoin erfenissen?
+answer: Ze zorgen voor naleving van de belastingwetgeving.
+wrong_answers:
+  - Ze beheren je bitcoins na je dood.
+  - Ze wijzigen je erfenisplan.
+  - Ze beveiligen je bitcoins in een kluis.
+explanation: |
+  In de context van Bitcoin erfenissen is het belangrijk om
+  de erfenis van bitcoins te bespreken met een notaris om ervoor te zorgen dat
+  fiscale naleving.
+reviewed: false

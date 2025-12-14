@@ -1,0 +1,9 @@
+question: 2009년의 오리지널 Bitcoin 소프트웨어는 무엇을 결합했나요?
+answer: Wallet, 활, 마이너
+wrong_answers:
+  - 노드, Miner 및 Block explorer
+  - Wallet, 헬기 및 Miner
+  - Miner 및 Mining pool
+explanation: |
+  기존 Bitcoin 소프트웨어는 Wallet, 노드 및 Miner 기능을 단일 프로그램에 통합했습니다.
+reviewed: true

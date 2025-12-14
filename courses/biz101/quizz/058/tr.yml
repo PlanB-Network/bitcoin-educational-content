@@ -1,0 +1,9 @@
+question: Starter profili için bir velayet Wallet kullanmanın bir avantajı nedir?
+answer: Azaltılmış teknik sorumluluklar
+wrong_answers:
+  - Özel anahtarlar üzerinde daha fazla kontrol
+  - İşlemler üzerinde tam özerklik ile geliştirilmiş gizlilik
+  - İşlem ücretlerinin ortadan kaldırılması
+explanation: |
+  Saklama cüzdanları özel anahtarları yöneterek kullanıcıların teknik yüklerini hafifletir.
+reviewed: false

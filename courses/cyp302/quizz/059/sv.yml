@@ -1,0 +1,9 @@
+question: Vilken fransk matematiker introducerade begreppet grupper på 1800-talet?
+answer: Évariste Galois
+wrong_answers:
+  - Henri Poincaré
+  - Pierre-Simon Laplace
+  - Joseph Fourier
+explanation: |
+  Évariste Galois utvecklade gruppteorin för att studera lösningar av polynomekvationer av högre grad än fem.
+reviewed: false

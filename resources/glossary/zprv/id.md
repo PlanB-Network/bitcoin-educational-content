@@ -2,4 +2,4 @@
 term: ZPRV
 
 ---
-Awalan kunci pribadi yang diperluas untuk akun SegWit V0 di Bitcoin.
+Awalan _extended private key_ untuk akun SegWit V0 di Bitcoin.

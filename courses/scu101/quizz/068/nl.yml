@@ -1,0 +1,12 @@
+question: Wat is een veelvoorkomende oorzaak van beveiligingsproblemen?
+answer: Menselijke nalatigheid.
+wrong_answers:
+  - Stroomuitval.
+  - Trage internetsnelheid.
+  - Verouderde hardware.
+explanation: |
+  Kwetsbaarheden in de beveiliging zijn vaak het gevolg van menselijke
+  nalatigheid, zoals het gebruik van standaardwachtwoorden of het opschrijven van
+  wachtwoorden op onveilige plaatsen. Geavanceerde aanvallen zijn niet
+  altijd nodig om de computerveiligheid in gevaar te brengen.
+reviewed: true

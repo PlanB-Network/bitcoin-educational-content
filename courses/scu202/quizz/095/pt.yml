@@ -1,0 +1,9 @@
+question: Qual é a melhor forma de aceder remotamente à sua rede doméstica?
+answer: Utilizar uma VPN pessoal
+wrong_answers:
+  - Abrir uma porta SSH pública
+  - Ativar a nuvem do router
+  - Utilizar WPS
+explanation: |
+  A VPN cria um túnel encriptado para aceder à rede local sem expor uma porta crítica à Internet.
+reviewed: false

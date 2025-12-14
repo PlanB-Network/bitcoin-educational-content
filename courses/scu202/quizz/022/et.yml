@@ -1,0 +1,9 @@
+question: Milline distributsioon kasutab vaikimisi Cinnamoni töölauakeskkonda?
+answer: Linux Mint
+wrong_answers:
+  - Ubuntu
+  - Debian
+  - Fedora
+explanation: |
+  Cinnamon on välja töötatud Linux Mint'i meeskonna poolt, et pakkuda kaasaegset, klassikalist Interface, mis on lähedane Windowsile.
+reviewed: false

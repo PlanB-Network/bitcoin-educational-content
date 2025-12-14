@@ -1,0 +1,9 @@
+question: 자산을 발행하는 데 사용되는 YAML 파일에서 발행된 총 토큰 수를 정의하는 필드는 무엇인가요?
+answer: 발행된 공급
+wrong_answers:
+  - 자산 소유자
+  - 사양
+  - 금액
+explanation: |
+  YAML 파일의 "issuedSupply" 필드는 Contract에 대해 발행된 토큰의 총량을 정의합니다.
+reviewed: false

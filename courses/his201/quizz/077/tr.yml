@@ -1,0 +1,9 @@
+question: Bitcoin-development posta listesi hangi tarihte oluşturuldu?
+answer: 12 Haziran 2011
+wrong_answers:
+  - 13 Ocak 2011
+  - 7 Mart 2011
+  - 19 Eylül 2011
+explanation: |
+  Geliştirici Jeff Garzik tarafından oluşturuldu ve Bitcoin'deki değişiklikler hakkında resmi tartışmalara izin verdi.
+reviewed: true

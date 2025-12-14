@@ -1,0 +1,9 @@
+question: 哪種地圖服務可完全離線使用且不含廣告追蹤？
+answer: 有機地圖
+wrong_answers:
+  - Google 地圖
+  - Waze
+  - 城市地圖
+explanation: |
+  Organic Maps 是基於 OpenStreetMap 的開放原始碼應用程式，可離線運作，無需追蹤器或資料收集，有別於專屬的替代方案。
+reviewed: false

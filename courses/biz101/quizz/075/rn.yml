@@ -1,0 +1,9 @@
+question: Ni iyihe ntumbero nyamukuru y’ugushirwa mu ngiro kw’amahera Bitcoin ku rwego rw’Ishirahamwe?
+answer: Kugira ngo amafaranga y'i Bitcoin ashirwe mu migenderanire nyamukuru y'ishirahamwe
+wrong_answers:
+  - Kugira ngo ugerageze Bitcoin ku rugero rutoyi
+  - Gukoresha Bitcoin mu ntumbero yo kwamamaza
+  - Kwemera Bitcoin ataco yinjije mu zindi nzira
+explanation: |
+  Inyishu z’ibigo zigamije guhuza amahera ya Bitcoin n’imigenderanire y’ibikorwa n’imirongo y’ubudandaji.
+reviewed: false

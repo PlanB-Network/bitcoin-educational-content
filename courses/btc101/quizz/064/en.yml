@@ -1,12 +1,12 @@
-question: What is the command to verify the quantity of bitcoins in circulation on a Bitcoin node?
-answer: bitcoin-cli gettxoutsetinfo.
+question: In which year will the 7th halving happen?
+answer: 2036
 wrong_answers:
-  - bitcoin-cli getblockchaininfo.
-  - bitcoin-cli getwalletinfo.
-  - bitcoin-cli getnetworkinfo.
+  - 2032
+  - 2028
+  - 2048
 explanation: |
-  The command to verify the quantity of bitcoins in
-  circulation on a Bitcoin node is bitcoin-cli
-  gettxoutsetinfo. This command provides transparency and
-  verifiability, strengthening trust in the Bitcoin system.
+  The 7th halving should happen in 2036, and the estimated
+  number of bitcoin in circulation will be 20,835,937.5,
+  which will roughly correspond to 99.22% of the total
+  supply.
 reviewed: true

@@ -1,0 +1,9 @@
+question: 標準的なIPv4のAddressの長さは何ビットですか？
+answer: 32ビット
+wrong_answers:
+  - 8ビット
+  - 128ビット
+  - 16ビット
+explanation: |
+  IPv4 Addressは32ビットで符号化され、8ビットずつ4バイトに分割される。
+reviewed: false

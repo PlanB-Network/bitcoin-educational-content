@@ -1,0 +1,8 @@
+question: Bland följande svar, vilket är inte en fördel med att använda din egen nod?
+answer: Minska transaktionsavgifterna.
+wrong_answers:
+  - Att delta i samförståndet.
+  - Att vara oberoende av tredje part.
+  - Att kunna stå emot censur av transaktioner.
+explanation: |
+  Här är varför en egen nod är avgörande för en helt suverän användning av Bitcoin: Censurresistens; Dina transaktioner kan inte blockeras av någon; Oberoende från tredje part; Du är inte längre beroende av någon extern tjänst för att verifiera Blockchain-data; Aktivt deltagande; Du har möjlighet att ställa in dina egna valideringsregler och direkt delta i konsensus; Bidrag till nätverket; Genom att driva en nod hjälper du till att stärka och distribuera Bitcoin-nätverket; Teknisk utbildning; Att hantera en Full node är ett utmärkt sätt att fördjupa din tekniska kunskap om Bitcoin.

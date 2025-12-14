@@ -1,10 +1,11 @@
-question: ¿Cuál es una de las formas de adquirir bitcoins sin KYC?
-answer: Cajeros automáticos de Bitcoin.
+question: ¿A qué se parece la curva de adopción de Bitcoin?
+answer: Una curva en S.
 wrong_answers:
-  - Plataformas de corredores.
-  - Plataformas DCA.
-  - Transferencias bancarias.
-explanation: |
-  El texto del curso menciona que hay varias formas de
-  adquirir Bitcoins sin KYC, una de las cuales es mediante cajeros automáticos de Bitcoin.
+  - Una curva en U.
+  - Una curva en V.
+  - Una curva en W.
+explanation: >-
+  La adopción de Bitcoin, como cualquier nueva tecnología, sigue una curva en S.
+  Este es un patrón común para la adopción de nuevas tecnologías, donde la adopción comienza
+  lentamente, luego se acelera antes de desacelerarse a medida que se alcanza la saturación.
 reviewed: true

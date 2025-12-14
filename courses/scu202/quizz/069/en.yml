@@ -1,0 +1,9 @@
+question: What's the main reason why it's essential to keep your browser up to date?
+answer: Correct critical security vulnerabilities
+wrong_answers:
+  - Improve page load speed
+  - Prevent phishing
+  - Optimizing memory consumption
+explanation: |
+  Updates prioritize security vulnerabilities that could allow an attacker to compromise your system.
+reviewed: false

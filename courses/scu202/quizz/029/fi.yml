@@ -1,0 +1,9 @@
+question: Mitä Ubuntun versiota suositellaan aloittelijoille sen vakauden ja tuen keston vuoksi?
+answer: LTS (pitkäaikainen tuki)
+wrong_answers:
+  - Rolling Release
+  - Ensimmäinen versio
+  - Alpha Release
+explanation: |
+  Ubuntun LTS-versiota ylläpidetään viiden vuoden ajan, ja se on vakaampi, joten se sopii erinomaisesti aloitteleville käyttäjille.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hur många bitar är kontrollsumman för en entropi på 128 bitar?
+answer: 4 bitar
+wrong_answers:
+  - 8 bitar
+  - 16 bitar
+  - 6 bitar
+explanation: |
+  Kontrollsummans längd beräknas med formeln CS = ENT / 32, vilket motsvarar 4 bitar för en entropi på 128 bitar.
+reviewed: false

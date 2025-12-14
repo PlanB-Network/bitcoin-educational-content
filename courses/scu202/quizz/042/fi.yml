@@ -1,0 +1,9 @@
+question: Miksi Internetistä ladattujen ohjelmistojen eheys ja aitous pitäisi aina tarkistaa?
+answer: Haittaohjelmien asentamisen välttäminen
+wrong_answers:
+  - Järjestelmän suorituskyvyn parantaminen
+  - Kaistanleveyden säästämiseksi
+  - Asennuksen nopeuttaminen
+explanation: |
+  Eheyden ja aitouden tarkistaminen auttaa estämään vioittuneiden, saastuneiden tai ei-oikeutettujen ohjelmistojen asennuksen.
+reviewed: false

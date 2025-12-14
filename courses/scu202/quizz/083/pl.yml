@@ -1,0 +1,9 @@
+question: Która usługa przesyłania wiadomości pozwala zarejestrować się całkowicie anonimowo, bez numeru telefonu lub stałego loginu?
+answer: SimpleX Chat
+wrong_answers:
+  - Sygnał
+  - Telegram
+  - WhatsApp
+explanation: |
+  SimpleX Chat eliminuje pojęcie unikalnego identyfikatora: kontakty są dodawane za pośrednictwem efemerycznych linków lub kodów QR i nie są wymagane żadne dane osobowe.
+reviewed: false

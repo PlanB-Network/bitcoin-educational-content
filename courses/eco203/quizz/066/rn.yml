@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bubiri bwo gutanga umuco ku rubanza rw’abanyagihugu nk’uko Bastiat abivuga?
+answer: Inyifato runtu ya filozofiya n'inyifato runtu y'ubutunzi .
+wrong_answers:
+  - Itegeko n'uburezi
+  - Idini n'ubuhinga
+  - Ubumenyi bwite n'ibitabu
+explanation: |
+  Bastiat atandukanya inyifato runtu ya filozofiya, ikora ku mutima, n’inyifato runtu y’ubutunzi, imurikira ubwenge mu kwerekana ingaruka z’ibikorwa.
+reviewed: false

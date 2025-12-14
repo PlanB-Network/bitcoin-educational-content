@@ -1,0 +1,9 @@
+question: Koje prakse su ključne za ograničavanje izloženosti vaših podataka prilikom surfovanja Internetom?
+answer: Redovno brišite kolačiće
+wrong_answers:
+  - Zadrži sve kolačiće
+  - Onemogući privatni režim pretraživača
+  - Korišćenje zastarelog pregledača
+explanation: |
+  Brisanje ili ograničavanje kolačića smanjuje praćenje oglašavanja i čuva privatnost tokom pretraživanja interneta.
+reviewed: false

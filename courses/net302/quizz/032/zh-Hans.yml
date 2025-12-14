@@ -1,0 +1,9 @@
+question: 标准 IPv4 Address 的长度（比特）是多少？
+answer: 32 位
+wrong_answers:
+  - 8 位
+  - 128 位
+  - 16 位
+explanation: |
+  IPv4 Address 以 32 位编码，分为 4 个字节，每个字节 8 位。
+reviewed: false

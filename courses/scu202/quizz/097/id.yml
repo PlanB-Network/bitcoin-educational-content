@@ -1,0 +1,9 @@
+question: Layanan mana yang menggantikan DNS ISP untuk melindungi kerahasiaan permintaan web?
+answer: Quad9
+wrong_answers:
+  - Google DNS
+  - DHCP
+  - SMTP
+explanation: |
+  Quad9 adalah server DNS publik yang berfokus pada privasi, yang menyaring domain-domain berbahaya dan tidak menyimpan catatan nominatif.
+reviewed: false

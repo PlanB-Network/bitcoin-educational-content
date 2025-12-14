@@ -1,0 +1,9 @@
+question: Eliptik eğri kriptografisinin güvenliğinin temelinde hangi matematiksel işlem vardır?
+answer: Ayrık logaritma problemi
+wrong_answers:
+  - Asal sayı çarpanlarına ayırma
+  - Kuadratik kalıntıların hesaplanması
+  - Ayrık küp problemi
+explanation: |
+  Eliptik eğri kriptografisinin güvenliği, bu eğriler üzerinde ayrık logaritma problemini çözmenin zorluğuna dayanmaktadır.
+reviewed: false

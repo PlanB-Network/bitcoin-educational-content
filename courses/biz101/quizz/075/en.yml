@@ -6,4 +6,4 @@ wrong_answers:
   - To accept Bitcoin without integration into other systems
 explanation: |
   Enterprise solutions aim to align Bitcoin payments with core business workflows and systems.
-reviewed: false
+reviewed: true

@@ -1,0 +1,8 @@
+question: Vilken är den primära funktionen för noderna i Bitcoin-nätverket?
+answer: Upprätthåller en kopia av Bitcoin Blockchain, validerar transaktioner, överför information till andra noder och upprätthåller reglerna i Bitcoin-protokollet.
+wrong_answers:
+  - Upprätthålla en kopia av Bitcoin Blockchain, validera transaktioner, överföra information till regeringen och ändra reglerna för Bitcoin-protokollet.
+  - Förvarar endast en kopia av Bitcoin Blockchain.
+  - Överför endast information till andra noder.
+explanation: >-
+reviewed: true

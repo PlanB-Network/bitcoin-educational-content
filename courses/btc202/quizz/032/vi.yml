@@ -1,0 +1,9 @@
+question: Giải pháp node-in-a-box nào đang dẫn đầu thị trường hiện nay?
+answer: Ô
+wrong_answers:
+  - Bắt đầu9
+  - Nodl
+  - RoninDojo
+explanation: |
+  Umbrel là giải pháp node-in-a-box phổ biến nhất nhờ tính dễ cài đặt và kho ứng dụng phong phú.
+reviewed: true

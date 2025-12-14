@@ -1,9 +1,10 @@
-question: Milline on praeguse finantssüsteemi potentsiaalne mõju poliitilistele tegijatele?
-answer: Neid ei motiveerita tegema radikaalseid muudatusi, lubades süsteemil jätkata oma kulgu kuni võimaliku kokkuvarisemiseni.
+question: Millisel juhul täheldati inflatsiooni ekvivalentset päevamäära 100%?
+answer: Zimbabwes, 2007
 wrong_answers:
-  - Neid motiveeritakse tegema radikaalseid muudatusi, et vältida võimalikku kokkuvarisemist.
-  - Neid ei motiveerita säilitama status quo'd, et tagada omaenda rikkus.
-  - Neid motiveeritakse mõtlema pikas perspektiivis.
+  - Ungaris, 1945
+  - Hiinas, 1940
+  - See on ebareaalne stsenaarium, mis ei saa juhtuda
 explanation: |
-  Kuna poliitilised tegijad saavad praegusest finantssüsteemist kasu, ei ole neid motiveeritud tegema radikaalseid muudatusi. See lubab süsteemil jätkata oma kulgu kuni võimaliku kokkuvarisemiseni, kuna süsteemi reguleeritakse ja piiratakse selle kokkuvarisemise vältimiseks.
+  100% päevane inflatsioon on realistlik stsenaarium, mis leidis aset Zimbabwes 2007. aastal, kuna
+  raha väärtus kahekordistus umbes iga 24h järel.
 reviewed: true

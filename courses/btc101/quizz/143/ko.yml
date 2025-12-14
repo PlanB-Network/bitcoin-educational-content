@@ -1,0 +1,8 @@
+question: Bitcoin 네트워크에서 채굴자의 역할은 무엇인가요?
+answer: 채굴자는 네트워크를 보호하고 블록에 트랜잭션을 추가합니다.
+wrong_answers:
+  - 채굴자는 새로운 비트코인을 생성합니다.
+  - 채굴자는 Bitcoin 사용자의 신원을 확인합니다.
+  - 채굴자는 Bitcoin의 가격을 설정합니다.
+explanation: >-
+reviewed: true

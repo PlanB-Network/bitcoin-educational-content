@@ -1,0 +1,9 @@
+question: Chỉ mục tùy chọn nào có thể được kích hoạt trong Bitcoin core để tìm giao dịch theo txid?
+answer: txindex
+wrong_answers:
+  - chỉ mục
+  - blockindex
+  - electrumindex
+explanation: |
+  Tùy chọn txindex=1 được sử dụng để truy vấn giao dịch theo mã định danh duy nhất của giao dịch đó (txid).
+reviewed: true

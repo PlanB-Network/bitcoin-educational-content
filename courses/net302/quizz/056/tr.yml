@@ -1,0 +1,9 @@
+question: Ağ bağlantısının temel amacı nedir?
+answer: Birden fazla fiziksel ağ arayüzünü bir araya getirme
+wrong_answers:
+  - Yerel ağa sanal IP adresleri ekleme
+  - Bir Wi-Fi köprüsü oluşturma
+  - RJ45 kablosunda paket boyutunu azaltın
+explanation: |
+  Ağ bağlama, birden fazla fiziksel arayüzü tek bir mantıksal arayüzde birleştirerek yedeklilik veya daha fazla bant genişliği sağlar.
+reviewed: false

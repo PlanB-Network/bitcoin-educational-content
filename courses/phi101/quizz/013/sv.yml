@@ -1,0 +1,9 @@
+question: Vilken definition av frihet ger Lord Acton?
+answer: Makten att handla enligt sitt eget samvete, även mot majoritetens åsikt
+wrong_answers:
+  - Förmågan att göra vad man vill
+  - Avsaknaden av någon begränsning
+  - Skydd mot yttre angrepp
+explanation: |
+  Lord Acton definierar frihet som makten att handla enligt sitt eget samvete och betonar vikten av individens förmåga att fatta personliga beslut, även när dessa går emot majoritetens uppfattning.
+reviewed: true

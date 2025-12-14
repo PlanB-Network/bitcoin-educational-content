@@ -1,0 +1,9 @@
+question: Ni ikihe ciyumviro c’ukwihenda ku bijanye n’umutekano w’imihora y’itumanaho mw’isi ya none?
+answer: Kwemera ko gukingira umuyoboro ku mubiri bibuza gufatwa
+wrong_answers:
+  - Kwiyumvira ko amarezo ata nsinga ataco amaze
+  - Kwizera ko ubuhinga bwo gukingira amakuru atari ngombwa ku bijanye n’itumanaho ryo mu karere .
+  - Uravye uko ibisata vy'igihugu vyonyene ari vyo bishobora gufata amakuru .
+explanation: |
+  Ni ukwihenda kwiyumvira ko gukingira gusa umurongo ku mubiri bihagije kugira ngo umuntu agire ibanga, kuko ahantu henshi ho gufata amakuru haguma haboneka, cane cane ku bijanye n’itumanaho ritagira amashanyarazi.
+reviewed: false

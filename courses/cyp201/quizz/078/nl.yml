@@ -1,0 +1,9 @@
+question: Wat betekent het voorvoegsel `wpkh` in een descriptor?
+answer: Loon-naar-waarneming-PubKey-Hash
+wrong_answers:
+  - Pay-to-PubKey
+  - Pay-to-Script-Hash
+  - Getuige Script Hash
+explanation: |
+  Het voorvoegsel `wpkh` duidt op een SegWit v0 script dat Pay-to-Witness-Public-Key-Hash adressen gebruikt.
+reviewed: false

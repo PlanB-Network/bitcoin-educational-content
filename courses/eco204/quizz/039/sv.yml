@@ -1,0 +1,10 @@
+question: Vilken inverkan har hyperinflation på pengars värde?
+answer: Det gör att pengar snabbt förlorar sitt värde.
+wrong_answers:
+  - Det gör att pengar ökar i värde.
+  - Det har ingen inverkan på pengarnas värde.
+  - Det gör att pengarnas värde fluktuerar på ett oförutsägbart sätt.
+explanation: |
+  Under en period av hyperinflation förlorar pengar snabbt sitt värde, vilket gör
+  långsiktig planering blir svår.
+reviewed: false

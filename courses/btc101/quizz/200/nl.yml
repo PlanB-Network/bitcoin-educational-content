@@ -1,0 +1,8 @@
+question: Wat is een van de mogelijke risico's van het achterlaten van je Bitcoin op een Exchange platform?
+answer: De risico's van hacken en het blokkeren van fondsen.
+wrong_answers:
+  - Het risico dat het platform de prijs van Bitcoin verhoogt.
+  - Het risico dat het platform de Supply van Bitcoin controleert.
+  - Het risico dat Bitcoin in prijs wordt overtroffen door een cryptocurrency.
+explanation: >-
+reviewed: true

@@ -1,0 +1,9 @@
+question: What is the benefit of verifying a PGP signature on a Hash file or software manifest?
+answer: It guarantees that the file comes from the official source
+wrong_answers:
+  - Guarantees bug-free software installation
+  - It guarantees automatic program updates
+  - It guarantees that the file is complete and has not been modified
+explanation: |
+  The PGP signature, validated using the developer's public key, ensures that the authenticated file comes from the original source.
+reviewed: false

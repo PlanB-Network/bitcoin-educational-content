@@ -6,6 +6,10 @@ description: Hướng dẫn thiết lập thiết bị Ledger Nano S
 
 ![image](assets/cover.webp)
 
+*Ledger đã thông báo ngừng hỗ trợ phần mềm cho Nano S cổ điển kể từ ngày 25 tháng 6 năm 2025: thiết bị này sẽ không còn nhận được các bản cập nhật bảo mật hoặc tương thích với các tính năng mới, khiến người dùng có nguy cơ gặp phải lỗ hổng và không tương thích trong tương lai. Tuy nhiên, tiền vẫn có thể truy cập được nhờ cụm từ gợi nhớ, nhưng rất khuyến nghị chuyển sang mẫu mới hơn để đảm bảo an toàn và khả năng truy cập lâu dài vào bitcoin của bạn. Lưu ý, điều này chỉ áp dụng cho **Nano S cũ**, không phải **Nano S Plus** vẫn đang được hỗ trợ.*
+
+___
+
 Ví lạnh vật lý – €60 – Người mới bắt đầu – Để bảo mật từ €2,000 đến €50,000
 
 Ledger là giải pháp của Pháp để bảo mật bitcoin một cách đơn giản.
@@ -211,6 +215,6 @@ https://armantheparman.com/ledgersparrow/
 
 Để tìm hiểu sâu hơn về chủ đề này và tăng cường bảo mật cho ví của bạn trên Ledger Nano với passphrase BIP39, tôi mời bạn tham khảo hướng dẫn toàn diện này:
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 

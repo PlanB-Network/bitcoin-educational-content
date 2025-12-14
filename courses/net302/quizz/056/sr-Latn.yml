@@ -1,0 +1,9 @@
+question: Koja je glavna svrha umrežavanja (network bonding)?
+answer: Objediniti više fizičkih mrežnih interfejsa
+wrong_answers:
+  - Dodajte virtuelne IP adrese lokalnoj mreži
+  - Kreiranje Wi-Fi mosta
+  - Smanjite veličinu paketa na RJ45 kablu
+explanation: |
+  Umrežavanje putem bondinga kombinuje više fizičkih interfejsa u jedan logički, obezbeđujući redundanciju ili povećanu propusnost.
+reviewed: false

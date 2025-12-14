@@ -1,0 +1,8 @@
+question: Nk’uko Condorcet abivuga, ni kuki umwidegemvyo utera ubwoba abantu?
+answer: Kuko yaramenyereye cane kureka leta ikaja mu bibazo vyose
+wrong_answers:
+  - Kuko ntivyigeze bigeragezwa mu Bufaransa .
+  - Kuko bisaba ihinduka ry’ubukazi .
+  - Kuko ni co kimwe n'akaduruvayo
+explanation: |
+  Condorcet yarizera ko abantu bamenyereye gufasha Leta kandi batinya umwidegemvyo, kuko batazi uko bawukoresha.

@@ -1,0 +1,10 @@
+question: Ni ingaruka izihe inflation ya 2% ku bushobozi bwo kugura mu myaka 5?
+answer: Utakaza 10% vy’ubushobozi bwo kugura.
+wrong_answers:
+  - Utakaza 2% vy’ubushobozi bwo kugura.
+  - Utakaza 5% vy’ubushobozi bwo kugura.
+  - Utakaza 20% vy’ubushobozi bwo kugura.
+explanation: |
+  Iyo ufise 2% vy'inflation, utakaza 2% vy'ubushobozi bwo kugura
+  ku mwaka, ivyo bikaba bishika kuri 10% mu myaka 5.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Elemen apa dari nama domain yang mewakili Top Level Domain (TLD)?
+answer: Elemen paling kanan
+wrong_answers:
+  - Elemen paling kiri
+  - Tingkat kedua setelah tuan rumah
+  - Nama host utama
+explanation: |
+  TLD selalu merupakan elemen paling kanan dari FQDN, seperti .com, .org, atau .fr.
+reviewed: false

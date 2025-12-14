@@ -1,0 +1,9 @@
+question: Proyek apa yang dimulai pada tahun 1983 untuk menciptakan sistem operasi yang sepenuhnya gratis?
+answer: GNU
+wrong_answers:
+  - BSD Unix
+  - Proyek Sistem X Window
+  - Inisiatif Sumber Terbuka
+explanation: |
+  Richard Stallman meluncurkan proyek GNU pada tahun 1983 untuk mengembangkan sistem operasi yang benar-benar gratis.
+reviewed: false

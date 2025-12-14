@@ -1,0 +1,9 @@
+question: Hvilket dokument, ofte kalt SHA256SUMS eller MANIFEST, er nødvendig for å verifisere integriteten til nedlastet programvare?
+answer: Filen som viser programvarens fotavtrykk
+wrong_answers:
+  - Brukerhåndboken
+  - Filen som viser utviklernes signaturer
+  - Den komplette kildekoden til prosjektet
+explanation: |
+  Manifestet eller SHA256SUMS-filen inneholder Hash for hver fil som distribueres av prosjektet, og gjør det mulig å verifisere integriteten deres.
+reviewed: false

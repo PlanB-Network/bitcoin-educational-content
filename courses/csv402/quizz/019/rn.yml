@@ -1,0 +1,9 @@
+question: Ni iyihe ntumbero nyamukuru y’amasezerano y’ubwenge mu bidukikije vya RGB?
+answer: Gushira mu ngiro amasezerano ya Bitcoin yikoresha ata n'inyandiko ry'ivyandikano
+wrong_answers:
+  - Gufasha mu gushinga amakete y'ivyandikano ya Bitcoin
+  - Gutanga Interface ya bose ku bikorwa vyose vya Bitcoin
+  - Kworohereza ugushirwa mu ngiro kw’ibimenyetso vya ERC-20 kuri Bitcoin.
+explanation: |
+  Amasezerano y’ubwenge ya RGB atuma amasezerano akora mu buryo bwikora mu gihe umuntu yirinda gukoresha amarejista ahuriweko, yizigiye Bitcoin ku bijanye n’ibimenyetso vy’ubuhinga bwa none.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Wat doet het locking script in een Bitcoin transactie?
+answer: Het legt specifieke voorwaarden op om de bijbehorende fondsen te besteden
+wrong_answers:
+  - Het stuurt het geld automatisch naar meerdere adressen
+  - Het bepaalt de waarde van de UTXO die wordt aangemaakt
+  - De fondsen worden tijdelijk geblokkeerd om buitensporige uitgaven te voorkomen
+explanation: |
+  Het vergrendelingsscript legt voorwaarden op, zoals ondertekenen met een privésleutel, om de fondsen te ontgrendelen en te gebruiken in een transactie.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Şeffaf indirmeler için ne tür bir yazılım önerilir?
+answer: Ücretsiz yazılım
+wrong_answers:
+  - Tescilli yazılım
+  - Yazılım beta sürümünde
+  - Entegre reklamcılık içeren yazılım
+explanation: |
+  Açık kaynak kodlu yazılımlar, kodlarının topluluk tarafından denetlenebilmesi, güvenlik ve şeffaflığı artırması nedeniyle tavsiye edilmektedir.
+reviewed: false

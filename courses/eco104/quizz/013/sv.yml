@@ -1,0 +1,13 @@
+question: Hur gynnar Bitcoin individer i krigshärjade eller instabila länder?
+answer: Det gör det möjligt att lagra värde på ett decentraliserat och säkert sätt som är mer motståndskraftigt mot stöld
+wrong_answers:
+  - Det ger tillgång till traditionella banktjänster
+  - Det ger en fysisk tillgång som kan öka i värde
+  - Det ger skydd mot deflation
+explanation: |
+  I krigshärjade eller instabila länder kan individer ha svårt att få
+  traditionella banktjänster eller utsättas för risken att bli bestulen på eller
+  eller konfiskering av fysiska tillgångar. Bitcoin gör det möjligt för individer att lagra värde
+  på ett decentraliserat och säkert sätt utan behov av mellanhänder
+  eller fysiska tillgångar som är utsatta för risker som inflation, stöld eller konfiskering.
+reviewed: true

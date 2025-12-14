@@ -1,0 +1,9 @@
+question: Milline neist töölauakeskkondadest on eriti soovitatav vanemate või vähem võimsate masinate jaoks?
+answer: LXQt
+wrong_answers:
+  - GNOME
+  - Kaneel
+  - KDE Plasma
+explanation: |
+  LXQt, nagu ka Xfce, tarbib vähe ressursse ja on loodud tõhusalt töötama madala jõudlusega riistvaral.
+reviewed: false

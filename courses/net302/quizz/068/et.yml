@@ -1,0 +1,9 @@
+question: Milline mehhanism muudab MAC Address 64-bitise identifikaatori IPv6 Address genereerimiseks?
+answer: EUI-64
+wrong_answers:
+  - NAT64
+  - PPPoE-64
+  - DNSSEC64
+explanation: |
+  EUI-64 mehhanism muudab 48-bitise MAC Address 64-bitiseks identifikaatoriks, mida kasutatakse IPv6 automaatses konfigureerimises.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilken av följande är en bra och säker metod för 2FA-autentisering?
+answer: En kod som genereras av ett program som Google Authenticator eller Authy.
+wrong_answers:
+  - Ett telefonsamtal eller en SMS-kod till kontohavaren
+  - Ett e-postmeddelande med en 10-minuters utgångskod till kontoinnehavaren
+  - Ett brev som skickas hem till kontohavaren Address
+explanation: |
+  Det andra steget i 2FA kan vara en tillfällig kod som skickas via SMS eller e-post, en kod som genereras av en applikation eller en fysisk säkerhetsnyckel. Det är dock inte alla dessa metoder som gör att vi kan hålla samma säkerhetsnivå.
+reviewed: true

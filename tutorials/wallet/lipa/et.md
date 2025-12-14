@@ -10,7 +10,7 @@ Lightning rahakotte, nagu kõiki mobiilseid rahakotte, peetakse "kuumaks" rahako
 
 Kui soovite rohkem teada saada Lightning-võrgustikust ja mõista, kuidas see tehniliselt toimib, siis soovitan teil läbida selle kursuse:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Selles õpetuses vaatame **Lipa**, lihtsat ja tõhusat Lightning rahakotti, mis on välja töötatud Šveitsis.
 
@@ -52,10 +52,10 @@ Kui olete valinud oma valiku, palub rakendus teil teateid lubada. See samm on ol
 Seejärel tutvustab rakendus oma põhifunktsioone mitme sissejuhatava ekraani kaudu:
 
 
-- Saamatu maksekviitung**: Kasutajad saavad Bitcoin-makseid vastu võtta isegi siis, kui rakendus on suletud, tagades usaldusväärsuse ja mugavuse.
-- Mittehooldusõiguslikud välguaadressid**: Lipa toetab nüüd ka mittekaitstavaid Lightning-aadresse, mis suurendab privaatsust ja turvalisust, andes kasutajatele täieliku kontrolli oma bitcoinide üle.
-- Kontroll analüütiliste andmete üle** : Kuna läbipaistvus ja konfidentsiaalsus on esmatähtsad, saavad kasutajad vaadata kogutud andmete tüüpe ja valida oma jagamise eelistusi.
-- Saatke telefoninumbri** kaudu: Lihtsalt valige kontakt, sisestage summa ja saatke bitcoinid otse tema telefoninumbrile.
+- **Saamatu maksekviitung**: Kasutajad saavad Bitcoin-makseid vastu võtta isegi siis, kui rakendus on suletud, tagades usaldusväärsuse ja mugavuse.
+- **Mittehooldusõiguslikud välguaadressid**: Lipa toetab nüüd ka mittekaitstavaid Lightning-aadresse, mis suurendab privaatsust ja turvalisust, andes kasutajatele täieliku kontrolli oma bitcoinide üle.
+- **Kontroll analüütiliste andmete üle**: Kuna läbipaistvus ja konfidentsiaalsus on esmatähtsad, saavad kasutajad vaadata kogutud andmete tüüpe ja valida oma jagamise eelistusi.
+- Saatke **telefoninumbri** kaudu: Lihtsalt valige kontakt, sisestage summa ja saatke bitcoinid otse tema telefoninumbrile.
 
 Rakendust täiustatakse pidevalt stabiilsuse, turvalisuse ja töökindluse osas, et tagada optimaalne kasutajakogemus.
 
@@ -66,10 +66,10 @@ Lipa kasutajaliides on korraldatud 4 peamise vahekaardi ümber, millele pääseb
 ![Navigation principale](assets/fr/02.webp)
 
 
-- Kodu**: Näitab teie jooksvat saldot ja tehinguajalugu
-- Skanner**: Võimaldab maksete tegemiseks skaneerida QR-koode
-- Kaart**: Kuvab interaktiivse kaardi Bitcoini aktsepteerivatest ettevõtetest teie piirkonnas
-- Seaded**: Juurdepääs rakenduse seadetele, varundamisele ja eelistustele
+- **Kodu**: Näitab teie jooksvat saldot ja tehinguajalugu
+- **Skanner**: Võimaldab maksete tegemiseks skaneerida QR-koode
+- **Kaart**: Kuvab interaktiivse kaardi Bitcoini aktsepteerivatest ettevõtetest teie piirkonnas
+- **Seaded**: Juurdepääs rakenduse seadetele, varundamisele ja eelistustele
 
 Täiendavasse menüüsse pääseb, kui tõmmata avakuva alla:
 
@@ -91,7 +91,7 @@ Rahakoti varundamiseks minge vahekaardile "Seaded" ja valige "Recovery fraas". L
 
 Lisateavet selle kohta, kuidas korralikult varundada ja hallata oma taastamislauset, soovitan kindlasti jälgida seda teist õpetust, eriti kui olete algaja:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ## Bitcoinide vastuvõtmine
 

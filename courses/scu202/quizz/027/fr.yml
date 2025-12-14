@@ -1,0 +1,9 @@
+question: Quel outil graphique sous Ubuntu permet de gérer les règles du pare-feu facilement ?
+answer: GUFW
+wrong_answers:
+  - GEdit
+  - Nautilus
+  - Synaptic
+explanation: |
+  GUFW est une interface graphique pour le pare-feu UFW, permettant d’activer, désactiver et configurer les règles sans passer par le terminal.
+reviewed: false

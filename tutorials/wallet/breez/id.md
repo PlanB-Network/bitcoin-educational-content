@@ -86,7 +86,7 @@ Kemudian ikuti petunjuk untuk mengonfirmasi pencadangan Anda dan menghubungkan a
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ⚠️ **PENTING**: Untuk menambahkan keamanan Layer ekstra pada Breez Wallet Anda, Anda dapat menentukan kode PIN dan mengaturnya untuk mengautentikasi bahwa akses ke Wallet telah diotorisasi.
 
@@ -103,9 +103,9 @@ Breez menawarkan tiga pilihan:
 
 
 
-- Terima dengan Lightning atau ID** Invoice: generate dan Invoice dan dapatkan bayaran.
-- Menerima melalui Bitcoin Address**: Menerima bitcoin dengan transaksi di jaringan utama Bitcoin.
-- Beli Bitcoin**: Breez menggabungkan cara untuk mendapatkan Bitcoin secara langsung dari mata uang fiat.
+- Terima dengan Lightning atau **ID Invoice**: generate dan Invoice dan dapatkan bayaran.
+- **Menerima melalui Bitcoin Address**: Menerima bitcoin dengan transaksi di jaringan utama Bitcoin.
+- **Beli Bitcoin**: Breez menggabungkan cara untuk mendapatkan Bitcoin secara langsung dari mata uang fiat.
 
 
 
@@ -139,9 +139,9 @@ Breez menawarkan tiga opsi untuk mengirim bitcoin.
 
 
 
-- Tempelkan Invoice atau ID pengguna**: Bayar Lightning Invoice.
-- Hubungkan untuk membayar**: Buat sesi dan undang penerima Anda untuk bergabung dalam sesi tersebut untuk mengirimkan bitcoin kepada mereka.
-- Kirim ke BTC Address**: Bertransaksi di jaringan utama Bitcoin.
+- **Tempelkan Invoice atau ID pengguna**: Bayar Lightning Invoice.
+- **Hubungkan untuk membayar**: Buat sesi dan undang penerima Anda untuk bergabung dalam sesi tersebut untuk mengirimkan bitcoin kepada mereka.
+- **Kirim ke BTC Address**: Bertransaksi di jaringan utama Bitcoin.
 
 
 
@@ -169,7 +169,7 @@ Anda akan menemukan layanan yang berguna secara langsung di dalam aplikasi.
 
 
 
-- Mendengarkan podcast**: Breez adalah pemutar podcast 2.0 yang memungkinkan Anda mendukung kreator yang Anda sukai dengan donasi Bitcoin.
+- Mendengarkan podcast: **Breez** adalah pemutar podcast 2.0 yang memungkinkan Anda mendukung kreator yang Anda sukai dengan donasi Bitcoin.
 
 
 Dari menu, pilih **Podcasts**, lalu cari, temukan, dan dengarkan pembuat konten favorit Anda.
@@ -186,7 +186,7 @@ Dukung karya pembuat konten yang Anda sukai dengan memberikan donasi.
 
 
 
-- Tempat Penjualan**: Breez beradaptasi dengan sempurna untuk bisnis Anda, memungkinkan Anda untuk menjalankan kasir di dalam aplikasi. Anda dapat mengelola inventaris toko Anda, menerima pembayaran dari pelanggan Anda dan faktur yang dapat dicetak generate untuk setiap pembelian yang dilakukan. Terlebih lagi, Anda dapat menemukan mata uang lokal Anda dalam banyak mata uang yang didukung oleh Breez.
+- **Tempat Penjualan**: Breez beradaptasi dengan sempurna untuk bisnis Anda, memungkinkan Anda untuk menjalankan kasir di dalam aplikasi. Anda dapat mengelola inventaris toko Anda, menerima pembayaran dari pelanggan Anda dan faktur yang dapat dicetak generate untuk setiap pembelian yang dilakukan. Terlebih lagi, Anda dapat menemukan mata uang lokal Anda dalam banyak mata uang yang didukung oleh Breez.
 
 
 
@@ -210,7 +210,7 @@ Setelah inventaris Anda selesai, Anda dapat dengan mudah menagih Invoice kepada 
 
 
 
-- Mengakses layanan pihak ketiga**: Breez mengintegrasikan layanan pihak ketiga yang memungkinkan Anda mengambil lebih banyak tindakan tanpa harus meninggalkan portofolio. Ini termasuk Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
+- **Mengakses layanan pihak ketiga**: Breez mengintegrasikan layanan pihak ketiga yang memungkinkan Anda mengambil lebih banyak tindakan tanpa harus meninggalkan portofolio. Ini termasuk Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
 
 
 ![apps](assets/fr/16.webp)

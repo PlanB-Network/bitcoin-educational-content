@@ -1,0 +1,9 @@
+question: Millä ilmaisella, kaikissa järjestelmissä saatavilla olevalla työkalulla voidaan tarkistaa tiedoston allekirjoitus ja sen vastaavuus julkisen avaimen kanssa?
+answer: GnuPG
+wrong_answers:
+  - VeraCrypt
+  - OpenSSH
+  - 7-Zip
+explanation: |
+  GnuPG (gpg) on digitaalisen allekirjoituksen todentamisen ja julkisen avaimen hallinnan referenssityökalu.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Który silnik renderujący był używany w przeglądarce Internet Explorer od wersji 4 i zdominował rynek na początku XXI wieku?
+answer: Trident
+wrong_answers:
+  - Gecko
+  - WebKit
+  - Mrugnięcie
+explanation: |
+  Trident, opracowany przez Microsoft, został wprowadzony wraz z Internet Explorerem 4.0 w 1997 roku i zdominował sieć w okresie wirtualnego monopolu Internet Explorera.
+reviewed: false

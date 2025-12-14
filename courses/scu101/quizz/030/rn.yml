@@ -1,0 +1,10 @@
+question: Ni irihe tegeko ry’inzahabu ryo kwikingira ama imeyiri y'ububeshi?
+answer: Suzuma neza izina ryose ry’uwarungitse imeyiri be n’aho iyo imeyiri ikomoka
+wrong_answers:
+  - Imisi yose wishure imeyiri ukekeranya.
+  - Gufungura ibifatanijwe na imeyiri vyose kugira ngo ugenzure ibirimwo.
+  - Usangize amakuru yawe bwite n’abazirungitse gusa.
+explanation: |
+  Itegeko ry’inzahabu aha ni ugusuzuma neza izina ryose ry’uwarungitse
+  imeyiri be n’aho iyo imeyiri ikomoka. Igihe ufise amakenga, uyifute!
+reviewed: true

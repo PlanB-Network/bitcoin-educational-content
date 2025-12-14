@@ -1,0 +1,9 @@
+question: Vilken teknik gör det möjligt för flera interna datorer att dela en enda offentlig IP Address för att komma åt Internet?
+answer: NAT (översättning av nätverks-Address)
+wrong_answers:
+  - ARP (Address Resolution Protocol)
+  - DHCP (dynamiskt värdkonfigurationsprotokoll)
+  - CIDR (klasslös routning mellan domäner)
+explanation: |
+  NAT översätter privata interna adresser till en publik IP Address, vilket gör att flera enheter kan dela samma externa anslutning.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Qual è il ruolo delle commissioni di instradamento in Lightning Network?
-answer: Per incentivare i nodi intermedi a fornire la loro liquidità per il trasferimento dei pagamenti
+question: Qual è il ruolo delle fee di routing in Lightning Network?
+answer: Incentivare i nodi intermedi a fornire la loro liquidità per il trasferimento dei pagamenti
 wrong_answers:
-  - Per limitare il numero di transazioni sulla rete
-  - Per garantire che ogni canale abbia fondi sufficienti
-  - Per calcolare automaticamente il percorso più breve
+  - Limitare il numero di transazioni sulla rete
+  - Garantire che ogni canale abbia fondi sufficienti
+  - Calcolare automaticamente il percorso più breve
 explanation: |
-  Le commissioni di instradamento sono utilizzate per compensare i nodi intermedi che inoltrano i pagamenti offrendo la loro liquidità per consentire il trasferimento di fondi attraverso la rete.
-reviewed: false
+  Le fee di routing sono utilizzate per compensare i nodi intermedi che inoltrano i pagamenti offrendo la loro liquidità. Questo meccanismo consente il trasferimento di fondi attraverso la rete.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Kriptografi için sonlu alanlarda kullanılan ana cebirsel yapı türü nedir?
+answer: İndirgenemez polinomlar
+wrong_answers:
+  - Kare matrisler
+  - Rastgele vektörler
+  - Kübik kökler
+explanation: |
+  Kriptografide, 2^m mertebesindeki sonlu alanlar, alanın iyi tanımlandığından ve tüm işlemlerin mümkün olduğundan emin olmak için genellikle indirgenemez polinomlar kullanır.
+reviewed: false

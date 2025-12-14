@@ -1,0 +1,10 @@
+question: Ni kubera iki ubumenyi bushingiye ku bikorwa aringombwa mu vy'umutekano wo kuri Internet?
+answer: Bigufasha gukoresha ubumenyi bwawemu bihe vy’ukuri .
+wrong_answers:
+  - Ni igisabwa ku bikorwa vyose vy'umutekano wo kuri internet .
+  - Ni ngirakamaro kuruta ubumenyi bwo mu mashure .
+  - Ni uburyo bwonyene bwo kwiga ivyerekeye umutekano wo kuri interineti .
+explanation: |
+  Igice kirashimika ku kamaro ko kugira ubumenyi bushingiye ku bikorwa kuko bigufasha
+  gushira mu ngiro ubumenyi bwawe mubihe vy'ukuri.
+reviewed: true

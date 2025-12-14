@@ -1,0 +1,14 @@
+question: Vad är de bysantinska generalernas problem?
+answer: Det är ett problem att samordna information i ett system där de olika aktörerna inte går att lita på.
+wrong_answers:
+  - Det är ett problem med att verifiera transaktioner i ett decentraliserat nätverk.
+  - Det är ett problem att förhindra dubbla utgifter i en digital valuta.
+  - Det är ett problem med att upprätthålla konsensus i ett centraliserat nätverk.
+explanation: |
+  Byzantine Generals' Problem är ett klassiskt problem inom
+  distribuerad databehandling, som handlar om att uppnå konsensus
+  i ett nätverk där vissa av noderna kan vara felaktiga eller
+  illvilliga. Bitcoin löser detta problem genom att använda en
+  Blockchain baserat på Proof of Work, vilket säkerställer att alla
+  noder är överens om transaktionshistorikens tillstånd.
+reviewed: true

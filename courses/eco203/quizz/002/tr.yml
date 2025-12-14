@@ -1,0 +1,8 @@
+question: Frédéric Bastiat için politik piyasa terimi ne anlama geliyor?
+answer: Başkasının mülkünü kanunen elden çıkarmak
+wrong_answers:
+  - Alışverişe gitmek
+  - Ön seçimleri kazanmak
+  - Kamu hizmetlerinin satın alınması
+explanation: |
+  Bastiat için politik pazar, devletin yasal yollarla başkalarının mülklerini elden çıkarma eğilimini ifade eder ve Bastiat bu olguyu yasal yağma olarak eleştirir.

@@ -1,0 +1,9 @@
+question: Vilken webbläsare erbjuder blockering av annonser och spårare, fingeravtrycksskydd och är baserad på Chromium?
+answer: Modig
+wrong_answers:
+  - Firefox
+  - Tor
+  - Krom
+explanation: |
+  Brave har annonsblockering, spårare och avancerat fingeravtrycksskydd som standard, allt baserat på Chromium.
+reviewed: false

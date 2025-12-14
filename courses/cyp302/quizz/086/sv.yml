@@ -1,0 +1,9 @@
+question: Vad är det största felet med ECB-metoden med ett blockchiffer?
+answer: Den är deterministisk och kan avslöja mönster i data
+wrong_answers:
+  - Det kräver nycklar av varierande längd
+  - Det fungerar inte med meddelanden över 128 bitar
+  - Det fungerar inte med meddelanden över 256 bitar
+explanation: |
+  ECB-metoden (Electronic Code Book) är deterministisk: identiska datablock krypteras på samma sätt, vilket gör det möjligt att upptäcka mönster i den krypterade texten.
+reviewed: false

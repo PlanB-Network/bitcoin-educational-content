@@ -1,0 +1,9 @@
+question: Apa itu MicroG, yang terintegrasi ke dalam CalyxOS?
+answer: Implementasi ulang layanan Google secara gratis
+wrong_answers:
+  - Manajer perizinan
+  - VPN sumber terbuka untuk Android
+  - Antivirus milik Google
+explanation: |
+  MicroG adalah alternatif sumber terbuka yang memungkinkan Anda menjalankan aplikasi yang bergantung pada Google API tanpa menginstal binari resmi.
+reviewed: false

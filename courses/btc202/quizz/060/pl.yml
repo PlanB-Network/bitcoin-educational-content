@@ -1,0 +1,9 @@
+question: Jaka jest rola przekaźnika Nostr zainstalowanego na Umbrel?
+answer: Hostuj swoje publikacje lokalnie
+wrong_answers:
+  - Sprawdź transakcje Bitcoin
+  - Tworzenie kanałów Nostr z kontaktami
+  - Lokalna kopia zapasowa Blockchain Nostr
+explanation: |
+  Przekaźnik Nostr na Umbrel umożliwia lokalne hostowanie danych, gwarantując dostępność i suwerenność.
+reviewed: true

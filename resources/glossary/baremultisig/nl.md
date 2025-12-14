@@ -1,0 +1,5 @@
+---
+term: BARE-Multisig
+---
+
+Standaard scriptmodel P2MS gebruikt om bestedingsvoorwaarden op een UTXO in te stellen. Hiermee kunnen bitcoins met meerdere publieke sleutels worden vergrendeld. Om deze bitcoins uit te geven, moet een handtekening met een vooraf bepaald aantal geassocieerde privésleutels worden verstrekt. Bijvoorbeeld, een `2/3` P2MS heeft `3` publieke sleutels met `3` geassocieerde geheime privésleutels. Om de bitcoins uit te geven die met dit P2MS-script zijn vergrendeld, moet een handtekening met ten minste `2` van de `3` privésleutels worden gezet. Dit is een drempelbeveiliging. Dit script werd in 2011 uitgevonden door Gavin Andresen toen hij net het onderhoud van de hoofdclient Bitcoin had overgenomen. Vandaag de dag wordt P2MS slechts marginaal gebruikt door enkele applicaties. De overgrote meerderheid van moderne multisignaturen gebruikt andere scriptmodellen zoals P2SH of P2WSH. Vergeleken hiermee is P2MS extreem triviaal. De publieke sleutels waaruit het bestaat worden onthuld bij het ontvangen van de transactie. Het gebruik van P2MS is ook duurder dan andere multisignature scripts.

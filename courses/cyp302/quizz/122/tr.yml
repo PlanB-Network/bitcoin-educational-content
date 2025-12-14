@@ -1,0 +1,9 @@
+question: Anahtar dağıtım sorunu nedir?
+answer: Fiziksel Exchange olmadan anahtarları güvenli bir şekilde iletmenin zorluğu
+wrong_answers:
+  - İstemci başına generate birden fazla anahtar çifti gerekliliği
+  - Anahtarların fiziksel olarak saklanmasını güvence altına almanın zorluğu
+  - Her iletişimde anahtar değiştirme zorunluluğu
+explanation: |
+  Anahtar dağıtım problemi, fiziksel bir Exchange'nin pratik olmadığı dijital iletişimde çok önemli hale gelen bir gereklilik olan anahtarları güvenli bir şekilde iletme zorluğuyla ilgilidir.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Vad är det ekonomiska incitamentet för att använda en Bitcoin Miner istället för en enkel elvärmare?
+answer: Miner ger inte bara värme utan också en Bitcoin-belöning.
+wrong_answers:
+  - Miner använder mindre el än en vanlig elektrisk värmare.
+  - Miner producerar mer värme än en enkel elvärmare.
+  - Miner är billigare än en enkel elektrisk värmare.
+explanation: |
+  Skillnaden mellan att använda en Miner och en enkel elektrisk
+  värmare ligger i det faktum att Miner inte bara ger värme
+  värme utan också en Bitcoin-belöning. Denna extra belöning
+  kan hjälpa till att lindra oron för gruvarbetarnas höga
+  energiförbrukning hos gruvarbetare.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Apa perbedaan utama antara gerakan perangkat lunak bebas dan sumber terbuka?
+answer: Prioritas diberikan pada kebebasan atau efisiensi teknis
+wrong_answers:
+  - Penggunaan bahasa C atau bahasa rakitan
+  - Pengembangan aplikasi seluler asli atau PC
+  - Ada atau tidak adanya komunitas internasional
+explanation: |
+  Perangkat lunak bebas adalah tentang kebebasan pengguna; sumber terbuka adalah tentang transparansi dan efisiensi teknis.
+reviewed: false

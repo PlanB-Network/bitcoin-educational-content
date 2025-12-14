@@ -1,0 +1,9 @@
+question: Vad är den största begränsningen av JBOK-plånböcker?
+answer: De kräver en oberoende säkerhetskopia för varje privat nyckel
+wrong_answers:
+  - De tillåter inte generering av nya adresser
+  - De är inte kompatibla med digitala signaturer
+  - De använder okomprimerade offentliga nycklar
+explanation: |
+  JBOK-plånböcker tvingar användaren att säkerhetskopiera varje privat nyckel individuellt, vilket komplicerar hanteringen av dem.
+reviewed: false

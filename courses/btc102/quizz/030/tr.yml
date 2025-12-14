@@ -1,0 +1,9 @@
+question: Katmanlı yaklaşım Bitcoin için hangi önemli avantajı sunuyor?
+answer: Temel protokolün güvenliğinin korunması
+wrong_answers:
+  - Ana ağın artan merkezileşmesi
+  - Temel protokolde hızlı yenilik
+  - Temel protokolde olduğu gibi katmanlarda da aynı özelliklere sahip olması
+explanation: |
+  Katmanlı yaklaşım, temel protokolün güvenliğinden ve basitliğinden ödün vermeden yeni işlevlerin eklenmesine olanak tanır.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilken betydelse har cykliska grupper inom kryptografi?
+answer: De gör det möjligt att skapa kryptografiska system baserade på generatorer
+wrong_answers:
+  - De förenklar multipliceringen av krypteringsnycklar
+  - De ökar säkerheten för offentliga kommunikationskanaler
+  - De används för att Hash-meddelanden direkt för att bevara deras integritet
+explanation: |
+  Inom kryptografin är cykliska grupper med generatorer viktiga för att skapa baser för krypteringsnycklar, särskilt i system med publika nycklar.
+reviewed: false

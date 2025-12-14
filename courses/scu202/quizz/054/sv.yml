@@ -1,0 +1,9 @@
+question: Vilken information finns vanligtvis i EXIF-metadata för ett foto?
+answer: Datum, tid, GPS-position, enhetsmodell, författare
+wrong_answers:
+  - Källkod för kamerans firmware
+  - Fotografens Wi-Fi-lösenord
+  - Senaste resultaten från antivirusprogram
+explanation: |
+  EXIF-metadata för ett foto innehåller ofta detaljerad kontextuell information om bilden och kameran.
+reviewed: false

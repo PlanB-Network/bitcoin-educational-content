@@ -1,0 +1,9 @@
+question: Welk wiskundig concept ligt ten grondslag aan de Diffie-Hellman sleutel Exchange?
+answer: Een eenrichtingsfunctie met een achterdeur
+wrong_answers:
+  - Een inverse exponentiële functie
+  - Een cryptografisch Hash algoritme
+  - Een vereenvoudigde modulaire verdeling
+explanation: |
+  Diffie-Hellman vertrouwt op een functie in één richting die eenvoudig in één richting te berekenen is, maar praktisch onmogelijk om te keren zonder een geheim stukje informatie, een achterdeur genaamd.
+reviewed: false

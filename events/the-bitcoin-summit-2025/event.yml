@@ -1,0 +1,19 @@
+id: ea1ecfa3-1bb7-42be-a3e9-f7c7196dd32b
+start_date: 2025-09-16
+end_date: 2025-09-16
+address_line_1: Addis Ababa, Ethiopia
+name: The Bitcoin Summit 2025
+builder: Bitcoin Birr
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: Invite only event for bitcoin miners, energy professionals and others interested in the field of bitcoin. To be held at Hyatt Regency in Addis Ababa.
+language: 
+  - en
+links:
+  website: http://www.bitcoinbirr.org/events.html
+tags: 
+  - Bitcoiner
+  - Ethiopia
+  - Mining

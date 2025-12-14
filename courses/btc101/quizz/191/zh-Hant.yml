@@ -1,8 +1,10 @@
-question: 為您的企業選擇接受 Bitcoin 的解決方案時，需要考慮的一個因素是什麼？
-answer: 預期交易量。
+question: 在購買 Bitcoin 之前，您應該準備什麼？
+answer: 安全的 Wallet。
 wrong_answers:
-  - 您標誌的顏色。
-  - 員工人數。
-  - 您總部的位置。
-explanation: >-
+  - 實體保險箱。
+  - 銀行帳戶。
+  - 一張信用卡。
+explanation: |
+  課程中提到，在購買 Bitcoin 之前，您應該有一個安全的 Wallet 來存放鑰匙。
+  應該有一個安全的 Wallet 來存放鑰匙。
 reviewed: true

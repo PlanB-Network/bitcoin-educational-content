@@ -1,0 +1,9 @@
+question: Mis on Telegrami peamine piirang sõnumite konfidentsiaalsuse osas?
+answer: Vaikimisi on ainult salajased andmevahetused otsast lõpuni krüpteeritud
+wrong_answers:
+  - Sellega kehtestatakse anonüümne registreerimistasu
+  - See ei garanteeri saadud failide autentsust
+  - Avatud lähtekoodiga klient puudub
+explanation: |
+  Vaikimisi salvestatakse Telegrami sõnumeid ettevõtte serverites, kusjuures ainult salajased vestlused saavad kasu otsast lõpuni krüpteerimisest.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 哪种协议可为连接到网络的设备动态分配本地 IP Address？
+answer: DHCP
+wrong_answers:
+  - 超文本传输协定
+  - 文件传输协议
+  - DNS
+explanation: |
+  DHCP 会自动为每个连接到本地网络的新设备分配一个 IP Address。
+reviewed: false

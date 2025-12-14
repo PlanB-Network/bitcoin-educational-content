@@ -1,0 +1,9 @@
+question: Quel navigateur basé sur Blink est reconnu pour sa rapidité, sa compatibilité, mais collecte massivement les données utilisateur à des fins publicitaires ?
+answer: Chrome
+wrong_answers:
+  - Brave
+  - Firefox
+  - Tor Browser
+explanation: |
+  Google Chrome, bien que performant, collecte par défaut de nombreuses données personnelles, utilisées par Google pour la publicité ciblée.
+reviewed: false

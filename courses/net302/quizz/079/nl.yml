@@ -1,0 +1,9 @@
+question: Welk type DNS-record wordt gebruikt om een domeinnaam in kaart te brengen met een IPv6 Address?
+answer: AAAA
+wrong_answers:
+  - A
+  - PTR
+  - MX
+explanation: |
+  Type AAAA (quad-A) wordt gebruikt om een domeinnaam met een IPv6 Address in kaart te brengen, terwijl type A gereserveerd is voor IPv4.
+reviewed: false

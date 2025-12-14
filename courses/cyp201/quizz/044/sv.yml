@@ -1,0 +1,9 @@
+question: Vad är entropi i samband med kryptografi?
+answer: Ett mått på oförutsägbarhet som förknippas med en slumpmässig process
+wrong_answers:
+  - En metod för kryptering av känslig data
+  - En algoritm för att beräkna publika nycklar
+  - En teknik för datakomprimering
+explanation: |
+  Inom kryptografi kvantifierar entropi nivån av osäkerhet eller kaos i en slumpmässig källa, vilket är viktigt för att generera säkra nycklar.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Waarom is gedwongen sluiting minder wenselijk?
+answer: Het is langzamer en de vergoedingen kunnen ongepast zijn
+wrong_answers:
+  - Het vereist toestemming van Satoshi Nakamoto
+  - Het dwingt de recreatie van een kanaal later af
+  - Het voorkomt het gebruik van de revocatiesleutel
+explanation: |
+  Geforceerde afsluiting is minder wenselijk omdat het een tijdslot bevat, wat het proces vertraagt, en de vergoedingen kunnen ongeschikt zijn omdat ze zijn ingesteld op het moment dat het kanaal werd aangemaakt.
+reviewed: false

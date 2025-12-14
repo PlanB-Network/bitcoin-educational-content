@@ -1,0 +1,9 @@
+question: Layanan perpesanan mana yang memungkinkan Anda untuk mendaftar secara anonim sepenuhnya, tanpa nomor telepon atau login permanen?
+answer: Obrolan SimpleX
+wrong_answers:
+  - Sinyal
+  - Telegram
+  - WhatsApp
+explanation: |
+  SimpleX Chat menghilangkan gagasan tentang pengenal unik: kontak ditambahkan melalui tautan sementara atau kode QR, dan tidak ada data pribadi yang diperlukan.
+reviewed: false

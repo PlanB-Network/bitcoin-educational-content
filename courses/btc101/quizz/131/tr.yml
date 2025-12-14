@@ -1,0 +1,8 @@
+question: Bitcoin ağındaki düğümlerin birincil işlevi nedir?
+answer: Bitcoin Blockchain'in bir kopyasını muhafaza etmek, işlemleri doğrulamak, diğer düğümlere bilgi iletmek ve Bitcoin protokolünün kurallarını uygulamak.
+wrong_answers:
+  - Bitcoin Blockchain'ün bir kopyasını muhafaza etmek, işlemleri doğrulamak, bilgileri devlete iletmek ve Bitcoin protokolünün kurallarını değiştirmek.
+  - Sadece Bitcoin Blockchain'in bir kopyasını muhafaza edin.
+  - Sadece diğer düğümlere bilgi iletir.
+explanation: >-
+reviewed: true

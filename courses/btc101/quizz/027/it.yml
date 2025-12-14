@@ -1,9 +1,9 @@
-question: Perché Bitcoin non è ampiamente accettato nel commercio oggi?
-answer: Perché non è ampiamente adottato dagli individui.
+question: Qual è il principale vantaggio dell'oro come valuta?
+answer: Resiste in maniera incredibile all'azione del tempo.
 wrong_answers:
-  - Perché non è trasportabile.
-  - Perché non è divisibile in piccole unità.
-  - Perché non è liquido.
+  - È facilmente divisibile o trasportabile su lunghe distanze.
+  - È facilmente verificabile.
+  - Non è regolato dal governo.
 explanation: |
-  Nonostante le sue proprietà, come l'emissione strettamente limitata, Bitcoin non è ancora ampiamente accettato nel commercio oggi, a causa della mancanza di adozione da parte degli individui, quindi i commercianti non sono incoraggiati ad accettarlo.
-reviewed: vero
+  Sebbene non sia facilmente divisibile o trasportabile su lunghe distanze, l'oro è un materiale molto resistente, il che lo rende una buona riserva di valore. Le monete d'oro sono state utilizzate come valuta in passato, ma non riuscirebbero a svolgere la stessa funzione nell'era digitale di oggi.
+reviewed: true

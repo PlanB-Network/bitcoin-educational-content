@@ -1,0 +1,9 @@
+question: Welke praktijk wordt aanbevolen voordat je een bestand online of per e-mail deelt?
+answer: Alle metagegevens opschonen
+wrong_answers:
+  - Alle metagegevens coderen
+  - Authenticeer alle metadata
+  - Hernoem alle metagegevens
+explanation: |
+  Het opschonen van metadata voorkomt onbedoelde openbaarmaking van gevoelige informatie bij het delen van bestanden.
+reviewed: false

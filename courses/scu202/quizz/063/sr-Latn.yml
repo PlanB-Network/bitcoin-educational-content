@@ -1,0 +1,9 @@
+question: Koji tekstualni pregledač, bez podrške za Interface grafiku ili JavaScript, je najstariji koji se još uvek održava?
+answer: Ris
+wrong_answers:
+  - Mullvad Browser
+  - Polypane
+  - Vivaldi
+explanation: |
+  Lynx, koji se pojavio 1992. godine, radi u tekstualnom režimu, ne podržava JavaScript i još uvek se koristi za vrlo specifične svrhe.
+reviewed: false

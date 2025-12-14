@@ -1,0 +1,9 @@
+question: Ni ukwimenyekanisha canke ukwinjira hafashishijwe ivyemezo bibiri mubihamagarirwa?
+answer: Yongerako urundi ruhande rw'umutekano
+wrong_answers:
+  - Birorosha kuronka mu ingero umubare w'amakode .
+  - Irakwemerera kwinjira ata jambobanga
+  - Isubirira ikoreshwa ry'umucungerezi w'ijambobanga
+explanation: |
+  ivyemezo bibiri bisaba kode y’igihe gito yongerako ijambobanga, ivyo bikaba bikomeza cane uburinzi bwa konti yo kuri Interinete.
+reviewed: false

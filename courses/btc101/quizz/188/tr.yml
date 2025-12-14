@@ -1,0 +1,8 @@
+question: Aşağıdaki eylemlerden hangisi Bitcoin'ı günlük yaşamda kullanmak isteyenlere yardımcı olabilir?
+answer: Bitcoin kabul eden tüm tüccarların bir listesine sahip olun.
+wrong_answers:
+  - Bitcoin'nin fiyatını artırın.
+  - Bitcoin sayısını azaltın.
+  - Bitcoin kullanımını sınırlandırın.
+explanation: >-
+reviewed: true

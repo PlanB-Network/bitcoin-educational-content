@@ -1,11 +1,11 @@
-question: Quelle est la fonction principale des nœuds dans le réseau Bitcoin ?
-answer: Maintenir une copie de la blockchain Bitcoin, valider les transactions, transmettre les informations aux autres nœuds et faire respecter les règles du protocole Bitcoin.
+question: De quoi traitait la guerre des blocs en 2017 ?
+answer: Un conflit sur la question de savoir s'il fallait augmenter la taille des blocs pour étendre la capacité de transaction.
 wrong_answers:
-  - Maintenir une copie de la blockchain Bitcoin, valider les transactions, transmettre les informations au gouvernement et modifier les règles du protocole Bitcoin.
-  - Maintenir uniquement une copie de la blockchain Bitcoin.
-  - Transmettre uniquement les informations aux autres nœuds.
-explanation: >-
-  Les nœuds dans le réseau Bitcoin remplissent plusieurs fonctions cruciales, y compris
-  maintenir une copie de la blockchain Bitcoin, valider les transactions, transmettre
-  les informations aux autres nœuds et faire respecter les règles du protocole Bitcoin.
+  - Un conflit sur la question de savoir s'il fallait réduire la taille des blocs pour diminuer la capacité de transaction.
+  - Un conflit sur la question de savoir s'il fallait augmenter la récompense de bloc pour inciter les mineurs.
+  - Un conflit sur la question de savoir s'il fallait diminuer la récompense de bloc pour décourager les mineurs.
+explanation: |
+  La guerre des blocs en 2017 était un conflit sur la question de savoir s'il fallait
+  modifier Bitcoin en augmentant la taille des blocs pour étendre
+  la capacité de transaction.
 reviewed: true

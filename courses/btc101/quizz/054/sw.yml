@@ -1,10 +1,11 @@
-question: Je! ni awamu gani ya pili ya uzushi wa mfumuko wa bei?
-answer: Kuporomoka kwa sarafu na ongezeko la bei.
+question: Jina la tukio ni nini wakati zawadi ya Mining inapunguzwa kwa nusu?
+answer: Halving
 wrong_answers:
-  - Kupoteza Kujiamini.
-  - Mzunguko mbaya wa uchapishaji wa pesa.
-  - Sarafu mpya inaibuka.
+  - Kuongezeka maradufu
+  - Robo
+  - Kupanda mara tatu
 explanation: |
-  Awamu ya pili ya mfumuko wa bei ni kuporomoka kwa sarafu na
-  ongezeko la bei, baada tu ya Awamu ya Kupoteza Imani.
+  Tukio wakati malipo ya Mining yamepunguzwa nusu inaitwa
+  Halving. Tukio hili linatoa mkondo wa utoaji wa fedha a
+  umbo la ngazi.
 reviewed: true

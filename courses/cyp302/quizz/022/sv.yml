@@ -1,0 +1,9 @@
+question: Vad är resultatet i skiftkryptering för ordet DOG med nyckel 17?
+answer: UFX
+wrong_answers:
+  - ZKH
+  - TPG
+  - UVW
+explanation: |
+  Med en förskjutning av 17 i alfabetet blir D U, O blir F och G blir X. Därför är det krypterade ordet UFX.
+reviewed: false

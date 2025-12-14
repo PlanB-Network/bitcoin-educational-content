@@ -1,0 +1,9 @@
+question: Urubuga rwa Have I Been Pwned rukwemerera gukora iki?
+answer: Gusuzuma nimba aderese imeyiri yashizwe mu kaga.
+wrong_answers:
+  - Kurema amajambo y'ibanga mashasha, akomeye, kandi ataco akora.
+  - Rema ububiko bw'imeyiri butekanye.
+  - Guhuza amakonti ya imeyiri kugira ngo ukoreshe neza.
+explanation: |
+  Uru rubuga rurafasha kumenya ko amakuru yawe yinjiriwe no gusuzuma umutekano wa aderese imeyiri.
+reviewed: true

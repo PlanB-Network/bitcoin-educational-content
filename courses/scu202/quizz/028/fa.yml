@@ -1,0 +1,9 @@
+question: کدام فرمان می‌تواند برای نصب نرم‌افزار از مخازن رسمی اوبونتو استفاده شود؟
+answer: sudo apt install
+wrong_answers:
+  - sudo yum install
+  - sudo snap create
+  - نصب-نرم‌افزار
+explanation: |
+  دستور "sudo apt install" یک بسته نرم‌افزاری را از طریق مدیر بسته APT، که روش بومی در اوبونتو است، نصب می‌کند.
+reviewed: false

@@ -1,9 +1,11 @@
-question: Mikä on hyperinflaation ilmiön ensimmäinen vaihe?
-answer: Luottamuksen menetys.
+question: Mikä oli inflaatioaste Unkarissa heinäkuussa 1946?
+answer: 41 900 000 000 000 000%
 wrong_answers:
-  - Valuutan romahdus & hinnannousu.
-  - Loputon rahanpainamisen kierre.
-  - Uuden valuutan synty.
+  - 207%
+  - 50%
+  - 100%
 explanation: |
-  Hyperinflaation ensimmäinen vaihe on luottamuksen menetys valuuttaan.
+  Kuukausi, jolloin Unkarissa oli korkein inflaatio, oli heinäkuu
+  1946, jolloin ennätyksellinen hintainflaatio oli
+  41 900 000 000 000 000%.
 reviewed: true

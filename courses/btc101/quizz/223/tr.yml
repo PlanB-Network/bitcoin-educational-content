@@ -1,0 +1,9 @@
+question: Liquid üzerinde kullanılan bitcoinlere ne ad verilir?
+answer: L-BTC
+wrong_answers:
+  - W-BTC
+  - S-BTC
+  - T-BTC
+explanation: |
+  Liquid üzerinde bitcoinler, BTC’ye 1’e 1 oranında sabitlenmiş L-BTC olarak temsil edilir.
+reviewed: false

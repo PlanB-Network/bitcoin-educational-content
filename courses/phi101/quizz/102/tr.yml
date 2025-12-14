@@ -1,0 +1,9 @@
+question: Marx'ın emek değer teorisine yönelik Avusturyalı eleştirisi nedir?
+answer: Avusturyalılar değerin öznel olduğunu ve emek tarafından değil tüketici tercihleri tarafından belirlendiğini ileri sürmektedir.
+wrong_answers:
+  - Marx'ın teorisinin emeğin zorluğunu dikkate almadığını savunuyorlar.
+  - Avusturyalılar Marx'ın teorisini verimsiz olduğu için eleştirmektedir.
+  - Avusturyalılar Marx'ın teorisini emek-değer bir burjuva erdemi olduğu için eleştirirler.
+explanation: |
+  Avusturya ekolü, değeri emek zamanı ve çabayla ilişkilendiren Marksist teorinin aksine, değerin tüketicilerin bireysel tercihleriyle tanımlanan öznel bir kavram olduğunu savunur.
+reviewed: true

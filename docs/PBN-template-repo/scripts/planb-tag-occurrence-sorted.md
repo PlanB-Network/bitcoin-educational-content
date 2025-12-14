@@ -204,7 +204,7 @@
 - mix: 3
 - payjoin: 3
 - P2EP: 3
-- Breeze: 2
+- Breez: 2
 - cryptocurrency: 2
 - ethics: 2
 - banking: 2
@@ -838,7 +838,7 @@
 - Dice Roll: 1
 - GitHub: 1
 - Obsidian: 1
-- PlanB Network: 1
+- Plan ₿ Academy: 1
 - full KYC: 1
 - full YC: 1
 - Raspberry Pi: 1

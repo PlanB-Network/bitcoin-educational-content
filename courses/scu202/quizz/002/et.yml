@@ -1,0 +1,9 @@
+question: Mis on VPN-i peamine eelis?
+answer: Interneti-liikluse krüpteerimine
+wrong_answers:
+  - Kiirendage oma Interneti-ühendust
+  - Suurendada ladustamisvõimsust
+  - Integreeritud viirusetõrje
+explanation: |
+  VPN loob turvalise tunneli ja krüpteerib teie seadme ja vahendatud serveri vahelise teabevahetuse, tugevdades seeläbi konfidentsiaalsust.
+reviewed: false

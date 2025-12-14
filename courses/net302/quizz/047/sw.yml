@@ -1,0 +1,9 @@
+question: Ni neno gani linalorejelea baiti tatu za kwanza za MAC Address?
+answer: OUI (Organizational Unique Identifier)
+wrong_answers:
+  - SID (Session Identifier)
+  - LUI (Local Unique Identifier)
+  - PAN (Physical Address Number)
+explanation: |
+  OUI imetolewa na IEEE na inamtambulisha mtengenezaji wa kadi ya mtandao katika MAC Address.
+reviewed: true

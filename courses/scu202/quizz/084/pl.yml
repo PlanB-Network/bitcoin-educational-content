@@ -1,0 +1,9 @@
+question: Jaka jest główna wada Signal, jeśli chodzi o anonimowość?
+answer: Wymaga to użycia numeru telefonu
+wrong_answers:
+  - To nie jest open source
+  - Przechowuje wiadomości na centralnym serwerze
+  - Nie szyfruje wymienianych plików
+explanation: |
+  Signal wymaga numeru telefonu do rejestracji, co wprowadza potencjalną identyfikowalność, mimo że protokół zapewnia silne szyfrowanie.
+reviewed: false

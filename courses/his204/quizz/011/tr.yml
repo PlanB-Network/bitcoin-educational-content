@@ -1,0 +1,8 @@
+question: Boisguilbert'in Vauban ile ortak noktası nedir?
+answer: Kırsal kesimdeki insanların sefaletini uzun uzun anlattığı ve herkes için orantılı bir vergi önerdiği için
+wrong_answers:
+  - Kırsal kesimdeki insanların sefaletini uzun uzun anlattığı ve yazarlık kariyerine başladığı için
+  - Herkes için orantılı bir vergi önerdiği ve Maliye Bakanı olduğu için
+  - Maliye Bakanı olmak ve edebiyat kariyerine başlamak
+explanation: |
+  Pierre Le Pesant, sieur de Boisguilbert, Vauban gibi, köylülerin sefaletinin keskin bir gözlemcisiydi ve orantılı vergiye dayalı bir vergi reformu önerdi. Ancak Colbert'in aksine, ne Boisguilbert ne de Vauban maliye bakanı değildi.

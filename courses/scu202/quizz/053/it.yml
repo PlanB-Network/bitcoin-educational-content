@@ -1,0 +1,9 @@
+question: Quale piattaforma elimina automaticamente i metadati quando viene caricata una foto?
+answer: Segnale
+wrong_answers:
+  - Gmail
+  - Prospettiva
+  - Il tuo blog
+explanation: |
+  Signal (come Session e altri servizi di messaggistica sicura) pulisce i metadati delle immagini condivise per proteggere la privacy degli utenti.
+reviewed: false

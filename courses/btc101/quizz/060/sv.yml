@@ -1,0 +1,12 @@
+question: Hur ofta sker justeringen av svårighetsgraden?
+answer: Varje 2016 block.
+wrong_answers:
+  - Var 1048:e block.
+  - Var 512:e block.
+  - Var 4032:e block.
+explanation: |
+  Svårighetsjusteringen är en mekanism som äger rum
+  var 2016:e block, eller cirka två veckor, för att säkerställa att ett
+  nytt block läggs till Blockchain var tionde minut i genomsnitt, oavsett
+  i genomsnitt, oavsett den globala Hashrate.
+reviewed: true

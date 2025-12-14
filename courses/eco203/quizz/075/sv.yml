@@ -1,0 +1,9 @@
+question: Hur kunde bankernas oansvarighet tillåtas?
+answer: Genom garantierna för att förluster skulle delas i händelse av konkurs på grund av vårdslöst risktagande
+wrong_answers:
+  - Genom avsaknad av regler mot vårdslöst risktagande
+  - Genom avregleringen på 90-talet
+  - Genom det kapitalistiska systemet
+explanation: |
+  Bastiat förklarar att löftet om förlustutjämning uppmuntrar bankerna att ta överdrivna risker, eftersom de är säkra på att bli räddade om de skulle gå omkull, vilket främjar oansvarighet.
+reviewed: false

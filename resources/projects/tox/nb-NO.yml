@@ -1,0 +1,2 @@
+description: |
+  En gratis, desentralisert protokoll for kryptert kommunikasjon, designet for å tilby et sikkert alternativ til sentraliserte tjenester. Tox fungerer på peer-to-peer-basis, og muliggjør direktemeldinger, taleanrop, videokonferanser og filoverføring, samtidig som konfidensialiteten i utvekslingene garanteres takket være ende-til-ende-kryptering basert på libsodium. Tox ble lansert i 2013 i kjølvannet av Edward Snowden-avsløringene, og har som mål å tilby enkel, personvernvennlig kommunikasjon via en modulær arkitektur og klienter på tvers av plattformer.

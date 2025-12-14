@@ -1,0 +1,9 @@
+question: Bitcoin coreでdbcacheパラメータは何ができますか？
+answer: IBDを加速するためにRAMを割り当てる
+wrong_answers:
+  - Blockchainサイズの定義
+  - Miningの最大難易度を調整
+  - 接続ピア数の制限
+explanation: |
+  dbcacheパラメータは、UTXOセットを一時的に保存するために使用されるメモリ領域を増加させ、初期同期処理を高速化することができる。
+reviewed: true

@@ -1,0 +1,9 @@
+question: Minkä historiallisen komennon avulla ARP-välimuistista voidaan kysyä useimmissa järjestelmissä?
+answer: arp
+wrong_answers:
+  - dig
+  - nslookup
+  - ping
+explanation: |
+  Komennolla arp voit tarkastella tai muokata ARP-välimuistia, joka tallentaa IP/MAC-kuvakkeet paikallisesti.
+reviewed: false

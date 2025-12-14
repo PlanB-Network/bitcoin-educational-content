@@ -1,0 +1,9 @@
+question: 스태킹의 주요 목표는 무엇인가요?
+answer: 점차적으로 축적되는 사토시
+wrong_answers:
+  - 단기 투기
+  - 한 번에 많은 양의 사토시 구매하기
+  - 일일 결제에 Bitcoin 사용
+explanation: |
+  스태커는 일정 간격으로 소액을 투자하여 시간이 지남에 따라 구매 가격을 평균화합니다.
+reviewed: false

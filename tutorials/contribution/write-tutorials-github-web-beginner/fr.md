@@ -1,59 +1,59 @@
 ---
 name: Contribution - Tutoriel avec GitHub Web (débutant)
-description: Guide complet pour proposer un tutoriel sur Plan ₿ Network avec GitHub Web
+description: Guide complet pour proposer un tutoriel sur Plan ₿ Academy avec GitHub Web
 ---
 ![cover](assets/cover.webp)
 
 Avant de suivre ce tutoriel sur l'ajout d'un nouveau tutoriel, vous devez avoir complété quelques étapes préliminaires. Si ce n'est pas encore fait, je vous invite à consulter d'abord ce tutoriel introductif, puis à revenir ici :
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Vous avez déjà :
 - Choisi le thème de votre tutoriel ;
-- Contacté l'équipe de Plan ₿ Network via [le groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder) ou paolo@planb.network ;
+- Contacté l'équipe de Plan ₿ Academy via [le groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder) ou paolo@planb.network ;
 - Choisi vos outils de contribution.
 
-Dans ce tutoriel, nous allons voir comment ajouter votre tutoriel sur Plan ₿ Network en utilisant la version web de GitHub. Si vous maîtrisez déjà Git, ce tutoriel très détaillé n'est peut-être pas nécessaire pour vous. Je vous recommande plutôt de consulter un de ces 2 autres tutoriels, où je détaille les lignes directrices à suivre et les étapes pour effectuer les modifications depuis un environnement local :
+Dans ce tutoriel, nous allons voir comment ajouter votre tutoriel sur Plan ₿ Academy en utilisant la version web de GitHub. Si vous maîtrisez déjà Git, ce tutoriel très détaillé n'est peut-être pas nécessaire pour vous. Je vous recommande plutôt de consulter un de ces 2 autres tutoriels, où je détaille les lignes directrices à suivre et les étapes pour effectuer les modifications depuis un environnement local :
 
 - **Utilisateurs expérimentés** :
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 - **Intermédiaire (GitHub Desktop)** :
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 ## Prérequis
 
 Prérequis avant de commencer le tutoriel :
 
 - Avoir un [compte GitHub](https://github.com/signup) ;
-- Avoir un fork du [dépôt source de Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content) ;
-- Avoir [un profil de professeur sur Plan ₿ Network](https://planb.network/professors) (uniquement si vous proposez un tutoriel complet).
+- Avoir un fork du [dépôt source de Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content) ;
+- Avoir [un profil de professeur sur Plan ₿ Academy](https://planb.academy/professors) (uniquement si vous proposez un tutoriel complet).
 
 Si vous avez besoin d'aide pour obtenir ces prérequis, mes autres tutoriels vous aideront :
 
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+https://planb.academy/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
-Une fois que tout est en place et que vous avez votre fork du dépôt de Plan ₿ Network, vous allez pouvoir commencer l'ajout du tutoriel.
+Une fois que tout est en place et que vous avez votre fork du dépôt de Plan ₿ Academy, vous allez pouvoir commencer l'ajout du tutoriel.
 
 ## 1 - Créer une nouvelle branche
 
-Ouvrez votre navigateur et dirigez-vous vers la page de votre fork du dépôt de Plan ₿ Network. Il s'agit du fork que vous avez établi sur GitHub. L'URL de votre fork devrait ressembler à : `https://github.com/[votre-nom-d'utilisateur]/bitcoin-educational-content` :
+Ouvrez votre navigateur et dirigez-vous vers la page de votre fork du dépôt de Plan ₿ Academy. Il s'agit du fork que vous avez établi sur GitHub. L'URL de votre fork devrait ressembler à: `https://github.com/[votre-nom-d'utilisateur]/bitcoin-educational-content` :
 
 ![GITHUB](assets/fr/01.webp)
 
-Assurez-vous d'être sur la branche principale `dev` puis cliquez sur le bouton "*Sync fork*". Si votre fork n'est pas à jour, GitHub vous proposera de mettre à jour votre branche. Procédez à cette mise à jour :
+Assurez-vous d'être sur la branche principale `dev` puis cliquez sur le bouton `Sync fork`. Si votre fork n'est pas à jour, GitHub vous proposera de mettre à jour votre branche. Procédez à cette mise à jour :
 
 ![GITHUB](assets/fr/02.webp)
 
-Cliquez sur la branche `dev`, puis nommez votre branche de travail de manière à ce que son titre reflète clairement son objectif, en utilisant des tirets pour séparer les mots. Par exemple, si notre but est de rédiger un tutoriel sur l'utilisation de Green Wallet, la branche pourrait s'appeler : `tuto-green-wallet-loic`. Après avoir saisi un nom approprié, cliquez sur "*Create branch*" pour confirmer la création de votre nouvelle branche basée sur `dev` :
+Cliquez sur la branche `dev`, puis nommez votre branche de travail de manière à ce que son titre reflète clairement son objectif, en utilisant des tirets pour séparer les mots. Par exemple, si notre but est de rédiger un tutoriel sur l'utilisation de Green Wallet, la branche pourrait s'appeler : `tuto-green-wallet-loic`. Après avoir saisi un nom approprié, cliquez sur `Create branch` pour confirmer la création de votre nouvelle branche basée sur `dev` :
 
 ![GITHUB](assets/fr/03.webp)
 
@@ -71,11 +71,11 @@ Une branche dans Git représente une version parallèle du projet, vous permetta
 
 Maintenant que la branche de travail est créée, il est temps de faire l'intégration de votre nouveau tutoriel.
 
-Au sein des fichiers de votre branche, vous devrez trouver le sous-dossier approprié pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web Plan ₿ Network. Dans notre exemple, puisque nous ajoutons un tutoriel sur Green Wallet, dirigez-vous vers le chemin suivant : `bitcoin-educational-content\tutorials\wallet` qui correspond à la section `WALLET` du site web :
+Au sein des fichiers de votre branche, vous devrez trouver le sous-dossier approprié pour le placement de votre tutoriel. L'organisation des dossiers reflète les différentes sections du site web Plan ₿ Academy. Dans notre exemple, puisque nous ajoutons un tutoriel sur Green Wallet, dirigez-vous vers le chemin suivant : `bitcoin-educational-content\tutorials\wallet` qui correspond à la section `WALLET` du site web :
 
 ![GITHUB](assets/fr/05.webp)
 
-Dans le dossier `wallet`, créez un nouveau répertoire spécifiquement dédié à votre tutoriel. Le nom de ce dossier doit clairement indiquer le logiciel abordé dans le tutoriel, en utilisant des tirets pour relier les mots. Pour mon exemple, le dossier sera nommé `green-wallet`. Cliquez sur "*Add File*" puis sur "*Create new file*" :
+Dans le dossier `wallet`, créez un nouveau répertoire spécifiquement dédié à votre tutoriel. Le nom de ce dossier doit clairement indiquer le logiciel abordé dans le tutoriel, en utilisant des tirets pour relier les mots. Pour mon exemple, le dossier sera nommé `green-wallet`. Cliquez sur `Add File` puis sur `Create new file` :
 
 ![GITHUB](assets/fr/06.webp)
 
@@ -87,7 +87,7 @@ Dans ce nouveau sous-dossier dédié à votre tutoriel, il faut ajouter plusieur
 - Créez un dossier `assets`, destiné à recevoir toutes les illustrations nécessaires à votre tutoriel ;
 - Au sein de ce dossier `assets`, il faut créer un sous-dossier nommé selon le code de langue originale du tutoriel. Par exemple, si le tutoriel est rédigé en anglais, ce sous-dossier doit être nommé `en`. Placez-y tous les visuels du tutoriel (schémas, images, captures d’écran, etc.).
 - Un fichier `tutorial.yml` doit être créé pour y consigner les détails relatifs à votre tutoriel ;
-- Un fichier en format markdown est à créer pour y rédiger le contenu effectif de votre tutoriel. Ce fichier doit être intitulé selon le code de la langue de rédaction. Par exemple, pour un tutoriel rédigé en français, le fichier devra s'appeler `fr.md`.
+- Un fichier en format Markdown est à créer pour y rédiger le contenu effectif de votre tutoriel. Ce fichier doit être intitulé selon le code de la langue de rédaction. Par exemple, pour un tutoriel rédigé en français, le fichier devra s'appeler `fr.md`.
 
 Pour résumer, voici la hiérarchie des fichiers (nous allons continuer de les créer dans la prochaine section) :
 
@@ -142,11 +142,11 @@ Voici le détail des champs obligatoires :
 
 - **id** : Un UUID (_Universally Unique Identifier_) permettant d’identifier de manière unique le tutoriel. Vous pouvez le générer avec [un outil en ligne](https://www.uuidgenerator.net/version4). La seule contrainte est que cet UUID soit aléatoire pour ne pas avoir de conflit avec un autre UUID sur la plateforme ;
 
-- **project_id** : L'UUID de l’entreprise ou de l’organisation derrière l’outil présenté dans le tutoriel [depuis la liste des projets](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Par exemple, si vous réalisez un tutoriel sur le logiciel Green Wallet, vous pouvez trouver ce `project_id` dans le fichier suivant : `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Cette information est ajoutée dans le fichier YAML de votre tutoriel parce que Plan ₿ Network maintient une base de données de toutes les entreprises et organisations opérant sur Bitcoin ou des projets connexes. En ajoutant le `project_id` de l'entité liée à votre tutoriel, vous créez un lien entre les deux éléments ;
+- **project_id** : L'UUID de l’entreprise ou de l’organisation derrière l’outil présenté dans le tutoriel [depuis la liste des projets](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Par exemple, si vous réalisez un tutoriel sur le logiciel Green Wallet, vous pouvez trouver ce `project_id` dans le fichier suivant : `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Cette information est ajoutée dans le fichier YAML de votre tutoriel parce que Plan ₿ Academy maintient une base de données de toutes les entreprises et organisations opérant sur Bitcoin ou des projets connexes. En ajoutant le `project_id` de l'entité liée à votre tutoriel, vous créez un lien entre les deux éléments ;
 
-- **tags** : 2 ou 3 mots-clés pertinents liés au contenu du tutoriel, choisis exclusivement [dans la liste des tags de Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) ;
+- **tags** : 2 ou 3 mots-clés pertinents liés au contenu du tutoriel, choisis exclusivement [dans la liste des tags de Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) ;
 
-- **category** : La sous-catégorie correspondant au contenu du tutoriel, selon la structure du site Plan ₿ Network (par exemple pour les wallets : `desktop`, `hardware`, `mobile`, `backup`) ;
+- **category** : La sous-catégorie correspondant au contenu du tutoriel, selon la structure du site Plan ₿ Academy (par exemple pour les wallets : `desktop`, `hardware`, `mobile`, `backup`) ;
 
 - **level** : Le niveau de difficulté du tutoriel, parmi :
     - `beginner`
@@ -167,7 +167,7 @@ Voici le détail des champs obligatoires :
 
 Pour davantage de détails sur votre identifiant de professeur, reportez-vous au tutoriel correspondant :
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 
 ```
@@ -199,17 +199,17 @@ proofreading:
 ```
 
 
-Une fois la modification de votre fichier `tutorial.yml` achevée, enregistrez votre document en cliquant sur le bouton "*Commit changes...*" :
+Une fois la modification de votre fichier `tutorial.yml` achevée, enregistrez votre document en cliquant sur le bouton `Commit changes...` :
 
 ![GITHUB](assets/fr/09.webp)
 
-Ajoutez un titre et une description, et assurez-vous que le commit soit réalisé sur la branche de travail que vous avez créée au début de ce tutoriel. Puis confirmez en cliquant sur "*Commit changes*".
+Ajoutez un titre et une description, et assurez-vous que le commit soit réalisé sur la branche de travail que vous avez créée au début de ce tutoriel. Puis confirmez en cliquant sur `Commit changes`.
 
 ![GITHUB](assets/fr/10.webp)
 
 ## 4 - Créer les sous-dossiers pour les images
 
-Cliquez de nouveau sur "*Add File*" puis sur "*Create new file*" :
+Cliquez de nouveau sur `Add File`, puis sur `Create new file` :
 
 ![GITHUB](assets/fr/11.webp)
 
@@ -221,11 +221,11 @@ Répétez cette étape dans le dossier `/assets` pour créer le sous-dossier de 
 
 ![GITHUB](assets/fr/13.webp)
 
-Dans ce dossier, créez un fichier factice pour obliger GitHub à conserver votre dossier (qui sinon serait vide). Nommez ce fichier `.gitkeep`. Ensuite, cliquez sur "*Commit changes...*".
+Dans ce dossier, créez un fichier factice pour obliger GitHub à conserver votre dossier (qui sinon serait vide). Nommez ce fichier `.gitkeep`. Ensuite, cliquez sur `Commit changes...`.
 
 ![GITHUB](assets/fr/14.webp)
 
-Assurez-vous à nouveau que vous êtes sur la branche de travail correcte, puis cliquez sur "*Commit changes*".
+Assurez-vous à nouveau que vous êtes sur la bonne branche de travail, puis cliquez sur `Commit changes`.
 
 ![GITHUB](assets/fr/15.webp)
 
@@ -235,7 +235,7 @@ Maintenant, nous allons créer le fichier qui accueillera votre tutoriel, nommé
 
 ![GITHUB](assets/fr/16.webp)
 
-Cliquez sur "*Add file*", puis sur "*Create new file*".
+Cliquez sur `Add file`, puis sur `Create new file`.
 
 ![GITHUB](assets/fr/17.webp)
 
@@ -268,7 +268,7 @@ Cette syntaxe vous sera utile chaque fois que l'ajout d'une image dans votre tut
 
 ![GITHUB](assets/fr/21.webp)
 
-Cliquez sur le bouton "*Commit changes...*" pour enregistrer ce fichier.
+Cliquez sur le bouton `Commit changes...` pour enregistrer ce fichier.
 
 ![GITHUB](assets/fr/22.webp)
 
@@ -286,7 +286,7 @@ Au sein du dossier `assets`, vous devez ajouter un fichier nommé `logo.webp`,
 
 Vous avez la liberté de choisir le logo du logiciel traité dans le tutoriel ou toute autre image pertinente, à condition que celle-ci soit libre de droits. En complément, ajoutez également au même endroit une image intitulée `cover.webp`. Celle-ci sera affichée en haut de votre tutoriel. Veillez à ce que cette image, tout comme le logo, respecte les droits d'utilisation et soit adaptée au contexte de votre tutoriel.
 
-Pour ajouter des images dans le dossier `/assets`, vous pouvez les glisser-déposer depuis vos fichiers locaux. Assurez-vous que vous êtes bien dans le dossier `/assets` et sur la bonne branche de travail, puis cliquez sur "*Commit changes*".
+Pour ajouter des images dans le dossier `/assets`, vous pouvez les glisser-déposer depuis vos fichiers locaux. Assurez-vous que vous êtes bien dans le dossier `/assets` et sur la bonne branche de travail, puis cliquez sur `Commit changes`.
 
 ![GITHUB](assets/fr/26.webp)
 
@@ -304,17 +304,17 @@ Commencez la rédaction de votre tutoriel. Lorsque vous ajoutez un sous-titre, u
 
 ![GITHUB](assets/fr/29.webp)
 
-Alternez entre la vue "*Edit*" et la vue "*Preview*" pour mieux visualiser le rendu.
+Alternez entre la vue `Edit` et la vue `Preview` pour mieux visualiser le rendu.
 
 ![GITHUB](assets/fr/30.webp)
 
-Pour enregistrer votre travail, cliquez sur "*Commit Changes...*", assurez-vous d'être sur la bonne branche de travail, puis confirmez en cliquant de nouveau sur "*Commit Changes*".
+Pour enregistrer votre travail, cliquez sur `Commit Changes...`, assurez-vous d'être sur la bonne branche de travail, puis confirmez en cliquant de nouveau sur `Commit Changes`.
 
 ![GITHUB](assets/fr/31.webp)
 
 ## 8 - Ajouter des visuels
 
-Le sous-dossier de langues dans le dossier `/assets` (dans mon exemple : `/assets/fr`) permet de stocker les schémas et les visuels qui accompagneront votre tutoriel. Autant que possible, évitez d'inclure du texte dans vos images pour rendre votre contenu accessible à un public international. Bien sûr, le logiciel présenté contiendra du texte, mais si vous ajoutez des schémas ou des indications supplémentaires sur les captures d'écran du logiciel, faites-le sans texte ou, si cela s'avère indispensable, utilisez l'anglais.
+Le sous-dossier de langue dans le dossier `/assets` (dans mon exemple : `/assets/fr`) permet de stocker les schémas et les visuels qui accompagneront votre tutoriel. Autant que possible, évitez d'inclure du texte dans vos images pour rendre votre contenu accessible à un public international. Bien sûr, le logiciel présenté contiendra du texte, mais si vous ajoutez des schémas ou des indications supplémentaires sur les captures d'écran du logiciel, faites-le sans texte ou, si cela s'avère indispensable, utilisez l'anglais.
 
 Pour nommer vos images, utilisez simplement des numéros correspondant à leur ordre d'apparition dans le tutoriel, formatés sur deux chiffres (ou trois chiffres si votre tutoriel contient plus de 99 images). Par exemple, nommez votre première image `01.webp`, votre deuxième `02.webp`, et ainsi de suite.
 
@@ -322,11 +322,11 @@ Le format de vos images doit être en `.webp` exclusivement. Si besoin, vous pou
 
 ![GITHUB](assets/fr/32.webp)
 
-Maintenant que vous avez ajouté vos images dans le sous-dossier, vous pouvez supprimer le fichier factice `.gitkeep`. Ouvrez ce fichier, cliquez sur les trois petits points en haut à droite, puis sur "*Delete file*".
+Maintenant que vous avez ajouté vos images dans le sous-dossier, vous pouvez supprimer le fichier factice `.gitkeep`. Ouvrez ce fichier, cliquez sur les trois petits points en haut à droite, puis sur `Delete file`.
 
 ![GITHUB](assets/fr/33.webp)
 
-Enregistrez vos modifications en cliquant sur "*Commit changes...*".
+Enregistrez vos modifications en cliquant sur `Commit changes...`.
 
 ![GITHUB](assets/fr/34.webp)
 
@@ -340,38 +340,38 @@ Le point d'exclamation au début indique qu'il s'agit d'une image. Le texte alte
 
 ![GITHUB](assets/fr/35.webp)
 
-Si vous souhaitez créer vos propres schémas, veillez à respecter la charte graphique de Plan ₿ Network pour assurer la cohérence visuelle :
-- **Police** : Utilisez [Rubik](https://fonts.google.com/specimen/Rubik) ;
+Si vous souhaitez créer vos propres schémas, veillez à respecter la charte graphique de Plan ₿ Academy pour assurer la cohérence visuelle :
+- **Police** : Utilisez [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans) ;
 - **Couleurs** :
 	- Orange : #FF5C00
 	- Noir : #000000
 	- Blanc : #FFFFFF
 
-**Il est impératif que tous les visuels intégrés à vos tutoriels soient libres de droit ou respectent la licence du fichier source**. Aussi, l'intégralité des schémas publiés sur Plan ₿ Network sont mis à disposition sous licence CC-BY-SA, de la même manière que le texte.
+**Il est impératif que tous les visuels intégrés à vos tutoriels soient libres de droit ou respectent la licence du fichier source**. Aussi, l'intégralité des schémas publiés sur Plan ₿ Academy sont mis à disposition sous licence CC-BY-SA, de la même manière que le texte.
 
-**-> Astuce :** Lors du partage de fichiers en public, tels que des images, il est important de supprimer les métadonnées superflues. Celles-ci peuvent contenir des informations sensibles, comme des données de localisation, des dates de création, ou encore des détails concernant l'auteur. Afin de protéger votre vie privée, il est conseillé de supprimer ces métadonnées. Pour simplifier cette opération, vous pouvez recourir à des outils spécialisés comme [Exif Cleaner](https://exifcleaner.com/), qui offre la possibilité de nettoyer les métadonnées d'un document grâce à un simple drag-and-drop.
+**-> Astuce :** Lors du partage de fichiers en public, tels que des images, il est important de supprimer les métadonnées superflues. Celles-ci peuvent contenir des informations sensibles, comme des données de localisation, des dates de création, ou encore des détails concernant l'auteur. Afin de protéger votre vie privée, il est conseillé de supprimer ces métadonnées. Pour simplifier cette opération, vous pouvez recourir à des outils spécialisés comme [Exif Cleaner](https://exifcleaner.com/), qui offre la possibilité de nettoyer les métadonnées d'un document grâce à un simple glisser-déposer.
 
 ## 9 - Proposer le tutoriel
 
 Une fois que vous avez terminé la rédaction de votre tutoriel dans la langue de votre choix, l'étape suivante consiste à soumettre une **Pull Request**. L'administrateur se chargera ensuite d'ajouter les traductions manquantes de votre tutoriel, grâce à notre méthode de traduction automatisée avec relecture humaine.
 
-Pour procéder à la Pull Request, après avoir enregistré tous vos changements, cliquez sur le bouton "*Contribute*", puis sur "*Open pull request*" :
+Pour procéder à la Pull Request, après avoir enregistré tous vos changements, cliquez sur le bouton `Contribute`, puis sur `Open pull request` :
 
 ![GITHUB](assets/fr/36.webp)
 
-Une Pull Request est une demande faite pour intégrer les modifications de votre branche vers la branche de principale du dépôt de Plan ₿ Network, qui permet la revue et la discussion des changements avant leur fusion.
+Une Pull Request est une demande faite pour intégrer les modifications de votre branche vers la branche principale du dépôt de Plan ₿ Academy, qui permet la revue et la discussion des changements avant leur fusion.
 
 Avant de continuer, vérifiez soigneusement en bas de l'interface que ces modifications correspondent bien à ce que vous attendiez :
 
 ![GITHUB](assets/fr/37.webp)
 
-Assurez-vous, en haut de l'interface, que votre branche de travail soit bien fusionnée sur la branche `dev` du dépôt Plan ₿ Network (qui est la branche principale).
+Assurez-vous, en haut de l'interface, que votre branche de travail soit bien fusionnée sur la branche `dev` du dépôt Plan ₿ Academy (qui est la branche principale).
 
-Indiquez un titre qui résume brièvement les modifications que vous souhaitez fusionner avec le dépôt source. Ajoutez un bref commentaire décrivant ces changements (si vous avez un numéro d'issue associé à la création de votre tutoriel, pensez à noter en commentaire `Closes #{le numéro de l'issue}`), puis cliquez sur le bouton vert "*Create pull request*" pour confirmer la demande de fusion :
+Indiquez un titre qui résume brièvement les modifications que vous souhaitez fusionner avec le dépôt source. Ajoutez un bref commentaire décrivant ces changements (si vous avez un numéro d'issue associé à la création de votre tutoriel, pensez à noter en commentaire `Closes #{le numéro de l'issue}`), puis cliquez sur le bouton vert `Create pull request` pour confirmer la demande de fusion :
 
 ![GITHUB](assets/fr/38.webp)
 
-Votre PR sera alors visible dans l'onglet "*Pull Request*" du dépôt principal de Plan ₿ Network. Il ne vous reste plus qu'à patienter jusqu'à ce qu'un administrateur vous contacte pour confirmer la fusion de votre contribution ou pour solliciter d'éventuelles modifications complémentaires.
+Votre PR sera alors visible dans l'onglet `Pull Request` du dépôt principal de Plan ₿ Academy. Il ne vous reste plus qu'à patienter jusqu'à ce qu'un administrateur vous contacte pour confirmer la fusion de votre contribution ou pour solliciter d'éventuelles modifications complémentaires.
 
 ![GITHUB](assets/fr/39.webp)
 
@@ -381,7 +381,7 @@ Après la fusion de votre PR avec la branche principale, il est recommandé de s
 
 Si vous désirez apporter des modifications à votre contribution après avoir déjà soumis votre PR, la démarche à suivre dépend de l'état actuel de votre PR :
 - Si votre PR est toujours ouverte et n'a pas encore été fusionnée, effectuez les modifications sur la même branche de travail. Les modifications commit s'ajouteront à votre PR encore ouverte ;
-- Dans le cas où votre PR a déjà été fusionnée avec la branche principale, vous devrez refaire le processus depuis le début en créant une nouvelle branche, puis en soumettant une nouvelle PR. Assurez-vous que votre fork soit synchronisé avec le dépôt source de Plan ₿ Network sur la branche `dev` avant de procéder.
+- Dans le cas où votre PR a déjà été fusionnée avec la branche principale, vous devrez refaire le processus depuis le début en créant une nouvelle branche, puis en soumettant une nouvelle PR. Assurez-vous que votre fork soit synchronisé avec le dépôt source de Plan ₿ Academy sur la branche `dev` avant de procéder.
 
 Si vous rencontrez des difficultés techniques pour soumettre votre tutoriel, n'hésitez pas à demander de l'aide sur [notre groupe Telegram dédié aux contributions](https://t.me/PlanBNetwork_ContentBuilder). Merci !
 

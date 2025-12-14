@@ -1,0 +1,9 @@
+question: What is a Linux distribution?
+answer: A complete operating system built around the Linux kernel
+wrong_answers:
+  - A package manager
+  - A Linux desktop environment
+  - An automated installation script for the Linux operating system
+explanation: |
+  A Linux distribution integrates the kernel, system tools, software, bootloader and package management to provide a ready-to-use system.
+reviewed: false

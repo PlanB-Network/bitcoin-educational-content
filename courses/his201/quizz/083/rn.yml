@@ -1,0 +1,9 @@
+question: Ni igiciro ikihe Bitcoin yashitseko muri Ruheshi 2011?
+answer: $32
+wrong_answers:
+  - $1.
+  - $30.
+  - Amadolari 800.000.
+explanation: |
+  Ku wa 8 Ruheshi, igiciro ca Bitcoin carashitse ku rugero rwo hejuru cane rw’amadolari 32 ku musozi Gox. Ariko rero, ryaciye rigwa ningoga inyuma y’aho.
+reviewed: true

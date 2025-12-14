@@ -1,0 +1,9 @@
+question: मैं कार्गो के माध्यम से RGB टूल कैसे स्थापित करूं?
+answer: कार्गो स्थापित RGB-अनुबंध --सभी-सुविधाएँ
+wrong_answers:
+  - कार्गो स्थापित RGB --सभी सुविधाएँ
+  - कार्गो स्थापित RGB-Bitcoin --सभी
+  - कार्गो बिल्ड RGB-लाइटनिंग --रिलीज़
+explanation: |
+  स्थापना "cargo install RGB-contracts --all-features" कमांड के साथ की जाती है, क्रेट का नाम "RGB-contracts" होता है, जो RGB टूल को स्थापित करता है।
+reviewed: false

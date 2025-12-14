@@ -1,0 +1,9 @@
+question: Minkä tyyppisen IPv6-lohkon avulla yritys voi säilyttää etuliitteensä, vaikka se vaihtaisi Internet-palveluntarjoajaa?
+answer: PI (palveluntarjoajasta riippumaton)
+wrong_answers:
+  - PA (palveluntarjoajien yhteenlaskettava)
+  - LIR (Local Internet Registry)
+  - IP (vaihdettava toimittaja)
+explanation: |
+  RIR myöntää PI-lohkon (Provider Independent) suoraan organisaatiolle Internet-palveluntarjoajasta riippumatta.
+reviewed: false

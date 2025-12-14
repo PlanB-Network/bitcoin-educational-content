@@ -1,0 +1,12 @@
+question: Varför är det viktigt att verifiera webbplatsens publika nyckel med hjälp av ett certifikatsystem?
+answer: För att bekräfta webbplatsens äkthet.
+wrong_answers:
+  - För att säkerställa att inget bedrägeri kan ske, men endast när du är ansluten via ett offentligt Wi-Fi-nätverk.
+  - För att delvis blockera online-annonser.
+  - För att säkerställa att ingen illasinnad enhet utger sig för att vara webbplatsen.
+explanation: |
+  Att verifiera webbplatsens publika nyckel med hjälp av ett certifikatsystem
+  är viktigt för att bekräfta webbplatsens äkthet. Detta
+  skyddar mot att illasinnade personer utger sig för att vara
+  och överför data i klartext.
+reviewed: true

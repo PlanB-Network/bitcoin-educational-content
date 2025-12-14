@@ -1,0 +1,9 @@
+question: Hoe werken Enterprise-systemen de inventaris automatisch bij?
+answer: Door workflow triggers
+wrong_answers:
+  - Handmatige updates
+  - Uploads aan het einde van de dag
+  - Geplande rapporten
+explanation: |
+  Workflow triggers werken systemen in realtime bij.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 智能手机屏幕锁定的最佳推荐方法是什么？
+answer: 字母数字密码
+wrong_answers:
+  - 图表
+  - 面部识别
+  - 无锁定
+explanation: |
+  与图形方案或生物识别技术不同，字母数字密码能最大程度地防止未经授权的访问尝试。
+reviewed: false

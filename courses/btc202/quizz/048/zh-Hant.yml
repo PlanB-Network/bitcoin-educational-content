@@ -1,0 +1,9 @@
+question: 如果透過 umbrel.local 存取失敗，哪個指令會擷取 Umbrel 的本機 IP Address？
+answer: 主機名稱 -I
+wrong_answers:
+  - ifconfig -usb
+  - umbrel-ip --show
+  - netstat -umbrel
+explanation: |
+  如果偵測有問題，您可以在 Umbrel 機器上使用 hostname -I 指令找出它的本機 IP。
+reviewed: true

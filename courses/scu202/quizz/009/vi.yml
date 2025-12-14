@@ -1,0 +1,9 @@
+question: Vai trò chính của hệ điều hành là gì?
+answer: Trung gian giữa phần cứng, người dùng và ứng dụng
+wrong_answers:
+  - Phần mềm diệt virus tích hợp
+  - Phần mềm đồ họa
+  - Máy chủ nhắn tin tức thời
+explanation: |
+  Hệ điều hành hoạt động như một phần mềm trung tâm Layer cho phép các ứng dụng và người dùng truy cập và kiểm soát phần cứng.
+reviewed: false

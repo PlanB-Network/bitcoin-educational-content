@@ -1,0 +1,9 @@
+question: PayPal'ın yaratılmasının arkasındaki ana kişilik kimdi?
+answer: Peter Thiel
+wrong_answers:
+  - Elon Musk
+  - Marc Andreessen
+  - Mark Zuckerberg
+explanation: |
+  PayPal ürünü, Aralık 1998'de Peter Thiel ve Max Levchin tarafından San Francisco'da kurulan Confinity Inc. tarafından 1999 yılında geliştirilmiştir.
+reviewed: true

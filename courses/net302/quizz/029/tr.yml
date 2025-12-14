@@ -1,0 +1,9 @@
+question: TCP/IP modelinde hizmet ilkellerinin amacı nedir?
+answer: Katmanlar arasındaki alışverişleri yönetme
+wrong_answers:
+  - Ağ mesajlarını otomatik olarak şifreleyin
+  - IP adreslerini uzak ana bilgisayarlara dağıtma
+  - IP paketlerinin toplam uzunluğunu kontrol edin
+explanation: |
+  Hizmet ilkelleri, farklı katmanlar arasındaki iletişim Interface'ı tanımlayarak ağ alışverişlerinin kurulmasını, sürdürülmesini veya sonlandırılmasını sağlar.
+reviewed: false

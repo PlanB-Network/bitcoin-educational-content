@@ -1,0 +1,11 @@
+question: Bitcoin bağlamında Halving nedir?
+answer: Bitcoin'nin kodunda her dört yılda bir Mining ödülünü yarıya indiren bir özellik
+wrong_answers:
+  - Bitcoin'ün küresel olarak benimsenmesini artırma süreci
+  - Bitcoin'in değerinin düşmesini engelleyen bir mekanizma
+  - Bitcoin'nın fiyatının hızla yükseldiği olayı tanımlamak için kullanılan bir terim
+explanation: |
+  Halving, Bitcoin'nin kodunda Mining'u kesen bir özelliktir
+  yaklaşık her dört yılda bir yarı yarıya ödüllendirilir. Bu olay şunları etkiler
+  madencilerin gelirleri ve Bitcoin fiyatı üzerinde yukarı yönlü baskı oluşturmaktadır.
+reviewed: true

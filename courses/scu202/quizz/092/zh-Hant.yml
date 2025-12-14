@@ -1,0 +1,9 @@
+question: 網際網路與您的私人家庭網路之間的邊界是由哪個裝置所構成的？
+answer: 數據機-路由器
+wrong_answers:
+  - 乙太網路交換器
+  - NAS 伺服器
+  - USB 集線器
+explanation: |
+  數據機路由器連接 ISP 網路與您的本機網路，並管理本機 IP 位址的分配。
+reviewed: false

@@ -1,10 +1,9 @@
-question: Quelle est l'une des choses que vous devriez avoir avant d'acheter du Bitcoin ?
-answer: Un portefeuille sécurisé.
+question: Quelle est l'une des raisons pour lesquelles vous devriez consolider vos UTXOs dans vos portefeuilles de temps en temps ?
+answer: Pour éviter des frais inutiles lors des transactions.
 wrong_answers:
-  - Un coffre-fort physique.
-  - Un compte en banque.
-  - Une carte de crédit.
-explanation: |
-  Le texte du cours mentionne qu'avant d'acheter du Bitcoin, vous
-  devriez avoir un portefeuille sécurisé où vous stockerez vos clés.
+  - Pour augmenter la valeur de vos bitcoins.
+  - Pour empêcher vos bitcoins d'être volés.
+  - Pour garantir que vos bitcoins sont toujours disponibles.
+explanation: >-
+  Consolider vos UTXOs dans vos portefeuilles de temps en temps est essentiel pour gérer efficacement vos bitcoins et éviter des frais inutiles lors des transactions.
 reviewed: true

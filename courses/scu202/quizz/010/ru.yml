@@ -1,0 +1,9 @@
+question: Как называется эмблематический талисман Linux?
+answer: Смокинг
+wrong_answers:
+  - Дюк
+  - Beastie
+  - daemon
+explanation: |
+  С 1996 года Tux является официальным талисманом ядра Linux, созданным Ларри Юингом.
+reviewed: false

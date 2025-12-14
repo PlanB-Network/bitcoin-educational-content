@@ -1,0 +1,10 @@
+question: Hoe worden adressen gebruikt om UTXO's te vergrendelen?
+answer: Ze zijn geïntegreerd in de ScriptPubKey
+wrong_answers:
+  - Ze zijn geïntegreerd in ScriptSig
+  - Ze zijn geïntegreerd in de coinbase.
+  - Ze zijn nergens geïntegreerd.
+explanation: |
+  Wanneer een betaling wordt gedaan, creëert de transactie een nieuwe UTXO als uitvoer van de UTXO's die als invoer zijn verbruikt. Op deze uitvoer wordt een script geplaatst dat definieert hoe deze UTXO later kan worden uitgegeven. Dit script staat bekend als de ScriptPubKey. De ontvangende Address is geïntegreerd in dit script.
+  
+reviewed: false

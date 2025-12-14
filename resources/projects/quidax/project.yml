@@ -1,0 +1,32 @@
+id: 3e72b3c1-cd06-494a-8faa-a4a4d85ea75f
+
+name: Quidax
+
+address_line_1: Nigeria
+address_line_2:
+address_line_3: 
+
+links:
+  website: https://www.quidax.io/
+  twitter: https://x.com/quidaxglobal
+  Github: 
+  youtube: 
+
+category: exchange
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-06-16
+    urgency: 
+    contributor_names:
+      - Gloirew
+    reward: 
+
+tags:
+  - finance
+  - bitcoin
+  - investment
+
+contributor_names:
+  - Gloirew

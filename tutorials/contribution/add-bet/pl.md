@@ -1,6 +1,6 @@
 ---
 name: Dodawanie narzędzi edukacyjnych
-description: Jak dodawać nowe materiały edukacyjne w PlanB Network?
+description: Jak dodawać nowe materiały edukacyjne w Plan ₿ Academy?
 ---
 ![event](assets/cover.webp)
 
@@ -8,13 +8,13 @@ description: Jak dodawać nowe materiały edukacyjne w PlanB Network?
 Misją PlanB jest dostarczanie wiodących zasobów edukacyjnych na temat Bitcoin, w jak największej liczbie języków. Wszystkie treści publikowane na stronie są open-source i hostowane na GitHub, co pozwala każdemu uczestniczyć we wzbogacaniu platformy.
 
 
-Oprócz samouczków i szkoleń, PlanB Network oferuje również obszerną bibliotekę różnorodnych treści edukacyjnych na Bitcoin, dostępną dla każdego [w sekcji "BET" (_Bitcoin Educational Toolkit_)](https://planb.network/resources/bet). Baza ta obejmuje plakaty edukacyjne, memy, humorystyczne plakaty propagandowe, schematy techniczne, logo i inne narzędzia dla użytkowników. Celem tej inicjatywy jest wspieranie osób i społeczności nauczających Bitcoin na całym świecie poprzez dostarczanie im niezbędnych zasobów wizualnych.
+Oprócz samouczków i szkoleń, Plan ₿ Academy oferuje również obszerną bibliotekę różnorodnych treści edukacyjnych na Bitcoin, dostępną dla każdego [w sekcji "BET" (_Bitcoin Educational Toolkit_)](https://planb.academy/resources/bet). Baza ta obejmuje plakaty edukacyjne, memy, humorystyczne plakaty propagandowe, schematy techniczne, logo i inne narzędzia dla użytkowników. Celem tej inicjatywy jest wspieranie osób i społeczności nauczających Bitcoin na całym świecie poprzez dostarczanie im niezbędnych zasobów wizualnych.
 
 
 Chcesz wziąć udział we wzbogacaniu tej bazy danych, ale nie wiesz jak? Ten poradnik jest dla ciebie!
 
 
-*Konieczne jest, aby wszystkie treści zintegrowane z witryną były wolne od praw lub respektowały licencję pliku źródłowego. Ponadto wszystkie materiały wizualne publikowane w PlanB Network są udostępniane na licencji [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
+**Konieczne jest, aby wszystkie treści zintegrowane z witryną były wolne od praw lub respektowały licencję pliku źródłowego. Ponadto wszystkie materiały wizualne publikowane w Plan ₿ Academy są udostępniane na licencji [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)**
 
 ![event](assets/01.webp)
 
@@ -22,7 +22,7 @@ Chcesz wziąć udział we wzbogacaniu tej bazy danych, ale nie wiesz jak? Ten po
 - Po pierwsze, musisz mieć konto na GitHub. Jeśli nie wiesz, jak utworzyć konto, przygotowaliśmy szczegółowy samouczek, który Cię poprowadzi.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -36,7 +36,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![event](assets/03.webp)
 
 
-- Jeśli nigdy wcześniej nie współtworzyłeś zawartości PlanB Network, będziesz musiał utworzyć Fork oryginalnego repozytorium. Rozwidlenie repozytorium oznacza utworzenie kopii tego repozytorium na własnym koncie GitHub, co pozwala na pracę nad projektem bez wpływu na oryginalne repozytorium. Kliknij przycisk `Fork tego repozytorium`:
+- Jeśli nigdy wcześniej nie współtworzyłeś zawartości Plan ₿ Academy, będziesz musiał utworzyć Fork oryginalnego repozytorium. Rozwidlenie repozytorium oznacza utworzenie kopii tego repozytorium na własnym koncie GitHub, co pozwala na pracę nad projektem bez wpływu na oryginalne repozytorium. Kliknij przycisk `Fork tego repozytorium`:
 
 ![event](assets/04.webp)
 
@@ -61,7 +61,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 ```yaml
-builder:
+project:
 type:
 links:
 download:
@@ -79,22 +79,22 @@ Poniżej znajdują się szczegóły do wypełnienia dla każdego pola:
 
 
 
-- `builder`**: Wskaż identyfikator swojej organizacji w PlanB Network. Jeśli nie masz jeszcze identyfikatora "builder" dla swojej firmy, możesz go utworzyć, postępując zgodnie z tym samouczkiem.
+- `project`: Wskaź identyfikator swojej organizacji w Plan ₿ Academy. Jeśli nie masz jeszcze identyfikatora "project" dla swojej firmy, możesz go utworzyć, postępując zgodnie z tym samouczkiem.
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 Jeśli go nie posiadasz, możesz po prostu użyć swojego imienia i nazwiska, pseudonimu lub nazwy firmy bez konieczności tworzenia profilu budowniczego.
 
 
 
-- `type`**: Wybierz charakter swojej zawartości spośród następujących dwóch opcji:
+- **`type`**: Wybierz charakter swojej zawartości spośród następujących dwóch opcji:
  - `Educational Content` dla treści edukacyjnych.
  - `Visual Content` dla innych rodzajów różnorodnej zawartości.
 
 
 
-- `links`**: Podaj linki do swojej zawartości. Dostępne są dwie opcje:
+- `links`: Podaj linki do swojej zawartości. Dostępne są dwie opcje:
  - Jeśli zdecydujesz się hostować swoją zawartość bezpośrednio na GitHub PlanB, będziesz musiał dodać linki do tego pliku w kolejnych krokach.
  - Jeśli Twoje treści są hostowane gdzie indziej, na przykład na Twojej osobistej stronie internetowej, wskaż tutaj odpowiednie linki:
      - `download`: Link do pobrania zawartości.
@@ -102,7 +102,7 @@ Jeśli go nie posiadasz, możesz po prostu użyć swojego imienia i nazwiska, ps
 
 
 
-- `tags`**: Dodaj dwa tagi powiązane z treścią. Przykłady:
+- `tags`: Dodaj dwa tagi powiązane z treścią. Przykłady:
  - Bitcoin
  - technologia
  - ekonomia
@@ -111,14 +111,14 @@ Jeśli go nie posiadasz, możesz po prostu użyć swojego imienia i nazwiska, ps
 
 
 
-- `contributors`**: Podaj swój identyfikator współtwórcy, jeśli go posiadasz.
+- `contributors`**: Podaj swój identyfikator współtwórcy, jeśli go posiadasz.**
 
 
 Przykładowo, plik YAML może wyglądać następująco:
 
 
 ```yaml
-builder: PlanB-Network
+project: Plan ₿ Academy
 type: Educational Content
 links:
 download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -135,7 +135,7 @@ view:
 ![event](assets/13.webp)
 - Click on your GitHub profile picture at the top right, then on `Your Repositories`:
 ![event](assets/14.webp)
-- Select your fork of the PlanB Network repository:
+- Select your fork of the Plan ₿ Academy repository:
 ![event](assets/15.webp)
 - You should see a notification at the top of the window with your new branch. It is probably called `patch-1`. Click on it:
 ![event](assets/16.webp)
@@ -152,7 +152,7 @@ view:
 - Leave the commit title as default, and make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/23.webp)
 - Return to the `assets` folder: ![event](assets/24.webp)
 - Click on the `Add file` button, then on `Upload files`: ![event](assets/25.webp)
-- A new page will open. Drag and drop a thumbnail that represents your content into the area. This image will be displayed on the PlanB Network site: ![event](assets/26.webp)
+- A new page will open. Drag and drop a thumbnail that represents your content into the area. This image will be displayed on the Plan ₿ Academy site: ![event](assets/26.webp)
 - It can be a preview, a logo, or an icon: ![event](assets/27.webp)
 - Once the image is uploaded, make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/28.webp)
 - Be careful, your image must be named `logo` and must be in `.webp` format. The full file name should therefore be: `logo.webp`: ![event](assets/29.webp)

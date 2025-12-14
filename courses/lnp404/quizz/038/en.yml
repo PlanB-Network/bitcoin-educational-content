@@ -1,0 +1,8 @@
+question: A Lightning node operator wants to identify potential channel partners who are actively seeking liquidity and have demonstrated network reliability. Which combination of Peer Insights visual indicators would be most effective for this reconnaissance strategy?
+answer: Pool marketplace badges, high centrality scores, and positive health check indicators
+wrong_answers:
+  - Fee distribution clustering, forwarding event history, and volume routed metrics
+  - Channel capacity rankings, node age indicators, and inbound fee rates
+  - Outbound fee policies, routing philosophy patterns, and revenue generation data
+explanation: |
+  The correct answer focuses on reconnaissance-level indicators available for any public network node before establishing relationships. Pool marketplace badges specifically identify nodes seeking liquidity, centrality scores indicate network importance, and health checks show reliability - exactly what's needed for partner scouting. The wrong answers either reference advanced analytics only available for existing channel partners (forwarding events, volume routed) or focus on fee analysis rather than partner identification criteria.

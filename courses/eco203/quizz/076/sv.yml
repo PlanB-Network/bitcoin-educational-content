@@ -1,0 +1,9 @@
+question: Enligt Bastiat, vad subtraherar statismen individer från?
+answer: Konsekvenserna av deras handlingar
+wrong_answers:
+  - Från sina familjer
+  - Från glädjen med fritt experimenterande
+  - Från deras vänner
+explanation: |
+  Enligt Bastiat minskar överdrivet statligt ingripande det individuella ansvaret genom att ta bort de direkta konsekvenserna av individers handlingar, vilket främjar oansvarighet.
+reviewed: false

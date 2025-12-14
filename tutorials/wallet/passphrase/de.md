@@ -1,5 +1,5 @@
 ---
-name: Passphrase BIP39
+name: BIP-39 Passphrase
 description: Verständnis darüber, wie eine Passphrase funktioniert
 ---
 ![cover](assets/cover.webp)
@@ -29,27 +29,39 @@ Schließlich ist die Verwendung einer Passphrase interessant, wenn man die Zufä
 ## Wie wählt man eine gute Passphrase aus?
 Damit die Passphrase wirksam ist, muss sie ausreichend lang und zufällig sein. Genau wie bei einem starken Passwort empfehle ich, eine Passphrase zu wählen, die so lang und zufällig wie möglich ist, mit einer Vielzahl von Buchstaben, Zahlen und Symbolen, um jeden Brute-Force-Angriff unmöglich zu machen.
 
+Laut [einer Studie von Trezor aus dem Jahr 2019](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af) könnte ein Angreifer, der Zugriff auf Ihren Seed hat und eine High-End-GPU bei AWS (NVIDIA Tesla V100) mietet, fast 620 Millionen Passphrasen für 1 Dollar testen. Zum Vergleich: Mit der Rechenleistung von 2019 würde es durchschnittlich **77 Millionen Dollar** kosten, eine Passphrase mit 12 zufälligen Kleinbuchstaben zu knacken.
+
+Ich rate jedoch davon ab, sich auf 12 Zeichen zu beschränken. Streben Sie stattdessen die aktuellen Standards für starke Passwörter an: Im Jahr 2025 sollten es mindestens 13 zufällige Zeichen sein, darunter Zahlen, Klein- und Großbuchstaben sowie Symbole; oder 14 Zeichen, wenn Sie nur Klein- und Großbuchstaben verwenden. Natürlich empfehle ich, noch weiter zu gehen und beispielsweise eine Passphrase mit 20 Zeichen einschließlich Symbolen zu verwenden, um zukünftige Entwicklungen vorwegzunehmen und menschliche Risiken zu berücksichtigen, die in diesen Studien nicht berücksichtigt werden.
+
 Es ist auch wichtig, diese Passphrase richtig zu speichern, genauso wie die mnemonische Phrase. **Ihr Verlust bedeutet den Verlust des Zugangs zu Ihren Bitcoins**. Ich rate dringend davon ab, sie ausschließlich im Kopf zu behalten, da dies das Risiko eines Verlusts unangemessen erhöht. Das Ideal ist, sie auf einem physischen Medium (Papier oder Metall) getrennt von der mnemonischen Phrase niederzuschreiben. Dieses Backup muss offensichtlich an einem anderen Ort aufbewahrt werden, als Ihre mnemonische Phrase, um zu verhindern, dass beide gleichzeitig kompromittiert werden.
 
 ## Tutorials
 
 Um eine Passphrase auf einem Ledger-Gerät (Stax, Flex oder Nano) einzurichten, können Sie dieses Tutorial konsultieren:
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Auf einer COLDCARD:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 Auf einem Jade Plus:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 Auf einem Passport (Batch-2):
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 Auf einem Trezor-Gerät (Safe 3, Safe 5 oder Model One):
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+Auf einem SeedSigner:
+https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa03-4bcf-8308-00c89a74cffe
+Auf einem SeedSigner mit einem Seedkeeper:
+https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+
+
+
+
 

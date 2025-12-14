@@ -1,0 +1,9 @@
+question: Jaká místní data umožňují inzerentům sledovat vaše zvyky při procházení více webů?
+answer: Soubory cookie třetích stran
+wrong_answers:
+  - Kód JavaScriptu
+  - Místní historie
+  - Certifikát SSL
+explanation: |
+  Soubory cookie třetích stran, které umisťují externí reklamní agentury, se používají ke sledování aktivity uživatele na různých stránkách a k vytvoření reklamního profilu.
+reviewed: false

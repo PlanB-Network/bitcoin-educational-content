@@ -1,0 +1,17 @@
+question: Sıfır Faiz Oranı Politikalarının (ZIRP) sonuçları nelerdir?
+answer: ZIRP bankaların marjlarını aşındırır, girişimcilere ve risk alanlara kredi verme cesaretini kırar ve hükümetleri kapsamlı harcamalar yapmaya teşvik ederek kamu borcunun artmasına neden olur.
+wrong_answers:
+  - ZIRP bankaların karlarını artırır, girişimcilere ve risk alanlara kredi verilmesini teşvik eder ve hükümet harcamalarını caydırır.
+  - ZIRP'ın bankalar, kredi verme uygulamaları veya kamu harcamaları üzerinde önemli bir etkisi yoktur.
+  - ZIRP kamu borcunu azaltır, girişimcilere ve risk alanlara kredi verilmesini teşvik eder ve hükümet harcamalarını caydırır.
+explanation: |
+  Sıfır Faiz Oranı Politikalarının (ZIRP) çeşitli sonuçları olabilir
+  istenmeyen sonuçlar. Bankaların sınırlı fırsatları var
+  marjları erozyona uğradığı için özkaynaklarını yeniden inşa etmek.
+  Ayrıca borç vermek için çok az teşvikleri var, özellikle de
+  girişimciler ve diğer risk alanlar. Bunun yerine
+  kaynaklarını mevcut sermayeyi menkul kıymetleştirmek veya
+  teminat karşılığı krediler. Ek olarak, ZIRP aşağıdakileri teşvik eder
+  hükümetlerin kapsamlı harcamalar yapmasına yol açarak
+  kamu borç seviyelerinde önemli bir artış.
+reviewed: true

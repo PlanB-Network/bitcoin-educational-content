@@ -1,0 +1,9 @@
+question: Kiedy górnicy łączą się z pulami mining o większej przepustowości i łączności, aby uniknąć nieaktualnych bloków w okresach zwiększonych rozmiarów bloków, jaka jest główna negatywna konsekwencja dla sieci Bitcoin?
+answer: Zmniejsza to decentralizację mining, ponieważ mniejsi górnicy są popychani w kierunku większych pul z lepszą infrastrukturą
+wrong_answers:
+  - Zwiększa to trudność obliczeniową operacji mining, utrudniając rozwiązywanie bloków
+  - Tworzy to dodatkowe opłaty transakcyjne, które muszą być uiszczane w celu utrzymania łączności sieciowej
+  - Zmniejsza to całkowity wskaźnik hashowania sieci, ponieważ górnicy wydają zasoby na łączność zamiast mining
+explanation: |
+  W rozdziale tym wyjaśniono, że wraz ze wzrostem rozmiaru bloków wydłuża się czas propagacji, co prowadzi do większej liczby nieaktualnych bloków. Aby uniknąć utraty nagród za nieaktualne bloki, górnicy szukają pul o lepszej przepustowości i łączności. To popycha górników w kierunku większych, dobrze połączonych pul, zmniejszając decentralizację mining. Pozostałe opcje są nieprawidłowe: trudność dostosowuje się automatycznie niezależnie od łączności puli, koszty łączności nie powodują dodatkowych opłat transakcyjnych, a górnicy nie zmniejszają szybkości mieszania po dołączeniu do lepiej połączonych pul.
+reviewed: false

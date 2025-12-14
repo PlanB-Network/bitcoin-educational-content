@@ -1,0 +1,9 @@
+question: Geleneksel tarih ders kitaplarında genellikle neye odaklanılır?
+answer: Askeri fetihler ve liderlerin biyografileri
+wrong_answers:
+  - Fikirlerin ve felsefi akımların gelişimi
+  - Özgürlük ve bireysel haklar için verilen mücadeleler
+  - Bilimsel ve teknolojik ilerlemeler
+explanation: |
+  Geleneksel tarih ders kitaplarında genellikle askeri fetihlere ve liderlerin biyografilerine vurgu yapılmakta, dolayısıyla fikirlerin, sosyal hareketlerin ve diğer alanlardaki ilerlemelerin etkisi ihmal edilmektedir.
+reviewed: true

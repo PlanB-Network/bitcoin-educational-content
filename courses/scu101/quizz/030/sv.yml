@@ -1,0 +1,11 @@
+question: Vad är den gyllene regeln för att skydda dig mot bedrägliga e-postmeddelanden?
+answer: Kontrollera noga avsändarens fullständiga namn och e-postmeddelandets ursprung.
+wrong_answers:
+  - Svara alltid på misstänkta e-postmeddelanden.
+  - Öppna alla e-postbilagor för att kontrollera innehållet.
+  - Dela bara dina personuppgifter med kända avsändare.
+explanation: |
+  Den gyllene regeln för att skydda dig mot bedrägliga e-postmeddelanden
+  är att noggrant kontrollera avsändarens fullständiga namn samt
+  samt e-postmeddelandets ursprung. Om du är osäker, radera det!
+reviewed: true

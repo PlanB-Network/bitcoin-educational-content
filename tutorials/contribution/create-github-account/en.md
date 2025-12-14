@@ -7,7 +7,7 @@ description: How to create your own account on GitHub?
 
 Plan ₿'s mission is to provide top-tier educational resources about Bitcoin, available in as many languages as possible. All content published on the site is open-source and hosted on GitHub, offering anyone the opportunity to contribute to the enrichment of the platform. Contributions can take various forms: correcting and proofreading existing texts, translations into other languages, updating information, or creating new tutorials not yet available on our site.
 
-If you wish to contribute to Plan ₿ Network, you will need to use Git and GitHub, so, if these tools are unfamiliar to you or if their functioning seems obscure, don't panic, this article is for you! We will review together the fundamentals of Git and GitHub, as well as the associated technical jargon, to enable you to effectively use them afterwards.
+If you wish to contribute to Plan ₿ Academy, you will need to use Git and GitHub, so, if these tools are unfamiliar to you or if their functioning seems obscure, don't panic, this article is for you! We will review together the fundamentals of Git and GitHub, as well as the associated technical jargon, to enable you to effectively use them afterwards.
 
 ## What is Git?
 
@@ -18,7 +18,7 @@ At its core, Git allows developers to track changes made to a project's source c
 One of the key features of Git is branch management. A branch is a kind of parallel line where developers can work independently from the rest of the project. This greatly facilitates the addition of new features or the correction of bugs without disturbing the main code. Once the modifications are tested and validated, they can be merged with the main branch.
 
 One of the peculiarities of Git is its ability to operate in a distributed manner. Each developer has a complete copy of the project on their own computer's hard drive, allowing them to work offline and merge changes later when an Internet connection is available. This reduces the risk of conflicts and allows multiple developers to work simultaneously on the same project without stepping on each other's toes.
-Initially, Git was primarily designed for software development projects. However, it can also be used to manage content writing projects. Instead of collaborating on code, we collaborate on text. And it is precisely this method that Plan ₿ Network has adopted to manage its content! Git facilitates collaboration on writing courses and tutorials, as it allows for precise tracking of changes, efficient version management, and also enables the review and improvement of content by other contributors.
+Initially, Git was primarily designed for software development projects. However, it can also be used to manage content writing projects. Instead of collaborating on code, we collaborate on text. And it is precisely this method that Plan ₿ Academy has adopted to manage its content! Git facilitates collaboration on writing courses and tutorials, as it allows for precise tracking of changes, efficient version management, and also enables the review and improvement of content by other contributors.
 
 ## What is GitHub?
 
@@ -30,7 +30,7 @@ Imagine Git as a kind of logbook that each developer uses on their own computer 
 
 The fundamental difference between Git and GitHub lies in their function: Git is the tool used locally by each developer to manage their code versions, while GitHub is the online platform that hosts these versions and facilitates collaboration.
 
-GitHub is much more than just a code hosting service. It's a collaboration platform that allows developers to work together efficiently. And indeed, Plan ₿ Network uses this platform to host not only all the code that powers the website but also, and this is what interests us, all the content (tutorials, training, resources...).
+GitHub is much more than just a code hosting service. It's a collaboration platform that allows developers to work together efficiently. And indeed, Plan ₿ Academy uses this platform to host not only all the code that powers the website but also, and this is what interests us, all the content (tutorials, training, resources...).
 
 ## Some Technical Terms
 
@@ -64,7 +64,7 @@ After reading this article, it is possible that some aspects of Git and GitHub a
 
 ## How to create a GitHub account
 
-If you wish to contribute to the PlanB Network, you will need a GitHub account. In this tutorial, we will guide you step by step on how to create your own account, set it up, and secure it properly.
+If you wish to contribute to the Plan ₿ Academy, you will need a GitHub account. In this tutorial, we will guide you step by step on how to create your own account, set it up, and secure it properly.
 
 - Go to [https://github.com/signup](https://github.com/signup). 
 - Enter your email address, then click on the green `Continue` button:

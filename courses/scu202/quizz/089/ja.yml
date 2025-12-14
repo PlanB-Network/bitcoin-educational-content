@@ -1,0 +1,9 @@
+question: 完全なオフライン利用が可能で、広告トラッキングのない地図サービスは？
+answer: オーガニック・マップ
+wrong_answers:
+  - グーグルマップ
+  - ウェイズ
+  - シティマップ
+explanation: |
+  Organic MapsはOpenStreetMapをベースにしたオープンソースのアプリケーションで、プロプライエタリな代替品とは異なり、トラッカーやデータ収集なしでオフラインで動作する。
+reviewed: false

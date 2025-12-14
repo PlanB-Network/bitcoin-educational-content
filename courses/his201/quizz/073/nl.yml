@@ -1,0 +1,9 @@
+question: Welke Amerikaanse federale inlichtingendienst nodigde Gavin Andresen in april 2011 uit om een paar maanden later Bitcoin te presenteren?
+answer: De CIA
+wrong_answers:
+  - De FBI
+  - De NSA
+  - De DEA
+explanation: |
+  Meer specifiek ging het om In-Q-Tel, een Amerikaans durfkapitaalfonds dat beheerd wordt door de CIA, maar het bezoek vond plaats op het hoofdkantoor van de CIA.
+reviewed: true

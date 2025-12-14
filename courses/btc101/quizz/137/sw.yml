@@ -1,12 +1,8 @@
-question: Watumiaji huhamishaje Ownership ya pesa zao katika mtandao wa Bitcoin?
-answer: Kwa kusaini shughuli kidijitali kwa kutumia funguo zao za faragha.
+question: Ni nini hitaji la kipimo data cha kuendesha nodi ya Bitcoin, ukizingatia block 1 ya 1MB kila dakika 10?
+answer: Takriban 5GB kwa mwezi.
 wrong_answers:
-  - Kwa kukabidhi Bitcoins zao kimwili.
-  - Kwa kutuma barua pepe kwa mpokeaji.
-  - Kwa kutoa Bitcoin Address yao kwa mpokeaji.
-explanation: |
-  Watumiaji katika mtandao wa Bitcoin huhamisha Ownership ya zao
-  pesa kwa kusaini shughuli za kidijitali na shughuli zao za kibinafsi
-  funguo. Hii inathibitisha kuwa wao ndio wamiliki wa
-  bitcoins wanataka kuhamisha.
+  - Takriban 1GB kwa mwezi.
+  - Takriban 10GB kwa mwezi.
+  - Takriban 20GB kwa mwezi.
+explanation: >-
 reviewed: true

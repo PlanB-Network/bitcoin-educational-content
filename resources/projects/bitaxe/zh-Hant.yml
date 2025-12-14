@@ -1,0 +1,3 @@
+description: |
+  BitAxe 是一個開放原始碼專案，旨在使用重新利用的 ASIC 晶片（如來自廣受歡迎的 Antminer S19 的晶片），以較低的成本實驗 Bitcoin Mining。它提供多種針對礦工需求量身打造的機型，效能最高可達 3.3 TH/s。與 NerdMiner 之類的教育工具不同，BitAxe 允許參與 Mining 池，以獲得 generate 的定期 Bitcoin 獎勵，同時保持可訪問性和可配置性。是希望探索 Mining 的愛好者的理想工具。
+  

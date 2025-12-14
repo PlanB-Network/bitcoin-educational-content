@@ -1,0 +1,9 @@
+question: Która aplikacja oferuje radykalnie zdecentralizowaną architekturę bez centralnego serwera do routingu wiadomości?
+answer: Keet
+wrong_answers:
+  - Telegram
+  - Sygnał
+  - Threema
+explanation: |
+  Keet opiera się na modelu peer-to-peer, w którym cała komunikacja odbywa się bezpośrednio między użytkownikami, bez centralnego serwera, gwarantując wysoką odporność i poufność.
+reviewed: false

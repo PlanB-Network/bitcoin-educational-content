@@ -1,0 +1,9 @@
+question: Vad hette bloggen som drevs av Jon Matonis och som handlade om digitala valutor (inklusive Bitcoin från mars 2010)?
+answer: Den monetära framtiden
+wrong_answers:
+  - Klassiska ekonomiska studier
+  - Återgång till kontanter
+  - Nakamoto-institutet
+explanation: |
+  Efter att ha utbytt e-post med Satoshi publicerade han sin [första artikel om Bitcoin] (https: //themonetaryfuture.blogspot.com/2010/03/Bitcoin-peer-to-peer-electronic-cash.html) den 13 mars 2010.
+reviewed: true

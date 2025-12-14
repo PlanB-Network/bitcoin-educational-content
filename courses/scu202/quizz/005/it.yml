@@ -1,0 +1,9 @@
+question: Quale sistema operativo domina l'attuale mercato dei PC?
+answer: Finestre
+wrong_answers:
+  - macOS
+  - GNU/Linux
+  - Chrome OS
+explanation: |
+  Windows detiene una quota di mercato del 71% sui personal computer, grazie alla sua installazione predefinita e all'ampio ecosistema di software.
+reviewed: false

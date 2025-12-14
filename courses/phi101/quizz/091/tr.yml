@@ -1,0 +1,9 @@
+question: Eşitlemenin tehlikelerinden kaçınmak için Tocqueville tarafından önerilen çözüm nedir?
+answer: Sivil derneklerin ve yerel demokrasinin geliştirilmesi.
+wrong_answers:
+  - Devletin merkezi gücünü güçlendirmek.
+  - Ekonomik ve sosyal eşitsizliklerin azaltılması.
+  - Diğer tüm cevaplar doğrudur.
+explanation: |
+  Tocqueville, eşitlemenin tek tip etkilerine karşı koymak için sivil derneklerin ve yerel demokrasinin güçlendirilmesini önermektedir; çünkü bu, vatandaşların aktif katılımını teşvik eder ve yerel inisiyatiflerin çeşitliliğini korur.
+reviewed: true

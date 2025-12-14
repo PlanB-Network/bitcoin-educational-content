@@ -1,0 +1,8 @@
+question: Bitcoin 네트워크에서 난이도 조정의 기능은 무엇인가요?
+answer: 약 10분마다 블록이 Blockchain에 추가되도록 합니다.
+wrong_answers:
+  - Bitcoin의 가격을 결정합니다.
+  - Blockchain에서 채굴할 수 있는 비트코인의 수를 조절합니다.
+  - 블록의 크기를 결정합니다.
+explanation: >-
+reviewed: true

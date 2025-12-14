@@ -1,0 +1,9 @@
+question: Hoe kan een MAC Alice laten verifiëren dat een bericht inderdaad van Bob komt?
+answer: Door te controleren of de gegenereerde tag overeenkomt met de tag verzonden door Bob
+wrong_answers:
+  - Door het bericht te ontsleutelen om te zien of het leesbaar is
+  - Door de grootte van het bericht en die van de tag te vergelijken
+  - Door het IP-adres van de verzender te verifiëren Address
+explanation: |
+  Alice gebruikt de gedeelde geheime sleutel om generate een tag te geven van het ontvangen bericht. Als deze tag overeenkomt met de tag verzonden door Bob, weet ze dat het bericht authentiek en intact is.
+reviewed: false

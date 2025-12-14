@@ -1,12 +1,12 @@
-question: Jaký nástroj slouží pro přijímání Bitcoinu pro velké organizace nebo vášnivé nadšence do Bitcoinu?
-answer: BTCpay Server.
+question: Jaký je účel regulací KYC?
+answer: Boj proti financování terorismu, daňovým únikům a praní špinavých peněz.
 wrong_answers:
-  - Bitcoinová peněženka.
-  - Bitcoinová burza.
-  - BTCpay Mining.
+  - Zvýšit cenu Bitcoinu a způsobit, že uživatel zaplatí více daní.
+  - Kontrolovat nabídku Bitcoinu.
+  - Zabránit lidem v nákupu Bitcoinu.
 explanation: |
-  BTCpay Server je nástroj pro přijímání Bitcoinu pro velké
-  struktury nebo vášnivé příznivce bitcoinu. Další řešení
-  zahrnují OpenNode pro jednoduché online podnikání a Swiss
-  Bitcoin Pay pro amatérské obchodníky.
+  Text kurzu vysvětluje, že regulace Know Your Customer (KYC)
+  vyžadují, aby uživatelé poskytli identifikaci k
+  boji proti financování terorismu, daňovým únikům a praní
+  špinavých peněz.
 reviewed: true

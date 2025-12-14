@@ -1,3 +1,4 @@
+
 import os
 import shutil
 import uuid
@@ -24,14 +25,16 @@ def process_profile_image(source_path, dest_path):
         else:
             shutil.copy(source_path, dest_path)
 
-def create_tutorial_files(base, section_name, tutorial_name, language_code, project_id, tags, category_value, level_value, professor_id, contributor_id):
+def create_tutorial_files(base, section_name, tutorial_name, language_code, project_id, tags, category_value, level_value, professor_id, contributor_id, credit_link=None, licence="CC-BY-SA-V4"):
     """
     Create files required for a new tutorial.
     """
     tutorial_path = os.path.join(base, "tutorials", section_name, tutorial_name)
     create_directory(tutorial_path)
+    
     assets_path = os.path.join(tutorial_path, "assets")
     create_directory(assets_path)
+    
     assets_lang_path = os.path.join(assets_path, language_code)
     create_directory(assets_lang_path)
     
@@ -40,21 +43,40 @@ def create_tutorial_files(base, section_name, tutorial_name, language_code, proj
 name: 
 description: 
 ---
+
 ![cover](assets/cover.webp)
 """
     write_file(os.path.join(tutorial_path, md_filename), md_content)
     
     uuid_value = str(uuid.uuid4())
     current_date = datetime.date.today().strftime("%Y-%m-%d")
+    
     lines = [
         f"id: {uuid_value}",
-        "",
-        f"project_id: {project_id}",
-        "",
-        "tags:"
     ]
+    
+    # Add credit_link if we have it
+    if credit_link:
+        lines.extend([
+            "",
+            f"credit_link: {credit_link}",
+        ])
+    
+    if project_id:
+        lines.extend([
+            "",
+            f"project_id: {project_id}",
+            "",
+        ])
+    else:
+        lines.append("")
+
+    lines.append("tags:")
+
+    
     for tag in tags:
         lines.append(f"  - {tag}")
+    
     lines.extend([
         "",
         f"category: {category_value}",
@@ -62,6 +84,8 @@ description:
         f"level: {level_value}",
         "",
         f"professor_id: {professor_id}",
+        "",
+        f"licence: {licence}",
         "",
         "# Proofreading metadata",
         "",
@@ -74,12 +98,13 @@ description:
         f"      - {contributor_id}",
         "    reward: 0"
     ])
+    
     yaml_content = "\n".join(lines)
     write_file(os.path.join(tutorial_path, "tutorial.yml"), yaml_content)
     
     return tutorial_path
 
-def create_professor_yaml(full_name, website=None, twitter=None, lightning=None, tags=None):
+def create_professor_yaml(full_name, website=None, twitter=None, lightning=None, tags=None, nostr=None, linkedin=None, github=None):
     prof_uuid = str(uuid.uuid4())
     lines = [
         f"id: {prof_uuid}",
@@ -87,22 +112,35 @@ def create_professor_yaml(full_name, website=None, twitter=None, lightning=None,
         "",
         ""
     ]
-    if website or twitter:
+    
+    # Links block (optional)
+    if website or twitter or nostr or linkedin or github:
         lines.append("links:")
         if website:
             lines.append(f"  website: {website}")
         if twitter:
             lines.append(f"  twitter: {twitter}")
+        if nostr:
+            lines.append(f"  nostr: {nostr}")
+        if linkedin:
+            lines.append(f"  linkedin: {linkedin}")
+        if github:
+            lines.append(f"  github: {github}")
         lines.append("")
+    
+    # Tips block (optional)
     if lightning:
         lines.append("tips:")
         lines.append(f"  lightning_address: {lightning}")
         lines.append("")
+    
+    # Tags block (optional)
     if tags:
         lines.append("tags:")
         for t in tags:
             lines.append(f"  - {t}")
         lines.append("")
+    
     return "\n".join(lines)
 
 def create_language_yaml(language_code, bio, short_bio):
@@ -117,23 +155,32 @@ def create_language_yaml(language_code, bio, short_bio):
     ]
     return "\n".join(lines)
 
-def create_project_yaml(project_uuid, project_name, website, twitter, category, tags, language_code, current_date, global_contributor):
+def create_project_yaml(project_uuid, project_name, website, twitter, category, tags, language_code, current_date, global_contributor, licence="CC-BY-SA-V4", nostr=None, linkedin=None, github=None):
     """
     Generate the content for project.yml.
     'global_contributor' is the GitHub Contributor's ID from HOME.
     """
     lines = [
         f"id: {project_uuid}",
+        "",
         f"name: {project_name}",
         "",
     ]
-    if website or twitter:
+    
+    if website or twitter or nostr or linkedin or github:
         lines.append("links:")
         if website:
             lines.append(f"  website: {website}")
         if twitter:
             lines.append(f"  twitter: {twitter}")
+        if nostr:
+            lines.append(f"  nostr: {nostr}")
+        if linkedin:
+            lines.append(f"  linkedin: {linkedin}")
+        if github:
+            lines.append(f"  github: {github}")
         lines.append("")
+    
     lines.append(f"category: {category}")
     lines.append("")
     lines.append("contributor_names:")
@@ -142,6 +189,8 @@ def create_project_yaml(project_uuid, project_name, website, twitter, category, 
     lines.append("tags:")
     for t in tags:
         lines.append(f"  - {t}")
+    lines.append("")
+    lines.append(f"licence: {licence}")
     lines.append("")
     lines.append("# Proofreading metadata")
     lines.append(f"original_language: {language_code}")
@@ -153,6 +202,7 @@ def create_project_yaml(project_uuid, project_name, website, twitter, category, 
     lines.append(f"      - {global_contributor}")
     lines.append("    reward: 0")
     lines.append("")
+    
     return "\n".join(lines)
 
 def create_project_language_yaml(language_code, description, professor_global):

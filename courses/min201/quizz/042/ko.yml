@@ -1,0 +1,11 @@
+question: 지역에서 Mining을 금지하면 어떤 잠재적 영향이 있나요?
+answer: Hashrate과 Bitcoin의 가격이 크게 하락할 수 있습니다
+wrong_answers:
+  - Bitcoin의 가격 상승으로 이어질 수 있습니다
+  - 네트워크의 Hashrate를 증가시킬 수 있습니다
+  - 네트워크의 활성 노드 수가 증가할 수 있습니다
+explanation: |
+  중국에서 일어난 일과 같이 한 지역에서 Mining을 금지하면
+  gW-5의 가격이 크게 하락하고
+  Bitcoin. 하지만 이는 빠르게 회복될 수 있습니다.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Waarin verschilt een creditcardtransactie doorgaans van een gewone contante transactie?
+answer: Er zijn meerdere tussenpersonen bij betrokken
+wrong_answers:
+  - Het gebeurt onmiddellijk zonder tussenkomst van een tussenpersoon
+  - Het vereist alleen de fysieke Exchange van valuta
+  - Het verplicht beide partijen identieke goederen te produceren
+explanation: |
+  In tegenstelling tot contant geld, dat onmiddellijk wordt ingewisseld, doorlopen creditcardtransacties een reeks stappen waarbij banken, kaartnetwerken en verrekeningsprocessen betrokken zijn, wat leidt tot vertragingen en extra kosten.
+reviewed: false

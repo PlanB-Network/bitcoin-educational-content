@@ -1,0 +1,9 @@
+question: Vilka är de två livstider som är förknippade med en automatiskt tilldelad IPv6 Address?
+answer: Företrädd livslängd och giltig livslängd
+wrong_answers:
+  - Lägestid och hålltid
+  - Livstid och utgångsdatum
+  - Initial livslängd och sekundär livslängd
+explanation: |
+  Preferred lifetime bestämmer perioden för normal användning av Address och valid lifetime den totala giltighetsperioden.
+reviewed: false

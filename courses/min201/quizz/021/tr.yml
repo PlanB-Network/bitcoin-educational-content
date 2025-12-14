@@ -1,0 +1,13 @@
+question: Basit bir elektrikli ısıtıcı yerine Bitcoin Miner kullanmak için ekonomik teşvik nedir?
+answer: Miner sadece ısı sağlamakla kalmaz, aynı zamanda bir Bitcoin ödülü de verir.
+wrong_answers:
+  - Miner, basit bir elektrikli ısıtıcıdan daha az elektrik kullanır.
+  - Miner, basit bir elektrikli ısıtıcıdan daha fazla ısı üretir.
+  - Miner basit bir elektrikli ısıtıcıdan daha ucuzdur.
+explanation: |
+  Miner kullanmak ile basit bir elektrikli alet kullanmak arasındaki fark
+  ısıtıcı, Miner'in sadece aşağıdakileri sağlamakla kalmadığı gerçeğinde yatmaktadır
+  ısının yanı sıra bir Bitcoin ödülü. Bu ek ödül
+  yüksek enerjiyle ilgili endişeleri hafifletmeye yardımcı olabilir
+  madencilerin tüketimi.
+reviewed: true

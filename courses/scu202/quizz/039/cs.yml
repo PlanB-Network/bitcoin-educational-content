@@ -1,0 +1,9 @@
+question: Co je často třeba udělat po instalaci kritické aktualizace operačního systému, aby se záplaty plně uplatnily?
+answer: Restartování počítače
+wrong_answers:
+  - Obnovení hesla
+  - Odpojení sítě Wi-Fi
+  - Odstranění dočasných souborů
+explanation: |
+  Některé aktualizace operačního systému, například jádra nebo kritických knihoven, se projeví až po restartu počítače.
+reviewed: false

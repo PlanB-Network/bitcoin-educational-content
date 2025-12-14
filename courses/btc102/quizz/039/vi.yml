@@ -1,0 +1,9 @@
+question: Hồ sơ của người dùng nào thường xuyên tích lũy bitcoin phù hợp với phương pháp mua trung bình giá?
+answer: Người tích trữ
+wrong_answers:
+  - Người nắm giữ
+  - Người dùng đang hoạt động đại trà
+  - Người đa nghi cẩn trọng
+explanation: |
+  Người tích trữ thường xuyên mua số lượng nhỏ để tính trung bình giá mua trong thời gian dài.
+reviewed: false

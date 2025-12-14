@@ -1,0 +1,9 @@
+question: Mikä on Signalin suurin puute anonymiteetin suhteen?
+answer: Se edellyttää puhelinnumeron käyttöä
+wrong_answers:
+  - Se ei ole avointa lähdekoodia
+  - Se tallentaa viestit keskuspalvelimelle
+  - Se ei salaa vaihdettuja tiedostoja
+explanation: |
+  Signal vaatii puhelinnumeron rekisteröitymistä varten, mikä mahdollistaa jäljitettävyyden, vaikka protokolla takaa vahvan salauksen.
+reviewed: false

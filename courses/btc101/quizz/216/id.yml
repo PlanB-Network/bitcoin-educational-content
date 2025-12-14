@@ -1,11 +1,9 @@
-question: Apa status Bitcoin di beberapa negara?
-answer: Dilarang dan dikriminalisasi
+question: Risiko apa yang dihadapi node Lightning jika mempublikasikan status kanal lama?
+answer: Penalti
 wrong_answers:
-  - Sepenuhnya diadopsi
-  - Sebagian diadopsi
-  - Tidak diatur
-explanation: >-
-  Teks tersebut menyebutkan bahwa beberapa negara telah melarang dan mengkriminalisasi
-  penggunaan Bitcoin, menambah kompleksitas adopsi Bitcoin berdasarkan budaya,
-  era, dan negara-negara.
+  - Peringatan
+  - Biaya penambangan tambahan
+  - Pembekuan sementara
+explanation: |
+  Protokol menetapkan penalti yang bersifat pencegah, sehingga pihak lain dapat memulihkan seluruh dana.
 reviewed: false

@@ -1,0 +1,9 @@
+question: どのディストリビューションファミリーがRPMパッケージマネージャを使用していますか？
+answer: レッドハット
+wrong_answers:
+  - デビアン
+  - アーチ
+  - スラックウェア
+explanation: |
+  RPMフォーマットはRed Hatによって始められ、Fedora、RHEL、CentOS、AlmaLinux、Rocky Linuxやその他の関連ディストリビューションの基礎となっている。
+reviewed: false

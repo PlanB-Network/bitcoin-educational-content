@@ -1,0 +1,9 @@
+question: 哪個開放原始碼工具可以在 Linux 下完全加密磁碟？
+answer: LUKS
+wrong_answers:
+  - BitLocker
+  - 檔案儲存庫
+  - 超級加密
+explanation: |
+  LUKS（Linux 統一金鑰設定）是 Linux 上安裝時進行全磁碟加密的標準解決方案。
+reviewed: false

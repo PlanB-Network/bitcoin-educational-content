@@ -1,0 +1,9 @@
+question: Mikä asetustiedosto määrittää staattisen verkon Interface RHEL-tyyppisessä järjestelmässä?
+answer: ifcfg-[Interface]
+wrong_answers:
+  - /etc/hosts
+  - /etc/resolv.conf
+  - /etc/verkko/liitännät
+explanation: |
+  RHEL-, CentOS- ja vastaavissa järjestelmissä jokaisella Interface:lla on oma ifcfg-*-tiedostonsa, joka sijaitsee osoitteessa /etc/sysconfig/network-scripts/.
+reviewed: false

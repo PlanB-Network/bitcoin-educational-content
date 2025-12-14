@@ -1,10 +1,11 @@
-question: Mida peetakse Bitcoin'i fiat-valuutade suhtes?
-answer: Paralleelseks majanduseks
+question: Mis on OpenNode?
+answer: Lihtne veebipõhine lahendus ettevõtetele Bitcoin'i vastuvõtmiseks
 wrong_answers:
-  - Asendusmajanduseks
-  - Teisejärguliseks majanduseks
-  - Kolmandajärguliseks majanduseks
+  - Üks Bitcoin'i tüüp
+  - Bitcoin'i kaevandamise tarkvara
+  - Bitcoin'i vahetusplatvorm
 explanation: >-
-  Bitcoin'i peetakse fiat-valuutade suhtes paralleelseks majanduseks, mis tähendab, et see toimib kõrvuti traditsiooniliste majandustega ja seda saab otse kasutada tehinguteks,
-  ilma et oleks vaja minna läbi vahetusplatvormi.
+  OpenNode on lihtne veebipõhine lahendus ettevõtetele Bitcoin'i vastuvõtmiseks.
+  Teised lahendused hõlmavad Swiss Bitcoin Pay'd amatöörkauplejatele ja BTCpay Serverit
+  suurtele struktuuridele või kirglikele bitcoinikasutajatele.
 reviewed: false

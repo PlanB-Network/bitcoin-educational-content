@@ -1,0 +1,9 @@
+question: Vilken operation är nödvändig för att beräkna en Taproot publik nyckel Q?
+answer: Lägg till tweak tG till den offentliga nyckeln P
+wrong_answers:
+  - Multiplicera den privata nyckeln p med tweak
+  - Hash den offentliga nyckeln P med SHA256
+  - Sammankoppla tweak t och den publika nyckeln P
+explanation: |
+  Taproot:s offentliga nyckel Q erhålls genom att lägga till skalärprodukten av tweak t från generatorn G till den offentliga nyckeln P.
+reviewed: false

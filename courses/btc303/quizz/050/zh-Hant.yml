@@ -1,0 +1,9 @@
+question: 哪一種攻擊涉及單一實體控制多個節點以顯示為多個實體，以及為什麼它對 Bitcoin 的共識機制無效？
+answer: Sybil 攻擊；由於 Bitcoin 使用 proof-of-work 的運算能力來達成共識，而非計算節點，因此無效
+wrong_answers:
+  - 「Eclipse攻擊；這種攻擊無效，因為Bitcoin使用先進的加密協定加密所有節點通訊」
+  - 「拒絕服務攻擊；這種攻擊無效，因為 Bitcoin 會自動在網路中健康的節點間重新分配流量」。
+  - 「社會工程攻擊；這種攻擊無效，因為 Bitcoin 開發人員使用正式的驗證方法來防止操縱」。
+explanation: |
+  Sybil 攻擊是指一個實體控制多個節點，偽裝成許多獨立的實體。但是，這種攻擊對 Bitcoin 無效，因為該網路並不依賴計算節點或網路參與者之間的民主投票。相反地，Bitcoin 使用 proof-of-work 共識，由運算能力 (hashpower) 來決定網路決策，而不是節點數量。這使得攻擊者無法僅藉由運行許多沒有相對應計算資源的節點來獲得影響力。
+reviewed: false

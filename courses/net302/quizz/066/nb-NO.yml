@@ -1,0 +1,9 @@
+question: Hva er de to levetidene som er knyttet til en automatisk tildelt IPv6 Address?
+answer: Foretrukket levetid og gyldig levetid
+wrong_answers:
+  - Leietid og holdetid
+  - Levetid og utløp
+  - Opprinnelig levetid og sekundær levetid
+explanation: |
+  Foretrukket levetid bestemmer perioden med normal bruk av Address og gyldig levetid den totale gyldighetsperioden.
+reviewed: false

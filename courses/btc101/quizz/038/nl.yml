@@ -1,0 +1,13 @@
+question: Wat is een belangrijk kenmerk van Bitcoin dat het onderscheidt van fiatvaluta's?
+answer: Het monetaire beleid wordt afgedwongen door een algemene consensus.
+wrong_answers:
+  - Het kan in onbeperkte hoeveelheden worden gedrukt door centrale banken.
+  - Het wordt gedekt door een fysieke grondstof zoals goud of zilver.
+  - Het wordt gereguleerd door een centrale bank.
+explanation: |
+  Vanwege de gedecentraliseerde en cryptografische aard,
+  Bitcoin kan niet vervalst worden en is beperkt tot 21 miljoen
+  eenheden. Dit is een belangrijk kenmerk dat het onderscheidt van
+  fiatvaluta's, die een monetair beleid volgen dat kan worden
+  kan worden veranderd door centrale banken.
+reviewed: true

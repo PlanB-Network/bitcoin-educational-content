@@ -1,0 +1,9 @@
+question: Cơ chế nào cho phép dịch vụ nội bộ có thể được truy cập từ bên ngoài thông qua NAT?
+answer: Chuyển tiếp cổng
+wrong_answers:
+  - Phân mảnh gói tin
+  - Định tuyến RIP
+  - Nén NAT
+explanation: |
+  Chuyển tiếp cổng cho phép chuyển tiếp kết nối bên ngoài đến máy chủ nội bộ cụ thể thông qua cổng NAT.
+reviewed: false

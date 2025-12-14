@@ -1,0 +1,9 @@
+question: طول یک IPv4 استاندارد Address، به بیت، چقدر است؟
+answer: ۳۲-بیتی
+wrong_answers:
+  - ۸ بیت
+  - ۱۲۸-بیتی
+  - ۱۶ بیت
+explanation: |
+  یک IPv4 Address بر روی ۳۲ بیت کدگذاری شده است و به چهار بایت ۸ بیتی تقسیم می‌شود.
+reviewed: false

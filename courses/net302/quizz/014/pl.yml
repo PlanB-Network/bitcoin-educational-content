@@ -1,0 +1,9 @@
+question: Jaki jest główny cel protokołu IPv5 (Stream Protocol, ST)?
+answer: Zapewnienie jakości usług dla określonych przepływów
+wrong_answers:
+  - Rozszerzenie możliwości adresowania IP
+  - Zapewnienie wstecznej kompatybilności z IPv6
+  - Zmniejszanie rozmiaru pakietów sieciowych TCP/IP
+explanation: |
+  IPv5 (ST) został zaprojektowany w celu zapewnienia jakości usług (QoS) dla strumieni multimedialnych, takich jak VoIP, poprzez zagwarantowanie przepustowości i priorytetu.
+reviewed: false

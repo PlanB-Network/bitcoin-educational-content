@@ -1,0 +1,9 @@
+question: GNOME và Xfce sử dụng bộ công cụ đồ họa nào?
+answer: GTK
+wrong_answers:
+  - Qt
+  - Tkinter
+  - Mẫu
+explanation: |
+  GNOME, Xfce, Cinnamon và MATE dựa trên GTK, một thư viện phần mềm dành riêng cho giao diện người dùng đồ họa trên Linux.
+reviewed: false

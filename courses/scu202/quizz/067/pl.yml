@@ -1,0 +1,9 @@
+question: Jaki jest główny cel VPN podczas surfowania po publicznej sieci Wi-Fi?
+answer: Szyfrowanie ruchu między urządzeniem a serwerem VPN
+wrong_answers:
+  - Anonimizacja połączenia internetowego
+  - Automatycznie instaluj aktualizacje
+  - Silne hasła generate
+explanation: |
+  VPN szyfruje cały ruch sieciowy, chroniąc dane przed przechwyceniem w niezabezpieczonych sieciach, takich jak publiczne Wi-Fi.
+reviewed: false

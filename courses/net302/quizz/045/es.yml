@@ -1,0 +1,9 @@
+question: ¿En qué consiste la práctica de modificar artificialmente su MAC Address?
+answer: Suplantación de MAC
+wrong_answers:
+  - Suplantación de identidad MAC
+  - Escaneado MAC
+  - Mac Keylogging
+explanation: |
+  La suplantación de MAC consiste en cambiar el Address de hardware de un Interface de red, a menudo por motivos de privacidad o para eludir restricciones.
+reviewed: false

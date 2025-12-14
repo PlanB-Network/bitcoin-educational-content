@@ -1,0 +1,9 @@
+question: Vilket matematiskt område ger de moderna verktygen för talteori?
+answer: Abstrakt algebra
+wrong_answers:
+  - Geometri
+  - Statistik
+  - Komplex analys
+explanation: |
+  Abstrakt algebra, som är en underdisciplin inom matematiken, tillhandahåller matematiska strukturer som möjliggör analys och förståelse av egenskaper hos tal som används i talteori.
+reviewed: false

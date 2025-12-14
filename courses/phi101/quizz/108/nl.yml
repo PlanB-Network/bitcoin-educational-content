@@ -1,0 +1,9 @@
+question: Wat is volgens Hayek het verband tussen socialisme en nazisme?
+answer: Alle andere antwoorden (ze delen een afwijzing van individualisme, geven prioriteit aan het welzijn van de groep en gebruiken dwang).
+wrong_answers:
+  - De twee ideologieën zijn onverenigbaar.
+  - Socialisme en nazisme staan tegenover elkaar op economisch gebied.
+  - Socialisme en nazisme hebben niets met elkaar te maken.
+explanation: |
+  Hayek stelde dat socialisme en nazisme gemeenschappelijke kenmerken hebben, zoals de afwijzing van individualisme ten gunste van het collectief en het gebruik van dwang, waardoor ze vergelijkbaar zijn in hun autoritaire effecten.
+reviewed: true

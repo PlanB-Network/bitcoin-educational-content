@@ -1,0 +1,9 @@
+question: ifcfg-eth0 फ़ाइल में कौन सा पैरामीटर DHCP कॉन्फ़िगरेशन को इंगित करता है?
+answer: बूटप्रोटो=dhcp
+wrong_answers:
+  - IPADDR=dhcp
+  - ऑनबूट=dhcp
+  - गेटवे=dhcp
+explanation: |
+  "BOOTPROTO=dhcp" पैरामीटर निर्दिष्ट करता है कि Interface को अपना कॉन्फ़िगरेशन DHCP प्रोटोकॉल के माध्यम से प्राप्त करना चाहिए।
+reviewed: false

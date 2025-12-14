@@ -1,0 +1,9 @@
+question: Ni kuki gushiramwo amakuru yose canke urufunguzo rwa USB ari ngirakamaro ku bijanye n’umutekano w’amakuru yawe?
+answer: Bibuza umuntu kuronka amadosiye ata wemerewe
+wrong_answers:
+  - Kwihutisha gusoma no kwandika dosiye
+  - Irinda gusenyuka kw'ibikoresho
+  - Bituma gusangira disiki vyoroha
+explanation: |
+  Ugushiramwo amakuru yuzuye bituma amakuru adashobora gukoreshwa ata rufunguzo canke ijambobanga, naho uwutera yoba afise iyo disiki ku mubiri.
+reviewed: false

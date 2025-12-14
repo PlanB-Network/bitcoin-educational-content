@@ -1,0 +1,9 @@
+question: 哪个设备是互联网与您的家庭私人网络之间的边界？
+answer: 调制解调器-路由器
+wrong_answers:
+  - 以太网交换机
+  - NAS 服务器
+  - USB 集线器
+explanation: |
+  调制解调器路由器将 ISP 网络连接到本地网络，并管理本地 IP 地址的分配。
+reviewed: false

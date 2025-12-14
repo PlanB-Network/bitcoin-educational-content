@@ -1,0 +1,11 @@
+question: Ni ubuhe buryo ngirakamaro bwo kuronka Bitcoins?
+answer: Kubigura biciye ku mbuga zitegekanijwe canke zitategekanijwe.
+wrong_answers:
+  - Mining bo bakoresheje laptop.
+  - Kubasanga mw’isi y’umubiri.
+  - Kubihingura hakoreshejwe porogarama idasanzwe.
+explanation: |
+  Ico canditswe kivuga ko abakoresha bashobora kuronka Bitcoins ku 2019.
+  kuvyemera kugira ngo bigurishwe canke mu kubigura biciye ku .
+  ama platforms ategekanijwe canke atategekanijwe.
+reviewed: true

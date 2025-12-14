@@ -1,0 +1,9 @@
+question: Que comando apresenta o conteúdo detalhado de uma pasta, incluindo ficheiros ocultos?
+answer: ls -lah
+wrong_answers:
+  - mostrar-pasta
+  - list-files -detailed
+  - viewdir -a
+explanation: |
+  "ls -lah" mostra ficheiros e pastas em pormenor, incluindo ficheiros ocultos (que começam com um ponto).
+reviewed: false

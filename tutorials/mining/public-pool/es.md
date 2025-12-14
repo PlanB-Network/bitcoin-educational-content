@@ -5,13 +5,13 @@ description: Introducción a Public Pool
 
 ![signup](assets/cover.webp)
 
-**Public Pool** no es una piscina cualquiera; es lo que también se conoce como **Solo Pool**. Si tu minero logra minar un bloque, entonces recolectas la recompensa completa del bloque, la cual no se comparte con otros participantes de la piscina ni con la piscina misma.
+**Public Pool** no es un pool cualquiera; es lo que también se conoce como **Solo Pool**. Si tu minero logra minar un bloque, entonces recolectas la recompensa completa del bloque, la cual no se comparte con otros participantes del pool ni con el pool mismo.
 
 **Public Pool** únicamente proporciona una **plantilla de bloque** para tu minero para que pueda realizar su tarea sin que necesites tener un **nodo de Bitcoin** y el software que se comunica con tu minero. Dado que no estás agrupando tu poder de cómputo con el de otros participantes, tus posibilidades de minar exitosamente un bloque son obviamente muy bajas, pareciéndose algo a un sistema de lotería, donde a veces un individuo afortunado gana el premio mayor.
 
 ![signup](assets/1.webp)
 
-En el **Dashboard** de **Public Pool**, aún tienes algunas estadísticas como el **Total Hashrate** de la piscina, así como una distribución de los diferentes tipos de mineros que están conectados a la piscina.
+En el **Dashboard** de **Public Pool**, aún tienes algunas estadísticas como el **Total Hashrate** del pool, así como una distribución de los diferentes tipos de mineros que están conectados al pool.
 
 ![signup](assets/2.webp)
 
@@ -21,7 +21,7 @@ En las primeras líneas, podemos ver **Bitaxe** con 1323 **Bitaxe** conectados p
 
 ![signup](assets/cover.webp)
 
-En la parte superior de la página, puedes copiar la dirección de la piscina **stratum+tcp://public-pool.io:21496**.
+En la parte superior de la página, puedes copiar la dirección del pool **stratum+tcp://public-pool.io:21496**.
 
 A continuación, para el campo **usuario**, ingresa una dirección de **Bitcoin** que te pertenezca.
 

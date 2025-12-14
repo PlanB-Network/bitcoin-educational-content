@@ -3,7 +3,7 @@ answer: Semplificare l'interazione tra nodi e applicazioni Lightning
 wrong_answers:
   - Facilitare la creazione di canali per ogni pagamento
   - Garantire la riservatezza delle informazioni di pagamento
-  - Calcolare automaticamente le commissioni di transazione
+  - Calcolare automaticamente le fee di transazione
 explanation: |
-  LNURL è un protocollo di comunicazione progettato per semplificare le interazioni, come prelievi e pagamenti, tra nodi e applicazioni Lightning.
-reviewed: false
+  LNURL è un protocollo di comunicazione progettato per semplificare le interazioni tra nodi e applicazioni, come prelievi e pagamenti.
+reviewed: true

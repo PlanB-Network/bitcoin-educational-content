@@ -1,0 +1,12 @@
+question: Vad är ett verktyg för att acceptera Bitcoin för stora organisationer eller passionerade Bitcoin-entusiaster?
+answer: BTCpay Server.
+wrong_answers:
+  - Bitcoin Wallet.
+  - Bitcoin Exchange.
+  - BTCpay Mining.
+explanation: |
+  BTCpay Server är ett verktyg för att acceptera Bitcoin för stora
+  strukturer eller passionerade bitcoinare. Andra lösningar
+  inkluderar OpenNode för enkla onlineföretag och schweiziska
+  Bitcoin Pay för amatörhandlare.
+reviewed: true

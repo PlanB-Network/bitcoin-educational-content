@@ -1,0 +1,9 @@
+question: 哪种计算机攻击利用欺诈性信息来提取信息？
+answer: 网络钓鱼
+wrong_answers:
+  - 勒索软件
+  - DDoS
+  - SQL 注入
+explanation: |
+  网络钓鱼利用欺骗性电子邮件或信息诱使人们泄露机密信息或安装恶意软件。
+reviewed: false

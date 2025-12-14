@@ -1,0 +1,9 @@
+question: Vad var definitionen av egendom på latin enligt romarna?
+answer: Jus utendi et abutendi
+wrong_answers:
+  - Lex specialis derogat legi generali
+  - Utilitas publica praeferenda est privatorum contractibus
+  - Res publica et privatus separanda est
+explanation: |
+  I romersk rätt definierar jus utendi et abutendi egendom som rätten att använda och missbruka, med betoning på användningen utan att gå in på dess orsaker.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Which system stands out for its open-source, community-based model?
+answer: GNU/Linux
+wrong_answers:
+  - Windows
+  - macOS
+  - Chrome OS
+explanation: |
+  GNU/Linux is free and developed by a worldwide community, guaranteeing transparency, security and flexibility for the user.
+reviewed: false

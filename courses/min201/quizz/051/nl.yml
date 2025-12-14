@@ -1,0 +1,14 @@
+question: Wat is het belangrijkste voordeel van Mining virgin bitcoins?
+answer: Ze zijn nooit uitgegeven en hebben geen geschiedenis.
+wrong_answers:
+  - Ze kunnen tegen een hogere prijs worden verkocht.
+  - Ze kunnen worden gebruikt voor illegale activiteiten.
+  - Ze kunnen lang worden bewaard zonder waarde te verliezen.
+explanation: |
+  Het belangrijkste voordeel van Mining maagdelijke bitcoins is dat ze
+  nog nooit zijn uitgegeven en er geen geschiedenis aan vast zit.
+  Deze bitcoins worden vaak als waardevoller beschouwd omdat
+  ze nog nooit besmet zijn geweest, wat enige garantie biedt
+  tegen afwijzing door toezichthouders of grote Exchange
+  platforms.
+reviewed: true

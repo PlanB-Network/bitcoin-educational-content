@@ -1,0 +1,9 @@
+question: Trình duyệt nào cung cấp tính năng chặn quảng cáo và theo dõi, bảo vệ dấu vân tay và dựa trên Chromium?
+answer: Can đảm
+wrong_answers:
+  - Firefox
+  - Tor
+  - Chrome
+explanation: |
+  Brave có tính năng chặn quảng cáo, theo dõi và bảo vệ dấu vân tay nâng cao theo mặc định, tất cả đều dựa trên Chromium.
+reviewed: false

@@ -5,5 +5,5 @@ wrong_answers:
   - Bitcoin Talk
   - Swiss Bitcoin Pay
 explanation: |
-  BTC Map est une plateforme dédiée qui localise les commerçants acceptant le bitcoin dans le monde entier.
-reviewed: false
+  BTC Map est une plateforme dédiée qui répertorie les commerçants acceptant le bitcoin dans le monde entier.
+reviewed: true 

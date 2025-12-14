@@ -1,0 +1,12 @@
+question: Waarom worden hardwaretokens, zoals USB-sleutels of smartcards, beschouwd als optimale beveiliging voor 2FA?
+answer: Ze generate een unieke privésleutel voor elke site en verifiëren de URL voordat ze de verbinding toestaan.
+wrong_answers:
+  - Ze zijn fysiek moeilijker te stelen, maar als het dieven lukt, halen ze gemakkelijk de geheimen uit het apparaat.
+  - Ze generate slechts één wachtwoord voor elke site en verifiëren de URL voordat ze de verbinding toestaan.
+  - Ze zijn nieuwer en duurder, dus ze moeten wel beter zijn.
+explanation: |
+  Hardware tokens bieden optimale beveiliging omdat ze
+  generate een unieke privésleutel voor elke site en verifiëren de
+  URL voordat ze de verbinding toestaan. Dit maakt het veel
+  moeilijker voor een hacker om ongeautoriseerde toegang te krijgen.
+reviewed: true

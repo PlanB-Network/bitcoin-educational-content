@@ -1,0 +1,9 @@
+question: Umbrel, uygulamalarını izole etmek ve yönetmek için hangi teknolojiyi kullanıyor?
+answer: Docker konteynerleri
+wrong_answers:
+  - VirtualBox sanal makineleri
+  - Bash komut dosyaları
+  - Kubernetes kümeleri
+explanation: |
+  Umbrel'deki her uygulama bir Docker konteynerinde çalışarak bağımsız yönetim ve izolasyon sağlar.
+reviewed: true

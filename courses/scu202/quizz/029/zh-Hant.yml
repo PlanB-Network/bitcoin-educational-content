@@ -1,0 +1,9 @@
+question: 由於 Ubuntu 的穩定性和支援時間長，建議初學者使用哪個版本的 Ubuntu？
+answer: LTS（長期支援）
+wrong_answers:
+  - 滾動釋放
+  - 第一版
+  - Alpha 版本
+explanation: |
+  LTS 版本的 Ubuntu 維護期為五年，具有更高的穩定性，非常適合新手使用。
+reviewed: false

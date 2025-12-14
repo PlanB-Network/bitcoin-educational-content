@@ -1,0 +1,9 @@
+question: RC4 şifrelemesinde K dizisinin rolü nedir?
+answer: S dizisini başlatır ve anahtar akışını generate'a dönüştürür
+wrong_answers:
+  - Düz metni doğrudan şifreler
+  - Şifrelenmiş metni saklar
+  - Yalnızca sürecin sonuna kadar veriler için geçici depolama görevi görür
+explanation: |
+  K dizisi, anahtar zamanlama sürecinde S dizisini dönüştürmek için kullanılır, bu da düz metni şifrelemek için sahte rastgele bir anahtar dizisinin oluşturulmasına olanak tanır.
+reviewed: false

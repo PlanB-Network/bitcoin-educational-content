@@ -1,0 +1,9 @@
+question: 照片的 EXIF 元数据通常包含哪些信息？
+answer: 日期、时间、GPS 定位、设备型号、作者
+wrong_answers:
+  - 相机固件源代码
+  - 摄影师的 Wi-Fi 密码
+  - 最新杀毒结果
+explanation: |
+  照片的 EXIF 元数据通常包含有关拍摄和相机的详细背景信息。
+reviewed: false

@@ -1,0 +1,11 @@
+question: Vad är en anledning till att det är viktigt att göra grundlig research innan man litar på ett stablecoin?
+answer: Vissa stablecoins saknar transparens och noggrannhet
+wrong_answers:
+  - Stablecoins har inga risker förknippade med sig
+  - Stablecoins är alltid fullt uppbackade av reserver
+  - Vissa stablecoins regleras av regeringen
+explanation: |
+  Inte alla stablecoins erbjuder samma nivå av transparens.
+  Därför är det viktigt att genomföra grundlig forskning
+  innan du anförtror betydande rikedom till någon speciell stablecoin.
+reviewed: true

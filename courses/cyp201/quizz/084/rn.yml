@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe rwa mbere rwa Bitcoin Address mu gucuruza?
+answer: Gufunga UTXOs mu nyandikoPubKey
+wrong_answers:
+  - Gufungura UTXOs mu nyandikoSig
+  - Ikimenyetso c'iherezo ry'ugucuruza
+  - Kumenya igice c'ukwemeza
+explanation: |
+  Bitcoin Address ishizwe mu nyandikoPubKey kugira ngo ikingire UTXOs. Ni ryo rigena ivyangombwa bikenewe kugira ngo ayo mahera afungurwe.
+reviewed: false

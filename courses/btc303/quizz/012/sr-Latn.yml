@@ -1,0 +1,9 @@
+question: Prema poglavlju, koja je glavna ograničenost od koje vas čak ni full node ne može zaštititi?
+answer: Prepisivanje lanca koje bi moglo dvostruko potrošiti vaše transakcije
+wrong_answers:
+  - Zlonamerni softver krade vaše privatne ključeve iz memorije
+  - "Nevažeći blokovi koji ne prate Bitcoin pravila konsenzusa"
+  - Neispravni rasporedi izdavanja novčića koji krše protokol
+explanation: |
+  Iako full node može da verifikuje da blokovi prate pravila konsenzusa, spreči izdavanje nevažećih novčića i otkrije kršenja protokola, ne može sprečiti prepisivanje lanca gde rudari reorganizuju blokčejn da bi dvostruko potrošili transakcije. Poglavlje posebno navodi da, bez obzira koliko je vaš softver napredan, morate i dalje verovati da blokovi koji sadrže vaše novčiće neće biti prepisani. Zato se odbrambeni mehanizam Bitcoin oslanja na čekanje više potvrda kako bi se smanjila verovatnoća prepisivanja lanca na prihvatljiv nivo.
+reviewed: false

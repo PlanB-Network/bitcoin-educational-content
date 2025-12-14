@@ -1,0 +1,9 @@
+question: RPC接続に対応するSparrow walletサーバーオプションはどれですか？
+answer: Bitcoin core
+wrong_answers:
+  - パブリックサーバー
+  - プライベート・エレクトラム
+  - リモートAPI
+explanation: |
+  Sparrowでは、Bitcoin coreオプションがRPCを経由したノードへの直接接続に相当する。
+reviewed: true

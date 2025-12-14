@@ -1,0 +1,9 @@
+question: Hvilken plattform sletter automatisk metadata når et bilde lastes opp?
+answer: Signal
+wrong_answers:
+  - Gmail
+  - Utsikter
+  - Bloggen din
+explanation: |
+  Signal (i likhet med Session og andre sikre meldingstjenester) renser metadataene til delte bilder for å beskytte brukernes personvern.
+reviewed: false

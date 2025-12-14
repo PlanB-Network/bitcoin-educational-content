@@ -1,0 +1,2 @@
+description: |
+  Cardware är en Hardware Wallet som är utformad för att lagra och hantera både Bitcoin- och EVM-baserade tillgångar. Det är en offline-lösning med luftgap som använder QR-kodteknik för att hålla privata nycklar offline, vilket skyddar mot hot online och obehörig åtkomst.

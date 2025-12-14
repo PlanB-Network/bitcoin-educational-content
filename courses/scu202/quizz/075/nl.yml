@@ -1,0 +1,9 @@
+question: Wat zijn de belangrijkste beperkingen van mobiele antivirustoepassingen?
+answer: Ze zijn beperkt tegenover reële bedreigingen
+wrong_answers:
+  - Ze maken de telefoon incompatibel met mobiele netwerken
+  - Ze verwijderen messaging-toepassingen
+  - Ze verlengen de levensduur van de batterij
+explanation: |
+  Mobiele antivirussoftware biedt geen bescherming tegen phishing of slechte autorisaties en slechts beperkte beveiliging tegen de belangrijkste bedreigingen.
+reviewed: false

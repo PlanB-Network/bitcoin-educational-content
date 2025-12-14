@@ -1,0 +1,9 @@
+question: Welches kostenlose Tool, das auf allen Systemen verfügbar ist, kann verwendet werden, um die Signatur einer Datei und ihre Übereinstimmung mit einem öffentlichen Schlüssel zu überprüfen?
+answer: GnuPG
+wrong_answers:
+  - VeraCrypt
+  - OpenSSH
+  - 7-Zip
+explanation: |
+  GnuPG (gpg) ist das Referenzwerkzeug für die Überprüfung digitaler Signaturen und die Verwaltung öffentlicher Schlüssel.
+reviewed: false

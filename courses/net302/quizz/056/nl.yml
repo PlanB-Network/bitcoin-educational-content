@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste doel van network bonding?
+answer: Meerdere fysieke netwerkinterfaces samenvoegen
+wrong_answers:
+  - Virtuele IP-adressen toevoegen aan het lokale netwerk
+  - Een Wi-Fi-brug maken
+  - Pakketgrootte verkleinen op RJ45-kabel
+explanation: |
+  Network bonding combineert meerdere fysieke interfaces tot één logische, wat redundantie of verhoogde bandbreedte oplevert.
+reviewed: false

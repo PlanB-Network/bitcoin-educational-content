@@ -1,0 +1,9 @@
+question: Which protocol dynamically assigns an IP address to a device?
+answer: DHCP
+wrong_answers:
+  - ARP
+  - DNS
+  - NAT
+explanation: |
+  The DHCP protocol automatically assigns IP addresses to devices on a network, simplifying address management.
+reviewed: false

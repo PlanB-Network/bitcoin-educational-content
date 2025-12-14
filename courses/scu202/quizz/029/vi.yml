@@ -1,0 +1,9 @@
+question: Phiên bản Ubuntu nào được khuyến nghị cho người mới bắt đầu vì tính ổn định và thời gian hỗ trợ lâu dài?
+answer: LTS (Hỗ trợ dài hạn)
+wrong_answers:
+  - Phát hành lăn
+  - Phiên bản đầu tiên
+  - Bản phát hành Alpha
+explanation: |
+  Phiên bản LTS của Ubuntu được duy trì trong năm năm và có độ ổn định cao hơn, lý tưởng cho người dùng mới.
+reviewed: false

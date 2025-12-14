@@ -1,0 +1,9 @@
+question: Công cụ macOS nào cho phép mã hóa toàn bộ ổ đĩa hệ thống?
+answer: FileVault
+wrong_answers:
+  - Tiện ích đĩa
+  - Móc khóa iCloud
+  - BitLocker
+explanation: |
+  FileVault là giải pháp mã hóa đĩa gốc được tích hợp vào macOS.
+reviewed: false

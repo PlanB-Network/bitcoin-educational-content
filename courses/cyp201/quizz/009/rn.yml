@@ -1,0 +1,9 @@
+question: Ni iyihe nyubakwa ikoreshwa na SHA256 mu gukora ubutumwa bw’uburebure butari bwo?
+answer: Ubwubatsi bwa Merkle-Damgård
+wrong_answers:
+  - Ubwubatsi bwa Euclide
+  - Ubwubatsi bwa Rivest-Shamir-Adleman
+  - Ubwubatsi bwa Knuth-Morris-Pratt
+explanation: |
+  Ubwubatsi bwa Merkle-Damgård bushobora guhindura igikorwa co gufatanya mu gikorwa ca Hash ku butumwa bw'uburebure buhinduka.
+reviewed: false

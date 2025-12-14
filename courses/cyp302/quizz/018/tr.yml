@@ -1,0 +1,9 @@
+question: Hangi durumda iki olayın bağımsız olduğunu söyleyebiliriz?
+answer: Birinin olasılığı diğerinin olasılığını etkilemez
+wrong_answers:
+  - İki olay her zaman aynı anda gerçekleşir
+  - Birbirlerini dışlarlar
+  - Bunların birleşik olasılığı, iki olasılıktan en yüksek olanına eşittir
+explanation: |
+  Birinin olasılığı diğerinin olasılığını değiştirmiyorsa iki olay bağımsızdır, örneğin bir piyango çekilişinin ertesi günkü hava durumu üzerinde hiçbir etkisi yoktur.
+reviewed: false

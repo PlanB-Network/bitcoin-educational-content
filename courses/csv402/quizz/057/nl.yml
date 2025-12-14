@@ -1,0 +1,9 @@
+question: Op RLN, welk commando installeert de "RGB-lightning-node" binary na het klonen van het archief?
+answer: "cargo install --locked --debug --path ."
+wrong_answers:
+  - "cargo build --release --path ."
+  - "cargo run --locked --path ."
+  - "cargo deploy --debug --path ."
+explanation: |
+  Het "cargo install --locked --debug --path ." commando compileert en installeert de "RGB-lightning-node" binary.
+reviewed: false

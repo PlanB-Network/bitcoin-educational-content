@@ -1,0 +1,9 @@
+question: Modulo işlemi matematikte neyi temsil eder?
+answer: Bir bölümün geri kalanı
+wrong_answers:
+  - Bir bölme işleminin bölümü
+  - Başlangıç sayısının iki katı
+  - Kalansız bölen sayı
+explanation: |
+  Modulo işlemi, bir bölümden kalanı belirlemeyi içerir; örneğin, 25 mod 4 1'e eşittir çünkü bölümden kalan 1'dir.
+reviewed: false

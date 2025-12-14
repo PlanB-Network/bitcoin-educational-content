@@ -1,0 +1,9 @@
+question: Güvenli iletişimde yansıma saldırılarını önleyen mekanizma nedir?
+answer: Her katılımcı için benzersiz bir tanımlayıcı ekleme
+wrong_answers:
+  - Anahtar uzunluğunun artırılması
+  - Her mesaj için birden fazla anahtar kullanma
+  - Her mesaja ekstra bir anahtar ekleme
+explanation: |
+  Şifrelenmiş mesaja her katılımcı için benzersiz bir tanımlayıcı eklemek, mesajların kaynağının ayırt edilmesini sağladığından yansıma saldırılarını önler.
+reviewed: false

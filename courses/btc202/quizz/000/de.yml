@@ -1,0 +1,9 @@
+question: Wie lautet der Titel von Satoshi Nakamotos 2008 veröffentlichtem Weißbuch?
+answer: Bitcoin Ein Peer-to-Peer-Electronic-Cash-System
+wrong_answers:
+  - Bitcoin Ein dezentrales digitales Goldsystem
+  - Bitcoin Die Zukunft des Geldes
+  - Bitcoin Ein Blockchain-basiertes Zahlungsnetzwerk
+explanation: |
+  Satoshi Nakamotos Weißbuch, Bitcoin A Peer-to-Peer Electronic Cash System, wurde 2008 veröffentlicht.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 强烈建议采取哪些安全措施来保护对您的 Umbrel 的访问？
+answer: 长密码和 2FA 激活
+wrong_answers:
+  - 双固态硬盘存储
+  - 用纯文本打开 RPC 端口
+  - 长密码和 SSH 激活
+explanation: |
+  强密码和双因素验证（2FA）相结合，可有效保护对 Interface Umbrel 的访问。
+reviewed: true

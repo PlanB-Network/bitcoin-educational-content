@@ -1,0 +1,9 @@
+question: کدام فرمان می‌تواند برای اضافه کردن یک IP استاتیک Address به Interface در لینوکس استفاده شود؟
+answer: ip addr add [Address]/[mask] dev [Interface]
+wrong_answers:
+  - ifconfig [Interface] up [Address]/[mask]
+  - ip route add [Address] dev [Interface]
+  - مسیر اضافه کردن -net [Address] netmask [mask] dev [Interface]
+explanation: |
+  دستور "ip addr add" روش مدرن برای اختصاص یک IP ثابت Address به یک شبکه Interface در لینوکس است.
+reviewed: false

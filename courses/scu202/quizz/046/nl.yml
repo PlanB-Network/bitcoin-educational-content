@@ -1,0 +1,9 @@
+question: Welke essentiële voorzorgsmaatregelen moeten regelmatig worden genomen als je je back-ups automatiseert?
+answer: Test herstel
+wrong_answers:
+  - Verander uw internetprovider
+  - Vakantieback-ups uitschakelen
+  - Encryptie testen
+explanation: |
+  Het is belangrijk om regelmatig een back-up terug te zetten om ervoor te zorgen dat bestanden niet beschadigd of ontoegankelijk zijn wanneer dat nodig is.
+reviewed: false

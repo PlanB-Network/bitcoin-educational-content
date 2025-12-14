@@ -1,0 +1,9 @@
+question: zpub उपसर्ग के साथ किस प्रकार की कुंजी जुड़ी हुई है?
+answer: Mainnet पर SegWit V0 के लिए एक विस्तारित सार्वजनिक कुंजी
+wrong_answers:
+  - Mainnet पर SegWit V1 के लिए विस्तारित निजी कुंजी
+  - Testnet पर लिगेसी के लिए एक विस्तारित सार्वजनिक कुंजी
+  - Testnet पर SegWit V2 के लिए विस्तारित सार्वजनिक कुंजी
+explanation: |
+  zpub उपसर्ग Mainnet पर SegWit V0 स्क्रिप्ट के लिए एक विस्तारित सार्वजनिक कुंजी को दर्शाता है।
+reviewed: false

@@ -1,0 +1,13 @@
+question: Bitcoin Mining'de ASIC'lerin rolü nedir?
+answer: ASIC'ler yalnızca Mining sürecinde SHA256 algoritmasını uygulamak için tasarlanmış makinelerdir.
+wrong_answers:
+  - ASIC'ler, doğrulama sürecinde SHA256 algoritmasını uygulayarak Bitcoin işlemlerini doğrulamak için kullanılır.
+  - ASIC'ler keyfi olarak yeni bitcoinler yaratmak için kullanılır.
+  - ASIC'ler Bitcoin ağının güvenliğini sağlamak için kullanılır.
+explanation: |
+  ASIC'ler (Uygulamaya Özel Entegre Devreler)
+  gW-6 için özel olarak tasarlanmış özel donanım
+  Mining. SHA256 hashing işlemini gerçekleştirmek için optimize edilmişlerdir
+  fonksiyonu, madencilerin matematiksel problemi olan
+  gW-5 sürecinde çözmesi gerekir.
+reviewed: true

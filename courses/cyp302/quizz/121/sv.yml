@@ -1,0 +1,9 @@
+question: Vilken är den viktigaste ledningsfrågan?
+answer: Komplexiteten i att säkra och lagra ett nyckelpar för varje klient
+wrong_answers:
+  - Omöjligt att förnya nycklar som förlorats av klienter
+  - Behovet av att dekryptera varje nyckel innan den används av klienten
+  - Nödvändigheten av att överföra nycklar för varje kommunikation
+explanation: |
+  Problemet med nyckelhantering är att det är svårt att lagra och säkra ett par nycklar för varje användare, särskilt när antalet klienter uppgår till flera miljoner.
+reviewed: false

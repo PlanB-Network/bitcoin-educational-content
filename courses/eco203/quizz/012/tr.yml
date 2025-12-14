@@ -1,0 +1,9 @@
+question: Bastiat'ya göre modern ekonomistler tarafından getirilen en önemli yenilik nedir?
+answer: Bireyin eylem kapasitesini yeniden tesis etmek isterler
+wrong_answers:
+  - Devleti zenginleştirmek istiyorlar
+  - Ticaret dengesini dengelemek istiyorlar
+  - Piyasayı düzenlemek istiyorlar
+explanation: |
+  Modern ekonomistler, bireyin eylem kapasitesini yeniden tesis etmeye ve ekonomik özgürlüğü teşvik etmeye çalışmaktadır.
+reviewed: false

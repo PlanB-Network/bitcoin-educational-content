@@ -1,4 +1,4 @@
-question: Ni nini hasara kuu ya kutumia Tor kwa nodi ya Bitcoin?
+question: Ni ipi hasara kuu ya kutumia Tor kwa nodi ya Bitcoin?
 answer: Kupunguza kasi ya mawasiliano
 wrong_answers:
   - Kuongezeka kwa ada za muamala
@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Mawasiliano kupitia Tor ni polepole. Ucheleweshaji huu unasumbua haswa wakati wa uzinduzi wa awali wa nodi, kwani IBD (Upakuaji wa Kizuizi cha Awali) inahitaji mawasiliano mengi.
   
-reviewed: false
+reviewed: true

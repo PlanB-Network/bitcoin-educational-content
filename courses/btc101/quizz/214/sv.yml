@@ -1,0 +1,9 @@
+question: Vilken av dessa Lightning-operationer registreras onchain?
+answer: Öppning av kanal
+wrong_answers:
+  - Mellanliggande betalning
+  - Statusuppdatering
+  - Flerhopp-routning
+explanation: |
+  Endast öppning och stängning av en Lightning-kanal motsvarar Bitcoin-transaktioner som publiceras på blockkedjan.
+reviewed: false

@@ -1,0 +1,9 @@
+question: IPv6のエニーキャストAddressとは何ですか？
+answer: 複数のノードに割り当てられたAddress
+wrong_answers:
+  - グローバル・マルチキャスト専用のAddress
+  - 再起動するたびに変わるAddress
+  - 技術文書用に予約されたAddress
+explanation: |
+  エニーキャストAddressは複数の機器に割り当てられ、ルーティングはトポロジー的に最も近い機器にパケットを配送する。
+reviewed: false

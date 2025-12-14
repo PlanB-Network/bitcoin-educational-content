@@ -1,0 +1,9 @@
+question: Wat is het doel van het gebruik van een lok Wallet met een passphrase?
+answer: Een Wallet simuleren met een kleine hoeveelheid in geval van fysieke dwang
+wrong_answers:
+  - Een automatische back-up van transacties toevoegen
+  - generate een bijkomende Mnemonic zin
+  - Bescherm UTXO's tegen dubbele uitgaven
+explanation: |
+  Een valse Wallet wordt gebruikt om de aandacht van een aanvaller af te leiden door toegang te verlenen tot een Wallet die een kleine hoeveelheid bitcoins bevat.
+reviewed: false

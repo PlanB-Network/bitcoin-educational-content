@@ -1,0 +1,9 @@
+question: Qual è la lunghezza, in bit, di un indirizzo IPv4 standard?
+answer: 32 bit
+wrong_answers:
+  - 8 bit
+  - 128 bit
+  - 16 bit
+explanation: |
+  Un indirizzo IPv4 è codificato su 32 bit, suddivisi in quattro byte di 8 bit ciascuno.
+reviewed: false

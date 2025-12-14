@@ -1,0 +1,9 @@
+question: Wat is het doel van phishingpogingen?
+answer: Gevoelige informatie zoals je referenties en wachtwoorden achterhalen.
+wrong_answers:
+  - Je spam e-mails sturen.
+  - Om u producten of diensten te verkopen.
+  - Om je uit te nodigen voor evenementen of webinars.
+explanation: |
+  Phishingpogingen zijn erop gericht om gevoelige informatie zoals je gegevens en wachtwoorden te ontfutselen. Hackers gebruiken verschillende tactieken, zoals frauduleuze e-mails, om je te verleiden tot het vrijgeven van je informatie.
+reviewed: true

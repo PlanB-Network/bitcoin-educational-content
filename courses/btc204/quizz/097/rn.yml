@@ -1,0 +1,10 @@
+question: Ni igiki anonset nini yerekana ku bijanye n’ubuzima bwite bwa UTXO?
+answer: Ivyiza vy’ubuzima bwite.
+wrong_answers:
+  - Kugabanya ubuzima bwite.
+  - Ugukurikirana neza.
+  - Ivyihuta vy’ugucuruza CoinJoin.
+explanation: |
+  Anonset nini yerekana urugero rwo hejuru rw’ukutamenyekana, kuko bigorana gutandukanya UTXO yihariye mu mugwi w’ibintu bimwe.
+  
+reviewed: false

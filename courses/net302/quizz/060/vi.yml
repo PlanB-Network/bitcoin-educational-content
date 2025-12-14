@@ -1,0 +1,9 @@
+question: Vòng lặp IPv6 Address tương đương với 127.0.0.1 trong IPv4 là gì?
+answer: "::1"
+wrong_answers:
+  - "::0"
+  - "fe80::1"
+  - "fd00::1"
+explanation: |
+  "::1/128" Address là Address vòng lặp, được sử dụng để thử nghiệm máy nội bộ.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Modulo işlemlerini içeren hesaplamalar için matematiksel terim nedir?
+answer: Modüler aritmetik
+wrong_answers:
+  - Doğrusal cebir
+  - Trigonometri
+  - Ayrık geometri
+explanation: |
+  Modüler aritmetik, modulo işlemini kullanarak sonlu bir çerçeve içinde sayılar üzerindeki işlemlerle ilgilenen matematik dalıdır.
+reviewed: false

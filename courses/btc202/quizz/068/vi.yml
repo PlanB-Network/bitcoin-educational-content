@@ -1,0 +1,9 @@
+question: Ba lợi ích chính của việc cập nhật hệ điều hành và ứng dụng thường xuyên là gì?
+answer: An toàn, độ tin cậy, chức năng
+wrong_answers:
+  - Tốc độ, ẩn danh, khả năng tương thích
+  - Bảo mật, bộ nhớ, lưu trữ
+  - Tính bảo mật, chức năng, độ tin cậy
+explanation: |
+  Các bản cập nhật đảm bảo tính bảo mật chống lại các lỗ hổng, khả năng tương thích với các bản phát triển và tính năng mới cũng như độ tin cậy của hệ thống.
+reviewed: true

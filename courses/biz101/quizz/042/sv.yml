@@ -1,0 +1,9 @@
+question: I de flesta jurisdiktioner, vad utlöser en skattepliktig händelse när man hanterar Bitcoin?
+answer: Att sälja, byta eller använda Bitcoin som betalning utlöser ofta en skattepliktig händelse.
+wrong_answers:
+  - Helt enkelt hålla Bitcoin på obestämd tid utan några transaktioner.
+  - Säkerhetskopiera din Bitcoin Wallet eller nycklar.
+  - Visning av Bitcoin pris online.
+explanation: |
+  Vanligtvis inträffar en skattepliktig händelse när ett företag avyttrar eller använder sin Bitcoin, inte bara genom att inneha den. Varje försäljning eller Exchange av Bitcoin för varor, tjänster eller fiatvaluta kan generate skattepliktiga vinster eller förluster.
+reviewed: false

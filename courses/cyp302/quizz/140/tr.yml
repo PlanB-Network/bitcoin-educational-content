@@ -1,0 +1,9 @@
+question: RSA gibi asimetrik kriptosistemlerin güvenliğinin altında yatan çarpanlara ayırma probleminin doğası nedir?
+answer: Bir sayıyı çok büyük iki asal çarpana ayırma
+wrong_answers:
+  - Bir sayıyı 2'nin ardışık çarpanlarına ayırma
+  - Bir sayıyı en küçük bölenlerine indirgeme
+  - Bir çarpım elde etmek için iki büyük asal sayının çarpılması
+explanation: |
+  RSA'nın güvenliği, büyük bir sayıyı (iki büyük asal sayının çarpımı) iki asal çarpanına ayırmanın zorluğuna dayanır; bu, özel anahtar olmadan neredeyse imkansız bir görevdir.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: Nodi yangu
+name: My Node
 description: Sanidi Bitcoin MyNode yako
 ---
 
@@ -157,7 +157,7 @@ Niliandika 192.168.0.1 kwenye Kivinjari (maelekezo ambayo yalikuja na kipanga nj
 Kupata IP ni muhimu.
 
 
-**Kumbuka:** unaweza kutumia terminal kwenye Mac au Linux ili kupata IP Address ya vifaa vyote vilivyounganishwa vya Ethaneti kwenye mtandao wa nyumbani kwa kutumia amri ya “arp -a”. Matokeo sio mazuri kama yale ambayo kipanga njia kitaonyesha, lakini habari yote unayohitaji iko. Ikiwa haijulikani ni ipi, fanya majaribio na makosa.
+**Kumbuka:** unaweza kutumia terminal kwenye Mac au Linux ili kupata IP Address ya vifaa vyote vilivyounganishwa vya Ethaneti kwenye mtandao wa nyumbani kwa kutumia amri ya “arp -a”. Matokeo sio mazuri kama yale ambayo kipanga njia kitaonyesha, lakini habari zote unazohitaji ziko. Ikiwa hazijulikani ni zipi, fanya majaribio na makosa.
 
 
 ## SSH kwenye Pi

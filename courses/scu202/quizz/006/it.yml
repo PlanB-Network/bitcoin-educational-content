@@ -1,0 +1,9 @@
+question: Qual è la funzione principale del kernel in un sistema operativo?
+answer: Gestire l'accesso alle apparecchiature
+wrong_answers:
+  - Mostra annunci
+  - Gestire gli account utente
+  - Installare automaticamente le applicazioni
+explanation: |
+  Il kernel orchestra l'accesso all'hardware, l'esecuzione concorrente dei processi e la sicurezza, nascondendo all'utente la complessità dei circuiti.
+reviewed: false

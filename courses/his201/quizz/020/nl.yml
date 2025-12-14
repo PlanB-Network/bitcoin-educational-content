@@ -1,0 +1,9 @@
+question: Wat was Satoshi Nakamoto's belangrijkste inspiratie tijdens het eerste ontwerp van Bitcoin?
+answer: eCash (David Chaum)
+wrong_answers:
+  - b-geld (Wei Dai)
+  - bit goud (Nick Szabo)
+  - RPOW (Hal Finney)
+explanation: |
+  Ondanks hun grote gelijkenissen was Satoshi's belangrijkste inspiratie niet de modellen van b-geld, bitgoud en RPOW, omdat hij er voor augustus 2008 gewoon niet van op de hoogte was.
+reviewed: true

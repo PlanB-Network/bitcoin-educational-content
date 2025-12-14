@@ -1,0 +1,9 @@
+question: Wat is de titel van het boek van Thomas Paine?
+answer: Gezond verstand.
+wrong_answers:
+  - Het unieke gevoel.
+  - Het algemeen belang.
+  - Geen van bovenstaande antwoorden is juist.
+explanation: |
+  Het boek van Thomas Paine, getiteld Common Sense (Le sens commun in het Frans), is een invloedrijk pamflet dat pleitte voor Amerikaanse onafhankelijkheid en de Britse tirannie hekelde. Het speelde een sleutelrol in het mobiliseren van de kolonisten.
+reviewed: true

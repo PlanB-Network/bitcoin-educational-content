@@ -1,8 +1,0 @@
-question: Jak duży jest rozmiar bloku w protokole Bitcoin?
-answer: 1MB.
-wrong_answers:
-  - 0.5 MB.
-  - 2MB.
-  - 3 MB.
-explanation: >-
-reviewed: true

@@ -1,0 +1,9 @@
+question: Vilken typ av attack kan ett sekvensnummer förhindra i en säker kommunikationssession?
+answer: Replay- och omordningsattacker
+wrong_answers:
+  - Passiva avlyssningsattacker
+  - Överbelastningsattacker (Denial of Service)
+  - Spoofing-attacker mot nycklar
+explanation: |
+  Ett sekvensnummer i varje meddelande förhindrar replay- och omordningsattacker, eftersom det gör det möjligt att verifiera meddelandenas ordning och unikhet.
+reviewed: false

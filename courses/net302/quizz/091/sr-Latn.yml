@@ -1,0 +1,9 @@
+question: Koja komanda se koristi za skeniranje otvorenih portova hosta i identifikaciju dostupnih servisa?
+answer: nmap
+wrong_answers:
+  - kopaj
+  - ethtool
+  - ip sused
+explanation: |
+  nmap detektuje otvorene portove, izložene servise i ponekad tip udaljenog operativnog sistema.
+reviewed: false

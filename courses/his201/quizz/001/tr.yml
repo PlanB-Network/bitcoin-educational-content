@@ -1,0 +1,9 @@
+question: Hangi kriptograflar 1978 yılında RSA kriptosistemini yarattı?
+answer: Ronald Rivest, Adi Shamir ve Leonard Adleman
+wrong_answers:
+  - Whitfield Diffie, Martin Hellman ve Ralph Merkle
+  - Marc Girault, Guillaume Poupard ve Jacques Stern
+  - Alfred Menezes, Minghua Qu ve Scott Vanstone
+explanation: |
+  Rivest, Shamir ve Adleman, RSA algoritmasına kendi isimlerinin baş harflerini kullanarak isim vermişlerdir.
+reviewed: true

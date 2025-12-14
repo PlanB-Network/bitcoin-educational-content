@@ -1,0 +1,9 @@
+question: Om ett heltal N är produkten av två primtal p och q, hur beräknas då ordningen på N?
+answer: (p - 1) * (q - 1)
+wrong_answers:
+  - (p * q) - 1
+  - p + q
+  - (p - 1) + (q - 1)
+explanation: |
+  För N som är lika med produkten av två primtal p och q beräknas ordningen av N som (p - 1) * (q - 1).
+reviewed: false

@@ -1,0 +1,16 @@
+question: İşbölümü bağlamında karşılaştırmalı üstünlük kavramı nedir?
+answer: Bir birey belirli görevleri yerine getirmede diğerlerinden daha üstün bir yeteneğe sahiptir.
+wrong_answers:
+  - Bir birey tüm görevleri yerine getirme konusunda diğerleri ile eşit yeteneğe sahiptir.
+  - Bir birey belirli görevleri yerine getirmede diğerlerine göre daha düşük bir yeteneğe sahiptir.
+  - Bir birey tüm görevleri yerine getirmede diğerlerinden daha üstün bir yeteneğe sahiptir.
+explanation: |
+  İş bölümü bağlamında, karşılaştırmalı
+  avantajı, bir bireyin daha fazla avantaja sahip olduğu durumu ifade eder
+  belirli görevleri yerine getirmede diğerlerinden daha üstün yetenek.
+  Birey mutlak bir avantaja sahip olmasa bile
+  herhangi bir malın üretiminde yine de farklı türler olacaktır
+  bireyin daha iyi olduğu üretim
+  diğerleri ve bu nedenle, hala
+  uzmanlaşmak.
+reviewed: true

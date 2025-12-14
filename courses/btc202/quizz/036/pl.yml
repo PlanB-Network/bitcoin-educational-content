@@ -1,0 +1,9 @@
+question: Jaka jest przewaga dedykowanego laptopa nad mini-PC?
+answer: Jego bateria działa jak falownik
+wrong_answers:
+  - Jest ciszej
+  - Trwa dłużej
+  - Zużywa mniej energii
+explanation: |
+  Bateria laptopa działa jak naturalny zasilacz UPS, zapobiegając nagłym zatrzymaniom w przypadku przerwy w dostawie prądu.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste eigenschap van scalaire vermenigvuldiging op elliptische krommen?
+answer: Eenrichtingsfunctie
+wrong_answers:
+  - Gemakkelijk omkeerbaar
+  - Gebaseerd op de factorisatie van priemgetallen
+  - Zeer lang om te berekenen
+explanation: |
+  Scalaire vermenigvuldiging op elliptische krommen is een eenrichtingsfunctie, waardoor het onmogelijk is om de privésleutel uit de publieke sleutel te halen.
+reviewed: false

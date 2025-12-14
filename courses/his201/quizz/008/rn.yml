@@ -1,0 +1,9 @@
+question: None e-gold yari iki?
+answer: Ifaranga ry'ubuhinga bwa none rishigikiwe n'ingero ingana n'inzahabu ibitswe mu nzu y'ububiko
+wrong_answers:
+  - Ikigereranyo c'amafaranga mw'isi ya Warcraft
+  - Iciyumviro c’amafaranga y’ubuhinga bwa none (digital) iyo gusohoka kwayo kwari gushingiye kuri Proof of Work.
+  - Uburyo bwo kuri interineti Exchange bw'amabuye y'agaciro y'inzahabu
+explanation: |
+  Douglas Jackson na Barry Downey ni bo bashinze iyo porogarama mu 1996. Yari umuntu ashobora kuyironka akoresheje urubuga rworoshe.
+reviewed: true

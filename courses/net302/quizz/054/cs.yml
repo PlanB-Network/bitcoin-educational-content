@@ -1,0 +1,9 @@
+question: Jaká forma NAT trvale spojuje soukromou IP adresu Address s veřejnou IP adresou Address?
+answer: Statický překlad
+wrong_answers:
+  - Dynamický překlad
+  - PAT (Port Address Translation)
+  - Dynamické směrování
+explanation: |
+  Statický překlad vytváří pevné mapování mezi interní IP adresou Address a veřejnou IP adresou Address, což je užitečné pro zpřístupnění interních prostředků zvenčí.
+reviewed: false

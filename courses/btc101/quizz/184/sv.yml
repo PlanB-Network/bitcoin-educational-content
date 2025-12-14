@@ -1,0 +1,8 @@
+question: Vad är en faktor att tänka på när du väljer en lösning för att acceptera Bitcoin för ditt företag?
+answer: Den förväntade transaktionsvolymen.
+wrong_answers:
+  - Färgen på din logotyp.
+  - Antal anställda.
+  - Platsen för ditt huvudkontor.
+explanation: >-
+reviewed: true

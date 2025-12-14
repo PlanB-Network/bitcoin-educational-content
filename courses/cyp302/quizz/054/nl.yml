@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste type algebraïsche structuur dat in eindige velden gebruikt wordt voor cryptografie?
+answer: Onherleidbare veeltermen
+wrong_answers:
+  - Vierkante matrices
+  - Willekeurige vectoren
+  - Kubische wortels
+explanation: |
+  In cryptografie worden in eindige velden van orde 2^m vaak onherleidbare polynomen gebruikt om ervoor te zorgen dat het veld goed gedefinieerd is en dat alle bewerkingen mogelijk zijn.
+reviewed: false

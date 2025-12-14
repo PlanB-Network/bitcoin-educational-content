@@ -1,12 +1,10 @@
-question: Was ist eine Bitcoin-Transaktion?
-answer: Eine Übertragung des Eigentums von Bitcoins unter Verwendung von Kryptographie.
+question: Wie validieren Miner Transaktionen und fügen sie einem Block hinzu?
+answer: Durch den Prozess des Proof of Work.
 wrong_answers:
-  - Ein physischer Austausch von Bitcoins unter Verwendung eines Notars.
-  - Eine Übertragung des Eigentums von Bitcoins unter Verwendung einer physischen Adresse.
-  - Eine Übertragung des Eigentums von Bitcoins unter Verwendung einer E-Mail-Adresse.
-explanation: |
-  Eine Bitcoin-Transaktion ist eine digitale Übertragung des
-  Eigentums von Bitcoins, durch die Verwendung einer Bitcoin-Adresse,
-  die dank der Elliptischen-Kurven-Kryptographie abgeleitet wird. Diese
-  Adresse ist einzigartig für das Wallet der Person, die die Bitcoins erhält.
+  - Durch den Prozess des Proof of Stake.
+  - Durch den Prozess des Proof of Authority.
+  - Durch den Prozess des Proof of Burn.
+explanation: >-
+  Miner validieren Transaktionen und fügen sie einem Block durch einen Prozess hinzu,
+  der Proof of Work genannt wird. Dies beinhaltet das Lösen eines kryptografischen Rätsels.
 reviewed: true

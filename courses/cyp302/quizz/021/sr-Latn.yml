@@ -6,4 +6,4 @@ wrong_answers:
   - Diskretna geometrija
 explanation: |
   Modularna aritmetika je grana matematike koja se bavi operacijama na brojevima unutar konačnog okvira, koristeći modulo operaciju.
-reviewed: false
+reviewed: true

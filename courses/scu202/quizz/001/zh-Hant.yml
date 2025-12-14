@@ -1,0 +1,9 @@
+question: 在瀏覽網際網路時，哪些做法對於限制您的資料曝露是必要的？
+answer: 定期刪除 cookie
+wrong_answers:
+  - 保留所有 cookie
+  - 停用瀏覽器私人模式
+  - 使用過時的瀏覽器
+explanation: |
+  刪除或限制 Cookie 可減少廣告追蹤，並保護網路瀏覽時的隱私。
+reviewed: false

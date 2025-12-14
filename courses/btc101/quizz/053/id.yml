@@ -1,9 +1,9 @@
-question: Pada kasus mana tingkat inflasi harian setara dengan 100% pernah diamati?
-answer: Di Zimbabwe, 2007
+question: Apa nama proses yang memverifikasi transaksi pada jaringan Bitcoin?
+answer: Penambangan
 wrong_answers:
-  - Di Hungaria, 1945
-  - Di Cina, 1940
-  - Ini adalah kasus yang tidak realistis dan tidak mungkin terjadi
+  - Penggalian
+  - Pemanenan
+  - Bertani
 explanation: |
-  Inflasi 100% per hari adalah skenario nyata yang telah terjadi di Zimbabwe pada tahun 2007, saat nilai uang meningkat dua kali lipat kira-kira setiap 24 jam.
+  Proses yang memverifikasi transaksi pada jaringan Bitcoin disebut penambangan. Penambang melakukan tugas kriptografi dan diberi imbalan berupa penerbitan bitcoin baru.
 reviewed: true

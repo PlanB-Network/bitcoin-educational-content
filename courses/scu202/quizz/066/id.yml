@@ -1,0 +1,9 @@
+question: Data lokal apa yang memungkinkan pengiklan melacak kebiasaan penelusuran Anda di berbagai situs?
+answer: Cookie pihak ketiga
+wrong_answers:
+  - Kode JavaScript
+  - Sejarah lokal
+  - Sertifikat SSL
+explanation: |
+  Cookie pihak ketiga, yang ditempatkan oleh biro iklan eksternal, digunakan untuk melacak aktivitas pengguna di berbagai situs dan membuat profil iklan.
+reviewed: false

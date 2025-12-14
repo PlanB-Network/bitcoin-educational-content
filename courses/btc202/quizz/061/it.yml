@@ -1,0 +1,9 @@
+question: Qual è il principale vantaggio di Tailscale rispetto a Tor per l'accesso remoto a Umbrel?
+answer: Una connessione più veloce
+wrong_answers:
+  - Crittografia più forte di WireGuard
+  - Compatibilità con i router aziendali
+  - Possibilità di utilizzare Electrs offline
+explanation: |
+  Tailscale offre la sicurezza di WireGuard, ma con la velocità di una connessione a Internet, a differenza di Tor, che è più lento.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Neden tüm Bitcoin işlemlerinin bir CSV dışa aktarımına sahip olunması önerilir?
+answer: Her işlemin net, yapılandırılmış bir kaydını sağlayarak muhasebecilerin bunları finansal raporlara ve vergi dosyalarına entegre etmesini kolaylaştırır.
+wrong_answers:
+  - Çünkü kağıt makbuzlar yasal olarak kabul edilebilir tek muhasebe belgesidir.
+  - Çünkü verileri dışa aktarmak, vergi beyannamenizi incelemeye gerek kalmadan otomatik olarak tamamlar.
+  - Çünkü CSV dosyaları maliyet esasını takip etme ihtiyacını ortadan kaldırır.
+explanation: |
+  Ortak bir formatta dijital bir kayda sahip olmak, muhasebe sistemlerine sorunsuz entegrasyon sağlar, denetim izlerinin korunmasına yardımcı olur ve doğru vergi ve uyum raporlamasını destekler.
+reviewed: false

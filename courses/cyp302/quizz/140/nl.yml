@@ -1,0 +1,9 @@
+question: Wat is de aard van het factorisatieprobleem dat ten grondslag ligt aan de veiligheid van asymmetrische cryptosystemen zoals RSA?
+answer: Een getal ontbinden in twee zeer grote priemfactoren
+wrong_answers:
+  - Een getal ontbinden in opeenvolgende factoren van 2
+  - Een getal herleiden tot zijn kleinste delers
+  - Twee grote priemgetallen vermenigvuldigen om een product te krijgen
+explanation: |
+  De veiligheid van RSA is gebaseerd op de moeilijkheid om een groot getal (het product van twee grote priemgetallen) te ontbinden in twee priemfactoren, een taak die bijna onmogelijk is zonder de privésleutel.
+reviewed: false

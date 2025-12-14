@@ -1,13 +1,9 @@
-question: Jaki jest status Bitcoin w Salwadorze?
-answer: Prawny środek płatniczy.
+question: Jakie ryzyko ponosi węzeł Lightning publikujący stary stan kanału?
+answer: Kara
 wrong_answers:
-  - Kryminalizacja.
-  - Nieznany.
-  - Nieuregulowane.
+  - Ostrzeżenie
+  - Dodatkowe opłaty górnicze
+  - Tymczasowe zamrożenie
 explanation: |
-  W tekście kursu wspomniano, że niektóre kraje zakazały
-  i kryminalizowały użycie Bitcoin, dodając do tego
-  złożoność przyjęcia Bitcoin w oparciu o kultury, epoki i narody
-  narodów. Jednak Salwador był na tyle odważny, by przyjąć Bitcoin jako
-  jako legalny środek płatniczy.
-reviewed: true
+  Protokół przewiduje odstraszającą karę, która pozwala drugiej stronie odzyskać całość środków.
+reviewed: false

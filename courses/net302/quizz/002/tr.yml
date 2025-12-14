@@ -1,0 +1,9 @@
+question: Bir halka ağın temel zayıflığı nedir?
+answer: Tek bir cihazın arızalanması tüm ağı kesintiye uğratabilir
+wrong_answers:
+  - Her bir ekipman parçasını bağlamak için çok sayıda kablo gerekir
+  - Genişletmek zordur
+  - Yönetimi karmaşıktır
+explanation: |
+  Bir halka topolojisinde, bir cihazın arızalanması döngüyü bozar ve verilerin dolaşmasını engeller.
+reviewed: false

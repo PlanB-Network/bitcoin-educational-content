@@ -1,0 +1,5 @@
+---
+term: TABAN (ARITMETIK)
+---
+
+Taban, tüm olası sayıları temsil etmek için sabit sayıda karakter kullanan bir numaralandırma sistemidir. Taban, bu sistemdeki rakamları temsil etmek için mevcut olan farklı sembollerin sayısını belirler. Örneğin, günlük hayatımızda en çok bilinen sistem, ondalık sistem olarak da adlandırılan 10 tabanıdır. Tüm sayıları temsil etmek için on farklı `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)` sembolü kullanır. Bilgisayar ve matematik alanlarında yaygın olarak kullanılan diğer numaralandırma sistemleri arasında iki sembollü `(0, 1)` ikili sistem (taban 2) ve on altı sembollü `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F)` onaltılık sistem (taban 16) yer alır. Bitcoin bağlamında, bazen 58 tabanında veya değiştirilmiş 32 tabanında (`Bech32` olarak adlandırılır) kodlamalarla karşılaşabilirsiniz.

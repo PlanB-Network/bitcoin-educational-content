@@ -1,0 +1,9 @@
+question: Hoeveel bits entropie worden gebruikt voor een Mnemonic-zin van 24 woorden?
+answer: 256 bits
+wrong_answers:
+  - 128 bits
+  - 512 bits
+  - 64 bits
+explanation: |
+  Een Mnemonic-zin van 24 woorden is gebaseerd op 256 bits entropie, wat een zeer hoge beveiliging garandeert.
+reviewed: false

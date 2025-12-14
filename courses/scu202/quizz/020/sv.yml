@@ -1,0 +1,9 @@
+question: Vilken av dessa skrivbordsmiljöer rekommenderas särskilt för äldre eller mindre kraftfulla maskiner?
+answer: LXQt
+wrong_answers:
+  - GNOME
+  - Kanel
+  - KDE Plasma
+explanation: |
+  LXQt, liksom Xfce, förbrukar få resurser och är utformat för att köras effektivt på lågpresterande hårdvara.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni igikoresho ikihe gishobora gupfuka neza disiki iri munsi ya Linux?
+answer: Amahirwe
+wrong_answers:
+  - BitLocker
+  - Ububiko bwa dosiye
+  - Ibanga rikomeye
+explanation: |
+  LUKS (Linux Unified Key Setup) ni umuti usanzwe kuri Linux wo gupfuka disiki yuzuye mu gihe co gushiramwo.
+reviewed: false

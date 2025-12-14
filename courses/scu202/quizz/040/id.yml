@@ -1,0 +1,9 @@
+question: Alat gratis apa, yang tersedia di semua sistem, yang dapat digunakan untuk memverifikasi tanda tangan file dan korespondensinya dengan kunci publik?
+answer: GnuPG
+wrong_answers:
+  - VeraCrypt
+  - OpenSSH
+  - 7-Zip
+explanation: |
+  GnuPG (gpg) adalah alat referensi untuk verifikasi tanda tangan digital dan manajemen kunci publik.
+reviewed: false

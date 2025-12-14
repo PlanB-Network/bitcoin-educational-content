@@ -1,0 +1,15 @@
+question: Vad är den underliggande orsaken till hyperinflation som redenominering inte ger Address?
+answer: Expansionen av pengarna Supply.
+wrong_answers:
+  - Minskningen av pengarna Supply.
+  - Ökning av efterfrågan på varor och tjänster.
+  - Minskad efterfrågan på varor och tjänster.
+explanation: |
+  Grundorsaken till hyperinflation är expansionen av penningmängden Supply.
+  
+  Redenominering är en vanlig åtgärd som vidtas av regeringar under inflationsperioder,
+  
+  men det löser inte det underliggande problemet. Det är bara ett sätt att byta namn på valutan
+  
+  och ta bort nollor
+reviewed: false

@@ -1,0 +1,9 @@
+question: Según el análisis de Gregory Maxwell, ¿qué crea la compensación fundamental que obliga a los usuarios a optar por servicios de confianza en los debates sobre el escalado de Bitcoin?
+answer: Tanto un uso excesivo de recursos que deja fuera de juego a los validadores como un acceso excesivamente caro al espacio de bloques para la resolución de litigios
+wrong_answers:
+  - El conflicto entre el aumento del rendimiento de las transacciones y el mantenimiento de una rentabilidad adecuada del mining con diferentes tamaños de pool
+  - La tensión entre implantar actualizaciones de testigos segregadas y preservar la compatibilidad con el software heredado de wallet
+  - La competencia entre las soluciones de capa dos y los enfoques de ampliación de on-chain por unos recursos de desarrollo y un apoyo comunitario limitados
+explanation: |
+  Maxwell identificó un problema de doble cara en el que Bitcoin pierde sus ventajas en ambas direcciones: si el uso de recursos es demasiado alto en relación con la tecnología disponible, la validación se vuelve demasiado costosa y pone precio a los usuarios, que entonces deben confiar en terceros de confianza en lugar de validar de forma independiente. A la inversa, si la capacidad es demasiado baja y los métodos de transacción son ineficientes, acceder a la cadena de bloques para la resolución de disputas se convierte en algo prohibitivo, empujando de nuevo a los usuarios hacia los servicios de confianza. Esto crea un delicado equilibrio en el que deben navegar las soluciones de escalado.
+reviewed: false

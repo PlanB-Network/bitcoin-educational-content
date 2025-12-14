@@ -1,0 +1,9 @@
+question: Milloin lsofin -u-vaihtoehtoa käytetään?
+answer: Suodattaa käyttäjän mukaan
+wrong_answers:
+  - DNS-resoluution pakottaminen
+  - Avoimien porttien näyttäminen
+  - DNS-palvelimen määrittäminen
+explanation: |
+  Lsofin -u-vaihtoehto rajoittaa tulostuksen tietyn käyttäjän tai UID:n avaamiin tiedostoihin.
+reviewed: false

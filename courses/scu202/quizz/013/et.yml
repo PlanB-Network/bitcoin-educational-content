@@ -1,0 +1,9 @@
+question: Milline projekt algatati 1983. aastal, et luua täiesti vaba operatsioonisüsteem?
+answer: GNU
+wrong_answers:
+  - BSD Unix
+  - X Window System projekt
+  - Avatud lähtekoodiga algatus
+explanation: |
+  Richard Stallman käivitas 1983. aastal GNU projekti, et töötada välja täiesti vaba operatsioonisüsteem.
+reviewed: false

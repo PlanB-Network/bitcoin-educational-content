@@ -1,10 +1,11 @@
-question: Mikä on keskimääräinen aika kahden lohkon luomisen välillä Bitcoin-protokollassa?
-answer: 10 minuuttia.
+question: Mikä on erikoistuneiden SHA256-koneiden, eli ASICien, pääetu Bitcoin-louhinnassa?
+answer: Ne lisäävät hajautusnopeutta joulea kohden.
 wrong_answers:
-  - 5 minuuttia.
-  - 15 minuuttia.
-  - 20 minuuttia.
+  - Ne vähentävät energiankulutusta.
+  - Ne nopeuttavat transaktioiden käsittelyä.
+  - Ne lisäävät verkon turvallisuutta.
 explanation: >-
-  Keskimäärin lohko luodaan joka 10. minuutti Bitcoin-protokollassa.
-  Tämä aika pysyy muuttumattomana riippumatta louhijoiden määrästä ja heidän laskentatehostaan.
+  Erikoistuneet SHA256-koneet, eli ASICit, lisäävät hajautusnopeutta joulea kohden
+  Bitcoin-louhinnassa. Tämä tarkoittaa yritysten määrää sekunnissa ja kulutetun
+  energian mukaan.
 reviewed: true

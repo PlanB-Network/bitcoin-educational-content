@@ -6,4 +6,4 @@ wrong_answers:
   - Il bloque l'utilisation de la clé de révocation
 explanation: |
   Le timelock impose un délai pendant lequel le tricheur ne peut pas récupérer ses fonds, donnant ainsi à l'autre partie la possibilité de réagir.
-reviewed: false
+reviewed: true 

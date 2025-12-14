@@ -1,0 +1,9 @@
+question: Šta koncept harmonije Bitcoin, kako je opisano kroz analogiju Dejvida Hardinga, prvenstveno naglašava o radu mreže?
+answer: Hiljade punih čvorova nezavisno verifikuju transakcije kako bi postigli harmoničan dogovor bez potrebe za poverenjem između operatera.
+wrong_answers:
+  - Mining bazeni moraju koordinisati svoje napore da pevaju istu pesmu i proizvode blokove u usklađenoj harmoniji
+  - Razvojni tim Bitcoin mora postići jednoglasan konsenzus pre nego što sprovede bilo kakve promene ili nadogradnje protokola.
+  - Svi korisnici Bitcoin moraju se složiti oko validnosti transakcija putem demokratskog procesa glasanja kako bi održali stabilnost mreže
+explanation: |
+  David Hardingova analogija harmonije naglašava da snaga Bitcoin dolazi od hiljada nezavisnih punih čvorova koji svaki zasebno rade na verifikaciji transakcija, stvarajući skladan dogovor o stanju knjige bez potrebe da bilo koji operater čvora veruje drugima. Ovo se poredi sa horom gde svaki član peva nezavisno, ali zajedno proizvode prelepu harmoniju. Pogrešni odgovori pogrešno tumače ovaj koncept sugerišući zahteve za koordinacijom između rudara, programera ili korisnika, što je u suprotnosti sa osnovnim principom nezavisne verifikacije koji čini Bitcoin bez poverenja i decentralizovanim.
+reviewed: false

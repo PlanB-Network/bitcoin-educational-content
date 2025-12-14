@@ -1,0 +1,9 @@
+question: Was muss nach den Anforderungen der Open-Source-Definition geschehen, wenn der Quellcode in einer Open-Source-Software-Distribution absichtlich verschleiert wird?
+answer: Die absichtliche Verschleierung des Quellcodes verstößt gegen die Open-Source-Prinzipien und ist nicht zulässig
+wrong_answers:
+  - Dem verschleierten Code muss eine ausführliche Dokumentation beigefügt werden, in der seine Funktionsweise erläutert wird
+  - Der verschleierte Code ist akzeptabel, solange die kompilierten Binärdateien ebenfalls bereitgestellt werden
+  - Der verschleierte Code muss durch einen separaten Download mit Reproduktionskosten zur Verfügung gestellt werden
+explanation: |
+  In der Open-Source-Definition heißt es ausdrücklich, dass "absichtlich verschleierter Quellcode nicht zulässig ist" Dies ist eine grundlegende Anforderung, da die Verschleierung eine sinnvolle Prüfung, Änderung und das Verständnis des Codes verhindert, was den Hauptzwecken von Open-Source-Software widerspricht. Der Quellcode muss in der "bevorzugten Form vorliegen, in der ein Programmierer das Programm ändern würde", was Obfuskation unabhängig von der Dokumentation oder den Verbreitungsmethoden mit den Grundsätzen von Open Source unvereinbar macht.
+reviewed: false

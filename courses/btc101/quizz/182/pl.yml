@@ -1,8 +1,8 @@
-question: Które z poniższych cech przyczyniły się do ekspansji Bitcoin na ciemnych rynkach internetowych, takich jak Silk Road?
-answer: Jego niekontrolowana i pseudonimowa natura.
+question: jak Bitcoin rozwiązuje problem generałów bizantyjskich?
+answer: Dzięki zastosowaniu łańcucha bloków opartego na dowodzie pracy ze zmiennym poziomem trudności.
 wrong_answers:
-  - Jego scentralizowana kontrola.
-  - Jego identyfikowalność i kontrolowany charakter.
-  - Brak pseudonimowości.
+  - Dzięki wykorzystaniu podpisów cyfrowych.
+  - Poprzez wykorzystanie publicznej księgi rachunkowej.
+  - Dzięki wykorzystaniu algorytmu dowód stawki.
 explanation: >-
 reviewed: true

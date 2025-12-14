@@ -1,10 +1,12 @@
-question: Quel est l'un des risques potentiels de laisser vos Bitcoin sur une plateforme d'échange ?
-answer: Les risques de piratage et de blocage des fonds.
+question: Qu'a prédit Milton Friedman en 1999 ?
+answer: Le développement d'un e-cash fiable.
 wrong_answers:
-  - Le risque que la plateforme augmente le prix du Bitcoin.
-  - Le risque que la plateforme contrôle l'offre de Bitcoin.
-  - Le risque que le Bitcoin soit dépassé en prix par une autre cryptomonnaie.
-explanation: >-
-  Le texte mentionne que laisser vos Bitcoin sur une plateforme d'échange peut
-  vous exposer aux risques de piratage et de blocage des fonds.
+  - La disparition de l'argent physique.
+  - L'émergence de Bitcoin.
+  - La fin du contrôle gouvernemental sur l'argent.
+explanation: |
+  Milton Friedman, un économiste renommé, a prédit en 1999
+  qu'un e-cash fiable serait bientôt développé, une méthode
+  permettant sur internet de transférer des fonds de A à B,
+  sans que A connaisse B ou vice-versa.
 reviewed: true

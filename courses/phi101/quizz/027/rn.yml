@@ -1,0 +1,9 @@
+question: Ni itandukaniro irihe riri hagati ya phusis na nomos?
+answer: Phusi ni itegeko ry’ibidukikije, nomos ni itegeko ry’umuntu.
+wrong_answers:
+  - Phusi ni itegeko ry’imana, nomos ni itegeko ry’abantu.
+  - Phusi ni itegeko ry’abagoyagoya, nomos ni itegeko ry’abakomeye.
+  - Phusi ni itegeko rya kera, nomos ni itegeko ry’ibihe vya none.
+explanation: |
+  Mu filozofiya y’ikigiriki, phusis yerekeza ku mategeko kamere canke ayo akomoka ku kamere, yigenga ku bikorwa vy’umuntu, mu gihe nomos yerekeza ku mategeko y’abantu, yaremwe n’imiryango kugira ngo itunganye ubuzima mu kibano.
+reviewed: true

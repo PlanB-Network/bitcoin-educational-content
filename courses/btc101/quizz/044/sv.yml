@@ -1,0 +1,10 @@
+question: Hur påverkas köpkraften av en inflation på 2% under 5 år?
+answer: Du förlorar 10 procent av din köpkraft.
+wrong_answers:
+  - Du förlorar 2 procent av din köpkraft.
+  - Du förlorar 5% av din köpkraft.
+  - Du förlorar 20 procent av din köpkraft.
+explanation: |
+  Med 2% inflation förlorar du 2% av din köpkraft
+  årligen, vilket motsvarar 10% på 5 år.
+reviewed: true

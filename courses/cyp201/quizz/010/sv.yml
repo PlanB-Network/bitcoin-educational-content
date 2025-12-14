@@ -1,0 +1,9 @@
+question: Vilken härledningsalgoritm används för att beräkna en autentiseringskod baserad på en hemlig nyckel?
+answer: HMAC-SHA512
+wrong_answers:
+  - SHA512
+  - SHA256
+  - RIPEMD160
+explanation: |
+  HMAC-SHA512 är en algoritm som kombinerar en Hash-funktion och en hemlig nyckel för att beräkna en autentiseringskod.
+reviewed: false

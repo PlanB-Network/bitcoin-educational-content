@@ -1,0 +1,9 @@
+question: Mis on datagramm IP-protokolli kontekstis?
+answer: Iseseisev andmeplokk, mida edastatakse võrgu kaudu
+wrong_answers:
+  - Krüpteeritud sõnum, mis on mõeldud ühele seadmele
+  - UDP-sse kapseldatud TCP-segment
+  - Füüsiline signaal võrgujuurdepääsu Layer-st
+explanation: |
+  IP-andmed edastatakse datagrammide kujul, mis on iseseisvad plokid, mis sisaldavad kogu edastamiseks vajalikku teavet.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni igiki gifise imiterere y’aligebra mu aligebra itaboneka?
+answer: Itsinda rya Elements rifise igikorwa kimwe canke vyinshi vyisunga amajambo amwe amwe
+wrong_answers:
+  - Itsinda ry'imibare y'intango itunganijwe mu mirongo yifatanya n'ibintu bimwebimwe vy'ukuri
+  - Urutonde rw'ibiharuro vyo gutorera umuti ingano z'umurongo
+  - Itsinda ry'ihinduka ry'ubuhinga ry'ubuhinga ry'ubuhinga ry'ubuhinga ry'ubuhinga ry'ubuhinga ry'ubuhinga ry'ubuhinga
+explanation: |
+  Ubuhinga bwa aligebra ni umugwi w'ibintu bisobanuwe Elements bifise igikorwa kimwe canke vyinshi, nk'ugushiramwo canke gukubita, bishingiye ku bintu bimwebimwe vy'ukuri, kandi ni ngombwa mu gutunganya ivyiyumviro mu vyiyumviro vy'imibare.
+reviewed: false

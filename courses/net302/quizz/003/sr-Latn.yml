@@ -1,0 +1,9 @@
+question: Koja je glavna prednost sabirničke topologije?
+answer: Niski troškovi instalacije
+wrong_answers:
+  - Visoka redundancija
+  - Niska latencija
+  - Visoka dostupnost
+explanation: |
+  Autobus se oslanja na jedan fizički medijum, što smanjuje troškove instalacije, ali takođe uvodi jednu tačku kvara.
+reviewed: false

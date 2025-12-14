@@ -1,0 +1,9 @@
+question: Mitä komentoa suositellaan aktiivisten TCP- ja UDP-yhteyksien analysointiin Linux-järjestelmässä?
+answer: ss
+wrong_answers:
+  - arp
+  - ip-linkki
+  - ifup
+explanation: |
+  Ss-komento korvaa netstatin ja näyttää nopeasti kaikki aktiiviset verkkoyhteydet.
+reviewed: false

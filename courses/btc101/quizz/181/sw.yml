@@ -1,13 +1,8 @@
-question: Je, ni njia gani moja ambayo Bitcoin imejiunganisha zaidi katika soko la jadi?
-answer: Kuwasili kwa Bitcoin ETFs.
+question: BTCMap ni nini?
+answer: Mfumo unaoorodhesha wafanyabiashara wote wanaokubali Bitcoin.
 wrong_answers:
-  - Kupigwa marufuku kwa Bitcoin.
-  - Kutoweka kwa sarafu zote za siri.
-  - Uundaji wa Bitcoin.
-explanation: |
-  Bitcoin inaendelea kuishi na kukua zaidi kwa
-  kujiunganisha zaidi na zaidi katika jadi
-  soko. Kuwasili kwa Bitcoin ETFs, udhibiti wazi zaidi,
-  na upataji bora wa zana za kuhifadhi unahimiza hili pekee
-  mwenendo.
+  - Ramani ya migodi yote ya Bitcoin duniani.
+  - Ramani ya mabadilishano yote ya Bitcoin ulimwenguni.
+  - Ramani ya watumiaji wote wa Bitcoin duniani.
+explanation: >-
 reviewed: true

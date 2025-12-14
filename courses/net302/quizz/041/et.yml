@@ -1,0 +1,9 @@
+question: Millist faili kasutati ajalooliselt enne globaalse DNS-i kasutuselevõttu kohalikuks resolutsiooniks?
+answer: /etc/hosts
+wrong_answers:
+  - /etc/dns
+  - /etc/network
+  - /etc/resolve
+explanation: |
+  Enne DNS-i laialdast levikut põhines nimede lahendamine Unix/Linuxi süsteemides staatilisel /etc/hosts failil.
+reviewed: false

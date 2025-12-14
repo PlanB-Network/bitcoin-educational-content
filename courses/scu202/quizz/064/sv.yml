@@ -1,0 +1,9 @@
+question: Vilken Blink-baserad webbläsare är känd för sin snabbhet och kompatibilitet, men samlar in stora mängder användardata för reklamändamål?
+answer: Krom
+wrong_answers:
+  - Modig
+  - Firefox
+  - Tor webbläsare
+explanation: |
+  Även om Google Chrome är ett kraftfullt verktyg samlar det som standard in en hel del personuppgifter, som Google använder för riktad reklam.
+reviewed: false

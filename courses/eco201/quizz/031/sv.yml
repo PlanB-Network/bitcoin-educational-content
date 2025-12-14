@@ -1,0 +1,16 @@
+question: Vilken roll spelar kapitalvaror i ekonomin?
+answer: Kapitalvaror används i produktionen av andra varor. De gör det möjligt för individer att skaffa sig konsumtionsvaror.
+wrong_answers:
+  - Kapitalvaror används för konsumtion.
+  - Kapitalvaror har ingen roll i ekonomin.
+  - Kapitalvaror används för att producera andra kapitalvaror.
+explanation: |
+  För att producera konsumtionsvaror kombinerar entreprenörer olika
+  insatsvaror med ursprungliga produktionsfaktorer (arbete
+  (arbete, mark och kapital) enligt ett mönster som
+  maximerar den resulterande produktionen. Alla andra varor i ekonomin
+  ekonomin, som vi kan kalla insatsvaror, har endast
+  värde eftersom de gör det möjligt för individer att skaffa dessa
+  konsumtionsvarorna; de är varor som används i produktionen av
+  andra varor.
+reviewed: true

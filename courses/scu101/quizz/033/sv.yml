@@ -1,0 +1,13 @@
+question: Vad är den potentiella nackdelen med att skapa en molnbackup med hjälp av tjänster som ProtonMail Drive, Sync eller Google Drive?
+answer: Dina uppgifter finns potentiellt på internet och förvaras hos en betrodd tredje part.
+wrong_answers:
+  - Dessa tjänster är potentiellt inte tillförlitliga för säkerhetskopiering av data.
+  - Dessa tjänster förlorar ibland användardata, och det kan vara svårt att överföra dem till en annan molnleverantör.
+  - Dessa tjänster erbjuder vanligtvis inte tillräckligt med lagringsutrymme och har låg anslutningshastighet.
+explanation: |
+  Säkerhetskopieringstjänster i molnet är ett bekvämt sätt att
+  säkerhetskopiera dina data, men de innebär också att dina data
+  potentiellt på internet och förvaras av en betrodd tredje
+  tredje part. Detta kan potentiellt utsätta dina data för
+  ytterligare risker.
+reviewed: true

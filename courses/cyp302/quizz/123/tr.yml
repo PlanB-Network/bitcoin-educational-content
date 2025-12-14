@@ -1,0 +1,9 @@
+question: Jim's Sporting Goods tüm müşteriler için aynı anahtar çiftini kullanırsa ne gibi bir sorun ortaya çıkar?
+answer: Herhangi bir müşteri başkalarının iletişimine erişebilir
+wrong_answers:
+  - Anahtar çok büyük olur
+  - İletişim yavaşlayacaktır
+  - Müşteriler her satın alımda anahtar değiştirmek zorunda kalacaktı
+explanation: |
+  Jim's Sporting Goods herkes için aynı anahtarı kullanarak gizlilik ve bütünlükten ödün vermiş olur, çünkü her müşteri potansiyel olarak diğer müşterilerin verilerine erişebilir.
+reviewed: false

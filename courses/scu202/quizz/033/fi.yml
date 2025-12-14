@@ -1,0 +1,9 @@
+question: Mikä mekanismi on otettava käyttöön UEFI:ssä, jotta voidaan estää allekirjoittamattoman koodin suorittaminen käynnistyksen aikana?
+answer: Suojattu käynnistys
+wrong_answers:
+  - Nopea käynnistys
+  - Nopea käynnistys
+  - Luotettu alustamoduuli (TPM)
+explanation: |
+  Secure Boot varmistaa, että vain todennetut ohjelmistot voivat käynnistää järjestelmän, mikä rajoittaa bootkit/rootkit-viruksen riskiä.
+reviewed: false

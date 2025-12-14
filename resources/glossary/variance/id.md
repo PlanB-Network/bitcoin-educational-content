@@ -1,11 +1,11 @@
 ---
-term: VARIANSI
+term: VARIANCE
 ---
 
-Dalam Mining, ini mengacu pada fluktuasi pendapatan Miner karena sifat probabilistik dalam menemukan blok yang valid. Bahkan dengan daya komputasi yang konstan, waktu yang dibutuhkan untuk menemukan sebuah blok dapat sangat bervariasi. Akibatnya, penambang dapat pergi dalam waktu yang lama tanpa menerima hadiah, diikuti dengan periode penghasilan yang tinggi.
+Dalam konteks penambangan, _variance_ mengacu pada fluktuasi pendapatan penambang karena sifat probabilistik dalam menemukan blok yang valid. Bahkan dengan daya komputasi yang konstan, waktu yang dibutuhkan untuk menemukan sebuah blok dapat sangat bervariasi. Akibatnya, penambang dapat pergi dalam waktu yang lama tanpa menerima hadiah, diikuti dengan periode penghasilan yang tinggi.
 
 
-Mining pool dirancang untuk mengurangi varians ini. Dengan mengumpulkan daya komputasi dari banyak helikopter individu, pool meningkatkan frekuensi ditemukannya blok, sehingga menghasilkan distribusi hadiah yang lebih merata dan dapat diprediksi. Dengan demikian, varians dapat dikurangi.
+_Mining pool_ dirancang untuk mengurangi _variance_ ini. Dengan mengumpulkan daya komputasi dari banyak _chopper_ individu, pool meningkatkan frekuensi ditemukannya blok, sehingga menghasilkan distribusi hadiah yang lebih merata dan dapat diprediksi. Dengan demikian, _variance_ akan berkurang.
 
 
-Varians adalah kelemahan yang melekat pada mekanisme Bitcoin Proof-of-Work yang mendorong Mining untuk mengelompok.
+_Variance_ adalah kelemahan yang melekat pada mekanisme Bitcoin _Proof-of-Work_ yang mendorong aktivitas penambangan untuk terkonsentrasi.

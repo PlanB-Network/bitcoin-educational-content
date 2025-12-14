@@ -1,0 +1,9 @@
+question: 레코드 및 확인 프로세스를 포함한 자세한 DNS 메시지를 표시하는 도구는 무엇인가요?
+answer: dig
+wrong_answers:
+  - 호스트
+  - ping
+  - arp
+explanation: |
+  dig(도메인 정보 그로퍼)는 레코드 유형을 포함하여 DNS 확인에 대한 자세한 정보를 제공합니다.
+reviewed: false

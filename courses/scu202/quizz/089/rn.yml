@@ -1,0 +1,9 @@
+question: Ni iyihe serivisi yo gukora ikarita yemerera gukoreshwa ata n’imwe ikoreshwa kandi idakurikirana amatangazo?
+answer: Ikarata y'ibinyabuzima
+wrong_answers:
+  - Ikarata ya Google
+  - Waze
+  - Ikarita y'igisagara
+explanation: |
+  Ikarata y’ibinyabuzima ni porogaramu y’inkomoko yuguruye ishingiye kuri OpenStreetMap ikora ata murongo, ata bakurikirana canke gukusanya amakuru, bitandukanye n’ibindi bikoresho vy’ubuhinga.
+reviewed: false

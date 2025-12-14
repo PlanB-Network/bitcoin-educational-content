@@ -1,0 +1,9 @@
+question: Hva er hovedforskjellen mellom en offentlig IPv4 Address og en privat IPv4 Address?
+answer: En offentlig Address er unik og kan dirigeres på Internett
+wrong_answers:
+  - En privat Address er unik og kan dirigeres på Internett
+  - En offentlig Address tildeles alltid av DHCP
+  - En privat Address tildeles alltid av DHCP
+explanation: |
+  En offentlig IPv4 Address er globalt unik og kan dirigeres på Internett, mens en privat Address bare er gyldig innenfor et lokalt nettverk.
+reviewed: false

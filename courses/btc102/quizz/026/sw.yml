@@ -1,0 +1,9 @@
+question: Watumiaji wanapaswa kujihifadhi nini ili kumiliki bitcoin zao kikweli?
+answer: Funguo za kibinafsi
+wrong_answers:
+  - Address inayopokea
+  - Nenosiri za Exchange za jukwaa
+  - Blocks za Blockchain
+explanation: |
+  Bila kushikilia funguo zako za kibinafsi, humiliki bitcoin zako.
+reviewed: true

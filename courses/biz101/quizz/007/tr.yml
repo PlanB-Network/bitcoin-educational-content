@@ -1,0 +1,9 @@
+question: Aşağıdakilerden hangisi Bitcoin işlemlerinin kesinliğe nasıl ulaştığını en iyi şekilde açıklar?
+answer: Blockchain'e kaydedildikten sonra işlemler değişmezdir ve değiştirilemez.
+wrong_answers:
+  - Bir anlaşmazlık ortaya çıkarsa işlemler bankalar tarafından geri alınabilir.
+  - Kullanıcıların bir işlemi sonuçlandırmak için birden fazla devlet kurumundan onay alması gerekir.
+  - Herhangi bir katılımcı, özel bir kodu varsa, geçmiş işlemleri istediği gibi düzenleyebilir.
+explanation: |
+  Bitcoin'ün Blockchain'si kurcalamaya karşı korumalı bir Ledger'tür. Bir işlem onaylandıktan ve bir bloğa dahil edildikten sonra, kalıcı kaydın bir parçası haline gelir ve kesinliği sağlar.
+reviewed: false

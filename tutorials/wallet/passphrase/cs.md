@@ -1,5 +1,5 @@
 ---
-name: Passphrase BIP39
+name: BIP-39 Passphrase
 description: Porozumění tomu, jak heslo funguje
 ---
 ![cover](assets/cover.webp)
@@ -29,27 +29,39 @@ Nakonec, použití hesla je zajímavé, když si přejete kontrolovat náhodnost
 ## Jak vybrat dobré heslo?
 Aby bylo heslo účinné, musí být dostatečně dlouhé a náhodné. Stejně jako u silného hesla, doporučuji vybrat heslo, které je co nejdelší a nejvíce náhodné, s různorodostí písmen, čísel a symbolů, aby jakýkoliv útok hrubou silou byl nemožný.
 
+Podle [studie provedené společností Trezor v roce 2019](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af) by útočník s přístupem k vaší seed frázi a s využitím výkonného GPU pronajatého na AWS (NVIDIA Tesla V100) mohl za 1 dolar otestovat téměř 620 milionů přístupových frází. Pro představu: s výpočetními schopnostmi z roku 2019 by prolomení přístupové fráze složené z 12 náhodných malých písmen stálo v průměru **77 milionů dolarů**.
+
+Nedoporučuji však omezovat se na 12 znaků. Místo toho se zaměřte na současné standardy pro silná hesla: v roce 2025 se doporučuje alespoň 13 náhodných znaků včetně číslic, malých a velkých písmen a symbolů; nebo 14 znaků, pokud používáte pouze malá a velká písmena. Samozřejmě doporučuji jít ještě dál a zvolit například přístupovou frázi o délce 20 znaků se symboly, abyste byli připraveni na budoucí vývoj a zohlednili lidské chyby, které v těchto studiích často nejsou zahrnuty.
+
 Je také důležité toto heslo správně uložit, stejně jako mnemonickou frázi. **Ztráta znamená ztrátu přístupu k vašim bitcoinům**. Důrazně se radí proti pouhému zapamatování si ho ve vaší hlavě, protože to nerozumně zvyšuje riziko ztráty. Ideální je zapsat ho na fyzické médium (papír nebo kov) odděleně od mnemonické fráze. Tato záloha musí být samozřejmě uložena na jiném místě, než kde je uložena vaše mnemonická fráze, aby nebyly obě kompromitovány současně.
 
 ## Tutoriály
 
 Pro nastavení hesla na zařízení Ledger (Stax, Flex, nebo Nano) můžete konzultovat tento tutoriál:
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Na COLDCARD:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 Na Jade Plus:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 Na Passport (batch-2):
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 Na zařízení Trezor (Safe 3, Safe 5 nebo Model One):
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+Na SeedSigneru:
+https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa03-4bcf-8308-00c89a74cffe
+Na SeedSigner s Seedkeeperem:
+https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+
+
+
+
 

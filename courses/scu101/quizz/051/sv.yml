@@ -1,0 +1,11 @@
+question: Vad är den gyllene regeln för cybersäkerhet?
+answer: Cybersäkerhet är ett rörligt mål som kommer att anpassa sig till din inlärningsresa.
+wrong_answers:
+  - Cybersäkerhet är en engångsföreteelse
+  - Cybersäkerhet är inte nödvändigt för personliga konton
+  - Cybersäkerhet är bara för tekniskt kunniga människor
+explanation: |
+  Cybersäkerhet är ett rörligt mål eftersom hot och säkerhetsåtgärder
+  säkerhetsåtgärder ständigt utvecklas. Det är viktigt
+  att fortsätta lära sig och anpassa sina metoder.
+reviewed: true

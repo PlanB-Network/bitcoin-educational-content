@@ -1,0 +1,9 @@
+question: Koji rendering engine je kreiran iz Fork KHTML-a da opremi Safari?
+answer: WebKit
+wrong_answers:
+  - Trident
+  - Gecko
+  - Treptaj
+explanation: |
+  WebKit je Fork od KHTML, izabran od strane Apple-a za Safari od 2003. godine nadalje, i naknadno usvojen od strane mnogih pregledača.
+reviewed: false

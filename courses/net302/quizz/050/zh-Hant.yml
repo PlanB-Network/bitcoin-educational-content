@@ -1,0 +1,9 @@
+question: 要正確保護網路安全，必須在 NAT 中加入什麼？
+answer: 防火牆
+wrong_answers:
+  - 本機 DNS 伺服器
+  - HTTP 代理
+  - 防毒軟體
+explanation: |
+  單靠 NAT 並不足以過濾惡意流量：它必須輔以防火牆規則來進行精細的流量控制。
+reviewed: false

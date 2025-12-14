@@ -1,0 +1,9 @@
+question: Welk apparaat vormt de grens tussen het internet en je privénetwerk thuis?
+answer: Modem-router
+wrong_answers:
+  - Ethernet-schakelaar
+  - NAS-server
+  - USB-hub
+explanation: |
+  De modemrouter verbindt het ISP-netwerk met je lokale netwerk en beheert de toewijzing van lokale IP-adressen.
+reviewed: false

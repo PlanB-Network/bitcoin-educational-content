@@ -1,10 +1,9 @@
-question: Mis on Bitcoini staatus mõnedes riikides?
-answer: Keelatud ja kriminaliseeritud
+question: Millise riski võtab Lightningi sõlm, kui ta avaldab kanali vana oleku?
+answer: Karistus
 wrong_answers:
-  - Täielikult omaks võetud
-  - Osaliselt omaks võetud
-  - Reguleerimata
-explanation: >-
-  Tekstis mainitakse, et mõned riigid on Bitcoini kasutamise keelanud ja kriminaliseerinud,
-  lisades Bitcoini omaksvõtu keerukusele kultuuride, ajastute ja rahvuste lõikes.
+  - Hoiatus
+  - Täiendavad kaevandamistasud
+  - Ajutine külmutamine
+explanation: |
+  Protokoll näeb ette heidutava karistuse, mis võimaldab teisel poolel kogu raha tagasi saada.
 reviewed: false

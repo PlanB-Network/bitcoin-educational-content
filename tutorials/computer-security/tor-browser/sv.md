@@ -1,5 +1,5 @@
 ---
-name: Tor webbläsare
+name: Tor Browser
 description: Hur använder man Tor Browser?
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ Idag är Google Chrome den överlägset mest använda webbläsaren. Den står f�
 *Källa: [gs.statcounter.com [gs.statcounter.com](https://gs.statcounter.com/browser-market-share)*
 
 
-Det finns flera stora familjer av webbläsare, var och en baserad på en specifik renderingsmotor. Webbläsare som Google Chrome, Microsoft Edge, Brave, Opera eller Vivaldi är alla etablerade på Chromium-webbläsaren, en lätt och öppen källkodsversion av Chrome som utvecklats av Google. Alla dessa webbläsare använder renderingsmotorn Blink, som är en Fork av WebKit, som i sin tur härstammar från KHTML. Chromiums dominans på marknaden gör webbläsare som härrör från den särskilt effektiva, eftersom webbutvecklare tenderar att optimera sina webbplatser främst för Blink.
+Det finns flera stora familjer av webbläsare, var och en baserad på en specifik renderingsmotor. Webbläsare som Google Chrome, Microsoft Edge, Brave, Opera eller Vivaldi är alla etablerade på Chromium-webbläsaren, en lätt och öppen källkodsversion av Chrome som utvecklats av Google. Alla dessa webbläsare använder renderingsmotorn Blink, som är en Fork av WebKit, som i sin tur härstammar från KHTML. Chromiums dominans på marknaden gör att webbläsare som härrör från Chromium är särskilt effektiva, eftersom webbutvecklare tenderar att optimera sina webbplatser främst för Blink.
 
 
 Safari, Apples webbläsare, använder WebKit, som också kommer från KHTML.
@@ -204,4 +204,4 @@ Du kan också hantera de åtkomstbehörigheter som du ger till olika webbplatser
 För att öka den övergripande säkerheten i din webbläsare kan du i lägena "*Safer*" och "*Safest*" justera webbfunktioner och skript som körs av de webbplatser du besöker. Detta minimerar riskerna för att utnyttja sårbarheter, men det kommer också att påverka visningen och interaktiviteten på webbplatserna i gengäld. ![TOR BROWSER](assets/notext/36.webp) Du hittar andra säkerhetsalternativ, inklusive en blockering av farligt innehåll och HTTPS-only-läget, som säkerställer att anslutningar till webbplatser konsekvent respekterar detta protokoll. ![TOR BROWSER](assets/notext/37.webp) Slutligen, på fliken "*Connection*", hittar du alla inställningar som är relaterade till anslutning till Tor-nätverket. Det är här du kan konfigurera en brygga för att komma åt Tor från regioner där dess åtkomst kan censureras. ![TOR BROWSER](assets/notext/38.webp) Så där ja, nu är du redo att navigera på Internet på ett säkrare och mer privat sätt! Om integritet online är ett ämne som intresserar dig, rekommenderar jag också att du upptäcker den här andra handledningen på Mullvad VPN:
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

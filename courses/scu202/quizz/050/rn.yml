@@ -1,0 +1,9 @@
+question: Ni kuki amakuru y’idosiye ya digitale agereranya ingorane ku buzima bwite?
+answer: Bashobora guhishura amakuru y'agaciro .
+wrong_answers:
+  - Bigabanya ugufungura kwa antivirus kuri sisitemu zimwe zimwe
+  - Babuza gusangira dosiye kuri email
+  - Bashobora kwakira incungu
+explanation: |
+  Metadata ishobora kuba irimwo amakuru y’ibanga ataboneka iyo dosiye ifunguwe, nk’amakuru ya GPS, izina ry’umwanditsi, ikimenyetso canke amateka y’ivyo yahinduye, bishobora gukoreshwa ataco uzi.
+reviewed: false

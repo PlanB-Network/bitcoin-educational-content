@@ -1,0 +1,9 @@
+question: Günümüzde Bitcoin madenini verimli bir şekilde çıkarmak için ne tür ekipmanlar kullanılıyor?
+answer: ASIC
+wrong_answers:
+  - Klasik CPU
+  - GPU
+  - FPGA
+explanation: |
+  Günümüzde Bitcoin Mining ASIC'ler kullanılarak gerçekleştirilmektedir. Bunlar SHA-256 algoritması için özelleşmiş çiplerdir.
+reviewed: true

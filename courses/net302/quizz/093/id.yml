@@ -1,0 +1,9 @@
+question: Alat mana yang menampilkan pesan DNS secara mendetail, termasuk catatan dan proses resolusi?
+answer: menggali
+wrong_answers:
+  - tuan rumah
+  - ping
+  - arp
+explanation: |
+  dig (Domain Information Groper) menyediakan informasi terperinci tentang resolusi DNS, termasuk jenis record.
+reviewed: false

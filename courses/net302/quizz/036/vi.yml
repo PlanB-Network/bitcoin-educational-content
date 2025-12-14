@@ -1,0 +1,9 @@
+question: Tại sao việc chuyển sang IPv6 lại trở nên cần thiết?
+answer: Sự cạn kiệt IPv4 Address
+wrong_answers:
+  - Lỗi giao thức NAT trên IPv4
+  - Không tương thích mặt nạ mạng con
+  - Kết thúc hỗ trợ DHCP
+explanation: |
+  Sự cạn kiệt địa chỉ IPv4 đã thúc đẩy quá trình chuyển đổi sang IPv6, cung cấp không gian Address lớn hơn rất nhiều.
+reviewed: false

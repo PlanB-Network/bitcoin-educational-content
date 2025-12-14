@@ -1,0 +1,9 @@
+question: Vad använder Essential-profilen för att hjälpa anställda att hantera betalningar vid kassan?
+answer: Skapande av en meny med artikelpriser i PoS-appen
+wrong_answers:
+  - En manuell Ledger-bok för registrering av försäljning
+  - Ett Invoice-system i pappersformat för varje transaktion
+  - Ett automatiskt bokföringssystem för transaktioner från PoS
+explanation: |
+  PoS-appen i Essential-profilen gör det möjligt för medarbetarna att välja artiklar från en förinställd meny, vilket effektiviserar faktureringsprocessen.
+reviewed: false

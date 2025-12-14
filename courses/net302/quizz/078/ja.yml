@@ -1,0 +1,9 @@
+question: IPv6の逆引き解決のためのPTRレコードは、どのDNSゾーンに配置されますか？
+answer: ip6.arpa
+wrong_answers:
+  - インアドレス
+  - ipv6.arpa
+  - レブアルパ
+explanation: |
+  ip6.arpaゾーンは特にIPv6アドレスの逆解決専用で、in-addr.arpaはIPv4に使用される。
+reviewed: false

@@ -1,0 +1,8 @@
+question: Vilken är en av de viktigaste frågorna i samband med censur?
+answer: Det kan förstöra yttrandefriheten och rätten till mötesfrihet.
+wrong_answers:
+  - Det kan leda till att yttrandefriheten upprätthålls.
+  - Det kan leda till ökat stöd för rätten till mötesfrihet.
+  - Det kan leda till minskad innovation.
+explanation: >-
+reviewed: true

@@ -1,0 +1,12 @@
+question: Met welke economische principes stemt Bitcoin overeen?
+answer: Beginselen van Oostenrijkse economie.
+wrong_answers:
+  - Principes van Keynesiaanse economie.
+  - Principes van marxistische economie.
+  - Beginselen van neoklassieke economie.
+explanation: |
+  Bitcoin komt overeen met de principes van de Oostenrijkse economie.
+  De afgetopte hoeveelheid en het ontbreken van een centrale entiteit beschermen het
+  tegen de inherente risico's van inflatie die voorkomen bij
+  traditionele valuta.
+reviewed: true

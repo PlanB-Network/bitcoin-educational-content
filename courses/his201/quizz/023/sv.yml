@@ -1,0 +1,9 @@
+question: Var publicerade Satoshi Nakamoto Bitcoin:s vitbok den 31 oktober 2008?
+answer: Kryptografins e-postlista
+wrong_answers:
+  - Reddit
+  - Twitter
+  - Hackernews
+explanation: |
+  Denna e-postlista, som är en efterföljare till cypherpunks e-postlista, har skötts av utvecklaren Perry Metzger sedan 1996.
+reviewed: true

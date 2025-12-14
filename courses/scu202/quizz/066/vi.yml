@@ -1,0 +1,9 @@
+question: Dữ liệu cục bộ nào cho phép nhà quảng cáo theo dõi thói quen duyệt web của bạn trên nhiều trang web?
+answer: Cookie của bên thứ ba
+wrong_answers:
+  - Mã JavaScript
+  - Lịch sử địa phương
+  - Chứng chỉ SSL
+explanation: |
+  Cookie của bên thứ ba, do các công ty quảng cáo bên ngoài đặt, được sử dụng để theo dõi hoạt động của người dùng trên các trang web khác nhau và thiết lập hồ sơ quảng cáo.
+reviewed: false

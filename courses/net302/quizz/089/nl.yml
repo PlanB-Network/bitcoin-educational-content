@@ -1,0 +1,9 @@
+question: Welk protocol gebruikt het ping-commando om de netwerkverbinding te testen?
+answer: ICMP
+wrong_answers:
+  - TCP
+  - UDP
+  - ARP
+explanation: |
+  Het ping commando gebruikt het ICMP protocol om echo verzoeken te versturen en de netwerklatentie te meten.
+reviewed: false

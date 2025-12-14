@@ -1,0 +1,9 @@
+question: TCP/IP 模型中服务基元的目的是什么？
+answer: 管理各层之间的交流
+wrong_answers:
+  - 自动加密网络信息
+  - 向远程主机分发 IP 地址
+  - 检查 IP 数据包的总长度
+explanation: |
+  服务基元定义了不同层之间的通信 Interface，使网络交换得以建立、维护或终止。
+reviewed: false

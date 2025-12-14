@@ -1,0 +1,9 @@
+question: Varför är det riskabelt att manuellt använda generate-entropi för en HD Wallet?
+answer: Den kan introducera mänskliga svagheter eller förutsägbara fördomar
+wrong_answers:
+  - Det resulterar i ogiltiga offentliga nycklar
+  - Det blockerar härledningen av privata nycklar
+  - Det begränsar storleken på de genererade Mnemonic-fraserna
+explanation: |
+  Manuell generering av entropi kan ge upphov till fördomar eller fel, vilket gör nycklarna mer sårbara för attacker.
+reviewed: false

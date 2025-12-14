@@ -1,0 +1,9 @@
+question: What is the practice of artificially modifying your MAC address?
+answer: MAC Spoofing
+wrong_answers:
+  - MAC Phishing
+  - MAC Sniffing
+  - Mac Keylogging
+explanation: |
+  MAC spoofing is the act of changing the hardware address of a network interface, often for privacy reasons or to bypass restrictions.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mitä on koulufilosofia?
+answer: Keskiajan kristillinen filosofia.
+wrong_answers:
+  - Poliittinen liike.
+  - Anarkistinen filosofia.
+  - Rationaalinen filosofia.
+explanation: |
+  Skolastinen filosofia oli keskiajan kristillinen filosofia, joka hallitsi Euroopan yliopistoja. Se pyrki sovittamaan yhteen kristillisen uskon ja aristoteelisen filosofian.
+reviewed: false

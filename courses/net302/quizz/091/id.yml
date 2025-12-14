@@ -1,0 +1,9 @@
+question: Perintah mana yang digunakan untuk memindai port terbuka host dan mengidentifikasi layanan yang dapat diakses?
+answer: nmap
+wrong_answers:
+  - menggali
+  - ethtool
+  - ip tetangga
+explanation: |
+  nmap mendeteksi port yang terbuka, layanan yang terbuka, dan terkadang jenis sistem operasi jarak jauh.
+reviewed: false

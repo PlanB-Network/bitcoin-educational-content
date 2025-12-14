@@ -1,0 +1,9 @@
+question: Koja distribucija koristi Cinnamon desktop okruženje po defaultu?
+answer: Linux Mint
+wrong_answers:
+  - Ubuntu
+  - Debian
+  - Fedora
+explanation: |
+  Cimet je razvijen od strane Linux Mint tima kako bi ponudio moderan, klasičan Interface, blizak Windowsu.
+reviewed: false

@@ -1,0 +1,9 @@
+question: A que debate conduz o terramoto de Lisboa?
+answer: Os homens podem e devem tomar as rédeas da sua própria vida.
+wrong_answers:
+  - A natureza é responsável.
+  - Os homens devem temer a Natureza.
+  - A natureza é incompreensível.
+explanation: |
+  O terramoto de Lisboa (1755) levou à ideia de que as pessoas podiam e deviam fazer justiça pelas suas próprias mãos. Este acontecimento pôs em causa a providência divina e incentivou uma visão mais humanista e racionalista do mundo.
+reviewed: false

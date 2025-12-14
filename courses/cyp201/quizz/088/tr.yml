@@ -1,0 +1,9 @@
+question: Tek bir y-koordinatına sahip sıkıştırılmış bir açık anahtarı belirtmek için hangi önek kullanılır?
+answer: 0x03
+wrong_answers:
+  - 0x02
+  - 0x04
+  - 0x00
+explanation: |
+  0x03 öneki, tek bir y koordinatına sahip sıkıştırılmış bir açık anahtarı gösterir.
+reviewed: false

@@ -8,6 +8,6 @@ wrong_answers:
   - The entropy related to each input or output.
 
 explanation: |
-  The Boltzmann score indicates the conditional probability that a specific input is linked to a given output. It is thus a quantitative measure of the conditional probability that an association between an input and an output in a transaction occurs, established on the ratio of the number of favorable occurrences of this event compared to the total number of possible occurrences, in a set of interpretations.
+  The Boltzmann score represents the conditional probability that a specific input is associated with a given output. It is thus a quantitative measure of the conditional probability that an association between an input and an output in a transaction occurs, established on the ratio of the number of favorable occurrences of this event compared to the total number of possible occurrences, in a set of interpretations.
 
-reviewed: false
+reviewed: true

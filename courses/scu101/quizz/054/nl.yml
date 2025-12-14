@@ -1,0 +1,12 @@
+question: Wat zijn de aanbevolen werkwijzen voor optimale beveiliging met sterke authenticatie?
+answer: Gebruik een veilige e-mail Address en wachtwoordmanager en gebruik 2FA met YubiKeys.
+wrong_answers:
+  - Gebruik een gemeenschappelijk wachtwoord voor alle accounts en vermijd 2FA
+  - Gebruik een eenvoudig wachtwoord en vertrouw op biometrische gegevens voor 2FA
+  - Gebruik een veilige e-mail Address, maar vermijd wachtwoordmanagers en 2FA
+explanation: |
+  Voor optimale beveiliging is het aan te raden om een veilige
+  e-mail Address, een veilige wachtwoordmanager en 2FA te gebruiken
+  met YubiKeys. Het is ook aan te raden om twee
+  YubiKeys aan te schaffen om verlies of diefstal te voorkomen.
+reviewed: true

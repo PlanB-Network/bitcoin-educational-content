@@ -1,0 +1,14 @@
+question: Mining bakire bitcoinlerin temel avantajı nedir?
+answer: Hiç harcanmamışlardır ve üzerlerinde herhangi bir geçmiş yoktur.
+wrong_answers:
+  - Daha yüksek bir fiyata satılabilirler.
+  - Yasadışı faaliyetler için kullanılabilirler.
+  - Değer kaybetmeden uzun süre saklanabilirler.
+explanation: |
+  Mining bakir bitcoinlerin temel avantajı
+  hiç harcanmamıştır ve geçmişi yoktur.
+  Bu bitcoinler genellikle daha değerli kabul edilir çünkü
+  asla lekelenmemişlerdir, bu da bir miktar garanti sağlar
+  düzenleyiciler veya büyük Exchange tarafından reddedilmeye karşı
+  platformlar.
+reviewed: true

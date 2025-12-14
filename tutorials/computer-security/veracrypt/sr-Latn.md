@@ -11,7 +11,7 @@ Danas je važno implementirati strategiju kako bi se osigurala pristupačnost, s
 Da biste sprečili ove probleme, savetujem vam da održavate više rezervnih kopija vaših fajlova na različitim medijima. Uobičajena strategija u računarstvu je strategija rezervne kopije "3-2-1", koja osigurava zaštitu vaših fajlova:
 
 
-- 3** kopije vaših fajlova;
+- **3** kopije vaših fajlova;
 - Sačuvano na najmanje **2** različite vrste medija;
 - Sa najmanje **1** kopijom čuvanom van lokacije.
 
@@ -22,9 +22,9 @@ Drugim rečima, preporučljivo je čuvati vaše fajlove na 3 različite lokacije
 Da biste lako implementirali ovu 3-2-1 strategiju bekapa, možete se odlučiti za rešenje za skladištenje na mreži, automatskim ili periodičnim sinhronizovanjem fajlova sa vašeg računara sa onima u vašem oblaku. Među ovim rešenjima za bekap na mreži, očigledno su i ona od velikih digitalnih kompanija koje poznajete: Google Drive, Microsoft OneDrive ili Apple iCloud. Međutim, ovo nisu najbolja rešenja za zaštitu vaše privatnosti. U prethodnom tutorijalu, predstavio sam vam alternativu koja šifruje vaše dokumente za bolju poverljivost: Proton Drive.
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-Usvajanjem ove strategije lokalne i cloud sigurnosne kopije, već imate koristi od dve različite vrste medija za vaše podatke, od kojih je jedan van lokacije. Da biste kompletirali strategiju 3-2-1, jednostavno treba da dodate dodatnu kopiju. Ono što vam savetujem je da periodično izvozite vaše podatke prisutne lokalno i na vašem cloudu na fizički medij, kao što je USB stik ili eksterni Hard disk. Na taj način, čak i ako su serveri vašeg online rešenja za skladištenje uništeni i vaš računar se istovremeno pokvari, i dalje imate ovu treću kopiju na eksternom mediju kako ne biste izgubili vaše podatke.
+Usvajanjem ove strategije za lokalne i cloud sigurnosne kopije, već imate koristi od dve različite vrste medija za vaše podatke, od kojih je jedan van lokacije. Da biste kompletirali strategiju 3-2-1, jednostavno treba da dodate dodatnu kopiju. Ono što vam savetujem je da periodično izvozite vaše podatke prisutne lokalno i na vašem cloudu na fizički medij, kao što je USB stik ili eksterni Hard disk. Na taj način, čak i ako su serveri vašeg online rešenja za skladištenje uništeni i vaš računar se istovremeno pokvari, i dalje imate ovu treću kopiju na eksternom mediju kako ne biste izgubili vaše podatke.
 
 ![VeraCrypt](assets/notext/01.webp)
 
@@ -66,7 +66,7 @@ Preuzmite verziju koja odgovara vašem operativnom sistemu. Ako koristite Window
 
 ![VeraCrypt](assets/notext/06.webp)
 
-Izaberite jezik za vaš Interface.
+Izaberite jezik za vaš interfejs.
 
 ![VeraCrypt](assets/notext/07.webp)
 
@@ -78,7 +78,7 @@ Odaberite "*Install*".
 
 ![VeraCrypt](assets/notext/09.webp)
 
-Na kraju, izaberite fasciklu u koju će softver biti instaliran, zatim kliknite na dugme "*Install*".
+Na kraju, izaberite folder u koju će softver biti instaliran, zatim kliknite na dugme "*Install*".
 
 ![VeraCrypt](assets/notext/10.webp)
 
@@ -97,7 +97,7 @@ Ako želite, možete donirati bitkoine kako biste podržali razvoj ovog alata ot
 ## Kako enkriptovati uređaj za skladištenje pomoću VeraCrypt-a?
 
 
-Po prvom pokretanju, stići ćete na ovaj Interface:
+Po prvom pokretanju, stići ćete na ovaj interfejs:
 
 ![VeraCrypt](assets/notext/14.webp)
 
@@ -112,7 +112,7 @@ Zatim na meniju "*Create New Volume...*".
 
 ![VeraCrypt](assets/notext/16.webp)
 
-U novom prozoru koji se otvori, izaberite opciju "*Šifruj particiju/drajv koji nije sistemski*" i kliknite na "*Dalje*".
+U novom prozoru koji se otvori, izaberite opciju "*Encrypt a non-system partition/drive (prevod: Šifruj particiju/drajv koji nije sistemski)*" i kliknite na "*Next*".
 
 ![VeraCrypt](assets/notext/17.webp)
 
@@ -128,13 +128,15 @@ Otvara se novi prozor gde možete izabrati particiju vašeg skladišnog uređaja
 
 ![VeraCrypt](assets/notext/20.webp)
 
-Izabrana podrška se pojavljuje u okviru. Sada možete kliknuti na dugme "*Next*". ![VeraCrypt](assets/notext/21.webp)
+Izabrana podrška se pojavljuje u okviru. Sada možete kliknuti na dugme "*Next*".
+
+![VeraCrypt](assets/notext/21.webp)
 
 Zatim ćete morati da izaberete između opcija "*Create encrypted volume and format it*" ili "*Encrypt partition in place*". Kao što je ranije pomenuto, prva opcija će trajno obrisati sve podatke na vašem USB stiku ili Hard disku. Izaberite ovu opciju samo ako je vaš uređaj prazan; u suprotnom, izgubićete sve podatke koje sadrži. Ako želite da zadržite postojeće podatke, možete ih privremeno prebaciti na drugo mesto, izabrati "*Create encrypted volume and format it*" za brži proces koji briše sve, ili se odlučiti za "*Encrypt partition in place*". Ova poslednja opcija omogućava šifrovanje volumena bez brisanja već prisutnih podataka, ali će proces biti mnogo duži. Za ovaj primer, pošto je moj USB stik prazan, biram "*Create encrypted volume and format it*", opciju koja briše sve.
 
 ![VeraCrypt](assets/notext/22.webp)
 
-Dalje, imaćete opciju da izaberete algoritam za enkripciju i funkciju Hash. Osim ako nemate specifične potrebe, savetujem vam da zadržite podrazumevane opcije. Kliknite na "*Next*" da nastavite.
+Dalje, imaćete opciju da izaberete algoritam za enkripciju i Hash funkciju. Osim ako nemate specifične potrebe, savetujem vam da zadržite podrazumevane opcije. Kliknite na "*Next*" da nastavite.
 
 ![VeraCrypt](assets/notext/23.webp)
 
@@ -142,7 +144,7 @@ Proverite da je naznačena veličina za vaš volumen tačna, kako biste šifrova
 
 ![VeraCrypt](assets/notext/24.webp)
 
-U ovoj fazi, potrebno je da postavite lozinku za šifrovanje i dešifrovanje vašeg uređaja. Važno je odabrati jaku lozinku kako biste sprečili napadača da dešifruje vaš sadržaj koristeći brute force napade. Lozinka treba da bude nasumična, što duža, i da uključuje nekoliko tipova karaktera. Savetujem vam da se odlučite za nasumičnu lozinku od najmanje 20 karaktera, uključujući mala slova, velika slova, brojeve i simbole.
+U ovoj fazi, potrebno je da postavite lozinku za šifrovanje i dešifrovanje vašeg uređaja. Važno je odabrati jaku lozinku kako biste sprečili napadača da dešifruje vaš sadržaj koristeći napade grube sile. Lozinka treba da bude nasumična, što duža, i da uključuje nekoliko tipova karaktera. Savetujem vam da se odlučite za nasumičnu lozinku od najmanje 20 karaktera, uključujući mala slova, velika slova, brojeve i simbole.
 
 
 Takođe vam savetujem da sačuvate svoju lozinku u menadžeru lozinki. Ovo olakšava pristup i eliminiše rizik od zaboravljanja. Za naš specifičan slučaj, menadžer lozinki je poželjniji od papirnog medija. Naime, u slučaju provale, iako vaš uređaj za skladištenje može biti ukraden, lozinka u menadžeru ne može biti pronađena od strane napadača, što će sprečiti pristup podacima. Suprotno tome, ako je vaš menadžer lozinki kompromitovan, fizički pristup uređaju je i dalje neophodan da bi se iskoristila lozinka i pristupilo podacima.
@@ -151,19 +153,21 @@ Takođe vam savetujem da sačuvate svoju lozinku u menadžeru lozinki. Ovo olak�
 Za više informacija o upravljanju lozinkama, savetujem vam da otkrijete ovaj drugi kompletan vodič:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-Unesite svoju lozinku u 2 predviđena polja, zatim kliknite na "*Dalje*". ![VeraCrypt](assets/notext/25.webp)
+Unesite svoju lozinku u 2 predviđena polja, zatim kliknite na "*Next*". 
+
+![VeraCrypt](assets/notext/25.webp)
 
 VeraCrypt će vas zatim pitati da li planirate da skladištite fajlove veće od 4 GiB u šifrovanom volumenu. Ovo pitanje omogućava softveru da izabere najpogodniji fajl sistem. Generalno, koristi se FAT sistem jer je kompatibilan sa većinom operativnih sistema, ali nameće maksimalno ograničenje veličine fajla od 4 GiB. Ako trebate da upravljate većim fajlovima, možete se odlučiti za exFAT sistem.
 
 ![VeraCrypt](assets/notext/26.webp)
 
-Dalje, doći ćete do stranice koja vam omogućava da generate nasumični ključ. Ovaj ključ je važan, jer će se koristiti za šifrovanje i dešifrovanje vaših podataka. Biće sačuvan u specifičnom delu vašeg medija, koji je sam po sebi zaštićen lozinkom koju ste prethodno postavili. Da bi se generate jak ključ za šifrovanje, VeraCrypt zahteva entropiju. Zato vas softver traži da pomerate miš nasumično preko prozora; ovi pokreti se zatim koriste za generate ključa. Nastavite da pomerate miš dok se merač entropije potpuno ne napuni. Zatim, kliknite na "*Format*" da biste započeli kreiranje šifrovanog volumena.
+Dalje, doći ćete do stranice koja vam omogućava da generišete nasumični ključ. Ovaj ključ je važan, jer će se koristiti za šifrovanje i dešifrovanje vaših podataka. Biće sačuvan u specifičnom delu vašeg medija, koji je sam po sebi zaštićen lozinkom koju ste prethodno postavili. Da bi se generisao jak ključ za šifrovanje, VeraCrypt zahteva entropiju. Zato vas softver traži da pomerate miš nasumično preko prozora; ovi pokreti se zatim koriste za generisanje ključa. Nastavite da pomerate miš dok se merač entropije potpuno ne napuni. Zatim, kliknite na "*Format*" da biste započeli kreiranje šifrovanog volumena.
 
 ![VeraCrypt](assets/notext/27.webp)
 
-Sačekajte dok se formatiranje ne završi. Ovo može potrajati dugo za velike količine.
+Sačekajte dok se formatiranje ne završi. Ovo može potrajati dugo za velike volumene.
 
 ![VeraCrypt](assets/notext/28.webp)
 
@@ -206,7 +210,9 @@ Možete videti da je vaš volumen sada dešifrovan i dostupan na slovu drajva "*
 
 ![VeraCrypt](assets/notext/37.webp)
 
-Da biste pristupili, otvorite istraživač datoteka i idite na drajv "*L:*" (ili drugo slovo u zavisnosti od onog koje ste izabrali u prethodnim koracima). ![VeraCrypt](assets/notext/38.webp)
+Da biste pristupili, otvorite istraživač datoteka i idite na drajv "*L:*" (ili drugo slovo u zavisnosti od onog koje ste izabrali u prethodnim koracima).
+
+![VeraCrypt](assets/notext/38.webp)
 
 Nakon što dodate svoje lične fajlove u medij, da biste ponovo enkriptovali volumen, jednostavno kliknite na dugme "*Dismount*".
 

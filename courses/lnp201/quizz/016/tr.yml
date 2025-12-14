@@ -1,0 +1,9 @@
+question: Bitcoin Blockchain üzerinde bir Commitment Transaction ne zaman yayınlanır?
+answer: Sonunda kanal kapatıldığında
+wrong_answers:
+  - Kanaldaki her aktarımdan hemen sonra
+  - Her yeni Commitment Transaction'ten önce
+  - Mevcut fonlar tükendiğinde
+explanation: |
+  Tahsisteki her değişiklik için Commitment işlemleri oluşturulur ve imzalanır, ancak bunlar yalnızca kanalın kapanması durumunda Blockchain'te yayınlanır.
+reviewed: false

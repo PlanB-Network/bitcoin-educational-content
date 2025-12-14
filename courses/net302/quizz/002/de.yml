@@ -1,0 +1,9 @@
+question: Was ist der größte Schwachpunkt eines Ringnetzes?
+answer: Der Ausfall eines einzigen Geräts kann das gesamte Netz unterbrechen
+wrong_answers:
+  - Es werden viele Kabel benötigt, um jedes Gerät anzuschließen
+  - Es ist schwierig, die
+  - Seine Verwaltung ist komplex
+explanation: |
+  In einer Ringtopologie unterbricht der Ausfall eines Geräts die Schleife und verhindert, dass Daten zirkulieren können.
+reviewed: false

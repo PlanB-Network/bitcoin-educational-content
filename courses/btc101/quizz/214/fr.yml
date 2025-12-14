@@ -1,12 +1,9 @@
-question: Qu'a prédit Milton Friedman en 1999 ?
-answer: Le développement d'un e-cash fiable.
+question: Laquelle de ces opérations sur Lightning est enregistrée onchain ?
+answer: Ouverture de canal
 wrong_answers:
-  - La disparition de l'argent physique.
-  - L'émergence du Bitcoin.
-  - La fin du contrôle gouvernemental sur l'argent.
+  - Paiement intermédiaire
+  - Mise à jour d’état
+  - Routage multi-sauts
 explanation: |
-  Milton Friedman, un économiste renommé, a prédit en 1999
-  qu'un e-cash fiable serait bientôt développé, une méthode
-  permettant sur Internet de transférer des fonds de A à B,
-  sans que A connaisse B ou vice-versa.
-reviewed: true
+  Seules l’ouverture et la fermeture d’un canal Lightning correspondent à des transactions Bitcoin publiées sur la blockchain.
+reviewed: false

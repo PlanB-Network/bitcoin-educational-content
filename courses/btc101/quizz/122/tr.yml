@@ -1,0 +1,8 @@
+question: Bitcoin Blockchain nedir?
+answer: Tüm Bitcoin işlemlerinin genel ve değişmez bir Ledger'ü.
+wrong_answers:
+  - Tüm Bitcoin işlemlerinin özel ve değiştirilebilir bir Ledger'i.
+  - Tüm Bitcoin işlemlerinin genel ve değiştirilebilir bir Ledger'si.
+  - Tüm Bitcoin işlemlerinin özel ve değişmez bir Ledger'u.
+explanation: >-
+reviewed: true

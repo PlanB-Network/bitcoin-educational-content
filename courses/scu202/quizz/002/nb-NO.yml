@@ -1,0 +1,9 @@
+question: Hva er den største fordelen med et VPN?
+answer: Kryptering av Internett-trafikk
+wrong_answers:
+  - Få raskere Internett-tilkobling
+  - Øke lagringskapasiteten
+  - Integrert antivirus
+explanation: |
+  Et VPN oppretter en sikker tunnel og krypterer utvekslingen mellom enheten din og en mellomliggende server, noe som styrker konfidensialiteten.
+reviewed: false

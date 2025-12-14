@@ -1,0 +1,9 @@
+question: Vad är källan till förtryck, enligt Bastiat?
+answer: Törst efter makt
+wrong_answers:
+  - Människans inneboende onda natur
+  - Avsaknad av makt
+  - Ekonomisk ojämlikhet
+explanation: |
+  Bastiat identifierar maktbegäret som den grundläggande källan till förtryck och menar att de som har makt ofta försöker utöka den och kontrollera andra, vilket leder till missbruk och kränkningar av individuella rättigheter.
+reviewed: true

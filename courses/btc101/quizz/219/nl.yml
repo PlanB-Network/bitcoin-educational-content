@@ -1,0 +1,9 @@
+question: Welke benadering structureert de evolutie van Bitcoin die in dit hoofdstuk wordt beschreven?
+answer: Gelaagde evolutie
+wrong_answers:
+  - Monolithische blockchain
+  - Native sharding
+  - Gegeneraliseerde onchain-uitvoering
+explanation: |
+  Bitcoin behoudt een eenvoudige en robuuste basislaag, terwijl hogere protocollen specifieke functionaliteiten toevoegen.
+reviewed: false

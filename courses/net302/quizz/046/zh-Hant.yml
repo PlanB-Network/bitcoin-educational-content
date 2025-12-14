@@ -1,0 +1,9 @@
+question: 哪個通訊協定用於在乙太網路上將 IP Address 與 MAC Address 相關聯？
+answer: ARP
+wrong_answers:
+  - RIP
+  - DNS
+  - OSPF
+explanation: |
+  Address 解析通訊協定 (ARP) 會將 IP 位址對應至區域網路的 MAC 位址。
+reviewed: false

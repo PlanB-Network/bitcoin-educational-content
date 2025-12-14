@@ -1,0 +1,9 @@
+question: Temmuz 2010'da Slashdot'ta hangi yazılım sürüm numarasına yer verildi?
+answer: v0.3
+wrong_answers:
+  - v0.1
+  - v0.2
+  - v0.4
+explanation: |
+  Satoshi ve Martti tarafından uzun süredir hazırlanan bu sürümün yayınlanması, iletişim konusunda yeni bir çabaya işaret ediyor.
+reviewed: true

@@ -1,0 +1,9 @@
+question: ¿Cuál es el protocolo utilizado por Electrs y Fulcrum para conectar los monederos?
+answer: Electrum
+wrong_answers:
+  - RPC REST
+  - API JSON
+  - Rayo gRPC
+explanation: |
+  Estos paquetes de software exponen un servidor Electrum, el estándar utilizado por muchos monederos como Sparrow o Electrum Wallet.
+reviewed: true

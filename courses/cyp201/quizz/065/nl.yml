@@ -1,0 +1,9 @@
+question: Wat is het verschil tussen een normale kindersleutel en een verharde kindersleutel?
+answer: Een geharde kindsleutel heeft de privésleutel van de ouder nodig voor zijn afleiding.
+wrong_answers:
+  - Een normale kindersleutel kan niet worden afgeleid van openbare sleutels.
+  - Een verharde kindersleutel gebruikt een oneven index.
+  - Een normale kindersleutel is veiliger dan een geharde kindersleutel.
+explanation: |
+  Een normale kindsleutel kan worden afgeleid van de openbare sleutel van de ouder, in tegenstelling tot een geharde kindsleutel waarvoor de privésleutel van de ouder nodig is.
+reviewed: false

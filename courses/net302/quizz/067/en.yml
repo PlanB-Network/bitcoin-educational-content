@@ -1,0 +1,9 @@
+question: What is the main motivation for using random interface identifiers rather than MAC address in IPv6?
+answer: Preserving privacy
+wrong_answers:
+  - Reducing packet size
+  - Speeding up DNS resolution
+  - Improving ARP compatibility
+explanation: |
+  Using random interface identifiers helps protect against device tracking based on the MAC address.
+reviewed: false

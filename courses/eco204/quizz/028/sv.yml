@@ -1,0 +1,12 @@
+question: Vilka likheter finns det mellan konsekvenserna av hyperinflation i Zimbabwe och Weimarrepubliken?
+answer: Införandet av ett ransoneringssystem för att kontrollera distributionen av viktiga varor.
+wrong_answers:
+  - Ökningen av utländska investeringar.
+  - Ökningen av värdet på den nationella valutan.
+  - Minskad efterfrågan på viktiga varor.
+explanation: |
+  I samband med en försämrad ekonomi och knappa resurser,
+  kan regeringar införa ransoneringssystem för att kontrollera distributionen av viktiga
+  varor. Detta inkluderar användning av kuponger eller vouchers för att reglera inköp av
+  bensin eller bränsle.
+reviewed: false

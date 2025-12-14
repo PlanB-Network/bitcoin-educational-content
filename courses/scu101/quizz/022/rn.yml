@@ -1,0 +1,11 @@
+question: Ni igiki umuntu akwiye gukora igihe ucomeka urufunguzo rwa USB mu nyabwonko yawe?
+answer: Ntucomeke imfunguruzo za USB zitazwi canke ziteye amakenga.
+wrong_answers:
+  - Gucomeka urufunguzo rwa USB urwo ari rwo rwose utasuzumye.
+  - Igihe cose utegerezwa gufuta ibiriku rufunguzo rwa USB imbere yo kuyicomeka.
+  - Comeka urufunguzo rwa USB hanyuma usuzume ko ata mugera (nyabwonko) uriko.
+explanation: |
+  Gucomeka imfunguruzo za USB zitazwi canke ziteye amakenga birashobora gushira sisitemu
+  mukaga ko gufatwa na porogarame mbi zishobora guca zitangura uki zi comeka. Gusuzuma urufunguzo 
+  rwa USB ntaco bizoba bikimaze wamaze kuyicomeka.
+reviewed: true

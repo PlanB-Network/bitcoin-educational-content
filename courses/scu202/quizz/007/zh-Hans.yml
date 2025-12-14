@@ -1,0 +1,9 @@
+question: 哪个系统因其开源、基于社区的模式而脱颖而出？
+answer: GNU/Linux
+wrong_answers:
+  - 视窗
+  - MacOS
+  - Chrome OS
+explanation: |
+  GNU/Linux 是免费的，由全球社区开发，保证了用户的透明度、安全性和灵活性。
+reviewed: false

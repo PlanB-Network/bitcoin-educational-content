@@ -1,0 +1,9 @@
+question: What's the main advantage of running applications in a sandbox or virtual machine?
+answer: Limit the impact of a compromise
+wrong_answers:
+  - Accelerate program execution
+  - Reduce RAM consumption
+  - Increase network connection speed
+explanation: |
+  Sandboxing and virtualization are primarily used to isolate applications or systems from potential attacks.
+reviewed: false

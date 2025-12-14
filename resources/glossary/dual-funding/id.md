@@ -1,5 +1,5 @@
 ---
-term: PENDANAAN GANDA
+term: DUAL FUNDING
 ---
 
 Ketika sebuah saluran Lightning dibuka, pendanaan ganda memungkinkan kedua peserta untuk mengunci bitcoin ke dalam saluran tersebut. Tidak seperti model tradisional, di mana hanya satu node yang mendanai saluran, metode ini memungkinkan kedua belah pihak mendanai saluran tersebut, sehingga memungkinkan penyeimbangan likuiditas dengan segera.

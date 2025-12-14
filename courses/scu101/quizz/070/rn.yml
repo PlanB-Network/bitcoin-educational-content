@@ -1,0 +1,9 @@
+question: Ni intumbero iyihe ya Lightining Authentication?
+answer: Itanga kimienyetso gitandukanye kuri buri serivise yose, idatanze aderese imeyiri canke amakuru y'umuntu bwite.
+wrong_answers:
+  - Yemerera umuntu wese, mbere ata Lightning Wallet, kwemeza ata aderese imeyiri, iyo ID ibereye irerekanw.
+  - Iragufasha gukoresha ijambo ry'ibanga rimwe ku bikorwa vyose.
+  - Irungika ivyibutsa vyo guhindura amajambo y’ibanga buri kwezi.
+explanation: |
+  Lightining Authentication itanga kimienyetso gitandukanye kuri buri serivise yose, idatanze aderese imeyiri canke amakuru y'umuntu bwite. Ivyo birashobora gukaza ubuzima bwibanga n’umutekano mu kugabanya igitigiri c’amakuru y’ibanga asangizwa na serivisi imwe imwe.
+reviewed: true

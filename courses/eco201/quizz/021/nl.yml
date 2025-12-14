@@ -1,0 +1,13 @@
+question: Wat is volgens Carl Menger de aard van waarde?
+answer: Waarde is een subjectief psychologisch fenomeen binnen het individu.
+wrong_answers:
+  - Waarde is een inherente eigenschap van goederen.
+  - Waarde is een objectief en meetbaar fenomeen.
+  - De waarde wordt bepaald door de hoeveelheid arbeid die in de productie wordt gebruikt.
+explanation: |
+  Volgens Menger is waarde een subjectief psychologisch
+  fenomeen binnen het individu. Dit betekent dat waarde
+  geen inherente eigenschap van goederen is, maar eerder voortkomt uit
+  de mening van het individu over het nut dat hij aan die goederen kan ontlenen
+  uit die goederen.
+reviewed: true

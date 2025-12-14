@@ -1,0 +1,10 @@
+question: Madeni para seçimiyle ilişkili 2 gizlilik riski nedir?
+answer: CIOH ve alıcı tarafından girdiler / kimlik arasındaki bağlantı.
+wrong_answers:
+  - IP Address izleme ve etkinlik korelasyonu.
+  - Zamansal izleme ve Address'in yeniden kullanımı.
+  - Address yeniden kullanımı ve harici bir gözlemci tarafından girdiler / kimlik arasındaki bağlantı.
+explanation: |
+  Coin seçerken iki risk göz önünde bulundurulmalıdır: ödeme alıcısının kimliğinizin bir kısmını girdi olarak kullanılan UTXO'larla ilişkilendirme olasılığı ve harici bir gözlemcinin girdi olarak kullanılan tüm UTXO'lar arasında bağlantı kurabilmesi (CIOH).
+  
+reviewed: false

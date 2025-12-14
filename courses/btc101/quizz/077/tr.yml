@@ -1,0 +1,11 @@
+question: Bitcoin'a sahip olduğunuzda temel endişeniz ne olmalıdır?
+answer: Fonlarınızın güvenliği.
+wrong_answers:
+  - Bitcoin'in dolar cinsinden değeri.
+  - Bitcoin sahibi olmanın yasallığı.
+  - Fonlarınızı harcama izni.
+explanation: |
+  Bitcoin sahibi olduğunuzda, öncelikli endişe güvenliktir
+  fonlarınızın. Bunun nedeni, Bitcoin'nin diğer tüm formlar gibi
+  para birimi, uygun şekilde güvence altına alınmazsa çalınabilir veya kaybolabilir.
+reviewed: true

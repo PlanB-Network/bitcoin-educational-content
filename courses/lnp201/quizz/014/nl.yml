@@ -1,0 +1,9 @@
+question: Wat is de laatste stap om een kanaal te openen op de Lightning Network?
+answer: Publiceer de depottransactie op Bitcoin Blockchain
+wrong_answers:
+  - Een opnametransactie ondertekenen om het geld terug te krijgen
+  - Een bevestigingsbericht van de opening naar de andere partij sturen
+  - Controleer het saldo van elke deelnemer
+explanation: |
+  De laatste stap om een kanaal te openen is het publiceren van de stortingstransactie op Blockchain, waarmee het kanaal officieel wordt geopend.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was bedeutet "Topologie" in einem Computernetzwerk?
+answer: Wie Geräte miteinander verbunden sind
+wrong_answers:
+  - Geschwindigkeit der Internetverbindung
+  - Die Art des für die Kommunikation verwendeten Protokolls
+  - Zur Marke der in einem Netz verwendeten Router
+explanation: |
+  Unter Topologie versteht man die physische oder logische Struktur eines Netzes und die Art und Weise, wie seine Komponenten miteinander verbunden sind.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welk universitair besturingssysteem vergemakkelijkte de verspreiding van TCP/IP-protocollen in de academische wereld?
+answer: BSD Unix
+wrong_answers:
+  - Linux
+  - Solaris
+  - Minix
+explanation: |
+  BSD Unix, ontwikkeld aan de Berkeley Universiteit, was een van de eerste systemen die TCP/IP protocollen integreerde en hielp deze op grote schaal te verspreiden in de academische wereld.
+reviewed: false

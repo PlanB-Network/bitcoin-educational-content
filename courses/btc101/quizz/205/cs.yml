@@ -1,9 +1,12 @@
-question: Jaký je jeden z důvodů, proč byste měli čas od času konsolidovat své UTXO ve svých peněženkách?
-answer: Aby se předešlo zbytečným poplatkům během transakcí.
+question: Jak tento kurz popisuje Bitcoin?
+answer: Jako multidisciplinární předmět.
 wrong_answers:
-  - Aby se zvýšila hodnota vašich bitcoinů.
-  - Aby se zabránilo krádeži vašich bitcoinů.
-  - Aby byly vaše bitcoiny vždy dostupné.
-explanation: >-
-  Text uvádí, že konsolidace vašich UTXO ve vašich peněženkách čas od času je zásadní pro efektivní správu vašich bitcoinů a vyhnutí se zbytečným poplatkům během transakcí.
+  - Jednoduchý předmět.
+  - Fyzický předmět.
+  - Jednodisciplinární předmět.
+explanation: |
+  Bitcoin je popsán jako multidisciplinární předmět, protože
+  vyvolává otázky související s různými obory, včetně
+  kryptografie, teorie her, ekonomie a měnové politiky,
+  informatiky, filozofie, energetiky, zákonů a regulace.
 reviewed: true

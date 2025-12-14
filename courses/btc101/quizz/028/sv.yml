@@ -1,0 +1,9 @@
+question: Vad är innebörden av fiat-pengar?
+answer: Fiatpengar är en valuta som har ett värde eftersom en regering upprätthåller den och människor tror på dess värde, snarare än att backas upp av en fysisk vara som guld.
+wrong_answers:
+  - Fiatpengar är valuta som backas upp av en fysisk vara, t.ex. guld eller silver, vilket innebär att dess värde är direkt knutet till värdet på den varan.
+  - Fiat-pengar är en typ av kryptovaluta som fungerar på ett decentraliserat nätverk, vilket möjliggör peer-to-peer-transaktioner utan behov av en central myndighet.
+  - Fiatpengar är valuta som inte har något egentligt värde och som inte kan användas för transaktioner, vilket gör den i princip värdelös i ekonomin.
+explanation: |
+  Fiatpengar fastställs som lagligt betalningsmedel genom ett regeringsdekret och dess värde härleds inte från någon fysisk vara.
+reviewed: true

@@ -1,0 +1,16 @@
+question: Sermaye mallarının ekonomideki rolü nedir?
+answer: Sermaye malları diğer malların üretiminde kullanılır. Bireylerin tüketim malları elde etmelerini sağlarlar.
+wrong_answers:
+  - Sermaye malları tüketim için kullanılır.
+  - Sermaye mallarının ekonomide hiçbir rolü yoktur.
+  - Sermaye malları diğer sermaye mallarını üretmek için kullanılır.
+explanation: |
+  Tüketim malları üretmek için girişimciler çeşitli
+  orijinal üretim faktörleri ile ara mallar
+  (emek, toprak ve sermaye) bir modele göre
+  ortaya çıkan üretimi maksimize eder. Diğer tüm mallar
+  ekonomide, ara mallar olarak adlandırabileceğimiz, sadece
+  değerlidir çünkü bireylerin bunları elde etmelerini sağlarlar
+  tüketim malları; üretimde kullanılan mallardır
+  diğer mallar.
+reviewed: true

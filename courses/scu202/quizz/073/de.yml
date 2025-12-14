@@ -1,0 +1,9 @@
+question: Welche Android-Komponente bleibt vollständig quelloffen und kann von der Community überprüft werden?
+answer: AOSP
+wrong_answers:
+  - Google Mobile Dienste
+  - Der Play Store
+  - Das iOSP
+explanation: |
+  Nur die AOSP-Basis von Android ist frei. Die weit verbreiteten Google Mobile Services sind proprietär und nicht überprüfbar.
+reviewed: false

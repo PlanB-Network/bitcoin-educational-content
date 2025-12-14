@@ -1,0 +1,3 @@
+name: BIP39 ORDLISTA
+description: |
+  Komplett och numrerad lista över de 2048 engelska ord från BIP39-ordlistan som används för att koda Mnemonic-fraser. Dokumentet kan skrivas ut på en enda sida.

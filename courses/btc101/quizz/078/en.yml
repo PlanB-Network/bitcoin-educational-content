@@ -1,12 +1,13 @@
-question: Which of these options is false about losing the device on which you have your Bitcoin wallet?
-answer: You can recreate your wallet and spend your bitcoin by resetting your password.
+question: What is a hot wallet?
+answer: A Bitcoin wallet on your phone or computer connected to the internet.
 wrong_answers:
-  - You lose all your Bitcoins if you don't have the mnemonic phrase.
-  - You can verify with your public keys that your bitcoins have not been spent.
-  - You can recreate your wallet and spend your bitcoin using the mnemonic phrase.
+  - A wallet that is physically hot to touch.
+  - A wallet that is popular among Bitcoin users.
+  - A wallet that is recommended for storing large amounts of bitcoins.
 explanation: |
-  Losing the device on which you have your wallet does not
-  necessarily mean the loss of your Bitcoins. What allows you
-  to recreate your wallet and spend your bitcoin is the
-  mnemonic phrase.
+  A hot wallet is a term used to describe a Bitcoin wallet
+  that is stored on a device with internet access, such as a
+  phone or computer. This way, it is easy to carry out
+  transactions, but it also means that the wallet is
+  potentially vulnerable to online threats.
 reviewed: true

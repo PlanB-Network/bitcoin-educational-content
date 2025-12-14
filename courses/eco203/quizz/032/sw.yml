@@ -1,0 +1,9 @@
+question: Kulingana na Rousseau, ni nini lengo la kuwalazimisha watu binafsi?
+answer: Kuwaongoza kwenye uhuru
+wrong_answers:
+  - Kuwafanya watumwa
+  - Ili kuwafanya kuwa sawa
+  - Kuwaunganisha katika utumwa
+explanation: |
+  Rousseau anaamini kwamba kikwazo kinaweza kuwaongoza watu binafsi kuelekea uhuru, kwa kuwaongoza kuelekea kwenye dhamira ya pamoja ambayo wangeifuata ikiwa wangefahamishwa.
+reviewed: false

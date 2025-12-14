@@ -1,0 +1,9 @@
+question: Waarom is getaltheorie bijzonder belangrijk in openbare sleutelcryptografie?
+answer: Het biedt de noodzakelijke wiskundige basis voor encryptie- en decryptiebewerkingen.
+wrong_answers:
+  - Het biedt de noodzakelijke wiskundige basis voor hashingbewerkingen.
+  - Het is nodig voor het maken van neurale netwerken.
+  - Hiermee kunnen bewerkingen alleen binair worden berekend.
+explanation: |
+  Getaltheorie is cruciaal in public key cryptografie omdat het helpt bij het structureren van algoritmen gebaseerd op de eigenschappen van gehele getallen, waardoor encryptie- en decryptiebewerkingen gemakkelijker worden.
+reviewed: false

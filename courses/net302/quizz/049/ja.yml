@@ -1,0 +1,9 @@
+question: ローカルネットワークにおけるMAC Addressの主な機能は何ですか？
+answer: ネットワークを一意に識別 Interface
+wrong_answers:
+  - ドメイン名をIPに変換 Address
+  - IP Addressをホストに動的に割り当てる
+  - インターネット接続の速度を決定する
+explanation: |
+  MAC Addressは、各ネットワークInterfaceに固有のハードウェア識別子として機能し、ローカルネットワーク上でデバイスを物理的に区別できるようにする。
+reviewed: false

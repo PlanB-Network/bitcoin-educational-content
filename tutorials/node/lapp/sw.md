@@ -1,9 +1,11 @@
 ---
-name: LAPP Bitcoin
-description: Mafunzo ya kutengeneza LApp yako ya kwanza
+name: Lightning App
+description: Mafunzo ya kukuza programu yako ya kwanza ya Lightning (LAPP)
 ---
 
-Jifunze kuweka msimbo kwenye programu yako ya kwanza ya umeme
+![cover](assets/cover.webp)
+
+## Jifunze kuandika programu yako ya kwanza ya lightning
 
 
 Mahitaji:
@@ -27,6 +29,8 @@ Ili kuunda programu yetu ya Umeme, tutakuwa tukitumia teknolojia zifuatazo:
 - Express kwa webserver yetu
 - Violezo vya Pug + bootstrap kwa upande wetu wa mbele
 
+
+https://planb.academy/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## Mfumo wa uendeshaji
 
@@ -438,7 +442,7 @@ Wacha tubonyeze kitufe cha kutuma tena na inapaswa kujibu kwa data ile ile tuliy
 ## Unda Invoice
 
 
-Njia ambayo inatekelezwa wakati mtumiaji anaunda chapisho inapaswa generate Invoice, kisha kuunda rekodi katika hifadhidata inayoiunganisha na Invoice, na kurudisha Invoice kwa mtumiaji ili aweze kuilipa.
+Njia ambayo inatekelezwa wakati mtumiaji anaunda chapisho inapaswa kugenerate Invoice, kisha kuunda rekodi katika hifadhidata inayoiunganisha na Invoice, na kurudisha Invoice kwa mtumiaji ili aweze kuilipa.
 
 
 ```markdown
@@ -477,7 +481,7 @@ console.log(e);
 ```
 
 
-Ikiwa tutapokea kitu cha chapisho kama jibu baada ya kubonyeza tuma, kama hii, kila kitu kimeenda sawa. Sasa tunahitaji kuonyesha maandishi ili mtumiaji aweze kulipa.
+Ikiwa tutapokea kitu cha chapisho kama jibu baada ya kubonyeza tuma, kama hivi, kila kitu kimeenda sawa. Sasa tunahitaji kuonyesha maandishi ili mtumiaji aweze kulipa.
 
 
 ```markdown

@@ -6,4 +6,4 @@ wrong_answers:
   - Omogućava izračunavanje operacija samo u binarnom formatu.
 explanation: |
   Teorija brojeva je ključna u kriptografiji javnog ključa jer pomaže u strukturiranju algoritama zasnovanih na svojstvima celih brojeva, olakšavajući operacije šifrovanja i dešifrovanja.
-reviewed: false
+reviewed: true

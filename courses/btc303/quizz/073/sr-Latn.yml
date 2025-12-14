@@ -1,0 +1,9 @@
+question: Prema praksama odgovornog otkrivanja Bitcoin Core-a, kada bi detalji o ranjivosti trebali biti javno objavljeni nakon što je ispravka primenjena?
+answer: Nakon što je više od 80% Bitcoin čvorova implementiralo ispravke
+wrong_answers:
+  - Odmah nakon što je zakrpa objavljena kako bi se sprečile lažne sigurnosne pretpostavke
+  - Nakon što su svi glavni altcoini obavešteni i ažurirali svoje implementacije
+  - Nakon standardnog 90-dnevnog embarga bez obzira na status implementacije
+explanation: |
+  Bitcoin Core prati vremenski okvir objavljivanja zasnovan na implementaciji, a ne na fiksnom vremenskom periodu. Prag od 80% osigurava da je velika većina mreže zaštićena pre nego što napadači saznaju za ranjivost putem javnog objavljivanja. Ovaj pristup daje prioritet bezbednosti mreže u odnosu na proizvoljne vremenske okvire, jer bi prerano objavljivanje moglo izložiti preostalih 20% čvorova ciljanom napadu. Ostale opcije predstavljaju uobičajene prakse u tradicionalnoj bezbednosti softvera, ali ne uzimaju u obzir decentralizovanu prirodu Bitcoin, gde korisnici moraju dobrovoljno da nadograde svoje čvorove.
+reviewed: false

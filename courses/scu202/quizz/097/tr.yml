@@ -1,0 +1,9 @@
+question: Hangi hizmet web isteklerinin gizliliğini korumak için ISP DNS'nin yerini alır?
+answer: Quad9
+wrong_answers:
+  - Google DNS
+  - DHCP
+  - SMTP
+explanation: |
+  Quad9, kötü niyetli etki alanlarını filtreleyen ve hiçbir aday kaydı tutmayan, gizlilik odaklı bir genel DNS sunucusudur.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hva er hensikten med "ACK"-flagget i et TCP-segment?
+answer: For å bekrefte mottak av segmenter
+wrong_answers:
+  - Slik starter du lukking av tilkobling
+  - For å kryptere dataflyten som utveksles
+  - Slik identifiserer du tjenesteporten som brukes
+explanation: |
+  Når ACK-flagget er satt, bekrefter det at et segment er mottatt, og angir neste forventede sekvensnummer.
+reviewed: false

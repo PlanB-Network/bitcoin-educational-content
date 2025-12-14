@@ -1,0 +1,9 @@
+question: Bitcoini zikoreshwa kuri Liquid zitwa gute?
+answer: L-BTC
+wrong_answers:
+  - W-BTC
+  - S-BTC
+  - T-BTC
+explanation: |
+  Kuri Liquid, bitcoin ziserukirwa na L-BTC zifitaniye isano ya 1 kuri 1 na BTC.
+reviewed: false

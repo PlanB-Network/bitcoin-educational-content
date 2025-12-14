@@ -1,0 +1,9 @@
+question: Warum stellen die Metadaten digitaler Dateien eine Gefahr für die Privatsphäre dar?
+answer: Sie können sensible Informationen preisgeben
+wrong_answers:
+  - Sie verlangsamen das Öffnen von Antivirenprogrammen auf einigen Systemen
+  - Sie verhindern den Dateiaustausch per E-Mail
+  - Sie können Ransomware hosten
+explanation: |
+  Metadaten können vertrauliche Informationen enthalten, die beim Öffnen der Datei nicht sichtbar sind, z. B. GPS-Koordinaten, den Namen des Autors, eine Kennung oder eine Änderungshistorie, die ohne Ihr Wissen ausgenutzt werden können.
+reviewed: false

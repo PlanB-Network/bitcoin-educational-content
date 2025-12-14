@@ -1,0 +1,9 @@
+question: Hva er DNS' viktigste rolle i Internett-arkitekturen?
+answer: Mapping av domenenavn til IP-adresser
+wrong_answers:
+  - Krypter kommunikasjon mellom rutere
+  - Dynamisk tildeling av MAC-adresser til enheter
+  - Kontrollere tilgang til webservere
+explanation: |
+  DNS (Domain Name System) oversetter domenenavn som kan leses av mennesker, til numeriske IP-adresser som er nødvendige for ruting.
+reviewed: false

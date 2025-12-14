@@ -1,0 +1,9 @@
+question: Welche Form von NAT verbindet dauerhaft eine private IP Address mit einer öffentlichen IP Address?
+answer: Statische Übersetzung
+wrong_answers:
+  - Dynamische Übersetzung
+  - PAT (Port Address Übersetzung)
+  - Dynamisches Routing
+explanation: |
+  Bei der statischen Übersetzung wird eine feste Zuordnung zwischen einer internen IP Address und einer öffentlichen IP Address erstellt, was nützlich ist, um interne Ressourcen von außen zugänglich zu machen.
+reviewed: false

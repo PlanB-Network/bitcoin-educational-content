@@ -1,0 +1,9 @@
+question: Waarom wordt geadviseerd om twee aparte e-mailadressen aan te maken?
+answer: Algemene communicatie scheiden van accountherstel.
+wrong_answers:
+  - Professionele en persoonlijke communicatie scheiden.
+  - Om meerdere accounts aan te maken en de online zichtbaarheid te vergroten.
+  - Meer spam ontvangen.
+explanation: |
+  Het scheiden van e-mailadressen helpt om risico's te beperken en de toegang tot kritieke accounts beter te beschermen.
+reviewed: true

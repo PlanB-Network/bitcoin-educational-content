@@ -1,0 +1,10 @@
+question: Ni akamaro akahe ko gukoresha ubutunganyirizo bw'ijambo ry'ibanga witunganyirije nka Bitwarden canke KeePass?
+answer: Ushobora kugenzura aho amajambo y’ibanga yawe abikwa, bikaguha umutekano mwinshi n’ububasha.
+wrong_answers:
+  - Biroroshe kandi vyama bifise umutekano kuruta serivisi z’abandi.
+  - Akenshi zitanga ibintu vyinshi kuruta serivisi z’abandi, naho nyene zizimvye cane.
+  - Birahenda kandi biranyaruka kuruta serivisi z’abandi.
+explanation: |
+  Ubutunganyirizo bw'ijambo ry'ibanga witunganyirije nka Bitwarden canke KeePass buguha ububasha bwo kugenzura aho amajambo y’ibanga yawe abikwa, bikaguha umutekano mwinshi n’ububasha.
+  Ariko rero, bisaba ubumenyi bwinshi mu vy’ubuhinga kugira ubikoreshe.
+reviewed: true

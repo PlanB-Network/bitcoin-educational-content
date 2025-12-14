@@ -1,0 +1,9 @@
+question: Wat is het voordeel van het verifiëren van een PGP-handtekening op een Hash bestand of softwaremanifest?
+answer: Het garandeert dat het bestand afkomstig is van de officiële bron
+wrong_answers:
+  - Garandeert bugvrije software-installatie
+  - Het garandeert automatische programma-updates
+  - Het garandeert dat het bestand compleet is en niet is gewijzigd
+explanation: |
+  De PGP handtekening, gevalideerd met de publieke sleutel van de ontwikkelaar, garandeert dat het geauthenticeerde bestand van de originele bron komt.
+reviewed: false

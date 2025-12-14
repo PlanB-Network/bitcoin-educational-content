@@ -1,0 +1,9 @@
+question: Milliseid turvameetmeid on Umbreli konto loomisel tungivalt soovitatav võtta?
+answer: 2FA aktiveerimine
+wrong_answers:
+  - Salasõna välja lülitada
+  - PIN-koodi kasutamine
+  - Lülita kõik ühendused välja
+explanation: |
+  2FA lisab täiendavat kaitset ja on väga soovitatav, eriti kui kasutate Lightning-sõlme või tundlikku isehostimist.
+reviewed: true

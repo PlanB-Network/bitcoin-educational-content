@@ -1,0 +1,9 @@
+question: Bastiat yıkım maliyeti analizinde hangi ekonomik kavramı vurgulamaktadır?
+answer: Fırsat maliyeti
+wrong_answers:
+  - Marjinal maliyet
+  - Marjinal üretkenlik
+  - Üretim maliyeti
+explanation: |
+  Bastiat, yıkımı onarmak için kullanılan kaynakların başka bir yerde zenginlik yaratmak için kullanılabileceğini göstererek fırsat maliyetinin önemini vurgulamaktadır.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Какой дистрибутив считается самым старым, который до сих пор поддерживается?
+answer: Slackware
+wrong_answers:
+  - Fedora
+  - Gentoo
+  - Manjaro
+explanation: |
+  Slackware, созданный в 1993 году Патриком Фолькердингом, является старейшим дистрибутивом Linux, действующим до сих пор.
+reviewed: false

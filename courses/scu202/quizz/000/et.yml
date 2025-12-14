@@ -1,0 +1,9 @@
+question: Millist tarkvara soovitatakse läbipaistvate allalaadimiste jaoks?
+answer: Tasuta tarkvara
+wrong_answers:
+  - Omane tarkvara
+  - Tarkvara beetaversioonis
+  - Integreeritud reklaamiga tarkvara
+explanation: |
+  Avatud lähtekoodiga tarkvara on soovitatav, sest selle koodi saab kogukond auditeerida, mis suurendab turvalisust ja läbipaistvust.
+reviewed: false

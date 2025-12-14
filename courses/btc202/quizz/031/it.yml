@@ -1,0 +1,9 @@
+question: Quale distribuzione è più adatta al Raspberry Pi, che è particolarmente leggero?
+answer: RaspiBlitz
+wrong_answers:
+  - Ombrello
+  - MioNodo
+  - Inizio9
+explanation: |
+  RaspiBlitz è ottimizzato per il Raspberry Pi e rimane leggero, a differenza di Umbrel, che è diventato troppo pesante per queste macchine.
+reviewed: true

@@ -8,6 +8,8 @@ yml_properties:
   - contributors: false
   - objectives: false
   - reviewed: false
+  - short_bio: true
+  - bio: true
 paragraph: true
 markdown_header: true
 description_separator: false

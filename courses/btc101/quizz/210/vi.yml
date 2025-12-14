@@ -1,10 +1,12 @@
-question: Quốc gia nào đã công nhận Bitcoin là tiền tệ hợp pháp?
-answer: El Salvador.
+question: Bitcoin đặt ra những câu hỏi trong những lĩnh vực nào?
+answer: Mật mã học, lý thuyết trò chơi, kinh tế và chính sách tiền tệ, khoa học máy tính, triết học, năng lượng, luật và quy định.
 wrong_answers:
-  - Hoa Kỳ.
-  - Trung Quốc.
-  - Ấn Độ.
-explanation: >-
-  El Salvador đã thực hiện bước đi táo bạo bằng cách chấp nhận Bitcoin một cách toàn diện,
-  công nhận nó là tiền tệ hợp pháp.
+  - Chỉ khoa học máy tính và kinh tế
+  - Chỉ mật mã học và lý thuyết trò chơi.
+  - Chỉ triết học và năng lượng.
+explanation: |
+  Bitcoin là một chủ đề đa ngành, đặt ra
+  các câu hỏi liên quan đến nhiều lĩnh vực, bao gồm
+  mật mã học, lý thuyết trò chơi, kinh tế và chính sách tiền tệ,
+  khoa học máy tính, triết học, năng lượng, luật và quy định.
 reviewed: true

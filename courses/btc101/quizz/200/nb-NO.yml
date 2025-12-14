@@ -1,11 +1,9 @@
-question: Hva er et impulsivt kjøp?
-answer: Å kjøpe Bitcoin umiddelbart for å få eksponering.
+question: Hva er en av de potensielle risikoene ved å la dine Bitcoin være på en børsplattform?
+answer: Risikoen for hacking og blokkering av midler.
 wrong_answers:
-  - Å kjøpe Bitcoin med jevne mellomrom.
-  - Å kjøpe Bitcoin bare når prisen faller.
-  - Å kjøpe Bitcoin bare når prisen stiger.
+  - Risikoen for at plattformen øker prisen på Bitcoin.
+  - Risikoen for at plattformen kontrollerer tilførselen av Bitcoin.
+  - Risikoen for at plattformen hindrer deg i å kjøpe mer Bitcoin.
 explanation: >-
-  Teksten forklarer at et impulsivt kjøp brukes for å umiddelbart
-  få eksponering mot Bitcoin. Dette kan være å kjøpe under et krakk eller å ta
-  fordel av en bonus.
-reviewed: false
+  Teksten nevner at det å la dine Bitcoin være på en børsplattform kan
+  eksponere deg for risikoene for hacking og blokkering av midler.

@@ -1,0 +1,9 @@
+question: レコードや解決プロセスを含む詳細なDNSメッセージを表示するツールはどれですか？
+answer: 掘る
+wrong_answers:
+  - ホスト
+  - ピング
+  - アープ
+explanation: |
+  dig (Domain Information Groper)は、レコードタイプを含むDNS解決に関する詳細情報を提供する。
+reviewed: false

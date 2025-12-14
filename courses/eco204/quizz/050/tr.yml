@@ -1,0 +1,11 @@
+question: Zimbabve'nin enflasyonla mücadele etmek için benimsediği çözüm neydi?
+answer: Dolarizasyon
+wrong_answers:
+  - Daha fazla para basmak
+  - Yeni bir para biriminin tanıtılması
+  - Paranın azaltılması Supply
+explanation: |
+  Zimbabve enflasyonla mücadele etmek için dolarizasyonu benimsedi. Bu şu anlama geliyor
+  aBD dolarını veya komşu ülkelerin diğer para birimlerini benimsemiş olması
+  hükümetin istediği zaman para basmasını engeller.
+reviewed: false

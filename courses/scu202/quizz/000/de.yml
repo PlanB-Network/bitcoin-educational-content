@@ -1,0 +1,9 @@
+question: Welche Art von Software wird für transparente Downloads empfohlen?
+answer: Kostenlose Software
+wrong_answers:
+  - Proprietäre Software
+  - Software in der Betaversion
+  - Software mit integrierter Werbung
+explanation: |
+  Open-Source-Software wird empfohlen, weil ihr Code von der Gemeinschaft überprüft werden kann, was die Sicherheit und Transparenz erhöht.
+reviewed: false

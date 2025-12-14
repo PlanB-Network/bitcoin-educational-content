@@ -1,0 +1,9 @@
+question: Vilken är den historiesyn som Marx föreslår?
+answer: Historien är resultatet av kampen mellan samhällsklasser
+wrong_answers:
+  - Historien är en linjär utveckling mot ett borgerligt samhälle
+  - Historien är en cykel av upprepningar med perioder av frihet som följs av perioder av tyranni
+  - Historien bestäms av klimatfaktorer
+explanation: |
+  Marx ser historien som en produkt av konflikter mellan samhällsklasser och hävdar att spänningarna mellan förtryckare och förtryckta klasser är drivkraften bakom sociala och ekonomiska förändringar genom tiderna.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Vad är den officiella tröskeln för att ett land ska anses ha hyperinflation?
+answer: 50% per månad
+wrong_answers:
+  - 10% per månad
+  - 25% per månad
+  - 75% per månad
+explanation: |
+  Under 2007 nådde Zimbabwes inflationstakt tröskeln på 50% per månad,
+  vilket officiellt markerade att landet befann sig i hyperinflation.
+reviewed: false

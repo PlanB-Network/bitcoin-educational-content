@@ -1,0 +1,5 @@
+---
+term: MASF
+---
+
+Acroniem voor "*Miner-geactiveerd Soft Fork*". Het beschrijft een Soft Fork in Bitcoin, wanneer de activering komt van de actie van mijnwerkers. MASF is een familie van Soft Fork activeringsmethoden op Bitcoin. In deze benaderingen geven mijnwerkers hun akkoord en bereidheid voor een protocolupdate aan door Mining blokken die de vergrendeling van de Soft Fork ondersteunen. Als een significante meerderheid van de mijnwerkers voor de Soft Fork stemt, wordt de update als geaccepteerd beschouwd en later geactiveerd. Dit proces helpt splitsing van de Blockchain te voorkomen en behoudt de eenheid van het netwerk. MASF heeft de voorkeur vanwege de zachtere, op consensus gebaseerde aanpak, die het risico op een Blockchain splitsing vermindert en er tegelijkertijd voor zorgt dat de meerderheid van de rekenkracht de nieuwe update ondersteunt. Activeringsmethoden zoals BIP34, BIP9, BIP8 (als `LOT=false` of als de kiesdrempel is bereikt), of Speedy Trial zijn voorbeelden van MASF.

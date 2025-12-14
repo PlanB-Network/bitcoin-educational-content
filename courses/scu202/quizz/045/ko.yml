@@ -1,0 +1,9 @@
+question: 전체 시스템 디스크 암호화를 지원하는 macOS 도구는 무엇인가요?
+answer: FileVault
+wrong_answers:
+  - 디스크 유틸리티
+  - iCloud 키체인
+  - BitLocker
+explanation: |
+  FileVault는 macOS에 통합된 기본 디스크 암호화 솔루션입니다.
+reviewed: false

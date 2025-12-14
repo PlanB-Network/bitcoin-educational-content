@@ -1,0 +1,9 @@
+question: Which Wi-Fi encryption protocol is best for securing your home network?
+answer: WPA3
+wrong_answers:
+  - WPA
+  - WEP
+  - Fast BSS
+explanation: |
+  WPA3 is the latest and most secure protocol, correcting the flaws of previous versions and offering better protection against attacks.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vad är en fördel med att använda ett VPN för att surfa på internet hemma?
+answer: Det ökar säkerheten för onlinetrafiken genom att minska hotet från tredje part.
+wrong_answers:
+  - Det kan öka hastigheten på din internetanslutning.
+  - Det ger alltid tillgång till fler webbplatser.
+  - Det sparar mobil dataförbrukning jämfört med om du inte har en etablerad VPN-anslutning.
+explanation: |
+  Om du använder ett VPN hemma kan du förbättra säkerheten för de data du Exchange online. VPN krypterar data, vilket gör det svårare för tredje part att avlyssna dem.
+reviewed: true

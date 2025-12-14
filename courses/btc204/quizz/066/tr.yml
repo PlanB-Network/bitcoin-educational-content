@@ -1,0 +1,10 @@
+question: Konsolidasyon neleri içerir?
+answer: Daha büyük tek bir girdi oluşturmak için birkaç girdiyi birleştirme.
+wrong_answers:
+  - Büyük bir girdiyi birkaç küçük girdiye bölme.
+  - Girdilerin birden fazla cüzdandan tek bir cüzdana aktarılması.
+  - Kullanılmayan girişlerin yeni adreslere yeniden atanması.
+explanation: |
+  Konsolidasyon ilkesi, Bitcoin'da ücretlerin düşük olduğu dönemlerden yararlanarak daha küçük UTXO'ları tek bir büyük UTXO'da birleştirmektir.
+  
+reviewed: false

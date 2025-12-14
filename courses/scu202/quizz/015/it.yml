@@ -1,0 +1,9 @@
+question: Qual è il principale vantaggio della distribuzione rolling release?
+answer: Utilizzare il software più recente
+wrong_answers:
+  - Maggiore compatibilità con Windows
+  - Un ambiente senza grafica Interface
+  - Supporto alle vendite obbligatorio
+explanation: |
+  I rilasci continui integrano aggiornamenti continui del software, garantendo l'accesso permanente alle versioni più recenti.
+reviewed: false

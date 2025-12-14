@@ -1,8 +1,8 @@
-question: Šta je koncept strimovanja novca u kontekstu Lightning Network?
-answer: Neprekidno vršenje mikroplaćanja u realnom vremenu.
+question: Koja je jedna potencijalna implikacija napretka AI tehnologija?
+answer: AI tehnologije će dovesti do nestanka preko 80% današnjih poslova.
 wrong_answers:
-  - Pretvaranje Bitcoin u gotovinu na fizičkoj lokaciji koristeći bankomat.
-  - Prenos audio ili video sadržaja za Bitcoin.
-  - Kreiranje novih bitkoina kroz Mining operacije koje se odvijaju u realnom vremenu.
+  - AI tehnologije će uništiti sve računare.
+  - AI tehnologije će dovesti do smanjenja ljudske inteligencije.
+  - AI tehnologije će izazvati globalni ekonomski kolaps.
 explanation: >-
 reviewed: true

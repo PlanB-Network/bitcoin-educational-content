@@ -1,0 +1,13 @@
+title: "Bitcoin Mining Handbok"
+publication_year: 2022
+cover: cover_en.webp
+original: true
+description: |
+  Den 1:a boken i serien, Bitcoin Mining Handbook, börjar med grunderna i
+  av Mining, förklarar incitamenten för Proof of Work, några praktiska tips för
+  Mining själv, och rensar upp en vanlig missuppfattning genom att förklara att
+  gruvarbetare INTE löser komplexa matematiska problem. Sedan dyker den lite djupare,
+  berör framväxten av anpassad firmware för gruvarbetare, vikten av Stratum V2-protokolluppgraderingen
+  Stratum V2-protokolluppgraderingen och affärssidan av Mining-industrin.
+  Slutligen avslutas boken med ett urval av de finaste Mining-memerna från tidigt
+  2022.

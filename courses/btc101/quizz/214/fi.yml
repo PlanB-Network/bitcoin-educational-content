@@ -1,12 +1,9 @@
-question: Mitä Milton Friedman ennusti vuonna 1999?
-answer: Luotettavan sähköisen rahan kehittymisen.
+question: Mikä näistä Lightning-toiminnoista kirjataan onchain?
+answer: Kanavan avaaminen
 wrong_answers:
-  - Fyysisen rahan katoamisen.
-  - Bitcoinin nousun.
-  - Hallituksen kontrollin loppumisen rahasta.
+  - Välimaksu
+  - Tilan päivitys
+  - Monihyppyreititys
 explanation: |
-  Milton Friedman, tunnettu taloustieteilijä, ennusti vuonna 1999,
-  että luotettava sähköinen raha kehitettäisiin pian, menetelmä,
-  jonka avulla Internetissä voit siirtää varoja pisteestä A pisteeseen B,
-  ilman, että A tietää B: stä tai päinvastoin.
-reviewed: true
+  Vain Lightning-kanavan avaaminen ja sulkeminen vastaavat Bitcoin-siirtoja, jotka julkaistaan lohkoketjussa.
+reviewed: false

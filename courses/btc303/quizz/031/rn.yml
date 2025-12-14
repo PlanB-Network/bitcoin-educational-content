@@ -1,0 +1,9 @@
+question: Ni irihe hinduka ry’ishimikiro ribaho mu mibumbe y’ibiciro vy’umutekano wa Bitcoin uko infashanyo y’amabarabara yegera zero?
+answer: Ibiciro vy’umutekano birahinduka bikava ku kwishurwa n’ababifise biciye mu gutera imbere kw’amahera bikaja ku kwishurwa n’abakoresha biciye mu mahera y’ugucuruza .
+wrong_answers:
+  - Ibiciro vy'umutekano birahinduka bikava ku kwishurwa n'abacukuzi biciye mu gushiramwo ibikoresho vy'ubuhinga bwa none bikaja ku kwishurwa n'ibihimba biciye mu gukoresha umuyagankuba .
+  - Ibiciro vy’umutekano birahinduka bikava ku kwishurwa n’amashirahamwe y’ubudandaji biciye mu mahera y’ubudandaji bikaja mu kwishurwa n’abatanga wallet biciye mu mahera y’ibikorwa .
+  - Ibiciro vy'umutekano biva ku kwishurwa n'abahinguzi biciye mu gucungera kode bikaja ku kwishurwa n'abakoresha biciye mu kwifatanya n'urubuga .
+explanation: |
+  Ico gice gisigura neza ko uno musi, abafise Bitcoin bariha umutekano biciye mu gutera imbere kw’amahera (ibiceri bishasha biriko biraremwa biciye ku nkunga y’amabuye), ariko muri kazoza iyo infashanyo y’amabuye yegereye zero, abakoresha amahera bazoriha umutekano biciye mu mahera y’ugucuruza. Ivyo bigereranya ihinduka ry’ubutunzi ry’ishimikiro mu bijanye n’uwutwara igiciro co kubungabunga umutekano w’urubuga, kuva ku citegererezo aho amafaranga mashasha yo kurema ibiceri mining aja ku citegererezo aho amafaranga y’ugucuruza ategerezwa gutanga inguvu zihagije ku bacukuzi kugira ngo bacunge urubuga.
+reviewed: false

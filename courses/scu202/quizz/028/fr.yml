@@ -1,0 +1,9 @@
+question: Quelle commande permet d’installer un logiciel depuis les dépôts officiels sous Ubuntu ?
+answer: sudo apt install
+wrong_answers:
+  - sudo yum install
+  - sudo snap create
+  - install-software
+explanation: |
+  La commande "sudo apt install" permet d’installer un paquet logiciel via le gestionnaire de paquets APT, la méthode native sur Ubuntu.
+reviewed: false

@@ -1,0 +1,9 @@
+question: TCP 中多步連線建立程序的名稱是什麼？
+answer: 三方握手
+wrong_answers:
+  - 四向握手
+  - 推拉窗
+  - 校驗和處理
+explanation: |
+  三方握手（three-way handshake）會在任何有效負載資料的 Exchange 之前同步客戶端與伺服器之間的序列號。
+reviewed: false

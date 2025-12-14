@@ -1,0 +1,12 @@
+question: Bitcoin hangi ekonomik ilkelerle uyumludur?
+answer: Avusturya ekonomisinin ilkeleri.
+wrong_answers:
+  - Keynesyen ekonominin ilkeleri.
+  - Marksist ekonominin ilkeleri.
+  - Neoklasik ekonominin ilkeleri.
+explanation: |
+  Bitcoin Avusturya ekonomisinin ilkeleriyle uyumludur.
+  Sınırlandırılmış miktarı ve merkezi bir kuruluşunun olmaması onu korur
+  görülen enflasyonun doğal risklerinden
+  geleneksel para birimleri.
+reviewed: true

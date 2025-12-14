@@ -1,0 +1,9 @@
+question: Ni kuki amajambo y’ibanga akenshi abikwa nk’ama hashes ku ma server atekanye?
+answer: Kugira ngo amajambo y'ibanga ntaboneke mu buryo bworoshe iyo habayeho ukuvuza
+wrong_answers:
+  - Kugira ngo wongere ubunini bw'ububiko bw'amakuru y'ukoresha
+  - Gushiramwo amajambo banga mu gihe nyaco mu buryo buringaniye
+  - Kwemerera abakoresha kwinjira ata jambobanga
+explanation: |
+  Mu kubika amajambo y’ibanga, mbere n’igihe habaye ukurenga ku makuru, amajambo y’ibanga nyayo ntashobora gusomwa ataco akora, ivyo bikaba bituma umutekano urushirizaho.
+reviewed: false

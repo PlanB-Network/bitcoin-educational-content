@@ -1,0 +1,9 @@
+question: Bir iletişim oturumunda yansıtma saldırısı nedir?
+answer: Saldırgan, Alice ile Bob arasında ele geçirdiği bir mesajı Alice'a geri gönderir
+wrong_answers:
+  - Saldırgan iletişimdeki mesajların sırasını tersine çevirir
+  - Saldırgan, etiket olmadan değiştirilmiş bir mesaj gönderir
+  - Saldırgan yeni bir mesaj oluşturmak için eski bir mesajı kullanır
+explanation: |
+  Yansıma saldırısında, saldırgan Alice'den Bob'e giden bir mesajı keser ve aynı mesajı Alice'ye geri göndererek oturumda karışıklığa neden olur.
+reviewed: false

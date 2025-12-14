@@ -1,0 +1,10 @@
+question: Vad innebär konsolidering?
+answer: Sammanfoga flera inmatningar för att skapa en enda större.
+wrong_answers:
+  - Dela upp en stor inmatning i flera mindre.
+  - Överföring av inmatningar från flera plånböcker till en enda.
+  - Omfördela oanvända ingångar till nya adresser.
+explanation: |
+  Principen för konsolidering är att dra nytta av perioder då avgifterna är låga på Bitcoin för att slå samman mindre UTXO:er till en enda större.
+  
+reviewed: false

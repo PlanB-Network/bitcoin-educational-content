@@ -1,10 +1,9 @@
-question: Mis oli DigiCash projekt?
-answer: Katse luua anonüümset elektroonilist raha David Chaumi poolt.
+question: Mis on kulla peamine puudus rahana?
+answer: See ei ole kergesti jagatav ega transporditav pikamaa vahemaade taha
 wrong_answers:
-  - Projekt digitaalse rahakoti loomiseks Bitcoinile.
-  - Projekt kogu füüsilise sularaha digitaliseerimiseks.
-  - Projekt krüptoraha loomiseks Bitcoin'i põhjal.
+  - See ei säilita oma väärtust erinevates kohtades
+  - See kulub aja jooksul
+  - Seda on kerge toota
 explanation: |
-  David Chaum tutvustas anonüümse elektroonilise raha kontseptsiooni
-  oma projektiga DigiCash 1980ndatel.
+  Kulla peamine puudus rahana on see, et see ei ole kergesti jagatav ega transporditav pikamaa vahemaade taha. See muudab selle vähem praktiliseks globaliseerunud ja digitaalses maailmas.
 reviewed: true

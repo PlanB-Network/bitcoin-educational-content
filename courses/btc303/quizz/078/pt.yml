@@ -1,0 +1,9 @@
+question: De acordo com o quadro de divulgação responsável discutido, qual é a principal razão pela qual os programadores evitam corrigir imediatamente vulnerabilidades não críticas no Bitcoin Core?
+answer: Para evitar que a própria correção revele a natureza da vulnerabilidade antes de ocorrer uma implementação generalizada
+wrong_answers:
+  - Para dar tempo suficiente aos criadores de altcoins para implementarem primeiro as suas próprias correcções independentes
+  - Para permitir testes exaustivos em diferentes conjuntos de mining antes de lançar quaisquer actualizações de segurança
+  - Para manter a compatibilidade com versões anteriores do nó que não podem lidar com patches de emergência
+explanation: |
+  A resposta correta destaca um paradoxo crucial na aplicação de patches de segurança: a própria correção pode expor a vulnerabilidade. O capítulo enfatiza que os desenvolvedores devem disfarçar cuidadosamente os patches porque publicá-los imediatamente pode revelar a vulnerabilidade aos atacantes antes que a maioria dos nós esteja protegida. As respostas erradas, embora plausíveis, deturpam as prioridades: a notificação de altcoin ocorre após a implantação da rede Bitcoin, o teste de pool mining não é a principal preocupação para questões não críticas e a compatibilidade com versões anteriores não determina o momento dos patches de segurança.
+reviewed: false

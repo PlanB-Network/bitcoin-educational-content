@@ -1,0 +1,13 @@
+question: Ni igiki nyamukuru gitera intege abacukuzi b’amabuye y’agaciro kugira ngo bagire uruhara mu nzira ya Bitcoin Mining?
+answer: Ingororano ya Mining
+wrong_answers:
+  - Ubushobozi bwo kugenzura urubuga rwa Bitcoin
+  - Ubushobozi bwo kurema ama bitcoins mashasha ku bushake
+  - Ubushobozi bwo gukoresha nabi igiciro ca Bitcoin.
+explanation: |
+  Igituma abacukuzi b’amabuye y’agaciro bagira uruhara mu
+  inzira ya Bitcoin Mining ni impembo ya Mining. Ibi
+  impembo ikora nk'inkomezi zikomeye zo kuremesha abacukuzi
+  kugira ngo agire uruhara mu nzira ya Mining naho ifise inguvu .
+  igiciro.
+reviewed: true

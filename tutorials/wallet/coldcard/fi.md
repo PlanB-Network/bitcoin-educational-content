@@ -1,5 +1,5 @@
 ---
-name: Cold Card
+name: COLDCARD Mk
 
 description: Bitcoinin yksityisen avaimen luominen, varmuuskopiointi ja käyttö Coldcard-laitteella ja Bitcoin Corella
 ---

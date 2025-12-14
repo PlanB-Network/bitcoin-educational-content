@@ -1,0 +1,9 @@
+question: Wat is het centrale principe van RGB?
+answer: Client-side validatie
+wrong_answers:
+  - Globale uitvoering op de blockchain
+  - Gefedereerde consensus
+  - Proof-of-Work
+explanation: |
+  RGB is gebaseerd op lokale validatie van toestanden, waarbij de blockchain uitsluitend dient als cryptografisch anker en bescherming tegen dubbel uitgeven.
+reviewed: false

@@ -1,0 +1,9 @@
+question: In hoeveel delen is de uitvoer van de HMAC-SHA512 functie toegepast op de seed verdeeld?
+answer: Twee delen van 256 bits
+wrong_answers:
+  - Een enkel deel van 512 bits
+  - Drie delen van 170 bits
+  - Vier delen van 128 bits
+explanation: |
+  De uitvoer van HMAC-SHA512 is verdeeld in twee delen: de master private key (256 bits) en de master chain code (256 bits).
+reviewed: false

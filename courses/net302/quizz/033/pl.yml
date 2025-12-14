@@ -1,0 +1,9 @@
+question: Jaka technika umożliwia wielu wewnętrznym maszynom współdzielenie jednego publicznego adresu IP Address w celu uzyskania dostępu do Internetu?
+answer: NAT (translacja Address sieci)
+wrong_answers:
+  - ARP (Address Resolution Protocol)
+  - DHCP (protokół dynamicznej konfiguracji hosta)
+  - CIDR (Bezklasowy Routing Międzydomenowy)
+explanation: |
+  NAT tłumaczy prywatne adresy wewnętrzne na publiczne IP Address, umożliwiając wielu urządzeniom współdzielenie tego samego połączenia zewnętrznego.
+reviewed: false

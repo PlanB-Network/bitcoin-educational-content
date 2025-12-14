@@ -1,5 +1,5 @@
 ---
-name: Paraply LND
+name: Umbrel LND
 description: Avancerad handledning om installation och konfiguration av Lightning Network Daemon (LND) på Umbrel
 ---
 ![cover](assets/cover.webp)
@@ -27,7 +27,7 @@ För att installera Umbrel och konfigurera din Bitcoin-nod rekommenderar vi att 
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Se till att din Bitcoin-nod är uppdaterad och fungerar korrekt, eftersom Lightning Network förlitar sig på den för alla off-chain-transaktioner.
 
@@ -57,7 +57,7 @@ För en fullständig teoretisk introduktion till Lightning Network rekommenderar
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Den här kursen ger dig en grundlig genomgång av de grundläggande begreppen i Lightning Network, innan du går vidare till att öva med din LND-nod.
 
@@ -83,11 +83,11 @@ Att driva din egen Lightning-nod (LND) på Umbrel ger dig total suveränitet öv
 - Dina Lightning bitcoins hanteras av en betrodd tredje part
 - Enkel att använda, ingen teknisk komplexitet
 - Operatören har dina pengar och kan spåra dina transaktioner
-- Du gör avkall på kontroll och sekretess
+- Du offrar kontroll och integritet
 
 
 
-** Konsumentportföljer som inte innehåller råvaror (t.ex. Phoenix, Breez)** :
+**Plånböcker för konsumenter av andra varor än råvaror (t.ex. Phoenix, Breez)** :
 
 
 
@@ -107,7 +107,7 @@ Att driva din egen Lightning-nod (LND) på Umbrel ger dig total suveränitet öv
 
 - Maximal suveränitet: dina On-Chain och off-chain BTC:er är helt under din kontroll
 - Ingen tredje part är inblandad i att öppna kanaler eller hantera dina betalningar
-- Ökad sekretess (dina kanaler och transaktioner är endast kända av dig och dina direkta kollegor)
+- Ökad integritet (dina kanaler och transaktioner är endast kända av dig och dina direkta kollegor)
 - Användarfrihet: anslut till dina egna tjänster och plånböcker
 - Möjlighet att dirigera transaktioner för andra (mikroavgiftsersättning)
 - Ökat tekniskt ansvar (underhåll, likviditetshantering, säkerhetskopiering)
@@ -154,7 +154,7 @@ Du kan välja mellan att skapa en ny nod eller att återställa en nod från en 
 
 
 
-**Note: På de senaste versionerna av Umbrel ger installationen av Lightning-appen detta 24 ord seed (själva Umbrel-noden Bitcoin gör det inte).
+**Note:** På de senaste versionerna av Umbrel ger installationen av Lightning-appen detta 24 ord seed (själva Umbrel-noden Bitcoin gör det inte).
 
 
 
@@ -496,11 +496,11 @@ Din Lightning Umbrel-nod kräver två typer av säkerhetskopior:
 
 - Innehåller information om Lightning-kanalen
 - Möjliggör tvingad stängning av kanalen i händelse av en krasch
-- Viktigt:** Spara aldrig filen `channel.db` manuellt (risk för påföljder)
+- **Viktigt:** Spara aldrig filen `channel.db` manuellt (risk för påföljder)
 
 
 
-**Manuellt förfarande för säkerhetskopiering
+**Manuellt förfarande för säkerhetskopiering**
 
 
 
@@ -613,17 +613,17 @@ Om du vill veta mer om hur du konfigurerar och använder vakttorn rekommenderar 
 
 
 
-https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
 ### Andra bästa metoder
 
 
 
 
 
-- Programuppdateringar:** Håll Umbrel och LND uppdaterade (säkerhetsfixar)
-- Hårdvaruskydd:** Använd ett stabilt system (Raspberry Pi med SSD, mini-PC) och en UPS
-- Nätverkssäkerhet:** Behåll standardkonfigurationen för Tor, ändra lösenordet för Umbrels administratör (standard: "moneyprintergobrrr")
-- Kryptering:** Aktivera diskkryptering om möjligt
+- **Programuppdateringar:** Håll Umbrel och LND uppdaterade (säkerhetsfixar)
+- **Hårdvaruskydd:** Använd ett stabilt system (Raspberry Pi med SSD, mini-PC) och en UPS
+- **Nätverkssäkerhet:** Behåll standardkonfigurationen för Tor, ändra lösenordet för Umbrels administratör (standard: "moneyprintergobrrr")
+- **Kryptering:** Aktivera diskkryptering om möjligt
 
 
 
@@ -691,10 +691,10 @@ RTL är en komplett "schweizisk armékniv" för att administrera en Lightning-no
 
 
 
-- Lightning Shell** : Kommandorad (lncli) via webbläsare
-- BTC RPC Explorer & Mempool** : Övervakning Blockchain
-- LNmetrics & Torq**: Analys av routningsprestanda
-- Amboss & 1ML**: "Social" hantering av din nod (alias, kontakter, nätverksanalys)
+- **Lightning Shell**: Kommandorad (lncli) via webbläsare
+- **BTC RPC Explorer & Mempool**: Övervakning Blockchain
+- **LNmetrics & Torq**: Analys av routningsprestanda
+- **Amboss & 1ML**: "Social" hantering av din nod (alias, kontakter, nätverksanalys)
 
 
 
@@ -718,7 +718,7 @@ Dessa verktyg kan installeras med bara några klick via Umbrel App Store, utan n
 
 
 
-Att köra sin egen LND-nod på Umbrel är ett viktigt steg mot finansiell suveränitet. Även om det kräver mer tekniskt engagemang än en förvaringslösning, är fördelarna i form av kontroll, sekretess och aktivt deltagande i Lightning Network betydande.
+Att köra din egen LND-nod på Umbrel är ett viktigt steg mot finansiell suveränitet. Även om det kräver mer tekniskt engagemang än en förvaringslösning, är fördelarna när det gäller kontroll, integritet och aktivt deltagande i Lightning Network betydande.
 
 
 

@@ -1,5 +1,5 @@
 ---
-name: Passphrase BIP39
+name: BIP-39 Passphrase
 description: Ymmärrys siitä, miten salasana toimii
 ---
 ![kansi](assets/cover.webp)
@@ -29,27 +29,39 @@ Lopuksi, salasanan käyttö on mielenkiintoista, kun halutaan hallita HD-lompako
 ## Miten valita hyvä salasana?
 Jotta salasana olisi tehokas, sen on oltava riittävän pitkä ja satunnainen. Kuten vahvan salasanan kohdalla, suosittelen valitsemaan mahdollisimman pitkän ja satunnaisen salasanan, jossa on erilaisia kirjaimia, numeroita ja symboleita, jotta mikään brute force -hyökkäys ei ole mahdollinen.
 
+[Trezorin vuonna 2019 tekemän tutkimuksen mukaan](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af), hyökkääjä, jolla on pääsy seed-koodiin ja joka käyttää AWS:ltä vuokrattua huipputason GPU:ta (NVIDIA Tesla V100), voisi testata lähes 620 miljoonaa salasanaa yhdellä dollarilla. Vuoden 2019 laskentateholla 12 satunnaisesta pienaakkosesta koostuvan salalauseen murtaminen maksaisi keskimäärin **77 miljoonaa dollaria**.
+
+En kuitenkaan suosittele rajoittumaan 12 merkkiin. Pyri sen sijaan nykyisiin vahvojen salasanojen standardeihin: vuonna 2025 vähimmäismäärä on 13 satunnaista merkkiä, joihin sisältyy numeroita, pieniä ja isoja kirjaimia sekä symboleja; tai 14 merkkiä, jos käytät vain pieniä ja isoja kirjaimia. Suosittelen luonnollisesti tähtäämään vielä pidemmälle, esimerkiksi valitsemalla 20-merkkisen salalauseen symboleineen, jotta varaudut tuleviin muutoksiin ja otat huomioon inhimilliset riskit, joita nämä tutkimukset eivät kata.
+
 On myös tärkeää tallentaa tämä salasana asianmukaisesti, samalla tavalla kuin muistilause. **Sen menettäminen tarkoittaa pääsyn menettämistä bitcoineihisi**. Vahvasti suosittelen, ettei luota pelkästään muistiisi, sillä se lisää kohtuuttomasti menetysriskiä. Ihanteellista on kirjoittaa se fyysiselle välineelle (paperille tai metallille) erillään muistilauseesta. Tämä varmuuskopio on tietenkin säilytettävä eri paikassa kuin missä muistilauseesi on, jotta molempia ei vaaranneta samanaikaisesti.
 
 ## Tutoriaalit
 
 Salasanan asettamiseksi Ledger-laitteeseen (Stax, Flex tai Nano), voit katsoa tämän tutoriaalin:
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 COLDCARD -laitteella:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 Jade Plus -laitteella:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 Passport (batch-2) -laitteella:
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 Trezor-laitteella (Safe 3, Safe 5 tai Model One):
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+SeedSigner-laitteessa:
+https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa03-4bcf-8308-00c89a74cffe
+SeedSignerilla Seedkeeperin kanssa:
+https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+
+
+
+
 

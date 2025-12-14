@@ -1,9 +1,9 @@
 question: Perché la chiusura forzata è meno desiderabile?
-answer: È più lenta e le commissioni possono essere inappropriate
+answer: È più lenta e le fee possono essere inappropriate
 wrong_answers:
   - Richiede l'autorizzazione da parte di Satoshi Nakamoto
   - Costringe alla ricreazione di un canale in seguito
   - Impedisce l'uso della chiave di revoca
 explanation: |
-  La chiusura forzata è meno desiderabile perché include un blocco temporale, che rallenta il processo, e le commissioni possono essere inappropriate poiché sono state stabilite al momento della creazione del canale.
-reviewed: false
+  La chiusura forzata è meno desiderabile perché include un blocco temporale che rallenta il processo, mentre le fee possono essere inappropriate poiché sono state stabilite al momento della creazione del canale.
+reviewed: true

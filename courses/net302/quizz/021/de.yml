@@ -1,0 +1,9 @@
+question: Welche TCP-Funktion optimiert den Durchsatz, indem sie die Anzahl der ohne sofortige Bestätigung gesendeten Segmente anpasst?
+answer: Das Schiebefenster
+wrong_answers:
+  - Dynamische Fragmentierung
+  - Paketvermittlung
+  - Statisches Routing
+explanation: |
+  Das "gleitende Fenster" ermöglicht es, mehrere Segmente nacheinander zu senden, und verschiebt dann den Bereich mit jeder Bestätigung, um den Fluss zu optimieren.
+reviewed: false

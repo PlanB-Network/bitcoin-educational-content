@@ -1,0 +1,10 @@
+question: Wat was de Exchange koers van de digitale bolivar in Venezuela in 2021?
+answer: Een miljoen tegen een.
+wrong_answers:
+  - Duizend tegen één.
+  - Tienduizend tegen één.
+  - Honderdduizend tegen één.
+explanation: |
+  In 2021 werd de digitale bolivar in Venezuela vervangen door een nieuwe
+  redenominatie van één miljoen tegen één.
+reviewed: false

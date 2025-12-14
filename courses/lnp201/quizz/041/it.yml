@@ -1,9 +1,9 @@
-question: Perché è difficile per un nodo trasmittente stimare l'esatta liquidità di un canale?
-answer: Perché solo i due partecipanti conoscono la precisa distribuzione dei fondi
+question: Perché è difficile per un nodo mittente stimare l'esatta liquidità di un canale?
+answer: Perché solo i due partecipanti a quel determinato canale conoscono la precisa distribuzione dei fondi
 wrong_answers:
   - Perché la capacità totale dei canali è in costante cambiamento
-  - Perché le commissioni dei nodi intermedi non sono pubblicate
+  - Perché le fee dei nodi intermedi non sono pubblicate
   - Perché i canali si chiudono automaticamente dopo ogni transazione
 explanation: |
   La precisa distribuzione dei fondi in un canale è visibile solo ai due nodi partecipanti, impedendo ad altri nodi di stimare la liquidità disponibile per il routing.
-reviewed: false
+reviewed: true

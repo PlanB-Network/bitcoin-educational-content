@@ -1,0 +1,9 @@
+question: Welke bewerking is nodig om een Taproot publieke sleutel Q te berekenen?
+answer: Voeg de fijnafstelling tG toe aan de openbare sleutel P
+wrong_answers:
+  - Vermenigvuldig de privésleutel p met de tweak
+  - Hash de openbare sleutel P met SHA256
+  - De tweak t en de openbare sleutel P aan elkaar koppelen
+explanation: |
+  De Taproot publieke sleutel Q wordt verkregen door het scalaire product van de tweak t door de generator G toe te voegen aan de publieke sleutel P.
+reviewed: false

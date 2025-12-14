@@ -1,0 +1,11 @@
+question: Waar staat de private sleutel vaak voor in een Bitcoin Wallet?
+answer: Een lijst van 12 of 24 woorden.
+wrong_answers:
+  - Een lijst van 12 of 48 woorden.
+  - Een lijst van 32 woorden.
+  - Een lijst van 64 woorden.
+explanation: |
+  In een Bitcoin Wallet wordt de private sleutel vaak voorgesteld
+  door een lijst van 12 of 24 woorden, ook bekend als een seed frase
+  of Mnemonic zinsdeel.
+reviewed: true

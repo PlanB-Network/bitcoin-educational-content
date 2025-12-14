@@ -1,0 +1,9 @@
+question: Gregory Maxwell, Bitcoin için %51 saldırılarından daha büyük bir risk olarak neyi tanımlıyor?
+answer: Bitcoin'in ademi merkeziyetçilik özelliklerini anlamayan veya korumayan insanlar
+wrong_answers:
+  - Madenciler tek bir yerde çok fazla bilgi işlem gücü yoğunlaştırıyor
+  - KİS-2 KİS-3 faaliyetlerini engelleyen hükümet düzenlemeleri
+  - "Bitcoin'ün kriptografik algoritmalarındaki teknik açıklar"
+explanation: |
+  Gregory Maxwell'in bölümde alıntılanan Reddit gönderisine göre, %51 saldırıları teorik bir endişe olarak mevcut olsa da, çok daha büyük risk Bitcoin kullanıcılarının Bitcoin'i merkezi alternatiflere göre değerli kılan ademi merkeziyetçilik özelliklerini anlamaması, önemsememesi veya korumamasıdır. Bunun nedeni, Bitcoin'in sansüre karşı direncini - geleneksel para sistemlerinden temel farklılığını - sağlayan şeyin ademi merkeziyetçilik olmasıdır. Eğer insanlar bu özellikleri aktif olarak korumazlarsa, Bitcoin sansür mümkün hale gelene kadar kademeli olarak merkezileşebilir ve değer teklifinin çoğunu yok edebilir. Diğer seçenekler, potansiyel endişeler olmakla birlikte, Maxwell'in özellikle Bitcoin'in uzun vadeli başarısına yönelik daha büyük tehdit olarak tanımladığı şeyler değildir.
+reviewed: false

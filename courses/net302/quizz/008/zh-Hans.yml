@@ -1,0 +1,9 @@
+question: 第一个 ARPANET 网段是在哪一年投入使用的？
+answer: 1969
+wrong_answers:
+  - 1972
+  - 1962
+  - 1961
+explanation: |
+  第一个 ARPANET 网段于 1969 年 10 月投入使用，将加州大学洛杉矶分校和斯坦福大学互联起来。
+reviewed: false

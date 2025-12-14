@@ -1,0 +1,11 @@
+question: Wallet'ınızı geri yüklemek için standart bir yöntem nedir?
+answer: Mnemonic ifadenizin herhangi bir Wallet yazılımına girilmesi.
+wrong_answers:
+  - Mnemonic cümlenizi dijital bir dosyaya kaydetme.
+  - Mnemonic cümlenizi bir beyaz tahtaya yazmak.
+  - Mnemonic ifadenizi güvendiğiniz bir arkadaşınızla paylaşmak.
+explanation: |
+  Özel anahtarı yedeklemenin standart yöntemi
+  Bitcoin Wallet, Mnemonic ifadenizi herhangi bir
+  Wallet yazılımı. Bu, Wallet'inizi geri yüklemenizi sağlar.
+reviewed: false

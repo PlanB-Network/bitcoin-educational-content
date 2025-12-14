@@ -1,0 +1,9 @@
+question: Quali informazioni si trovano in genere nei metadati EXIF di una foto?
+answer: Data, ora, posizione GPS, modello del dispositivo, autore
+wrong_answers:
+  - Codice sorgente del firmware della telecamera
+  - Password Wi-Fi del fotografo
+  - Ultimi risultati antivirus
+explanation: |
+  I metadati EXIF di una foto contengono spesso informazioni contestuali dettagliate sullo scatto e sulla fotocamera.
+reviewed: false

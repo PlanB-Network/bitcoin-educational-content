@@ -1,0 +1,9 @@
+question: Công cụ nguồn mở nào có thể mã hóa hoàn toàn ổ đĩa trên Linux?
+answer: LUKS
+wrong_answers:
+  - BitLocker
+  - FileVault
+  - SuperCrypt
+explanation: |
+  LUKS (Linux Unified Key Setup) là giải pháp tiêu chuẩn trên Linux để mã hóa toàn bộ ổ đĩa trong quá trình cài đặt.
+reviewed: false

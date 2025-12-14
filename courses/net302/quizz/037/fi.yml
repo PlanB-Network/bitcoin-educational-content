@@ -1,0 +1,9 @@
+question: Mikä on IPv4-merkinnän 0.0.0.0.0 tarkoitus?
+answer: Kaikkien liitäntöjen tai määrittämättömän Address:n nimeäminen
+wrong_answers:
+  - Viestin lähettäminen kaikkiin verkkoihin
+  - Laitteen paikallisen yhteyden testaaminen
+  - Osoitetaan osoite- tai yhteysvirhe paikallisessa reitittimessä
+explanation: |
+  Merkintää 0.0.0.0.0 käytetään paikallisesti kuvaamaan osoitetun Address:n puuttumista tai kuuntelemista kaikilla liitännöillä.
+reviewed: false

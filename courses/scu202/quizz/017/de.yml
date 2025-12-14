@@ -1,0 +1,9 @@
+question: Welche Distribution gilt als die älteste, die noch gepflegt wird?
+answer: Slackware
+wrong_answers:
+  - Fedora
+  - Gentoo
+  - Manjaro
+explanation: |
+  Slackware, 1993 von Patrick Volkerding entwickelt, ist die älteste heute noch aktive Linux-Distribution.
+reviewed: false

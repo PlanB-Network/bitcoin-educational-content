@@ -1,0 +1,9 @@
+question: Quem é Saint-Augustin?
+answer: Um dos Padres da Igreja.
+wrong_answers:
+  - Filósofo do Iluminismo.
+  - Um astrónomo.
+  - Um inventor.
+explanation: |
+  Santo Agostinho (354-430) é um dos Padres da Igreja. Filósofo e teólogo, influenciou profundamente o pensamento cristão ocidental com obras como "As Confissões" e "A Cidade de Deus".
+reviewed: false

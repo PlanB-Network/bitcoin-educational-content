@@ -1,0 +1,9 @@
+question: Hvilken kommando viser detaljert innhold i en mappe, inkludert skjulte filer?
+answer: ls -lah
+wrong_answers:
+  - vis-mappe
+  - list-files -detailed
+  - viewdir -a
+explanation: |
+  "ls -lah" viser filer og mapper i detalj, inkludert skjulte filer (som begynner med en prikk).
+reviewed: false

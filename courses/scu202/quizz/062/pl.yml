@@ -1,0 +1,9 @@
+question: Która przeglądarka gwarantuje anonimowość, przekierowując ruch przez zdecentralizowaną sieć o wysokich opóźnieniach?
+answer: Przeglądarka Tor
+wrong_answers:
+  - Przeglądarka Mullvad
+  - Ryś
+  - LibreWolf
+explanation: |
+  Przeglądarka Tor Browser opiera się na sieci Tor w celu anonimizacji przeglądania, kosztem znacznego spadku wydajności.
+reviewed: false

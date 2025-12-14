@@ -1,0 +1,9 @@
+question: Vilket översättningsprogram med öppen källkod fungerar med olika motorer och samlar inte in dina översatta texter?
+answer: Översätt dig
+wrong_answers:
+  - Google Översätt
+  - DeepL
+  - Microsoft Översättare
+explanation: |
+  TranslateYou fungerar som en Interface för flera motorer, utan att spåra eller samla in personuppgifter, till skillnad från proprietära tjänster.
+reviewed: false

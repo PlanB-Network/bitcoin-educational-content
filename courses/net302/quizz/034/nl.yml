@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste rol van een IPv4 Address in een computernetwerk?
+answer: Een uniek netwerk identificeren Interface
+wrong_answers:
+  - Identificeer het volledige apparaat in een netwerk
+  - Dynamisch MAC-adressen toewijzen op een netwerk
+  - generate DNS-namen
+explanation: |
+  Een IPv4 Address wordt toegewezen aan elke netwerk Interface van een apparaat, zodat het gelokaliseerd en bereikt kan worden op het netwerk.
+reviewed: false

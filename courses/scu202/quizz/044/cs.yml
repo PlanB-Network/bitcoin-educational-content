@@ -1,0 +1,9 @@
+question: Jaká operace zajistí, že stažený software nebyl od svého oficiálního zveřejnění změněn?
+answer: Ověření integrity prostřednictvím Hash
+wrong_answers:
+  - Ověření pravosti prostřednictvím podpisu vývojáře
+  - Analýza softwaru prostřednictvím brány firewall
+  - Spuštění programu v nouzovém režimu
+explanation: |
+  Kontrola integrity je založena na porovnání kódu Hash staženého souboru s kódem zveřejněným vývojářem. Jakákoli změna souboru mění tento kód Hash.
+reviewed: false

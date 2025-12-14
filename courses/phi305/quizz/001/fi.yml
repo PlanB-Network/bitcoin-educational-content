@@ -1,0 +1,9 @@
+question: Onko Spinoza filosofi?
+answer: 1600-luvulta.
+wrong_answers:
+  - 1500-luvulta.
+  - 1700-luvulta.
+  - Antiikin ajoilta.
+explanation: |
+  Spinoza eli vuosina 1632-1677, joten hän on 1600-luvun filosofi. Tänä aikana, joka tunnetaan järjen aikakautena, syntyi moderni rationalismi ja uudet tieteelliset lähestymistavat maailman ymmärtämiseen.
+reviewed: false

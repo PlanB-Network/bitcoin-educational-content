@@ -1,0 +1,9 @@
+question: Kích thước lý thuyết tối đa của một gói tin IP là bao nhiêu?
+answer: 65.536 byte
+wrong_answers:
+  - 1.500 byte
+  - 512 byte
+  - 255 byte
+explanation: |
+  Kích thước tối đa của một gói dữ liệu IP là 65.536 byte được xác định bởi giới hạn của trường tổng chiều dài trong tiêu đề IP.
+reviewed: false

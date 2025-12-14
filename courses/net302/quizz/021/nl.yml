@@ -1,0 +1,9 @@
+question: Welke TCP eigenschap optimaliseert de doorvoer door het aantal segmenten aan te passen dat zonder onmiddellijke bevestiging wordt verzonden?
+answer: Het schuifvenster
+wrong_answers:
+  - Dynamische fragmentatie
+  - Pakketschakelen
+  - Statische routering
+explanation: |
+  Het "glijdende venster" maakt het mogelijk om meerdere segmenten achter elkaar te verzenden en verschuift vervolgens het bereik bij elke bevestiging om de stroom te optimaliseren.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Proč představují metadata digitálních souborů riziko pro soukromí?
+answer: Mohou odhalit citlivé informace
+wrong_answers:
+  - V některých systémech zpomalují otevírání antiviru
+  - Zabraňují sdílení souborů prostřednictvím e-mailu
+  - Mohou hostit ransomware
+explanation: |
+  Metadata mohou obsahovat důvěrné informace, které nejsou při otevření souboru viditelné, například souřadnice GPS, jméno autora, identifikátor nebo historii modifikací, které mohou být zneužity bez vašeho vědomí.
+reviewed: false

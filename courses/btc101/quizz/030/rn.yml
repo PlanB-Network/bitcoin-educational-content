@@ -1,0 +1,12 @@
+question: Ni ibihe bigo bijejwe gutanga amafaranga y’ivy’ubutunzi?
+answer: Amabanki akomeye.
+wrong_answers:
+  - Amabanki y’ubudandaji.
+  - Intwaro.
+  - Inzego z’abikorera ku giti cabo.
+explanation: |
+  Amabanki nkuru ni yo ajejwe gutanga .
+  amafaranga y’ivy’ukwizigira. Ni bo bafata ingingo y’ivy’amahera kandi .
+  kumenya amahera akwiye gushirwa mu nzira canke .
+  icapwe.
+reviewed: true

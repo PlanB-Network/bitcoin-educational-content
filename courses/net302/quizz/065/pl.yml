@@ -1,0 +1,9 @@
+question: Który protokół dynamicznie przypisuje czasy życia do automatycznie dystrybuowanych adresów IPv6?
+answer: DHCPv6
+wrong_answers:
+  - OSPFv3
+  - RIPng
+  - ICMPv4
+explanation: |
+  DHCPv6 jawnie zarządza czasem życia poprzez dzierżawę, podczas gdy NDP ogłasza je w komunikatach konfiguracyjnych routera.
+reviewed: false

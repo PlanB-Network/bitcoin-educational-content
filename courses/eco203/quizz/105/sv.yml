@@ -1,0 +1,9 @@
+question: Vem är författaren till I, Pencil och vem har också översatt Bastiats The Law till engelska?
+answer: Leonard Read
+wrong_answers:
+  - Leonard Nimoy
+  - Leonard Cohen
+  - Milton Friedman
+explanation: |
+  Leonard Read är känd för att ha översatt Bastiats The Law till engelska och för att ha populariserat hans verk genom Foundation for Economic Education.
+reviewed: false

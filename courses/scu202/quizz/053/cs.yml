@@ -1,0 +1,9 @@
+question: Která platforma automaticky odstraní metadata po nahrání fotografie?
+answer: Signál
+wrong_answers:
+  - Gmail
+  - Outlook
+  - Váš blog
+explanation: |
+  Služba Signal (stejně jako služba Session a další služby pro bezpečné zasílání zpráv) čistí metadata sdílených obrázků, aby chránila soukromí uživatelů.
+reviewed: false

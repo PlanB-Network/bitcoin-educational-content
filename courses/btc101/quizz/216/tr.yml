@@ -1,0 +1,9 @@
+question: Eski bir kanal durumunu yayımlayan bir Lightning düğümü hangi riski alır?
+answer: Bir ceza
+wrong_answers:
+  - Bir uyarı
+  - Ek madencilik ücretleri
+  - Geçici bir dondurma
+explanation: |
+  Protokol, karşı tarafın tüm fonları geri almasına olanak tanıyan caydırıcı bir ceza öngörür.
+reviewed: false

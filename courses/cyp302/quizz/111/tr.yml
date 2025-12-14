@@ -1,0 +1,9 @@
+question: Eşzamansız akış şifreleme nedir?
+answer: Anahtar akışı daha önce şifrelenmiş metnin hem anahtarına hem de Elements'ına bağlı olan bir şifreleme
+wrong_answers:
+  - Her kullanımda rastgele bir anahtar akışı oluşturan bir şifreleme
+  - Anahtarın her mesaj için değiştirilmesi gereken bir şifreleme
+  - Anahtar akışı yalnızca başlangıç anahtarına bağlı olan bir şifreleme
+explanation: |
+  Eşzamansız akış şifrelemesi, anahtar akışının şifrelenmiş metnin anahtarından ve Elements'den etkilendiği bir şifreleme türüdür.
+reviewed: false

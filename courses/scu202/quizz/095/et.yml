@@ -1,0 +1,9 @@
+question: Milline on parim viis oma koduvõrgule kaugjuurdepääsuks?
+answer: Isikliku VPN-i kasutamine
+wrong_answers:
+  - Avage avalik SSH port
+  - Aktiveerige ruuteri pilv
+  - Kasutage WPS-i
+explanation: |
+  VPN loob krüpteeritud tunneli juurdepääsuks kohalikule võrgule, ilma et kriitiline port oleks Internetis avatud.
+reviewed: false

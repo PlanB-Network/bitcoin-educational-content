@@ -1,0 +1,9 @@
+question: Ni irihe shirahamwe ritanga inomero za verisiyo y’amasezerano ya IP?
+answer: IANA
+wrong_answers:
+  - IETF
+  - RFC
+  - Google
+explanation: |
+  Ikigo kijejwe inomero zihabwa Internet (IANA) ni co kigenzura Assignment y’inomero za verisiyo y’amasezerano ya IP be n’ugutanga imirongo y’amasezerano.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Phương pháp nào được sử dụng để bảo vệ khả năng truy xuất nguồn gốc giao dịch trên mạng chuỗi khối (On-Chain)?
+answer: Sử dụng kỹ thuật CoinJoin và PayJoin
+wrong_answers:
+  - Tái sử dụng cùng một địa chỉ nhận
+  - Thường xuyên hợp nhất UTXO
+  - Gửi vào tài khoản ví lưu ký của bên thứ ba
+explanation: |
+  CoinJoin và PayJoin giúp cải thiện tính riêng tư của hoạt động trên mạng chuỗi khối (On-Chain).
+reviewed: false

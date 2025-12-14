@@ -1,12 +1,12 @@
 ---
-term: Contract Rights
+term: CONTRACT RIGHTS
 ---
 
-Hak Contract mengacu pada berbagai hak yang dapat digunakan oleh pemain dalam RGB Contract. Hak-hak tersebut terbagi dalam beberapa kategori:
+_Contract Right_ mengacu pada berbagai hak yang dapat digunakan oleh pemain dalam RGB _Contract_. Hak-hak tersebut terbagi dalam beberapa kategori:
 
 
 
 
-- Hak Ownership, terkait dengan Ownership dari UTXO tertentu (melalui Seal Definition);
-- Hak eksekutif, yaitu kemampuan untuk membangun satu atau lebih Transisi Negara yang sesuai dengan Schema;
-- Hak publik, ketika Schema mengesahkan penggunaan publik tertentu, misalnya pembuatan State Extension melalui penukaran Valency.
+- Hak kepemilikan, terkait dengan _Ownership_ dari UTXO tertentu (melalui _Seal Definition_);
+- Hak eksekutif, yaitu kemampuan untuk membangun satu atau lebih _State Transition_ yang sesuai dengan Schema;
+- Hak publik, ketika Schema mengesahkan penggunaan publik tertentu, misalnya pembuatan _State Extension_ melalui penukaran _Valency_.

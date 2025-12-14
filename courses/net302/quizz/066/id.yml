@@ -1,0 +1,9 @@
+question: Apa saja dua masa pakai yang terkait dengan IPv6 Address yang ditetapkan secara otomatis?
+answer: Masa pakai yang lebih disukai dan masa pakai yang berlaku
+wrong_answers:
+  - Waktu sewa dan waktu tunggu
+  - Waktu untuk hidup dan kedaluwarsa
+  - Masa pakai awal dan masa pakai sekunder
+explanation: |
+  Masa pakai pilihan menentukan periode penggunaan normal Address dan masa pakai valid adalah periode total masa berlakunya.
+reviewed: false

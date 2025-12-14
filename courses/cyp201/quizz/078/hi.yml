@@ -1,0 +1,9 @@
+question: डिस्क्रिप्टर में उपसर्ग `wpkh` का क्या अर्थ है?
+answer: पे-टू-विटनेस-पबकी-Hash
+wrong_answers:
+  - पे-टू-पबकी
+  - जीडब्ल्यू-1
+  - साक्षी स्क्रिप्ट Hash
+explanation: |
+  उपसर्ग `wpkh` Pay-to-Witness-Public-Key-Hash पते का उपयोग करने वाली SegWit v0 स्क्रिप्ट को इंगित करता है।
+reviewed: false

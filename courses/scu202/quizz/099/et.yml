@@ -1,0 +1,9 @@
+question: Milline Wi-Fi krüpteerimisprotokoll on teie koduvõrgu kaitsmiseks parim?
+answer: WPA3
+wrong_answers:
+  - WPA
+  - WEP
+  - Kiire BSS
+explanation: |
+  WPA3 on uusim ja kõige turvalisem protokoll, mis parandab eelmiste versioonide puudused ja pakub paremat kaitset rünnakute vastu.
+reviewed: false

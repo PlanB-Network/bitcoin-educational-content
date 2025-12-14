@@ -1,0 +1,9 @@
+question: Apa fungsi utama MAC Address dalam jaringan lokal?
+answer: Mengidentifikasi jaringan secara unik Interface
+wrong_answers:
+  - Menerjemahkan nama domain menjadi IP Address
+  - Menetapkan IP Address secara dinamis ke sebuah host
+  - Tentukan kecepatan koneksi internet Anda
+explanation: |
+  MAC Address berfungsi sebagai pengenal perangkat keras yang unik untuk setiap jaringan Interface, sehingga perangkat dapat dibedakan secara fisik pada jaringan lokal.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Wat betekent "topologie" in een computernetwerk?
+answer: Hoe apparaten onderling verbonden zijn
+wrong_answers:
+  - Snelheid internetverbinding
+  - Het type protocol dat wordt gebruikt voor communicatie
+  - Naar het merk van de routers die in een netwerk worden gebruikt
+explanation: |
+  Topologie verwijst naar de fysieke of logische structuur van een netwerk en hoe de componenten verbonden zijn.
+reviewed: false

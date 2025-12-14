@@ -1,0 +1,9 @@
+question: Hangi terim bir MAC Address'ın ilk üç baytını ifade eder?
+answer: OUI (Organizasyonel Olarak Benzersiz Tanımlayıcı)
+wrong_answers:
+  - SID (Oturum Tanımlayıcı)
+  - LUI (Yerel Benzersiz Tanımlayıcı)
+  - PAN (Fiziksel Address Numarası)
+explanation: |
+  OUI, IEEE tarafından atanır ve bir MAC Address'deki ağ kartı üreticisini tanımlar.
+reviewed: false

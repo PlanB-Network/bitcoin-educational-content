@@ -1,0 +1,9 @@
+question: Wat is de ingebouwde antivirus in Windows?
+answer: Windows Verdediger
+wrong_answers:
+  - Kaspersky
+  - Norton
+  - McAfee
+explanation: |
+  Windows Defender is een ingebouwd antivirusprogramma voor Windows. Het is een veilige en effectieve oplossing om het systeem te beschermen tegen bedreigingen.
+reviewed: true

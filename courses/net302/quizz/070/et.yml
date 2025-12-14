@@ -1,0 +1,9 @@
+question: Kellel on lubatud IPv6-paketti fragmenteerida?
+answer: Ainult lähtekoha vastuvõtja
+wrong_answers:
+  - Ainult esimene vahepealne marsruuter
+  - Ainult sihtkohtade marsruuter
+  - Kõik marsruuterid
+explanation: |
+  IPv6 puhul teostab fragmenteerimist ainult lähtekoha host, mitte kunagi vahepealsed marsruuterid.
+reviewed: false

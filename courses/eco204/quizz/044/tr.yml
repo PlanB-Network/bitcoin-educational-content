@@ -1,0 +1,13 @@
+question: Bolivya'da 1985 yılında yıllık enflasyon oranı ne kadardı?
+answer: 11,749%
+wrong_answers:
+  - 12,800%
+  - 10,000%
+  - 15,000%
+explanation: |
+  1985 yılında Bolivya'nın yıllık enflasyon oranı %11,749'a ulaşmıştır
+  
+  neredeyse her ay enflasyonun hiperenflasyon eşiğine yakın ya da bu eşiği aşmış olması
+  
+  %50.'
+reviewed: false

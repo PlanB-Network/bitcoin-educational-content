@@ -1,0 +1,9 @@
+question: RGB hangi tarihsel kavramı dijital dünyaya uyguluyor?
+answer: Hamiline enstrümanlar
+wrong_answers:
+  - Merkezi veri tabanları
+  - Doğrulama olmadan eşler arası ağlar
+  - Herkesin erişimine açık kayıtlar
+explanation: |
+  RGB, taşıyıcı enstrümanlar fikrini dijital ortama aktarmaktadır.
+reviewed: false

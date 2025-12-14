@@ -1,0 +1,9 @@
+question: 在 Bitcoin Core 中激活哪个可选索引，以通过其 txid 查找交易？
+answer: txindex
+wrong_answers:
+  - addrindex
+  - blockindex
+  - electrumindex
+explanation: |
+  txindex=1 选项用于通过唯一标识符（txid）查找交易。
+reviewed: true

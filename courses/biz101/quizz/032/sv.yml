@@ -1,0 +1,9 @@
+question: Vad är fördelen med att börja i liten skala när man först tar emot Bitcoin-betalningar?
+answer: Det gör det möjligt för verksamheten att lära sig av några få inledande transaktioner och gradvis gå över till mer sofistikerade lösningar om kundernas efterfrågan ökar.
+wrong_answers:
+  - Det tvingar verksamheten att omedelbart endast använda lösningar för självförvaring.
+  - Det hindrar företaget från att uppgradera eller byta leverantör senare.
+  - Det kräver att ett företag accepterar Bitcoin från varje kund innan man förstår processen.
+explanation: |
+  Genom att börja med en enkel metod på startnivå kan företaget skaffa sig praktisk erfarenhet utan betydande risk. Om intresset för Bitcoin-betalningar visar sig vara värt besväret kan företaget sedan uppgradera sin infrastruktur och integrera mer avancerade verktyg.
+reviewed: false

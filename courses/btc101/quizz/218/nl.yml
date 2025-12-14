@@ -1,0 +1,9 @@
+question: Waarom kan een Lightning-kanaal in één richting onbruikbaar zijn?
+answer: Onvoldoende liquiditeit
+wrong_answers:
+  - Te recent blok
+  - Verlopen HTLC
+  - Niet-gesynchroniseerde node
+explanation: |
+  Zelfs met een grote capaciteit staat een kanaal een betaling alleen toe als er voldoende liquiditeit aan de juiste kant is.
+reviewed: false

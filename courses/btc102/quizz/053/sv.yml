@@ -1,0 +1,9 @@
+question: Vilken tjänst listar handlare som accepterar Bitcoin över hela världen?
+answer: BTC-karta
+wrong_answers:
+  - CoinMarketCap
+  - Bitcoin-samtal
+  - Schweizisk Bitcoin Betalning
+explanation: |
+  BTC Map är en dedikerad plattform som lokaliserar handlare som accepterar Bitcoin runt om i världen.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvorfor trenger en Miner en Bitcoin-node?
+answer: For å samhandle med nettverket og distribuere blokkene dine
+wrong_answers:
+  - Til generate digitale signaturer
+  - Slik legger du inn leveransen Address i Coinbase Transaction
+  - For å redusere vanskelighetsgraden av Mining
+explanation: |
+  Utvinnere bruker en node til å kommunisere med nettverket, overføre blokkene sine og motta transaksjoner.
+reviewed: true

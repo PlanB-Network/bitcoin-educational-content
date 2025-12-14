@@ -1,0 +1,9 @@
+question: Hoe wordt de controlesom berekend voor SegWit v0 adressen die gecodeerd zijn in bech32?
+answer: BCH-codes gebruiken
+wrong_answers:
+  - Door HASH256 twee keer toe te passen
+  - Door toevoeging van een RIPEMD160 Hash
+  - Door direct te coderen in base64
+explanation: |
+  Bech32-adressen gebruiken BCH-codes om de controlesom te berekenen.
+reviewed: false

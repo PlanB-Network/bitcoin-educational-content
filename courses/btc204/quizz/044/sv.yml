@@ -1,0 +1,9 @@
+question: Vilken mekanism används av matchningsplattformar på nätet för peer-to-peer (P2P) för att minska risken för stöld?
+answer: En spärrmekanism.
+wrong_answers:
+  - En säker matchningsalgoritm.
+  - En mekanism för verifiering av e-post.
+  - En mekanism för identitetsverifiering.
+explanation: |
+  Dessa plattformar använder vanligtvis en skyddsmekanism där bitcoins hålls tills säljaren bekräftar betalningen i fiatvaluta. Denna mekanism för innehav av en tredje part representerar vad som kallas en spärr.
+reviewed: false

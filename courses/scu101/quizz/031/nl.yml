@@ -1,0 +1,9 @@
+question: Wat moet je doen als je een virus ontdekt op je computer?
+answer: Verbreek de verbinding met internet, voer een volledige antivirusscan uit en verwijder geïnfecteerde bestanden.
+wrong_answers:
+  - Blijf de computer normaal gebruiken.
+  - Zet de computer uit en laat hem een paar uur uit staan.
+  - Verwijder alle bestanden op de computer.
+explanation: |
+  Als je een virus detecteert op je computer, koppel hem dan los van het internet om te voorkomen dat het virus zich verspreidt of communiceert met de hacker. Voer vervolgens een volledige antivirusscan uit en verwijder geïnfecteerde bestanden.
+reviewed: true

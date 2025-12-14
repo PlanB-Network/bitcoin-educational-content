@@ -1,0 +1,9 @@
+question: Que navegador de código aberto, desenvolvido por uma organização sem fins lucrativos, é o principal expoente do motor Gecko?
+answer: Mozilla Firefox
+wrong_answers:
+  - Corajoso
+  - Safari
+  - Cromado
+explanation: |
+  O Mozilla Firefox, desenvolvido pela Fundação Mozilla, é o principal navegador baseado em Gecko, conhecido pelo seu Commitment à privacidade.
+reviewed: false

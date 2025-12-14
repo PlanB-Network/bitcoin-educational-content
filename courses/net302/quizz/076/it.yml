@@ -1,0 +1,9 @@
+question: Quale algoritmo o documento regola la selezione tra IPv4 e IPv6 quando un nome ha entrambi i tipi di Address?
+answer: RFC 6724
+wrong_answers:
+  - RFC 1918
+  - RFC 4861
+  - RFC 1035
+explanation: |
+  RFC 6724 definisce l'algoritmo utilizzato per decidere se utilizzare l'indirizzo IPv4 o IPv6 quando entrambi sono disponibili per lo stesso nome host.
+reviewed: false

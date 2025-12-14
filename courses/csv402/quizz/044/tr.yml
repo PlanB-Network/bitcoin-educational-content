@@ -1,0 +1,9 @@
+question: Eski bir durum yayınlanırsa bir Yıldırım kanalında RGB geçişinin güvenliği nasıl sağlanır?
+answer: Yıldırım Kanalının cezalandırıcı mekaniği sayesinde
+wrong_answers:
+  - Önceki tüm işlemleri otomatik olarak iptal ederek
+  - RGB protokolünün cezalandırıcı mekaniği sayesinde
+  - RGB varlık ihraççısının Genesis ile ilişkili imzası aracılığıyla müdahalesi yoluyla
+explanation: |
+  Lightning Network'ün klasik cezalandırma mekanizması, eski bir durumun yayılmasının, RGB varlıkları da dahil olmak üzere ilgili tüm fonların geri alınmasıyla cezalandırılabilmesini sağlar.
+reviewed: false

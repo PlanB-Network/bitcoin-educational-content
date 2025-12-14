@@ -1,0 +1,9 @@
+question: Wat kun je met een uitgebreide openbare sleutel afleiden?
+answer: Alleen normale openbare kindersleutels
+wrong_answers:
+  - Alleen normale privésleutels voor kinderen
+  - Zowel geharde als normale openbare kindersleutels
+  - Zowel geharde als normale privésleutels voor kinderen
+explanation: |
+  Met een uitgebreide openbare sleutel kunnen alleen normale openbare kindsleutels worden afgeleid, geen privésleutels of verharde sleutels.
+reviewed: false

@@ -1,6 +1,6 @@
 ---
 name: Mchango - Mafunzo ya Wavuti ya GitHub (mwanzo)
-description: Mwongozo kamili wa mafunzo ya Plan ₿ Network na GitHub Web
+description: Mwongozo kamili wa mafunzo ya Plan ₿ Academy na GitHub Web
 ---
 ![cover](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Mwongozo kamili wa mafunzo ya Plan ₿ Network na GitHub Web
 Kabla ya kufuata mafunzo haya juu ya kuongeza mafunzo mapya, unahitaji kuwa umekamilisha hatua chache za awali. Ikiwa bado hujafanya hivyo, tafadhali angalia mafunzo haya ya utangulizi kwanza, kisha urudi hapa:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Tayari unayo:
 
@@ -16,25 +16,25 @@ Tayari unayo:
 
 
 - Chagua mada ya mafunzo yako;
-- Iliwasiliana na timu ya Plan ₿ Network kupitia [Telegram group](https://t.me/PlanBNetwork_ContentBuilder) au paolo@planb.network ;
+- Iliwasiliana na timu ya Plan ₿ Academy kupitia [Telegram group](https://t.me/PlanBNetwork_ContentBuilder) au paolo@planb.network ;
 - Chagua zana zako za mchango.
 
 
-Katika somo hili, tutaangalia jinsi ya kuongeza mafunzo yako kwa Plan ₿ Network kwa kutumia toleo la wavuti la GitHub. Ikiwa tayari umeijua Git, mafunzo haya ya kina inaweza kuwa sio lazima kwako. Badala yake, ninapendekeza uangalie moja ya mafunzo haya mengine 2, ambapo ninaelezea miongozo ya kufuata na hatua za kufanya mabadiliko kutoka kwa local :
+Katika somo hili, tutaangalia jinsi ya kuongeza mafunzo yako kwa Plan ₿ Academy kwa kutumia toleo la wavuti la GitHub. Ikiwa tayari umeijua Git, mafunzo haya ya kina yanaweza kuwa sio lazima kwako. Badala yake, ninapendekeza uangalie moja ya mafunzo haya mengine 2, ambapo ninaelezea miongozo ya kufuata na hatua za kufanya mabadiliko kutoka kwa local:
 
 
 
 
-- Watumiaji wenye uzoefu** :
+- **Watumiaji wenye uzoefu**:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 
-- Ya kati (Desktop ya GitHub)** :
+- **Ya kati (Desktop ya GitHub)**:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 ## Masharti
 
@@ -45,27 +45,27 @@ Masharti kabla ya kuanza mafunzo:
 
 
 - Kuwa na [akaunti ya GitHub](https://github.com/signup);
-- Kuwa na Fork ya [Plan ₿ Network chanzo hazina](https://github.com/PlanB-Network/Bitcoin-educational-content);
-- Kuwa na [wasifu wa mwalimu kwenye Plan ₿ Network](https://planb.network/professors) (ikiwa tu utatoa mafunzo kamili).
+- Kuwa na Fork ya [Plan ₿ Academy chanzo hazina](https://github.com/PlanB-Network/Bitcoin-educational-content);
+- Kuwa na [wasifu wa mwalimu kwenye Plan ₿ Academy](https://planb.academy/professors) (ikiwa tu utatoa mafunzo kamili).
 
 
 Ikiwa unahitaji usaidizi kupata mahitaji haya, mafunzo yangu mengine yatasaidia:
 
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+https://planb.academy/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
-Mara tu kila kitu kitakapowekwa na unayo Fork yako ya hazina ya Plan ₿ Network, unaweza kuanza kuongeza mafunzo.
+Mara tu kila kitu kitakapowekwa na unayo Fork yako ya hazina ya Plan ₿ Academy, unaweza kuanza kuongeza mafunzo.
 
 
 ## 1 - Unda tawi jipya
 
 
-Fungua kivinjari chako na uende kwenye ukurasa wako wa Fork kwenye hazina ya Plan ₿ Network. Hii ndiyo Fork uliyoanzisha kwenye GitHub. URL ya Fork yako inapaswa kuonekana hivi: `https://github.com/[your-username]/Bitcoin-educational-content` :
+Fungua kivinjari chako na uende kwenye ukurasa wako wa Fork kwenye hazina ya Plan ₿ Academy. Hii ndiyo Fork uliyoanzisha kwenye GitHub. URL ya Fork yako inapaswa kuonekana hivi: `https://github.com/[your-username]/Bitcoin-educational-content`:
 
 
 ![GITHUB](assets/fr/01.webp)
@@ -77,7 +77,7 @@ Hakikisha uko kwenye tawi kuu la `dev`, kisha ubofye kitufe cha "*Sync Fork*". I
 ![GITHUB](assets/fr/02.webp)
 
 
-Bofya kwenye tawi la `dev`, kisha ulipe tawi lako linalofanya kazi ili jina lake lionyeshe waziwazi madhumuni yake, kwa kutumia vistari kutenganisha maneno. Kwa mfano, ikiwa lengo letu ni kuandika mafunzo kuhusu kutumia Green Wallet, tawi linaweza kuitwa: `tuto-Green-Wallet-loic`. Baada ya kuingiza jina linalofaa, bofya "*Unda tawi*" ili kuthibitisha kuundwa kwa tawi lako jipya kulingana na `dev` :
+Bofya kwenye tawi la `dev`, kisha ulipe tawi lako linalofanya kazi ili jina lake lionyeshe waziwazi madhumuni yake, kwa kutumia vistari kutenganisha maneno. Kwa mfano, ikiwa lengo letu ni kuandika mafunzo kuhusu kutumia Green Wallet, tawi linaweza kuitwa: `tuto-Green-Wallet-loic`. Baada ya kuingiza jina linalofaa, bofya "*Unda tawi*" ili kuthibitisha kuundwa kwa tawi lako jipya kulingana na `dev`:
 
 
 ![GITHUB](assets/fr/03.webp)
@@ -92,10 +92,10 @@ Unapaswa sasa kuwa kwenye tawi lako jipya la kazi:
 Hii inamaanisha kuwa mabadiliko yoyote utakayofanya yatahifadhiwa kwenye tawi hilo mahususi pekee.
 
 
-Kwa kila makala mpya unayopanga kuchapisha, unda tawi jipya kutoka `dev`.
+Kwa kila makala mapya unayopanga kuchapisha, unda tawi jipya kutoka `dev`.
 
 
-Tawi katika Git inawakilisha toleo sambamba la mradi, hukuruhusu kufanya kazi kwenye marekebisho bila kuathiri tawi kuu, hadi kazi yako iko tayari kuunganishwa.
+Tawi katika Git linawakilisha toleo sambamba la mradi, hukuruhusu kufanya kazi kwenye marekebisho bila kuathiri tawi kuu, hadi kazi yako iko tayari kuunganishwa.
 
 
 ## 2 - Ongeza faili za mafunzo
@@ -104,13 +104,13 @@ Tawi katika Git inawakilisha toleo sambamba la mradi, hukuruhusu kufanya kazi kw
 Kwa kuwa sasa tawi la kufanya kazi limeundwa, ni wakati wa kuunganisha mafunzo yako mapya.
 
 
-Ndani ya faili zako za tawi, utahitaji kupata folda ndogo inayofaa kwa uwekaji wa mafunzo yako. Mpangilio wa folda huonyesha sehemu tofauti za tovuti ya Plan ₿ Network. Katika mfano wetu, kwa kuwa tunaongeza mafunzo kwenye Green Wallet, nenda kwa njia ifuatayo: `Bitcoin-maudhui-ya-elimu\tutorials\Wallet` ambayo inalingana na sehemu ya `Wallet` ya tovuti:
+Ndani ya faili zako za tawi, utahitaji kupata folda ndogo inayofaa kwa uwekaji wa mafunzo yako. Mpangilio wa folda huonyesha sehemu tofauti za tovuti ya Plan ₿ Academy. Katika mfano wetu, kwa kuwa tunaongeza mafunzo kwenye Green Wallet, nenda kwa njia ifuatayo: `Bitcoin-maudhui-ya-elimu\tutorials\Wallet` ambayo inalingana na sehemu ya `Wallet` ya tovuti:
 
 
 ![GITHUB](assets/fr/05.webp)
 
 
-Katika folda ya `Wallet`, unda saraka mpya iliyoundwa mahususi kwa mafunzo yako. Jina la folda hii linapaswa kuonyesha wazi programu iliyofunikwa kwenye mafunzo, kwa kutumia vistari kuunganisha maneno. Kwa mfano wangu, folda itaitwa `Green-Wallet`. Bofya kwenye "*Ongeza Faili*" kisha kwenye "*Unda faili mpya*" :
+Katika folda ya `Wallet`, unda saraka mpya iliyoundwa mahususi kwa mafunzo yako. Jina la folda hii linapaswa kuonyesha wazi programu iliyofunikwa kwenye mafunzo, kwa kutumia vistari kuunganisha maneno. Kwa mfano wangu, folda itaitwa `Green-Wallet`. Bofya kwenye "*Ongeza Faili*" kisha kwenye "*Unda faili mpya*":
 
 
 ![GITHUB](assets/fr/06.webp)
@@ -151,7 +151,7 @@ bitcoin-educational-content/
 ## 3 - Jaza faili ya YAML
 
 
-Hebu tuanze na faili ya YAML. Katika kisanduku cha kuunda faili mpya, ingiza `tutorial.yml` :
+Hebu tuanze na faili ya YAML. Katika kisanduku cha kuunda faili mpya, ingiza `tutorial.yml`:
 
 
 ![GITHUB](assets/fr/08.webp)
@@ -193,23 +193,23 @@ Hapa kuna sehemu zinazohitajika:
 
 
 
-- id** : UUID (_Kitambulisho cha Kipekee cha Universally_) ambacho hutambulisha mafunzo kwa njia ya kipekee. Unaweza generate kwa kutumia [zana ya mtandaoni](https://www.uuidgenerator.net/version4). Sharti pekee ni kwamba UUID hii ni ya nasibu ili kuepusha migongano na UUID nyingine kwenye jukwaa;
+- **id**: UUID (_Kitambulisho cha Kipekee cha Universally_) ambacho hutambulisha mafunzo kwa njia ya kipekee. Unaweza generate kwa kutumia [zana ya mtandaoni](https://www.uuidgenerator.net/version4). Sharti pekee ni kwamba UUID hii ni ya nasibu ili kuepusha migongano na UUID nyingine kwenye jukwaa;
 
 
 
-- project_id** : UUID ya kampuni au shirika nyuma ya zana iliyowasilishwa kwenye mafunzo [kutoka kwenye orodha ya mradi](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Kwa mfano, ikiwa unaunda mafunzo kuhusu programu ya Green Wallet, unaweza kupata `project_id` hii katika faili ifuatayo: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Maelezo haya yanaongezwa kwenye faili ya mafunzo yako ya YAML kwa sababu Plan ₿ Network ina hifadhidata ya makampuni na mashirika yote yanayofanya kazi kwenye Bitcoin au miradi inayohusiana. Kwa kuongeza `project_id` ya huluki iliyounganishwa kwenye mafunzo yako, unaunda kiungo kati ya Elements mbili;
+- **project_id**: UUID ya kampuni au shirika nyuma ya zana iliyowasilishwa kwenye mafunzo [kutoka kwenye orodha ya mradi](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Kwa mfano, ikiwa unaunda mafunzo kuhusu programu ya Green Wallet, unaweza kupata `project_id` hii katika faili ifuatayo: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Maelezo haya yanaongezwa kwenye faili ya mafunzo yako ya YAML kwa sababu Plan ₿ Academy ina hifadhidata ya makampuni na mashirika yote yanayofanya kazi kwenye Bitcoin au miradi inayohusiana. Kwa kuongeza `project_id` ya huluki iliyounganishwa kwenye mafunzo yako, unaunda kiungo kati ya Elements mbili;
 
 
 
-- tags** : Maneno muhimu 2 au 3 yanayohusiana na maudhui ya mafunzo, yaliyochaguliwa pekee [kutoka kwa orodha ya lebo za Plan ₿ Network](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: Maneno muhimu 2 au 3 yanayohusiana na maudhui ya mafunzo, yaliyochaguliwa pekee [kutoka kwa orodha ya lebo za Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- kategoria** : Kitengo kidogo kinacholingana na maudhui ya mafunzo, kulingana na muundo wa tovuti ya Plan ₿ Network (kwa mfano, kwa pochi: `desktop`, `hardware`, `mobile`, `chelezo`);
+- **kategoria**: Kitengo kidogo kinacholingana na maudhui ya mafunzo, kulingana na muundo wa tovuti ya Plan ₿ Academy (kwa mfano, kwa pochi: `desktop`, `hardware`, `mobile`, `chelezo`);
 
 
 
-- kiwango** : Kiwango cha ugumu cha mafunzo, kilichochaguliwa kutoka:
+- **kiwango**: Kiwango cha ugumu cha mafunzo, kilichochaguliwa kutoka:
     - `Mwanzo`
     - `katikati`
     - `advanced`
@@ -217,26 +217,26 @@ Hapa kuna sehemu zinazohitajika:
 
 
 
-- professor_id** : `professor_id` (UUID) yako kama inavyoonyeshwa kwenye [wasifu wako wa profesa](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: `professor_id` (UUID) yako kama inavyoonyeshwa kwenye [wasifu wako wa profesa](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 
-- lugha_asilia** : Lugha asilia ya mafunzo (k.m., `fr`, `en`, n.k.);
+- **lugha_asilia**: Lugha asilia ya mafunzo (k.m., `fr`, `en`, n.k.);
 
 
 
-- kusahihisha** : Taarifa kuhusu mchakato wa kusahihisha. Kamilisha sehemu ya kwanza, kwani kusahihisha mafunzo yako mwenyewe kunahesabiwa kama uthibitisho wa kwanza:
-    - lugha** : Msimbo wa lugha wa kusahihisha (k.m., `fr`, `en`, n.k.).
-    - tarehe_ya_mwisho_mchango** : Tarehe ya siku.
-    - dharura** : 1
-    - contributor_names** : Kitambulisho chako cha GitHub.
-    - malipo**: 0
+- **kusahihisha**: Taarifa kuhusu mchakato wa kusahihisha. Kamilisha sehemu ya kwanza, kwani kusahihisha mafunzo yako mwenyewe kunahesabiwa kama uthibitisho wa kwanza:
+    - **lugha**: Msimbo wa lugha wa kusahihisha (k.m., `fr`, `en`, n.k.).
+    - **tarehe_ya_mwisho_mchango**: Tarehe ya siku.
+    - **dharura**: 1
+    - **contributor_names**: Kitambulisho chako cha GitHub.
+    - **malipo**: 0
 
 
-Kwa maelezo zaidi kuhusu kitambulisho chako cha mwalimu, tafadhali rejelea mafunzo yanayolingana :
+Kwa maelezo zaidi kuhusu kitambulisho chako cha ualimu, tafadhali rejelea mafunzo yanayolingana:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -282,7 +282,7 @@ Ongeza kichwa na maelezo, na uhakikishe kuwa ahadi imefanywa kwa tawi ulilounda 
 ## 4 - Kuunda folda ndogo za picha
 
 
-Bonyeza "*Ongeza Faili*" tena kisha kwenye "*Unda faili mpya*" :
+Bonyeza "*Ongeza Faili*" tena kisha kwenye "*Unda faili mpya*":
 
 
 ![GITHUB](assets/fr/11.webp)
@@ -415,7 +415,7 @@ Endelea kuandika mafunzo yako kwa kubainisha maudhui yako katika faili ya Markdo
 ![GITHUB](assets/fr/28.webp)
 
 
-Anza kuandika mafunzo yako. Unapoongeza manukuu, tumia umbizo la Markdown linalofaa kwa kuweka maandishi kwa `##` :
+Anza kuandika mafunzo yako. Unapoongeza manukuu, tumia umbizo la Markdown linalofaa kwa kuweka maandishi kwa `##`:
 
 
 ![GITHUB](assets/fr/29.webp)
@@ -474,19 +474,19 @@ Alama ya mshangao mwanzoni inaonyesha picha. Maandishi mbadala, ambayo husaidia 
 ![GITHUB](assets/fr/35.webp)
 
 
-Ikiwa ungependa kuunda michoro yako mwenyewe, hakikisha unafuata miongozo ya picha ya Plan ₿ Network ili kuhakikisha uthabiti wa kuona:
+Ikiwa ungependa kuunda michoro yako mwenyewe, hakikisha unafuata miongozo ya picha ya Plan ₿ Academy ili kuhakikisha uthabiti wa kuona:
 
 
 
 
-- Fonti**: Tumia [Rubik](https://fonts.google.com/specimen/Rubik);
-- Rangi** :
+- **Fonti**: Tumia [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Rangi**:
  - Chungwa: #FF5C00
- - Nyeusi : #000000
+ - Nyeusi: #000000
  - Nyeupe: #FFFFFF
 
 
-**Ni muhimu kwamba taswira zote zilizojumuishwa katika mafunzo yako hazina hakimiliki au ziheshimu leseni ya faili chanzo**. Kwa hiyo, michoro zote zilizochapishwa kwenye Plan ₿ Network zinapatikana chini ya leseni ya CC-BY-SA, kwa njia sawa na maandishi.
+**Ni muhimu kwamba taswira zote zilizojumuishwa katika mafunzo yako hazina hakimiliki au ziheshimu leseni ya faili chanzo**. Kwa hiyo, michoro zote zilizochapishwa kwenye Plan ₿ Academy zinapatikana chini ya leseni ya CC-BY-SA, kwa njia sawa na maandishi.
 
 
 **-> Kidokezo:** Unaposhiriki faili hadharani, kama vile picha, ni muhimu kuondoa metadata isiyo ya kawaida. Hii inaweza kuwa na taarifa nyeti, kama vile data ya eneo, tarehe za kuundwa na maelezo ya mwandishi. Ili kulinda faragha yako, ni vyema uondoe metadata hii. Ili kurahisisha utendakazi huu, unaweza kutumia zana maalum kama vile [Exif Cleaner](https://exifcleaner.com/), ambayo hukuwezesha kusafisha metadata ya hati kwa kuburuta na kudondosha rahisi.
@@ -498,13 +498,13 @@ Ikiwa ungependa kuunda michoro yako mwenyewe, hakikisha unafuata miongozo ya pic
 Mara tu unapomaliza kuandika mafunzo yako katika lugha unayochagua, hatua inayofuata ni kuwasilisha **Ombi la Kuvuta**. Kisha msimamizi ataongeza tafsiri zinazokosekana kwenye mafunzo yako, kwa kutumia mbinu yetu ya kutafsiri kiotomatiki na kusahihisha kibinadamu.
 
 
-Ili kuendelea na Ombi la Kuvuta, baada ya kuhifadhi mabadiliko yako yote, bofya kitufe cha "*Changia*", kisha kwenye "*Fungua ombi la kuvuta*" :
+Ili kuendelea na Ombi la Kuvuta, baada ya kuhifadhi mabadiliko yako yote, bofya kitufe cha "*Changia*", kisha kwenye "*Fungua ombi la kuvuta*":
 
 
 ![GITHUB](assets/fr/36.webp)
 
 
-Ombi la Kuvuta ni ombi linalofanywa ili kujumuisha mabadiliko kutoka kwa tawi lako hadi tawi kuu la hazina ya Plan ₿ Network, ambayo inaruhusu ukaguzi na majadiliano ya mabadiliko kabla ya kuunganishwa.
+Ombi la Kuvuta ni ombi linalofanywa ili kujumuisha mabadiliko kutoka kwa tawi lako hadi tawi kuu la hazina ya Plan ₿ Academy, ambayo inaruhusu ukaguzi na majadiliano ya mabadiliko kabla ya kuunganishwa.
 
 
 Kabla ya kuendelea, angalia kwa makini chini ya Interface kwamba mabadiliko haya ndiyo uliyotarajia:
@@ -513,7 +513,7 @@ Kabla ya kuendelea, angalia kwa makini chini ya Interface kwamba mabadiliko haya
 ![GITHUB](assets/fr/37.webp)
 
 
-Hakikisha, katika sehemu ya juu ya Interface, kwamba tawi lako la kazi limeunganishwa kwenye tawi la `dev` la hazina ya Plan ₿ Network (ambalo ndilo tawi kuu).
+Hakikisha, katika sehemu ya juu ya Interface, kwamba tawi lako la kazi limeunganishwa kwenye tawi la `dev` la hazina ya Plan ₿ Academy (ambalo ndilo tawi kuu).
 
 
 Weka jina ambalo linatoa muhtasari wa mabadiliko unayotaka kuunganisha na hazina ya chanzo. Ongeza maoni mafupi yanayoelezea mabadiliko haya (ikiwa una nambari ya toleo inayohusishwa na uundaji wa mafunzo yako, kumbuka kukumbuka `Hufunga #{nambari ya toleo}` kama maoni), kisha ubofye kitufe cha Green "*Tengeneza ombi la kuvuta*" ili kuthibitisha ombi la kuunganisha:
@@ -522,7 +522,7 @@ Weka jina ambalo linatoa muhtasari wa mabadiliko unayotaka kuunganisha na hazina
 ![GITHUB](assets/fr/38.webp)
 
 
-PR yako kisha itaonekana kwenye kichupo cha "*Vuta Ombi*" cha hazina kuu ya Plan ₿ Network. Unachohitajika kufanya sasa ni kusubiri hadi msimamizi awasiliane nawe ili kuthibitisha kuwa mchango wako umeunganishwa, au kuomba marekebisho mengine.
+PR yako kisha itaonekana kwenye kichupo cha "*Vuta Ombi*" cha hazina kuu ya Plan ₿ Academy. Unachohitajika kufanya sasa ni kusubiri hadi msimamizi awasiliane nawe ili kuthibitisha kuwa mchango wako umeunganishwa, au kuomba marekebisho mengine.
 
 
 ![GITHUB](assets/fr/39.webp)
@@ -540,7 +540,7 @@ Ikiwa ungependa kufanya mabadiliko kwenye mchango wako baada ya kuwa tayari kuwa
 
 
 - Ikiwa PR yako bado imefunguliwa na bado haijaunganishwa, fanya mabadiliko kwenye tawi la kazi sawa. Mabadiliko ya ahadi yataongezwa kwa PR yako ambayo bado imefunguliwa;
-- Katika tukio ambalo PR yako tayari imeunganishwa na tawi kuu, utahitaji kufanya upya mchakato tangu mwanzo kwa kuunda tawi jipya, kisha kuwasilisha PR mpya. Hakikisha Fork yako imelandanishwa na hazina ya chanzo cha Plan ₿ Network kwenye tawi la `dev` kabla ya kuendelea.
+- Katika tukio ambalo PR yako tayari imeunganishwa na tawi kuu, utahitaji kufanya upya mchakato tangu mwanzo kwa kuunda tawi jipya, kisha kuwasilisha PR mpya. Hakikisha Fork yako imelandanishwa na hazina ya chanzo cha Plan ₿ Academy kwenye tawi la `dev` kabla ya kuendelea.
 
 
 Iwapo una matatizo ya kiufundi kuwasilisha mafunzo yako, tafadhali usisite kuomba usaidizi kwenye [kikundi chetu maalum cha Telegram kwa michango](https://t.me/PlanBNetwork_ContentBuilder). Asante sana!

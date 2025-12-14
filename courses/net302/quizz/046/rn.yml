@@ -1,0 +1,9 @@
+question: Ni iyihe porotokole ikoreshwa mu gufatanya IP Address na MAC Address ku rubuga rwa Ethernet?
+answer: ARP
+wrong_answers:
+  - GUSAMBURA
+  - DNS
+  - OSPF
+explanation: |
+  Itegeko ry’ugutorera umuti ibibazo rya Address (ARP) rishushanya amaderesi ya IP n’amaderesi ya MAC ku nzira z’imbere mu gihugu.
+reviewed: false

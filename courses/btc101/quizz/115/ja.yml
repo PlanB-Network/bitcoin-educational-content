@@ -1,9 +1,9 @@
-question: Satoshi Nakamotoの後でBitcoinネットワークに参加した最初の人物は誰ですか？
-answer: Hal Finney.
+question: 2009年以降、ビットコインのオンラインでの可用性はどの程度でしたか？
+answer: 99.988%。
 wrong_answers:
-  - Laszlo Hanyecz.
-  - Phil Champagne.
-  - Rogzy.
+  - 100%。
+  - 90.009%。
+  - 80.17%。
 explanation: |
-  Hal FinneyはSatoshi Nakamoto自身の後でBitcoinネットワークに参加した最初の人物でした。彼はその機会を記念してRunning Bitcoinとツイートしました。
-  レビュー済み: true
+  2009年以降、ビットコインのオンラインでの可用性は99.988%です。
+reviewed: true

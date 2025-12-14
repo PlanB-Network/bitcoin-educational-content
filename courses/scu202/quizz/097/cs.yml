@@ -1,0 +1,9 @@
+question: Která služba nahrazuje službu ISP DNS a chrání důvěrnost webových požadavků?
+answer: Quad9
+wrong_answers:
+  - Google DNS
+  - DHCP
+  - SMTP
+explanation: |
+  Quad9 je veřejný server DNS zaměřený na ochranu soukromí, který filtruje škodlivé domény a neuchovává žádné jmenné protokoly.
+reviewed: false

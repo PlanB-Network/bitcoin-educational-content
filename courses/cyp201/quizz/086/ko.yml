@@ -1,0 +1,9 @@
+question: Bech32로 인코딩된 SegWit v0 주소의 체크섬은 어떻게 계산되나요?
+answer: BCH 코드 사용
+wrong_answers:
+  - HASH256을 두 번 적용하여
+  - RIPEMD160 Hash을 추가하여
+  - Base64로 직접 인코딩하여
+explanation: |
+  Bech32 주소는 BCH 코드를 사용하여 체크섬을 계산합니다.
+reviewed: false

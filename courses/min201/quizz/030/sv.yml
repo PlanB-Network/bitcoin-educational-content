@@ -1,0 +1,12 @@
+question: Vad är det potentiella hotet från Proof of Stake i Bitcoin-nätverket?
+answer: De som redan innehar en stor del av valutan har oproportionerligt stor makt, vilket återspeglar befintliga maktskillnader.
+wrong_answers:
+  - Det skulle utgöra ett betydande hinder för validerare som innehar en stor mängd valuta.
+  - Det ger inte utrymme för småskaligt deltagande.
+  - Det kräver inga materiella resurser.
+explanation: |
+  I ett Proof of Stake-nätverk har de som redan innehar en stor mängd
+  av valutan har oproportionerligt stor makt. Denna
+  dynamik kan potentiellt upprätthålla centralisering och
+  maktkoncentration i händerna på ett fåtal.
+reviewed: true

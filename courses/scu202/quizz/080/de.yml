@@ -1,0 +1,9 @@
+question: Welches sind die wichtigsten Kriterien, die vor der Auswahl einer Messaging-Anwendung geprüft werden sollten?
+answer: End-to-End-Verschlüsselung und offener Quellcode
+wrong_answers:
+  - Starke Authentifizierung und offener Quellcode
+  - Ende-zu-Ende-Verschlüsselung und dezentralisierte Server
+  - Starke Authentifizierung und dezentralisierte Server
+explanation: |
+  Die Ende-zu-Ende-Verschlüsselung gewährleistet die Vertraulichkeit des Datenaustauschs, und dank der offenen Quellen ist es möglich, die korrekte Umsetzung dieser Sicherheit zu überprüfen.
+reviewed: false

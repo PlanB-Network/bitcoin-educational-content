@@ -6,4 +6,4 @@ wrong_answers:
   - Grâce à la limitation du nombre de transactions par utilisateur.
 explanation: |
   Pour confirmer l'absence d'une transaction, et donc éviter la double dépense, il faut que chaque utilisateur soit au courant de toutes les transactions exécutées dans le passé.
-reviewed: false
+reviewed: true 

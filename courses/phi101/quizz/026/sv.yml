@@ -1,0 +1,9 @@
+question: Vad är den grekiska polisen?
+answer: Marknadsplatsen
+wrong_answers:
+  - Naturlagarna
+  - Mänsklig rätt
+  - Templet är tillägnat gudarna
+explanation: |
+  Den grekiska polis syftar på stadsstaten, en politisk och social organisation där medborgarna deltar i det offentliga livet och tar del i kollektiva beslut. Den utgör ramen för demokrati och medborgarskap i det antika Grekland.
+reviewed: true

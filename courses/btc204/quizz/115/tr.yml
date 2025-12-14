@@ -1,0 +1,10 @@
+question: Bitcoin bağlamında sekme nedir?
+answer: Kendi kendine birden fazla işlem yapmayı içeren bir teknik
+wrong_answers:
+  - Birden fazla katılımcının yer aldığı işbirliğine dayalı bir işlem
+  - Muhtemel anonimliği artırmak için bitcoinleri karıştırma yöntemi
+  - Belirli Exchange platformlarına özgü bir CoinJoin türü
+explanation: |
+  Sekme, kişinin kendi kendine birkaç hayali işlem yapmasını (süpürme) içeren bir tekniktir.
+  
+reviewed: false

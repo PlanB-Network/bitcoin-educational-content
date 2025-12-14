@@ -1,11 +1,9 @@
-question: Hva er skalerbarhetsproblemet til Bitcoin?
-answer: Utfordringen med å implementere et monetært system som er i stand til å tilby et stadig økende antall transaksjoner per sekund etter hvert som det blir adoptert.
+question: Hva er det sentrale prinsippet i RGB?
+answer: Klientside-validering
 wrong_answers:
-  - Vanskeligheten med å utvinne nye Bitcoins.
-  - Volatiliteten til Bitcoins pris.
-  - Mangelen på regulering for Bitcoin.
-explanation: >-
-  Skalerbarhetsproblemet refererer til utfordringen med å implementere et monetært
-  system som er i stand til å tilby et stadig økende antall transaksjoner per sekund
-  etter hvert som det blir adoptert.
+  - Global kjøring på blokkjeden
+  - Føderert konsensus
+  - Proof-of-Work
+explanation: |
+  RGB er basert på lokal validering av tilstander, der blokkjeden kun fungerer som et kryptografisk anker og beskyttelse mot dobbeltbruk.
 reviewed: false

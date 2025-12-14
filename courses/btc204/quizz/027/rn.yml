@@ -1,0 +1,9 @@
+question: Ni ubuhe buhinga bufasha gukingira ingorane zo gukurikirana ziterwa na KYC?
+answer: CoinJoin ubucuruzi
+wrong_answers:
+  - Ikoreshwa rya VPN
+  - Ikoreshwa ry’igikoresho citwa Full node.
+  - Kwemeza biciye ku Proof of Work.
+explanation: |
+  Coinjoins zifise ingaruka zo guca amateka ya Coin, ivyo bikaba bigufasha kurwanya ingorane zo gukurikirana zijanye n’ivyo KYC ikora.
+reviewed: false

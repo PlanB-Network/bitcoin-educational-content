@@ -1,0 +1,12 @@
+question: Wat is een hulpmiddel voor het accepteren van Bitcoin voor grote organisaties of gepassioneerde Bitcoin liefhebbers?
+answer: BTCpay-server.
+wrong_answers:
+  - Bitcoin Wallet.
+  - Bitcoin Exchange.
+  - BTCpay Mining.
+explanation: |
+  BTCpay Server is een hulpmiddel voor het accepteren van Bitcoin voor grote
+  structuren of gepassioneerde bitcoiners. Andere oplossingen
+  zijn OpenNode voor eenvoudige online bedrijven en Swiss
+  Bitcoin Pay voor amateurhandelaars.
+reviewed: true

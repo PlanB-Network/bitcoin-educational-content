@@ -1,0 +1,9 @@
+question: 整合到 CalyxOS 的 MicroG 是什麼？
+answer: 免費重新實作 Google 服務
+wrong_answers:
+  - 權限管理員
+  - 適用於 Android 的開放原始碼 VPN
+  - Google 專屬的防毒軟體
+explanation: |
+  MicroG 是開放原始碼的替代方案，可讓您在不安裝官方二進位檔案的情況下，執行依賴 Google API 的應用程式。
+reviewed: false

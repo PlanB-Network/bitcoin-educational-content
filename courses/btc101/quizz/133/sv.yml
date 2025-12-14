@@ -1,0 +1,9 @@
+question: Vilken är den nuvarande storleken på Bitcoin Blockchain?
+answer: Cirka 500 GB.
+wrong_answers:
+  - Cirka 100 GB.
+  - Cirka 1 TB.
+  - Cirka 2 TB.
+explanation: |
+  Bitcoin Blockchain har en storlek på cirka 500 GB år 2023.
+reviewed: true

@@ -1,11 +1,9 @@
-question: Quel est le problème de scalabilité de Bitcoin ?
-answer: Le défi de mettre en place un système monétaire capable de fournir un nombre toujours croissant de transactions par seconde à mesure qu'il est adopté.
+question: Quel est le principe central de RGB ?
+answer: La validation côté client
 wrong_answers:
-  - La difficulté de miner de nouveaux Bitcoins avec une valeur augmentant au fil du temps.
-  - La volatilité du prix du Bitcoin qui augmentera après chaque halving.
-  - Le manque de régulation pour Bitcoin qui rendra les transactions illégales.
-explanation: >-
-  Le problème de scalabilité fait référence au défi de mettre en place un système
-  monétaire capable de fournir un nombre toujours croissant de transactions par seconde
-  à mesure qu'il est adopté.
-reviewed: true
+  - L'exécution globale sur la blockchain
+  - Le consensus fédéré
+  - La Proof-of-Work
+explanation: |
+  RGB repose sur une validation locale des états, la blockchain servant seulement d’ancrage cryptographique et de protection face à la double dépense.
+reviewed: false

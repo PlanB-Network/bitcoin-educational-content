@@ -1,8 +1,8 @@
-question: 在 Lightning Network 的背景下，資金流的概念是什麼？
-answer: 進行連續、即時的微額付款。
+question: 人工智能技術進步的一個潛在影響是什麼？
+answer: AI 技術將導致今天超過 80% 的工作消失。
 wrong_answers:
-  - 在實體地點使用自動提款機將 Bitcoin 兌換成現金。
-  - Bitcoin 的串流音訊或視訊內容。
-  - 透過即時發生的 Mining 作業創造新的 bitcoins。
+  - AI 技術會摧毀所有電腦。
+  - AI 技術會導致人類智慧降低。
+  - AI 技術將導致全球經濟崩潰。
 explanation: >-
 reviewed: true

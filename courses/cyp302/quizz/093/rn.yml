@@ -1,0 +1,9 @@
+question: Ni ubuhe bunini bw’ibarabara ry’ibarabara ry’ibarabara?
+answer: 64, 128, 192 canke 256
+wrong_answers:
+  - 8, 16, 32, canke 64
+  - 4, 8, 16, canke 32
+  - 256, 512, 1024, canke ibice 2048
+explanation: |
+  Ivyuma bifata amakuru bikora amakuru mu bice bifise ubunini butahinduka, mu bisanzwe bikaba bifise ibice 64, 128, 192 canke 256, kugira ngo bibe vyiza kandi bibe vyiza.
+reviewed: false

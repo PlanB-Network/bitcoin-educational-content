@@ -1,0 +1,9 @@
+question: ¿Qué método de resolución requiere invertir cada dígito hexadecimal del Address IPv6 para la zona inversa?
+answer: Resolución inversa
+wrong_answers:
+  - Resolución opuesta
+  - Resolución primaria
+  - Resolución secundaria
+explanation: |
+  Para la resolución inversa, cada nibble del Address IPv6 completo se invierte y se separa por puntos antes de añadirle el sufijo ip6.arpa.
+reviewed: false

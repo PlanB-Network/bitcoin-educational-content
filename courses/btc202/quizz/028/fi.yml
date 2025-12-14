@@ -1,0 +1,9 @@
+question: Miten pruned-solmu eroaa Full node-solmusta?
+answer: Se poistaa vähitellen vanhat lohkot
+wrong_answers:
+  - Se ei validoi vanhempia tapahtumia
+  - Se ei voi välittää kokonaisia lohkoja
+  - Se ei säilytä paikallista kopiota Blockchain:sta, vaan ainoastaan UTXO-sarjan
+explanation: |
+  pruned-solmu validoi koko ketjun, mutta säilyttää vain tuoreen osan lohkoista rajoittaakseen tallennustilaa.
+reviewed: true

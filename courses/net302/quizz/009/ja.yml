@@ -1,0 +1,9 @@
+question: ARPANETプロジェクトの背後にいたアメリカの機関は？
+answer: アーパ
+wrong_answers:
+  - アーパン
+  - インターネット技術特別調査委員会
+  - AETF
+explanation: |
+  ARPA（国防高等研究計画局）がARPANETを開始し、TCP/IPプロトコル開発の基礎を築いた。1972年、ARPAはDARPA（国防高等研究計画局）に改称された。
+reviewed: false

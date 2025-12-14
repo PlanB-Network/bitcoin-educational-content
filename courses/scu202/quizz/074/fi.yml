@@ -1,0 +1,9 @@
+question: Mikä tapahtuma pakotti Googlen suuntaamaan Androidin uudelleen kosketusherkkään Interface:aan?
+answer: Ensimmäisen iPhonen julkaisu
+wrong_answers:
+  - Microsoftin Nokian osto
+  - CyanogenModin luominen
+  - Play Storen käynnistäminen
+explanation: |
+  IPhonen tulo vuonna 2007 pakotti Googlen miettimään Androidia uudelleen, jotta siitä saataisiin kosketusnäyttöyhteensopiva, ja luopumaan ajatuksesta laitteesta, jossa olisi fyysinen näppäimistö.
+reviewed: false

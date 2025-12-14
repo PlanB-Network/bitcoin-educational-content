@@ -1,0 +1,9 @@
+question: Bitcoin과 달러 사이의 첫 번째 Exchange은 언제 발생했나요?
+answer: 2009년 10월 12일
+wrong_answers:
+  - 2009년 5월 8일
+  - 2009년 12월 30일
+  - 2010년 3월 11일
+explanation: |
+  마르티는 5,050개의 비트코인을 NLS에 송금했고, NLS는 5.02달러를 자신의 PayPal 계정으로 이체했습니다. 이는 약 0.001달러의 단가에 해당합니다.
+reviewed: true

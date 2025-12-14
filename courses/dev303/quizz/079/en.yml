@@ -1,0 +1,8 @@
+question: What is the key difference between how panic and Result handle error recovery in Rust applications?
+answer: Panic stops execution immediately and cannot be recovered from, while Result allows callers to handle errors gracefully
+wrong_answers:
+  - Panic provides detailed error information while Result only indicates success or failure without context
+  - Panic is thread-safe and can be handled across threads, while Result errors are confined to single threads
+  - Panic automatically logs errors to the system while Result requires manual error logging and reporting
+explanation: |
+  Panic represents unrecoverable errors that immediately terminate execution through unwinding or aborting, making it impossible for calling code to handle the error and continue. Result, as an enum containing Ok(value) or Err(error), explicitly forces callers to acknowledge potential failures and choose how to respond - whether by handling the error, providing defaults, or propagating it up the call stack. This fundamental difference makes Result the preferred choice for recoverable errors in production code, while panic should be reserved for truly unrecoverable situations or development scenarios.

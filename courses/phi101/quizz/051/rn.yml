@@ -1,0 +1,9 @@
+question: Nk’uko Augustin mweranda abivuga, ni ibihe bisagara bibiri bibana kw’isi?
+answer: Igisagara c’Imana n’Igisagara co kw’Isi.
+wrong_answers:
+  - Igisagara c’abantu n’igisagara c’imana.
+  - Igisagara c’aberanda n’igisagara c’abanyavyaha.
+  - Igisagara ca kaminuza n’igisagara c’abamarayika.
+explanation: |
+  Augustin mweranda adondora ibisagara bibiri bibana kw’isi: Igisagara c’Imana, kijanye n’Imana n’ubuzima bwo mu vy’impwemu, n’Igisagara co kw’isi, kijanye n’ivy’abantu n’ivy’umubiri, kimwe cose kikaba gikurikira intumbero zitandukanye.
+reviewed: true

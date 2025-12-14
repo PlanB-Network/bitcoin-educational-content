@@ -1,0 +1,9 @@
+question: Milline termin viitab MAC Address kolmele esimesele baidile?
+answer: OUI (Organisatsiooniliselt unikaalne identifikaator)
+wrong_answers:
+  - SID (seansi identifikaator)
+  - LUI (Local Unique Identifier)
+  - PAN (füüsiline Address number)
+explanation: |
+  OUI on määratud IEEE poolt ja identifitseerib võrgukaardi tootja MAC Address-s.
+reviewed: false

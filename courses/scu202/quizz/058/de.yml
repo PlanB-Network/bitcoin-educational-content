@@ -1,0 +1,9 @@
+question: Welche Rendering-Engine wurde vom Internet Explorer ab Version 4 verwendet und dominierte den Markt in den frühen 2000er Jahren?
+answer: Dreizack
+wrong_answers:
+  - Gecko
+  - WebKit
+  - Blinken
+explanation: |
+  Trident, entwickelt von Microsoft, wurde mit dem Internet Explorer 4.0 im Jahr 1997 eingeführt und beherrschte das Web während der Zeit, in der der Internet Explorer praktisch eine Monopolstellung innehatte.
+reviewed: false

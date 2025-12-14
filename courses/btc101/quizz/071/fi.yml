@@ -1,11 +1,9 @@
-question: Minä vuonna seitsemäs puolitus tapahtuu?
-answer: 2036
+question: Mikä näistä vaihtoehdoista on väärä koskien Bitcoin-lompakon sisältävän laitteen menettämistä?
+answer: Voit palauttaa lompakkosi ja käyttää bitcoinejasi nollaamalla salasanasi.
 wrong_answers:
-  - 2032
-  - 2028
-  - 2048
+  - Menetät kaikki Bitcoinsisi, jos sinulla ei ole muistisanaista fraasia.
+  - Voit varmistaa julkisilla avaimillasi, etteivät bitcoinisi ole kuluneet.
+  - Voit palauttaa lompakkosi ja käyttää bitcoinejasi muistisanaista fraasin avulla.
 explanation: |
-  Seitsemännen puolituksen pitäisi tapahtua vuonna 2036, ja arvioitu
-  bitcoinien määrä liikkeessä tulee olemaan 20,835,937.5,
-  mikä vastaa suurin piirtein 99.22% koko tarjonnasta.
+  Lompakkoa sisältävän laitteen menettäminen ei välttämättä tarkoita Bitcoiniesi menettämistä. Sen, mikä mahdollistaa lompakkosi palauttamisen ja bitcoiniesi käytön, on muistisanaista fraasi.
 reviewed: true

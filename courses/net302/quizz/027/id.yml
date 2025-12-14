@@ -1,0 +1,9 @@
+question: Apa nama unit data yang dipertukarkan pada Aplikasi Layer (TCP/IP)?
+answer: Pesan
+wrong_answers:
+  - Bingkai
+  - Segmen
+  - Datagram
+explanation: |
+  Dalam model TCP/IP, data yang dipertukarkan pada Aplikasi Layer disebut pesan (atau stream, tergantung konteksnya).
+reviewed: false

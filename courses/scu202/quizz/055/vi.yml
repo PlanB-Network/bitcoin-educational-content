@@ -1,0 +1,9 @@
+question: Công cụ kết xuất nào phổ biến nhất hiện nay và hỗ trợ hầu hết các trình duyệt hiện đại?
+answer: Chớp mắt
+wrong_answers:
+  - Thằn lằn
+  - Cây đinh ba
+  - WebKit
+explanation: |
+  Blink, được phát triển từ WebKit Fork của Google, hiện là công cụ kết xuất phổ biến nhất, hỗ trợ Chrome, Edge, Opera, Brave, Vivaldi và nhiều trình duyệt khác.
+reviewed: false

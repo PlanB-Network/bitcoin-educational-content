@@ -1,0 +1,13 @@
+question: Mining donanımı satan ve makineleri düşük maliyetli enerji konumlarında yöneten şirketlere yatırım yapmanın temel riski nedir?
+answer: Güç Supply sorunları ve makine arızaları, yatırımcıları kontrol edemedikleri pahalı ekipmanlarla güçsüz bırakabilir.
+wrong_answers:
+  - Şirketler iflas edebilir ve yatırımcılar paralarını kaybedebilir.
+  - Şirketler dolandırıcı olabilir ve yatırımcılar paralarını kaybedebilir.
+  - Şirketler çıkarılan bitcoinleri satamayabilir ve yatırımcılar paralarını kaybedebilir.
+explanation: |
+  Aşağıdaki şirketlere yatırım yapmakla ilişkili ana risk
+  gW-2 donanımını satmak ve makineleri düşük maliyetle yönetmek
+  enerji konumları, güç Supply sorunları ve makine
+  başarısızlıklar yatırımcıları güçsüz bırakabilir, pahalı
+  kontrol etmedikleri ekipmanlar.
+reviewed: true

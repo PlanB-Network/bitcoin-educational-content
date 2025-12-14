@@ -2,7 +2,7 @@
 term: OP_3DUP (0X6F)
 
 ---
-Menduplikasi tiga elemen teratas dari tumpukan, lalu menempatkannya di atas tumpukan. Misalnya, jika tumpukannya adalah:
+Menduplikasi tiga elemen teratas dari _stack_, lalu menempatkannya di atas _stack_. Misalnya, jika keadaan _stack_ awal adalah sebagai berikut:
 
 ```text
 A

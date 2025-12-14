@@ -1,0 +1,9 @@
+question: Vilka aspekter av nätverkskunskap behövs inom cybersäkerhet?
+answer: TCP/IP, VPN, brandvägg
+wrong_answers:
+  - HTTP, FTP, SMTP
+  - POP3, IMAP, SSH
+  - DHCP, DNS, ARP
+explanation: |
+  I kapitlet nämns TCP/IP, VPN och brandvägg som några aspekter av nätverkskunskap som behövs inom cybersäkerhet.
+reviewed: true

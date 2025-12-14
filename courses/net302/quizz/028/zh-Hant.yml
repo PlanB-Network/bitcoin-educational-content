@@ -1,0 +1,9 @@
+question: 流經 TCP 的傳輸 Layer 的資料單位是什麼？
+answer: 區段
+wrong_answers:
+  - 資料傳送
+  - 框架
+  - 溪流
+explanation: |
+  在 TCP 的傳輸 Layer 中，資料單位稱為段，而 UDP 則使用封包。
+reviewed: false

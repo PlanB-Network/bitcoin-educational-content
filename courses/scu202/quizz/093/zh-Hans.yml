@@ -1,0 +1,9 @@
+question: 哪个协议主要用于识别互联网上的每台设备？
+answer: IP
+wrong_answers:
+  - DNS
+  - 超文本传输协定
+  - SMTP
+explanation: |
+  互联网协议（IP）为每个设备分配一个唯一的 Address，并使数据包能够路由。
+reviewed: false

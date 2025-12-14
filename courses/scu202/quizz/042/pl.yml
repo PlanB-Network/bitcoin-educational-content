@@ -1,0 +1,9 @@
+question: Dlaczego należy zawsze sprawdzać integralność i autentyczność oprogramowania pobranego z Internetu?
+answer: Aby uniknąć instalacji złośliwego oprogramowania
+wrong_answers:
+  - Aby poprawić wydajność systemu
+  - Aby zaoszczędzić przepustowość
+  - Aby przyspieszyć instalację
+explanation: |
+  Weryfikacja integralności i autentyczności pomaga zapobiegać instalacji uszkodzonego, zainfekowanego lub nielegalnego oprogramowania.
+reviewed: false

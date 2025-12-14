@@ -1,0 +1,9 @@
+question: Her bir Mnemonic kelimesini oluşturmak için kullanılan ikili segmentin bit cinsinden boyutu nedir?
+answer: 11 bit
+wrong_answers:
+  - 8 bit
+  - 16 bit
+  - 10 bit
+explanation: |
+  Her 11 bitlik segment, BIP39'daki 2048 kelimelik standartlaştırılmış listeden bir kelimeye karşılık gelir.
+reviewed: false

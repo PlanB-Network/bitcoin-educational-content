@@ -1,0 +1,9 @@
+question: Bir Descriptor'daki /<0;1>/* gösterimi neye karşılık gelir?
+answer: Sıralı türetme ile dış ve iç zincire
+wrong_answers:
+  - Sıralanmış çoklu imza Address'e
+  - Türetme yolları için bir sağlama toplamına
+  - Sertleştirilmiş bir türetme yoluna
+explanation: |
+  <0;1>/* notasyonu, Descriptor'nin harici (0) ve dahili (1) zincir için generate adreslerini joker karakter (*) sayesinde sıralı olarak türetebileceğini gösterir.
+reviewed: false

@@ -1,11 +1,9 @@
-question: Jak může Bitcoin potenciálně pomoci ekologickému přechodu?
-answer: Podporuje využívání zelené energie.
+question: Jakým způsobem lze zmírnit volatilitu Bitcoinu?
+answer: Finanční zajištění (stablecoiny).
 wrong_answers:
-  - Sníží výrobu zboží.
-  - Reguluje spotřebu zdrojů.
-  - Omezuje emise pouze skleníkových plynů.
+  - Investování všech vašich peněz do Bitcoinu.
+  - Ignorování tržních trendů.
+  - Kupování více Bitcoinů, když jejich cena klesne.
 explanation: >-
-  Bitcoin podporuje využívání zelené energie, což může potenciálně pomoci
-  ekologickému přechodu. Například plameny na ropných vrtech, které spalují
-  metan, aby zabránily znečištění, mohou být uhašeny těžaři Bitcoinu.
+  Volatilitu Bitcoinu lze zmírnit několika řešeními, jako jsou finanční zajištění (stablecoiny), silné dlouhodobé přesvědčení (hodlování), nebo jednoduše tím, že nevložíte 100% svých peněz do Bitcoinu, aniž byste cokoli rozuměli.
 reviewed: true

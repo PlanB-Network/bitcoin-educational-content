@@ -1,0 +1,9 @@
+question: Jaká je hlavní úloha operačního systému?
+answer: Zprostředkovatel mezi hardwarem, uživatelem a aplikacemi
+wrong_answers:
+  - Integrovaný antivirus
+  - Grafický software
+  - Server pro zasílání rychlých zpráv
+explanation: |
+  Operační systém funguje jako centrální software Layer, který umožňuje aplikacím a uživateli přístup k hardwaru a jeho ovládání.
+reviewed: false

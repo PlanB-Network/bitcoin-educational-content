@@ -1,0 +1,9 @@
+question: Koji fundamentalni princip omogućava programerima da kreiraju sisteme poput Lightning Network, CoinJoin i OpenTimestamps na vrhu Bitcoin bez traženja odobrenja?
+answer: Razvoj bez dozvole omogućava svakome da gradi protokole i aplikacije na Bitcoin bez potrebe za autorizacijom od strane bilo koje centralne vlasti.
+wrong_answers:
+  - Licenciranje otvorenog koda zahteva da svi izvedeni radovi budu automatski odobreni i integrisani u glavnu Bitcoin Core riznicu.
+  - MIT Licenca nalaže da svi projekti zasnovani na Bitcoin moraju dobiti izričitu dozvolu od Bitcoin Core razvojnog tima pre nego što budu implementirani.
+  - Konsenzus pravila automatski validiraju i autorizuju svaki novi protokol izgrađen na Bitcoin putem procesa verifikacije blokčejna.
+explanation: |
+  Razvoj bez dozvole je tačan odgovor jer je to osnovni princip koji omogućava svakome da gradi na Bitcoin bez traženja dozvole. Pogrešni odgovori su netačni jer: licenciranje otvorenog koda ne zahteva automatsko odobrenje ili integraciju u Bitcoin Core; MIT Licenca zapravo daje široka ovlašćenja bez potrebe za odobrenjem od strane programera; i pravila konsenzusa validiraju transakcije i blokove, a ne protokole višeg nivoa izgrađene na vrhu Bitcoin.
+reviewed: false

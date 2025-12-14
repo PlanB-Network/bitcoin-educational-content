@@ -1,0 +1,8 @@
+question: Bastiat'ya göre mülkiyet hakkı ve özgürlük neden birbirinden ayrılamaz?
+answer: Çünkü mülkiyet hakkını, kişinin önce kendi kişiliği, sonra emeği ve son olarak da emeğinin ürünleri üzerinde tasarrufta bulunma özgürlüğünden ibaret olarak tanımlamaktadır.
+wrong_answers:
+  - Çünkü ikisi arasında analitik bir ayrım yapmakta zorlanıyor
+  - Çünkü her ikisi de yasa koyucunun iradesinden kaynaklanmaktadır
+  - Çünkü mülkiyet hakkı siyasi hakların bir uzantısıdır
+explanation: |
+  Bastiat mülkiyetin özgürlükle bağlantılı olduğunu düşünür çünkü mülkiyet kişinin kendisi, emeği ve emeğinin meyveleri üzerinde özgürce tasarrufta bulunabilmesini kapsar.

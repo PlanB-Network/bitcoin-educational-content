@@ -1,0 +1,9 @@
+question: Mengapa metadata file digital menimbulkan risiko terhadap privasi?
+answer: Mereka dapat mengungkapkan informasi sensitif
+wrong_answers:
+  - Mereka memperlambat pembukaan antivirus pada beberapa sistem
+  - Mereka mencegah berbagi file melalui email
+  - Mereka dapat menjadi tuan rumah bagi ransomware
+explanation: |
+  Metadata dapat berisi informasi rahasia yang tidak terlihat saat file dibuka, seperti koordinat GPS, nama penulis, pengenal, atau riwayat modifikasi, yang dapat dieksploitasi tanpa sepengetahuan Anda.
+reviewed: false

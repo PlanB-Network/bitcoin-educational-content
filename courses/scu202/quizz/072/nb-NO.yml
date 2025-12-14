@@ -1,0 +1,9 @@
+question: Hvordan installerer jeg en alternativ ROM på en Android-smarttelefon?
+answer: Låse opp bootloaderen
+wrong_answers:
+  - Opprett en Apple-konto
+  - Installere et spesielt SIM-kort
+  - Aktiver utviklermodus på iOS
+explanation: |
+  Å låse opp bootloaderen er viktig for å skrive et nytt systembilde til en Android-smarttelefon.
+reviewed: false

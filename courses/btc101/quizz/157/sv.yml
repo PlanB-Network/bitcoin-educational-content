@@ -1,0 +1,8 @@
+question: Vilken är den största fördelen med Bitcoin för personer som lever under ekonomiskt förtryck eller diktatoriska regimer?
+answer: Att ha en chans att undkomma censur och bankrestriktioner.
+wrong_answers:
+  - Använda en stabil valuta som har ett fast värde.
+  - Möjliggöra anonyma transaktioner.
+  - Få hög avkastning på investeringen.
+explanation: >-
+reviewed: true

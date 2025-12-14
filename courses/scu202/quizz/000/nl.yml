@@ -1,0 +1,9 @@
+question: Welk type software wordt aanbevolen voor transparante downloads?
+answer: Gratis software
+wrong_answers:
+  - Eigen software
+  - Software in bètaversie
+  - Software met geïntegreerde reclame
+explanation: |
+  Open source software wordt aanbevolen omdat de code kan worden gecontroleerd door de gemeenschap, wat de veiligheid en transparantie ten goede komt.
+reviewed: false

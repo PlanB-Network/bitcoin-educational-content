@@ -7,13 +7,15 @@ description: Configurez votre nœud Bitcoin MyNode
 
 https://mynodebtc.com/
 
-La manière la plus simple et la plus puissante d'exécuter un nœud Bitcoin et Lightning ! Nous combinons les meilleurs logiciels open source avec notre interface, notre gestion et notre support afin que vous puissiez utiliser Bitcoin et Lightning facilement, en toute confidentialité et en toute sécurité.
+La manière la plus simple et la plus puissante d'exécuter un nœud Bitcoin et Lightning ! 
+
+Nous combinons les meilleurs logiciels open source avec notre interface, notre gestion et notre support afin que vous puissiez utiliser Bitcoin et Lightning facilement, en toute confidentialité et en toute sécurité.
 
 ## Types de configurations de nœuds
 
 Il existe différentes configurations de nœuds. MyNode est excellent. Il y a de nombreuses applications incluses, et encore plus si vous payez pour la version premium. Il est sinon très fastidieux de télécharger toutes ces applications vous-même. MyNode rend cela assez facile, comme vous le verrez.
 
-Une autre option similaire est RaspiBlitz. L'interface graphique n'est pas aussi agréable et les applications se chevauchent beaucoup avec celles de MyNode, mais Raspiblitz est un logiciel open source gratuit (FOSS) tandis que MyNode ne l'est pas tout à fait. Une autre différence est que MyNode s'exécute dans un conteneur Docker. Je trouve Docker intimidant et difficile à dépanner. Cela ne pose problème que si vous rencontrez des erreurs ou des bugs. Le développeur propose de l'aide aux utilisateurs premium et il existe également un groupe de discussion Telegram.
+Une autre option similaire est RaspiBlitz. L'interface graphique n'est pas aussi agréable et les applications se chevauchent beaucoup avec celles de MyNode, mais Raspiblitz est un logiciel open source gratuit (FOSS) tandis que MyNode ne l'est pas complètement. Une autre différence est que MyNode s'exécute dans un conteneur Docker. Je trouve Docker intimidant et difficile à dépanner. Cela ne pose problème que si vous rencontrez des erreurs ou des bugs. Le développeur propose de l'aide aux utilisateurs premium et il existe également un groupe de discussion Telegram.
 
 Le RaspiBlitz est simplement un ensemble de programmes installés sur Linux, sans Docker. Le disque dur externe peut facilement être connecté à une autre machine Linux avec Bitcoin Core, et vous voilà prêt à partir, si besoin.
 
@@ -104,7 +106,7 @@ Enfin, connectez l'alimentation :
 
 ## Trouvez l'adresse IP du Pi
 
-Vous n'avez jamais besoin d'un moniteur avec MyNode. Cependant, vous avez besoin d'un autre ordinateur sur le réseau domestique. Si votre Pi n'est pas connecté par Ethernet et que vous souhaitez utiliser le WiFi, trouver l'adresse IP nécessite des compétences informatiques avancées. Je ne peux pas vous aider, désolé. Vous avez besoin d'une connexion Ethernet. (Le problème vient du fait qu'il faut accéder à un moniteur et au système d'exploitation pour se connecter au WiFi et entrer un mot de passe).
+Vous n'avez jamais besoin d'un moniteur avec MyNode. Cependant, vous avez besoin d'un autre ordinateur sur le réseau domestique. Si votre Pi n'est pas connecté par Ethernet et que vous souhaitez utiliser le WiFi, trouver l'adresse IP nécessite des compétences informatiques avancées. Je ne peux pas vous assister dans ce cas, désolé. Vous avez besoin d'une connexion Ethernet. (Le problème vient du fait qu'il faut accéder à un moniteur et au système d'exploitation pour se connecter au WiFi et entrer un mot de passe).
 
 Vérifiez votre routeur pour obtenir une liste de toutes les adresses IP des appareils connectés.
 
@@ -130,7 +132,7 @@ Si vous avez déjà utilisé votre Pi et avez interverti la carte micro SD, vous
 
 ![image](assets/17.webp)
 
-Ce que vous devez faire, c'est accéder à l'endroit où se trouve le fichier "known_hosts" et le supprimer. C'est sans danger. Le message d'erreur vous montre le chemin. Pour moi, c'était /Users/MyUserName/.ssh/'
+Ce que vous devez faire, c'est d'accéder à l'endroit où se trouve le fichier "known_hosts" et le supprimer. C'est sans danger. Le message d'erreur vous montre le chemin. Pour moi, c'était /Users/MyUserName/.ssh/'
 N'oubliez pas le "." avant ssh, cela indique qu'il s'agit d'un répertoire caché.
 Ensuite, essayez à nouveau la commande ssh.
 
@@ -184,7 +186,7 @@ Je voulais continuer à créer le guide, donc voici un autre MyNode que j'ai pr�
 
 ![image](assets/26.webp)
 
-Notez que le serveur Electrum doit également se synchroniser, donc dès que la blockchain Bitcoin est synchronisée, cliquez sur le bouton pour démarrer ce processus - cela prend un jour ou deux. Tout le reste est activé en quelques minutes une fois que vous choisissez de l'activer. Vous pouvez cliquer sur des choses et explorer. Vous ne casserez rien. Si quelque chose se casse (cela m'est arrivé, mais je pense que c'est parce que j'avais des pièces bon marché), vous devrez re-flasher et recommencer le téléchargement. Le problème que j'ai avec MyNode, c'est que si vous devez "re-flasher", vous devez recommencer la synchronisation de la blockchain depuis le début. Il existe des moyens techniques de contourner cela, mais ce n'est pas facile.
+Notez que le serveur Electrum doit également se synchroniser, donc dès que la blockchain Bitcoin est synchronisée, cliquez sur le bouton pour démarrer ce processus, cela prend un jour ou deux. Tout le reste est activé en quelques minutes une fois que vous choisissez de l'activer. Vous pouvez cliquer sur des choses et explorer. Vous ne casserez rien. Si quelque chose se casse (cela m'est arrivé, mais je pense que c'est parce que j'avais des pièces bon marché), vous devrez re-flasher et recommencer le téléchargement. Le problème que j'ai avec MyNode, c'est que si vous devez "re-flasher", vous devez recommencer la synchronisation de la blockchain depuis le début. Il existe des moyens techniques de contourner cela, mais ce n'est pas facile.
 
 Si vous souhaitez essayer un autre nœud également, par exemple un RaspiBlitz, vous avez besoin d'un disque dur externe SSD supplémentaire et d'une autre carte micro SD à flasher. Sinon, c'est le même équipement, vous ne pouvez tout simplement pas exécuter MyNode et RaspiBlitz simultanément, évidemment. Si vous voulez le faire, il est temps de chercher un autre Raspberry Pi.
 

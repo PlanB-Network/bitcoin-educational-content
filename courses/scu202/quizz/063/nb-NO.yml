@@ -1,0 +1,9 @@
+question: Hvilken tekstleser, uten Interface-grafikk eller JavaScript-støtte, er den eldste som fortsatt vedlikeholdes?
+answer: Lynx
+wrong_answers:
+  - Mullvad nettleser
+  - Polypan
+  - Vivaldi
+explanation: |
+  Lynx, som kom i 1992, fungerer i tekstmodus, støtter ikke JavaScript og brukes fortsatt til svært spesifikke formål.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mengapa menggunakan aplikasi firewall seperti NetGuard atau RethinkDNS di Android?
+answer: Mengontrol koneksi Internet individual
+wrong_answers:
+  - Secara otomatis menyimpan semua data
+  - Membuka blokir semua jaringan Wi-Fi
+  - Copot pemasangan virus apa pun
+explanation: |
+  Aplikasi ini bertindak sebagai firewall lokal, yang memungkinkan lalu lintas keluar diblokir atau diotorisasi berdasarkan aplikasi per aplikasi.
+reviewed: false

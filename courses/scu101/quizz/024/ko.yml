@@ -1,0 +1,9 @@
+question: 다양한 운영 체제에서 데이터 암호화를 위한 솔루션에는 어떤 것이 있나요?
+answer: Windows용 BitLocker, Linux용 LUKS 및 Mac용 기본 제공 옵션입니다.
+wrong_answers:
+  - Linux용 BitLocker, Mac용 LUKS 및 Windows용 기본 제공 옵션입니다.
+  - Mac용 BitLocker, Windows용 LUKS, Linux용 기본 제공 옵션이 있습니다.
+  - 모든 운영 체제용 LUKS.
+explanation: |
+  운영 체제마다 데이터 암호화를 위한 다양한 솔루션이 있습니다. BitLocker는 Windows용, LUKS는 Linux용, Mac에는 데이터 암호화를 위한 기본 제공 옵션이 있습니다.
+reviewed: true

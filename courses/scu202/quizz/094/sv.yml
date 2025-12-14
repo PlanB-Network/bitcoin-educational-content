@@ -1,0 +1,9 @@
+question: Vilket projekt lade grunden till det moderna Internet i slutet av 1960-talet?
+answer: ARPANET
+wrong_answers:
+  - World Wide Web
+  - TCP/IP
+  - Ethernet
+explanation: |
+  ARPANET var det första sammankopplade nätverket, utformat för att länka samman flera forskningscentra, och är den direkta föregångaren till Internet.
+reviewed: false

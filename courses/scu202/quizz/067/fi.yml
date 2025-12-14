@@ -1,0 +1,9 @@
+question: Mikä on VPN:n päätarkoitus, kun surffaat julkisessa Wi-Fi-verkossa?
+answer: Salaa laitteen ja VPN-palvelimen välinen liikenne
+wrong_answers:
+  - Anonymisoi Internet-yhteytesi
+  - Asenna päivitykset automaattisesti
+  - generate vahvat salasanat
+explanation: |
+  VPN salaa kaiken verkkoliikenteen ja suojaa tietojasi salakuuntelulta suojaamattomissa verkoissa, kuten julkisissa Wi-Fi-verkoissa.
+reviewed: false

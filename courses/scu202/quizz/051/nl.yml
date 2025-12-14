@@ -1,0 +1,9 @@
+question: Welke opdrachtregeltool wordt aanbevolen voor Linux om alle metadata van een afbeelding of PDF-bestand te verwijderen?
+answer: exiftool
+wrong_answers:
+  - kladblok
+  - nanoexif
+  - sudoedit
+explanation: |
+  exiftool is een krachtig hulpprogramma voor het weergeven en verwijderen van metadata uit een grote verscheidenheid aan bestanden (afbeeldingen, PDF's, audio, enz.).
+reviewed: false

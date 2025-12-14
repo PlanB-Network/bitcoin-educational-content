@@ -1,0 +1,9 @@
+question: Vilken algoritm för digital signatur användes vid uppskjutningen av Bitcoin?
+answer: ECDSA
+wrong_answers:
+  - Schnorr
+  - RSA
+  - HMAC
+explanation: |
+  Bitcoin använde inledningsvis ECDSA, ett signaturprotokoll baserat på elliptiska kurvor, innan Schnorr-signaturer infördes 2021.
+reviewed: false

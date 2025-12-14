@@ -1,0 +1,9 @@
+question: Къде Satoshi Nakamoto публикува бялата книга на Bitcoin на 31 октомври 2008 г.?
+answer: Пощенски списък Криптография
+wrong_answers:
+  - Reddit
+  - Twitter
+  - Hackernews
+explanation: |
+  Като наследник на пощенския списък cypherpunks, този имейл списък се управлява от разработчика Пери Мецгер от 1996 г. насам.
+reviewed: true

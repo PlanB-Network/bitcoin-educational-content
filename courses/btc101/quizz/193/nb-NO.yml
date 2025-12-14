@@ -1,9 +1,11 @@
-question: Hva er et av tiltakene som bidrar til å gjøre Bitcoin-økonomien mer tilgjengelig og praktisk for alle?
-answer: BTCMap
+question: Hva er et impulsivt kjøp?
+answer: Å kjøpe Bitcoin umiddelbart for å få eksponering.
 wrong_answers:
-  - Bitcoin Exchange
-  - Bitcoin Mining
-  - Bitcoin Lottery
+  - Å kjøpe Bitcoin med jevne mellomrom.
+  - Å kjøpe Bitcoin bare når prisen faller.
+  - Å kjøpe Bitcoin bare når prisen stiger.
 explanation: >-
-  BTCMap er et av tiltakene som bidrar til å gjøre Bitcoin-økonomien mer tilgjengelig og praktisk for alle. Det er et åpen kildekode- og samarbeidsprosjekt som lister opp alle handelsmenn som aksepterer Bitcoin, samt de forskjellige Bitcoin-samfunnene rundt om i verden.
+  Teksten forklarer at et impulsivt kjøp brukes for å umiddelbart
+  få eksponering mot Bitcoin. Dette kan være å kjøpe under et krakk eller å ta
+  fordel av en bonus.
 reviewed: false

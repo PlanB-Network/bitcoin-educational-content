@@ -1,0 +1,2 @@
+description: |
+  Bottlepay 是一個數位金融平台，使用 Lightning Network 實現全球即時 Bitcoin 交易。該平台簡化了 Bitcoin 交易，提供快速直接的設定、可自訂的付款路徑，並能以單筆或循環交易買賣 Bitcoin。Bottlepay 支援透過 Open Banking 和 SEPA Instant 即時存款，同時可從英鎊或歐元結餘直接付款至任何 Bitcoin Address。它還引進了創新的「閃電 Address」，使發送和接收 Bitcoin 的過程像發送電子郵件一樣簡單。儘管功能先進，Bottlepay 最近仍宣布關閉其應用程式。

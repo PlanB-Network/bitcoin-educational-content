@@ -1,0 +1,9 @@
+question: Bir düğüm ile bir Miner arasındaki ekonomik fark nedir?
+answer: Miner ödülleri alır, düğümün doğrudan bir kazancı yoktur
+wrong_answers:
+  - Düğüm ücret alır, Miner blok hibe alır
+  - Düğüm ödül alır, Miner'ün doğrudan bir kazancı yoktur
+  - İkisi de aynı ödülleri alıyor
+explanation: |
+  Madenciler ödüller (sübvansiyonlar ve ücretler) alırken, bir node kullanıcısına doğrudan finansal fayda sağlamaz.
+reviewed: true

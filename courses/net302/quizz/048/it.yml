@@ -1,0 +1,9 @@
+question: A quale Layer del modello OSI appartiene il MAC Address?
+answer: Collegamento dati Layer
+wrong_answers:
+  - Applicazione Layer
+  - Trasporto Layer
+  - Rete Layer
+explanation: |
+  Il MAC Address opera al Layer 2 del modello OSI, noto come "data link Layer", dove viene utilizzato per l'indirizzamento hardware dei frame.
+reviewed: false

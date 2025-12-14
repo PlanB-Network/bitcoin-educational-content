@@ -1,0 +1,9 @@
+question: Hur formuleras Say's lag enligt Jean-Baptiste Say och Bastiat?
+answer: Varor och tjänster byts ut mot varor och tjänster
+wrong_answers:
+  - Supply skapar sin egen efterfrågan
+  - Ju mer varor som produceras, desto mer konsumeras de
+  - Efterfrågan avgör Supply
+explanation: |
+  Say's lag säger att produktionen av varor möjliggör ömsesidiga utbyten, vilket värdesätter marknadsekonomin.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni aina gani ya kuzuia IPv6 inaruhusu kampuni kuweka kiambishi awali hata wakati wa kubadilisha ISP?
+answer: PI (Mtoa huduma anajitegemea)
+wrong_answers:
+  - PA (Provider Aggregatable)
+  - LIR (Local Internet Registry)
+  - IP (Provider Independent)
+explanation: |
+  Kizuizi cha PI (Provider Independent restriction) kinatolewa moja kwa moja kwa shirika na RIR, bila ya Mtoa Huduma ya Mtandao.
+reviewed: true

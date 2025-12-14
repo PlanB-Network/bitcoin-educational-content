@@ -1,8 +1,9 @@
-question: Mis on kaevurite roll Bitcoin'i võrgustikus?
-answer: Nad valideerivad tehinguid, lisades need plokki.
+question: Mis on raskusastme kohandamise tähtsus Bitcoin'i võrgus?
+answer: See tagab, et plokk lisatakse ligikaudu iga kümne minuti järel.
 wrong_answers:
-  - Nad loovad uusi Bitcoine.
-  - Nad haldavad Bitcoin'i võrgustikku.
-  - Nad reguleerivad Bitcoini hinda.
+  - See määrab Bitcoin'i hinna.
+  - See reguleerib, mitu Bitcoin'i saab kaevandada.
+  - See määrab ploki suuruse.
 explanation: >-
-  Kaevuritel Bitcoin'i võrgustikus on roll valideerida tehinguid, lisades need plokki. Nad teevad seda lahendades krüptograafilist mõistatust protsessis, mida nimetatakse töötõendiks.
+  Raskusastme kohandamine Bitcoin'i võrgus tagab, et plokk lisatakse ligikaudu iga kümne minuti järel. See on osa Bitcoin'i võrgu protokolli reeglitest.
+reviewed: false

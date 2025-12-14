@@ -1,0 +1,9 @@
+question: Hva er statusen til en oppføring i ip neigh-bufferen når IP/MAC-tilordningen er gyldig og ny?
+answer: TILGJENGELIG
+wrong_answers:
+  - TILKOBLET
+  - VALID
+  - STALE
+explanation: |
+  Tilstanden REACHABLE betyr at IP/MAC-kartleggingen er kjent og funksjonell i nabolagsbufferen.
+reviewed: false

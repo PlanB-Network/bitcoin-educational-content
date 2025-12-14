@@ -1,0 +1,9 @@
+question: Apa tujuan utama VPN saat menjelajahi jaringan Wi-Fi publik?
+answer: Mengenkripsi lalu lintas antara perangkat dan server VPN
+wrong_answers:
+  - Anonimkan koneksi Internet Anda
+  - Instal pembaruan secara otomatis
+  - Kata sandi kuat generate
+explanation: |
+  VPN mengenkripsi semua lalu lintas jaringan, melindungi data Anda dari penyadapan pada jaringan yang tidak aman seperti Wi-Fi publik.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni kubera iki ukutaboneka vyoroshe bifatwa nk’ikintu gihambaye nk’amahera ameze neza?
+answer: Kubera ko ikintu kitoroshe kuronka bitewe nubukeyi bwaco bituma agaciro kaco kadakoroka.
+wrong_answers:
+  - Kuko bituma umuntu wese ashobora gukora amafaranga yiwe bitagoranye.
+  - Kuko bituma bigorana kumenya amafaranga yemewe na yatemewe.
+  - Kuko bica intege gukoresha amafaranga mu bucuruzi bwa kure na kure.
+explanation: |
+  Ifaranga rifise ukutaboneka vyoroshe bigenzuwe riguma rifita ububasha bwo kugura uko igihe kigenda kirarenga. Hatariho akutaboneka vyoroshe, gukora amafaranga birenze urugero vyoshobora gutuma amafaranga agenda arata agaciro,amahera agata ububasha kubera aboneka vyoroshe .
+reviewed: true

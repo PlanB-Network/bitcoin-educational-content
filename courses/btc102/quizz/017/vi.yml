@@ -1,0 +1,9 @@
+question: Thuật ngữ nào đề cập đến sự phân bổ giảm nửa nguồn cung trợ cấp cho việc khai thác/đào (mining) được lập trình sẵn?
+answer: Halving
+wrong_answers:
+  - Fork
+  - Chia đôi
+  - Tiền điện tử
+explanation: |
+  Halving đề cập đến Halving của khoản trợ cấp Mining sau mỗi 210.000 khối.
+reviewed: false

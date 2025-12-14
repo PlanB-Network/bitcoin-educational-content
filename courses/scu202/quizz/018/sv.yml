@@ -1,0 +1,9 @@
+question: Vilken är den pakethanterare som används av Debian och Ubuntu?
+answer: APT
+wrong_answers:
+  - VARVTAL
+  - Pacman
+  - Zypper
+explanation: |
+  Debian och Ubuntu använder APT-pakethanteraren, baserad på .deb-formatet, för att hantera installation och uppdatering av programvara.
+reviewed: false

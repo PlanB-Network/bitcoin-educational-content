@@ -1,0 +1,9 @@
+question: Kako se zove amblematična maskota Linuxa?
+answer: Tux
+wrong_answers:
+  - Duke
+  - Beastie
+  - daemon
+explanation: |
+  Tux je zvanična maskota Linux kernela od 1996. godine, kreirao ga je Larry Ewing.
+reviewed: false

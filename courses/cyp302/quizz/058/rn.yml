@@ -1,0 +1,9 @@
+question: Ni kuki abahinga mu vy’ubuhinga bwa shimi bakoresha inyigisho y’imigwi?
+answer: Gushira mu migwi imiterere y'ibihimba
+wrong_answers:
+  - Gusuzuma imigenderanire y'imiti
+  - Kugira ubaze uburemere bw'amamolekule
+  - Kuvuga imbere y'igihe ingene imiti izogira
+explanation: |
+  Ivyiyumviro vy’imigwi bituma abahinga mu vy’ubuhinga bwa shimi bashobora gushikiriza imiterere y’ibihimba vy’umubiri bivanye n’ingene bihuye, ivyo bikaba bifasha mu gutahura imiterere yavyo.
+reviewed: false

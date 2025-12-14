@@ -1,0 +1,9 @@
+question: SegWit द्वारा किस ECDSA हस्ताक्षर भेद्यता को ठीक किया गया?
+answer: बढ़ने की योग्यता
+wrong_answers:
+  - बैच सत्यापन
+  - एकत्रीकरण का अभाव
+  - हस्ताक्षरों का अत्यधिक आकार
+explanation: |
+  SegWit ने ECDSA हस्ताक्षरों की लचीलापन को सही किया, जिससे Lightning Network जैसे उपयोग संभव हो सके।
+reviewed: false

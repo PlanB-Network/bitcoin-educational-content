@@ -1,0 +1,9 @@
+question: Mt. Gox Exchange platformunu 18 Temmuz 2010'da, Bitcoin'in büyük slashdot'undan bir hafta sonra kim oluşturdu?
+answer: Jed McCaleb
+wrong_answers:
+  - Mark Karpelès
+  - Martti Malmi
+  - Gavin Andresen
+explanation: |
+  Exchange'de dolar karşılığında Bitcoin elde etmenin ne kadar zor olduğunu fark ederek (özellikle Bitcoin Pazarında) bu verimli pazarı bir hevesle yarattı.
+reviewed: true

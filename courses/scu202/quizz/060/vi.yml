@@ -1,0 +1,9 @@
+question: Trình duyệt nguồn mở nào do một tổ chức phi lợi nhuận phát triển là ứng dụng hàng đầu của công cụ Gecko?
+answer: Trình duyệt Mozilla Firefox
+wrong_answers:
+  - Can đảm
+  - Cuộc đi săn
+  - Chrome
+explanation: |
+  Mozilla Firefox, được phát triển bởi Mozilla Foundation, là trình duyệt hàng đầu dựa trên Gecko, nổi tiếng với Commitment về quyền riêng tư.
+reviewed: false

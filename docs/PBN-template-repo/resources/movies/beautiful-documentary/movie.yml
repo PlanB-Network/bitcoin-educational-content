@@ -13,7 +13,9 @@ publication_year: 2009
 duration: 60
 
 # language of original audio of the content
-# Insert 2-digits ISO 639 language code (e.g. en for English, es for Spanish, th for Thai, etc...)
+# Insert a 2-digits language code (e.g. en for English, es for Spanish, th for Thai, etc...),
+# some languages are multiple-digits language code; e.g. Latin Serbian (sr-Latn), Chinese codes (zh-Hans, zh-Hant)
+# see here https://weblate.planb.network/projects/planb-network-website/ the list of all the available language codes (bring your mouse cursor over each language name to see the code)
 language: en
 
 # all the movies posted here must be legit, most of them will be published on hosted services like YouTube, but this is not a rule
@@ -22,9 +24,7 @@ links:
   trailer: https://youtu.be/AxbZq8Zmd88
 
 description: |
-  Write like
-  this the
-  description
+  Write like this the description
 
 # Contributor section
 # List all the contributors who help format, review and translate the content.
@@ -34,8 +34,13 @@ contributor_names:
 
 # Tags
 # Choose from the list the associated tags to this content
-# The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
+# The list of tags is composed of 51 items that can be found here (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)
 tags:
   - cypherpunk
   - future-outlook
   - high-level
+
+# license field, choose between CC-BY-SA-V4, MIT
+# (DEFAULT) CC-BY-SA-V4: is also quite permissive but includes a share-alike clause
+# MIT: allows for almost unrestricted use → only for imported content and docs with such license policy
+license: CC-BY-SA-V4

@@ -1,0 +1,9 @@
+question: Ni akamaro akahe nyamukuru ko gutanga ibisohoka bigendagenda?
+answer: Koresha porogaramu nshasha
+wrong_answers:
+  - Guhuza cane na Windows
+  - Ibidukikije bitagira ibishushanyo vya Interface
+  - Infashanyo y'ugucuruza itegeko
+explanation: |
+  Ivyo gusohoka bihora bishiramwo ivyagezwe bihoraho, bituma umuntu ashobora kuronka verisiyo nshasha.
+reviewed: false

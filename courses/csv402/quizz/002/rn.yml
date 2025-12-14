@@ -1,0 +1,9 @@
+question: Mu ngorane zitatu za CAP, ni igiki gihuza hagati y’ukwemezwa ku ruhande rw’abaguzi n’ukuboneka?
+answer: Uwuje muri iyo nama wese ategerezwa kubika amakuru yerekeye aho hantu
+wrong_answers:
+  - Amakuru ni aya bose kandi yisubirwamwo kw'isi yose
+  - Ugushikama kwatanzwe kugira ngo biboneke
+  - Impinduka za Leta zama zisohorwa kuri Lightning .
+explanation: |
+  Muri Client-side Validation, ukuboneka kw’isi yose ntigushobora gukoreshwa, kuko abaje mu nama bategerezwa gucunga amakuru yabo bwite.
+reviewed: false

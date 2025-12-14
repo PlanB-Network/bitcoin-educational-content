@@ -1,0 +1,9 @@
+question: Milline domeeninime element esindab tippdomeeni (TLD)?
+answer: Kõige parempoolsem element
+wrong_answers:
+  - Kõige vasakpoolsem element
+  - Teine tasand pärast peremeest
+  - Peamine vastuvõtja nimi
+explanation: |
+  TLD on alati FQDNi kõige parempoolsem element, näiteks .com, .org või .fr.
+reviewed: false

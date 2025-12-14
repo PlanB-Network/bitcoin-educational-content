@@ -1,0 +1,10 @@
+question: Vad är en rikoschett i samband med Bitcoin?
+answer: En teknik som innebär att man gör flera transaktioner till sig själv
+wrong_answers:
+  - En samarbetstransaktion som involverar flera deltagare
+  - En metod för att blanda bitcoins för att öka den potentiella anonymiteten
+  - En typ av CoinJoin som är specifik för vissa Exchange-plattformar
+explanation: |
+  En rikoschett är en teknik som innebär att man gör flera fiktiva transaktioner till sig själv (sweeping).
+  
+reviewed: false

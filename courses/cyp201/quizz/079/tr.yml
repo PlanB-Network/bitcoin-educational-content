@@ -1,0 +1,8 @@
+question: Çıktı komut dosyası tanımlayıcılarının ana işlevi nedir?
+answer: Bir çıktı komut dosyasını tam olarak tanımlamak ve bir Wallet'ı geri yüklemek için gereken bilgileri sağlamak için
+wrong_answers:
+  - Otomatik olarak generate çoklu imza adresleri
+  - Wallet yedeklemelerinde Mnemonic ifadesini değiştirin
+  - Dijital imza hesaplamalarını basitleştirin
+explanation: |
+  Tanımlayıcılar, türetme yolu ve kullanılan anahtarlar da dahil olmak üzere belirli bir komut dosyasını izlemek için gerekli tüm bilgileri kapsüller, ancak kurtarma ifadesini kapsüllemez.

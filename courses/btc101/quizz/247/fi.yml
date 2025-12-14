@@ -1,9 +1,11 @@
-question: Mikä on yksi pääkysymyksistä rahoituksen tulevaisuutta koskien?
-answer: Kuka pitäisi hallita, valtuuttaa ja jäljittää käyttämämme rahat?
+question: Mikä on käytännöllinen tapa hankkia Bitcoineja?
+answer: Ostamalla niitä säänneltyjen tai sääntelemättömien alustojen kautta.
 wrong_answers:
-  - Miten voimme poistaa rahan kokonaan käytöstä?
-  - Miten voimme varmistaa, että jokaisella on sama määrä rahaa?
-  - Miten voimme tehdä rahasta tarpeettoman?
-explanation: >-
-  Teksti nostaa esiin useita kysymyksiä rahoituksen tulevaisuudesta, joista yksi on kuka pitäisi hallita, valtuuttaa ja jäljittää käyttämämme rahat.
+  - Louhimalla niitä kannettavalla tietokoneella.
+  - Löytämällä niitä fyysisestä maailmasta.
+  - Luomalla niitä käyttäen erityistä ohjelmistoa.
+explanation: |
+  Tekstissä mainitaan, että käyttäjät voivat hankkia Bitcoineja
+  hyväksymällä niitä kaupankäynnissä tai ostamalla niitä
+  säänneltyjen tai sääntelemättömien alustojen kautta.
 reviewed: true

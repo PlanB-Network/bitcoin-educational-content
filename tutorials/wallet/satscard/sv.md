@@ -139,7 +139,7 @@ Med alternativet "*Sweep to a Wallet*" kan du direkt skicka bitcoins till en Wal
 ![SATSCARD](assets/notext/16.webp)
 
 
-Ange den mottagande Address där du vill skicka bitcoins som säkrats av Satscard. Kontrollera att den angivna Address är korrekt (det här är enda gången du kan verifiera den) och klicka sedan på knappen "*Skapa transaktion*".
+Ange den mottagande Address där du vill skicka bitcoins som säkrats med Satscard. Kontrollera att den angivna Address är korrekt (det här är enda gången du kan verifiera den) och klicka sedan på knappen "*Skapa transaktion*".
 
 
 ![SATSCARD](assets/notext/17.webp)
@@ -163,7 +163,7 @@ Din transaktion är nu signerad och sänds ut i Bitcoin-nätverket, vilket inneb
 ![SATSCARD](assets/notext/20.webp)
 
 
-## Hur återanvänder man Satscard?
+## Hur återanvänder jag Satscard?
 
 
 Till skillnad från engångslösningar som Opendime är Satscard utrustat med ett chip som innehåller 10 oberoende kortplatser, vilket möjliggör upp till 10 operationer med ett enda kort. Den första kortplatsen, som är förkonfigurerad i fabriken av Coinkite, motsvarar den mottagande Address som står på baksidan av ditt Satscard.
@@ -188,16 +188,16 @@ Nunchuk indikerar att ingen slot är aktiv på kortet, vilket är normalt efters
 ![SATSCARD](assets/notext/24.webp)
 
 
-Du måste nu välja hur du generate din master chain-kod.
+Du måste nu välja hur du ska göra generate på din master chain code.
 
 
-Kortplatserna på Satscard följer BIP32-standarden, vilket innebär att härledningen av de kryptografiska nycklar som säkrar bitcoins inte bygger på en Mnemonic-fras som i BIP39-plånböcker, utan direkt på en privat huvudnyckel och en huvudkedjekod. Dessa två Elements används som indata i HMAC-SHA512-funktionen för att generate skapa ett underordnat nyckelpar. Varje slot har sin egen huvudnyckel och sin egen huvudkedjekod. Det finns bara en härledningsnivå för varje slot.
+Platserna på Satscard följer BIP32-standarden, vilket innebär att härledningen av de kryptografiska nycklar som säkrar bitcoins inte förlitar sig på en Mnemonic-fras som i BIP39-plånböcker, utan direkt på en privat huvudnyckel och en huvud-chain code. Dessa två Elements används som indata i HMAC-SHA512-funktionen för att generate skapa ett underordnat nyckelpar. Varje slot har sin egen huvudnyckel och sin egen huvud-chain code. Det finns bara en härledningsnivå för varje slot.
 
 
-Nyckelparet för den första kortplatsen är förgenererat av Coinkite. Det är därför du har direktåtkomst till det via Nunchuk, och det är därför den mottagande Address står på baksidan av NFC-kortet. För de andra kortplatserna är det dock du som ansvarar för att generera nycklarna.
+Nyckelparet för den första kortplatsen är förgenererat av Coinkite. Det är därför du har direktåtkomst till det via Nunchuk, och det är därför den mottagande Address står på baksidan av NFC-kortet. För de andra platserna är det dock du som ansvarar för att generera nycklarna.
 
 
-Den privata huvudnyckeln för varje slot genereras direkt av Satscard, och huvudkedjekoderna måste tillhandahållas utifrån. För kedjekoden för din nya slot har du två alternativ: låt Nunchuk generate göra det automatiskt genom att välja "*Automatic*", eller skapa den själv genom att välja "*Advanced*" och ange den i det avsedda utrymmet. För att kedjekoden ska vara effektiv måste den vara så slumpmässig som möjligt.
+Den privata huvudnyckeln för varje slot genereras direkt av Satscard, och huvudkedjekoderna måste tillhandahållas utifrån. För chain code för din nya slot har du två alternativ: låt Nunchuk generate göra det automatiskt genom att välja "*Automatic*", eller skapa det själv genom att välja "*Advanced*" och ange det i det avsedda utrymmet. För att chain code ska vara effektiv måste den vara så slumpmässig som möjligt.
 
 
 ![SATSCARD](assets/notext/25.webp)
@@ -215,9 +215,9 @@ Placera ditt Satscard på baksidan av din telefon.
 ![SATSCARD](assets/notext/27.webp)
 
 
-En ny slot har framgångsrikt konfigurerats. Du kan nu se den mottagande Address som du kan sätta in bitcoins på. För att fortsätta med laddningen, följ instruktionerna i avsnittet "*Hur laddar man en slot på ett Satscard?*" i denna handledning.
+En ny slot har framgångsrikt konfigurerats. Du kan nu se de mottagande Address som du kan sätta in bitcoins i. För att fortsätta med laddningen, följ instruktionerna i avsnittet "*Hur laddar man en slot på ett Satscard?*" i denna handledning.
 
 Du kan upprepa den här processen upp till 10 gånger på varje Satscard.
 
 
-Grattis, du har nu lärt dig hur man använder Satscard! Om du tyckte att den här handledningen var till hjälp, skulle jag uppskatta om du kunde lämna en tumme upp nedan. Du får gärna dela den här artikeln på dina sociala nätverk. Tack så mycket!
+Grattis, du har nu lärt dig hur man använder Satscard! Om du tyckte att den här handledningen var till hjälp skulle jag uppskatta om du kunde lämna en tumme upp nedan. Du får gärna dela den här artikeln på dina sociala nätverk. Tack så mycket!

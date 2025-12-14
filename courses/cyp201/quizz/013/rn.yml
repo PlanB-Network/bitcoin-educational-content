@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe rwa mbere PBKDF2 ifise muri Bitcoin?
+answer: generate ni seed y’indege ya HD Wallet.
+wrong_answers:
+  - Kwemeza ubucuruzi
+  - Gushiramwo imfunguruzo z'ibanga
+  - Rema aderesi za Bitcoin
+explanation: |
+  PBKDF2 ikoreshwa mu gukura seed mu mvugo Mnemonic n'iyindi passphrase.
+reviewed: false

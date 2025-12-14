@@ -1,11 +1,11 @@
-question: Madhumuni ya Bitcoin Wallet ni nini?
-answer: Kuhifadhi funguo za kibinafsi ili kubadilisha bitcoins.
+question: Nani alikuwa mtu wa kwanza kujiunga na mtandao wa Bitcoin baada ya Satoshi Nakamoto?
+answer: Hal Finney.
 wrong_answers:
-  - Kutumia rasilimali za kifaa kuchimba bitcoins.
-  - Ili kununua bitcoins kupitia ufunguo wa umma.
-  - Ili kuhifadhi bitcoins kwenye kifaa.
+  - Laszlo Hanyecz.
+  - Phil Champagne.
+  - Rogzy.
 explanation: |
-  Pochi za Bitcoin ni aina ya programu ambayo hutumiwa
-  kuhifadhi funguo binafsi kwamba kuruhusu transact yako
-  bitcoins.
+  Hal Finney alikuwa mtu wa kwanza kujiunga na mtandao wa Bitcoin
+  baada ya Satoshi Nakamoto mwenyewe. Hata alitweet Running
+  Bitcoin kuashiria hafla hiyo.
 reviewed: true

@@ -1,0 +1,9 @@
+question: ¿Qué herramienta de línea de comandos captura el tráfico de red para analizarlo en tiempo real?
+answer: tcpdump
+wrong_answers:
+  - dig
+  - nmap
+  - ethtool
+explanation: |
+  tcpdump captura y registra los paquetes que circulan por una red Interface para su análisis.
+reviewed: false

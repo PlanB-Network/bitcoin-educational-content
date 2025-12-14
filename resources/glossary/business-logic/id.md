@@ -1,5 +1,5 @@
 ---
-term: Business Logic
+term: BUSINESS LOGIC
 ---
 
-Dalam protokol RGB, Business Logic mengelompokkan semua aturan internal dan operasi Contract, yang dijelaskan oleh Schema (yaitu struktur Contract itu sendiri). Ini menentukan bagaimana keadaan Contract dapat berevolusi, dan dalam kondisi apa.
+Dalam protokol RGB, _Business Logic_ mengelompokkan semua aturan internal dan operasi _Contract_, yang dijelaskan oleh Schema (yaitu struktur _Contract_ itu sendiri). Hal ini menentukan bagaimana dan dalam kondisi apa keadaan _Contract_ dapat berevolusi.

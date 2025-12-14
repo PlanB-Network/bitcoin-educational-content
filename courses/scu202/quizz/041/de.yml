@@ -1,0 +1,9 @@
+question: Welches Dokument, oft SHA256SUMS oder MANIFEST genannt, wird benötigt, um die Integrität von heruntergeladener Software zu überprüfen?
+answer: Die Datei mit den Software-Footprints
+wrong_answers:
+  - Das Benutzerhandbuch
+  - Die Datei mit den Signaturen der Entwickler
+  - Der vollständige Quellcode des Projekts
+explanation: |
+  Das Manifest oder die SHA256SUMS-Datei enthält die Hash jeder Datei, die vom Projekt verteilt wird, und ermöglicht die Überprüfung ihrer Integrität.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni uburyo ubuhe bumwe bwo kwirinda ububeshi bwo kuri Internet?
+answer: Suzuma akaranga k’urubuga uriko urarondera, cane cane mu gusuzuma izina ry'urubuga n'ikirihereza.
+wrong_answers:
+  - Koresha imihora ya Wi-Fi ya rusange.
+  - Koresha imbuga zidakoresha itegeko rya HTTPS.
+  - Koresha imbuga zidafise akagufuri kagaraga.
+explanation: |
+  Gusuzuma akaranga k’urubuga uriko urarondera ni ikintu gihambaye cane kugira ngo wirinde ububeshi bwo kuri Internet. Ivyo ushobora kubigira usuzuma izina ry'urubuga n'ikirihereza.
+reviewed: true

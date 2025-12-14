@@ -1,0 +1,9 @@
+question: Ni itandukaniro irihe riri hagati y'amategeko y'uguhurizako n'amategeko y'ugusubizanya?
+answer: Ukwemeranya gusobanura ukuri, gutanga ukwiragira kw'ibikorwa
+wrong_answers:
+  - Ukwemeranya gusobanura amafaranga, ugutanga gusobanura aderesi
+  - Ukwemeranya gucungera Blockchain, guhanahana gucungera imfunguruzo z'ibanga
+  - Uguhurizako guhitamwo abacukuzi, uguhanahana guhitamwo abacuruzi
+explanation: |
+  Amategeko y’uguhurizako ni yo agena ico ari co gifise akamaro muri Bitcoin, mu gihe amategeko y’uguhanahana amakuru arongora ibikorwa hagati y’ibice.
+reviewed: true

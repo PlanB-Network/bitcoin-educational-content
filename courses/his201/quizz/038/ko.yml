@@ -1,0 +1,9 @@
+question: 2010년 4월에 만들어진 모바일에서 Bitcoin을 간편하게 사용할 수 있는 최초의 커스터디 애플리케이션의 이름은 무엇인가요?
+answer: 마이비트코인
+wrong_answers:
+  - Bitcoin Wallet
+  - BTC 2 PSC
+  - 프라이버시 상어
+explanation: |
+  2010년 4월 30일에 코모도라는 사람이 포럼에 [홍보](https: //bitcointalk.org/index.php?topic=30.msg1035#msg1035)를 올렸습니다.
+reviewed: true

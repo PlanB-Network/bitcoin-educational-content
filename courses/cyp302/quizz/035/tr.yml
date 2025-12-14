@@ -1,0 +1,9 @@
+question: Sayılar teorisinin temel amacı nedir?
+answer: Tamsayıların ve onlarla çalışan fonksiyonların özelliklerini incelemek
+wrong_answers:
+  - Geometrik dönüşümleri analiz etme
+  - Sonlu bir grupta rastgele geometrik şekillerin yapısının incelenmesi
+  - Simetrik şifreleme algoritmaları geliştirmek
+explanation: |
+  Sayı teorisi, tamsayıların özelliklerine ve tamsayılara uygulanan fonksiyonlara odaklanır, genellikle kriptografideki uygulamalar için, özellikle de açık anahtar kriptografisi bağlamında.
+reviewed: false

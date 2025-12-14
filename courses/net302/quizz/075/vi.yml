@@ -1,0 +1,9 @@
+question: Loại bản ghi DNS nào được sử dụng để tìm tên liên quan đến IPv6 Address?
+answer: PTR
+wrong_answers:
+  - AAAA
+  - MX
+  - SOA
+explanation: |
+  PTR (Pointer Record) cho phép giải quyết ngược, nghĩa là nó liên kết IPv6 Address với tên miền.
+reviewed: false

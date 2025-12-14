@@ -1,0 +1,9 @@
+question: Ni shirika gani hupeana nambari za toleo la protocol ya IP?
+answer: IANA
+wrong_answers:
+  - IETF
+  - RFC
+  - Google
+explanation: |
+  Internet Assigned Numbers Authority (IANA) inasimamia Assignment ya nambari za toleo la itifaki ya IP na ugawaji wa safu za itifaki.
+reviewed: true

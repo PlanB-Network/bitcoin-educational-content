@@ -1,0 +1,9 @@
+question: Ni kubera iki umugambi wo gupfuka amakuru wemewe wonyene udahagije mu gihe co guhanahana amakuru?
+answer: Ntivyemeza ko ubutumwa bwarungitswe n’uwaburungitse igihe c’ikiganiro.
+wrong_answers:
+  - Ikoresha imfunguruzo ngufi cane.
+  - Ntiyipfuza ubutumwa bwoherejwe mu gihe c’ikiganiro.
+  - Ntivyemera kwemeza uwo yarungitse mu gihe c’ikiganiro.
+explanation: |
+  Igishushanyo c’ugushiramwo amakuru yemejwe ntikikingira ibitero nk’ugusubiramwo, gusubiramwo, no kwiyumvira ata kwongerako ibimenyetso nk’ibimenyetso n’imibare y’urutonde.
+reviewed: false

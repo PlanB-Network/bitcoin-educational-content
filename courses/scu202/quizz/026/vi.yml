@@ -1,0 +1,9 @@
+question: Lệnh nào hiển thị nội dung chi tiết của một thư mục, bao gồm cả các tệp ẩn?
+answer: ls -lah
+wrong_answers:
+  - hiển thị thư mục
+  - danh sách-tệp-chi tiết
+  - viewdir -a
+explanation: |
+  "ls -lah" hiển thị chi tiết các tệp và thư mục, bao gồm cả các tệp ẩn (bắt đầu bằng dấu chấm).
+reviewed: false

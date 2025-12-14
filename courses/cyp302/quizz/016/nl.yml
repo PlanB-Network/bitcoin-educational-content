@@ -1,0 +1,9 @@
+question: Wat is het kenmerk van een uniforme variabele?
+answer: Alle mogelijke waarden hebben evenveel kans om voor te komen
+wrong_answers:
+  - De waarden volgen een asymmetrische verdeling
+  - De waarschijnlijkheid van elke waarde hangt af van het experiment
+  - Slechts twee waarden kunnen met gelijke waarschijnlijkheid voorkomen
+explanation: |
+  Een uniforme variabele is een willekeurige variabele waarbij alle mogelijke waarden een gelijke kans hebben om voor te komen.
+reviewed: false

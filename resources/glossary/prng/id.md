@@ -1,5 +1,5 @@
 ---
-term: GNPA
+term: PRNG
 ---
 
-Kependekan dari "Generator bilangan acak semu". GNPA adalah kelas algoritma yang digunakan untuk urutan generate dari angka yang kira-kira acak, dimulai dari keadaan awal yang disebut seed (seed). Dalam kriptografi, GNPA digunakan untuk kunci generate, vektor inisialisasi, dan Elements lainnya yang membutuhkan keacakan. GNPA yang baik harus memiliki sifat-sifat seperti keseragaman output, ketidakpastian dan ketahanan terhadap serangan prediktif. Tidak seperti generator bilangan acak yang sebenarnya, GNPA bersifat deterministik dan dapat direproduksi. Pada Bitcoin, GNPA dapat digunakan pada perangkat lunak manajemen portofolio atau dompet perangkat keras, untuk generate frase pemulihan yang mendukung portofolio deterministik dan hirarkis.
+Kependekan dari "_Pseudo-random number generator_". PRNG adalah kelas algoritma yang digunakan untuk urutan _generate_ dari angka yang kira-kira acak, dimulai dari keadaan awal yang disebut _seed_. Dalam kriptografi, PRNG digunakan untuk generasi kunci, vektor inisialisasi, dan elemen lainnya yang membutuhkan keacakan. PRNG yang baik harus memiliki sifat-sifat seperti keseragaman output, ketidakpastian dan ketahanan terhadap serangan prediktif. Tidak seperti generator bilangan acak yang sebenarnya, PRNG bersifat deterministik dan dapat direproduksi. Pada Bitcoin, PRNG dapat digunakan pada perangkat lunak manajemen portofolio atau dompet perangkat keras, untuk generasi frase pemulihan yang mendukung portofolio deterministik dan hirarkis.

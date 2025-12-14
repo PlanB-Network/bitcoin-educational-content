@@ -1,0 +1,9 @@
+question: कौन सी कॉन्फ़िगरेशन फ़ाइल RHEL-जैसी प्रणाली पर एक स्थिर नेटवर्क Interface को परिभाषित करती है?
+answer: ifcfg-[Interface]
+wrong_answers:
+  - /आदि/होस्ट
+  - /etc/resolv.conf
+  - /etc/नेटवर्क/इंटरफेस
+explanation: |
+  RHEL, CentOS और इसी तरह के सिस्टम पर, प्रत्येक Interface की अपनी ifcfg-* फ़ाइल होती है जो /etc/sysconfig/network-scripts/ में स्थित होती है।
+reviewed: false

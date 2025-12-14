@@ -1,0 +1,9 @@
+question: Qual è il rischio principale di uno smartphone non aggiornato?
+answer: Diventa vulnerabile alle vulnerabilità note
+wrong_answers:
+  - Consuma più batteria
+  - Perde la connessione Wi-Fi
+  - Diventa più vulnerabile al phishing
+explanation: |
+  Uno smartphone non aggiornato è esposto a vulnerabilità corrette pubblicamente che possono essere facilmente sfruttate dagli aggressori.
+reviewed: false

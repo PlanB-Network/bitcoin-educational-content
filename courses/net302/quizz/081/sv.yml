@@ -1,0 +1,9 @@
+question: Vilket kommandoradsverktyg fångar nätverkstrafik för analys i realtid?
+answer: tcpdump
+wrong_answers:
+  - gräva
+  - nmap
+  - ethtool
+explanation: |
+  tcpdump fångar upp och loggar paket som cirkulerar i ett nätverk Interface för analys.
+reviewed: false

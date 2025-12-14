@@ -1,0 +1,10 @@
+question: Welke informatie moet er op een etiket staan?
+answer: De oorsprong van een UTXO.
+wrong_answers:
+  - De aanmaakdatum van een UTXO.
+  - De grootte van een UTXO.
+  - Het bedrag aan vergoedingen voor het aanmaken van een UTXO.
+explanation: |
+  Labelen is een goede gewoonte die helpt om de oorsprong van een UTXO te onthouden.
+  
+reviewed: false

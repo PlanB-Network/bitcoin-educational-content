@@ -1,0 +1,9 @@
+question: Ni igiki c’ishimikiro umugwi S ufise igikorwa ca kabiri utegerezwa gushitsa kugira ngo ube umugwi?
+answer: Ivyangombwa vyo gufunga
+wrong_answers:
+  - Ivyangombwa vy'uguhinduranya
+  - Ivyangombwa vy'uburinganire
+  - Ivyangombwa vyo gutanga
+explanation: |
+  Itsinda S rifise igikorwa ca kabiri ritegerezwa gushitsa ivyangombwa vyinshi kugira ngo ribe umugwi, kandi ica mbere ni ivyangombwa vyo gufunga: igikorwa hagati ya Elements zibiri za S kigomba gutanga ikintu ca S.
+reviewed: false

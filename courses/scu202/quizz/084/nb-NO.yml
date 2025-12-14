@@ -1,0 +1,9 @@
+question: Hva er Signals største svakhet når det gjelder anonymitet?
+answer: Det krever bruk av et telefonnummer
+wrong_answers:
+  - Det er ikke åpen kildekode
+  - Den lagrer meldinger på en sentral server
+  - Den krypterer ikke utvekslede filer
+explanation: |
+  Signal krever et telefonnummer for å registrere seg, noe som medfører potensiell sporbarhet, selv om protokollen sikrer sterk kryptering.
+reviewed: false

@@ -1,10 +1,9 @@
-question: Co ten kurs sugeruje na temat przyszłości Bitcoin?
-answer: To nie zniknie.
+question: Jakie podejście strukturyzuje ewolucję Bitcoina opisaną w tym rozdziale?
+answer: Ewolucja warstwowa
 wrong_answers:
-  - Zostanie ona zastąpiona lepszą technologią.
-  - Zostanie on zakazany na całym świecie.
-  - Straci on swoją wartość.
+  - Monolityczny blockchain
+  - Natywny sharding
+  - Uogólnione wykonanie onchain
 explanation: |
-  Tekst kursu sugeruje, że Bitcoin nie zniknie
-  zniknie. Wręcz przeciwnie, rewolucja dopiero się rozpoczęła.
-reviewed: true
+  Bitcoin zachowuje prostą i solidną warstwę bazową, podczas gdy wyższe protokoły dodają określone funkcjonalności.
+reviewed: false

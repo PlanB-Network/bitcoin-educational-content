@@ -1,0 +1,9 @@
+question: ¿Qué mecanismo puede utilizarse para cargar una instantánea del conjunto UTXO para que un nodo pueda utilizarse rápidamente?
+answer: assumeutxo
+wrong_answers:
+  - assumechainstate
+  - txindex
+  - notxindex
+explanation: |
+  Assumeutxo carga una instantánea del conjunto UTXO para poner el nodo en marcha rápidamente, mientras reconstruye el conjunto UTXO completo en segundo plano.
+reviewed: true

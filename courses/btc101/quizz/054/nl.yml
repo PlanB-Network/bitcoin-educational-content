@@ -1,0 +1,11 @@
+question: Hoe heet de gebeurtenis waarbij de beloning voor Mining wordt gehalveerd?
+answer: Halving
+wrong_answers:
+  - Verdubbeling
+  - Inkwartiering
+  - Verdrievoudiging
+explanation: |
+  De gebeurtenis waarbij de beloning voor Mining gehalveerd wordt, heet
+  Halving. Deze gebeurtenis geeft de monetaire uitgiftecurve een
+  trapvorm.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Millist dokumenti, mida sageli nimetatakse SHA256SUMS või MANIFEST, on vaja allalaaditud tarkvara terviklikkuse kontrollimiseks?
+answer: Tarkvara jalajäljed loetlev fail
+wrong_answers:
+  - Kasutusjuhend
+  - Arendajate allkirju sisaldav fail
+  - Projekti täielik lähtekood
+explanation: |
+  Manifest või SHA256SUMS-fail sisaldab iga projekti poolt levitatava faili Hash ja võimaldab kontrollida nende terviklikkust.
+reviewed: false

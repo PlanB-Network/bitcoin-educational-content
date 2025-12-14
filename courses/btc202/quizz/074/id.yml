@@ -1,0 +1,9 @@
+question: Struktur data apa yang meringkas transaksi dalam satu blok?
+answer: Merkle Tree
+wrong_answers:
+  - Tabel Hash UTXO
+  - File peers.dat
+  - Register assumeutxo
+explanation: |
+  Transaksi dalam sebuah blok dilakukan pada Merkle Tree, yang akarnya disertakan dalam header blok untuk memastikan integritas blok.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Wat is een factor waarmee je rekening moet houden bij het kiezen van een oplossing om Bitcoin te accepteren voor je bedrijf?
+answer: Het verwachte transactievolume.
+wrong_answers:
+  - De kleur van je logo.
+  - Het aantal werknemers.
+  - De locatie van je hoofdkantoor.
+explanation: >-
+reviewed: true

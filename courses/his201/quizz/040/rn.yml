@@ -1,0 +1,9 @@
+question: Ni ama bitcoins angahe (nk’aho) Satoshi Nakamoto yacukuye yose hamwe?
+answer: 1.100.000
+wrong_answers:
+  - 11.000.000
+  - 110.000
+  - 11.000
+explanation: |
+   1.122.693, nk’uko bigaragara mu bushakashatsi bwakozwe na Whale Alert bwasohowe mu 2020. Satoshi yahagaritse ibikorwa vyiwe vya Mining muri Rusama 2010.
+reviewed: true

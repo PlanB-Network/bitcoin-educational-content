@@ -1,0 +1,9 @@
+question: Wat is het privacymodel van het banksysteem?
+answer: Alleen de bank heeft toegang tot de transactiegegevens.
+wrong_answers:
+  - De transacties zijn openbaar, maar de identiteit van de gebruikers is niet bekend.
+  - De transacties zijn anoniem en verborgen voor iedereen, inclusief de bank.
+  - Alleen overheden hebben toegang tot de transactiegegevens.
+explanation: |
+  In het traditionele systeem is elke bankrekening gekoppeld aan een identiteit. De informatiestroom is echter afgesneden tussen de bank en het publieke domein.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvilken mekanisme gjør det mulig å få ekstern tilgang til en intern tjeneste via NAT?
+answer: Videresending av porter
+wrong_answers:
+  - Fragmentering av pakker
+  - RIP-ruting
+  - NAT-komprimering
+explanation: |
+  Videresending av porter gjør det mulig å videresende en ekstern tilkobling til en bestemt intern vert via NAT-gatewayen.
+reviewed: false

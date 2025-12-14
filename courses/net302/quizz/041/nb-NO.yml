@@ -1,0 +1,9 @@
+question: Hvilken fil ble historisk sett brukt til lokal oppløsning før global DNS ble innført?
+answer: /etc/hosts
+wrong_answers:
+  - /etc/dns
+  - /etc/network
+  - /etc/resolve
+explanation: |
+  Før DNS ble utbredt, var navneløsningen avhengig av den statiske filen /etc/hosts på Unix/Linux-systemer.
+reviewed: false

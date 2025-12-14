@@ -1,0 +1,9 @@
+question: Linuxですべてのネットワーク・インタフェースの詳細なステータスを表示するコマンドはどれか。
+answer: ip addr show
+wrong_answers:
+  - ifup -a
+  - netstat -i
+  - ip route show
+explanation: |
+  「ip addr show "コマンドは、すべてのネットワーク・インターフェイスを、そのステータス、アドレス、関連するパラメーターとともに一覧表示する。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Wat is het grootste risico van het gebruik van een slecht ontworpen PRNG voor generate entropie?
+answer: Privé sleutels kunnen geraden worden door een aanvaller
+wrong_answers:
+  - De Mnemonic zin kan onjuiste woorden bevatten
+  - Digitale handtekeningen worden ongeldig
+  - Bitcoin adressen zouden incompatibel zijn met het netwerk
+explanation: |
+  Een slecht ontworpen PRNG kan voorspelbare reeksen produceren, waardoor de sleutels kwetsbaarder worden voor aanvallen.
+reviewed: false

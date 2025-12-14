@@ -1,0 +1,9 @@
+question: Qual é a principal diferença entre uma implementação em bruto e um node-in-a-box?
+answer: A presença de um Interface e de aplicações integradas
+wrong_answers:
+  - Compatibilidade de rede
+  - Tamanho do Blockchain armazenado no disco
+  - O protocolo e a moeda utilizados
+explanation: |
+  Uma implementação em bruto instala apenas o software do nó, enquanto um nó numa caixa adiciona um Interface, uma App Store e serviços integrados.
+reviewed: true

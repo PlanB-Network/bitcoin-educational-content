@@ -1,0 +1,9 @@
+question: Qual é a principal diferença entre o movimento do software livre e o do código aberto?
+answer: Prioridade à liberdade ou à eficiência técnica
+wrong_answers:
+  - Utilização de linguagem C ou assembly
+  - Desenvolvimento de aplicações móveis nativas ou para PC
+  - A presença ou ausência da comunidade internacional
+explanation: |
+  O software livre tem a ver com a liberdade do utilizador; o código aberto tem a ver com transparência e eficiência técnica.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 哪种渲染引擎是根据 KHTML 的 Fork 创建的，用于装备 Safari？
+answer: WebKit
+wrong_answers:
+  - 三叉戟
+  - 壁虎
+  - 眨眼
+explanation: |
+  WebKit 是 KHTML 的 Fork 版，从 2003 年起被苹果公司选作 Safari 的浏览器，随后被许多浏览器采用。
+reviewed: false

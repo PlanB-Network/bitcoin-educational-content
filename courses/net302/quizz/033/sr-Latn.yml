@@ -1,0 +1,9 @@
+question: Koja tehnika omogućava da više internih mašina deli jednu javnu IP adresu Address za pristup Internetu?
+answer: NAT (Network Address Prevod)
+wrong_answers:
+  - ARP (Address Resolution Protocol)
+  - DHCP (Dynamic Host Configuration Protocol)
+  - CIDR (Classless Inter-Domain Routing)
+explanation: |
+  NAT prevodi privatne interne adrese u javnu IP adresu Address, omogućavajući više uređaja da dele istu eksternu vezu.
+reviewed: false

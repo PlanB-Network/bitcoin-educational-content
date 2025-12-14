@@ -1,0 +1,9 @@
+question: Jak by mohl protivník podle taktiky Simple Sabotage Field Manual nejúčinněji narušit otevřený vývojový proces Bitcoin?
+answer: Pronikáním do diskusí a zdržováním pokroku nekonečnými obavami z nepodstatných otázek a omíláním vyřešených debat
+wrong_answers:
+  - "Spuštěním distribuovaných útoků typu odepření služby na osobní počítače a servery vývojářů jádra Bitcoin."
+  - Podplácením fondů mining, aby odmítaly aktualizace softwaru a udržovaly starší verze protokolu po neomezenou dobu
+  - Vytvořením konkurenčních kryptoměn, které nabízejí lepší funkce, aby odlákaly vývojáře od projektů Bitcoin
+explanation: |
+  V příručce Simple Sabotage Field Manual byly popsány taktiky infiltrace, jak narušit organizaci zevnitř, včetně zdržování postupu prostřednictvím nepodstatných obav a přehodnocování vyřešených diskusí. Vzhledem k tomu, že vývoj Bitcoin je otevřený komukoli, představují tyto taktiky sociálního inženýrství reálnou hrozbu. Ostatní možnosti představují spíše vnější útoky než metody interní sabotáže popsané v příručce, které se zaměřují na využití otevřené, kolaborativní povahy procesu vývoje Bitcoin.
+reviewed: false

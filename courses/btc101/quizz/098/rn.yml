@@ -1,0 +1,11 @@
+question: Ni kuki ubuzima bwite buhambaye mu bijanye na Bitcoin?
+answer: Kugira ngo ugabanye ingorane zo gukurikirana amahera yawe.
+wrong_answers:
+  - Kugira ngo ugabanye agaciro k’ama bitcoins yawe.
+  - Kugira ngo ama bitcoins yawe ntiyibwe.
+  - Kugira ngo wishyure imisoro ku bitcoins zawe.
+explanation: |
+  Ubuzima bwite burahambaye mu bijanye na Bitcoin kugira ngo ugabanye
+  ingorane zo gukurikirana amafaranga yawe, bishobora kworohereza
+  ubugenzuzi bwawe.
+reviewed: true

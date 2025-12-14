@@ -1,0 +1,9 @@
+question: 哪种类型的 IPv6 块允许公司在更换 ISP 时仍保留其前缀？
+answer: PI（独立于提供方）
+wrong_answers:
+  - PA（提供商可汇总）
+  - LIR（本地互联网注册表）
+  - IP（可互换提供商）
+explanation: |
+  PI（独立提供商）区块由区域互联网注册管理机构直接分配给某个组织，与互联网服务提供商无关。
+reviewed: false

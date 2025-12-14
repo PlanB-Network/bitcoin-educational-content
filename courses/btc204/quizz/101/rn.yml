@@ -1,0 +1,10 @@
+question: Ni gute entropie iharurwa mu bijanye n’isesengura ry’uruzitiro kuri Bitcoin?
+answer: Mu gufata logarithme ya kabiri y’umubare w’insobanuro.
+wrong_answers:
+  - Mu kugwiza umubare w’ibintu vyinjizwa n’umubare w’ibintu bisohoka.
+  - Mu kwongerako umubare w’ibintu vyinjizwa n’ivyo bisohoka.
+  - Mu gufata logarithme ya kabiri y’umubare w’ibintu vyinjizwa n’ibisohoka.
+explanation: |
+  Entropie isobanurwa nk’umubare w’ibintu bishobora guhurizwa hamwe.
+  
+reviewed: false

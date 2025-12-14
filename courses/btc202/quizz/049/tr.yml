@@ -1,0 +1,9 @@
+question: Bitcoin core'da dbcache parametresinin varsayılan değeri nedir?
+answer: 450 MiB
+wrong_answers:
+  - 128 MiB
+  - 1 GiB
+  - 4 GiB
+explanation: |
+  Varsayılan olarak, Bitcoin core önbelleğe 450 MiB (472 MB) ayırır.
+reviewed: true

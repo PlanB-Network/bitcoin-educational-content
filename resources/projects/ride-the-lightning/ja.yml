@@ -1,0 +1,2 @@
+description: |
+  オープンソース、ウェブベースのInterfaceは、1つまたは複数のLightningノード（LND、Core Lightning、Eclair）を簡単に管理できます。RTLは、チャネル管理、支払い、バックアップ、スワップなどの幅広い機能を、直感的なInterfaceで提供します。

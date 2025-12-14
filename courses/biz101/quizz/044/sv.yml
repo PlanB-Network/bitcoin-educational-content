@@ -1,0 +1,9 @@
+question: Vad är en av de största fördelarna för handlare som använder Lightning Network?
+answer: Sänkta transaktionsavgifter
+wrong_answers:
+  - Betalningar garanterade av banker
+  - Automatisk ökning av försäljningen
+  - Avskaffande av handelsskatter
+explanation: |
+  Transaktionsavgifterna på Lightning Network är mycket låga, vilket gör den till en kostnadseffektiv lösning för handlare.  
+reviewed: false

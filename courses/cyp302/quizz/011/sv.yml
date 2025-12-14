@@ -1,0 +1,9 @@
+question: Vad är det som gör det möjligt för dåligt utrustade angripare att avlyssna lokal kommunikation?
+answer: Användning av radiovågor för trådlösa anslutningar
+wrong_answers:
+  - All data dirigeras via satelliter
+  - Använd endast koaxialkablar för dataöverföring
+  - Skicka data endast via optiska fibrer
+explanation: |
+  Trådlösa anslutningar, som överför data via radiovågor, gör det lättare för angripare att avlyssna eftersom de inte kräver fysisk tillgång till nätverket.
+reviewed: false

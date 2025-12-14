@@ -1,10 +1,9 @@
-question: Hva er Lightning Network?
-answer: Et betalingsnettverk som bruker Bitcoin-protokollen for å muliggjøre lynraske transaksjoner.
+question: Hvilken fordel tilbyr Ark sammenlignet med Lightning for mottak?
+answer: Ingen behov for innkommende likviditet
 wrong_answers:
-  - En ny type kryptovaluta.
-  - En blokkjedeteknologi som er separat fra Bitcoin.
-  - En metode for å utvinne Bitcoin.
-explanation: >-
-  Lightning Network er et betalingsnettverk som bruker Bitcoin-protokollen
-  for å muliggjøre raske transaksjoner. Det er ikke en separat kryptovaluta eller en metode for
-  å utvinne Bitcoin.
+  - Umiddelbar betalingsfinalitet
+  - Ingen transaksjonsgebyrer
+  - Ingen behov for å ha en lommebok
+explanation: |
+  Ark gjør det mulig å motta betalinger uten å ha innkommende likviditet på forhånd.
+reviewed: false

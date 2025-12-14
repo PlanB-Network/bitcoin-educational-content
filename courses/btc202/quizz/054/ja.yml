@@ -1,0 +1,9 @@
+question: ウルトラ・プルーン・モデルを導入したBitcoin coreのバージョンは？
+answer: 0.8.0
+wrong_answers:
+  - 0.3.0
+  - 0.6.0
+  - 0.10.0
+explanation: |
+  バージョン0.8.0から、Bitcoin coreはグローバル・インデックスを使わなくなり、UltrapruneのおかげでUTXOのセットを直接維持するようになった。
+reviewed: true

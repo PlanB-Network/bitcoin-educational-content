@@ -1,0 +1,9 @@
+question: Bản phân phối nào phù hợp nhất với Raspberry Pi vì nó đặc biệt nhẹ?
+answer: RaspiBlitz
+wrong_answers:
+  - Ô
+  - Nút của tôi
+  - Bắt đầu9
+explanation: |
+  RaspiBlitz được tối ưu hóa cho Raspberry Pi và vẫn nhẹ, không giống như Umbrel, vốn trở nên quá nặng đối với những máy này.
+reviewed: true

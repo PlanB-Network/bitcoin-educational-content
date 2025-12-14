@@ -1,0 +1,9 @@
+question: Какой инструмент отображает подробные сообщения DNS, включая записи и процесс разрешения?
+answer: копать
+wrong_answers:
+  - хост
+  - пинг
+  - arp
+explanation: |
+  dig (Domain Information Groper) предоставляет подробную информацию о разрешении DNS, включая типы записей.
+reviewed: false

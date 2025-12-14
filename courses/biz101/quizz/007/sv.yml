@@ -1,0 +1,9 @@
+question: Vilket av följande beskriver bäst hur Bitcoin-transaktioner uppnår slutgiltighet?
+answer: När transaktionerna väl har registrerats på Blockchain är de oföränderliga och kan inte ändras.
+wrong_answers:
+  - Transaktioner kan återkallas av bankerna om en tvist uppstår.
+  - Användare måste få godkännande från flera statliga enheter för att slutföra en transaktion.
+  - Alla deltagare kan redigera tidigare transaktioner när de vill, om de har en speciell kod.
+explanation: |
+  Bitcoin s Blockchain är en manipuleringssäker Ledger. När en transaktion har bekräftats och inkluderats i ett block blir den en del av det permanenta registret, vilket säkerställer slutgiltighet.
+reviewed: false

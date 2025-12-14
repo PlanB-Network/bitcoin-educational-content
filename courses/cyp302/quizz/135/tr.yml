@@ -1,0 +1,9 @@
+question: Zayıf parolaların karma hale getirildiklerinde ana güvenlik açığı nedir?
+answer: Sözlük saldırılarına karşı savunmasızdırlar
+wrong_answers:
+  - Hashing ile doğrulanamazlar
+  - Her zaman generate çarpışmaları
+  - Daha fazla güvenlik için daha uzun hashing gerektirirler
+explanation: |
+  Zayıf parolalar, sözlük saldırıları kullanılarak Hash'lerinden kolayca kurtarılabilir, bu da güvenliği sağlamak için seçimlerini önemli hale getirir.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Paranın zaman değeri kavramının arkasındaki ana fikir nedir?
+answer: Zamanın değeri vardır
+wrong_answers:
+  - Para zaman içinde değer kaybeder
+  - Para zaman ile değiştirilebilir
+  - Zaman para ile takas edilebilir
+explanation: |
+  Paranın zaman değeri kavramının arkasındaki ana fikir şudur
+  zamanın bir değeri vardır. Eğer birisi 100$ değerindeki bir senedi bir ay önceden ödemeye karar verirse,
+  örneğin 98 $ karşılığında temin edebilir ve 100 $'ı son ödeme tarihinde alabilirler.
+reviewed: false

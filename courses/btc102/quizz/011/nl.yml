@@ -1,0 +1,9 @@
+question: Waarom is het belangrijk om je Mnemonic zin te beschermen?
+answer: Omdat verlies resulteert in het permanente verlies van bitcoins
+wrong_answers:
+  - Omdat de Blockchain te lang is om te regenereren
+  - Omdat verlies leidt tot een lek van persoonlijke gegevens
+  - Omdat Exchange platforms veel documenten nodig hebben om het te regenereren
+explanation: |
+  Met de Mnemonic zin kan de toegang worden hersteld. Als deze verloren gaat en de Wallet niet meer toegankelijk is op het apparaat, zijn de bitcoins voorgoed verloren.
+reviewed: false

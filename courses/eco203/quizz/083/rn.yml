@@ -1,0 +1,9 @@
+question: Nk’uko Bastiat abivuga, ingaruka za Leta zirengeje urugero ku bijanye n’inshingano z’umuntu ku giti ciwe ni izihe?
+answer: Bisenya inshingano mu gukingira abantu ku giti cabo ingaruka z'ibikorwa vyabo .
+wrong_answers:
+  - Bikomeza inshingano z’umuntu ku giti ciwe mu gushinga amategeko menshi .
+  - Irahimiriza abanyagihugu kugira uruhara n'umwete mu buzima bwa bose .
+  - Bituma haba ubutungane buringaniye mu kibano .
+explanation: |
+  Bastiat abona ko iyo Leta igira ico ikoze birenze urugero, bikura ku bantu ubushobozi bwo kwitwararika bimwe bishitse ingaruka z’ibikorwa vyabo, ivyo bikaba bituma bacika intege mu bijanye n’ugutahura ko bafise inshingano.
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Per permettere a Bob di spendere direttamente i fondi
 explanation: |
   Alice crea una transazione di prelievo per recuperare i suoi fondi se si verifica un problema con Bob, garantendo così la sicurezza del suo deposito.
-reviewed: false
+reviewed: true

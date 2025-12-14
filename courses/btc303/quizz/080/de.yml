@@ -1,0 +1,9 @@
+question: Was ist die primäre Herausforderung, die die Veröffentlichung von Sicherheitslücken-Patches für Bitcoin im Vergleich zu traditionellen zentralisierten Softwaresystemen besonders komplex macht?
+answer: Der Patch-Code selbst kann potenziellen Angreifern, die die Änderungen analysieren, die Schwachstelle offenbaren
+wrong_answers:
+  - Der dezentrale Charakter bedeutet, dass es keine zentrale Behörde gibt, die den Zeitpunkt der Bereitstellung von Patches koordiniert
+  - Der Konsensmechanismus von Bitcoin erfordert die Zustimmung der Mehrheit, bevor Sicherheitspatches implementiert werden können
+  - Der Open-Source-Charakter bedeutet, dass alle Schwachstellen öffentlich bekannt gemacht werden müssen, bevor Patches entwickelt werden
+explanation: |
+  Im Text wird ausdrücklich darauf hingewiesen, dass Entwickler bei der Veröffentlichung von Patches äußerst vorsichtig sein müssen, da "der Patch selbst die Schwachstelle verraten könnte" Dies stellt eine einzigartige Herausforderung dar, da die Lösung das Problem unbeabsichtigt aufdecken kann. Der vierte Aufzählungspunkt beschreibt, wie Bitcoin-Entwickler testen, ob ein Patch "gut genug getarnt" ist, indem sie ihn von erfahrenen Entwicklern überprüfen lassen, ohne die spezifische Sicherheitslücke zu kennen. Wenn diese Experten die Schwachstelle in dem Patch nicht erkennen können, gilt er als sicher für den Einsatz. Die anderen Optionen sind falsch: Es gibt eine Koordinierung durch die Bitcoin Core Maintainer, ein Konsens ist für Patches nicht erforderlich, und Schwachstellen werden während der verantwortungsvollen Offenlegung geheim gehalten.
+reviewed: false

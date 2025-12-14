@@ -1,9 +1,11 @@
 ---
-name: LAPP bitcoin
-description: Tutorial para desarrollar tu primera LApp
+name: Lightning App
+description: Tutorial para desarrollar tu primera aplicación Lightning (LAPP)
 ---
 
-Aprende a codear tu primera lightning app
+![cover](assets/cover.webp)
+
+## Aprende a programar tu primera aplicación lightning
 
 Requisitos:
 
@@ -19,12 +21,14 @@ Para construir nuestra Lightning app, estaremos utilizando las siguientes tecnol
 - Express para nuestro webserver
 - Pug templates + bootstrap para nuestro frontend
 
+https://planb.academy/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
+
 ## Sistema operativo
 
 Se recomienda utilizar Linux, si estas en windows 10 puedes tener una consola linux siguiendo estos pocos pasos.
 Preparando la base
 
-Utilice la herramienta de generador de aplicaciones, express, para crear rápidamente un esqueleto de aplicación.
+Utiliza la herramienta de generador de aplicaciones, express, para crear rápidamente un esqueleto de aplicación.
 
 ```bash
 $ sudo npm install express-generator -g
@@ -36,14 +40,14 @@ Con la siguiente instrucción creamos una aplicación Express denominada lnapp. 
 $ express --view=pug lnapp
 ```
 
-Luego entramos al directorio e instalamos los paquetes necesarios para que el web server corra.
+Luego entramos al directorio e instalamos los paquetes necesarios para que el servidor web corra.
 
 ```bash
 $ cd myapp
 $ npm install
 ```
 
-Ahora simplemente corremos el server
+Ahora simplemente corremos el seridor
 
 ```bash
 $ npm start
@@ -75,7 +79,7 @@ La aplicación generada tiene la siguiente estructura de directorios:
 
 ## Polar
 
-Descargamos Polar, lo instalamos y creamos una red con 2 nodos LND (Alice y Bob) y 1 bitcoind, una vez veamos en la app el gráfico donde aparecen nuestros nodos hacemos clic en el botón Comienzo y espera unos segundos hasta que el indicador de cada nodo cambie de color a verde.
+Descargamos Polar, lo instalamos y creamos una red con 2 nodos LND (Alice y Bob) y 1 bitcoind, una vez veas en la app el gráfico donde aparecen tus nodos haz clic en el botón Comienzo y espera unos segundos hasta que el indicador de cada nodo cambie de color a verde.
 
 Para poder enviar pagos en Lightning es necesario que los nodos estén interconectados por medio de canales, crear canales con Polar es muy sencillo, solo necesitamos hacer clic con el mouse en una de las orejas del nodo Alice y arrastrarlo hasta una de las orejas del nodo Bob, inmediatamente te debe aparecer una ventana modal titulada Abrir nuevo canal, dejamos los valores por defecto y presionamos el botón de abrir canal, ahora repetimos la acción pero esta vez desde Bob hacia Alice, de esta manera los dos nodos pueden enviar y recibir dinero.
 
@@ -87,7 +91,7 @@ Para no tener que reiniciar nodejs cada vez que realicemos un cambio en el códi
 $ npm install nodemon -D
 ```
 
-Debemos crear una entrada en la sección scripts del archivo package.json, agregue esta línea "dev": "nodemon ./bin/www", la sección scripts debería quedar así:
+Debemos crear una entrada en la sección scripts del archivo package.json, agrega esta línea "dev": "nodemon ./bin/www", la sección scripts debería quedar así:
 
 ```json
   "scripts": {
@@ -118,7 +122,7 @@ LND_CERT_BASE64=''
 LND_MACAROON_BASE64=''
 ```
 
-Volvemos a Polar, seleccionamos a Bob, el nodo al que nos queremos conectar, vamos a la pestaña "Conectar", copiamos el contenido de Host GRPC y lo colocamos en la variable LND_GRPC_HOST, en la parte de abajo de la pestaña conectar seleccionamos base64 y copiamos el contenido de TLS Cert y lo colocamos en la variable LND_CERT_BASE64 y finalizamos haciendo lo mismo con el admin macaroon en LND_MACAROON_BASE64.
+Volvemos a Polar, seleccionamos a Bob, el nodo al que nos queremos conectar, vamos a la pestaña "Conectar", copiamos el contenido de Host GRPC y lo colocamos en la variable LND_GRPC_HOST, en la parte de abajo de la pestaña "Conectar" seleccionamos base64 y copiamos el contenido de TLS Cert y lo colocamos en la variable LND_CERT_BASE64 y finalizamos haciendo lo mismo con el admin macaroon en LND_MACAROON_BASE64.
 
 Ahora agregamos esta línea al archivo app.js ubicado en la raíz del directorio de trabajo, debemos copiarlo en la primera línea del archivo.
 
@@ -254,7 +258,7 @@ doctype html
 
 ## Creando un Post
 
-Para crear un post necesitamos un formulario, dentro del directiorio views creamos un archivo llamado form.pug que contenga:
+Para crear un post necesitamos un formulario, dentro del directiorio "views" creamos un archivo llamado form.pug que contenga:
 
 ```pug
 .collapse#post-form
@@ -271,7 +275,7 @@ Para crear un post necesitamos un formulario, dentro del directiorio views cream
 
 ## Javascript en el frontend
 
-La manera más directa que tenemos para interactuar con el usuario es utilizando javascript en el web browser, para esto, en el directorio javascript creamos un archivo main.js que ya estamos llamando desde el layout.pug, en el cual inicializamos el proyecto, el contenido inicial de main.js es el siguiente:
+La manera más directa que tenemos para interactuar con el usuario es utilizando javascript en el navegador web, para esto, en el directorio javascript creamos un archivo main.js que ya estamos llamando desde el layout.pug, en el cual inicializamos el proyecto, el contenido inicial de main.js es el siguiente:
 
 ```js
 const App = {
@@ -352,11 +356,11 @@ const apiRouter = require("./routes/api");
 app.use("/api", apiRouter);
 ```
 
-Volvamos a presionar el botón enviar y nos debe responder con la misma data que escribimos en el formulario.
+Volvemos a presionar el botón enviar y nos debe responder con la misma data que escribimos en el formulario.
 
-## Crear la invoice
+## Crear un cobro
 
-El método que se ejecuta cuando un usuario crea un post, debe generar una invoice, luego crear un registro en la base de datos vinculándolo a la invoice y retornarle al usuario la invoice para que pueda pagarla.
+El método que se ejecuta cuando un usuario crea un post, debe generar un recibo, luego crear un registro en la base de datos vinculándolo al recibo y retornarle al usuario el cobro para que pueda pagarla.
 
 ```js
 router.post("/post", async (req, res) => {
@@ -455,9 +459,9 @@ App.sendBtn = async () => {
 };
 ```
 
-## Recibiendo el pago
+## Recibiendo un pago
 
-Necesitamos saber cuándo recibimos el pago, para esto vamos a utilizar el método subscribeToInvoices() de lnservice, este método nos permite ejecutar código cuando el estado de una invoice ha sido actualizado, para utilizarlo agregamos estas líneas en app.js.
+Necesitamos saber cuándo recibimos el pago, para esto vamos a utilizar el método subscribeToInvoices() de lnservice, este método nos permite ejecutar código cuando el estado de un cobro ha sido actualizado, para utilizarlo agregamos estas líneas en app.js.
 
 ```js
 // hacemos el require de lnservice y de nuestra tabla post
@@ -581,4 +585,4 @@ block content
   include success.pug
 ```
 
-Si luego de pagar la invoice puedes ver el mensaje de Pago exitoso y la prueba de pago felicidades!!! lo lograste, has terminado tu primera LApp.
+Si luego de pagar el recibo puedes ver el mensaje de Pago exitoso y la prueba de pago felicidades!!! lo lograste, has terminado tu primera LApp.

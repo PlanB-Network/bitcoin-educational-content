@@ -1,0 +1,9 @@
+question: Qual è la principale distinzione tra il movimento del software libero e l'open source?
+answer: Priorità alla libertà o all'efficienza tecnica
+wrong_answers:
+  - Uso del linguaggio C o assembly
+  - Sviluppo di applicazioni mobili native o per PC
+  - La presenza o l'assenza della comunità internazionale
+explanation: |
+  Il software libero riguarda la libertà dell'utente; l'open source riguarda la trasparenza e l'efficienza tecnica.
+reviewed: false

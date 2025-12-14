@@ -1,0 +1,9 @@
+question: Mitä varmuuskopioita tarvitaan Lightning-solmun palauttamiseen?
+answer: seed ja SCB
+wrong_answers:
+  - seed ja txindex-tiedosto
+  - seed ja julkinen IP Address
+  - seed ja 2FA
+explanation: |
+  Lightning-solmun palauttaminen edellyttää sekä seed:tä että SCB:tä (Static Channel Backup), jota ilman kanavavaroja ei voida palauttaa.
+reviewed: true

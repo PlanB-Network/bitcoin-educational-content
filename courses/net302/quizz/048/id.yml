@@ -1,0 +1,9 @@
+question: MAC Layer dari model OSI yang mana yang termasuk dalam MAC Address?
+answer: Tautan data Layer
+wrong_answers:
+  - Aplikasi Layer
+  - Transportasi Layer
+  - Jaringan Layer
+explanation: |
+  MAC Address beroperasi pada Layer 2 model OSI, yang dikenal sebagai "data link Layer", yang digunakan untuk pengalamatan perangkat keras frame.
+reviewed: false

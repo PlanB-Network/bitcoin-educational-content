@@ -1,0 +1,9 @@
+question: Parasal krizlere karşı Bitcoinun temel avantajı nedir?
+answer: Enflasyona karşı tasarrufların korunması
+wrong_answers:
+  - Artan faiz oranları
+  - Sabit getiri garantisi
+  - Bankacılık sigortası sağlanması
+explanation: |
+  Bitcoin, öngörülebilir ihraç politikası sayesinde para birimi devalüasyonuna karşı koruma sağlar.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaka jest główna rola środowiska graficznego Linux?
+answer: Zapewnienie grafiki Interface
+wrong_answers:
+  - Zarządzanie uruchamianiem systemu
+  - Kompilacja jądra systemu Linux
+  - Ochrona przed wirusami
+explanation: |
+  Środowisko pulpitu grupuje wizualne i interaktywne Elements (okna, menu, ikony, panele itp.), aby umożliwić użytkownikowi graficzną interakcję z systemem.
+reviewed: false

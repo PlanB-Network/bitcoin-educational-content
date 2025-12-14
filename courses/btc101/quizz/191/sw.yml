@@ -1,8 +1,10 @@
-question: Ni jambo gani moja la kuzingatia unapochagua suluhu la kukubali Bitcoin kwa ajili ya biashara yako?
-answer: Kiasi cha muamala kinachotarajiwa.
+question: Je, ni kitu gani unapaswa kuwa nacho kabla ya kununua Bitcoin?
+answer: Wallet salama.
 wrong_answers:
-  - Rangi ya nembo yako.
-  - Idadi ya wafanyikazi.
-  - Mahali pa makao makuu yako.
-explanation: >-
+  - Salama ya kimwili.
+  - Akaunti ya benki.
+  - Kadi ya mkopo.
+explanation: |
+  Maandishi ya kozi yanataja kwamba kabla ya kununua Bitcoin, wewe
+  inapaswa kuwa na Wallet salama ambapo utahifadhi funguo zako.
 reviewed: true

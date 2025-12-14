@@ -1,0 +1,9 @@
+question: 0110 XOR 1101 작업의 결과는 무엇인가요?
+answer: 1011
+wrong_answers:
+  - 0111
+  - 0000
+  - 1101
+explanation: |
+  XOR을 비트 단위로 적용합니다: 0 XOR 1 = 1, 1 XOR 1 = 0, 1 XOR 0 = 1, 0 XOR 1 = 1, 따라서 결과는 1011입니다.
+reviewed: false

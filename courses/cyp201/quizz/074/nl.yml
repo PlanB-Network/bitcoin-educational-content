@@ -1,0 +1,9 @@
+question: Wat geeft de index /84'/ op diepte 1 van een afleidingspad aan?
+answer: De P2WPKH-standaard (SegWit v0)
+wrong_answers:
+  - De P2TR-standaard (SegWit v1)
+  - A Bitcoin Testnet valuta
+  - A Bitcoin Mainnet valuta
+explanation: |
+  De index /84'/ is gedefinieerd in BIP84 om het gebruik van de SegWit v0 standaard aan te geven met P2WPKH adressen op diepte 1 (die van het afleidingsdoel).
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual é o nome da mascote emblemática do Linux?
+answer: Fato
+wrong_answers:
+  - Duque
+  - Beastie
+  - daemon
+explanation: |
+  Tux tem sido a mascote oficial do kernel Linux desde 1996, criada por Larry Ewing.
+reviewed: false

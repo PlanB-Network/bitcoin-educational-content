@@ -1,0 +1,9 @@
+question: Vad betyder termen champ premier eller corps premier?
+answer: Ett fält med ett primtal av Elements
+wrong_answers:
+  - Ett fält som endast innehåller primtal
+  - Ett fält som definieras enbart genom addition av primtal
+  - Ett fält som använder slumpmässiga vektorer
+explanation: |
+  Ett primtalsfält innehåller ett antal Elements som är lika med ett primtal, vilket gör det till ett grundläggande fält för kryptografiska operationer.
+reviewed: false

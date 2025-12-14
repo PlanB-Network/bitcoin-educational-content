@@ -1,11 +1,9 @@
-question: Quelle est une manière d'atténuer la volatilité du Bitcoin ?
-answer: Couvertures financières (stablecoins).
+question: Parmi les caractéristiques suivantes, laquelle a contribué à l'expansion de l'utilisation de Bitcoin dans les marchés noirs du web, comme Silk Road ?
+answer: Sa nature incontrôlable et pseudonyme.
 wrong_answers:
-  - Investir tout votre argent dans le Bitcoin.
-  - Ignorer les tendances du marché.
-  - Acheter plus de Bitcoin lorsque le prix baisse.
+  - Son contrôle centralisé.
+  - Sa traçabilité et sa nature contrôlable.
+  - Son absence de pseudonymat.
 explanation: >-
-  La volatilité du Bitcoin peut être atténuée par plusieurs solutions telles
-  que les couvertures financières (stablecoins), une forte croyance à long terme (hodling), ou simplement
-  ne pas mettre 100% de son argent dans le Bitcoin sans rien comprendre.
+  L'utilisation de Bitcoin s'est étendue aux marchés noirs du web comme Silk Road en raison de sa nature incontrôlable et pseudonyme.
 reviewed: true

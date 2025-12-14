@@ -1,0 +1,9 @@
+question: گره Bitcoin چیست؟
+answer: یک کامپیوتر که نرم‌افزاری را اجرا می‌کند که پروتکل Bitcoin را پیاده‌سازی می‌کند
+wrong_answers:
+  - یک Hardware Wallet که شبکه Bitcoin را پیاده‌سازی می‌کند
+  - Miner در حال تولید بلوک‌های جدید برای Bitcoin
+  - یک سرور مرکزی مدیریت شبکه Bitcoin و تأیید تراکنش‌ها را بر عهده دارد.
+explanation: |
+  یک گره Bitcoin یک کامپیوتر است که نرم‌افزاری مانند Bitcoin core را اجرا می‌کند که پروتکل را پیاده‌سازی کرده و در شبکه Bitcoin شرکت می‌کند.
+reviewed: true

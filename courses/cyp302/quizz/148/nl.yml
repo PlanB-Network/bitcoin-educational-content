@@ -1,0 +1,9 @@
+question: Welke functie wordt gebruikt om het aantal coprime gehele getallen tot een geheel getal N te berekenen?
+answer: De Phi-functie van Euler
+wrong_answers:
+  - De logaritmische functie
+  - De gammafunctie van Euler
+  - De Gauss-functie
+explanation: |
+  De Phi-functie (of totient-functie) van Euler wordt gebruikt om het aantal coprimes van een geheel getal N te berekenen, vooral voor gehele getallen zonder priemgetallen.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Para que são utilizadas as portas reservadas no modelo TCP/IP?
+answer: Para ouvir os pedidos relativos a serviços específicos
+wrong_answers:
+  - Para encapsulamento automático de datagrama generate
+  - Para encaminhar fisicamente os quadros de rede
+  - Para controlar a fragmentação de pacotes UDP
+explanation: |
+  Os portos são pontos de escuta lógicos que permitem às aplicações de rede diferenciar entre vários serviços em execução no mesmo anfitrião.
+reviewed: false

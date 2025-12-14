@@ -1,11 +1,9 @@
-question: Quelle est la nature de l'adoption de Bitcoin décrite dans ce cours ?
-answer: Virale.
+question: Pourquoi un canal Lightning peut-il être inutilisable dans un sens ?
+answer: Pas assez de liquidité
 wrong_answers:
-  - Lente et régulière.
-  - Rapide et incontrôlable.
-  - Sporadique et imprévisible.
+  - Bloc trop récent
+  - HTLC expiré
+  - Nœud non synchronisé
 explanation: |
-  Le texte du cours décrit l'adoption de Bitcoin comme virale,
-  suggérant qu'elle se propage rapidement et largement d'une
-  personne à une autre, un peu comme un virus, mais dans le bon sens.
-reviewed: true
+  Même avec une grande capacité, un canal ne permet un paiement que si suffisament de liquidité se trouve du bon côté.
+reviewed: false

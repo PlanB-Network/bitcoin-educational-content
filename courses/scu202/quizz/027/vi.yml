@@ -1,0 +1,9 @@
+question: Công cụ đồ họa nào trong Ubuntu giúp quản lý các quy tắc tường lửa một cách dễ dàng?
+answer: GUFW
+wrong_answers:
+  - GEdit
+  - ốc anh vũ
+  - khớp thần kinh
+explanation: |
+  GUFW là Interface đồ họa dành cho tường lửa UFW, cho phép bạn kích hoạt, hủy kích hoạt và cấu hình các quy tắc mà không cần thông qua thiết bị đầu cuối.
+reviewed: false

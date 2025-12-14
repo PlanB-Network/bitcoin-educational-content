@@ -1,0 +1,9 @@
+question: Vilken är sekretessmodellen för Bitcoin-systemet?
+answer: Transaktionerna är offentliga, men användarnas identitet är inte känd.
+wrong_answers:
+  - Endast Satoshi Nakamoto har tillgång till transaktionsuppgifterna.
+  - Transaktionerna är krypterade och osynliga i nätverket.
+  - Endast myndigheter har tillgång till transaktionsuppgifterna.
+explanation: |
+  I fallet Bitcoin, där informationsflödet inte kan brytas mellan transaktionerna och den offentliga domänen, bygger sekretessmodellen på att användarens identitet och transaktionerna separeras.
+reviewed: false

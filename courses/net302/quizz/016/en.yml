@@ -1,0 +1,9 @@
+question: What does the IP protocol do if a datagram exceeds the MTU of a network it passes through?
+answer: He fragments it into several pieces
+wrong_answers:
+  - It encrypts the entire datagram before sending
+  - It always rejects it and sends an error message
+  - He compresses it before transmitting
+explanation: |
+  If the datagram size exceeds the MTU, the router fragments it into several smaller packets that fit the target network.
+reviewed: false

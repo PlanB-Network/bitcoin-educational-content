@@ -1,0 +1,9 @@
+question: Vad är syftet med Interface Implementation i RGB-arkitekturen?
+answer: Mappa Schema-fält till namn som definieras i Interface
+wrong_answers:
+  - Kompilera AluVM-skript för validering
+  - Att definiera Contract:s globala tillstånd och ägda tillstånd
+  - För att lagra kryptografiska bevis på klientsidan
+explanation: |
+  Interface Implementation upprättar länken mellan Schema:s Business Logic och den presentation som kan läsas av Interface.
+reviewed: false

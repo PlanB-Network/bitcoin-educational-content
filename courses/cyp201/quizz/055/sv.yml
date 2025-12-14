@@ -1,0 +1,9 @@
+question: Hur många delar är utdata från HMAC-SHA512-funktionen som tillämpas på seed uppdelad i?
+answer: Två delar av 256 bitar
+wrong_answers:
+  - En enda del av 512 bitar
+  - Tre delar av 170 bitar
+  - Fyra delar av 128 bitar
+explanation: |
+  Resultatet av HMAC-SHA512 är uppdelat i två delar: den privata huvudnyckeln (256 bitar) och huvud-chain code (256 bitar).
+reviewed: false

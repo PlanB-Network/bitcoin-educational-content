@@ -1,0 +1,10 @@
+question: Bir ülkenin hiperenflasyonda sayılması için resmi eşik nedir?
+answer: aylık %50
+wrong_answers:
+  - aylık %10
+  - aylık %25
+  - aylık %75
+explanation: |
+  2007 yılında Zimbabve'nin enflasyon oranı aylık %50 eşiğine ulaşmıştır,
+  resmi olarak ülkenin hiperenflasyonda olduğunu işaret etti.
+reviewed: false

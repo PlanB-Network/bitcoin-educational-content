@@ -1,0 +1,9 @@
+question: Yerel bir ağda IPv6 Address'da kullanılan ağ önekinin tipik boyutu nedir?
+answer: 64-bit
+wrong_answers:
+  - 32-bit
+  - 48 bit
+  - 8 bit
+explanation: |
+  Bir IPv6 Address'in ilk 64 biti genellikle alt ağ öneki için ayrılmıştır.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Wat is het resultaat van shiftvercijfering voor het woord DOG met een sleutel van 17?
+answer: UFX
+wrong_answers:
+  - ZKH
+  - TPG
+  - UVW
+explanation: |
+  Met een verschuiving van 17 in het alfabet wordt D U, O F en G X. Daarom is het versleutelde woord UFX.
+reviewed: false

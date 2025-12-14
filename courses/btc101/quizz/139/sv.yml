@@ -1,0 +1,11 @@
+question: Varför är det viktigt att en Bitcoin-nod förblir prisvärd och tillgänglig för alla möjliga användare?
+answer: Eftersom det underlättar decentraliseringen av nätverket.
+wrong_answers:
+  - Eftersom det ökar nätverkets transaktionskapacitet.
+  - Eftersom det minskar nätverkets transaktionskapacitet.
+  - Eftersom det ökar Block reward för gruvarbetare.
+explanation: |
+  Den överkomliga kostnaden och tillgängligheten för en Bitcoin-nod är
+  viktigt eftersom det underlättar decentraliseringen av
+  nätverket.
+reviewed: true

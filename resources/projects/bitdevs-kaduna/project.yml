@@ -1,0 +1,19 @@
+id: 8890fc42-08c9-482e-b700-6e7a47bf52d1
+name: BitDevs Kaduna
+category: education
+links:
+  twitter: https://x.com/BitDevsKaduna
+original_language: en
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-05-22
+    urgency: 1
+    contributor_names:
+        - AlphonseMehounme
+    reward: 0.15
+tags:
+  - development
+  - software
+  - case-studies
+contributor_names:
+  - AlphonseMehounme

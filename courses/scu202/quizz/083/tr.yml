@@ -1,0 +1,9 @@
+question: Hangi mesajlaşma hizmeti, telefon numarası veya kalıcı oturum açma olmadan tamamen anonim olarak kayıt olmanızı sağlar?
+answer: SimpleX Sohbet
+wrong_answers:
+  - Sinyal
+  - Telgraf
+  - WhatsApp
+explanation: |
+  SimpleX Chat benzersiz bir tanımlayıcı kavramını ortadan kaldırır: kişiler geçici bağlantılar veya QR kodları aracılığıyla eklenir ve hiçbir kişisel veri gerekmez.
+reviewed: false

@@ -1,0 +1,9 @@
+question: MicroG ni iki, yinjijwe muri CalyxOS?
+answer: Gusubira gushirwa mu ngiro kw'ubuntu kwa serivisi za Google
+wrong_answers:
+  - Umucungerezi w'uburenganzira
+  - Inkomoko yuguruye VPN ya Android
+  - Uwurwanya umugera wa Google
+explanation: |
+  MicroG ni uburyo bufunguye bushobora kugufasha gukoresha porogaramu zishingiye kuri Google API utashizeho ama binaire yemewe.
+reviewed: false

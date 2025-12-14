@@ -1,0 +1,5 @@
+---
+term: TEKEN BLIND
+---
+
+Het proces waarbij een gebruiker een Bitcoin transactie ondertekent zonder de precieze details te kunnen controleren van wat hij ondertekent. Met hardware wallets is blind ondertekenen gevaarlijk, omdat de gebruiker moet vertrouwen op de aangesloten computer om informatie weer te geven (ontvangers, kosten, bedragen, etc.). Dit stelt hem bloot aan kwetsbaarheden, omdat de computer verbonden is met het internet en een veel groter aanvalsoppervlak heeft dan het ondertekeningsapparaat. Als de computer gecompromitteerd is, kan deze de weergegeven gegevens manipuleren en een kwaadaardige transactie verzenden om te ondertekenen zonder dat de gebruiker zich daarvan bewust is. Om dit risico te vermijden, raden we aan om hardware wallets met een geïntegreerd scherm te gebruiken en de informatie op het scherm te controleren voordat je transacties ondertekent.

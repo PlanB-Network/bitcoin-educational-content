@@ -1,0 +1,9 @@
+question: 개인 키를 노출하지 않고 Wallet을 모니터링할 수 있는 도구는 무엇인가요?
+answer: Watch-only wallet
+wrong_answers:
+  - Hot Wallet
+  - 라이트닝 Wallet
+  - 커스터디 Wallet
+explanation: |
+  Watch-only wallet는 개인 키가 노출될 위험 없이 공개 키만 사용하여 잔액과 거래를 표시합니다.
+reviewed: false

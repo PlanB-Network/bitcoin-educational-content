@@ -1,13 +1,10 @@
-question: Jaká je role ASICů v těžbě Bitcoinu?
-answer: ASICy jsou stroje navržené výhradně pro použití algoritmu SHA256 v procesu těžby.
+question: Jaké je hlavní obavy týkající se environmentálních nákladů těžby Bitcoinu?
+answer: Spotřeba energie.
 wrong_answers:
-  - ASICy se používají k ověřování transakcí Bitcoinu aplikací algoritmu SHA256 v procesu ověřování.
-  - ASICy se používají k libovolnému vytváření nových bitcoinů.
-  - ASICy se používají k zabezpečení sítě Bitcoin.
-explanation: |
-  ASICy (Application-Specific Integrated Circuits) jsou
-  specializovaný hardware navržený specificky pro těžbu
-  Bitcoinu. Jsou optimalizovány pro provádění hašovací
-  funkce SHA256, což je matematický problém, který musí
-  těžaři vyřešit v procesu Proof of Work.
+  - Výroba ASICů.
+  - Recyklace ASICů.
+  - Cena elektřiny.
+explanation: >-
+  Hlavní environmentální obavy těžby Bitcoinu se týkají spotřeby energie. Ačkoliv jsou ASICy většinou vyrobeny z hliníku a mohou být recyklovány nebo znovu použity, energie
+  potřebná k napájení těchto strojů je významná.
 reviewed: true

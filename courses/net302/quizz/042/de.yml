@@ -1,0 +1,9 @@
+question: Welches Element eines Domänennamens stellt die Top Level Domain (TLD) dar?
+answer: Das Element ganz rechts
+wrong_answers:
+  - Das Element ganz links
+  - Die zweite Ebene nach dem Host
+  - Der Name des Hauptrechners
+explanation: |
+  Die TLD ist immer das äußerste rechte Element des FQDN, z. B. .com, .org oder .fr.
+reviewed: false

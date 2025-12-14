@@ -1,0 +1,9 @@
+question: Qual è il miglior metodo di blocco dello schermo consigliato per uno smartphone?
+answer: Password alfanumerica
+wrong_answers:
+  - Diagramma grafico
+  - Riconoscimento facciale
+  - Nessuna chiusura
+explanation: |
+  Le password alfanumeriche offrono la migliore resistenza ai tentativi di accesso non autorizzati, a differenza degli schemi grafici o della biometria.
+reviewed: false

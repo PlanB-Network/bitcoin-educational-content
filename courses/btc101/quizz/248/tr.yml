@@ -1,0 +1,10 @@
+question: Bitcoin'ın oluşturulmasının ana nedenlerinden biri nedir?
+answer: Finansal sistemin değiştirilmesini önermek.
+wrong_answers:
+  - Paranın ortadan kaldırılmasını önermek.
+  - Yapay zeka teknolojisinin yeni bir formunun oluşturulmasını önermek.
+  - Dünya nüfusunun kontrol altına alınmasını önermek.
+explanation: |
+  Metin, Satoshi Nakamoto'nun Bitcoin'i
+  2008 yılında finansal sistemin değiştirilmesini önerdi.
+reviewed: true

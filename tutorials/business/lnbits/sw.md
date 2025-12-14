@@ -614,7 +614,7 @@ Ukiwa mgeni anza na [Maonyesho ya MakerBits](https://www.youtube.com/channel/UCZ
 - Kuongeza umeme:lnurl1234xyz kutaunda QR ambayo itaomba kufungua watumiaji Wallet kwa Invoice hii inapochanganuliwa (programu ya umeme iliyosakinishwa mara ya mwisho kwenye iOS, ikiwekwa kwenye Android)
 - Ikiwa unamulika esp32 kupitia wavuti itafanya kazi na vivinjari hivi pekee (TL:DR Chrome, Edge & Opera).
 - Tafadhali kumbuka rejeleo hili la PIN-OUT kwa esp
-- Unapotumia FOSSoftware au FOSGuides pls huunganisha mwandishi kila wakati. Kila mtu anapenda kumtazama mtoto wake akikua na pia huanzisha msururu wa ujenzi ambao ni mzuri sana kutazama :)
+- Unapotumia FOSSoftware au FOSGuides pls huunganisha mwandishi kila wakati. Kila mtu anapenda kumtazama mtoto wake akikua na pia huanzisha msururu wa ujenzi ambao ni mzuri sana kutazama:)
 
 
 Njoo kwa [Makerbits Telegram Group](https://t.me/makerbits) ikiwa unahitaji usaidizi kuhusu mradi - tumekupata!

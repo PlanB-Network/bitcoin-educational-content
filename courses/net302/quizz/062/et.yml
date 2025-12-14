@@ -1,0 +1,9 @@
+question: Millist märkust kasutatakse IPv6 Address sisestamiseks URL-i?
+answer: IPv6 Address on ümbritsetud nurksulgudes
+wrong_answers:
+  - IPv6 Address on suletud sulgudesse
+  - IPv6 Address on lisatud jutumärkidesse
+  - IPv6 Address on kirjutatud toorelt
+explanation: |
+  URL-is kasutatakse IPv6 Address ja pordi eristamiseks nurksulgudes, et vältida mitmetähenduslikkust.
+reviewed: false

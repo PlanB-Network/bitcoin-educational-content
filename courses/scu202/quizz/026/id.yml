@@ -1,0 +1,9 @@
+question: Perintah mana yang menampilkan rincian isi folder, termasuk file tersembunyi?
+answer: ls -lah
+wrong_answers:
+  - tampilkan-folder
+  - daftar-file -rinci
+  - viewdir -a
+explanation: |
+  "ls -lah" menampilkan file dan folder secara mendetail, termasuk file tersembunyi (dimulai dengan titik).
+reviewed: false

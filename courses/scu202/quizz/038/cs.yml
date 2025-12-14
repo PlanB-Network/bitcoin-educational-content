@@ -1,0 +1,9 @@
+question: Který příkaz lze použít k aktualizaci všech balíčků v distribuci Ubuntu?
+answer: sudo apt update && sudo apt upgrade
+wrong_answers:
+  - sudo pacman -Syu
+  - sudo dnf upgrade
+  - sudo update-all
+explanation: |
+  V Ubuntu (a Debianu) příkaz "sudo apt update && sudo apt upgrade" synchronizuje seznam balíčků a nainstaluje všechny dostupné aktualizace.
+reviewed: false

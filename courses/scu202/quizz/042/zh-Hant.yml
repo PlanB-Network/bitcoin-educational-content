@@ -1,0 +1,9 @@
+question: 為什麼要經常檢查從網際網路下載軟體的完整性和真實性？
+answer: 避免安裝惡意軟體
+wrong_answers:
+  - 改善系統效能
+  - 節省頻寬
+  - 加快安裝速度
+explanation: |
+  驗證完整性和真實性有助於防止安裝損壞、受感染或非合法的軟體。
+reviewed: false

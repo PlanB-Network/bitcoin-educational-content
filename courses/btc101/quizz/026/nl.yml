@@ -1,0 +1,10 @@
+question: Waarom wordt Bitcoin beschouwd als een nieuwe vorm van geld?
+answer: Omdat het digitaal geld is zonder centrale entiteit.
+wrong_answers:
+  - Omdat het een digitale valuta is die wordt ondersteund door goud.
+  - Omdat het een valuta is waarvoor de bank Blockchain nodig heeft.
+  - Omdat de Federal Reserve dat zegt.
+explanation: |
+  Bitcoin kan gezien worden als een nieuwe vorm van geld, omdat het voortkomt uit een peer-to-peernetwerk zonder centrale entiteit
+  uit een peer-to-peer netwerk zonder centrale entiteit.
+reviewed: true

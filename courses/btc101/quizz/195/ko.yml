@@ -1,0 +1,10 @@
+question: KYC 없이 비트코인을 획득하는 방법에는 어떤 것이 있나요?
+answer: Bitcoin ATM.
+wrong_answers:
+  - 브로커 플랫폼.
+  - DCA 플랫폼.
+  - 은행 송금.
+explanation: |
+  강좌 텍스트에는 다음과 같은 몇 가지 방법이 있다고 언급되어 있습니다
+  여러 가지 방법이 언급되어 있는데, 그 중 하나가 Bitcoin ATM입니다.
+reviewed: true

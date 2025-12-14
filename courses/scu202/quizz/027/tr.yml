@@ -1,0 +1,9 @@
+question: Ubuntu'daki hangi grafik araç güvenlik duvarı kurallarını yönetmeyi kolaylaştırır?
+answer: GUFW
+wrong_answers:
+  - GEdit
+  - Nautilus
+  - Sinaptik
+explanation: |
+  GUFW, UFW güvenlik duvarı için grafiksel bir Interface'dır ve terminalden geçmeden kuralları etkinleştirmenizi, devre dışı bırakmanızı ve yapılandırmanızı sağlar.
+reviewed: false

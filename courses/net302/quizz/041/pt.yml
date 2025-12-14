@@ -1,0 +1,9 @@
+question: Que ficheiro era historicamente utilizado para a resolução local antes do aparecimento do DNS global?
+answer: /etc/hosts
+wrong_answers:
+  - /etc/dns
+  - /etc/network
+  - /etc/resolve
+explanation: |
+  Antes da generalização do DNS, a resolução de nomes dependia do ficheiro estático /etc/hosts nos sistemas Unix/Linux.
+reviewed: false

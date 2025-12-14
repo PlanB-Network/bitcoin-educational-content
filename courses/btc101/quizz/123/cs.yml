@@ -1,9 +1,9 @@
-question: Jaké je číslo bloku první Bitcoinové transakce?
-answer: Blok 170.
+question: Proč je počet potvrzení u Bitcoinové transakce důležitý?
+answer: Čím více potvrzení transakce má, tím je neměnnější.
 wrong_answers:
-  - Blok 1.
-  - Blok 17.
-  - Blok 1700.
-explanation: |
-  První Bitcoinová transakce, která byla transakcí 10 BTC mezi Satoshi Nakamotem a Hal Finneym, je zaznamenána v bloku 170.
+  - Čím více potvrzení transakce má, tím je cennější.
+  - Čím více potvrzení transakce má, tím rychleji je zpracována.
+  - Čím více potvrzení transakce má, tím je méně bezpečná.
+explanation: >-
+  Počet potvrzení u Bitcoinové transakce ukazuje, kolik bloků bylo vytěženo na vrcholu bloku obsahujícího transakci. Čím více potvrzení transakce má, tím je neměnnější.
 reviewed: true

@@ -1,0 +1,10 @@
+question: Ni igiki kiza ubwamebere mugutegwa?
+answer: Imeyiri
+wrong_answers:
+  - Imbuga nkoranyambaga
+  - Imbuga zo kugurirako kuri internet
+  - Imbuga za banki
+explanation: |
+  Emails ni zo ziza ubwambere mugutegwa. Bakoresha ububeshi bw'udutego mukugerageza kuronka amakuru y'agaciro nk'
+  ivyemezo vyawe n’amajambo y'ibanga yawe.
+reviewed: false

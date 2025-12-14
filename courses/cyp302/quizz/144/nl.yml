@@ -1,0 +1,9 @@
+question: Wat is de typische grootte van priemgetallen die gebruikt worden in factorisatie voor moderne cryptosystemen zoals RSA?
+answer: 1024 bits voor elke factor
+wrong_answers:
+  - 1024 bits in totaal
+  - 256 bits voor elke factor
+  - 256 bits in totaal
+explanation: |
+  In moderne cryptosystemen zoals RSA zijn de gekozen priemgetallen meestal 1024 bits per stuk, wat factoriseren extreem moeilijk maakt en de veiligheid verhoogt.
+reviewed: false

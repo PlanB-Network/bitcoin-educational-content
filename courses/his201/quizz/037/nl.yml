@@ -1,0 +1,9 @@
+question: Welke Exchange dienst, opgericht in maart 2010, was het populairst voor de opkomst van Mt. Gox in juli?
+answer: Bitcoin Markt
+wrong_answers:
+  - BitcoinFX
+  - BitcoinExchange
+  - MyBitcoin
+explanation: |
+  Deze peer-to-peer marktplaats die PayPal gebruikt, werd op 16 maart 2010 gelanceerd door een individu met de naam dwdollar en was het belangrijkste platform vóór Mt. Gox.
+reviewed: true

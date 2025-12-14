@@ -1,0 +1,9 @@
+question: Quel projet a posé les bases de l'Internet moderne à la fin des années 1960 ?
+answer: ARPANET
+wrong_answers:
+  - World Wide Web
+  - TCP/IP
+  - Ethernet
+explanation: |
+  ARPANET fut le premier réseau interconnecté, conçu pour relier plusieurs centres de recherche, et constitue le précurseur direct d’Internet.
+reviewed: false

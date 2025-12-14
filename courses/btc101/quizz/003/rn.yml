@@ -1,0 +1,9 @@
+question: Nk’uko F.A Hayek yaronse agashimwe ka Nobel abivuga, ni igiki gitegerezwa kuba kugira ngo umuntu asubire kugira amahera meza?
+answer: Ico kintu turagikura mu maboko ya leta.
+wrong_answers:
+  - Ico kintu turagiha intwaro nziza kuruta.
+  - Ico kintu turagiha intwaro y’ubutegetsi bw’agahomerabunwa.
+  - Ico kintu turagikura mu maboko y’abantu.
+explanation: |
+  Hayek avuga ati: "Sinemera ko twosubira kuronka amahera meza, imbere y'uko dukura ico kintu mu maboko ya leta. Nimba tutashobora kubakura mu minwe ya leta ku bukazi, ico dushobora gukora ni ugushiramwo ikintu badashobora guhagarika."
+reviewed: true

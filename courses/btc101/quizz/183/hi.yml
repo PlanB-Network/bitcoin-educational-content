@@ -1,8 +1,11 @@
-question: Bitcoin की कीमत में 10%, 20% या फिर 50% तक की गिरावट कुछ ही दिनों में क्यों हो सकती है? एक कारण क्या है?
-answer: बुलिश और बेयरिश मार्केट के चरण।
+question: AMF का मतलब क्या है?
+answer: वित्तीय बाजार प्राधिकरण (Autorité des Marchés Financiers)।
 wrong_answers:
-  - इंटरनेट इस्तेमाल करने वाले लोगों की संख्या।
-  - मौसम।
-  - सोने की कीमत।
-explanation: >-
+  - अमेरिकी मुद्रा कोष (American Monetary Fund)
+  - जीडब्ल्यू-0 सुविधाओं का संघ।
+  - ऑटोमेटेड पैसा फ्लो।
+explanation: |
+  AMF, यानी Autorité des Marchés Financiers, एक फ्रेंच
+  बिटकॉइन को रेगुलेट करने वाला संगठन
+  खरीदा।
 reviewed: true

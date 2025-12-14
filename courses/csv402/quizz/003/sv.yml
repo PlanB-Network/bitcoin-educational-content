@@ -1,0 +1,9 @@
+question: Vad är konsekvensen av att förlora Stash i RGB-protokollet?
+answer: Contract-historik och tillhörande data blir oåterkalleliga
+wrong_answers:
+  - Data kan rekonstrueras från Blockchain om du har seed
+  - En kopia av uppgifterna finns tillgänglig på RGB:s servrar i Schweiz
+  - Data replikeras automatiskt för alla deltagare
+explanation: |
+  I Client-side Validation ansvarar varje användare för sin egen Stash, som inte replikeras någon annanstans, vilket gör att förlusten är definitiv.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quais são os critérios mais importantes a verificar antes de escolher uma aplicação de mensagens?
+answer: Encriptação de ponta a ponta e código-fonte aberto
+wrong_answers:
+  - Autenticação forte e código-fonte aberto
+  - Encriptação de ponta a ponta e servidores descentralizados
+  - Autenticação forte e servidores descentralizados
+explanation: |
+  A encriptação de ponta a ponta garante a confidencialidade das trocas, e o código aberto permite verificar a implementação correta desta segurança.
+reviewed: false

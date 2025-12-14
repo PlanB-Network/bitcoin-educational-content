@@ -6,4 +6,4 @@ wrong_answers:
   - Cuando las comisiones por transacción son demasiado altas
 explanation: |
   El cierre forzado se utiliza como último recurso si una de las partes, por ejemplo debido a un problema técnico, ya no responde a los mensajes de la otra.
-reviewed: false
+reviewed: true

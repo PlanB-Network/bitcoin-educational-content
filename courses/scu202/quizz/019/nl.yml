@@ -1,0 +1,9 @@
+question: Wat is een Linux-distributie?
+answer: Een compleet besturingssysteem gebouwd rond de Linux-kernel
+wrong_answers:
+  - Een pakketbeheerder
+  - Een Linux bureaubladomgeving
+  - Een geautomatiseerd installatiescript voor het Linux-besturingssysteem
+explanation: |
+  Een Linux-distributie integreert de kernel, systeemtools, software, bootloader en pakketbeheer om een gebruiksklaar systeem te bieden.
+reviewed: false

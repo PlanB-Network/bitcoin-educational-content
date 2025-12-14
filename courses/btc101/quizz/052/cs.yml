@@ -1,9 +1,9 @@
-question: Jaký je dopad 20% inflace na kupní sílu za 3 roky?
-answer: Ztratíte 50% své kupní síly.
+question: Která z následujících vlastností není charakteristická pro Bitcoin?
+answer: Je snadno cenzurovatelný.
 wrong_answers:
-  - Ztratíte 100% své kupní síly.
-  - Ztratíte 60% své kupní síly.
-  - Ztratíte 30% své kupní síly.
+  - Je okamžitě přenosný.
+  - Má zanedbatelné náklady na ověření.
+  - Má pevnou měnovou politiku.
 explanation: |
-  Při 20% inflaci ztratíte téměř polovinu své kupní síly za 3 roky.
+  Bitcoin má všechny nezbytné vlastnosti, aby byl efektivní a zdravou měnou: dělitelný, okamžitě přenosný, necenzurovatelný, s zanedbatelnými náklady na ověření a s měnovou politikou, která je již nastavena na stovky let dopředu s 21 miliony jednotek.
 reviewed: true

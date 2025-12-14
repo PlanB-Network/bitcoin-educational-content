@@ -1,0 +1,10 @@
+question: Dünya çapında kaç ülke kadınların kendi adlarına banka hesabı açmalarını kısıtlıyor?
+answer: 72
+wrong_answers:
+  - 36
+  - 75
+  - 100
+explanation: |
+  Dünya çapında 72 ülkede, kadınların tuvalet açmasına izin verilmiyor
+  kendi adlarına banka hesapları.
+reviewed: true

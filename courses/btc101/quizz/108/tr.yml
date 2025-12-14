@@ -1,0 +1,11 @@
+question: Bitcoin Nakamoto'dan sonra Satoshi ağına katılan ilk kişi kimdi?
+answer: Hal Finney.
+wrong_answers:
+  - Laszlo Hanyecz.
+  - Phil Champagne.
+  - Rogzy.
+explanation: |
+  Hal Finney Bitcoin ağına katılan ilk kişiydi
+  gW-3 Nakamoto'nun kendisinden sonra. Hatta Running'i tweetledi
+  Bitcoin'yi kutlamak için.
+reviewed: true

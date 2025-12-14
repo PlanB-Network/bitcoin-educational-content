@@ -32,7 +32,8 @@ type: meetup
 
 # Description
 # Write the main description of the content
-description: A Satoshi Spritz is a public event open to everyone, allowing for anonymous participation, where discussions are exclusively focused on Bitcoin, encouraging presentations on complex topics in a flexible format.
+description: |
+  A Satoshi Spritz is a public event open to everyone, allowing for anonymous participation, where discussions are exclusively focused on Bitcoin, encouraging presentations on complex topics in a flexible format.
 
 # Event Language
 # the main language spoken during the event
@@ -52,7 +53,7 @@ project_id: cd62a137-baad-4133-b90d-711963e510c7
 
 # Tags
 # Choose from the list the associated tags to this content
-# The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
+# The list of tags is composed of 51 items that can be found here (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)
 tags:
   - adoption
   - easy-explain

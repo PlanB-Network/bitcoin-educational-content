@@ -1,0 +1,8 @@
+question: Fizyokrat'ın dergisinin adı nedir?
+answer: Les Ephémérides du Citoyen
+wrong_answers:
+  - Les Ephémérides du Peuple
+  - The New Citizen
+  - Le Journal des Économistes
+explanation: |
+  Fizyokratların gazetesi, fikirlerini ve ekonomik analizlerini yaydıkları bir süreli yayın olan "Les Éphémérides du Citoyen" idi.

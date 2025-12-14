@@ -1,0 +1,13 @@
+question: Hoe beïnvloeden regulering en elektriciteitstarieven Bitcoin Mining?
+answer: Regelgeving en elektriciteitstarieven hebben een grote invloed op Bitcoin Mining. Mijnbouwers zijn voortdurend op zoek naar goedkope elektriciteit om hun winst te maximaliseren. Daarom trekken de hoge elektriciteitskosten in bepaalde regio's mijnbouwers niet naar deze regio's aan. Mijnbouwers neigen naar regio's met lage elektriciteitstarieven, vaak in opkomende landen of landen met energieoverschotten.
+wrong_answers:
+  - Regelgeving en elektriciteitstarieven beïnvloeden Bitcoin Mining door te bepalen welk type Mining machines gebruikt kan worden.
+  - Regelgeving en elektriciteitstarieven beïnvloeden Bitcoin Mining door te bepalen welk type Mining software gebruikt kan worden.
+  - Regelgeving en elektriciteitstarieven beïnvloeden Bitcoin Mining door de grootte te bepalen van de Mining pool die gevormd kan worden.
+explanation: |
+  Het hoofdstuk legt uit dat regelgeving en
+  tarieven een grote invloed hebben op Bitcoin Mining.
+  Mijnbouwers zijn voortdurend op zoek naar goedkope elektriciteit om
+  hun winsten te maximaliseren, en neigen daarom naar
+  naar regio's met lage elektriciteitstarieven.
+reviewed: true

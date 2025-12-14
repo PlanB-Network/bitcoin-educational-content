@@ -1,0 +1,9 @@
+question: Vilken organisation började ta emot Bitcoin i november 2010 efter lobbying från samhället?
+answer: Stiftelsen för elektroniska gränser
+wrong_answers:
+  - WikiLeaks
+  - Röda Korset
+  - Amnesty International
+explanation: |
+  Denna organisation, som grundades 1900 av Mitch Kapor, John Gilmore och John Perry Barlow, hade som mål att skydda friheten på internet. Den började ta emot Bitcoin den 9 november.
+reviewed: true

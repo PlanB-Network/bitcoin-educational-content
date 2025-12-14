@@ -1,0 +1,9 @@
+question: David Chaum'un eCash konsepti hangi yıl hayata geçirildi?
+answer: 1994
+wrong_answers:
+  - 1993
+  - 1995
+  - 1996
+explanation: |
+  İlk olarak Şubat ayında cypherpunklar tarafından uygulanmış ve Digicash Ekim ayında CyberBucks vererek bunu denemiştir.
+reviewed: true

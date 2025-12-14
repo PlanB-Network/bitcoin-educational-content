@@ -1,0 +1,9 @@
+question: Bastiat'ya göre yağma hikayesinin ana fikri nedir?
+answer: Hikaye özgürlük ve baskı arasında sürekli bir mücadeledir
+wrong_answers:
+  - Hikaye, medeniyetlerin ilerleme ve gerileme döngüsüdür
+  - Hikaye ekonomik faktörler tarafından belirlenir
+  - Hikaye, değişmeyen insan doğasının bir anlatısıdır
+explanation: |
+  Bastiat'ya göre yağma hikayesinin ana fikri, bireysel özgürlük ile baskı güçleri arasında süregelen ve bazılarının ayrıcalıklarının genellikle diğerlerinin hak ve özgürlükleri pahasına elde edildiği mücadelede yatmaktadır.
+reviewed: true

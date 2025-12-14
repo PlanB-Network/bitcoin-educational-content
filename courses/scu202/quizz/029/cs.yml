@@ -1,0 +1,9 @@
+question: Která verze Ubuntu je doporučována začátečníkům pro svou stabilitu a délku podpory?
+answer: LTS (dlouhodobá podpora)
+wrong_answers:
+  - Rolling Release
+  - První verze
+  - Vydání alfa
+explanation: |
+  Verze LTS Ubuntu je udržována po dobu pěti let a nabízí vyšší stabilitu, takže je ideální pro začínající uživatele.
+reviewed: false

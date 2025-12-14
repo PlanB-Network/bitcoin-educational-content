@@ -1,0 +1,9 @@
+question: Thuật toán hoặc tài liệu nào quản lý việc lựa chọn giữa IPv4 và IPv6 khi một tên có cả hai loại Address?
+answer: RFC 6724
+wrong_answers:
+  - RFC 1918
+  - RFC 4861
+  - RFC 1035
+explanation: |
+  RFC 6724 định nghĩa thuật toán được sử dụng để quyết định sử dụng IPv4 hay IPv6 Address khi cả hai đều khả dụng cho cùng một tên máy chủ.
+reviewed: false

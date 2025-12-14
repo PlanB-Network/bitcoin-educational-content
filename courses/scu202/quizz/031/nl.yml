@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste voordeel van het draaien van applicaties in een sandbox of virtuele machine?
+answer: De impact van een compromis beperken
+wrong_answers:
+  - Programma-uitvoering versnellen
+  - RAM-verbruik verminderen
+  - Verhoog de verbindingssnelheid van het netwerk
+explanation: |
+  Sandboxing en virtualisatie worden voornamelijk gebruikt om applicaties of systemen te isoleren van potentiële aanvallen.
+reviewed: false

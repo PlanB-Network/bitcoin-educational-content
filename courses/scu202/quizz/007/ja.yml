@@ -1,0 +1,9 @@
+question: オープンソース、コミュニティベースのモデルで際立つシステムは？
+answer: GNU/Linux
+wrong_answers:
+  - ウィンドウズ
+  - マックオス
+  - クロームOS
+explanation: |
+  GNU/Linuxはフリーであり、世界的なコミュニティによって開発されているため、ユーザーにとって透明性、安全性、柔軟性が保証されている。
+reviewed: false

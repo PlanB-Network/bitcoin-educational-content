@@ -1,0 +1,11 @@
+question: Wat is de definitie van inflatie volgens Robert?
+answer: Inflatie is een buitensporige toename van betaalmiddelen waardoor de prijzen stijgen en de munt in waarde daalt.
+wrong_answers:
+  - Inflatie is een afname van betaalmiddelen waardoor de prijzen stijgen en de munteenheid in waarde daalt.
+  - Inflatie is een buitensporige toename van betaalmiddelen die een daling van de prijzen en een waardevermindering van de munt veroorzaakt.
+  - Inflatie is een buitensporige toename van betaalmiddelen die een stijging van de prijzen en een waardestijging van de munt veroorzaakt.
+explanation: |
+  Volgens Robert wordt inflatie gedefinieerd als een buitensporige toename van
+  betaalmiddelen (bankbiljetten, kapitaal) waardoor de prijzen stijgen en de munt in waarde daalt
+  van de munt.
+reviewed: false

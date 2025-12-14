@@ -1,0 +1,10 @@
+question: Vilket steg i den chaumianska CoinJoin-processen innebär att man byter identitet på Tor för att säkerställa anonymitet?
+answer: Registrering av utdata.
+wrong_answers:
+  - Registrering av inmatningar.
+  - Undertecknandet av transaktionen.
+  - Sändning av transaktionen.
+explanation: |
+  För att förhindra att samordnaren kan koppla en viss utgång till en ingång ändrar användarna sin Tor-identitet innan de skickar sina mottagningsadresser i klartext till samordnaren.
+  
+reviewed: false

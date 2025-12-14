@@ -1,0 +1,9 @@
+question: Mis on etoloogia?
+answer: Olemisviiside teadus.
+wrong_answers:
+  - Loodusteadus.
+  - Mehhaaniline teadus.
+  - Astroloogia tuletis.
+explanation: |
+  Etoloogia on teadus olemisest, käitumisest. Spinoza ja Deleuze'i jaoks on see uurimus sellest, mida keha suudab teha, tema afektidest ja võimetest tegutseda ja kirglikult tegutseda.
+reviewed: false

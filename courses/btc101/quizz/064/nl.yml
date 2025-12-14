@@ -1,0 +1,12 @@
+question: In welk jaar zal de 7e Halving plaatsvinden?
+answer: 2036
+wrong_answers:
+  - 2032
+  - 2028
+  - 2048
+explanation: |
+  De 7e Halving zou moeten plaatsvinden in 2036, en het geschatte
+  aantal Bitcoin in omloop zal 20.835.937,5 zijn,
+  wat ruwweg overeenkomt met 99,22% van het totale
+  Supply.
+reviewed: true

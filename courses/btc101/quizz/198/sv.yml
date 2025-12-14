@@ -1,0 +1,8 @@
+question: Vad är en av anledningarna till att du bör konsolidera dina UTXO i dina plånböcker då och då?
+answer: För att undvika onödiga avgifter vid transaktioner.
+wrong_answers:
+  - För att öka värdet på dina bitcoins.
+  - För att förhindra att dina bitcoins blir stulna.
+  - För att säkerställa att dina bitcoins alltid är tillgängliga.
+explanation: >-
+reviewed: true

@@ -1,0 +1,9 @@
+question: Welk voordeel biedt Ark ten opzichte van Lightning voor het ontvangen van betalingen?
+answer: Geen inkomende liquiditeit nodig
+wrong_answers:
+  - Onmiddellijke betalingsfinaliteit
+  - Geen transactiekosten
+  - Geen wallet nodig
+explanation: |
+  Ark maakt het mogelijk om betalingen te ontvangen zonder vooraf over inkomende liquiditeit te beschikken.
+reviewed: false

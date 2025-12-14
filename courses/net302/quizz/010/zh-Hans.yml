@@ -1,0 +1,9 @@
+question: 哪个现代协议提供的功能与 IPv5 在网络服务质量管理方面的目标相似？
+answer: RSVP
+wrong_answers:
+  - 超文本传输协定
+  - 地址解析协议
+  - 文件传输协议
+explanation: |
+  RSVP（Resource Reservation Protocol）允许动态预订网络资源，以保证服务质量（QoS），这也是 IPv5 的最初目标。
+reviewed: false

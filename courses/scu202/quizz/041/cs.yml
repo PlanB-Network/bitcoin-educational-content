@@ -1,0 +1,9 @@
+question: Jaký dokument, často nazývaný SHA256SUMS nebo MANIFEST, je potřeba k ověření integrity staženého softwaru?
+answer: Soubor se seznamem softwarových stop
+wrong_answers:
+  - Uživatelská příručka
+  - Soubor se seznamem podpisů vývojářů
+  - Kompletní zdrojový kód projektu
+explanation: |
+  Soubor manifest nebo SHA256SUMS obsahuje Hash každého souboru distribuovaného projektem a umožňuje ověřit jejich integritu.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Umbrelへのアクセスを保護するために、どのようなセキュリティ対策が強く推奨されますか？
+answer: 長いパスワードと2FAの有効化
+wrong_answers:
+  - デュアルSSDストレージ
+  - プレーンテキストでRPCポートを開く
+  - 長いパスワードとSSHアクティベーション
+explanation: |
+  強力なパスワードと二要素認証（2FA）の組み合わせは、Interface Umbrelへのアクセスを効果的に保護します。
+reviewed: true

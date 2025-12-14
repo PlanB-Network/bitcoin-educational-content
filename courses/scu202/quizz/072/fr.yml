@@ -1,0 +1,9 @@
+question: Quelle opération est nécessaire pour installer une ROM alternative sur un smartphone Android ?
+answer: Déverrouiller le bootloader
+wrong_answers:
+  - Créer un compte Apple
+  - Installer une carte SIM spéciale
+  - Activer le mode développeur sur iOS
+explanation: |
+  Le déverrouillage du bootloader est indispensable pour écrire une nouvelle image système sur un smartphone Android.
+reviewed: false

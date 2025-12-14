@@ -1,0 +1,9 @@
+question: Was ist ein Bitcoin-Knoten?
+answer: Ein Computer, auf dem Software zur Implementierung des Bitcoin-Protokolls läuft
+wrong_answers:
+  - A Hardware Wallet zur Implementierung des Bitcoin-Netzes
+  - A Miner produziert neue Blöcke für Bitcoin
+  - Ein zentraler Server, der das Bitcoin-Netzwerk und die Transaktionsbestätigung verwaltet
+explanation: |
+  Ein Bitcoin-Knoten ist ein Computer, auf dem eine Software wie Bitcoin core läuft, die das Protokoll implementiert und am Bitcoin-Netz teilnimmt.
+reviewed: true

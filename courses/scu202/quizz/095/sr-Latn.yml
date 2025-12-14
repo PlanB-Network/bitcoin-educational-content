@@ -1,0 +1,9 @@
+question: Koji je najbolji način za daljinski pristup vašoj kućnoj mreži?
+answer: Korišćenje ličnog VPN-a
+wrong_answers:
+  - Otvorite javni SSH port
+  - Aktiviraj cloud rutera
+  - Koristite WPS
+explanation: |
+  VPN kreira šifrovani tunel za pristup lokalnoj mreži bez izlaganja kritičnog porta Internetu.
+reviewed: false

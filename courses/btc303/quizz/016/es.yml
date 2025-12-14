@@ -1,0 +1,9 @@
+question: ¿Qué tipo de sistemas pueden construirse sobre la capa base sin confianza de Bitcoin según el modelo de seguridad descrito?
+answer: Sobre él pueden construirse sistemas tanto fiables como no fiables
+wrong_answers:
+  - Solo se pueden construir sistemas fiables sobre él
+  - Solo los sistemas de confianza pueden construirse sobre él
+  - No se pueden construir sistemas adicionales sobre él
+explanation: |
+  La capa base sin confianza de Bitcoin proporciona una base que permite flexibilidad a la hora de construir diferentes tipos de sistemas sobre ella. Como explicó Matt Corallo, mientras que no se pueden construir sistemas no fiables sobre sistemas fiables, sí se pueden construir sistemas fiables (como monederos custodiados) sobre sistemas no fiables. Esto significa que la base sin confianza de Bitcoin admite tanto aplicaciones sin confianza como servicios de confianza, dando a los diseñadores de sistemas la libertad de elegir las compensaciones apropiadas sin forzar esas mismas compensaciones a todos los demás que utilicen la capa base.
+reviewed: false

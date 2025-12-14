@@ -1,0 +1,9 @@
+question: Welk commando exporteert een Contract van de Stash naar een extern bestand?
+answer: RGB export '<ContractId>' myContractPBN.RGB
+wrong_answers:
+  - RGB download '<ContractId>' myContractPBN.RGB
+  - RGB dump '<ContractId>' myContractPBN.RGB
+  - RGB afgifte '<ContractId>' myContractPBN.RGB
+explanation: |
+  Het "RGB export" commando wordt gebruikt om een Contract uit de Stash te halen en op te slaan als een bestand om het gemakkelijk te delen.
+reviewed: false

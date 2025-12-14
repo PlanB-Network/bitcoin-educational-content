@@ -1,0 +1,10 @@
+question: Geriye dönük anonset neyi gösterir?
+answer: Döngülerin sonunda bir UTXO için olası kaynak sayısı.
+wrong_answers:
+  - Döngülerin sonunda ayırt edilemeyen UTXO'lar grubunun büyüklüğü.
+  - Döngülerin başlangıcında bir UTXO için olası kaynak sayısı.
+  - Bir CoinJoin'yi tamamlamak için gereken süre.
+explanation: |
+  Geriye dönük anonset, döngünün sonundaki UTXO dikkate alındığında, belirli bir Coin için olası kaynak sayısını gösterir.
+  
+reviewed: false

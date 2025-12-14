@@ -1,0 +1,9 @@
+question: Ne tür bir bilgisayar saldırısı bilgi almak için sahte mesajlar kullanır?
+answer: Kimlik Avı
+wrong_answers:
+  - Fidye Yazılımı
+  - DDoS
+  - SQL enjeksiyonu
+explanation: |
+  Oltalama, insanları gizli bilgileri ifşa etmeye veya kötü amaçlı yazılım yüklemeye ikna etmek için aldatıcı e-postalar veya mesajlar kullanır.
+reviewed: false

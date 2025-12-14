@@ -1,0 +1,9 @@
+question: RGB kanalında ödeme yapılması durumunda, Commitment işlemlerinde RGB çıkışlarına ne olur?
+answer: Varlıkların katılımcılar arasında yeniden dağılımını yansıtacak şekilde güncellenir
+wrong_answers:
+  - Kanal kapatılana kadar başlangıç geçmişini korumak için değişmeden kalırlar
+  - Bunlar kaldırılır ve yeni multi-sig ile değiştirilir
+  - Klasik Bitcoin UTXO'lara dönüştürülürler
+explanation: |
+  Bir ödeme yapıldığında, RGB State Transition, varlıkları yeni kanal dengesine göre yeniden dağıtmak için RGB çıkışlarını ayarlar.
+reviewed: false

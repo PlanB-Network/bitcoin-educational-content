@@ -1,0 +1,9 @@
+question: Come si chiama l'emblematica mascotte di Linux?
+answer: Smoking
+wrong_answers:
+  - Duca
+  - Beastie
+  - daemon
+explanation: |
+  Tux è la mascotte ufficiale del kernel Linux dal 1996, creata da Larry Ewing.
+reviewed: false

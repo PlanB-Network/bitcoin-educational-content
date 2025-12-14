@@ -1,0 +1,9 @@
+question: Welke technologie kan worden gebruikt om verschillende versies van de Stash samen te voegen in het geval van een discrepantie?
+answer: CRDT
+wrong_answers:
+  - HTLC
+  - Single-Use Seal
+  - Replicatie op basis van logboek
+explanation: |
+  CRDT's zorgen voor dataconsistentie door meerdere versies van de Stash samen te voegen zonder conflicten aan de clientzijde.
+reviewed: false

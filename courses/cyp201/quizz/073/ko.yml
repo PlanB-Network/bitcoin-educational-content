@@ -1,0 +1,9 @@
+question: 파생 경로에서 계정의 외부 체인을 나타내는 인덱스는 무엇인가요?
+answer: /0/
+wrong_answers:
+  - /1/
+  - /0'/
+  - /2/
+explanation: |
+  외부 체인은 파생 경로의 깊이 4에서 인덱스 /0/로 식별됩니다.
+reviewed: false

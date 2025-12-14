@@ -7,8 +7,12 @@ title: "Satoshi's First News"
 # write the full name of (all) the author(s)
 author: John Doe
 
-# Define the difficulty of the newsletter
-# Choose between beginner, intermediate, advanced, expert
+# define the content difficulty level from user's perspective
+# Level can be one of following:
+# - beginner
+# - intermediate
+# - advanced
+# - expert
 level: intermediate
 
 # when the newsletter has started
@@ -17,13 +21,13 @@ publication_date: YYYY-MM-DD
 link:
   - website: https://newsletter_link_here.com
 
-# Insert 2-digits ISO 639 language code (e.g. en for English, es for Spanish, th for Thai, etc...)
+## Insert a 2-digits language code (e.g. en for English, es for Spanish, th for Thai, etc...),
+# some languages are multiple-digits language code; e.g. Latin Serbian (sr-Latn), Chinese codes (zh-Hans, zh-Hant)
+# see here https://weblate.planb.network/projects/planb-network-website/ the list of all the available language codes (bring your mouse cursor over each language name to see the code)
 language: en
 
 description: |
-  Write like
-  this the
-  description
+  Write like this the description
 
 # Contributor section
 # List all the contributors who help format, review and translate the content.
@@ -33,8 +37,13 @@ contributor_names:
 
 # Tags
 # Choose from the list the associated tags to this content
-# The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
+# The list of tags is composed of 51 items that can be found here (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)
 tags:
   - market-trends
   - onchain
   - investment
+
+# license field, choose between CC-BY-SA-V4, MIT
+# (DEFAULT) CC-BY-SA-V4: is also quite permissive but includes a share-alike clause
+# MIT: allows for almost unrestricted use → only for imported content and docs with such license policy
+license: CC-BY-SA-V4

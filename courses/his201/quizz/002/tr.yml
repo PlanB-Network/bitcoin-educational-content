@@ -1,0 +1,9 @@
+question: ECash elektronik para modeli hangi sürece dayanıyor?
+answer: Kör imzalar
+wrong_answers:
+  - Grup imzaları
+  - Yüzük imzaları
+  - Eşik imzaları
+explanation: |
+  eCash, imzalayan kişinin neyi imzaladığını görmeden bir şeyi imzalamasına olanak tanıyan kör imza sürecine dayanmaktadır.
+reviewed: true

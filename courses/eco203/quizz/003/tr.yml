@@ -1,0 +1,9 @@
+question: Bastiat Hukuk kitabında hangi ana temayı geliştirmektedir?
+answer: Yasal yağmaya karşı mücadele ve mülkiyetin savunulması
+wrong_answers:
+  - Sosyal hakların ve kamu hizmetlerinin savunulması
+  - Klasik eğitimin faydalarının incelenmesi
+  - Sanayi devriminin eleştirisi
+explanation: |
+  Bastiat, The Law'da yasal yağmayı mülkiyetle karşılaştırır ve toplumsal sorunların çözümü olarak özgürlüğü savunur.
+reviewed: false

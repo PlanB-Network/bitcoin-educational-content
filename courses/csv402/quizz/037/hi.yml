@@ -1,0 +1,9 @@
+question: मैं "NonInflatableAsset.RGB" Schema को स्थानीय Stash में कैसे आयात करूं?
+answer: RGB आयात स्कीमाटा/NonInflatableAssets.RGB
+wrong_answers:
+  - RGB आयात Schema/NonInflatableAssets.RGB
+  - RGB क्लोन स्कीमाटा/NonInflatableAssets.RGB
+  - RGB क्लोन Schema/NonInflatableAssets.RGB
+explanation: |
+  संकलित Schema को "RGB import schemata/NonInflatableAssets.RGB" कमांड का उपयोग करके स्थानीय Stash में आयात किया जाता है।
+reviewed: false

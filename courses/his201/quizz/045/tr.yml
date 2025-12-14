@@ -1,0 +1,9 @@
+question: Temmuz 2010'da Bitcoin'ın tanınmasına önemli katkıda bulunan web sitesinin adı nedir?
+answer: Slashdot
+wrong_answers:
+  - Hackernews
+  - Yığın Taşması
+  - Reddit
+explanation: |
+  11 Temmuz 2010'da Teppy bu popüler sitede Bitcoin üzerine bir sunum yayınladı ve bu da büyük bir kullanıcı akınına yol açtı.
+reviewed: true

@@ -1,13 +1,10 @@
-question: O que é uma transação de Bitcoin?
-answer: Uma transferência de propriedade de bitcoins, usando criptografia.
+question: Como os mineradores validam transações e as incluem em um bloco?
+answer: Através do processo de Prova de Trabalho (Proof of Work).
 wrong_answers:
-  - Uma troca física de bitcoins, usando um cartório.
-  - Uma transferência de propriedade de bitcoins, usando um endereço físico.
-  - Uma transferência de propriedade de bitcoins, usando um endereço de email.
-explanation: |
-  Uma transação de Bitcoin é uma transferência digital da
-  propriedade de bitcoins, por meio do uso de um endereço de Bitcoin
-  derivado graças à criptografia de Curva Elíptica. Este
-  endereço é único para a carteira da pessoa que recebe os
-  bitcoins.
+  - Através do processo de Prova de Participação (Proof of Stake).
+  - Através do processo de Prova de Autoridade (Proof of Authority).
+  - Através do processo de Prova de Queima (Proof of Burn).
+explanation: >-
+  Os mineradores validam transações e as incluem em um bloco através de um processo
+  chamado prova de trabalho (proof of work). Isso envolve resolver um quebra-cabeça criptográfico.
 reviewed: true

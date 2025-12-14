@@ -1,0 +1,9 @@
+question: Ni gute umukozi wo kuri Internet asuzuma ijambobanga ataco abibitse ataco akora?
+answer: Mu kugereranya Hash y'ijambobanga ryinjijwe n'iri mu rutonde rw'amakuru
+wrong_answers:
+  - Mu gukuraho ijambobanga ryabitswe kugira ngo urigenzure
+  - Mu gukoresha urufunguzo rwa bose kugira ngo ugenzure akaranga
+  - Mu kugereranya ijambobanga n'iry'abandi bakoresha
+explanation: |
+  Iryo shirahamwe ritanga Hash y’ijambobanga ryinjijwe maze rikarigereranya n’iryo ryabitswe, ata na rimwe ribika iryo jambobanga ataco rihinduye, gutyo bikaba bituma haba umutekano mwinshi.
+reviewed: false

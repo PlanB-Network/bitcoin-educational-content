@@ -1,0 +1,9 @@
+question: Quel type de logiciel est recommandé pour privilégier la transparence lors des téléchargements ?
+answer: Logiciel libre
+wrong_answers:
+  - Logiciel propriétaire
+  - Logiciel en version bêta
+  - Logiciel avec publicité intégrée
+explanation: |
+  Les logiciels libres (open source) sont recommandés car leur code est auditable par la communauté, ce qui renforce la sécurité et la transparence.
+reviewed: false

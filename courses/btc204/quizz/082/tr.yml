@@ -1,0 +1,10 @@
+question: Chaumian CoinJoin sürecinin hangi adımı anonimliği sağlamak için Tor'da kimlik değiştirmeyi içerir?
+answer: Çıktıların kaydedilmesi.
+wrong_answers:
+  - Girdilerin kaydedilmesi.
+  - İşlemin imzalanması.
+  - İşlemin yayınlanması.
+explanation: |
+  Koordinatörün belirli bir çıktıyı bir girdi ile ilişkilendirmesini önlemek için, kullanıcılar açık metin alıcı adreslerini koordinatöre göndermeden önce Tor kimliklerini değiştirirler.
+  
+reviewed: false

@@ -1,0 +1,2 @@
+description: |
+  Ashigaru on ilmainen ja avoimen lähdekoodin Bitcoin Wallet, joka syntyi Samurai Wallet:n Fork:sta sen kehittäjien pidätyksen jälkeen. Se tarjoaa kehittyneitä Bitcoin:n tietosuojatyökaluja, kuten Whirlpool Zerolink-kolikkoliitoksia varten, BIP-47-tuen PayNymin kautta, yhteyden Dojo-solmuun Torin kautta sekä ominaisuuksia, kuten Ricochet, Stealth Mode ja UTXO-ohjaus, kaikki omassa säilytyksessä.

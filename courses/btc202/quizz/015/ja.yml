@@ -1,0 +1,9 @@
+question: Bitcoin coreの主な代替案は？
+answer: Bitcoin Knots
+wrong_answers:
+  - Bitcoin 現金
+  - ビーティーシーディー
+  - Bコイン
+explanation: |
+  ルーク・ダッシュジールが開発したBitcoin Knotsは、コアのForkであり、追加オプションとより保守的なビジョンを提供する。
+reviewed: true

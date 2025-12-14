@@ -1,0 +1,2 @@
+description: |
+  Avoimen lähdekoodin verkkopohjainen Interface, jolla on helppo hallita yhtä tai useampaa Lightning-solmua (LND, Core Lightning, Eclair). RTL tarjoaa laajan valikoiman toimintoja, kuten kanavien hallinta, maksut, varmuuskopiot ja vaihdot, kaikki intuitiivisessa Interface:ssa, joka voidaan ottaa käyttöön muutamassa minuutissa lukuisilla alustoilla.

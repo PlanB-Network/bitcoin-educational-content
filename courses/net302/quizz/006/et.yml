@@ -1,0 +1,9 @@
+question: Milline organisatsioon jälgib Interneti-protokollide tehnilist juhtimist?
+answer: Interneti-arhitektuuri nõukogu
+wrong_answers:
+  - Interneti-kogukond
+  - World Wide Web Consortium
+  - Elektri- ja Elektroonikainseneride Instituut
+explanation: |
+  Interneti Arhitektuurinõukogu (IAB) jälgib tehnilist juhtimist ja koordineerib Interneti-protokollide arengut.
+reviewed: false

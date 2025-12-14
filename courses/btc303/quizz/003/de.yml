@@ -1,0 +1,9 @@
+question: Welches Problem hat Bitcoin gelöst, das frühere digitale Währungen nicht in den Griff bekamen?
+answer: Das double-spending-Problem in dezentraler Form
+wrong_answers:
+  - Das Verschlüsselungsproblem in Peer-to-Peer-Netzen
+  - Das Speicherproblem bei digitalen Transaktionen
+  - Das Geschwindigkeitsproblem bei Online-Zahlungen
+explanation: |
+  Der Durchbruch von Bitcoin bestand darin, das double-spending-Problem zu lösen, ohne eine zentrale Behörde zu benötigen. Das double-spending-Problem ist die Herausforderung, zu verhindern, dass jemand dieselbe digitale Münze zweimal ausgibt. Frühere digitale Währungen scheiterten, weil sie auf zentrale Server oder vertrauenswürdige Behörden angewiesen waren, was sie anfällig für Zensur und einzelne Fehlerquellen machte. Bitcoin löste dieses Problem durch seinen verteilten Peer-to-Peer-Zeitstempel-Server, der proof-of-work verwendet und es dem Netzwerk ermöglicht, sich ohne zentrale Kontrolle auf die Reihenfolge der Transaktionen zu einigen.
+reviewed: false

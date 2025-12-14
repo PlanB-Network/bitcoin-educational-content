@@ -1,11 +1,10 @@
-question: Qual è un modo per testare personalmente Lightning Network?
-answer: Provando l'applicazione per podcast chiamata Fountain.
+question: Qual è uno dei principali problemi legati alla censura?
+answer: Può distruggere la libertà di espressione e il diritto di riunione.
 wrong_answers:
-  - Minando Bitcoin con un computer personale.
-  - Acquistando Bitcoin dalla banca.
-  - Creando una nuova criptovaluta.
+  - Può portare all'applicazione della libertà di espressione.
+  - Può portare a più sostegno per il diritto di riunione.
+  - Può portare a una diminuzione dell'innovazione.
 explanation: >-
-  Un modo per testare personalmente Lightning Network è provare l'applicazione
-  per podcast Fountain, che permette di essere ricompensati con alcuni sats
-  ascoltando i podcast preferiti.
+  Il testo menziona che tollerare la censura può distruggere la libertà di
+  espressione e il diritto di riunione.
 reviewed: true

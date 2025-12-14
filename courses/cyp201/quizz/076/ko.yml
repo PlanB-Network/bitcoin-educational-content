@@ -1,0 +1,9 @@
+question: Descriptor의 /<0;1>/* 표기는 무엇을 의미하나요?
+answer: 순차적 파생으로 외부 및 내부 체인으로
+wrong_answers:
+  - 정렬된 다중 서명 Address로
+  - 파생 경로에 대한 체크섬으로
+  - 강화된 파생 경로로
+explanation: |
+  표기 /<0;1>/*는 와일드카드(*)를 사용하여 순차적으로 파생된 외부(0) 및 내부(1) 체인에 대해 Descriptor가 generate 주소를 지정할 수 있음을 나타냅니다.
+reviewed: false

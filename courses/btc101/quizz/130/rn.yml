@@ -1,0 +1,12 @@
+question: Ni gute abakoresha barungika Ownership y’amahera yabo mu rubuga rwa Bitcoin?
+answer: Mu gusinya ku bikorwa vy’ubuhinga bwa none bakoresheje imfunguruzo zabo z’ibanga.
+wrong_answers:
+  - Mu gutanga ku mubiri ama Bitcoins yabo.
+  - Mu kohereza ubutumwa kuri email uwuburonkeye.
+  - Mu gutanga Bitcoin Address yabo ku muntu ayironka.
+explanation: |
+  Abakoresha mu rubuga rwa Bitcoin barungika Ownership y'ivyabo
+  amafranga mu gusinyana amasezerano n'ibanga ryabo
+  imfunguruzo. Ivyo bica bisuzuma ko ari bo bafise iyo .
+  bitcoins bashaka gutanga.
+reviewed: true

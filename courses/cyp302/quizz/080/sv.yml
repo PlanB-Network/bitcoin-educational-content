@@ -1,0 +1,9 @@
+question: Vad är ett streamchiffer inom kryptografi?
+answer: En symmetrisk kryptering som genererar en ström av nycklar med samma längd som meddelandet
+wrong_answers:
+  - En asymmetrisk kryptering baserad på primtal
+  - En kryptering som använder flera olika dekrypteringsnycklar
+  - En kryptering som delar upp meddelandet i datablock
+explanation: |
+  Ett strömchiffer är en symmetrisk kryptering där en ström av nycklar med samma längd som meddelandet kombineras med det senare för att producera den krypterade texten.
+reviewed: false

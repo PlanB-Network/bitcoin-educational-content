@@ -1,0 +1,10 @@
+question: Hur påverkas köpkraften av en inflation på 20% under 3 år?
+answer: Du förlorar 50 procent av din köpkraft.
+wrong_answers:
+  - Du förlorar 100 % av din köpkraft.
+  - Du förlorar 60 procent av din köpkraft.
+  - Du förlorar 30 procent av din köpkraft.
+explanation: |
+  Med 20% inflation förlorar du nästan hälften av din köpkraft på
+  köpkraft på 3 år.
+reviewed: true

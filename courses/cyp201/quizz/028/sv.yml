@@ -1,0 +1,9 @@
+question: Vad är storleken på en komprimerad publik nyckel som använder Schnorr-protokollet?
+answer: 32 byte
+wrong_answers:
+  - 33 byte
+  - 64 byte
+  - 128 bitar
+explanation: |
+  En publik Schnorr-nyckel representeras endast av x-koordinaten för punkten på den elliptiska kurvan, vilket minskar dess storlek till 32 byte.
+reviewed: false

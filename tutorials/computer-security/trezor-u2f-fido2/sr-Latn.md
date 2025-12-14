@@ -1,12 +1,12 @@
 ---
-name: Trezor U2F & FIDO2
+name: "Trezor U2F & FIDO2"
 description: Ojačajte svoju online sigurnost uz Trezor
 ---
 ![cover](assets/cover.webp)
 
 
 
-Trezor uređaji su hardverski novčanici prvobitno dizajnirani da osiguraju Bitcoin Wallet, ali takođe imaju napredne opcije za snažnu autentifikaciju na vebu. Zahvaljujući njihovoj kompatibilnosti sa **U2F** i **FIDO2** protokolima, omogućavaju vam da osigurate pristup vašim onlajn nalozima bez oslanjanja isključivo na lozinke.
+Trezor uređaji su hardverski novčanici prvobitno dizajnirani da osiguraju Bitcoin novčanik, ali takođe imaju napredne opcije za snažnu autentifikaciju na vebu. Zahvaljujući njihovoj kompatibilnosti sa **U2F** i **FIDO2** protokolima, omogućavaju vam da osigurate pristup vašim onlajn nalozima bez oslanjanja isključivo na lozinke.
 
 
 
@@ -18,11 +18,11 @@ Ova metoda se zasniva na asimetričnoj kriptografiji: nikakvi tajni podaci se ne
 
 
 
-Pored U2F, koji omogućava dvofaktorsku autentifikaciju, Trezori takođe podržavaju FIDO2 (*Fast IDentity Online 2.0*), evoluciju U2F-a. Ovo je standardizovani protokol autentifikacije iz 2018. godine, koji proširuje logiku U2F-a i ima za cilj da potpuno zameni lozinke. Zasniva se na dva komponenta: *WebAuthn* (strana pregledača) i *CTAP2* (strana fizičkog ključa). FIDO2 omogućava autentifikaciju bez lozinki: korisnici se identifikuju isključivo putem svog Trezor uređaja, koji deluje kao jedinstveni kriptografski token, bez dodatne lozinke. Ovaj protokol je sada kompatibilan sa brojnim onlajn servisima, posebno onima usmerenim ka preduzećima.
+Pored U2F, koji omogućava dvofaktorsku autentifikaciju, Trezori takođe podržavaju FIDO2 (*Fast IDentity Online 2.0*), evoluciju U2F-a. Ovo je standardizovani protokol autentifikacije iz 2018. godine, koji proširuje logiku U2F-a i ima za cilj da potpuno zameni lozinke. Bazira se na dva sastavna dela: WebAuthn (sa strane pregledača) i CTAP2 (sa strane fizičkog ključa). FIDO2 omogućava autentifikaciju bez lozinke: korisnici se identifikuju isključivo putem svog Trezor uređaja, koji deluje kao jedinstveni kriptografski token, bez dodatne lozinke. Ovaj protokol je sada kompatibilan sa brojnim onlajn servisima, posebno onima usmerenim ka preduzećima.
 
 
 
-Pored funkcionalnosti "passwordless*", FIDO2 takođe omogućava dvofaktorsku autentifikaciju na sličan način kao U2F.
+Pored funkcionalnosti "*passwordless* (prevod: bez lozinke)", FIDO2 takođe omogućava dvofaktorsku autentifikaciju na sličan način kao U2F.
 
 
 
@@ -42,7 +42,7 @@ U ovom vodiču ćemo otkriti kako aktivirati U2F ili FIDO2 za dvofaktorsku auten
 
 
 
-Pre nego što počnete, uverite se da ste podesili svoj Bitcoin Wallet na vašem Trezoru. Važno je da pravilno sačuvate vaš Mnemonic, jer se ključevi korišćeni za U2F i FIDO2 u dvofaktorskoj autentifikaciji izvode iz ovog Mnemonic. Ako vaš Trezor bude izgubljen ili oštećen, možete povratiti pristup vašim ključevima unosom vaše Mnemonic fraze na drugom Trezor uređaju (imajte na umu da za FIDO2 akreditive u "*passwordless*" režimu, samo seed nije dovoljan, kao što ćemo videti u narednim odeljcima).
+Pre nego što počnete, uverite se da ste podesili svoj Bitcoin novčanik na vašem Trezoru. Važno je da pravilno sačuvate vašu Mnemonic (bezbednosnu) frazu, jer se ključevi korišćeni za U2F i FIDO2 u dvofaktorskoj autentifikaciji izvode iz ove Mnemonic fraze. Ako vaš Trezor bude izgubljen ili oštećen, možete povratiti pristup vašim ključevima unosom vaše Mnemonic fraze na drugom Trezor uređaju (imajte na umu da za FIDO2 kredencijali u režimu "*bez lozinke*", samo seed nije dovoljan, kao što ćemo videti u narednim odeljcima).
 
 
 
@@ -118,7 +118,7 @@ Zatim možete pritisnuti ekran vašeg Trezora da potvrdite autentifikaciju.
 
 
 
-Prednost korišćenja Hardware Wallet Trezora za dvofaktorsku autentifikaciju je što možete lako povratiti svoje ključeve zahvaljujući Mnemonic frazi. Pored ove osnovne rezervne kopije, možete koristiti i hitni kod koji obezbeđuje svaka usluga gde ste aktivirali 2FA. Ovaj hitni kod vam omogućava da se povežete na svoj nalog ako izgubite sigurnosni ključ. Stoga zamenjuje 2FA za povezivanje ako je potrebno.
+Prednost korišćenja Trezor hardverskog novčanika za dvofaktorsku autentifikaciju je što možete lako povratiti svoje ključeve zahvaljujući Mnemonic frazi. Pored ove osnovne rezervne kopije, možete koristiti i hitni kod koji obezbeđuje svaka usluga gde ste aktivirali 2FA. Ovaj hitni kod vam omogućava da se povežete na svoj nalog ako izgubite sigurnosni ključ. Stoga zamenjuje 2FA za povezivanje ako je potrebno.
 
 
 
@@ -134,12 +134,12 @@ Preporučujem da ovaj kod čuvate na drugom mestu od mesta gde čuvate svoju gla
 
 
 
-Ovaj pristup vam nudi dva nivoa bekapa u slučaju gubitka vašeg Trezora za 2FA autentifikaciju: prvi bekap koristeći Mnemonic frazu za sve vaše naloge, i drugi specifičan za svaki nalog sa hitnim kodovima. Međutim, važno je **ne pomešati ulogu Mnemonic sa ulogom hitnog koda** :
+Ovaj pristup vam nudi dva nivoa bekapa u slučaju gubitka vašeg Trezora za 2FA autentifikaciju: prvi bekap koristeći Mnemonic frazu za sve vaše naloge, i drugi specifičan za svaki nalog sa hitnim kodovima. Međutim, važno je **ne pomešati ulogu Mnemonic fraze sa ulogom hitnog koda**:
 
 
 
 
-- Fraza Mnemonic od 12 ili 24 reči daje vam pristup ne samo ključevima korišćenim za 2FA na svim vašim nalozima, već i vašim bitcoinima osiguranim sa vašim Trezorom ;
+- Mnemonic fraza  od 12 ili 24 reči daje vam pristup ne samo ključevima korišćenim za 2FA na svim vašim nalozima, već i vašim bitcoinima osiguranim sa vašim Trezorom ;
 - Hitni kod vam omogućava da privremeno zaobiđete zahtev za 2FA samo na dotičnom nalogu (u ovom primeru, samo na Bitwarden-u).
 
 
@@ -152,7 +152,7 @@ Pored dvofaktorske autentifikacije, FIDO2 takođe omogućava autentifikaciju bez
 
 
 
-Pre nego što počnete, uverite se da ste postavili svoj Bitcoin Wallet na vašem Trezor-u. Važno je sačuvati Mnemonic, jer su FIDO2 "*passwordless*" identifikatori enkriptovani sa vašim seed (saznaćemo kako da pravilno sačuvamo ove identifikatore u sledećem odeljku).
+Pre nego što počnete, uverite se da ste postavili svoj Bitcoin novčanik na vašem Trezor-u. Važno je sačuvati Mnemonic frazu, jer su FIDO2 "*passwordless*" identifikatori enkriptovani sa vašim seed-om (saznaćemo kako da pravilno sačuvamo ove identifikatore u sledećem odeljku).
 
 
 
@@ -168,7 +168,7 @@ Pristupite nalogu koji želite da osigurate u "*passwordless*" režimu. Koristi�
 
 
 
-Na primer, na Bitwardenu se opcija nalazi pod karticom "*Glavna lozinka*". Kliknite na "*Uključi*" da biste aktivirali autentifikaciju putem FIDO2.
+Na primer, na Bitwardenu se opcija nalazi pod karticom "*Master password*". Kliknite na "*Turn on*" da biste aktivirali autentifikaciju putem FIDO2.
 
 
 
@@ -192,7 +192,7 @@ Detalji vašeg naloga će se pojaviti na Trezor ekranu. Dodirnite ekran ili prit
 
 
 
-Na sajtu, dodajte ime da biste zapamtili svoj sigurnosni ključ, zatim kliknite na "*Uključi*".
+Na sajtu, dodajte ime da biste zapamtili svoj sigurnosni ključ, zatim kliknite na "*Turn on*".
 
 
 
@@ -208,7 +208,7 @@ Zatim će vam biti zatraženo da se identifikujete kako biste proverili da li kl
 
 
 
-Od sada, kada se prijavljujete na svoj nalog, više neće biti potrebno unositi vašu email adresu Address ili prijavu. Jednostavno kliknite na dugme da se autentifikujete fizičkim ključem na obrascu za prijavu.
+Od sada, kada se prijavljujete na svoj nalog, više neće biti potrebno unositi vašu email adresu ili prijavu. Jednostavno kliknite na dugme da se autentifikujete fizičkim ključem na obrascu za prijavu.
 
 
 
@@ -216,7 +216,7 @@ Od sada, kada se prijavljujete na svoj nalog, više neće biti potrebno unositi 
 
 
 
-Potvrdite vezu sa vašim Trezorom unosom vašeg Hardware Wallet PIN-a.
+Potvrdite vezu sa vašim Trezorom unosom vašeg PIN-a na hardverskom novčaniku.
 
 
 
@@ -236,11 +236,11 @@ Bićete povezani sa svojim nalogom bez potrebe da unosite lozinku.
 
 
 
-## Sačuvaj svoje FIDO2 akreditive (rezidente akreditiva)
+## Sačuvaj svoje FIDO2 kredencijale (rezidentne kredencijale)
 
 
 
-Ako koristite FIDO2 ili U2F za dvofaktorsku autentifikaciju, tj. za prijavljivanje na naloge koji zahtevaju lozinku pored 2FA validacije putem vašeg Trezora, tada će sama Mnemonic fraza omogućiti pristup vašim ključevima. Međutim, ako koristite FIDO2 u "*bezlozinkskom*" režimu kao što je opisano u prethodnom odeljku, biće potrebno napraviti kopiju vaših FIDO akreditiva pored pravljenja rezervne kopije vaše Mnemonic fraze koja šifruje te akreditive.
+Ako koristite FIDO2 ili U2F za dvofaktorsku autentifikaciju, tj. za prijavljivanje na naloge koji zahtevaju lozinku pored 2FA validacije putem vašeg Trezora, tada će sama Mnemonic fraza omogućiti pristup vašim ključevima. Međutim, ako koristite FIDO2 u "*bezlozinskom*" režimu kao što je opisano u prethodnom odeljku, biće potrebno napraviti kopiju vaših FIDO kredencijala pored pravljenja rezervne kopije vaše Mnemonic fraze koja šifruje te kredencijale.
 
 
 
@@ -290,7 +290,7 @@ Relying party ID:       vault.bitwarden.com
 Relying party name:     Bitwarden
 User ID:                6e315ebabc8b6945a253b1c50116538d
 User name:              tutoplanbnetwork@proton.me
-User display name:      PBN
+User display name:      Plan ₿ Academy
 Creation time:          2
 hmac-secret enabled:    True
 Use signature counter:  True
@@ -301,7 +301,7 @@ Credential ID:          f1d00200a020a736356d0ceb7ce8b7655b39c399d8111b620bbbbfc7
 
 
 
-Kopiraj i sačuvaj sve ove informacije u tekstualnu datoteku. Ne postoji značajan rizik povezan sa ovom rezervnom kopijom, osim otkrivanja da koristite ove usluge sa FIDO2. "*ID akreditiva*" je šifrovan korišćenjem vašeg Wallet-ovog seed, što znači da napadač koji dobije ovu rezervnu kopiju ne bi mogao da se poveže na vaše naloge, već samo da primeti da koristite ove naloge. Da biste dešifrovali ove ID-ove, potreban vam je seed u vašem Wallet.
+Kopiraj i sačuvaj sve ove informacije u tekstualnu datoteku. Ne postoji značajan rizik povezan sa ovom rezervnom kopijom, osim otkrivanja da koristite ove usluge sa FIDO2. "*ID kredencijala*" je šifrovan korišćenjem vašeg seed-a novčanika, što znači da napadač koji dobije ovu rezervnu kopiju ne bi mogao da se poveže na vaše naloge, već samo da primeti da koristite ove naloge. Da biste dešifrovali ove ID-ove, potreban vam je seed u vašem novčaniku.
 
 
 
@@ -309,7 +309,7 @@ Stoga možete kreirati nekoliko kopija ovog tekstualnog fajla i čuvati ih na ra
 
 
 
-Sada zamislimo da ste pokvarili svoj Trezor. Da biste povratili svoje FIDO2 akreditive, prvo ćete morati da povratite svoj Wallet koristeći svoju Mnemonic frazu na novom FIDO2-kompatibilnom Trezor uređaju.
+Sada zamislimo da ste pokvarili svoj Trezor. Da biste povratili svoje FIDO2 kredencijale, prvo ćete morati da povratite svoj novčanik koristeći svoju Mnemonic frazu na novom FIDO2-kompatibilnom Trezor uređaju.
 
 
 
@@ -345,7 +345,7 @@ Vaš FIDO2 prijava sada je operativna na vašem Trezoru. Ponovite ovaj postupak 
 
 
 
-Čestitamo, sada ste u toku sa korišćenjem vašeg Trezora sa U2F i FIDO2! Ako vam je ovaj vodič bio koristan, bio bih veoma zahvalan ako biste ostavili Green palac ispod. Slobodno podelite ovaj vodič na vašim društvenim mrežama. Hvala vam puno!
+Čestitamo, sada ste u toku sa korišćenjem vašeg Trezora sa U2F i FIDO2! Ako vam je ovaj vodič bio koristan, bio bih veoma zahvalan ako biste pritisnuli zeleni palac ispod. Slobodno podelite ovaj vodič na vašim društvenim mrežama. Hvala vam puno!
 
 
 
@@ -353,4 +353,4 @@ Preporučio bih i ovaj drugi vodič, u kojem razmatramo drugo rešenje za U2F i 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

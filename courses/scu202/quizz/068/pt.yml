@@ -1,0 +1,9 @@
+question: Que grande erro de segurança expõe uma fuga de dados ao efeito dominó?
+answer: Reutilizar a mesma palavra-passe em vários sítios
+wrong_answers:
+  - Utilizar uma VPN pública
+  - Eliminar o histórico de navegação com demasiada frequência
+  - Navegar no modo de texto
+explanation: |
+  A reutilização de uma palavra-passe em diferentes sítios permite a um atacante, em caso de comprometimento de um serviço, aceder a outras contas com a mesma palavra-passe.
+reviewed: false

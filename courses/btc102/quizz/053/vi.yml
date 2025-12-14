@@ -1,0 +1,9 @@
+question: Ứng dụng nào liệt kê các nơi kinh doanh chấp nhận Bitcoin trên toàn thế giới?
+answer: Bản đồ BTC
+wrong_answers:
+  - CoinMarketCap
+  - Bitcoin Talk
+  - Swiss Bitcoin Pay
+explanation: |
+  BTC Map là nền tảng chuyên dụng giúp xác định vị trí các đơn vị kinh doanh chấp nhận Bitcoin trên toàn thế giới.
+reviewed: false

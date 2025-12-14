@@ -1,9 +1,9 @@
-question: Mis mehhanism tagab, et uus plokk lisatakse plokiahelasse iga kümne minuti järel?
-answer: Raskusastme kohandamine
+question: Mis on hinnanguline bitcoini kogus ringluses pärast esimest poolitamist?
+answer: 10,500,000 BTC
 wrong_answers:
-  - Kiiruse kohandamine
-  - Aja kohandamine
-  - Ploki kohandamine
+  - 5,250,000 BTC
+  - 15,750,000 BTC
+  - 21,000,000 BTC
 explanation: |
-  Mehhanism, mis tagab uue ploki lisamise plokiahelasse iga kümne minuti järel, on raskusastme kohandamine. See kohandamine toimub iga 2016 ploki järel, mis on umbes kahe nädala jooksul.
+  Pärast esimest poolitamist, mis toimub ploki kõrgusel 210,000, oli hinnanguline bitcoini kogus ringluses 10,500,000 BTC, mis on pool kogu bitcoini kogusest, mis lõpuks ringlusesse jõuab.
 reviewed: true

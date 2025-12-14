@@ -1,0 +1,9 @@
+question: What is the main role of an IPv4 address in a computer network?
+answer: Uniquely identify a network interface
+wrong_answers:
+  - Identify the entire device on a network
+  - Dynamically assign MAC addresses on a network
+  - Generate DNS names
+explanation: |
+  An IPv4 address is assigned to each network interface of a device, enabling it to be located and reached on the network.
+reviewed: false

@@ -1,0 +1,9 @@
+question: MAC Address 屬於 OSI 模型的哪個 Layer？
+answer: 資料連結 Layer
+wrong_answers:
+  - 應用 Layer
+  - 運輸 Layer
+  - 網路 Layer
+explanation: |
+  MAC Address 在 OSI 模型的 Layer 2 運作，稱為「資料連結 Layer」，用於訊框的硬體定址。
+reviewed: false

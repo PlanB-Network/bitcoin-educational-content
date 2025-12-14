@@ -1,11 +1,9 @@
-question: Jaké jsou některé potenciální obchodní příležitosti, které nabízí Lightning Network?
-answer: Nové ekonomické modely, kde spotřebitelé platí za obsah na základě toho, co spotřebují.
+question: Jaký by mohl být hlavní problém týkající se bankovního systému?
+answer: Pravidla bankovního systému nejsou transparentní a srozumitelná pro všechny.
 wrong_answers:
-  - Nové ekonomické modely, kde spotřebitelé platí pomocí různých kryptoměn.
-  - Nové ekonomické modely, kde spotřebitelé používají personalizované blockchainy.
-  - Nové ekonomické modely, kde spotřebitelé neplatí za žádný obsah.
+  - Bankovní systém je příliš snadno pochopitelný.
+  - Bankovní systém je příliš transparentní.
+  - Bankovní systém je příliš decentralizovaný.
 explanation: >-
-  Lightning Network otevírá množství vzrušujících případů užití pro
-  uživatele Bitcoinu. Výsledné ekonomické modely a obchodní příležitosti jsou četné
-  a různorodé, včetně nových ekonomických modelů, kde spotřebitelé platí za obsah na základě toho, co spotřebují.
+  Text uvádí, že otázka, kdo by měl kontrolovat bankovní systém, je klíčová, protože pravidla bankovního systému nejsou transparentní a srozumitelná pro všechny.
 reviewed: true

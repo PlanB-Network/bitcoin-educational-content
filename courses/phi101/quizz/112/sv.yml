@@ -1,0 +1,9 @@
+question: Vilken roll bör staten spela i ekonomin enligt Keynes?
+answer: En aktiv roll genom att stimulera efterfrågan för att få fart på ekonomin
+wrong_answers:
+  - En minimal roll som låter marknaden reglera ekonomin
+  - En neutral roll utan att ingripa i marknadsmekanismerna
+  - En primärt finanspolitisk roll för att balansera budgeten
+explanation: |
+  Keynes menade att staten aktivt borde ingripa för att stimulera efterfrågan, särskilt under en lågkonjunktur, för att få fart på ekonomin och kompensera för marknadens tillkortakommanden.
+reviewed: true

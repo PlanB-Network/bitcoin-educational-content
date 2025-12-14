@@ -1,0 +1,9 @@
+question: Peristiwa apa yang memaksa Google untuk mengubah orientasi Android menjadi Interface yang peka terhadap sentuhan?
+answer: Peluncuran iPhone pertama
+wrong_answers:
+  - Pengambilalihan Nokia oleh Microsoft
+  - Pembuatan CyanogenMod
+  - Peluncuran Play Store
+explanation: |
+  Kedatangan iPhone pada tahun 2007 memaksa Google untuk memikirkan kembali Android agar kompatibel dengan layar sentuh, meninggalkan ide perangkat dengan keyboard fisik.
+reviewed: false

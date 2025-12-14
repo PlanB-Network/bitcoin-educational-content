@@ -3,7 +3,7 @@ answer: UTXO zote katika pembejeo zilikuwa za mtumiaji mmoja, na mtumiaji huyu b
 wrong_answers:
   - UTXO katika pembejeo zilitoka kwa watumiaji tofauti wanaoshirikiana kwa shughuli moja.
   - UTXO zote katika pembejeo zilikuwa za mtumiaji yule yule, na ile inayotolewa sasa ni ya mtumiaji mwingine.
-  - UTXO katika pembejeo zilitoka kwa watumiaji 2 tofauti, na ile inayotolewa bado ni ya watumiaji hawa 2.
+  - UTXO katika pembejeo zilizotoka kwa watumiaji wawili tofauti, na ile inayotolewa bado ni ya watumiaji hawa wawili.
 explanation: |
   Tuna uwezekano wa kuwepo kwa ujumuishaji. Kwa hiyo, kuna Ownership ya kawaida ya pembejeo na pato.
-reviewed: false
+reviewed: true

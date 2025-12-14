@@ -1,0 +1,9 @@
+question: Ni kuberiki umutekano wo kuri interinete ari ngirakamaro acne ku bakoresha Bitcoin?
+answer: Kubera ko kwinjirirwa bizana uruhombo rudasubirizwa bitcoins
+wrong_answers:
+  - Kuberako ama banki aragusubiza amahera yawe iyo utakaje ama bitcoins yawe yose .
+  - Kuberako ushobora kuja mu gasho utakaje ama bitcoins yawe
+  - Kubera ko guterwa bikuzanira ingorane zo mu butungane zikoemeye cane
+explanation: |
+  Atawugiye hagati, ukwinjirirwa bizana gutakaza burundu ama bitcoins yawe.
+reviewed: false

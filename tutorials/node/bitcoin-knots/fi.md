@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Solmut
+name: Bitcoin Knots
 description: Miten käynnistän solmun vaihtoehtoisella Bitcoin Knots -asiakasohjelmalla?
 ---
 ![cover](assets/cover.webp)
@@ -19,8 +19,8 @@ Saatavilla on kuitenkin myös vaihtoehtoisia ohjelmistoja. Nämä eivät ole Alt
 On kaksi tärkeintä syytä käyttää vaihtoehtoista asiakasta, kuten Knotsia, Coren sijasta:
 
 
-- Tekninen**: Nämä asiakkaat tarjoavat usein erilaisia vaihtoehtoja Core:lle, erityisesti Mempool:n hallinnan osalta, sillä ne määrittelevät, mitkä transaktiot solmusi hyväksyy ja lähettää.
-- Politiikka**: Jotkut haluavat käyttää vaihtoehtoisia asiakkaita, kuten Knotsia, muista kuin teknisistä syistä, erityisesti tukeakseen vaihtoehtoa Core-ohjelmalle ja vähentääkseen siten sen monopolia. Jos Core joskus vaarantuisi, olisi hyödyllistä, että olisi paitsi vankkoja, hyvin ylläpidettyjä vaihtoehtoisia asiakkaita, myös tietoa siitä, miten niitä käytetään. Toiset käyttävät Knotsia protestitarkoituksessa, koska he ovat menettäneet luottamuksensa Coren kehittäjiin tai paheksuvat enemmistöasiakkaan hallintoa.
+- **Tekninen**: Nämä asiakkaat tarjoavat usein erilaisia vaihtoehtoja Core:lle, erityisesti Mempool:n hallinnan osalta, sillä ne määrittelevät, mitkä transaktiot solmusi hyväksyy ja lähettää.
+- **Politiikka**: Jotkut haluavat käyttää vaihtoehtoisia asiakkaita, kuten Knotsia, muista kuin teknisistä syistä, erityisesti tukeakseen vaihtoehtoa Core-ohjelmalle ja vähentääkseen siten sen monopolia. Jos Core joskus vaarantuisi, olisi hyödyllistä, että olisi paitsi vankkoja, hyvin ylläpidettyjä vaihtoehtoisia asiakkaita, myös tietoa siitä, miten niitä käytetään. Toiset käyttävät Knotsia protestitarkoituksessa, koska he ovat menettäneet luottamuksensa Coren kehittäjiin tai paheksuvat enemmistöasiakkaan hallintoa.
 
 ## Miten asennan Bitcoin-solmut?
 
@@ -30,7 +30,7 @@ Siirry [Bitcoin Knotsin viralliselle verkkosivustolle](https://bitcoinknots.org/
 
 Ennen kuin asennat ohjelmiston koneellesi, suosittelemme, että tarkistat sen aitouden ja eheyden. Jos et tiedä miten, katso tämä toinen ohje:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 Kun ohjelmisto on tarkistettu, asenna se noudattamalla asennuspaneelissa ilmoitettuja ohjeita.
 
 ![Image](assets/fr/03.webp)
@@ -115,7 +115,7 @@ Anna Wallet:lle nimi. Voit myös suojata sen passphrase BIP39:llä napsauttamall
 
 passphrase BIP39 on valinnainen salasana, jonka voit valita vapaasti Mnemonic-lauseen lisäksi Wallet:n turvallisuuden lisäämiseksi. Ennen tämän ominaisuuden määrittämistä suosittelemme sinua lukemaan seuraavan artikkelin, jossa selitetään yksityiskohtaisesti, miten passphrase toimii teoriassa ja miten voit välttää virheitä, jotka voivat johtaa bitcoinien pysyvään menettämiseen:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 Jos olet aktivoinut passphrase-vaihtoehdon, valitse kestävä vaihtoehto ja tallenna se huolellisesti yhdelle tai useammalle suojatulle fyysiselle tietovälineelle.
 
 ![Image](assets/fr/18.webp)
@@ -285,4 +285,4 @@ Jos löysit tämän opetusohjelman hyödylliseksi, olisin hyvin kiitollinen, jos
 
 Suosittelen myös tätä toista opetusohjelmaa, jossa selitän, miten oma Lightning-solmu perustetaan:
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

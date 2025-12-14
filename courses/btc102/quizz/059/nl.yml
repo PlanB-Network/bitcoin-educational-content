@@ -1,0 +1,9 @@
+question: Wat is het hoofddoel van de paranoïde bitcoiner?
+answer: Om hun privacy te beschermen
+wrong_answers:
+  - Om snel satoshis te verzamelen
+  - Handelswinsten maximaliseren
+  - Om hun bitcoins op lange termijn te houden
+explanation: |
+  De paranoïde bitcoiner wil vooral elke traceerbaarheid van zijn transacties en identiteit vermijden.
+reviewed: false

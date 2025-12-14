@@ -1,0 +1,9 @@
+question: Apa satuan data yang mengalir melalui Transport Layer untuk TCP?
+answer: Segmen
+wrong_answers:
+  - Datagram
+  - Bingkai
+  - Aliran
+explanation: |
+  Pada Transport Layer dengan TCP, unit data disebut segmen, sedangkan UDP menggunakan istilah paket.
+reviewed: false

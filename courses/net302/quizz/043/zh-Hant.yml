@@ -1,0 +1,9 @@
+question: 哪種開放原始碼軟體常用來作為 DNS 伺服器的參考？
+answer: BIND
+wrong_answers:
+  - 阿帕契
+  - 魷魚
+  - 桑巴舞
+explanation: |
+  BIND (Berkeley Internet Name Domain) 是全球大部分 DNS 伺服器所使用的開放原始碼參考實作。
+reviewed: false

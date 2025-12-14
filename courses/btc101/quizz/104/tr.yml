@@ -1,0 +1,13 @@
+question: KYC ne anlama geliyor?
+answer: Müşterinizi Tanıyın.
+wrong_answers:
+  - Paranızı saklayın.
+  - Kodlarınızı Anahtarlayın.
+  - Lütfen Uygunluk Verin.
+explanation: |
+  KYC veya Müşterinizi Tanıyın, aşağıdaki prosedürü ifade eder
+  işletmeler müşterilerinin kimliklerini doğrulamak için benimserler.
+  Bu genellikle aşağıdakilere uygunluğu sağlamak için yapılır
+  ve kara para gibi yasadışı faaliyetleri önlemek için
+  aklama veya dolandırıcılık.
+reviewed: true

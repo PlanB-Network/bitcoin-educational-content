@@ -1,0 +1,9 @@
+question: Missä kyberturvallisuuden säännössä suositellaan, että kunkin käyttäjän tai ohjelmiston oikeudet rajoitetaan ehdottoman välttämättömiin?
+answer: Vähimmän etuoikeuksia koskeva periaate
+wrong_answers:
+  - Kaksinkertainen todennus
+  - Vahva salasanakäytäntö
+  - Säännöllinen varmuuskopiointi
+explanation: |
+  Vähimmän etuoikeuksia koskeva periaate tarkoittaa, että kuhunkin tehtävään myönnetään vain tarvittavat oikeudet, mikä vähentää vaaran vaarantumisen riskiä.
+reviewed: false

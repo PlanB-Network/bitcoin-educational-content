@@ -1,0 +1,12 @@
+question: Vilken är den potentiella risken för en minskning av antalet användare, noder eller miners i Bitcoin-nätverket?
+answer: Det kan försvaga nätverket, vilket ökar risken för centralisering och sårbarheten för attacker.
+wrong_answers:
+  - Det skulle kunna höja priset på Bitcoin.
+  - Det kan minska transaktionshastigheten och även Mining-svårigheten.
+  - Det kan öka Mining:s svårighetsgrad och sårbarhet för attacker, samtidigt som risken för centralisering minskar.
+explanation: |
+  En minskning av antalet användare, noder eller gruvarbetare kan
+  gW-4-nätverket försvagas. Detta skulle kunna öka risken för
+  centralisering och göra nätverket mer sårbart för attacker
+  attacker.
+reviewed: true

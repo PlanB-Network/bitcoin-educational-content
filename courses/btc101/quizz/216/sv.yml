@@ -1,0 +1,9 @@
+question: Vilken risk tar en Lightning-nod som publicerar ett gammalt kanalstatus?
+answer: Ett straff
+wrong_answers:
+  - En varning
+  - Ytterligare miningavgifter
+  - En tillfällig frysning
+explanation: |
+  Protokollet föreskriver ett avskräckande straff som gör det möjligt för den andra parten att återfå alla medel.
+reviewed: false

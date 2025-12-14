@@ -1,0 +1,9 @@
+question: Vilken operation säkerställer att nedladdad programvara inte har ändrats sedan den officiella publiceringen?
+answer: Integritetsverifiering via Hash
+wrong_answers:
+  - Verifiering av äkthet via utvecklarens signatur
+  - Programvaruanalys via en brandvägg
+  - Kör programmet i felsäkert läge
+explanation: |
+  Integritetsgranskning baseras på att jämföra den nedladdade filens Hash med den som publicerats av utvecklaren. Varje ändring av filen ändrar denna Hash.
+reviewed: false

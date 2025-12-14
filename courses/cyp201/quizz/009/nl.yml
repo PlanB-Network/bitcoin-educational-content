@@ -1,0 +1,9 @@
+question: Wat is de constructie die SHA256 gebruikt om berichten van willekeurige lengte te verwerken?
+answer: De Merkle-Damgård-constructie
+wrong_answers:
+  - De Euclidische constructie
+  - De Rivest-Shamir-Adleman constructie
+  - De Knuth-Morris-Pratt constructie
+explanation: |
+  De Merkle-Damgård constructie maakt het mogelijk om een compressiefunctie om te zetten in een Hash functie voor berichten van variabele lengte.
+reviewed: false

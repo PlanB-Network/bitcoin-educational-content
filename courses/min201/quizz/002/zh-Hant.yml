@@ -1,4 +1,4 @@
-question: 在 Bitcoin Mining 的情況下，CPU 與 ASIC 的主要差異是什麼？
+question: 在 Bitcoin 挖礦的情況下，CPU 與 ASIC 的主要差異是什麼？
 answer: CPU 可以執行多種不同類型的計算，但不會針對某種類型的計算進行特別優化，而 ASIC 只能執行一種類型的計算，但效率非常高
 wrong_answers:
   - CPU 比 ASIC 更節能

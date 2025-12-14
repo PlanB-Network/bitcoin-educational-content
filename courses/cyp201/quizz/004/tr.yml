@@ -1,0 +1,9 @@
+question: Hash fonksiyonlarının hangi kombinasyonu Bitcoin'deki daha kısa parmak izlerini generate yapmak için kullanılır?
+answer: HASH160
+wrong_answers:
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
+explanation: |
+  HASH160, özellikle Bitcoin adresleri için SHA256 ve RIPEMD160'ı generate 160 bit parmak izleri için birleştirir.
+reviewed: false

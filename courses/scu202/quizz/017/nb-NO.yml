@@ -1,0 +1,9 @@
+question: Hvilken distribusjon regnes som den eldste som fortsatt opprettholdes?
+answer: Slackware
+wrong_answers:
+  - Fedora
+  - Gentoo
+  - Manjaro
+explanation: |
+  Slackware, som ble opprettet i 1993 av Patrick Volkerding, er den eldste Linux-distribusjonen som fortsatt er aktiv i dag.
+reviewed: false

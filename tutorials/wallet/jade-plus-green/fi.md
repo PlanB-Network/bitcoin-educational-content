@@ -1,5 +1,5 @@
 ---
-name: Jade Plus - vihreä
+name: Jade Plus - Green
 description: Helppo konfiguroida Jade Plus Greenin kanssa
 ---
 ![cover](assets/cover.webp)
@@ -36,7 +36,7 @@ Jade Plus on yhteensopiva useimpien salkunhallintaohjelmistojen kanssa. Tässä 
 
 Tässä oppaassa asetamme Jade Plussan ja Blockstreamin Green Wallet -mobiilisovelluksen käyttöön Bluetooth-yhteyden kautta. Tämä asennus sopii erinomaisesti aloittelijoille. Jos etsit edistyneempää lähestymistapaa, suosittelen tutustumaan tähän opetusohjelmaan, jossa käytämme Jade Plus -laitetta Sparrow-lompakon kanssa QR-kooditilassa:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 ## Jade Plus -turvamalli
 
@@ -101,7 +101,7 @@ Napsauta "*Jatka*"-painiketta näyttääksesi uuden palautuslausekkeen.
 
 ![JADE-PLUS-GREEN](assets/fr/09.webp)
 
-Jade Plus näyttää 12-sanaisen muistisanan. **Tämä muistisana antaa sinulle täyden, rajoittamattoman pääsyn kaikkiin bitcoineihisi. Kuka tahansa, jolla on hallussaan tämä lauseke, voi varastaa varojasi, vaikka hänellä ei olisi fyysistä pääsyä Jade Plus -laitteeseesi. 12-sanainen lauseke palauttaa pääsyn bitcoineihisi, jos Jade häviää, varastetaan tai rikkoutuu. Siksi on erittäin tärkeää tallentaa se huolellisesti ja säilyttää se turvallisessa paikassa.
+Jade Plus näyttää 12-sanaisen muistisanan. **Tämä muistisana antaa sinulle täyden, rajoittamattoman pääsyn kaikkiin bitcoineihisi. Kuka tahansa, jolla on hallussaan tämä lauseke, voi varastaa varojasi, vaikka hänellä ei olisi fyysistä pääsyä Jade Plus -laitteeseesi. 12-sanainen lauseke palauttaa pääsyn bitcoineihisi, jos Jade häviää, varastetaan tai rikkoutuu. Siksi on erittäin tärkeää tallentaa se huolellisesti ja säilyttää se turvallisessa paikassa.**
 
 Voit kirjoittaa sen laatikossa olevaan pahviin, tai jos haluat lisätä turvallisuutta, suosittelen kaiverrusta ruostumattomasta teräksestä valmistettuun alustaan, joka suojaa sitä tulipalolta, tulvalta tai romahdukselta.
 
@@ -109,9 +109,9 @@ Voit kirjoittaa sen laatikossa olevaan pahviin, tai jos haluat lisätä turvalli
 
 Jos haluat lisätietoa siitä, miten muistisääntöjä tallennetaan ja hallitaan oikein, suosittelen seuraamaan tätä toista opetusohjelmaa, varsinkin jos olet aloittelija:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-***Ei näitä sanoja saa tietenkään koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkisalkkua käytetään vain Testnetissä, ja se poistetaan opetusohjelman päätyttyä
+**Ei näitä sanoja saa tietenkään koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkisalkkua käytetään vain Testnetissä, ja se poistetaan opetusohjelman päätyttyä**
 
 Napsauta näytön oikeassa reunassa olevaa nuolta näyttääksesi seuraavat sanat.
 
@@ -125,11 +125,11 @@ Kun olet tallentanut lauseesi, Jade Plus pyytää sinua vahvistamaan sen. Valits
 
 Tässä ohjeessa käytämme Green Wallet -sovellusta Jade Plus -laitteessa olevan lompakon hallintaan. Tämä menetelmä sopii erityisesti aloittelijoille. Jos haluat hallita Bitcoin-lompakkoasi yksityiskohtaisemmin, voit käyttää myös Sparrow Wallet -sovellusta, jota käsittelemme erillisessä opetusohjelmassa:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 Blockstream Green -sovelluksen asennus- ja asetusohjeet ovat tämän toisen ohjeen ensimmäisessä osassa:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 Kun olet Blockstream Green -sovelluksessa, napsauta "*Konfiguroi uusi salkku*" -painiketta.
 
@@ -207,7 +207,7 @@ Valitse "*Standardi*", jos haluat luoda klassisen yhden tunnuksen salkun.
 
 Jos haluat lisätietoja "*2FA*"-vaihtoehdosta, voit seurata tätä ohjetta:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Tilisi on luotu.
 
@@ -233,7 +233,7 @@ Jade vapautetaan Blockstreamin "virtuaalisen turvallisen elementin" avulla (kats
 
 Ennen kuin saat ensimmäiset bitcoinit lompakkoosi, **neuvon sinua tekemään tyhjän palautustestin**. Merkitse muistiin joitakin viitetietoja, kuten xpub- tai ensimmäinen vastaanottava osoite, ja poista lompakkosi Green-sovelluksessa ja Jade Plussassa, kun se on vielä tyhjä (`Options -> Device -> Factory Reset`). Yritä sitten palauttaa lompakkosi käyttämällä paperisia varmuuskopioitasi muistikirjoituslauseen avulla. Tarkista, että palautuksen jälkeen luotu evästetieto vastaa alun perin kirjoittamaasi evästetietoa. Jos se täsmää, voit olla varma, että paperiset varmuuskopiosi ovat luotettavia. Jos haluat lisätietoja testipalautuksen suorittamisesta, tutustu tähän toiseen opetusohjelmaan :
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Vastaanottaa bitcoineja
 
@@ -299,4 +299,6 @@ Onneksi olkoon, tiedät nyt, miten Jade Plus -laite asetetaan ja käytetään Bl
 
 Jos haluat edetä askeleen pidemmälle, suosittelen tätä Jade Plus -ohjetta, jossa konfiguroimme sen Sparrow Wallet -ohjelmiston kanssa QR-tilassa. Opit myös käyttämään laitteiston lompakon lisäasetuksia:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
+

@@ -1,0 +1,10 @@
+question: Vilken är den sista fasen som inträffar i hyperinflationsfenomenet?
+answer: En ny valuta växer fram.
+wrong_answers:
+  - Förlorat förtroende för valutan.
+  - Valutakollaps och prishöjning.
+  - Penningtryckandets onda cirkel.
+explanation: |
+  Den sista fasen av hyperinflation inträffar när en ny valuta
+  valuta introduceras för att ersätta den gamla.
+reviewed: true

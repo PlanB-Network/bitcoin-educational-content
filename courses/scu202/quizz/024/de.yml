@@ -1,0 +1,9 @@
+question: Was ist die Hauptaufgabe einer Linux-Desktop-Umgebung?
+answer: Bereitstellung von Interface-Grafiken
+wrong_answers:
+  - Verwalten des Systemstarts
+  - Kompilieren des Linux-Kernels
+  - Schutz vor Viren
+explanation: |
+  Die Desktop-Umgebung fasst visuelle und interaktive Elements (Fenster, Menüs, Symbole, Bedienfelder usw.) zusammen, um dem Benutzer die grafische Interaktion mit dem System zu ermöglichen.
+reviewed: false

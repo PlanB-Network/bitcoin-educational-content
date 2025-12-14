@@ -1,0 +1,9 @@
+question: Was ist der Hauptzweck eines VPNs beim Surfen in einem öffentlichen Wi-Fi-Netzwerk?
+answer: Verschlüsselung des Datenverkehrs zwischen Gerät und VPN-Server
+wrong_answers:
+  - Anonymisierung Ihrer Internetverbindung
+  - Automatisch Updates installieren
+  - generate starke Passwörter
+explanation: |
+  Ein VPN verschlüsselt den gesamten Netzwerkverkehr und schützt so Ihre Daten vor dem Abhören in ungesicherten Netzwerken wie öffentlichem WLAN.
+reviewed: false

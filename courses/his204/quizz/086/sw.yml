@@ -1,0 +1,8 @@
+question: Ni wazo gani limeitwa sophism ya Montaigne?
+answer: Exchange ni mchezo wa sifuri
+wrong_answers:
+  - Exchange ni mchezo wa jumla chanya
+  - Kulingana na wakati na mahali, Exchange wakati mwingine ni mchezo wa sifuri, wakati mwingine mchezo wa jumla chanya
+  - Exchange daima haipendezi kwa chama dhaifu
+explanation: |
+  Uongo wa Montaigne ni wazo kwamba Exchange ni mchezo wa sifuri, yaani kile mtu anapata, mwingine hupoteza. Wazo hili ni la uwongo, kwa sababu Exchange ya hiari ina manufaa kwa pande zote.

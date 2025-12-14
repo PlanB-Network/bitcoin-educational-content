@@ -1,0 +1,9 @@
+question: Jaký je hlavní rozdíl mezi hnutím svobodného softwaru a open source?
+answer: Upřednostnění svobody nebo technické účinnosti
+wrong_answers:
+  - Použití jazyka C nebo assembleru
+  - Vývoj nativních mobilních aplikací nebo aplikací pro PC
+  - Přítomnost či nepřítomnost mezinárodního společenství
+explanation: |
+  Svobodný software je o svobodě uživatele, open source je o transparentnosti a technické efektivitě.
+reviewed: false

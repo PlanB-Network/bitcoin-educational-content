@@ -1,0 +1,9 @@
+question: Ni kubera iki iciyumviro c’urutonde rwihuta gihambaye ku vyiyumviro vy’ubwigenge?
+answer: Birerekana ko umuntu ku giti ciwe, mu gukurikirana inyungu ziwe bwite, ashobora guteza imbere ineza y’ikibano cose.
+wrong_answers:
+  - Rirashingira intahe uruhara ruhambaye Leta ifise mu bukungu.
+  - Rishimika ku kamaro k’inyiyumvo rusangi.
+  - Inyishu zose zivugwa haruguru ni ukuri.
+explanation: |
+  Iciyumviro c’urutonde rw’ibintu vyihuta ni co kintu nyamukuru mu vyiyumviro vy’ubwigenge kuko kivuga ko, ata Leta yinjiramwo, ibikorwa vy’umuntu ku giti ciwe birongowe n’inyungu z’umuntu ku giti ciwe bishikana mu buryo busanzwe ku buringanire bw’ingirakamaro ku kibano cose.
+reviewed: true

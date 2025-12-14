@@ -1,0 +1,12 @@
+question: 10분마다 새로운 블록이 Blockchain에 추가되도록 하는 메커니즘은 무엇인가요?
+answer: 난이도 조정.
+wrong_answers:
+  - 속도 조정.
+  - 시간 조정.
+  - 블록 조정.
+explanation: |
+  새로운 블록을 추가하도록 보장하는 메커니즘은
+  Blockchain에 10분마다 새로운 블록을 추가하는 메커니즘은 난이도 조정입니다.
+  이 조정은 2016블록마다, 즉 약
+  2주 정도
+reviewed: true

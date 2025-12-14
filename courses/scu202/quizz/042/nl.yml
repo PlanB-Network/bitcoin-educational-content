@@ -1,0 +1,9 @@
+question: Waarom moet je altijd de integriteit en authenticiteit controleren van software die je van het internet downloadt?
+answer: Voorkomen dat u malware installeert
+wrong_answers:
+  - Systeemprestaties verbeteren
+  - Bandbreedte besparen
+  - Om de installatie te versnellen
+explanation: |
+  Het verifiëren van de integriteit en authenticiteit helpt om de installatie van corrupte, geïnfecteerde of niet-legitieme software te voorkomen.
+reviewed: false

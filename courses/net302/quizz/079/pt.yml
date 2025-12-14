@@ -1,0 +1,9 @@
+question: Que tipo de registo DNS é utilizado para mapear um nome de domínio com um IPv6 Address?
+answer: AAAA
+wrong_answers:
+  - A
+  - RTP
+  - MX
+explanation: |
+  O tipo AAAA (quad-A) é utilizado para mapear um nome de domínio com um IPv6 Address, enquanto o tipo A está reservado para o IPv4.
+reviewed: false

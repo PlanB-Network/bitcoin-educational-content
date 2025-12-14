@@ -1,0 +1,8 @@
+question: Vad är en av anledningarna till att Bitcoin inte är en bubbla som kommer att försvinna?
+answer: För det är en valuta som faktiskt används överallt i världen.
+wrong_answers:
+  - Eftersom det faktiskt inte används någonstans.
+  - Eftersom den styrs av en central myndighet.
+  - Eftersom det är lätt att förfalska.
+explanation: >-
+reviewed: true

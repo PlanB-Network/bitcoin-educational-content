@@ -1,0 +1,9 @@
+question: Ni inyishu iyihe igereranya rimwe mu mashami abiri nyamukuru y’ubuhinga bwo gukingira amakuru?
+answer: Ububiko bw'ibanga buhuye
+wrong_answers:
+  - Ubuhinga bw'ibanga
+  - Ugushiramwo amakuru amwe
+  - Isesengura ry'ibanga
+explanation: |
+  Symmetric cryptography ni ishami rinini ry’ubuhinga bwo gupfuka, ririmwo imigambi yo gupfuka aho urufunguzo rumwe rukoreshwa mu gupfuka no gukuraho ubutumwa.
+reviewed: false

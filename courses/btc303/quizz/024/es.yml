@@ -1,0 +1,9 @@
+question: ¿Cuál es la razón principal por la que Bitcoin utiliza direcciones derivadas de claves públicas como seudónimos en lugar de nombres de usuario descriptivos?
+answer: Permitir la creación segura de direcciones fuera de línea sin necesidad de registrarse en la cadena de bloques
+wrong_answers:
+  - Para que las transacciones sean completamente anónimas e imposibles de rastrear en la cadena de bloques
+  - Para reducir la potencia de cálculo necesaria para verificar las transacciones
+  - Permitir la reutilización ilimitada del mismo seudónimo en múltiples transacciones
+explanation: |
+  Bitcoin utiliza direcciones derivadas de claves públicas como seudónimos porque este sistema permite a los usuarios crear de forma segura nuevas direcciones fuera de línea sin necesidad de registrarlas primero en la cadena de bloques. Utilizar nombres de usuario descriptivos requeriría anunciar el vínculo entre el nombre de usuario y la clave pública en la cadena de bloques, lo que supondría un coste, sobrecargaría la cadena de bloques y reduciría la seguridad. Además, los nombres de usuario fomentarían la reutilización (reduciendo la privacidad) y crearían riesgos de suplantación. El sistema basado en direcciones elimina estos problemas al tiempo que mantiene la seguridad criptográfica necesaria para que Bitcoin funcione correctamente.
+reviewed: false

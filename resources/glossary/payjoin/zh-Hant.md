@@ -11,4 +11,4 @@ PayJoin 交易有兩個目的。首先，它的目的是在共同輸入 Ownershi
 ![](../../dictionnaire/assets/14.webp)
 
 
-> *PayJoin 有時也稱為「P2EP（Pay-to-End-Point）」、「Stowaway」或「隱藏交易」。
+> *PayJoin 有時也稱為「P2EP（Pay-to-End-Point）」、「Stowaway」或「隱藏交易」。*

@@ -1,0 +1,9 @@
+question: Wat is de typische blokgrootte voor blokcijferversleuteling?
+answer: 64, 128, 192 of 256 bits
+wrong_answers:
+  - 8, 16, 32 of 64 bits
+  - 4, 8, 16 of 32 bits
+  - 256, 512, 1024 of 2048 bits
+explanation: |
+  Blokcijfers verwerken gegevens in blokken met een vaste grootte, meestal 64, 128, 192 of 256 bits, om optimale beveiliging en integriteit van de versleuteling te garanderen.
+reviewed: false

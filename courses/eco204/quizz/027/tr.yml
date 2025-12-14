@@ -1,0 +1,11 @@
+question: Hükümetler tarafından ekonomik çöküş sırasında normal bir görünüm sağlamak için kullanılan yaygın yöntem neydi?
+answer: Tüccarları dükkanlarını açık tutmaya zorlamak.
+wrong_answers:
+  - Yabancı yatırımın teşvik edilmesi.
+  - Vergilerin azaltılması.
+  - Kamu harcamalarının artırılması.
+explanation: |
+  Ekonomi çöktüğünde ve para birimi değer kaybettiğinde, hükümetler
+  normal bir görünüm sağlamak için sert önlemlere başvurabilir. Böyle bir önlem
+  tüccarları dükkanlarını açık tutmaya zorluyor.
+reviewed: false

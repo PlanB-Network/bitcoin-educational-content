@@ -1,5 +1,5 @@
 ---
-term: Seal Definition
+term: SEAL DEFINITION
 ---
 
-Dalam protokol RGB, Seal Definition adalah komponen dari Assignment yang secara eksplisit menghubungkan Commitment ke UTXO yang dipegang oleh pemilik baru. Ini menentukan lokasi negara dengan mengidentifikasi UTXO di mana ia dipegang, sehingga secara resmi menetapkan Ownership aset atau hak pada RGB.
+Dalam protokol RGB, _Seal Definition_ adalah komponen dari _Assignment_ yang secara eksplisit menghubungkan _Commitment_ ke UTXO yang dipegang oleh pemilik baru. Ini menentukan lokasi negara dengan mengidentifikasi UTXO di mana ia dipegang, sehingga secara resmi menetapkan _Ownership_ aset atau hak pada protokol RGB.

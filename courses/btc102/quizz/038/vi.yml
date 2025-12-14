@@ -1,0 +1,9 @@
+question: Hồ sơ người dùng nào phù hợp cho việc mua hàng không cần KYC và sử dụng ví có độ bảo mật cao?
+answer: Người đa nghi cẩn trọng
+wrong_answers:
+  - Người nắm giữ
+  - Người tích trữ
+  - Người dùng đang hoạt động đại trà
+explanation: |
+  Người đa nghi cẩn trọng ưu tiên quyền riêng tư và bảo mật, sử dụng các phương pháp thu thập và lưu trữ có tính bảo mật cao.
+reviewed: false

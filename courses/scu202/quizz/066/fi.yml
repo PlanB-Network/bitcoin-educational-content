@@ -1,0 +1,9 @@
+question: Minkä paikallisten tietojen avulla mainostajat voivat seurata selaustottumuksiasi useilla eri sivustoilla?
+answer: Kolmannen osapuolen evästeet
+wrong_answers:
+  - JavaScript-koodi
+  - Paikallinen historia
+  - SSL-sertifikaatti
+explanation: |
+  Ulkopuolisten mainostoimistojen asettamia kolmannen osapuolen evästeitä käytetään käyttäjän toiminnan seuraamiseen eri sivustoilla ja mainosprofiilin luomiseen.
+reviewed: false

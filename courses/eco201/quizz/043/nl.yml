@@ -1,0 +1,13 @@
+question: Wat is het belangrijkste argument van Ludwig von Mises in zijn artikel Economic Calculation in a Socialist Commonwealth?
+answer: Rationele economische organisatie is onmogelijk zonder prijzen voor de intermediaire productiefactoren.
+wrong_answers:
+  - Socialisme is moreel superieur aan kapitalisme.
+  - Kapitalisme is het enige levensvatbare economische systeem.
+  - Socialisme kan individuen voortbrengen die verstoken zijn van kapitalistische instincten.
+explanation: |
+  Mises stelde dat zonder een markt om prijzen te bepalen voor intermediaire productiefactoren het onmogelijk wordt om het gebruik van hulpbronnen te rationaliseren
+  productiefactoren, het onmogelijk wordt om het gebruik van middelen tussen industrieën te rationaliseren
+  in verschillende industrieën. Dit betekent dat zelfs als er een perfecte organisatie is binnen
+  elk bedrijf of onderdeel van de economie, de gehele economie zich niet efficiënt kan aanpassen
+  aan veranderingen in de beschikbaarheid van hulpbronnen, productieomstandigheden en consumentenvoorkeuren.
+reviewed: true

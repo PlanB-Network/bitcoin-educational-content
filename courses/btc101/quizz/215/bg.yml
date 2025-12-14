@@ -1,0 +1,9 @@
+question: Кой механизъм прави Lightning плащанията атомарни?
+answer: HTLC
+wrong_answers:
+  - Мултиподпис
+  - Proof of Work
+  - SegWit
+explanation: |
+  HTLC обвързват плащането с разкриването на тайна, гарантирайки пълен успех или неуспех без загуба.
+reviewed: false

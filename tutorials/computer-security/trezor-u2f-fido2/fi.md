@@ -1,5 +1,5 @@
 ---
-name: Trezor U2F & FIDO2
+name: "Trezor U2F & FIDO2"
 description: Vahvista verkkoturvallisuuttasi Trezorin avulla
 ---
 ![cover](assets/cover.webp)
@@ -134,7 +134,7 @@ Suosittelen, että säilytät tätä koodia eri paikassa kuin pääsalasanaasi, 
 
 
 
-Tämä lähestymistapa tarjoaa kaksi varmuuskopiotasoa, jos Trezor 2FA-todennuksen menetyksen sattuessa: ensimmäinen varmuuskopio, jossa käytetään Mnemonic-lausetta kaikille tileillesi, ja toinen varmuuskopio, jossa käytetään hätäkoodeja kullekin tilille. On kuitenkin tärkeää, että **ei sekoiteta Mnemonic:n ja hätäkoodin roolia** :
+Tämä lähestymistapa tarjoaa kaksi varmuuskopiotasoa, jos Trezor 2FA-todennuksen menetyksen sattuessa: ensimmäinen varmuuskopio, jossa käytetään Mnemonic-lausetta kaikille tileillesi, ja toinen varmuuskopio, jossa käytetään hätäkoodeja kullekin tilille. On kuitenkin tärkeää, että **ei sekoiteta Mnemonic:n ja hätäkoodin roolia**:
 
 
 
@@ -290,7 +290,7 @@ Relying party ID:       vault.bitwarden.com
 Relying party name:     Bitwarden
 User ID:                6e315ebabc8b6945a253b1c50116538d
 User name:              tutoplanbnetwork@proton.me
-User display name:      PBN
+User display name:      Plan ₿ Academy
 Creation time:          2
 hmac-secret enabled:    True
 Use signature counter:  True
@@ -323,7 +323,7 @@ trezorctl fido credentials add <CREDENTIAL_ID>
 
 
 
-Korvaa yksinkertaisesti `<CREDENTIAL_ID>` jollakin tunnuksellasi. Esimerkiksi minun tapauksessani tämä antaisi :
+Korvaa yksinkertaisesti `<CREDENTIAL_ID>` jollakin tunnuksellasi. Esimerkiksi minun tapauksessani tämä antaisi:
 
 
 
@@ -353,4 +353,4 @@ Suosittelen myös tätä toista opetusohjelmaa, jossa tarkastelemme toista ratka
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

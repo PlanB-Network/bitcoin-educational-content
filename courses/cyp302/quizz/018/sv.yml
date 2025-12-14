@@ -1,0 +1,9 @@
+question: I vilket fall kan man säga att två händelser är oberoende av varandra?
+answer: Sannolikheten för det ena påverkar inte sannolikheten för det andra
+wrong_answers:
+  - De två händelserna inträffar alltid samtidigt
+  - De är ömsesidigt uteslutande
+  - Deras kombinerade sannolikhet är lika med den högsta sannolikheten av de två
+explanation: |
+  Två händelser är oberoende av varandra om sannolikheten för den ena inte påverkar sannolikheten för den andra, t.ex. att en lottdragning inte påverkar vädret nästa dag.
+reviewed: false

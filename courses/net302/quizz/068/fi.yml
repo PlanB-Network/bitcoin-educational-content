@@ -1,0 +1,9 @@
+question: Millä mekanismilla MAC Address muunnetaan 64-bittiseksi tunnisteeksi IPv6 Address:n luomiseksi?
+answer: EUI-64
+wrong_answers:
+  - NAT64
+  - PPPoE-64
+  - DNSSEC64
+explanation: |
+  EUI-64-mekanismi muuttaa 48-bittisen MAC Address:n 64-bittiseksi tunnisteeksi, jota käytetään IPv6:n automaattisessa konfiguroinnissa.
+reviewed: false

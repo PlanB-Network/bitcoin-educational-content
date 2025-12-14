@@ -1,0 +1,9 @@
+question: Welke distributie wordt beschouwd als de oudste die nog wordt onderhouden?
+answer: Slackware
+wrong_answers:
+  - Fedora
+  - Gentoo
+  - Manjaro
+explanation: |
+  Slackware, in 1993 gemaakt door Patrick Volkerding, is de oudste Linux-distributie die vandaag de dag nog actief is.
+reviewed: false

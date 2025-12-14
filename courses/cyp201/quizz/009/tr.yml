@@ -1,0 +1,9 @@
+question: SHA256 tarafından rastgele uzunluktaki mesajları işlemek için kullanılan yapı nedir?
+answer: Merkle-Damgård inşaatı
+wrong_answers:
+  - Öklidyen yapı
+  - Rivest-Shamir-Adleman yapısı
+  - Knuth-Morris-Pratt yapısı
+explanation: |
+  Merkle-Damgård yapısı, değişken uzunluktaki mesajlar için bir sıkıştırma fonksiyonunun bir Hash fonksiyonuna dönüştürülmesini sağlar.
+reviewed: false

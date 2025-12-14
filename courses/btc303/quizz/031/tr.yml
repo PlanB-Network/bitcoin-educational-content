@@ -1,0 +1,9 @@
+question: Blok sübvansiyon sıfıra yaklaştıkça Bitcoin'ın güvenlik maliyet yapısında hangi temel değişim meydana gelmektedir?
+answer: Güvenlik maliyetleri, para sahipleri tarafından parasal enflasyon yoluyla ödenmekten, harcama yapanlar tarafından işlem ücretleri yoluyla ödenmeye doğru kaymaktadır
+wrong_answers:
+  - Güvenlik maliyetleri madenciler tarafından donanım yatırımı yoluyla ödenmekten düğümler tarafından elektrik tüketimi yoluyla ödenmeye dönüşür
+  - Güvenlik maliyetleri, işlem ücretleri yoluyla borsalar tarafından ödenmekten, hizmet ücretleri yoluyla wallet sağlayıcıları tarafından ödenmeye doğru kaymaktadır
+  - Güvenlik maliyetlerinin kod bakımı yoluyla geliştiriciler tarafından ödenmesinden, ağa katılım yoluyla kullanıcılar tarafından ödenmesine geçiş
+explanation: |
+  Bu bölümde, günümüzde para sahiplerinin Bitcoin'nin güvenliğini parasal enflasyon (blok sübvansiyonu yoluyla yaratılan yeni coinler) yoluyla ödediği, ancak gelecekte blok sübvansiyonu sıfıra yaklaştığında, harcama yapanların güvenlik için işlem ücretleri yoluyla ödeme yapacağı açıkça belirtilmektedir. Bu, yeni coin yaratımının mining'ü finanse ettiği bir modelden, işlem ücretlerinin madencilerin ağı güvence altına alması için yeterli teşviki sağlaması gereken bir modele geçerek, ağ güvenliğini sürdürmenin maliyetini kimin üstleneceği konusunda temel bir ekonomik değişimi temsil etmektedir.
+reviewed: false

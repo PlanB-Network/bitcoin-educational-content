@@ -1,0 +1,9 @@
+question: Welk soort computeraanval gebruikt frauduleuze berichten om informatie te ontfutselen?
+answer: Phishing
+wrong_answers:
+  - Ransomware
+  - DDoS
+  - SQL-injectie
+explanation: |
+  Phishing gebruikt misleidende e-mails of berichten om mensen te verleiden vertrouwelijke informatie vrij te geven of malware te installeren.
+reviewed: false

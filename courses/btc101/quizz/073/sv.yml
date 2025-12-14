@@ -1,0 +1,13 @@
+question: Vad är sannolikheten för att någon av misstag gissar din lista med 12 eller 24 ord i en Bitcoin Wallet?
+answer: Astronomiskt låg.
+wrong_answers:
+  - Hög.
+  - Måttlig.
+  - Stark.
+explanation: |
+  Tack vare den kryptografi som används för att skapa Wallet är
+  sannolikheten för att någon av misstag gissar din lista med
+  12 eller 24 ord är astronomiskt låg. Det är som att hitta
+  rätt nummer mellan 1 och $2^256$, vilket nästan är
+  motsvarar att hitta en definierad atom i universum.
+reviewed: true

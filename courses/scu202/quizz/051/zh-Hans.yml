@@ -1,0 +1,9 @@
+question: 建议在 Linux 下使用哪种命令行工具来删除图像或 PDF 文件中的所有元数据？
+answer: exiftool
+wrong_answers:
+  - 记事本
+  - 纳米外延
+  - sudoedit
+explanation: |
+  exiftool 是一款功能强大的工具，用于显示和删除各种文件（图像、PDF、音频等）的元数据。
+reviewed: false

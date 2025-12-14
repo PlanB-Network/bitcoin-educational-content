@@ -1,0 +1,9 @@
+question: Kde jsou v systému Linux obvykle nakonfigurovány servery DNS?
+answer: /etc/resolv.conf
+wrong_answers:
+  - /etc/hostname
+  - /etc/network/interfaces
+  - /etc/hosts.allow
+explanation: |
+  Soubor /etc/resolv.conf určuje servery DNS a vyhledávací domény pro překlad názvů.
+reviewed: false

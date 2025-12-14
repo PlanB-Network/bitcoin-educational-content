@@ -1,0 +1,8 @@
+description: |
+  Breez 是一個創新平台，致力於利用 Bitcoin 的力量為個人和應用程式開闢點對點支付的世界。使用 Breez 移動應用程式，用戶可以發送和接收即時的 Bitcoin 付款，將自己的口袋變成一個非監護的 Lightning 節點。
+  
+  該平台還整合了一個 Podcasting 2.0 播放器，用於串流 Sats 和想法，以及一個無需 KYC 要求即可接受 Lightning 付款的銷售點系統。Breez 還可作為 Lightning 服務提供商，提供流動資金和網絡連接。
+  
+  對於那些希望將P2P Lightning支付整合到其應用程式中的用戶，Breez提供了一個SDK，只需最少的編程即可實現最大程度的定制。Breez Cloud進一步增強了用戶體驗，結合了非託管Lightning的主權和託管服務的便利性，實現隨時隨地的多功能支付。
+  
+  Breez正在塑造Lightning經濟的未來，使Bitcoin支付比以往更方便、更高效。

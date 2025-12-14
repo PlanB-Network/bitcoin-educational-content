@@ -1,0 +1,9 @@
+question: Bir düğümün mutabakat kuralları üzerindeki etkisini hangi faktör belirler?
+answer: Ekonomik ağırlığı
+wrong_answers:
+  - Giden bağlantı sayısı
+  - Ağdaki kıdem
+  - Hiçbir şey, çünkü her düğümün bir oyu vardır
+explanation: |
+  Uzlaşı kuralları üzerindeki etki, düğümün sayısına değil, düğüm tarafından desteklenen ekonomik faaliyete bağlıdır.
+reviewed: true

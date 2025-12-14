@@ -1,0 +1,9 @@
+question: Porquê utilizar uma aplicação de firewall como o NetGuard ou o RethinkDNS no Android?
+answer: Controlar ligações individuais à Internet
+wrong_answers:
+  - Guardar automaticamente todos os dados
+  - Desbloquear todas as redes Wi-Fi
+  - Desinstalar qualquer vírus
+explanation: |
+  Estas aplicações funcionam como firewalls locais, permitindo que o tráfego de saída seja bloqueado ou autorizado numa base de aplicação a aplicação.
+reviewed: false

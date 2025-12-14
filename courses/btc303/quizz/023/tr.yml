@@ -1,0 +1,9 @@
+question: Bitcoin'ın anonim bir sistemden ziyade takma isimli bir sistem olarak tanımlanması ne anlama geliyor?
+answer: Kullanıcılar takma adları arasında izlenebilir, ancak gerçek kimlikleri doğrudan ortaya çıkmaz
+wrong_answers:
+  - Kullanıcılar hiçbir şekilde izlenemez ve işlemleri tamamen gözlerden gizlenir
+  - Kullanıcılar gerçek isimlerini kaydetmek zorundadır ancak işlemler için sahte adresler kullanabilirler
+  - Kullanıcılar tamamen anonimdir ve herhangi bir işlemi birbirine bağlamanın hiçbir yolu yoktur
+explanation: |
+  Bitcoin'in takma ad niteliği, kullanıcıların takma adlar (açık anahtarlardan türetilen adresler) altında işlem yaparken, işlemlerinin yine de izlenebileceği ve blok zincirindeki bu takma adlar arasında bağlantı kurulabileceği anlamına gelir. Bu, işlemlerin hiçbir izlenebilir bağlantı bırakmayacağı gerçek anonimlikten farklıdır. Bitcoin'de, adresler arasındaki fon akışını takip edebilirsiniz, ancak bu adreslerin arkasındaki gerçek dünya kimliği, birisi gönüllü olarak ifşa etmediği veya özel bilgilerini sızdıran hatalar yapmadığı sürece doğrudan ortaya çıkmaz.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hva er dataenheten som flyter gjennom Transport Layer for TCP?
+answer: Segment
+wrong_answers:
+  - Datagram
+  - Ramme
+  - Strøm
+explanation: |
+  På Transport Layer med TCP kalles dataenheten et segment, mens UDP bruker begrepet pakke.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Üçüncü taraf bir düğüm kullanmanın ne gibi riskleri vardır?
+answer: Sansür ve faaliyetlerin izlenmesi.
+wrong_answers:
+  - Bitcoin kaybı.
+  - İşlem ücretlerinde artış.
+  - Bitcoinlerin çalınması ve izlenmesi.
+explanation: |
+  Size ait olmayan bir düğüm kullanırsanız, işlem yayınlarınızın engellenmesi ve operatör tarafından izlenmesi riskiyle karşı karşıya kalırsınız.
+  
+reviewed: false

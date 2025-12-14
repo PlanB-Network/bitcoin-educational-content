@@ -1,0 +1,9 @@
+question: Ni igiki Kode y’Ivyemezo vy’Ubutumwa (MAC) ishingira intahe mu mugambi wo gukora amakuru y’ibanga?
+answer: Ubunyankamugayo n'ukuri kw'ubutumwa
+wrong_answers:
+  - Ibanga ry'ubutumwa
+  - Gufatanya ubutumwa
+  - Guhindura ubutumwa mu bibiri
+explanation: |
+  Igikoresho co kwemeza ubutumwa (MAC) kirakoreshwa kugira ngo umuntu amenye neza ko ubutumwa butahinduwe kandi ko buva vy’ukuri ku muntu yiyumviriwe ko ari we aburungitse.
+reviewed: false

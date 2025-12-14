@@ -1,0 +1,9 @@
+question: Phạm vi CIDR điển hình nào biểu thị kích thước của khối IPv4 được IANA phân bổ cho RIR?
+answer: /8
+wrong_answers:
+  - /12
+  - /16
+  - /24
+explanation: |
+  IANA chia không gian IPv4 thành các khối có kích thước /8, mỗi khối chứa 2^24 địa chỉ.
+reviewed: false

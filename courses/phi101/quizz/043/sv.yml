@@ -1,0 +1,9 @@
+question: Vad är förhållandet mellan naturrätt och mänsklig rätt enligt Thomas av Aquino?
+answer: Mänsklig lag måste vara i överensstämmelse med naturrätten för att vara rättvis och legitim.
+wrong_answers:
+  - Mänsklig rätt är överlägsen naturrätten eftersom den stiftas av legitima myndigheter.
+  - Naturlagar är lika med mänskliga lagar.
+  - Mänsklig lag gäller bara delvis.
+explanation: |
+  Enligt Thomas av Aquino får den mänskliga lagen sin legitimitet genom att den överensstämmer med naturrätten, som uttrycker universella moraliska principer. Om den mänskliga lagen strider mot naturrätten förlorar den sin rättvisa och legitimitet.
+reviewed: true

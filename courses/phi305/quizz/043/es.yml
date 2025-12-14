@@ -1,0 +1,9 @@
+question: ¿Quién dijo que "el mal no es nada"?
+answer: Sócrates.
+wrong_answers:
+  - Leibnitz.
+  - Spinoza.
+  - Descartes.
+explanation: |
+  el mal no es nada" es una idea atribuida a Sócrates y recogida en la tradición filosófica. Para Sócrates, el mal procede de la ignorancia; nadie hace el mal voluntariamente si conoce verdaderamente el bien.
+reviewed: false

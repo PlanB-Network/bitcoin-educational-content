@@ -1,0 +1,9 @@
+question: Bir Lightning kanalı neden tek yönde kullanılamaz olabilir?
+answer: Yeterli likidite olmaması
+wrong_answers:
+  - Çok yeni blok
+  - Süresi dolmuş HTLC
+  - Senkronize olmayan düğüm
+explanation: |
+  Büyük bir kapasiteye sahip olsa bile, bir kanal yalnızca doğru tarafta yeterli likidite varsa ödeme yapılmasına izin verir.
+reviewed: false

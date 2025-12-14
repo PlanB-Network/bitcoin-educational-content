@@ -1,0 +1,10 @@
+question: Ni itandukaniro irihe riri hagati y’ugusubira gukoresha Address yo hanze n’iyo mu mutima mu gucuruza?
+answer: Gusubira gukoresha hanze biraboneka mu bikorwa vyinshi, mu gihe gusubira gukoresha imbere biboneka mu bikorwa bimwe.
+wrong_answers:
+  - Gusubira gukoresha hanze bireba aderesi za bose, mu gihe gusubira gukoresha imbere bireba aderesi z’abantu ku giti cabo zikoreshwa mu nyandiko z’ibikorwa.
+  - Gusubira gukoresha imbere mu gihugu biraboneka mu bikorwa vyinshi, mu gihe gusubira gukoresha hanze biboneka mu bikorwa bimwe.
+  - Gusubira gukoresha imbere mu gihugu vyerekeye amaderesi ya bose, mu gihe gusubira gukoresha hanze vyerekeye amaderesi y’abantu ku giti cabo akoreshwa mu nyandiko z’ibikorwa.
+explanation: |
+  Gusubira gukoresha Address hanze biraboneka iyo Address isubiye gukoreshwa mu bikorwa vyinshi bitandukanye, mu gihe gusubira gukoresha imbere mu gihugu bireba Address ikoreshwa mu vyo kwinjira no mu vyo gusohoka mu bikorwa bimwe.
+  
+reviewed: false

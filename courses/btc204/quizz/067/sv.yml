@@ -1,0 +1,10 @@
+question: Vilken heuristik kan användas för att länka samman alla ingångar i en konsolidering?
+answer: CIOH.
+wrong_answers:
+  - Address återanvänds.
+  - Den största produktionen.
+  - Runda betalningar.
+explanation: |
+  En extern observatör kan tillämpa CIOH för att anta att alla ingångar i en konsolidering tillhör samma enhet.
+  
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: Carteira Proton
+name: Proton Wallet
 description: Instalar e utilizar a carteira Proton Bitcoin
 ---
 ![cover](assets/cover.webp)
@@ -14,7 +14,7 @@ A caraterística especial desta carteira é a capacidade de enviar bitcoins util
 
 Para utilizar a Carteira Proton, precisa de uma conta Proton. Pode criar uma gratuitamente seguindo os primeiros passos deste tutorial dedicado à criação de uma caixa de correio Proton (apenas a secção "*Criar uma conta Proton*"). Assim que a sua conta estiver configurada, pode continuar com o resto deste tutorial.
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Ligar à Carteira Proton
 
@@ -60,7 +60,7 @@ Em seguida, clique em "*Ver frase de semente da carteira*" para visualizar a fra
 
 ![Image](assets/fr/10.webp)
 
-A Proton Wallet apresenta a sua frase mnemónica de 12 palavras. **Esta mnemónica dá-lhe acesso total e sem restrições a todos os seus bitcoins. Qualquer pessoa na posse desta frase pode roubar os seus fundos, mesmo sem acesso à sua conta Proton. A frase de 12 palavras pode ser usada para restaurar o acesso aos seus bitcoins se perder o acesso à sua conta. Por isso, é muito importante guardá-la cuidadosamente e armazená-la num local seguro.
+A Proton Wallet apresenta a sua frase mnemónica de 12 palavras. **Esta mnemónica dá-lhe acesso total e sem restrições a todos os seus bitcoins. Qualquer pessoa na posse desta frase pode roubar os seus fundos, mesmo sem acesso à sua conta Proton. A frase de 12 palavras pode ser usada para restaurar o acesso aos seus bitcoins se perder o acesso à sua conta. Por isso, é muito importante guardá-la cuidadosamente e armazená-la num local seguro.**
 
 Pode escrevê-lo num pedaço de papel ou, para maior segurança, recomendo que o grave numa base de aço inoxidável para o proteger de incêndios, inundações ou desmoronamentos.
 
@@ -68,7 +68,7 @@ Pode escrevê-lo num pedaço de papel ou, para maior segurança, recomendo que o
 
 Para mais informações sobre a forma correta de guardar e gerir a sua frase mnemónica, recomendo vivamente que siga este outro tutorial, especialmente se for um principiante:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 é claro que nunca se deve tirar uma fotografia destas palavras, ao contrário do que faço neste tutorial
 
@@ -96,7 +96,7 @@ Para criar uma nova carteira, clique no símbolo "*+*" junto a "*Carteiras*".
 
 Para aprofundar os seus conhecimentos sobre a frase-chave, recomendo este tutorial:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Receber bitcoins
 
@@ -162,4 +162,4 @@ Parabéns, agora já sabe como configurar e utilizar a Carteira Proton. Se você
 
 Para ir mais longe, recomendo este tutorial sobre a Jade Plus, a mais recente carteira de hardware da Blockstream:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262

@@ -1,0 +1,9 @@
+question: Milline on IPv6 Address biti pikkus?
+answer: 128-bitine
+wrong_answers:
+  - 512 bitti
+  - 64-bitine
+  - 256-bitine
+explanation: |
+  IPv6 Address on 128 bitti pikk, võrreldes IPv4 Address 32 bitiga.
+reviewed: false

@@ -101,3 +101,43 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.26
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.32
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.23
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.19
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.23
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.26
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.26
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.29
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.23

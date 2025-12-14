@@ -1,11 +1,12 @@
-question: Comment pouvez-vous renforcer la sécurité par défaut de votre portefeuille Bitcoin ?
-answer: En ajoutant une phrase secrète à votre portefeuille Bitcoin.
+question: Qu'est-ce qu'un portefeuille froid ?
+answer: Un portefeuille dans un dispositif physique qui stocke vos clés et qui n'est pas connecté à internet.
 wrong_answers:
-  - En ajoutant une seconde clé privée à votre portefeuille Bitcoin.
-  - En ajoutant une seconde clé publique à votre portefeuille Bitcoin.
-  - En ajoutant une seconde phrase mnémonique à votre portefeuille Bitcoin.
+  - Un portefeuille qui est physiquement froid au toucher.
+  - Un portefeuille qui est impopulaire parmi les utilisateurs de Bitcoin.
+  - Un portefeuille qui est recommandé pour stocker de petites quantités de bitcoins.
 explanation: |
-  Si vous n'êtes pas satisfait de la sécurité par défaut de votre
-  portefeuille Bitcoin, vous pouvez toujours la renforcer en ajoutant une
-  phrase secrète à votre portefeuille Bitcoin.
+  Un portefeuille froid est un terme utilisé pour décrire un portefeuille Bitcoin
+  qui est stocké sur un dispositif qui n'est pas connecté à internet. Cela le rend
+  moins vulnérable aux menaces en ligne, mais cela signifie également que le portefeuille
+  est moins accessible pour les transactions quotidiennes.
 reviewed: true

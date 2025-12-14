@@ -2,4 +2,4 @@
 term: CRYPTER
 
 ---
-Istilah ini tidak ada. Istilah yang benar adalah "mengenkripsi".
+Tidak ada istilah ini. Istilah yang benar adalah "mengenkripsi".

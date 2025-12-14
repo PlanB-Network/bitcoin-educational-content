@@ -1,0 +1,9 @@
+question: Šta predstavlja vrednost MTU u mreži?
+answer: Maksimalna veličina okvira koja se može preneti bez fragmentacije
+wrong_answers:
+  - Maksimalni kapacitet skladištenja rutera bez fragmentacije
+  - Maksimalan broj hostova na mreži bez fragmentacije
+  - Minimalna dužina IP zaglavlja bez fragmentacije
+explanation: |
+  MTU (Maximum Transmission Unit) definiše maksimalnu veličinu okvira koji može biti prenesen na segmentu bez potrebe za fragmentacijom.
+reviewed: false

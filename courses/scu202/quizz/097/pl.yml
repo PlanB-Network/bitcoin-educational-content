@@ -1,0 +1,9 @@
+question: Która usługa zastępuje DNS dostawcy usług internetowych w celu ochrony poufności żądań internetowych?
+answer: Quad9
+wrong_answers:
+  - Google DNS
+  - DHCP
+  - SMTP
+explanation: |
+  Quad9 to skoncentrowany na prywatności publiczny serwer DNS, który odfiltrowuje złośliwe domeny i nie prowadzi dzienników nominalnych.
+reviewed: false

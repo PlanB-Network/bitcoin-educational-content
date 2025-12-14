@@ -1,0 +1,9 @@
+question: Vad är huvudsyftet med asymmetrisk kryptografi i samband med kommunikationen mellan Alice och Bob?
+answer: För att Bob ska kunna sända ett hemligt meddelande till Alice med hjälp av sin publika nyckel
+wrong_answers:
+  - För att Bob ska kunna kryptera och dekryptera meddelanden utan en offentlig nyckel
+  - För att förhindra Alice från att dekryptera Bob:s meddelanden
+  - För att Alice ska kunna kryptera meddelandet för att verifiera dess integritet
+explanation: |
+  I asymmetrisk kryptografi gör Alice:s publika nyckel det möjligt för Bob att skicka ett krypterat meddelande som endast hon kan dekryptera, vilket garanterar meddelandets konfidentialitet.
+reviewed: false

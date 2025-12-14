@@ -1,12 +1,12 @@
-question: Je, ni vyombo gani vinavyosimamia utoaji wa sarafu aminifu?
-answer: Benki kuu.
+question: Je, ni matokeo gani yanayowezekana ya kushuka kwa thamani kwa ghafla au kupoteza imani katika sarafu ya uaminifu?
+answer: Mfumuko wa bei.
 wrong_answers:
-  - Benki za biashara.
-  - Serikali.
-  - Taasisi Binafsi.
+  - Deflation.
+  - Uchumi thabiti.
+  - Kuongezeka kwa thamani ya sarafu.
 explanation: |
-  Benki kuu ni vyombo vinavyohusika na kutoa a
-  fedha za uaminifu. Wanaamua sera ya fedha na
-  kuamua ni kiasi gani cha pesa kinapaswa kuwekwa kwenye mzunguko au
-  iliyochapishwa.
+  Kushuka kwa thamani kwa ghafla au kupoteza imani kwa mwaminifu
+  sarafu inaweza kusababisha mfumuko wa bei. Hii ni hali
+  ambapo bei za bidhaa na huduma huongezeka kwa
+  kiwango cha juu sana, mara nyingi husababisha kuyumba kwa uchumi.
 reviewed: true

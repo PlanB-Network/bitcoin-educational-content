@@ -6,6 +6,10 @@ description: Hvordan sette opp din Ledger Nano S-enhet
 
 ![bilde](assets/cover.webp)
 
+*Ledger har annonsert at programvarestøtten for klassisk Nano S avsluttes fra 25. juni 2025: denne enheten vil ikke lenger motta sikkerhetsoppdateringer og vil ikke være kompatibel med nye funksjoner, noe som utsetter brukerne for risiko for sårbarheter og fremtidig inkompatibilitet. Midlene er fortsatt tilgjengelige via gjenopprettingsfrasen, men det anbefales på det sterkeste å bytte til en nyere modell for å sikre tryggheten og fremtidig tilgang til dine bitcoins. Merk at dette gjelder den **gamle Nano S**, ikke **Nano S Plus**, som fortsatt støttes.*
+
+___
+
 Kald fysisk lommebok – €60 – Nybegynner – For å sikre €2,000 til €50,000
 
 Ledger er den franske løsningen for å sikre bitcoins på en enkel måte.
@@ -211,5 +215,5 @@ https://armantheparman.com/ledgersparrow/
 
 For å utforske dette emnet videre og styrke sikkerheten til lommeboken din på en Ledger Nano med en BIP39-passfrase, inviterer jeg deg til å sjekke ut denne omfattende opplæringen:
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 

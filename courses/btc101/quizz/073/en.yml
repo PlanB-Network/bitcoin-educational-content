@@ -1,11 +1,13 @@
-question: What is the private key in a Bitcoin wallet?
-answer: A secret key that allows you to sign your transactions.
+question: What is the probability of someone accidentally guessing your list of 12 or 24 words in a Bitcoin wallet?
+answer: Astronomically low.
 wrong_answers:
-  - A public key used to generate Bitcoin addresses.
-  - A secret list of words to destroy a wallet in case of need.
-  - A secret key to encrypt Bitcoin transactions.
-explanation: >-
-  When initializing a Bitcoin wallet, a secret list of words, called mnemonic seed, is generated. 
-  This recovery list is very important because it represents ownership
-  of the Bitcoins and therefore the right to send them.
+  - High.
+  - Moderate.
+  - Strong.
+explanation: |
+  Thanks to the cryptography used to create the wallet, the
+  probability of someone accidentally guessing your list of
+  12 or 24 words is astronomically low. It is like finding
+  the right number between 1 and $2^256$, which is almost
+  equivalent to finding a defined atom in the Universe.
 reviewed: true

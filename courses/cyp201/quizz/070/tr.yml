@@ -1,0 +1,9 @@
+question: HD cüzdanlarının hiyerarşisinde 0 derinliği neyi temsil eder?
+answer: Ana anahtar ve ana chain code
+wrong_answers:
+  - Harici adres zinciri
+  - Varsayılan hesap
+  - Para birimi türü
+explanation: |
+  Derinlik 0, bir HD Wallet'deki tüm türetmeler için başlangıç noktaları olan ana anahtara ve ana chain code'e karşılık gelir.
+reviewed: false

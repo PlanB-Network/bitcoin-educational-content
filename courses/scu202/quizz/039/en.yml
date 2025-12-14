@@ -1,0 +1,9 @@
+question: After installing a critical OS update, what do you often need to do to fully apply the patches?
+answer: Restart computer
+wrong_answers:
+  - Reset password
+  - Disconnect Wi-Fi network
+  - Delete temporary files
+explanation: |
+  Some operating system updates, such as those for the kernel or critical libraries, only take effect after a machine reboot.
+reviewed: false

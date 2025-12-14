@@ -1,0 +1,9 @@
+question: Vilken metod används för att skydda On-Chain-spårbarheten för transaktioner?
+answer: Använda CoinJoin- och PayJoin-tekniker
+wrong_answers:
+  - Återanvändning av samma mottagare Address
+  - Frekvent konsolidering av UTXO
+  - Insättning i ett depåkonto Wallet
+explanation: |
+  Coinjoins och payjoins hjälper till att förbättra integriteten för On-Chain-aktivitet.
+reviewed: false

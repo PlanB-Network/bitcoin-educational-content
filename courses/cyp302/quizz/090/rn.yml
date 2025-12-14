@@ -1,0 +1,9 @@
+question: Ni kuki bigoye kwubaka uburyo bwo gukingira amakuru buva ku nzira y’ububiko bw’uruzi?
+answer: Kubera ko amakuru y'uruzi akora amakuru ubudasiba
+wrong_answers:
+  - Kubera ko amabanga y'umugezi adakoresha imfunguruzo z'ibanga
+  - Kuko uburyo bwo guhagarika busaba imfunguruzo ndende
+  - Kuko ama ciphers y'umugezi yama ateba
+explanation: |
+  Ivyuma vy’uruzi bikoreshwa mu gupfuka amakuru ubudasiba (agace ku gace canke byte ku byte), ivyo bikaba bigora gukoresha mu buryo bw’amabuye bisaba gutunganirizwa mu mabuye afise ubunini butahinduka.
+reviewed: false

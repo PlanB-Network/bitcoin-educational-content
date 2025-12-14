@@ -1,0 +1,9 @@
+question: 캡처된 네트워크 패킷에 대한 자세한 교육 분석을 제공하는 데 사용할 수 있는 그래픽 소프트웨어에는 어떤 것이 있나요?
+answer: 와이어샤크
+wrong_answers:
+  - Ifconfig
+  - 추적 경로
+  - 경로
+explanation: |
+  Wireshark는 캡처된 네트워크 트래픽을 심층적으로 검사할 수 있는 그래픽 패킷 분석기입니다.
+reviewed: false

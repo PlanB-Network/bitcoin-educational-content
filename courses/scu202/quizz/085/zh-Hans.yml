@@ -1,0 +1,9 @@
+question: 建议使用哪种开源应用程序通过协作数据库扫描食品？
+answer: OpenFoodFacts
+wrong_answers:
+  - Yuka
+  - 营养分数
+  - 食品顾问
+explanation: |
+  OpenFoodFacts 是一个免费的、基于社区的项目，其数据是透明的，而 Yuka 基于不透明的、非开源的模式。
+reviewed: false

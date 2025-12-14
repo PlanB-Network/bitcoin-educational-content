@@ -1,0 +1,9 @@
+question: Koja operacija osigurava da preuzeti softver nije izmenjen od njegove zvanične objave?
+answer: Provera integriteta putem Hash
+wrong_answers:
+  - Verifikacija autentičnosti putem potpisa programera
+  - Analiza softvera putem vatrozida
+  - Pokretanje programa u sigurnom režimu
+explanation: |
+  Provera integriteta zasniva se na poređenju Hash preuzetog fajla sa onim koji je objavio developer. Bilo kakva izmena fajla menja ovaj Hash.
+reviewed: false

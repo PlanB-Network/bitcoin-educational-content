@@ -1,0 +1,9 @@
+question: Bitcoin은 중개자 없이 무엇을 할 수 있나요?
+answer: 인터넷에서의 Exchange 값
+wrong_answers:
+  - 중앙 집중식 애플리케이션 만들기
+  - 은행 대출 받기
+  - 개인 데이터 저장
+explanation: |
+  Bitcoin는 P2P 프로토콜을 통해 중개자 없이 인터넷에서 Exchange의 가치를 실현합니다.  
+reviewed: true

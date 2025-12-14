@@ -6,4 +6,4 @@ wrong_answers:
   - Anonimizacija poruka
 explanation: |
   Moderna kriptografija uključuje šeme koje prevazilaze poverljivost kako bi osigurale integritet i autentičnost, kao i nemogućnost poricanja, za razliku od jednostavnih šema šifrovanja.
-reviewed: false
+reviewed: true

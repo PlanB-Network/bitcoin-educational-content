@@ -1,0 +1,10 @@
+question: Ni entropie nini cane y’ugucuruza ni iyihe?
+answer: Entropie isumba izindi zose umubumbe w’ubudandaji ushobora gushikako.
+wrong_answers:
+  - Entropie iri hasi cane umubumbe w’ubudandaji ushobora gushikako.
+  - Entropie nyayo y’ugucuruza.
+  - Ubushobozi bw’ugucuruza.
+explanation: |
+  Entropie nini cane yerekeza ku entropie nini cane umubumbe w’ubudandaji wihariye ushobora gushikako mu vyiyumviro.
+  
+reviewed: false

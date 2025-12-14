@@ -1,9 +1,11 @@
-question: Tác động tiềm năng của hệ thống tài chính hiện tại đối với các nhà hoạt động chính trị là gì?
-answer: Họ không được khuyến khích thực hiện những thay đổi mang tính cách mạng, cho phép hệ thống tiếp tục diễn biến cho đến khi có thể xảy ra sự sụp đổ.
+question: Có một trường hợp lịch sử về tỷ lệ lạm phát hàng ngày tương đương với 100%; điều này đã xảy ra ở đâu và khi nào?
+answer: Ở Zimbabwe, năm 2007.
 wrong_answers:
-  - Họ được khuyến khích thực hiện những thay đổi mang tính cách mạng để ngăn chặn sự sụp đổ có thể xảy ra.
-  - Họ không được khuyến khích duy trì tình trạng hiện tại để đảm bảo sự giàu có của bản thân.
-  - Họ được khuyến khích suy nghĩ về lâu dài.
+  - Ở Hungary, năm 1945.
+  - Ở Trung Quốc, năm 1940.
+  - Đây thực sự là một trường hợp không thực tế và không thể xảy ra.
 explanation: |
-  Vì các nhà hoạt động chính trị được hưởng lợi từ hệ thống tài chính hiện tại, họ không được khuyến khích thực hiện những thay đổi mang tính cách mạng. Điều này cho phép hệ thống tiếp tục diễn biến cho đến khi có thể xảy ra sự sụp đổ, vì hệ thống được quản lý và hạn chế để tránh sự sụp đổ của chính nó.
+  Một tỷ lệ lạm phát 100% mỗi ngày là một kịch bản thực tế đã
+  xảy ra ở Zimbabwe vào năm 2007, nơi giá trị tiền tệ gần như
+  tăng gấp đôi sau mỗi 24 giờ.
 reviewed: true

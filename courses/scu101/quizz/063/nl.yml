@@ -1,0 +1,9 @@
+question: Welke certificering wordt wereldwijd erkend op het gebied van cyberbeveiliging?
+answer: CISSP
+wrong_answers:
+  - PMP
+  - ITIL
+  - SHA2
+explanation: |
+  De CISSP-certificering is een van de meest internationaal erkende op het gebied van cyberbeveiliging.
+reviewed: false

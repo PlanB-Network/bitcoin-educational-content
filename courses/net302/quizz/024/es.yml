@@ -1,0 +1,9 @@
+question: ¿Cuál es la función principal del protocolo TCP en el modelo TCP/IP?
+answer: Garantizar una transferencia de datos fiable y ordenada
+wrong_answers:
+  - Cifrar las comunicaciones de red
+  - Asignar direcciones IP a las máquinas
+  - Fragmentar datagramas a nivel físico
+explanation: |
+  TCP garantiza la fiabilidad de la transmisión de datos verificando la integridad, manteniendo el orden y gestionando la recuperación en caso de pérdida.
+reviewed: false

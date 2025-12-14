@@ -1,0 +1,9 @@
+question: RGB'de, bir Single-Use Seal kapalıyken Commitment nerededir?
+answer: Çıkış noktasını harcayan işlemin çıktısında
+wrong_answers:
+  - Çıkış noktasını harcayan işlemin girişinde
+  - Çıkış noktasını harcayan işlemin scriptSig'inde
+  - Çıkış noktasını harcayan işlemin Şahitliğinde
+explanation: |
+  Commitment, Single-Use Seal'ü tanımlayan çıkış noktasını harcayan işlemin çıktısına eklenir.
+reviewed: false

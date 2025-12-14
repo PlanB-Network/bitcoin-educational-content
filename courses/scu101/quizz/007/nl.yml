@@ -1,0 +1,14 @@
+question: Wat is privénavigatie?
+answer: Een functie die voorkomt dat internetbrowsers browsegeschiedenis, tijdelijke internetbestanden, formuliergegevens, cookies en gebruikersnamen en wachtwoorden opslaan.
+wrong_answers:
+  - Een functie die je online activiteiten verbergt voor je internetprovider.
+  - Een functie waarmee je anoniem op het internet kunt surfen.
+  - Een functie die je apparaat beschermt tegen virussen en andere kwaadaardige software.
+explanation: |
+  Privénavigatie is een functie die voorkomt dat
+  browsers geen browsegeschiedenis, tijdelijke internet
+  bestanden, formuliergegevens, cookies en gebruikersnamen en wachtwoorden.
+  Het verbergt uw online activiteiten echter niet voor uw
+  internetserviceprovider of kunt u anoniem op internet surfen
+  internet anoniem te surfen.
+reviewed: true

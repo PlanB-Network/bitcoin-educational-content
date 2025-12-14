@@ -104,6 +104,26 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.72
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.6
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.47
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.6
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.72
 tags:
   - finance
   - deep-dive

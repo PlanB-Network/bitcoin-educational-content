@@ -1,0 +1,9 @@
+question: Wat is het doel van de verschuiving van rijen in AES?
+answer: De diffusie vergroten door de bytes in de toestandstabel te herschikken
+wrong_answers:
+  - Zorg ervoor dat elk blok even lang is
+  - Pas een geheime sleutel toe op elke rij van de toestandstabel
+  - Extra verwarring introduceren door bytes te vervangen
+explanation: |
+  De shift rijen operatie in AES herschikt de bytes in de toestandstabel om de informatie te verspreiden, waardoor de verspreiding toeneemt.
+reviewed: false

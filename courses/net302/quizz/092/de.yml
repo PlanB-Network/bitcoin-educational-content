@@ -1,0 +1,9 @@
+question: Wo werden DNS-Server normalerweise auf einem Linux-System konfiguriert?
+answer: /etc/resolv.conf
+wrong_answers:
+  - /etc/hostname
+  - /etc/network/interfaces
+  - /etc/hosts.allow
+explanation: |
+  In der Datei /etc/resolv.conf werden DNS-Server und Suchdomänen für die Namensauflösung angegeben.
+reviewed: false

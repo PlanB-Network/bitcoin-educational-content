@@ -1,0 +1,9 @@
+question: Který nástroj příkazového řádku zachycuje síťový provoz pro analýzu v reálném čase?
+answer: tcpdump
+wrong_answers:
+  - dig
+  - nmap
+  - ethtool
+explanation: |
+  tcpdump zachycuje a zaznamenává pakety obíhající v síti Interface za účelem analýzy.
+reviewed: false

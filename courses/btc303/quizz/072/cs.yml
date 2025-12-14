@@ -1,0 +1,9 @@
+question: Co podle analýzy Gregoryho Maxwella vytváří základní kompromis, který nutí uživatele v diskusích o škálování Bitcoin přejít k důvěryhodným službám?
+answer: Příliš vysoké využití zdrojů, které vyřazuje validátory, a příliš drahý přístup k blokovému prostoru pro řešení sporů
+wrong_answers:
+  - Konflikt mezi zvýšením propustnosti transakcí a zachováním přiměřené ziskovosti mining při různých velikostech fondu
+  - Napětí mezi zavedením oddělených aktualizací svědků a zachováním zpětné kompatibility se starším softwarem wallet
+  - Soupeření mezi řešeními druhé vrstvy a přístupy ke škálování on-chain o omezené rozvojové zdroje a podporu komunity
+explanation: |
+  Maxwell identifikoval oboustranný problém, kdy Bitcoin ztrácí své výhody v obou směrech: pokud je využití zdrojů příliš vysoké v porovnání s dostupnou technologií, stává se ověřování příliš nákladné a vyřazuje uživatele, kteří se pak musí spoléhat na důvěryhodné třetí strany, místo aby ověřovali nezávisle. A naopak, pokud je kapacita příliš nízká a transakční metody jsou neefektivní, přístup k blockchainu pro řešení sporů se stává neúnosně drahým, což opět tlačí uživatele k důvěryhodným službám. To vytváří křehkou rovnováhu, kterou musí řešení pro škálování překonat.
+reviewed: false

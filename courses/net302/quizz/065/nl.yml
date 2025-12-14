@@ -1,0 +1,9 @@
+question: Welk protocol kent dynamisch een levensduur toe aan automatisch gedistribueerde IPv6-adressen?
+answer: DHCPv6
+wrong_answers:
+  - OSPFv3
+  - RIPng
+  - ICMPv4
+explanation: |
+  DHCPv6 beheert de levensduur expliciet door middel van lease, terwijl NDP deze aankondigt in zijn routerconfiguratieberichten.
+reviewed: false

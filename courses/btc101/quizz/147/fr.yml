@@ -1,9 +1,12 @@
-question: Quelles seraient les implications pour les utilisateurs de Bitcoin si les blocs étaient 100 fois plus lourds ?
-answer: Faire fonctionner un nœud Bitcoin ne serait pas accessible à la personne moyenne, compromettant ainsi la décentralisation du protocole et l'immuabilité des transactions ainsi que des règles de consensus.
+question: Quel est le rôle des ASICs dans le minage de Bitcoin ?
+answer: Les ASICs sont des machines conçues uniquement pour appliquer l'algorithme SHA256 dans le processus de minage.
 wrong_answers:
-  - Faire fonctionner un nœud Bitcoin serait plus accessible à la personne moyenne, améliorant la décentralisation du protocole et l'immuabilité des transactions ainsi que des règles de consensus.
-  - La capacité de transaction du réseau diminuerait.
-  - La récompense de bloc pour les mineurs augmenterait.
+  - Les ASICs sont utilisés pour vérifier les transactions Bitcoin en appliquant l'algorithme SHA256 dans le processus de vérification.
+  - Les ASICs sont utilisés pour créer arbitrairement de nouveaux bitcoins.
+  - Les ASICs sont utilisés pour sécuriser le réseau Bitcoin.
 explanation: |
-  Si les blocs étaient 100 fois plus lourds, faire fonctionner un nœud Bitcoin nécessiterait un disque dur de 50TB, une bande passante de plus de 500GB/mois, et un matériel capable de valider des centaines de milliers de transactions en moins de 10 minutes. Cela rendrait l'exploitation d'un nœud Bitcoin inaccessible à la personne moyenne, compromettant la décentralisation du protocole et l'immuabilité des transactions et des règles de consensus.
+  Les ASICs (Circuits Intégrés Spécifiques à une Application) sont
+  du matériel spécialisé conçu spécifiquement pour le minage de Bitcoin.
+  Ils sont optimisés pour effectuer la fonction de hachage SHA256, qui est le problème mathématique que les mineurs
+  doivent résoudre dans le processus de Preuve de Travail (Proof of Work).
 reviewed: true

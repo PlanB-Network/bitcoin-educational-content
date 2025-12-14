@@ -460,7 +460,7 @@ Kun olet uusi rakentamaan, aloita tästä [MakerBits-esittelyt](https://www.yout
 - Lisäämällä lightning:lnurl1234xyz luodaan QR, joka pyytää avaamaan käyttäjän lompakon tätä laskua varten skannattaessa (viimeksi asennettu salamasovellus iOS: ssä, asetus Androidissa)
 - Jos vilkkaat esp32:ta webin kautta, se toimii vain näillä selaimilla (TL:DR Chrome, Edge & Opera).
 - Huomioi tämä PIN-OUT-viite esp:lle
-- Kun käytät FOSS-ohjelmistoja tai FOS-oppaita, linkitä aina tekijä. Kaikki rakastavat katsella lapsensa kasvua ja se myös käynnistää rakennusketjun, joka on aika mahtavaa katseltavaa :)
+- Kun käytät FOSS-ohjelmistoja tai FOS-oppaita, linkitä aina tekijä. Kaikki rakastavat katsella lapsensa kasvua ja se myös käynnistää rakennusketjun, joka on aika mahtavaa katseltavaa:)
 
 Tule [Makerbits Telegram-ryhmään](https://t.me/makerbits), jos tarvitset apua projektin kanssa - me autamme sinua!
 

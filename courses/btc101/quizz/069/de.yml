@@ -1,11 +1,10 @@
-question: Wie hoch war die geschätzte Anzahl an Bitcoins im Umlauf nach der ersten Halbierung?
-answer: 10.500.000 BTC.
+question: Was ist die Rolle des öffentlichen Schlüssels in einem Bitcoin-Wallet?
+answer: Er wird verwendet, um Bitcoin-Adressen zu generieren und somit Geld zu empfangen.
 wrong_answers:
-  - 5.250.000 BTC.
-  - 15.750.000 BTC.
-  - 21.000.000 BTC.
+  - Er wird verwendet, um Bitcoin-Transaktionen zu verschlüsseln.
+  - Er wird verwendet, um auf das Bitcoin-Wallet zuzugreifen.
+  - Er wird verwendet, um das Bitcoin-Wallet zu sichern.
 explanation: |
-  Nach der ersten Halbierung, die bei Blockhöhe
-  210.000 stattfand, betrug die geschätzte Anzahl an Bitcoins im Umlauf
-  10.500.000 BTC, was die Hälfte der Gesamtzahl an Bitcoins ist, die im Umlauf sein werden.
+  Der öffentliche Schlüssel wird vom privaten Schlüssel abgeleitet und verwendet,
+  um Bitcoin-Adressen zu generieren, um Geld zu empfangen.
 reviewed: true

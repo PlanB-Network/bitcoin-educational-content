@@ -1,0 +1,12 @@
+question: Vad är det för mekanism som säkerställer att ett nytt block läggs till i Blockchain var tionde minut?
+answer: Justering av svårighetsgrad.
+wrong_answers:
+  - Justering av hastighet.
+  - Tidsjustering.
+  - Blockjustering.
+explanation: |
+  Den mekanism som säkerställer att ett nytt block läggs till i
+  Blockchain var tionde minut är svårighetsjusteringen.
+  Denna justering sker vart 2016:e block, eller cirka
+  två veckor.
+reviewed: true

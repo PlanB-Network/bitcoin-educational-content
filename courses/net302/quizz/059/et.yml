@@ -1,0 +1,9 @@
+question: Millist käsku saab kasutada staatilise IP Address lisamiseks Interface-le Linuxis?
+answer: ip addr add [Address]/[mask] dev [Interface]
+wrong_answers:
+  - ifconfig [Interface] up [Address]/[mask]
+  - ip route add [Address] dev [Interface]
+  - route add -net [Address] netmask [mask] dev [Interface]
+explanation: |
+  Käsk "ip addr add" on tänapäevane meetod staatilise IP Address määramiseks võrgu Interface jaoks Linuxis.
+reviewed: false

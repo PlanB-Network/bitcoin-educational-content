@@ -1,0 +1,9 @@
+question: Vilken roll spelar ett irreducibelt polynom i ett ändligt fält?
+answer: Definiera multiplikationsoperationerna i fältet
+wrong_answers:
+  - Definiera den additiva inversen för varje element
+  - Säkerställa att fältet stängs
+  - Bestäm den multiplikativa identiteten
+explanation: |
+  Irreducibla polynom används för att strukturera multiplikation i finita fält, vilket säkerställer att varje element förblir inom fältet.
+reviewed: false

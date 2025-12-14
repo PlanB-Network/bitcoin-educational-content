@@ -1,0 +1,9 @@
+question: Bu bölümde rastgele bir dize nasıl tanımlanmıştır?
+answer: Aynı uzunluktaki tüm dizelerden eşit olarak seçilen bir dizge olarak
+wrong_answers:
+  - Yalnızca 0 ve 1 bitleriyle oluşturulan bir dize olarak
+  - Manuel seçimden elde edilen bir dize olarak
+  - Bir şifreleme işleminden kaynaklanan değişken uzunlukta bir dize olarak
+explanation: |
+  Rastgele bir dizge, aynı uzunluktaki tüm olası dizgeler arasından tek tip bir seçim olarak tanımlanır.
+reviewed: false

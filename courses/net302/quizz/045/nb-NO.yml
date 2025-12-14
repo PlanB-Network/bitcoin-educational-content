@@ -1,0 +1,9 @@
+question: Hva er praksisen med å kunstig modifisere MAC Address?
+answer: MAC-spoofing
+wrong_answers:
+  - MAC-phishing
+  - MAC-sniffing
+  - Keylogging på Mac
+explanation: |
+  MAC-spoofing er å endre maskinvarens Address til et nettverks Interface, ofte av personvernhensyn eller for å omgå restriksjoner.
+reviewed: false

@@ -1,0 +1,32 @@
+id: 4169fb5d-5799-4376-9824-a18e8da34ee1
+
+name: Trojan Mining
+
+address_line_1: Abuja, Nigeria
+address_line_2:
+address_line_3: 
+
+links:
+  website: https://www.trojanmining.com/
+  twitter: https://x.com/TrojanMining
+  Github: 
+  youtube: 
+
+category: mining
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-06-16
+    urgency: 
+    contributor_names:
+      - Gloirew
+    reward: 
+
+tags:
+  - mining
+  - bitcoin
+  - energy
+
+contributor_names:
+  - Gloirew

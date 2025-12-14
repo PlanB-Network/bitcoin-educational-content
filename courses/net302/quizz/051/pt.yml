@@ -1,0 +1,9 @@
+question: Que mecanismo permite que um serviço interno seja acedido externamente através de NAT?
+answer: Reencaminhamento de portas
+wrong_answers:
+  - Fragmentação de pacotes
+  - Encaminhamento RIP
+  - Compressão NAT
+explanation: |
+  O reencaminhamento de portas permite que uma ligação externa seja reencaminhada para um anfitrião interno específico através da gateway NAT.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Hoe worden nieuwe Bitcoin gecreëerd en in omloop gebracht?
+answer: Via Mining als beloning voor het toevoegen van nieuwe transacties aan de Blockchain
+wrong_answers:
+  - Door de uitgifte van een gecentraliseerde autoriteit
+  - Door ze te kopen bij Bitcoin beurzen
+  - Door ze te ontvangen als transactiekosten
+explanation: |
+  Nieuwe Bitcoin worden in omloop gebracht door een proces dat Mining wordt genoemd.
+  Miners concurreren met elkaar om nieuwe transacties aan de Blockchain toe te voegen.
+  In Exchange worden miners voor hun werk beloond met nieuw gecreëerde Bitcoin.
+  Dit proces verifieert en beveiligt ook transacties op het Bitcoin netwerk.
+reviewed: true

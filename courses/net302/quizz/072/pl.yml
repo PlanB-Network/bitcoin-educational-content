@@ -1,0 +1,9 @@
+question: Jaki typ blokady IPv6 pozwala firmie zachować swój prefiks nawet przy zmianie dostawcy usług internetowych?
+answer: PI (niezależny dostawca)
+wrong_answers:
+  - PA (Provider Aggregatable)
+  - LIR (lokalny rejestr internetowy)
+  - IP (wymienny dostawca)
+explanation: |
+  Blok PI (Provider Independent) jest przydzielany bezpośrednio organizacji przez RIR, niezależnie od dostawcy usług internetowych.
+reviewed: false

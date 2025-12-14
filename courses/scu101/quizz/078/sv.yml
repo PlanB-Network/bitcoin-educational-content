@@ -1,0 +1,9 @@
+question: Vad är ett grundläggande kriterium när man skapar ett nytt e-postkonto?
+answer: Använd ett unikt och starkt lösenord.
+wrong_answers:
+  - Återanvänd lösenordet från andra konton.
+  - Välj ett enkelt lösenord som är lätt att memorera.
+  - Välj ett lösenord med namnet på ditt husdjur.
+explanation: |
+  Ett unikt och starkt lösenord är viktigt för att förhindra att hackare får tillgång till e-postkontot.
+reviewed: true

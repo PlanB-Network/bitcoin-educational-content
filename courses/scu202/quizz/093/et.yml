@@ -1,0 +1,9 @@
+question: Millist protokolli kasutatakse peamiselt iga seadme identifitseerimiseks Internetis?
+answer: IP
+wrong_answers:
+  - DNS
+  - HTTP
+  - SMTP
+explanation: |
+  Internetiprotokoll (IP) määrab igale seadmele unikaalse Address ja võimaldab andmepakettide suunamist.
+reviewed: false

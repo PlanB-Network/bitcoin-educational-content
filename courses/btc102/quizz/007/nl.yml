@@ -1,0 +1,9 @@
+question: Wat betekent de 3-2-1 regel in termen van gegevensback-up?
+answer: 3 kopieën op 2 verschillende media, waarvan 1 extern opgeslagen
+wrong_answers:
+  - 3 kopieën op 2 online media en 1 fysiek apparaat
+  - 3 media met 2 kopieën, waarvan één off-site
+  - 3 kopieën, waarvan 2 versleuteld en 1 extern opgeslagen
+explanation: |
+  Deze regel beveelt aan om 3 kopieën van gegevens op 2 verschillende soorten media te hebben, waarbij 1 kopie off-site wordt opgeslagen voor een grotere veerkracht.
+reviewed: false

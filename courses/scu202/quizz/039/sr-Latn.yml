@@ -1,0 +1,9 @@
+question: Nakon instalacije kritične OS nadogradnje, šta često treba da uradite da biste u potpunosti primenili zakrpe?
+answer: Ponovo pokreni računar
+wrong_answers:
+  - Resetuj lozinku
+  - Isključite Wi-Fi mrežu
+  - Izbriši privremene datoteke
+explanation: |
+  Neka ažuriranja operativnog sistema, kao što su ona za kernel ili kritične biblioteke, stupaju na snagu tek nakon ponovnog pokretanja mašine.
+reviewed: false

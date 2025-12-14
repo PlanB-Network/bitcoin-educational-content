@@ -1,0 +1,9 @@
+question: Koja je glavna motivacija za korišćenje nasumičnih Interface identifikatora umesto MAC Address u IPv6?
+answer: Očuvanje privatnosti
+wrong_answers:
+  - Smanjenje veličine paketa
+  - Ubrzavanje DNS rezolucije
+  - Poboljšanje ARP kompatibilnosti
+explanation: |
+  Korišćenje nasumičnih Interface identifikatora pomaže u zaštiti od praćenja uređaja zasnovanog na MAC Address.
+reviewed: false

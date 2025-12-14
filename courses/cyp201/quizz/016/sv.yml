@@ -1,0 +1,9 @@
+question: Vilken signaturalgoritm introducerades i Bitcoin med Taproot?
+answer: Schnorr signaturschema
+wrong_answers:
+  - ECDSA
+  - SHA256
+  - PBKDF2
+explanation: |
+  Schnorr-signaturschemat introducerades i november 2021 med Taproot-uppdateringen.
+reviewed: false

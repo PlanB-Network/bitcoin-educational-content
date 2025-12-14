@@ -1,0 +1,9 @@
+question: UTXO 세트의 크기가 시간이 지남에 따라 구조적으로 증가하는 경향을 보이는 이유는 무엇인가요?
+answer: 결제할 때마다 일반적으로 두 개의 새 UTXO가 생성됩니다
+wrong_answers:
+  - 기존 결제는 UTXO을 소비하지 않습니다
+  - 각 Fork는 기존 UTXO의 수를 늘립니다
+  - 생성할 수 있는 비트코인의 수는 무한합니다
+explanation: |
+  결제 거래는 하나의 UTXO를 소비하고 종종 두 개(결제 + Exchange)를 다시 생성하여 세트의 총 크기를 부풀립니다.
+reviewed: true

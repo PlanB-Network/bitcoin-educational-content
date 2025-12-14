@@ -1,0 +1,9 @@
+question: Hvilke rutiner er viktige for å begrense eksponeringen av dataene dine når du surfer på Internett?
+answer: Slett informasjonskapsler regelmessig
+wrong_answers:
+  - Behold alle informasjonskapsler
+  - Deaktiver privat modus i nettleseren
+  - Bruker en foreldet nettleser
+explanation: |
+  Hvis du sletter eller begrenser informasjonskapsler, reduserer du sporing av reklame og bevarer personvernet når du surfer på nettet.
+reviewed: false

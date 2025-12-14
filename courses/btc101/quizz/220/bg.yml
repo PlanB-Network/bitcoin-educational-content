@@ -1,0 +1,9 @@
+question: Кой механизъм свързва една sidechain с Bitcoin?
+answer: Двупосочно закотвяне
+wrong_answers:
+  - Платежен канал
+  - Proof of Stake
+  - Шардинг
+explanation: |
+  Механизмът two-way peg позволява заключването на BTC в Bitcoin и представянето им в sidechain.
+reviewed: false

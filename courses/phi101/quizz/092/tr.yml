@@ -1,0 +1,9 @@
+question: Tocqueville'e göre bireycilik nedir?
+answer: Bireycilik, vatandaşların kendilerini diğerlerinden soyutlamalarına ve içlerine kapanmalarına yol açan bir kendine yeterlilik duygusudur.
+wrong_answers:
+  - Bireycilik her çağda var olan bir unsurdur.
+  - Bireycilik, ataların yaşamına geri dönülmesini savunan siyasi bir doktrindir.
+  - Bireycilik, insanın bencilliğini karakterize eden bir terimdir.
+explanation: |
+  Tocqueville'e göre bireycilik, vatandaşları kolektif sorumlulukları ihmal etmeye iten ve böylece sosyal dokuyu zayıflatan bir izolasyon yaratan, kendi kendine yeterliliğe yönelik modern bir eğilimdir.
+reviewed: true

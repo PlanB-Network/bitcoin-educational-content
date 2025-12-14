@@ -1,0 +1,9 @@
+question: کدام دستور می‌تواند برای به‌روزرسانی تمام بسته‌ها در یک توزیع اوبونتو استفاده شود؟
+answer: sudo apt update && sudo apt upgrade
+wrong_answers:
+  - sudo pacman -Syu
+  - sudo dnf upgrade
+  - sudo update-all
+explanation: |
+  در اوبونتو (و دبیان)، دستور "sudo apt update && sudo apt upgrade" لیست بسته‌ها را همگام‌سازی کرده و تمامی به‌روزرسانی‌های موجود را نصب می‌کند.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Cuál es la razón principal por la que el repositorio GitHub de Bitcoin Core se considera especial en comparación con las miles de copias del mismo repositorio en todo el mundo?
+answer: Sirve como punto focal socialmente reconocido para el desarrollo de Bitcoin, no debido a ninguna superioridad técnica
+wrong_answers:
+  - Contiene claves criptográficas que autentican las versiones y actualizaciones oficiales de Bitcoin Core
+  - Tiene características técnicas y permisos exclusivos que otras copias del repositorio no pueden replicar
+  - Está protegido legalmente por la Licencia MIT como única fuente autorizada de código Bitcoin
+explanation: |
+  Como explica Jameson Lopp, el repositorio GitHub de Bitcoin Core es técnicamente idéntico a otras miles de copias en todo el mundo, pero se ha convertido en el punto focal socialmente aceptado para la coordinación del desarrollo. No tiene características técnicas especiales, mecanismos de autenticación criptográfica ni protecciones legales que lo hagan superior. En realidad, la licencia MIT garantiza que cualquiera pueda copiar y redistribuir el código libremente. Si este repositorio desapareciera, la comunidad simplemente establecería un nuevo punto focal en otro lugar, demostrando que su importancia es puramente una convención social más que una necesidad técnica.
+reviewed: false

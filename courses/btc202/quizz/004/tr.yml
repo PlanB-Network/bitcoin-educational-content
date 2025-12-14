@@ -1,0 +1,9 @@
+question: Bitcoin düğümü nedir?
+answer: Bitcoin protokolünü uygulayan yazılımı çalıştıran bir bilgisayar
+wrong_answers:
+  - Bitcoin ağını uygulayan bir Hardware Wallet
+  - Bitcoin için yeni bloklar üreten bir Miner
+  - Bitcoin ağını ve işlem onayını yöneten merkezi bir sunucu
+explanation: |
+  Bir Bitcoin düğümü, protokolü uygulayan ve Bitcoin ağına katılan Bitcoin core gibi bir yazılımı çalıştıran bir bilgisayardır.
+reviewed: true

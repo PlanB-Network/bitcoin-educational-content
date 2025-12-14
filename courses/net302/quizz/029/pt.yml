@@ -1,0 +1,9 @@
+question: Qual é o objetivo das primitivas de serviço no modelo TCP/IP?
+answer: Gerir os intercâmbios entre camadas
+wrong_answers:
+  - Encriptação automática de mensagens de rede
+  - Distribuir endereços IP a anfitriões remotos
+  - Verificar o comprimento total dos pacotes IP
+explanation: |
+  As primitivas de serviço definem a comunicação Interface entre as diferentes camadas, permitindo que as trocas na rede sejam estabelecidas, mantidas ou terminadas.
+reviewed: false

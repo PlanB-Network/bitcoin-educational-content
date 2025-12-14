@@ -1,0 +1,8 @@
+question: Vilken är betydelsen av energiförbrukning i Bitcoin Mining?
+answer: Energiförbrukningen är nödvändig för att producera informationen, men verifieringen av informationen har en försumbar kostnad. Denna asymmetri garanterar nätverkets säkerhet.
+wrong_answers:
+  - Energikostnaden är nödvändig för att driva de ASIC-maskiner som används i Mining, och verifieringen av information har höga kostnader.
+  - Energikostnaderna är nödvändiga för att upprätthålla Bitcoin-nätet och verifieringen av information har rörliga kostnader.
+  - Energikostnaden är inte nödvändig för att skapa nya bitcoins.
+explanation: >-
+reviewed: false

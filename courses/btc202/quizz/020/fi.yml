@@ -1,0 +1,9 @@
+question: Mitä tapahtuu, jos lohko rikkoo konsensussääntöjä?
+answer: Solmut hylkäävät sen välittömästi
+wrong_answers:
+  - Se on tallennettu Mempool:een odottamaan validointia
+  - Sitä välittävät vain solmut, jotka hyväksyvät muut säännöt
+  - Vain lompakot vahvistavat sen
+explanation: |
+  Solmut hylkäävät järjestelmällisesti kaikki lohkot, jotka eivät ole konsensussääntöjen mukaisia.
+reviewed: true

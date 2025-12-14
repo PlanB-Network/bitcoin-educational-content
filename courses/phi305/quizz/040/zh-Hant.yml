@@ -1,0 +1,9 @@
+question: 什麼是學術哲學？
+answer: 中世紀的基督教哲學。
+wrong_answers:
+  - 政治運動。
+  - 無政府主義哲學。
+  - 理性的哲學。
+explanation: |
+  學術哲學是中世紀的基督教哲學，在歐洲大學中佔有主導地位。它試圖協調基督教信仰與亞里斯多德哲學。
+reviewed: false

@@ -1,0 +1,8 @@
+question: Wat is de gemiddelde tijd tussen het aanmaken van twee blokken in het Bitcoin protocol?
+answer: 10 minuten.
+wrong_answers:
+  - 5 minuten.
+  - 15 minuten.
+  - 20 minuten.
+explanation: >-
+reviewed: true

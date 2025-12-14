@@ -1,0 +1,9 @@
+question: Quelle erreur de sécurité majeure expose à l’effet domino lors d’une fuite de données ?
+answer: Réutiliser le même mot de passe sur plusieurs sites
+wrong_answers:
+  - Utiliser un VPN public
+  - Effacer trop souvent l’historique de navigation
+  - Naviguer en mode texte
+explanation: |
+  Réutiliser un mot de passe sur différents sites permet à un attaquant, en cas de compromission d’un service, d’accéder à d’autres comptes avec le même mot de passe.
+reviewed: false

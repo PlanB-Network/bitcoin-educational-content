@@ -1,0 +1,9 @@
+question: Wat is het grootste risico bij Commitment transacties op de Lightning Network?
+answer: Een oude transactie publiceren om meer geld terug te vorderen
+wrong_answers:
+  - Vergeten de Commitment Transaction te ondertekenen
+  - Per ongeluk geld naar een ander kanaal sturen
+  - De transactie blokkeren met een ongepast tijdslot
+explanation: |
+  Het grootste risico is dat een partij probeert vals te spelen door een oude Commitment Transaction te publiceren, waardoor ze fondsen kunnen terugvorderen die ze niet meer hebben.
+reviewed: false

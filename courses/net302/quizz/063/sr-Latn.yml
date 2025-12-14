@@ -1,0 +1,9 @@
+question: Koji je glavni cilj uvođenja IPv6?
+answer: Obezbedite praktično neograničen Address prostor
+wrong_answers:
+  - Povećajte propusnost Ethernet-a za faktor 4
+  - Postepeno zameniti TCP sa UDP
+  - Smanjite broj bajtova po paketu
+explanation: |
+  Glavna svrha IPv6 je rešavanje nedostatka IP adresa masovnim proširenjem Address prostora.
+reviewed: false

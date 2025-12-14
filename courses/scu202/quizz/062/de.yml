@@ -1,0 +1,9 @@
+question: Welcher Browser garantiert Anonymität, indem er den Datenverkehr durch ein dezentrales Netzwerk mit hoher Latenz umleitet?
+answer: Tor-Browser
+wrong_answers:
+  - Mullvad-Browser
+  - Luchs
+  - LibreWolf
+explanation: |
+  Der Tor-Browser nutzt das Tor-Netzwerk, um das Surfen zu anonymisieren, was allerdings mit einem erheblichen Leistungsabfall verbunden ist.
+reviewed: false

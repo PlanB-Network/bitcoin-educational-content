@@ -1,0 +1,9 @@
+question: Hoe is de Lightning Network geëvolueerd om de gebruikerservaring te verbeteren sinds het begin?
+answer: Het heeft functies geïntroduceerd zoals splicing, statische Bolt12-facturen en beter liquiditeitsbeheer, waardoor transacties soepeler en betrouwbaarder verlopen.
+wrong_answers:
+  - Het heeft alle beveiligingsfuncties verwijderd om transacties te versnellen.
+  - Het vereist nu goedkeuring van de overheid voor elke betaling.
+  - Het is gestopt met het ontwikkelen van nieuwe functies en vertrouwt alleen nog op het oorspronkelijke ontwerp.
+explanation: |
+  In de loop der tijd heeft de Lightning Network technische verbeteringen ondergaan die de wrijving voor gebruikers verminderen. Nieuwe functies en betere tools voor knooppuntbeheer hebben bijgedragen aan een meer naadloze en gebruiksvriendelijke ervaring.
+reviewed: false

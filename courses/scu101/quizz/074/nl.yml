@@ -1,0 +1,9 @@
+question: Wat zijn de belangrijkste functies van een wachtwoordmanager?
+answer: Wachtwoorden opslaan, generate en organiseren.
+wrong_answers:
+  - Virussen analyseren en verwijderen.
+  - Een back-up maken van persoonlijke documenten en ze organiseren.
+  - Verbindingssnelheid optimaliseren.
+explanation: |
+  De essentiële functies omvatten het opslaan, genereren en organiseren van wachtwoorden.
+reviewed: true

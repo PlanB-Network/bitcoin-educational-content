@@ -1,0 +1,9 @@
+question: Bir şirketin muhasebesinde Bitcoin ile uğraşırken dikkatli kayıt tutma neden önemlidir?
+answer: Çünkü her Bitcoin işlemi vergiye tabi bir olay yaratabilir ve kazançları, kayıpları ve vergi yükümlülüklerini hesaplamak için doğru kayıtlara ihtiyaç vardır.
+wrong_answers:
+  - Çünkü Blockchain şirket adına otomatik olarak vergi dosyalamaktadır.
+  - Çünkü Bitcoin işlemleri için hiçbir muhasebe standardı geçerli değildir.
+  - Çünkü bir kez kaydedildikten sonra Bitcoin işlemlerinin izini sürmek imkansızdır.
+explanation: |
+  Bitcoin'te yapılan her alım, satım veya ödemenin vergisel sonuçları olabilir. Maliyet esası, satış fiyatı ve zamanlamaya ilişkin ayrıntılı kayıtların tutulması, doğru ve uyumlu vergi raporlaması yapılmasını sağlar.
+reviewed: false

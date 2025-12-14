@@ -1,0 +1,10 @@
+question: Bir PayJoin işlemi nasıl steganografik bir işlem olarak kabul edilebilir?
+answer: Gerçek ödeme tutarını dış gözlemcilerden gizler.
+wrong_answers:
+  - Harici gözlemciler için gerçek ödeme tutarını şifreler.
+  - Gerçek ödeme tutarını alıcıdan gizler.
+  - Alıcı için gerçek ödeme tutarını şifreler.
+explanation: |
+  PayJoin işlemi steganografi alanına girmektedir çünkü bir işlemin gerçek tutarını, dış gözlemciler için yem görevi gören sahte bir işlem içinde gizlemektedir.
+  
+reviewed: false

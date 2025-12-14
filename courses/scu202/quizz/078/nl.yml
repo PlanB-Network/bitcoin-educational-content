@@ -1,0 +1,9 @@
+question: Wat is de beste aanbevolen schermvergrendelingsmethode voor een smartphone?
+answer: Alfanumeriek wachtwoord
+wrong_answers:
+  - Grafisch diagram
+  - Gezichtsherkenning
+  - Geen vergrendeling
+explanation: |
+  Alfanumerieke wachtwoorden bieden de beste weerstand tegen pogingen tot ongeautoriseerde toegang, in tegenstelling tot grafische schema's of biometrische gegevens.
+reviewed: false

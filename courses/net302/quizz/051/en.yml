@@ -1,0 +1,9 @@
+question: What mechanism allows an internal service to be accessed externally through NAT?
+answer: Port forwarding
+wrong_answers:
+  - Packet fragmentation
+  - RIP routing
+  - NAT compression
+explanation: |
+  Port forwarding allows an external connection to be forwarded to a specific internal host via the NAT gateway.
+reviewed: false

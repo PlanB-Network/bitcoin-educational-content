@@ -1,0 +1,9 @@
+question: 엄브렐 커뮤니티가 가장 활발한 곳은 어디인가요?
+answer: Discord 및 온라인 포럼에서
+wrong_answers:
+  - 인스타그램에서
+  - LinkedIn 및 온라인 포럼에서
+  - IRC에서
+explanation: |
+  엄브렐은 Discord와 온라인 포럼에서 Exchange 사용자들이 서로 돕고 지원하는 매우 활발한 커뮤니티를 운영하고 있습니다.
+reviewed: true

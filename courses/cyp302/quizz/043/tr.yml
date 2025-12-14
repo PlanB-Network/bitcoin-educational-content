@@ -1,0 +1,9 @@
+question: Ne tür bir grup öncelikle kriptografi kullanır?
+answer: Tam sayılar üzerinde tanımlanan gruplar veya tam sayılar tarafından tanımlanan Elements
+wrong_answers:
+  - Karmaşık sayı grupları veya karmaşık sayılarla tanımlanan Elements
+  - Geometrik dönüşüm grupları veya geometrik dönüşümler tarafından tanımlanan Elements
+  - Rasyonel sayı grupları veya rasyonel sayılarla tanımlanan Elements
+explanation: |
+  Kriptografi, şifreleme ve imzalama işlemleri için tamsayılara dayalı grupları veya eliptik eğri üzerindeki noktalar gibi tamsayılarla tanımlanan Elements'ü kullanır.
+reviewed: false

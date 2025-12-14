@@ -1,0 +1,9 @@
+question: Nk’uko Bastiat abivuga, ni ubuhe buryo bubi kuruta ubundi bwo gusahura?
+answer: Imisoro n'ubutegetsi bw'umuntu umwe
+wrong_answers:
+  - Ubusuma bukozwe n'umuntu umwe ku wundi .
+  - Intambara n'ivyo kwigarurira
+  - Ubwoko bwose bwo gusahura ni bubi kimwe .
+explanation: |
+  Bastiat abona ko imisoro n’ubutegetsi bw’abantu bamwebamwe ari bwo buryo bubi kuruta ubundi bwo gusahura kuko buremezwa na Leta, bikajana mu kwigarurira ubutunzi n’umwidegemvyo w’abantu mu buryo butunganye, kenshi na kenshi biyoberanya ko ari inyungu za bose.
+reviewed: true

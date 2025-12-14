@@ -1,0 +1,9 @@
+question: Welke van deze Lightning-operaties wordt onchain vastgelegd?
+answer: Opening van een kanaal
+wrong_answers:
+  - Tussentijdse betaling
+  - Statusupdate
+  - Multi-hop-routering
+explanation: |
+  Alleen het openen en sluiten van een Lightning-kanaal komen overeen met Bitcoin-transacties die op de blockchain worden gepubliceerd.
+reviewed: false

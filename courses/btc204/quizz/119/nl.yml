@@ -1,0 +1,10 @@
+question: Wat is het belangrijkste verschil tussen een verbeterde ricochet en een klassieke ricochet?
+answer: De verdeling van transacties in de tijd
+wrong_answers:
+  - Het aantal gebruikte transacties
+  - Het gebruikte type Address
+  - Het aantal uitgangen in de transacties
+explanation: |
+  De verbeterde ricochet zorgt ervoor dat elke transactie op een ander tijdstip wordt uitgezonden en in een ander blok wordt opgeslagen, terwijl de klassieke ricochet alle transacties binnen een kort tijdsbestek uitzendt.
+  
+reviewed: false

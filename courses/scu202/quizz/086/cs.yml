@@ -1,0 +1,9 @@
+question: Která open source překladatelská aplikace pracuje s různými motory a neshromažďuje vaše přeložené texty?
+answer: TranslateYou
+wrong_answers:
+  - Překladač Google
+  - DeepL
+  - Překladač Microsoft
+explanation: |
+  TranslateYou funguje jako Interface pro několik motorů, aniž by na rozdíl od proprietárních služeb sledoval nebo shromažďoval osobní údaje.
+reviewed: false

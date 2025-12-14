@@ -1127,12 +1127,12 @@ Mu mezi yakurikiye, igikorwa ca NLS carabaye ikintu nyamukuru mu guteza imbere u
 
 ### Intango y'ubutunzi
 
-Intango y’umwaka w’2010 irangwa n’intambwe za mbere z’uguhinduranya mu vy'ubudandaji mu mafaranga y’ivy’ubuhinga bwa none. NewLibertyStandard, ni yo ya mbere yemeye kwakira Bitcoin muri kuvunja kindi ciza c’ubutunzi (amadolari muri iki gihe), na yo nyene ni yo ya mbere itera imbere iyo nzira y’ubutunzi. Ku wa 19 Mukakaro 2010, amaze gusa kwiyandikisha kuri iryo huriro rishasha, [yanditse] iki canditswe gikurikira:
+Intango y’umwaka w’2010 irangwa n’intambwe za mbere z’ukuvunja mu vy'ubudandaji mu mafaranga y’ivy’ubuhinga bwa none. NewLibertyStandard, ni yo ya mbere yemeye kwakira Bitcoin mu kuvunja kindi ciza c’ubutunzi (amadolari muri iki gihe), na yo nyene ni yo ya mbere itera imbere iyo nzira y’ubutunzi. Ku wa 19 Mukakaro 2010, amaze gusa kwiyandikisha kuri iryo huriro rishasha, [yashize ahabona] iki canditswe gikurikira:
 
 
-> "Abantu baraguriye bitcoins kuri jewe kandi bagurisha bitcoins kuri jewe. ugutangwa n'ivyo basaba, naho vyoba ari bito, birasanzwe biriho kandi ivyo ni vyo vyose bikenewe vy'ukuri. Gusaba kuvunjisha bitcoins ku yandi mafaranga amaherezo ntaco bitandukaniyeko n'uguhindura bitcoins ukayikaba n'ibintu." canke igikorwa. Nagerageje kwiyumvira ikintu co kugura canke kugurisha n’amadolari y’Amerika, ariko ntaco nashoboye kuronka. nyuma. Umuntu wese agura canke agurisha ibintu akoresheje ama bitcoins, harimwo n'abahindura amafaranga, ariko arateza imbere ubutunzi bwa Bitcoin Reka umuntu wese akore uruhara rwiwe Gura canke ugurisha ukoresheje bitcoins!"
+> "Banguriye kandi ndanadandaza ama Bitcoins. ugutangwa n'ugusaba, naho vyoba ari bito, birasanzwe biriho nico gikenewe cane. Gusaba kuvunjisha bitcoins ku yandi mafaranga amaherezo ntaco bitandukaniyeko n'uguhindura bitcoins ukayikaba n'ibintu." canke igikorwa. Nagerageje kwiyumvira ikintu co kugura canke kugurisha n’amadolari y’Amerika, ariko ntaco nashoboye kuronka. nyuma. Umuntu wese agura canke agurisha ibintu akoresheje ama bitcoins, harimwo n'abahindura amafaranga, ariko arateza imbere ubutunzi bwa Bitcoin Reka umuntu wese akore uruhara rwiwe Gura canke ugurisha ukoresheje bitcoins!"
 
-Ico gikorwa co guhuza ibikorwa gikorwa ahanini ku mahuriro. Ku wa 27 Mukakaro, umukoresha w'Umuholandi yitwa giik yarashizeho urubuga rwitwa "Twemera Bitcoins" aho yasavye gutanga urutonde rw'ibikorwa bitandukanye vyemera Bitcoin. Muri ico gihe nyene, iryo huriro rishasha ryaratanguye gukundwa cane, kandi ubutumwa buragwira. Ku wa 7 Ruhuhuma, Satoshi [yerekanye] Martti Malmi ko "ihuriro ririko riratera imbere. Sinari niteze ko hari ibikorwa vyinshi vyihuta gutyo."
+Ico gikorwa co guhuza ibikorwa gikorwa ahanini ku mahuriro. Ku wa 27 Nzero, umukoresha w'Umuholandi yitwa giik yarashizeho urubuga rwitwa "Twemera Bitcoins" aho yasavye gutanga urutonde rw'ibikorwa bitandukanye vyemera Bitcoin. Muri ico gihe nyene, iryo huriro rishasha ryaratanguye gukundwa cane, kandi ubutumwa buragwira. Ku wa 7 Ruhuhuma, Satoshi [yerekanye] Martti Malmi ko "ihuriro ririko riratera imbere. Sinari niteze ko hari ibikorwa vyinshi vyihuta gutyo."
 
 
 Ku wa 5 Ruhuhuma, NLS yaratanze igitekerezo ko Bitcoin, nk’ukuntu amadorare acuruzwa ku isoko ry’ivunjisha akoresha ibimenyetso vyabyo, yokwakira ikimenyetso BTC hamwe n’ic’ifaranga rya tayirande (฿). Mbere y’aho, nta buryo bwari bwemewe: nk’akarorero, Satoshi na Martti bakoresha inyuguti `bc` mu kwerekana udufaranga mu biganiro vyabo mu kudondora ibice mu [makete] yabo(https://mmalmi.github.io/Satoshi/#email-119). Ikimenyetso BTC carashizwe mu bikorwa vuba maze kiraba ihame.
@@ -1224,21 +1224,21 @@ Muri iki gice, tuzosuzuma ukuntu Mining yashizweho ubwa mbere n’ikigo gikora a
 ### Gukurura amakuru hakoreshejwe igikoresho c’uguhindura amashusho 
 
 
-Ukwo kwiyongera kw’abashaka Bitcoin kwari kumwe n’ukwiyongera buhoro buhoro kw’ibikorwa vya Mining ku rubuga. Mu mwaka wose wa 2009, ingorane y’uruja n’uruza yari ku rwego rwo hasi cane rwa 1, ivyo bikaba vyasaba ko ama node yose akora imibare nk’imiliyaridi 4,3 kugira ngo ashobore gucukura ibuye. Ariko rero, mu kwezi kwa kigarama 2009, ivyo vyarahindutse kubera ubuhinga bwo guhindura, bwatumye ingorane ziva kuri 1 zija kuri 1,18.
+Ukwo kwiyongera kw’abashaka Bitcoin kwari kumwe n’ukwiyongera buhoro buhoro kw’ibikorwa vya Mining ku rubuga. Mu mwaka wose wa 2009, ingorane y’uruja n’uruza yari ku rwego rwo hasi cane rwa 1, ivyo bikaba vyasaba ko ama node yose akora ibiharuro nk’imiliyaridi 4,3 kugira ngo ashobore gucukura block. Ariko rero, mu kwezi kwa kigarama 2009, ivyo vyarahindutse kubera ubuhinga bwo guhindura, bwatumye ingorane ziva kuri 1 zija kuri 1,18.
 
 
-Satoshi Nakamoto yari ahagaritse umutima cane ku bijanye n’ukwo kwiyongera kw’ingorane kandi yaragumye afise [amateka] ku rubuga rwo gutangura muri Ruhuhuma 2010. Ehe uko vyari bimeze:
+Satoshi Nakamoto yari ahagaritse umutima cane ku bijanye n’ukwo kwiyongera kw’ingorane kandi yaragumye afise [kahise] ku rubuga rwo gutangura muri Ruhuhuma 2010. Ehe uko vyari bimeze:
 
 
 ![Evolution of the difficulty as described by Satoshi Nakamoto on the forum](assets/en/35.webp)
 
 
-Naho hariho uwo munezero ku bijanye n’ukwiyongera kw’ububasha bwo gukoresha ubuhinga bwa none ku rubuga, Satoshi yariko irondera kugabanya ubuhinga bwa Mining kugira ngo ifashe mu gutanga ibice. Gushika ico gihe, abacukuzi b’amabuye y’agaciro barakoresha ibikoresho vyabo vy’ubuhinga bwa none (CPU) kugira ngo bakuremwo amahera mashasha y’ama bitcoins. Ariko rero, izo nzira zagaragaye ko zidakora neza mu gukora ibikorwa bisubiramwo, ugereranije n’ibikoresho bikora ibishushanyo (GPU), ivyo bikaba ari vyo vyiza cane muri ubwo bwoko bw’uguharura gusubiramwo. Ku bw’ivyo, abantu bose, harimwo na Satoshi ubwiwe, bari bazi ico gihe ko iyo nzira y’uguhinduka ataco yari gushobora gukora. Ku wa 19 Kigarama 2009, [yavuze] ati:
+Naho hariho uwo munezero ku bijanye n’ukwiyongera kw’ububasha bwo guharura kurubuga, Satoshi yariko irondera kugabanya ubuhinga bwa Mining kugira ngo afashe kunganisha ibitangwa. Gushika ico gihe, abacukuzi y’agaciro barakoresha ibikoresho vyabo vy’ubuhinga bwa none (CPU) kugira ngo bakuremwo amahera mashasha y’ama bitcoins. Ariko rero, izo nzira zagaragaye ko zidakora neza mu gukora ibikorwa bisubiramwo, ugereranije n’ibikoresho bikora ibikoresho vy'inyabwonko (GPU), ivyo bikaba ari vyo vyiza cane muri ubwo bwoko bw’uguharura gusubiramwo. Ku bw’ivyo, abantu bose, harimwo na Satoshi ubwiwe, bari bazi ico gihe ko iyo nzira y’uguhinduka ataco yari gushobora gukora. Ku wa 19 Kigarama 2009, [yavuze] ati:
 
-"Twabwirizwa kugira amasezerano y'umugabo yo gusubiramwo isiganwa ry'intwaro za GPU igihe cose dushoboye kubera ineza y'urubuga. Biroroshe cane kuronka abakoresha bashasha ku rugero rwo kwihuta iyo badategerezwa kwiganyira ku bijanye n'abashoferi ba GPU n'uguhuza. Ni vyiza ingene umuntu wese afise CPU gusa ashobora guhangana n'abandi."
+"Twabwirizwa kugira amasezerano y'umugabo yo gusubiramwo isiganwa ry'intwaro za GPU igihe cose dushoboye kubera ineza y'urubuga. Biroroshe cane kuronka abakoresha bashasha ku rugero rwo kwihuta iyo badategerezwa kwiganyira ku bijanye n'ubuhinga bwa GPU n'uguhuza. Ni vyiza ingene umuntu wese afise CPU gusa ashobora guhangana n'abandi mu buryo bungana."
 
 
-Ariko rero, haciye amezi makeyi, iyo sandugu ya Pandora yarafunguwe. Uwutera ingorane ni Laszlo Hanyecz, umunyamerika w’imyaka 28 w’umuhinguzi w’ibintu, akomoka muri Hongiriya, aba muri Floride. Yavumbuye Bitcoin muri Ndamukiza 2010. Ku wa 9, [yaronse] 3.300 bitcoins zivuye muri NLS ku madolari nka 20, hanyuma bagerageza iyo sisitemu mu gutanga amafaranga makeyi. Ku wa 18, yaragerageje gutera urubuga mu kugwiza amafaranga akoresheje [Address ya bose] (Address] yiwe, ariko rwarahagaze.
+Ariko rero, haciye amezi makeyi, iyo sandugu ya Pandora yaruguruwe. Uwutera ingorane ni Laszlo Hanyecz, umunyamerika w’imyaka 28 w’umuhinguzi w’ibintu, akomoka muri Hongiriya, aba muri Floride. Yavumbuye Bitcoin muri Ndamukiza 2010. Ku wa 9, [yaronse] 3.300 bitcoins zivuye muri NLS ku madolari nka 20, hanyuma bagerageza iyo sisitemu mu gutanga amafaranga makeyi. Ku wa 18, yaragerageje gutera urubuga ngo arwuzuze mu kugwiza guhanahana no kwakira akoresheje [Address ya bose] (Address] yiwe, ariko biranka urubuga rurirwanako.
 
 
 ![Laszlo Hanyecz with his son in May 2018](assets/en/36.webp)
@@ -1246,40 +1246,41 @@ Ariko rero, haciye amezi makeyi, iyo sandugu ya Pandora yarafunguwe. Uwutera ing
 Laszlo Hanyecz n’umuhungu wiwe muri Rusama 2018 (inkomoko: [Ikinyamakuru Telegraph]
 
 
-Hanyuma, [yarahinduye] kode ya porogarama kugira ngo ikore kuri Mac OS X. Hanyuma akora ku bijanye no gutuma Mining ikora neza akoresheje ibidukikije vya OpenCL, bikaba vyemerera [ugushiramwo GPU] mu gutanga amafaranga y’ibiceri. Ku wa 10 Rusama, yarasohoye [ivyo akora] vyiwe (ivyo akora) kandi [atanga] kugira ngo abikore. Ivyo vyatumye yihuta gufata ikibanza kinini mu guhingura amabuye.
+Hanyuma, [yarahinduye] kode ya porogarama kugira ngo ikore no kuri Mac OS X. Hanyuma akora ku bijanye no gutuma Mining ikora neza akoresheje ibikoresho vya OpenCL, bikaba vyemerera [ugukoresha GPU] mu gutanga amafaranga y’ibiceri. Ku wa 10 Rusama, yarasohoye [progarama yiwe igeze gukoreshwa] hama kandi [agisha inama] kugira ngo akorere hamwe n'abandi kugira abandi bacukuzi nabo bakore nk'ivyo akora. Kubera ivyo bikorwa yakoze vyatumye aronka ikibanza kininimu gukora ama blocks.
 
-Mu mpera z’ukwezi kwa Ndamukiza, Laszlo yarashikirije ubutumwa Satoshi kugira ngo amubaze iciyumviro ciwe, ariko uwo wa nyuma aca amwishura gusa kw’igenekerezo rya 17 Rusama. Uwo muremyi wa Bitcoin yaciye [amusaba](https://www.reddit.com/r/Bitcoin/comments/36vnmr/ng'ivyo_ivyo_satoshi_yandikiye_uwo_mugabo_abishinzwe/) ngo agabanye ibikorwa vyiwe kugira ngo Mining igumye ari umubare munini ushobora gushikirwa n'abanyagihugu bakuru:
+Mu mpera z’ukwezi kwa Ndamukiza, Laszlo yarashikirije ubutumwa Satoshi kugira ngo amubaze iciyumviro ciwe, ariko aca amwishura gusa kw’igenekerezo rya 17 Rusama. Uwo muremyi wa Bitcoin yaciye [amusaba](https://www.reddit.com/r/Bitcoin/comments/36vnmr/ng'ivyo_ivyo_satoshi_yandikiye_uwo_mugabo_abishinzwe/) ngo agabanye ibikorwa vyiwe kugira ngo Mining igumye ishikirwa n'igitigiri kinini c'abantu.
 
-> "Ikintu gikomeye gikwegera abakoresha bashasha ni uko umuntu wese afise mudasobwa ashobora generate amafaranga y'ubuntu. Iyo hari abakoresha 5000, iyo ntumbero yoshobora kuzimangana, ariko ubu, iracari ukuri. GPUs zoshobora guhagarika mbere y'igihe iyo ntumbero ku bafise gusa ibikoresho vya GPU vy'agaciro kanini generated. Ni ho eventulu cPU co ariko sinshaka kwihutisha uwo musi. (...) Sinshaka kuvuga nk’umunyagihugu w’umunyagihugu, sinzi ko ubutunzi bwibanda, ariko ubu, turaronka iterambere ryinshi mu guha ayo mahera abantu 100% kuruta kuyaha 20% Ikindi kandi, uko dushobora gucerezwa na O ra ni ko abantu bazoronka arms nyinshi. Amakarata ya videwo ahuye na OpenCL."
+> "Ikintu gikomeye gikwegera abakoresha bashasha ni uko umuntu wese afise inyabwonko ashobora kuronka amafaranga ku buntu. Niya abakoresha bazokwira 5000, iyo ntumbero yoshobora kuzimangana, ariko ubu, iracari ukuri. GPUs zoshobora guhagarika mbere y'igihe iyo ntumbero ku bafise gusa ibikoresho vya GPU vy'agaciro kanini. Sagaseseshwa rumuri ibiharuro vyo guharura CPU birangira vyigingiyeko ibiceri vyose bikozwe. ariko sinshaka kwihutisha uwo musi. (...) Sinshaka kuvuga nk’umunyagihugu w'umu sosiyalisiti, sinzi ko ubutunzi bwibanda, ariko ubu, turaronka iterambere ryinshi mu guha ayo mahera abantu 100% kuruta kuyaha 20% Ikindi kandi, uko dushobora gucerezwa ko abantu bazoronka ama karata ya CPU menshi ahuye na OpenCL bazorwira."
 
-Laszlo ntiyumvirije iyo ngabisho, aca abandanya gucukura amabuye y’agaciro akoresheje ikarata yiwe y’ibishushanyo, bituma akora ibihumbi mirongo vy’ama bitcoins mu mezi yakurikiye. Ariko rero, GPU Mining ntiyakwiragiye cane gushika mu kwezi kwa Gitugutu.
-
-
-### Amafaranga ya Satoshi
+Laszlo ntiyumvirije iyo mburi, aca abandanya gucukura ama blocks  akoresheje ikarata yiwe CPU, bituma akora ibihumbi mirongo vy’ama bitcoins mu mezi yakurikiye. Ariko rero, GPU Mining ntiyakwiragiye cane gushika mu kwezi kwa Gitugutu.
 
 
-Ukwo kwiyongera kwa Mining na kwo nyene kwaragize ingaruka zikomeye: Satoshi yarahagaritse gukora amabuye. Kuva iyo nzira itanguye, yari Mining kugira ngo abone ko urugendo rwo kwemeza ruhagije n’umutekano wemewe. Kubera ububasha bushasha bwashizweho, yari gushobora rero guheba ico gikorwa maze akareka abandi bagize urubuga bakavyungukirako ku bitcoins vyose vyaremwe.
+### Bitcoins ya Satoshi
 
 
-Ibikorwa vya Satoshi vya Mining birafise uburyo budasanzwe, bikaba bishoboka kumenya amabuye ashobora kuba yasanze afise ibimenyetso bikeyi vy’ibinyoma. Umuhinga mu vy’ubuhinga bwa none yitwa Sergio Lerner yarashize ahabona iyo nzira ya Mining mu 2013 maze ayita iyo nzira ya Patoshi.
+Ukwo kwiyongera kwa Mining na kwo nyene kwaragize ingaruka zikomeye: Satoshi yarahagaritse gukora ama blocks. Kuva urwo rubuga rutanguye, ya Mining kugira ngo abone ko urugendo rwo kwemeza ruhagije n’umutekano wemewe. Kubera ububasha bushasha bwashizweho, yarashoboye rero guheba ico gikorwa maze akareka abandi bagize urubuga bakavyungukirako ku bitcoins vyose vyaremwe.
+
+
+Ibikorwa vya Satoshi vya Mining birafise uburyo budasanzwe, bikaba bishoboka kumenya ama blocks ashobora kuba yasanze afise ibimenyetso bikeyi vy’ibinyoma. Umuhinga mu vy’ubuhinga bwa none yitwa Sergio Lerner yarashize ahabona ikigereranyo ca Mining mu 2013 maze acita ikigererzanyo ca Patoshi.
 
 
 ![Patoshi Pattern between blocks 0 and 50,000](assets/en/37.webp)
 
 
-Igishushanyo ca Patoshi kiri hagati y’ibice 0 n’ibice 50.000, nk’uko bigaragara ku rubuga [satoshiblocks.info](http://satoshiblocks.info/): akarongo kose gahuye n’igice. Imirongo y’ubururu ikozwe mu mabuye ya Satoshi, iyindi mirongo na yo igereranya ivyo abandi bacukuzi b’amabuye y’agaciro basohora.
+Ikigereranyo ca Patoshi kiri hagati y’ibice 0 n’ibice 50.000, nk’uko bigaragara ku rubuga [satoshiblocks.info](http://satoshiblocks.info/): akarongo kose gahuye n’igice. Imirongo y’ubururu ikozwe hisunzwe ama blocks  ya Satoshi, iyindi mirongo na yo igereranya ivyo abandi bacukuzi b’ama blocks bashoboye gukora.
 
 
-Nk’uko bigaragara mu bushakashatsi bwakozwe na Whale Alert bwasohowe mu mwaka w’2020, Satoshi yacukuye amabuye agera ku 22.500, gutyo yirundanira ama bitcoins 1.122.693, ni ukuvuga arenga 5% y’amabuye miliyoni 21 yari yateguwe. Mu kiringo kinini c’umwaka w’2009, iyo nzira yari yizigiye ububasha bwo gukoresha ubuhinga bwa none bw’uwayishinze. Ukwo kwisunga kwagaragajwe muri Myandagaro 2009, igihe kibi kuruta ibindi vyose mu gikorwa ca Mining, kandi vyahuye n'igihe co "guhagarika" ca Satoshi, bishoboka ko atagenzura cane imashini ziwe. Nkako, muri uku kwezi kwa Myandagaro, amabuye 1.564 gusa ni yo yasohotse ku mabuye 4.464 yari yitezwe, ivyo bikaba bihuye n’igihe c’iminota 28 n’amasegonda 30.
+Nk’uko bigaragara mu cirwa c'ubushakashatsi bwakozwe na Whale Alert bwasohowe mu mwaka w’2020, Satoshi yacukuye ama blocks agera ku 22.500, gutyo yirundanira ama bitcoins 1.122.693, ni ukuvuga arenga 5% y’ama Bitcoins
+miliyoni 21 yari yateguwe. Mu kiringo kinini c’umwaka w’2009, iyo nzira yari yizigiye ububasha bwo gukoresha ubuhinga bwa none bwo guharura bw’uwayishinze. Ukwo kwisunga kwagaragajwe muri Myandagaro 2009, igihe kibi kuruta ibindi vyose mu gikorwa ca Mining, kandi vyahuriranye n'igihe co "guhagarika" ca Satoshi, bishoboka ko atagenzura cane imashini ziwe. Nkako, muri uku kwezi kwa Myandagaro, ama blocks 1.564 gusa ni yo yasohotse ku ma blocks 4.464 yari yitezwe, ivyo bikaba bihuye n’igihe c’iminota 28 n’amasegonda 30.
 
 
-Kubera ko ubushobozi bwo gukoresha ubuhinga bwa none bwariyongereye mu mpera z’umwaka w’2009, igice c’ububasha bwo gukoresha ubuhinga bwa none ca Satoshi kigereranywa n’ububasha bwose bwo gukoresha ubuhinga bwa none caragabanutse buhorobuhoro. Yavuye kuri 75% muri Ntwarante 2009 ishika kuri 60% muri Nzero, hanyuma imanuka igera kuri 15% muri Kigarama, ishika kuri 0% muri Rusama. Aha hepfo hariho igishushanyo cakozwe na [Organofcorti] mu mwaka w’2014:
+Kubera ko ubushobozi bwo gukoresha ubuhinga bwa none bwariyongereye mu mpera z’umwaka w’2009, igice c’ububasha bwo gukoresha ubuhinga bwa none bwo guharura bwa satoshi n’ububasha bwose bwo gukoresha ubuhinga bwa none caragabanutse buhorobuhoro. Yavuye kuri 75% muri Ntwarante 2009 ishika kuri 60% muri Nyakanga, hanyuma imanuka igera kuri 15% muri Kigarama, ishika kuri 0% muri Rusama. Aha hepfo hariho igishushanyo cakozwe na [Organofcorti] mu mwaka w’2014:
 
 
 ![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/en/38.webp)
 
 
-Ikindi kandi, ukugabanuka kwa Satoshi mu kuganza kwa Mining si ugukora gusa: aragabanya ibikorwa vyiwe muri ico kiringo nyene. Nkako, intumbero ya Satoshi yavuze ni uko umuntu wese yogira uruhara: ntacukura amabuye y’agaciro kugira ngo aronke inyungu y’amahera, ahubwo ni ukugira ngo abone ko urubuga rukora gushika inkurikizi zitanguye gukora. Gutyo, agabanya igipimo ciwe ca Hash (umubare w’imibare ikorwa ku segonda yose) incuro zitatu muri iki kiringo ca Mining: incuro ya mbere kuva kuri 4,5 gushika kuri 2,5 MH/s muri Ruheshi 2009, ubwa kabiri kuva kuri 2,5 gushika kuri 1 MH/s mu kwezi kwa Gitugutu, ubwa gatatu na Here kuva kuri a/10. igicapo c’iterambere ry’igipimo ciwe ca Hash muri ico kiringo ([Igihimba c’umubiri](Igihimba c’umubiri c’umubiri.
+Ikindi kandi, ukugabanuka kw'ukuganza kwa Satoshi muri Mining si bukebuke gusa: aragabanya ibikorwa vyiwe muri ico kiringo nyene. Nkako, intumbero ya Satoshi yavuze ni uko umuntu wese yogira uruhara: ntacukure kugira aronke amahera gusa, ahubwo ni ukugira ngo abone ko urubuga rukora gushika inkurikizi zitanguye gukora. Gutyo, agabanya igipimo ciwe ca Hash (umubare w’ibiharuro bikorwa ku segonda yose) incuro zitatu muri iki kiringo ca Mining: incuro ya mbere kuva kuri 4,5 gushika kuri 2,5 MH/s muri Ruheshi 2009, ubwa kabiri kuva kuri 2,5 gushika kuri 1 MH/s mu kwezi kwa Gitugutu, ubwa gatatu na Here kuva kuri a/10. igicapo c’iterambere ry’igipimo ciwe ca Hash muri ico kiringo ([Igihimba c’umubiri](Igihimba c’umubiri c’umubiri.
 
 
 ![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/en/39.webp)

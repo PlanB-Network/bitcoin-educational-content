@@ -73,13 +73,13 @@ _The Global Unbanked Population_ _Den globale befolkningen uten bank
 Dette foredraget, **"Hvorfor El Salvador trenger Bitcoin"**, gir en oversikt over **Bitcoin-protokollen**, dens røtter i **Cypherpunk-bevegelsen**, og dens rolle som et verktøy for å muliggjøre **usensurerte penger**, **finansiell inkludering** og mye mer.
 
 
-> **Definisjoner:**
->
+**Definisjoner:**
 
-> - _Bitcoin-protokollen:_ Reglene og strukturen som styrer hvordan Bitcoin fungerer som en desentralisert digital valuta.
-> - _Cypherpunk-bevegelsen:_ En gruppe som tar til orde for bruk av kryptografi for å sikre personvern og frihet i digitale rom.
-> - _Finansiell inkludering:_ Å gi tilgang til finansielle tjenester for mennesker som har vært ekskludert fra tradisjonelle banksystemer, ofte omtalt som "de som ikke har bank"
-> - usensurerte penger: Penger som ikke kan kontrolleres eller begrenses av myndigheter eller finansinstitusjoner.
+
+- _Bitcoin-protokollen:_ Reglene og strukturen som styrer hvordan Bitcoin fungerer som en desentralisert digital valuta.
+- _Cypherpunk-bevegelsen:_ En gruppe som tar til orde for bruk av kryptografi for å sikre personvern og frihet i digitale rom.
+- _Finansiell inkludering:_ Å gi tilgang til finansielle tjenester for mennesker som har vært ekskludert fra tradisjonelle banksystemer, ofte omtalt som "de som ikke har bank"
+- usensurerte penger: Penger som ikke kan kontrolleres eller begrenses av myndigheter eller finansinstitusjoner.
 
 #### Rickys bakgrunn og Bitcoin-engasjement
 
@@ -102,11 +102,11 @@ I autoritære regimer, der økonomisk undertrykkelse er vanlig, gjør Bitcoins *
 Til tross for potensialet står Bitcoin overfor betydelige utfordringer. I områder som Afrika og India mangler det ofte grunnleggende infrastruktur som elektrisitet og internettilgang, noe som begrenser utbredelsen. Dessuten er **digital inkludering** - å sikre at folk i alle aldre og på alle utdanningsnivåer kan bruke teknologien - fortsatt et stort hinder.
 
 
-> **Definisjoner:**
->
+**Definisjoner:**
 
-> - _Private nøkler:_ Hemmelige koder som gir tilgang til en brukers Bitcoin.
-> - _Åpen kildekode:_ Programvare som hvem som helst kan inspisere, endre og forbedre.
+
+- _Private nøkler:_ Hemmelige koder som gir tilgang til en brukers Bitcoin.
+- _Åpen kildekode:_ Programvare som hvem som helst kan inspisere, endre og forbedre.
 
 ### Tilfellet El Salvador
 
@@ -135,10 +135,10 @@ Oppsummert kan vi si at Bitcoin er en lovende løsning for økonomisk myndiggjø
 **Cypherpunk-bevegelsen** oppsto på slutten av 1900-tallet, og tok til orde for personvern og frihet ved hjelp av kryptografi. Pionerer som **Eric Hughes** og **Tim May** mente at sterk kryptering var avgjørende for å beskytte den personlige friheten i en digital verden. Deres ideer hadde stor innflytelse på etableringen av Bitcoin.
 
 
-> **Definisjon:**
->
+**Definisjon:**
 
-> - _Cypherpunk:_ En bevegelse som fremmer personvern og frihet ved hjelp av kryptografi.
+
+- _Cypherpunk:_ En bevegelse som fremmer personvern og frihet ved hjelp av kryptografi.
 
 #### Østerriksk økonomi
 
@@ -146,10 +146,10 @@ Oppsummert kan vi si at Bitcoin er en lovende løsning for økonomisk myndiggjø
 Samtidig la **Østerriksk økonomi** grunnlaget for Bitcoins monetære prinsipper. Økonomer som **Ludwig von Mises** og **Friedrich Hayek** argumenterte for at sunne penger skulle være knappe, holdbare og et godt verdioppbevaringsmiddel - kjerneprinsipper som formet utformingen av Bitcoin.
 
 
-> **Definisjon:**
->
+**Definisjon:**
 
-> - knapphet:_ Begrenset tilgjengelighet, noe som skaper verdi gjennom behovet for nøye allokering.
+
+- knapphet:_ Begrenset tilgjengelighet, noe som skaper verdi gjennom behovet for nøye allokering.
 
 ### Bitcoins tilblivelse
 
@@ -157,10 +157,10 @@ Samtidig la **Østerriksk økonomi** grunnlaget for Bitcoins monetære prinsippe
 **Satoshi Nakamoto** kombinerte disse ideene for å skape Bitcoin i 2008 som en desentralisert, sensurresistent digital valuta. Ved å kombinere Cypherpunks idealer om personvern med østerrikske prinsipper om sunne penger, tilbyr Bitcoin et finanssystem som utfordrer tradisjonelle banker og statlig kontroll.
 
 
-> **Definisjon:**
->
+**Definisjon:**
 
-> - _Censurresistente:_ Penger som ikke kan kontrolleres eller blokkeres av eksterne krefter.
+
+- _Censurresistente:_ Penger som ikke kan kontrolleres eller blokkeres av eksterne krefter.
 
 #### Viktige økonomiske prinsipper
 
@@ -171,11 +171,11 @@ Samtidig la **Østerriksk økonomi** grunnlaget for Bitcoins monetære prinsippe
 - Sparing:** Lagring av verdier for fremtidige behov, noe som fører til investeringer og innovasjon.
 
 
-> **Definisjoner:**
->
+**Definisjoner:**
 
-> - _Tidspreferanse:_ Verdsettelse av nåværende goder fremfor fremtidige.
-> - _Saving:_ Lagring av verdi for fremtidig bruk.
+
+- _Tidspreferanse:_ Verdsettelse av nåværende goder fremfor fremtidige.
+- _Saving:_ Lagring av verdi for fremtidig bruk.
 
 ### Bitcoin i El Salvador
 
@@ -243,11 +243,11 @@ Bitcoin er avhengig av **digitale signaturer** som bruker **elliptisk kurvekrypt
 **Satoshi Nakamoto**, Bitcoins pseudonyme opphavsmann, videreutviklet disse ideene ved å overføre PoW-modellen til en desentralisert **Blockchain**. Dette gjorde det mulig for et distribuert nettverk av noder å validere og registrere transaksjoner uten en sentral myndighet, noe som markerte en betydelig utvikling fra tidligere forsøk på digital valuta.
 
 
-> **Definisjoner:**
->
+**Definisjoner:**
 
-> - _Proof-of-Work (PoW):_ Et system der deltakerne må løse regneoppgaver for å validere transaksjoner og sikre nettverket.
-> - _Elliptisk kurvekryptografi:_ En kryptografisk metode som muliggjør sikre og effektive digitale signaturer.
+
+- _Proof-of-Work (PoW):_ Et system der deltakerne må løse regneoppgaver for å validere transaksjoner og sikre nettverket.
+- _Elliptisk kurvekryptografi:_ En kryptografisk metode som muliggjør sikre og effektive digitale signaturer.
 
 ### Blockchain-mekanikk og transaksjonsvalidering
 
@@ -264,12 +264,12 @@ Hver **blokk** i Blockchain består av en **header** (med data som den forrige b
 Før transaksjonene inkluderes i en blokk, befinner de seg i **Mempool**, der de venter på validering. Når de er validert, blir transaksjonene lagt til i den nylig utvunnede blokken og deretter i Blockchain.
 
 
-> **Definisjoner:**
->
+**Definisjoner:**
 
-> - _Mining:_ Prosessen med å løse kryptografiske gåter for å legge til nye blokker i Blockchain.
-> - _Nonce:_ En verdi som brukes til å finne riktig Hash under Mining.
-> - _Mempool:_ Et venteområde for ubekreftede transaksjoner før de legges til i en blokk.
+
+- _Mining:_ Prosessen med å løse kryptografiske gåter for å legge til nye blokker i Blockchain.
+- _Nonce:_ En verdi som brukes til å finne riktig Hash under Mining.
+- _Mempool:_ Et venteområde for ubekreftede transaksjoner før de legges til i en blokk.
 
 ### Skalerbarhet, personvern og utvikling i Bitcoin
 
@@ -283,12 +283,12 @@ Bitcoin står overfor utfordringer knyttet til skalerbarhet og personvern. Den b
 Bitcoin har blitt utviklet for å forbedre ytelse og sikkerhet. Blant de viktigste oppgraderingene er **Segregated Witness (SegWit)**, som tar for seg transaksjonsfeil og øker den effektive blokkstørrelsen, og **Taproot**, som forbedrer personvernet og gir mulighet for mer komplekse kontrakter ved hjelp av **Merkleized Abstract Syntax Trees (MAST)**.
 
 
-> **Definisjoner:**
->
+**Definisjoner:**
 
-> - _SegWit:_ En Bitcoin-oppgradering som skiller signaturdata fra transaksjonsdata, noe som forbedrer effektiviteten.
-> - _Taproot:_ En oppgradering som forbedrer Bitcoins personvern og skalerbarhet ved å muliggjøre mer komplekse smartkontrakter.
-> - _Lightning Network:_ En annen Layer-løsning for raskere og billigere Bitcoin-transaksjoner ved hjelp av betalingskanaler.
+
+- _SegWit:_ En Bitcoin-oppgradering som skiller signaturdata fra transaksjonsdata, noe som forbedrer effektiviteten.
+- _Taproot:_ En oppgradering som forbedrer Bitcoins personvern og skalerbarhet ved å muliggjøre mer komplekse smartkontrakter.
+- _Lightning Network:_ En annen Layer-løsning for raskere og billigere Bitcoin-transaksjoner ved hjelp av betalingskanaler.
 
 #### Konklusjon
 
@@ -316,11 +316,11 @@ I dette foredraget avliver vi vanlige myter rundt **Bitcoin**, **blokkjeder** og
 En vanlig misforståelse er at **Bitcoin** og **Blockchain** er det samme. Mens Bitcoin er en digital valuta, er **Blockchain** teknologien som driver den. Blokkjeder gir en verifisert oversikt over transaksjoner, men kommer med ulemper som lavere hastigheter og høyere kostnader, noe løsninger som **Lightning Network** Address.
 
 
-> **Definisjoner:**
->
+**Definisjoner:**
 
-> - _Blockchain:_ Den underliggende teknologien som brukes til å registrere transaksjoner i en desentralisert, uforanderlig Ledger.
-> - _Lightning Network:_ En annen Layer-løsning som forbedrer Bitcoins transaksjonseffektivitet ved å muliggjøre off-chain-transaksjoner.
+
+- _Blockchain:_ Den underliggende teknologien som brukes til å registrere transaksjoner i en desentralisert, uforanderlig Ledger.
+- _Lightning Network:_ En annen Layer-løsning som forbedrer Bitcoins transaksjonseffektivitet ved å muliggjøre off-chain-transaksjoner.
 
 ### Bitcoin vs. Crypto
 
@@ -328,10 +328,10 @@ En vanlig misforståelse er at **Bitcoin** og **Blockchain** er det samme. Mens 
 En annen viktig forskjell er at **Bitcoin** ble opprettet med det ene formålet å tilby en desentralisert, sensurresistent form for penger, uten kontroll fra noe selskap eller noen myndighet. I motsetning til dette er kryptovalutaer **shitcoins** ofte designet med sentralisert kontroll, og eksisterer først og fremst for å berike selskapene bak dem gjennom rovpraksis, pump-and-dump-ordninger eller regelrett svindel. Disse tokens tjener vanligvis ikke noe genuint formål utover å gi skaperne en rask fortjeneste på bekostning av uinformerte investorer. Bitcoin står imidlertid alene som den eneste virkelig desentraliserte digitale valutaen med dokumentert sikkerhet og robusthet.
 
 
-> **Definisjoner:**
->
+**Definisjoner:**
 
-> - _Shitcoins:_ Shitcoins er kryptovalutaer med lav verdi eller tvilsom kvalitet som mangler reell nytteverdi. De er ofte svært spekulative og opprettes noen ganger for bedragerske formål eller uten et klart formål, og utnytter boomen i kryptovalutamarkedet.
+
+- _Shitcoins:_ Shitcoins er kryptovalutaer med lav verdi eller tvilsom kvalitet som mangler reell nytteverdi. De er ofte svært spekulative og opprettes noen ganger for bedragerske formål eller uten et klart formål, og utnytter boomen i kryptovalutamarkedet.
 
 ![Image](assets/en/005.webp)
 
@@ -342,10 +342,10 @@ En annen viktig forskjell er at **Bitcoin** ble opprettet med det ene formålet 
 En av de vanligste kritikkene mot Bitcoin er dens **energiforbruk**. Selv om Bitcoin Mining bruker energi, står den for mindre enn 1 % av det globale strømforbruket og mindre enn 3 % av den bortkastede energien. I tillegg utnytter **Bitcoin Mining** ofte ubrukte eller fornybare energikilder, noe som gjør den grønnere enn det som ofte fremstilles.
 
 
-> **Definisjoner:**
->
+**Definisjoner:**
 
-> - _Bitcoin Mining:_ Prosessen med å validere transaksjoner og sikre nettverket ved å løse kryptografiske gåter, noe som krever datakraft.
+
+- _Bitcoin Mining:_ Prosessen med å validere transaksjoner og sikre nettverket ved å løse kryptografiske gåter, noe som krever datakraft.
 
 ### Misoppfatninger om kriminell bruk
 
@@ -359,10 +359,10 @@ Bitcoin blir ofte kritisert for å bli brukt i kriminelle aktiviteter. Blockchai
 **Privatliv** og **fungibilitet** er viktige funksjoner i Bitcoin. Personvern beskytter brukere i undertrykkende regimer, og fungibilitet sikrer at alle Bitcoin er like, uavhengig av historikk. Dette gjør Bitcoin til en pålitelig og rettferdig form for penger.
 
 
-> **Definisjoner:**
->
+**Definisjoner:**
 
-> - _Soppbarhet:_ Egenskapen til penger der hver enhet kan byttes ut med en annen, noe som sikrer lik verdi.
+
+- _Soppbarhet:_ Egenskapen til penger der hver enhet kan byttes ut med en annen, noe som sikrer lik verdi.
 
 ### Håndtering av FUD og markedsdynamikk
 
@@ -2956,7 +2956,7 @@ Det finnes ulike Lightning-lommebøker, og hver av dem er tilpasset ulike bruker
 - Funksjoner**: Nettleserutvidelse, åpen kildekode, støtter både modeller med og uten forvalteransvar, noe som øker allsidigheten.
 
 
-#### Breeze:
+#### Breez:
 
 
 
@@ -2967,7 +2967,7 @@ Det finnes ulike Lightning-lommebøker, og hver av dem er tilpasset ulike bruker
 
 
 
-- Funksjoner**: I likhet med Breeze, bruker en LSP-modell for likviditet, åpen kildekode, fokuserer på brukervennlighet og effektiv likviditetsstyring.
+- Funksjoner**: I likhet med Breez, bruker en LSP-modell for likviditet, åpen kildekode, fokuserer på brukervennlighet og effektiv likviditetsstyring.
 
 
 #### Åpne Bitcoin Wallet (OBW):
@@ -2985,7 +2985,7 @@ Lommebøker kan klassifiseres basert på hvem som har de private nøklene og hve
 
 
 - Depotlommebøker**: Tredjeparter har private nøkler, og tilbyr vanligvis automatisk likviditetsstyring. Eksempler inkluderer Wallet eller Satoshi.
-- Lommebøker som ikke er depotlommebøker**: Brukerne har private nøkler, og kan kreve manuell likviditetsstyring. Eksempler inkluderer Breeze og OBW.
+- Lommebøker som ikke er depotlommebøker**: Brukerne har private nøkler, og kan kreve manuell likviditetsstyring. Eksempler inkluderer Breez og OBW.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -3096,11 +3096,11 @@ Utviklere står overfor utfordringen med å implementere sømløs likviditetssty
 - Mulige løsninger**: Utviklere utforsker avanserte algoritmer for **likviditetsruting** og bruk av **dobbeltfinansierte kanaler** for å sikre at likviditet er tilgjengelig i begge ender av en transaksjon.
 
 
-> **Definisjoner**:
->
+**Definisjoner**:
 
-> - **Likviditet**: Tilgjengeligheten av midler i en Lightning-kanal for å utføre eller motta betalinger.
-> - **LSP (Lightning Service Provider)**: En tjeneste som hjelper brukerne med å administrere likviditet og kanaler på Lightning Network.
+
+- **Likviditet**: Tilgjengeligheten av midler i en Lightning-kanal for å utføre eller motta betalinger.
+- **LSP (Lightning Service Provider)**: En tjeneste som hjelper brukerne med å administrere likviditet og kanaler på Lightning Network.
 
 ---
 
@@ -3129,12 +3129,12 @@ Utviklerne har i oppgave å abstrahere kompleksiteten i L1 og L2 for brukerne, o
 - Mulige løsninger**: Utviklerne jobber med funksjoner som **spleising** (som gjør det mulig å legge til eller fjerne midler fra en kanal uten å stenge den) og automatiske verktøy for kanaladministrasjon.
 
 
-> **Definisjoner**:
->
+**Definisjoner**:
 
-> - **L1 (Layer 1)**: Bitcoin's hoved Blockchain Layer.
-> - **L2 (Layer 2)**: Lightning Network, som opererer på toppen av Bitcoin for å muliggjøre raskere og billigere transaksjoner.
-> - **Spleising**: En teknikk som gjør det mulig å endre balansen i en Lightning-kanal uten å måtte stenge den.
+
+- **L1 (Layer 1)**: Bitcoin's hoved Blockchain Layer.
+- **L2 (Layer 2)**: Lightning Network, som opererer på toppen av Bitcoin for å muliggjøre raskere og billigere transaksjoner.
+- **Spleising**: En teknikk som gjør det mulig å endre balansen i en Lightning-kanal uten å måtte stenge den.
 
 ---
 
@@ -3163,11 +3163,11 @@ Utviklere utforsker måter å gjøre det mulig for brukere å motta Lightning-be
 - Mulige løsninger**: Det pågår forskning på **offline-betalingskuponger**, som vil gjøre det mulig for mottakerne å kreve utbetalinger når de kobler seg til nettverket igjen.
 
 
-> **Definisjoner**:
->
+**Definisjoner**:
 
-> - **Offline betalinger**: Betalinger som sendes eller mottas mens den ene parten ikke er koblet til Lightning Network.
-> - **Frihetsberøvende lommebøker**: Lommebøker der en tredjepart kontrollerer de private nøklene og håndterer transaksjoner på vegne av brukeren.
+
+- **Offline betalinger**: Betalinger som sendes eller mottas mens den ene parten ikke er koblet til Lightning Network.
+- **Frihetsberøvende lommebøker**: Lommebøker der en tredjepart kontrollerer de private nøklene og håndterer transaksjoner på vegne av brukeren.
 
 ---
 
@@ -3196,10 +3196,10 @@ Utviklere må implementere sikkerhetskopiløsninger som gjør det mulig for bruk
 - Mulige løsninger**: *det er utviklet *Static Channel Backups (SCB)** for å forenkle gjenoppretting, men det er behov for mer avanserte løsninger for helautomatisk og sikker sikkerhetskopiering.
 
 
-> **Definisjoner**:
->
+**Definisjoner**:
 
-> - **Statisk kanalsikkerhetskopiering (SCB)**: En type sikkerhetskopi som gjør det mulig for brukere å gjenopprette pengene sine fra en Lightning-kanal i tilfelle feil ved å gjenopprette kanalens siste tilstand.
+
+- **Statisk kanalsikkerhetskopiering (SCB)**: En type sikkerhetskopi som gjør det mulig for brukere å gjenopprette pengene sine fra en Lightning-kanal i tilfelle feil ved å gjenopprette kanalens siste tilstand.
 
 ---
 
@@ -3293,7 +3293,7 @@ blinded-baner er utformet for å forbedre mottakerens personvern i Lightning Net
 
 **Lightning Service Providers (LSP-er)**
 
-Lightning Service Providers (LSP-er) er utviklet av Breeze Wallet og har som mål å forbedre brukeropplevelsen ved å muliggjøre øyeblikkelig mottak. LSP-er åpner kanaler for brukerne, på samme måte som internettleverandører tilbyr tilkoblingstjenester. Denne innovasjonen forenkler brukerens oppstartsprosess og sikrer sømløse interaksjoner på Lightning Network.
+Lightning Service Providers (LSP-er) er utviklet av Breez Wallet og har som mål å forbedre brukeropplevelsen ved å muliggjøre øyeblikkelig mottak. LSP-er åpner kanaler for brukerne, på samme måte som internettleverandører tilbyr tilkoblingstjenester. Denne innovasjonen forenkler brukerens oppstartsprosess og sikrer sømløse interaksjoner på Lightning Network.
 
 
 **Ressurser for å holde deg oppdatert**
@@ -3342,12 +3342,12 @@ Tradisjonelle fakturaer har imidlertid sine begrensninger. For eksempel:
 - Begrensninger i størrelse**: Store fakturaer kan være vanskelige å håndtere i QR-kodeform, noe som gjør dem upraktiske for visse bruksområder.
 
 
-> **Definisjoner**:
->
+**Definisjoner**:
 
-> - **Invoice**: En betalingsanmodning i Lightning Network, som vanligvis inneholder beløp og mottakeropplysninger.
-> - **HTLC (Hash tidslåst Contract)**: En type Smart contract som brukes for å sikre betingede betalinger innen en tidsfrist.
-> - **Løkruting**: En personvernteknikk der transaksjonsdata legges i lag som en løk for å beskytte identiteten til avsender og mottaker.
+
+- **Invoice**: En betalingsanmodning i Lightning Network, som vanligvis inneholder beløp og mottakeropplysninger.
+- **HTLC (Hash tidslåst Contract)**: En type Smart contract som brukes for å sikre betingede betalinger innen en tidsfrist.
+- **Løkruting**: En personvernteknikk der transaksjonsdata legges i lag som en løk for å beskytte identiteten til avsender og mottaker.
 
 ### Protokoller og brukstilfeller
 
@@ -3374,15 +3374,15 @@ En annen protokoll, **RGB**, utvider Lightnings funksjonalitet ytterligere ved �
 **Lightning Liquidity Service Providers (LSP-er)** spiller også en avgjørende rolle i utvidelsen av Lightning-betalinger. LSP-er tilbyr likviditet for mottak av betalinger, hjelper til med å åpne **dualfinansierte kanaler** og sørger for sømløse transaksjoner ved å avskjære betalinger og åpne kanaler underveis.
 
 
-> **Definisjoner**:
->
+**Definisjoner**:
 
-> - **LNURL**: En protokoll som gjør det mulig å opprette dynamiske Invoice, noe som gjør betalinger enklere og mer fleksible.
-> - **Bolt 12**: En utvidelse av Lightning som utnytter Onion-meldinger for personvern og samtidig automatiserer henting av Invoice.
-> - **Nostr**: En desentralisert plattform som integrerer LProtocols og Use Cases
-> tterfølgende betalinger for mikrotransaksjoner.
-> - **RGB-protokoll**: En protokoll som muliggjør overføring av eiendeler, som tokens, over Lightning Network.
-> - **LSP (Lightning Service Provider)**: En enhet som tilbyr likviditet og åpner kanaler for Lightning-transaksjoner, noe som gjør nettverket mer tilgjengelig for brukerne.
+
+- **LNURL**: En protokoll som gjør det mulig å opprette dynamiske Invoice, noe som gjør betalinger enklere og mer fleksible.
+- **Bolt 12**: En utvidelse av Lightning som utnytter Onion-meldinger for personvern og samtidig automatiserer henting av Invoice.
+- **Nostr**: En desentralisert plattform som integrerer LProtocols og Use Cases
+- tterfølgende betalinger for mikrotransaksjoner.
+- **RGB-protokoll**: En protokoll som muliggjør overføring av eiendeler, som tokens, over Lightning Network.
+- **LSP (Lightning Service Provider)**: En enhet som tilbyr likviditet og åpner kanaler for Lightning-transaksjoner, noe som gjør nettverket mer tilgjengelig for brukerne.
 
 ### Forretningsmodeller og avanserte protokoller
 
@@ -3405,12 +3405,12 @@ Avanserte protokoller som **Point Time-Locked Contracts (PTLCs)** tar Lightning 
 Protokoller som **LNURL** og **Bolt 12** effektiviserer betalinger ved å redusere manuelle interaksjoner, noe som sikrer at Lightning Network blir mer brukervennlig og tatt i bruk av mange.
 
 
-> **Definisjoner**:
->
+**Definisjoner**:
 
-> - **PTLC (Point Time-Locked Contract)**: En kryptografisk primitivitet som forbedrer HTLC, og som muliggjør mer fleksible og sikre betalinger.
-> - **Pre-bilde**: En verdi som brukes til å låse opp en HTLC, og som også kan fungere som en tilgangsnøkkel for tjenester.
-> - **Auksjonsmodell**: En betalingsmodell der betalinger holdes i bero under en auksjon og frigjøres først når det høyeste budet er akseptert.
+
+- **PTLC (Point Time-Locked Contract)**: En kryptografisk primitivitet som forbedrer HTLC, og som muliggjør mer fleksible og sikre betalinger.
+- **Pre-bilde**: En verdi som brukes til å låse opp en HTLC, og som også kan fungere som en tilgangsnøkkel for tjenester.
+- **Auksjonsmodell**: En betalingsmodell der betalinger holdes i bero under en auksjon og frigjøres først når det høyeste budet er akseptert.
 
 ### Konklusjon
 

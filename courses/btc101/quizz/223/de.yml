@@ -1,10 +1,9 @@
-question: Was ermöglicht das Lightning-Netzwerk?
-answer: Transaktionen zwischen Personen, die keine direkte Kanalverbindung haben.
+question: Wie heißen die auf Liquid verwendeten Bitcoins?
+answer: L-BTC
 wrong_answers:
-  - Nur direkte Kanalverbindungen mit zentralisierten Börsen zu erstellen.
-  - Kanalverbindungen zu erstellen, die für jede Transaktion mehrere Bestätigungen erfordern.
-  - Direkte Kanalverbindungen zu etablieren, die nur auf große Transaktionen beschränkt sind.
+  - W-BTC
+  - S-BTC
+  - T-BTC
 explanation: |
-  Das Lightning-Netzwerk ermöglicht es, Transaktionen zwischen
-  Personen durchzuführen, die keine direkte Kanalverbindung haben.
-reviewed: true
+  Auf Liquid werden Bitcoins als L-BTC dargestellt, die 1:1 an BTC gekoppelt sind.
+reviewed: false

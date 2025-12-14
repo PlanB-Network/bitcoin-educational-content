@@ -1,5 +1,5 @@
 ---
-name: ترمینال آشیگارو
+name: Ashigaru Terminal
 description: از Ashigaru روی دسکتاپ برای انجام کوین‌جوین‌ها استفاده کنید
 ---
 

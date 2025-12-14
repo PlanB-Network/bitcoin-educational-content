@@ -1,5 +1,5 @@
 ---
-name: 月亮
+name: Moon
 description: 在接受 Visa 銀行卡的地方使用比特幣支付。
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: UruvyaroOS
+name: LineageOS
 description: Ubuntu, uburyo bwo gukoresha Android butagira amaboko kuri telefone ngendanwa
 ---
 

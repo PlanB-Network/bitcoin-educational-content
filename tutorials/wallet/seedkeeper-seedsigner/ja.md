@@ -1,5 +1,5 @@
 ---
-name: シードキーパー×シードシグナー
+name: Seedkeeper x SeedSigner
 description: SeedSignerとSeedkeeperの併用方法は？
 ---
 

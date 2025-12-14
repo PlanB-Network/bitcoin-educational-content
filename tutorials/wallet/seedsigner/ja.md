@@ -1,5 +1,5 @@
 ---
-name: シードシグナー
+name: SeedSigner
 description: DIY、ステートレス、手頃な価格、完全エアギャップのwalletハードウェア
 ---
 

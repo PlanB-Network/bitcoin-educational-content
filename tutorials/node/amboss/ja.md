@@ -1,5 +1,5 @@
 ---
-name: アンボス
+name: Amboss
 description: Lightning Networkの探索と分析
 ---
 

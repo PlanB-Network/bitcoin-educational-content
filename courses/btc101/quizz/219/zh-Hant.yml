@@ -1,8 +1,9 @@
-question: Lightning Network 會建立什麼樣的網路？
-answer: 付款管道網路。
+question: 本章所描述的比特幣演進採用了哪種結構化方法？
+answer: 分層演進
 wrong_answers:
-  - 由 Mining 節點組成的網路。
-  - 由 Blockchain 節點組成的網路。
-  - 加密貨幣交易所網絡。
-explanation: >-
-reviewed: true
+  - 單體區塊鏈
+  - 原生分片
+  - 通用鏈上執行
+explanation: |
+  比特幣保留了簡單而穩健的基礎層，而更高層的協議則加入特定功能。
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: Měsíc
+name: Moon
 description: Platit bitcoiny můžete všude, kde jsou přijímány bankovní karty Visa.
 ---
 

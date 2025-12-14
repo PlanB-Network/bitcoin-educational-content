@@ -1,5 +1,5 @@
 ---
-name: Bitcoin 키퍼 - 상속 계획
+name: Bitcoin Keeper - 상속 계획
 description: 탭시그나이저와 함께 Bitcoin 키퍼 Wallet를 설정하고 사용하여 상속 계획을 생성하세요
 ---
 

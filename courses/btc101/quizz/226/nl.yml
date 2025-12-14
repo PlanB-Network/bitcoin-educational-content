@@ -1,8 +1,0 @@
-question: Wat is het belangrijkste doel van de Lightning Network?
-answer: Om microtransacties mogelijk te maken.
-wrong_answers:
-  - Om de waarde van Bitcoin te verhogen.
-  - Om het Bitcoin protocol te vervangen.
-  - Een nieuwe cryptocurrency maken.
-explanation: >-
-reviewed: true

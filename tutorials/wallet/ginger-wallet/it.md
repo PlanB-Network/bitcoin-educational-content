@@ -1,5 +1,5 @@
 ---
-name: Zenzero Wallet
+name: Ginger Wallet
 description: Software Bitcoin wallet, fork da Wasabi Wallet, integrazione di Coinjoins
 ---
 ![cover](assets/cover.webp)

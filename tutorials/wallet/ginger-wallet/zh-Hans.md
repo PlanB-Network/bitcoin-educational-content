@@ -1,5 +1,5 @@
 ---
-name: 姜 Wallet
+name: Ginger Wallet
 description: 开源、自我保管的 Bitcoin wallet 软件，来自 Wasabi Wallet 的 fork，整合 Coinjoins
 ---
 ![cover](assets/cover.webp)

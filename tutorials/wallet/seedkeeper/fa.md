@@ -1,5 +1,5 @@
 ---
-name: بذرنگهدار
+name: Seedkeeper
 description: چگونه می‌توانم wallet Bitcoin خود را با کارت هوشمند Seedkeeper پشتیبان‌گیری کنم؟
 ---
 

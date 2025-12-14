@@ -1,8 +1,9 @@
-question: Je, miamala kwenye Lightning Network inalindwa vipi?
-answer: Kupitia cryptography na kwa njia isiyo ya moja kwa moja kupitia nishati inayotumiwa na wachimbaji kwenye Bitcoin.
+question: Ni kanuni ipi kuu ya RGB?
+answer: Uthibitishaji upande wa mteja
 wrong_answers:
-  - Kupitia matumizi ya funguo za kibinafsi tu.
-  - Kupitia matumizi ya funguo za umma pekee.
-  - Kupitia matumizi ya funguo za kibinafsi na za umma pekee.
-explanation: >-
-reviewed: true
+  - Utekelezaji wa kimataifa kwenye blockchain
+  - Makubaliano ya shirikisho
+  - Proof-of-Work
+explanation: |
+  RGB inategemea uthibitishaji wa hali za ndani, huku blockchain ikitumika tu kama nanga ya kriptografia na ulinzi dhidi ya matumizi mara mbili.
+reviewed: false

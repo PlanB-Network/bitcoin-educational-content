@@ -1,5 +1,5 @@
 ---
-name: スタッシュペイ
+name: StashPay
 description: ミニマリストのためのBitcoin Wallet
 ---
 

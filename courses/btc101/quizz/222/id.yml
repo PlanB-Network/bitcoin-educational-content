@@ -1,9 +1,9 @@
-question: Bagaimana transaksi di Lightning Network diamankan?
-answer: Melalui kriptografi dan secara tidak langsung melalui energi yang dikonsumsi oleh penambang di Bitcoin.
+question: Apa prinsip utama RGB?
+answer: Validasi sisi klien
 wrong_answers:
-  - Hanya melalui penggunaan kunci privat.
-  - Hanya melalui penggunaan kunci publik.
-  - Hanya melalui penggunaan kedua kunci privat dan publik.
-explanation: >-
-  Transaksi di Lightning Network diamankan melalui kriptografi dan secara tidak langsung melalui energi yang dikonsumsi oleh penambang di Bitcoin.
+  - Eksekusi global di blockchain
+  - Konsensus terfederasi
+  - Proof-of-Work
+explanation: |
+  RGB bergantung pada validasi lokal atas status, dengan blockchain hanya berfungsi sebagai jangkar kriptografis dan perlindungan terhadap pengeluaran ganda.
 reviewed: false

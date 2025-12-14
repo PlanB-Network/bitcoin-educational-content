@@ -1,4 +1,4 @@
-question: Какво позволява синхронизиране на данни в реално време между системите Enterprise Bitcoin и софтуера ERP?
+question: Какво позволява синхронизиране на данни в реално време между Enterprise Bitcoin системите и ERP софтуерите?
 answer: API
 wrong_answers:
   - CSV файлове

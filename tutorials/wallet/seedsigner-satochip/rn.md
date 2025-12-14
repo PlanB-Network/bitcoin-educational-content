@@ -1,5 +1,5 @@
 ---
-name: Satochip x Umusinyi w'Imbuto
+name: Satochip x SeedSigner
 description: Ni gute wokoresha Satochip n’Imbuto yawe?
 ---
 

@@ -140,7 +140,8 @@ proofreading:
     contributor_names:
     reward: 0.21
   - language: bg
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 0.18
+      - dnabg
+    reward: 0.09

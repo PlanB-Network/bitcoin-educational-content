@@ -1,5 +1,5 @@
 ---
-name: Sarafu
+name: Coinos
 description: Programu rahisi ya wavuti ya kutuma, kupokea na kukubali malipo ya bitcoin.
 ---
 ![cover](assets/cover.webp)

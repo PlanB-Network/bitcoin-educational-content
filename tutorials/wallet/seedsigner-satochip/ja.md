@@ -1,5 +1,5 @@
 ---
-name: サトキップ×シードシグナー
+name: Satochip x SeedSigner
 description: SeedSignerでSatochipを使うには？
 ---
 

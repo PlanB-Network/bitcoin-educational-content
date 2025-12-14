@@ -1,5 +1,5 @@
 ---
-name: Gâteau Wallet
+name: Cake Wallet
 description: Tutoriel sur le Cake Wallet et les paiements silencieux
 ---
 

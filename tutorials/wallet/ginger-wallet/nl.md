@@ -1,5 +1,5 @@
 ---
-name: Gember Wallet
+name: Ginger Wallet
 description: Open-source, zelfbehoudende Bitcoin wallet software, fork van Wasabi Wallet, integratie van Coinjoins
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Terminal de Ashigaru
+name: Ashigaru Terminal
 description: Utilizar o Ashigaru no ambiente de trabalho para fazer coinjoins
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: 시드 서명자
+name: SeedSigner
 description: DIY, 무국적, 경제적인, 완전 에어 갭 wallet 하드웨어
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: BTCPay-server
+name: BTCPay Server
 description: Godta BTC-betalinger uten mellomledd
 ---
 

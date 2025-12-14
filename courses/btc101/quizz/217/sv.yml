@@ -1,8 +1,9 @@
-question: Vad ger Lightning Network möjlighet till?
-answer: Omedelbara Bitcoin-transaktioner till låg kostnad.
+question: Vad är huvudsyftet med Lightning Network?
+answer: Att möjliggöra offchain-betalningar som är snabba och billiga
 wrong_answers:
-  - Omedelbara Bitcoin-transaktioner med höga kostnader.
-  - Försenade Bitcoin-transaktioner till låg kostnad.
-  - Försenade Bitcoin-transaktioner med höga kostnader.
-explanation: >-
-reviewed: true
+  - Att öka blockstorleken i Bitcoin-blockkedjan
+  - Att gradvis ersätta Bitcoin-blockkedjan med ett mer effektivt system
+  - Att göra gruvfarmar mycket rika
+explanation: |
+  Lightning Network syftar till att möjliggöra nästan omedelbara bitcoin-betalningar med låga avgifter utan att belasta huvudblockkedjan.
+reviewed: false

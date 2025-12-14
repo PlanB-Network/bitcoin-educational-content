@@ -13,11 +13,12 @@ project_id: 3ad86f15-94ef-401c-b708-b28c7767b9be
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-02-08
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.67
+      - marshal-opsource
+    reward: 0.34
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -34,10 +35,11 @@ proofreading:
     contributor_names:
     reward: 1.34
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 1.34
+      - Salgraphics
+    reward: 0.67
   - language: et
     last_contribution_date:
     urgency: 1

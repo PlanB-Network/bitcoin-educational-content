@@ -1,5 +1,5 @@
 ---
-name: Specter 桌面
+name: Specter Desktop
 description: 使用您自己的節點，完全自主地管理您的多重簽章 Bitcoin 投資組合
 ---
 

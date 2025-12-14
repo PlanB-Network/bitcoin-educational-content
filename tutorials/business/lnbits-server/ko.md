@@ -1,5 +1,5 @@
 ---
-name: LNbits 서버
+name: LNbits Server
 description: Phoenixd가 설치된 Ubuntu VPS 또는 Umbrel에 자체 호스팅된 LNbits 서버 설치 및 구성
 ---
 

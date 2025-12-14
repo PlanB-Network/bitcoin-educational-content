@@ -1197,85 +1197,200 @@ Hvis du ønsker å utvide kunnskapen din om Bitcoin, er dette det rette tidspunk
 
 > "Jeg tror at Internett kommer til å bli en av de viktigste drivkreftene for å redusere myndighetenes rolle. Det eneste som mangler, men som snart vil bli utviklet, er en pålitelig e-kontant - en metode der du på Internett kan overføre penger fra A til B uten at A kjenner B eller B kjenner A." - Milton Friedmans spådom i 1999
 
-# Bitcoins fremtid: Lynnettverket
+
+# Fremtiden til Bitcoin
 
 <partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 
-## En kort introduksjon til Lightning Network
+## Lightning-nettverket: betale med bitcoin raskt, med lave gebyrer
 
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
-Nå som vi har fått en grunnleggende innføring i Bitcoin-protokollen, vil vi introdusere et betalingsnettverk som bruker Bitcoin-protokollen for å muliggjøre lynraske transaksjoner: Lightning Network!
+Nå som du kjenner grunnprinsippene i Bitcoin-protokollen, skal vi introdusere det viktigste betalingsnettverket bygget oppå Bitcoin: Lightning Network (ofte forkortet "LN"). Målet er enkelt: å muliggjøre betalinger i BTC med nær umiddelbar finalitet, uten å overbelaste blokkjeden, og med som regel svært lave gebyrer.
 
-Vær oppmerksom på at det følgende bare er en generell beskrivelse, så hvis du ønsker å forstå det i dypere detaljer, inviterer vi deg til å sjekke LNP201-kurset vårt.
+### Blokkjeden kan ikke gjøre alt
 
-### I et nøtteskall
-
-Lightning Network er en revolusjonerende teknologi som har endret vår oppfatning av Bitcoin i stor grad, ettersom den løser problemet med skalerbarhet.
-
-For å forstå Lightning Network fullt ut, er det avgjørende å forstå hvordan Bitcoin utvikler seg i infrastrukturlag: Det første laget er blokkjeden, og det andre er Lightning Network.
-
-![image](assets/nb-NO/080.webp)
-
-### En blokkjede kan ikke vokse i det uendelige
-
-Lightning Network ble validert og implementert i 2017 for å løse skalerbarhetsproblemet med Bitcoin, ettersom det muliggjør umiddelbare, rimelige Bitcoin-transaksjoner.
-
-Skalerbarhetsproblemet refererer til utfordringen med å implementere et pengesystem som er i stand til å levere et stadig økende antall transaksjoner per sekund for å møte den økende utbredelsen. Dette problemet er knyttet til blokkjedetrilemmaet. Se for deg en trekant med desentralisering, sikkerhet og skalerbarhet som hjørner.
+Bitcoin-blokkjeden er designet for å kunne verifiseres av flest mulig, uten tillatelse og uten tillit. Dette kravet innebærer strukturelle begrensninger: blokkjeden kan ikke behandle et ubegrenset antall transaksjoner, fordi blokkene må forbli rimelige å laste ned, lagre og verifisere for uavhengige noder, uten behov for kostbart maskinvareutstyr. Dette kompromisset oppsummeres ofte av trilemmaet: desentralisering, sikkerhet og skalerbarhet. Et blokkjedebasert system kan ikke maksimere alle tre samtidig. Bitcoin prioriterer desentralisering og sikkerhet, noe som naturlig begrenser den mulige gjennomstrømningen av onchain-transaksjoner.
 
 ![image](assets/nb-NO/081.webp)
 
-Ifølge den kan en protokoll basert på en blokkjede bare tilfredsstille to av disse tre funksjonene. Innenfor Bitcoin-protokollen har utviklerne tatt valg for å favorisere desentralisering og sikkerhet. På den ene siden gjør blokkstørrelsen på 1 MB og tiden mellom to blokker (i gjennomsnitt 10 minutter) det mulig å drive en Bitcoin-node til en lavere kostnad, noe som favoriserer desentralisering. På den annen side gjør produksjonen av blokker gjennom Proof-of-Work svindel i protokollen ekstremt kostbart, samtidig som det letter verifisering av nettverksnoder og favoriserer sikkerhet. Disse valgene setter imidlertid en grense for det gjennomsnittlige antallet transaksjoner i en blokk, noe som grovt sett tilsvarer noen få transaksjoner per sekund. Dette tallet er latterlig sammenlignet med beregningskapasiteten til betalingsprosessorer som VISA (1700/s), men denne grensen er nødvendig for å kunne gjennomføre transaksjoner med Bitcoin på en sensurresistent og tillitsløs måte. Likevel har de som utvikler Bitcoin tenkt på dette problemet siden begynnelsen.
+I Bitcoin har utviklerne gjort bevisste valg for å prioritere dette. På den ene siden gjør en blokketøyrelse begrenset til 1 MB og en gjennomsnittlig blokkintervall på 10 minutter det mulig å kjøre en Bitcoin-node til lav kostnad, noe som fremmer nettverkets desentralisering. På den andre siden gjør blokkproduksjon via proof-of-work ethvert forsøk på svindel ekstremt kostbart, samtidig som det forenkler verifisering for noder og styrker protokollens samlede sikkerhet.
 
-### Lyn som et lag på toppen
+Disse valgene medfører imidlertid en viktig begrensning: antallet transaksjoner som kan inkluderes i hver blokk er begrenset. Dette tilsvarer bare noen få transaksjoner per sekund. Dette tallet er forsvinnende lite sammenlignet med kapasiteten til sentraliserte betalingssystemer som VISA (som har en teoretisk maksimal kapasitet på rundt 65 000 transaksjoner per sekund), men denne begrensningen er prisen man betaler for å muliggjøre transaksjoner uten sensur og uten en betrodd tredjepart.
 
-Etter mange års overveielser og flere forsøk ble Lightning-protokollen lansert. Ved hjelp av et visst antall spesifikasjoner konstruerer denne protokollen et peer-to-peer-betalingsnettverk ved å utnytte sikkerheten og programmerbarheten til Bitcoins transaksjonsprotokoll. Lightning Network fungerer som et nettverk av betalingskanaler, noe som muliggjør umiddelbare transaksjoner med lave gebyrer for avsenderen, og det skaper til og med utvekslingsruter mellom personer som ikke har en direkte kanalforbindelse.
+Konkret betyr dette to svært viktige ting for daglig bruk av Bitcoin:
+* når etterspørselen etter blokkplass øker, kan onchain-gebyrene bli svært høye;
+* onchain-betalinger krever bekreftelser, noe som ikke alltid er tilpasset hverdagslige kjøp.
 
-![image](assets/nb-NO/082.webp)
+Lightning Network er nettopp et svar på disse utfordringene. Ideen bak Lightning inngår i en lagdelt tilnærming: Bitcoin forblir basislaget (oppgjørslaget, robust og svært sikkert), mens Lightning fungerer som et raskt betalingslag oppå dette.
 
-Tradisjonelle pengeoverføringstjenester som Western Union, sentralbanker, Visa og Mastercard kan forsvinne hvis de ikke tar i bruk Lightning Network-teknologien, som er mer effektiv og kostnadseffektiv enn dagens betalingssystemer. Lightning Network muliggjør nemlig nesten ubegrensede transaksjoner mellom to motparter som deler en kanal, og det påløper kun energikostnader knyttet til transaksjonen for å kunngjøre opprettelsen av kanalen, i stedet for på hver enkelt transaksjon.
+![image](assets/nb-NO/080.webp)
+
+### Betalingskanaler forankret i Bitcoin
+
+Lightning er basert på toveis betalingskanaler. En kanal er et teknisk forhold mellom to deltakere som gjør det mulig for dem å utveksle sats offchain, det vil si uten å registrere hver betaling på blokkjeden.
+
+Fra Bitcoins (onchain) perspektiv innebærer det å åpne en kanal å låse midler i en spesiell transaksjon. Dette kan sees som en form for sperring: midlene er låst på en slik måte at bare en gyldig lukking av kanalen kan fordele dem på nytt.
+
+Fra Lightnings perspektiv blir denne samme mekanismen en kanal der begge parter kan oppdatere fordelingen av sats så mange ganger de ønsker, nesten umiddelbart, og uten å måtte registrere hver betaling på hovedblokkjeden.
+
+Mekanismen er derfor som følger:
+* åpning og lukking av en Lightning-kanal er Bitcoin-transaksjoner (og publiseres derfor onchain);
+* betalingene mellom åpning og lukking er offchain-oppdateringer som ikke er synlige på hovedblokkjeden.
 
 ![image](assets/nb-NO/083.webp)
 
-Transaksjoner sikres gjennom kryptografi og indirekte gjennom energien som forbrukes av utvinnere på Bitcoin. De kan gjøres umiddelbart, uten geografiske begrensninger, med ekstremt lave gebyrer (ofte mindre enn 0,5 %).
+Dermed kan to personer som deler en Lightning-kanal utføre et svært stort antall betalinger uten å gjøre en onchain-transaksjon hver gang. Her ser vi igjen en skaleringslogikk: blokkjeden reserveres for sjeldne og viktige operasjoner (åpning og lukking av kanaler, altså det endelige oppgjøret), mens resten av de små mellomliggende betalingene flyttes til et mer effektivt lag.
 
-Oppsummert er Lightning Network et lovende forsøk på å implementere et effektivt betalingssystem for kjøp og salg av Bitcoin. Det finnes allerede en rekke Lightning-lommebøker tilgjengelig, som du kan finne i vår opplæringsseksjon eller gjennom våre Lightning Network-kurs.
+### Et nettverk av sammenkoblede kanaler
 
-Hvis du ønsker å gå lenger enn denne introduksjonen og forstå hvordan Lightning Network fungerer, anbefaler vi at du tar dette utmerkede kurset av Fanis Michalakis om emnet:
+Lightning er ikke bare en samling av isolerte kanaler. Det er et nettverk: tusenvis av noder er koblet sammen via kanaler og danner dermed en forbindelsesgraf.
 
-https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+![image](assets/nb-NO/082.webp)
 
-## Brukstilfeller for Lightning Network
+Takket være dette nettverket kan du betale en mottaker selv om du ikke har en direkte kanal med vedkommende, så lenge det finnes en kanalsti som kan rute betalingen. Betalingen passerer da gjennom flere mellomliggende noder, hopp for hopp.
 
-<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+Det er her et viktig Lightning-begrep dukker opp: likviditet. Kapasiteten til en kanal tilsvarer den totale mengden midler som er låst i kanalen, mens likviditet refererer til fordelingen av disse midlene mellom de to sidene av kanalen, og dermed retningen sats kan bevege seg. Med andre ord kan en kanal ha høy kapasitet, men være ubrukelig i en bestemt retning hvis likviditeten er på feil side. Vellykkede betalinger avhenger derfor ikke bare av at en rute eksisterer, men også av tilgjengelig likviditet langs hele ruten.
 
-Som vi nettopp har sett, står Bitcoin-protokollen, selv om den er revolusjonerende, overfor betydelige utfordringer når det gjelder skalerbarheten som trengs for å håndtere alle de daglige transaksjonene våre. For å løse disse problemene ble Lightning Network foreslått, og det har siden utviklet seg til flere ulike implementasjoner, som alle er kompatible:
+### Rute en betaling uten å stole på mellomledd
 
-- Core-lightning av Blockstream
-- Eclair fra Acinq
-- LND av lynnedslag
+Lightning er designet for å muliggjøre betalinger via mellomledd uten å måtte stole på dem. For dette bruker protokollen smarte kontrakter kalt HTLC (*Hashed Time-Locked Contracts*). Uten å gå inn i alle detaljer, er den generelle mekanismen slik:
+* betalingen er betinget av avsløringen av en hemmelighet (en preimage);
+* hvis den endelige mottakeren avslører denne hemmeligheten, mottar vedkommende midlene, og mellomleddene kan igjen hente det de har krav på;
+* hvis betalingen mislykkes, utløper tidslåsene og alle får tilbake sine midler.
 
-Dette peer-to-peer-nettverket har som mål å legge til rette for mikrotransaksjoner (med svært lav verdi) som ellers ville være upraktiske på grunn av høye gebyrer og lange bekreftelsestider i Bitcoin-blokkjeden.
+Denne funksjonsmåten gir en essensiell egenskap: betalingen er atomisk. Enten fullføres den helt, eller så mislykkes den uten mellomliggende tap.
 
-### Hvilke bruksområder har nettverket?
+Til slutt inkluderer Lightning en straffemekanisme: hvis en av deltakerne forsøker å jukse ved å publisere en gammel kanaltilstand (som ikke lenger gjenspeiler virkeligheten), kan den andre straffe vedkommende og ta hele beløpet. Denne regelen gir et sterkt insentiv til å opptre ærlig, selv i et fiendtlig miljø.
 
-Denne teknologien åpner døren til et bredt spekter av potensielle bruksområder for Bitcoin som tidligere var utenfor rekkevidde på grunn av de nødvendige begrensningene for å sikre sikkerheten og desentraliseringen av Bitcoin. Blant disse bruksområdene kan vi nevne øyeblikkelig fakturering i både fysisk handel og netthandel, strømming av penger for sanntidsbetalinger og mikrodonasjoner til innholdsskapere. Ved å muliggjøre et nettverk av nesten umiddelbare, sikre og rimelige transaksjoner (i gjennomsnitt mindre enn 0,5 %) kan mange tidligere utenkelige forretningsmodeller realiseres. Dette er mulig fordi Lightning-nettverket opererer med satoshier (sats), den minste enheten i Bitcoin.
+### Lightning-node, Lightning-lommebok: hva betyr det?
 
-![image](assets/nb-NO/084.webp)
+På Bitcoin onchain er en lommebok en programvare som håndterer nøkler og konstruerer transaksjoner. På Lightning er situasjonen mer tvetydig, fordi reell ikke-forvaltningsbasert bruk er avhengig av en Lightning-node (selv om denne noden kan være skjult bak et enkelt grensesnitt).
 
-Videospillbransjen er et spesielt interessant eksempel på hvordan Lightning Network kan brukes til å endre eksisterende forretningsmodeller. Konseptet "skin in the game" er en idé som nylig har blitt populær i denne sammenhengen. Det innebærer i hovedsak at man har en økonomisk andel i utfallet av et spill. Lightning Network gjør det faktisk mulig for spillere å satse svært små beløp når de spiller spill, for eksempel noen få satoshier (omtrent en brøkdel av en eurocent), for å etablere en innsats som stimulerer konkurransen og samtidig øker kostnadene ved bruk av roboter betydelig.
+I praksis finnes det to hovedkategorier av applikasjoner for å bruke Lightning:
+* Forvaltningsbaserte tjenester: applikasjonen viser deg en saldo, men midlene kontrolleres av en tjenesteleverandør. Saldoen din er en regnskapsføring i deres system, som på en børs;
+* Ikke-forvaltningsbaserte løsninger: du kontrollerer faktisk nøklene og evnen til å hente tilbake midlene dine. Dette kan være en applikasjon som inkluderer en node med minimal administrasjon, noe som forenkler brukeropplevelsen (for eksempel Phoenix, Zeus …), eller en fullverdig Lightning-node som du administrerer helt selv.
+
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+
+I dag finnes det også selvforvaltede lommebøker som kan håndtere Lightning-betalinger indirekte ved å benytte atomiske swaps som utløses ved behov for hver inn- eller utgående betaling (for eksempel Bull Bitcoin Wallet, Aqua …). Disse lommebøkene bruker vanligvis sidekjeden Liquid som oppgjørslag (vi ser nærmere på dette i neste kapittel).
+
+https://planb.academy/tutorials/wallet/mobile/bull-bitcoin-2c72127c-a228-4f50-b833-c6183d56aaf6
+
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+
+### Konkrete bruksområder: det Lightning endelig muliggjør
+
+Lightning åpner for et spekter av bruksområder som tidligere var upraktiske, eller til og med umulige, med kun Bitcoin onchain.
+
+- **Daglige betalinger (på nett og fysisk)**
+
+Ved betaling i kassen eller ved netthandel gir Lightning nær umiddelbar finalitet, med som regel lave gebyrer. Dette gjør bitcoin brukbart for små beløp, selv når hovedblokkjeden er belastet.
+
+- **Mikrobetalinger og streaming money**
+
+Muligheten til å sende svært små beløp åpner for nye økonomiske modeller: betaling etter bruk, betaling per minutt, gjentakende donasjoner, tips … Dette er ideen bak "streaming money": å betale i takt med faktisk forbruk av innhold eller tjenester, fremfor faste abonnementer.
+
+- **Innholdsprodusenter, podkaster og donasjoner**
+
+Lightning brukes ofte til mikro-donasjoner eller belønningsmekanismer. Applikasjoner som Fountain eller Rumble illustrerer denne logikken godt: betalingen blir granulær og integrert i opplevelsen, i stedet for å være en tung og sporadisk handling. Vi har også integrert denne logikken på Plan ₿ Academy, siden du enkelt kan sende små donasjoner til favorittlærerne dine for å takke dem.
+
+- **Spill og digitale økonomier**
+
+Videospill og digitale miljøer egner seg naturlig for mikrotransaksjoner: små innsatser, belønninger, virtuelle objekter … Å introdusere en minimal økonomisk innsats kan også øke kostnaden for spam og visse former for misbruk (roboter), samtidig som det forblir tilgjengelig.
 
 ![image](assets/nb-NO/085.webp)
 
-Oppsummert ser fremtiden for mikrotransaksjoner med Bitcoin lovende ut takket være innovasjoner som Lightning Network. Etter hvert som disse teknologiene fortsetter å utvikle seg og modnes, kan vi forvente å se nye og spennende bruksområder dukke opp i nær fremtid.
+### De viktigste Lightning-implementasjonene
 
-![image](assets/nb-NO/086.webp)
+Som med Bitcoin er Lightning en protokoll, ikke én enkelt programvare. Flere implementasjoner eksisterer side om side og er interoperable takket være felles spesifikasjoner (BOLT):
+* LND (Lightning Labs);
+* Core Lightning (Blockstream);
+* Éclair (ACINQ);
+* LDK (Spiral/Block);
+* osv.
 
-Et annet eksempel kan være "strømming av penger": Gjennom Lightning Network kan vi gjøre mikrotransaksjoner hvert minutt (potensielt uten en betrodd tredjepart), noe som åpner for å eksperimentere med økonomiske modeller der forbrukerne betaler for innhold basert på det faktiske forbruket. Man kan til og med tenke seg å bruke dette systemet til å leie varer. I et slikt system fordeles pengene automatisk, basert på en forhåndsdefinert prosentandel, mellom de ulike bidragsyterne til en tjeneste eller et produkt. Dette kan revolusjonere måten vi tenker på når det gjelder betalingsmodeller: I stedet for å betale et månedlig abonnement for en tjeneste, kan brukerne bli belastet per minutt, eller til og med per sekund, for den tiden de bruker på tjenesten. En slik økonomisk modell kan få store konsekvenser for innholdsskaperne, som vil få insentiver til å produsere kvalitetsinnhold for å holde på brukernes oppmerksomhet.
+### Lightning som del av Bitcoins utvikling
 
-![image](assets/nb-NO/087.webp)
+Lightning erstatter ikke Bitcoin-blokkjeden: det kompletterer den. Blokkjeden forblir det endelige oppgjørslaget, tregt men svært robust. Lightning er det raske betalingslaget, designet for hyppig bruk og små beløp.
 
-Lightning Network åpner opp for en rekke spennende bruksområder for Bitcoin-brukere. De resulterende økonomiske modellene og forretningsmulighetene er mange og varierte, og vi oppfordrer deg til å sjekke selv ved å prøve podcast-applikasjonen [Fountain] (https://www.fountain.fm/), som lar deg bli belønnet med noen sats for å lytte til favorittpodcastene dine!
+I 2025 er Lightning mer tilgjengelig enn i starten, takket være lommebøker og tjenester som skjuler deler av kompleksiteten. Men det innebærer fortsatt kompromisser: likviditet, onchain-kostnader for kanaler, og noen ganger avveininger mellom enkelhet, suverenitet og personvern.
+
+Hvis du ønsker å forstå Lightning i dybden (kanaler, likviditet, ruting, risikohåndtering), anbefaler jeg det komplette teoretiske kurset LNP 201 av Fanis Michalakis:
+
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
+Og hvis du ønsker å starte eventyret med å drive din egen Lightning-node, tilbyr vi også det praktiske kurset LNP 202, spesielt dedikert til dette:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+
+## Utover Lightning: andre protokoller for å videreutvikle Bitcoin
+
+<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+
+Som vi har sett i de foregående kapitlene, ble Bitcoin designet som et ekstremt robust basislag: et offentlig register, enkelt og sikkert, men naturlig begrenset når det gjelder hastighet, programmerbarhet og betalingsgjennomstrømning. I stedet for å tvinge dette laget til å gjøre alt (slik man for eksempel gjør med Ethereum), har Bitcoin-økosystemet gradvis tatt i bruk en lagdelt tilnærming: blokkjeden fungerer som fundament (endelig oppgjør), mens øvre lag tilfører nye egenskaper, som raskere betalinger, bedre personvern eller utstedelse av aktiva (stablecoins, tokeniserte verdipapirer …).
+
+Bitcoin utvikler seg ikke bare ved å endre basisprotokollen. Den utvikler seg også ved å bygge oppå den, med løsninger som innebærer ulike kompromisser avhengig av målsetningen. Noen fokuserer på skalerbarhet for betalinger, andre på programmerbarhet (i vid forstand) og utstedelse av aktiva, og andre igjen forsøker å kombinere begge deler.
+
+I dette kapittelet introduserer vi fire viktige protokoller som hver for seg tilbyr nye muligheter på Bitcoin: sidechains (særlig Liquid), Ark, RGB og Taproot Assets.
+
+### Sidechains: parallelle blokkjeder koblet til Bitcoin
+
+En sidechain er en blokkjede som er adskilt fra Bitcoin-blokkjeden, designet for å fungere parallelt, med egne regler og egen konsensusmekanisme. Den er koblet til Bitcoin gjennom en toveis forankringsmekanisme (*2WP*), som i praksis gjør det mulig å bruke bitcoin på sidechainen i en representativ form (ofte bitcoin som er låst på Bitcoin og gjenskapt på sidechainen), og deretter flytte dem tilbake til hovedkjeden.
+
+Fordelen med en sidechain er at den kan tilby funksjonalitet som er vanskelig å oppnå direkte på Bitcoin: raskere transaksjoner, aktivafunksjoner, styrket personvern eller større utviklingsfleksibilitet. Til gjengjeld innebærer en sidechain alltid kompromisser sammenlignet med Bitcoin, særlig når det gjelder tillitsmodell og desentralisering.
+
+Den mest kjente sidechainen på Bitcoin er sannsynligvis **Liquid**, utviklet av Blockstream. Den er blant annet designet for å akselerere visse bruksområder: raske overføringer mellom plattformer, hyppigere oppgjør og utstedelse av aktiva (stablecoins, verdipapirer …), med forbedret personvern. På Liquid kalles bitcoinene som brukes for L-BTC: de er designet for å være knyttet 1:1 til BTC via en toveis forankringsmekanisme.
+
+![image](assets/nb-NO/088.webp)
+
+Den største forskjellen fra Bitcoin ligger i sikkerhets- og desentraliseringsmodellen: Liquid er ikke basert på Bitcoins proof-of-work, men på en føderasjon av operatører (en identifisert gruppe) som sørger for blokkproduksjon og driften av broer mellom BTC og L-BTC.
+
+https://planb.academy/courses/d3ca6943-b22c-4e50-b62d-9431460525bc
+
+### Ark: dele UTXO-er for å redusere kostnader og forbedre brukeropplevelsen
+
+Ark betegner en familie av forslag og implementasjoner som tar sikte på å forbedre Bitcoins skalerbarhet ved å samle mange brukeroperasjoner i et begrenset antall Bitcoin-transaksjoner. Ideen er ganske enkel: i stedet for å opprette én onchain-transaksjon per bruker, opprettes én onchain-transaksjon som representerer et samlet oppgjør, mens hver enkelts rettigheter hovedsakelig utvikles offchain, frem til man ønsker å gjøre et endelig oppgjør på Bitcoin.
+
+Denne ideen om en andre-lags-protokoll ble presentert av Burak i mai 2023. I likhet med Lightning Network er Ark et system som distribueres oppå Bitcoins hovedkjede. Det muliggjør raske, anonyme og rimelige bitcoin-betalinger utenfor kjeden. Sammenlignet med Lightning krever Ark ikke innkommende likviditet for å motta betalinger, noe som forbedrer brukeropplevelsen betydelig. I tillegg gir det et personvernnivå som nærmer seg coinjoin-transaksjoner. Ark kan også være ikke-interaktiv dersom covenants legges til Bitcoin.
+
+Burak kritiserer ofte Lightnings evne til å skalere, på grunn av dens avhengighet av hovedkjeden, og foreslår at Ark teoretisk sett kan integrere hele verdens befolkning i self-custody. Selv om Ark kan sees som en konkurrerende protokoll til Lightning Network, kan de i praksis sameksistere. De kan til og med være komplementære.
+
+Ark er fortsatt et svært aktivt, men ungt felt: målet er lovende (dramatisk redusere onchain-avtrykket per bruker), men man må huske at det er en mer kompleks arkitektur, med andre antakelser og risikoer enn både Bitcoin og Lightning.
+
+### RGB: kontrakter og aktiva med validering på klientsiden
+
+RGB er et system for smarte kontrakter og aktiva på Bitcoin som benytter en radikalt annerledes tilnærming enn generelle blokkjeder. Kjerneideen er validering på klientsiden: i stedet for å publisere den fulle tilstanden til en kontrakt på en global blokkjede, beholder og validerer deltakerne lokalt de historikkene som er relevante for dem, mens Bitcoin-blokkjeden kun brukes til å forankre kryptografiske forpliktelser og forhindre dobbel bruk.
+
+Med andre ord:
+* Bitcoin-blokkjeden fungerer som et tidsstempelgrunnlag og en minimal voldgiftsinstans;
+* detaljerte data (kontraktsregler, tilstander, overganger) sirkulerer offchain mellom de involverte partene;
+* verifiseringen skjer lokalt, noe som forbedrer skalerbarheten og kan forbedre personvernet, siden det ikke finnes noe globalt register over all RGB-aktivitet som er synlig for alle.
+
+![image](assets/nb-NO/089.webp)
+
+RGB kan fungere som grunnlag for å utstede og forvalte et bredt spekter av aktiva: tokens (inkludert stablecoins), NFT-er eller digitale verdipapirer, eller til og med mer avanserte kontraktslogikker, alt uten å belaste basislaget.
+
+Baksiden av medaljen er datahåndtering: hvis du må validere på klientsiden, må du også lagre og sikkerhetskopiere bevisene på dine rettigheter korrekt.
+
+RGB er en protokoll som har vært under utvikling i mange år. Fremskrittene er gradvise, men i dag finnes det allerede konkrete applikasjoner som utnytter RGB. For å gå videre tilbyr vi på Plan ₿ Academy et ekspertkurs som går i dybden på hvordan denne protokollen fungerer:
+
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+
+### Taproot Assets: utstede aktiva på Bitcoin og flytte dem over Lightning
+
+Taproot Assets (tidligere "Taro") er en protokoll utviklet av Lightning Labs, som har som mål å muliggjøre utstedelse av aktiva på Bitcoin, med mulighet til deretter å overføre dem via Lightning-nettverket for raske og rimelige utvekslinger.
+
+Dette er en komponent som ofte nevnes i fortellingen om "programmable money" på Bitcoin: ikke fordi Bitcoin blir en global datamaskin, men fordi man kan legge finansielle instrumenter (aktiva) oppå Bitcoin-grunnlaget, og deretter la dem sirkulere effektivt via Lightning.
+
+### Bitcoin styrkes ved å la de øvre lagene innovere
+
+I dag er det mest treffende bildet av Bitcoin-økosystemet verken et fastlåst protokoll eller en superblokkjede som gjør alt, slik som Ethereum. Det er snarere et bevisst konservativt fundament, omgitt av lag og protokoller som eksperimenterer og muliggjør innovasjon med minimal risiko.
+
+
 
 ## Rød eller blå pille?
 

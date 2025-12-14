@@ -1,13 +1,9 @@
-question: Các giao dịch trên Mạng Lưới Lightning được bảo mật như thế nào?
-
-answer: Qua mật mã học và gián tiếp qua năng lượng tiêu thụ bởi các thợ đào trên Bitcoin.
-
+question: Nguyên tắc trung tâm của RGB là gì?
+answer: Xác thực phía máy khách
 wrong_answers:
-  - Qua việc sử dụng khóa riêng mà thôi.
-  - Qua việc sử dụng khóa chung (công khai) mà thôi.
-  - Qua việc sử dụng cả khóa riêng và khóa chung (công khai) mà thôi.
-
-explanation: >-
-  Các giao dịch trên Mạng Lưới Lightning được bảo mật qua mật mã học và gián tiếp qua năng lượng tiêu thụ bởi các thợ đào trên Bitcoin.
-
-reviewed: true
+  - Thực thi toàn cục trên blockchain
+  - Đồng thuận liên bang
+  - Proof-of-Work
+explanation: |
+  RGB dựa trên việc xác thực cục bộ các trạng thái, trong đó blockchain chỉ đóng vai trò là mỏ neo mật mã và bảo vệ chống lại việc chi tiêu hai lần.
+reviewed: false

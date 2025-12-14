@@ -1,5 +1,5 @@
 ---
-name: Дана ГВ-0
+name: Dana Wallet
 description: Минималистичное портфолио для Silent Payments (BIP-352)
 ---
 

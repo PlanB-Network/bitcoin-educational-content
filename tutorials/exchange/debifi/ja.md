@@ -1,5 +1,5 @@
 ---
-name: デビフィ
+name: Debifi
 description: Bitcoinが保証する非親告罪ローンを利用しよう。
 ---
 

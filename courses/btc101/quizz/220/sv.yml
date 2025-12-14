@@ -1,11 +1,9 @@
-question: Vad skulle hända med traditionella penningöverföringstjänster som Western Union, centralbanker, Visa och Mastercard om de inte införde Lightning Network?
-answer: De kan försvinna.
+question: Vilken mekanism kopplar en sidechain till Bitcoin?
+answer: Tvåvägsförankring
 wrong_answers:
-  - De kan bli mer populära.
-  - De kan bli säkrare.
-  - De kan bli mer decentraliserade.
+  - Betalningskanal
+  - Proof of Stake
+  - Sharding
 explanation: |
-  Traditionella penningöverföringstjänster som Western Union,
-  centralbanker, Visa och Mastercard kan försvinna om de inte
-  om de inte tar till sig Lightning Network-tekniken.
-reviewed: true
+  Two-way peg-mekanismen gör det möjligt att låsa BTC på Bitcoin och representera dem på sidechainen.
+reviewed: false

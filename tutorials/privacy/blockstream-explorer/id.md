@@ -1,5 +1,5 @@
 ---
-name: Penjelajah Blockstream
+name: Blockstream Explorer
 description: Jelajahi lapisan utama Bitcoin dan Liquid Network
 ---
 

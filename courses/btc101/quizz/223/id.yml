@@ -1,9 +1,9 @@
-question: Apa yang dimungkinkan oleh Lightning Network?
-answer: Melakukan transaksi antar individu yang tidak memiliki koneksi saluran langsung.
+question: Apa sebutan bitcoin yang digunakan di Liquid?
+answer: L-BTC
 wrong_answers:
-  - Melakukan transaksi antar individu yang hanya memiliki koneksi saluran langsung.
-  - Melakukan transaksi antar individu yang memiliki koneksi saluran langsung dan pihak ketiga.
-  - Melakukan transaksi antar individu yang memiliki koneksi saluran langsung dan beberapa pihak ketiga.
+  - W-BTC
+  - S-BTC
+  - T-BTC
 explanation: |
-  Lightning Network memungkinkan transaksi antar individu
-  yang tidak memiliki koneksi saluran langsung.
+  Di Liquid, bitcoin direpresentasikan sebagai L-BTC yang dipatok 1 banding 1 dengan BTC.
+reviewed: false

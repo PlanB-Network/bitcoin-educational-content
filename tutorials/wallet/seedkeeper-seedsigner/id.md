@@ -1,5 +1,5 @@
 ---
-name: Pemegang Benih x Penandatangan Benih
+name: Seedkeeper x SeedSigner
 description: Bagaimana cara menggunakan Seedkeeper dengan SeedSigner saya?
 ---
 

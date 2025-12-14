@@ -1,9 +1,9 @@
-question: Lightning Networkはいつ最初に検証され、実装されましたか？
-answer: 2017
+question: なぜ Lightning チャネルは一方向で使用できないことがあるのですか？
+answer: 流動性が不足している
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
+  - 新しすぎるブロック
+  - 期限切れの HTLC
+  - 同期されていないノード
 explanation: |
-  Lightning Networkは2017年に最初に検証され、実装されました。
-reviewed: true
+  容量が大きくても、適切な側に十分な流動性がある場合にのみ、チャネルは支払いを可能にします。
+reviewed: false

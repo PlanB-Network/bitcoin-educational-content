@@ -1,5 +1,5 @@
 ---
-name: LNbits سرور
+name: LNbits Server
 description: نصب و پیکربندی یک سرور LNbits خودمیزبان بر روی Ubuntu VPS با Phoenixd یا بر روی Umbrel
 ---
 

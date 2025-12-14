@@ -1,5 +1,5 @@
 ---
-name: BTCPay-palvelin
+name: BTCPay Server
 description: BTC-maksujen vastaanottaminen ilman välikäsiä
 ---
 

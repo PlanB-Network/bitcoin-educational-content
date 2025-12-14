@@ -1,5 +1,5 @@
 ---
-name: 莫斯特羅
+name: Mostro
 description: 透過 Lightning 和 Nostr 的免 KYC Bitcoin P2P 交換平台
 ---
 

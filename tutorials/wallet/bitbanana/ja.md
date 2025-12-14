@@ -1,5 +1,5 @@
 ---
-name: ビットバナナ
+name: BitBanana
 description: Lightningノードのモバイルマネージャー
 ---
 

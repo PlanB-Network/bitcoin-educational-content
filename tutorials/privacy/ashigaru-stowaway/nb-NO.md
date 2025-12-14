@@ -1,5 +1,5 @@
 ---
-name: Ashigaru - blindpassasjer
+name: Ashigaru - Stowaway
 description: Hvordan gjennomfører jeg en Payjoin-transaksjon på Ashigaru?
 ---
 ![cover](assets/cover.webp)

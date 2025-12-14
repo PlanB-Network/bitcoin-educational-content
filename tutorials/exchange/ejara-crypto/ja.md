@@ -1,5 +1,5 @@
 ---
-name: エハラ・クリプト
+name: Ejara Crypto
 description: フランス語圏アフリカで1000CFAフランからビットコインの保管、売買が可能
 ---
 

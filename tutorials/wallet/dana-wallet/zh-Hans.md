@@ -1,5 +1,5 @@
 ---
-name: 达纳 Wallet
+name: Dana Wallet
 description: 无声支付的极简组合 (BIP-352)
 ---
 

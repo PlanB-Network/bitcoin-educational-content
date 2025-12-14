@@ -1,5 +1,5 @@
 ---
-name: ब्लॉकस्ट्रीम एक्सप्लोरर
+name: Blockstream Explorer
 description: Bitcoin और Liquid Network की मुख्य परत का अन्वेषण करें
 ---
 

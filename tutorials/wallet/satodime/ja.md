@@ -1,5 +1,5 @@
 ---
-name: サトダイム
+name: Satodime
 description: モバイルアプリケーションを使ったSatodimeの使い方を見る
 ---
 ![cover](assets/cover.webp)

@@ -1,0 +1,754 @@
+---
+name: Pop!_OS
+description: Linuxディストリビューション、Pop!_OSのインストールガイド
+---
+
+![cover](assets/cover.webp)
+
+
+
+## はじめに
+
+
+
+ポップ！OSは、開発者、デザイナー、上級ユーザー向けのマシンを専門とするアメリカのメーカー、**システム76**社が開発したLinuxベースのオペレーティング・システムである。
+
+
+
+モダンで安定した高性能環境を提供するために設計されたPop!OSは、シンプルなエクスペリエンス、パワフルなツール、生産性への強いフォーカスによって特徴付けられる。
+
+
+
+### System76とは？
+
+
+
+System76は2005年に設立されたアメリカの会社で、デンバーに拠点を置き、Linux専用に設計されたノートブック、デスクトップ、サーバーの製造に特化している。
+
+
+
+従来のメーカーとは異なり、System76は、オープンで、修理可能で、ソフトウェアの自由を志向するように設計されたマシンを開発している。
+
+
+
+System76はコンピュータを作っているだけではない。
+
+
+
+同社はまた、：
+
+
+
+
+- 独自のLinuxベースのOSであるPop!
+- COSMIC**は、Pop!OS .NETで使用されているモダンで高性能なデスクトップ環境です；
+- オープンファームウェア**は、Coreboot .NETをベースにしたオープンソースのファームウェアです；
+- 開発者とデザイナーのためのツール。
+
+
+
+その目的は、アップルのエコシステムに匹敵する高品質のハードウェアとソフトウェアの統合を提供することだが、完全にオープンでLinuxが中心となっている。
+
+
+
+## モダンで安定した、アクセスしやすいシステム
+
+
+
+Pop！OSはUbuntuの基礎の上に構築され、優れた安定性、幅広いハードウェア互換性、巨大なソフトウェア・エコシステムへのアクセスを提供する。
+
+
+COSMICデスクトップというエレガントなインターフェイスを提供し、初めてのユーザーでも流動的で、直感的で、カスタマイズできるように設計されています。
+
+
+
+## 開発者、デザイナー、要求の厳しいユーザーにとって理想的な選択
+
+
+
+Pop!OSは、特に.NETユーザーから高く評価されている：
+
+
+
+
+
+- 開発者（プリインストールツール、高度なタイリング管理）、
+- NvidiaまたはAMDのグラフィックカードを使用しているユーザー、
+- 信頼できるシステムを探している学生や社会人、
+- 簡単な移行を希望するウィンドウズ・ユーザー。
+
+
+
+自動タイリング、わかりやすいソフトウェア・センター、毎日の使用を容易にする統合生産性ツールなどが含まれている。
+
+
+
+## ポップ！OSのハイライト
+
+
+
+
+
+- 定期的なアップデートにより、パフォーマンスを最適化**。
+- 標準版とNvidiaに最適化された2つのISOバージョン**があります。
+- 強化されたセキュリティ**（インストール時にLUKS暗号化が利用可能）。
+- Interface COSMIC** 人間工学に基づいたモダンなデザイン。
+- UbuntuおよびFlatpakソフトウェアとの高い互換性**。
+
+
+
+## POP!OSを安全にダウンロード
+
+
+
+### 1.前提条件
+
+
+
+POP!OSをダウンロードしてインストールする前に、インストール環境を正しく準備するために必要なことがいくつかあります。
+
+
+
+### 必要な機材
+
+
+
+
+
+- 互換性のあるコンピュータ**：IntelまたはAMDプロセッサ、Intel / AMD / Nvidia GPU。
+- 4GB以上のRAM**（快適に使用するためには8GBを推奨）。
+- 最低20GBの空き容量**（40GB以上を推奨）。
+- インストールメディアを作成するための最低4GBのUSBキー**。
+
+
+
+### インターネット接続
+
+
+
+安定した接続は：
+
+
+
+
+
+- ISOイメージをダウンロードする、
+- インストール後にアップデートをインストールする。
+
+
+
+Pop!OSは接続なしでも動作するが、インストールはインターネット経由の方がはるかにスムーズだ。
+
+
+
+### データバックアップ
+
+
+
+Pop！OSを他のシステム（Windows、Ubuntuなど）と置き換えたり、共存させたりする場合は、事前に重要なファイルをバックアップしておくことをお勧めします。
+
+
+
+### Nvidia GPUの存在を確認する（該当する場合）
+
+
+
+Nvidiaグラフィックカードを搭載したコンピュータの場合は、Nvidiaドライバを含む特別なISOイメージをダウンロードする必要があります。
+
+
+このチェックは非常にシンプルだ：
+
+
+
+
+
+- PCの仕様を参照してください、
+- または、システム設定でグラフィックカードのモデルを調べる。
+
+
+
+### 公式サイトからダウンロード
+
+
+
+Pop!OSのISOイメージはSystem76の公式ページから直接ダウンロードしてください：[system76.com/pop](https://system76.com/pop/)から直接ダウンロードしてください。
+
+
+
+このページでは、お使いのハードウェアに合わせた最新バージョンを常に提供しています。
+
+
+
+![capture](assets/fr/03.webp)
+
+
+
+### バージョンを選択してください：スタンダードまたはNvidia、またはRaspberry Pi (ARM64)
+
+
+
+Pop！OSには3つのバリエーションがある：
+
+
+
+### スタンダード版
+
+
+
+.NET Frameworkを使用しているコンピュータにお勧めします：
+
+
+
+
+
+- インテルまたはAMDプロセッサー；
+- 内蔵インテルまたはAMD GPU；
+- AMD Radeonグラフィックカード。
+
+
+
+![Utilisation de Balena Etcher](assets/fr/04.webp)
+
+
+
+### Nvidiaバージョン
+
+
+
+Nvidiaのグラフィックカードを搭載したコンピュータを推奨。
+
+
+このイメージにはすでにNvidiaドライバが含まれているため、インストールが簡単になり、グラフィックスの問題も軽減される。
+
+
+
+![Utilisation de Balena Etcher](assets/fr/05.webp)
+
+
+
+### Raspberry Piバージョン（ARM64）
+
+
+
+Raspberry Pi 4および400（ARMプロセッサ）用。
+
+
+ARMアーキテクチャに適応した、これらのミニコンピュータに特化したバージョンである。
+
+
+
+![Utilisation de Balena Etcher](assets/fr/06.webp)
+
+
+
+## ブート可能なUSBキーを作成する
+
+
+
+Balena Etcher などのツールを使用できます：
+
+
+
+
+
+- Balena Etcher](https://etcher.balena.io/)をダウンロードしてインストールする。
+
+
+
+![Page de téléchargement Balena Etcher](assets/fr/07.webp)
+
+
+
+![Installation de Balena Etcher](assets/fr/08.webp)
+
+
+
+
+
+- Balena Etcherを開き、Pop!OS ISOイメージを選択する。
+- 保存先メディアとしてUSBキーを選択します。
+- Flashをクリックし、処理が終わるのを待つ。
+
+
+
+![Utilisation de Balena Etcher](assets/fr/09.webp)
+
+
+
+## Pop!OSのインストールと保護
+
+
+
+### USBキーからの起動
+
+
+
+
+
+- コンピュータの電源を切る。
+- USBキー（Pop!OSが入っている）を差し込む。
+- コンピュータの電源を入れます。最近のPCでは、システムが自動的にUSBブートキーを認識するはずです。そうでない場合は、BIOS/UEFIアクセスキー（ブランドによって異なりますが、通常はF2、F12、またはDelete）を押しながら再起動してください。
+  - BIOS/UEFIメニューで、USBキーをブートデバイスとして選択します。
+  - 保存して再起動する。
+
+
+
+### インストールの開始
+
+
+
+起動可能なUSBキーを起動デバイスとして選択すると、コンピュータはPop!OS Live環境で起動します。
+
+
+
+言語を選択してください。
+
+
+
+![Capture](assets/fr/10.webp)
+
+
+
+場所を選択してください。
+
+
+
+![Capture](assets/fr/11.webp)
+
+
+
+キーボード入力の言語を選択します。
+
+
+
+![Capture](assets/fr/12.webp)
+
+
+
+キーボードレイアウトを選択します。
+
+
+
+![Capture](assets/fr/13.webp)
+
+
+
+標準的なインストールには、`Clean Install` オプションを選択してください。これは新しい Linux ユーザに最適なオプションですが、ターゲットドライブの内容をすべて削除することに注意してください。あるいは `Try Demo Mode` を選択してライブ環境で Pop!OS のテストを続けることもできます。
+
+
+
+![Capture](assets/fr/14.webp)
+
+
+
+Custom (Advanced)` を選択して GParted にアクセスします。このツールでデュアルブート、`/home`パーティションの作成、`/tmp`パーティションを別のドライブに配置するなどの高度な機能を設定できます。
+
+
+
+選択しているドライブにPop!OSをインストールするには、`Erase and Install`をクリックします。
+
+
+
+![Capture](assets/fr/15.webp)
+
+
+
+### ユーザーアカウント設定
+
+
+
+インストールプログラムの次のセクションでは、新しいオペレーティングシステムにログオンできるよう、ユーザーアカウントの作成について説明します。
+
+
+
+フルネーム（大文字でも小文字でも構いません）とユーザー名（小文字でなければなりません）を入力してください：
+
+
+
+![Capture](assets/fr/16.webp)
+
+
+
+アカウントが作成されると、新しいパスワードを設定するよう求められます。
+
+
+
+![Capture](assets/fr/17.webp)
+
+
+
+### フルディスク暗号化
+
+
+
+システムディスクの暗号化は必要ないが、万が一、何者かがデバイスに不正に物理的なアクセスをした場合に、ユーザーデータの安全性を保証するものである。
+
+
+
+暗号化パスワードはユーザーアカウントのパスワードと同じです。このボックスのチェックを外し、一番下の`Set Password`を選択することもできます。ディスクの暗号化プロセスを無視するには`Don't Encrypt`を選択してください。
+
+
+
+![Capture](assets/fr/18.webp)
+
+
+
+パスワードの設定」ボタンを選択した場合、暗号化パスワードを設定するプロンプトが表示されます。
+
+
+
+インストールプログラムの次のステップに進みます。Pop!OSがディスクへのインストールを開始します。
+
+
+
+![Capture](assets/fr/19.webp)
+
+
+
+インストールが完了したら、コンピュータを再起動してログインし、ユーザーアカウントの設定プロセスを完了します。
+
+
+
+起動時にライブUSBキーを優先するように起動順序を変更した場合は、コンピュータの電源を完全に切り、インストールUSBキーを取り外してください。デュアルブートモードの場合、適切なキーを押して設定にアクセスし、Pop!OSがインストールされているドライブを選択します。
+
+
+
+![Capture](assets/fr/20.webp)
+
+
+
+### NVIDIAグラフィックス
+
+
+
+Intel/AMD ISOからインストールし、システムにディスクリートのNVIDIAグラフィックカードがある場合、または後日追加した場合、最適なパフォーマンスを得るためにカード用のドライバを手動でインストールする必要があります。コマンドターミナルで以下のコマンドを実行し、ドライバをインストールします：
+
+
+
+```bash
+sudo apt install system76-driver-nvidia
+```
+
+
+
+Pop！_ShopからNVIDIAグラフィックドライバをインストールすることもできます。
+
+
+
+![Capture](assets/fr/20.webp)
+
+
+
+## 必須ツールのインストール
+
+
+
+Pop!OSはPop!Shopを通じて様々なソフトウェアを提供しているが、多くの重要なツールはターミナルから`apt`や`flatpak`を使ってインストールすることもできる。ここでは、完全な作業環境のための主要なツールのインストール方法を紹介する。
+
+
+
+### ターミナル設置
+
+
+
+| Outil                        | Description                                | Commande d’installation                         |
+| ---------------------------- | ------------------------------------------ | ----------------------------------------------- |
+| Firefox                      | Navigateur web libre et populaire          | `sudo apt install firefox`                      |
+| Brave                        | Navigateur web axé sur la confidentialité  | Installation via Pop!_Shop ou site officiel     |
+| Visual Studio Code (VS Code) | Éditeur de code puissant pour développeurs | `flatpak install flathub com.visualstudio.code` |
+| Git                          | Gestionnaire de versions                   | `sudo apt install git`                          |
+| Flatpak                      | Gestionnaire de paquets alternatif         | `sudo apt install flatpak`                      |
+| VLC                          | Lecteur multimédia polyvalent              | `sudo apt install vlc`                          |
+| GNOME Terminal               | Terminal par défaut                        | Préinstallé sur Pop!OS                          |
+| Curl                         | Outil de transfert de données en ligne     | `sudo apt install curl`                         |
+| Wget                         | Téléchargement de fichiers via HTTP/FTP    | `sudo apt install wget`                         |
+| Docker                       | Conteneurisation d’applications            | Installation via script officiel ou `apt`       |
+| Node.js                      | Environnement JavaScript côté serveur      | Installation via `apt` ou NodeSource            |
+| Python3                      | Langage de programmation                   | `sudo apt install python3 python3-pip`          |
+| GIMP                         | Éditeur d’image avancé                     | `sudo apt install gimp`                         |
+| Thunderbird                  | Client mail                                | `sudo apt install thunderbird`                  |
+| Transmission                 | Client BitTorrent léger                    | `sudo apt install transmission-gtk`             |
+| Htop                         | Moniteur de système interactif             | `sudo apt install htop`                         |
+
+### ポップによるインストールショップ（グラフィカル・インターフェース）
+
+
+
+
+
+- メインメニューから**Pop!_Shop**を開く。
+- 検索バーを使って目的のアプリケーションを探します（例えば「Brave」）。
+- 各アプリケーションの**インストール**をクリックします。
+- Pop！_Shopは自動的に依存性と更新を管理します。
+
+
+
+## システム・アップデート
+
+
+
+### オプション1：グラフィカル・ユーザー・インターフェース（GUI）経由
+
+
+
+Pop!OSは、シンプルで直感的なグラフィカル・アップデート・マネージャーを備えています。
+
+
+
+1.メインメニュー**（左下のアイコン）をクリックします。
+
+
+2.オープン**"ポップ！_ショップ "**。
+
+
+3.Pop！_Shopで、**"Updates "**タブをクリックします。
+
+
+4.システムは自動的に利用可能なアップデートをチェックします。
+
+
+5.Update all "をクリックし、アップデートのインストールを開始します。
+
+
+6.パスワードが必要な場合は入力してください。
+
+
+7.プロセスを終了させ、必要に応じて再起動する。
+
+
+
+### オプション2：ターミナル経由
+
+
+
+ターミナルを開き、 ：
+
+
+
+```bash
+# Mettre à jour la liste des paquets et le système
+sudo apt update && sudo apt full-upgrade -y
+
+# Nettoyer les paquets inutiles
+sudo apt autoremove -y && sudo apt autoclean
+```
+
+
+
+### ユーザー管理
+
+
+
+日常的な操作には、sudo権限を持つ標準的なユーザーアカウントを使用することを推奨する。
+
+
+
+新しいユーザーを作成するには：
+
+
+
+```bash
+sudo adduser votrenom && sudo usermod -aG sudo votrenom
+```
+
+
+
+ログアウトし、この新しいユーザーでログインし直してください。
+
+
+
+### グラフィックス・ドライバの管理
+
+
+
+
+
+- Nvidiaカードの場合、専用ドライバがインストールされているか確認してください：
+
+
+
+```bash
+sudo apt install system76-driver-nvidia
+```
+
+
+
+
+
+- AMD/Intelの場合、ドライバは通常デフォルトで含まれている。
+
+
+
+### ファイアウォールを有効にする（UFW）
+
+
+
+Pop!OSはデフォルトではネットワークトラフィックをブロックしません。UFWを有効にしてセキュリティを強化してください：
+
+
+
+```bash
+sudo ufw enable && sudo ufw status verbose
+```
+
+
+
+### 自動アップデートの設定
+
+
+
+手動で操作することなく、システムを最新の状態に保つ：
+
+
+
+```bash
+sudo apt install unattended-upgrades && sudo dpkg-reconfigure --priority=low unattended-upgrades
+```
+
+
+
+### 外観と動作のカスタマイズ
+
+
+
+
+
+- システム設定** → **外観** を開き、明るいまたは暗いテーマを選択します。
+- COSMICマネージャーでアクティブコーナー、アニメーション、エクステンションを設定。
+- ワークフローを最適化するためにデスクトップのレイアウトを調整します。
+
+
+
+### 自動バックアップの設定
+
+
+
+Pop!OSはバックアップのためにDeja Dupなどのツールを統合している：
+
+
+
+
+
+- メニューから**バックアップ**を起動します。
+- 外付けドライブまたはネットワークの場所を選択します。
+- 定期的なバックアップをスケジュールする。
+
+
+
+### 便利なGNOME/COSMIC拡張機能のインストール
+
+
+
+ユーザーエクスペリエンスを向上させるおすすめの拡張機能をいくつかご紹介します：
+
+
+
+
+
+- Dash to Dock**: アプリケーションバーが常に表示されます。
+- GSConnect**：Androidとの同期。
+- クリップボードインジケーター**：高度なクリップボード管理。
+
+
+
+.NET経由でインストールする：
+
+
+
+```bash
+sudo apt install gnome-shell-extensions
+```
+
+
+
+その後、設定で有効にする。
+
+
+
+### メモリとスワップ管理の最適化
+
+
+
+スワップ状況を確認する
+
+
+
+```bash
+swapon --show
+```
+
+
+
+必要に応じて、スワップ・サイズを増やすか、スワップ・ファイルを設定する：
+
+
+
+```bash
+sudo fallocate -l 4G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+```
+
+
+
+自動マウントのために、`/etc/fstab` ファイルに追加する。
+
+
+
+## パッケージとリポジトリの管理
+
+
+
+### パッケージソースを理解する
+
+
+
+UbuntuをベースにしたPop!
+
+
+
+
+
+- Ubuntu**公式リポジトリ: ほとんどの安定したソフトウェア。
+- System76**リポジトリ：ドライバ、ファームウェア、特定のツール用。
+- Flatpak**：サンドボックス化された幅広いアプリケーションにアクセスできる。
+- Snap**（オプション）：もうひとつの汎用パッケージフォーマット。
+
+
+
+---
+
+### PPAリポジトリの追加と管理
+
+
+
+頻繁に更新されるソフトウェアをインストールするために、特定のPPA（Personal Package Archives）を追加することができます：
+
+
+
+```bash
+sudo add-apt-repository ppa:nom/ppa
+sudo apt update
+```
+
+
+
+## 結論
+
+
+
+Pop!OSは、初心者から上級者まで幅広く使える、モダンで安定したLinuxディストリビューションです。
+
+
+
+直感的なCOSMICインターフェースと統合されたツールのおかげで、開発、制作、日常使用のいずれにおいても、流動的で生産的な体験を提供します。
+
+
+
+このチュートリアルでは、準備、ダウンロード、インストール、初期設定、必須ツールといった主要な段階について説明します。
+
+
+
+Pop！OSをさらに探求し、あなたの環境をカスタマイズして、最大限に活用してください。

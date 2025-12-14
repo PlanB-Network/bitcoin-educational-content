@@ -1,5 +1,5 @@
 ---
-name: Jade - Electrum.
+name: Jade - Electrum
 description: Uko ukoresha Jade yawe canke Jade Plus na Electrum (ibiro)
 ---
 

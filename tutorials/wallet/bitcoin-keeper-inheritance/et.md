@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - pärandamiskava
+name: Bitcoin Keeper - Pärimiskava
 description: Seadistage ja kasutage Bitcoin Keeper Wallet koos Tapsignersiga, et luua pärimisplaan
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Mặt trăng
+name: Moon
 description: Thanh toán bằng bitcoin ở bất cứ nơi nào chấp nhận thẻ Visa.
 ---
 

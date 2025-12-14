@@ -1,10 +1,9 @@
-question: ¿Qué permite la Red Lightning?
-answer: Transacciones de Bitcoin instantáneas y de bajo costo.
+question: ¿Cuál es el objetivo principal de Lightning Network?
+answer: Permitir pagos offchain, rápidos y de bajo coste
 wrong_answers:
-  - Transacciones de Bitcoin instantáneas y de alto costo.
-  - Transacciones de Bitcoin retrasadas y de bajo costo.
-  - Transacciones de Bitcoin retrasadas y de alto costo.
-explanation: >-
-  La Red Lightning permite transacciones de Bitcoin instantáneas y de bajo costo,
-  resolviendo así el problema de escalabilidad de Bitcoin.
-reviewed: true
+  - Aumentar el tamaño de los bloques de la blockchain de Bitcoin
+  - Reemplazar progresivamente la blockchain de Bitcoin por un sistema más eficiente
+  - Hacer muy ricas a las granjas de minería
+explanation: |
+  Lightning Network tiene como objetivo permitir pagos en bitcoin casi instantáneos, con comisiones bajas, sin sobrecargar la blockchain principal.
+reviewed: false

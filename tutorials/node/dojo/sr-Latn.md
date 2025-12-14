@@ -1,5 +1,5 @@
 ---
-name: Dođo
+name: Dojo
 description: Otvoreni Bitcoin čvor za privatnost i autonomiju
 ---
 

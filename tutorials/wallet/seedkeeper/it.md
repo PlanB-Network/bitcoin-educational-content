@@ -1,5 +1,5 @@
 ---
-name: Custode dei semi
+name: Seedkeeper
 description: Come si esegue il backup del wallet Bitcoin con la smart card Seedkeeper?
 ---
 

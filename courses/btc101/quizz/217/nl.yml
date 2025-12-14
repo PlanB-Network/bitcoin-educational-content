@@ -1,8 +1,9 @@
-question: Wat maakt de Lightning Network mogelijk?
-answer: Directe, goedkope Bitcoin transacties.
+question: Wat is het belangrijkste doel van het Lightning Network?
+answer: Het mogelijk maken van snelle en goedkope offchain-betalingen
 wrong_answers:
-  - Directe Bitcoin transacties met hoge kosten.
-  - Vertraagde, goedkope Bitcoin transacties.
-  - Vertraagde, dure Bitcoin transacties.
-explanation: >-
-reviewed: true
+  - Het vergroten van de blokgrootte van de Bitcoin-blockchain
+  - Het geleidelijk vervangen van de Bitcoin-blockchain door een efficiënter systeem
+  - Mining farms zeer rijk maken
+explanation: |
+  Het Lightning Network heeft tot doel bijna onmiddellijke bitcoinbetalingen met lage kosten mogelijk te maken, zonder de hoofdblockchain te overbelasten.
+reviewed: false

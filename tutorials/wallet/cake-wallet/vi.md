@@ -1,5 +1,5 @@
 ---
-name: Bánh Wallet
+name: Cake Wallet
 description: Hướng dẫn về Cake Wallet và Thanh toán im lặng
 ---
 

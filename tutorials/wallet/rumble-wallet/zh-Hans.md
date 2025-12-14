@@ -1,5 +1,5 @@
 ---
-name: 隆隆 Wallet
+name: Rumble Wallet
 description: 加入通过财务自由捍卫言论自由的创作者行列。
 ---
 

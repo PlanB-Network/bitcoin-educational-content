@@ -1,5 +1,5 @@
 ---
-name: ゼウス・スワップ
+name: Zeus Swap
 description: On-ChainとLightning Networkビットコイン間の非保護Exchangeサービス
 ---
 

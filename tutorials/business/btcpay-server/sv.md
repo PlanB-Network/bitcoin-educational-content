@@ -1,5 +1,5 @@
 ---
-name: BTCPay-server
+name: BTCPay Server
 description: Acceptera BTC-betalningar utan mellanhänder
 ---
 

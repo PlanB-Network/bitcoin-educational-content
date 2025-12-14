@@ -1,5 +1,5 @@
 ---
-name: Blokstroomverkenner
+name: Blockstream Explorer
 description: Verken de hoofdlaag van Bitcoin en Liquid Network
 ---
 

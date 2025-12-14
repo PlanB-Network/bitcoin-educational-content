@@ -51,7 +51,7 @@ Katika kozi hii, nimefurahi kuwasilisha falsafa ya Baruch de Spinoza (1632-1677)
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/sw/001.webp)
 
 
 Picha ya Spinoza
@@ -86,7 +86,7 @@ Kwanza, nitakujulisha Spinoza, tabia yake, asili yake ya kijamii, kidini na kifa
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/sw/002.webp)
 
 
 Picha ya Spinoza
@@ -109,7 +109,7 @@ Pia tutaangalia kazi kuu mbili za Spinoza, tukianza na Maadili, iliyochapishwa b
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/sw/003.webp)
 
 
 
@@ -117,7 +117,7 @@ Kisha tutaangalia Traité théologico-Politique, iliyochapishwa wakati wa uhai w
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/sw/004.webp)
 
 
 
@@ -129,7 +129,7 @@ Shukrani kwa nadharia ya athari iliyokuzwa kwa njia ya jiometri, "jiometri zaidi
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/sw/005.webp)
 
 
 
@@ -167,7 +167,7 @@ Kwa imani ya Kiyahudi, alikuwa mwanachama wa jumuiya ya Wasephardic ya Kireno il
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/sw/006.webp)
 
 
 
@@ -175,7 +175,6 @@ Kwa hakika, tangu umri mdogo, alionyesha roho ya kukosoa vikali dini iliyoanzish
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -187,7 +186,7 @@ Mrithi, kama Descartes wa wakati wake (1596-1650), Pascal (1632-1662) na Newton 
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/sw/007.webp)
 
 
 
@@ -207,10 +206,10 @@ Na ni njia hii ambayo inaunganisha Spinoza na falsafa ya Kutaalamika, iwe ya Kij
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/sw/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/sw/009.webp)
 
 
 
@@ -226,7 +225,7 @@ Utajiri, hata hivyo, haufungamani na maliasili, unyonyaji na uharibifu wa makolo
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/sw/010.webp)
 
 
 
@@ -275,7 +274,6 @@ Katika sura hii, ninapendekeza kwamba sasa tugeukie kazi kuu ya Spinoza, yenye k
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -287,7 +285,7 @@ Maadili ni kazi iliyoandikwa kwa Kilatini kwa namna ya jiomita, pengine ilichoch
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/sw/011.webp)
 
 
 
@@ -299,7 +297,7 @@ Ningependa kusema kwamba unapofungua Maadili, inashauriwa kuanza na sura za post
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/sw/012.webp)
 
 
 
@@ -331,7 +329,7 @@ Kwanza, ikiwa nafasi haipo kwa Spinoza, ni kwa sababu ni tukio ambalo hatujui sa
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/sw/013.webp)
 
 
 
@@ -351,7 +349,7 @@ Kulingana na Gilles Deleuze (1925-1995), profesa maarufu wa falsafa na mtaalamu 
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/sw/014.webp)
 
 
 
@@ -389,7 +387,7 @@ Hii ni Traité théologico-politique, au TTP, iliyochapishwa bila kujulikana mna
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/sw/015.webp)
 
 
 
@@ -400,7 +398,7 @@ Kama tulivyoona, wazo la Spinoza kuhusu Mungu ndilo somo la sehemu nzima ya kwan
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/sw/016.webp)
 
 
 
@@ -412,7 +410,7 @@ Hivi ndivyo Spinoza anavyotuonyesha kwamba Mungu, kwa maoni yake, sio anthropomo
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/sw/017.webp)
 
 
 
@@ -449,7 +447,7 @@ Tetemeko la ardhi lenye sifa mbaya sana huko Lisbon mnamo Novemba 1, 1755, lilio
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/sw/018.webp)
 
 
 
@@ -461,7 +459,7 @@ Mchezo wa kuigiza uliofufua swali lililoulizwa na mwanafalsafa na mwanahisabati 
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/sw/019.webp)
 
 
 
@@ -469,7 +467,7 @@ Zaidi ya kuulaani mkono wa Mungu, Jean-Jacques Rousseau (1712-1778) alimwandikia
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/sw/020.webp)
 
 
 
@@ -516,10 +514,9 @@ Kama vile Nicolas Copernicus (1473-1543) alivyothibitisha kwamba dunia haikuwa k
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/sw/021.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -530,7 +527,7 @@ Anasema kwamba mwanadamu sio "dola ndani ya himaya" na kwamba, kama vile dunia i
 Kabla yake, falsafa ya kitamaduni ya Kigiriki ilipendekeza maono ya hali ya juu na yaliyoamriwa ya ulimwengu ili kuelezea ulimwengu na uzoefu wa mwanadamu. Kulingana na masimulizi ya kifalsafa ya kijadi, falsafa hii kimsingi ililenga kueleza asili ya ulimwengu, ikisisitiza upatano kati ya ulimwengu, asili na mwanadamu.
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/sw/022.webp)
 
 
 
@@ -542,10 +539,9 @@ Lakini pamoja na fizikia mpya ya Copernicus (1473-1543) katika karne ya 15, kosm
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/sw/023.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -553,7 +549,7 @@ Lakini ili kuelewa kikamilifu Spinozism, tunahitaji pia kuzingatia muktadha wa R
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/sw/024.webp)
 
 
 
@@ -561,7 +557,7 @@ Licha ya hatari na lawama za Giordano Bruno (1548-1600) na Galileo, Descartes al
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/sw/025.webp)
 
 
 
@@ -607,7 +603,7 @@ Kama tulivyoona, Spinoza (1632-1677) anajulikana sana kwa kuzingatia uhuru wa ku
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/sw/026.webp)
 
 
 
@@ -631,7 +627,7 @@ Katika mwenendo wa maisha yake, kwa sababu hangekuwa chini ya sheria yoyote isip
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/sw/027.webp)
 
 
 
@@ -647,7 +643,7 @@ Hili ni wazo la uamuzi kamili, ambao anaweka katika Maadili yake kwamba wanaume 
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/sw/028.webp)
 
 
 
@@ -675,7 +671,7 @@ Mtazamo huu wa uhuru kama uwezo wa kutenda ndio uhusiano tunaoweza kuufanya na f
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/sw/029.webp)
 
 
 
@@ -700,10 +696,9 @@ Hatimaye, inafaa kuashiria kwamba wakati vuguvugu la uhuru tunalokaribia kujadil
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/sw/030.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -736,7 +731,7 @@ Lakini kwa Spinoza (1632-1677), mwanadamu si "dola ndani ya himaya", yaani, yeye
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/sw/031.webp)
 
 
 
@@ -760,7 +755,7 @@ Na ndio maana magonjwa mapya kama vile UKIMWI katika miaka ya 90 au covid mnamo 
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/sw/032.webp)
 
 
 
@@ -776,7 +771,7 @@ Na hivi ndivyo mwanasayansi wa asili wa Ufaransa Jean-Baptiste de Lamarck (1744-
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/sw/033.webp)
 
 
 
@@ -784,7 +779,7 @@ Lakini kama Spinoza anavyosema, "udanganyifu wa wanaume hauishii hapo", na kati 
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/sw/034.webp)
 
 
 
@@ -800,7 +795,7 @@ Hata hivyo, tafsiri hii ya upendeleo kuhusu mfumuko wa bei inatufanya tusahau kw
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/sw/035.webp)
 
 
 
@@ -838,7 +833,7 @@ Katika sura hii ya mwisho juu ya maono mapya ya Copernican ya mawazo yanayotolew
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/sw/036.webp)
 
 
 
@@ -862,7 +857,7 @@ Kwa maneno mengine, mzee mwenye ndevu nyeupe aliyefichwa nyuma ya wingu, ambaye 
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/sw/037.webp)
 
 
 
@@ -874,7 +869,7 @@ Lakini licha ya kiburi chetu cha kujiamini kwamba tuko juu ya Asili, na kufikiri
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/sw/038.webp)
 
 
 
@@ -894,7 +889,7 @@ Kwa maneno mengine, "mtu mashuhuri" kulingana na Voltaire (1694-1778), ambaye us
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/sw/039.webp)
 
 
 
@@ -906,7 +901,7 @@ Hiki ndicho Kiangazio cha Kijerumani, Kiingereza na Kifaransa kilitetea kuanzia 
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/sw/040.webp)
 
 
 
@@ -914,7 +909,7 @@ Na hivi ndivyo Spinoza anavyoonyesha tena katika Mkataba wake wa Kisiasa wa Theo
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/sw/041.webp)
 
 
 
@@ -976,7 +971,7 @@ Wanafalsafa wa kale waliamini kwamba uovu haukuwepo katika asili, na Socrates (4
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/sw/042.webp)
 
 
 
@@ -984,7 +979,7 @@ Lakini mapokeo ya kielimu, hasa yale ya Mtakatifu Augustino (354–430), ambayo 
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/sw/043.webp)
 
 
 
@@ -1001,7 +996,7 @@ Kwa kweli, kama unavyoweza kufikiria, wazo hili limevunjwa na Spinoza, ambaye an
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/sw/044.webp)
 
 
 
@@ -1024,7 +1019,7 @@ Hii ndiyo sababu Spinozist Gilles Deleuze (1925-1995) anaeleza kwamba maadili ni
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/sw/045.webp)
 
 
 
@@ -1066,7 +1061,7 @@ Anaendeleza mfumo wake katika sehemu ya tatu ya Maadili. Ni nadharia maarufu ya 
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/sw/046.webp)
 
 
 
@@ -1090,7 +1085,7 @@ Hivi ndivyo Spinoza anavyosema katika Maadili yake, anaposhangaa kwamba "watu ma
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/sw/047.webp)
 
 
 
@@ -1106,7 +1101,7 @@ Hii ni kweli hasa, kwa njia, katika uwanja wa cryptocurrencies.
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/sw/048.webp)
 
 
 
@@ -1126,7 +1121,7 @@ Huu ni mfano wa umeme. Kwa sababu umeme unapopiga na kuua watu wasio na hatia, w
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/sw/049.webp)
 
 
 
@@ -1145,7 +1140,7 @@ Hii ni fikra ya Maadili. Spinoza inatuonyesha kwamba inawezekana kuhama kutoka k
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/sw/050.webp)
 
 
 
@@ -1184,14 +1179,13 @@ Mwishowe, ufahamu huu unamaanisha kutoishi tena katika nihilism iliyoelezewa baa
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 
 Hivi ndivyo hasa falsafa ya busara ya Kutaalamika ilihusu, shukrani haswa kwa Immanuel Kant (1724-1804), ambaye kwake ni mtu aliyeelimika tu, chini ya mwongozo wa akili, anaweza kufikiria mwenyewe na kuamua, kwa maadili, ni nini "kweli" au "nzuri," na ni nini sumu.
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/sw/051.webp)
 
 
 
@@ -1202,7 +1196,7 @@ Ni hoja inayofanya kiungo na shule ya Austria ya uchumi huria, iliyozaliwa katik
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/sw/052.webp)
 
 
 
@@ -1210,7 +1204,7 @@ Menger na Mises walianzisha, kwa mfano, kwamba ujuzi wote lazima ujengwe kulinga
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/sw/053.webp)
 
 
 
@@ -1230,14 +1224,14 @@ Kwa nini hii? Kwa sababu daima hujikuta katika namna ya utumwa ambayo inamzuia k
 Kama Spinozist, Hayek anaeleza katika video kwamba “kwa kuwa mamlaka haya hayawezi kuondolewa bila vurugu, kinachoweza kufanywa ni kutumia hila na kuanzisha dhana mpya ya pesa ambayo serikali haziwezi tena kuizuia.” Hoja hii inaungwa mkono na Milton Friedman (1912–2006) katika mahojiano, ambako naye anajadili aina hii mpya ya sarafu ya kidijitali katika muktadha wa mtandao ambao ulikuwa bado mchanga.
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/sw/054.webp)
 
 
 
 Hizi ni hoja za kisiasa na kiuchumi zilizotolewa na cypherpunks wa mwanzo, Eric Hughes (1953–) katika Ilani ya Cypherpunk, au Timothy May (1951–2018) katika Crypto Anarchist Manifesto, ambazo baadaye zilirudiwa na Satoshi Nakamoto.
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/sw/055.webp)
 
 
 
@@ -1245,7 +1239,7 @@ Hasa alipoandika kichwa cha habari cha Times cha Januari 3, 2009 katika msingi w
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/sw/056.webp)
 
 
 

@@ -1,5 +1,5 @@
 ---
-name: Sparrow Wallet - Uruhome rw'amabuye
+name: Sparrow Wallet - Stonewall
 description: Gutahura no gukoresha amafaranga y’i Stonewall kuri Sparrow.
 ---
 

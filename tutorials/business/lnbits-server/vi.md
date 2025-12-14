@@ -1,5 +1,5 @@
 ---
-name: Máy chủ LNbits
+name: LNbits Server
 description: Cài đặt và cấu hình máy chủ LNbits tự lưu trữ trên Ubuntu VPS với Phoenixd hoặc trên Umbrel
 ---
 

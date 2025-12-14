@@ -531,7 +531,6 @@ Bitcoin е децентрализирана, така че естествено 
 
 
 
-**Ако искате, продължете**
 
 Ако ви обземе вдъхновение, можете да отидете още по-далеч: да създадете герб, девиз или дори песен за вашата общност. Творчеството ви е единственото ограничение!
 
@@ -601,13 +600,13 @@ Bitcoin е децентрализирана, така че естествено 
 
 
 
-- **Плакат на събитието** (за социалните медии и печат на формат A4/A3): [линк] (https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Плакат на събитието** (за социалните медии и печат на формат A4/A3): [линк](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- **банери за социални медии**: [линк] (https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **банери за социални медии**: [линк](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -623,7 +622,7 @@ Bitcoin е децентрализирана, така че естествено 
 
 
 
-- **насоки за марката** на нашата библиотека, изложени на A4 на срещите: [линк] (https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **насоки за марката** на нашата библиотека, изложени на A4 на срещите: [линк](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -1609,11 +1608,10 @@ Twitter е много лесен за използване, а за да под�
 
 2/ **Оповестяване на събитието**:
 
-
-    - Споделете датата, часа и местоположението в социалните мрежи и други канали за комуникация. Ако е необходимо, включете връзка за регистрация.
-    - Създайте специален визуален материал (например плакат в Canva, вж. част 2/8 "[Проектиране на идентичност за вашата общност Bitcoin](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
-    - Увеличете максимално видимостта, като прикачите съобщението в Telegram и Twitter и използвате споменаване "@everyone" в Discord.
-    - Публикувайте съобщения 7 до 10 дни преди събитието, за да могат участниците да планират предварително.
+- Споделете датата, часа и местоположението в социалните мрежи и други канали за комуникация. Ако е необходимо, включете връзка за регистрация.
+- Създайте специален визуален материал (например плакат в Canva, вж. част 2/8 "[Проектиране на идентичност за вашата общност Bitcoin](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
+- Увеличете максимално видимостта, като прикачите съобщението в Telegram и Twitter и използвате споменаване "@everyone" в Discord.
+- Публикувайте съобщения 7 до 10 дни преди събитието, за да могат участниците да планират предварително.
 
 
 
@@ -2213,7 +2211,7 @@ WordPress поддържа и широк набор от приставки (н�
 - [**peertube**](https://joinpeertube.org/fr_FR) ви позволява да хоствате своя собствена платформа за видеоклипове, въпреки че настройката ѝ е по-сложна.
 
 
-Независимо от това кой вариант ще изберете, създайте визуални материали, съобразени с платформата, за да направите канала си привлекателен. Canva, спомената в [част 2/8] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), предлага категория "Миниатюра на YouTube" с предварително създадени дизайни, които могат да се персонализират.
+Независимо от това кой вариант ще изберете, създайте визуални материали, съобразени с платформата, за да направите канала си привлекателен. Canva, спомената в [част 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), предлага категория "Миниатюра на YouTube" с предварително създадени дизайни, които могат да се персонализират.
 
 
 

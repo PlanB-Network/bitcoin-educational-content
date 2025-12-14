@@ -1,0 +1,14 @@
+id: b9a20511-ceed-41b9-a1ec-ded4f4332a5d
+
+name: DJ
+
+links:
+  website: https://dij.io
+  nostr: npub1fr2qklncjgf63t933r7cewpkyt5rv5ceq68zzwqz9fm4c8a5wjwq3sfgkh
+  github: https://github.com/mrjones91
+
+tips:
+  lightning_address: dij@strike.me
+
+tags:
+  - business

@@ -1,5 +1,5 @@
 ---
-name: Máy chủ BTCPay
+name: BTCPay Server
 description: Chấp nhận thanh toán BTC mà không cần trung gian
 ---
 

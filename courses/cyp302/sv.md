@@ -681,18 +681,18 @@ Låt oss först definiera det. Antag en ordbok *D* som likställer alla bokstäv
 Modulooperatorn i skiftchiffret säkerställer att bokstäverna omsluter varandra, så att alla chiffertextbokstäver definieras. För att illustrera, överväg tillämpningen av skiftchiffret på ordet "DOG".
 
 
-Antag att du på ett enhetligt sätt har valt en nyckel med värdet 17. Bokstaven "O" motsvarar 15. Utan modulo-operationen skulle tillägget av detta klartextnummer med nyckeln uppgå till ett chiffertextnummer på 32. Detta chiffertextnummer kan dock inte omvandlas till en chiffertextbokstav, eftersom det engelska alfabetet bara har 26 bokstäver. Modulooperationen säkerställer att chiffertextnumret faktiskt är 6 (resultatet av $32 \mod 26$), vilket motsvarar chiffertextbokstaven "G".
+Antag att du jämnt valde en nyckel med värdet $17$. Bokstaven ”O” motsvarar $14$. Utan modulooperationen skulle additionen av detta klartexttal med nyckeln ge ett chiffertexttal på $31$. Detta tal kan dock inte omvandlas till en chifferbokstav, eftersom det engelska alfabetet endast har $26$ bokstäver. Modulooperationen säkerställer att chiffertexttalet faktiskt är $5$ (resultatet av $31 \mod 26$), vilket motsvarar chifferbokstaven ”F”.
 
 
 Hela krypteringen av ordet "DOG" med ett nyckelvärde på 17 är som följer:
 
 
 
-- Meddelande = DOG = D,O,G = 3,15,6
+**Meddelande = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$$
+*c = UFX*
 
 
 Alla kan intuitivt förstå hur skiftchiffret fungerar och förmodligen använda det själva. För att utveckla din kunskap om kryptografi är det dock viktigt att börja bli mer bekväm med formalisering, eftersom systemen blir mycket svårare. Därför formaliserades stegen för skiftchiffret.

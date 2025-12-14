@@ -1,8 +1,9 @@
-question: Jaki rodzaj sieci tworzy sieć Lightning?
-answer: Sieć kanałów płatności.
+question: Jakie podejście strukturyzuje ewolucję Bitcoina opisaną w tym rozdziale?
+answer: Ewolucja warstwowa
 wrong_answers:
-  - Sieć węzłów wydobywczych.
-  - Sieć węzłów łańcucha bloków.
-  - Sieć giełd kryptowalut.
-explanation: >-
-reviewed: true
+  - Monolityczny blockchain
+  - Natywny sharding
+  - Uogólnione wykonanie onchain
+explanation: |
+  Bitcoin zachowuje prostą i solidną warstwę bazową, podczas gdy wyższe protokoły dodają określone funkcjonalności.
+reviewed: false

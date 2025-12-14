@@ -1,5 +1,5 @@
 ---
-name: LNbits-Server
+name: LNbits Server
 description: Installation und Konfiguration eines selbst gehosteten LNbits-Servers auf Ubuntu VPS mit Phoenixd oder auf Umbrel
 ---
 

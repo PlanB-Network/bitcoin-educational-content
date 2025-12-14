@@ -1,9 +1,9 @@
-question: Milleks toimib Lightning Network?
-answer: Maksekanalite võrgustikuna.
+question: Milline lähenemine struktureerib selles peatükis kirjeldatud Bitcoini arengut?
+answer: Kihtidena toimuv areng
 wrong_answers:
-  - Kaevandamissõlmede võrgustikuna.
-  - Plokiahela sõlmede võrgustikuna.
-  - Krüptovaluuta vahetuste võrgustikuna.
-explanation: >-
-  Lightning Network toimib maksekanalite võrgustikuna, võimaldades saatjal teostada koheseid tehinguid madalate tasudega.
+  - Monoliitne plokiahel
+  - Natiivne sharding
+  - Üldistatud onchain-täitmine
+explanation: |
+  Bitcoin säilitab lihtsa ja vastupidava baasikihi, samal ajal kui kõrgema taseme protokollid lisavad spetsiifilisi funktsioone.
 reviewed: false

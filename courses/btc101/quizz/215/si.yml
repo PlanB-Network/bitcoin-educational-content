@@ -1,0 +1,9 @@
+question: Lightning ගෙවීම් අණුක කරන්නේ කුමන යාන්ත්‍රණයද?
+answer: HTLC
+wrong_answers:
+  - බහු-අත්සන්
+  - Proof of Work
+  - SegWit
+explanation: |
+  HTLC ගෙවීමක් රහසක් අනාවරණය කිරීම මත කොන්දේසිගත කර, අලාභයකින් තොරව සම්පූර්ණ සාර්ථකත්වය හෝ අසාර්ථකත්වය සහතික කරයි.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: Penandatangan Benih
+name: SeedSigner
 description: Perangkat keras wallet yang dibuat sendiri, tanpa status, terjangkau, dan sepenuhnya memiliki celah udara
 ---
 

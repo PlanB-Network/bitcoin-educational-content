@@ -1,5 +1,5 @@
 ---
-name: Inizio9
+name: Start9
 
 description: Esercitazione sulla configurazione di un server privato Start9
 

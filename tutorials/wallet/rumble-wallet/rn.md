@@ -1,5 +1,5 @@
 ---
-name: Ijwi ry'induru Wallet.
+name: Rumble Wallet
 description: Ifatanye n'abaremyi barwanira umwidegemvyo wo kuvuga biciye mu mwidegemvyo w'amahera.
 ---
 

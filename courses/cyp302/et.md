@@ -472,16 +472,16 @@ Määratleme selle kõigepealt. Oletame, et on olemas sõnastik *D*, mis võrdsu
 
 Nihkešifreeringu modulo-operaator tagab, et tähed on ümberpööratud, nii et kõik salakirjatähised on määratletud. Illustreerimiseks vaadelge nihkešifri rakendamist sõnale "DOG".
 
-Oletame, et valisite ühtlaselt ühe võtme väärtuseks 17. Täht "O" vastab 15-le. Ilma modulo-operatsioonita annaks selle lihtkirjanumbri ja võtme liitmine salakirjanumbrile 32. Seda salatekstinumbrit ei saa aga muuta salatekstitäheks, sest inglise tähestikus on ainult 26 tähte. Modulooperatsioon tagab, et salatekstinumber on tegelikult 6 (tulemus $32 \mod 26$), mis vastab salatekstitähtedele "G".
+Oletame, et valisite ühtlaselt võtme väärtusega $17$. Täht „O“ vastab väärtusele $14$. Ilma moodulitehteta annaks selle selgetekstinumbri ja võtme liitmine šifreeritud numbri $31$. Seda arvu ei saa aga teisendada šifreeritud täheks, sest inglise tähestikus on vaid $26$ tähte. Moodulitehe tagab, et šifreeritud arv on tegelikult $5$ (tulem $31 \mod 26$), mis vastab šifreeritud tähele „F”.
 
 Kogu sõna "DOG" krüpteerimine võtme väärtusega 17 on järgmine:
 
 
-- Sõnum = DOG = D,O,G = 3,15,6
+**Sõnum = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 Igaüks saab intuitiivselt aru, kuidas nihkešifreering töötab, ja tõenäoliselt kasutab seda ka ise. Krüptograafia alaste teadmiste edasiarendamiseks on aga oluline hakata end formaliseerimisega paremini kurssi viima, sest skeemid muutuvad palju keerulisemaks. Siit ka põhjus, miks nihkešifri sammud formaliseeriti.
 

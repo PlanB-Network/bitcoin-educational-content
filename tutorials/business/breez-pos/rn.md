@@ -1,5 +1,5 @@
 ---
-name: Umuyaga - POS
+name: Breez - POS
 description: Breez ituma vyoroha gutoragura amafaranga y’ibice vy’amahera y’ubucuruzi bwawe.
 ---
 

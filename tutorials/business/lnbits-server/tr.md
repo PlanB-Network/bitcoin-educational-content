@@ -1,5 +1,5 @@
 ---
-name: LNbits Sunucu
+name: LNbits Server
 description: Phoenixd veya Umbrel ile Ubuntu VPS üzerinde kendi kendine barındırılan bir LNbits sunucusunun kurulumu ve yapılandırılması
 ---
 

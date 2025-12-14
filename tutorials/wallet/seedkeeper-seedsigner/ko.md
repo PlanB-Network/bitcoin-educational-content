@@ -1,5 +1,5 @@
 ---
-name: 시드키퍼 x 시드서명자
+name: Seedkeeper x SeedSigner
 description: 시드서명과 함께 시드키퍼를 사용하려면 어떻게 해야 하나요?
 ---
 

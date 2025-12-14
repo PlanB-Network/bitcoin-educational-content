@@ -1,5 +1,5 @@
 ---
-name: Serveri ya BTCPay - Umutaka
+name: BTCPay Server - Umbrel
 description: Gushiramwo no gukoresha Server ya BTCPay ku Mutaka kugira ngo wemere Bitcoin n'Umuravyo
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Maan
+name: Moon
 description: Betaal in bitcoins overal waar Visa-bankkaarten worden geaccepteerd.
 ---
 

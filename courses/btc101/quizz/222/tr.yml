@@ -1,8 +1,9 @@
-question: Lightning Network üzerindeki işlemler nasıl güvence altına alınıyor?
-answer: Kriptografi yoluyla ve dolaylı olarak Bitcoin'deki madenciler tarafından tüketilen enerji yoluyla.
+question: RGB’nin merkezi ilkesi nedir?
+answer: İstemci tarafı doğrulama
 wrong_answers:
-  - Yalnızca özel anahtarların kullanılması yoluyla.
-  - Yalnızca açık anahtarların kullanılması yoluyla.
-  - Yalnızca hem özel hem de açık anahtarların kullanılması yoluyla.
-explanation: >-
-reviewed: true
+  - Blokzincir üzerinde küresel yürütme
+  - Federatif uzlaşma
+  - Proof-of-Work
+explanation: |
+  RGB, durumların yerel doğrulanmasına dayanır; blokzincir yalnızca kriptografik bir çapa ve çift harcamaya karşı koruma olarak hizmet eder.
+reviewed: false

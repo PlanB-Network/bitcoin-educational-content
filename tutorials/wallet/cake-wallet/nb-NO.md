@@ -1,5 +1,5 @@
 ---
-name: Kake Wallet
+name: Cake Wallet
 description: Opplæring om Cake Wallet og stille betalinger
 ---
 

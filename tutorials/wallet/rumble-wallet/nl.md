@@ -1,5 +1,5 @@
 ---
-name: Rommel Wallet
+name: Rumble Wallet
 description: Sluit je aan bij makers die vrijheid van meningsuiting verdedigen door financiële vrijheid.
 ---
 

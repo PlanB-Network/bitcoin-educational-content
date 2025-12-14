@@ -1,5 +1,5 @@
 ---
-name: Início9
+name: Start9
 
 description: Tutorial sobre a configuração de um servidor privado Start9
 

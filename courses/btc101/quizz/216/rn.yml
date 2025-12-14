@@ -1,11 +1,9 @@
-question: None ikibazo c’ubutatu ca Blockchain ni ikihe?
-answer: Itegeko rishingiye kuri Blockchain rishobora gusa gushitsa bibiri mu bipimo vy’ugusenyura ubutegetsi, umutekano, n’ugushobora gutera imbere.
+question: Ni ikihe kaga umuyoboro wa Lightning ashobora guhura na ko asohoye uko umuyoboro wari umeze kera?
+answer: Igihano
 wrong_answers:
-  - Itegeko rishingiye kuri Blockchain rishobora gusa guhazwa n’umwe mu ngingo z’ugusenyura ubutegetsi, umutekano, n’ugushobora gutera imbere.
-  - Itegeko rishingiye kuri Blockchain rishobora gushitsa ibisabwa vyose vyo kwegereza ubutegetsi abaturage, umutekano, n’ugushobora gutera imbere.
-  - Itegeko rishingiye kuri Blockchain ntirishobora guhazwa n’imwe mu ngingo z’ugusenyura ubutegetsi, umutekano, n’ugushobora gutera imbere.
+  - Umuburo
+  - Amafaranga y’inyongera yo gucukura
+  - Gufungwa by’igihe gito
 explanation: |
-  Ico kibazo ca Blockchain kivuga ingorane umuntu
-  protocole ishingiye kuri Blockchain ishobora gusa guhazwa n’ingingo zibiri muri
-  kwegereza ubutegetsi abaturage, umutekano, n’ugushobora gutera imbere.
-reviewed: true
+  Porotokole iteganya igihano gica intege gituma uwundi mubare ashobora gusubirana amahera yose.
+reviewed: false

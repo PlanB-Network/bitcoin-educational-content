@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Umucungezi - Umugambi w'Iragi
+name: Bitcoin Keeper - Ingingo y'itorwa ry'umutungo
 description: Gushinga no gukoresha Bitcoin Umucungezi Wallet n'aba Tapsigners kugira ngo ureme umugambi w'iragi
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Zewu yahinduye
+name: Zeus Swap
 description: Ibikorwa bitagira ububiko bwa Exchange hagati ya On-Chain na Lightning Network bitcoins
 ---
 

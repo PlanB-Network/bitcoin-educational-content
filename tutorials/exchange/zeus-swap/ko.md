@@ -1,5 +1,5 @@
 ---
-name: 제우스 스왑
+name: Zeus Swap
 description: On-Chain와 Lightning Network 비트코인 간의 비수탁형 Exchange 서비스
 ---
 

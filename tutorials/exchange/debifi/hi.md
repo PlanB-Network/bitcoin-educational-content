@@ -1,5 +1,5 @@
 ---
-name: डेबिफी
+name: Debifi
 description: Bitcoin द्वारा गारंटीकृत गैर-कस्टोडियल ऋण प्राप्त करें।
 ---
 

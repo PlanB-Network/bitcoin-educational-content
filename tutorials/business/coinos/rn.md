@@ -1,5 +1,5 @@
 ---
-name: Ibiceri
+name: Coinos
 description: Urubuga rworoshe rwo kohereza, kwakira no kwemera amahera y’ibiceri.
 ---
 ![cover](assets/cover.webp)

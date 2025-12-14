@@ -1,5 +1,5 @@
 ---
-name: DieetPi
+name: DietPi
 description: Lichtgewicht besturingssysteem geoptimaliseerd voor onderpresterende machines. Met een voorkeur voor zelf-hosting
 ---
 

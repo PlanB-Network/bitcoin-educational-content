@@ -779,12 +779,44 @@ Voilà pour les principales actions dont vous aurez besoin sur ThunderHub. Nous 
 
 ## Obtenir de la liquidité entrante
 
-LN+ / LSP
+Vous l’aurez compris : disposer de liquidité sortante pour effectuer des paiements sur Lightning n’est pas particulièrement complexe. Il suffit d’ouvrir des canaux de votre propre initiative vers d’autres nœuds pour commencer à envoyer des sats. En revanche, disposer de liquidité entrante, pour recevoir des paiements sur Lightning, est plus compliqué, puisqu’il faut soit que d’autres nœuds ouvrent des canaux vers vous, soit que vous déplaciez vous-même la liquidité en effectuant des paiements.
+
+Si vous adoptez un profil de "consommateur", il n’y a généralement pas lieu de s’inquiéter de la liquidité entrante. Votre usage du nœud Lightning sera majoritairement orienté vers les paiements plutôt que vers les encaissements. En effectuant simplement quelques paiements Lightning, vous créerez naturellement de la liquidité entrante au fil du temps.
+
+En revanche, si vous êtes dans un profil de "commerçant", la situation est inversée : vous allez principalement encaisser des paiements et en effectuer peu. Vous ne pouvez donc pas compter uniquement sur vos propres paiements pour disposer de liquidité entrante. Il devient alors nécessaire que d’autres nœuds Lightning ouvrent des canaux vers le vôtre. Mais comment y parvenir ? Comment inciter d’autres opérateurs à immobiliser du capital pour vous ? C’est précisément ce que nous allons explorer dans ce chapitre.
+
+### Acheter de la liquidité entrante
+
+Comme vous vous en doutez, la manière la plus efficace d’inciter quelqu’un à agir reste de le rémunérer. Pour la liquidité entrante de votre nœud Lightning, le principe est exactement le même. La solution la plus simple pour obtenir l’ouverture de canaux vers votre nœud consiste à payer pour ce service et pour l’immobilisation de capital qu’il implique.
+
+Si vous êtes une entreprise ou un commerçant, cette approche permet d’obtenir rapidement des canaux fiables afin d’encaisser les paiements de vos clients sans friction.
+
+Il existe de nombreuses méthodes pour acheter de la liquidité entrante. Celle que j’utilise personnellement et que je vous recommande est la plateforme [Magma](https://magma.amboss.tech/) d’Amboss. Son utilisation est très simple, l’ouverture de canal est rapide et les tarifs sont généralement raisonnables. Magma fonctionne comme une place de marché avec des makers et des takers, mais sa version 2 a grandement simplifié l’expérience : il suffit de créer une demande, de payer le prix via Lightning, et Magma se charge automatiquement de la faire correspondre avec la meilleure offre disponible. Après six confirmations onchain, votre canal avec liquidité entrante est opérationnel. Voici comment procéder.
 
 
 
 
 
+
+### Obtenir de la liquidité entrante par coopération
+
+Si vous n’êtes pas commerçant mais que vous avez malgré tout besoin de disposer d’un peu de liquidité entrante (par exemple pour amorcer votre nœud au démarrage, en attendant d’avoir effectué quelques paiements) vous n’êtes pas forcément obligé de payer pour l’obtenir. L’une des solutions que je préfère consiste à coopérer avec d’autres opérateurs de nœuds qui, eux aussi, ont besoin de liquidité entrante, afin d’ouvrir mutuellement des canaux Lightning. De cette façon, l’ouverture d’un canal vous apporte de la liquidité sortante, tout en vous procurant en parallèle de la liquidité entrante, et ce gratuitement (en négligeant les frais onchain pour l'ouverture).
+
+Pour cela, vous pouvez bien sûr vous organiser directement avec des amis bitcoiners. Il existe toutefois une plateforme dédiée à ce type de mise en relation pour réaliser des ouvertures circulaires : [Lightning Network +](https://lightningnetwork.plus/). Le principe n’est pas d’ouvrir deux canaux entre les mêmes personnes, mais de mettre en place des ouvertures circulaires impliquant au minimum trois participants, voire davantage.
+
+Prenons un exemple pour bien comprendre le fonctionnement de Lightning Network + :
+- Un opérateur de nœud, nommé `A`, publie une annonce indiquant qu’il souhaite ouvrir un canal de 1 million de sats avec deux autres personnes ;
+- L’annonce reste active jusqu’à ce que d’autres participants se manifestent ;
+- Plus tard, deux opérateurs, `B` et `C`, rejoignent l’annonce du nœud `A`. Le triangle est alors constitué et la phase d’ouverture peut commencer.
+- Le nœud `A` ouvre un canal vers le nœud `B` ;
+- Le nœud `B` ouvre un canal vers le nœud `C` ;
+- Le nœud `C` ouvre un canal vers le nœud `A`.
+
+À l’issue de l’opération, chaque nœud dispose de 1 million de sats de liquidité sortante et de 1 million de sats de liquidité entrante. Ce schéma peut être étendu à quatre ou cinq participants.
+
+Bien entendu, il n’existe aucun mécanisme technique garantissant qu’un participant ouvrira effectivement le canal qu’il s’est engagé à créer. C’est pourquoi la plateforme a mis en place un système de réputation, basé sur des avis positifs lorsque les opérateurs respectent leurs engagements. Et dans le pire des cas, si vous tombez sur une personne qui ne coopère pas, vous n’aurez pas perdu d’argent : vous aurez simplement manqué une opportunité d'avoir de la liquidité entrante.
+
+Cette solution est particulièrement adaptée à un profil de "consommateur", car elle permet d’obtenir gratuitement de la liquidité entrante, tout en connectant son nœud à d’autres petits opérateurs. En revanche, si vous êtes commerçant, cette approche n’est généralement pas pertinente : chaque sat de liquidité entrante nécessite de bloquer un sat de liquidité sortante, et vos besoins importants en liquidité entrante impliqueraient alors une immobilisation de capital trop élevée.
 
 
 

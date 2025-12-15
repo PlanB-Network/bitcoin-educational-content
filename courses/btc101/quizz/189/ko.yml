@@ -1,0 +1,8 @@
+question: 스위스 Bitcoin 페이란 무엇인가요?
+answer: 아마추어 판매자가 Bitcoin을 수락할 수 있는 솔루션입니다.
+wrong_answers:
+  - Bitcoin를 허용하는 스위스 은행입니다.
+  - 스위스의 Bitcoin Exchange입니다.
+  - 스위스에서 근무하는 Mining 회사입니다.
+explanation: >-
+reviewed: true

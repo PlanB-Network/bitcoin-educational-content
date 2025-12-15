@@ -1,9 +1,9 @@
-question: دستور برای بررسی تعداد بیت‌کوین‌های در گردش در یک نود Bitcoin چیست؟
-answer: bitcoin-cli gettxoutsetinfo.
+question: هفتمین Halving در کدام سال اتفاق خواهد افتاد؟
+answer: ۲۰۳۶
 wrong_answers:
-  - bitcoin-cli getblockchaininfo.
-  - bitcoin-cli getwalletinfo.
-  - bitcoin-cli getnetworkinfo.
+  - ۲۰۳۲
+  - ۲۰۲۸
+  - ۲۰۴۸
 explanation: |
-  دستور برای تأیید مقدار بیت‌کوین‌های در گردش در یک نود Bitcoin، bitcoin-cli gettxoutsetinfo است. این دستور شفافیت و قابلیت تأیید را فراهم می‌کند و اعتماد به سیستم Bitcoin را تقویت می‌کند.
+  هفتمین Halving باید در سال 2036 اتفاق بیفتد و تعداد تخمینی Bitcoin در گردش 20,835,937.5 خواهد بود که تقریباً معادل 99.22% از کل Supply خواهد بود.
 reviewed: true

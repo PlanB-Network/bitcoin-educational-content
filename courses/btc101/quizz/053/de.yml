@@ -1,11 +1,9 @@
-question: Es gibt einen historischen Fall einer täglichen Inflationsrate, die 100% entspricht; wo und wann ist das passiert?
-answer: In Simbabwe, 2007.
+question: Wie wird der Prozess genannt, der Transaktionen im Bitcoin-Netzwerk verifiziert?
+answer: Mining
 wrong_answers:
-  - In Ungarn, 1945.
-  - In China, 1940.
-  - Dies ist tatsächlich ein unrealistischer Fall, der nicht eintreten kann.
+  - Graben
+  - Ernten
+  - Bewirtschaften
 explanation: |
-  Eine Inflationsrate von 100% pro Tag ist ein realistisches Szenario, das
-  in Simbabwe im Jahr 2007 stattfand, wo der Geldwert ungefähr
-  alle 24 Stunden sich verdoppelte.
+  Der Prozess, der Transaktionen im Bitcoin-Netzwerk verifiziert, wird als Mining bezeichnet. Miner führen eine kryptografische Aufgabe aus und werden mit der Ausgabe neuer Bitcoins belohnt.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Bir RGB Contract'ı tanımlayan dört bileşen nedir?
+answer: Genesis, Schema, Interface ve Interface Implementation
+wrong_answers:
+  - Genesis, Schema, Geçiş ve Interface Implementation
+  - Genesis, Interface, Geçiş ve Uzatma
+  - Genesis, Interface, Interface Implementation ve Uzatma
+explanation: |
+  Bir RGB Contract, dört farklı Elements'den oluşur; Genesis, Schema, Interface ve Interface Implementation.
+reviewed: false

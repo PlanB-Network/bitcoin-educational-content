@@ -1,0 +1,9 @@
+question: Vilken grundläggande princip gör det möjligt för utvecklare att skapa system som Lightning Network, CoinJoin och OpenTimestamps ovanpå Bitcoin utan att söka godkännande?
+answer: Tillståndslös utveckling gör det möjligt för vem som helst att bygga protokoll och applikationer på Bitcoin utan att behöva tillstånd från någon central myndighet
+wrong_answers:
+  - Licensiering med öppen källkod kräver att alla härledda verk automatiskt godkänns och integreras i huvudarkivet Bitcoin Core
+  - MIT-licensen föreskriver att alla Bitcoin-baserade projekt måste få uttryckligt tillstånd från Bitcoin Core-utvecklingsteamet före driftsättning
+  - Consensus-reglerna validerar och auktoriserar automatiskt alla nya protokoll som byggs ovanpå Bitcoin genom blockkedjans verifieringsprocess
+explanation: |
+  Tillståndslös utveckling är det rätta svaret eftersom det är den grundläggande principen som gör att vem som helst kan bygga på Bitcoin utan att be om tillstånd. De felaktiga svaren är felaktiga eftersom: licensiering av öppen källkod inte kräver automatiskt godkännande eller integration i Bitcoin Core; MIT-licensen faktiskt ger breda behörigheter utan att kräva godkännande från utvecklare; och konsensusregler validerar transaktioner och block, inte protokoll på högre nivå som byggs ovanpå Bitcoin.
+reviewed: false

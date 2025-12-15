@@ -1,0 +1,9 @@
+question: Ni iyihe miti imwe imwe yo kunyegeza amakuru ku ma sisiteme agiye atandukanye?
+answer: BitLocker ya Windows, LUKS ya Linux, n’uburyo bwubakiye muri Mac.
+wrong_answers:
+  - BitLocker kuri Linux, LUKS kuri Mac, n’uburyo bwubakiye muri Windows.
+  - BitLocker ya Mac, LUKS ya Windows, n’uburyo bwubakiye muri Linux.
+  - LUKS kuri sisteme zose.
+explanation: |
+  Sisitemu zifise uburyo butandukanye bwo kunyegeza amakuru. BitLocker ni iya Windows, LUKS ni iya Linux, Mac na yo ifise uburyo bwo kunyegeza amakuru bwubakiye muri yo.
+reviewed: true

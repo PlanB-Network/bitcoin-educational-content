@@ -1,0 +1,9 @@
+question: Secp256r1 eliptik eğrisi Bitcoin'da neden kullanılmadı?
+answer: Potansiyel olarak bir arka kapıdan kaçınmak için
+wrong_answers:
+  - Çünkü çok yavaş
+  - Çünkü standartlaştırılmamıştır
+  - Özel donanım gerektirdiği için
+explanation: |
+  Satoshi Nakamoto muhtemelen secp256k1 eğrisini tercih etmiştir çünkü secp256r1 parametreleri gizli bir güvenlik açığı içerebilir.
+reviewed: false

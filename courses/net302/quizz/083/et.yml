@@ -1,0 +1,9 @@
+question: Milline on ip neigh cache'i kirje olek, kui IP/MAC-ühendus on kehtiv ja hiljutine?
+answer: REACHABLE
+wrong_answers:
+  - CONNECTED
+  - VALID
+  - STALE
+explanation: |
+  Seisund REACHABLE tähendab, et IP/MAC-kaardistus on teada ja toimib naabruskonna vahemälus.
+reviewed: false

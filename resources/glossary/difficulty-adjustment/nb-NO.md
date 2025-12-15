@@ -14,4 +14,4 @@ Hvor?
 - $T$: Den totale faktiske tiden for de siste 2016 blokkene i sekunder;
 - $1,209,600$: Måltiden i sekunder for å produsere 2016 blokker med 10 minutters intervall mellom hver.
 
-> ► * På fransk brukes begrepet "reciblage" noen ganger også om justering. På engelsk kalles det "Difficulty Adjustment"
+> ► *På fransk bruges begrepet "reciblage" noen ganger også om justering. På engelsk kalles det "Difficulty Adjustment"*

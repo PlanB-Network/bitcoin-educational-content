@@ -1,8 +1,8 @@
-question: Hur kan Bitcoin potentiellt hjälpa till med den ekologiska omställningen?
-answer: Det främjar användningen av Green-energi.
+question: Vad är ett sätt att mildra volatiliteten i Bitcoin?
+answer: Finansiella säkringar (stablecoins).
 wrong_answers:
-  - Det minskar produktionen av varor.
-  - Den reglerar förbrukningen av resurser.
-  - Den begränsar endast utsläppen av växthusgaser.
+  - Investera alla dina pengar i Bitcoin.
+  - Ignorera marknadstrender.
+  - Köper mer Bitcoin när priset sjunker.
 explanation: >-
 reviewed: true

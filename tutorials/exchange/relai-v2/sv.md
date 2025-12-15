@@ -24,25 +24,25 @@ Relai sticker ut genom sin enkelhet, tillgänglighet och fokus på långsiktigt 
 
 
 
-- Var hittar du den:** Appen finns tillgänglig i både App Store (iOS) och Google Play Store (Android). Sök efter "Relai" och ladda ner den gratis.
-- Snabb installation:** När du har installerat appen öppnar du den och följer den guidade installationsprocessen.
+- **Var hittar du den:** Appen finns tillgänglig i både App Store (iOS) och Google Play Store (Android). Sök efter "Relai" och ladda ner den gratis.
+- **Snabb installation:** När du har installerat appen öppnar du den och följer den guidade installationsprocessen.
 
 
 ### Steg 2: Skapa ditt konto
 
 
 
-- Obligatorisk KYC:** Relai kräver nu en Know Your Customer (KYC)-verifiering. Förbered en giltig ID-handling och bevis på Address.
-- Verifieringsprocess:** Ladda upp dina dokument, ta en selfie för identitetsbekräftelse och vänta på godkännande (vanligtvis inom 24 timmar).
-- Varför KYC?:** Det säkerställer efterlevnad av finansiella regler och förbättrar säkerheten för alla användare.
+- **Obligatorisk KYC:** Relai kräver nu en Know Your Customer (KYC)-verifiering. Förbered en giltig ID-handling och bevis på Address.
+- **Verifieringsprocess:** Ladda upp dina dokument, ta en selfie för identitetsbekräftelse och vänta på godkännande (vanligtvis inom 24 timmar).
+- **Varför KYC?** Det säkerställer efterlevnad av finansiella regler och förbättrar säkerheten för alla användare.
 
 
 ### Steg 3: Säkra din Wallet
 
 
 
-- Självförvaltande:** Relai erbjuder en icke-förvaltande Wallet, vilket innebär att du kontrollerar dina privata nycklar.
-- Säkerhetskopiera dina nycklar:** Skriv ner din återställningsfras på 12 ord på papper (inte digitalt) och förvara den säkert. Detta är avgörande för att få tillgång till dina pengar om din telefon går förlorad eller blir stulen.
+- **Självförvaltande:** Relai erbjuder en icke-förvaltande Wallet, vilket innebär att du kontrollerar dina privata nycklar.
+- **Säkerhetskopiera dina nycklar:** Skriv ner din återställningsfras på 12 ord på papper (inte digitalt) och förvara den säkert. Detta är avgörande för att få tillgång till dina pengar om din telefon går förlorad eller blir stulen.
 
 
 ---
@@ -175,11 +175,11 @@ Relai visar de tillämpliga nätverksavgifterna.
 
 
 
-- Håll din återställningsfras säker:** Lagra den offline och undvik att dela den med någon.
-- Aktivera App Security:** Använd en stark PIN-kod eller biometrisk autentisering.
-- Diversifiera förvaringen:** Överväg att använda en Hardware Wallet för stora mängder Bitcoin.
-- Uppdatera appen regelbundet:** Håll dig skyddad med de senaste säkerhetsuppdateringarna och funktionerna.
-- Undvik offentlig Wi-Fi:** Anslut endast till din Wallet via säkra nätverk.
+- **Håll din återställningsfras säker:** Lagra den offline och undvik att dela den med någon.
+- **Aktivera App Security:** Använd en stark PIN-kod eller biometrisk autentisering.
+- **Diversifiera förvaringen:** Överväg att använda en Hardware Wallet för stora mängder Bitcoin.
+- **Uppdatera appen regelbundet:** Håll dig skyddad med de senaste säkerhetsuppdateringarna och funktionerna.
+- **Undvik offentlig Wi-Fi:** Anslut endast till din Wallet via säkra nätverk.
 
 
 ---
@@ -191,10 +191,10 @@ Relai stöder också företag som vill investera i Bitcoin. Funktioner inkludera
 
 
 
-- Anpassade sparplaner:** Skräddarsydda planer för att passa företagets behov.
-- Multi-User Access:** Gör det möjligt för flera teammedlemmar att hantera kontot på ett säkert sätt.
-- Förbättrade gränser:** Investera större belopp jämfört med personliga konton.
-- Dedikerad support:** Få tillgång till prioriterad kundservice för företag.
+- **Anpassade sparplaner:** Skräddarsydda planer för att passa företagets behov.
+- **Multi-User Access:** Gör det möjligt för flera teammedlemmar att hantera kontot på ett säkert sätt.
+- **Förbättrade gränser:** Investera större belopp jämfört med personliga konton.
+- **Dedikerad support:** Få tillgång till prioriterad kundservice för företag.
 
 
 För att skapa ett företagskonto, kontakta Relais supportteam via deras webbplats.
@@ -209,9 +209,9 @@ Relai erbjuder ett spännande värvningsprogram där du kan tjäna Bitcoin genom
 
 
 
-- Dela din hänvisningskod:** Varje Relai-användare får en unik hänvisningskod. Dela den med dina vänner.
-- Tjäna 10% av avgifterna:** Du tjänar 10% av avgifterna från dina vänners transaktioner när de använder din kod.
-- Passiv Bitcoin-inkomst:** När dina vänner fortsätter att handla på Relai kommer du att fortsätta tjäna Bitcoin. Det är en win-win för både dig och dina vänner.
+- **Dela din hänvisningskod:** Varje Relai-användare får en unik hänvisningskod. Dela den med dina vänner.
+- **Tjäna 10% av avgifterna:** Du tjänar 10% av avgifterna från dina vänners transaktioner när de använder din kod.
+- **Passiv Bitcoin-inkomst:** När dina vänner fortsätter att handla på Relai kommer du att fortsätta tjäna Bitcoin. Det är en win-win för både dig och dina vänner.
 
 
 Börja dela din kod idag och utöka din Bitcoin-stack utan ansträngning!
@@ -227,7 +227,7 @@ Börja dela din kod idag och utöka din Bitcoin-stack utan ansträngning!
 
 
 - Relai tar ut en konkurrenskraftig avgift på 1% per transaktion, eller 0,9% om du använder en hänvisningskod som `REL361712`. Avgifterna visas öppet innan du bekräftar ett köp.
-- Inga avgifter:** Transaktioner upp till 100 euro eller 100 CHF är helt avgiftsfria.
+- **Inga avgifter:** Transaktioner upp till 100 euro eller 100 CHF är helt avgiftsfria.
 
 
 ### Kan jag pausa min sparplan?

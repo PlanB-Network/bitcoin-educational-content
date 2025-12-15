@@ -1,0 +1,10 @@
+question: PayJoin işlemi tarafından analiz için bir aldatma olarak hareket etmek üzere zincirin hangi sezgisel analizi kullanılır?
+answer: CIOH
+wrong_answers:
+  - Address yeniden kullanım
+  - Wallet parmak izi
+  - Yeniden sürümleme
+explanation: |
+  Bir analist bir PayJoin işlemini incelediğinde, CIOH nedeniyle tüm girdilerin aynı kişiden geldiğine inanmaya yönlendirilir. Ancak bu algı yanlıştır, zira ödemeyi alan kişi de asıl ödeyenin yanında girdilere katkıda bulunmaktadır. Dolayısıyla zincirleme analiz, yanlış olduğu ortaya çıkan bir yoruma doğru yönlendirilmektedir.
+  
+reviewed: false

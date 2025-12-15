@@ -5,5 +5,5 @@ wrong_answers:
   - It prevents anyone from sending transactions after the cap is reached.
   - It eliminates all volatility in Bitcoin’s price.
 explanation: |
-  By having a maximum supply of 21 million, Bitcoin’s scarcity is hard-coded, making it fundamentally different from inflationary currencies where supply can be increased at will.
-reviewed: false
+  With a maximum supply of 21 million, Bitcoin’s scarcity is hard-coded, making it fundamentally different from inflationary currencies, where supply can be increased at will.
+reviewed: true

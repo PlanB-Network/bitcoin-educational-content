@@ -2,6 +2,7 @@
 term: BRUTE FORCE (ATTACK)
 ---
 
-A cryptanalysis method for finding a password or key that involves trying every possible combination of keys or passwords through trial and error until finding the one that grants access to a privilege or protected information. This technique relies on intensive computation and can be extremely time-consuming, especially against large keys. To counter this type of attack, it is necessary to use longer password and key sequences to increase the number of operations required for the attacker. In theory, the complexity of such an attack is exponential in relation to the length of the target.
+A cryptanalysis method used to find a password or cryptographic key by systematically trying every possible combination until the correct one is found, granting access to protected information or privileges. 
+This technique relies on intensive computation and can be extremely time-consuming, especially when facing long or complex keys. The primary defense against such attacks is to use sufficiently long and complex passwords or cryptographic keys, which exponentially increase the number of operations required for the attacker. In theory, the complexity of a brute-force attack grows exponentially with the length of the target.
 
-> ► *In English, this is referred to as a "brute-force attack".*
+> ► *In French, this is referred to as a "brute force attaque".*

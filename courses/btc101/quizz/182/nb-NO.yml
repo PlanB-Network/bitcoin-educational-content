@@ -1,8 +1,9 @@
-question: Hva er en av grunnene til at bruken av Bitcoin utvidet seg til mørkenett-markedsplasser som Silk Road?
-answer: Dets ukontrollerbare og pseudonyme natur.
+question: Hvilket land har gjort Bitcoin til lovlig betalingsmiddel siden 2021?
+answer: El Salvador
 wrong_answers:
-  - Dets sentraliserte kontroll.
-  - Dets sporebarhet.
-  - Dets mangel på pseudonymitet.
+  - Frankrike
+  - USA
+  - Kina
 explanation: >-
-  Bruken av Bitcoin utvidet seg til mørkenett-markedsplasser som Silk Road på grunn av dets ukontrollerbare og pseudonyme natur.
+  El Salvador har gjort Bitcoin til lovlig betalingsmiddel siden 2021, noe som bidrar til utviklingen av Bitcoin-økonomien i regionen.
+reviewed: false

@@ -387,7 +387,7 @@ Tapsigner 使用 BIP32 標準。這意味著確保您比特幣安全的加密金
 ![TAPSIGNER NUNCHUK](assets/notext/54.webp)
 
 
-您現在已經可以重新使用您的 bitcoins。您的 Wallet 現在是以 Hot Wallet 的方式管理，可在 Nunchuk 應用程式的「*金鑰*」標籤中看到。接下來，您需要在 "*Wallets*"區段中建立一組新的加密金鑰，方法是將此金鑰與之相關聯。要做到這一點，您可以按照本教學的 "*如何在 Tapsigner 上創建 Wallet？
+您現在已經可以重新使用您的 bitcoins。您的 Wallet 現在是以 Hot Wallet 的方式管理，可在 Nunchuk 應用程式的「*金鑰*」標籤中看到。接下來，您需要在 "*Wallets*" 區段中建立一組新的加密金鑰，方法是將此金鑰與之相關聯。要做到這一點，您可以按照本教學的 "*如何在 Tapsigner 上創建 Wallet？*"
 
 
 ![TAPSIGNER NUNCHUK](assets/notext/55.webp)

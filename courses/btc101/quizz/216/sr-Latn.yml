@@ -1,9 +1,9 @@
-question: Kakav je status Bitkoina u El Salvadoru?
-answer: Zakonsko sredstvo plaćanja.
+question: Koji rizik preuzima Lightning čvor koji objavi staro stanje kanala?
+answer: Kaznu
 wrong_answers:
-  - Kriminalizovano.
-  - Nepoznato.
-  - Neregulisano.
+  - Upozorenje
+  - Dodatne rudarske naknade
+  - Privremeno zamrzavanje
 explanation: |
-  Tekst kursa pominje da su neke zemlje zabranile i kriminalizovale upotrebu Bitkoina, što dodaje složenost usvajanju Bitkoina zasnovanom na kulturama, epohama i nacijama. Međutim, El Salvador je bio dovoljno hrabar da ga usvoji kao zakonsko sredstvo plaćanja.
-reviewed: true
+  Protokol predviđa odvraćajuću kaznu koja omogućava drugoj strani da povrati sva sredstva.
+reviewed: false

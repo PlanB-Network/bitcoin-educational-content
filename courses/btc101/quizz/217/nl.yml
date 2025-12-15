@@ -1,12 +1,9 @@
-question: Op welke gebieden roept Bitcoin vragen op?
-answer: Cryptografie, speltheorie, economie en monetair beleid, computerwetenschap, filosofie, energie, wetten en regelgeving.
+question: Wat is het belangrijkste doel van het Lightning Network?
+answer: Het mogelijk maken van snelle en goedkope offchain-betalingen
 wrong_answers:
-  - Alleen informatica en economie
-  - Alleen cryptografie en speltheorie.
-  - Alleen filosofie en energie.
+  - Het vergroten van de blokgrootte van de Bitcoin-blockchain
+  - Het geleidelijk vervangen van de Bitcoin-blockchain door een efficiënter systeem
+  - Mining farms zeer rijk maken
 explanation: |
-  Bitcoin is een multidisciplinair onderwerp dat vragen oproept
-  vragen oproept met betrekking tot verschillende gebieden, waaronder
-  cryptografie, speltheorie, economie en monetair beleid,
-  computerwetenschap, filosofie, energie, wetten en regelgeving.
-reviewed: true
+  Het Lightning Network heeft tot doel bijna onmiddellijke bitcoinbetalingen met lage kosten mogelijk te maken, zonder de hoofdblockchain te overbelasten.
+reviewed: false

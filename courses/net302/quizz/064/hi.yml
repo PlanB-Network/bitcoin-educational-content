@@ -1,0 +1,9 @@
+question: IPv6 Address की बिट लंबाई क्या है?
+answer: 128 बिट
+wrong_answers:
+  - 512 बिट्स
+  - 64-बिट
+  - 256-बिट
+explanation: |
+  IPv6 Address की लंबाई 128 बिट्स होती है, जबकि IPv4 Address की लंबाई 32 बिट्स होती है।
+reviewed: false

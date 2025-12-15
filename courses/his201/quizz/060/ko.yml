@@ -1,0 +1,9 @@
+question: Bitcoin에서 블록을 생산하기 위해 최초의 Mining 협동조합을 설립한 사람은 누구인가요?
+answer: doublec
+wrong_answers:
+  - 슬러시
+  - 푸딘팝
+  - m0mchil
+explanation: |
+  그는 12월 1일에 이를 홍보했습니다. 블록은 2010년 12월 4일에 [발견됨](https: //bitcointalk.org/index.php?topic=2027.msg26688#msg26688)이었습니다. 한편, 슬러시 협동조합은 12월 16일에 출범했습니다.
+reviewed: true

@@ -23,7 +23,7 @@ Vifaa hivi vinauzwa kama hita kisaidizi katika hali ya **Avalon Nano 3S (140W)**
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
 
 Tafadhali kumbuka kuwa tofauti ya bei na hita za jadi za nguvu sawa hazikuruhusu kupata faida ya kifedha katika hali nyingi. Satoshi zinazozalishwa na shughuli za Mining hazitawahi kufidia tofauti hii ya bei, isipokuwa kama unaweza kupata umeme wa bure (ziada) au nafuu sana.
 
@@ -118,7 +118,7 @@ Baada ya kuunganishwa kwenye mtandao wa ndani, Mini 3 yako itaonyesha maelezo ka
 
 
 
-Ifuatayo ni jedwali la muhtasari wa maelezo ya jumla ya kiufundi ya Mini 3:
+lifuatalo ni jedwali la muhtasari wa maelezo ya jumla ya kiufundi ya Mini 3:
 
 
 
@@ -137,11 +137,11 @@ Ifuatayo ni jedwali la muhtasari wa maelezo ya jumla ya kiufundi ya Mini 3:
 
 
 
-**Sehemu hii ni ya kawaida kwa vifaa vya Nano 3s na Mini 3, kwani michakato inafanana kabisa **
+**Sehemu hii ni ya kawaida kwa vifaa vya Nano 3s na Mini 3, kwani michakato inafanana kabisa**
 
 
 
-Iwe tunataka "kucheza pekee" au "pool" ya Miner, tutahitaji kuunganisha kwenye Mining pool. Kwa kweli, kifaa chetu sio zaidi ya mtengenezaji wa Hash bila ufahamu wa mtandao wa Bitcoin. Kuiunganisha kwenye bwawa huipa ufikiaji wa mtandao wa Bitcoin, na huiruhusu kupokea violezo vya kuzuia ili kufanyia kazi.
+Iwe tunataka "kucheza pekee" au "pool" ya Miner, tutahitaji kuunganisha kwenye Mining pool. Kwa kweli, kifaa chetu sio zaidi ya mtengenezaji wa Hash bila ufahamu wa mtandao wa Bitcoin. Kuiunganisha kwenye bwawa huipa ufikiaji wa mtandao wa Bitcoin, na huiruhusu kupokea maelezo ya kuzuia ili kufanyia kazi.
 
 
 
@@ -181,9 +181,9 @@ Kwa maelezo zaidi kuhusu jinsi ya kuunganisha kwenye Mining pool, tafadhali reje
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Kwa muhtasari, tunahitaji
 
@@ -358,4 +358,4 @@ Ili kujua zaidi, angalia mafunzo yetu kuhusu toleo dogo la Avalon: Nano 3S.
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6

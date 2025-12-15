@@ -1,9 +1,12 @@
-question: Quel est le but des frais de transaction dans les transactions Bitcoin ?
-answer: Ils constituent une incitation pour les mineurs à inclure la transaction dans le bloc suivant.
+question: Qu'est-ce qu'un hash valide dans le contexte du minage de blocs dans le réseau Bitcoin ?
+answer: Une empreinte digitale unique associée au bloc, composée de 256 caractères.
 wrong_answers:
-  - Ils représentent une taxe imposée par le gouvernement.
-  - Ils sont des frais facturés par le réseau Bitcoin pour l'utilisation de ses services.
-  - Ils sont des frais facturés par le fournisseur de portefeuille.
+  - Un code unique utilisé pour accéder au bloc.
+  - Un mot de passe unique requis pour miner le bloc.
+  - Un identifiant unique pour le mineur qui a miné le bloc.
 explanation: |
-  Les frais de transaction dans les transactions Bitcoin servent d'incitation pour les mineurs à inclure la transaction dans le prochain bloc. Les frais créent un marché libre pour l'inclusion des transactions dans les blocs.
+  Dans le contexte du minage de blocs dans le réseau Bitcoin, un
+  hash valide est une empreinte digitale unique associée au
+  bloc, composée de 256 caractères. La validité de ce
+  hash dépend de la difficulté du réseau Bitcoin.
 reviewed: true

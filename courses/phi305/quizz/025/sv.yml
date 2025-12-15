@@ -1,0 +1,9 @@
+question: Trodde René Descartes på den fria viljan?
+answer: Aldrig.
+wrong_answers:
+  - Endast för vuxna.
+  - Bara om vi hade studerat filosofi.
+  - Under vissa förutsättningar.
+explanation: |
+  René Descartes trodde aldrig på den fria viljan. Han hävdade att alla våra handlingar bestäms av tidigare orsaker, även om han försökte bevara någon form av fri vilja.
+reviewed: false

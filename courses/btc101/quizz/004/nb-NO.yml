@@ -1,11 +1,10 @@
-question: Hva er de to hovedaspektene ved Bitcoin?
-answer: Bitcoin er både et datamaskinprotokoll og en monetær enhet.
+question: Hva betyr det at Bitcoin er en nøytral valuta?
+answer: Den er ikke kontrollert av noen enhet eller institusjon.
 wrong_answers:
-  - Bitcoin er både en fysisk valuta og en digital lommebok.
-  - Bitcoin er både en type aksje og en type obligasjon.
-  - Bitcoin er både en sentralisert og en desentralisert valuta.
+  - Den er kontrollert av en enkelt enhet eller institusjon.
+  - Den er regulert av regjeringen.
+  - Den brukes kun for nøytrale transaksjoner.
 explanation: |
-  Bitcoin har to hovedaspekter, det er et datamaskinprotokoll som bruker teknologier
-  som kryptografi og blokkjeden, og det er en monetær enhet som brukes for
-  transaksjoner.
+  Bitcoin er en nøytral valuta, noe som betyr at den ikke er kontrollert av noen enhet
+  eller institusjon, og hver bruker har de samme rettighetene. Dette er et nøkkelaspekt ved dens desentralisering.
 reviewed: true

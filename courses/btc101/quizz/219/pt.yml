@@ -1,10 +1,9 @@
-question: O que este curso sugere sobre o futuro do Bitcoin?
-answer: Não vai desaparecer.
+question: Que abordagem estrutura a evolução do Bitcoin descrita neste capítulo?
+answer: Evolução em camadas
 wrong_answers:
-  - Será substituído por uma tecnologia melhor.
-  - Será proibido mundialmente.
-  - Perderá seu valor.
+  - Blockchain monolítica
+  - Sharding nativo
+  - Execução onchain generalizada
 explanation: |
-  O texto do curso sugere que o Bitcoin não vai
-  desaparecer. Pelo contrário, a revolução está apenas começando.
-reviewed: true
+  O Bitcoin mantém uma camada base simples e robusta, enquanto protocolos superiores adicionam funcionalidades específicas.
+reviewed: false

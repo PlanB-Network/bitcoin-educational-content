@@ -1,11 +1,9 @@
-question: ¿Quién fue la primera persona en unirse a la red de Bitcoin después de Satoshi Nakamoto?
-answer: Hal Finney.
+question: ¿Cuál ha sido la disponibilidad en línea de Bitcoin desde 2009?
+answer: 99.988%.
 wrong_answers:
-  - Laszlo Hanyecz.
-  - Phil Champagne.
-  - Rogzy.
+  - 100%.
+  - 90.009%.
+  - 80.17%.
 explanation: |
-  Hal Finney fue la primera persona en unirse a la red de Bitcoin
-  después del propio Satoshi Nakamoto. Incluso tuiteó Running
-  Bitcoin para marcar la ocasión.
+  La disponibilidad en línea de Bitcoin es del 99.988% desde 2009.
 reviewed: true

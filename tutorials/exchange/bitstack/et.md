@@ -6,7 +6,7 @@ description: Osta ja müüa bitcoine Bitstacki rakenduses
 
 Bitstack on Prantsuse Bitcoini investeerimisplatvorm, mida reguleerib AMF PSAN. See pakub rakendust, mis on saadaval Androidis ja iOSis, et bitcoinide ostmine ja müümine oleks lihtne.
 
-Bitstacki eristab automaatne ümardamissüsteem, mis sünkroonib kasutaja pangakontot, et konverteerida igapäevaste kulutuste käigus debiteeritud summa ja järgmise kõrgema euro vahe otse bitcoinideks. See meetod hõlbustab *Dollar Cost Averaging* (DCA) rakendamist, võimaldades satoshide järkjärgulist ja valutut kogumist. Lisaks sellele originaalsele funktsioonile pakub platvorm ka klassikalist DCA-süsteemi koos automaatse investeerimisega, samuti koha ostu ja müügiga.
+Bitstacki eristab selle automaatne ümardamissüsteem, mis sünkroonib kasutaja pangakonto, et teisendada igapäevaste kulutuste ja järgmise täiseuro vahelise erinevuse otse bitcoini. See meetod hõlbustab *Dollar Cost Averaging* (DCA) rakendamist, võimaldades satoshide järkjärgulist ja valutut kogumist. Lisaks sellele originaalsele funktsioonile pakub platvorm ka klassikalist DCA-süsteemi automaatsete investeeringute ning ühekordsete ostude ja müükidega.
 
 ![Image](assets/fr/01.webp)
 
@@ -53,7 +53,7 @@ Valige tugev salasõna, et tagada juurdepääs oma kontole, seejärel klõpsake 
 
 Igapäevaseks turvaliseks paroolide haldamiseks on väga soovitatav kasutada paroolihaldurit. Plan ₿ Networkist leiate mitmeid õpetusi parimate olemasolevate lahenduste kohta, näiteks Bitwarden :
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Seejärel palutakse teil kontrollida oma isikut (KYC). Vastavalt Prantsusmaa eeskirjadele palutakse teil esitada oma isikuandmed ja isikut tõendavad dokumendid. Täitke lahtritesse oma perekonnanimi, eesnimi ja sünniaeg.
 
@@ -110,7 +110,7 @@ Nagu sissejuhatuses mainitud, pakub Bitstack 3 meetodit Bitcoini investeerimisek
 - Korduvate ostude konfigureerimine (RPC) ;
 - Kulude automaatse ümardamise kasutamine.
 
-### Ostmine sularahas
+### Teha ühekordne ost
 
 Bitcoinide ühekordse ostu tegemiseks turuhinnaga, klõpsake lihtsalt nupule "*Ostan*".
 
@@ -126,7 +126,7 @@ Teie tehing on nüüd kinnitatud.
 
 ### DCA loomine
 
-Dollar Cost Averaging* (DCA) on atraktiivne investeerimisstrateegia bitcoini kogumiseks, vähendades samal ajal selle volatiilsusega seotud riske. Ostes regulaarselt kindla summa, olenemata hinnast, saate tasandada oma soetamiskulud ja vältida impulsiivseid otsuseid. DCA aitab vähendada käitumuslikke eelarvamusi, näiteks hirmu võimalusest ilma jääda või paanikat hinnalanguse korral, ning võimaldab teil seega juhtida oma bitcoinide sääste rahulikult ja distsiplineeritult.
+**Dollar Cost Averaging** (DCA) on atraktiivne investeerimisstrateegia bitcoini kogumiseks, vähendades samal ajal selle volatiilsusega seotud riske. Ostes regulaarselt kindla summa, olenemata hinnast, saate tasandada oma soetamiskulud ja vältida impulsiivseid otsuseid. DCA aitab vähendada käitumuslikke eelarvamusi, näiteks hirmu võimalusest ilma jääda või paanikat hinnalanguse korral, ning võimaldab teil seega juhtida oma bitcoinide sääste rahulikult ja distsiplineeritult.
 
 Et seadistada Bitstackis korduvostu (DCA), minge kodulehe jaotisse "*Säästud*" ja valige "*Korduv*". Seejärel vajutage "*Jätka*".
 
@@ -184,7 +184,7 @@ Tehingu prioriteedi määramine. Tasuta väljavõtmise puhul valige prioriteet "
 
 ![Image](assets/fr/32.webp)
 
-Kui te ei ole kursis, kuidas iseteenindusportfell töötab, siis pakume õpetusi enamiku kättesaadavate lahenduste kohta [Plan ₿ Network'is jaotises "*Wallet*"](https://planb.network/tutorials/wallet).
+Kui te ei ole kursis, kuidas iseteenindusportfell töötab, siis pakume õpetusi enamiku kättesaadavate lahenduste kohta [Plan ₿ Academy'is jaotises "*Wallet*"](https://planb.academy/tutorials/wallet).
 
 ## Bitcoini müük
 

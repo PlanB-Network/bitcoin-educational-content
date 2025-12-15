@@ -1,12 +1,12 @@
-question: Qu'est-ce qui n'est pas une phrase mnémonique dans le contexte du Bitcoin ?
-answer: Un mot de passe pour votre portefeuille Bitcoin.
+question: Que signifie KYC ?
+answer: Connaître Votre Client.
 wrong_answers:
-  - Une liste de 12 mots issus d'un dictionnaire spécifique.
-  - Une liste de 24 mots issus d'un dictionnaire spécifique.
-  - Le secret pour accéder à vos fonds en bitcoin.
+  - Gardez Votre Argent.
+  - Vos Clés Vos Codes.
+  - Veuillez Vous Conformer Gentiment.
 explanation: |
-  Une phrase mnémonique dans le contexte du Bitcoin est une liste de 12
-  ou 24 mots qui vous permet de restaurer votre portefeuille sur n'importe
-  quelle application de portefeuille Bitcoin. Quiconque ayant accès à cette liste
-  peut également accéder à vos bitcoins.
+  KYC (Know Your Customer) ou Connaître Votre Client fait référence à la procédure que
+  les entreprises adoptent pour vérifier l'identité de leurs clients.
+  Cela est généralement fait pour assurer la conformité avec
+  les réglementations et pour prévenir des activités illégales telles que le blanchiment d'argent ou la fraude.
 reviewed: true

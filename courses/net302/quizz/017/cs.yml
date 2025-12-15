@@ -1,0 +1,9 @@
+question: Co představuje hodnota MTU v síti?
+answer: Maximální velikost rámce, který lze přenést bez fragmentace
+wrong_answers:
+  - Maximální kapacita úložiště směrovače bez fragmentace
+  - Maximální počet hostitelů v síti bez fragmentace
+  - Minimální délka hlavičky IP bez fragmentace
+explanation: |
+  MTU (Maximum Transmission Unit) definuje maximální velikost rámce, který může být přenesen v segmentu bez nutnosti fragmentace.
+reviewed: false

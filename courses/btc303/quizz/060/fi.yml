@@ -1,0 +1,9 @@
+question: Mikä on avoimen lähdekoodin määritelmän mukaan ensisijainen maksuja koskeva vaatimus, kun avoimen lähdekoodin ohjelmistoja jaetaan edelleen osana ohjelmistojen kokonaisjakelua?
+answer: Lisenssissä ei saa vaatia rojaltia tai muuta maksua tällaisesta myynnistä
+wrong_answers:
+  - Kehittämiskustannusten kattamiseksi on perittävä kohtuullinen jäljennöskustannus
+  - Rojaltimaksut ovat sallittuja, mutta ne eivät saa ylittää 5 prosenttia jakeluhinnasta
+  - Hallinnollisia maksuja saatetaan vaatia, mutta vain kaupallisesta uudelleenjakelusta
+explanation: |
+  Avoimen lähdekoodin määritelmän kohdassa "Vapaa jakelu" todetaan nimenomaisesti, että "Lisenssi ei saa vaatia rojaltia tai muuta maksua tällaisesta myynnistä" Tämä tarkoittaa, että avoimen lähdekoodin ohjelmistojen on oltava vapaasti jaettavissa ilman pakollisia maksuja tai rojalteja. Muissa vaihtoehdoissa annetaan virheellisesti ymmärtää, että erilaiset maksut ovat sallittuja, mikä rikkoisi avoimen lähdekoodin ohjelmistoja määrittelevää vapaan uudelleenjakelun perusperiaatetta.
+reviewed: false

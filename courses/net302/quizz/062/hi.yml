@@ -1,0 +1,9 @@
+question: किसी URL में IPv6 Address डालने के लिए किस संकेतन का उपयोग किया जाता है?
+answer: IPv6 Address को वर्गाकार कोष्ठकों में संलग्न किया गया है
+wrong_answers:
+  - IPv6 Address कोष्ठक में संलग्न है
+  - IPv6 Address को उद्धरण चिह्नों में संलग्न किया गया है
+  - IPv6 Address कच्चा लिखा गया है
+explanation: |
+  किसी भी अस्पष्टता से बचने के लिए, URL में IPv6 Address को पोर्ट से अलग करने के लिए वर्गाकार कोष्ठकों का उपयोग किया जाता है।
+reviewed: false

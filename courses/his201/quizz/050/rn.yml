@@ -1,0 +1,9 @@
+question: Ni nde yaremye urubuga rwa Mt. Gox Exchange ku wa 18 Nyakanga 2010, inyuma y’indwi imwe y’ugucapura gukomeye kwa Bitcoin?
+answer: Jedi Makalebu
+wrong_answers:
+  - Mariko Karpelesi
+  - Mariti Malmi
+  - Gavini Andresen
+explanation: |
+  Yaremye iri soko ryiza kubera umutima wiwe, abona ingene bigoye kuronka Bitcoin muri Exchange ku madolari (na cane cane ku isoko rya Bitcoin).
+reviewed: true

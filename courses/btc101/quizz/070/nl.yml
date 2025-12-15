@@ -1,10 +1,12 @@
-question: Hoeveel is de BTC-beloning na de vierde Halving?
-answer: 3.125 BTC.
+question: Wat is het risico van het delen van de publieke sleutel van een Bitcoin Wallet?
+answer: Privacy verliezen.
 wrong_answers:
-  - 1.5625 BTC.
-  - 6.25 BTC.
-  - 12.5 BTC.
+  - De Bitcoin Wallet vernietigen.
+  - De Bitcoins verliezen.
+  - De Bitcoin Wallet hacken.
 explanation: |
-  Na de vierde Halving, die plaatsvindt op blokhoogte
-  840.000, is de BTC-beloning voor Mining 3,125 BTC.
+  Het delen van de openbare sleutel brengt risico's met zich mee voor de privacy, maar niet voor de veiligheid
+  voor de veiligheid. De publieke sleutel wordt namelijk gebruikt om
+  generate Bitcoin adressen en dus geld te ontvangen, maar het
+  niet Ownership van de Bitcoins vertegenwoordigt.
 reviewed: true

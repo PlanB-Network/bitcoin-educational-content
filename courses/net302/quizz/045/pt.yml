@@ -1,0 +1,9 @@
+question: O que é a prática de modificar artificialmente o seu MAC Address?
+answer: Falsificação de MAC
+wrong_answers:
+  - Phishing MAC
+  - Deteção de MAC
+  - Registo de teclas Mac
+explanation: |
+  O spoofing de MAC é o ato de alterar o hardware Address de uma rede Interface, muitas vezes por razões de privacidade ou para contornar restrições.
+reviewed: false

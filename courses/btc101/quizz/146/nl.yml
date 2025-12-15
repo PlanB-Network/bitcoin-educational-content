@@ -1,11 +1,8 @@
-question: Waarom is het belangrijk dat een Bitcoin knooppunt betaalbaar en toegankelijk blijft voor alle mogelijke gebruikers?
-answer: Omdat het de decentralisatie van het netwerk vergemakkelijkt.
+question: Wat is het doel van de moeilijkheidsaanpassing in Bitcoin Mining?
+answer: Het herbalanceert het globale Mining spel op basis van het aantal deelnemers.
 wrong_answers:
-  - Omdat het de transactiecapaciteit van het netwerk verhoogt.
-  - Omdat het de transactiecapaciteit van het netwerk vermindert.
-  - Omdat het de Block reward voor mijnwerkers verhoogt.
-explanation: |
-  De betaalbare kosten en toegankelijkheid van een Bitcoin knooppunt is
-  belangrijk omdat het de decentralisatie van
-  het netwerk.
+  - Het verhoogt de beloning voor Mining.
+  - Het vermindert het aantal bitcoins in omloop.
+  - Het verhoogt de veiligheid van het Bitcoin netwerk.
+explanation: >-
 reviewed: true

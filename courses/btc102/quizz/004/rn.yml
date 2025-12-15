@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo ngenderwako bw'ubuhinga bwa Ponzi?
+answer: Abanyamitahe bambere bahembwa n'imitahe ya bashasha .
+wrong_answers:
+  - Umwimbu uva mu bidandazwa biboneka kwisoko
+  - Abanyamitahe bagabura inyungu zivuye mwishirahamwe
+  - Inyungu ziva mu masezerano y’ubwenge kuri Blockchain.
+explanation: |
+  Mu mugambi wa Ponzi, nta kintu nyaco kiremwa, kandi amahera yishurwa ashingiye gusa ku kuza kw’abashasha baza muri iyo mugambi.
+reviewed: false

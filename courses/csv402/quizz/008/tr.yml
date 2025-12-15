@@ -1,0 +1,9 @@
+question: Deterministik Bitcoin taahhütlerinin temel amacı nedir?
+answer: Bir işleme tek bir Commitment'in eklenmesini sağlayın
+wrong_answers:
+  - Bitcoin işlemlerinin yapısının basitleştirilmesi
+  - RGB işlem maliyetlerini azaltın
+  - RGB çoklu imza üretimini optimize etme
+explanation: |
+  Bitcoin deterministik taahhütler, gizli rakip taahhütlerden kaçınmak için bir işleme tek bir Commitment'in eklenmesini garanti eder.
+reviewed: false

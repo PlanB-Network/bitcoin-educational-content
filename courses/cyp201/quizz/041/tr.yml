@@ -1,0 +1,9 @@
+question: generate entropi için kötü tasarlanmış bir PRNG kullanmanın ana riski nedir?
+answer: Özel anahtarlar bir saldırgan tarafından tahmin edilebilir
+wrong_answers:
+  - Mnemonic cümlesi yanlış kelimeler içerebilir
+  - Dijital imzalar geçersiz hale gelecektir
+  - Bitcoin adresleri ağ ile uyumsuz olacaktır
+explanation: |
+  Kötü tasarlanmış bir PRNG öngörülebilir diziler üreterek anahtarları saldırılara karşı daha savunmasız hale getirebilir.
+reviewed: false

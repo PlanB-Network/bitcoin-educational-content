@@ -1,0 +1,9 @@
+question: Keynes tarafından ekonomiyi canlandırmak için önerilen temel ekonomik araç nedir?
+answer: Kamu harcamalarındaki artışlar
+wrong_answers:
+  - Vergi indirimleri
+  - Pazarın serbestleştirilmesi
+  - İhracatta artış
+explanation: |
+  Keynes, özellikle durgunluk dönemlerinde genel talebi canlandırmak, işsizliği azaltmak ve ekonomik büyümeyi teşvik etmek için kamu harcamalarının artırılmasını savunmuştur.
+reviewed: true

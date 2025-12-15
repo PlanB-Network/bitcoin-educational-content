@@ -1,11 +1,11 @@
-question: Co je AMF?
-answer: Autorité des Marchés Financiers.
+question: Jaké je jedno z rizik spojených s nákupem Bitcoinu?
+answer: Jeho cena může klesnout na 0.
 wrong_answers:
-  - Americký měnový fond.
-  - Asociace těžebních zařízení.
-  - Automatizovaný peněžní tok.
+  - Může být snadno ukraden.
+  - Může být duplikován.
+  - Může být fyzicky ztracen.
 explanation: |
-  AMF, neboli Autorité des Marchés Financiers, je francouzská
-  organizace, která reguluje platformy, na kterých lze
-  nakupovat bitcoiny.
+  Text kurzu uvádí, že Bitcoin je vysoce volatilní
+  finanční aktivum a jeho cena může klesnout na 0, což je jedno
+  z rizik spojených s nákupem Bitcoinu.
 reviewed: true

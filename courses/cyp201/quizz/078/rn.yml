@@ -1,0 +1,9 @@
+question: Intangamarara `wpkh` mu Descriptor isobanura iki?
+answer: Kwishura-Icabona-Urufunguzo-Hash.
+wrong_answers:
+  - kwishura-urufunguzo rwa Pub
+  - Pay-to-Script-Hash.
+  - Inyandiko y’Icabona Hash.
+explanation: |
+  Intangamarara `wpkh` yerekana inyandiko ya SegWit v0 ikoresheje aderesi za Pay-to-Witness-Public-Key-Hash.
+reviewed: false

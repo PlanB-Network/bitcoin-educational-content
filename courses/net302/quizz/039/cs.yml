@@ -1,0 +1,9 @@
+question: Jaký je hlavní rozdíl mezi veřejným a soukromým protokolem IPv4 Address?
+answer: Veřejná adresa Address je jedinečná a směrovatelná v Internetu
+wrong_answers:
+  - Soukromá síť Address je jedinečná a směrovatelná v internetu
+  - Veřejná síť Address je vždy přidělena pomocí DHCP
+  - Soukromý server Address je vždy přidělen pomocí DHCP
+explanation: |
+  Veřejná IPv4 Address je globálně jedinečná a směrovatelná v Internetu, zatímco privátní Address je platná pouze v rámci místní sítě.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilken konfigurationsfil definierar ett statiskt nätverk Interface på ett RHEL-liknande system?
+answer: ifcfg-[Interface]
+wrong_answers:
+  - /etc/hosts
+  - /etc/resolv.conf
+  - /etc/nätverk/gränssnitt
+explanation: |
+  På RHEL, CentOS och liknande system har varje Interface sin egen ifcfg-*-fil som finns i /etc/sysconfig/network-scripts/.
+reviewed: false

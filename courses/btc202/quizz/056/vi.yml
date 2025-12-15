@@ -1,0 +1,9 @@
+question: Cách dễ nhất để kết nối Wallet di động với Electrs thông qua Umbrel là gì?
+answer: Quét mã QR Tor
+wrong_answers:
+  - Tải xuống tệp cookie
+  - Nhập khóa riêng tư
+  - Sao chép tệp Wallet.dat
+explanation: |
+  Umbrel cho phép bạn quét trực tiếp mã QR Tor do Electrs cung cấp để cấu hình kết nối di động của bạn.
+reviewed: true

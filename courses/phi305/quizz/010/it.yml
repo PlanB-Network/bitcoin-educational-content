@@ -1,0 +1,9 @@
+question: Etica è stata pubblicata?
+answer: Postumo.
+wrong_answers:
+  - Quando era vivo.
+  - È una raccolta di articoli di stampa.
+  - Con la corrispondenza dell'autore.
+explanation: |
+  L'Etica, l'opera principale di Spinoza, fu pubblicata postuma nel 1677, pochi mesi dopo la sua morte. L'opera era troppo controversa per essere pubblicata durante la sua vita senza rischiare persecuzioni.
+reviewed: false

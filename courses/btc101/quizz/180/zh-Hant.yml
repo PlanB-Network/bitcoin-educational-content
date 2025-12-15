@@ -1,8 +1,8 @@
-question: 導致金融當局難以監管 Bitcoin 的一個因素是什麼？
-answer: 它在全球範圍內全天候運作。
+question: 接受 Bitcoin 作為商家有什麼好處？
+answer: 抵制審查。
 wrong_answers:
-  - 它由中央機構控制。
-  - 世界上任何地方都不使用它。
-  - 它很容易偽造。
+  - 交易費用增加。
+  - 防止通縮。
+  - 財務限制。
 explanation: >-
 reviewed: true

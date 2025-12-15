@@ -1,0 +1,12 @@
+question: Bitcoin 노드의 지리적 분포의 중요성은 무엇인가요?
+answer: 따라서 Blockchain의 모든 사본을 파기하는 것은 사실상 불가능합니다.
+wrong_answers:
+  - 다른 지역의 Bitcoin 가격을 결정합니다.
+  - Bitcoin 트랜잭션 속도에 영향을 줍니다.
+  - 이는 한 지역에서 채굴할 수 있는 비트코인의 수를 결정합니다.
+explanation: |
+  Bitcoin 노드의 지리적 분포로 인해
+  모든 사본을 파괴하는 것은 사실상 불가능합니다
+  Blockchain. 노드가 분산되어 있기 때문에 모든 노드를
+  물리적으로 모두 압수하기가 어렵습니다.
+reviewed: true

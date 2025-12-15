@@ -1,0 +1,9 @@
+question: Jaká je délka standardního protokolu IPv4 Address v bitech?
+answer: 32bitové
+wrong_answers:
+  - 8 bitů
+  - 128 bitů
+  - 16 bitů
+explanation: |
+  IPv4 Address je kódován na 32 bitů, rozdělených do čtyř bajtů po 8 bitech.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Cơ chế nào chuyển đổi MAC Address thành mã định danh 64 bit để tạo IPv6 Address?
+answer: EUI-64
+wrong_answers:
+  - NAT64
+  - PPPoE-64
+  - DNSSEC64
+explanation: |
+  Cơ chế EUI-64 chuyển đổi MAC Address 48 bit thành mã định danh 64 bit, được sử dụng trong cấu hình tự động IPv6.
+reviewed: false

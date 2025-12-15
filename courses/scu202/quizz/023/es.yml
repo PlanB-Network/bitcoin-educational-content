@@ -6,4 +6,4 @@ wrong_answers:
   - Patrón
 explanation: |
   GNOME, Xfce, Cinnamon y MATE se basan en GTK, una biblioteca de software dedicada a las interfaces gráficas de usuario en Linux.
-reviewed: false
+reviewed: true

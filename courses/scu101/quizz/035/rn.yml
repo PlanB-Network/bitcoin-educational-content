@@ -1,0 +1,10 @@
+question: Intumbero y’ukugerageza guhenda abantu mudutego (Phishing) ni iyihe?
+answer: Kugira ngo ukurwemwo amakuru y’agaciro, nk’amakuru yawe y’ibanga be n’amajambo y’ibanga yawe
+wrong_answers:
+  - Kugira ngo bakurungikire ubutumwa butari bwo.
+  - Kugira ngo bakugurishe ibintu canke serivisi.
+  - Kugira ngo tubatumire mu birori canke mu mahugurwa yo kuri internet.
+explanation: |
+  Kugerageza guhenda abantu mudutego (Phishing) bigamije kugururamwo amakuru y’agaciro, nk’amakuru yawe y’ibanga be n’amajambo y’ibanga yawe.
+  Abakwinjirira bakoresha imikenyuro igiye itandukanye, nk'ubutumwa bwa imeyiri bw'ububeshi, kugira baguhende ubereke amakuru yawe.
+reviewed: true

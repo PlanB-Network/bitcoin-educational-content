@@ -1,0 +1,9 @@
+question: Welche US-Behörde stand hinter dem ARPANET-Projekt?
+answer: ARPA
+wrong_answers:
+  - ARPAN
+  - IETF
+  - AETF
+explanation: |
+  Die ARPA (Advanced Research Projects Agency) initiierte das ARPANET, das die Grundlage für die Entwicklung des TCP/IP-Protokolls bildete. Im Jahr 1972 wurde die Agentur in DARPA (Defense Advanced Research Projects Agency) umbenannt.
+reviewed: false

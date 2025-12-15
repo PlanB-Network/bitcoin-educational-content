@@ -1,0 +1,9 @@
+question: Ni ubuhe bunini bw’ibice vya IPv6 muri rusangi IANA itanga kuri buri Registre ya Internet y’Akarere (RIR)?
+answer: /12
+wrong_answers:
+  - /48
+  - /32
+  - /23
+explanation: |
+  Kuva mu mwaka w’2006, RIR yose mu bisanzwe ironka /12 block ya IPv6, itanga ububiko bunini cane bwo gutanga akarere.
+reviewed: false

@@ -8,4 +8,4 @@ term: 掃描交易
 ![](../../dictionnaire/assets/6.webp)
 
 
-> ► *在法文中，「掃描交易」可譯為「transaction de balayage」。
+> ► *在法文中，「掃描交易」可譯為「transaction de balayage」。*

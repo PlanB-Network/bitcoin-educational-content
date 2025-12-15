@@ -1,0 +1,9 @@
+question: IPv6導入の主な目的は何ですか？
+answer: 事実上無制限のAddressスペースを提供する
+wrong_answers:
+  - イーサネットのスループットを4倍に向上
+  - 徐々にTCPをUDPに置き換える
+  - パケットあたりのバイト数を減らす
+explanation: |
+  IPv6の主な目的は、Address空間を大幅に拡張することでIPアドレスの不足を解消することである。
+reviewed: false

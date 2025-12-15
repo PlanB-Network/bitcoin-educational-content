@@ -1,13 +1,9 @@
-question: Tình trạng của Bitcoin ở El Salvador là gì?
-answer: Tiền tệ hợp pháp.
+question: Một nút Lightning sẽ đối mặt với rủi ro gì khi công bố trạng thái kênh cũ?
+answer: Một hình phạt
 wrong_answers:
-  - Bị hình sự hóa.
-  - Không rõ.
-  - Không được quản lý.
+  - Một cảnh báo
+  - Phí khai thác bổ sung
+  - Đóng băng tạm thời
 explanation: |
-  Văn bản trong khóa học đề cập rằng một số quốc gia đã cấm
-  và hình sự hóa việc sử dụng Bitcoin, làm tăng thêm
-  sự phức tạp của việc áp dụng Bitcoin dựa trên các nền văn hóa, kỷ nguyên, và
-  quốc gia. Tuy nhiên, El Salvador đã đủ dũng cảm để chấp nhận nó
-  như một tiền tệ hợp pháp.
-reviewed: true
+  Giao thức quy định một hình phạt mang tính răn đe, cho phép bên kia thu hồi toàn bộ số tiền.
+reviewed: false

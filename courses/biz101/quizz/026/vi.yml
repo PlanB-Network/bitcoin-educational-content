@@ -1,9 +1,9 @@
-question: What is one key consideration when choosing a platform or broker to buy Bitcoin for a business?
-answer: The provider’s reputation, security measures, and ability to export transaction histories for accounting.
+question: Một cân nhắc quan trọng khi lựa chọn nền tảng hoặc nhà môi giới để mua Bitcoin cho doanh nghiệp là gì?
+answer: Uy tín của nhà cung cấp, các biện pháp bảo mật và khả năng xuất lịch sử giao dịch để hạch toán.
 wrong_answers:
-  - Ensuring the platform only supports obscure cryptocurrencies.
-  - Finding a provider that refuses to offer any customer support.
-  - Using a service that prohibits withdrawing Bitcoin to a self-custody wallet.
+  - Đảm bảo nền tảng chỉ hỗ trợ các loại tiền điện tử ít người biết đến.
+  - Tìm nhà cung cấp từ chối cung cấp bất kỳ dịch vụ hỗ trợ khách hàng nào.
+  - Sử dụng dịch vụ cấm rút Bitcoin về wallet tự quản.
 explanation: |
-  A reliable platform should have a solid reputation, good security, and tools for record-keeping. The ability to withdraw Bitcoin and integrate with accounting software is also crucial for business operations.
-reviewed: false
+  Một nền tảng đáng tin cậy phải có uy tín vững chắc, bảo mật tốt và các công cụ lưu trữ hồ sơ. Khả năng rút Bitcoin và tích hợp với phần mềm kế toán cũng rất quan trọng đối với hoạt động kinh doanh.
+reviewed: true

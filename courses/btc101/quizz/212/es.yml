@@ -1,12 +1,10 @@
-question: ¿Cómo describe este curso a Bitcoin?
-answer: Una materia multidisciplinaria.
+question: ¿Qué sugiere este curso sobre el futuro del Bitcoin?
+answer: No va a desaparecer.
 wrong_answers:
-  - Una materia simple.
-  - Una materia física.
-  - Una materia de una sola disciplina.
+  - Será reemplazado por una tecnología mejor.
+  - Será prohibido en todo el mundo.
+  - Perderá su valor.
 explanation: |
-  Bitcoin se describe como una materia multidisciplinaria porque
-  plantea preguntas relacionadas con varios campos, incluyendo
-  criptografía, teoría de juegos, economía y política monetaria,
-  ciencias de la computación, filosofía, energía, leyes y regulación.
+  El texto del curso sugiere que el Bitcoin no va a
+  desaparecer. Al contrario, la revolución apenas ha comenzado.
 reviewed: true

@@ -1,0 +1,9 @@
+question: CalyxOS'a entegre edilen MicroG nedir?
+answer: Google hizmetlerinin ücretsiz bir yeniden uygulaması
+wrong_answers:
+  - Bir izin yöneticisi
+  - Android için açık kaynaklı bir VPN
+  - Google'ın tescilli antivirüsü
+explanation: |
+  MicroG, Google API'ye bağlı uygulamaları resmi ikili dosyaları yüklemeden çalıştırmanıza olanak tanıyan açık kaynaklı bir alternatiftir.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bitcoin'da Taproot ile hangi imza algoritması tanıtıldı?
+answer: Schnorr imza şeması
+wrong_answers:
+  - ECDSA
+  - SHA256
+  - PBKDF2
+explanation: |
+  Schnorr imza şeması Kasım 2021'de Taproot güncellemesi ile tanıtıldı.
+reviewed: false

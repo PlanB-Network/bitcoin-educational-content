@@ -1,0 +1,9 @@
+question: Mis on skolastiline filosoofia?
+answer: Keskaja kristlik filosoofia.
+wrong_answers:
+  - Poliitiline liikumine.
+  - Anarhistlik filosoofia.
+  - Ratsionaalne filosoofia.
+explanation: |
+  Šolastiline filosoofia oli keskaja kristlik filosoofia, mis domineeris Euroopa ülikoolides. See püüdis ühtlustada kristlikku usku ja aristotelistlikku filosoofiat.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was ist der Hauptzweck der Dezentralisierung in Bitcoin?
+answer: So erreichen Sie Zensurresistenz
+wrong_answers:
+  - Beschleunigung der Transaktionsverarbeitung
+  - Senkung der Energieverbrauchskosten
+  - Zur Vereinfachung der Benutzeroberfläche
+explanation: |
+  Die Dezentralisierung in Bitcoin dient in erster Linie dazu, Zensurresistenz zu erreichen, was bedeutet, dass keine einzelne Einheit Transaktionen kontrollieren, blockieren oder manipulieren kann. Dies wird im Text ausdrücklich erwähnt: Dezentralisierung ist ein Mittel, um Zensurresistenz zu erreichen Die anderen Optionen sind falsch, da die Dezentralisierung Bitcoin langsamer und energieintensiver macht als zentralisierte Systeme und das System eher komplexer als einfacher macht. Zensurresistenz ist das, was Bitcoin von traditionellen Geldsystemen unterscheidet und Regierungen oder andere Behörden daran hindert, es abzuschalten oder zu kontrollieren, wer es benutzen kann.
+reviewed: false

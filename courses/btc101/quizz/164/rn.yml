@@ -1,0 +1,13 @@
+question: Ni gute umurongo wa Bitcoin ushobora gutuma ushobora guhangana n’ugucengera no guhangana n’ugucengera?
+answer: Igice kimwekimwe cose c’iyo porotokole gikwiragiye kw’isi yose.
+wrong_answers:
+  - Ikoresha uruja n’uruza rw’ibintu vyo mu karere vy’ibihimba vy’umubiri bikwiragijwe mu Buraya.
+  - Ikoresha ubuhinga bugoranye kugira ngo yemeze amafaranga.
+  - Ikoresha urugero rwo hejuru rw’ugushiramwo amakuru.
+explanation: |
+  Itegeko rya Bitcoin rituma rishobora guhangana n’ugucengera kandi
+  ukwihangana kuko igice cose c’amasezerano ni .
+  zikwiragijwe mu bibanza bitandukanye kw’isi yose. Nk'akarorero,
+  hariho nk'ibice 40.000 vy'amashanyarazi Bitcoin muri vyose
+  imigabane.
+reviewed: true

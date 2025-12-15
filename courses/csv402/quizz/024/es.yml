@@ -1,9 +1,9 @@
 question: ¿Qué mecanismo de RGB permite agrupar varias transiciones en una única transacción de Bitcoin?
-answer: Paquete de transición
+answer: Transition Bundle
 wrong_answers:
-  - Agregación de focas
-  - Árbol de compromisos múltiples
-  - Consolidación estatal
+  - Seal Aggregation
+  - Multi-Commitment Tree
+  - State Consolidation
 explanation: |
-  Un Paquete de Transiciones es un conjunto de Transiciones de Estado RGB (pertenecientes al mismo contrato) que están todas implicadas en la misma transacción testigo de Bitcoin.
+  Un Transition Bundle es un conjunto de State Transitions de RGB (pertenecientes al mismo contrato) que están todas implicadas en la misma witness transaction de Bitcoin.
 reviewed: false

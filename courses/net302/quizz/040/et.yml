@@ -1,0 +1,9 @@
+question: Milline kirje on kohustuslik igas DNS-tsoonifailis?
+answer: SOA (Start Of Authority)
+wrong_answers:
+  - PTR (osuti)
+  - AAAA (IPv6 Address)
+  - SRV (Service Locator)
+explanation: |
+  SOA-kirje määratleb tsooni autoriteedi ja on vajalik igas DNS-tsoonifailis.
+reviewed: false

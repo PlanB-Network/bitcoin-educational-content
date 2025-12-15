@@ -1,0 +1,9 @@
+question: Quale strumento visualizza i messaggi DNS dettagliati, compresi i record e il processo di risoluzione?
+answer: scavare
+wrong_answers:
+  - ospite
+  - ping
+  - arp
+explanation: |
+  dig (Domain Information Groper) fornisce informazioni dettagliate sulla risoluzione DNS, compresi i tipi di record.
+reviewed: false

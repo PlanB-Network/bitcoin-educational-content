@@ -1,0 +1,9 @@
+question: Bastiat yıkımın ekonomi üzerindeki etkisinden nasıl bir sonuç çıkarıyor?
+answer: Ekonomi için zararlıdır
+wrong_answers:
+  - Ekonomi için faydalıdır
+  - Ekonomi için nötrdür
+  - Ekonomik duruma göre değişir
+explanation: |
+  Bastiat, yıkımın ekonomik bir yük olduğunu, çünkü değerli kaynakları saptırdığını ve hiçbir katma değer yaratmadığını göstermektedir.
+reviewed: false

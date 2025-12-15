@@ -1,0 +1,9 @@
+question: Hangi ABD federal istihbarat servisi Nisan 2011'de Gavin Andresen'i birkaç ay sonra Bitcoin'ı sunmak üzere davet etmiştir?
+answer: CIA
+wrong_answers:
+  - FBI
+  - NSA
+  - DEA
+explanation: |
+  Daha spesifik olarak, CIA tarafından yönetilen bir Amerikan girişim sermayesi fonu olan In-Q-Tel'di, ancak ziyaret CIA'in merkezinde gerçekleşti.
+reviewed: true

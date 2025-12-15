@@ -1,11 +1,11 @@
-question: Qual é o número do bloco da primeira transação Bitcoin?
-answer: Bloco 170.
+question: Por que o número de confirmações em uma transação Bitcoin é importante?
+answer: Quanto mais confirmações uma transação tem, mais imutável ela se torna.
 wrong_answers:
-  - Bloco 1.
-  - Bloco 17.
-  - Bloco 1700.
-explanation: |
-  A primeira transação Bitcoin, que foi uma transação de
-  10 BTC entre Satoshi Nakamoto e Hal Finney, está registrada
-  no bloco 170.
+  - Quanto mais confirmações uma transação tem, mais valiosa ela se torna.
+  - Quanto mais confirmações uma transação tem, mais rápido ela é processada.
+  - Quanto mais confirmações uma transação tem, menos segura ela é.
+explanation: >-
+  O número de confirmações em uma transação Bitcoin indica quantos
+  blocos foram minerados em cima do bloco que contém a transação. Quanto mais
+  confirmações uma transação tem, mais imutável ela se torna.
 reviewed: true

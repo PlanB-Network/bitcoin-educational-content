@@ -1,0 +1,8 @@
+question: In Liquid's Asset Management Platform (AMP), what is the primary technical mechanism that prevents single-point-of-failure compliance actions while maintaining regulatory control over tokenized assets?
+answer: Multisignature authorization requiring multiple parties to approve compliance actions like freezing funds or reissuing tokens
+wrong_answers:
+  - Smart contract governance tokens that allow community voting on all compliance decisions and regulatory enforcement
+  - Time-locked escrow accounts that automatically execute compliance actions after predetermined waiting periods expire
+  - Cryptographic proof-of-stake consensus where validators must reach majority agreement before executing any compliance action
+explanation: |
+  AMP uses multisignature control to ensure that compliance actions require authorization from multiple parties, preventing any single employee from acting unilaterally. This creates a checks-and-balances system for sensitive operations while maintaining the regulatory oversight required for institutional assets. The wrong answers describe mechanisms that either don't exist in AMP or would be inappropriate for regulated financial compliance.

@@ -1,0 +1,9 @@
+question: Ni igiki IPv6 isubira inyuma Address, ingana na 127.0.0.1 muri IPv4?
+answer: "::1"
+wrong_answers:
+  - "::0"
+  - "fe80::1"
+  - "fd00::1"
+explanation: |
+  "::1/128" Address ni Address y'inyuma, ikoreshwa mu kugerageza imashini yo mu mutima.
+reviewed: false

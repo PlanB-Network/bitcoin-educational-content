@@ -1,0 +1,9 @@
+question: ネットワークの接続性をテストするためにpingコマンドが使用するプロトコルはどれですか？
+answer: アイシーエムピー
+wrong_answers:
+  - TCP
+  - UDP
+  - アープ
+explanation: |
+  pingコマンドは、ICMPプロトコルを使用してエコー要求を送信し、ネットワークの待ち時間を測定します。
+reviewed: false

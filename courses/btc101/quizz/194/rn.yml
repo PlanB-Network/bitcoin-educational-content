@@ -1,0 +1,12 @@
+question: Amabwirizwa ya KYC afise intumbero iyihe?
+answer: Kugira ngo barwanye ugufasha iterabwoba, guhunga imisoro no gukoresha amahera mu buryo butari bwo.
+wrong_answers:
+  - Kugira ngo Bitcoin yongere igiciro kandi uwuyikoresha yishure imisoro myinshi.
+  - Kugira ngo ugenzure Supply ya Bitcoin.
+  - Kugira ngo abantu ntibagure Bitcoin.
+explanation: |
+  Ivyanditswe vy’amashure bisigura ko Menya Umukiriya Wawe (KYC) .
+  amategeko asaba abakoresha gutanga ikimenyetso ku
+  kurwanya amafaranga y’iterabwoba, guhunga imisoro, n’amahera
+  gumesa.
+reviewed: true

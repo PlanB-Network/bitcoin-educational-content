@@ -1,0 +1,9 @@
+question: Miks kipub UTXO komplekti suurus aja jooksul struktuuriliselt kasvama?
+answer: Iga makse tekitab üldjuhul kaks uut UTXO-d
+wrong_answers:
+  - Tavapärased maksed ei tarbi UTXO sisendina
+  - Iga Fork korrutab olemasolevate UTXOde arvu
+  - Loodavate bitcoinide arv on lõpmatu
+explanation: |
+  Maksetehing kulutab ühe UTXO ja loob sageli kaks (makse + Exchange), paisutades seega kogumi kogusuurust.
+reviewed: true

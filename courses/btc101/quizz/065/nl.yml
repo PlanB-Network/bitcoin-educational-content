@@ -1,12 +1,12 @@
-question: Met welke economische principes stemt Bitcoin overeen?
-answer: Beginselen van Oostenrijkse economie.
+question: Wat zijn de drie hoofdfuncties van een Bitcoin Wallet?
+answer: Bitcoins ontvangen, bitcoins versturen, ze beveiligen tegen hacken en diefstalpogingen.
 wrong_answers:
-  - Principes van Keynesiaanse economie.
-  - Principes van marxistische economie.
-  - Beginselen van neoklassieke economie.
+  - Bitcoins opslaan, bitcoins versturen, beveiligen tegen hacken en diefstalpogingen.
+  - Bitcoins ontvangen, bitcoins opslaan, beveiligen tegen hacken en diefstalpogingen.
+  - Bitcoins ontvangen, bitcoins versturen en bitcoins verkopen.
 explanation: |
-  Bitcoin komt overeen met de principes van de Oostenrijkse economie.
-  De afgetopte hoeveelheid en het ontbreken van een centrale entiteit beschermen het
-  tegen de inherente risico's van inflatie die voorkomen bij
-  traditionele valuta.
+  Een Bitcoin Wallet wordt gebruikt voor interactie met het Bitcoin
+  netwerk. De drie belangrijkste functies zijn het ontvangen van
+  bitcoins te ontvangen, bitcoins te verzenden en ze te beveiligen tegen
+  hacken en diefstalpogingen.
 reviewed: true

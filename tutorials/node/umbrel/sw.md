@@ -1,5 +1,5 @@
 ---
-name: Mwavuli
+name: Umbrel
 description: Gundua na usakinishe Umbrel - Njia yako ya Bitcoin na seva ya nyumbani
 ---
 
@@ -21,10 +21,10 @@ Nodi ya Bitcoin ni kompyuta inayoshiriki katika mtandao wa Bitcoin kwa kuendesha
 
 
 
-- Hifadhi ya Blockchain**: Hudumisha nakala kamili, iliyosasishwa ya Blockchain Bitcoin
-- Uthibitishaji wa muamala**: huthibitisha kila shughuli na kuzuia kulingana na sheria za itifaki
-- Usambazaji wa habari**: Hushiriki miamala na vizuizi vipya na nodi zingine
-- Ujenzi wa Makubaliano**: Huchangia katika matumizi ya sheria za mtandao
+- **Hifadhi ya Blockchain**: Hudumisha nakala kamili, iliyosasishwa ya Blockchain Bitcoin
+- **Uthibitishaji wa muamala**: huthibitisha kila shughuli na kuzuia kulingana na sheria za itifaki
+- **Usambazaji wa habari**: Hushiriki miamala na vizuizi vipya na nodi zingine
+- **Ujenzi wa Makubaliano**: Huchangia katika matumizi ya sheria za mtandao
 
 
 
@@ -34,11 +34,11 @@ Kuendesha nodi yako ya Bitcoin ni hatua muhimu kuelekea uhuru wa kifedha, ikitoa
 
 
 
-- Usiri**: Shiriki miamala yako bila kufichua maelezo yako kwa washirika wengine
-- Upinzani wa udhibiti**: Hakuna mtu anayeweza kukuzuia kutumia Bitcoin
-- Uthibitishaji wa kujitegemea**: Hakuna haja ya kuamini nodi za watu wengine ili kuthibitisha miamala yako
-- Ujenzi wa Makubaliano**: Changia katika matumizi ya sheria za mtandao za Bitcoin
-- Usaidizi wa mtandao**: Kuwa mshiriki hai katika usambazaji na ugatuaji wa mtandao
+- **Usiri**: Shiriki miamala yako bila kufichua maelezo yako kwa washirika wengine
+- **Upinzani wa udhibiti**: Hakuna mtu anayeweza kukuzuia kutumia Bitcoin
+- **Uthibitishaji wa kujitegemea**: Hakuna haja ya kuamini nodi za watu wengine ili kuthibitisha miamala yako
+- **Ujenzi wa Makubaliano**: Changia katika matumizi ya sheria za mitandao za Bitcoin
+- **Usaidizi wa mtandao**: Kuwa mshiriki hai katika usambazaji na ugatuaji wa mtandao
 
 
 
@@ -144,7 +144,7 @@ UmbrelOS ni toleo la bure, la chanzo huria cha mfumo wa uendeshaji wa Umbrel. Su
 
 
 
-**Mapungufu
+**Mapungufu**
 
 
 
@@ -268,7 +268,7 @@ Kwa ufungaji huu utahitaji:
 
 
 
-**usakinishaji wa kadi ya microSD
+**usakinishaji wa kadi ya microSD**
 
 
 
@@ -295,7 +295,7 @@ Kwa ufungaji huu utahitaji:
 
 
 
-**Washa
+**Washa**
 
 
 
@@ -365,7 +365,7 @@ Mara tu Mwavuli wako unapoanzishwa na kupatikana kupitia kivinjari chako, fuata 
 
 
 
-** Uthibitisho wa akaunti
+**Uthibitisho wa akaunti**
 
 
 
@@ -581,7 +581,7 @@ Ukiwa na programu hii, unaweza kufuatilia shughuli zako kwa ufanisi, kuelewa jin
 
 
 
-**Muunganisho wa ndani
+**Muunganisho wa ndani**
 
 
 
@@ -595,7 +595,7 @@ Ukiwa na programu hii, unaweza kufuatilia shughuli zako kwa ufanisi, kuelewa jin
 
 
 
-** Muunganisho wa mbali kupitia Tor**
+**Muunganisho wa mbali kupitia Tor**
 
 
 
@@ -613,7 +613,7 @@ Ukiwa na programu hii, unaweza kufuatilia shughuli zako kwa ufanisi, kuelewa jin
 
 
 
-**Ufikiaji wa vigezo
+**Ufikiaji wa vigezo**
 
 
 
@@ -628,7 +628,7 @@ Ukiwa na programu hii, unaweza kufuatilia shughuli zako kwa ufanisi, kuelewa jin
 
 
 
-** Chaguo la aina ya unganisho
+**Chaguo la aina ya unganisho**
 
 
 
@@ -666,7 +666,7 @@ Sparrow inatoa njia tatu za uunganisho:
 
 
 
-** Mipangilio ya Electr**
+**Mipangilio ya Electr**
 
 
 
@@ -678,7 +678,7 @@ Katika visa vyote viwili, acha chaguo za "Tumia SSL" na "Tumia proksi" bila kuch
 
 
 
-**Muunganisho wa ndani
+**Muunganisho wa ndani**
 
 
 Mpangishi: umbrel.local
@@ -708,7 +708,7 @@ Muunganisho wa Tor ni muhimu ikiwa unataka kufikia nodi yako nje ya mtandao wako
 Kwa maelezo zaidi kuhusu programu ya Sparrow Wallet, tuna mafunzo ya kina :
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 ## Hitimisho
 
 

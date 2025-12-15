@@ -1,0 +1,9 @@
+question: Qual é a aplicação Umbrel que lhe permite gerir o seu nó Lightning com um Interface avançado?
+answer: Cavalgar o relâmpago
+wrong_answers:
+  - BTCPay Lightning
+  - Relé Nostr
+  - Bitfeed
+explanation: |
+  O Ride The Lightning e o ThunderHub oferecem um Interface completo baseado na Web para administrar um nó do Lightning.
+reviewed: true

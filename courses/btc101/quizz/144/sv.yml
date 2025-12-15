@@ -1,7 +1,8 @@
-question: Vad är bandbreddskravet för att köra en Bitcoin-nod, med tanke på 1 block på 1 MB var 10 e minut?
-answer: Cirka 5 GB per månad.
+question: Vad är Proof of Work (POW)?
+answer: Det är säkerhetskonsensus för Bitcoin-protokollet.
 wrong_answers:
-  - Cirka 1 GB per månad.
-  - Cirka 10 GB per månad.
-  - Cirka 20 GB per månad.
+  - Det är processen att skapa nya bitcoins.
+  - Det är en metod för att verifiera Bitcoin-transaktioner.
+  - Det är den algoritm som används för att bryta bitcoins.
+explanation: >-
 reviewed: true

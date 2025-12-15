@@ -1,0 +1,9 @@
+question: 기본 시개시 플래그와 결합할 수 있는 수정자는 무엇인가요?
+answer: Sighash_anyonecanpay
+wrong_answers:
+  - Sighash_nooutput
+  - Sighash_allparticipants
+  - Sighash_비표준
+explanation: |
+  SIGHASH_ANYONECANPAY는 sighash 플래그를 수정하여 하나의 입력만 포함하도록 하고 나머지는 수정할 수 있도록 합니다.
+reviewed: false

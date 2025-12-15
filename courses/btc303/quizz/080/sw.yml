@@ -1,0 +1,9 @@
+question: Je, ni changamoto gani kuu inayofanya uchapishaji wa viraka vya kuathiriwa kwa Bitcoin kuwa changamano hasa ikilinganishwa na mifumo ya jadi ya programu kuu?
+answer: Msimbo wa kiraka unaweza kufichua uwezekano wa kuathiriwa na wavamizi wanaochanganua mabadiliko
+wrong_answers:
+  - Hali ya ugatuzi inamaanisha hakuna mamlaka kuu ya kuratibu muda wa uwekaji viraka
+  - "Mchakato wa makubaliano wa Bitcoin unahitaji idhini ya wengi kabla ya viraka vyovyote vya usalama kutekelezwa"
+  - Asili ya chanzo huria inamaanisha udhaifu wote lazima ufichuliwe hadharani kabla viraka kutengenezwa
+explanation: |
+  Maandishi yanaangazia haswa kwamba wasanidi lazima wawe waangalifu sana wakati wa kuchapisha viraka kwa sababu 'kiraka chenyewe kinaweza kutoa uwezekano wa kuathiriwa.' Hii inaleta changamoto ya kipekee ambapo suluhu inaweza kufichua tatizo bila kukusudia. Nukta ya nne ya kitone inaeleza jinsi wasanidi wa Bitcoin hujaribu kama kiraka 'kimefichwa vya kutosha' kwa kuwafanya wasanidi programu wenye uzoefu waikague bila kujua athari mahususi. Iwapo wataalamu hawa hawawezi kutambua uwezekano wa kuathiriwa na kiraka, inachukuliwa kuwa ni salama kusambaza. Chaguo zingine si sahihi: kuna uratibu kupitia watunzaji wa Bitcoin Core, maelewano hayahitajiki kwa viraka, na udhaifu huwekwa faragha wakati wa ufichuzi unaowajibika.
+reviewed: false

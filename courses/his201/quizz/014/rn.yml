@@ -1,0 +1,9 @@
+question: Ni nde yahinguye iciyumviro ca Proof of Work?
+answer: Sintiya Dwoki na Moni Nawori
+wrong_answers:
+  - Mariko Yakobosoni na Ari Yuweli
+  - Adamu yagarutse
+  - Satoshi Nakamoto
+explanation: |
+  Baciye badondora ico ciyumviro mu 1992. Markus Jakobsson na Ari Juels ni bo baciye ijambo Proof of Work. Adam Back mu nyuma yarafashe iciyumviro ca Hashcash.
+reviewed: true

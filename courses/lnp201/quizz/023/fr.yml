@@ -6,4 +6,4 @@ wrong_answers:
   - Pour diviser équitablement les fonds
 explanation: |
   L'échange de secrets pour les transactions précédentes permet à chaque participant de punir l'autre en cas de tentative de tricherie en publiant une ancienne transaction.
-reviewed: false
+reviewed: true 

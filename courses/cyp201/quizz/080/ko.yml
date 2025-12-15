@@ -1,0 +1,9 @@
+question: SegWit v0 주소를 표현하기 위해 어떤 인코딩이 사용되나요?
+answer: bech32
+wrong_answers:
+  - base58check
+  - bech32m
+  - base64
+explanation: |
+  P2WPKH 및 P2WSH용 주소와 같은 SegWit v0 주소는 SegWit와 함께 도입된 bech32 인코딩을 사용합니다.
+reviewed: false

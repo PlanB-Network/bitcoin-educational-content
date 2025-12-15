@@ -1,0 +1,9 @@
+question: Kdo byl Bernardin de Saint-Pierre?
+answer: Ředitel pařížského přírodovědného muzea na počátku 19. století.
+wrong_answers:
+  - Ministr Ludvíka XIV.
+  - Francouzský filozof.
+  - Revolucionář teroru.
+explanation: |
+  Bernardin de Saint-Pierre (1737-1814) byl na počátku 19. století ředitelem přírodovědného muzea Jardin des Plantes v Paříži. Je známý především díky svému románu Paul et Virginie a popisům přírody.
+reviewed: false

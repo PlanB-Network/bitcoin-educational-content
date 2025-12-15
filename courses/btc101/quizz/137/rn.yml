@@ -1,0 +1,8 @@
+question: Ni ubuhe bandwidth ikenewe kugira ngo umuntu akoreshe node ya Bitcoin, uzirikanye block 1 ya 1MB buri minota 10?
+answer: Nk’ibice 5GB ku kwezi.
+wrong_answers:
+  - Nk’i 1GB ku kwezi.
+  - Nk’ibice 10GB ku kwezi.
+  - Nk’ama 20GB ku kwezi.
+explanation: >-
+reviewed: true

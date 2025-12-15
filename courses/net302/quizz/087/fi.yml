@@ -1,0 +1,9 @@
+question: Mikä komento näyttää pakettien kulkeman reitin IP-kohteeseen?
+answer: traceroute
+wrong_answers:
+  - ss
+  - arp
+  - tcpdump
+explanation: |
+  traceroute näyttää jokaisen lähettäjän ja kohteen välisen välireitittimen TTL:n avulla.
+reviewed: false

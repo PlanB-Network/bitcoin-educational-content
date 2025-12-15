@@ -1,13 +1,13 @@
-question: Vilken är den största nackdelen med fiatvalutor?
-answer: Deras värde urholkas ständigt av den monetära inflationen.
+question: Vilket av följande är inte en fördel med Bitcoin som valuta?
+answer: Det används för att betala skatt.
 wrong_answers:
-  - De är inte lätta att transportera.
-  - Deras värde ökar ständigt genom monetär inflation.
-  - De är inte delbara.
+  - Den är delbar.
+  - Den är transportabel.
+  - Den är utan tillstånd.
 explanation: |
-  Den största nackdelen med fiatvalutor, som dollar och euro
-  dollar och euro, är att deras värde ständigt urholkas av
-  urholkas av monetär inflation. Detta beror på den
-  devalvering som orsakas av de enheter som kontrollerar dem (kung,
-  centralbank, kejsare, diktator).
+  Bitcoin, på grund av dess egenskaper såsom dess delbarhet,
+  verifierbarhet, permissionslöshet och transportabilitet,
+  erbjuder en utmärkt värdebevarare. Dessutom, som en neutral
+  internetvaluta representerar den dessutom ett bra medium för Exchange
+  som inte känner några gränser.
 reviewed: true

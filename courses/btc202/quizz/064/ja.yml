@@ -1,0 +1,9 @@
+question: Mempool.SpaceのようなローカルBlock explorerをUmbrelにインストールする主な理由は何ですか？
+answer: 機密性を保持し、自ノードのデータを使用する。
+wrong_answers:
+  - Bitcoin coreの初期同期のスピードアップ
+  - ブロックに使用できるストレージ容量を増やす
+  - ライトニング・チャンネルの取得
+explanation: |
+  ローカルBlock explorerは、IPリークを防ぎ、あなた自身が検証したデータに依存し、機密性と信頼性を保証します。
+reviewed: true

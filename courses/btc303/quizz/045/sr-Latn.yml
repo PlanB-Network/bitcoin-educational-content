@@ -1,0 +1,9 @@
+question: Koji je bio problematičan pristup koji je Satoshi koristio prilikom implementacije tvrdog fork koji Bitcoin programeri danas nikada ne bi koristili?
+answer: Sakrivanje promene koja lomi kompatibilnost u komitu sa obmanjujućim opisom koji nije davao nikakve naznake o izmenama pravila konsenzusa
+wrong_answers:
+  - Implementacija hard fork bez ikakve javne objave ili komunikacije sa zajednicom Bitcoin unapred
+  - Kombinovanje više hard forkova u jedno izdanje bez odgovarajućeg testiranja ili procesa pregleda zajednice
+  - Aktiviranje hard fork odmah bez pružanja korisnicima dovoljno vremena za nadogradnju softvera čvora
+explanation: |
+  Prema analizi Erica Lombroza, problematičan pristup Satoshi bio je prikrivanje promene koja razbija konsenzus u commitu sa obmanjujućim opisom koji je spominjao samo 'reverted makefile.unix wx-config version 0.3.6' bez ikakvog nagoveštaja o promenama koje razbijaju konsenzus. Ova praksa skrivanja kritičnih modifikacija konsenzusa u commit-ima koji izgledaju bezazleno bila bi smatrana neprihvatljivom po današnjim standardima, gde su transparentnost i jasna komunikacija o promenama konsenzusa osnovni principi razvoja Bitcoin.
+reviewed: false

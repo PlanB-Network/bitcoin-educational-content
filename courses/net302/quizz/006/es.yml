@@ -1,0 +1,9 @@
+question: ¿Qué organización supervisa el gobierno técnico de los protocolos de Internet?
+answer: Consejo de Arquitectura de Internet
+wrong_answers:
+  - Comunidad de Internet
+  - Consorcio World Wide Web
+  - Instituto de Ingenieros Eléctricos y Electrónicos
+explanation: |
+  La Junta de Arquitectura de Internet (IAB) supervisa la gobernanza técnica y coordina la evolución de los protocolos de Internet.
+reviewed: false

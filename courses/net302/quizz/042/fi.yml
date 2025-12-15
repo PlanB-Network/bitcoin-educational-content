@@ -1,0 +1,9 @@
+question: Mikä verkkotunnuksen osa edustaa aluetunnusta (TLD)?
+answer: Oikeanpuoleisin elementti
+wrong_answers:
+  - Vasemmanpuoleisin elementti
+  - Toinen taso isännän jälkeen
+  - Tärkein isännän nimi
+explanation: |
+  Aluetunnus on aina FQDN:n oikeanpuoleisin osa, esimerkiksi .com, .org tai .fr.
+reviewed: false

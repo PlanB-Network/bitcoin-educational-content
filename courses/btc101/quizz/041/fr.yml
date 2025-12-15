@@ -1,9 +1,9 @@
-question: Quelle est la conséquence de l'impression monétaire ?
-answer: Cela conduit à l'inflation, appauvrissant progressivement la population.
+question: Quelle est la conséquence de l'hyperinflation ?
+answer: Une diminution drastique de la valeur de la monnaie.
 wrong_answers:
-  - Cela conduit à la déflation, enrichissant progressivement la population.
-  - Cela conduit à une économie stable sans inflation ni déflation.
-  - Cela conduit à une diminution de l'offre de monnaie.
+  - Une petite diminution de la valeur de la monnaie.
+  - Une augmentation drastique de la valeur de la monnaie.
+  - Une petite augmentation de la valeur de la monnaie.
 explanation: |
-  L'impression monétaire, ou la création de nouvelle monnaie par les banques centrales, conduit à l'inflation. Cela est dû au fait que l'augmentation de l'offre de monnaie réduit le pouvoir d'achat de la monnaie, entraînant une hausse des prix et une diminution de la valeur des économies.
+  À cause de l'hyperinflation, les individus perdent rapidement toute confiance dans la monnaie, ce qui conduit à une diminution drastique de sa valeur sur une courte période de temps.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Který algoritmus nebo dokument řídí výběr mezi IPv4 a IPv6, pokud má název oba typy Address?
+answer: RFC 6724
+wrong_answers:
+  - RFC 1918
+  - RFC 4861
+  - RFC 1035
+explanation: |
+  RFC 6724 definuje algoritmus používaný k rozhodnutí, zda se použije IPv4 nebo IPv6 Address, pokud jsou pro stejné jméno hostitele k dispozici oba.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ECash, b-money ve bit gold gibi diğer dijital para konseptlerine kıyasla RPOW'u benzersiz kılan neydi?
+answer: Şeffaf bir sunucuya dayanıyordu
+wrong_answers:
+  - Proof of Work kullandı
+  - Hesap birimi hiçbir şey tarafından desteklenmiyordu
+  - Kullanıcılar hesaplar yerine belirli değerlerde dijital banknotlara sahipti
+explanation: |
+  B-para ve bit gold gibi Proof of Work kullanıyordu, ancak bit gold'da olduğu gibi destek yoktu. ECash gibi (ve daha sonra Bitcoin gibi), RPOW bir hesap yerine bireysel dijital notların tutulmasına izin veriyordu ve bu açıdan nispeten gizliydi.
+reviewed: true

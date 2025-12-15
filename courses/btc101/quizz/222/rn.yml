@@ -1,0 +1,9 @@
+question: Ni ikihe shingiro nyamukuru rya RGB?
+answer: Kwemeza ku ruhande rw’umukiriya
+wrong_answers:
+  - Gushyira mu bikorwa rusangi kuri blockchain
+  - Konsensusi ya federasiyo
+  - Proof-of-Work
+explanation: |
+  RGB ishingiye ku kwemeza uko ibintu bimeze mu buryo bw’aho biri, blockchain ikaba ikoreshwa gusa nk’ankeri ya kriptografiya no kurinda ikoreshwa kabiri ry’amafaranga.
+reviewed: false

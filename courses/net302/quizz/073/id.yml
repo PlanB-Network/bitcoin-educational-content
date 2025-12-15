@@ -1,0 +1,9 @@
+question: Berapa ukuran blok IPv6 yang umumnya dialokasikan oleh IANA untuk setiap Regional Internet Registry (RIR)?
+answer: /12
+wrong_answers:
+  - /48
+  - /32
+  - /23
+explanation: |
+  Sejak tahun 2006, setiap RIR biasanya menerima satu blok /12 IPv6, menyediakan cadangan yang sangat besar untuk alokasi regional.
+reviewed: false

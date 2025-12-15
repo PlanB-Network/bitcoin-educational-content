@@ -1,0 +1,9 @@
+question: Какое программное обеспечение с открытым исходным кодом обычно используется в качестве эталона для DNS-серверов?
+answer: BIND
+wrong_answers:
+  - Apache
+  - Кальмар
+  - Samba
+explanation: |
+  BIND (Berkeley Internet Name Domain) - это эталонная реализация с открытым исходным кодом, используемая большинством DNS-серверов по всему миру.
+reviewed: false

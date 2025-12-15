@@ -1,0 +1,13 @@
+question: Ni igiki gihangayikishije cane ku bijanye na Single Sign-on (SSO) rutangwa n’ibigo bikomeye vyo kuri internet?
+answer: Bitera ingorane mu bijanye n’ukuntu iboneka be n’ingorane zo gucungerwa.
+wrong_answers:
+  - Biragoye gukoresha.
+  - Bisaba ahantu henshi ho kubika.
+  - Ntibihuye n’imbuga zose.
+explanation: |
+  Single Sign-On (SSO) itangwa n’ibigo bikomeye vyo kuri interineti na yo nyene
+  iratera ingorane mu bijanye n’ukuntu iboneka be n’ingorane zo gucungerwa. 
+  Ivyo ni kubera ko iyo uwutanga SSO afise ikibazo sisiteme yahagaze.
+  canke afashe ingingo yo guhagarika uwuyikoresha, uwo ayikoresha yoshobora gutakaza uburenganzira
+  bwo gukoresha serivise zose zikoresha iyo SSO kugira yemererwe kwinjira.
+reviewed: true

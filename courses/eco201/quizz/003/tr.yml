@@ -1,0 +1,11 @@
+question: Derse göre ekonomik krizlere ne sebep olur?
+answer: Ekonomik krizler insan beceriksizliğinden, piyasa manipülasyonundan veya insanların kolektif coşkusundan kaynaklanabilir.
+wrong_answers:
+  - Ekonomik krizler yalnızca piyasa manipülasyonundan kaynaklanmaktadır.
+  - Ekonomik krizler yalnızca insanların beceriksizliğinden kaynaklanmaktadır.
+  - Ekonomik krizler yalnızca insanların kolektif coşkusundan kaynaklanmaktadır.
+explanation: |
+  Bölümde, kursun aşağıdakileri nasıl keşfedeceğinden bahsedilmektedir
+  ekonomik krizler insanların beceriksizliğinden, piyasanın
+  manipülasyon ya da insanların kolektif coşkusu.
+reviewed: true

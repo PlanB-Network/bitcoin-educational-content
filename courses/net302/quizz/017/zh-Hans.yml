@@ -1,0 +1,9 @@
+question: 网络中的 MTU 值代表什么？
+answer: 无需分片即可传输的最大帧大小
+wrong_answers:
+  - 路由器在不分片的情况下的最大存储容量
+  - 网络上不分片的最大主机数量
+  - 不分片的最小 IP 报头长度
+explanation: |
+  MTU（最大传输单元）定义了无需分片即可在网段上传输的帧的最大大小。
+reviewed: false

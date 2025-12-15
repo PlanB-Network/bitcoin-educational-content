@@ -1,0 +1,9 @@
+question: Koja je bila profesionalna delatnost Spinoze?
+answer: Polirka za astronomske teleskope.
+wrong_answers:
+  - Trgovac.
+  - Profesor filozofije.
+  - Izdavač.
+explanation: |
+  Da bi se izdržavao, Spinoza je radio kao polirač sočiva za astronomske teleskope. Ovaj manuelni rad mu je omogućio da zadrži intelektualnu nezavisnost dok je doprinosio naučnom napretku svog vremena.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kutuda bulunan üç şifreli metnin özelliği nedir?
+answer: Virgülle ayrılmış sayılar içerirler
+wrong_answers:
+  - Hepsi sıradan harflerle yazılmış
+  - Bilinmeyen semboller kullanıyorlar
+  - Birden fazla dilde yazılmışlardır
+explanation: |
+  Üç şifreli metin virgüllerle ayrılmış sayı dizilerinden oluşmakta ve şifrelerinin çözülebilmesi için bir anahtar gerekmektedir.
+reviewed: false

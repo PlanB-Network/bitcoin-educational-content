@@ -1,0 +1,29 @@
+id: d17725d8-3de5-4fbd-a439-cab20267a38e
+
+credit_link: https://youtu.be/WfzcKAzgB9s
+
+project_id: 28168b0b-31a1-4138-91eb-b830ced7e4ec
+
+tags:
+  - software
+  - personal-security
+  - privacy
+
+category: communication
+
+level: intermediate
+
+professor_id: d6587ae8-ea52-483d-b0ac-52ec3ab7f9f4
+
+licence: CC-BY-SA-V4
+
+# Proofreading metadata
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-12-07
+    urgency: 1
+    contributor_names:
+      - runningbitcoin
+    reward: 0

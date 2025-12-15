@@ -1,0 +1,9 @@
+question: Mikä komento näyttää kaikkien verkkoliitäntöjen yksityiskohtaisen tilan Linuxissa?
+answer: ip addr show
+wrong_answers:
+  - ifup -a
+  - netstat -i
+  - ip route show
+explanation: |
+  "ip addr show" -komennolla luetellaan kaikki verkkoliitännät sekä niiden tila, osoitteet ja niihin liittyvät parametrit.
+reviewed: false

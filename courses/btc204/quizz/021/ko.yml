@@ -1,0 +1,9 @@
+question: Bitcoin에서 간편 결제의 패턴은 무엇인가요?
+answer: 입력에 1개 이상의 UTXO, 출력에 2개의 UTXO.
+wrong_answers:
+  - 입력 1UTXO, 출력 1UTXO
+  - 입력에 여러 개의 UTXO, 출력에 1 UTXO
+  - 입력에 5개의 UTXO, 출력에 5개의 UTXO가 있습니다
+explanation: |
+  간소화된 결제에서 사용자는 하나 이상의 UTXO를 입력으로 사용하여 출력으로 결제 UTXO과 거스름돈 UTXO(따라서 2개의 UTXO)을 이행합니다.
+reviewed: true

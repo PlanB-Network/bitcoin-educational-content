@@ -1,0 +1,9 @@
+question: Que intervalos IPv4 Address estão reservados para uso privado?
+answer: 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16
+wrong_answers:
+  - 8.8.8.8/32, 1.1.1.1/32, 255.255.255.0/24
+  - 224.0.0.0/4, 240.0.0.0/4, 0.0.0.0/8
+  - 127.0.0.0/8, 169.254.0.0/16, 198.51.100.0/24
+explanation: |
+  Estas três gamas estão oficialmente reservadas para uso privado e não podem ser encaminhadas através da Internet.
+reviewed: false

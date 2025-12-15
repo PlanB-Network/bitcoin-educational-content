@@ -1,0 +1,9 @@
+question: Finalizm nedir?
+answer: Bir şeyi anlamak için neden ve sonucu tersine çevirmek.
+wrong_answers:
+  - Bir siyaset teorisi.
+  - Yemek pişirmek için bir tarif.
+  - Psikanalizin bir ilkesi.
+explanation: |
+  Finalizm, bir şeyi anlamak için neden ve sonucun tersine çevrilmesidir. Bir olguyu, Spinoza'nın bir yanılsama olarak eleştirdiği gerçek nedenleriyle değil, varsayılan amacıyla açıklamaktır.
+reviewed: false

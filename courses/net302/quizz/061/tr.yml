@@ -1,0 +1,9 @@
+question: IPv6'da anycast Address nedir?
+answer: Birden fazla düğüme atanmış bir Address
+wrong_answers:
+  - Küresel çoklu dağıtıma adanmış bir Address
+  - Her yeniden başlatmada değişen bir Address
+  - Teknik dokümantasyon için ayrılmış bir Address
+explanation: |
+  Bir anycast Address birden fazla cihaza atanır ve yönlendirme paketi topolojik olarak en yakın olana iletir.
+reviewed: false

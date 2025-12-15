@@ -1,0 +1,13 @@
+question: Aşağıdakilerden hangisi Bitcoin'ın bir para birimi olarak avantajlarından biri değildir?
+answer: Vergi ödemek için kullanılır.
+wrong_answers:
+  - Bölünebilir.
+  - Taşınabilir.
+  - İzinsizdir.
+explanation: |
+  Bitcoin, bölünebilirliği gibi özellikleri nedeniyle,
+  doğrulanabilirlik, izinsiz yön ve taşınabilirlik,
+  mükemmel bir değer deposu sunar. Ayrıca, tarafsız bir kurum olarak
+  internet para birimi, Exchange'in iyi bir aracını temsil eder
+  sınır tanımaz.
+reviewed: true

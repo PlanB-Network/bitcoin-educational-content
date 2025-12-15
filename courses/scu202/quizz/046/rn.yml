@@ -1,0 +1,9 @@
+question: Igihe ukoresha ubuhinga bwo gukora amakuru yawe, ni ibiki bihambaye ukwiye kwirinda ubudasiba?
+answer: Gusubizaho igerageza
+wrong_answers:
+  - Guhindura uwuguha interineti
+  - Guhagarika ububiko bw'ikiruhuko
+  - Kugerageza ububiko
+explanation: |
+  Ni ngombwa gusubizaho backup ubudasiba kugira ngo amadosiye ntabe yononekaye canke ngo ntaboneke iyo bikenewe.
+reviewed: false

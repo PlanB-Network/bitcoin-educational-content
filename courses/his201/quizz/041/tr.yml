@@ -1,0 +1,9 @@
+question: Jeremy Sturdivant hangi tarihte Exchange'da Laszlo Hanyecz'e 10.000 bitcoin karşılığında iki pizza teslim ederek kripto para ile ilk fiziksel mal alımını gerçekleştirmiştir?
+answer: 22 Mayıs 2010
+wrong_answers:
+  - 12 Ekim 2009
+  - 18 Nisan 2010
+  - 11 Haziran 2010
+explanation: |
+  Forumda yayınlanan bir duyurunun ardından teklif 22 Mayıs 2010 tarihinde kabul edildi. O tarihte 10.000 bitcoin yaklaşık 44 dolar değerindeydi.
+reviewed: true

@@ -1,0 +1,9 @@
+question: KYC ni iki?
+answer: Uburyo bwo kugenzura no kwandika akaranga k’abaguzi.
+wrong_answers:
+  - Uburyo bwo gukingira amafaranga.
+  - Uburyo bwo kwemeza amafaranga.
+  - Uburyo bwo kwamamaza bwo gusuzuma inyifato y’abaguzi.
+explanation: |
+  KYC ni ijambo risobanura Menya Umukiriya Wawe. Ni uburyo bwo gutegeka bwo kugenzura akaranga k’umukiriya.
+reviewed: false

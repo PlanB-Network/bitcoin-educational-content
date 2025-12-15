@@ -1,0 +1,9 @@
+question: Který protokol se používá k přiřazení IP Address k MAC Address v síti Ethernet?
+answer: ARP
+wrong_answers:
+  - RIP
+  - DNS
+  - OSPF
+explanation: |
+  Protokol ARP (Address Resolution Protocol) mapuje IP adresy na MAC adresy v místních sítích.
+reviewed: false

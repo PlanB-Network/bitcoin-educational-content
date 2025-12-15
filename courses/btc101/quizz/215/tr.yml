@@ -1,0 +1,9 @@
+question: Lightning ödemelerini atomik yapan mekanizma hangisidir?
+answer: HTLC
+wrong_answers:
+  - Multisignature
+  - Proof of Work
+  - SegWit
+explanation: |
+  HTLC’ler ödemeyi bir sırrın açıklanmasına bağlayarak, kayıp olmaksızın tam başarı veya başarısızlığı garanti eder.
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - sudoedit
 explanation: |
   exiftool ni zana yenye nguvu ya kuonyesha na kuondoa metadata kutoka kwa anuwai ya faili (picha, PDF, sauti, n.k.).
-reviewed: false
+reviewed: true

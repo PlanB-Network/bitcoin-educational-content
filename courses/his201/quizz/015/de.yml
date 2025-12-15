@@ -5,5 +5,5 @@ wrong_answers:
   - Einen Konsens in einem Peer-to-Peer-Netzwerk zu erreichen
   - Die Ozeane zum Kochen zu bringen
 explanation: |
-  Hashcash erforderte einen Proof of Work für jede empfangene E-Mail, was dazu dienen sollte, Spam zu begrenzen.
-reviewed: false
+  Hashcash erforderte einen Proof-of-Work für jede empfangene E-Mail, was dazu dienen sollte, Spam zu begrenzen.
+reviewed: true

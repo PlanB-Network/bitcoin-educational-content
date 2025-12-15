@@ -1,0 +1,9 @@
+question: What form of NAT permanently associates a private IP address with a public IP address?
+answer: Static translation
+wrong_answers:
+  - Dynamic translation
+  - PAT (Port Address Translation)
+  - Dynamic routing
+explanation: |
+  Static translation creates a fixed mapping between an internal IP address and a public IP address, useful for making internal resources accessible from the outside.
+reviewed: false

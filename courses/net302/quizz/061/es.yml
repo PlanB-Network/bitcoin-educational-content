@@ -1,0 +1,9 @@
+question: ¿Qué es un anycast Address en IPv6?
+answer: Un Address asignado a varios nodos
+wrong_answers:
+  - Un Address dedicado a la multidifusión global
+  - Un Address que cambia con cada reinicio
+  - Un Address reservado a la documentación técnica
+explanation: |
+  Un Address anycast se asigna a varios dispositivos, y el encaminamiento entrega el paquete al que está topológicamente más cerca.
+reviewed: false

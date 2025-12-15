@@ -1,12 +1,9 @@
-question: Šta je Milton Friedman predvideo 1999.?
-answer: Razvoj pouzdanog e-novca.
+question: Koja od ovih Lightning operacija se beleži onchain?
+answer: Otvaranje kanala
 wrong_answers:
-  - Propast fizičkog novca.
-  - Uspon Bitkoina.
-  - Kraj kontrole vlade nad novcem.
+  - Posredničko plaćanje
+  - Ažuriranje stanja
+  - Rutiranje sa više skokova
 explanation: |
-  Milton Friedman, poznati ekonomista, predvideo je 1999.
-  da će pouzdan e-novac uskoro biti razvijen, metod
-  preko kojeg na internetu možete preneti sredstva sa A na B,
-  bez da A zna B ili obrnuto.
-reviewed: true
+  Samo otvaranje i zatvaranje Lightning kanala odgovaraju Bitcoin transakcijama objavljenim na blokčejnu.
+reviewed: false

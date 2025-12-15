@@ -1,12 +1,10 @@
-question: Qual è la frequenza dell'aggiustamento della difficoltà?
-answer: Ogni 2016 blocchi.
+question: Dove sono conservati i bitcoin?
+answer: Nella blockchain di Bitcoin.
 wrong_answers:
-  - Ogni 1048 blocchi.
-  - Ogni 512 blocchi.
-  - Ogni 4032 blocchi.
+  - Nel wallet.
+  - Sul dispositivo dove è installato il wallet.
+  - Nella cassaforte della Federal Reserve.
 explanation: |
-  L'aggiustamento della difficoltà è un meccanismo che si verifica
-  ogni 2016 blocchi, o circa due settimane, per garantire che un
-  nuovo blocco venga aggiunto alla blockchain ogni dieci minuti in
-  media, indipendentemente dal valore di hashrate globale.
-reviewed: true
+  Sebbene le chiavi private siano memorizzate nel wallet, i
+  bitcoin in realtà sono conservati nella blockchain, che è il registro pubblico decentralizzato all'interno della rete peer-to-peer di Bitcoin.
+reviewed: vero

@@ -1,0 +1,9 @@
+question: Parola yöneticisi kullanmanın temel avantajı nedir?
+answer: Karmaşık parolaları depolar ve üretir
+wrong_answers:
+  - Şifrelerinizi hatırlamanız için ipuçları sağlar
+  - Farklı çevrimiçi hesaplarda aynı parolaları yeniden kullanır
+  - Antivirüs yazılımı ihtiyacını ortadan kaldırır
+explanation: |
+  Parola yöneticisi güçlü parolalar oluşturur ve bunları güvenli bir şekilde saklayarak ezberlemeye gerek kalmadan kolayca geri alınmalarını sağlar.
+reviewed: false

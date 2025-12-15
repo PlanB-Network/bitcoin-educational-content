@@ -1,0 +1,9 @@
+question: Lệnh nào có thể được sử dụng để kiểm tra Interface và cổng nào mà gói tin đến 8.8.8.8 sẽ được định tuyến qua?
+answer: tuyến đường ip lấy 8.8.8.8
+wrong_answers:
+  - ss route -tulnp 8.8.8.8
+  - ping -i 8.8.8.8
+  - netstat -r 8.8.8.8
+explanation: |
+  ip route get <Address> hiển thị đường dẫn chính xác mà một gói tin sẽ đi qua để đến đích cụ thể.
+reviewed: false

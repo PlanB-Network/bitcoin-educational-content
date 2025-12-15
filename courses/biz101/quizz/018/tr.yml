@@ -1,0 +1,9 @@
+question: Kurumsal yatırımcıların ve büyük şirketlerin Bitcoin ile ilgilenmeye başlamasının bir nedeni nedir?
+answer: Bitcoin'in BlackRock gibi büyük finansal oyuncular tarafından benimsenmesi ve Spot Bitcoin ETF'lerinin başarısı, onu bir değer saklama varlığı olarak meşrulaştırmıştır.
+wrong_answers:
+  - Bitcoin'nin fiyatı devlet kurumları tarafından belirlenmekte ve garanti edilmektedir.
+  - Bitcoin işlemleri merkez bankaları tarafından tamamen sigortalıdır.
+  - Dijital varlıkların veya finansal düzenlemelerin anlaşılmasını gerektirmez.
+explanation: |
+  Büyük kurumlar Bitcoin'ü geçerli bir yatırım olarak kabul ettiğinde, piyasaya spekülasyonun ötesinde olgunlaştığı sinyalini verir. Spot Bitcoin ETF'leri gibi ürünler, işletmelerin maruz kalmasını kolaylaştırarak ana akım kabulü daha da artırır.
+reviewed: false

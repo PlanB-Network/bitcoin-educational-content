@@ -1,0 +1,16 @@
+question: Bloklar 100 kat daha ağır olsaydı Bitcoin kullanıcıları için ne gibi sonuçlar doğururdu?
+answer: Bir Bitcoin düğümünün çalıştırılması ortalama bir kişi tarafından erişilebilir olmayacaktır, bu da protokolün ademi merkeziyetçiliğini ve hem işlemlerin hem de mutabakat kurallarının değişmezliğini tehlikeye atacaktır.
+wrong_answers:
+  - Bir Bitcoin düğümünü çalıştırmak ortalama bir insan için daha erişilebilir olacak, protokolün ademi merkeziyetini ve hem işlemlerin hem de mutabakat kurallarının değişmezliğini artıracaktır.
+  - Ağın işlem kapasitesi azalacaktır.
+  - Madenciler için Block reward artacaktır.
+explanation: |
+  Eğer bloklar 100 kat daha ağır olsaydı, bir Bitcoin
+  düğümü için 50 TB Hard disk, 50 TB'ın üzerinde bant genişliği
+  500GB/ay ve yüzlerce bilgisayarın doğrulamasını yapabilecek donanım
+  binlerce işlemi 10 dakikadan daha kısa bir sürede gerçekleştirir. Bu
+  bir Bitcoin düğümünün çalıştırılmasını erişilemez hale getirecektir
+  ortalama bir kişi için ademi merkeziyetçiliği tehlikeye atmaktadır
+  protokolü ve işlemlerin ve mutabakatın değişmezliği
+  kurallar.
+reviewed: true

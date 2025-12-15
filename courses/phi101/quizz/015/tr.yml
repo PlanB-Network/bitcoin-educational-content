@@ -1,0 +1,9 @@
+question: Marx tarafından önerilen tarih vizyonu nedir?
+answer: Tarih, toplumsal sınıflar arasındaki mücadelenin sonucudur
+wrong_answers:
+  - Tarih, burjuva toplumuna doğru doğrusal bir ilerlemedir
+  - Tarih, özgürlük dönemlerini tiranlık dönemlerinin izlediği bir tekrar döngüsüdür
+  - Tarih iklimsel faktörler tarafından belirlenir
+explanation: |
+  Marx, tarihi toplumsal sınıflar arasındaki çatışmaların bir ürünü olarak görür ve ezen ve ezilen sınıflar arasındaki gerilimlerin çağlar boyunca toplumsal ve ekonomik değişimin itici gücü olduğunu ileri sürer.
+reviewed: true

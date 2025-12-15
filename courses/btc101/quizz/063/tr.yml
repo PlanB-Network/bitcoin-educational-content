@@ -1,0 +1,10 @@
+question: Dördüncü Halving'dan sonra BTC ödülü ne kadar?
+answer: 3.125 BTC.
+wrong_answers:
+  - 1.5625 BTC.
+  - 6.25 BTC.
+  - 12.5 BTC.
+explanation: |
+  Blok yüksekliğinde meydana gelen dördüncü Halving'den sonra
+  840.000, Mining için BTC ödülü 3,125 BTC'dir.
+reviewed: true

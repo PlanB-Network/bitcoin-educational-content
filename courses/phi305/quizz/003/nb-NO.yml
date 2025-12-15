@@ -1,0 +1,9 @@
+question: Landet Spinoza bodde og skrev sitt verk i, er?
+answer: De forente provinser.
+wrong_answers:
+  - Frankrike.
+  - Storbritannia.
+  - Sverige.
+explanation: |
+  Spinoza bodde og skrev hele sitt forfatterskap i De forente provinser (i dag Nederland), som på den tiden var et fristed for fritenkere og religiøse minoriteter som ble forfulgt andre steder i Europa.
+reviewed: false

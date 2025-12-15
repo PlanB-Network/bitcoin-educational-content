@@ -1,0 +1,13 @@
+question: Bitcoin'ın üretim maliyeti ile piyasa fiyatı arasındaki ilişki nedir?
+answer: Bitcoin'in maliyeti genel olarak fiyatı ile orantılı olabilir
+wrong_answers:
+  - Bitcoin'nin maliyeti fiyatı ile ters orantılıdır
+  - Bitcoin'ün maliyeti, belirli bir oran dahilinde, fiyatına sabittir
+  - Bitcoin'ün maliyeti her zaman fiyatından daha yüksektir
+explanation: |
+  Elektrikle ilgili olan Bitcoin'in maliyeti
+  gW-6 makinelerini çalıştırmak için gerekli olan, genellikle
+  fiyatı ile orantılıdır. Bu ilişki bir
+  fiyat dalgalanmalarının ve geleceğin daha iyi anlaşılması
+  beklentiler.
+reviewed: true

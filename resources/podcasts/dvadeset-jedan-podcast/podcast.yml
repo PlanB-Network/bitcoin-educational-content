@@ -1,0 +1,26 @@
+# generate a random uuid v4
+id: 470384e7-d06d-4941-a295-94d1233a5d88
+
+## Characteristics of the podcast
+
+name: DvadesetJedan - Bitcoin Zajednica
+
+host: Pavao, Arvin, Stefan
+
+language: sr-Latn
+
+links:
+  podcast: https://www.youtube.com/@dvadesetjedan
+  twitter: https://x.com/dvadesetjedan21
+  website: https://dvadesetjedan.com/
+
+description: |
+  Podcast za sve koji žele da čuju najnovije vesti, događaje i diskusije o Bitcoinu. Svako je dobrodošao da postavi pitanje, učestvuje u dijalogu ili predloži temu. 
+
+tags:
+  - easy-explain
+  - user-friendly
+  - finance
+
+contributor_names:
+  - Sanja22B

@@ -1,0 +1,13 @@
+question: Regülasyon ve elektrik tarifeleri Bitcoin Mining'i nasıl etkiliyor?
+answer: Düzenleme ve elektrik tarifeleri Bitcoin Mining üzerinde önemli bir etkiye sahiptir. Madenciler kârlarını maksimize etmek için sürekli olarak düşük maliyetli elektrik aramaktadır. Bu nedenle, belirli bölgelerdeki yüksek elektrik maliyeti madencileri bu bölgelere çekmez. Madenciler elektrik tarifelerinin düşük olduğu bölgelere, genellikle gelişmekte olan ülkelere veya enerji fazlası olan ülkelere yönelme eğilimindedir.
+wrong_answers:
+  - Yönetmelik ve elektrik tarifeleri, kullanılabilecek Mining makinelerinin türünü belirleyerek Bitcoin Mining'i etkilemektedir.
+  - Yönetmelik ve elektrik tarifeleri, kullanılabilecek Mining yazılımının türünü belirleyerek Bitcoin Mining'yi etkilemektedir.
+  - Regülasyon ve elektrik tarifeleri, oluşturulabilecek Mining pool'in boyutunu belirleyerek Bitcoin Mining'u etkilemektedir.
+explanation: |
+  Bu bölümde, düzenleme ve elektrik
+  tarifelerinin Bitcoin Mining üzerinde önemli bir etkisi vardır.
+  Madenciler sürekli olarak düşük maliyetli elektrik arıyor
+  kârlarını en üst düzeye çıkarırlar ve bu nedenle
+  elektrik tarifelerinin düşük olduğu bölgelere doğru.
+reviewed: true

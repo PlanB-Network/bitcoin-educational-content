@@ -1,0 +1,9 @@
+question: Welcher Befehl kann verwendet werden, um zu prüfen, durch welchen Interface und welches Gateway ein Paket an 8.8.8.8 geleitet werden würde?
+answer: ip route get 8.8.8.8
+wrong_answers:
+  - ss route -tulnp 8.8.8.8
+  - ping -i 8.8.8.8
+  - netstat -r 8.8.8.8
+explanation: |
+  ip route get <Address> zeigt den genauen Weg, den ein Paket nehmen würde, um ein bestimmtes Ziel zu erreichen.
+reviewed: false

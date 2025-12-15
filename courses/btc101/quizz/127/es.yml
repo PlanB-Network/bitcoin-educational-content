@@ -1,12 +1,12 @@
-question: ¿Cuál es el propósito de las comisiones por transacción en las transacciones de Bitcoin?
-answer: Son un incentivo para que los mineros incluyan la transacción en el siguiente bloque.
+question: ¿Qué es un hash válido en el contexto de la minería de bloques en la red de Bitcoin?
+answer: Una huella digital única asociada con el bloque, compuesta por 256 caracteres.
 wrong_answers:
-  - Son un impuesto impuesto por el gobierno.
-  - Son una comisión cobrada por la red de Bitcoin por usar sus servicios.
-  - Son una comisión cobrada por el proveedor de la cartera.
+  - Un código único utilizado para acceder al bloque.
+  - Una contraseña única requerida para minar el bloque.
+  - Un identificador único para el minero que minó el bloque.
 explanation: |
-  Las comisiones por transacción en las transacciones de Bitcoin sirven como
-  un incentivo para que los mineros incluyan la transacción en el próximo
-  bloque. Las comisiones crean un mercado libre para la inclusión de
-  transacciones en los bloques.
+  En el contexto de la minería de bloques en la red de Bitcoin, un
+  hash válido es una huella digital única asociada con el
+  bloque, compuesta por 256 caracteres. La validez de este
+  hash depende de la dificultad de la red de Bitcoin.
 reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - To lock funds in the long term
 explanation: |
   By making a fictitious payment, a seller moves liquidity from their side to the opposite side of the channel, thereby freeing up incoming capacity to receive payments.
-reviewed: false
+reviewed: true

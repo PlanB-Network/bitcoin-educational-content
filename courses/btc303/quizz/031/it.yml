@@ -1,0 +1,9 @@
+question: Quale cambiamento fondamentale si verifica nella struttura dei costi di sicurezza del Bitcoin quando il sussidio di blocco si avvicina a zero?
+answer: I costi della sicurezza passano dall'essere pagati dai detentori attraverso l'inflazione monetaria all'essere pagati da chi spende attraverso le commissioni di transazione
+wrong_answers:
+  - I costi della sicurezza passano dall'essere pagati dai minatori attraverso l'investimento in hardware all'essere pagati dai nodi attraverso il consumo di elettricità
+  - I costi della sicurezza passano dall'essere pagati dalle borse attraverso le commissioni di negoziazione all'essere pagati dai fornitori di wallet attraverso le tariffe di servizio
+  - I costi della sicurezza passano dall'essere pagati dagli sviluppatori attraverso la manutenzione del codice all'essere pagati dagli utenti attraverso la partecipazione alla rete
+explanation: |
+  Il capitolo spiega chiaramente che oggi i detentori pagano per la sicurezza del Bitcoin attraverso l'inflazione monetaria (creazione di nuove monete attraverso la sovvenzione dei blocchi), ma in futuro, quando la sovvenzione dei blocchi si avvicinerà a zero, gli spenditori pagheranno per la sicurezza attraverso le commissioni di transazione. Questo rappresenta un cambiamento economico fondamentale in merito a chi sostiene il costo del mantenimento della sicurezza della rete, passando da un modello in cui la creazione di nuove monete finanzia il mining a uno in cui le commissioni di transazione devono fornire un incentivo sufficiente ai minatori per proteggere la rete.
+reviewed: false

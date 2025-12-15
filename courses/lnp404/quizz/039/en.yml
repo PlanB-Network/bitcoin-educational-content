@@ -1,0 +1,8 @@
+question: What is the primary advantage of Peer Insights' tiered information architecture compared to traditional Lightning network explorers?
+answer: It provides general reconnaissance data for any public node plus detailed performance analytics for existing channel partners
+wrong_answers:
+  - It displays real-time fee updates across all network nodes with sub-second latency and automated fee adjustment recommendations
+  - It offers predictive modeling of future routing patterns based on machine learning algorithms trained on historical network data
+  - It enables direct channel opening negotiations through integrated messaging protocols and automated liquidity matching services
+explanation: |
+  Peer Insights' tiered architecture is specifically designed to serve two distinct use cases: network scouting (providing general data for any public node to assess potential partners) and relationship monitoring (unlocking detailed performance metrics using local data for existing channel partners). This dual capability distinguishes it from basic network explorers that only show static connectivity metrics. The wrong answers describe advanced features that aren't mentioned in the content - real-time fee updates, predictive modeling, and automated negotiation tools are not part of Peer Insights' actual functionality.

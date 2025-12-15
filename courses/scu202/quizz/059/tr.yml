@@ -1,0 +1,9 @@
+question: World Wide Web'i kim icat etti ve ilk web tarayıcısını kim geliştirdi?
+answer: Tim Berners-Lee
+wrong_answers:
+  - Marc Andreessen
+  - Jim Clark
+  - Brendan Eich
+explanation: |
+  Tim Berners-Lee, World Wide Web'in mucididir ve 1990 yılında ilk tarayıcı olan WorldWideWeb'i (şimdi Nexus) geliştirmiştir.
+reviewed: false

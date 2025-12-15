@@ -1,0 +1,9 @@
+question: Mikä on IPv4 Address:n tärkein tehtävä tietokoneverkossa?
+answer: Verkon yksilöllinen tunnistaminen Interface
+wrong_answers:
+  - Tunnistaa koko laitteen verkossa
+  - MAC-osoitteiden dynaaminen määrittäminen verkossa
+  - generate DNS-nimet
+explanation: |
+  IPv4 Address osoitetaan laitteen kullekin Interface-verkkoon kuuluvalle laitteelle, jolloin laite voidaan paikantaa ja tavoittaa verkossa.
+reviewed: false

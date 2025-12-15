@@ -1,0 +1,9 @@
+question: Co se stane, pokud blok poruší pravidla konsensu?
+answer: Uzly ji okamžitě odmítnou
+wrong_answers:
+  - Je uložen v systému Mempool a čeká na ověření
+  - Předávají ji pouze uzly, které přijímají jiná pravidla
+  - Ověřují ji pouze peněženky
+explanation: |
+  Uzly systematicky odmítají všechny bloky, které nejsou v souladu s pravidly konsensu.
+reviewed: true

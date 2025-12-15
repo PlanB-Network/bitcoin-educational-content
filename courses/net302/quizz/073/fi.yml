@@ -1,0 +1,9 @@
+question: Mikä on IPv6-lohkon koko, jonka IANA yleensä jakaa kullekin alueelliselle Internet-rekisterille (RIR)?
+answer: /12
+wrong_answers:
+  - /48
+  - /32
+  - /23
+explanation: |
+  Vuodesta 2006 lähtien kukin alueellinen alueellinen jakelualue on yleensä saanut /12 IPv6-lohkon, mikä on tarjonnut erittäin suuren varauksen alueellista jakamista varten.
+reviewed: false

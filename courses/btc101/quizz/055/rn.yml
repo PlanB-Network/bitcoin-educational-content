@@ -1,0 +1,12 @@
+question: Ni ubuhe buryo butuma habaho ububiko bushasha bwongerwa kuri Blockchain buri minota cumi?
+answer: Guhindura ingorane.
+wrong_answers:
+  - Guhindura umuvuduko.
+  - Guhindura umwanya.
+  - Guhindura amabuye.
+explanation: |
+  Uburyo butuma habaho igice gishasha congerwa ku
+  Blockchain buri minota cumi ni uguhindura ingorane.
+  Iryo hinduka riba buri 2016, canke nko mu 2016.
+  indwi zibiri.
+reviewed: true

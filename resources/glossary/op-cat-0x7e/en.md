@@ -6,4 +6,4 @@ Allows for the concatenation of the two topmost elements on the stack (i.e., joi
 * The use of Lamport signatures, which are presumably resistant to quantum attacks;
 * The implementation of Vaults;
 * The use of covenants;
-* Or even, the use of non-equivocation contracts.
+*Or even, the use of non-equivocation contracts.*

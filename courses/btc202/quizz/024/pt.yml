@@ -1,0 +1,9 @@
+question: Qual é o risco se um Wallet depender de um nó de terceiros?
+answer: Risco de vigilância e de censura
+wrong_answers:
+  - Risco de Double-spending automático
+  - Risco de perda de chaves privadas
+  - Risco de perda e controlo
+explanation: |
+  Um nó de terceiros pode analisar ou bloquear as suas transacções, ou mesmo associar os seus dados à sua identidade.
+reviewed: true

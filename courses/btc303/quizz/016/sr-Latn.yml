@@ -1,0 +1,9 @@
+question: Kakvi sistemi mogu biti izgrađeni na Bitcoin-ovom sloju bez poverenja prema opisanom modelu bezbednosti?
+answer: I trustless i trusted sistemi mogu biti izgrađeni na njemu
+wrong_answers:
+  - Samo sistemi bez poverenja mogu biti izgrađeni na njemu
+  - Samo pouzdani sistemi mogu biti izgrađeni na njemu
+  - Na njega se ne mogu izgraditi dodatni sistemi.
+explanation: |
+  Osnovni sloj bez poverenja Bitcoin pruža osnovu koja omogućava fleksibilnost u izgradnji različitih tipova sistema na vrhu. Kao što je Matt Corallo objasnio, dok ne možete izgraditi sisteme bez poverenja na vrhu sistema sa poverenjem, možete izgraditi sisteme sa poverenjem (kao što su skrbnički novčanici) na vrhu sistema bez poverenja. To znači da osnovna struktura bez poverenja Bitcoin podržava i aplikacije bez poverenja i usluge sa poverenjem, dajući dizajnerima sistema slobodu da biraju odgovarajuće kompromise bez nametanja istih kompromisa svima ostalima koji koriste osnovni sloj.
+reviewed: false

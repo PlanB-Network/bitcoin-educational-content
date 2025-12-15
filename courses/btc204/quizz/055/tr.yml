@@ -1,0 +1,10 @@
+question: Address alan bir Bitcoin nedir?
+answer: Bitcoin almak için kullanılan bir karakter dizisi.
+wrong_answers:
+  - Bitcoin göndermek için kullanılan bir kod.
+  - Mining bitcoinleri için bir algoritma.
+  - BIR Smart contract.
+explanation: |
+  Bir alıcı Address, bitcoinleri bir Wallet'e almak için kullanılır.
+  
+reviewed: false

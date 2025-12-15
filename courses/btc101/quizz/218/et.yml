@@ -1,10 +1,9 @@
-question: Mis on teksti järgi Bitcoini omaksvõtu olemus?
-answer: Viiruslik
+question: Miks võib Lightningi kanal olla ühes suunas kasutamatu?
+answer: Ebapiisav likviidsus
 wrong_answers:
-  - Aeglane ja stabiilne
-  - Kiire ja kontrollimatu
-  - Hüplik ja ettearvamatu
-explanation: >-
-  Tekst kirjeldab Bitcoini omaksvõttu kui viiruslikku, vihjates, et see levib
-  kiiresti ja laialdaselt ühelt inimeselt teisele, palju nagu viirus.
+  - Liiga hiljutine plokk
+  - Aegunud HTLC
+  - Sünkroonimata sõlm
+explanation: |
+  Isegi suure mahutavuse korral võimaldab kanal makset ainult siis, kui piisav likviidsus on õigel poolel.
 reviewed: false

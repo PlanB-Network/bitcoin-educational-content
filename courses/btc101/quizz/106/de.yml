@@ -1,9 +1,13 @@
-question: Warum ist es ratsam, Ihre Bitcoins nicht auf Handelsplattformen zu belassen?
-answer: Sie können anfällig für Hackerangriffe sein.
+question: Was hindert jeden daran, dieselbe Bitcoin-Wallet zu verwenden?
+answer: Verschiedene Personen benötigen unterschiedliche Anwendungsfälle.
 wrong_answers:
-  - Handelsplattformen erheben zufällige Gebühren.
-  - Bitcoin verliert auf Handelsplattformen an Wert.
-  - Handelsplattformen sind keine regulierten Institutionen.
+  - Es ist teuer, eine Bitcoin-Wallet zu verwenden.
+  - Es ist illegal, eine Bitcoin-Wallet zu verwenden.
+  - Die Leute werden sich niemals auf den Namen einer solchen Wallet einigen.
 explanation: |
-  Es ist ratsam, Ihre Bitcoins nicht auf Handelsplattformen zu belassen, da sie anfällig für Hackerangriffe sein können.
+  Während eine Person vielleicht Sicherheit priorisiert, könnte
+  eine andere Benutzerfreundlichkeit oder spezifische Funktionen
+  wertschätzen. Daher könnte eine einzelne Bitcoin-Wallet nicht
+  allen Anforderungen gerecht werden, was es notwendig macht,
+  dass mehrere Wallet-Optionen existieren.
 reviewed: true

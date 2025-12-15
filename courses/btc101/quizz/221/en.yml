@@ -1,11 +1,9 @@
-question: What is the Lightning Network?
-answer: A payment network that uses the Bitcoin protocol to enable lightning-fast transactions.
+question: What advantage does Ark offer over Lightning for receiving payments?
+answer: No need for inbound liquidity
 wrong_answers:
-  - A new type of cryptocurrency.
-  - A new blockchain technology that will replace Bitcoin in the future.
-  - A method for mining Bitcoin.
+  - Immediate payment finality
+  - No transaction fees
+  - No need to have a wallet
 explanation: |
-  The Lightning Network is a payment network that uses the
-  Bitcoin protocol to enable fast transactions. It is not a
-  separate cryptocurrency, nor a method for mining Bitcoin.
-reviewed: true
+  Ark allows receiving payments without having inbound liquidity in advance.
+reviewed: false

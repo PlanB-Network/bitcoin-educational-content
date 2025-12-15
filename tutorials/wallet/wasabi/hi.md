@@ -1,5 +1,5 @@
 ---
-name: वसाबी Wallet
+name: Wasabi Wallet
 description: अपनी प्राइवेसी वापस पाने के तरीके जानें।
 ---
 ![wasabi](assets/cover.webp)

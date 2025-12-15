@@ -1,0 +1,9 @@
+question: Bir Lightning kanalı resmi olarak ne zaman açılır?
+answer: Para yatırma işlemi Bitcoin Blockchain üzerinde onaylandığında
+wrong_answers:
+  - Açık anahtarlar katılımcılar arasında değiş tokuş edilir edilmez
+  - Para çekme işlemi her iki tarafça imzalandığında
+  - 2/2 çoklu imza Address oluşturulur oluşturulmaz
+explanation: |
+  Para yatırma işlemi bir Bitcoin bloğuna dahil edildiğinde ve belirli bir onay sayısına ulaştığında kanal açık kabul edilir.
+reviewed: false

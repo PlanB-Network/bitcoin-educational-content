@@ -1,0 +1,9 @@
+question: چه نرم‌افزار متن‌بازی به‌طور معمول به‌عنوان مرجع برای سرورهای DNS استفاده می‌شود؟
+answer: اتصال
+wrong_answers:
+  - آپاچی
+  - ماهی مرکب
+  - سامبا
+explanation: |
+  BIND (Berkeley Internet Name Domain) پیاده‌سازی مرجع متن‌باز است که توسط اکثر سرورهای DNS در سراسر جهان استفاده می‌شود.
+reviewed: false

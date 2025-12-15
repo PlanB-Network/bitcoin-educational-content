@@ -1,0 +1,25 @@
+id: 93f9cc37-b80e-4d7f-b889-460778a64179
+start_date: 2025-10-25 08:30:00
+end_date: 2025-10-25 11:30:00
+timezone: Europe/Zurich
+address_city_country: Lugano, Switzerland
+address_line_2: Villa Ciani
+address_line_3:
+name: Run for Hal Lugano 2025
+type: meetup
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  "A special Black Jack tournament will be held exclusively for Plan B participants in the casino's gaming room, in an elegant and engaging atmosphere.
+  Play Responsibly 18+ / Required ID"
+language:
+  - en
+  - it
+links:
+  website: https://www.bitcoinrunners.org/lugano25/
+  replay_url:
+  live_url:
+tags:
+  - adoption
+  - business

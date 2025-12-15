@@ -1,0 +1,9 @@
+question: What is the main purpose of IPv5 (Stream Protocol, ST)?
+answer: Ensuring quality of service for certain flows
+wrong_answers:
+  - Extend IP addressing capacity
+  - Providing backward compatibility with IPv6
+  - Reducing the size of TCP/IP network packets
+explanation: |
+  IPv5 (ST) was designed to provide quality of service (QoS) for multimedia streams, such as VoIP, by guaranteeing bandwidth and priority.
+reviewed: false

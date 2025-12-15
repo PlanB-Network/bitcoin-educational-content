@@ -1,11 +1,9 @@
-question: Jaká je povaha přijetí Bitcoinu, jak je popsáno v tomto kurzu?
-answer: Virální.
+question: Proč může být Lightning kanál v jednom směru nepoužitelný?
+answer: Nedostatečná likvidita
 wrong_answers:
-  - Pomalé a stabilní.
-  - Rychlé a nekontrolovatelné.
-  - Sporadické a nepředvídatelné.
+  - Příliš nový blok
+  - Vypršený HTLC
+  - Nesynchronizovaný uzel
 explanation: |
-  Text kurzu popisuje přijetí Bitcoinu jako virální,
-  což naznačuje, že se rychle a široce šíří z jedné
-  osoby na druhou, podobně jako virus, ale v dobrém slova smyslu.
-reviewed: true
+  I při velké kapacitě umožňuje kanál platbu pouze tehdy, pokud je na správné straně dostatečná likvidita.
+reviewed: false

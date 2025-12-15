@@ -1,0 +1,9 @@
+question: Porogarame ikingira umugera(nyabwonko) yubakiye muri Windows ni iyihe?
+answer: Windows Defender
+wrong_answers:
+  - Kasperski
+  - Norton
+  - McAfee
+explanation: |
+  Windows Defender ni porogarame yubakiye muri Windows. ni umuti udateye ikibazo kandi ukora neza mugukingira sisitem ivyoyihungabanya.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Ni mu gihe ikihe stablecoin yoshobora gucuruzwa hejuru y’igiciro cayo?
+answer: Igihe ivyifuzo vy’amahera y’amahera birenze ubushobozi bwa Exchange
+wrong_answers:
+  - Igihe uwutanga stablecoin ahagarika amahera
+  - Igihe stablecoin ishigikiwe n'amahera y'ububiko .
+  - Iyo hariho umukazo ukomeye wo kugurisha uva ku bakoresha .
+explanation: |
+  Stablecoins zishobora gucuruzwa hejuru y’igiciro cazo igihe 
+  gusaba amafaranga y’ibiceri bikomeye birenze ubushobozi bwa Exchange bwo 
+  guhura n’ivyo abakiriya basaba, cane cane ku masoko mato mato.
+reviewed: true

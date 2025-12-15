@@ -1,0 +1,8 @@
+question: What is the primary purpose of Terminal Web's per-channel ROI calculation for Lightning Network operators?
+answer: To compare earned fees against the on-chain cost of opening each channel to determine profitability
+wrong_answers:
+  - To calculate the total return on investment across all channels combined for portfolio analysis
+  - To estimate future earnings potential based on historical routing patterns and market trends
+  - "To measure the channel's contribution to overall network liquidity and routing capacity"
+explanation: |
+  Terminal Web calculates ROI specifically for each channel by comparing the fees earned from that channel against the on-chain transaction costs incurred to open it. This per-channel profitability metric helps operators make informed decisions about whether to maintain, adjust, or close individual channels. The other options are incorrect because they describe aggregate analysis, predictive modeling, or network contribution metrics rather than the direct cost-benefit comparison that per-channel ROI provides.

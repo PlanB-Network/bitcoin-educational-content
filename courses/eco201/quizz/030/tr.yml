@@ -1,0 +1,18 @@
+question: İnsan eyleminin sıralı doğasının üretim faaliyetleri üzerindeki etkisi nedir?
+answer: Herhangi bir üretim sapması, yani üretim yapısındaki herhangi bir uzama, önceden tasarruf gerektirir.
+wrong_answers:
+  - İnsan eyleminin sıralı doğasının üretim faaliyetleri üzerinde hiçbir etkisi yoktur.
+  - İnsan eyleminin sıralı doğası, üretim faaliyetlerinin belirli bir sırayla gerçekleştirilmesi gerektiği anlamına gelir.
+  - İnsan eyleminin sıralı doğası, üretim faaliyetlerinin eşzamanlı olarak yürütülmesi gerektiğini ima eder.
+explanation: |
+  İnsan eylemlerinin sıralı doğası nedeniyle, bireyler
+  dönemler arası seçimler yapmalıdır-dengeleme kararları
+  acil ihtiyaçlar ile gelecekteki hedefler. Bu seçimler şunları etkiler
+  kısa vadeli olarak bir kişinin gerçekleştirebileceği eylemler dizisi
+  kararlar uzun vadeli hedeflere tabidir. Açısından
+  üretimde herhangi bir sapma olduğu anlamına gelir
+  süreci, yani üretim yapısının uzatılması,
+  önceden tasarruf gerektirir. Aşağıdakiler için şimdiden kaynak ayrılmalıdır
+  için gereken süre boyunca bireyi ayakta tutabilir
+  daha uzun, daha üretken bir yol.
+reviewed: true

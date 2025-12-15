@@ -1,0 +1,9 @@
+question: GNOME ve Xfce tarafından hangi grafik araç seti kullanılır?
+answer: GTK
+wrong_answers:
+  - Qt
+  - Tkinter
+  - Desen
+explanation: |
+  GNOME, Xfce, Cinnamon ve MATE, Linux altında grafiksel kullanıcı arayüzlerine adanmış bir yazılım kütüphanesi olan GTK'ya dayanmaktadır.
+reviewed: false

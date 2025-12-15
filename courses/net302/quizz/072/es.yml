@@ -1,0 +1,9 @@
+question: ¿Qué tipo de bloqueo IPv6 permite a una empresa mantener su prefijo aunque cambie de ISP?
+answer: PI (Proveedor independiente)
+wrong_answers:
+  - PA (Agregable por el proveedor)
+  - LIR (Registro Local de Internet)
+  - IP (Proveedor Intercambiable)
+explanation: |
+  Un bloque PI (independiente del proveedor) es asignado directamente a una organización por un RIR, independientemente del proveedor de servicios de Internet.
+reviewed: false

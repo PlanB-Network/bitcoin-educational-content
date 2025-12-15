@@ -1,0 +1,9 @@
+question: Ping komutu ağ bağlantısını test etmek için hangi protokolü kullanır?
+answer: ICMP
+wrong_answers:
+  - TCP
+  - UDP
+  - ARP
+explanation: |
+  Ping komutu, yankı istekleri göndermek ve ağ gecikmesini ölçmek için ICMP protokolünü kullanır.
+reviewed: false

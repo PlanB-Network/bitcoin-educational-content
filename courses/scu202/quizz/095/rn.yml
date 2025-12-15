@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bwiza bwo gushika ku rubuga rwawe rwo muhira uri kure?
+answer: Gukoresha VPN y'umuntu ku giti ciwe
+wrong_answers:
+  - Gufungura icuma ca SSH ca bose
+  - Gukoresha igicu ca router
+  - Koresha WPS
+explanation: |
+  VPN irema umugende w’amazi kugira ngo umuntu ashobore gushika ku rubuga rwo mu karere ataco akora kugira ngo ashobore gushika kuri Internet.
+reviewed: false

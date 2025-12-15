@@ -1,0 +1,9 @@
+question: Ni ingorane iyihe iyo Wallet iva ku nzira y’uwundi muntu?
+answer: Ivyago vyo gucungera no gucengera
+wrong_answers:
+  - Icoba ari ikibazo c’uko Double-spending yikora.
+  - Icoba co gutakaza imfunguruzo z'ibanga
+  - Ivyago vyo gutakaza no gukurikirana
+explanation: |
+  Igikoresho c’uwundi muntu gishobora gusuzuma canke guhagarika amafaranga yawe, canke mbere kigafatanya amakuru yawe n’akaranga kawe.
+reviewed: true

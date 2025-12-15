@@ -1,0 +1,12 @@
+question: Bugün Bitcoin ağındaki madenciler tarafından kullanılan ana araç nedir?
+answer: ASIC'ler
+wrong_answers:
+  - CPU'lar
+  - GPU'lar
+  - FPGA'lar
+explanation: |
+  Günümüzde madenciler yalnızca bu işe adanmış ASIC'ler kullanmaktadır
+  işlemi, maksimum sayıda test etmek için optimize edilmiştir
+  mümkün olan en az enerji tüketimine sahip kombinasyonlar
+  ve mümkün olduğunca çabuk.
+reviewed: true

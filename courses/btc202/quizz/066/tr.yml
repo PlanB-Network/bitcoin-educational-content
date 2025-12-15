@@ -1,0 +1,9 @@
+question: Umbrel'inize erişimi korumak için hangi güvenlik önlemlerinin alınması şiddetle tavsiye edilir?
+answer: Uzun şifre ve 2FA aktivasyonu
+wrong_answers:
+  - Çift SSD depolama alanı
+  - RPC portunu düz metin olarak açın
+  - Uzun şifre ve SSH aktivasyonu
+explanation: |
+  Güçlü bir parola ve iki faktörlü kimlik doğrulama (2FA) kombinasyonu, Interface Umbrel'e erişimi etkili bir şekilde korur.
+reviewed: true

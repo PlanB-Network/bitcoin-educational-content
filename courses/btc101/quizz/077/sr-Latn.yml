@@ -1,12 +1,9 @@
-question: Koji je rizik deljenja javnog ključa Bitkoin novčanika?
-answer: Gubljenje privatnosti.
+question: Koja bi trebala biti glavna briga kada posedujete Bitkoin?
+answer: Bezbednost vaših sredstava.
 wrong_answers:
-  - Uništavanje Bitkoin novčanika.
-  - Gubljenje Bitkoina.
-  - Hakovanje Bitkoin novčanika.
+  - Vrednost Bitkoina u dolarima.
+  - Legalnost posedovanja bitkoina.
+  - Dozvola za trošenje vaših sredstava.
 explanation: |
-  Deljenje javnog ključa uključuje rizike po privatnost, ali ne i
-  po sigurnost. To je zato što se javni ključ koristi za
-  generisanje Bitkoin adrese i tako prima novac, ali ne
-  predstavlja vlasništvo Bitkoina.
+  Kada posedujete bitkoine, primarna briga je bezbednost vaših sredstava. Ovo je zato što Bitkoin, kao i bilo koji drugi oblik valute, može biti ukraden ili izgubljen ako nije pravilno obezbeđen.
 reviewed: true

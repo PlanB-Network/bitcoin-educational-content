@@ -1,0 +1,12 @@
+question: Ni igiki kimwe mu bituma Bitcoin ikoresha inguvu biciye muri Mining?
+answer: Kugira ngo haboneke uburyo bukomeye bwo kwikingira ubutegetsi hagati .
+wrong_answers:
+  - Kugira ngo Bitcoin izimvye gukoresha .
+  - Kugira ngo ugabanye agaciro kayo mu kwongera ibiciro vy'inguvu .
+  - Guca intege abakoresha bashasha ngo ntibaje mu rubuga
+explanation: |
+  Imwe mu mpamvu zituma Bitcoin ikoresha inguvu biciye muri Mining ni ukugira ngo . 
+  gutanga uburyo bukomeye bwo kwikingira ugushira hamwe n’ 
+  gukoresha nabi bidakwiye. Urubuga rw’abacukuzi b’amabuye y’agaciro rufasha gukingira 
+  inzego zihurikiye hamwe ntizikoreshe urubuga canke zikoreshe nabi amategeko kugira ngo zizifashe.
+reviewed: true

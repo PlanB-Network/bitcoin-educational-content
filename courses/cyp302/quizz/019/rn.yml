@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe rw’itegeko rya Bayes mu bijanye n’ibishoboka?
+answer: Bituma habarwa ibishoboka bishingiye ku bintu bishobora kubaho mu guhindura ibintu vyabaye.
+wrong_answers:
+  - Itanga ubushobozi bwo kubaho kw’ikintu kimwe.
+  - Risobanura ubushobozi bwose bw’ibintu vyose bishoboka.
+  - Bikora gusa ku bihinduka bikomeza.
+explanation: |
+  Ivyiyumviro vya Bayes birashoboza kubara ubushobozi bw’ikintu A gihawe B mu guhindura ibishoboka kandi ni ngirakamaro mu vyiyumviro vy’ibishoboka.
+reviewed: false

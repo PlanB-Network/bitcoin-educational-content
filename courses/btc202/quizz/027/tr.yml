@@ -1,0 +1,9 @@
+question: Bir SPV düğümünün özelliği nedir?
+answer: Sadece blok başlıklarını korur
+wrong_answers:
+  - Genesis bloğundan bu yana Blockchain'ın tamamını korur
+  - Yalnızca en son blokları depolar
+  - Sadece UTXO setini tutar, Blockchain'yi tutmaz
+explanation: |
+  Bir SPV düğümü, tüm verileri depolamadan blok başlıkları ve Merkle kanıtları aracılığıyla işlemleri doğrular.
+reviewed: true

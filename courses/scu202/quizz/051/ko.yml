@@ -1,0 +1,9 @@
+question: 이미지 또는 PDF 파일에서 모든 메타데이터를 제거하기 위해 Linux에 권장되는 명령줄 도구는 무엇인가요?
+answer: exiftool
+wrong_answers:
+  - 메모장
+  - 나노넥시프
+  - sudoedit
+explanation: |
+  exiftool은 다양한 파일(이미지, PDF, 오디오 등)에서 메타데이터를 표시하고 제거할 수 있는 강력한 도구입니다.
+reviewed: false

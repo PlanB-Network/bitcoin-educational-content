@@ -1,0 +1,9 @@
+question: Bastiat'ya göre sahte hayırseverlik hukukun saptırılmasına nasıl katkıda bulunur?
+answer: Çünkü aslında bir başkasının bedelini ödeyeceği bir dizi sahte hakka dayanıyor.
+wrong_answers:
+  - Çünkü herkesi iyi olmaya zorlamak istiyor.
+  - Çünkü insanlardan nefret edenleri iktidara getiriyor.
+  - Çünkü gönüllü dayanışmayı içeriyor.
+explanation: |
+  Sahte hayırseverlik, başkalarına dayatılan yükümlülüklere dönüşen yapay haklar yaratır ve böylece hukuku doğal hakları korumak yerine bir yağma aracına dönüştürür.
+reviewed: false

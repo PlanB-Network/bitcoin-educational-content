@@ -1,0 +1,9 @@
+question: Ni protocol gani inatumika kuhusisha IP Address na MAC Address kwenye mtandao wa Ethaneti?
+answer: ARP
+wrong_answers:
+  - RIP
+  - DNS
+  - OSPF
+explanation: |
+  Address Resolution Protocol (ARP) hupanga anwani za IP kwa anwani za MAC kwenye mitandao ya ndani.
+reviewed: true

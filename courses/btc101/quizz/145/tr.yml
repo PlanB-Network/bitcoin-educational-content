@@ -1,0 +1,8 @@
+question: Hashrate nedir?
+answer: Bir Mining cihazının Proof of Work'i çözmek için saniyede gerçekleştirebileceği Hash hesaplamalarının sayısı.
+wrong_answers:
+  - Bir Mining cihazının Proof of Work'ü çözme hızı.
+  - Bitcoin ağındaki toplam madenci sayısı.
+  - Proof of Work'yi çözmek için saniyede belirli sayıda deneme gerçekleştirerek çıkarılan toplam bitcoin miktarı.
+explanation: >-
+reviewed: true

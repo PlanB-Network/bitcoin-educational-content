@@ -1,12 +1,8 @@
-question: Vad är ett spontanköp?
-answer: Köper Bitcoin omedelbart för att få exponering.
+question: Vad är en av de potentiella riskerna med att lämna din Bitcoin på en Exchange-plattform?
+answer: Riskerna med hackning och blockering av fonder.
 wrong_answers:
-  - Köpa Bitcoin med jämna mellanrum.
-  - Köper Bitcoin endast när priset sjunker.
-  - Köpa Bitcoin endast när priset stiger.
-explanation: |
-  I kurstexten förklaras att ett spontanköp används för att
-  används för att omedelbart få exponering för Bitcoin. Till exempel
-  det kan innebära att köpa under en krasch eller dra nytta av
-  en bonus.
+  - Risken för att plattformen ökar priset på Bitcoin.
+  - Risken för att plattformen kontrollerar Supply av Bitcoin.
+  - Risken för att Bitcoin överträffas i pris av en kryptovaluta.
+explanation: >-
 reviewed: true

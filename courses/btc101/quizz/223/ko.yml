@@ -1,0 +1,9 @@
+question: Liquid에서 사용되는 비트코인은 무엇이라고 불립니까?
+answer: L-BTC
+wrong_answers:
+  - W-BTC
+  - S-BTC
+  - T-BTC
+explanation: |
+  Liquid에서는 비트코인이 BTC와 1대1로 연동된 L-BTC로 표현됩니다.
+reviewed: false

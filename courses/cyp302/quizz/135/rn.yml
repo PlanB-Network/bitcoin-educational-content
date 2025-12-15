@@ -1,0 +1,9 @@
+question: Ni igiki gikomeye gitera ingorane amajambo y’ibanga agoyagoya iyo akoresheje hash?
+answer: Bashobora guterwa n'inkoranyamagambo .
+wrong_answers:
+  - Ntibishobora kugenzurwa hakoreshejwe hashing
+  - Bama batera generate .
+  - Bisaba hashing igihe kirekire kugira ngo umuntu agire umutekano mwinshi
+explanation: |
+  Amajambo y’ibanga agoyagoya arashobora gusubirwamwo bitagoranye muri Hash yabo hakoreshejwe ibitero vy’inkoranyamagambo, ivyo bikaba bituma guhitamwo kwayo bihambaye kugira ngo umutekano ubeho.
+reviewed: false

@@ -1,11 +1,9 @@
-question: ¿Qué sugiere este curso sobre el ritmo de aprendizaje acerca de Bitcoin?
-answer: Es complicado asimilar todo de una vez, así que tómate tu tiempo.
+question: ¿Qué mecanismo vincula una sidechain con Bitcoin?
+answer: Anclaje bidireccional
 wrong_answers:
-  - Es fácil aprender todo de una vez.
-  - Es imposible aprender todo sobre Bitcoin.
-  - No es necesario aprender todo sobre Bitcoin.
+  - Canal de pago
+  - Proof of Stake
+  - Sharding
 explanation: |
-  El curso sugiere que hay tanto que explorar con
-  Bitcoin que es complicado asimilar todo de
-  una vez, por lo que uno debería tomarse su tiempo.
-reviewed: true
+  El mecanismo de two-way peg permite bloquear BTC en Bitcoin y representarlos en la sidechain.
+reviewed: false

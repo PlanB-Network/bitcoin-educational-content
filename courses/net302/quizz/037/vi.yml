@@ -1,0 +1,9 @@
+question: Mục đích của ký hiệu IPv4 đặc biệt 0.0.0.0 là gì?
+answer: Để chỉ định tất cả các giao diện hoặc Address chưa được chỉ định
+wrong_answers:
+  - Để gửi tin nhắn đến tất cả các mạng
+  - Để kiểm tra kết nối cục bộ của thiết bị
+  - Để chỉ ra lỗi địa chỉ hoặc kết nối tại bộ định tuyến cục bộ
+explanation: |
+  Ký hiệu 0.0.0.0 được sử dụng cục bộ để biểu thị sự vắng mặt của Address được chỉ định hoặc để lắng nghe trên tất cả các giao diện.
+reviewed: false

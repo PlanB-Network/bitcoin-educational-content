@@ -1,0 +1,9 @@
+question: ¿Qué es la filosofía escolástica?
+answer: Filosofía cristiana de la Edad Media.
+wrong_answers:
+  - Un movimiento político.
+  - Una filosofía anarquista.
+  - Una filosofía racional.
+explanation: |
+  La filosofía escolástica fue una filosofía cristiana de la Edad Media que dominó las universidades europeas. Trataba de armonizar la fe cristiana con la filosofía aristotélica.
+reviewed: false

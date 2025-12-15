@@ -315,7 +315,7 @@ Jedna od najmoćnijih karakteristika SimpleX-a je mogućnost upravljanja sa neko
 
 
 
-Na primer, možete kreirati :
+Na primer, možete kreirati:
 
 
 
@@ -399,4 +399,4 @@ Takođe preporučujem ovaj drugi vodič, u kojem predstavljam Threema, još jedn
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

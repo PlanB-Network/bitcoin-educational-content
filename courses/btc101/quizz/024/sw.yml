@@ -1,13 +1,13 @@
-question: Je, ni hasara kuu ya fedha za fiat?
-answer: Thamani yao mara kwa mara inamomonyoka na mfumuko wa bei wa fedha.
+question: Ni ipi kati ya zifuatazo ambayo sio faida ya Bitcoin kama sarafu?
+answer: Inatumika kulipa kodi.
 wrong_answers:
-  - Hazisafirishwi kwa urahisi.
-  - Thamani yao inathaminiwa kila wakati na mfumuko wa bei wa fedha.
-  - Hazigawanyiki.
+  - Inagawanyika.
+  - Inasafirishwa.
+  - Haina ruhusa.
 explanation: |
-  Hasara kuu ya sarafu za fiat, kama vile
-  dola na euro, ni kwamba thamani yao ni daima
-  kumomonyoka na mfumuko wa bei wa fedha. Hii ni kutokana na
-  kushuka kwa thamani kunakosababishwa na vyombo vinavyowadhibiti (mfalme,
-  benki kuu, mfalme, dikteta).
+  Bitcoin, kutokana na sifa zake kama vile mgawanyiko wake,
+  uthibitisho, kipengele cha chini cha ruhusa na usafiri,
+  inatoa duka bora la thamani. Aidha, kama upande wowote
+  sarafu ya mtandaoni, inawakilisha njia nzuri ya Exchange
+  ambayo haijui mipaka.
 reviewed: true

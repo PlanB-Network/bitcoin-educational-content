@@ -1,11 +1,11 @@
-question: What is the overall trend of Bitcoin, considering its limited supply and the halving process?
-answer: A general upward trend.
+question: In comparison with fiat currencies, how is Bitcoin perceived?
+answer: As a parallel economy.
 wrong_answers:
-  - A general downward trend.
-  - No trend at all.
-  - A trend that fluctuates wildly with no discernible pattern.
+  - As a replacement economy.
+  - As an industrial economy.
+  - As a tertiary economy.
 explanation: >-
-  Bitcoin, due to its limited quantity of 21 million bitcoins and its halving
-  process (halving the monetary creation every 4 years on average), follows a general
-  upward trend.
+  Bitcoin is seen as a parallel economy to fiat currencies, meaning it
+  operates alongside traditional economies and can be used for transactions directly,
+  without the need to go through an exchange platform.
 reviewed: true

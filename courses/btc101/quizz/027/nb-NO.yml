@@ -1,11 +1,10 @@
-question: Hvorfor er ikke Bitcoin bredt akseptert i handel i dag?
-answer: Fordi det ikke er bredt adoptert av enkeltpersoner
+question: Hva er den største fordelen med gull som valuta?
+answer: Det er utrolig holdbart
 wrong_answers:
-  - Fordi det ikke er transportabelt
-  - Fordi det ikke er delelig
-  - Fordi det ikke er likvid
+  - Det er lett å dele opp eller transportere over lange avstander
+  - Det er lett å verifisere
+  - Det er ikke regulert av myndighetene
 explanation: |
-  Til tross for egenskapene, som dens strengt begrensede tilbud, er Bitcoin
-  fortsatt ikke bredt akseptert i handel i dag. Dette skyldes mangel på
-  adopsjon blant enkeltpersoner, noe som skaper en situasjon som biter sin egen hale ettersom handelsfolk også er enkeltpersoner.
+  Selv om det ikke er lett å dele opp eller transportere over lange avstander, noe som gjorde det til en god
+  verdioppbevaring, men ikke en vanlig valuta i dag.
 reviewed: true

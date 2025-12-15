@@ -1,0 +1,9 @@
+question: KYC nedir?
+answer: Müşterilerin kimliğini doğrulamak ve kaydetmek için bir prosedür.
+wrong_answers:
+  - Finansal işlemlerin güvenliğini sağlamak için bir kriptografi sistemi.
+  - Finansal işlemler için bir doğrulama yöntemi.
+  - Müşteri davranışını analiz etmek için bir pazarlama tekniği.
+explanation: |
+  KYC, Müşterini Tanı anlamına gelir. Aslında müşterinin kimliğini doğrulamak için düzenleyici bir prosedürdür.
+reviewed: false

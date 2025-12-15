@@ -1,0 +1,9 @@
+question: Commitment Transaction sistemi bir Lightning kanalının katılımcılarına neyi garanti eder?
+answer: Her birinin son imzalanan işlemi yayınlayarak fonlarını geri alabileceği
+wrong_answers:
+  - Bu işlemler Bitcoin Blockchain üzerinde görülebilir
+  - Kanalın kapasitesinin her işlemle birlikte artması
+  - Ücretlerin iki katılımcı arasında paylaşılması
+explanation: |
+  İmzalanan Commitment işlemleri, kanalın kapanması durumunda her katılımcının en son sürümü yayınlayarak fonlarını geri alabilmesini sağlar.
+reviewed: false

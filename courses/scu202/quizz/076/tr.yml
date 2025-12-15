@@ -1,0 +1,9 @@
+question: Android'de neden NetGuard veya RethinkDNS gibi bir güvenlik duvarı uygulaması kullanmalısınız?
+answer: Bireysel İnternet bağlantılarını kontrol etme
+wrong_answers:
+  - Tüm verileri otomatik olarak kaydet
+  - Tüm Wi-Fi ağlarının engelini kaldırın
+  - Virüsleri kaldırın
+explanation: |
+  Bu uygulamalar yerel güvenlik duvarı görevi görerek giden trafiğin uygulama bazında engellenmesine veya yetkilendirilmesine olanak tanır.
+reviewed: false

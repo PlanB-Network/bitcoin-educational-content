@@ -1,0 +1,8 @@
+question: Condorcet hangi ünlü mahkumu savunmuştur?
+answer: Le chevalier de la Barre
+wrong_answers:
+  - Jean Calas
+  - Louis Mandrin
+  - Lally Kontu
+explanation: |
+  Condorcet, dine küfrettiği için idama mahkûm edilen genç bir adam olan Chevalier de la Barre'ı savundu.

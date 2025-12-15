@@ -1,0 +1,9 @@
+question: 剪枝节点何时会成为钱包的问题？
+answer: 恢复旧版钱包时
+wrong_answers:
+  - 创建新接收地址时
+  - 发送最近的交易时
+  - 选择手续费时
+explanation: |
+  剪枝节点不保留旧区块，这可能会导致在恢复时无法扫描过去的交易。
+reviewed: true

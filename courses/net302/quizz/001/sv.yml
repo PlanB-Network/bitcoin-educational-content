@@ -1,0 +1,9 @@
+question: Vilken topologi kopplar all utrustning till en enda central punkt?
+answer: Stjärna
+wrong_answers:
+  - Ring
+  - Buss
+  - Nät
+explanation: |
+  I en stjärntopologi är varje enhet ansluten till en central enhet, vilket underlättar hantering och underhåll.
+reviewed: false

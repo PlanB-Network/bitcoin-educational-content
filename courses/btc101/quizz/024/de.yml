@@ -1,13 +1,13 @@
-question: Was ist der Hauptnachteil von Fiat-Währungen?
-answer: Ihr Wert wird ständig durch monetäre Inflation erodiert.
+question: Welches der folgenden ist kein Vorteil von Bitcoin als Währung?
+answer: Es wird verwendet, um Steuern zu bezahlen.
 wrong_answers:
-  - Sie sind nicht leicht transportierbar.
-  - Ihr Wert wird ständig durch monetäre Inflation aufgewertet.
-  - Sie sind nicht teilbar.
+  - Es ist teilbar.
+  - Es ist transportierbar.
+  - Es ist erlaubnisfrei.
 explanation: |
-  Der Hauptnachteil von Fiat-Währungen, wie dem
-  Dollar und dem Euro, ist, dass ihr Wert ständig
-  durch monetäre Inflation erodiert wird. Dies ist auf die
-  Abwertung zurückzuführen, die durch die sie kontrollierenden Entitäten (König,
-  Zentralbank, Kaiser, Diktator) verursacht wird.
+  Bitcoin bietet aufgrund seiner Eigenschaften wie Teilbarkeit,
+  Verifizierbarkeit, Erlaubnisfreiheit und Transportierbarkeit
+  einen ausgezeichneten Wertspeicher. Darüber hinaus stellt es als
+  neutrale Internetwährung ein gutes Tauschmittel dar, das keine
+  Grenzen kennt.
 reviewed: true

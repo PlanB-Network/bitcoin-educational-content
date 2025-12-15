@@ -1,0 +1,9 @@
+question: VPN'in ana avantajı nedir?
+answer: İnternet trafiğinin şifrelenmesi
+wrong_answers:
+  - İnternet bağlantınızı hızlandırın
+  - Depolama kapasitesini artırın
+  - Entegre antivirüs
+explanation: |
+  VPN güvenli bir tünel oluşturur ve cihazınız ile aracı bir sunucu arasındaki alışverişi şifreler, böylece gizliliği güçlendirir.
+reviewed: false

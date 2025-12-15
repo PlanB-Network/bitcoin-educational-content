@@ -1,0 +1,9 @@
+question: Which command displays the detailed status of all network interfaces in Linux?
+answer: ip addr show
+wrong_answers:
+  - ifup -a
+  - netstat -i
+  - ip route show
+explanation: |
+  "ip addr show" command lists all network interfaces, along with their status, addresses, and associated parameters.
+reviewed: false

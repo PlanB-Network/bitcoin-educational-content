@@ -1,0 +1,9 @@
+question: 재부팅 시 노드가 이전 동료를 찾기 위해 가장 먼저 참조하는 파일은 무엇인가요?
+answer: anchors.dat 및 peers.dat
+wrong_answers:
+  - Mempool.dat 및 peers.dat
+  - Mempool.dat 및 ip.dat
+  - ip.dat 및 anchors.dat
+explanation: |
+  Bitcoin core는 먼저 anchors.dat(이전 발신 피어)를 참조한 다음 peers.dat(알려진 Address 북)을 참조하여 다시 연결합니다.
+reviewed: true

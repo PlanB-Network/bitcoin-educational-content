@@ -200,9 +200,9 @@ W menu "*AntiTracker*" wybierz profil blokowania dla swojego anty-trackera. Jest
 I gotowe, teraz możesz w pełni cieszyć się IVPN. Jeśli chcesz również zwiększyć bezpieczeństwo swoich kont internetowych za pomocą lokalnego menedżera haseł, zapraszam do zapoznania się z naszym samouczkiem na temat KeePass, darmowego rozwiązania typu open source:
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Jeśli jesteś zainteresowany odkryciem innego dostawcy VPN podobnego do IVPN, zarówno pod względem funkcji, jak i cen, polecam również zapoznanie się z naszym samouczkiem na temat Mullvad:
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

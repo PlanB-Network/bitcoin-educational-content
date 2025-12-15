@@ -1,0 +1,9 @@
+question: Millist ajaloolist käsku saab kasutada ARP vahemälu vaatamiseks enamikus süsteemides?
+answer: arp
+wrong_answers:
+  - dig
+  - nslookup
+  - ping
+explanation: |
+  Käsk arp võimaldab vaadata või muuta ARP vahemälu, mis salvestab IP/MAC-ühendusi lokaalselt.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Ni kuki Bitcoin ifatwa nk’uburyo bushasha bw’amahera?
+answer: Kuko ni amahera ya digitale ata n’ikigo nyamukuru.
+wrong_answers:
+  - Kuko ni amafaranga y’ubuhinga bwa none ashigikiwe n’inzahabu.
+  - Kuko ni amafaranga asaba banki Blockchain.
+  - Kuko ni ko ikigo ca Leta Zunze Ubumwe za Amerika kivuga.
+explanation: |
+  Bitcoin ishobora kubonwa nk’uburyo bushasha bw’amahera, uko bugenda burasohoka .
+  kuva ku rubuga rw’urunganwe rudafise ikigo nyamukuru.
+reviewed: true

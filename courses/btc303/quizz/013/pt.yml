@@ -1,0 +1,9 @@
+question: De acordo com a apresentação de Matt Corallo, qual é a relação entre sistemas de confiança e sistemas sem confiança na arquitetura do Bitcoin?
+answer: É possível construir sistemas fiáveis em cima de um sistema sem confiança, mas não sistemas sem confiança em cima de sistemas fiáveis
+wrong_answers:
+  - É possível construir sistemas sem confiança sobre sistemas de confiança, mas não sistemas de confiança sobre sistemas sem confiança
+  - Tanto os sistemas de confiança como os sistemas sem confiança podem ser construídos uns sobre os outros sem quaisquer limitações arquitectónicas
+  - O Trustless e os sistemas de confiança devem funcionar de forma independente e não podem ser colocados uns sobre os outros
+explanation: |
+  A principal visão de Matt Corallo é que a camada de base sem confiança do Bitcoin permite flexibilidade no design do sistema. Uma base sem confiança como o protocolo Bitcoin permite aos programadores criar serviços de confiança (como carteiras de custódia) em camadas superiores, preservando as garantias de segurança subjacentes. No entanto, o inverso é impossível - não é possível criar sistemas verdadeiramente sem confiança se a própria base exigir confiança, uma vez que quaisquer propriedades sem confiança seriam prejudicadas pelas vulnerabilidades da camada de base de confiança.
+reviewed: false

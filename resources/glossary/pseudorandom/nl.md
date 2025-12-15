@@ -1,0 +1,8 @@
+---
+term: PSEUDO-RANDOM
+---
+
+Dit bijvoeglijk naamwoord wordt gebruikt om een getallenreeks te beschrijven die, hoewel het resultaat van een deterministisch proces, kenmerken vertoont die dicht in de buurt komen van die van een ideale echt willekeurige reeks. Het concept van ideale willekeurigheid impliceert een totale afwezigheid van voorspelbaarheid en correlatie tussen opeenvolgende Elements. Een pseudo-willekeurig getal wordt gegenereerd door een deterministisch algoritme en is daarom in theorie volledig voorspelbaar als men de begintoestand van de generator kent.
+
+
+Een pseudo-willekeurige getallengenerator (PRNG) is een algoritme dat gebruikt wordt om zulke getallen te produceren. Het begint over het algemeen met een initiële waarde, of "seed," en past dan een reeks wiskundige transformaties toe om de getallenreeks te produceren. Door deze determineerbaarheid is het belangrijk voor cryptografische veiligheid dat de initiële seed geheim blijft. Pseudo-willekeurige reeksen worden veel gebruikt op verschillende gebieden, waaronder cryptografie, omdat ze schijnbaar willekeurig gedrag vertonen dat volstaat voor veel toepassingen. De evaluatie van de kwaliteit van een PRNG is gebaseerd op de mate waarin de uitvoer de echte willekeur benadert in termen van verdeling, correlaties en andere statistische eigenschappen. In de context van Bitcoin worden pseudo-willekeurige getallen gebruikt om private sleutels te produceren, of om generate en seed te maken voor deterministische en hiërarchische portemonnees.

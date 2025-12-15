@@ -1,12 +1,9 @@
-question: Milton Friedman alitabiri nini mnamo 1999?
-answer: Maendeleo ya e-cash ya kuaminika.
+question: Ni lipi kati ya operesheni hizi za Lightning linalorekodiwa onchain?
+answer: Kufungua kituo
 wrong_answers:
-  - Uharibifu wa pesa za kimwili.
-  - Kuongezeka kwa Bitcoin.
-  - Mwisho wa udhibiti wa serikali juu ya pesa.
+  - Malipo ya kati
+  - Usasishaji wa hali
+  - Uelekezaji wa hatua nyingi
 explanation: |
-  Milton Friedman, mwanauchumi mashuhuri, alitabiri mnamo 1999
-  kwamba e-cash yenye kutegemeka ingetengenezwa hivi karibuni, njia
-  ambapo kwenye mtandao unaweza kuhamisha fedha kutoka A hadi B,
-  bila A kujua B au kinyume chake.
-reviewed: true
+  Ni kufungua na kufunga kituo cha Lightning pekee ndiko kunalingana na miamala ya Bitcoin inayochapishwa kwenye blockchain.
+reviewed: false

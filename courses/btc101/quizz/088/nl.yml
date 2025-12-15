@@ -1,8 +1,9 @@
-question: Wat is het grootste risico van het gebruik van een bewaarservice om je bitcoins op te slaan?
-answer: De vertrouwde derde partij kan uw toegang tot uw geld op elk moment beperken.
+question: Wat betekent de term HODL?
+answer: HODL is een slang term in de cryptocurrency gemeenschap die betekent om je investeringen vast te houden in plaats van ze te verkopen, vooral tijdens marktvolatiliteit.
 wrong_answers:
-  - De vertrouwde derde partij kan de waarde van je bitcoins op elk moment verhogen.
-  - De vertrouwde derde partij kan de waarde van je bitcoins op elk moment verlagen.
-  - De vertrouwde derde partij kan je bitcoins op geen enkel moment dupliceren.
-explanation: >-
+  - HODL verwijst naar een type cryptocurrency dat alleen wordt gebruikt voor handel.
+  - HODL is een term die betekent dat je al je cryptocurrency verkoopt tegen een hoge prijs.
+  - HODL is een strategie voor daytrading waarbij je vaak koopt en verkoopt.
+explanation: |
+  De term HODL is ontstaan uit een verkeerd gespelde online post in 2013 op een Bitcoin forum. In de loop der tijd is HODL geëvolueerd naar een bredere investeringsstrategie. Het moedigt investeerders aan om hun cryptocurrencies voor de lange termijn vast te houden, ongeacht marktschommelingen.
 reviewed: true

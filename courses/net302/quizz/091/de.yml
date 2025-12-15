@@ -1,0 +1,9 @@
+question: Welcher Befehl wird verwendet, um die offenen Ports eines Hosts zu scannen und zugängliche Dienste zu identifizieren?
+answer: nmap
+wrong_answers:
+  - dig
+  - ethtool
+  - iP-Nähe
+explanation: |
+  nmap erkennt offene Ports, exponierte Dienste und manchmal auch den Typ des entfernten Betriebssystems.
+reviewed: false

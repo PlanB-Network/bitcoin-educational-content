@@ -1,0 +1,8 @@
+question: None Coinbase Transaction ni iki?
+answer: Igikorwa ca mbere c’ibarabara kirimwo impembo ya Miner.
+wrong_answers:
+  - Ibikorwa vy’ugucuruza vyakozwe ku rubuga rwa Exchange Coinbase.
+  - Igikorwa kigira kabiri c’ibarabara kirimwo amafaranga menshi cane.
+  - Ibikorwa vy’ubudandaji bikorwa na Miner amaze kwakira impembo.
+explanation: >-
+reviewed: true

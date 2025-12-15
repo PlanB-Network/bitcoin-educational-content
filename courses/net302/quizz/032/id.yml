@@ -1,0 +1,9 @@
+question: Berapa panjang, dalam bit, dari IPv4 Address standar?
+answer: 32-bit
+wrong_answers:
+  - 8 bit
+  - 128-bit
+  - 16 bit
+explanation: |
+  IPv4 Address dikodekan dalam 32 bit, dibagi menjadi empat byte yang masing-masing terdiri dari 8 bit.
+reviewed: false

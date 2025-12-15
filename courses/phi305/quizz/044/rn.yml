@@ -1,0 +1,9 @@
+question: Ni ingorane iyihe kwanka uburenganzira bwo kwihitiramwo n’ugushika ku ciyumviro c’iherezo bitera ikibano cacu?
+answer: Ikibazo c’inshingano y’ikibi.
+wrong_answers:
+  - Gusunika abagabo ngo babe umwidegemvyo.
+  - Guteza imbere ubusenga.
+  - Kugira ngo hakingirwe ubwoko bwose bw’ubwigenge.
+explanation: |
+  Ukwanka umwidegemvyo wo kwihitiramwo n’ugushika ku mpera biratera ingorane y’inshingano y’ikibi. Nimba vyose vyategekanijwe kandi ata mpera, twoshobora gute gutuma abantu babazwa ivyo bakora? Ivyo ni ingorane ikomeye cane mu vy’inyifato runtu.
+reviewed: false

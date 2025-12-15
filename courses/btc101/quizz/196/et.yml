@@ -1,11 +1,11 @@
-question: Mis on Swiss Bitcoin Pay?
-answer: Lahendus amatöörkauplejatele Bitcoin'i vastuvõtmiseks
+question: Mida peaksite tegema pärast Bitcoini ostmist vahetusplatvormil?
+answer: Võtke Bitcoin oma rahakotti välja.
 wrong_answers:
-  - Šveitsi pank, mis aktsepteerib Bitcoin'i
-  - Šveitsi Bitcoin'i vahetus
-  - Šveitsi Bitcoin'i kaevandamise ettevõte
+  - Jätke see platvormile.
+  - Müüge see kohe maha.
+  - Kandke see teisele platvormile.
 explanation: >-
-  Swiss Bitcoin Pay on lahendus amatöörkauplejatele Bitcoin'i vastuvõtmiseks.
-  Teised lahendused hõlmavad OpenNode'i lihtsatele online-äridele ja BTCpay Serverit
-  suurtele struktuuridele või kirglikele bitcoinide kasutajatele.
+  Tekst soovitab, et pärast Bitcoini ostmist on soovitatav kohe
+  võtta Bitcoini vahetusplatvormilt välja, et minimeerida häkkimise
+  ja fondide blokeerimise riske.
 reviewed: false

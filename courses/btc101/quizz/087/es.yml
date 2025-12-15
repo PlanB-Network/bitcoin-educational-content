@@ -1,13 +1,14 @@
-question: ¿Qué es una cartera multisig?
-answer: Un conjunto de carteras que requiere múltiples firmas para realizar una transacción.
+question: ¿Cuál es el riesgo de usar una cartera multisig?
+answer: No tener acceso a suficientes claves privadas individuales o componentes de respaldo.
 wrong_answers:
-  - Una cartera que requiere una única firma para realizar una transacción.
-  - Una cartera que no requiere firmas para realizar una transacción.
-  - Una cartera que requiere una firma física para realizar una transacción.
+  - Tener acceso a suficientes claves privadas individuales o componentes de respaldo.
+  - Compartir tus claves privadas con otras partes.
+  - Compartir tus claves públicas con otras partes.
 explanation: |
-  Una cartera multisig es un tipo de cartera de Bitcoin que requiere
-  múltiples firmas para realizar una transacción. Esto añade una
-  capa extra de seguridad, ya que significa que una sola persona
-  no puede realizar una transacción sin la aprobación de
-  otros.
+  Cuando usas una cartera multisig, cada clave privada del
+  multisig debe almacenarse en diferentes ubicaciones. Esto es
+  porque el multisig requiere múltiples firmas para llevar a cabo
+  una transacción, por lo que se necesitan cierto número de carteras.
+  Por lo tanto, almacenar cada parte en una ubicación diferente
+  añade una capa extra de seguridad.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Ni igiki Lightning Network yemera, ugereranyije n’ibikorwa vya kera ku Bitcoin Blockchain?
+answer: Gucuruza vyihuta n'amahera make
+wrong_answers:
+  - Ibicuruzwa bitazwi kandi bidashobora gukurikirana
+  - Ibikorwa vy'ubudandaji mu bwinshi ata n'aho bigarukira
+  - Ibikorwa hagati y'imirongo itandukanye
+explanation: |
+  Lightning Network ishobora gutuma umuntu ashobora gukoresha amafaranga yihuta kandi ataco atwara biciye ku nzira zo kwishura za off-chain, ivyo bikaba bitandukanye n’amafaranga asanzwe akoreshwa kuri Blockchain.
+reviewed: false

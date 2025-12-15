@@ -1,0 +1,9 @@
+question: Ni ikihe kigo ca Amerika cari inyuma y’uwo mugambi wa ARPANET?
+answer: ARPA
+wrong_answers:
+  - ARAPAN
+  - IETF
+  - AETF
+explanation: |
+  ARPA (Ikigo c’Imigambi y’Ubushakashatsi Iteye imbere) ni co catanguje ARPANET, kikaba ari co cashizeho umushinge wo gutegura umurongo wa TCP/IP. Mu mwaka w’1972, ico kigo carahinduwe izina citwa DARPA (Ikigo c’ubushakashatsi buteye imbere mu vy’ukwigwanira).
+reviewed: false

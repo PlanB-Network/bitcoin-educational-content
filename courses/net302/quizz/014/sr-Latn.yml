@@ -1,0 +1,9 @@
+question: Koja je glavna svrha IPv5 (Stream Protocol, ST)?
+answer: Osiguravanje kvaliteta usluge za određene tokove
+wrong_answers:
+  - Proširi kapacitet IP adresiranja
+  - Omogućavanje unazadne kompatibilnosti sa IPv6
+  - Smanjenje veličine TCP/IP mrežnih paketa
+explanation: |
+  IPv5 (ST) je dizajniran da obezbedi kvalitet usluge (QoS) za multimedijalne tokove, kao što je VoIP, garantovanjem propusnog opsega i prioriteta.
+reviewed: false

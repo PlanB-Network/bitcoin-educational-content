@@ -1,11 +1,9 @@
-question: Ai là người đầu tiên tham gia mạng Bitcoin sau Satoshi Nakamoto?
-answer: Hal Finney.
+question: Tỷ lệ sẵn có trực tuyến của Bitcoin kể từ năm 2009 là bao nhiêu?
+answer: 99.988%.
 wrong_answers:
-  - Laszlo Hanyecz.
-  - Phil Champagne.
-  - Rogzy.
+  - 100%.
+  - 90.009%.
+  - 80.17%.
 explanation: |
-  Hal Finney là người đầu tiên tham gia mạng Bitcoin
-  sau chính Satoshi Nakamoto. Ông thậm chí đã tweet Đang chạy
-  Bitcoin để đánh dấu sự kiện này.
+  Tỷ lệ sẵn có trực tuyến của Bitcoin kể từ năm 2009 là 99.988%.
 reviewed: true

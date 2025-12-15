@@ -1,0 +1,9 @@
+question: I hvilket år ble det første ARPANET-segmentet satt i drift?
+answer: 1969
+wrong_answers:
+  - 1972
+  - 1962
+  - 1961
+explanation: |
+  Det første ARPANET-segmentet ble satt i drift i oktober 1969, og koblet sammen UCLA og Stanford.
+reviewed: false

@@ -1,12 +1,12 @@
-question: Qual è uno strumento per accettare Bitcoin per grandi organizzazioni o appassionati di Bitcoin?
-answer: BTCpay Server.
+question: Qual è lo scopo delle normative KYC?
+answer: Combattere il finanziamento al terrorismo, l'evasione fiscale e il riciclaggio di denaro.
 wrong_answers:
-  - Wallet Bitcoin.
-  - Scambio Bitcoin.
-  - BTCpay Mining.
+  - Aumentare il prezzo di Bitcoin e far pagare più tasse all'utente.
+  - Controllare l'offerta di Bitcoin.
+  - Impedire alle persone di acquistare Bitcoin.
 explanation: |
-  BTCpay Server è uno strumento per accettare Bitcoin per grandi
-  strutture o appassionati di bitcoin. Altre soluzioni
-  includono OpenNode per semplici attività commerciali online e Swiss
-  Bitcoin Pay per commercianti amatoriali.
+  Il testo del corso spiega che le normative Know Your Customer (KYC)
+  richiedono agli utenti di fornire un'identificazione per
+  combattere il finanziamento al terrorismo, l'evasione fiscale e il
+  riciclaggio di denaro.
 reviewed: true

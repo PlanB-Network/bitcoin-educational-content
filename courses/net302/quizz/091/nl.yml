@@ -1,0 +1,9 @@
+question: Welk commando wordt gebruikt om de open poorten van een host te scannen en toegankelijke services te identificeren?
+answer: nmap
+wrong_answers:
+  - graven
+  - ethtool
+  - ip buren
+explanation: |
+  nmap detecteert open poorten, blootgestelde services en soms het type besturingssysteem op afstand.
+reviewed: false

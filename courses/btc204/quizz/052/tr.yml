@@ -1,0 +1,10 @@
+question: Silent Payments tarafından özel olarak ne tür bir senaryo kullanılıyor?
+answer: P2TR
+wrong_answers:
+  - P2WPKH
+  - P2SP
+  - P2WSH
+explanation: |
+  Bu protokolün uygulanmasını kolaylaştırmak ve kullanıcılarının anonimlik setini geliştirmek için Silent Payments yalnızca P2TR (Taproot'ye Ödeme) komut dosyalarına güvenmektedir.
+  
+reviewed: false

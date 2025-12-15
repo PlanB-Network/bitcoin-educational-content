@@ -1,8 +1,8 @@
-question: U poređenju sa fiat valutama, kako se Bitkoin percipira?
-answer: Kao paralelna ekonomija.
+question: Šta je OpenNode?
+answer: Jednostavno online rešenje za preduzeća da prihvate Bitkoin.
 wrong_answers:
-  - Kao zamenska ekonomija.
-  - Kao industrijska ekonomija.
-  - Kao tercijarna ekonomija.
+  - Tip Bitkoin čvora koji istovremeno koristi mnogo korisnika.
+  - Softver za rudarenje Bitkoina koji je otvorenog koda.
+  - Bitcoin menjačnica.
 explanation: >-
 reviewed: true

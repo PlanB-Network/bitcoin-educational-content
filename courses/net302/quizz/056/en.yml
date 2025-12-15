@@ -1,0 +1,9 @@
+question: What is the main purpose of network bonding?
+answer: Aggregate multiple physical network interfaces
+wrong_answers:
+  - Add virtual IP addresses to the local network
+  - Creating a Wi-Fi bridge
+  - Reduce packet size on RJ45 cable
+explanation: |
+  Network bonding combines multiple physical interfaces into a single logical one, providing redundancy or increased bandwidth.
+reviewed: false

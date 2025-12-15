@@ -1,0 +1,9 @@
+question: Vilken organisation övervakar den tekniska styrningen av Internetprotokoll?
+answer: Styrelsen för Internetarkitektur
+wrong_answers:
+  - Internetgemenskap
+  - World Wide Web-konsortiet
+  - Institutet för elektrotekniska och elektroniska ingenjörer
+explanation: |
+  Internet Architecture Board (IAB) övervakar den tekniska styrningen och samordnar utvecklingen av Internetprotokoll.
+reviewed: false

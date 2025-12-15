@@ -1,0 +1,9 @@
+question: Hvilket scenario representerer, ifølge bokens definisjon, legitim Bitcoin-skalering samtidig som sensurmotstanden opprettholdes?
+answer: Implementering av mer plasseffektive signaturverifiseringsalgoritmer som reduserer størrelsen på transaksjonsinndata
+wrong_answers:
+  - Oppmuntre brukerne til å flytte transaksjoner til sentraliserte børser for å redusere on-chain-volumet
+  - Implementering av automatisk transaksjonsfiltrering for å prioritere visse typer økonomisk aktivitet
+  - Opprette myndighetsgodkjente valideringsnoder som kan behandle transaksjoner mer effektivt
+explanation: |
+  I boken defineres Bitcoin-skalering som "å øke Bitcoins brukskapasitet uten at det går på bekostning av sensurmotstanden" Plassbesparende signaturverifisering passer direkte inn i denne definisjonen ved at transaksjoner bruker færre byte, samtidig som desentraliseringen opprettholdes. De gale svarene går alle på bekostning av sensurmotstanden: Sentraliserte børser introduserer betrodde tredjeparter, transaksjonsfiltrering skaper sensurmekanismer, og myndighetsgodkjente noder sentraliserer valideringsmyndigheten. Ekte skalering bevarer Bitcoins kjerneegenskaper samtidig som effektiviteten forbedres.
+reviewed: false

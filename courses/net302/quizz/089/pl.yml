@@ -1,0 +1,9 @@
+question: Którego protokołu używa polecenie ping do testowania łączności sieciowej?
+answer: ICMP
+wrong_answers:
+  - TCP
+  - UDP
+  - ARP
+explanation: |
+  Polecenie ping wykorzystuje protokół ICMP do wysyłania żądań echa i mierzenia opóźnień w sieci.
+reviewed: false

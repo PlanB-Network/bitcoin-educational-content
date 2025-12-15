@@ -1,0 +1,14 @@
+question: Ni itandukaniro nyamukuru irihe riri hagati yo kurondera kumbuga mu buryo bwihariye no gukoresha umuhora wa TOR?
+answer: Tor inyegeza aderese IP y'uwuyikoresha, mugihe kurondera kumbuga mu buryo bwihariye bitayinyegeza.
+wrong_answers:
+  - Kurondera kumbuga mu buryo bwihariye no gukoresha umuhora wa TOR nico kimwe.
+  - Kurondera kumbuga mu buryo bwihariye bipfuka aderese IP y’ukoresha, mu gihe TOR itayipfuka.
+  - TOR isiga ibimenyetso ku nyabwonko yawe, mu gihe Kurondera kumbuga mu buryo bwihariye bitabikora.
+explanation: |
+  Kurondera mu buryo bwihariye ni uburyo budufasha kubuza mucukumbuzi 
+  kubika ibimenyetso vyivyo twarondereye ko, amadosiye amara igihe gito yo kuri interineti,
+  amakuru y’ifomu, amakuki, n’amazina y’abayikoresha n’amajambo y'ibanga.
+  Ariko rero, ntibihisha ivyo urondera aba guhai interineti.
+  Ku rundi ruhande, umuhora wa TOR utanga kutamenyekana mu gupfuka aderese I
+  y'uwuyikoresha be nokumwemera gushika ku rubuga rwa Darknet.
+reviewed: true

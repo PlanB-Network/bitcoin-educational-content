@@ -1,0 +1,10 @@
+question: Ni igice ca kabiri c’ikintu c’ugutera imbere cane kw’ibiciro ni ikihe?
+answer: Amafaranga arasenyuka & igiciro kiduga.
+wrong_answers:
+  - Gutakaza Icizigiro.
+  - Uruziga rw’ububisha rwo gucapura amahera.
+  - Ifaranga rishasha rirasohoka.
+explanation: |
+  Icigwa ca kabiri c'ugutera imbere kw'ibiciro ni ugusenyuka kw'amahera &
+  igiciro kiduga, inyuma gato y’Iciciro co Gutakaza Icizigiro.
+reviewed: true

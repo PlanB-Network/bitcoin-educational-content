@@ -1,0 +1,9 @@
+question: Vilket protokoll använder kommandot ping för att testa nätverksanslutningen?
+answer: ICMP
+wrong_answers:
+  - TCP
+  - UDP
+  - ARP
+explanation: |
+  Kommandot ping använder ICMP-protokollet för att skicka ekoförfrågningar och mäta nätverksfördröjningen.
+reviewed: false

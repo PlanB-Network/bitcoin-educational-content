@@ -1,5 +1,5 @@
 ---
-name: Cold Card
+name: COLDCARD Mk
 
 description: Creating, backing up, and using a Bitcoin private key with a Coldcard device and Bitcoin Core
 ---

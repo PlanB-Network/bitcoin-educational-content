@@ -1,0 +1,9 @@
+question: Address yeniden kullanım sezgiselliğini kim keşfetti?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Vitalik Buterin
+  - Hal Finney
+  - Gavin Andresen
+explanation: |
+  Bu kavramı ilk tartışan kişi Satoshi Beyaz Kitap'ın 10. bölümünde Bitcoin Nakamoto olmuştur.
+reviewed: false

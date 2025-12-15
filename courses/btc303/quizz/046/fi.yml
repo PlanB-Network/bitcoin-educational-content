@@ -1,0 +1,9 @@
+question: Miksi Bitcoin:n kaltaiset online-järjestelmät eroavat fyysisistä järjestelmistä olennaisesti, kun on kyse hyökkäysuhista?
+answer: Verkkojärjestelmiin kohdistuu pseudonyymejä ja anonyymejä vastustajia, jotka voivat hyödyntää mitä tahansa heikkouksia näkymättä tai jäämättä kiinni
+wrong_answers:
+  - Verkkojärjestelmissä on monimutkaisempia salausalgoritmeja, joita on vaikeampi analysoida tietoturva-aukkojen varalta
+  - Lainvalvontaviranomaiset voivat suojata fyysisiä järjestelmiä, kun taas online-järjestelmät perustuvat vain matemaattisiin todisteisiin
+  - Verkkojärjestelmät käsittelevät maksutapahtumat nopeammin, mikä helpottaa vastustajien koordinoituja hyökkäyksiä
+explanation: |
+  Andrew Poelstra korosti, että fyysiset järjestelmät voivat luottaa lainvalvontaan ja vastustajien näkyvyyteen estääkseen hyökkäykset ja jopa hyväksyä joitakin riskejä, kuten rakennusten polttamisen. Bitcoin:n kaltaiset online-järjestelmät toimivat kuitenkin ympäristössä, jossa vastustajat voivat toimia pseudonyymisti tai nimettömästi, muodostaa yhteyden mistä tahansa ja hyödyntää heikkouksia ilman, että heidät tunnistetaan tai saadaan kiinni. Tämä perustavanlaatuinen ero tarkoittaa, että kaikki Bitcoin:n tunnetut heikkoudet on korjattava, sillä näkymättömät vastustajat, jotka eivät joudu kohtaamaan mitään seurauksia todellisessa maailmassa, käyttävät niitä väistämättä hyväkseen.
+reviewed: false

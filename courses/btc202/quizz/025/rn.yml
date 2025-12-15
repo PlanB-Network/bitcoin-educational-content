@@ -1,0 +1,9 @@
+question: Ni ryari urudodo rwa pruned ruba ingorane kuri Wallet?
+answer: Igihe basubizaho Wallet ya kera.
+wrong_answers:
+  - Igihe urema ikibanza gishasha co kwakira abantu Address.
+  - Igihe wohereje amafaranga aherutse gukoreshwa
+  - Igihe uhisemwo amafaranga
+explanation: |
+  Igikoresho ca pruned ntikigumya amabuye ya kera, ivyo bishobora kubuza ko amafaranga ya kera adashobora gusuzumwa mu gihe co gusubizaho.
+reviewed: true

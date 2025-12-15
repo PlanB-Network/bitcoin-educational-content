@@ -1,0 +1,9 @@
+question: Thomas Paine'in kitabının adı nedir?
+answer: Sağduyu.
+wrong_answers:
+  - Eşsiz duyu.
+  - Kamu yararı.
+  - Yukarıdaki cevaplardan hiçbiri doğru değildir.
+explanation: |
+  Thomas Paine'in Sağduyu (Fransızca Le sens commun) başlıklı kitabı, Amerikan bağımsızlığını savunan ve İngiliz tiranlığını kınayan etkili bir broşürdür ve sömürgecilerin harekete geçirilmesinde kilit bir rol oynamıştır.
+reviewed: true

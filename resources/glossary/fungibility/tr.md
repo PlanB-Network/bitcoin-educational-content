@@ -1,0 +1,5 @@
+---
+term: FUNGIBILITY
+---
+
+Bir para biriminin her bir biriminin birbiriyle değiştirilebilir ve benzer başka bir birimden ayırt edilemez olmasını sağlayan özelliği. Bir hesap birimi olarak Bitcoin prensipte değiştirilebilirdir, çünkü bir Bitcoin her zaman başka bir Bitcoin değerindedir: 1 BTC = 1 BTC. Ancak, Blockchain üzerindeki UTXO'ların (birimler için destek) izlenebilirliği bazen bu değiştirilebilirliği tehlikeye atabilir. Gerçekten de her bir Satoshi, kendisine belirli bir kimlik kazandıran geçmişi ile ayırt edilebilir. Her bir UTXO'ün geçmişine ilişkin algı, tarafların kullanılan bitcoinlerin değiştirilebilirliğine ilişkin kararlarını etkileyebilir. Dolayısıyla, değiştirilebilirlik parasal birimlerin içsel bir özelliği olmasına rağmen, Bitcoin'de olduğu gibi, bu birimler için kullanılan ortamın özellikleri tarafından değiştirilebilir.

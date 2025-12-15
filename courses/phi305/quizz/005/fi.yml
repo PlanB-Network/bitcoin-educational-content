@@ -1,0 +1,9 @@
+question: Kuka tiedemies uskoo, että matematiikka on maailmankaikkeuden kieli?
+answer: Galileo.
+wrong_answers:
+  - Kepler.
+  - Newton.
+  - Kopernikus.
+explanation: |
+  Galileo on kuuluisa väitteestään, jonka mukaan "luonnon kirja on kirjoitettu matemaattisella kielellä". Tämä näkemys on vaikuttanut syvällisesti moderniin tieteeseen ja rationalistiseen filosofiaan, myös Spinozan filosofiaan.
+reviewed: false

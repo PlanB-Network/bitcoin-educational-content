@@ -1,0 +1,9 @@
+question: Dung lượng SSD tối thiểu được khuyến nghị vào năm 2025 cho một nút Bitcoin là bao nhiêu?
+answer: 2 Đến
+wrong_answers:
+  - 512 GB
+  - 10 Đến
+  - 256 GB
+explanation: |
+  Với Blockchain vượt quá 700 GB và các ứng dụng bổ sung, 2 TB đã trở thành mức tối thiểu hợp lý.
+reviewed: true

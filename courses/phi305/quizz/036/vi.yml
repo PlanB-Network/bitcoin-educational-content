@@ -1,0 +1,9 @@
+question: Gilles Deleuze là ai?
+answer: Một giáo viên triết học từ những năm 80, chuyên về Spinoza.
+wrong_answers:
+  - Một chính trị gia.
+  - Một nhà kinh tế học theo chủ nghĩa tự do.
+  - Một nhà phát minh.
+explanation: |
+  Gilles Deleuze (1925-1995) là giáo sư triết học người Pháp vào những năm 1980 và là một chuyên gia nổi tiếng về Spinoza. Cuốn sách Spinoza et le problème de l'expression (Spinoza và vấn đề biểu đạt) của ông đã làm mới cách chúng ta đọc Đạo đức học.
+reviewed: false

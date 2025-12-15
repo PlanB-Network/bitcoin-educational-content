@@ -1,0 +1,9 @@
+question: 대부분의 관할권에서 Bitcoin을 처리할 때 과세 대상 이벤트는 무엇이 발생하나요?
+answer: Bitcoin을 판매, 거래 또는 결제 수단으로 사용하면 과세 대상 이벤트가 발생하는 경우가 많습니다.
+wrong_answers:
+  - 거래 없이 Bitcoin를 무기한 보유하기만 하면 됩니다.
+  - Bitcoin Wallet 또는 키 백업하기.
+  - 온라인에서 Bitcoin 가격 보기.
+explanation: |
+  일반적으로 과세 대상 이벤트는 기업이 Bitcoin을 단순히 보유하는 것이 아니라 처분하거나 사용할 때 발생합니다. 상품, 서비스 또는 법정 화폐에 대한 각 판매 또는 Bitcoin의 Exchange은 과세 대상 이익 또는 손실이 될 수 있습니다.
+reviewed: true

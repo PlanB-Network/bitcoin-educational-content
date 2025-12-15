@@ -1,0 +1,9 @@
+question: Mikä nykyaikainen työkalu korvaa arp:n uusimmissa Linux-jakeluissa?
+answer: ip neigh
+wrong_answers:
+  - ifconfig
+  - traceroute
+  - reitti
+explanation: |
+  iproute2-pakettiin kuuluva ip neigh korvaa arp:n IP/MAC-yhteyksien hallinnassa nykyaikaisessa Linuxissa.
+reviewed: false

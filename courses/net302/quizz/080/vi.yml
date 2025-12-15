@@ -1,0 +1,9 @@
+question: Phần mềm đồ họa nào có thể được sử dụng để cung cấp phân tích giáo dục chi tiết về các gói tin mạng đã thu thập?
+answer: Wireshark
+wrong_answers:
+  - Nếu cấu hình
+  - Theo dõi tuyến đường
+  - Tuyến đường
+explanation: |
+  Wireshark là một công cụ phân tích gói tin đồ họa dùng để kiểm tra chuyên sâu lưu lượng mạng đã thu thập.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Perintah mana yang dapat digunakan untuk menambahkan IP statis Address ke Interface di Linux?
+answer: ip addr add [Address]/[mask] dev [Interface]
+wrong_answers:
+  - ifconfig [Interface] up [Address]/[mask]
+  - ip route add [Address] dev [Interface]
+  - route add -net [Address] netmask [mask] dev [Interface]
+explanation: |
+  Perintah "ip addr add" adalah metode modern untuk menetapkan untuk menetapkan IP statis Address ke jaringan Interface di Linux.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 简化支付验证（SPV）概念的发明者是谁？
+answer: 中本聪
+wrong_answers:
+  - Hal Finney
+  - Adam Back
+  - Pieter Wuille
+explanation: |
+  中本聪的《白皮书》第 8 部分介绍了 SPV 概念。
+reviewed: true

@@ -1,0 +1,9 @@
+question: Jaka jest główna funkcja MAC Address w sieci lokalnej?
+answer: Unikalna identyfikacja sieci Interface
+wrong_answers:
+  - Tłumaczenie nazwy domeny na adres IP Address
+  - Dynamiczne przypisywanie adresu IP Address do hosta
+  - Określenie szybkości połączenia internetowego
+explanation: |
+  MAC Address służy jako unikalny identyfikator sprzętowy dla każdej sieci Interface, umożliwiając fizyczne rozróżnienie urządzeń w sieci lokalnej.
+reviewed: false

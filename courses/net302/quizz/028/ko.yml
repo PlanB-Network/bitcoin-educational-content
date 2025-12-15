@@ -1,0 +1,9 @@
+question: TCP용 전송 Layer을 통해 흐르는 데이터의 단위는 무엇인가요?
+answer: 세그먼트
+wrong_answers:
+  - 데이터그램
+  - 프레임
+  - 스트림
+explanation: |
+  TCP를 사용하는 전송 Layer에서는 데이터 단위를 세그먼트라고 하며, UDP에서는 패킷이라는 용어를 사용합니다.
+reviewed: false

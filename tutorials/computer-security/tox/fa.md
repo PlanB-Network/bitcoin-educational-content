@@ -1,5 +1,5 @@
 ---
-name: توکس
+name: Tox
 description: مکالمات را بدون واسطه‌ها در پروتکل غیرمتمرکز Tox باز کنید
 ---
 ![cover](assets/cover.webp)
@@ -304,4 +304,4 @@ Tox یک پروتکل ارتباطی رایگان (متن‌باز) و غیرم�
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41

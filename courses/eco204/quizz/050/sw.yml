@@ -3,9 +3,9 @@ answer: Uwekezaji wa dola
 wrong_answers:
   - Kuchapisha pesa zaidi
   - Tunaanzisha sarafu mpya
-  - Kupunguza pesa Supply
+  - Kupunguza pesa za Supply
 explanation: |
   Zimbabwe ilipitisha matumizi ya dola kukabiliana na mfumuko wa bei. Hii ina maana wao
-  iliyopitishwa dola ya Marekani au sarafu nyingine kutoka nchi jirani, ambayo inazuia
+  waliyopitisha dola ya Marekani au sarafu nyingine kutoka nchi jirani, ambayo inazuia
   serikali kutokana na kuchapisha pesa ipendavyo.
-reviewed: false
+reviewed: true

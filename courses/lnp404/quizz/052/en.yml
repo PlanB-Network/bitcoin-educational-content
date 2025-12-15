@@ -1,0 +1,8 @@
+question: What is the primary architectural advantage that LITD provides over running separate LND, Loop, Pool, Faraday, and Taproot Assets daemons?
+answer: Eliminates the complexity of managing five distinct daemons and their inter-process communications by bundling them into a single unified binary
+wrong_answers:
+  - Reduces memory usage by sharing a common blockchain database across all Lightning Network services through optimized resource pooling
+  - Provides automatic failover capabilities between different Lightning implementations when one component experiences technical difficulties or crashes
+  - Enables cross-chain atomic swaps between Bitcoin and altcoins through integrated multi-currency wallet management and routing protocols
+explanation: |
+  LITD's core architectural benefit is consolidating LND, Loop, Pool, Faraday, and Taproot Assets into one unified binary, eliminating the operational overhead of managing five separate daemons and their complex inter-process communications. The wrong answers describe features that LITD doesn't provide: it doesn't optimize resource pooling across services, doesn't offer failover between different Lightning implementations, and doesn't enable cross-chain atomic swaps with altcoins.

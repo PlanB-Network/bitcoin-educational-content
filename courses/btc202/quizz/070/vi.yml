@@ -1,0 +1,9 @@
+question: Ai duy trì máy chủ DNS seed được sử dụng cho mục đích khám phá đối tác ban đầu?
+answer: Các nhà phát triển hệ sinh thái
+wrong_answers:
+  - Nhà cung cấp dịch vụ Internet
+  - Satoshi Nakamoto
+  - Bể bơi Mining
+explanation: |
+  Hạt giống DNS được duy trì bởi các nhà phát triển nổi tiếng (Wuille, Corallo, Dashjr, v.v.) và cung cấp IP nút hoạt động để bắt đầu kết nối.
+reviewed: true

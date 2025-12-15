@@ -1,0 +1,9 @@
+question: 울트라프룬 모델을 도입한 Bitcoin core 버전은 무엇인가요?
+answer: 0.8.0
+wrong_answers:
+  - 0.3.0
+  - 0.6.0
+  - 0.10.0
+explanation: |
+  버전 0.8.0부터 Bitcoin core은 더 이상 전역 인덱스를 사용하지 않고 울트라프루프 덕분에 UTXO 세트를 직접 유지합니다.
+reviewed: true

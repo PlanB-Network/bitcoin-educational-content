@@ -1,0 +1,9 @@
+question: Какая организация присваивает номера версий протокола IP?
+answer: IANA
+wrong_answers:
+  - IETF
+  - RFC
+  - Google
+explanation: |
+  Управление по присвоению номеров в Интернете (IANA) управляет Assignment номерами версий протоколов IP и распределением диапазонов протоколов.
+reviewed: false

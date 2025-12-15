@@ -1,12 +1,12 @@
-question: Mikä on Wei Dain b-money?
-answer: Anonyymin digitaalisen valuutan idea, jossa petoksen havaitseminen suoritettiin yhteisön arvioijien toimesta keskitetyn viranomaisen sijaan.
+question: Mikä on rahan rooli viestintävälineenä?
+answer: Sen avulla voidaan välittää arvoa ajan ja paikan yli ilman tarvetta luottaa vastapuoleen.
 wrong_answers:
-  - Digitaalinen valuutta, jota käytettiin laajalti ennen Bitcoinia ja jota hallinnoi joukko kyberpunkkeja.
-  - Digitaalisen rahan muoto, jonka CIA loi ja jota armeija käytti.
-  - Digitaalinen valuutta, jonka Wei Dai loi kilpailemaan Bitcoinin kanssa ollakseen skaalautuvampi.
+  - Sen avulla voidaan välittää arvoa vain paikan yli ilman tarvetta luottaa vastapuoleen.
+  - Sen avulla voidaan välittää arvoa vain ajan yli ilman tarvetta luottaa vastapuoleen.
+  - Sen avulla voidaan välittää arvoa ajan ja paikan yli, mutta tarvitaan luottamusta vastapuoleen.
 explanation: |
-  Wei Dain b-money oli anonyymin digitaalisen
-  valuutan idea ilman keskitettyä toimijaa, joka suuresti inspiroi
-  Bitcoinin luomista. Itse asiassa se mainitaan Bitcoinin
-  whitepaperissa.
+  Raha viestintävälineenä mahdollistaa viestinnän ajan ja paikan yli, kun muutamme aikamme ja energiamme
+  uudelleenkäytettäväksi omaisuudeksi, joka voidaan hyödyntää tulevaisuudessa ilman arvon alenemisen riskiä.
+  Se mahdollistaa myös viestinnän yleisessä yhteisessä kielessä, joka mahdollistaa kahden tuntemattoman
+  vaihtokaupan, kaupankäynnin ja sopimuksen asioiden arvosta.
 reviewed: true

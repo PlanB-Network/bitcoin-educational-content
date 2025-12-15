@@ -1,5 +1,5 @@
 ---
-name: Rychlost Wallet
+name: Speed Wallet
 description: Platit a Exchange v bitcoinech a USDT okamžitě
 ---
 ![cover](assets/cover.webp)
@@ -49,7 +49,7 @@ V tomto návodu vás seznámíme s každým z těchto aspektů, abychom vám pr�
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Začínáme se Speed Wallet
 
@@ -79,7 +79,7 @@ Rychlost Wallet vyžaduje vytvoření uživatelského účtu. Můžete si ho vyt
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![download](assets/fr/01.webp)
 
@@ -89,7 +89,7 @@ Po vytvoření účtu doporučujeme nastavit systém dvojího ověřování nebo
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Za tímto účelem přejděte do nastavení aplikace a aktivujte duální ověřování a biometrické ověřování.
 
@@ -161,7 +161,7 @@ Můžete také jednoduše použít svůj blesk Address, když chcete dát odesí
 
 
 
-- Odesílání bitcoinů pomocí Speed Wallet** :
+- **Odesílání bitcoinů pomocí Speed Wallet**:
 
 
 
@@ -191,7 +191,7 @@ Možnosti **Koupit** a **Vyměnit** vám umožňují vyměnit bitcoiny Exchange 
 
 
 
-- Koupit Bitcoin kreditní kartou**: Rychlost Wallet umožňuje snadno získat Bitcoin z fiat měn, které používáte každý den. Obsahuje platební agregátor, který vám umožní platit bitcoiny pomocí vaší kreditní karty.
+- **Koupit Bitcoin kreditní kartou**: Rychlost Wallet umožňuje snadno získat Bitcoin z fiat měn, které používáte každý den. Obsahuje platební agregátor, který vám umožní platit bitcoiny pomocí vaší kreditní karty.
 
 
 
@@ -201,13 +201,13 @@ Možnosti **Koupit** a **Vyměnit** vám umožňují vyměnit bitcoiny Exchange 
 
 
 
-- Koupit Bitcoin z jiných kryptoměn**: Můžete Exchange své USDT, USDC za bitcoiny ve svém Wallet a naopak. Prostřednictvím této možnosti Speed Wallet zjednodušuje proces nákupu a prodeje Bitcoin, aniž byste museli odkazovat na externí platformy Exchange. Můžete tak obchodovat již za 20 000 satošů, což je při současném kurzu přibližně 20 USD, aniž byste opustili svůj Speed Wallet.
+- **Koupit Bitcoin z jiných kryptoměn**: Můžete Exchange své USDT, USDC za bitcoiny ve svém Wallet a naopak. Prostřednictvím této možnosti Speed Wallet zjednodušuje proces nákupu a prodeje Bitcoin, aniž byste museli odkazovat na externí platformy Exchange. Můžete tak obchodovat již za 20 000 satošů, což je při současném kurzu přibližně 20 USD, aniž byste opustili svůj Speed Wallet.
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ![swap-btc](assets/fr/07.webp)
 
@@ -265,7 +265,7 @@ Níže naleznete náš návod, jak začít používat službu Bitrefill.
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Získávání odměn
 
@@ -327,7 +327,7 @@ V možnosti **Nastavení** na stránce **Wallet** můžete v části **Mini apli
 
 
 
-https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
+https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 ## Rychlost Wallet není určena pouze pro mobilní zařízení!
 
@@ -375,25 +375,25 @@ V zásadě se zaměřují na platby a nabízejí následující možnosti:
 
 
 
-- Online platby**: V rámci této možnosti můžete přijímat platby za digitální produkty prostřednictvím platebních odkazů, faktur a předplatného.
+- **Online platby**: V rámci této možnosti můžete přijímat platby za digitální produkty prostřednictvím platebních odkazů, faktur a předplatného.
 
 
 
 
 
-- Platby na místě**: Pro výběr plateb ve vašem obchodě.
+- **Platby na místě**: Pro výběr plateb ve vašem obchodě.
 
 
 
 
 
-- Okamžité platby**: Možnost, která vám umožní spravovat náhrady, výběry, výdaje a výplatní pásky zaměstnanců přímo ze Speed Business Interface.
+- **Okamžité platby**: Možnost, která vám umožní spravovat náhrady, výběry, výdaje a výplatní pásky zaměstnanců přímo ze Speed Business Interface.
 
 
 
 
 
-- Platby na platformě**: Připojte svůj účet Speed Business k externím nástrojům, které používáte k provádění převodů a plateb na tyto platformy.
+- **Platby na platformě**: Připojte svůj účet Speed Business k externím nástrojům, které používáte k provádění převodů a plateb na tyto platformy.
 
 
 
@@ -401,4 +401,4 @@ Dostali jste se na konec našeho výukového programu Speed Wallet. Pokud pro v�
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

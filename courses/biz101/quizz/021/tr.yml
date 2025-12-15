@@ -1,0 +1,9 @@
+question: Bir şirket neden gayrimenkul gibi geleneksel "güvenli" varlıklar yerine Bitcoin tutmayı düşünebilir?
+answer: Bitcoin potansiyel olarak reel enflasyonu geride bırakabilir ve gayrimenkulün likiditesizliğine ve bakım maliyetlerine bağlı değildir.
+wrong_answers:
+  - Gayrimenkul her zaman Bitcoin'den daha ucuzdur ve asla bakıma ihtiyaç duymaz.
+  - Bitcoin, gayrimenkulün sağlamadığı devlet destekli garantileri sağlamaktadır.
+  - Gayrimenkul, tüm piyasa koşullarında Bitcoin'ten daha hızlı değer kazanır.
+explanation: |
+  Gayrimenkul genellikle likidite kısıtlamaları ve devam eden maliyetler içerir ve borca dayalı bir para sistemindeki gizli enflasyona ayak uyduramayabilir. Bitcoin'in kıtlığı ve küresel erişimi, uzun vadede geleneksel varlıklardan daha iyi performans gösterebilecek farklı bir değer saklama önerisi sunar.
+reviewed: false

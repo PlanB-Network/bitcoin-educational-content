@@ -1,0 +1,9 @@
+question: Bir IP datagramının maksimum teorik boyutu nedir?
+answer: 65,536 bayt
+wrong_answers:
+  - 1.500 bayt
+  - 512 bayt
+  - 255 bayt
+explanation: |
+  Bir IP datagramının maksimum boyutu, IP başlığındaki toplam uzunluk alanının sınırı tarafından belirlenen 65.536 bayttır.
+reviewed: false

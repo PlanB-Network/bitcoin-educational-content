@@ -1,0 +1,9 @@
+question: Mikä on Matt Corallon esityksen mukaan luotettavien ja luotettavien järjestelmien välinen suhde Bitcoin:n arkkitehtuurissa?
+answer: Voit rakentaa luotettavia järjestelmiä luotettavien järjestelmien päälle, mutta et luotettavia järjestelmiä luotettavien järjestelmien päälle
+wrong_answers:
+  - Voit rakentaa luotettavien järjestelmien päälle luotettavia järjestelmiä, mutta et luotettavia järjestelmiä luotettavien järjestelmien päälle
+  - Sekä luotettavat että luotettavat järjestelmät voidaan rakentaa toistensa päälle ilman arkkitehtuurisia rajoituksia
+  - Trustless- ja luotettavien järjestelmien on toimittava itsenäisesti, eikä niitä voida kerrostaa päällekkäin
+explanation: |
+  Matt Corallon keskeinen oivallus on, että Bitcoin:n luotettava pohjakerros mahdollistaa joustavuuden järjestelmäsuunnittelussa. Bitcoin:n protokollan kaltainen luotettava perusta antaa kehittäjille mahdollisuuden luoda luotettavia palveluja (kuten säilytyslompakoita) ylemmillä kerroksilla säilyttäen samalla taustalla olevat turvatakuut. Käänteinen on kuitenkin mahdotonta - todella luotettavia järjestelmiä ei voi luoda, jos itse perusta edellyttää luottamusta, sillä luotettavan pohjakerroksen haavoittuvuudet heikentäisivät luotettavien ominaisuuksien luotettavuutta.
+reviewed: false

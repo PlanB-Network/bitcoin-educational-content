@@ -1,0 +1,9 @@
+question: E-altın neydi?
+answer: Bir kasada saklanan eşdeğer miktarda altınla desteklenen dijital bir para birimi
+wrong_answers:
+  - World of Warcraft evreninde bir para birimi
+  - İhracı Proof of Work'a dayanan bir dijital para birimi konsepti
+  - Altın takılar için çevrimiçi bir Exchange sistemi
+explanation: |
+  Douglas Jackson ve Barry Downey 1996 yılında sistemi birlikte kurdular. Basit bir web tarayıcısı ile erişilebilirdi.
+reviewed: true

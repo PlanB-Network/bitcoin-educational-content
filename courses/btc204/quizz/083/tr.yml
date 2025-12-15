@@ -1,0 +1,10 @@
+question: Koordinatör tüm katılımcılardan imza topladıktan sonra neden CoinJoin işlemini değiştiremiyor?
+answer: Değiştirilmesi işlemi geçersiz kılacaktır.
+wrong_answers:
+  - Katılımcıların alıcı adreslerine erişimleri yoktur.
+  - İmzalar şifrelenmiştir.
+  - İşlem halihazırda Bitcoin ağında yayınlanmıştır.
+explanation: |
+  Katılımcılar tüm işlemi imzaladıktan sonra, her şeyin doğru olduğundan emin olduktan sonra, koordinatör artık bu işlemi, çıktılar da dahil olmak üzere, geçersiz kılmadan değiştiremez, çünkü imza tüm işlemi kapsar.
+  
+reviewed: false

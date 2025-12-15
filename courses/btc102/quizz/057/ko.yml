@@ -1,0 +1,9 @@
+question: 편집증적인 사용자가 피하는 수집 방법은 무엇인가요?
+answer: KYC가 포함된 중앙 집중식 플랫폼
+wrong_answers:
+  - P2P 매치메이킹 플랫폼
+  - Bitcoin ATM
+  - 모임에서 직접 현금 구매
+explanation: |
+  편집증적 사용자는 익명성을 유지하기 위해 신원 확인이 필요한 플랫폼을 피합니다.
+reviewed: false

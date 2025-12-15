@@ -1,9 +1,9 @@
-question: ¿Cuáles son algunos de los aspectos de la criptografía utilizados en la ciberseguridad?
-answer: SSL/TLS, cifrado simétrico/asimétrico
+question: ¿Qué certificación está reconocida mundialmente en el ámbito de la ciberseguridad?
+answer: CISSP
 wrong_answers:
-  - RSA, DSA, ECC
-  - AES, DES, 3DES
-  - MD5, SHA-1, SHA-256
+  - PMP
+  - ITIL
+  - SHA2
 explanation: |
-  El capítulo enumera SSL/TLS y el cifrado simétrico/asimétrico como algunos de los aspectos de la criptografía utilizados en la ciberseguridad.
-reviewed: true
+  La certificación CISSP es una de las más reconocidas internacionalmente en el campo de la ciberseguridad.
+reviewed: false

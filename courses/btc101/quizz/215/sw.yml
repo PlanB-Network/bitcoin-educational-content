@@ -1,9 +1,9 @@
-question: Inamaanisha nini kuwa Bitcoin ina mwelekeo wa juu wa jumla?
-answer: Mwenendo wa jumla wa kupanda kwa Bitcoin unamaanisha kuwa, kwa ujumla, bei ya Bitcoin imekuwa ikiongezeka.
+question: Ni utaratibu gani unaofanya malipo ya Lightning kuwa atomiki?
+answer: HTLC
 wrong_answers:
-  - Mwelekeo wa jumla wa kupanda katika Bitcoin unamaanisha kuwa bei imehakikishiwa kupanda kwa muda usiojulikana bila mabadiliko yoyote.
-  - Mwelekeo wa jumla wa kupanda katika Bitcoin unamaanisha kuwa Bitcoin inapungua thamani na inapoteza mvuto wake wa soko.
-  - Mwelekeo wa jumla wa kupanda katika Bitcoin unamaanisha kuwa ni maarufu tu kati ya kikundi kidogo cha wawekezaji na haina athari kwenye soko la jumla.
+  - Multisignature
+  - Proof of Work
+  - SegWit
 explanation: |
-  Mwelekeo wa jumla wa kupanda juu katika Bitcoin unarejelea ongezeko thabiti la bei yake katika kipindi fulani cha muda. Ni muhimu kutambua kwamba ingawa mwelekeo wa juu unaonyesha mwelekeo mzuri, hauhakikishi kuwa bei itaendelea kupanda bila kushuka kwa thamani yoyote.
-reviewed: true
+  HTLC hufanya malipo yategemee kufichuliwa kwa siri, na hivyo kuhakikisha mafanikio kamili au kushindwa bila hasara.
+reviewed: false

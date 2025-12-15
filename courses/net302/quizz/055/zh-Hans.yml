@@ -1,0 +1,9 @@
+question: 哪条命令可以显示 Linux 中所有网络接口的详细状态？
+answer: ip addr show
+wrong_answers:
+  - ifup -a
+  - netstat -i
+  - ip route show
+explanation: |
+  "ip addr show "命令列出所有网络接口及其状态、地址和相关参数。
+reviewed: false

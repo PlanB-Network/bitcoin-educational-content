@@ -1,0 +1,9 @@
+question: Which data unit is used in the Internet layer of the TCP/IP model?
+answer: Datagram
+wrong_answers:
+  - Segment
+  - Frame
+  - Message
+explanation: |
+  The Internet layer manipulates datagrams, encapsulating segments from the Transport layer.
+reviewed: false

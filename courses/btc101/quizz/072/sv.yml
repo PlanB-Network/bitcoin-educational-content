@@ -1,12 +1,11 @@
-question: Vilka är de tre huvudfunktionerna för en Bitcoin Wallet?
-answer: Ta emot bitcoins, skicka bitcoins, säkra dem mot hacking och stöldförsök.
+question: Hur kan du stärka standardsäkerheten för din Bitcoin Wallet?
+answer: Genom att lägga till en passphrase till din Bitcoin Wallet.
 wrong_answers:
-  - Lagra bitcoins, skicka bitcoins, säkra dem mot hackning och stöldförsök.
-  - Tillåt mottagande av bitcoins, lagra bitcoins, säkra dem mot hacking och stöldförsök.
-  - Tillåt mottagande av bitcoins, tillåt sändning av bitcoins, försäljning av bitcoins.
+  - Genom att lägga till en andra privat nyckel till din Bitcoin Wallet.
+  - Genom att lägga till en andra publik nyckel till din Bitcoin Wallet.
+  - Genom att lägga till en andra Mnemonic-fras till din Bitcoin Wallet.
 explanation: |
-  En Bitcoin Wallet används för att interagera med Bitcoin
-  nätverket. Dess tre huvudfunktioner är att tillåta mottagning
-  bitcoins, tillåta sändning av bitcoins och säkra dem mot
-  hacknings- och stöldförsök.
+  Om du inte är nöjd med standardsäkerheten hos din
+  Bitcoin Wallet, kan du alltid stärka den genom att lägga till en
+  passphrase till din Bitcoin Wallet.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Kulingana na Bastiat, takwimu huondoa watu kutoka kwa nini?
+answer: Matokeo ya matendo yao
+wrong_answers:
+  - Kutoka kwa familia zao
+  - Kutoka kwa furaha ya majaribio ya bure
+  - Kutoka kwa marafiki zao
+explanation: |
+  Kwa Bastiat, uingiliaji mwingi wa serikali hupunguza uwajibikaji wa mtu binafsi kwa kuondoa matokeo ya moja kwa moja ya vitendo vya watu binafsi, na hivyo kukuza kutowajibika.
+reviewed: false

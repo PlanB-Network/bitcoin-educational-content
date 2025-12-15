@@ -1,0 +1,9 @@
+question: Thuật ngữ nào đề cập đến ba byte đầu tiên của MAC Address?
+answer: OUI (Mã định danh duy nhất của tổ chức)
+wrong_answers:
+  - SID (Mã định danh phiên)
+  - LUI (Mã định danh duy nhất cục bộ)
+  - PAN (Số Address vật lý)
+explanation: |
+  OUI được IEEE chỉ định và xác định nhà sản xuất card mạng trong MAC Address.
+reviewed: false

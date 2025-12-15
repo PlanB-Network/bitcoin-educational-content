@@ -1,0 +1,11 @@
+question: Koje su dve glavne karakteristike Bitkoina?
+answer: Bitkoin je i kompjuterski protokol i novčana jedinica.
+wrong_answers:
+  - Bitkoin je i fizička valuta i digitalni novčanik.
+  - Bitkoin je i vrsta akcije i vrsta obveznice.
+  - Bitkoin je i centralizovana i decentralizovana valuta.
+explanation: |
+  Bitkoin je i kompjuterski protokol koji koristi tehnologije
+  kao što su kriptografija i Blockchain, a takođe i monetarna
+  jedinica koja se koristi za transakcije.
+reviewed: true

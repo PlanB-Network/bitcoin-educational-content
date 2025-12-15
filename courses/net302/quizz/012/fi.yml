@@ -1,0 +1,9 @@
+question: Mikä on klassisen Internet-protokollaversion (IPv4) numeroarvo?
+answer: 4
+wrong_answers:
+  - 5
+  - 1
+  - 7
+explanation: |
+  IPv4 vastaa arvoa 4 IP-otsikon "Version"-kentässä.
+reviewed: false

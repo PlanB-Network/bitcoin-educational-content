@@ -1,0 +1,9 @@
+question: Hangi matematiksel alan sayı teorisi için modern araçlar sağlar?
+answer: Soyut cebir
+wrong_answers:
+  - Geometri
+  - İstatistikler
+  - Karmaşık analiz
+explanation: |
+  Matematiğin bir alt disiplini olan soyut cebir, sayılar teorisinde kullanılan sayıların özelliklerinin analiz edilmesini ve anlaşılmasını sağlayan matematiksel yapılar sağlar.
+reviewed: false

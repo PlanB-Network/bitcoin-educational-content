@@ -1,0 +1,9 @@
+question: Vilken amerikansk myndighet låg bakom ARPANET-projektet?
+answer: ARPA
+wrong_answers:
+  - ARPAN
+  - IETF
+  - AETF
+explanation: |
+  ARPA (Advanced Research Projects Agency) initierade ARPANET, som lade grunden för utvecklingen av TCP/IP-protokollet. År 1972 döptes byrån om till DARPA (Defense Advanced Research Projects Agency).
+reviewed: false

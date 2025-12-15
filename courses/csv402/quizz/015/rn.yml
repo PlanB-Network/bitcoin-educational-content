@@ -1,0 +1,9 @@
+question: Ni iciyumviro ikihe c’amateka RGB ikoresha mw’isi y’ubuhinga bwa none?
+answer: Ibikoresho vy'abatwara
+wrong_answers:
+  - Ububiko bw'amakuru bushizwe hamwe
+  - Imihora y'urunganwe ata kwemeza
+  - Gufungura ama registers ashikira bose
+explanation: |
+  RGB ihindura iciyumviro c’ibikoresho vy’abatwara ibintu mu vy’ubuhinga bwa none.
+reviewed: false

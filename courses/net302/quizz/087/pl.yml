@@ -1,0 +1,9 @@
+question: Które polecenie pokazuje ścieżkę pokonywaną przez pakiety w celu dotarcia do miejsca docelowego IP?
+answer: traceroute
+wrong_answers:
+  - ss
+  - arp
+  - tcpdump
+explanation: |
+  traceroute wyświetla każdy pośredni router między nadawcą a celem, używając TTL.
+reviewed: false

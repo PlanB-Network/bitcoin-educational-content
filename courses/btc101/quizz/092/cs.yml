@@ -1,13 +1,9 @@
-question: Jaké je doporučené využití multisig peněženky?
-answer: Uchovávání velkých částek pro firemní použití.
+question: Co byste měli udělat poté, co jsou slova vaší mnemonické fráze zapsána?
+answer: Udělejte druhou kopii a uložte ji na jiném místě.
 wrong_answers:
-  - Uchovávání malých částek pro osobní použití.
-  - Uchovávání středních částek pro neziskové použití.
-  - Uchovávání denních výdajů pro individuální použití.
+  - Sdílejte ji s důvěryhodným přítelem.
+  - Pošlete si ji e-mailem.
+  - Uložte ji ve svém telefonu.
 explanation: |
-  Multisig peněženka je doporučena pro uchovávání velkých částek
-  a pro firemní využití, protože vyžaduje více
-  podpisů pro provedení transakce. Tento proces přidává
-  další vrstvu zabezpečení, protože jednotlivec nemůže
-  provést transakci bez schválení ostatních.
+  Jakmile jsou slova vaší mnemonické fráze zapsána, doporučuje se udělat druhou kopii a uložit ji na jiném místě než první. To poskytuje zálohu v případě ztráty nebo nehody s první kopií.
 reviewed: true

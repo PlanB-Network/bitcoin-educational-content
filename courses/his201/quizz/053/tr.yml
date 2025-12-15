@@ -1,0 +1,9 @@
+question: Daha sonra 2010 yazında hangi ekleme Bitcoin'da Soft çatallarına izin verdi?
+answer: OP_NOP işlem kodları
+wrong_answers:
+  - Uyarı sistemi
+  - Blok boyutu sınırı
+  - Standart işlem formatı
+explanation: |
+  Bunlar, çalıştırıldıklarında komut dosyasını geçersiz kılmayan no-op talimatlardı. OP_CHECKLOCKTIMEVERIFY ve OP_CHECKSEQUENCEVERIFY'nin 2015/2016'da protokole eklenmesini sağladılar.
+reviewed: true

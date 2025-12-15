@@ -1,9 +1,9 @@
-question: Quale metodo viene utilizzato per proteggere la tracciabilità On-Chain delle transazioni?
-answer: Utilizzo delle tecniche CoinJoin e PayJoin
+question: Quale metodo viene utilizzato per mitigare la tracciabilità On-Chain delle transazioni?
+answer: Utilizzo di CoinJoin e PayJoin
 wrong_answers:
-  - Riutilizzo dello stesso Address ricevente
+  - Riutilizzo dello stesso indirizzo di ricezione
   - Frequente consolidamento di UTXO
-  - Deposito in un deposito Wallet
+  - Deposito in un wallet custodial
 explanation: |
-  I Coinjoin e i Payjoin contribuiscono a migliorare la privacy dell'attività On-Chain.
-reviewed: false
+  Coinjoin e Payjoin contribuiscono a migliorare la privacy dell'attività On-Chain.
+reviewed: true

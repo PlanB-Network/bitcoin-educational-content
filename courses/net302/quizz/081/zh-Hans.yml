@@ -1,0 +1,9 @@
+question: 哪种命令行工具可捕获网络流量进行实时分析？
+answer: tcpdump
+wrong_answers:
+  - 挖掘
+  - 网络地图
+  - ethtool
+explanation: |
+  tcpdump 可捕获和记录网络 Interface 上流通的数据包，以供分析。
+reviewed: false

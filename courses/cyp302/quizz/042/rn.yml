@@ -1,0 +1,9 @@
+question: Ni igiki citwa umugwi uhaza ivyangombwa vy’uguhinduranya?
+answer: Umugwi w'ababeli
+wrong_answers:
+  - Itsinda ryugarijwe
+  - Itsinda ry'abafatanyabikorwa
+  - Itsinda rihindutse
+explanation: |
+  Itsinda ry’ababeli, canke ry’ihinduka, ni itsinda aho urutonde rwa Elements mu gikorwa c’ibice bibiri rutagira ico rukoze ku ciyumviro. Ivyo bisigura ko kuri a na b vyose, a ∘ b = b ∘ a.
+reviewed: false

@@ -1,12 +1,10 @@
-question: Qu'est-ce qu'un achat spontané ?
-answer: Acheter immédiatement du Bitcoin pour obtenir une exposition.
+question: Quel est l'un des risques potentiels de laisser vos bitcoins sur une plateforme d'échange ?
+answer: Les risques de piratage et de blocage des fonds.
 wrong_answers:
-  - Acheter du Bitcoin à intervalles réguliers.
-  - Acheter du Bitcoin uniquement lorsque le prix baisse.
-  - Acheter du Bitcoin uniquement lorsque le prix monte.
-explanation: |
-  Le texte du cours explique qu'un achat spontané est
-  utilisé pour obtenir immédiatement une exposition au Bitcoin. Par exemple,
-  cela pourrait signifier acheter pendant un krach ou profiter d'un
-  bonus.
+  - Le risque que la plateforme augmente le prix du Bitcoin.
+  - Le risque que la plateforme contrôle l'offre de Bitcoin.
+  - Le risque que le Bitcoin soit dépassé en prix par une autre cryptomonnaie.
+explanation: >-
+  Laisser vos bitcoins sur une plateforme d'échange peut
+  vous exposer aux risques de piratage et de blocage des fonds.
 reviewed: true

@@ -1,0 +1,9 @@
+question: دو پیاده‌سازی Lightning Network موجود در Umbrel کدامند؟
+answer: LND و Core Lightning
+wrong_answers:
+  - الکترز و فولکروم
+  - Bitcoin core و Bitcoin Knots
+  - سوار بر رعد و ThunderHub
+explanation: |
+  آمبرل به شما اجازه می‌دهد بین LND و Core Lightning به عنوان پیاده‌سازی‌های Lightning Network انتخاب کنید.
+reviewed: true

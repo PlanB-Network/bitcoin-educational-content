@@ -1,0 +1,9 @@
+question: Bitcoinノードは、未使用の出力を追跡するためにローカルにどのようなデータベースを保持していますか？
+answer: UTXOセット
+wrong_answers:
+  - Mempool
+  - Blockchain
+  - Walletの歴史
+explanation: |
+  ノードはUTXOセットを保持する。UTXOセットとは、将来のトランザクションに利用可能な未使用出力のセットである。
+reviewed: true

@@ -1,0 +1,9 @@
+question: ¿Cómo define Spinoza el odio?
+answer: Tristeza asociada a la idea de una causa externa.
+wrong_answers:
+  - Una alegría asociada a la idea de una causa externa.
+  - Un sentimiento de culpa.
+  - Una sensación contraintuitiva.
+explanation: |
+  Spinoza define el odio como la tristeza asociada a la idea de una causa externa. Es un afecto negativo que disminuye nuestro poder de acción y nos encadena a lo que odiamos.
+reviewed: false

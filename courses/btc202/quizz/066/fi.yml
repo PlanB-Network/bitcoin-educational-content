@@ -1,0 +1,9 @@
+question: Mitä turvatoimia suositellaan vahvasti Umbrelin käytön suojaamiseksi?
+answer: Pitkä salasana ja 2FA-aktivointi
+wrong_answers:
+  - Kaksinkertainen SSD-tallennus
+  - Avaa RPC-portti tavallisena tekstinä
+  - Pitkä salasana ja SSH-aktivointi
+explanation: |
+  Vahvan salasanan ja kahden tekijän todennuksen (2FA) yhdistelmä suojaa tehokkaasti pääsyn Interface Umbreliin.
+reviewed: true

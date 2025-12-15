@@ -1,5 +1,5 @@
 ---
-name: LUCCI
+name: LUKS
 description: Crittografia di una chiavetta USB con LUKS e cryptsetup
 ---
 ![cover](assets/cover.webp)
@@ -10,7 +10,7 @@ ___
 
 
 
-*Questa esercitazione si basa su un contenuto originale di Mickael Dorigny pubblicato su [IT-Connect](https://www.it-connect.fr/). Licenza [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Possono essere state apportate modifiche al testo originale
+*Questa esercitazione si basa su un contenuto originale di Mickael Dorigny pubblicato su [IT-Connect](https://www.it-connect.fr/). Licenza [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Possono essere state apportate modifiche al testo originale.*
 
 
 
@@ -30,7 +30,7 @@ La crittografia di una chiavetta USB è un buon modo per proteggere i dati sensi
 
 
 
-Per seguire questa esercitazione, è necessario :
+Per seguire questa esercitazione, è necessario:
 
 
 
@@ -131,7 +131,7 @@ Ora cancelleremo tutti i dati presenti sulla nostra chiavetta USB. L'operazione 
 
 
 
-**Assicurarsi di puntare al file del dispositivo giusto!
+**Assicurarsi di puntare al file del dispositivo giusto!**
 
 
 
@@ -173,7 +173,7 @@ Verify passphrase:
 
 
 
-Qui, il sottocomando "`luksFormat`" inizializza e formatta il dispositivo per utilizzare la crittografia LUKS. Verrà richiesto di confermare l'operazione digitando `YES` in maiuscolo, quindi di definire un *passphrase*. **Scegliere un *passphrase* robusto per garantire che, in caso di perdita, l'aggressore non possa scoprirlo tramite attacchi di forza bruta.
+Qui, il sottocomando "`luksFormat`" inizializza e formatta il dispositivo per utilizzare la crittografia LUKS. Verrà richiesto di confermare l'operazione digitando `YES` in maiuscolo, quindi di definire una *passphrase*. **Scegliere una *passphrase* robusta per garantire che, in caso di perdita, l'aggressore non possa scoprirla tramite attacchi di forza bruta.**
 
 
 
@@ -213,7 +213,7 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 
 
-Qui, "**usbkey1**" è il nome che do al montaggio della partizione nel mio contesto. Potete scegliere quello che preferite. Occorre poi formattare la partizione contenuta nella partizione LUKS, ad esempio qui come **ext4** :
+Qui, "**usbkey1**" è il nome che do al montaggio della partizione nel mio contesto. Potete scegliere quello che preferite. Occorre poi formattare la partizione contenuta nella partizione LUKS, ad esempio qui come **ext4**:
 
 
 
@@ -237,7 +237,7 @@ done
 
 
 
-**Qui la posizione di destinazione** è specificata come "**/dev/mappe/usbkey1**"**, perché?
+**Qui la posizione di destinazione** è specificata come "**/dev/mappe/usbkey1**", perché?
 
 
 
@@ -353,7 +353,7 @@ Ciò significa che possiamo accedere ai dati della nostra chiavetta USB in modo 
 
 
 
-Una volta completata l'operazione, non dimenticate di chiudere tutto correttamente per essere sicuri di non danneggiare il volume. Il primo passo è smontare il file :
+Una volta completata l'operazione, non dimenticate di chiudere tutto correttamente per essere sicuri di non danneggiare il volume. Il primo passo è smontare il file:
 
 
 

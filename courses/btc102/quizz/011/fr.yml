@@ -6,4 +6,4 @@ wrong_answers:
   - Parce que les plateformes d'échange demandent énormément de documents pour la regénérer 
 explanation: |
   La phrase mnémonique permet de récupérer l'accès aux fonds. En cas de perte, si le portefeuille n'est plus accessible sur son support, les bitcoins sont définitivement perdus.
-reviewed: false
+reviewed: true 

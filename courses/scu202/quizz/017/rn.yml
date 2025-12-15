@@ -1,0 +1,9 @@
+question: Ni uwuhe mugabane ubonwa ko ari wo wa kera kuruta iyindi yose ukiriho?
+answer: Ibikoresho vy'ubugoyagoye
+wrong_answers:
+  - Fedora
+  - Gentoo
+  - Manjaro
+explanation: |
+  Slackware, yaremwe mu mwaka w’1993 na Patrick Volkerding, ni yo nzira ya kera cane yo gukoresha Linux iguma ikora n’ubu.
+reviewed: false

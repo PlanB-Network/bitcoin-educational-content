@@ -1,0 +1,9 @@
+question: TCP/IP modelinde ayrılmış portlar ne için kullanılır?
+answer: Belirli hizmetlere ilişkin talepleri dinlemek için
+wrong_answers:
+  - generate otomatik datagram kapsüllemesi için
+  - Ağ çerçevelerini fiziksel olarak yönlendirmek için
+  - UDP paket parçalanmasını kontrol etmek için
+explanation: |
+  Portlar, ağ uygulamalarının aynı ana bilgisayarda çalışan çeşitli hizmetler arasında ayrım yapmasına olanak tanıyan mantıksal dinleme noktalarıdır.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilken grundläggande information måste en NAT-gateway registrera för varje nätverksflöde?
+answer: Mappningen mellan intern IP och publik IP
+wrong_answers:
+  - Typ av nätverkskabel som används
+  - Mappningen mellan IP Address och DNS-server
+  - Typ av nätverksprotokoll som används
+explanation: |
+  NAT förlitar sig på en översättningstabell för att upprätthålla korrespondens som håller reda på mappningen mellan interna och publika adresser för att säkerställa att paket dirigeras korrekt.
+reviewed: false

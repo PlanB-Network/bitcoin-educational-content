@@ -1,0 +1,9 @@
+question: None Bitcoin ni iki?
+answer: Mudasobwa ikoresha porogaramu ishira mu ngiro amasezerano ya Bitcoin
+wrong_answers:
+  - Hardware Wallet ishira mu ngiro urubuga rwa Bitcoin
+  - Miner ikora amabuye mashasha ya Bitcoin.
+  - Serveri nyamukuru icungera urubuga rwa Bitcoin n'ukwemeza ibikorwa
+explanation: |
+  Node ya Bitcoin ni porogarama ikoresha mudasobwa, nka Bitcoin core, ishira mu ngiro iyo porotokole kandi igafatanya n’urubuga rwa Bitcoin.
+reviewed: true

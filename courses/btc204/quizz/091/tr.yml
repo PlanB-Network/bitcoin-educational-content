@@ -1,0 +1,10 @@
+question: Neden CoinJoin döngülerinden sonra birkaç UTXO'nun birleştirilmemesi tavsiye ediliyor?
+answer: Bu durum, CIOH nedeniyle gizliliği tehlikeye atabilir.
+wrong_answers:
+  - İşlemlerin hızını düşürür.
+  - Şüpheli faaliyetleri koordinatöre bildirir.
+  - Bu, yuvarlak ödeme sezgiselliği nedeniyle gizliliği tehlikeye atabilir.
+explanation: |
+  Ortak Giriş-Ownership-Heuristic'ten (CIOH) kaçınmak için karışık UTXO'ları aynı işlemde karışık olmayan UTXO'larla birleştirmekten ve aynı zamanda UTXO'ları kendi aralarında karıştırmaktan kaçınmak önemlidir.
+  
+reviewed: false

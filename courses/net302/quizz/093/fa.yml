@@ -1,0 +1,9 @@
+question: کدام ابزار پیام‌های DNS دقیق، شامل رکوردها و فرآیند حل را نمایش می‌دهد؟
+answer: حفاری کردن
+wrong_answers:
+  - میزبان
+  - پینگ
+  - آرپ
+explanation: |
+  دیگ (Domain Information Groper) اطلاعات دقیقی درباره‌ی حل DNS ارائه می‌دهد، از جمله انواع رکوردها.
+reviewed: false

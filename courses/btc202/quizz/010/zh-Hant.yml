@@ -1,0 +1,9 @@
+question: 節點和 Miner 在經濟上有什麼差異？
+answer: Miner 獲得獎勵，節點沒有直接收益
+wrong_answers:
+  - 節點收到費用，Miner 收到整筆補助金
+  - 節點獲得獎勵，Miner 沒有直接收益
+  - 兩者獲得相同的獎項
+explanation: |
+  礦工會獲得獎勵（補貼和費用），而節點不會為其使用者帶來直接的財務利益。
+reviewed: true

@@ -1,11 +1,11 @@
-question: Mikä on Bitcoin-lompakon tarkoitus?
-answer: Säilyttää yksityisiä avaimia, jotta voi suorittaa bitcoin-siirtoja.
+question: Kuka oli ensimmäinen henkilö, joka liittyi Bitcoin-verkkoon Satoshi Nakamoton jälkeen?
+answer: Hal Finney.
 wrong_answers:
-  - Käyttää laitteen resursseja bitcoinien louhimiseen.
-  - Ostaa bitcoineja julkisen avaimen kautta.
-  - Säilyttää bitcoineja laitteella.
+  - Laszlo Hanyecz.
+  - Phil Champagne.
+  - Rogzy.
 explanation: |
-  Bitcoin-lompakot ovat tyyppiä ohjelmisto, jota käytetään
-  säilyttämään yksityisiä avaimia, jotka mahdollistavat
-  bitcoiniesi siirtämisen.
+  Hal Finney oli ensimmäinen henkilö, joka liittyi Bitcoin-verkkoon
+  Satoshi Nakamoton jälkeen. Hän jopa twiittasi Running
+  Bitcoin merkitäkseen tilaisuutta.
 reviewed: true

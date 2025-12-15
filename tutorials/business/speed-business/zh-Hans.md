@@ -1,5 +1,5 @@
 ---
-name: 速度 Wallet - PoS
+name: Speed Wallet - POS
 description: 轻松将 Bitcoin 和稳定币支付整合到您的业务中
 ---
 ![cover](assets/cover.webp)
@@ -28,25 +28,25 @@ Speed 具有广泛的功能，涵盖企业的财务方面。您会发现：
 
 
 
-- 在线支付配置**：通过您的网站，随时随地接收客户付款。
+- **在线支付配置**：通过您的网站，随时随地接收客户付款。
 
 
 
 
 
-- 现场支付**：是在店内收取现金的商店和企业的理想选择。
+- 现场支付：是在店内收取现金的商店和企业的理想选择。
 
 
 
 
 
-- 提款**：顺利提取资产，用比特币偿还客户和工资。
+- **提款**：顺利提取资产，用比特币偿还客户和工资。
 
 
 
 
 
-- 与其他平台的连接**：您是否使用外部工具来管理您的支付？Speed 为您提供将这些工具连接到其平台的可能性，从而建立一个反映您业务的一体化生态系统。
+- 与其他平台的连接：您是否使用外部工具来管理您的支付？Speed 为您提供将这些工具连接到其平台的可能性，从而建立一个反映您业务的一体化生态系统。
 
 
 
@@ -94,13 +94,13 @@ Speed 附带一个软件开发工具包，可让您自定义集成，以及一�
 
 
 
-如果您还没有 Bitcoin 和/或 Lightning Wallet，建议您看看我们的 [手机钱包] 教程(https://planb.network/tutorials/wallet)。
+如果您还没有 Bitcoin 和/或 Lightning Wallet，建议您看看我们的 [手机钱包] 教程(https://planb.academy/tutorials/wallet)。
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 ⚠️ **重要**：在配置您的投资组合时，当您收到数千欧元的大额款项时，请选择**BTC (On-Chain)**类型，以确保在 Bitcoin 上进行可靠的确认；当您希望在业务中接收即时小额支付时，请选择**LN Address** 类型。
 
@@ -243,7 +243,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-- 一个 QR**：现场支付的理想选择，创建一个与您的业务相关的二维码，让您的客户能够为您的产品付款。
+- 一个 **QR**：现场支付的理想选择，创建一个与您的业务相关的二维码，让您的客户能够为您的产品付款。
 
 
 
@@ -265,13 +265,13 @@ Speed Business 不只是为您的企业收款，它还是一个投资组合，�
 
 
 
-- 即时支付**：使用即时发送选项，从您的商家账户安全地即时发送比特币。
+- **即时支付**：使用即时发送选项，从您的商家账户安全地即时发送比特币。
 
 
 
 
 
-- generate 取款链接**，使您的合作伙伴和供应商日后无需在线即可取款。
+- generate 取款链接，使您的合作伙伴和供应商日后无需在线即可取款。
 
 
 
@@ -289,7 +289,7 @@ Speed Business 不只是为您的企业收款，它还是一个投资组合，�
 
 
 
-- 付款**：在 "付款 "菜单中，从您的 "极速商务 "余额向您的个人 Wallet 提取资金。
+- **付款**：在 "付款 "菜单中，从您的 "极速商务 "余额向您的个人 Wallet 提取资金。
 
 
 
@@ -299,7 +299,7 @@ Speed Business 不只是为您的企业收款，它还是一个投资组合，�
 
 
 
-- 折扣**：通过设置回扣选项赚取奖金来鼓励老客户。
+- **折扣**：通过设置回扣选项赚取奖金来鼓励老客户。
 
 
 
@@ -435,5 +435,4 @@ Speed Business 有一个开发工具包，可让您将其支付解决方案整�
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
-
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

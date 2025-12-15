@@ -1,0 +1,9 @@
+question: Fizyokratlara göre merkantilizm ile serbest ticaret arasındaki temel fark nedir?
+answer: Merkantilizm bir ulusu diğerlerinin zararına zenginleştirirken, serbest ticaret tüm ulusları zenginleştirir.
+wrong_answers:
+  - Merkantilizm pozitif toplamlı bir oyundur, serbest ticaret ise sıfır toplamlı bir oyundur.
+  - Merkantilizm rekabeti teşvik eder.
+  - Serbest ticaret takası teşvik eder.
+explanation: |
+  Fizyokratlara göre merkantilizm, bir ulusun kendisini diğerlerinin zararına zenginleştirdiği fikrine dayanır. Buna karşılık, serbest ticaret karşılıklı fayda sağlayarak tüm ulusları karşılıklı fayda sağlayan alışverişler yoluyla zenginleştirir.
+reviewed: true

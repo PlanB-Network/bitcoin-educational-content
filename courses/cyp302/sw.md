@@ -1,21 +1,17 @@
---- 
-name: Utangulizi wa Cryptography rasmi
-goal: Utangulizi wa kina wa sayansi na mazoezi ya kriptografia.
-objectives: 
-  - Gundua misimbo ya Beale na mbinu za kisasa za kriptografia ili kuelewa dhana za kimsingi na za kihistoria za usimbaji fiche.
-  - Chunguza katika nadharia ya nambari, vikundi, na nyuga ili kufahamu dhana muhimu za hisabati msingi wa kriptografia.
-  - Soma msimbo wa mtiririko wa RC4 na AES kwa ufunguo wa 128-bit ili kupata maelezo kuhusu algoriti za kriptografia linganifu.
-  - Chunguza mfumo wa kificho wa RSA, usambazaji wa ufunguo, na vitendaji vya Hash ili kugundua usimbaji fiche usiolinganishwa.
-
 ---
-# Kuzama kwa kina katika kriptografia
+name: Misingi ya kriptografia ya kisasa
+goal: Utangulizi wa kina wa sayansi na mazoezi ya kriptografia.
+objectives:
+- Gundua misimbo ya Beale na mbinu za kisasa za kriptografia ili kuelewa dhana za kimsingi na za kihistoria za usimbaji fiche.
+- Chunguza katika nadharia ya nambari, vikundi, na nyuga ili kufahamu dhana muhimu za hisabati msingi wa kriptografia.
+- Soma msimbo wa mtiririko wa RC4 na AES kwa ufunguo wa 128-bit ili kupata maelezo kuhusu algoriti za kriptografia linganifu.
+- Chunguza mfumo wa kificho wa RSA, usambazaji wa ufunguo, na vitendaji vya Hash ili kugundua usimbaji fiche usiolinganishwa.
+---
+# Uchunguzi wa Kina wa Kriptografia ya Kisasa
 
-Ni vigumu kupata nyenzo nyingi ambazo hutoa msingi mzuri wa kati katika elimu ya cryptography.
+Katika kozi hii, tutafunika mambo muhimu ya kriptografia ya kisasa kwa njia wazi na inayoeleweka, hakuna haja ya msingi mkubwa wa hisabati. Katika sura zote, utajifunza wazo kuu kama vile usimbaji fiche wa simetri na ufunguo wa umma, kazi za hash, saini za kidijitali, ubadilishanaji wa funguo, na itifaki za ulimwengu halisi. Njiani, tutaunganisha nukta kwa matumizi ya vitendo kama vile kutuma ujumbe salama, TLS, uhifadhi wa nenosiri, na uthibitishaji.
 
-Kwa upande mmoja, kuna risala ndefu, rasmi, zinazoweza kufikiwa tu na wale walio na usuli dhabiti katika hisabati, mantiki, au taaluma nyingine rasmi. Kwa upande mwingine, kuna utangulizi wa hali ya juu sana ambao huficha maelezo mengi sana kwa mtu yeyote ambaye angalau ana hamu ya kujua.
-
-Utangulizi huu wa kriptografia unatafuta kunasa hali ya kati. Ingawa inapaswa kuwa na changamoto na maelezo ya kina kwa mtu yeyote mpya kwa cryptography, sio shimo la sungura la risala ya kawaida ya msingi.
-
+Nyenzo zimeundwa kwa wanafunzi wa viwango vyote na zinasawazisha ufahamu na kina cha kiufundi cha kutosha kukidhi udadisi. Tarajia safari iliyolengwa na ya kuvutia. Mwishoni, utaelewa jinsi na kwa nini kriptografia ya kisasa inafanya kazi na jinsi ya kuitumia kwa uwajibikaji.
 +++
 # Utangulizi
 
@@ -116,7 +112,7 @@ Unaweza kuona maandishi ya pili katika *Kielelezo 2* hapa chini. [2] Ufunguo wa 
 
 *Kielelezo 1: Beale cipher no. 2*
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 Kwa mfano, nambari ya kwanza ya kifungu cha pili ni 115. Neno la 115 la Azimio la Uhuru “limeanzishwa,” kwa hiyo herufi ya kwanza ya andiko la msingi ni “i.” Nakala ya siri haionyeshi moja kwa moja nafasi ya maneno na herufi kubwa. Lakini baada ya kuchambua maneno machache ya kwanza, unaweza kuhitimisha kimantiki kwamba neno la kwanza la maandishi wazi lilikuwa tu "mimi." (Mafungu ya madai yanaanza na kishazi “Nimeweka katika kaunti ya Bedford.”)
 
@@ -277,9 +273,9 @@ Kwa mijadala ya kriptografia, utahitaji tu kuelewa tofauti za nasibu. Majadilian
 
 Thamani zinazowezekana na uwezekano unaohusishwa wa utofautishaji nasibu unaweza kuonyeshwa kwa urahisi kupitia grafu. Kwa mfano, zingatia utofauti wa nasibu $X$ kutoka sehemu iliyotangulia na seti ya matokeo ya $\{1, 2\}$, na $Pr [X = 1] = 0.5$ na $Pr [X = 2] = 0.5$. Kwa kawaida tungeonyesha tofauti nasibu katika umbo la grafu ya upau kama ilivyo katika *Mchoro 1*.
 
-*Kielelezo cha 1:*Kigezo cha bahati nasibu*
+**Kielelezo cha 1:** *Kigezo cha bahati nasibu*
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 Pau pana katika *Kielelezo 1* bila shaka haimaanishi kupendekeza kwamba kigezo cha nasibu $X$ kinaendelea. Badala yake, pau zimefanywa kwa upana ili kuvutia zaidi (mstari moja kwa moja tu hutoa taswira isiyoeleweka zaidi).
 
@@ -317,7 +313,7 @@ Taswira ya mchoro ya $Y$ imetolewa katika *Kielelezo 2*.
 
 *Kielelezo cha 2: Utofauti wa nasibu Y*
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 Kwa mfano wa mwisho, zingatia utofauti wa nasibu Z. Una matokeo yaliyowekwa {1,3,7,11,12} na usambazaji wa uwezekano ufuatao:
 
@@ -345,7 +341,7 @@ Unaweza kuiona ikionyeshwa kwenye *Kielelezo 3*. Tofauti isiyo ya kawaida Z ni, 
 
 *Kielelezo cha 3: Tofauti isiyo ya kawaida Z*
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 ### Uwezekano wa masharti
 
@@ -470,16 +466,16 @@ Hebu kwanza tufafanue. Tuseme kamusi *D* inayosawazisha herufi zote za alfabeti 
 
 Opereta wa modulo katika shifti ya kisifa huhakikisha kwamba herufi zinazunguka, ili herufi zote za maandishi ya siri zifafanuliwe. Kwa mfano, fikiria matumizi ya neno "MBWA" la kuhama.
 
-Tuseme kwamba umechagua ufunguo kwa usawa kuwa na thamani ya 17. Herufi "O" ni sawa na 15. Bila utendakazi wa modulo, kuongezwa kwa nambari hii ya barua pepe na ufunguo kunaweza kuwa nambari ya maandishi ya siri 32. Hata hivyo, nambari hiyo ya maandishi ya siri haiwezi kugeuzwa kuwa herufi ya ciphertext, kwa kuwa alfabeti ya Kiingereza ina herufi 26 pekee. Uendeshaji wa modulo huhakikisha kwamba nambari ya maandishi ya siri ni 6 (matokeo ya $32 \mod 26$), ambayo ni sawa na herufi ya maandishi ya siri "G".
+Tuchukulie kwamba ulichagua ufunguo kwa usawa wenye thamani ya $17$. Herufi “O” ni sawa na $14$. Bila operesheni ya modulo, kujumlisha nambari hii ya maandishi wazi na ufunguo kungeleta nambari ya maandishi fiche ya $31$. Hata hivyo, nambari hiyo haiwezi kubadilishwa kuwa herufi fiche, kwa kuwa alfabeti ya Kiingereza ina herufi $26$ pekee. Operesheni ya modulo inahakikisha kwamba nambari fiche ni $5$ (matokeo ya $31 \mod 26$), ambayo ni sawa na herufi fiche “F”.
 
 Usimbuaji wote wa neno "MBWA" na thamani kuu ya 17 ni kama ifuatavyo.
 
 
-- Ujumbe = MBWA = D,O,G = 3,15,6
+**Ujumbe = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 Kila mtu anaweza kuelewa kwa njia angavu jinsi kiashiria cha shift kinavyofanya kazi na pengine kuitumia wenyewe. Ili kuendeleza ujuzi wako wa cryptography, hata hivyo, ni muhimu kuanza kuwa na urahisi zaidi na urasimishaji, kwani mipango itakuwa ngumu zaidi. Kwa hivyo, kwa nini hatua za msimbo wa mabadiliko zilirasimishwa.
 
@@ -669,7 +665,7 @@ $$
 x^3 + 7 = y^2 \mod 2^{256} – 2^{32} – 29 – 28 – 27 – 26 - 24 - 1
 $$
 
-(idadi kuu kubwa zaidi chini ya $2^{256}$). $x$-coordinate ni ufunguo wa faragha na $y$-coordinate ni ufunguo wako wa umma.
+(ambayo ni namba kuu kubwa zaidi chini ya $2^{256}$).
 
 Shughuli katika Bitcoin kwa kawaida huhusisha kufunga matokeo kwa funguo moja au zaidi za umma kwa njia fulani. Thamani kutoka kwa miamala hii inaweza, basi, kufunguliwa kutengeneza saini za kidijitali kwa funguo za faragha zinazolingana.
 
@@ -1006,11 +1002,11 @@ Bob husimba ujumbe kwa njia fiche $M$ kwa wakati mmoja $T_0$ kwa ufunguo $K$ ili
 
 **Kielelezo 1: Usiri katika nafasi**
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 **Kielelezo 2: Usiri kwa wakati wote**
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 ## Mfano: Sifa ya kuhama
 
@@ -1112,7 +1108,7 @@ Sifa ya kawaida ya mtiririko wa XOR inaonyeshwa kwenye *Mchoro 3*. Kwanza unachu
 
 *Kielelezo cha 3: Sifa ya mkondo wa XOR*
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 Kumbuka kuwa mpango wa usimbaji fiche kwa kawaida huwa ni kiolezo cha usimbaji fiche chenye kanuni sawa ya msingi, badala ya maelezo mahususi. Kwa kiendelezi, cipher ya mtiririko kwa kawaida ni kiolezo cha usimbaji fiche ambacho unaweza kutumia vitufe vya urefu tofauti. Ingawa urefu wa ufunguo unaweza kuathiri baadhi ya maelezo madogo ya mpango, hautaathiri muundo wake muhimu.
 
@@ -1196,7 +1192,7 @@ Taswira ya jinsi block cipher inavyofanya kazi inaweza kuonekana kwenye *Mchoro 
 
 *Kielelezo 4: Sifa ya block*
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 Cipher block peke yake sio mpango wa usimbaji fiche. Lakini block cipher inaweza kutumika pamoja na **njia mbalimbali za utendakazi** ili kutoa mifumo tofauti ya usimbaji fiche. Njia ya utendakazi huongeza tu shughuli zingine za ziada nje ya msimbo wa kuzuia.
 
@@ -1204,7 +1200,7 @@ Ili kuonyesha jinsi hii inavyofanya kazi, tuseme block cipher (BC) ambayo inahit
 
 *Mchoro wa 5: Sifa ya kuzuia yenye modi ya ECB*
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 Mchakato wa usimbaji fiche wa kitabu cha msimbo wa kielektroniki na kisifa cha kuzuia ni kama ifuatavyo. Angalia ikiwa unaweza kugawanya ujumbe wako wa maandishi katika vizuizi 128-bit. Ikiwa sivyo, ongeza ** pedi ** kwa ujumbe, ili matokeo yanaweza kugawanywa sawasawa na saizi ya block ya bits 128. Hii ni data yako iliyotumiwa kwa mchakato wa usimbaji fiche.
 
@@ -1220,7 +1216,7 @@ Badala yake, mpango wowote wa usimbaji fiche ulioundwa kutoka kwa block cipher u
 
 *Kielelezo 6: Sifa ya kuzuia yenye modi ya CBC*
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 Tuseme saizi ya block ni bits 128 tena. Kwa hivyo ili kuanza, utahitaji tena kuhakikisha kuwa ujumbe wako asilia wa maandishi unapokea pedi zinazohitajika.
 
@@ -1236,7 +1232,7 @@ Hatimaye, hebu tuelekeze usikivu wetu kwa **modi ya maoni ya pato** (**Modi ya O
 
 *Kielelezo cha 7: Sifa ya kuzuia yenye modi ya OFB*
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 Ukiwa na modi ya OFB pia unachagua vekta ya uanzishaji. Lakini hapa, kwa kizuizi cha kwanza, vekta ya uanzishaji imeingizwa moja kwa moja kwenye kisifa cha kuzuia na ufunguo wako. Biti-128 zinazotokana, basi, zinachukuliwa kama mkondo muhimu. Mtiririko huu wa ufunguo umewekwa XOR kwa maandishi wazi ili kutoa maandishi ya siri ya kizuizi. Kwa vizuizi vifuatavyo, unatumia mkondo muhimu kutoka kwa kizuizi kilichotangulia kama ingizo kwenye msimbo wa kuzuia na kurudia hatua.
 
@@ -1282,7 +1278,7 @@ Kutokana na mjadala huu, sasa unapaswa kuelewa *Kielelezo 8*. Inatoa muhtasari w
 
 *Kielelezo cha 8: Muhtasari wa mifumo ya usimbaji linganifu*
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 ## Misimbo ya uthibitishaji wa ujumbe
 
@@ -1306,7 +1302,7 @@ Mchakato umeonyeshwa kwenye *Kielelezo 9*. Ili kutumia **MAC** (Msimbo wa Uthibi
 
 *Kielelezo cha 9: Muhtasari wa mifumo ya usimbaji linganifu*
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 Kwa sababu ya **kutoweza kusamehewa**, mshambuliaji hawezi kubadilisha ujumbe $M$ kwa njia yoyote au kuunda ujumbe wake mwenyewe kwa kutumia lebo halali. Hii ni hivyo, hata kama mshambuliaji atatazama lebo za jumbe nyingi kati ya Bob na Alice zinazotumia ufunguo sawa wa faragha. Mara nyingi, mshambuliaji anaweza kumzuia Alice kupokea ujumbe $M$ (tatizo ambalo kriptografia haiwezi Address).
 
@@ -1338,19 +1334,19 @@ Sasa Alice anakagua kwanza ikiwa lebo hiyo ni halali kwa kuzingatia maandishi ya
 
 *Kielelezo 10: Mpango wa usimbaji uliothibitishwa*
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 Je, MAC zinaundwaje? Ingawa MAC zinaweza kuundwa kupitia mbinu nyingi, njia ya kawaida na bora ya kuziunda ni kupitia **vitendaji vya kriptografia Hash**.
 
 Tutaanzisha vitendaji vya kriptografia Hash kwa kina zaidi katika *Sura ya 6*. Kwa sasa, fahamu tu kuwa **Hash chaguo za kukokotoa** ni chaguo za kukokotoa zinazoweza kukokotwa kwa ufanisi ambazo huchukua maingizo ya ukubwa usio na mpangilio na hutoa matokeo ya urefu usiobadilika. Kwa mfano, kazi maarufu ya Hash **SHA-256** (algorithm salama ya Hash 256) daima hutoa pato la 256-bit bila kujali ukubwa wa pembejeo. Baadhi ya vitendaji vya Hash, kama vile SHA-256, vina programu muhimu katika usimbaji fiche.
 
-Aina ya kawaida ya lebo inayozalishwa kwa njia ya kriptografia ya Hash ni msimbo wa uthibitishaji wa ujumbe unaotegemea Hash** (HMAC). Mchakato umeonyeshwa kwenye *Mchoro 11*. Sherehe hutoa vitufe viwili tofauti kutoka kwa ufunguo wa faragha $K$, ufunguo wa ndani $K_1$ na ufunguo wa nje $K_2$. Maandishi ya wazi $M$ au maandishi ya siri $C$ basi huharakishwa pamoja na ufunguo wa ndani. Matokeo $T'$ basi huharakishwa kwa ufunguo wa nje ili kutoa lebo ya ujumbe $T$.
+Aina ya kawaida ya lebo inayozalishwa kwa njia ya kriptografia ya Hash ni msimbo wa uthibitishaji wa ujumbe unaotegemea **Hash** (HMAC). Mchakato umeonyeshwa kwenye *Mchoro 11*. Sherehe hutoa vitufe viwili tofauti kutoka kwa ufunguo wa faragha $K$, ufunguo wa ndani $K_1$ na ufunguo wa nje $K_2$. Maandishi ya wazi $M$ au maandishi ya siri $C$ basi huharakishwa pamoja na ufunguo wa ndani. Matokeo $T'$ basi huharakishwa kwa ufunguo wa nje ili kutoa lebo ya ujumbe $T$.
 
 Kuna palette ya kazi za Hash ambazo zinaweza kutumika kuunda HMAC. Chaguo za kukokotoa za Hash zinazotumika zaidi ni SHA-256.
 
 *Kielelezo 11: HMAC*
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 **Maelezo:**
 
@@ -1388,7 +1384,7 @@ Kipindi cha mawasiliano huanza kwa Bob kutuma maandishi ya siri $C_{0,B}$ kwa Al
 
 *Kielelezo 12: Kikao salama cha mawasiliano*
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 # RC4 na AES
 
@@ -1540,7 +1536,7 @@ Hebu tuite ufunguo $K_0$. Ujenzi ulio na vigezo vilivyo hapo juu, basi, unaoneka
 
 *Mchoro wa 1: AES-ECB yenye ufunguo wa 128-bit*
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 Kila sehemu ya maandishi ya biti 128 hupitia raundi kumi katika mpango wa usimbaji fiche wa Rijndael. Hii inahitaji ufunguo tofauti wa duru kwa kila raundi ($K_1$ hadi $K_{10}$). Hizi hutolewa kwa kila mzunguko kutoka kwa ufunguo asili wa 128-bit $K_0$ kwa kutumia **algorithm ya upanuzi muhimu**. Kwa hivyo, kwa kila kifungu cha maandishi kusimbwa kwa njia fiche, tutatumia ufunguo asilia $K_0$ pamoja na funguo kumi tofauti za duara. Kumbuka kwamba funguo hizi 11 hutumiwa kwa kila kizuizi cha 128-bit cha maandishi wazi ambacho kinahitaji usimbaji fiche.
 
@@ -1584,7 +1580,7 @@ Mzunguko wa 0 wa msimbo wa Rijndael ni wa moja kwa moja. Safu ya $S_0$ inatolewa
 
 Katika raundi ya 1, safu $S_0$ inaunganishwa kwanza na kitufe cha duara $K_1$ kwa kutumia operesheni ya XOR. Hii inazalisha hali mpya ya $S$.
 
-Pili, operesheni ya **Byte badala** inafanywa kwa hali ya sasa ya $S$. Inafanya kazi kwa kuchukua kila baiti ya safu ya $S$ ya baiti 16 na kuibadilisha na baiti kutoka kwa safu inayoitwa **Sanduku la S* la Rijndael**. Kila baiti ina mabadiliko ya kipekee, na hali mpya ya $S$ inatolewa kama matokeo. Kisanduku cha S cha Rijndael kinaonyeshwa kwenye *Kielelezo 3*.
+Pili, operesheni ya **Byte badala** inafanywa kwa hali ya sasa ya $S$. Inafanya kazi kwa kuchukua kila baiti ya safu ya $S$ ya baiti 16 na kuibadilisha na baiti kutoka kwa safu inayoitwa **Sanduku la S** la Rijndael. Kila baiti ina mabadiliko ya kipekee, na hali mpya ya $S$ inatolewa kama matokeo. Kisanduku cha S cha Rijndael kinaonyeshwa kwenye *Kielelezo 3*.
 
 *Kielelezo cha 3: S-Box ya Rijndael*
 
@@ -1838,7 +1834,7 @@ Wakati fulani baadaye, Bob anataka kuandika ujumbe $M$ kwa Alice. Kwa vile inaju
 
 *Kielelezo cha 1: Usimbaji fiche usiolingana*
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 Adui yeyote anayesikiliza mawasiliano ya Bob na Alice anaweza kuona $C$. Pia anajua $K_P$ na kanuni ya usimbaji fiche $E(\cdot)$. Muhimu hata hivyo, maelezo haya hayamruhusu mvamizi kusimbua kwa urahisi maandishi ya siri $C$. Usimbaji fiche unahitaji $K_S$ haswa, ambayo mvamizi hana.
 
@@ -1862,7 +1858,7 @@ Sahihi ya dijiti ni, kama jina linavyodokeza, ni sawa na dijiti ya sahihi iliyoa
 
 *Kielelezo cha 2: Uthibitishaji wa Asymmetric*
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 Kama ilivyo kwa usimbaji fiche usiolinganishwa, tunaona utofauti wa kuvutia kati ya sahihi dijitali na misimbo ya uthibitishaji wa ujumbe. Kwa hili la mwisho, algoriti ya uthibitishaji inaweza tu kuajiriwa na mmoja wa wahusika walio na mawasiliano salama. Hii ni kwa sababu inahitaji ufunguo wa faragha. Katika mpangilio wa ulinganifu, hata hivyo, mtu yeyote anaweza kuthibitisha sahihi ya dijitali $S$ iliyotengenezwa na Bob.
 
@@ -1892,7 +1888,7 @@ Kwa hivyo saini za dijiti na usimbaji fiche wa ufunguo wa umma Address hufanyaje
 
 Hakuna jibu moja hapa. Siri ya ulinganifu ni zana na hakuna njia moja ya kuajiri zana hiyo. Lakini acheni tuchukue mfano wetu wa awali kutoka kwa Bidhaa za Michezo za Jim ili kuonyesha jinsi masuala kwa kawaida yangeshughulikiwa katika mfano huu.
 
-Kuanza, Bidhaa za Michezo za Jim huenda zingekaribia **mamlaka ya cheti**, shirika linaloauni usambazaji wa ufunguo wa umma. Mamlaka ya cheti ingesajili baadhi ya maelezo kuhusu Bidhaa za Michezo za Jim na kuipa ufunguo wa umma. Basi, itatuma cheti cha Bidhaa za Michezo za Jim, kinachojulikana kama **cheti cha **TLS/SSL**, huku ufunguo wa umma wa Jim's Sporting ukiwa umetiwa saini kidijitali kwa kutumia ufunguo wa umma wa mamlaka ya cheti. Kwa njia hii, mamlaka ya cheti inathibitisha kwamba ufunguo mahususi wa umma ni mali ya Bidhaa za Michezo za Jim.
+Kuanza, Bidhaa za Michezo za Jim huenda zingekaribia **mamlaka ya cheti**, shirika linaloauni usambazaji wa ufunguo wa umma. Mamlaka ya cheti ingesajili baadhi ya maelezo kuhusu Bidhaa za Michezo za Jim na kuipa ufunguo wa umma. Basi, itatuma cheti cha Bidhaa za Michezo za Jim, kinachojulikana kama **cheti cha TLS/SSL**, huku ufunguo wa umma wa Jim's Sporting ukiwa umetiwa saini kidijitali kwa kutumia ufunguo wa umma wa mamlaka ya cheti. Kwa njia hii, mamlaka ya cheti inathibitisha kwamba ufunguo mahususi wa umma ni mali ya Bidhaa za Michezo za Jim.
 
 Ufunguo wa kuelewa mchakato huu na vyeti vya TLS/SSL ni kwamba, ingawa kwa ujumla hutakuwa na ufunguo wa umma wa Jim's Sporting Goods uliohifadhiwa popote kwenye kompyuta yako, funguo za umma za mamlaka ya cheti zinazotambuliwa kwa hakika zimehifadhiwa katika kivinjari chako au katika mfumo wako wa uendeshaji. Hizi zimehifadhiwa katika kile kinachoitwa **vyeti mizizi**.
 

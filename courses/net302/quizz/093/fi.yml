@@ -1,0 +1,9 @@
+question: Mikä työkalu näyttää yksityiskohtaiset DNS-viestit, mukaan lukien tietueet ja ratkaisuprosessi?
+answer: dig
+wrong_answers:
+  - isäntä
+  - ping
+  - arp
+explanation: |
+  dig (Domain Information Groper) tarjoaa yksityiskohtaisia tietoja DNS-resoluutiosta, mukaan lukien tietuetyypit.
+reviewed: false

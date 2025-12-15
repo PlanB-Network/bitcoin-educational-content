@@ -1,0 +1,9 @@
+question: Ni ikihe kintu ca TCP gituma umuntu ashobora gukora neza mu guhindura igitigiri c’ibice vyoherezwa ata kwemera ubwo nyene?
+answer: Idirisha rinyerera
+wrong_answers:
+  - Guca ibice
+  - Guhindura amapakete
+  - Inzira idahinduka
+explanation: |
+  "Idirisha ry'ugunyerera" rituma ibice vyinshi vyoherezwa bikurikirana, hanyuma rigahindura urutonde n'ukwemera kwose kugira ngo bigende neza.
+reviewed: false

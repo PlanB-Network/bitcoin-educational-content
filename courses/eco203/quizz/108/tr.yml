@@ -1,0 +1,9 @@
+question: Bastiat, 20. yüzyılda yeniden ortaya çıkacak olan hangi ekonomik yanılsamayı eleştirmiştir?
+answer: Devletin istihdam yaratabileceği
+wrong_answers:
+  - Piyasanın Devlete ihtiyacı olduğu
+  - Piyasanın kendi kendini düzenleyebileceği
+  - Şirketlerin düzenleme olmadan da zenginlik yaratabileceği
+explanation: |
+  Bastiat, Devletin diğer işlere zarar vermeden iş yaratabileceği fikrini, bu yaratımları finanse etmek için gereken vergilerin etkisi nedeniyle eleştirmiştir.
+reviewed: false

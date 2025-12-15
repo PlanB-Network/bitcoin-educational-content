@@ -8,4 +8,4 @@ Un meccanismo di protezione contro gli attacchi Sybil, caratterizzati dalla crea
 
 Il lavoro svolto dai minatori viene ricompensato per ogni blocco valido trovato. Il minatore vincitore riceve una ricompensa monetaria, che consiste nella sovvenzione del blocco (creazione di nuovi bitcoin ex nihilo) e nelle commissioni di transazione. Oggi, la difficoltà della prova di lavoro su Bitcoin è tale che il mining richiede una notevole potenza computazionale per riuscire a vincere i blocchi. Di conseguenza, è spesso necessario disporre di chip elettronici specializzati per l'esecuzione di `SHA256d`, noti come ASIC, e partecipare a pool di mining.
 
-> *In inglese si parla di "Proof-of-Work", talvolta abbreviato in "PoW"
+> *In inglese si parla di "Proof-of-Work", talvolta abbreviato in "PoW"*

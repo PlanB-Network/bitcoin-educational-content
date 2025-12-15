@@ -1,0 +1,9 @@
+question: Millist andmeühikut kasutatakse TCP/IP-mudeli Interneti Layer-s?
+answer: Datagramm
+wrong_answers:
+  - Segment
+  - Raam
+  - Sõnum
+explanation: |
+  Internet Layer manipuleerib andmesõnumeid, kapseldades transpord Layer segmente.
+reviewed: false

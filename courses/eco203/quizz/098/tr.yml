@@ -1,0 +1,9 @@
+question: Bastiat'ya göre Kanun'un amacı ne olmalıdır?
+answer: Tüm yağmalara son vermek için.
+wrong_answers:
+  - Güç ilişkilerini yeniden dengelemek için.
+  - generate sosyal bağları için.
+  - Yeniden dağıtıcı haklar yoluyla eşitliği teşvik etmek.
+explanation: |
+  Bastiat'ya göre Hukuk, her türlü yağmayı önleyerek doğal hakları korumalı ve böylece herkes için adil bir adalet sağlamalıdır.
+reviewed: false

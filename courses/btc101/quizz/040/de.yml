@@ -1,12 +1,12 @@
-question: Welche Strategie verwenden zentrale Einheiten, um eine Fiat-Währung abzuwerten?
-answer: Sie erhöhen die Geldmenge jedes Jahr um einige Prozent.
+question: Was ist Hyperinflation?
+answer: Ein drastischer Anstieg der Geldmenge.
 wrong_answers:
-  - Sie verringern die Geldmenge jedes Jahr um einige Prozent.
-  - Sie halten ihre Geldmenge im Vergleich zur anfänglichen Menge konstant.
-  - Sie lassen ihre Geldmenge im Vergleich zur anfänglichen Menge zufällig schwanken.
+  - Ein kleiner Anstieg der Geldmenge.
+  - Ein drastischer Rückgang der Geldmenge.
+  - Ein kleiner Rückgang der Geldmenge.
 explanation: |
-  Zentrale Einheiten werten eine Währung oft ab, indem sie
-  ihre Geldmenge im Vergleich zur anfänglichen um einige Prozent
-  jedes Jahr erhöhen. Diese stille Abwertung wird oft als
-  im Interesse der Bevölkerung gerechtfertigt.
+  Hyperinflation ist ein monetäres Phänomen, das durch einen
+  drastischen Anstieg der Inflation durch das Drucken von Geld
+  durch die Behörden gekennzeichnet ist, was zu einem vollständigen Verlust des
+  Vertrauens in eine Währung führt.
 reviewed: true

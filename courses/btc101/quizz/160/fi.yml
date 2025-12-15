@@ -1,13 +1,12 @@
-question: Mitä tapahtuu, kun Bitcoin-verkkoon kohdistuu 51% hyökkäys?
-answer: Toimija omistaa yli puolet hashratesta ja voi yrittää muokata lohkoketjua.
+question: Mikä on nykyisen rahoitusjärjestelmän pääongelma suhteessa ympäristöön?
+answer: Se kannustaa ylikulutukseen ja velkaantumiseen.
 wrong_answers:
-  - Toimija saa hallintaansa yli puolet liikkeellä olevista bitcoineista.
-  - Toimija saa hallintaansa yli puolet Bitcoin-verkon solmuista.
-  - Toimija saa hallintaansa yli puolet Bitcoin-verkon louhintapoolista.
+  - Se edistää fossiilisten polttoaineiden käyttöä.
+  - Se ei investoi uusiutuvaan energiaan.
+  - Se ei säätele tavaroiden tuotantoa.
 explanation: |
-  51% hyökkäyksessä toimija, jolla on yli puolet
-  verkon hashratesta, voisi potentiaalisesti manipuloida
-  lohkoketjua luomalla vaihtoehtoisen lohkoketjun.
-  Tällainen hyökkäys olisi kuitenkin erittäin kallis ja
-  epätodennäköisesti tuottoisa, mikä tekee siitä epätodennäköisen skenaarion.
+  Nykyistä rahoitusjärjestelmää kritisoidaan siitä, että se kannustaa
+  ylikulutukseen ja velkaantumiseen, mikä aiheuttaa vakavia
+  ympäristöongelmia. Tämä johtuu helpon luoton saatavuudesta,
+  pankkien rahalaitoksesta ja osittaisvarantopankkitoiminnan käytöstä.
 reviewed: true

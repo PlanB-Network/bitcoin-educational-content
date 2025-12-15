@@ -1,0 +1,9 @@
+question: Neden tamsayılar kümesi toplama ile bir grup iken çarpma ile bir grup değildir?
+answer: Küme, çarpma işlemi altında ters çevirme koşulunu sağlamaz
+wrong_answers:
+  - Küme çarpma altında kapalı değildir
+  - Çarpma işlemi tamsayılar üzerinde ilişkisel değildir
+  - Çarpma işlemi için nötr bir eleman yoktur
+explanation: |
+  Tamsayılar kümesi çarpma işlemi altında ters çevirme koşulunu sağlamaz çünkü 1'i vermek üzere çarpılacak her bir tamsayının tersi yoktur. Yalnızca Elements 1 ve -1 bu koşulu sağlar.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Keynes'e göre altın standardı ile ilgili temel sorun nedir?
+answer: Hükümetin harcamalarını finanse etme kabiliyetini sınırlar
+wrong_answers:
+  - Enflasyonu teşvik eder
+  - Uluslararası ticareti engeller
+  - Diğer tüm cevaplar doğrudur.
+explanation: |
+  Keynes, altın standardının hükümetlerin paranın Supply'ını ayarlama kabiliyetini kısıtladığına ve özellikle ekonomik krizler sırasında harcamalarını kolayca finanse etmelerini engellediğine inanıyordu.
+reviewed: true

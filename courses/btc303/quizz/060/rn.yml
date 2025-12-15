@@ -1,0 +1,9 @@
+question: Dushingiye ku nsobanuro y’inkomoko yuguruye, ni igiki gikenewe cane ku bijanye n’amahera igihe umuntu asubira gutanga porogarama yuguruye nk’igice c’ugutanga porogarama rusangi?
+answer: Uruhusha ntiruzosaba amahera y'ubutunzi canke ayandi mafaranga y'ugucuruza .
+wrong_answers:
+  - Igiciro gibereye co kuvyara kigomba gusaba kugira ngo umuntu ashobore kwishura amafaranga y'iterambere .
+  - Amafaranga y’ubutunzi yemerewe ariko ntashobora kurenga 5% y’igiciro co gutanga
+  - Amafaranga y'ubuyobozi ashobora gusabwa ariko gusa ku bijanye no gusubira gutanga .
+explanation: |
+  Insobanuro y'inkomoko yuguruye ivuga neza munsi y''Ugusubira gutanga ku buntu' ko 'Uruhusha ntiruzosaba amahera y'ubutunzi canke ayandi mafaranga y'ugucuruza.' Ivyo bisigura ko porogarama zifunguye zitegerezwa gusubirwamwo ata n’amahera canke amafaranga y’uburenganzira. Ibindi bihitamwo bivuga nabi ko ubwoko butandukanye bw’amahera bwemewe, ivyo bikaba vyoba ari ukurenga ku ngingo ngenderwako y’ishimikiro yo gusubira gutanga ku buntu isobanura porogarama zifunguye.
+reviewed: false

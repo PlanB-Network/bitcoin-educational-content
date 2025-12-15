@@ -1,0 +1,9 @@
+question: Qual é o nome do procedimento de estabelecimento de ligação em várias etapas no TCP?
+answer: Aperto de mão de três vias
+wrong_answers:
+  - Aperto de mão de quatro vias
+  - Janela de correr
+  - Processo de soma de controlo
+explanation: |
+  O aperto de mão de três vias sincroniza os números de sequência entre o cliente e o servidor antes de qualquer Exchange de dados de carga útil.
+reviewed: false

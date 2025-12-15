@@ -1,0 +1,9 @@
+question: CAT kelimesini şifrelemek için 7'lik bir anahtar kullanılırsa ne olur?
+answer: Sözcük JHA olur
+wrong_answers:
+  - Kelime JBA olur
+  - Kelime JHB olur
+  - Kelime ZHA olur
+explanation: |
+  7'lik bir anahtarla, CAT kelimesinin her harfi alfabede 7 pozisyon kaydırılarak şifrelenmiş JHA kelimesi elde edilir.
+reviewed: false

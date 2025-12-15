@@ -1,0 +1,9 @@
+question: کدام فرمان می‌تواند برای پرس‌وجوی یک سرور DNS به منظور به‌دست‌آوردن IP Address یک دامنه استفاده شود؟
+answer: nslookup
+wrong_answers:
+  - نت‌استات
+  - nmap
+  - ss
+explanation: |
+  nslookup یک ابزار پرس و جوی DNS برای تبدیل نام‌های دامنه به آدرس‌های IP است.
+reviewed: false

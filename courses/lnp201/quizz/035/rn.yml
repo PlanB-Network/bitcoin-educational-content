@@ -1,0 +1,9 @@
+question: Ni iyihe ntumbero nyamukuru y’ama HTLC muri Lightning Network?
+answer: Kugira ngo bishobore gutanga amafaranga ata nkomanzi biciye ku nzira z'ubuhuza ataco bisaba ko umuntu abizigira
+wrong_answers:
+  - Kugabanya amafaranga y'ugucuruza ku kwishura kwose biciye ku nzira z'ubuhuza
+  - Kugira ngo wongere ubushobozi bw'umurongo wose wo kwishura
+  - Gushinga amasano ataco akora hagati y'ibice vyose vy'urubuga n'ukwizigira kwabo
+explanation: |
+  HTLCs (Hashed Time-Locked Contracts) zituma buri nzira y’ubuhuza izorungika amahera ataco igumye, kuko ishobora gusa kuyafungura mu kurangiza amahera gushika ku muntu wa nyuma azoyakira.
+reviewed: false

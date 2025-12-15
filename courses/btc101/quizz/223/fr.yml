@@ -1,11 +1,9 @@
-question: Qu'est-ce que le trilemme de la blockchain ?
-answer: Un protocole basé sur une blockchain ne peut satisfaire que deux des critères parmi la décentralisation, la sécurité et la scalabilité.
+question: Comment s’appellent les bitcoins utilisés sur Liquid ?
+answer: L-BTC
 wrong_answers:
-  - Un protocole basé sur une blockchain ne peut satisfaire qu'un seul des critères parmi la décentralisation, la sécurité et la scalabilité.
-  - Un protocole basé sur une blockchain peut satisfaire tous les critères de décentralisation, de sécurité et de scalabilité.
-  - Un protocole basé sur une blockchain ne peut satisfaire aucun des critères de décentralisation, de sécurité et de scalabilité.
+  - W-BTC
+  - S-BTC
+  - T-BTC
 explanation: |
-  Le trilemme de la blockchain fait référence au défi selon lequel
-  un protocole basé sur une blockchain ne peut satisfaire que deux critères parmi
-  la décentralisation, la sécurité et la scalabilité.
-reviewed: true
+  Sur Liquid, les bitcoins sont représentés par des L-BTC liés 1 pour 1 au BTC.
+reviewed: false

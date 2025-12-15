@@ -1,0 +1,9 @@
+question: ¿Cuáles son los dos tiempos de vida asociados a una IPv6 Address asignada automáticamente?
+answer: Vida útil preferida y vida útil válida
+wrong_answers:
+  - Tiempo de alquiler y tiempo de espera
+  - Tiempo de vida y caducidad
+  - Vida útil inicial y vida útil secundaria
+explanation: |
+  La vida útil preferente determina el periodo de uso normal de la Address y la vida útil válida su periodo total de validez.
+reviewed: false

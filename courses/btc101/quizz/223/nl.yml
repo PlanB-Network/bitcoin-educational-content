@@ -1,11 +1,9 @@
-question: Wat is het Blockchain trilemma?
-answer: Een protocol gebaseerd op een Blockchain kan slechts aan twee van de criteria decentralisatie, veiligheid en schaalbaarheid voldoen.
+question: Hoe heten de bitcoins die op Liquid worden gebruikt?
+answer: L-BTC
 wrong_answers:
-  - Een protocol gebaseerd op een Blockchain kan slechts aan één van de criteria decentralisatie, veiligheid en schaalbaarheid voldoen.
-  - Een protocol gebaseerd op Blockchain kan voldoen aan alle criteria van decentralisatie, veiligheid en schaalbaarheid.
-  - Een protocol dat gebaseerd is op een Blockchain kan aan geen van de criteria van decentralisatie, veiligheid en schaalbaarheid voldoen.
+  - W-BTC
+  - S-BTC
+  - T-BTC
 explanation: |
-  Het Blockchain trilemma verwijst naar de uitdaging dat een
-  protocol gebaseerd op Blockchain slechts aan twee criteria kan voldoen van
-  decentralisatie, veiligheid en schaalbaarheid.
-reviewed: true
+  Op Liquid worden bitcoins weergegeven als L-BTC, 1-op-1 gekoppeld aan BTC.
+reviewed: false

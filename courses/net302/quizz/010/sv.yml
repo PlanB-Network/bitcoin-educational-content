@@ -1,0 +1,9 @@
+question: Vilket modernt protokoll tillhandahåller funktionalitet som liknar det som IPv5 syftade till i hantering av nätverkskvalitet?
+answer: SVAR PÅ INBJUDAN
+wrong_answers:
+  - HTTP
+  - ARP
+  - FTP
+explanation: |
+  RSVP (Resource Reservation Protocol) möjliggör dynamisk reservation av nätverksresurser för att garantera Quality of Service (QoS), vilket var det ursprungliga målet med IPv5.
+reviewed: false

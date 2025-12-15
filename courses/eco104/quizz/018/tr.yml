@@ -1,0 +1,12 @@
+question: Yunan hükümetinin 2015 yılındaki iflas krizi sırasında bireylerin karşılaştığı önemli bir kısıtlama neydi?
+answer: Hükümet tarafından dayatılan zorlayıcı bankacılık reformu.
+wrong_answers:
+  - Dijital bankacılık hizmetlerine sınırlı erişim
+  - Bitcoin gibi dijital para birimlerinin oynaklığı
+  - Fiziksel para birimi (nakit) sıkıntısı
+explanation: |
+  Yunan hükümetinin 2015 yılındaki iflas krizi sırasında bankalar kapatılmıştı,
+  ATM'den para çekme işlemleri sınırlıydı ve bireylerin önemli bir kısmı
+  banka mevduatları mali sorumsuzluğu finanse etmek için hükümet tarafından geri çekilmiştir.
+  Bu olay, paranın geleneksel bankacılık sistemi içinde tutulmasına ilişkin risklerin altını çizmiştir.
+reviewed: true

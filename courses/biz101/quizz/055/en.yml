@@ -6,4 +6,4 @@ wrong_answers:
   - To set up a PoS system for accepting Bitcoin payments
 explanation: |
   These tools are designed to automate data collection, format conversion, tax calculation, and transaction categorization.
-reviewed: false
+reviewed: true

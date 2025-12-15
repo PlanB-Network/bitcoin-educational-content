@@ -1,11 +1,13 @@
-question: Varför är det tillrådligt att undvika att lämna dina Bitcoins på Exchange-plattformar?
-answer: De kan vara mottagliga för hackerattacker.
+question: Vad hindrar alla från att använda samma Bitcoin Wallet?
+answer: Olika individer behöver olika användningsområden.
 wrong_answers:
-  - Exchange-plattformar tar ut slumpmässiga avgifter.
-  - Bitcoin förlorar i värde på Exchange-plattformar.
-  - Exchange-plattformar är inte reglerade institutioner.
+  - Det är dyrt att använda en Bitcoin Wallet.
+  - Det är olagligt att använda en Bitcoin Wallet.
+  - Folk kommer aldrig att komma överens om namnet på en sådan Wallet.
 explanation: |
-  Det är tillrådligt att undvika att lämna dina Bitcoins på Exchange
-  plattformar eftersom de kan vara mottagliga för hacker
-  attacker.
+  En person kan prioritera säkerhet, medan en annan kan
+  användarvänlighet eller specifika funktioner. Därför kan en
+  gW-7 Wallet kanske inte tillgodoser allas krav, vilket
+  krav, vilket gör det nödvändigt att det finns flera Wallet
+  alternativ måste finnas.
 reviewed: true

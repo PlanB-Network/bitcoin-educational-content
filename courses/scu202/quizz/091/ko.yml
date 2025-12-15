@@ -1,0 +1,9 @@
+question: 네트워크에 연결된 디바이스에 로컬 IP Address을 동적으로 할당하는 프로토콜은 무엇인가요?
+answer: DHCP
+wrong_answers:
+  - HTTP
+  - FTP
+  - DNS
+explanation: |
+  DHCP는 로컬 네트워크에 연결된 각각의 새 장치에 IP Address을 자동으로 할당합니다.
+reviewed: false

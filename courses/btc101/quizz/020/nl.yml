@@ -1,12 +1,12 @@
-question: Wat zijn de belangrijkste kenmerken van een effectieve valuta?
-answer: Fungibel, Deelbaar, Liquid.
+question: Waarom wordt Bitcoin tegenwoordig niet algemeen aanvaard in de handel?
+answer: Omdat het niet op grote schaal wordt toegepast door individuen.
 wrong_answers:
-  - Vruchtbaar, Deelbaar, Bederfelijk.
-  - Fungibel, Ondeelbaar, Liquid.
-  - Niet ontvlambaar, Deelbaar, Liquid.
+  - Omdat het niet vervoerbaar is.
+  - Omdat het niet deelbaar is in kleine eenheden.
+  - Omdat het geen Liquid is.
 explanation: |
-  Een effectieve munteenheid moet fungibel (uitwisselbaar
-  zonder waardeverlies), deelbaar (scheidbaar in kleine
-  delen om transacties van verschillende volumes te vergemakkelijken), en
-  Liquid (gemakkelijk converteerbaar in goederen of diensten).
+  Ondanks zijn eigenschappen, zoals zijn strikt beperkte
+  Supply, is Bitcoin nog steeds niet algemeen geaccepteerd in de handel
+  door het gebrek aan acceptatie door individuen, dus worden
+  winkeliers worden niet aangemoedigd om het te accepteren.
 reviewed: true

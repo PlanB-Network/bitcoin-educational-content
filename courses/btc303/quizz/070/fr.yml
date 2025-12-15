@@ -1,0 +1,9 @@
+question: Quelle est la caractéristique fondamentale qui distingue la définition de l'échelle Bitcoin du livre des autres définitions courantes utilisées dans l'espace Bitcoin ?
+answer: Elle exige explicitement de maintenir la résistance à la censure comme contrainte tout en augmentant la capacité d'utilisation
+wrong_answers:
+  - Elle se concentre exclusivement sur l'augmentation du débit des transactions de la blockchain plutôt que sur l'amélioration de l'efficacité
+  - Il donne la priorité au développement d'une architecture en couches plutôt qu'à toute modification du protocole de base de la blockchain
+  - Elle met l'accent sur la réduction des besoins de calcul des nœuds plutôt que sur l'augmentation de la capacité du réseau
+explanation: |
+  L'ouvrage définit la mise à l'échelle comme "l'augmentation de la capacité d'utilisation de Bitcoin sans compromettre sa résistance à la censure", ce qui inclut explicitement la contrainte de résistance à la censure. Cette définition se distingue des autres définitions qui se concentrent uniquement sur l'augmentation de la capacité de transaction, l'amélioration de l'efficacité ou les systèmes en couches, sans tenir compte de la préservation des propriétés fondamentales de Bitcoin. L'exigence de résistance à la censure garantit que les solutions de mise à l'échelle ne compromettent pas la proposition de valeur fondamentale de Bitcoin, à savoir un système décentralisé et sans confiance qui ne peut être contrôlé par une seule entité.
+reviewed: false

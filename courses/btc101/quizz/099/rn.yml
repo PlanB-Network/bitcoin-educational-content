@@ -1,0 +1,11 @@
+question: Ni kuki ari vyiza kwirinda gusiga Bitcoins zawe ku mbuga za Exchange?
+answer: Bashobora guterwa n’abanyaruyeri.
+wrong_answers:
+  - Ama platforms ya Exchange asaba amahera ataco amaze.
+  - Bitcoin iratakaza agaciro ku bibanza vya Exchange.
+  - Ivyuma vya Exchange si ikigo gitegekanijwe.
+explanation: |
+  Ni vyiza ko wirinda gusiga Bitcoins zawe kuri Exchange.
+  platforms kuko zishobora gufatwa n'abasuma
+  ibitero.
+reviewed: true

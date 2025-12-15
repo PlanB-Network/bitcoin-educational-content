@@ -1,0 +1,9 @@
+question: Lightning Network의 발명자는 누구인가요?
+answer: 타데우스 드라이야와 조셉 푼
+wrong_answers:
+  - 안드레아스 안토노풀로스와 아담 백
+  - 피터 우일과 그레고리 맥스웰
+  - Satoshi 나카모토와 할 피니
+explanation: |
+  타데우스 드라이야와 조셉 푼은 Bitcoin의 확장성을 개선하기 위해 2016년에 Lightning Network를 발명했습니다.
+reviewed: false

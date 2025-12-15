@@ -1,0 +1,9 @@
+question: RGB에서 스마트 Contract State의 두 가지 주요 구성 요소는 무엇인가요?
+answer: Global State 및 소유 상태
+wrong_answers:
+  - Commitment 및 Genesis
+  - Seal Definition 및 State Transition
+  - Valency 및 Contract Rights
+explanation: |
+  Global State에는 공개 데이터가 포함되어 있으며, 소유 상태는 UTXO를 통해 특정 소유자와 연결됩니다.
+reviewed: false

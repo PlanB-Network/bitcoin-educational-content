@@ -30,7 +30,7 @@ o pfSense é um sistema operativo gratuito e de código aberto que transforma qu
 
 
 
-As suas principais funções evoluíram consideravelmente ao longo dos anos e foram melhoradas a cada nova versão. Até à data, o pfSense oferece :
+As suas principais funções evoluíram consideravelmente ao longo dos anos e foram melhoradas a cada nova versão. Até à data, o pfSense oferece:
 
 
 
@@ -63,7 +63,7 @@ Finalmente, vale a pena lembrar que o pfSense requer pelo menos duas interfaces 
 
 
 
-A última versão estável do pfSense, no momento da redação deste tutorial, é a 2.8 (lançada em junho de 2025). Pode descarregar a imagem ISO ou o ficheiro de instalação adaptado ao seu ambiente de hardware diretamente do sítio Web oficial :
+A última versão estável do pfSense, no momento da redação deste tutorial, é a 2.8 (lançada em junho de 2025). Pode descarregar a imagem ISO ou o ficheiro de instalação adaptado ao seu ambiente de hardware diretamente do sítio Web oficial:
 
 
 
@@ -73,7 +73,7 @@ A última versão estável do pfSense, no momento da redação deste tutorial, �
 
 
 
-O portal de descarregamento permite-lhe selecionar :
+O portal de descarregamento permite-lhe selecionar:
 
 
 
@@ -105,15 +105,15 @@ Neste exemplo, a instalação é efectuada numa máquina virtual com o VirtualBo
 
 
 
-Para uma implantação padrão, recomendamos o :
+Para uma implantação padrão, recomendamos o:
 
 
 
 
 
-- 1 GB de RAM** no mínimo (recomenda-se 2 GB ou mais para permitir pacotes adicionais ou suporte a ZFS).
-- 8 GB de espaço em disco** (20 GB ou mais é preferível para configurações mais avançadas, especialmente se estiver a instalar uma cache de proxy, IDS/IPS ou registos detalhados).
-- Pelo menos duas interfaces de rede virtuais** (uma para a WAN e outra para a LAN). No VirtualBox, adicione-as às configurações da VM antes da inicialização.
+- 1 GB de RAM **no mínimo** (recomenda-se 2 GB ou mais para permitir pacotes adicionais ou suporte a ZFS).
+- **8 GB de espaço em disco** (20 GB ou mais é preferível para configurações mais avançadas, especialmente se estiver a instalar uma cache de proxy, IDS/IPS ou registos detalhados).
+- Pelo menos duas interfaces de rede virtuais (uma para a WAN e outra para a LAN). No VirtualBox, adicione-as às configurações da VM antes da inicialização.
 
 
 
@@ -221,7 +221,7 @@ A primeira pergunta diz respeito à configuração de VLANs. Nesta fase, para um
 
 
 
-o pfSense então pede para definir qual Interface será usado para WAN (acesso à Internet). É possível escolher entre :
+o pfSense então pede para definir qual Interface será usado para WAN (acesso à Internet). É possível escolher entre:
 
 
 
@@ -304,13 +304,13 @@ No seu navegador, vá para o Address indicado pelo console (por padrão `https:/
 
 
 
-É apresentado o ecrã de início de sessão. As credenciais predefinidas são :
+É apresentado o ecrã de início de sessão. As credenciais predefinidas são:
 
 
 
 
-- Nome do utilizador:** `admin`
-- Palavra-passe:** `pfsense`
+- **Nome do utilizador:** `admin`
+- **Palavra-passe:** `pfsense`
 
 
 
@@ -330,7 +330,7 @@ Na primeira ligação, o pfSense pede-lhe para seguir o seu **Assistente de Conf
 
 
 
-Pode :
+Pode:
 
 
 
@@ -352,7 +352,7 @@ Indique o fuso horário do seu sítio para que os registos e os horários sejam 
 
 
 
-Configurar a ligação WAN :
+Configurar a ligação WAN:
 
 
 
@@ -383,7 +383,7 @@ Proteja seu pfSense definindo imediatamente uma senha forte para o usuário `adm
 
 
 
-Antes de implementar a firewall, certifique-se de que tem a versão mais recente do :
+Antes de implementar a firewall, certifique-se de que tem a versão mais recente do:
 
 
 
@@ -423,16 +423,16 @@ Para ambientes de missão crítica, considere a possibilidade de efetuar uma có
 
 
 
-Para terminar o seu destacamento com paz de espírito :
+Para terminar o seu destacamento com paz de espírito:
 
 
 
 
 
-- Modificar regras de firewall**: por padrão, o pfSense permite todo o tráfego de saída na LAN e bloqueia o tráfego de entrada na WAN. Ajuste essas regras conforme necessário.
-- Configurar o acesso remoto seguro**: se necessário, permitir o acesso à Web do Interface a partir da WAN apenas através de VPN ou com restrições de IP.
-- Ativar notificações**: configurar um servidor SMTP para receber alertas (falhas, actualizações, erros).
-- Instalar extensões úteis**: por exemplo, IDS/IPS (Snort, Suricata), proxy (Squid), filtragem de DNS (pfBlockerNG).
+- **Modificar regras de firewall**: por padrão, o pfSense permite todo o tráfego de saída na LAN e bloqueia o tráfego de entrada na WAN. Ajuste essas regras conforme necessário.
+- **Configurar o acesso remoto seguro**: se necessário, permitir o acesso à Web do Interface a partir da WAN apenas através de VPN ou com restrições de IP.
+- **Ativar notificações**: configurar um servidor SMTP para receber alertas (falhas, actualizações, erros).
+- **Instalar extensões úteis**: por exemplo, IDS/IPS (Snort, Suricata), proxy (Squid), filtragem de DNS (pfBlockerNG).
 
 
 

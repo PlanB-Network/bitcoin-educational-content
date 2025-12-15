@@ -1,0 +1,9 @@
+question: Chi dice che "l'uomo non è un impero nell'impero"?
+answer: Spinoza.
+wrong_answers:
+  - Cartesio.
+  - Einstein.
+  - Saint-Augustin.
+explanation: |
+  È stato Spinoza ad affermare che "l'uomo non è un impero nell'impero". Questa frase esprime l'idea che l'uomo non è separato dalla natura, ma è parte integrante di essa, soggetto alle stesse leggi.
+reviewed: false

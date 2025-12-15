@@ -1,0 +1,9 @@
+question: Quali sono i due aspetti principali del decentramento nel Bitcoin?
+answer: Decentramento Miner e decentramento full node
+wrong_answers:
+  - Decentramento delle transazioni e decentramento wallet
+  - Decentramento della rete e decentramento del protocollo
+  - Decentramento degli utenti e decentramento degli sviluppatori
+explanation: |
+  La decentralizzazione di Bitcoin ha due componenti chiave: la decentralizzazione dei minatori e la decentralizzazione full node. La decentralizzazione Miner significa che l'elaborazione e l'ordine delle transazioni non sono controllati da una singola entità, ma piuttosto da un collettivo dinamico di minatori che possono entrare o uscire liberamente. La decentralizzazione Full node si riferisce alla convalida dei blocchi effettuata ai margini della rete dagli utenti stessi, piuttosto che da autorità fidate. Questi due aspetti lavorano insieme per ottenere la resistenza alla censura: i minatori impediscono l'ordinamento centralizzato delle transazioni, mentre i nodi completi assicurano la convalida senza fiducia della blockchain.
+reviewed: false

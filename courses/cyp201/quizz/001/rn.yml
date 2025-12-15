@@ -1,0 +1,9 @@
+question: Ni uwuhe mutungo utuma bidashoboka ko umuntu ashobora kuronka input ya Hash?
+answer: Uguhangana n'ishusho y'imbere
+wrong_answers:
+  - Uguhangana n'ugutombora
+  - Ingaruka z'urubura
+  - Uguhangana n'ishusho ya kabiri
+explanation: |
+  Uguhangana n'ishusho imbere y'igihe bituma bidashoboka kuronka ubutumwa bw'intango buva kuri Hash yayo.
+reviewed: false

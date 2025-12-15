@@ -1,0 +1,9 @@
+question: Hangi açık kaynak çeviri uygulaması farklı motorlarla çalışır ve çevrilen metinlerinizi toplamaz?
+answer: TranslateYou
+wrong_answers:
+  - Google Çeviri
+  - DeepL
+  - Microsoft Translator
+explanation: |
+  TranslateYou, tescilli hizmetlerin aksine, kişisel verileri izlemeden veya toplamadan çeşitli motorlar için bir Interface görevi görür.
+reviewed: false

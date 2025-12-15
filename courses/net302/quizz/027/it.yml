@@ -1,0 +1,9 @@
+question: Come si chiama l'unità di dati scambiata nell'Application Layer (TCP/IP)?
+answer: Messaggio
+wrong_answers:
+  - Telaio
+  - Segmento
+  - Datagramma
+explanation: |
+  Nel modello TCP/IP, i dati scambiati nell'Application Layer sono chiamati messaggi (o flussi, a seconda del contesto).
+reviewed: false

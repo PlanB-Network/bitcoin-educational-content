@@ -1,9 +1,10 @@
-question: Koji je glavni cilj Bitkoin revolucije prema ovom kursu?
-answer: Stvaranje sveta u kojem je suverenitet čoveka pravo, privatnost se po defaultu poštuje, a novac nije manipulisan.
+question: Šta ovaj kurs sugeriše o tempu učenja o Bitkoina?
+answer: Komplikovano je asimilovati sve odjednom, zato uzmi svoje vreme.
 wrong_answers:
-  - Stvaranje sveta u kojem privatnost nije ljudsko pravo, a novcem manipulišu banke.
-  - Stvaranje sveta u kojem vlade nemaju moć, a društvo je haotično.
-  - Stvaranje sveta u kojem je fizički novac zastareo.
+  - Lako je naučiti sve odjednom.
+  - Nemoguće je naučiti sve o Bitkoinu.
+  - Nije neophodno naučiti sve o Bitkoinu.
 explanation: |
-  Ovaj tekst kursa sugeriše da je glavni cilj Bitkoin revolucije stvaranje sveta u kojem je ljudski suverenitet pravo, privatnost se po defaultu poštuje, a novac nije manipulisan.
+  Kurs sugeriše da postoji mnogo toga za istraživanje sa
+  Bitkoinom i da je komplikovano asimilirati sve odjednom, tako da bi trebalo uzeti vremena.
 reviewed: true

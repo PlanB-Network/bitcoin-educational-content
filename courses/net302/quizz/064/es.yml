@@ -1,0 +1,9 @@
+question: ¿Cuál es la longitud en bits de un Address IPv6?
+answer: 128 bits
+wrong_answers:
+  - 512 bits
+  - 64 bits
+  - 256 bits
+explanation: |
+  Una Address IPv6 tiene 128 bits de longitud, frente a los 32 bits de una Address IPv4.
+reviewed: false

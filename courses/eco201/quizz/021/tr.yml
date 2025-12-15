@@ -1,0 +1,13 @@
+question: Carl Menger'e göre değerin doğası nedir?
+answer: Değer, bireyin içindeki öznel psikolojik bir olgudur.
+wrong_answers:
+  - Değer, malların doğasında var olan bir özelliktir.
+  - Değer, nesnel ve ölçülebilir bir olgudur.
+  - Değer, üretimde kullanılan emek miktarına göre belirlenir.
+explanation: |
+  Menger'e göre değer, öznel psikolojik bir olgudur
+  bireyin içindeki bir olgudur. Bu, değerin şu olduğu anlamına gelir
+  malların doğasında var olan bir özellik değildir, daha ziyade
+  bireyin elde edebileceği fayda hakkındaki görüşü
+  bu mallardan.
+reviewed: true

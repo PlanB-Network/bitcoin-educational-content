@@ -1,0 +1,9 @@
+question: Ni ingaruka izihe ivy’ugucuruza Bitcoin bigira ku ma UTXO mu bisohoka?
+answer: Irazirema ikoresheje ama UTXO akoreshwa mu bikoresho.
+wrong_answers:
+  - Irazirya kugira ngo zihaze ivyo zishiramwo.
+  - Irazipfuka kugira ngo uwuzironka ntamenyekane.
+  - Irazigabanya mu gihe gito kugira ngo zigenzurwe.
+explanation: |
+  Ama UTXO mu biva mu bikorwa vy’ubudandaji aremwa mu gukoresha ama UTXO mu biva mu bikorwa. Mu buryo bumwe, ni ho amahera aja.
+reviewed: false

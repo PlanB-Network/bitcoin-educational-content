@@ -1,9 +1,9 @@
-question: What is one main difference between treating Bitcoin as a digital asset versus treating it like a currency in accounting?
-answer: As a digital asset, each transaction’s cost basis and gains/losses must be tracked, whereas if it were treated like a currency, revaluations would be simpler and less frequent.
+question: Một điểm khác biệt chính giữa việc coi Bitcoin là tài sản kỹ thuật số so với việc coi nó như một loại tiền tệ trong kế toán là gì?
+answer: Là một tài sản kỹ thuật số, cơ sở chi phí và lãi/lỗ của mỗi giao dịch phải được theo dõi, trong khi nếu được coi như một loại tiền tệ, việc định giá lại sẽ đơn giản hơn và ít thường xuyên hơn.
 wrong_answers:
-  - When treated as a digital asset, it is completely exempt from all taxes.
-  - When treated like a currency, no records of transactions are needed.
-  - Treating it like a currency requires an immediate switch to a new accounting software.
+  - Khi được coi là tài sản kỹ thuật số, nó sẽ được miễn hoàn toàn mọi loại thuế.
+  - Khi được coi như một loại tiền tệ, không cần phải ghi chép lại các giao dịch.
+  - Để xử lý nó như một loại tiền tệ, cần phải chuyển ngay sang phần mềm kế toán mới.
 explanation: |
-  Digital asset treatment typically involves calculating capital gains or losses on each transaction, adding complexity. If Bitcoin were accounted for like a currency, it would be simpler; just update the fiat value periodically, as done for other currencies.
-reviewed: false
+  Việc xử lý tài sản kỹ thuật số thường bao gồm việc tính toán lãi hoặc lỗ vốn trên mỗi giao dịch, làm tăng thêm tính phức tạp. Nếu Bitcoin được hạch toán như một loại tiền tệ, mọi việc sẽ đơn giản hơn; chỉ cần cập nhật giá trị pháp định định kỳ, như đã làm với các loại tiền tệ khác.
+reviewed: true

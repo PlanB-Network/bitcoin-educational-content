@@ -5,5 +5,5 @@ wrong_answers:
   - Double-signature
   - Proof-of-Stake
 explanation: |
-  Le Single-use Seal utilise le fait qu'un UTXO ne peut être dépensé qu'une seule fois dans le cadre des contrats RGB pour assurer la résistance à la double dépense.
-reviewed: false
+  Le Single-use Seal (sceau à usage unique) utilise le fait qu'un UTXO ne peut être dépensé qu'une seule fois dans le cadre des contrats RGB pour assurer la résistance à la double dépense.
+reviewed: true 

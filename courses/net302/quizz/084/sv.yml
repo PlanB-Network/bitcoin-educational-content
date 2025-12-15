@@ -1,0 +1,9 @@
+question: Vilket historiskt kommando kan användas för att konsultera ARP-cachen på de flesta system?
+answer: arp
+wrong_answers:
+  - gräva
+  - nslookup
+  - ping
+explanation: |
+  Med kommandot arp kan du visa eller ändra ARP-cachen, som lagrar IP/MAC-mappningar lokalt.
+reviewed: false

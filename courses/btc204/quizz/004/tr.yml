@@ -1,0 +1,9 @@
+question: Bitcoin'daki UTXO'ları ne güvence altına alıyor?
+answer: Harcama koşullarını tanımlayan komut dosyaları aracılığıyla.
+wrong_answers:
+  - Madenciler tarafından periyodik doğrulama yoluyla.
+  - Merkezi bir veri tabanı aracılığıyla.
+  - Kullanıcı kimliği doğrulaması yoluyla.
+explanation: |
+  Bir Bitcoin işleminin çıktıları, bir komut dosyası ile güvence altına alınan UTXO'lardır. Bu komut dosyası, UTXO'yi harcamak için önceden tanımlanmış harcama koşullarının karşılanmasını gerektirir.
+reviewed: false

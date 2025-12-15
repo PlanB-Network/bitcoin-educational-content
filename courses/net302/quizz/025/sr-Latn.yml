@@ -1,0 +1,9 @@
+question: Za šta se koriste rezervisani portovi u TCP/IP modelu?
+answer: Da slušate zahteve za specifične usluge
+wrong_answers:
+  - Za generate automatsko enkapsuliranje datagrama
+  - Da fizički usmerava mrežne okvire
+  - Da kontroliš fragmentaciju UDP paketa
+explanation: |
+  Portovi su logičke tačke slušanja koje omogućavaju mrežnim aplikacijama da razlikuju različite usluge koje se pokreću na istom hostu.
+reviewed: false

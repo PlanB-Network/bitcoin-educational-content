@@ -1,0 +1,9 @@
+question: Tracy'ye göre toplumun itici gücü nedir?
+answer: Ticaret
+wrong_answers:
+  - Aile
+  - Politika
+  - Eğitim
+explanation: |
+  Destutt de Tracy için ticaret, toplumun itici gücü olarak hizmet eden uygarlaştırıcı ve sakinleştirici bir güçtür.
+reviewed: false

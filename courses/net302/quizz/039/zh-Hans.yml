@@ -1,0 +1,9 @@
+question: 公共 IPv4 Address 和私有 IPv4 Address 的主要区别是什么？
+answer: 公共 Address 在互联网上是独一无二的，可进行路由选择
+wrong_answers:
+  - 专用 Address 在互联网上是唯一的和可路由的
+  - 公共 Address 始终由 DHCP 分配
+  - 专用 Address 始终由 DHCP 分配
+explanation: |
+  公用 IPv4 Address 是全球唯一的，可在互联网上路由，而专用 Address 只在本地网络内有效。
+reviewed: false

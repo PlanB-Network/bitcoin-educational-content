@@ -1,0 +1,9 @@
+question: Který nástroj zobrazuje podrobné zprávy DNS včetně záznamů a procesu řešení?
+answer: dig
+wrong_answers:
+  - hostitel
+  - ping
+  - arp
+explanation: |
+  dig (Domain Information Groper) poskytuje podrobné informace o řešení DNS, včetně typů záznamů.
+reviewed: false

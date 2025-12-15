@@ -1,0 +1,9 @@
+question: Hangi tarayıcı trafiği merkezi olmayan ancak yüksek gecikmeli bir ağ üzerinden yönlendirerek anonimliği garanti eder?
+answer: Tor Tarayıcı
+wrong_answers:
+  - Mullvad Tarayıcı
+  - Lynx
+  - LibreWolf
+explanation: |
+  Tor Browser, performansta önemli bir düşüş pahasına gezinmeyi anonimleştirmek için Tor ağına güvenir.
+reviewed: false

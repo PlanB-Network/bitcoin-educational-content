@@ -1,0 +1,9 @@
+question: Em que ano é que o primeiro segmento da ARPANET ficou operacional?
+answer: 1969
+wrong_answers:
+  - 1972
+  - 1962
+  - 1961
+explanation: |
+  O primeiro segmento da ARPANET ficou operacional em outubro de 1969, interligando a UCLA e Stanford.
+reviewed: false

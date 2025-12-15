@@ -1,0 +1,9 @@
+question: Which record is mandatory in every DNS zone file?
+answer: SOA (Start Of Authority)
+wrong_answers:
+  - PTR (Pointer)
+  - AAAA (IPv6 Address)
+  - SRV (Service Locator)
+explanation: |
+  The SOA record defines the zone authority and is required in every DNS zone file.
+reviewed: false

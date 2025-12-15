@@ -1,0 +1,9 @@
+question: Ni ikihe kimwe mu bintu bijanye n’umutekano wo kuri Internet bisaba ko umuntu aguma acungera umwanya wose?
+answer: Ukubangamirwa cane kuguma gutera imbere
+wrong_answers:
+  - Isoko ry'ivy'ubutunzi
+  - Ikirere
+  - Amakuru
+explanation: |
+  Igice kivuga yuko ukubangamirwa cane kuguma gutera imbere mu mutekano wo kuri interineti ivyo rero bikaba bica bituma hakenerwa gucungera umwanya wose
+reviewed: true

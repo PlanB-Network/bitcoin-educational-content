@@ -1,0 +1,9 @@
+question: Ni igiki gifise intumbero y’igikorwa co guhindura imirongo muri AES?
+answer: Kugira ngo wongere gukwiragira mu gusubira gutunganya ama bytes mu mbonerahamwe ya leta
+wrong_answers:
+  - Raba neza ko igice cose gifise uburebure bumwe
+  - Shiraho urufunguzo rw'ibanga kuri buri murongo w'imbonerahamwe ya Leta
+  - Injiza ibindi bizazane mu gusubiriza bytes
+explanation: |
+  Igikorwa kijanye n'imirongo y'ihinduka muri AES gisubira gutunganya ama bytes mu mbonerahamwe ya leta kugira ngo amakuru akwiragizwe, gutyo bikongera gukwiragira.
+reviewed: false

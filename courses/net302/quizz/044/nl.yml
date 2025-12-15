@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste rol van DNS in de internetarchitectuur?
+answer: Domeinnamen aan IP-adressen koppelen
+wrong_answers:
+  - Communicatie tussen routers versleutelen
+  - Dynamisch MAC-adressen toewijzen aan apparaten
+  - Toegang tot webservers beheren
+explanation: |
+  DNS (Domain Name System) vertaalt door mensen leesbare domeinnamen naar numerieke IP-adressen die nodig zijn voor routering.
+reviewed: false

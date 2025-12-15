@@ -1,0 +1,10 @@
+question: Stonewall işlemi nedir?
+answer: Bir mini-CoinJoin olmadan onu taklit eden bir işlem
+wrong_answers:
+  - Mini-CoinJoin şeklinde bir ödeme işlemi
+  - Üç katılımcının yer aldığı işbirliğine dayalı bir işlem
+  - Alıcının girdilere dahil olduğu bir işlem
+explanation: |
+  Stonewall, gerçekte bir tane olmadan iki kişi arasında mini bir CoinJoin'yi taklit ederek bir harcama sırasında kullanıcı gizliliğini artırmayı amaçlayan belirli bir Bitcoin işlem biçimidir.
+  
+reviewed: false

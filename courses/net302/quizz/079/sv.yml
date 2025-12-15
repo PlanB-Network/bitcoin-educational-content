@@ -1,0 +1,9 @@
+question: Vilken typ av DNS-post används för att mappa ett domännamn med en IPv6 Address?
+answer: AAAA
+wrong_answers:
+  - A
+  - PTR
+  - MX
+explanation: |
+  Typ AAAA (quad-A) används för att mappa ett domännamn med en IPv6 Address, medan typ A är reserverad för IPv4.
+reviewed: false

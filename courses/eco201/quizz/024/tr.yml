@@ -1,0 +1,11 @@
+question: İşbölümünde doğrudan Exchange sorununun çözümü nedir?
+answer: Para ile kolaylaştırılan dolaylı Exchange.
+wrong_answers:
+  - Takas yoluyla kolaylaştırılan doğrudan Exchange.
+  - Takas yoluyla kolaylaştırılan dolaylı Exchange.
+  - Doğrudan Exchange para ile kolaylaştırılmıştır.
+explanation: |
+  Para, bir bireyin aşağıdakileri yapabildiği dolaylı Exchange'e izin verir
+  bir başkasından satın alabilir ve satıcı bu para birimini kullanabilir
+  başka bir yerde, başka bir zamanda ve başka biriyle.
+reviewed: true

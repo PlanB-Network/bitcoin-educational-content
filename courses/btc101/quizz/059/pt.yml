@@ -1,9 +1,9 @@
-question: Qual das seguintes não é uma característica do Bitcoin?
-answer: É facilmente censurado.
+question: Em que ano prevê-se que a criação de bitcoins cessará?
+answer: 2140
 wrong_answers:
-  - É instantaneamente transportável.
-  - Tem custos negligenciáveis de verificação.
-  - Tem uma política monetária fixa.
+  - 2050
+  - 2030
+  - 2200
 explanation: |
-  O Bitcoin possui todas as características necessárias para ser uma moeda eficiente e saudável: divisível, instantaneamente transportável, incensurável, custo negligenciável para verificação e com uma política monetária já estabelecida para os séculos vindouros com 21 milhões de unidades.
+  Devido ao mecanismo de halving, pode-se prever matematicamente que a criação de bitcoins cessará em 2140, quando o número total de bitcoins atingir seu limite de 21 milhões.
 reviewed: true

@@ -1,0 +1,11 @@
+question: Normal piyasa koşullarında iflas etmiş veya iflasın eşiğinde olmasına rağmen faaliyetlerini ağırlıklı olarak düşük maliyetli borçlanma yoluyla sürdüren şirketlere ne ad verilir?
+answer: Zombi şirketi
+wrong_answers:
+  - Hayalet şirket
+  - Vampir şirketi
+  - Hayalet şirket
+explanation: |
+  Bir zombi şirket, normal piyasa koşulları altında
+  iflas etmiş veya iflasın eşiğine gelmiş olsa da, faaliyetlerini ağırlıklı olarak düşük maliyetli
+  ödünç alıyorum.
+reviewed: false

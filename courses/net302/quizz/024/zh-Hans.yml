@@ -1,0 +1,9 @@
+question: TCP 协议在 TCP/IP 模型中的主要作用是什么？
+answer: 确保数据传输可靠有序
+wrong_answers:
+  - 加密网络通信
+  - 为机器分配 IP 地址
+  - 物理层数据报碎片
+explanation: |
+  TCP 通过验证完整性、维护秩序和处理丢失时的恢复，确保可靠的数据传输。
+reviewed: false

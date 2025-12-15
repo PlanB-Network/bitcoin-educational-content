@@ -1,12 +1,10 @@
-question: Koji je matematički koncept zasnovan na ljudskoj racionalnosti i koristi se u Bitkoinu?
-answer: Teorija igara.
+question: Kolika je BTC nagrada nakon četvrtog Halving-a?
+answer: 3.125 BTC.
 wrong_answers:
-  - Teorija verovatnoće.
-  - Teorija brojeva.
-  - Teorija skupova.
+  - 1.5625 BTC.
+  - 6.25 BTC.
+  - 12.5 BTC.
 explanation: |
-  Teorija igara je matematički koncept koji se zasniva na
-  ljudskoj racionalnosti. U Bitkoinu, promene protokola se
-  sprovode od strane korisnika, što čini bilo kakvu modifikaciju Bitkoin
-  protokola veoma složenom.
+  Nakon četvrtog Halving-a, koji se dešava na visini bloka
+  840,000, BTC nagrada za rudarenje je 3.125 BTC.
 reviewed: true

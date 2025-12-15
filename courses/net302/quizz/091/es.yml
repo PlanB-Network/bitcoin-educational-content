@@ -1,0 +1,9 @@
+question: ¿Qué comando se utiliza para escanear los puertos abiertos de un host e identificar los servicios accesibles?
+answer: nmap
+wrong_answers:
+  - dig
+  - ethtool
+  - relincho ip
+explanation: |
+  nmap detecta puertos abiertos, servicios expuestos y, a veces, el tipo de sistema operativo remoto.
+reviewed: false

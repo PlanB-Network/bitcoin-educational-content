@@ -1,0 +1,9 @@
+question: Istilah apa yang merujuk pada tiga byte pertama dari MAC Address?
+answer: OUI (Pengenal Unik Organisasi)
+wrong_answers:
+  - SID (Pengidentifikasi Sesi)
+  - LUI (Pengenal Unik Lokal)
+  - PAN (Nomor Address Fisik)
+explanation: |
+  OUI ditetapkan oleh IEEE dan mengidentifikasi produsen kartu jaringan dalam MAC Address.
+reviewed: false

@@ -1,0 +1,10 @@
+description: |
+  LNbits is een gratis en open-source Bitcoin Lightning Accountsysteem met uitbreidingen. Je kunt er je eigen Lightning Network accountsysteem mee opzetten, voor jezelf, vrienden en familie, of voor de hele wereld. LNbits ondersteunt verschillende Lightning Network financieringsbronnen, waaronder LND, c-lightning, Spark, LNpay, OpenNode, lntxbot en meer.
+  
+  Met LNbits kun je meerdere accounts of wallets aanmaken en heb je toegang tot een breed scala aan extensies die zijn gebouwd door bijdragers. Met deze extensies kun je functionaliteiten toevoegen zoals faucets, paylinks, deelbare verkooppunten, paywalls, tickets voor evenementen, dobbelspellen, serverdiensten en zelfs een deelbare jukebox, naast vele andere. LNbits biedt een eenvoudige API die verbinding kan maken met meerdere knooppunten en financieringsbronnen, waardoor het eenvoudig te integreren is in je bestaande stack.
+  
+  Een van de voordelen van LNbits is dat je het direct en rechtstreeks in je browser kunt gebruiken, zonder dat je extra applicaties hoeft te downloaden. Het maakt gebruik van Quasar en VueJS frameworks voor de frontend, wat zorgt voor krachtige en responsieve gebruikersinterfaces. Aan de achterkant gebruikt LNbits FastAPI, een modern en krachtig Python API framework.
+  
+  Om aan de slag te gaan met LNbits kun je de GitHub documentatie, YouTube tutorials en de Awesome LNbits resource bekijken. De LNbits-gemeenschap is actief en ondersteunend en biedt een Telegram-groep voor gebruikers en ontwikkelaars om ideeën te Exchange, hulp te bieden en bij te dragen aan de ontwikkeling van deze gratis en open-source software.
+  
+  LNbits biedt een flexibele en uitbreidbare oplossing voor het beheren van Lightning Network accounts en het integreren van verschillende functionaliteiten via het uitbreidingsraamwerk.

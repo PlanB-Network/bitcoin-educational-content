@@ -1,0 +1,4 @@
+description: |
+  ThunderHub, Lightning düğümünüzü herhangi bir cihazdan yönetmenize ve izlemenize olanak tanıyan açık kaynaklı bir platformdur.
+  
+  Temel özelliklerden bazıları hem Lightning hem de On-Chain ödemeleri gönderme ve alma, yeniden dengeleme seçenekleri, ana sayfadan LN-pay ve LN-withdraw kullanımı ve optimum likidite için kanalları yönetmeyi içerir. ThunderHub, BTCPay, RaspiBlitz, MyNode, Voltage, Umbrel ve Start9'un EmbassyOS'u ile entegre edilmiştir ve en son LND düğüm sürümlerini desteklemektedir. Platform ayrıca işlem raporları ve iletilen ödemelerin ayrıntılarını sağlar ve kullanıcı rahatlığı için hem Gece/Gündüz Modu sunar.

@@ -1,0 +1,9 @@
+question: Satoshi 나카모토가 Bitcoin을 처음 디자인할 때 가장 큰 영감을 받은 것은 무엇인가요?
+answer: eCash(데이비드 차움)
+wrong_answers:
+  - 비머니(웨이 다이)
+  - 비트 골드(닉 사보)
+  - RPOW(할 피니)
+explanation: |
+  매우 유사함에도 불구하고 Satoshi의 주요 영감은 비머니, 비트 골드, RPOW 모델이 아니었는데, 그 이유는 2008년 8월 이전에는 이 모델들을 알지 못했기 때문입니다.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Berkedip
+name: Blink
 description: Tutorial Lengkap Blink Wallet - Kirim, Terima, dan Gunakan Bitcoin dengan Mudah
 ---
 

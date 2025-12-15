@@ -1,0 +1,9 @@
+question: Koji je fajl istorijski korišćen za lokalno razrešavanje pre pojave globalnog DNS-a?
+answer: /etc/hosts
+wrong_answers:
+  - /etc/dns
+  - /etc/network
+  - /etc/resolve
+explanation: |
+  Pre nego što je DNS postao rasprostranjen, razrešavanje imena se oslanjalo na statički /etc/hosts fajl na Unix/Linux sistemima.
+reviewed: false

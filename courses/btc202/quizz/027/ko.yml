@@ -1,0 +1,9 @@
+question: SPV 노드의 특별한 점은 무엇인가요?
+answer: 블록 헤더만 유지합니다
+wrong_answers:
+  - Genesis 블록 이후 전체 Blockchain을 유지합니다
+  - 가장 최근 블록만 저장합니다
+  - Blockchain가 아닌 UTXO 세트만 유지됩니다
+explanation: |
+  SPV 노드는 전체 데이터를 저장하지 않고 블록 헤더와 머클 증명을 통해 트랜잭션을 검증합니다.
+reviewed: true

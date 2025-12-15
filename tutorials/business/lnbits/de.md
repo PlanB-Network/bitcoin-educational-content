@@ -460,7 +460,7 @@ Wenn Sie neu im Bauen sind, beginnen Sie mit dieser [MakerBits-Präsentation] (h
 - Durch Hinzufügen von lightning:lnurl1234xyz wird ein QR erstellt, der beim Scannen die Brieftasche des Benutzers für diese Rechnung öffnet (zuletzt installierte Lightning-App auf iOS, Einstellung in Android)
 - Wenn Sie einen esp32 über das Internet flashen, funktioniert das nur mit diesen Browsern (TL:DR Chrome, Edge & Opera).
 - Bitte beachten Sie diese PIN-OUT-Referenz für die esp
-- Wenn Sie FOSSoftware oder FOSGuides verwenden, verlinken Sie bitte immer den Autor. Jeder liebt es, sein Baby wachsen zu sehen und es initiiert auch eine Baukette, die ziemlich toll zu beobachten ist :)
+- Wenn Sie FOSSoftware oder FOSGuides verwenden, verlinken Sie bitte immer den Autor. Jeder liebt es, sein Baby wachsen zu sehen und es initiiert auch eine Baukette, die ziemlich toll zu beobachten ist:)
 
 Komm zur [Makerbits Telegram Group] (https://t.me/makerbits), wenn du Hilfe bei einem Projekt brauchst - wir haben dich!
 

@@ -1,0 +1,9 @@
+question: Bitcoin sisteminde özel anahtarın birincil rolü nedir?
+answer: Bir komut dosyasını karşılamak için işlemleri imzalayın
+wrong_answers:
+  - Bitcoin almak için bir tanımlayıcı olarak hizmet edin
+  - Fonları Blockchain'de güvenli bir şekilde saklayın
+  - Bitcoinleri korumak için kilitleme komut dosyaları oluşturun
+explanation: |
+  Özel anahtar, bir komut dosyasını karşılamak ve bitcoinlerin kilidini açmak için işlemleri imzalamak için kullanılır.
+reviewed: false

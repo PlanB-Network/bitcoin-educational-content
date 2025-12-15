@@ -1,0 +1,9 @@
+question: Kus on kõige aktiivsem Umbreli kogukond?
+answer: Discordis ja veebifoorumis
+wrong_answers:
+  - Instagramis
+  - LinkedInis ja veebifoorumis
+  - IRCs
+explanation: |
+  Umbrelil on väga aktiivne kogukond Discordis ja veebifoorumis, kus kasutajad Exchange abi ja tuge pakuvad.
+reviewed: true

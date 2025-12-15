@@ -1,0 +1,9 @@
+question: Vad är syftet med serviceprimitiver i TCP/IP-modellen?
+answer: Hantera utbyten mellan lager
+wrong_answers:
+  - Automatisk kryptering av nätverksmeddelanden
+  - Distribuera IP-adresser till fjärrvärdar
+  - Kontrollera den totala längden på IP-paketen
+explanation: |
+  Tjänsteprimitiver definierar kommunikationen Interface mellan de olika lagren, vilket gör det möjligt att upprätta, underhålla eller avsluta nätverksutbyten.
+reviewed: false

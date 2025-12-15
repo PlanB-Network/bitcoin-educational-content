@@ -1,13 +1,11 @@
-question: Kusudi la kuunda mpango wa urithi wa bitcoins zako ni nini?
-answer: Ili kuhakikisha kuwa bitcoins zako zitasimamiwa ipasavyo baada ya kifo chako.
+question: Blockmit ni nini katika muktadha wa usalama wa Bitcoin?
+answer: Suluhisho la gharama nafuu la kuchonga maneno yako ya Mnemonic kwenye kipande cha chuma.
 wrong_answers:
-  - Ili kuzuia ushuru kwenye bitcoins zako.
-  - Ili kupunguza thamani ya bitcoins zako.
-  - Ili kuzuia bitcoins zako zisiibiwe.
+  - Aina ya Bitcoin Wallet ya kusaini shughuli nyingi kwa wakati mmoja.
+  - Suluhisho la gharama nafuu la kuchimba bitcoins nyumbani.
+  - Aina ya Bitcoin Wallet ambayo inahitaji sahihi nyingi ili kutumia UTXO.
 explanation: |
-  Mpango wa urithi unahakikisha kuwa bitcoins zako zitakuwa
-  kusimamiwa ipasavyo baada ya kifo chako. Inaweza kujumuisha a
-  barua iliyoandikwa kwa mkono inayoelezea mali yako, ufikiaji wao
-  mbinu, na maelezo ya mawasiliano ya watu wanaoaminika
-  kuwasiliana.
+  Blockmit ni suluhisho la gharama nafuu la kuchonga yako
+  Maneno ya Mnemonic kwenye nyenzo sugu kama chuma, kwa hivyo
+  kupata bitcoins zako kwa muda mrefu.
 reviewed: true

@@ -1,13 +1,9 @@
-question: Waarom werd goud het standaardmedium van Exchange?
-answer: Vanwege zijn zeldzaamheid, duurzaamheid en deelbaarheid.
+question: Waarom is goud geen draagbaar materiaal?
+answer: Omdat het dicht en zwaar is, is het onhandig om in grote hoeveelheden te dragen.
 wrong_answers:
-  - Vanwege de overvloed, duurzaamheid en ondeelbaarheid.
-  - Vanwege de zeldzaamheid, bederfelijkheid en deelbaarheid.
-  - Vanwege de overvloed, bederfelijkheid en ondeelbaarheid.
+  - Omdat het te waardevol is om te worden verplaatst.
+  - Omdat het niet gemakkelijk in kleinere vormen kan worden gegoten.
+  - Omdat het een Liquid is bij kamertemperatuur.
 explanation: |
-  Goud werd het standaardmedium van Exchange vanwege zijn
-  zeldzaamheid, duurzaamheid en deelbaarheid: de zeldzaamheid voorkwam
-  devaluatie door productie; de duurzaamheid
-  zorgde ervoor dat het na verloop van tijd niet zou eroderen, en de deelbaarheid
-  maakte het gebruik in transacties van verschillende grootte mogelijk.
+  Goud is dicht en zwaar, wat betekent dat het fysiek lastig kan zijn om grote hoeveelheden te vervoeren. Dit gewicht maakt het minder geschikt voor transport in vergelijking met lichtere materialen.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste zwakte van een ringnetwerk?
+answer: Het uitvallen van een enkel apparaat kan het hele netwerk onderbreken
+wrong_answers:
+  - Er zijn veel kabels nodig om elk apparaat aan te sluiten
+  - Het is moeilijk om uit te breiden
+  - Het beheer ervan is complex
+explanation: |
+  In een ringtopologie verbreekt het falen van één apparaat de lus en voorkomt het dat gegevens circuleren.
+reviewed: false

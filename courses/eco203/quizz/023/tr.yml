@@ -1,0 +1,9 @@
+question: Comte ve Dunoyer'e göre çatışma halindeki sınıflar nelerdir?
+answer: Vergi ödeyenler ve onların sırtından geçinenler
+wrong_answers:
+  - İşçiler ve işverenler
+  - Burjuvazi ve proleterler
+  - Tüccarlar ve zanaatkarlar
+explanation: |
+  Comte ve Dunoyer, sınıf çatışmasını vergiler yoluyla finanse eden üreticiler ile bunlardan yararlanan üretici olmayanlar arasında görmektedir.
+reviewed: false

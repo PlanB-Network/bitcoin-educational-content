@@ -1,0 +1,9 @@
+question: Welcher Befehl zeigt den Weg an, den die Pakete nehmen, um ein IP-Ziel zu erreichen?
+answer: traceroute
+wrong_answers:
+  - ss
+  - arp
+  - tcpdump
+explanation: |
+  traceroute zeigt jeden Zwischenrouter zwischen Sender und Ziel unter Verwendung der TTL an.
+reviewed: false

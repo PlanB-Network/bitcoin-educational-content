@@ -1,0 +1,9 @@
+question: Bitcoin ödeme ekosisteminin çözümler arasında geçiş yapma açısından en önemli avantajı nedir?
+answer: Sağlayıcıları değiştirmek veya araçları yükseltmek nispeten kolaydır, çünkü Bitcoin'in açık, birlikte çalışabilir standartları sorunsuz fon transferlerine izin verir.
+wrong_answers:
+  - Bir sağlayıcı seçildikten sonra, işletme asla başka bir çözüme geçemez.
+  - Bitcoin çözümleri tescilli ve tek bir satıcıya kilitlenmiş durumda.
+  - Sağlayıcıların değiştirilmesi için hükümet onayı ve uzun bir yasal süreç gerekmektedir.
+explanation: |
+  Bitcoin açık protokoller üzerine inşa edildiğinden, tüccarlar büyüdükçe veya ihtiyaçları değiştikçe fonlarını taşımakta veya yeni çözümler benimsemekte özgürdür. Bu esneklik, işletmelerin satıcı kilitlenmesi olmadan en iyi araçları seçebilmelerini sağlar.
+reviewed: false

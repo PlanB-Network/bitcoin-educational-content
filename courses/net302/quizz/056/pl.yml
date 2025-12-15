@@ -1,0 +1,9 @@
+question: Jaki jest główny cel łączenia sieci?
+answer: Agregacja wielu fizycznych interfejsów sieciowych
+wrong_answers:
+  - Dodawanie wirtualnych adresów IP do sieci lokalnej
+  - Tworzenie mostu Wi-Fi
+  - Zmniejszenie rozmiaru pakietów na kablu RJ45
+explanation: |
+  Łączenie sieci łączy wiele fizycznych interfejsów w jeden logiczny, zapewniając redundancję lub zwiększoną przepustowość.
+reviewed: false

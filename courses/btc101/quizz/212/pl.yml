@@ -1,12 +1,9 @@
-question: Jak ten kurs opisuje Bitcoin?
-answer: Temat interdyscyplinarny.
+question: Co ten kurs sugeruje na temat przyszłości Bitcoina?
+answer: Bitcoin nie zniknie.
 wrong_answers:
-  - Prosty temat.
-  - Przedmiot fizyczny.
-  - Przedmiot jednodyscyplinarny.
+  - Zostanie zastąpiony lepszą technologią.
+  - Zostanie zakazany na całym świecie.
+  - Straci swoją wartość.
 explanation: |
-  Bitcoin jest opisywany jako temat multidyscyplinarny, ponieważ
-  porusza kwestie związane z różnymi dziedzinami, w tym
-  kryptografia, teoria gier, ekonomia i polityka pieniężna,
-  informatyki, filozofii, energetyki, prawa i regulacji.
+  Tekst kursu sugeruje, że Bitcoin nie zniknie. Wręcz przeciwnie, rewolucja dopiero się rozpoczęła.
 reviewed: true

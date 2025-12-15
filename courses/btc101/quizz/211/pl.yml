@@ -1,8 +1,10 @@
-question: Do jakich działań Bitcoin zmusza firmy, uniwersytety, organy regulacyjne i osoby prywatne?
-answer: Aby wziąć to pod uwagę.
+question: Jaka jest natura adopcji Bitcoina opisana w tym kursie?
+answer: Wirusowa.
 wrong_answers:
-  - Zignorować to.
-  - Aby go zakazać.
-  - Uznanie tego za przestępstwo.
-explanation: >-
+  - Powolna i stabilna.
+  - Gwałtowna i niekontrolowana.
+  - Sporadyczna i nieprzewidywalna.
+explanation: |
+  Tekst kursu opisuje przyjęcie Bitcoina jako wirusowe,
+  sugerując, że rozprzestrzenia się on szybko od jednej osoby do drugiej, podobnie jak wirus, ale dobry.
 reviewed: true

@@ -1,9 +1,9 @@
-question: Mis oli bloki sõja tulemus 2017. aastal?
-answer: Kasutajad ja noodid lükkasid tagasi ettepaneku suurendada bloki suurust ning aktiveerisid uuenduse nimega SegWit
+question: Kuidas kaevurid oma töö eest tasu saavad?
+answer: Kaevurid saavad tasu läbi ploki sees sisalduva preemia ja tehingutasude kaudu.
 wrong_answers:
-  - Kasutajad ja noodid aktsepteerisid ettepaneku suurendada bloki suurust ning aktiveerisid uuenduse nimega SegWit
-  - Kasutajad ja noodid lükkasid tagasi ettepaneku suurendada bloki suurust ega aktiveerinud ühtegi uuendust
-  - Kasutajad ja noodid aktsepteerisid ettepaneku suurendada bloki suurust ega aktiveerinud ühtegi uuendust
+  - Kaevurid saavad tasu Bitcoin võrgustikult.
+  - Kaevurid saavad oma töö eest fikseeritud palka.
+  - Kaevurid kompenseeritakse uute bitcoinidega.
 explanation: >-
-  Bloki sõjas 2017. aastal saavutasid kasutajad ja noodid võidu, lükates tagasi ettepaneku suurendada bloki suurust ning aktiveerides uuenduse nimega SegWit.
+  Kui kaevur edukalt kaevandab ploki, saavad nad preemiana uusi bitcoine. See preemia on lisatud plokki, mille nad kaevandasid. Lisaks saavad kaevurid ka tehingutasusid tehingutelt, mis on plokis sisalduvad.
 reviewed: false

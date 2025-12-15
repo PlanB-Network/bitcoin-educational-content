@@ -1,0 +1,9 @@
+question: Vilken är den största fördelen med en busstopologi?
+answer: Låg installationskostnad
+wrong_answers:
+  - Hög redundans
+  - Låg latenstid
+  - Hög tillgänglighet
+explanation: |
+  Bussen förlitar sig på ett enda fysiskt medium, vilket sänker installationskostnaderna men också introducerar en enda felpunkt.
+reviewed: false

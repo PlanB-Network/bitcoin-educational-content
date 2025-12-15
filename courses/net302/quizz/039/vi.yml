@@ -1,0 +1,9 @@
+question: Sự khác biệt chính giữa IPv4 Address công cộng và IPv4 Address riêng tư là gì?
+answer: Address công khai là duy nhất và có thể định tuyến trên Internet
+wrong_answers:
+  - Address riêng tư là duy nhất và có thể định tuyến trên Internet
+  - Một Address công khai luôn được DHCP chỉ định
+  - Một Address riêng tư luôn được DHCP chỉ định
+explanation: |
+  Địa chỉ IPv4 Address công cộng là duy nhất trên toàn cầu và có thể định tuyến trên Internet, trong khi địa chỉ Address riêng tư chỉ có hiệu lực trong mạng cục bộ.
+reviewed: false

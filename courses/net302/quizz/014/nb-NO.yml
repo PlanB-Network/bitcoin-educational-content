@@ -1,0 +1,9 @@
+question: Hva er hovedformålet med IPv5 (Stream Protocol, ST)?
+answer: Sikring av tjenestekvalitet for visse strømmer
+wrong_answers:
+  - Utvide IP-adresseringskapasiteten
+  - Tilbyr bakoverkompatibilitet med IPv6
+  - Redusere størrelsen på TCP/IP-nettverkspakker
+explanation: |
+  IPv5 (ST) ble utviklet for å levere tjenestekvalitet (QoS) for multimediastrømmer, for eksempel VoIP, ved å garantere båndbredde og prioritet.
+reviewed: false

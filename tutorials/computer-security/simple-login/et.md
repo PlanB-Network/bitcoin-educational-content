@@ -1,5 +1,5 @@
 ---
-name: Lihtne sisselogimine
+name: Simple Login
 description: Pseudonimede abil kaitstud identiteet
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ Kui kasutate igal sisselogimisel oma isiklikku e-posti Address, on lihtne ette k
 Avatud lähtekoodiga tööriistade arendajad on loonud rea rakenduste komplekte, mis on sündinud just selleks, et kasutajad saaksid natuke privaatsust tagasi: nad logivad endiselt sisse, kuid kasutavad oma isiklikku identiteeti paljastava tööriista asemel aliase.
 
 
-Kõige lihtsam neist, mida ma isiklikult olen proovinud ja veel katsetan, on [Simple Login](https://simplelogin.io/).
+Kõige lihtsam neist, mida olen isiklikult proovinud ja mida endiselt testin, on just [Simple Login](https://simplelogin.io/).
 
 
 ## Alias

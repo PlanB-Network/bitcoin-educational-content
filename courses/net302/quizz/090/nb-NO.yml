@@ -1,0 +1,9 @@
+question: Når brukes -u-alternativet i lsof?
+answer: Slik filtrerer du etter bruker
+wrong_answers:
+  - For å tvinge frem DNS-oppløsning
+  - Slik viser du åpne porter
+  - Slik angir du en DNS-server
+explanation: |
+  Alternativet -u i lsof begrenser utdataene til filer som er åpnet av en bestemt bruker eller UID.
+reviewed: false

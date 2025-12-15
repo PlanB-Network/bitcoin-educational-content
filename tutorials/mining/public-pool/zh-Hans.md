@@ -1,5 +1,5 @@
 ---
-name: 公共矿池
+name: Public Pool
 description: 公共矿池介绍
 ---
 

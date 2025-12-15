@@ -1,0 +1,9 @@
+question: Vad heter den dataenhet som utväxlas vid Application Layer (TCP/IP)?
+answer: Meddelande
+wrong_answers:
+  - Ram
+  - Segment
+  - Datagram
+explanation: |
+  I TCP/IP-modellen kallas data som utväxlas vid Application Layer för meddelanden (eller strömmar, beroende på sammanhanget).
+reviewed: false

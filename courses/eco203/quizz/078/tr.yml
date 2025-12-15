@@ -1,0 +1,9 @@
+question: Bastiat'ya göre toplumsal ilerlemede bireysel sorumluluğun rolü nedir?
+answer: Bireyleri tedbirli ve ihtiyatlı olmaya teşvik eder
+wrong_answers:
+  - Bireyler arasında rekabeti teşvik eder
+  - Devletin herkesin iyiliği için kararlar almasını sağlar
+  - Kişisel gelişim olanaklarını sınırlar
+explanation: |
+  Bastiat, herkesin eylemlerinin sonuçlarına katlanması gerektiğinden, bireysel sorumluluğun tedbir ve ihtiyata yol açtığını, bunun da daha düşünceli ve sorumlu davranışları teşvik ettiğini savunur.
+reviewed: false

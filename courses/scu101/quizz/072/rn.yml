@@ -1,0 +1,9 @@
+question: Ubutunganyirizo bw’ijambo ry'ibanga ni iki?
+answer: Igikoresho kibika, kirema, kigatunganya amajambo y’ibanga.
+wrong_answers:
+  - Porogarame ikingira umugera(nyabwonko) ikagwanya ibitero vy'abatwinjirira.
+  - Serivisi ya imeyiri irinzwe.
+  - Igikoresho co gucungera amakuru y’akaranga k’umuntu.
+explanation: |
+  Ubutunganyirizo bw’ijambo ry'ibanga bushira hamwe ububiko n’uguhingura amajambo y'ibanga.
+reviewed: true

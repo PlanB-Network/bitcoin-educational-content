@@ -1,0 +1,10 @@
+question: Ni igiki kibi kiri mu kwishura mu gacerere ugereranyije na BIP47?
+answer: Uwuronka amakuru ategerezwa gucapura hafi Blockchain yose.
+wrong_answers:
+  - Bo generate amafaranga menshi y’ugucuruza ku wurungitse.
+  - Bigabanya igitigiri c’ibintu bishobora gukoreshwa.
+  - Ntibamenyekana cane.
+explanation: |
+  Mu Exchange ku bijanye no guhagarika ibikorwa vy’imenyekanisha, uwuronka ategerezwa gupima ibikorwa vyose vya Bitcoin vyubahiriza ingingo ngenderwako kugira ngo agerageze kuronka amahera yarungikiwe.
+  
+reviewed: false

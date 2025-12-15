@@ -1,0 +1,9 @@
+question: IPv6 Address 中使用什麼符號來表示前綴大小？
+answer: CIDR
+wrong_answers:
+  - 點分十進制網路遮罩
+  - 以冒號分隔的十六進位
+  - ICANN
+explanation: |
+  CIDR 符號指定斜線之後的固定前綴位元數，就像 IPv4 中一樣。
+reviewed: false

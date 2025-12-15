@@ -1,9 +1,9 @@
-question: Qual foi a taxa de inflação no Zimbábue em novembro de 2008?
-answer: 79.600.000.000%
+question: Qual é o comando para verificar a quantidade de bitcoins em circulação em um nó Bitcoin?
+answer: bitcoin-cli gettxoutsetinfo.
 wrong_answers:
-  - 796%
-  - 79.600.000.000.000.000%
-  - 100%
+  - bitcoin-cli getblockchaininfo.
+  - bitcoin-cli getwalletinfo.
+  - bitcoin-cli getnetworkinfo.
 explanation: |
-  Em novembro de 2008, a taxa de inflação mensal da moeda do Zimbábue atingiu o pico de 79.600.000.000%, o que desvalorizou completamente o dólar zimbabuano para 0.
+  O comando para verificar a quantidade de bitcoins em circulação em um nó Bitcoin é bitcoin-cli gettxoutsetinfo. Este comando fornece transparência e verificabilidade, fortalecendo a confiança no sistema Bitcoin.
 reviewed: true

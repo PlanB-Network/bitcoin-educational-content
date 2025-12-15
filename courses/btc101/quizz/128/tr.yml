@@ -1,0 +1,8 @@
+question: Bitcoin ağındaki zorluk ayarlamasının işlevi nedir?
+answer: Yaklaşık her on dakikada bir Blockchain'e bir blok eklenmesini sağlar.
+wrong_answers:
+  - Bitcoin'nin fiyatını belirler.
+  - Blockchain'te çıkarılabilecek bitcoin sayısını düzenler.
+  - Bir bloğun boyutunu belirler.
+explanation: >-
+reviewed: true

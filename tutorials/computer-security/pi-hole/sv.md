@@ -54,7 +54,7 @@ Så varje gång du anger namnet på en webbplats i din webbläsare eller klickar
 
 
 
-**Pi-Hole kommer sedan att inspektera dessa förfrågningar (det finns hundratals varje dag!) och automatiskt blockera dem som är kända för att vara värd för reklam eller till och med skadliga filer
+**Pi-Hole kommer sedan att inspektera dessa förfrågningar (det finns hundratals varje dag!) och automatiskt blockera dem som är kända för att vara värd för reklam eller till och med skadliga filer**
 
 
 
@@ -62,7 +62,7 @@ Så varje gång du anger namnet på en webbplats i din webbläsare eller klickar
 
 
 
-Med ett namn som Pi-Hole kan man med rätta anta att man behöver en Raspberry-Pi... Men det är inte riktigt sant. **Pi-Hole kan installeras på vilken Linux-dator som helst (Debian, Fedora, Rocky, Ubuntu, etc.)
+Med ett namn som Pi-Hole kan man med rätta anta att man behöver en Raspberry-Pi... Men det är inte riktigt sant. **Pi-Hole kan installeras på vilken Linux-dator som helst (Debian, Fedora, Rocky, Ubuntu, etc.).**
 
 
 
@@ -84,7 +84,7 @@ curl -sSL https://install.pi-hole.net | bash
 >
 
 
-> **Note: På minimala versioner av Debian 11 är Curl inte installerat, så du måste installera det manuellt med kommandot **apt-get install curl** innan du skriver ovanstående kommando.
+> **Note: På minimala versioner av Debian 11 är Curl inte installerat, så du måste installera det manuellt med kommandot** `apt-get install curl` **innan du skriver ovanstående kommando.**
 
 När skriptet har körts kommer en rad tester att utföras och själva installationen sköter sig själv:
 
@@ -124,7 +124,7 @@ Val av DNS - Pi-Hole
 
 
 
-> **Om du arbetar på ett företag är det troligt att din nuvarande DNS-server är Active Directory-domänkontrollanten. Men oroa dig inte, du kan senare ange en villkorlig omdirigering för en domän som du själv väljer. Vanligtvis kan du omdirigera alla förfrågningar som rör din lokala domän till din DNS-server.
+> **Om du arbetar på ett företag är det troligt att din nuvarande DNS-server är Active Directory-domänkontrollanten. Men oroa dig inte, du kan senare ange en villkorlig omdirigering för en domän som du själv väljer. Vanligtvis kan du omdirigera alla förfrågningar som rör din lokala domän till din DNS-server.**
 
 Du kommer att märka att vissa val inkluderar ett DNSSEC-alternativ. I grund och botten är DNS-protokollet inte säkert (det utformades inte med detta i åtanke vid den tiden). DNSSEC löser detta problem genom att lägga till en Layer av säkerhet genom kryptering och signering av utbyten, vilket förklaras i motsvarande artikel: [DNS-säkerhet](https://www.it-connect.fr/securite-dns-doh-quest-ce-le-dns-over-https/)
 
@@ -218,7 +218,7 @@ När detta har gjorts, om några enheter har slagits på tidigare, kommer de att
 
 
 
-På Windows-arbetsstationer, med en kommandotolk :
+På Windows-arbetsstationer, med en kommandotolk:
 
 
 
@@ -228,7 +228,7 @@ ipconfig /renew
 
 
 
-På en Linux-arbetsstation :
+På en Linux-arbetsstation:
 
 
 
@@ -252,7 +252,7 @@ ipconfig /all
 
 
 
-I DNS-fältet ska du ha Address för din Pi-Hole, i mitt fall 192.168.1.42 :
+I DNS-fältet ska du ha Address för din Pi-Hole, i mitt fall 192.168.1.42:
 
 
 
@@ -264,7 +264,7 @@ I DNS-fältet ska du ha Address för din Pi-Hole, i mitt fall 192.168.1.42 :
 
 
 
-För att underlätta administrationen har **Pi-Hole** en väl utformad Interface webb Interface. Den är användarvänlig och tillgänglig och låter dig :
+För att underlätta administrationen har **Pi-Hole** en väl utformad Interface webb Interface. Den är användarvänlig och tillgänglig och låter dig:
 
 
 
@@ -286,7 +286,7 @@ För att lägga till det, anslut först till Interface-admin: **http://<ip_du_Pi
 
 
 
-Administratörslösenordet har redan genererats (se skärmdump efter avslutad installation), så du behöver bara ange det för att komma åt Interface :
+Administratörslösenordet har redan genererats (se skärmdump efter avslutad installation), så du behöver bara ange det för att komma åt Interface:
 
 
 
@@ -322,7 +322,7 @@ Lägga till en lista i Pi-Hole
 
 
 
-Allt som återstår är att klicka på "**Add**" för att lägga till den. För att aktivera det måste vi utföra ytterligare ett steg för att "varna" Pi-Hole för att ta över den här listan. För att göra detta :
+Allt som återstår är att klicka på "**Add**" för att lägga till den. För att aktivera det måste vi utföra ytterligare ett steg för att "varna" Pi-Hole för att ta över den här listan. För att göra detta:
 
 
 

@@ -1,0 +1,9 @@
+question: 原始實作與 node-in-a-box 的主要差異是什麼？
+answer: Interface 和整合應用程式的存在
+wrong_answers:
+  - 網路相容性
+  - 儲存於磁碟的 Blockchain 大小
+  - 使用的通訊協定和貨幣
+explanation: |
+  原始實作只會安裝節點軟體，而 node-in-a-box 則會新增 Interface、App Store 和整合服務。
+reviewed: true

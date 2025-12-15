@@ -1,0 +1,9 @@
+question: Bir sıra numarası güvenli bir iletişim oturumunda ne tür bir saldırıyı önleyebilir?
+answer: Tekrar oynatma ve yeniden sıralama saldırıları
+wrong_answers:
+  - Pasif engelleme saldırıları
+  - Hizmet reddi saldırıları
+  - Anahtar sahtekarlığı saldırıları
+explanation: |
+  Her mesajda bulunan bir sıra numarası, mesajların sırasının ve benzersizliğinin doğrulanmasına izin verdiği için tekrar oynatma ve yeniden sıralama saldırılarını önler.
+reviewed: false

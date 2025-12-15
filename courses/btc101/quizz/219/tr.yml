@@ -1,0 +1,9 @@
+question: Bu bölümde tanımlanan Bitcoin evrimini hangi yaklaşım yapılandırır?
+answer: Katmanlı evrim
+wrong_answers:
+  - Monolitik blokzincir
+  - Yerel sharding
+  - Genelleştirilmiş onchain yürütme
+explanation: |
+  Bitcoin basit ve sağlam bir temel katmanı korurken, üst protokoller belirli işlevler ekler.
+reviewed: false

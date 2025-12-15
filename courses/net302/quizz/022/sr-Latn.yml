@@ -1,0 +1,9 @@
+question: Koja je svrha "ACK" zastavice u TCP segmentu?
+answer: Da se potvrdi prijem segmenata
+wrong_answers:
+  - Za pokretanje zatvaranja veze
+  - Da se šifruje razmena podataka u toku
+  - Da identifikujete korišćeni servisni port
+explanation: |
+  Kada je postavljena, ACK zastavica potvrđuje da je segment uspešno primljen i određuje sledeći očekivani redni broj.
+reviewed: false

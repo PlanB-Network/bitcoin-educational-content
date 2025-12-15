@@ -1,0 +1,9 @@
+question: Vad är det första steget att ta i händelse av en bugg på Umbrel?
+answer: generate ett diagnostikpaket
+wrong_answers:
+  - Installera om Bitcoin core och gör om IBD
+  - Rensa cache
+  - Inaktivera 2FA
+explanation: |
+  Om ett problem uppstår börjar vi med att generera ett diagnostikpaket i felsökningsavsnittet för att analysera problemet och föra ett register.
+reviewed: true

@@ -1,6 +1,6 @@
 ---
-name: Ongeza tukio kwenye PlanB Network
-description: Je, ninapendekezaje kuongeza tukio jipya kwenye PlanB Network?
+name: Ongeza tukio kwenye Plan ₿ Academy
+description: Je, ninapendekezaje kuongeza tukio jipya kwenye Plan ₿ Academy?
 ---
 ![event](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Je, ninapendekezaje kuongeza tukio jipya kwenye PlanB Network?
 Dhamira ya PlanB ni kutoa nyenzo za elimu za kiwango cha juu kwenye Bitcoin katika lugha nyingi iwezekanavyo. Maudhui yote yaliyochapishwa kwenye tovuti ni chanzo-wazi na yamepangishwa kwenye GitHub, yakimpa mtu yeyote fursa ya kuchangia katika uboreshaji wa jukwaa.
 
 
-Ikiwa ungependa kuongeza mkutano wa Bitcoin kwenye tovuti ya PlanB Network na kuongeza mwonekano wa tukio lako, lakini hujui jinsi gani? Mafunzo haya ni kwa ajili yako!
+Ikiwa ungependa kuongeza mkutano wa Bitcoin kwenye tovuti ya Plan ₿ Academy na kuongeza mwonekano wa tukio lako, lakini hujui jinsi gani? Mafunzo haya ni kwa ajili yako!
 
 ![event](assets/01.webp)
 
@@ -16,7 +16,7 @@ Ikiwa ungependa kuongeza mkutano wa Bitcoin kwenye tovuti ya PlanB Network na ku
 - Kwanza, unahitaji kuwa na akaunti kwenye GitHub. Ikiwa hujui jinsi ya kufungua akaunti, tumekuandalia mafunzo ya kina.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![event](assets/03.webp)
 
 
-- Ikiwa hujawahi kuchangia yaliyomo kwenye PlanB Network hapo awali, utahitaji kuunda Fork yako ya hazina asili. Kuunda hazina inamaanisha kuunda nakala ya hazina hiyo kwenye akaunti yako ya GitHub, kukuruhusu kufanya kazi kwenye mradi bila kuathiri hazina asili. Bonyeza kitufe cha `Fork hazina hii`:
+- Ikiwa hujawahi kuchangia yaliyomo kwenye Plan ₿ Academy hapo awali, utahitaji kuunda Fork yako ya hazina asili. Kuunda hazina inamaanisha kuunda nakala ya hazina hiyo kwenye akaunti yako ya GitHub, kukuruhusu kufanya kazi kwenye mradi bila kuathiri hazina asili. Bonyeza kitufe cha `Fork hazina hii`:
 
 ![event](assets/04.webp)
 
@@ -55,7 +55,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![event](assets/08.webp)
 
 
-- Jaza faili hii habari kuhusu mkutano wako kwa kutumia kiolezo hiki:
+- Jaza faili hii habari kuhusu mkutano wako kwa kutumia kielelezo hiki:
 
 
 ```yaml
@@ -65,7 +65,7 @@ address_line_1:
 address_line_2:
 address_line_3:
 name:
-builder:
+project:
 type: conference
 book_online: false
 book_in_person: false
@@ -92,7 +92,7 @@ address_line_1: Paris, France
 address_line_2:
 address_line_3:
 name: Paris Bitcoin Conference 2024
-builder: Paris Bitcoin Conference
+project: Paris Bitcoin Conference
 type: conference
 book_online: false
 book_in_person: false
@@ -115,10 +115,10 @@ tags:
 
 ![event](assets/09.webp)
 
-Ikiwa bado huna kitambulisho cha "*mjenzi*" cha shirika lako, unaweza kukiongeza kwa kufuata mafunzo haya mengine.
+Ikiwa bado hauna kitambulisho cha "*mjenzi*" cha shirika lako, unaweza kukiongeza kwa kufuata mafunzo haya mengine.
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 
@@ -153,7 +153,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![event](assets/15.webp)
 
 
-- Unapaswa kuona arifa juu ya dirisha na tawi lako jipya. Pengine inaitwa `kiraka-1`. Bonyeza juu yake:
+- Unapaswa kuona arifa juu ya dirisha na tawi lako jipya. Pengine linaitwa `kiraka-1`. Bonyeza juu yake:
 
 ![event](assets/16.webp)
 
@@ -199,7 +199,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 
 - Bofya kwenye kitufe cha `Ongeza faili`, kisha kwenye `Pakia faili`: ![tukio](assets/25.webp)
-- Ukurasa mpya utafunguliwa. Buruta na uangushe picha inayowakilisha mkutano wako na itaonyeshwa kwenye tovuti ya PlanB Network:
+- Ukurasa mpya utafunguliwa. Buruta na uangushe picha inayowakilisha mkutano wako na itaonyeshwa kwenye tovuti ya Plan ₿ Academy:
 
 ![event](assets/26.webp)
 
@@ -258,10 +258,10 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 ![event](assets/37.webp)
 
-Hongera! PR yako imeundwa. Msimamizi sasa ataiangalia na, ikiwa kila kitu kiko sawa, aiunganishe kwenye hazina kuu ya PlanB Network. Unapaswa kuona tukio lako likionekana kwenye tovuti siku chache baadaye.
+Hongera! PR yako imeundwa. Msimamizi sasa ataiangalia na, ikiwa kila kitu kiko sawa, aiunganishe kwenye hazina kuu ya Plan ₿ Academy. Unapaswa kuona tukio lako likionekana kwenye tovuti siku chache baadaye.
 
 
-Hakikisha unafuata maendeleo ya PR yako. Msimamizi anaweza kuacha maoni akiuliza maelezo ya ziada. Maadamu PR yako haijathibitishwa, unaweza kuishauri kwenye kichupo cha `Vuta maombi` kwenye hazina ya PlanB Network GitHub:
+Hakikisha unafuata maendeleo ya PR yako. Msimamizi anaweza kuacha maoni akiuliza maelezo ya ziada. Maadamu PR yako haijathibitishwa, unaweza kuishauri kwenye kichupo cha `Vuta maombi` kwenye hazina ya Plan ₿ Academy GitHub:
 
 ![event](assets/38.webp)
 

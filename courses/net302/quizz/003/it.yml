@@ -1,0 +1,9 @@
+question: In una topologia bus, qual è il vantaggio principale?
+answer: Basso costo di installazione
+wrong_answers:
+  - Elevata ridondanza
+  - Bassa latenza
+  - Alta disponibilità
+explanation: |
+  Il bus si basa su un unico supporto fisico, che riduce i costi di installazione ma introduce anche un singolo punto di guasto.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 2014년 3월 뉴스위크 기자가 Satoshi 나카모토로 잘못 알아본 템플시티 출신의 통신 엔지니어의 이름은 무엇이었나요?
+answer: Dorian
+wrong_answers:
+  - 프렌티스
+  - Satoshi
+  - Patoshi
+explanation: |
+  그의 정식 이름은 도리안 프렌티스 Satoshi 나카모토였습니다. 그는 일본인이었습니다. 뉴스위크 기사](https: //www.newsweek.com/2014/03/14/face-behind-Bitcoin-247957.html)를 참조하세요.
+reviewed: true

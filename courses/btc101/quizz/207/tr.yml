@@ -1,0 +1,12 @@
+question: Milton Friedman 1999 yılında ne öngörmüştü?
+answer: Güvenilir bir e-nakit geliştirilmesi.
+wrong_answers:
+  - Fiziksel paranın ölümü.
+  - Bitcoin'ın yükselişi.
+  - Devletin para üzerindeki kontrolünün sonu.
+explanation: |
+  Ünlü ekonomist Milton Friedman 1999 yılında şu öngörüde bulunmuştur
+  güvenilir bir e-paranın yakında geliştirileceğini, bir yöntemin
+  bu sayede internet üzerinden A'dan B'ye para transferi yapabilirsiniz,
+  a, B'yi bilmeden ya da tam tersi.
+reviewed: true

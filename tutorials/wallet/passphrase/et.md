@@ -1,5 +1,5 @@
 ---
-name: Passphrase BIP39
+name: BIP-39 Passphrase
 description: Mõistmaks, kuidas paroolilause töötab
 ---
 ![cover](assets/cover.webp)
@@ -29,27 +29,39 @@ Lõpuks on paroolilause kasutamine huvitav, kui soovitakse kontrollida HD rahako
 ## Kuidas valida hea paroolilause?
 Et paroolilause oleks efektiivne, peab see olema piisavalt pikk ja juhuslik. Nagu tugeva parooli puhul, soovitan valida paroolilause, mis on võimalikult pikk ja juhuslik, sisaldades erinevaid tähti, numbreid ja sümboleid, et muuta mis tahes jõuga ründamine võimatuks.
 
+[Trezori 2019. aasta uuringu](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af) kohaselt võiks ründaja, kellel on ligipääs teie seemnfraasile ja kes kasutab AWS-is renditud tippklassi GPU-d (NVIDIA Tesla V100), testida 1 dollari eest ligi 620 miljonit parooli. Võrdluseks: 2019. aasta võimekuse juures maksaks 12 juhusliku väiketähega parooli murdmine keskmiselt **77 miljonit dollarit**.
+
+Soovitan siiski mitte piirduda 12 tähemärgiga. Selle asemel püüdke järgida tugeva parooli praeguseid standardeid: 2025. aastal kasutage vähemalt 13 juhuslikku tähemärki, mis sisaldavad numbreid, väikeseid ja suuri tähti ning sümboleid; või 14 tähemärki, kui kasutate ainult väikeseid ja suuri tähti. Loomulikult soovitan minna veel kaugemale ja kasutada näiteks 20 tähemärgi pikkust pääsõna koos sümbolitega, et olla valmis tulevaste arengute jaoks ja arvestada inimlike riskidega, mida nendes uuringutes ei käsitleta.
+
 On ka oluline korralikult salvestada see paroolilause, samamoodi nagu mnemoonilise fraasi puhul. **Selle kaotamine tähendab juurdepääsu kaotamist teie bitcoine'idele**. Ma soovitan tungivalt mitte jätta seda ainult oma peaga meelde, kuna see suurendab mõttetult kaotuse riski. Ideaalne on kirjutada see füüsilisele kandjale (paberile või metallile) eraldi mnemoonilisest fraasist. See varukoopia peab ilmselgelt olema hoitud erinevas kohas, kus teie mnemooniline fraas on, et vältida mõlema samaaegset kompromiteerimist.
 
 ## Õpetused
 
 Paroolilause seadistamiseks Ledger seadmel (Stax, Flex või Nano), võite konsulteerida selle õpetusega:
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 COLDCARD seadmel:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 Jade Plus seadmel:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 Passport (batch-2) seadmel:
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 Trezor-seadmel (Safe 3, Safe 5 või Model One):
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+SeedSigneril:
+https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa03-4bcf-8308-00c89a74cffe
+SeedSigneril koos Seedkeeperiga:
+https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+
+
+
+
 

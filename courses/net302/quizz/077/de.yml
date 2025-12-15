@@ -1,0 +1,9 @@
+question: Bei welcher Auflösungsmethode muss jede hexadezimale Ziffer des IPv6 Address für die Reverse-Zone umgekehrt werden?
+answer: Auflösung umkehren
+wrong_answers:
+  - Gegensätzliche Auflösung
+  - Primäre Auflösung
+  - Sekundäre Auflösung
+explanation: |
+  Für die umgekehrte Auflösung wird jedes Nibble des vollständigen IPv6 Address umgekehrt und durch Punkte getrennt, bevor es mit ip6.arpa angehängt wird.
+reviewed: false

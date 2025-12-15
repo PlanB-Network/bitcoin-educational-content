@@ -1,12 +1,9 @@
-question: Bitcoin inazua maswali katika nyanja zipi?
-answer: Siri, nadharia ya mchezo, uchumi na sera ya fedha, sayansi ya kompyuta, falsafa, nishati, sheria na udhibiti.
+question: Lengo kuu la Lightning Network ni lipi?
+answer: Kuwezesha malipo ya offchain yaliyo ya haraka na yenye gharama nafuu
 wrong_answers:
-  - Sayansi ya kompyuta tu na uchumi
-  - Fiche pekee na nadharia ya mchezo.
-  - Ni falsafa na nishati tu.
+  - Kuongeza ukubwa wa vitalu vya blockchain ya Bitcoin
+  - Kuchukua nafasi ya blockchain ya Bitcoin hatua kwa hatua kwa mfumo wenye ufanisi zaidi
+  - Kuyafanya mashamba ya uchimbaji kuwa matajiri sana
 explanation: |
-  Bitcoin ni somo la fani nyingi ambalo huibua
-  maswali yanayohusiana na nyanja mbalimbali, ikiwa ni pamoja na
-  kriptografia, nadharia ya mchezo, uchumi na sera ya fedha,
-  sayansi ya kompyuta, falsafa, nishati, sheria, na kanuni.
-reviewed: true
+  Lightning Network inalenga kuwezesha malipo ya bitcoin karibu ya papo hapo kwa ada ndogo, bila kulemea blockchain kuu.
+reviewed: false

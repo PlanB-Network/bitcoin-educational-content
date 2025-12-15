@@ -1,0 +1,9 @@
+question: 根據 Bitcoin 白皮書，Satoshi Nakamoto 提出了什麼解決方案來解決 double-spending 問題？
+answer: 使用時序交易計算證明的點對點分散式時間戳伺服器
+wrong_answers:
+  - 集中式伺服器具有來自多個可信賴機構的臨界值簽章
+  - 固定伺服器的聯盟，每筆交易都必須經過大多數人的同意
+  - 具有中央信任方的盲簽章系統可防止雙重花費
+explanation: |
+  正如 Bitcoin 白皮書所述，Satoshi Nakamoto 特別提出使用「點對點分散式時間戳伺服器來 generate 計算交易時間順序的證明」。關鍵詞是「分散式」，意指沒有中央控制點。錯誤的答案代表早期數位貨幣的失敗嘗試，這些嘗試依賴於集中式或半集中式的方法，這使得它們容易受到審查而失敗 - 這正是 Bitcoin 旨在透過真正的分散式解決的問題。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Czy Spinoza był rodziną?
+answer: Żyd.
+wrong_answers:
+  - Katolik.
+  - Protestant.
+  - Ateista.
+explanation: |
+  Rodzina Spinozy była żydowska. Jego rodzice byli portugalskimi Żydami, którzy uciekli przed inkwizycją i osiedlili się w Amsterdamie, gdzie istniała duża społeczność Żydów sefardyjskich.
+reviewed: false

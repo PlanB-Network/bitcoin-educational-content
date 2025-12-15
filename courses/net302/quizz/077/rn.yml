@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bwo gutorera umuti busaba guhindura umubare wose w’icumi na gatandatu wa IPv6 Address ku bijanye n’aho uhinduye?
+answer: Guhindura umuti
+wrong_answers:
+  - Icegeranyo gihushanye
+  - Umuti w'ibanze
+  - Icegeranyo ca kabiri
+explanation: |
+  Kugira ngo umuntu ashobore gutorera umuti, igihimba cose c’umubiri c’IPv6 Address yuzuye kirahindurwa kigatandukanywa n’utudomo imbere y’uko gisubirwamwo ip6.arpa.
+reviewed: false

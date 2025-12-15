@@ -18,4 +18,4 @@ Punti di connessione iniziali per i nuovi nodi Bitcoin che si uniscono alla rete
 
 I semi DNS sono il secondo metodo, in ordine di priorità, con cui un nodo Bitcoin stabilisce le connessioni. Il primo metodo prevede l'utilizzo del file peers.dat creato dal nodo stesso. Questo file è naturalmente vuoto nel caso di un nuovo nodo, a meno che l'utente non lo abbia modificato manualmente.
 
-> *Nota, i semi DNS non devono essere confusi con i "nodi seme", che sono il terzo modo per stabilire le connessioni
+> *Nota: i semi DNS non devono essere confusi con i "nodi seme", che sono il terzo modo per stabilire le connessioni*

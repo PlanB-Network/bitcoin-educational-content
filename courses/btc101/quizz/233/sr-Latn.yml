@@ -1,8 +1,0 @@
-question: Koja je glavna svrha Lightning mreže?
-answer: Da bi se olakšale mikro-transakcije.
-wrong_answers:
-  - Da bi se povećala vrednost Bitkoina.
-  - Da zameni Bitkoin protokol.
-  - Da biste kreirali novu kriptovalutu.
-explanation: >-
-reviewed: true

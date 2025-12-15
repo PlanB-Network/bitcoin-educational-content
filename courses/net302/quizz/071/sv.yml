@@ -1,0 +1,9 @@
+question: Vilken notation används för att ange prefixstorleken i en IPv6 Address?
+answer: CIDR
+wrong_answers:
+  - Punktdecimal nätmask
+  - Hexadecimal åtskild av kolon
+  - ICANN
+explanation: |
+  CIDR-notationen anger antalet fasta prefixbitar efter ett snedstreck, precis som i IPv4.
+reviewed: false

@@ -1,10 +1,9 @@
-question: Milline on 20% inflatsiooni mõju ostujõule kolme aasta jooksul?
-answer: Kaotate 50% oma ostujõust
+question: Mis on maksimaalne kogus Bitcoini ühikuid, mis kunagi eksisteerida saab?
+answer: 21 miljonit ühikut
 wrong_answers:
-  - Kaotate 100% oma ostujõust
-  - Kaotate 60% oma ostujõust
-  - Kaotate 30% oma ostujõust
+  - 25 miljonit ühikut
+  - 30 miljonit ühikut
+  - 50 miljonit ühikut
 explanation: |
-  20% inflatsiooni korral kaotate peaaegu poole oma ostujõust
-  kolme aasta jooksul.
+  Bitcoini arvutikood ja kõigi protokollis osalevate kasutajate konsensus määravad, et Bitcoini ühikute maksimaalne kogus, mis kunagi eksisteerida saab, on 21 miljonit.
 reviewed: true

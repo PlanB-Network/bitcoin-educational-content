@@ -1,0 +1,9 @@
+question: 網路綁定的主要目的是什麼？
+answer: 聚合多個實體網路介面
+wrong_answers:
+  - 新增虛擬 IP 位址到本機網路
+  - 建立 Wi-Fi 橋接
+  - 減少 RJ45 電纜上的封包大小
+explanation: |
+  網路接合將多個實體介面結合為單一邏輯介面，提供備援或增加頻寬。
+reviewed: false

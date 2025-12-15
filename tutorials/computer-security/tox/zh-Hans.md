@@ -1,5 +1,5 @@
 ---
-name: 毒素
+name: Tox
 description: 在去中心化的 Tox 协议上，无需中介即可开启对话
 ---
 ![cover](assets/cover.webp)
@@ -304,4 +304,4 @@ Tox 协议使用分布式 Hash 表创建分散节点网络。每个 Tox 客户�
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41

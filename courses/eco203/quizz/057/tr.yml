@@ -1,0 +1,9 @@
+question: Mum üreticilerinin taleplerini desteklemek için öne sürdükleri temel argüman nedir?
+answer: Ulusal sanayinin desteklenmesi ihtiyacı
+wrong_answers:
+  - Göz koruması
+  - Mumların güneşe kıyasla üstün kalitesi
+  - Mum üretiminin yüksek maliyeti
+explanation: |
+  Mum üreticileri, Bastiat'nın korumacılığı kınamak için kullandığı bir argüman olan ulusal sanayiyi koruma ihtiyacının taleplerini haklı çıkardığını iddia etmektedir.
+reviewed: false

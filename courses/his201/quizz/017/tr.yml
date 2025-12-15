@@ -1,0 +1,9 @@
+question: Nick Szabo 1998 yılında bit altın kavramını ilk olarak nerede sunmuştur?
+answer: Libtech-l posta listesi
+wrong_answers:
+  - Cypherpunks posta listesi
+  - Kriptografi posta listesi
+  - Extropians posta listesi
+explanation: |
+  Bu, Wei Dai ve Hal Finney gibi şifre kırıcıların ve Larry White ve George Selgin gibi ekonomistlerin yer aldığı özel e-posta listesiydi.
+reviewed: true

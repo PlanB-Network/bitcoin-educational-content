@@ -1,5 +1,5 @@
 ---
-name: بیت‌باکس۰۲
+name: BitBox02
 
 description: راه‌اندازی و استفاده از BitBox02
 ---

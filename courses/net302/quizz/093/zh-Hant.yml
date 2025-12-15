@@ -1,0 +1,9 @@
+question: 哪種工具可以顯示詳細的 DNS 訊息，包括記錄和解析過程？
+answer: 挖掘
+wrong_answers:
+  - 主機
+  - 乒
+  - arp
+explanation: |
+  dig (Domain Information Groper) 提供 DNS 解析的詳細資訊，包括記錄類型。
+reviewed: false

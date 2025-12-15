@@ -1,0 +1,9 @@
+question: IPv6 Address'ın bit uzunluğu nedir?
+answer: 128-bit
+wrong_answers:
+  - 512 bit
+  - 64-bit
+  - 256-bit
+explanation: |
+  IPv4 Address için 32 bit olan IPv6 Address 128 bit uzunluğundadır.
+reviewed: false

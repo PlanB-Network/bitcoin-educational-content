@@ -1,0 +1,9 @@
+question: Iryo shirahamwe rya David Chaum yaciyemwo mu gushitsa iciyumviro ciwe c’amahera y’ubuhinga bwa none ryitwa gute?
+answer: Amafaranga y'Igihugu B.V.
+wrong_answers:
+  - eCash Ltd.
+  - Amafranga yo kuri mudasobwa Inc.
+  - Ishirahamwe rya mbere ry’ivy’impwemu Inc.
+explanation: |
+  DigiCash B.V. yashinzwe mu mwaka w’1990, yari i Amsterdam mu Buholandi, kandi yari ifise uburenganzira bwo gukora ikintu David Chaum yahinguye, ari co eCash.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Have I Been Pwned web sitesi ne yapmanıza izin veriyor?
+answer: Bir e-posta adresinin ele geçirilip geçirilmediğini kontrol edebilirsiniz.
+wrong_answers:
+  - Yeni, güçlü ve rastgele parolalar oluşturur.
+  - Güvenli bir e-posta gelen kutusu oluştur.
+  - Daha kolay kullanım için e-posta hesaplarını senkronize eder.
+explanation: |
+  Bu site, veri ihlallerini tespit etmeye ve bir e-posta adresinin güvenliğini doğrulamaya yardımcı olur.
+reviewed: true

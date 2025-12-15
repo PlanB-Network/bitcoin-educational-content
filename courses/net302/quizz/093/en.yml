@@ -1,0 +1,9 @@
+question: Which tool displays detailed DNS messages, including records and the resolution process?
+answer: dig
+wrong_answers:
+  - host
+  - ping
+  - arp
+explanation: |
+  dig (Domain Information Groper) provides detailed information about DNS resolution, including record types.
+reviewed: false

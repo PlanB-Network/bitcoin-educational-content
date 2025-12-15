@@ -1,0 +1,9 @@
+question: Según el marco de divulgación responsable, ¿cuál es la principal razón estratégica para proporcionar parches de vulnerabilidad a los desarrolladores de altcoin sólo después de que las correcciones se hayan desplegado ampliamente en la red Bitcoin?
+answer: Para evitar que los atacantes exploten la misma vulnerabilidad en Bitcoin mientras se parchean las altcoins
+wrong_answers:
+  - "Mantener la ventaja competitiva de Bitcoin sobre las implementaciones alternativas de criptomoneda"
+  - Para garantizar que los desarrolladores de altcoin dispongan de tiempo suficiente para comprender y aplicar correctamente las correcciones
+  - Para evitar los problemas de responsabilidad jurídica que podrían derivarse de una divulgación prematura a proyectos de terceros
+explanation: |
+  La estrategia temporal refleja un planteamiento de seguridad ante todo, en el que la red de Bitcoin debe protegerse antes de ayudar a los demás. Si las altcoins fueran notificadas simultáneamente, los atacantes podrían estudiar las implementaciones de las altcoins o explotarlas para entender la vulnerabilidad y, a continuación, atacar potencialmente los nodos de Bitcoin que aún no se hayan actualizado. El enfoque secuencial garantiza la protección generalizada de Bitcoin antes de ampliar la ayuda a otras redes, minimizando la ventana de explotación de la vulnerabilidad en todo el ecosistema.
+reviewed: false

@@ -1,12 +1,13 @@
-question: Je, kazi tatu za kisheria za pesa ni zipi?
-answer: Hifadhi ya thamani, Kati ya Exchange, Kitengo cha akaunti.
+question: Kwa nini dhahabu haiwezi kufanya vyema katika ulimwengu wa utandawazi na kidijitali?
+answer: Kwa sababu inahitaji huluki kuu kuifanya iweze kugawanywa na kubadilishana kwa urahisi.
 wrong_answers:
-  - Hifadhi ya thamani, Kati ya Exchange, Njia za uzalishaji.
-  - Hifadhi ya thamani, Njia za uzalishaji, Kitengo cha akaunti.
-  - Kati ya Exchange, Njia za uzalishaji, Kitengo cha akaunti.
+  - Kwa sababu haina thamani ya kutosha.
+  - Kwa sababu si nadra kutosha.
+  - Kwa sababu inamomonyoka kwa muda.
 explanation: |
-  Kulingana na Aristotle, pesa hufanya kazi tatu: ni
-  duka la thamani, wastani wa Exchange, na kitengo cha
-  akaunti. Siku hizi, kati ya kazi ya Exchange ni
-  inayotambulika sana kama ile kuu, kabla ya hizo mbili.
+  Dhahabu haiwezi kuendelea katika ulimwengu wa utandawazi na kidijitali
+  kwa sababu inahitaji huluki kuu kuifanya igawanywe na
+  kubadilishana kwa urahisi. Hii inafanya kuwa chini ya vitendo kutumia katika
+  ulimwengu ambapo miamala inazidi kuwa ya kidijitali na
+  kugatuliwa.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Mikä Linux-komento näyttää aktiivisen verkon reititystaulukon?
+answer: ip route show
+wrong_answers:
+  - ifconfig -a
+  - ping-reitti
+  - netstat -s
+explanation: |
+  ip route show listaa ytimen tuntemat reitit ja IP-pakettien käyttämät reitit.
+reviewed: false

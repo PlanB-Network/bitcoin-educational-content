@@ -1,0 +1,9 @@
+question: Yanıtlar arasında hangisi zincir analizinin temel amaçlarından birini temsil etmektedir?
+answer: Kullanıcının benzersizliğini belirlemek için Bitcoin üzerindeki çeşitli etkinlikleri gruplandırın.
+wrong_answers:
+  - Ağ üzerindeki Mining performansını optimize edin.
+  - Yasaları yargı yetkilerine göre uygulamak için protokolde adaleti yönetmek.
+  - Bitcoin işlemlerinin gizliliğini artırın.
+explanation: |
+  Zincir analizinin amaçlarından biri, Bitcoin üzerindeki çeşitli faaliyetleri gruplandırarak bunları gerçekleştiren kullanıcının benzersizliğini belirlemektir. Daha sonra, bu faaliyetler demetini gerçek bir kimlikle ilişkilendirmeye çalışmak mümkün olacaktır.
+reviewed: false

@@ -1,11 +1,9 @@
-question: Kakva je priroda usvajanja Bitkoina kako je opisano u ovom kursu?
-answer: Viralno.
+question: Zašto Lightning kanal može biti neupotrebljiv u jednom smeru?
+answer: Nedovoljna likvidnost
 wrong_answers:
-  - Polako i postojano.
-  - Brzo i nekontrolisano.
-  - Sporadično i nepredvidivo.
+  - Previše nov blok
+  - Istekao HTLC
+  - Nesinhronizovan čvor
 explanation: |
-  Tekst kursa opisuje usvajanje Bitkoina kao viralno,
-  sugerišući da se širi brzo i široko sa jedne
-  osobe na drugu, slično kao virus, ali dobar.
-reviewed: true
+  Čak i sa velikim kapacitetom, kanal omogućava plaćanje samo ako se dovoljno likvidnosti nalazi na pravoj strani.
+reviewed: false

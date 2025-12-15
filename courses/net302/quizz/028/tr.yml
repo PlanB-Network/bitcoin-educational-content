@@ -1,0 +1,9 @@
+question: TCP için Aktarım Layer üzerinden akan veri birimi nedir?
+answer: Segment
+wrong_answers:
+  - Datagram
+  - Çerçeve
+  - Akış
+explanation: |
+  TCP ile Transport Layer'de veri birimi segment olarak adlandırılırken, UDP paket terimini kullanır.
+reviewed: false

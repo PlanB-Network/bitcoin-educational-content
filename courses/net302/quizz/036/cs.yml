@@ -1,0 +1,9 @@
+question: Proč bylo nutné přejít na protokol IPv6?
+answer: Vyčerpání protokolu IPv4 Address
+wrong_answers:
+  - Selhání protokolu NAT v protokolu IPv4
+  - Nekompatibilita masky podsítě
+  - Ukončení podpory DHCP
+explanation: |
+  Vyčerpání adres IPv4 vedlo k přechodu na IPv6, který poskytuje mnohem větší prostor Address.
+reviewed: false

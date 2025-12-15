@@ -1,0 +1,9 @@
+question: Что является единицей данных, проходящих через транспортный Layer для TCP?
+answer: Сегмент
+wrong_answers:
+  - Датаграмма
+  - Рама
+  - Поток
+explanation: |
+  На Transport Layer в TCP единица данных называется сегментом, а в UDP используется термин пакет.
+reviewed: false

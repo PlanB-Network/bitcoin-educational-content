@@ -1,0 +1,9 @@
+question: Ni igiki nyamukuru catumye IPv5 itigeze ikoreshwa cane?
+answer: Yagumye ari igerageza .
+wrong_answers:
+  - Gushiraho kwayo vyari bizimvye cane .
+  - Ntiyari ihuye na IPv6.
+  - Yari ifise amakosa akomeye y'umutekano
+explanation: |
+  IPv5 yashizwe mu ngiro gusa mu buryo bw’igerageza. Ntiyigeze igira urugero canke ngo yemerwe cane, maze amaherezo irahebwa kugira ngo IPv6 ikoreshwe.
+reviewed: false

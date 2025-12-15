@@ -1,0 +1,9 @@
+question: Kes oli viimane Bitcoin core põhihooldaja enne selle rolli kaotamist 2023. aastal?
+answer: Wladimir J. Van Der Laan
+wrong_answers:
+  - Gavin Andresen
+  - Pieter Wuille
+  - Satoshi Nakamoto
+explanation: |
+  Wladimir J. Van Der Laan täitis seda ametikohta aastatel 2014-2023, olles Gavin Andreseni järeltulija ja enne selle ametikoha lõpetamist.
+reviewed: true

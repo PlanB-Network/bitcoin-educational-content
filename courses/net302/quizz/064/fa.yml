@@ -1,0 +1,9 @@
+question: طول بیت یک IPv6 Address چقدر است؟
+answer: ۱۲۸-بیتی
+wrong_answers:
+  - ۵۱۲ بیت
+  - ۶۴-بیت
+  - ۲۵۶-بیتی
+explanation: |
+  یک Address IPv6 به طول 128 بیت است، در مقایسه با 32 بیت برای یک Address IPv4.
+reviewed: false

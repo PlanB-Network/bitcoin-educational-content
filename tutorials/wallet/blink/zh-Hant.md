@@ -1,5 +1,5 @@
 ---
-name: 閃爍
+name: Blink
 description: 完整 Blink Wallet 教學 - 輕鬆傳送、接收及使用 Bitcoin
 ---
 

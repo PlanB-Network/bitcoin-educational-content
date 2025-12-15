@@ -1,0 +1,10 @@
+question: None ugushikama birimwo iki?
+answer: Gufatanya ibintu vyinshi kugira ngo ureme ikintu kimwe kinini.
+wrong_answers:
+  - Gucapura inyungu nini mu bindi bitobito vyinshi.
+  - Kwimurira ivyinjijwe mu bifuko vyinshi bikaja muri kimwe.
+  - Gusubira gushiramwo ibintu bitakoreshejwe ku ma aderesi mashasha.
+explanation: |
+  Ingingo ngenderwako y’ugushiramwo ni ugukoresha neza ibihe amafaranga ari make kuri Bitcoin kugira ngo ushire hamwe UTXO ntoyi zibe imwe nini.
+  
+reviewed: false

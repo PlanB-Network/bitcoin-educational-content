@@ -1,12 +1,12 @@
 ---
-name: KARTU KOLEKSI Q - Lanjutan
+name: COLDCARD Q - Ahli
 description: Menggunakan opsi lanjutan COLDCARD Q
 ---
 ![cover](assets/cover.webp)
 
 Dalam tutorial sebelumnya, kita sudah membahas konfigurasi awal COLDCARD Q dan fungsi-fungsi dasarnya untuk pemula. Jika Anda baru saja menerima COLDCARD Q dan belum mengaturnya, saya sarankan Anda memulai dengan tutorial tersebut sebelum melanjutkan di sini:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Tutorial baru ini didedikasikan untuk opsi lanjutan COLDCARD Q, yang dirancang untuk pengguna tingkat lanjut dan paranoid. Faktanya, COLDCARD dibedakan dari dompet perangkat keras lainnya karena memiliki banyak fitur keamanan yang canggih. Tentu saja, Anda tidak harus menggunakan semua opsi ini. Pilih saja yang sesuai dengan strategi keamanan Anda.
 
@@ -20,7 +20,7 @@ Sebelum memulai, pastikan Anda memiliki akses ke cadangan fisik frasa mnemonik 1
 
 Jika Anda tidak tahu apa itu kata sandi BIP39, atau jika Anda tidak sepenuhnya paham bagaimana cara kerjanya, saya sangat menyarankan agar Anda melihat tutorial ini terlebih dahulu, yang mencakup dasar-dasar teori yang diperlukan untuk memahami risiko yang terkait dengan penggunaan kata sandi:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Ingatlah bahwa setelah Anda membuat kata sandi di dompet Anda, mnemonic Anda saja tidak akan cukup untuk mendapatkan kembali akses ke bitcoin Anda. Anda akan membutuhkan mnemonic dan kata sandi. Selain itu, Anda harus memasukkan kata sandi setiap kali membuka kunci COLDCARD Q. Hal ini akan meningkatkan keamanan dengan membuat akses fisik ke COLDCARD dan pengetahuan tentang PIN tidak cukup tanpa kata sandi.
 
@@ -28,7 +28,7 @@ Pada COLDCARD, Anda memiliki dua opsi untuk mengelola kata sandi Anda:
 
 1. **Entri klasik:** Anda memasukkan kata sandi secara manual setiap kali Anda menggunakan dompet perangkat keras Anda, seperti yang Anda lakukan dengan dompet perangkat keras lainnya. COLDCARD Q menyederhanakan tugas ini dengan keyboard yang lengkap.
 
-2. **Anda dapat memilih untuk mengenkripsi kata sandi dan menyimpannya pada kartu microSD. Dalam hal ini, Anda harus memasukkan microSD ke dalam COLDCARD Q setiap kali menggunakannya. Harap diperhatikan bahwa microSD ini hanya akan bekerja pada COLDCARD Q Anda dan bukan merupakan cadangan. Oleh karena itu, sangat penting bagi Anda untuk menyimpan salinan kata sandi Anda pada media fisik, seperti kertas atau logam.
+2. **Anda dapat memilih untuk mengenkripsi kata sandi dan menyimpannya pada kartu microSD. Dalam hal ini, Anda harus memasukkan microSD ke dalam COLDCARD Q setiap kali menggunakannya. Harap diperhatikan bahwa microSD ini hanya akan bekerja pada COLDCARD Q Anda dan bukan merupakan cadangan. Oleh karena itu, sangat penting bagi Anda untuk menyimpan salinan kata sandi Anda pada media fisik, seperti kertas atau logam.**
 
 Untuk mengatur kata sandi BIP39 Anda, akses menu "*Kata Sandi*".
 
@@ -68,7 +68,7 @@ Konfirmasikan bahwa sidik jari yang ditampilkan sesuai dengan sidik jari yang ad
 
 Perlu diingat bahwa menggunakan kata sandi berarti anda harus mengimpor satu set kunci baru yang berasal dari kombinasi frasa mnemonik dan kata sandi anda ke dalam perangkat lunak manajemen dompet anda (seperti Sparrow Wallet). Untuk melakukannya, ikuti langkah "*Konfigurasi dompet baru di Sparrow*" di tutorial lainnya:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 ## Opsi membuka kunci
 
@@ -247,4 +247,4 @@ Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika 
 
 Saya juga merekomendasikan tutorial lain ini, di mana kita membahas penggunaan pesaing langsung untuk CCQ, Ledger Flex :
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

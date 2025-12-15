@@ -1,8 +1,10 @@
-question: گره هرس‌شده در زمینه Bitcoin چیست؟
-answer: یک نود که فقط آخرین N بلاک را در حافظه نگه می‌دارد.
+question: Lightning Network چیست؟
+answer: یک شبکه پرداخت فوری Bitcoin بر اساس Bitcoin Blockchain.
 wrong_answers:
-  - یک نود که فقط تراکنش‌ها را اعتبارسنجی می‌کند.
-  - یک گره که فقط اطلاعات را به گره‌های دیگر منتقل می‌کند.
-  - یک نود که فقط قوانین پروتکل Bitcoin را اجرا می‌کند.
-explanation: >-
+  - یک شبکه Blockchain جدا از Bitcoin Blockchain.
+  - یک شبکه از ماینرهای Bitcoin.
+  - شبکه‌ای از تبادلات Bitcoin.
+explanation: |
+  Lightning Network یک شبکه پرداخت فوری Bitcoin است
+  که بر اساس Bitcoin Blockchain می‌باشد.
 reviewed: true

@@ -1,9 +1,9 @@
-question: Mis on üks võimalikest eelistest, mida Lightning Network võib pakkuda sisuloojatele?
-answer: Nad oleksid motiveeritud looma kvaliteetset sisu, et hoida kasutajate tähelepanu
+question: Mis on üks peamisi küsimusi, mis on tõstatatud rahanduse tuleviku kohta?
+answer: Kes peaks hoidma, volitama ja jälgima raha, mida me kasutame?
 wrong_answers:
-  - Nad saaksid oma sisu eest küsida suuremat tasu
-  - Nad saaksid jõuda laiema publikuni
-  - Nad saaksid sisu toota kiiremini
+  - Kuidas me saame raha täielikult kaotada?
+  - Kuidas me saame tagada, et kõigil oleks sama palju raha?
+  - Kuidas me saame raha muuta tarbetuks?
 explanation: >-
-  Lightning Network'i abil oleksid sisuloojad motiveeritud tootma kvaliteetset sisu, et hoida kasutajate tähelepanu. Kasutajad omakorda maksaksid ainult tarbitud sisu eest, elimineerides nii ettemaksuga tellimustasud.
-reviewed: false
+  Tekst tõstatab mitmeid küsimusi rahanduse tuleviku kohta, millest üks
+  on, kes peaks hoidma, volitama ja jälgima raha, mida me kasutame.

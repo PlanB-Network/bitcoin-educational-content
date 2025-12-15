@@ -1,0 +1,9 @@
+question: 학계에서 TCP/IP 프로토콜의 확산을 촉진한 대학 운영 체제는 어느 것입니까?
+answer: BSD 유닉스
+wrong_answers:
+  - Linux
+  - Solaris
+  - Minix
+explanation: |
+  버클리 대학에서 개발한 BSD 유닉스는 TCP/IP 프로토콜을 통합한 최초의 시스템 중 하나이며, 학계에 널리 보급하는 데 기여했습니다.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mitä protokollaa Electrs ja Fulcrum käyttävät lompakoiden yhdistämiseen?
+answer: Electrum
+wrong_answers:
+  - RPC REST
+  - JSON API
+  - Salama gRPC
+explanation: |
+  Nämä ohjelmistopaketit paljastavat Electrum-palvelimen, joka on standardi, jota monet lompakot, kuten Sparrow tai Electrum Wallet, käyttävät.
+reviewed: true

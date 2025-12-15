@@ -1,0 +1,10 @@
+question: Stonewall x2 işleminde işbirlikçinin rolü nedir?
+answer: Şüphe eklemek için bitcoin sağlayın
+wrong_answers:
+  - İşlem koordinatörü olarak hareket edin
+  - Ödeme tutarını alın
+  - Ödeme tutarını gönderin
+explanation: |
+  Bir Stonewall x2 işlemindeki işbirlikçi, işlem analizine şüphe katmak için bitcoin sağlarken, sonunda fonlarını tamamen geri alır (Mining ücretleri hariç, onlar için tarafsız bir eylem).
+  
+reviewed: false

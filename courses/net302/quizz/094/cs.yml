@@ -1,0 +1,9 @@
+question: Který příkaz lze použít k dotazu na server DNS pro získání adresy IP Address domény?
+answer: nslookup
+wrong_answers:
+  - netstat
+  - nmap
+  - ss
+explanation: |
+  nslookup je dotazovací nástroj DNS pro překlad doménových jmen na IP adresy.
+reviewed: false

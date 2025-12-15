@@ -1,0 +1,9 @@
+question: Ni iyihe muri izi porogaramu zikurikira atari umuti w’ivy’ubuhinga bwi harura rya Bitcoin?
+answer: Sparrow.
+wrong_answers:
+  - CoinTracker
+  - Koinly
+  - ZenLedger
+explanation: |
+  Sparrow si inyishu z’ivy’ubuhinga bwuguharura  Bitcoin, mu gihe izindi arizo (ni porogarama yingodo ngurukana bumenyi ya Bitcoin).
+reviewed: true

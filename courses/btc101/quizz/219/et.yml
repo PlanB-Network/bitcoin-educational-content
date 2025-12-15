@@ -1,9 +1,9 @@
-question: Mida tekst vihjab Bitcoini tuleviku kohta?
-answer: See ei kao kuhugi
+question: Milline lähenemine struktureerib selles peatükis kirjeldatud Bitcoini arengut?
+answer: Kihtidena toimuv areng
 wrong_answers:
-  - Selle asendab parem tehnoloogia
-  - Selle keelustatakse ülemaailmselt
-  - See kaotab oma väärtuse
-explanation: >-
-  Tekst vihjab, et Bitcoin ei kao kuhugi. Vastupidi, revolutsioon on alles algusjärgus.
+  - Monoliitne plokiahel
+  - Natiivne sharding
+  - Üldistatud onchain-täitmine
+explanation: |
+  Bitcoin säilitab lihtsa ja vastupidava baasikihi, samal ajal kui kõrgema taseme protokollid lisavad spetsiifilisi funktsioone.
 reviewed: false

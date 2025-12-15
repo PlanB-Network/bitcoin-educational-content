@@ -1,0 +1,9 @@
+question: ¿Cuál es la razón principal por la que la oferta circulante real de Bitcoin será significativamente inferior al máximo teórico de aproximadamente 21 millones de BTC?
+answer: La pérdida de claves privadas, el robo de wallet y el envío de monedas a direcciones erróneas retiran definitivamente los bitcoins de la circulación
+wrong_answers:
+  - Los ajustes de dificultad de Mining reducen automáticamente la oferta total para mantener la escasez a lo largo del tiempo
+  - Las tasas de transacción se queman durante el procesamiento, disminuyendo gradualmente el suministro de bitcoin disponible
+  - "El protocolo Bitcoin bloquea automáticamente las monedas que no se han movido durante largos periodos para evitar la inflación"
+explanation: |
+  El capítulo explica que, aunque el máximo teórico es de unos 20.999.817 BTC, la oferta real utilizable es mucho menor debido a errores humanos y pérdidas. La pérdida de claves privadas hace que los bitcoins sean permanentemente inaccesibles, los monederos son robados u olvidados y a veces las monedas se envían a direcciones no válidas. Estos factores crean una reducción permanente de la oferta que beneficia a los tenedores restantes, ya que Satoshi señaló que las monedas perdidas hacen que las monedas de los demás valgan más.
+reviewed: false

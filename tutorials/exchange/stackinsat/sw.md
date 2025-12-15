@@ -1,7 +1,7 @@
 ---
 name: StackinSat
 
-description: Jinsi ya kutumia Stackinsat
+description: Namna ya kutumia Stackinsat
 ---
 
 ![cover](assets/cover.webp)

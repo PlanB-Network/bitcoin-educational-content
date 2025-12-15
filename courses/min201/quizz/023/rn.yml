@@ -1,0 +1,10 @@
+question: Ni igitigiri kingana iki c’ama bitcoins ashobora kwigera aremwa?
+answer: hafi miliyoni 21
+wrong_answers:
+  - nk'imiliyoni 18
+  - hafi miliyoni 25
+  - hafi miliyoni 30
+explanation: |
+  Iremwa rya Bitcoin rirangwa n’igipfukisho gihoraho c’
+  21 miliyoni z’ibice.
+reviewed: true

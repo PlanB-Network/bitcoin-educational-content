@@ -1,0 +1,8 @@
+question: What fundamental challenge in cross-platform development does UniFFI address when working with Rust libraries?
+answer: The need to manually create custom binding code for each target language when exposing Rust's low-level FFI
+wrong_answers:
+  - The inability of Rust to compile to native binaries that can run on multiple operating systems
+  - The lack of memory safety guarantees when Rust code interacts with garbage-collected languages
+  - "The performance overhead introduced when translating Rust's ownership model to reference-counted languages"
+explanation: |
+  UniFFI specifically solves the problem of manually writing binding code for each target language. When Rust compiles to binary output, it produces a Foreign Function Interface (FFI) that is low-level and challenging to use directly from higher-level languages. Traditionally, developers had to write custom binding code for every target language (Python, Swift, Kotlin, etc.), creating significant barriers to adoption. UniFFI eliminates this redundancy by automatically generating these bindings through its UDL specification system.

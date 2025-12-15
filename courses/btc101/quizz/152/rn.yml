@@ -1,0 +1,8 @@
+question: Ni akamaro akahe k’ugukoresha inguvu muri Bitcoin Mining?
+answer: Inguvu zikoreshwa ni ngombwa kugira ngo amakuru ashobore gusohoka, ariko kugenzura amakuru birafise igiciro gitoyi cane. Uwo asymétrie ni wo utanga umutekano w’urubuga.
+wrong_answers:
+  - Igiciro c’inguvu ni ngombwa kugira ngo amashini ya ASIC akoreshwa muri Mining akoreshe ubushobozi, kandi kugenzura amakuru birafise igiciro kinini.
+  - Inguvu zikoreshwa ni ngombwa kugira ngo uruja n’uruza rwa Bitcoin rubeho, kandi ukugenzura amakuru birafise ibiciro bihinduka.
+  - Igiciro c’inguvu si ngombwa kugira ngo umuntu areme ama bitcoins mashasha.
+explanation: >-
+reviewed: false

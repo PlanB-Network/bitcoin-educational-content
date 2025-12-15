@@ -1,9 +1,9 @@
-question: Apa yang dimaksud dengan KYC?
-answer: Kenali Pelanggan Anda
+question: Apa pesan yang terkandung dalam blok pertama blockchain Bitcoin?
+answer: 03/jan/2009 Chancellor on brink of second bailout for banks.
 wrong_answers:
-  - Simpan Uang Anda
-  - Masukkan Kode Anda
-  - Mohon Patuhi
+  - Kita dapat memenangkan pertempuran besar dalam perlombaan senjata dan mendapatkan wilayah kebebasan baru selama beberapa tahun.
+  - Pemerintah pandai memotong kepala jaringan yang terkontrol secara sentral seperti Napster, tetapi jaringan P2P murni seperti Gnutella dan Tor tampaknya dapat bertahan.
+  - Tidak ada di atas
 explanation: |
-  KYC atau Kenali Pelanggan Anda merujuk pada proses yang dilakukan oleh bisnis untuk memverifikasi identitas klien mereka. Ini biasanya dilakukan untuk memastikan kepatuhan terhadap regulasi dan untuk mencegah aktivitas ilegal seperti pencucian uang atau penipuan.
+  Blok pertama dari blockchain Bitcoin, yang juga dikenal sebagai blok genesis, mengandung pesan 03/jan/2009 Chancellor on brink of second bailout for banks, yang merupakan judul dari Time hari itu untuk memberi timestamp pada blok genesis.
 reviewed: true

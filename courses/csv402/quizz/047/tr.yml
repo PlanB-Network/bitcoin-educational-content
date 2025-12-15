@@ -1,0 +1,9 @@
+question: Bir tutarsızlık durumunda Stash'ın farklı versiyonlarını birleştirmek için hangi teknoloji kullanılabilir?
+answer: CRDT
+wrong_answers:
+  - HTLC
+  - Single-Use Seal
+  - Günlük Tabanlı Çoğaltma
+explanation: |
+  CRDT'ler, Stash'ün birden fazla sürümünün istemci tarafı çakışmaları olmadan birleştirilmesini sağlayarak veri tutarlılığını sağlar.
+reviewed: false

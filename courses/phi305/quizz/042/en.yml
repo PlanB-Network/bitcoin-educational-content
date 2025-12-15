@@ -1,0 +1,9 @@
+question: Who wrote "Nothing happens in nature that can be attributed to a vice existing in it"?
+answer: Spinoza.
+wrong_answers:
+  - Descartes.
+  - Newton.
+  - Saint-Augustin.
+explanation: |
+  It was Spinoza who wrote: "Nothing happens in nature that can be attributed to a vice existing in it". This phrase expresses the idea that nature is perfect in its kind, and that defects are merely human judgments.
+reviewed: false

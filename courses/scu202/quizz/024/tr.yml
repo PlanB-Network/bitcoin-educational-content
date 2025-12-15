@@ -1,0 +1,9 @@
+question: Linux masaüstü ortamının ana rolü nedir?
+answer: Interface grafiklerini sağlayın
+wrong_answers:
+  - Sistem başlangıcını yönetme
+  - Linux çekirdeğini derleme
+  - Virüslere karşı koruma
+explanation: |
+  Masaüstü ortamı, kullanıcının sistemle grafiksel olarak etkileşime girmesini sağlamak için görsel ve etkileşimli Elements'i (pencereler, menüler, simgeler, paneller vb.) bir araya getirir.
+reviewed: false

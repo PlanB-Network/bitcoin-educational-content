@@ -1,0 +1,9 @@
+question: Koja metoda razrešavanja zahteva obrtanje svake heksadecimalne cifre IPv6 Address za reverznu zonu?
+answer: Obrnuta rezolucija
+wrong_answers:
+  - Suprotna rezolucija
+  - Primarna rezolucija
+  - Sekundarna rezolucija
+explanation: |
+  Za obrnuto razrešavanje, svaki nibbl punog IPv6 Address se obrće i razdvaja tačkama pre nego što se doda sufiks ip6.arpa.
+reviewed: false

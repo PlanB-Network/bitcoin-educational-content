@@ -1,0 +1,9 @@
+question: Apa tujuan dari primitif layanan dalam model TCP/IP?
+answer: Mengelola pertukaran antar lapisan
+wrong_answers:
+  - Mengenkripsi pesan jaringan secara otomatis
+  - Mendistribusikan alamat IP ke host jarak jauh
+  - Memeriksa panjang total paket IP
+explanation: |
+  Primitif layanan mendefinisikan komunikasi Interface antara berbagai lapisan, yang memungkinkan pertukaran jaringan untuk dibangun, dipelihara, atau dihentikan.
+reviewed: false

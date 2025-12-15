@@ -1,0 +1,9 @@
+question: Qual é o protocolo utilizado pela Electrs e pela Fulcrum para ligar as carteiras?
+answer: Electrum
+wrong_answers:
+  - RPC REST
+  - API JSON
+  - Relâmpago gRPC
+explanation: |
+  Estes pacotes de software expõem um servidor Electrum, o padrão usado por muitas carteiras como Sparrow ou Electrum Wallet.
+reviewed: true

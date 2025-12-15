@@ -1,0 +1,9 @@
+question: What is the length, in bits, of a standard IPv4 address?
+answer: 32-bit
+wrong_answers:
+  - 8 bits
+  - 128-bit
+  - 16 bits
+explanation: |
+  An IPv4 address is encoded on 32 bits, divided into four bytes of 8 bits each.
+reviewed: false

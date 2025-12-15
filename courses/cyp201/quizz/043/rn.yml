@@ -1,0 +1,9 @@
+question: Ni ibice bingahe vy’entropie bikoreshwa ku nsiguro y’amajambo 24 Mnemonic?
+answer: 256 ibice
+wrong_answers:
+  - 128 ibice
+  - 512 ibice
+  - 64 ibice
+explanation: |
+  Invugo y’amajambo 24 Mnemonic ishingiye ku bice 256 vy’ubuhinga bwa entropie, bikaba bituma haba umutekano mwinshi cane.
+reviewed: false

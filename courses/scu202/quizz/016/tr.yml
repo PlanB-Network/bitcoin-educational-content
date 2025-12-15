@@ -1,0 +1,9 @@
+question: Hangi dağıtım ailesi RPM paket yöneticisini kullanır?
+answer: Kırmızı Şapka
+wrong_answers:
+  - Debian
+  - Kemer
+  - Slackware
+explanation: |
+  RPM formatı Red Hat tarafından başlatılmıştır ve Fedora, RHEL, CentOS, AlmaLinux, Rocky Linux ve diğer ilgili dağıtımların temelini oluşturmaktadır.
+reviewed: false

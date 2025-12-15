@@ -1,11 +1,11 @@
-question: Apa peran penambang terkait dengan pembangkit listrik yang belum terhubung ke jaringan?
-answer: Mereka bertindak sebagai pembeli pilihan terakhir
+question: Apa salah satu alasan Bitcoin menarik bagi beberapa kelompok?
+answer: Kemampuannya untuk menawarkan solusi seperti uang elektronik tanpa kepercayaan, ketahanan terhadap sensor, atau kebijakan moneter yang transparan dan tidak dapat diubah.
 wrong_answers:
-  - Mereka menyediakan listrik untuk pembangkit listrik
-  - Mereka menghubungkan pembangkit listrik ke jaringan
-  - Mereka mengatur harga listrik
+  - Mudah untuk dipalsukan.
+  - Dikendalikan oleh otoritas pusat.
+  - Tidak bersifat pseudonim.
 explanation: >-
-  Penambang bertindak sebagai pembeli pilihan terakhir untuk pembangkit listrik yang belum terhubung
-  ke jaringan. Ini memungkinkan pembangkit listrik untuk mengamankan pembiayaan bahkan sebelum terhubung
-  ke jaringan listrik.
-reviewed: false
+  Sifat terdesentralisasi Bitcoin, pseudonimitas, dan ketahanan terhadap sensor
+  membuatnya menarik bagi kelompok seperti teknofil, cypherpunk, libertarian, dan
+  penggemar emas.
+  direview: false

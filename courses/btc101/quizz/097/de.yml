@@ -1,11 +1,12 @@
-question: Was passiert, wenn Ihr privater Schlüssel einer dritten Partei offenbart wird?
-answer: Die dritte Partei kann Ihre Bitcoins ausgeben.
+question: Was ist kein Mnemonischer Ausdruck im Kontext von Bitcoin?
+answer: Ein Passwort für Ihre Bitcoin-Wallet.
 wrong_answers:
-  - Die dritte Partei kann nur Ihre Transaktionshistorie einsehen.
-  - Die dritte Partei kann Ihren privaten Schlüssel ändern.
-  - Die dritte Partei kann auf Ihre persönlichen Informationen zugreifen.
+  - Eine Liste von 12 Wörtern aus einem spezifischen Wörterbuch.
+  - Eine Liste von 24 Wörtern aus einem spezifischen Wörterbuch.
+  - Das Geheimnis, um auf Ihre Bitcoin-Guthaben zuzugreifen.
 explanation: |
-  Wenn Ihr privater Schlüssel einer dritten Partei offenbart wird, sind die
-  damit verbundenen Geldmittel nicht mehr sicher, da der private
-  Schlüssel ihnen den Zugang zu Ihren Geldmitteln ermöglicht.
+  Ein mnemonischer Ausdruck im Kontext von Bitcoin ist eine Liste
+  von 12 oder 24 Wörtern, die es Ihnen ermöglicht, Ihre Wallet in
+  jeder Bitcoin-Wallet-Anwendung wiederherzustellen. Jeder, der Zugang
+  zu dieser Liste hat, kann auch auf Ihre Bitcoins zugreifen.
 reviewed: true

@@ -1,11 +1,9 @@
-question: Apa itu masalah skalabilitas Bitcoin?
-answer: Tantangan dalam mengimplementasikan sistem moneter yang mampu menyediakan jumlah transaksi per detik yang terus meningkat seiring dengan adopsinya.
+question: Apa prinsip utama RGB?
+answer: Validasi sisi klien
 wrong_answers:
-  - Kesulitan dalam menambang Bitcoin baru.
-  - Volatilitas harga Bitcoin.
-  - Kurangnya regulasi untuk Bitcoin.
-explanation: >-
-  Masalah skalabilitas merujuk pada tantangan dalam mengimplementasikan sistem
-  moneter yang mampu menyediakan jumlah transaksi per detik yang terus meningkat
-  seiring dengan adopsinya.
+  - Eksekusi global di blockchain
+  - Konsensus terfederasi
+  - Proof-of-Work
+explanation: |
+  RGB bergantung pada validasi lokal atas status, dengan blockchain hanya berfungsi sebagai jangkar kriptografis dan perlindungan terhadap pengeluaran ganda.
 reviewed: false

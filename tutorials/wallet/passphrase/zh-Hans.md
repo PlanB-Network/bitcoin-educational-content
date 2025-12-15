@@ -1,5 +1,5 @@
 ---
-name: BIP39 密语
+name: BIP-39 Passphrase
 description: 理解密语是如何工作的
 ---
 ![封面](assets/cover.webp)
@@ -29,27 +29,39 @@ HD 钱包通常由包含 12 个或 24 个单词的助记词短语生成。这个
 ## 如何选择一个好的密语？
 为了使密语有效，它必须足够长且随机。就像强密码一样，我建议选择尽可能长且随机的密语，包含各种字母、数字和符号，以使任何暴力攻击都变得不可能。
 
+根据 [Trezor 于 2019 年进行的一项研究](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af)，一名攻击者如果获得了你的种子，并在 AWS 上租用了一块高端 GPU（如 NVIDIA Tesla V100），他可以用 1 美元尝试近 6.2 亿个密码短语。作为一个参考，在 2019 年的计算能力下，破解一个由 12 个随机小写字母组成的密码短语平均将花费 **7700 万美元**。
+
+不过，我不建议你只使用 12 个字符。应以当前强密码的标准为目标：在 2025 年，至少应使用 13 个包含数字、大小写字母及符号的随机字符；如果只使用大小写字母，则应使用至少 14 个字符。当然，我建议更进一步，例如使用包含符号的 20 个字符的密码短语，以预见未来的发展并考虑到这些研究未涵盖的人为风险。
+
 同样重要的是要正确保存这个密语，就像助记词短语一样。**丢失它意味着失去访问您的比特币的能力**。我强烈建议不要仅在您的脑海中记住它，因为这不合理地增加了丢失的风险。理想的做法是将其写在与助记词短语分开的物理介质（纸或金属）上。这个备份显然必须存放在与您的助记词短语不同的地方，以防两者同时被泄露。
 
 ## 教程
 
 要在 Ledger 设备（Stax、Flex 或 Nano）上设置密语，您可以参考此教程：
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 在 COLDCARD 上：
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 在 Jade Plus 上：
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 在 Passport (batch-2) 上：
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 在 Trezor 设备上（Safe 3、Safe 5 或 Model One）：
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+在 SeedSigner 上：
+https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa03-4bcf-8308-00c89a74cffe
+在带有Seedkeeper的SeedSigner上：
+https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+
+
+
+
 

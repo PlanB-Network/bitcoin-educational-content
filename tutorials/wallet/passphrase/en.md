@@ -1,5 +1,5 @@
 ---
-name: Passphrase BIP39
+name: BIP-39 Passphrase
 description: Understanding how a passphrase works
 ---
 ![cover](assets/cover.webp)
@@ -29,27 +29,39 @@ Finally, using a passphrase is interesting when one wishes to control the random
 ## How to choose a good passphrase?
 For the passphrase to be effective, it must be sufficiently long and random. Just like with a strong password, I recommend choosing a passphrase that is as long and random as possible, with a variety of letters, numbers, and symbols to make any brute force attack impossible.
 
+According to [a study conducted by Trezor in 2019](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af), an attacker with access to your seed and using a high-end GPU rented on AWS (NVIDIA Tesla V100) could test nearly 620 million passphrases for 1 dollar. As a rough estimate, with 2019 capabilities, a passphrase made of 12 random lowercase letters would cost on average **77 million dollars** to crack.
+
+However, I advise against limiting yourself to 12 characters. Aim instead for current standards for strong passwords: in 2025, aim for at least 13 random characters including digits, lowercase and uppercase letters, and symbols; or 14 characters if using only lowercase and uppercase letters. Naturally, I recommend aiming higher, for example by choosing a 20-character passphrase with symbols, to anticipate future developments and account for human risks that are not considered in these studies.
+
 It is also important to properly save this passphrase, in the same way as the mnemonic phrase. **Losing it means losing access to your bitcoins**. I strongly advise against memorizing it solely in your head, as this unreasonably increases the risk of loss. The ideal is to write it down on a physical medium (paper or metal) separate from the mnemonic phrase. This backup must obviously be stored in a different location from where your mnemonic phrase is kept to prevent both from being compromised simultaneously.
 
 ## Tutorials
 
 To set up a passphrase on a Ledger device (Stax, Flex, or Nano), you can consult this tutorial:
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 On a COLDCARD:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 On a Jade Plus:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 On a Passport (batch-2):
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 On a Trezor device (Safe 3, Safe 5 or Model One):
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+On a SeedSigner:
+https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa03-4bcf-8308-00c89a74cffe
+On a SeedSigner with a Seedkeeper:
+https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+
+
+
+
 

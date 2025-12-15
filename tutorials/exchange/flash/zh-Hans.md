@@ -1,5 +1,5 @@
 ---
-name: 闪光灯
+name: Flash
 description: 借助闪电的力量，100 非洲法郎起即可购买比特币。
 ---
 
@@ -39,8 +39,8 @@ Flash 依靠 Lightning Network 这个 Bitcoin 的覆盖层，安全顺利地进�
 
 
 
-- FlashX**：用移动货币支付 Exchange 比特币。
-- 闪付**：使用 Bitcoin 进行日常服务。
+- **FlashX**：用移动货币支付 Exchange 比特币。
+- **闪付**：使用 Bitcoin 进行日常服务。
 
 
 
@@ -73,9 +73,9 @@ Flash 使用当地的移动货币进行交易。根据您在西非的位置，�
 
 
 
-- 贝宁**：MTN Benin、Moov Benin、Celtiis。
-- 多哥** ：Moov Togo.
-- 布基纳法索**：橙色
+- 贝宁：MTN Benin、Moov Benin、Celtiis。
+- **多哥**：Moov Togo.
+- 布基纳法索：橙色
 
 
 
@@ -110,7 +110,7 @@ Flash 使用当地的移动货币进行交易。根据您在西非的位置，�
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 在闪存上进行交易平均需要 5 到 10 分钟才能在闪电 Wallet 上收到比特币。
 
@@ -157,10 +157,10 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- GSM** 设备；
-- 互联网套餐**；
-- 通话套餐**；
-- 通话和互联网套餐组合**。
+- **GSM** 设备；
+- 互联网套餐；
+- 通话套餐；
+- 通话和互联网套餐组合。
 
 
 
@@ -202,5 +202,4 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
-
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1

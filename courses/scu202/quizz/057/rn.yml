@@ -1,0 +1,9 @@
+question: Ni uwuhe mucukumbuzi washizeho JavaScript mu 1995?
+answer: Umugenzuzi w'urubuga
+wrong_answers:
+  - Imbuga ngurukanabumenyi
+  - Firefox
+  - Safari
+explanation: |
+  Netscape Navigator yashizemwo ururimi rwa JavaScript, rwateguwe na Brendan Eich mu 1995, kugira ngo bishobore gukorana n’abandi ku mapaji y’urubuga.
+reviewed: false

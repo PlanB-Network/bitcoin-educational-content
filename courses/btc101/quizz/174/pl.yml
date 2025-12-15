@@ -1,8 +1,12 @@
-question: Jakie są typowe koszty Miner?
-answer: Zużycie energii elektrycznej i zakup sprzętu.
+question: W jaki sposób bitcoin jeszcze bardziej zintegrował się z tradycyjnym rynkiem?
+answer: Poprzez pojawienie się funduszy ETF Bitcoin.
 wrong_answers:
-  - Tylko zakup sprzętu.
-  - Opłaty transakcyjne.
-  - Zużycie energii elektrycznej i opłaty transakcyjne.
-explanation: >-
-reviewed: false
+  - Poprzez zakazanie bitcoina.
+  - Poprzez zniknięcie wszystkich kryptowalut.
+  - Poprzez utworzenie bitcoina.
+explanation: |
+  Bitcoin trwa i rozwija się jeszcze bardziej poprzez coraz większa integrację z tradycyjnym
+  rynkiem finansowym. Pojawienie się funduszy ETF Bitcoin, jaśniejsze regulacje,
+  i lepsze pozyskiwanie narzędzi do przechowywania tylko zachęcają do kontynuacji tego
+  trend.
+reviewed: true

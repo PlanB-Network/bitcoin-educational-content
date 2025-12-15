@@ -1,13 +1,12 @@
-question: Lequel des éléments suivants n'est pas un avantage du Bitcoin en tant que monnaie ?
-answer: Il est utilisé pour payer les impôts.
+question: Quel est le nombre maximum d'unités de Bitcoin qui peuvent exister ?
+answer: 21 millions.
 wrong_answers:
-  - Il est divisible.
-  - Il est transportable.
-  - Il est sans permission.
+  - 3 billions.
+  - 100 millions.
+  - Il n'y a pas de limite.
 explanation: |
-  Le Bitcoin, en raison de ses propriétés telles que sa divisibilité,
-  sa vérifiabilité, son aspect sans permission et sa transportabilité,
-  offre une excellente réserve de valeur. De plus, en tant que monnaie
-  neutre d'internet, il représente un bon moyen d'échange qui ne connaît
-  pas de frontières.
+  L'offre totale de Bitcoin est plafonnée à 21 millions d'unités.
+  C'est une caractéristique clé du Bitcoin qui le différencie
+  des monnaies fiduciaires, qui peuvent être imprimées en
+  quantités illimitées par les banques centrales.
 reviewed: true

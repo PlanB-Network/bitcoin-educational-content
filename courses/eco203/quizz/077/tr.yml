@@ -1,0 +1,9 @@
+question: Bastiat'ya göre devlet müdahalesinin temel sınırlaması nedir?
+answer: Kamu kararlarını verenler sonuçlarına katlananlar değildir
+wrong_answers:
+  - Kamu kararlarını verenler parayı çok seviyor
+  - Kamu kararlarını verenler yeterince akıllı değil
+  - Kamu kararlarını verenler cesaretten yoksundur
+explanation: |
+  Bastiat, kamusal karar vericilerin kendi kararlarının sonuçlarına katlanmadıklarını ve bunun da sorumsuz seçimlere yol açtığını vurgulayarak devlet müdahalesini eleştirmektedir.
+reviewed: false

@@ -5,5 +5,5 @@ wrong_answers:
   - 4 MB
   - 8 MB
 explanation: |
-  Il parametro MAX_BLOCK_SIZE è stato aggiunto a luglio, poi il limite è stato applicato a tutti i nodi della rete a partire dal 12 settembre.
+  Il parametro MAX_BLOCK_SIZE è stato aggiunto a luglio, poi il limite è stato applicato a tutti i nodi del network a partire dal 12 settembre.
 reviewed: false

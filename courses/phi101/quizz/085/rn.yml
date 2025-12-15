@@ -1,0 +1,9 @@
+question: Ni uruhe rugero ubusegaba bwa Leta bufise nk’uko John Stuart Mill abivuga?
+answer: Leta ishobora gusa kwinjiramwo iyo ibikorwa vy’umuntu bigirira nabi abandi.
+wrong_answers:
+  - Leta irafise ubusegaba mu bihe vyose kandi ntishobora guhagarara umuntu canke umugwi w’abantu.
+  - Ubusegaba bwa Leta buragabanywa n’ubutunzi.
+  - Ubusegaba bwa Leta bushingiye ku mategeko y’ibidukikije.
+explanation: |
+  John Stuart Mill avuga ko Leta igira ico ikoze ari iyo gusa igihe ibikorwa vy’umuntu bitera ingorane abandi, kugira ngo umuntu akingire umwidegemvyo w’umuntu ku giti ciwe mu bintu bitagirira nabi abandi.
+reviewed: true

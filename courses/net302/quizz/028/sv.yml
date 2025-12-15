@@ -1,0 +1,9 @@
+question: Vilken är den dataenhet som flödar genom Transport Layer för TCP?
+answer: Segment
+wrong_answers:
+  - Datagram
+  - Ram
+  - Ström
+explanation: |
+  På Transport Layer med TCP kallas dataenheten för ett segment, medan UDP använder termen paket.
+reviewed: false

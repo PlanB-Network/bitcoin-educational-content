@@ -1,0 +1,9 @@
+question: Welke Bitcoin core versie introduceerde het Ultraprune model?
+answer: 0.8.0
+wrong_answers:
+  - 0.3.0
+  - 0.6.0
+  - 0.10.0
+explanation: |
+  Sinds versie 0.8.0 gebruikt Bitcoin core geen globale index meer, maar onderhoudt het direct de UTXO set dankzij Ultraprune.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Wat moet er volgens de vereisten van de open source definitie gebeuren als de broncode opzettelijk verduisterd wordt in een open source softwaredistributie?
+answer: De opzettelijk versleutelde broncode is in strijd met open source-principes en is niet toegestaan
+wrong_answers:
+  - De versleutelde code moet vergezeld gaan van gedetailleerde documentatie waarin de functionaliteit wordt uitgelegd
+  - De versleutelde code is acceptabel zolang er ook gecompileerde binaries worden meegeleverd
+  - De versleutelde code moet beschikbaar worden gesteld via een aparte download met reproductiekosten
+explanation: |
+  De definitie van open bron stelt expliciet dat "opzettelijk verduisterde broncode niet is toegestaan" Dit is een fundamentele vereiste omdat verduistering zinvol onderzoek, wijziging en begrip van de code verhindert, wat de kerndoelen van openbronsoftware tenietdoet. De broncode moet "de voorkeursvorm hebben waarin een programmeur het programma zou wijzigen", waardoor verduistering onverenigbaar is met de principes van open source, ongeacht de documentatie- of distributiemethoden.
+reviewed: false

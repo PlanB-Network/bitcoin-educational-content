@@ -1,0 +1,9 @@
+question: IPv6 Address 的位元長度是多少？
+answer: 128 位元
+wrong_answers:
+  - 512 位元
+  - 64 位元
+  - 256 位元
+explanation: |
+  IPv6 Address 的長度為 128 位元，而 IPv4 Address 則為 32 位元。
+reviewed: false

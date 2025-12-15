@@ -1,0 +1,9 @@
+question: O que significa "topologia" numa rede informática?
+answer: Como os dispositivos estão interligados
+wrong_answers:
+  - Velocidade da ligação à Internet
+  - O tipo de protocolo utilizado para a comunicação
+  - Para a marca dos routers utilizados numa rede
+explanation: |
+  A topologia refere-se à estrutura física ou lógica de uma rede e à forma como os seus componentes estão ligados.
+reviewed: false

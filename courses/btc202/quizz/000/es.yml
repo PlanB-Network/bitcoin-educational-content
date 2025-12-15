@@ -1,0 +1,9 @@
+question: ¿Cuál es el título del Libro Blanco de Satoshi Nakamoto publicado en 2008?
+answer: Bitcoin Un sistema de dinero electrónico entre iguales
+wrong_answers:
+  - Bitcoin Un sistema descentralizado de oro digital
+  - Bitcoin El futuro del dinero
+  - Bitcoin Una red de pagos basada en Blockchain
+explanation: |
+  Satoshi El Libro Blanco de Nakamoto, Bitcoin A Peer-to-Peer Electronic Cash System, se publicó en 2008.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Que componente é recomendado para proteger um nó em caso de falha de energia?
+answer: Um inversor
+wrong_answers:
+  - Uma segunda placa gráfica
+  - Um router adicional
+  - Um concentrador USB
+explanation: |
+  Um inversor evita paragens súbitas em caso de falha de energia e protege a estabilidade do nó.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Ni igice kingana iki c’amahera yose ya Bitcoin yakoreshejwe mu bikorwa bitemewe n’amategeko?
+answer: Munsi ya 1%
+wrong_answers:
+  - 2-4%
+  - Birenga 5%
+  - Ntibizwi
+explanation: |
+  Nk’uko raporo ya Chainalysis yo mu 2020 ibivuga, ibikorwa bitemewe gusa 
+  ni nk’ibice 0,34 kw’ijana vy’ibikorwa vyose vya Bitcoin.
+reviewed: true

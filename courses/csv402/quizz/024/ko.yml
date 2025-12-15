@@ -1,0 +1,9 @@
+question: RGB의 어떤 메커니즘을 통해 여러 트랜지션을 단일 Bitcoin 트랜잭션으로 함께 그룹화할 수 있나요?
+answer: Transition Bundle
+wrong_answers:
+  - Seal 집계
+  - 멀티 Commitment 트리
+  - 상태 통합
+explanation: |
+  Transition Bundle은 (동일한 Contract에 속하는) RGB 상태 전환의 집합으로, 모두 동일한 Bitcoin Witness Transaction에 관련되어 있습니다.
+reviewed: false

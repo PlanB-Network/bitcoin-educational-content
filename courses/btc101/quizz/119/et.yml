@@ -1,9 +1,12 @@
-question: Mis on BitcoinTalk?
-answer: Arutelukoht Bitcoin'i kasutajatele
+question: Mis on Bitcoin tehing?
+answer: Bitcoini omandiõiguse üleandmine, kasutades krüptograafiat.
 wrong_answers:
-  - Bitcoin'i kaevandamise tarkvara
-  - Bitcoin'i rahakott
-  - Bitcoin'i konverents
+  - Füüsiline Bitcoini vahetus, kasutades notarit.
+  - Bitcoini omandiõiguse üleandmine, kasutades füüsilist aadressi.
+  - Bitcoini omandiõiguse üleandmine, kasutades e-posti aadressi.
 explanation: |
-  BitcoinTalk foorum on arutelukoht Bitcoin'i kasutajatele. Selle lõi Satoshi Nakamoto 22. novembril 2009.
+  Bitcoin tehing on digitaalne Bitcoini omandiõiguse üleandmine,
+  kasutades Bitcoin aadressi, mis on tuletatud tänu elliptilise kõvera krüptograafiale.
+  See aadress on unikaalne isiku Bitcoin rahakotile,
+  kes Bitcoine vastu võtab.
 reviewed: true

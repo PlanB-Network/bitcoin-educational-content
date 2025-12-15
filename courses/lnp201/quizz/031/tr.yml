@@ -1,0 +1,9 @@
+question: Lightning Network'daki dolaylı ödeme miktarını ne sınırlar?
+answer: Seçilen yolun bir kanalında mevcut olan en küçük likidite
+wrong_answers:
+  - İlgili aracı düğümlerin sayısı
+  - Lightning Network'in toplam kapasitesi
+  - Her düğüm tarafından belirlenen yönlendirme ücretleri
+explanation: |
+  Dolaylı bir ödemenin aktarabileceği maksimum miktar, her kanalın her iki taraftaki fonları ayarlaması gerektiğinden, kullanılan kanallarda mevcut olan en düşük likiditeye bağlıdır.
+reviewed: false

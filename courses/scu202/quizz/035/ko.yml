@@ -1,0 +1,9 @@
+question: Linux 시스템에서 시스템 보안을 분석하고 권장 사항이 포함된 상세 보고서를 작성할 수 있는 도구는 무엇인가요?
+answer: Lynis
+wrong_answers:
+  - 김프
+  - ufw
+  - Synaptic
+explanation: |
+  Lynis는 Linux용 종합 보안 감사 도구로, 시스템의 취약점 및 잘못된 구성을 검사합니다.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Igiciro Hal Finney yari yaravuze mu madolari muri Mukakaro 2009 cari ikihe?
+answer: 10.000.000
+wrong_answers:
+  - 1.000.000
+  - 100.000
+  - 10.000
+explanation: |
+  Ya [yanditse] (https: //www.metzdowd.com/pipermail/cryptography/2009-Munyonyo/015004.html) ko ubushobozi bwo gutanga ama unités uno musi n’amasenti makeyi y’igihe co gukoresha ubuhinga bwo guharura bushobora kuba ari ugutera imbere kwiza cane.
+reviewed: true

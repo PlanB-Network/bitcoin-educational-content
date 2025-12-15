@@ -1,11 +1,9 @@
-question: Vilka är några av de aspekter av kryptografi som används inom cybersäkerhet?
-answer: SSL/TLS, symmetrisk/asymmetrisk kryptering
+question: Vilken certifiering är erkänd över hela världen inom området cybersäkerhet?
+answer: CISSP
 wrong_answers:
-  - RSA, DSA, ECC
-  - AES, DES, 3DES
-  - MD5, SHA-1, SHA-256
+  - PMP
+  - ITIL
+  - SHA2
 explanation: |
-  I kapitlet listas SSL/TLS och symmetrisk/asymmetrisk
-  kryptering som några av de aspekter av kryptografi som används inom
-  cybersäkerhet.
-reviewed: true
+  CISSP-certifieringen är en av de mest internationellt erkända inom cybersäkerhetsområdet.
+reviewed: false

@@ -1,6 +1,6 @@
 ---
 name: Inaongeza Urudiaji wa Mkutano
-description: Jinsi ya kuongeza uchezaji wa mkutano kwenye PlanB Network?
+description: Jinsi ya kuongeza uchezaji wa mkutano kwenye Plan ₿ Academy?
 ---
 ![conference](assets/cover.webp)
 
@@ -8,13 +8,13 @@ description: Jinsi ya kuongeza uchezaji wa mkutano kwenye PlanB Network?
 Dhamira ya PlanB ni kutoa nyenzo za elimu za kiwango cha juu kwenye Bitcoin katika lugha nyingi iwezekanavyo. Maudhui yote yaliyochapishwa kwenye tovuti ni chanzo huria na yamepangishwa kwenye GitHub, ikiruhusu mtu yeyote kuchangia katika uboreshaji wa jukwaa.
 
 
-Je, ungependa kuongeza uchezaji tena wa mkutano wako wa Bitcoin kwenye tovuti ya PlanB Network na kutoa mwonekano wa tukio hili, lakini hujui jinsi gani? Mafunzo haya ni kwa ajili yako!
+Je, ungependa kuongeza uchezaji tena wa mkutano wako wa Bitcoin kwenye tovuti ya Plan ₿ Academy na kutoa mwonekano wa tukio hili, lakini hujui jinsi gani? Mafunzo haya ni kwa ajili yako!
 
 
-Hata hivyo, ikiwa ungependa kuongeza mkutano utakaofanyika siku zijazo, nakushauri usome somo hili lingine ambalo tunaeleza jinsi ya kuongeza tukio jipya kwenye tovuti.
+Hata hivyo, ikiwa ungependa kuongeza mkutano utakaofanyika siku zijazo, nakushauri usome somo hili lingine ambalo tunaelezea jinsi ya kuongeza tukio jipya kwenye tovuti.
 
 
-https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
+https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![conference](assets/01.webp)
@@ -23,7 +23,7 @@ https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e
 - Kwanza, unahitaji kuwa na akaunti kwenye GitHub. Ikiwa hujui jinsi ya kufungua akaunti, tumekuandalia mafunzo ya kina.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -37,7 +37,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![conference](assets/03.webp)
 
 
-- Ikiwa hujawahi kuchangia yaliyomo kwenye PlanB Network hapo awali, utahitaji kuunda Fork yako ya hazina asili. Kuunda hazina inamaanisha kuunda nakala ya hazina hiyo kwenye akaunti yako ya GitHub, ambayo hukuruhusu kufanya kazi kwenye mradi bila kuathiri hazina asili. Bonyeza kitufe cha `Fork hazina hii`:
+- Ikiwa hujawahi kuchangia yaliyomo kwenye Plan ₿ Academy hapo awali, utahitaji kuunda Fork yako ya hazina asili. Kuunda hazina inamaanisha kuunda nakala ya hazina hiyo kwenye akaunti yako ya GitHub, ambayo hukuruhusu kufanya kazi kwenye mradi bila kuathiri hazina asili. Bonyeza kitufe cha `Fork hazina hii`:
 
 ![conference](assets/04.webp)
 
@@ -66,7 +66,7 @@ Jaza faili hii habari inayohusiana na mkutano wako kwa kutumia kiolezo hiki:
 ```yaml
 year:
 name:
-builder:
+project:
 location:
 language:
 -
@@ -85,7 +85,7 @@ Kwa mfano, faili yako ya YAML inaweza kuonekana kama hii:
 ```yaml
 year: 2024-08
 name: Paris Bitcoin Conference 2024
-builder: Paris Bitcoin Conference
+project: Paris Bitcoin Conference
 location: Paris, France
 language:
 - fr
@@ -102,10 +102,10 @@ tags:
 ![conference](assets/09.webp)
 
 
-Ikiwa bado huna kitambulisho cha "*mjenzi*" cha shirika lako, unaweza kukiongeza kwa kufuata mafunzo haya mengine.
+Ikiwa bado hauna kitambulisho cha "*mjenzi*" cha shirika lako, unaweza kukiongeza kwa kufuata mafunzo haya mengine.
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 
@@ -190,7 +190,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![conference](assets/25.webp)
 
 
-- Ukurasa mpya utafunguliwa. Buruta na uangushe picha inayowakilisha mkutano wako na itaonyeshwa kwenye tovuti ya PlanB Network: ![conference](assets/26.webp)
+- Ukurasa mpya utafunguliwa. Buruta na uangushe picha inayowakilisha mkutano wako na itaonyeshwa kwenye tovuti ya Plan ₿ Academy: ![conference](assets/26.webp)
 - Inaweza kuwa nembo, kijipicha, au hata bango:
 
 ![conference](assets/27.webp)
@@ -241,7 +241,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![conference](assets/36.webp)
 
 
-- Jaza faili hii ya alama kwa kutumia kiolezo hiki ambacho unaweza kurekebisha kwa usanidi wa mkutano wako:
+- Jaza faili hii ya alama kwa kutumia kielelezo hiki ambacho unaweza kurekebisha kwa usanidi wa mkutano wako:
 
 
 ```markdown
@@ -299,7 +299,7 @@ Speaker: Satoshi Nakamoto
 ![conference](assets/37.webp)
 
 
-- Mwanzoni mwa hati yako, katika "jambo la mbele," jaza sehemu ya `jina:` yenye jina la mkutano wako na mwaka wa marudio. Katika sehemu ya `maelezo:`, andika maelezo mafupi ya tukio lako katika lugha ya faili. Kwa mfano, kwa faili inayoitwa `en.md`, maelezo yanapaswa kuwa katika Kiingereza. Timu ya PlanB Network itachukua jukumu la kutafsiri maelezo yako kwa kutumia muundo wao.
+- Mwanzoni mwa hati yako, katika "jambo la mbele," jaza sehemu ya `jina:` yenye jina la mkutano wako na mwaka wa marudio. Katika sehemu ya `maelezo:`, andika maelezo mafupi ya tukio lako katika lugha ya faili. Kwa mfano, kwa faili inayoitwa `en.md`, maelezo yanapaswa kuwa katika Kiingereza. Timu ya Plan ₿ Academy itachukua jukumu la kutafsiri maelezo yako kwa kutumia muundo wao.
 - Majina ya ngazi ya kwanza, yaliyowekwa alama ya `#`, yanatumiwa kuandaa mkutano kwa matukio. Kwa mfano, `# Jukwaa Kuu` kwa jukwaa kuu na `# Chumba cha Warsha` kwa jukwaa maalum kwa warsha.
 
 
@@ -308,7 +308,7 @@ Speaker: Satoshi Nakamoto
 
 
 
-- Chini ya kila mada ya kiwango cha pili, weka kiungo cha video inayolingana ya kucheza tena. Sintaksia inapaswa kuwa: `![video](https://youtu.be/XXXXXXXXXXXX)`, ikibadilisha `XXXXXXXXXXXX` na kiungo halisi cha video.
+- Chini ya kila mada ya kiwango cha pili, weka kiungo cha video inayolingana na kucheza tena. Sintaksia inapaswa kuwa: `![video](https://youtu.be/XXXXXXXXXXXX)`, ikibadilisha `XXXXXXXXXXXX` na kiungo halisi cha video.
 
 
 
@@ -357,7 +357,7 @@ Speaker: Satoshi Nakamoto
 
 ![conference](assets/45.webp)
 
-Hongera! PR yako imeundwa. Msimamizi sasa atakagua na, ikiwa kila kitu kiko sawa, aiunganishe kwenye hazina kuu ya PlanB Network. Unapaswa kuona marudio ya mkutano wako yakionekana kwenye tovuti siku chache baadaye.
+Hongera! PR yako imeundwa. Msimamizi sasa atakagua na, ikiwa kila kitu kiko sawa, aiunganishe kwenye hazina kuu ya Plan ₿ Academy. Unapaswa kuona marudio ya mkutano wako yakionekana kwenye tovuti siku chache baadaye.
 
 
 Tafadhali hakikisha unafuata maendeleo ya PR yako. Inawezekana kwamba msimamizi anaweza kuacha maoni akiuliza maelezo ya ziada. Maadamu PR yako haijathibitishwa, unaweza kuiona chini ya kichupo cha `Vuta maombi` kwenye hazina ya GitHub ya Mtandao wa PlanB:

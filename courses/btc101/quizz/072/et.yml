@@ -1,11 +1,10 @@
-question: Mis on Bitcoin rahakoti kolm peamist funktsiooni?
-answer: Bitcoinide vastuvõtmine, bitcoinide saatmine, nende kaitsmine häkkimise ja varguskatsete eest
+question: Kuidas saate tugevdada oma Bitcoini rahakoti vaikimisi turvalisust?
+answer: Lisades oma Bitcoini rahakotile paroolilause
 wrong_answers:
-  - Bitcoinide hoidmine, bitcoinide saatmise võimaldamine, nende kaitsmine häkkimise ja varguskatsete eest
-  - Bitcoinide vastuvõtmise võimaldamine, bitcoinide hoidmine, nende kaitsmine häkkimise ja varguskatsete eest
-  - Bitcoinide vastuvõtmise võimaldamine, bitcoinide saatmise võimaldamine, bitcoinide müümine
+  - Lisades oma Bitcoini rahakotile teise privaatvõtme
+  - Lisades oma Bitcoini rahakotile teise avaliku võtme
+  - Lisades oma Bitcoini rahakotile teise mnemoonilise fraasi
 explanation: |
-  Bitcoin rahakotti kasutatakse Bitcoin võrguga suhtlemiseks. Selle kolm
-  peamist funktsiooni on võimaldada bitcoinide vastuvõtmist, võimaldada bitcoinide saatmist ja
-  kaitsta neid häkkimise ja varguskatsete eest.
+  Kui te ei ole rahul oma Bitcoini rahakoti vaikimisi turvalisusega,
+  saate seda alati tugevdada, lisades oma Bitcoini rahakotile paroolilause.
 reviewed: true

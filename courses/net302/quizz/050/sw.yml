@@ -1,0 +1,9 @@
+question: Ni nini lazima kiongezwe kwa NAT ili kulinda mtandao ipasavyo?
+answer: Firewall
+wrong_answers:
+  - Server ya ndani ya DNS
+  - Wakala wa HTTP
+  - Antivirus
+explanation: |
+  NAT pekee haitoshi kuchuja trafiki hasidi: lazima ijazwe na sheria za ngome kwa udhibiti mzuri wa trafiki.
+reviewed: true

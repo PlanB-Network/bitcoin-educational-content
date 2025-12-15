@@ -1,0 +1,9 @@
+question: Volatilite neden gelişmekte olan bir varlık olarak Bitcoin'ın doğal bir yönü olarak görülüyor?
+answer: Bitcoin henüz nispeten genç olduğu için spekülatörlerin ilgisini çekmekte ve piyasa haberlerine yanıt vererek daha uzun süreler boyunca istikrar kazanmadan önce fiyat dalgalanmalarına neden olmaktadır.
+wrong_answers:
+  - Çünkü merkezi olarak kontrol ediliyor ve fiyatlar tek bir otorite tarafından belirleniyor.
+  - Çünkü Bitcoin'yi uzun vadede elinde tutan herhangi bir kullanıcı yok.
+  - Çünkü tüccarlar fiyatları her saat öngörülemez bir şekilde belirlemek zorundadır.
+explanation: |
+  Gelişmekte olan bir varlık olarak Bitcoin'ün fiyatı spekülasyon, duyarlılık ve değişen benimseme oranlarından etkilenmektedir. Zamanla, daha istikrarlı, uzun vadeli sahipler katıldıkça, dalgalanma azalabilir, ancak erken aşamadaki büyümenin bir özelliği olmaya devam etmektedir.
+reviewed: false

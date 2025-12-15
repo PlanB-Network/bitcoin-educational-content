@@ -272,11 +272,11 @@ Qui sono disponibili due opzioni per il backup dei dati:
 
 
 - "*Treema sicuro*";
-- "Backup dei dati*".
+- "Backup dei dati".
 
 
 
-"Threema Safe* salva tutti i dati del vostro account, ad eccezione delle vostre conversazioni, sui server di Threema. Questi dati sono criptati con la password scelta al momento della creazione dell'account, in modo che Threema non possa accedervi. I backup vengono effettuati automaticamente e regolarmente.
+"**Threema Safe** salva tutti i dati del vostro account, ad eccezione delle vostre conversazioni, sui server di Threema. Questi dati sono criptati con la password scelta al momento della creazione dell'account, in modo che Threema non possa accedervi. I backup vengono effettuati automaticamente e regolarmente.
 
 
 
@@ -440,4 +440,4 @@ Vi consiglio anche quest'altro tutorial, in cui vi presento Proton Mail, un'alte
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

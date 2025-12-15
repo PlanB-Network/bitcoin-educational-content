@@ -1,12 +1,9 @@
-question: Inom vilka områden väcker Bitcoin frågor?
-answer: Kryptografi, spelteori, ekonomi och penningpolitik, datavetenskap, filosofi, energi, lagar och regler.
+question: Vad är huvudsyftet med Lightning Network?
+answer: Att möjliggöra offchain-betalningar som är snabba och billiga
 wrong_answers:
-  - Endast datavetenskap och ekonomi
-  - Endast kryptografi och spelteori.
-  - Bara filosofi och energi.
+  - Att öka blockstorleken i Bitcoin-blockkedjan
+  - Att gradvis ersätta Bitcoin-blockkedjan med ett mer effektivt system
+  - Att göra gruvfarmar mycket rika
 explanation: |
-  Bitcoin är ett tvärvetenskapligt ämne som väcker frågor
-  frågor som rör olika områden, bland annat
-  kryptografi, spelteori, ekonomi och penningpolitik,
-  datavetenskap, filosofi, energi, lagar och reglering.
-reviewed: true
+  Lightning Network syftar till att möjliggöra nästan omedelbara bitcoin-betalningar med låga avgifter utan att belasta huvudblockkedjan.
+reviewed: false

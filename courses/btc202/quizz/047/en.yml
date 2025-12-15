@@ -1,0 +1,9 @@
+question: What security measures are strongly recommended when creating an Umbrel account?
+answer: Activate 2FA
+wrong_answers:
+  - Disable password
+  - Using a PIN code
+  - Disable all connections
+explanation: |
+  The 2FA adds extra protection and is highly recommended, especially when using a Lightning node or sensitive self-hosting.
+reviewed: true

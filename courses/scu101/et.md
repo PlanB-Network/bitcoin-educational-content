@@ -30,6 +30,8 @@ Théo; panus
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 **Eesmärk: Värskenda oma turvalisuse oskusi!**
 
 Tere tulemast kõigile sellesse digitaalse turvalisusele pühendatud haridusprogrammi. See koolitus on mõeldud kõigile ligipääsetavaks, seega pole vajalik eelnev arvutiteaduse tundmine. Meie peamine eesmärk on varustada teid teadmiste ja oskustega, mis on vajalikud digitaalses maailmas turvalisemalt ja privaatsemalt liikumiseks.
@@ -53,13 +55,16 @@ Kui otsite teemal edasijõudnute oskusi, on meie ressursid, õpetused või muud 
 
 Alustuseks arutame veebibrauseri valimise tähtsust ja selle mõju turvalisusele. Seejärel uurime brauserite eripärasid, eriti seoses küpsiste haldamisega. Vaatame ka, kuidas tagada turvalisem ja anonüümsem sirvimiskogemus, kasutades tööriistu nagu TOR. Seejärel keskendume VPN-ide kasutamisele oma andmete kaitse tõhustamiseks. Lõpetuseks anname soovitusi WiFi-ühenduste turvaliseks kasutamiseks.
 
-![](assets/en/1.webp)
+![image](assets/et/001.webp)
 
 **Jaotis 2: Parimad praktikad arvuti kasutamisel**
 
 - Peatükk 3 - Arvuti kasutamine
 - Peatükk 4 - Häkkimine & varundamise haldus
-  Selles jaotises käsitleme kolme peamist valdkonda arvutiturvalisuses. Esiteks uurime erinevaid operatsioonisüsteeme: Mac, PC ja Linux, tuues esile nende eripärad ja tugevused. Seejärel süveneme meetoditesse, kuidas tõhusalt kaitsta end häkkimiskatsete eest ja tugevdada oma seadmete turvalisust. Lõpuks rõhutame regulaarselt oma andmete kaitsmise ja varundamise tähtsust, et vältida igasugust kaotust või lunarvara.![](assets/en/2.webp)
+
+Selles jaotises käsitleme kolme peamist valdkonda arvutiturvalisuses. Esiteks uurime erinevaid operatsioonisüsteeme: Mac, PC ja Linux, tuues esile nende eripärad ja tugevused. Seejärel süveneme meetoditesse, kuidas tõhusalt kaitsta end häkkimiskatsete eest ja tugevdada oma seadmete turvalisust. Lõpuks rõhutame regulaarselt oma andmete kaitsmise ja varundamise tähtsust, et vältida igasugust kaotust või lunarvara.
+
+![image](assets/et/002.webp)
 
 **Jaotis 3: Lahenduste rakendamine**
 
@@ -70,7 +75,8 @@ Alustuseks arutame veebibrauseri valimise tähtsust ja selle mõju turvalisusele
 Selles praktilises kolmandas jaotises liigume edasi teie konkreetsete lahenduste rakendamise juurde.
 
 Esmalt vaatame, kuidas kaitsta oma e-posti sisendkausta, mis on teie suhtluse jaoks hädavajalik ning tihti häkkerite sihtmärk. Seejärel tutvustame teile paroolihaldurit: praktilist lahendust, et enam ei unustaks ega segaks omavahel paroole, hoides neid turvaliselt. Lõpuks arutame lisaturvameedet, kahefaktorilist autentimist, mis lisab teie kontodele täiendava kaitsekihi. Kõik selgitatakse selgelt ja ligipääsetavalt.
-![](assets/en/3.webp)
+
+![image](assets/et/003.webp)
 
 Kas olete valmis tugevdama oma digitaalset turvalisust ja taastama kontrolli oma andmete üle? Lähme!
 # Kõik, mida pead teadma veebis surfamisest
@@ -81,18 +87,22 @@ Kas olete valmis tugevdama oma digitaalset turvalisust ja taastama kontrolli oma
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 Internetis surfates on oluline vältida teatud levinud vigu, et säilitada oma veebiturvalisus. Siin on mõned näpunäited nende vältimiseks:
 
 ### Ole ettevaatlik tarkvara allalaadimisel:
 
 Soovitatav on tarkvara alla laadida väljaandja ametlikult veebilehelt, mitte üldistelt saitidelt.
 Näide: Kasuta www.signal.org/download asemel www.logicieltelechargement.fr/signal.
-![](assets/notext/4.webp)
+
+![image](assets/et/004.webp)
 
 Samuti on soovitatav eelistada avatud lähtekoodiga tarkvara, kuna need on sageli turvalisemad ja vabad pahavarast. "Avatud lähtekoodiga" tarkvara on tarkvara, mille kood on kõigile teada ja kättesaadav. See võimaldab muuhulgas kontrollida, et ei oleks varjatud juurdepääsu teie isiklike andmete varastamiseks.
 
 > Boonus: Avatud lähtekoodiga tarkvara on sageli tasuta! See ülikool on 100% avatud lähtekoodiga, nii et saate ka meie koodi meie GitHubis kontrollida.
-> ![](assets/notext/5.webp)
+
+![image](assets/et/005.webp)
 
 ### Küpsiste haldamine: Vead ja parimad praktikad
 
@@ -104,7 +114,8 @@ Küpsised on failid, mida veebisaidid loovad teie seadmes teabe salvestamiseks. 
 
 On kaks peamist brauserite perekonda: need, mis põhinevad Chrome'il ja need, mis põhinevad Firefoxil.
 Kuigi mõlemad perekonnad pakuvad sarnast turvalisuse taset, soovitatakse vältida Google Chrome'i brauserit seoses selle jälgijatega. Chrome'ist kergemad alternatiivid, nagu Chromium või Brave, võivad olla eelistatumad. Eriti soovitatakse Brave'i selle sisseehitatud reklaamiblokeerija tõttu. Teatud veebisaitidele juurdepääsuks võib olla vajalik kasutada mitut brauserit.
-![](assets/notext/6.webp)
+
+![image](assets/et/006.webp)
 
 ### Privaatne sirvimine, TOR ja muud alternatiivid turvalisemaks ja anonüümsemaks sirvimiseks
 
@@ -113,30 +124,37 @@ Privaatne sirvimine, kuigi see ei peida sirvimist teie internetiteenuse pakkujal
 Täiustatud alternatiiv on TOR (The Onion Router) võrk, mis pakub anonüümsust, maskeerides kasutaja IP-aadressi ja võimaldades juurdepääsu Darknetile. TOR Browser on brauser, mis on spetsiaalselt kavandatud TOR-võrgu kasutamiseks. See võimaldab teil külastada nii tavalisi veebisaite kui ka .onion veebisaite, mida tavaliselt haldavad üksikisikud ja mis võivad olla ebaseadusliku iseloomuga.
 
 TOR on seaduslik ja seda kasutavad ajakirjanikud, vabadusaktivistid ja teised, kes soovivad põgeneda tsensuurist autoritaarsetes riikides. Siiski on oluline mõista, et TOR ei turva külastatavaid saite ega arvutit ennast. Lisaks võib TORi kasutamine aeglustada internetiühendust, kuna andmed liiguvad enne sihtkohta jõudmist läbi kolme teise inimese arvutite. On ka oluline märkida, et TOR ei ole lollikindel lahendus 100% anonüümsuse tagamiseks ja seda ei tohiks kasutada ebaseaduslikeks tegevusteks.
-![](assets/notext/7.webp)
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+![image](assets/et/007.webp)
+
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN ja internetiühendus
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
+
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
 
 ### VPN-id
 
 Teie internetiühenduse kaitsmine on online turvalisuse oluline aspekt ja virtuaalsete privaatvõrkude (VPN-ide) kasutamine on tõhus meetod selle turvalisuse tõstmiseks nii ettevõtetele kui ka üksikkasutajatele.
 
 'VPN-id on tööriistad, mis krüpteerivad interneti kaudu edastatud andmeid, muutes ühenduse turvalisemaks. Professionaalses kontekstis võimaldavad VPN-id töötajatel turvaliselt kaugjuurdepääsu ettevõtte sisevõrgule. Vahetatud andmed on krüpteeritud, muutes kolmandate osapoolte poolt pealtkuulamise palju raskemaks. Lisaks sisevõrgule juurdepääsu turvamisele võimaldab VPN-i kasutamine kasutajal suunata oma internetiühenduse läbi ettevõtte sisevõrgu, jättes mulje, et nende ühendus tuleb ettevõttest. See võib olla eriti kasulik geograafiliselt piiratud online-teenustele juurdepääsuks.
-![](assets/en/8.webp)
+
+![image](assets/et/008.webp)
 
 ### VPN-i tüübid
 
 VPN-e on peamiselt kahte tüüpi: ettevõtte VPN-id ja tarbija VPN-id, nagu NordVPN. Ettevõtte VPN-id kipuvad olema kallimad ja keerukamad, samas kui tarbija VPN-id on üldiselt kättesaadavamad ja kasutajasõbralikumad. Näiteks võimaldab NordVPN kasutajatel ühenduda internetiga serveri kaudu, mis asub teises riigis, mis võib mööda minna geograafilistest piirangutest.
-Kuigi tarbija VPN-i kasutamine ei taga täielikku anonüümsust, säilitavad paljud VPN-i pakkujad teavet oma kasutajate kohta, mis võib nende anonüümsust ohustada. Kuigi VPN-id võivad olla kasulikud veebiturvalisuse parandamisel, ei ole need universaalne lahendus. Need on tõhusad teatud konkreetsetel eesmärkidel, nagu geograafiliselt piiratud teenustele juurdepääsu võimaldamine või turvalisuse parandamine reisimisel, kuid need ei taga täielikku turvalisust. VPN-i valimisel on oluline eelistada usaldusväärsust ja tehnilisust populaarsusele. VPN-i pakkujad, kes koguvad kõige vähem isiklikku teavet, on üldiselt kõige turvalisemad. Teenused nagu iVPN ja Mullvad ei kogu isiklikku teavet ja võimaldavad isegi makseid Bitcoin'is suurema privaatsuse tagamiseks. ![](assets/notext/9.webp)
+Kuigi tarbija VPN-i kasutamine ei taga täielikku anonüümsust, säilitavad paljud VPN-i pakkujad teavet oma kasutajate kohta, mis võib nende anonüümsust ohustada. Kuigi VPN-id võivad olla kasulikud veebiturvalisuse parandamisel, ei ole need universaalne lahendus. Need on tõhusad teatud konkreetsetel eesmärkidel, nagu geograafiliselt piiratud teenustele juurdepääsu võimaldamine või turvalisuse parandamine reisimisel, kuid need ei taga täielikku turvalisust. VPN-i valimisel on oluline eelistada usaldusväärsust ja tehnilisust populaarsusele. VPN-i pakkujad, kes koguvad kõige vähem isiklikku teavet, on üldiselt kõige turvalisemad. Teenused nagu iVPN ja Mullvad ei kogu isiklikku teavet ja võimaldavad isegi makseid Bitcoin'is suurema privaatsuse tagamiseks. 
+
+![image](assets/et/009.webp)
+
 Lõpuks võib VPN-i kasutada ka veebireklaamide blokeerimiseks, pakkudes nauditavamat ja turvalisemat sirvimiskogemust. Siiski on oluline teha oma uurimistööd, et leida just teie konkreetsetele vajadustele kõige paremini sobiv VPN. VPN-i kasutamine on soovitatav turvalisuse suurendamiseks, isegi kui sirvite internetti kodus. See aitab tagada vahetatavate andmete kõrgema turvalisuse taseme. Lõpuks veenduge, et kontrolliksite URL-e ja väikest tabalukku aadressiribal, et kinnitada, et olete soovitud saidil.
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS ja avalikud Wi-Fi võrgud
 
@@ -145,7 +163,9 @@ Veebiturvalisuse osas on oluline mõista, et 4G on üldiselt turvalisem kui aval
 Euroopa Liidus reguleerib andmekaitset Üldine Andmekaitse Määrus (GDPR). Seetõttu on turvalisem kasutada Euroopa Wi-Fi pääsupunktide pakkujaid, nagu SNCF, kes ei müü kasutaja ühenduse andmeid edasi. Siiski ei taga pelgalt tabaluku kuvamine saidi autentsust. On oluline kontrollida saidi avalikku võtit kasutades sertifikaadisüsteemi, et kinnitada selle autentsust. Kuigi andmete krüpteerimine takistab kolmandatel osapooltel vahetatavate andmete pealtkuulamist, on siiski võimalik, et pahatahtlik isik võib saidi jäljendada ja andmeid lihttekstina edastada.
 
 Veebipettuste vältimiseks on oluline kontrollida külastatava saidi identiteeti, eriti kontrollides laiendit ja domeeninime. Lisaks olge valvas petturite suhtes, kes kasutavad URL-ides sarnaseid tähti, et kasutajaid eksitada.
-![](assets/en/10.webp)
+
+![image](assets/et/010.webp)
+
 Kokkuvõttes võib VPN-i kasutamine oluliselt parandada veebiturvalisust nii ettevõtetele kui ka üksikkasutajatele. Lisaks võib heade sirvimisharjumuste praktiseerimine aidata kaasa paremale digitaalsele hügieenile. Järgmises kursuse osas käsitleme arvuti turvalisust, sealhulgas uuendusi, viirusetõrjet ja paroolihaldust.
 
 # Parimad praktikad arvuti kasutamisel
@@ -156,6 +176,8 @@ Kokkuvõttes võib VPN-i kasutamine oluliselt parandada veebiturvalisust nii ett
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
+
 Meie arvutite turvalisus on tänapäeva digitaalses maailmas suur mure. Täna käsitleme kolme peamist punkti:
 
 - Arvuti valimine
@@ -165,9 +187,14 @@ Meie arvutite turvalisus on tänapäeva digitaalses maailmas suur mure. Täna k�
 ### Arvuti ja operatsioonisüsteemi valimine
 
 Arvuti valimisel ei ole vanade ja uute arvutite vahel olulist turvalisuse erinevust. Siiski on operatsioonisüsteemide vahel turvalisuse erinevused: Windows, Linux ja Mac.
+
+![image](assets/et/011.webp)
+
 Windowsi puhul on soovitatav mitte kasutada igapäevaselt administraatori kontot, vaid luua kaks eraldi kontot: administraatori konto ja igapäevaseks kasutamiseks mõeldud konto. Windows on sageli rohkem avatud pahavara suhtes tänu oma suurele kasutajate arvule ja lihtsusele vahetada kasutaja ja administraatori vahel. Teisest küljest on ohud Linuxil ja Macil vähem levinud.
 
 Operatsioonisüsteemi valik peaks põhinema teie vajadustel ja eelistustel. Linuxi süsteemid on viimastel aastatel oluliselt arenenud, muutudes üha kasutajasõbralikumaks. Ubuntu on algajatele huvitav alternatiiv, millel on lihtsasti kasutatav graafiline liides. On võimalik partitsioneerida arvuti, et katsetada Linuxit, säilitades samal ajal Windowsi, kuid see võib olla keeruline. Sageli on eelistatav omada pühendatud arvutit, virtuaalmasinat või USB-võtit Linuxi või Ubuntu testimiseks.
+
+![image](assets/et/012.webp)
 
 ### Tarkvarauuendused
 
@@ -187,6 +214,8 @@ Konkreetse vea näiteks: kräkitud tarkvara, mida ei saa uuendada, kujutab endas
 Viirusetõrje valik ja rakendamine on oluline. Windows Defender, Windowsi sisseehitatud viirusetõrje, on turvaline ja tõhus lahendus. Tasuta lahendusena on see erakordselt hea ja palju parem kui paljud internetist leitavad tasuta lahendused. Tõepoolest, internetist allalaaditud viirusetõrjega tuleks olla ettevaatlik, kuna need võivad olla pahatahtlikud või aegunud.
 Neile, kes soovivad investeerida tasulisse viirusetõrjesse, on soovitatav valida viirusetõrje, mis analüüsib intelligentselt tundmatuid ja tekkivaid ohte, nagu Kaspersky. Viirusetõrje uuendused on olulised uute ohtude vastu kaitsmiseks.
 
+![image](assets/et/013.webp)
+
 > Märkus: Linux ja Mac, tänu nende kasutajaõiguste eraldamise süsteemile, tihti ei vaja viirusetõrjet.
 
 Lõpuks, siin on mõned head tavad teie arvuti ja andmete turvalisuse jaoks. On oluline valida tõhus ja kasutajasõbralik viirusetõrje. Samuti on oluline omaks võtta head tavad oma arvutis, nagu tundmatute või kahtlaste USB-võtmete mitte sisestamine. Need USB-võtmed võivad sisaldada pahatahtlikke programme, mis võivad automaatselt käivituda sisestamisel. USB-võtme kontrollimine on kasutu, kui see on juba sisestatud. Mõned ettevõtted on olnud häkkimise ohvrid tänu hooletult ligipääsetavates piirkondades, nagu parkla, jäetud USB-võtmetele.
@@ -197,6 +226,8 @@ Järeldusena on oluline valida operatsioonisüsteem, mis vastab teie vajadustele
 ## Häkkimine ja varundamise haldus: Oma andmete kaitsmine
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
+
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
 
 ### Kuidas häkkerid ründavad?
 
@@ -217,7 +248,9 @@ Kuldreegel siin on saatja täisnime ja e-kirja päritolu hoolikas kontrollimine.
 ### Lunavara ja küberrünnakute tüübid:
 
 Lunavara on pahatahtlik tarkvara tüüp, mis krüpteerib kasutaja andmed ja nõuab nende dekrüpteerimiseks lunaraha. See rünnakutüüp muutub üha tavalisemaks ja võib ettevõttele või eraisikule palju probleeme tekitada. Enda kaitsmiseks on hädavajalik luua varukoopiaid kõige tundlikumatest failidest! See ei peata lunavara, kuid võimaldab teil seda lihtsalt ignoreerida.
-![](assets/notext/14.webp)
+
+![image](assets/et/014.webp)
+
 Varundage regulaarselt oma olulised andmed välisele salvestusseadmele või turvalisse veebipõhisesse salvestusteenusesse. Nii saate küberrünnaku või riistvararikke korral oma andmed taastada ilma olulist teavet kaotamata.
 
 Lihtne lahendus:
@@ -232,9 +265,9 @@ EI, üldiselt ei soovitata lunavara või muud tüüpi rünnakute korral häkkeri
 
 Kui avastate oma arvutis viiruse, ühendage see internetist lahti, tehke täielik viirusetõrje skannimine ja kustutage nakatunud failid. Seejärel uuendage oma tarkvara ja operatsioonisüsteemi ning muutke oma paroole, et vältida edasisi sissetunge.
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Lahenduste rakendamine.
 
@@ -243,6 +276,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## E-posti kontode haldamine
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
 
 ### Uue e-posti konto seadistamine!
 
@@ -255,7 +290,9 @@ Kuigi meil kõigil on juba e-posti konto, on oluline kaaluda uue, kaasaegsema lo
 ### E-posti teenuse pakkuja valimine ja e-posti aadresside haldamine
 
 Meie e-posti aadresside korrektne haldamine on oluline meie veebipääsu turvalisuse tagamiseks. On tähtis valida turvaline ja privaatsust austav e-posti teenuse pakkuja. Näiteks ProtonMail on turvaline ja privaatsust austav e-posti teenus.
-![](assets/notext/15.webp)
+
+![image](assets/et/015.webp)
+
 E-posti teenuse pakkuja valimisel ja parooli loomisel on oluline mitte kunagi kasutada sama parooli erinevate veebiteenuste jaoks. Soovitatav on regulaarselt luua uusi e-posti aadresse ja eraldada kasutusalasid, kasutades erinevaid e-posti aadresse. Kriitiliste kontode jaoks on eelistatav valida turvaline e-posti teenus. Tuleb märkida, et mõned teenused piiravad paroolide pikkust, seega on oluline olla teadlik sellest piirangust. Teenused on saadaval ka ajutiste e-posti aadresside loomiseks, mida saab kasutada piiratud kestusega kontode jaoks.
 
 On oluline arvestada, et vanemad e-posti teenuse pakkujad nagu La Poste, Arobase, Wig, Hotmail, on endiselt kasutusel, kuid nende turvapraktikad ei pruugi olla nii head kui Gmailil. Seetõttu on soovitatav omada kahte eraldi e-posti aadressi, ühte üldiseks suhtluseks ja teist konto taastamiseks, viimane peaks olema paremini turvatud. On parim vältida e-posti aadressi segamist oma telefonioperaatori või internetiteenuse pakkujaga, kuna see võib olla rünnaku vektor.
@@ -263,15 +300,19 @@ On oluline arvestada, et vanemad e-posti teenuse pakkujad nagu La Poste, Arobase
 ### Kas peaksin oma e-posti kontot vahetama?
 
 On soovitatav kasutada veebisaiti Have I Been Pwned (https://haveibeenpwned.com/), et kontrollida, kas meie e-posti aadress on kompromiteeritud, ja saada teavitusi tulevaste andmelekete kohta. Häkitud andmebaasi saavad häkkerid kasutada õngitsuskirjade saatmiseks või kompromiteeritud paroolide taaskasutamiseks.
-![](assets/notext/16.webp)
+
+![image](assets/et/016.webp)
+
 Üldiselt ei ole uue, turvalisema e-posti aadressi kasutusele võtmine halb tava ja isegi vajalik, kui soovitakse alustada puhtalt lehelt tervislikul alusel.
 Boonus Bitcoin: Võib olla soovitatav luua spetsiifiline e-posti aadress meie Bitcoin'i tegevusteks (vahetuskontode loomine), et tõeliselt eraldada meie elu erinevad tegevusalad.
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Paroolihaldur
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 ### Mis on paroolihaldur?
 
@@ -283,15 +324,20 @@ Paroolihalduri abil ei pea te enam muretsema oma paroolide unustamise või kuski
 
 - LastPass: Üks populaarsemaid paroolihaldureid. Tegemist on kolmanda osapoole teenusega, mis tähendab, et teie paroolid salvestatakse nende serveritesse. Pakutakse tasuta versiooni ja tasulist versiooni, kasutajasõbraliku liidesega.
 - Dashlane: Samuti kolmanda osapoole teenus, intuitiivse liidesega ja lisafunktsioonidega nagu krediitkaardiinfo jälgimine ja turvalised märkmed.
-  ![](assets/notext/17.webp)
+
+![image](assets/et/017.webp)
 
 ### Ise majutamine suurema kontrolli jaoks:
 
 - Bitwarden: See on avatud lähtekoodiga tööriist, mis tähendab, et saate selle koodi üle vaadata, et kontrollida selle turvalisust. Kuigi Bitwarden pakub majutatud teenust, võimaldab see ka kasutajatel ise majutada, mis tähendab, et saate kontrollida, kus teie paroolid salvestatakse, pakkudes potentsiaalselt rohkem turvalisust ja kontrolli.
 
 - KeePass: See on avatud lähtekoodiga lahendus, mis on peamiselt mõeldud ise majutamiseks. Teie andmed salvestatakse vaikimisi kohalikult, kuid soovi korral saate parooliandmebaasi sünkroniseerida erinevate meetoditega. KeePass on laialdaselt tunnustatud oma turvalisuse ja paindlikkuse poolest, kuigi see võib algajatele olla veidi vähem kasutajasõbralik.
-  ![](assets/notext/18.webp)
-  (Märkus: Kolmanda osapoole teenuse või ise majutatud teenuse vahel valimine sõltub teie tehnoloogilisest mugavustasemest ja sellest, kuidas te prioriseerite kontrolli mugavuse suhtes. Kolmanda osapoole teenused on enamiku inimeste jaoks üldiselt mugavamad, samas kui ise majutamine nõuab rohkem tehnilisi teadmisi, kuid võib pakkuda rohkem kontrolli ja meelerahu turvalisuse osas.)
+
+![image](assets/et/018.webp)
+
+Isetehtud lahenduste, nagu KeePass, puhul on võimalik oma andmebaasi sünkroonida mitme seadme vahel ilma tsentraliseeritud kolmanda osapoole teenuseid kasutamata. Tööriistad nagu **Syncthing** võimaldavad krüpteeritud ja detsentraliseeritud sünkroonimist otse teie seadmete vahel. See lähenemine hoiab teie andmed teie kontrolli all, tagades samal ajal nende kättesaadavuse kõigis teie seadmetes.
+
+(Märkus: Kolmanda osapoole teenuse või ise majutatud teenuse vahel valimine sõltub teie tehnoloogilisest mugavustasemest ja sellest, kuidas te prioriseerite kontrolli mugavuse suhtes. Kolmanda osapoole teenused on enamiku inimeste jaoks üldiselt mugavamad, samas kui ise majutamine nõuab rohkem tehnilisi teadmisi, kuid võib pakkuda rohkem kontrolli ja meelerahu turvalisuse osas.)
 
 ### Mis teeb parooli heaks:
 
@@ -308,13 +354,15 @@ Tugeva parooli loomiseks on soovitatav kasutada suurt hulka juhuslikke tähemär
 
 Juhuslikult genereeritud paroolid pakuvad kõrgemat turvalisuse taset, kuigi need võivad olla raskemini meeldejäetavad. Paroolihaldurid saavad genereerida turvalisemaid juhuslikke paroole. Paroolihalduri kasutamisel ei pea te kõiki oma paroole meelde jätma. On oluline järk-järgult asendada oma vanad paroolid halduri poolt genereeritud tugevamate ja pikematega. Veenduge, et teie paroolihalduri peaparool on samuti tugev ja turvaline.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Kahefaktoriline Autentimine
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 ### Miks rakendada 2FA
 
@@ -323,8 +371,10 @@ Kahefaktoriline autentimine (2FA) on lisakiht turvalisuse tagamiseks, et veendud
 - Ajutine kood, mis saadetakse SMS-i teel.
 - Rakenduse, nagu Google Authenticator või Authy, genereeritud kood.
 - Füüsiline turvavõti, mida sisestate oma arvutisse.
-  ![](assets/notext/19.webp)
-  2FA abil ei saa häkker teie parooli teada saades kontole juurde pääseda ilma selle teise autentimisfaktorita. See teeb 2FA-st hädavajaliku vahendi teie veebikontode kaitsmiseks volitamata juurdepääsu eest.
+
+![image](assets/et/019.webp)
+
+2FA abil ei saa häkker teie parooli teada saades kontole juurde pääseda ilma selle teise autentimisfaktorita. See teeb 2FA-st hädavajaliku vahendi teie veebikontode kaitsmiseks volitamata juurdepääsu eest.
 
 ### Millist varianti valida?
 
@@ -335,6 +385,8 @@ Erinevad tugeva autentimise valikud pakuvad erinevat turvalisuse taset.
 - Riistvaralised tokenid, nagu USB-võtmed või nutikaardid, pakuvad optimaalset turvalisust, genereerides iga saidi jaoks unikaalse privaatvõtme ja kontrollides URL-i enne ühenduse lubamist.
 
 Optimaalse turvalisuse saavutamiseks tugeva autentimisega on soovitatav kasutada turvalist e-posti aadressi, turvalist paroolihaldurit ja kasutusele võtta 2FA, kasutades YubiKey'sid. Samuti on soovitatav soetada kaks YubiKey'd, et ette näha kaotust või vargust, näiteks hoides varukoopiaid nii kodus kui ka endaga kaasas.
+
+Seoses SIM-kaardi kahefaasilise autentimise (2FA) võimalike ohtudega on tavaline näide SIM-kaardi vahetuse rünnak, kus ründaja varastab kasutaja telefoninumbri, sidudes selle ründaja kontrolli all oleva SIM-kaardiga. Ründajal on mitmeid viise, kuidas rünnakut teostada; siiski on see oht tavaliselt suur probleem ainult kõrge profiiliga isikutele ja huvipakkuvatele inimestele.
 
 Biomeetria võib olla asendus, kuid see on vähem turvaline kui teadmiste ja valduse kombinatsioon. Biomeetrilised andmed peaksid jääma autentimisseadmesse ja neid ei tohiks veebis avaldada. On oluline kaaluda erinevate autentimismeetoditega seotud ohumudeleid ja vastavalt kohandada praktikaid.
 
@@ -351,9 +403,9 @@ Jätkake õppimist ja järk-järgult rakendage häid tavasid!
 
 Kuldreegel: Küberturvalisus on liikuv sihtmärk, mis kohandub teie õppimisteekonnaga!
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Praktiline osa
 
@@ -365,7 +417,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 E-posti postkasti kaitsmine on oluline samm oma veebitegevuste turvamiseks ja isikuandmete kaitsmiseks. See juhend juhendab teid samm-sammult ProtonMaili konto loomisel ja seadistamisel, pakkujal, mis on tuntud oma kõrge turvalisuse taseme poolest ja pakub teie kommunikatsioonide otsast lõpuni krüpteerimist. Olgu te olete algaja või kogenud kasutaja, siin pakutavad parimad tavad aitavad teil tugevdada oma postkasti turvalisust, kasutades samal ajal ProtonMaili täiustatud funktsioone:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Turvamine 2FA abil
 
@@ -373,11 +425,11 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 Kahefaktoriline autentimine (2FA) on muutunud oluliseks teie veebikontode turvamiseks. Selles juhendis õpite, kuidas seadistada ja kasutada 2FA rakendust Authy, mis genereerib teie kontode kaitsmiseks dünaamilisi 6-kohalisi koode. Authy on väga lihtne kasutada ja sünkroonib mitme seadmega. Avastage, kuidas installida ja konfigureerida Authy ning tugevdada oma veebikontode turvalisust kohe:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Teine võimalus on kasutada füüsilist turvavõtit. See teine juhend näitab, kuidas seadistada ja kasutada turvavõtit teise autentimistegurina:
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Paroolihalduri loomine
 
@@ -387,11 +439,11 @@ Paroolihaldus on digiajastul väljakutse. Meil kõigil on palju veebikontosid, m
 
 Selles õpetuses saate teada, kuidas seadistada Bitwarden, avatud lähtekoodiga paroolihaldurit, ja kuidas sünkroonida oma mandaadid kõigis seadmetes, et lihtsustada igapäevast kasutamist:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Kogenumatele kasutajatele pakun ka õpetust teise tasuta ja avatud lähtekoodiga tarkvara kohta, mida saate lokaalselt paroolide haldamiseks kasutada:
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Oma kontode turvamine
 
@@ -399,9 +451,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 Nendes kahes õpetuses juhendan teid ka oma veebikontode turvamisel ning selgitan, kuidas järk-järgult võtta kasutusele turvalisemaid praktikaid oma paroolide igapäevaseks haldamiseks.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Brauseri ja VPN-i vahetus
 
@@ -411,13 +463,13 @@ Teie online-elu privaatsuse kaitsmine on samuti oluline punkt teie turvalisuse t
 
 Pakun teil avastada kaks usaldusväärset VPN-lahendust, mida saab maksta bitcoini kaudu, nimelt IVPN ja Mullvad. Need juhendid aitavad teil installida, konfigureerida ja kasutada Mullvadi või IVPN-i kõigis teie seadmetes:
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Lisaks õppige kasutama Tor Browserit, spetsiaalselt teie online-privaatsuse kaitsmiseks loodud veebibrauserit:
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## Varundamise seadistamine
 
@@ -425,11 +477,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 Teie isiklike failide kaitsmine on samuti oluline punkt. See õpetus näitab, kuidas seadistada tõhus varundamisstrateegia Proton Drive'i abil. Avastage, kuidas kasutada seda turvalist pilvelahendust 3-2-1 meetodi rakendamiseks: kolm koopiat teie andmetest kahes erinevas meediumis, millest üks koopia on väljaspool asukohta. Nii tagate oma tundlike failide ligipääsetavuse ja turvalisuse:
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Ja et kaitsta teie eemaldatavatel meediumitel, nagu USB-mälupulk või väline kõvaketas, salvestatud faile, näitan ma ka, kuidas neid meediume VeraCryptiga hõlpsasti krüpteerida ja dekrüpteerida:
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Mine kaugemale
 
@@ -438,6 +490,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## Kuidas töötada küberjulgeoleku valdkonnas
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
+
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
 
 ### Küberjulgeolek: Pidevalt kasvav valdkond lõputute võimalustega
 
@@ -470,18 +524,23 @@ Pidevalt arenevate ohtude tõttu on oluline jälgida uudiseid ja spetsialiseerit
 - Haldus: ISO standardid, GDPR/CCPA regulatsioonid.
 
 Nende oskuste ja tööriistade valdamine varustab teid edukalt navigeerima küberjulgeoleku maailmas.
-![](assets/notext/20.webp)
+
+![image](assets/et/020.webp)
 
 ## Intervjuu Renaud'ga
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 ### Tõhus paroolihaldus ja autentimise tugevdamine: Akadeemiline lähenemine
 
 Kolm peamist mõõdet, mida arvesse võtta paroolihalduritest rääkides: paroolide loomine, uuendamine ja rakendamine veebilehtedel. Üldiselt ei soovitata kasutada brauseri laiendusi automaatseks paroolide täitmiseks. Need tööriistad võivad muuta kasutaja haavatavamaks õngitsusrünnakute suhtes. Renaud, tunnustatud ekspert küberturvalisuse alal, eelistab manuaalset haldust KeePassi abil, mis hõlmab parooli käsitsi kopeerimist ja kleepimist. Laiendused kipuvad suurendama rünnaku pinda, võivad aeglustada brauseri jõudlust ja seetõttu kujutavad endast olulist riski. Seega on soovitatav praktika brauseri laienduste minimaalne kasutamine.
 
 Paroolihaldurid üldiselt julgustavad kasutama lisatuvastusfaktoreid, nagu kahefaktoriline autentimine. Optimaalse turvalisuse tagamiseks on soovitatav hoida OTP-sid (Ühekordseid Paroole) oma mobiilseadmes. AndoTP pakub avatud lähtekoodiga lahendust OTP-koodide genereerimiseks ja salvestamiseks telefonis. Kuigi Google Authenticator võimaldab eksportida autentimiskoodi seemneid, on Google'i kontol põhineva varundamise usaldus piiratud. Seetõttu soovitatakse OTI ja AndoTP rakendusi autonoomseks OTP halduseks.
-![](assets/notext/21.webp)
+
+![image](assets/et/021.webp)
+
 Digitaalse pärandi ja leina küsimus tõstab esile paroolide edastamise protseduuri tähtsust pärast inimese surma. Paroolihaldur hõlbustab seda üleminekut, turvaliselt salvestades kõik digitaalsed saladused ühte kohta. Paroolihaldur võimaldab samuti tuvastada kõik avatud kontod ja hallata nende sulgemist või üleandmist. Soovitatav on kirjutada peaparool paberile, kuid seda tuleks hoida varjatud ja turvalises kohas. Kui kõvaketas on krüpteeritud ja arvuti lukustatud, ei ole parool kättesaadav isegi sissemurdmise korral.
 
 ### Liikumine paroolijärgsesse ajastusse: usaldusväärsete alternatiivide uurimine

@@ -1,0 +1,9 @@
+question: Какой тип блока IPv6 позволяет компании сохранять свой префикс даже при смене провайдера?
+answer: PI (независимый поставщик)
+wrong_answers:
+  - PA (Provider Aggregatable)
+  - LIR (Local Internet Registry)
+  - IP (сменный поставщик)
+explanation: |
+  Блок PI (Provider Independent) выделяется RIR непосредственно организации, независимо от интернет-провайдера.
+reviewed: false

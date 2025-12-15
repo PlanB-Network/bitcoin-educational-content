@@ -1,0 +1,9 @@
+question: Ni igiki ikintu ca LNURL-Withdraw gituma abakoresha bakora?
+answer: Gukura amafranga muri serivisi ukoresheje gucapura kode ya QR
+wrong_answers:
+  - Uwishyure ataco utanga
+  - Huza umuravyo wabo Wallet ata jambobanga
+  - Wohereze amafranga ata kwemeza kw'uwayaronkeye
+explanation: |
+  LNURL-Withdraw iremesha abayikoresha gukura amahera mu kigo kinaka biciye ku gucapura kode ya QR, gutyo bikaba vyorosha uburyo bwo kuyakura.
+reviewed: false

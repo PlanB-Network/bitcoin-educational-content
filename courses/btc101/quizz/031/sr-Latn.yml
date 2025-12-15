@@ -1,13 +1,9 @@
-question: Koja od sledećih opcija nije prednost Bitkoina kao valute?
-answer: Koristi se za plaćanje poreza.
+question: Koliki je maksimalan broj bitkoin jedinica koje ikada mogu postojati?
+answer: 21 milion.
 wrong_answers:
-  - To je deljivo.
-  - To je prenosivo.
-  - To je bez dozvole.
+  - 3 triliona.
+  - 100 miliona.
+  - Nema ograničenja.
 explanation: |
-  Bitkoin, zbog svojih svojstava kao što su deljivost,
-  proverljivost, aspekt bez dozvola i prenosivost,
-  nudi odličnu vrednost za čuvanje. Štaviše, kao neutralna
-  internet valuta, predstavlja dobro sredstvo razmene
-  koje ne poznaje granice.
+  Ukupna ponuda od bitkoina je ograničena na 21 milion jedinica. Ovo je ključna karakteristika Bitkoina koja ga razlikuje od fiducijarnih valuta, koje centralne banke mogu štampati u neograničenim količinama.
 reviewed: true

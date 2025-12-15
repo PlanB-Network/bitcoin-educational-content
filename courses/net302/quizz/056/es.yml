@@ -1,0 +1,9 @@
+question: ¿Cuál es el principal objetivo de la conexión en red?
+answer: Agregue varias interfaces de red físicas
+wrong_answers:
+  - Añadir direcciones IP virtuales a la red local
+  - Creación de un puente Wi-Fi
+  - Reducir el tamaño de los paquetes en el cable RJ45
+explanation: |
+  La unión de redes combina varias interfaces físicas en una sola lógica, lo que proporciona redundancia o un mayor ancho de banda.
+reviewed: false

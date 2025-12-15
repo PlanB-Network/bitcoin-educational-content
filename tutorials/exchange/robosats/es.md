@@ -6,13 +6,13 @@ description: Cómo usar Robosats
 
 ![cover](assets/cover.webp)
 
-RoboSats (https://learn.robosats.com/) es una forma fácil de intercambiar Bitcoin por monedas nacionales de forma privada. Simplifica la experiencia peer-to-peer y utiliza facturas de retención de rayos para minimizar los requisitos de custodia y confianza.
+RoboSats (https://learn.robosats.com/) es una forma fácil de intercambiar Bitcoin por moneda nacional de forma privada. Simplifica la experiencia peer-to-peer y utiliza facturas de retención de Lightning para minimizar los requisitos de custodia y confianza.
 
 ![video](https://youtu.be/XW_wzRz_BDI)
 
 ## Guía
 
-> Esta guía es de Bitocin Q&A (https://bitcoiner.guide/robosats/). Todo el crédito para él, apóyalo allí (https://bitcoiner.guide/contribute); BitcoinQ&A también es un mentor de Bitcoin. ¡Contáctalo para recibir mentoría!
+> Esta guía es de Bitocin Q&A (https://bitcoiner.guide/robosats/). Todo el crédito para ellos, apóyalos allí (https://bitcoiner.guide/contribute); BitcoinQ&A también es un mentor de Bitcoin. ¡Contáctalos para recibir mentoría!
 
 ![image](assets/0.webp)
 
@@ -38,9 +38,9 @@ RoboSats - Un intercambio P2P simple y privado basado en Lightning
 
 RoboSats es nativo de Lightning, por lo que necesitarás una billetera Lightning para financiar la fianza y recibir los sats comprados como comprador. Debes tener cuidado al elegir tu billetera, debido a la tecnología utilizada para que RoboSats funcione, no todas son compatibles.
 
-Si eres un operador de nodo, Zeus es, con mucho, la mejor opción. Si no tienes tu propio nodo, te recomendaría Phoenix, una billetera móvil multiplataforma con una configuración sencilla y acceso a Lightning. Phoenix se utilizó en la producción de esta guía.
+Si eres un operador de nodo, Zeus es, con mucho, la mejor opción. Si no tienes tu propio nodo, te recomendaríamos Phoenix, una billetera móvil multiplataforma con una configuración sencilla y acceso a Lightning. Phoenix se utilizó en la producción de esta guía.
 
-### Algunos Bitcoin
+### Algo de Bitcoin
 
 Los compradores y vendedores deben financiar una fianza antes de que se pueda realizar cualquier intercambio. Esto suele ser una cantidad muy pequeña (~3% del monto del intercambio), pero es un requisito previo de todos modos.
 
@@ -144,8 +144,8 @@ Además de aceptar la oferta de otra persona, puedes crear la tuya propia y espe
 
 RoboSats se centra en Lightning, pero los compradores tienen la opción de recibir sus sats en una dirección de Bitcoin en cadena. Los compradores pueden seleccionar esta opción después de bloquear su fianza. Después de seleccionar en cadena, el comprador verá una descripción general de las tarifas. Las tarifas adicionales para este servicio incluyen:
 
-- Una tarifa de intercambio recolectada por RoboSats: esta tarifa es dinámica y varía según lo ocupada que esté la red de Bitcoin.
-- Una tarifa de minería para la transacción de pago: esto es configurable por el comprador.
+- Una tarifa de intercambio recolectada por RoboSats: Esta tarifa es dinámica y varía según lo ocupada que esté la red de Bitcoin.
+- Una tarifa de minería para la transacción de pago: Esto es configurable por el comprador.
 
 ![image](assets/16.webp)
 
@@ -165,7 +165,7 @@ Los usuarios de nodos Umbrel, Citadel y Start9 pueden instalar su propio cliente
 
 - Tiempos de carga dramáticamente más rápidos.
 - Más seguro: tú controlas qué aplicación de cliente de RoboSats ejecutas.
-- Accede a RoboSats de forma segura desde cualquier navegador/dispositivo. No es necesario usar TOR si estás en tu red local o utilizando una VPN: tu backend de nodo se encarga de la torificación necesaria para la anonimización.
+- Accede a RoboSats de forma segura desde cualquier navegador/dispositivo. No es necesario usar TOR si estás en tu red local o utilizando una VPN: Tu backend de nodo se encarga de la torificación necesaria para la anonimización.
 - Permite controlar a qué coordinador de mercado P2P te conectas (por defecto, robosats6tkf3eva7x2voqso3a5wcorsnw34jveyxfqi2fu7oyheasid.onion)
 
 ![image](assets/18.webp)
@@ -174,7 +174,9 @@ Los usuarios de nodos Umbrel, Citadel y Start9 pueden instalar su propio cliente
 
 ### ¿Puedo ser estafado?
 
-Como comprador, si has enviado el dinero fiat requerido para tu parte del intercambio, pero el vendedor no te libera los sats, puedes abrir una disputa. Si durante este proceso de disputa puedes demostrar a los árbitros de RoboSats que enviaste el dinero fiat, los fondos en garantía del vendedor y su bono de intercambio serán liberados para ti. ¿Cómo cancelo un intercambio?
+Como comprador, si has enviado el dinero fiat requerido para tu parte del intercambio, pero el vendedor no te libera los sats, puedes abrir una disputa. Si durante este proceso de disputa puedes demostrar a los árbitros de RoboSats que enviaste el dinero fiat, los fondos en garantía del vendedor y su bono de intercambio serán liberados para ti. 
+
+### ¿Cómo cancelo un intercambio?
 
 Puedes cancelar un intercambio después de publicar tu bono haciendo clic en el botón de Cancelación Colaborativa dentro del menú de intercambio. Si tu compañero de intercambio está de acuerdo en cancelar, no incurrirás en ninguna tarifa. Pero si tu compañero de intercambio quiere completar el intercambio y tú decides cancelarlo de todos modos, perderás tu bono de intercambio.
 

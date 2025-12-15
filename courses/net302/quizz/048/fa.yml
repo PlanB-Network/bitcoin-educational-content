@@ -1,0 +1,9 @@
+question: Layer کدام مدل OSI به Address MAC تعلق دارد؟
+answer: داده لینک Layer
+wrong_answers:
+  - برنامه Layer
+  - حمل و نقل Layer
+  - شبکه Layer
+explanation: |
+  Address MAC در لایه 2 مدل OSI، که به عنوان "لایه پیوند داده Layer" شناخته می‌شود، عمل می‌کند و برای آدرس‌دهی سخت‌افزاری فریم‌ها استفاده می‌شود.
+reviewed: false

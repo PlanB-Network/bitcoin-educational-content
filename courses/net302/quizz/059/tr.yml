@@ -1,0 +1,9 @@
+question: Linux üzerinde bir Interface'a statik IP Address eklemek için hangi komut kullanılabilir?
+answer: ip addr add [Address]/[mask] dev [Interface]
+wrong_answers:
+  - ifconfig [Interface] up [Address]/[maske]
+  - ip rota ekleme [Address] dev [Interface]
+  - route add -net [Address] netmask [maske] dev [Interface]
+explanation: |
+  "ip addr add" komutu, Linux üzerinde bir Interface ağına statik IP Address atamak için kullanılan modern bir yöntemdir.
+reviewed: false

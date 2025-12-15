@@ -1,0 +1,9 @@
+question: Bitcoin'ı tanıtan ve Fransızca yayınlanan ilk makalenin yazarı kimdi?
+answer: Lucien Grondin (grondilu)
+wrong_answers:
+  - Lionel Dricot (Ploum)
+  - Amaury Séchet (deadalnix)
+  - David François (davout)
+explanation: |
+  LinuxFr.org'da 30 Eylül 2010 tarihinde yayınlanan [text](https: //linuxfr.org/news/connaissez-vous-les-bitcoins) Bitcoins hakkında bilginiz var mı?
+reviewed: true

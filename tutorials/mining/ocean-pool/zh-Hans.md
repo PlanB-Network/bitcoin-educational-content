@@ -1,5 +1,5 @@
 ---
-name: 海洋采矿
+name: Ocean Mining
 
 description: 海洋采矿简介
 ---

@@ -1,0 +1,9 @@
+question: Welk mechanisme zorgt ervoor dat een interne service extern toegankelijk is via NAT?
+answer: Poort doorsturen
+wrong_answers:
+  - Pakketfragmentatie
+  - RIP-routering
+  - NAT-compressie
+explanation: |
+  Port forwarding laat toe om een externe verbinding door te sturen naar een specifieke interne host via de NAT gateway.
+reviewed: false

@@ -1,10 +1,9 @@
-question: ASICsはBitcoinマイニングにおいてどのような役割を果たしていますか？
-answer: ASICsは、マイニングプロセスでSHA256アルゴリズムを適用するために特別に設計されたマシンです。
+question: ビットコインマイニングの環境コストに関する主な懸念は何ですか？
+answer: エネルギー消費。
 wrong_answers:
-  - ASICsは、検証プロセスでSHA256アルゴリズムを適用することによってBitcoinトランザクションを検証するために使用されます。
-  - ASICsは、新しいbitcoinsを任意に作成するために使用されます。
-  - ASICsは、Bitcoinネットワークを保護するために使用されます。
-explanation: |
-  ASICs（Application-Specific Integrated Circuits）は、
-  Bitcoinマイニングのために特別に設計された専門のハードウェアです。これらは、マイナーがProof of Workプロセスで解決しなければならない数学的問題であるSHA256ハッシュ関数を実行するために最適化されています。
+  - ASICの生産。
+  - ASICのリサイクル。
+  - 電気のコスト。
+explanation: >-
+  ビットコインマイニングの主な環境上の懸念は、エネルギー消費です。ASICは主にアルミニウムで作られており、リサイクルまたは再利用が可能ですが、これらのマシンを動かすために必要なエネルギーは莫大です。
 reviewed: true

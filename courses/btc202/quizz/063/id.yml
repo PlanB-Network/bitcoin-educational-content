@@ -1,0 +1,9 @@
+question: Apa saja dua implementasi Lightning Network yang tersedia di Umbrel?
+answer: LND dan Petir Inti
+wrong_answers:
+  - Electrs dan Fulcrum
+  - Bitcoin core dan Bitcoin Knots
+  - Mengendarai Lightning dan ThunderHub
+explanation: |
+  Umbrel memungkinkan Anda memilih antara LND dan Core Lightning sebagai implementasi Lightning Network.
+reviewed: true

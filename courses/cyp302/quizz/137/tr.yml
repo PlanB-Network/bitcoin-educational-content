@@ -1,0 +1,9 @@
+question: Parolalar neden genellikle güvenli sunucularda hash olarak saklanır?
+answer: Bir sızıntı durumunda şifrelerin kolayca ele geçirilmesini önlemek için
+wrong_answers:
+  - Kullanıcı veri depolama alanının boyutunu artırmak için
+  - Parolaları simetrik bir şekilde gerçek zamanlı olarak şifrelemek için
+  - Kullanıcıların parola olmadan oturum açmasına izin vermek için
+explanation: |
+  Parola karmalarının saklanmasıyla, bir veri ihlali durumunda bile gerçek parolalar doğrudan okunamaz ve böylece güvenlik artırılır.
+reviewed: false

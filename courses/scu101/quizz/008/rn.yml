@@ -1,0 +1,12 @@
+question: Umuhora wa TOR ni iki?
+answer: Umuhora utanga ukutamenyekana mu gupfuka aderese IP y’uwukoresha no kwemerera umuntu gushika ku Darknet.
+wrong_answers:
+  - Umuhora ukingira igikoresho cawe umugera(nyabwonko) nizindi porogarame mbi.
+  - Umuhora unyegeza igikorwa cawe co kuri internet uwuguha interineti.
+  - Umuhora utuma ushobora kuronderera kuri internet binyaruka.
+explanation: |
+  Umuhora wa TOR (The Onion Router) ni umuhora utanga ukutamenyekana 
+  mu gupfuka aderese IP y'uwukoresha no kwemerera umuntu gushika kuri Darknet.
+  Ikoreshwa n’abanyamakuru, aba haranira ukwishira ukizana, n’abandi barondera guca kuruhande 
+  ibibujijwe mubihugu bidatanga ukwishira ukizana muri vyose.
+reviewed: true

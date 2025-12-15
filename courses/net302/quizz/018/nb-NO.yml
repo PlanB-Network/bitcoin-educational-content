@@ -1,0 +1,9 @@
+question: Hva er et datagram i IP-protokollsammenheng?
+answer: En selvstendig blokk med data som transporteres over nettverket
+wrong_answers:
+  - En kryptert melding til en enkelt enhet
+  - Et TCP-segment innkapslet i UDP
+  - Et fysisk signal fra Network Access Layer
+explanation: |
+  IP-data overføres i form av datagrammer, uavhengige blokker som inneholder all informasjonen som trengs for levering.
+reviewed: false

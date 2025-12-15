@@ -1,8 +1,11 @@
-question: Hva er notarens rolle i sammenheng med arv av Bitcoin?
-answer: Å sikre skattemessig overholdelse
+question: Når ble Bitcoin først presentert for verden?
+answer: 31. oktober 2008
 wrong_answers:
-  - Å forvalte dine bitcoins etter din død
-  - Å lage din arveplan
-  - Å sikre dine bitcoins
+  - 3. januar 2009
+  - 22. november 2009
+  - 12. desember 2010
 explanation: |
-  I sammenheng med arv av Bitcoin, er det viktig å diskutere arven av bitcoins med en notar for å sikre skattemessig overholdelse.
+  Bitcoin ble først presentert for verden den 31. oktober 2008, da Satoshi
+  Nakamoto sendte en e-post til cypherpunk e-postlisten som inneholdt Bitcoin White
+  Paper.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Đèn nháy
+name: Flash
 description: Mua bitcoin từ 100 franc CFA nhờ sức mạnh của Lightning.
 ---
 
@@ -39,8 +39,8 @@ Nền tảng này cung cấp hai dịch vụ chính:
 
 
 
-- FlashX**: Bitcoin Exchange với Mobile Money.
-- FlashPayment**: Sử dụng Bitcoin cho các dịch vụ hàng ngày.
+- **FlashX**: Bitcoin Exchange với Mobile Money.
+- **FlashPayment**: Sử dụng Bitcoin cho các dịch vụ hàng ngày.
 
 
 
@@ -73,9 +73,9 @@ Flash vận hành các giao dịch của mình bằng Mobile Money địa phươ
 
 
 
-- Bénin**: MTN Bénin, Moov Bénin, Celtiis.
-- Togo** : Tiếng Togo.
-- Burkina-Faso**: Màu cam.
+- **Bénin**: MTN Bénin, Moov Bénin, Celtiis.
+- **Togo**: Tiếng Togo.
+- **Burkina-Faso**: Màu cam.
 
 
 
@@ -110,7 +110,7 @@ Tiến hành thanh toán, sau đó nhập Lightning Address của bạn để x�
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Thực hiện giao dịch trên Flash sẽ mất trung bình từ 5 đến 10 phút để bạn nhận được bitcoin trên Lightning Wallet của mình.
 
@@ -157,10 +157,10 @@ Ngoài việc mua và bán bitcoin, Flash còn cung cấp cho cộng đồng c�
 
 
 
-- Đơn vị GSM**;
-- Gói Internet**;
-- Gọi các gói**;
-- Gói kết hợp gọi điện và Internet**.
+- Đơn vị **GSM**;
+- Gói **Internet**;
+- Gọi các gói;
+- Gói kết hợp gọi điện và Internet.
 
 
 
@@ -202,5 +202,4 @@ Nếu bạn thấy hướng dẫn này hữu ích trong việc làm quen với F
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
-
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1

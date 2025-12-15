@@ -6,4 +6,4 @@ wrong_answers:
   - It makes transactions fully reversible for up to 90 days.
 explanation: |
   With Lightning, once a payment is routed and settled through the network, it’s final. This eliminates the chargeback scenarios seen with traditional payment systems.
-reviewed: false
+reviewed: true

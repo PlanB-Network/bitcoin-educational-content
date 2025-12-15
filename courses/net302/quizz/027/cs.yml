@@ -1,0 +1,9 @@
+question: Jak se nazývá datová jednotka vyměňovaná v aplikaci Layer (TCP/IP)?
+answer: Zpráva
+wrong_answers:
+  - Rám
+  - Segment
+  - Datagram
+explanation: |
+  V modelu TCP/IP se data vyměňovaná v aplikačním Layer nazývají zprávy (nebo proudy, v závislosti na kontextu).
+reviewed: false

@@ -1,0 +1,8 @@
+question: ECB modunda AES şifrelemesi güvenli kullanım için neden önerilmez?
+answer: Deterministik şifreleme ile sonuçlanır
+wrong_answers:
+  - 128'den fazla bitlik bir anahtar gerektirir
+  - Çoğu modern uygulama için çok yavaş
+  - Metnin 128 bitlik bloklara bölünmesine izin vermez
+explanation: |
+  ECB modu önerilmez çünkü deterministik şifreleme üretir, yani aynı düz metin blokları aynı şifreli metin bloklarını verir, bu da düz metin hakkında bilgi tahmin etmek için kullanılabilir.

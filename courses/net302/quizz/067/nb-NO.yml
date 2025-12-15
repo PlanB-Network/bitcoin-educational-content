@@ -1,0 +1,9 @@
+question: Hva er hovedmotivasjonen for å bruke tilfeldige Interface-identifikatorer i stedet for MAC Address i IPv6?
+answer: Bevare personvernet
+wrong_answers:
+  - Redusere pakkestørrelsen
+  - Raskere DNS-oppløsning
+  - Forbedret ARP-kompatibilitet
+explanation: |
+  Bruk av tilfeldige Interface-identifikatorer bidrar til å beskytte mot sporing av enheter basert på MAC Address.
+reviewed: false

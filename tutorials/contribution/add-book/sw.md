@@ -5,10 +5,10 @@ description: Jinsi ya kuongeza kitabu kipya kwenye Mtandao wa PlanB?
 ![book](assets/cover.webp)
 
 
-Dhamira ya PlanB ni kutoa nyenzo za elimu za kiwango cha juu kwenye Bitcoin katika lugha nyingi iwezekanavyo. Maudhui yote yaliyochapishwa kwenye tovuti ni chanzo huria na yamepangishwa kwenye GitHub, ikiruhusu mtu yeyote kuchangia katika uboreshaji wa jukwaa.
+Dhamira ya PlanB ni kutoa nyenzo za elimu za kiwango cha juu kwenye Bitcoin katika lugha nyingi iwezekanavyo. Maudhui yote yaliyochapishwa kwenye tovuti ni chanzo huria na yamepangishwa kwenye GitHub, yakiruhusu mtu yeyote kuchangia katika uboreshaji wa jukwaa.
 
 
-**Je, ungependa kuongeza kitabu kinachohusiana na Bitcoin kwenye tovuti ya PlanB Network na kuongeza mwonekano wa kazi yako, lakini hujui jinsi gani? Mafunzo haya ni kwa ajili yako!**
+**Je, ungependa kuongeza kitabu kinachohusiana na Bitcoin kwenye tovuti ya Plan ₿ Academy na kuongeza mwonekano wa kazi yako, lakini hujui jinsi gani? Mafunzo haya ni kwa ajili yako!**
 
 ![book](assets/01.webp)
 
@@ -16,7 +16,7 @@ Dhamira ya PlanB ni kutoa nyenzo za elimu za kiwango cha juu kwenye Bitcoin kati
 - Kwanza, unahitaji kuwa na akaunti ya GitHub. Ikiwa hujui jinsi ya kufungua akaunti, tumekuandalia mafunzo ya kina.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![book](assets/03.webp)
 
 
-- Ikiwa hujawahi kuchangia yaliyomo kwenye PlanB Network hapo awali, utahitaji kuunda Fork yako ya hazina asili. Kuunda hazina inamaanisha kuunda nakala ya hazina hiyo kwenye akaunti yako ya GitHub, kukuruhusu kufanya kazi kwenye mradi bila kuathiri hazina asili. Bonyeza kitufe cha `Fork hazina hii`:
+- Ikiwa hujawahi kuchangia yaliyomo kwenye Plan ₿ Academy hapo awali, utahitaji kuunda Fork yako ya hazina asili. Kuunda hazina inamaanisha kuunda nakala ya hazina hiyo kwenye akaunti yako ya GitHub, kukuruhusu kufanya kazi kwenye mradi bila kuathiri hazina asili. Bonyeza kitufe cha `Fork hazina hii`:
 
 ![book](assets/04.webp)
 
@@ -70,12 +70,12 @@ tags:
 Hapa kuna maelezo ya kujaza kwa kila sehemu:
 
 
-- `mwandishi`**: Onyesha jina la mtunzi wa kitabu.
-- `ngazi`**: Onyesha kiwango kinachohitajika ili kuweza kusoma na kuelewa kitabu vizuri. Chagua kiwango kati ya zifuatazo:
+- **`mwandishi`**: Onyesha jina la mtunzi wa kitabu.
+- **`ngazi`**: Onyesha kiwango kinachohitajika ili kuweza kusoma na kuelewa kitabu vizuri. Chagua kiwango kati ya zifuatazo:
  - `Mwanzo`
  - `katikati`
 - `advanced` - `mtaalam`
-- `tagi`**: Ongeza lebo mbili au tatu zinazohusiana na kitabu chako. Kwa mfano:
+- **`tagi`**: Ongeza lebo mbili au tatu zinazohusiana na kitabu chako. Kwa mfano:
     - `Bitcoin`
     - `historia`
     - `teknolojia`
@@ -178,7 +178,7 @@ tags:
 ![book](assets/25.webp)
 
 
-- Ukurasa mpya utafunguliwa. Buruta na udondoshe picha ya jalada la kitabu chako kwenye eneo. Picha hii itaonyeshwa kwenye tovuti ya PlanB Network:
+- Ukurasa mpya utafunguliwa. Buruta na udondoshe picha ya jalada la kitabu chako kwenye eneo. Picha hii itaonyeshwa kwenye tovuti ya Plan ₿ Academy:
 
 ![book](assets/26.webp)
 
@@ -247,11 +247,11 @@ contributors:
 Hapa kuna maelezo ya kujaza kwa kila sehemu:
 
 
-- `kichwa`**: Onyesha jina la kitabu katika nukuu.
-- `mwaka_wa_chapisho`**: Onyesha mwaka ambao kitabu kilichapishwa.
-- `kifuniko`**: Onyesha jina la faili linalolingana na picha ya jalada, kwa mujibu wa lugha ya faili ya YAML unayohariri sasa. Kwa mfano, ikiwa unahariri faili ya `en.yml` na hapo awali umeongeza picha ya jalada ya Kiingereza inayoitwa `cover_en.webp`, onyesha kwa urahisi `cover_en.webp` katika sehemu hii.
-- `maelezo`**: Ongeza aya fupi inayoelezea kitabu. Maelezo lazima yawe katika lugha sawa na ilivyoonyeshwa katika kichwa cha faili ya YAML.
-- `wachangiaji`**: Ongeza kitambulisho chako cha mchangiaji ikiwa unacho.
+- **`kichwa`**: Onyesha jina la kitabu katika nukuu.
+- **`mwaka_wa_chapisho`**: Onyesha mwaka ambao kitabu kilichapishwa.
+- **`kifuniko`**: Onyesha jina la faili linalolingana na picha ya jalada, kwa mujibu wa lugha ya faili ya YAML unayohariri sasa. Kwa mfano, ikiwa unahariri faili ya `en.yml` na hapo awali umeongeza picha ya jalada ya Kiingereza inayoitwa `cover_en.webp`, onyesha kwa urahisi `cover_en.webp` katika sehemu hii.
+- **`maelezo`**: Ongeza aya fupi inayoelezea kitabu. Maelezo lazima yawe katika lugha sawa na ilivyoonyeshwa katika kichwa cha faili ya YAML.
+- **`wachangiaji`**: Ongeza kitambulisho chako cha mchangiaji ikiwa unacho.
 
 
 Kwa mfano, faili yako ya YAML inaweza kuonekana kama hii:

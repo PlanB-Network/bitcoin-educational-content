@@ -1,0 +1,9 @@
+question: Prema argumentu Shaolinfryja za User Activated Soft Forks (UASF), glavni problem sa soft fork-ovima koje aktiviraju rudari u vezi sa implementacijom nadogradnji je taj što rudari imaju previše kontrole nad procesom, što može dovesti do centralizacije i potencijalnog sukoba interesa.
+answer: Mali procenat hashrate može vetirati nadogradnje za sve, stvarajući inerciju nadogradnje
+wrong_answers:
+  - Rudari mogu poništiti soft fork aktivacije nakon implementacije kroz većinski konsenzus
+  - Ekonomski čvorovi gube kontrolu nad pravilima validacije kada rudari signaliziraju aktivaciju
+  - Promene Soft fork postaju trajne i ne mogu se menjati kada ih rudari aktiviraju.
+explanation: |
+  Shaolinfry je identifikovao da signalizacija rudara stvara prirodni veto sistem gde čak i mali procenat hashrate može sprečiti aktivacije nadogradnji za celu mrežu. Ova 'inercija nadogradnje' postaje problematičnija kako mining postaje decentralizovaniji, potencijalno blokirajući korisna poboljšanja protokola. Druge opcije pogrešno predstavljaju kako soft forkovi funkcionišu - rudari ne mogu jednostrano poništiti aktivacije, ekonomski čvorovi zadržavaju autoritet validacije, a soft forkovi se teoretski mogu modifikovati kroz naknadne nadogradnje.
+reviewed: false

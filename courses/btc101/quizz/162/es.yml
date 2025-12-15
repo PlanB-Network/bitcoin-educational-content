@@ -1,12 +1,12 @@
-question: ¿Cuál es el papel de los mineros en el protocolo de Bitcoin?
-answer: Aseguran la red actual y la histórica.
+question: ¿Cómo recompensa el protocolo de Bitcoin al minero que encuentra un hash válido para el bloque subsiguiente?
+answer: Con una recompensa definida por las reglas de consenso, y con las comisiones de todas las transacciones incluidas en el bloque válido.
 wrong_answers:
-  - Regulan el precio de Bitcoin.
-  - Controlan el suministro de Bitcoin.
-  - Gestionan las transacciones entre usuarios.
+  - Con una cantidad fija de bitcoins no definida por las reglas de consenso.
+  - Con un porcentaje del suministro total de Bitcoin y las comisiones de todas las transacciones incluidas en los bloques anteriores.
+  - Con las comisiones de todas las transacciones incluidas en el bloque válido.
 explanation: |
-  Los mineros en el protocolo de Bitcoin aseguran tanto la red
-  actual como la histórica. No regulan el precio de
-  Bitcoin, no controlan su suministro, ni gestionan las transacciones
-  entre usuarios.
+  El protocolo de Bitcoin recompensa al minero que encuentra un
+  hash válido para el bloque subsiguiente con una recompensa cuya cantidad es
+  definida por las reglas de consenso, junto con las comisiones de
+  todas las transacciones incluidas en el bloque válido.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Agaciro ka MTU gaserukira iki mu rubuga?
+answer: Ingano y'akadiri ishobora gutangazwa ata guca ibice
+wrong_answers:
+  - Ubushobozi bwo kubika burengeye ubw'umurongo ata guca ibice
+  - Umubare munini w'abashitsi ku rubuga ata guca ibice
+  - Uburebure buke bw'umutwe wa IP ata guca ibice
+explanation: |
+  MTU (Maximum Transmission Unit) isobanura ubunini burengeye ubw’akadiri gashobora gutangazwa ku gice ataco bisaba guca ibice.
+reviewed: false

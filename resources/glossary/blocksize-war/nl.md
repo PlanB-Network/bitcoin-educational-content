@@ -1,0 +1,13 @@
+---
+term: BLOKGROOTTE OORLOG
+---
+
+Verwijst naar een periode van intens debat en conflict binnen de Bitcoin gemeenschap tussen 2015 en 2017. Dit conflict draaide om de vraag of de blokgrootte, die sinds 2010 door Satoshi Nakamoto was beperkt tot 1 megabyte, moest worden verhoogd om Bitcoin in staat te stellen meer transacties per blok te verwerken, waardoor de schaalbaarheid werd verbeterd.
+
+
+Voorstanders van het vergroten van de blokgrootte (bekend als "*big blockers*"), geleid door vroege ontwikkelaars zoals Jeff Garzik, Gavin Andresen en Mike Hearn, invloedrijke figuren in het ecosysteem zoals Roger Ver, evenals een aanzienlijk deel van de grote Mining bedrijven, voerden aan dat deze vergroting noodzakelijk was om de transactiekosten te verlagen en de schaalbaarheid van Bitcoin te verbeteren. Zij geloofden dat deze verandering kon worden doorgevoerd zonder de veiligheid van het systeem in gevaar te brengen. Aan de andere kant betoogden tegenstanders van de toename van de blokgrootte (aangeduid als "*kleine blockers*"), voornamelijk Bitcoin core ontwikkelaars (Pieter Wuille, Peter Todd, Gregory Maxwell, Wladimir van der Laan, Luke Dashjr...) en een deel van de technische gemeenschap, dat deze wijziging het systeem zou centraliseren vanwege de toegenomen operationele belasting op nodes. Ze benadrukten schaalbaarheidsoplossingen voor de tweede Layer, zoals de Lightning Network, die een groot volume aan transacties zou ondersteunen zonder het basisprotocol te hoeven veranderen.
+
+
+Het debat over de schaalbaarheidsbenadering van Bitcoin is al minstens sinds 2010 aan de gang, met de eerste poging om de blokgrootte te vergroten in oktober van dat jaar door [een patch voorgesteld door Jeff Garzik](https://bitcointalk.org/index.php?topic=1347.0). Het was echter tijdens de Blocksize War-periode tussen 2015 en 2017 dat de conflicten het hevigst waren, met verschillende pogingen tot forks (Bitcoin XT, Bitcoin Classic, Bitcoin Unlimited, SegWit, SegWit2X en Bitcoin Cash), propaganda- en beïnvloedingsstrategieën en persoonlijke aanvallen. Het opgeven van de Hard Fork SegWit2X op 8 november 2017, na massaal verzet van de gemeenschap ("NO2X"), wordt vaak gezien als de gebeurtenis die het einde van de Blocksize War markeerde, terwijl de casus belli soms wordt beschouwd als de update 0.11A van de Bitcoin XT-client, die BIP101 implementeerde op 15 augustus 2015. Er kan ook worden beweerd dat de Blocksize War eindigde op 24 augustus 2017, de datum waarop de Soft Fork SegWit werd geactiveerd na de campagne ten gunste van de "UASF".
+
+In het Engels verwijzen we meestal naar de "Block Size War" als een eigennaam. Sommigen vertalen deze term soms als "blokoorlog" of "block size war."

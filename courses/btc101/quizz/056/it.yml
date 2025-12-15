@@ -1,11 +1,12 @@
-question: Quale fu il tasso di inflazione in Ungheria nel luglio 1946?
-answer: 41.900.000.000.000.000%
+question: Qual è il concetto matematico che si basa sulla razionalità umana ed è utilizzato in Bitcoin?
+answer: Teoria dei giochi.
 wrong_answers:
-  - 207%
-  - 50%
-  - 100%
+  - Teoria della probabilità.
+  - Teoria dei numeri.
+  - Teoria degli insiemi.
 explanation: |
-  Il mese con l'inflazione più alta in Ungheria fu luglio
-  1946, con un'inflazione record dei prezzi del
-  41.900.000.000.000.000%.
-reviewed: vero
+  La teoria dei giochi è un concetto matematico che si basa
+  sulla razionalità umana. In Bitcoin, i cambiamenti al protocollo sono
+  applicati dagli utenti, rendendo qualsiasi modifica al protocollo
+  estremamente complessa.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Theo phân tích của Gregory Maxwell, điều gì tạo nên sự đánh đổi cơ bản buộc người dùng phải hướng tới các dịch vụ đáng tin cậy trong các cuộc thảo luận về việc mở rộng quy mô Bitcoin?
+answer: Cả việc sử dụng tài nguyên quá cao làm tăng giá trình xác thực và việc truy cập không gian khối quá tốn kém để giải quyết tranh chấp
+wrong_answers:
+  - Xung đột giữa việc tăng thông lượng giao dịch và duy trì lợi nhuận mining đầy đủ trên các quy mô nhóm khác nhau
+  - Sự căng thẳng giữa việc triển khai các nâng cấp chứng kiến tách biệt và duy trì khả năng tương thích ngược với phần mềm wallet cũ
+  - Sự cạnh tranh giữa các giải pháp lớp hai và các phương pháp mở rộng on-chain để giành nguồn lực phát triển hạn chế và hỗ trợ cộng đồng
+explanation: |
+  Maxwell đã xác định một vấn đề hai mặt, trong đó Bitcoin mất đi lợi thế theo cả hai hướng: nếu mức sử dụng tài nguyên quá cao so với công nghệ hiện có, việc xác thực sẽ trở nên quá tốn kém và người dùng phải dựa vào các bên thứ ba đáng tin cậy thay vì tự xác thực. Ngược lại, nếu năng lực quá thấp và phương thức giao dịch không hiệu quả, việc truy cập blockchain để giải quyết tranh chấp sẽ trở nên quá tốn kém, một lần nữa đẩy người dùng đến các dịch vụ đáng tin cậy. Điều này tạo ra một sự cân bằng tinh tế mà các giải pháp mở rộng quy mô phải điều chỉnh.
+reviewed: false

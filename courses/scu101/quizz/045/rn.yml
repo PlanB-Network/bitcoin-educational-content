@@ -1,0 +1,9 @@
+question: Ni akamaro akahe nyamukuru ko gukoresha ubutunganyirizo bw’ijambo ry'ibanga?
+answer: Bigufasha kurema amajambo y’ibanga akomeye no kuyazirikana, rero ntubwirizwa kubigira.
+wrong_answers:
+  - Ica ikujana mu makonti yawe yo kuri Internet.
+  - Irinda inyabwonko yawe umugera(nyabwonko).
+  - Ibika amajambo yawe yose y’ibanga ahantu hamwe, bigatuma ushobora kuyaronka bitagoranye.
+explanation: |
+  ubutunganyirizo bw’ijambo ry'ibanga bugufasha kurema no kwibuka amajambo y'ibanga akomeye kugira ngo ntubwirizwe kubikora. Ibika amajambo y’ibanga yawe yose mu buryo butekanye kandi ikaguha amajambo y’ibanga akomeye.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Mój węzeł
+name: My Node
 description: Konfiguracja węzła Bitcoin MyNode
 ---
 

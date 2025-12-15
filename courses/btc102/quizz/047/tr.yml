@@ -1,0 +1,9 @@
+question: Uzun vadeli birikmiş fonları güvence altına almak için hangi cihaz önerilir?
+answer: Hardware Wallet (soğuk cüzdan)
+wrong_answers:
+  - Hot Wallet
+  - Lightning Wallet
+  - Sanal pazar platformu
+explanation: |
+  Bir Hardware Wallet, özel anahtarları çevrimdışı olarak saklar ve uzun vadede önemli miktarlar için gelişmiş güvenlik sağlar.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni igikorwa ikihe gikenewe kugira ngo umuntu abaze urufunguzo rwa bose rwa Taproot Q?
+answer: Yongerako tweak tG ku rufunguzo rwa bose P .
+wrong_answers:
+  - Gukubita urufunguzo rwihariye p n'uguhindura
+  - Hash urufunguzo rwa bose P na SHA256
+  - Gufatanya tweak t n'urufunguzo rwa bose P
+explanation: |
+  Urufunguzo rwa bose rwa Taproot Q ruronswa mu kwongerako igisubizo c’ibara ry’ihinduka t n’umugenzuzi G ku rufunguzo rwa bose P.
+reviewed: false

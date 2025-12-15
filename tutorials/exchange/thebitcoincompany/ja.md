@@ -1,5 +1,5 @@
 ---
-name: Bitcoinカンパニー
+name: The Bitcoin Company
 description: BitcoinカンパニーでBTCで商品やサービスを購入するには？
 ---
 ![cover](assets/cover.webp)
@@ -40,7 +40,7 @@ Bitcoinは、誰の許可も得ることなく、ピア・ツー・ピアで使�
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 メッセージはこれ以上ないほど明確だ：「ビットコインはどこでも使える」。
 
@@ -117,9 +117,9 @@ Browse our web app "をクリックしてください。
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ここでは「Lightningでサインイン」を選んでみよう。
 
@@ -154,7 +154,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 即座に、あなたのWallet Lightningが特定される。もちろん、市場に出回っているほとんどの財布がこの機能をサポートしているため、Phoenixでも別のものでもよい。
 
@@ -172,7 +172,7 @@ Walletへのアクセスを保持し、seedのフレーズ（より一般的に�
 
 
 
-ユーザー名*は乱数で、この認証モードをサポートしているサイトごとに異なります。画面の下部には、認証方法が確かにLNURL Auth.と指定されていることがわかります。
+ユーザー名は乱数で、この認証モードをサポートしているサイトごとに異なります。画面の下部には、認証方法が確かに**LNURL Auth.**と指定されていることがわかります。
 
 
 
@@ -291,4 +291,4 @@ Bitcoinの普及を支援し、独立した加盟店にこの支払い方法を�
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

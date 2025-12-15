@@ -1,0 +1,9 @@
+question: Millist protokolli kasutavad Electrs ja Fulcrum rahakotide ühendamiseks?
+answer: Electrum
+wrong_answers:
+  - RPC REST
+  - JSON API
+  - Välk gRPC
+explanation: |
+  Need tarkvarapaketid avavad Electrumi serveri, mis on standard, mida kasutavad paljud rahakotid, näiteks Sparrow või Electrum Wallet.
+reviewed: true

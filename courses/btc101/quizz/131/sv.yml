@@ -1,12 +1,8 @@
-question: Vilken roll har en Bitcoin-nod i Bitcoin-nätverket?
-answer: Den validerar nya block och inkluderade transaktioner.
+question: Vilken är den primära funktionen för noderna i Bitcoin-nätverket?
+answer: Upprätthåller en kopia av Bitcoin Blockchain, validerar transaktioner, överför information till andra noder och upprätthåller reglerna i Bitcoin-protokollet.
 wrong_answers:
-  - Den skapar nya Bitcoins och placerar dem i blocken.
-  - Det reglerar priset på Bitcoin.
-  - Den hanterar Bitcoin-nätverket.
-explanation: |
-  En Bitcoin-nod i Bitcoin-nätverket hanterar valideringen av
-  validering av nya block och inkluderade transaktioner. Det är
-  detta nätverk av Bitcoin-noder som gör det verkligt
-  decentraliserad.
+  - Upprätthålla en kopia av Bitcoin Blockchain, validera transaktioner, överföra information till regeringen och ändra reglerna för Bitcoin-protokollet.
+  - Förvarar endast en kopia av Bitcoin Blockchain.
+  - Överför endast information till andra noder.
+explanation: >-
 reviewed: true

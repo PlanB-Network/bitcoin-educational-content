@@ -1,0 +1,9 @@
+question: Mikä on suositeltu SSD-levyn vähimmäiskapasiteetti vuonna 2025 Bitcoin-solmulle?
+answer: 2 To
+wrong_answers:
+  - 512 GT
+  - 10 To
+  - 256 GT
+explanation: |
+  Kun Blockchain:n koko on yli 700 Gt ja lisäsovelluksia, 2 TB:sta on tullut kohtuullinen vähimmäistaso.
+reviewed: true

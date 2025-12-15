@@ -1,0 +1,5 @@
+---
+term: URUGANDA RW'IMIRONGO
+---
+
+Uburyo buteye imbere ubu buriko burategurwa kuri Lightning, bushobora gutuma hakorwa no gucunga uburyo bwinshi bwo kwishura buvuye kuri UTXO imwe. Amahinguriro y'imirongo akoresha aderesi `n-of-n` Multisig kugira ngo umugwi w'abakoresha ushobore gufata UTXO imwe. Aho ni ho bashobora gufungura no gufunga inzira zo kwishura hagati yabo ata yindi nzira yo kwishura On-Chain, kiretse iyo bipfuza gukura amahera yabo mw’ihinguriro. Ubwo buryo bwoshobora kugabanya cane ibiciro n’ahantu hafatwa kuri Bitcoin ku bijanye n’ibikorwa vya Lightning. Mu bikorwa, ivyo bisigura ko ibikorwa vyosaba mu bisanzwe amafaranga On-Chain ku gufungura canke gufunga umurongo wose bishobora gukorwa off-chain, umutekano ukaba ushingiye ku bushobozi bwo gutangaza amafaranga atasohowe iyo bikenewe. Kugira ngo dukoreshe amajambo ya David A. Harding, amahinguriro y’imirongo arashobora kudondorwa nk’imirongo y’umuravyo ikoreshwa mu generate iyindi mirongo y’umuravyo.

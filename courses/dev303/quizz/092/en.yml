@@ -1,0 +1,8 @@
+question: In the context of building a professional Rust command-line application, what is the primary reason for integrating the readline library beyond basic input handling?
+answer: To provide sophisticated features like command completion, input hints, and command history that mirror modern terminal application experiences
+wrong_answers:
+  - To enable multi-threaded input processing and prevent blocking operations during user interaction with the command-line interface
+  - To automatically validate and sanitize user input against potential security vulnerabilities and buffer overflow attacks
+  - To implement cross-platform compatibility ensuring the application works identically across Windows, macOS, and Linux systems
+explanation: |
+  The readline library is specifically integrated to transform a basic command-line interface into a professional-grade tool with advanced user experience features. While basic input can be handled with standard Rust functions, readline provides command completion, input hints, and command history that users expect from modern terminal applications. The other options, while potentially valuable, are not the primary purpose of readline integration - multi-threading, security validation, and cross-platform compatibility are handled through different mechanisms and libraries in Rust applications.

@@ -1,0 +1,11 @@
+question: Sabit coinlerde kısa vadeli fiyat oynaklığının temel nedeni nedir?
+answer: Borsalarda düşük likidite seviyeleri
+wrong_answers:
+  - Çekilme taleplerini karşılamak için rezerv eksikliği
+  - Stabilcoin'i tehlikeye atan hack'ler
+  - Sabit paraların ayrıştırılması
+explanation: |
+  Sabit coinlerde kısa vadeli fiyat dalgalanmaları genellikle
+  likidite sorunları, daha küçük borsaların kapasiteden yoksun olabileceği
+  müşteri taleplerini karşılamak için geçici fiyat dalgalanmalarına neden olmaktadır.
+reviewed: true

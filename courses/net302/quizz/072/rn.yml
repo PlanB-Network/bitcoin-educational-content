@@ -1,0 +1,9 @@
+question: Ni ubuhe bwoko bwa IPv6 block butuma sosiyete iguma ifise prefix yayo mbere n’igihe ihindura ISP?
+answer: PI (Umutanga ubuvuzi yigenga)
+wrong_answers:
+  - PA (Umutanga Ihuriro)
+  - LIR (Igitabu co kuri Internet co mu karere)
+  - IP (Umutanga ashobora guhindurwa)
+explanation: |
+  Igipande ca PI (Provider Independent) gihabwa ishirahamwe ataco rihinduye na RIR, kidashingiye ku Mutanga Serivisi ya Internet.
+reviewed: false

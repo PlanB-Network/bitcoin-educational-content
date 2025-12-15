@@ -1,0 +1,9 @@
+question: Kriptografi bağlamında rastgele değişkenin tanımı nedir?
+answer: Pozitif olasılıkla birkaç olası değer alabilen bir değişken
+wrong_answers:
+  - Her an değer değiştiren bir değişken
+  - Değerleri sabit ve önceden tanımlanmış bir değişken
+  - Her zaman belirli bir fiziksel deney bağlamında tanımlanan bir değişken
+explanation: |
+  Rastgele bir değişken, her biri pozitif olasılıklı iki veya daha fazla değer alabilir ve genellikle kriptografi bağlamında soyut olarak tanımlanır.
+reviewed: false

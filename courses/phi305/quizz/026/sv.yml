@@ -1,0 +1,9 @@
+question: Vem tror att människan kan störa naturen i stället för att underkasta sig den?
+answer: Descartes.
+wrong_answers:
+  - Spinoza.
+  - Einstein.
+  - Saint-Augustin.
+explanation: |
+  Descartes menade att människan kan störa naturen snarare än att genomgå den. Denna dualistiska syn ställer människan mot naturen och antyder att vi kan höja oss över naturlagarna genom vår vilja.
+reviewed: false

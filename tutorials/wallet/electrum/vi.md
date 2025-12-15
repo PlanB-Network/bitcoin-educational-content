@@ -1,16 +1,16 @@
 ---
 name: Electrum
 
-description: Hướng dẫn toàn diện về Electrum, từ cơ bản đến nâng cao
+description: Hướng dẫn đầy đủ về Electrum, từ người mới đến chuyên gia
 ---
 
 ![cover](assets/cover.webp)
 
-Mô tả về Electrum
+Dưới đây là một vài nguồn mô tả cho Electrum:
 
-https://twitter.com/ElectrumWallet
-https://electrum.org/
-https://electrum.readthedocs.io/
+- [X](https://twitter.com/ElectrumWallet)
+- [Electrum website](https://electrum.org/)
+- [Electrum documentation](https://electrum.readthedocs.io/)
 
 > "Phải nói là, khi tìm thấy hướng dẫn này tôi đã rất ngạc nhiên. Xin chúc mừng Arman the Parman về điều này. Thật đáng tiếc nếu không đăng tải nó ở đây và dịch ra càng nhiều ngôn ngữ càng tốt. Thực vậy, hãy tip cho anh chàng đó." Rogzy
 
@@ -299,7 +299,7 @@ Tiếp theo, chúng ta muốn kết nối ví bù nhìn của mình với một 
 2. Kết nối với node của một công ty đáng tin cậy
 3. Kết nối với một node ngẫu nhiên (không được khuyến nghị).
 
-Nhân tiện, đây là hướng dẫn để chạy node của riêng bạn, và đây là những lý do tại sao bạn nên làm điều đó. (tất cả hướng dẫn trong phần Node hoặc trong các khóa học miễn phí của chúng tôi tại đây: https://planb.network/en/tutorials/node)
+Nhân tiện, đây là hướng dẫn để chạy node của riêng bạn, và đây là những lý do tại sao bạn nên làm điều đó. (tất cả hướng dẫn trong phần Node hoặc trong các khóa học miễn phí của chúng tôi tại đây: https://planb.academy/en/tutorials/node)
 
 ### Kết nối với node của bạn bè qua Tor (Hướng dẫn sẽ sớm có.)
 

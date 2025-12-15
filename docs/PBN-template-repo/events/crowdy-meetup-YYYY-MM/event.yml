@@ -32,7 +32,8 @@ type: meetup
 
 # Description
 # Write the main description of the content
-description: A Satoshi Spritz is a public event open to everyone, allowing for anonymous participation, where discussions are exclusively focused on Bitcoin, encouraging presentations on complex topics in a flexible format.
+description: |
+  A Satoshi Spritz is a public event open to everyone, allowing for anonymous participation, where discussions are exclusively focused on Bitcoin, encouraging presentations on complex topics in a flexible format.
 
 # Event Language
 # the main language spoken during the event

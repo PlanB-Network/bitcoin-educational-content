@@ -1,0 +1,9 @@
+question: Ni ikihe kibazo nyamukuru co kurongora?
+answer: Ubugoyagoye bwo gucungera no kubika imfunguruzo zibiri ku mukiriya wese
+wrong_answers:
+  - Kudashoboka gusubiramwo imfunguruzo zatakajwe n'abaguzi
+  - Ivyipfuzo vyo gufungura urufunguzo rwose imbere y'uko rukoreshwa n'umukiriya
+  - Ivy'uko bikenewe gutanga imfunguruzo z'itumanaho ryose
+explanation: |
+  Ikibazo nyamukuru c’uburongozi kiri mu ngorane zo kubika no gukingira urufunguzo rubiri ku muntu wese akoresha, cane cane iyo umubare w’abaguzi ugeze ku mamiliyoni.
+reviewed: false

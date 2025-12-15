@@ -1,0 +1,9 @@
+question: Muhasebe için basit bir csv dosyasını yeterli bulma olasılığı en yüksek olan işletme türü hangisidir?
+answer: Küçük işletmeler
+wrong_answers:
+  - Büyük çok uluslu şirketler
+  - Başlıca finans kuruluşları
+  - Yüksek frekanslı ticaret platformları
+explanation: |
+  Çoğu küçük işletme, bir csv dışa aktarımının sağladığı basitlik ve yeterli ayrıntıdan yararlanır.
+reviewed: false

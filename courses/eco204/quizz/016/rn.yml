@@ -1,0 +1,10 @@
+question: Ni igiki gishobora gutuma umuntu agira inflation nyinshi cane nk’uko Philip Cagan abisobanura?
+answer: Inflation y'ukwezi irenga 50%
+wrong_answers:
+  - Inflation y'ukwezi irenga 40%
+  - Inflation y'ukwezi irenga 60%
+  - Inflation y'ukwezi irenga 70%
+explanation: |
+  Dushingiye ku nsobanuro ya Philip Cagan, ugutera imbere cane kw’ibiciro gutangura iyo ukwezi kwose .
+  inflation irenga 50%.
+reviewed: false

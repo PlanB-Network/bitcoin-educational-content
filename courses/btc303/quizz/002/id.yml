@@ -1,0 +1,9 @@
+question: Apa saja dua aspek utama dari desentralisasi dalam Bitcoin?
+answer: Desentralisasi Miner dan desentralisasi full node
+wrong_answers:
+  - Desentralisasi transaksi dan desentralisasi wallet
+  - Desentralisasi jaringan dan desentralisasi protokol
+  - Desentralisasi pengguna dan desentralisasi pengembang
+explanation: |
+  Desentralisasi Bitcoin memiliki dua komponen utama: desentralisasi penambang dan desentralisasi full node. Desentralisasi Miner berarti bahwa pemrosesan dan pemesanan transaksi tidak dikontrol oleh satu entitas tunggal, melainkan oleh kumpulan penambang yang dinamis yang dapat bergabung atau keluar dengan bebas. Desentralisasi Full node mengacu pada validasi blok yang dilakukan di tepi jaringan oleh pengguna itu sendiri, dan bukan oleh otoritas yang terpercaya. Kedua aspek ini bekerja sama untuk mencapai ketahanan terhadap sensor - penambang mencegah pemesanan transaksi terpusat sementara node penuh memastikan validasi blockchain yang tidak dapat dipercaya.
+reviewed: false

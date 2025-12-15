@@ -1,0 +1,9 @@
+question: Satoshi 나카모토가 Bitcoin 백서에서 명시적으로 언급한 전자 화폐 개념은 무엇인가요?
+answer: 비머니(웨이 다이)
+wrong_answers:
+  - 비트 골드(닉 사보)
+  - RPOW(할 피니)
+  - eCash(데이비드 차움)
+explanation: |
+  이것이 첫 번째 참조였습니다. Satoshi는 웨이 다이와의 교류 이후 2008년 8월에 이를 추가했습니다.
+reviewed: true

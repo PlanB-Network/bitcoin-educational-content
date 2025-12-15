@@ -8,7 +8,7 @@ PlanB的使命是以尽可能多的语言提供关于比特币的顶级教育资
 
 **你想在PlanB网络站点上添加一本与比特币相关的书籍，并增加你作品的可见性，但不知道如何操作？这个教程是为你准备的！**
 ![book](assets/01.webp)
-- 首先，你需要拥有一个GitHub账户。如果你不知道如何创建账户，我们制作了[一个详细的教程来指导你](https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)。
+- 首先，你需要拥有一个GitHub账户。如果你不知道如何创建账户，我们制作了[一个详细的教程来指导你](https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)。
 - 前往[PlanB专门用于数据的GitHub仓库](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books)的`resources/books/`部分：
 ![book](assets/02.webp)
 - 点击右上角的`Add file`按钮，然后点击`Create new file`：
@@ -63,7 +63,7 @@ tags:
 - 点击绿色的 `Propose changes` 按钮：![book](assets/12.webp)
 - 接下来，您将进入一个页面，总结您所有的更改：![book](assets/13.webp)
 - 点击右上角的 GitHub 个人资料图片，然后点击 `Your Repositories`：![book](assets/14.webp)
-- 选择您分叉的 PlanB Network 仓库：![book](assets/15.webp)
+- 选择您分叉的 Plan ₿ Academy 仓库：![book](assets/15.webp)
 - 您应该会在窗口顶部看到一个带有您新分支的通知。它可能被称为 `patch-1`。点击它：![book](assets/16.webp)
 - 您现在处于您的工作分支上：![book](assets/17.webp)
 - 返回到 `resources/books/` 文件夹，并选择您在之前的提交中刚创建的书籍文件夹：![book](assets/18.webp)
@@ -74,7 +74,7 @@ tags:
 - 保留默认的提交标题，并确保选中了 `Commit directly to the patch-1 branch` 框，然后点击 `Commit changes`：![book](assets/23.webp)
 - 返回到 `assets` 文件夹：![book](assets/24.webp)
 - 点击 `Add file` 按钮，然后点击 `Upload files`：![book](assets/25.webp)
-- 一个新页面将打开。将您书籍的封面图片拖放到区域中。这张图片将在 PlanB Network 网站上显示：![book](assets/26.webp)
+- 一个新页面将打开。将您书籍的封面图片拖放到区域中。这张图片将在 Plan ₿ Academy 网站上显示：![book](assets/26.webp)
 - 注意，图片必须是书籍的格式，以最佳适应我们的网站，例如：![book](assets/27.webp)
 - 一旦图片上传，确保选中了 `Commit directly to the patch-1 branch` 框，然后点击 `Commit changes`：![book](assets/28.webp)- 请注意，如果封面是英文的，您的图片必须命名为 `cover_en`，并且必须是 `.webp` 格式。因此，完整的文件名应该是 `cover_en.webp`、`cover_fr.webp`、`cover_it.webp` 等。如果您希望每种语言使用不同的封面图片，例如在书籍翻译的情况下，您可以将它们放在 `assets` 文件夹的同一位置：![book](assets/29.webp)
 - 返回到您的 `assets` 文件夹并点击 `.gitkeep` 中间文件：![book](assets/30.webp)

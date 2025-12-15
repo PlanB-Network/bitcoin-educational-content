@@ -1,0 +1,9 @@
+question: Ni ingaruka izihe amafaranga Leta ikoresha kuri Bastiat iyo aterwa inkunga n’imyenda canke imisoro?
+answer: Bikevya ubutunzi buva mu bikorera ku giti cabo .
+wrong_answers:
+  - Bituma umuntu ashaka ata ngaruka mbi .
+  - Birongera ubushobozi bwo kugura bw'abaguzi .
+  - Ni ngombwa ko ubutunzi buguma butera imbere
+explanation: |
+  Bastiat avuga ko amafaranga Leta ikoresha, aterwa inkunga n’imisoro canke imyenda, ahindura amafaranga ava mu bigo vy’abikorera ku giti cabo, gutyo akagabanya uguhingura ubutunzi ahandi mu bukungu.
+reviewed: false

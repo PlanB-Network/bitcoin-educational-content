@@ -1,0 +1,9 @@
+question: なぜIPv6への移行が必要になったのか？
+answer: IPv4 Address枯渇
+wrong_answers:
+  - IPv4におけるNATプロトコルの障害
+  - サブネットマスクの非互換性
+  - DHCPサポート終了
+explanation: |
+  IPv4アドレスの枯渇は、Address空間が圧倒的に広いIPv6への移行を促した。
+reviewed: false

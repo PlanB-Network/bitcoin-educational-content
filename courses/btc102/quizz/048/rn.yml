@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bwo gushiramwo amahera bukoreshwa canecane n’umucungezi?
+answer: Gushora amafaranga buhoro buhoro buri gihe
+wrong_answers:
+  - Ubucuruzi ku munsi
+  - Ubukemurampaka
+  - Igitigiri kimwe
+explanation: |
+  DCA ni ugushiramwo amahera atari make ubudasiba kugira ngo umuntu agabanye ingaruka z’uguhinduka kw’isoko ku vyo umuntu akora.
+reviewed: false

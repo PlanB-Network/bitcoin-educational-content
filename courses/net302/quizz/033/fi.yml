@@ -1,0 +1,9 @@
+question: Minkä tekniikan avulla useat sisäiset koneet voivat jakaa yhden julkisen IP Address:n Internet-yhteyttä varten?
+answer: NAT (Network Address Translation)
+wrong_answers:
+  - ARP (Address Resolution Protocol)
+  - DHCP (dynaaminen isäntäkokoonpanoprotokolla)
+  - CIDR (luokkienvälinen reititys)
+explanation: |
+  NAT muuntaa yksityiset sisäiset osoitteet julkiseksi IP Address:ksi, jolloin useat laitteet voivat käyttää samaa ulkoista yhteyttä.
+reviewed: false

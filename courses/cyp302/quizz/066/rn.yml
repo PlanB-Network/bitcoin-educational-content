@@ -1,0 +1,9 @@
+question: Ni igiki gikorwa n’ubuhinga bwo guhingura urufunguzo mu mugambi wo gupfuka amakuru?
+answer: Itanga urufunguzo rwihariye
+wrong_answers:
+  - Bitanga urufunguzo rwa bose
+  - Irasubiza ubutumwa
+  - Bipfuka ubutumwa
+explanation: |
+  Mu mugambi wo gupfuka amakuru, ubuhinga bwo guhingura urufunguzo buratanga urufunguzo rw’ibanga, ruzoca rukoreshwa mu gupfuka no gukuraho ubutumwa.
+reviewed: false

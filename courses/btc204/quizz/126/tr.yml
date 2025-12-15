@@ -1,0 +1,10 @@
+question: Güvene ihtiyaç duymadan Exchange'ın güvenliğini sağlamak için para takaslarında hangi kriptografik yöntem kullanılabilir?
+answer: Adaptör İmzaları
+wrong_answers:
+  - Simetrik şifreleme
+  - ECDH
+  - Asimetrik şifreleme
+explanation: |
+  Bir coinwap gerçekleştirmek için HTLC'ler veya PTLC'ler kullanılabilir. Bu iki protokol, Exchange'in başarıyla tamamlanmasını ya da tamamen iptal edilmesini sağlayan bir zaman kilidi sistemi kullanarak benzer şekilde çalışır ve bu da her iki tarafın fonlarının bütünlüğünü korur. HTLC'ler ve PTLC'ler arasındaki temel fark, HTLC'lerin işlemi güvence altına almak için hash'ler ve ön imajlar kullanması, PTLC'lerin ise Adaptör İmzaları kullanmasıdır.
+  
+reviewed: false

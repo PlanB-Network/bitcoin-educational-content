@@ -1,0 +1,8 @@
+question: Ni ikihe kimwe mu bikorwa bifasha mu gutuma ubutunzi bwa Bitcoin bushikira kandi bubereye umuntu wese?
+answer: BTCikarata.
+wrong_answers:
+  - Bitcoin Exchange.
+  - Bitcoin Mining.
+  - BTCLoteri.
+explanation: >-
+reviewed: true

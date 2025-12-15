@@ -1,0 +1,9 @@
+question: Kim jest Saint-Augustin?
+answer: Jeden z Ojców Kościoła.
+wrong_answers:
+  - Filozof oświecenia.
+  - Astronom.
+  - Wynalazca.
+explanation: |
+  Święty Augustyn (354-430) jest jednym z Ojców Kościoła. Filozof i teolog, wywarł głęboki wpływ na zachodnią myśl chrześcijańską dzięki takim dziełom jak "Wyznania" i "Miasto Boże".
+reviewed: false

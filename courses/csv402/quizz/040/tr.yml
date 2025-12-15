@@ -1,0 +1,9 @@
+question: RGB'in Lightning Network'a entegre edilmesinin temel amacı nedir?
+answer: RGB varlıklarını off-chain kanalları üzerinden aktarın
+wrong_answers:
+  - RGB sözleşmelerinin doğrudan Bitcoin Blockchain üzerinde yürütülmesi
+  - Geleneksel Lightning işlemlerini RGB akıllı sözleşmeleriyle değiştirin
+  - Yeni UTXO'lar ekleyerek kanal kapasitesini artırın
+explanation: |
+  Lightning Network'e entegre edilen RGB, RGB varlıklarının Commitment işlemlerine gömülü durum geçişleri yoluyla taşınmasına ve off-chain olarak kalmasına olanak tanır.
+reviewed: false

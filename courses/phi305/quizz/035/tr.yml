@@ -1,0 +1,9 @@
+question: Spinoza için teolojik yanılsama nedir?
+answer: Niyetle donatılmış antropomorfik bir Tanrı'ya inanmak.
+wrong_answers:
+  - Birçok tanrıya inan.
+  - Materyalist olmak.
+  - Hayaletlere inanmak.
+explanation: |
+  Spinoza'ya göre teolojik yanılsama, niyetle donatılmış antropomorfik bir Tanrı'ya inanmaktan ibarettir. Bu, Tanrı'ya irade, arzular ve niyetler gibi insani özellikler yansıtmak anlamına gelir.
+reviewed: false

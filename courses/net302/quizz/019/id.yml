@@ -1,0 +1,9 @@
+question: Apa peran utama protokol IP dalam model TCP/IP?
+answer: Mengirimkan paket data dari satu host ke host lainnya
+wrong_answers:
+  - Mengelola enkripsi komunikasi jaringan
+  - Memastikan koneksi yang terus-menerus antar aplikasi
+  - Menerjemahkan alamat MAC menjadi alamat IP
+explanation: |
+  Protokol IP menangani pengalamatan logis perangkat dan memastikan bahwa paket dirutekan di seluruh jaringan yang saling terhubung.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: بیسک
+name: Bisq
 
 description: نحوه استفاده از Bisq، یک Exchange همتا به همتا
 ---

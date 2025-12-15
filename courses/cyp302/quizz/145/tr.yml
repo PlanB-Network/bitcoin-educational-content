@@ -1,0 +1,9 @@
+question: Asimetrik kriptografi bağlamında Euler teoreminin çıkarımları nelerdir?
+answer: Güçlerin hesaplanmasını basitleştirir
+wrong_answers:
+  - Mesajların doğrudan şifrelenmesini sağlar
+  - Asal sayıları bulmak için kullanılır
+  - Bir sayının paritesini doğrulamak için kullanılır
+explanation: |
+  Asimetrik kriptografide Euler teoremi, modüler üs alma işlemlerini manipüle etmek için bir yöntem sağladığından RSA gibi şemalarda güçlerin hesaplanmasını basitleştirir.
+reviewed: false

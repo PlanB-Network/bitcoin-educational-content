@@ -1,0 +1,9 @@
+question: Bir ad her iki Address türüne de sahip olduğunda IPv4 ve IPv6 arasındaki seçimi hangi algoritma veya belge yönetir?
+answer: RFC 6724
+wrong_answers:
+  - RFC 1918
+  - RFC 4861
+  - RFC 1035
+explanation: |
+  RFC 6724, aynı ana bilgisayar adı için her ikisi de mevcut olduğunda IPv4 veya IPv6 Address'in kullanılmasına karar vermek için kullanılan algoritmayı tanımlar.
+reviewed: false

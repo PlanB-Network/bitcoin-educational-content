@@ -1,11 +1,9 @@
-question: Wat zijn enkele aspecten van cryptografie die worden gebruikt in cyberbeveiliging?
-answer: SSL/TLS, symmetrische/asymmetrische codering
+question: Welke certificering wordt wereldwijd erkend op het gebied van cyberbeveiliging?
+answer: CISSP
 wrong_answers:
-  - RSA, DSA, ECC
-  - AES, DES, 3DES
-  - MD5, SHA-1, SHA-256
+  - PMP
+  - ITIL
+  - SHA2
 explanation: |
-  Het hoofdstuk noemt SSL/TLS en symmetrische/asymmetrische
-  encryptie als enkele van de aspecten van cryptografie die gebruikt worden in
-  cyberbeveiliging.
-reviewed: true
+  De CISSP-certificering is een van de meest internationaal erkende op het gebied van cyberbeveiliging.
+reviewed: false

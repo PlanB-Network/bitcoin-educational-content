@@ -1,0 +1,9 @@
+question: Ni iyihe ntumbero nyamukuru ya IPv5 (Itegeko ry’Umugezi, ST)?
+answer: Kumenya neza uburyo bw'ibikorwa ku nzira zimwe zimwe
+wrong_answers:
+  - Kwagura ubushobozi bwo gutanga aderesi za IP
+  - Gutanga uburyo bwo gusubira inyuma na IPv6.
+  - Kugabanya ubunini bw'amapakete y'urubuga rwa TCP/IP
+explanation: |
+  IPv5 (ST) yari yagenewe gutanga uburyo bwiza bwo gukoresha (QoS) ku migende y’ivy’amakuru menshi, nka VoIP, mu gutanga icemezo c’uburebure bw’uruja n’uruza n’ivy’imbere.
+reviewed: false

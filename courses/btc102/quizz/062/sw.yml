@@ -1,4 +1,4 @@
-question: Ni nini kisichopendekezwa wakati wa kupitisha ufikiaji wa bitcoins zako?
+question: Ni nini kisichopendekezwa wakati wa kupitisha ufikiaji wa bitcoin zako?
 answer: Kutoa maneno ya Mnemonic kwa mtu mmoja
 wrong_answers:
   - Kugawanya habari kati ya watu wengi
@@ -6,4 +6,4 @@ wrong_answers:
   - Kuandika barua ya maelezo
 explanation: |
   Kukabidhi maneno ya Mnemonic kwa mtu mmoja bila usalama wa ziada huongeza sana hatari ya wizi wakati wa maisha yako.
-reviewed: false
+reviewed: true

@@ -11,7 +11,7 @@ Katika somo hili, tutafuata mchakato wa hatua kwa hatua wa kuandika Contract, kw
 ## Kikumbusho cha itifaki ya RGB
 
 
-RGB ni itifaki inayoendesha juu ya Bitcoin na kuiga utendaji wa Smart contract na usimamizi wa mali dijitali, bila kupakia Blockchain ambayo msingi wake ni. Tofauti na mikataba mahiri ya On-Chain ya kawaida (kama ilivyo kwa Ethereum, kwa mfano), RGB inategemea mfumo wa "*Client-side Validation*": data na historia nyingi za hali hubadilishwa na kuhifadhiwa na washiriki wanaohusika pekee, ilhali Bitcoin Blockchain huandaa tu ahadi ndogo za kriptografia (kupitia mbinu kama vile *OTapret*). Katika itifaki ya RGB, Bitcoin Blockchain kwa hivyo hutumika tu kama seva ya kukanyaga wakati na mfumo wa ulinzi wa Double-spending.
+RGB ni itifaki inayoendesha juu ya Bitcoin na kuiga utendaji wa Smart contract na usimamizi wa mali ya kidijitali, bila kupakia Blockchain ambayo msingi wake ni. Tofauti na mikataba mahiri ya On-Chain ya kawaida (kama ilivyo kwa Ethereum, kwa mfano), RGB inategemea mfumo wa "*Client-side Validation*": data na historia nyingi za hali hubadilishwa na kuhifadhiwa na washiriki wanaohusika pekee, ilhali Bitcoin Blockchain huandaa tu ahadi ndogo za kriptografia (kupitia mbinu kama vile *OTapret*). Katika itifaki ya RGB, Bitcoin Blockchain kwa hivyo hutumika tu kama seva ya kukanyaga wakati na mfumo wa ulinzi wa Double-spending.
 
 
 RGB Contract imeundwa kama mashine ya hali ya mabadiliko. Huanza na Genesis inayofafanua hali ya awali (inayoelezea, kwa mfano, Supply, ticker au metadata nyingine) kulingana na Schema iliyochapwa kwa ukali na iliyokusanywa. Mpito wa Jimbo na, ikihitajika, Viendelezi vya Jimbo basi hutumika kurekebisha au kupanua hali hii. Kila operesheni, iwe ni kuhamisha vipengee vinavyoweza kuvutwa (RGB20) au kuunda vipengee vya kipekee (RGB21), huhusisha *Mihuri ya Matumizi Moja*. Hizi huunganisha Bitcoin UTXOs kwenye majimbo ya off-chain na kuzuia matumizi maradufu, huku zikihakikisha usiri na hatari.
@@ -20,7 +20,7 @@ RGB Contract imeundwa kama mashine ya hali ya mabadiliko. Huanza na Genesis inay
 Ili kujifunza zaidi kuhusu jinsi itifaki ya RGB inavyofanya kazi, ninapendekeza uchukue kozi hii ya kina ya mafunzo:
 
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 Mantiki ya ndani ya RGB inategemea maktaba za Rust ambazo wewe, kama wasanidi, unaweza kuingiza katika miradi yako ili kudhibiti sehemu ya *Client-side Validation*. Zaidi ya hayo, timu ya LNP/BP inashughulikia masuala ya kuunganisha lugha nyingine, lakini hili bado halijakamilika. Kwa kuongezea, huluki zingine kama Bitfinex zinatengeneza safu zao za ujumuishaji, lakini tutazungumza juu ya haya katika mafunzo mengine. Kwa sasa, `RGB` CLI ndiyo marejeleo rasmi, hata kama imesalia kuwa haijapolishwa.
 
@@ -165,7 +165,7 @@ Kuna njia mbili za kuunda mali mpya:
 - Au tumia amri ndogo ya `suala` moja kwa moja, ukiwa na faili ya YAML (au TOML) inayoelezea sifa za tokeni.
 
 
-Unaweza kupata mifano katika Rust kwenye folda ya `mifano`, ambayo inaonyesha jinsi unavyounda `ContractBuilder`, jaza `Global State` (jina la kipengee, tiki, Supply, tarehe, n.k.), fafanua Owned State (ambayo UTXO imekabidhiwa), kisha ujumuishe yote haya kwenye 67 inaweza kuleta *GW - halali, na GW6 inaweza kusafirisha na kusafirisha, na GW6 kuhalalisha. Stash.
+Unaweza kupata mifano katika Rust kwenye folda ya `mifano`, ambayo inaonyesha jinsi unavyounda `ContractBuilder`, jaza `Global State` (jina la kipengee, tiki, Supply, tarehe, n.k.), fafanua Owned State (ambayo UTXO imekabidhiwa), kisha ujumuishe yote haya kwenye 67 inaweza kuleta **GW - halali, na GW6 inaweza kusafirisha na kusafirisha, na GW6 kuhalalisha**. Stash.
 
 
 Njia nyingine ni kuhariri mwenyewe faili ya YAML ili kubinafsisha `tika`, `jina`, `Supply`, na kadhalika. Tuseme faili inaitwa `RGB20-demo.yaml`. Unaweza kubainisha:
@@ -186,8 +186,8 @@ Hapa kuna mfano wa faili ya YAML kuunda:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -243,7 +243,7 @@ rgb contracts
 ![RGB-CLI](assets/fr/07.webp)
 
 
-Kisha, amri inayofuata inaonyesha mataifa ya kimataifa (jina, tiki, Supply...) na orodha ya Nchi Zinazomilikiwa, yaani mgao (kwa mfano, tokeni za `PBN` milioni 1 zilizofafanuliwa katika UTXO. `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Kisha, amri inayofuata inaonyesha mataifa ya kimataifa (jina, tiki, Supply...) na orodha ya Nchi Zinazomilikiwa, yaani mgao (kwa mfano, tokeni za `Plan ₿ Academy` milioni 1 zilizofafanuliwa katika UTXO. `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 
 ```bash
@@ -301,7 +301,7 @@ rgb dump
 ![RGB-CLI](assets/fr/10.webp)
 
 
-Hii itakuwa generate folda yenye maelezo ya Stash nzima.
+Hii itakuwa inagenerate folda yenye maelezo ya Stash nzima.
 
 
 ## Uhamisho na PSBT
@@ -318,8 +318,8 @@ Mara nyingi, mwingiliano kati ya washiriki katika Contract (k.m. Alice na Bob) h
 
 
 
-- Alice** (mtoaji wa Invoice);
-- Bob** (ambaye anapokea na kutekeleza Invoice).
+- **Alice** (mtoaji wa Invoice);
+- **Bob** (ambaye anapokea na kutekeleza Invoice).
 
 
 Tofauti na mifumo ikolojia mingine, RGB Invoice haizuiliwi na wazo la malipo. Inaweza kupachika ombi lolote lililounganishwa na Contract: kubatilisha ufunguo, kupiga kura, kuunda maandishi (*engraving*) kwenye NFT, nk. Operesheni inayolingana inaweza kuelezewa katika Contract Interface. Operesheni inayolingana inaweza kuelezewa katika Contract Interface.
@@ -412,7 +412,7 @@ bob$ rgb check <sig> && wallet sign --publish tx.psbt
 
 
 
-- Mara tu shughuli hii inapothibitishwa On-Chain, Ownership ya mali inachukuliwa kuhamishiwa kwa Alice. Wallet ya Alice, ikifuatilia shughuli ya Mining, inaona Owned State mpya ikionekana kwenye Stash yake.
+- Mara tu shughuli hii inapothibitishwa On-Chain, Ownership ya mali inachukuliwa kuhamishiwa kwa Alice. Wallet ya Alice, ikifuatilia shughuli za Mining, inaona Owned State mpya ikionekana kwenye Stash yake.
 
 
 Sasa unajua jinsi ya kutoa na kuhamisha RGB Contract. Ikiwa umepata mafunzo haya kuwa ya manufaa, ningeshukuru sana ikiwa utaweka kidole gumba cha Green hapa chini. Tafadhali jisikie huru kushiriki nakala hii kwenye mitandao yako ya kijamii. Asante sana!
@@ -421,4 +421,4 @@ Sasa unajua jinsi ya kutoa na kuhamisha RGB Contract. Ikiwa umepata mafunzo haya
 Pia ninapendekeza somo hili lingine ambalo ninaelezea jinsi ya kuzindua nodi ya Umeme inayoendana na RGB kwa tokeni za Exchange karibu mara moja:
 
 
-https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.academy/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

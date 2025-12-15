@@ -1,0 +1,9 @@
+question: Mis on arutletud vastutustundliku avalikustamise raamistiku kohaselt peamine põhjus, miks arendajad väldivad Bitcoin Core'i mittekriitiliste haavatavuste viivitamatut parandamist?
+answer: Selleks, et vältida, et parandustükk ise ei paljastaks haavatavuse olemust enne selle laialdast kasutuselevõttu
+wrong_answers:
+  - Et anda altcoini arendajatele piisavalt aega, et nad saaksid kõigepealt rakendada oma iseseisvaid parandusi
+  - Et võimaldada enne turvauuenduste väljastamist põhjalikku testimist erinevates mining-poolides
+  - Et säilitada tagasiulatuv ühilduvus vanemate sõlme versioonidega, mis ei suuda käsitleda hädaolukorra parandusi
+explanation: |
+  Õige vastus toob esile olulise paradoksi turvaparanduste puhul: parandus ise võib haavatavuse paljastada. Peatükis rõhutatakse, et arendajad peavad parandusi hoolikalt varjama, sest nende kohene avaldamine võib haavatavuse ründajatele paljastada enne, kui enamik sõlmpunkte on kaitstud. Valed vastused on küll usutavad, kuid moonutavad prioriteete: Altcoini teavitamine toimub pärast Bitcoin võrgu kasutuselevõttu, mining pooli testimine ei ole mittekriitiliste probleemide puhul esmatähtis ja tagasiulatuv ühilduvus ei määra turvaparanduste ajastust.
+reviewed: false

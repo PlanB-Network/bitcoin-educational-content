@@ -5,7 +5,7 @@ description: Kufunga nodi yako ya RoninDojo v2 Bitcoin kwenye Raspberry Pi
 ![cover RoninDojo v2](assets/cover.webp)
 
 
-***ONYO:** Kufuatia kukamatwa kwa waanzilishi wa Samourai Wallet na kunaswa kwa seva zao mnamo Aprili 24, vipengele fulani vya RoninDojo, kama vile Whirlpool, havifanyi kazi tena. Hata hivyo, kuna uwezekano kwamba zana hizi zinaweza kurejeshwa au kuzinduliwa upya kwa njia tofauti katika wiki zijazo. Zaidi ya hayo, kwa kuwa msimbo wa RoninDojo ulipangishwa kwenye GitLab ya Samourai, ambayo pia ilichukuliwa, kwa sasa haiwezekani kupakua msimbo kwa mbali. Timu za RoninDojo huenda zinashughulikia kuchapisha upya msimbo.*
+**ONYO:** Kufuatia kukamatwa kwa waanzilishi wa Samourai Wallet na kunaswa kwa seva zao mnamo Aprili 24, vipengele fulani vya RoninDojo, kama vile Whirlpool, havifanyi kazi tena. Hata hivyo, kuna uwezekano kwamba zana hizi zinaweza kurejeshwa au kuzinduliwa upya kwa njia tofauti katika wiki zijazo. Zaidi ya hayo, kwa kuwa msimbo wa RoninDojo ulipangishwa kwenye GitLab ya Samourai, ambayo pia ilichukuliwa, kwa sasa haiwezekani kupakua msimbo kwa mbali. Timu za RoninDojo huenda zinashughulikia kuchapisha upya msimbo.*
 
 
 _Tunafuatilia kwa karibu maendeleo ya kesi hii pamoja na maendeleo kuhusu zana zinazohusiana. Uwe na uhakika kwamba tutasasisha mafunzo haya kadiri habari mpya zinavyopatikana._
@@ -18,9 +18,9 @@ _Mafunzo haya yametolewa kwa madhumuni ya elimu na habari pekee. Hatuidhinishi a
 
 > Tumia Bitcoin na faragha.
 
-Katika somo lililopita, tulikuwa tayari tumeelezea utaratibu wa kusakinisha na kutumia RoninDojo v1. Hata hivyo, zaidi ya mwaka jana, timu za RoninDojo zimezindua toleo la 2 la utekelezaji wao, ambalo liliashiria mabadiliko makubwa katika usanifu wa programu. Hakika, walihama kutoka kwa usambazaji wa Linux Manjaro kwa niaba ya Debian. Kwa hivyo, hawatoi tena picha iliyosanidiwa mapema kwa usakinishaji wa kiotomatiki kwenye Raspberry Pi. Lakini bado kuna njia ya kuendelea na ufungaji wa mwongozo. Hili ndilo nililotumia kwa nodi yangu mwenyewe, na tangu wakati huo, RoninDojo v2 imekuwa ikifanya kazi kwa ajabu kwenye Raspberry Pi 4 yangu. Kwa hiyo ninatoa mafunzo mapya kuhusu jinsi ya kusakinisha RoninDojo v2 kwa Raspberry Pi.
+Katika somo lililopita, tulikuwa tayari tumeelezea utaratibu wa kusakinisha na kutumia RoninDojo v1. Hata hivyo, zaidi ya mwaka jana, timu za RoninDojo zimezindua toleo la 2 la utekelezaji wao, ambalo liliashiria mabadiliko makubwa katika usanifu wa programu. Hakika, walihama kutoka kwa usambazaji wa Linux Manjaro kwa niaba ya Debian. Kwa hivyo, hawatoi tena picha iliyosanidiwa mapema kwa usakinishaji wa kiotomatiki kwenye Raspberry Pi. Lakini bado kuna njia ya kuendelea na ufungaji wa mwongozo. Hili ndilo nililotumia kwa nodi yangu mwenyewe, na tangu wakati huo, RoninDojo v2 imekuwa ikifanya kazi kwa ajabu kwenye Raspberry Pi 4 yangu. Kwa hiyo ninatoa mafunzo mapya kuhusu namna ya kusakinisha RoninDojo v2 kwa Raspberry Pi.
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 ## Jedwali la Yaliyomo:
 
@@ -45,10 +45,10 @@ RoninDojo ni Dojo, kwa hivyo inaruhusu ujumuishaji rahisi wa Whirlpool CLI kweny
 Zaidi ya Whirlpool CLI, RoninDojo inajumuisha zana mbalimbali ili kuboresha utendakazi wa Dojo yako. Kati ya hizi, kikokotoo cha Boltzmann huchanganua kiwango cha faragha cha miamala yako, seva ya Electrum inaruhusu uunganisho wa pochi zako za Bitcoin kwenye nodi yako, na seva ya Mempool hukuwezesha kutazama miamala yako ndani ya nchi, bila kuvuja taarifa.
 
 
-Ikilinganishwa na suluhu zingine za nodi kama Umbrel, RoninDojo inalenga kwa uwazi masuluhisho ya On-Chain na zana za faragha. Tofauti na Umbrel, RoninDojo haitumii kusanidi nodi ya Umeme wala ujumuishaji wa programu-tumizi zaidi za seva za jumla. Ingawa RoninDojo inatoa zana chache zinazoweza kutumika kuliko Umbrel, ina vipengele vyote muhimu vya kudhibiti shughuli yako ya On-Chain.
+Ikilinganishwa na suluhu zingine za nodi kama Umbrel, RoninDojo inalenga kwa uwazi suluhisho ya On-Chain na zana za faragha. Tofauti na Umbrel, RoninDojo haitumii kusanidi nodi ya Umeme wala ujumuishaji wa programu-tumizi zaidi za seva za jumla. Ingawa RoninDojo inatoa zana chache zinazoweza kutumika kuliko Umbrel, ina vipengele vyote muhimu vya kudhibiti shughuli yako ya On-Chain.
 
 
-Ikiwa hauitaji utendaji wa kiujumla au zile zinazohusiana na Lightning Network kama inavyotolewa na Umbrel, na unatafuta nodi rahisi, thabiti yenye zana muhimu kama vile Whirlpool au Mempool, RoninDojo inaweza kuwa suluhisho bora. Ingawa Umbrel inaelekea kuwa seva ndogo ya kufanya kazi nyingi inayoelekezwa kuelekea Lightning Network na matumizi mengi, RoninDojo, kulingana na falsafa ya Samourai Wallet, inazingatia zana za kimsingi za faragha ya mtumiaji.
+Ikiwa hauitaji utendaji wa kiujumla au zile zinazohusiana na Lightning Network kama inavyotolewa na Umbrel, na unatafuta nodi rahisi, thabiti yenye zana muhimu kama vile Whirlpool au Mempool, RoninDojo inaweza kuwa suluhisho bora. Ingawa Umbrel inaelekea kuwa seva ndogo ya kufanya kazi nyingi zinayoelekezwa kuelekea kwa Lightning Network na matumizi mengi, RoninDojo, kulingana na falsafa ya Samourai Wallet, inazingatia zana za kimsingi za faragha ya mtumiaji.
 
 
 Sasa kwa kuwa tumeelezea RoninDojo, hebu tuone pamoja jinsi ya kusanidi nodi hii.
@@ -103,7 +103,7 @@ Pia, ambatisha shabiki kwa Raspberry Pi.
 ![assembly3](assets/notext/5.webp)
 
 
-Unganisha vipengele mbalimbali, ukizingatia kutumia pini sahihi, ukirejelea mwongozo wa kesi yako. Watengenezaji wa kesi mara nyingi hutoa mafunzo ya video ili kukusaidia katika mkusanyiko. Kwa upande wangu, nina kadi ya upanuzi ya ziada iliyo na kitufe cha kuwasha/kuzima. Hii sio muhimu kwa kutengeneza nodi ya Bitcoin. Ninaitumia sana kuwa na kitufe cha kuwasha.
+Unganisha vipengele mbalimbali, ukizingatia kutumia pini sahihi, ukirejelea mwongozo wa kesi yako. Watengenezaji wa kesi mara nyingi hutoa mafunzo ya video ili kukusaidia katika mkusanyiko. Kwa upande wangu, nina kadi ya upanuzi ya ziada iliyo na kitufe cha kuwasha/kuzima. Hii sio muhimu kwa kutengeneza nodi ya Bitcoin. Ninaitumia sana kwa kuwa na kitufe cha kuwasha.
 
 
 Ikiwa, kama mimi, una kadi ya upanuzi iliyo na kitufe cha kuwasha/kuzima, usisahau kusakinisha jumper ndogo ya "Auto Power On". Hii itaruhusu nodi yako kuanza kiotomatiki mara tu inapowashwa. Kipengele hiki ni muhimu sana katika tukio la kukatika kwa umeme, kwani inaruhusu nodi yako kuanza upya yenyewe, bila uingiliaji wa mwongozo kwa upande wako.
@@ -131,7 +131,7 @@ Mwishowe, sasisha Raspberry Pi yako katika kesi yake. Fahamu, hatua ya baadaye i
 
 Baada ya kukusanya vifaa vyako, hatua inayofuata ni kusakinisha RoninDojo. Kwa hili, tutatayarisha kadi ndogo ya SD ya bootable kutoka kwa kompyuta yako, kwa kuchoma picha sahihi ya disk juu yake.
 
-Utahitaji kutumia _**Raspberry Pi Imager**_ programu, iliyoundwa ili kuwezesha kupakua, kusanidi, na kuandika mifumo ya uendeshaji kwenye kadi ndogo ya SD kwa matumizi na Raspberry Pi. Anza kwa kusakinisha programu hii kwenye Kompyuta yako ya kibinafsi:
+Utahitaji kutumia _**Raspberry Pi Imager**_ programu, iliyoundwa ili kukuwezesha kupakua, kusanidi, na kuandika mifumo ya uendeshaji kwenye kadi ndogo ya SD kwa matumizi na Raspberry Pi. Anza kwa kusakinisha programu hii kwenye Kompyuta yako ya kibinafsi:
 
 
 - Kwa Ubuntu/Debian: https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb
@@ -333,7 +333,7 @@ Mara moja kwenye ukurasa wa nyumbani wa RoninUI, utaulizwa kuanza usanidi. Ili k
 ![lets start](assets/notext/25.webp)
 
 
-Katika hatua hii, RoninUI inakuletea nenosiri lako la `root`. Ni muhimu kuiweka salama. Unaweza kuchagua kupata nakala halisi, kwenye karatasi, au kuihifadhi katika [kidhibiti nenosiri](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-155).
+Katika hatua hii, RoninUI inakuletea nenosiri lako la `root`. Ni muhimu kuiweka salama. Unaweza kuchagua kupata nakala halisi, kwenye karatasi, au kuihifadhi katika [kidhibiti nenosiri](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-155).
 
 
 ![root password](assets/notext/26.webp)
@@ -345,7 +345,7 @@ Baada ya kuhifadhi neno la siri la `mzizi`, chagua kisanduku `Nimeweka nakala ru
 ![confirm root password](assets/notext/27.webp)
 
 
-Hatua inayofuata inahusisha kuunda nenosiri la mtumiaji, ambalo litatumika kufikia mtandao wa RoninUI Interface na kuanzisha vipindi vya SSH na nodi yako. Chagua nenosiri dhabiti na uhakikishe kulihifadhi kwa usalama. Utahitaji kuingiza nenosiri hili mara mbili kabla ya kubofya `Maliza` ili kuhalalisha. Kuhusu jina la mtumiaji, inashauriwa kuweka chaguo-msingi, `ronindojo`. Ukiamua kuibadilisha, kumbuka kurekebisha amri katika hatua zifuatazo ipasavyo.
+Hatua inayofuata inahusisha kuunda nenosiri la mtumiaji, ambalo litatumika kufikia mtandao wa RoninUI Interface na kuanzisha vipindi vya SSH na nodi yako. Chagua nenosiri dhabiti na uhakikishe kulihifadhi kwa usalama. Utahitaji kuingiza nenosiri hili mara mbili kabla ya kubofya `Maliza` ili kuhalalisha. Kuhusu jina la mtumiaji, inashauriwa kuweka chaguo-msingi, `ronindojo`. Ukiamua kulibadilisha, kumbuka kurekebisha amri katika hatua zifuatazo ipasavyo.
 
 
 ![user credentials](assets/notext/28.webp)
@@ -391,7 +391,7 @@ Hongera! Njia yako ya RoninDojo v2 sasa imesanidiwa na iko tayari kutumika. Itaa
 **Ikiwa unahama kutoka nodi ya zamani ya RoninDojo v1** hadi toleo hili jipya na mafunzo haya huku ukihifadhi SSD sawa, nodi yako inapaswa kutambua kiotomatiki na kutumia tena data iliyopo kwenye diski, kukuepusha na umuhimu wa kutekeleza IBD tena. Katika kesi hii, utahitaji tu kusubiri nodi yako ili kusawazisha na vitalu vya hivi karibuni.
 
 
-### Hatua ya 8: "veth* fix"
+### Hatua ya 8: "veth fix"
 
 Ikiwa unakutana na mdudu na RoninDojo v2 yako kwenye Raspberry Pi, ambapo baada ya usakinishaji usio na shida, nodi yako ghafla haipatikani kupitia SSH lakini inapona baada ya kuanzisha upya rahisi, basi unahitaji kufuata hatua hii ya 8. Hitilafu hii ya kawaida inaweza kurekebishwa kwa urahisi na ufumbuzi uliotengenezwa na jumuiya: "_veth fix_". Usahihishaji huu mdogo husuluhisha kukatika kwa ghafla. Hapa ni jinsi ya kuitumia.
 
@@ -409,7 +409,7 @@ Ikiwa, kwa mfano, IP Address ya nodi yako ni `192.168.1.40`, amri inayofaa itaku
 Utaulizwa kuingiza nenosiri la mtumiaji. Ingiza na ubonyeze `enter` ili kuhalalisha. Kisha utafikia RoninCLI Interface. Tumia vishale vya kibodi yako kwenda kwenye chaguo la `Toka RoninDojo` na ubonyeze `ingia` ili kuichagua.
 
 
-Kwa wakati huu, uko kwenye terminal ya nodi yako, na upesi wa amri sawa na: `ronindojo@RoninDojo:~ $`. Ili kutumia urekebishaji wa veth*, chapa amri ifuatayo na ubonyeze `ingia`:
+Kwa wakati huu, uko kwenye terminal ya nodi yako, na upesi wa amri sawa na: `ronindojo@RoninDojo:~ $`. Ili kutumia urekebishaji wa **veth**, chapa amri ifuatayo na ubonyeze `ingia`:
 
 `sudo nano /etc/dhcpcd.conf`
 
@@ -419,7 +419,7 @@ Thibitisha nenosiri lako tena na ubonyeze `ingiza`.
 
 Utafika kwenye faili ya `dhcpcd.conf`. Unahitaji kunakili maandishi yafuatayo, ukihakikisha kuwa unajumuisha nyota, na kuiongeza chini ya faili:
 
-`nyingi za nyuso veth*`
+`nyingi za nyuso veth`
 
 
 Ili kufanya hivyo, nenda chini ya faili kwa kutumia mshale wa chini kwenye kibodi yako, kisha ubofye kulia kwa kipanya chako ili kubandika maandishi kwenye mstari unaojitegemea.
@@ -523,7 +523,7 @@ Ninakushauri uhifadhi kiungo hiki katika vipendwa vyako kwenye kivinjari cha Tor
 Nodi yako ya RoninDojo pia inaunganisha _WhirlpoolCLI_, safu ya amri ya Interface inayowezesha uwekaji otomatiki wa viunganishi vya Whirlpool, na _WhirlpoolGUI_, mchoro wa Interface iliyoundwa kuingiliana na _WhirlpoolCLI_.
 
 
-Kufanya CoinJoin kupitia Whirlpool kunahitaji kwamba programu inayotumika itumike kutekeleza michanganyiko. Hali hii inaweza kuwa kizuizi kwa wale wanaotaka kufikia viwango vya juu vya anonsets. Hakika, kifaa kinachopangisha programu inayounganisha Whirlpool lazima kiendelee kuwashwa. Hii ina maana kwamba ili kushiriki katika michanganyaji saa 24 kwa siku, kompyuta au simu yako mahiri lazima ibaki imewashwa huku Samourai au Sparrow zikiwa zimefunguliwa kila wakati. Suluhisho la kikwazo hiki ni kutumia _WhirlpoolCLI_ kwenye mashine ambayo huwashwa kila wakati, kama vile nodi ya Bitcoin, kuruhusu sarafu zako kuchanganyika bila kukatizwa, na bila hitaji la kuwasha kifaa kingine.
+Kufanya CoinJoin kupitia Whirlpool kunahitaji kwamba programu inayotumika itumike kutekeleza michanganyiko. Hali hii inaweza kuwa kizuizi kwa wale wanaotaka kufikia viwango vya juu vya anonsets. Hakika, kifaa kinachopangisha programu inayounganisha Whirlpool lazima kiendelee kuwashwa. Hii ina maana kwamba ili kushiriki katika michanganyiko saa 24 kwa siku, kompyuta au simu yako mahiri lazima ibaki imewashwa huku Samourai au Sparrow zikiwa zimefunguliwa kila wakati. Suluhisho la kikwazo hiki ni kutumia _WhirlpoolCLI_ kwenye mashine ambayo huwashwa kila wakati, kama vile nodi ya Bitcoin, kuruhusu sarafu zako kuchanganyika bila kukatizwa, na bila hitaji la kuwasha kifaa kingine.
 
 
 Mafunzo ya kina yako katika maandalizi ya kukuongoza hatua kwa hatua katika mchakato wa kuungana na Samourai Wallet na RoninDojo v2, kutoka A hadi Z.
@@ -532,18 +532,18 @@ Mafunzo ya kina yako katika maandalizi ya kukuongoza hatua kwa hatua katika mcha
 Kwa ufahamu wa kina wa CoinJoin na matumizi yake kwenye Bitcoin, ninakualika pia kushauriana na makala haya mengine: Kuelewa na kutumia CoinJoin kwenye Bitcoin, ambapo ninaelezea kila kitu unachohitaji kujua kuhusu mbinu hii.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### Kwa kutumia Whirlpool Stat Tool (WST)
 
 
-Baada ya kutekeleza sanjari na Whirlpool, ni muhimu kutathmini kwa usahihi kiwango cha faragha kilichofikiwa kwa UTXO zako mchanganyiko. Ili kufanya hivyo, unaweza kutumia zana ya Python *Whirlpool Stat Tool*. Zana hii inakuruhusu kupima alama zinazotarajiwa na rejea za UTXO zako, huku ukichanganua kiwango chao cha usambaaji kwenye bwawa.
+Baada ya kutekeleza sanjari na Whirlpool, ni muhimu kutathmini kwa usahihi kiwango cha faragha kilichofikiwa kwa UTXO zako mchanganyiko. Ili kufanya hivyo, unaweza kutumia zana ya Python *Whirlpool Stat Tool*. Zana hii inakuruhusu kupima alama zinazotarajiwa na rejea za UTXO zako, huku ukichanganua kiwango chao cha usambazaji kwenye bwawa.
 
 
-Ili kuimarisha uelewa wako wa taratibu za hesabu za anonsets hizi, napendekeza kusoma makala: REMIX - Whirlpool, ambayo inaelezea utendaji wa fahirisi hizi.
+Ili kuimarisha uelewa wako na taratibu za hesabu za anonsets hizi, napendekeza kusoma makala: REMIX - Whirlpool, ambayo inaelezea utendaji wa fahirisi hizi.
 
 
-https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 
@@ -562,7 +562,7 @@ Ikiwa ulibadilisha jina lako la mtumiaji wakati wa hatua ya 6, ukibadilisha jina
 `SSH planb@192.168.1.40`
 
 
-Utaulizwa kuingiza nenosiri la mtumiaji. Ingiza na ubonyeze `enter` ili kuhalalisha. Kisha utafikia RoninCLI Interface. Tumia vitufe vya vishale kwenye kibodi yako ili kuelekea kwenye menyu ya `Zana ya Samourai` na ubonyeze `ingia` ili kuichagua:
+Utaulizwa kuingiza nenosiri la mtumiaji. Ingiza na ubonyeze `enter` ili kuhalalisha. Kisha utafikia RoninCLI Interface. Tumia vitufe vya vishale kwenye kibodi chako ili kuelekea kwenye menyu ya `Zana ya Samourai` na ubonyeze `ingia` ili kuichagua:
 
 
 ![Samourai Toolkit](assets/notext/43.webp)
@@ -614,7 +614,7 @@ Baada ya kupakua, pakia data kwa kubadilisha `0001` na msimbo wa bwawa lako kati
 ![WST loading](assets/notext/46.webp)
 
 
-Subiri hadi upakiaji ukamilike, ambayo inaweza kuchukua dakika chache. Mara tu data inapopakiwa, ili kujua alama za anonset za sarafu yako, tekeleza amri `alama` ikifuatiwa na txid yako (bila mabano):
+Subiri hadi upakiaji ukamilike, ambao unaweza kuchukua dakika chache. Mara tu data inapopakiwa, ili kujua alama za anonset za sarafu yako, tekeleza amri `alama` ikifuatiwa na txid yako (bila mabano):
 
 `alama [txid]`
 
@@ -622,7 +622,7 @@ Subiri hadi upakiaji ukamilike, ambayo inaweza kuchukua dakika chache. Mara tu d
 ![WST score](assets/notext/47.webp)
 
 
-WST kisha itaonyesha alama ya rejea (_vipimo vinavyoonekana nyuma_), ikifuatwa na alama tarajiwa (_Vipimo vinavyotazama Mbele_). Kando na alama za kukosekana kwa mpangilio, WST pia itaonyesha kiwango cha usambaaji wa shughuli yako ya ununuzi ndani ya bwawa, ikilinganishwa na kutokujali kwake.
+WST kisha itaonyesha alama ya rejea (_vipimo vinavyoonekana nyuma_), ikifuatwa na alama tarajiwa (_Vipimo vinavyotazama Mbele_). Kando na alama za kukosekana kwa mpangilio, WST pia itaonyesha kiwango cha usambazaji wa shughuli zako ya ununuzi ndani ya bwawa, ikilinganishwa na kutokujali kwake.
 
 
 **Ni muhimu kutambua kwamba alama zinazotarajiwa za sarafu yako zinapaswa kuhesabiwa kutoka kwa txid ya mchanganyiko wako wa awali, na si kutoka kwa mchanganyiko wako wa hivi karibuni. Kinyume chake, alama ya retrospective ya UTXO inakokotolewa kutoka txid ya mzunguko wa mwisho.**
@@ -661,7 +661,7 @@ $$ E = \log_2(1496) $$
 $$ E \takriban 10.5469 \text{ bits}$$
 
 
-Kwa hivyo, shughuli hii ya CoinJoin inaonyesha entropy ya bits 10.5469, ambayo inachukuliwa kuwa ya kuridhisha sana. Kadiri thamani hii inavyokuwa juu, ndivyo tafsiri tofauti zaidi shughuli inavyokubali, na hivyo kuimarisha kiwango chake cha faragha.
+Kwa hivyo, shughuli hii ya CoinJoin inaonyesha entropy ya bits 10.5469, ambayo inachukuliwa kuwa ya kuridhisha sana. Kadiri thamani hii inavyokuwa juu, ndivyo tafsiri tofauti zaidi ya shughuli inavyokubali, na hivyo kuimarisha kiwango chake cha faragha.
 
 
 Wacha tuchukue mfano wa ziada na shughuli ya kawaida zaidi, inayojumuisha ingizo moja na matokeo mawili: [1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce](https://GW-9 6.space/en/tx/1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce)
@@ -674,7 +674,7 @@ $$ E = \log_2(1) $$
 
 $$ E \takriban 0 \text{ bits}$$
 
-**Kiashiria cha tatu** kinachotolewa na Kikokotoo cha Boltzmann kinaitwa `Ufanisi wa Wallet`. Kiashirio hiki hutathmini ufanisi wa shughuli kwa kuilinganisha na muamala bora unaowezekana katika usanidi unaofanana. Hii inatuongoza kujadili dhana ya entropy ya juu zaidi, ambayo inalingana na entropy ya juu zaidi muundo maalum wa shughuli unaweza kufikia kinadharia. Kwa hivyo, kwa muundo wa Whirlpool 5x5 CoinJoin, entropy ya juu imewekwa kwenye `10.5469`. Ufanisi wa muamala kisha unakokotolewa kwa kukabili entropy hii ya juu zaidi na entropy halisi ya shughuli iliyochanganuliwa. Formula inayotumika ni kama ifuatavyo:
+**Kiashiria cha tatu** kinachotolewa na Kikokotoo cha Boltzmann kinaitwa `Ufanisi wa Wallet`. Kiashirio hiki hutathmini ufanisi wa shughuli kwa kuilinganisha na muamala bora unaowezekana katika usanidi unaofanana. Hii inatuongoza kujadili dhana ya entropy ya juu zaidi, ambayo inalingana na entropy ya juu zaidi muundo maalum wa shughuli unaoweza kufikia kinadharia. Kwa hivyo, kwa muundo wa Whirlpool 5x5 CoinJoin, entropy ya juu imewekwa kwenye `10.5469`. Ufanisi wa muamala kisha unakokotolewa kwa kukabili entropy hii ya juu zaidi na entropy halisi ya shughuli iliyochanganuliwa. Formula inayotumika ni kama ifuatavyo:
 
 
 - $ER$: entropy halisi ya shughuli, iliyoonyeshwa kwa bits;
@@ -703,7 +703,7 @@ $$Ef = 100\%$$
 Ufanisi wa `100%` kwa hivyo unaonyesha kuwa muamala huongeza uwezekano wake wa faragha kulingana na muundo wake.
 
 
-**Kiashirio cha nne**, msongamano wa entropy, au `Uzito wa Entropy`, hutoa mtazamo kuhusu entropy kuhusiana na kila ingizo au matokeo ya muamala. Kiashiria hiki kinathibitisha kuwa muhimu kwa kutathmini na kulinganisha ufanisi wa shughuli za ukubwa tofauti. Ili kuihesabu, gawanya tu jumla ya entropi ya muamala kwa jumla ya idadi ya pembejeo na matokeo yanayohusika. Kwa kuchukua mfano wa Whirlpool 5x5 CoinJoin:
+**Kiashirio cha nne**, msongamano wa entropy, au `Uzito wa Entropy`, hutoa mtazamo kuhusu entropy kuhusiana na kila ingizo au matokeo ya muamala. Kiashiria hiki kinathibitisha kuwa cha muhimu kwa kutathmini na kulinganisha ufanisi wa shughuli za ukubwa tofauti. Ili kuihesabu, gawanya tu jumla ya entropi ya muamala kwa jumla ya idadi ya pembejeo na matokeo yanayohusika. Kwa kuchukua mfano wa Whirlpool 5x5 CoinJoin:
 
 
 - $ED$: msongamano wa entropy ulioonyeshwa kwa bits;
@@ -730,7 +730,7 @@ $$ED = 1.054 \text{ bits}$$
 | Input 4 | 34%      | 34%      | 34%      | 34%      | 34%      |
 
 
-Hapa, ni wazi kwamba kila pembejeo ina nafasi sawa ya kuhusishwa na matokeo yoyote, ambayo huimarisha utata na usiri wa shughuli. Walakini, katika kesi ya shughuli rahisi na pembejeo moja na matokeo mawili, hali ni tofauti:
+Hapa, ni wazi kwamba kila pembejeo lina nafasi sawa ya kuhusishwa na matokeo yoyote, ambayo huimarisha utata na usiri wa shughuli. Walakini, katika kesi ya shughuli rahisi na pembejeo moja na matokeo mawili, hali ni tofauti:
 
 
 | %       | Output 0 | Output 1 |
@@ -807,9 +807,9 @@ Hakikisha kwamba miamala yote imeorodheshwa ipasavyo. Ni muhimu pia kuthibitisha
 Zaidi ya zana hii, kichupo cha `Matengenezo` cha RoninUI kimejaa vipengele vingine muhimu:
 
 
-- Zana ya Muamala*: Huruhusu kuchunguza maelezo ya shughuli fulani;
-- Zana ya Address*: Inaruhusu kuthibitisha ufuatiliaji wa Address iliyotolewa na Dojo yako;
-- Changanua upya Vitalu*: Hulazimisha nodi yako kufanya uchanganuzi mpya wa safu maalum ya kuzuia.
+- **Zana ya Muamala**: Huruhusu kuchunguza maelezo ya shughuli fulani;
+- **Zana ya Address**: Inaruhusu kuthibitisha ufuatiliaji wa Address iliyotolewa na Dojo yako;
+- Changanua upya Vitalu: Hulazimisha nodi yako kufanya uchanganuzi mpya wa safu maalum ya kuzuia.
 
 
 Kichupo cha `Push Tx` ni kipengele kingine cha kuvutia cha RoninUI, ambacho huwezesha utangazaji wa shughuli iliyosainiwa kwenye mtandao wa Bitcoin. Muamala lazima uingizwe katika fomu ya hexadecimal.
@@ -824,7 +824,7 @@ Kuhusu vichupo vingine vinavyopatikana kwenye dashibodi yako ya RoninUI:
 - `Mipangilio`: Hukuruhusu kubadilisha nenosiri lako la mtumiaji.
 
 
-Hapo unayo! Asante kwa kufuatilia mafunzo haya hadi mwisho. Ikiwa uliifurahia, nakuhimiza kuishiriki kwenye mitandao ya kijamii. Zaidi ya hayo, ikiwa una fursa, zingatia kuunga mkono wasanidi programu wanaofanya programu hizi huria na huria kupatikana kwa jumuiya yetu kwa mchango: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). Ili kuongeza ujuzi wako wa RoninDojo na kugundua rasilimali zaidi, ninapendekeza sana kushauriana na viungo vya rasilimali za nje zilizotajwa hapa chini.
+Hapo unayo! Asante kwa kufuatilia mafunzo haya hadi mwisho. Ikiwa uliyafurahia, nakuhimiza kushiriki kwenye mitandao ya kijamii. Zaidi ya hayo, ikiwa una fursa, zingatia kuunga mkono wasanidi programu wanaofanya programu hizi huria na huria kupatikana kwa jumuiya yetu kwa mchango: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). Ili kuongeza ujuzi wako wa RoninDojo na kugundua rasilimali zaidi, ninapendekeza sana kushauriana na viungo vya rasilimali za nje zilizotajwa hapa chini.
 
 
 **Nyenzo za nje:**
@@ -835,3 +835,4 @@ Hapo unayo! Asante kwa kufuatilia mafunzo haya hadi mwisho. Ikiwa uliifurahia, n
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
 - [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+

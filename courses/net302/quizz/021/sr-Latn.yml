@@ -1,0 +1,9 @@
+question: Koja TCP funkcija optimizuje protok prilagođavanjem broja poslatih segmenata bez trenutnog potvrđivanja?
+answer: Klizni prozor
+wrong_answers:
+  - Dinamičko fragmentisanje
+  - Preklapanje paketa
+  - Statičko rutiranje
+explanation: |
+  "Klizni prozor" omogućava slanje nekoliko segmenata uzastopno, zatim pomera opseg sa svakim potvrđivanjem kako bi optimizovao tok.
+reviewed: false

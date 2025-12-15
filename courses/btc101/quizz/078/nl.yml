@@ -1,12 +1,13 @@
-question: Welke van deze opties is fout over het verliezen van het apparaat waarop je Bitcoin Wallet hebt?
-answer: Je kunt je Wallet opnieuw aanmaken en je Bitcoin uitgeven door je wachtwoord opnieuw in te stellen.
+question: Wat is een Hot Wallet?
+answer: Een Bitcoin Wallet op je telefoon of computer met internetverbinding.
 wrong_answers:
-  - Je verliest al je Bitcoins als je de Mnemonic zin niet hebt.
-  - Je kunt met je publieke sleutels verifiëren dat je bitcoins niet zijn uitgegeven.
-  - Je kunt je Wallet opnieuw maken en je Bitcoin uitgeven met de Mnemonic zin.
+  - Een Wallet die fysiek Hot is om aan te raken.
+  - Een Wallet die populair is onder Bitcoin gebruikers.
+  - Een Wallet die wordt aanbevolen voor het opslaan van grote hoeveelheden bitcoins.
 explanation: |
-  Verlies van het apparaat waarop u uw Wallet hebt staan, betekent niet
-  betekent niet noodzakelijk het verlies van uw Bitcoins. Wat u in staat stelt
-  om je Wallet opnieuw te maken en je Bitcoin uit te geven is de
-  Mnemonic zin.
+  Een Hot Wallet is een term die gebruikt wordt om een Bitcoin Wallet te beschrijven
+  dat is opgeslagen op een apparaat met internettoegang, zoals een
+  telefoon of computer. Op deze manier is het gemakkelijk om
+  transacties uit te voeren, maar het betekent ook dat de Wallet
+  potentieel kwetsbaar is voor online bedreigingen.
 reviewed: true

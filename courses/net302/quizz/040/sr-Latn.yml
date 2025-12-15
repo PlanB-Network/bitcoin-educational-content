@@ -1,0 +1,9 @@
+question: Koji zapis je obavezan u svakoj DNS zoni?
+answer: SOA (Start Of Authority)
+wrong_answers:
+  - PTR (Pointer)
+  - AAAA (IPv6 Address)
+  - SRV (Service Locator)
+explanation: |
+  SOA zapis definiše autoritet zone i potreban je u svakoj DNS zonskoj datoteci.
+reviewed: false

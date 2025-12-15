@@ -1,0 +1,9 @@
+question: Millised on need kaks omadust, mis moodustavad aine?
+answer: Mateeria ja mõte.
+wrong_answers:
+  - Rõõm ja kurbus.
+  - Mõistus ja ebausk.
+  - Minevik ja olevik.
+explanation: |
+  Aine kaks omadust, mida me saame teada, on aine (või ulatus) ja mõte. Need kaks omadust väljendavad Aine lõpmatut olemust kahes erinevas, kuid mitte eraldiseisvas aspektis.
+reviewed: false

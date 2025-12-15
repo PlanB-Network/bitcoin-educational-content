@@ -1,12 +1,9 @@
-question: Mida tekst soovitab teha, et laiendada oma teadmisi Bitcoini kohta?
-answer: Viidata viimaste aastate jooksul loetletud ja kategoriseeritud ressursside kogumikule
+question: Milline mehhanism muudab Lightningi maksed atomaarseks?
+answer: HTLC
 wrong_answers:
-  - Osaleda Bitcoin'i konverentsidel
-  - Investeerida Bitcoin'i
-  - Alustada Bitcoin'i kaevandamise operatsiooni
-explanation: >-
-  Tekst soovitab, et oma teadmiste laiendamiseks Bitcoini kohta võiksite
-  viidata ressursside kogumikule, mis on viimaste aastate jooksul loetletud ja kategoriseeritud,
-  kaasa arvatud podcast'id, veebilehed, artiklid, õpetused, raamatud ja muu
-  sisu.
+  - Multiallkiri
+  - Proof of Work
+  - SegWit
+explanation: |
+  HTLC-d seovad makse saladuse avaldamisega, tagades täieliku õnnestumise või ebaõnnestumise ilma kaotuseta.
 reviewed: false

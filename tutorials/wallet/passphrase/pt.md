@@ -1,5 +1,5 @@
 ---
-name: Passphrase BIP39
+name: BIP-39 Passphrase
 description: Entendendo como uma frase-senha funciona
 ---
 ![cover](assets/cover.webp)
@@ -29,27 +29,39 @@ Finalmente, usar uma frase-senha é interessante quando se deseja controlar a al
 ## Como escolher uma boa frase-senha?
 Para que a frase-senha seja eficaz, ela deve ser suficientemente longa e aleatória. Assim como com uma senha forte, eu recomendo escolher uma frase-senha que seja o mais longa e aleatória possível, com uma variedade de letras, números e símbolos para tornar qualquer ataque de força bruta impossível.
 
+De acordo com [um estudo realizado pela Trezor em 2019](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af), um atacante com acesso à sua seed e usando uma GPU de alto desempenho alugada na AWS (NVIDIA Tesla V100) poderia testar quase 620 milhões de frases-senha por 1 dólar. Como referência, com as capacidades de 2019, uma frase-senha composta por 12 letras minúsculas aleatórias custaria em média **77 milhões de dólares** para ser quebrada.
+
+No entanto, não recomendo que se limite a 12 caracteres. Em vez disso, siga os padrões atuais para senhas fortes: em 2025, use no mínimo 13 caracteres aleatórios que incluam números, letras minúsculas e maiúsculas, além de símbolos; ou 14 caracteres caso utilize apenas letras minúsculas e maiúsculas. Naturalmente, recomendo que vá além e adote, por exemplo, uma frase secreta com 20 caracteres e símbolos, para antecipar futuras evoluções e considerar os riscos humanos que não são contemplados nesses estudos.
+
 Também é importante salvar corretamente esta frase-senha, da mesma forma que a frase mnemônica. **Perdê-la significa perder o acesso aos seus bitcoins**. Eu aconselho fortemente contra memorizá-la somente em sua cabeça, pois isso aumenta irrazoavelmente o risco de perda. O ideal é escrevê-la em um meio físico (papel ou metal) separado da frase mnemônica. Este backup deve obviamente ser armazenado em um local diferente de onde sua frase mnemônica é mantida para prevenir que ambos sejam comprometidos simultaneamente.
 
 ## Tutoriais
 
 Para configurar uma frase-senha em um dispositivo Ledger (Stax, Flex, ou Nano), você pode consultar este tutorial:
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Em uma COLDCARD:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 Em um Jade Plus:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 Em um Passport (batch-2):
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 Em um dispositivo Trezor (Safe 3, Safe 5 ou Model One):
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+Em um SeedSigner:
+https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa03-4bcf-8308-00c89a74cffe
+Em um SeedSigner com um Seedkeeper:
+https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+
+
+
+
 

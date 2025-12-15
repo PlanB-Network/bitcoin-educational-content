@@ -1,0 +1,9 @@
+question: Ko je Ayn Rand?
+answer: Autor dela "La Grève" i "La Source Vive".
+wrong_answers:
+  - Spinozina saputnica.
+  - Britanski političar.
+  - Romantični autor.
+explanation: |
+  Ayn Rand (1905-1982) je autorka knjiga Atlas Shrugged i The Fountainhead. Razvila je filozofiju pod nazivom Objektivizam, koja zagovara racionalni individualizam i kapitalizam.
+reviewed: false

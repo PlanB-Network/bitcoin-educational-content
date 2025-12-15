@@ -1,0 +1,9 @@
+question: Ni ibihe bintu bihambaye cane umuntu akwiye gusuzuma imbere yo guhitamwo porogarama yo gutanga ubutumwa?
+answer: Iherezo-ku-iherezo ry'ububiko na kode y'inkomoko yuguruye
+wrong_answers:
+  - Ivyemezo bikomeye na kode y'inkomoko yuguruye
+  - Iherezo-ku-iherezo ry'ububiko n'amaserveri yegerejwe
+  - Ivyemezo bikomeye n'amaserveri yegerejwe
+explanation: |
+  Ugushiramwo amakuru kuva ku mpera kugeza ku mpera bituma amakuru ahindurwa aba ibanga, kandi inkomoko yuguruye ituma bishoboka kugenzura ukuntu uwo mutekano ushirwa mu ngiro neza.
+reviewed: false

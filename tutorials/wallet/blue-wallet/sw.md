@@ -1,5 +1,5 @@
 ---
-name: Bluu Wallet
+name: Blue Wallet
 
 description: Bitcoin Radically Radically na Nguvu Portfolio
 ---
@@ -11,11 +11,10 @@ Kuanza kutumia Bitcoin inaonekana kuwa changamoto kubwa kwa watu ambao wana shak
 
 
 
-Katika somo hili tutaangalia Blue Wallet, Bitcoin Wallet rahisi lakini yenye ufanisi zaidi ambayo inakuruhusu kudhibiti bitcoins zako binafsi na pia kuunda vyama vya ushirika vya usimamizi kulingana na [Multisig](https://planb.network/resources/glossary/multisig) (usijali, tutarudia tena).
+Katika somo hili tutaangalia Blue Wallet, Bitcoin Wallet rahisi lakini yenye ufanisi zaidi ambayo inakuruhusu kudhibiti bitcoins zako binafsi na pia kuunda vyama vya ushirika vya usimamizi kulingana na [Multisig](https://planb.academy/resources/glossary/multisig) (usijali, tutarudia tena).
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 
@@ -35,11 +34,11 @@ Bluu Wallet ni chanzo wazi, cha kujilimbikizia Bitcoin Wallet ambacho hukuruhusu
 
 
 
-Mara tu ikiwa imewekwa, unaweza kuunda Wallet mpya na kuhifadhi maneno 12 ya kurejesha, au kuagiza Bitcoin Wallet iliyopo. Jua jinsi ya kufanya nakala bora ya maneno yako muhimu ili usipoteze ufikiaji wa bitcoins zako.
+Mara tu ikiwa imewekwa, unaweza kuunda Wallet mpya na kuhifadhi maneno 12 ya urejeshaji, au kuagiza Bitcoin Wallet iliyopo. Hakikisha unajua jinsi ya kutengeneza nakala salama ya maneno yako muhimu ili usipoteze ufikiaji wa bitcoins zako.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Ukiwa na Bluu Wallet unaweza kuunda jalada tofauti, maalum la Bitcoin. Kwa mfano, unaweza kuwa na Wallet moja kwa akiba yako na nyingine kwa ajili ya matumizi yako ya kila siku, yote katika programu sawa.
 
@@ -65,10 +64,10 @@ Ikiwa umezoea kwingineko zingine za Bitcoin kama Phoenix au Aqua, hutakosa hata 
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Bitcoin Wallet ya Bluu ya Wallet inawakilisha kiwango cha Wallet katika mfumo ikolojia wa Bitcoin. Unaweza kutumia bitcoins mradi tu unamiliki maneno ya kurejesha akaunti ambayo yatatoa sahihi sahihi kwenye mtandao ili kuthibitisha kwamba unamiliki bitcoins.
 
@@ -86,7 +85,7 @@ Unapobofya onyesho la kukagua Bitcoin Wallet, utaweza kuona historia yako ya mua
 
 
 
-⚠️ Shughuli zote katika Bitcoin Wallet yako ziko kwenye msururu mkuu wa itifaki wa Bitcoin (Mainnet).
+⚠️ Miamala yote katika Bitcoin Wallet yako ziko kwenye msururu mkuu wa protocol wa Bitcoin (Mainnet).
 
 
 
@@ -106,7 +105,7 @@ Unaweza pia kusanidi kiasi kilichoainishwa ili kubainisha kiasi cha Bitcoin unac
 
 
 
-- Kwenye kitufe cha **Tuma **, tuma bitcoins kwa Bitcoin Address, kuweka kiasi kinachohitajika na kuthibitisha shughuli.
+- Kwenye kitufe cha **Tuma **, tuma bitcoins kwa Bitcoin Address, kuweka kiasi kinachohitajika na kuthibitisha muamala.
 
 
 
@@ -118,11 +117,11 @@ Wallet ya Bluu hukuruhusu kusanidi vigezo vya usafirishaji wako wa Bitcoin upend
 
 
 
-Kwa hivyo unaweza kuchagua uwiano wa ada ya muamala unaokufaa ikiwa ungependa kuona muamala wako umethibitishwa haraka katika Mempool na kujumuishwa kwenye kizuizi na wachimbaji. Kulingana na uwiano utakaochagua, wachimbaji watatoa kipaumbele kwa shughuli yako kwa kiwango kikubwa au kidogo. Pata maelezo zaidi katika mafunzo yetu ya anga ya Mempool.
+Kwa hivyo unaweza kuchagua uwiano wa ada ya muamala unaokufaa ikiwa ungependa kuona muamala wako umethibitishwa haraka katika Mempool na kujumuishwa kwenye block na miners. Kulingana na uwiano utakaochagua, miners watatoa kipaumbele kwa muamala wako kwa kiwango kikubwa au kidogo. Pata maelezo zaidi katika mafunzo yetu ya anga ya Mempool.
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -130,7 +129,7 @@ https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43c
 
 
 
-- Ukiwa na Bluu Wallet, unaweza kuongeza wapokeaji wengi kwenye usafirishaji mmoja.
+-Ukiwa na Blue Wallet, unaweza kuongeza wapokeaji wengi kwenye usafirishaji mmoja.
 
 
 
@@ -152,7 +151,7 @@ Unaweza kuondoa mpokeaji mmoja au wote kwa kubofya kwenye **Ondoa Mpokeaji** na 
 
 
 
-- Pandisha ada**: Je, umefanya muamala unaochukua muda mrefu kuthibitishwa? Kwa kuwezesha mfumuko wa bei wa ada unaweza kuongeza ada za ziada za ununuzi kwenye muamala wako unaosubiri ili kuharakisha uthibitishaji wake.
+- **Pandisha ada**: Je, umefanya muamala unaochukua muda mrefu kuthibitishwa? Kwa kuwezesha mfumuko wa bei wa ada unaweza kuongeza ada za ziada za ununuzi kwenye muamala wako unaosubiri ili kuharakisha uthibitishaji wake.
 
 
 
@@ -164,7 +163,7 @@ Unaweza kuondoa mpokeaji mmoja au wote kwa kubofya kwenye **Ondoa Mpokeaji** na 
 
 
 
-Multisig (sahihi nyingi) Wallet inawakilisha Wallet iliyoundwa kutoka kwa kikundi cha nambari fulani (chini ya 2) ya pochi za Bitcoin. Katika aina hii ya Wallet, kulingana na usanidi na njia iliyochaguliwa, matumizi ya bitcoins inakuwa hatua ya pamoja na ya ushirikiano.
+Multisig (sahihi nyingi) Wallet inawakilisha Wallet iliyoundwa kutoka kwa kikundi cha nambari fulani (chini ya 2) ya Wallet za Bitcoin. Katika aina hii ya Wallet, kulingana na usanidi na njia iliyochaguliwa, matumizi ya bitcoins inakuwa hatua ya pamoja na ya ushirikiano.
 
 
 
@@ -220,7 +219,7 @@ Endelea kufanya mazoezi bora kwa kuchagua umbizo la P2WSH.
 
 
 
-❗ **[P2WSH](https://planb.network/resources/glossary/p2wsh) au Hati ya Pay to Witness Hash** ni njia ya kufunga ambayo hufunga bitcoins (Zao) za muamala wako hadi kwenye Hash ya hati maalum ambayo Blue Wallet huweka. Faida kuu ya aina hii ya kufunga ni kwamba inapunguza ukubwa wa data ya ununuzi na inakuwezesha kulipa ada za chini za ununuzi.
+❗ **[P2WSH](https://planb.academy/resources/glossary/p2wsh) au Hati ya Pay to Witness Hash** ni njia ya kufunga ambayo hufunga bitcoins (Zao) za muamala wako hadi kwenye Hash ya hati maalum ambayo Blue Wallet huweka. Faida kuu ya aina hii ya kufunga ni kwamba inapunguza ukubwa wa data ya ununuzi na inakuwezesha kulipa ada za chini za ununuzi.
 
 
 
@@ -248,7 +247,7 @@ Kupokea bitcoins katika Wallet ya saini nyingi ni mchakato sawa na unapokuwa kat
 
 
 
-- Tuma bitcoins** :
+- **Tuma bitcoins** :
 
 
 
@@ -264,7 +263,7 @@ Unapothibitisha muamala wako, utahitaji saini ya pili ili kuidhinisha matumizi y
 
 
 
-Mtia saini wa pili wa Wallet, ikiwa yeye pia ni mtumiaji, anaweza kutia sahihi muamala hata kama hayuko Mtandaoni (hakuna Wi-Fi, hakuna data ya mtandaoni) kwa kuchanganua msimbo wa QR wa [muamala ambao umetiwa saini kiasi](https://planb.network/resources/glossary/psbt) uliyounda hivi punde.
+Mtia saini wa pili wa Wallet, ikiwa yeye pia ni mtumiaji, anaweza kutia sahihi muamala hata kama hayuko Mtandaoni (hakuna Wi-Fi, hakuna data ya mtandaoni) kwa kuchanganua msimbo wa QR wa [muamala ambao umetiwa saini kiasi](https://planb.academy/resources/glossary/psbt) uliyounda hivi punde.
 
 
 
@@ -274,7 +273,7 @@ Mtia saini wa pili wa Wallet, ikiwa yeye pia ni mtumiaji, anaweza kutia sahihi m
 
 
 
-- Nenda mbali zaidi na kwingineko ya Sahihi nyingi**:
+- Nenda mbali zaidi na kwingineko ya Sahihi nyingi:
 
 
 
@@ -322,7 +321,7 @@ Lightning Network haitumiki tena asili katika programu ya Blue Wallet.
 
 
 
-Katika Mipangilio > **Mipangilio ya Umeme**, unaweza kuhusisha wewe mwenyewe Wallet yako ya Umeme unapoendesha nodi ya Lightning Network Daemon (LND). Sakinisha LND Hub, kisha uunganishe Wallet yako kwa kuingiza kiungo kilichotolewa na Hub.
+Katika Mipangilio > **Mipangilio ya Lightning**, unaweza kuhusisha wewe mwenyewe Wallet yako ya Lightning unapoendesha node ya Lightning Network Daemon (LND). Sakinisha LND Hub, kisha uunganishe Wallet yako kwa kuingiza kiungo kilichotolewa na Hub.
 
 
 
@@ -330,12 +329,12 @@ Katika Mipangilio > **Mipangilio ya Umeme**, unaweza kuhusisha wewe mwenyewe Wal
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Sasa umekamilisha ziara ya Blue Wallet, tayari kutumia Bitcoin kwa urahisi na nguvu zake zote. Tunapendekeza kwamba uchukue hatua inayofuata, na ujue jinsi unavyoweza kukubali malipo ya Bitcoin kwenye maduka yako, kutokana na nguvu ya Umeme.
 
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06

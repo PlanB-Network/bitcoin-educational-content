@@ -1,0 +1,9 @@
+question: Değiştirilebilir jetonları tanımlamak için hangi RGB standardı kullanılır?
+answer: RGB20
+wrong_answers:
+  - RGB21
+  - RGB22
+  - RGB25
+explanation: |
+  RGB20, RGB protokolü üzerinden değiştirilebilir belirteçler oluşturmak ve yönetmek için kullanılan standarttır.
+reviewed: false

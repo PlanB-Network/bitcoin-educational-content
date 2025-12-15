@@ -1,0 +1,12 @@
+question: Ni igiki gisanzwe gituma umutekano uhungabana?
+answer: Ubujuju bw’abantu.
+wrong_answers:
+  - Kubura kw'umuyaga nkuba.
+  - Internet igenda buhoro.
+  - Ivyuma vya kera.
+explanation: |
+  Akenshi uguhungabana kw’umutekano biterwa n’ubujuju bw’abantu, 
+  nk’ugukoresha amajambo y’ibanga asanzwe canke kwandika amajambo y’ibanga
+  mu bibanza ata  mutekano bifise. Ibitero bikomeye ntivyama bikenewe kugira 
+  ngo umutekano w' inyabwonko yawe ugire ikibazo.
+reviewed: true

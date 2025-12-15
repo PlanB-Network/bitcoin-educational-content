@@ -6,4 +6,4 @@ wrong_answers:
   - Sostituisce la necessità di un software antivirus
 explanation: |
   Il gestore di password crea password forti e le memorizza in modo sicuro, consentendo un facile recupero senza la necessità di memorizzarle.
-reviewed: false
+reviewed: true

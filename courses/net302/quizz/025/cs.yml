@@ -1,0 +1,9 @@
+question: K čemu se v modelu TCP/IP používají rezervované porty?
+answer: Poslouchání požadavků na konkrétní služby
+wrong_answers:
+  - Automatické zapouzdření datagramu generate
+  - Fyzické směrování síťových rámců
+  - Řízení fragmentace paketů UDP
+explanation: |
+  Porty jsou logické body naslouchání, které umožňují síťovým aplikacím rozlišovat mezi různými službami běžícími na stejném hostiteli.
+reviewed: false

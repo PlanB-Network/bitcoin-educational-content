@@ -9,20 +9,18 @@ objectives:
   - Utiliser les principaux outils de diagnostic pour analyser et résoudre des problèmes réseau
 ---
 
-# L’essentiel pour naviguer dans l’univers IP
+# L’essentiel pour naviguer au sein de l'IP
 
 Plongez au cœur de l’univers IP et donnez-vous les moyens de comprendre et d’administrer efficacement vos réseaux. Dans ce cours, vous découvrirez de manière claire et concrète tout ce qu’il faut savoir sur les réseaux informatiques.
 
-Vous allez comprendre le fonctionnement des réseaux et de l’adressage IP. Vous apprendrez également à distinguer IPv4 et IPv6, à identifier et utiliser les différentes catégories d’adresses (publiques, privées, unicast, broadcast…), et à saisir toute l’importance du protocole TCP/IP et des liens qu’il tisse entre adresses IP, adresses physiques et noms DNS.
-
-Pour aller plus loin, vous découvrirez en fin de cours les principaux outils de diagnostic réseau : analyser, auditer, ajuster… vous saurez enfin agir avec méthode et précision sur vos équipements.
+Vous allez comprendre le fonctionnement des réseaux et de l’adressage IP. Vous apprendrez également à distinguer IPv4 et IPv6, à identifier et utiliser les différentes catégories d’adresses, et à saisir toute l’importance du protocole TCP/IP et des liens qu’il tisse entre adresses IP, adresses physiques et noms DNS.
 
 NET 302 s’adresse avant tout aux étudiants, utilisateurs de Linux ou simplement aux curieux souhaitant comprendre les notions de base en réseau et renforcer leur autonomie dans la gestion, le dépannage et l’optimisation des infrastructures.
 
 Rejoignez-nous et transformez vos connaissances en véritable expertise opérationnelle !
 
 ___
-Ce cours NET 302 est une adaptation du cours *Les bases du réseau : TCP/IP, IPv4 et IPv6*, rédigé par Philippe Pierre en français et publié sur [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/), sous licence Creative Commons Attribution - ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
+Ce cours NET 302 est une adaptation du cours *Les bases du réseau : TCP/IP, IPv4 et IPv6*, rédigé par Philippe Pierre en français et publié sur [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/), sous licence Creative Commons Attribution-NonCommercial 4.0 International ([CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)).
 
 Des modifications substantielles ont été apportées à la version originale par Loïc Morel : le texte original a été intégralement réécrit, développé et enrichi afin d’offrir un contenu actualisé et approfondi, tout en conservant l’esprit pédagogique de la version initiale de Philippe Pierre. Les schémas ont également été refaits.
 
@@ -60,7 +58,7 @@ Prêt à plonger dans l’univers des réseaux informatiques ? Allons-y !
 
 **REMARQUE** : les descriptions sont celles d’un système GNU/Linux CentOS 7. Mais, les configurations réseau sont sensiblement les mêmes entre un système Debian et un système CentOS. Donc, on ne fera pas de différence. Lorsqu’il y en aura une, on la préfixera avec un logo spécifique.
 
-*N.B. : Si vous rencontrez des termes qui vous sont inconnus au cours de la formation, veuillez consulter [le glossaire](https://planb.network/resources/glossary) pour en trouver les définitions.*
+*N.B. : Si vous rencontrez des termes qui vous sont inconnus au cours de la formation, veuillez consulter [le glossaire](https://planb.academy/resources/glossary) pour en trouver les définitions.*
 
 
 # Les protocoles TCP/IP
@@ -177,6 +175,12 @@ Chaque couche de la pile TCP/IP apporte des services spécifiques, permettant de
 | Commutateur (switch)   | Adresse localement les interfaces, transmet localement via MAC                            | Accès au Réseau         |
 | Carte réseau (NIC)     | Encodage du signal, câblage, connecteurs, spécifications physiques                        | Accès au Réseau         |
 
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+
 ## Le protocole QoS IPv5
 <chapterId>570ded19-be61-4005-844e-9490570a6455</chapterId>
 
@@ -244,7 +248,7 @@ Chaque technologie de réseau impose son propre MTU en fonction de ses caractér
 
 Quand un datagramme dépasse le MTU d’un segment de réseau qu’il doit emprunter, les équipements de routage se chargent de le **fragmenter** en plusieurs morceaux plus petits, chacun respectant la limite imposée. Cette opération se produit typiquement lors du passage d’un réseau à haut MTU vers un réseau à plus faible capacité. Par exemple, un datagramme provenant d’un réseau FDDI peut être fragmenté pour être transmis sur un segment Ethernet.
 
-![Image](assets/fr/008.webp)
+![Image](assets/fr/007.webp)
 
 Le processus de fragmentation se déroule ainsi :
 - Le routeur découpe le datagramme en fragments de taille inférieure ou égale au MTU du réseau cible.
@@ -265,13 +269,13 @@ Lorsqu’un message est émis, il traverse successivement les quatre couches de 
 
 Ainsi, la transmission suit un processus structuré : la couche Application génère le **message** initial, contenant les données brutes. La couche Transport encapsule ce message dans un **segment**, en y adjoignant notamment les ports source et destination, les numéros de séquence et les mécanismes de contrôle de flux. La couche Internet prend le segment, y ajoute un entête IP pour former un **datagramme**, spécifiant notamment les adresses IP source et destination. Enfin, la couche Accès Réseau encapsule ce datagramme dans une **trame**, en ajoutant des informations comme les adresses MAC et les codes de vérification d’intégrité (CRC).
 
-![Image](assets/fr/009.webp)
+![Image](assets/fr/008.webp)
 
 Ce processus d’encapsulation assure non seulement l’intégrité et la traçabilité des données, mais aussi leur adaptabilité : à chaque transition d’un réseau à un autre, les entêtes fournissent aux équipements les informations essentielles pour décider de l’itinéraire, vérifier la validité ou procéder à la fragmentation si nécessaire.
 
 À l’arrivée, le mécanisme s’inverse : la machine réceptrice reçoit la trame au niveau de la couche Accès Réseau, qui lit l’entête correspondant et le retire. Le datagramme est ensuite transmis à la couche Internet, qui lit l’entête IP, puis l’enlève à son tour pour livrer le segment à la couche Transport. Cette dernière traite les entêtes de transport, vérifie l’intégrité du flux et remet finalement le **message** à l’application cible dans son état originel.
 
-![Image](assets/fr/010.webp)
+![Image](assets/fr/009.webp)
 
 Ce schéma illustre la transformation progressive des données à chaque niveau :
 
@@ -280,7 +284,7 @@ Ce schéma illustre la transformation progressive des données à chaque niveau�
 - **Datagramme** : forme prise à la suite de l’ajout de l’entête IP par la couche Internet.
 - **Trame** : bloc final prêt à être transmis sur le support physique par la couche Accès Réseau.
 
-![Image](assets/fr/011.webp)
+![Image](assets/fr/010.webp)
 
 Ce processus, essentiel à la fiabilité et à l’universalité des communications sur Internet, garantit que chaque donnée, aussi fragmentée ou complexe soit-elle, puisse être transportée de bout en bout tout en restant compréhensible et exploitable par la machine réceptrice.
 
@@ -305,7 +309,7 @@ Il faut savoir que toutes les combinaisons binaires ne sont pas exploitables pou
 
 Le nombre maximum d’adresses varie sensiblement d’une classe à l’autre, ce qui permet d’adapter le plan d’adressage aux besoins : de vastes réseaux publics pour les classes A, des réseaux d’entreprise pour les classes B, ou des réseaux plus restreints pour les classes C.
 
-![Image](assets/fr/013.webp)
+![Image](assets/fr/011.webp)
 
 Certaines plages d’adresses sont réservées et ne transitent jamais sur Internet. On parle alors d’**adresses privées**, destinées aux réseaux internes d’organisations, d’entreprises ou de particuliers. Elles ne peuvent pas être routées directement sur Internet sans passer par une traduction d’adresses, généralement assurée par un dispositif NAT (*Network Address Translation*). Ces plages sont :
 - Pour la **Classe A** : de 10.0.0.0 à 10.255.255.255
@@ -347,7 +351,7 @@ Prenons un cas concret. Soit un réseau de **classe C** : 192.168.1.0/24 avec un
 
 **Étape 5** : Ainsi, on obtient quatre sous-réseaux, chacun capable d’héberger jusqu’à 62 machines, tout en conservant l’efficacité du plan d’adressage global. La partie _hostid_ de l’adresse est donc subdivisée en deux : une pour le _subnetid_ et l’autre pour l’hôte proprement dit.
 
-![Image](assets/fr/016.webp)
+![Image](assets/fr/012.webp)
 
 Ce principe fondamental du subnetting reste incontournable dans l’ingénierie réseau moderne, car il permet d’allouer les ressources IP avec précision, de contrôler le trafic et d’assurer une bonne isolation entre segments tout en maintenant une gestion claire et évolutive.
 
@@ -391,6 +395,7 @@ Pour faciliter la conversion et la compréhension, on utilise des tableaux de co
 sudo apt install ipcalc
 ```
 
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## Le protocole TCP
 <chapterId>860bf7d5-a502-4d10-a12c-9827f6c2d393</chapterId>
@@ -405,11 +410,11 @@ Les principales responsabilités de TCP peuvent se résumer ainsi :
 
 Concrètement, TCP est un protocole orienté connexion, ce qui signifie qu’il met en place une relation explicite et suivie entre le client et le serveur. Pour cela, il s’appuie sur un système de **numéros de séquence** et d’**accusés de réception** : à chaque segment envoyé, un identifiant unique est attribué pour permettre à la machine réceptrice de vérifier l’intégrité et l’ordre des données reçues. En retour, le destinataire renvoie un segment de confirmation avec un **flag ACK** positionné à 1, indiquant la bonne réception et précisant le prochain numéro attendu.
 
-![Image](assets/fr/018.webp)
+![Image](assets/fr/013.webp)
 
 Pour renforcer la fiabilité, TCP intègre une minuterie : dès l’envoi d’un segment, un délai est activé. Si l’accusé de réception ne parvient pas dans ce laps de temps, le segment est réémis automatiquement, l’émetteur considérant qu’il a été perdu durant le transit. Ce mécanisme de retransmission automatique compense les pertes inhérentes aux réseaux IP, qui peuvent survenir en cas de surcharge, d’erreur de routage ou de panne d’équipement.
 
-![Image](assets/fr/019.webp)
+![Image](assets/fr/014.webp)
 
 TCP est capable de détecter et gérer les doublons éventuels. Si un segment est réémis mais que l’original arrive tout de même, le destinataire, grâce aux numéros de séquence, identifie le doublon et ne conserve que la version correcte, ce qui élimine ainsi toute ambiguïté dans le flux reçu.
 
@@ -423,7 +428,7 @@ L’échange de synchronisation des séquences repose sur le fameux mécanisme d
 2. Le serveur à la réception répond en retour avec un segment d’accusé de réception (**SYN-ACK**) : il accuse réception du numéro de séquence du client et communique à son tour son propre numéro de séquence initial, incrémenté de 1 ;
 3. Enfin, le client envoie un dernier segment (**ACK**) confirmant qu’il a bien reçu le numéro de séquence du serveur et finalise la synchronisation : le flag SYN est alors désactivé et le flag ACK reste positionné pour signifier que la connexion est prête.
 
-![Image](assets/fr/020.webp)
+![Image](assets/fr/015.webp)
 
 Ce protocole d’échange garantit que les deux parties partagent la même base de numérotation avant de transmettre des données utiles. Une fois cette synchronisation réalisée, la session est ouverte : les segments peuvent circuler dans les deux sens, chacun étant accusé de réception, ce qui assure une fiabilité maximale du flux.
 
@@ -433,11 +438,11 @@ Enfin, bien que conçu pour la robustesse et la fiabilité, ce processus a aussi
 
 Afin de limiter ces risques liés au détournement du mécanisme de synchronisation des séquences et de maîtriser la charge réseau, le protocole TCP a recours à une technique de gestion du flux appelée "**méthode de la fenêtre glissante**" ("_Sliding Window_"). Ce système permet de réguler la quantité de données qui peuvent être envoyées sans nécessiter immédiatement d’accusé de réception pour chaque segment, ce qui réduit ainsi la surcharge inutile sur le réseau tout en maintenant une bonne fiabilité.
 
-Concrètement, la fenêtre glissante définit une plage de numéros de séquence autorisés à circuler librement entre l’émetteur et le récepteur sans que chaque segment individuel ne doive être accusé réception. À mesure que des accusés de réception parviennent au système émetteur, la fenêtre "glisse" : elle se décale vers la droite pour inclure de nouveaux segments à transmettre. La taille de cette fenêtre (importante pour optimiser le débit tout en évitant la congestion) est précisée dans le champ "*Window*" de l’en-tête TCP.
+Concrètement, la fenêtre glissante définit une plage de numéros de séquence autorisés à circuler librement entre l’émetteur et le récepteur sans que chaque segment individuel ne doive être accusé de réception. À mesure que des accusés de réception parviennent au système émetteur, la fenêtre "glisse" : elle se décale vers la droite pour inclure de nouveaux segments à transmettre. La taille de cette fenêtre (importante pour optimiser le débit tout en évitant la congestion) est précisée dans le champ "*Window*" de l’en-tête TCP.
 
 **Exemple** : si le numéro de séquence initial est 3 et que la fenêtre autorise jusqu’à la séquence 5, les segments compris entre 3 et 5 peuvent être envoyés sans attendre d’accusé de réception pour chacun.
 
-![Image](assets/fr/021.webp)
+![Image](assets/fr/016.webp)
 
 Il est important de souligner que la taille de la fenêtre glissante n’est pas fixe. Elle s’ajuste dynamiquement en fonction de l’état du réseau et de la capacité de traitement du récepteur. Lorsqu’un récepteur estime pouvoir traiter un volume de données plus important, il peut indiquer au travers du champ "fenêtre" qu’une extension est souhaitée. L’émetteur adapte alors sa fenêtre en conséquence. À l’inverse, en cas de surcharge ou de risque de saturation, le récepteur peut demander une réduction : l’émetteur attendra alors que la fenêtre se déplace avant de poursuivre l’envoi de segments supplémentaires.
 
@@ -447,7 +452,7 @@ Concernant la **clôture d’une connexion TCP**, le protocole prévoit une proc
 
 Cette gestion précise, qui allie la souplesse de l’acheminement IP au contrôle rigoureux de TCP, est souvent illustrée par un schéma mettant en parallèle la rapidité du protocole IP (qui fonctionne selon le principe **"best effort"** sans garantie de livraison) et la fiabilité du protocole TCP (qui encadre la transmission grâce à une logique d’accusés de réception et de séquences négociées).
 
-![Image](assets/fr/022.webp)
+![Image](assets/fr/017.webp)
 
 Cependant, dans certaines situations, la priorité n’est pas donnée à la fiabilité absolue mais à la vitesse de transmission et à la simplicité. C’est notamment le cas pour des applications comme le streaming en direct ou la voix sur IP, qui tolèrent quelques pertes de paquets sans impact majeur sur l’expérience utilisateur. Dans ces cas, on privilégie le recours au **protocole UDP** (_User Datagram Protocol_).
 
@@ -470,11 +475,11 @@ Deux aspects fondamentaux organisent ces échanges :
 
 - L’**aspect vertical**, qui décrit la relation entre une couche et la couche qui la surplombe ou la sous-tend (de la couche N vers la couche N+1, et inversement).
 
-![Image](assets/fr/023.webp)
+![Image](assets/fr/018.webp)
 
 - L’**aspect horizontal**, qui met en lumière l’interaction entre les applications distantes, c’est-à-dire le dialogue qui s’établit d’un **client** vers un **serveur**, ou réciproquement.
 
-![Image](assets/fr/024.webp)
+![Image](assets/fr/019.webp)
 
 L’architecture en couches repose sur le principe que chaque niveau ne traite que les informations qui relèvent de sa compétence : ainsi, les structures de données, les entêtes et les mécanismes de contrôle varient d’une couche à l’autre, mais l’ensemble forme un tout cohérent, permettant l’acheminement progressif des données vers leur destination finale.
 
@@ -493,7 +498,7 @@ Au cœur de ce fonctionnement, les échanges entre couches reposent sur des **pr
 
 Ainsi, le modèle TCP/IP combine l’aspect horizontal (communication entre applications distribuées) et l’aspect vertical (interactions internes entre couches) pour offrir une architecture complète et extensible. La superposition de ces deux aspects donne une vue d’ensemble de l’échange de données dans une communication réseau structurée.
 
-![Image](assets/fr/026.webp)
+![Image](assets/fr/020.webp)
 
 ### Synthèse de la partie
 
@@ -524,7 +529,7 @@ Le protocole **IPv4**, toujours dominant malgré l’émergence de l’IPv6, uti
 
 _Exemple : l’adresse 172.16.254.1_
 
-![Image](assets/fr/027.webp)
+![Image](assets/fr/021.webp)
 
 Chaque bit au sein d’un octet a un poids bien défini : le bit de gauche (bit de poids fort) vaut 128, le suivant 64, puis 32, 16, 8, 4, 2 et 1 pour le bit de droite (bit de poids faible). Ainsi, l’écriture binaire est convertie en décimal par simple addition des poids activés.  
 Le tableau ci-dessous rappelle cette correspondance :
@@ -694,11 +699,11 @@ Il est donc important de garder à l’esprit que l’adresse MAC et l’adresse
 
 - Exemple visuel d’adresse MAC :
 
-![Image](assets/fr/032.webp)
+![Image](assets/fr/022.webp)
 
 - Exemple visuel d’adresse IP :
 
-![Image](assets/fr/027.webp)
+![Image](assets/fr/023.webp)
 
 Dans un environnement d’entreprise, ces deux niveaux d’adressage ne peuvent fonctionner séparément. Par exemple, lors de l’attribution automatique d’une adresse IP par un serveur DHCP, c’est l’adresse MAC de l’équipement qui sert de point de départ. L’ordinateur envoie une requête DHCP en broadcast, incluant son adresse MAC, afin de se voir attribuer une adresse IP disponible par le serveur. Sans cette identification matérielle, le serveur DHCP ne saurait pas à quel appareil délivrer l’adresse.
 
@@ -708,7 +713,7 @@ Cette table ARP agit donc comme un mini-annuaire de correspondance, mis à jour 
 
 À l’inverse, le protocole RARP (_Reverse Address Resolution Protocol_) a été conçu pour résoudre la situation opposée : permettre à une machine qui ne connaît que son adresse MAC de découvrir son adresse IP. C’était notamment le cas pour les anciennes stations de travail sans disque dur local, qui devaient démarrer via le réseau et réclamer une adresse IP. Il a toutefois été rapidement supplanté par **BOOTP**, puis par **DHCP**, des solutions plus souples et automatisées.
 
-Ces protocoles d’association jouent un rôle important dans le routage. Un routeur est en réalité une machine dotée de plusieurs interfaces réseau, reliant différents segments. Quand un routeur reçoit une trame, il la traite pour extraire le datagramme IP, puis examine l’entête IP pour déterminer la destination. Si la destination se trouve sur un réseau directement connecté, le datagramme est remis en remise directe après mise à jour de l’entête. Si la destination appartient à un autre réseau, le routeur consulte sa table de routage pour identifier le meilleur chemin, ou _next hop_, vers la destination.
+Ces protocoles d’association jouent un rôle important dans le routage. Un routeur est en réalité une machine dotée de plusieurs interfaces réseau, reliant différents segments. Quand un routeur reçoit une trame, il la traite pour extraire le datagramme IP, puis examine l’entête IP pour déterminer la destination. Si la destination se trouve sur un réseau directement connecté, le datagramme est transmis en remise directe après mise à jour de l’entête. Si la destination appartient à un autre réseau, le routeur consulte sa table de routage pour identifier le meilleur chemin, ou _next hop_, vers la destination.
 
 Ce fonctionnement permet de diviser le trajet en segments plus courts et gérables. Chaque routeur intermédiaire ne connait que la prochaine étape, pas forcément la destination finale.
 
@@ -740,7 +745,7 @@ Ce procédé présente un avantage immédiat : il masque totalement l’architec
 
 En plus de répondre à la pénurie d’adresses IPv4, le NAT renforce donc la sécurité en créant une première barrière logique entre le réseau interne et le réseau public. Les communications entrantes non sollicitées sont ainsi naturellement filtrées, car seules les connexions initiées depuis l’intérieur bénéficient de la traduction nécessaire pour recevoir les réponses.
 
-![Image](assets/fr/035.webp)
+![Image](assets/fr/024.webp)
 
 ### Types de traduction
 
@@ -750,9 +755,9 @@ Le NAT peut être mis en œuvre sous différentes formes, adaptées à des besoi
 
 **Attention :** si ce mécanisme permet d’isoler le réseau interne, il ne résout en rien le problème de pénurie d’adresses IP publiques, car il faut toujours autant d’adresses publiques que de machines à exposer. La traduction statique est donc surtout utilisée lorsque certaines ressources internes doivent impérativement rester joignables depuis l’extérieur (serveur web, serveur mail…).
 
-La traduction dynamique, quant à elle, met à disposition un pool d’adresses IP publiques. Lorsqu’un hôte interne initie une connexion, le routeur sélectionne provisoirement l’une de ces adresses et l’associe à l’adresse privée de l’hôte pour toute la durée de la session. Le lien est 1-vers-1, mais temporaire : dès que le flux s’interrompt, l’adresse publique redevient disponible pour un autre poste. Le Dynamic NAT économise donc le nombre d’adresses publiques quand toutes les machines n’ont pas besoin d’être connectées en même temps, mais il requiert tout de même un bloc d’adresses externes de taille au moins égale au nombre maximal de connexions simultanées.
+**La traduction dynamique**, quant à elle, met à disposition un pool d’adresses IP publiques. Lorsqu’un hôte interne initie une connexion, le routeur sélectionne provisoirement l’une de ces adresses et l’associe à l’adresse privée de l’hôte pour toute la durée de la session. Le lien est 1-vers-1, mais temporaire : dès que le flux s’interrompt, l’adresse publique redevient disponible pour un autre poste. Le Dynamic NAT économise donc le nombre d’adresses publiques quand toutes les machines n’ont pas besoin d’être connectées en même temps, mais il requiert tout de même un bloc d’adresses externes de taille au moins égale au nombre maximal de connexions simultanées.
 
-La traduction de ports (PAT), appelée aussi *NAT overload* ou *IP masquerading*, va plus loin : toutes les machines privées partagent une seule adresse IP publique (ou un très petit nombre). Pour différencier les sessions, la passerelle modifie non seulement l’adresse source mais aussi le port source. Elle maintient alors une table qui associe chaque couple *(adresse privée, port privé)* à un couple *(adresse publique, port public)* unique. C’est cette forme de NAT qui équipe la quasi-totalité des box et routeurs domestiques, car il permet à des dizaines de terminaux (ordinateurs, smartphones, objets connectés...) de partager la même adresse IP publique, tout en maintenant une communication fluide.
+**La traduction de ports** (PAT), appelée aussi *NAT overload* ou *IP masquerading*, va plus loin : toutes les machines privées partagent une seule adresse IP publique (ou un très petit nombre). Pour différencier les sessions, la passerelle modifie non seulement l’adresse source mais aussi le port source. Elle maintient alors une table qui associe chaque couple *(adresse privée, port privé)* à un couple *(adresse publique, port public)* unique. C’est cette forme de NAT qui équipe la quasi-totalité des box et routeurs domestiques, car il permet à des dizaines de terminaux (ordinateurs, smartphones, objets connectés...) de partager la même adresse IP publique, tout en maintenant une communication fluide.
 
 Le NAT prolonge donc la durée de vie d’IPv4 tout en ajoutant un niveau de cloisonnement et de sécurité appréciable. Toutefois, avec l’adoption progressive d’IPv6 et son espace d’adressage immense, le rôle du NAT tendra à se réduire, même si, pour des raisons de compatibilité et de contrôle, il restera encore utilisé dans certains environnements pour segmenter et filtrer les flux.
 
@@ -789,7 +794,7 @@ De manière générale, tout protocole intégrant une référence explicite à l
 
 _Pour illustrer le fonctionnement concret, prenons l’exemple suivant :_
 
-![Image](assets/fr/037.webp)
+![Image](assets/fr/025.webp)
 
 Dans ce scénario, un poste interne peut accéder au serveur web interne en appelant directement l’URL `http://192.168.1.20:80`. Ici, l’indication du port est optionnelle puisque `80` est le port standard pour le HTTP. À l’inverse, si une requête est initiée depuis l’extérieur, l’utilisateur saisira l’adresse publique `http://85.152.44.14:80`. Le routeur NAT réceptionne la requête, consulte sa table de correspondance et traduit automatiquement l’adresse publique en adresse privée, redirigeant la connexion vers `http://192.168.1.20:80`.
 
@@ -823,7 +828,14 @@ iptables -t nat -A POSTROUTING -o <WAN> -s 192.168.0.0/24 -j MASQUERADE
 
 Grâce à cette configuration, le trafic sortant est routé et la traduction NAT est assurée pour permettre aux machines virtuelles de communiquer avec l’extérieur sans exposer directement leurs adresses IP internes.
 
-Dans le chapitre suivant, nous aborderons en détail la configuration des adresses IP sous Linux, à travers des méthodes simples et avancées adaptées à différents contextes d’administration.
+Dans le chapitre suivant, nous aborderons en détail la configuration des adresses IP sous Linux, à travers des méthodes simples et avancées, adaptées à différents contextes d’administration.
+
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+
 
 ## Comment configurer le réseau avec `ip` ?
 <chapterId>8ba7e946-d2a0-4841-8d54-e85ba96baa25</chapterId>
@@ -834,9 +846,9 @@ Après avoir posé les bases théoriques du réseau et compris comment s’artic
 
 Véritable couteau suisse, `ip` permet d’attribuer ou de modifier une adresse IP, de changer un masque, de démarrer ou d’arrêter une interface, ou encore de consulter son état à tout moment.
 
-**ASTUCE :** pour visualiser toutes les interfaces (actives ou non) :  `ip addr show`
+**ASTUCE :** pour visualiser toutes les interfaces (actives ou non) :  `ip addr show`.
 
-Exemple concret : attribution d’une adresse statique et activation de l’interface
+Exemple concret : attribution d’une adresse statique et activation de l’interface.
 
 Ajouter l’adresse `192.168.1.2/24` à l’interface `eth0` :
 
@@ -868,7 +880,7 @@ ip addr show dev eth2
 ip addr add 172.18.2.39/24 dev eth2
 ```
 
-### Scripts d’activation : `ifup` / `ifdown`
+### Scripts d’activation : ifup / ifdown
 
 Les utilitaires `ifup` et `ifdown` lisent les fichiers statiques de `/etc/sysconfig/network-scripts/` (sur RHEL, CentOS, Rocky Linux, AlmaLinux…) ou `/etc/network/interfaces` (sur Debian/Ubuntu) afin d'activer ou de désactiver proprement les interfaces.
 
@@ -906,7 +918,7 @@ Cette structuration modulaire reste valable et facilement automatisable sur les 
 
 Dans les environnements professionnels, on cherche à garantir la continuité de service et/ou à agréger la bande passante. Les mécanismes de *bonding* (ou *teaming* avec _teamd_) répondent à ces besoins : plusieurs interfaces physiques fonctionnent comme une seule interface logique, souvent nommée `bond0` ou `team0`.
 
-![Image](assets/fr/039.webp)
+![Image](assets/fr/026.webp)
 
 Prérequis :
 - Charger le module `bonding` (ou utiliser `teamd`) ;
@@ -925,7 +937,7 @@ Prérequis :
 |6|alb (Adaptive Load Balancing)|Répartition adaptative, équilibre aussi la réception via ARP|
 
 
-#### Mise en place avec `ip link`
+#### Mise en place avec `ip link` :
 
 - Désactiver les interfaces physiques :
 
@@ -940,7 +952,7 @@ ip link set eth1 down
 ip link add bond0 type bond mode balance-alb
 ```
 
-- Configuration des options après création
+- Configuration des options après création :
 
 ```shell
 ip link set bond0 type bond miimon 100
@@ -969,9 +981,9 @@ ip link set eth0 up
 ip link set eth1 up
 ```
 
-**Astuce :** pour détacher un esclave sans couper le bond :  `ip link set eth1 nomaster`
+**Astuce :** pour détacher un esclave sans couper le bond :  `ip link set eth1 nomaster`.
 
-#### Configuration permanente (RHEL-like)
+#### Configuration permanente (RHEL-like) :
 
 Créer trois fichiers dans `/etc/sysconfig/network-scripts` :
 
@@ -1012,7 +1024,7 @@ Puis :
 systemctl restart network
 ```
 
-#### Adresse IP supplémentaire (alias moderne)
+#### Adresse IP supplémentaire (alias moderne) :
 
 Avec `ip`, il suffit d’ajouter une seconde adresse sur le même périphérique :
 
@@ -1047,7 +1059,7 @@ Enfin, IPv6 a été conçu pour coexister avec les protocoles historiques. S’i
 
 L’un des changements majeurs avec IPv6 est le format même de l’adresse IP. Pour résoudre la pénurie chronique d’adresses IPv4, la longueur de l’adresse a été portée à 128 bits, soit 16 octets, contre seulement 32 bits pour IPv4. En théorie, cela ouvre un champ d'adresses possibles de :
 
-$$3,4 \times 10^{38}$$
+$$3.4 \times 10^{38}$$
 
 Cela garantit ainsi une capacité quasi illimitée pour accueillir tous les équipements actuels et futurs.
 
@@ -1138,7 +1150,7 @@ Les adresses locales uniques (`fc00::/7`) sont l’équivalent IPv6 des adresses
 
 Les adresses link-local (`fe80::/64`) servent exclusivement aux communications internes sur un même segment de niveau 2 (même VLAN ou switch). Elles ne sont jamais routées au-delà du lien local. Chaque interface réseau génère automatiquement une adresse link-local, souvent dérivée de son adresse MAC via le schéma EUI-64.
 
-Particularité : une même machine peut utiliser la même adresse link-local sur plusieurs interfaces, à condition de préciser l’interface lors des communications pour éviter toute ambiguïté.
+**Particularité** : une même machine peut utiliser la même adresse link-local sur plusieurs interfaces, à condition de préciser l’interface lors des communications pour éviter toute ambiguïté.
 
 #### Adresses multicast
 
@@ -1146,7 +1158,7 @@ En IPv6, le concept de broadcast disparaît au profit du multicast, plus efficac
 
 Un usage fréquent du multicast concerne le _Neighbor Discovery Protocol_ (NDP), qui remplace ARP en IPv6. NDP s’appuie sur des adresses multicast spécifiques, comme `ff02::1:ff00:0/104`, pour découvrir automatiquement les autres hôtes connectés au même lien.
 
-En combinant ces types d’adresses, IPv6 offre une palette complète pour répondre aux besoins de routage global, de communications locales, de migration IPv4/IPv6 et d’autoconfiguration des équipements tout en améliorant l’efficacité des transmissions réseau.
+En combinant ces types d’adresses, IPv6 offre une palette complète pour répondre aux besoins de routage global, de communications locales, de migration IPv4/IPv6 et d’autoconfiguration des équipements, tout en améliorant l’efficacité des transmissions réseau.
 
 ### Périmètre des adresses
 
@@ -1211,13 +1223,13 @@ En configuration automatique, plusieurs méthodes existent pour permettre aux é
 
 Certaines implémentations, comme celles présentes dans les systèmes Windows, peuvent utiliser un tirage pseudo-aléatoire pour générer la partie hôte de l’adresse, ce qui améliore la confidentialité par rapport à l’utilisation directe de l’adresse MAC. En effet, la visibilité de l’adresse MAC dans les paquets IPv6 pose des problèmes de protection de la vie privée, car elle permet de suivre un appareil dans différents contextes réseau.
 
-Une autre méthode largement utilisée est l’emploi du protocole DHCPv6, spécifié dans la RFC3315. Similaire au DHCP utilisé en IPv4, il permet une configuration plus contrôlée, centralisée, avec gestion des baux, options supplémentaires (DNS, MTU...), et enregistrement dans des bases de données. DHCPv6 peut être utilisé seul ou en complément de la configuration stateless pour fournir des paramètres annexes sans forcément attribuer l’adresse IP elle-même.
+Une autre méthode largement utilisée est l’emploi du protocole DHCPv6, spécifié dans la RFC3315. Similaire au DHCP utilisé en IPv4, il permet une configuration plus contrôlée, centralisée, avec gestion des baux, options supplémentaires (DNS, MTU...), et enregistrement dans des bases de données. DHCPv6 peut être utilisé seul ou en complément de la configuration *stateless* pour fournir des paramètres annexes sans forcément attribuer l’adresse IP elle-même.
 
 **Remarque importante :** lorsqu’on utilise la méthode basée sur l’adresse MAC, celle-ci est transformée en identifiant de 64 bits par le mécanisme EUI-64. Ce mécanisme insère les octets `FF:FE` au centre de l’adresse MAC d’origine (en 48 bits), et inverse le 7ème bit pour marquer l’unicité globale. Cela donne un identifiant d’interface stable, utilisé dans l’adresse IPv6 complète.
 
 Voici un exemple de transformation d’une adresse MAC en EUI-64 :
 
-![Image](assets/fr/045.webp)
+![Image](assets/fr/027.webp)
 
 Cependant, en raison des inquiétudes croissantes autour du traçage des appareils, les systèmes d’exploitation modernes (notamment Linux, Windows 10+, macOS, Android) proposent par défaut des mécanismes de "privacy extension", qui utilisent des identifiants d’interface aléatoires renouvelés périodiquement pour les connexions sortantes, tout en conservant un identifiant stable pour les communications internes (DNS, DHCPv6…).
 
@@ -1311,7 +1323,7 @@ Voici un aperçu des différents types d’en-têtes d’extension définis par 
 
 Cet en-tête, s’il est présent, est toujours placé immédiatement après l’en-tête de base. Il contient des informations destinées à être lues par chaque routeur traversé, ce qui le distingue des autres en-têtes généralement traités uniquement par la destination. Il est typiquement utilisé pour signaler des paramètres globaux ou déclencher des traitements spécifiques tout au long du trajet.
 
-![Image](assets/fr/047.webp)
+![Image](assets/fr/028.webp)
 
 #### En-tête de routage
 
@@ -1328,7 +1340,7 @@ Les quatre premiers champs de cet en-tête sont les suivants :
 Le champ "Segments Left" est initialisé au nombre total de segments restant et est décrémenté d’une unité à chaque saut.
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/fr/029.webp)
 
 #### En-tête de fragmentation
 
@@ -1339,7 +1351,7 @@ L’en-tête de fragmentation contient les champs suivants :
 - **Fragment Offset** : position du fragment dans le datagramme original.
 - **M flag** : indique s’il reste d’autres fragments.
 
-![Image](assets/fr/049.webp)
+![Image](assets/fr/030.webp)
 
 #### En-tête d’authentification (AH)
 
@@ -1347,7 +1359,7 @@ Cet en-tête vise à sécuriser les communications en garantissant l’authentic
 
 En cas de tentative de modification frauduleuse, le code d’authentification ne correspondra plus, et le datagramme pourra être rejeté. Ce mécanisme permet également de lutter contre les attaques par rejeu, en détectant les duplications non autorisées.
 
-![Image](assets/fr/050.webp)
+![Image](assets/fr/031.webp)
 
 #### En-tête Option de destination
 
@@ -1355,7 +1367,7 @@ Cet en-tête est destiné uniquement au destinataire final du datagramme. Il per
 
 Initialement, aucune option de ce type n’était définie dans le protocole. Toutefois, cet en-tête a été introduit dès la conception d’IPv6 pour permettre l’ajout futur d’extensions sans modifier la structure globale des paquets. L’option nulle, par exemple, sert uniquement à compléter l’en-tête jusqu’à un multiple de 8 octets, pour des raisons d’alignement mémoire.
 
-![Image](assets/fr/051.webp)
+![Image](assets/fr/032.webp)
 
 
 La conception des paquets IPv6 repose donc sur une séparation claire entre un en-tête de base minimaliste et des en-têtes d’extension optionnels, introduits de manière modulaire. Cette architecture garantit à la fois la performance du traitement standard et la souplesse nécessaire pour faire évoluer le protocole, intégrer des mécanismes de sécurité, de routage complexe ou de qualité de service, tout en maintenant la compatibilité avec les infrastructures futures.
@@ -1363,7 +1375,7 @@ La conception des paquets IPv6 repose donc sur une séparation claire entre un e
 ## Relation entre IPv6 et DNS
 <chapterId>421eacb8-b80b-4aee-910f-e069ed805f00</chapterId>
 
-Dans les réseaux modernes, le DNS (*Domain Name System*) permet la traduction des noms de domaine en adresses IP utilisables par les machines. Avec l’introduction d’IPv6, le DNS a naturellement dû s’adapter pour supporter les nouvelles adresses sur 128 bits, tout en maintenant la compatibilité avec IPv4. Cette coexistence est importante dans les environnements dual-stack où les deux versions du protocole IP cohabitent.
+Dans les réseaux modernes, le DNS (*Domain Name System*) permet la traduction des noms de domaine en adresses IP utilisables par les machines. Avec l’introduction d’IPv6, le DNS a naturellement dû s’adapter pour supporter les nouvelles adresses sur 128 bits, tout en maintenant la compatibilité avec IPv4. Cette coexistence est importante dans les environnements *dual-stack* où les deux versions du protocole IP cohabitent.
 
 ### Enregistrements DNS spécifiques à IPv6
 
@@ -1425,7 +1437,7 @@ Par la suite, nous avons étudié les méthodes d’assignation des adresses IPv
 
 Nous avons également détaillé la manière dont les blocs d’adresses sont alloués, en partant de l’IANA, qui les distribue aux cinq RIR (*Registres Internet Régionaux*), puis aux fournisseurs d’accès, qui les redistribuent à leurs clients sous forme de sous-réseaux (souvent en /48, permettant 65536 sous-réseaux /64). La distinction entre les blocs _Provider Aggregatable_ (PA) et _Provider Independent_ (PI) permet de gérer des situations de _multihoming_ ou de changement de fournisseur.
 
-Nous avons vu que le DNS s’adapte à IPv6 grâce à l’enregistrement AAAA et que les mécanismes de résolution inverse utilisent une nouvelle structure dans la zone `ip6.arpa`. Le protocole DNS reste indépendant du protocole de transport utilisé (IPv4 ou IPv6), ce qui assure une parfaite interopérabilité dans un environnement dual-stack.
+Nous avons vu que le DNS s’adapte à IPv6 grâce à l’enregistrement AAAA et que les mécanismes de résolution inverse utilisent une nouvelle structure dans la zone `ip6.arpa`. Le protocole DNS reste indépendant du protocole de transport utilisé (IPv4 ou IPv6), ce qui assure une parfaite interopérabilité dans un environnement *dual-stack*.
 
 IPv6 n’est donc pas une simple évolution de son prédécesseur, mais bien une refonte en profondeur du système d’adressage, pensée pour les défis actuels et futurs du réseau mondial.
 
@@ -1586,7 +1598,7 @@ Wireshark est disponible sur de nombreux systèmes d’exploitation, notamment L
 - les détails décodés par protocole ;
 - les données brutes hexadécimales.
 
-![Image](assets/fr/052.webp)
+![Image](assets/fr/033.webp)
 
 Wireshark excelle dans les scénarios où l’on souhaite observer les comportements complexes des protocoles, reconstituer les dialogues applicatifs (comme une session HTTP ou DNS), ou étudier les temps de réponse d’un service. Il est également possible d’appliquer des filtres d’affichage très précis à l’aide de sa syntaxe dédiée (différente de celle de `tcpdump`), afin de ne visualiser que les paquets pertinents.
 
@@ -1605,7 +1617,7 @@ Au niveau de la couche Accès Réseau, il est important de pouvoir interroger et
 
 L’une des fonctionnalités de base de `ethtool` est sa capacité à interroger une interface afin d’en afficher les caractéristiques actuelles. On peut ainsi connaître :
 - la vitesse du lien (par exemple, 100 Mbit/s, 1 Gbit/s ou 10 Gbit/s) ;
-- le mode de négociation (half duplex ou full duplex) ;
+- le mode de négociation (*half duplex* ou *full duplex*) ;
 - si l’auto-négociation est activée ou non ;
 - le type de port utilisé (cuivre, fibre…) ;
 - l’état du lien (actif ou non) ;
@@ -1621,7 +1633,7 @@ ethtool enp0s3
 
 Cette commande renvoie un ensemble complet de données sur l’interface `enp0s3`, souvent rencontrée dans les distributions basées sur CentOS ou RHEL.
 
-![Image](assets/fr/053.webp)
+![Image](assets/fr/034.webp)
 
 #### Modifier dynamiquement les paramètres d’une interface
 
@@ -1692,7 +1704,7 @@ mydmn.org (172.17.18.19): 56 data bytes
 Dans cet exemple, on remarque que la résolution de nom a été effectuée automatiquement. Le nom de domaine `mydmn.org` est associé à l’adresse IP `172.17.18.19`, ce qui indique que la résolution DNS fonctionne correctement. La commande fournit également des données techniques comme :
 - le numéro de séquence ICMP (`icmp_seq`), utile pour vérifier l’ordre d’arrivée des réponses ;
 - le TTL (*Time-To-Live*), qui correspond au nombre de sauts réseau restants avant destruction du paquet ;
-- le temps de réponse ou round-trip time/delay (`time`), exprimé en millisecondes, qui donne une indication sur la latence du lien.
+- le temps de réponse ou *round-trip time/delay* (`time`), exprimé en millisecondes, qui donne une indication sur la latence du lien.
 
 #### Analyse plus fine des paramètres ICMP
 
@@ -1997,6 +2009,8 @@ Il est important de rappeler qu’interroger de manière répétée ou intensive
 
 Dans une démarche de surveillance ou de sécurisation d’un réseau local ou étendu, il est important de pouvoir identifier les équipements actifs et les services qu’ils exposent. C’est précisément ce que permet l’outil `nmap` (*Network Mapper*).
 
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+
 #### Présentation de `nmap`
 
 `nmap` permet d’interroger de manière ciblée un ou plusieurs hôtes afin de détecter les ports ouverts, les services accessibles (HTTP, SSH, DNS...) et parfois même le type de système d’exploitation utilisé. Grâce à ses nombreuses options, il est possible d’obtenir une vision précise et synthétique de l’état de la surface d’exposition d’un réseau, ce qui est essentiel dans les phases d'audit ou de durcissement d'une infrastructure.
@@ -2023,13 +2037,15 @@ nmap 192.168.0.0/24
 
 Dans cet exemple, tous les hôtes de l’espace `192.168.0.0` à `192.168.0.255` seront interrogés. Le résultat présentera, pour chaque adresse IP, la liste des ports ouverts, leur état (open, filtered…), et si possible, le nom du service correspondant.
 
-![Image](assets/fr/055.webp)
+![Image](assets/fr/035.webp)
 
 Un administrateur peut s’appuyer sur `nmap` pour plusieurs tâches :
 - Détection d’hôtes actifs : en scannant un sous-réseau, on identifie les machines qui répondent à une requête ;
 - Inventaire des services exposés : utile pour vérifier que seuls les ports nécessaires sont accessibles (principe du moindre privilège) ;
 - Vérification de la conformité : comparer les ports ouverts avec la politique de sécurité réseau ;
 - Prévention des failles : repérer des services non sécurisés ou obsolètes ouverts sur des machines critiques.
+
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### Outils d’interrogation des processus
 
@@ -2144,3 +2160,4 @@ La maîtrise conjointe de ces outils, chacun dédié à une étape précise du m
 
 
 <isCourseConclusion>true</isCourseConclusion>
+

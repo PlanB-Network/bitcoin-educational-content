@@ -1,0 +1,9 @@
+question: Czym jest datagram w kontekście protokołu IP?
+answer: Samodzielny blok danych przenoszony przez sieć
+wrong_answers:
+  - Zaszyfrowana wiadomość przeznaczona dla jednego urządzenia
+  - Segment TCP zamknięty w UDP
+  - Sygnał fizyczny z Layer dostępu do sieci
+explanation: |
+  Dane IP są przesyłane w postaci datagramów, niezależnych bloków zawierających wszystkie informacje potrzebne do ich dostarczenia.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Ni ikihe kibazo co gusangira urufunguzo rwa bose rwa Bitcoin Wallet?
+answer: Gutakaza ubuzima bwite.
+wrong_answers:
+  - Gusambura Bitcoin Wallet.
+  - Gutakaza ama Bitcoins.
+  - Gutera ivyatsi Bitcoin Wallet.
+explanation: |
+  Gusangira urufunguzo rwa bose birimwo ingorane ku buzima bwite, ariko si
+  ku mutekano. Ivyo ni kubera ko urufunguzo rwa bose rukoreshwa kugira ngo .
+  generate Bitcoin amaderesi gutyo akaronka amahera, ariko .
+  ntiserukira Ownership y’ama Bitcoins.
+reviewed: true

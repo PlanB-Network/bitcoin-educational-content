@@ -1,0 +1,9 @@
+question: Hvilken type DNS-oppføring brukes til å tilordne et domenenavn med en IPv6 Address?
+answer: AAAA
+wrong_answers:
+  - A
+  - PTR
+  - MX
+explanation: |
+  Type AAAA (quad-A) brukes til å tilordne et domenenavn til en IPv6 Address, mens type A er reservert for IPv4.
+reviewed: false

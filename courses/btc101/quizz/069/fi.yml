@@ -1,12 +1,10 @@
-question: Mikä oli arvioitu määrä bitcoineja liikkeessä ensimmäisen puolittumisen jälkeen?
-answer: 10,500,000 BTC.
+question: Mikä on julkinen avain Bitcoin-lompakossa?
+answer: Sitä käytetään Bitcoin-osoitteiden luomiseen ja siten rahan vastaanottamiseen.
 wrong_answers:
-  - 5,250,000 BTC.
-  - 15,750,000 BTC.
-  - 21,000,000 BTC.
+  - Sitä käytetään Bitcoin-siirtojen salaamiseen.
+  - Sitä käytetään pääsemiseen Bitcoin-lompakkoon.
+  - Sitä käytetään Bitcoin-lompakon varmuuskopioimiseen.
 explanation: |
-  Ensimmäisen puolittumisen, joka tapahtui lohkokorkeudessa
-  210,000, jälkeen liikkeessä olevien bitcoinien arvioitu määrä
-  oli 10,500,000 BTC, mikä on puolet kokonaismäärästä bitcoineja,
-  jotka tulevat olemaan liikkeessä.
+  Julkinen avain johdetaan yksityisestä avaimesta ja sitä käytetään
+  Bitcoin-osoitteiden luomiseen rahan vastaanottamiseksi.
 reviewed: true

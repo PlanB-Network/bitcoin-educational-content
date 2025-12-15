@@ -1,0 +1,9 @@
+question: IP/MACマッピングが有効で最近の場合、ip neighキャッシュのエントリはどのような状態になりますか?
+answer: リーチャブル
+wrong_answers:
+  - コネクテッド
+  - 有効
+  - 陳腐化
+explanation: |
+  REACHABLE状態は、IP/MACマッピングが既知であり、近隣キャッシュで機能していることを意味する。
+reviewed: false

@@ -14,4 +14,4 @@ Kde:
 - $T$: Celkový skutečný čas posledních 2016 bloků v sekundách;
 - $1,209,600$: Cílová doba v sekundách pro vytvoření 2016 bloků s intervalem 10 minut mezi jednotlivými bloky.
 
-> ► Ve francouzštině se někdy pro úpravu používá také výraz "reciblage". V angličtině se označuje jako "Difficulty Adjustment "*
+> ► Ve francouzštině se někdy pro úpravu používá také výraz "reciblage". V angličtině se označuje jako "Difficulty Adjustment".

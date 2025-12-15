@@ -1,0 +1,9 @@
+question: Vilken är den största risken med ackumuleringen av Dust i din mini-PC?
+answer: Processorn stryps
+wrong_answers:
+  - Deletion av Blockchain-block
+  - Diskkorruption
+  - Minskad RAM-kapacitet
+explanation: |
+  Dust blockerar ventilationen, orsakar överhettning och leder till strypning, vilket minskar processorns effektivitet.
+reviewed: true

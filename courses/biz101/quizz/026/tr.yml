@@ -1,0 +1,9 @@
+question: Bir işletme için Bitcoin satın almak üzere bir platform veya broker seçerken göz önünde bulundurulması gereken temel husus nedir?
+answer: Sağlayıcının itibarı, güvenlik önlemleri ve muhasebe için işlem geçmişlerini dışa aktarma yeteneği.
+wrong_answers:
+  - Platformun yalnızca belirsiz kripto para birimlerini desteklediğinden emin olmak.
+  - Herhangi bir müşteri desteği sunmayı reddeden bir sağlayıcı bulmak.
+  - Bitcoin'in kendi kendini muhafaza eden bir Wallet'ye çekilmesini yasaklayan bir hizmetin kullanılması.
+explanation: |
+  Güvenilir bir platform sağlam bir itibara, iyi bir güvenliğe ve kayıt tutma araçlarına sahip olmalıdır. Bitcoin'ü geri çekme ve muhasebe yazılımıyla entegre etme yeteneği de iş operasyonları için çok önemlidir.
+reviewed: false

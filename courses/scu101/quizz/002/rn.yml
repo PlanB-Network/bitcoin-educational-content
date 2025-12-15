@@ -1,0 +1,11 @@
+question: Ni kubera iki uhanuwe kuvoma porogarame ku rubuga rwemewe rw’uwasohoye iyo porogarame aho kuyikura ku mbuga rusangi?
+answer: Kugira ngo umenye neza ko iyo porogarame idafise porogarame mbi.
+wrong_answers:
+  - Kugira ngo utange umusanzu w'amahera kuri nyeneyo.
+  - Kuko iyo porogarame akenshi iba izimbutse cane ku rubuga rwemewe.
+  - Kuko porogarama ziri ku mbuga rusangi akenshi usanga zarataye igihe.
+explanation: |
+  kuvoma porogarama ku rubuga rwemewe rwa nyeneyo bituma uronka kopi yanyayo
+  yemewe ya porogarame, ataho ihuriye na programe mbi zishobora gutuma igikoresho
+  cawe cononekara canke zikiba amakuru yawe.
+reviewed: true

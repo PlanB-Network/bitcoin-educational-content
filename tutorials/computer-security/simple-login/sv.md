@@ -1,5 +1,5 @@
 ---
-name: Enkel inloggning
+name: Simple Login
 description: Identitet skyddad med alias
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ När man använder sin personliga e-post Address för varje inloggning är det l
 Utvecklare av verktyg med öppen källkod har skapat en rad programsviter som är skapade just för att användarna ska få tillbaka lite av sin integritet: de kommer fortfarande att logga in, men med ett alias istället för med det verktyg som avslöjar deras privata identitet.
 
 
-Den enklaste av dem som jag personligen har provat och fortfarande testar är [Simple Login] (https://simplelogin.io/).
+Den enklaste, bland dem jag personligen har provat och fortfarande testar, är just [Simple Login](https://simplelogin.io/).
 
 
 ## Alias
@@ -190,7 +190,7 @@ Resultatet är dock att vi har bevarat den viktigaste Address som vi, från det 
 Ett alias fungerar både för mottagning och sändning: en annan användare kommer att få svaret från alias.preoccupy789@8shield.net, om detta är den pseudonym som valts för just den mottagaren.
 
 
-## Proffs
+## Fördelar
 
 
 Att använda alias är ett effektivt sätt att skydda din identitet och integritet. E-postadresser samlas ofta in av datamäklare och webbplatser för att spåra användarnas vanor och beteenden. Även om ett alias inte gör dig helt ospårbar är det ett positivt steg mot att skydda din information om du konsekvent använder ett. I vår "globala digitala by", där hacking, dataförsäljning och säkerhetsbrister är alltför vanliga, är det dessutom mycket troligt att den e-postadress du använder för att registrera dig på olika webbplatser redan har äventyrats eller utsatts för angrepp.

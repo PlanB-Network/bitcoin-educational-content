@@ -6,4 +6,4 @@ wrong_answers:
   - /23
 explanation: |
   Depuis 2006, chaque RIR reçoit typiquement un bloc /12 d’IPv6, ce qui offre une réserve très large pour l’allocation régionale.
-reviewed: false
+reviewed: true 

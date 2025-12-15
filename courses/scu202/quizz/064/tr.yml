@@ -1,0 +1,9 @@
+question: Hangi Blink tabanlı tarayıcı hızı ve uyumluluğu ile ünlüdür, ancak reklam amacıyla büyük miktarda kullanıcı verisi toplar?
+answer: Krom
+wrong_answers:
+  - Cesur
+  - Firefox
+  - Tor Tarayıcı
+explanation: |
+  Google Chrome güçlü bir araç olmasına rağmen, varsayılan olarak Google'ın hedefli reklamcılık için kullandığı çok sayıda kişisel veri toplar.
+reviewed: false

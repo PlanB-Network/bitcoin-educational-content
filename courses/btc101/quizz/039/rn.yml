@@ -1,0 +1,13 @@
+question: Ni ingaruka izihe uburyo bw’ivy’ubutunzi buriho ubu bushobora kugira ku bagize politike?
+answer: Ntibavyurirwa umutima wo guhindura cane, ivyo bikaba bituma iyo nzira ibandanya gushika aho ishobora gusenyuka.
+wrong_answers:
+  - Bararemeshwa guhindura cane kugira ngo ntihagire ikintu gishobora gutera.
+  - Ntibaremeshwa gukomeza uko bari kugira ngo bashobore kwironsa ubutunzi bwabo bwite.
+  - Baravyurirwa umutima wo kwiyumvira ivy’igihe kirekire.
+explanation: |
+  Uko abakora politike bungukirwa n’ivy’ubutunzi biriho ubu .
+  system, ntibavyurirwa umutima wo guhindura cane.
+  Ivyo bituma iyo sisitemu ibandanya inzira yayo gushika a .
+  implosion bishoboka, nk’uko urutonde rutunganijwe kandi
+  ry’uburenganzira kugira ngo ryirinde gusenyuka kwaryo bwite.
+reviewed: true

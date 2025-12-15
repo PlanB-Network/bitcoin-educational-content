@@ -1,0 +1,8 @@
+question: Ni uruhara uruhe abacukuzi bafise mu mugwi wa Bitcoin?
+answer: Abacukuzi b’amabuye y’agaciro baracungera urubuga bongerako amafaranga y’amabuye.
+wrong_answers:
+  - Abacukuzi b’amabuye y’agaciro barahingura ama bitcoins mashasha.
+  - Abacukuzi barasuzuma akaranga k’abakoresha Bitcoin.
+  - Abacukuzi b’amabuye y’agaciro bashizeho igiciro ca Bitcoin.
+explanation: >-
+reviewed: true

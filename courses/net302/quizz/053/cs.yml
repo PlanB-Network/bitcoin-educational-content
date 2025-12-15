@@ -1,0 +1,9 @@
+question: Který režim NAT umožňuje desítkám zařízení sdílet jednu veřejnou IP adresu Address úpravou portů?
+answer: PAT
+wrong_answers:
+  - Statická síť NAT
+  - Dynamický NAT
+  - Statické směrování
+explanation: |
+  PAT, známý také jako přetížení NAT nebo IP maškaráda, mění čísla portů pro rozlišení relací a umožňuje mnoha zařízením používat stejnou veřejnou síť Address.
+reviewed: false

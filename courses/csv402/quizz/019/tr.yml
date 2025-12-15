@@ -1,0 +1,9 @@
+question: RGB ortamında akıllı sözleşmelerin temel amacı nedir?
+answer: Merkezi bir kayıt defteri olmadan otomatik Bitcoin anlaşmaları uygulayın
+wrong_answers:
+  - Merkezi Bitcoin kayıtlarının oluşturulmasının kolaylaştırılması
+  - Tüm Bitcoin işlemleri için halka açık bir Interface sağlayın
+  - ERC-20 tokenlerinin Bitcoin üzerinde yürütülmesini basitleştirme
+explanation: |
+  RGB akıllı sözleşmeleri, kriptografik çapalar için Bitcoin'ya güvenerek merkezi kayıtların kullanımından kaçınırken anlaşmaların otomasyonunu sağlar.
+reviewed: false

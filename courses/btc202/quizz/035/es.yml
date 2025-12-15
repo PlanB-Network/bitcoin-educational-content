@@ -1,0 +1,9 @@
+question: ¿Qué componente se recomienda para proteger un nodo en caso de fallo de alimentación?
+answer: Un inversor
+wrong_answers:
+  - Una segunda tarjeta gráfica
+  - Un router adicional
+  - Un concentrador USB
+explanation: |
+  Un inversor evita los apagones repentinos en caso de fallo eléctrico y protege la estabilidad del nodo.
+reviewed: true

@@ -1,9 +1,9 @@
-question: What characterizes the complexity of today’s card-based payment process at a retail point of sale?
-answer: It involves multiple intermediaries, several steps, and can take days to fully settle funds.
+question: Đặc điểm nào tạo nên sự phức tạp của quy trình thanh toán bằng thẻ hiện nay tại điểm bán lẻ?
+answer: Quá trình này liên quan đến nhiều bên trung gian, nhiều bước và có thể mất nhiều ngày để giải quyết xong toàn bộ số tiền.
 wrong_answers:
-  - It requires only one instant step and funds are settled immediately.
-  - It relies exclusively on physical cash and no intermediaries.
-  - It ensures that once the card is swiped, the merchant has the funds instantly and irreversibly.
+  - Chỉ cần một bước đơn giản và tiền sẽ được giải ngân ngay lập tức.
+  - Nó chỉ dựa vào tiền mặt và không có trung gian.
+  - Nó đảm bảo rằng khi quẹt thẻ, người bán sẽ có tiền ngay lập tức và không thể hoàn lại.
 explanation: |
-  Card payments often involve a chain of intermediaries (acquirers, issuers, card networks), require authorization and settlement steps, and can take from 48 hours to several days before the merchant receives the net funds.
-reviewed: false
+  Thanh toán bằng thẻ thường liên quan đến một chuỗi trung gian (ngân hàng thu mua, ngân hàng phát hành, mạng lưới thẻ), yêu cầu các bước ủy quyền và thanh toán, và có thể mất từ 48 giờ đến vài ngày trước khi người bán nhận được tiền ròng.
+reviewed: true

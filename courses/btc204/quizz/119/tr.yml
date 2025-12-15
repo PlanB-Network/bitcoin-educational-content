@@ -1,0 +1,10 @@
+question: Geliştirilmiş sekme ile klasik sekme arasındaki temel fark nedir?
+answer: İşlemlerin zaman içindeki dağılımı
+wrong_answers:
+  - Kullanılan işlem sayısı
+  - Kullanılan Address tipi
+  - İşlemlerdeki çıktı sayısı
+explanation: |
+  Geliştirilmiş ricochet her işlemin farklı bir zamanda yayınlanmasını ve farklı bir bloğa kaydedilmesini sağlarken, klasik ricochet tüm işlemleri kısa bir zaman dilimi içinde yayınlar.
+  
+reviewed: false

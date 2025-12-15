@@ -1,0 +1,9 @@
+question: در چه سالی اولین بخش ARPANET عملیاتی شد؟
+answer: ۱۹۶۹
+wrong_answers:
+  - ۱۹۷۲
+  - ۱۹۶۲
+  - ۱۹۶۱
+explanation: |
+  اولین بخش ARPANET در اکتبر 1969 عملیاتی شد و UCLA و استنفورد را به هم متصل کرد.
+reviewed: false

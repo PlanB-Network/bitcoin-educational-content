@@ -1,10 +1,13 @@
-question: Je, malipo ya Mining hupunguzwa mara ngapi?
-answer: Kila vitalu 210,000.
+question: Je! ni maneno gani ya Mnemonic katika Bitcoin Wallet?
+answer: Orodha ya maneno 12 au 24 ambayo hukuruhusu kufikia bitcoins zako.
 wrong_answers:
-  - Kila vitalu 120,000.
-  - Kila vitalu 540,000.
-  - Kila vitalu 2,100,000.
+  - Nenosiri lililochaguliwa ili kufikia Bitcoin Wallet.
+  - Msimbo wa kusimba miamala ya Bitcoin kwa njia fiche.
+  - Maneno ya kurejesha siri ambayo huharibu Bitcoin Wallet ikiwa ni lazima.
 explanation: |
-  Zawadi ya Mining imepangwa kupunguza nusu kila 210,000
-  blocks, which is approximately every four years: an event
+  Tangu 2017, ufunguo wa kibinafsi unaweza kusimbwa katika orodha rahisi
+  ya maneno 12 au 24, inayoitwa kifungu cha Mnemonic. Msemo huu
+  ni nakala rudufu ya Bitcoin Wallet yako, kwa hivyo hukuruhusu kufanya hivyo
+  fikia bitcoins zako kwa kutumia Bitcoin Wallet yoyote
+  programu/programu.
 reviewed: true

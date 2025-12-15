@@ -1,0 +1,9 @@
+question: Hangi dağıtım hala sürdürülen en eski dağıtım olarak kabul edilir?
+answer: Slackware
+wrong_answers:
+  - Fedora
+  - Gentoo
+  - Manjaro
+explanation: |
+  Patrick Volkerding tarafından 1993 yılında oluşturulan Slackware, bugün hala aktif olan en eski Linux dağıtımıdır.
+reviewed: false

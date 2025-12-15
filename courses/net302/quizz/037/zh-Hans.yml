@@ -1,0 +1,9 @@
+question: 特殊 IPv4 符号 0.0.0.0 的作用是什么？
+answer: 指定所有接口或未指定的 Address
+wrong_answers:
+  - 向所有网络发送信息
+  - 测试设备的本地连接
+  - 表示本地路由器出现寻址或连接错误
+explanation: |
+  本地使用 0.0.0.0 表示没有指定的 Address 或监听所有接口。
+reviewed: false

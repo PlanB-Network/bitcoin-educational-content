@@ -1,5 +1,5 @@
 ---
-name: Wallet از Satoshi
+name: Wallet of Satoshi
 description: ساده‌ترین Wallet حضانتی برای شروع
 ---
 ![cover](assets/cover.webp)
@@ -12,7 +12,7 @@ _این آموزش توسط_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_) 
 
 Wallet از Satoshi یک Lightning Network Wallet، نگهداری، و بسیار ساده برای استفاده است.
 
-برای اهداف دوره [BTC105 - Finding Now](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5)، از ووچرهای Redeem Lightning Network استفاده می‌شود.
+برای اهداف دوره [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5)، از ووچرهای Redeem Lightning Network استفاده می‌شود.
 
 
 **همیشه به یاد داشته باشید**: _کلیدهای شما نیست، سکه‌های شما نیست_
@@ -79,8 +79,8 @@ Wallet از Satoshi پیامی به صندوق ایمیل مشخص شده ارس
 در صندوق پستی، دو کلمه پیدا خواهیم کرد که باید آن‌ها را بازنویسی کرده و در فضای ارائه شده توسط برنامه وارد کنیم.
 
 
-- مترجم را فعال نکنید: کلمات به زبان انگلیسی هستند و باید به همان صورت باقی بمانند**
-- متن را با توجه به حروف بزرگ/کوچک بازنویسی کنید**
+- مترجم را فعال نکنید: کلمات به زبان انگلیسی هستند و باید به همان صورت باقی بمانند
+- متن را با توجه به حروف بزرگ/کوچک بازنویسی کنید
 
 
 ![image](assets/it/10.webp)
